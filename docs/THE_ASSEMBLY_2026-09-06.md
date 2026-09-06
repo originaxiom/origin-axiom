@@ -24,13 +24,17 @@ not predicted. Its *contents* are walled by four theorems, three of them compute
    the geometric E₆ point **|N(27)| ≤ 1** for every deformation, θ-odd or not; the θ-odd point actually
    reached has N = 0 with no cusp invariants at all (B1266). Three generations cannot be a net count of this
    object anywhere the corpus's chirality frame lives.
-3. **The 27 is not a field on the 3-manifold in either transport** — the fields on it are adjoint-valued, a 27
-   arises only at an isolated E₇-enhancement point — so `h¹(M;27)` counts nothing physical (B1267 §1).
+3. **With an E₆ singularity along the 3-manifold the 27 is not a field on it** — the fields are adjoint-valued
+   and a 27 arises only at an isolated E₇-enhancement point (B1267 §1, scope corrected by its addendum). **With
+   the singularity the golden face supplies — E₈ — the 27 is a field on it**, and its count on m004 is one 27
+   and one 27̄ (B1268 §2): a slot, and a vector-like count in it.
 4. **The Standard-Model algebra is not a centralizer in e₆** (double-centralizer theorem, B1267 §3): no flat
    connection, Wilson line or adjoint VEV leaves exactly the SM; rank drops at most 6 → 5 through a
    non-abelian image; the rest needs 27-VEVs the object does not supply (B955, B952).
 
-What remains to be *built* is a single named geometric object, not a missing ingredient: **a conical G₂
+**E₆ itself is derived, not handed over** (B1268): the product of the two letters puts the object in the
+icosian E₈, the ratio cuts E₆ out of it as the complement of the Eisenstein plane, and the 27, its ℤ/3 and its
+θ are the same cut. What remains to be *built* is a single named geometric object, not a missing ingredient: **a conical G₂
 geometry whose E₆ locus carries three isolated E₇ points permuted by ℤ/3 = 2T/Q₈** — B1084's three A₁ families,
 which every flat orbifold spreads into lines (B1259). That, a compact holonomy or a non-adjoint Higgs source
 for rank 6 → 4, and the listener map I-13 for any value, are the whole remaining price (§7).
@@ -42,7 +46,7 @@ for rank 6 → 4, and the listener map I-13 for any value, are the whole remaini
 | L1 | `A = LR = [[2,1],[1,1]]` ∈ SL(2,ℤ), trace 3, eigenvalues φ^{±2}; its mapping torus is the figure-eight complement m004, the unique arithmetic knot complement | genesis; B266; `scripts/external_verification/spine_recompute.py` (18/18) | EARNED |
 | L2 | trace field ℚ(√−3); Riley locus u² − u + 1; longitude trace −2 | B266; B1112 | EARNED |
 | L3 | π₁(m004) ↠ SL(2,𝔽₃) = 2T — 72 homomorphisms, 48 surjections, **two** Aut-classes | B266; **B1263** (I-6 side A); B1267 reproduces 72/48 | EARNED as a fact; I-6 (2T ≡ the ALE Γ) UNEARNED |
-| L4 | McKay(2T) = affine E₆ | B266, B727 (I-1) | **EARNED** |
+| L4 | **E₆ from both faces:** the product `RL` mod 5 generates SL(2,𝔽₅) = 2I, whose ℤ[φ]-span is the icosian lattice **E₈** (240 roots, determinant 1); the ratio `g = −RL⁻¹` (order 3) maps to a unit icosian with g² + g + 1 = 0, the Eisenstein plane ℤ[ω] = A₂; **E₆ = ℤ[g]^⊥ inside E₈** (72 roots, the E₆ Cartan matrix, [E₈ : A₂ ⊕ E₆] = 3); the other 162 roots are six classes of 27 (the (27,3) ⊕ (27̄,3̄)), left multiplication by g is the ℤ/3, quaternion conjugation is θ. McKay(2T) = affine E₆ (B266, B727, I-1) is the same E₆ seen from the Eisenstein end alone | **B1268** (exact); B206, B210, B256, B258, K021 | **DERIVED from the two letters** |
 | L5 | the object's E₆ representation variety at the geometric point: dim H¹(M; e₆) = 6 = rank, one class per exponent; the θ-odd classes are exponents {4, 8} | B264/B265/B281; B575/B576; **B1265** (recomputed: closure e₆ for hv8, hv16; f₄ for hv10, hv14, hv22); **B1267** (h¹(78) = 6; subregular 8) | EARNED |
 | L6 | the native gauge system is complex Chern–Simons of E₆(ℂ): no real form contains the holonomy | B715 | EARNED (negative for Yang–Mills) |
 | L7 | the measurement cascade = an adjoint Higgs mechanism: E₆ → so(10)⊕u(1) → su(5)⊕u(1)² → **su(3)⊕su(2)⊕u(1)³** (rank 6, dim 14), the terminal registerable algebra | B861, B863, B964; B1250 (step 1 forced by the D₂ stabiliser); B1252 | EARNED as Lie theory; two steps from the SM (B1261) |
@@ -63,6 +67,8 @@ E₆ → E₇.
 |---|---|---|---|---|---|
 | the geometric holonomy through the principal SL(2) | no (B715) | 3d-3d: T[m004; E₆] at its geometric vacuum | 0 (centre ℤ₃) | **6** chiral multiplets = dim of the E₆ character variety (B281's rank law) | — (3d) |
 | the same through the subregular SL(2) (B1257) | no | 3d-3d | 0 | **8** | — |
+| **the two-face transport (B1268): the golden E₈ as the singularity, the Eisenstein 2T inside the SU(3) that E₆ centralizes, via the real 3** | **yes** | **Acharya–Witten, 4d N=1** | **E₆ exactly** (no invariants in (1,8), (27,3), (27̄,3̄)) | **one adjoint chiral, one 27, one 27̄, two singlets** (h¹(3) = 1, h¹(8\|_{2T}) = 2) | **0** (one pair) |
+| the same via the complex Eisenstein twist 2′ ⊕ ω | yes | Acharya–Witten | E₆ × U(1) | one adjoint chiral; **no 27s** (h¹(2′) = h¹(2″) = 0 for all 48 quotients) | 0 |
 | the θ-odd amalgam on the double (B582) | no | 3d-3d on D_t | 0 (closure e₆) | h¹(D_t; 27) = 2 is not a spectrum; h¹(D_t; 78) not computed | vector-like in any count (closed) |
 | **the 2T quotient** (48 surjections, both classes) through the principal or subregular SU(2) | **yes** | **Acharya–Witten, 4d N=1** | **u(1)⁴** (B854; B1267 by a second route) | **24 chiral multiplets: 4 neutral + 20 charged (h¹(1) = 1, h¹(ω) = h¹(ω̄) = 0, h¹(3) = 1; 78 = 4·1 + 7ω + 7ω̄ + 20·3)** | **0** (charges pair q ↔ −q) |
 | the θ-twist of the E₆ ALE fibre by 2O/2T along the meridian's mod-2 class | yes | Acharya–Witten | **f₄** | one adjoint chiral (b¹ = 1), **zero 26s** (h¹(C_{−1}) = 0) | 0 |
@@ -101,10 +107,12 @@ number of them. **Three is unreachable near the geometric point; zero is what ev
 by the object's own arithmetic — the only place in the corpus where a three of the right *kind* (three 27s,
 same sign by the ℤ/3 symmetry) can arise (B1267 §5). It is a named object, not a computation on this bench.
 
-**q3 — I-26, the transport.** Both halves computed (B1267): the surviving gauge algebra is 0 for every holonomy
-that could be chiral and u(1)⁴ for the unitary one; the compactification in which an h¹ counts something is
-exhibited and counts adjoint multiplets, vector-like. `h¹(M; 27)` has no slot in any transport. **I-26 stays
-UNEARNED with its price reduced to q2's named object.**
+**q3 — I-26, the transport.** Both halves computed (B1267): with an E₆ singularity the surviving gauge algebra
+is 0 for every holonomy that could be chiral and u(1)⁴ for the unitary one, and the h¹'s count adjoint
+multiplets, vector-like; `h¹(M; 27)` has no slot there. **With the golden E₈ as the singularity (B1268) the 27
+has a slot** — the (27,3) of E₈ ⊃ E₆ × SU(3), counted by h¹(Q; 3_ρ) — and the object's Eisenstein 2T fills it
+with **one 27 and one 27̄** (the real 3), or with **nothing** (the complex twists 2′ ⊕ ω, 2″ ⊕ ω̄: 0 = 0, no cusp
+invariants). **I-26 stays UNEARNED with its price reduced to q2's named object.**
 
 **JOIN 1's disposition, in MAIN_GOAL's own currency:** *refuted* for every h¹ reading (the count is not a
 twisted Betti number of this manifold), *blocked by a named object* for the E₇-point route.
@@ -152,9 +160,9 @@ strata and the 23 S-matrix arcs remain the largest banked-but-unworked surface (
    symmetry is the object to construct or to prove impossible. Until then the generation count has no
    carrier in the programme, and no h¹ will substitute (§3).
 2. **A compact holonomy or a non-adjoint Higgs source.** The SM algebra is not a centralizer in e₆ (B1267 §3);
-   rank 6 → 4 needs two 27-VEVs (B955's reframe), and the object supplies no 27 field on Q (B1267 §1). Either a
-   transport in which a 27 lives on Q (an E₇ singularity with a U(1) Wilson line — whose 27 count is
-   h¹(Q; C_χ), walled by Alexander reciprocity, B1260 (2)) or the E₇ points of item 1 again.
+   rank 6 → 4 needs two 27-VEVs (B955's reframe). The two-face transport does put a 27 on Q (B1268) — one 27
+   and one 27̄, whose VEVs could in principle do the rank reduction the adjoint cannot — but the object supplies
+   the pair's *existence*, not a potential or a vacuum for it; and the pair is vector-like.
 3. **The listener map (I-13).** Every value in §6 routes through it (B1241, B1261). No computation in this
    document touches it.
 
@@ -164,6 +172,7 @@ strata and the 23 S-matrix arcs remain the largest banked-but-unworked surface (
 |---|---|---|
 | **B1265** | the 27-instrument rebuilt from `frontier/B883_the_27/rep27.json`; the dial slots; the θ-parity dichotomy; the spectrum law (27 and 27̄, principal and subregular, cusped and double) | `tests/test_b1265_spectrum_law_rebuilt.py` |
 | **B1266** | the net-chirality lemma and bound, instantiated exactly; the θ-odd deformation of the cusped E₆ holonomy at 400 bits and its N | `tests/test_b1266_cusped_bound.py` |
-| **B1267** | the transports; every centralizer; the double-centralizer theorem; the adjoint and finite-image spectra; the 2T quotients | `tests/test_b1267_transport.py` |
+| **B1267** | the transports; every centralizer; the double-centralizer theorem; the adjoint and finite-image spectra; the 2T quotients (scope of §1 corrected by its addendum) | `tests/test_b1267_transport.py` |
+| **B1268** | E₆ from the two faces: the icosian E₈, the founding ratio's Eisenstein plane, E₆ as its complement with the 27, ℤ/3 and θ; the E₈ transport's counts on m004 | `tests/test_b1268_e6_from_the_two_faces.py` |
 | B1260, B1259, B1086, B1036, B1252, B1253, B1255, B1256, B1257, B1261, B1263 | as cited | their own locks |
 | `scripts/external_verification/` | the spine (18/18), the Menal-Ferrer–Porti law over two primes, W1/W2, PSL(2,7), the extension | run records in `docs/EXTERNAL_VERIFICATION_2026-09-06.md` |

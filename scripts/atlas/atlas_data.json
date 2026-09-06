@@ -6322,6 +6322,32 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1268": {
+   "slug": "e6 from the two faces",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B206",
+    "B210",
+    "B256",
+    "B258",
+    "B315",
+    "B332",
+    "B576",
+    "K021",
+    "L4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

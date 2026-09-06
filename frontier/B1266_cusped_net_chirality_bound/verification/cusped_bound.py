@@ -80,7 +80,7 @@ def cocycle_value(rep, word, fa, fb):
     return val
 
 
-def lemma_row(rep, label):
+def lemma_row(rep, label, quiet=False):
     """All the lemma's ingredients for a representation of pi_1(m004) (exact)."""
     n = rep.n
     I = E.qw_eye(n)
@@ -103,8 +103,9 @@ def lemma_row(rep, label):
     R = np.array(cols, dtype=object).T if cols else np.empty((2 * n, 0), dtype=object)
     rank_res = E.rank_qw(np.hstack([R, Bt])) - rB
     N = rank_res - h0t
-    print(f"  {label}: h0(M) = {h0}, h1(M) = {h1}, h0(dM) = {h0t}, h1(dM) = {h1t}, rank(res) = {rank_res}  =>  "
-          f"lemma value rank(res) - h0(dM) = {N}")
+    if not quiet:
+        print(f"  {label}: h0(M) = {h0}, h1(M) = {h1}, h0(dM) = {h0t}, h1(dM) = {h1t}, rank(res) = {rank_res}  =>  "
+              f"lemma value rank(res) - h0(dM) = {N}")
     return dict(h0=h0, h1=h1, h0t=h0t, h1t=h1t, rank_res=rank_res, N=N)
 
 

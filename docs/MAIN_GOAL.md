@@ -102,3 +102,10 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   critical points of B6's earned potential, τ² − τ − 1 = 0, are the fixed points of A = LR on the boundary.
 - **The assembly:** `docs/THE_ASSEMBLY_2026-09-06.md` — the chain link by link, the physical elevation under
   each transport, and the remaining price as three named objects.
+- **E₆ derived from both faces (B1268, on the owner's correction "our object has two faces").** The product
+  `RL` mod 5 gives SL(2,𝔽₅) = 2I whose ℤ[φ]-span is the icosian **E₈**; the ratio `g = −RL⁻¹` gives the
+  Eisenstein plane ℤ[ω] inside it; **E₆ = ℤ[g]^⊥** (72 roots, the E₆ Cartan matrix, index 3), with the six
+  classes of 27, the ℤ/3 and θ falling out of the same cut. The transport this makes — E₈ along Q, the
+  Eisenstein 2T inside the SU(3) that E₆ centralizes — has gauge group **exactly E₆** and puts the 27 on Q
+  (B1267 §1's scope corrected): one 27, one 27̄, net 0; the complex Eisenstein twists give 0 = 0. JOIN 1's
+  count stands at one vector-like pair; the named object of q2 is unchanged.

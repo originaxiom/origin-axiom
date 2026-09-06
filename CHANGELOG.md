@@ -1,5 +1,15 @@
 # Changelog
 
+## E₆ FROM THE TWO FACES — the golden E₈ cut by the Eisenstein ratio, and the 27 gets its slot
+
+**B1268**, on the owner's correction. The product `RL` mod 5 generates SL(2,𝔽₅) = 2I, whose ℤ[φ]-span is the
+icosian lattice **E₈** (240 roots, determinant 1); the ratio `g = −RL⁻¹` maps to a unit icosian with
+g² + g + 1 = 0, the Eisenstein plane ℤ[ω]; **E₆ = ℤ[g]^⊥** — 72 roots, the E₆ Cartan matrix, index 3 — and
+the other 162 roots are six classes of 27 with the ℤ/3 (left multiplication by g) and θ (conjugation). The
+transport this makes has gauge group **exactly E₆** and puts the 27 on m004: **one 27, one 27̄**; the complex
+Eisenstein twists give none. B1267 §1's "no slot in either transport" is scoped to the E₆ singularity and
+corrected at source (E66). Price unchanged at 14.
+
 ## THE ASSEMBLY — three arcs and a document: the spectrum law rebuilt, net chirality bounded on the cusped object, the transport computed
 
 **B1265** rebuilds the 27-instrument and the dial matrices from **B883's `rep27.json`** (B1086's named residual

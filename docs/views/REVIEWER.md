@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1176** |
-| words of findings prose | **824,488** |
-| test lock files referenced | **692** |
-| arcs carrying an authored verdict | **1176** (100.0 %) |
+| research arcs with findings | **1177** |
+| words of findings prose | **825,952** |
+| test lock files referenced | **693** |
+| arcs carrying an authored verdict | **1177** (100.0 %) |
 | recorded closures | **783** (616 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 767 |
+| PROVED | 768 |
 | NEGATIVE | 311 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1267`** (1542 words, 1 locks)  
-THE TRANSPORT COMPUTED. I-26 asks for the compactification in which an h^1 of the object counts 4d chiral generations and for the surviving gauge group; both are computed here on the rebuilt instrument. (1) In the Acharya-Witten dictionary (M-theory on a G2 space with an E6 singularity along Q, compact holonomy) and in the 3d-3d dictionary alike, the fields living on Q are ADJOINT-valued: the massless spectrum is H^1(Q; 78_rho) under the centralizer c_e6(rho), and a 27 arises only at isolated E7-enhancement points -- h^1(M;27) has no slot in either. (2) The centralizers, exact: 0 for the principal SL(2), 0 for the subregular, 0 for the theta-odd amalgam (closure e6), u(1)^4 for the finite quotient 2T through the principal AND the subregular SU(2) (B854 by an independent route: 2T built inside SL(2,Q(omega))). (3) THE DOUBLE-CENTRALIZER THEOREM: for B1252's Standard-Model subalgebra s = su(3)+su(2)+u(1)_Y inside e6, dim c(s) = 5 and dim c(c(s)) = 13 != 12 = dim s, while the full-rank Levi containing it has c(c(l)) = l (dim 14): the SM algebra is NOT the centralizer of anything in e6, so no flat connection, Wilson line or adjoint VEV leaves exactly the SM -- B952/B955's rank obstruction extended to all holonomies (rank can drop 6 -> 5 through a non-abelian image, no further). (4) The spectra: h^1(m004;78) = 6 (principal) and 8 (subregular); h^1 = 1, 0, 0, 0, 1 for the trivial, omega, omega-bar, sign and 3-dimensional 2T-coefficient systems; the object's one unitary flat connection -- the 2T quotient, 72 homomorphisms / 48 surjections reproducing B1263, both Aut-classes identical -- transports to a 4d N=1 U(1)^4 theory with 24 chiral multiplets (4 neutral + 20 charged in +- pairs), VECTOR-LIKE; the theta-twisted reading gives F4 SYM with one adjoint and zero 26s. (5) Hence the reading 'h^1(M;27) = generations' is refuted in every transport the corpus's frame admits, and I-26's remaining price is a named object: a conical G2 geometry with three isolated E7 points on the E6 locus permuted by 2T/Q8 -- B1084's three A1 families, which every flat orbifold spreads into lines (B1259).  
-`B1267_transport_computed/FINDINGS.md`
+**PROVED — `B1268`** (1464 words, 1 locks)  
+E6 FROM THE TWO FACES. The corpus had E8 at the golden end (RL -> Q(sqrt5) -> 2I) and E6 at the Eisenstein end (g = -R L^-1 -> Q(sqrt-3) -> 2T) and said neither forces the other; here E6 is derived from both at once, exactly. THE GOLDEN FACE GIVES E8: the 120 unit icosians (2I, orders 1,1,20,30,24,20,24) and the icosian ring under Conway-Sloane's Euclidean norm have 240 norm-2 vectors spanning a lattice of determinant 1; <R,L> mod 5 = SL(2,F5) of order 120, and an explicit isomorphism SL(2,F5) -> 2I is constructed (checked well-defined on all 120 elements). THE EISENSTEIN FACE CUTS: the founding ratio g = -R L^-1 (order 3) maps to the unit icosian g_q = (-1/2, -phi/2, 0, phi^-1/2) with g_q^2 + g_q + 1 = 0, so {1, g_q} is the A2 = Z[omega] lattice (Gram [[2,-1],[-1,2]]); its orthogonal complement in E8 has exactly 72 roots whose simple roots carry the E6 Cartan matrix (determinant 3, one branch node), all 72 integral in them, [E8 : A2 + E6] = 3. THE CUT PRODUCES THE REST: the other 162 roots fall into six classes of 27 by their Eisenstein pairings (the (27,3) + (27bar,3bar) of E8 > E6 x SU(3)); left multiplication by g_q cycles each triple (the Z/3); quaternion conjugation swaps the two triples (theta = the Eisenstein conjugation, B576's mirror axis made exact). THE TRANSPORT: with the golden E8 as the singularity along Q and the Eisenstein 2T inside the SU(3) that E6 centralizes, the 27 IS a field on Q (correcting B1267 section 1's scope), counted by h1(Q;3_rho): the commutant of 2T via its 3 is E6 EXACTLY (characters: no invariants in (1,8), (27,3), (27bar,3bar)), via 2'+omega it is E6 x U(1), via 2+1 it is larger. For all 48 surjections pi_1(m004) -> 2T (B1263 reproduced a third time): h1(m004; 2') = h1(2'') = 0 with no cusp invariants (N = 0 by B1266's bound), h1(2) = 2 or 0 by class, and the real 3 gives one 27 and one 27bar. The parameter-free 4d N=1 theory the two faces make: gauge group exactly E6, one adjoint chiral, one 27, one 27bar, two singlets -- vector-like, one pair, not three. E6 is what the two ends make together; the count stays 1 = 1.  
+`B1268_e6_from_the_two_faces/FINDINGS.md`
 
 **NEGATIVE — `B1262`** (520 words, 0 locks)  
 I-9 REFUTED: THERE IS NO 'GENUS V4' FOR DISCRIMINANT -15, and the row had carried its own discriminator UNRUN. B1261 measured the trade at 15 unpriced inputs : 0 of the SM's 19 numbers and named two moves -- earn an identification (-1) or derive a parameter (+1); the ratchet's arithmetic contains a THIRD and cheaper one, REFUTE, which also removes a row from the UNEARNED set. I-9 was the candidate because its own text said 'the genus group of disc -15 has order 2^(t-1) = 2, not 4' and nobody had run it. COMPUTED: disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2 genera, so the genus group has ORDER 2 against Gal(Q(sqrt-3,sqrt5)/Q)'s ORDER 4. THERE IS NO GENUS V4 FOR DISC -15: the object the row NAMES does not exist, and the identification is false as stated. THE FALLBACK READING FAILS TOO on the programme's own rules -- reading side B as Gal does match orders 4 = 4, but that is an ORDER MATCH which B1223 established is not a connection ('Direct is not semidirect': the groups matched, the action did not), and B155's own row calls the glue a GL(4,Z)-class invariant 'not forced by the spectral type', i.e. LATTICE data against Gal's FIELD data, so a canonical map cannot exist. CONTROLS BOTH WAYS: the class-number routine is validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) BEFORE being trusted, which caught a real bug -- a first draft returned h(-15) = 3 by admitting (1,-1,4), which is not reduced since b >= 0 is required when |b| = a -- and discriminants with t = 3 (-84, -120) DO give 4 genera, so order 2 is a fact about -15 and not about the method. THE PRICE: UNEARNED 11 -> 10, the trade moves from 15 : 0 to 14 : 0, the first reduction, and it came from running a discriminator the register had been carrying all along.  

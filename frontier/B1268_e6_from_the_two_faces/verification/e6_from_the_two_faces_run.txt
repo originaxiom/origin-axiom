@@ -1,0 +1,30 @@
+=== (1) E6 = Z[omega]^perp inside the golden E8 (icosians), exact over Q(sqrt5) ===
+  unit icosians: 120, element orders {1: 1, 2: 1, 3: 20, 4: 30, 5: 24, 6: 20, 10: 24}  (2I: 1,1,30,20,24,20,24)
+  Z-basis of the root lattice: 8 vectors, Gram determinant = 1   (E8: 1)
+  Eisenstein plane {1, w} with w of order 3: Gram = [[2, -1], [-1, 2]], det = 3   (A2: [[2,-1],[-1,2]], 3)
+  roots orthogonal to the Eisenstein plane: 72   (E6: 72)
+  simple roots of the complement: 6; Cartan matrix rows: [[Fraction(2, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1)], [Fraction(0, 1), Fraction(2, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(-1, 1), Fraction(-1, 1), Fraction(2, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1), Fraction(-1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(-1, 1), Fraction(2, 1), Fraction(0, 1)], [Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1)]]
+  Dynkin degrees [1, 1, 1, 2, 2, 3]   (E6: [1,1,1,2,2,3] -- one branch node of degree 3, three legs)
+  Cartan determinant of the complement's simple roots = 3   (E6: 3)
+  complement roots that are integral combinations of the simple roots: 72/72
+  index [E8 : A2 + E6] = sqrt(det(A2) det(E6) / det(E8)) = sqrt(3*3/1) = 3   (Z/3, the Eisenstein prime)
+  the other 162 roots, by their A2-pairings (B(r,1), B(r,w)): {(Fraction(-1, 1), Fraction(0, 1)): 27, (Fraction(-1, 1), Fraction(1, 1)): 27, (Fraction(0, 1), Fraction(-1, 1)): 27, (Fraction(0, 1), Fraction(1, 1)): 27, (Fraction(1, 1), Fraction(-1, 1)): 27, (Fraction(1, 1), Fraction(0, 1)): 27}
+     -> six classes of 27: the three weights of the 3 (27 each) and the three of the 3bar (27 each)
+  left multiplication by w maps classes: [((Fraction(-1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(-1, 1))), ((Fraction(-1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(-1, 1))), ((Fraction(0, 1), Fraction(-1, 1)), (Fraction(1, 1), Fraction(0, 1))), ((Fraction(0, 1), Fraction(1, 1)), (Fraction(-1, 1), Fraction(0, 1))), ((Fraction(1, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(1, 1))), ((Fraction(1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(1, 1)))]
+  quaternion conjugation maps classes:   [((Fraction(-1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(1, 1))), ((Fraction(-1, 1), Fraction(1, 1)), (Fraction(-1, 1), Fraction(0, 1))), ((Fraction(0, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(1, 1))), ((Fraction(0, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(-1, 1))), ((Fraction(1, 1), Fraction(-1, 1)), (Fraction(1, 1), Fraction(0, 1))), ((Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(-1, 1)))]
+  --- the founding identity inside the icosians ---
+  <R, L> mod 5 has order 120   (SL(2,F5) = 2I: 120)
+  g = -R L^-1 mod 5 = (0, 4, 1, 4), g^3 = (1, 0, 0, 1)   (order 3)
+  an isomorphism SL(2,F5) -> 2I (unit icosians) exists; it sends g = -R L^-1 to the order-3 unit ('(-1/2+0r5)', '(-1/4+-1/4r5)', '(0+0r5)', '(-1/4+1/4r5)')
+  minimal polynomial check: g_q^2 + g_q + 1 = ('(0+0r5)', '(0+0r5)', '(0+0r5)', '(0+0r5)')   (zero: g_q generates Z[omega])
+  roots orthogonal to the Eisenstein plane {1, g_q} of the founding ratio: 72   (E6: 72)
+
+=== (2) the Eisenstein twists 2', 2'' of 2T on m004: the net 27-count under E8 > E6 x SU(3) ===
+  homomorphisms pi_1(m004) -> 2T (2T as unit quaternions over Q(omega)): 72, surjective 48
+  (ord a, ord b, h1(2), h1(2'), h1(2''), h0(dM;2'), rank(res 2'), h0(dM;2''), rank(res 2''), N) -> count
+    (3, 3, 0, 0, 0, 0, 0, 0, 0, 0) -> 24
+    (6, 6, 2, 0, 0, 0, 0, 0, 0, 0) -> 24
+  --- the surviving gauge algebra in E8 > E6 x SU(3), 248 = (78,1)+(1,8)+(27,3)+(27bar,3bar) ---
+   2T -> SU(3) via 3 (irreducible, real): invariants in (1,8): 0, in (27,3): 0, in (27bar,3bar): 0  ->  commutant = e6 + u(1)^0 + 0 root vectors  ->  E6 exactly
+   2T -> SU(3) via 2' + w (complex): invariants in (1,8): 1, in (27,3): 0, in (27bar,3bar): 0  ->  commutant = e6 + u(1)^1 + 0 root vectors  ->  E6 x U(1)
+   2T -> SU(3) via 2 + 1 (quaternionic + trivial): invariants in (1,8): 1, in (27,3): 27, in (27bar,3bar): 27  ->  commutant = e6 + u(1)^1 + 54 root vectors  ->  larger than E6 (E7 for 2+1)

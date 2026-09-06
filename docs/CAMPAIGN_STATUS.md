@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1268 — E₆ FROM THE TWO FACES)**: on the owner's correction, E₆ derived from both letters
+at once — `RL` mod 5 gives SL(2,𝔽₅) = 2I and the icosian **E₈**, `g = −RL⁻¹` gives the Eisenstein plane inside
+it, **E₆ = ℤ[g]^⊥** (72 roots, the E₆ Cartan matrix, index 3) with the six classes of 27, the ℤ/3 and θ from the
+same cut. The transport: E₈ along Q, Eisenstein 2T in the SU(3) that E₆ centralizes → **gauge group exactly E₆**,
+**one 27 and one 27̄** on m004 (the 27 has a slot; B1267 §1 scoped and corrected, E66), no 27s from the complex
+twists. Count unchanged at one vector-like pair; price unchanged at 14.
+
 **LATEST (2026-09-06, B1265–B1267 — THE ASSEMBLY: JOIN 1 worked to its computations)**: the spectrum law
 rebuilt from the repository's own 27 (B1086's residual paid; **27̄ = 27 in every cell**; the subregular double
 gives 6 or 4, never 3); **net chirality on the cusped object bounded by the cusp**, −h⁰(∂M;V) ≤ N ≤ h⁰(∂M;V\*),

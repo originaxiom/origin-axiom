@@ -14101,3 +14101,27 @@ elevation (what theory the object IS under each transport: T[m004; E₆] with 6 
 (JOIN 1 refuted for every h¹ reading and blocked by the named conical object; JOIN 2 closed by B1261; JOIN 3
 unchanged with one exact observation: B6's potential's critical points are the fixed points of A = LR on the
 boundary); the assembly graded against the specification ledger; the remaining price as three named objects.
+
+### B1268 — E₆ from the two faces (2026-09-06)
+
+On the owner's correction — *"you failed to derive E₆ from the program. Our object has two faces, golden and
+Eisenstein."* The corpus had the two ends (B206, B210, B256, B258, K021) and said neither forces the other;
+E₆ is now derived from both at once, exactly (`frontier/B1268_e6_from_the_two_faces/verification/e6_from_the_two_faces.py`).
+
+- **The golden face gives E₈:** the 120 unit icosians (2I; orders 1¹2¹3²⁰4³⁰5²⁴6²⁰10²⁴), the icosian ring's
+  240 norm-2 vectors span a lattice of determinant **1**; ⟨R, L⟩ mod 5 = SL(2,𝔽₅) of order 120 and an explicit
+  isomorphism SL(2,𝔽₅) → 2I is constructed and checked on all 120 elements.
+- **The Eisenstein face cuts:** the founding ratio g = −RL⁻¹ (order 3) maps to the unit icosian
+  (−1/2, −φ/2, 0, φ⁻¹/2) with g² + g + 1 = 0 — the plane {1, g} is A₂ = ℤ[ω] (Gram [[2,−1],[−1,2]]) — and
+  **E₆ = ℤ[g]^⊥**: 72 roots, simple roots with the E₆ Cartan matrix (degrees [1,1,1,2,2,3], determinant 3),
+  all 72 integral in them, **[E₈ : A₂ ⊕ E₆] = 3**.
+- **The cut produces the rest:** the other 162 roots are **six classes of 27** by their Eisenstein pairings
+  (the (27,3) ⊕ (27̄,3̄) of E₈ ⊃ E₆ × SU(3)); left multiplication by g cycles each triple (the ℤ/3);
+  quaternion conjugation swaps the triples (θ = the Eisenstein conjugation; B576's mirror axis made exact).
+- **The transport it makes** (B1267 §1's scope corrected by addendum, E66): the golden E₈ along Q with the
+  Eisenstein 2T inside the SU(3) that E₆ centralizes gives **gauge group exactly E₆** (commutant by characters:
+  no invariants in (1,8), (27,3), (27̄,3̄)) and **puts the 27 on Q**: one 27 and one 27̄ (h¹(m004; 3) = 1),
+  one adjoint chiral, two singlets. The complex Eisenstein twists 2′ ⊕ ω / 2″ ⊕ ω̄ give E₆ × U(1) and **no 27s**
+  (h¹(2′) = h¹(2″) = 0 with no cusp invariants, all 48 surjections — B1263's 72/48 reproduced a third time).
+- I-6 re-read (the two roles are played by the two faces: ALE Γ = 2I, holonomy = 2T); I-26 note corrected;
+  price unchanged at 14. Lock `tests/test_b1268_e6_from_the_two_faces.py`.
