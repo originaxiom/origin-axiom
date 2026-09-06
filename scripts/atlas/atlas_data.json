@@ -6366,6 +6366,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1273": {
+   "slug": "seat harvest",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

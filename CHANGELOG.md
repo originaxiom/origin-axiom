@@ -1,5 +1,23 @@
 # Changelog
 
+## THE SEAT HARVEST — three routes separate the same binary, and codex's central twist reproduced
+
+**B1272 + B1273.** Owner-supplied (Round 11) and **verified on main's data**: B1263's *"genuine binary
+with no symmetry reason to prefer either"* is **corrected** — the orbits are separated by **meridian
+order** (mod (1−ω) → **3**; quaternionic → **6**), triples **(3,6,4)/(6,6,4)**, and the banked holonomy
+reduced mod (1−ω) is surjective and lands in the **order-3** class. B1263 used the wrong instrument:
+**the separator is arithmetic, not a symmetry.** **I-6's multiplicity objection is paid** — the first of
+the H5 census's eight measured multiplicities resolved by a **selector** rather than counted.
+**And codex R037 converges on it independently:** the same **48/2** for m000 and m004, *"exactly one
+class extends over m000"*, and *"the nonextendable class is the unique central H¹ twist of the
+extendable"* — **the twist reproduced here, 48/48 moved, (3,6,4) → (6,6,4)**. Since **m000 is the
+non-orientable Gieseking manifold** and m004 its orientation double cover, **codex's selector is an
+orientation selector**; the open join is whether the **geometric** class is the **extendable** one.
+Also harvested with scope intact: codex R038/R039/R040, and the SM-derivation seat's **h¹(M;27) = 3 =
+h¹(M;27̄) exactly over ℚ(ω)** — **independently confirming B1267's index-0** — plus an **E₈ ⊃ E₆×SU(3)**
+three-generation mechanism whose branching verifies (**162 = 6×27**) but whose object-specific half
+does not, and whose author reports **the Yukawa forces zero on the triplet**.
+
 ## B1260'S DECIDING COMPUTATION, RUN — the index is zero and the last candidate locus is RIGID
 
 **B1267.** B1260 named the deciding computation; this seat then **listed it as a requirement instead of

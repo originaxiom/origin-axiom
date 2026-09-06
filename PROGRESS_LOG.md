@@ -14143,3 +14143,30 @@ Owner-supplied (Round 11, physics-seat branch), **verified here on main's own da
   family SU(3); and that seat reports **the Yukawa forces ZERO on the triplet**.
 - **⚠ NUMBERING COLLISION:** the SM-derivation branch renumbered to **B1267–B1271** to dodge main's
   B1265/B1266, then main banked its own **B1267**. Recorded so it is not found silently.
+
+### B1273 — the seat harvest: three routes, one binary; codex's central twist reproduced (2026-09-06)
+
+Owner: *"lets integrate/digest verify work from all other seats, and reflect the new state to the rest
+of repo."* **Harvested, not merged.** Only what could be verified on main's data is asserted.
+
+- **THE CONVERGENCE ON I-6's BINARY.** main (B1263): **48 surjections, 2 Aut(2T)-orbits**. Owner
+  (Round 11): separated by **meridian order 3 vs 6**, geometric vs not — **verified at B1272**. Codex
+  (R037): **the same 48/2 independently**, plus *"exactly one class extends over m000"* and *"the
+  nonextendable class is the unique central H¹ twist of the extendable."*
+- **CODEX'S TWIST REPRODUCED HERE.** |Z(2T)| = 2; H¹(m004;ℤ/2) = ℤ/2 (H₁ = ℤ, both generators
+  meridians) so the twist **negates both**; under it **all 48 move to the other orbit** (0 fixed, 0
+  invalid), carrying **(3,6,4) → (6,6,4)**. **Negating by −I is exactly what turns order 3 into 6** —
+  so codex and the owner are separating **the same pair by two different routes.**
+- **A FAILED ATTEMPT KEPT.** Twisting **one** generator gives **0 valid quotients**; the seat printed
+  a conclusion the data contradicted and **withdrew it**. The control now asserts `invalid == 0`
+  *before* orbit counts are read.
+- **HARVESTED, SCOPED, NOT ADOPTED.** codex R038 (SU(6)→SU(5) branching **with its own D-flatness
+  negative**), R039 (A4→2T lift torsor), R040 (**1260/1260** orientation covers CS-zero); the
+  SM-derivation seat's **h¹(M;27) = 3 = h¹(M;27̄) exactly over ℚ(ω)** — **independently confirming
+  B1267's numerical index-0** — and its **E₈ ⊃ E₆×SU(3)** three-generation mechanism, whose branching
+  I verified (**162 = 6×27**) but whose object-specific half I did **not**, and whose author reports
+  **the Yukawa forces ZERO on the triplet**; physics-seat's Rounds 1–12.
+- **m000 IS THE NON-ORIENTABLE GIESEKING MANIFOLD** and m004 its orientation double cover — so
+  **codex's selector is an ORIENTATION selector.** **The open join: is the geometric class the
+  extendable one?** That is now the concrete next computation on I-6.
+- **⚠ B1267 is doubly used** (main's, and the SM-derivation branch's renumbering). Flagged at B1272.
