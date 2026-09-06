@@ -87,6 +87,14 @@ computations named, not as results.
 it. B1276 shows the E₆ cubic has one coupling on all 45 operators, so the Yukawa block collapses to λ times the VEV
 data plus the diagonal source; the completing objects are D1–D6, all periods of the G₂ closing.
 
+## 5c. D2's space, computed (added the same day, B1277)
+
+The tree-level vacuum manifold of the E₈ theory on Y₃: nine maximal branches, all mixing scales, no SM point; the SM
+point needs the closing's sign character composed with the SU(2)_L centre and costs one generation's doublets; SM +
+three generations ⟹ SU(5) unbroken, by theorem. The closed closing is now fully read: vector-like (B1260), zero-
+diagonal texture (B1273), one irreducible class or three characters on the tower (B1274), and no SM with three
+generations (B1277). Every wall of §1 is a property of the *closed* closing; the chiral closing is the object.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with

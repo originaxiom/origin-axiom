@@ -156,3 +156,10 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   m_d = m_e at the object's scale and the doublet–triplet tension. For each of the 19 (+7) the ledger says what
   completes it: one coupling, the VEV data, one scale, a diagonal source — every one a period of the G₂ closing
   the object has not been given. Eight relations are the checks; none of the 19 is bought.
+- **D2's space computed, and the closing's Standard-Model point (B1277).** The tree-level vacuum manifold of the
+  E₈ theory on Y₃ has nine maximal branches, every one mixing the rank-reducing VEVs (N, ν^c, one generation) with
+  the electroweak ones; the neutral VEVs run E₆ → SO(10) → SU(5) → SU(4) and **never reach the SM**. The SM appears
+  with the closing's own sign character composed with the SU(2)_L centre, W = z_L ∘ χ_j, plus ⟨N⟩, ⟨ν^c⟩ — the
+  programme's first SM-group vacuum — **at the cost of one generation's doublets**; and by theorem any vacuum of
+  Y₃ with the SM and three generations of Q, u^c, e^c keeps SU(5) unbroken. The chiral closing remains the object
+  to construct; this theorem says what its Wilson-line alphabet must not be.

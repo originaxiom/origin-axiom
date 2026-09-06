@@ -2360,9 +2360,25 @@ Alexander roots t = φ^{±2}) and for the θ-odd E₆ deformations (T-brane data
 torus and the boundary condition that would make it a disc; relate to the fillings (B432) and to B1268's lemma
 N = rank(res) − h⁰(∂M; V), which is the same statement.
 
+**Status 2026-09-06 (B1277): CLOSED, N = 0.** Every candidate ∂⁺ ⊆ T² (empty, an annulus, the torus) has χ = 0, so
+χ(M, ∂⁺M) = 0 for any sign structure on the cusp. The Novikov refinement of the b₁ class: H¹(m004; ℂ_t) ≠ 0 (t ≠ 1)
+exactly at the Alexander roots t = φ^{±2} — real, off the unit circle — so no unitary abelian holonomy on the cusp
+carries a class (`frontier/B1277_the_vacuum_manifold_of_the_closing`, part (e)). The θ-odd (T-brane) deformations are
+B1268's N = 0. A disc-type ∂⁺ would need a non-unitary holonomy at the golden value, i.e. the complex-Chern–Simons
+reading, not a compact gauge field.
+
 ## L205 — THE TREE-LEVEL VACUUM MANIFOLD OF THE Y₃ THEORY (registered 2026-09-06; D2's space)
 
 The F- and D-flat directions of the one-coupling superpotential (B1276) for 3 × 27 + 3 × 27̄ + 6 singlets under
 e₆ ⊕ u(1)² (B1273 §3): the branches (⟨S⟩, ⟨ν^c⟩ with ⟨H⟩ = 0 versus electroweak VEVs), their unbroken groups, and
 the statement that electroweak breaking is not on the tree-level manifold (F_{H_u} = λ S H_d ≠ 0) — the space on
 which the instanton superpotential (D3) must act.
+
+**Status 2026-09-06 (B1277): CLOSED — and the registered expectation was wrong.** F_{H_u} = λ S H_d forbids only
+⟨S_i⟩⟨H_d,j⟩ with i ≠ j (the cubic couples distinct generations); one generation's whole neutral set is flat. Nine
+maximal branches, every one mixing the rank-reducing VEVs (N, ν^c, in exactly one generation) with the electroweak
+ones, unbroken su(4) at the deepest points, **no branch with the Standard-Model group** (E₆ → SO(10) → SU(5) → SU(4)).
+The SM point needs a flat connection: W = z_L ∘ χ_j (the SU(2)_L centre composed with a sign character of H₁(Y₃))
+with ⟨N⟩, ⟨ν^c⟩ leaves exactly su(3) ⊕ su(2) ⊕ u(1)_Y, at the cost of generation j's doublets; and by theorem any
+vacuum of Y₃ with the SM and three generations of Q, u^c, e^c keeps SU(5) unbroken (the SM's commutant is
+su(2)_β ⊕ u(1)², h¹ = 1 only for the three sign characters). D2 is posed on the chiral closing, not on Y₃.

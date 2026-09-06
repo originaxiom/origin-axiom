@@ -65,6 +65,11 @@ twisted: the fields are a gauge connection A and an **adjoint-valued 1-form Higg
 - **L205 — the tree-level vacuum manifold of the Y₃ theory** (D2's space): the F- and D-flat directions of the
   one-coupling superpotential (B1276) with 3 × 27 + 3 × 27̄ + 6 singlets under e₆ ⊕ u(1)².
 
+Both closed the same day by B1277: L204 with N = 0 (χ(M, ∂⁺M) = 0 for every ∂⁺ ⊆ T²; abelian zero modes only at the
+non-unitary golden values t = φ^{±2}); L205 with the nine-branch manifold, no SM point, the SM point through the
+closing's sign character at the cost of one generation's doublets, and the theorem SM + three generations ⟹ SU(5)
+on Y₃.
+
 ## Sources
 
 Pantev, Wijnholt, *Hitchin's equations and M-theory phenomenology*, J. Geom. Phys. 61 (2011), arXiv:0905.1968 ·

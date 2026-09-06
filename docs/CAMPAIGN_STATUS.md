@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1277 — THE VACUUM MANIFOLD OF THE CLOSING AND ITS WILSON LINES)**: the tree-level flat
+directions of the E₈ theory on Y₃ (nine maximal branches, exact) all mix the rank-reducing VEVs (N, ν^c, one generation)
+with the electroweak ones and **never reach the Standard Model** (E₆ → SO(10) → SU(5) → SU(4)); the closing's own sign
+character composed with the SU(2)_L centre, W = z_L ∘ χ_j, with ⟨N⟩, ⟨ν^c⟩ leaves exactly su(3) ⊕ su(2) ⊕ u(1)_Y — **the
+programme's first SM-group vacuum, at the cost of one generation's doublets**; and by theorem (the SM's commutant is
+su(2)_β ⊕ u(1)², h¹ = 1 only for the three sign characters) **any vacuum of Y₃ with the SM and three generations of
+Q, u^c, e^c keeps SU(5) unbroken**. L204 closed (zero modes only at t = φ^{±2}). Price unchanged.
+
 **LATEST (2026-09-06, B1276 — THE DESTINATION LEDGER)**: the E₆ cubic on the 27, labelled by the descent, has **one
 coupling** on all 45 operators (y_u = y_d = y_e = y_ν = λ; μ = m_D = λ⟨S⟩; the 24 colour-triplet couplings = λ), forcing
 m_b = m_τ, m_s = m_μ, m_d = m_e at the object's scale and the doublet–triplet tension. `docs/THE_DESTINATION_LEDGER_2026-09-06.md`

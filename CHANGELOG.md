@@ -1,5 +1,14 @@
 # Changelog
 
+## B1277 — the vacuum manifold of the closing and its Wilson lines: no Standard-Model point at tree level, the SM point through the closing's own sign character at the cost of one generation's doublets, and a theorem: SM + three generations ⟹ SU(5) unbroken on Y₃
+
+The tree-level flat directions of the E₈ theory on Y₃ (nine maximal branches, exact) all mix the rank-reducing and the
+electroweak VEVs and never reach su(3) ⊕ su(2) ⊕ u(1) (E₆ → SO(10) → SU(5) → SU(4)). The flat connection W = z_L ∘ χ_j
+(the SU(2)_L centre composed with a sign character of H₁(Y₃) = ℤ₄²) with ⟨N⟩, ⟨ν^c⟩ leaves exactly the SM — two
+generations of Q and L. The SM's commutant in e₆ is su(2)_β ⊕ u(1)²; h¹ = 1 only for the three sign characters; so any
+vacuum with the SM and three generations of Q, u^c, e^c keeps SU(5). L204: the object's abelian zero modes sit at
+t = φ^{±2} only. `frontier/B1277_the_vacuum_manifold_of_the_closing`.
+
 ## THE LITERATURE SWEEP — the Higgs-bundle frame placed; chirality is χ(M, ∂⁺M); no compact chiral G₂ exists in the literature either
 
 `docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`: Pantev–Wijnholt, Braun et al., Barbosa

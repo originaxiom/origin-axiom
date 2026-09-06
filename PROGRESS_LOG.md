@@ -14347,3 +14347,22 @@ chirality bit is a cusp boundary condition. No compact G₂ construction with ch
 (BCHS 2019); T-branes are the one loophole, and the corpus's θ-odd deformations are its data (already inside
 |N(27)| ≤ 1). The E₆SSM review imposes by hand exactly the destination ledger's D2/D3 entries. Registered L204
 (the cusp Morse structure) and L205 (the tree-level vacuum manifold). HKM's Fibonacci-manifold theorem confirmed.
+
+### B1277 — the vacuum manifold of the closing and its Wilson lines (2026-09-06)
+
+The destination ledger's second item of work, computed (`frontier/B1277_the_vacuum_manifold_of_the_closing/verification/vacuum_manifold.py`,
+exact, `SELFTEST: PASS`). The E₈ theory on Y₃ (B1273, one coupling B1276) has 36 neutral fields (N, ν^c, h_u⁰, h_d⁰, ν per
+27, conjugates, six flavons) and 56 cubic monomials among them; its tree-level vacuum manifold (exact F-flat rule on
+coordinate subspaces, exact D-flatness by conjugate pairing, no unpaired branch even at the Cartan level) has **nine
+maximal branches — every one mixing the rank-reducing VEVs (N, ν^c, in exactly one generation) with the electroweak
+ones**, unbroken su(4) at the deepest points; **the Standard Model is not a point of it** (E₆ → SO(10) → SU(5) → SU(4)).
+**The Wilson lines:** z_L = (−1)^{2T₃} = (−1)^{6Y} is an A₁A₅ involution whose joint stabilizer with ⟨N⟩, ⟨ν^c⟩ is exactly
+su(3) ⊕ su(2) ⊕ u(1)_Y, so **W = z_L ∘ χ_j — the closing's own sign character composed with the SU(2)_L centre — gives the
+programme's first Standard-Model-group vacuum, at the cost of generation j's SU(2)_L doublets** (two generations of Q and
+L, three of u^c, d^c, e^c, plus 40 vector-like adjoint chirals). The SM's commutant in e₆ is su(2)_β ⊕ u(1)² (B1269's
+dim 5, identified: (d^c, D̄), (L, H_d), (ν^c, S) doublets; Q, u^c, e^c singlets); h¹ = 1 exactly for the three sign
+characters of H₁(Y₃) = ℤ₄² (Fox calculus over ℚ(i)), 0 for the twelve of order 4. **Theorem: any vacuum of the closing
+(neutral VEVs + flat E₆ connection, abelian or not) with the SM unbroken and three generations of Q, u^c, e^c keeps SU(5)
+unbroken.** L204 closed: H¹(m004; ℂ_t) ≠ 0 exactly at t = φ^{±2} (the Alexander roots, off the unit circle) — no unitary
+abelian holonomy on the cusp carries a class. Lock `tests/test_b1277_the_vacuum_manifold_of_the_closing.py`. N = 0;
+0 of 19; price unchanged.

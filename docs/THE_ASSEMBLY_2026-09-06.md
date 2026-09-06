@@ -246,5 +246,6 @@ the principal sl₂, σ (F₄-type) — and B1138's "two of three" is a statemen
 | **B1274** | the cyclic tower M_n, Y_n, D(M_n) for n ≤ 6: descent iff 3 \| n, the image dichotomy A₄ / V₄, the class counts and the double bounds; L203 closed | `tests/test_b1274_the_tower_and_its_doubles.py` |
 | **B1275** | the E₆ cubic d_abc solved from rep27.json (unique, ±1); the Jordan ranks of the object's 27-lattice vectors (rank 3 ⟺ zero-sum triple, I₃ = ±6) | `tests/test_b1275_the_cubic_made_explicit.py` |
 | **B1276** | every operator of the E₆ cubic labelled by the descent: one coupling on all 45; the relations among the 19 (`docs/THE_DESTINATION_LEDGER_2026-09-06.md`) | `tests/test_b1276_the_relations_the_chain_forces.py` |
+| **B1277** | the tree-level vacuum manifold of the E₈ theory on Y₃ (nine branches, no SM point); the SM point through W = z_L ∘ χ_j at the cost of one generation's doublets; the theorem SM + three generations ⟹ SU(5); L204 (zero modes only at t = φ^{±2}) | `tests/test_b1277_the_vacuum_manifold_of_the_closing.py` |
 | B1260, B1259, B1086, B1036, B1252, B1253, B1255, B1256, B1257, B1261, B1263 | as cited | their own locks |
 | `scripts/external_verification/` | the spine (18/18), the Menal-Ferrer–Porti law over two primes, W1/W2, PSL(2,7), the extension | run records in `docs/EXTERNAL_VERIFICATION_2026-09-06.md` |

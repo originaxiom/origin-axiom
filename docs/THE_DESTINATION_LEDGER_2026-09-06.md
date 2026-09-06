@@ -59,6 +59,17 @@ given.**
 
 At tree level and at the object's scale the 19 (+7) collapse to: **λ** (1) · **the VEV data** (v_u^i, v_d^i: six magnitudes and their relative phases; ⟨S⟩; ⟨ν^c⟩; six flavons) · **the scale** (1) · **the diagonal source** (at least three diagonal entries per sector, a splitting, a Majorana term). Nothing in this list is a free coupling: every entry is a *period* — a volume or a triple product — of the closing. **The destination is therefore one object:** the G₂ closing of the object (the conical geometry over its E₆ locus, B1269 §5), with (i) its associative 3-cycles and their volumes in Planck units (D1, D3, D4), (ii) the vacuum the instanton superpotential W_np = Σ e^{−Vol(Σ_i)} selects on the tree-level flat directions (D2), and (iii) the running of the resulting spectrum to M_Z (D5, accepted physics). Every remaining number of the 19 is then a computed function of those volumes, and the relations of §3 are the checks the computation must pass on its way.
 
+## 4a. D2's space, computed (B1277, the same day)
+
+The tree-level vacuum manifold of the E₈ theory on Y₃ is nine maximal branches — one generation's whole neutral
+set {N, ν^c, h_u⁰, h_d⁰, ν} with the other two generations' flavon pair (unbroken su(4)), or {N_g, h_d⁰_g} with
+{ν^c_h, ν_h} (su(4) plus one mixed u(1)) — every branch mixing the rank-reducing and the electroweak VEVs, the
+rank-reducing ones in exactly one generation, and none with su(3) ⊕ su(2) ⊕ u(1)_Y unbroken. The Standard-Model
+group is reached only with a flat E₆ connection, W = z_L ∘ χ_j (the SU(2)_L centre composed with one of the closing's
+three sign characters), at the cost of generation j's doublets; and any vacuum of Y₃ with the SM and three
+generations of Q, u^c, e^c keeps SU(5) unbroken (theorem). D2's VEV data are therefore posed on a manifold that has
+no SM point of its own; the closing that carries them is the chiral one of D3, not Y₃.
+
 ## 4b. The literature's word on D3 (`docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`)
 
 Pantev–Wijnholt: net chiral(R) = χ(M, ∂⁺M) — on any closed closing 0, on the cusped object −χ(∂⁺ cusp): the bit
@@ -72,7 +83,13 @@ problem, not a gap in this record.
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the
    3-fold branched cover as the 3-manifold Q it must contain). Without it, D3 has no carrier and no mass is right.
 2. **The tree-level vacuum manifold** of the E₈ theory on Y₃ — the D-flat and F-flat directions of the one-coupling
-   superpotential (B1276) — computable now; it is the space on which W_np acts (D2's space).
+   superpotential (B1276) — computable now; it is the space on which W_np acts (D2's space). **DONE (B1277):** nine
+   maximal branches, every one mixing the rank-reducing VEVs (N, ν^c, one generation) with the electroweak ones;
+   the neutral VEVs run E₆ → SO(10) → SU(5) → SU(4) and never reach the SM; the SM point needs the closing's sign
+   character composed with the SU(2)_L centre (W = z_L ∘ χ_j) and costs one generation's doublets; and by theorem
+   any vacuum of Y₃ with the SM and three generations of Q, u^c, e^c keeps SU(5). So D2's point must do what the
+   tree level does not — separate the scales — and the closing on which D2 is posed cannot be Y₃ with the SM and
+   three generations: item 1 is the whole of the matter.
 3. **The instanton sector** — the associative cycles' volumes; L201 in its proper form (a superpotential, not a
    numerology). Every hierarchy is a difference of volumes.
 4. **I-13 and I-18** — the listener map for λ's units and the CS/θ identification — the two identifications whose

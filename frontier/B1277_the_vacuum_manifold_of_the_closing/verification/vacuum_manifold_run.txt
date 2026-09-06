@@ -1,0 +1,52 @@
+=== the vacuum manifold of the object's closing, and its Wilson lines (neutral fields, exact F-flat rule, paired D-flatness, Fox calculus over Q(i)) ===
+
+=== (a)-(c) the tree-level vacuum manifold ===
+  neutral colour-singlet components of the 27 (T_3, Y): {'h_u0': ('-1/2', '1/2'), 'nu^c': ('0', '0'), 'N': ('0', '0'), 'h_d0': ('1/2', '-1/2'), 'nu': ('1/2', '-1/2')}
+  fields: 36 = 3 x 5 (27) + 3 x 5 (27bar) + 6 (flavons)
+  cubic monomials of W among the neutral fields: 56 = {'27^3': 12, '27bar^3': 12, 'S 27 27bar': 30, 'S S S': 2}
+  the neutral zero-sum triples of the 27: [('N', 'h_d0', 'h_u0'), ('h_u0', 'nu', 'nu^c')]  (the mu-term N h_u h_d and the Dirac term nu h_u nu^c)
+
+  maximal F-flat paired branches: 9
+    6 pairs {'rank': 2, 'ew': 3, 'flavon': 1}: e6-part su(4) (dim 15), unbroken rank 3 of 8 (0 extra u(1) mixed with the family torus); rank-reducing yes, electroweak yes: ['P[N_1]', 'P[h_d0_1]', 'P[h_u0_1]', 'P[nu^c_1]', 'P[nu_1]', 'Q[S_23]']
+    6 pairs {'rank': 2, 'ew': 3, 'flavon': 1}: e6-part su(4) (dim 15), unbroken rank 3 of 8 (0 extra u(1) mixed with the family torus); rank-reducing yes, electroweak yes: ['P[N_2]', 'P[h_d0_2]', 'P[h_u0_2]', 'P[nu^c_2]', 'P[nu_2]', 'Q[S_13]']
+    6 pairs {'rank': 2, 'ew': 3, 'flavon': 1}: e6-part su(4) (dim 15), unbroken rank 3 of 8 (0 extra u(1) mixed with the family torus); rank-reducing yes, electroweak yes: ['P[N_3]', 'P[h_d0_3]', 'P[h_u0_3]', 'P[nu^c_3]', 'P[nu_3]', 'Q[S_12]']
+    4 pairs {'rank': 2, 'ew': 2}: e6-part su(4) (dim 15), unbroken rank 4 of 8 (1 extra u(1) mixed with the family torus); rank-reducing yes, electroweak yes: ['P[N_1]', 'P[h_d0_1]', 'P[nu^c_2]', 'P[nu_2]']
+    4 pairs {'rank': 2, 'ew': 2}: e6-part su(4) (dim 15), unbroken rank 4 of 8 (1 extra u(1) mixed with the family torus); rank-reducing yes, electroweak yes: ['P[N_1]', 'P[h_d0_1]', 'P[nu^c_3]', 'P[nu_3]']
+    4 pairs {'rank': 2, 'ew': 2}: e6-part su(4) (dim 15), unbroken rank 4 of 8 (1 extra u(1) mixed with the family torus); rank-reducing yes, electroweak yes: ['P[N_2]', 'P[h_d0_2]', 'P[nu^c_1]', 'P[nu_1]']
+    4 pairs {'rank': 2, 'ew': 2}: e6-part su(4) (dim 15), unbroken rank 4 of 8 (1 extra u(1) mixed with the family torus); rank-reducing yes, electroweak yes: ['P[N_2]', 'P[h_d0_2]', 'P[nu^c_3]', 'P[nu_3]']
+    4 pairs {'rank': 2, 'ew': 2}: e6-part su(4) (dim 15), unbroken rank 4 of 8 (1 extra u(1) mixed with the family torus); rank-reducing yes, electroweak yes: ['P[N_3]', 'P[h_d0_3]', 'P[nu^c_1]', 'P[nu_1]']
+    4 pairs {'rank': 2, 'ew': 2}: e6-part su(4) (dim 15), unbroken rank 4 of 8 (1 extra u(1) mixed with the family torus); rank-reducing yes, electroweak yes: ['P[N_3]', 'P[h_d0_3]', 'P[nu^c_2]', 'P[nu_2]']
+  branches containing BOTH a rank-reducing VEV (N or nu^c) and an electroweak VEV (h_u0, h_d0, nu): 9 of 9
+  (weight, generations carrying it in a maximal branch) -> count: {('N', 1): 9, ('nu^c', 1): 9}
+  sub-branches of one generation: <N> -> so(10)+u(1), rank 7; <N>,<nu^c> -> su(5), rank 6; all five -> su(4), rank 4
+  a maximal branch with e6-part su(3)+su(2)+u(1): False   (the SM is not a point of the tree-level manifold)
+  field-level maximal F-flat sets: 951; Cartan-D-feasible with all magnitudes positive and NOT conjugate-paired: 0   (no unpaired branch passes even the Cartan test)
+
+=== (d) the Wilson lines of the closing ===
+  z_L = (-1)^(2T_3) on the 27: 15 (+1), 12 (-1); equals (-1)^(6Y) on every component: True
+  centralizer of z_L in e6: Cartan 6 + 32 roots = dim 38   (an involution of type A1 A5 iff 38)
+  joint stabilizer of z_L and <N>, <nu^c>: Cartan 4 + 8 roots; the roots are exactly the SM's (colour A2 + weak A1): True
+  the SM's commutant in e6: u(1)^3 (Cartan orthogonal to colour and T_3) + 2 roots +-beta = su(2)_beta + u(1)^2, dim 5 (B1269's c(s));
+     su(2)_beta doublets in the 27: [(('Dbar', 'd^c'), 3), (('H_d', 'L'), 2), (('nu^c', 'S'), 1)]; singlets: [('D', 3), ('H_u', 2), ('Q', 6), ('e^c', 1), ('u^c', 3)]
+  SU(5) = stabilizer of <N>,<nu^c>: 20 roots, every one connecting two weights of the 10 (Q, u^c, e^c): True  -> trivial on the 10 => commutes with SU(5)
+  characters of order 1: 1; (h^1, h^0) values: {(0, 1): 1}
+  characters of order 2: 3; (h^1, h^0) values: {(1, 0): 3}
+  characters of order 4: 12; (h^1, h^0) values: {(0, 0): 12}
+  characters psi with h^1(chi_i psi) = 1 for all three sign characters chi_i: [(0, 0, 0, 0)]   (only the trivial one)
+  torus elements t = exp(2 pi i n/4) (n in simple-root coordinates) with t^4 = 1 commuting with the SM: 64; trivial on the 10 (Q, u^c, e^c): 4, all of them exp(2 pi i k beta^v/4) in SU(2)_beta's torus: True
+  z_L = exp(2 pi i n/4) with n = (0, 2, 0, 2, 2, 2): acts as (-1)^(2T_3) on the 27: True; z_L commutes with the SM: True
+  Wilson line W = z_L o chi_1: surviving components of 27_i (multiplicity-summed by SM label):
+     27_1: total 15 of 27; {'D': 3, 'Dbar': 3, 'H_d': 0, 'H_u': 0, 'L': 0, 'Q': 0, 'S': 1, 'd^c': 3, 'e^c': 1, 'nu^c': 1, 'u^c': 3}
+     27_2: total 27 of 27; {'D': 3, 'Dbar': 3, 'H_d': 2, 'H_u': 2, 'L': 2, 'Q': 6, 'S': 1, 'd^c': 3, 'e^c': 1, 'nu^c': 1, 'u^c': 3}
+     27_3: total 27 of 27; {'D': 3, 'Dbar': 3, 'H_d': 2, 'H_u': 2, 'L': 2, 'Q': 6, 'S': 1, 'd^c': 3, 'e^c': 1, 'nu^c': 1, 'u^c': 3}
+  lost states per generation: {1: 12, 2: 0, 3: 0} (the SU(2)_L doublets Q, L, H_u, H_d of generation 1); e6-adjoint chirals from the z_L-odd roots: 40 (the (2,20) of SU(2) x SU(6), vector-like); flavons: 6 (unchanged)
+  Wilson line W = (-1_beta) o chi_1: lost states per generation {1: 12, 2: 0, 3: 0} (the su(2)_beta doublets d^c, Dbar, L, H_d, nu^c, S of generation 1); Q, u^c, e^c keep three generations; joint stabilizer with <N>,<nu^c>: 20 roots = SU(5) (not the SM)
+  THEOREM: SM unbroken => VEVs in {N, nu^c} (stabilizer SU(5)) and W in C(SM) = SU(2)_beta . A; Q, u^c, e^c are SU(2)_beta-singlets, so three generations of them
+           => their characters are trivial => W is trivial on the 10 => W commutes with SU(5) => the unbroken group contains SU(5).  No SM vacuum with three generations on Y_3.
+
+=== (e) L204: the object's abelian local systems ===
+  m004, abelian local system a, b -> t: Fox row (dR/da, dR/db) = (-(t**2 - 3*t + 1)/t, (t**2 - 3*t + 1)/t)
+  H^1(m004; C_t) != 0 (t != 1) iff both Fox derivatives vanish iff t in [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2] = phi^(+-2): True; |t| = 1 for none of them: True; (t - phi^2)(t - phi^-2) = t**2 - 3*t + 1
+
+SELFTEST: PASS
+rc=0

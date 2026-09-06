@@ -6561,6 +6561,29 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1277": {
+   "slug": "the vacuum manifold of the closing",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B952",
+    "B955",
+    "L204",
+    "L205"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 30,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [
