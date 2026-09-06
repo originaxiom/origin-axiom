@@ -13955,3 +13955,30 @@ written and never run:** *"the genus group of disc −15 has order 2^(t−1) = 2
   4 genera**, so "order 2" is a fact about −15, not about the method.
 - **THE PRICE MOVES: UNEARNED 11 → 10, so the trade goes 15 : 0 → 14 : 0.** The first reduction, and
   it came from running a discriminator the register had been carrying all along.
+
+### B1263 — I-6's side A verified; and Fibonacci is the monodromy but not the mirror (2026-09-06)
+
+**Part 1 — the audit.** I-6's side A (π₁(m004) ↠ 2T) was a finite decidable claim nobody had checked.
+Enumerated over all 576 pairs in 2T = SL(2,3) with the relator: **72 homomorphisms, 48 SURJECTIVE.**
+**Side A is real**, so I-6 is not refutable there — **the price stays at 14** (a negative for the
+cheap move, recorded as such). **But "the 2T" is not well defined:** those 48 fall into **4** orbits
+under inner automorphisms and exactly **2** under the full **Aut(2T) = S₄** (order 24, *constructed*).
+**The object supplies two distinct 2T quotients, never one** — the H5 pattern at a **sixth** level,
+after C22, A7, B1192, I-25 and n. Earning I-6 now also requires saying **which**.
+
+**Part 2 — the owner's question: does Fibonacci play a role?** **Structurally yes; as the mirror, no.**
+
+- **B71's own header** records the monodromy as **φ = [[2,1],[1,1]] = M²**, M the **Fibonacci matrix**.
+  Verified from the substitutions: **σ** (x→xy, y→x) abelianises to **[[1,1],[1,0]], det −1 —
+  ORIENTATION-REVERSING** — and **σ² → [[2,1],[1,1]]**, the banked monodromy. **The object's monodromy
+  is the square of an orientation-reversing map**: the amphichirality structure in the fibration's own
+  language. (B1260 independently found Δ = t² − 3t + 1 **reciprocal**, roots **φ^{±2}**.)
+- **THE CROSS-CHECK.** A fibered knot's fiber is the **commutator subgroup**, so ρ restricts on the
+  fiber to **[2T,2T] = Q₈** (order 8, computed), not 2T. Asking the fiber to surject onto 2T gives
+  **0** invariant pairs — the diagnostic that located the wrong target, kept in the script. With Q₈:
+  **24** generating pairs, **all 24** monodromy-invariant up to 2T-conjugacy, in exactly **2 classes**
+  — **matching part 1's two orbits from the KNOT presentation, with no fiber↔knot dictionary assumed**
+  (B71 records that dictionary as separate and unclaimed).
+- **AND THE MIRROR READING IS REFUTED FROM THE SECOND SIDE:** σ **fixes** each class (**0 swapped, 24
+  fixed**). With part 1's **48/48**, the reading fails from **both** presentations. **The 2-fold
+  multiplicity is real and cross-checked; Fibonacci does not explain it.**

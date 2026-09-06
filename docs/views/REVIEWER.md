@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1171** |
-| words of findings prose | **818,749** |
+| research arcs with findings | **1172** |
+| words of findings prose | **819,741** |
 | test lock files referenced | **689** |
-| arcs carrying an authored verdict | **1171** (100.0 %) |
-| recorded closures | **782** (615 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **1172** (100.0 %) |
+| recorded closures | **783** (616 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 762 |
+| PROVED | 763 |
 | NEGATIVE | 311 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 52 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 53 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1261`** (725 words, 0 locks)  
-THE PRICE, COMPUTED: FIFTEEN UNPRICED INPUTS BOUGHT ZERO OF NINETEEN NUMBERS. JOIN 2's lead closed NEGATIVE first -- n in kappa = 2 + n^2 is NOT object-determined, n = 1..7 all occur with hundreds of partners, reconfirming B1248's 'infinite family, not a point' -- which made the live question the one the corpus had never answered in one place: how many unpriced inputs does the programme spend and what does it buy? B1231 made it askable (an unearned identification IS an unpriced observer input, so the input count is a LOWER BOUND until earned). READ FROM THE LEDGERS: the programme SPENDS 4 axioms (census unchanged; B1248 closed checklist I1 WITHOUT reducing it) + 11 UNEARNED identifications = 15 unpriced inputs. The SM side is 19 free parameters (26 with Dirac neutrinos) plus un-derived structure. The programme BUYS 0 of the 19 numbers -- 'none, seven sealed crossings, seven negatives'. What it does buy, counted SEPARATELY and never converted: the global Z6 form (DERIVED, B862, and the SM ITSELF CANNOT FIX IT), hypercharge DIRECTION (B864; normalisation not derivable), anomaly cancellation, termination at the SM (B863); PARTIAL on the gauge algebra (su(3)+su(2)+u(1)^3 is dim 14 against the SM's 12, so the chain is TWO STEPS from the SM not zero); NOT a prediction for sin^2 theta_W = 3/8 (a known GUT relation, non-discriminating); and chirality is CLOSING-supplied, which E65/B1260 now explain (the object is self-paired and handedness is the mirror-odd content a self-paired thing cannot hold). THE VERDICT IN TWO CURRENCIES THAT DO NOT CONVERT: by PARAMETER COUNT the trade is NET NEGATIVE, 15 bought 0; by STRUCTURAL CONTENT the programme derives what the SM assumes or cannot state, which is real and is the honest reason to continue, but is NOT a parameter reduction and must never be reported as one -- the selftest ENFORCES this, asserting the structural tally is never subtracted from the parameter tally. THE CONSTRUCTIVE CONSEQUENCE: the exchange rate is 15 : 0 and there are exactly two ways to move it -- EARN an identification (-1) or DERIVE a parameter (+1). Earning is cheaper, is already instrumented by the B1231 ratchet, and 8 rows are EARNED already. So the identification ledger is not bookkeeping around the physics, it IS the scoreboard.  
-`B1261_the_price_computed/FINDINGS.md`
+**PROVED — `B1263`** (992 words, 0 locks)  
+I-6's SIDE A VERIFIED, ITS MULTIPLICITY MEASURED AT TWO, AND A TEMPTING READING REFUTED. B1261 made the identification ledger the scoreboard and B1262 moved it 15 -> 14 by running a discriminator a row carried unrun; this arc audits the next candidate. I-6's side A (pi_1(m004) ->> 2T) is a finite decidable claim nobody had checked. ENUMERATED over all 576 pairs in 2T = SL(2,3) with the relator abABaBAbaB = I: 72 homomorphisms, of which 48 are SURJECTIVE -- so side A IS REAL, the row is NOT refutable there, it stays UNEARNED and the price stays at 14 (a negative result for the cheap move, recorded as such). BUT 'THE 2T' IS NOT WELL DEFINED: the 48 surjections fall into 4 orbits under inner automorphisms and exactly 2 under the full Aut(2T) = S4 (order 24, CONSTRUCTED not assumed), so the object supplies TWO genuinely distinct 2T quotients and never one -- the H5 pattern at a SIXTH level after the closing (C22), the order (A7), the partner (B1192), the sl2 embedding (I-25) and n (B1248). That SHARPENS I-6's price: earning it needs not merely a map to the transverse ALE Gamma but a statement of WHICH quotient is meant, or a proof the map is choice-independent. AND A TEMPTING READING IS REFUTED: two quotients invites reading them as mirror images so that choosing one IS the orientation bit, tying I-6 to the chirality story -- FALSE, since four relator-preserving automorphisms of pi_1 (a<->b; a,b -> a^-1,b^-1; the composite; a -> a, b -> aba^-1) all map surjections to surjections and every one FIXES both Aut-orbits 48/48, so no tested symmetry exchanges the two quotients and the choice is a genuine binary with no symmetry reason to prefer either. This arc's own hypothesis, killed by its own control. PART 2, on the owner's question 'does or could a ab fibonaci or golden play a role here?': STRUCTURALLY YES, AS THE MIRROR NO. B71's own header records the monodromy as phi = [[2,1],[1,1]] = M^2 with M the FIBONACCI matrix, and this arc verifies the chain from the substitutions: sigma (x->xy, y->x, the Fibonacci substitution) abelianises to [[1,1],[1,0]] with det -1, hence ORIENTATION-REVERSING, and sigma^2 abelianises to [[2,1],[1,1]] = the banked monodromy -- so the object's monodromy is the SQUARE OF AN ORIENTATION-REVERSING MAP, the amphichirality structure in the fibration's own language (and B1260 independently found the Alexander polynomial t^2-3t+1 reciprocal with roots phi^2, phi^-2). THE CROSS-CHECK: a fibered knot's fiber is the COMMUTATOR subgroup, so a surjection pi_1 ->> 2T restricts on the fiber to [2T,2T] = Q8 (order 8, computed), NOT to 2T -- asking the fiber to surject onto 2T gives 0 invariant pairs, a diagnostic kept in the script. With the right target: 24 generating pairs F2 ->> Q8, ALL 24 monodromy-invariant up to 2T-conjugacy, falling into exactly 2 CLASSES -- MATCHING part 1's 2 Aut(2T)-orbits computed from the KNOT presentation, two independent presentations agreeing with NO fiber<->knot dictionary assumed (B71 records that dictionary as a separate unclaimed identification). AND THE TEMPTING CONSEQUENCE IS REFUTED FROM THE SECOND SIDE: if sigma is the orientation-reversing half, the two classes might be its two sides, making the choice of 2T quotient the orientation bit -- FALSE, sigma FIXES each class, 0 swapped and 24 fixed, so together with part 1's 48/48 the reading fails from BOTH presentations. The 2-fold multiplicity is real and cross-checked; Fibonacci does not explain it.  
+`B1263_i6_side_a_verified/FINDINGS.md`
 
 **NEGATIVE — `B1262`** (520 words, 0 locks)  
 I-9 REFUTED: THERE IS NO 'GENUS V4' FOR DISCRIMINANT -15, and the row had carried its own discriminator UNRUN. B1261 measured the trade at 15 unpriced inputs : 0 of the SM's 19 numbers and named two moves -- earn an identification (-1) or derive a parameter (+1); the ratchet's arithmetic contains a THIRD and cheaper one, REFUTE, which also removes a row from the UNEARNED set. I-9 was the candidate because its own text said 'the genus group of disc -15 has order 2^(t-1) = 2, not 4' and nobody had run it. COMPUTED: disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2 genera, so the genus group has ORDER 2 against Gal(Q(sqrt-3,sqrt5)/Q)'s ORDER 4. THERE IS NO GENUS V4 FOR DISC -15: the object the row NAMES does not exist, and the identification is false as stated. THE FALLBACK READING FAILS TOO on the programme's own rules -- reading side B as Gal does match orders 4 = 4, but that is an ORDER MATCH which B1223 established is not a connection ('Direct is not semidirect': the groups matched, the action did not), and B155's own row calls the glue a GL(4,Z)-class invariant 'not forced by the spectral type', i.e. LATTICE data against Gal's FIELD data, so a canonical map cannot exist. CONTROLS BOTH WAYS: the class-number routine is validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) BEFORE being trusted, which caught a real bug -- a first draft returned h(-15) = 3 by admitting (1,-1,4), which is not reduced since b >= 0 is required when |b| = a -- and discriminants with t = 3 (-84, -120) DO give 4 genera, so order 2 is a fact about -15 and not about the method. THE PRICE: UNEARNED 11 -> 10, the trade moves from 15 : 0 to 14 : 0, the first reduction, and it came from running a discriminator the register had been carrying all along.  

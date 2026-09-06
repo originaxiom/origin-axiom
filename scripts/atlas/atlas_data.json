@@ -6206,6 +6206,28 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1263": {
+   "slug": "i6 side a verified",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B302",
+    "B71",
+    "H5"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

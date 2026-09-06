@@ -1,5 +1,20 @@
 # Changelog
 
+## I-6's SIDE A VERIFIED, THE MULTIPLICITY IS TWO — and Fibonacci is the monodromy, not the mirror
+
+**B1263.** Auditing the next ledger row after B1262 moved the price to 14. **Part 1:** π₁(m004) ↠ 2T is
+real — **72 homomorphisms, 48 surjective** — so I-6 is **not** refutable there and **the price stays at
+14**. But the 48 fall into **2 orbits under Aut(2T) = S₄** (4 under inner): **the object supplies two
+distinct 2T quotients, never one** — the H5 pattern at a **sixth** level. **Part 2**, on the owner's
+question: **B71's header already records the monodromy as φ = [[2,1],[1,1]] = M², M the Fibonacci
+matrix**, and this arc verifies it from the substitutions — **σ (x→xy, y→x) abelianises to [[1,1],[1,0]]
+with det −1, ORIENTATION-REVERSING**, and σ² is the monodromy. **The object's monodromy is the square of
+an orientation-reversing map.** The fiber is the commutator subgroup, so it maps onto **[2T,2T] = Q₈**:
+**24 generating pairs, all monodromy-invariant, in exactly 2 classes — matching part 1's two orbits from
+the knot presentation, with no fiber↔knot dictionary assumed.** **But σ fixes each class (0 swapped, 24
+fixed)**, so with part 1's 48/48 the mirror reading **fails from both presentations**. The 2-fold
+multiplicity is real and cross-checked; **Fibonacci does not explain it**.
+
 ## I-9 REFUTED — there is no "genus V₄" for disc −15, and the row carried its own discriminator unrun
 
 **B1262.** B1261 named two moves on the **15 : 0** trade; the ratchet contains a **third and cheaper**
