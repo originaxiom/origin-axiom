@@ -42,6 +42,17 @@ Status values: **EARNED** (map exhibited *and* acts) · **REFUTED** (tested, fai
 
 ## Standing counts
 
+**Boundary-index note (2026-09-06; local rows/counts/statuses unchanged).**
+Upstream's I-26 is not discharged by an Euler subtraction alone. The exact
+path-local R12 audit separates boundary topology, symmetry-fixed endpoints,
+and the physical coefficient/operator problem. Three invariant disks remain
+a possible chosen boundary; proper-arc excision also changes the manifold
+and its external boundary term. Establish the charged Higgs background,
+boundary domains and physical zero-mode identification before calling the
+topological integer a generation count. Source: B1290/B1291 at main
+2901ae9f, physics-seat R61/R69 at f4d74728, independently audited in
+`reports/physical_bridge_2026_09_05/BOUNDARY_INDEX.md`.
+
 **R11 scope note (2026-09-06; counts/statuses unchanged).** The marked
 founding ratio now determines a pure family-A2 rotation Wg=s_1 s_g in
 the specified icosian E8 construction. Its literal left action is Ug Wg,

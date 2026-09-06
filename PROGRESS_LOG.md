@@ -14183,3 +14183,57 @@ map and its scope. Next independently audit the present three-fold closing,
 its actual gauge action, zero modes, cubic and kinetic forms; do not call
 its three-class/nonzero-cubic claim missing. Source/action selection,
 physical chirality, gravity and empirical contact remain the full goal.
+
+## 2026-09-06 — Path-local R12: boundary index, charge-arc excision and preserved positives
+
+Read CC's 2026-09-06 numbering relay/alias table at main 2901ae9f before
+any new identifier. No B number allocated; R labels remain local to
+reports/physical_bridge_2026_09_05. Fetched physics f4d74728 and SM
+2a7f8855, with no merge/push. Main B1290/B1291 and their producers,
+physics R61/R69 and the sB1277 arcs/corners addendum were read, not
+accepted from their verdict lines.
+
+Seal 0ea46c2b: finite cubical chain complexes and exact rational ranks
+verify the user's annular zero; three theta-invariant disks have chi=3
+and their complement chi=-3. This candidate is prior art in R61, whose
+theta-even dismissal was withdrawn in R69. It is restored as a possible
+boundary choice, not physical generations or a source-selected vacuum.
+The nested-disk partition has two null-homotopic dividing circles but
+chi=0, refuting the stronger iff. Fixed-endpoint parity has a different
+quantifier and does not exclude every boundary index on one cusp.
+
+The actual m202 control SURVIVES a suspected instrument flaw: three fixed
+points really occur on preserved cusp tori. Swapped-cusp matrices are
+not fixed-point counts, but excluding them does not erase the genuine
+witness. This failed negative prior is preserved explicitly.
+
+Proper-arc excision changes the core Euler characteristic: k intervals
+give chi(C)=chi(Q)-k. Two arcs give -2, annular tubes 0, remaining cusp
+-4. R69's positive-tubes-only, external-cusp-empty rule therefore gives
+relative Euler -2 for all three tested sign patterns, not the printed
+sign-only -2,+2,0. Reversing the COMPLETE boundary condition does restore
+opposite indices. A general gluing derivation exposes the missing endpoint
+and external-boundary terms. The possible nonzero index is retained;
+physical admissibility, charge balance and source selection remain open.
+
+Producer first run succeeds in 1.55 s; eleven new tests pass in 2.31 s.
+Combined quiescent regression: 145 passed, 3 prior failures, 8 original
+R11 fixture errors in 167.93 s. The G2/R7 original failures and R11 domain
+errors remain visible; separate repairs and all new checks pass. No new
+scientific failure, old-source rewrite, tolerance relaxation or xfail.
+R11's prior eight dispatch-corruption controls passed at seal 14f2363a;
+the reported static gate does not follow their indirect assertions.
+
+Sources/results/scopes: reports/physical_bridge_2026_09_05/BOUNDARY_INDEX.md,
+BOUNDARY_INDEX_CHECKS.txt and boundary_index_first_run.json in that folder.
+FINDINGS.md is a receiving-seat pointer, not a new main arc or automatic
+atlas ingestion. PB-BOUNDARY requires the actual physical boundary problem;
+PB-ACTION, gravity and empirical contact remain the user's full goal.
+
+R12 reporting gates: 27 pass, 3 fail, unchanged inventory attribution,
+two static-vacuity classifications and four older seal-marker omissions;
+review-due remains visible. No new R12 gate defect. Generated views are
+unchanged; 125 then-listed latest-path artifact hashes match. The raw
+gate receipt is BOUNDARY_INDEX_GATES.txt in the audit folder. Its creation
+and these notes postdate that gate run, so final hashes are checked again
+before the local reporting commit. No main-bank or publication claim.

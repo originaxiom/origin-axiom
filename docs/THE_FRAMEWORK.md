@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Boundary-index scope, 2026-09-06 (path-local R12):** chi(M,A)=-chi(A)
+for a compact torus-boundary exterior, but charge-arc excision changes M.
+Exact relative complexes retain annular zero and the possible index from
+R61's three theta-invariant disks. Neither a fixed-endpoint parity theorem
+nor an uncomputed positive-region selection establishes a physical chiral
+verdict. R69's sign-only graph expression requires the omitted external
+cusp prescription for proper arcs. The genuine m202 multi-cusp fixed-point
+control is retained. Source, repaired inference and remaining physical
+boundary problem: `reports/physical_bridge_2026_09_05/BOUNDARY_INDEX.md`.
+
 **Assembled 2026-08-08 on the mature corpus; read whole and rewritten against the full
 record through B1101 (2026-08-20, the closing campaign's first phase).** Supersedes
 `ROADMAP_TOE.md` (2026-07-08), which was written **before** the cascade campaign and

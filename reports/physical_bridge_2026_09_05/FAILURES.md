@@ -312,3 +312,35 @@ seal-marker omissions. Review-due remains visible. The repaired law-map
 and path-reference gates pass. No whole-repository suite was rerun here;
 the 126/3/8 combined result and the subsequent eight mutation passes are
 separate receipts, not a silently combined full-suite certificate.
+
+## Path-local R12: first run and eleven new tests pass; negative prior corrected
+
+Design/source/tests sealed at 0ea46c2b before execution. First producer
+succeeds in 1.55 s; 11 focused tests pass in 2.31 s. The optional SnapPy
+GUI emits a missing-tkinter warning; non-GUI computation succeeds. Complete
+raw outputs are preserved in BOUNDARY_INDEX_CHECKS.txt, including original
+local paths/trailing whitespace. A separate public privacy derivative is
+not supplied and these are not labelled publication-ready bytes.
+
+Combined quiescent regression: 145 passed, 3 failed, 8 errors in 167.93 s.
+The three failures remain the G2 NumPy-key exporter and R7 small-step
+controls; the eight errors remain the original R11 domain fixture.
+Separately sealed repairs pass. R12 introduces no scientific failure and
+no original test/tolerance is weakened. This is not full-suite green.
+
+An important negative prior FAILS: correcting cusp-target interpretation
+does NOT remove main B1291's m202 three-point witness. Four finite-three
+peripheral rows preserve their cusp, while four additional rows swap cusps
+and are not fixed-point counts. The genuine witness is retained. The
+distinct generation-index quantifier error and the null-circle iff still
+have explicit exact controls; neither is used to kill that positive.
+
+R12 staged reporting gates return 27 pass, 3 fail: the existing inventory
+attribution finding, the two existing static-vacuity classifications, and
+the four earlier seal-marker paths. R12 adds no gate defect. The review-due
+warning remains; this is not a decadal review. Views regenerate with no
+changes and all 125 then-listed latest-path hashes match. Raw gate output:
+BOUNDARY_INDEX_GATES.txt. This receipt and the final notes postdate the
+gate run; a final artifact check is run before the local reporting commit.
+No full-suite green, complete main banking, independent receiving-seat
+verification, physical-spectrum derivation or remote push is claimed.

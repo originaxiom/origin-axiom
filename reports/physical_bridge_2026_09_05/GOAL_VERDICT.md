@@ -1,4 +1,4 @@
-# Verdict toward the full physical-theory goal — 2026-09-06, after R11
+# Verdict toward the full physical-theory goal — 2026-09-06, after path-local R12
 
 **Real conditional physical progress; a complete TOE is not established.**
 The audit now includes an executable four-dimensional gauge/scalar/fermion
@@ -13,6 +13,15 @@ an explicit commuting family rotation in the icosian E8 construction.
 Its literal left action also rotates E6; the two components are separated
 and verified, not identified from matching three-cycles. This is a genuine
 internal-map result, not yet a physical family count. [R11](FAMILY_ACTION.md).
+
+R12 audits the physical boundary-index entrance. The annular zero survives,
+but three theta-invariant disks remain a possible chosen boundary; a
+fixed-endpoint parity theorem does not exclude that index. Proper-arc
+excision changes both the manifold and the external cusp prescription.
+The exact correction preserves possible nonzero indices without calling
+them derived physical generations. [R12](BOUNDARY_INDEX.md). The next
+physical duty is the actual source-selected Higgs/boundary problem, not
+another untyped count. CC's relay was read and no B number is allocated.
 
 There is no defensible percentage-complete estimate. Several outstanding
 items are conceptual derivations and empirical tests, not quantities of
@@ -33,11 +42,17 @@ tests, and no global impossibility theorem is claimed.
 These are requirements not yet discharged **by the audited construction**,
 not assertions that every possible route in the corpus has failed. Earlier
 negative statements are not promoted beyond their verified quantifiers.
-This turn fetched main 87a2eb3d and inspected source branches 945e091d and
-5788e1fd without merging them. R11 independently verifies the named family
+R11 fetched main 87a2eb3d and inspected source branches 945e091d and
+5788e1fd without merging them. It independently verifies the named family
 action construction, not their entire content. The newer embedding-selector
 and three-fold-closing claims remain scoped audit targets, not absent work
 or grounds to reset older positives or declare the full goal complete.
+
+R12 subsequently reads main 2901ae9f, physics seat f4d74728 and SM seat
+2a7f8855 without merging, including B1290/B1291 and R61/R69. Its exact
+controls do not certify the entire newer branch content. Physics-seat
+R64--R68's full lifts and two-sided selector are located audit targets,
+not missing constructions and not automatically physical identifications.
 
 ## What R10 changed today
 
@@ -54,6 +69,12 @@ errors from R11's integer-domain interface. Its separately sealed repair
 passes all eight original mathematical locks and three new adapter controls.
 Tests verify scoped computations, not the TOE. Full receipts and
 archive/governance debt remain visible in [FAILURES.md](FAILURES.md).
+
+After R12 the combined regression is **145 passed, 3 failed, 8 errors**
+in 167.93 s. R12 adds eleven passing tests; R11's eight separately sealed
+dispatch controls also pass. The earlier failure/error cases are retained
+without skips or relaxed tolerances. This remains a scoped regression,
+not full-suite green or a certificate of the physical theory.
 
 ## The next work must address both levels
 

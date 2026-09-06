@@ -2475,3 +2475,23 @@ flat-G2 constructions. No chirality-existence claim or new blanket no-go.
 R8's controlled leading electroweak-broken action is now computed separately
 (the progress entry above); this G2 scope correction does not replace that
 physical calculation or close its remaining selection/matching questions.
+
+**PB-BOUNDARY — the actual physical index problem, not its Euler shortcut. OPEN.**
+Path-local R12 preserves annular zero and recovers the already-present
+three theta-invariant disks as a candidate, not a selected background.
+Main B1291's true fixed-endpoint parity does not bound arbitrary relative
+Euler; the genuine m202 three-fixed-point control survives the explicit
+self-cusp check. R69's proper-arc construction changes the manifold and
+requires its external cusp term. Source: `reports/physical_bridge_2026_09_05/BOUNDARY_INDEX.md`.
+
+Next derive the charge/Higgs locus and complete positive/negative boundary
+from the originating construction, including which symmetries are retained;
+specify the unbroken gauge representation, charge/flux balance, mixed-boundary
+operator domain, interfaces and normalizability; compute its actual charged
+zero modes and interactions. Three disks, equal arc signs and a theta-even
+U1 direction are inputs until selected. Do not replace I-26's physical map
+with an Euler subtraction or close all cusped routes using the odd-field
+annular case. This supplements PB-ACTION and the queued three-fold-closing,
+full-lift and two-sided-selector audits, without restarting existing results
+as missing. A complete TOE additionally needs the same theory's gravity and
+distinctive empirical contact. No main B ID is reserved by this local lead.

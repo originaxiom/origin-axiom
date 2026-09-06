@@ -1,5 +1,17 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL AUDIT (2026-09-06, path-local R12): the boundary controls the index.**
+The annular zero is retained, not turned into a cusp-wide generation kill.
+Three theta-invariant disks have chi=3 (R61's prior candidate); selection
+and physical admissibility remain open. Excising two proper charge arcs
+changes chi(M) to -2; R69's sign-only shortcut omits an external boundary
+contribution. Reversing the complete boundary condition restores opposite
+indices. Main's m202 three-fixed-point control is genuinely verified, not
+erased by cusp-map typing concerns. Eleven new tests pass; combined
+145 passed, 3 prior failures, 8 original R11 fixture errors, all retained.
+CC's reserved ranges are read and respected; no new B number or remote
+write. Source and scopes: `reports/physical_bridge_2026_09_05/BOUNDARY_INDEX.md`.
+
 **SOURCE-MAP CONTINUATION R11 (2026-09-06): a family component is explicit.**
 The marked founding ratio determines Wg=s_1 s_g in the specified icosian
 E8; its literal left action factors as Lg=Ug Wg, with Ug in the E6 Weyl

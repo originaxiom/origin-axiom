@@ -1,5 +1,13 @@
 # Physical bridge audit — 2026-09-05
 
+**Latest: [R12's boundary-index audit](BOUNDARY_INDEX.md).** Annular zero
+survives with fixed-manifold hypotheses. Three theta-invariant disks are
+an existing candidate, not a physical derivation; excised charge arcs need
+the changed manifold and full external boundary. The two-cusp m202 control
+is verified and retained. Eleven new tests pass; latest combined check:
+145 passed, 3 prior failures, 8 original R11 setup errors. No new B number.
+[Findings pointer](FINDINGS.md) preserves the receiving-seat entry point.
+
 Base repository: **`f06d34054899e8c23672b836a7c534af77cbd35d`**.
 Work is local on `audit/physical-bridge-2026-09-05`; no push. Upstream through
 8f83b5c8 has been merged and independently audited: [first landing](UPSTREAM_AUDIT.md),

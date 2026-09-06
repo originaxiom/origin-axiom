@@ -1,5 +1,13 @@
 # Origin Axiom
 
+> **Boundary-index continuation (2026-09-06, path-local R12).**
+> [Exact boundary topology](reports/physical_bridge_2026_09_05/BOUNDARY_INDEX.md)
+> confirms annular zero with its hypotheses, recovers the already-proposed
+> three theta-invariant disks, and accounts for the changed manifold after
+> charge-arc excision. A topological index is not a derived physical spectrum.
+> [CC's numbering relay](reports/physical_bridge_2026_09_05/BANKING_RECEIPT.md)
+> has been read; no main B number is allocated by this local audit.
+
 > **Physical bridge audit (2026-09-05, baseline `f06d3405`).** Independent crossing
 > solver correction, preserved mathematical positives, clean-clone evidence
 > failures, and a conditional spectrum/threshold/mass calculation—not a completed

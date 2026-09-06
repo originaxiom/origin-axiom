@@ -1,0 +1,4995 @@
+{
+  "affine": {
+    "free_glide": {
+      "determinant": 0,
+      "grid_counts": [
+        0,
+        0
+      ],
+      "grid_sizes": [
+        4,
+        8
+      ],
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "shift": [
+        "1/2",
+        "0"
+      ]
+    },
+    "half_translation": {
+      "determinant": 0,
+      "grid_counts": [
+        0,
+        0
+      ],
+      "grid_sizes": [
+        4,
+        8
+      ],
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shift": [
+        "1/2",
+        "0"
+      ]
+    },
+    "identity": {
+      "determinant": 0,
+      "grid_counts": [
+        16,
+        64
+      ],
+      "grid_sizes": [
+        4,
+        8
+      ],
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shift": [
+        "0",
+        "0"
+      ]
+    },
+    "inversion": {
+      "determinant": 4,
+      "grid_counts": [
+        4,
+        4
+      ],
+      "grid_sizes": [
+        4,
+        8
+      ],
+      "matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "shift": [
+        "0",
+        "0"
+      ]
+    },
+    "order_three": {
+      "determinant": 3,
+      "grid_counts": [
+        3,
+        3
+      ],
+      "grid_sizes": [
+        6,
+        12
+      ],
+      "matrix": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "shift": [
+        "0",
+        "0"
+      ]
+    },
+    "reflection": {
+      "determinant": 0,
+      "grid_counts": [
+        8,
+        16
+      ],
+      "grid_sizes": [
+        4,
+        8
+      ],
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "shift": [
+        "0",
+        "0"
+      ]
+    },
+    "shifted_inversion": {
+      "determinant": 4,
+      "grid_counts": [
+        4,
+        4
+      ],
+      "grid_sizes": [
+        4,
+        8
+      ],
+      "matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "shift": [
+        "1/2",
+        "0"
+      ]
+    }
+  },
+  "excision": [
+    {
+      "C": {
+        "betti": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          119,
+          176,
+          64
+        ],
+        "cells": [
+          120,
+          296,
+          240,
+          64
+        ],
+        "chi": 0
+      },
+      "E": {
+        "betti": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          95,
+          95,
+          0
+        ],
+        "cells": [
+          96,
+          192,
+          96,
+          0
+        ],
+        "chi": 0
+      },
+      "N": {
+        "betti": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          0,
+          0,
+          0
+        ],
+        "cells": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "chi": 0
+      },
+      "Q": {
+        "betti": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          119,
+          176,
+          64
+        ],
+        "cells": [
+          120,
+          296,
+          240,
+          64
+        ],
+        "chi": 0
+      },
+      "T": {
+        "betti": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          0,
+          0,
+          0
+        ],
+        "cells": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "chi": 0
+      },
+      "arcs": 0,
+      "boundary_C": {
+        "betti": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          95,
+          95,
+          0
+        ],
+        "cells": [
+          96,
+          192,
+          96,
+          0
+        ],
+        "chi": 0
+      },
+      "endpoint_caps": {
+        "betti": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          0,
+          0,
+          0
+        ],
+        "cells": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "chi": 0
+      }
+    },
+    {
+      "C": {
+        "betti": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          119,
+          175,
+          62
+        ],
+        "cells": [
+          120,
+          296,
+          237,
+          62
+        ],
+        "chi": -1
+      },
+      "E": {
+        "betti": [
+          1,
+          3,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          95,
+          94,
+          0
+        ],
+        "cells": [
+          96,
+          192,
+          94,
+          0
+        ],
+        "chi": -2
+      },
+      "N": {
+        "betti": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          11,
+          9,
+          2
+        ],
+        "cells": [
+          12,
+          20,
+          11,
+          2
+        ],
+        "chi": 1
+      },
+      "Q": {
+        "betti": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          119,
+          176,
+          64
+        ],
+        "cells": [
+          120,
+          296,
+          240,
+          64
+        ],
+        "chi": 0
+      },
+      "T": {
+        "betti": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          11,
+          8,
+          0
+        ],
+        "cells": [
+          12,
+          20,
+          8,
+          0
+        ],
+        "chi": 0
+      },
+      "arcs": 1,
+      "boundary_C": {
+        "betti": [
+          1,
+          4,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          99,
+          101,
+          0
+        ],
+        "cells": [
+          100,
+          204,
+          102,
+          0
+        ],
+        "chi": -2
+      },
+      "endpoint_caps": {
+        "betti": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          6,
+          2,
+          0
+        ],
+        "cells": [
+          8,
+          8,
+          2,
+          0
+        ],
+        "chi": 2
+      }
+    },
+    {
+      "C": {
+        "betti": [
+          1,
+          3,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          119,
+          174,
+          60
+        ],
+        "cells": [
+          120,
+          296,
+          234,
+          60
+        ],
+        "chi": -2
+      },
+      "E": {
+        "betti": [
+          1,
+          5,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          95,
+          92,
+          0
+        ],
+        "cells": [
+          96,
+          192,
+          92,
+          0
+        ],
+        "chi": -4
+      },
+      "N": {
+        "betti": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          22,
+          18,
+          4
+        ],
+        "cells": [
+          24,
+          40,
+          22,
+          4
+        ],
+        "chi": 2
+      },
+      "Q": {
+        "betti": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          119,
+          176,
+          64
+        ],
+        "cells": [
+          120,
+          296,
+          240,
+          64
+        ],
+        "chi": 0
+      },
+      "T": {
+        "betti": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          22,
+          16,
+          0
+        ],
+        "cells": [
+          24,
+          40,
+          16,
+          0
+        ],
+        "chi": 0
+      },
+      "all_positive_tubes": {
+        "betti": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          96,
+          158,
+          60
+        ],
+        "cells": [
+          96,
+          256,
+          218,
+          60
+        ],
+        "chi": -2
+      },
+      "arcs": 2,
+      "boundary_C": {
+        "betti": [
+          1,
+          6,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          103,
+          107,
+          0
+        ],
+        "cells": [
+          104,
+          216,
+          108,
+          0
+        ],
+        "chi": -4
+      },
+      "complementary_boundary": {
+        "betti": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "boundary_ranks": [
+          24,
+          80,
+          60
+        ],
+        "cells": [
+          24,
+          104,
+          142,
+          60
+        ],
+        "chi": 2
+      },
+      "endpoint_caps": {
+        "betti": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          12,
+          4,
+          0
+        ],
+        "cells": [
+          16,
+          16,
+          4,
+          0
+        ],
+        "chi": 4
+      },
+      "positive_tubes_only_cusp_empty": [
+        {
+          "A_chi": 0,
+          "relative": {
+            "betti": [
+              0,
+              2,
+              0,
+              0
+            ],
+            "boundary_ranks": [
+              96,
+              158,
+              60
+            ],
+            "cells": [
+              96,
+              256,
+              218,
+              60
+            ],
+            "chi": -2
+          },
+          "sign_only_claim": -2,
+          "signs": [
+            1,
+            1
+          ]
+        },
+        {
+          "A_chi": 0,
+          "relative": {
+            "betti": [
+              1,
+              3,
+              0,
+              0
+            ],
+            "boundary_ranks": [
+              119,
+              174,
+              60
+            ],
+            "cells": [
+              120,
+              296,
+              234,
+              60
+            ],
+            "chi": -2
+          },
+          "sign_only_claim": 2,
+          "signs": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "A_chi": 0,
+          "relative": {
+            "betti": [
+              0,
+              2,
+              0,
+              0
+            ],
+            "boundary_ranks": [
+              108,
+              166,
+              60
+            ],
+            "cells": [
+              108,
+              276,
+              226,
+              60
+            ],
+            "chi": -2
+          },
+          "sign_only_claim": 0,
+          "signs": [
+            1,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "C": {
+        "betti": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          119,
+          173,
+          58
+        ],
+        "cells": [
+          120,
+          296,
+          231,
+          58
+        ],
+        "chi": -3
+      },
+      "E": {
+        "betti": [
+          1,
+          7,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          95,
+          90,
+          0
+        ],
+        "cells": [
+          96,
+          192,
+          90,
+          0
+        ],
+        "chi": -6
+      },
+      "N": {
+        "betti": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          33,
+          27,
+          6
+        ],
+        "cells": [
+          36,
+          60,
+          33,
+          6
+        ],
+        "chi": 3
+      },
+      "Q": {
+        "betti": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          119,
+          176,
+          64
+        ],
+        "cells": [
+          120,
+          296,
+          240,
+          64
+        ],
+        "chi": 0
+      },
+      "T": {
+        "betti": [
+          3,
+          3,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          33,
+          24,
+          0
+        ],
+        "cells": [
+          36,
+          60,
+          24,
+          0
+        ],
+        "chi": 0
+      },
+      "arcs": 3,
+      "boundary_C": {
+        "betti": [
+          1,
+          8,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          107,
+          113,
+          0
+        ],
+        "cells": [
+          108,
+          228,
+          114,
+          0
+        ],
+        "chi": -6
+      },
+      "endpoint_caps": {
+        "betti": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          18,
+          6,
+          0
+        ],
+        "cells": [
+          24,
+          24,
+          6,
+          0
+        ],
+        "chi": 6
+      }
+    }
+  ],
+  "interpretation": "Finite-pair topology and instrument audit only; no sourced physical chiral spectrum.",
+  "runtime_seconds": 1.5482333750114776,
+  "snappy": {
+    "manifolds": {
+      "m004": {
+        "cusps": 1,
+        "generators": [
+          "a",
+          "b"
+        ],
+        "homology": "Z",
+        "isometries": [
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 0,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 1,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 2,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 3,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 4,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 5,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 6,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 7,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          }
+        ],
+        "orientable": true,
+        "relators": [
+          "aaabABBAb"
+        ],
+        "symmetry_order": 8
+      },
+      "m125": {
+        "cusps": 2,
+        "generators": [
+          "a",
+          "b"
+        ],
+        "homology": "Z + Z",
+        "isometries": [
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 0,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 1,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 2,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 2,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": 2,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 2,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 2,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 3,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 2,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 2,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": 2,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 2,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 4,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 5,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 2,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 2,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 6,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 7,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 2,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 2,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          }
+        ],
+        "orientable": true,
+        "relators": [
+          "aabaBBAABAbb"
+        ],
+        "symmetry_order": 8
+      },
+      "m202": {
+        "cusps": 2,
+        "generators": [
+          "a",
+          "b"
+        ],
+        "homology": "Z + Z",
+        "isometries": [
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 0,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 1,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 1,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 1,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": 1,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 1,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 2,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 3,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 3,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": 3,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 3,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 3,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 4,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 3,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 3,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": 3,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 3,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "index": 5,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 1,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 1,
+                "source": 0,
+                "target": 0
+              },
+              {
+                "interpretation": {
+                  "count": 1,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 1,
+                "source": 1,
+                "target": 1
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 6,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 7,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 1,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 1,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 8,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 3,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 3,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 9,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 10,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 3,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    0,
+                    1
+                  ],
+                  [
+                    -1,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 3,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "index": 11,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 1,
+                "source": 0,
+                "target": 1
+              },
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "different_cusp_not_a_self_map"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    -1,
+                    0
+                  ]
+                ],
+                "raw_abs_det_minus_I": 1,
+                "source": 1,
+                "target": 0
+              }
+            ]
+          }
+        ],
+        "orientable": true,
+        "relators": [
+          "aabbAbAABBaB"
+        ],
+        "symmetry_order": 12
+      },
+      "s960": {
+        "cusps": 1,
+        "generators": [
+          "a",
+          "b",
+          "c"
+        ],
+        "homology": "Z/2 + Z/10 + Z",
+        "isometries": [
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 0,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 1,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 2,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 3,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 4,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 5,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 6,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 7,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 8,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 9,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 10,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 11,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 12,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 13,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 14,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 15,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 16,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 17,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 18,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 19,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": 4,
+                  "kind": "finite_fixed_set"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    0
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 4,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 20,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 21,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 22,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          },
+          {
+            "cusp_images": [
+              0
+            ],
+            "index": 23,
+            "peripheral": [
+              {
+                "interpretation": {
+                  "count": null,
+                  "kind": "singular_linear_part_translation_required"
+                },
+                "matrix": [
+                  [
+                    -1,
+                    -1
+                  ],
+                  [
+                    0,
+                    1
+                  ]
+                ],
+                "raw_abs_det_minus_I": 0,
+                "source": 0,
+                "target": 0
+              }
+            ]
+          }
+        ],
+        "orientable": true,
+        "relators": [
+          "aacabbabCB",
+          "abbCAAbAbc"
+        ],
+        "symmetry_order": 24
+      }
+    },
+    "version": "3.3.2"
+  },
+  "source_receipts": [
+    {
+      "commit": "2901ae9f6dba964870b44d5eb6e01066c62b7f62",
+      "path": "frontier/B1290_the_index_formula/verification/index_formula.py",
+      "sha256": "54b8d5dacf994988b16322da395ac5777e24467b3676860d60201414f4d90b19"
+    },
+    {
+      "commit": "2901ae9f6dba964870b44d5eb6e01066c62b7f62",
+      "path": "frontier/B1291_the_parity_of_the_cusp/verification/dividing_set.py",
+      "sha256": "0fe02b7f606237d16b182bcf4736535835cffbe1d9ed425d4a2fc0e1a64852c2"
+    },
+    {
+      "commit": "2901ae9f6dba964870b44d5eb6e01066c62b7f62",
+      "path": "frontier/B1291_the_parity_of_the_cusp/verification/parity.py",
+      "sha256": "7559b4403f6ee43774634faa87499b5ce0af4645bf3fd1a3d6c901c29938415e"
+    },
+    {
+      "commit": "f4d747281ce9ec65fe2806404c01672cc73deb54",
+      "path": "reports/fresh_physics_seat_2026-09-01/R61_THE_GEOMETRY_OF_THETA.md",
+      "sha256": "09d485577bf894244fd27811344d0b14e4b58b141fab91f60072558d351219de"
+    },
+    {
+      "commit": "f4d747281ce9ec65fe2806404c01672cc73deb54",
+      "path": "reports/fresh_physics_seat_2026-09-01/computations/r69_arcs_cut_corners.py",
+      "sha256": "65d9656ea20f96fc83d07fa3902339b7cabf478b9363384b8f28b0433a9dbfed"
+    },
+    {
+      "commit": "2a7f88553652b9b28efefaf89925c116e008b639",
+      "path": "frontier/B1277_the_vacuum_manifold_of_the_closing/ADDENDUM_2026-09-06_the_arcs_and_the_corners.md",
+      "sha256": "310998afdf63ceeaa4373c86ca61b697a48a2737e71d553a626f92d20f217cc0"
+    }
+  ],
+  "torus": {
+    "examples": {
+      "nested_null_circles": {
+        "betti": [
+          2,
+          2,
+          0
+        ],
+        "boundary_loops": [
+          {
+            "edges": 8,
+            "winding": [
+              0,
+              0
+            ]
+          },
+          {
+            "edges": 16,
+            "winding": [
+              0,
+              0
+            ]
+          }
+        ],
+        "boundary_ranks": [
+          142,
+          132
+        ],
+        "cells": [
+          144,
+          276,
+          132
+        ],
+        "chi": 0,
+        "complement_chi": 0,
+        "faces": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            11
+          ]
+        ],
+        "half_translation_preserves": {
+          "0,6": false,
+          "6,0": false,
+          "6,6": false
+        },
+        "intersection_chi": 0,
+        "relative_chi_if_core_chi_zero": 0,
+        "theta_exchanges_sides": false,
+        "theta_preserves": true
+      },
+      "three_disks": {
+        "betti": [
+          3,
+          0,
+          0
+        ],
+        "boundary_loops": [
+          {
+            "edges": 8,
+            "winding": [
+              0,
+              0
+            ]
+          },
+          {
+            "edges": 8,
+            "winding": [
+              0,
+              0
+            ]
+          },
+          {
+            "edges": 8,
+            "winding": [
+              0,
+              0
+            ]
+          }
+        ],
+        "boundary_ranks": [
+          24,
+          12
+        ],
+        "cells": [
+          27,
+          36,
+          12
+        ],
+        "chi": 3,
+        "complement_chi": -3,
+        "faces": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            11
+          ]
+        ],
+        "half_translation_preserves": {
+          "0,6": false,
+          "6,0": false,
+          "6,6": false
+        },
+        "intersection_chi": 0,
+        "relative_chi_if_core_chi_zero": -3,
+        "theta_exchanges_sides": false,
+        "theta_preserves": true
+      },
+      "torus": {
+        "betti": [
+          1,
+          2,
+          1
+        ],
+        "boundary_loops": [],
+        "boundary_ranks": [
+          143,
+          143
+        ],
+        "cells": [
+          144,
+          288,
+          144
+        ],
+        "chi": 0,
+        "complement_chi": 0,
+        "faces": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            11,
+            11
+          ]
+        ],
+        "half_translation_preserves": {
+          "0,6": true,
+          "6,0": true,
+          "6,6": true
+        },
+        "intersection_chi": 0,
+        "relative_chi_if_core_chi_zero": 0,
+        "theta_exchanges_sides": false,
+        "theta_preserves": true
+      },
+      "torus_minus_three_disks": {
+        "betti": [
+          1,
+          4,
+          0
+        ],
+        "boundary_loops": [
+          {
+            "edges": 8,
+            "winding": [
+              0,
+              0
+            ]
+          },
+          {
+            "edges": 8,
+            "winding": [
+              0,
+              0
+            ]
+          },
+          {
+            "edges": 8,
+            "winding": [
+              0,
+              0
+            ]
+          }
+        ],
+        "boundary_ranks": [
+          140,
+          132
+        ],
+        "cells": [
+          141,
+          276,
+          132
+        ],
+        "chi": -3,
+        "complement_chi": 3,
+        "faces": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            10
+          ]
+        ],
+        "half_translation_preserves": {
+          "0,6": false,
+          "6,0": false,
+          "6,6": false
+        },
+        "intersection_chi": 0,
+        "relative_chi_if_core_chi_zero": 3,
+        "theta_exchanges_sides": false,
+        "theta_preserves": true
+      },
+      "two_annuli": {
+        "betti": [
+          2,
+          2,
+          0
+        ],
+        "boundary_loops": [
+          {
+            "edges": 12,
+            "winding": [
+              0,
+              1
+            ]
+          },
+          {
+            "edges": 12,
+            "winding": [
+              0,
+              -1
+            ]
+          },
+          {
+            "edges": 12,
+            "winding": [
+              0,
+              1
+            ]
+          },
+          {
+            "edges": 12,
+            "winding": [
+              0,
+              -1
+            ]
+          }
+        ],
+        "boundary_ranks": [
+          94,
+          72
+        ],
+        "cells": [
+          96,
+          168,
+          72
+        ],
+        "chi": 0,
+        "complement_chi": 0,
+        "faces": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "half_translation_preserves": {
+          "0,6": true,
+          "6,0": true,
+          "6,6": true
+        },
+        "intersection_chi": 0,
+        "relative_chi_if_core_chi_zero": 0,
+        "theta_exchanges_sides": true,
+        "theta_preserves": false
+      }
+    },
+    "size": 12
+  }
+}

@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-09-06 — Path-local R12: boundary topology before a chirality verdict
+
+CC's numbering relay and alias table read; no new B number. Exact cubical
+chains retain annular zero, recover R61's three theta-invariant disk
+candidate, and refute the over-wide null-circle iff with a nested example.
+Proper-arc excision changes chi(M): two arcs give -2, and the remaining
+cusp contribution cannot be omitted from the sign-dependent index.
+Main B1291's genuine two-cusp three-fixed-point witness on m202 survives
+the explicit cusp-target check. No physical generation count is inferred.
+Source: `reports/physical_bridge_2026_09_05/BOUNDARY_INDEX.md`.
+
+Sealed 0ea46c2b: first producer succeeds, 11 tests pass. Combined quiescent
+regression 145 passed, 3 earlier failures, 8 original R11 fixture errors
+in 167.93 s; no new science failure or old seal/test rewrite. R11's eight
+presealed dispatch-corruption controls also pass. A local research receipt,
+not full-suite green, main banking, source-derived physics or a TOE.
+
 ## 2026-09-06 — R11: the founding ratio has an explicit family component
 
 The independent marked SL(2,F5)-to-icosian map and full root actions show
