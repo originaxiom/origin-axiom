@@ -41,3 +41,17 @@ So B1275's step is **false literally and true up to E₆-gauge**: the object's g
 - The physical transport (B1269/B1270's Acharya–Witten with the golden E₈ along Q) and its count are unchanged by this report.
 
 *Swept: B1275 states the step unverified; B1270 computes that L_g cycles the classes but not its type or factorization; "fixed dimension" / "w₃" / the factorization appear in neither branch.*
+
+## 4. Addendum — the three elements are the three order-3 classes of E₈
+
+E₈ has exactly three non-central conjugacy classes of order-3 elements (Kac coordinates on the affine diagram: a mark-3 node twice, a mark-1 with a mark-2 once), with centralizers **SU(9)** (dim 80), **E₆ × SU(3)** (dim 86) and **E₇ × U(1)** (dim 134). For a lattice automorphism of order 3 that permutes the roots in 3-cycles, an order-3 lift to E₈ has Ad-eigenvalue-1 multiplicity = (fixed roots) + (fixed Cartan dimension) + (number of 3-cycles), and the ω, ω̄ multiplicities = (3-cycles) + ½(rotated Cartan dimension). Counted on the rebuilt lattice:
+
+| element | fixed roots | 3-cycles | fixed Cartan | Ad multiplicities (1, ω, ω̄) | class |
+|---|---|---|---|---|---|
+| **L_g** — the founding ratio | 0 | 80 | 0 | **(80, 84, 84)** | **SU(9)**: 248 = 80 + 84 + 84̄ |
+| **w_{A₂}** — the family rotation | 72 | 56 | 6 | **(134, 57, 57)** | **E₇ × U(1)**: 248 = 133 + 1 + 56 + 56̄ + 1 + 1̄ |
+| **w₃** — the E₆ factor | 6 | 78 | 2 | **(86, 81, 81)** | **E₆ × SU(3)**: 248 = 78 + 8 + (27,3) + (27̄,3̄) |
+
+*(Stated for order-3 lifts; a lift of order 6 or 9 would change the multiplicities. The lattice-level statements of §0 do not depend on this.)*
+
+So the founding ratio, its family factor and its E₆ factor realise **all three** order-3 classes of E₈, one each — and the one that *defines* the E₆ × SU(3) family structure is **w₃**, the E₆-internal factor, not the family rotation and not g itself. g is the **SU(9)** element, whose decomposition 248 = 80 + 84 + 84̄ is a different, complex grading of E₈ (84 = Λ³ of the 9), on which g's ω-eigenspace is a complex representation and ω ↔ ω̄ is the choice of 84 versus 84̄. This report records the fact; it does not read it.

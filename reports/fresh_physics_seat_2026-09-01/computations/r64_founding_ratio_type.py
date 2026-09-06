@@ -115,3 +115,14 @@ print(f"[27-classes] L_g permutes the classes: {lg_map}")
 print(f"     w_3 preserves every class: {w3_perm_ok}; roots fixed by w_3 among the 162: {w3_fixed_roots}  -> 54 three-cycles = 9 per class")
 print(f"     w_3 on the 72 E6 roots: fixed {sum(1 for r in E6 if image_class(w3, r)[1] == r)} -> 24 three-cycles")
 print("[mod 2] g = -R L^-1 = [[0,-1],[1,-1]] and M^2 = [[2,1],[1,1]] both reduce to [[0,1],[1,1]] in SL(2,F_2): the same 3-cycle on the fiber's half-periods.")
+
+# ---- E8 conjugacy type of the (order-3) lifts: centralizer dim = fixed roots + fixed Cartan dim; Kac classes: SU(9) 80, E6xSU(3) 86, E7xU(1) 134
+def apply(A, r):
+    v = A*coords(r); return quat_from_vec(list(Bm.T*v))
+for name, A in (("L_g (founding ratio)", Lg), ("w_A2 (family rotation)", wA2), ("w_3 (E6 factor)", w3)):
+    fixed_roots = sum(1 for r in roots if apply(A, r) == r)
+    cyc3 = (240 - fixed_roots) // 3
+    cart = fixdim(A)
+    m1 = fixed_roots + cart + cyc3; mw = cyc3 + (8 - cart)//2   # each 3-cycle of root spaces carries one invariant vector
+    kac = {80: "SU(9)", 86: "E6 x SU(3)", 134: "E7 x U(1)", 248: "central"}.get(m1, "?")
+    print(f"[E8 class] {name:24s}: fixed roots {fixed_roots:3d}, 3-cycles {cyc3:2d}, fixed Cartan dim {cart} -> Ad multiplicities (1: {m1}, omega: {mw}, omega-bar: {mw}) -> centralizer dim {m1} = {kac}")
