@@ -1,7 +1,7 @@
 # R8 — the controlled electroweak-broken leading light-field theory
 
-STATUS 2026-09-06: DRAFT, UNSEALED, UNEXECUTED. Paused for the bounded B1259
-inference check in UPSTREAM_3_DESIGN.md; no R8 result is being claimed.
+STATUS 2026-09-06: resumed for implementation after the 98c3e153 G2 audit
+checkpoint. Still UNEXECUTED; seal the final design, code and tests together.
 
 BANKED IDENTITY: R7 is a chosen compact-E6 4d action, with 294 real scalars,
 209 positive tree modes, 66 gauge directions and 19 physical tree-zero
@@ -65,6 +65,9 @@ small-step second-Hessian subtraction; R7's failed controls are untouched.
 ## Minima, not just negative mass signs
 
 Recompute R7's reference mu=1 force/curvatures and compare its pinned output.
+Independently evaluate the ENTIRE 19-by-19 light curvature matrix, including
+normal-shift terms, by analytic spectral derivatives and polarization. Check
+the inferred irreducible-block form against every computed entry.
 The leading light potential is
 
     Veff = epsilon^2/2 [mO O^2+mT T^2+mU u^2+mD d^2] + epsilon V4.
@@ -90,6 +93,9 @@ Compute all 27 fermion singular masses; compare the lightest 17 with K^T M_H K
 on the old exact mixed-mass kernel. Report EVERY singular value, especially
 the smallest: a leading rank-16 projection cannot drop a higher-order
 seventeenth mass. No pole-mass claim.
+As an exact finite-VEV control, also use unshifted S,N with Higgs amplitudes
+1/10 and 1/9 in each orientation: compute full and projected ranks and the
+cubic invariant. These are controls, not replacements for the shifted spectra.
 
 Check the full classical common phase psi->exp(i alpha)psi and all four
 scalars->exp(-2i alpha)phi, adjoint unchanged. Solve the exact SU5-commuting
@@ -97,6 +103,9 @@ Cartan compensation Gc S=Gc N=2. Determine residual doublet charges; project
 the broken-phase tangent off the actual gauge orbit. Compute
 Tr27[(1+Gc)t_color^2] exactly: if nonzero, the symmetry is anomalous, so no
 exact quantum Goldstone or observational axion exclusion is claimed.
+The neutral phase tangent is expected to have a physical component; the
+charge-breaking orientation may compensate it with the larger broken gauge
+orbit. Report both, rather than imposing the neutral count on both states.
 New symmetry-breaking terms would be additional inputs, not a hidden repair.
 
 Primary context read 2026-09-06: Branco et al., arXiv:1106.0034v3 §§5.8--5.9,
@@ -114,3 +123,10 @@ not success conditions to repair. Higher-order alignment, pole matching,
 radiative closure, action selection, physical families and 4d gravity remain
 full-goal duties. Seal design/code/tests before execution, refuse overwrite,
 preserve failures, and keep the tree quiescent during tests.
+
+Implementation controls, still before execution: the last finite-path
+quartic error must be below 1 percent and one quarter of the first-step
+error; the full/projected light spectra must converge as epsilon decreases
+(report errors, do not tune epsilons). Serialize all NumPy keys/values before
+opening an exclusive output, learning from the preserved upstream-3 failure.
+Check BOTH literal provenance markers in this file before committing its seal.
