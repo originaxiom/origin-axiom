@@ -1,0 +1,54 @@
+(a) the eight isometries on the cusp torus, R62's data, in the SM seat's coordinates x = v (along lambda), y = u (along mu)
+map              (mu,lambda) signs  transl (x,y)     transl (mu,lambda) orient  order |Fix| fixed points (x,y)
+sigma (=theta)   ('-', '-')         (Fraction(0, 1), Fraction(0, 1)) (Fraction(0, 1), Fraction(0, 1)) +       2     4     [(Fraction(0, 1), Fraction(0, 1)), (Fraction(1, 2), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 2)), (Fraction(1, 2), Fraction(1, 2))]
+sigma.iota (=theta T) ('-', '-')         (Fraction(1, 2), Fraction(0, 1)) (Fraction(0, 1), Fraction(1, 2)) +       2     4     [(Fraction(1, 4), Fraction(0, 1)), (Fraction(3, 4), Fraction(0, 1)), (Fraction(1, 4), Fraction(1, 2)), (Fraction(3, 4), Fraction(1, 2))]
+m.sigma          ('-', '+')         (Fraction(1, 4), Fraction(1, 2)) (Fraction(1, 2), Fraction(1, 4)) -       4     0     []
+m.sigma.iota     ('-', '+')         (Fraction(3, 4), Fraction(1, 2)) (Fraction(1, 2), Fraction(3, 4)) -       4     0     []
+mirror m         ('+', '-')         (Fraction(1, 4), Fraction(1, 2)) (Fraction(1, 2), Fraction(1, 4)) -       2     0     []
+m.iota           ('+', '-')         (Fraction(3, 4), Fraction(1, 2)) (Fraction(1, 2), Fraction(3, 4)) -       2     0     []
+id               ('+', '+')         (Fraction(0, 1), Fraction(0, 1)) (Fraction(0, 1), Fraction(0, 1)) +       1     circles 
+iota (=T)        ('+', '+')         (Fraction(1, 2), Fraction(0, 1)) (Fraction(0, 1), Fraction(1, 2)) +       2     0     []
+    matches the B1277-addendum table (all four sign classes, both translation parts each): True
+    matches B1279's (mu, lambda) table: True
+    corners: {'sigma (=theta)': [(Fraction(0, 1), Fraction(0, 1)), (Fraction(1, 2), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 2)), (Fraction(1, 2), Fraction(1, 2))], 'sigma.iota (=theta T)': [(Fraction(1, 4), Fraction(0, 1)), (Fraction(3, 4), Fraction(0, 1)), (Fraction(1, 4), Fraction(1, 2)), (Fraction(3, 4), Fraction(1, 2))]}
+    theta's corners = R61's four 2-torsion points 0, 1/2, tau/2, (1+tau)/2 = the endpoints of Fix(theta)'s two arcs;
+    theta T's corners = R62's quarter points tau/4 (+1/2), 3tau/4 (+1/2).
+
+(b) B1291's parity theorem on the same maps: |Fix on the cusp| = |det(A - I)|:
+    |Fix| over the eight = [0, 0, 0, 0, 0, 0, 4, 4]   (B1291: 'only 2 of 8 have fixed points, 4 each; no orientation-reversing one has any')
+    4 = 2 arcs x 2 ends: R61's two arcs are exactly what the parity theorem counts (even, one cusp).
+
+(c) allowed Fourier orbits of a theta-odd field (parity = mu-sign), the SM seat's table recomputed:
+    orbit (k along lambda, l along mu)   decay   allowed dim
+    (+1,+0) [(-1, 0), (1, 0)]          0.289   0
+    (+2,+0) [(-2, 0), (2, 0)]          0.577   1
+    (+3,+0) [(-3, 0), (3, 0)]          0.866   0
+    (+0,+1) [(0, -1), (0, 1)]          1.000   0
+    (+1,+1) [(-1, -1), (-1, 1), (1, -1), (1, 1)] 1.041   0
+    (+2,+1) [(-2, -1), (-2, 1), (2, -1), (2, 1)] 1.155   1
+    (+4,+0) [(-4, 0), (4, 0)]          1.155   0
+    (+6,+0) [(-6, 0), (6, 0)]          1.732   1
+    (+2,+2) [(-2, -2), (-2, 2), (2, -2), (2, 2)] 2.082   1
+    (+4,+1) [(-4, -1), (-4, 1), (4, -1), (4, 1)] 1.528   1
+    (+0,+2) [(0, -2), (0, 2)]          2.000   1
+    (SM seat: 0, 1, 0, 0, 0, 1 for these six orbits -- reproduced.)  Note (+-4,0) is killed too: the pure longitude modes are k = 2 mod 4.
+
+(d) region-swap theorem on a 480x480 grid; allowed real basis functions up to (k,l) <= (6,3): 12 (orbits: [(0, 2), (2, 0), (2, 1), (2, 2), (2, 3), (4, 1), (4, 2), (4, 3), (6, 0), (6, 1), (6, 2), (6, 3)])
+    random allowed theta-odd field #0: chi(g>0) = 0, chi(g<0) = 0, sign-change edges 2304
+    random allowed theta-odd field #1: chi(g>0) = 0, chi(g<0) = 0, sign-change edges 3760
+    random allowed theta-odd field #2: chi(g>0) = 0, chi(g<0) = 0, sign-change edges 2320
+    random allowed theta-odd field #3: chi(g>0) = 0, chi(g<0) = 0, sign-change edges 2048
+    random allowed theta-odd field #4: chi(g>0) = 0, chi(g<0) = 0, sign-change edges 2320
+    random allowed theta-odd field #5: chi(g>0) = 0, chi(g<0) = 0, sign-change edges 2496
+    chi(d+M) = chi(d-M) = 0 for every sample: sigma swaps the two regions (g o sigma = -g), so their chi's are equal,
+    and they sum to chi(T^2) - chi(zero set) = 0 - 0 whenever the zero set is a closed 1-manifold.  No leading-mode assumption enters.
+    caveat, exact product mode (the (+-2,+-1) orbit alone, c_(2,0) = 0): chi(closed g>=0 region) = -4, chi(closed g<=0) = -4
+      the zero set has 8 crossings; the four open rectangles give +4 (the SM seat's +-4), their closures glued at the 8 crossings give -4:
+      with a non-transverse zero set d+M is not a surface and chi(d+M) is not defined -- the value is not 'nonzero', it is absent.
+    caveat, same with any small allowed subleading modes (c_(2,0) still 0): chi(g>0) = 0, chi(g<0) = 0  <- crossings resolved, back to 0
+    the SM seat's leading mode sin(4 pi x) alone: chi(g>0) = 0, chi(g<0) = 0 (two annuli each)
+
+(e) the eight corners on the zero set of every allowed theta-odd field:
+    max |g(corner)| over 5 random allowed fields and 8 corners: 1.1e-14
+
+SELFTEST: PASS

@@ -796,6 +796,9 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
   zero for a knot (R56); the record's θ (B347/B353, the meridian-reversing involution) acts by −1 on
   all three h¹ classes of the 27, reproducing B347's (−1)^{m+1} exactly (R60) — θ-odd deformation
   directions, but not a nonzero index: net chirality stays zero (E65/B1260/B1267).
+  The cusp (R69–R71): Fix(θ) = two arcs gives a count of ±2 as a singular θ-even locus, and on every
+  θ-even direction tested the spectrum is vector-like or carries an SU(3) cubic anomaly; a θ-odd field
+  gives χ(∂⁺M) = 0 exactly (region swap). All three benches (SM seat, main, fc) agree — R71.
 - **chirality mechanism** — A5 is an axiom here; the record's mechanism (a θ-odd closing,
   B432/B576/B582) is not part of this chain, and the slope it selects is a free input.
 - **spacetime, Lorentz, gravity** — the E₆(−26) branch (B1140) is an outer real form; the object's
