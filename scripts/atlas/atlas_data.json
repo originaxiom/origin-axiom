@@ -6254,6 +6254,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1265": {
+   "slug": "the fork is inner vs outer",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "lorentzian"
+   ],
+   "refs": [
+    "B883",
+    "B916",
+    "H5"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 18,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

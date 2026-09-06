@@ -14047,3 +14047,27 @@ Finishing the ledger audit by going after the two rows the seat had said it **di
 - **AND THAT PRICES JOIN 3.** On B1261's scoreboard the fork is worth **2 units**: crossing it pays
   **I-10 and I-11 together, 14 → 12**. Recorded in both rows and in `docs/MAIN_GOAL.md`.
 - **Suite green** (`PYTEST_RC=0`, 6112 passed) on the state pushed before this entry; 30/30 gates.
+
+### B1265 — the real form is DERIVED, and the fork is a rank obstruction (2026-09-06)
+
+MAIN_GOAL **JOIN 3**, attacked after B1263/B1264 localised I-10 and I-11 to the fork and priced it at
+2 units. B1140 had banked the fork as a brute fact (*"nothing shared"*). It is neither forced nor a
+choice — **it is a rank obstruction.**
+
+- **THE REAL FORM IS DERIVED.** Real forms correspond (Cartan) to involutions up to conjugacy,
+  labelled by the **signature** dim 𝔭 − dim 𝔨. **D₂ — the object's own twist** — is an involution, and
+  on the adjoint gives **dim 𝔨 = 46** (= so(10)+u(1) = 45+1), **dim 𝔭 = 32**, so
+  **signature = 32 − 46 = −14**. **E₆(−14) is by definition the real form of signature −14**, so
+  **the object's own D₂ selects it uniquely among the five.** The charge branch is **derived**, and
+  this is a place where the object supplies **a point, not a family**.
+- **AND THE FORK IS A RANK OBSTRUCTION.** D₂ is conjugation by a **torus element**, hence **INNER**,
+  and inner involutions reach only the **equal-rank** forms (compact, **E₆(−14)**, E₆(2)).
+  **E₆(−26)** — Lorentz, compact colour, the graviton — has **𝔨 = f₄ of RANK 4**, so it is **OUTER**:
+  **no torus element of E₆ reaches it.** That is *why* B1140's two branches share nothing.
+- **WHAT WOULD CROSS IT, NAMED:** only an **outer** involution — E₆'s **diagram automorphism**, i.e.
+  **θ**, the 27↔27̄ swap the corpus banks as the object's own symmetry. **JOIN 3's blocker is now
+  "does the object's θ act as an outer involution here, and with which fixed subalgebra?"**
+- **FENCED.** That θ is E₆'s outer automorphism is standard; that the **object's** θ *is* it and can
+  serve as the Cartan involution is **not established here** — and the corpus's θ facts **cut both
+  ways**: the object is θ-symmetric, but **θ is trivial on the character variety**, a reason to doubt
+  it carries the geometric content E₆(−26) needs. **Nothing earns I-10/I-11; the price stays 14.**

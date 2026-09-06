@@ -1,5 +1,20 @@
 # Changelog
 
+## THE REAL FORM IS DERIVED, AND THE FORK IS A RANK OBSTRUCTION
+
+**B1265**, MAIN_GOAL JOIN 3. B1140 banked the fork as a brute fact — *"the two real forms split the
+world with nothing shared."* It is neither forced nor a choice. **D₂ — the object's own twist — is an
+involution**, and on the adjoint gives **dim 𝔨 = 46 (so(10)+u(1)), dim 𝔭 = 32, signature 32 − 46 =
+−14**. Since real forms correspond (Cartan) to involutions labelled by that signature, and
+**E₆(−14) is by definition the form of signature −14**, **the object's own D₂ derives the charge
+branch** — a point, not a family. **And the fork is a RANK obstruction:** D₂ is conjugation by a torus
+element, hence **inner**, reaching only equal-rank forms; **E₆(−26)** — Lorentz, compact colour, the
+graviton — has **𝔨 = f₄ of rank 4** and is **outer**, so **no torus element reaches it**. That is *why*
+the branches share nothing. **What would cross it is named exactly:** an outer involution, i.e. E₆'s
+diagram automorphism — **θ**. **Fenced:** that the *object's* θ is that automorphism and can serve as
+the Cartan involution is **not** established here, and θ being **trivial on the character variety**
+cuts against it. Price unchanged at **14**.
+
 ## THE H5 CENSUS — eight measured instances, and I-14 recomputed instead of cited
 
 **B1264.** Owner: *"b323 is 1000bs old"* — and the seat had just leaned on B323's 2026-07 adjudication
