@@ -13905,3 +13905,32 @@ MAIN_GOAL JOIN 1, question 1: closed double or cusped manifold?
   sector, and the generation count cannot be a net-chirality count on this manifold at all.
 - **SCOPE HELD:** B71 records these are **fiber-group** coordinates, and the fiber↔knot dictionary is
   *a separate identification*; which extension is meant is part of the deciding computation.
+
+### B1261 — the price, computed (2026-09-06)
+
+JOIN 2's lead closed **NEGATIVE** first: **n in κ = 2 + n² is NOT object-determined** — n = 1…7 all
+occur, with hundreds of partners each, reconfirming **B1248**'s *"infinite family, not a point."*
+(A near-miss caught by its own control: κ = 3 at minimal n looked like tr(A) = 3, but κ = 2 + n²
+makes κ = 3 **automatic** at n = 1 — numerology, discarded.) One clean by-product: the identity
+**det(AM − MA) = 2 − κ** verified on every noncommuting M in the box, confirming B1248's corrected law.
+
+That made the live question the one never answered in one place — **what does the programme spend,
+and what does it buy?**
+
+- **SPENDS: 4 axioms + 11 UNEARNED identifications = 15 unpriced inputs.**
+- **BUYS: 0 of the SM's 19 free parameters** (26 with Dirac neutrinos) — *"none. Seven sealed
+  crossings, seven negatives."*
+- **Counted separately and never converted:** the **global ℤ₆ form** (DERIVED, B862 — *the SM itself
+  cannot fix it*), **hypercharge direction** (B864; normalisation not derivable), anomaly
+  cancellation, termination at the SM (B863). **Partial**: the gauge algebra is dim **14** against the
+  SM's **12** — two steps away, not zero. **Not a prediction**: sin²θ_W = 3/8 is a known GUT relation
+  and non-discriminating. **Closing-supplied**: chirality — which E65/B1260 now explain (the object is
+  **self-paired**; handedness is the mirror-odd content a self-paired thing cannot hold).
+- **THE VERDICT, in two currencies that do not convert.** By **parameter count** the trade is **NET
+  NEGATIVE**: 15 bought 0. By **structural content** the programme derives what the SM assumes or
+  cannot state — real, and the honest reason to continue, but **not a parameter reduction**. The
+  selftest **enforces** this: the structural tally is never subtracted from the parameter tally.
+- **THE CONSTRUCTIVE CONSEQUENCE.** The rate is **15 : 0**, and exactly two moves change it — **earn
+  an identification (−1)** or **derive a parameter (+1)**. Earning is cheaper, already instrumented
+  by the B1231 ratchet, and **8 rows are EARNED already**. So the identification ledger is **not
+  bookkeeping around the physics — it IS the scoreboard.**

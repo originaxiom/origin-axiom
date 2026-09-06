@@ -1,5 +1,20 @@
 # Changelog
 
+## THE PRICE, COMPUTED — fifteen unpriced inputs bought zero of nineteen numbers
+
+**B1261.** JOIN 2's lead closed **negative** (n in κ = 2 + n² is **not** object-determined; n = 1…7 all
+occur — B1248 reconfirmed), which made the live question the one the corpus had never answered in one
+place. Read from the ledgers: the programme **SPENDS 4 axioms + 11 UNEARNED identifications = 15
+unpriced inputs** and **BUYS 0 of the SM's 19 free parameters**. Counted separately and never
+converted: the **global ℤ₆ form** (DERIVED — *the SM cannot fix it*), hypercharge **direction**,
+anomaly cancellation, termination at the SM; **partial** on the gauge algebra (dim 14 vs the SM's 12 —
+two steps away); sin²θ_W = 3/8 is a **known GUT relation**, not a prediction; chirality is
+**closing-supplied**. **By parameter count the trade is NET NEGATIVE; by structural content the
+programme derives what the SM assumes — and the two do not convert**, which the selftest *enforces*.
+**The consequence:** the rate is **15 : 0** and only two moves change it — **earn an identification
+(−1)** or **derive a parameter (+1)**. Earning is cheaper, already instrumented, and 8 rows are earned.
+**The identification ledger is the scoreboard, not bookkeeping.**
+
 ## WHERE NET CHIRALITY CAN LIVE — the closed wall generalised, the abelian sector walled, one branch left
 
 **B1260**, MAIN_GOAL JOIN 1 q1. **(1)** The closed wall is **general**: PD + χ = 0 + h⁰(V) = h⁰(V*) = 0
