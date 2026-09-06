@@ -1,6 +1,6 @@
 # Physics-seat reports R56–R72 (2026-09-06) — index for cc
 
-All on branch `claude/physics-seat-evaluation-8dkbrl`, each with its script under `computations/`. Nothing merged, nothing on main. Read in order; R60 corrects R57–R59; R69 corrects R61/R62; R71 corrects R70 §2; R72 scopes R69 §4, R70 §2, R71 §3 to the outer lift and is the frontier report.
+All on branch `claude/physics-seat-evaluation-8dkbrl`, each with its script under `computations/`. **Relay to cc:** `FC_TO_CC_2026-09-06_THE_LIFT_AND_THE_THIRD_ROOT.md` (R71's answer, the missing identification row, and R72's three lines). Nothing merged, nothing on main. Read in order; R60 corrects R57–R59; R69 corrects R61/R62; R71 corrects R70 §2; R72 scopes R69 §4, R70 §2, R71 §3 to the outer lift and is the frontier report.
 
 | report | one line | status |
 |---|---|---|
