@@ -66,5 +66,26 @@ framing is corrected.** Both seats' own fences are still carried verbatim — fc
 the physical trinification **is** this subsystem rather than one of the other 39"*, and the SM seat's
 scoping of its SU(5) theorem to the closed closing.
 
-**Owed and named:** verify fc's icosian **4 → 1** collapse — the step that carries R68 — which
-B1293 fenced and did not attempt.
+**Owed and named:** verify fc's **4 → 1** collapse — the step that carries R68.
+
+## DISCHARGED, same day — `verification/fc_collapse.py`
+
+**fc's collapse reproduces on this bench with no icosian construction.** R65/R66 identify the
+element as lying in the **A₂³ class**, and that class is realisable directly in W(E₆) as the product
+of the three orthogonal A₂ factors' Coxeter elements. Result:
+
+```
+85 -> 40   A2^3 subsystems of E6
+40 -> 4    EVERY A2^3-class order-3 element fixes exactly 4 -- all 40, no free parameter
+ 4 -> 1    a commuting order-3 partner leaves exactly ONE (110 instances,
+           3-cycle + fixed point -- precisely R68's structure)
+```
+
+**The control is the lesson, and it corrects this bench's own first attempt.** A *random* search over
+order-3 elements of W(E₆) returns fixed-counts of **1 and 7, never 4** — because W(E₆) has several
+order-3 classes and only the A₂³ one is fc's. Reported carelessly, that would have read as **tension
+with R68**. Rule, now a permanent control in the script: **test the element the claim names, not an
+element of the right order.**
+
+**Still fc's, still fenced:** that the founding ratio `g` *is* such an element on the icosian E₈; the
+**mirror-invariance** of the selected frame; and its identification with B1264's `c = (1,0,2,2,0,2)`.

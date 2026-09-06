@@ -1,5 +1,6 @@
 """B1293 — seat harvest: the load-bearing claims are re-computed, not accepted."""
 import json, subprocess, sys
+import pytest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -116,3 +117,17 @@ def test_the_verdict_carries_the_correction_at_source():
     assert "FRAMING CORRECTED" in c and "UNVERIFIED" in c.upper()
     # the computations must NOT have been withdrawn along with the framing
     assert "120 A2" in c or "40 A2^3" in c or "A1A5" in c
+
+
+@pytest.mark.slow
+def test_fc_collapse_40_to_4_to_1_reproduces_here():
+    """The debt B1293 named: R68's actual claim, not its coordinates. Slow (~3 min): builds E8,
+    the 120 A2 and 40 A2^3 subsystems, and every A2^3-class order-3 element's action."""
+    r = subprocess.run([sys.executable, str(ARC / "verification" / "fc_collapse.py")],
+                       capture_output=True, text=True, cwd=str(ARC / "verification"))
+    assert r.returncode == 0, r.stdout[-3000:] + r.stderr[-2000:]
+    out = r.stdout
+    assert out.rstrip().endswith("SELFTEST: PASS")
+    assert "{4: 40}" in out, out[-900:]                      # all 40 elements fix exactly 4
+    assert "RANDOM order-3 elements" in out                  # the control that corrects my first try
+    assert "NEVER 4" in out
