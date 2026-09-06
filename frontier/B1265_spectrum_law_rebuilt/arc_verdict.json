@@ -1,0 +1,33 @@
+{
+ "id": "B1265",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B883",
+  "B854",
+  "B1086",
+  "B1036",
+  "B265",
+  "B576",
+  "B1256",
+  "B1257",
+  "B1260"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-26",
+   "status": "UNEARNED",
+   "note": "unchanged in status; content sharpened: the 27bar rows of the spectrum law are now computed rather than deduced, and equal the 27 rows in every cell (principal and subregular, cusped and double), so no h^1 in the corpus's two embeddings is a net count."
+  },
+  {
+   "row": "I-25",
+   "status": "UNEARNED",
+   "note": "unchanged; the subregular embedding B1257 selects gives h^1(M;27) = 3 = h^1(M;27bar) on the cusped object and 4 or 6 on the twisted double -- never three, never net."
+  }
+ ],
+ "claim_one_line": "THE SPECTRUM LAW REBUILT FROM THE REPOSITORY'S OWN 27 AND EXTENDED. B1086's named residual (an own-code rebuild of the dial matrices hv8/hv16) is paid on the one exact object the repository holds, B883's rep27.json: B854's bracket re-implemented and rep27 checked to be a representation; the principal sl2 with 27 = 17+9+1; the six dial slots as the highest-weight vectors of the principal blocks; theta-parity by bracket closure (hv8, hv16 -> e6 of dim 78; hv10, hv14, hv22 -> f4 of dim 52 -- B265/B576 recomputed); the subregular E6(a1) with orbit dimension 70 and 27 = 13+9+5. Then, exactly over Q(omega) with every group element a polynomial in a nilpotent: h1(M;27) = 3 = h1(M;27bar) (modular and exact elimination agree); on the twisted double h1(D_t;27) = 5/2/2/2 for hv8 and for hv16 at t = 0/1/2/omega, 5/5/5/5 for the theta-even hv14 -- B1086's law cell for cell -- and, computed for the first time, h1(D_t;27bar) equals h1(D_t;27) in every cell. EXTENSION to B1257's subregular embedding: h1(M;27) = 3 = h1(M;27bar) with h0 = 0 (no trivial block), and the double with the eight centralizer dials gives 6 untwisted and 4 or 6 for the dense dials, never 3 and always 27 = 27bar. Consequence for JOIN 1: the twisted rows rest on two independent instruments; the closed wall is seen numerically in every cell; and B1257's route, even if I-25 were earned, yields three VECTOR-LIKE classes on the cusped object and 4 or 6 on the double, never a net count."
+}

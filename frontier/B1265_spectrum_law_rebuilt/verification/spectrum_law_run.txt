@@ -1,0 +1,36 @@
+=== the cusped manifold M = m004, principal embedding ===
+  relator holds on the 27; lambda commutes with a; tr_27(lambda) = (27+0w) (27 => unipotent lift)
+  27: h0 = 1, h1 = 3   (rank d0 = 26, rank d1 = 25)
+  27bar: h0 = 1, h1 = 3   (rank d0 = 26, rank d1 = 25)
+  exact Q(omega) ranks (regular representation): rank d0 = 26, rank d1 = 25, h1 = 3
+
+=== the twisted double D_t, principal embedding ===
+  dial hv8  t = 0    :  h1(D_t;27) = 5   h1(D_t;27bar) = 5   (h0 = 1, 1)
+  dial hv8  t = 1    :  h1(D_t;27) = 2   h1(D_t;27bar) = 2   (h0 = 0, 0)
+  dial hv8  t = 2    :  h1(D_t;27) = 2   h1(D_t;27bar) = 2   (h0 = 0, 0)
+  dial hv8  t = omega:  h1(D_t;27) = 2   h1(D_t;27bar) = 2   (h0 = 0, 0)
+  dial hv16 t = 0    :  h1(D_t;27) = 5   h1(D_t;27bar) = 5   (h0 = 1, 1)
+  dial hv16 t = 1    :  h1(D_t;27) = 2   h1(D_t;27bar) = 2   (h0 = 0, 0)
+  dial hv16 t = 2    :  h1(D_t;27) = 2   h1(D_t;27bar) = 2   (h0 = 0, 0)
+  dial hv16 t = omega:  h1(D_t;27) = 2   h1(D_t;27bar) = 2   (h0 = 0, 0)
+  dial hv14 t = 0    :  h1(D_t;27) = 5   h1(D_t;27bar) = 5   (h0 = 1, 1)
+  dial hv14 t = 1    :  h1(D_t;27) = 5   h1(D_t;27bar) = 5   (h0 = 1, 1)
+  dial hv14 t = 2    :  h1(D_t;27) = 5   h1(D_t;27bar) = 5   (h0 = 1, 1)
+  dial hv14 t = omega:  h1(D_t;27) = 5   h1(D_t;27bar) = 5   (h0 = 1, 1)
+
+=== the cusped manifold, SUBREGULAR embedding E6(a1) (B1257's selection) ===
+  27: h0 = 0, h1 = 3   (rank d0 = 27, rank d1 = 24)
+  27bar: h0 = 0, h1 = 3   (rank d0 = 27, rank d1 = 24)
+
+=== the double with a subregular dial: a basis of the centralizer of e_sub ===
+  dim C(e_sub) = 8
+  slot 0: closure <sl2_sub, X> =  3   h1(D;27) = 6   h1(D;27bar) = 6   (h0 = 0,0)
+  slot 1: closure <sl2_sub, X> = 78   h1(D;27) = 4   h1(D;27bar) = 4   (h0 = 0,0)
+  slot 2: closure <sl2_sub, X> = 36   h1(D;27) = 6   h1(D;27bar) = 6   (h0 = 0,0)
+  slot 3: closure <sl2_sub, X> = 78   h1(D;27) = 4   h1(D;27bar) = 4   (h0 = 0,0)
+  slot 4: closure <sl2_sub, X> = 78   h1(D;27) = 6   h1(D;27bar) = 6   (h0 = 0,0)
+  slot 5: closure <sl2_sub, X> = 78   h1(D;27) = 6   h1(D;27bar) = 6   (h0 = 0,0)
+  slot 6: closure <sl2_sub, X> = 36   h1(D;27) = 6   h1(D;27bar) = 6   (h0 = 0,0)
+  slot 7: closure <sl2_sub, X> = 78   h1(D;27) = 6   h1(D;27bar) = 6   (h0 = 0,0)
+
+[2050s]

@@ -1,5 +1,22 @@
 # Changelog
 
+## THE ASSEMBLY — three arcs and a document: the spectrum law rebuilt, net chirality bounded on the cusped object, the transport computed
+
+**B1265** rebuilds the 27-instrument and the dial matrices from **B883's `rep27.json`** (B1086's named residual
+paid) and reproduces the spectrum law cell for cell — **5/2/2/2** for the θ-odd dials, **5/5/5/5** for the
+θ-even — computing the **27̄ rows for the first time: equal in every cell**; B1257's subregular embedding
+gives 3 = 3 on the cusped object and **6 or 4** on the double, never three, never net.
+**B1266** proves the boundary bound **−h⁰(∂M;V) ≤ N(V) ≤ h⁰(∂M;V\*)** for net chirality on the cusped object
+(the lemma N = rank(res) − h⁰(∂M), checked exactly on every row), hence **|N(27)| ≤ 1 near the geometric E₆
+point for every deformation**, and reaches an actual θ-odd E₆(ℂ) representation of π₁(m004) (residual
+10⁻⁶³, not self-dual) whose cusp holonomy has no invariants: **N = 0**.
+**B1267** computes I-26's two halves: the surviving gauge algebra is **0** for every holonomy that could be
+chiral and **u(1)⁴** for the 2T quotient; in both transports the fields on Q are adjoint-valued so
+**`h¹(M;27)` has no slot**; **the SM algebra is not a centralizer in e₆** (c(c(s)) = 13 ≠ 12); the object's
+one unitary flat connection gives **4d N=1 U(1)⁴ with 24 vector-like chirals**. The remaining price of a
+generation count is a named object: **three E₇ points on a conical G₂ geometry, permuted by 2T/Q₈**.
+`docs/THE_ASSEMBLY_2026-09-06.md` assembles the whole chain with these results. Price unchanged at 14.
+
 ## THE H5 CENSUS — eight measured instances, and I-14 recomputed instead of cited
 
 **B1264.** Owner: *"b323 is 1000bs old"* — and the seat had just leaned on B323's 2026-07 adjudication

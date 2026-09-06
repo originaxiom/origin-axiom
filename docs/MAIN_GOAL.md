@@ -83,3 +83,22 @@ Work **JOIN 1 → JOIN 2 → JOIN 3**. Leave a join only when **earned**, **refu
 named, registered computation**. Every session states which join it advanced and by which
 computation. **Sweep the corpus before proposing a frame — this session re-derived banked material
 seven times and lost four arcs to a frame the corpus had already ruled out.**
+
+---
+
+## Status after B1265–B1267 (2026-09-06, the assembly seat) — which join, by which computation
+
+- **JOIN 1 — advanced and, for its h¹ readings, refuted.** q1: the closed double is vector-like in every cell
+  *including the 27̄ rows now computed* (B1265); the cusped object obeys −h⁰(∂M;V) ≤ N(V) ≤ h⁰(∂M;V\*), so
+  **|N(27)| ≤ 1 near the geometric point for every deformation**, and the θ-odd E₆(ℂ) representation actually
+  reached has N = 0 (B1266); B1260's named computation on W1/W2 (and PSL(2,7), and an extension) returned 0
+  in every row. q2: blocked by a named object — three isolated E₇ points on a **conical** G₂ geometry,
+  permuted by ℤ/3 = 2T/Q₈ (B1084's three A₁ families, B1259's theorem). q3 (I-26): both halves computed
+  (B1267) — the surviving gauge algebra is 0, 0, 0, u(1)⁴; `h¹(M;27)` has no slot in either transport;
+  **the SM algebra is not a centralizer in e₆**. Left per the rule: refuted for the h¹ readings, blocked by
+  the named object otherwise; the one open computation (L200) is bounded at |N| ≤ 1 in advance.
+- **JOIN 2 — closed by B1261** (n in κ = 2 + n² is not object-determined; 15 unpriced inputs buy 0 of 19).
+- **JOIN 3 — unchanged**; one exact observation recorded in `docs/THE_ASSEMBLY_2026-09-06.md` §5: the
+  critical points of B6's earned potential, τ² − τ − 1 = 0, are the fixed points of A = LR on the boundary.
+- **The assembly:** `docs/THE_ASSEMBLY_2026-09-06.md` — the chain link by link, the physical elevation under
+  each transport, and the remaining price as three named objects.

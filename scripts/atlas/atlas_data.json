@@ -6254,6 +6254,74 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1265": {
+   "slug": "spectrum law rebuilt",
+   "motifs": [
+    "closing",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B265",
+    "B327",
+    "B576",
+    "B634",
+    "B854",
+    "B883"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1266": {
+   "slug": "cusped net chirality bound",
+   "motifs": [
+    "monoid",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B102",
+    "B575",
+    "B576",
+    "B71"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1267": {
+   "slug": "transport computed",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B277",
+    "B281",
+    "B433",
+    "B582",
+    "B715",
+    "B854",
+    "B952",
+    "B955"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

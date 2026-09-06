@@ -14024,3 +14024,80 @@ Continuing the row-by-row audit under `docs/MAIN_GOAL.md`.
   11 escape-aware fields, or if any row lacks exactly one bolded status token. Since **B1261 made
   this file the scoreboard**, a row that does not parse should red the suite rather than wait to be
   noticed. All **26** rows now parse; 30/30 gates.
+
+---
+
+### B1265 — the spectrum law rebuilt from the repository's own 27, and extended (2026-09-06)
+
+MAIN_GOAL JOIN 1. **B1086's named residual is paid**: the dial matrices hv8/hv16 and the whole spectrum law
+rebuilt from **B883's `rep27.json`** with no reference to the outside-bench certificate.
+
+- **The instrument** (`frontier/B1265_spectrum_law_rebuilt/verification/e6_instrument.py`): B854's bracket
+  re-implemented and rep27 checked to BE a representation (400 random pairs, exact); the principal sl₂ with
+  27 = **17 + 9 + 1**; the six dial slots as the highest-weight vectors of the principal blocks; **θ-parity
+  by bracket closure** — hv8, hv16 → 78 = e₆, hv10, hv14, hv22 → 52 = f₄ (B265/B576 recomputed); the
+  subregular E₆(a₁), orbit dimension 70, 27 = **13 + 9 + 5**.
+- **The law, own code, exact over ℚ(ω)** (every group element a polynomial in a nilpotent; ranks by two-prime
+  modular reduction, the cusped rows also by exact elimination): h¹(M;27) = **3** = h¹(M;27̄);
+  h¹(D_t;27) = **5/2/2/2** for hv8 and for hv16 at t = 0/1/2/ω, **5/5/5/5** for the θ-even hv14 — B1086's law
+  cell for cell — and, **computed for the first time, h¹(D_t;27̄) = h¹(D_t;27) in every cell**.
+- **The extension to B1257's subregular embedding**: h¹(M;27) = 3 = h¹(M;27̄) with h⁰ = 0 (no trivial
+  block); the double with the eight centralizer dials gives **6** untwisted and **4 or 6** for the dense dials
+  — never 3, always 27 = 27̄. Even fully earned, I-25's route yields three vector-like classes.
+- Lock `tests/test_b1265_spectrum_law_rebuilt.py` (instrument + cusped rows fast; one twisted-double row slow).
+
+### B1266 — where net chirality cannot live on the cusped object (2026-09-06)
+
+MAIN_GOAL JOIN 1 q1, in the θ-odd frame, on the **cusped** object.
+
+- **THE LEMMA AND THE BOUND (theorem, checked exactly on every row):** for M = m004 and any V,
+  `N(V) = h¹(M;V) − h¹(M;V*) = rank(res_V) − h⁰(∂M;V)` (Poincaré–Lefschetz on the pair) and
+  `rank(res_V) + rank(res_V*) = h¹(∂M;V)`, hence **−h⁰(∂M;V) ≤ N(V) ≤ h⁰(∂M;V*)**: net chirality lives only
+  where the cusp holonomy keeps fixed vectors, and is at most their number. Near the geometric E₆ point,
+  semicontinuity gives h¹(M;27_s) ≤ 3, so **N(27_s) ≤ min(3 − h⁰, h⁰*) ≤ 1 for every deformation, θ-odd or
+  not: three is impossible on the cusped object near the geometric point.**
+- **Instantiated exactly** (`verification/cusped_bound.py`, SELFTEST PASS): principal 27 and 27̄ — h¹ = 3,
+  h⁰(∂M) = 3, rank(res) = 3, N = 0 (all three classes are the cusp's); subregular the same; the abelian
+  non-roots all zero; the θ-odd class h¹(M;V₈) = **1** exists.
+- **The θ-odd representation reached** (`verification/cusped_theta_odd_hp.py`, python-flint at 600 bits,
+  ranks at 60 digits): from the V₈ class, Gauss–Newton with the adjoint-Fox Jacobian converges to a genuine
+  E₆(ℂ) representation of π₁(m004) with **relator residual 2.6·10⁻⁶³**, **not self-dual** (six trace
+  differences 3.01 … 2.9·10⁶ where the geometric point gives zeros), whose cusp holonomy has **no invariants**
+  (h⁰(∂M;27) = h⁰(∂M;27̄) = 0, solid pivots): **N = 0** by the bound, whatever h¹(M) is (both found 0).
+- Named remaining computation, bounded in advance at |N| ≤ 1: the locus where μ_s, λ_s keep a common fixed
+  vector (the augmented search had not converged at sealing) — **L200**.
+- Lock `tests/test_b1266_cusped_bound.py`.
+
+### B1267 — the transport computed: I-26's two halves (2026-09-06)
+
+MAIN_GOAL JOIN 1 q3. I-26 asks for the compactification in which an h¹ of the object counts generations and
+for the surviving gauge group. **Both computed** on the rebuilt instrument
+(`frontier/B1267_transport_computed/verification/transport.py`, exact).
+
+- **The dictionaries (Acharya–Witten; 3d-3d), stated:** the fields living on Q are **adjoint-valued**; the
+  spectrum is H¹(Q; 78_ρ) under the centralizer; a 27 arises only at isolated E₇-enhancement points.
+  **`h¹(M;27)` has no slot in either transport.**
+- **The centralizers:** principal sl₂ **0**, subregular sl₂ **0**, the θ-odd amalgam **0** (closure e₆); the
+  finite quotient **2T** through the principal **and** the subregular SU(2): **u(1)⁴** (B854 by a second
+  route: 2T built inside SL(2, ℚ(ω)), 24 elements, orders 1¹2¹3⁸4⁶6⁸, image on the 27 of order 12).
+- **THE DOUBLE-CENTRALIZER THEOREM:** for B1252's s = su(3)⊕su(2)⊕u(1)_Y ⊂ e₆, dim c(s) = **5** and
+  dim c(c(s)) = **13 ≠ 12**, while the full-rank Levi containing it has c(c(l)) = l (dim 14): **the SM algebra
+  is not a centralizer in e₆** — no flat connection, Wilson line or adjoint VEV leaves exactly the SM; rank
+  drops at most 6 → 5 through a non-abelian image (B952/B955 extended to all holonomies).
+- **The spectra:** h¹(m004;78) = **6** (principal) and **8** (subregular); h¹ = 1, 0, 0, 0, **1** for the
+  trivial, ω, ω̄, sign and 3-dimensional 2T systems. The object's one unitary flat connection — the 2T
+  quotient, **72 homomorphisms / 48 surjections** reproducing B1263, both Aut-classes identical — transports
+  to **4d N=1 U(1)⁴ with 24 chiral multiplets (4 neutral + 20 charged in ± pairs), vector-like**; the θ-twist
+  gives F₄ SYM with one adjoint and zero 26s.
+- I-26 stays UNEARNED; its remaining price is a named object: **a conical G₂ geometry with three isolated E₇
+  points on the E₆ locus permuted by ℤ/3 = 2T/Q₈** (B1084's three A₁ families; B1259's curvature).
+- Lock `tests/test_b1267_transport.py`.
+
+### THE ASSEMBLY — `docs/THE_ASSEMBLY_2026-09-06.md` (2026-09-06)
+
+The chain from `A = LR` to the Standard Model written out link by link with its arc and status; the physical
+elevation (what theory the object IS under each transport: T[m004; E₆] with 6 chirals; the 2T Wilson line's
+4d N=1 U(1)⁴ vector-like theory of 24 chirals; F₄ SYM; N=2*); the three joins worked to their computations
+(JOIN 1 refuted for every h¹ reading and blocked by the named conical object; JOIN 2 closed by B1261; JOIN 3
+unchanged with one exact observation: B6's potential's critical points are the fixed points of A = LR on the
+boundary); the assembly graded against the specification ledger; the remaining price as three named objects.

@@ -1,0 +1,61 @@
+    [rescaled 27: |A0| = [1.80e+3 +/- 4.23], |B0| = [3.45e+3 +/- 4.17]]
+=== (0) the geometric point, principal 27 (exact input, 60-digit ranks) ===
+    trace test |tr rho(w) - tr rho(w^-1)|: ['0', '0', '[+/- 2.27e-173]', '[+/- 6.61e-171]', '[+/- 6.75e-167]', '[+/- 6.61e-171]']
+      [27 at s=0 d0] rank 26 of (54x27); smallest accepted pivot/scale = 0.00569
+      [27 at s=0 d1] rank 25 of (27x54); smallest accepted pivot/scale = 9.31e-7
+      [27 at s=0 cusp fixed] rank 24 of (54x27); smallest accepted pivot/scale = 7.62e-9
+      [27 at s=0 Z1(T2)] rank 24 of (27x54); smallest accepted pivot/scale = 3.1e-16
+      [27 at s=0 B1(T2)] rank 24 of (54x27); smallest accepted pivot/scale = 7.62e-9
+      [27 at s=0 res+B] rank 27 of (54x56); smallest accepted pivot/scale = 2.85e-12
+    27 at s=0: h0(M) = 1, h1(M) = 3, h0(dM) = 3, h1(dM) = 6, rank(res) = 3, [mu,lambda] = nan  =>  N = rank(res) - h0(dM) = 0
+
+=== (a) the exact theta-odd cocycle class (V8 block) and the Newton search ===
+    block V8: dim Z1 = 10, dim B1 = 9, h1 = 1
+    |Z_a|, |Z_b| on the rescaled 27: [1.39e+4 +/- 29.3], [3.06e+3 +/- 1.87]
+    start eps = 1/696464: relator residual [0.0552 +/- 9.64e-6]
+      newton it 0: |res| = 5.52e-02
+      newton it 1: |res| = 1.61e-04
+      newton it 2: |res| = 4.50e-09
+      newton it 3: |res| = 7.15e-16
+      newton it 4: |res| = 6.47e-19
+      newton it 5: |res| = 1.58e-21
+      newton it 6: |res| = 3.87e-24
+      newton it 7: |res| = 9.46e-27
+      newton it 8: |res| = 2.31e-29
+      newton it 9: |res| = 5.66e-32
+      newton it 10: |res| = 1.38e-34
+      newton it 11: |res| = 3.38e-37
+      newton it 12: |res| = 8.27e-40
+      newton it 13: |res| = 2.02e-42
+      newton it 14: |res| = 4.95e-45
+      newton it 15: |res| = 1.21e-47
+      newton it 16: |res| = 2.96e-50
+      newton it 17: |res| = 7.23e-53
+      newton it 18: |res| = 1.77e-55
+      newton it 19: |res| = 4.32e-58
+      newton it 20: |res| = 1.06e-60
+      newton it 21: |res| = 2.59e-63
+    converged: residual 2.6e-63
+    trace test |tr rho(w) - tr rho(w^-1)|: ['[3.01 +/- 3.99e-4]', '[3.01 +/- 3.99e-4]', '[2.70e+3 +/- 4.67]', '[2.87e+6 +/- 4.90e+3]', '[1.86e-62 +/- 2.36e-65]', '[2.87e+6 +/- 4.90e+3]']  -> NOT self-dual (theta-odd)
+    tr_27 rho(a) = [27.7517444079 +/- 3.40e-11] + [1.30391119334 +/- 1.80e-12]j   (27 at s = 0)
+      [27 at eps=1/696464 d0] rank 27 of (54x27); smallest accepted pivot/scale = 6.65e-6
+      [27 at eps=1/696464 d1] rank 27 of (27x54); smallest accepted pivot/scale = 7.12e-28
+      [27 at eps=1/696464 cusp fixed] rank 27 of (54x27); smallest accepted pivot/scale = 1.49e-17
+      [27 at eps=1/696464 Z1(T2)] rank 27 of (27x54); smallest accepted pivot/scale = 1.61e-19
+      [27 at eps=1/696464 B1(T2)] rank 27 of (54x27); smallest accepted pivot/scale = 1.49e-17
+      [27 at eps=1/696464 res+B] rank 27 of (54x54); smallest accepted pivot/scale = 4.76e-27
+    27 at eps=1/696464: h0(M) = 0, h1(M) = 0, h0(dM) = 0, h1(dM) = 0, rank(res) = 0, [mu,lambda] = 6.0e-51  =>  N = rank(res) - h0(dM) = 0
+      [27bar at eps=1/696464 d0] rank 27 of (54x27); smallest accepted pivot/scale = 7.54e-6
+      [27bar at eps=1/696464 d1] rank 27 of (27x54); smallest accepted pivot/scale = 4.2e-26
+      [27bar at eps=1/696464 cusp fixed] rank 27 of (54x27); smallest accepted pivot/scale = 2.23e-9
+      [27bar at eps=1/696464 Z1(T2)] rank 27 of (27x54); smallest accepted pivot/scale = 6.25e-10
+      [27bar at eps=1/696464 B1(T2)] rank 27 of (54x27); smallest accepted pivot/scale = 2.23e-9
+      [27bar at eps=1/696464 res+B] rank 27 of (54x54); smallest accepted pivot/scale = 2.62e-29
+    27bar at eps=1/696464: h0(M) = 0, h1(M) = 0, h0(dM) = 0, h1(dM) = 0, rank(res) = 0, [mu,lambda] = 5.9e-51  =>  N = rank(res) - h0(dM) = 0
+    ==> N(27) = h1(27) - h1(27bar) = 0;  bound -0 <= N <= 0
+
+=== (b) the fixed-vector locus: mu v = v, lambda v = v, theta-odd ===
+      newton it 0: |res| = 5.78e+02
+      newton it 1: |res| = 5.65e+02
+      newton it 2: |res| = 5.58e+02
+      newton it 3: |res| = 5.57e+02

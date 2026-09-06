@@ -1,0 +1,33 @@
+{
+ "id": "B1267",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1265",
+  "B854",
+  "B1252",
+  "B1263",
+  "B1036",
+  "B277",
+  "B281",
+  "B433",
+  "B715",
+  "B955",
+  "B1084",
+  "B1259",
+  "B952",
+  "B1250"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [
+  {
+   "row": "I-26",
+   "status": "UNEARNED",
+   "note": "both halves of the row's price are now computed: the surviving gauge algebra is named for every holonomy the corpus supplies (0 for the principal, subregular and theta-odd images; u(1)^4 for the 2T quotient through either SU(2)), and the compactifications in which an h^1 of the object counts anything are exhibited -- they count ADJOINT-valued multiplets (78), vector-like on this object in every case; the 27 is not a field on Q in any transport. The remaining price is a named object: a conical G2 geometry with three isolated E7 points on the E6 locus permuted by 2T/Q8 (B1084's three A1 families, B1259's curvature)."
+  }
+ ],
+ "claim_one_line": "THE TRANSPORT COMPUTED. I-26 asks for the compactification in which an h^1 of the object counts 4d chiral generations and for the surviving gauge group; both are computed here on the rebuilt instrument. (1) In the Acharya-Witten dictionary (M-theory on a G2 space with an E6 singularity along Q, compact holonomy) and in the 3d-3d dictionary alike, the fields living on Q are ADJOINT-valued: the massless spectrum is H^1(Q; 78_rho) under the centralizer c_e6(rho), and a 27 arises only at isolated E7-enhancement points -- h^1(M;27) has no slot in either. (2) The centralizers, exact: 0 for the principal SL(2), 0 for the subregular, 0 for the theta-odd amalgam (closure e6), u(1)^4 for the finite quotient 2T through the principal AND the subregular SU(2) (B854 by an independent route: 2T built inside SL(2,Q(omega))). (3) THE DOUBLE-CENTRALIZER THEOREM: for B1252's Standard-Model subalgebra s = su(3)+su(2)+u(1)_Y inside e6, dim c(s) = 5 and dim c(c(s)) = 13 != 12 = dim s, while the full-rank Levi containing it has c(c(l)) = l (dim 14): the SM algebra is NOT the centralizer of anything in e6, so no flat connection, Wilson line or adjoint VEV leaves exactly the SM -- B952/B955's rank obstruction extended to all holonomies (rank can drop 6 -> 5 through a non-abelian image, no further). (4) The spectra: h^1(m004;78) = 6 (principal) and 8 (subregular); h^1 = 1, 0, 0, 0, 1 for the trivial, omega, omega-bar, sign and 3-dimensional 2T-coefficient systems; the object's one unitary flat connection -- the 2T quotient, 72 homomorphisms / 48 surjections reproducing B1263, both Aut-classes identical -- transports to a 4d N=1 U(1)^4 theory with 24 chiral multiplets (4 neutral + 20 charged in +- pairs), VECTOR-LIKE; the theta-twisted reading gives F4 SYM with one adjoint and zero 26s. (5) Hence the reading 'h^1(M;27) = generations' is refuted in every transport the corpus's frame admits, and I-26's remaining price is a named object: a conical G2 geometry with three isolated E7 points on the E6 locus permuted by 2T/Q8 -- B1084's three A1 families, which every flat orbifold spreads into lines (B1259)."
+}
