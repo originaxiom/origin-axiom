@@ -59,6 +59,14 @@ given.**
 
 At tree level and at the object's scale the 19 (+7) collapse to: **λ** (1) · **the VEV data** (v_u^i, v_d^i: six magnitudes and their relative phases; ⟨S⟩; ⟨ν^c⟩; six flavons) · **the scale** (1) · **the diagonal source** (at least three diagonal entries per sector, a splitting, a Majorana term). Nothing in this list is a free coupling: every entry is a *period* — a volume or a triple product — of the closing. **The destination is therefore one object:** the G₂ closing of the object (the conical geometry over its E₆ locus, B1269 §5), with (i) its associative 3-cycles and their volumes in Planck units (D1, D3, D4), (ii) the vacuum the instanton superpotential W_np = Σ e^{−Vol(Σ_i)} selects on the tree-level flat directions (D2), and (iii) the running of the resulting spectrum to M_Z (D5, accepted physics). Every remaining number of the 19 is then a computed function of those volumes, and the relations of §3 are the checks the computation must pass on its way.
 
+## 4b. The literature's word on D3 (`docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`)
+
+Pantev–Wijnholt: net chiral(R) = χ(M, ∂⁺M) — on any closed closing 0, on the cusped object −χ(∂⁺ cusp): the bit
+is a boundary condition at the cusp. Braun et al. 2019: no compact G₂ construction with chiral matter exists;
+chirality needs a non-TCS singular transition. The E₆SSM review imposes by hand exactly the D2/D3 entries above
+(ℤ₂ symmetries, ⟨S⟩ ≫ TeV, light doublets, dimension-5 Majorana operators). The named object is the field's open
+problem, not a gap in this record.
+
 ## 5. What is expected, in order
 
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the

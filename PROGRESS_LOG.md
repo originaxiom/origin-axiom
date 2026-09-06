@@ -14335,3 +14335,15 @@ down–lepton splitting carried by D d^c ν^c with ⟨ν^c⟩, no Majorana mass 
 states, row by row for the 19 (+7), what the chain fixes and what completes it: **one coupling, the VEV data, one
 scale, a diagonal source** — every one a period of the G₂ closing the object has not been given; the relations are
 the checks. Lock `tests/test_b1276_the_relations_the_chain_forces.py`. Price unchanged.
+
+### The literature sweep before the construction (2026-09-06)
+
+On the owner's *"do you need more repo retrieval/sweep and literature search before you go for it?"* — yes, and
+done: `docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`. The M-theory Higgs-bundle frame
+(Pantev–Wijnholt 2009; Braun–Cizel–Hübner–Schäfer-Nameki 2018; Barbosa et al. 2019) was absent from the corpus; it
+is the modern form of the transport used since B277/B1269. Its theorem: **net chiral(R) = χ(M, ∂⁺M)** — 0 on any
+closed closing, **−χ(∂⁺ cusp)** on the cusped object — is B1268's cusp lemma in the literature's words, and the
+chirality bit is a cusp boundary condition. No compact G₂ construction with chiral matter exists in the literature
+(BCHS 2019); T-branes are the one loophole, and the corpus's θ-odd deformations are its data (already inside
+|N(27)| ≤ 1). The E₆SSM review imposes by hand exactly the destination ledger's D2/D3 entries. Registered L204
+(the cusp Morse structure) and L205 (the tree-level vacuum manifold). HKM's Fibonacci-manifold theorem confirmed.

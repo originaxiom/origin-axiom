@@ -1,5 +1,12 @@
 # Changelog
 
+## THE LITERATURE SWEEP — the Higgs-bundle frame placed; chirality is χ(M, ∂⁺M); no compact chiral G₂ exists in the literature either
+
+`docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`: Pantev–Wijnholt, Braun et al., Barbosa
+et al., the E₆SSM review, the G₂ orbifold/conifold constructions, HKM — placed against the corpus. Net chirality
+on the object is −χ(∂⁺ cusp) (the bit is a cusp boundary condition); the compact chiral closing is the field's
+open problem; T-branes are the loophole and the corpus's θ-odd data are its data. L204, L205 registered.
+
 ## THE DESTINATION LEDGER (B1276) — one coupling on all 45 operators; what exactly completes each of the 19
 
 The E₆ cubic read through the descent's labels has a single coefficient on every operator: y_u = y_d = y_e = y_ν = λ,

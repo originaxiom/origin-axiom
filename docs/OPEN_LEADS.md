@@ -2350,3 +2350,19 @@ constituents; the deck ℤ/n; the count of 27s and 27̄s; the texture each allow
 V₄ iff 3 | n; h¹ = 1 on the irreducible branch (n = 1, 2, 4, 5) and 3 characters on the abelian branch (n = 3, 6); the
 doubles 1–2 resp. 3–6. Three classes ⟺ abelian image ⟺ zero-diagonal. No closing in the cyclic tower carries three
 irreducible classes.
+
+## L204 — THE CUSP MORSE STRUCTURE OF THE OBJECT'S HIGGS FIELDS (registered 2026-09-06; `docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`)
+
+Pantev–Wijnholt: net chiral(R) = χ(M, ∂⁺M), ∂⁺M the part of the boundary where the charged Morse function
+increases. On the cusped object with a torus end, net chirality = −χ(∂⁺ cusp): a disc gives one chiral 27, an
+annulus or the whole torus none. **Computation:** for the b₁ class (abelian Higgs field; the Novikov complex at the
+Alexander roots t = φ^{±2}) and for the θ-odd E₆ deformations (T-brane data, B575/B576), determine ∂⁺ on the cusp
+torus and the boundary condition that would make it a disc; relate to the fillings (B432) and to B1268's lemma
+N = rank(res) − h⁰(∂M; V), which is the same statement.
+
+## L205 — THE TREE-LEVEL VACUUM MANIFOLD OF THE Y₃ THEORY (registered 2026-09-06; D2's space)
+
+The F- and D-flat directions of the one-coupling superpotential (B1276) for 3 × 27 + 3 × 27̄ + 6 singlets under
+e₆ ⊕ u(1)² (B1273 §3): the branches (⟨S⟩, ⟨ν^c⟩ with ⟨H⟩ = 0 versus electroweak VEVs), their unbroken groups, and
+the statement that electroweak breaking is not on the tree-level manifold (F_{H_u} = λ S H_d ≠ 0) — the space on
+which the instanton superpotential (D3) must act.
