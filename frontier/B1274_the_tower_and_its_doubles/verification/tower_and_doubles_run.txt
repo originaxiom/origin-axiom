@@ -1,0 +1,23 @@
+=== the tower M_n, Y_n and the doubles D(M_n): descent, image, counts (all 48 surjections) ===
+  surjections pi_1(m004) -> 2T: 48
+  on m004: 3_rho: (h0, h1, h0(dM), h1(dM), rank res) = (0, 1, 1, 2, 1);  3_rho (x) sgn: (0, 0, 0, 0, 0)   x48
+
+  M_1 (cusped): h0 = 0, h1(M_1; 3_rho) = 1, cusp h0 = 1, h1 = 2, rank(res) = 1, image order 12 (A4);  double D(M_1): 1 <= h1 <= 2   x48
+  M_2 (cusped): h0 = 0, h1(M_2; 3_rho) = 1, cusp h0 = 1, h1 = 2, rank(res) = 1, image order 12 (A4);  double D(M_2): 1 <= h1 <= 2   x48
+  Y_2 (closed, branched): the 3 does NOT descend (3_rho(a^2) != 1)   x48
+  M_3 (cusped): h0 = 0, h1(M_3; 3_rho) = 3, cusp h0 = 3, h1 = 6, rank(res) = 3, image order 4 (V4);  double D(M_3): 3 <= h1 <= 6   x48
+  Y_3 (closed, branched): h0 = 0, h1(Y_3; 3_rho) = 3, image order 4 (V4, abelian: characters)   x48
+  M_4 (cusped): h0 = 0, h1(M_4; 3_rho) = 1, cusp h0 = 1, h1 = 2, rank(res) = 1, image order 12 (A4);  double D(M_4): 1 <= h1 <= 2   x48
+  Y_4 (closed, branched): the 3 does NOT descend (3_rho(a^4) != 1)   x48
+  M_5 (cusped): h0 = 0, h1(M_5; 3_rho) = 1, cusp h0 = 1, h1 = 2, rank(res) = 1, image order 12 (A4);  double D(M_5): 1 <= h1 <= 2   x48
+  Y_5 (closed, branched): the 3 does NOT descend (3_rho(a^5) != 1)   x48
+  M_6 (cusped): h0 = 0, h1(M_6; 3_rho) = 3, cusp h0 = 3, h1 = 6, rank(res) = 3, image order 4 (V4);  double D(M_6): 3 <= h1 <= 6   x48
+  Y_6 (closed, branched): h0 = 0, h1(Y_6; 3_rho) = 3, image order 4 (V4, abelian: characters)   x48
+
+  descent of the family 3 to the branched cover Y_n: {2: 'no', 3: 'yes', 4: 'no', 5: 'no', 6: 'yes'}  (iff 3 | n)
+  image of the family 3 on the cyclic cover M_n: {1: [12], 2: [12], 3: [4], 4: [12], 5: [12], 6: [4]}  (A4 = 12 iff 3 does not divide n, V4 = 4 iff 3 | n)
+  the first mirror double D(M_n), n <= 6, carrying >= 3 classes of the IRREDUCIBLE family system: NONE
+  the dichotomy on the whole tower: ONE class with the irreducible A4 image (3 does not divide n) or THREE classes of characters (3 | n): True
+
+SELFTEST: PASS
+rc=0

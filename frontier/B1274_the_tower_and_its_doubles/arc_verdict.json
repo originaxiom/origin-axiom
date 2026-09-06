@@ -1,0 +1,14 @@
+{
+ "id": "B1274",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1273", "B1268", "B1270", "B1263", "B1271"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [
+  {"row": "I-26", "status": "UNEARNED", "note": "note extended, status unchanged: on the object's cyclic covers M_n, branched covers Y_n and mirror doubles D(M_n) (n <= 6, all 48 surjections) the family 3 has h^1 = 1 with the irreducible A4 image when 3 does not divide n and h^1 = 3 split into characters when 3 | n; the count never reaches three irreducible classes; the branched tower carries the holonomy iff 3 | n (the object's meridian order), so the minimal closing n = 3 is the object's, not the observer's."}
+ ],
+ "claim_one_line": "THE TOWER AND ITS DOUBLES. For all 48 surjections pi_1(m004) -> 2T and every n <= 6: the family 3 of E8 > E6 x SU(3) (the real 3 of 2T) descends to the cyclic branched cover Y_n iff 3 | n (the meridian's order in A4 is 3), so n = 3 is the minimal closing carrying the object's holonomy; on the cyclic cover M_n the image of ker(a,b -> 1 mod n) is all of A4 when 3 does not divide n and the Klein four-group V4 when 3 | n; exact Fox calculus on the Reidemeister-Schreier presentations gives h^1(M_n; 3) = 1 (cusp h^0 = 1, rank res = 1, image A4) for n = 1, 2, 4, 5 and h^1(M_n; 3) = 3 (cusp h^0 = 3, characters) for n = 3, 6, with h^1(Y_3; 3) = h^1(Y_6; 3) = 3, the Shapiro control h^1(M_2; 3) = h^1(3) + h^1(3 (x) sgn) = 1 + 0, and the Mayer-Vietoris bound for the mirror doubles D(M_n) placing h^1 in [1, 2] on the irreducible branch and [3, 6] on the character branch for every gluing dial. THE DICHOTOMY: one class with the irreducible A4 image, or three classes of characters -- three classes <=> abelian image <=> zero-diagonal (B1273's theorem). No cyclic cover, branched cover or mirror double of the object carries three classes of the irreducible family system: the tree-level hierarchy is excluded on the whole object-supplied cyclic tower (L203 closed, negative), and the one generation of B1270 is robust under every cyclic cover. Price unchanged."
+}

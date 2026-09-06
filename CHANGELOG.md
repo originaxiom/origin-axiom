@@ -1,5 +1,13 @@
 # Changelog
 
+## THE TOWER CLOSED (B1274) — one irreducible class or three characters, never three irreducible classes
+
+The family 3 descends to the object's branched covers iff 3 | n (the meridian's own order picks n = 3); the image is
+A₄ (irreducible) iff 3 ∤ n and V₄ (characters) iff 3 | n; h¹(M_n; 3) = 1 on the irreducible branch (n = 1, 2, 4, 5) and
+3 on the character branch (n = 3, 6), the doubles 1–2 and 3–6. Three classes ⟺ abelian image ⟺ zero-diagonal: the
+tree-level hierarchy is excluded on every cyclic cover, branched cover and mirror double the object supplies. L203
+closed. Price unchanged.
+
 ## THE VIEW FROM ABOVE — the mirror is split (B1272), the object's own three-fold closing carries the three classes and a Yukawa whose texture is refuted (B1273)
 
 **B1272:** the object's mirror (P = diag(1,−1), inner on the golden 2I, preserving ℤ[g]) is an outer involution of

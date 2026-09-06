@@ -2339,3 +2339,8 @@ hyperbolic for n ≥ 4. B1273 §4 proves character-distinguished generations are
 carry a hierarchy at tree level must carry three classes of ONE irreducible local system. **Computation:** h¹(Y_n; V)
 for n = 4, 5 (the same Reidemeister–Schreier machinery) with the descended local systems and their irreducible
 constituents; the deck ℤ/n; the count of 27s and 27̄s; the texture each allows.
+
+**CLOSED 2026-09-06 (B1274), NEGATIVE:** the 3 descends to Y_n iff 3 | n; the image is A₄ (irreducible) iff 3 ∤ n and
+V₄ iff 3 | n; h¹ = 1 on the irreducible branch (n = 1, 2, 4, 5) and 3 characters on the abelian branch (n = 3, 6); the
+doubles 1–2 resp. 3–6. Three classes ⟺ abelian image ⟺ zero-diagonal. No closing in the cyclic tower carries three
+irreducible classes.

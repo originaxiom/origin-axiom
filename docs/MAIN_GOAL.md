@@ -142,3 +142,8 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   first non-zero three-generation Yukawa. Its tree-level texture is zero-diagonal and obeys **m₁ ≤ m₂ + m₃**,
   violated by the data by 136 / 43 / 17. Tree level is closed by theorems; the hierarchy, if the object has it,
   is in the exponential sector (L201) or the attractor map (L202) — the two mechanisms named and not yet run.
+- **The tower closed (B1274).** On every cyclic cover, branched cover and mirror double of the object (n ≤ 6, all
+  48 surjections) the family 3 carries one irreducible class (3 ∤ n) or three characters (3 | n) — never three
+  irreducible classes; it descends to the branched tower iff 3 | n, so the minimal closing n = 3 is the object's
+  own. With B1273's theorem, **the tree-level hierarchy is excluded on the whole object-supplied tower** (L203
+  closed). What remains for the values is non-tree-level (L201) or the attractor map (L202).

@@ -6503,6 +6503,27 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1274": {
+   "slug": "the tower and its doubles",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "H5",
+    "L201",
+    "L203"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

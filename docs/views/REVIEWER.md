@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1182** |
-| words of findings prose | **832,194** |
-| test lock files referenced | **696** |
-| arcs carrying an authored verdict | **1182** (100.0 %) |
+| research arcs with findings | **1183** |
+| words of findings prose | **833,025** |
+| test lock files referenced | **697** |
+| arcs carrying an authored verdict | **1183** (100.0 %) |
 | recorded closures | **783** (616 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 773 |
+| PROVED | 774 |
 | NEGATIVE | 311 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1273`** (1282 words, 1 locks)  
-THE OBJECT'S OWN THREE-FOLD CLOSING. The 3-fold cyclic branched cover Y_3 of S^3 along the figure-eight knot -- the object's own closing, three copies permuted by Z/3 -- is built by Reidemeister-Schreier from pi_1(m004) = <a, b | a w B w^-1> (Schreier generators z = a^3, x_k = a^k b a^{-(k+1 mod 3)}, the lifted meridian z filled): H_1(Y_3) = Z/4 + Z/4 (B326's 16), and it fingerprints as the Fibonacci group F(2,6) (same abelianization, 64 = 64 homomorphisms to Q8, 16 = 16 to A4): Y_3 is the flat Hantzsche-Wendt manifold, Y_n the Fibonacci manifolds (Helling-Kim-Mennicke), Y_2 = L(5,2) golden. THE DESCENT: for all 48 surjections pi_1(m004) -> 2T the real 3 satisfies 3_rho(a^3) = 1 and descends to Y_3 with image the Klein four-group V4 = the flat holonomy group; by exact Fox calculus h^1(Y_3; trivial) = 0 (b_1 = 0), h^1(Y_3; chi_i) = 1 for each of the three non-trivial sign characters, h^1(Y_3; 3_rho) = 3 with each chi_i of multiplicity exactly 1 in 3_rho (and 0 for the trivial character), h^1(Y_3; 2_rho) = 0 for the spin lift: 3_rho|Y_3 = chi_1 + chi_2 + chi_3 is the closing's own tangent-bundle holonomy, and the three classes are its three flat directions x, y, z, permuted by the deck Z/3. THE E8 TRANSPORT ON Y_3: gauge algebra e6 + u(1)^2 (the family SU(3)'s torus), matter three 27s with family charges e_1, e_2, e_3, three 27bars, six singlets with charges +-(e_i - e_j), no E6-adjoint chiral; vector-like (N = 0, closed). THE TEXTURE: the characters allow exactly one cubic among the three 27s, W = lambda d_abc 27_1 27_2 27_3 with lambda proportional to int dx_1^dx_2^dx_3 != 0 -- the first non-zero three-generation Yukawa in the programme -- so every tree-level charged-fermion mass matrix is complex symmetric with zero diagonal, and THEOREM: such a 3x3 matrix has singular values sigma_1 <= sigma_2 + sigma_3 (Takagi; saturated numerically at 1.000000 over 20000 random matrices); the data give m_t/(m_c+m_u) = 135.8, m_b/(m_s+m_d) = 42.8, m_tau/(m_mu+m_e) = 16.7. The closing's three generations have a Yukawa and its tree-level texture is refuted in every charged sector; the negative is general for generations distinguished by characters. B1043 W4's named door and B1271's named object are this one object, computed. Price unchanged.  
-`B1273_the_three_fold_closing/FINDINGS.md`
+**PROVED — `B1274`** (831 words, 1 locks)  
+THE TOWER AND ITS DOUBLES. For all 48 surjections pi_1(m004) -> 2T and every n <= 6: the family 3 of E8 > E6 x SU(3) (the real 3 of 2T) descends to the cyclic branched cover Y_n iff 3 | n (the meridian's order in A4 is 3), so n = 3 is the minimal closing carrying the object's holonomy; on the cyclic cover M_n the image of ker(a,b -> 1 mod n) is all of A4 when 3 does not divide n and the Klein four-group V4 when 3 | n; exact Fox calculus on the Reidemeister-Schreier presentations gives h^1(M_n; 3) = 1 (cusp h^0 = 1, rank res = 1, image A4) for n = 1, 2, 4, 5 and h^1(M_n; 3) = 3 (cusp h^0 = 3, characters) for n = 3, 6, with h^1(Y_3; 3) = h^1(Y_6; 3) = 3, the Shapiro control h^1(M_2; 3) = h^1(3) + h^1(3 (x) sgn) = 1 + 0, and the Mayer-Vietoris bound for the mirror doubles D(M_n) placing h^1 in [1, 2] on the irreducible branch and [3, 6] on the character branch for every gluing dial. THE DICHOTOMY: one class with the irreducible A4 image, or three classes of characters -- three classes <=> abelian image <=> zero-diagonal (B1273's theorem). No cyclic cover, branched cover or mirror double of the object carries three classes of the irreducible family system: the tree-level hierarchy is excluded on the whole object-supplied cyclic tower (L203 closed, negative), and the one generation of B1270 is robust under every cyclic cover. Price unchanged.  
+`B1274_the_tower_and_its_doubles/FINDINGS.md`
 
 **NEGATIVE — `B1262`** (520 words, 0 locks)  
 I-9 REFUTED: THERE IS NO 'GENUS V4' FOR DISCRIMINANT -15, and the row had carried its own discriminator UNRUN. B1261 measured the trade at 15 unpriced inputs : 0 of the SM's 19 numbers and named two moves -- earn an identification (-1) or derive a parameter (+1); the ratchet's arithmetic contains a THIRD and cheaper one, REFUTE, which also removes a row from the UNEARNED set. I-9 was the candidate because its own text said 'the genus group of disc -15 has order 2^(t-1) = 2, not 4' and nobody had run it. COMPUTED: disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2 genera, so the genus group has ORDER 2 against Gal(Q(sqrt-3,sqrt5)/Q)'s ORDER 4. THERE IS NO GENUS V4 FOR DISC -15: the object the row NAMES does not exist, and the identification is false as stated. THE FALLBACK READING FAILS TOO on the programme's own rules -- reading side B as Gal does match orders 4 = 4, but that is an ORDER MATCH which B1223 established is not a connection ('Direct is not semidirect': the groups matched, the action did not), and B155's own row calls the glue a GL(4,Z)-class invariant 'not forced by the spectral type', i.e. LATTICE data against Gal's FIELD data, so a canonical map cannot exist. CONTROLS BOTH WAYS: the class-number routine is validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) BEFORE being trusted, which caught a real bug -- a first draft returned h(-15) = 3 by admitting (1,-1,4), which is not reduced since b >= 0 is required when |b| = a -- and discriminants with t = 3 (-84, -120) DO give 4 genera, so order 2 is a fact about -15 and not about the method. THE PRICE: UNEARNED 11 -> 10, the trade moves from 15 : 0 to 14 : 0, the first reduction, and it came from running a discriminator the register had been carrying all along.  

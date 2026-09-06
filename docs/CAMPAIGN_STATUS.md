@@ -1,5 +1,11 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1274 — THE TOWER CLOSED)**: on every cyclic cover M_n, branched cover Y_n and mirror double
+D(M_n) of the object (n ≤ 6, all 48 surjections) the family 3 carries **one irreducible class** (3 ∤ n; h¹ = 1, image A₄)
+or **three characters** (3 | n; image V₄) — never three irreducible classes; descent to the branched tower iff 3 | n,
+so the minimal closing n = 3 is the object's own. With B1273's theorem the tree-level hierarchy is excluded on the
+whole object-supplied tower (L203 closed). Price unchanged.
+
 **LATEST (2026-09-06, B1272–B1273 — THE VIEW FROM ABOVE)**: the object's mirror on its own E₆ is **split** —
 Cartan signature 3/3, the Cartan involution of E₆(6), not E₆(−26); θ does not cross the fork (B1272; E69 corrects
 B1270's θ). The object's own 3-fold closing Y₃ (flat Hantzsche–Wendt, F(2,6)) carries the 2T holonomy as **its own

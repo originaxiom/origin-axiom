@@ -14300,3 +14300,15 @@ On the owner's *"see beyond … identify breakthroughs"*: the step back
   (Takagi; saturated numerically); the data: **135.8 / 42.8 / 16.7**. Refuted in every charged sector.
 - B1043 W4's door and B1271's named object are this one object. Registered L201–L203 (the exponential sector,
   the attractor map, the Fibonacci tower). Price unchanged. Lock `tests/test_b1273_the_three_fold_closing.py`.
+
+### B1274 — the tower and its doubles (2026-09-06)
+
+L203 run (`frontier/B1274_the_tower_and_its_doubles/verification/tower_and_doubles.py`; exact, all 48 surjections,
+n ≤ 6): the family 3 descends to the branched cover Y_n **iff 3 | n** (the meridian's order in A₄ is 3 — the minimal
+closing n = 3 is the object's, not the observer's); on the cyclic cover M_n the image is **A₄ when 3 ∤ n** (the 3
+irreducible) and **V₄ when 3 | n** (characters); h¹(M_n; 3) = **1** for n = 1, 2, 4, 5 (cusp h⁰ = 1, rank res = 1; the
+Shapiro control h¹(3 ⊗ sgn) = 0) and **3** for n = 3, 6; h¹(Y₃; 3) = h¹(Y₆; 3) = 3; the mirror doubles D(M_n) carry
+1–2 classes on the irreducible branch and 3–6 characters on the other, for every dial. **The dichotomy: one
+irreducible class or three characters — three classes ⟺ abelian image ⟺ zero-diagonal.** No closing in the
+object's cyclic tower carries three classes of the irreducible family system; with B1273's theorem the tree-level
+hierarchy is excluded on the whole tower. L203 closed, negative. Lock `tests/test_b1274_the_tower_and_its_doubles.py`.
