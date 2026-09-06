@@ -6397,6 +6397,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1275": {
+   "slug": "e8 family verified",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B302",
+    "B305",
+    "B323",
+    "B582",
+    "L3",
+    "L4"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "dormant",
+   "domain": "topology"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

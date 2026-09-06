@@ -54,6 +54,44 @@ withheld** — the spec's object-column is complete on structure and honestly em
 One complex doublet **H = (1, 2)_{+1/2}**; potential V = μ²|H|² + λ|H|⁴ with μ² < 0.
 Gives EWSB: SU(2)×U(1)_Y → U(1)_EM, three Goldstones eaten, one physical Higgs.
 
+### CURRENCY 2026-09-06 (through B1275) — the price, the frame, and the family mechanism
+
+**THE PRICE, MEASURED (B1261, corrected B1266).** Against the **19** free parameters below, the
+programme **SPENDS 4 axioms + 10 UNEARNED identifications = 14 rows**, which reduce to **7 irreducible
+sources**, so **11 actual free inputs** — and **BUYS 0 of the 19**. By parameter count the trade is
+**net negative**; by structural content it derives what the SM assumes or cannot state; **the two do
+not convert**, and the selftest enforces it. `docs/IDENTIFICATION_LEDGER.md` is the **scoreboard**.
+
+**THE FRAME WAS WRONG AND IS CORRECTED (E65).** Generation counting needs **net** chirality
+h¹(27) ≠ h¹(27̄). **Every Sym^n of SL(2) is self-dual**, so any holonomy factoring π₁ → SL(2) → E₆ has
+27 ≅ 27̄ and **net chirality identically zero — for every embedding**. **B1260** extends the wall: PD
+kills it on **any closed oriented 3-manifold**, and **Alexander reciprocity** kills it in the cusped
+**abelian** sector. **B1267** ran the deciding computation — index **0**, and the only non-self-dual
+rank-3 systems are **rigid**. The frame that *does* carry chirality is **θ-odd twisted, full-E₆(ℂ)**
+(B582/B576), with a **closing** supplying the bit (B432/B434).
+
+**THE REAL FORM IS DERIVED, AND THE FORCES' FORK EXPLAINED (B1265).** D₂ — the object's own twist — is
+an involution of signature **32 − 46 = −14**, so it **selects E₆(−14)**. D₂ is **inner**; **E₆(−26)**
+(Lorentz, compact colour, the graviton) has **𝔨 = f₄ of rank 4** and is **outer** — **no torus element
+reaches it**. That is *why* the charge side and the gravity side share nothing. See
+**`docs/THE_FOUR_FORCES.md`** for the force-by-force statement.
+
+**THREE GENERATIONS — the mechanism, verified; the object step, not (B1275).** **E₈ ⊃ E₆ × A₂** is
+rebuilt from scratch on main: 248 = 78 + 8 + **(27,3) + (27̄,3̄)**, the 162 non-E₆/non-A₂ roots fall
+into **six classes of exactly 27**, same-class pairs **never** sum to a root (0), different classes sum
+**270×** for the 12 within-orbit ordered pairs, and the **order-3 A₂ Weyl rotation cycles the six
+classes in two orbits of three**. **All standard, all verified.** **What is NOT verified: that the
+object's own order-3 element is that A₂ rotation.** And the source seat's own fences: **the bit
+(ω vs ω̄) is supplied by a CLOSING**, **N = 0**, and **the Yukawa is forced to ZERO on the triplet** —
+so the mechanism buys the **count**, not the **values**.
+
+**THE LISTENER MAP WAS BUILT AND CAME BACK NULL.** `docs/LISTENER_MAP_SPEC.md` (L166) was **largely
+answered within 48 hours** (B1070/B1071); **B1128** built u(θ) on it, predicted **|U_e1|/|U_e2| = φ**,
+and **missed the PMNS e-row ratio by ~5σ** — INSTRUMENT-NULL. **I-13 is not untouched; it is a failed
+instrument**, which is a different and more informative state.
+
+---
+
 ### A4. The free parameters — 19 in the minimal SM
 
 | # | block | parameters |

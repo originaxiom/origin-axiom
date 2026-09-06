@@ -1,0 +1,19 @@
+{
+ "id": "B1275",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1273",
+  "B1264",
+  "B305",
+  "B302",
+  "B323",
+  "B582"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE E8 FAMILY MECHANISM, VERIFIED ON MAIN -- and the one step that is not. Owner: 'lets integrate three generations derivation in main, verify whats remains unverified.' E8 is REBUILT FROM ITS OWN DEFINITION here, nothing imported and nothing taken on the source seat's word. VERIFIED: 240 roots; an A2 subsystem FOUND BY SEARCH (6 roots); its centraliser in E8 is E6 (72 roots, computed not assumed); the remainder is 162 = 6 x 27; those fall into SIX classes of EXACTLY 27 by A2 weight; SUM RULE 1, two roots of the SAME class NEVER sum to a root (0 occurrences); SUM RULE 2, different classes sum to a root 270 times per ordered pair for exactly the 12 ordered pairs WITHIN an orbit of three, with the full census reported (27 x 12, 270 x 12, 432 x 6) so the single number is placed in context rather than confirmed selectively; and THE FAMILY STRUCTURE, the A2 Weyl rotation s_a s_b (order verified = 3) cycles the six classes in exactly TWO ORBITS OF THREE, (27,3) and (27bar,3bar). So 248 = 78 + 8 + (27,3) + (27bar,3bar) and the family structure are REAL and STANDARD, the classic E8 > E6 x SU(3) mechanism, and the corpus now has it VERIFIED rather than cited. WHAT REMAINS UNVERIFIED IS THE WHOLE OBJECT-SPECIFIC STEP: that the OBJECT'S OWN order-3 element IS this A2 rotation. Everything verified is a fact about E8; nothing in it mentions m004. The seat's claim is that the founding ratio g (B1268's icosian construction) supplies the order-3 element, which is not checked here. AND THE CHAIN THIS EXPOSES: the corpus now has THREE order-3 structures -- L3 the trinification Z/3 grading of the 27 (B305; 85 distinct gradings per B1264), L4 the commensurator's Eisenstein unit Z/3 (B302/B323), and the A2 family rotation verified here. B1264 established that L3 and L4 act by the SAME omega of Q(sqrt-3), not merely both of order 3, though L3 -> L4 is still not a map that ACTS. IF THE A2 FAMILY ROTATION IS THAT SAME OMEGA, THREE GENERATIONS BECOME OBJECT-SUPPLIED -- and that is the sharp open question, far more concrete than 'derive three generations'. TWO FENCES CARRIED FROM THE SOURCE SEAT AND NOT RELAXED: its own arc says THE BIT, choosing the matter triplet omega vs omegabar, is supplied by a CLOSING and not by the object (the same mirror-odd Z/2 carried since B582); and it reports N = 0 with the Yukawa forced to ZERO on the triplet. So even if the object-specific step lands, the mechanism buys the COUNT and not the VALUES."
+}

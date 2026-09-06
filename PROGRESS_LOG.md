@@ -14242,3 +14242,27 @@ Owner: *"why don't we identify four fundamental forces… why don't we call them
   and derives **E₆(−14)**; **E₆(−26)** has **𝔨 = f₄ of rank 4** and is **outer**, unreachable by any
   torus element. **θ is the only candidate crossing, and B576 cuts against it** (θ-odd destroys
   F₄-stability).
+
+### B1275 — the E₈ family mechanism verified on main; the object-specific step isolated (2026-09-06)
+
+Owner: *"lets integrate three generations derivation in main, verify whats remains unverified."*
+**E₈ rebuilt from its own definition** — nothing imported, nothing taken on the source seat's word.
+
+- **VERIFIED:** 240 roots; an A₂ **found by search** (6 roots); its centraliser **is E₆** (72,
+  computed); the remainder **162 = 6×27**; **six classes of exactly 27**; **SUM RULE 1** — same-class
+  pairs never sum to a root (**0**); **SUM RULE 2** — **270** for exactly the **12 within-orbit**
+  ordered pairs (full census 27×12, 270×12, 432×6, so the single number is placed in context); and
+  **THE FAMILY STRUCTURE** — the A₂ Weyl rotation (**order verified = 3**) cycles the six classes in
+  **two orbits of three**, (27,3) and (27̄,3̄).
+- **So 248 = 78 + 8 + (27,3) + (27̄,3̄) is real and standard** — the classic **E₈ ⊃ E₆ × SU(3)** family
+  mechanism, now **verified rather than cited**.
+- **WHAT REMAINS UNVERIFIED — the whole object-specific step:** *that the object's own order-3 element
+  IS this A₂ rotation.* **Everything verified is a fact about E₈; nothing in it mentions m004.**
+- **THE CHAIN THIS EXPOSES.** Three order-3 structures now: **L3** (trinification grading, 85
+  candidates), **L4** (commensurator Eisenstein unit), **A₂** (verified here). **B1264** showed L3 and
+  L4 act by **the same ω of ℚ(√−3)** — not merely both order 3. **If the A₂ rotation is that same ω,
+  three generations become object-supplied.** That is the sharp question, far more concrete than
+  "derive three generations".
+- **FENCES CARRIED, NOT RELAXED:** the source arc says **the bit (ω vs ω̄) is supplied by a CLOSING,
+  not the object** (the mirror-odd ℤ/2 since B582), and reports **N = 0** with **the Yukawa forced to
+  ZERO on the triplet**. **Even if the object step lands, it buys the COUNT and not the VALUES.**
