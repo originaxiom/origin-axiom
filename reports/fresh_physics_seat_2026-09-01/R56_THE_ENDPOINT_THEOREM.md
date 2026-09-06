@@ -4,7 +4,7 @@
 
 ## 0. The verdict, first
 
-**Not achieved: a fully derived Standard Model.** The record's sealed negatives (B915: 16σ; V-3: no object period is an SM ratio) stand and I did not try to argue around them.
+**Not achieved: a fully derived Standard Model.** *(Retracted same day, owner's catch: the first version of this line leaned on B915 and V-3 as walls. B915 is one sealed test of one model — tree-level 3/8 plus a pure desert, top-down — banked 350 arcs ago; V-3 tested periods, and §6.3 below says the numbers in this frame are not periods. Neither is a theorem about derivability. They are not cited as walls anywhere in this report. See R57 for the door this report opens.)*
 
 **Achieved: the failure is now one theorem, with a formula, and the formula evaluates to zero on the object for a reason that can be stated in one sentence.** In the frame the record has been implicitly using since B632 — 7d E₆ super-Yang–Mills on a 3-manifold Q, which is M-theory on ℂ²/2T × Q, i.e. exactly the *"same 2T in both roles"* that I-6 asks for — the net number of chiral multiplets in any representation is a **relative Euler characteristic** (Pantev–Wijnholt 2009, eq. 3.40; Braun–Cizel–Hübner–Schäfer-Nameki 2018, eqs. 2.50 and 4.17). On a closed 3-manifold it is identically zero because the dimension is odd. On the cusped object it is the Euler characteristic of the *charge locus* of the Higgs field, and **a knot has Euler characteristic zero**: one component, one loop. Three generations require a charge locus with Euler characteristic three — three **endpoints**. The object is a loop; it has no endpoints. That is the H5 pattern ("every space, never a point") as a theorem: *a point is an endpoint, and a knot has none.*
 
