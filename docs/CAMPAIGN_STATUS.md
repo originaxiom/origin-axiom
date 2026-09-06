@@ -1,5 +1,10 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**(2026-09-06, B1277 addendum — THE ARCS AND THE CORNERS)**: on the owner's challenge, the inversions' fixed arcs end
+at the four pillowcase corners of the cusp torus, which lie on the θ-odd Higgs field's zero set; but the object's
+eight isometries (derived as affine maps from the holonomy) force the leading cusp mode to be the pure longitude mode
+sin(4πx), an annular partition: **χ(∂⁺M) = 0**. L204 stands with the arcs accounted for.
+
 **LATEST (2026-09-06, B1278 — THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE)**: the closings are the geometric
 transition's covers (Y₃ = the Euclidean point's, quantum face empty). On Y₃ and Y₆ (H₁ = ℤ/8 ⊕ ℤ/40, both ends' torsion,
 24 new order-8 classes) the three-generation alphabet is trivial and **all 32 768 000 SM-commuting Wilson lines on Y₆

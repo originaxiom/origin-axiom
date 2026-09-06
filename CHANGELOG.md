@@ -1,5 +1,11 @@
 # Changelog
 
+## B1277 addendum — the arcs and the corners: the inversions' fixed arcs end at the pillowcase corners, which lie on the θ-odd Higgs field's zero set, but the object's symmetries force an annular partition of the cusp torus — χ(∂⁺M) = 0
+
+The eight isometries of m004 as affine maps of the cusp torus (derived from the holonomy; the horoball pattern has
+sixteen), the two inversions with four corners each, no reflections; the leading symmetry-allowed cusp mode of the
+b₁ Higgs field is sin(4πx), zero on four meridian circles through all eight corners, regions annuli. L204 stands.
+
 ## B1278 — the tower's Wilson lines, the three faces at once: no three-generation Standard Model on Y₃ or Y₆ (exhaustive), but on Y₉ the closing's own order-19 characters break SU(5) to exactly the SM with three complete generations (vector-like)
 
 The closings are the geometric transition's covers (Y₃ = the Euclidean point's, quantum face empty). H₁(Y₆) = ℤ/8 ⊕ ℤ/40

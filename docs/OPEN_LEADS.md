@@ -2367,6 +2367,14 @@ carries a class (`frontier/B1277_the_vacuum_manifold_of_the_closing`, part (e)).
 B1268's N = 0. A disc-type ∂⁺ would need a non-unitary holonomy at the golden value, i.e. the complex-Chern–Simons
 reading, not a compact gauge field.
 
+**Addendum (B1277, the owner's challenge "arcs cut corners"):** the two fixed arcs of each inversion end at four
+corners of the cusp torus (the pillowcase's cone points), and the corners lie on the zero set of the θ-odd Higgs
+field's radial component — but the leading symmetry-allowed cusp mode is the pure longitude mode sin(4πx) (the
+eight isometries derived as affine maps from the holonomy: T = (½, 0), two order-4 glides, two glide involutions,
+two inversions), whose zero set is four meridian circles through all eight corners and whose regions are annuli:
+χ(∂⁺M) = 0. A disc needs the first mixed mode (±2, ±1), which decays twice as fast. Caveat: the (±2, 0)
+coefficient of the actual harmonic form is assumed non-zero. `ADDENDUM_2026-09-06_the_arcs_and_the_corners.md`.
+
 ## L205 — THE TREE-LEVEL VACUUM MANIFOLD OF THE Y₃ THEORY (registered 2026-09-06; D2's space)
 
 The F- and D-flat directions of the one-coupling superpotential (B1276) for 3 × 27 + 3 × 27̄ + 6 singlets under

@@ -1,0 +1,46 @@
+=== the arcs and the corners: the object's eight isometries on its cusp torus, the b_1 Higgs field's allowed modes at the cusp, and chi(d+M) ===
+  cusp at infinity: meridian translation t_mu = 0.000000+1.000000j, longitude t_lam = 3.464102; |t_lam|/|t_mu| = 3.464102 = 2 sqrt 3: True
+  horoball pattern from words up to length 9: 11097 balls, 326 sizes; largest classes [(np.float64(1.0), 4), (np.float64(0.33333), 8), (np.float64(0.25), 12), (np.float64(0.14286), 46)]
+  affine symmetries of the horoball pattern: 16 (the pattern has more symmetry than the manifold)
+  normalization test N g N^-1 in Gamma for both generators (None = undecided by the dictionary):
+     (s_mu, s_lam) = (1, 1), b = (np.float64(0.0), np.float64(0.0)): True
+     (s_mu, s_lam) = (1, 1), b = (np.float64(0.25), np.float64(0.5)): False
+     (s_mu, s_lam) = (1, 1), b = (np.float64(0.5), np.float64(0.0)): True
+     (s_mu, s_lam) = (1, 1), b = (np.float64(0.75), np.float64(0.5)): False
+     (s_mu, s_lam) = (-1, 1), b = (np.float64(0.0), np.float64(0.0)): False
+     (s_mu, s_lam) = (-1, 1), b = (np.float64(0.25), np.float64(0.5)): True
+     (s_mu, s_lam) = (-1, 1), b = (np.float64(0.5), np.float64(0.0)): False
+     (s_mu, s_lam) = (-1, 1), b = (np.float64(0.75), np.float64(0.5)): True
+     (s_mu, s_lam) = (1, -1), b = (np.float64(0.0), np.float64(0.0)): False
+     (s_mu, s_lam) = (1, -1), b = (np.float64(0.25), np.float64(0.5)): True
+     (s_mu, s_lam) = (1, -1), b = (np.float64(0.5), np.float64(0.0)): False
+     (s_mu, s_lam) = (1, -1), b = (np.float64(0.75), np.float64(0.5)): True
+     (s_mu, s_lam) = (-1, -1), b = (np.float64(0.0), np.float64(0.0)): True
+     (s_mu, s_lam) = (-1, -1), b = (np.float64(0.25), np.float64(0.5)): False
+     (s_mu, s_lam) = (-1, -1), b = (np.float64(0.5), np.float64(0.0)): True
+     (s_mu, s_lam) = (-1, -1), b = (np.float64(0.75), np.float64(0.5)): False
+  the eight isometries as affine maps (x along lam, y along mu, mod 1): {(1, 1): [(np.float64(0.0), np.float64(0.0)), (np.float64(0.5), np.float64(0.0))], (-1, 1): [(np.float64(0.25), np.float64(0.5)), (np.float64(0.75), np.float64(0.5))], (1, -1): [(np.float64(0.25), np.float64(0.5)), (np.float64(0.75), np.float64(0.5))], (-1, -1): [(np.float64(0.0), np.float64(0.0)), (np.float64(0.5), np.float64(0.0))]}
+  the kernel translation T (cusp map trivial; the period-2 symmetry): (np.float64(0.5), np.float64(0.0))
+  inversion b = (np.float64(0.0), np.float64(0.0)): its four fixed points (the corners where its two fixed arcs meet the torus): [(np.float64(0.0), np.float64(0.0)), (np.float64(0.0), np.float64(0.5)), (np.float64(0.5), np.float64(0.0)), (np.float64(0.5), np.float64(0.5))]
+  inversion b = (np.float64(0.5), np.float64(0.0)): its four fixed points (the corners where its two fixed arcs meet the torus): [(np.float64(0.25), np.float64(0.0)), (np.float64(0.25), np.float64(0.5)), (np.float64(0.75), np.float64(0.0)), (np.float64(0.75), np.float64(0.5))]
+     (s_mu, s_lam) = (-1, 1), b = (np.float64(0.25), np.float64(0.5)): GLIDE along lam by 0.25 (no fixed points; order 4)
+     (s_mu, s_lam) = (-1, 1), b = (np.float64(0.75), np.float64(0.5)): GLIDE along lam by 0.75 (no fixed points; order 4)
+     (s_mu, s_lam) = (1, -1), b = (np.float64(0.25), np.float64(0.5)): GLIDE along mu by 0.5 (no fixed points; order 2)
+     (s_mu, s_lam) = (1, -1), b = (np.float64(0.75), np.float64(0.5)): GLIDE along mu by 0.5 (no fixed points; order 2)
+  Fourier orbits of the radial component by decay rate (k along lam, l along mu), and the dimension of the symmetry-allowed coefficient space:
+     [(-1, 0), (1, 0)]: decay 0.2887, allowed dim 0
+     [(-2, 0), (2, 0)]: decay 0.5774, allowed dim 1
+     [(-3, 0), (3, 0)]: decay 0.8660, allowed dim 0
+     [(0, -1), (0, 1)]: decay 1.0000, allowed dim 0
+     [(-1, -1), (-1, 1), (1, -1), (1, 1)]: decay 1.0408, allowed dim 0
+     [(-2, -1), (-2, 1), (2, -1), (2, 1)]: decay 1.1547, allowed dim 1
+     [(-4, 0), (4, 0)]: decay 1.1547, allowed dim 0
+     [(-3, -1), (-3, 1), (3, -1), (3, 1)]: decay 1.3229, allowed dim 0
+  the leading allowed mode orbit: [(-2, 0), (2, 0)] (decay 0.5774), allowed dimension 1
+  the leading mode g(x, y) = sum c e^(2 pi i (k x + l y)) with (-2,0): -0.000-0.211i, (2,0): -0.000+0.211i; symmetry residuals (relative) max 2.1e-15
+  {g > 0}: 2 component(s), Euler characteristic 0; {g < 0}: 2 component(s), Euler characteristic 0
+  at the corners of the inversion b = (np.float64(0.0), np.float64(0.0)): |g| (relative) ['0.013', '0.013', '0.013', '0.013'], |grad g| (relative) ['1.000', '1.000', '1.000', '1.000']
+  at the corners of the inversion b = (np.float64(0.5), np.float64(0.0)): |g| (relative) ['0.013', '0.013', '0.013', '0.013'], |grad g| (relative) ['1.000', '1.000', '1.000', '1.000']
+  => chi(d+M) = 0: the partition of the cusp torus is annular; the arcs' corners lie on the zero set and do not make discs
+
+SELFTEST: PASS

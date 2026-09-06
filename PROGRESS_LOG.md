@@ -14386,3 +14386,18 @@ the ⟨N⟩, ⟨ν^c⟩ point, and 568 656 keep all 81 states of the three 27s.*
 Standard-Model gauge group (× the family torus's two U(1)s) and three complete generations of 27 ⊕ 27̄, on a closing
 the object supplies, broken to it by the closing's own order-19/38 characters — **vector-like** (B1260): chirality is
 the wall that remains. Lock `tests/test_b1278_the_six_fold_closing.py`. N = 0; 0 of 19; price unchanged.
+
+### B1277 addendum — the arcs and the corners (2026-09-06)
+
+On the owner's challenge *"do the two Fix(θ) arcs give χ(∂⁺M) ≠ 0? Arcs cut corners."* The eight isometries of m004
+derived as affine maps of the cusp torus from the holonomy (`frontier/B1277_the_vacuum_manifold_of_the_closing/verification/arcs_and_corners.py`;
+the horoball pattern alone has sixteen affine symmetries, the genuine eight are the ones that normalize Γ): the
+period-2 half-translation T along λ, two order-4 glides (the amphichiral rotoreflections), two glide involutions
+(no reflections, no fixed circles), and **the two inversions θ, θT with four corners each** — the ends of their two
+fixed arcs, the pillowcase's cone points. **The arcs do cut the corners**, and the corners lie on the zero set of
+the θ-odd Higgs field's radial component; but the symmetry-allowed leading cusp mode of that component is the pure
+longitude mode **sin(4πx)** — (±1, 0) is killed by T, (0, ±1) by the glides — whose zero set is four meridian circles
+through all eight corners and whose regions are annuli: **χ(∂⁺M) = χ(∂⁻M) = 0**. A disc needs a mixed mode; the first
+allowed one, (±2, ±1), decays twice as fast. L204's closure stands with the arcs accounted for (caveat stated: the
+(±2, 0) coefficient of the actual harmonic form is assumed non-zero, generic). Lock
+`tests/test_b1277_the_arcs_and_the_corners.py` (SnapPy).
