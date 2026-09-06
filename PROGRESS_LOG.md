@@ -14534,3 +14534,39 @@ Different spaces, not a contradiction — a closed surface has no boundary for a
 **Fences.** **Not verified here:** R68's icosian `4 → 1` collapse, the SM seat's vacuum-manifold
 scan, its Wilson-line stabiliser, and its SU(5) theorem — all carried as harvest with attribution.
 **No ledger row moves; I-26 untouched.** Seat arcs cited as `sB1272…sB1277` per the alias table.
+
+---
+
+## 2026-09-06 — correction: B1293 undersold both seats (owner-prompted)
+
+Owner asked *"did u downplay other seats work"*. Re-read against the sources: **yes, three ways.**
+The computations stand; the framing is corrected at source
+(`frontier/B1293_seat_harvest_2026-09-06/ADDENDUM_2026-09-06_I_UNDERSOLD_THE_SEATS.md`).
+
+**The unfair one.** B1293 wrote *"anyone citing 9+9+9 as the discovery is citing the wrong number"*
+on the strength of my 178/728 count. **fc's R68 addendum says, in the same paragraph that presents
+the partition: *"Two things to note and not over-read"* and *"by construction it is one of them."***
+**fc stated that the 9+9+9 is automatic for any trinification A₂³ before I did.** I presented their
+own fence back to them as a correction. Withdrawn — 178/728 *confirms* their caveat.
+
+**And the ratio was wrong.** More words spent calibrating a number fc had already flagged than on
+their actual claim — **the two-sided ℤ[g]-stability cutting 40 → 4 → 1 — which I left unverified.**
+That is the step that carries R68, and it is now explicitly owed.
+
+**Second.** Saying B1291 *"goes strictly further"* than B1277 §4 treated a **passing remark inside an
+arc about the vacuum manifold** as incompleteness. B1291 classifies the case in more detail; the SM
+seat left nothing undone there.
+
+**Third.** The ordering centred this bench — codex-has-nothing-new, then my verification, then my
+calibration, with the seats' results **fourth**, under a title ending *"and main's B1290 was second."*
+Priority disclosure is right and stays; **leading with it is self-centring.**
+
+**The window's headline, stated first:**
+1. **The SM-derivation seat reached the Standard-Model group** — `W = z_L ∘ χ_j` with ⟨N⟩, ⟨ν^c⟩
+   leaves su(3) ⊕ su(2) ⊕ u(1)_Y unbroken. **The first such vacuum in this programme.**
+2. **fc collapsed I-14 to a point** — `85 → 40 → 4 → 1`, mirror-invariant, the largest H5
+   multiplicity in the corpus, closed by the object's own action.
+3. **fc derived `net chirality = χ(M,∂⁺M)` and *"the seven chirality walls are one theorem"* before
+   main did.**
+
+Both seats' own fences remain carried verbatim. **Owed: verify fc's icosian 4 → 1 step.**

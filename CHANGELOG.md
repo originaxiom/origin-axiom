@@ -1,5 +1,22 @@
 # Changelog
 
+## CORRECTION — B1293 undersold both seats (owner-prompted)
+
+**The unfair one:** B1293 said *“anyone citing 9+9+9 as the discovery cites the wrong number.”* **fc's
+R68 says *“not over-read”* and *“by construction it is one of them”* in the same paragraph** — fc stated
+the partition is automatic for any trinification A₂³ **before I did**. I handed their own fence back as a
+correction. Withdrawn; 178/728 *confirms* it. **And the ratio was wrong** — more words on a number fc had
+already flagged than on their actual claim, **the two-sided ℤ[g]-stability cutting 40 → 4 → 1, which I
+left unverified.**
+
+**Also withdrawn:** reading B1277 §4's passing remark as incompleteness; and an ordering that put the
+seats' results fourth under a title ending *“main's B1290 was second.”*
+
+**The headline is theirs:** the SM-derivation seat **reached the Standard-Model group** (the first such
+vacuum in this programme); fc **collapsed I-14 to a point** (85 → 40 → 4 → 1, mirror-invariant); and fc
+**derived `net chirality = χ(M,∂⁺M)` before main did**. Computations unchanged. **Owed: verify fc's
+icosian 4 → 1 step.**
+
 ## SEAT HARVEST — the SM group is reached, I-14 becomes a point, and main's B1290 was second
 
 **B1293.** Codex, as asked: **nothing new** (head R040, already harvested). Two other seats pushed today.

@@ -78,3 +78,41 @@ def test_priority_and_fences_are_recorded_not_softened():
     assert "before main's B1290" in t                 # fc got there first; say so
     assert "harvest, not verification" in t.lower() or "NOT verified here" in t
     assert "other 39" in t                            # fc's own fence on I-14 is carried
+
+
+def _plain(path):
+    """Markdown text as one whitespace-normalised line: quoted prose here carries emphasis
+    markers and hard-wraps, and matching raw text reddens on both (twice, in this file)."""
+    import re
+    return re.sub(r"\s+", " ", re.sub(r"[*_`>]", "", path.read_text(encoding="utf-8")))
+
+# --- the framing correction (owner-prompted, 2026-09-06) ------------------------------------
+
+def test_the_9_9_9_calibration_credits_fc_rather_than_correcting_them():
+    """fc's R68 says 'not over-read' and 'by construction it is one of them' in the same
+    paragraph that presents the partition. B1293's first writing handed that fence back to
+    them as a correction. The addendum must withdraw it, and the withdrawal must name why."""
+    add = ARC / "ADDENDUM_2026-09-06_I_UNDERSOLD_THE_SEATS.md"
+    assert add.exists(), "the correction must live at source, not only in the log"
+    t = _plain(add)
+    assert "not over-read" in t and "by construction it is one of them" in t
+    assert "Withdrawn" in t
+    # and the unverified step must be named as owed, not left implicit
+    assert "4 → 1" in t and "owed" in t.lower()
+
+
+def test_the_addendum_states_the_seats_results_FIRST_and_without_hedging():
+    t = _plain(ARC / "ADDENDUM_2026-09-06_I_UNDERSOLD_THE_SEATS.md")
+    assert "first vacuum of this programme with the Standard-Model group" in t
+    assert "before main did" in t or "before main" in t
+    # the seats' own fences must still be carried -- correcting the framing must not delete them
+    assert "other 39" in t and "closed closing" in t
+
+
+def test_the_verdict_carries_the_correction_at_source():
+    import json as _j
+    v = _j.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    c = v["claim_one_line"]
+    assert "FRAMING CORRECTED" in c and "UNVERIFIED" in c.upper()
+    # the computations must NOT have been withdrawn along with the framing
+    assert "120 A2" in c or "40 A2^3" in c or "A1A5" in c
