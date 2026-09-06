@@ -1,0 +1,734 @@
+R11 ORIGINAL FIRST RUN — seal e066cdee
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m reports.physical_bridge_2026_09_05.family_action --output reports/physical_bridge_2026_09_05/family_action_first_run.json
+Exit: 1
+No JSON was created: failure preceded exclusive output open.
+The orchestration observation briefly failed while storing an undefined exit status;
+the original live session 87294 was recovered and polled, not restarted.
+Raw process output follows:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/family_action.py", line 425, in <module>
+    main()
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/family_action.py", line 414, in main
+    result = run()
+             ^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/family_action.py", line 358, in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom/reports/physical_bridge_2026_09_05/family_action.py", line 140, in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py", line 156, in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py", line 536, in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+R11 ORIGINAL TESTS
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_family_action.py -q -p no:randomly
+Exit: 1
+Raw process output follows (same shared-fixture domain error eight times):
+
+EEEEEEEE                                                                 [100%]
+==================================== ERRORS ====================================
+__ ERROR at setup of test_lattice_integrality_and_a_corrupt_root_are_checked ___
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_marked_map_verifies_all_products_and_rejects_bad_assignment _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_root_space_actions_are_not_identified_from_orbit_counts _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+__ ERROR at setup of test_commuting_split_reconstructs_literal_action_exactly __
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_six_classes_have_the_same_cycles_but_distinct_internal_actions _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_map_is_equivariant_and_orientation_is_not_silently_fixed _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+_ ERROR at setup of test_family_lift_has_order_three_and_lie_centralizer_control _
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+__ ERROR at setup of test_exact_arithmetic_and_input_provenance_are_retained ___
+
+    @pytest.fixture(scope="module")
+    def result():
+>       return f.run()
+               ^^^^^^^
+
+tests/test_physical_bridge_family_action.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = DomainMatrix({0: {0: -4, 1: -3, 2: -3, 3: -3, 4: -3, 5: -3, 6: -3, 7: -3, 8: -3, 9: -3, 10: -3, 11: -3, 12: -3, 13: -2..., 211: 1, 212: -1, 213: 1, 214: -1, 219: 1, 220: -1, 225: 1, 226: -1, 231: 1, 232: -1, 233: 1, 234: -1}}, (8, 240), QQ)
+
+    def hermite_normal_form(A, *, D=None, check_rank=False):
+        r"""
+        Compute the Hermite Normal Form of :py:class:`~.DomainMatrix` *A* over
+        :ref:`ZZ`.
+    
+        Examples
+        ========
+    
+        >>> from sympy import ZZ
+        >>> from sympy.polys.matrices import DomainMatrix
+        >>> from sympy.polys.matrices.normalforms import hermite_normal_form
+        >>> m = DomainMatrix([[ZZ(12), ZZ(6), ZZ(4)],
+        ...                   [ZZ(3), ZZ(9), ZZ(6)],
+        ...                   [ZZ(2), ZZ(16), ZZ(14)]], (3, 3), ZZ)
+        >>> print(hermite_normal_form(m).to_Matrix())
+        Matrix([[10, 0, 2], [0, 15, 3], [0, 0, 2]])
+    
+        Parameters
+        ==========
+    
+        A : $m \times n$ ``DomainMatrix`` over :ref:`ZZ`.
+    
+        D : :ref:`ZZ`, optional
+            Let $W$ be the HNF of *A*. If known in advance, a positive integer *D*
+            being any multiple of $\det(W)$ may be provided. In this case, if *A*
+            also has rank $m$, then we may use an alternative algorithm that works
+            mod *D* in order to prevent coefficient explosion.
+    
+        check_rank : boolean, optional (default=False)
+            The basic assumption is that, if you pass a value for *D*, then
+            you already believe that *A* has rank $m$, so we do not waste time
+            checking it for you. If you do want this to be checked (and the
+            ordinary, non-modulo *D* algorithm to be used if the check fails), then
+            set *check_rank* to ``True``.
+    
+        Returns
+        =======
+    
+        :py:class:`~.DomainMatrix`
+            The HNF of matrix *A*.
+    
+        Raises
+        ======
+    
+        DMDomainError
+            If the domain of the matrix is not :ref:`ZZ`, or
+            if *D* is given but is not in :ref:`ZZ`.
+    
+        DMShapeError
+            If the mod *D* algorithm is used but the matrix has more rows than
+            columns.
+    
+        References
+        ==========
+    
+        .. [1] Cohen, H. *A Course in Computational Algebraic Number Theory.*
+           (See Algorithms 2.4.5 and 2.4.8.)
+    
+        """
+        if not A.domain.is_ZZ:
+>           raise DMDomainError('Matrix must be over domain ZZ.')
+E           sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: DMDomainError
+=========================== short test summary info ============================
+ERROR tests/test_physical_bridge_family_action.py::test_lattice_integrality_and_a_corrupt_root_are_checked
+ERROR tests/test_physical_bridge_family_action.py::test_marked_map_verifies_all_products_and_rejects_bad_assignment
+ERROR tests/test_physical_bridge_family_action.py::test_root_space_actions_are_not_identified_from_orbit_counts
+ERROR tests/test_physical_bridge_family_action.py::test_commuting_split_reconstructs_literal_action_exactly
+ERROR tests/test_physical_bridge_family_action.py::test_six_classes_have_the_same_cycles_but_distinct_internal_actions
+ERROR tests/test_physical_bridge_family_action.py::test_map_is_equivariant_and_orientation_is_not_silently_fixed
+ERROR tests/test_physical_bridge_family_action.py::test_family_lift_has_order_three_and_lie_centralizer_control
+ERROR tests/test_physical_bridge_family_action.py::test_exact_arithmetic_and_input_provenance_are_retained
+8 errors in 4.52s
