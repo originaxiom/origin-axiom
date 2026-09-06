@@ -6420,6 +6420,29 @@
    "status": "dormant",
    "domain": "topology"
   },
+  "B1276": {
+   "slug": "legs are faces",
+   "motifs": [
+    "choice",
+    "kappa",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B467",
+    "B730",
+    "B957",
+    "K020",
+    "S068"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

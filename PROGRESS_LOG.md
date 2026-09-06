@@ -14266,3 +14266,31 @@ Owner: *"lets integrate three generations derivation in main, verify whats remai
 - **FENCES CARRIED, NOT RELAXED:** the source arc says **the bit (ω vs ω̄) is supplied by a CLOSING,
   not the object** (the mirror-odd ℤ/2 since B582), and reports **N = 0** with **the Yukawa forced to
   ZERO on the triplet**. **Even if the object step lands, it buys the COUNT and not the VALUES.**
+
+### B1276 — B1174's legs ARE B730's faces; and `face` registered as overloaded (2026-09-06)
+
+Owner: *"how do we fix that? also, should we reprobe properly with enriched knowledge the B1174 instead
+of taking it for granted. maybe it was misinformed."* **Both done. B1174 is not misinformed — this seat
+under-read it — and the re-probe produces a JOIN.**
+
+- **THE SEAT'S ERROR.** It cited B1174's **headline** (*"the four ℤ/2's are NOT all one"*). B1174's
+  actual theorem: *"**NOT ONE TORSOR — ONE SHARED INVOLUTION** … the value/genus/form-class bits are
+  provably **OTHER LEGS**"*, and it names **"meeting V₄ = Gal(ℚ(√−3,√5)/ℚ)"**.
+- **THE JOIN.** **B730** proves the object forces **exactly three** quadratic faces — **being ℚ(√−3),
+  hearing ℚ(√5), meeting ℚ(√−15)** — the three involutions of that **same V₄**, with
+  **being · hearing = meeting**. **B1174's "meeting V₄" IS B730's forced faces.**
+  **Cross-citation, measured: 0 both ways.** Same group, found twice, never joined.
+- **THE PARITY LAW MAKES IT SHARP** (verified on all three faces + the non-face stage ℚ(√−7)):
+  **c acts nontrivially iff the field is IMAGINARY.** So **being** (imaginary) **can** carry the
+  orientation bit; **hearing** (**real**) is **mirror-EVEN and cannot**; **meeting** is a third leg.
+  **B467's one uncancelable bit lives on the being face BECAUSE that face is imaginary.**
+- **AND IT IS E65 IN ARITHMETIC DRESS.** Tonight's *every Sym^n of SL(2) is self-dual → the sl₂ frame
+  is mirror-even* is the **representation-theoretic** statement of the same fact. **Two derivations,
+  one truth.**
+- **CONSEQUENCE:** the ℤ/2's are **neither four unrelated bits nor one bit** — they are **indexed by
+  the three forced faces**.
+- **THE TERMINOLOGY FIX.** A five-angle sweep (25 agents, adversarially verified) found **`face` is the
+  repo's most overloaded word — six live incompatible senses**, none in the registry, against B1176's
+  own rule. **Now registered in TERMINOLOGY.md**, including that the **adelic** "two faces" collides
+  with the forced-field sense **inside TERMINOLOGY.md itself** (lines 573–575), so only the qualifier
+  *golden/eisenstein* pins it.
