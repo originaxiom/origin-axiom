@@ -14006,3 +14006,21 @@ computing.**
   two mechanisms — not over-unified.**
 - **FALSIFIER SHARPENED, NOT MET.** B1224's CS = 0 is a point the object supplies, but a
   **self-referential** one, which H5 permits. **H5 stands un-falsified and un-banked.**
+
+### Ledger hygiene — two malformed rows fixed, a gate added, and one of my own claims withdrawn (2026-09-06)
+
+Continuing the row-by-row audit under `docs/MAIN_GOAL.md`.
+
+- **A CLAIM OF MINE, WITHDRAWN.** I reported I-7 as *"malformed — it can't be earned or refuted as
+  written."* **That was wrong.** I-7 is correctly escaped (`\|`); **my naive `.split("|")` was the
+  bug**, not the row. Re-run with escape-aware splitting, I-7 parses fine.
+- **TWO ROWS WERE GENUINELY MALFORMED**, both from unescaped pipes inside content:
+  **I-16** (`|D|`, absolute-value bars, from B1242) and **I-24** (`[C18, D₂|W18]`, the restriction
+  bar) — **the latter written by this seat a few hours earlier the same day.** Both fixed by escaping.
+- **THE PRICE WAS NEVER CORRUPTED.** Both are REFUTED rows, and the census matches on the bolded
+  status token rather than field position: **8 EARNED / 8 REFUTED / 10 UNEARNED**, price **14**,
+  agreeing with the ratchet. Verified before and after.
+- **A GATE ADDED.** `tests/test_b1261_the_price.py` now fails if any ledger row parses to other than
+  11 escape-aware fields, or if any row lacks exactly one bolded status token. Since **B1261 made
+  this file the scoreboard**, a row that does not parse should red the suite rather than wait to be
+  noticed. All **26** rows now parse; 30/30 gates.
