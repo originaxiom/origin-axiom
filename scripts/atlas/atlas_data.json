@@ -6145,6 +6145,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1260": {
+   "slug": "where chirality can live",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "dickson_tower",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B102",
+    "B153",
+    "B71",
+    "V0"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

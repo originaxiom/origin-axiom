@@ -1,5 +1,19 @@
 # Changelog
 
+## WHERE NET CHIRALITY CAN LIVE — the closed wall generalised, the abelian sector walled, one branch left
+
+**B1260**, MAIN_GOAL JOIN 1 q1. **(1)** The closed wall is **general**: PD + χ = 0 + h⁰(V) = h⁰(V*) = 0
+forces **h¹(V) = h¹(V*)** on **any** closed oriented 3-manifold, so B1086's *"any closed double"* is a
+special case and **any closed assembly is vector-like whatever its h¹**. **(2)** The **cusped abelian**
+sector is walled too, and not by closedness: m004's Fox derivatives are **±Δ(t)/t** with
+**Δ = t² − 3t + 1** (roots **φ²**, **φ⁻²**), Δ is **reciprocal**, its vanishing locus is symmetric under
+t → 1/t = V → V*, so h¹(ℂ_t) = h¹(ℂ_{1/t}) **including at the Alexander root where h¹ jumps**;
+reciprocity holds for all knots. **(3)** Hence **rank ≥ 3, not through SL(2)** — every Sym^n is
+self-dual, and the corpus's SL(n) tower is entirely the **principal** family, so it cannot answer this.
+**(4)** And the search reduces to **one branch the corpus already realised**: B102's genuine non-Sym²
+components **W1**, **W2** are **non-self-dual for p ≠ q** and were realised as explicit SL(3) reps.
+**The deciding computation is named and small: h¹(V) vs h¹(V*) on W1/W2.**
+
 ## NO FLAT G₂ ORBIFOLD CAN ISOLATE — B1084's census was a theorem, and its hatch closes for every group
 
 **B1259**, the first work under `docs/MAIN_GOAL.md` (JOIN 1). B1084 left a hatch — *"chirality costs

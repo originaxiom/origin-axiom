@@ -13877,3 +13877,31 @@ First work under `docs/MAIN_GOAL.md`, JOIN 1.
 - **SCOPE.** Does **not** say chirality is impossible — the corpus has it **constructed** (B944: 102
   arcs, 70 PROVED) via the **θ-odd twisted full-E₆(ℂ)** frame with a **closing** supplying the bit.
   Does **not** resolve JOIN 1: B1086's chiral dial still gives **h¹ = 2**, not 3.
+
+### B1260 — where net chirality can live (2026-09-06)
+
+MAIN_GOAL JOIN 1, question 1: closed double or cusped manifold?
+
+- **THE CLOSED WALL IS GENERAL.** For **any** closed oriented 3-manifold: PD (h^i(V) = h^{3−i}(V*))
+  + χ = 0 + h⁰(V) = h⁰(V*) = 0 for irreducible V ⇒ **h¹(V) = h¹(V*) identically**. B1086's *"as PD
+  forces on any closed double"* is a **special case** — the wall is **dimension 3 plus closedness**,
+  so *any* closed assembly is vector-like whatever its h¹.
+- **THE CUSPED ABELIAN SECTOR IS WALLED TOO**, and not by closedness. The Fox derivatives of m004's
+  relator in the 1-dim rep are **±Δ(t)/t**, **Δ = t² − 3t + 1**, roots **φ²** and **φ⁻²** (product 1).
+  **Δ is reciprocal** (verified symbolically), so its vanishing locus is symmetric under t → 1/t —
+  exactly V → V* — giving **h¹(ℂ_t) = h¹(ℂ_{1/t})** at every value **including the Alexander root
+  where h¹ jumps**. Alexander reciprocity holds for all knots ⇒ the abelian sector **never** carries
+  net chirality.
+- **SO: RANK ≥ 3, NOT THROUGH SL(2)** — every Sym^n is self-dual (verified), which is E65 again; and
+  **the corpus's whole SL(n) tower is the principal family** (B71 builds SL(3) via `sym2()`, B153's
+  rows are the *principal spectrum*), so **the corpus's own SL(n) work cannot answer this**.
+- **AND THE SEARCH REDUCES TO ONE BRANCH THE CORPUS ALREADY REALISED.** B102: every irreducible SL(3)
+  figure-eight character is **Case I** (`trA = trA⁻¹`, self-dual *by definition*) or the
+  **`trB = trB⁻¹ = 1`** branch — **"0 neither"** verified. Its genuine non-Sym² components
+  **W1 = (1,q,q,1,p,1,1,p)** and **W2 = (p,1,1,q,1,q,p,1)** are **NOT self-dual for p ≠ q**, and B102
+  **realised both as explicit SL(3) reps**.
+- **THE DECIDING COMPUTATION, named and small:** h¹(V) vs h¹(V*) on W1/W2. **Differ** ⇒ the cusped
+  manifold carries net chirality. **Agree** ⇒ the wall extends past closedness *and* past the abelian
+  sector, and the generation count cannot be a net-chirality count on this manifold at all.
+- **SCOPE HELD:** B71 records these are **fiber-group** coordinates, and the fiber↔knot dictionary is
+  *a separate identification*; which extension is meant is part of the deciding computation.
