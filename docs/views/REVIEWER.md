@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1164** |
-| words of findings prose | **813,487** |
+| words of findings prose | **813,574** |
 | test lock files referenced | **689** |
 | arcs carrying an authored verdict | **1164** (100.0 %) |
 | recorded closures | **780** (613 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1255`** (1048 words, 0 locks)  
+**PROVED — `B1255`** (1080 words, 0 locks)  
 THE GENERATION INDEX HAS THE RIGHT GALOIS TYPE AND THE WRONG COMMUTATOR. The pattern behind twelve lost three-nesses is named: every one was built on Q(sqrt-3), where 3 RAMIFIES -- ramification yields conjugates or gradings, never copies, and a quadratic field has at most TWO primes above any p, so three-fold splitting is impossible there in principle (independently reproducing B298's degree-2 obstruction, and re-reading B1253's '1 abelian + 2 chiral' price as that same 1+2 in representation-theoretic costume). The pattern PREDICTS what a genuine three needs -- an irreducible cubic with no distinguished root -- and the record contains exactly that, TWICE in the sqrt77 family: mu13 and HIER are both totally real, irreducible, GALOIS GROUP S3, disc squarefree kernel {7,11}, roots reproducing the banked v_g^2 to 1e-38. That three-ness SURVIVES BOTH KILLS that ended the others (B324's 'conjugates share one character' does not bite -- generations are REQUIRED to share one character and differ in VALUE; B1253's Weyl-orbit kill does not bite -- Galois conjugacy over Q is not a gauge symmetry). It is killed here by a THIRD test the record had never run: a flavour index must COMMUTE with the gauge grading, and [C18, D2|W18] != 0 with 0 of 6 colored atoms a D2-eigenspace -- behind which sits a dimension count that closes the route permanently, 27 = 16+10+1 carries the 16 with MULTIPLICITY ONE so three copies need dim >= 48 > 27. I-24 REFUTED. WHAT SURVIVES IS THE MECHANISM: B923's two gauges give (x+3)^3 GENERATION-DEGENERATE canonically and HIER's three distinct roots when twisted by D2 -- so had the two operators commuted they would be simultaneously diagonalisable and the splitting would be GAUGE-BLIND, degenerate copies with NO hierarchy. The same non-commutation that denies g the flavour role is what lifts the degeneracy. The count must therefore come from MULTIPLICITY, not from within the 27: B1253's h^1 = 3 is now the ONLY surviving route and its price is unchanged -- make the trivial Sym^0 summand chiral, or exhibit a bundle whose three classes are all chiral.  
 `B1255_generation_type/FINDINGS.md`
 

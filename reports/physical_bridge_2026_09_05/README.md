@@ -18,6 +18,11 @@ The earlier [one-loop angular result](QUANTUM_VACUUM.md) and
 conditional scope and positive results are not erased by the new model's
 remaining problems. No globally selected vacuum or completed TOE is claimed.
 
+The [recovered-steps receipt](RECOVERED_PHYSICAL_STEPS.md) preserves the
+old/new-result sweep: 14-to-12 is an existing conditional reduction, the
+spin/beat closure is verified, and the 122-order alleged failure was withdrawn.
+Do not turn a remaining selection question into an absence of these results.
+
 **Earlier outcome:** a verified defect in the original crossing instrument, a corrected
 boundary-value solver, and an executable conditional gauge-and-mass calculation
 using the banked exotic multiplets. This is progress toward a physical theory,
