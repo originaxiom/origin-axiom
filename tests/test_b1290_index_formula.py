@@ -132,3 +132,49 @@ def test_the_backlinks_did_NOT_change_any_verdict():
         except Exception: pass
     assert c["RETRACTED"] == 12, f"retraction count moved: {c['RETRACTED']}"
     assert c["PROVED"] == 773 and c["NEGATIVE"] == 312 and c["OPEN"] == 87, dict(c)
+
+
+# --- B1290's second follow-through: the relay gate now enforces its own stated rule --------
+
+def test_the_relay_gate_matches_its_own_docstring():
+    """The rule said 'cross-seat relay files'; the regex enforced only CC2/CC3, so CC_TO_FC,
+    CC_TO_CLOUD, CC_TO_CODEX and CC_TO_ALL_SEATS were invisible — B1226's shape. Both
+    violations it had already cost were committed by this bench on the day it was found."""
+    g = _gates()
+    ok, detail = g.gate_tracked_forbidden()
+    assert ok, detail
+    src = (ROOT / "scripts" / "gates" / "gates.py").read_text(encoding="utf-8")
+    # the widened matcher must key on a seat AND the relay convention's date stamp
+    assert "_RELAY_RE" in src and r"\d{4}-\d{2}-\d{2}" in src
+
+
+def test_the_relay_gate_CAN_fail_and_spares_the_sanctioned_location(monkeypatch):
+    """MB12 both directions: a NEW loose relay reds; the same relay inside an arc dir does not."""
+    g = _gates()
+    NEW = "CC_TO_CLOUD_2026-09-07_A_NEW_LOOSE_RELAY.md"
+    ARCHIVED = "frontier/B1290_the_index_formula/" + NEW
+    MASTERPLAN = "docs/STRUCTURE_TO_NATURE_MASTERPLAN.md"
+
+    def fake(*a):
+        return 0, "\n".join(["README.md", MASTERPLAN, ARCHIVED, NEW])
+    monkeypatch.setattr(g, "_git", fake)
+    ok, bad = g.gate_tracked_forbidden()
+    assert not ok and NEW in bad, bad
+    # the sanctioned location and the false-positive-shaped masterplan are BOTH spared
+    assert ARCHIVED not in bad and MASTERPLAN not in bad, bad
+
+    def fake_clean(*a):
+        return 0, "\n".join(["README.md", MASTERPLAN, ARCHIVED])
+    monkeypatch.setattr(g, "_git", fake_clean)
+    ok2, _ = g.gate_tracked_forbidden()
+    assert ok2
+
+
+def test_the_grandfathered_relays_are_named_and_bounded():
+    """GOVERNANCE §12 forbids moving banked paths, so these three stay — but the set must not
+    grow silently; a fourth entry means someone committed a loose relay instead of archiving it."""
+    src = (ROOT / "scripts" / "gates" / "gates.py").read_text(encoding="utf-8")
+    block = src.split("GRANDFATHERED_RELAYS = {", 1)[1].split("}", 1)[0]
+    names = [x for x in re.findall(r'"([^"]+\.md)"', block)]
+    assert len(names) == 3, names
+    assert "CC3_TO_CC_2026-07-22_p3_complete.md" in names

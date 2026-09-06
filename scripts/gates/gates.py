@@ -265,16 +265,33 @@ def gate_tracked_forbidden():
     # LOOSE (at root or in docs/). Relays ARCHIVED INSIDE a frontier arc directory are that
     # arc's evidence record and are allowed — the same distinction the path guard already
     # makes for cc2_packets ("archived cross-seat packet records: history, not live code").
-    # One loose relay predates this rule and is grandfathered: GOVERNANCE §12 forbids removing
-    # banked paths, so the gate's job is to stop the NEXT one.
-    GRANDFATHERED_RELAYS = {"CC3_TO_CC_2026-07-22_p3_complete.md"}
+    #
+    # WIDENED 2026-09-06 (B1290's follow-through). The rule above says "cross-seat relay
+    # files"; the REGEX enforced only CC2/CC3 relays, so CC_TO_FC, CC_TO_CLOUD, CC_TO_CODEX
+    # and CC_TO_ALL_SEATS were invisible to it. That is B1226's shape exactly ("the gate
+    # enforced ONE vendor token of the five the standing rule names"), and it had already
+    # cost two violations — BOTH committed by this bench on 2026-09-06, the day it was found.
+    # The matcher now keys on a KNOWN SEAT as sender plus the relay convention's DATE stamp,
+    # which is what separates a relay from docs/STRUCTURE_TO_NATURE_MASTERPLAN.md. Validated
+    # both directions: 53/53 loose relays on disk matched, and the masterplan, README, and
+    # arc-archived relays all correctly unmatched.
+    #
+    # Three loose relays predate the widening and are grandfathered — GOVERNANCE §12 forbids
+    # moving banked paths ("locks, hashes, and the atlas depend on path stability"), so the
+    # gate's job is to stop the NEXT one, not to relitigate these. NEW relays go inside the
+    # arc directory they belong to.
+    _SEAT = r"(?:CC|CC2|CC3|CLOUD|CODEX|FC|OWNER)"
+    _RELAY_RE = re.compile(
+        rf"^(?:docs/)?{_SEAT}(?:_[A-Z0-9]+)?_TO_[A-Z0-9_]+_\d{{4}}-\d{{2}}-\d{{2}}.*\.md$")
+    GRANDFATHERED_RELAYS = {
+        "CC3_TO_CC_2026-07-22_p3_complete.md",
+        "CC_TO_ALL_SEATS_2026-09-06_ARC_NUMBER_RESERVATION.md",
+        "CC_TO_FC_2026-09-06_THE_QUESTION_MOVED_TO_YOUR_CUSP.md",
+    }
     bad = [f for f in out.splitlines()
            if f.startswith(".github/") or f == "Archive.zip"
            or (f.startswith("papers/flagship/a-self-generating-object") and f.endswith(".pdf"))
-           or (re.match(r"(CC_TO_CC3|CC3_TO_CC|CC_TO_CC2|CC2_TO_CC)[^/]*\.md$", f)
-               and os.path.basename(f) not in GRANDFATHERED_RELAYS)
-           or (f.startswith("docs/")
-               and re.search(r"/(CC_TO_CC3|CC3_TO_CC|CC_TO_CC2|CC2_TO_CC)[^/]*\.md$", f))]
+           or (_RELAY_RE.match(f) and os.path.basename(f) not in GRANDFATHERED_RELAYS)]
     return not bad, bad
 
 
