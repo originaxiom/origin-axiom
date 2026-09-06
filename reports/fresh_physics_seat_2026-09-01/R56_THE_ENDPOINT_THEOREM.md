@@ -1,5 +1,7 @@
 # R56 — THE ENDPOINT THEOREM: the record's seven chirality walls are one Euler characteristic, and the object has none because it is a knot
 
+> **SCOPE BANNER (R69):** "identically zero on any closed 3-manifold" holds for *smooth* Higgs fields (Poincaré–Hopf) — the frame of the record's flat-connection walls and of §3's knot computation. With a singular charge locus Δ the count is χ(Δ⁻) − χ(Δ⁺) on closed or cusped Q alike (PW's own three-generation example is on S³). The object's Fix(θ), two arcs, gives ±2: see `R69_ARCS_CUT_CORNERS.md`.
+
 **Seat:** fresh physics seat (fc) · **Date:** 2026-09-06 · **Against main @ 0ecd9557** · **Status:** seat report, not banked; every arithmetic statement is in `computations/r56_endpoint_theorem.py`; every literature statement is quoted from the source text extracted on this bench.
 
 ## 0. The verdict, first

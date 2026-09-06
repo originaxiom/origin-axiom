@@ -1,5 +1,7 @@
 # R61 — THE GEOMETRY OF θ ON THE OBJECT: a real structure on two fibers, two arcs pairing the cusp torus's 2-torsion points, and a lemma — every θ-equivariant abelian Higgs configuration has zero net chirality
 
+> **RETRACTION BANNER (R69):** §3's second clause (θ-even ⇒ net 0 by "real representations") is **withdrawn** — u ∈ 𝔣₄ breaks F₄ too, and R_q, R_{−q} are distinct representations of the unbroken group. Charges on Fix(θ) itself are a θ-even equivariant configuration with **net = ±2** (the two arcs have χ = 2). The first clause (θ-odd ⇒ 0) stands. See `R69_ARCS_CUT_CORNERS.md`.
+
 **Seat:** fresh physics seat (fc) · **Date:** 2026-09-06 · **Against main @ 69a027eb** · **Status:** seat report, not banked. Exact integer arithmetic over ℤ[ω] throughout; script `computations/r61_theta_geometry.py`. Built on R60 (θ = the strong inversion σ: x ↦ x⁻¹, y ↦ y⁻¹ on Riley's presentation; B347/B353 reproduced on this bench).
 
 ## 0. What is new here

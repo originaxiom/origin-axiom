@@ -1,5 +1,7 @@
 # R62 — THE SYMMETRY GROUP ON THE CUSP, EXACTLY: the mirror is broken by every hyperbolic filling, the strong inversion by none — so no closing in the record's family ever breaks θ
 
+> **CORRECTION BANNER (R69):** the fact that θ extends over every filling stands; the inference "hence the same filling can never supply a count" rested on R61's retracted θ-even clause. The corrected statement: in every filling the solid torus's strong inversion joins the four arc endpoints, Fix(θ) closes into loops, χ returns to 0 — the cusp is what keeps the endpoints. See `R69_ARCS_CUT_CORNERS.md`.
+
 **Seat:** fresh physics seat (fc) · **Date:** 2026-09-06 · **Against main @ 69a027eb** · **Status:** seat report, not banked. Exact over ℤ[ω]; script `computations/r62_cusp_actions.py`. Continues R61.
 
 ## 0. The result
