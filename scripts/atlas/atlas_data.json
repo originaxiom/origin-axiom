@@ -6271,6 +6271,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1266": {
+   "slug": "the source of input",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "z3_generation",
+    "lorentzian"
+   ],
+   "refs": [
+    "B950",
+    "H5",
+    "L3",
+    "L4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

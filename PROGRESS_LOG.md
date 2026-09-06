@@ -14071,3 +14071,25 @@ choice — **it is a rank obstruction.**
   serve as the Cartan involution is **not established here** — and the corpus's θ facts **cut both
   ways**: the object is θ-symmetric, but **θ is trivial on the character variety**, a reason to doubt
   it carries the geometric content E₆(−26) needs. **Nothing earns I-10/I-11; the price stays 14.**
+
+### B1266 — the source of input: the 14 overcounts, the irreducible number is 11 (2026-09-06)
+
+Owner: *"should we find the source of input"*. Yes — and it **corrects B1261**.
+
+- **THE ROWS ARE NOT INDEPENDENT**, and they say so themselves: **I-18** (*"i.e. paying I-13, the
+  listener map u"*), **I-23** (*"paying I-13 on this instance"*, claim reads *"an I-13 instance"*),
+  **I-11** (*"the same map as I-10"*).
+- **TWO PARSER TRAPS, now asserted as controls.** **I-25** cites **I-1**, which is **EARNED** — an
+  earned row is not a debt, and counting it invents a dependency. **I-10 ↔ I-11 form a 2-cycle** that
+  a naive transitive closure splits into two roots, reporting **8** sources instead of 7.
+- **RESULT: 10 unearned rows → 7 irreducible sources** — [3] I-13/I-18/I-23 (the listener map),
+  [2] I-10/I-11 (the fork), and one each for I-6, I-7, I-14, I-25, I-26.
+- **PRICE RESTATED, BOTH NUMBERS KEPT.** **14 = rows outstanding** (the ratchet's work items);
+  **11 = 4 axioms + 7 sources = irreducible inputs** (the theory's actual free inputs, since earning
+  I-13 discharges I-18 and I-23 with it). **Against the SM's 19, the meaningful comparison is 11.**
+  B1261 **corrected, not withdrawn** — its method and row count were right; it did not quotient by
+  the rows' own stated reductions. **Still net negative: 11 bought 0 of 19.**
+- **AND THE SOURCES CLASSIFY BY TYPE:** **H5-type** (object supplies a family, observer picks) —
+  I-6 (**2**), I-14 (**85**), I-25 (**4**), all measured this session; **missing bridge** — I-10/I-11
+  (the fork, now a **rank** obstruction per B1265) and I-26 (an index theorem across a dimension gap);
+  **the master** — I-13; **unclassified** — I-7.

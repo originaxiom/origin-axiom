@@ -34,7 +34,11 @@ nothing here promotes to `CLAIMS.md`.
 
 **THE PRICE, MEASURED (B1261, 2026-09-06) — read this before any row below.** The programme
 **SPENDS 4 axioms + 10 UNEARNED identifications = 14 unpriced inputs** and **BUYS 0 of the SM's 19
-free parameters** (26 with Dirac neutrinos). **By parameter count the trade is NET NEGATIVE.** By
+free parameters** (26 with Dirac neutrinos). **CORRECTED BY B1266: the 14 OVERCOUNTS.** The rows are
+not independent — I-18 and I-23 say *"i.e. paying I-13"*, and I-11 says *"the same map as I-10"* — so
+**10 rows reduce to 7 irreducible sources** and the theory's actual free-input count is **4 + 7 = 11**.
+Both numbers are real: **14 = rows outstanding** (what the ratchet tracks), **11 = irreducible inputs**
+(what compares against the SM's 19). The trade is still **net negative**. **By parameter count the trade is NET NEGATIVE.** By
 structural content it derives what the SM assumes or cannot state (the ℤ₆ global form, hypercharge
 direction, anomaly cancellation, termination) — **and the two currencies do not convert.** The rate
 moves by exactly two operations: **earn an identification (−1)** or **derive a parameter (+1)**.

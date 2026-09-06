@@ -1,5 +1,20 @@
 # Changelog
 
+## THE SOURCE OF INPUT — the 14 overcounts; the irreducible number is 11
+
+**B1266**, on the owner's *"should we find the source of input"*. **It corrects B1261.** The 10
+unearned rows are **not independent** and say so themselves: I-18 and I-23 reduce to **I-13**
+(*"i.e. paying I-13"*), I-11 to **I-10** (*"the same map as I-10"*). Union-find over those stated
+reductions gives **10 rows → 7 irreducible sources**: the **listener map** (3 rows), the **fork**
+(2 rows), and one each for I-6, I-7, I-14, I-25, I-26. **Price restated, both numbers kept:
+14 = rows outstanding (the ratchet's work items); 11 = 4 axioms + 7 sources = the theory's actual
+free inputs.** Against the SM's **19**, the meaningful comparison is **11**. Still **net negative** —
+11 bought 0. **Two parser traps are now controls:** a reference to the **EARNED** I-1 must not count
+as a debt (I-25), and the **I-10↔I-11 cycle** must resolve to **one** source (a naive closure reports
+8). **The sources classify by type:** H5-type (I-6 **2**, I-14 **85**, I-25 **4** — all measured),
+missing bridge (the fork, now a *rank* obstruction per B1265; I-26's index theorem), the master
+(I-13), and one unclassified (I-7).
+
 ## THE REAL FORM IS DERIVED, AND THE FORK IS A RANK OBSTRUCTION
 
 **B1265**, MAIN_GOAL JOIN 3. B1140 banked the fork as a brute fact — *"the two real forms split the
