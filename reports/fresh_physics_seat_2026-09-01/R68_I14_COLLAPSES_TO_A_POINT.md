@@ -32,3 +32,20 @@ I-14 asks for a map from L3 (the grading) to L4 (the commensurator's ω) that **
 - Conjugation's failure to act on left-frames is a caught exception in the script, recorded, not assumed.
 
 *Sweep: "two-sided", "right multiplication", and any A₂³-selection by g appear nowhere on main or the SM-derivation branch; B1270 uses left multiplication only.*
+
+## 4. Addendum — the selected subsystem in B1264's own coordinates
+
+Mapping the selected 18 roots through R66's matching of the icosian E₆'s simple roots to Bourbaki's labelling (there are two matchings, exchanged by the diagram flip θ: 1↔6, 3↔5) and scanning B1264's labellings for those whose zero-root set {α : ⟨α, h_c⟩ ≡ 0 mod 3} is exactly the selected subsystem (`computations/r68b_selected_labelling.py`):
+
+| Bourbaki matching | labellings c ∈ {0,1,2}⁶ with centralizer = the selected A₂³ |
+|---|---|
+| (3,0,1,2,4,5) | **(1, 0, 2, 2, 0, 2)** and its inverse (2, 0, 1, 1, 0, 1) |
+| (5,0,4,2,1,3) — the θ-flip of the above | (1, 0, 0, 1, 1, 2) and (2, 0, 0, 2, 2, 1) |
+
+So in B1264's convention the object's trinification grading is **c = (1, 0, 2, 2, 0, 2)** (one colouring; its inverse is the colour swap ω ↔ ω̄; the θ-flipped pair is the same colouring seen from the other end of the diagram). Its 9+9+9 partition of the 27, in fundamental-weight coordinates of the Weyl orbit of ω₁:
+
+- class 0: (−1,0,0,0,0,1), (−1,0,1,0,0,0), (0,−1,−1,1,0,0), (0,−1,0,1,0,−1), (0,0,1,−1,0,1), (0,1,−1,0,0,0), (0,1,0,0,0,−1), (1,−1,0,0,0,0), (1,1,0,−1,0,0)
+- class 1: (−1,0,0,0,1,−1), (−1,0,0,1,−1,0), (0,0,−1,1,0,0), (0,0,0,−1,1,0), (0,0,0,0,−1,1), (0,0,1,−1,1,−1), (0,0,1,0,−1,0), (1,0,−1,0,0,1), (1,0,0,0,0,0)
+- class 2: (−1,−1,1,0,0,0), (−1,1,1,−1,0,0), (0,−1,0,0,1,0), (0,−1,0,1,−1,1), (0,0,0,0,0,−1), (0,1,0,−1,1,0), (0,1,0,0,−1,1), (1,0,−1,0,1,−1), (1,0,−1,1,−1,0)
+
+Two things to note and not over-read: the labelling vanishes on node 2 (the branch node's neighbour in Bourbaki's numbering) and is 2 on the three nodes 3, 4, 6; and the highest weight (1,0,0,0,0,0) sits in class 1. Whether this matches the trinification embedding the journey's Step 8 uses (E₆ ⊃ SU(3)³ with 27 = (3,3̄,1)+(1,3,3̄)+(3̄,1,3)) is a statement about *which* SU(3)³ — by construction it is one of them; the colouring is now written down so cc can compare it with B305/B1264's tables directly.
