@@ -14150,3 +14150,36 @@ hashes match; views are current. Captured output:
 `reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT_GATES.txt`.
 These final notes and the gate receipt postdate that run; a final artifact
 check precedes the local reporting commit. No push or full-suite certificate.
+
+
+## 2026-09-06 — R11: the founding ratio's family component, explicitly separated
+
+Fetched main 87a2eb3d, SM-derivation seat 945e091d and physics seat 5788e1fd;
+read producer bodies and corrective addenda, not only headlines. The
+all-ten-head sweep is present; B1138's older family branching and the
+source branch's newer three-fold closing are retained as prior work.
+No universal absence claim and no upstream merge.
+
+Independent exact icosian build verifies all root reflections, the true
+integer lattice, and the marked SL(2,F5) map on all 14,400 products. The
+founding ratio's literal left action Lg is NOT a pure family action, despite
+matching three-cycles. It decomposes as Lg=Ug Wg=Wg Ug, Wg=s_1 s_g, where
+Wg fixes E6 pointwise on root space and Ug has a verified E6 reflection
+word. All twenty order-three images and 2,400 covariance checks pass.
+Fixed root-space dimensions 0/6/2 are not full-Lie-algebra invariant
+counts. This earns an internal map, not physical chirality or a TOE.
+Source and exact output: reports/physical_bridge_2026_09_05/FAMILY_ACTION.md.
+
+Original seal e066cdee failed at SymPy's QQ-versus-ZZ HNF interface; the
+first producer created no JSON and its eight fixture errors are preserved.
+Separate exact-domain adapter sealed f790acb2 passes all eight original
+mathematical locks plus three adapter controls (11 passed, 23.00 s).
+The successful producer takes 21.53 s. Combined quiescent regression:
+126 passed, 3 earlier failures, 8 original R11 setup errors in 129.87 s.
+No old scientific bytes, tolerances or failure artifacts rewritten.
+
+Law rows, front doors, framework and PB-ACTION now carry both the positive
+map and its scope. Next independently audit the present three-fold closing,
+its actual gauge action, zero modes, cubic and kinetic forms; do not call
+its three-class/nonzero-cubic claim missing. Source/action selection,
+physical chirality, gravity and empirical contact remain the full goal.

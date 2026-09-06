@@ -266,3 +266,30 @@ Final artifact check: 102 latest-path hashes, zero mismatches. R10's
 design/source/tests have no diff from 8cbd10ed. The staged whitespace check
 passes excluding the verbatim test transcript; its pytest-generated
 trailing spaces remain part of the preserved raw evidence.
+
+
+## R11: a new exact-domain interface failure, with a separate verified adapter
+
+Original seal e066cdee: the first producer and all eight original tests
+stop at the same HNF interface. Coordinates are integral after scaling,
+but the SymPy matrix retains QQ rather than ZZ metadata. No first-run
+JSON was created. This is new R11 instrument debt, not a physics negative
+or an earlier failure. FAMILY_ACTION_FIRST_FAILURE.txt retains the raw
+producer and full eight-error transcript, including local interpreter paths.
+A brief orchestration serialization error did not restart the calculation:
+its original session 87294 was recovered and polled to its failure.
+
+Repair seal f790acb2: only already-checked integral coordinates are explicitly
+converted to ZZ, with exact equality asserted. The context restores its
+module binding even on failure; original source and tests are pinned and
+unchanged. Producer succeeds in 21.53 s; eleven checks pass in 23.00 s,
+including all eight original mathematical lock functions and three adapter
+controls. The original unadapted fixture continues to error and is not
+skipped or relabelled green. Run family_action_domain for the usable result.
+
+Combined quiescent regression: 126 passed, 3 failed, 8 errors in 129.87 s.
+The three failures are the older G2 exporter and R7 small-step controls;
+the eight errors are the original R11 shared fixture. All separate repairs
+pass. Raw receipts: FAMILY_ACTION_CHECKS.txt. No full-suite green or
+publication readiness is claimed. The new successful output is
+family_action_rerun_1.json; previous outputs and scientific seals remain.

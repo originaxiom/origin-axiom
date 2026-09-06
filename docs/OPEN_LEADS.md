@@ -2431,6 +2431,21 @@ include an independently testable prediction with a declared input budget,
 not a fitted spectrum rebranded as a derivation. Source and continuation:
 `reports/physical_bridge_2026_09_05/GOAL_VERDICT.md`.
 
+R11 continuation (2026-09-06): the internal marked-ratio-to-family-rotation
+map is now computed: Lg=Ug Wg, Wg=s_1 s_g, Ug a commuting E6 Weyl action.
+All twenty images and the full action/covariance controls pass. Do not
+restart that map as missing; do not substitute Wg for literal Lg without
+accounting for Ug. This does not earn the physical map or I-14's different
+trinification identification. The next concrete input is PRESENT at
+SM-derivation branch 945e091d, B1273_the_three_fold_closing: a claim of
+three twisted classes and a nonzero cubic on the three-fold branched
+closing. Independently verify its producer, actual holonomy/centralizer,
+physical zero-mode assumptions, cubic and kinetic forms before adopting
+its spectrum or texture kill. Its FINDINGS was read, not certified, in
+R11. Main B1274's selector and physics-seat R63 remain separate audit
+targets; neither is silently promoted or killed. Source/controls:
+`reports/physical_bridge_2026_09_05/FAMILY_ACTION.md`.
+
 **PB-EVIDENCE — original clean-clone inputs. OPEN.** The full f06d3405 suite
 exposed B1062/B1063 missing logs, B1137 missing real/null grids, and B646's
 eight missing logs plus one cached-bytecode artifact. Exact paths, original

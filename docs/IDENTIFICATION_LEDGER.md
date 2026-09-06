@@ -42,6 +42,15 @@ Status values: **EARNED** (map exhibited *and* acts) · **REFUTED** (tested, fai
 
 ## Standing counts
 
+**R11 scope note (2026-09-06; counts/statuses unchanged).** The marked
+founding ratio now determines a pure family-A2 rotation Wg=s_1 s_g in
+the specified icosian E8 construction. Its literal left action is Ug Wg,
+with a verified commuting E6 Weyl component Ug. This is an explicit
+internal map, not the physical quantity map I-13. The family SU3 outside
+E6 is also not the trinification grading inside E6, so I-14 is not earned
+by this result. Exact actions, coordinate covariance, and remaining
+physical zero-mode duties: `reports/physical_bridge_2026_09_05/FAMILY_ACTION.md`.
+
 - **EARNED: 3** — and these three are the chain's real spine.
 - **REFUTED: 2** — both caught by this discriminator, one of them (I-5) is its template.
 - **UNEARNED: 2** — both from 2026-08-31, both this bench's, one cell apart. The ratchet baseline.

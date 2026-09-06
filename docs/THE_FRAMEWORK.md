@@ -50,6 +50,19 @@ the object remains central to the goal. Source and full-goal verdict:
 `reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT.md`, `GOAL_VERDICT.md`
 in the same directory; live locks: `tests/test_physical_bridge_finite_alignment.py`.
 
+**R11 source-map follow-through, 2026-09-06:** in the marked icosian E8
+construction, the founding ratio determines a pure family rotation
+Wg=s_1 s_g. Literal left multiplication is Lg=Ug Wg, not Wg itself:
+Ug is a commuting E6 Weyl action. All twenty order-three units and the
+explicit factorization/covariance controls pass. The family map is real;
+it does not make the root triplet a physical chiral index, identify the
+family SU3 with trinification, or supply the physical action. The source
+branch's newer three-fold-closing/three-class construction is present
+and pending independent gauge/zero-mode/cubic/kinetic audit, not missing.
+Source: `reports/physical_bridge_2026_09_05/FAMILY_ACTION.md`; live corrected
+locks: `tests/test_physical_bridge_family_domain.py`. Original domain
+failure and eight fixture errors remain preserved, not a physics kill.
+
 **Motivation, stated plainly, per the programme's own policy** (*the firewall is for
 sobriety, not for silence*): the thesis is that **reality emerges from the four-letter
 combination principle aAbB**. This document assembles the mathematics that bears on it.

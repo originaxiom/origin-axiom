@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-09-06 — R11: the founding ratio has an explicit family component
+
+The independent marked SL(2,F5)-to-icosian map and full root actions show
+Lg=Ug Wg with Wg=s_1 s_g the pure family rotation and Ug a commuting E6
+Weyl action. All twenty order-three units, 2,400 covariance checks and
+explicit 24-reflection reconstructions pass. Literal Lg is not Wg even
+though their six-class permutations agree. This supplies an internal map,
+not a physical generation count, chosen background or TOE. Source:
+`reports/physical_bridge_2026_09_05/FAMILY_ACTION.md`.
+
+Original seal e066cdee hit a SymPy integer-domain setup error, preserved
+with all eight original fixture errors. Separate exact-domain adapter
+sealed f790acb2 succeeds: 11 tests pass, including all unchanged mathematical
+locks. Combined regression 126 passed, 3 older failures, 8 original R11
+errors in 129.87 s. No old scientific bytes, tolerances or failures erased;
+no upstream merge or push. The source branch's newer three-fold closing
+is registered as present and pending independent physical-transport audit.
+
 ## 2026-09-06 — R10: finite hard and triplet terms reinforce neutral alignment
 
 Design/source/eight tests sealed at 8cbd10ed before first execution. The

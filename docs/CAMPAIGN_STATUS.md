@@ -1,5 +1,17 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**SOURCE-MAP CONTINUATION R11 (2026-09-06): a family component is explicit.**
+The marked founding ratio determines Wg=s_1 s_g in the specified icosian
+E8; its literal left action factors as Lg=Ug Wg, with Ug in the E6 Weyl
+group and commuting with Wg. All twenty cases and 2,400 covariance checks
+pass. Equal class cycles did not mean equal whole actions. This is a
+positive internal map, not a physical generation count or completed TOE.
+The domain-repaired producer and 11 checks pass; combined 126 passed,
+3 older failures, 8 new original R11 fixture errors, all retained.
+PB-ACTION next audits the present source-branch three-fold closing and its
+actual gauge/zero-mode/cubic/kinetic data. Source and precise scopes:
+`reports/physical_bridge_2026_09_05/FAMILY_ACTION.md`.
+
 **PHYSICAL CONTINUATION R10 (2026-09-06): finite terms computed, full goal unclosed.**
 For the explicit renormalization boundary, cB_hard=-.00010308716 and the
 induced triplet contributes -.00000170960; both reinforce neutral alignment.
