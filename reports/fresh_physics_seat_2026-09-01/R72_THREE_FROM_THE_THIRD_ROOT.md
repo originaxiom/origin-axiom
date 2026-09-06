@@ -39,7 +39,7 @@ For a ℤ/3 symmetry the lift must be a homomorphism ℤ/3 → Aut(local system)
 
 **m202's cusp-preserving isometries form a ℤ/6** = ⟨r⟩, with cusp maps of traces 2, 1, −1, −2, −1, 1 (both cusps, both determinants +1). By |Fix| = |det(A − I)| on each cusp:
 
-| element | order | |Fix| per cusp | ends | **fixed lines** |
+| element | order | \|Fix\| per cusp | ends | **fixed lines** |
 |---|---|---|---|---|
 | r | 6 | 1, 1 | 2 | **1** (ℓ₀, cusp 0 → cusp 1) |
 | r² | 3 | 3, 3 | 6 | **3** (ℓ₀, ℓ₁, ℓ₂) |
