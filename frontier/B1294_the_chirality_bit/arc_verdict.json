@@ -1,0 +1,21 @@
+{
+ "id": "B1294",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1290",
+  "B1291",
+  "B1292",
+  "B1293",
+  "B1182",
+  "B432",
+  "B298"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "law_id": "T-CLOSED-CLOSING-COUNTS-TWO-OR-NOTHING",
+ "identifications": [],
+ "claim_one_line": "THE CHIRALITY BIT (MASTERPLAN v3 Phase 0). Seat harvest 2026-09-06 with every load-bearing number re-run or re-derived on this bench. THE SEATS' RESULTS FIRST: sm:B1278/B1279 -- Y_9 carries the Standard-Model group AND three generations, 706,464 SM lines in 19,624 inequivalent vacua under the group of order 72, all in mirror pairs, vector-like ('the chiral closing needs to supply only the chirality bit'); sm:B1277-addendum -- d+M annular, chi = 0, with the stated caveat that c_(+-2,0) is NOT computed; fc:R69 -- Fix(theta) as charge locus gives net +-2 or 0 and 'the cusp is what keeps the endpoints; every closing removes them'; fc:R70 -- every theta-even Cartan direction is vector-like, the chiral SO(10) direction omega_1^v is not theta-even. RE-COMPUTED HERE: the eight isometries of m004 from SnapPy (D4, cusp maps diagonal, orders {1:1,2:5,4:2}, H_1 = Z<mu>, longitude null-homologous); H_1(Y_n) by SNF of the Alexander companion matrix ((Z/4)^2, Z/8+Z/40, (Z/76)^2; in general (Z/L_n)^2 for odd n and Z/F_n + Z/5F_n for even n -- the 19 of Y_9 is L_9/L_3 = L_6 + 1); the deck eigenvalues 6, 16 = phi^{+-2} mod 19; the E6 coweight spectra on the 27 (omega_1^v = 1_{4/3}+16_{1/3}+10_{-2/3}, theta-even rows q -> -q symmetric); fc's filling-loop count derived WITHOUT their pairing from Montesinos + H_1(-;F_2): loops = 1 + [p even], which singles out fc's geometric pairing as the only one consistent with homology. THE STATEMENT NONE OF THE SEATS MADE: every isometry g of m004 has L(g) = 1 - s_mu(g) in {0, 2}, so chi(Fix g) in {0, 2} for all eight -- the object counts 2 or nothing at every fixed locus, by H_1 = Z alone; the order-4 orientation-reversing elements fix exactly TWO isolated interior points (the SM addendum's 'no fixed points' is true only on the cusp torus); and only the orientation-preserving V4 (B1182's) extends to any non-trivial QHS filling. THE THEOREM REGISTERED: on a closed QHS closing chi(Fix g) = 1 - deg g in {0, 2}; the 2 requires an orientation-reversing isometry, hence an AMPHICHEIRAL closing, hence CS in {0, 1/2} -- so every closing chiral in B432's sense (CS not in {0,1/2}) has chi(Fix g) = 0 for EVERY isometry: THE FIXED-LOCUS 2 AND MANIFOLD CHIRALITY ARE MUTUALLY EXCLUSIVE ON CLOSED CLOSINGS. That is why the SM seat's counted closings Y_3/Y_6/Y_9 (amphicheiral) came out mirror-paired, and why B432's 31/31 chiralizing fillings have no locus to count. SHARPENED: omega_1^v is MIXED under the diagram automorphism (-> omega_6^v), not theta-odd; fc's conclusion stands, the wording does not. TWO NAMED ASSUMPTIONS, not theorems: theta-equivariance of the vacuum (fc's modelling choice, derived nowhere on main) and c_(+-2,0) != 0 (the SM seat's caveat). Doors: B1295 = D4 (c_(+-2,0), the census check of the theorem on Y_3/Y_9, the degree-<=10 cover scan run here and unbanked: 87 covers, |det(A-I)| in {0,4}); B1296 = D1 drop theta-equivariance (expected: first chiral spectrum, count 2, priced as an identification row); B1297+ = D2 PW section 3.1 spectral covers via B298's 3-fold cyclic cover. NOT verified here: sm:B1278/B1279 enumeration internals (re-run only), fc's icosian -s_beta identification. No identification row moves; I-26 stays UNEARNED."
+}

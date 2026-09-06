@@ -1,0 +1,354 @@
+{
+ "A_isometries": [
+  {
+   "index": 0,
+   "s_mu": 1,
+   "s_lam": 1,
+   "orientation": "preserving",
+   "order": 1,
+   "lefschetz": 0,
+   "fix": "all of M (chi 0)",
+   "extends_to_QHS_fillings": 110
+  },
+  {
+   "index": 1,
+   "s_mu": -1,
+   "s_lam": 1,
+   "orientation": "REVERSING",
+   "order": 4,
+   "lefschetz": 2,
+   "fix": "exactly TWO isolated interior points on the period-2 axis (chi 2)",
+   "extends_to_QHS_fillings": 0
+  },
+  {
+   "index": 2,
+   "s_mu": 1,
+   "s_lam": 1,
+   "orientation": "preserving",
+   "order": 2,
+   "lefschetz": 0,
+   "fix": "one closed geodesic, the period-2 axis (chi 0)",
+   "extends_to_QHS_fillings": 110
+  },
+  {
+   "index": 3,
+   "s_mu": -1,
+   "s_lam": 1,
+   "orientation": "REVERSING",
+   "order": 4,
+   "lefschetz": 2,
+   "fix": "exactly TWO isolated interior points on the period-2 axis (chi 2)",
+   "extends_to_QHS_fillings": 0
+  },
+  {
+   "index": 4,
+   "s_mu": 1,
+   "s_lam": -1,
+   "orientation": "REVERSING",
+   "order": 2,
+   "lefschetz": 0,
+   "fix": "EMPTY (free; the Gieseking-type glide)",
+   "extends_to_QHS_fillings": 0
+  },
+  {
+   "index": 5,
+   "s_mu": -1,
+   "s_lam": -1,
+   "orientation": "preserving",
+   "order": 2,
+   "lefschetz": 2,
+   "fix": "two arcs, four corners on the cusp (chi 2)",
+   "extends_to_QHS_fillings": 110
+  },
+  {
+   "index": 6,
+   "s_mu": 1,
+   "s_lam": -1,
+   "orientation": "REVERSING",
+   "order": 2,
+   "lefschetz": 0,
+   "fix": "EMPTY (free; the Gieseking-type glide)",
+   "extends_to_QHS_fillings": 0
+  },
+  {
+   "index": 7,
+   "s_mu": -1,
+   "s_lam": -1,
+   "orientation": "preserving",
+   "order": 2,
+   "lefschetz": 2,
+   "fix": "two arcs, four corners on the cusp (chi 2)",
+   "extends_to_QHS_fillings": 110
+  }
+ ],
+ "B_filling_loops": {
+  "-9/1": 1,
+  "-9/2": 1,
+  "-9/4": 1,
+  "-9/5": 1,
+  "-9/7": 1,
+  "-9/8": 1,
+  "-8/1": 2,
+  "-8/3": 2,
+  "-8/5": 2,
+  "-8/7": 2,
+  "-8/9": 2,
+  "-7/1": 1,
+  "-7/2": 1,
+  "-7/3": 1,
+  "-7/4": 1,
+  "-7/5": 1,
+  "-7/6": 1,
+  "-7/8": 1,
+  "-7/9": 1,
+  "-6/1": 2,
+  "-6/5": 2,
+  "-6/7": 2,
+  "-5/1": 1,
+  "-5/2": 1,
+  "-5/3": 1,
+  "-5/4": 1,
+  "-5/6": 1,
+  "-5/7": 1,
+  "-5/8": 1,
+  "-5/9": 1,
+  "-4/1": 2,
+  "-4/3": 2,
+  "-4/5": 2,
+  "-4/7": 2,
+  "-4/9": 2,
+  "-3/1": 1,
+  "-3/2": 1,
+  "-3/4": 1,
+  "-3/5": 1,
+  "-3/7": 1,
+  "-3/8": 1,
+  "-2/1": 2,
+  "-2/3": 2,
+  "-2/5": 2,
+  "-2/7": 2,
+  "-2/9": 2,
+  "-1/1": 1,
+  "-1/2": 1,
+  "-1/3": 1,
+  "-1/4": 1,
+  "-1/5": 1,
+  "-1/6": 1,
+  "-1/7": 1,
+  "-1/8": 1,
+  "-1/9": 1,
+  "1/1": 1,
+  "1/2": 1,
+  "1/3": 1,
+  "1/4": 1,
+  "1/5": 1,
+  "1/6": 1,
+  "1/7": 1,
+  "1/8": 1,
+  "1/9": 1,
+  "2/1": 2,
+  "2/3": 2,
+  "2/5": 2,
+  "2/7": 2,
+  "2/9": 2,
+  "3/1": 1,
+  "3/2": 1,
+  "3/4": 1,
+  "3/5": 1,
+  "3/7": 1,
+  "3/8": 1,
+  "4/1": 2,
+  "4/3": 2,
+  "4/5": 2,
+  "4/7": 2,
+  "4/9": 2,
+  "5/1": 1,
+  "5/2": 1,
+  "5/3": 1,
+  "5/4": 1,
+  "5/6": 1,
+  "5/7": 1,
+  "5/8": 1,
+  "5/9": 1,
+  "6/1": 2,
+  "6/5": 2,
+  "6/7": 2,
+  "7/1": 1,
+  "7/2": 1,
+  "7/3": 1,
+  "7/4": 1,
+  "7/5": 1,
+  "7/6": 1,
+  "7/8": 1,
+  "7/9": 1,
+  "8/1": 2,
+  "8/3": 2,
+  "8/5": 2,
+  "8/7": 2,
+  "8/9": 2,
+  "9/1": 1,
+  "9/2": 1,
+  "9/4": 1,
+  "9/5": 1,
+  "9/7": 1,
+  "9/8": 1
+ },
+ "B_closed_QHS_lefschetz": {
+  "orientation-preserving": 0,
+  "orientation-reversing": 2
+ },
+ "C_H1_Yn": {
+  "2": [
+   5
+  ],
+  "3": [
+   4,
+   4
+  ],
+  "4": [
+   3,
+   15
+  ],
+  "5": [
+   11,
+   11
+  ],
+  "6": [
+   8,
+   40
+  ],
+  "7": [
+   29,
+   29
+  ],
+  "8": [
+   21,
+   105
+  ],
+  "9": [
+   76,
+   76
+  ],
+  "10": [
+   55,
+   275
+  ],
+  "11": [
+   199,
+   199
+  ],
+  "12": [
+   144,
+   720
+  ]
+ },
+ "D_mod19": {
+  "roots": [
+   6,
+   16
+  ],
+  "phi_mod_19": [
+   5,
+   15
+  ]
+ },
+ "E_E6_spectra": {
+  "omega1": {
+   "-2/3": 10,
+   "1/3": 16,
+   "4/3": 1
+  },
+  "omega6": {
+   "-4/3": 1,
+   "-1/3": 16,
+   "2/3": 10
+  },
+  "omega2": {
+   "-1": 6,
+   "0": 15,
+   "1": 6
+  },
+  "omega1+omega6": {
+   "-2": 1,
+   "-1": 8,
+   "0": 9,
+   "1": 8,
+   "2": 1
+  },
+  "omega4": {
+   "-2": 3,
+   "-1": 6,
+   "0": 9,
+   "1": 6,
+   "2": 3
+  },
+  "omega3+omega5": {
+   "-3": 2,
+   "-2": 3,
+   "-1": 6,
+   "0": 5,
+   "1": 6,
+   "2": 3,
+   "3": 2
+  }
+ },
+ "F_seat_runs": {
+  "sm:B1277-addendum arcs_and_corners.py": {
+   "rc": 0,
+   "leading_allowed_orbit": "(+-2, 0)",
+   "chi_dplus": 0,
+   "coefficient_computed": false
+  },
+  "sm:B1279 symmetries_on_the_lines.py": {
+   "rc": 0,
+   "outer_classes": 8,
+   "group_on_Y9": 72,
+   "deck_on_C1_C2": [
+    6,
+    16
+   ],
+   "SM_lines": 706464,
+   "orbits": 19624,
+   "seconds": 261
+  },
+  "sm:B1278 six_fold_closing.py 3,6": {
+   "rc": 0,
+   "Y3_control": true,
+   "Y6_three_generation_SM_lines": 0
+  },
+  "sm:B1278 six_fold_closing.py 9": {
+   "rc": 0,
+   "H1": "Z/76 + Z/76",
+   "H1_order": 5776,
+   "h1_distribution": {
+    "0": 5629,
+    "1": 147
+   },
+   "three_generation_alphabet_K3": 145,
+   "extra_classes": {
+    "38": 108,
+    "19": 36
+   },
+   "SU5_breaking_three_generation_lines": 737568,
+   "SM_vacua": 706464,
+   "full_spectrum": 568656,
+   "distinct_spectra": 16,
+   "seconds_h1_sweep": 149
+  },
+  "fc:R69 r69_arcs_cut_corners.py": {
+   "rc": 0,
+   "net_on_Fix_theta": "+-2 or 0",
+   "fillings": "loops, chi 0"
+  },
+  "fc:R70 r70_what_two_of.py / r70b_true_theta.py": {
+   "rc": 0,
+   "omega1_half_charges": {
+    "-1/3": 10,
+    "1/6": 16,
+    "2/3": 1
+   },
+   "theta_F4_fixed_cartan_dim": 4,
+   "conj_fixed_cartan_dim": 1
+  }
+ }
+}

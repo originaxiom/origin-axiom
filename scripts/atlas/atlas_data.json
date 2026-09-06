@@ -6601,6 +6601,28 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1294": {
+   "slug": "the chirality bit",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B298",
+    "B432",
+    "B434"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B129": {
    "slug": "sl3 tower sealed",
    "motifs": [

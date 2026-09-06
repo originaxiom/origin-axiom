@@ -1,5 +1,27 @@
 # Changelog
 
+## B1294 — THE CHIRALITY BIT: the object counts 2 at every fixed locus; on a closed closing the 2 costs the chirality
+
+**The seats' results first.** The SM seat's **Y₉ carries the SM group AND three generations** — 706,464
+SM lines in **19,624 inequivalent vacua** (group of order 72), **all in mirror pairs, vector-like**
+(sm:B1278/B1279): *"the chiral closing … needs to supply only the chirality bit."* ∂⁺M is annular,
+`χ = 0`, caveat **`c₍±2,0₎` uncomputed** (sm:B1277-addendum). fc R69: `Fix(θ)` gives **±2 or 0**, *"the cusp
+is what keeps the endpoints."* fc R70: θ-even directions vector-like; `ω₁^∨` not θ-even.
+
+**Re-computed on this bench:** m004's eight isometries (SnapPy; `D₄`, `H₁ = ℤ⟨μ⟩`, longitude
+null-homologous) ⇒ **`χ(Fix g) = 1 − s_μ(g) ∈ {0, 2}` for every isometry** — arcs, axis, empty, and
+**two isolated interior fixed points** for the order-4 elements (new); **only B1182's V₄ extends to QHS
+fillings**; fc's filling-loop count derived without their pairing (`1 + [p even]`, Montesinos); `H₁(Y_n)`
+golden (`(ℤ/L_n)²` odd, `ℤ/F_n ⊕ ℤ/5F_n` even; `19 = L₉/L₃`); deck eigenvalues `φ^{±2} mod 19`; E₆
+spectra (`ω₁^∨` **mixed, not θ-odd** — fc's conclusion stands); every seat script re-run, rc 0.
+
+**Registered `T-CLOSED-CLOSING-COUNTS-TWO-OR-NOTHING`:** on a closed QHS closing `χ(Fix g) = 1 − deg g`;
+the 2 needs an orientation-reversing isometry ⇒ **amphicheiral ⇒ `CS ∈ {0, ½}`** — so B432-chiral
+closings have `χ(Fix g) = 0` for every symmetry. **The fixed-locus 2 and manifold chirality are
+mutually exclusive on closed closings.** I-26 stays UNEARNED. **Two named assumptions:**
+θ-equivariance of the vacuum; `c₍±2,0₎ ≠ 0`. **Doors:** B1295 = D4, B1296 = D1, B1297+ = D2.
+`docs/MAIN_GOAL.md` JOIN 1 rewritten to the chirality bit (MASTERPLAN v3 Phase 0).
+
 ## CORRECTION — B1293 undersold both seats (owner-prompted)
 
 **The unfair one:** B1293 said *“anyone citing 9+9+9 as the discovery cites the wrong number.”* **fc's

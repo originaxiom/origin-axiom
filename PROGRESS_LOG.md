@@ -14570,3 +14570,66 @@ Priority disclosure is right and stays; **leading with it is self-centring.**
    main did.**
 
 Both seats' own fences remain carried verbatim. **Owed: verify fc's icosian 4 → 1 step.**
+
+
+## 2026-09-06 — B1294: THE CHIRALITY BIT — the object counts 2 at every fixed locus, and on a closed closing the 2 costs the chirality
+
+**MASTERPLAN v3 Phase 0 (owner-approved the same day; `docs/MAIN_GOAL.md` JOIN 1 rewritten to it).**
+Seat harvest of the day's second wave — sm:B1277-addendum / B1278 / B1279 and fc:R69 / R70 — with
+**every load-bearing number re-run or re-derived on this bench** ("compute all yourself"), and one
+statement none of the seats made. Arc `frontier/B1294_the_chirality_bit/`; lock
+`tests/test_b1294_the_chirality_bit.py`.
+
+**The seats' results, first.** **The SM seat's Y₉ carries the Standard-Model group AND three
+generations:** 706,464 SM lines falling into **19,624 inequivalent vacua** under the group of order 72
+(deck ℤ/9 × the eight lifts of Isom(m004)), **all in mirror pairs, vector-like** — *"the chiral closing …
+needs to supply only the chirality bit."* Y₆ has no three-generation SM vacuum (control Y₃ fires). Their
+B1277 addendum: **∂⁺M is annular**, leading allowed mode `(±2, 0)`, `χ(∂⁺M) = 0`, with the caveat stated
+by them that **`c₍±2,0₎` is not computed**. fc R69: `Fix(θ)` as a charge locus gives **net ±2 or 0**, and
+*"the cusp is what keeps the endpoints; every closing removes them."* fc R70: every θ-even Cartan
+direction is `2(R ⊕ R̄)`; the one chiral abelian direction `ω₁^∨` (SO(10)×U(1)) is not θ-even; PW §3.1
+non-abelian spectral covers **not examined** (their stated gap).
+
+**Re-computed here.** (A) m004's eight isometries from SnapPy, independent of the seats' Riley route:
+`Isom = D₄`, amphicheiral, all cusp maps diagonal ±1, orders `{1:1, 2:5, 4:2}`, `H₁ = ℤ⟨μ⟩` with the
+longitude null-homologous. Hence **`L(g) = 1 − s_μ(g) ∈ {0, 2}` for every isometry** — the table:
+identity (all of M), the period-2 rotation (one axis, χ 0), the two `(+,−)` glides (**empty**), the two
+strong inversions (**two arcs**, four corners, χ 2), and the two order-4 rotatory reflections
+(**exactly two isolated interior points** on the period-2 axis, χ 2 — the SM addendum's "no fixed
+points" is true only on the cusp torus). **Only the orientation-preserving V₄ extends to any non-trivial
+QHS filling** (110 slopes; the four orientation-reversing elements force `pq = 0`) — B1182's V₄.
+(B) fc's R69 read as Lefschetz: the cusped 2 is `1 − tr(θ*|H₁)`; a filling kills `b₁` and with it the
+term. The number of loops on `M(p/q)` derived **without fc's pairing** from Montesinos + `H₁(−;𝔽₂)`:
+`1 + [p even]` — fc's geometric pairing reproduces it on every slope and the only alternative contradicts
+it on odd slopes, so their pairing is confirmed from homology alone. (C) `H₁(Y_n)` by SNF of the
+Alexander companion matrix, `n = 2..12`, orders checked against `Res(Δ, tⁿ − 1)`: seat values reproduced
+(`(ℤ/4)²`, `ℤ/8 ⊕ ℤ/40`, `(ℤ/76)²`), and the whole table is golden — **odd n: `(ℤ/L_n)²`; even n:
+`ℤ/F_n ⊕ ℤ/5F_n`; the 19 of Y₉ is `L₉/L₃ = L₆ + 1`.** (D) The deck eigenvalues on the 19-torsion are
+`6, 16 = φ^{±2} mod 19`; two eigenlines × 18 = the seat's 36 family classes of 360. (E) E₆ coweight
+spectra on the 27 from B1293's own machinery: `ω₁^∨ = 1₍₄⁄₃₎ + 16₍₁⁄₃₎ + 10₍₋₂⁄₃₎` (fc's numbers are the
+half normalisation), every θ-even row `q → −q` symmetric, fc's table reproduced. **Sharpened:** `ω₁^∨`
+maps to `ω₆^∨` under the diagram flip — **mixed, not θ-odd**; fc's conclusion stands, the wording does
+not. (F) Seat scripts re-run in detached worktrees: `arcs_and_corners.py` rc 0; `symmetries_on_the_lines.py`
+rc 0 (261 s, 706,464 → 19,624); `six_fold_closing.py 3 6` rc 0; `six_fold_closing.py 9` — see the arc;
+fc `r69`/`r70`/`r70b` rc 0.
+
+**The statement none of the seats made — registered as `T-CLOSED-CLOSING-COUNTS-TWO-OR-NOTHING`.**
+On a closed rational-homology-sphere closing, `χ(Fix g) = 1 − deg g ∈ {0, 2}` (Lefschetz), and the 2
+requires an **orientation-reversing** isometry, hence an **amphicheiral** closing (Mostow), hence
+`CS ∈ {0, ½}`. **So every closing that is chiral in B432's sense has `χ(Fix g) = 0` for every isometry:
+the fixed-locus 2 and manifold chirality are mutually exclusive on closed closings.** That is why the
+counted closings Y₃/Y₆/Y₉ (amphicheiral) came out mirror-paired and why B432's 31/31 chiralizing
+fillings have no locus to count. The two-chiralities crux (c vs θ) in one line: *on a closed closing
+you may have the 2 or the c-breaking, not both.* The cusp's `b₁ = 1` is the only thing that gives a 2
+without orientation reversal. Not claimed: any identification of a fixed-locus count with a generation
+count — I-26 stays UNEARNED; no identification row moves.
+
+**Two named assumptions, not theorems:** θ-equivariance of the vacuum (fc's modelling choice, derived
+nowhere on main — swept) and `c₍±2,0₎ ≠ 0` (the SM seat's caveat). **Doors, in order:** B1295 = D4
+(`c₍±2,0₎`; the theorem's census check on Y₃/Y₉; the degree-≤10 cover scan run here and unbanked — 87
+covers, `|det(A−I)| ∈ {0, 4}`); B1296 = D1 (drop θ-equivariance — expected: the first chiral spectrum,
+count 2, priced as an identification row); B1297+ = D2 (PW §3.1 spectral covers via B298's 3-fold cyclic
+cover, the one route no negative closes). **Fenced as harvest, not verified here:** sm:B1278/B1279's
+enumeration internals (re-run only), fc's icosian `−s_β` identification. Number collision recorded:
+main `B1277_leak_closure` vs the seat's `B1277_the_vacuum_manifold_of_the_closing`; seat arcs are cited
+`sm:`/`fc:` and seat branches never merge.
