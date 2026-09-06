@@ -6228,6 +6228,32 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1264": {
+   "slug": "h5 census",
+   "motifs": [
+    "closing",
+    "naming",
+    "coupling",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B305",
+    "B323",
+    "B883",
+    "H5",
+    "L3",
+    "L4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

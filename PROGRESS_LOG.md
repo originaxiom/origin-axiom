@@ -13982,3 +13982,27 @@ after C22, A7, B1192, I-25 and n. Earning I-6 now also requires saying **which**
 - **AND THE MIRROR READING IS REFUTED FROM THE SECOND SIDE:** σ **fixes** each class (**0 swapped, 24
   fixed**). With part 1's **48/48**, the reading fails from **both** presentations. **The 2-fold
   multiplicity is real and cross-checked; Fibonacci does not explain it.**
+
+### B1264 — the H5 census, and I-14 recomputed instead of cited (2026-09-06)
+
+**The correction that produced it.** Owner: *"b323 is 1000bs old."* Correct — the seat had just leaned
+on **B323**'s 2026-07 adjudication to conclude I-14 was not refutable. **That is citing, not
+computing.**
+
+- **RECOMPUTED from the object's own 27.** Of the 3⁶ labellings, **170** are integral and split the 27
+  as **9+9+9**, giving **85 distinct colourings** up to colour permutation. And **every** such grading
+  operator has eigenvalues **1, ω, ω²** with **ω the Eisenstein unit of ℚ(√−3)** — the **same
+  algebraic number** generating the commensurator's ℤ/3.
+- **STATUS UPGRADED, carefully.** L3~L4 is **not an order match** (B1223's forbidden evidence) but a
+  match of the **acting algebraic number in the object's own field** — better than B323 recorded.
+  **Not yet a map that ACTS:** 85 candidate gradings, none selected. **I-14 stays UNEARNED; price
+  stays 14.**
+- **THE CENSUS.** 85 joins **eight** measured instances of **H5** — closing (C22), order (A7, **2**),
+  partner (B1192), n (B1248, ∞), sl₂ embedding (I-25, **4**), 2T quotient (I-6, **2**), L3 grading
+  (**85**), L3→L4 map (**2**) — **five with multiplicity measured, four of those first measured this
+  session.**
+- **MECHANISM, WITH ITS LIMIT.** B1227's 2I = 0 explains the **chirality** instances (E65/B1260's seven
+  walls as one theorem); it does **not** explain the counting multiplicities. **One pattern, at least
+  two mechanisms — not over-unified.**
+- **FALSIFIER SHARPENED, NOT MET.** B1224's CS = 0 is a point the object supplies, but a
+  **self-referential** one, which H5 permits. **H5 stands un-falsified and un-banked.**

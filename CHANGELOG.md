@@ -1,5 +1,19 @@
 # Changelog
 
+## THE H5 CENSUS — eight measured instances, and I-14 recomputed instead of cited
+
+**B1264.** Owner: *"b323 is 1000bs old"* — and the seat had just leaned on B323's 2026-07 adjudication
+to close I-14. **Recomputed from the object's own 27:** 170 labellings split it **9+9+9**, giving **85
+distinct colourings**, and **every grading operator has eigenvalues 1, ω, ω² with ω the Eisenstein unit
+of ℚ(√−3)** — the **same algebraic number** generating the commensurator's ℤ/3. So L3~L4 is **not an
+order match** (B1223's forbidden evidence) but a match of the **acting algebraic number in the object's
+own field** — better than B323 recorded — though **not yet a map that acts** (85 candidates, none
+selected). **I-14 stays UNEARNED, price stays 14.** **The census:** eight instances of H5, five with
+multiplicity now measured (A7 **2**, I-25 **4**, I-6 **2**, L3 grading **85**, L3→L4 **2**), four
+measured first this session. **Mechanism with its limit:** B1227's 2I = 0 covers the chirality
+instances; the counting multiplicities it does not — **one pattern, two mechanisms, not over-unified.**
+**Falsifier sharpened, not met:** CS = 0 is a *self*-referential point, which H5 permits.
+
 ## I-6's SIDE A VERIFIED, THE MULTIPLICITY IS TWO — and Fibonacci is the monodromy, not the mirror
 
 **B1263.** Auditing the next ledger row after B1262 moved the price to 14. **Part 1:** π₁(m004) ↠ 2T is
