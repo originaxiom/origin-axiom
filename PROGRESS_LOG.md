@@ -14193,3 +14193,26 @@ owner's arithmetic separator and codex's topological one. **It closes, and by a 
   **UNEARNED**: the map to the transverse ALE Γ is a *different* debt from *which* 2T.
 - **For the H5 census: the first of its eight measured multiplicities COLLAPSED TO A POINT** by two
   concordant selectors rather than merely counted — a genuine dent in the pattern, not a rephrasing.
+
+### B1274 — the second collapse: I-25's multiplicity 4 falls to a point (2026-09-06)
+
+B1273's addendum collapsed I-6's binary by two concordant selectors — **the first** of the H5 census's
+eight measured multiplicities to become a **point**. **Was it a one-off? No.**
+
+- **I-25 already had two selectors in the record, never compared.** **B1257** (*geometric*): the
+  unique E₆ orbit whose Slodowy slice meets the nilpotent cone in a **surface = ℂ²/2T**, the group
+  that **built E₆** by McKay. **B1256's addendum** (*representation-theoretic*): of the **four**
+  labellings typing h¹ = 3 as three chiral, the only one with **no even-dimensional summand** — the
+  only one admissible for the **canonical PSL(2,ℂ)** holonomy.
+- **Both return (2,2,2,0,2,2), the SUBREGULAR, 27 = 13+9+5. Multiplicity 4 → a point.**
+- **THE SHAPE IS I-6's, AND THE COMMON FACTOR IS 2T.** In both rows, one selector is *"the structure
+  that returns the object's own 2T"* and the other is a **compatibility condition**. **The object's
+  2T is doing the selecting.**
+- **WHAT IT DOES TO H5:** two of eight measured multiplicities are now **points**, each pinned by two
+  independent concordant criteria — genuine counter-pressure on *"every space, never a point"*.
+  **NOT a falsification, and not claimed as one:** both are facts about how the object sits inside
+  structures **it generated itself**, hence **self-referential**, which H5 permits. **What changed is
+  the pattern's reach, not its truth** — the remaining multiplicities should each be **attacked for a
+  selector rather than counted**.
+- **CONTROL that matters:** selector 2 starts from **four** candidates and cuts to one, so the
+  agreement is **not vacuous**; selector 1's uniqueness is checked against all **30** labellings.

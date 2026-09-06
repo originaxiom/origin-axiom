@@ -6381,6 +6381,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1274": {
+   "slug": "the second collapse",
+   "motifs": [
+    "measurement",
+    "naming",
+    "dickson_tower",
+    "eisenstein"
+   ],
+   "refs": [
+    "H5"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [
