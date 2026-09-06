@@ -14294,3 +14294,31 @@ under-read it — and the re-probe produces a JOIN.**
   own rule. **Now registered in TERMINOLOGY.md**, including that the **adelic** "two faces" collides
   with the forced-field sense **inside TERMINOLOGY.md itself** (lines 573–575), so only the qualifier
   *golden/eisenstein* pins it.
+
+### B1277 — leak closure: the audit failed, and two results were only in conversation (2026-09-06)
+
+Owner: *"did u properly dealt with all these results... so we end up bootstraping not leaking?"*
+**Audited by grep against the session's own arcs. The answer was NO.**
+
+- **LEAK 1 — fc's R63, verified in session, never written down.** Recomputed on main's own data:
+  **CONFIRMED** dim 𝔤₀ = 6 vs 8; **CONFIRMED** 27\|F₄ = 26+1 so an sl₂ in F₄ must leave a trivial
+  summand — principal 17+9+1 **has** one, subregular 13+9+5 **has none**, so **the subregular lies in
+  no F₄** and the B347–B353 θ-grading has no counterpart there; **CONFIRMED** indices **156 / 84**, so
+  **I-19 holds at both and does not discriminate**. **CORRECTED:** *"both have exactly one spin-2
+  summand"* — the **principal has ZERO** dim-5 summands in either the 27 or the 78. fc's conclusion
+  survives on the index argument; the premise needs restating. **fc's core flag stands and is
+  serious** — F₄ is exactly **E₆(−26)'s maximal compact**, so the embedding choice bears on the fork.
+- **LEAK 2 — the residue synthesis, discussed and never banked.** B467 (the one uncancelable bit **is**
+  the orientation character; the wall merges everything **except** it) + B1184 (the self-name is
+  mirror-EVEN, the odd bit **unutterable**) + B1174/B730 joined at B1276 (the bit is the **c-leg**, on
+  the **being** face because it is the **imaginary** one) + tonight's B1272 (mod (1−ω)), B1273 (extends
+  over **m000 = Gieseking**, B467's own bit) and the E₈ seat's fence (**ω vs ω̄**). **Seven routes, one
+  bit.** The reading *"the observer IS the residue"* is banked **as a reading**, not a theorem.
+- **HARVEST (not re-verified).** **R61**: the lemma that **θ-equivariant abelian Higgs configurations
+  have zero net chirality** — a **third** independent route to the zero found numerically at B1267 and
+  exactly over ℚ(ω) by the SM seat. **R62**: **the mirror is broken by every generic filling, θ by
+  none** — bearing on B432. **SM seat's literature sweep**: **net chirality = χ(M, ∂⁺M)** — *an index
+  formula*, exactly what **I-26** lacks; *"the chirality bit is a cusp boundary condition"*; and **no
+  compact G₂ construction with chiral matter exists in the literature either**, so **B1259's negative
+  is an open problem in the field, not this programme's failure**.
+- **⚠ THREE NUMBERING COLLISIONS**: main and the SM-derivation branch both use **B1267, B1275, B1276**.

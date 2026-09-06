@@ -6443,6 +6443,28 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1277": {
+   "slug": "leak closure",
+   "motifs": [
+    "closing",
+    "naming",
+    "choice",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B432",
+    "B467",
+    "B730",
+    "L204",
+    "L205"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

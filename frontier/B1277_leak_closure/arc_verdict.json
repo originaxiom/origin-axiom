@@ -1,0 +1,24 @@
+{
+ "id": "B1277",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1274",
+  "B1276",
+  "B1265",
+  "B1267",
+  "B467",
+  "B1184",
+  "B1174",
+  "B730",
+  "B1272",
+  "B1273",
+  "B1259"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "LEAK CLOSURE: fc's R63 verified (one premise corrected), the residue synthesis banked, the seats' new work harvested. Owner: 'did u properly dealt with all these results and knowledge we gained all these days? so we end up bootstraping not leaking?' AUDITED BY GREP AGAINST THE SESSION'S OWN ARCS, AND THE ANSWER WAS NO -- two results existed only in conversation. LEAK 1, fc's R63: recomputed on main's own data, CONFIRMING dim g_0 = 6 (principal) vs 8 (subregular), fc's '8-dimensional tangent'; CONFIRMING that 27|F4 = 26+1 so an sl2 inside F4 must leave a trivial summand, which principal 17+9+1 has and subregular 13+9+5 has NOT, so the subregular lies in NO F4 and the B347-B353 theta-grading has no counterpart there; CONFIRMING indices 156 and 84 so I-19 holds at both and does not discriminate; but CORRECTING 'both have exactly one spin-2 summand', since taking spin-2 as the dim-5 (j=2) rep the PRINCIPAL has ZERO in both the 27 and the 78 while the subregular has one each -- fc's conclusion survives on the index argument but that premise needs restating. fc's core flag STANDS and is serious: the record holds two incompatible embeddings, and F4 is exactly E6(-26)'s maximal compact (B1265), so the choice bears directly on the fork. LEAK 2, the residue synthesis: B467 (the one uncancelable bit IS the orientation character; the wall merges everything EXCEPT it), B1184 (the object names itself uniquely in 203,123 but the self-name is mirror-EVEN so the odd bit is unutterable), B1174+B730 joined at B1276 (the bit is the c-leg, on the BEING face because that face is imaginary), plus tonight's independent arrivals B1272 (reduction mod (1-omega), the ramified prime of Q(sqrt-3)), B1273 (that class extends over m000, the Gieseking manifold, which is B467's own Gieseking bit) and the E8 seat's fence (the bit is choosing omega vs omegabar) -- SEVEN ROUTES, ONE BIT. The reading that the observer IS the residue is recorded AS A READING, not a theorem. HARVEST, not re-verified: physics-seat R61 (a real structure on the fiber, the cusp lattice Z + Z(2+4w) exactly, and the LEMMA that theta-equivariant abelian Higgs configurations have ZERO NET CHIRALITY -- a third independent route to the zero found numerically at B1267 and exactly over Q(omega) by the SM seat); R62 (the mirror is BROKEN by every generic filling, theta by NONE, bearing on B432's 'a closing supplies the bit'); and the SM seat's literature sweep giving net chirality = chi(M, d+M), AN INDEX FORMULA which is exactly what I-26 lacks, 'the chirality bit is a cusp boundary condition', and NO COMPACT G2 CONSTRUCTION WITH CHIRAL MATTER EXISTS IN THE LITERATURE EITHER -- so B1259's flat-G2 negative is not this programme's failure but an open problem in the field. NUMBERING: main and the SM-derivation branch now BOTH use B1267, B1275 and B1276, three collisions flagged for the merge."
+}
