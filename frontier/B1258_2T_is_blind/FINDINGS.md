@@ -1,6 +1,6 @@
 # B1258 — 2T CANNOT SELECT THE EMBEDDING, and neither can the SO(10) grading: two object-internal tests, both blind, one by a theorem
 
-**Date:** 2026-09-05 · **Seat:** cc · **Status:** NEGATIVE (exact; three MB12 controls, one of which convicts this arc's own first statement of its mechanism)
+**Date:** 2026-09-06 · **Seat:** cc · **Status:** NEGATIVE (exact; three MB12 controls, one of which convicts this arc's own first statement of its mechanism)
 
 ## The question
 

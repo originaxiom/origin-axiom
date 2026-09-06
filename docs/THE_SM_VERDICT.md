@@ -32,6 +32,29 @@ nothing here promotes to `CLAIMS.md`.
 > adjoint VEV can give any 27 fermion a mass** — the adjoint half does gauge structure and
 > provably cannot do matter mass.
 
+**THE PRICE, MEASURED (B1261, 2026-09-06) — read this before any row below.** The programme
+**SPENDS 4 axioms + 10 UNEARNED identifications = 14 unpriced inputs** and **BUYS 0 of the SM's 19
+free parameters** (26 with Dirac neutrinos). **By parameter count the trade is NET NEGATIVE.** By
+structural content it derives what the SM assumes or cannot state (the ℤ₆ global form, hypercharge
+direction, anomaly cancellation, termination) — **and the two currencies do not convert.** The rate
+moves by exactly two operations: **earn an identification (−1)** or **derive a parameter (+1)**.
+`docs/IDENTIFICATION_LEDGER.md` is therefore the **scoreboard**, not bookkeeping.
+
+**AND TWO FRAME CORRECTIONS THE ROWS BELOW MUST BE READ THROUGH:**
+
+- **E65 (2026-09-06) — the sl₂ frame cannot carry chirality.** Generation counting needs **net**
+  chirality h¹(27) ≠ h¹(27̄); **every Sym^n of SL(2) is self-dual**, so any holonomy factoring
+  π₁ → SL(2) → E₆ has 27 ≅ 27̄ and **net chirality identically zero — for every embedding.** The
+  frame that *does* carry chirality is the **θ-odd twisted, full-E₆(ℂ)** one (B582/B576), with a
+  **closing** supplying the bit (B432/B434). **B1260** adds that the closed wall is general (PD on
+  *any* closed oriented 3-manifold) and the cusped **abelian** sector is walled by Alexander
+  reciprocity.
+- **B1265 — the real form is DERIVED and the fork is a rank obstruction.** D₂ is an involution with
+  signature **32 − 46 = −14**, so the object's own twist **selects E₆(−14)**. D₂ is **inner**, and
+  **E₆(−26)** (Lorentz, compact colour, the graviton) has **𝔨 = f₄ of rank 4** — **outer**, reachable
+  by **no torus element**. That is *why* B1140's two branches share nothing; crossing needs **θ**,
+  which is **trivial on the character variety** (fenced).
+
 Everything below is the elaboration, the evidence, and the honest boundary of that sentence.
 
 ---
