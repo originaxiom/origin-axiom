@@ -32,6 +32,12 @@ nothing here promotes to `CLAIMS.md`.
 > adjoint VEV can give any 27 fermion a mass** — the adjoint half does gauge structure and
 > provably cannot do matter mass.
 
+**FORCE-BY-FORCE, BY NAME:** see **`docs/THE_FOUR_FORCES.md`** (2026-09-06) — strong, weak,
+electromagnetic and gravity each with what the object supplies, its fence, and what it does not.
+Summary: **all four are structurally present and none supplies a number**, and B1265 explains why the
+charge side and the gravity side never meet (**a rank obstruction**: D₂ is inner and derives E₆(−14);
+E₆(−26) has 𝔨 = f₄ of rank 4 and is outer).
+
 **THE PRICE, MEASURED (B1261, 2026-09-06) — read this before any row below.** The programme
 **SPENDS 4 axioms + 10 UNEARNED identifications = 14 unpriced inputs** and **BUYS 0 of the SM's 19
 free parameters** (26 with Dirac neutrinos). **CORRECTED BY B1266: the 14 OVERCOUNTS.** The rows are

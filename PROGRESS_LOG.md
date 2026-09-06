@@ -14216,3 +14216,29 @@ eight measured multiplicities to become a **point**. **Was it a one-off? No.**
   selector rather than counted**.
 - **CONTROL that matters:** selector 2 starts from **four** candidates and cuts to one, so the
   agreement is **not vacuous**; selector 1's uniqueness is checked against all **30** labellings.
+
+### docs/THE_FOUR_FORCES.md — the forces by name; and the listener map was already built (2026-09-06)
+
+Owner: *"why don't we identify four fundamental forces… why don't we call them their names?"* and
+*"why do i have a feeling we had build that map or smth similar before in early work"*.
+
+- **THE LISTENER MAP WAS BUILT — the owner's recollection is correct, and it corrects this seat.**
+  **`docs/LISTENER_MAP_SPEC.md`** exists (L166, registered 2026-08-18, *"the crossing door, posed as a
+  construction problem"*), and its own status line reads **"LARGELY ANSWERED WITHIN 48 HOURS
+  (B1070/B1071: Λ constructed, sealed, PROVED)."** **B1128** then built u(θ) = cos·u₃ + sin·u₆ on it —
+  the real great circle through the **derived** listener pair — made **one falsifiable prediction,
+  |U_e1|/|U_e2| = φ**, and **missed the measured PMNS e-row ratio (~1.5) by ~5σ. INSTRUMENT-NULL.**
+  **So I-13 is not untouched**: it was posed, largely answered, instrumented, and the instrument came
+  back null. This seat said "untouched" earlier and was wrong.
+- **THE FOUR FORCES NOW HAVE A NAMED REFERENCE.** `docs/THE_FOUR_FORCES.md` gives strong / weak /
+  electromagnetic / gravity, each with what the object supplies, its **fence**, and what it does not.
+  **Naming a slot is not claiming the physics** — the firewall governs what may be *claimed*; it never
+  required vagueness about what we are *talking about*.
+- **Summary that file lands:** **all four are structurally present and none supplies a number** —
+  strong **derived** but two steps out (dim 14 vs 12); weak **derived** (the ideal exists) with 3/8
+  reproduced and **non-discriminating**; EM **derived** (unique gaugeable U(1); ℤ₆ form, *conditional*)
+  with normalisation not derivable; gravity **exhibited** (spin-2) with **invariant content zero**.
+- **And it carries B1265's explanation of why they don't meet:** a **rank obstruction** — D₂ is inner
+  and derives **E₆(−14)**; **E₆(−26)** has **𝔨 = f₄ of rank 4** and is **outer**, unreachable by any
+  torus element. **θ is the only candidate crossing, and B576 cuts against it** (θ-odd destroys
+  F₄-stability).
