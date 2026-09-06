@@ -8,6 +8,15 @@ data, beta coefficients, Chern-Simons data, and census results — are external 
 unless separately derived or cited.
 Script: `computations/the_whole_journey.py`.
 
+**Reading note (record state 2026-09-06, main @ 0ecd9557).** The record's own accounting
+(B1261/B1266) is that this chain derives *structure* and *no numbers*: its free inputs are 4
+framework axioms plus 7 irreducible unearned identifications — 11 in all — and they buy 0 of the
+Standard Model's 19 free parameters. Every "derived" below is a structural statement; every
+number (3/8, M_I) is reproduced or model-dependent, never predicted. Two frame results the record
+landed after this document's previous revision are folded in where they bite: E65 (the chain's own
+SL(2) holonomy cannot carry chirality) and B1265 (the object's twist derives the real form E₆(−14),
+and the spacetime branch E₆(−26) sits across a rank obstruction). See "The Price" at the end.
+
 ---
 
 ## Step 1: The Simplest Interesting Pattern
@@ -196,6 +205,10 @@ B997's pre-selection via the eigenvalue discriminant Λ(m) = m² + 4 concerns
 the Perron–Frobenius eigenvalue field (a polynomial discriminant, not
 necessarily the field conductor) — the E₈ end, not the E₆ end.)
 
+(The E₈ end is read off the same monodromy: the Alexander polynomial of the figure-eight is
+det(tI − M²) = t² − 3t + 1, roots φ^{±2}, discriminant 5. It is reciprocal — invariant under
+t → 1/t — which is what walls the abelian sector against net chirality in B1260, below.)
+
 By A3, we pass from the conductor to the finite linear group and apply McKay's correspondence:
 
 **Step 1:** Build the group SL(2, ℤ/3ℤ) — all 2×2 matrices with entries mod 3 and
@@ -236,6 +249,29 @@ The McKay graph:
 >
 > conductor 3 → group of order 24 → McKay graph = affine Ê₆ → finite Lie algebra **E₆**
 
+**The 2T quotient is not unique (B1263; reproduced here).** π₁(m004) admits 72 homomorphisms to
+2T = SL(2, F₃), 48 of them surjective, and the 48 fall into exactly two orbits under
+Aut(2T) ≅ S₄ (24 each): the object supplies *two* genuinely distinct 2T quotients, and no
+relator-preserving automorphism of π₁ exchanges them, so the choice between them is not the
+orientation bit. This document's seat computed which is which, and the two routes to 2T named
+in this document's Round-11 exchange turn out to be the two orbits:
+
+- **Geometric:** reduce the holonomy SL(2, ℤ[ω]) → SL(2, F₃) modulo the prime (1 − ω). The
+  meridian, unipotent in the holonomy, maps to an element of order 3.
+- **Non-geometric:** the (0, 0, 0) character of Step 3, realised on the Hurwitz units as
+  ρ(a) = i, ρ(b) = j, ρ(t) = (1 + i + j + k)/2. The meridian maps to an element of order 6.
+
+The orbit invariants (ord ρ(x), ord ρ(xy), ord ρ(xy⁻¹)) are (3, 6, 4) on one orbit and (6, 6, 4)
+on the other, so the meridian's order alone separates them (reproduced in `computations/the_whole_journey.py`; the quaternionic
+representation is transported to the knot group through explicit fiber words, checked in the
+faithful Riley representation). So B1263's "genuine binary with no symmetry reason to prefer
+either" has a name: the geometric character versus the non-geometric one — the same fork Step 3
+resolved by requiring nontrivial parabolic peripheral holonomy. McKay itself, 2T ↔ Ê₆, is a
+theorem (the record's I-1, EARNED); that a π₁-quotient *is* the 2T that builds E₆ is the record's
+identification I-6, UNEARNED. A3 as declared here routes through the conductor, so it neither
+picks a quotient nor needs to — but it inherits I-6's gap the moment the group is asked to act on
+the manifold.
+
 ---
 
 ## Step 5: What's Inside E₆
@@ -261,6 +297,11 @@ E₆  ⊃  SO(10) [Spin(10)]  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)
 descent from E₆ gives six possible chains through different intermediates — SO(10)×U(1),
 SU(3)³, Pati-Salam — but **all six terminate at SU(3)×SU(2)×U(1)**. The endpoint is
 rule-independent. See B994/B863.)
+
+(Two steps short, precisely: the record's registerable cascade lands on
+su(3) ⊕ su(2) ⊕ u(1)³ — dimension 14, two abelian factors more than the SM's 12 (B892 as
+corrected 2026-09-02). The descent from 14 to 12 needs a VEV the object does not source; see
+"What's Not Supplied".)
 
 The 27 decomposes at each step:
 
@@ -289,6 +330,43 @@ antiquarks, 3 colors of down antiquarks, electron and neutrino (left-handed doub
 positron, and the right-handed neutrino (the 16th particle).
 
 One complete chiral generation of the Standard Model, plus ν_R.
+
+Two fences from the record (2026-09-06):
+
+1. *"The 16 is one generation"* is standard GUT nomenclature for the representation, not a
+   derivation (B1250's own fence). What is verified is narrower and exact (B1253): on the derived
+   hypercharge, the 16 is a complete, anomaly-free generation — all six anomalies cancel,
+   hypercharge is conserved on 45/45 cubic terms, and the 40 terms of 10·16·16 contain all four SM
+   Yukawa operators.
+2. The *chirality* of the 16 is axiom A5 here, and E65 makes A5 a theorem-backed input rather than
+   a convenience: every Sym^n of SL(2) is self-dual, so any representation factoring
+   π₁(m004) → SL(2) → E₆ has 27 ≅ 27̄ as π₁-modules and net chirality identically zero — for
+   every embedding of SL(2) in E₆. The chain's own holonomy cannot supply chirality. In the record,
+   chirality enters through a *closing* (Dehn filling: 31/31 sampled slopes chiralize, B432; the
+   slope is a free input) in the θ-odd, full-E₆(ℂ) frame (B576/B582) — a mechanism outside this
+   document's chain.
+
+### The object picks the SO(10) grading and the real form (B1250, B1265; reproduced)
+
+The SO(10) in the chain above is not only the textbook maximal subgroup. The object's own 11-flip
+twist D₂ (B916) is an affine sign character on the 27 weights whose stabiliser is so(10) ⊕ u(1)
+and whose orbits on the 27 are exactly [1, 10, 16]: D₂ flips the 1 + 10 and fixes the 16 (I-22,
+EARNED; control: 0 of 4000 random 11-subsets admit such a character). Reproduced here from the
+bare E₆ root system, independently of B1250's basis: grade the 72 roots by their α₁-coefficient
+(Bourbaki labelling) — 40 roots at 0, 16 at +1, 16 at −1 — and the 27 weights by the same
+coweight, 3·charge ∈ {4, −2, 1} with multiplicities 1, 10, 16; the even-charge block is the
+11 = 1 + 10.
+
+Because D₂ is an involution of e₆ with dim 𝔨 = 6 + 40 = 46 and dim 𝔭 = 32, its Cartan signature
+is 32 − 46 = −14, and E₆(−14) is *by definition* the real form of that signature (B1265). The
+object's twist selects one real form out of five — a point, not a family. D₂ is inner
+(conjugation by a torus element), and inner involutions reach only the equal-rank real forms;
+E₆(−26), whose maximal compact subalgebra is f₄ of rank 4, is outer and unreachable by any torus
+element. The record's E₆(−26) branch is where Lorentz, compact colour and the graviton live
+(B1140), so spacetime sits across a rank obstruction from the charge branch this document
+follows. The only candidate crossing is the diagram automorphism θ (27 ↔ 27̄), and the record's
+own θ facts cut against it: θ is trivial on the character variety, and θ-odd deformations destroy
+F₄-stability rather than land in it (B576).
 
 ---
 
@@ -349,6 +427,12 @@ SU(5) origin       Y       particle
 ```
 
 Every charge is **fixed by the SU(5) embedding**. No free parameter.
+
+What is *not* fixed by group theory is the anchoring of this abstract U(1) to the physical
+hypercharge — Q = T₃ + Y, the electromagnetic identification that sets the sign and scale of c₁.
+The direction is derived (B864: the unique gaugeable U(1) in the abelian sector); the
+normalisation is not derivable from the object, and the anchoring is the record's identification
+I-23 (UNEARNED, an instance of the listener map I-13).
 
 ### What about anomaly cancellation?
 
@@ -426,6 +510,15 @@ sin²θ_W = g'² / (g² + g'²)
 > Measured at low energy: 0.231.
 > The difference is the running of the couplings from high energy to low energy —
 > and that running tells us WHERE the matching happens.
+
+**Non-discriminating (B1250; registered as a retracted reading 2026-09-05).**
+Tr(T₃²)/Tr(Y²) = 3/5 on the SU(5) 5̄ and 10, the SO(10) 16 and 10, and the E₆ 27 alike
+(verified block by block in the script), so 3/8 follows from any SU(5)-compatible embedding with
+equal normalised couplings. It reproduces a known GUT relation; it does not select E₆, and it does
+not select the knot. Run the other way — as a sealed top-down prediction with α_em(M_Z) as the
+single input and the E₆ boundary plus a pure SM desert — the curve misses the measured
+(sin²θ_W, α_s)(M_Z) pair at 16σ, α_s-dominated (B915). Step 8 is the bottom-up computation: the
+M_Z values are inputs and the matching scale is the output.
 
 ---
 
@@ -589,6 +682,12 @@ dictionary, which attempted a direct VALUE identification CS = θ. B813 kills I-
 independent mismatches: kind, group, and slot. T17 survives because it has no coefficient
 slot. See `STATE_2026-09-02.md` addendum 2026-09-03.)
 
+(The record registered this dictionary as identification I-18 (B1243) with θ̄ as its target. After
+this document's flag, B1246 verified the discriminating computation — under ψ → e^{iαγ₅}ψ on N_f
+flavours, θ → θ − 2N_f α and arg det M → arg det M + 2N_f α, so θ̄ is invariant and θ is not — and
+re-priced the row: the type map reaches θ, and earning I-18 needs the dictionary *and* the Yukawa
+phase. T17 stands; I-18 stays UNEARNED and reduces to I-13.)
+
 Falsifiability: for m004 specifically, 2-torsion is forced by amphichirality —
 CS ≡ −CS (mod 1/2) in SnapPy's normalization, so 2·CS ≡ 0 (mod 1/2)
 and CS ∈ {0, 1/4} (mod 1/2). This is
@@ -635,18 +734,19 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
 ┌─ SYMMETRY ──────────────────────────────────────────────┐
 │  binary tetrahedral group 2T → E₆                       │
 │  rank-6 Lie algebra, 78-dimensional                     │
+│  D₂ twist → real form E₆(−14) (derived, B1265)          │
 └──────────────────────┬──────────────────────────────────┘
                        │ fundamental representation
                        ▼
 ┌─ MATTER ────────────────────────────────────────────────┐
 │  27 = 16 + 10 + 1                                       │
-│  16 = one SM generation (quarks + leptons + ν_R)         │
-│  hypercharge uniquely fixed by SU(5) group theory        │
+│  16 = one SM generation (rep. nomenclature; chirality = A5)│
+│  hypercharge direction fixed by SU(5); anchoring = I-23  │
 └──────────────────────┬──────────────────────────────────┘
                        │ trace identities on the 27
                        ▼
 ┌─ FORCES ────────────────────────────────────────────────┐
-│  SU(3) × SU(2) × U(1) with sin²θ_W = 3/8 exactly       │
+│  SU(3) × SU(2) × U(1); sin²θ_W = 3/8 tree-level, non-discriminating │
 │  under D-parity trinification: M_I = 10¹³ GeV (one-loop, no thresholds) │
 └──────────────────────┬──────────────────────────────────┘
                        │ Chern-Simons + dictionary
@@ -665,7 +765,7 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
 | A1 | why this rule | minimal description |
 | A3 | the McKay route | N = 3 → SL(2,F₃) ≅ 2T → Ê₆ → E₆ |
 | A4 | matter in the fundamental 27 | which representation |
-| A5 | chirality | chiral 16, not vector-like |
+| A5 | chirality | chiral 16, not vector-like — not suppliable by the chain's SL(2) holonomy (E65); the record supplies it by a closing |
 | A7 | chain's scale = experimenter's | scale identification |
 | A8 | dictionary c = P, γ₅ = T; identity-preserving on torsion sectors | discrete-symmetry map |
 
@@ -676,11 +776,57 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
 - **exotic decoupling** — the 10+1 accompanying the chiral 16 in each 27 (vectorlike color triplets, extra electroweak doublets, and a singlet under SU(5)) must acquire acceptable masses; the chain does not derive their mass spectrum or decoupling mechanism
 - **M₆** — sextet Higgs mass; the representation content of the trinification Higgs sector must be specified
 - **D-parity origin** — D-parity (g₃L = g₃R) is a model assumption used in Step 8; the chain does not derive or protect it
-- **generation count** — not derived; this document constructs one chiral generation
-  (the cohomological multiplicity h¹(M; 27_ρ) = 3 provides a structural origin for three
-  generation-slots (B632), but this is exhibited, not forced by the axioms)
+- **generation count** — not derived; this document constructs one generation. The record's
+  state (2026-09-06), in four parts. (a) B632's h¹(m004; 27_ρ) = 3 is computed under the
+  *principal* sl₂ ⊂ E₆ (27 = 17 + 9 + 1) and types as 1 abelian + 2 chiral (B1253/B1256); the
+  embedding was assumed, never derived (I-25, UNEARNED). Of the 30 integral sl₂-labellings, four
+  give three nontrivial odd summands, and Brieskorn–Slodowy selects the subregular
+  (27 = 13 + 9 + 5, three chiral) as the unique orbit whose slice returns 2T (B1257) — but that the
+  object's holonomy lands there is unshown. (b) E65: any ρ through SL(2) has 27 ≅ 27̄, so no h¹ in
+  this frame is a *net*-chirality count, for any embedding. B1260/B1267 extend the wall: on any
+  closed oriented 3-manifold Poincaré duality forces h¹(V) = h¹(V*); on the cusped manifold the
+  abelian sector is walled by reciprocity of Δ(t) = t² − 3t + 1; and the corpus's only
+  non-self-dual rank-3 systems (B102's W1/W2) are rigid, h¹ = 0, index zero. (c) Reading any h¹ of
+  a real 3-manifold as a 4d generation count is itself an identification (I-26, UNEARNED): the
+  index theorem lives on a CY3 or a G₂ manifold, and the surviving gauge group is never named.
+  (d) Three generations cannot live inside one 27: the 16 has multiplicity one, and three copies
+  need dimension ≥ 48 (B1255).
+- **chirality mechanism** — A5 is an axiom here; the record's mechanism (a θ-odd closing,
+  B432/B576/B582) is not part of this chain, and the slope it selects is a free input.
+- **spacetime, Lorentz, gravity** — the E₆(−26) branch (B1140) is an outer real form; the object's
+  D₂ is inner and reaches only E₆(−14). The fork is a rank obstruction (B1265), priced at two
+  identifications (I-10/I-11), and no arc crosses it.
 - **A8 phase convention** — A8 does not yet operationally define the chiral phase convention in which θ = 0 is stated
 - **coupling values at low energy** — structure, not values
+
+## The Price (record accounting, B1261/B1266, 2026-09-06)
+
+| | |
+|---|---|
+| **spends** | 4 framework axioms + 7 irreducible unearned identifications = **11 free inputs** (14 ledger rows outstanding; I-18 and I-23 reduce to I-13, I-11 to I-10) |
+| **buys** | **0 of the SM's 19** free parameters (26 with Dirac neutrinos) |
+| **derives, structurally** | E₆ (McKay, I-1 EARNED) · the SO(10) grading (D₂, I-22 EARNED) · the real form E₆(−14) (B1265) · the descent cut by three characters of the object's own 27 (B1250/B1252) · one complete anomaly-free generation (B1253) · hypercharge direction (B864) · termination at the SM (B863) · the global ℤ₆ form (B862, conditional on the cascade's premises) |
+
+The two currencies do not convert: by parameter count the trade is net negative; by structural
+content it derives what the SM assumes or cannot state. The rate moves only by earning a source
+(−1), refuting one (−1: I-9 was refuted at B1262), or deriving a parameter (+1).
+
+Where the seven sources touch this chain:
+
+| source | what it identifies | where it bites here |
+|---|---|---|
+| I-13 (the listener map; I-18 and I-23 reduce to it) | structural analogue ≡ physical quantity | every physics reading; Step 6's anchoring (I-23); Step 10's θ (I-18) |
+| I-10/I-11 (the fork) | internal A₁ / θ-polarisation ≡ 4d Lorentz spin | not in this chain — spacetime is the E₆(−26) branch (Step 5) |
+| I-6 | π₁(m004) ↠ 2T ≡ the transverse ALE Γ | Step 4: two 2T quotients, geometric versus non-geometric |
+| I-7 | the object's ℤ/3 ≡ the boundary CFT module group | Step 8's trinification ℤ/3 |
+| I-14 | trinification ℤ/3 grading ≡ the commensurator's Eisenstein-unit ℤ/3 | Step 8: the 9+9+9 grading exists in the 27 — 85 distinct colourings, nothing selects one (B1264) |
+| I-25 | which sl₂ ⊂ E₆ the holonomy realises | the generation-count note above |
+| I-26 | h¹ of a 3-manifold ≡ a 4d generation count | the generation-count note above |
+
+Labelling note: this document's A1/A3/A4/A5/A7/A8 are chain-axioms named by this seat. The record's
+"4 axioms" are its framework axioms in its own A-labelling (state space ℤ², invertibility,
+orientation, the two shears, first mixed closure, minimality, the order). The two lists are
+different objects and are not to be added together.
 
 ## Forcedness Census
 

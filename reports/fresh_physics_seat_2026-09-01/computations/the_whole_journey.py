@@ -257,6 +257,118 @@ print(f"""
   │  conductor 3 → group of order 24 → affine Ê₆ → finite E₆  │
   └──────────────────────────────────────────────────────────────┘""")
 
+# ---- B1263 reproduced: the 2T quotient is not unique, and the two Round-11 routes are the two orbits
+import itertools
+_I = (1, 0, 0, 1)
+_REL = "abABaBAbaB"          # figure-eight knot group <x, y | REL> (B1263's presentation)
+def _mul(X, Y):
+    return ((X[0]*Y[0]+X[1]*Y[2]) % 3, (X[0]*Y[1]+X[1]*Y[3]) % 3,
+            (X[2]*Y[0]+X[3]*Y[2]) % 3, (X[2]*Y[1]+X[3]*Y[3]) % 3)
+_G = [X for X in itertools.product(range(3), repeat=4) if (X[0]*X[3]-X[1]*X[2]) % 3 == 1]
+_INV = {X: next(Y for Y in _G if _mul(X, Y) == _I) for X in _G}
+def _word(w, A, B):
+    D = {'a': A, 'b': B, 'A': _INV[A], 'B': _INV[B]}
+    M = _I
+    for ch in w: M = _mul(M, D[ch])
+    return M
+def _gen(gens):
+    S, fr = {_I}, [_I]
+    while fr:
+        u = fr.pop()
+        for g in gens:
+            v = _mul(u, g)
+            if v not in S: S.add(v); fr.append(v)
+    return S
+def _order(g):
+    k, h = 1, g
+    while h != _I: h = _mul(h, g); k += 1
+    return k
+_homs = [(A, B) for A in _G for B in _G if _word(_REL, A, B) == _I]
+_surj = [(A, B) for (A, B) in _homs if len(_gen([A, B])) == 24]
+def _auts(g0, g1):
+    out = []
+    for imA in _G:
+        for imB in _G:
+            m, fr, ok = {_I: _I}, [(_I, _I)], True
+            while fr and ok:
+                u, v = fr.pop()
+                for g, h in ((g0, imA), (g1, imB)):
+                    ug, vh = _mul(u, g), _mul(v, h)
+                    if ug in m:
+                        if m[ug] != vh: ok = False; break
+                    else:
+                        m[ug] = vh; fr.append((ug, vh))
+            if ok and len(m) == 24 and len(set(m.values())) == 24: out.append(m)
+    return out
+_AUT = _auts(*_surj[0])
+_label, _norb = {}, 0
+for A, B in _surj:
+    if (A, B) in _label: continue
+    for h in _AUT: _label[(h[A], h[B])] = _norb
+    _norb += 1
+_inv_by_orbit = {}
+for (A, B), lab in _label.items():
+    _inv_by_orbit.setdefault(lab, set()).add((_order(A), _order(_mul(A, B)), _order(_mul(A, _INV[B]))))
+assert (len(_G), len(_homs), len(_surj), len(_AUT), _norb) == (24, 72, 48, 24, 2)
+assert sorted(_inv_by_orbit.values(), key=sorted) == [{(3, 6, 4)}, {(6, 6, 4)}]
+# route 1: Riley holonomy x=[[1,1],[0,1]], y=[[1,0],[-omega,1]] reduced mod (1-omega): omega -> 1
+_X1, _Y1 = (1, 1, 0, 1), (1, 0, 2, 1)
+assert _word(_REL, _X1, _Y1) == _I and len(_gen([_X1, _Y1])) == 24
+# route 2: the (0,0,0) character on the Hurwitz units, transported to the knot group by the fiber
+# words a = x y^-1, b = y x y^-1 x^-1 y x^-1, t = x (checked exactly in the Riley rep below):
+# rho(x) = s = (1+i+j+k)/2, rho(y) = rho(a)^-1 rho(x) = -i s
+def _qm(p, q):
+    w1,x1,y1,z1 = p; w2,x2,y2,z2 = q
+    return (w1*w2-x1*x2-y1*y2-z1*z2, w1*x2+x1*w2+y1*z2-z1*y2,
+            w1*y2-x1*z2+y1*w2+z1*x2, w1*z2+x1*y2-y1*x2+z1*w2)
+def _qinv(q): n = sum(c*c for c in q); return tuple(c/n for c in (q[0], -q[1], -q[2], -q[3]))
+_1 = (Fraction(1), Fraction(0), Fraction(0), Fraction(0))
+_i = (Fraction(0), Fraction(1), Fraction(0), Fraction(0)); _j = (Fraction(0), Fraction(0), Fraction(1), Fraction(0))
+_s = (Fraction(1, 2),) * 4
+_qx, _qy = _s, _qm(_qinv(_i), _s)
+def _qword(w, X, Y):
+    D = {'a': X, 'b': Y, 'A': _qinv(X), 'B': _qinv(Y)}
+    M = _1
+    for ch in w: M = _qm(M, D[ch])
+    return M
+assert _qword(_REL, _qx, _qy) == _1                       # the knot relator holds
+assert _qword("aB", _qx, _qy) == _i and _qword("baBAbA", _qx, _qy) == _j   # fiber words give back i, j
+_HU, fr = {_1}, [_1]
+while fr:
+    u = fr.pop()
+    for g in (_qx, _qy):
+        v = _qm(u, g)
+        if v not in _HU: _HU.add(v); fr.append(v)
+assert len(_HU) == 24                                      # surjective onto the Hurwitz units = 2T
+def _qorder(g):
+    k, h = 1, g
+    while h != _1: h = _qm(h, g); k += 1
+    return k
+# the fiber words are checked in the faithful Riley representation
+_w = complex(-0.5, 3 ** 0.5 / 2)
+_rx = np.array([[1, 1], [0, 1]], dtype=complex); _ry = np.array([[1, 0], [-_w, 1]], dtype=complex)
+def _rword(w, X, Y):
+    D = {'a': X, 'b': Y, 'A': np.linalg.inv(X), 'B': np.linalg.inv(Y)}
+    M = np.eye(2, dtype=complex)
+    for ch in w: M = M @ D[ch]
+    return M
+assert np.allclose(_rword(_REL, _rx, _ry), np.eye(2))
+_ra, _rb = _rword("aB", _rx, _ry), _rword("baBAbA", _rx, _ry)
+assert np.allclose(_rx @ _ra @ np.linalg.inv(_rx), _ra @ _rb @ _ra)   # t a t^-1 = aba
+assert np.allclose(_rx @ _rb @ np.linalg.inv(_rx), _ra @ _rb)         # t b t^-1 = ab
+print(f"""
+THE 2T QUOTIENT IS NOT UNIQUE (B1263, reproduced):
+  homomorphisms π₁(m004) → SL(2,F₃): {len(_homs)};  surjective: {len(_surj)};
+  orbits under Aut(2T) = S₄ (|Aut| = {len(_AUT)}, constructed): {_norb}, of sizes 24 + 24.
+  Orbit invariants (ord ρ(x), ord ρ(xy), ord ρ(xy⁻¹)):
+    orbit A: {sorted(_inv_by_orbit[0])}     orbit B: {sorted(_inv_by_orbit[1])}
+  The two routes of this document's Round-11 exchange are the two orbits:
+    geometric  — holonomy SL(2,ℤ[ω]) reduced mod (1−ω): meridian order {_order(_X1)}
+    non-geometric — the (0,0,0) character on the Hurwitz units: meridian order {_qorder(_qx)}
+  McKay 2T ↔ Ê₆ is a theorem (I-1, EARNED); WHICH π₁-quotient is the 2T that builds E₆
+  is the record's I-6 (UNEARNED). A3 routes through the conductor and inherits that gap
+  the moment the group is asked to act on the manifold.""")
+
 # ─────────────────────────────────────────────────────────────
 banner(5, "WHAT'S INSIDE E₆")
 # ─────────────────────────────────────────────────────────────
@@ -274,6 +386,10 @@ E₆ contains a chain of smaller symmetries:
 
   E₆  ⊃  SO(10) [Spin(10)]  ⊃  SU(5)  ⊃  SU(3) × SU(2) × U(1)
   78      45                     24         8  +  3  +  1  = 12
+
+(The record's registerable cascade lands on su(3)⊕su(2)⊕u(1)³,
+ dimension 14 — two abelian factors more than the SM's 12 (B892);
+ the 14 → 12 step needs a VEV the object does not source.)
 
 The 27 decomposes at each step:
 
@@ -311,6 +427,71 @@ That's EXACTLY:
   • right-handed neutrino (the 16th particle)
 
 One complete chiral generation of the Standard Model, plus ν_R.""")
+
+print("""
+Two fences from the record (2026-09-06):
+ 1. "The 16 is one generation" is standard GUT nomenclature for the
+    representation, not a derivation (B1250). What IS verified (B1253):
+    on the derived hypercharge the 16 is a complete anomaly-free
+    generation — six anomalies cancel, Y conserved on 45/45 cubic terms,
+    all four SM Yukawa operators among the 40 terms of 10·16·16.
+ 2. The CHIRALITY of the 16 is axiom A5 here, and E65 makes it a
+    theorem-backed input: every Sym^n of SL(2) is self-dual, so any ρ
+    factoring π₁(m004) → SL(2) → E₆ has 27 ≅ 27̄ and net chirality
+    identically zero, for every embedding. The chain's own holonomy
+    cannot supply chirality; the record supplies it by a closing
+    (θ-odd frame, B432/B576/B582), outside this chain.
+
+THE OBJECT PICKS THE SO(10) GRADING AND THE REAL FORM (B1250, B1265):
+reproduced here from the bare E₆ root system.""")
+
+# E6 root system (Bourbaki labelling: chain 1-3-4-5-6, node 2 on 4), positive roots by the string algorithm
+_C = [[ 2, 0,-1, 0, 0, 0],[ 0, 2, 0,-1, 0, 0],[-1, 0, 2,-1, 0, 0],
+      [ 0,-1,-1, 2,-1, 0],[ 0, 0, 0,-1, 2,-1],[ 0, 0, 0, 0,-1, 2]]
+_simple = [tuple(int(i == j) for j in range(6)) for i in range(6)]
+_pos, _fr = set(_simple), list(_simple)
+while _fr:
+    beta = _fr.pop()
+    for i in range(6):
+        p, b = 0, list(beta); b[i] -= 1
+        while tuple(b) in _pos: p += 1; b[i] -= 1
+        if p - sum(beta[j]*_C[j][i] for j in range(6)) > 0:
+            nb = list(beta); nb[i] += 1; nb = tuple(nb)
+            if nb not in _pos: _pos.add(nb); _fr.append(nb)
+_roots = list(_pos) + [tuple(-c for c in r) for r in _pos]
+_a1 = {}
+for r in _roots: _a1[r[0]] = _a1.get(r[0], 0) + 1
+_dim_k, _dim_p = 6 + _a1[0], _a1[1] + _a1[-1]
+# the 27: Weyl orbit of ω₁; u(1) charge = α₁-coefficient of the weight (via C⁻¹)
+def _refl(wt, i): return tuple(wt[j] - wt[i]*_C[i][j] for j in range(6))
+_w0 = tuple(int(j == 0) for j in range(6)); _W27, _fr = {_w0}, [_w0]
+while _fr:
+    v = _fr.pop()
+    for i in range(6):
+        u = _refl(v, i)
+        if u not in _W27: _W27.add(u); _fr.append(u)
+_Cinv = np.linalg.inv(np.array(_C, dtype=float))
+_ch = {}
+for v in _W27:
+    q = round(3 * float(np.array(v) @ _Cinv[:, 0])); _ch[q] = _ch.get(q, 0) + 1
+assert len(_roots) == 72 and (_dim_k, _dim_p) == (46, 32) and len(_W27) == 27
+assert sorted(_ch.values()) == [1, 10, 16]
+_even = sum(n for q, n in _ch.items() if q % 2 == 0)
+print(f"""
+  E₆ roots constructed: {len(_roots)};  dim e₆ = 6 + 72 = 78
+  α₁-coefficient census: {dict(sorted(_a1.items()))}
+  the involution 'sign by α₁-parity' (= D₂ up to overall sign):
+    dim 𝔨 = 6 + {_a1[0]} = {_dim_k}  (so(10) ⊕ u(1) = 45 + 1)
+    dim 𝔭 = {_dim_p}                 (16 + 16̄)
+    Cartan signature dim 𝔭 − dim 𝔨 = {_dim_p - _dim_k}   →  the real form E₆(−14), uniquely
+  the 27 by 3×(u(1) charge): {dict(sorted(_ch.items()))}   →  27 = 1 + 10 + 16
+    even-charge block = {_even} = 1 + 10 (the 11-flip), odd block = {27 - _even} = the 16 (fixed)
+  𝔨 contains the full Cartan: rank 𝔨 = 6 = rank e₆, so the involution is INNER.
+  E₆(−26) has 𝔨 = f₄, rank 4: OUTER — no torus element reaches it [standard table, cited].
+  Lorentz, compact colour and the graviton live in E₆(−26) (B1140): the fork is a rank
+  obstruction (B1265). The one candidate crossing is the diagram automorphism θ, and the
+  record's own θ facts cut against it (trivial on the character variety; θ-odd destroys
+  F₄-stability, B576).""")
 
 # ─────────────────────────────────────────────────────────────
 banner(6, "THE CHARGES ARE FORCED")
@@ -368,6 +549,12 @@ for origin, y, name in su5_decomp:
     print(f"  {origin:17s}  {str(y):>6s}  {name:>8s}")
 
 print("\nEvery charge is FIXED by the SU(5) embedding. No free parameter.")
+print("""
+What group theory does NOT fix: the anchoring of this U(1) to the
+physical hypercharge, Q = T₃ + Y — the electromagnetic identification
+that sets the sign and scale of c₁. Direction derived (B864); the
+normalisation is not derivable from the object; the anchoring is the
+record's identification I-23 (UNEARNED, an instance of I-13).""")
 
 print("""
 WHAT ABOUT ANOMALY CANCELLATION?
@@ -515,6 +702,26 @@ print("""
   The difference between 0.375 and 0.231 is the running
   of the couplings from high energy to low energy — and
   that running tells us WHERE the matching happens.""")
+
+# non-discriminating: k = 3/5 block by block (states[:6] = the 16; states[6:10] = the 10 of SO(10);
+# SU(5) 10 = Q, u^c, e^c; SU(5) 5bar = d^c, L)
+def _k(block):
+    t3, y2 = Fraction(0), Fraction(0)
+    for cd, T3s, Y in block:
+        for T3 in T3s: t3 += cd * T3**2; y2 += cd * Y**2
+    return t3 / y2
+_blocks = {"E₆ 27": states, "SO(10) 16": states[:6], "SO(10) 10": states[6:10],
+           "SU(5) 10": [states[0], states[1], states[4]], "SU(5) 5̄": [states[2], states[3]]}
+for _nm, _bl in _blocks.items(): assert _k(_bl) == Fraction(3, 5), _nm
+print("""
+NON-DISCRIMINATING (B1250; a retracted reading in the record's registry, 2026-09-05):
+  Tr(T₃²)/Tr(Y²) block by block:""")
+for _nm, _bl in _blocks.items(): print(f"    {_nm:10s}: {_k(_bl)}")
+print("""  3/8 follows from any SU(5)-compatible embedding with equal normalised
+  couplings. It reproduces a known GUT relation; it selects neither E₆ nor
+  the knot. Run top-down as a sealed prediction (α_em(M_Z) the single input,
+  E₆ boundary + pure SM desert) it misses the measured (sin²θ_W, α_s)(M_Z)
+  at 16σ, α_s-dominated (B915). Step 8 below is the bottom-up computation.""")
 
 # ─────────────────────────────────────────────────────────────
 banner(8, "THE SCALE")
@@ -748,6 +955,11 @@ For θ̄ = 0, one additionally needs arg(det M_q) = 0. E₆ admits a cubic
 by itself fix physical Yukawa phases or VEVs; the chain does not derive it.
 (This is T17, mapping symmetry TYPES ℤ/2 → ℤ/2, NOT the refuted I-4
 dictionary which attempted CS = θ as a value. B813 kills I-4.)
+(The record registered it as I-18 (B1243) with θ̄ as target; after this
+document's flag, B1246 verified the chiral-rotation computation — θ → θ − 2N_f α,
+arg det M → arg det M + 2N_f α, θ̄ invariant — and re-priced the row: the type
+map reaches θ, and earning I-18 needs the dictionary AND the Yukawa phase.
+T17 stands; I-18 stays UNEARNED and reduces to I-13.)
 
 For m004 specifically, 2-torsion is forced by amphichirality:
 CS ≡ -CS (mod 1/2) in SnapPy's normalization, so 2·CS ≡ 0 (mod 1/2)
@@ -795,18 +1007,19 @@ print("""
   ┌─ SYMMETRY ──────────────────────────────────────────────┐
   │  binary tetrahedral group 2T → E₆                       │
   │  rank-6 Lie algebra, 78-dimensional                     │
+  │  D₂ twist → real form E₆(−14) (derived, B1265)          │
   └──────────────────────┬──────────────────────────────────┘
                          │ fundamental representation
                          ▼
   ┌─ MATTER ────────────────────────────────────────────────┐
   │  27 = 16 + 10 + 1                                       │
-  │  16 = one SM generation (quarks + leptons + ν_R)         │
-  │  hypercharge uniquely fixed by SU(5) group theory        │
+  │  16 = one SM generation (rep. nomenclature; chirality = A5)│
+  │  hypercharge direction fixed by SU(5); anchoring = I-23  │
   └──────────────────────┬──────────────────────────────────┘
                          │ trace identities on the 27
                          ▼
   ┌─ FORCES ────────────────────────────────────────────────┐
-  │  SU(3) × SU(2) × U(1) with sin²θ_W = 3/8 exactly       │
+  │  SU(3) × SU(2) × U(1); sin²θ_W = 3/8 tree-level, non-discriminating │
   │  under D-parity trinification: M_I = 10¹³ GeV (one-loop, no thresholds) │
   └──────────────────────┬──────────────────────────────────┘
                          │ Chern-Simons + dictionary
@@ -821,7 +1034,8 @@ print("""
     A1  why this rule  (minimal description)
     A3  the McKay route  (N = 3 → SL(2,F₃) ≅ 2T → Ê₆ → E₆)
     A4  matter in the fundamental 27
-    A5  chirality  (chiral 16, not vector-like)
+    A5  chirality  (chiral 16, not vector-like — not suppliable by the chain's
+        SL(2) holonomy, E65; the record supplies it by a closing)
     A7  chain's scale = experimenter's
     A8  dictionary c = P, γ₅ = T; identity-preserving on torsion sectors
 
@@ -831,8 +1045,29 @@ print("""
     •  exotic decoupling (the 10+1 in each 27 must acquire masses)
     •  M₆ (sextet Higgs mass; representation content must be specified)
     •  D-parity origin (model assumption in Step 8, not derived)
-    •  generation count (not derived; one chiral generation constructed;
-       h¹(M; 27_ρ) = 3 gives a cohomological origin for three slots (B632))
+    •  generation count (not derived; one generation constructed). Record state:
+       (a) B632's h¹ = 3 is under the PRINCIPAL sl₂ (27 = 17+9+1), typed 1 abelian
+           + 2 chiral; the embedding is I-25, UNEARNED; Brieskorn–Slodowy selects the
+           subregular 13+9+5 (B1257) but the holonomy landing there is unshown;
+       (b) E65: any ρ through SL(2) has 27 ≅ 27̄ — no net-chirality count in this
+           frame; B1260/B1267: closed wall general (PD), cusped abelian sector walled
+           by reciprocity of Δ = t²−3t+1, W1/W2 rigid, index zero;
+       (c) h¹ of a 3-manifold ≡ a 4d generation count is itself I-26, UNEARNED;
+       (d) three generations cannot live in one 27 (16 has multiplicity one, B1255)
+    •  chirality mechanism (A5; the record's θ-odd closing is outside this chain)
+    •  spacetime / Lorentz / gravity (the E₆(−26) branch; outer; fork = rank obstruction)
     •  A8 phase convention (not yet operationally defined)
     •  coupling values at low energy (structure, not values)
+
+  THE PRICE (record accounting, B1261/B1266, 2026-09-06):
+    spends  4 framework axioms + 7 irreducible unearned identifications = 11 free inputs
+            (14 ledger rows outstanding: I-18, I-23 → I-13; I-11 → I-10)
+    buys    0 of the SM's 19 free parameters
+    derives, structurally: E₆ (McKay, I-1 EARNED) · SO(10) grading (D₂, I-22 EARNED) ·
+            real form E₆(−14) (B1265) · descent cut by three characters of the 27 ·
+            one anomaly-free generation (B1253) · hypercharge direction (B864) ·
+            termination at the SM (B863) · global ℤ₆ form (B862, conditional)
+    The two currencies do not convert. (This document's A-labels are chain-axioms
+    named by this seat; the record's "4 axioms" are its framework axioms in its own
+    labelling — different lists, not to be added.)
 """)
