@@ -52,6 +52,6 @@ E₈ has exactly three non-central conjugacy classes of order-3 elements (Kac co
 | **w_{A₂}** — the family rotation | 72 | 56 | 6 | **(134, 57, 57)** | **E₇ × U(1)**: 248 = 133 + 1 + 56 + 56̄ + 1 + 1̄ |
 | **w₃** — the E₆ factor | 6 | 78 | 2 | **(86, 81, 81)** | **E₆ × SU(3)**: 248 = 78 + 8 + (27,3) + (27̄,3̄) |
 
-*(Stated for order-3 lifts; a lift of order 6 or 9 would change the multiplicities. The lattice-level statements of §0 do not depend on this. **R66** builds w₃'s lift in the exact e₆ and finds order 3 with multiplicities (24, 27, 27), settling the E₆ row; the E₈ rows remain under this caveat.)*
+*(Stated for order-3 lifts; a lift of order 6 or 9 would change the multiplicities. The lattice-level statements of §0 do not depend on this. **R66** builds w₃'s lift in the exact e₆ and finds order 3 with multiplicities (24, 27, 27), settling the E₆ row; **R67** builds an exact e₈ and order-3 lifts of all three, confirming every row of this table: no caveat remains.)*
 
 So the founding ratio, its family factor and its E₆ factor realise **all three** order-3 classes of E₈, one each — and the one that *defines* the E₆ × SU(3) family structure is **w₃**, the E₆-internal factor, not the family rotation and not g itself. g is the **SU(9)** element, whose decomposition 248 = 80 + 84 + 84̄ is a different, complex grading of E₈ (84 = Λ³ of the 9), on which g's ω-eigenspace is a complex representation and ω ↔ ω̄ is the choice of 84 versus 84̄. This report records the fact; it does not read it.
