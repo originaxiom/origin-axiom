@@ -1,5 +1,13 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Singular cusp construction, 2026-09-07 (path-local R14):** an explicit
+abelian Higgs field now realizes the prescribed three-source data on a
+hexagonal cusp END. Its Poisson equation and full tube/cusp flux balance
+are verified. This preserves a conditional nonzero relative Euler, not a
+global field or a physical chiral spectrum. The actual core, parent
+representation, source selection and charged operator are still required.
+Source and scope: `reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md`.
+
 **Differential cusp input, 2026-09-06 (path-local R13):** the meridional
 harmonic representative is now a convergence-tested numerical field,
 including its actual period and group/differential transport. Its nonzero

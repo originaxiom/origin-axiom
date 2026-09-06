@@ -1,6 +1,14 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [harmonic cusp field](HARMONIC_CUSP.md), source/test seal 9c646408
+Latest: [singular three-source cusp field](SINGULAR_CUSP.md), seal a6d7c534.
+An explicit torus Green function plus radial zero mode solves the
+prescribed commuting Higgs equation on the hexagonal cusp END. Actual
+flux verifies outward cusp and inward source tubes. The conditional
+plus/minus-three Euler survives the corrected boundary prescription;
+global m202 matching, source/parent selection and charged modes remain
+unestablished. Nine new locks pass; R12--R14 checks: 34 passed.
+
+Preceding: [harmonic cusp field](HARMONIC_CUSP.md), source/test seal 9c646408
 and post-result direct-transport seal afe8f578. The explicitly uncomputed
 leading coefficient is now a convergence-tested numerical 8.52196526983
 at unit meridian period, supporting the narrow annular case. The actual

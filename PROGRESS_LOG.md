@@ -14289,3 +14289,34 @@ seal-marker inventory as R12; review-due 101. Raw receipts are
 HARMONIC_CUSP_REGRESSION_REPEAT.txt and HARMONIC_CUSP_GATES.txt in the
 audit folder. Full-suite green and independent receiving-seat acceptance
 remain unestablished; no PR/merge/push is performed.
+
+### 2026-09-07 — Path-local R14: the singular candidate gets an explicit end field
+
+Continued the owner's physical boundary path rather than discard R72's
+inner-lift, three-line m202 proposal using the different smooth m004
+background. Constructed its prescribed hexagonal cusp-END Higgs field
+from the elliptic theta Green function plus the required radial zero
+mode. Source densities and homogeneous flux are explicit inputs.
+Exact off-source BPS equation, independent finite differences, theta
+library/periodicity controls, actual three-point rotation action and
+complete finite-radius tube/cusp flux all pass. Omitting the radial
+mode or the tube contribution fails its discriminating check.
+
+R72's same-sign inward boundary contains the charge tubes, not the empty
+set. Their Euler is zero, so its conditional plus/minus-three relative
+Euler survives; the physical domain and H0 must nevertheless retain them.
+No global m202 matching, parent field representation or normalizable
+charged spectrum is inferred. The exact local solution supplies a usable
+piece toward that next global physical problem, not a finished TOE.
+
+Seal a6d7c534 before first execution; first producer succeeds without
+capture loss. Nine new locks pass; R12--R14 group is 34 passed, one GUI
+warning in 14.44 seconds. No old scientific seal is changed. Sources,
+proof and output: reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md.
+Local R labels only; CC's B reservation respected; no external write.
+
+R14 reporting gates: 27 pass, 3 fail, unchanged earlier attribution,
+static-vacuity and seal-marker inventory; review-due 103. No new R14
+gate failure. Raw receipt SINGULAR_CUSP_GATES.txt is retained. Hashes
+and original sealed bytes are checked again before the local commit;
+neither full-suite green nor independent/main-bank certification is claimed.

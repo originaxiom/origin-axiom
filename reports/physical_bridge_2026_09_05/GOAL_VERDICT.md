@@ -1,4 +1,4 @@
-# Verdict toward the full physical-theory goal — 2026-09-06, after path-local R13
+# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R14
 
 **Real conditional physical progress; a complete TOE is not established.**
 The audit now includes an executable four-dimensional gauge/scalar/fermion
@@ -40,6 +40,16 @@ This is a live DIFFERENT background, not excluded by the smooth m004
 annular calculation. Its unconstructed source field, physical fibre
 lift and complete operator are explicit next verification targets;
 R13 does not certify the reported three-family physical interpretation.
+
+R14 now constructs a necessary piece of that live singular candidate:
+an explicit commuting Higgs field on the hexagonal cusp END with three
+prescribed line densities. Its equation and complete tube/cusp flux pass;
+the corrected inward-tube prescription preserves the conditional
+plus/minus-three Euler. This is not global matching through m202 or a
+physical zero-mode count. Source densities, radial flux data, parent
+representation and gauge/fibre transport are still explicit duties of
+that construction. [R14](SINGULAR_CUSP.md). Nine new locks pass; the
+R12--R14 group is 34 passed in 14.44 seconds. The full goal stays active.
 
 There is no defensible percentage-complete estimate. Several outstanding
 items are conceptual derivations and empirical tests, not quantities of

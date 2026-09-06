@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-07 — Path-local R14: construct the singular cusp end, preserve the live route
+
+An explicit theta-function Green potential and radial z^2 log(z) mode
+solve the prescribed commuting three-line Higgs source equation on the
+hexagonal cusp end. Complete flux balances to 4e-15; omitting the inward
+charge tubes fails. R72's empty-inward-boundary sentence is corrected
+without discarding its conditional plus/minus-three Euler. Density and
+homogeneous flux data remain inputs; global m202 matching, parent gauge
+representation and normalizable charged modes are not inferred.
+Seal a6d7c534; first producer succeeds, nine new tests pass, 34 passed
+in the R12--R14 group. `reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md`.
+CC's reservation is respected: no B allocation or remote write.
+
 ## 2026-09-06 — Path-local R13: a harmonic field replaces a genericity assumption
 
 The SM-seat sB1277 leading-coefficient caveat is now tested numerically:

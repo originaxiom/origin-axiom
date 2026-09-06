@@ -2518,3 +2518,15 @@ axis/census/representation producers are located but not independently
 certified in R13. Preserve R12's actual m202 fixed-point witness and R72's
 listed sign/manifold/fibre-lift questions; do not turn a reported index
 into a completed physical chirality derivation.
+
+**R14 movement, same lead (2026-09-07):** the prescribed singular END
+field is now explicit: torus Green potential plus radial z^2 log(z)
+term, satisfying the abelian sourced Higgs equation. Its tube/cusp flux
+balances; inward tubes are not empty, while their zero Euler preserves
+the conditional three-line count. The next unsatisfied requirement of
+this construction is GLOBAL CORE MATCHING on the actual m202 complement,
+with source density/flux data, parent representation and gauge/fibre
+transport specified before counting charged normalizable modes. This is
+not a universal absence claim. Preserve R72's inner-lift/sign/manifold
+questions and R13's different smooth solution. Source:
+`reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md`.

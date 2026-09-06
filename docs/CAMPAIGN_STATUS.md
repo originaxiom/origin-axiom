@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL AUDIT (2026-09-07, path-local R14): the singular cusp field exists explicitly.**
+For the prescribed three source densities on the hexagonal cusp END,
+the theta Green function plus radial zero mode solves the abelian Higgs
+equation and carries the complete escaping flux. Charge tubes are inward,
+not empty; their Euler is zero, so the corrected conditional three-line
+index survives. Global core matching and the actual charged operator
+remain the next physical duties. No source/parent/fibre identification is
+promoted by this end solution. Nine new locks pass, 34 in R12--R14.
+`reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md`; no B allocation.
+
 **LATEST LOCAL AUDIT (2026-09-06, path-local R13): an actual harmonic field input.**
 The unit-meridian-period cusp coefficient is numerically 8.52196526983,
 stable through six fits including relaxed symmetry. Actual group-generator

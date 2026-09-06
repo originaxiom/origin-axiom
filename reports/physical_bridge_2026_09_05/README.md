@@ -1,6 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [R13's computed harmonic cusp field](HARMONIC_CUSP.md).** The
+**Latest: [R14's singular three-source cusp field](SINGULAR_CUSP.md).**
+The live R72 candidate now has an explicit commuting Higgs solution on
+its hexagonal cusp END. The full flux balances only with inward source
+tubes, preserving the conditional three-line Euler with the right subset.
+The formula retains free flux/source data; it does not solve global m202
+matching or derive a physical chiral spectrum. Nine new tests pass;
+34 passed in the R12--R14 group. Earlier broad-suite failures remain.
+
+**Preceding: [R13's computed harmonic cusp field](HARMONIC_CUSP.md).** The
 leading coefficient is numerically 8.52196526983 at unit meridian period;
 six fits and direct group/differential transport support the particular
 annular asymptotic case. A nonzero-period 1-form is not L2 on the complete
