@@ -799,6 +799,10 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
   The cusp (R69–R71): Fix(θ) = two arcs gives a count of ±2 as a singular θ-even locus, and on every
   θ-even direction tested the spectrum is vector-like or carries an SU(3) cubic anomaly; a θ-odd field
   gives χ(∂⁺M) = 0 exactly (region swap). All three benches (SM seat, main, fc) agree — R71.
+  R72 (frontier): those "θ-even" statements use the record's outer lift of θ to E₆; the inner lift (B353's
+  own item (B)) makes every direction even and gives 2 × (16 ⊕ 10 ⊕ 1) on m004. On the two-cusped
+  tetrahedral manifold m202 (commensurable with m004) the order-3 isometry fixes three lines, its lift is
+  forced inner, and the count is 3 × (16 ⊕ 10 ⊕ 1) of SO(10) — three, with the remaining choices listed.
 - **chirality mechanism** — A5 is an axiom here; the record's mechanism (a θ-odd closing,
   B432/B576/B582) is not part of this chain, and the slope it selects is a free input.
 - **spacetime, Lorentz, gravity** — the E₆(−26) branch (B1140) is an outer real form; the object's

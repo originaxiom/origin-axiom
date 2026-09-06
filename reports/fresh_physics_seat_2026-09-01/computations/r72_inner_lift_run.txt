@@ -1,0 +1,55 @@
+(a) Ad(exp(pi i rho^vee)): fixed roots 32 -> fixed algebra dim 38 (A5+A1 = 35+3 = 38)
+(b) Ad(exp(2 pi i rho^vee/3)): fixed roots 18 -> fixed algebra dim 24 (A2^3 = 24)
+    types: ['A1', 'A5'] ['A2', 'A2', 'A2']
+    the fixed Cartan of either is all of h (the elements lie in the torus): every direction u is 'even'.
+
+(c) untwisted count S_1(u) = (+)_{q>0} 27_q (+) (+)_{q<0} conj(27_q), all directions with coefficients in {-1,0,1,2} (3668 up to scale/sign):
+C(u)prime        roots  #dirs  vector-like  chiral+anomalous  chiral+anomaly-free
+D5               40     27     0            0                 27
+A5               30     36     36           0                 0
+D4               24     95     95           0                 0
+A1+A4            22     186    0            186               0
+A4               20     204    0            34                170
+A1+A2+A2         14     116    0            116               0
+A1+A3            14     292    0            292               0
+A2+A2            12     15     0            15                0
+A3               12     285    129          156               0
+A1+A1+A2         10     206    0            84                122
+A1+A2            8      394    0            310               84
+A1+A1+A1         6      227    227          0                 0
+A2               6      313    16           297               0
+A1+A1            4      571    571          0                 0
+A1               2      553    553          0                 0
+-                0      148    148          0                 0
+
+chiral AND anomaly-free directions: 403; by centralizer type: Counter({'A4': 170, 'A1+A1+A2': 122, 'A1+A2': 84, 'D5': 27})
+
+fundamental coweights (n = 1 copy shown; n fixed lines give n copies):
+  omega_1^vee: C(u)' = D5 (40 roots); S_1 = 1 x 16(1, 0, 0, 0, 0) + 1 x 10(0, 0, 0, 1, 0) + 1 x 1(0, 0, 0, 0, 0); chiral: True; anomalies {'D5': '0'}
+  omega_2^vee: C(u)' = A5 (30 roots); S_1 = 1 x 6(0, 0, 0, 1, 0) + 1 x 6(0, 0, 0, 0, 1); chiral: False; anomalies {'A5': '0'}
+  omega_3^vee: C(u)' = A4+A1 (22 roots); S_1 = 1 x 10(1, 0, 0, 0, 0) + 1 x 10(0, 0, 0, 1, 1) + 1 x 5(0, 0, 1, 0, 0) + 1 x 2(0, 0, 0, 0, 1); chiral: True; anomalies {'A4': '-2', 'A1': '0'}
+  omega_4^vee: C(u)' = A2+A2+A1 (14 roots); S_1 = 1 x 6(1, 0, 0, 1, 0) + 1 x 6(0, 1, 0, 1, 0) + 1 x 3(0, 0, 1, 0, 0) + 1 x 3(0, 0, 0, 0, 1); chiral: True; anomalies {'A2': '1', 'A1': '0'}
+  omega_5^vee: C(u)' = A4+A1 (22 roots); S_1 = 1 x 10(0, 1, 0, 0, 0) + 1 x 10(0, 0, 1, 1, 0) + 1 x 5(0, 0, 0, 0, 1) + 1 x 2(0, 0, 1, 0, 0); chiral: True; anomalies {'A4': '2', 'A1': '0'}
+  omega_6^vee: C(u)' = D5 (40 roots); S_1 = 1 x 16(0, 0, 1, 0, 0) + 1 x 10(0, 0, 0, 0, 1) + 1 x 1(0, 0, 0, 0, 0); chiral: True; anomalies {'D5': '0'}
+
+anomaly-free chiral directions, largest centralizers first:
+  u = (-1, -1, 0, 1, 0, 0): C(u)' = D5 (40 roots); S_1 = 1 x 16(0, 0, 1, 0, 0) + 1 x 10(1, 0, 0, 0, 0) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(0, 0, 1, 0, 0) + -1 x 16(0, 0, 0, 0, 1)
+  u = (-1, -1, 1, 0, 0, 0): C(u)' = D5 (40 roots); S_1 = 1 x 16(1, 0, 0, 0, 0) + 1 x 10(0, 0, 0, 0, 1) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(1, 0, 0, 0, 0) + -1 x 16(0, 0, 0, 1, 0)
+  u = (-1, 0, 0, 0, 0, 0): C(u)' = D5 (40 roots); S_1 = 1 x 16(0, 0, 0, 0, 1) + 1 x 10(0, 0, 0, 1, 0) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(0, 0, 0, 0, 1) + -1 x 16(1, 0, 0, 0, 0)
+  u = (-1, 0, 0, 0, 0, 1): C(u)' = D5 (40 roots); S_1 = 1 x 16(1, 0, 0, 0, 0) + 1 x 10(0, 0, 0, 0, 1) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(1, 0, 0, 0, 0) + -1 x 16(0, 0, 1, 0, 0)
+  u = (-1, 0, 0, 0, 1, -1): C(u)' = D5 (40 roots); S_1 = 1 x 16(1, 0, 0, 0, 0) + 1 x 10(0, 0, 0, 0, 1) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(1, 0, 0, 0, 0) + -1 x 16(0, 0, 1, 0, 0)
+  u = (-1, 0, 0, 1, -1, 0): C(u)' = D5 (40 roots); S_1 = 1 x 16(1, 0, 0, 0, 0) + 1 x 10(0, 0, 0, 0, 1) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(1, 0, 0, 0, 0) + -1 x 16(0, 0, 1, 0, 0)
+  u = (-1, 0, 1, -1, 1, 0): C(u)' = D5 (40 roots); S_1 = 1 x 16(0, 0, 1, 0, 0) + 1 x 10(1, 0, 0, 0, 0) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(0, 0, 1, 0, 0) + -1 x 16(0, 0, 0, 0, 1)
+  u = (-1, 0, 1, 0, -1, 1): C(u)' = D5 (40 roots); S_1 = 1 x 16(0, 0, 1, 0, 0) + 1 x 10(1, 0, 0, 0, 0) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(0, 0, 1, 0, 0) + -1 x 16(0, 0, 0, 0, 1)
+  u = (-1, 0, 1, 0, 0, -1): C(u)' = D5 (40 roots); S_1 = 1 x 16(0, 0, 1, 0, 0) + 1 x 10(1, 0, 0, 0, 0) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(0, 0, 1, 0, 0) + -1 x 16(0, 0, 0, 0, 1)
+  u = (-1, 0, 1, 0, 0, 0): C(u)' = D5 (40 roots); S_1 = 1 x 16(0, 0, 0, 0, 1) + 1 x 10(0, 0, 1, 0, 0) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(0, 0, 0, 0, 1) + -1 x 16(0, 0, 0, 1, 0)
+  u = (-1, 1, 0, 0, 0, 0): C(u)' = D5 (40 roots); S_1 = 1 x 16(0, 0, 0, 1, 0) + 1 x 10(1, 0, 0, 0, 0) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(0, 0, 0, 1, 0) + -1 x 16(0, 0, 0, 0, 1)
+  u = (-1, 1, 1, -1, 0, 0): C(u)' = D5 (40 roots); S_1 = 1 x 16(1, 0, 0, 0, 0) + 1 x 10(0, 0, 0, 0, 1) + 1 x 1(0, 0, 0, 0, 0); chiral part 1 x 16(1, 0, 0, 0, 0) + -1 x 16(0, 0, 1, 0, 0)
+
+one example per anomaly-free chiral centralizer type (smallest |c| first):
+  A1+A1+A2   u = (-1, 0, 0, -1, 0, 0): S_1 = 1 x 6(0, 0, 1, 1) + 1 x 6(1, 1, 0, 0) + 1 x 4(1, 0, 0, 1) + 1 x 3(0, 0, 1, 0) + 1 x 3(0, 1, 0, 0) + 1 x 2(1, 0, 0, 0) + 1 x 2(0, 0, 0, 1) + 1 x 1(0, 0, 0, 0);  chiral part = 1 x 6(0, 0, 1, 1) + -1 x 6(0, 1, 0, 1) + 1 x 6(1, 1, 0, 0) + -1 x 6(1, 0, 1, 0)
+  A1+A2      u = (-1, -1, 0, -1, 0, 0): S_1 = 1 x 6(1, 1, 0) + 3 x 3(0, 0, 1) + 1 x 3(0, 1, 0) + 3 x 2(1, 0, 0) + 3 x 1(0, 0, 0);  chiral part = 1 x 6(1, 1, 0) + -1 x 6(1, 0, 1) + 2 x 3(0, 0, 1) + -2 x 3(0, 1, 0)
+  A4         u = (-1, -1, 0, 0, 0, 0): S_1 = 1 x 10(0, 1, 0, 0) + 1 x 5(1, 0, 0, 0) + 2 x 5(0, 0, 0, 1) + 2 x 1(0, 0, 0, 0);  chiral part = 1 x 10(0, 1, 0, 0) + -1 x 10(0, 0, 1, 0) + -1 x 5(1, 0, 0, 0) + 1 x 5(0, 0, 0, 1)
+  D5         u = (-1, 0, 0, 0, 0, 0): S_1 = 1 x 16(0, 0, 0, 0, 1) + 1 x 10(0, 0, 0, 1, 0) + 1 x 1(0, 0, 0, 0, 0);  chiral part = 1 x 16(0, 0, 0, 0, 1) + -1 x 16(1, 0, 0, 0, 0)
+
+SELFTEST: PASS

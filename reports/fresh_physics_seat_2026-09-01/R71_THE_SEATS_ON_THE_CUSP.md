@@ -18,6 +18,8 @@ All three are right about their object, and they are three faces of one statemen
 
 > **On m004 the cusp cannot supply a chiral spectrum by any of the routes examined.** A θ-odd field gives χ(∂⁺M) = 0 identically (§2, exact — no leading-mode assumption). A θ-even singular locus gives a count of ±2, and on every one of 928 θ-even directions tested the resulting left-handed spectrum is either vector-like under the non-abelian unbroken group or carries a nonzero SU(3) cubic anomaly (§3) — so it is not the spectrum of any consistent configuration. The parity theorem (§1) says the same count is ≤ 2 in absolute value on any one-cusped manifold.
 
+> **Banner (R72, 2026-09-06).** §0's headline and §3 hold under the record's *outer* lift of θ to E₆ (θ_D, B353). B353's item (B) shows the involution also lifts *inner* (Ad(ι(N)), type A₅⊕A₁, whole Cartan fixed); under the inner lift every direction is even, the twist is trivial, and the ±2 on the SO(10) direction is 2 × (16 ⊕ 10 ⊕ 1) — chiral and anomaly-free. §1 and §2 (the cusp tables and the θ-odd region-swap theorem) are lift-independent. See R72.
+
 ## 1. The isometry tables agree, exactly (part 1 §a–b)
 
 R62's exact data — ι = translation by τ/2, σ = −z, mirror z ↦ z̄ + ½ + τ/4 on ℂ/(ℤ+ℤτ), τ = 2√3 i — generate the eight affine maps. In the SM seat's coordinates (x along λ, y along μ):
