@@ -6581,6 +6581,26 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1293": {
+   "slug": "seat harvest 2026-09-06",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "H5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B129": {
    "slug": "sl3 tower sealed",
    "motifs": [

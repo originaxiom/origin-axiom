@@ -1,5 +1,24 @@
 # Changelog
 
+## SEAT HARVEST — the SM group is reached, I-14 becomes a point, and main's B1290 was second
+
+**B1293.** Codex, as asked: **nothing new** (head R040, already harvested). Two other seats pushed today.
+
+**Confirmed here from structure alone:** fc's **120** A₂ / **40** A₂³ subsystems of E₆; R68's labelling
+grading the 27 as **9+9+9**; and the SM seat's **z_L as an A₁A₅ involution** (15+12 split, centralizer
+**dim 38 = 3+35**, `27|SU(2)×SU(6) = (2,6̄)⊕(1,15)`).
+
+**Calibration:** 9+9+9 is **178 of 728 labellings — the most common shape**. R68's content is the
+**two-sided ℤ[g]-stability** (40 → 4 → 1), *not* the partition.
+
+**Two results main lacked:** the SM seat's **first vacuum with the Standard-Model group**
+(`W = z_L ∘ χ_j` + ⟨N⟩, ⟨ν^c⟩ ⇒ su(3)⊕su(2)⊕u(1)_Y), and fc's **I-14 → a point** (85 → 40 → 4 → 1).
+**And the obstruction with them:** three generations of Q, u^c, e^c ⇒ **SU(5) unbroken** — scoped by
+them to the *closed* closing.
+
+**Priority, plainly: fc's R56 had `net chirality = χ(M,∂⁺M)` before B1290.** Main's arcs are
+independent confirmation and extension. **I-26 untouched.**
+
 ## THE HATCH IS SATISFIABLE (m202) AND MIS-SCOPED — and the second half matters more
 
 **B1292.** B1291's escape — *go multi-cusped inside m004's commensurability class* — was run.

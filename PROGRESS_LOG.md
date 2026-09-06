@@ -14487,3 +14487,50 @@ claims m202 *is* the object (m004 is, by the axioms and the genesis theorem).
 ℚ(√−3)), not from a computed invariant trace field — that needs Sage, which is not this repo's
 canonical env. m202 is **not** a degree-2 or degree-3 cover of m004 (checked). **"Keeps E₆" is
 inferred from 2T via the McKay door; the chain's transport to m202 is UNRUN.**
+
+---
+
+## 2026-09-06 — B1293: seat harvest — the SM group is reached, I-14 becomes a point, and my B1290 was second
+
+**Codex, as asked: nothing new.** Its head is **R040 (2026-09-02)**, harvested at B1238/B1239. Two
+*other* seats pushed the same day, and both land on the main goal.
+
+**Confirmed here, from structure alone** (not accepted from the seats):
+
+- fc **R65/R68**: E₆ has **120** A₂ and **40** A₂³ subsystems — built from E₈ roots, matching
+  `|W(E₆)|/|W(A₂)³⋊S₃| = 51840/1296`.
+- fc **R68**: the labelling `c = (1,0,2,2,0,2)` grades the 27 as **9+9+9**, and so does its θ-flip.
+- SM seat **B1277**: `z_L` is an **A₁A₅ involution** — a ℤ/2 grading splitting the 27 as **15+12**
+  has centralizer **dim 38 = 3+35**, and `27|SU(2)×SU(6) = (2,6̄)⊕(1,15) = 12+15`, with `78 = 38+40`.
+
+**The calibration that changes how R68 gets cited.** **9+9+9 occurs in 178 of 728 labellings —
+24.5%, the *most common* shape, not a rare one.** R68's content is the **two-sided ℤ[g]-stability**
+that cuts **40 → 4 → 1**, *not* the partition. Citing "9+9+9" as the discovery is precisely the
+E61/E63 misreading (right arithmetic, wrong attribution).
+
+**Two results main did not have.**
+1. **The first vacuum of the programme with the Standard-Model group** (SM seat): the closing's own
+   sign character composed with the SU(2)_L centre, `W = z_L ∘ χ_j`, with ⟨N⟩, ⟨ν^c⟩, leaves
+   **su(3) ⊕ su(2) ⊕ u(1)_Y** unbroken.
+2. **I-14 collapses to a point** (fc R68): `85 → 40 → 4 → 1`, mirror-invariant. **fc's own fence
+   carried:** *it is not exhibited that the physical trinification **is** this subsystem rather than
+   one of the other 39.*
+
+**And the obstruction that came with them.** SM seat: **every vacuum with three generations of Q,
+u^c, e^c keeps SU(5) unbroken** — *"two generations of Q and L is the closing's Standard Model."*
+**Their scoping, carried:** a property of the **closed** closing, *"which is vector-like anyway"*;
+the chiral closing is still to be constructed.
+
+**Priority, stated plainly.** **fc's R56 derived `net chirality = χ(M, ∂⁺M)` — *"zero for a knot"*,
+*"the record's seven chirality walls are one theorem"* — before main's B1290.** So B1290/B1291 are
+**independent confirmation and extension, not discovery.** B1291 does go strictly further: B1277 §4
+enumerates three candidate ∂⁺M (empty, annulus, torus), where B1291 proves the **general criterion**,
+classifies **all 54** involutions, and adds the **parity theorem**.
+
+**One distinction recorded so nobody conflates it:** fc's **R61** θ is a real structure **on the
+fibre** (`Fix` = two arcs); **R62**'s `θ = −I` is **on the cusp torus** (`Fix` = 4 isolated points).
+Different spaces, not a contradiction — a closed surface has no boundary for an arc to end on.
+
+**Fences.** **Not verified here:** R68's icosian `4 → 1` collapse, the SM seat's vacuum-manifold
+scan, its Wilson-line stabiliser, and its SU(5) theorem — all carried as harvest with attribution.
+**No ledger row moves; I-26 untouched.** Seat arcs cited as `sB1272…sB1277` per the alias table.
