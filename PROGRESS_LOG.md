@@ -14170,3 +14170,26 @@ of repo."* **Harvested, not merged.** Only what could be verified on main's data
   **codex's selector is an ORIENTATION selector.** **The open join: is the geometric class the
   extendable one?** That is now the concrete next computation on I-6.
 - **⚠ B1267 is doubly used** (main's, and the SM-derivation branch's renumbering). Flagged at B1272.
+
+### THE JOIN CLOSES — the extendable class IS the geometric class (B1273 addendum, 2026-09-06)
+
+The harvest left one open question: *is the geometric class the extendable one?* — the join of the
+owner's arithmetic separator and codex's topological one. **It closes, and by a forced mechanism.**
+
+- **SnapPy 3.3.2 confirms m000's orientation cover IS m004** (cyclic, degree 2, vol 1.0149 → 2.0299).
+- With π₁(m000) = ⟨a,b | aabbAB⟩: **72 homomorphisms to 2T, 48 SURJECTIVE** — **exactly codex R037's
+  independently reported count.**
+- H₁(m000) = ℤ, so the orientation character is nontrivial on **both** generators: **m000's meridian a
+  is orientation-REVERSING**, hence **m004's meridian is a².**
+- **ord(ρ(a)) takes BOTH values {6: 24, 3: 24}** — but **ord(ρ(a²)) is {3: 48}, never 6.**
+- **THE MECHANISM IS FORCED:** 2T's orders are **{1,2,3,4,6}**, so **ord(x²) ∈ {1,2,3} always** —
+  **squaring can never produce order 6.** Since m004's meridian is a **square** in π₁(m000), any
+  quotient extending over m000 has **meridian order 3**. **The non-geometric class is unreachable by
+  extension, by parity.**
+- **SO THE TWO SELECTORS AGREE:** the owner's **arithmetic** (geometric = mod (1−ω) = order 3) and
+  codex's **topological** (extends over m000) **pick the same class** — and codex's is revealed as an
+  **orientation** selector in a precise sense.
+- **I-6's multiplicity objection is FULLY PAID, no residue** — *"the 2T"* is canonical. The row stays
+  **UNEARNED**: the map to the transverse ALE Γ is a *different* debt from *which* 2T.
+- **For the H5 census: the first of its eight measured multiplicities COLLAPSED TO A POINT** by two
+  concordant selectors rather than merely counted — a genuine dent in the pattern, not a rephrasing.

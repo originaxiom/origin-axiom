@@ -38,3 +38,18 @@ def test_twisting_one_generator_is_not_a_homomorphism():
     minus = [z for z in H.centre() if z != H.I][0]
     valid = sum(1 for (A, B) in S if (H.mul(A, minus), B) in lab)
     assert valid == 0
+
+
+def test_the_join_the_extendable_class_is_the_geometric_one():
+    """m004's meridian is a^2 in pi_1(m000); squaring can never give order 6 in 2T."""
+    H = _mod()
+    G, I, mul = H.G, H.I, H.mul
+    REL000 = "aabbAB"
+    surj = [(A, B) for A in G for B in G
+            if H.ev(REL000, A, B) == I and len(H.T.generated([A, B])) == 24]
+    assert len(surj) == 48, len(surj)                       # codex R037's count
+    orders_a = {H.order(A) for A, B in surj}
+    assert orders_a == {3, 6}, orders_a                     # control: both occur
+    orders_a2 = {H.order(mul(A, A)) for A, B in surj}
+    assert orders_a2 == {3}, orders_a2                      # but the square is always 3
+    assert 6 not in {H.order(mul(g, g)) for g in G}         # squaring never gives 6 in 2T
