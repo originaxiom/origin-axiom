@@ -2452,7 +2452,9 @@ a sign choice ("in the menu {0, ±1, ±2, ±3, ±4, ±6}, not selected"), PW cit
 computations:** (i) verify the count independently (the three lines and their endpoints, the charge assignment, the
 lift) with this branch's Fox and isometry machinery on π₁(m202) = ⟨a, b | aabbAbAABBaB⟩; (ii) B1280's question on m202:
 the local systems of π₁(m202) and whether its twelve isometries pair each with its dual on cohomology (the analogue of
-ι\* = θ) — if they do, the flat-connection count is zero there too and only the singular-locus count remains; (iii) whether
+ι\* = θ) — **DONE 2026-09-07 (B1282): they do. The inversion of m202 acts on all six E₆ slots as (−1)^{n/2+1} = θ's sign,
+uniquely among the twelve isometries (360-bit Fox calculus, h¹ = 2 per slot), so N(27) ≡ 0 on the germ and only the
+singular-locus count remains**; (iii) whether
 the E₆ chain (B1270's two faces) transports to m202 unchanged — the invariant trace field and 2T do, the founding ratio
 and the Fibonacci tower need checking; (iv) the price: what m202 costs in the identification ledger (the object is m004; a
 sibling is a new input unless commensurability is shown to be the object's own choice). ★★★ — the only route on the board

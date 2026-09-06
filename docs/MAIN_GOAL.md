@@ -191,3 +191,6 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   the ±2 a different quantity (singular θ-even charge locus, lift-dependent; the outer lift forced on the geometric
   germ by B1280). New: the parity theorem (3 excluded on one cusp) and the two-cusped sibling m202 with fc's fenced
   3·(16 ⊕ 10 ⊕ 1) — L208, the only written-down three on the board.
+- **The sibling's germ (B1282).** On m202 the inversion acts on all six E₆ deformation slots as θ's sign, uniquely among
+  its twelve isometries; B1280's theorem transfers and N(27) ≡ 0 near m202's geometric point too. fc's three is a
+  singular-locus count only. E70 (an anti-homomorphism masked by symmetry) caught and fixed; B1280's signs unchanged.

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1190** |
-| words of findings prose | **845,970** |
-| test lock files referenced | **704** |
-| arcs carrying an authored verdict | **1190** (100.0 %) |
+| research arcs with findings | **1191** |
+| words of findings prose | **847,772** |
+| test lock files referenced | **705** |
+| arcs carrying an authored verdict | **1191** (100.0 %) |
 | recorded closures | **783** (616 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 781 |
+| PROVED | 782 |
 | NEGATIVE | 311 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1281`** (2235 words, 1 locks)  
-THE SEATS VERIFIED (2026-09-07). Fetched origin/main @ 506c591f (main's B1267, B1272-B1277, B1290-B1294), the physics seat @ 659487bb (R56-R72) and codex @ f7a49536 (R040); every relevant script re-run on this bench from detached worktrees, every one passing its own selftest (main: deciding.py, index_formula.py, m202.py, harvest_chirality_bit.py and 29 lock tests; fc: r69, r71 x2, r72, r72b, r72_m202_snappy, r72d; codex: r040), and every load-bearing statement re-derived with this branch's own code: the eight cusp maps' |Fix| = |det(A - I)| = [0,0,4,4,0,0,0,0] (B1291's parity: even with one cusp, 3 only from the order-3 rotation, excluded on m004); the Lefschetz numbers L(g) = 1 - s_mu in {0, 2} (B1294); the inner lifts of the inversion to E6 fixing A5+A1 (dim 38, 32 roots) and, for order 3, A2^3 (dim 24, 18 roots), the outer lift fixing f4 (fc R72); the theta-odd region-swap theorem chi(d+) = chi(d-) = 0 with a failing disc control (fc R71); m202's invariants from SnapPy (2 cusps, 4 v_tet, hexagonal, |Sym| = 12, chiral; B1292). RECONCILED: main's B1267 and B1280 agree (N = 0 on W1/W2) and B1280 refines it -- the non-rigid locus main's addendum says a revival must construct is the curve K, and N = 0 there by V = tau^* V*; R71's region-swap theorem makes the B1277 addendum's theta-odd 'no' exact and voids its c_(+-2,0) caveat (main's door D4 moot for the smooth field); fc's +-2 is a singular theta-even charge-locus count, a different quantity from N, right about its object, lift-dependent -- and B1280 fixes the lift on the geometric germ (outer, forced off F4), so the inner-lift counts 2(16+10+1) on m004 and 3(16+10+1) on m202 live on abelian backgrounds about which B1280 is silent. NEW HERE: the parity theorem (3 excluded on one cusp), the two-cusped sibling m202 (commensurable, keeps Q(sqrt-3) and 2T, Z/6, three fixed lines cusp 0 -> cusp 1) as a third possible carrier of the chirality bit, fc's fenced frontier count 3(16+10+1) there, main's doors D1/D2/D4, and the alias table (this branch's arcs cited on main as sB1267...; B1277 collides too; B1278-B1283 are this branch's). L208 registered; L204's caveat closed. 0 of 19; price unchanged.  
-`B1281_the_seats_verified/FINDINGS.md`
+**PROVED — `B1282`** (1710 words, 1 locks)  
+THE SIBLING'S GERM. On the two-cusped sibling m202 (pi_1 = <a, b | aabbAbAABBaB>, Sym = D_6, commensurable with the object, Q(sqrt-3), 2T) the twelve isometries are found as automorphisms of pi_1 by exhaustive word search (180 automorphisms, twelve classes by H_1 action and cusp permutation -- fc R72b's numbers by an independent route); the Zariski tangent space of the E_6 character variety at the geometric point is H^1(m202; e_6) = sum over n in {2, 8, 10, 14, 16, 22} of H^1(m202; Sym^n rho), h^1 = 2 on every even slot (one class per cusp) and 0 on the odd ones (360-bit Fox calculus, every residual <= 10^-55); each isometry's 2x2 action on each slot has eigenvalues that are roots of unity of order dividing 6, and THE INVERSION (a -> a^-1, b -> b^-1) ACTS ON EVERY SLOT AS THE SCALAR (-1)^(n/2+1) = THE E_6 OUTER AUTOMORPHISM'S SIGN (+1 on f_4's slots 2, 10, 14, 22; -1 on the 26's slots 8, 16), uniquely among the twelve (the cusp-swapping involutions act by (1, -1) on every slot, the rotations of order 3 and 6 by (omega, omega-bar) on the slots n = 2 mod 6 and trivially or by -1 on the rest). Hence B1280's theorem transfers: theta rho = iota^* rho on the germ, 27bar_rho = iota^*(27_rho), and N(27_rho) = 0 identically for every theta-odd deformation of m202's geometric E_6 holonomy -- the flat E_6 sector of the sibling is vector-like near its geometric point, and fc's count of three on the three fixed lines is a singular-locus Pantev-Wijnholt count only, as fc fenced it (L208's flat half closed). On the way an error of a new class was caught and fixed at source (E70): the Sym^n routine of B1280 was an anti-homomorphism, masked on m004 by the inversion being an automorphism (the reversed relator dies) and by involutions having Ad(g) = Ad(g^-1); the order-3 isometries of m202 exposed it; B1280's six signs re-computed with the corrected, asserted homomorphism over both primes are unchanged. 0 of 19; price unchanged.  
+`B1282_the_siblings_germ/FINDINGS.md`
 
 **NEGATIVE — `B1262`** (520 words, 0 locks)  
 I-9 REFUTED: THERE IS NO 'GENUS V4' FOR DISCRIMINANT -15, and the row had carried its own discriminator UNRUN. B1261 measured the trade at 15 unpriced inputs : 0 of the SM's 19 numbers and named two moves -- earn an identification (-1) or derive a parameter (+1); the ratchet's arithmetic contains a THIRD and cheaper one, REFUTE, which also removes a row from the UNEARNED set. I-9 was the candidate because its own text said 'the genus group of disc -15 has order 2^(t-1) = 2, not 4' and nobody had run it. COMPUTED: disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2 genera, so the genus group has ORDER 2 against Gal(Q(sqrt-3,sqrt5)/Q)'s ORDER 4. THERE IS NO GENUS V4 FOR DISC -15: the object the row NAMES does not exist, and the identification is false as stated. THE FALLBACK READING FAILS TOO on the programme's own rules -- reading side B as Gal does match orders 4 = 4, but that is an ORDER MATCH which B1223 established is not a connection ('Direct is not semidirect': the groups matched, the action did not), and B155's own row calls the glue a GL(4,Z)-class invariant 'not forced by the spectral type', i.e. LATTICE data against Gal's FIELD data, so a canonical map cannot exist. CONTROLS BOTH WAYS: the class-number routine is validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) BEFORE being trusted, which caught a real bug -- a first draft returned h(-15) = 3 by admitting (1,-1,4), which is not reduced since b >= 0 is required when |b| = a -- and discriminants with t = 3 (-84, -120) DO give 4 genera, so order 2 is a fact about -15 and not about the method. THE PRICE: UNEARNED 11 -> 10, the trade moves from 15 : 0 to 14 : 0, the first reduction, and it came from running a discriminator the register had been carrying all along.  

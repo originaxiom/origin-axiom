@@ -122,7 +122,7 @@ the trace coordinates), the inversion ι does it for the E₆ family (on the who
 | **O3 — the general theorem** | *conjecture:* N(V) = 0 for every representation of π₁(m004). Mechanism in every case computed: an isometry pairs V with V\* on cohomology (ι for the abelian and E₆ sectors, τ for the SL(3) elliptic components on K), or the cusp keeps no fixed vector | a proof would need, for each V with cusp-fixed vectors, an isometry σ with σ\*V\* ≅ V — false as stated off K on W1/W2, where the bound does the work; the right general statement is not yet formulated |
 | **O4 — the singular G₂ closing** | the destination's item 1: the conical G₂ geometry over the object's E₆ locus, where chirality is a 7-dimensional index (Acharya–Witten), not an h¹ of m004 | the only place C3 can still come from, given W-closed, W-flat-G₂ and the two new walls; I-26 is earned or refuted there |
 | **O5 — the sign** | C4: the orientation of the singular closing, or the observer's registration (B871) | not a computation on the object: B713/B760 |
-| **O6 — the two-cusped sibling (from the seats, B1281)** | m202: tetrahedral, vol = 2 vol(m004), commensurable with the object (cusped arithmetic over ℚ(√−3)), keeps 2T (96 surjections), Sym = D₆, chiral, a ℤ/6 whose order-3 element fixes three geodesic lines running cusp 0 → cusp 1. fc R72's fenced count on them: the inner lift is forced for order 3, every Cartan direction is even, and Pantev–Wijnholt's count with equal charges is 3·(16 ⊕ 10 ⊕ 1) on the SO(10) direction, anomaly-free (or 3·(10 ⊕ 5̄), or one quark family) — "three is in the menu, not selected by it"; PW cited not derived; I-26 unpaid | L208: verify the count independently (lines, charges, lift); ask B1280's question on π₁(m202) — which local systems are isometry-paired with their duals; whether a closing of m202 keeps a count (B1294's theorem says a closed one keeps the 2 only if amphicheiral) |
+| **O6 — the two-cusped sibling (from the seats, B1281)** | m202: tetrahedral, vol = 2 vol(m004), commensurable with the object (cusped arithmetic over ℚ(√−3)), keeps 2T (96 surjections), Sym = D₆, chiral, a ℤ/6 whose order-3 element fixes three geodesic lines running cusp 0 → cusp 1. fc R72's fenced count on them: the inner lift is forced for order 3, every Cartan direction is even, and Pantev–Wijnholt's count with equal charges is 3·(16 ⊕ 10 ⊕ 1) on the SO(10) direction, anomaly-free (or 3·(10 ⊕ 5̄), or one quark family) — "three is in the menu, not selected by it"; PW cited not derived; I-26 unpaid | L208: verify the count independently (lines, charges, lift); **B1280's question on m202 is answered (B1282): the inversion of m202 acts on all six E₆ slots as θ's sign, uniquely, so the flat E₆ sector of the sibling is vector-like near its geometric point and the three is a singular-locus count only**; whether a closing of m202 keeps a count (B1294's theorem says a closed one keeps the 2 only if amphicheiral) |
 
 ## 6a. The seats (B1281, 2026-09-07)
 
@@ -132,7 +132,9 @@ theorem on every system this branch supplies (B1280); fc's ±2 and 3 are Pantev�
 abelian Higgs configurations charged on fixed geodesic lines — a modelling choice, lift-dependent, and B1280 forces the
 outer lift on the geometric germ, so those counts live on abelian backgrounds. The parity theorem excludes 3 on the
 object's own cusp; the escape is a two-cusped commensurable sibling (O6). The chirality bit's possible carriers are now
-three: the singular G₂ closing (O4), the observer (O5), and m202's fixed lines (O6).
+three: the singular G₂ closing (O4), the observer (O5), and m202's fixed lines (O6). On m202 the flat E₆ sector is
+paired exactly as on the object (B1282: the inversion is θ on its twelve-dimensional deformation space, uniquely), so the
+sibling's three, if it is anything, is a singular-locus count.
 
 ## 7. Consequence for the destination ledger
 

@@ -1,5 +1,11 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-07, B1282 — THE SIBLING'S GERM)**: on the two-cusped sibling m202 the inversion acts on every E₆
+deformation slot as the outer automorphism's sign (−1)^{n/2+1}, uniquely among its twelve isometries, so B1280's theorem
+transfers: **the flat E₆ sector of m202 is vector-like near its geometric point; fc's count of three on its three fixed lines
+is a singular-locus count only.** E70 (an anti-homomorphism Sym^n masked by the inversion's automorphism property and by
+involutions) caught on m202 and fixed at source; B1280's six signs unchanged. Price unchanged.
+
 **LATEST (2026-09-07, B1281 — THE SEATS VERIFIED)**: main's B1267/B1290–B1294 and the physics seat's R69–R72 fetched, re-run
 on this bench and re-derived with this branch's code — all agree with B1268/B1277-addendum/B1279/B1280 once the quantities are
 named (N of a flat local system vs a singular θ-even charge-locus count): main's B1267 and B1280 agree on N = 0 for W1/W2

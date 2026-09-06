@@ -127,9 +127,13 @@ class Fp:
 
 
 def symn(F, g, n):
-    """Sym^n(g) mod p on the basis x^(n-j) y^j (the substitution x -> g11 x + g12 y, y -> g21 x + g22 y)."""
+    """Sym^n(g) mod p on the basis x^(n-j) y^j: the substitution x -> g11 x + g21 y, y -> g12 x + g22 y (g TRANSPOSED,
+    so that f -> f o L composes in the right order and Sym^n is a homomorphism; with g itself it is an anti-homomorphism,
+    which the relator check cannot see because the reversed relator is the inversion's image and the inversion is an
+    automorphism, and which involutions cannot see because Ad(g) = Ad(g^-1) for them -- caught on m202 by an order-3
+    isometry, 2026-09-07; the six signs are unchanged)."""
     p = F.p
-    g11, g12, g21, g22 = g[0][0], g[0][1], g[1][0], g[1][1]
+    g11, g12, g21, g22 = g[0][0], g[1][0], g[0][1], g[1][1]
     M = [[0] * (n + 1) for _ in range(n + 1)]
     for j in range(n + 1):
         for r in range(n - j + 1):
@@ -239,7 +243,10 @@ def main():
         g_tau = F.mat([[0, u], [u * u, 0]])
         sigmas = {'iota': ({'a': ['A'], 'b': ['B']}, g_iota), 'tau': ({'a': ['b'], 'b': ['a']}, g_tau),
                   'iota.tau': ({'a': ['B'], 'b': ['A']}, F.matmul(g_iota, g_tau))}
-        print(f"\n=== F_{p}: zeta_12 = {F.z12}, u = {u}, i = {i} ===")
+        _a2, _b2 = F.mat([[1, 1], [0, 1]]), F.mat([[1, 0], [F.u, 1]])
+        for _n in (2, 3):                                   # Sym^n is a homomorphism (the anti-homomorphism trap, fenced)
+            assert symn(F, F.matmul(_a2, _b2), _n) == F.matmul(symn(F, _a2, _n), symn(F, _b2, _n)), "Sym^n is not a homomorphism"
+        print(f"\n=== F_{p}: zeta_12 = {F.z12}, u = {u}, i = {i} === (Sym^n homomorphism check passed)")
         print("  n | dim Z^1 | rank B^1 | h^1(M; Sym^n) | eps(iota) eps(tau) eps(iota.tau) | theta")
         for n in range(0, 23):
             r = analyse(F, n, sigmas)

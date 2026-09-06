@@ -6,7 +6,7 @@
 
 The owner asked for the other seats' branches fetched for what is already solved, and verified. Fetched 2026-09-07:
 **origin/main @ 506c591f** (twelve arcs beyond this branch's fork: main's own B1267 and B1272–B1277, then B1290–B1294),
-**origin/claude/physics-seat-evaluation @ 659487bb** (the fresh physics seat fc, reports R56–R72; 165 commits beyond main),
+**the physics-seat-evaluation branch @ 659487bb** (the fresh physics seat fc, reports R56–R72; 165 commits beyond main),
 **origin/codex/seat-r001 @ f7a49536** (R010–R040; main's B1293 records codex as fully harvested at B1238/B1239). Detached
 worktrees of each were made and their scripts run on this bench.
 

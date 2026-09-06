@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1090 settled arcs — 76%** —
+the field is **absent on 828 of 1091 settled arcs — 76%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (88) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 522 arcs.**
+**POOL = declared-law (88) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 523 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -77,7 +77,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1253` | PROVED | S | | THE GEOMETRY OF THE FOREIGN 16s IS RIGID -- AND IT IS *NOT* A GENERATION COUNT. THIS ARC'S DRAFT HEADLINE WAS 'the generation count is forced at three' AND IT IS REFUTED,… |
 | `B1261` | PROVED | S | | THE PRICE, COMPUTED: FIFTEEN UNPRICED INPUTS BOUGHT ZERO OF NINETEEN NUMBERS. JOIN 2's lead closed NEGATIVE first -- n in kappa = 2 + n^2 is NOT object-determined, n = 1.… |
 
-## §5 withheld — the value wall and the rank wall (117)
+## §5 withheld — the value wall and the rank wall (118)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -198,6 +198,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1252` | PROVED | S | | THE CARTAN METRIC ON THE B854 BASIS, AND THE DESCENT TO ONE SM GENERATION. THE INSTRUMENT THE REPO LACKED: the B854 coordinates are NOT orthonormal and no metric for them… |
 | `B1255` | PROVED | S | | THE GENERATION INDEX HAS THE RIGHT GALOIS TYPE AND THE WRONG COMMUTATOR. The pattern behind twelve lost three-nesses is named: every one was built on Q(sqrt-3), where 3 R… |
 | `B1260` | PROVED | S | | WHERE NET CHIRALITY CAN LIVE. MAIN_GOAL JOIN 1 question 1. (1) THE CLOSED WALL IS GENERAL: for ANY closed oriented 3-manifold, PD (h^i(V) = h^(3-i)(V*)) plus chi = 0 plus… |
+| `B1282` | PROVED | S | | THE SIBLING'S GERM. On the two-cusped sibling m202 (pi_1 = <a, b / aabbAbAABBaB>, Sym = D_6, commensurable with the object, Q(sqrt-3), 2T) the twelve isometries are found… |
 
 ## §6 the observer — one bit, priced (139)
 

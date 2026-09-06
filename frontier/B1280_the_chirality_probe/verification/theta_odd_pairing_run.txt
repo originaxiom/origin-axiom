@@ -1,6 +1,6 @@
 primes (= 1 mod 12): [1000033, 1000081]
 
-=== F_1000033: zeta_12 = 385966, u = 837344, i = 649529 ===
+=== F_1000033: zeta_12 = 385966, u = 837344, i = 649529 === (Sym^n homomorphism check passed)
   n | dim Z^1 | rank B^1 | h^1(M; Sym^n) | eps(iota) eps(tau) eps(iota.tau) | theta
   0 |    1    |     0    |      1        | -1  +1  -1       | .
   1 |    2    |     2    |      0        |   -   -   -       | .
@@ -26,7 +26,7 @@ primes (= 1 mod 12): [1000033, 1000081]
  21 |   22    |    22    |      0        |   -   -   -       | .
  22 |   24    |    23    |      1        | +1  +1  +1       | 1
 
-=== F_1000081: zeta_12 = 573301, u = 416194, i = 111009 ===
+=== F_1000081: zeta_12 = 573301, u = 416194, i = 111009 === (Sym^n homomorphism check passed)
   n | dim Z^1 | rank B^1 | h^1(M; Sym^n) | eps(iota) eps(tau) eps(iota.tau) | theta
   0 |    1    |     0    |      1        | -1  +1  -1       | .
   1 |    2    |     2    |      0        |   -   -   -       | .

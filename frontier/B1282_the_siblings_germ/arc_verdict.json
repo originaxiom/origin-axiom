@@ -1,0 +1,12 @@
+{
+ "id": "B1282",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1280", "B1281", "B1279", "B1268", "B1260"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE SIBLING'S GERM. On the two-cusped sibling m202 (pi_1 = <a, b | aabbAbAABBaB>, Sym = D_6, commensurable with the object, Q(sqrt-3), 2T) the twelve isometries are found as automorphisms of pi_1 by exhaustive word search (180 automorphisms, twelve classes by H_1 action and cusp permutation -- fc R72b's numbers by an independent route); the Zariski tangent space of the E_6 character variety at the geometric point is H^1(m202; e_6) = sum over n in {2, 8, 10, 14, 16, 22} of H^1(m202; Sym^n rho), h^1 = 2 on every even slot (one class per cusp) and 0 on the odd ones (360-bit Fox calculus, every residual <= 10^-55); each isometry's 2x2 action on each slot has eigenvalues that are roots of unity of order dividing 6, and THE INVERSION (a -> a^-1, b -> b^-1) ACTS ON EVERY SLOT AS THE SCALAR (-1)^(n/2+1) = THE E_6 OUTER AUTOMORPHISM'S SIGN (+1 on f_4's slots 2, 10, 14, 22; -1 on the 26's slots 8, 16), uniquely among the twelve (the cusp-swapping involutions act by (1, -1) on every slot, the rotations of order 3 and 6 by (omega, omega-bar) on the slots n = 2 mod 6 and trivially or by -1 on the rest). Hence B1280's theorem transfers: theta rho = iota^* rho on the germ, 27bar_rho = iota^*(27_rho), and N(27_rho) = 0 identically for every theta-odd deformation of m202's geometric E_6 holonomy -- the flat E_6 sector of the sibling is vector-like near its geometric point, and fc's count of three on the three fixed lines is a singular-locus Pantev-Wijnholt count only, as fc fenced it (L208's flat half closed). On the way an error of a new class was caught and fixed at source (E70): the Sym^n routine of B1280 was an anti-homomorphism, masked on m004 by the inversion being an automorphism (the reversed relator dies) and by involutions having Ad(g) = Ad(g^-1); the order-3 isometries of m202 exposed it; B1280's six signs re-computed with the corrected, asserted homomorphism over both primes are unchanged. 0 of 19; price unchanged."
+}

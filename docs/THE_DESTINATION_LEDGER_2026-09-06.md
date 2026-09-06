@@ -112,7 +112,9 @@ count on one cusp is even so 3 is excluded on the object (main B1291, the parity
 this bench. The one count of three anywhere on the board is fc R72's fenced 3·(16 ⊕ 10 ⊕ 1) on the three fixed lines of
 the two-cusped sibling m202 (commensurable with the object, ℚ(√−3), 2T) — a singular-locus Pantev–Wijnholt count, not an
 h¹, a sign choice not a selection. Item 1's carrier now has a third candidate beside the singular G₂ closing and the
-observer: a two-cusped sibling of the object (L208).
+observer: a two-cusped sibling of the object (L208). **B1282:** on that sibling too the inversion is the E₆ outer
+automorphism on the deformation space, so its flat E₆ sector is vector-like near the geometric point; the three is a
+singular-locus count or nothing.
 
 ## 5. What is expected, in order
 

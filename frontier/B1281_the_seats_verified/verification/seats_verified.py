@@ -2,7 +2,7 @@
 """THE SEATS VERIFIED (2026-09-07): the other seats' chirality results, re-derived with this branch's own code.
 
 Fetched: origin/main @ 506c591f (B1267 deciding, B1290 index formula, B1291 parity theorem, B1292 m202, B1293 harvest,
-B1294 the chirality bit), origin/claude/physics-seat-evaluation @ 659487bb (fc R56-R72), origin/codex/seat-r001 @ f7a49536
+B1294 the chirality bit), the physics-seat-evaluation branch @ 659487bb (fc R56-R72), origin/codex/seat-r001 @ f7a49536
 (R040).  Their own scripts were re-run on this bench in detached worktrees (the table is recorded in the FINDINGS); this
 script re-derives the load-bearing statements independently:
 

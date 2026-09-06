@@ -1,5 +1,12 @@
 # Changelog
 
+## B1282 — the sibling's germ: on m202 the inversion is the E₆ outer automorphism on the deformation space; the flat E₆ sector of the two-cusped sibling is vector-like near its geometric point; E70
+
+The twelve isometries of m202 as automorphisms (180, twelve classes); h¹(m202; Sym^n) = 2 on the six E₆ slots; the
+inversion acts on every slot as (−1)^{n/2+1} = θ's sign, uniquely, so B1280's theorem transfers and N(27) ≡ 0 on the germ.
+fc's three on the fixed lines is a singular-locus count only (L208's flat half closed). E70: the anti-homomorphism Sym^n of
+B1280, masked on m004, caught on m202, fixed at source, the six signs unchanged. `frontier/B1282_the_siblings_germ`.
+
 ## B1281 — the seats verified: the other seats' chirality results re-run and re-derived here; the reconciliation with B1268/B1277-addendum/B1279/B1280; the parity theorem, m202, the alias table
 
 Main's B1267, B1290–B1294 and the physics seat's R69–R72 all pass their own selftests on this bench and their statements

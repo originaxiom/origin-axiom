@@ -6727,6 +6727,25 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1282": {
+   "slug": "the siblings germ",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "dickson_tower",
+    "eisenstein",
+    "symplectic"
+   ],
+   "refs": [
+    "L208"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B128": {
    "slug": "symmetry breaking chirality",
    "motifs": [

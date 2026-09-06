@@ -14465,3 +14465,17 @@ two-cusped sibling m202 (commensurable, keeps ℚ(√−3) and 2T, ℤ/6, three 
 carrier of the chirality bit, fc's fenced 3·(16 ⊕ 10 ⊕ 1) there, main's doors D1/D2/D4, and the alias table (this branch's
 arcs are sB1267… on main; B1277 collides too; B1278–B1283 are this branch's). L208 registered; L204's caveat closed. Lock
 `tests/test_b1281_the_seats_verified.py`. 0 of 19; price unchanged.
+
+### B1282 — the sibling's germ: on m202 the inversion is the E₆ outer automorphism on the deformation space, uniquely; the flat E₆ sector of the two-cusped sibling is vector-like near its geometric point; E70 caught and fixed (2026-09-07)
+
+L208's flat half. m202's twelve isometries found as automorphisms of π₁ = ⟨a, b | aabbAbAABBaB⟩ by exhaustive word search
+(180 automorphisms, twelve classes by H₁ action and cusp permutation — fc R72b's numbers independently). At 360 bits,
+h¹(m202; Sym^n) = 2 on every even slot n ≤ 22 (one class per cusp) and 0 on odd ones; each isometry's 2×2 action on each of
+the six E₆ slots has eigenvalues roots of unity of order dividing 6, and **the inversion acts on every slot as the scalar
+(−1)^{n/2+1} — the E₆ outer automorphism's sign — uniquely among the twelve** (the cusp-swapping involutions act by (1, −1),
+the order-3 and order-6 rotations by (ω, ω̄) on the slots n ≡ 2 mod 6 and trivially or by −1 on the rest). B1280's theorem
+transfers: θρ ≅ ι\*ρ on the germ and **N(27) ≡ 0 for every θ-odd deformation of m202's geometric E₆ holonomy**; fc's count of
+three on the three fixed lines is a singular-locus count only, as fc fenced it. **E70 registered:** B1280's Sym^n routine was
+an anti-homomorphism, masked on m004 (the reversed relator is the inversion's image; involutions have Ad(g) = Ad(g⁻¹)) and
+exposed by m202's order-3 isometries; fixed at source with an asserted homomorphism check; B1280's six signs re-computed
+over both primes, unchanged. Lock `tests/test_b1282_the_siblings_germ.py`. 0 of 19; price unchanged.

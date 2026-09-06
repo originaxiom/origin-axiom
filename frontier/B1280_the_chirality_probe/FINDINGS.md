@@ -180,6 +180,11 @@ bounded by B1268 (|N| ≤ h⁰(∂M; 27) there). That is L207's computation, now
   eight traces equal and ninth different off K (so the two-sheet structure is real); one character over (p, q) on K
   and two off it; the {1, e, 1/e} structure at 18 points; the repeated-eigenvalue points found with a fibre-count
   control and their Jordan data compared on V and V\*; Wang against Fox at every one for n ≤ 9.
+- *Added 2026-09-07 (B1282, E70):* the Sym^n routine of `theta_odd_pairing.py` was an anti-homomorphism, masked here by
+  the inversion being an automorphism (the reversed relator dies) and by the isometries used being involutions
+  (Ad(g) = Ad(g⁻¹)); the local system it built is the pullback of the dual by the inversion, isomorphic to Sym^n, so the
+  signs were right for the wrong reason. Fixed at source (g transposed; a homomorphism assertion runs before any result);
+  the six signs re-computed over both primes are unchanged — the run record is the corrected run.
 - Theorem 2's six signs are computed exactly over two primes that agree row by row; the n = 0 row (−1: the meridian
   inverted) and the τ rows (+1 throughout) are the positive and negative controls; the relator, both intertwiners,
   and the invariance of Z¹ and B¹ are asserted at every n.
