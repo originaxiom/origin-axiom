@@ -6613,6 +6613,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1279": {
+   "slug": "the symmetries of the closing",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B248",
+    "B252",
+    "B711",
+    "L206"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

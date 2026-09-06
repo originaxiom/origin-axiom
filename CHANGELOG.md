@@ -1,5 +1,13 @@
 # Changelog
 
+## B1279 — the symmetries of the closing on its Standard-Model lines: the two golden eigenlines mod 19, 19 624 inequivalent SM vacua on Y₉, and the mirror pairing every vacuum with a different one
+
+The object's eight isometries as automorphisms of its own presentation (exhaustive word search, conjugators
+identified with the cusp's affine maps); their lifts on H₁(Y_n) with the deck groups (orders 24, 48, 72); on Y₉ the
+order-19 subgroups are the deck action's eigenlines with eigenvalues 6, 16 = φ^{±2} mod 19; the mirror swaps them,
+the period-2 swap inverts everything; 706 464 SM lines → 19 624 orbits; the CP quotient is non-chiral by construction.
+`frontier/B1279_the_symmetries_of_the_closing`.
+
 ## B1277 addendum — the arcs and the corners: the inversions' fixed arcs end at the pillowcase corners, which lie on the θ-odd Higgs field's zero set, but the object's symmetries force an annular partition of the cusp torus — χ(∂⁺M) = 0
 
 The eight isometries of m004 as affine maps of the cusp torus (derived from the holonomy; the horoball pattern has

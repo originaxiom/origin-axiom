@@ -80,7 +80,10 @@ three complete generations of the 27 (706 464 SM vacua, 568 656 with the full th
 exponential sector are now posed on a closing whose gauge group and count are the Standard Model's: the E₈ theory
 on Y₉ with one of these lines, the one-coupling superpotential of B1276, six flavons and 32 vector-like pairs of
 coset states. The chiral closing of item 1 no longer needs to supply the group or the count — only the chirality
-bit (Y₉ is closed, hence vector-like, B1260) — and the line's selection among 706 464 (L206).
+bit (Y₉ is closed, hence vector-like, B1260) — and the line's selection among 706 464 (L206). **B1279:** the
+closing's own symmetries reduce the 706 464 to 19 624 inequivalent vacua, each with a mirror partner (the two golden
+eigenlines φ^{±2} mod 19 exchanged by the object's inversion); the chirality bit cannot be a quotient by the mirror
+(non-chiral by construction).
 
 ## 4b. The literature's word on D3 (`docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`)
 

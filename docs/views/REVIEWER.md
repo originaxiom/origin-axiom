@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1187** |
-| words of findings prose | **838,773** |
-| test lock files referenced | **701** |
-| arcs carrying an authored verdict | **1187** (100.0 %) |
+| research arcs with findings | **1188** |
+| words of findings prose | **840,236** |
+| test lock files referenced | **702** |
+| arcs carrying an authored verdict | **1188** (100.0 %) |
 | recorded closures | **783** (616 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 778 |
+| PROVED | 779 |
 | NEGATIVE | 311 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1278`** (2122 words, 1 locks)  
-THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE. The closings Y_n are the manifold covers of the object's geometric transition (Y_2 the spherical end's, Y_3 the Euclidean point's -- where the quantum face is empty, Vol = CS = 0 -- Y_{n>=4} the hyperbolic branch's). For n = 3, 6, 9: H_1(Y_n) by Smith form = Z/4^2, Z/8 + Z/40, Z/76^2 (Fox's products 16, 320, 5776 of the golden polynomial at the n-th roots of unity: Y_6 joins the golden 5 and the Eisenstein 16, Y_9 brings the prime 19 = the norm of Delta at the primitive ninth roots); every character's h^1 by a 40-digit sweep with every non-zero confirmed exactly over Q(zeta_m): 3, 27, 147 characters carry a class (the three family sign characters, then 24 of order 8 on Y_6, then 144 of orders 19 and 38 on Y_9 -- on Y_9 the h^1 = 1 set is (C_1 u C_2) x V_4 minus 1 for two cyclic subgroups of order 19). The three-generation alphabet K3 = {psi : sum_i h^1(chi_i psi) >= 3} is trivial on Y_3 and Y_6 -- B1277's theorem holds there, and exhaustively none of the 4096 (Y_3) and 32 768 000 (Y_6) SM-commuting Wilson lines breaks SU(5) with three generations of Q, u^c, d^c, L, e^c (the best keep two) -- but on Y_9 it has 145 elements, and since the characters of Q, u^c, L determine the line (coefficient matrix of determinant 1), the K3^3 = 3 048 625 candidates are scanned completely: 737 568 SM-commuting Wilson lines break SU(5) with three generations of Q, u^c, d^c, L, e^c, 706 464 of them with <N>, <nu^c>, H_u and H_d available (every one leaving exactly the SM's 8 roots at the <N>, <nu^c> point), 568 656 of them keeping all 81 states of the three 27s. So the object's own 9-fold closing carries the Standard-Model gauge group (times the family torus's two U(1)s) with three complete generations of 27 (+) 27bar, six flavons and the E6/SM coset chirals -- vector-like (B1260); chirality is the wall that remains. N = 0; 0 of 19; price unchanged.  
-`B1278_the_six_fold_closing/FINDINGS.md`
+**PROVED — `B1279`** (1463 words, 1 locks)  
+THE SYMMETRIES OF THE CLOSING ON ITS STANDARD-MODEL LINES. The eight isometries of the object are found as automorphisms of its own presentation <a, b | a w B w^-1> (a word search, the relator preserved in Riley's geometric holonomy, each identified with its isometry by the conjugator brought back to the cusp): the inversion a -> A, b -> B; the period-2 swap a -> b, b -> a; the order-4 rotoreflections a -> A, b -> bAB / BAb; the glide involutions a -> a, b -> baB / Bab -- the same eight affine maps of the cusp torus as B1277's addendum. Their lifts to Y_3, Y_6, Y_9 act on the character groups (Reidemeister-Schreier rewriting of the Schreier generators' images) together with the deck t, generating groups of order 24, 48, 72; every lift permutes the three family characters and preserves the h^1 = 1 set. On Y_9 the two order-19 subgroups C_1, C_2 carrying the new classes (B1278) are the eigenlines of the deck action with eigenvalues 6 and 16, the roots of the golden polynomial t^2 - 3t + 1 modulo 19 -- phi^(+-2) mod 19; the inversion and the rotoreflections SWAP them (they invert t), the glide involutions preserve them with Galois twists (their squares are t), the period-2 swap INVERTS every character. Hence: the 706 464 Standard-Model lines fall into 19 624 orbits (inequivalent SM vacua of the closing); the mirror maps every SM vacuum to a different one (the two golden eigenlines exchanged: the vacua come in mirror pairs, no line is fixed or inverted by any lift of an inversion or a rotoreflection); one lift of each glide involution inverts the lines in one eigenline and fixes those in the other (353 232 each); the period-2 symmetry inverts every line, so composed with the E_8 Chevalley involution it is a symmetry of every SM vacuum -- charge conjugation, the matter-antimatter symmetry of B252 seen on the closing. A quotient of Y_9 by an orientation-reversing lift combined with M-theory's C -> -C would project the gauge algebra onto the fixed points of an involution inverting the Cartan (sp(8)-type inside e_6), under which every surviving representation is self-conjugate: the CP face's quotient is non-chiral by construction, stated here so it is not re-derived. N = 0; 0 of 19; price unchanged.  
+`B1279_the_symmetries_of_the_closing/FINDINGS.md`
 
 **NEGATIVE — `B1262`** (520 words, 0 locks)  
 I-9 REFUTED: THERE IS NO 'GENUS V4' FOR DISCRIMINANT -15, and the row had carried its own discriminator UNRUN. B1261 measured the trade at 15 unpriced inputs : 0 of the SM's 19 numbers and named two moves -- earn an identification (-1) or derive a parameter (+1); the ratchet's arithmetic contains a THIRD and cheaper one, REFUTE, which also removes a row from the UNEARNED set. I-9 was the candidate because its own text said 'the genus group of disc -15 has order 2^(t-1) = 2, not 4' and nobody had run it. COMPUTED: disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2 genera, so the genus group has ORDER 2 against Gal(Q(sqrt-3,sqrt5)/Q)'s ORDER 4. THERE IS NO GENUS V4 FOR DISC -15: the object the row NAMES does not exist, and the identification is false as stated. THE FALLBACK READING FAILS TOO on the programme's own rules -- reading side B as Gal does match orders 4 = 4, but that is an ORDER MATCH which B1223 established is not a connection ('Direct is not semidirect': the groups matched, the action did not), and B155's own row calls the glue a GL(4,Z)-class invariant 'not forced by the spectral type', i.e. LATTICE data against Gal's FIELD data, so a canonical map cannot exist. CONTROLS BOTH WAYS: the class-number routine is validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) BEFORE being trusted, which caught a real bug -- a first draft returned h(-15) = 3 by admitting (1,-1,4), which is not reduced since b >= 0 is required when |b| = a -- and discriminants with t = 3 (-84, -120) DO give 4 genera, so order 2 is a fact about -15 and not about the method. THE PRICE: UNEARNED 11 -> 10, the trade moves from 15 : 0 to 14 : 0, the first reduction, and it came from running a discriminator the register had been carrying all along.  

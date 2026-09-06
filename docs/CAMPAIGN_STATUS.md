@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1279 — THE SYMMETRIES OF THE CLOSING ON ITS SM LINES)**: the object's eight isometries as
+automorphisms of its presentation (word search in Riley's holonomy; the same eight cusp maps as the addendum); their
+lifts on H₁(Y₃, Y₆, Y₉) with the deck groups (orders 24, 48, 72). **On Y₉ the two order-19 subgroups carrying the new
+classes are the deck action's eigenlines with eigenvalues 6, 16 = the roots of t² − 3t + 1 mod 19: φ^{±2} mod 19.** The
+mirror swaps them, the period-2 symmetry inverts every character: **706 464 SM lines → 19 624 inequivalent vacua, every
+one with a mirror partner**; charge conjugation (B252) realised on every vacuum; the CP quotient non-chiral by
+construction. Price unchanged.
+
 **(2026-09-06, B1277 addendum — THE ARCS AND THE CORNERS)**: on the owner's challenge, the inversions' fixed arcs end
 at the four pillowcase corners of the cusp torus, which lie on the θ-odd Higgs field's zero set; but the object's
 eight isometries (derived as affine maps from the holonomy) force the leading cusp mode to be the pure longitude mode

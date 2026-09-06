@@ -2403,3 +2403,10 @@ geometrically; (iii) the same alphabet on Y₁₂ (103 680 characters) and Y₁�
 coset pairs and the D, D̄ exotics from the E₈ cubic on Y₉; (v) the general theorem, from the Alexander module of the
 figure-eight at the n-th roots (Fox's metabelian theory), for which n the three-generation alphabet is non-trivial —
 19 | ∏|Δ(ζ₉)| is the first instance. Also Y₆'s 24 order-8 classes (which 8-fold cover carries them).
+
+**Status 2026-09-06 (B1279): (i) DONE at the closing's symmetry level** — the deck ℤ/9 and the lifts of the object's
+D₄ (a group of order 72 on the characters) cut the 706 464 lines into **19 624 orbits**; the mirror exchanges the two
+order-19 eigenlines (φ^{±2} mod 19), so every vacuum has a mirror partner and none is singled out by the closing's own
+symmetries. What remains of (i) is a selection principle that is the object's, not the closing's. (ii) sharpened: the two
+subgroups are the eigenlines of the deck action with eigenvalues the roots of the golden polynomial mod 19. The CP
+quotient (an orientation-reversing lift with C₃ → −C₃) is closed as non-chiral by construction (B1279 §5).

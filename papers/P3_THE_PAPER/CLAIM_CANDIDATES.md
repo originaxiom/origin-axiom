@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1087 settled arcs — 76%** —
+the field is **absent on 828 of 1088 settled arcs — 76%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (86) ∪ on-a-synthesis-surface ∪ law-vocabulary (115) = 517 arcs.**
+**POOL = declared-law (87) ∪ on-a-synthesis-surface ∪ law-vocabulary (115) = 519 arcs.**
 The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.97** on the corpus's own law vocabulary against
-**1.13** for the rest — **2.62×**. The criterion
+**2.94** on the corpus's own law vocabulary against
+**1.13** for the rest — **2.6×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -198,7 +198,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1255` | PROVED | S | | THE GENERATION INDEX HAS THE RIGHT GALOIS TYPE AND THE WRONG COMMUTATOR. The pattern behind twelve lost three-nesses is named: every one was built on Q(sqrt-3), where 3 R… |
 | `B1260` | PROVED | S | | WHERE NET CHIRALITY CAN LIVE. MAIN_GOAL JOIN 1 question 1. (1) THE CLOSED WALL IS GENERAL: for ANY closed oriented 3-manifold, PD (h^i(V) = h^(3-i)(V*)) plus chi = 0 plus… |
 
-## §6 the observer — one bit, priced (137)
+## §6 the observer — one bit, priced (138)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -239,6 +239,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1270` | PROVED | L | | E6 FROM THE TWO FACES. The corpus had E8 at the golden end (RL -> Q(sqrt5) -> 2I) and E6 at the Eisenstein end (g = -R L^-1 -> Q(sqrt-3) -> 2T) and said neither forces th… |
 | `B1272` | PROVED | L | | THE OBJECT'S MIRROR ON THE TWO-FACE E6 IS SPLIT. The amphichirality of A = LR is conjugation by P = diag(1,-1) (R -> R^-1, L -> L^-1); mod 5 it is INNER on 2I = SL(2,F5) … |
 | `B1274` | PROVED | L | | THE TOWER AND ITS DOUBLES. For all 48 surjections pi_1(m004) -> 2T and every n <= 6: the family 3 of E8 > E6 x SU(3) (the real 3 of 2T) descends to the cyclic branched co… |
+| `B1279` | PROVED | L | | THE SYMMETRIES OF THE CLOSING ON ITS STANDARD-MODEL LINES. The eight isometries of the object are found as automorphisms of its own presentation <a, b / a w B w^-1> (a wo… |
 | `B156` | PROVED | V | | Six Omega strict-full theorems were independently re-derived (R/G algebra, reciprocity, Fibonacci blocks, entropy log 2, unique minimal seed, orientation no-go) with L4-L… |
 | `B986` | NEGATIVE | V | | THE B500 DEPTH-5 REOPEN ATTEMPTED AND THE METHOD KILLED BY ITS OWN CONTROL -- L145a STAYS OPEN, the attempt failing on the INSTRUMENT not on the object. cc3's sweep surfa… |
 | `B1023` | PROVED | V | | PHASE 2'S CONCESSIONS, V2: TWO DEFECTS FIXED, THEN TWO BLOCKERS ON THE FIX ITSELF -- CONCEDED AND PINNED OPEN, the second correction arriving from cc3 BEFORE the batch ba… |
@@ -445,7 +446,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1195` | PROVED | S | | CLOSE-LOOP BATCH 5A (the five highest-leverage closes, merged with cloud's routes at their 9915068b): (1) SEAM-A's CS=0 DOOR SHARPENED (lens-scoped) -- the object's b=1 p… |
 | `B1265` | PROVED | S | | THE REAL FORM IS DERIVED, AND THE FORK IS A RANK OBSTRUCTION. MAIN_GOAL JOIN 3. B1140 banked the fork as a brute fact -- 'the two real forms split the world with NOTHING … |
 
-## UNASSIGNED — needs an editorial call (114)
+## UNASSIGNED — needs an editorial call (115)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -465,6 +466,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B238` | PROVED | S | | The figure-eight's WRT invariant coincides exactly at −1/φ across the level-rank pair SU(2)₃↔SU(3)₂ (shared κ=5), but only for the figure-eight.… |
 | `B247` | NEGATIVE | S | | The V1 'E₆→SM' claim fails: the long-SU(2) centralizer is a generic SU(6), and the hyperbolic SL(2,ℂ) holonomy cannot embed in compact E₆ at all.… |
 | `B248` | PROVED | S | | The figure-eight's dual McKay E₆+E₈ is realized as the hyperbolic (ℚ(√−3), 2T) and spherical (ℚ(√5), 2I) ends of one cone-manifold geometric transition.… |
+| `B252` | NEGATIVE | S | | Adjudicated and failed to break the chirality obstruction: every conjugation-odd invariant of the object vanishes or pairs, so it carries no explicit CP-odd datum.… |
 | `B253` | PROVED | S | | Sage-verified that E6 is the only chirality-capable (complex-fundamental) end of the B248 transition, and corrected B252's overstated 'cannot source asymmetry'.… |
 | `B293` | PROVED | S | | The clock is the peripheral symplectic pairing: κ=tr[a,b] is the Goldman Casimir whose leaves make the cusp holonomies (μ,λ) canonically conjugate, matched independently … |
 | `B326` | PROVED | S | | Verified the generation Z/3-breaking is finite congruence torsion: H_1 of the 3-fold cover is Z + (Z/4)^2 with irreducible Phi_3 deck action - texture, not magnitudes.… |

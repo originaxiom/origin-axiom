@@ -1,0 +1,71 @@
+=== (a) the eight isometries as automorphisms of the presentation ===
+  Riley holonomy: a = translation by 1, longitude translation 0.000000-3.464102j (|t_lam| = 2 sqrt 3: True); relator: True
+  endomorphisms a -> u, b -> v (words to length 4) preserving the relator and the character (or its conjugate): 44
+  distinct outer classes found (cusp map, translation part (b_mu, b_lam)): 8
+     (-1, -1), b = (np.float64(0.0), np.float64(0.0)): a -> A, b -> B   (orientation-preserving)
+     (-1, -1), b = (np.float64(0.0), np.float64(0.5)): a -> B, b -> A   (orientation-preserving)
+     (-1, 1), b = (np.float64(0.5), np.float64(0.25)): a -> A, b -> bAB   (orientation-REVERSING)
+     (-1, 1), b = (np.float64(0.5), np.float64(0.75)): a -> A, b -> BAb   (orientation-REVERSING)
+     (1, -1), b = (np.float64(0.5), np.float64(0.25)): a -> a, b -> baB   (orientation-REVERSING)
+     (1, -1), b = (np.float64(0.5), np.float64(0.75)): a -> a, b -> Bab   (orientation-REVERSING)
+     (1, 1), b = (np.float64(0.0), np.float64(0.0)): a -> a, b -> b   (orientation-preserving)
+     (1, 1), b = (np.float64(0.0), np.float64(0.5)): a -> b, b -> a   (orientation-preserving)
+
+=== (b) the lifts to Y_n: actions on the character groups ===
+  Y_3: H_1 = Z/4 + Z/4; the actions of the eight lifts and of the deck t on the 16 characters are well defined; the group they generate has order 24
+     ((1, 1), (np.float64(0.0), np.float64(0.0))): family characters -> permuted among themselves ([1, 2, 3]); h^1 = 1 set preserved: True
+     ((1, -1), (np.float64(0.5), np.float64(0.25))): family characters -> permuted among themselves ([2, 3, 1]); h^1 = 1 set preserved: True
+     ((1, -1), (np.float64(0.5), np.float64(0.75))): family characters -> permuted among themselves ([3, 1, 2]); h^1 = 1 set preserved: True
+     ((-1, -1), (np.float64(0.0), np.float64(0.0))): family characters -> permuted among themselves ([3, 2, 1]); h^1 = 1 set preserved: True
+     ((-1, 1), (np.float64(0.5), np.float64(0.25))): family characters -> permuted among themselves ([2, 1, 3]); h^1 = 1 set preserved: True
+     ((-1, 1), (np.float64(0.5), np.float64(0.75))): family characters -> permuted among themselves ([1, 3, 2]); h^1 = 1 set preserved: True
+     ((1, 1), (np.float64(0.0), np.float64(0.5))): family characters -> permuted among themselves ([1, 2, 3]); h^1 = 1 set preserved: True
+     ((-1, -1), (np.float64(0.0), np.float64(0.5))): family characters -> permuted among themselves ([3, 2, 1]); h^1 = 1 set preserved: True
+     t: family characters -> permuted among themselves ([3, 1, 2]); h^1 = 1 set preserved: True
+  Y_6: H_1 = Z/8 + Z/40; the actions of the eight lifts and of the deck t on the 320 characters are well defined; the group they generate has order 48
+     ((1, 1), (np.float64(0.0), np.float64(0.0))): family characters -> permuted among themselves ([1, 2, 3]); h^1 = 1 set preserved: True
+     ((1, -1), (np.float64(0.5), np.float64(0.25))): family characters -> permuted among themselves ([2, 3, 1]); h^1 = 1 set preserved: True
+     ((1, -1), (np.float64(0.5), np.float64(0.75))): family characters -> permuted among themselves ([3, 1, 2]); h^1 = 1 set preserved: True
+     ((-1, -1), (np.float64(0.0), np.float64(0.0))): family characters -> permuted among themselves ([3, 2, 1]); h^1 = 1 set preserved: True
+     ((-1, 1), (np.float64(0.5), np.float64(0.25))): family characters -> permuted among themselves ([2, 1, 3]); h^1 = 1 set preserved: True
+     ((-1, 1), (np.float64(0.5), np.float64(0.75))): family characters -> permuted among themselves ([1, 3, 2]); h^1 = 1 set preserved: True
+     ((1, 1), (np.float64(0.0), np.float64(0.5))): family characters -> permuted among themselves ([1, 2, 3]); h^1 = 1 set preserved: True
+     ((-1, -1), (np.float64(0.0), np.float64(0.5))): family characters -> permuted among themselves ([3, 2, 1]); h^1 = 1 set preserved: True
+     t: family characters -> permuted among themselves ([3, 1, 2]); h^1 = 1 set preserved: True
+  Y_9: H_1 = Z/76 + Z/76; the actions of the eight lifts and of the deck t on the 5776 characters are well defined; the group they generate has order 72
+     ((1, 1), (np.float64(0.0), np.float64(0.0))): family characters -> permuted among themselves ([1, 2, 3]); h^1 = 1 set preserved: True
+     ((1, -1), (np.float64(0.5), np.float64(0.25))): family characters -> permuted among themselves ([2, 3, 1]); h^1 = 1 set preserved: True
+     ((1, -1), (np.float64(0.5), np.float64(0.75))): family characters -> permuted among themselves ([3, 1, 2]); h^1 = 1 set preserved: True
+     ((-1, -1), (np.float64(0.0), np.float64(0.0))): family characters -> permuted among themselves ([3, 2, 1]); h^1 = 1 set preserved: True
+     ((-1, 1), (np.float64(0.5), np.float64(0.25))): family characters -> permuted among themselves ([2, 1, 3]); h^1 = 1 set preserved: True
+     ((-1, 1), (np.float64(0.5), np.float64(0.75))): family characters -> permuted among themselves ([1, 3, 2]); h^1 = 1 set preserved: True
+     ((1, 1), (np.float64(0.0), np.float64(0.5))): family characters -> permuted among themselves ([1, 2, 3]); h^1 = 1 set preserved: True
+     ((-1, -1), (np.float64(0.0), np.float64(0.5))): family characters -> permuted among themselves ([3, 2, 1]); h^1 = 1 set preserved: True
+     t: family characters -> permuted among themselves ([3, 1, 2]); h^1 = 1 set preserved: True
+  (302 s)
+
+=== (c) Y_9: the mirror on the new classes, and the orbits of the Standard-Model lines ===
+  the 36 order-19 classes generate two cyclic subgroups C_1, C_2 of order 19 (as B1278 read them): True
+     ((1, 1), (np.float64(0.0), np.float64(0.0))): C_1 -> C_1; the generators of (C_1, C_2) map to their powers (1, 1) (identity, identity)
+     ((1, -1), (np.float64(0.5), np.float64(0.25))): C_1 -> C_1; the generators of (C_1, C_2) map to their powers (14, 4) (a Galois twist, a Galois twist)
+     ((1, -1), (np.float64(0.5), np.float64(0.75))): C_1 -> C_1; the generators of (C_1, C_2) map to their powers (4, 14) (a Galois twist, a Galois twist)
+     ((-1, -1), (np.float64(0.0), np.float64(0.0))): C_1 -> C_2; the generators of (C_1, C_2) map to their powers (None, None) (the two eigenlines are SWAPPED)
+     ((-1, 1), (np.float64(0.5), np.float64(0.25))): C_1 -> C_2; the generators of (C_1, C_2) map to their powers (None, None) (the two eigenlines are SWAPPED)
+     ((-1, 1), (np.float64(0.5), np.float64(0.75))): C_1 -> C_2; the generators of (C_1, C_2) map to their powers (None, None) (the two eigenlines are SWAPPED)
+     ((1, 1), (np.float64(0.0), np.float64(0.5))): C_1 -> C_1; the generators of (C_1, C_2) map to their powers (18, 18) (INVERSION, INVERSION)
+     ((-1, -1), (np.float64(0.0), np.float64(0.5))): C_1 -> C_2; the generators of (C_1, C_2) map to their powers (None, None) (the two eigenlines are SWAPPED)
+     t: C_1 -> C_1; the generators of (C_1, C_2) map to their powers (6, 16) (a Galois twist, a Galois twist)
+  the deck t acts on (C_1, C_2) by the powers (6, 16); the roots of t^2 - 3t + 1 modulo 19 are [6, 16]: True  (C_1, C_2 are the golden eigenlines phi^(+-2) mod 19)
+  Standard-Model lines (B1278): 706464 (three generations of Q, u^c, d^c, L, e^c; <N>, <nu^c>, H_u, H_d available; SU(5) broken)
+  the group generated by the deck Z/9 and the eight lifts has order 72; the 706464 SM lines fall into 19624 orbits (inequivalent SM vacua of the closing)
+     ((1, 1), (np.float64(0.0), np.float64(0.0))) (orientation-preserving): over its nine lifts (fixed lines, inverted lines) = [(706464, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)]
+     ((1, -1), (np.float64(0.5), np.float64(0.25))) (orientation-REVERSING): over its nine lifts (fixed lines, inverted lines) = [(0, 0), (0, 0), (0, 0), (0, 0), (353232, 353232), (0, 0), (0, 0), (0, 0), (0, 0)]
+     ((1, -1), (np.float64(0.5), np.float64(0.75))) (orientation-REVERSING): over its nine lifts (fixed lines, inverted lines) = [(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (353232, 353232), (0, 0), (0, 0), (0, 0)]
+     ((-1, -1), (np.float64(0.0), np.float64(0.0))) (orientation-preserving): over its nine lifts (fixed lines, inverted lines) = [(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)]
+     ((-1, 1), (np.float64(0.5), np.float64(0.25))) (orientation-REVERSING): over its nine lifts (fixed lines, inverted lines) = [(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)]
+     ((-1, 1), (np.float64(0.5), np.float64(0.75))) (orientation-REVERSING): over its nine lifts (fixed lines, inverted lines) = [(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)]
+     ((1, 1), (np.float64(0.0), np.float64(0.5))) (orientation-preserving): over its nine lifts (fixed lines, inverted lines) = [(0, 706464), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)]
+     ((-1, -1), (np.float64(0.0), np.float64(0.5))) (orientation-preserving): over its nine lifts (fixed lines, inverted lines) = [(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)]
+
+SELFTEST: PASS
+rc=0

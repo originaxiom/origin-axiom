@@ -14401,3 +14401,22 @@ through all eight corners and whose regions are annuli: **χ(∂⁺M) = χ(∂�
 allowed one, (±2, ±1), decays twice as fast. L204's closure stands with the arcs accounted for (caveat stated: the
 (±2, 0) coefficient of the actual harmonic form is assumed non-zero, generic). Lock
 `tests/test_b1277_the_arcs_and_the_corners.py` (SnapPy).
+
+### B1279 — the symmetries of the closing on its Standard-Model lines: the golden eigenlines mod 19 and the mirror pairing (2026-09-06)
+
+L206 and the CP face. The object's eight isometries found as automorphisms of its own presentation ⟨a, b | a w b⁻¹ w⁻¹⟩
+by exhaustive word search in Riley's holonomy (`frontier/B1279_the_symmetries_of_the_closing/verification/symmetries_on_the_lines.py`,
+`SELFTEST: PASS`): the inversion a ↦ a⁻¹, b ↦ b⁻¹; the period-2 swap a ↔ b (half the longitude); the order-4
+rotoreflections a ↦ a⁻¹, b ↦ b a⁻¹ b⁻¹; the glide involutions a ↦ a, b ↦ b a b⁻¹ — the same eight affine maps of the cusp
+as B1277's addendum, by an independent route. Their lifts act on H₁(Y₃), H₁(Y₆), H₁(Y₉) (Reidemeister–Schreier),
+generating with the deck groups of orders 24, 48, 72; every lift permutes the three family characters. **On Y₉ the two
+order-19 subgroups carrying the new classes are the eigenlines of the deck action with eigenvalues 6 and 16 — the
+roots of the golden polynomial t² − 3t + 1 mod 19: φ² and φ⁻² mod 19**, the arithmetic face's two ends in the closing's
+torsion. The inversion and the rotoreflections swap them; the glide involutions preserve them with Galois twists; the
+period-2 swap inverts every character. Hence the 706 464 SM lines fall into **19 624 orbits** (inequivalent SM vacua);
+**the mirror maps every SM vacuum to a different one** (mirror pairs on φ² and φ⁻²), the period-2 symmetry composed
+with the E₈ Chevalley involution is charge conjugation on every vacuum (B252 on the closing), and one lift of each
+glide fixes or inverts half the lines. The CP face's quotient is closed: an orientation-reversing quotient with
+C₃ → −C₃ projects onto an involution inverting the Cartan, under which every projected representation is
+self-conjugate — non-chiral by construction. Lock `tests/test_b1279_the_symmetries_of_the_closing.py`. N = 0; 0 of 19;
+price unchanged.

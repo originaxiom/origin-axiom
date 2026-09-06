@@ -1,0 +1,14 @@
+{
+ "id": "B1279",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1278", "B1277", "B1274", "B1273", "B1263", "B1252", "B1253", "B248", "B252", "B711"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [
+  {"row": "I-26", "status": "UNEARNED", "note": "note extended, status unchanged: the 706 464 Standard-Model lines of Y_9 (B1278) fall into 19 624 orbits under the closing's own symmetries (the deck Z/9 and the lifts of the object's D_4, a group of order 72 on the characters); the vector-like count is untouched."}
+ ],
+ "claim_one_line": "THE SYMMETRIES OF THE CLOSING ON ITS STANDARD-MODEL LINES. The eight isometries of the object are found as automorphisms of its own presentation <a, b | a w B w^-1> (a word search, the relator preserved in Riley's geometric holonomy, each identified with its isometry by the conjugator brought back to the cusp): the inversion a -> A, b -> B; the period-2 swap a -> b, b -> a; the order-4 rotoreflections a -> A, b -> bAB / BAb; the glide involutions a -> a, b -> baB / Bab -- the same eight affine maps of the cusp torus as B1277's addendum. Their lifts to Y_3, Y_6, Y_9 act on the character groups (Reidemeister-Schreier rewriting of the Schreier generators' images) together with the deck t, generating groups of order 24, 48, 72; every lift permutes the three family characters and preserves the h^1 = 1 set. On Y_9 the two order-19 subgroups C_1, C_2 carrying the new classes (B1278) are the eigenlines of the deck action with eigenvalues 6 and 16, the roots of the golden polynomial t^2 - 3t + 1 modulo 19 -- phi^(+-2) mod 19; the inversion and the rotoreflections SWAP them (they invert t), the glide involutions preserve them with Galois twists (their squares are t), the period-2 swap INVERTS every character. Hence: the 706 464 Standard-Model lines fall into 19 624 orbits (inequivalent SM vacua of the closing); the mirror maps every SM vacuum to a different one (the two golden eigenlines exchanged: the vacua come in mirror pairs, no line is fixed or inverted by any lift of an inversion or a rotoreflection); one lift of each glide involution inverts the lines in one eigenline and fixes those in the other (353 232 each); the period-2 symmetry inverts every line, so composed with the E_8 Chevalley involution it is a symmetry of every SM vacuum -- charge conjugation, the matter-antimatter symmetry of B252 seen on the closing. A quotient of Y_9 by an orientation-reversing lift combined with M-theory's C -> -C would project the gauge algebra onto the fixed points of an involution inverting the Cartan (sp(8)-type inside e_6), under which every surviving representation is self-conjugate: the CP face's quotient is non-chiral by construction, stated here so it is not re-derived. N = 0; 0 of 19; price unchanged."
+}

@@ -172,3 +172,9 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   states of the three 27s: the programme's first vacuum with the SM gauge group and three generations, on a
   closing the object supplies, broken by the closing's own characters. Vector-like (B1260): chirality is the wall
   that remains, and the line is a discrete choice among 706 464 (L206).
+- **The closing's symmetries on its SM lines (B1279).** The object's eight isometries, as automorphisms of its own
+  presentation, lift to Y₉ and with the deck ℤ/9 generate a group of order 72 on its characters; the two order-19
+  subgroups carrying the three-generation classes are the deck action's eigenlines with eigenvalues φ^{±2} mod 19;
+  the mirror swaps them. **706 464 SM lines → 19 624 inequivalent vacua, every one with a mirror partner**; the
+  period-2 symmetry with the E₈ Chevalley involution is charge conjugation on every vacuum; the CP quotient is
+  non-chiral by construction. The selection among the 19 624 is still not the object's.
