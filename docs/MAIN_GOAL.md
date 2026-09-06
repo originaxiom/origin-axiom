@@ -73,7 +73,9 @@ crossing candidate that does not ask the object for something it provably cannot
 
 *"The object lacks dynamics" is false as stated* (`OPEN_ITEMS` C1): six PROVED arcs, and B944 names a
 dynamical system several times over. B1157's real result is narrow — no parameter-free law at the
-archimedean ∞-place. **Open:** three of B497's four strata never worked; the **23 S-matrix arcs**
+archimedean ∞-place. **PRICED 2026-09-06:** the fork is worth **2 units on B1261's scoreboard** — **I-10** (the beat-selected internal A₁ lift ≡ 4d Lorentz spin) and **I-11** (the boundary θ polarization ≡ the bulk spin class) are **not independent debts; they ARE the fork**, as B1145's own fence says (*"an su(2) internal to E₆ … not the 4d Lorentz group … the unpaid bridge (the E₆(−26) spacetime branch)"*). Crossing it pays both: **14 → 12**.
+
+**Open:** three of B497's four strata never worked; the **23 S-matrix arcs**
 unassessed; **Ward identity genuinely zero**; and the **E₆(−14)/E₆(−26) fork** that no arc crosses,
 which is what keeps the four interactions from meeting.
 

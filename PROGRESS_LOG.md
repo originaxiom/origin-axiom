@@ -14024,3 +14024,26 @@ Continuing the row-by-row audit under `docs/MAIN_GOAL.md`.
   11 escape-aware fields, or if any row lacks exactly one bolded status token. Since **B1261 made
   this file the scoreboard**, a row that does not parse should red the suite rather than wait to be
   noticed. All **26** rows now parse; 30/30 gates.
+
+### I-10 and I-11 localised: they are not two debts, they ARE the fork (2026-09-06)
+
+Finishing the ledger audit by going after the two rows the seat had said it **did not understand**.
+
+- **UNDERSTOOD NOW.** **B1141**: m004 has exactly **2 spin structures** (H₁ = ℤ), the relator census
+  `R(A,B)=+I, R(−A,−B)=+I, R(−A,B)=R(A,−B)=−I` names the two lifts, and **the object's beat selects
+  one** — the last free discrete bit is *assigned*. **B1145**: the 27 is **minuscule**, so it
+  restricts to that root-sl₂ as **6·(fundamental 2) + 15·(singlet)**. Side A is a root-sl₂ inside
+  **su(6) ⊂ E₆**.
+- **AND THE SOURCE ARC FENCES AGAINST THE ROW IN AS MANY WORDS.** B1145's honest-fence section: *"the
+  A1 here is an su(2) **internal to E₆** (its centralizer is su(6)) — **not** the 4d Lorentz group;
+  its ±1 parity is an internal quantum number, **not a 4d Weyl spinor**"*; *"no Pin structure … no
+  Dirac operator or index … no 4d chirality"*; and *"whether that internal assignment is the
+  **spacetime** fermion seat is precisely **the unpaid bridge (the E₆(−26) spacetime branch,
+  B1140)**."*
+- **SO THEY ARE ONE THING.** I-11's earning condition is literally *"the same map as I-10"*, and I-10
+  is the bridge B1145 names. **Both reduce to the E₆(−14)/E₆(−26) FORK** — B1140's *"the two real
+  forms split the world with nothing shared"*: E₆(−14) took the charges, **E₆(−26) took Lorentz,
+  colour and the graviton** — the fork **no arc crosses**, and JOIN 3's blocker.
+- **AND THAT PRICES JOIN 3.** On B1261's scoreboard the fork is worth **2 units**: crossing it pays
+  **I-10 and I-11 together, 14 → 12**. Recorded in both rows and in `docs/MAIN_GOAL.md`.
+- **Suite green** (`PYTEST_RC=0`, 6112 passed) on the state pushed before this entry; 30/30 gates.
