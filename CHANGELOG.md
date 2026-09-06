@@ -1,5 +1,23 @@
 # Changelog
 
+## THE HATCH IS SATISFIABLE (m202) AND MIS-SCOPED — and the second half matters more
+
+**B1292.** B1291's escape — *go multi-cusped inside m004's commensurability class* — was run.
+**Satisfiable:** **m202** meets every clause — `vol = 4·V_tet = 2·vol(m004)` (regular ideal tetrahedra ⇒
+cusped arithmetic over **ℚ(√−3)**), both cusp shapes `e^{iπ/3}` (**hexagonal**), **96 surjections onto
+2T** (counter validated against m004's banked **48** in the same run), **2 cusps**, and **four isometries
+with |Fix| = 3 on both cusps**. **The mechanism is the cusp shape:** m004's is **rectangular** and admits
+only ±1 — why order 3 is impossible there; m202's are **hexagonal** and admit ℤ/6.
+
+**Mis-scoped, and this is the deliverable:** `χ(M) = 0` and `χ(∂M) = 0` for **every** cusped manifold at
+**any** cusp count (verified at 1, 2 and 4) — every boundary component is a flat torus. So
+`net chirality = −χ(∂⁺M) = 0` **survives the move**. **`|Fix| = 3` and `χ(∂⁺M) ≠ 0` are different
+quantities.** Parity was real but **not binding**; **flatness is**, and it is cusp-count-independent —
+as B1291 §5 already said. **B1291 re-scoped at source**, its theorem and NEGATIVE verdict untouched.
+
+**m202's worth, exactly:** the first place in the programme's own arithmetic where an **order-3 symmetry
+acts on the boundary**. **A lead, not a result** — no generation count, **I-26 still UNEARNED**.
+
 ## THE PARITY THEOREM — 3 is EXCLUDED with one cusp, and the escape is ≥2 cusps
 
 **B1291.** `|Fix| = |det(A − I)|` and finite order in GL(2,ℤ) gives `|Fix| ∈ {0,1,2,3,4}`, with **3**

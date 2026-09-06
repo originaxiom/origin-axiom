@@ -6567,6 +6567,20 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1292": {
+   "slug": "the hatch is satisfiable and mis scoped",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B129": {
    "slug": "sl3 tower sealed",
    "motifs": [

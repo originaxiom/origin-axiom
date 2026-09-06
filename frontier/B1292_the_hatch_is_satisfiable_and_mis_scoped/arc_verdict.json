@@ -1,0 +1,17 @@
+{
+ "id": "B1292",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1291",
+  "B1290",
+  "B727",
+  "B237"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "B1291's HATCH IS SATISFIABLE AND MIS-SCOPED, and the second half matters more. SATISFIABLE: m202 is a witness meeting every clause -- vol = 4*V_tet = 2*vol(m004) so it is tiled by regular ideal tetrahedra and is cusped arithmetic over Q(sqrt-3) (for CUSPED arithmetic manifolds the quaternion algebra is M_2(k), so the invariant trace field alone fixes the commensurability class), both cusp shapes are exp(i*pi/3) hence in Q(sqrt-3); it KEEPS 2T with 96 surjections pi_1 -> SL(2,3), with the counting method VALIDATED IN THE SAME RUN by reproducing m004's banked 48; it has TWO cusps; and FOUR of its 12 isometries realise |Fix| = 3 on BOTH cusps at once (Sym = D6). THE MECHANISM IS THE CUSP SHAPE, which explains B1291's obstruction rather than sidestepping it: m004's cusp is RECTANGULAR (shape 2*sqrt(-3), Re = 0) and a rectangular torus admits only +-1, which is exactly why m004 can never carry an order-3 rotation; m202's cusps are HEXAGONAL and admit Z/6. MIS-SCOPED: satisfying the hatch does NOT deliver a generation count, because chi(M) = 0 and chi(dM) = 0 for EVERY cusped manifold at ANY cusp count -- every boundary component is a flat torus -- verified at 1, 2 and 4 cusps (m004, m202, o10_150704). So net chirality = -chi(d+M) = 0 SURVIVES the move: |Fix| = 3 and chi(d+M) != 0 are DIFFERENT QUANTITIES and m202 supplies only the first. PARITY WAS A REAL OBSTRUCTION BUT NOT THE BINDING ONE; the binding one is FLATNESS, which B1291 itself identified and which no change of cusp count touches. B1291's hatch is RE-SCOPED AT SOURCE in its kill_graph entry and FINDINGS. WHAT m202 IS WORTH, EXACTLY: the first place in this programme's own arithmetic where an ORDER-3 SYMMETRY ACTS ON THE BOUNDARY -- m004 cannot host one by its cusp shape. A LEAD, NOT A RESULT: no generation count, I-26 untouched and still UNEARNED, and nothing claims m202 IS the object (m004 is, by the axioms and the genesis theorem). FENCED: commensurability is argued from necessary conditions (vol in Z*V_tet, shapes in Q(sqrt-3)), not from a computed invariant trace field, which needs Sage and is not this repo's canonical env; m202 is NOT a degree-2 or degree-3 cover of m004 (checked); 'keeps E6' is inferred from 2T via the McKay door and the chain's transport to m202 is UNRUN."
+}

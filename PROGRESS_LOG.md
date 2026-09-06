@@ -14444,3 +14444,46 @@ a locked puncture lemma. **Never joined, never applied to the cusp.** Recorded s
 **Fences.** The index formula stays **CITED**. The parity argument was *surfaced* by the fan-out and
 **every number re-computed here**. The affine-conjugacy hypothesis is **CITED**. **I-26 stays
 UNEARNED** (fourth restatement of its price). No number is identified with a generation count.
+
+---
+
+## 2026-09-06 — B1292: the hatch is satisfiable (m202) and mis-scoped, and the second half matters more
+
+**Half one — satisfiable.** B1291's escape said *go multi-cusped inside m004's commensurability
+class, keeping ℚ(√−3), 2T and E₆*. **m202 is a witness and every clause checks:**
+`vol = 4·V_tet = 2·vol(m004)` (tiled by regular ideal tetrahedra ⇒ cusped arithmetic over ℚ(√−3));
+both cusp shapes `e^{iπ/3}`, **hexagonal**, hence in ℚ(√−3); **96 surjections onto 2T**, with the
+counter **validated in the same run by reproducing m004's banked 48**; **2 cusps**; and **four of its
+twelve isometries realise |Fix| = 3 on *both* cusps** (`Sym = D₆`).
+
+**The mechanism is the cusp shape, and it explains B1291's obstruction rather than sidestepping
+it:** m004's cusp is **rectangular** (`2√−3`, Re = 0) and a rectangular torus admits only `±1` —
+*that* is why m004 can never carry an order-3 rotation. m202's are **hexagonal** and admit **ℤ/6**.
+
+**Half two — and the hatch named the wrong obstruction. This is the deliverable.**
+
+```
+m004        1 cusp     chi(M) = 1-2+1 = 0     chi(dM) = 1 x chi(T^2) = 0
+m202        2 cusps    chi(M) = 1-2+1 = 0     chi(dM) = 2 x chi(T^2) = 0
+o10_150704  4 cusps    chi(M) = 1-4+3 = 0     chi(dM) = 4 x chi(T^2) = 0
+```
+
+**χ(M) = 0 and χ(∂M) = 0 for every cusped manifold at any cusp count** — every boundary component is
+a flat torus. So `net chirality = −χ(∂⁺M) = 0` **survives the move**. **`|Fix| = 3` and
+`χ(∂⁺M) ≠ 0` are different quantities, and m202 supplies only the first.** Parity was a real
+obstruction but **not the binding one**; **flatness is binding and is cusp-count-independent** —
+which **B1291 §5 already said**, and which my own hatch then contradicted.
+
+**Corrected at source (E53), not only in the log:** B1291's `kill_graph` hatch field and a banner in
+its FINDINGS now carry the re-scope, with a test pinning both. **B1291's NEGATIVE verdict and its
+theorem are untouched** — the parity theorem stands; only the hatch's reach was wrong.
+
+**What m202 is worth, exactly.** The **first place in this programme's own arithmetic where an
+order-3 symmetry acts on the boundary**. m004 — the object — cannot host one, by its cusp shape.
+**A lead, not a result:** no generation count, **I-26 untouched and still UNEARNED**, and nothing
+claims m202 *is* the object (m004 is, by the axioms and the genesis theorem).
+
+**Fences.** Commensurability is argued from **necessary conditions** (`vol ∈ ℤ·V_tet`, shapes in
+ℚ(√−3)), not from a computed invariant trace field — that needs Sage, which is not this repo's
+canonical env. m202 is **not** a degree-2 or degree-3 cover of m004 (checked). **"Keeps E₆" is
+inferred from 2T via the McKay door; the chain's transport to m202 is UNRUN.**

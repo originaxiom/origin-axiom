@@ -54,6 +54,20 @@ trace field is a commensurability invariant**. Therefore:
 
 That is the next computation, and it is object-intrinsic rather than a free choice.
 
+> ### ⚠ RE-SCOPED AT B1292 (2026-09-06), SAME DAY, BY THIS SEAT — READ THIS BEFORE USING §3
+>
+> The computation was run. **The hatch is SATISFIABLE — m202 is a witness** (2 cusps, `vol = 4·V_tet`,
+> hexagonal cusps, **96 surjections onto 2T**, four isometries with `|Fix| = 3` on both cusps; the
+> mechanism is the **cusp shape**, m004's being rectangular and admitting only ±1). **But this hatch
+> names the WRONG OBSTRUCTION.** `χ(M) = 0` and `χ(∂M) = 0` for **every** cusped manifold at **any**
+> cusp count — every boundary component is a flat torus — verified at 1, 2 and 4 cusps. So
+> `net chirality = −χ(∂⁺M) = 0` **survives the move**. **`|Fix| = 3` and `χ(∂⁺M) ≠ 0` are different
+> quantities and m202 supplies only the first.** Parity was real but **not binding**; **flatness is
+> binding, and it is cusp-count-independent** — as §5 of this very arc already said.
+>
+> **What §3 actually opens:** an **order-3 symmetry acting on the boundary inside ℚ(√−3)**, which the
+> programme had nowhere. **It is not a route to net chirality. Do not read it as one.** See **B1292**.
+
 ## 4. WHAT I GOT WRONG — a vacuous criterion, by my own standing rule
 
 An earlier draft of this arc closed the corner/cone-point case by computing **χ_orb = 0 for all 17
