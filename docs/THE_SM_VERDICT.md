@@ -70,6 +70,17 @@ moves by exactly two operations: **earn an identification (−1)** or **derive a
   **none of the first three cited the others**. **The escape is now located, not just named:** a
   count needs **χ(∂⁺M) ≠ 0**, i.e. ∂⁺M must contain **discs or corners**. **I-26's price is
   restated to "identify ∂⁺M and compute χ(∂⁺M)"; the row stays UNEARNED.**
+- **B1291 (2026-09-06) — THE PARITY THEOREM: 3 is *excluded* with one cusp, and the escape is ≥2 cusps.**
+  `|Fix| = |det(A−I)|` (translation-independent) and finite order in GL(2,ℤ) gives `|Fix| ∈ {0,1,2,3,4}`
+  with **3** from `(det 1, tr −1)` — so **3 is algebraically reachable and the geometry forbids it**:
+  `Fix(g)` is closed geodesics (no ends) plus geodesic **lines** (two ends each), so with **one** cusp
+  `|Fix on the cusp| = 2·(#fixed lines)`, **always even**. *Three ends in one cusp is odd.* Verified over
+  **1200** one-cusped census manifolds — sets `{(0,4): 1196, (0,): 4}`, **zero odd violations**; m004 has
+  `Sym = D₄`, `|Fix| ∈ {0,4}`. **The control fires:** with **≥2 cusps**, `|Fix| = 1, 2, 3` all occur
+  (**m202 gives both 1 and 3**). **So the obstruction is the CUSP COUNT, not the field** — and E₆ is forced
+  through **ℚ(√−3)** (B727), an **invariant trace field**, hence a **commensurability invariant**. **A
+  multi-cusped manifold commensurable with m004 keeps ℚ(√−3), keeps 2T, keeps E₆, and lifts the
+  obstruction. LEAVE THE KNOT, KEEP THE FIELD** — named, and **unrun**. I-26 still **UNEARNED**.
 - **B1265 — the real form is DERIVED and the fork is a rank obstruction.** D₂ is an involution with
   signature **32 − 46 = −14**, so the object's own twist **selects E₆(−14)**. D₂ is **inner**, and
   **E₆(−26)** (Lorentz, compact colour, the graviton) has **𝔨 = f₄ of rank 4** — **outer**, reachable

@@ -6546,6 +6546,27 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1291": {
+   "slug": "the parity of the cusp",
+   "motifs": [
+    "closing",
+    "choice",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B365",
+    "B366",
+    "B727",
+    "B749"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B129": {
    "slug": "sl3 tower sealed",
    "motifs": [

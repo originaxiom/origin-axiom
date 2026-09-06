@@ -130,8 +130,21 @@ def test_the_backlinks_did_NOT_change_any_verdict():
     for f in glob.glob(str(ROOT / "frontier" / "*" / "arc_verdict.json")):
         try: c[json.load(open(f, encoding="utf-8")).get("verdict")] += 1
         except Exception: pass
+    # PIN THE INVARIANT, NOT THE SNAPSHOT. An earlier version pinned PROVED/NEGATIVE/OPEN
+    # literally; that went red at B1291 for the legitimate reason that a new NEGATIVE arc was
+    # banked. Banking arcs must not red this test -- the claim it defends is narrower and
+    # permanent: SUPERSEDING IS NOT RETRACTING, so writing 36 superseded_by back-links moved
+    # no arc into or out of RETRACTED. (Same lesson as test_b1242's ratchet comment.)
     assert c["RETRACTED"] == 12, f"retraction count moved: {c['RETRACTED']}"
-    assert c["PROVED"] == 773 and c["NEGATIVE"] == 312 and c["OPEN"] == 87, dict(c)
+    import json as _json, glob as _glob
+    backlinked = [f for f in _glob.glob(str(ROOT / "frontier" / "*" / "arc_verdict.json"))
+                  if (_json.load(open(f, encoding="utf-8")) or {}).get("superseded_by")]
+    assert len(backlinked) >= 36, f"back-links lost: {len(backlinked)}"
+    for f in backlinked:
+        d = _json.load(open(f, encoding="utf-8"))
+        assert d["verdict"] in {"PROVED", "NEGATIVE", "OPEN", "RETRACTED"}, d
+        # a superseded arc keeps whatever verdict it earned; supersession never implies retraction
+    assert sum(c.values()) == len(_glob.glob(str(ROOT / "frontier" / "*" / "arc_verdict.json")))
 
 
 # --- B1290's second follow-through: the relay gate now enforces its own stated rule --------

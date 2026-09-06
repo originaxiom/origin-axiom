@@ -14388,3 +14388,59 @@ Whether they give χ(∂⁺M) ≠ 0 is **fc's next computation**, not this bench
 generic** to cusped torus-boundary manifolds and does **not** distinguish the object — any
 discrimination must live in ∂⁺M. **The reframing does not pay I-26: the row stays UNEARNED and the
 ratchet does not move.** The arc respects the B1278–B1289 reservation (a test pins this).
+
+---
+
+## 2026-09-06 — B1291: the parity theorem — 3 is EXCLUDED with one cusp, and the escape is ≥2 cusps
+
+**The occasion.** The owner pushed back on a readiness assessment (*"we just solved most of them"*),
+and the push was right twice over: I had assessed JOIN 1 **from main's state while two seats had
+pushed that day**, and I then **softened a correct conclusion under pressure without computing**.
+The recovery was to commission an adversarial verification rather than to argue.
+
+**THE THEOREM.** `|Fix| = |det(A − I)|`, independent of the translation part, and
+`det(A−I) = det A − tr A + 1`, so finite order in GL(2,ℤ) gives `|Fix| ∈ {0,1,2,3,4}` — with **3**
+from `(det 1, tr −1)`, the order-3 rotation. **3 is algebraically reachable.** The geometry forbids
+it: `Fix(g)` of an orientation-preserving finite-order isometry is closed geodesics (no ends) plus
+properly embedded geodesic **lines** (two ends each), so with exactly **one** cusp every end lands
+there and **|Fix on the cusp| = 2·(#fixed lines) — always EVEN.** *Three ends in one cusp is odd.*
+
+```
+one-cusped, 1200 census manifolds:  |Fix| sets {(0,4): 1196, (0,): 4}   ODD violations: 0
+m004:                               Sym = D4 (order 8),  |Fix| in {0, 4}
+>= 2 cusps:                         |Fix| = 1 (x4), 2 (x5), 3 (x5)
+witnesses:                          m202 (2 cusps) realises BOTH 1 and 3;  m125 realises 2
+```
+
+**THE CONTROL FIRES — which is what makes this a specification.** 3 is not absent, it is **excluded
+at one cusp and realised at two**. Second control in the same direction: one-cusped **s960** carries
+a genuine ℤ/3 whose order-3 elements act on the cusp as **free translations**, exactly as parity
+demands.
+
+**THE ESCAPE, OBJECT-INTRINSIC.** E₆ does not come from the cusp count — **B727** forces it through
+**ℚ(√−3)**, and the **invariant trace field is a commensurability invariant**. So a **multi-cusped
+manifold commensurable with m004 keeps ℚ(√−3), keeps 2T, keeps E₆, and lifts the obstruction**.
+**Leave the knot, keep the field.** Named and **unrun**; MAIN_GOAL's JOIN 1 now asks exactly this.
+
+**ALSO CLOSED.** The subsurface case (χ(∂⁺M) ≠ 0 **iff** the dividing set has a null-homotopic
+component; every canonical dividing set is essential) and the symmetry case (all **54** affine
+involutions of T², three fixed-set types, **never** inessential — confirmed on m004: only 2 of 8
+isometries have fixed points, 4 each, and **no orientation-reversing isometry has any**).
+
+**AND A METHOD FAILURE BANKED AS E67.** This arc's draft closed the corner case with *"χ_orb = 0 for
+all 17 wallpaper quotients"*. An adversarial lane found it **vacuous**: `χ_orb(T²/G) = χ(T²)/|G| = 0`
+**identically for every finite G**, so the criterion **cannot fail**. My non-vacuity control varied
+the *orbifold's geometry* (hyperbolic/spherical inputs the argument never sees) instead of *the finite
+group the argument actually ranges over*. χ_orb is also excluded on **integrality** (`D²(n)` has index
+1 for every n while `χ_orb = 1/n` is not an integer). **The conclusion survived; the argument did
+not** — the script is retained, labelled at source as the refuted step. The corner case closes instead
+on **genericity (E61)** — χ(T²∖4pts) = −4 for **3994/4000** one-cusped manifolds, and equals
+**−2·(#tetrahedra)** — and on **admissibility**.
+
+**A JOIN THE CORPUS ALREADY HAD.** **B749** fork F2 already computes the punctured cone spectrum
+**χ_orb = −1/2**; **B365** carries the half-period table at exactly 0, ½, τ/2, (1+τ)/2; **B366** carries
+a locked puncture lemma. **Never joined, never applied to the cusp.** Recorded so the join exists.
+
+**Fences.** The index formula stays **CITED**. The parity argument was *surfaced* by the fan-out and
+**every number re-computed here**. The affine-conjugacy hypothesis is **CITED**. **I-26 stays
+UNEARNED** (fourth restatement of its price). No number is identified with a generation count.

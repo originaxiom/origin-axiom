@@ -68,6 +68,14 @@ grading exists on any closed assembly.
    **R61/R62** and unverified on main: `Fix(θ)` = **two arcs** on the cusp torus (0↔τ/2,
    1/2↔(1+τ)/2). **Arcs cut corners**, and corners are what take a torus decomposition off χ = 0.
    **This is a cusp-geometry computation, not a representation-theory one.**
+5. **ANSWERED 2026-09-06 (B1291) — and it redirects JOIN 1.** `Fix(θ)` cannot help: on a **one-cusped**
+   manifold `|Fix|` on the cusp is **always even** (ends of geodesic lines come in pairs), so **|Fix| = 3
+   is EXCLUDED** — verified over 1200 census manifolds, zero violations; m004 has `|Fix| ∈ {0,4}`. The
+   control fires at **≥2 cusps** (m202 realises 1 and 3). **The obstruction is the CUSP COUNT, not the
+   arithmetic.** Since E₆ is forced through **ℚ(√−3)** and the invariant trace field is a
+   **commensurability invariant**, the live JOIN 1 question is now:
+   **DOES A MULTI-CUSPED MANIFOLD COMMENSURABLE WITH m004 CARRY THE REQUIRED ORDER-3 SYMMETRY?**
+   It would keep ℚ(√−3), 2T and E₆ and lift the parity obstruction. **Unrun. This is the next computation.**
 
 ## JOIN 2 — the values *(I-13, the listener map)*
 

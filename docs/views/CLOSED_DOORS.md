@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**784 recorded closures — of which 617 are CLASSIFIED by mechanism and
+**785 recorded closures — of which 618 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -67,6 +67,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Killed by a structural theorem that closes the entire class in one line. G2 < SO(7), so every element acts on R^7 with det = +1; and EVERY element of SO(2k+1) has eigenvalue +1 -- the characteristic polynomial is real of ODD degree hence has a real root, non-real eigenvalues occur in conjugate pairs of modulus 1 each contributing +1 to the determinant, the real eigenvalues are +-1 and their product must equal det = +1, and an ODD number of them multiplying to +1 forces at least one to be +1. Hence every nontrivial element of ANY flat G2 orbifold group fixes at least a LINE, and a 0-dimensional fixed set cannot occur for ANY G-hat. B1084's census {3d: 53, 1d: 42} was therefore FORCED by flatness in seven dimensions, not a property of |G-hat| = 96.` | 1 |  |
 | `Killed by running the discriminator the row itself had carried unrun. disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2^(t-1) = 2 genera: the GENUS GROUP HAS ORDER 2, against Gal's order 4. There is no 'genus V4' for disc -15 -- the object the row NAMES does not exist. The fallback reading (side B = Gal, order 4) rests on an ORDER MATCH, which B1223 forbids as evidence, plus the category mismatch B155 records (the glue is a GL(4,Z)-class invariant 'not forced by the spectral type': lattice data, not field data).` | 1 |  |
 | `Run, with a five-way control. On B102's W1/W2 -- the corpus's only non-self-dual rank-3 systems -- the index h1(V) - h1(V*) is ZERO at all 25 valid parameter points per component, and more sharply BOTH h1 VANISH: W1 and W2 are RIGID, carrying no deformations at all, so they cannot furnish a count in either direction. By B1260's own statement ('agree => the wall extends past closedness AND past the abelian sector') the wall extends.` | 1 |  |
+| `A parity theorem. |Fix| = |det(A - I)|, independent of the translation part, and det(A-I) = det A - tr A + 1, so finite order in GL(2,Z) gives |Fix| in {0,1,2,3,4} -- 3 IS algebraically reachable, from (det 1, tr -1). The GEOMETRY forbids it: Fix(g) of an orientation-preserving finite-order isometry is closed geodesics (no ends) plus properly embedded geodesic LINES (two ends each), so with exactly ONE cusp every end lands there and |Fix on the cusp| = 2*(#fixed lines), ALWAYS EVEN. Three ends in one cusp is odd.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

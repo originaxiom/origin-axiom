@@ -1,5 +1,30 @@
 # Changelog
 
+## THE PARITY THEOREM — 3 is EXCLUDED with one cusp, and the escape is ≥2 cusps
+
+**B1291.** `|Fix| = |det(A − I)|` and finite order in GL(2,ℤ) gives `|Fix| ∈ {0,1,2,3,4}`, with **3**
+from the order-3 rotation — **algebraically reachable**. The geometry forbids it: `Fix(g)` is closed
+geodesics (no ends) plus geodesic **lines** (two ends each), so with **one** cusp
+**|Fix on the cusp| = 2·(#fixed lines), always EVEN**. *Three ends in one cusp is odd.*
+
+```
+one-cusped, 1200 manifolds:  {(0,4): 1196, (0,): 4}   ODD violations: 0
+m004:                       Sym = D4,  |Fix| in {0,4}
+>=2 cusps:                  |Fix| = 1, 2, 3 all occur   (m202 gives BOTH 1 and 3)
+```
+
+**The control fires, so this is a specification, not an obituary:** 3 is excluded at one cusp and
+**realised at two**. And the obstruction is the **cusp count, not the field** — E₆ is forced through
+**ℚ(√−3)** (B727), an **invariant trace field**, hence a **commensurability invariant**. **A multi-cusped
+manifold commensurable with m004 keeps ℚ(√−3), keeps 2T, keeps E₆, and lifts the obstruction. Leave the
+knot, keep the field.** Named and **unrun**; it is now JOIN 1's live question.
+
+**E67 minted against this arc's own draft.** It closed the corner case with *“χ_orb = 0 for all 17
+quotients”* — **vacuous**, since `χ_orb(T²/G) = χ(T²)/|G| = 0` **identically for every finite G**. The
+non-vacuity control varied the orbifold's geometry instead of the group the argument ranges over.
+**The conclusion survived; the argument did not.** The corner case closes on **genericity (E61)** and
+**admissibility** instead. **I-26 stays UNEARNED.**
+
 ## THE INDEX FORMULA APPLIED — the zero is fourfold, and I-26 becomes a question about the cusp
 
 **B1290.** The SM-derivation seat's sweep supplied **`net chirality = χ(M, ∂⁺M)`** — *an index
