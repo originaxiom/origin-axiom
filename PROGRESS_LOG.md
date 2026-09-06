@@ -14322,3 +14322,24 @@ Owner: *"did u properly dealt with all these results... so we end up bootstrapin
   compact G₂ construction with chiral matter exists in the literature either**, so **B1259's negative
   is an open problem in the field, not this programme's failure**.
 - **⚠ THREE NUMBERING COLLISIONS**: main and the SM-derivation branch both use **B1267, B1275, B1276**.
+
+### The B1267+ collision, resolved permanently — the banking seat's job, done (2026-09-06)
+
+Owner: *"youre the banking seat, you should deal with them"* and *"we had similar issue before, u
+remember"*. **Both right — and the precedent was `docs/CLOUD_ALIAS_TABLE.md` (B1025+, 2026-08-12).**
+
+- **AND I UNDERCOUNTED.** Not three collisions — **SIX**: **B1267, B1272, B1273, B1274, B1275, B1276**
+  each name two arcs.
+- **THE CAUSE, both times:** a seat **renumbers to dodge main**, **main banks into the vacated range**,
+  and neither side learns until a harvest. The SM-derivation seat had already renumbered once
+  (*"B1265–B1269 → B1267–B1271"*) — and main banked straight into where it moved.
+- **RESOLVED, same shape as the cloud's:** **`docs/SM_SEAT_ALIAS_TABLE.md`** banked (permanent two-way
+  lookup); that seat's arcs cited on main as **`sB1267…sB1276`** (as the cloud's are `qB…`);
+  **B1278–B1289 RESERVED-NEVER-ASSIGNED on main** (B1278–B1283 for the SM seat; **B1284–B1289 buffer
+  for physics-seat and codex**); **main's next new arc is B1290**.
+- **ENFORCED, not remembered:** `tests/test_b1277_alias_table.py` reds the suite if any main arc sits
+  in a reserved range, and checks both tables exist and cross-link. **Renumbering is reactive and has
+  failed twice; a reserved range is checkable by a gate rather than by attention.**
+- **Relay written and ledgered:** `CC_TO_ALL_SEATS_2026-09-06_ARC_NUMBER_RESERVATION.md`.
+- **Not a judgement on content.** sB1271 (three generations via E₈ ⊃ E₆×SU(3)) was **verified on main
+  at B1275**; sB1267 (h¹ = 3 = h¹ exactly over ℚ(ω)) **independently confirms main's B1267**.
