@@ -1,0 +1,24 @@
+{
+ "id": "B1272",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1263",
+  "B1264",
+  "B1267",
+  "B598",
+  "B302"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-6",
+   "status": "UNEARNED",
+   "note": "multiplicity objection ANSWERED. B1263 sharpened I-6 by noting the 2T was not well defined (2 Aut-orbits); the owner-supplied Round-11 separator, verified here, distinguishes them: one orbit IS the geometric holonomy reduced mod (1-omega) (meridian order 3, triple (3,6,4)), the other is not (order 6, (6,6,4)). So the 2T has a canonical meaning and the multiplicity objection is paid. NOT earned: the map to the transverse ALE Gamma is still missing."
+  }
+ ],
+ "claim_one_line": "B1263'S 'GENUINE BINARY' IS THE GEOMETRIC vs NON-GEOMETRIC CHARACTER -- owner-supplied (Round 11), verified here on main's own data, and it CORRECTS B1263. B1263 found 48 surjections pi_1(m004) ->> 2T in 2 Aut(2T)-orbits, tested four relator-preserving automorphisms which ALL FIXED both orbits, and concluded 'a genuine binary with no symmetry reason to prefer either'. WRONG. VERIFIED END TO END: 72/48/2 reproduced; the orbits ARE separated by MERIDIAN ORDER (orbit 1 -> 3, orbit 0 -> 6); the invariant triple is (ord rho(a), ord rho(ab), ord rho([a,b])) = (3,6,4) and (6,6,4) exactly as claimed, the third slot being the COMMUTATOR order -- the programme's own Fricke object kappa = tr[A,M] -- and NOT the longitude, which gives 2 in both and is exhibited as a control so the slot is not fitted; AND THE GEOMETRIC ORBIT IS IDENTIFIED, since Z[omega]/(1-omega) = F_3 with omega = 1 makes the banked holonomy A = [[1,1],[0,1]], B = [[1,0],[-omega,1]] reduce to B = [[1,0],[2,1]] over F_3, a pair with det 1 that satisfies the relator, IS surjective onto 2T, and lands in ORBIT 1 with triple (3,6,4). B1263 missed it because the separator is ARITHMETIC (reduction at the prime above 3), not a symmetry of the presentation -- it used the wrong instrument and drew a stronger conclusion than the instrument supported. CONSEQUENCE FOR I-6: the multiplicity objection is PAID (the 2T now has a canonical meaning, the first of the H5 census's measured multiplicities resolved by a SELECTOR rather than merely counted), though the row is NOT earned since the map to the transverse ALE Gamma is still missing. ALSO A CROSS-BRANCH HARVEST: three seats are ahead of main -- physics-seat (138 commits, source of this finding), standard-model-derivation (7 today, computing h1(M;27) = 3 = h1(M;27bar) EXACTLY over Q(omega), independently confirming B1267's numerical index-0, plus a three-generation mechanism via three copies of the 27 permuted by an order-3 element), and codex/seat-r001 (50 commits incl. R037 on 2T quotient classes, NOT yet harvested). Verified here of the generation claim: 248 = 78 + 8 + (27,3) + (27bar,3bar) closes and 240-72-6 = 162 = 6 x 27 -- standard, sound, the classic E8 > E6 x SU(3) family mechanism; NOT verified is that the object's OWN order-3 element realises the family SU(3), and that seat's own headline reports the Yukawa forces ZERO on the triplet. NUMBERING COLLISION FLAGGED: the SM-derivation branch renumbered to B1267-B1271 to dodge main's B1265/B1266, and main then banked its own B1267."
+}

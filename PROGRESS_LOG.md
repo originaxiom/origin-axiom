@@ -14115,3 +14115,31 @@ than executing it.** Executed here.
 - **SCOPE.** Does **not** show net chirality impossible on m004 for every local system — only for the
   corpus's **exhibited** non-self-dual rank-3 family over the sampled range. A **non-rigid**
   non-self-dual system would reopen it, and that is the named revival path. Routed to the kill graph.
+
+### B1272 — B1263's binary is GEOMETRIC vs non-geometric; and the cross-branch harvest (2026-09-06)
+
+Owner-supplied (Round 11, physics-seat branch), **verified here on main's own data** — and it
+**corrects B1263**.
+
+- **B1263 was wrong** to conclude *"a genuine binary with no symmetry reason to prefer either."*
+  **Verified:** 72/48/2 reproduced; the orbits are separated by **meridian order** (3 vs 6); the
+  triple is **(ord ρ(a), ord ρ(ab), ord ρ([a,b])) = (3,6,4)** and **(6,6,4)** — the third slot the
+  **commutator** (the programme's own κ = tr[A,M]), *not* the longitude, which gives 2 in both and is
+  exhibited as a control. **And the geometric orbit is identified:** ℤ[ω]/(1−ω) ≅ 𝔽₃ with ω ≡ 1, so
+  the banked holonomy reduces to B = [[1,0],[2,1]] over 𝔽₃ — det 1, satisfies the relator,
+  **surjective**, landing in **orbit 1, (3,6,4)**.
+- **Why B1263 missed it:** its four automorphisms all *fixed* both orbits. **The separator is
+  arithmetic** (reduction at the prime above 3), not a symmetry of the presentation — **the wrong
+  instrument, and a conclusion stronger than the instrument supported.**
+- **I-6's multiplicity objection is PAID** — "the 2T" now has a canonical meaning. **First of the H5
+  census's measured multiplicities resolved by a SELECTOR rather than merely counted.** Row still
+  UNEARNED (the ALE Γ map is missing).
+- **CROSS-BRANCH HARVEST.** `physics-seat` (138 ahead, source of this), `standard-model-derivation`
+  (7 today — computes **h¹(M;27) = 3 = h¹(M;27̄) exactly over ℚ(ω)**, **independently confirming
+  B1267's numerical index-0**, plus a three-generation mechanism), `codex/seat-r001` (50, incl.
+  **R037 on 2T quotient classes — not yet harvested**). Verified of the generation claim:
+  **248 = 78+8+(27,3)+(27̄,3̄)** and **240−72−6 = 162 = 6×27** — standard, sound, the classic
+  **E₈ ⊃ E₆×SU(3)** mechanism. **Not verified:** that the object's *own* order-3 element realises the
+  family SU(3); and that seat reports **the Yukawa forces ZERO on the triplet**.
+- **⚠ NUMBERING COLLISION:** the SM-derivation branch renumbered to **B1267–B1271** to dodge main's
+  B1265/B1266, then main banked its own **B1267**. Recorded so it is not found silently.
