@@ -93,6 +93,17 @@ chirality needs a non-TCS singular transition. The E₆SSM review imposes by han
 (ℤ₂ symmetries, ⟨S⟩ ≫ TeV, light doublets, dimension-5 Majorana operators). The named object is the field's open
 problem, not a gap in this record.
 
+## 4c. The chirality bit, walled further (B1280, the same day)
+
+The bit (item 1 below, D3's carrier) is excluded from one more place: **the cusped object's own θ-odd frame.** The
+inversion of m004 acts on the six deformation classes of the geometric E₆ holonomy by exactly the E₆ outer automorphism's
+signs, so on the whole deformation germ 27̄_ρ ≅ ι\*(27_ρ) and N(27_ρ) = 0 — θ-odd or not, on m004 and every cusped cyclic
+cover (L200 closed); the geometric embedding is the unique even sl₂ orbit where this holds, the subregular I-25 point
+keeping one unpaired θ-odd direction (the V₁₀ of the 42, L207). Likewise B71's non-self-dual SL(3) components are vector-like on every cover (their cusp-fixed curve
+is the branch locus of the trace coordinates, where V ≅ τ\*V\*). With B1260 (every closed closing), B1279 (the mirror
+quotient) and B1259 (the flat G₂ class), the bit can now come only from the singular G₂ closing of item 1 or from the
+observer (B713/B760/B871). `docs/CHIRALITY_MAP_2026-09-06.md` is the full account.
+
 ## 5. What is expected, in order
 
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the

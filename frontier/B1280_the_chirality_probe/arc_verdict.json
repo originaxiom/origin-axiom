@@ -1,0 +1,31 @@
+{
+ "id": "B1280",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B71",
+  "B102",
+  "B1260",
+  "B1268",
+  "B1279",
+  "B1086",
+  "B1087",
+  "B576",
+  "B582",
+  "B1256",
+  "B1267",
+  "B1277"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [
+  {
+   "row": "I-26",
+   "status": "UNEARNED",
+   "note": "note extended, status unchanged: the quantity I-26 would read is now zero by theorem on the whole E_6 deformation germ of the cusped object and on all of W1 and W2 for every cusped cyclic cover; no h^1 of m004 on any representation the record supplies is a net count."
+  }
+ ],
+ "claim_one_line": "THE CHIRALITY PROBE, COMPLETED AND CLOSED BY TWO THEOREMS. (1) THE ELLIPTIC SL(3) COMPONENTS. On B71's non-self-dual components W1, W2 the A-variety identity is exact with scalar 1: lambda = mu^(+-3), so the peripheral pair shares every eigenvector and the cusp-fixed locus of EVERY cusped cyclic cover M_n and every central twist is one curve K = {mu has an eigenvalue in mu_3}; K is exactly the branch locus of the eight trace coordinates, where the two SL(3) characters over a point -- rho = (A, B) and (A^T, B^T), which is the dual pulled back by the object's period-2 isometry tau -- coincide (Lawton's ninth trace tr[A,B] = tr[B,A] <=> tr lambda = tr lambda^-1 <=> some eigenvalue of mu^3 is 1); hence V = tau^* V* on K and N(M_n; V) = 0 there, and off K there are no cusp-fixed vectors and B1268's bound gives N = 0: N(M_n; V) = 0 for every point of W1 and W2, every twist and every n (THEOREM). Exact second structure, checked at 18 points of K: tr(Phi^-1 | H^1(F;V)) = 2 tr mu^-1 and det = 1, so eig Phi^-1 = {1, e, 1/e} along K and only tr mu = 3/2 (triple eigenvalue 1) or -1/2 (double -1) could have carried a Jordan asymmetry; those points are found on both components (matrix-space solving, the generic fibre count as the completeness control) and have equal Jordan data on V and V*, Wang = Fox for n <= 9, N = 0. (2) THE THETA-ODD FRAME. The object's inversion iota (a -> a^-1, b -> b^-1) acts on the six deformation classes H^1(M; V_n), n in {2, 8, 10, 14, 16, 22}, of the geometric E_6 holonomy by (-1)^(n/2+1) = (+, -, +, +, -, +) -- exactly the signs of the E_6 outer automorphism theta (+1 on f_4, -1 on the 26 = V_8 + V_16); computed exactly over two primes, with the period-2 swap acting trivially. Two commuting involutions of the germ of the E_6 character variety at the geometric point with the same action on the Zariski tangent space coincide on the germ, so theta rho = iota^* rho for every rho near rho_0, 27bar_rho = iota^*(27_rho), and N(27_rho) = 0 identically on m004 and every cusped cyclic cover -- for every theta-odd deformation: L200 (B1268's remaining computation, the cusp-fixed theta-odd locus) is closed without finding the locus, and |N(27)| <= 1 is sharpened to N = 0 near the geometric point. The six signs are universal in n, so the same test runs at every even sl_2 orbit of E_6 by root combinatorics (mod4_criterion_other_sl2.py): the geometric point is the UNIQUE orbit where an isometry realises theta on the deformation space; at B1256's subregular I-25 point the triple is the principal sl_2 of an sp(8) (e_6 = sp(8) + 42) and exactly one theta-odd direction, the V_10 of the 42, is unpaired -- the first place on the object where N(27) != 0 is not excluded by symmetry (L207, bounded by B1268). The two walls are the same mechanism: the object's own isometries pair every non-self-dual system the record supplies with its dual on cohomology (iota for the abelian sector -- Alexander reciprocity -- and the E_6 germ; tau for the elliptic components on K). docs/CHIRALITY_MAP_2026-09-06.md collects every chirality statement of the record (four senses kept apart, eleven walls, every N computed -- all zero -- the literature's mechanisms, the three faces, five named open items). N = 0; 0 of 19; price unchanged."
+}

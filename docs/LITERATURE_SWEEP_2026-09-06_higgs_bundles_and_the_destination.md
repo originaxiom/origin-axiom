@@ -53,6 +53,8 @@ twisted: the fields are a gauge connection A and an **adjoint-valued 1-form Higg
 3. **T-branes are the one loophole the corpus has not typed.** The θ-odd second-order deformation certificates of
    B575 are nilpotent-type Higgs data; Barbosa et al.'s prescription (h¹ of 𝒜 = A + iφ on 𝒪 ⊗ 𝔤_ℂ) is exactly the
    twisted cohomology the corpus computes — so the loophole is already inside |N(27)| ≤ 1 near the geometric point.
+   **Typed 2026-09-06 (B1280):** the loophole is closed — on the whole E₆ deformation germ the object's inversion
+   acts as the E₆ outer automorphism, so every T-brane-type (θ-odd) deformation has 27̄ ≅ ι\*(27) and N(27) ≡ 0.
 4. **Instantons in orbifolds are computable** (Acharya–Braun–Svanes–Valandro 2018: infinitely many associatives
    in compact G₂ orbifolds contribute to the superpotential); in a vector-like flat closing the hierarchy question
    (L201) can be asked as structure before chirality is solved.

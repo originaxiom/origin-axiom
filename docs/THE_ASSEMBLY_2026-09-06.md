@@ -117,6 +117,8 @@ MAIN_GOAL asks three questions. All three now have computed answers.
 | cusped M, the 3-dim irreducibles of PSL(2,7) (12 classes) and a non-semisimple extension at 2 ± √3 | 3 | = | = | 0 | `scripts/external_verification/nonselfdual_psl27_extension.py` |
 | **cusped M, a θ-odd deformation of the geometric E₆ holonomy** (the frame that "works", B576) | 27 | 0 | 0 | **0**, with h⁰(∂M; 27_s) = 0: the cusp holonomy has no invariants off the geometric point | **B1268** (400-bit Newton to residual 10⁻⁶⁰, ranks at 60 digits) |
 | cusped M, near the geometric point, **any** small deformation | 27 | ≤ 3 | ≤ 3 | **\|N\| ≤ 1** | **B1268**, the bound + semicontinuity |
+| **cusped M and every cusped cyclic cover, the whole E₆ deformation germ (every θ-odd deformation)** | 27 | h¹(27_ρ) | = h¹(ι\*27_ρ) | **0 by theorem** (ι\* = θ on the germ) | **B1280** |
+| **cusped M and every cusped cyclic cover, all of B71's W1 ∪ W2, every twist** | 3 | | | **0 by theorem** (V ≅ τ\*V\* on the cusp-fixed curve; no cusp-fixed vectors off it) | **B1280** |
 
 The bound is the lemma `N(V) = rank(res_V) − h⁰(∂M;V)` (Poincaré–Lefschetz on the pair; checked exactly on
 every row above) with the complementarity `rank(res_V) + rank(res_V*) = h¹(∂M;V)`. It says where net chirality
@@ -248,5 +250,6 @@ the principal sl₂, σ (F₄-type) — and B1138's "two of three" is a statemen
 | **B1276** | every operator of the E₆ cubic labelled by the descent: one coupling on all 45; the relations among the 19 (`docs/THE_DESTINATION_LEDGER_2026-09-06.md`) | `tests/test_b1276_the_relations_the_chain_forces.py` |
 | **B1277** | the tree-level vacuum manifold of the E₈ theory on Y₃ (nine branches, no SM point); the SM point through W = z_L ∘ χ_j at the cost of one generation's doublets; the theorem SM + three generations ⟹ SU(5); L204 (zero modes only at t = φ^{±2}) | `tests/test_b1277_the_vacuum_manifold_of_the_closing.py` |
 | **B1278** | the tower's Wilson lines: H₁(Y₆) = ℤ/8 ⊕ ℤ/40, H₁(Y₉) = ℤ/76²; every character's h¹ (3, 27, 147 classes); the three-generation alphabet trivial on Y₃, Y₆ (all 32 768 000 lines on Y₆ enumerated: none) and 145 on Y₉, where 737 568 SM-commuting lines break SU(5) to exactly the SM with three complete generations (706 464 SM vacua, 568 656 with the full three 27s), vector-like | `tests/test_b1278_the_six_fold_closing.py` |
+| **B1280** | the chirality probe closed: W1/W2 vector-like on every cusped cover (λ = μ^{±3}, the cusp-fixed curve = the branch locus, V ≅ τ\*V\*); the six signs of the inversion on H¹(M; e₆) = θ's, so N(27) ≡ 0 on the θ-odd germ (L200 closed); `docs/CHIRALITY_MAP_2026-09-06.md` | `tests/test_b1280_the_chirality_probe.py` |
 | B1260, B1259, B1086, B1036, B1252, B1253, B1255, B1256, B1257, B1261, B1263 | as cited | their own locks |
 | `scripts/external_verification/` | the spine (18/18), the Menal-Ferrer–Porti law over two primes, W1/W2, PSL(2,7), the extension | run records in `docs/EXTERNAL_VERIFICATION_2026-09-06.md` |

@@ -2311,6 +2311,13 @@ N. **Either outcome banks:** N = 0 closes the cusped θ-odd frame completely; |N
 chirality on this object and would need the transport of B1269 §1 to mean anything (a 27 is not a field on Q).
 One evening of ball arithmetic. ★★
 
+**CLOSED 2026-09-06 (B1280) — by theorem, without finding the locus.** The object's inversion ι acts on the six
+deformation classes H¹(M; V_n), n ∈ {2, 8, 10, 14, 16, 22}, by (+, −, +, +, −, +) = the signs of the E₆ outer
+automorphism θ (exact over two primes: `frontier/B1280_the_chirality_probe/verification/theta_odd_pairing.py`); two
+commuting involutions of the germ with the same tangent action coincide, so θρ ≅ ι\*ρ for every ρ near ρ₀, 27̄_ρ ≅
+ι\*(27_ρ), and **N(27_ρ) = 0 identically on the whole θ-odd frame**, wherever the fixed-vector locus lies. The first
+outcome of "either outcome banks". `docs/CHIRALITY_MAP_2026-09-06.md`.
+
 ## L201 — THE EXPONENTIAL SECTOR AS THE HIERARCHY'S SOURCE (registered 2026-09-06, B1273; `docs/THE_VIEW_FROM_ABOVE_2026-09-06.md` candidate 1)
 
 Tree level is closed by theorems (B1261: 0 of 19; B1271: W ≡ 0 on the triplet; B1273: σ₁ ≤ σ₂ + σ₃ on the object's
@@ -2410,3 +2417,22 @@ order-19 eigenlines (φ^{±2} mod 19), so every vacuum has a mirror partner and 
 symmetries. What remains of (i) is a selection principle that is the object's, not the closing's. (ii) sharpened: the two
 subgroups are the eigenlines of the deck action with eigenvalues the roots of the golden polynomial mod 19. The CP
 quotient (an orientation-reversing lift with C₃ → −C₃) is closed as non-chiral by construction (B1279 §5).
+
+## L207 — THE SIX-SIGN TEST ON THE OTHER E₆ COMPONENTS, AND THE HIGHER-RANK SECTOR (registered 2026-09-06, B1280; `docs/CHIRALITY_MAP_2026-09-06.md` §6)
+
+B1280 closes net chirality on the cusped object wherever the record has a representation: the E₆ germ at the
+geometric point (ι\* = θ on H¹(M; e₆)), the elliptic SL(3) components (V ≅ τ\*V\* on the cusp-fixed curve), the
+abelian sector (ι\*ℂ_t = ℂ_{1/t}). What is not covered, in order of cost: **(i) the subregular germ's one unpaired
+direction.** B1280 §3(d) already ran the six-sign test at every even sl₂ orbit (the signs are universal in n, so it is
+root combinatorics): the geometric point is the unique orbit where an isometry realises θ; at B1256's subregular
+I-25 point the triple is the principal sl₂ of an sp(8) and the θ-odd direction V₁₀ ⊂ 42 is unpaired (θ′ = −1, every
+isometry +1). **The computation:** B1268 §3's deformation (Gauss–Newton on the relator with the analytic Jacobian, ball
+arithmetic) started from the subregular 27 = 13 + 9 + 5 along the V₁₀ ⊂ 42 class, then the cusp-fixed locus and the
+six ranks there; \|N(27)\| ≤ h⁰(∂M; 27) bounds it in advance. Either outcome banks: N = 0 there closes the θ-odd frame on
+every sl₂ germ; N ≠ 0 is the first net chirality on this object, at the one embedding B1256 found assumption-free.
+One evening. **(ii)** rank ≥ 4 non-self-dual
+components (none realised in the corpus; the transpose sheet mechanism is SL(n)-general, Lawton's ninth-trace
+statement is SL(3)-specific). **(iii)** the general statement: *conjecture* N(V) = 0 for every representation of
+π₁(m004); the mechanism in every computed case is an isometry pairing V with V\* on cohomology or the absence of
+cusp-fixed vectors, but the right general formulation (off K on W1/W2 no isometry pairs V with V\*, the bound does the
+work) is not yet written. ★★ for (i); (ii)–(iii) are mathematics beyond the destination's need.

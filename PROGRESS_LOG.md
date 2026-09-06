@@ -14420,3 +14420,28 @@ glide fixes or inverts half the lines. The CP face's quotient is closed: an orie
 C₃ → −C₃ projects onto an involution inverting the Cartan, under which every projected representation is
 self-conjugate — non-chiral by construction. Lock `tests/test_b1279_the_symmetries_of_the_closing.py`. N = 0; 0 of 19;
 price unchanged.
+
+### B1280 — the chirality probe completed and closed by two theorems: W1/W2 vector-like on every cover, the θ-odd frame vector-like on its whole germ (the inversion is the E₆ outer automorphism), and the chirality map (2026-09-06)
+
+The owner asked for the record's chirality knowledge retrieved and the remaining computations run. **Retrieved:**
+`docs/CHIRALITY_MAP_2026-09-06.md` — four senses of "chirality" kept apart (knot, representation, count, bit), eleven
+walls as theorems with their arcs, every net chirality N = h¹(V) − h¹(V\*) the record has computed (all zero), the
+literature's mechanisms against the object, the three faces, five named open items. **Computed** (`frontier/B1280_the_chirality_probe/`):
+(1) on B71's non-self-dual SL(3) components W1, W2 the A-variety identity is exact with scalar 1 (λ = μ^{±3}), so the
+cusp-fixed locus of every cusped cyclic cover and every twist is ONE curve K = {μ has an eigenvalue in μ₃}; K is exactly
+the branch locus of the eight trace coordinates, where the two characters over a point — ρ and (Aᵀ, Bᵀ) = the dual pulled
+back by the object's period-2 isometry τ — coincide (Lawton's ninth trace); hence V ≅ τ\*V\* on K and **N(M_n; V) = 0 for
+every point, twist and n (theorem)**; checked at 18 points of K (eig Φ⁻¹ = {1, e, 1/e} exactly, tr Φ⁻¹ = 2 tr μ⁻¹,
+det = 1) and at the repeated-eigenvalue points (tr μ = 3/2, −1/2), where the Jordan data of V and V\* agree and
+Wang = Fox for n ≤ 9. (2) **The object's inversion ι (a ↦ a⁻¹, b ↦ b⁻¹) acts on the six deformation classes
+H¹(M; V_n), n ∈ {2, 8, 10, 14, 16, 22}, of the geometric E₆ holonomy by (+, −, +, +, −, +) — exactly the E₆ outer
+automorphism's signs** (exact over two primes; the period-2 swap acts trivially). Two commuting involutions of the germ
+with the same tangent action coincide on the germ: θρ ≅ ι\*ρ for every ρ near ρ₀, so 27̄_ρ ≅ ι\*(27_ρ) and **N(27_ρ) = 0
+identically on the whole θ-odd frame**, on m004 and every cusped cyclic cover — L200 (B1268's remaining computation) is
+closed without finding the locus, and |N(27)| ≤ 1 is sharpened to N = 0. The signs are universal in n, so the test
+runs at every even sl₂ orbit by root combinatorics: **the geometric point is the unique orbit where an isometry realises
+θ; at B1256's subregular I-25 point exactly one θ-odd direction (the V₁₀ of the 42, the sl₂ being the principal sl₂ of
+an sp(8)) is unpaired** — L207 names it. One mechanism behind both: the object's own
+isometries pair every non-self-dual system it supplies with its dual on cohomology (ι: the abelian sector = Alexander
+reciprocity, and the E₆ germ; τ: the elliptic SL(3) components on K). Lock `tests/test_b1280_the_chirality_probe.py`
+(the six signs and the identities fast; the full probe slow). N = 0; 0 of 19; price unchanged.

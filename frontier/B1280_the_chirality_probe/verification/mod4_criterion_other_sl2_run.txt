@@ -1,0 +1,50 @@
+n -> eps_n(iota) = (-1)^(n/2+1): {0: -1, 2: 1, 4: -1, 6: 1, 8: -1, 10: 1, 12: -1, 14: 1, 16: -1, 18: 1, 20: -1, 22: 1}
+
+orbit | dim | e_6 under the sl_2 | tangent dim h^1(M; e_6) | fixed algebra of the theta fixing the triple | -1 part | mod-4 criterion (an isometry realises theta on the tangent space)
+
+E6 (principal; the geometric point) (2, 2, 2, 2, 2, 2): dim O = 72; e_6 = V2+V8+V10+V14+V16+V22; tangent dim 6
+    theta with fixed algebra f_4 (sigma-split of the roots): fixed V2+V10+V14+V22 | -1 part V8+V16 | criterion True
+    => an isometry realises theta on the tangent space: True
+
+E6(a1) (subregular; B1256's I-25 point) (2, 2, 2, 0, 2, 2): dim O = 70; e_6 = V2+V4+V6+V8+V10+V10+V14+V16; tangent dim 8
+    theta with fixed algebra sp(8), sl_2 of partition [8]: fixed V2+V6+V10+V14 | -1 part V4+V8+V10+V16 | criterion False -- unpaired: fixed [], minus ['V10']
+    => an isometry realises theta on the tangent space: False
+
+D5 (2, 2, 0, 2, 0, 2): dim O = 68; e_6 = V0+V2+V4+V4+V6+V8+V10+V10+V10+V14; tangent dim 10
+    theta with fixed algebra f_4 (sigma-split of the roots): fixed V2+V4+V6+V10+V10+V14 | -1 part V0+V4+V8+V10 | criterion False -- unpaired: fixed ['V4'], minus ['V10']
+    => an isometry realises theta on the tangent space: False
+
+E6(a3) (2, 0, 0, 2, 0, 2): dim O = 66; e_6 = V2+V2+V2+V4+V4+V4+V6+V6+V8+V8+V10+V10; tangent dim 12
+    theta with fixed algebra f_4 (sigma-split of the roots): fixed V2+V2+V2+V4+V6+V8+V10+V10 | -1 part V4+V4+V6+V8 | criterion False -- unpaired: fixed ['V4', 'V8'], minus ['V6']
+    theta with fixed algebra sp(8), sl_2 of partition [6, 2]: fixed V2+V2+V4+V6+V6+V10 | -1 part V2+V4+V4+V8+V8+V10 | criterion False -- unpaired: fixed ['V4'], minus ['V2', 'V10']
+    => an isometry realises theta on the tangent space: False
+
+D4 (0, 2, 0, 2, 0, 0): dim O = 60; e_6 = V0+V0+V0+V0+V0+V0+V0+V0+V2+V6+V6+V6+V6+V6+V6+V6+V6+V10; tangent dim 18
+    theta with fixed algebra f_4 (sigma-split of the roots): fixed V0+V0+V0+V2+V6+V6+V6+V6+V6+V10 | -1 part V0+V0+V0+V0+V0+V6+V6+V6 | criterion False -- unpaired: fixed ['V0', 'V0', 'V0'], minus ['V6', 'V6', 'V6']
+    => an isometry realises theta on the tangent space: False
+
+A4 (2, 2, 0, 0, 0, 2): dim O = 60; e_6 = V0+V0+V0+V0+V2+V2+V2+V2+V2+V4+V4+V4+V6+V6+V6+V6+V6+V8; tangent dim 18
+    theta with fixed algebra f_4 (sigma-split of the roots): fixed V0+V0+V0+V2+V2+V2+V2+V6+V6+V6+V6+V8 | -1 part V0+V2+V4+V4+V4+V6 | criterion False -- unpaired: fixed ['V0', 'V0', 'V0', 'V8'], minus ['V2', 'V6']
+    theta with fixed algebra sp(8), sl_2 of partition [4, 4]: fixed V0+V2+V2+V2+V4+V6+V6+V6 | -1 part V0+V0+V0+V2+V2+V4+V4+V6+V6+V8 | criterion False -- unpaired: fixed ['V0', 'V4'], minus ['V2', 'V2', 'V6', 'V6']
+    => an isometry realises theta on the tangent space: False
+
+D4(a1) (0, 0, 0, 2, 0, 0): dim O = 58; e_6 = V0+V0+V2+V2+V2+V2+V2+V2+V2+V2+V2+V4+V4+V4+V4+V4+V4+V4+V6+V6; tangent dim 20
+    theta with fixed algebra f_4 (sigma-split of the roots): fixed V2+V2+V2+V2+V2+V2+V4+V4+V4+V4+V6+V6 | -1 part V0+V0+V2+V2+V2+V4+V4+V4 | criterion False -- unpaired: fixed ['V4', 'V4', 'V4', 'V4'], minus ['V2', 'V2', 'V2']
+    theta with fixed algebra sp(8), sl_2 of partition [4, 2, 2]: fixed V0+V2+V2+V2+V2+V2+V2+V4+V4+V6 | -1 part V0+V2+V2+V2+V4+V4+V4+V4+V4+V6 | criterion False -- unpaired: fixed ['V0', 'V4', 'V4'], minus ['V2', 'V2', 'V2', 'V6']
+    => an isometry realises theta on the tangent space: False
+
+2A2 (2, 0, 0, 0, 0, 2): dim O = 48; e_6 = V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V2+V2+V2+V2+V2+V2+V2+V2+V4+V4+V4+V4+V4+V4+V4+V4; tangent dim 30
+    theta with fixed algebra f_4 (sigma-split of the roots): fixed V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V2+V4+V4+V4+V4+V4+V4+V4 | -1 part V2+V2+V2+V2+V2+V2+V2+V4 | criterion False -- unpaired: fixed ['V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V4', 'V4', 'V4', 'V4', 'V4', 'V4', 'V4'], minus ['V2', 'V2', 'V2', 'V2', 'V2', 'V2', 'V2']
+    theta with fixed algebra sp(8), sl_2 of partition [3, 3, 1, 1]: fixed V0+V0+V0+V0+V0+V0+V2+V2+V2+V2+V2+V4+V4+V4 | -1 part V0+V0+V0+V0+V0+V0+V0+V0+V2+V2+V2+V4+V4+V4+V4+V4 | criterion False -- unpaired: fixed ['V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V4', 'V4', 'V4'], minus ['V2', 'V2', 'V2']
+    => an isometry realises theta on the tangent space: False
+
+A2 (0, 2, 0, 0, 0, 0): dim O = 42; e_6 = V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V4; tangent dim 36
+    theta with fixed algebra f_4 (sigma-split of the roots): fixed V0+V0+V0+V0+V0+V0+V0+V0+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2+V4 | -1 part V0+V0+V0+V0+V0+V0+V0+V0+V2+V2+V2+V2+V2+V2 | criterion False -- unpaired: fixed ['V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V0', 'V4'], minus ['V2', 'V2', 'V2', 'V2', 'V2', 'V2']
+    theta with fixed algebra sp(8), sl_2 of partition [2, 2, 2, 2]: fixed V0+V0+V0+V0+V0+V0+V2+V2+V2+V2+V2+V2+V2+V2+V2+V2 | -1 part V0+V0+V0+V0+V0+V0+V0+V0+V0+V0+V2+V2+V2+V2+V2+V2+V2+V2+V2+V4 | criterion False -- unpaired: fixed ['V0', 'V0', 'V0', 'V0', 'V0', 'V0'], minus ['V2', 'V2', 'V2', 'V2', 'V2', 'V2', 'V2', 'V2', 'V2']
+    => an isometry realises theta on the tangent space: False
+
+Verdict: the criterion holds at ['E6 (principal; the geometric point)'] and fails at every other even orbit.
+At the subregular point the only outer involution fixing the triple is the sp(8)-type one (the sl_2 is the principal sl_2 of an
+sp(8): e_6 = sp(8) + 42 = (V2+V6+V10+V14) + (V4+V8+V10+V16)), and exactly ONE direction is unpaired: the V10 of the 42 (theta = -1, iota* = +1).
+
+SELFTEST: PASS

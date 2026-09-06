@@ -145,6 +145,13 @@ tested. Not settled: a theorem that N vanishes for *every* representation of the
 instances suggest `rank(res_V) = h⁰(∂M;V)` holds generally — a "half lives, half dies" statement beyond
 the self-dual case — but this seat has not proved it and does not claim it).
 
+*Status 2026-09-06, later the same day (B1280):* settled on the two sectors this section computed and beyond them.
+On W1 and W2 the vanishing is a theorem for every point, twist and cusped cyclic cover (the six points above lie on
+the curve K = {μ has an eigenvalue in μ₃}, which is the branch locus of the eight trace coordinates, where V ≅ τ\*V\*
+for the period-2 isometry τ); and on the whole E₆ deformation germ at the geometric point N(27) ≡ 0 because the
+object's inversion acts on the six deformation classes by exactly the E₆ outer automorphism's signs. The general
+theorem for *every* representation remains unproved (L207). `docs/CHIRALITY_MAP_2026-09-06.md`.
+
 **And even a nonzero N would not have delivered generations.** `docs/IDENTIFICATION_LEDGER.md` row I-26
 (registered today) says the reading "a twisted-cohomology dimension of a real 3-manifold = the number of
 4d chiral generations" has never been exhibited: the index theorems that count generations live on a

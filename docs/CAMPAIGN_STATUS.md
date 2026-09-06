@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1280 — THE CHIRALITY PROBE, CLOSED BY TWO THEOREMS)**: the record's chirality knowledge retrieved
+into `docs/CHIRALITY_MAP_2026-09-06.md` (four senses, eleven walls, every N computed — all zero); B71's non-self-dual SL(3)
+components W1, W2 proved vector-like on every cusped cyclic cover (λ = μ^{±3} exactly; the cusp-fixed curve K is the branch
+locus of the trace coordinates where V ≅ τ\*V\*, τ the period-2 isometry); and **the object's inversion acts on the six
+deformation classes of the geometric E₆ holonomy by exactly the E₆ outer automorphism's signs (+, −, +, +, −, +), so the
+whole θ-odd frame is vector-like on the cusped object: N(27) ≡ 0 on the germ, L200 closed.** The geometric point is the
+unique sl₂ orbit where this holds; at B1256's subregular point one θ-odd direction (the V₁₀ of the 42) is unpaired — L207.
+The object is even at the geometric point in every sense the record can compute; the chirality bit is the singular G₂ closing's or the observer's. Price unchanged.
+
 **LATEST (2026-09-06, B1279 — THE SYMMETRIES OF THE CLOSING ON ITS SM LINES)**: the object's eight isometries as
 automorphisms of its presentation (word search in Riley's holonomy; the same eight cusp maps as the addendum); their
 lifts on H₁(Y₃, Y₆, Y₉) with the deck groups (orders 24, 48, 72). **On Y₉ the two order-19 subgroups carrying the new

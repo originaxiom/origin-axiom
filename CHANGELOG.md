@@ -1,5 +1,14 @@
 # Changelog
 
+## B1280 — the chirality probe completed and closed by two theorems: the elliptic SL(3) components W1, W2 vector-like on every cusped cover, the θ-odd E₆ frame vector-like on its whole germ (the object's inversion IS the E₆ outer automorphism on the deformation space), and the chirality map
+
+`docs/CHIRALITY_MAP_2026-09-06.md` collects every chirality statement of the record (four senses, eleven walls, every N
+computed — all zero — the literature's mechanisms, the three faces, five open items). W1/W2: λ = μ^{±3} exactly, the
+cusp-fixed locus of every cover is the curve K = the branch locus of the trace coordinates, where V ≅ τ\*V\*; N ≡ 0
+(theorem, checked at 18 points of K and at its four repeated-eigenvalue points per component). θ-odd: ι\* = θ on H¹(M; e₆) (signs (+, −, +, +, −, +), two primes), so
+θρ ≅ ι\*ρ on the germ and N(27) ≡ 0; L200 closed. The geometric point is the unique even sl₂ orbit where this holds;
+at the subregular (I-25) point one θ-odd direction, the V₁₀ of the 42, is unpaired (L207). `frontier/B1280_the_chirality_probe`.
+
 ## B1279 — the symmetries of the closing on its Standard-Model lines: the two golden eigenlines mod 19, 19 624 inequivalent SM vacua on Y₉, and the mirror pairing every vacuum with a different one
 
 The object's eight isometries as automorphisms of its own presentation (exhaustive word search, conjugators

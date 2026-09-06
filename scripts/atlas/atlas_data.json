@@ -6674,6 +6674,37 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1280": {
+   "slug": "the chirality probe",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B102",
+    "B316",
+    "B576",
+    "B582",
+    "B71",
+    "L200",
+    "L207",
+    "P1"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B128": {
    "slug": "symmetry breaking chirality",
    "motifs": [

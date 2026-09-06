@@ -122,3 +122,15 @@ instances are, by construction, spread across surfaces nobody was reading.
 | "the torsor becomes the bit over ℚ(√5), **the object's own field**" | B1248/B1192 draft addenda, 2026-09-05 (self-caught) | **GENERIC, not object content.** `2 − κ(A,X_A) = −(tr²A − 4)` **is** minus the discriminant of A's characteristic polynomial, so the class trivialises exactly over A's own eigenvalue field **for every A** (checked at tr A = 3, 4, 5, 6, 7, −3, 11). Only *which* field it is (ℚ(√5), from tr A = 3) is object-specific; the structure is a tautology of the identity. Class **E61**. |
 | "the object's **meridian pair** carries class −1 — the object supplies its own bit" | B1248 draft, 2026-09-05 (self-caught by MB12) | **VACUOUS.** For any two parabolics `tr[a,b] = y² + 2`, so `2 − κ = −y²` — minus a perfect square **identically, in every field**. The class −1 belongs to the meridian pair of *every* cusped hyperbolic knot complement (cross-checked on 5₂, 6₁). Zero m004 content. Class **E61**. |
 | "sin²θ_W = 3/8" read as **selecting E₆ / the knot** | B919, 2026-08-05 (no genericity fence); flagged by an external reviewer, verified 2026-09-05 | **NON-DISCRIMINATING.** `Tr(T₃²)/Tr(Y²) = 3/5` for the SU(5) **5**, **5̄**, **10**, SO(10) **16** and E₆ **27** alike, so 3/8 follows from the SU(5)-compatible embedding plus equal normalised couplings. B919's "no convention" claim is correct for **T₃** (sl₂ ad-eigenvalues) and **not** for **Y**, which is *anchored by the electromagnetic identification* — an unregistered I-13 instance, now **I-23**. Object-specific: that the object supplies the su(2)-ideal at all. **Not** the number. |
+
+**Currency (verified 2026-09-06, through B1280).** The B1250–B1280 window (the assembly seat's B1267–B1280: the
+spectrum law rebuilt, the cusped bound, the transports, E₆ from the two faces, the chain, the mirror, the tower and
+its closings, the vacuum manifold, the Wilson lines, the symmetries, the chirality probe) produced **no new live-claim
+retractions**: its corrections were made in staging or by same-day addenda that register the error (B1267's transport
+scope, B1270's θ — E68, E69; B1277's "the SM's commutant is abelian" and B1280's first framing of the W1/W2 cusp-fixed
+locus as isolated points, both self-caught before banking — it is a curve, the branch locus of the trace coordinates).
+One phrase is **sharpened, not retracted**: "the θ-odd frame is the frame that carries chirality" (E65's successor
+frame, B576/B582) is true in the sense of a *complex* 27 and was never a count; B1086 found it vector-like on the
+double and **B1280 proves it vector-like on the cusped object's whole deformation germ** (the inversion is the E₆ outer
+automorphism there). Readers should take "chiral" in that phrase as *non-self-dual*; `docs/CHIRALITY_MAP_2026-09-06.md`
+§0 keeps the four senses apart. The `retraction-sweep` gate is clean on this window.

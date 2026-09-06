@@ -178,3 +178,11 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   the mirror swaps them. **706 464 SM lines → 19 624 inequivalent vacua, every one with a mirror partner**; the
   period-2 symmetry with the E₈ Chevalley involution is charge conjugation on every vacuum; the CP quotient is
   non-chiral by construction. The selection among the 19 624 is still not the object's.
+- **The chirality probe, closed (B1280; `docs/CHIRALITY_MAP_2026-09-06.md`).** q1's last two open cells are theorems:
+  B71's non-self-dual SL(3) components W1, W2 are vector-like on every cusped cyclic cover (the cusp-fixed curve is the
+  branch locus of the trace coordinates, where V ≅ τ\*V\*), and **the whole θ-odd E₆ frame is vector-like on the cusped
+  object** — the object's inversion acts on the six deformation classes by exactly the E₆ outer automorphism's signs
+  (+, −, +, +, −, +), so 27̄_ρ ≅ ι\*(27_ρ) on the germ and N(27) ≡ 0 (L200 closed). The geometric embedding is the
+  unique even sl₂ orbit where this holds; at B1256's subregular I-25 point one θ-odd direction (the V₁₀ of the 42) is
+  unpaired — L207 names the computation. No h¹ of this manifold, on any representation the record supplies, is a net
+  count; the chirality bit is the singular G₂ closing's or the observer's.

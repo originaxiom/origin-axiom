@@ -107,6 +107,17 @@ with three complete generations** (706 464 SM vacua, 568 656 with the full three
 the group and the count are no longer walls — the object's own 9-fold closing supplies both; **chirality is the one
 wall** (closed ⟹ vector-like, B1260), and the values behind it.
 
+## 5e. The one wall, walled on the object too (added the same day, B1280)
+
+§5d left chirality as the one wall. B1280 closes it on the cusped object as well: **the object's inversion acts on the
+six deformation classes of the geometric E₆ holonomy by exactly the E₆ outer automorphism's signs**, so every θ-odd
+deformation's 27̄ is the pullback of its 27 by an isometry and N(27) ≡ 0 on the germ (L200 closed) — at the geometric
+embedding alone among the even sl₂ orbits, the subregular I-25 point keeping one unpaired θ-odd direction (L207); and B71's
+non-self-dual SL(3) components are vector-like on every cusped cover. The object is even in every sense the record can
+compute — the arithmetic face (Alexander reciprocity = ι-invariance of Δ), the quantum face (ι\* = θ), the elliptic
+components (V ≅ τ\*V\* on the cusp-fixed curve). The chirality bit is the singular G₂ closing's (candidate 1's carrier)
+or the observer's. `docs/CHIRALITY_MAP_2026-09-06.md`.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with
