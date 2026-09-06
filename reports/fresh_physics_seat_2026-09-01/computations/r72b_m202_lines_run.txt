@@ -1,0 +1,21 @@
+pi_1(m202): ['a', 'b'] aabbAbAABBaB
+relator holds: True
+(1) automorphisms found with images of length <= 5: 180
+(2) isometry classes by the |traces| of their elliptic lifts (|gamma| <= 4):
+    elliptic |tr| = (): 17 automorphisms, e.g. a -> a, b -> b
+    elliptic |tr| = (np.float64(0.0),): 107 automorphisms, e.g. a -> a, b -> aB
+    elliptic |tr| = (np.float64(1.0),): 28 automorphisms, e.g. a -> B, b -> aB
+    elliptic |tr| = (np.float64(1.7321),): 28 automorphisms, e.g. a -> b, b -> bA
+    cusp 0: meridian word bbAbA, |tr| = 2.000000, cusp point x_0 = (9.530431358723097e-17-7.742330364771843e-17j)
+    cusp 1: meridian word bbAb, |tr| = 2.000000, cusp point x_1 = (0.43301270189221924+0.25j)
+    orbit sizes (words <= 9): cusp 0: 27138, cusp 1: 27138; disjoint: True
+    cusp permutation resolved for 180 of 180 automorphisms; Counter({((np.float64(0.0),), 'swapped'): 90, ((np.float64(1.7321),), 'preserved'): 28, ((np.float64(1.0),), 'preserved'): 28, ((), 'preserved'): 17, ((np.float64(0.0),), 'preserved'): 17})
+    order 3 (r^2): 96 distinct axes of elliptic lifts (|gamma| <= 6); endpoint-cusp patterns: {('0', '1'): 96}
+        unresolved endpoints (not reached by the orbit search): 0 of 96
+    order 6 (r): 115 distinct axes of elliptic lifts (|gamma| <= 6); endpoint-cusp patterns: {('0', '1'): 115}
+        unresolved endpoints (not reached by the orbit search): 0 of 115
+    order 2 (r^3): 117 distinct axes of elliptic lifts (|gamma| <= 6); endpoint-cusp patterns: {('0', '1'): 117}
+        unresolved endpoints (not reached by the orbit search): 0 of 117
+    cusp-swapping involutions: 28 distinct axes of elliptic lifts (|gamma| <= 6); endpoint-cusp patterns: {('None', 'None'): 28}
+        unresolved endpoints (not reached by the orbit search): 28 of 28
+SELFTEST: PASS
