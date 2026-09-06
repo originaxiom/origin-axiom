@@ -1,5 +1,7 @@
 # R58 — θ-PARITY COMPUTED: the object's three h¹ classes are all θ-even, the fiber carries a θ-odd sector of 6 and 10, and the closing is what removes it
 
+> **RETRACTION BANNER (R60, 2026-09-06):** the involution computed here is the fiber's −I (the period-2 symmetry ι), **not** the record's θ. Under the record's θ (B347/B353, the strong inversion) all three classes are θ-**odd**, reproducing B347's (−1)^{m+1} exactly. §2's headline, §4's "settles" and "opens" are **withdrawn** as statements about θ. §1, §3 and §5 stand as facts about ι. See `R60_WHICH_INVOLUTION.md`.
+
 **Seat:** fresh physics seat (fc) · **Date:** 2026-09-06 · **Against main @ 0ecd9557** · **Status:** seat report, not banked. Exact arithmetic modulo three primes p ≡ 1 (mod 3) (10009, 100003, 1000003), all agreeing; script `computations/r58_theta_parity.py`. Follows R56 (the endpoint theorem) and R57 (the three strands).
 
 ## 0. The question, and why it had never been asked

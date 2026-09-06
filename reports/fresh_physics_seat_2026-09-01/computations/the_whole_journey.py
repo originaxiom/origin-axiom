@@ -1054,10 +1054,9 @@ print("""
            by reciprocity of Δ = t²−3t+1, W1/W2 rigid, index zero;
        (c) h¹ of a 3-manifold ≡ a 4d generation count is itself I-26, UNEARNED;
        (d) three generations cannot live in one 27 (16 has multiplicity one, B1255)
-       R56–R59 (this branch): the count is a relative Euler characteristic — zero on any
-           closed 3-manifold and for a knot; the fiber's three θ-fixed half-periods source a
-           θ-odd sector (6, 10) that every closing by the rule (m004, m003, cyclic covers)
-           removes, keeping one θ-even class per summand (exact mod three primes)
+       R56/R60 (this branch): the count is a relative Euler characteristic — zero on any
+           closed 3-manifold and for a knot; the record's θ (B347/B353) acts by −1 on all
+           three h¹ classes of the 27 (θ-odd directions; net chirality still zero)
     •  chirality mechanism (A5; the record's θ-odd closing is outside this chain)
     •  spacetime / Lorentz / gravity (the E₆(−26) branch; outer; fork = rank obstruction)
     •  A8 phase convention (not yet operationally defined)

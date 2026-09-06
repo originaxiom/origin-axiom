@@ -1,0 +1,55 @@
+# R60 — CORRECTION: the record's θ is the meridian-reversing involution (B347/B353), not the fiber's −I; R57 fact (3), R58 §2–§4 and R59 are retracted as statements about θ
+
+**Seat:** fresh physics seat (fc) · **Date:** 2026-09-06 · **Against main @ 69a027eb** · **Status:** seat correction, on the owner's instruction *"before you push false incompatibility, search the repo, fetch it — we already derived them."* Exact modulo two primes; script `computations/r60_which_involution.py`.
+
+## 0. What I got wrong, and how
+
+R57–R59 rested on one reading: THEOREM_REGISTRY's T-θTANGENT says θ *"is realized by the hyperelliptic involution (B353)"*, and I took "hyperelliptic" to mean the once-punctured-torus fiber's −I ∈ SL(2,ℤ) — the meridian-**preserving** period-2 symmetry whose fixed points are the three half-periods. **I did not open B347 to see which automorphism it used.** B347's involution is `a→a⁻¹, b→b⁻¹` on the SnapPy census presentation `⟨a,b | ab³aBA²B⟩`, whose generators are **meridians**. Inverting both meridians acts by −1 on H₁ = ℤ: it is a **strong inversion**, the meridian-**reversing** orientation-preserving involution. The fiber's −I acts by +1 on H₁. They are different elements of the symmetry group D₄, and the record's computation (B347 numerically, B351 exactly on the algebra, B353 gauge-certified at the deformation complex) is about the strong inversion. **The record is right. My R58/R59 computed a different involution and called it θ.**
+
+## 1. Both involutions, computed on one bench (Riley's presentation ⟨x,y | xyXYxYXyxY⟩)
+
+| coefficient Sym^{2m} | m | record's θ = strong inversion `x→x⁻¹, y→y⁻¹` | fiber −I transported (`x→xyx⁻¹, y→xy⁻¹xyx⁻¹`) | B347 banked |
+|---|---|---|---|---|
+| Sym² | 1 | **+1** | +1 | + |
+| Sym⁸ | 4 | **−1** | +1 | − |
+| Sym¹⁰ | 5 | **+1** | +1 | + |
+| Sym¹⁴ | 7 | **+1** | +1 | + |
+| Sym¹⁶ | 8 | **−1** | +1 | − |
+| Sym²² | 11 | **+1** | +1 | + |
+| Sym⁰ | 0 | **−1** | +1 | — |
+| Sym⁴ | 2 | **−1** | +1 | — |
+| Sym⁶ | 3 | **+1** | +1 | — |
+| Sym¹² | 6 | **−1** | +1 | — |
+| Sym¹⁸ | 9 | **+1** | +1 | — |
+| Sym²⁰ | 10 | **−1** | +1 | — |
+
+- **B347's table is reproduced exactly** on a different presentation with an independent implementation (exact mod p, not mpmath): (+,−,+,+,−,+). The pattern `(−1)^{m+1}` holds at every m tested, including the non-exponents.
+- The fiber's −I is **+1 on every line**. It is a symmetry of the object, but it is not θ.
+
+## 2. The corrected physics reading
+
+Under the record's θ, the three h¹ classes of the 27 under the principal embedding — Sym¹⁶, Sym⁸, Sym⁰ (m = 8, 4, 0) — are **all θ-odd**. So are the subregular's Sym¹², Sym⁸, Sym⁴ (m = 6, 4, 2). **R58's headline ("all three classes are θ-even") is false; the truth is the opposite sign.** In B576's dictionary (θ-odd ⇒ full-E₆ closure, chiral) the classes are on the chiral side — which is the reading the record already had, and which my R58 wrongly "refuted."
+
+What θ-oddness does **not** change: net chirality `h¹(27) − h¹(27̄)` is zero (E65, B1260, B1267, confirmed exactly over ℚ(ω) by the SM-derivation seat per B1272). A θ-odd class is a chiral *deformation direction*; it is not a nonzero *index*. R56's endpoint theorem is untouched by this correction.
+
+## 3. What is retracted, what stands
+
+**Retracted (as statements about θ):**
+- **R57 fact (3)** — "θ fixes exactly three points per fiber." θ = the strong inversion; its fixed set is the axis meeting the knot in two points, i.e. **two arcs** from the cusp to the cusp (χ = 2), not the three half-periods.
+- **R58 §2–§4** — the "all even" result, the "1 abelian + 2 chiral typing refuted" sentence, and the "opens" paragraph. The computation in R58 is a correct computation *about the period-2 involution ι*, which is not θ.
+- **R59** — "the θ-twisted closing"; the twist there is by ι, not θ. As a statement about ι it stands (the sister m003 is the mapping torus of −M², and ι-fixed lines coincide); as a statement about θ it is void, since θ reverses the base and is not a mapping-torus twist at all.
+- **The journey's generation note** and my last two messages to the owner where they repeat these.
+
+**Stands:**
+- **R56** in full (the endpoint theorem, the χ-accounting, the codimension gap, the two-sl₂ finding — the last now moot for chirality by §2 and by B1274's collapse of I-25 to the subregular).
+- **R57 facts (1), (2), (4)**: the rule is the 3-braid σ₁σ₂⁻¹; the object is the closure of (σ₁σ₂⁻¹)² and of no 2-braid (braid index 3); M² permutes the three half-periods in a 3-cycle, so the **period-2 involution ι** has fixed set one closed geodesic meeting every fiber three times. The three half-periods are a real, listed structure of the object; they are the fixed points of ι, not of θ.
+- **R58 §3 and R59 as facts about ι**: the fiber's ι-odd sector (6 in Sym⁸, 10 in Sym¹⁶) is sourced by the three half-periods (Lefschetz), and every closing by ±M² keeps one ι-even line — a correct statement about the period-2 symmetry.
+- **This bench's reproduction of B347**, which is now an independent second implementation of a banked result.
+
+## 4. The lesson, in the record's own terms
+
+E65's rule was *"before building on a frame, ask what the frame provably cannot produce."* The rule I broke is older: **sweep before you name.** The word "hyperelliptic" in T-θTANGENT was a pointer to an arc, and I substituted my own referent for it without opening the arc. Three reports were built on the substitution. The cost is three retraction banners and one corrected journey note; the gain is a second-implementation confirmation of B347 and a clean separation of the object's two involutions, which the record had not written down side by side: **θ = the meridian-reversing strong inversion (fixed set: two arcs, χ = 2); ι = the meridian-preserving period-2 rotation (fixed set: one geodesic, three points per fiber, χ = 0).**
+
+---
+
+*Record sources: B347 (`e6_tangent_gradings.py:210–212, 288–294`; presentation `abbbaBAAB`), B351 (vi), B353 (A)–(C), T-θTANGENT, B576, B1272 (the exact h¹(27) = h¹(27̄) confirmation), B1274. Owner's instruction, verbatim in spirit: fetch and search before claiming an incompatibility.*

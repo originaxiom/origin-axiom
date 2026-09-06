@@ -1,5 +1,7 @@
 # R59 — THE TWISTED CLOSING IS THE SISTER, AND IT KEEPS THE SAME EVEN LINE: no orientable closing of the fiber by the rule, twisted or covered, retains a θ-odd class
 
+> **RETRACTION BANNER (R60, 2026-09-06):** the twist here is by the period-2 involution ι, **not** the record's θ; θ reverses the base circle and is not a mapping-torus twist. The sister identification and the ι-fixed-line statements stand; every use of the word θ in this report is **withdrawn**. See `R60_WHICH_INVOLUTION.md`.
+
 **Seat:** fresh physics seat (fc) · **Date:** 2026-09-06 · **Against main @ 0ecd9557** · **Status:** seat report, not banked. Exact modulo two primes p ≡ 1 (mod 3); script `computations/r59_twisted_closing.py`. Closes the door R58 §4 named.
 
 ## 0. The result

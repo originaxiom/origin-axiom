@@ -791,12 +791,11 @@ weak-CP phases (CKM and PMNS matrices). These are free parameters of the chain.
   index theorem lives on a CY3 or a G₂ manifold, and the surviving gauge group is never named.
   (d) Three generations cannot live inside one 27: the 16 has multiplicity one, and three copies
   need dimension ≥ 48 (B1255).
-  Seat reports R56–R59 on this branch (2026-09-06) take this further: in the Higgs-bundle frame
-  (Pantev–Wijnholt) the count is a relative Euler characteristic, χ(charge locus) — zero on any
-  closed 3-manifold and zero for a knot; the object's three θ-fixed half-periods give its fiber a
-  θ-odd sector (6 in Sym⁸, 10 in Sym¹⁶, by the Lefschetz count over the three points), and every
-  closing by the rule — m004, the sister m003, every cyclic cover — keeps only one θ-even class
-  per summand (exact mod three primes). The three are on the fiber; the mapping torus erases them.
+  Seat reports R56 and R60 on this branch (2026-09-06): in the Higgs-bundle frame (Pantev–Wijnholt)
+  the count is a relative Euler characteristic, χ(charge locus) — zero on any closed 3-manifold and
+  zero for a knot (R56); the record's θ (B347/B353, the meridian-reversing involution) acts by −1 on
+  all three h¹ classes of the 27, reproducing B347's (−1)^{m+1} exactly (R60) — θ-odd deformation
+  directions, but not a nonzero index: net chirality stays zero (E65/B1260/B1267).
 - **chirality mechanism** — A5 is an axiom here; the record's mechanism (a θ-odd closing,
   B432/B576/B582) is not part of this chain, and the slope it selects is a free input.
 - **spacetime, Lorentz, gravity** — the E₆(−26) branch (B1140) is an outer real form; the object's

@@ -1,5 +1,7 @@
 # R57 — THE THREE STRANDS: the object supplies three points, its closing erases them, and the record already holds every piece but the join
 
+> **RETRACTION BANNER (R60, 2026-09-06):** fact (3) below — that θ fixes the three half-periods — is **withdrawn**. The record's θ (B347/B353) is the meridian-reversing strong inversion, whose fixed set is two arcs; the three half-periods are the fixed points of the meridian-preserving period-2 involution ι, a different symmetry. Facts (1), (2), (4) and §1–§2's braid content stand as statements about ι and the rule. See `R60_WHICH_INVOLUTION.md`.
+
 **Seat:** fresh physics seat (fc) · **Date:** 2026-09-06 · **Against main @ 0ecd9557** · **Status:** seat report, not banked. Every arithmetic statement is in `computations/r57_three_strands.py` (exact, sympy); every record statement is quoted from main. Written under the owner's standing instruction: *do not lean on old bankings; work, lead, be brave.*
 
 ## 0. What this is
