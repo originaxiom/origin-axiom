@@ -1,0 +1,9 @@
+Path-local R11 mutation controls
+Seal: 14f2363a (before first execution)
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_family_dispatch.py -q -p no:randomly --tb=short
+Exit: 0
+No concurrent edits. Each of eight original delegated locks was called on
+a fresh genuine result, then on its predeclared corrupted copy.
+
+........                                                                 [100%]
+8 passed in 22.37s

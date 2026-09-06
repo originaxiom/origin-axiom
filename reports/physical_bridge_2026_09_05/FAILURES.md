@@ -293,3 +293,22 @@ the eight errors are the original R11 shared fixture. All separate repairs
 pass. Raw receipts: FAMILY_ACTION_CHECKS.txt. No full-suite green or
 publication readiness is claimed. The new successful output is
 family_action_rerun_1.json; previous outputs and scientific seals remain.
+
+R11 reporting/control follow-up: the first 26/4 governance result included
+a new missing law-map arc identifier and a new static NO-ASSERT warning
+on the delegated test. The citation was repaired; all eight presealed
+two-sided controls passed (22.37 s, seal 14f2363a). They call the ACTUAL
+delegating function on genuine and deliberately corrupted data. The
+static checker is not changed; these controls disprove unconditional
+passing for those calls, not certify exhaustive coverage. The next gate
+run found a NEW remote-only alias-table path represented as a local path.
+That is changed to a pinned remote link, with both original gate receipts
+kept: FAMILY_ACTION_FIRST_GATES.txt and FAMILY_ACTION_RELAY_GATES.txt.
+
+After the link repair, staged governance returns 27 pass, 3 fail. The
+remaining checks are inventory attribution, static-vacuity (now two
+listed functions, with separate mutation controls), and the four older
+seal-marker omissions. Review-due remains visible. The repaired law-map
+and path-reference gates pass. No whole-repository suite was rerun here;
+the 126/3/8 combined result and the subsequent eight mutation passes are
+separate receipts, not a silently combined full-suite certificate.

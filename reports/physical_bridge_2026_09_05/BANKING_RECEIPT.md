@@ -6,7 +6,7 @@ main: `2901ae9f6dba964870b44d5eb6e01066c62b7f62`.
 Sources read in full:
 
 - main root `CC_TO_ALL_SEATS_2026-09-06_ARC_NUMBER_RESERVATION.md`;
-- main `docs/SM_SEAT_ALIAS_TABLE.md`;
+- main [SM seat alias table](https://github.com/originaxiom/origin-axiom/blob/2901ae9f6dba964870b44d5eb6e01066c62b7f62/docs/SM_SEAT_ALIAS_TABLE.md);
 - main root `CC_TO_FC_2026-09-06_THE_QUESTION_MOVED_TO_YOUR_CUSP.md`;
 - local `docs/BANKING_PROTOCOL.md` (the complete checklist, not just numbering).
 

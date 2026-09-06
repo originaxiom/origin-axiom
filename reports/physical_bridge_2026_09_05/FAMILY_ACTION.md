@@ -183,3 +183,10 @@ by this R11 run, which predates them; do not turn this audit's scope into
 an assertion that these constructions are absent elsewhere. The user's
 boundary-index question is pursued separately against main B1290/B1291
 and physics-seat R69, preserving their distinct hypotheses.
+
+Dispatch controls sealed at `14f2363a`: **8 passed in 22.37 s**. Every
+actual delegated lock accepts the recomputed genuine data and rejects
+its specific predeclared corruption with AssertionError. This refutes
+the static gate's unconditional-pass classification for those calls;
+it is not complete coverage and the unchanged gate remains red. Receipt:
+[FAMILY_ACTION_DISPATCH_CHECKS.txt](FAMILY_ACTION_DISPATCH_CHECKS.txt).
