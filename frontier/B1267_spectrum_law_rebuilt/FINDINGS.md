@@ -1,4 +1,4 @@
-# B1265 — THE SPECTRUM LAW REBUILT FROM THE REPOSITORY'S OWN 27, AND EXTENDED: B1086's named residual paid, the 27̄ rows computed, and the subregular double never reaches three
+# B1267 — THE SPECTRUM LAW REBUILT FROM THE REPOSITORY'S OWN 27, AND EXTENDED: B1086's named residual paid, the 27̄ rows computed, and the subregular double never reaches three
 
 **Date:** 2026-09-06 · **Seat:** cc · **Status:** PROVED (exact throughout; ranks over ℚ(ω) by two-prime modular reduction, the single-manifold rows also by exact elimination over ℚ(ω); every group element a polynomial in a nilpotent — no floats anywhere) · **Price: unchanged at 14**
 
@@ -85,7 +85,7 @@ nilpotent is non-abelian, and the count depends on the direction within it, not 
 ## Verification
 
 `verification/e6_instrument.py` (self-checks) and `verification/spectrum_law.py` (the full table, ~35 min);
-`verification/spectrum_law_run.txt` is the run record. Lock: `tests/test_b1265_spectrum_law_rebuilt.py`
+`verification/spectrum_law_run.txt` is the run record. Lock: `tests/test_b1267_spectrum_law_rebuilt.py`
 (the instrument checks and the cusped rows fast; one twisted-double row in the slow lane).
 
 - **Feeds on:** B883 (the 27), B854 (the bracket and the principal triple), B1086 (the law and its residual),

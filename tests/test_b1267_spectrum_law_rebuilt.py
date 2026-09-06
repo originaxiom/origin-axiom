@@ -1,11 +1,11 @@
-"""B1265 — the spectrum law rebuilt from rep27.json: the instrument's checks and the cusped rows fast,
+"""B1267 — the spectrum law rebuilt from rep27.json: the instrument's checks and the cusped rows fast,
 one twisted-double row in the slow lane."""
 import sys
 from pathlib import Path
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
-VER = ROOT / "frontier" / "B1265_spectrum_law_rebuilt" / "verification"
+VER = ROOT / "frontier" / "B1267_spectrum_law_rebuilt" / "verification"
 sys.path.insert(0, str(VER))
 
 

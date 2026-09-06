@@ -1,4 +1,4 @@
-"""B1267 — the transport computed: the double-centralizer theorem and the finite-image spectra fast,
+"""B1269 — the transport computed: the double-centralizer theorem and the finite-image spectra fast,
 the 2T centralizer in the slow lane."""
 import sys
 from pathlib import Path
@@ -6,8 +6,8 @@ import numpy as np
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
-VER = ROOT / "frontier" / "B1267_transport_computed" / "verification"
-INST = ROOT / "frontier" / "B1265_spectrum_law_rebuilt" / "verification"
+VER = ROOT / "frontier" / "B1269_transport_computed" / "verification"
+INST = ROOT / "frontier" / "B1267_spectrum_law_rebuilt" / "verification"
 sys.path.insert(0, str(VER))
 sys.path.insert(0, str(INST))
 

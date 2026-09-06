@@ -6254,7 +6254,7 @@
    "status": "banked",
    "domain": "arithmetic"
   },
-  "B1265": {
+  "B1267": {
    "slug": "spectrum law rebuilt",
    "motifs": [
     "closing",
@@ -6275,7 +6275,7 @@
    "status": "banked",
    "domain": "topology"
   },
-  "B1266": {
+  "B1268": {
    "slug": "cusped net chirality bound",
    "motifs": [
     "monoid",
@@ -6298,7 +6298,7 @@
    "status": "banked",
    "domain": "topology"
   },
-  "B1267": {
+  "B1269": {
    "slug": "transport computed",
    "motifs": [
     "figure_eight",
@@ -6319,68 +6319,6 @@
    ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 13,
-   "status": "banked",
-   "domain": "topology"
-  },
-  "B1268": {
-   "slug": "e6 from the two faces",
-   "motifs": [
-    "figure_eight",
-    "trace_map",
-    "eisenstein",
-    "golden",
-    "z3_generation",
-    "amphichiral_cp"
-   ],
-   "refs": [
-    "B206",
-    "B210",
-    "B256",
-    "B258",
-    "B315",
-    "B332",
-    "B576",
-    "K021",
-    "L4"
-   ],
-   "obstacle": "cancellation",
-   "obstacle_conf": 2,
-   "status": "banked",
-   "domain": "arithmetic"
-  },
-  "B1269": {
-   "slug": "the chain all the way",
-   "motifs": [
-    "closing",
-    "coupling",
-    "figure_eight",
-    "kappa",
-    "eisenstein",
-    "golden",
-    "z3_generation",
-    "amphichiral_cp",
-    "wrt_quantum"
-   ],
-   "refs": [
-    "B302",
-    "B308",
-    "B432",
-    "B434",
-    "B582",
-    "B632",
-    "B713",
-    "B760",
-    "B862",
-    "B864",
-    "B883",
-    "B918",
-    "B919",
-    "B923",
-    "B952",
-    "V3"
-   ],
-   "obstacle": "particle_dict",
-   "obstacle_conf": 30,
    "status": "banked",
    "domain": "topology"
   },
@@ -6421,6 +6359,68 @@
    "obstacle_conf": 8,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1270": {
+   "slug": "e6 from the two faces",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B206",
+    "B210",
+    "B256",
+    "B258",
+    "B315",
+    "B332",
+    "B576",
+    "K021",
+    "L4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1271": {
+   "slug": "the chain all the way",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B302",
+    "B308",
+    "B432",
+    "B434",
+    "B582",
+    "B632",
+    "B713",
+    "B760",
+    "B862",
+    "B864",
+    "B883",
+    "B918",
+    "B919",
+    "B923",
+    "B952",
+    "V3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 30,
+   "status": "banked",
+   "domain": "topology"
   },
   "B127": {
    "slug": "chirality arithmetic naming",

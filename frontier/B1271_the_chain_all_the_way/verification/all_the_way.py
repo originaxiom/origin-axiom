@@ -2,7 +2,7 @@
 """THE CHAIN TAKEN ALL THE WAY: three generations as the Eisenstein triplet of the golden E8, the
 rank reduction by the 27's own singlets, and the Yukawa E8 forces on the triplet -- which is zero.
 
-(a) THE TRIPLET AND ITS FAMILY TENSOR (exact, on the icosian E8 of B1268).  The 162 non-E6, non-A2
+(a) THE TRIPLET AND ITS FAMILY TENSOR (exact, on the icosian E8 of B1270).  The 162 non-E6, non-A2
     roots are (27,3) + (27bar,3bar): three classes of 27 on each side, indexed by the Eisenstein weights
     (which sum to zero) and cycled by the founding ratio g.  The E8 bracket restricted to (27,3) x (27,3)
     lands in (27bar,3bar) and its family tensor is eps_ijk: two roots of the SAME class never sum to a root
@@ -15,7 +15,7 @@ rank reduction by the 27's own singlets, and the Yukawa E8 forces on the triplet
     SM singlets (weights with zero SU(3)xSU(2) charges and Y = 0): nu^c in the 16 and the SO(10)
     singlet.  Their charges under the two extra U(1)s of the rank-6 Levi (the complement of Y in the
     Levi's centre) are linearly independent, so VEVs for both leave exactly su(3)+su(2)+u(1)_Y -- the
-    step the adjoint cannot take (B952, B1267's double-centralizer theorem) is taken by the 27s that the
+    step the adjoint cannot take (B952, B1269's double-centralizer theorem) is taken by the 27s that the
     two faces supply.  Structure only: the VEVs' values are not supplied.
 
 (c) THE YUKAWA E8 FORCES ON THE TRIPLET IS ZERO (exact, symbolic on the 45-triple support of d).  A 4d
@@ -38,7 +38,7 @@ from fractions import Fraction as F
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-for arc in ('B1265_spectrum_law_rebuilt', 'B1267_transport_computed', 'B1268_e6_from_the_two_faces'):
+for arc in ('B1267_spectrum_law_rebuilt', 'B1269_transport_computed', 'B1270_e6_from_the_two_faces'):
     sys.path.insert(0, os.path.join(HERE, '..', '..', arc, 'verification'))
 import e6_instrument as E
 import transport as T

@@ -14159,3 +14159,13 @@ B1268's icosian E₈ and B1252's descent (`frontier/B1269_the_chain_all_the_way/
   Standard Model; the named missing object for the masses is a **symmetric** family tensor (none on the object:
   B1036 V3, I-24). The draft's antisymmetric-texture spectrum was an error caught before banking (E67).
   Price unchanged at 14. Lock `tests/test_b1269_the_chain_all_the_way.py`.
+
+### Renumbering on reconciliation with main (2026-09-06)
+
+`origin/main` banked its own **B1265** (`B1265_the_fork_is_inner_vs_outer`) and **B1266**
+(`B1266_the_source_of_input`) while this seat's B1265–B1269 were on the branch. Per PRACTICES ("no new
+frontier arc may reuse a B-number", gated) and GOVERNANCE §12 (banked paths are not renamed — main's are the
+banked ones), this branch's five arcs are renumbered: B1265 → **B1267** (spectrum law rebuilt), B1266 →
+**B1268** (cusped net-chirality bound), B1267 → **B1269** (transport computed), B1268 → **B1270** (E₆ from the
+two faces), B1269 → **B1271** (the chain all the way). The entries above dated 2026-09-06 that name
+B1265–B1269 refer to these arcs under their old numbers; the log is append-only, so they stand as written.

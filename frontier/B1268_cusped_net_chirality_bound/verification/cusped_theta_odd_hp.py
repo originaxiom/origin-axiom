@@ -30,7 +30,7 @@ except ImportError as _ex:                                # the exact stage (cus
     raise SystemExit("this stage needs python-flint: pip install python-flint  (%s)" % _ex)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1265_spectrum_law_rebuilt', 'verification'))
+sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1267_spectrum_law_rebuilt', 'verification'))
 import e6_instrument as E
 import spectrum_law as S
 

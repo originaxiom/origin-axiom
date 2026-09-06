@@ -1,0 +1,28 @@
+{
+ "id": "B1268",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1260",
+  "B1267",
+  "B575",
+  "B576",
+  "B1253",
+  "B1256",
+  "B1257",
+  "B71",
+  "B102"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [
+  {
+   "row": "I-26",
+   "status": "UNEARNED",
+   "note": "unchanged in status; its cusped reading is bounded and computed: on the cusped object net chirality obeys -h0(dM;V) <= N(V) <= h0(dM;V*), near the geometric E6 point |N(27)| <= 1 for every deformation, and the theta-odd point actually reached has no cusp invariants and N = 0."
+  }
+ ],
+ "claim_one_line": "WHERE NET CHIRALITY CANNOT LIVE ON THE CUSPED OBJECT. MAIN_GOAL JOIN 1 q1 in the theta-odd frame. THE LEMMA (Poincare-Lefschetz on the pair, checked exactly on every row): for M = m004 and any representation V, N(V) = h1(M;V) - h1(M;V*) = rank(res_V) - h0(dM;V), with rank(res_V) + rank(res_V*) = h1(dM;V); hence THE BOUND -h0(dM;V) <= N(V) <= h0(dM;V*): net chirality lives only where the cusp holonomy keeps fixed vectors and is at most their number. Near the geometric point upper semicontinuity gives h1(M;27_s) <= 3, so N(27_s) <= min(3 - h0(dM;27_s), h0(dM;27bar_s)) <= 1 for EVERY small deformation of the geometric E6 holonomy, theta-odd or not: THREE IS IMPOSSIBLE ON THE CUSPED OBJECT NEAR THE GEOMETRIC POINT. Instantiated exactly: the principal 27 and 27bar (h1 = 3, h0(dM) = 3, rank(res) = 3, N = 0 -- all three classes are boundary-supported), the subregular 27 (same), the abelian non-roots (all zero), and the theta-odd class h1(M;V8) = 1. THE REPRESENTATION REACHED: from that class, Gauss-Newton with the adjoint-Fox Jacobian in 600-bit ball arithmetic converges to a genuine E6(C) representation of pi_1(m004) with relator residual 2.6e-63, certified off the F4 stratum by six trace differences (tr rho(w) != tr rho(w^-1): 3.01, 3.01, 2.7e3, 2.9e6, ...), whose cusp holonomy has NO invariants (h0(dM;27) = h0(dM;27bar) = 0 with solid pivots), so rank(res) = 0 and N = 0 whatever h1(M) is (both found 0 at the 1e-30 threshold). Together with B1260's walls, B1267's vector-like cells and the W1/W2, PSL(2,7) and extension rows of the external verification, no h1 of this manifold on any representation reached is a net count. Named remaining computation, bounded in advance at |N| <= 1: the locus where mu_s and lambda_s keep a common fixed vector (the augmented search had not converged at sealing)."
+}

@@ -1,4 +1,4 @@
-"""B1266 — the net-chirality lemma and bound on the cusped object: the geometric-point instances fast
+"""B1268 — the net-chirality lemma and bound on the cusped object: the geometric-point instances fast
 (modular ranks), the full exact selftest in the slow lane."""
 import subprocess, sys
 from pathlib import Path
@@ -6,8 +6,8 @@ import numpy as np
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
-VER = ROOT / "frontier" / "B1266_cusped_net_chirality_bound" / "verification"
-INST = ROOT / "frontier" / "B1265_spectrum_law_rebuilt" / "verification"
+VER = ROOT / "frontier" / "B1268_cusped_net_chirality_bound" / "verification"
+INST = ROOT / "frontier" / "B1267_spectrum_law_rebuilt" / "verification"
 sys.path.insert(0, str(VER))
 sys.path.insert(0, str(INST))
 

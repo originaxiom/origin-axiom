@@ -1,4 +1,4 @@
-# B1266 — WHERE NET CHIRALITY CANNOT LIVE ON THE CUSPED OBJECT: the boundary bound −h⁰(∂M;V) ≤ N(V) ≤ h⁰(∂M;V̄), |N(27)| ≤ 1 near the geometric E₆ point, and the θ-odd point actually reached has N = 0
+# B1268 — WHERE NET CHIRALITY CANNOT LIVE ON THE CUSPED OBJECT: the boundary bound −h⁰(∂M;V) ≤ N(V) ≤ h⁰(∂M;V̄), |N(27)| ≤ 1 near the geometric E₆ point, and the θ-odd point actually reached has N = 0
 
 **Date:** 2026-09-06 · **Seat:** cc · **Status:** PROVED (the lemma and the bound, checked exactly on every row) + NEGATIVE (the count: no reachable θ-odd point on the cusped object carries net chirality, and three is excluded near the geometric point by a theorem) · **Price: unchanged at 14**
 
@@ -78,7 +78,7 @@ computation**, bounded in advance: **|N| ≤ 1 there.**
 
 - **q1 for the cusped object, in the θ-odd frame:** no reachable point carries net chirality; **three is
   excluded by a theorem** near the geometric point, in every direction.
-- Together with B1260 (closed wall; abelian wall), B1265 (every cell of the spectrum law vector-like) and the
+- Together with B1260 (closed wall; abelian wall), B1267 (every cell of the spectrum law vector-like) and the
   W1/W2, PSL(2,7) and extension rows (`docs/EXTERNAL_VERIFICATION_2026-09-06.md` §3), **no h¹ of this
   manifold, on any representation the corpus supplies or this session could reach, is a net count of
   anything** — the generation count is not a twisted Betti number of m004.
@@ -99,10 +99,10 @@ computation**, bounded in advance: **|N| ≤ 1 there.**
 ## Verification
 
 `verification/cusped_bound.py` (exact, ~4 min, `SELFTEST: PASS`) and `verification/cusped_theta_odd_hp.py`
-(python-flint + mpmath, ~40 min for stage (a); stage (b) open). Lock: `tests/test_b1266_cusped_bound.py`
+(python-flint + mpmath, ~40 min for stage (a); stage (b) open). Lock: `tests/test_b1268_cusped_bound.py`
 (the geometric-point instances and the V₈ class fast; the exact selftest in the slow lane).
 
-- **Feeds on:** B1260 (the walls and the named computation), B1265 (the instrument), B575/B576 (the θ-odd
+- **Feeds on:** B1260 (the walls and the named computation), B1267 (the instrument), B575/B576 (the θ-odd
   frame), B1253 (h¹ = 3), B1256/B1257 (the subregular row), B71/B102 (W1/W2), the two external-verification
   scripts named above.
 - **Registers:** I-26 UNEARNED, unchanged; its cusped reading is now bounded (|N| ≤ 1 near the geometric

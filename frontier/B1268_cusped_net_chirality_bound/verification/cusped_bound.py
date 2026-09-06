@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""B1266, the exact stage: the net-chirality lemma and its bound, instantiated on the cusped object.
+"""B1268, the exact stage: the net-chirality lemma and its bound, instantiated on the cusped object.
 
 THE LEMMA.  For M = m004 (torus boundary, chi(M) = 0) and a representation V of pi_1(M) with
 h0(M;V) = h0(M;V*) = 0 -- or, more generally, whenever the H^0 terms are accounted for below --
@@ -26,7 +26,7 @@ from fractions import Fraction as F
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1265_spectrum_law_rebuilt', 'verification'))
+sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1267_spectrum_law_rebuilt', 'verification'))
 import e6_instrument as E
 import spectrum_law as S
 

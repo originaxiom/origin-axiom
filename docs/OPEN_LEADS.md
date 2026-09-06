@@ -2298,15 +2298,15 @@ gravity (B715):** compute the Dynkin index of the principal sl₂ ⊂ e₆ embed
 "exactly what it should be". Both are register moves, not physics: neither touches Gate 5 and neither earns
 I-13. ★★ (each closes a row; I-13 stays the programme's).
 
-## L200 — THE FIXED-VECTOR LOCUS OF THE θ-ODD CUSPED REPRESENTATION (registered 2026-09-06, B1266; bounded in advance)
+## L200 — THE FIXED-VECTOR LOCUS OF THE θ-ODD CUSPED REPRESENTATION (registered 2026-09-06, B1268; bounded in advance)
 
-B1266 proves −h⁰(∂M;V) ≤ N(V) ≤ h⁰(∂M;V\*) on the cusped object and reaches a θ-odd E₆(ℂ) representation of
+B1268 proves −h⁰(∂M;V) ≤ N(V) ≤ h⁰(∂M;V\*) on the cusped object and reaches a θ-odd E₆(ℂ) representation of
 π₁(m004) whose cusp holonomy has no invariants (N = 0). The only places |N(27)| = 1 is still allowed near the
 geometric point are the loci where μ_s and λ_s keep a **common fixed vector** on the 27 — codimension two in
 the six-dimensional E₆ character variety. **The computation:** the augmented Gauss–Newton in
-`frontier/B1266_cusped_net_chirality_bound/verification/cusped_theta_odd_hp.py` stage (b) (equations
+`frontier/B1268_cusped_net_chirality_bound/verification/cusped_theta_odd_hp.py` stage (b) (equations
 μv = v, λv = v added to the relator; it had not converged at sealing — a better starting point, e.g. a
 continuation along the family until det(μ_s − 1) vanishes, is the fix), then the six ranks at 60 digits and
 N. **Either outcome banks:** N = 0 closes the cusped θ-odd frame completely; |N| = 1 is the first nonzero net
-chirality on this object and would need the transport of B1267 §1 to mean anything (a 27 is not a field on Q).
+chirality on this object and would need the transport of B1269 §1 to mean anything (a 27 is not a field on Q).
 One evening of ball arithmetic. ★★

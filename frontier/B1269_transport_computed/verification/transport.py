@@ -32,7 +32,7 @@ import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..',
-                                'B1265_spectrum_law_rebuilt', 'verification'))   # the rebuilt 27-instrument
+                                'B1267_spectrum_law_rebuilt', 'verification'))   # the rebuilt 27-instrument
 import e6_instrument as E
 import spectrum_law as S
 

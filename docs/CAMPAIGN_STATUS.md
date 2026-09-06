@@ -1,6 +1,6 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-**LATEST (2026-09-06, B1269 — THE CHAIN TAKEN ALL THE WAY)**: on the owner's third instruction, every remaining
+**LATEST (2026-09-06, B1271 — THE CHAIN TAKEN ALL THE WAY)**: on the owner's third instruction, every remaining
 SM step computed exactly. **Three generations = the Eisenstein triplet (27,3)** of the golden E₈, cycled by the
 founding ratio, with the θ-mirror (27̄,3̄) alongside (N = 0); **rank 6 → 4 by the 27's own two singlets** (ν^c,
 the SO(10) singlet; charge matrix of rank 2) → exactly su(3)⊕su(2)⊕u(1)_Y, values not supplied; **the family
@@ -10,14 +10,14 @@ support). The chain's end: a definite parameter-free theory, vector-like and mas
 the named missing object for the masses is a *symmetric* family tensor (none on the object: B1036 V3, I-24).
 E67 typed. Price unchanged at 14.
 
-**LATEST (2026-09-06, B1268 — E₆ FROM THE TWO FACES)**: on the owner's correction, E₆ derived from both letters
+**LATEST (2026-09-06, B1270 — E₆ FROM THE TWO FACES)**: on the owner's correction, E₆ derived from both letters
 at once — `RL` mod 5 gives SL(2,𝔽₅) = 2I and the icosian **E₈**, `g = −RL⁻¹` gives the Eisenstein plane inside
 it, **E₆ = ℤ[g]^⊥** (72 roots, the E₆ Cartan matrix, index 3) with the six classes of 27, the ℤ/3 and θ from the
 same cut. The transport: E₈ along Q, Eisenstein 2T in the SU(3) that E₆ centralizes → **gauge group exactly E₆**,
-**one 27 and one 27̄** on m004 (the 27 has a slot; B1267 §1 scoped and corrected, E66), no 27s from the complex
+**one 27 and one 27̄** on m004 (the 27 has a slot; B1269 §1 scoped and corrected, E66), no 27s from the complex
 twists. Count unchanged at one vector-like pair; price unchanged at 14.
 
-**LATEST (2026-09-06, B1265–B1267 — THE ASSEMBLY: JOIN 1 worked to its computations)**: the spectrum law
+**LATEST (2026-09-06, B1267–B1269 — THE ASSEMBLY: JOIN 1 worked to its computations)**: the spectrum law
 rebuilt from the repository's own 27 (B1086's residual paid; **27̄ = 27 in every cell**; the subregular double
 gives 6 or 4, never 3); **net chirality on the cusped object bounded by the cusp**, −h⁰(∂M;V) ≤ N ≤ h⁰(∂M;V\*),
 so **|N(27)| ≤ 1 near the geometric point** and **N = 0** at the θ-odd E₆(ℂ) representation actually reached

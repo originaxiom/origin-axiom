@@ -1,4 +1,4 @@
-"""B1268 — E6 from the two faces: the lattice theorem and the founding-ratio map fast, the
+"""B1270 — E6 from the two faces: the lattice theorem and the founding-ratio map fast, the
 48-surjection coefficient table in the slow lane."""
 import sys
 from pathlib import Path
@@ -6,7 +6,7 @@ from fractions import Fraction as F
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
-VER = ROOT / "frontier" / "B1268_e6_from_the_two_faces" / "verification"
+VER = ROOT / "frontier" / "B1270_e6_from_the_two_faces" / "verification"
 sys.path.insert(0, str(VER))
 
 

@@ -1,9 +1,9 @@
 {
- "id": "B1267",
+ "id": "B1269",
  "verdict": "PROVED",
  "instrument": false,
  "depends_on": [
-  "B1265",
+  "B1267",
   "B854",
   "B1252",
   "B1263",

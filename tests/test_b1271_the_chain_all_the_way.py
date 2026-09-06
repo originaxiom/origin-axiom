@@ -1,4 +1,4 @@
-"""B1269 — the chain taken all the way: the rank reduction by the 27's singlets, the vanishing of the
+"""B1271 — the chain taken all the way: the rank reduction by the 27's singlets, the vanishing of the
 E8-forced Yukawa on the triplet and the cubic's SO(10) content fast; the family tensor on the icosian E8
 (same-class sums never roots, cross-class sums landing in the third index' conjugate class) in one block fast
 and the whole table in the slow lane."""
@@ -7,8 +7,8 @@ from pathlib import Path
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
-VER = ROOT / "frontier" / "B1269_the_chain_all_the_way" / "verification"
-for arc in ("B1265_spectrum_law_rebuilt", "B1267_transport_computed", "B1268_e6_from_the_two_faces"):
+VER = ROOT / "frontier" / "B1271_the_chain_all_the_way" / "verification"
+for arc in ("B1267_spectrum_law_rebuilt", "B1269_transport_computed", "B1270_e6_from_the_two_faces"):
     sys.path.insert(0, str(ROOT / "frontier" / arc / "verification"))
 sys.path.insert(0, str(VER))
 

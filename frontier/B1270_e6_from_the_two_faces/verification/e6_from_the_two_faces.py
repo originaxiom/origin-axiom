@@ -25,9 +25,9 @@ from fractions import Fraction as F
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1265_spectrum_law_rebuilt', 'verification'))   # the instrument
-sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1267_transport_computed', 'verification'))     # 2T in SL(2,Q(omega))
-sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1266_cusped_net_chirality_bound', 'verification'))  # the lemma rows
+sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1267_spectrum_law_rebuilt', 'verification'))   # the instrument
+sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1269_transport_computed', 'verification'))     # 2T in SL(2,Q(omega))
+sys.path.insert(0, os.path.join(HERE, '..', '..', 'B1268_cusped_net_chirality_bound', 'verification'))  # the lemma rows
 import e6_instrument as E
 import spectrum_law as S
 import transport as T

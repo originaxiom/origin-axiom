@@ -1,11 +1,11 @@
-# B1268 — E₆ FROM THE TWO FACES: the golden face gives E₈ (the icosians), the Eisenstein face cuts out E₆ as its orthogonal complement — with the 27, the ℤ/3 and θ falling out of the same cut — and the E₈ transport gives the 27 the slot B1267 said it lacked
+# B1270 — E₆ FROM THE TWO FACES: the golden face gives E₈ (the icosians), the Eisenstein face cuts out E₆ as its orthogonal complement — with the 27, the ℤ/3 and θ falling out of the same cut — and the E₈ transport gives the 27 the slot B1269 said it lacked
 
 **Date:** 2026-09-06 · **Seat:** cc · **Status:** PROVED (the derivation, exact over ℚ(√5) and ℚ(ω)) + NEGATIVE (the count: the object's Eisenstein coefficient systems give one vector-like 27-pair and net zero) · **Price: unchanged at 14**
 
 ## Why this arc — the owner's correction
 
-The assembly (B1265–B1267, `docs/THE_ASSEMBLY_2026-09-06.md`) took E₆ as handed over at link L4 — *McKay(2T) =
-affine E₆* — from the **Eisenstein face alone**, and then found (B1267 §1) that with an E₆ singularity along Q
+The assembly (B1267–B1269, `docs/THE_ASSEMBLY_2026-09-06.md`) took E₆ as handed over at link L4 — *McKay(2T) =
+affine E₆* — from the **Eisenstein face alone**, and then found (B1269 §1) that with an E₆ singularity along Q
 the 27 is not a field on Q. The owner's correction: *"you failed to derive E₆ from the program. Our object has
 two faces, golden and Eisenstein."* The corpus has both faces as **two ends** — the product `RL` → ℚ(√5) →
 2I = SL(2,𝔽₅) → E₈ (B206), the ratio `g = −RL⁻¹` → ℚ(√−3) → 2T = SL(2,𝔽₃) → E₆ (B210, K021's founding
@@ -50,20 +50,20 @@ it is what the two ends make together.
 If the singularity along Q = m004 is the **golden E₈** (Γ = 2I, the object's own McKay-E₈ group) and the flat
 connection is the **Eisenstein 2T inside the SU(3) that E₆ centralizes**, then E₈ ⊃ E₆ × SU(3) gives
 248 = (78,1) + (1,8) + (27,3) + (27̄,3̄): **the 27 is a field on Q**, counted by h¹(Q; 3_ρ), the 27̄ by
-h¹(Q; 3̄_ρ). This is the slot B1267 §1 said did not exist — B1267 considered only an E₆ singularity along Q,
-and its statement is corrected at source (`frontier/B1267_transport_computed/ADDENDUM_2026-09-06_the_e8_transport.md`).
+h¹(Q; 3̄_ρ). This is the slot B1269 §1 said did not exist — B1269 considered only an E₆ singularity along Q,
+and its statement is corrected at source (`frontier/B1269_transport_computed/ADDENDUM_2026-09-06_the_e8_transport.md`).
 
 The object's SU(3) coefficient systems through its Eisenstein quotient (72 homomorphisms π₁(m004) → 2T,
 48 surjective — B1263 reproduced a third time, now with 2T as unit quaternions over ℚ(ω)):
 
 | 2T → SU(3) via | commutant in E₈ (by characters, exact) | 27s = h¹(Q;3) | 27̄s = h¹(Q;3̄) | net |
 |---|---|---|---|---|
-| **the 3** (irreducible, real) | **E₆ exactly** (no invariants in (1,8), (27,3), (27̄,3̄)) | **1** (B1267) | **1** | **0** |
+| **the 3** (irreducible, real) | **E₆ exactly** (no invariants in (1,8), (27,3), (27̄,3̄)) | **1** (B1269) | **1** | **0** |
 | 2′ ⊕ ω (complex, the Eisenstein twist of the quaternionic 2) | E₆ × U(1) | h¹(2′) + h¹(ω) = **0 + 0** | h¹(2″) + h¹(ω̄) = **0 + 0** | **0** |
 | 2 ⊕ 1 (quaternionic) | larger than E₆ (54 root vectors of (27,3) ⊕ (27̄,3̄) survive: the E₇ of E₈ ⊃ E₇ × SU(2)) | — | — | — |
 
 For every one of the 48 surjections, in both Aut(2T)-classes (meridian of order 3 or 6): **h¹(m004; 2′) =
-h¹(m004; 2″) = 0** with **no cusp invariants** (h⁰(∂M; 2′) = 0, so B1266's bound forces N = 0 outright), and
+h¹(m004; 2″) = 0** with **no cusp invariants** (h⁰(∂M; 2′) = 0, so B1268's bound forces N = 0 outright), and
 h¹(m004; 2) = 2 (order-6 class) or 0 (order-3 class). The non-self-dual Eisenstein systems carry nothing;
 the real one carries one pair.
 
@@ -82,7 +82,7 @@ the real one carries one pair.
   identification as written (2T ≡ Γ) is not what the two faces do. Status left for the owner's seat.
 - **I-26's price, sharpened again.** With the E₈ transport the 27 has a slot and a count: on this object, 1 = 1.
   The remaining price is unchanged in kind — net chirality needs isolated enhancement points or a non-self-dual
-  unitary system with cusp invariants (B1266's bound), and the object's Eisenstein systems have none.
+  unitary system with cusp invariants (B1268's bound), and the object's Eisenstein systems have none.
 
 ## Controls (MB12, both directions)
 
@@ -98,10 +98,10 @@ the real one carries one pair.
 ## Verification
 
 `verification/e6_from_the_two_faces.py` (exact; ~5 min); run record `verification/e6_from_the_two_faces_run.txt`.
-Lock: `tests/test_b1268_e6_from_the_two_faces.py` (the lattice theorem and the founding-ratio map fast; the
+Lock: `tests/test_b1270_e6_from_the_two_faces.py` (the lattice theorem and the founding-ratio map fast; the
 48-surjection table in the slow lane).
 
 - **Feeds on:** B206 (golden → 2I → E₈), B210 (dual McKay), B256 (the trinity), B258 (the two ends), K021/B332
-  (the founding identity g = −RL⁻¹), B315 (E₈ ⊃ E₆ × SU(3) scoped), B1263 (the 2T quotients), B1266 (the
-  bound), B1267 (the transport; corrected), B576 (θ-odd = the mirror's imaginary axis).
+  (the founding identity g = −RL⁻¹), B315 (E₈ ⊃ E₆ × SU(3) scoped), B1263 (the 2T quotients), B1268 (the
+  bound), B1269 (the transport; corrected), B576 (θ-odd = the mirror's imaginary axis).
 - **Registers:** no status change; I-26 note corrected (the 27 has a slot in the E₈ transport); I-6 re-read.

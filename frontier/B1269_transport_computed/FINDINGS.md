@@ -1,4 +1,4 @@
-# B1267 — THE TRANSPORT COMPUTED: I-26's surviving gauge group named for every holonomy the corpus supplies, the Standard-Model algebra is not a centralizer in e₆, and the object's one unitary flat connection gives a U(1)⁴ vector-like theory
+# B1269 — THE TRANSPORT COMPUTED: I-26's surviving gauge group named for every holonomy the corpus supplies, the Standard-Model algebra is not a centralizer in e₆, and the object's one unitary flat connection gives a U(1)⁴ vector-like theory
 
 **Date:** 2026-09-06 · **Seat:** cc · **Status:** PROVED (the computations, exact) + NEGATIVE (the reading `h¹(M;27) = generations`, in every transport the corpus's frame admits) · **Price: unchanged at 14** (I-26 stays UNEARNED; its price is sharpened, not paid)
 
@@ -12,7 +12,7 @@ generations, and name the surviving gauge group."** The corpus has scoped the tr
 input-E₆ vs output-E₆), **B433** (the 3d-3d dictionary calibrated at SL(2)), **B715** (the native gauge
 system is complex Chern–Simons, no compact slice), **B955** (abelian Wilson lines preserve rank
 necessarily) — but nobody wrote the dictionary down against the corpus's own holonomies and computed the two
-things the row asks for. This arc does, on the instrument B1265 rebuilt.
+things the row asks for. This arc does, on the instrument B1267 rebuilt.
 
 ## 1. The dictionary (standard; stated, not claimed)
 
@@ -115,10 +115,10 @@ complex holonomies give no compact slice at all (B715), so they are not Acharya�
 ## Verification
 
 `verification/transport.py` (~30 min, exact; run record `verification/transport_run.txt`) and
-`verification/transport_quotients.py` (~1 min). Lock: `tests/test_b1267_transport.py` (the double-centralizer
+`verification/transport_quotients.py` (~1 min). Lock: `tests/test_b1269_transport.py` (the double-centralizer
 theorem and the finite-image spectra fast; the 2T centralizer in the slow lane).
 
-- **Feeds on:** B1265 (the instrument), B854 (u(1)⁴), B1252 (the SM subalgebra), B1263 (the 2T quotients),
+- **Feeds on:** B1267 (the instrument), B854 (u(1)⁴), B1252 (the SM subalgebra), B1263 (the 2T quotients),
   B1036 (h¹(ad) = 6), B277/B281/B433/B715/B955 (the transports as scoped), B1084/B1259 (the conical price),
   B952 (rank), B1250 (the D₂ stabiliser).
 - **Registers:** I-26 UNEARNED, price sharpened (both halves computed; the remaining price is the named conical
