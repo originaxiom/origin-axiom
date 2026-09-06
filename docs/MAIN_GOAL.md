@@ -147,3 +147,7 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   irreducible classes; it descends to the branched tower iff 3 | n, so the minimal closing n = 3 is the object's
   own. With B1273's theorem, **the tree-level hierarchy is excluded on the whole object-supplied tower** (L203
   closed). What remains for the values is non-tree-level (L201) or the attractor map (L202).
+- **The cubic made explicit (B1275).** B308's unique E₆ cubic solved from the repository's own 27 (values ±1 on the
+  45 zero-sum triples); the object's 27-lattice vectors have Jordan rank 3 exactly on the zero-sum triples
+  (I₃ = ±6); the mirror's triple (B1272) is a non-degenerate charge with equal entries, whose attractor point in the
+  E₆(6) reading is the symmetric point — no hierarchy from the object's canonical charge either.

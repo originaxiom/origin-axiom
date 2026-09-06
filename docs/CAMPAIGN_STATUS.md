@@ -1,5 +1,10 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1275 — THE CUBIC MADE EXPLICIT)**: B308's unique E₆ cubic solved from the repository's own 27
+(nullspace 1, values ±1 on the 45 zero-sum triples); the object's 27-lattice vectors have Jordan rank 1 (weights),
+1–2 (pairs), and **3 exactly on the zero-sum triples (I₃ = ±6)** — the mirror's triple (B1272) is a non-degenerate
+charge with equal entries, attracting to the symmetric point in the E₆(6) reading (L202). Instrument; price unchanged.
+
 **LATEST (2026-09-06, B1274 — THE TOWER CLOSED)**: on every cyclic cover M_n, branched cover Y_n and mirror double
 D(M_n) of the object (n ≤ 6, all 48 surjections) the family 3 carries **one irreducible class** (3 ∤ n; h¹ = 1, image A₄)
 or **three characters** (3 | n; image V₄) — never three irreducible classes; descent to the branched tower iff 3 | n,

@@ -6524,6 +6524,25 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1275": {
+   "slug": "the cubic made explicit",
+   "motifs": [
+    "arrow",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B308",
+    "B883",
+    "B962",
+    "B969",
+    "L202"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

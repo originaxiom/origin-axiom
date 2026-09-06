@@ -14312,3 +14312,13 @@ Shapiro control h¹(3 ⊗ sgn) = 0) and **3** for n = 3, 6; h¹(Y₃; 3) = h¹(Y
 irreducible class or three characters — three classes ⟺ abelian image ⟺ zero-diagonal.** No closing in the
 object's cyclic tower carries three classes of the irreducible family system; with B1273's theorem the tree-level
 hierarchy is excluded on the whole tower. L203 closed, negative. Lock `tests/test_b1274_the_tower_and_its_doubles.py`.
+
+### B1275 — the cubic made explicit (2026-09-06)
+
+B308's unique E₆ cubic d_abc solved exactly from the repository's own 27 (`frontier/B1275_the_cubic_made_explicit/verification/cubic_explicit.py`):
+the 45 zero-sum-triple values as unknowns, invariance under all 78 generators as equations — nullspace dimension **1**,
+all values **±1** (28/17 in this basis). Jordan ranks of the object's lattice vectors: single weights rank 1 (all 27),
+pair sums 1 or 2 (216/135), **zero-sum triples rank 3 with I₃ = ±6 (all 45)**, non-zero-sum triples 1 or 2 (720/2160):
+rank 3 ⟺ a zero-sum triple. The triple the object's mirror selects (B1272) is a non-degenerate element with |I₃| = 6;
+in the E₆(6) reading (L202) an entropy-carrying charge with equal charges, attracting to the S₃-symmetric point.
+Instrument; no identification. Lock `tests/test_b1275_the_cubic_made_explicit.py`.

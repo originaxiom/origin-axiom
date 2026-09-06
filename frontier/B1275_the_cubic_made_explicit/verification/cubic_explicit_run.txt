@@ -1,0 +1,11 @@
+=== the E6 cubic d_abc from the repository's own 27, and the Jordan ranks of the object's lattice vectors ===
+  zero-sum weight triples: 45; invariance nullspace dimension: 1   (1: the cubic is unique)
+  normalised values of d on the 45 triples: {1: 28, -1: 17}
+  Jordan rank of a single weight: {1: 27}   (27 x rank 1: the Spin(10) orbit)
+  Jordan rank of a sum of two weights: {1: 216, 2: 135}
+  Jordan rank of a zero-sum triple w1 + w2 + w3: {3: 45};  I_3 values: {6: 28, -6: 17}   (the 45 rank-3 charges, |I_3| = 6)
+  Jordan rank of a non-zero-sum triple: {1: 720, 2: 2160}
+  -> the triple the object's mirror selects (B1272: three mutually orthogonal weights summing to zero) is a rank-3 element with |I_3| = 6;
+     its three charges are equal in size, so under the attractor reading (L202) its attractor point is the S3-symmetric point of the moduli space
+
+SELFTEST: PASS

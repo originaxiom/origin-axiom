@@ -2332,6 +2332,12 @@ I₃, the Krutelevich data) of the icosian 27-class vectors and of the mirror's 
 I₃ ≠ 0); then the attractor point of that triple and whether it lies in the object's fields. An identification
 proposal, not a claim.
 
+**Structural half done 2026-09-06 (B1275):** d_abc explicit (values ±1 on the 45 triples); every single weight rank 1,
+every zero-sum triple rank 3 with |I₃| = 6, nothing else rank 3; the mirror's triple is a non-degenerate charge with
+three equal entries, so its attractor point is the S₃-symmetric point — no hierarchy from the attractor of the
+object's canonical triple. The remaining half (the attractor point in the object's fields) is now a one-line map for
+a diagonal charge and gives the symmetric point; the lead stands only for non-diagonal charges the object might supply.
+
 ## L203 — THE FIBONACCI TOWER Y_n AS THE FAMILY OF CLOSINGS (registered 2026-09-06, B1273; candidate 3)
 
 Y_n (π₁ = F(2,2n)) are the object's own closings: Y₂ = L(5,2) golden, Y₃ = Hantzsche–Wendt Eisenstein, Y_n

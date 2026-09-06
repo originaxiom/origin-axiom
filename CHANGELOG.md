@@ -1,5 +1,12 @@
 # Changelog
 
+## THE CUBIC MADE EXPLICIT (B1275) — d_abc from the repository's own 27; the mirror's triple is a rank-3 element with |I₃| = 6
+
+The unique E₆ cubic (B308) solved exactly (nullspace 1, values ±1 on the 45 zero-sum triples); Jordan ranks of the
+object's 27-lattice vectors: weights rank 1, zero-sum triples rank 3 with I₃ = ±6, nothing else reaches rank 3. The
+triple the object's mirror selects (B1272) is a non-degenerate charge in the E₆(6) reading (L202), with three equal
+charges — its attractor point is the symmetric point. Instrument; structure only.
+
 ## THE TOWER CLOSED (B1274) — one irreducible class or three characters, never three irreducible classes
 
 The family 3 descends to the object's branched covers iff 3 | n (the meridian's own order picks n = 3); the image is

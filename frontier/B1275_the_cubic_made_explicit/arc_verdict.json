@@ -1,0 +1,12 @@
+{
+ "id": "B1275",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": ["B883", "B308", "B1271", "B1272"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE CUBIC MADE EXPLICIT. B308's unique E6 cubic invariant d_abc on the 27 is solved exactly from the repository's own 27 (B883's rep27.json): the 45 zero-sum-triple values are the unknowns, invariance under all 78 generators the equations, the nullspace is one-dimensional and every value is +-1 after normalisation (28/17 in this basis). Jordan ranks of the object's lattice vectors: every single weight has rank 1 (the Spin(10) orbit), sums of two weights rank 1 or 2 (216/135), every zero-sum triple rank 3 with I_3 = +-6 (all 45), every non-zero-sum triple rank 1 or 2 (720/2160): rank 3 <=> a zero-sum triple. The triple the object's mirror selects (B1272) is a non-degenerate element with |I_3| = 6 -- in the E6(6) reading (L202) an entropy-carrying charge with three equal charges, whose attractor point is the S3-symmetric point. Instrument; structure only; price unchanged."
+}
