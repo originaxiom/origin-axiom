@@ -1,0 +1,8 @@
+.........................                                                [100%]
+=============================== warnings summary ===============================
+tests/test_physical_bridge_boundary_index.py::test_cells_and_rational_homology_agree
+  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+25 passed, 1 warning in 15.85s

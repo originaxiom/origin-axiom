@@ -1,5 +1,17 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL AUDIT (2026-09-06, path-local R13): an actual harmonic field input.**
+The unit-meridian-period cusp coefficient is numerically 8.52196526983,
+stable through six fits including relaxed symmetry. Actual group-generator
+and differential transport are verified; a one-percent corruption fails.
+This supports the particular theta-odd annular cusp argument, not a full
+chirality no-go. The complete-end 1-form norm diverges for nonzero period;
+charged normalizable fluctuations require their separate sourced operator.
+The D5 coweight's mixed diagram parity is corrected without discarding its
+even/odd components. Fourteen new locks pass, 25 in the R12/R13 group.
+Source, inputs and limits: `reports/physical_bridge_2026_09_05/HARMONIC_CUSP.md`.
+PB-BOUNDARY and the full TOE remain live. No B number or remote write.
+
 **LATEST LOCAL AUDIT (2026-09-06, path-local R12): the boundary controls the index.**
 The annular zero is retained, not turned into a cusp-wide generation kill.
 Three theta-invariant disks have chi=3 (R61's prior candidate); selection

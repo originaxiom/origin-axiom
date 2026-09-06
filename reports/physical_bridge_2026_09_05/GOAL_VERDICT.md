@@ -1,4 +1,4 @@
-# Verdict toward the full physical-theory goal — 2026-09-06, after path-local R12
+# Verdict toward the full physical-theory goal — 2026-09-06, after path-local R13
 
 **Real conditional physical progress; a complete TOE is not established.**
 The audit now includes an executable four-dimensional gauge/scalar/fermion
@@ -19,9 +19,27 @@ but three theta-invariant disks remain a possible chosen boundary; a
 fixed-endpoint parity theorem does not exclude that index. Proper-arc
 excision changes both the manifold and the external cusp prescription.
 The exact correction preserves possible nonzero indices without calling
-them derived physical generations. [R12](BOUNDARY_INDEX.md). The next
-physical duty is the actual source-selected Higgs/boundary problem, not
-another untyped count. CC's relay was read and no B number is allocated.
+them derived physical generations. [R12](BOUNDARY_INDEX.md).
+
+R13 takes the next differential step: the specific meridional harmonic
+field is computed numerically using the old cusp solver with its actual
+period cocycle. The previously assumed leading coefficient is stable at
+8.52196526983, including a less symmetry-restricted fit and direct group
+transport checks. This supports the narrow annular result; it does not
+close other source/boundary routes or turn vector-like families into
+chiral ones. The field's complete-end norm diverges, so a dynamical
+normalizable mode cannot be inferred from its cohomology class. An
+external background and its charged normalizable modes remain different
+questions. [R13](HARMONIC_CUSP.md). The next duty is the sourced charged
+operator and its domain. CC's relay was read; no B number is allocated.
+
+During R13 reporting, physics-seat R71/R72 arrived at 124c2466. The full
+reports are read: R70's universal vector-like language is corrected,
+and R72 proposes an inner-lift, singular three-line route on m202.
+This is a live DIFFERENT background, not excluded by the smooth m004
+annular calculation. Its unconstructed source field, physical fibre
+lift and complete operator are explicit next verification targets;
+R13 does not certify the reported three-family physical interpretation.
 
 There is no defensible percentage-complete estimate. Several outstanding
 items are conceptual derivations and empirical tests, not quantities of
@@ -75,6 +93,12 @@ in 167.93 s. R12 adds eleven passing tests; R11's eight separately sealed
 dispatch controls also pass. The earlier failure/error cases are retained
 without skips or relaxed tolerances. This remains a scoped regression,
 not full-suite green or a certificate of the physical theory.
+
+After R13 the completed quiescent repeat is **159 passed, 3 failed,
+8 errors**, one warning, in 154.55 seconds. Fourteen R13 checks are new
+and pass; the original G2/R7 failures and R11 fixture errors remain
+unaltered. Reporting gates remain 27 pass/3 fail with their known scopes.
+These are local research receipts, not a main-bank or physical certificate.
 
 ## The next work must address both levels
 

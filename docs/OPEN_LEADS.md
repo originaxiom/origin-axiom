@@ -2495,3 +2495,26 @@ annular case. This supplements PB-ACTION and the queued three-fold-closing,
 full-lift and two-sided-selector audits, without restarting existing results
 as missing. A complete TOE additionally needs the same theory's gravity and
 distinctive empirical contact. No main B ID is reserved by this local lead.
+
+**R13 movement, same PB-BOUNDARY lead:** the meridional harmonic FIELD
+is now computed numerically, with leading coefficient 8.52196526983
+at unit period and verified actual group/differential transport. This
+fills sB1277's explicitly uncomputed coefficient at numerical resolution,
+supporting its particular annular background. The complete-end profile
+is non-L2; this distinguishes a fixed background from a dynamical modulus,
+not a no-go for charged normalizable modes. Next use the full field,
+including its tangent period, in the sourced charged operator and its
+admissible domain. No actual charged index, defect, parent representation
+or physical metric is selected by the scalar coefficient. The regular
+theta-odd case must not kill R12's other boundary/source hatches.
+Source and controls: `reports/physical_bridge_2026_09_05/HARMONIC_CUSP.md`.
+
+**New received candidate:** physics-seat R71/R72 at 124c2466, bodies and
+relay read in full during R13 reporting. The inner-lift singular three-line
+m202 proposal is a different background, not killed by the smooth m004
+annular case. The next Higgs/operator computation must include that
+candidate and its explicit unconstructed global source field. The newer
+axis/census/representation producers are located but not independently
+certified in R13. Preserve R12's actual m202 fixed-point witness and R72's
+listed sign/manifold/fibre-lift questions; do not turn a reported index
+into a completed physical chirality derivation.

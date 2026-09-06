@@ -1,0 +1,86 @@
+{
+  "direct_generator_checks": [
+    {
+      "generator": "a",
+      "samples_retained": 3000,
+      "minimum_both_heights": 0.6000789578967306,
+      "primitive_transport_max": 4.440892098500626e-16,
+      "corrupted_transport_max": 4.440892098500626e-16,
+      "one_form_pullback": [
+        {
+          "step": 2e-06,
+          "maximum": 1.1092637919318804e-10
+        },
+        {
+          "step": 1e-06,
+          "maximum": 3.766755796164034e-10
+        }
+      ]
+    },
+    {
+      "generator": "b",
+      "samples_retained": 505,
+      "minimum_both_heights": 0.5505585656587487,
+      "primitive_transport_max": 2.1360690993788012e-13,
+      "corrupted_transport_max": 0.007943081259574325,
+      "one_form_pullback": [
+        {
+          "step": 2e-06,
+          "maximum": 1.5335066549937437e-10
+        },
+        {
+          "step": 1e-06,
+          "maximum": 2.5710600315420606e-10
+        }
+      ]
+    },
+    {
+      "generator": "A",
+      "samples_retained": 3000,
+      "minimum_both_heights": 0.6000477614142394,
+      "primitive_transport_max": 4.440892098500626e-16,
+      "corrupted_transport_max": 4.440892098500626e-16,
+      "one_form_pullback": [
+        {
+          "step": 2e-06,
+          "maximum": 1.7812062935718131e-10
+        },
+        {
+          "step": 1e-06,
+          "maximum": 1.7812062935718131e-10
+        }
+      ]
+    },
+    {
+      "generator": "B",
+      "samples_retained": 460,
+      "minimum_both_heights": 0.5519235589344614,
+      "primitive_transport_max": 9.880984919163893e-14,
+      "corrupted_transport_max": 0.007795780450926881,
+      "one_form_pullback": [
+        {
+          "step": 2e-06,
+          "maximum": 1.3422885025704545e-10
+        },
+        {
+          "step": 1e-06,
+          "maximum": 1.9290358199697266e-10
+        }
+      ]
+    }
+  ],
+  "period_and_components": [
+    {
+      "height": 1.0,
+      "max_period_error": 1.1102230246251565e-16,
+      "tangential_orthonormal_rms": 1.0844737269957754,
+      "normal_orthonormal_rms": 0.3713381781498206
+    },
+    {
+      "height": 2.0,
+      "max_period_error": 0.0,
+      "tangential_orthonormal_rms": 2.000227578137901,
+      "normal_orthonormal_rms": 0.028282592756976338
+    }
+  ]
+}

@@ -1,6 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [R12's boundary-index audit](BOUNDARY_INDEX.md).** Annular zero
+**Latest: [R13's computed harmonic cusp field](HARMONIC_CUSP.md).** The
+leading coefficient is numerically 8.52196526983 at unit meridian period;
+six fits and direct group/differential transport support the particular
+annular asymptotic case. A nonzero-period 1-form is not L2 on the complete
+hyperbolic cusp, but may still be an external background for normalizable
+charged modes. Those modes are the next physical operator problem, not
+already counted chiral generations. Fourteen new locks pass; 25 passed
+in the R12/R13 group. No B number or global no-go is inferred.
+
+**Preceding: [R12's boundary-index audit](BOUNDARY_INDEX.md).** Annular zero
 survives with fixed-manifold hypotheses. Three theta-invariant disks are
 an existing candidate, not a physical derivation; excised charge arcs need
 the changed manifold and full external boundary. The two-cusp m202 control

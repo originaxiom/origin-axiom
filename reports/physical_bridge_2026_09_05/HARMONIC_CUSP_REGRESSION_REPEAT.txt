@@ -1,0 +1,214 @@
+...................EEEEEEEE.....................................F....... [ 42%]
+.......................F.F.............................................. [ 84%]
+..........................                                               [100%]
+==================================== ERRORS ====================================
+__ ERROR at setup of test_lattice_integrality_and_a_corrupt_root_are_checked ___
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_marked_map_verifies_all_products_and_rejects_bad_assignment _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_root_space_actions_are_not_identified_from_orbit_counts _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+__ ERROR at setup of test_commuting_split_reconstructs_literal_action_exactly __
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_six_classes_have_the_same_cycles_but_distinct_internal_actions _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_map_is_equivariant_and_orientation_is_not_silently_fixed _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_family_lift_has_order_three_and_lie_centralizer_control _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+__ ERROR at setup of test_exact_arithmetic_and_input_provenance_are_retained ___
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+=================================== FAILURES ===================================
+______ test_upstream_element_test_can_pass_without_testing_the_inference _______
+tests/test_physical_bridge_g2_isolation.py:64: in test_upstream_element_test_can_pass_without_testing_the_inference
+    assert json.loads(json.dumps(result, allow_nan=False))["upstream_B1259_selftest"]["commit"] == g.UPSTREAM
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/__init__.py:238: in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py:200: in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py:258: in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+E   TypeError: keys must be str, int, float, bool or None, not numpy.int64
+_________ test_full_constraint_J_H_derivatives_and_complex_covariance __________
+tests/test_physical_bridge_higgs_sector.py:9: in test_full_constraint_J_H_derivatives_and_complex_covariance
+    result = h.primitive_checks()
+             ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: in primitive_checks
+    np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E   AssertionError: 
+E   Not equal to tolerance rtol=1e-07, atol=3e-07
+E   
+E   Mismatched elements: 12 / 86436 (0.0139%)
+E   First 5 mismatches are at indices:
+E    [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E    [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E    [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E    [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E    [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E   Max absolute difference among violations: 0.00000184
+E   Max relative difference among violations: 0.00001882
+E    ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E           -0.000149],
+E          [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E    DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E           -0.000149],
+E          [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+____________ test_parameter_controls_remove_or_restore_light_modes _____________
+tests/test_physical_bridge_higgs_sector.py:22: in test_parameter_controls_remove_or_restore_light_modes
+    result = h.primitive_checks()
+             ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: in primitive_checks
+    np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E   AssertionError: 
+E   Not equal to tolerance rtol=1e-07, atol=3e-07
+E   
+E   Mismatched elements: 12 / 86436 (0.0139%)
+E   First 5 mismatches are at indices:
+E    [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E    [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E    [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E    [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E    [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E   Max absolute difference among violations: 0.00000184
+E   Max relative difference among violations: 0.00001882
+E    ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E           -0.000149],
+E          [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E    DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E           -0.000149],
+E          [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+=============================== warnings summary ===============================
+tests/test_physical_bridge_boundary_index.py::test_cells_and_rational_homology_agree
+  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_g2_isolation.py::test_upstream_element_test_can_pass_without_testing_the_inference
+FAILED tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance
+FAILED tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes
+ERROR tests/test_physical_bridge_family_action.py::test_lattice_integrality_and_a_corrupt_root_are_checked
+ERROR tests/test_physical_bridge_family_action.py::test_marked_map_verifies_all_products_and_rejects_bad_assignment
+ERROR tests/test_physical_bridge_family_action.py::test_root_space_actions_are_not_identified_from_orbit_counts
+ERROR tests/test_physical_bridge_family_action.py::test_commuting_split_reconstructs_literal_action_exactly
+ERROR tests/test_physical_bridge_family_action.py::test_six_classes_have_the_same_cycles_but_distinct_internal_actions
+ERROR tests/test_physical_bridge_family_action.py::test_map_is_equivariant_and_orientation_is_not_silently_fixed
+ERROR tests/test_physical_bridge_family_action.py::test_family_lift_has_order_three_and_lie_centralizer_control
+ERROR tests/test_physical_bridge_family_action.py::test_exact_arithmetic_and_input_provenance_are_retained
+3 failed, 159 passed, 1 warning, 8 errors in 154.55s (0:02:34)

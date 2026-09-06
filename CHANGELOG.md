@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-09-06 — Path-local R13: a harmonic field replaces a genericity assumption
+
+The SM-seat sB1277 leading-coefficient caveat is now tested numerically:
+8.52196526983 for unit meridian period, with six resolution/height/move/
+symmetry fits and separately sealed direct Gamma and differential transport
+checks. The old B1007 cusp solver is adapted with the essential period
+cocycle. This supports the narrow annular background, not a global
+chirality kill or three unpaired physical generations.
+
+Exact metric calculations distinguish finite volume from the divergent
+norm of any nonzero-period 1-form. An external background is not thereby
+forbidden, nor are its charged normalizable modes counted. B351/R70's
+single omega_1 is diagram-theta mixed, not odd; its projections and D5
+directions are retained exactly. Seals 9c646408/afe8f578; 25 R12/R13 tests
+pass, fourteen new. The first capture truncation and unchanged-source
+complete repeat are both retained. Scope and evidence:
+`reports/physical_bridge_2026_09_05/HARMONIC_CUSP.md`.
+CC's relay is respected; no B allocation or external write.
+
 ## 2026-09-06 — Path-local R12: boundary topology before a chirality verdict
 
 CC's numbering relay and alias table read; no new B number. Exact cubical

@@ -1,5 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Differential cusp input, 2026-09-06 (path-local R13):** the meridional
+harmonic representative is now a convergence-tested numerical field,
+including its actual period and group/differential transport. Its nonzero
+leading coefficient supports the narrow theta-odd annular pattern. This
+is not a physical chiral spectrum: the full tangential profile, charge
+representation and operator domain matter. A nonzero-period 1-form has
+infinite norm on the complete hyperbolic end, without excluding a fixed
+background or charged normalizable modes. See the explicit metric, input
+normalization and scope in `reports/physical_bridge_2026_09_05/HARMONIC_CUSP.md`.
+
 **Boundary-index scope, 2026-09-06 (path-local R12):** chi(M,A)=-chi(A)
 for a compact torus-boundary exterior, but charge-arc excision changes M.
 Exact relative complexes retain annular zero and the possible index from

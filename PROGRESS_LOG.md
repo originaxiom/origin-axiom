@@ -14237,3 +14237,55 @@ unchanged; 125 then-listed latest-path artifact hashes match. The raw
 gate receipt is BOUNDARY_INDEX_GATES.txt in the audit folder. Its creation
 and these notes postdate that gate run, so final hashes are checked again
 before the local reporting commit. No main-bank or publication claim.
+
+### 2026-09-06 — Path-local R13: compute the actual harmonic cusp input
+
+On the owner's chirality relay and instruction not to abandon the path,
+read the source commits 2a7f8855/6f077ef2 and physics-seat R60/R70 at
+9a5d1928. The closed model's report explicitly has N=0; three-family
+multiplicity is not net chirality. Its large vacuum census is located,
+not independently recounted in this round and not declared absent.
+
+The cusp addendum's explicitly uncomputed harmonic coefficient is now
+numerically 8.52196526983 at unit meridian period. Adapt the EXISTING
+B1007 cusp solver, tracking the primitive's meridional cocycle in every
+group/lattice step. Six cutoff/height/move/symmetry fits agree; the
+theta-only fit drops the additional glide/translation constraints.
+Separately sealed actual-generator and 1-form pullback checks pass;
+one-percent coefficient corruption breaks transport. This supports the
+narrow annular asymptotic pattern, not a global chirality closure.
+
+Exact metric calculations prove a logarithmic lower bound on the norm
+of every nonzero-period closed 1-form on a standard complete hyperbolic
+cusp. The finite-volume scalar and decaying exact-form controls pass.
+An external background can still support charged normalizable modes;
+those need the actual physical operator and are not computed by this norm.
+The full tangent field is retained. B351/R70 diagram theta exchanges
+omega_1/omega_6, so a single D5 coweight is mixed, not odd. Its even/odd
+sum/difference and the odd D5 direction are preserved, not killed.
+
+Original seal 9c646408; direct-transport supplement sealed afe8f578 after
+the original numerical result, explicitly not retroactive preregistration.
+First science succeeds but the terminal capture truncates at 24,000 tokens;
+received bytes are preserved. Unchanged-source repeat with larger capture
+succeeds and supplies the complete output. Twenty-five R12/R13 locks pass
+in 15.85 seconds, fourteen new. Results, proofs and limits:
+reports/physical_bridge_2026_09_05/HARMONIC_CUSP.md. No B number allocated,
+remote write, source-derived physical chirality or completed TOE claimed.
+
+Received during reporting: physics R71/R72 at 124c2466, both full bodies
+and relay read. R70's vector-like overreach is retracted at source; R72's
+inner-lift m202 three-line singular candidate is retained as the next
+Higgs/operator audit target. It is NOT excluded by the smooth m004 result.
+Its source field remains explicitly unconstructed in its own report.
+The original broad regression handle 71784 vanished across the turn
+transition; no live pytest remains and no completion output was received.
+The surviving partial output is not a verdict; a new run is labeled repeat.
+
+The quiescent repeat completed: 159 passed, 3 prior failures, 8 original
+R11 fixture errors, one warning, 154.55 seconds. No new R13 science failure.
+Gates: 27 pass, 3 fail with the same attribution/static-vacuity/older
+seal-marker inventory as R12; review-due 101. Raw receipts are
+HARMONIC_CUSP_REGRESSION_REPEAT.txt and HARMONIC_CUSP_GATES.txt in the
+audit folder. Full-suite green and independent receiving-seat acceptance
+remain unestablished; no PR/merge/push is performed.

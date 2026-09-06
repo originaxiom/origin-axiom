@@ -1,5 +1,18 @@
 # Failures retained, not rewritten as successful runs
 
+## R13 capture and regression receipts
+
+The first harmonic-cusp science run succeeds but its terminal capture is
+truncated. The received text remains HARMONIC_CUSP_FIRST_CAPTURE_TRUNCATED.txt;
+an unchanged-source repeat with a larger capture produces HARMONIC_CUSP_RUN.txt.
+The first broad regression handle/capture is lost at a turn transition
+without a completion result. Its repeat completes: 159 passed, 3 failed,
+8 errors in 154.55 s. These are the same original G2/R7 failures and R11
+domain errors, not new R13 failures. Fourteen R13 locks pass. The 27/3
+reporting gates retain the earlier attribution/vacuity/provenance debt.
+No full-suite or main-bank certificate is asserted. Detailed scopes and
+newly received R71/R72 candidate: [HARMONIC_CUSP.md](HARMONIC_CUSP.md).
+
 ## Third upstream audit: NumPy dictionary keys stop JSON export
 
 At f3696b21 the full G2/common-fixed-space calculation completes, but main

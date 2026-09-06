@@ -1,6 +1,15 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [boundary-index audit](BOUNDARY_INDEX.md), source/test seal 0ea46c2b.
+Latest: [harmonic cusp field](HARMONIC_CUSP.md), source/test seal 9c646408
+and post-result direct-transport seal afe8f578. The explicitly uncomputed
+leading coefficient is now a convergence-tested numerical 8.52196526983
+at unit meridian period, supporting the narrow annular case. The actual
+differential and period transport are checked. Its complete-end norm
+diverges, without excluding normalizable charged fluctuations. Fourteen
+new locks pass; the R12/R13 group is 25 passed. Neither physical net
+chirality nor a complete TOE is established. No global no-go is inferred.
+
+Preceding: [boundary-index audit](BOUNDARY_INDEX.md), source/test seal 0ea46c2b.
 The annular zero survives with its hypotheses; three theta-invariant disks
 remain a boundary-choice candidate; proper-arc excision changes the index
 manifold and requires the external cusp boundary. Main's genuine m202
