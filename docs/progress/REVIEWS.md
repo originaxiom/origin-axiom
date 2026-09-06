@@ -5141,8 +5141,6 @@ candidates sit unpromoted: B1259 and B1260 §1.** → **R55-12**
 
 ### Action items (Review 55)
 
-```
-### Action items (Review 55)
 - [ ] R55-1: try `verdict class` and `creates_law` as representation_sweep screens -- the two R54-1 named and nobody tested (owner: cc; source: R54-1)
 - [ ] R55-2: make CHAIN_COVERAGE's _criterion machine-read; citation_status.py:131 still reads the pin list alone (owner: cc; source: R54-2)
 - [ ] R55-3: split relay_debt's "open" into inbound/outbound (owner: cc; source: R54-3, now 47)
@@ -5159,6 +5157,5 @@ candidates sit unpromoted: B1259 and B1260 §1.** → **R55-12**
 - [ ] R55-14: regenerate SEAL_LEDGER.md (~530 arcs stale) and put it under a currency gate (owner: cc)
 - [ ] R55-15: gate_seal_digests recomputes 19 of 49 -- make it match its docstring or fix the docstring (owner: cc)
 - [ ] R55-16: 20 of 31 gates have no test, 25 have no planted violation; start with the certifying gates (owner: cc; source: E66/E67)
-```
 
 **anchor-commit: `be6f4cab`**
