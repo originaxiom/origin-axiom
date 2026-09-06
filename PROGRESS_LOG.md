@@ -14093,3 +14093,25 @@ Owner: *"should we find the source of input"*. Yes — and it **corrects B1261**
   I-6 (**2**), I-14 (**85**), I-25 (**4**), all measured this session; **missing bridge** — I-10/I-11
   (the fork, now a **rank** obstruction per B1265) and I-26 (an index theorem across a dimension gap);
   **the master** — I-13; **unclassified** — I-7.
+
+### B1267 — B1260's deciding computation, RUN (2026-09-06)
+
+Owner, on the seat listing three requirements instead of attacking them: *"this is pure justification
+for lazyness."* Correct — **B1260 had named the deciding computation and this seat listed it rather
+than executing it.** Executed here.
+
+- **THE ANSWER IS "AGREE".** On the mapping-torus presentation ⟨a,b,t | tat⁻¹φ(a)⁻¹, tbt⁻¹φ(b)⁻¹⟩
+  (φ: a→aab, b→ab), Fox calculus over **25 valid parameter points per component**:
+  **V0** (self-dual) h¹ ∈ {0,**1**}, **index 0**; **W1**, **W2** (non-self-dual) **h¹ = 0 always**,
+  **index 0**, smallest d₁ singular values **0.011** and **0.020** — far from zero, so rank 6 is solid.
+- **AND THE SHARPER HALF: W1/W2 are RIGID.** No deformations at all, so **no massless modes** — they
+  cannot furnish a generation count in *either* direction. The last candidate locus is not merely
+  index-zero, it is **empty of the modes a count would have to count**.
+- **THE CONTROL CAUGHT A REAL BUG BEFORE IT SHIPPED.** A first attempt failed with relator residuals
+  **1.1–9.3**: the Sym^n routine returned the **transpose**, making Sym an **anti**-homomorphism. Fixed;
+  the machinery now reproduces **5/5** of tonight's independently verified knot-group h¹ table
+  (Sym¹→0, Sym²→1, Sym³→0, Sym⁴→1, Sym⁶→1) and asserts the homomorphism property before use.
+  **V0 attaining h¹ = 1 is what makes this a test and not a tautology.**
+- **SCOPE.** Does **not** show net chirality impossible on m004 for every local system — only for the
+  corpus's **exhibited** non-self-dual rank-3 family over the sampled range. A **non-rigid**
+  non-self-dual system would reopen it, and that is the named revival path. Routed to the kill graph.

@@ -1,5 +1,19 @@
 # Changelog
 
+## B1260'S DECIDING COMPUTATION, RUN — the index is zero and the last candidate locus is RIGID
+
+**B1267.** B1260 named the deciding computation; this seat then **listed it as a requirement instead of
+running it**, and the owner called that out. Run here. **The answer is "agree":** on the mapping-torus
+presentation, over 25 valid points per component, **V0** (self-dual) gives h¹ ∈ {0,**1**} with **index
+0**, and **W1/W2** (the corpus's only **non-self-dual** rank-3 systems) give **h¹ = 0 always**, index 0,
+with smallest d₁ singular values **0.011/0.020** — solid. **The sharper half: W1/W2 are RIGID** — no
+deformations, hence no massless modes, so they cannot furnish a generation count in *either* direction.
+By B1260's own statement **the wall extends past closedness and past the abelian sector.** **The control
+caught a real bug first:** a transposed Sym^n made Sym an **anti**-homomorphism (relator residuals
+1.1–9.3); fixed, and the machinery now reproduces **5/5** of the verified knot-group h¹ table, with V0
+attaining h¹ = 1 so the test is not a tautology. **Scope:** the exhibited family over the sampled range,
+not every local system — a **non-rigid** non-self-dual system reopens it.
+
 ## THE SOURCE OF INPUT — the 14 overcounts; the irreducible number is 11
 
 **B1266**, on the owner's *"should we find the source of input"*. **It corrects B1261.** The 10

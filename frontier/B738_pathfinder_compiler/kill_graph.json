@@ -10872,5 +10872,16 @@
   "note": "First reduction of the B1261 price: UNEARNED 11 -> 10, the trade moving 15 : 0 -> 14 : 0. Demonstrates the third move on the exchange rate (refute), which the ratchet supported all along.",
   "priority": "low",
   "revival_score": 1
+ },
+ {
+  "id": "B1267",
+  "claim_killed": "B1260's named deciding route: that the CUSPED manifold, evaluated on a NON-SELF-DUAL rank-3 local system, might carry net chirality h1(V) != h1(V*) and so supply a generation count where the closed double cannot.",
+  "kill_form": "Run, with a five-way control. On B102's W1/W2 -- the corpus's only non-self-dual rank-3 systems -- the index h1(V) - h1(V*) is ZERO at all 25 valid parameter points per component, and more sharply BOTH h1 VANISH: W1 and W2 are RIGID, carrying no deformations at all, so they cannot furnish a count in either direction. By B1260's own statement ('agree => the wall extends past closedness AND past the abelian sector') the wall extends.",
+  "fact_computed": "h1 via Fox calculus on the mapping-torus presentation <a,b,t | tat^-1 phi(a)^-1, tbt^-1 phi(b)^-1>, phi: a->aab, b->ab, with rho*(g) = rho(g^-1)^T; 25 valid points per component; smallest d1 singular values 0.011 (W1) and 0.020 (W2), far from zero so rank 6 is solid.",
+  "faces_consulted": "B1260 (which named the route), B102 (W1/W2 realized), B71 (realize/monodromy), B1256 addendum (the control table), B1086 (the closed-side spectrum law).",
+  "hatch": "NOT closed in general: this kills the corpus's EXHIBITED non-self-dual rank-3 family over the sampled range, not net chirality on m004 for every local system. A NON-RIGID non-self-dual system -- higher rank, or a different component -- would reopen it, and finding one is the concrete revival path. Note the rigidity is the real obstruction: index zero here is 0 - 0, so the route dies for lack of MODES rather than for a cancellation.",
+  "note": "THE CONTROL CAUGHT A REAL BUG BEFORE THE RESULT SHIPPED: a first attempt failed with relator residuals 1.1-9.3 because Sym^n returned the TRANSPOSE, making it an ANTI-homomorphism. The machinery now reproduces 5/5 of an independently verified h1 table (Sym^1..Sym^6) and asserts the homomorphism property before use. V0 attains h1 = 1, so the test is not a tautology.",
+  "priority": "medium",
+  "revival_score": 3
  }
 ]
