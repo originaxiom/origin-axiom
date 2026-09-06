@@ -6459,6 +6459,50 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1272": {
+   "slug": "theta on the two face e6",
+   "motifs": [
+    "monoid",
+    "choice",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B576",
+    "B713"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1273": {
+   "slug": "the three fold closing",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B251",
+    "B326",
+    "H5"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 12,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

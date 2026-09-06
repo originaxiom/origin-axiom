@@ -1,0 +1,34 @@
+=== (a)+(b) the mirror derived from P = diag(1,-1), and the three involutions on E6 with their Cartan signatures ===
+  the mirror P = diag(1,-1) reduces mod 5 to diag(3,2) (det P = -1 = 2^2, a square): INNER on 2I, of order 4;
+  its image h (order 4) inverts R_q and L_q: True;  Ad(h) g = g^-1: False (it is a conjugate of g^-1);
+  the representative h' = L_q h of the same mirror class has h'^2 = -1, sends g -> g^-1 and L -> L^-1: True
+  the mirror Ad(h') (the object's amphichirality on the golden face, preserving Z[g]):
+    on g: g^-1;  on E6: outer (27 classes swapped with 27bar);  E6 roots fixed 6 [3A1: degrees [0, 0, 0], det 8], two-orbits 33
+    Cartan signature on the E6 span: fixed 3, odd 3   ->  real rank >= 3:  allowed real forms ['E6(6)']  (k = ['sp(8)'])
+  quaternion conjugation x -> xbar (the inversion; B1270's 'theta'):
+    on g: g^-1;  on E6: outer (27 classes swapped with 27bar);  E6 roots fixed 2 [A1: degrees [0], det 2], two-orbits 35
+    Cartan signature on the E6 span: fixed 1, odd 5   ->  real rank >= 5:  allowed real forms ['E6(6)']  (k = ['sp(8)'])
+  their ratio x -> h' xbar h'bar:
+    on g: g;  on E6: inner (27 classes preserved);  E6 roots fixed 12 [A3: degrees [1, 1, 2], det 4], two-orbits 30
+    Cartan signature on the E6 span: fixed 4, odd 2   ->  real rank >= 2:  allowed real forms ['E6(-14)', 'E6(2)']  (k = ['so(10)+u(1)', 'su(6)+su(2)'])
+  (context) roots of E8 fixed by the mirror: 8 [4A1]
+
+=== (c) the SO(10) x U(1) gradings of the 27 against each involution ===
+  mirror: SO(10)xU(1) gradings D2(w0) of the 27 that commute with it: 3 of 27  (theta w0 = -w0: 3; theta w0 = +w0: 0)
+    the 3 mirror-compatible weights: mutual E8 pairings {Fraction(0, 1): 3}; sum of their E6 parts = (0, 0, 0, 0, 0, 0, 0, 0)  (zero <=> a zero-sum triple: one of the cubic's 45)
+  inversion: SO(10)xU(1) gradings D2(w0) of the 27 that commute with it: 15 of 27  (theta w0 = -w0: 15; theta w0 = +w0: 0)
+  ratio: SO(10)xU(1) gradings D2(w0) of the 27 that commute with it: 7 of 27  (theta w0 = -w0: 0; theta w0 = +w0: 7)
+
+=== (d) the mirror's real type on the object's own sl2 (Riley representation, exact over Q(omega)) ===
+    alpha: a -> (-1,), b -> (2, -1, -2);  alpha^2 = Ad(D) with D not in rho(pi_1) (words <= 6);  tr D = 2.000000+0.000000j, D^2 = +-1: False
+    alpha: a -> (-1,), b -> (-2, -1, 2);  alpha^2 = Ad(D) with D not in rho(pi_1) (words <= 6);  tr D = 2.000000+0.000000j, D^2 = +-1: False
+    alpha: a -> (-1,), b -> (1, 2, -1, -2, -1);  alpha^2 = Ad(D) with D not in rho(pi_1) (words <= 6);  tr D = 2.000000+0.000000j, D^2 = +-1: False
+    alpha: a -> (-1,), b -> (1, -2, -1, 2, -1);  alpha^2 = Ad(D) with D not in rho(pi_1) (words <= 6);  tr D = 2.000000+0.000000j, D^2 = +-1: False
+    alpha: a -> (-1,), b -> (-1, 2, -1, -2, 1);  alpha^2 = Ad(D) with D not in rho(pi_1) (words <= 6);  tr D = 2.000000+0.000000j, D^2 = +-1: False
+    alpha: a -> (-1,), b -> (-1, -2, -1, 2, 1);  alpha^2 = Ad(D) with D not in rho(pi_1) (words <= 6);  tr D = 2.000000+0.000000j, D^2 = +-1: False
+  words of length <= 6: 1457; parabolic: 105; endomorphisms with rho o alpha ~ rhobar: 104
+  of these: involutive (J Jbar scalar): 0;  alpha^2 inner (D in rho(pi_1)): 44;  alpha^2 = Ad(D) with D outside the image (the mirror's square is a symmetry, the mirror has order 4): 60
+  real types of the involutive mirrors on the object's own sl(2,C): none found -- no involutive mirror among words <= 6
+
+SELFTEST: PASS
+rc=0

@@ -1,0 +1,22 @@
+=== (a) the 3-fold cyclic branched cover Y_3 by Reidemeister-Schreier; H_1; the F(2,6) fingerprint ===
+  Schreier generators z = a^3, x0, x1, x2; relators (lengths [6, 6, 8, 1]), the last = the filled meridian a^3
+  H_1(Y_3) = torsion [4, 4], free rank 0    (B326: |Delta(w)Delta(w^2)| = 16 = |(Z/4)^2|)
+  F(2,6): H_1 = torsion [4, 4], free rank 0
+  homomorphisms to Q8: Y_3 presentation 64, F(2,6) 64
+  homomorphisms to A4: Y_3 presentation 16, F(2,6) 16
+
+=== (b) the object's 2T holonomy descended to Y_3: the three twisted classes ===
+  surjections pi_1(m004) -> 2T: 48
+  meridian order 3: h0(3_rho) = 0, h1(Y_3; 3_rho) = 3; image of 3_rho = Klein four-group V4 (order 4, exponent 2): True; h1(2_rho) = 0; h1(trivial) = 0   x24
+     sign characters chi of Y_3: (h1(chi), multiplicity of chi in 3_rho): {'+--+': (1, 1), '+-+-': (1, 1), '++--': (1, 1), '++++': (0, 0)}
+  meridian order 6: h0(3_rho) = 0, h1(Y_3; 3_rho) = 3; image of 3_rho = Klein four-group V4 (order 4, exponent 2): True; h1(2_rho) = None; h1(trivial) = 0   x24
+     sign characters chi of Y_3: (h1(chi), multiplicity of chi in 3_rho): {'+--+': (1, 1), '+-+-': (1, 1), '++--': (1, 1), '++++': (0, 0)}
+  -> 3_rho descended = chi_1 + chi_2 + chi_3, the three sign characters with h1 = 1: the flat holonomy of Y_3 (the tangent bundle); three classes, one per flat direction
+
+=== (d) the zero-diagonal texture theorem against the data ===
+  zero-diagonal complex symmetric 3x3: max over 20000 random matrices of sigma_1/(sigma_2 + sigma_3) = 1.000000  (theorem: <= 1)
+  up (t; c, u): m_heaviest / (m_second + m_lightest) = 135.8   (bound: <= 1)
+  down (b; s, d): m_heaviest / (m_second + m_lightest) = 42.8   (bound: <= 1)
+  charged leptons (tau; mu, e): m_heaviest / (m_second + m_lightest) = 16.7   (bound: <= 1)
+
+SELFTEST: PASS

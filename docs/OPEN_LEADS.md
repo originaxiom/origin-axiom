@@ -2310,3 +2310,32 @@ continuation along the family until det(μ_s − 1) vanishes, is the fix), then 
 N. **Either outcome banks:** N = 0 closes the cusped θ-odd frame completely; |N| = 1 is the first nonzero net
 chirality on this object and would need the transport of B1269 §1 to mean anything (a 27 is not a field on Q).
 One evening of ball arithmetic. ★★
+
+## L201 — THE EXPONENTIAL SECTOR AS THE HIERARCHY'S SOURCE (registered 2026-09-06, B1273; `docs/THE_VIEW_FROM_ABOVE_2026-09-06.md` candidate 1)
+
+Tree level is closed by theorems (B1261: 0 of 19; B1271: W ≡ 0 on the triplet; B1273: σ₁ ≤ σ₂ + σ₃ on the object's
+own closing, violated by 17–136). The charged-fermion ratios span e⁻³…e⁻¹²; the object's exponentials are e^{−Vol}
+(Vol(m004) = 2.0299, the Gieseking 1.0149, the Meyerhoff 0.9814, the systole, the length spectra of Y₄, Y₅) and the
+Kashaev tower. The value campaign tested periods, forms, the coupling and regulators — never the non-perturbative map
+(membrane instantons ∝ e^{−Vol(Σ)} between separated loci in the transport the corpus uses). **Computation:** a
+sealed pre-registration (look-elsewhere declared) of the six charged mass ratios against e^{−k·V}, V in the object's
+volume set, k a small integer; and the geodesic lengths joining the ℤ/n-related copies on the hyperbolic Fibonacci
+closings. Firewalled; Gate 5; a MISS is informative.
+
+## L202 — THE ATTRACTOR MAP AS THE LISTENER MAP (registered 2026-09-06, B1272; candidate 2)
+
+The object's mirror selects the split form E₆(6) (B1272) — the U-duality group of 5d maximal supergravity, whose 27
+is a charge lattice, whose cubic (B308's d_abc, B1271's 45 = 40 + 5) is the black-hole entropy invariant, and whose
+attractor mechanism fixes moduli (points of E₆(6)/USp(8)) from charges (lattice vectors) — the shape H5 asks for.
+B969 stopped at *"has never touched a VEV"*. **Computation (structure first):** the E₆(ℤ)-orbit invariants (rank,
+I₃, the Krutelevich data) of the icosian 27-class vectors and of the mirror's zero-sum triple (a rank-3 charge with
+I₃ ≠ 0); then the attractor point of that triple and whether it lies in the object's fields. An identification
+proposal, not a claim.
+
+## L203 — THE FIBONACCI TOWER Y_n AS THE FAMILY OF CLOSINGS (registered 2026-09-06, B1273; candidate 3)
+
+Y_n (π₁ = F(2,2n)) are the object's own closings: Y₂ = L(5,2) golden, Y₃ = Hantzsche–Wendt Eisenstein, Y_n
+hyperbolic for n ≥ 4. B1273 §4 proves character-distinguished generations are zero-diagonal; a closing that could
+carry a hierarchy at tree level must carry three classes of ONE irreducible local system. **Computation:** h¹(Y_n; V)
+for n = 4, 5 (the same Reidemeister–Schreier machinery) with the descended local systems and their irreducible
+constituents; the deck ℤ/n; the count of 27s and 27̄s; the texture each allows.

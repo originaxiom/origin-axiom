@@ -14258,3 +14258,45 @@ is inner vs outer) and **B1266** (the source of input; 14 rows = 11 irreducible 
   chirality, a non-self-dual 3_ρ (E65/B1268). One named object, three requirements.
 - Currency addenda appended to `docs/THE_SM_VERDICT.md` and `docs/THE_STATE_2026-09-06.md` (its §7 item 1 —
   W1/W2 — is computed: N = 0 in every row). Price unchanged (14 rows / 11 sources).
+
+### B1272 — the object's mirror on the two-face E₆ is split (2026-09-06)
+
+THE_STATE §7 item 2 (*"does the object's θ act as an outer involution, and with which fixed subalgebra?"*)
+answered on the lattice (`frontier/B1272_theta_on_the_two_face_e6/verification/theta_two_faces.py`).
+
+- **The mirror derived:** P = diag(1, −1) (R ↦ R⁻¹, L ↦ L⁻¹) reduces mod 5 to conjugation by diag(3, 2) — det P
+  = −1 = 2² is a square, so the mirror is **inner on 2I**, of order 4; its icosian image h inverts R_q and L_q;
+  the representative h′ = L_q h sends g ↦ g⁻¹ exactly and preserves ℤ[g] and E₆.
+- **Three involutions on E₆:** the mirror Ad(h′) — outer, 6 fixed roots (3A₁), Cartan signature **3/3**; quaternion
+  conjugation (the inversion; B1270's "θ", corrected — **E69**) — outer, 2 fixed roots, signature 1/5; their ratio
+  — inner, 12 fixed roots (A₃), signature 4/2.
+- **The real-rank bound** (the odd part of a stable Cartan is abelian in 𝔭): the mirror is the Cartan involution
+  of the **split form E₆(6)** (𝔨 = sp(8)) and **not of E₆(−26)** (real rank 2 < 3). θ does not cross the fork;
+  B1119's "mirror swap → E₆(6)" agrees from the Lorentz-double side; B576's f₄-grading is the principal-sl₂
+  frame's involution, identified with the lattice E₆ only through I-25's unearned embedding.
+- **The mirror selects one zero-sum triple of the 27** (3 of 27 SO(10) × U(1) gradings commute with it; mutually
+  orthogonal; E₆ parts summing to zero) — the SO(8) × U(1)² triality frame.
+- The mirror's real type on the object's own sl₂ is left open (no involutive representative among words ≤ 6).
+  I-10/I-11 re-read, unchanged. Lock `tests/test_b1272_theta_on_the_two_face_e6.py`.
+
+### B1273 — the object's own three-fold closing (2026-09-06)
+
+On the owner's *"see beyond … identify breakthroughs"*: the step back
+(`docs/THE_VIEW_FROM_ABOVE_2026-09-06.md`) and its first computation
+(`frontier/B1273_the_three_fold_closing/verification/three_fold_closing.py`).
+
+- **Y₃ built:** the 3-fold cyclic branched cover of S³ along the knot, by Reidemeister–Schreier on the corpus's
+  own presentation; **H₁ = ℤ₄²** (B326's 16); fingerprinted as **F(2,6)** (64 = 64 homomorphisms to Q₈, 16 = 16 to
+  A₄): the flat **Hantzsche–Wendt** manifold; Y_n the Fibonacci manifolds (Helling–Kim–Mennicke), Y₂ = L(5,2).
+- **The descent:** for all 48 surjections π₁ → 2T, the real 3 descends to Y₃ with image the Klein four-group —
+  **the flat holonomy of Y₃**; exact Fox calculus: h¹(trivial) = 0, h¹(χ_i) = 1 for the three sign characters,
+  **h¹(Y₃; 3_ρ) = 3** with each χ_i of multiplicity exactly 1 in 3_ρ, h¹(2_ρ) = 0. **The object's family SU(3)
+  holonomy, descended to its own closing, is the closing's tangent bundle; the three classes are its three flat
+  directions**, permuted by the deck ℤ/3.
+- **The E₈ theory on Y₃:** e₆ ⊕ u(1)², three 27s with family charges e_i, three 27̄s, six singlets ±(e_i − e_j), no
+  adjoint chiral; vector-like (B1260).
+- **The texture:** exactly one cubic, W = λ d_abc 27₁27₂27₃ with λ ∝ ∫dx₁∧dx₂∧dx₃ ≠ 0 — the first non-zero
+  three-generation Yukawa in the programme — every tree-level mass matrix zero-diagonal; **theorem σ₁ ≤ σ₂ + σ₃**
+  (Takagi; saturated numerically); the data: **135.8 / 42.8 / 16.7**. Refuted in every charged sector.
+- B1043 W4's door and B1271's named object are this one object. Registered L201–L203 (the exponential sector,
+  the attractor map, the Fibonacci tower). Price unchanged. Lock `tests/test_b1273_the_three_fold_closing.py`.

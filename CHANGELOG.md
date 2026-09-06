@@ -1,5 +1,18 @@
 # Changelog
 
+## THE VIEW FROM ABOVE — the mirror is split (B1272), the object's own three-fold closing carries the three classes and a Yukawa whose texture is refuted (B1273)
+
+**B1272:** the object's mirror (P = diag(1,−1), inner on the golden 2I, preserving ℤ[g]) is an outer involution of
+the two-face E₆ with Cartan signature 3/3 — by the real-rank bound the Cartan involution of the **split form E₆(6)**,
+not of E₆(−26): **θ does not cross the fork** (THE_STATE §7 item 2 answered); it selects one zero-sum triple of the
+27. B1270's "θ = quaternion conjugation" corrected (E69: the inversion). **B1273:** the 3-fold cyclic branched
+cover Y₃ (flat Hantzsche–Wendt, π₁ = F(2,6), H₁ = ℤ₄²) carries the object's 2T holonomy as **its own flat
+holonomy**; h¹(Y₃; 3_ρ) = 3 for all 48 surjections — **three generations = the three flat directions** — with three
+mirrors and the programme's first non-zero three-generation Yukawa, whose zero-diagonal texture obeys
+**m₁ ≤ m₂ + m₃**, violated by the data by 136 / 43 / 17. `docs/THE_VIEW_FROM_ABOVE_2026-09-06.md`: the pattern in
+the walls, and the two mechanisms — the exponential sector (L201) and the attractor map (L202) — that could turn
+lattice data into points, named and not yet run. Price unchanged.
+
 ## RECONCILED WITH MAIN — the branch's arcs renumbered B1267–B1271; THE_SM_VERDICT and THE_STATE read; the prior exhibits cited (E68); the generation index located
 
 Main banked its own B1265/B1266 and crystallised THE_STATE; this branch's B1265–B1269 become **B1267–B1271**.

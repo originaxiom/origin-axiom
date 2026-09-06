@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1272–B1273 — THE VIEW FROM ABOVE)**: the object's mirror on its own E₆ is **split** —
+Cartan signature 3/3, the Cartan involution of E₆(6), not E₆(−26); θ does not cross the fork (B1272; E69 corrects
+B1270's θ). The object's own 3-fold closing Y₃ (flat Hantzsche–Wendt, F(2,6)) carries the 2T holonomy as **its own
+flat holonomy** with **h¹(Y₃; 3_ρ) = 3 — three generations = three flat directions** — and the first non-zero
+three-generation Yukawa, whose zero-diagonal texture obeys **m₁ ≤ m₂ + m₃**, refuted by 136 / 43 / 17 (B1273).
+Tree level is closed by theorems; the exponential sector (L201) and the attractor map (L202) are named as the two
+mechanisms that could fix points from the lattice. Price unchanged (14 rows / 11 sources).
+
 **LATEST (2026-09-06, RECONCILED WITH MAIN — B1267–B1271)**: main's B1265/B1266 and THE_STATE merged; this
 branch's five arcs renumbered. Read against `THE_SM_VERDICT.md`: the E₈ family triplet is **B1138 §4's** exhibit
 (EXHIBITS-NOT-FORCES, B1140) — B1270 derives that E₈ from the golden face, the fence stands as the transport's

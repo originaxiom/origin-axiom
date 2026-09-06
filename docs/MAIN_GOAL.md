@@ -130,3 +130,15 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   and on m004 the triplet is **one class** (b₁ = 1). **The count's only surviving route (B1253's h¹ = 3) is
   also the Yukawa's only route**, and both need a closing with an H³ (B1043's door) and a non-self-dual 3_ρ.
   E68 typed. THE_STATE §7's item 1 (W1/W2) is computed: N = 0.
+- **The fork on the object's own E₆ (B1272; THE_STATE §7 item 2).** The mirror — P = diag(1, −1), inner on the
+  golden 2I, the representative preserving ℤ[g] — is an outer involution of the two-face E₆ with Cartan
+  signature 3/3, hence (real-rank bound) the Cartan involution of the **split form E₆(6)**, not of E₆(−26):
+  **θ does not cross the fork**. It selects one zero-sum triple of the 27 (the SO(8) × U(1)² frame). B1270's
+  "θ = quaternion conjugation" corrected (E69: that map is the inversion).
+- **The object's own three-fold closing (B1273; the view from above, `docs/THE_VIEW_FROM_ABOVE_2026-09-06.md`).**
+  The 3-fold cyclic branched cover Y₃ is the flat Hantzsche–Wendt manifold (π₁ = F(2,6), H₁ = ℤ₄²); the object's
+  2T holonomy descends to it as **its own flat holonomy**, and h¹(Y₃; 3_ρ) = 3 for all 48 surjections — **three
+  generations = the three flat directions**, permuted by ℤ/3, with three mirrors (N = 0) and the programme's
+  first non-zero three-generation Yukawa. Its tree-level texture is zero-diagonal and obeys **m₁ ≤ m₂ + m₃**,
+  violated by the data by 136 / 43 / 17. Tree level is closed by theorems; the hierarchy, if the object has it,
+  is in the exponential sector (L201) or the attractor map (L202) — the two mechanisms named and not yet run.

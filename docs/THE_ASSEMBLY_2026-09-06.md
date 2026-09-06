@@ -19,7 +19,7 @@ along the manifold (the two faces, B1270–B1271), **a 4d N=1 E₈ theory with o
 (or E₆ with one 27 and one 27̄ under the 2T holonomy). The Standard Model's
 *form* — su(3)⊕su(2)⊕u(1)³ as an adjoint-Higgs landing site, the ℤ₆ global form, the hypercharge direction,
 sin²θ_W = 3/8 — is carried by the E₆ half of the chain (B892, B862, B864, B919, B1252) and is reproduced,
-not predicted. Its *contents* are walled by five theorems, four of them computed this session:
+not predicted. Its *contents* are walled by seven theorems, six of them computed this session:
 
 1. **No closed assembly is chiral in count** (B1260 (1), seen numerically in every cell of the spectrum law
    for the 27 *and the 27̄* — B1267).
@@ -39,6 +39,13 @@ not predicted. Its *contents* are walled by five theorems, four of them computed
    (27,3) × (27,3) is ε_ijk, and an antisymmetric family tensor on E₆'s symmetric cubic is no superpotential at
    all — every tree-level mass of the three 27s vanishes. The multiplicity route gives three generations and
    gives them no texture.
+6. **The object's mirror on its own E₆ is split** (B1272): derived from P = diag(1, −1) and reduced through the
+   two faces, it is an outer involution with Cartan signature 3/3, hence the Cartan involution of **E₆(6)**, not
+   of E₆(−26) — θ does not cross the fork; it selects one zero-sum triple of the 27 (the SO(8) × U(1)² frame).
+7. **The object's own 3-fold closing carries the three classes, and their texture is refuted** (B1273): the
+   3-fold cyclic branched cover Y₃ is the flat Hantzsche–Wendt manifold, the object's 2T holonomy descends to it
+   as its own flat holonomy, h¹(Y₃; 3_ρ) = 3 — one class per flat direction — with a **non-zero** Yukawa
+   d_abc 27₁27₂27₃ whose zero-diagonal texture obeys **m₁ ≤ m₂ + m₃**, violated by the data by 17–136.
 
 **E₆ itself is derived, not handed over** (B1270): the product of the two letters puts the object in the
 icosian E₈, the ratio cuts E₆ out of it as the complement of the Eisenstein plane, and the 27, its ℤ/3 and its
@@ -50,8 +57,9 @@ transport's choice of face — an H5 instance.) What remains to be *built* is a 
 ingredient: **a conical G₂
 geometry whose E₆ locus carries three isolated E₇ points permuted by ℤ/3 = 2T/Q₈** — B1084's three A₁ families,
 which every flat orbifold spreads into lines (B1259). That, the VEV values of the 27's two singlets for
-rank 6 → 4, a **symmetric** family tensor on the triplet for any mass, and the listener map I-13 for any value,
-are the whole remaining price (§7).
+rank 6 → 4, a **diagonal** source for the masses (the object's own closing has the three classes and a Yukawa,
+B1273, and its tree-level texture is refuted by an inequality), and the listener map I-13 for any value, are the
+whole remaining price (§7) — with the two mechanisms that could pay it named in `docs/THE_VIEW_FROM_ABOVE_2026-09-06.md`.
 
 ## 1. The chain — what the object forces (the self-referential half)
 
@@ -135,9 +143,16 @@ founding ratio — and as 4d fields it is the E₆ × SU(3) content of the one a
 matter triplet is choosing the Eisenstein orientation ω ↔ ω̄ — the corpus's chirality bit, supplied by a closing.
 **The multiplicity route gives three, vector-like, and (§4 below) gives them no Yukawa.**
 
+**q5 — the closing computed (B1273).** The object's own 3-fold cyclic branched cover Y₃ (flat, Hantzsche–Wendt,
+π₁ = F(2,6), H₁ = ℤ₄² as B326 counted) carries the object's 2T holonomy as its own flat holonomy, and
+h¹(Y₃; 3_ρ) = 3 for all 48 surjections — one class per flat direction, permuted by the deck ℤ/3 — with the mirror
+counted by 3 as well: **three generations, vector-like, on a closing the object supplies**, with a non-zero
+Yukawa. The E₈ theory on Y₃: e₆ ⊕ u(1)², 3 × 27 + 3 × 27̄ + 6 singlets, no adjoint chiral.
+
 **JOIN 1's disposition, in MAIN_GOAL's own currency:** *refuted* for every h¹ reading (the count is not a
 twisted Betti number of this manifold), *blocked by a named object* for the E₇-point route, *structural, with its
-mirror* for the multiplicity route (B1271).
+mirror* for the multiplicity route (B1271), and *computed, three, vector-like* on the object's own three-fold
+closing (B1273).
 
 ## 4. JOIN 2 — the values
 
@@ -173,6 +188,14 @@ identification of *shape* (P16's potential with A's dynamics), not a dynamical l
 The carrier — a 4d action with a kinetic term — remains the inserted choice B6 declared; the three unworked
 strata and the 23 S-matrix arcs remain the largest banked-but-unworked surface (`docs/STRATEGY_2026-09-05.md`).
 
+**B1272 — the fork on the object's own E₆ (THE_STATE §7 item 2).** The mirror, derived from P and reduced through
+the two faces, is an outer involution of the lattice E₆ with Cartan signature 3/3; by the real-rank bound it is
+the Cartan involution of the **split** form E₆(6) (𝔨 = sp(8)) and not of E₆(−26) (real rank 2). θ does not cross
+the fork. E₆(−26)'s involution is B576's f₄-grading — the automorphism commuting with the principal sl₂, in the
+representation frame — and the two frames' "θ on E₆" are identified only by I-25's unearned embedding. The
+object's lattice thus carries three real forms' involutions — D₂-type (inner), the mirror (split), and, through
+the principal sl₂, σ (F₄-type) — and B1138's "two of three" is a statement about three involutions of one E₆.
+
 ## 6. The assembly against the specification ledger
 
 | SM requirement (`docs/SM_SPECIFICATION_LEDGER.md`) | what the assembled chain gives | grade |
@@ -180,9 +203,9 @@ strata and the 23 S-matrix arcs remain the largest banked-but-unworked surface (
 | gauge algebra su(3)⊕su(2)⊕u(1) | su(3)⊕su(2)⊕u(1)³, rank 6, as the unique adjoint-Higgs landing (L7); the SM algebra itself is not a centralizer in e₆ (B1269); rank 6 → 4 by the 27's two SM singlets, ν^c and the SO(10) singlet, charge matrix of rank 2 (B1271 §3) | FORM reproduced; rank 6 → 4 reached as structure, the two VEV values not supplied |
 | global form | ℤ₆ (L8) | DERIVED |
 | one chiral generation with correct Y | the 16 ⊂ 27 with Y forced (L9) | REPRODUCED (standard GUT descent) |
-| three generations | no h¹ of the object is a net count (§3); **present as structure** — the (27,3) of the golden E₈, three 27s cycled by the founding ratio (B1271 §1) — with the mirror (27̄,3̄); a chiral count would be a number of E₇ points on a conical G₂ geometry not yet built | STRUCTURE present, with its mirror; net count WALLED / named object |
+| three generations | no h¹ of the object is a net count (§3); **present as structure** — the (27,3) of the golden E₈, three 27s cycled by the founding ratio (B1271 §1) — with the mirror (27̄,3̄); **computed on the object's own 3-fold closing: h¹(Y₃; 3_ρ) = 3, one class per flat direction, with three 27̄s** (B1273); a chiral count would be a number of E₇ points on a conical G₂ geometry not yet built | STRUCTURE present, THREE on the closing, with its mirror; net count WALLED / named object |
 | Higgs sector and EWSB | the adjoint half exists (the cascade); the 27 half — the doublets in the 10 of the 27 (B1253 §2, B987) and their potential — has no source in the object (B978/V5: the 78 does not occur in 27⊗27, so no adjoint VEV gives a 27 fermion a mass) | ABSENT as a mechanism, present as representation content |
-| Yukawa couplings and masses | the 10·16·16 support (45 = 40 + 5, B1271 (d)); on the triplet the family tensor E₈ forces is ε_ijk, so the tree-level Yukawa is **zero** (B1271 §5); the value layer's HIER cubic (L12) is not a flavour index (I-24); 0 of 19 numbers (B1261) | STRUCTURE present, VALUES forced ZERO on the triplet — the named missing object: three classes h¹(Q; 3_ρ) = 3 with an H³ target (B1253's route through B1043's door) |
+| Yukawa couplings and masses | the 10·16·16 support (45 = 40 + 5, B1271 (d)); on the triplet the family tensor E₈ forces is ε_ijk, so the tree-level Yukawa is **zero** (B1271 §5); the value layer's HIER cubic (L12) is not a flavour index (I-24); 0 of 19 numbers (B1261) | STRUCTURE present, VALUES forced ZERO on the triplet; on the object's own closing a non-zero Yukawa whose tree-level texture obeys m₁ ≤ m₂ + m₃, refuted by 17–136 (B1273) — the named missing object is now a DIAGONAL source (non-tree-level; the exponential sector, L201) |
 | θ̄, neutrino masses, CKM/PMNS | I-18 sharpened to θ not θ̄ (B1246); Dirac-neutrino support in the 16, no Majorana term in the E₆ cubic (B1271 (d)), the tree-level Dirac mass zero with the rest (B1271 §5); no values | ABSENT as values |
 | a 4d action | B6's potential on no carrier; the canonical 4d theories are §2's (U(1)⁴ vector-like; F₄ SYM; N=2\*) | ABSENT as the SM's; PRESENT as the object's own |
 
@@ -201,7 +224,7 @@ strata and the 23 S-matrix arcs remain the largest banked-but-unworked surface (
    U(1)s (charge matrix of rank 2); what is still not supplied is their VEV values. This is B955/B962/B964's
    route (two rank-1 27 VEVs plus the adjoint) made explicit on B1252's descent; the pair's *orbit* is
    distinguished by the object's cubic K (B969, L138), the point within it free.
-3. **The listener map (I-13) — and, for the masses, a symmetric family tensor.** Every value in §6 routes
+3. **The listener map (I-13) — and, for the masses, a symmetric family tensor, now a diagonal source.** Every value in §6 routes
    through I-13 (B1241, B1261). B1271 names the object the masses need before any value: a *symmetric* family
    tensor Y^{(ijk)} on the generation triplet, since the one E₈ supplies is antisymmetric and gives W ≡ 0 —
    concretely **three cohomology classes** h¹(Q; 3_ρ) = 3 with a non-zero triple product (an H³-bearing
@@ -218,5 +241,7 @@ strata and the 23 S-matrix arcs remain the largest banked-but-unworked surface (
 | **B1269** | the transports; every centralizer; the double-centralizer theorem; the adjoint and finite-image spectra; the 2T quotients (scope of §1 corrected by its addendum) | `tests/test_b1269_transport.py` |
 | **B1270** | E₆ from the two faces: the icosian E₈, the founding ratio's Eisenstein plane, E₆ as its complement with the 27, ℤ/3 and θ; the E₈ transport's counts on m004 | `tests/test_b1270_e6_from_the_two_faces.py` |
 | **B1271** | the chain taken all the way: the (27,3) triplet and its family tensor ε_ijk on the icosian E₈; the 27's two singlets and the rank reduction 6 → 4; W ≡ 0 on the triplet; the cubic's SO(10) content 45 = 40 + 5 | `tests/test_b1271_the_chain_all_the_way.py` |
+| **B1272** | the object's mirror on the two-face E₆: derived from P mod 5, outer, Cartan signature 3/3, the real-rank bound → E₆(6); the inversion and the ratio; the zero-sum triple; the sl₂ mirror search | `tests/test_b1272_theta_on_the_two_face_e6.py` |
+| **B1273** | the 3-fold cyclic branched cover by Reidemeister–Schreier; H₁ = ℤ₄² and the F(2,6) fingerprint; the descent of all 48 holonomies with h¹ = 3 and the three characters; the zero-diagonal bound against the data | `tests/test_b1273_the_three_fold_closing.py` |
 | B1260, B1259, B1086, B1036, B1252, B1253, B1255, B1256, B1257, B1261, B1263 | as cited | their own locks |
 | `scripts/external_verification/` | the spine (18/18), the Menal-Ferrer–Porti law over two primes, W1/W2, PSL(2,7), the extension | run records in `docs/EXTERNAL_VERIFICATION_2026-09-06.md` |
