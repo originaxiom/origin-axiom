@@ -1,5 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**PHYSICAL CONTINUATION R9 (2026-09-06): a positive leading-log alignment result.**
+The exact soft gauge/Weyl fourth traces on all eight real Higgs variables
+give a neutral-favoring logarithm in the chosen weak-coupling family. Its
+coefficient is 6 gW^2 gY^2+16 y^4, and the previously flat charged pair has
+a positive leading-log restoring contribution. All 19 resummed scalar
+modes are retained and are orientation-independent at this order. The
+complete light-Higgs invariant basis also retains a finite alignment
+operator: its hard matching coefficient remains to be computed for the
+specified action, not presumed arbitrary or zero. No finite-point vacuum
+selection or TOE is claimed. Eight new tests pass; combined regression
+107 passed, 3 preserved earlier failures. Source and next finite task:
+`reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md`.
+
 **PHYSICAL CONTINUATION R8 (2026-09-06): leading broken minima and full spectra.**
 The complete 19-field light EFT is now solved with heavy exchange and a fresh
 full one-loop curvature matrix. A neutral minimum preserves actual color/EM;
@@ -8,8 +21,8 @@ two physical scalar zeros. The neutral full fermion rank is 27, not the
 rank-16 leading projection: the smaller seventeenth light mass is retained.
 The full classical phase is checked along with its nonzero color anomaly.
 Eight new tests pass; combined quiescent regression 99 passed, 3 preserved
-earlier instrument failures. Next: higher-order orientation selection,
-counterterm/input closure and full matching, not a completed TOE claim.
+earlier instrument failures. R9 above computes the leading infrared part
+of orientation selection; finite matching remains, not a completed TOE claim.
 Source: `reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md`.
 
 **LATEST AUDIT (2026-09-06): recovered reduction and a fixed-space scope correction.**

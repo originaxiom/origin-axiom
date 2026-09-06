@@ -14054,3 +14054,44 @@ adds no provenance defect. All 86 then-listed latest-path artifact hashes
 match and generated views are already current. Captured gate output:
 `reports/physical_bridge_2026_09_05/BROKEN_VACUUM_GATES.txt`; the earlier
 failure sources are retained in FAILURES.md, not weakened or overwritten.
+
+## 2026-09-06 — R9: the exact leading infrared alignment logarithm is positive
+
+Continued R8's relative-Higgs orientation question. Fresh fetch reached
+origin/main 00f4fabe and ten heads; the bounded topic search is PRESENT,
+not an absence proof. Relevant frame/dictionary and Higgs-source results
+are preserved, not rebranded as this action's loop calculation. New unrelated
+upstream work is not merged/certified. Primary hard/soft and tadpole-matching
+literature informed the bounded scope before execution.
+
+Design/code/eight tests sealed together at dac87d46, both literal provenance
+markers checked, before scientific execution. First run succeeds in 4.87 s.
+Exact all-eight-real-field matrix identities give the relative-orientation
+supertrace coefficient 6 gW^2 gY^2+16 y^4 = 23/80 at the stated couplings.
+Its epsilon^4 log(epsilon) term favors the neutral orientation. The full
+resummed scalar spectrum is independent of that orientation, and the
+constrained charged pair gets positive logarithmic curvature. The phase
+remains flat at this order, with R8's anomaly still explicitly retained.
+
+Complete polynomial invariant kernels through degree four are 0,2,0,4;
+the finite alignment operator is allowed. Its hard coefficient remains
+uncomputed, not presumed zero or intrinsically arbitrary for a specified
+UV action/renormalization prescription. Finite sensitivity controls are
+kept separate from the model. The result is conditional asymptotic progress,
+not full finite matching, finite-point vacuum selection or a TOE.
+
+All eight new tests pass in 5.89 s. Combined quiescent regression returns
+107 passed, 3 failed in 94.59 s: the preserved original G2 exporter and R7
+small-step controls, with their separate repairs passing. No files changed
+during scientific/test runs; no original source/tolerance was rewritten.
+Full output, transcript and next finite-matching task:
+`reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md`. Results propagated
+to the front door, framework, live leads and law index; local only, no push.
+
+R9 staged reporting gates: 27 pass, 3 fail, unchanged inventory attribution,
+R6 static-vacuity classification and four earlier seal-marker paths. R9
+adds no provenance failure; the review-due warning remains visible. All
+93 then-listed latest-path hashes match; generated views are current.
+Captured output: `reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT_GATES.txt`.
+The gate receipt and these final notes postdate that run; a final hash check
+precedes the local reporting commit. No old failure was hidden or weakened.

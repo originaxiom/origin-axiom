@@ -29,6 +29,16 @@ its derivation from the object or an earned identification with the
 E6(-26) geometry. Source, tests and remaining selection/matching duties:
 `reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md`.
 
+**R9 follow-through, 2026-09-06:** the exact leading infrared logarithm
+favors the neutral relative-Higgs orientation in that action's stated
+weak-coupling family. The charged pair acquires a positive logarithmic
+restoring term. The remaining finite alignment coefficient is retained
+in the complete light-Higgs operator basis and still needs matching;
+uncomputed does not mean unknowable for a fixed UV prescription. This is
+a conditional asymptotic result, not a finite-point selection certificate
+or an earned source/action identification. Source and live locks:
+`reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md`.
+
 **Motivation, stated plainly, per the programme's own policy** (*the firewall is for
 sobriety, not for silence*): the thesis is that **reality emerges from the four-letter
 combination principle aAbB**. This document assembles the mathematics that bears on it.

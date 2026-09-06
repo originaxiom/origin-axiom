@@ -12,8 +12,11 @@
 > scalar potential. [Recovered steps](reports/physical_bridge_2026_09_05/RECOVERED_PHYSICAL_STEPS.md).
 > The subsequent [leading broken-vacuum calculation](reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md)
 > now admits color/EM-preserving minima and retains the complete fermion masses;
-> charge-breaking minima are degenerate at this order. Existence is computed,
-> physical vacuum selection and the source/action identification remain open.
+> charge-breaking minima are degenerate at that leading order.
+> [R9's next logarithmic term](reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md)
+> favors the neutral orientation asymptotically in the chosen weak-coupling
+> family. Finite vacuum selection still needs matching; the source/action
+> identification remains open.
 
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** The window (B1201–B1218) is the one where **the record audited itself**. A sweep of the live surfaces found **seven banked results being asserted as open** — the A2 stratum, the hypercharge direction and the spin lift all priced *free* against arcs that had assigned them; L175 counted open on two surfaces against a PROVED closure; L57 asserting a question a NEGATIVE had answered. **≈8.5 bits of phantom freedom removed, and the discrete freedom ledger closes to exactly {C, P}** — two relational bits, neither a selection from a menu. New error class **E53 (surface non-propagation)**; new instrument `scripts/checks/open_claim_sweep.py`. Suite 5745 green.
 

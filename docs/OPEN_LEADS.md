@@ -2388,6 +2388,22 @@ order. Deriving the action/inputs and gravity are separate duties.
 Source: `reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md`;
 locks: `tests/test_physical_bridge_broken_vacuum.py`.
 
+**R9 progress — a neutral-favoring leading logarithm is now computed.**
+Exact polynomial traces from the actual EW gauge matrix and 17-component
+mixed Weyl kernel give 6 gW^2 gY^2+16 y^4 as the orientation coefficient,
+23/80 at the chosen couplings. With log(epsilon)<0 it favors eta=1 in
+the declared asymptotic weak-coupling family and gives a positive restoring
+term to the charged pair. All resummed scalar modes and the surviving
+phase are retained. PB-VACUUM next requires the **finite** hard alignment
+term, field-dependent normal response and triplet relaxation for the
+specified action. The full light-Higgs invariant basis has dimensions
+0,2,0,4 at degrees 1..4 and includes the alignment operator; its finite
+coefficient is not assumed zero, intrinsically arbitrary or derived from
+the object. This does not yet select a vacuum at either R8 epsilon, compare
+all high branches, match pole masses or close the full physical-theory goal.
+Source: `reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md`;
+locks: `tests/test_physical_bridge_infrared_alignment.py`.
+
 **PB-EVIDENCE — original clean-clone inputs. OPEN.** The full f06d3405 suite
 exposed B1062/B1063 missing logs, B1137 missing real/null grids, and B646's
 eight missing logs plus one cached-bytecode artifact. Exact paths, original

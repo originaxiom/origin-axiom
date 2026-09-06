@@ -12,7 +12,17 @@ a theorem about all enhancement strata. Exact subgroup controls preserve
 B1084's geometry and expose the quantifier gap; no chiral matter is derived.
 Its first exporter failure and separately sealed successful rerun are retained.
 
-**Latest physical result:** [R8's leading broken-vacuum theory](BROKEN_VACUUM.md)
+**Latest physical result:** [R9's leading infrared alignment logarithm](INFRARED_ALIGNMENT.md)
+favors the neutral orientation in the stated weak-coupling limit. Exact
+all-complex-field traces give 6 gW^2 gY^2+16 y^4, or 23/80 at the chosen
+reference couplings; log(epsilon) is negative. The charged pair that was
+flat in R8 gets a positive leading-log restoring contribution. The
+complete light-Higgs invariant basis retains an allowed finite alignment
+term, so **finite matching is still required** before either earlier
+parameter point has a full vacuum-selection verdict. This is conditional
+progress in the chosen action, not source-derived physics or a TOE.
+
+**The preceding result:** [R8's leading broken-vacuum theory](BROKEN_VACUUM.md)
 is computed over all 19 physical light fields, including heavy exchange and
 the complete light quantum curvature. Neutral minima preserve actual color
 and electromagnetism, but charge-breaking minima have equal leading energy.
@@ -48,8 +58,8 @@ classical minimum with the SM gauge algebra, actual mixed fermion masses, and
 a full Hessian exposing eleven non-gauge scalar zero modes. The action and
 its parameters remain chosen inputs; its low-energy spectrum is not R2's.
 The same potential also admits a verified non-SM classical minimum. The
-latest combined focused run has **99 passed, 3 failed**, including all eight
-new R8 tests, the five B1255 tests, G2/export controls, four original B1084
+latest combined focused run has **107 passed, 3 failed**, including the eight
+new R9 tests, all R8 tests, the five B1255 tests, G2/export controls, four original B1084
 locks and three B1105 scope checks. Failures are the preserved original G2
 exporter test and the two R7 small-step controls; their separately sealed
 repairs pass. Archive and publication-gate failures remain
@@ -78,8 +88,10 @@ python3.12 -m pytest tests/test_physical_bridge_vacuum.py tests/test_physical_br
 python3.12 -m pytest tests/test_physical_bridge_upstream.py tests/test_physical_bridge_quantum_vacuum.py tests/test_physical_bridge_quantum_derivative.py -q -p no:randomly
 python3.12 -m pytest tests/test_physical_bridge_quantum_result.py -q -p no:randomly
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_broken_vacuum.py -q -p no:randomly
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_infrared_alignment.py -q -p no:randomly
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge*.py tests/test_b1255_generation_type.py -q -p no:randomly
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m reports.physical_bridge_2026_09_05.broken_vacuum --output /tmp/oa-broken-vacuum-new-run.json
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m reports.physical_bridge_2026_09_05.infrared_alignment --output /tmp/oa-infrared-alignment-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.vacuum --output /tmp/oa-vacuum-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.vacuum_orientation --output /tmp/oa-vacuum-orientation-new-run.json
 python3.12 -m reports.physical_bridge_2026_09_05.run_audit --output /tmp/oa-crossing-new-run.json
@@ -95,11 +107,14 @@ from these focused checks; a partial run is never reported as green.
 ## Continuation contract
 
 Do not restart by assuming either that the program has no dynamics or that its
-physical interpretation has been proved. Continue from BROKEN_VACUUM.md:
+physical interpretation has been proved. Continue from INFRARED_ALIGNMENT.md:
 the full leading light potential, neutral/charged minima, actual stabilizers,
-all spectra and phase/anomaly control are computed, not queued. Next evaluate
-the first nonzero relative-Higgs orientation potential with complete
-heavy-field response, loop/counterterm treatment and all residual modes.
+all spectra and phase/anomaly control are computed, not queued. The leading
+infrared orientation logarithm and charged-pair lifting are now computed too.
+Next evaluate the finite hard alignment term for the existing action,
+including field-dependent normal response and triplet relaxation; use
+R9's logarithm as an independent control. Uncomputed matching is not
+intrinsic arbitrariness once the UV action/prescription is fixed.
 Retain the smaller seventeenth light fermion mass when improving matching.
 The action and its inputs remain to be derived. PHYSICAL_MODEL.md's exact mass
 requirement applies to its own earlier spectrum, not automatically to R4.

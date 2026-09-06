@@ -214,3 +214,29 @@ both required literal fields and does not add a provenance failure. All
 Captured gates: BROKEN_VACUUM_GATES.txt. The transcript/reporting hashes are
 added afterward, with a fresh final hash check before the local commit.
 This remains a local research checkpoint, not publication/full-suite green.
+
+## R9: successful first execution; no new test or governance failure
+
+The pre-sealed R9 first scientific execution succeeds in 4.87 s. All eight
+new tests pass in 5.89 s; the combined quiescent regression returns 107
+passed and three failed in 94.59 s. The failures remain the original G2
+NumPy-key exporter and both original R7 small-step controls, with separately
+sealed repairs passing. No original source, test or tolerance was changed;
+no skip or xfail was added. Complete first output and failed-test traces:
+INFRARED_ALIGNMENT_CHECKS.txt.
+
+The staged reporting gates return 27 pass, 3 fail: the existing inventory
+attribution finding, R6 static-vacuity classification and four earlier
+seal-marker omissions listed above. R9 adds no provenance failure. The
+review-due warning also remains visible; this is not a decadal review.
+All 93 then-listed latest-path hashes match and generated views are already
+current. Captured gates: INFRARED_ALIGNMENT_GATES.txt. These final notes and
+the gate transcript/hash are added afterward and are not covered by that
+earlier staged gate run. A final artifact-hash check follows before the
+local commit. No full-suite green, publication readiness or push is claimed.
+
+Final latest-path artifact check: 94 hashes, zero mismatches. The staged
+diff whitespace check flags only pytest's verbatim trailing spaces in
+INFRARED_ALIGNMENT_CHECKS.txt; these raw evidence bytes are deliberately
+retained, not silently reformatted. The sealed R9 design, source and tests
+have no diff from dac87d46.

@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-09-06 — R9: the next logarithm favors the neutral Higgs orientation
+
+Sealed dac87d46 before execution. Actual all-complex-field gauge and Weyl
+fourth traces give 6 gW^2 gY^2+16 y^4, or 23/80 at the chosen reference
+couplings. The epsilon^4 log(epsilon) contribution favors neutral alignment
+in the declared weak-coupling limit; the charged pair gets positive leading
+logarithmic curvature. All 19 resummed scalar modes are retained. Exact
+light-Higgs invariant kernels through degree four preserve an allowed
+finite alignment operator, whose matching coefficient remains to be
+computed for the fixed UV prescription. No finite-point selection, complete
+matching or TOE is claimed. Source: `reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md`.
+
+First run succeeds in 4.87 s; 8 new tests pass in 5.89 s. Combined checks:
+107 passed, the same 3 preserved earlier failures, in 94.59 s. Old source
+bytes and first outputs remain; no tolerance relaxation or source rewrite.
+
 ## 2026-09-06 — R8: broken minima computed; the smaller fermion mass is retained
 
 Sealed at 6a02639d before execution. The entire 19-field leading EFT includes
