@@ -4985,15 +4985,15 @@ blocking physics.** Every genuine loss this window was **coverage**, not release
 
 ### Action items (Review 54)
 
-- [ ] **R54-1: replace the length proxy.** Screen `representation_sweep` on something structural —
+- [x] **R54-1: replace the length proxy.** RESOLVED BY DOCUMENTED REFUSAL (Review 55): the floor is declared a gate threshold in-file, `coverage_candidates.py` compensates, and the in-degree screen was TRIED and rejected on evidence. The two untried candidates carry as R55-1. Screen `representation_sweep` on something structural —
   `depends_on` in-degree, verdict class, `creates_law` — not on how many characters the author typed.
   (owner: banking seat)
-- [ ] **R54-2: give the chain a coverage CRITERION, not a pin list.** `CHAIN_COVERAGE.json` is
+- [>] **R54-2: give the chain a coverage CRITERION, not a pin list.** CARRIED as R55-2 (Review 55): `_criterion` exists and is real, but `citation_status.py:131` still reads the pin list alone, so nothing mechanical decides. `CHAIN_COVERAGE.json` is
   hand-maintained; it caught the genesis theorem only because someone looked. (owner: banking seat)
-- [ ] **R54-3: split `relay_debt`'s "open"** into inbound (our debt) and outbound (awaiting reply).
+- [>] **R54-3: split `relay_debt`'s "open"** CARRIED as R55-3 (Review 55): unmodified in the window; the number grew 45 → 47, still merged. into inbound (our debt) and outbound (awaiting reply).
   Today's actionable number was 3, reported as 45. (owner: banking seat)
-- [ ] **R54-4: sampled disposition pass on the 154** unrepresented short arcs — sample, do not grind.
-- [ ] **R54-5: the time-indexed-source question** — E58 clause or its own class. **(owner)**
+- [>] **R54-4: sampled disposition pass on the 154** CARRIED as R55-4 (Review 55): re-scoped by measurement ("the backlog is 9, not 154") but NOT executed — no arc received a disposition. unrepresented short arcs — sample, do not grind.
+- [x] **R54-5: the time-indexed-source question** RESOLVED (Review 55): E58 gained its clause, with a lock. — E58 clause or its own class. **(owner)**
 - [>] **R54-6: cc3's PAPERS I–IV are drafted and building** (0 overfull, 0 undefined refs, each with a
   reproducer and register appendix), open since **2026-08-26**. **Venue, order and arXiv endorsement
   are owner-gated.** **(owner)**
@@ -5003,3 +5003,162 @@ blocking physics.** Every genuine loss this window was **coverage**, not release
   that survives every audit by being unfalsifiable · **R53-6** owner-electable under the standing HOLD (ex-**R52-6**, ex-R51-6, ex-R50-7; unchanged).
 
 **Next review due after 20 merges from this anchor.**
+
+---
+
+## Review 55 — the instruments the greens rest on (window `c0e9a4a0` → `be6f4cab`, 102 merges)
+
+**Ran by:** cc (banking seat). Evidence gathered by a six-lane read-only fan-out; **every judgment,
+repair and verdict below is the seat's**, per B1216 (fan-out at corpus judgment scored *zero rows
+deleted, one regression*).
+
+### 1. The loop — Review 54's action items
+
+| item | verdict | evidence |
+|---|---|---|
+| **R54-1** replace `representation_sweep`'s length proxy | **RESOLVED BY DOCUMENTED REFUSAL** | `CLAIM_FLOOR = 500` still stands, but B1247 declared it *"a gate threshold, not a measure"* in-file, built `coverage_candidates.py` as a compensating reporter, and **tried the in-degree screen and rejected it on its own evidence** (the motivating seam family has in-degree 1–2). The two other candidates the item named — `verdict class`, `creates_law` — were **never tried**. → **R55-1** |
+| **R54-2** chain coverage **criterion**, not a pin list | **CARRIED** | `_criterion` is real and names a runnable feeder, but `citation_status.py:131` still reads `must_appear_in_chain` alone, and the criterion's own text hands the decision to *"the decadal review."* → **R55-2** |
+| **R54-3** split `relay_debt`'s "open" | **CARRIED** | no first-parent commit to the file in the window; zero `inbound`/`outbound` tokens in `scripts/` or `tests/`; the number **grew 45 → 47**, still merged. → **R55-3** |
+| **R54-4** sampled disposition pass on the 154 | **CARRIED — re-scoped, not executed** | B1247 re-ranked (*"the backlog is 9, not 154"*), but **no arc received a disposition**; 7 of the 10 queue arcs have no triage row, and `REPRESENTATION_TRIAGE.md` says *"the short-claim-lane detector fix remains owed."* → **R55-4** |
+| **R54-5** the time-indexed-source question | **RESOLVED** | E58 gained its clause, with a lock. |
+| **R54-6**, **R53-1/2/4/5/6**, **R52-5** | **carried untouched** | → **R55-5** |
+
+**Correction to Review 54's own record:** it **skipped template item 6 entirely and omitted its
+`anchor-commit:` trailer** — which is why `review-due` counted **102** merges from *Review 53's*
+anchor. **This review covers two windows** and closes that gap.
+
+### 1b. Branch inventory (B763 rule)
+
+33 unmerged refs across **five** remotes. **Live** — the **physics seat's** branch (fc;
+pushed today, harvested at B1293) and the **SM-derivation seat's** branch ( pushed
+today, harvested at B1293). **Frozen-record** — `codex/seat-r001` (head R040, harvested at
+B1238/B1239), `paper/structure-genesis-first` (cc3's Papers I–IV, owner-gated),
+`audit/b775-braver-questions`, the qor5up branch (window closed), the outside-bench branch.
+**Not this repo** — every `golden_gate/*` and `live_golden/*` ref belongs to a **different
+repository** (`originaxiom/golden_gate`), dependabot branches included; struck from the inventory.
+**Zero unclassified. PASS.**
+
+### 2. Declared modulus
+
+**Sampled:** all six required-core lanes over the window. **Read in full:** every arc banked today
+(B1290–B1293), `RETRACTED_PHRASES.md`, `THEOREM_REGISTRY`'s Tier-3 table, R54's action block,
+`retraction_sweep.py`, the supersession gate. **Skimmed:** the 102-merge log; LAW_MAP's 209 rows
+(11 opened against their arcs). **Re-run here:** the retraction sweep before and after repair, all
+31 gates, the supersession gate, the parity census, the 2T surjection counts. **Trusted-green, not
+re-run:** the full suite from the B1291 window (6178 passed). **Cannot certify:** the SM seat's
+vacuum-manifold scan and fc's icosian 4→1 collapse (both carried as harvest at B1293); LAW_MAP's 76
+status-less rows; SEAL_LEDGER's 30 unchecked digests.
+
+### 3. Advancement
+
+**LAW_MAP recorded ZERO advancement: 209 rows at both ends, diff = 3 insertions / 3 deletions, all
+in-place corrections.** No new row, no promotion, no demotion — and **no LAW_MAP row cites any arc
+above B1242.** Advancement landed in `THEOREM_REGISTRY` (9 `creates_law` arcs → 9 rows) and the
+identification ledger (I-20/21/22 EARNED; I-9, I-24 REFUTED).
+
+**Two structural facts explain the zero and matter more than it does.** (a) `BANKING_PROTOCOL`
+requires a LAW_MAP row only for **non-instrument** arcs and `representation_sweep` skips them — and
+**all 26 arcs B1247–B1277 declare `instrument: true`**, exempting the whole window from the surface
+gate and disarming the under-declaration detector. (b) **The strength-class column covers about half
+the file**: **76 of 209 rows have no status column at all** (§F: 53 of 54).
+
+**Status exceeding evidence — one found: `LAW_MAP:64` (H-CUSP).** B1242's correction landed in the
+statement column while the **status column still asserts the refuted clause**. → **R55-6**
+
+### 4. Error-class recurrence
+
+**Ten classes minted this window (E58–E67)** against **E1–E57 across the seven weeks before** — the
+rate is itself a finding. **The dominant recurrence is none of them: it is E53 (surface
+non-propagation), fifteen numbered instances (#8–#22)** plus a dozen the seat labels "E53's shape,"
+including **B1290's 36 silently superseded arcs**.
+
+**E53 recurred inside this review, in my own hand, twice.** The **B1291 registry row still said
+"unrun"** of a computation B1292 ran the same day — I corrected the kill graph and the FINDINGS and
+not the registry; and **B1187 / B189's addendum carried a retracted phrase for nine days**.
+*What standing rule would have caught it:* one that enumerates **every** artifact carrying a claim
+before a correction is called done — kill graph, FINDINGS, **registry**, surfaces. → **R55-7**
+
+**Catch channel, recorded honestly:** by the ledger's own wording **E59, E62, E64, E65, E66 and E67
+were triggered by the owner, a peer seat, or a commissioned adversarial lane**; only E60, E61 and
+E63 came from the bench's own controls — and E63 *"only after the claim had been stated."*
+
+**Unfiled:** E53 instance **#10** (numbering jumps #8–#9 → #11–#12); the six-way **arc-ID collision**
+(second occurrence, no class); **overloaded-term traps** (`face` at six live senses, κ at five);
+**cross-seat priority** (*"main's B1290 was second"*). → **R55-8**
+
+### 5. Provenance spot-sweep
+
+**Strong pretense patterns: CLEAN.** Every hit on *peer review / externally verified / accepted for
+publication* is either the §0 disclaimer or a literature reference.
+
+**But a new ungrounded family entered: 11 instances of "an external reviewer / reader / audit", all
+added this window, none carrying §0's grounding**, and `TERMINOLOGY.md` contradicts itself (line 72
+records the phrase retired in favour of *"the audit seat"*; line 324, added this window, uses it).
+The direction is safe — every instance credits an outsider with finding an **error**, never with
+endorsing a positive — but **nothing mechanical enforces the phrase list**: no gate, no test scans
+for it. → **R55-9**
+
+**`papers/P3_THE_PAPER/main.tex` carries no verification-provenance statement**, unlike
+`papers/structure_paper/SKELETON.md`. → **R55-10**
+
+**Unglossed load-bearing terms:** *dividing set, parity theorem, listener map, founding ratio*. →
+**R55-11**
+
+### 6. The §5.1 promotion sweep *(owed for two windows — Review 54 ran none)*
+
+**Zero §5 promotions:** `CLAIMS.md`, `LAW_MAP.md`, `THEOREM_LEDGER.md`, `OPEN_LEADS.md` are
+byte-identical across the sub-window. Two `THEOREM_REGISTRY` rows moved (B1248, B1291). **Two strong
+candidates sit unpromoted: B1259 and B1260 §1.** → **R55-12**
+
+### 7. Protocol integrity — the review's headline
+
+**31/31 gates PASS and all 49 recorded seal digests verify.** The greens were thinner than they read.
+
+- **REPAIRED — `retraction_sweep` parsed 9 of the registry's 21 rows.** The gate that *certifies
+  retraction discipline* was blind to **12 phrases for nine days**. Widened to both table formats
+  (**17 phrases**). **The naive widening was wrong twice and I caught both by running it:** sweeping
+  `sin²θ_W = 3/8` reds ~25 **correct** uses (only the *selecting* reading was retracted), and
+  sweeping `mirror-odd` reds B1168/B1169 (the term is correct for the **orientation** bit). **Rule
+  adopted: take the phrase only when the tail is empty or parenthetical; when a row retracts a
+  READING, the bare phrase stays legitimate.** The repaired sweep then found **2 genuine live
+  uses** — B1187's own FINDINGS and B189's addendum — **both corrected at source** — plus one
+  legitimate mention (B1188's correction banner), taught to the cue list.
+- **REPAIRED — `supersession-backlinks`, minted this window by me, skipped a malformed forward
+  edge.** B239 declares `"supersedes": "B234, B235"` — one string, two ids; the gate looked for an
+  arc of that literal name and **silently exempted both**. It now splits on commas; **B234 and B235
+  back-linked, verdicts untouched.**
+- **REPAIRED — my B1291 registry row called a RUN computation "unrun."** Also annotated as the
+  registry's **first row whose arc verdict is NEGATIVE while the theorem status is PROVED** (a no-go
+  can be proved; the column tracks the theorem). The other 8 rows are PROVED/PROVED.
+- **OPEN — `gate_seal_provenance` is green while four post-2026-08-08 preregs (B1102, B1104, B1137,
+  B1244) carry neither required marker**: it iterates ledger rows, not preregistrations. **E66's
+  shape.** → **R55-13**
+- **OPEN — `SEAL_LEDGER.md`'s generated table is ~530 arcs stale** (highest arc B764; 291 sealed docs
+  on disk, 196 rows) **and no gate watches it.** → **R55-14**
+- **OPEN — `gate_seal_digests` recomputes 19 of 49 digests (39%)** against a docstring saying it
+  recomputes every one. → **R55-15**
+- **OPEN — 6 of 31 gates have a planted-violation test; 20 have no test at all.** → **R55-16**
+
+### Action items (Review 55)
+
+```
+### Action items (Review 55)
+- [ ] R55-1: try `verdict class` and `creates_law` as representation_sweep screens -- the two R54-1 named and nobody tested (owner: cc; source: R54-1)
+- [ ] R55-2: make CHAIN_COVERAGE's _criterion machine-read; citation_status.py:131 still reads the pin list alone (owner: cc; source: R54-2)
+- [ ] R55-3: split relay_debt's "open" into inbound/outbound (owner: cc; source: R54-3, now 47)
+- [ ] R55-4: give the 10-arc in-degree queue actual dispositions; fix the short-claim-lane detector (owner: cc; source: R54-4)
+- [>] R55-5: cc3's Papers I-IV owner-gated since 2026-08-26 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6 -- the cross-seat-waits item has been carried since Review 50 under four earlier keys; Review 55's first draft dropped them and the review-actions gate caught the silent drop, twice, which is exactly what it is for)
+- [ ] R55-6: LAW_MAP:64 H-CUSP status column asserts a clause B1242 refuted (owner: cc; source: advancement lane)
+- [ ] R55-7: a correction is not done until EVERY artifact carrying the claim is updated -- kill graph, FINDINGS, registry, surfaces; make it a checklist a gate can read (owner: cc; source: E53 x2 in this review)
+- [ ] R55-8: file E53 instance #10; mint classes for the arc-ID collision, overloaded-term traps, and cross-seat priority (owner: cc)
+- [ ] R55-9: ground or retire the 11 "external reviewer/reader/audit" instances; reconcile TERMINOLOGY:72 vs :324; add a gate for the pretense phrase list (owner: cc; source: E10)
+- [ ] R55-10: papers/P3_THE_PAPER/main.tex needs a verification-provenance statement (owner: cc)
+- [ ] R55-11: gloss "dividing set", "parity theorem", "listener map", "founding ratio" in TERMINOLOGY.md (owner: cc)
+- [ ] R55-12: process B1259 and B1260 section 1 through 5.1, or defer with the blocker named (owner: cc)
+- [ ] R55-13: gate_seal_provenance must iterate PREREGISTRATIONS, not ledger rows -- 4 seals are unmarked and green (owner: cc)
+- [ ] R55-14: regenerate SEAL_LEDGER.md (~530 arcs stale) and put it under a currency gate (owner: cc)
+- [ ] R55-15: gate_seal_digests recomputes 19 of 49 -- make it match its docstring or fix the docstring (owner: cc)
+- [ ] R55-16: 20 of 31 gates have no test, 25 have no planted violation; start with the certifying gates (owner: cc; source: E66/E67)
+```
+
+**anchor-commit: `be6f4cab`**

@@ -1125,8 +1125,17 @@ def gate_supersession_backlinks():
         seen[i] = d
         s = d.get("supersedes")
         if s:
-            for tgt in ([s] if isinstance(s, str) else s):
-                claims.setdefault(tgt, []).append(i)
+            # A forward edge may be a list, a single id, or -- B239 -- ONE STRING HOLDING TWO IDS
+            # ("B234, B235"). Review 55 found the gate silently skipping that row: it looked for an
+            # arc literally named "B234, B235", found none, and took the not-in-corpus branch,
+            # leaving two arcs unmarked. Split on commas/whitespace so a malformed edge is still
+            # enforced rather than silently exempted -- a gate that skips what it cannot parse is
+            # E66's shape, and this gate was minted the same day E66 was.
+            raw = [s] if isinstance(s, str) else list(s)
+            for chunk in raw:
+                for tgt in re.split(r"[,\s]+", str(chunk).strip()):
+                    if tgt:
+                        claims.setdefault(tgt, []).append(i)
     silent = []
     for tgt, by in sorted(claims.items()):
         if tgt not in seen:          # forward edge points outside the corpus -- not this gate's business
