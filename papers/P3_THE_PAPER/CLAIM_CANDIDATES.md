@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1086 settled arcs — 76%** —
+the field is **absent on 828 of 1087 settled arcs — 76%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (85) ∪ on-a-synthesis-surface ∪ law-vocabulary (115) = 515 arcs.**
+**POOL = declared-law (86) ∪ on-a-synthesis-surface ∪ law-vocabulary (115) = 517 arcs.**
 The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.98** on the corpus's own law vocabulary against
-**1.13** for the rest — **2.63×**. The criterion
+**2.97** on the corpus's own law vocabulary against
+**1.13** for the rest — **2.62×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -340,7 +340,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1267` | PROVED | S | | THE SPECTRUM LAW REBUILT FROM THE REPOSITORY'S OWN 27 AND EXTENDED. B1086's named residual (an own-code rebuild of the dial matrices hv8/hv16) is paid on the one exact ob… |
 | `B1275` | PROVED | S | | THE CUBIC MADE EXPLICIT. B308's unique E6 cubic invariant d_abc on the 27 is solved exactly from the repository's own 27 (B883's rep27.json): the 45 zero-sum-triple value… |
 
-## §2 the object — arithmetic and geometry (50)
+## §2 the object — arithmetic and geometry (51)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -358,6 +358,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B210` | PROVED | S | | Golden carries both exceptional McKay groups, E8 from its monodromy field Q(sqrt5) and E6 from its hyperbolic trace field Q(sqrt-3).… |
 | `B249` | PROVED | S | | Niven's theorem forces the orbifold trace fields to be clean quadratics only at the hyperbolic and spherical ends, making E₆+E₈ and the E₇ exclusion one arithmetic fact.… |
 | `B250` | PROVED | S | | Computed the complex-volume profile of the E6-hyperbolic/E8-spherical ends: Vol=6Λ(π/3), CS=0 vs π²/5, CS∈(1/5)ℤ — the arithmetic invariants sit in the volumes.… |
+| `B257` | PROVED | S | | Characterized the Euclidean transition point as the character-variety discriminant branch point with order-3 Eisenstein meridian and vanishing complex volume.… |
 | `B258` | PROVED | S | | Resolved H27: the trace field ℚ(√−3) is figure-eight-specific and the discriminant field ℚ(√(m²+4)) metallic, coinciding only at m=1; the quantum face splits into the sam… |
 | `B266` | PROVED | S | | The trace field's unique ramified prime canonically selects E6: π₁(4₁) surjects onto SL(2,𝔽₃)=2T with McKay E6, and E7 is homeless since 2O is no SL(2,q).… |
 | `B298` | NEGATIVE | S | | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3.… |
@@ -395,7 +396,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1136` | PROVED | S | | THE GENERICITY CONTROL TURNED ON THE OBJECT'S OWN WINS (cc3's B8128, owner-elected; verified TWO-BENCH via an independent SnapPy census on this bench): over the shape-fie… |
 | `B1238` | PROVED | S | | THE SEAT HARVEST, THIRD RING (codex R037-R039 @ e40d46ad; the physics-seat evaluation branch R39-R41 + the W-E absence sweep @ 1c980e69; nothing merged, every number reco… |
 
-## §10 the wall — what a specialist must supply (43)
+## §10 the wall — what a specialist must supply (44)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -407,6 +408,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1268` | PROVED | L | | WHERE NET CHIRALITY CANNOT LIVE ON THE CUSPED OBJECT. MAIN_GOAL JOIN 1 q1 in the theta-odd frame. THE LEMMA (Poincare-Lefschetz on the pair, checked exactly on every row)… |
 | `B1276` | PROVED | L | | THE RELATIONS THE CHAIN FORCES. B1275's explicit E6 cubic read through B1252/B1253's Standard-Model labels of the 27 (Q 6, u^c 3, d^c 3, L 2, e^c 1, nu^c 1; H_u 2, H_d 2,… |
 | `B1277` | PROVED | L | | THE VACUUM MANIFOLD OF THE CLOSING AND ITS WILSON LINES. The E8 theory on Y_3 (B1273: e6 + u(1)^2, three 27s on the sign characters chi_i, three 27bars, six flavons, one … |
+| `B1278` | PROVED | L | | THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE. The closings Y_n are the manifold covers of the object's geometric transition (Y_2 the spherical end's, Y_3 the Euclide… |
 | `B1151` | NEGATIVE | V | | THE LARGE-T GUE TEST (C4, the cloud's preregistered cell c4_gue_larget.py run on our i9 at T=3000, 5459 merged zeros): the preregistered single-GUE gate is NOT MET -- GUE… |
 | `B1157` | NEGATIVE | V | | WF-2 (the dynamics; the masterplan's 2nd workflow, 8 agents), sealed DECIDABLE-RESULT, banked as a productive NEGATIVE. THE FIREWALL VERDICT: the object supplies NO param… |
 | `B1220` | PROVED | V | | THE CAMPAIGN'S PREMISE AUDIT (Cells 1-3 of the publication campaign, NOT RUN AS DESIGNED because none needed to be): ALL THREE MATH CELLS WERE ALREADY ANSWERED, and in EV… |

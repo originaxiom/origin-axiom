@@ -6584,6 +6584,35 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1278": {
+   "slug": "the six fold closing",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B248",
+    "B251",
+    "B257",
+    "B258",
+    "B326",
+    "K3",
+    "L206"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 20,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

@@ -70,6 +70,18 @@ three sign characters), at the cost of generation j's doublets; and any vacuum o
 generations of Q, u^c, e^c keeps SU(5) unbroken (theorem). D2's VEV data are therefore posed on a manifold that has
 no SM point of its own; the closing that carries them is the chiral one of D3, not Y₃.
 
+## 4a′. The three faces, and the tower — the SM with three generations on Y₉ (B1278, the same day)
+
+D3's exponential sector needs Vol ≠ 0 (the hyperbolic branch of the transition); the three generations need the
+descent 3 | n. Y₆ (H₁ = ℤ/8 ⊕ ℤ/40 = 5 · 16 · 4) carries 24 new order-8 classes and still no three-generation
+Standard Model (all 32 768 000 SM-commuting lines enumerated; the best keep two). **Y₉ (H₁ = ℤ/76², the prime 19)
+does:** 737 568 SM-commuting Wilson lines valued in its order-19/38 characters break SU(5) to exactly the SM with
+three complete generations of the 27 (706 464 SM vacua, 568 656 with the full three 27s). So D2's VEV data and D3's
+exponential sector are now posed on a closing whose gauge group and count are the Standard Model's: the E₈ theory
+on Y₉ with one of these lines, the one-coupling superpotential of B1276, six flavons and 32 vector-like pairs of
+coset states. The chiral closing of item 1 no longer needs to supply the group or the count — only the chirality
+bit (Y₉ is closed, hence vector-like, B1260) — and the line's selection among 706 464 (L206).
+
 ## 4b. The literature's word on D3 (`docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`)
 
 Pantev–Wijnholt: net chiral(R) = χ(M, ∂⁺M) — on any closed closing 0, on the cusped object −χ(∂⁺ cusp): the bit

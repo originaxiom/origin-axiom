@@ -1,5 +1,14 @@
 # Changelog
 
+## B1278 — the tower's Wilson lines, the three faces at once: no three-generation Standard Model on Y₃ or Y₆ (exhaustive), but on Y₉ the closing's own order-19 characters break SU(5) to exactly the SM with three complete generations (vector-like)
+
+The closings are the geometric transition's covers (Y₃ = the Euclidean point's, quantum face empty). H₁(Y₆) = ℤ/8 ⊕ ℤ/40
+(both ends' torsion), H₁(Y₉) = ℤ/76² (the prime 19 from the golden polynomial at the ninth roots). Every character's h¹
+computed and confirmed exactly; the three-generation alphabet is trivial on Y₃, Y₆ (all 32 768 000 lines on Y₆
+enumerated: none) and has 145 elements on Y₉, where 737 568 SM-commuting Wilson lines break SU(5) with three
+generations of all SM matter — 706 464 SM vacua, 568 656 with the full three 27s, every one keeping exactly the SM's roots.
+`frontier/B1278_the_six_fold_closing`.
+
 ## B1277 — the vacuum manifold of the closing and its Wilson lines: no Standard-Model point at tree level, the SM point through the closing's own sign character at the cost of one generation's doublets, and a theorem: SM + three generations ⟹ SU(5) unbroken on Y₃
 
 The tree-level flat directions of the E₈ theory on Y₃ (nine maximal branches, exact) all mix the rank-reducing and the

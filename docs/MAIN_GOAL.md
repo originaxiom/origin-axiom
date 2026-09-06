@@ -163,3 +163,12 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   programme's first SM-group vacuum — **at the cost of one generation's doublets**; and by theorem any vacuum of
   Y₃ with the SM and three generations of Q, u^c, e^c keeps SU(5) unbroken. The chiral closing remains the object
   to construct; this theorem says what its Wilson-line alphabet must not be.
+- **The three faces at once — the Standard-Model group with three generations on Y₉ (B1278).** The closings are
+  the geometric transition's covers; Y₃ is the Euclidean point's (quantum face empty). On Y₆ (hyperbolic, torsion
+  ℤ/8 ⊕ ℤ/40 = 5 · 16 · 4 joining the golden and Eisenstein ends, 24 new order-8 classes) the three-generation
+  alphabet is still trivial and all 32 768 000 SM-commuting Wilson lines fail (the best keep two). **On Y₉
+  (H₁ = ℤ/76², the prime 19) the alphabet has 145 elements and 737 568 SM-commuting Wilson lines break SU(5) to
+  exactly the SM with three complete generations of Q, u^c, d^c, L, e^c** — 706 464 SM vacua, 568 656 keeping all 81
+  states of the three 27s: the programme's first vacuum with the SM gauge group and three generations, on a
+  closing the object supplies, broken by the closing's own characters. Vector-like (B1260): chirality is the wall
+  that remains, and the line is a discrete choice among 706 464 (L206).

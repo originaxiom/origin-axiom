@@ -2382,3 +2382,16 @@ The SM point needs a flat connection: W = z_L ∘ χ_j (the SU(2)_L centre compo
 with ⟨N⟩, ⟨ν^c⟩ leaves exactly su(3) ⊕ su(2) ⊕ u(1)_Y, at the cost of generation j's doublets; and by theorem any
 vacuum of Y₃ with the SM and three generations of Q, u^c, e^c keeps SU(5) unbroken (the SM's commutant is
 su(2)_β ⊕ u(1)², h¹ = 1 only for the three sign characters). D2 is posed on the chiral closing, not on Y₃.
+
+## L206 — THE SELECTION AND THE MEANING OF Y₉'S STANDARD-MODEL LINES (registered 2026-09-06, B1278)
+
+Y₉ carries 144 characters of orders 19 and 38 with h¹ = 1 beside the three family sign characters — the non-trivial
+elements of (C₁ ∪ C₂) × V₄ for two cyclic subgroups C₁, C₂ of order 19 of the character group — and 706 464 SM-commuting
+Wilson lines valued in them break SU(5) to exactly the SM with three complete generations (568 656 with all 81 states
+of the three 27s; the lines' images have orders 19, 38 and 76 (ℤ/19, ℤ/19 × ℤ/2, ℤ/19 × V₄)). **Computations:** (i) the orbits of these lines under the deck
+group ℤ/9 and Aut(H₁(Y₉)) — how many inequivalent SM vacua the closing has, and whether one is singled out; (ii) which
+19-fold cyclic covers of Y₉ carry the two subgroups' classes (b₁ of the cover in the eigenspaces) and what they are
+geometrically; (iii) the same alphabet on Y₁₂ (103 680 characters) and Y₁₅; (iv) the masses of the 32 vector-like
+coset pairs and the D, D̄ exotics from the E₈ cubic on Y₉; (v) the general theorem, from the Alexander module of the
+figure-eight at the n-th roots (Fox's metabelian theory), for which n the three-generation alphabet is non-trivial —
+19 | ∏|Δ(ζ₉)| is the first instance. Also Y₆'s 24 order-8 classes (which 8-fold cover carries them).

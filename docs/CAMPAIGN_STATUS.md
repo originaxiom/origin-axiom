@@ -1,5 +1,14 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1278 — THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE)**: the closings are the geometric
+transition's covers (Y₃ = the Euclidean point's, quantum face empty). On Y₃ and Y₆ (H₁ = ℤ/8 ⊕ ℤ/40, both ends' torsion,
+24 new order-8 classes) the three-generation alphabet is trivial and **all 32 768 000 SM-commuting Wilson lines on Y₆
+fail** (the best keep two generations). **On Y₉ (H₁ = ℤ/76², the prime 19) the alphabet has 145 elements and 737 568
+SM-commuting Wilson lines break SU(5) to exactly the Standard Model with three complete generations of the 27** —
+706 464 SM vacua, 568 656 with all 81 states of the three 27s — the programme's first SM-group, three-generation vacuum,
+on a closing the object supplies, broken by the closing's own characters. Vector-like (B1260): chirality remains the
+wall. Price unchanged.
+
 **LATEST (2026-09-06, B1277 — THE VACUUM MANIFOLD OF THE CLOSING AND ITS WILSON LINES)**: the tree-level flat
 directions of the E₈ theory on Y₃ (nine maximal branches, exact) all mix the rank-reducing VEVs (N, ν^c, one generation)
 with the electroweak ones and **never reach the Standard Model** (E₆ → SO(10) → SU(5) → SU(4)); the closing's own sign

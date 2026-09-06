@@ -1,0 +1,28 @@
+=== the six-fold closing's Wilson lines: H_1(Y_n), every character's h^1 (numeric sweep + exact cyclotomic confirmation), the family characters, the three-generation alphabet ===
+
+=== Y_9: the 9-fold cyclic branched cover of the object ===
+  presentation: 10 generators, 10 relators; H_1 = Z/76 + Z/76 (free rank 0), order 5776; Fox's prod |Delta(zeta)| = 5776: True; exponent m = 76
+  h^1(Y_9; psi) over all 5776 characters (numeric, 40 digits): {0: 5629, 1: 147}; smallest accepted singular value 3.595e-03, largest rejected 7.148e-40  (151 s)
+  exact over Q(zeta_76): the 147 characters with h^1 > 0 and 3 zero controls confirmed
+  characters with h^1 > 0: [(2, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (2, 1), (2, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (19, 1), (38, 1), (38, 1), (38, 1), (38, 1)]  (order, h^1)
+  the three family characters chi_i (the descended 3_rho, Klein image, same for all 48 surjections): h^1 = [1, 1, 1], orders [2, 2, 2], chi_1 chi_2 chi_3 trivial: True
+  the characters with h^1 > 0 are EXACTLY the three family characters: False
+  the extra classes: 144 characters of orders {38: 108, 19: 36}; the set of h^1 > 0 characters is closed under multiplication by the family characters: True (432 of 432 products land in it)
+  generation counts sum_i h^1(chi_i psi) over the 5776 characters: {0: 5628, 2: 3, 3: 145}; three-generation alphabet K3: 145 ; two-generation alphabet K2: 3
+  the characters of Q, u^c, L determine W: coefficient matrix det = 1, invertible modulo every d_j: True
+  Wilson lines with three generations of Q, u^c, L (K3^3 = 145^3 = 3048625): with three generations of d^c and e^c as well: 758593; of those breaking SU(5): 737568
+  of these, SM VACUA (SU(5) broken, three generations of Q, u^c, d^c, L, e^c, <N> and <nu^c> available, H_u and H_d present): 706464; with the FULL spectrum of the three 27s (81 states, nothing projected): 568656
+  distinct spectra (by label, summed over the three 27s) among the SU(5)-breaking three-generation lines: 16
+     x568656: {'D': 9, 'Dbar': 9, 'H_d': 6, 'H_u': 6, 'L': 6, 'Q': 18, 'S': 3, 'd^c': 9, 'e^c': 3, 'nu^c': 3, 'u^c': 9}
+     x31104: {'D': 9, 'Dbar': 0, 'H_d': 0, 'H_u': 6, 'L': 6, 'Q': 18, 'S': 0, 'd^c': 9, 'e^c': 3, 'nu^c': 0, 'u^c': 9}
+     x26784: {'D': 9, 'Dbar': 9, 'H_d': 4, 'H_u': 6, 'L': 6, 'Q': 18, 'S': 3, 'd^c': 9, 'e^c': 3, 'nu^c': 3, 'u^c': 9}
+     x26784: {'D': 9, 'Dbar': 9, 'H_d': 6, 'H_u': 4, 'L': 6, 'Q': 18, 'S': 3, 'd^c': 9, 'e^c': 3, 'nu^c': 3, 'u^c': 9}
+     x25920: {'D': 9, 'Dbar': 6, 'H_d': 6, 'H_u': 6, 'L': 6, 'Q': 18, 'S': 3, 'd^c': 9, 'e^c': 3, 'nu^c': 3, 'u^c': 9}
+     x25488: {'D': 9, 'Dbar': 9, 'H_d': 6, 'H_u': 6, 'L': 6, 'Q': 18, 'S': 3, 'd^c': 9, 'e^c': 3, 'nu^c': 2, 'u^c': 9}
+  SM vacua: (roots of SU(5) kept at the <N>,<nu^c> point, e6-adjoint chirals from the broken roots) -> count: {(8, 42): 288, (8, 58): 27792, (8, 60): 9360, (8, 52): 18864, (8, 64): 621648, (8, 56): 1296, (8, 62): 26352, (8, 50): 720, (8, 32): 144}; lines with kept != 8: 0   (8 kept = exactly the SM's roots)
+  full-spectrum vacua: order of the Wilson line's image in the character group -> count: {38: 205308, 76: 350352, 19: 12996}; (order of psi_Q, psi_u, psi_e) -> count: {(1, 38, 38): 7560, (1, 19, 19): 2520, (38, 1, 19): 6588, (38, 38, 38): 304128, (38, 19, 1): 6588, (38, 19, 19): 101628, (19, 1, 19): 2196, (19, 38, 38): 101304, (19, 19, 1): 2196, (19, 19, 19): 33948}
+  => on Y_9: the three-generation alphabet is NON-TRIVIAL; 737568 SM-commuting Wilson lines break SU(5) with three generations of Q, u^c, d^c, L, e^c, 706464 of them SM vacua (VEVs and both Higgs doublets available), 568656 keeping all 81 states of the three 27s -- vector-like (B1260)
+  Y_9: |H_1| = 5776 = Z/76 + Z/76; h^1 distribution {0: 5629, 1: 147}; K3 trivial: False; SU(5)-breaking three-generation Wilson lines: 737568, SM vacua 706464, full-spectrum 568656, all with exactly the SM's roots kept: True
+
+SELFTEST: PASS
+rc=0

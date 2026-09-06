@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1186** |
-| words of findings prose | **836,651** |
-| test lock files referenced | **700** |
-| arcs carrying an authored verdict | **1186** (100.0 %) |
+| research arcs with findings | **1187** |
+| words of findings prose | **838,773** |
+| test lock files referenced | **701** |
+| arcs carrying an authored verdict | **1187** (100.0 %) |
 | recorded closures | **783** (616 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 777 |
+| PROVED | 778 |
 | NEGATIVE | 311 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1277`** (2253 words, 1 locks)  
-THE VACUUM MANIFOLD OF THE CLOSING AND ITS WILSON LINES. The E8 theory on Y_3 (B1273: e6 + u(1)^2, three 27s on the sign characters chi_i, three 27bars, six flavons, one coupling) has 36 neutral fields (N, nu^c, h_u0, h_d0, nu per 27 and conjugates, the flavons) and 56 cubic monomials among them; its tree-level vacuum manifold (exact F-flat rule on coordinate subspaces, exact D-flatness by conjugate pairing, no unpaired branch even at the Cartan level) has nine maximal branches -- one generation's whole neutral set with the other two's flavon pair (unbroken su(4)), or {N_g, h_d0_g} with {nu^c_h, nu_h} (su(4) + one mixed u(1)) -- every one mixing rank-reducing and electroweak VEVs, the rank-reducing ones in exactly one generation; the SM is not a point of it (E6 -> SO(10) -> SU(5) -> SU(4)). The Wilson lines: z_L = (-1)^(2T_3) = (-1)^(6Y) is an A1A5 involution whose joint stabilizer with <N>, <nu^c> is exactly su(3)+su(2)+u(1)_Y, so W = z_L o chi_j (unique up to the deck Z/3) gives the first Standard-Model-group vacuum of the programme, at the cost of generation j's SU(2)_L doublets (two generations of Q and L) plus 40 vector-like adjoint chirals; the SM's commutant in e6 is su(2)_beta + u(1)^2 (B1269's dim 5, su(2)_beta pairing (d^c, Dbar), (L, H_d), (nu^c, S), with Q, u^c, e^c singlets); h^1 = 1 exactly for the three sign characters of H_1(Y_3) = Z_4^2 (Fox calculus over Q(i)); the torus elements of order | 4 commuting with the SM and trivial on the 10 are su(2)_beta's four. THEOREM: any vacuum of the closing (neutral VEVs + flat E6 connection, abelian or not) with the SM unbroken and three generations of Q, u^c, e^c has SU(5) unbroken. L204: H^1(m004; C_t) != 0 exactly at t = phi^(+-2) (the Alexander roots, off the unit circle): no unitary abelian holonomy on the cusp carries a class, chi(M, d+M) = 0 for every d+. N = 0; 0 of 19; price unchanged.  
-`B1277_the_vacuum_manifold_of_the_closing/FINDINGS.md`
+**PROVED — `B1278`** (2122 words, 1 locks)  
+THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE. The closings Y_n are the manifold covers of the object's geometric transition (Y_2 the spherical end's, Y_3 the Euclidean point's -- where the quantum face is empty, Vol = CS = 0 -- Y_{n>=4} the hyperbolic branch's). For n = 3, 6, 9: H_1(Y_n) by Smith form = Z/4^2, Z/8 + Z/40, Z/76^2 (Fox's products 16, 320, 5776 of the golden polynomial at the n-th roots of unity: Y_6 joins the golden 5 and the Eisenstein 16, Y_9 brings the prime 19 = the norm of Delta at the primitive ninth roots); every character's h^1 by a 40-digit sweep with every non-zero confirmed exactly over Q(zeta_m): 3, 27, 147 characters carry a class (the three family sign characters, then 24 of order 8 on Y_6, then 144 of orders 19 and 38 on Y_9 -- on Y_9 the h^1 = 1 set is (C_1 u C_2) x V_4 minus 1 for two cyclic subgroups of order 19). The three-generation alphabet K3 = {psi : sum_i h^1(chi_i psi) >= 3} is trivial on Y_3 and Y_6 -- B1277's theorem holds there, and exhaustively none of the 4096 (Y_3) and 32 768 000 (Y_6) SM-commuting Wilson lines breaks SU(5) with three generations of Q, u^c, d^c, L, e^c (the best keep two) -- but on Y_9 it has 145 elements, and since the characters of Q, u^c, L determine the line (coefficient matrix of determinant 1), the K3^3 = 3 048 625 candidates are scanned completely: 737 568 SM-commuting Wilson lines break SU(5) with three generations of Q, u^c, d^c, L, e^c, 706 464 of them with <N>, <nu^c>, H_u and H_d available (every one leaving exactly the SM's 8 roots at the <N>, <nu^c> point), 568 656 of them keeping all 81 states of the three 27s. So the object's own 9-fold closing carries the Standard-Model gauge group (times the family torus's two U(1)s) with three complete generations of 27 (+) 27bar, six flavons and the E6/SM coset chirals -- vector-like (B1260); chirality is the wall that remains. N = 0; 0 of 19; price unchanged.  
+`B1278_the_six_fold_closing/FINDINGS.md`
 
 **NEGATIVE — `B1262`** (520 words, 0 locks)  
 I-9 REFUTED: THERE IS NO 'GENUS V4' FOR DISCRIMINANT -15, and the row had carried its own discriminator UNRUN. B1261 measured the trade at 15 unpriced inputs : 0 of the SM's 19 numbers and named two moves -- earn an identification (-1) or derive a parameter (+1); the ratchet's arithmetic contains a THIRD and cheaper one, REFUTE, which also removes a row from the UNEARNED set. I-9 was the candidate because its own text said 'the genus group of disc -15 has order 2^(t-1) = 2, not 4' and nobody had run it. COMPUTED: disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2 genera, so the genus group has ORDER 2 against Gal(Q(sqrt-3,sqrt5)/Q)'s ORDER 4. THERE IS NO GENUS V4 FOR DISC -15: the object the row NAMES does not exist, and the identification is false as stated. THE FALLBACK READING FAILS TOO on the programme's own rules -- reading side B as Gal does match orders 4 = 4, but that is an ORDER MATCH which B1223 established is not a connection ('Direct is not semidirect': the groups matched, the action did not), and B155's own row calls the glue a GL(4,Z)-class invariant 'not forced by the spectral type', i.e. LATTICE data against Gal's FIELD data, so a canonical map cannot exist. CONTROLS BOTH WAYS: the class-number routine is validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) BEFORE being trusted, which caught a real bug -- a first draft returned h(-15) = 3 by admitting (1,-1,4), which is not reduced since b >= 0 is required when |b| = a -- and discriminants with t = 3 (-84, -120) DO give 4 genera, so order 2 is a fact about -15 and not about the method. THE PRICE: UNEARNED 11 -> 10, the trade moves from 15 : 0 to 14 : 0, the first reduction, and it came from running a discriminator the register had been carrying all along.  

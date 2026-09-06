@@ -14366,3 +14366,23 @@ characters of H₁(Y₃) = ℤ₄² (Fox calculus over ℚ(i)), 0 for the twelve
 unbroken.** L204 closed: H¹(m004; ℂ_t) ≠ 0 exactly at t = φ^{±2} (the Alexander roots, off the unit circle) — no unitary
 abelian holonomy on the cusp carries a class. Lock `tests/test_b1277_the_vacuum_manifold_of_the_closing.py`. N = 0;
 0 of 19; price unchanged.
+
+### B1278 — the tower's Wilson lines, the three faces at once: the Standard-Model group with three generations on Y₉ (2026-09-06)
+
+On the owner's reminder *"we're not dealing with an object alone, but three faces of it"* (B258's geometry /
+arithmetic / quantum, each resolving into the two ends; B248/B257's transition with the Euclidean point in the
+middle). The closings B1273–B1277 computed on are the manifold covers of that transition — Y₂ = L(5,2) the spherical
+end's, **Y₃ the Euclidean point's** (quantum face empty: Vol = CS = 0), Y_{n≥4} the hyperbolic branch's — so B1277's
+theorem was proved where the exponential sector vanishes. `frontier/B1278_the_six_fold_closing/verification/six_fold_closing.py`
+(exact; `SELFTEST: PASS` for Y₃, Y₆ and Y₉): H₁(Y₆) = ℤ/8 ⊕ ℤ/40 (320 = 5 · 16 · 4, both ends' torsion), H₁(Y₉) =
+ℤ/76 ⊕ ℤ/76 (5776 = 16 · 19²); every character's h¹ by a 40-digit sweep with every non-zero confirmed exactly over
+ℚ(ζ_m): 3, 27, 147 characters carry a class (the three family sign characters; then 24 of order 8; then 144 of orders
+19 and 38 forming (C₁ ∪ C₂) × V₄ minus 1 for two cyclic subgroups of order 19). **The three-generation alphabet
+{ψ : Σ_i h¹(χ_iψ) ≥ 3} is trivial on Y₃ and Y₆** — B1277's theorem holds there, and exhaustively none of the 4096 /
+32 768 000 SM-commuting Wilson lines breaks SU(5) with three generations of Q, u^c, d^c, L, e^c (the best keep two) —
+**but on Y₉ it has 145 elements, and 737 568 SM-commuting Wilson lines break SU(5) with three generations of Q, u^c,
+d^c, L, e^c; 706 464 of them are SM vacua (⟨N⟩, ⟨ν^c⟩, H_u, H_d available), every one leaving exactly the SM's 8 roots at
+the ⟨N⟩, ⟨ν^c⟩ point, and 568 656 keep all 81 states of the three 27s.** The first vacuum of the programme with the
+Standard-Model gauge group (× the family torus's two U(1)s) and three complete generations of 27 ⊕ 27̄, on a closing
+the object supplies, broken to it by the closing's own order-19/38 characters — **vector-like** (B1260): chirality is
+the wall that remains. Lock `tests/test_b1278_the_six_fold_closing.py`. N = 0; 0 of 19; price unchanged.

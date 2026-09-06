@@ -95,6 +95,18 @@ three generations ⟹ SU(5) unbroken, by theorem. The closed closing is now full
 diagonal texture (B1273), one irreducible class or three characters on the tower (B1274), and no SM with three
 generations (B1277). Every wall of §1 is a property of the *closed* closing; the chiral closing is the object.
 
+## 5d. The three faces and the tower — the SM with three generations on Y₉ (added the same day, B1278)
+
+The owner's reminder: the object has three faces (B258: geometry, arithmetic, quantum), each resolving into two
+ends. The closings are the geometric transition's covers — Y₂ the spherical end's, Y₃ the Euclidean point's (Vol =
+CS = 0: the quantum face is empty there, which is why the closing's Yukawa is tree-level only), Y_{n≥4} the
+hyperbolic branch's. B1277 was proved at the middle. B1278 moves up the tower: on Y₆ (both ends' torsion, 24 new
+classes) the exclusion still holds, exhaustively; **on Y₉ the arithmetic face brings the prime 19, the three-
+generation alphabet exists (145 characters), and 737 568 SM-commuting Wilson lines break SU(5) to exactly the SM
+with three complete generations** (706 464 SM vacua, 568 656 with the full three 27s). The walls of §1 are re-sorted:
+the group and the count are no longer walls — the object's own 9-fold closing supplies both; **chirality is the one
+wall** (closed ⟹ vector-like, B1260), and the values behind it.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with
