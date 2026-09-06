@@ -1,5 +1,18 @@
 # Changelog
 
+## I-9 REFUTED — there is no "genus V₄" for disc −15, and the row carried its own discriminator unrun
+
+**B1262.** B1261 named two moves on the **15 : 0** trade; the ratchet contains a **third and cheaper**
+— **refute**. I-9's own text said *"the genus group of disc −15 has order 2^(t−1) = 2, not 4"* and
+nobody had run it. **Computed:** disc −15 has reduced forms **{(1,1,4), (2,1,2)}** ⇒ **h = 2**, class
+group **ℤ/2**, and −15 = (−3)(5) gives **2 genera** ⇒ **genus group of order 2**, against
+Gal(ℚ(√−3,√5)/ℚ)'s order 4. **There is no "genus V₄" for disc −15** — the named object does not exist.
+The fallback (side B = Gal) matches orders, but that's an **order match**, forbidden as evidence by
+**B1223**, plus the category mismatch **B155** itself records (lattice data, not field data).
+**Controls:** the class-number routine was validated on five known values first — catching a real bug
+(a draft gave h(−15) = 3 by admitting the unreduced (1,−1,4)) — and t = 3 discriminants **do** give 4
+genera, so order 2 is about −15, not the method. **UNEARNED 11 → 10: the trade moves 15 : 0 → 14 : 0.**
+
 ## THE PRICE, COMPUTED — fifteen unpriced inputs bought zero of nineteen numbers
 
 **B1261.** JOIN 2's lead closed **negative** (n in κ = 2 + n² is **not** object-determined; n = 1…7 all

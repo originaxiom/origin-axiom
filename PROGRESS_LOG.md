@@ -13934,3 +13934,24 @@ and what does it buy?**
   an identification (−1)** or **derive a parameter (+1)**. Earning is cheaper, already instrumented
   by the B1231 ratchet, and **8 rows are EARNED already**. So the identification ledger is **not
   bookkeeping around the physics — it IS the scoreboard.**
+
+### B1262 — I-9 refuted: there is no "genus V₄" for disc −15 (2026-09-06)
+
+B1261 named two moves on the 15 : 0 trade; the ratchet's arithmetic contains a **third and cheaper**
+one — **REFUTE**, which also removes a row from UNEARNED. **I-9 was carrying its own discriminator,
+written and never run:** *"the genus group of disc −15 has order 2^(t−1) = 2, not 4."*
+
+- **COMPUTED.** disc −15 has reduced primitive forms **{(1,1,4), (2,1,2)}** ⇒ **h(−15) = 2**, class
+  group **ℤ/2**; and −15 = (−3)(5) gives t = 2 ⇒ **2 genera** ⇒ **genus group of ORDER 2**, against
+  Gal(ℚ(√−3,√5)/ℚ)'s **order 4**. **There is no "genus V₄" for disc −15** — the object the row
+  **names** does not exist, so the identification is **false as stated**.
+- **THE FALLBACK FAILS TOO.** Reading side B as Gal does match orders (4 = 4), but that is an **ORDER
+  MATCH**, which **B1223** established is not a connection (*"Direct is not semidirect"* — the groups
+  matched, the action did not); and **B155's own row** calls the glue *"not forced by the spectral
+  type"*, **lattice** data against Gal's **field** data, so no canonical map can exist.
+- **CONTROLS BOTH WAYS.** The class-number routine was **validated on five known values before being
+  trusted** — and it **caught a real bug**: a first draft returned h(−15) = 3 by admitting (1,−1,4),
+  which is not reduced (b ≥ 0 required when |b| = a). And **t = 3 discriminants (−84, −120) DO give
+  4 genera**, so "order 2" is a fact about −15, not about the method.
+- **THE PRICE MOVES: UNEARNED 11 → 10, so the trade goes 15 : 0 → 14 : 0.** The first reduction, and
+  it came from running a discriminator the register had been carrying all along.

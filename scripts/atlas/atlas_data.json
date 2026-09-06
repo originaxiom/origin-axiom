@@ -6192,6 +6192,20 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1262": {
+   "slug": "i9 refuted",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B155"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

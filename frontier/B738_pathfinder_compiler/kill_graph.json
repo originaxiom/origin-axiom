@@ -10861,5 +10861,16 @@
   "note": "Upgrades B1084's routed negative from an EMPIRICAL census to a STRUCTURAL no-go. Also records that B1084's hatch was never walked: of ~1180 arcs only one declares a dependency on B1084/B1086/B1087, and it is a bookkeeping follow-through. Does NOT resolve MAIN_GOAL JOIN 1 -- B1086's chiral dial still gives h^1 = 2, not 3.",
   "priority": "medium",
   "revival_score": 2
+ },
+ {
+  "id": "B1262",
+  "claim_killed": "I-9: B155's (Z/2)^2 lattice glue = 'the genus V4', with side B recorded as Gal(Q(sqrt-3,sqrt5)/Q).",
+  "kill_form": "Killed by running the discriminator the row itself had carried unrun. disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2^(t-1) = 2 genera: the GENUS GROUP HAS ORDER 2, against Gal's order 4. There is no 'genus V4' for disc -15 -- the object the row NAMES does not exist. The fallback reading (side B = Gal, order 4) rests on an ORDER MATCH, which B1223 forbids as evidence, plus the category mismatch B155 records (the glue is a GL(4,Z)-class invariant 'not forced by the spectral type': lattice data, not field data).",
+  "fact_computed": "h(-15) = 2 and the genus count 2, with the class-number routine validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) before being trusted; plus the two-directional control that t = 3 discriminants (-84, -120) DO give 4 genera.",
+  "faces_consulted": "B1261 (the price and its moves), B1233/B1234 (the proposal), B155 (the glue and its scope), B1223 (order matches are not connections), B1231 (the ratchet).",
+  "hatch": "A revival would need an exhibited MAP from the lattice cokernel to a field-theoretic group, together with a demonstration that the glue IS determined by the spectral type -- which B155's own row denies. Nothing in this node bears on B155's glue itself, which stands as a GL(4,Z)-class invariant; only its identification with a genus or Galois group is killed.",
+  "note": "First reduction of the B1261 price: UNEARNED 11 -> 10, the trade moving 15 : 0 -> 14 : 0. Demonstrates the third move on the exchange rate (refute), which the ratchet supported all along.",
+  "priority": "low",
+  "revival_score": 1
  }
 ]
