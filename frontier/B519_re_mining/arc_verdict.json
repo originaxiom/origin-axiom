@@ -5,6 +5,6 @@
  "instrument": false,
  "depends_on": [],
  "supersedes": null,
- "superseded_by": null,
+ "superseded_by": "B525",
  "authored_by": "B826 (from the arc's own VERDICT.md correction banner; source B525)"
 }

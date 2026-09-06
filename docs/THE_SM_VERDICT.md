@@ -59,6 +59,17 @@ moves by exactly two operations: **earn an identification (−1)** or **derive a
   **closing** supplying the bit (B432/B434). **B1260** adds that the closed wall is general (PD on
   *any* closed oriented 3-manifold) and the cusped **abelian** sector is walled by Alexander
   reciprocity.
+- **B1290 (2026-09-06) — the CUSPED statement, and the zero is now FOURFOLD.** The index formula
+  `net chirality = χ(M, ∂⁺M)` (cited from the SM-derivation seat's sweep, not derived on main)
+  applied to m004: **χ(M) = 1−2+1 = 0** from SnapPy's own presentation and **χ(T²) = 0**, so
+  **net chirality = −χ(∂⁺M)** and is **zero iff χ(∂⁺M) = 0**. Since the natural pieces of a
+  cusp-torus decomposition are **annuli** (χ = 0), any annular ∂⁺M returns zero **identically** —
+  no representation theory entering. That is a **fourth independent route** to the same zero, after
+  **B1267** (numerically, cusped mapping torus), the **SM seat** (exactly over ℚ(ω): h¹(27) = 3 =
+  h¹(27̄)) and **fc's R61** (θ-equivariant abelian Higgs ⇒ zero) — four benches, four methods, and
+  **none of the first three cited the others**. **The escape is now located, not just named:** a
+  count needs **χ(∂⁺M) ≠ 0**, i.e. ∂⁺M must contain **discs or corners**. **I-26's price is
+  restated to "identify ∂⁺M and compute χ(∂⁺M)"; the row stays UNEARNED.**
 - **B1265 — the real form is DERIVED and the fork is a rank obstruction.** D₂ is an involution with
   signature **32 − 46 = −14**, so the object's own twist **selects E₆(−14)**. D₂ is **inner**, and
   **E₆(−26)** (Lorentz, compact colour, the graviton) has **𝔨 = f₄ of rank 4** — **outer**, reachable

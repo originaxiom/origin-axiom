@@ -58,7 +58,16 @@ grading exists on any closed assembly.
    **G₂ 7-manifold**; its transport to a **real 3-manifold's** H¹ is nowhere exhibited, and the
    surviving gauge group (the **centralizer of ρ(π₁)**) is never identified. **Until I-26 is earned,
    B1253, B1255, B1256, B1257 and the h¹ readings of B1036/B1086 are all conditional on it.**
-   To earn: exhibit the compactification, and name the surviving gauge group.
+   ~~To earn: exhibit the compactification, and name the surviving gauge group.~~
+   **PRICE RESTATED 2026-09-06 (B1290) — the index theorem ARRIVED and the question moved to the
+   cusp.** `net chirality = χ(M, ∂⁺M)`; on m004 **χ(M) = 0** and **χ(T²) = 0**, so
+   **net chirality = −χ(∂⁺M)**. To earn: **identify ∂⁺M and compute χ(∂⁺M)** (and still name the
+   surviving gauge group). **Annuli give χ = 0 and hence zero identically**; a count needs **discs
+   or corners**. Row still **UNEARNED**.
+4. **What is ∂⁺M?** — JOIN 1's live question as of B1290. Named candidate, harvested from fc's
+   **R61/R62** and unverified on main: `Fix(θ)` = **two arcs** on the cusp torus (0↔τ/2,
+   1/2↔(1+τ)/2). **Arcs cut corners**, and corners are what take a torus decomposition off χ = 0.
+   **This is a cusp-geometry computation, not a representation-theory one.**
 
 ## JOIN 2 — the values *(I-13, the listener map)*
 

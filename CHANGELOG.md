@@ -1,5 +1,31 @@
 # Changelog
 
+## THE INDEX FORMULA APPLIED — the zero is fourfold, and I-26 becomes a question about the cusp
+
+**B1290.** The SM-derivation seat's sweep supplied **`net chirality = χ(M, ∂⁺M)`** — *an index
+formula*, which is exactly what **I-26** has lacked since it was registered. Applied on main:
+**χ(m004) = 1−2+1 = 0** (computed from SnapPy's own presentation) and **χ(T²) = 0**, so
+**net chirality = −χ(∂⁺M)**, zero **iff** χ(∂⁺M) = 0. The natural pieces of a cusp-torus
+decomposition are **annuli** and χ(annulus) = 0 — so **any annular ∂⁺M returns zero identically,
+with no representation theory entering at all.**
+
+**A fourth independent route to the same zero**, after **B1267** (numerically, cusped mapping
+torus), the **SM seat** (exactly over ℚ(ω): h¹(27) = 3 = h¹(27̄)) and **fc's R61** (θ-equivariant
+abelian Higgs). **Four benches, four methods, one answer — and none of the first three cited the
+others.** It is the **cusped** statement of walls already closed (**E65**, **B1260**), landing
+exactly where B1260 left the cusped case open.
+
+**The reframing is the result.** I-26 stops asking *"why does h¹ count generations"* and starts
+asking **"WHAT IS ∂⁺M, AND WHAT IS ITS EULER CHARACTERISTIC?"** — a count needs **χ(∂⁺M) ≠ 0**,
+i.e. **discs or corners, not annuli**. Checkable, and about the **cusp torus** alone. The I-26 price
+is restated accordingly; **`MAIN_GOAL` JOIN 1 gains it as question 4**. Named candidate, harvested
+from **fc's R61/R62** and **unverified on main**: `Fix(θ)` = **two arcs** on the cusp torus — and
+**arcs cut corners**.
+
+**Fenced:** the formula is **cited, not derived here**; **χ(M) = 0 is generic** to cusped
+torus-boundary manifolds and does not distinguish the object; **I-26 stays UNEARNED and the ratchet
+does not move.**
+
 ## THE SEAT HARVEST — three routes separate the same binary, and codex's central twist reproduced
 
 **B1272 + B1273.** Owner-supplied (Round 11) and **verified on main's data**: B1263's *"genuine binary

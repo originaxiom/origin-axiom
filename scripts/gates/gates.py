@@ -1084,6 +1084,43 @@ def gate_identification_register():
     return ok, ("ok" if ok else problems[:5])
 
 
+def gate_supersession_backlinks():
+    """B1290's follow-through (2026-09-06). E53 is 'the correction never reached the verdict
+    file'. The same shape exists one level up, at SUPERSESSION: 43 arcs were claimed superseded
+    by a later arc and only ONE said so in its own arc_verdict.json -- so a reader landing on
+    B154 from the atlas saw PROVED with no marker that a later arc had replaced it.
+
+    The back-link is DERIVABLE, not a judgement: `supersedes` already carries the forward edge.
+    This gate enforces that every forward claim has its back-link, so the corpus cannot silently
+    re-accumulate 36 unmarked supersessions. It NEVER touches a verdict -- superseding an arc is
+    not retracting it, and the 12 RETRACTED arcs are a separate, deliberate act."""
+    import glob as _glob
+    import json as _json
+    claims, seen = {}, {}
+    for f in sorted(_glob.glob(os.path.join(ROOT, "frontier", "*", "arc_verdict.json"))):
+        try:
+            d = _json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue
+        i = d.get("id")
+        if not i:
+            continue
+        seen[i] = d
+        s = d.get("supersedes")
+        if s:
+            for tgt in ([s] if isinstance(s, str) else s):
+                claims.setdefault(tgt, []).append(i)
+    silent = []
+    for tgt, by in sorted(claims.items()):
+        if tgt not in seen:          # forward edge points outside the corpus -- not this gate's business
+            continue
+        back = seen[tgt].get("superseded_by")
+        if not back:
+            silent.append(f"{tgt} (superseded by {sorted(set(by))}, says nothing)")
+    ok = not silent
+    return ok, ("ok" if ok else silent[:5])
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -1115,7 +1152,9 @@ GATES = {
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,
     "atlas-lexicon-current": gate_atlas_lexicon_current,
+    "supersession-backlinks": gate_supersession_backlinks,
 }
+
 
 
 def run_all():

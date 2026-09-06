@@ -14343,3 +14343,48 @@ remember"*. **Both right — and the precedent was `docs/CLOUD_ALIAS_TABLE.md` (
 - **Relay written and ledgered:** `CC_TO_ALL_SEATS_2026-09-06_ARC_NUMBER_RESERVATION.md`.
 - **Not a judgement on content.** sB1271 (three generations via E₈ ⊃ E₆×SU(3)) was **verified on main
   at B1275**; sB1267 (h¹ = 3 = h¹ exactly over ℚ(ω)) **independently confirms main's B1267**.
+
+---
+
+## 2026-09-06 — B1290: the index formula applied; I-26 becomes a question about the cusp
+
+**The occasion.** The SM-derivation seat's literature sweep (harvested at B1277) reported
+`net chirality = χ(M, ∂⁺M)`. **That is an index formula — exactly what I-26 has lacked since it was
+registered.** This session applied it on main rather than filing it.
+
+**Computed here.**
+
+```
+chi(m004) = 1 - 2 + 1 = 0     # SnapPy's own presentation: 2 generators, 1 relator
+chi(T^2)  = 0                 # the single cusp's boundary torus
+=> net chirality = -chi(d+M),  ZERO IFF chi(d+M) = 0
+```
+
+**The consequence, with no representation theory in it.** The natural pieces of a cusp-torus
+decomposition are **annuli**, and χ(annulus) = 0. **Any annular ∂⁺M returns zero net chirality
+identically.**
+
+**A FOURTH INDEPENDENT ROUTE TO THE SAME ZERO** — after **B1267** (numerically, on the cusped
+mapping torus), the **SM seat** (exactly over ℚ(ω): h¹(27) = 3 = h¹(27̄)) and **fc's R61**
+(θ-equivariant abelian Higgs configurations). **Four benches, four methods, one answer — and none of
+the first three cited the others.** It is also the **cusped** statement of two walls already banked
+closed: **E65** (self-duality of Symⁿ SL(2)) and **B1260** (PD + χ = 0 on any *closed* oriented
+3-manifold) — and it lands exactly where B1260 left the cusped case open.
+
+**The reframing, which is the point.** I-26 no longer asks *"why does h¹ count generations"*. It
+asks **"WHAT IS ∂⁺M, AND WHAT IS ITS EULER CHARACTERISTIC?"** A count needs **χ(∂⁺M) ≠ 0** — i.e.
+∂⁺M must contain **discs** (χ = +1) or **corner-carrying pieces** (χ = −1), **not annuli**. That is
+a statement about the **cusp torus**, it is checkable, and it is not representation theory. The
+**I-26 price is restated** from *"exhibit the compactification"* to **"identify ∂⁺M and compute
+χ(∂⁺M)"**; naming the surviving gauge group stays part of it. **`MAIN_GOAL` JOIN 1 gains it as
+question 4.**
+
+**The named candidate — harvested, NOT verified on main.** fc's **R61/R62**: `Fix(θ)` = **two arcs**
+on the cusp torus, pairing 0↔τ/2 and 1/2↔(1+τ)/2, with the mirror broken by every generic filling
+and θ by none. **Arcs cut corners**, and corners are what take a torus decomposition off χ = 0.
+Whether they give χ(∂⁺M) ≠ 0 is **fc's next computation**, not this bench's.
+
+**Fences.** The formula is **cited from the SM seat's sweep, not derived here**. **χ(M) = 0 is
+generic** to cusped torus-boundary manifolds and does **not** distinguish the object — any
+discrimination must live in ∂⁺M. **The reframing does not pay I-26: the row stays UNEARNED and the
+ratchet does not move.** The arc respects the B1278–B1289 reservation (a test pins this).

@@ -5,6 +5,6 @@
  "instrument": false,
  "depends_on": [],
  "supersedes": "B153",
- "superseded_by": null,
+ "superseded_by": "B157",
  "authored_by": "W1-wave1-fanout"
 }

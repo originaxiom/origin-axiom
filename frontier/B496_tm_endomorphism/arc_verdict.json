@@ -5,6 +5,6 @@
  "instrument": false,
  "depends_on": [],
  "supersedes": null,
- "superseded_by": null,
+ "superseded_by": "B497",
  "authored_by": "W2-wave2-calibrated"
 }

@@ -62,6 +62,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | Every link in THE CHAIN cites a **resolvable** test lock (the ledger's own admission rule) | **GATED** | `chain-locks` |
 | `LAW_MAP.md` is an **unenforced index**: every row traceable to an arc, every cited lock resolving (R33-4) | **GATED** | `law-map-provenance` |
 | The atlas lexicon must not **go blind**: zero-motif probes may not grow (B806) | **GATED** | `atlas-lexicon-current` |
+| Every arc a later arc **supersedes** must say so in its own `arc_verdict.json` — E53's shape at the supersession level; the back-link is derivable from `supersedes`, never a judgement, and it never touches a verdict (B1290) | **GATED** | `supersession-backlinks` |
 | No speculative room (`speculations/`, `philosophy/`, `story/`) cited as claim evidence | **GATED** | `firewall-oneway` |
 | Banned overclaim phrasings absent from the corpus | **GATED** | `framing` |
 | No SM values to `CLAIMS.md` (Gate 5); physics readings wait on L91 | **MANUAL** | firewall review at banking |
