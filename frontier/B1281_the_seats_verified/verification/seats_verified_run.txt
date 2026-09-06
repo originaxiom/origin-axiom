@@ -1,0 +1,12 @@
+A. |Fix| = |det(A - I)| for the eight cusp maps of m004: [0, 0, 4, 4, 0, 0, 0, 0] -> values [0, 4] (even, one cusp)
+   finite-order GL(2,Z) classes (det, tr) -> |det(A - I)|: {(-1, 0): 0, (1, -2): 4, (1, -1): 3, (1, 0): 2, (1, 1): 1, (1, 2): 0} -> 3 only from (det 1, tr -1), the order-3 rotation
+B. Lefschetz numbers L(g) = 1 - s_mu over the eight isometries: [0, 0, 2, 2, 2, 2, 0, 0] -> {0, 2}; the inversions' two arcs have chi = 2
+C. inner lift of order 2: fixed roots 32 of 72, algebra dim 38, components [5, 1] (A5 + A1)
+   inner lift of order 3: fixed roots 18 of 72, algebra dim 24, components [2, 2, 2] (A2^3)
+   outer lift theta_D: sigma-fixed roots 24, root pairs 12, fixed algebra dim 52 (f4)
+   B1280 on the geometric germ: iota^* rho = theta rho for every deformation, so off the F_4 locus the lift is the OUTER one
+D. region swap: chi(g>0), chi(g<0) for random theta-odd fields: [(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)]; control (a disc): 1; whole torus: 0
+E. m004: cusps 1, vol/v_tet = 2.000000, shapes ['-0.0000+3.4641j'], |Sym| = 8, amphicheiral True
+E. m202: cusps 2, vol/v_tet = 4.000000, shapes ['0.5000+0.8660j', '0.5000+0.8660j'], |Sym| = 12, amphicheiral False
+
+SELFTEST: PASS

@@ -72,3 +72,11 @@ holonomy of m004 (D₄, cusp shape 2√3 i), B1268 (the θ-odd deformation and t
 (the Alexander zero modes), Pantev–Wijnholt (χ(M, ∂⁺M)). The affine actions are derived from the holonomy, not
 read off a picture; the sixteen-versus-eight discrepancy of the horoball pattern is the control that the
 normalization test is needed.
+
+---
+*Note (2026-09-07, B1281).* The conclusion χ(∂⁺M) = 0 is exact and needs no leading-mode assumption: for any θ-odd field
+g (g∘σ = −g, σ the inversion) with transverse zeros, σ maps {g > 0} onto {g < 0}, so χ(∂⁺) = χ(∂⁻), and the two sum to
+χ(T²) − χ(zero set) = 0 (the physics seat's R71 region-swap theorem, re-derived in `frontier/B1281_the_seats_verified`).
+The caveat above about c₍±2,0₎ is therefore void: the product mode's zero set is non-transverse and χ(∂⁺M) is undefined
+there rather than ±4; any allowed perturbation returns 0. Main's B1290 states the same index law; its B1291 proves the
+fixed-point count on a one-cusped manifold's cusp is even, which is why the arcs have four corners and not three.

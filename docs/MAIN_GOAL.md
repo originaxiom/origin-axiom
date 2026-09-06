@@ -186,3 +186,8 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   unique even sl₂ orbit where this holds; at B1256's subregular I-25 point one θ-odd direction (the V₁₀ of the 42) is
   unpaired — L207 names the computation. No h¹ of this manifold, on any representation the record supplies, is a net
   count; the chirality bit is the singular G₂ closing's or the observer's.
+- **The seats verified (B1281, 2026-09-07).** Main's B1267/B1290–B1294 and the physics seat's R69–R72 re-run here and
+  re-derived: N = 0 on W1/W2 agreed and refined (the non-rigid locus is K); the θ-odd "no" exact (region-swap theorem);
+  the ±2 a different quantity (singular θ-even charge locus, lift-dependent; the outer lift forced on the geometric
+  germ by B1280). New: the parity theorem (3 excluded on one cusp) and the two-cusped sibling m202 with fc's fenced
+  3·(16 ⊕ 10 ⊕ 1) — L208, the only written-down three on the board.

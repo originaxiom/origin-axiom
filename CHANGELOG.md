@@ -1,5 +1,14 @@
 # Changelog
 
+## B1281 — the seats verified: the other seats' chirality results re-run and re-derived here; the reconciliation with B1268/B1277-addendum/B1279/B1280; the parity theorem, m202, the alias table
+
+Main's B1267, B1290–B1294 and the physics seat's R69–R72 all pass their own selftests on this bench and their statements
+re-derive with this branch's code. Main's B1267 and B1280 agree (N = 0 on W1/W2; B1280 refines the "rigid" claim: the
+non-rigid locus is K and N = 0 there). R71's region-swap theorem makes the B1277 addendum exact (caveat void). fc's ±2 is a
+different quantity from N (singular θ-even charge locus, lift-dependent); B1280 forces the outer lift on the geometric
+germ. New: the parity theorem (3 excluded on one cusp), m202 as a two-cusped carrier candidate with fc's fenced 3·(16 ⊕ 10 ⊕ 1),
+main's doors, the alias table copied here. L208 registered. `frontier/B1281_the_seats_verified`.
+
 ## B1280 — the chirality probe completed and closed by two theorems: the elliptic SL(3) components W1, W2 vector-like on every cusped cover, the θ-odd E₆ frame vector-like on its whole germ (the object's inversion IS the E₆ outer automorphism on the deformation space), and the chirality map
 
 `docs/CHIRALITY_MAP_2026-09-06.md` collects every chirality statement of the record (four senses, eleven walls, every N

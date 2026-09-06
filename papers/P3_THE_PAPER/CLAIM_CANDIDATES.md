@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1089 settled arcs — 76%** —
+the field is **absent on 828 of 1090 settled arcs — 76%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (88) ∪ on-a-synthesis-surface ∪ law-vocabulary (115) = 521 arcs.**
-The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
+**POOL = declared-law (88) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 522 arcs.**
+The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.95** on the corpus's own law vocabulary against
-**1.13** for the rest — **2.61×**. The criterion
+**1.14** for the rest — **2.6×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -199,7 +199,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1255` | PROVED | S | | THE GENERATION INDEX HAS THE RIGHT GALOIS TYPE AND THE WRONG COMMUTATOR. The pattern behind twelve lost three-nesses is named: every one was built on Q(sqrt-3), where 3 R… |
 | `B1260` | PROVED | S | | WHERE NET CHIRALITY CAN LIVE. MAIN_GOAL JOIN 1 question 1. (1) THE CLOSED WALL IS GENERAL: for ANY closed oriented 3-manifold, PD (h^i(V) = h^(3-i)(V*)) plus chi = 0 plus… |
 
-## §6 the observer — one bit, priced (138)
+## §6 the observer — one bit, priced (139)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -258,6 +258,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1222` | NEGATIVE | V | | 'THE SELECTION IS THE OBSTRUCTION' -- a unifying thesis for the programme's ~65 proved vanishings, proposed with three kill conditions named IN ADVANCE, and killed by the… |
 | `B1233` | PROVED | V | | THE Z-AI AUDIT: 15 CLAIMS CONFIRMED ON THIS BENCH, 7 REFUTED, ONE REAL DEFECT FOUND IN OUR OWN RECORD, AND ONE HEADLINE IDENTIFICATION REFUTED BY GALOIS THEORY. Owner: 't… |
 | `B1239` | PROVED | V | | THE 1/4 CLASS IS CUSP-LOCAL. Codex R040 (free orientation-reversing deck => CS = 0) reproduced -- 1260/1260 orientation double covers of the nonorientable cusped census i… |
+| `B1281` | PROVED | V | | THE SEATS VERIFIED (2026-09-07). Fetched origin/main @ 506c591f (main's B1267, B1272-B1277, B1290-B1294), the physics seat @ 659487bb (R56-R72) and codex @ f7a49536 (R040… |
 | `B14` | PROVED | S | | F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b.… |
 | `B64` | PROVED | S | | The k(alpha) sector-assignment is proven symbolically: even-/k/ char(M^k) is P-symmetric, odd-/k/ P-antisymmetric, via depth-n CH plus Dickson parity.… |
 | `B161` | PROVED | S | | The cancellation locus kappa=2 is codimension-1, measure-zero and spectrally trivial, while non-cancellation is generic and fractured; 'forced/empty' is retired.… |

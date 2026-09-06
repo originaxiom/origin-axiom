@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-07, B1281 — THE SEATS VERIFIED)**: main's B1267/B1290–B1294 and the physics seat's R69–R72 fetched, re-run
+on this bench and re-derived with this branch's code — all agree with B1268/B1277-addendum/B1279/B1280 once the quantities are
+named (N of a flat local system vs a singular θ-even charge-locus count): main's B1267 and B1280 agree on N = 0 for W1/W2
+(B1280 refines: the non-rigid locus is the curve K, N = 0 there); R71's region-swap theorem makes the addendum's θ-odd "no"
+exact; B1280 forces the outer lift of the inversion on the geometric germ. **New: the parity theorem (3 excluded on any
+one-cusped manifold), and the two-cusped sibling m202 — commensurable, keeps ℚ(√−3) and 2T, a ℤ/6 with three fixed lines —
+where fc's fenced count is 3·(16 ⊕ 10 ⊕ 1).** L208 registered. Price unchanged.
+
 **LATEST (2026-09-06, B1280 — THE CHIRALITY PROBE, CLOSED BY TWO THEOREMS)**: the record's chirality knowledge retrieved
 into `docs/CHIRALITY_MAP_2026-09-06.md` (four senses, eleven walls, every N computed — all zero); B71's non-self-dual SL(3)
 components W1, W2 proved vector-like on every cusped cyclic cover (λ = μ^{±3} exactly; the cusp-fixed curve K is the branch

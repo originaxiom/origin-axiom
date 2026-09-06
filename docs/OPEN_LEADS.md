@@ -2382,6 +2382,10 @@ two inversions), whose zero set is four meridian circles through all eight corne
 χ(∂⁺M) = 0. A disc needs the first mixed mode (±2, ±1), which decays twice as fast. Caveat: the (±2, 0)
 coefficient of the actual harmonic form is assumed non-zero. `ADDENDUM_2026-09-06_the_arcs_and_the_corners.md`.
 
+**L204 status 2026-09-07 (B1281):** the annular partition's caveat (the c₍±2,0₎ coefficient) is void — fc R71's
+region-swap theorem, re-derived in B1281 §2D, gives χ(∂⁺M) = χ(∂⁻M) = 0 exactly for every smooth θ-odd field with
+transverse zeros; what remains of L204 is the disc-type ∂⁺ from a non-unitary holonomy, unchanged.
+
 ## L205 — THE TREE-LEVEL VACUUM MANIFOLD OF THE Y₃ THEORY (registered 2026-09-06; D2's space)
 
 The F- and D-flat directions of the one-coupling superpotential (B1276) for 3 × 27 + 3 × 27̄ + 6 singlets under
@@ -2436,3 +2440,20 @@ statement is SL(3)-specific). **(iii)** the general statement: *conjecture* N(V)
 π₁(m004); the mechanism in every computed case is an isometry pairing V with V\* on cohomology or the absence of
 cusp-fixed vectors, but the right general formulation (off K on W1/W2 no isometry pairs V with V\*, the bound does the
 work) is not yet written. ★★ for (i); (ii)–(iii) are mathematics beyond the destination's need.
+
+## L208 — THE TWO-CUSPED SIBLING m202 AS THE CARRIER OF THE COUNT (registered 2026-09-07, B1281; from main's B1291/B1292 and fc's R72)
+
+The parity theorem (main B1291, re-derived B1281) excludes a fixed-locus count of 3 on any one-cusped manifold; m202 —
+tetrahedral, vol = 2 vol(m004), cusped arithmetic over ℚ(√−3) hence commensurable with the object, 96 surjections onto
+2T, Sym = D₆, chiral — has a ℤ/6 whose order-3 element fixes three geodesic lines, each from cusp 0 to cusp 1 (fc R72b,
+re-run here). fc's R72 count on them (inner lift forced for order 3, centralising A₂³; equal charges; Pantev–Wijnholt):
+**3·(16 ⊕ 10 ⊕ 1) on the SO(10) direction, anomaly-free** — fenced by fc as a θ-equivariant abelian Higgs configuration,
+a sign choice ("in the menu {0, ±1, ±2, ±3, ±4, ±6}, not selected"), PW cited not derived, I-26 unpaid. **The
+computations:** (i) verify the count independently (the three lines and their endpoints, the charge assignment, the
+lift) with this branch's Fox and isometry machinery on π₁(m202) = ⟨a, b | aabbAbAABBaB⟩; (ii) B1280's question on m202:
+the local systems of π₁(m202) and whether its twelve isometries pair each with its dual on cohomology (the analogue of
+ι\* = θ) — if they do, the flat-connection count is zero there too and only the singular-locus count remains; (iii) whether
+the E₆ chain (B1270's two faces) transports to m202 unchanged — the invariant trace field and 2T do, the founding ratio
+and the Fibonacci tower need checking; (iv) the price: what m202 costs in the identification ledger (the object is m004; a
+sibling is a new input unless commensurability is shown to be the object's own choice). ★★★ — the only route on the board
+on which a count of three is written down by any seat.

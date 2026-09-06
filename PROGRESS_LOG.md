@@ -14445,3 +14445,23 @@ an sp(8)) is unpaired** — L207 names it. One mechanism behind both: the object
 isometries pair every non-self-dual system it supplies with its dual on cohomology (ι: the abelian sector = Alexander
 reciprocity, and the E₆ germ; τ: the elliptic SL(3) components on K). Lock `tests/test_b1280_the_chirality_probe.py`
 (the six signs and the identities fast; the full probe slow). N = 0; 0 of 19; price unchanged.
+
+### B1281 — the seats verified: main's B1267/B1290–B1294 and the physics seat's R69–R72 re-run here and re-derived; the reconciliation; the parity theorem, m202 and the alias table (2026-09-07)
+
+The owner asked for the other seats' branches fetched for what is already solved and verified. Fetched main @ 506c591f
+(twelve arcs beyond this branch's fork), the physics seat @ 659487bb (R56–R72), codex @ f7a49536; every relevant script
+re-run on this bench from detached worktrees, all passing their own selftests (main's deciding, index formula, m202,
+chirality-bit harvest, 29 lock tests; fc's r69, r71 ×2, r72, r72b, r72 snappy, r72d; codex r040), and every load-bearing
+statement re-derived with this branch's code (`frontier/B1281_the_seats_verified/verification/seats_verified.py`):
+|Fix| = |det(A − I)| = [0,0,4,4,0,0,0,0] over the eight cusp maps (B1291's parity: 3 excluded on one cusp), L(g) = 1 − s_μ ∈
+{0, 2} (B1294), the inversion's inner lifts to E₆ fixing A₅ ⊕ A₁ and A₂³ and the outer fixing f₄ (fc R72), the θ-odd
+region-swap theorem with a failing disc control (fc R71), m202's invariants (B1292). **Reconciled:** main's B1267 and
+B1280 agree on N = 0 for W1/W2 and B1280 refines it (the non-rigid locus main's addendum says a revival must construct is
+the curve K; N = 0 there by V ≅ τ\*V\*); R71's region-swap theorem makes the B1277 addendum's θ-odd "no" exact and voids
+its c₍±2,0₎ caveat; fc's ±2 is a singular θ-even charge-locus count, a different quantity from N, lift-dependent — and
+B1280 fixes the lift on the geometric germ (outer, forced off F₄), so the inner-lift counts 2·(16 ⊕ 10 ⊕ 1) on m004 and
+3·(16 ⊕ 10 ⊕ 1) on m202 live on abelian backgrounds about which B1280 is silent. **New here:** the parity theorem, the
+two-cusped sibling m202 (commensurable, keeps ℚ(√−3) and 2T, ℤ/6, three fixed lines cusp 0 → cusp 1) as a third possible
+carrier of the chirality bit, fc's fenced 3·(16 ⊕ 10 ⊕ 1) there, main's doors D1/D2/D4, and the alias table (this branch's
+arcs are sB1267… on main; B1277 collides too; B1278–B1283 are this branch's). L208 registered; L204's caveat closed. Lock
+`tests/test_b1281_the_seats_verified.py`. 0 of 19; price unchanged.

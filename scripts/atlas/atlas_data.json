@@ -6705,6 +6705,28 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1281": {
+   "slug": "the seats verified",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B71",
+    "L204",
+    "L208",
+    "V0"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B128": {
    "slug": "symmetry breaking chirality",
    "motifs": [

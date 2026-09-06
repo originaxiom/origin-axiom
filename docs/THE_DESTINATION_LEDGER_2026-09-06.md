@@ -104,6 +104,16 @@ is the branch locus of the trace coordinates, where V ≅ τ\*V\*). With B1260 (
 quotient) and B1259 (the flat G₂ class), the bit can now come only from the singular G₂ closing of item 1 or from the
 observer (B713/B760/B871). `docs/CHIRALITY_MAP_2026-09-06.md` is the full account.
 
+## 4d. The seats, verified (B1281, 2026-09-07)
+
+Main and the physics seat reached the same wall from the cusp: net chirality = −χ(∂⁺M) (main B1290), the fixed-point
+count on one cusp is even so 3 is excluded on the object (main B1291, the parity theorem), every isometry counts 0 or 2
+(main B1294), and a smooth θ-odd field gives χ(∂⁺M) = 0 exactly (fc R71; 4a's caveat void). All re-run and re-derived on
+this bench. The one count of three anywhere on the board is fc R72's fenced 3·(16 ⊕ 10 ⊕ 1) on the three fixed lines of
+the two-cusped sibling m202 (commensurable with the object, ℚ(√−3), 2T) — a singular-locus Pantev–Wijnholt count, not an
+h¹, a sign choice not a selection. Item 1's carrier now has a third candidate beside the singular G₂ closing and the
+observer: a two-cusped sibling of the object (L208).
+
 ## 5. What is expected, in order
 
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the
