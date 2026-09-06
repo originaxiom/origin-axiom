@@ -8,12 +8,14 @@ ARC = ROOT / "frontier" / "B1293_seat_harvest_2026-09-06"
 
 
 def _mod():
-    sys.path.insert(0, str(ARC / "verification"))
-    try:
-        import harvest
-        return harvest
-    finally:
-        sys.path.pop(0)
+    # Loaded under a UNIQUE module name: a plain `import harvest` returns whichever arc's
+    # harvest.py another test cached first in sys.modules (B1273's, alphabetically earlier)
+    # -- the collision that turned this file red in the 2026-09-07 full run.
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("b1293_harvest", ARC / "verification" / "harvest.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
 
 
 def test_it_reproduces_by_RUNNING():
