@@ -1,0 +1,26 @@
+{
+ "id": "B1263",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1146",
+  "B1228",
+  "B1260",
+  "B1261",
+  "B1262",
+  "B302",
+  "B71"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-6",
+   "status": "UNEARNED",
+   "note": "unchanged, and now tested. SIDE A IS VERIFIED: pi_1(m004) has 72 homomorphisms to 2T = SL(2,3) of which 48 are SURJECTIVE, so the row is not refutable there and the price stays at 14. BUT the 48 fall into 2 orbits under the full Aut(2T) = S4 (4 under inner), so the object supplies TWO distinct 2T quotients and the rows phrase the 2T is not well defined -- earning it now also requires saying WHICH, or proving the map is choice-independent."
+  }
+ ],
+ "claim_one_line": "I-6's SIDE A VERIFIED, ITS MULTIPLICITY MEASURED AT TWO, AND A TEMPTING READING REFUTED. B1261 made the identification ledger the scoreboard and B1262 moved it 15 -> 14 by running a discriminator a row carried unrun; this arc audits the next candidate. I-6's side A (pi_1(m004) ->> 2T) is a finite decidable claim nobody had checked. ENUMERATED over all 576 pairs in 2T = SL(2,3) with the relator abABaBAbaB = I: 72 homomorphisms, of which 48 are SURJECTIVE -- so side A IS REAL, the row is NOT refutable there, it stays UNEARNED and the price stays at 14 (a negative result for the cheap move, recorded as such). BUT 'THE 2T' IS NOT WELL DEFINED: the 48 surjections fall into 4 orbits under inner automorphisms and exactly 2 under the full Aut(2T) = S4 (order 24, CONSTRUCTED not assumed), so the object supplies TWO genuinely distinct 2T quotients and never one -- the H5 pattern at a SIXTH level after the closing (C22), the order (A7), the partner (B1192), the sl2 embedding (I-25) and n (B1248). That SHARPENS I-6's price: earning it needs not merely a map to the transverse ALE Gamma but a statement of WHICH quotient is meant, or a proof the map is choice-independent. AND A TEMPTING READING IS REFUTED: two quotients invites reading them as mirror images so that choosing one IS the orientation bit, tying I-6 to the chirality story -- FALSE, since four relator-preserving automorphisms of pi_1 (a<->b; a,b -> a^-1,b^-1; the composite; a -> a, b -> aba^-1) all map surjections to surjections and every one FIXES both Aut-orbits 48/48, so no tested symmetry exchanges the two quotients and the choice is a genuine binary with no symmetry reason to prefer either. This arc's own hypothesis, killed by its own control. PART 2, on the owner's question 'does or could a ab fibonaci or golden play a role here?': STRUCTURALLY YES, AS THE MIRROR NO. B71's own header records the monodromy as phi = [[2,1],[1,1]] = M^2 with M the FIBONACCI matrix, and this arc verifies the chain from the substitutions: sigma (x->xy, y->x, the Fibonacci substitution) abelianises to [[1,1],[1,0]] with det -1, hence ORIENTATION-REVERSING, and sigma^2 abelianises to [[2,1],[1,1]] = the banked monodromy -- so the object's monodromy is the SQUARE OF AN ORIENTATION-REVERSING MAP, the amphichirality structure in the fibration's own language (and B1260 independently found the Alexander polynomial t^2-3t+1 reciprocal with roots phi^2, phi^-2). THE CROSS-CHECK: a fibered knot's fiber is the COMMUTATOR subgroup, so a surjection pi_1 ->> 2T restricts on the fiber to [2T,2T] = Q8 (order 8, computed), NOT to 2T -- asking the fiber to surject onto 2T gives 0 invariant pairs, a diagnostic kept in the script. With the right target: 24 generating pairs F2 ->> Q8, ALL 24 monodromy-invariant up to 2T-conjugacy, falling into exactly 2 CLASSES -- MATCHING part 1's 2 Aut(2T)-orbits computed from the KNOT presentation, two independent presentations agreeing with NO fiber<->knot dictionary assumed (B71 records that dictionary as a separate unclaimed identification). AND THE TEMPTING CONSEQUENCE IS REFUTED FROM THE SECOND SIDE: if sigma is the orientation-reversing half, the two classes might be its two sides, making the choice of 2T quotient the orientation bit -- FALSE, sigma FIXES each class, 0 swapped and 24 fixed, so together with part 1's 48/48 the reading fails from BOTH presentations. The 2-fold multiplicity is real and cross-checked; Fibonacci does not explain it."
+}

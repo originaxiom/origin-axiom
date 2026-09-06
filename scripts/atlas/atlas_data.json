@@ -6168,6 +6168,92 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1261": {
+   "slug": "the price computed",
+   "motifs": [
+    "closing",
+    "kappa",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B432",
+    "B576",
+    "B582",
+    "B713",
+    "B760",
+    "B862",
+    "B863",
+    "B864",
+    "B950"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1262": {
+   "slug": "i9 refuted",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B155"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1263": {
+   "slug": "i6 side a verified",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B302",
+    "B71",
+    "H5"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1264": {
+   "slug": "h5 census",
+   "motifs": [
+    "closing",
+    "naming",
+    "coupling",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B305",
+    "B323",
+    "B883",
+    "H5",
+    "L3",
+    "L4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B126": {
    "slug": "ladder to physics",
    "motifs": [

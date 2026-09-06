@@ -1,0 +1,24 @@
+{
+ "id": "B1262",
+ "verdict": "NEGATIVE",
+ "instrument": true,
+ "depends_on": [
+  "B1261",
+  "B1233",
+  "B155",
+  "B1223",
+  "B1231"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-9",
+   "status": "REFUTED",
+   "note": "refuted by RUNNING the discriminator the row had carried unrun. disc -15 has h = 2 (reduced forms {(1,1,4),(2,1,2)}), class group Z/2, and -15 = (-3)(5) gives 2^(t-1) = 2 genera, so the genus group has ORDER 2 -- there is no genus V4 for disc -15 and the object the row NAMES does not exist. The fallback reading of side B as Gal(Q(sqrt-3,sqrt5)/Q) gives order 4 but that is an ORDER MATCH, forbidden as evidence by B1223, plus the category mismatch B155 itself records."
+  }
+ ],
+ "claim_one_line": "I-9 REFUTED: THERE IS NO 'GENUS V4' FOR DISCRIMINANT -15, and the row had carried its own discriminator UNRUN. B1261 measured the trade at 15 unpriced inputs : 0 of the SM's 19 numbers and named two moves -- earn an identification (-1) or derive a parameter (+1); the ratchet's arithmetic contains a THIRD and cheaper one, REFUTE, which also removes a row from the UNEARNED set. I-9 was the candidate because its own text said 'the genus group of disc -15 has order 2^(t-1) = 2, not 4' and nobody had run it. COMPUTED: disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2 genera, so the genus group has ORDER 2 against Gal(Q(sqrt-3,sqrt5)/Q)'s ORDER 4. THERE IS NO GENUS V4 FOR DISC -15: the object the row NAMES does not exist, and the identification is false as stated. THE FALLBACK READING FAILS TOO on the programme's own rules -- reading side B as Gal does match orders 4 = 4, but that is an ORDER MATCH which B1223 established is not a connection ('Direct is not semidirect': the groups matched, the action did not), and B155's own row calls the glue a GL(4,Z)-class invariant 'not forced by the spectral type', i.e. LATTICE data against Gal's FIELD data, so a canonical map cannot exist. CONTROLS BOTH WAYS: the class-number routine is validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) BEFORE being trusted, which caught a real bug -- a first draft returned h(-15) = 3 by admitting (1,-1,4), which is not reduced since b >= 0 is required when |b| = a -- and discriminants with t = 3 (-84, -120) DO give 4 genera, so order 2 is a fact about -15 and not about the method. THE PRICE: UNEARNED 11 -> 10, the trade moves from 15 : 0 to 14 : 0, the first reduction, and it came from running a discriminator the register had been carrying all along."
+}

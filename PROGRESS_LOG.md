@@ -13905,3 +13905,122 @@ MAIN_GOAL JOIN 1, question 1: closed double or cusped manifold?
   sector, and the generation count cannot be a net-chirality count on this manifold at all.
 - **SCOPE HELD:** B71 records these are **fiber-group** coordinates, and the fiber↔knot dictionary is
   *a separate identification*; which extension is meant is part of the deciding computation.
+
+### B1261 — the price, computed (2026-09-06)
+
+JOIN 2's lead closed **NEGATIVE** first: **n in κ = 2 + n² is NOT object-determined** — n = 1…7 all
+occur, with hundreds of partners each, reconfirming **B1248**'s *"infinite family, not a point."*
+(A near-miss caught by its own control: κ = 3 at minimal n looked like tr(A) = 3, but κ = 2 + n²
+makes κ = 3 **automatic** at n = 1 — numerology, discarded.) One clean by-product: the identity
+**det(AM − MA) = 2 − κ** verified on every noncommuting M in the box, confirming B1248's corrected law.
+
+That made the live question the one never answered in one place — **what does the programme spend,
+and what does it buy?**
+
+- **SPENDS: 4 axioms + 11 UNEARNED identifications = 15 unpriced inputs.**
+- **BUYS: 0 of the SM's 19 free parameters** (26 with Dirac neutrinos) — *"none. Seven sealed
+  crossings, seven negatives."*
+- **Counted separately and never converted:** the **global ℤ₆ form** (DERIVED, B862 — *the SM itself
+  cannot fix it*), **hypercharge direction** (B864; normalisation not derivable), anomaly
+  cancellation, termination at the SM (B863). **Partial**: the gauge algebra is dim **14** against the
+  SM's **12** — two steps away, not zero. **Not a prediction**: sin²θ_W = 3/8 is a known GUT relation
+  and non-discriminating. **Closing-supplied**: chirality — which E65/B1260 now explain (the object is
+  **self-paired**; handedness is the mirror-odd content a self-paired thing cannot hold).
+- **THE VERDICT, in two currencies that do not convert.** By **parameter count** the trade is **NET
+  NEGATIVE**: 15 bought 0. By **structural content** the programme derives what the SM assumes or
+  cannot state — real, and the honest reason to continue, but **not a parameter reduction**. The
+  selftest **enforces** this: the structural tally is never subtracted from the parameter tally.
+- **THE CONSTRUCTIVE CONSEQUENCE.** The rate is **15 : 0**, and exactly two moves change it — **earn
+  an identification (−1)** or **derive a parameter (+1)**. Earning is cheaper, already instrumented
+  by the B1231 ratchet, and **8 rows are EARNED already**. So the identification ledger is **not
+  bookkeeping around the physics — it IS the scoreboard.**
+
+### B1262 — I-9 refuted: there is no "genus V₄" for disc −15 (2026-09-06)
+
+B1261 named two moves on the 15 : 0 trade; the ratchet's arithmetic contains a **third and cheaper**
+one — **REFUTE**, which also removes a row from UNEARNED. **I-9 was carrying its own discriminator,
+written and never run:** *"the genus group of disc −15 has order 2^(t−1) = 2, not 4."*
+
+- **COMPUTED.** disc −15 has reduced primitive forms **{(1,1,4), (2,1,2)}** ⇒ **h(−15) = 2**, class
+  group **ℤ/2**; and −15 = (−3)(5) gives t = 2 ⇒ **2 genera** ⇒ **genus group of ORDER 2**, against
+  Gal(ℚ(√−3,√5)/ℚ)'s **order 4**. **There is no "genus V₄" for disc −15** — the object the row
+  **names** does not exist, so the identification is **false as stated**.
+- **THE FALLBACK FAILS TOO.** Reading side B as Gal does match orders (4 = 4), but that is an **ORDER
+  MATCH**, which **B1223** established is not a connection (*"Direct is not semidirect"* — the groups
+  matched, the action did not); and **B155's own row** calls the glue *"not forced by the spectral
+  type"*, **lattice** data against Gal's **field** data, so no canonical map can exist.
+- **CONTROLS BOTH WAYS.** The class-number routine was **validated on five known values before being
+  trusted** — and it **caught a real bug**: a first draft returned h(−15) = 3 by admitting (1,−1,4),
+  which is not reduced (b ≥ 0 required when |b| = a). And **t = 3 discriminants (−84, −120) DO give
+  4 genera**, so "order 2" is a fact about −15, not about the method.
+- **THE PRICE MOVES: UNEARNED 11 → 10, so the trade goes 15 : 0 → 14 : 0.** The first reduction, and
+  it came from running a discriminator the register had been carrying all along.
+
+### B1263 — I-6's side A verified; and Fibonacci is the monodromy but not the mirror (2026-09-06)
+
+**Part 1 — the audit.** I-6's side A (π₁(m004) ↠ 2T) was a finite decidable claim nobody had checked.
+Enumerated over all 576 pairs in 2T = SL(2,3) with the relator: **72 homomorphisms, 48 SURJECTIVE.**
+**Side A is real**, so I-6 is not refutable there — **the price stays at 14** (a negative for the
+cheap move, recorded as such). **But "the 2T" is not well defined:** those 48 fall into **4** orbits
+under inner automorphisms and exactly **2** under the full **Aut(2T) = S₄** (order 24, *constructed*).
+**The object supplies two distinct 2T quotients, never one** — the H5 pattern at a **sixth** level,
+after C22, A7, B1192, I-25 and n. Earning I-6 now also requires saying **which**.
+
+**Part 2 — the owner's question: does Fibonacci play a role?** **Structurally yes; as the mirror, no.**
+
+- **B71's own header** records the monodromy as **φ = [[2,1],[1,1]] = M²**, M the **Fibonacci matrix**.
+  Verified from the substitutions: **σ** (x→xy, y→x) abelianises to **[[1,1],[1,0]], det −1 —
+  ORIENTATION-REVERSING** — and **σ² → [[2,1],[1,1]]**, the banked monodromy. **The object's monodromy
+  is the square of an orientation-reversing map**: the amphichirality structure in the fibration's own
+  language. (B1260 independently found Δ = t² − 3t + 1 **reciprocal**, roots **φ^{±2}**.)
+- **THE CROSS-CHECK.** A fibered knot's fiber is the **commutator subgroup**, so ρ restricts on the
+  fiber to **[2T,2T] = Q₈** (order 8, computed), not 2T. Asking the fiber to surject onto 2T gives
+  **0** invariant pairs — the diagnostic that located the wrong target, kept in the script. With Q₈:
+  **24** generating pairs, **all 24** monodromy-invariant up to 2T-conjugacy, in exactly **2 classes**
+  — **matching part 1's two orbits from the KNOT presentation, with no fiber↔knot dictionary assumed**
+  (B71 records that dictionary as separate and unclaimed).
+- **AND THE MIRROR READING IS REFUTED FROM THE SECOND SIDE:** σ **fixes** each class (**0 swapped, 24
+  fixed**). With part 1's **48/48**, the reading fails from **both** presentations. **The 2-fold
+  multiplicity is real and cross-checked; Fibonacci does not explain it.**
+
+### B1264 — the H5 census, and I-14 recomputed instead of cited (2026-09-06)
+
+**The correction that produced it.** Owner: *"b323 is 1000bs old."* Correct — the seat had just leaned
+on **B323**'s 2026-07 adjudication to conclude I-14 was not refutable. **That is citing, not
+computing.**
+
+- **RECOMPUTED from the object's own 27.** Of the 3⁶ labellings, **170** are integral and split the 27
+  as **9+9+9**, giving **85 distinct colourings** up to colour permutation. And **every** such grading
+  operator has eigenvalues **1, ω, ω²** with **ω the Eisenstein unit of ℚ(√−3)** — the **same
+  algebraic number** generating the commensurator's ℤ/3.
+- **STATUS UPGRADED, carefully.** L3~L4 is **not an order match** (B1223's forbidden evidence) but a
+  match of the **acting algebraic number in the object's own field** — better than B323 recorded.
+  **Not yet a map that ACTS:** 85 candidate gradings, none selected. **I-14 stays UNEARNED; price
+  stays 14.**
+- **THE CENSUS.** 85 joins **eight** measured instances of **H5** — closing (C22), order (A7, **2**),
+  partner (B1192), n (B1248, ∞), sl₂ embedding (I-25, **4**), 2T quotient (I-6, **2**), L3 grading
+  (**85**), L3→L4 map (**2**) — **five with multiplicity measured, four of those first measured this
+  session.**
+- **MECHANISM, WITH ITS LIMIT.** B1227's 2I = 0 explains the **chirality** instances (E65/B1260's seven
+  walls as one theorem); it does **not** explain the counting multiplicities. **One pattern, at least
+  two mechanisms — not over-unified.**
+- **FALSIFIER SHARPENED, NOT MET.** B1224's CS = 0 is a point the object supplies, but a
+  **self-referential** one, which H5 permits. **H5 stands un-falsified and un-banked.**
+
+### Ledger hygiene — two malformed rows fixed, a gate added, and one of my own claims withdrawn (2026-09-06)
+
+Continuing the row-by-row audit under `docs/MAIN_GOAL.md`.
+
+- **A CLAIM OF MINE, WITHDRAWN.** I reported I-7 as *"malformed — it can't be earned or refuted as
+  written."* **That was wrong.** I-7 is correctly escaped (`\|`); **my naive `.split("|")` was the
+  bug**, not the row. Re-run with escape-aware splitting, I-7 parses fine.
+- **TWO ROWS WERE GENUINELY MALFORMED**, both from unescaped pipes inside content:
+  **I-16** (`|D|`, absolute-value bars, from B1242) and **I-24** (`[C18, D₂|W18]`, the restriction
+  bar) — **the latter written by this seat a few hours earlier the same day.** Both fixed by escaping.
+- **THE PRICE WAS NEVER CORRUPTED.** Both are REFUTED rows, and the census matches on the bolded
+  status token rather than field position: **8 EARNED / 8 REFUTED / 10 UNEARNED**, price **14**,
+  agreeing with the ratchet. Verified before and after.
+- **A GATE ADDED.** `tests/test_b1261_the_price.py` now fails if any ledger row parses to other than
+  11 escape-aware fields, or if any row lacks exactly one bolded status token. Since **B1261 made
+  this file the scoreboard**, a row that does not parse should red the suite rather than wait to be
+  noticed. All **26** rows now parse; 30/30 gates.

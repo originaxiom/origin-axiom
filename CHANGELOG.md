@@ -1,5 +1,62 @@
 # Changelog
 
+## THE H5 CENSUS — eight measured instances, and I-14 recomputed instead of cited
+
+**B1264.** Owner: *"b323 is 1000bs old"* — and the seat had just leaned on B323's 2026-07 adjudication
+to close I-14. **Recomputed from the object's own 27:** 170 labellings split it **9+9+9**, giving **85
+distinct colourings**, and **every grading operator has eigenvalues 1, ω, ω² with ω the Eisenstein unit
+of ℚ(√−3)** — the **same algebraic number** generating the commensurator's ℤ/3. So L3~L4 is **not an
+order match** (B1223's forbidden evidence) but a match of the **acting algebraic number in the object's
+own field** — better than B323 recorded — though **not yet a map that acts** (85 candidates, none
+selected). **I-14 stays UNEARNED, price stays 14.** **The census:** eight instances of H5, five with
+multiplicity now measured (A7 **2**, I-25 **4**, I-6 **2**, L3 grading **85**, L3→L4 **2**), four
+measured first this session. **Mechanism with its limit:** B1227's 2I = 0 covers the chirality
+instances; the counting multiplicities it does not — **one pattern, two mechanisms, not over-unified.**
+**Falsifier sharpened, not met:** CS = 0 is a *self*-referential point, which H5 permits.
+
+## I-6's SIDE A VERIFIED, THE MULTIPLICITY IS TWO — and Fibonacci is the monodromy, not the mirror
+
+**B1263.** Auditing the next ledger row after B1262 moved the price to 14. **Part 1:** π₁(m004) ↠ 2T is
+real — **72 homomorphisms, 48 surjective** — so I-6 is **not** refutable there and **the price stays at
+14**. But the 48 fall into **2 orbits under Aut(2T) = S₄** (4 under inner): **the object supplies two
+distinct 2T quotients, never one** — the H5 pattern at a **sixth** level. **Part 2**, on the owner's
+question: **B71's header already records the monodromy as φ = [[2,1],[1,1]] = M², M the Fibonacci
+matrix**, and this arc verifies it from the substitutions — **σ (x→xy, y→x) abelianises to [[1,1],[1,0]]
+with det −1, ORIENTATION-REVERSING**, and σ² is the monodromy. **The object's monodromy is the square of
+an orientation-reversing map.** The fiber is the commutator subgroup, so it maps onto **[2T,2T] = Q₈**:
+**24 generating pairs, all monodromy-invariant, in exactly 2 classes — matching part 1's two orbits from
+the knot presentation, with no fiber↔knot dictionary assumed.** **But σ fixes each class (0 swapped, 24
+fixed)**, so with part 1's 48/48 the mirror reading **fails from both presentations**. The 2-fold
+multiplicity is real and cross-checked; **Fibonacci does not explain it**.
+
+## I-9 REFUTED — there is no "genus V₄" for disc −15, and the row carried its own discriminator unrun
+
+**B1262.** B1261 named two moves on the **15 : 0** trade; the ratchet contains a **third and cheaper**
+— **refute**. I-9's own text said *"the genus group of disc −15 has order 2^(t−1) = 2, not 4"* and
+nobody had run it. **Computed:** disc −15 has reduced forms **{(1,1,4), (2,1,2)}** ⇒ **h = 2**, class
+group **ℤ/2**, and −15 = (−3)(5) gives **2 genera** ⇒ **genus group of order 2**, against
+Gal(ℚ(√−3,√5)/ℚ)'s order 4. **There is no "genus V₄" for disc −15** — the named object does not exist.
+The fallback (side B = Gal) matches orders, but that's an **order match**, forbidden as evidence by
+**B1223**, plus the category mismatch **B155** itself records (lattice data, not field data).
+**Controls:** the class-number routine was validated on five known values first — catching a real bug
+(a draft gave h(−15) = 3 by admitting the unreduced (1,−1,4)) — and t = 3 discriminants **do** give 4
+genera, so order 2 is about −15, not the method. **UNEARNED 11 → 10: the trade moves 15 : 0 → 14 : 0.**
+
+## THE PRICE, COMPUTED — fifteen unpriced inputs bought zero of nineteen numbers
+
+**B1261.** JOIN 2's lead closed **negative** (n in κ = 2 + n² is **not** object-determined; n = 1…7 all
+occur — B1248 reconfirmed), which made the live question the one the corpus had never answered in one
+place. Read from the ledgers: the programme **SPENDS 4 axioms + 11 UNEARNED identifications = 15
+unpriced inputs** and **BUYS 0 of the SM's 19 free parameters**. Counted separately and never
+converted: the **global ℤ₆ form** (DERIVED — *the SM cannot fix it*), hypercharge **direction**,
+anomaly cancellation, termination at the SM; **partial** on the gauge algebra (dim 14 vs the SM's 12 —
+two steps away); sin²θ_W = 3/8 is a **known GUT relation**, not a prediction; chirality is
+**closing-supplied**. **By parameter count the trade is NET NEGATIVE; by structural content the
+programme derives what the SM assumes — and the two do not convert**, which the selftest *enforces*.
+**The consequence:** the rate is **15 : 0** and only two moves change it — **earn an identification
+(−1)** or **derive a parameter (+1)**. Earning is cheaper, already instrumented, and 8 rows are earned.
+**The identification ledger is the scoreboard, not bookkeeping.**
+
 ## WHERE NET CHIRALITY CAN LIVE — the closed wall generalised, the abelian sector walled, one branch left
 
 **B1260**, MAIN_GOAL JOIN 1 q1. **(1)** The closed wall is **general**: PD + χ = 0 + h⁰(V) = h⁰(V*) = 0
