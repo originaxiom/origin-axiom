@@ -388,3 +388,29 @@ Also this window: the scale wall's **reason** is corrected (B1226 cell 1) — `b
 equivalent to `CS ≡ 0`, i.e. to the object's complex volume being **real**, and **not** to
 amphichirality (m003 is amphichiral with CS = ¼; m208 is chiral with CS = 0). The wall stands for
 m004; it is a contingent datum, not a symmetry theorem.
+
+## Currency read 2026-09-06 (head B1271) — the assembly seat: JOIN 1 computed, E₆ from both faces, the chain taken all the way
+
+Read against `docs/THE_ASSEMBLY_2026-09-06.md` §6 (this ledger's rows, graded) and `docs/THE_SM_VERDICT.md`'s
+2026-09-06 currency update. What moved, row by row:
+
+- **Gauge algebra (rows A1/C):** the SM algebra is **not a centralizer in e₆** (B1269: c(c(s)) has dim 13 ≠ 12),
+  so no flat connection, Wilson line or adjoint VEV leaves exactly the SM — the rank-6 Levi is the adjoint's
+  last stop for every holonomy. **Rank 6 → 4 is reached as structure by the 27's own two SM singlets** (ν^c
+  and the SO(10) singlet; charge matrix of rank 2 under the two extra U(1)s — B1271 §3, the B955/B962/B964
+  route made explicit on B1252's descent); the two VEV *values* stay unsupplied (the orbit is K's, B969).
+- **Three generations (row A3):** every h¹ reading is vector-like, on the closed double (27̄ = 27 in every cell,
+  B1267) and on the cusped object (−h⁰(∂M;V) ≤ N(V) ≤ h⁰(∂M;V\*), |N(27)| ≤ 1 near the geometric point;
+  B102's W1/W2 return N = 0 — B1268). The **three is present as structure**: the (27,3) of the golden E₈
+  (B1138 §4's exhibit; B1270 derives that E₈ from ⟨R,L⟩ mod 5 = 2I and cuts E₆ out of it by the founding
+  ratio) — with its mirror (27̄,3̄), and on m004 as **one cohomology class** (b₁ = 1). *"Exactly one
+  generation"* (B1161/B1162) is what the E₈ transport also counts under the 2T holonomy: h¹(m004; 3_ρ) = 1.
+- **Yukawa couplings and masses (rows A5–A7):** **the Yukawa E₈ forces on its triplet is zero** (B1271 §5: the
+  family tensor is ε_ijk, a superpotential sees only its symmetric part, W ≡ 0 monomial by monomial on the
+  45-triple support of E₆'s cubic). Located (B1271 addendum): the 4d family tensor on H¹(Q; 3_ρ) is symmetric,
+  so a nonzero Yukawa needs **three classes** — B1253's h¹ = 3, the count's only surviving route — with an H³
+  target (B1043's door). This zero and SEAM-Y's up-Yukawa zero (B1240, heterotic dressing) are on different
+  objects; recorded as consistent, not identified. The E₆ cubic's SO(10) content is **45 = 40 (10·16·16) +
+  5 (1·10·10)**: no Majorana term for ν^c exists in it at all.
+- **Values (§D5):** unchanged — 0 of 19; the price 14 rows / 11 irreducible sources (B1261, B1266). The value
+  question gains a named carrier, not a number: one closing with three classes, an H³, and a non-self-dual 3_ρ.

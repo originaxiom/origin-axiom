@@ -73,7 +73,9 @@ crossing candidate that does not ask the object for something it provably cannot
 
 *"The object lacks dynamics" is false as stated* (`OPEN_ITEMS` C1): six PROVED arcs, and B944 names a
 dynamical system several times over. B1157's real result is narrow — no parameter-free law at the
-archimedean ∞-place. **Open:** three of B497's four strata never worked; the **23 S-matrix arcs**
+archimedean ∞-place. **PRICED 2026-09-06:** the fork is worth **2 units on B1261's scoreboard** — **I-10** (the beat-selected internal A₁ lift ≡ 4d Lorentz spin) and **I-11** (the boundary θ polarization ≡ the bulk spin class) are **not independent debts; they ARE the fork**, as B1145's own fence says (*"an su(2) internal to E₆ … not the 4d Lorentz group … the unpaid bridge (the E₆(−26) spacetime branch)"*). Crossing it pays both: **14 → 12**.
+
+**Open:** three of B497's four strata never worked; the **23 S-matrix arcs**
 unassessed; **Ward identity genuinely zero**; and the **E₆(−14)/E₆(−26) fork** that no arc crosses,
 which is what keeps the four interactions from meeting.
 
@@ -119,3 +121,12 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   chiral, or E₆ with one 27 + one 27̄) that is vector-like and massless; the missing object for the values is
   named — a *symmetric* family tensor — and the corpus found none on the object (B1036 V3, I-24). Price
   unchanged at 14.
+- **Reconciled with main's crystallisation (2026-09-06; the branch's arcs renumbered B1267–B1271 after main
+  banked its own B1265/B1266).** Read against `docs/THE_SM_VERDICT.md` and `docs/THE_STATE_2026-09-06.md`:
+  the E₈ family triplet was B1138 §4's exhibit (fenced EXHIBITS-NOT-FORCES, B1140) — B1270 derives that E₈
+  from the golden face and the fence stands as the transport's choice of face (H5); the two-27-VEV route is
+  B955/B962/B964's with the orbit distinguished by K (B969); and the triplet's zero Yukawa is located: the
+  4d generation index is the cohomology index, its family tensor T_{αβγ} = ε_ijk ∫ω_α∧ω_β∧ω_γ is symmetric,
+  and on m004 the triplet is **one class** (b₁ = 1). **The count's only surviving route (B1253's h¹ = 3) is
+  also the Yukawa's only route**, and both need a closing with an H³ (B1043's door) and a non-self-dual 3_ρ.
+  E68 typed. THE_STATE §7's item 1 (W1/W2) is computed: N = 0.

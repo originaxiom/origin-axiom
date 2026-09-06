@@ -1,5 +1,15 @@
 # Changelog
 
+## RECONCILED WITH MAIN — the branch's arcs renumbered B1267–B1271; THE_SM_VERDICT and THE_STATE read; the prior exhibits cited (E68); the generation index located
+
+Main banked its own B1265/B1266 and crystallised THE_STATE; this branch's B1265–B1269 become **B1267–B1271**.
+Read against the verdict: the E₈ family triplet was **B1138 §4's** exhibit (fenced EXHIBITS-NOT-FORCES, B1140) —
+B1270 derives that E₈ from the golden face and the fence stands as the transport's choice of face (H5); the
+two-27-VEV route is B955/B962/B964's with the orbit distinguished by K (B969); and the triplet's zero Yukawa is
+located — the 4d family tensor T_{αβγ} = ε_ijk ∫ω_α∧ω_β∧ω_γ on H¹(Q; 3_ρ) is symmetric, and on m004 the triplet
+is **one class**. **The count's only surviving route (h¹ = 3) is also the Yukawa's**, and both need a closing with
+an H³ (B1043's door). Currency addenda to THE_SM_VERDICT and THE_STATE. Price unchanged.
+
 ## THE CHAIN TAKEN ALL THE WAY — three generations as the Eisenstein triplet, the rank reduction by the 27's singlets, and the Yukawa E₈ forces on the triplet: zero
 
 **B1271**, on the owner's third instruction. Three generations are the **(27,3) of the golden E₈** — three copies
@@ -38,6 +48,35 @@ chiral and **u(1)⁴** for the 2T quotient; in both transports the fields on Q a
 one unitary flat connection gives **4d N=1 U(1)⁴ with 24 vector-like chirals**. The remaining price of a
 generation count is a named object: **three E₇ points on a conical G₂ geometry, permuted by 2T/Q₈**.
 `docs/THE_ASSEMBLY_2026-09-06.md` assembles the whole chain with these results. Price unchanged at 14.
+## THE SOURCE OF INPUT — the 14 overcounts; the irreducible number is 11
+
+**B1266**, on the owner's *"should we find the source of input"*. **It corrects B1261.** The 10
+unearned rows are **not independent** and say so themselves: I-18 and I-23 reduce to **I-13**
+(*"i.e. paying I-13"*), I-11 to **I-10** (*"the same map as I-10"*). Union-find over those stated
+reductions gives **10 rows → 7 irreducible sources**: the **listener map** (3 rows), the **fork**
+(2 rows), and one each for I-6, I-7, I-14, I-25, I-26. **Price restated, both numbers kept:
+14 = rows outstanding (the ratchet's work items); 11 = 4 axioms + 7 sources = the theory's actual
+free inputs.** Against the SM's **19**, the meaningful comparison is **11**. Still **net negative** —
+11 bought 0. **Two parser traps are now controls:** a reference to the **EARNED** I-1 must not count
+as a debt (I-25), and the **I-10↔I-11 cycle** must resolve to **one** source (a naive closure reports
+8). **The sources classify by type:** H5-type (I-6 **2**, I-14 **85**, I-25 **4** — all measured),
+missing bridge (the fork, now a *rank* obstruction per B1265; I-26's index theorem), the master
+(I-13), and one unclassified (I-7).
+
+## THE REAL FORM IS DERIVED, AND THE FORK IS A RANK OBSTRUCTION
+
+**B1265**, MAIN_GOAL JOIN 3. B1140 banked the fork as a brute fact — *"the two real forms split the
+world with nothing shared."* It is neither forced nor a choice. **D₂ — the object's own twist — is an
+involution**, and on the adjoint gives **dim 𝔨 = 46 (so(10)+u(1)), dim 𝔭 = 32, signature 32 − 46 =
+−14**. Since real forms correspond (Cartan) to involutions labelled by that signature, and
+**E₆(−14) is by definition the form of signature −14**, **the object's own D₂ derives the charge
+branch** — a point, not a family. **And the fork is a RANK obstruction:** D₂ is conjugation by a torus
+element, hence **inner**, reaching only equal-rank forms; **E₆(−26)** — Lorentz, compact colour, the
+graviton — has **𝔨 = f₄ of rank 4** and is **outer**, so **no torus element reaches it**. That is *why*
+the branches share nothing. **What would cross it is named exactly:** an outer involution, i.e. E₆'s
+diagram automorphism — **θ**. **Fenced:** that the *object's* θ is that automorphism and can serve as
+the Cartan involution is **not** established here, and θ being **trivial on the character variety**
+cuts against it. Price unchanged at **14**.
 
 ## THE H5 CENSUS — eight measured instances, and I-14 recomputed instead of cited
 

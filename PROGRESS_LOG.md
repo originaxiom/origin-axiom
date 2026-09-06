@@ -14025,6 +14025,74 @@ Continuing the row-by-row audit under `docs/MAIN_GOAL.md`.
   this file the scoreboard**, a row that does not parse should red the suite rather than wait to be
   noticed. All **26** rows now parse; 30/30 gates.
 
+### I-10 and I-11 localised: they are not two debts, they ARE the fork (2026-09-06)
+
+Finishing the ledger audit by going after the two rows the seat had said it **did not understand**.
+
+- **UNDERSTOOD NOW.** **B1141**: m004 has exactly **2 spin structures** (H₁ = ℤ), the relator census
+  `R(A,B)=+I, R(−A,−B)=+I, R(−A,B)=R(A,−B)=−I` names the two lifts, and **the object's beat selects
+  one** — the last free discrete bit is *assigned*. **B1145**: the 27 is **minuscule**, so it
+  restricts to that root-sl₂ as **6·(fundamental 2) + 15·(singlet)**. Side A is a root-sl₂ inside
+  **su(6) ⊂ E₆**.
+- **AND THE SOURCE ARC FENCES AGAINST THE ROW IN AS MANY WORDS.** B1145's honest-fence section: *"the
+  A1 here is an su(2) **internal to E₆** (its centralizer is su(6)) — **not** the 4d Lorentz group;
+  its ±1 parity is an internal quantum number, **not a 4d Weyl spinor**"*; *"no Pin structure … no
+  Dirac operator or index … no 4d chirality"*; and *"whether that internal assignment is the
+  **spacetime** fermion seat is precisely **the unpaid bridge (the E₆(−26) spacetime branch,
+  B1140)**."*
+- **SO THEY ARE ONE THING.** I-11's earning condition is literally *"the same map as I-10"*, and I-10
+  is the bridge B1145 names. **Both reduce to the E₆(−14)/E₆(−26) FORK** — B1140's *"the two real
+  forms split the world with nothing shared"*: E₆(−14) took the charges, **E₆(−26) took Lorentz,
+  colour and the graviton** — the fork **no arc crosses**, and JOIN 3's blocker.
+- **AND THAT PRICES JOIN 3.** On B1261's scoreboard the fork is worth **2 units**: crossing it pays
+  **I-10 and I-11 together, 14 → 12**. Recorded in both rows and in `docs/MAIN_GOAL.md`.
+- **Suite green** (`PYTEST_RC=0`, 6112 passed) on the state pushed before this entry; 30/30 gates.
+
+### B1265 — the real form is DERIVED, and the fork is a rank obstruction (2026-09-06)
+
+MAIN_GOAL **JOIN 3**, attacked after B1263/B1264 localised I-10 and I-11 to the fork and priced it at
+2 units. B1140 had banked the fork as a brute fact (*"nothing shared"*). It is neither forced nor a
+choice — **it is a rank obstruction.**
+
+- **THE REAL FORM IS DERIVED.** Real forms correspond (Cartan) to involutions up to conjugacy,
+  labelled by the **signature** dim 𝔭 − dim 𝔨. **D₂ — the object's own twist** — is an involution, and
+  on the adjoint gives **dim 𝔨 = 46** (= so(10)+u(1) = 45+1), **dim 𝔭 = 32**, so
+  **signature = 32 − 46 = −14**. **E₆(−14) is by definition the real form of signature −14**, so
+  **the object's own D₂ selects it uniquely among the five.** The charge branch is **derived**, and
+  this is a place where the object supplies **a point, not a family**.
+- **AND THE FORK IS A RANK OBSTRUCTION.** D₂ is conjugation by a **torus element**, hence **INNER**,
+  and inner involutions reach only the **equal-rank** forms (compact, **E₆(−14)**, E₆(2)).
+  **E₆(−26)** — Lorentz, compact colour, the graviton — has **𝔨 = f₄ of RANK 4**, so it is **OUTER**:
+  **no torus element of E₆ reaches it.** That is *why* B1140's two branches share nothing.
+- **WHAT WOULD CROSS IT, NAMED:** only an **outer** involution — E₆'s **diagram automorphism**, i.e.
+  **θ**, the 27↔27̄ swap the corpus banks as the object's own symmetry. **JOIN 3's blocker is now
+  "does the object's θ act as an outer involution here, and with which fixed subalgebra?"**
+- **FENCED.** That θ is E₆'s outer automorphism is standard; that the **object's** θ *is* it and can
+  serve as the Cartan involution is **not established here** — and the corpus's θ facts **cut both
+  ways**: the object is θ-symmetric, but **θ is trivial on the character variety**, a reason to doubt
+  it carries the geometric content E₆(−26) needs. **Nothing earns I-10/I-11; the price stays 14.**
+
+### B1266 — the source of input: the 14 overcounts, the irreducible number is 11 (2026-09-06)
+
+Owner: *"should we find the source of input"*. Yes — and it **corrects B1261**.
+
+- **THE ROWS ARE NOT INDEPENDENT**, and they say so themselves: **I-18** (*"i.e. paying I-13, the
+  listener map u"*), **I-23** (*"paying I-13 on this instance"*, claim reads *"an I-13 instance"*),
+  **I-11** (*"the same map as I-10"*).
+- **TWO PARSER TRAPS, now asserted as controls.** **I-25** cites **I-1**, which is **EARNED** — an
+  earned row is not a debt, and counting it invents a dependency. **I-10 ↔ I-11 form a 2-cycle** that
+  a naive transitive closure splits into two roots, reporting **8** sources instead of 7.
+- **RESULT: 10 unearned rows → 7 irreducible sources** — [3] I-13/I-18/I-23 (the listener map),
+  [2] I-10/I-11 (the fork), and one each for I-6, I-7, I-14, I-25, I-26.
+- **PRICE RESTATED, BOTH NUMBERS KEPT.** **14 = rows outstanding** (the ratchet's work items);
+  **11 = 4 axioms + 7 sources = irreducible inputs** (the theory's actual free inputs, since earning
+  I-13 discharges I-18 and I-23 with it). **Against the SM's 19, the meaningful comparison is 11.**
+  B1261 **corrected, not withdrawn** — its method and row count were right; it did not quotient by
+  the rows' own stated reductions. **Still net negative: 11 bought 0 of 19.**
+- **AND THE SOURCES CLASSIFY BY TYPE:** **H5-type** (object supplies a family, observer picks) —
+  I-6 (**2**), I-14 (**85**), I-25 (**4**), all measured this session; **missing bridge** — I-10/I-11
+  (the fork, now a **rank** obstruction per B1265) and I-26 (an index theorem across a dimension gap);
+  **the master** — I-13; **unclassified** — I-7.
 ---
 
 ### B1265 — the spectrum law rebuilt from the repository's own 27, and extended (2026-09-06)
@@ -14169,3 +14237,24 @@ banked ones), this branch's five arcs are renumbered: B1265 → **B1267** (spect
 **B1268** (cusped net-chirality bound), B1267 → **B1269** (transport computed), B1268 → **B1270** (E₆ from the
 two faces), B1269 → **B1271** (the chain all the way). The entries above dated 2026-09-06 that name
 B1265–B1269 refer to these arcs under their old numbers; the log is append-only, so they stand as written.
+
+### Reconciliation with main (2026-09-06) — THE_SM_VERDICT and THE_STATE read, the prior exhibits cited, the generation index located
+
+On the owner's *"have you read THE_SM_VERDICT.md? fetch the repo."* Fetched: main had banked **B1265** (the fork
+is inner vs outer) and **B1266** (the source of input; 14 rows = 11 irreducible sources) and crystallised
+`docs/THE_STATE_2026-09-06.md`; this branch's five arcs renumbered **B1267–B1271** and main merged.
+
+- **E68 (RE-DERIVED-NOT-CITED):** the E₈ family triplet is **B1138 §4's** exhibit, fenced EXHIBITS-NOT-FORCES
+  by **B1140** in the verdict itself; the two-27-VEV route is **B955/B962/B964's**, its canonical orbit
+  **B969/L138's**; the missing three-slot target is **B1043 W4's**. Addenda in B1270 and B1271 correct the
+  provenance; no number changes.
+- **The fence re-read and kept:** B1270 makes E₈ the golden face's own McKay lattice (⟨R,L⟩ mod 5 = 2I, the
+  icosians) with the family A₂ = the founding ratio's plane; what is not forced is which face's group is the
+  singularity along Q — an H5 instance.
+- **The generation index located (B1271 addendum):** the 4d fields are 27 ⊗ H¹(Q; 3_ρ) and the family tensor
+  T_{αβγ} = ε_ijk ∫ω_α∧ω_β∧ω_γ is **symmetric** in the class index; the triplet's zero is that on m004 its
+  three 27s are three components of **one** class (b₁ = 1). A nonzero Yukawa needs **three classes** —
+  B1253's h¹ = 3, the verdict's "only surviving route" for the count — with an H³ (B1043's door) and, for
+  chirality, a non-self-dual 3_ρ (E65/B1268). One named object, three requirements.
+- Currency addenda appended to `docs/THE_SM_VERDICT.md` and `docs/THE_STATE_2026-09-06.md` (its §7 item 1 —
+  W1/W2 — is computed: N = 0 in every row). Price unchanged (14 rows / 11 sources).

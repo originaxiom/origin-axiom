@@ -44,7 +44,9 @@ not predicted. Its *contents* are walled by five theorems, four of them computed
 icosian E₈, the ratio cuts E₆ out of it as the complement of the Eisenstein plane, and the 27, its ℤ/3 and its
 θ are the same cut. **And the three generations are in it** (B1271): the (27,3) of E₈ ⊃ E₆ × SU(3), three
 copies of the whole 27 cycled by the founding ratio — present as structure, with their mirror, and with the
-Yukawa E₈ gives them being zero. What remains to be *built* is a single named geometric object, not a missing
+Yukawa E₈ gives them being zero. (The triplet itself was exhibited on an ambient E₈ by B1138 §4 and fenced
+EXHIBITS-NOT-FORCES in B1140; B1270 derives that E₈ from the golden face, and the fence stands as the
+transport's choice of face — an H5 instance.) What remains to be *built* is a single named geometric object, not a missing
 ingredient: **a conical G₂
 geometry whose E₆ locus carries three isolated E₇ points permuted by ℤ/3 = 2T/Q₈** — B1084's three A₁ families,
 which every flat orbifold spreads into lines (B1259). That, the VEV values of the 27's two singlets for
@@ -126,7 +128,7 @@ has a slot** — the (27,3) of E₈ ⊃ E₆ × SU(3), counted by h¹(Q; 3_ρ) �
 with **one 27 and one 27̄** (the real 3), or with **nothing** (the complex twists 2′ ⊕ ω, 2″ ⊕ ω̄: 0 = 0, no cusp
 invariants). **I-26 stays UNEARNED with its price reduced to q2's named object.**
 
-**q4 — the multiplicity route (B1271).** The three is in the E₈ transport as structure: the (27,3) of
+**q4 — the multiplicity route (B1271; the exhibit is B1138 §4's, fenced in B1140).** The three is in the E₈ transport as structure: the (27,3) of
 E₈ ⊃ E₆ × SU(3) — three copies of the whole 27 indexed by the weights of the Eisenstein 3 and cycled by the
 founding ratio — and as 4d fields it is the E₆ × SU(3) content of the one adjoint chiral of the E₈ theory
 (b₁ = 1), with the mirror (27̄,3̄) alongside: N = 0 (or one 27 + one 27̄ under the 2T holonomy). Choosing the
@@ -149,9 +151,13 @@ arithmetic (L12) is real and is not a flavour index (I-24 REFUTED).
 E₈ supplies is ε_ijk and the superpotential of the triplet vanishes identically — checked monomial by monomial
 on the 45-triple support of E₆'s cubic (E₈ has no cubic invariant; Sym³(27 ⊗ 3) has no singlet; b₁ = 1 kills the
 Chern–Simons cubic): every tree-level mass, angle and phase is **zero**, not merely unsupplied. What the values
-need at this step is a **symmetric** family tensor on the triplet — three 27s that something outside E₈ tells
-apart — and the corpus's own search on the object found the symmetric part empty (B1036 V3) and HIER refuted as
-a flavour index (I-24).
+need at this step is a **symmetric** family tensor on the triplet, and the transport says what that is (B1271
+addendum): the 4d family index is the cohomology index α ∈ H¹(Q; 3_ρ), with T_{αβγ} = ε_ijk ∫ ω_α ∧ ω_β ∧ ω_γ
+symmetric — the triplet's zero is that its three 27s are three components of **one** class (b₁ = 1). A nonzero
+tensor needs **three classes**, h¹(Q; 3_ρ) = 3 — B1253's multiplicity route, the verdict's "only surviving
+route" for the count — with an H³ target (B1043's named door), and for chirality a non-self-dual 3_ρ (E65,
+B1268). The corpus's own search on the object found the symmetric part empty (B1036 V3) and HIER refuted as a
+flavour index (I-24).
 
 ## 5. JOIN 3 — dynamics
 
@@ -176,7 +182,7 @@ strata and the 23 S-matrix arcs remain the largest banked-but-unworked surface (
 | one chiral generation with correct Y | the 16 ⊂ 27 with Y forced (L9) | REPRODUCED (standard GUT descent) |
 | three generations | no h¹ of the object is a net count (§3); **present as structure** — the (27,3) of the golden E₈, three 27s cycled by the founding ratio (B1271 §1) — with the mirror (27̄,3̄); a chiral count would be a number of E₇ points on a conical G₂ geometry not yet built | STRUCTURE present, with its mirror; net count WALLED / named object |
 | Higgs sector and EWSB | the adjoint half exists (the cascade); the 27 half — the doublets in the 10 of the 27 (B1253 §2, B987) and their potential — has no source in the object (B978/V5: the 78 does not occur in 27⊗27, so no adjoint VEV gives a 27 fermion a mass) | ABSENT as a mechanism, present as representation content |
-| Yukawa couplings and masses | the 10·16·16 support (45 = 40 + 5, B1271 (d)); on the triplet the family tensor E₈ forces is ε_ijk, so the tree-level Yukawa is **zero** (B1271 §5); the value layer's HIER cubic (L12) is not a flavour index (I-24); 0 of 19 numbers (B1261) | STRUCTURE present, VALUES forced ZERO on the triplet — a symmetric family tensor is the named missing object |
+| Yukawa couplings and masses | the 10·16·16 support (45 = 40 + 5, B1271 (d)); on the triplet the family tensor E₈ forces is ε_ijk, so the tree-level Yukawa is **zero** (B1271 §5); the value layer's HIER cubic (L12) is not a flavour index (I-24); 0 of 19 numbers (B1261) | STRUCTURE present, VALUES forced ZERO on the triplet — the named missing object: three classes h¹(Q; 3_ρ) = 3 with an H³ target (B1253's route through B1043's door) |
 | θ̄, neutrino masses, CKM/PMNS | I-18 sharpened to θ not θ̄ (B1246); Dirac-neutrino support in the 16, no Majorana term in the E₆ cubic (B1271 (d)), the tree-level Dirac mass zero with the rest (B1271 §5); no values | ABSENT as values |
 | a 4d action | B6's potential on no carrier; the canonical 4d theories are §2's (U(1)⁴ vector-like; F₄ SYM; N=2\*) | ABSENT as the SM's; PRESENT as the object's own |
 
@@ -192,11 +198,16 @@ strata and the 23 S-matrix arcs remain the largest banked-but-unworked surface (
    and one 27̄, whose VEVs could in principle do the rank reduction the adjoint cannot — but the object supplies
    the pair's *existence*, not a potential or a vacuum for it; and the pair is vector-like. B1271 §3 computes
    the rank reduction itself: the 27's two singlets, ν^c and the SO(10) singlet, break exactly the two extra
-   U(1)s (charge matrix of rank 2); what is still not supplied is their VEV values.
+   U(1)s (charge matrix of rank 2); what is still not supplied is their VEV values. This is B955/B962/B964's
+   route (two rank-1 27 VEVs plus the adjoint) made explicit on B1252's descent; the pair's *orbit* is
+   distinguished by the object's cubic K (B969, L138), the point within it free.
 3. **The listener map (I-13) — and, for the masses, a symmetric family tensor.** Every value in §6 routes
    through I-13 (B1241, B1261). B1271 names the object the masses need before any value: a *symmetric* family
-   tensor Y^{(ijk)} on the generation triplet, since the one E₈ supplies is antisymmetric and gives W ≡ 0; the
-   corpus found no symmetric structure on the object (B1036 V3, I-24).
+   tensor Y^{(ijk)} on the generation triplet, since the one E₈ supplies is antisymmetric and gives W ≡ 0 —
+   concretely **three cohomology classes** h¹(Q; 3_ρ) = 3 with a non-zero triple product (an H³-bearing
+   assembly, B1043's named door): the same h¹ = 3 route `THE_SM_VERDICT.md` calls the only surviving one for
+   the count is the only one for the Yukawa. The corpus found no symmetric structure on the object (B1036 V3,
+   I-24).
 
 ## 8. The computations this document rests on, and their locks
 
