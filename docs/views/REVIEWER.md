@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1184** |
-| words of findings prose | **833,528** |
-| test lock files referenced | **698** |
-| arcs carrying an authored verdict | **1184** (100.0 %) |
+| research arcs with findings | **1185** |
+| words of findings prose | **834,398** |
+| test lock files referenced | **699** |
+| arcs carrying an authored verdict | **1185** (100.0 %) |
 | recorded closures | **783** (616 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 775 |
+| PROVED | 776 |
 | NEGATIVE | 311 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1275`** (503 words, 1 locks)  
-THE CUBIC MADE EXPLICIT. B308's unique E6 cubic invariant d_abc on the 27 is solved exactly from the repository's own 27 (B883's rep27.json): the 45 zero-sum-triple values are the unknowns, invariance under all 78 generators the equations, the nullspace is one-dimensional and every value is +-1 after normalisation (28/17 in this basis). Jordan ranks of the object's lattice vectors: every single weight has rank 1 (the Spin(10) orbit), sums of two weights rank 1 or 2 (216/135), every zero-sum triple rank 3 with I_3 = +-6 (all 45), every non-zero-sum triple rank 1 or 2 (720/2160): rank 3 <=> a zero-sum triple. The triple the object's mirror selects (B1272) is a non-degenerate element with |I_3| = 6 -- in the E6(6) reading (L202) an entropy-carrying charge with three equal charges, whose attractor point is the S3-symmetric point. Instrument; structure only; price unchanged.  
-`B1275_the_cubic_made_explicit/FINDINGS.md`
+**PROVED — `B1276`** (870 words, 1 locks)  
+THE RELATIONS THE CHAIN FORCES. B1275's explicit E6 cubic read through B1252/B1253's Standard-Model labels of the 27 (Q 6, u^c 3, d^c 3, L 2, e^c 1, nu^c 1; H_u 2, H_d 2, D 3, Dbar 3; S 1): the 45 zero-sum triples are H_u Q u^c (6), H_d Q d^c (6), H_d L e^c (2), H_u L nu^c (2), S H_u H_d (2, the mu-term), S D Dbar (3, the exotic mass), and 24 colour-triplet operators (D Q Q 6, Dbar d^c u^c 6, Dbar L Q 6, D e^c u^c 3, D d^c nu^c 3), EVERY coefficient +-1: the theory has one coupling lambda. Relations at the object's scale: y_u = y_d = y_e = y_nu = lambda for each generation (m_b = m_tau, m_s = m_mu, m_d = m_e; m_t/m_b = tan beta; Dirac neutrino mass = up-type mass), mu = m_D = lambda <S> (the doublet-triplet splitting forced against the chain: heavy exotics for proton stability, m_D >~ 1e15 GeV, make the doublets heavy), both diquark and leptoquark couplings of D present (proton decay through D at tree level), the down-lepton splitting carried by D d^c nu^c with <nu^c> (B1271 section 3's rank-reducing VEV), and no Majorana mass anywhere (massless or up-scale Dirac neutrinos at tree level). Against the data: m_b/m_tau known-good after running, m_s/m_mu and m_d/m_e off by ~3-9 (the classic), the zero-diagonal inequality violated by 17-136 (B1273). The Yukawa block collapses to one number times the VEV data plus the diagonal source. Price unchanged.  
+`B1276_the_relations_the_chain_forces/FINDINGS.md`
 
 **NEGATIVE — `B1262`** (520 words, 0 locks)  
 I-9 REFUTED: THERE IS NO 'GENUS V4' FOR DISCRIMINANT -15, and the row had carried its own discriminator UNRUN. B1261 measured the trade at 15 unpriced inputs : 0 of the SM's 19 numbers and named two moves -- earn an identification (-1) or derive a parameter (+1); the ratchet's arithmetic contains a THIRD and cheaper one, REFUTE, which also removes a row from the UNEARNED set. I-9 was the candidate because its own text said 'the genus group of disc -15 has order 2^(t-1) = 2, not 4' and nobody had run it. COMPUTED: disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2 genera, so the genus group has ORDER 2 against Gal(Q(sqrt-3,sqrt5)/Q)'s ORDER 4. THERE IS NO GENUS V4 FOR DISC -15: the object the row NAMES does not exist, and the identification is false as stated. THE FALLBACK READING FAILS TOO on the programme's own rules -- reading side B as Gal does match orders 4 = 4, but that is an ORDER MATCH which B1223 established is not a connection ('Direct is not semidirect': the groups matched, the action did not), and B155's own row calls the glue a GL(4,Z)-class invariant 'not forced by the spectral type', i.e. LATTICE data against Gal's FIELD data, so a canonical map cannot exist. CONTROLS BOTH WAYS: the class-number routine is validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) BEFORE being trusted, which caught a real bug -- a first draft returned h(-15) = 3 by admitting (1,-1,4), which is not reduced since b >= 0 is required when |b| = a -- and discriminants with t = 3 (-84, -120) DO give 4 genera, so order 2 is a fact about -15 and not about the method. THE PRICE: UNEARNED 11 -> 10, the trade moves from 15 : 0 to 14 : 0, the first reduction, and it came from running a discriminator the register had been carrying all along.  

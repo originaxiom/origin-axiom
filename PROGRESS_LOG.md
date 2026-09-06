@@ -14322,3 +14322,16 @@ pair sums 1 or 2 (216/135), **zero-sum triples rank 3 with I₃ = ±6 (all 45)**
 rank 3 ⟺ a zero-sum triple. The triple the object's mirror selects (B1272) is a non-degenerate element with |I₃| = 6;
 in the E₆(6) reading (L202) an entropy-carrying charge with equal charges, attracting to the S₃-symmetric point.
 Instrument; no identification. Lock `tests/test_b1275_the_cubic_made_explicit.py`.
+
+### B1276 — the relations the chain forces among the 19, and THE DESTINATION LEDGER (2026-09-06)
+
+On the owner's *"elaborate 0 of 19 and what exactly completes them."* B1275's explicit cubic read through
+B1252/B1253's labels (`frontier/B1276_the_relations_the_chain_forces/verification/relations.py`): the 45 operators
+are H_u Q u^c (6), H_d Q d^c (6), H_d L e^c (2), H_u L ν^c (2), S H_u H_d (2), S D D̄ (3) and 24 colour-triplet
+operators, **every coefficient ±1 — one coupling λ**. Relations at the object's scale: **y_u = y_d = y_e = y_ν**
+(m_b = m_τ, m_s = m_μ, m_d = m_e; tan β = m_t/m_b), **μ = m_D = λ⟨S⟩** (the doublet–triplet splitting forced against
+the chain), both diquark and leptoquark couplings of D present (proton decay through D; ⟨S⟩ ≳ 10¹⁵ GeV), the
+down–lepton splitting carried by D d^c ν^c with ⟨ν^c⟩, no Majorana mass anywhere. `docs/THE_DESTINATION_LEDGER_2026-09-06.md`
+states, row by row for the 19 (+7), what the chain fixes and what completes it: **one coupling, the VEV data, one
+scale, a diagonal source** — every one a period of the G₂ closing the object has not been given; the relations are
+the checks. Lock `tests/test_b1276_the_relations_the_chain_forces.py`. Price unchanged.

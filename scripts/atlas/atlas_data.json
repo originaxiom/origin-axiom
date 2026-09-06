@@ -6543,6 +6543,24 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1276": {
+   "slug": "the relations the chain forces",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 17,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B127": {
    "slug": "chirality arithmetic naming",
    "motifs": [

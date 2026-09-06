@@ -1,5 +1,13 @@
 # Changelog
 
+## THE DESTINATION LEDGER (B1276) — one coupling on all 45 operators; what exactly completes each of the 19
+
+The E₆ cubic read through the descent's labels has a single coefficient on every operator: y_u = y_d = y_e = y_ν = λ,
+μ = m_D = λ⟨S⟩, the 24 colour-triplet couplings = λ. `docs/THE_DESTINATION_LEDGER_2026-09-06.md`: for each of the 19
+(+7) numbers, what the chain fixes now and what completes it — one coupling (D1), the VEV data (D2), the diagonal
+source (D3), one scale (D4), the RG bridge (D5), the phase (D6) — and the eight relations the chain already forces
+as checks. The destination is one object: the G₂ closing, whose associative volumes are every remaining number.
+
 ## THE CUBIC MADE EXPLICIT (B1275) — d_abc from the repository's own 27; the mirror's triple is a rank-3 element with |I₃| = 6
 
 The unique E₆ cubic (B308) solved exactly (nullspace 1, values ±1 on the 45 zero-sum triples); Jordan ranks of the

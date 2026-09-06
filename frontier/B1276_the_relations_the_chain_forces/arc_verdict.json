@@ -1,0 +1,14 @@
+{
+ "id": "B1276",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1275", "B1252", "B1253", "B1250", "B1271", "B1273", "B308", "B987"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [
+  {"row": "I-13", "status": "UNEARNED", "note": "note extended, status unchanged: the E6 cubic on the 27, read through the descent's labels, has ONE coupling on all 45 operators (|d| = 1): y_u = y_d = y_e = y_nu = lambda, mu = m_D = lambda <S>, and the 24 colour-triplet couplings equal lambda. The values the row prices are therefore lambda (one number) and the VEV data (v_u^i, v_d^i, <S>, <nu^c>, the flavons), plus the diagonal source of B1273; the relations m_b = m_tau, m_s = m_mu, m_d = m_e and mu = m_D hold at the object's scale, the last against the doublet-triplet splitting."}
+ ],
+ "claim_one_line": "THE RELATIONS THE CHAIN FORCES. B1275's explicit E6 cubic read through B1252/B1253's Standard-Model labels of the 27 (Q 6, u^c 3, d^c 3, L 2, e^c 1, nu^c 1; H_u 2, H_d 2, D 3, Dbar 3; S 1): the 45 zero-sum triples are H_u Q u^c (6), H_d Q d^c (6), H_d L e^c (2), H_u L nu^c (2), S H_u H_d (2, the mu-term), S D Dbar (3, the exotic mass), and 24 colour-triplet operators (D Q Q 6, Dbar d^c u^c 6, Dbar L Q 6, D e^c u^c 3, D d^c nu^c 3), EVERY coefficient +-1: the theory has one coupling lambda. Relations at the object's scale: y_u = y_d = y_e = y_nu = lambda for each generation (m_b = m_tau, m_s = m_mu, m_d = m_e; m_t/m_b = tan beta; Dirac neutrino mass = up-type mass), mu = m_D = lambda <S> (the doublet-triplet splitting forced against the chain: heavy exotics for proton stability, m_D >~ 1e15 GeV, make the doublets heavy), both diquark and leptoquark couplings of D present (proton decay through D at tree level), the down-lepton splitting carried by D d^c nu^c with <nu^c> (B1271 section 3's rank-reducing VEV), and no Majorana mass anywhere (massless or up-scale Dirac neutrinos at tree level). Against the data: m_b/m_tau known-good after running, m_s/m_mu and m_d/m_e off by ~3-9 (the classic), the zero-diagonal inequality violated by 17-136 (B1273). The Yukawa block collapses to one number times the VEV data plus the diagonal source. Price unchanged."
+}

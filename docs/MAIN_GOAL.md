@@ -151,3 +151,8 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   45 zero-sum triples); the object's 27-lattice vectors have Jordan rank 3 exactly on the zero-sum triples
   (I₃ = ±6); the mirror's triple (B1272) is a non-degenerate charge with equal entries, whose attractor point in the
   E₆(6) reading is the symmetric point — no hierarchy from the object's canonical charge either.
+- **The destination, exactly (B1276; `docs/THE_DESTINATION_LEDGER_2026-09-06.md`).** The E₆ cubic on the 27 has
+  **one coupling** on all 45 operators (y_u = y_d = y_e = y_ν = λ; μ = m_D = λ⟨S⟩), forcing m_b = m_τ, m_s = m_μ,
+  m_d = m_e at the object's scale and the doublet–triplet tension. For each of the 19 (+7) the ledger says what
+  completes it: one coupling, the VEV data, one scale, a diagonal source — every one a period of the G₂ closing
+  the object has not been given. Eight relations are the checks; none of the 19 is bought.

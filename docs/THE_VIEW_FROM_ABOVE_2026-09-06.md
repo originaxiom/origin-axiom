@@ -81,6 +81,12 @@ Values: 0 of 19. Net chirality: 0 on every object and every closing computed (B1
 value claim, and its two candidates are **identification proposals**, registered as leads with their first
 computations named, not as results.
 
+## 5b. The destination, exactly (added the same day)
+
+`docs/THE_DESTINATION_LEDGER_2026-09-06.md` states, for each of the 19 (+7), what the chain fixes and what completes
+it. B1276 shows the E₆ cubic has one coupling on all 45 operators, so the Yukawa block collapses to λ times the VEV
+data plus the diagonal source; the completing objects are D1–D6, all periods of the G₂ closing.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with

@@ -1,5 +1,11 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-06, B1276 — THE DESTINATION LEDGER)**: the E₆ cubic on the 27, labelled by the descent, has **one
+coupling** on all 45 operators (y_u = y_d = y_e = y_ν = λ; μ = m_D = λ⟨S⟩; the 24 colour-triplet couplings = λ), forcing
+m_b = m_τ, m_s = m_μ, m_d = m_e at the object's scale and the doublet–triplet tension. `docs/THE_DESTINATION_LEDGER_2026-09-06.md`
+says for each of the 19 (+7) what completes it: one coupling, the VEV data, one scale, a diagonal source — all periods of
+the G₂ closing the object has not been given. Price unchanged.
+
 **LATEST (2026-09-06, B1275 — THE CUBIC MADE EXPLICIT)**: B308's unique E₆ cubic solved from the repository's own 27
 (nullspace 1, values ±1 on the 45 zero-sum triples); the object's 27-lattice vectors have Jordan rank 1 (weights),
 1–2 (pairs), and **3 exactly on the zero-sum triples (I₃ = ±6)** — the mirror's triple (B1272) is a non-degenerate
