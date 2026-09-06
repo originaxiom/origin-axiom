@@ -1997,6 +1997,7 @@
    "slug": "g2 cone",
    "motifs": [
     "monoid",
+    "coupling",
     "eisenstein",
     "amphichiral_cp",
     "wrt_quantum"

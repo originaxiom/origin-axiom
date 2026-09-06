@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-09-06 — Preserve recovered rank reduction; scope the new G2 kill
+
+The old/new-result sweep retains the existing 14-to-12 completion, spin/beat
+closure and withdrawn Lambda mismatch. A new exact compact-G2 subgroup has
+positive-dimensional fixed spaces for every element but zero common fixed
+space; B1084's actual order-96 group has the same apex distinction. Its 30
+A1/E6 line intersections remain verified. B1259's element lemma does not
+certify the broader enhancement claim; no chiral index is thereby derived.
+The first exporter failure remains; a separately sealed wrapper exports the
+unchanged results successfully. `reports/physical_bridge_2026_09_05/UPSTREAM_THIRD_AUDIT.md`.
+R8's broken-Higgs calculation remains a visible unsealed, unexecuted draft.
+
+Verification: 91 passed, 3 preserved instrument-test failures; gates 27/3.
+The provenance gate includes two new missing-marker defects in this audit's
+designs, explicitly retained alongside the earlier debt. This local checkpoint
+is not a publication or full-suite certificate.
+
 ## 2026-09-05 — Second upstream audit: retain the exact results, bound the claims
 
 Independent B854 rebuild reproduces B1255's matrix obstruction and cubic types;

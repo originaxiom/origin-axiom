@@ -1,5 +1,27 @@
 # Failures retained, not rewritten as successful runs
 
+## Third upstream audit: NumPy dictionary keys stop JSON export
+
+At f3696b21 the full G2/common-fixed-space calculation completes, but main
+fails during json.dump: `TypeError: keys must be str, int, float, bool or
+None, not int64`. The old float producer's census has NumPy integer keys.
+The partial `g2_isolation_first_run.json` is retained and is NOT valid JSON.
+The seven original tests give six passes and one serialization failure;
+captured output is `G2_ISOLATION_FIRST_TESTS.txt`. Both source and test remain
+unchanged. The separately sealed 9812f5d5 wrapper converts NumPy scalars
+losslessly and writes a fresh successful `g2_isolation_rerun_1.json`. No
+geometric conclusion or tolerance is changed by this export repair.
+
+The combined quiescent run is 91 passed, 3 failed (61.66 s): this original
+serialization failure plus both previously retained R7 small-step controls.
+Its full captured output and gate output are in `G2_ISOLATION_CHECKS.txt`.
+The three failing publication gates are attribution, test-vacuity and
+seal-provenance. The last now includes the NEW UPSTREAM_3_DESIGN.md and
+UPSTREAM_3_EXPORT_REPAIR.md: the literal provenance markers required by the
+gate are absent/incomplete. This is a new procedural defect, not merely
+old baseline debt. The original seal timing/content remain visible; neither
+sealed bytes nor the gate are rewritten to manufacture compliance.
+
 ## B1098 live-test loader
 
 The original test failed before checking the triple because the executed

@@ -45,3 +45,8 @@ the source bench caught itself).
 **Kill-graph node routed** (the negative half). **Locks:** tests/test_b1084_g2_cone.py
 (census + stabilizer orders + orbit sizes, float pipeline — fast). Full verification
 record: the commissioned rebuild's two scripts archived in the arc dir.
+
+**Scope addendum, 2026-09-06:** the pairwise line intersections remain, but
+the group has a zero-dimensional maximal-isotropy stratum at its apex.
+Do not substitute the element census for common fixed-space or physical-index
+calculations. See [the fixed-subgroup audit](ADDENDUM_2026-09-06_FIXED_SUBGROUP_SCOPE.md).

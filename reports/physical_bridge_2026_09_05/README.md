@@ -6,6 +6,12 @@ Work is local on `audit/physical-bridge-2026-09-05`; no push. Upstream through
 [second landing](UPSTREAM_SECOND_AUDIT.md). Original baseline totals remain
 pinned to f06d3405; they are not a certificate for this updated branch.
 
+The [third upstream audit](UPSTREAM_THIRD_AUDIT.md) checks fetched B1259 at
+9a79adfd without merging that window: its true element lemma does not certify
+a theorem about all enhancement strata. Exact subgroup controls preserve
+B1084's geometry and expose the quantifier gap; no chiral matter is derived.
+Its first exporter failure and separately sealed successful rerun are retained.
+
 **Latest physical result:** the priced [Higgs extension](HIGGS_SECTOR.md) supplies
 two actual light doublets and nonzero one-family Yukawa masses at small neutral
 VEVs. Its full 294-scalar quantum feedback preserves positive octet/triplet
@@ -33,9 +39,10 @@ classical minimum with the SM gauge algebra, actual mixed fermion masses, and
 a full Hessian exposing eleven non-gauge scalar zero modes. The action and
 its parameters remain chosen inputs; its low-energy spectrum is not R2's.
 The same potential also admits a verified non-SM classical minimum. The
-latest combined focused run has **74 passed, 2 failed**, including the five
-new upstream tests. Both failures are the preserved R7 small-step controls;
-their independently sealed polynomial controls pass. Archive and publication-gate failures remain
+latest combined focused run has **91 passed, 3 failed**, including the five
+B1255 tests, the new G2/export controls, four original B1084 locks and three
+B1105 scope checks. Failures are the preserved original G2 exporter test and
+the two R7 small-step controls; their separately sealed repairs pass. Archive and publication-gate failures remain
 explicit in [FAILURES.md](FAILURES.md); no full-suite green is claimed.
 
 - [Audit and programme history](AUDIT.md): what survives, what changed, what was checked.

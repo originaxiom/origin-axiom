@@ -13985,3 +13985,32 @@ its square class. Source addenda preserve these distinctions and all old
 evidence. Quiescent focused suite: 74 passed, 2 failed in 59.57 s; only the
 preserved R7 small-step controls fail. Full evidence and next physical task:
 `reports/physical_bridge_2026_09_05/UPSTREAM_SECOND_AUDIT.md`.
+
+## 2026-09-06 — Rank recovery banked; new G2 inference checked exactly
+
+RECOVERED_PHYSICAL_STEPS.md preserves the nine-head old/new-result sweep:
+the two singlets already reduce 14 to 12; R4 supplies an actual conditional
+SM minimum; other recovered spin and Lambda corrections retain their scopes.
+
+Fetched 9a79adfd's B1259 triggered a bounded audit before R8 execution.
+Sealed f3696b21, exact compact-G2 (Z/2)^3 matrices preserve a positive form
+and have fixed subgroup dimensions 7,3,1,0 at subgroup orders 1,2,4,8.
+All seven nonidentity elements fix a 3-plane; the group fixes only the
+origin. B1084's actual group likewise has zero common fixed dimension,
+but all 30 A1/E6 intersections remain lines. B1259's selftest passes because
+it tests single elements, not the disputed implication. No physical chiral
+index is computed. The original-group geometry is retained, not erased.
+
+Original JSON export fails on NumPy dictionary keys after scientific checks;
+six original tests pass and one serialization test fails. The first partial
+artifact and captured tests are retained. Wrapper sealed 9812f5d5 before
+rerun; successful fresh output in 1.399 s. Evidence and physical scope:
+`reports/physical_bridge_2026_09_05/UPSTREAM_THIRD_AUDIT.md`. R8 remains a
+draft, with no unreported sealed R8 result.
+
+Quiescent regression: 91 passed, 3 failed in 61.66 s. The original G2 JSON
+test and two R7 small-step controls fail; independently sealed repairs pass.
+Gates: 27 pass, 3 fail. Seal-provenance now also names both new G2 designs
+for missing literal marker strings, a new process error explicitly retained.
+Attribution and the R6 static-vacuity failure remain. No publication/full-suite
+certificate; full captured output in G2_ISOLATION_CHECKS.txt.

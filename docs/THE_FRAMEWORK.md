@@ -8,6 +8,14 @@ arithmetic."* That has not been the position since B860–B980, and as of this w
 is not the position's edge either — the edge has moved to the rank wall's first
 non-abelian hatch and to a second, independent theory the object supports (below).
 
+**AW inference scope correction, 2026-09-06:** B1084's pairwise A1/E6 line
+intersections remain verified, but its full-group apex stratum is a point.
+Positive fixed dimension for each element does not imply positive common
+fixed dimension. The new exact G2 control corrects that inference without
+claiming either chiral matter or a physical no-go from orbit strata alone.
+See B1084's `ADDENDUM_2026-09-06_FIXED_SUBGROUP_SCOPE.md` and
+`reports/physical_bridge_2026_09_05/UPSTREAM_THIRD_AUDIT.md`.
+
 **Motivation, stated plainly, per the programme's own policy** (*the firewall is for
 sobriety, not for silence*): the thesis is that **reality emerges from the four-letter
 combination principle aAbB**. This document assembles the mathematics that bears on it.
@@ -445,13 +453,14 @@ choice, with the exact hypercharge value-match, the frontier-mathematics orbit-c
 step, and the other nineteen (non-sl₂, or sl₂ but SM-incompatible) strata all named and
 still open.
 
-### THE LOCATION THEOREM — THE WALL, RECAST: FOUR LANGUAGES, ONE FACT
+### THE LOCATION RESULTS — FOUR DOMAINS, WITH SEPARATE SCOPE
 
-A separate line of computation this same window answered a different, older question —
-not *can the object reach the Standard Model's rank*, but *can anything the object
-builds, while remaining a single closed object, ever carry chirality at all* — and it
-answered it by finding that four previously-separate negative results are one theorem,
-independently derived in four different languages:
+A separate line of work compared four count, geometry, rule and representation
+results. **Scope restored 2026-09-06:** B1105 already established that their
+domains differ and no cross-register equivalence is derived. B1084's new
+fixed-subgroup addendum further bounds the physical reading of its geometry.
+Retain the following results on their own domains, not as one universal
+chirality theorem:
 
 - **Topology (B1086).** For the twisted double of the figure-eight complement, at every
   dial setting and every gluing, `h¹(D_t; 27) = h¹(D_t; 27̄)` exactly — Poincaré duality
@@ -463,13 +472,14 @@ independently derived in four different languages:
   exceptions found.)
 - **M-theory (B1084).** The one previously-uncomputed hole in the corpus's own ADE
   census — the object's flat G₂ cone — was filled and stratified completely (order 96,
-  every stabilizer exact). The Acharya–Witten collision condition is met (an E₆ locus and
-  three A₁ families do meet), but **isolation fails**: no group element has a
-  zero-dimensional fixed set, so every enhancement locus meets the E₆ locus along a
-  *line*, never a point — and matter localized on a line is vector-like in four
-  dimensions by the standard mechanism. The constructive flip is explicit too: a
-  deformation that makes some A₁ locus meet the E₆ locus *transversally*, at an isolated
-  point, is exactly what would resolve this.
+  every stabilizer exact). Its E₆ locus and three A₁ families meet; all 30
+  pairwise A₁/E₆ intersections are independently verified lines. However, the
+  full group fixes only the origin, an isolated maximal-isotropy stratum.
+  The element census does not exclude such strata or compute a localized
+  physical chiral index. A deformation/localization construction must exhibit
+  the appropriate enhancement, compatible gauge action and physical operator;
+  a point stratum by itself is insufficient. See B1084's
+  `ADDENDUM_2026-09-06_FIXED_SUBGROUP_SCOPE.md` for exact controls and sources.
 - **The founding rule (B1083).** The typing correction to Layer 0's torsor (above) has a
   second reading at this level: what the completing rule discards, on its way from an
   open positive monoid to the closed combinatorial object, is precisely the register
@@ -484,20 +494,17 @@ independently derived in four different languages:
   all. The U(1) charge direction turns out to grade the *family* of twisted doubles
   itself, not any internal quantum number of one closed member of it.
 
-**THE LOCATION THEOREM. One theorem, four languages, and a single sentence covers all of
-them: on any closed assembly this object can build, chirality and charge are structurally silent — not
-merely small, not merely unbalanced, but undefinable, by mechanisms that are topological,
-geometric, algebraic-rule-level, and representation-theoretic in turn. The free half is
-real, and it is not unobservable — it is *edge-observable, and only edge-observable*
-(B1085): the boundary-localized spectrum differs from the bulk (five states bind one way,
-six the other, digit-exact reproduction across window sizes), and sweeping the cut's own
-phase changes exactly what localizes. Where the closed-assembly negative lifts, positively
-and constructively, is exactly the same place across all four languages: a cut — an edge,
-or the isolated transversal point the G₂ cone's hatch names explicitly, which is the same
-kind of object the rank wall's own hatch (above) exploits at the level of holonomy rather
-than of geometry. The programme's long-standing reading of "the boundary is the total
-interface" (S072/B761) now has four independent, load-bearing instances rather than one
-motivating picture.**
+**The boundary results remain positive without a claimed equivalence.** B1085's
+boundary-localized spectrum differs from the bulk: five states bind one way,
+six the other, with the banked reproduction across window sizes; sweeping
+the cut's phase changes what localizes. B1105's distinct-domain fence means
+that this chain result, the G₂ deformation question and the nonabelian
+holonomy hatch are not interchangeable constructions. Their proposed
+relations require explicit maps. Neither this collection nor the G₂ element
+census alone proves a universal statement about physical chirality on every
+assembly. S072/B761's boundary-interface interpretation remains separately
+scoped; the positive counts and the existing rank-reducing hatches are not
+discarded by this correction.
 
 ### THE MIRROR-ISOSPECTRAL SPLIT — the hand, exactly located
 

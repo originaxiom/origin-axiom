@@ -10535,11 +10535,12 @@
  },
  {
   "id": "B1084",
-  "claim_killed": "chirality via Acharya-Witten conical matter on the UNRESOLVED flat G2 cone (C^2 x R^3)/G-hat",
-  "kill_form": "non-isolation: the fixed-dimension census {3d: 53, 1d: 42} has NO 0-dimensional fixed set, so every A1 locus meets the E6 locus along a LINE and all localized matter extends along a flat direction (vector-like in 4d)",
-  "fact_computed": "two-implementation census (exact Q(sqrt2) + SVD/float, every number agreeing): |G-hat| = 96; E6 locus stabilizer exactly 2T (24); three A1 families in orbits 6/12/12 with stabilizers exactly Z2; axis lines order 48; apex order 96; AW collision criterion MET at the apex, isolation criterion FAILED by the census",
-  "faces_consulted": "the 32 chirality walls (same statement, M-theory language); B1036's multiplicity mechanism; L79's cell (executed: B1086)",
-  "hatch": "transversal deformation: resolve/curve the enhancement lines so an A1 locus meets the E6 locus at an isolated point (the AW local model then produces chiral matter); whether the object's own data admits it = the h1_q grading (B1087) + bundle-level realization (L79 sub-item ii, E6-native)"
+  "claim_killed": "a point-like PAIRWISE A1/E6 intersection among the 30 named A1 planes of the UNRESOLVED order-96 flat G2 cone",
+  "kill_form": "verified pairwise non-isolation: all 30 actual A1-plane/E6-plane intersections have dimension one. Scope correction 2026-09-06: the element census does not exclude point-like common-stabilizer strata or compute all localized physical matter",
+  "fact_computed": "two-implementation original census retained: order 96, E6 pointwise stabilizer 24, A1 plane orbits 6/12/12 with stabilizers Z2, axis stabilizers 48 and apex stabilizer 96. Fresh exact three-generator stack has rank 7 (common fixed dimension zero); full 96-action float stack agrees; each of 30 A1/E6 intersections has dimension one. See B1084 ADDENDUM_2026-09-06_FIXED_SUBGROUP_SCOPE.md and g2_isolation_rerun_1.json in reports/physical_bridge_2026_09_05",
+  "faces_consulted": "B1084 original generators/census, B1105 distinct-domain scope fence, fetched B1259's single-element lemma, exact compact-G2 sign-character subgroup control, Acharya-Witten's physical unfolding/index hypotheses",
+  "hatch": "The existing deformation/localization question remains: specify an appropriate enhancement/unfolding, compatible gauge action and localized physical operator/index. A point-like isotropy stratum alone is not an AW chiral mode; the element census alone is not a universal flat-G2 no-go. B1087's grading and L79's bundle realization are distinct duties",
+  "prior_scope_superseded_2026_09_06": "Previously routed as chirality via Acharya-Witten conical matter on the whole unresolved flat cone, with the implication no element has zero-dimensional fixed set => all localized matter extends along a line. The pairwise-line result is retained; that broader implication is not established by the census"
  },
  {
   "id": "B1086",

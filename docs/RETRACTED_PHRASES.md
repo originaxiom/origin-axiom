@@ -1,5 +1,15 @@
 # THE RETRACTED-PHRASE REGISTRY
 
+**Scope correction, 2026-09-06 (B1084 addendum / fetched B1259 audit):** retire
+the inference from a positive-dimensional fixed space for every element
+to a positive-dimensional common fixed space for every subgroup. The exact
+compact-G2 control disproves it; B1084's own full-group apex has zero common
+fixed dimension. Its pairwise A1/E6 line intersections remain. Source:
+`reports/physical_bridge_2026_09_05/UPSTREAM_THIRD_AUDIT.md`. This is not a
+retraction of the SO(odd) element lemma or a claim of physical chiral matter.
+The B1084 kill node and reader-facing scope notes are corrected; historical
+mentions remain, and no exhaustive all-document currency certificate is claimed.
+
 *Purpose (L139, from B965): **retracting a claim does not retract its instances.** B964
 retracted the bare use of "VEV" and wrote a rule; one hour later the LAW_MAP audit found that
 exact error still live in a row written the same day. A retraction needs a **sweep**.*

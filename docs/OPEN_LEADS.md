@@ -2383,3 +2383,20 @@ a fresh reproduction as fresh, not as recovery. Do not invent logs, weaken
 the manifest, or count a stored NEGATIVE as independent verification of an
 unavailable grid. The historical bytecode entry needs an explicit archive
 policy decision, not a silent exception.
+
+**B1084/B1259 isolation hatch — corrected scope, 2026-09-06.** The exact
+compact-G2 subgroup control and the original order-96 group distinguish
+single-element fixed spaces from maximal-isotropy strata. B1084's 30
+pairwise A1/E6 intersections are still lines; its full stabilizer fixes
+only the origin. Closing sentence: "The SO(odd) element lemma does not
+by itself exclude zero-dimensional enhancement strata or compute their
+physical chiral index." Source: B1084's
+`ADDENDUM_2026-09-06_FIXED_SUBGROUP_SCOPE.md` and
+`reports/physical_bridge_2026_09_05/UPSTREAM_THIRD_AUDIT.md`.
+The existing physical hatch requires the actual enhancement/unfolding,
+gauge action and localized operator/index; finding a point stratum does
+not discharge those duties. Nor may the element census alone close all
+flat-G2 constructions. No chirality-existence claim or new blanket no-go.
+R8's controlled electroweak-broken action remains the separate next
+physical-model computation, visible as an unsealed draft rather than a
+lost or unreported result.

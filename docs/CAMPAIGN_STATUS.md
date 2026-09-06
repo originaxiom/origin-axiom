@@ -1,5 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST AUDIT (2026-09-06): recovered reduction and a fixed-space scope correction.**
+The 14-to-12 completion is already derived conditionally and realized in R4.
+The latest fetched G2 kill confuses element fixed spaces with common subgroup
+strata: an exact compact-G2 counterexample and B1084's own order-96 apex expose
+the distinction. The 30 pairwise A1/E6 line intersections remain; no chiral
+index is newly earned. First export failure retained, lossless wrapper rerun
+successful. R8 remains unsealed/unexecuted while this audit is banked.
+Sources: `reports/physical_bridge_2026_09_05/RECOVERED_PHYSICAL_STEPS.md` and
+`reports/physical_bridge_2026_09_05/UPSTREAM_THIRD_AUDIT.md`.
+
+Quiescent verification: 91 passed, 3 preserved instrument failures. Publication
+gates 27/3, including new missing-marker defects in the G2 seal documents;
+these are documented, not rewritten as compliant preregistrations.
+
 **PHYSICAL CONTINUATION R7 (2026-09-05): two light doublets and full feedback.**
 The priced two-27 extension gives the actual doublet actions and rank-16
 Yukawa support on the mixed light kernel. Full 294-scalar quantum treatment
