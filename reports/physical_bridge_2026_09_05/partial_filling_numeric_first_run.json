@@ -1,0 +1,473 @@
+{
+  "cover": {
+    "complete": [
+      true,
+      true,
+      true
+    ],
+    "cs": {
+      "value": {
+        "accuracy": 8,
+        "approximate": 2.6997386630879323e-16,
+        "decimal": "2.6997387 E-16"
+      }
+    },
+    "cusps": 3,
+    "signature": "kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb",
+    "solution": "all tetrahedra positively oriented",
+    "volume": "10.149416064"
+  },
+  "covering_maps": [
+    {
+      "degree": 5,
+      "index": 2,
+      "isomorphisms": [
+        {
+          "cusps": [
+            1,
+            0,
+            2
+          ],
+          "matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ]
+        },
+        {
+          "cusps": [
+            0,
+            1,
+            2
+          ],
+          "matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ]
+        },
+        {
+          "cusps": [
+            0,
+            1,
+            2
+          ],
+          "matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ]
+        },
+        {
+          "cusps": [
+            1,
+            0,
+            2
+          ],
+          "matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ]
+        },
+        {
+          "cusps": [
+            1,
+            0,
+            2
+          ],
+          "matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ]
+        },
+        {
+          "cusps": [
+            0,
+            1,
+            2
+          ],
+          "matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ]
+        },
+        {
+          "cusps": [
+            1,
+            0,
+            2
+          ],
+          "matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ]
+        },
+        {
+          "cusps": [
+            0,
+            1,
+            2
+          ],
+          "matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ]
+        }
+      ],
+      "signature": "kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb"
+    }
+  ],
+  "filled": {
+    "complete": [
+      true,
+      true
+    ],
+    "cs": {
+      "value": {
+        "accuracy": 56,
+        "approximate": 0.15759004087917847,
+        "decimal": "0.15759004087917847567899149801673152006645612249762745423"
+      }
+    },
+    "cusps": 2,
+    "signature": "iLLLAQccdegfhhghdcltautwa_baBabBBaaB",
+    "solution": "all tetrahedra positively oriented",
+    "volume": "7.706911802810126654762022509212267553474512639103568552896622091"
+  },
+  "input": "kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb",
+  "partial": {
+    "complete": [
+      false,
+      true,
+      true
+    ],
+    "cs": {
+      "value": {
+        "accuracy": 8,
+        "approximate": 0.15759004087917863,
+        "decimal": "0.15759004"
+      }
+    },
+    "cusps": 3,
+    "signature": "kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb(2,1)(0,0)(0,0)",
+    "solution": "all tetrahedra positively oriented",
+    "volume": "7.7069118028"
+  },
+  "partial_high": {
+    "complete": [
+      false,
+      true,
+      true
+    ],
+    "cs": {
+      "value": {
+        "accuracy": 56,
+        "approximate": 0.15759004087917847,
+        "decimal": "0.15759004087917847567899149801673152006645612249762745423"
+      }
+    },
+    "cusps": 3,
+    "signature": "kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb(2,1)(0,0)(0,0)",
+    "solution": "all tetrahedra positively oriented",
+    "volume": "7.706911802810126654762022509212267553474512639103568552896622091"
+  },
+  "rebuilt": {
+    "complete": [
+      false,
+      true,
+      true
+    ],
+    "cs": {
+      "value": {
+        "accuracy": 57,
+        "approximate": 0.15759004087917847,
+        "decimal": "0.157590040879178475678991498016731520066456122497627454226"
+      }
+    },
+    "cusps": 3,
+    "signature": "kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb(2,1)(0,0)(0,0)",
+    "solution": "all tetrahedra positively oriented",
+    "volume": "7.706911802810126654762022509212267553474512639103568552896622091"
+  },
+  "references": {
+    "5_2": {
+      "complete": [
+        true
+      ],
+      "cs": {
+        "value": {
+          "accuracy": 57,
+          "approximate": -0.15320413329715188,
+          "decimal": "-0.153204133297151868296935487898880064382992730593962274394"
+        }
+      },
+      "cusps": 1,
+      "signature": "dLQbcccdero_aBbc",
+      "solution": "all tetrahedra positively oriented",
+      "volume": "2.828122088330783162763898809276634942770981317300649477043520327"
+    },
+    "m004": {
+      "complete": [
+        true
+      ],
+      "cs": {
+        "value": {
+          "accuracy": 57,
+          "approximate": -1.346943028698943e-65,
+          "decimal": "-1.34694302869894301427829391444469559487566207403132461895 E-65"
+        }
+      },
+      "cusps": 1,
+      "signature": "cPcbbbiht_BaCB",
+      "solution": "all tetrahedra positively oriented",
+      "volume": "2.029883212819307250042405108549040571883378615060599584034978214"
+    }
+  },
+  "reverse": {
+    "complete": [
+      true,
+      true
+    ],
+    "cs": {
+      "value": {
+        "accuracy": 56,
+        "approximate": -0.15759004087917847,
+        "decimal": "-0.15759004087917847567899149801673152006645612249762745423"
+      }
+    },
+    "cusps": 2,
+    "signature": "iLLLPQccefeghghhiieldfjvs_BbBaaBbD",
+    "solution": "all tetrahedra positively oriented",
+    "volume": "7.706911802810126654762022509212267553474512639103568552896622091"
+  },
+  "runtime_seconds": 0.33217604298260994,
+  "slope": [
+    2,
+    1
+  ],
+  "snappy_version": "3.3.2",
+  "symmetry_amphichiral": {
+    "value": false
+  }
+}

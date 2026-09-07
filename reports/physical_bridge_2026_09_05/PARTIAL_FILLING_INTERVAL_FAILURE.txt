@@ -1,0 +1,15 @@
+Original interval run, exit 1. Full scientific JSON is separate and unchanged.
+Environment path prefix only is redacted below.
+
+Traceback (most recent call last):
+  File "<REPOSITORY>/reports/physical_bridge_2026_09_05/partial_filling_interval.py", line 114, in <module>
+    assert_certificate(result)
+  File "<REPOSITORY>/reports/physical_bridge_2026_09_05/partial_filling_interval.py", line 102, in assert_certificate
+    assert sa.QQ(F['lattice']['distance_lower']) > sa.QQ(9)/100
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sage/structure/parent.pyx", line 900, in sage.structure.parent.Parent.__call__ (build/cythonized/sage/structure/parent.c:13639)
+  File "sage/structure/coerce_maps.pyx", line 164, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7339)
+  File "sage/structure/coerce_maps.pyx", line 159, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7231)
+  File "sage/rings/rational.pyx", line 553, in sage.rings.rational.Rational.__init__ (build/cythonized/sage/rings/rational.cpp:16341)
+  File "sage/rings/rational.pyx", line 631, in sage.rings.rational.Rational._Rational__set_value (build/cythonized/sage/rings/rational.cpp:17423)
+TypeError: unable to convert '0.092409959120821524321007284199' to a rational
