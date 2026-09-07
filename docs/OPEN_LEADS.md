@@ -2544,3 +2544,29 @@ effective q*beta and normalizable complete-limit kernel; then interactions
 and vector-like-pair lifting in that same parent. Physical source/parent/
 fibre selection and the gravity/empirical goal remain live. Proof and
 controls: `reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md`.
+
+**R16 movement, same PB-BOUNDARY lead (2026-09-07):** the local line
+normal operator is derived, retaining a=q beta. In trivial angular
+holonomy its critical trace window is nonempty exactly for
+0<abs(a)<1. The strong-source regime removes that local ambiguity;
+it does not select the amplitude or prove the complete kernel.
+NEXT: the physical defect/gauge/fibre law and a joint line/cusp
+Fredholm estimate, then both charged H1 kernels and the extra pair's
+interactions. See reports/physical_bridge_2026_09_05/CHARGED_DOMAIN.md.
+
+**PB-PARTIAL-FILLING — boundary theory on the certified marked witness. OPEN.**
+The degree-five decorated cover filled at cusp 0 (2,1) now has
+interval-certified hyperbolicity, two complete cusps, and CS outside
+the mirror-compatible classes. NEXT: construct the actual boundary
+sector, its anomalies, level and partition function; test the B1064
+E6-level-one/c=6 map and any arithmetic/gauge/family structure claimed
+to survive filling. Nonzero CS value is not the level. This is a
+parallel candidate, not a substitute for the sourced operator path.
+No low-degree census or six-boson interpretation closes it globally.
+Source: reports/physical_bridge_2026_09_05/PARTIAL_FILLING.md.
+
+**PB-SOURCE / PB-BOUNDARY strategy follow-through:** the ranked common
+action/input, physical kernel, 4d gravity and predictive-observable
+duties are in reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md.
+Quotient representational choices before counting free physical inputs,
+as B1232 requires. These are scoped unpaid joins, not universal absences.

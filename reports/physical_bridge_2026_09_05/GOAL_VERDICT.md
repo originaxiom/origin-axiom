@@ -1,4 +1,17 @@
-# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R15
+# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R16 and partial filling
+
+**Latest movement:** [R16](CHARGED_DOMAIN.md) derives the charged local
+line-domain threshold in the prescribed sourced theory; the complete
+normalizable H1 kernel is still not computed by that result. The named
+[partial filling](PARTIAL_FILLING.md) is now interval-certified with two
+complete cusps and CS outside {0,1/4} modulo 1/2. Geometric chirality
+survives with cusps, but a quantum level, physical chiral matter and a
+source-selected boundary theory do not follow from that alone.
+The focused group is 29 passed and the separate Sage control passes;
+original failures/full banking debts are retained. The current ranked
+strategy is [PHYSICS_BOTTLENECKS.md](PHYSICS_BOTTLENECKS.md): common
+physical action/inputs, complete charged spectrum, common 4d gravity,
+predictive observables, and scope-safe cumulative verification.
 
 **Real conditional physical progress; a complete TOE is not established.**
 The audit now includes an executable four-dimensional gauge/scalar/fermion

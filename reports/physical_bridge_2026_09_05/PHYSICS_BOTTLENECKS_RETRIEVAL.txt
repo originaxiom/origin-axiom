@@ -1,0 +1,125 @@
+2026-09-07. Local corpus lookups for a scoped status/strategy assessment, not universal absence certificates.
+
+bank_action
+Exit 1 (1 means existing settled work flagged, not tool failure).
+already-banked: terms ['physical', 'action', 'selection']
+  316 corpus hits; 10 SETTLED arcs matching >= 2 of 3 terms
+  *** [ 3 terms] PROVED    B1232_codex_r031_verified_and_three_columns
+           CODEX R031A/R031B VERIFIED ON THIS BENCH, THREE OF MY CLAIMS RETRACTED, AND A THIRD COLUMN THE PROGRAMME DID NOT HAVE. Owner: 'verify everything, trust nothing' -- so codex's certs were RE-RUN here (their seat is on this
+      [ 3 terms] FINDINGS  frontier/B1104_fourd_suspension/FINDINGS.md
+           # B1104 — THE 4D SUSPENSION SELECTION TEST: NO SECTION — the object's own structures name DIFFERENT fourth dimensions 
+      [ 3 terms] FINDINGS  frontier/B1149_meridian_longitude_harvest/FINDINGS.md
+           # B1149 — THE MERIDIAN & LONGITUDE HARVEST: cloud memos 49–51 verified by reproduction — the carrier's peripheral (cusp) structure IS the matter grading, and the atlas's two arithmetic ends are unified at trace 3 
+      [ 3 terms] FINDINGS  frontier/B1150_yukawa_clock_and_family/FINDINGS.md
+           # B1150 — THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA: cloud memos 52–53 verified by reproduction — the unique coupling's depth-selection rule, and (in the E8 possibility-space) the inter-family Yukawa ε_family⊗
+      [ 3 terms] FINDINGS  frontier/B1159_mssm_debt_ledger/FINDINGS.md
+           # B1159 — The object→MSSM debt-map: codex's conditional MSSM witness, every condition typed and verified 
+      [ 3 terms] FINDINGS  frontier/B1215_codex_transcript_harvest/FINDINGS.md
+           # B1215 — THE CODEX TRANSCRIPT HARVEST: a registered theorem protected, four dishonest wrappers fixed, and a stalled lead carried one step 
+      [ 3 terms] FINDINGS  frontier/B1232_codex_r031_verified_and_three_columns/FINDINGS.md
+           # B1232 — CODEX R031A/R031B VERIFIED, THREE RETRACTIONS, AND A THIRD COLUMN 
+      [ 3 terms] FINDINGS  frontier/B1236_a1_landing_exact/FINDINGS.md
+           # B1236 — THE A₁ LANDING AT EXACT MULTIPLET GRADE (codex R035, verified and re-implemented here) 
+      [ 3 terms] FINDINGS  frontier/B128_symmetry_breaking_chirality/FINDINGS.md
+           # B128 — The symmetry-breaking landscape: the chirality recursion, the order parameter, and the torsion firewall (V117) 
+      [ 3 terms] FINDINGS  frontier/B176_golden_privilege/FINDINGS.md
+           # B176 — the golden privilege, with controls (P3): φ stands alone, but it is *not* a monotone irrationality order 
+      [ 3 terms] FINDINGS  frontier/B184_symmetry_gauge_door/FINDINGS.md
+           # B184 — the symmetry / gauge door: a gauge group is not forced; interaction breaks inflation, proliferates duality 
+      [ 3 terms] FINDINGS  frontier/B185_constraint_selection/FINDINGS.md
+           # B185 — the selection / constraint door: the gluing side selects continuum→discrete, but not to a forced-unique 
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+
+bank_chirality
+Exit 1 (1 means existing settled work flagged, not tool failure).
+already-banked: terms ['normalizable', 'chirality', 'domain']
+  131 corpus hits; 1 SETTLED arcs matching >= 2 of 3 terms
+  *** [ 2 terms] PROVED    B1105_wall_scope
+           THE WALL'S SCOPE AUDIT (#279, owner-prompted; the B959 lesson applied proactively to the program's biggest theorem): the four languages' exact quantifiers stated side by side -- PD/count (twisted doubles of THIS object, 
+      [ 2 terms] OPEN      B1156_seam_a_gate2
+           SEAM-A Gate 2 (the prize crossing), sharpened by the WF-1 adversarial workflow (10 agents; 3 scouts -> 2 attempts -> 3 refuters -> seal): the a-priori MISMATCH that B1155 leaned on is REFUTED (2 of 3 lenses). That MISMAT
+      [ 2 terms] FINDINGS  frontier/B1085_edge_observability/FINDINGS.md
+           # B1085 — EDGE OBSERVABILITY: the free half materializes at the cut, and the two hands of one cut differ 5-vs-6 
+      [ 2 terms] FINDINGS  frontier/B1098_nonabelian_hatch/FINDINGS.md
+           # B1098 — THE HATCH OPENS: the object's own holonomy, taken non-abelianly, breaks E₆ to the trinification remnant su(3)⊕su(3) ⊇ SM at rank exactly 4 
+      [ 2 terms] FINDINGS  frontier/B1105_wall_scope/FINDINGS.md
+           # B1105 — THE WALL'S SCOPE AUDIT (#279): four quantifiers side by side — and "one fact" corrected to "one conclusion" 
+      [ 2 terms] FINDINGS  frontier/B1156_seam_a_gate2/FINDINGS.md
+           # B1156 — SEAM-A Gate 2: the a-priori MISMATCH is **REFUTED**; the seam is a genuine **FLOOR** with a named archimedean door 
+      [ 2 terms] FINDINGS  frontier/B1167_seat_harvest/FINDINGS.md
+           # B1167 — two-seat harvest: codex R017 pays the SEAM-Y up-Yukawa provenance debt; cc3's cusp-shape second separator is ORIENTATION-BLIND (B1163 strengthened, not overturned) 
+      [ 2 terms] FINDINGS  frontier/B211_metallic_arithmetic_geometric_faces/FINDINGS.md
+           # B211 — the metallic family's three faces: geometric limit, chirality spectrum, and the arithmetic of the variety itself 
+      [ 2 terms] FINDINGS  frontier/B486_cusp_hexagonal_verdict/FINDINGS.md
+           # B486 — "hexagonal cusp → three generations": REFUTED (11th kill), the cusp is rectangular 
+      [ 2 terms] FINDINGS  frontier/B530_natural_history/FINDINGS.md
+           # B530 — The natural history of the full object. Movement I: its own grammar 
+      [ 2 terms] FINDINGS  frontier/B598_l85_campaign/FINDINGS.md
+           # B598 — the L85 campaign opened; P0 (the C1 baseline) computed 
+      [ 2 terms] FINDINGS  frontier/B730_forced_faces_and_cosmos/FINDINGS.md
+           # FINDINGS — B730: the forced faces close at a Klein-four V₄; the cosmic-topology meeting point is real-math / physics-nil 
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+
+bank_gravity
+Exit 1 (1 means existing settled work flagged, not tool failure).
+already-banked: terms ['four', 'dimensional', 'gravity']
+  396 corpus hits; 6 SETTLED arcs matching >= 2 of 3 terms
+      [ 3 terms] FINDINGS  frontier/B720_coupling_path/FINDINGS.md
+           # B720 — THE COUPLING-PATH MAP: who owns the discrete→continuous bridge, and where it meets the object 
+      [ 3 terms] FINDINGS  frontier/B980_k3_conflation/FINDINGS.md
+           # B980 — the `k=3 → GΛ = 2π` chain rests on two stacked conflations, and the "122 orders" was never the object's 
+  *** [ 2 terms] PROVED    B1098_nonabelian_hatch
+           THE NON-ABELIAN HATCH OPENS AT ITS FIRST STRATUM (W1 of the closing campaign; the pre-registered positive branch): all TWENTY sl2 conjugacy classes of e6 enumerated constructively (saturation vs the CITED count; every ce
+  *** [ 2 terms] PROVED    B1141_spin_payment
+           THE SPIN PAYMENT (cloud seat's 28th memo, hostile-verified TWO-BENCH on this bench with own code — own relator search, own exact intertwiner-rank, own norm-form + chi-parity proofs; SnapPy + exact-symbolic + 50-digit-num
+      [ 2 terms] OPEN      B1169_qualia_parity_synthesis
+           The qualia/parity SYNTHESIS (owner-directed; all seats to verify). This week's four arcs (B1165-B1168) fold back into the observer-closure spine. SOLID CORE (own-verified + banked-cited): (1) the parity facts (B1168) -- 
+      [ 2 terms] OPEN      B1179_outreach_and_papers
+           R50-7's TWO GO-ABLE HALVES EXECUTED (the owner's GO; the rest of R50-7 -- the cold-pass election, the census calls' D2 sitting -- stays the owner's). (1) THE PAPERS RELAY SENT to cc3's assembly (discharging the R48-11 ->
+  *** [ 2 terms] PROVED    B1194_existence_audit
+           THE EXISTENCE AUDIT (owner-directed: no 'missing' without exhausting the repo; six lenses + twelve adversarial checks, archived verbatim): THE HAVE list is twelve rows deep (arena law, one-generator clock, the integer me
+      [ 2 terms] OPEN      B1213_claim_base_rebuilt
+           THE CLAIM BASE REBUILT (harvests cloud memo 133 / R52-6, verified entry-for-entry on this bench; supersedes B1210's pool criterion). THE FINDING: `creates_law` is ABSENT ENTIRELY on 919 of 1031 settled arcs -- 89% -- so 
+      [ 2 terms] OPEN      B1230_consistency_campaign_run1
+           THE CONSISTENCY CAMPAIGN, RUN 1 -- AND IT REFUTED ITS OWN HEADLINE'S STATED SUPPORT, WHICH MADE THE RESULT STRONGER. Owner: 'continue, craft a campaign and do it properly.' The campaign (docs/CONSISTENCY_CAMPAIGN.md) exe
+      [ 2 terms] OPEN      B1241_master_identification_priced_and_phase_e_harvest
+           THE MASTER IDENTIFICATION PRICED: the listener map u (structural analogue ≡ physical quantity, the programme's crossing) registered UNEARNED as I-13 -- earned only by the crossing cell (W5/W6). Four more legacy identific
+  *** [ 2 terms] PROVED    B527_metric_cone
+           The Stein-compatible metrics form a 6-dimensional non-polyhedral cone 𝓛⁻¹(PSD(3)) with an ℝP² of extreme rays (7-dim Lorentzian family): compatibility holds, narrowing B526's no-go, but Stein evolution selects no metric.
+      [ 2 terms] OPEN      B958_presence_scope
+           THE PRESENCE SIDE: SCOPED, ONE CONSISTENCY TEST PASSED, AND AN HONEST DEFERRAL. THE FINDING THAT CAME BEFORE THE VERIFICATION: the repo contains NO INDEPENDENT CONSTRUCTION OF M12 (the 'invisible 12'). B909's mixed leg r
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+
+bank_predict
+Exit 0 (1 means existing settled work flagged, not tool failure).
+already-banked: terms ['predictivity', 'normalization']
+  18 corpus hits; 0 SETTLED arcs matching >= 2 of 2 terms
+  *** [ 1 terms] PROVED    B1081_hydrogen_audit
+           THE HYDROGEN AUDIT (the inverse chain run as computation; verifier HOLDS after its own deep rebuild from the E6 roots, grading the cell's shallower pass honestly): hydrogen's structural skeleton sits fully inside forced-
+  *** [ 1 terms] PROVED    B1133_c4_single_end
+           C4 RECOGNIZED + the tower is SINGLE-END (value-probe wave remainder A; upgrades B1130 from PRECISION-FLOOR). C4 = (278392949/1813985280)*pi^4*C0 (even k -> plain rational x pi^4, reality-parity form; numerator 278392949 
+  *** [ 1 terms] NEGATIVE  B1137_regulator_probe
+           THE REGULATOR PROBE (R48-3, owner-directed; sealed prereg sha f299c0da) -- DISJOINT: no SM value is a bounded-height algebraic combination of the object's higher regulators. Rung-1 (ALGEBRAICITY, not rung-4 number-matchi
+  *** [ 1 terms] PROVED    B1139_symmetry_point_table
+           THE SYMMETRY-POINT TABLE (cloud memos 23 WEINBERG_POINT + 24 SM_TABLE, golden_gate 577712f; verified TWO-BENCH, own code, no discrepancy) -- the value-completing campaign's Lane A, honestly typed. (1) THE EW TABLE = ONE 
+      [ 1 terms] OPEN      B1156_seam_a_gate2
+           SEAM-A Gate 2 (the prize crossing), sharpened by the WF-1 adversarial workflow (10 agents; 3 scouts -> 2 attempts -> 3 refuters -> seal): the a-priori MISMATCH that B1155 leaned on is REFUTED (2 of 3 lenses). That MISMAT
+      [ 1 terms] OPEN      B1164_cc_masterplan
+           cc's part of the A-E masterplan (cloud owns the 5 lane cells; MC1->codex): MA2 the choice-orbit census, MD1 the firewall pin, ME3 the phase/orbit split, + the sec-E gravity placement -- each own-verified, with TWO verify
+  *** [ 1 terms] PROVED    B1201_lee_verified_and_harvest
+           THE LEE VERIFICATION CORRECTS B1198, AND THE CROSS-SEAT HARVEST CLOSES CLEAN. R52-3, THE READING (full v1 text, sections 7.3-7.5 + Appendix A, 345k chars): (a) THE TANGENTIAL BASE POINT IS NOT FREE FOR OUR OBJECT -- IT I
+  *** [ 1 terms] NEGATIVE  B15_trace_map_invariant_controls
+           The proposed Fibonacci coupling lambda=sqrt(5) is rejected under the Fricke-Vogt normalization, and the naive continuum proxy violates the invariant.
+      [ 1 terms] OPEN      B29_hierarchy_normalization_controls
+           The Lucas hierarchy and its normalization are exact; the projective half-return selector itself remains underived.
+  *** [ 1 terms] NEGATIVE  B36_fibonacci_renormalization_route
+           The Fibonacci renormalization route only reuses the B26 selector; it yields no independent derivation of lambda/h=1, and gap-label controls fail to distinguish I=1/4.
+  *** [ 1 terms] NEGATIVE  B602_value_bridge
+           No declared structural normalization carries even the phase — all X1 cells fail with residual exactly −π/15 and all X2 cells fail — so the outcome is D-norm: the naive value bridge does not exist.
+  *** [ 1 terms] NEGATIVE  B606_norm_bridge
+           Outcome D-nf: no torsion-power normalization can close the value gauge, since tau_4's 97 and tau_8's 31*607*49297 have no partners in the hearing integers; the exact constants N(h3)=1/5 and 1/49 survive.
+
+  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).

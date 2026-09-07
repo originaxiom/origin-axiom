@@ -62,3 +62,24 @@ one. The gate list is capped at five; the complete list has eight.
 See GLOBAL_SINGULAR_PROVENANCE_INVENTORY.txt and FAILURES.md. No original
 design was rewritten or retroactively called compliant. A local report
 and green focused tests still do not meet the full banking checklist.
+
+## R16 and partial-filling update (2026-09-07)
+
+CC's numbering relay is still respected: no B ID is taken. Scientific
+seals bec4aa92, adfa7e8f, b5924cca and 3a2a15c7 precede their first
+executions; literal provenance markers are present in these designs.
+Original R16 and interval-reporting failures remain unchanged alongside
+separate successful controls. Focused group 29 passed; Sage certificate
+PASS. No full-suite rerun or independent receiving-seat acceptance.
+
+Latest all-head fetch: main c78003cd, physics 659487bb, SM d1a91c7a,
+outside-bench 879869ca. Incoming census producer/body is read, not
+independently rerun or merged. Its bounded range cannot support a
+global route kill. The audit's R15 checkpoint was previously pushed
+at 571ef15c; the present reporting checkpoint remains local so far.
+
+Reports, FINDINGS entry point, goal verdict, failure record, changelog,
+progress log, campaign board, framework/ladder, scoped law rows and
+registered open duties are updated together. No global theorem or
+physical identification is promoted by a path-local passing test.
+Full banking and publication gates retain the already declared debt.

@@ -1,6 +1,16 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [R15's global singular extension and full charged pair](GLOBAL_SINGULAR.md).**
+**Latest: [physics bottlenecks and strategy](PHYSICS_BOTTLENECKS.md).**
+[The named partial filling](PARTIAL_FILLING.md) is interval-certified
+hyperbolic with two complete cusps and CS outside the mirror-compatible
+classes. This is a genuine geometric candidate, not a derived level or
+physical chiral spectrum. [R16](CHARGED_DOMAIN.md) continues the singular
+path: its charged normal trace criterion is computed, with the complete
+H1 kernel still owed. The new focused group is 29 passed; preserved
+original failures and full banking debts remain. No B number is taken.
+R15 was pushed at 571ef15c; the new rounds are local checkpoints so far.
+
+**Preceding: [R15's global singular extension and full charged pair](GLOBAL_SINGULAR.md).**
 An analytic scalar-parametrix construction extends the prescribed end
 field globally, leaving one through-flux freedom on m202. The finite
 mixed-boundary groups give four modes and one conjugate, net three;
@@ -37,7 +47,8 @@ is verified and retained. Eleven new tests pass; latest combined check:
 [Findings pointer](FINDINGS.md) preserves the receiving-seat entry point.
 
 Base repository: **`f06d34054899e8c23672b836a7c534af77cbd35d`**.
-Work is local on `audit/physical-bridge-2026-09-05`; no push. Upstream through
+Work is on `audit/physical-bridge-2026-09-05`; the original checkpoint was
+local-only, and R15 was subsequently pushed at 571ef15c. Upstream through
 8f83b5c8 has been merged and independently audited: [first landing](UPSTREAM_AUDIT.md),
 [second landing](UPSTREAM_SECOND_AUDIT.md). Original baseline totals remain
 pinned to f06d3405; they are not a certificate for this updated branch.

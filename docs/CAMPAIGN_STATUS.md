@@ -1,5 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL AUDIT (2026-09-07): charged normal domains and certified partial filling.**
+The marked degree-five cover's cusp-0 (2,1) filling retains two complete
+cusps with interval-certified hyperbolicity and CS outside the quarter
+lattice. This geometric candidate does not yet give a quantum level or
+physical chirality. R16 continues the existing singular path by deriving
+the amplitude-dependent line trace criterion; the complete charged H1
+kernel remains the next calculation. Twenty-nine focused checks pass and
+the separate Sage certificate passes; original failures and main-bank
+debts remain. The latest degree-12 census cannot support a universal
+route kill. Sources under reports/physical_bridge_2026_09_05/:
+CHARGED_DOMAIN.md, PARTIAL_FILLING.md and PHYSICS_BOTTLENECKS.md.
+No B allocation; common physical action/inputs, gravity and predictive
+observables remain the goal's identified duties, not global no-go claims.
+
 **LATEST LOCAL AUDIT (2026-09-07, path-local R15): global extension, then the charged domain.**
 The prescribed singular Higgs field extends globally by an analytic
 parametrix/mean-repair/reduced-scalar-inverse construction. It is not a

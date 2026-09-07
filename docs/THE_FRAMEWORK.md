@@ -1,5 +1,18 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Certified geometric candidate and charged-domain progress, 2026-09-07:**
+the named degree-five partial filling is interval-certified hyperbolic,
+retains two complete cusps and excludes the mirror-compatible CS classes.
+This establishes geometric chirality, not a quantum level or physical
+fermion chirality. The separate R16 calculation derives the logarithmic
+line's amplitude-dependent normal trace criterion; the complete charged
+kernel remains the next singular-path duty. Sources and preserved failures:
+`reports/physical_bridge_2026_09_05/PARTIAL_FILLING.md`, `CHARGED_DOMAIN.md`.
+Historical language below about CS=0 deleting a quantized sector is
+limited to the geometric saddle value: zero there does not delete the
+full functional or quantum theory. The actual boundary-sector/level map
+is still required. The latest strategy is PHYSICS_BOTTLENECKS.md there.
+
 **Global singular extension, 2026-09-07 (path-local R15):** the prescribed
 commuting line-source field now has an analytic global construction via
 scalar mean repair and a reduced inverse. On m202 its through-flux is

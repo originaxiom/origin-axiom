@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-09-07 — Charged domains and a certified partial-filling witness
+
+Path-local R16 derives the logarithmic charged line's normal trace
+criterion with the effective source amplitude retained. The complete
+singular H1 kernel is still owed. Independently, the owner's marked
+degree-five cover filled at cusp 0 (2,1) is interval-certified hyperbolic
+with two complete cusps and CS excluding the mirror-compatible classes.
+This is geometric chirality, not a derived quantum level or physical
+chiral spectrum. Original instrument/reporting failures and separately
+sealed passing controls are preserved. New focused group: 29 passed;
+separate Sage certificate: PASS; no full-suite/main-bank green.
+Reports: physical_bridge_2026_09_05/CHARGED_DOMAIN.md, PARTIAL_FILLING.md,
+PHYSICS_BOTTLENECKS.md under reports/. No new B ID or main merge.
+
 ## 2026-09-07 — Path-local R15: global singular field and the full four/one pair
 
 R14's prescribed cusp field has an analytic global extension: a patched

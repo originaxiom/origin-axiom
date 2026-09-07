@@ -8,6 +8,17 @@ The existing 14-to-12 rank reduction is preserved in
 `reports/physical_bridge_2026_09_05/RECOVERED_PHYSICAL_STEPS.md`;
 remaining selection is not missing existence. X33's G2 scope is corrected inline.
 
+**2026-09-07 scoped movement (path-local, no new B ID):** X33's singular
+candidate now has a derived local charged-domain criterion (R16), not a
+complete physical H1 spectrum. For X21/L154, a degree-five partial filling
+is interval-certified with two complete cusps and CS outside the mirror
+classes. It is a boundary-sector candidate, not a derived quantum level.
+The CS=0 language below concerns a geometric saddle value, not deletion
+of the full CS functional. A census through degree 12 cannot globally
+kill this route, and c=6 does not follow from cusp counting without the
+boundary-theory map. Sources: reports/physical_bridge_2026_09_05/
+CHARGED_DOMAIN.md, PARTIAL_FILLING.md and PHYSICS_BOTTLENECKS.md.
+
 **Why it exists (owner directive, 2026-08-09):** *"map the negatives, what exactly the
 programme doesn't contain yet, as an ingredient towards a complete account, and we keep
 updating that as the ladder we aim to climb."* Five times on 2026-08-08 this seat declared

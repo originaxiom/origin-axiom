@@ -14356,3 +14356,39 @@ join four prior paths. The full list of eight is preserved, beyond the
 gate's printed five-path cap. No full-suite or main-bank green.
 Source: reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md.
 CC numbering respected; no B ID, source merge, PR, push or external message.
+
+## 2026-09-07 — Charged normal domains and certified partial filling (local research)
+
+R16 continues the prescribed singular source path: derive the full
+hyperbolic/normal deformed-form operator, all eight zero branches and
+the angular characteristic polynomial. With trivial angular holonomy,
+extra normal trace freedom occurs for 0<abs(q beta)<1, not for
+abs(q beta)>=1 or the uncharged case. This is local/per-mode, not a
+global line/cusp Fredholm certificate. Formal extreme-degree norms and
+the nonzero weak-source Green pairing are retained. The complete
+charged H1 kernel, physical defect/fibre law and source selection remain.
+
+Separately, the owner's named degree-five three-cusp cover is identified
+combinatorially, then cusp 0 is filled at (2,1). Two complete cusps remain.
+Sage/SnapPy verifies hyperbolicity and the complex-volume interval at
+100/160 bits. Normalized CS excludes the quarter lattice; its verified
+representative is about -0.0924099591208215 modulo 1/4. This certifies
+geometric chirality, not a quantum level or chiral fermions. The old
+loop-count grid is dispositioned unexecuted after the owner's clarification.
+
+Seals: bec4aa92 (R16), adfa7e8f (separate instrument control),
+b5924cca (partial-filling producers), 3a2a15c7 (separate reporting control).
+Original R16 12-pass/4-failure run and original interval serialization
+failure remain. Repaired science succeeds; focused group 29 passed,
+one optional-GUI warning, 39.15 seconds; separate Sage certificate PASS.
+The wrapper's rational conversion is not exact binary endpoint storage;
+native interval exclusion is the load-bearing check, preserved in full.
+
+The latest fetch receives outside-bench 879869ca. Its degree-12 census
+does not imply a global cover-tower kill or necessity of six geometric
+cusps for c=6; no independent census rerun is claimed. The requested
+physics bottleneck strategy is written with positive assets and measurable
+next obligations. Sources under reports/physical_bridge_2026_09_05/:
+CHARGED_DOMAIN.md, PARTIAL_FILLING.md, PHYSICS_BOTTLENECKS.md.
+No B allocation/main merge/PR; prior R15 push remains the last remote
+checkpoint. Full-suite and independent main-banking debts remain.

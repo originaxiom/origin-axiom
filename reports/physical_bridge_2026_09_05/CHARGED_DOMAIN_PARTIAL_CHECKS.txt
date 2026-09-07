@@ -1,0 +1,13 @@
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_charged_domain_control.py tests/test_physical_bridge_partial_filling.py tests/test_physical_bridge_global_singular.py tests/test_physical_bridge_singular_cusp.py -q -p no:randomly --tb=short
+Source tree: 3a2a15c7; quiescent while running.
+Exit: 0
+Original immutable charged-domain tests are not included; their 12-pass/4-failure first run remains in CHARGED_DOMAIN_FAILURE.txt. This is not a full-suite run.
+
+.............................                                            [100%]
+=============================== warnings summary ===============================
+<python-env>/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33
+  <user>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+29 passed, 1 warning in 39.15s

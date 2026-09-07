@@ -1,5 +1,34 @@
 # Failures retained, not rewritten as successful runs
 
+## R16 and partial filling (2026-09-07)
+
+R16's original sealed producer fails and its original tests give
+12 passed / 4 failed: symbolic zero normalization, an unevaluated
+integral, tiny-integral quadrature tolerance and a sign-undecided limit.
+All are preserved in CHARGED_DOMAIN_FAILURE.txt, with byte-faithful
+local raw capture. The separately sealed instrument control succeeds
+without changing the original math assertions. See CHARGED_DOMAIN.md.
+
+The partial-filling numeric producer succeeds. Its original Sage
+interval producer computes the certified geometry and CS, then fails
+on decimal-string conversion in a reporting assertion. Its JSON and
+PARTIAL_FILLING_INTERVAL_FAILURE.txt are retained. A separately sealed
+reporting control reruns the science and passes; its rational conversion
+is not an exact binary-endpoint serialization, as PARTIAL_FILLING.md
+explicitly records. Native interval exclusion is unaffected.
+
+The new quiescent focused group gives 29 passed, one GUI warning,
+39.15 seconds. It includes the separate R16 controls, not the four
+immutable failing original tests. This is not a full-suite rerun and
+does not erase the known original G2/R7/R11 failures or governance debt.
+
+Reporting gates remain 27 passed / 3 failed (same attribution,
+static-vacuity and sealed-provenance scopes), with review due at 110
+merges. Receipt: CHARGED_DOMAIN_PARTIAL_GATES.txt. The staged style
+check also flags 27 trailing spaces in the preserved lookup transcript;
+that raw source output is not silently normalized. Authored report text
+has no whitespace-check errors. No all-green or main-bank claim follows.
+
 ## R13 capture and regression receipts
 
 The first harmonic-cusp science run succeeds but its terminal capture is

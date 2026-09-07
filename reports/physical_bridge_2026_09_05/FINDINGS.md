@@ -1,6 +1,15 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [global singular extension and charged pair](GLOBAL_SINGULAR.md),
+Latest: [interval-certified partial filling](PARTIAL_FILLING.md),
+[R16 charged line domains](CHARGED_DOMAIN.md), and the owner's requested
+[physics bottleneck strategy](PHYSICS_BOTTLENECKS.md). The degree-five
+marked witness retains two complete cusps with CS excluding the quarter
+lattice. The singular candidate has a derived local amplitude/trace
+criterion, not yet a global charged kernel. Twenty-nine focused checks
+pass; the separate Sage certificate passes. Original failures and
+unresolved physical identifications remain explicit. No B allocation.
+
+Preceding: [global singular extension and charged pair](GLOBAL_SINGULAR.md),
 seal 8e0981a0. Analytic parametrix/mean repair gives a global commuting
 field for prescribed sources; the two-cusp through-flux is not unique.
 The full finite relative cohomologies are (0,4,1,0) and (0,1,4,0), not
