@@ -14479,3 +14479,12 @@ three on the three fixed lines is a singular-locus count only, as fc fenced it. 
 an anti-homomorphism, masked on m004 (the reversed relator is the inversion's image; involutions have Ad(g) = Ad(g⁻¹)) and
 exposed by m202's order-3 isometries; fixed at source with an asserted homomorphism check; B1280's six signs re-computed
 over both primes, unchanged. Lock `tests/test_b1282_the_siblings_germ.py`. 0 of 19; price unchanged.
+
+### B1282 addendum — the sibling's faces (2026-09-07)
+
+m202's two-variable Alexander polynomial Δ ≐ t₁t₂ + t₁ + t₂² + t₂ + 1 + t₂²/t₁ + t₂/t₁ (all coefficients ±1); over the 96
+primitive classes with |p|, |q| ≤ 6 the specialisation Δ(t^p, t^q) is monic 90 times and never divisible by t² − 3t + 1: the
+sibling keeps the object's arithmetic face (ℚ(√−3), 2T) and not its golden face (no fibration with the golden monodromy, so
+B1270's icosian E₈ is not carried). The diagonal Δ(t, t) = −(2t² + 3t + 2) has the roots (−3 ± i√7)/4 — the ℚ(√−7)
+spectrum of B1280's case B — recorded as a coincidence. L208 (iii) answered negatively; (iv) sharpened: a sibling costs the
+E₈ face. `frontier/B1282_the_siblings_germ/ADDENDUM_2026-09-07_the_siblings_faces.md`.

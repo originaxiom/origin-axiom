@@ -1,5 +1,10 @@
 # Changelog
 
+## B1282 addendum — the sibling's faces: m202 keeps ℚ(√−3) and 2T, not the golden monodromy
+
+Δ_{m202}(t₁,t₂) computed; no specialisation over 96 classes is divisible by t² − 3t + 1; the E₈ face is not carried by the
+sibling; the diagonal has the ℚ(√−7) roots of B1280's case B (a coincidence, recorded). L208 (iii) answered.
+
 ## B1282 — the sibling's germ: on m202 the inversion is the E₆ outer automorphism on the deformation space; the flat E₆ sector of the two-cusped sibling is vector-like near its geometric point; E70
 
 The twelve isometries of m202 as automorphisms (180, twelve classes); h¹(m202; Sym^n) = 2 on the six E₆ slots; the

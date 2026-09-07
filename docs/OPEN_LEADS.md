@@ -2454,7 +2454,9 @@ lift) with this branch's Fox and isometry machinery on π₁(m202) = ⟨a, b | a
 the local systems of π₁(m202) and whether its twelve isometries pair each with its dual on cohomology (the analogue of
 ι\* = θ) — **DONE 2026-09-07 (B1282): they do. The inversion of m202 acts on all six E₆ slots as (−1)^{n/2+1} = θ's sign,
 uniquely among the twelve isometries (360-bit Fox calculus, h¹ = 2 per slot), so N(27) ≡ 0 on the germ and only the
-singular-locus count remains**; (iii) whether
+singular-locus count remains**; **(iii) answered for the Alexander-module route (B1282 addendum): m202's two-variable
+Alexander polynomial has no specialisation divisible by t² − 3t + 1 over 96 classes, so no fibration of the sibling has the
+golden monodromy — the E₈ face is not carried; the arithmetic face (ℚ(√−3), 2T) is**; (iii′) whether
 the E₆ chain (B1270's two faces) transports to m202 unchanged — the invariant trace field and 2T do, the founding ratio
 and the Fibonacci tower need checking; (iv) the price: what m202 costs in the identification ledger (the object is m004; a
 sibling is a new input unless commensurability is shown to be the object's own choice). ★★★ — the only route on the board
