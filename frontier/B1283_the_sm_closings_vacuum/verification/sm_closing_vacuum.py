@@ -195,7 +195,15 @@ def main():
             key = (tuple(v), tuple(sorted((k, tuple(val)) for k, val in zq.items())))
             if key not in zprimes:
                 zprimes.add(key)
-                print(f"    branch {b}: Z' = {v[0]} beta + {v[1]} gamma + ({v[2]}, {v[3]}) family; charges {zq}")
+                print(f"    branch {b}: Z' = {v[0]} beta + {v[1]} gamma + ({v[2]}, {v[3]}) family; E6-part charges {zq}")
+                # the TOTAL Z' charge of every field of every generation: E6 part + family part (v2, v3) . e_g
+                tot = {}
+                for g in (1, 2, 3):
+                    fam = v[2] * e[g][0] + v[3] * e[g][1]
+                    tot[g] = {L: sorted(str(sp.Rational(q) + fam) for q in {v[0] * qb + v[1] * qg for (qb, qg) in lab_charge[L]}) for L in sm_labels}
+                gv = [g for g in (1, 2, 3) if f"N_{g}" in b][0]
+                print(f"      total Z' charges by generation (E6 part + family part): {tot}")
+                print(f"      the VEV'd generation {gv}: N, nu^c neutral: {tot[gv]['S'] == ['0'] and tot[gv]['nu^c'] == ['0']}; the other two generations carry equal charges: {all(tot[h] == tot[k] for h in (1,2,3) for k in (1,2,3) if h != gv and k != gv)}")
     # ------------------------------------------------------------------ (c)
     print("\n=== (c) the electroweak sector on each branch: mu-terms from the N VEVs ===")
     light = collections.Counter()

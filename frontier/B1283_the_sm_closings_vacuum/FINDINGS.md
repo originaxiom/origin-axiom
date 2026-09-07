@@ -48,8 +48,19 @@ so the list is independent of how much of SU(2)_β the Wilson line leaves):
 
 On each maximal branch the surviving direction is Z′ = −6γ + (a family part depending on g): its E₆ part is
 **(5ψ − 3χ)/2**, with charges **4 on Q, u^c, e^c; −2 on d^c, L; 10 on ν^c and N; −8 on H_u and D; −2 on H_d and D̄** (up
-to the family charges ±5, ±10 that distinguish the generations). β is broken on every branch (N_g and ν^c_g both have
-VEVs), and N and ν^c carry the same Z′ charge.
+to the family part). β is broken on every branch (N_g and ν^c_g both have VEVs). **With the family part included the Z′
+is family-non-universal**: on the branch of generation g its total charges are
+
+| generation | N, ν^c | Q, u^c, e^c | d^c, L | H_u, D | H_d, D̄ |
+|---|---|---|---|---|---|
+| g (the VEV'd one, whose Higgs pair is light) | **0** | −6 | −12 | −18 | −12 |
+| the other two (equal) | 15 | 9 | 3 | −3 | 3 |
+
+— the VEV'd generation's N and ν^c are exactly neutral (they must be: they have VEVs), the two heavy generations carry
+the same charges, and the light generation's quarks and leptons differ from them. So the Z′ couples non-universally to
+the families (a flavour-changing Z′ once the mass and gauge bases differ), and it is broken at the electroweak scale by
+the light Higgs pair itself (charges −18, −12) unless something breaks it first: at the SUSY tree level nothing does,
+since no unpaired SM-singlet direction is D-flat.
 
 ## 3. The electroweak sector on each branch ((c), exact)
 

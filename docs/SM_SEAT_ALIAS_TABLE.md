@@ -65,3 +65,11 @@ Both collisions (B1025+, B1267+) happened the same way: **a seat renumbers to do
 banks into the vacated range, and neither side knows until a harvest.** Renumbering is
 reactive. **A reserved range is the only fix that holds**, because it is checkable by a gate
 rather than by attention.
+
+## Proposed by the SM-derivation seat, 2026-09-07 (pending main's acknowledgement; `SM_TO_CC_2026-09-07_RANGE_EXHAUSTED.md`)
+
+| ID | MAIN's arc | SM-DERIVATION seat's arc (cite as sB…) |
+|---|---|---|
+| B1277 | leak_closure | the_vacuum_manifold_of_the_closing (a seventh collision, recorded by main's B1294) |
+| B1278–B1283 | *(reserved, never assigned)* | the_six_fold_closing · the_symmetries_of_the_closing · the_chirality_probe · the_seats_verified · the_siblings_germ · the_sm_closings_vacuum |
+| **B1300–B1319** | *(requested reserved)* | **this branch's continuation from 2026-09-07** |

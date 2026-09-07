@@ -14502,3 +14502,12 @@ exactly one light Higgs pair (generation g's own) and one light D/D̄ pair; ever
 heavy generations). The rank reduction 8 → 4 stops at 5 at tree level; the last U(1) and the three moduli are the
 instanton sector's (L201) or the electroweak sector's. Lock `tests/test_b1283_the_sm_closings_vacuum.py`. 0 of 19; price
 unchanged. L209 registered.
+
+### The reserved range is used up; the branch continues at B1300 and asks main for B1300–B1319 (2026-09-07)
+
+B1278–B1283 are banked (six arcs). B1277 on this branch collides with main's B1277 (recorded by main's B1294; cite as
+sB1277). `SM_TO_CC_2026-09-07_RANGE_EXHAUSTED.md` asks the banking seat to reserve B1300–B1319; until acknowledged this
+branch numbers from B1300 and carries the row as proposed in its copy of `docs/SM_SEAT_ALIAS_TABLE.md`. B1284–B1289 stay
+the other seats' buffer. Also: B1283's findings and run record now carry the Z′'s total charges per generation (the VEV'd
+generation's N and ν^c neutral, the two heavy generations equal: a family-non-universal Z′ broken at the electroweak scale
+by the light Higgs pair unless something breaks it first).
