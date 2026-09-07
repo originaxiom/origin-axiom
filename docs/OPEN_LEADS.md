@@ -2566,6 +2566,22 @@ that comparison is earned. Physical source/defect/fibre selection and
 the pair's interactions remain open. Exact scope and proof:
 reports/physical_bridge_2026_09_05/CUSP_TAIL.md.
 
+**R18 movement, same PB-BOUNDARY lead (2026-09-07):** the closed-range
+and complete-kernel comparison requested by R17 is now supplied in the
+declared maximal complex with positive source densities and all
+abs(q)*beta_a>=1. Bounded whole-cusp and finite-line homotopies compare
+to (C,T)/(C,E), retaining the corners. Under R15's three-arc hypotheses
+the normalizable H1 counts are four and one, net three. Scope sentence:
+"The result discharges the global closed-range and complete-cohomology
+join for the stated strong MAXIMAL complex." Source:
+reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY.md, section 6.
+This closes that analytic sub-duty only, not PB-BOUNDARY. NEXT: derive
+the parent gauge/fibre and physical defect law, including the effective
+source amplitudes; determine the extra pair's allowed mass terms and
+anomaly/inflow consistency in the same action. Weak/mixed/neutral domains
+are not ruled out or counted by the strong theorem. Compact resolvent
+is not required for this comparison and remains unasserted.
+
 **PB-PARTIAL-FILLING — boundary theory on the certified marked witness. OPEN.**
 The degree-five decorated cover filled at cusp 0 (2,1) now has
 interval-certified hyperbolicity, two complete cusps, and CS outside
@@ -2576,6 +2592,12 @@ to survive filling. Nonzero CS value is not the level. This is a
 parallel candidate, not a substitute for the sourced operator path.
 No low-degree census or six-boson interpretation closes it globally.
 Source: reports/physical_bridge_2026_09_05/PARTIAL_FILLING.md.
+
+**R18 receive-only note:** outside-bench 6c7aaba6's full new growth-fit
+memo and producer were read, not rerun. Its Seifert-surgery series is not
+the cusped complement or the certified partial-filling witness. The
+boundary sector/normalization map remains the next duty of this lead;
+no numerical fit or cusp census is promoted to a global no-go.
 
 **PB-SOURCE / PB-BOUNDARY strategy follow-through:** the ranked common
 action/input, physical kernel, 4d gravity and predictive-observable

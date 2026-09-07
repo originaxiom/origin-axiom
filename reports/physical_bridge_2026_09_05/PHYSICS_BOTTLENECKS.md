@@ -1,10 +1,10 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
-2026-09-07, updated after R17 and the named partial-filling verification.
+2026-09-07, updated after R18 and the named partial-filling verification.
 This ranks remaining duties of the constructions audited here. It is
 not a theorem that the repository, its other branches, or the object
 cannot supply them. All remote heads were fetched again; latest main
-c78003cd, physics 659487bb, SM d1a91c7a, outside-bench 879869ca.
+c78003cd, physics 659487bb, SM d1a91c7a, outside-bench 6c7aaba6.
 Newer received conclusions are not accepted merely because fetched.
 
 ## 1. A common physical theory and its genuine inputs
@@ -42,33 +42,36 @@ Source: [R4 action](VACUUM_MODEL.md), [R11](FAMILY_ACTION.md),
 **Asset:** the annular case is understood; the singular route is not
 killed by it. R15 gives a global prescribed background and full finite
 four/one cohomology. R16 derives the local amplitude-dependent trace
-criterion. R17 now supplies a uniform charged cusp-tail energy barrier
+criterion. R17 supplies a uniform charged cusp-tail energy barrier
 for a fixed tangential Hilbert complex, including puncture concentration.
-Separately, the partial filling is certified geometrically
-chiral with two complete cusps.
+R18 now establishes closed range and complete normalizable four/one
+cohomology in the specified maximal complex when every abs(q)*beta_a>=1,
+under R15's three-arc hypotheses. Separately, the partial filling is
+certified geometrically chiral with two complete cusps.
 
 **Bottleneck:** geometric chirality, a relative Euler characteristic,
 finite cohomology and normalizable four-dimensional chiral fermions
 are distinct. The physical defect/domain law and the joint cusp/line
 limit must connect them. At weak effective charge, L2 alone demonstrably
-does not choose the domain. At strong charge the local ambiguity can
-disappear, but no global kernel follows just from that.
+does not choose the domain. R18 supplies the previously owed global
+comparison in the declared strong maximal class. Its complete kernel
+does not select that class physically or remove the extra conjugate pair.
 
 **Strategy:** keep the sourced m202 path as the immediate calculational
 priority. Derive its gauge/fibre lift and defect boundary condition,
-including a=q beta. Use R17's scoped high-end estimate, establish
-finite-height singular compactness and global Fredholmness, then compare
-and compute BOTH charged kernels with the physical Lorentz/
-gauge assignment. Only then test whether the extra vector-like pair
-can become massive through the same action, with anomalies and
-interactions retained.
+including a=q beta. Carry R18's now-complete four/one kernel into that
+same physical Lorentz/gauge assignment. Determine whether the allowed
+defect completion selects the strong maximal class or requires another
+domain. Then compute the extra pair's allowed mass terms and anomaly/
+inflow constraints in the same action. Compact resolvent was not needed
+for R18's closed-range proof and is not silently claimed.
 
 **Success test:** a cutoff-independent normalizable charged spectrum,
 with correct physical chirality and identified gauge representations,
 not just net Euler three. A failure in one amplitude/domain class
 closes that class, not all singular or cusped backgrounds.
 Sources: [R15](GLOBAL_SINGULAR.md), [R16](CHARGED_DOMAIN.md),
-[R17](CUSP_TAIL.md).
+[R17](CUSP_TAIL.md), [R18](WEIGHTED_COHOMOLOGY.md).
 
 ## 3. Gravity in the same four-dimensional dynamical theory
 
@@ -150,10 +153,11 @@ hidden by a green focused subset.
 
 ## Immediate order, preserving both live paths
 
-1. Finish the singular operator/domain and complete charged kernel
-   work using R15--R17. The high-cusp bound is supplied in its fixed
-   realization; next prove the finite-height and global-cohomology join.
-   Do not restart from another Euler argument.
+1. Carry R18's complete conditional four/one kernel into the physical
+   source/amplitude/defect/fibre derivation. Then compute the extra pair's
+   allowed mass and anomaly/inflow completion in that same action.
+   The strong maximal-complex closed-range/cohomology join is now
+   supplied; do not restart from another Euler argument.
 2. On the certified partial filling, construct the actual boundary
    sector and its level/anomalies/partition function. Nonzero CS(M)
    alone neither fixes k nor identifies the desired c=6 theory.

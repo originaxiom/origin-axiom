@@ -1,6 +1,19 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [R17's uniform charged cusp-tail bound](CUSP_TAIL.md).**
+**Latest: [R18's complete strong-source weighted cohomology](WEIGHTED_COHOMOLOGY.md).**
+Bounded end homotopies compare the declared maximal complex with the
+full finite pair and establish closed range. Under R15's three-arc
+hypotheses the normalizable degree-one counts are four and one, net
+three, for abs(q)*beta_a>=1. Ten new tests pass. This is a conditional
+analytic result, not source/amplitude/domain selection, an independently
+reviewed theorem or a completed physical chiral theory. The extra pair,
+its interactions and anomaly/defect completion remain. No B ID is taken.
+Broad regression: 222 passed, with the same seven original failures
+and eight original fixture errors as R17; not full-repository green.
+Reporting gates: 27 pass / 3 fail, including a newly flagged sealed
+raw-retrieval branch-name footprint. Main banking remains incomplete.
+
+**Preceding: [R17's uniform charged cusp-tail bound](CUSP_TAIL.md).**
 The prescribed sourced operator now prevents bounded-energy charged
 escape to large height, uniformly toward punctures, within a fixed
 tangential Hilbert-complex realization. Neutral one-forms correctly

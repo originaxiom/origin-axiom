@@ -1,6 +1,16 @@
-# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R17
+# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R18
 
-**Newest movement:** [R17](CUSP_TAIL.md) proves a growing high-cusp
+**Newest movement:** [R18](WEIGHTED_COHOMOLOGY.md) establishes a
+bounded weighted-cohomology comparison and closed range for the declared
+strong-source maximal complex. R15's three-arc hypotheses now give
+complete normalizable H1 counts FOUR AND ONE, not only a finite Euler
+three. Ten new tests pass. This is an analytic conditional construction,
+not physical selection of its source amplitudes, fibre or defect law.
+Next: that physical selection and the extra pair's mass/anomaly/inflow
+completion in the same action. Full TOE and independent main banking
+remain unachieved; the work continues along the same source path.
+
+**Preceding movement:** [R17](CUSP_TAIL.md) proves a growing high-cusp
 charged energy barrier for the specified fixed tangential complex,
 uniformly toward the punctures. The smooth R15 corrector preserves it.
 This discharges that scoped joint-end estimate, not the global domain,
@@ -101,7 +111,7 @@ tests, and no global impossibility theorem is claimed.
 | A grounded mathematical construction | Conditional seed/core tests, actual E6 matrices, 27 and cubic; original carrier/Yukawa reproductions in [AUDIT.md](AUDIT.md) and the upstream audits | That the axioms are laws of nature, or that mathematical labels are physical fields |
 | Reach the SM gauge algebra | The existing two-singlet reduction removes chi and psi, leaving Y; R4 realizes the actual 12-generator stabilizer at a classical minimum. [Recovered steps](RECOVERED_PHYSICAL_STEPS.md), [vacuum](VACUUM_MODEL.md) | Why this action, its inputs and this high-scale branch are selected. **14 versus 12 is not an uncomputed dimension mismatch**; these are gauge-algebra dimensions, not spacetime dimensions |
 | Electroweak breaking compatible with electromagnetism | R8's neutral broken minima and complete leading spectra; R9's positive charged-pair logarithmic curvature; R10's finite hard and triplet contributions also favor neutral alignment. [R8](BROKEN_VACUUM.md), [R9](INFRARED_ALIGNMENT.md), [R10](FINITE_ALIGNMENT.md) | A full finite-epsilon/global quantum vacuum and a measured weak scale. R10's renormalization boundary is declared, not derived |
-| Physical matter and families | Actual Yukawa matrices/ranks and smaller subleading mass retained. R11 supplies the marked ratio's pure family component, with the additional E6 Weyl action explicitly separated. A newer three-fold-closing/three-class construction is present on the source branch and queued for independent verification | Three replicated physical chiral families with the correct Lorentz/gauge action and realistic flavor. One 27 is not three copies of its 16; fiber triplets and cohomology indices must not be substituted for one another; a physical zero-mode problem is required |
+| Physical matter and families | Actual Yukawa matrices/ranks; R11's marked family action; R18's complete normalizable four/one cohomology in the declared strong-source maximal complex, under R15's three-arc hypotheses. [R18](WEIGHTED_COHOMOLOGY.md) | Physical source/domain/fibre selection, Lorentz/gauge assignment, extra-pair mass and anomaly/inflow completion in one action, then realistic flavor. Fiber triplets, indices and pure three-family spectra are not interchangeable |
 | Gravity unified with matter | Hyperbolic/action/state-integral work, explicit Lorentz/color constructions, spin-two representation content, and the principal-CS containment/index are genuine assets. [Audit](AUDIT.md), [recovered scopes](RECOVERED_PHYSICAL_STEPS.md) | A single source-derived four-dimensional dynamical gravity-plus-matter theory with physical propagators and consistent quantum behavior. **No invariant vectors is not no invariant functions; the withdrawn 122-order Lambda miss is not restored** |
 | Predictive physical contact | A corrected crossing solver and quantified spectrum/threshold mechanisms, with parameters and inverse fits explicitly identified. [Model](PHYSICAL_MODEL.md), [solver audit](AUDIT.md) | A new validated distinctive empirical prediction from the originating object. The historical mismatch is model/scenario-scoped, not a calibrated 16-sigma exclusion of the whole programme |
 

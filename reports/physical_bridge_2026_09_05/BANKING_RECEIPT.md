@@ -102,3 +102,38 @@ chirality or a complete TOE. No B verdict or global theorem registry
 promotion is manufactured for this path-local result. Full repository
 pytest green and independent receiving-seat acceptance remain unpaid.
 No source branch is merged and no PR or external message is sent.
+
+## R18 update (2026-09-07), conditional comparison and still path-local
+
+No B allocation or alias collision. Seal ad3857a7 precedes the first
+source/test execution; all four sealed design/source/test/prior-receipt
+hashes were subsequently rechecked unchanged. The maximal strong-source
+comparison proof and full data are recorded, with ten passing new tests
+and the complete broader 222 pass / 7 original fail / 8 original error
+regression. No tree edits occurred during scientific/certifying runs.
+
+The truncated first stdout and the unchanged full-capture repeat have
+separate named artifacts. Raw environment paths from the regression are
+kept in an explicitly local excluded copy; only those prefixes are
+redacted in its committed receipt. The failed nonexistent-glob launch
+never started pytest and is not counted as a scientific result.
+
+FINDINGS, README, goal/strategy, failure record, all three reader ledgers,
+framework, X33 ladder row, two scoped law rows and PB-BOUNDARY duties
+are updated. Source/domain/amplitude/fibre selection and consistent
+mass/anomaly/inflow completion remain open. No mathematical kernel count
+is presented as an independently reviewed physical chirality theorem.
+
+Literal provenance markers were present at seal; the aggregate mechanical
+governance pass is a reporting-time pass, not a new pre-execution
+certificate. The prior full-suite, gate and independent receiving-seat
+banking debts remain unpaid. No main merge, PR or external relay is
+performed. The owner-authorized destination is this audit branch only.
+
+Reporting-time gates: 27 pass / 3 fail. Attribution now additionally
+flags four literal upstream branch-name tokens in the sealed raw R18
+retrieval receipt; this new footprint is declared, not silently treated
+as prior debt. The raw seal is preserved and no gate baseline/exemption
+is changed. Publication-policy reconciliation is owed before full main
+banking. The old static-vacuity/provenance debts also remain; review due
+at 114 merges. Receipt: WEIGHTED_COHOMOLOGY_GATES.txt.

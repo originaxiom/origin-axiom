@@ -1,6 +1,16 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [R17's uniform charged cusp-tail estimate](CUSP_TAIL.md),
+Latest: [R18's complete weighted cohomology](WEIGHTED_COHOMOLOGY.md),
+sealed at ad3857a7. In the declared maximal complex with all effective
+source strengths abs(q)*beta_a>=1, bounded end homotopies and a global
+parametrix establish closed range and comparison with the full relative
+pair. R15's three-arc hypotheses give normalizable H1 counts four and
+one. Ten new checks pass; physical source/domain/fibre selection and
+consistent interactions/anomalies remain unpaid. No B ID or TOE claim.
+The completed broad regression has 222 passes and the same seven
+original failures/eight original fixture errors as R17.
+
+Preceding: [R17's uniform charged cusp-tail estimate](CUSP_TAIL.md),
 sealed at db6b5af3. The declared fixed tangential complex has a growing
 high-cusp energy barrier, including approach to source punctures; the
 neutral one-form control does not. This supplies a joint-end estimate,

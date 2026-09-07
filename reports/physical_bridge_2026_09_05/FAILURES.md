@@ -1,5 +1,49 @@
 # Failures retained, not rewritten as successful runs
 
+## R18 evidence capture (2026-09-07)
+
+All ten new tests pass. The first producer exited zero but its tool
+receiver truncated 20,910 output tokens to the requested budget.
+weighted_cohomology_first_capture.partial.txt preserves that incomplete
+receipt, including the truncation notice. It is not full scientific JSON.
+A repeat of the identical sealed producer, with a sufficient receiver
+budget, is retained in weighted_cohomology_repeat.json. No source,
+assertion or tolerance was changed to obtain the passing result.
+
+The initial orchestration store rejected an undefined exit_code while
+the process was live. The session ID had already been saved; that same
+handle was polled through terminal completion. No process was abandoned.
+The pre-seal whitespace check also flagged six copied retrieval lines.
+Those raw query outputs are retained verbatim; the authored-file check
+passed before seal ad3857a7. This is not a scientific failure or a claim
+that the whole-tree whitespace check passed.
+
+The analytic maximal-domain proof is separate from its finite controls;
+ten passing tests are not independent peer review of that proof or a
+physical boundary-law derivation. Prior scientific/governance failures
+remain untouched below.
+
+A broad-test launch named a nonexistent test_b1259 glob; zsh exited
+before pytest started. That command is not a regression result. The
+actual filenames are enumerated with rg for the subsequent run. No
+working scientific or certifying process was edited or abandoned.
+
+The actual 35-file quiescent regression returns 222 passed, 7 failed,
+8 errors and one optional-GUI warning in 243.93 s. All seven failed
+and eight error test IDs match R17 exactly. Full receipt:
+WEIGHTED_COHOMOLOGY_REGRESSION.txt. Its raw environment-prefix version
+is WEIGHTED_COHOMOLOGY_REGRESSION_RAW.local.txt, excluded only in
+.git/info/exclude. No original scientific source or test was edited.
+
+Reporting gates give 27 pass / 3 fail, review due at 114 merges.
+Attribution has an additional failing file: the sealed R18 retrieval
+receipt contains four literal upstream branch-name tokens. This is NEW
+metadata debt, not merely the old three-token inventory. The receipt
+and its seal remain unchanged. No gate baseline, exemption or scanner
+is changed to hide it. The two old static-vacuity warnings and eight
+older literal-marker omissions remain. See WEIGHTED_COHOMOLOGY_GATES.txt.
+Independent/main banking has not been completed.
+
 ## R17 quiescent regression (2026-09-07)
 
 R17's first producer succeeds and all nine new tests pass. The broader

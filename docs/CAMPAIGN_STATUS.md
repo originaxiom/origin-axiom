@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL AUDIT (2026-09-07, path-local R18): complete conditional four/one kernel.**
+The strong-source maximal complex now has a bounded comparison with
+the full relative pair and closed range, giving normalizable H1 counts
+four and one under R15's three-arc hypotheses. Ten new checks pass.
+This discharges the analytic counting join in this specified domain,
+not physical selection of amplitudes, source locus or defect/fibre law.
+Next on the same path: that selection and the extra pair's interactions,
+mass and anomaly/inflow completion in one physical action. Source:
+reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY.md. No B ID,
+independent main-banking or complete TOE certificate is inferred.
+
 **LATEST LOCAL AUDIT (2026-09-07, path-local R17): charged cusp escape controlled.**
 The sourced deformed-form operator has a uniform growing high-cusp
 energy barrier, including approach to punctures, in a fixed tangential

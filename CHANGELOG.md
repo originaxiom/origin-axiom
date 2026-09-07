@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-07 — Path-local R18: complete strong-source weighted cohomology
+
+Bounded source/cusp homotopies compare the declared maximal deformed
+complex with the finite mixed-boundary pair, and a chain parametrix
+establishes closed range. Under R15's three-arc homological hypotheses,
+all abs(q)*beta_a>=1 gives complete normalizable H1 counts four and
+one, net three with the extra pair retained. No physical amplitude,
+defect/fibre selection or anomaly-free action is inferred. Seal ad3857a7;
+ten new tests pass. The first output capture was truncated and is
+preserved; an unchanged repeat supplies the full JSON. Report:
+reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY.md. No B ID,
+independent main-banking certificate or complete TOE claim.
+The 35-file quiescent regression has 222 passes, seven original failures
+and eight original fixture errors; no new failed/error test ID.
+
 ## 2026-09-07 — Path-local R17: uniform charged cusp-tail energy barrier
 
 The prescribed source potential's deformed-form operator and its full

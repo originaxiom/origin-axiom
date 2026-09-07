@@ -14422,3 +14422,43 @@ Full receipts retained; source/tests/tolerances are unchanged. This is
 not a full-repository suite or independent main-banking certificate.
 Source: reports/physical_bridge_2026_09_05/CUSP_TAIL.md. No B allocation;
 CC's numbering relay was reread, and no main merge or PR is performed.
+
+## 2026-09-07 — Path-local R18: complete strong-source weighted cohomology
+
+The singular-source path now has a bounded comparison from the declared
+maximal deformed-form complex to the full finite mixed-boundary pair.
+Weighted radial homotopies handle whole punctured cusps before finite
+source collars; averaged traces and the full cutoff derivative term
+preserve the maximal domains and corners. A bounded chain parametrix
+proves closed range. With all abs(q)*beta_a>=1 and R15's three-arc
+homological hypotheses, complete normalizable H1 has dimensions four
+and one, net three with the extra conjugate pair retained.
+
+Source/design/tests sealed at ad3857a7. Ten new tests pass in 10.90 s.
+The first science output was truncated by the receiving tool despite
+exit zero; its incomplete receipt is kept. An unchanged full-capture
+repeat completes in 9.766 s. Controls retain both signs, all degrees,
+weak/neutral/mixed exclusions, wrong-sign/unweighted/cutoff mutants,
+exact chain identities and both cellular resolutions. These controls
+do not substitute for the separately written analytic domain proof.
+
+Physical amplitude/source/fibre/defect selection is not inferred from
+this conditional count. Next: that selection and the extra pair's
+allowed mass and anomaly/inflow completion in one action. Full TOE,
+independent receiving-seat acceptance and main banking remain unpaid.
+Report: reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY.md.
+Latest fetch pins main c78003cd, physics 659487bb, SM d1a91c7a,
+outside-bench 6c7aaba6. New incoming series claims are read but not
+rerun or merged. No B number, PR or external relay is taken.
+
+R18 verification receipt: the completed 35-file quiescent regression is
+222 passed, 7 failed, 8 errors and one optional-GUI warning in 243.93 s.
+The fifteen failed/error IDs are identical to R17's. This is not a full
+repository certificate. All four R18 pre-execution hashes still match.
+
+R18 reporting gates: 27 pass / 3 fail, review due at 114 merges.
+The attribution footprint newly includes four literal upstream branch
+names in the sealed raw retrieval receipt. The original receipt and
+hash are preserved; no gate baseline or exemption is altered. The
+old static-vacuity and sealed-marker debts remain. This is a local
+research checkpoint, not full main banking or independent acceptance.

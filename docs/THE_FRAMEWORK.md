@@ -1,5 +1,16 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Complete conditional charged kernel, 2026-09-07 (path-local R18):**
+In the declared maximal complex with all effective line strengths
+abs(q)*beta_a>=1, bounded weighted homotopies and a chain parametrix
+give closed range and comparison to the finite relative pair. R15's
+three-arc hypotheses therefore give complete normalizable H1 counts
+four and one. This supplies the comparison not provided by R17 alone;
+it does not derive a physical source amplitude, parent or defect law.
+The extra pair's mass/anomaly/inflow completion remains a physical duty.
+Proof and ten passing controls:
+`reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY.md`.
+
 **Charged operator progress and certified geometric candidate, 2026-09-07:**
 R17 supplies a growing high-cusp energy barrier for the prescribed
 charged operator in a fixed tangential Hilbert complex, uniform toward
@@ -14,8 +25,9 @@ the named degree-five partial filling is interval-certified hyperbolic,
 retains two complete cusps and excludes the mirror-compatible CS classes.
 This establishes geometric chirality, not a quantum level or physical
 fermion chirality. The separate R16 calculation derives the logarithmic
-line's amplitude-dependent normal trace criterion; the complete charged
-kernel remains the next singular-path duty. Sources and preserved failures:
+line's amplitude-dependent normal trace criterion; the complete kernel
+comparison is now supplied by R18 in its specified strong maximal class.
+Sources and preserved failures:
 `reports/physical_bridge_2026_09_05/PARTIAL_FILLING.md`, `CHARGED_DOMAIN.md`.
 Historical language below about CS=0 deleting a quantized sector is
 limited to the geometric saddle value: zero there does not delete the
