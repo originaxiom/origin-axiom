@@ -1,5 +1,12 @@
 # Changelog
 
+## B1283 — the SM closing's tree-level vacuum: nine conjugate-paired SM-preserving branches, one Z′ = (5ψ − 3χ)/2 surviving on every one, one light Higgs pair and one light D pair per maximal branch
+
+On Y₉ with an SM Wilson line the tree-level vacuum manifold of the one-coupling E₈ theory, restricted to the 18 SM
+singlets: 85 F-flat sets, nine D&F-flat branches (all paired), minimal surviving abelian rank 1, the Z′ charges computed;
+μ-matrix rank 2 on every maximal branch; ν^c VEVs everywhere. D2's space: three moduli per maximal branch.
+`frontier/B1283_the_sm_closings_vacuum`.
+
 ## B1282 addendum — the sibling's faces: m202 keeps ℚ(√−3) and 2T, not the golden monodromy
 
 Δ_{m202}(t₁,t₂) computed; no specialisation over 96 classes is divisible by t² − 3t + 1; the E₈ face is not carried by the

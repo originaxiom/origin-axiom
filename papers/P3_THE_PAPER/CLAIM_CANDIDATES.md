@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1091 settled arcs — 76%** —
+the field is **absent on 828 of 1092 settled arcs — 76%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (88) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 523 arcs.**
+**POOL = declared-law (89) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 524 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.95** on the corpus's own law vocabulary against
-**1.14** for the rest — **2.6×**. The criterion
+**2.93** on the corpus's own law vocabulary against
+**1.14** for the rest — **2.58×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -400,7 +400,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1136` | PROVED | S | | THE GENERICITY CONTROL TURNED ON THE OBJECT'S OWN WINS (cc3's B8128, owner-elected; verified TWO-BENCH via an independent SnapPy census on this bench): over the shape-fie… |
 | `B1238` | PROVED | S | | THE SEAT HARVEST, THIRD RING (codex R037-R039 @ e40d46ad; the physics-seat evaluation branch R39-R41 + the W-E absence sweep @ 1c980e69; nothing merged, every number reco… |
 
-## §10 the wall — what a specialist must supply (44)
+## §10 the wall — what a specialist must supply (45)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -413,6 +413,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1276` | PROVED | L | | THE RELATIONS THE CHAIN FORCES. B1275's explicit E6 cubic read through B1252/B1253's Standard-Model labels of the 27 (Q 6, u^c 3, d^c 3, L 2, e^c 1, nu^c 1; H_u 2, H_d 2,… |
 | `B1277` | PROVED | L | | THE VACUUM MANIFOLD OF THE CLOSING AND ITS WILSON LINES. The E8 theory on Y_3 (B1273: e6 + u(1)^2, three 27s on the sign characters chi_i, three 27bars, six flavons, one … |
 | `B1278` | PROVED | L | | THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE. The closings Y_n are the manifold covers of the object's geometric transition (Y_2 the spherical end's, Y_3 the Euclide… |
+| `B1283` | PROVED | L | | THE SM CLOSING'S TREE-LEVEL VACUUM. On Y_9 with an SM Wilson line (B1278: E6 -> su(3)+su(2)+u(1)_Y+u(1)_beta+u(1)', three 27s and 27bars, six flavons), the SM-preserving … |
 | `B1151` | NEGATIVE | V | | THE LARGE-T GUE TEST (C4, the cloud's preregistered cell c4_gue_larget.py run on our i9 at T=3000, 5459 merged zeros): the preregistered single-GUE gate is NOT MET -- GUE… |
 | `B1157` | NEGATIVE | V | | WF-2 (the dynamics; the masterplan's 2nd workflow, 8 agents), sealed DECIDABLE-RESULT, banked as a productive NEGATIVE. THE FIREWALL VERDICT: the object supplies NO param… |
 | `B1220` | PROVED | V | | THE CAMPAIGN'S PREMISE AUDIT (Cells 1-3 of the publication campaign, NOT RUN AS DESIGNED because none needed to be): ALL THREE MATH CELLS WERE ALREADY ANSWERED, and in EV… |

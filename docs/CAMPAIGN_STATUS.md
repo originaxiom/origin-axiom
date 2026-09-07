@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-07, B1283 — THE SM CLOSING'S TREE-LEVEL VACUUM)**: on Y₉ with an SM line the SM-preserving flat
+directions are nine conjugate-paired branches (three maximal, three moduli each) and **every one leaves exactly one extra
+U(1) unbroken: the tree-level gauge group is SM × U(1)_{Z′} with Z′ = (5ψ − 3χ)/2 + family** (charges 4 on Q, u^c, e^c;
+−2 on d^c, L; 10 on ν^c, N; −8 on H_u, D; −2 on H_d, D̄); each maximal branch has exactly one light Higgs pair and one
+light D pair and a ν^c VEV. The rank reduction stops at 5; the last U(1) and the three scales are the instanton sector's.
+Price unchanged.
+
 **LATEST (2026-09-07, B1282 — THE SIBLING'S GERM)**: on the two-cusped sibling m202 the inversion acts on every E₆
 deformation slot as the outer automorphism's sign (−1)^{n/2+1}, uniquely among its twelve isometries, so B1280's theorem
 transfers: **the flat E₆ sector of m202 is vector-like near its geometric point; fc's count of three on its three fixed lines

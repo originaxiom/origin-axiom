@@ -1,0 +1,12 @@
+{
+ "id": "B1283",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1277", "B1278", "B1276", "B1273", "B1279", "B1275", "B1252", "B1269"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [],
+ "claim_one_line": "THE SM CLOSING'S TREE-LEVEL VACUUM. On Y_9 with an SM Wilson line (B1278: E6 -> su(3)+su(2)+u(1)_Y+u(1)_beta+u(1)', three 27s and 27bars, six flavons), the SM-preserving tree-level vacuum manifold of the one-coupling E8 theory is computed exactly: the 18 SM-singlet fields (N, nu^c, their conjugates, the six flavons) carry the charges beta = (psi+chi)/4, gamma = -(5/12)psi + (1/4)chi (verified on every SM field; (N, nu^c) an su(2)_beta doublet) and the two family charges; the cubic has 14 monomials among them (the flavon couplings S_ij X_j Xbar_i and the two flavon cubics; no purely-singlet 27^3 term); the F-flat rule for squarefree cubics gives 85 maximal F-flat sets and an exhaustive LP over the four abelian D-terms cuts them to NINE maximal SM-preserving branches, ALL conjugate-paired (no unpaired direction exists even under the reduced gauge group): three maximal ones {N_g, Nbar_g, nu^c_g, nubar^c_g, S_hk, S_kh} with three complex moduli each and six {N_g, nu^c_h} with two. NO BRANCH BREAKS ALL FOUR EXTRA U(1)s: the minimal surviving abelian rank is 1, so the SM closing's tree-level gauge group is SU(3) x SU(2) x U(1)_Y x U(1)_Z' with Z' of E6 part (5 psi - 3 chi)/2 -- charges 4 on Q, u^c, e^c; -2 on d^c, L; 10 on nu^c and N; -8 on H_u, D; -2 on H_d, Dbar -- mixed with the family torus. On every maximal branch mu_jk = lambda |eps_ijk| <N_i> has rank 2: exactly one light Higgs pair (generation g's own) and one light colour-triplet pair D_g, Dbar_g (the doublet-triplet problem in its E6 form); every branch has a nu^c VEV, mixing the heavy generations' lepton doublets with their down-Higgs doublets. D2's space on the SM closing is three moduli per maximal branch with one Z' left for the instanton sector or the electroweak sector to break; the rank reduction 8 -> 4 stops at 5 at tree level. 0 of 19 (the scales are moduli); price unchanged."
+}

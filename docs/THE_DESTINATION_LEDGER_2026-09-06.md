@@ -116,6 +116,17 @@ observer: a two-cusped sibling of the object (L208). **B1282:** on that sibling 
 automorphism on the deformation space, so its flat E₆ sector is vector-like near the geometric point; the three is a
 singular-locus count or nothing.
 
+## 4e. D2's space on the SM closing (B1283, 2026-09-07)
+
+Item 2, done on the closing that has the group: the SM-preserving tree-level vacuum manifold of the E₈ theory on Y₉ with
+an SM line is nine conjugate-paired branches; the three maximal ones — generation g's N and ν^c with the other pair's
+flavons — are three-complex-dimensional (the scales ⟨N_g⟩, ⟨ν^c_g⟩, ⟨S_hk⟩) and **leave exactly one extra U(1) unbroken:
+the tree-level gauge group is SM × U(1)_{Z′}, Z′ = (5ψ − 3χ)/2 + family** (charges 4 on Q, u^c, e^c; −2 on d^c, L; 10 on
+ν^c, N; −8 on H_u, D; −2 on H_d, D̄). Each maximal branch has exactly one light Higgs pair (generation g's own) and one
+light D/D̄ pair (the doublet–triplet problem in its E₆ form, row 4), and a ν^c VEV that mixes the heavy generations'
+lepton and down-Higgs doublets. So D2's data on the SM closing are three moduli and a Z′: the instanton superpotential
+(item 3) acts on exactly these, and the rank reduction 8 → 4 that the SM needs is completed at tree level only to 5.
+
 ## 5. What is expected, in order
 
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the
@@ -127,7 +138,8 @@ singular-locus count or nothing.
    character composed with the SU(2)_L centre (W = z_L ∘ χ_j) and costs one generation's doublets; and by theorem
    any vacuum of Y₃ with the SM and three generations of Q, u^c, e^c keeps SU(5). So D2's point must do what the
    tree level does not — separate the scales — and the closing on which D2 is posed cannot be Y₃ with the SM and
-   three generations: item 1 is the whole of the matter.
+   three generations: item 1 is the whole of the matter. **DONE ON Y₉ (B1283, §4e):** on the SM closing the manifold is
+   nine paired branches with one Z′ surviving on every one; D2's space is three moduli per maximal branch.
 3. **The instanton sector** — the associative cycles' volumes; L201 in its proper form (a superpotential, not a
    numerology). Every hierarchy is a difference of volumes.
 4. **I-13 and I-18** — the listener map for λ's units and the CS/θ identification — the two identifications whose

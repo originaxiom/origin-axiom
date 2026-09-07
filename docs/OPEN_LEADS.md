@@ -2402,6 +2402,9 @@ with ⟨N⟩, ⟨ν^c⟩ leaves exactly su(3) ⊕ su(2) ⊕ u(1)_Y, at the cost 
 vacuum of Y₃ with the SM and three generations of Q, u^c, e^c keeps SU(5) unbroken (the SM's commutant is
 su(2)_β ⊕ u(1)², h¹ = 1 only for the three sign characters). D2 is posed on the chiral closing, not on Y₃.
 
+**L205 status 2026-09-07 (B1283):** the vacuum manifold is now computed on the closing that has the group (Y₉ with an SM
+line): nine paired branches, one Z′ surviving on each, three moduli per maximal branch — D2's space, on the right closing.
+
 ## L206 — THE SELECTION AND THE MEANING OF Y₉'S STANDARD-MODEL LINES (registered 2026-09-06, B1278)
 
 Y₉ carries 144 characters of orders 19 and 38 with h¹ = 1 beside the three family sign characters — the non-trivial
@@ -2461,3 +2464,16 @@ the E₆ chain (B1270's two faces) transports to m202 unchanged — the invarian
 and the Fibonacci tower need checking; (iv) the price: what m202 costs in the identification ledger (the object is m004; a
 sibling is a new input unless commensurability is shown to be the object's own choice). ★★★ — the only route on the board
 on which a count of three is written down by any seat.
+
+## L209 — THE SURVIVING Z′ AND THE LAST U(1) (registered 2026-09-07, B1283)
+
+On the SM closing every SM-preserving tree-level branch leaves exactly one extra U(1) unbroken, Z′ = (5ψ − 3χ)/2 + family
+(B1283), with N and ν^c both of charge 10 (not the E₆SSM's U(1)_N, under which ν^c is neutral). Three questions, in order:
+**(i)** does the instanton superpotential W_np on the three moduli ⟨N_g⟩, ⟨ν^c_g⟩, ⟨S_hk⟩ (L201 in its proper form) lift them
+and does the resulting point break the Z′ (a further VEV charged under it — none of the tree-level flat directions is) or
+leave it as a TeV-scale Z′ with the computed charges (a prediction the object would make if the closing is right)? **(ii)**
+the doublet–triplet problem: on every maximal branch the light Higgs pair comes with a light D/D̄ pair from the same
+μ-matrix; what splits them (the instanton sector, the Wilson line's action on the 10 of SO(10), or a ν^c-VEV-induced
+mass)? **(iii)** the ν^c VEV on every branch: L–H_d mixing in the two heavy generations at the VEV scale — a feature
+(neutrino masses through the mixing) or a fatal flaw (R-parity)? (i) is one afternoon once the volumes of item 1 exist; a
+proxy with Y₉'s length spectrum is the L201 pre-registration. ★★★

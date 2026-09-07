@@ -194,3 +194,7 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
 - **The sibling's germ (B1282).** On m202 the inversion acts on all six E₆ deformation slots as θ's sign, uniquely among
   its twelve isometries; B1280's theorem transfers and N(27) ≡ 0 near m202's geometric point too. fc's three is a
   singular-locus count only. E70 (an anti-homomorphism masked by symmetry) caught and fixed; B1280's signs unchanged.
+- **The SM closing's tree-level vacuum (B1283).** On Y₉ with an SM line: nine conjugate-paired SM-preserving branches,
+  three maximal with three moduli each; **every one leaves exactly one extra U(1): SM × U(1)_{Z′}, Z′ = (5ψ − 3χ)/2 +
+  family, charges computed**; one light Higgs pair and one light D pair per maximal branch; ν^c VEVs on all. D2's space
+  is three moduli and a Z′; the instanton sector (L201) must lift the moduli and settle the Z′ (L209).

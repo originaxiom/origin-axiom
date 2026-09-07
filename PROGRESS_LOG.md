@@ -14488,3 +14488,17 @@ sibling keeps the object's arithmetic face (ℚ(√−3), 2T) and not its golden
 B1270's icosian E₈ is not carried). The diagonal Δ(t, t) = −(2t² + 3t + 2) has the roots (−3 ± i√7)/4 — the ℚ(√−7)
 spectrum of B1280's case B — recorded as a coincidence. L208 (iii) answered negatively; (iv) sharpened: a sibling costs the
 E₈ face. `frontier/B1282_the_siblings_germ/ADDENDUM_2026-09-07_the_siblings_faces.md`.
+
+### B1283 — the SM closing's tree-level vacuum: one Z′ survives on every SM-preserving branch, with computed charges; one light Higgs pair and one light D pair per branch; ν^c VEVs everywhere (2026-09-07)
+
+D2's space on the closing that has the group (B1278's Y₉ with an SM line). The 18 SM-singlet fields (N, ν^c, conjugates,
+six flavons) with charges β = (ψ+χ)/4, γ = −(5/12)ψ + (1/4)χ (verified on every SM field) and the two family charges; 14
+cubic monomials among them, all U(1)⁴-invariant, no purely-singlet 27³ term. The exact F-flat rule gives 85 maximal F-flat
+sets; an exhaustive LP over the four abelian D-terms leaves **nine maximal SM-preserving branches, all conjugate-paired**
+(three maximal: {N_g, ν^c_g, S_hk} paired, three moduli each; six: {N_g, ν^c_h}, two moduli). **No branch breaks all four
+extra U(1)s: the SM closing's tree-level gauge group is SM × U(1)_{Z′}, Z′ = (5ψ − 3χ)/2 + family** (charges 4 on Q, u^c,
+e^c; −2 on d^c, L; 10 on ν^c, N; −8 on H_u, D; −2 on H_d, D̄). μ_jk = λ|ε_ijk|⟨N_i⟩ has rank 2 on every maximal branch:
+exactly one light Higgs pair (generation g's own) and one light D/D̄ pair; every branch has a ν^c VEV (L–H_d mixing in the
+heavy generations). The rank reduction 8 → 4 stops at 5 at tree level; the last U(1) and the three moduli are the
+instanton sector's (L201) or the electroweak sector's. Lock `tests/test_b1283_the_sm_closings_vacuum.py`. 0 of 19; price
+unchanged. L209 registered.

@@ -6746,6 +6746,23 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1283": {
+   "slug": "the sm closings vacuum",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "L201"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B128": {
    "slug": "symmetry breaking chirality",
    "motifs": [
