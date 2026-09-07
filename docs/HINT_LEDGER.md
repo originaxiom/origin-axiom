@@ -641,3 +641,22 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       ENTER (5 is a residue characteristic, four independent ways). What remains open is
       the EXPONENT: is 12 structural (the floor dimension? the D-flip count?) or
       incidental? Registered, not designed.
+
+## 2026-09-07 — B1295 hints (recorded, not judged)
+
+- H-B1295-DIVISOR (type PATTERN, pre-registered 88/88, firewalled CONJECTURE → L200): the θ-odd
+  cusp coefficients of the harmonic generator are a parity-twisted ℤ[√−3] divisor sum with zero
+  fitted parameters; the weights `Re(d ē)` / `±Im(d ē)/√3` / 0 by the parity of the factors are the
+  `𝔽₄ = ℤ[ω]/2` character heard through the glides. Reading: Eisenstein Fourier coefficients of the
+  index-12 subgroup. Not yet asked: does the same law, with the same character, hold for the
+  harmonic forms of the cyclic covers N_n (`b₁ = 1` for all n, since every Y_n is a QHS — B1295's
+  census) — the family version would say
+  whether the character is m004's or the tower's.
+- H-B1295-C0 (type QUESTION): `|c₀| = 4.260982635(2)` matches no bounded linear form in the ten
+  obvious constants. The number to derive, not to fit — L200(b). If it comes out as an `L`-value ratio
+  of `ℚ(√−3)`, it is the second such value in the object's own grammar after Vol = 9√3ζ_K(2)/π²
+  (B1117–B1122); if it does not, the normalisation of the meridian period is the first suspect.
+- H-B1295-HEX (type WITNESS-SET, for a future hatch walk): 16 hexagonal cusps in 14 degree-10
+  covers of m004, none rotated by any isometry. These are the covers to look at first if anyone
+  reopens "three arcs need an order-3 cusp rotation" at degree > 10 — the shape is there, the
+  symmetry is not; the question is which enlargement of the isometry group a further cover buys.

@@ -1,5 +1,23 @@
 # Changelog
 
+## B1295 — THE CAVEAT CLOSED BY COMPUTATION: `c₍±2,0₎ = ∓4.260982635 i`, the census counts 2, the tower has no third arc
+
+**MASTERPLAN v3 Phase 1 = Door D4, every number this bench's.** **(a)** The harmonic generator's leading
+θ-odd cusp coefficient, by collocation against the 508 group moves at R = 4, 5, 6, 10 (full rank, residual
+rms 1.6e−12, stability 2.2e−9): **`c₍0,2₎ = −4.260982635(2) i`** — the SM seat's `c₍±2,0₎`, **not zero**;
+the `(±2,±1)` competitor is 7.6 % of it; every horotorus splits into **two annuli each ⇒ `χ(∂⁺M) = 0`**,
+the `χ = ±4` branch EXCLUDED; B1294's two named assumptions become **one** (θ-equivariance). **(b)** The
+census check owed by `T-CLOSED-CLOSING-COUNTS-TWO-OR-NOTHING` is **PAID**: an own cell-counting engine
+on the lifted triangulations gives, for all **360** finite-order symmetries of Y₁…Y₉ (all QHS), `χ(Fix) = 2`
+orientation-reversing and 0 preserving, consistent with the Hopf trace; the `b₁ = 1` control Y₀ fires
+with `{0, 4}`; zero odd counts. **(c)** **NEGATIVE, banked with the script:** 87 covers of degree ≤ 10,
+968 isometries, 1,376 cusp-fixing pairs, `|det(A−I)| ∈ {0, 4}` — and the tower's **16 hexagonal cusps**
+are not rotated by any isometry. **(d) Firewalled CONJECTURE:** the coefficients obey a parity-twisted
+ℤ[√−3] divisor law `c(ν) = c₀·S(ν)` with zero fitted parameters, **pre-registered out-of-sample 88/88**,
+68 predicted zeros all vanishing; proof registered as **L200**; `c₀` closed form OPEN (bounded PSLQ:
+nothing). Verdict PROVED, no new law, no identification row moves, I-26 UNEARNED. **Next: B1296 = D1.**
+- Claim pool: B1294 (L) + B1295 (S) rows inserted in `CLAIM_CANDIDATES.md` (the B1210 lock was red on main); the B1213 rebuild's moving-mean threshold (3.00→3.05 drops 17 candidates) and B1210's stale reproduce path recorded as instrument defects, not fixed here.
+
 ## B1294 — THE CHIRALITY BIT: the object counts 2 at every fixed locus; on a closed closing the 2 costs the chirality
 
 **The seats' results first.** The SM seat's **Y₉ carries the SM group AND three generations** — 706,464

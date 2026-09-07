@@ -14633,3 +14633,83 @@ cover, the one route no negative closes). **Fenced as harvest, not verified here
 enumeration internals (re-run only), fc's icosian `−s_β` identification. Number collision recorded:
 main `B1277_leak_closure` vs the seat's `B1277_the_vacuum_manifold_of_the_closing`; seat arcs are cited
 `sm:`/`fc:` and seat branches never merge.
+
+## 2026-09-07 — B1295: THE CAVEAT CLOSED BY COMPUTATION — `c₍±2,0₎ = ∓4.260982635 i`, the census counts 2, and the tower has no third arc
+
+**MASTERPLAN v3 Phase 1 = Door D4, all three computations run on this bench** ("compute all yourself";
+no seat number carried by trust). Arc `frontier/B1295_the_caveat_closed_by_computation/`; lock
+`tests/test_b1295_the_caveat_closed_by_computation.py` (the cover scan and the census through Y₃ re-run
+in the suite, ~4 s; the banked R = 10 solve and the n ≤ 9 census pinned from the shipped JSON).
+
+**(a) The coefficient the SM seat did not compute.** The harmonic generator of `H¹(m004; ℝ) = ℝ`, solved
+by collocation against the 508 group moves at cutoffs R = 4, 5, 6, 10 (full rank at every one; at R = 10:
+3150 equations, 1076 unknowns, rank 1076, residual rms **1.6e−12**; successive `c₀` differences
+1.1e−6, 5.6e−8, 2.2e−9): leading θ-odd cusp coefficient **`c₍0,2₎ = −4.260982635(2) i`** (meridian-first
+indexing here; the SM seat indexes `(k along λ, l along μ)`, so **their `c₍±2,0₎ = ∓4.260982635 i`**) —
+**not zero, not close**. The D₄ symmetry constraints, derived numerically from the eight cusp isometries,
+cut the 90 modes `|μ| ≤ 3` to an allowed real dimension 11; the seat's orbit table is reproduced entry by
+entry and every forbidden orbit sits below 1.5e−11. The `(±2, ±1)` competitor carries **7.6 %** of the
+leading radial amplitude at the maximal cusp; the sign partition of every horotorus at
+`t ∈ {0.6, …, 3}` is **two annuli each** (Euler characteristic by cell count on the torus), so
+**`χ(∂⁺M) = 0`, the `(±2, 0)` branch is DECIDED and the `χ = ±4` alternative EXCLUDED** — B1290's
+smooth-frame `net chirality = −χ(∂⁺M)` is 0 *by computation*. B1294's two named assumptions become
+**one** (θ-equivariance of the vacuum). Three orbits are symmetry-allowed yet vanish — `(2,0), (1,±6),
+(2,±6)` at 1e−11 — and (d) below explains all three.
+
+**(b) The census check owed by `T-CLOSED-CLOSING-COUNTS-TWO-OR-NOTHING` — PAID.** An own engine
+(SnapPy only for gluing data and cross-checks; no Regina) enumerates all automorphisms of the lifted
+canonical triangulation of the cyclic cover `N_n` (2n tetrahedra, `|Aut| = 8n` = SnapPy's count for every
+n) and counts `χ(Fix)` by the **cells mapped to themselves** — tetrahedra, faces and edges by
+corner-permutation type — plus the filling core when reversed. All **360 finite-order symmetries of
+Y₁…Y₉** (all QHS: `0, ℤ/5, (ℤ/4)², ℤ/3⊕ℤ/15, (ℤ/11)², ℤ/8⊕ℤ/40, (ℤ/29)², ℤ/21⊕ℤ/105, (ℤ/76)²` — B1294's SNF
+table reproduced independently): **`χ(Fix) = 2` for every orientation-reversing symmetry, 0 for every
+orientation-preserving one**, each consistent with the Hopf trace `1 − a` on the dual spine; **the
+`b₁ = 1` control Y₀ (longitude filling, `H₁ = ℤ`) FIRES with `{0, 4}`**. Zero odd counts. m004's five
+kinds by cells: the glides fix **no cell** (their 2 is the two points on the knot), the order-4 rotatory
+reflections fix **exactly the two tetrahedron centres**, the π-rotations one edge plus two face-rays,
+`r²` a closed geodesic, the identity everything. Instrument finding: SnapPy's peripheral basis on the
+covers flips at n = 4 (the lifted meridian, length n, overtakes the longitude `2√3`); the engine picks
+`μ̃` as the slope whose filling kills `b₁`, which is basis-independent because every cusp matrix is
+diagonal. `SELFTEST: PASS (71/71)`.
+
+**(c) The tower has no third arc — NEGATIVE, banked with the script.** All **87 covers** of m004 of degree
+2…10 (64 multi-cusped, 201 cusps), **968 isometries**, **1,376 cusp-fixing (isometry, cusp) pairs**:
+`|det(A − I)| ∈ {0: 882, 4: 494}` — never 1, 2 or 3, so **no cusp rotation of order 3, 4 or 6 anywhere in
+the object's tower through degree 10**; zero canonization failures. **Sharpened:** the SL₂(ℤ)-reduced
+cusp shapes are 122 rectangular/rhombic, 63 generic, **16 hexagonal** (all in 14 degree-10 covers) and
+**no isometry of those covers rotates a hexagonal cusp** — the negative is about the covers' symmetry
+groups, not cusp geometry (B1291/B1292's shape mechanism does not transfer: `4ℤ[ω]` has index 4 in the
+cusp lattice). Hatch: degree > 10, or an enlarged isometry group on a hexagonal-cusped cover. Kill-graph
+record added.
+
+**(d) Found on the way, FIREWALLED as a CONJECTURE — THE DIVISOR LAW.** Writing the mode as
+`ν = a + b√−3 ∈ ℤ[√−3]` (`a = m₂/2`, `b = −m₁`; "even" := `a + b` even), every solved coefficient obeys
+**`c(ν) = c₀ · S(ν)`, `S(ν) = (1/|ν|) Σ_{d·e = ν} w(d, e)`** with `w = Re(d ē)` on odd–odd pairs,
+`±Im(d ē)/√3` on mixed pairs (sign by which factor is odd), 0 on even–even pairs — **zero fitted
+parameters**. Pre-registered before the R = 10 solve on the 88 modes `108 < N(ν) ≤ 200`: **PASS 88/88**
+(worst 3.4e−4, in the truncation band `|μ| ≈ 8`; `|μ| ≤ 6` agrees to 5.5e−7); on all 184 solved even
+modes 0 failures and **all 68 predicted exact zeros vanish** (`S(√−3·x) = 0`, `S(2ᵏ) = 0` — the three
+vanishing orbits of (a)). Reading, not claim: `b₁ = 1 = #cusps`, so the generator is an Eisenstein series
+of the index-12 subgroup `Γ ⊂ PSL₂(ℤ[ω])` and divisor sums are the expected shape; the parity twist
+(`ℤ[ω]/2 ≅ 𝔽₄`, entering through the glides) is the object's. **Proof = L200.** `c₀` closed form **OPEN**:
+a bounded linear PSLQ over `π, √3, π², log 2, log 3, L(2,χ₋₃), ζ_K(2), G, ζ(3), vol(m004)` finds nothing;
+the fractional-power search that "finds" 62 forms at 10 digits was recognised as numerology and removed.
+Recorded, not chased (MASTERPLAN v3 §6).
+
+**What moves.** MAIN_GOAL JOIN 1 item 4: the caveat clause replaced by the computed value; the
+assumption list is now **one item**. THEOREM_REGISTRY: the B1294 row's census check marked PAID. Kill
+graph: one record (the scan). OPEN_LEADS: **L200**. HINT_LEDGER: two rows. Verdict **PROVED**,
+`creates_law: false`, no identification row moves, **I-26 stays UNEARNED**. **Next: B1296 = D1** — drop
+θ-equivariance, priced as an identification row, expected the programme's first chiral spectrum with
+count 2 or the death of the singular frame.
+
+**Housekeeping found by the full suite.** `test_b1210_spine_sweep::test_every_law_creating_arc_is_in_the_claim_pool`
+was red on main before this arc: B1294 (`creates_law: true`) never entered `papers/P3_THE_PAPER/CLAIM_CANDIDATES.md`.
+Landed the way `2901ae9f` landed B1291 — the generator-rendered rows for B1294 (tier L) and B1295 (tier S) inserted,
+the rest of the pool byte-identical — **not** by a rebuild, because a rebuild today is lossy: B1213's vocabulary tier
+admits an arc iff `vocab ≥ md` with `md` the *moving* declared-law mean, which went 3.00 → 3.05 when B1291/B1294 were
+declared, so 17 candidates scoring exactly 3 (B1239, B1236, B1221, B1150, B1015, B1081, B875, B156, …) would silently
+leave the pool on a 0.05 drift. Also, `B1210/verification/reproduce.sh` (the command the lock's message names)
+regenerates the *pre-B1213* 78-arc format and would overwrite the union pool — tried, seen, reverted. Both are
+instrument defects in the MASTERPLAN §5 repair class (recorded here, not chased): freeze B1213's threshold at its
+banked value or give it a tolerance, and point B1210's lock message at B1213's `reproduce.sh`.

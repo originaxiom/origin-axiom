@@ -534,6 +534,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1101` | PROVED | S | | THE CERTIFICATION ENVELOPE ADOPTED (Review 47's methodology delta, owner-elected): during any certifying suite the working tree is read-only by convention -- scratchpad s… |
 | `B1248` | PROVED | S | | EPSILON IS THE FRICKE INVARIANT READ MODULO SQUARES -- closing the refinement cell B1192 named and left open ('the general norm-classification'), carr… |
 | `B1291` | NEGATIVE | L | | THE PARITY THEOREM: 3 IS EXCLUDED ON A ONE-CUSPED MANIFOLD, AND THE ESCAPE IS >=2 CUSPS. For an affine map of T^2 the fixed-point count is /det(A - I)… |
+| `B1294` | PROVED | L | | THE CHIRALITY BIT (MASTERPLAN v3 Phase 0). Seat harvest 2026-09-06 with every load-bearing number re-run or re-derived on this bench. THE SEATS' RESULTS FIRST: sm:B1278/B… |
+| `B1295` | PROVED | S | | THE CAVEAT CLOSED BY COMPUTATION (MASTERPLAN v3 Phase 1 = Door D4; every number this bench's). (a) THE COEFFICIENT THE SM SEAT DID NOT COMPUTE: the harmonic generator of … |
 
 ## The exhibit that forced the rebuild
 

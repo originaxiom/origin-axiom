@@ -6623,6 +6623,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1295": {
+   "slug": "the caveat closed by computation",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "firewall",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "L200"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B129": {
    "slug": "sl3 tower sealed",
    "motifs": [

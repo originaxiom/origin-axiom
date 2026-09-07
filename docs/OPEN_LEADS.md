@@ -2299,3 +2299,25 @@ gravity (B715):** compute the Dynkin index of the principal sl₂ ⊂ e₆ embed
 I-13. ★★ (each closes a row; I-13 stays the programme's).
 
 > **Currency — Review 55 (2026-09-06, anchor `be6f4cab`).** Refreshed against the 102-merge window `c0e9a4a0`→`be6f4cab`. **What changed for this view:** the multi-cusped lead and its correct scope. **The window's spine:** `net chirality = χ(M,∂⁺M)` applied on main (B1290); the **parity theorem** — on a *one-cusped* manifold `|Fix|` is even, so **3 is excluded**, verified over 1200 census manifolds with zero violations (B1291); the escape **satisfiable but mis-scoped** — m202 keeps ℚ(√−3) and 2T and realises `|Fix| = 3`, yet `χ(M) = χ(∂M) = 0` at *any* cusp count, so **flatness, not parity, is the binding obstruction** (B1292); and the seat harvest — the **first vacuum with the SM group** and **I-14 collapsing to a point**, with fc's `χ(M,∂⁺M)` predating main's B1290 (B1293). **I-26 remains UNEARNED.** Review 55 repaired three instruments and left 16 action items.
+
+## L200 — THE DIVISOR LAW OF THE HARMONIC GENERATOR: prove it as an Eisenstein expansion, and identify `c₀` (registered 2026-09-07, B1295; source: this bench, found while computing the SM seat's `c₍±2,0₎`)
+
+B1295 solved the harmonic generator of `H¹(m004; ℝ)` on the cusp to residual 1.6e−12 and found, with **zero
+fitted parameters**, that every θ-odd cusp coefficient obeys `c(ν) = c₀ · S(ν)` for `ν = a + b√−3 ∈ ℤ[√−3]`
+(`a = m₂/2`, `b = −m₁`), `S(ν) = (1/|ν|) Σ_{d·e=ν} w(d, e)`, `w = Re(d ē)` on odd–odd pairs, `±Im(d ē)/√3` on
+mixed pairs (sign by which factor is odd), 0 on even–even pairs ("even" := `a + b` even, i.e. `ν ∈ 2ℤ[ω]`).
+Pre-registered out-of-sample on the 88 modes `108 < N(ν) ≤ 200`: PASS 88/88; all 68 predicted exact zeros
+(`S(√−3·x) = 0`, `S(2ᵏ) = 0`) vanish in the solve. **Status: CONJECTURE**, firewalled in B1295 §4.
+**(a) The proof.** `b₁(m004) = 1 = #cusps`, so `H¹` is entirely Eisenstein and the generator is an Eisenstein
+series of the index-12 subgroup `Γ ⊂ PSL₂(ℤ[ω])` at the harmonic point; write its Fourier expansion on the
+cusp lattice `ℤ + 2√−3 ℤ` (index 4 over `ℤ[ω]`'s hexagonal sublattice, which is why the coefficients live
+on `ℤ[√−3]` and carry the `ℤ[ω]/2 ≅ 𝔽₄` parity character through the glides `c(−ν̄) = (−1)^{a+b} c(ν)`) and
+read off `S(ν)` as the divisor sum. A theorem here makes the coefficient of §1 exact rather than numerical
+and puts the whole θ-odd cusp expansion in closed form. **(b) `c₀`.** `|c₀| = 4.260982635(2)`; a bounded
+linear PSLQ (coefficients ≤ 12, tol 1e−9, ≤ 2 constants among `π, √3, π², log 2, log 3, L(2,χ₋₃), ζ_K(2), G,
+ζ(3), vol(m004)`) finds nothing; the proof in (a) should produce it (expect a ratio of `L`-values of
+`ℚ(√−3)` at the harmonic point times the period normalisation) — do not search numerically again; derive.
+The two prior "divisor law" hits on main (B842's metallic fixed-point divisor laws, B930's ideal divisor)
+are unrelated terms; `already_banked` on {harmonic, Eisenstein, Fourier, divisor, cusp} returns only
+B1294/B1295. Not on the MASTERPLAN v3 door path — recorded, not chased; it becomes a door only if D1/D2
+need the exact coefficients. ★★ (an exact object where there was a number; no join moves by itself).
