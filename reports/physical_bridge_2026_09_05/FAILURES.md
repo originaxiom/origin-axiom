@@ -357,3 +357,38 @@ BOUNDARY_INDEX_GATES.txt. This receipt and the final notes postdate the
 gate run; a final artifact check is run before the local reporting commit.
 No full-suite green, complete main banking, independent receiving-seat
 verification, physical-spectrum derivation or remote push is claimed.
+
+## R15 custody and newly exposed provenance-marker omissions (2026-09-07)
+
+R15 science and its eleven new mathematical locks pass. The quiescent
+broad regression still has the original G2 NumPy-key exporter failure,
+two original R7 small-step Hessian failures, and eight original R11
+QQ-to-ZZ fixture errors: 182 passed, 3 failed, 8 errors in 153.93 s.
+Separate repairs/controls pass; no old scientific code or tests change.
+The exact failed capture remains in the explicitly Git-ignored local
+GLOBAL_SINGULAR_REGRESSION_RAW.local.txt and was byte-compared with the
+received output. Its committed counterpart GLOBAL_SINGULAR_REGRESSION.txt
+redacts ONLY environment path prefixes, not failures or numeric evidence.
+
+A real process defect recurs: GLOBAL_SINGULAR_DESIGN.md contains the
+prior-art and mathematical controls but omits the literal markers
+BANKED IDENTITY: and PRIOR ART: required by the seal-provenance gate.
+This was caught AFTER seal/execution. The original sealed bytes are
+not rewritten to manufacture a pre-execution compliance claim.
+Additionally, adding honest late SEAL_LEDGER receipts for the original
+R13, R13-transport and R14 pre-execution commits exposes the same marker
+omissions in those older designs. They were already hashed/committed
+before their runs; the new receipt is not a new scientific seal.
+
+Complete failing marker inventory is in GLOBAL_SINGULAR_PROVENANCE_INVENTORY.txt:
+eight paths, not just the five printed by the gate. The previous four
+paths plus these four remain outstanding. The first metadata-only
+inventory command hit the environment's existing Perl locale issue;
+repeating it with LC_ALL=C LC_CTYPE=C succeeded. This is not a scientific
+rerun or a hidden math failure. Gate output remains 27 pass/3 fail,
+with the older attribution/static-vacuity debts also retained.
+
+Local research is not full/independent/main-bank acceptance. Before the
+next new scientific seal, check both literal markers in its actual bytes
+and run the relevant provenance verifier BEFORE execution. Do not infer
+physical chirality or completed TOE from the passing finite-pair tests.

@@ -1,6 +1,17 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [R14's singular three-source cusp field](SINGULAR_CUSP.md).**
+**Latest: [R15's global singular extension and full charged pair](GLOBAL_SINGULAR.md).**
+An analytic scalar-parametrix construction extends the prescribed end
+field globally, leaving one through-flux freedom on m202. The finite
+mixed-boundary groups give four modes and one conjugate, net three;
+the chosen E6 ADJOINT supplies the Spin(10) spinor pair directly. This
+is not a computed mesh solution, selected parent or normalizable complete-
+limit spectrum. Eleven new checks pass; 45 in R12--R15. Broad regression:
+182 passed, 3 prior failures, 8 prior fixture errors. Banking marker
+omissions are recorded, not hidden or called green. Same physical path;
+next derive the singular charged domain and its normalizable kernel.
+
+**Preceding: [R14's singular three-source cusp field](SINGULAR_CUSP.md).**
 The live R72 candidate now has an explicit commuting Higgs solution on
 its hexagonal cusp END. The full flux balances only with inward source
 tubes, preserving the conditional three-line Euler with the right subset.
@@ -50,7 +61,7 @@ zero modes are not inferred from a triplet of fiber components. A newer
 three-fold-closing/three-class construction exists on the source branch
 and is the next physical-transport audit target. Its presence is retained.
 
-**Latest physical result:** [R10's finite alignment calculation](FINITE_ALIGNMENT.md)
+**Latest four-dimensional vacuum-model result:** [R10's finite alignment calculation](FINITE_ALIGNMENT.md)
 computes the hard quartic and induced-triplet relaxation for a predeclared
 renormalization boundary. Both reinforce neutral alignment. Omitting the
 normal response would reverse the smaller triplet contribution's sign;

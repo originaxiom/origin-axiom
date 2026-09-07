@@ -1,6 +1,17 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [singular three-source cusp field](SINGULAR_CUSP.md), seal a6d7c534.
+Latest: [global singular extension and charged pair](GLOBAL_SINGULAR.md),
+seal 8e0981a0. Analytic parametrix/mean repair gives a global commuting
+field for prescribed sources; the two-cusp through-flux is not unique.
+The full finite relative cohomologies are (0,4,1,0) and (0,1,4,0), not
+an assumed pure three-family spectrum. The chosen E6 adjoint has the
+16/conjugate16 charged sectors. Eleven new checks pass; 45 in R12--R15,
+with the completed broad regression 182 passed, 3 prior failures and
+8 original fixture errors. The singular-limit physical kernel, source
+selection, gravity and full TOE are not established. Literal design
+marker omissions are newly exposed and retained as banking debt.
+
+Preceding: [singular three-source cusp field](SINGULAR_CUSP.md), seal a6d7c534.
 An explicit torus Green function plus radial zero mode solves the
 prescribed commuting Higgs equation on the hexagonal cusp END. Actual
 flux verifies outward cusp and inward source tubes. The conditional

@@ -1,5 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL AUDIT (2026-09-07, path-local R15): global extension, then the charged domain.**
+The prescribed singular Higgs field extends globally by an analytic
+parametrix/mean-repair/reduced-scalar-inverse construction. It is not a
+numerical m202 mesh field or a unique vacuum: one through-flux freedom
+remains. Full finite relative cohomology gives four versus one, net three;
+the chosen E6 adjoint's charged sectors are the Spin(10) spinor pair.
+The next duty is the complete singular charged domain and normalizable
+kernel, not another Euler-only count. Forty-five R12--R15 checks pass,
+eleven new; broader 182 pass/3 prior fail/8 original fixture errors.
+Banking provenance-marker omissions remain explicitly reported.
+`reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md`; no B allocation,
+source/physical parent selection, independent/main-bank green or TOE claim.
+
 **LATEST LOCAL AUDIT (2026-09-07, path-local R14): the singular cusp field exists explicitly.**
 For the prescribed three source densities on the hexagonal cusp END,
 the theta Green function plus radial zero mode solves the abelian Higgs

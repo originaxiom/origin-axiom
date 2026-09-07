@@ -14320,3 +14320,39 @@ static-vacuity and seal-marker inventory; review-due 103. No new R14
 gate failure. Raw receipt SINGULAR_CUSP_GATES.txt is retained. Hashes
 and original sealed bytes are checked again before the local commit;
 neither full-suite green nor independent/main-bank certification is claimed.
+
+### 2026-09-07 — Path-local R15: the singular field extends globally; retain the four/one pair
+
+Kept the owner's singular-cusp path. R14's end fields and exact geodesic
+logarithms patch to a global source parametrix. Cut-off z^2 terms repair
+the residual mean (integral Delta psi=2A), after which the reduced scalar
+inverse on complete finite-volume M supplies the smooth L2 correction.
+This proves existence in the declared commuting/trivial-bundle ansatz,
+not a numerical m202 mesh field or a unique physical vacuum. The two
+cusps retain one through-flux freedom. Sources and parent are inputs.
+
+Exact m202 homology and self-cusp order-three witnesses are rechecked.
+Excision/relative exact sequences determine the full finite groups:
+(C,T)=(0,4,1,0), (C,E)=(0,1,4,0). Two independent cell resolutions and
+k=0,1,2 controls agree. The detailed endpoint pairing is not required:
+three ends on each cusp force a cross-cusp arc and a primitive map.
+Net three therefore retains four modes and one conjugate, not just
+three modes. The chosen E6 ADJOINT decomposes into (45+1)_0 and the
+16/conjugate16 charged pair, verified by all 72 roots and D5 orbits.
+
+The next actual physical task is the complete singular charged domain
+and normalizable kernel. The unbounded exponential conjugation cannot
+transfer finite-cutoff cohomology to that limit automatically. Keep
+effective q*beta, the extra pair, source/fibre/parent choices, interactions
+and gravity in the same continuing goal. No complete TOE is claimed.
+
+Pre-execution seal 8e0981a0; first producer succeeds, full scientific JSON
+retained. Eleven new locks pass; R12--R15 group 45 passed, one warning,
+16.42 s. Completed broader regression: 182 passed, 3 old failures,
+8 original R11 fixture errors, one warning, 153.93 s. No original tests,
+seals or tolerances edited. Reporting gates 27 pass/3 fail, with a NEW
+marker-debt inventory: R15 and three late-registered R13/R14 receipts
+join four prior paths. The full list of eight is preserved, beyond the
+gate's printed five-path cap. No full-suite or main-bank green.
+Source: reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md.
+CC numbering respected; no B ID, source merge, PR, push or external message.

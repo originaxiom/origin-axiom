@@ -2530,3 +2530,17 @@ transport specified before counting charged normalizable modes. This is
 not a universal absence claim. Preserve R72's inner-lift/sign/manifold
 questions and R13's different smooth solution. Source:
 `reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md`.
+
+**R15 movement, same lead (2026-09-07):** the GLOBAL EXISTENCE duty is
+discharged analytically within the prescribed commuting source ansatz:
+patch exact ends/geodesic logarithms, repair the mean residual with
+cut-off z^2 cusp flux, and apply the reduced scalar inverse on complete M.
+This is not a numerical core field or selected boundary data; one m202
+through-flux freedom remains. Full finite pairs have Betti numbers
+(0,4,1,0)/(0,1,4,0), and the chosen E6 ADJOINT supplies the spinor pair.
+Keep the four/one multiplicities; do not silently turn net three into a
+pure three-family spectrum. NEXT: the singular charged operator domain,
+effective q*beta and normalizable complete-limit kernel; then interactions
+and vector-like-pair lifting in that same parent. Physical source/parent/
+fibre selection and the gravity/empirical goal remain live. Proof and
+controls: `reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md`.

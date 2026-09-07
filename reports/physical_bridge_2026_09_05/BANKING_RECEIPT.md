@@ -39,3 +39,26 @@ In particular the first R11 reporting gates failed 4 checks, including a
 new missing law-map arc citation (now repaired) and a new static warning
 on the delegating test. Separate mutation controls are sealed before
 execution; their result is not assumed here. Original tests are unchanged.
+
+## R15 receive/update (2026-09-07), still local research
+
+Fetched main 506c591f080218c4ced3997b0317703b7f711f9d, physics
+659487bbd93c7990c4686a8b86985b6b66efedc4 and SM
+c3c3a8ed6fa9e447f8e27d7f5962c48503eed4f0. Main is now through B1294;
+B1295/B1296/B1297 are already named future main work in that packet.
+Nothing in this audit takes those numbers or the shared buffer. R15
+remains qualified by reports/physical_bridge_2026_09_05, not fc:R15.
+
+Main B1294's full body and the SM B1280 finding/chirality map are read.
+They are not independently recertified in R15. No merge, external
+message or priority substitution is made. Our R14 end field now has a
+conditional analytic global extension and full regulated four/one
+cohomology; physical chirality and the complete TOE remain unearned.
+
+The late SEAL_LEDGER entries for R13/R14 explicitly name their original
+pre-execution commits and say RECEIPT entered after execution. Registering
+them exposes three old literal-marker omissions, alongside R15's new
+one. The gate list is capped at five; the complete list has eight.
+See GLOBAL_SINGULAR_PROVENANCE_INVENTORY.txt and FAILURES.md. No original
+design was rewritten or retroactively called compliant. A local report
+and green focused tests still do not meet the full banking checklist.

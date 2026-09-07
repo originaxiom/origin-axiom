@@ -1,4 +1,4 @@
-# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R14
+# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R15
 
 **Real conditional physical progress; a complete TOE is not established.**
 The audit now includes an executable four-dimensional gauge/scalar/fermion
@@ -50,6 +50,21 @@ physical zero-mode count. Source densities, radial flux data, parent
 representation and gauge/fibre transport are still explicit duties of
 that construction. [R14](SINGULAR_CUSP.md). Nine new locks pass; the
 R12--R14 group is 34 passed in 14.44 seconds. The full goal stays active.
+
+R15 now proves GLOBAL EXISTENCE within that prescribed commuting ansatz:
+patch the exact ends and geodesic logarithms, repair the residual mean
+with a cusp flux term, and invert the complete scalar Laplacian away
+from constants. This is an analytic construction, not a numerical m202
+mesh field or a selected vacuum; one two-cusp through-flux freedom remains.
+The full finite mixed-boundary cohomologies are (0,4,1,0) and (0,1,4,0).
+Under the chosen compact E6 parent, the adjoint supplies a Spin(10) 16
+and its conjugate: four versus one modes at finite cutoff, net three,
+not three arbitrary 27s or an already pure three-family spectrum.
+[R15](GLOBAL_SINGULAR.md). The next concrete join is the physical domain
+and normalizable charged kernel as tubes shrink and cusps become complete.
+Unbounded exp(qF) prevents inferring that limit from finite cohomology.
+The prescribed parent, source amplitudes, fibre realization and defect
+completion remain inputs; this does not yet establish physical chirality.
 
 There is no defensible percentage-complete estimate. Several outstanding
 items are conceptual derivations and empirical tests, not quantities of
@@ -110,6 +125,15 @@ and pass; the original G2/R7 failures and R11 fixture errors remain
 unaltered. Reporting gates remain 27 pass/3 fail with their known scopes.
 These are local research receipts, not a main-bank or physical certificate.
 
+After R15 the boundary/harmonic/singular group is **45 passed** (eleven
+new R15 locks). The completed broad command recorded in GLOBAL_SINGULAR.md
+gives **182 passed, 3 failed, 8 errors**, 153.93 seconds; the original
+G2/R7 failures and R11 fixture errors persist. Reporting gates remain
+27 pass/3 fail but the marker inventory has grown: eight sealed paths
+lack the literal provenance markers, including newly registered R13/R14
+receipts and R15. Original designs and first failures stay intact. No
+full-suite, independent receiving-seat or publication green is claimed.
+
 ## The next work must address both levels
 
 1. **Conditional-model validation:** compare the matched orientation result
@@ -121,6 +145,9 @@ These are local research receipts, not a main-bank or physical certificate.
    carry R11's actual action through a full representation and zero-mode
    problem; audit the present three-fold closing and selector joins without
    equating their algebraic outputs to physical generations.
+   On the active singular-cusp path, use R15's global existence and full
+   finite pair to derive the charged domain and complete normalizable
+   kernel, keeping the possible vector-like pair and effective q*beta.
    Connect physical chirality and gravity in that same theory, then require
    an independently testable prediction with a declared input budget.
 

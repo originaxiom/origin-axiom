@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-09-07 — Path-local R15: global singular field and the full four/one pair
+
+R14's prescribed cusp field has an analytic global extension: a patched
+line parametrix, explicit constant-mode flux repair and the reduced
+complete scalar inverse. One through-flux freedom remains on m202.
+Exact sequence plus independent cellular controls give the finite pairs
+(0,4,1,0) and (0,1,4,0), net magnitude three with the extra conjugate
+retained. The chosen compact E6 ADJOINT supplies 16+conjugate16 charged
+sectors; no arbitrary 27 or E8 multiplicity is inserted. The complete
+singular charged domain and normalizable spectrum remain the next step.
+Seal 8e0981a0; 45 focused tests pass, eleven new. Broad regression:
+182 passed, 3 prior failures, 8 original fixture errors. Literal seal
+marker omissions are exposed and preserved; no full banking green.
+`reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md`. No B allocation,
+source merge, PR, push or external message; no physical-TOE completion.
+
 ## 2026-09-07 — Path-local R14: construct the singular cusp end, preserve the live route
 
 An explicit theta-function Green potential and radial z^2 log(z) mode

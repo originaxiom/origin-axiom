@@ -1,0 +1,1102 @@
+{
+  "cells": [
+    {
+      "C": {
+        "betti": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          107,
+          36
+        ],
+        "cells": [
+          72,
+          180,
+          144,
+          36
+        ],
+        "chi": 0
+      },
+      "E": {
+        "betti": [
+          2,
+          4,
+          2,
+          0
+        ],
+        "boundary_ranks": [
+          70,
+          70,
+          0
+        ],
+        "cells": [
+          72,
+          144,
+          72,
+          0
+        ],
+        "chi": 0
+      },
+      "Q": {
+        "betti": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          107,
+          36
+        ],
+        "cells": [
+          72,
+          180,
+          144,
+          36
+        ],
+        "chi": 0
+      },
+      "T": {
+        "betti": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          0,
+          0,
+          0
+        ],
+        "cells": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "chi": 0
+      },
+      "boundary_C": {
+        "betti": [
+          2,
+          4,
+          2,
+          0
+        ],
+        "boundary_ranks": [
+          70,
+          70,
+          0
+        ],
+        "cells": [
+          72,
+          144,
+          72,
+          0
+        ],
+        "chi": 0
+      },
+      "height": 1,
+      "interpretation": "product-model cellular control, not an m202 triangulation",
+      "k": 0,
+      "n": 6,
+      "relative_E": {
+        "betti": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "boundary_ranks": [
+          0,
+          35,
+          35
+        ],
+        "cells": [
+          0,
+          36,
+          72,
+          36
+        ],
+        "chi": 0
+      },
+      "relative_T": {
+        "betti": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          107,
+          36
+        ],
+        "cells": [
+          72,
+          180,
+          144,
+          36
+        ],
+        "chi": 0
+      },
+      "removed_columns": []
+    },
+    {
+      "C": {
+        "betti": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          107,
+          35
+        ],
+        "cells": [
+          72,
+          180,
+          142,
+          35
+        ],
+        "chi": -1
+      },
+      "E": {
+        "betti": [
+          2,
+          4,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          70,
+          70,
+          0
+        ],
+        "cells": [
+          72,
+          144,
+          70,
+          0
+        ],
+        "chi": -2
+      },
+      "Q": {
+        "betti": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          107,
+          36
+        ],
+        "cells": [
+          72,
+          180,
+          144,
+          36
+        ],
+        "chi": 0
+      },
+      "T": {
+        "betti": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          7,
+          4,
+          0
+        ],
+        "cells": [
+          8,
+          12,
+          4,
+          0
+        ],
+        "chi": 0
+      },
+      "boundary_C": {
+        "betti": [
+          1,
+          4,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          73,
+          0
+        ],
+        "cells": [
+          72,
+          148,
+          74,
+          0
+        ],
+        "chi": -2
+      },
+      "height": 1,
+      "interpretation": "product-model cellular control, not an m202 triangulation",
+      "k": 1,
+      "n": 6,
+      "relative_E": {
+        "betti": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "boundary_ranks": [
+          0,
+          35,
+          35
+        ],
+        "cells": [
+          0,
+          36,
+          72,
+          35
+        ],
+        "chi": 1
+      },
+      "relative_T": {
+        "betti": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          64,
+          102,
+          35
+        ],
+        "cells": [
+          64,
+          168,
+          138,
+          35
+        ],
+        "chi": -1
+      },
+      "removed_columns": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "C": {
+        "betti": [
+          1,
+          3,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          106,
+          34
+        ],
+        "cells": [
+          72,
+          180,
+          140,
+          34
+        ],
+        "chi": -2
+      },
+      "E": {
+        "betti": [
+          2,
+          6,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          70,
+          68,
+          0
+        ],
+        "cells": [
+          72,
+          144,
+          68,
+          0
+        ],
+        "chi": -4
+      },
+      "Q": {
+        "betti": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          107,
+          36
+        ],
+        "cells": [
+          72,
+          180,
+          144,
+          36
+        ],
+        "chi": 0
+      },
+      "T": {
+        "betti": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          14,
+          8,
+          0
+        ],
+        "cells": [
+          16,
+          24,
+          8,
+          0
+        ],
+        "chi": 0
+      },
+      "boundary_C": {
+        "betti": [
+          1,
+          6,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          75,
+          0
+        ],
+        "cells": [
+          72,
+          152,
+          76,
+          0
+        ],
+        "chi": -4
+      },
+      "height": 1,
+      "interpretation": "product-model cellular control, not an m202 triangulation",
+      "k": 2,
+      "n": 6,
+      "relative_E": {
+        "betti": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "boundary_ranks": [
+          0,
+          35,
+          34
+        ],
+        "cells": [
+          0,
+          36,
+          72,
+          34
+        ],
+        "chi": 2
+      },
+      "relative_T": {
+        "betti": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          56,
+          97,
+          34
+        ],
+        "cells": [
+          56,
+          156,
+          132,
+          34
+        ],
+        "chi": -2
+      },
+      "removed_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "C": {
+        "betti": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          105,
+          33
+        ],
+        "cells": [
+          72,
+          180,
+          138,
+          33
+        ],
+        "chi": -3
+      },
+      "E": {
+        "betti": [
+          2,
+          8,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          70,
+          66,
+          0
+        ],
+        "cells": [
+          72,
+          144,
+          66,
+          0
+        ],
+        "chi": -6
+      },
+      "Q": {
+        "betti": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          107,
+          36
+        ],
+        "cells": [
+          72,
+          180,
+          144,
+          36
+        ],
+        "chi": 0
+      },
+      "T": {
+        "betti": [
+          3,
+          3,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          21,
+          12,
+          0
+        ],
+        "cells": [
+          24,
+          36,
+          12,
+          0
+        ],
+        "chi": 0
+      },
+      "boundary_C": {
+        "betti": [
+          1,
+          8,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          71,
+          77,
+          0
+        ],
+        "cells": [
+          72,
+          156,
+          78,
+          0
+        ],
+        "chi": -6
+      },
+      "height": 1,
+      "interpretation": "product-model cellular control, not an m202 triangulation",
+      "k": 3,
+      "n": 6,
+      "relative_E": {
+        "betti": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "boundary_ranks": [
+          0,
+          35,
+          33
+        ],
+        "cells": [
+          0,
+          36,
+          72,
+          33
+        ],
+        "chi": 3
+      },
+      "relative_T": {
+        "betti": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          48,
+          92,
+          33
+        ],
+        "cells": [
+          48,
+          144,
+          126,
+          33
+        ],
+        "chi": -3
+      },
+      "removed_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "C": {
+        "betti": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          191,
+          317,
+          122
+        ],
+        "cells": [
+          192,
+          512,
+          439,
+          122
+        ],
+        "chi": -3
+      },
+      "E": {
+        "betti": [
+          2,
+          8,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          126,
+          122,
+          0
+        ],
+        "cells": [
+          128,
+          256,
+          122,
+          0
+        ],
+        "chi": -6
+      },
+      "Q": {
+        "betti": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          191,
+          319,
+          128
+        ],
+        "cells": [
+          192,
+          512,
+          448,
+          128
+        ],
+        "chi": 0
+      },
+      "T": {
+        "betti": [
+          3,
+          3,
+          0,
+          0
+        ],
+        "boundary_ranks": [
+          33,
+          24,
+          0
+        ],
+        "cells": [
+          36,
+          60,
+          24,
+          0
+        ],
+        "chi": 0
+      },
+      "boundary_C": {
+        "betti": [
+          1,
+          8,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          139,
+          145,
+          0
+        ],
+        "cells": [
+          140,
+          292,
+          146,
+          0
+        ],
+        "chi": -6
+      },
+      "height": 2,
+      "interpretation": "product-model cellular control, not an m202 triangulation",
+      "k": 3,
+      "n": 8,
+      "relative_E": {
+        "betti": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "boundary_ranks": [
+          64,
+          191,
+          122
+        ],
+        "cells": [
+          64,
+          256,
+          317,
+          122
+        ],
+        "chi": 3
+      },
+      "relative_T": {
+        "betti": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "boundary_ranks": [
+          156,
+          292,
+          122
+        ],
+        "cells": [
+          156,
+          452,
+          415,
+          122
+        ],
+        "chi": -3
+      },
+      "removed_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    }
+  ],
+  "exact_sequence": [
+    {
+      "intersection": [
+        1,
+        1,
+        1
+      ],
+      "prediction": {
+        "core": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "exterior": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "intersection_rank": 1,
+        "meridian_image_rank": 2,
+        "tubes": [
+          0,
+          4,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "intersection": [
+        1,
+        0,
+        0
+      ],
+      "prediction": {
+        "core": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "exterior": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "intersection_rank": 1,
+        "meridian_image_rank": 2,
+        "tubes": [
+          0,
+          4,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "intersection": [
+        -1,
+        1,
+        -1
+      ],
+      "prediction": {
+        "core": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "exterior": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "intersection_rank": 1,
+        "meridian_image_rank": 2,
+        "tubes": [
+          0,
+          4,
+          1,
+          0
+        ]
+      }
+    }
+  ],
+  "geometry": {
+    "manifolds": {
+      "m004": {
+        "abelianized_relators": [
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "b1": 1,
+        "cusps": 1,
+        "element_orders": [
+          1,
+          4,
+          2,
+          4,
+          2,
+          2,
+          2,
+          2
+        ],
+        "generators": [
+          "a",
+          "b"
+        ],
+        "homology": "Z",
+        "order_three_self_cusp": [],
+        "relators": [
+          "aaabABBAb"
+        ],
+        "smith": [
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "symmetry_order": 8
+      },
+      "m202": {
+        "abelianized_relators": [
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "b1": 2,
+        "cusps": 2,
+        "element_orders": [
+          1,
+          6,
+          3,
+          2,
+          3,
+          6,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "generators": [
+          "a",
+          "b"
+        ],
+        "homology": "Z + Z",
+        "order_three_self_cusp": [
+          {
+            "fixed_points_per_cusp": [
+              3,
+              3
+            ],
+            "index": 2,
+            "matrices": [
+              [
+                [
+                  0,
+                  1
+                ],
+                [
+                  -1,
+                  -1
+                ]
+              ],
+              [
+                [
+                  -1,
+                  -1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ]
+            ],
+            "preserving": true
+          },
+          {
+            "fixed_points_per_cusp": [
+              3,
+              3
+            ],
+            "index": 4,
+            "matrices": [
+              [
+                [
+                  -1,
+                  -1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              [
+                [
+                  0,
+                  1
+                ],
+                [
+                  -1,
+                  -1
+                ]
+              ]
+            ],
+            "preserving": true
+          }
+        ],
+        "relators": [
+          "aabbAbAABBaB"
+        ],
+        "smith": [
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "symmetry_order": 12
+      }
+    },
+    "snappy_version": "3.3.2"
+  },
+  "parametrix": {
+    "cutoff_constant_integral": "0",
+    "hardy_identity": "0",
+    "line_flux_divided_by_2pi": "1",
+    "line_ode": "0",
+    "matching_coefficients": [
+      "A1*flow - mu/(2*A0)",
+      "-A0*flow"
+    ],
+    "metric_cutoff_identity": "0",
+    "omitted_repair_mean": "mu",
+    "repaired_mean": "0",
+    "scalar_gap_is_not_a_charged_gap": true,
+    "transitions": [
+      {
+        "endpoint_derivatives": [
+          "0",
+          "0"
+        ],
+        "endpoint_values": [
+          "0",
+          "1"
+        ],
+        "integral": "2*A",
+        "profile": "6*t**5 - 15*t**4 + 10*t**3"
+      },
+      {
+        "endpoint_derivatives": [
+          "0",
+          "0"
+        ],
+        "endpoint_values": [
+          "0",
+          "1"
+        ],
+        "integral": "2*A",
+        "profile": "-20*t**7 + 70*t**6 - 84*t**5 + 35*t**4"
+      }
+    ],
+    "unequal_area_control": "-7",
+    "wrong_unweighted_repair": "mu*(1 - A0)"
+  },
+  "parent": {
+    "adjoint_charge_dimensions": {
+      "-1": 16,
+      "0": 46,
+      "1": 16
+    },
+    "charged_d5_orbits": {
+      "-1": {
+        "d5_dominant": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "projected_norms": [
+          "5/4"
+        ],
+        "size": 16
+      },
+      "1": {
+        "d5_dominant": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "projected_norms": [
+          "5/4"
+        ],
+        "size": 16
+      }
+    },
+    "physical_parent_is_prescribed": true,
+    "root_lengths": [
+      "2"
+    ],
+    "roots": 72,
+    "u_norm": "4/3",
+    "zero_root_rank": 5,
+    "zero_roots": 40,
+    "zero_u_neutral_dimension": 78
+  },
+  "runtime_seconds": 2.7455310510122217,
+  "scope": "analytic extension identities and regulated cohomology; not a complete physical chiral spectrum"
+}

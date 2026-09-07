@@ -1,5 +1,16 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Global singular extension, 2026-09-07 (path-local R15):** the prescribed
+commuting line-source field now has an analytic global construction via
+scalar mean repair and a reduced inverse. On m202 its through-flux is
+not unique. Full regulated relative groups are (0,4,1,0)/(0,1,4,0), net
+three; a chosen compact E6 adjoint supplies 16/conjugate16, not a 27
+inserted as parent matter. The complete singular normalizable kernel
+does not follow from the finite pair because exp(qF) is unbounded in
+that limit. Physical source/fibre/parent selection and the full gravity
+completion remain separate duties. Proof, controls and scope:
+`reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md`.
+
 **Singular cusp construction, 2026-09-07 (path-local R14):** an explicit
 abelian Higgs field now realizes the prescribed three-source data on a
 hexagonal cusp END. Its Poisson equation and full tube/cusp flux balance

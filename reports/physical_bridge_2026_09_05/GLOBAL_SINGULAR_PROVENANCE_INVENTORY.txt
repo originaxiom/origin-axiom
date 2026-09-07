@@ -1,0 +1,8 @@
+reports/physical_bridge_2026_09_05/EXTENSION_2.md
+reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md
+reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md
+reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md
+reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md
+reports/physical_bridge_2026_09_05/HARMONIC_CUSP_DESIGN.md
+reports/physical_bridge_2026_09_05/HARMONIC_CUSP_TRANSPORT_DESIGN.md
+reports/physical_bridge_2026_09_05/SINGULAR_CUSP_DESIGN.md
