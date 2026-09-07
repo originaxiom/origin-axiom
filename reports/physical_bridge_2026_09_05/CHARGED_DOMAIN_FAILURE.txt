@@ -1,0 +1,93 @@
+R16 first producer output (terminal; no scientific JSON emitted):
+Traceback (most recent call last):
+  File "<REPOSITORY>/reports/physical_bridge_2026_09_05/charged_domain.py", line 315, in <module>
+    print(json.dumps(run(), indent=2, sort_keys=True), flush=True)
+                     ^^^^^
+  File "<REPOSITORY>/reports/physical_bridge_2026_09_05/charged_domain.py", line 305, in run
+    cusp=cusp_identities(),
+         ^^^^^^^^^^^^^^^^^
+  File "<REPOSITORY>/reports/physical_bridge_2026_09_05/charged_domain.py", line 273, in cusp_identities
+    leading_log_density=sp.limit(sp.log(density)/(z**2*sp.log(z)), z, sp.oo))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/limits.py", line 66, in limit
+    return Limit(e, z, z0, dir).doit(deep=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/limits.py", line 384, in doit
+    r = gruntz(e, z, z0, dir)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/gruntz.py", line 695, in gruntz
+    r = limitinf(e0, z)
+        ^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/gruntz.py", line 452, in limitinf
+    c0, e0 = mrv_leadterm(e, x)
+             ^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/gruntz.py", line 513, in mrv_leadterm
+    f, logw = rewrite(exps, Omega, x, w)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/gruntz.py", line 611, in rewrite
+    raise NotImplementedError('Result depends on the sign of %s' % sig)
+NotImplementedError: Result depends on the sign of -sign(q)
+
+R16 first original tests, exit 1:
+.F..........FFF.                                                         [100%]
+=================================== FAILURES ===================================
+________________ test_all_eight_exact_hyperbolic_zero_branches _________________
+tests/test_physical_bridge_charged_domain.py:26: in test_all_eight_exact_hyperbolic_zero_branches
+    assert row['d'] == {} and row['delta'] == {}
+E   assert ({(0,): -a*(-s...)*tanh(r)**a)} == {}
+E     
+E     Left contains 1 more item:
+E     {(0,): -a*(-sinh(2*r)*tanh(r) + sinh(2*r)/tanh(r) - 2)/(sinh(2*r)*tanh(r)**a)}
+E     Use -v to get more diff)
+_____________ test_nonzero_green_form_and_distinct_complex_domains _____________
+tests/test_physical_bridge_charged_domain.py:94: in test_nonzero_green_form_and_distinct_complex_domains
+    assert out['capacity_energy_identity'] == 0
+E   assert -(2*L*R**(2*L)*epsilon**(2*L) - R**(2*L)*Piecewise((Integral(Piecewise((0, (r < 1) & (1/r < 1)), (-8*L**3*gamma(-2*L)/...*L)*epsilon**(2*L)) + r*r**(2*L)/R**(4*L)), True)), (r, R, epsilon)), True)))/((R**L - epsilon**L)*(R**L + epsilon**L)) == 0
+__________ test_independent_quadrature_and_actual_hyperbolic_measure ___________
+tests/test_physical_bridge_charged_domain.py:107: in test_independent_quadrature_and_actual_hyperbolic_measure
+    assert max(r['quadrature_relative_error'] for r in rows) < 5e-12
+E   assert 1.9601911205313627e-09 < 5e-12
+E    +  where 1.9601911205313627e-09 = max(<generator object test_independent_quadrature_and_actual_hyperbolic_measure.<locals>.<genexpr> at 0x10c509630>)
+___________ test_general_zero_and_top_solutions_and_cusp_separation ____________
+tests/test_physical_bridge_charged_domain.py:116: in test_general_zero_and_top_solutions_and_cusp_separation
+    out = cd.cusp_identities()
+          ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/charged_domain.py:273: in cusp_identities
+    leading_log_density=sp.limit(sp.log(density)/(z**2*sp.log(z)), z, sp.oo))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/limits.py:66: in limit
+    return Limit(e, z, z0, dir).doit(deep=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/limits.py:384: in doit
+    r = gruntz(e, z, z0, dir)
+        ^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/gruntz.py:695: in gruntz
+    r = limitinf(e0, z)
+        ^^^^^^^^^^^^^^^
+<PYTHON_ENV>/lib/python3.12/site-packages/sympy/core/cache.py:72: in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/gruntz.py:452: in limitinf
+    c0, e0 = mrv_leadterm(e, x)
+             ^^^^^^^^^^^^^^^^^^
+<PYTHON_ENV>/lib/python3.12/site-packages/sympy/core/cache.py:72: in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/gruntz.py:513: in mrv_leadterm
+    f, logw = rewrite(exps, Omega, x, w)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+<PYTHON_ENV>/lib/python3.12/site-packages/sympy/series/gruntz.py:611: in rewrite
+    raise NotImplementedError('Result depends on the sign of %s' % sig)
+E   NotImplementedError: Result depends on the sign of -sign(q)
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_charged_domain.py::test_all_eight_exact_hyperbolic_zero_branches
+FAILED tests/test_physical_bridge_charged_domain.py::test_nonzero_green_form_and_distinct_complex_domains
+FAILED tests/test_physical_bridge_charged_domain.py::test_independent_quadrature_and_actual_hyperbolic_measure
+FAILED tests/test_physical_bridge_charged_domain.py::test_general_zero_and_top_solutions_and_cusp_separation
+4 failed, 12 passed in 29.62s
