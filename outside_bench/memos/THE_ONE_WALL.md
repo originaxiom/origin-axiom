@@ -220,3 +220,51 @@ every CS here as *strong numerical evidence*, not as a certified value.
   the owner's request): I claimed *"zero occurrences"* where there is one, and *"no arc cites both"*
   in a form broader than the grep I actually ran. **Both corrections are in §3, in place.** The
   finding survives both; the wording did not.
+
+---
+
+## ADDENDUM (2026-09-07) — THE COUNT HALF IS CLOSED TO DEGREE 12, AND IT KILLS §3's ROUTE
+
+**Asked for a breakthrough, I ran the sharpest decidable question instead.** §3 showed the σ bridge's
+**quantized-sector** half is satisfiable (partial fillings give `CS ∉ {0,¼}` with cusps surviving).
+The bridge also needs a **count** half: `c = 6`, which by `B1190`/GC-6 + `B139` reads as **six
+cusp-boson units = six cusps**. So: **is six cusps reachable?**
+
+**Certificate `certificates/six_cusp_reachability.py`. Answer: NO, through degree 12.**
+
+| degree | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **10** | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| covers | 1 | 1 | 2 | 4 | 11 | 9 | 10 | 11 | 38 | 26 | 62 |
+| **max cusps** | 1 | 1 | 2 | 3 | 2 | 3 | 2 | 3 | **5** | 4 | 4 |
+
+**Zero covers with ≥ 6 cusps.** And **filling only reduces the cusp count**, so six is unreachable by
+cover-then-fill as well.
+
+**POSITIVE CONTROL:** my enumeration over degrees 2–10 returns **87 covers and 201 cusps** —
+**exactly** `B1295`'s independently computed figures. The instrument reproduces main's census before
+being trusted on the extension to 12.
+
+### What this does to §3, against my own proposal
+
+**It kills it as a σ-bridge route.** §3 solved the half that was solvable and I presented the composite
+as a candidate for `B1064`'s route (a). **The other half fails on its own, independently of `CS`** —
+so a partial filling can supply a quantized sector but **cannot supply the count**, and the two halves
+are not simultaneously satisfiable in this tower at accessible degree. **The route I proposed one turn
+ago is substantially dead, and the correction runs against me, not against the record.**
+
+### The fork it forces, and the live branch is the other one
+
+1. **The σ bridge cannot be crossed inside m004's commensurability tower.** Nearly closed now:
+   the count fails to degree 12 and `CS = 0` is inherited everywhere without filling.
+2. **"Six cusp-boson units" is not a cusp count.** Memo 168 §4 already fenced exactly this —
+   *"six cusps is a sufficient route, not a proved necessary one"* — and named the alternative:
+   a **non-abelian `T[M]`**, or a different boundary sector, reaching `c = 6` without six cusps.
+
+**Branch 2 is now the live one by elimination**, and it is precisely what `Q11` asks Dimofte. **The
+computation did not open a door; it closed the one I had proposed and pushed the weight back onto the
+question already sent.**
+
+**Fences:** degree-bounded (≤ 12) and stated as such; `c = 6 ⟺ six cusps` is `B139`'s identity applied
+by me, not proved here — if that reading is wrong, branch 2 was always the right one and this cell
+only confirms it sooner.
+
