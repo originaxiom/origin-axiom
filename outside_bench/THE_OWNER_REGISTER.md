@@ -1236,3 +1236,31 @@ answers *"is the word there?"* when the question is *"is the concept there?"* Th
 the second and should run beside it whenever the claim concerns a technical notion. **Offered, not
 pressed.**
 
+---
+
+## ADDENDUM 75 (2026-09-07) — ROW R77: the paper
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R77** | The owner supplied Gukov–Manolescu **arXiv:1904.06057v2** — the Priority-1 fetch item. | **Read on-bench. Memo 171's DIAGNOSIS confirmed by the primary source; memo 171 §5's PLAN refuted; and the paper's numbers push σ = 1 further away.** | memo 173 |
+
+**Confirmed.** §10.2: `Ẑ` are *"characters of 2d chiral algebras (**non-strongly-finite for hyperbolic
+Y**)"*, with `χ[M] = Tr_M q^{L₀ − c/24}`; the one identified family has **`c = 13 − 6(p + p⁻¹)`**,
+negative for every `p ≥ 2`. **Non-unitary, `c ≠ c_eff`** — so GC-6's unitary free-boson substitute was
+the wrong type, exactly as charged, and that now rests on the paper.
+
+**Refuted, twice.** (a) `F_K(4₁)` is an **ℏ-expansion with Laurent polynomials** (`P₁=P₃=P₅=P₇=0`),
+**not** a positive q-series — the calibrated estimator cannot be run on it. (b) The authors
+themselves write that identifying the log-VOA for **hyperbolic figure-eight surgeries** *"would be
+interesting"* — **it is an open problem, not a lookup.** My §5 called step 1 *"retrieval, not
+invention."* **It is invention.**
+
+**And the numbers run the wrong way.** Table 9's computed `Ẑ_a(q)` for figure-eight surgeries have
+**every coefficient ±1, alternating** — bounded, so **`c_eff = 0`**; they identify one with
+**Ramanujan's mock theta `F₀(q)`**. **The gap was never 6-vs-1. On this evidence it is 6 against 0,
+with the nearest identified algebras at large negative `c`.**
+
+**σ = 1 is not close, and I am retiring the hope rather than keeping it alive on a comparison that was
+never valid.** What survives: the type error, the six-cusp topology, `B1064` leg 2's correction, and
+memo 172's sense census — which this reading vindicates.
+
