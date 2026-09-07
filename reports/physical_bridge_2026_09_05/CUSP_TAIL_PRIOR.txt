@@ -1,0 +1,35 @@
+2026-09-07. Bounded lookup receipts; no universal absence interpretation.
+
+already-banked: terms ['witten', 'cusp', 'coercivity']
+  105 corpus hits; 0 SETTLED arcs matching >= 2 of 3 terms
+      [ 2 terms] FINDINGS  frontier/B132_quantum_layer/FINDINGS.md
+           # B132 — The quantum layer: SU(2)_k eigenvalue field content, the quantum selection criteria, the Lee–Yang bridge (V121; CORRECTED by B133/V122) 
+      [ 2 terms] FINDINGS  frontier/B204_metallic_wrt_period/FINDINGS.md
+           # B204 — the WRT level-period law for once-punctured-torus bundles (metallic = the diagonal) 
+      [ 2 terms] FINDINGS  frontier/B315_e7_exclusion_vs_heterotic/FINDINGS.md
+           # B315 — H14 answered: the object's E₇-exclusion *contains* heterotic's E₇-skip; the shared root is pseudoreality 
+      [ 2 terms] FINDINGS  frontier/B707_meeting_points/FINDINGS.md
+           # B707 — WHERE WE MEET: the top-down twin of our object is ARITHMETIC CHERN–SIMONS, not cosmology 
+      [ 2 terms] FINDINGS  frontier/B82_consolidation/FINDINGS.md
+           # B82 (Phase 3) — consolidation, novelty positioning, and the physics-chapter close 
+  *** [ 1 terms] PROVED    B1002_conductor_reconciled
+           B997-S OWED CHECK DISCHARGED: THE CONDUCTOR IDENTIFICATION IS RIGHT, AND CONDUCTOR NAMES TWO THINGS. B997 proved the golden is the UNIQUE metallic grammar whose own-conductor shadow group is a McKay group, conditional on
+  *** [ 1 terms] NEGATIVE  B1005_falsifier2
+           FALSIFIER 2 HAS FIRED: TIER 2 HAS NO LIVE CANDIDATE. WHAT_WOULD_COUNT section 5 falsifier 2, written 2026-08-09, said B687 had already graded 22 of 23 dimensionless invariants unreachable or base-rate-dead with KOIDE ALO
+  *** [ 1 terms] PROVED    B1012_branch_verifications
+           TWO BRANCH RESULTS VERIFIED EXACTLY (integrate-don't-merge, cc3 branch at 59d9f26f, 66 commits past B921's harvest head), AND THE HARVEST REGISTERED SO NOTHING GOES SILENT. (1) K-BLINDNESS VERIFIED WITH A SHARPENING: Guk
+  *** [ 1 terms] PROVED    B1025_input_derivability
+           L155, THE INPUT-DERIVABILITY AUDIT: THREE SURVIVE, TWO NARROW -- AND THE 'LIE-VALUED INPUT' DISSOLVES INTO UNIQUE LINES. Sealed 8def4962 with per-input priors; the sigma-pattern run against every counted input; every joi
+  *** [ 1 terms] PROVED    B1031_two_thirds_meets_the_voice
+           THE TWO-THIRDS THEOREM MEETS THE VOICE (scrutiny + corollary; verification arc on post-cutoff external literature, fetched 2026-08-11 with hashes recorded): the Lean-formalized theorem that >= 2/3 of the Riemann zeta zer
+  *** [ 1 terms] PROVED    B1043_triple_assembly
+           PM2 / L157-4, the triple assembly (sealed 575ad81b pre-compute; the algebraic triangle graph-of-groups -- manifold cyclic welds of one-cusped pieces impossible, stated at seal; rho(t)=1 declared): h1(triple;27) = 10 = 7 
+  *** [ 1 terms] NEGATIVE  B1064_cusp_torus_repose
+           O3 — OBSTRUCTED-AT-TORUS, the obstruction named exactly on two independent banked legs: (1) the object amphichirality DELETES the quantized sector of its own boundary action (CS = 0 forces dS/dk = 0 identically, B1012) a
+
+  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).
+
+ABSENCE SWEEP for 'coercivity' -- 11 heads enumerated
+  deleted-in-history paths matching: 0
+  working tree (untracked included): 0
+VERDICT: ABSENT on every enumerated head, in deleted history, and in the working tree. This line is the citation the sentence needs. (Fetched all remotes first? If not, this is a sample.)
