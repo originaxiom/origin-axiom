@@ -1,0 +1,137 @@
+R18 pre-execution retrieval receipt, 2026-09-07.
+No universal absence claim. Query outputs preserved verbatim below.
+
+$ python3.12 scripts/checks/already_banked.py "weighted cohomology"
+exit_code=1
+already-banked: terms ['weighted', 'cohomology']
+  19 corpus hits; 1 SETTLED arcs matching >= 2 of 2 terms
+  *** [ 2 terms] PROVED    B870_lift_obstruction
+           G7 CLOSED -- the central-extension lift obstruction, computed exactly: for the 2-generator 1-relator presentations (SnapPy; relators certified not-proper-powers, so Lyndon asphericity applies) H^2(pi_1; A) = A/gcd(e_a,e_
+      [ 2 terms] FINDINGS  frontier/B870_lift_obstruction/FINDINGS.md
+           # B870 — G7 closed: the object is lift-unobstructed at EVERY prime; the sister's obstruction group turns on exactly at 5 
+  *** [ 1 terms] PROVED    B1008_lexicon_epoch
+           THE ATLAS IS BLIND IN AN EPOCH, AND THE BLINDNESS IS WHERE THE PROGRAMME NOW LIVES. B806's concentration statistic fell THROUGH the 0.85 floor its lock defended, and the floor was NOT bumped: B829 set the precedent that 
+  *** [ 1 terms] PROVED    B1068_descent_inventory
+           THE DESCENT INVENTORY (the field-masterplan W2, loop-until-dry, two adversarial lenses per verdict, 12 disputes bench-adjudicated, zero reversals): 31 canonical structures of Q(sqrt-3) tested through the McKay chain 2T -
+  *** [ 1 terms] NEGATIVE  B1076_coboundary_sweep
+           THE COBOUNDARY SWEEP (the owner's no-excuse directive aimed by B1074's map; 3 agents, adversarial verify HOLDS on fully independent re-implementation): B^1 = (1+tau)X identified exactly as {I, chi_a (a1/a6 flips), chi_b 
+  *** [ 1 terms] PROVED    B1089_matter_card
+           THE MATTER CARD (L174 C3, assembly of banked pieces under the 3d-theory header): the 27-local-system cohomology IS the theory's matter content -- solo h1 = 3 (B662), welded 5, theta-odd 2 (B1086's spectrum law = the mult
+      [ 1 terms] OPEN      B1099_route_a_counter
+           ROUTE A'S COUNTER (W2, MATCH-typed scoped reading): LITERATURE-FLOOR with two upgrades -- (1) ONE STRATUM DECIDED FREE: Krutelevich Cor 16 (transitivity at determinant n iff n squarefree) + our determinant 5 squarefree =
+  *** [ 1 terms] NEGATIVE  B1108_c5_archimedean
+           C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero arch
+  *** [ 1 terms] PROVED    B1154_seam_y
+           SEAM-Y RESOLVED = MISMATCH (the sealed grammar's second outcome: two independent walls, both confirming structure-not-values). The seam asked whether codex's exact up-type-Yukawa=0 is the SAME fact as our period-value di
+      [ 1 terms] OPEN      B1161_frontier_sweep
+           THE FRONTIER SWEEP (compute-all-we-can, owner-directed before the review; WF 7 agents, 6 cells each typed, load-bearing ones own-verified reproduce.sh -> REPRODUCES). HEADLINE UNIFICATION: the bypass door IS SEAM-A. The 
+      [ 1 terms] OPEN      B1162_mssm_debt_closure
+           The MSSM-debt closure (cloud memos 71-75, D1-D5) + codex's height-308 MSSM witness VERIFIED on our own bench -- finishing WF-3's second half (the witness was single-homed; B1159 relayed it). THE WITNESS (sage-verified on
+      [ 1 terms] OPEN      B1163_w0_attempt
+           The W0 construction ATTEMPT (owner: 'can we specialize ourselves and do the missing archimedean W'; WF W0-construct, 7 agents). SEAL = PARTIAL: no W0 constructed, but all three routes CONVERGE on ONE missing datum -- an 
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+
+$ python3.12 scripts/checks/already_banked.py "Hardy homotopy"
+exit_code=0
+already-banked: terms ['hardy', 'homotopy']
+  0 corpus hits; 0 SETTLED arcs matching >= 2 of 2 terms
+
+  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).
+
+$ python3.12 scripts/checks/already_banked.py "singular Fredholm"
+exit_code=0
+already-banked: terms ['singular', 'fredholm']
+  10 corpus hits; 0 SETTLED arcs matching >= 2 of 2 terms
+  *** [ 1 terms] NEGATIVE  B1007_arb_maass
+           THE INSTRUMENT ALREADY EXISTED, AND THIS ARC'S FIRST DRAFT WAS WRONG ABOUT THE COST. Banked NEGATIVE: this arc set out to build an arbitrary-precision Maass solver because B1006 named MORE DIGITS as the value layer's bot
+  *** [ 1 terms] PROVED    B1141_spin_payment
+           THE SPIN PAYMENT (cloud seat's 28th memo, hostile-verified TWO-BENCH on this bench with own code — own relator search, own exact intertwiner-rank, own norm-form + chi-parity proofs; SnapPy + exact-symbolic + 50-digit-num
+  *** [ 1 terms] NEGATIVE  B1205_the_dimension_ledger
+           THE CUBIC CELL RUN -- the cubic exists and is failable, but it cuts ONE dimension of THREE, and the missing ingredient is the LINEAR cuts, whose absence the record has already PROVED. WHAT RAN: B1204 prescribed a failabl
+  *** [ 1 terms] NEGATIVE  B405_supersingular_check
+           a_7=a_23=0 for 15a1 is verified but deflated three ways (supersingular counts are automatic and controls make every program prime equally dressable), leaving only a banked sentinel list as falsifiable residue.
+      [ 1 terms] OPEN      B4_bkl_gutzwiller
+           BKL BILLIARD / GUTZWILLER / GOLDEN KASNER -- BOUNDED OBSERVATION, THE PROGRAMME'S MOST-CAVEATED MATERIAL (genesis probe, 2026-05-22; verdict written 2026-09-02 under L196). Computed: the figure-eight orbit is the shortes
+  *** [ 1 terms] NEGATIVE  B643_flip_symmetry
+           The amphichiral flip is not a symmetry of the weld double: no invertible global companion exists (solution dimension 1, singular) in either involution class.
+  *** [ 1 terms] PROVED    B866_charge_cubic
+           VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries EXACTLY THREE distinguished lines -- det of a generically-nonsingular 48x48 minor of the pencil ad(x8 + t x16), interpolated exactly from 
+  *** [ 1 terms] PROVED    B931_why_953
+           WHY 953 -- THE DERIVATION CHAIN + THE HONEST MAP (53/53 exact): 2304 IS DERIVED -- 2304^2 = 2^16 3^4 is exactly the {2,3}-part of lc(mu) = 2304^2 5^2 7^3 11, the twist's poles living only over the primes where K is arith
+  *** [ 1 terms] NEGATIVE  B935_composition_hunt
+           THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON (blind; the map question's first well-posed form, answered NO): the closed whitelist of four forced compositions (R-conjugation; the polar/singular decomposition;
+  *** [ 1 terms] PROVED    B975_cc3_render_audit
+           THE RENDER AUDIT (cc3 handoff, processed integrate-don't-merge). THE HEADLINE IS THE PROCESS POINT, NOT THE DEFECTS: C1 and C2 were latent in code that had ALREADY produced banked results and passed three section-16 revi
+
+  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).
+
+$ python3.12 scripts/atlas/query.py card chirality
+exit_code=0
+THE RECURRENCE ATLAS -- context card
+  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}
+  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur
+  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)
+  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422
+  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral
+  top meeting-point candidates: B530, B156, B521, B309, B598, B1189
+  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
+
+$ rg -n -i "Hardy|Volterra|weighted.{0,25}cohomolog|cohomolog.{0,25}weight" docs/LAW_MAP.md docs/OPEN_LEADS.md frontier --glob "*.py" --glob "arc_verdict.json" --glob "FINDINGS.md"
+exit_code=0
+docs/OPEN_LEADS.md:2563:range/Fredholm argument, and an actual weighted-cohomology comparison
+frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md:45:at the Hardy–Littlewood prime-pair wall, and **"RH itself is out of reach of the
+frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py:58:def hardyL(t):
+frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py:63:t = mpf('0.1'); f0 = hardyL(t)
+frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py:65:    t2 = t + mpf('0.05'); f1 = hardyL(t2)
+frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py:67:        zl.append(findroot(hardyL, (t, t2), solver='bisect', tol=mpf(10)**(-15)))
+
+
+ABSENCE SWEEP for '(Hardy|Volterra|weighted.{0,25}cohomolog|cohomolog.{0,25}weight)' -- 11 heads enumerated
+  audit/physical-bridge-2026-09-05                        4d0473a4  content:   9  filenames:  0
+      4d0473a4:docs/OPEN_LEADS.md
+      4d0473a4:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      4d0473a4:frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py
+  main                                                    f06d3405  content:   3  filenames:  0
+      f06d3405:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      f06d3405:frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py
+      f06d3405:knowledge/K002_metallic_family_continued_fractions.md
+  origin/audit/b775-braver-questions                      53da05f6  content:   2  filenames:  0
+      53da05f6:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      53da05f6:knowledge/K002_metallic_family_continued_fractions.md
+  origin/audit/physical-bridge-2026-09-05                 4d0473a4  content:   9  filenames:  0
+      4d0473a4:docs/OPEN_LEADS.md
+      4d0473a4:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      4d0473a4:frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py
+  origin/claude/new-session-qor5up                        3851df2a  content:   1  filenames:  0
+      3851df2a:knowledge/K002_metallic_family_continued_fractions.md
+  origin/claude/outside-bench                             1fa9641b  content:   4  filenames:  0
+      1fa9641b:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      1fa9641b:knowledge/K002_metallic_family_continued_fractions.md
+      1fa9641b:outside_bench/certificates/c1_weyl.py
+  origin/claude/physics-seat-evaluation-8dkbrl            659487bb  content:   2  filenames:  0
+      659487bb:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      659487bb:knowledge/K002_metallic_family_continued_fractions.md
+  origin/claude/standard-model-derivation-0qt6ao          d1a91c7a  content:   3  filenames:  0
+      d1a91c7a:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      d1a91c7a:frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py
+      d1a91c7a:knowledge/K002_metallic_family_continued_fractions.md
+  origin/codex/seat-r001                                  f7a49536  content:   2  filenames:  0
+      f7a49536:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      f7a49536:knowledge/K002_metallic_family_continued_fractions.md
+  origin/main                                             c78003cd  content:   3  filenames:  0
+      c78003cd:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      c78003cd:frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py
+      c78003cd:knowledge/K002_metallic_family_continued_fractions.md
+  origin/paper/structure-genesis-first                    a31456d2  content:   3  filenames:  0
+      a31456d2:frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      a31456d2:knowledge/K002_metallic_family_continued_fractions.md
+      a31456d2:papers/series/paper1_characterization/main.tex
+  deleted-in-history paths matching: 0
+  working tree (untracked included): 9
+      docs/OPEN_LEADS.md
+      frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md
+      frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py
+      knowledge/K002_metallic_family_continued_fractions.md
+      reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md
+VERDICT: PRESENT -- on 11 head(s), working tree. 'We don't have it' may NOT be written.
