@@ -1103,3 +1103,37 @@ instance changed and the classifier permitted it the second time. No technique, 
 step.** `create_draft` is a separate tool. Under this standing instruction only `create_draft` is to
 be used, and `outside_bench/sends/DRAFTS_LOG.md` records that at the top for any later seat.
 
+---
+
+## ADDENDUM 71 (2026-09-07) — ROW R73: sit and meditate; what other joints do you see?
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R73** | *"analyze the patterns, what other joints, unifications, derivations u see… we derived many things that were sitting there for months but were not able to see. what else can u see?"* | **Three walls are one theorem, and the escape is one move nobody has made.** `B1227`'s amphichirality theorem (`2·I(M) = 0` for any orientation-odd invariant) generates **all three** current walls in three value groups: `ℝ/(½)ℤ` ⟹ `CS = 0` ⟹ the quantized sector dies ⟹ **σ unfixable**; `ℝ` ⟹ **no real selector**; **`ℤ` ⟹ net chirality 0 ⟹ vector-like closings**. `B1227` records the first two. **`B1294` derived the third a week later and never cites it.** | memo 170 |
+
+**The escape is also one escape, and two seats found it apart.** `B1291`: chirality's escape is
+**≥2 cusps**. `B1190`/GC-6: the σ bridge needs **six cusp-boson units**, the *one* being m004's one
+cusp. Neither arc cites the other. **Covers cannot supply it** — memo 169 (degree 8) and `B1295`
+(degree 10, independently) both find the cusp count capped and `CS ≡ 0` inherited.
+
+**The joint nobody has made, and it computes.** `B432` (long banked): all 31 sampled fillings make
+the object **chiral** — filling breaks amphichirality, but kills the cusp. Covers keep cusps but
+inherit `CS = 0`. **Partially filling a multi-cusped cover does both** — and `"partial filling"`,
+`"partially fill"`, `"partial Dehn"`, `"multi-cusped cover"` are at **zero occurrences across all of
+main**. Computed: **18 of 22 partial fillings keep ≥1 cusp AND have `CS ≠ 0`** (a degree-7 cover
+gives 2 cusps left at `CS = ±1/24`). So the two things `B1064` needs — a cusp and a quantized sector
+— **are simultaneously satisfiable**, which its route (a) called *"none is known."*
+
+**And the cost, which must be priced before anyone celebrates:** these are **not m004**. Three new
+discrete choices enter — which cover, which cusp, which slope — and `B432` already says *"slope
+selection stays free input."* **The route buys a quantized sector by spending ledger entries and may
+cost more than σ is worth.** Nobody has priced it because nobody has had both halves on one table.
+
+**Also filed: bench error #20** — my own first run printed `[amphichirality BROKEN]` as an
+unconditional label while SnapPy had computed no CS at all for closed fillings. The label asserted
+the conclusion the test existed to test. Same class as #16.
+
+**And one join that must NOT be made:** three Klein four-groups now sit in the object. `B1182` proved
+two of them are one. **`B730`'s face group is not the third** — `ℚ(ζ₁₂)`'s quadratic subfields share
+only `√−3` with `{√−3, √5, √−15}`. Fusing them would be exactly `B1231`'s named dominant error mode.
+
