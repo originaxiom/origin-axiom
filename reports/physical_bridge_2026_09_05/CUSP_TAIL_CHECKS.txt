@@ -1,0 +1,6 @@
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_cusp_tail.py -q -p no:randomly --tb=short
+Sealed source tree: db6b5af3; quiescent during science and tests.
+Exit: 0
+
+.........                                                                [100%]
+9 passed in 4.72s

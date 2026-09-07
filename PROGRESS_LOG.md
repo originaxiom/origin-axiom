@@ -14392,3 +14392,33 @@ next obligations. Sources under reports/physical_bridge_2026_09_05/:
 CHARGED_DOMAIN.md, PARTIAL_FILLING.md, PHYSICS_BOTTLENECKS.md.
 No B allocation/main merge/PR; prior R15 push remains the last remote
 checkpoint. Full-suite and independent main-banking debts remain.
+
+## 2026-09-07 — R17: the charged high-cusp operator, not a scalar-gap shortcut
+
+The prescribed separated source potential now gives an exact warped
+8-component operator and square, with degree shift and cross block
+retained. In a fixed graded tangential Hilbert complex, Young's
+inequality absorbs the full tangential operator and yields a uniform
+high-cusp bound at least integral |h'|^2/4 |psi|^2. Its explicit sufficient
+height is valid for either charge sign and arbitrary through-flux c.
+No puncture-distance cutoff occurs. R15's smooth harmonic correction
+has bounded Clifford norm on the tail and preserves the growing barrier.
+The neutral one-form quotient is 4pi^2/(3L^2), while the scalar has an
+additional 1; the all-degree operator has not borrowed a scalar gap.
+
+This rules out charged bounded-energy escape to large height in the
+stated realization, not global zero modes or all defect domains.
+Next: finite-height singular compactness, global Fredholmness and an
+actual comparison of both complete charged H1 groups with R15's finite
+four/one pair. Physical parent, gauge/fibre and defect selection remain
+separate duties; the partial-filling boundary-theory path also remains.
+
+Pre-execution source/design/test seal db6b5af3. First science succeeds
+in 3.887 s; nine focused tests pass in 4.72 s. Independent integrated
+energy controls agree below 3.10e-16; all 72 radial checks pass. The
+quiescent broader regression finishes: 212 passed, 7 preserved original
+failures, 8 original R11 fixture errors, one GUI warning in 227.51 s.
+Full receipts retained; source/tests/tolerances are unchanged. This is
+not a full-repository suite or independent main-banking certificate.
+Source: reports/physical_bridge_2026_09_05/CUSP_TAIL.md. No B allocation;
+CC's numbering relay was reread, and no main merge or PR is performed.

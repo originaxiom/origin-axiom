@@ -1,6 +1,15 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**Certified geometric candidate and charged-domain progress, 2026-09-07:**
+**Charged operator progress and certified geometric candidate, 2026-09-07:**
+R17 supplies a growing high-cusp energy barrier for the prescribed
+charged operator in a fixed tangential Hilbert complex, uniform toward
+source punctures and stable under R15's smooth harmonic correction.
+Neutral one-form escape survives the control. Finite-height singular
+compactness, the global physical domain and complete H1 count remain;
+this is not a physical chirality theorem. Proof and passing controls:
+`reports/physical_bridge_2026_09_05/CUSP_TAIL.md`.
+
+Separately,
 the named degree-five partial filling is interval-certified hyperbolic,
 retains two complete cusps and excludes the mirror-compatible CS classes.
 This establishes geometric chirality, not a quantum level or physical

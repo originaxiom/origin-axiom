@@ -1,5 +1,29 @@
 # Failures retained, not rewritten as successful runs
 
+## R17 quiescent regression (2026-09-07)
+
+R17's first producer succeeds and all nine new tests pass. The broader
+physical-bridge group plus three upstream locks gives 212 passed,
+7 failed, 8 errors, one optional-GUI warning in 227.51 seconds.
+Receipt: CUSP_TAIL_REGRESSION.txt; the environment-prefix-unredacted
+tool-output transcript is retained locally as
+CUSP_TAIL_REGRESSION_RAW.local.txt, excluded only in .git/info/exclude.
+
+The seven failures are the original R16 four below, G2 NumPy-key
+export one, and R7 finite-difference two. The original R11 ZZ-domain
+fixture causes the eight errors. Their separately sealed control tests
+are included among the passing checks; no original failure, assertion
+or tolerance is changed. No failure is attributed to the new cusp-tail
+estimate and no all-green or full-repository-suite claim is made.
+
+Reporting gates: 27 passed / 3 failed, the same attribution, static-
+vacuity and sealed-provenance debts. CUSP_TAIL_GATES.txt retains the
+full output; review is due at 112 merges. R17's provenance markers and
+seal digests pass. The staged whitespace check flags five lines copied
+from pytest in CUSP_TAIL_REGRESSION.txt; the transcript is retained,
+not normalized into a different failure receipt. Authored report text
+has no whitespace errors. Independent main banking remains unpaid.
+
 ## R16 and partial filling (2026-09-07)
 
 R16's original sealed producer fails and its original tests give

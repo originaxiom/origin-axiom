@@ -2554,6 +2554,18 @@ NEXT: the physical defect/gauge/fibre law and a joint line/cusp
 Fredholm estimate, then both charged H1 kernels and the extra pair's
 interactions. See reports/physical_bridge_2026_09_05/CHARGED_DOMAIN.md.
 
+**R17 movement, same PB-BOUNDARY lead (2026-09-07):** the uniform
+high-cusp charged energy estimate is supplied for a fixed graded
+tangential Hilbert complex, including concentration toward source
+punctures. The bounded smooth corrector preserves it. This narrows the
+joint-end duty; it does not imply a complete physical kernel or select
+the domain. NEXT: finite-height singular compactness, a global closed-
+range/Fredholm argument, and an actual weighted-cohomology comparison
+for BOTH charged H1 groups. Preserve R15's finite four/one pair until
+that comparison is earned. Physical source/defect/fibre selection and
+the pair's interactions remain open. Exact scope and proof:
+reports/physical_bridge_2026_09_05/CUSP_TAIL.md.
+
 **PB-PARTIAL-FILLING — boundary theory on the certified marked witness. OPEN.**
 The degree-five decorated cover filled at cusp 0 (2,1) now has
 interval-certified hyperbolicity, two complete cusps, and CS outside

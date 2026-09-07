@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-09-07 — Path-local R17: uniform charged cusp-tail energy barrier
+
+The prescribed source potential's deformed-form operator and its full
+square are derived, retaining the degree shift and noncommuting cross
+block. In a fixed tangential Hilbert complex the high-tail lower bound
+grows uniformly even toward source punctures; R15's bounded harmonic
+correction preserves it. A neutral tangential one-form control correctly
+has energy tending to zero. This supplies a scoped joint-end estimate,
+not physical-domain selection, global Fredholmness or the complete H1
+count. Source/test seal db6b5af3; nine new checks pass. Broad quiescent
+regression: 212 passed, 7 preserved original failures, 8 original fixture
+errors. Full outputs retained; no full-suite/main-bank/TOE green.
+Report: reports/physical_bridge_2026_09_05/CUSP_TAIL.md. No B allocation.
+
 ## 2026-09-07 — Charged domains and a certified partial-filling witness
 
 Path-local R16 derives the logarithmic charged line's normal trace

@@ -1,6 +1,6 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
-2026-09-07, after R16 and the named partial-filling verification.
+2026-09-07, updated after R17 and the named partial-filling verification.
 This ranks remaining duties of the constructions audited here. It is
 not a theorem that the repository, its other branches, or the object
 cannot supply them. All remote heads were fetched again; latest main
@@ -42,7 +42,9 @@ Source: [R4 action](VACUUM_MODEL.md), [R11](FAMILY_ACTION.md),
 **Asset:** the annular case is understood; the singular route is not
 killed by it. R15 gives a global prescribed background and full finite
 four/one cohomology. R16 derives the local amplitude-dependent trace
-criterion. Separately, the partial filling is certified geometrically
+criterion. R17 now supplies a uniform charged cusp-tail energy barrier
+for a fixed tangential Hilbert complex, including puncture concentration.
+Separately, the partial filling is certified geometrically
 chiral with two complete cusps.
 
 **Bottleneck:** geometric chirality, a relative Euler characteristic,
@@ -54,8 +56,9 @@ disappear, but no global kernel follows just from that.
 
 **Strategy:** keep the sourced m202 path as the immediate calculational
 priority. Derive its gauge/fibre lift and defect boundary condition,
-including a=q beta. Obtain a uniform complete-end estimate and
-Fredholmness; compute BOTH charged kernels with the physical Lorentz/
+including a=q beta. Use R17's scoped high-end estimate, establish
+finite-height singular compactness and global Fredholmness, then compare
+and compute BOTH charged kernels with the physical Lorentz/
 gauge assignment. Only then test whether the extra vector-like pair
 can become massive through the same action, with anomalies and
 interactions retained.
@@ -64,7 +67,8 @@ interactions retained.
 with correct physical chirality and identified gauge representations,
 not just net Euler three. A failure in one amplitude/domain class
 closes that class, not all singular or cusped backgrounds.
-Sources: [R15](GLOBAL_SINGULAR.md), [R16](CHARGED_DOMAIN.md).
+Sources: [R15](GLOBAL_SINGULAR.md), [R16](CHARGED_DOMAIN.md),
+[R17](CUSP_TAIL.md).
 
 ## 3. Gravity in the same four-dimensional dynamical theory
 
@@ -147,7 +151,9 @@ hidden by a green focused subset.
 ## Immediate order, preserving both live paths
 
 1. Finish the singular operator/domain and complete charged kernel
-   work using R15/R16; do not restart from another Euler argument.
+   work using R15--R17. The high-cusp bound is supplied in its fixed
+   realization; next prove the finite-height and global-cohomology join.
+   Do not restart from another Euler argument.
 2. On the certified partial filling, construct the actual boundary
    sector and its level/anomalies/partition function. Nonzero CS(M)
    alone neither fixes k nor identifies the desired c=6 theory.

@@ -1,5 +1,17 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL AUDIT (2026-09-07, path-local R17): charged cusp escape controlled.**
+The sourced deformed-form operator has a uniform growing high-cusp
+energy barrier, including approach to punctures, in a fixed tangential
+Hilbert-complex realization. The uncharged one-form control retains
+low-energy escape. Nine new checks pass; broad regression 212 passed,
+7 preserved original failures and 8 original fixture errors. The actual
+physical domain, finite-height singular compactness, global Fredholmness
+and complete charged H1 kernels remain required. The independent
+certified partial filling remains a live boundary-theory candidate.
+Source: reports/physical_bridge_2026_09_05/CUSP_TAIL.md. No B allocation,
+full-suite or main-banking certificate, source selection or TOE claim.
+
 **LATEST LOCAL AUDIT (2026-09-07): charged normal domains and certified partial filling.**
 The marked degree-five cover's cusp-0 (2,1) filling retains two complete
 cusps with interval-certified hyperbolicity and CS outside the quarter

@@ -131,8 +131,10 @@ Five regrouped controls plus four partial-filling checks and twenty
 R14/R15 tests give **29 passed** in the quiescent focused run.
 The original four failures remain visible, not skipped or rewritten.
 
-Next: derive the physical defect boundary law and gauge/fibre lift;
-prove a uniform estimate where the lines meet complete cusps; establish
+Next: derive the physical defect boundary law and gauge/fibre lift.
+The later [R17](CUSP_TAIL.md) supplies a uniform high-cusp estimate,
+including line approach, for a fixed tangential Hilbert complex;
+finite-height singular compactness and the global domain remain. Establish
 Fredholmness and compute both charged H1 kernels as tubes shrink/cusps
 extend; check the possible vector-like pair and its interactions.
 Source amplitudes, through-flux, parent theory and the physical spinor

@@ -1,6 +1,14 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [interval-certified partial filling](PARTIAL_FILLING.md),
+Latest: [R17's uniform charged cusp-tail estimate](CUSP_TAIL.md),
+sealed at db6b5af3. The declared fixed tangential complex has a growing
+high-cusp energy barrier, including approach to source punctures; the
+neutral one-form control does not. This supplies a joint-end estimate,
+not physical-domain selection, global Fredholmness or a complete H1
+count. Nine new checks pass; broad regression 212 passed, 7 preserved
+original failures and 8 original fixture errors. No B allocation.
+
+Preceding: [interval-certified partial filling](PARTIAL_FILLING.md),
 [R16 charged line domains](CHARGED_DOMAIN.md), and the owner's requested
 [physics bottleneck strategy](PHYSICS_BOTTLENECKS.md). The degree-five
 marked witness retains two complete cusps with CS excluding the quarter

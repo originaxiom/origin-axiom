@@ -1,6 +1,16 @@
-# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R16 and partial filling
+# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R17
 
-**Latest movement:** [R16](CHARGED_DOMAIN.md) derives the charged local
+**Newest movement:** [R17](CUSP_TAIL.md) proves a growing high-cusp
+charged energy barrier for the specified fixed tangential complex,
+uniformly toward the punctures. The smooth R15 corrector preserves it.
+This discharges that scoped joint-end estimate, not the global domain,
+Fredholm theorem or complete physical chiral spectrum. Nine new tests
+pass; broad regression 212 passed, 7 preserved original failures and
+8 original fixture errors. Next: finite-height singular compactness
+and the actual charged-cohomology comparison, with physical defect
+selection retained as a separate duty. The full goal remains active.
+
+**Preceding movement:** [R16](CHARGED_DOMAIN.md) derives the charged local
 line-domain threshold in the prescribed sourced theory; the complete
 normalizable H1 kernel is still not computed by that result. The named
 [partial filling](PARTIAL_FILLING.md) is now interval-certified with two

@@ -1,6 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [physics bottlenecks and strategy](PHYSICS_BOTTLENECKS.md).**
+**Latest: [R17's uniform charged cusp-tail bound](CUSP_TAIL.md).**
+The prescribed sourced operator now prevents bounded-energy charged
+escape to large height, uniformly toward punctures, within a fixed
+tangential Hilbert-complex realization. Neutral one-forms correctly
+retain an escape channel. Nine new checks pass; broad regression:
+212 passed, 7 preserved original failures and 8 original fixture errors.
+Physical domain selection and the complete H1 kernel remain required;
+no full-suite, main-bank or TOE claim follows. No B number is taken.
+
+**Strategy: [physics bottlenecks and strategy](PHYSICS_BOTTLENECKS.md).**
 [The named partial filling](PARTIAL_FILLING.md) is interval-certified
 hyperbolic with two complete cusps and CS outside the mirror-compatible
 classes. This is a genuine geometric candidate, not a derived level or
@@ -8,7 +17,7 @@ physical chiral spectrum. [R16](CHARGED_DOMAIN.md) continues the singular
 path: its charged normal trace criterion is computed, with the complete
 H1 kernel still owed. The new focused group is 29 passed; preserved
 original failures and full banking debts remain. No B number is taken.
-R15 was pushed at 571ef15c; the new rounds are local checkpoints so far.
+R15 was pushed at 571ef15c; subsequent checkpoints retain their own seals.
 
 **Preceding: [R15's global singular extension and full charged pair](GLOBAL_SINGULAR.md).**
 An analytic scalar-parametrix construction extends the prescribed end

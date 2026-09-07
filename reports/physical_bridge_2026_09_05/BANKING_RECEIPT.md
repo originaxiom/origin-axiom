@@ -83,3 +83,22 @@ progress log, campaign board, framework/ladder, scoped law rows and
 registered open duties are updated together. No global theorem or
 physical identification is promoted by a path-local passing test.
 Full banking and publication gates retain the already declared debt.
+
+## R17 update (2026-09-07), still path-local research
+
+CC's numbering reservation was reread from fetched main: no global B
+allocation and no alias collision. R17's literal provenance markers,
+design, source and tests were sealed at db6b5af3 before first execution.
+The exact operator and integrated tail estimate now have their full
+report and successful science/test receipts; the broader regression
+preserves the seven original failures and eight fixture errors alongside
+212 passes. No tree edits occurred during those runs.
+
+FINDINGS, goal verdict, strategy, failure record, all three reader
+ledgers, framework, ladder, scoped law rows and the PB-BOUNDARY next
+duty are updated. The high-cusp estimate is claimed only in its fixed
+tangential-complex realization, not as global Fredholmness, physical
+chirality or a complete TOE. No B verdict or global theorem registry
+promotion is manufactured for this path-local result. Full repository
+pytest green and independent receiving-seat acceptance remain unpaid.
+No source branch is merged and no PR or external message is sent.
