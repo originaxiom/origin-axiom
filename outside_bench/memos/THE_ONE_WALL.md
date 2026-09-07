@@ -66,19 +66,49 @@ Two banked facts that have never appeared in the same sentence:
 
 > ### Partially fill a multi-cusped cover: fill some cusps, leave others.
 
-**Searched across all of `origin/main` (frontier + docs): `"partial filling"` 0 · `"partially fill"`
-0 · `"partial Dehn"` 0 · `"multi-cusped cover"` 0.** And no arc citing `B1064` also cites `B432`.
+**[CORRECTED 2026-09-07 on re-verification — two of my statements here were wrong as worded.]**
+
+- **Not zero: ONE.** Repo-wide, across every branch, the term family
+  (`partial filling` / `partially fill` / `partial Dehn` / `multi-cusped cover` / `partially-filled`)
+  has **exactly one hit**: `frontier/B738_pathfinder_compiler/kill_graph.json`, reading
+  *"B172 **partially filled** them"* — **about matrix cells, not Dehn filling.** My first grep was
+  scoped to `frontier/*/FINDINGS.md` and `docs/*.md` and missed it. **The substance stands** (the
+  move is nowhere proposed, and nothing has killed it) **but "zero" was false.**
+- **`B1064` and `B432` DO co-occur** — in `CHANGELOG.md`, `PROGRESS_LOG.md`, `CAMPAIGN_STATUS.md`,
+  `VERDICT_LEDGER.md`, claim-base dumps, and in `docs/CHIRALITY_MAP_2026-09-06.md`, which cites
+  `B432` at line 81 and lists `B1064` in a bulk arc list at line 151. **Those are catalogues and
+  bibliographies, not arguments.** The accurate claim is the narrow one my original grep tested:
+  **no arc and no document joins them as a chain of reasoning.** I restated it too broadly.
 
 **Computed here (SnapPy, covers of m004 to degree 8, one cusp filled):**
 
 > **18 of 22 partial fillings keep ≥ 1 cusp AND have `CS ≠ 0`.**
+>
+> **[STRENGTHENED on re-verification — `certificates/partial_filling_strict.py`.]** The first run
+> accepted solutions containing **negatively oriented tetrahedra**, which are not verified geometric
+> solutions. **Re-run keeping only `all tetrahedra positively oriented`, and testing the right
+> predicate** — `B1227` gives amphichiral ⟹ `CS ∈ {0, ¼}` mod ½, so the contrapositive needs
+> `CS ∉ {0, ¼}`, not merely `CS ≠ 0`:
+>
+> **98–99 candidates survive, in 27 distinct (degree, cusps, slope) triples** — and **both controls
+> fire correctly**: `m004` itself **FAILS** (`CS = 1.35e-16`, distance `1.35e-16`) and an **unfilled**
+> degree-5 two-cusped cover **FAILS** (`CS = 3.94e-16`). The instrument says "not amphichiral" for
+> neither the object nor its covers, and does say it for the partial fillings.
+>
+> **The count is run-dependent (98 in the vendored run, 99 in the first), the 27 triples are not.**
+> SnapPy's cover enumeration and its numerical solutions are not deterministic across runs, so the
+> honest figure is a range and the stable quantity is the triple count. **Reported as a range rather
+> than quoting whichever number looked better.**
+>
+> **WITHDRAWN:** the `±1/24` value I highlighted came from a **negatively-oriented** solution and does
+> not survive the strict test. Replaced above with a positively-oriented row.
 
 | cover | cusps | fill | cusps left | CS |
 |---|---|---|---|---|
 | degree 5 | 3 | (2,1) | **2** | **+0.157590041** |
 | degree 6 | 2 | (2,1) | 1 | +0.194458446 |
 | degree 6 | 2 | (1,1) | 1 | +0.231670002 |
-| degree 7 | 3 | (1,0) | **2** | **±0.041666667 = ±1/24** |
+| degree 7 | 3 | (1,1) | **2** | **+0.166141655** |
 
 **⇒ The two things the σ bridge needs — a surviving cusp AND a quantized (`CS ≠ 0`) sector — are
 simultaneously satisfiable.** `B1064` typed its route **(a)** as *"restore a quantized boundary
@@ -148,4 +178,7 @@ joining them without a map.*
 - `B1064`'s O3 **stands**; this names a candidate for its route (a), it does not discharge it.
 - `B486`'s and `B990`'s kills stand. §6(a) is a **substrate** observation, not a revival of the
   refuted argument.
-- **Bench error #20 is filed above rather than quietly fixed.**
+- **Bench errors #20 and #21 are filed rather than quietly fixed.** **#21** (found by re-verifying at
+  the owner's request): I claimed *"zero occurrences"* where there is one, and *"no arc cites both"*
+  in a form broader than the grep I actually ran. **Both corrections are in §3, in place.** The
+  finding survives both; the wording did not.

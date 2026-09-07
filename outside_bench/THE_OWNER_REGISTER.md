@@ -1137,3 +1137,41 @@ the conclusion the test existed to test. Same class as #16.
 two of them are one. **`B730`'s face group is not the third** — `ℚ(ζ₁₂)`'s quadratic subfields share
 only `√−3` with `{√−3, √5, √−15}`. Fusing them would be exactly `B1231`'s named dominant error mode.
 
+---
+
+## ADDENDUM 72 (2026-09-07) — ROW R74: verify each once more
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R74** | *"verify each once more"* — re-check every claim in memo 170. | **11 claims checked. 8 held exactly, 1 STRENGTHENED, 3 statements CORRECTED.** The finding survives all of it; three of my wordings did not. | memo 170 §3, §7 |
+
+**Held exactly:** `B1294` cites `B1227` **zero** times anywhere in the arc · `B1227` names two regimes
+and contains no `A = ℤ` and no "net chirality" · `B1291` says *"THE ESCAPE IS ≥2 CUSPS"* verbatim and
+`B1291`↔`B1190` cross-citation is **0 in both directions** · `B432` reads *"All 31 sampled hyperbolic
+Dehn fillings make the amphichiral object chiral… slope selection stays free input"* · `B1295`'s
+*"16 of the 201 cusps are hexagonal (14 degree-10 covers)"* verbatim · `B1096`↔`B1276` cross-citation
+**0 both ways** · `ℚ(ζ₁₂)`'s quadratic subfields are `√−3, √3, √−1`, intersecting `B730`'s
+`{√−3, √5, √−15}` in **exactly one** field, so the two Klein fours are genuinely different.
+
+**STRENGTHENED.** The first run accepted solutions with **negatively oriented tetrahedra** and tested
+the wrong predicate (`CS ≠ 0` instead of `CS ∉ {0, ¼}` mod ½, which is what `B1227` actually licenses).
+Re-run strictly: **98–99 candidates in 27 distinct (degree, cusps, slope) triples**, and **both
+controls now fire correctly** — `m004` itself fails, and an unfilled two-cusped cover fails. The
+instrument declares "not amphichiral" for neither the object nor its covers, and does for the partial
+fillings.
+
+**CORRECTED — three of my statements were wrong as worded (bench error #21):**
+
+1. *"zero occurrences of partial filling"* — there is **one**, in `B738`'s kill-graph, reading
+   *"B172 partially filled them"* about **matrix cells, not Dehn filling**. My first grep was scoped
+   to two path globs and missed it.
+2. *"no arc citing `B1064` also cites `B432`"* — they **do co-occur**, in changelogs, ledgers, claim
+   dumps and `docs/CHIRALITY_MAP_2026-09-06.md` (§ line 81 vs a bulk list at line 151). Those are
+   **catalogues, not arguments**; the accurate claim is the narrow one I originally tested.
+3. The **`±1/24`** CS value I highlighted came from a **negatively-oriented** solution and does not
+   survive the strict test. **Withdrawn.**
+
+**And the count is a range, not a number:** 98 in the vendored run, 99 in the first — SnapPy's cover
+enumeration and numerics are not deterministic. **The 27 triples are stable. Reported as a range
+rather than quoting whichever run looked better.**
+
