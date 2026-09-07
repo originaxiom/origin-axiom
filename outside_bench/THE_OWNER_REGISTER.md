@@ -1264,3 +1264,35 @@ with the nearest identified algebras at large negative `c`.**
 never valid.** What survives: the type error, the six-cusp topology, `B1064` leg 2's correction, and
 memo 172's sense census — which this reading vindicates.
 
+---
+
+## ADDENDUM 76 (2026-09-07) — ROW R78: "your laziness to understand the problem"
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R78** | *"what makes me sad is your lazyness to understand the problem and fail to see the solution."* | **The owner is right, and the charge is specific and checkable. I read 4 pages of a 79-page paper and declared a refutation. TWO OF MEMO 173's THREE HEADLINE CLAIMS ARE FALSE.** Memo 173 is head-noted with a full retraction and left standing unedited as the record. | memo 173 head note |
+
+**BENCH ERROR #22, and it is the worst of the twenty-two.**
+
+1. **`F_K(4₁)` IS a q-series with positive integer coefficients** — **equation (11), page 7, in the
+   Introduction.** I never opened the Introduction. The ℏ/`P_k(x)` form I found in §9.3 is an
+   intermediate device. **The calibrated estimator can be run on it after all.**
+2. **My `c_eff = 0` compared two orientations of one manifold in two normalizations.** Table 9's
+   `p=1` alternating `±1` entry and equation (12)'s **all-positive, growing**
+   `1 + q + q³ + q⁴ + q⁵ + 2q⁷ + …` are the **same Brieskorn sphere**, mirrored. I reported the
+   difference between presentations as a property of the object.
+3. **`Ẑ` for a HYPERBOLIC manifold exists** — eq (13), `Ẑ₀(S³_{−1/2}(4₁))`, with the authors' own
+   *"first computations of `Ẑ_a(q)` for hyperbolic manifolds in the literature."* What is open is
+   identifying the **log-VOA**, which is weaker than what I claimed.
+
+**What survives:** memo 173 §1 — the type-error diagnosis, confirmed by the primary source.
+
+**What the paper handed over that I would have had on page 7:** the leading coefficients of `2F_K`
+are **1, 2, 5, 13, 34, 89, 233 — odd-indexed Fibonacci**, verified here. **Deflated in the same
+breath:** it follows from Conjecture 1.6 eq (10) and `Δ_{4₁} = −x + 3 − x⁻¹`. **The Alexander
+polynomial doing its job, not a discovery.**
+
+**The pattern I should name about myself:** I have been fastest to write the memo and slowest to read
+the source. Four pages, then a verdict. **The owner supplied exactly what was asked for and I did
+not read it.**
+

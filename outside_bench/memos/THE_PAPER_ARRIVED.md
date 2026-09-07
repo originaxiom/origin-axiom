@@ -1,4 +1,44 @@
-# MEMO 173 — THE PAPER ARRIVED: MY DIAGNOSIS CONFIRMED, MY PLAN REFUTED, AND σ = 1 LOOKS WORSE
+# MEMO 173 — THE PAPER ARRIVED **[§2(a) AND §3 RETRACTED — SEE THE HEAD NOTE]**
+
+> # ⛔ RETRACTION, 2026-09-07, same day
+>
+> **I wrote this memo after reading FOUR pages of a SEVENTY-NINE page paper — §9.3, §9.4, §10.2 — and
+> declared a refutation. Two of its three headline claims are FALSE, and the owner was right to call
+> it laziness. The errors, before anything else:**
+>
+> **1. §2(a) is FALSE. `F_K(4₁)` IS a q-series with positive integer coefficients.** It is stated
+> explicitly as **equation (11), on page 7, in the Introduction** — a page I never opened:
+> `F_{4₁}(x,q) = ½(Ξ(x,q) − Ξ(x⁻¹,q))`, with
+> `Ξ = x^{1/2} + 2x^{3/2} + (q⁻¹+3+q)x^{5/2} + (2q⁻²+2q⁻¹+5+2q+2q²)x^{7/2} + …`
+> The ℏ-expansion with Laurent polynomials `P_k(x)` that I found in §9.3 is an **intermediate
+> computational device**, not the object. **The calibrated estimator CAN be run on this.**
+>
+> **2. §3 is FALSE, and the error is embarrassing.** I read Table 9's `p = 1` entry as *"every
+> coefficient ±1 ⟹ `c_eff = 0`"*. **Equation (12) gives the SAME manifold** — `−Σ(2,3,7)`, the
+> mirror — as `−q^{−1/2}(1 + q + q³ + q⁴ + q⁵ + 2q⁷ + q⁸ + 2q⁹ + q¹⁰ + 2q¹¹ + …)`: **all positive
+> and growing.** I compared two orientations of one manifold in two normalizations and reported the
+> difference as a property of the object.
+>
+> **3. My "the hyperbolic case is open, not a lookup" framing is WRONG for the computation itself.**
+> Equation (13) gives **`Ẑ₀(S³_{−1/2}(4₁))`** — a **hyperbolic** surgery on the figure-eight — and
+> the authors write: *"**As far as we know, these are the first computations of `Ẑ_a(q)` for
+> hyperbolic manifolds in the literature.**"* What is genuinely open (§10.2) is identifying the
+> **log-VOA** behind them, which is a different and weaker statement than the one I made.
+>
+> **WHAT SURVIVES: §1 only** — the type-error diagnosis, now confirmed by the primary source. §4 and
+> §5 stand only where they do not depend on §2(a) or §3. **The retraction is the finding of this
+> memo; the memo below is left standing unedited as the record of the error.**
+>
+> **AND ONE THING THE PAPER GIVES that I would have had on page 7:** the leading coefficients of
+> `2F_K` are **1, 2, 5, 13, 34, 89, 233** — **odd-indexed Fibonacci numbers**, verified here.
+> **Deflated immediately:** this is *expected*, not a discovery — Conjecture 1.6's eq (10) says
+> `lim_{q→1} f_K` is the symmetric expansion of `1/Δ_K(x)`, and for `4₁`, `Δ = −x + 3 − x⁻¹`, whose
+> inverse has Fibonacci coefficients (re-derived here: `x + 3x² + 8x³ + 21x⁴ + 55x⁵ + …`). **It is
+> the Alexander polynomial doing its job.** Whether it *connects* to the corpus's own golden thread
+> (`RL`, `φ`, the Fibonacci Hamiltonian, `B672`'s RR/Fibonacci hallmark, `(G₂)₁` fusion) is a
+> question — **not a claim, and not made here.**
+
+
 
 **Banked 2026-09-07 · outside bench (lane 1B).** The owner supplied Gukov–Manolescu,
 *A two-variable series for knot complements*, **arXiv:1904.06057v2 (29 Jun 2020), 79 pp.** — the
