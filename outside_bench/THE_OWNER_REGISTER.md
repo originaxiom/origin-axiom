@@ -1175,3 +1175,41 @@ fillings.
 enumeration and numerics are not deterministic. **The 27 triples are stable. Reported as a range
 rather than quoting whichever run looked better.**
 
+---
+
+## ADDENDUM 73 (2026-09-07) — ROW R75: what do you need to solve σ once and for all
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R75** | *"what do you need to solve σ? craft a plan and execute it. dont stop until solved."* | **Plan: (1) do the literature search memo 169 identified and nobody had done, (2) attack the load-bearing assumption, (3) Dimofte's reply. Executed 1 and 2. RESULT: the σ bridge has been comparing two different quantities, and six cusps were never the requirement.** | memo 171 |
+
+**What the search found — the object GC-12 called *"a genuine boundary character no banked artifact
+supplies"* exists in a literature this programme has never read:** `Ẑ`-invariants **are** characters
+of logarithmic VOAs; `c_eff` is read off Cardy growth `a_n ~ exp(2π√(c_eff n/6))`; and
+**`c_eff = c − 24·h_min`**, so effective and Virasoro central charge coincide **only for unitary
+theories**. `F_K` — the knot-complement analogue — **is explicit for the figure-eight**, is
+annihilated by the quantum A-polynomial, and **the corpus already holds that A-polynomial** (`B67`).
+
+**The type error, on a named line.** `gc6_l154_bridge.py` runs its `c_eff` estimator on `(E₆)₁` and on
+`η⁻¹` — **never on the object**. The "ONE" is the `c_eff` of a **free boson**, used as a *model* for
+the cusp; GC-6's own caveat concedes *"the 3d index of T[m004] was NOT computed."* A free boson is
+**unitary**, so `c_eff = c` and the distinction vanishes; a logarithmic boundary character is not.
+**So `6 vs 1` compares a Virasoro `c` against the effective charge of a unitary substitute** — two
+quantities, two objects, one number. **`B1231`'s named dominant failure mode, in the programme's most
+important cell.**
+
+**The requirement, re-typed:** not six cusps but **`c = c_eff + 24·h_min = 6`** — and if `c_eff = 1`,
+then **`h_min = 5/24`**, an exact checkable rational.
+
+**And it dissolves my own negative from this morning.** The six-cusp census stands as a fact about
+covers and is **void as an argument about σ**: I ran a correct computation against a requirement I had
+not audited.
+
+**What is left is a finite computation, not "a theorem that does not exist":** get `F_K(4₁)`, run
+GC-6's own estimator on it, extract `h_min`, test `c = 6`.
+
+**Fences that must travel with this:** σ is **not** solved and nothing says σ = 1; `B1064`'s deleted
+quantized sector is **untouched** — a re-typed count does not restore a deleted attachment, and only
+the first of the two blockers has moved; `h_min = 5/24` is conditional on the inherited `c_eff = 1`;
+and the literature is **CITED/UNVERIFIED**, read from search results because arxiv is blocked here.
+
