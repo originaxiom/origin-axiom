@@ -118,3 +118,72 @@ The corpus's own words for L154 were *"a theorem that does not exist."* **It is 
 - The literature above is **read from search results, not from the papers themselves** — arxiv.org is
   blocked from this machine. **Grade: CITED/UNVERIFIED**, and the relations should be checked against
   primary sources before anything is built on them.
+
+---
+
+## ADDENDUM (2026-09-07) — RUN TO THE END OF WHAT IS POSSIBLE HERE
+
+Owner: *"continue to end."* Three things were still doable without the blocked papers. All three ran.
+
+### A. The `c_eff` estimator is CALIBRATED — `certificates/c_eff_calibration.py`
+
+GC-6's own estimator, `c_eff(n) = 6n(log a_{n+1} − log a_n)²/π²`, copied verbatim and tested against
+values known independently:
+
+| series | computed | independently known |
+|---|---|---|
+| `η⁻¹` (free boson) | **0.975** | `c = c_eff = 1` |
+| Rogers–Ramanujan `G` (Lee–Yang `M(2,5)`) | **0.388** | `c_eff = 2/5 = 0.4` |
+
+Both converge from below with the `O(n^{-1/2})` bias GC-6 stated. **The instrument works.**
+
+### B. §2's TYPE ERROR IS NO LONGER "CITED/UNVERIFIED" — it is demonstrated on this bench
+
+The Lee–Yang row is not a second sanity check. It is the finding, computed:
+
+> **Lee–Yang `M(2,5)` has Virasoro `c = −22/5` and effective `c_eff = +2/5`.** Same theory. The two
+> numbers differ in **sign and magnitude**, exactly by `24·h_min` with `h_min = −1/5`. **My run returns
+> 0.388 for it.**
+
+So `c_eff ≠ c` for a non-unitary theory is now **established here, from a series, on a case whose
+values are textbook** — not read from a search snippet. **GC-6's substitute (`η⁻¹`) is unitary, where
+the two coincide and the distinction is invisible.** §2's charge stands on this bench's own arithmetic.
+
+### C. The corpus's one banked object-side series is quantified, and it is dead
+
+`B672`'s doublet = Lee–Yang character × `η¹⁰`. **Of its first 400 coefficients: 197 positive, 203
+NEGATIVE, 0 zero.** The Cardy estimator is **undefined** on it. Formally its effective charge would be
+`2/5 + 10·(−1) = −48/5`, i.e. **no growth at all.** This **confirms `B1191`/GC-12's *"fails the
+kind-map's non-negativity"* and replaces the phrase with a number.** It cannot be the boundary
+character.
+
+### D. WHY I CANNOT BUILD `F_K(4₁)` MYSELF — verified symbolically, not guessed
+
+I tried. Habiro's cyclotomic expansion for `4₁` is `J_N = Σ_k ∏_{j=1}^{k}(x + x⁻¹ − q^j − q^{−j})`
+with `x = q^N`, and I verified exactly (sympy, `k = 1…4`):
+
+> `∏_{j=1}^{k}(x + x⁻¹ − q^j − q^{−j}) = (−1)^k · q^{−k(k+1)/2} · ∏_{j=1}^{k}(1 − xq^j)(1 − x⁻¹q^j)`
+
+**The `k`-th term carries `q^{−k(k+1)/2}` — negative powers growing quadratically.** So the naive
+Habiro sum is **not a power series in `q`**, and `F_K` for a hyperbolic knot is not defined without a
+**branch / resummation choice**.
+
+**That choice is precisely the content of the papers this machine cannot reach** (*Branches, quivers,
+and ideals for knot complements*, and Gukov–Manolescu's explicit `4₁` series). **This is a real
+mathematical obstruction, not an access inconvenience dressed up as one** — with the papers it is a
+lookup; without them it is an open construction I will not fake.
+
+### THE STOPPING POINT, STATED EXACTLY
+
+**Everything upstream of `F_K(4₁)` is now done and self-verified on this bench.** The estimator is
+calibrated, the type error is demonstrated rather than cited, the one banked candidate series is
+excluded with a count, and the reason the remaining step cannot be taken here is proved symbolically.
+
+**One input finishes it:** the explicit `F_K(4₁)` coefficients. Feed them to
+`certificates/c_eff_calibration.py`'s estimator, read `c_eff`, add `24·h_min` from the leading
+exponent, and compare to **6**. That is a single afternoon once the series is in hand.
+
+**And the second blocker is still untouched.** `B1064`'s deleted quantized sector is not addressed by
+anything above. **Even a perfect `c = 6` would leave it standing.** Two blockers; one moved, one
+measured-around, neither crossed.
+
