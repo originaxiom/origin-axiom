@@ -168,6 +168,44 @@ joining them without a map.*
 
 ---
 
+## 6b. REPRODUCTION — and why my counts are not reproducible quantities
+
+`certificates/partial_filling_repro.py` (output vendored) regenerates the table with **canonical
+`triangulation_isosig()` identifiers** and **no `break`**. Two defects in the first pass are fixed:
+
+- `partial_filling_joint.py` line 37 **breaks after the first working slope per cover**, so its
+  **"22" counted (cover, first-working-slope) pairs, not a census.**
+- SnapPy cover names (`m004~irr~3`) are **enumeration-order dependent** and do not survive a re-run.
+
+**Three runs, three counts — 18/22, then 98–99 in 27 triples, now 225/255 over 19 covers — because
+each used a different search grid.** None is "the" number. **The counts are properties of my loop,
+not of the mathematics.** The reproducible content is the identifiers below.
+
+**Cleanest positively-oriented witness:**
+
+| field | value |
+|---|---|
+| cover | degree 5, 3 cusps, isosig `kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb` |
+| fill | cusp 0, slope (2,1) → **2 cusps left** |
+| CS | **+0.157590041**, distance **0.092410** from `{0, ¼}` |
+
+**The withdrawn ±1/24 case, located exactly so it can be checked and rejected:**
+
+| field | value |
+|---|---|
+| cover | degree 7, 3 cusps, isosig `oLLLLvPQQPcceefmllkkmkjnnniiimiauxaxliiua_…` (four Schreier variants) |
+| cover homology / volume | `ℤ+ℤ+ℤ` / `14.209182490` |
+| fill | cusp 0 or 1, slope (1,0) → 2 cusps left, filled volume `5.333489567` |
+| CS | `±0.041666667` |
+| solution type | **`contains negatively oriented tetrahedra`** ⟹ **REJECTED** |
+
+**A caveat that applies to every number in this memo and that I did not state before:** these are
+SnapPy's **unverified numerical** Chern–Simons values. I did **not** use `snappy.verify` or interval
+arithmetic. For a claim of this weight that is the right standard and it has not been met — so treat
+every CS here as *strong numerical evidence*, not as a certified value.
+
+---
+
 ## 7. FENCES
 
 - **Nothing here crosses anything.** §1 is a consolidation of a banked theorem; §3 is an existence
