@@ -187,3 +187,60 @@ exponent, and compare to **6**. That is a single afternoon once the series is in
 anything above. **Even a perfect `c = 6` would leave it standing.** Two blockers; one moved, one
 measured-around, neither crossed.
 
+---
+
+## ADDENDUM 2 (2026-09-07) — THE SECOND BLOCKER IS NOT ONE BLOCKER, AND I WAS TOO CONSERVATIVE
+
+I said four times that `B1064`'s obstruction was **untouched**. Having read its two legs against the
+literature, **that was over-cautious in one leg and correct in the other.** Correcting myself in the
+direction that costs me a fence I had been hiding behind.
+
+### Leg 2 is an INVENTORY CLAIM, not a theorem — its own words say so
+
+> *"the unquantized sector carries **NO BANKED** chiral algebra to decompose"* …
+> *"**no arc supplies** a rational point of it"* … and the missing piece is
+> *"a structure **no banked arc supplies** and this cell does not invent."*
+
+**Every one of those quantifies over the corpus, not over mathematics.** That is a *"we don't have
+X"* claim — and this bench's own standing rule (memo 153) is that such a claim does not stand until
+the outside has been exhausted. **It never was.**
+
+**And `B715`'s own characterization points straight at what supplies it.** `B1064` cites `B715` for:
+*"the σ-sector boundary theory of a complex, no-real-form CS is **non-compact/continuous**."*
+**Non-compact and continuous is exactly the regime where logarithmic CFT and non-semisimple TQFT are
+the standard framework** — and `Ẑ`-invariants are the characters of precisely those algebras. **The
+structure `B1064` says no banked arc supplies is textbook in a literature the corpus has never
+opened.**
+
+### Leg 1 survives, but with less force than it has been carrying
+
+`CS = 0 ⟹ ∂S/∂k ≡ 0` is `B1012`'s exact identity and **stands untouched.** What it blocks is
+**`(E₆)₁` attaching as a rational, integer-level theory.** But the σ condition does **not** require
+`(E₆)₁` to attach. It requires the boundary character's central charge to **equal 6**. A log-VOA
+living in the unquantized sector could carry `c = 6` **without being `(E₆)₁`** — and leg 1 says
+nothing about that. **Stated as my inference, with the reasoning visible; leg 1 is not refuted, its
+scope is narrowed.**
+
+### THE METHODOLOGICAL FINDING, which may outlast the physics
+
+I checked whether the corpus knew this literature by term census. It returned **`logarithmic` in 23
+files, `non-semisimple` in 22, `non-rational` in 31** — which reads like coverage. **It is not.**
+Reading the contexts:
+
+- `logarithmic` = *"entanglement entropy is logarithmic"*, *"regulator ~ 0.91 log m"*, *"the
+  logarithmic Gauss map"* — **logarithms of numbers.**
+- `non-semisimple` = *"non-semisimple (Jordan) gives no irreducible reps"* — **Lie-algebra
+  representation theory.**
+
+> **The vocabulary collides. A term census returns FALSE COMFORT exactly when the words are already
+> in use with a different meaning** — and the more mature the corpus, the more likely that is.
+> **memo 153's `already_banked` rule has this blind spot**, and it is the reason a gap this large sat
+> unnoticed: every check for it came back looking answered.
+
+### CORRECTED STANDING
+
+Not *"one blocker moved, one untouched."* **The honest statement: the count was mis-typed (§2), leg 2
+of the attachment blocker is an unexhausted inventory claim, and leg 1 survives with narrowed scope.
+All three turn on the same unread literature.** σ is still **not solved** — but it is no longer
+blocked by two independent walls, and I should not have said it was.
+
