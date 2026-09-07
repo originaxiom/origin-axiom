@@ -1,0 +1,21 @@
+prose scanned: 2417 files, 17.0 MB   (outside_bench EXCLUDED)
+
+==============================================================================
+term             occurrences   technical sense   verdict
+==============================================================================
+logarithmic                8         0 (  0.0%)   FALSE COMFORT   [expected FALSE-COMFORT]
+non-semisimple            18         0 (  0.0%)   FALSE COMFORT   [expected FALSE-COMFORT]
+character               3474        12 (  0.3%)   FALSE COMFORT
+modular                  898        54 (  6.0%)   thin
+non-rational               7         0 (  0.0%)   FALSE COMFORT
+resurgence                71        12 ( 16.9%)   genuine
+Chern-Simons              73        34 ( 46.6%)   genuine   [expected GENUINE]
+
+CONTROL +  (Chern-Simons): PASSES
+CONTROL -  (logarithmic, non-semisimple): PASSES
+TWO-SIDED CONTROL: PASSED -- instrument usable
+
+FALSE COMFORT (word present, concept never met): ['logarithmic', 'non-semisimple', 'character', 'non-rational']
+THIN (<10% technical -- worth a human look): ['modular']
+
+A flag means a "we don't have X" check on that term would have returned false comfort.

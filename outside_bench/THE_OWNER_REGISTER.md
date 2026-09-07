@@ -1213,3 +1213,26 @@ quantized sector is **untouched** — a re-typed count does not restore a delete
 the first of the two blockers has moved; `h_min = 5/24` is conditional on the inherited `c_eff = 1`;
 and the literature is **CITED/UNVERIFIED**, read from search results because arxiv is blocked here.
 
+---
+
+## ADDENDUM 74 (2026-09-07) — ROW R76: continue
+
+| row | task | answer | where |
+|---|---|---|---|
+| **R76** | *"continue"* — after the σ type error and the B1064 leg-2 correction. | **Built the instrument for the defect I had just found, and its control passed — the first adopted instrument this bench has produced.** It then found the collision at a scale I had not suspected: **`character` appears 3474 times in the corpus and means the VOA sense in 12 of them (0.3%).** | memo 172 |
+
+**The sweep:** `character` 3474/12 · `modular` 898/54 (thin) · `non-semisimple` 18/0 · `logarithmic`
+8/0 · `non-rational` 7/0 · `resurgence` 71/12 (genuine) · **control** `Chern-Simons` 73/34 (genuine).
+**Two-sided control PASSED.**
+
+**The sharpest thing in it:** `B1191`/GC-12 typed the missing piece as *"a genuine boundary
+**character** no banked artifact supplies"* — **using the word in the sense the corpus does not
+have, inside the very sentence that names the gap.** All four concepts the σ bridge needs
+(logarithmic CFT, non-semisimple TQFT, VOA character, non-rational CFT) are **present as words and
+absent as concepts.**
+
+**What it does to memo 153:** the `already_banked` rule is **necessary and not sufficient.** It
+answers *"is the word there?"* when the question is *"is the concept there?"* This instrument answers
+the second and should run beside it whenever the claim concerns a technical notion. **Offered, not
+pressed.**
+
