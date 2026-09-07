@@ -94,3 +94,57 @@ as a result.**
 - `1/7` is a **fit to a bias model**, 0.3% from the rational. Suggestive, not proved.
 - `c_eff` from growth and `c` from the prefactor are **not shown to be the same object's data**; §3
   is the honest reason.
+
+---
+
+## ADDENDUM (2026-09-07) — THE PREFACTOR TABLE: one tempting coincidence, and one actual law
+
+Extracted `Δ`, the overall `q`-power, from **every** `Ẑ` the paper computes for `4₁` surgeries, and
+formed `−24Δ` (what `c` would be if `Ẑ₀` were a vacuum character, `h = 0`):
+
+| surgery | manifold | `Δ` | `−24Δ` |
+|---|---|---|---|
+| `p = +1` | `Σ(2,3,7)` | `+1/2` | **−12** |
+| `p = −1` | `−Σ(2,3,7)` (**mirror**) | `−1/2` | **+12** |
+| `p = −1/2` | `S³_{−1/2}(4₁)` — **hyperbolic** | `−1/2` | **+12** |
+| `p = +2` | `M(−1;½,¼,⅕)` | `+1/4` | −6 |
+| `p = +2` | second Spin^c | `+7/4` | −42 |
+| `p = +3` | `M(−1;⅓,⅓,¼)` | `0` | 0 |
+| `p = +3` | second Spin^c | `+5/3` | −40 |
+
+### The coincidence I am NOT building on
+
+The two `−1`-type surgeries both give `−24Δ = 12`, and Brown–Henneaux with `G = 1/(4σ)`, `ℓ = 1`
+gives `c_L = c_R = 6σ`, hence **total `12σ`** — so `12 = 12σ` would read `σ = 1`.
+
+**That is two rows out of seven.** The others give `−6, −42, 0, −40`. **There is no universal 12**,
+the vacuum assumption (`h = 0`) is unjustified — the `p = 2` and `p = 3` manifolds each have **two**
+Spin^c structures with **different `Δ`**, so at most one per manifold could be a vacuum character —
+and reading `σ = 1` off the two rows that fit is precisely the selection this bench exists to catch.
+**Recorded and discarded.**
+
+### The law, which is robust and runs the other way
+
+> **`Δ` is ORIENTATION-ODD.** `Σ(2,3,7)` gives `Δ = +1/2`; its mirror `−Σ(2,3,7)` gives `Δ = −1/2`.
+> Same manifold, opposite orientation, `Δ ↦ −Δ`.
+
+**That is `B1227`'s theorem appearing in the paper's own data** — an orientation-odd invariant, which
+for an amphichiral manifold must satisfy `2Δ = 0`.
+
+> ### **`m004` is amphichiral. So if its own boundary datum carries a `Δ`, amphichirality forces `Δ = 0`, hence `c = 0` under this reading — not 6.**
+
+This is now the **third independent route** to the same wall, all from `B1227` in different value
+groups: `CS = 0` (memo 170), net chirality `= 0` (`B1294`), and now the `Ẑ` prefactor `= 0`. **The
+paper's data joins the pattern rather than breaking it.**
+
+### Where the measurement stands
+
+| reading | value |
+|---|---|
+| target `c((E₆)₁)` | **6** |
+| mock-theta growth (§2, measured) | **1/7** |
+| false-theta mirror | **0** |
+| prefactor, amphichiral case (this addendum) | **0** |
+| prefactor, the two `−1` surgeries | 12 *(not general)* |
+
+**Nothing here reaches 6, and the one route that would has been discarded as selection.**
