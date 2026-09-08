@@ -14629,3 +14629,15 @@ level ≤ 13 (two primes ≈ 10⁹). The converse (both orders even ⇒ no class
 product ≠ I — the twisted Fibonacci recursion p_j = p_{j−1} + ζ^{u^j}p_{j−2} not returning to 0. Registry row
 T-TOWER-LAW-POSITIVE-HALF; LAW_MAP row for B1304. The three presentations agree on every character at n ≤ 9 with two large
 primes (a one-small-prime run had over-counted Y₇ and Y₉ — the two-prime rule is not optional). No value changes; 0 of 19.
+
+### Harvest from main @ e324df06 (2026-09-09): two more collisions, B1259 scoped (E70), the quantum face's chirality half
+
+Main banked B1303 (the_sm_closings_z_prime), B1304 (the_audit_seats_4d_model) and B1305 (the_cloud_156_178, slices A/B): this
+branch's B1303 and B1304 are sB1303, sB1304 (alias table, letter). Main's B1304 verified the audit seat's claim against B1259 and minted
+E70 (the quantifier-interchange class): B1259's lemma holds element by element — no element of a flat G₂ orbifold group has an isolated
+fixed point — but (ℤ/2)³ on ℝ⁷ has the origin as an isolated maximal-isotropy stratum although no element isolates, so "the flat class
+cannot isolate" does not follow; an isolated enhancement stratum in a flat orbifold is reopened as a question (no chiral matter derived
+by it). This branch cited B1259's headline in THE_ASSEMBLY (§0, §3, §7) and THE_DESTINATION_LEDGER (§4c, item 1): all five places now
+carry the scope. Main's B1305 slice B closed the quantum face's chirality half of FRESH_EYES Q1: the colored-Jones ends' ratio is a
+mirror-odd invariant and 2-torsion on the amphichiral knot (R(4₁) = 1) — the same amphichiral pairing that kills the chirality bit on
+the flat and arithmetic faces (B1280, B1350) — consistent with, and independent of, this branch's frame. No verdict changes here.

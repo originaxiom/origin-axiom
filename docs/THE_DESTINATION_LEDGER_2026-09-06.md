@@ -101,7 +101,7 @@ signs, so on the whole deformation germ 27̄_ρ ≅ ι\*(27_ρ) and N(27_ρ) = 0
 cover (L200 closed); the geometric embedding is the unique even sl₂ orbit where this holds, the subregular I-25 point
 keeping one unpaired θ-odd direction (the V₁₀ of the 42, L207). Likewise B71's non-self-dual SL(3) components are vector-like on every cover (their cusp-fixed curve
 is the branch locus of the trace coordinates, where V ≅ τ\*V\*). With B1260 (every closed closing), B1279 (the mirror
-quotient) and B1259 (the flat G₂ class), the bit can now come only from the singular G₂ closing of item 1 or from the
+quotient) and B1259 (the flat G₂ class — scoped 2026-09-09 by main's B1304/E70: the element lemma stands, the stratum no-go does not follow), the bit can now come only from the singular G₂ closing of item 1 or from the
 observer (B713/B760/B871). `docs/CHIRALITY_MAP_2026-09-06.md` is the full account.
 
 ## 4d. The seats, verified (B1281, 2026-09-07)
@@ -190,7 +190,7 @@ generations, the numbers.
 
 ## 5. What is expected, in order
 
-1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the
+1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out an isolated fixed point of any element in the flat class; whether an isolated enhancement STRATUM exists there is reopened by main's B1304/E70 (2026-09-09) — the flat class is a question again; B1273–B1274 have the
    3-fold branched cover as the 3-manifold Q it must contain). Without it, D3 has no carrier and no mass is right.
 2. **The tree-level vacuum manifold** of the E₈ theory on Y₃ — the D-flat and F-flat directions of the one-coupling
    superpotential (B1276) — computable now; it is the space on which W_np acts (D2's space). **DONE (B1277):** nine

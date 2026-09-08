@@ -56,7 +56,7 @@ EXHIBITS-NOT-FORCES in B1140; B1270 derives that E₈ from the golden face, and 
 transport's choice of face — an H5 instance.) What remains to be *built* is a single named geometric object, not a missing
 ingredient: **a conical G₂
 geometry whose E₆ locus carries three isolated E₇ points permuted by ℤ/3 = 2T/Q₈** — B1084's three A₁ families,
-which every flat orbifold spreads into lines (B1259). That, the VEV values of the 27's two singlets for
+which every flat orbifold spreads into lines (B1259 — an element theorem; its stratum reading was scoped by main's B1304/E70 on 2026-09-09, see §7). That, the VEV values of the 27's two singlets for
 rank 6 → 4, a **diagonal** source for the masses (the object's own closing has the three classes and a Yukawa,
 B1273, and its tree-level texture is refuted by an inequality), and the listener map I-13 for any value, are the
 whole remaining price (§7) — with the two mechanisms that could pay it named in `docs/THE_VIEW_FROM_ABOVE_2026-09-06.md`.
@@ -131,7 +131,7 @@ could live on the cusped object — only where the cusp holonomy keeps fixed vec
 number of them. **Three is unreachable near the geometric point; zero is what every reachable point returns.**
 
 **q2 — does resolving B1084's enhancement lines restore Acharya–Witten isolation?** Not in any flat orbifold
-(B1259, theorem). The three A₁ families are the three imaginary quaternion units of Q₈ ⊂ 2T, permuted by the
+(B1259, a theorem about elements: no element of a flat G₂ orbifold group has an isolated fixed point; main's B1304 (E70, 2026-09-09) showed the quantifiers do not interchange — an isolated maximal-isotropy STRATUM is not excluded, so the no-go for the whole flat class is reopened as a question). The three A₁ families are the three imaginary quaternion units of Q₈ ⊂ 2T, permuted by the
 ℤ/3 = 2T/Q₈; a *conical* deformation isolating them would place **three** E₇ points on the E₆ locus permuted
 by the object's own arithmetic — the only place in the corpus where a three of the right *kind* (three 27s,
 same sign by the ℤ/3 symmetry) can arise (B1269 §5). It is a named object, not a computation on this bench.
@@ -220,7 +220,7 @@ the principal sl₂, σ (F₄-type) — and B1138's "two of three" is a statemen
 
 1. **The three E₇ points.** A conical G₂ geometry whose E₆ locus (the associative 3-manifold carrying C²/2T)
    contains three isolated E₇-enhancement points permuted by ℤ/3 = 2T/Q₈. B1084 has the flat model with the
-   three families as lines; B1259 proves the flat class cannot isolate; the cone over a 6-manifold with this
+   three families as lines; B1259 proves no element isolates (main's B1304/E70 scoped its headline: an isolated enhancement stratum in a flat orbifold is not excluded, so the flat class is a question again, not a closed door); the cone over a 6-manifold with this
    symmetry is the object to construct or to prove impossible. Until then the generation count has no
    carrier in the programme, and no h¹ will substitute (§3).
 2. **A compact holonomy or a non-adjoint Higgs source.** The SM algebra is not a centralizer in e₆ (B1269 §3);

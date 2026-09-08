@@ -221,6 +221,16 @@ if "4" in STAGES:
         invs = {1: A0i * (-(Ya * ce)).exp(), 2: B0i * (-(Yb * ce)).exp()}
         print(f"  -- {name}: |Y| = {znorm:.3e}, step {STEP}/|Y|, start residual {H.frob(H.ev(mats, invs, S.REL, n) - H.eye(n)).str(3)}")
         mats, invs, _, nr = H.newton(mats, invs, iters=ITERS, mu=MU, verbose=True)
+        # dump the converged point (600-bit midpoints as decimal strings) so the cohomology can be re-read at any precision
+        import json
+        dump_path = os.path.join(HERE, "v10_direction_points.json")
+        try:
+            pts = json.load(open(dump_path))
+        except (FileNotFoundError, ValueError):
+            pts = {}
+        pts[name] = {str(g): [[[H.arb(mats[g][i, j].real.mid()).str(200, radius=False), H.arb(mats[g][i, j].imag.mid()).str(200, radius=False)] for j in range(n)] for i in range(n)] for g in (1, 2)}
+        pts[name]["residual"] = f"{nr:.1e}"
+        json.dump(pts, open(dump_path, "w"))
         tt = H.selfduality_trace_test(mats, invs, n)
         print(f"     converged residual {nr:.1e}; self-duality defects {[x.str(3) for x in tt]} -> {'NOT self-dual' if max(float(x.mid()) for x in tt) > 1e-20 else 'self-dual'}")
         rep = H.cohomology_report(mats, invs, n, f"27 along {name}")

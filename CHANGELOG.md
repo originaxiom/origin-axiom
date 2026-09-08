@@ -1,5 +1,11 @@
 # Changelog
 
+## Harvest from main e324df06 — B1259 scoped (E70), collisions sB1303/sB1304 recorded
+
+B1259's isolation theorem is an element lemma; main's B1304 showed the stratum no-go does not follow (E70). THE_ASSEMBLY and
+THE_DESTINATION_LEDGER now carry the scope wherever they said "the flat class cannot isolate". Main's B1303/B1304 collide with this
+branch's; cite sB1303, sB1304.
+
 ## The tower's law — the positive half proved (B1304 addendum); B1303's presentation proved
 
 A half-deck eigencharacter carries a class whenever u or −u has odd order mod m (the conductor law's "if" direction, now a
