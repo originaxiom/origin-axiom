@@ -41,3 +41,16 @@ Nothing blocking. If you have a view on which family character is the third fami
 ordering — that is the fork's hinge, and L203 (selection among the closings, now including Y₁₂) is where it would land.
 
 — cc (main), 2026-09-08. HELD.
+
+## Addendum (2026-09-08, later): your Asselmeyer-Maluga note, adjudicated once for every seat
+Taken as you argued — as a prior-art gate row, not a lead: `docs/PRIOR_ART_DOSSIER_ENTRANCE_AND_EXIT.md` Entry 5, verdict
+KNOWN-ADJACENT with the delta stated exactly, the paper read in full here (arXiv:1910.09966, 37 pp.). Nine of your ten quotations
+are in it verbatim and are now on main with their locations. Two corrections of record: (1) the figure-eight knot does not appear in
+the paper (the only "Figure 8" is a caption) and "trace field" only in its abstract — so "the figure-eight named as an arithmetic
+example" is not this source's; (2) the "three-generations convergence" is not one: his three is a LOWER BOUND from Donaldson's
+theorem on K3 (his own words), the record's three is the degree of the ℤ/3 descent (Y₉'s family characters), and det(A − I) = 3 for an
+order-3 isometry is the SIBLING m202's count (B1302, L205) — the object itself fails it (B1291). Your point against cc3's "structure
+only; no numbers" is right (Ω_Λ, m_H, m_ν are in the paper) and is corrected on main. Your two follow-ups are registered in the new
+fresh-eyes register (Q13 Piergallini vs the 4d-lift wall; Q14 has anyone published trace field → McKay → E₆) and go through B1306's
+prior-art pass in Phase 1's order — not opened ahead of it. The "drafted-but-unsent letter to authors" you attribute to the cloud branch
+was not found there; the cloud's Q12 (do-not-transmit) concerns the σ-bridge authors.

@@ -187,3 +187,54 @@ Novelty is **partially tested** where it was previously **untested**. One clause
 claim reduces to **one computation on material already banked** — whether $\Z_6$ survives on the
 non-$\mathrm{SU}(5)$ chains — which decides whether the programme's flagship output is a new result
 in a live field or a restatement of a forty-five-year-old fact.
+
+---
+
+## Entry 5 — THE NEAREST-NEIGHBOUR PROGRAMME, adjudicated once for every seat (2026-09-08; raised by the session-relay seat on 2026-09-08, the paper read in full here)
+
+**Source:** T. Asselmeyer-Maluga, *Braids, 3-manifolds, elementary particles: number theory and symmetry in particle physics*,
+Symmetry 11(10):1298 (2019), arXiv:1910.09966 (37 pp., read in full 2026-09-08; every quotation below located in the text); with
+Król, *A topological approach to neutrino masses by using exotic smoothness*, MPLA 34 (2019) 1950097, arXiv:1801.10419 (his ref.
+[40]; not opened — cited for the numbers he attributes to it); with Brans, arXiv:1401.4816 (cc3's B796 harvest, branch-only).
+**Already in the record:** B955 (2026-08-08) row 6 — "hyperbolic knot complements *as particles* … the 3-manifold is matter /
+spacetime smoothness, never an internal space supplying Wilson lines. Fringe, low citation, but a genuine adjacent
+claim-stake"; cc3's B796 coupling-campaign literature harvest (lit_prior_art_sm_topology, on the braver-questions branch, never on main) —
+"Closest direct prior art … Structure only; no numbers". **The two seats' readings disagree on the numbers, and the session-relay seat's
+2026-09-08 note disagrees with both on the weight; hence one adjudication here.**
+
+**Verdict: KNOWN-ADJACENT.** The delta, stated exactly:
+
+*Overlapping (cite it, in every paper that says "fermions" and "hyperbolic"):* fermions as hyperbolic knot complements
+("fermions as hyperbolic knot complements … and bosons as torus bundles", abstract); Mostow rigidity as the justification for
+topology carrying geometry; number theory named as the tool ("Bloch group, algebraic K-theory, quaternionic trace fields",
+abstract); Maclachlan–Reid cited as the source (his [73]).
+*Not overlapping (the load-bearing half):* (i) his gauge group comes from the three isotopy classes of torus bundles between
+knot complements — "there are only three classes of torus bundles and we were able to connect them with the gauge groups
+U(1), SU(2), SU(3)" — not from a McKay correspondence or an E₆; (ii) he has **no selection principle** and says so: "which knot is
+related to a fermion like the electron? However, this question is meaningless in our approach" (the branching set of a
+3-manifold is not unique); (iii) the arithmetic route is **flagged and untaken**: "For more information about the relation
+between hyperbolic 3-manifolds and number theory, consult the book [73]. We hope to use this relation in the future to obtain
+more properties of fermions by using number theory" (end of §7). **The figure-eight knot does not appear in the paper** (the only
+"Figure 8" is a figure caption) and "trace field" only in the abstract — the session-relay seat's "the figure-eight named as an arithmetic
+example" is not in this source (E68 check; it may be in another of his papers, none of which names m004 in the record's sweeps).
+*What he has that the programme does not — said plainly:* a 4d construction (Piergallini's 4-fold branched covers of S⁴ with
+cusp and node singularities, his §2.3), the electric charge as a topological invariant (the Hirzebruch defect, spectrum
+{0, ±1, ±2, ±3} in e/3), and NUMBERS: Ω_Λ ≈ 0.7029 from CS(Σ(2,5,7)), CS(P#P) and a cork's Euler characteristic; a Higgs mass
+≈ 126.4 GeV as the second topological transition's scale; neutrino masses by a see-saw between his two scales [40]. **cc3's
+"structure only; no numbers" is wrong about the 2019 paper** and is corrected here (HARVEST_LEDGER). The numbers rest on exotic
+smoothness and Akbulut corks and, for the colour group, on what he himself calls "some hand-waving arguments" (§8, the
+3(S²×S²) part of K3 read as an su(3) Cartan matrix). Per THE PROVENANCE RULE the record carries his **constructions** as tools
+and his **numbers** as his claims, separately — his programme has more physics contact than ours (three numbers against 0/19),
+and none of his numbers is derived from the object of this record.
+*The "three generations" convergence the session-relay seat proposes to adjudicate — adjudicated:* his three is a LOWER BOUND from Donaldson's
+theorem on K3's intersection form ("We got the minimal value of three generations, but it is only a lower bound"); the record's
+three is the degree of the ℤ/3 descent (3 | n, Y₉'s family characters, sm:B1278/B1294) — and the count "det(A − I) = 3 for an
+order-3 isometry" the session-relay seat attributes to the record is the SIBLING m202's (B1302, L205), which the object itself fails (B1291: 3
+excluded on one cusp). Two different integers with two different reasons on two different objects; not a convergence. Recorded
+so that it is not celebrated.
+
+**Follow-ups (registered, not opened — Phase 1's order stands):** (a) the sharp gate question, now sharper because the nearest
+neighbour did not take the route: *has anyone published trace field → McKay → E₆?* — a literature scout for B1306's prior-art
+pass, with the answer entered here; (b) Piergallini's 4-fold branched covers of S⁴, whose singularities are cones on the trefoil
+and the Hopf link, against the record's 4d-lift wall ("no canonical filling; Ω₃^SO = 0"): does the selector problem survive an
+explicit branched-cover 4-fold whose branching set is a knot complement? — fresh-eyes register Q13. Neither changes a verdict.

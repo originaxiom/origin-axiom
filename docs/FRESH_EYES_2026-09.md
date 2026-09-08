@@ -1,0 +1,22 @@
+# THE FRESH-EYES REGISTER — the questions the programme is not asking (opened 2026-09-08, MASTERPLAN v3.1 §5)
+
+*A standing document. A question leaves it only by a computation or a citation, never by attention drifting; it is reviewed at
+every phase end (v3.1 §1). Each row names the phase or arc that owns it. Seeded from the blind-spot sweep of 2026-09-08 (the
+corpus's own records) and the step-back; Q13–Q14 added at the Asselmeyer-Maluga adjudication (PRIOR_ART_DOSSIER Entry 5).*
+
+| # | the question | owner | status |
+|---|---|---|---|
+| Q1 | The quantum face (Vol ≠ 0: CS, state integral, Ẑ, c_eff) has never been asked about chirality or a generation count — only its numbers were scanned (V-3). What is the Vol ≠ 0 analogue of B252/B253's chirality reading? | Phase 3 | OPEN |
+| Q2 | I-13 (the listener map) is the top debt on three surfaces and has never been attempted. Blocked by an obstruction, or merely unattempted? Write the instrument's specification before judging. | Phase 4 (7) / B1306 (codex R033) | OPEN |
+| Q3 | E53 (≥ 22 instances in two weeks) is the dominant failure. Is the fix an instrument (surface-propagation check at landing) rather than more care? | Phase 4 (1) | OPEN — the check is designed, not built |
+| Q4 | H5 ("the object supplies every space, never a point") is un-falsified after eight instances. What would a falsifying computation look like, concretely? Name one before the next value arc. | Phase 3 DESIGN | OPEN |
+| Q5 | Is `n` in B1248's κ = 2 + n² object-determined, or another space without a point? | Phase 3 | OPEN |
+| Q6 | Every chirality wall is a conjugation the object carries (θ, period-2, strong inversion, Galois, CS = 0). Is "chirality needs a non-amphichiral member of the tower" a theorem or a coincidence? | Phase 2 Arc B | OPEN |
+| Q7 | The value crossing compared object periods to low-energy SM numbers. At which scale should the comparison be made, and has RG running ever been accounted for in any value arc? | Phase 3 DESIGN | OPEN |
+| Q8 | What other active frames have an unread no-go in their own bibliography (the E65 shape)? A per-frame "no-go read" before each phase. | every DESIGN | OPEN — B1303's DESIGN did it for the Z′ frame (LP 2000 read in full) |
+| Q9 | I-26 (h¹ ↔ 4d generations) transports an index theorem across a dimension gap nobody has exhibited. What does Pantev–Wijnholt §3 state for a 3-manifold with boundary? | Phase 2 Arc 0 | OPEN — PW eq. (3.18) read (v3.1 §1b); the 3-manifold statement not yet written |
+| Q10 | Is the quantum face underworked because it is harder, or because attention keeps re-deriving the other two faces? Measure: arcs per face per month from arc_verdict dates (a 20-line script). | Phase 4 | OPEN |
+| Q11 | The kill graph's revival scores: eleven at 5 and one at 6, most never re-walked (B500, B252, B433, B685). Dead or merely unwalked? | Phase 4 (3), the L195 index | OPEN |
+| Q12 | The seats keep finding the same mechanisms a day apart (sm:B1280 ↔ B1297; fc R71 ↔ B1296; fc R49 ↔ the session-relay seat ↔ B1303 Q0). Is the harvest lag itself a source of lost work? | B1307 (the harvest-debt gate) | OPEN — the gate is the answer if it holds |
+| Q13 | Piergallini's 4-fold branched covers of S⁴ (singularities = cones on the trefoil and the Hopf link; Asselmeyer-Maluga §2.3) against the record's 4d-lift wall ("no canonical filling; Ω₃^SO = 0"): does the selector problem survive an explicit branched-cover 4-fold whose branching set is a knot complement? | Phase 4 / a bounded arc after B1307 | OPEN |
+| Q14 | Has anyone published trace field → McKay → E₆ (the record's route)? The nearest neighbour flagged the arithmetic route and did not take it ("we hope to use this relation in the future"). Sharp because the answer "no" is now checkable against a named programme. | B1306's prior-art pass (a literature scout) | OPEN |
