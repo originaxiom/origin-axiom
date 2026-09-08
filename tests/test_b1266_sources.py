@@ -21,7 +21,7 @@ def test_selftest_passes():
 def test_ten_rows_reduce_to_seven_sources():
     S = _mod()
     un, edges, groups = S.sources()
-    assert len(un) == 11 and len(groups) == 8   # B1296 (2026-09-07) registered I-27, an eighth irreducible source
+    assert len(un) == 12 and len(groups) == 8   # B1296 (2026-09-07) registered I-27, an eighth source; B1298 (2026-09-08) I-28 joins it
     assert S.AXIOMS + len(groups) == 12
 
 

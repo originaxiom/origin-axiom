@@ -1,0 +1,25 @@
+{
+ "id": "B1298",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1297",
+  "B1296",
+  "B353",
+  "B1256",
+  "B1267",
+  "B1174"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-28",
+   "status": "UNEARNED",
+   "note": "the lift of an isometry of the object to the E6 gauge algebra (inner Ad(exp pi i rho^vee) or outer theta_D): both lifts exhibited on main's E6; the flat germ selects outer (twelve signs exact); the singular frame is unconstrained; joins I-27's source."
+  }
+ ],
+ "claim_one_line": "THE LIFT FORK (MASTERPLAN v3.1 Phase 1, first harvest arc; DESIGN sealed d81fba42 before computation; every seat script re-run in a pinned worktree and re-derived here). fc R72 is right that B1296 assumed one of two lifts: by main's B353 (B) the involution of m004 lifts to E6 both as the inner Ad(exp(pi i rho^vee)) and as the outer Ad o theta_D. Verified on main's rational E6: the inner lift fixes 32 roots = A5+A1 (dim 38) and all of h, the order-3 inner lift fixes 18 = A2^3, the outer theta_D fixes 24 = F4; under the inner lift every Cartan direction is even and B1296's count-2 SO(10) configuration (2 x (16+10+1) on omega_1^vee) is theta-equivariant AND anomaly-free -- the singular road's wall was never equivariance. THE FLAT GERM SELECTS THE OUTER LIFT, EXACTLY: with the intertwiner N_S = swap (det -1) the strong inversion acts on the twelve one-dimensional H^1(m004; Sym^k rho_geo), k = 0..22 even, by (-1)^(k/2+1) -- on the six deformation classes of e6 (+,-,+,+,-,+) = theta_D -- and the period-2 (N_P det 1) acts trivially; = sm:B1280 Theorem 2 (mod two primes, re-run here SELFTEST PASS) = main's own B353 (C) (2026-07, 'the hyperelliptic cocycle action', now named: the strong inversion). Consequences: T-CHARGE-LOCUS-PARITY-LOCK scoped to the outer lift (it stands on the flat germ); I-27's third item ('theta-odd hence non-equivariant') becomes 'the lift is a choice' = I-28, registered UNEARNED (ratchet 11 -> 12), joining I-27's source (price 12 unchanged); count 2 on both lifts. Credits: fc R72 (both lifts, VERIFIED; the identification ask REGISTERED; m202 SCHEDULED B1302), fc R71 (scripts re-run PASS), sm:B1280 Thm 2 (VERIFIED), sm:B1281 C/3 (AGREES), B353 (C) (the anchor). HARVEST_LEDGER opened (rows 1-7). Hints H-B1298-GERM/INNER/NAME."
+}

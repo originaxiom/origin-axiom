@@ -6706,6 +6706,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1298": {
+   "slug": "the lift fork",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "dickson_tower",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B353",
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B129": {
    "slug": "sl3 tower sealed",
    "motifs": [

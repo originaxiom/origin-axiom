@@ -124,7 +124,7 @@ re-run here) — *"the chiral closing needs to supply only the chirality bit."*
 
 **MASTERPLAN v3.1 (approved 2026-09-08) continues from here:** Phase 1 = the seat sweep (B1298 the lift fork, B1299 the period-2 duality, B1302 the sibling m202, B1303 the SM closing's Z′ + Y₁₂, B1304 the audit seat, B1305 the cloud, B1306 the older debt, B1307 the harvest gate), Phase 2 = the chiral-cover test (L202), Phase 3 = the quantum-face value question, Phase 4 = instruments first; the harvest rules are binding (every seat item a ledger row, the seat speaks first, scripts run not read).
 
-Items 1–2 stay as written; I-26 and I-27 stay **UNEARNED** until a door earns them. Doors are worked **in order**;
+Items 1–2 stay as written; I-26, I-27 and I-28 (the lift, B1298) stay **UNEARNED** until a door earns them. Doors are worked **in order**;
 one is left only when earned, refuted, or blocked by a registered computation.
 
 ## JOIN 2 — the values *(I-13, the listener map)*

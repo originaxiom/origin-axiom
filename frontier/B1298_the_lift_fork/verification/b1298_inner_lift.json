@@ -1,0 +1,20 @@
+{
+ "inner2": {
+  "fixed": 32,
+  "type": [
+   "A1",
+   "A5"
+  ]
+ },
+ "inner3": {
+  "fixed": 18,
+  "type": [
+   "A2",
+   "A2",
+   "A2"
+  ]
+ },
+ "outer": {
+  "fixed": 24
+ }
+}

@@ -1,0 +1,19 @@
+# THE HARVEST LEDGER — every seat item, its own verdict first, main's disposition second
+
+**Opened 2026-09-08 (B1298, MASTERPLAN v3.1 §1a).** One row per item on every seat branch. The seat's headline is quoted
+verbatim (≤ 25 words) with its `git show` path and commit pin BEFORE main's disposition; main's grade may not be lower than
+the seat's without a computation on this bench that shows why. Dispositions: **VERIFIED** (re-run here and re-derived with
+main's code, banked under the main arc named), **VERIFIED-DIFFERS** (re-run here, the discrepancy recorded in both places),
+**REGISTERED** (no script: read in full, entered as a lead/hint/identification row), **SUPERSEDED-BY-SEAT** (the seat's own
+retraction), **SCHEDULED** (the main arc that will take it). The gate `harvest_debt` (B1307) reconciles this file against
+each seat's own index; a review cannot close while any seat item lacks a row. Seat branches never merge.
+
+| # | seat | item | the seat's own headline (verbatim) | path @ pin | disposition | main arc | date |
+|---|---|---|---|---|---|---|---|
+| 1 | physics seat (fc) | R72 §1 the two lifts | "the lift of θ to E₆ is not unique (B353's own item (B)), the inner lift makes every direction even" | `reports/fresh_physics_seat_2026-09-01/R72_THREE_FROM_THE_THIRD_ROOT.md` @ 659487bb | **VERIFIED** — inner lift: 32 fixed roots, A₅⊕A₁, all of 𝔥; outer: 24, F₄ (`b1298_inner_lift.py`); `r72_inner_lift.py` re-run SELFTEST PASS | B1298 | 2026-09-08 |
+| 2 | physics seat (fc) | R72 §3 the order-3 lift | "An order-3 symmetry has only the inner lift … its lift centralises A₂³" | same | **VERIFIED** — 18 fixed roots, A₂³ (dim 24) | B1298 | 2026-09-08 |
+| 3 | physics seat (fc) | R72 §7 relay, the identification ask | "A new identification row is needed: the lift of an isometry of Q to the E₆ gauge algebra (inner or outer)" | `…/FC_TO_CC_2026-09-06_THE_LIFT_AND_THE_THIRD_ROOT.md` @ 659487bb | **REGISTERED** — I-28 UNEARNED, joins I-27's source; the flat germ's lift proved outer (P1) | B1298 | 2026-09-08 |
+| 4 | physics seat (fc) | R72 §4–§6, R72b/c/d the sibling m202 | "on m202 … the order-3 isometry fixes three lines: 3 × (16 ⊕ 10 ⊕ 1) of SO(10)" | same + `computations/r72b_m202_lines.py`, `r72c_d2_is_the_so10_axis.py`, `r72d_census_menu.py` | **SCHEDULED** (r72c re-run in B1298: see row 7) | B1302 | 2026-09-08 |
+| 5 | SM-derivation seat | sm:B1280 Theorem 2 (the θ-odd germ) | "the θ-odd E₆ frame is vector-like on its whole germ … the question is six signs … ε_n(ι) = (−1)^{n/2+1} … = θ" | `frontier/B1280_the_chirality_probe/FINDINGS.md` §3 @ 87a9004a | **VERIFIED** — twelve signs exact over ℚ(ζ₁₂) in SnapPy's presentation (`b1298_signs.py`); `theta_odd_pairing.py` re-run, two primes agree, SELFTEST PASS; = main's B353 (C) (2026-07), which named the involution "hyperelliptic": it is the strong inversion | B1298 | 2026-09-08 |
+| 6 | SM-derivation seat | sm:B1281 refinement C/3 | "on the germ of the geometric E₆ holonomy the lift is outer, so the inner-lift count does not live there" | `frontier/B1281_the_seats_verified/FINDINGS.md` @ 87a9004a | **VERIFIED — AGREES** (P1 + P3) | B1298 | 2026-09-08 |
+| 7 | physics seat (fc) | R71 (reconciliation; R70 §2 corrected at source) and R72c | "on the θ-even directions the ±2 is vector-like or anomalous, never a spectrum" (928 directions) | `…/R71_THE_SEATS_ON_THE_CUSP.md`, `computations/r71_*.py`, `r72c_*.py` @ 659487bb | **VERIFIED** — scripts re-run in the pinned worktree (`fc_r71_*_rerun.txt`, `fc_r72c_*_rerun.txt`); the dichotomy is B1296's spectral half, credited there at landing | B1298 | 2026-09-08 |

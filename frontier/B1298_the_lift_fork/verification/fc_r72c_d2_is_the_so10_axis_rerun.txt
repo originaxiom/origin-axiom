@@ -1,0 +1,5 @@
+over all 27 choices of w13: (flipped weights, D(w13), fixed roots, fixed type, |roots of C(u_w13)|, type): {(11, -1, 40, 'D5', 40, 'D5'): 27}
+D2 flips 11 = w13 + the 10, fixes the 16; fixed algebra so(10)+u(1) (dim 46, rank 6: INNER, a torus element); u_w13 has C(u) = D5+T1: the SO(10) direction.
+under D2 every direction u in h is even and the twist on C(u) is inner: S_n(u) = n (+)_{q>0} 27_q (+) n (+)_{q<0} conj(27_q) -- R72 (c).
+SELFTEST: PASS
+RC=0

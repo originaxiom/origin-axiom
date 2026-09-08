@@ -709,3 +709,13 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 - H-B1297-NOEXAMPLE (type WITNESS, negative): in 60 one-cusped census manifolds with torsion ≥ 3 in H₁ (12 non-self-dual
   `Sym²⊗χ` sectors) the index is 0 with `r₁ = t₀ = 1` every time. Whether `I ≠ 0` ever occurs in domain D is open (L202c);
   the algebraic non-vacuity of the criterion is shown on random presentations (26/31 non-zero). (B1297)
+- H-B1298-GERM (type LAW-SHAPED, exact): the flat E₆ germ at the geometric point selects the OUTER lift — the strong inversion
+  acts on H¹(m004; Sym^k) by (−1)^{k/2+1}, i.e. as θ_D on the six deformation classes (+,−,+,+,−,+); the period-2 acts trivially
+  on the whole germ. Three benches now hold it (B353 (C) 2026-07 under the name "hyperelliptic"; sm:B1280 Thm 2 mod two primes;
+  B1298 exact). The corpus rediscovered its own theorem across seats: an E53 shape at the level of theorems. (B1298, 2026-09-08)
+- H-B1298-INNER (type OBSERVATION, verified): under the inner lift Ad(exp πiρ^∨) every Cartan direction is even (fixed algebra
+  A₅⊕A₁, all of 𝔥), so B1296's count-2 SO(10) configuration is θ-equivariant AND anomaly-free — the wall on the singular road is
+  not equivariance but the LIFT (I-28), and count 2 stands on both lifts. (B1298)
+- H-B1298-NAME (type IDENTITY, checked): B353's "hyperelliptic cocycle action" is the meridian-reversing strong inversion S
+  (f = −1 on H₁), not the period-2 P (f = +1): P is invisible on the flat germ and −1 on the descent's torsion (B1297) — the
+  two order-2 isometries act on different faces of the object. (B1298)

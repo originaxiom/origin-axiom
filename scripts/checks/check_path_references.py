@@ -49,6 +49,8 @@ PATH_RE = re.compile(
 
 # Files whose stale citations are structurally uncorrectable -- see module docstring.
 EXEMPT_CITERS = ("PROGRESS_LOG.md",
+                 "docs/HARVEST_LEDGER.md",  # 2026-09-08 (B1298, MASTERPLAN v3.1 §1a): every row cites a SEAT BRANCH path @ commit pin by design -- the ledger is the record of what lives on other branches, none of it resolves on main; the harvest_debt gate (B1307) checks these against the branches themselves
+
                  "frontier/B921_branch_harvest/harvested/",  # forensic ARCHIVE copies: their internal citations reference the SOURCE BRANCH's layout by design (the harvest preserves them verbatim; the manifest maps them) -- added at the B921 harvest, same class as the B742 forensic seals
                  "frontier/B742_negatives_hunt_p1/reviews/")
 

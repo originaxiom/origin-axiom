@@ -111,7 +111,7 @@ def selftest():
     print(f"  [srcs ] irreducible sources: {len(groups)}")
     for k, v in sorted(groups.items(), key=lambda kv: -len(kv[1])):
         print(f"           [{len(v)}] {v}")
-    assert len(un) == 11 and len(groups) == 8   # 2026-09-07 (B1296): +I-27, a new H5-type source; was 10 / 7
+    assert len(un) == 12 and len(groups) == 8   # 2026-09-07 (B1296): +I-27, a new H5-type source; 2026-09-08 (B1298): +I-28, joins I-27's source; was 10 / 7
 
     # the I-10/I-11 cycle must be ONE source -- a naive closure reports two
     fork = [v for v in groups.values() if "I-10" in v]
@@ -124,7 +124,7 @@ def selftest():
 
     reduced = len(un) - len(groups)
     print(f"  [ctl  ] rows that are instances of another: {reduced} (must equal 10 - 7)")
-    assert reduced == 3
+    assert reduced == 4   # 2026-09-08 (B1298): I-28 is an instance of I-27; was 3 (= 10 - 7)
 
     print(f"\n  PRICE, two readings, both kept:")
     print(f"    rows outstanding (what the ratchet tracks) : {AXIOMS} + {len(un)} = {AXIOMS+len(un)}")

@@ -83,3 +83,5 @@ a derived parameter, and the corpus knows how to earn rows.
 ## ADDENDUM 2026-09-07 (B1296) — the ratchet raised by hand
 
 I-27 registered UNEARNED (B1296, the singular-frame road to count 2). The ratchet baseline is raised 10 → 11 with its reason in `docs/IDENTIFICATION_BASELINE.json`; the price this arc measures becomes 4 axioms + 11 unearned rows = 15 rows outstanding (B1266's irreducible count: 4 + 8 = 12). The arc's tests read the live ledger and baseline and need no change.
+
+*2026-09-08 (B1298): the ratchet raised 11 → 12 (I-28); rows outstanding 4 + 12 = 16, irreducible price 12.*

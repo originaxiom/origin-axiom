@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 11,
+ "unearned": 12,
  "rows": [
   "I-6",
   "I-7",
@@ -12,9 +12,10 @@
   "I-23",
   "I-25",
   "I-26",
-  "I-27"
+  "I-27",
+  "I-28"
  ],
- "total_rows": 27,
+ "total_rows": 28,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -75,6 +76,14 @@
    "row": "I-27",
    "arc": "B1296",
    "reason": "THE SINGULAR-FRAME ROAD TO THE FIRST CHIRAL SPECTRUM, PRICED RATHER THAN CLAIMED. B1296 (MASTERPLAN v3 door D1) drops fc R70's theta-equivariance and finds count 2 (two chiral 16's, SO(10)xU(1)) -- but the computation exhibits THREE closer's choices and none the object's: the LOCUS (omega is theta-odd and non-zero on the arcs, T1/T2), the SIGN PAIR (the two arcs lie in different symmetry orbits, T4b) and the DIRECTION (theta-odd; the object is theta-symmetric, B1174/B576). Registered UNEARNED at creation, as the ratchet requires; H5-type in B1266's taxonomy (the object supplies the family, the closer picks the point), so it is a NEW irreducible source: B1266's 7 sources become 8 and the irreducible price 11 becomes 12. Raised by hand; nothing absorbed."
+  },
+  {
+   "date": "2026-09-08",
+   "from": 11,
+   "to": 12,
+   "row": "I-28",
+   "arc": "B1298",
+   "reason": "THE LIFT FORK REGISTERED AS THE PHYSICS SEAT ASKED. fc R72 (2026-09-06) proved from main's own B353 item (B) that the involution has TWO lifts to E6 -- inner Ad(exp(pi i rho^vee)) and outer theta_D -- and that R70/R71 and main's B1296 assumed the outer one; under the inner lift every Cartan direction is even and the count-2 SO(10) configuration is anomaly-free and equivariant. B1298 verified both lifts on main's E6 (32 fixed roots A5+A1 vs 24 = F4) and proved exactly that the FLAT germ selects the outer lift (twelve signs = theta_D; = B353 (C) and sm:B1280 Thm 2), so the choice lives only in the singular frame. Registered UNEARNED at creation as the ratchet requires; its earning text names I-27, so under B1266's union-find it joins I-27's source (eight sources, price 12 unchanged). Raised by hand; nothing absorbed."
   }
  ],
  "_earned_additions": [
