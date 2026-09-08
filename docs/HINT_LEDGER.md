@@ -727,3 +727,10 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   direction (the V₁₀ of the 42). Every other flat-sector direction on the object is paired. L204 is the whole remaining
   flat-sector chirality question on m004 itself. (B1299)
 - H-CHAT1-THREE (type OBSERVATION, seat's, fenced): the number 3 does two independent jobs — geometric (an order-3 element of SL(2,ℤ) has trace −1, so det(A − I) = 3: three fixed lines) and algebraic (gcd(3, |Out(E₆)|) = 1, so an order-3 symmetry lifts only INNER and the outer-lift vector-like theorem does not apply); order 2 fails both at once (four lines; lifts outer). Fences: three fixed lines ⟹ three generations is I-26- and PW-frame-conditional (Phase 2 Arc 0); the lift is I-28. (chat1 relay 2026-09-08, intake row 18)
+- H-B1302-NOTWIST (type WITNESS, exact): on m202 the two cusps' peripheral classes generate H₁ = ℤ² (elementary divisors 1, 1), so
+  NO non-trivial character is trivial on both cusps — the descent's twist mechanism (B1297) has no sector at all on the sibling;
+  its flat E₆ sector is untwistable as well as vector-like. (B1302)
+- H-B1302-BOTH (type OBSERVATION, seat's + this bench): the sibling m202 passes both of chat1's tests (an order-3 isometry with
+  three fixed lines; the inner lift forced) where the object fails both, its flat sector is vector-like by the inversion (sm:B1282,
+  exact here), and its price is the golden face (no fibration carries t² − 3t + 1). The count of three on it is PW's localized
+  count under two of fc's named choices. That is the whole case for re-pricing D3 — a decision, recorded for the owner. (B1302)

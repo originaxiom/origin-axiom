@@ -6795,6 +6795,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1302": {
+   "slug": "the sibling m202",
+   "motifs": [
+    "closing",
+    "trace_map",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [
+    "B727"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B130": {
    "slug": "no forced choice",
    "motifs": [

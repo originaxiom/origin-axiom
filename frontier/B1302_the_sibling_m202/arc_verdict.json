@@ -1,0 +1,20 @@
+{
+ "id": "B1302",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1299",
+  "B1298",
+  "B1297",
+  "B1292",
+  "B1291",
+  "B1256",
+  "B727"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE SIBLING m202, WHERE THREE APPEARS (MASTERPLAN v3.1 Phase 1, third harvest arc; DESIGN sealed 811873b0; five seat scripts re-run in pinned worktrees; every claim re-derived with an EXACT holonomy in SL(2, Z[omega]) -- tr a = tr b = omega-bar, tr ab = sqrt(-3), both cusps trace +2 -- and the B1297 engine extended to two cusps). Three seats converged on m202 and each is right about its own quantity: fc R72's order-3 isometry fixes three lines (cusp maps: orders 6, 3, 2 fix (1,1), (3,3), (4,4) points per cusp; chat1's law det(A-I) = 2 - tr A on every map; 180 automorphisms in 12 classes = D6 on H1 = Z^2), its 3 x (16+10+1) a singular-frame PW count under two named choices and I-26, recorded as fc records it; sm:B1282's flat E6 sector vector-like near the geometric point VERIFIED EXACTLY -- h^1(m202; Sym^k) = 2 for every even k <= 22, the inversion the scalar (-1)^(k/2+1) on every slot (= theta_D on e6's six slots), the order-3 rotation (omega, omega-bar) on k = 2 mod 6 and trivial on k = 4 mod 6; the seat's own sibling_germ.py asserts on this bench at its step (1) (62/4 vs 180/12: a script environment sensitivity; the claim holds on three benches); its addendum VERIFIED (Delta_m202 has seven +-1 monomials, no primitive specialisation divisible by t^2 - 3t + 1, Delta(t,t) = -(2t^2+3t+2): the golden face is absent); the audit seat's R12 parity retained (AGREES), R15/R18's conditional 'net three' REGISTERED to B1304. NEW: the two cusps' peripheral classes generate H1 = Z^2 (elementary divisors 1, 1), so m202 has NO non-trivial cusp-trivial character -- the descent's twist mechanism has no sector on the sibling; on the untwisted Sym^2 the two-cusp index gives r1 = t0 = 2, I = 0, every identity holding. THE D3 CASE, PRICED, NO DECISION: the sibling passes both of chat1's tests where the object fails both (order 3 => three lines; gcd(3,|Out E6|) = 1 => inner lift), its flat sector is dead by the same conjugation as everywhere else, the 3 lives only in the singular frame under fc's two choices, and the price is the golden face (B1270/B1271's E8 face and family triplet are not carried). Handed to the owner. HARVEST_LEDGER rows 21-27; hints H-B1302-NOTWIST, H-B1302-BOTH."
+}
