@@ -119,6 +119,12 @@ From `Ξ_k(e^{−t}) ≥ (edge)·e^{t·w_k}` and `Ξ_k(e^{−t}) ≤ e^{t·w_k}�
 `Q < 4`**.
 
 > ### The threshold is exactly `|p/r| = 4`.
+>
+> **[SUPERSEDED IN PLACE, same day — see ADDENDUM 1. THE RANGE IS THE PAPER'S.** Gukov–Manolescu
+> state `p/r ∈ (−4, 0)` on page 73, from their condition (177) with `c = −1/16` found
+> *"experimentally, by calculating more terms in (174)"*. What is this bench's is only that
+> `c = −1/16` is exact rather than experimental. The paragraph below stands as mathematics and
+> is withdrawn as a claim of novelty.**]**
 
 **And `4` is the largest `|p/r|` among Thurston's nine exceptional surgeries on the
 figure-eight** — GM §9.4 opens by listing them as `p/r ∈ {−4,−3,−2,−1,0,1,2,3,4}`. The
@@ -221,3 +227,66 @@ central charge, at every slope where it converges, and none at all past slope 4.
 python3 certificates/ceff_scaling_law.py        # A identity, B refutation, C law,
                                                 # D threshold, E supremum, F Seifert check
 ```
+
+
+---
+
+# ADDENDUM 1 (2026-09-08, same day) — the threshold is the paper's, and nine more of its series now control the pipeline
+
+Certificate `certificates/table10_control.py`, output `outputs/table10_control_out.txt`.
+
+## 1. Credit correction, made at the point of occurrence
+
+§4 above derived `|p/r| = 4` and presented it as a finding. **It is Gukov–Manolescu's, stated on
+page 73**, and I had not read §9.4 to its end when I wrote §4:
+
+> *"for the figure-eight knot, by calculating more terms in (174), we find experimentally that
+> `c = −1/16`, which means that we should be able to apply (176) for `p/r ∈ (−4, 0)`."*
+
+Their condition (177) is `4c + r/p > 0`, where `c` is defined by: if the lowest power of `q` in
+the coefficient of `x^{m/2}` is of order `c·m²`, the transform gives a Laurent series iff (177)
+holds. So the range, and the reasoning, are the paper's.
+
+**What this bench adds is one word: `exactly`.** The lowest power of `q` in `Ξ_k` is
+`−⌊(k−1)²/4⌋`, verified for every `k ≤ 150`; with `m = 2k−1` that is `−⌊(m+1)²/16⌋ = −m²/16 + O(m)`,
+so `c = −1/16` is a **closed form**, not an extrapolation from more terms, and the range is
+`(−4, 0)` exactly rather than to within the reach of a finite computation.
+
+§5's supremum (`sup c_eff = 1`), §3's replacement law, and §2's refutation are unaffected — the
+paper computes no `c_eff` anywhere.
+
+## 2. Nine published series, not one
+
+The same §9.4 I had not finished reading also carries **Table 10**: `Ẑ₀(S³_{−1/r}(4₁))` printed
+for `r = 2 … 10`, about twenty coefficients each. Memos 175–177 used only `r = 2` (eq (13)).
+Running the bench's assembly against all nine:
+
+| `r` | published coefficients | all reproduced | no spurious term below the horizon |
+|---|---|---|---|
+| 2 | 20 | ✅ | ✅ through `q³⁰` |
+| 3 | 20 | ✅ | ✅ through `q⁴²` |
+| 4 | 20 | ✅ | ✅ through `q⁵⁴` |
+| 5 | 20 | ✅ | ✅ through `q⁶⁶` |
+| 6 | **21** | ✅ | ✅ through `q⁷⁸` |
+| 7 | 20 | ✅ | ✅ through `q⁹⁰` |
+| 8 | 20 | ✅ | ✅ through `q¹⁰²` |
+| 9 | 20 | ✅ | ✅ through `q¹¹⁴` |
+| 10 | 18 | ✅ | ✅ through `q¹²⁴` |
+
+**All nine.** Including `r = 6`'s isolated late term `+q¹¹²`, which sits far past that line's
+main run and is the one coefficient in Table 10 that no pattern would guess — the assembly
+produces it.
+
+Together with the `F₀` identity of §1, the pipeline is now checked against **ten** independently
+published series, computed by the authors through the plumbing formula and modularity, and it
+matches every coefficient of all of them.
+
+## 3. What is still this bench's, stated narrowly
+
+* `Ẑ₀(S³_{−1/2}(4₁))` exact to `q^39524` (Table 10 gives 20 terms).
+* `c = −1/16` in closed form rather than experimentally.
+* The scaling function `h(y)`, `h(0) = 2 log φ`, and the Legendre law of §3.
+* `sup_{|p/r| < 4} c_eff = 1`, and with it the unreachability of `6`.
+* The Seifert cross-check of §6.
+
+The paper contains no `c_eff` computation, so §§2, 3, 5 and 6 do not collide with it.
