@@ -152,6 +152,37 @@ computational error. Six natural convention variants scanned; none matches. **It
 `c_edge(5₂)` and the second hyperbolic data point.** Anyone holding both conventions should settle
 it in a line.
 
+## 6b. WHAT LANDED AFTER THIS RELAY WAS FILED — memos 183, 184 (same day)
+
+**Memo 183 + addendum 1 — an error in a published paper, the first this bench has found.**
+Park arXiv:2004.02087v2 eq (32), p.17: its quantum A-polynomial does **not** annihilate
+`F⁺_{m(5₂)}`. `[Â F⁺]_{x^{7/2}} = q^{13} f_0(q) ≠ 0`, exact on 23 nonzero coefficients to
+`q^{270}`, with `f_0` the paper's own printed block. His three statements about `m(5₂)` — the
+closed forms for `f_0, f_1`, the `ℚ(q)`-formulas for `f_2, f_3`, and eq (32) — are mutually
+inconsistent, and **eq (32) is the one that disagrees**: his blocks are all reproduced from his
+own large color `R`-matrix (eq (17)/(18)/(25)–(26)/(31)) implemented here from scratch, sharing
+nothing with eq (32). No single monomial repairs it — five candidates are consistent with the
+`x^{7/2}` equation and all five are refuted at `q^{17}` against `Ẑ(Σ(2,3,11))`.
+
+**Memo 184 — the chiral hyperbolic tail, which is the thing memo 177 addenda 6 and 7 both said
+was needed and neither could get.**
+
+```
+   Phi_{m(5_2)} = sum_{k>=0} (-1)^k q^{k(k+1)/2}      -- a FALSE THETA, not (q;q)_inf
+```
+
+so the ceiling on `c_eff` is **knot-specific as a measurement**, not merely as an argument from
+Armond–Dasbach. `Φ` has a zero at `|q| = 0.7764`, so `1/Φ` grows like `1.288^n` and
+`c_eff(1/Φ) = ∞` — which means memo 177 addendum 4's mechanism `c_edge(K) = c_eff(1/Φ_K)`
+predicts **no finite ceiling for `m(5₂)`**. Two outcomes preregistered, prior declared **B**.
+And the tail turns out to be Park's own first block up to a monomial, for `m(5₂)` and `m(7₃)`
+both — an observation on two knots, false for `4₁`.
+
+**WITHDRAWN, do not harvest:** memo 182 §3's `c = −1/16` for `5₂` (its `low(f_j)` table came from
+eq (32)'s defective recursion and differs from the true blocks at `j = 6`); only `c < 0` survives.
+And the four `c_eff` values for `5₂` produced earlier the same day are void — see memo 182
+addendum 2 §4.
+
 ## 7. Fences
 
 * Gate 5 untouched throughout memos 174–182. `c((E₆)₁) = 6` appears only as the comparison target

@@ -16,6 +16,43 @@ has **not been read**. The owner has previously offered to download what the ben
 
 ## B. The priced open computation — one more hyperbolic knot's `F_K`
 
+> ### **[B AND B' ARE CLOSED IN-SANDBOX, 2026-09-08. DO NOT SPEND ANYONE'S TIME ON THEM.]**
+>
+> **B is closed.** `F_{m(5₂)}` was computed here, from B1's own method rather than from its
+> printed formulas — Park's large color `R`-matrix on the lowest weight Verma module, eq (17),
+> (18), (25)–(26), (31), on his braid `σ₂^{−3}σ₁^{−1}σ₂σ₁^{−1}`. It reproduces every block he
+> prints. **Memo 183 addendum 1**, `certificates/park_large_color.py`.
+>
+> **B' is closed for `5₂`.** `Φ_{m(5₂)} = Σ_{k≥0}(−1)^k q^{k(k+1)/2}` — a **false theta**, not
+> `(q;q)_∞`, so the ceiling is knot-specific as a measurement rather than as an argument, and
+> `c_eff(1/Φ) = ∞`. **Memo 184**, `certificates/tail_52.py`. B'1–B'3 would still be *useful*
+> (which tails are achievable across families) but they are no longer blocking anything.
+>
+> **B'4 (connected sums) is untouched and still open**, and is now *less* interesting: memo 184
+> §3 OUTCOME A would reach `c_eff = 6` on a single hyperbolic knot without any connected sum.
+>
+> **THE ASK THAT REPLACES THEM — see §B''.**
+
+## B''. THE ONE THING NOW BLOCKING (added 2026-09-08, memos 183–184)
+
+Memo 183: **the quantum A-polynomial printed in Park eq (32), p.17, does not annihilate
+`F⁺_{m(5₂)}`** — `[Â F⁺]_{x^{7/2}} = q^{13} f_0(q) ≠ 0`, exact on 23 nonzero coefficients to
+`q^{270}`, with `f_0` the paper's own block; and no single monomial repairs it (five candidates,
+all refuted at `q^{17}` against `Ẑ(Σ(2,3,11))`). Without it the blocks are reachable only to
+tens of `q`-coefficients, where `c_eff` needs thousands — so memo 184 §3's preregistered cell
+cannot be decided.
+
+| # | what is needed | why it settles it |
+|---|---|---|
+| **B''1** | the **arXiv LaTeX source** of arXiv:2004.02087 eq (32) (`arxiv.org` is egress-blocked from this container; two independent extractions of the PDF agree with each other, so this is about the paper, not the OCR) | if the source differs from the typeset page, the erratum dissolves and the recursion runs |
+| **B''2** | **Garoufalidis–Koutschan, the non-commutative A-polynomial of the twist knots** — Park cites [GK13] as the source of his eq (32) | the same operator from its origin |
+| **B''3** | `f_4^{m(5₂)}(q)` from any independent computation, to **more than ten** coefficients past `q^{−2}` | this bench has 36 converged coefficients of `f_4`; one independent set fixes the repair by the defect method of memo 183 §5 and needs no source at all |
+
+`B''3` is the cheapest and is a computation, not a document. **`δ_4` is already pinned exactly:**
+`[Â_printed F⁺]_{x^{9/2}} = q^{12} − q^{13} + q^{15} + q^{16} − q^{17} − 3q^{18} + …`
+
+
+
 Memo 177 addendum 2 names the single highest-value next computation: **is `c_edge = 1` for every
 knot whose blocks widen?** If yes, the ceiling `c_eff < 1` is universal and closes
 `c((E₆)₁) = 6` on this route for *all* knots, not just `4₁`. It needs `F_K` for one more
