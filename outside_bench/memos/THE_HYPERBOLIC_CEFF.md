@@ -76,3 +76,50 @@ data — 0.0938, 0.1424, 0, and the discarded prefactor 12 — and **none is 6**
   and applies here too.
 - **Nothing here proves σ ≠ 1.** It reports that every measurement made on the object's own boundary
   data lands far from the value the bridge needs.
+
+---
+
+## ADDENDUM (2026-09-08) — HALF THE DECOMPOSITION IS NOW DERIVED; THE OTHER HALF IS WRONG AS I GUESSED IT
+
+Memo 175 §5 flagged the decomposition as *"fitted to ten coefficients… unverified beyond it."*
+Attempted to derive it from **Theorem 1.2** and **formula (1)**:
+
+> `Ẑ_a(Y_{p/r}) = ε q^d · L^{(a)}_{p/r}[(x^{1/2r} − x^{−1/2r}) F_K(x,q)]`,
+> `L^{(a)}_{p/r} : x^u q^v ↦ q^{−u²r/p} q^v` when `ru − a ∈ pℤ`, else `0`.
+
+### DERIVED — the shift `2k−1`
+
+The factor `(x^{1/2r} − x^{−1/2r})` pairs each `F_K` block with **opposite sign** at two `x`-powers
+differing by `1/r`. Under `L` those land at quadratic positions, and for `r = 1, p = −1` (the −1
+surgery, eq 12) the two powers are `u = k` and `u = k−1`, giving `q^{k²}` and `q^{(k−1)²}`:
+
+> **shift `= k² − (k−1)² = 2k−1` = 1, 3, 5, 7, 9 — exactly the shift found empirically.**
+
+**So the ± pairing and the odd shift are consequences of the surgery formula, not a coincidence of
+the fit.** That half of memo 175 §1 is now a derivation.
+
+### NOT DERIVED — the positions, and my guess is refuted by the data
+
+For `r = 2` (the −1/2 surgery, eq 13) the selection rule `2u − a ∈ ℤ` **kills every term at `a = 0`**,
+so the label must be a half-integer. Taking `u = k−1/4` and `k−3/4` keeps the shift correct but gives
+positions
+
+| k | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| my derivation | 0 | 3 | **10** | 21 | 36 |
+| the fit `3k(k−1)/2` | 0 | 3 | **9** | 18 | 30 |
+
+**They agree at `k = 1, 2` and diverge at `k = 3` — and the `k = 3` block is IN the published data,
+at `q⁹, q¹⁰, q¹¹`.** So **9 is right and my convention reading is wrong.** Reported as a failed
+derivation, **not patched to fit.**
+
+**What would settle it:** §6.8's explicit `ε`, `d` and the Spin^c labelling for **rational** surgeries
+— the conventions I could not pin from the passages read.
+
+### WHAT THIS DOES TO §2's `c_eff`
+
+**Nothing yet, and that is worth stating.** The growth `c_eff = 4(log φ)²/π²` depends on the positions
+`s_k ~ 3k²/2` — the half that is **not** derived. Under my (refuted) alternative `s_k ~ 2k²` the
+constant would shift to `4(log φ)²/π² · (3/4)`, i.e. `≈ 0.0704`. **Both are of order 0.1 and neither is
+6**, so §3's conclusion is unaffected — but **the specific value 0.0938 is only as good as the fitted
+positions, and should be quoted with that attached.**
