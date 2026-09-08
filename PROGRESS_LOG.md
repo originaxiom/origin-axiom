@@ -14582,3 +14582,12 @@ so **the closing that thins the triplets is Y₁₂ and no other**, and with B13
 for every non-trivial character the product P is unipotent (rank(P − I) ≤ 1, det P = 1 since Φ − I is unimodular), so
 h¹ = 1 iff its rank-one nilpotent part vanishes — confirmed on 1 984 917 characters. Lock
 `tests/test_b1304_the_two_adic_tower.py`. Vector-like; 0 of 19; price unchanged.
+
+### B1302 addendum — the three-generation reading: with ⟨N_{g₂}⟩ alone the one-triplet lines carry the MSSM's field content in three generations, vector-like, no exotic, one Higgs pair; rank-2 Yukawas (2026-09-08)
+
+On the same 768 lines of Y₁₂ the sub-branch ⟨N_{g₂}⟩ alone (no flavon VEV) leaves exactly the three d^c pairs, the three
+lepton doublets and one Higgs pair (H_u,g₂, H_d,g₂) massless, with Q, u^c, e^c, ν^c in all three generations and no exotic
+colour triplet: the MSSM's content with right-handed neutrinos, every field with its mirror. The Yukawas through the
+light Higgs carry |ε_{ijg₂}|: rank 2, generation g₂ massless, g₀ and g₁ degenerate and off-diagonal. Three extra U(1)s
+survive. The flavons choose between three light generations and one; the corpus's "one light generation" was that choice.
+Lock extended. Vector-like; 0 of 19; price unchanged.

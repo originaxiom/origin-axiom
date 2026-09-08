@@ -162,8 +162,11 @@ N_{g₂} D_{g₀} D̄_{g₁}, pairs generations g₀ and g₁ with each other's 
 (absent) D, D̄ exactly massless: **one vector-like generation with two Higgs doublets and no exotic colour triplet.** On
 Y₉ every flat direction of every line keeps at least two light triplet pairs (§4e's light D pair, reproduced with the
 full mass matrices). So row 4's problem is solved at tree level on the tower in the vector-like sense — by the Wilson
-line's thinning and the vacuum's pairing together. What it does not give: three light generations (the largest light
-doublet count of any configuration is seven of nine) or chirality (B1260; the wall of B1280/B1290 stands).
+line's thinning and the vacuum's pairing together. **Addendum (the three-generation reading):** the sub-branch ⟨N_{g₂}⟩ alone on the same 768 lines leaves three
+generations of Q, u^c, d^c, L, e^c, ν^c, one Higgs pair and no exotic light — the MSSM's field content with right-handed
+neutrinos, vector-like — with Yukawas of rank 2 through the light Higgs (generation g₂ massless, g₀ and g₁ degenerate);
+"three light generations" was walled only by the flavon VEVs. What it does not give: chirality (B1260; the wall of
+B1280/B1290 stands), the hierarchy, the numbers.
 
 ## 4i. The 2×2 criterion and the tower through Y₂₁ (B1303, 2026-09-08)
 

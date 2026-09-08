@@ -37,3 +37,9 @@ def test_the_one_triplet_vacuums_gauge_group_and_light_charges():
     assert ch1['Q'] == ch1['u^c'] == ch1['e^c'] and ch1['d^c'] == ch1['L'] and ch1['H_u'] == -ch1['H_d']
     (v3, ch3), = out['dirs_nu']
     assert ch3['nu^c'] == 0 and ch3['Q'] == ch3['u^c'] == ch3['e^c'] and ch3['d^c'] == ch3['L'] == 2 * ch3['Q'] and ch3['H_u'] == 3 * ch3['Q']
+
+
+def test_the_three_generation_reading_with_the_n_vev_alone():
+    import three_generation_reading as R
+    out = R.main()
+    assert out['ok'] and out['lp'] == {'T': 3, 'H': 5, 'Q': 3, 'u^c': 3, 'e^c': 3}

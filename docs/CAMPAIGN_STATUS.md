@@ -1,5 +1,11 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-08, B1302 addendum — THE THREE-GENERATION READING)**: on Y₁₂'s 768 one-triplet lines the flat direction
+⟨N_{g₂}⟩ alone leaves **three generations of Q, u^c, d^c, L, e^c, ν^c, one Higgs pair and no exotic colour triplet — the
+MSSM's field content with right-handed neutrinos, vector-like** (every field with its mirror); the flavon VEVs of the
+one-generation configuration are a choice, not a necessity. Its Yukawas carry |ε_{ijg₂}|: rank 2, one massless
+generation, two degenerate. Price unchanged; 0 of 19.
+
 **LATEST (2026-09-08, B1304 — THE 2-ADIC TOWER ENDS AT Y₁₂)**: Y₂₄'s support is Y₁₂'s pulled back (its 2-primary subgroup
 of 1 024 characters under the criterion: the same 97 letters, 34 752 SM lines, 768 one-triplet vacua; no order-32
 support), so the new 2-adic supports of the tower are at levels 3, 6 and 12 only and **the closing that thins the colour

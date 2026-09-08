@@ -13,4 +13,10 @@ addendum it had not finished. Its result — the criterion says 2 723 characters
 31: 60, 62: 180, 341: 600, 682: 1 800 — is appended below when it completes. The criterion's independent check beyond its
 validation range already stands on Y₂₀'s 1 680 order-41 and 120 order-11 characters (§3 of the findings).
 
-RS15_RESULT_PENDING
+**The Reidemeister–Schreier sweep of Y₁₅, completed (record `frontier/B1301_the_towers_alphabet/verification/tower_alphabet_Y15_run.txt`).**
+124 054 Fox computations at 40 digits (7 124 s of three workers): distribution of h¹ over the 1 860 496 characters
+{0: 1 857 773, 1: 2 723}, accepted and rejected singular values 32 orders apart (1.1 · 10⁻⁶ vs 10⁻³⁸), deck invariance
+checked on 30 full orbits with no mismatch, the 143 positives of order ≤ 60 confirmed exactly over ℚ(ζ_order) with three
+zero controls, and the support **2 723 by order {2: 3, 11: 20, 22: 60, 31: 60, 62: 180, 341: 600, 682: 1 800} — the
+criterion's numbers, order for order.** The criterion is thereby validated by the independent Fox calculus at every
+level 2 … 15 in full, and on Y₂₀'s 41- and 11-parts.

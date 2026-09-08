@@ -1,0 +1,9 @@
+=== the one-triplet line (D in generation 1, Dbar in 3, N in 2) with <N_2> alone ===
+  light pairs per sector: {'T': 3, 'H': 5, 'Q': 3, 'u^c': 3, 'e^c': 3}
+  exactly massless, colour-triplet sector: rows ["d^c'1", "d^c'2", "d^c'3"], cols ['d^c1', 'd^c2', 'd^c3']  (the three d^c pairs; no D, no Dbar)
+  exactly massless, doublet sector: rows ['H_u2', "L'1", "L'2", "L'3", "H_d'2"], cols ['L1', 'L2', 'L3', 'H_d2', "H_u'2"]  (the three lepton doublets and ONE Higgs pair, H_u2 H_d2)
+  the flavon-only sectors Q, u^c, e^c: 3, 3, 3 light pairs each (all three generations)
+  the same counts for all six generation assignments: True
+  up-type Yukawa matrix Q_i u^c_j H_u,2 (family tensor |eps_{i j 2}|): [[0, 0, 1], [0, 0, 0], [1, 0, 0]]  -> rank 2, generation 2 massless, generations [1, 3] paired off-diagonally
+
+SELFTEST: PASS

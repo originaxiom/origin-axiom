@@ -211,7 +211,9 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
 - **The one-triplet vacua (B1302).** On 768 of Y₁₂'s lines a tree-level flat direction leaves **one vector-like
   generation with two Higgs doublets and no exotic colour triplet** (exactly one light triplet pair, the light
   generation's d^c; Y₉ never below two): the doublet–triplet problem solved at tree level on the tower, in the closing's
-  vector-like sense. One light generation, not three; the chirality wall (B1280, B1290) unchanged.
+  vector-like sense. **Addendum: with ⟨N_{g₂}⟩ alone the same lines carry three generations of SM matter with
+  right-handed neutrinos, one Higgs pair and no exotic — the MSSM's content, vector-like — with rank-2 Yukawas (one
+  massless generation, two degenerate).** The chirality wall (B1280, B1290) unchanged.
 - **The 2×2 criterion (B1303).** π₁(Y_n) is the fixed quotient of the fibre's monodromy, so h¹ of every closing is a
   product of n small matrices: the tower's supports through Y₂₁ in minutes, **the law corrected** (the supported odd
   characters are the half-deck's eigencharacters with a global sign of Ψⁿ, + at even levels: new odd support only at

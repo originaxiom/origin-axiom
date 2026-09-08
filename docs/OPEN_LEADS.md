@@ -2514,6 +2514,11 @@ the tower's new 2-adic supports are at 3, 6, 12 only (Carmichael's exceptional F
 registered, not claimed). The criterion's product is unipotent on every non-trivial character (B1304 §2): (iv) is the
 vanishing of a rank-one nilpotent.
 
+**L210 status 2026-09-08 (B1302 addendum, the three-generation reading):** the one-triplet lines with ⟨N_{g₂}⟩ alone carry
+the MSSM's content in three generations (vector-like, no exotic, one Higgs pair) with rank-2 Yukawas — the next
+question is the flavour structure: whether the exponential sector or the flavon moduli split the degenerate pair and
+lift the massless generation (L201 in its proper form, on this vacuum).
+
 **L210 status 2026-09-08 (B1302):** (ii) answered — yes: 768 of Y₁₂'s lines admit a flat direction with exactly one light
 triplet pair (the light generation's d^c) and three light doublet pairs; Y₉ never below two. (i) half done: Y₁₃ came out
 as predicted (1 040 eigencharacters at 521); Y₁₅ in progress. (iii), (iv) open.

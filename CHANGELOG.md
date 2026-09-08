@@ -1,5 +1,10 @@
 # Changelog
 
+## B1302 addendum — the three-generation reading of the one-triplet lines
+
+With ⟨N_{g₂}⟩ alone: three generations of SM matter with right-handed neutrinos, one Higgs pair, no exotic, vector-like,
+on Y₁₂'s 768 lines; rank-2 Yukawas through the light Higgs (generation g₂ massless, the other two degenerate).
+
 ## B1304 — the 2-adic tower ends at Y₁₂: Y₂₄ is Y₁₂ pulled back; the criterion's product is unipotent on every character
 
 Y₂₄'s 1 024-element 2-primary subgroup carries exactly Y₁₂'s support; same alphabet, lines, thinning and one-triplet vacua.
