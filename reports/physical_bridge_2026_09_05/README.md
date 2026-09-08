@@ -1,6 +1,18 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [R20's source symmetry and global-parent lift](HOLONOMY_EQUIVARIANCE.md).**
+**Latest: [R21's anomaly completion and holonomy cost](ANOMALY_COMPLETION.md).**
+The actual subgroup has an anomaly-free added-field completion with
+explicit kinetic/mass terms and an integral local axion coefficient.
+It does not require a forbidden fundamental 27 of E6/Z3. Its charge-four
+Higgs is not parallel in the same holonomy; parallel singlets preserve
+a Z3 anomalous on the three-spinor-only spectrum. Nonparallel fields,
+defects/inflow and their internal mode supply remain open. Spin(10)
+breaking, a neutral 4D limit, common gravity and empirical predictions
+are not obtained. Seals 6a08d343/d21189d6; 46 initial focused passes,
+17 original/action passes; 267 broad passes with the same 13 failures
+and 8 errors as R20. No B allocation or complete TOE/main bank.
+
+**Preceding: [R20's source symmetry and global-parent lift](HOLONOMY_EQUIVARIANCE.md).**
 The full C3-compatible adjoint character locus consists of trivial
 transport and a conjugate pair. The pair gives three/zero and is one
 isometry orbit. It preserves the symmetry in E6/Z3; none of its nine

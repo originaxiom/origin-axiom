@@ -1,6 +1,19 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [R20's source symmetry and global lift](HOLONOMY_EQUIVARIANCE.md).
+Latest: [R21's actual-subgroup anomaly completion](ANOMALY_COMPLETION.md).
+An explicit root-datum map gives an anomaly-free H representation
+containing the actual positive adjoint spinor. Added vector/singlet
+matter and a charge-four Higgs admit consistent masses, leaving chiral
+Spin(10), not yet the SM. The Higgs cannot be parallel in the unchanged
+pair-free holonomy; a parallel charge-twelve Higgs leaves a nonzero
+Z3 anomaly for only three spinors. No universal anomaly kill or
+three-family selection follows. Geometric fields, finite-energy
+profiles, interactions and gravity remain to be constructed. Original
+46 focused checks pass; 17 original/action checks pass; expanded broad
+267 pass / 13 fail / 8 error, same failed/error IDs as R20. First broad
+stdout loss is explicitly recorded; expanded capture is complete.
+
+Preceding: [R20's source symmetry and global lift](HOLONOMY_EQUIVARIANCE.md).
 The C3-fixed adjoint characters have a pair-free nontrivial isometry
 orbit, giving three/zero in the same prescribed complex. That orbit
 is compatible with E6/Z3, not with a scalar simply connected E6 lift

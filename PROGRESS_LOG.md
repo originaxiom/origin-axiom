@@ -14540,3 +14540,49 @@ lead updated; no B allocation or full-main-bank claim.
 Source: reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md.
 All incoming heads fetched; SM advances to 3f4ce9af. Its new closed-tower
 results retain vector-like scope and were not imported as our completion.
+
+### 2026-09-08 — Path-local R21: anomaly completion and its internal holonomy cost
+
+Continued PB-BOUNDARY, not a different physical goal. Seals 6a08d343
+and d21189d6 precede their first computations. The exact H root-datum
+map to a simply connected centralizer pulls back a genuine 27-shaped
+representation containing R19's ACTUAL positive adjoint spinor. Added
+three 10_(-2) and three 1_(4) Weyl multiplets cancel local/global
+anomalies; a charge-four scalar has gauge-invariant mass terms for all
+33 added components, leaving chiral Spin(10), not yet the SM.
+
+Full weight-polynomial factorization I6=t*(3Q-p1(T)/2) and the explicit
+integral pullback 3Q=3Q'-t^2 certify a periodic local counterterm for
+net three. One-/two-copy enlarged matter controls also cancel, so this
+does not derive a family count. The action control differentiates
+actual kinetic/potential/monomials and verifies gauge covariance and
+anomaly descent, rather than merely asserting a displayed mass.
+
+The SAME order-three holonomy gives H0=0 for a charge-four parallel
+Higgs. All allowed parallel singlets have charges divisible by twelve;
+they retain a gauge Z3, distinct from the source isometry. Its actual
+spinor action has eta=1/3 on three copies; neutral, vectorlike and
+complete-representation controls pass. This closes only a parallel-
+Higgs-only shortcut with no other anomaly-carrying sector. Next compute
+finite-energy nonparallel fields or actual defect/inflow content,
+their internal modes and backreaction, then recheck the charged operator.
+Source selection, remaining gauge breaking, neutral 4D limit and gravity
+are not supplied by the conditional EFT; the full TOE remains unachieved.
+
+Native first outputs succeed; 46 initial focused checks and 17 original/
+action checks pass. First broad run 262 pass/13 fail/8 error has a
+reconstructed summary: its observed full stdout was not saved before
+the continuation reset, and that loss is disclosed. The separate
+expanded 40-file run is fully saved: 267 pass/13 fail/8 error in
+248.60 s, zero added/missing failed/error IDs relative to R20.
+Original source/tests remain unchanged; no full-repository green claim.
+
+All heads fetched; main 31dd52b9, SM 13d965a9, physics 659487bb,
+outside 08fc05a1. Both CC numbering relays read: no B ID is taken.
+Old B796 GS discussion recovered and credited. Main B1302's no-twist
+theorem is cusp-trivial and does not kill R19/R20's other transport.
+Its bounded golden-factor grid is not inherited as a universal theorem.
+Reports, FINDINGS, all reader ledgers, framework/ladder, scoped laws and
+the open duty updated. Independent/main banking remains unpaid; only
+this audit branch is the authorized push destination. Source:
+reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md.

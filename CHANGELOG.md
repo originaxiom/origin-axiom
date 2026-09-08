@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-08 — Path-local R21: actual-subgroup anomaly completion and holonomy cost
+
+The subgroup H in E6/Z3 admits a root-datum pullback of 16_(1)+10_(-2)
++1_(4), with the spinor exactly the positive adjoint sector. Added
+vector/singlet matter cancels its anomaly; explicit charged-Higgs
+kinetic/mass terms leave the chiral Spin(10) sector. The charge-four
+Higgs is not parallel in the existing holonomy, while parallel singlets
+preserve a Z3 anomalous on only three spinors. A finite-energy profile/
+defect/inflow construction remains required; no universal kill or
+three-family selection. 46 initial focused checks pass; 17 original/
+action checks pass. Expanded regression: 267 pass / 13 fail / 8 error,
+same failed/error IDs as R20. First broad stdout loss explicitly
+recorded; expanded full capture retained. No B allocation or TOE claim.
+Report: reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md.
+
 ## 2026-09-08 — Path-local R20: source-compatible holonomy and its global lift
 
 The source C3 fixes three adjoint characters. Its nontrivial pair gives

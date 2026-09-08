@@ -1,6 +1,22 @@
-# Verdict toward the full physical-theory goal — 2026-09-08, after path-local R20
+# Verdict toward the full physical-theory goal — 2026-09-08, after path-local R21
 
-**Newest movement:** [R20](HOLONOMY_EQUIVARIANCE.md) computes the
+**Newest movement:** [R21](ANOMALY_COMPLETION.md) constructs and tests
+an anomaly-free added-field EFT on the ACTUAL unbroken subgroup, with
+quantized local anomaly matching and gauge-invariant spectator masses.
+It leaves the original chiral Spin(10) content and a massive extra U1;
+it does not already give the Standard Model. No forbidden parent 27
+is assumed. The charge-four Higgs cannot be parallel in the existing
+holonomy, while parallel singlets leave an anomalous Z3 if only the
+three spinors remain. This identifies a real finite-energy profile/
+defect/inflow problem, not an impossibility of completion. Added fields,
+their internal modes, source choices, remaining symmetry breaking,
+neutral 4D limit and gravity are not derived. The full TOE is unachieved.
+Seals 6a08d343/d21189d6; native checks succeed, 46 initial focused and
+17 original/action tests pass; broad 267 pass / 13 fail / 8 error,
+with no new failed/error IDs. The first broad stdout loss is recorded,
+not concealed by relabeling the separate expanded run.
+
+**Preceding movement:** [R20](HOLONOMY_EQUIVARIANCE.md) computes the
 source-symmetry compatibility rather than assuming it. One nontrivial
 C3-compatible adjoint-character orbit gives the three/zero kernel.
 It survives in E6/Z3 but has no scalar simply connected E6 lift

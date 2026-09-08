@@ -1,0 +1,15 @@
+R21 focused tests, 2026-09-08. Seal 6a08d343 precedes first execution.
+12 new tests plus the unchanged R18/R19 and successful R20 control.
+Exit 0; 46 passed, one optional-GUI warning, 19.19 s.
+Only the environment prefix is redacted; raw capture retained locally.
+
+$ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest -q tests/test_physical_bridge_anomaly_completion.py tests/test_physical_bridge_holonomy_spectrum.py tests/test_physical_bridge_weighted_cohomology.py tests/test_physical_bridge_holonomy_equivariance_word_control.py
+
+..............................................                           [100%]
+=============================== warnings summary ===============================
+tests/test_physical_bridge_holonomy_spectrum.py::test_actual_presentation_asphericity_hypotheses_and_power_mutants
+  <PYTHON_ENV>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+46 passed, 1 warning in 19.19s

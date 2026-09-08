@@ -1,5 +1,38 @@
 # Failures retained, not rewritten as successful runs
 
+## R21 first-run success, stdout loss and expanded regression (2026-09-08)
+
+Original seal 6a08d343: exact native run succeeds, 46 focused tests
+pass. Separate action-control seal d21189d6: native run succeeds,
+17 original/control tests pass. Neither original scientific source
+nor test is modified after execution. The parallel-Higgs restriction
+is a tested ansatz limitation, not a failed instrument or universal kill.
+
+First 39-file broad run: 262 pass/13 fail/8 error in 230.58 s, observed
+terminal exit one. Its in-memory full stdout did not survive the next
+continuation; the handle 49264 was checked and missing. No claim of
+raw recovery is made. ANOMALY_COMPLETION_REGRESSION_FIRST_SUMMARY.txt
+preserves the visible counts and the transcribed 21 failed/error IDs;
+those match R20 exactly. Original JSON/focused receipts were already
+saved and survived. This is a real recordkeeping defect, not excused
+by a later passing control.
+
+The separately expanded 40-file run finishes at exit one: 267 pass,
+13 fail, 8 error, one optional-GUI warning, 248.60 s. Every traceback
+is captured in ANOMALY_COMPLETION_REGRESSION.txt and its locally
+excluded raw counterpart. Zero added/missing failed/error IDs against
+R20. This new run is not relabeled the first run; the original missing
+full stdout is still missing. No baseline/tolerance or old failure is
+erased, and no complete-repository green is claimed.
+
+The web connector returned HTTP 401 token_revoked after the requested
+CLI logout. Public primary PDFs were retrieved directly; no account
+was logged back in and scientific progress was not blocked.
+Current reporting gates are recorded in ANOMALY_COMPLETION_GATES.txt.
+They return 27 pass / 3 fail, review due at 122 merges. Earlier
+attribution/static-vacuity/provenance debts remain unpaid; there is
+no new failed gate and no baseline waiver.
+
 ## R20 basis-transfer failure and exact-word control (2026-09-08)
 
 Reporting gates return 27 pass / 3 fail, review due at 119 merges,

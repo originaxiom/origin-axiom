@@ -1,10 +1,10 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
-2026-09-08, updated after R20 and the named partial-filling verification.
+2026-09-08, updated after R21 and the named partial-filling verification.
 This ranks remaining duties of the constructions audited here. It is
 not a theorem that the repository, its other branches, or the object
 cannot supply them. All remote heads were fetched again; latest main
-c78003cd, physics 659487bb, SM 3f4ce9af, outside-bench 8a5d6e6f.
+31dd52b9, physics 659487bb, SM 13d965a9, outside-bench 08fc05a1.
 Newer received conclusions are not accepted merely because fetched.
 
 ## 1. A common physical theory and its genuine inputs
@@ -25,6 +25,13 @@ C3-compatible orbit in E6/Z3 from its obstructed scalar simply connected
 lift. The older fundamental-27 Higgs fields do not descend to this
 quotient. The partial filling chooses a marked cover/cusp/slope.
 Combining their headlines is not yet one theory deriving those choices.
+
+R21 now has an explicit H-subgroup anomaly-free completion without a
+forbidden parent 27, but adds 33 Weyl components, a charged scalar,
+potential and scales. It has a valid four-dimensional EFT action;
+the new fields are not yet internal modes of the sourced construction.
+Its charge-four Higgs must be nonparallel or localized in the current
+holonomy. This narrows a concrete common-action construction duty.
 
 **Strategy:** list the actual maps from source data to fields, kinetic
 terms, interactions, boundary data and observables. For each apparent
@@ -66,14 +73,20 @@ does not choose the domain. R18 supplies the previously owed global
 comparison in the declared strong maximal class. Its complete kernel
 does not select that class physically. R19 removes the extra pair in
 an explicitly changed flat background, not by deriving that background.
-The net-three extra-U(1) anomaly remains unchanged. The neutral cusp
+The light net-three extra-U(1) anomaly remains unchanged; R21 cancels
+it in a specified enlarged EFT, not yet in the sourced geometry. The neutral cusp
 low-energy channel also remains: a finite charged kernel is not a
 decoupling theorem for a finite four-dimensional effective theory.
 
 **Strategy:** keep the sourced m202 path as the immediate calculational
-priority. R20 now computes the source-compatible scalar characters and
-their parent lift. Next build a global-form-compatible anomaly/defect
-and interaction completion; also test noncentral simply connected
+priority. R20 computes the source-compatible scalar characters and
+their parent lift. R21 tests an actual global-form-compatible enlarged
+EFT and excludes only its unchanged-holonomy parallel-Higgs shortcut.
+Next solve for a finite-energy nonparallel Higgs or an actual defect/
+inflow sector, derive its internal modes and backreaction, and recheck
+the charged spectrum and anomaly matching in that action. Parallel
+singlet VEVs alone retain a Z3 anomalous on only three spinors; additional
+anomaly-carrying content must not be dropped. Also test noncentral simply connected
 transport as an unexcluded alternative to the scalar quotient route.
 Selecting the nontrivial orbit or the physical global form still
 requires dynamics or a declared input, not the symmetry menu alone.
@@ -92,7 +105,8 @@ not just net Euler three. A failure in one amplitude/domain class
 closes that class, not all singular or cusped backgrounds.
 Sources: [R15](GLOBAL_SINGULAR.md), [R16](CHARGED_DOMAIN.md),
 [R17](CUSP_TAIL.md), [R18](WEIGHTED_COHOMOLOGY.md),
-[R19](HOLONOMY_SPECTRUM.md), [R20](HOLONOMY_EQUIVARIANCE.md).
+[R19](HOLONOMY_SPECTRUM.md), [R20](HOLONOMY_EQUIVARIANCE.md),
+[R21](ANOMALY_COMPLETION.md).
 
 ## 3. Gravity in the same four-dimensional dynamical theory
 

@@ -1,0 +1,389 @@
+{
+  "anomaly": {
+    "Q": "2*z0**2/3 + z0*z1 + 5*z0*z2/3 + 2*z0*z3 + 4*z0*z4/3 + 2*z0*z5/3 + z1**2 + 2*z1*z2 + 3*z1*z3 + 2*z1*z4 + z1*z5 + 5*z2**2/3 + 4*z2*z3 + 8*z2*z4/3 + 4*z2*z5/3 + 3*z3**2 + 4*z3*z4 + 2*z3*z5 + 5*z4**2/3 + 5*z4*z5/3 + 2*z5**2/3",
+    "X4": "-p1_T/2 + 2*z0**2 + 3*z0*z1 + 5*z0*z2 + 6*z0*z3 + 4*z0*z4 + 2*z0*z5 + 3*z1**2 + 6*z1*z2 + 9*z1*z3 + 6*z1*z4 + 3*z1*z5 + 5*z2**2 + 12*z2*z3 + 8*z2*z4 + 4*z2*z5 + 9*z3**2 + 12*z3*z4 + 6*z3*z5 + 5*z4**2 + 5*z4*z5 + 2*z5**2",
+    "character": "4*z0 + 3*z1 + 5*z2 + 6*z3 + 4*z4 + 2*z5",
+    "completed_anomalies": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "9": 0
+    },
+    "direct_pulled_27_anomaly": 0,
+    "factorization": true,
+    "general_copy_identity": true,
+    "independent_D5_identity": true,
+    "integral_class_pullback_identity": true,
+    "levels": {
+      "1": false,
+      "2": false,
+      "3": true,
+      "6": true
+    },
+    "minimum_quadratic_level": 3,
+    "missing_singlet_nonzero": true,
+    "one_copy_formal_X4": "4/3",
+    "orthonormal_spinor_count": 16,
+    "pullback_Q": "6*z0**2 + 9*z0*z1 + 15*z0*z2 + 18*z0*z3 + 12*z0*z4 + 6*z0*z5 + 4*z1**2 + 12*z1*z2 + 15*z1*z3 + 10*z1*z4 + 5*z1*z5 + 10*z2**2 + 24*z2*z3 + 16*z2*z4 + 8*z2*z5 + 15*z3**2 + 20*z3*z4 + 10*z3*z5 + 7*z4**2 + 7*z4*z5 + 2*z5**2",
+    "spectator_anomaly": "2*p1_T*z0 + 3*p1_T*z1/2 + 5*p1_T*z2/2 + 3*p1_T*z3 + 2*p1_T*z4 + p1_T*z5 - 8*z0**3 - 18*z0**2*z1 - 30*z0**2*z2 - 36*z0**2*z3 - 24*z0**2*z4 - 12*z0**2*z5 - 21*z0*z1**2 - 54*z0*z1*z2 - 72*z0*z1*z3 - 48*z0*z1*z4 - 24*z0*z1*z5 - 45*z0*z2**2 - 108*z0*z2*z3 - 72*z0*z2*z4 - 36*z0*z2*z5 - 72*z0*z3**2 - 96*z0*z3*z4 - 48*z0*z3*z5 - 36*z0*z4**2 - 36*z0*z4*z5 - 12*z0*z5**2 - 9*z1**3 - 33*z1**2*z2 - 45*z1**2*z3 - 30*z1**2*z4 - 15*z1**2*z5 - 45*z1*z2**2 - 117*z1*z2*z3 - 78*z1*z2*z4 - 39*z1*z2*z5 - 81*z1*z3**2 - 108*z1*z3*z4 - 54*z1*z3*z5 - 39*z1*z4**2 - 39*z1*z4*z5 - 12*z1*z5**2 - 25*z2**3 - 90*z2**2*z3 - 60*z2**2*z4 - 30*z2**2*z5 - 117*z2*z3**2 - 156*z2*z3*z4 - 78*z2*z3*z5 - 57*z2*z4**2 - 57*z2*z4*z5 - 18*z2*z5**2 - 54*z3**3 - 108*z3**2*z4 - 54*z3**2*z5 - 78*z3*z4**2 - 78*z3*z4*z5 - 24*z3*z5**2 - 20*z4**3 - 30*z4**2*z5 - 18*z4*z5**2 - 4*z5**3",
+    "spin_S2xS2_Q": "4/3",
+    "spin_S2xS2_X4": 4,
+    "spinor_I6": "-2*p1_T*z0 - 3*p1_T*z1/2 - 5*p1_T*z2/2 - 3*p1_T*z3 - 2*p1_T*z4 - p1_T*z5 + 8*z0**3 + 18*z0**2*z1 + 30*z0**2*z2 + 36*z0**2*z3 + 24*z0**2*z4 + 12*z0**2*z5 + 21*z0*z1**2 + 54*z0*z1*z2 + 72*z0*z1*z3 + 48*z0*z1*z4 + 24*z0*z1*z5 + 45*z0*z2**2 + 108*z0*z2*z3 + 72*z0*z2*z4 + 36*z0*z2*z5 + 72*z0*z3**2 + 96*z0*z3*z4 + 48*z0*z3*z5 + 36*z0*z4**2 + 36*z0*z4*z5 + 12*z0*z5**2 + 9*z1**3 + 33*z1**2*z2 + 45*z1**2*z3 + 30*z1**2*z4 + 15*z1**2*z5 + 45*z1*z2**2 + 117*z1*z2*z3 + 78*z1*z2*z4 + 39*z1*z2*z5 + 81*z1*z3**2 + 108*z1*z3*z4 + 54*z1*z3*z5 + 39*z1*z4**2 + 39*z1*z4*z5 + 12*z1*z5**2 + 25*z2**3 + 90*z2**2*z3 + 60*z2**2*z4 + 30*z2**2*z5 + 117*z2*z3**2 + 156*z2*z3*z4 + 78*z2*z3*z5 + 57*z2*z4**2 + 57*z2*z4*z5 + 18*z2*z5**2 + 54*z3**3 + 108*z3**2*z4 + 54*z3**2*z5 + 78*z3*z4**2 + 78*z3*z4*z5 + 24*z3*z5**2 + 20*z4**3 + 30*z4**2*z5 + 18*z4*z5**2 + 4*z5**3",
+    "two_copy_formal_X4": "8/3",
+    "vectorlike_anomaly": 0,
+    "wrong_counterterm_nonzero": true
+  },
+  "holonomy": {
+    "completed_eta": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "9": 0
+    },
+    "coprime": 1,
+    "eta_single_charge": {
+      "0": 0,
+      "1": "1/9",
+      "2": "-1/9"
+    },
+    "eta_spinor_copies": {
+      "1": "7/9",
+      "2": "5/9",
+      "3": "1/3",
+      "9": 0
+    },
+    "eta_three_spinors_inverse": "2/3",
+    "geometric_completion": false,
+    "h0_scalar_nontrivial": 0,
+    "independent_net_charge_mod9": 3,
+    "object_derives_added_fields": false,
+    "residual_Z3_order": 3,
+    "residual_generator_character": "4/3",
+    "rows": [
+      {
+        "charge": 0,
+        "parallel_h0": 1,
+        "phases": [
+          1,
+          1
+        ],
+        "singlet_allowed": true
+      },
+      {
+        "charge": 1,
+        "parallel_h0": 0,
+        "phases": [
+          "-1/2 + sqrt(3)*I/2",
+          "-1/2 - sqrt(3)*I/2"
+        ],
+        "singlet_allowed": false
+      },
+      {
+        "charge": -2,
+        "parallel_h0": 0,
+        "phases": [
+          "-1/2 + sqrt(3)*I/2",
+          "-1/2 - sqrt(3)*I/2"
+        ],
+        "singlet_allowed": false
+      },
+      {
+        "charge": 4,
+        "parallel_h0": 0,
+        "phases": [
+          "-1/2 + sqrt(3)*I/2",
+          "-1/2 - sqrt(3)*I/2"
+        ],
+        "singlet_allowed": true
+      },
+      {
+        "charge": 8,
+        "parallel_h0": 0,
+        "phases": [
+          "-1/2 - sqrt(3)*I/2",
+          "-1/2 + sqrt(3)*I/2"
+        ],
+        "singlet_allowed": true
+      },
+      {
+        "charge": 12,
+        "parallel_h0": 1,
+        "phases": [
+          1,
+          1
+        ],
+        "singlet_allowed": true
+      }
+    ],
+    "smallest_parallel_singlet_charge": 12,
+    "three_generations_forced_by_axion": false,
+    "vectorlike_eta": 0
+  },
+  "lattice": {
+    "F": [
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "actual_positive_spinor": true,
+    "cartan": [
+      [
+        2,
+        0,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        2
+      ]
+    ],
+    "character_gcd": 1,
+    "cocharacter_map": [
+      [
+        4,
+        3,
+        5,
+        6,
+        4,
+        2
+      ],
+      [
+        3,
+        3,
+        5,
+        6,
+        4,
+        2
+      ],
+      [
+        5,
+        5,
+        7,
+        9,
+        6,
+        3
+      ],
+      [
+        6,
+        6,
+        9,
+        12,
+        8,
+        4
+      ],
+      [
+        4,
+        4,
+        6,
+        8,
+        6,
+        3
+      ],
+      [
+        2,
+        2,
+        3,
+        4,
+        3,
+        2
+      ]
+    ],
+    "d5_coroot_maximal_minors": [
+      -2,
+      4,
+      -6,
+      5,
+      -3,
+      4
+    ],
+    "d5_coroot_saturation_index": 1,
+    "d5_metric_preserved": true,
+    "d5_root_count": 40,
+    "d5_roots_preserved": true,
+    "direction": [
+      [
+        "4/3"
+      ],
+      [
+        1
+      ],
+      [
+        "5/3"
+      ],
+      [
+        2
+      ],
+      [
+        "4/3"
+      ],
+      [
+        "2/3"
+      ]
+    ],
+    "direction_tripled": true,
+    "inverse_integral": true,
+    "map_determinant": -1,
+    "map_integral": true,
+    "no_swap_integral": false,
+    "no_swap_same_spinor": false,
+    "original_27_spinor_not_same": true,
+    "pullback_charge_dimensions": {
+      "-2": 10,
+      "1": 16,
+      "4": 1
+    },
+    "pullback_integral": true,
+    "scalar_from_cube": true,
+    "scalar_weight_4": [
+      [
+        4
+      ],
+      [
+        3
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        4
+      ],
+      [
+        2
+      ]
+    ],
+    "singlet_character_row": [
+      [
+        4,
+        3,
+        5,
+        6,
+        4,
+        2
+      ]
+    ],
+    "singlet_charges": {
+      "-1": false,
+      "-2": false,
+      "-3": false,
+      "-4": true,
+      "0": true,
+      "1": false,
+      "10": false,
+      "11": false,
+      "12": true,
+      "2": false,
+      "3": false,
+      "4": true,
+      "5": false,
+      "6": false,
+      "7": false,
+      "8": true,
+      "9": false
+    }
+  },
+  "masses": {
+    "charge12_singlet_mass_exponent": "-2/3",
+    "charge12_vector_mass_exponent": "1/3",
+    "gauge_mass_squared": "16*f**2*g**2",
+    "radial_mass_squared": "2*f**2*lambda",
+    "radial_stationary": 0,
+    "singlet_dimension": 1,
+    "singlet_mass": "f**2*yN/(2*M)",
+    "singlet_mass_weight_cancellation": true,
+    "spectator_components_for_three": 33,
+    "vector_D5_weights_self_dual": true,
+    "vector_dimension": 10,
+    "vector_mass": "sqrt(2)*f*yV/2",
+    "vector_mass_weight_cancellation": true,
+    "wrong_mass_charge": 12
+  },
+  "runtime_seconds": 1.091993084999558,
+  "sympy_version": "1.14.0"
+}

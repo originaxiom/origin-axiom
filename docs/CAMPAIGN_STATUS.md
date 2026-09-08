@@ -1,6 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-**LATEST LOCAL AUDIT (2026-09-08, path-local R20): source-compatible pair-free orbit.**
+**LATEST LOCAL AUDIT (2026-09-08, path-local R21): an actual subgroup anomaly completion.**
+An exact root-datum map gives H an anomaly-free enlarged representation
+containing the original chiral spinor. Explicit scalar/gauge/spectator
+mass terms and integral anomaly matching work. But the charge-four
+Higgs is not parallel in the unchanged holonomy, and parallel singlets
+retain an anomalous Z3 for the three-spinor-only sector. NEXT: actual
+finite-energy nonparallel or defect/inflow fields, their internal modes
+and backreaction; then recheck the charged operator. Spin(10)-to-SM,
+neutral 4D limit, source selection and gravity remain open. 46 initial
+focused passes, 17 original/action passes, 267 broad passes with the
+same 13 failures/8 errors as R20. No B allocation or complete TOE.
+Source: reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md.
+
+**PRECEDING LOCAL AUDIT (2026-09-08, path-local R20): source-compatible pair-free orbit.**
 The exact source C3 action leaves a trivial character and a nontrivial
 pair: four/one versus three/zero in the prescribed maximal complex.
 The pair is one isometry orbit, compatible with E6/Z3 but with no

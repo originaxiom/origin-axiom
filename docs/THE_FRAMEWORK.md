@@ -1,5 +1,19 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Actual-subgroup anomaly completion, 2026-09-08 (path-local R21):**
+The H centralizer in R20's E6/Z3 parent admits a genuine pullback
+representation 16_(1)+10_(-2)+1_(4), whose spinor is exactly R19's
+positive adjoint sector. Added vectors/singlets plus a charge-four
+Higgs give an anomaly-free EFT and gauge-invariant spectator masses,
+with an integral local anomaly-matching term; Spin(10) remains.
+The new Higgs cannot be parallel in the unchanged pair-free holonomy.
+Parallel singlets preserve a Z3 anomalous on only the three spinors.
+Nonparallel fields or actual defect/inflow content and their internal
+modes must therefore be constructed, not named. This is a positive
+conditional completion, not a parent 27, a three-family selector,
+an independently reviewed reduction, or the full TOE. Source/tests:
+`reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md`.
+
 **Source symmetry and global form, 2026-09-08 (path-local R20):**
 In the prescribed scalar-holonomy m202 source model, C3-compatible
 adjoint characters form two isometry orbits: trivial (four/one) and a

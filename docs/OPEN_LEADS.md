@@ -2614,6 +2614,23 @@ and orbit choice. The pair is one isometry orbit, not an automatic
 two-vacuum count. No orbifold invariant-subspace spectrum was computed.
 Keep the neutral-sector 4D limit and common gravity independently open.
 
+**R21 movement on PB-BOUNDARY (2026-09-08):** closing sentence:
+"The actual quotient-parent subgroup admits an anomaly-free added-field
+completion of the three-spinor sector, while an unchanged-holonomy
+parallel-singlet Higgs alone cannot leave just those spinors with a
+consistent residual gauge theory." Source:
+reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md, section 5.
+Only that added-field/parallel-Higgs sub-duty is closed; PB-BOUNDARY
+stays OPEN. NEXT: construct finite-energy nonparallel charged-Higgs
+profiles or an actual defect/inflow sector, derive the added internal
+modes and their action/backreaction, and recompute the charged spectrum.
+The charge-four field has no parallel section, while parallel singlets
+preserve a gauge Z3 with eta=1/3 for the three-spinor-only spectrum.
+Do not confuse it with the geometric C3 or drop compensating matter/
+topological sectors. The EFT permits any family multiplicity; axion
+arithmetic does not derive three. Spin(10)-to-SM breaking, the neutral
+4D limit, source/global-form selection and gravity remain separate duties.
+
 **PB-PARTIAL-FILLING — boundary theory on the certified marked witness. OPEN.**
 The degree-five decorated cover filled at cusp 0 (2,1) now has
 interval-certified hyperbolicity, two complete cusps, and CS outside

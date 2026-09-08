@@ -201,3 +201,42 @@ Reporting gates: 27 pass / 3 fail, review due at 119 merges; receipt
 HOLONOMY_EQUIVARIANCE_GATES.txt. Same attribution/static-vacuity/older
 provenance debts. No baseline or exemption changed. Authored staged
 whitespace passes; raw pytest trailing spaces remain in the regression.
+
+## R21 update (2026-09-08), an actual subgroup completion with a geometric duty
+
+CC's 09-06 and 09-08 full numbering relays and SM alias table were
+read at fetched main 31dd52b9. The later relay confirms audit:R labels
+and the optional B1284--B1289 buffer, and schedules audit harvest on
+main as B1304. This audit takes no B ID; no alias collision is created.
+Latest other inspected pins: physics 659487bb, SM 13d965a9, outside
+08fc05a1. No source branch is merged or sent an external relay.
+
+Original R21 seal 6a08d343 and action-control seal d21189d6 precede
+their first execution. All four source/test files remain unchanged.
+The action-control pre-execution gate recomputes 52 matching sealed
+design hashes; the older literal-provenance omissions remain declared.
+Native outputs succeed, 46 initial focused and 17 original/action
+checks pass. The full H weight map, anomaly, kinetic/mass terms and
+residual gauge action are computed, not inferred from labels.
+
+The first broad stdout capture was lost from memory before banking;
+its reconstructed summary is explicitly marked. The separate expanded
+40-file run is fully preserved: 267 pass/13 fail/8 error, exactly the
+R20 failed/error set. All runs were quiescent; no old assertions or
+governance baselines are altered to claim a clean full-repository suite.
+
+Report/FINDINGS/index/verdict/strategy/failure record, changelog,
+progress log, campaign, framework, inline X33, four scoped law rows
+and the PB-BOUNDARY sub-duty are updated. The enlarged H EFT is not
+yet the common sourced theory: its charge-four Higgs is nonparallel,
+and parallel singlets alone retain an anomalous Z3 on three spinors.
+Added internal matter, finite-energy profiles or defect/inflow fields,
+SM breaking, neutral 4D limit and gravity remain registered.
+Independent receiving-seat acceptance and full main banking remain
+unpaid. The authorized publication destination is this audit branch,
+not main, a PR or the mirror. Reporting gates have their own receipt.
+
+Reporting gates: 27 pass / 3 fail, review due at 122 merges; receipt
+ANOMALY_COMPLETION_GATES.txt. Same attribution/static-vacuity/older
+provenance debts as R20. New seals and reader-currency checks pass;
+authored staged whitespace is clean. No full-main-bank acceptance.
