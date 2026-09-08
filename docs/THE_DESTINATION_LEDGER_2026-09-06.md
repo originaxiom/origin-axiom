@@ -154,6 +154,17 @@ never none. Row 4's mechanism therefore exists in the tower one step short of th
 generation g₀ differs from the vacuum branch's g, on which ⟨N_g⟩ pairs D_{g₀} with a surviving D̄ and generation g's Higgs
 pair alone stays light (L210).
 
+## 4h. The one-triplet vacua (B1302, 2026-09-08)
+
+§4g's computation, done: on 768 of Y₁₂'s 34 752 lines — D surviving in generation g₀, D̄ in g₁, N only in g₂ — the flat
+direction ⟨N_{g₂}⟩ with the flavon pair {g₀g₁} gives the surviving triplet and anti-triplet a Dirac mass through
+N_{g₂} D_{g₀} D̄_{g₁}, pairs generations g₀ and g₁ with each other's mirrors, and leaves generation g₂'s 27 ⊕ 27̄ minus its
+(absent) D, D̄ exactly massless: **one vector-like generation with two Higgs doublets and no exotic colour triplet.** On
+Y₉ every flat direction of every line keeps at least two light triplet pairs (§4e's light D pair, reproduced with the
+full mass matrices). So row 4's problem is solved at tree level on the tower in the vector-like sense — by the Wilson
+line's thinning and the vacuum's pairing together. What it does not give: three light generations (the largest light
+doublet count of any configuration is seven of nine) or chirality (B1260; the wall of B1280/B1290 stands).
+
 ## 5. What is expected, in order
 
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the

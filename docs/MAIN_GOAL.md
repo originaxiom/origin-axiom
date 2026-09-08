@@ -208,3 +208,7 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   is its Y₉ instance. **Y₁₂ is a second SM closing (34 752 lines, letters of order 16) on which the Wilson line thins
   the colour triplet to ONE generation on 31 488 lines** — B1300's protection is Y₉'s; in the tower the triplets can be
   thinned two generations deep, never three. Next: Y₁₂'s vacuum on a one-triplet line (L210).
+- **The one-triplet vacua (B1302).** On 768 of Y₁₂'s lines a tree-level flat direction leaves **one vector-like
+  generation with two Higgs doublets and no exotic colour triplet** (exactly one light triplet pair, the light
+  generation's d^c; Y₉ never below two): the doublet–triplet problem solved at tree level on the tower, in the closing's
+  vector-like sense. One light generation, not three; the chirality wall (B1280, B1290) unchanged.

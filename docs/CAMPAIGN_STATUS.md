@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-08, B1302 — THE ONE-TRIPLET VACUA)**: on 768 of Y₁₂'s 34 752 Standard-Model lines a tree-level
+flat direction (⟨N_{g₂}⟩ with the flavon pair of the other two generations) leaves **exactly one light colour-triplet pair —
+the light generation's own d^c — and its three light doublet pairs: one vector-like generation with two Higgs doublets
+and no exotic triplet**. On Y₉ no flat direction of any line goes below two (B1283's light D pair, reproduced). The
+doublet–triplet problem is solved at tree level on the tower, in the closing's vector-like sense; one light generation,
+not three; the chirality wall unchanged. Price unchanged.
+
 **LATEST (2026-09-08, B1301 — THE TOWER'S ALPHABET)**: the h¹ support of every closing Y₂…Y₁₂ obeys a deck-eigen
 law — the odd part is exactly the deck eigencharacters whose eigenvalue is a root of Δ = t² − 3t + 1 of exact order d ≥ 3
 modulo a prime of the Lucas–Fibonacci torsion (Y₁₁'s 396 at the prime 199 predicted before the computation); B1278's 19

@@ -1,0 +1,12 @@
+{
+ "id": "B1302",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1301", "B1283", "B1300", "B1278", "B1276", "B1277"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE ONE-TRIPLET VACUA. On Y_12's 34 752 Standard-Model Wilson lines (B1301; 265 survival patterns of the eleven multiplets over three generations, the mirrors following their partners) every D- and F-flat tree-level VEV configuration of the SM-singlet sector (B1283's rule: at most one N generation, one nu^c generation, one flavon pair, the pair only with the third generation's N and nu^c; fields must exist on the line) is enumerated, and the holomorphic tree-level mass matrices of the colour-triplet sector ((3, -1/3) x (3bar, +1/3): D, the mirrors of d^c and Dbar, against d^c, Dbar, the mirror of D), the doublet sector (H_u, the mirrors of L and H_d, against L, H_d, the mirror of H_u) and the flavon-only sectors are built from the one-coupling cubic's terms with a VEV'd field (N H_u H_d, N D Dbar, nu^c L H_u, nu^c d^c D with the family tensor |eps_ijk|, the mirror cubic, the flavon couplings S_ij 27_j . 27bar_i) with independent symbolic VEVs and couplings; the generic rank is exact (random rational points, twice). RESULT: on 768 of the 34 752 lines -- six patterns x 128: D surviving in one generation g0, Dbar in another g1, N only in the third g2 -- the configuration <N_g2> with the flavon pair (S_g0g1, S_g1g0) and no nu^c VEV leaves EXACTLY ONE light colour-triplet pair, generation g2's own d^c and its mirror, and exactly three light doublet pairs, generation g2's L, H_u, H_d with their mirrors (plus its Q, u^c, e^c pairs and the N_g2 modulus): the light spectrum is one vector-like generation with two Higgs doublets and NO exotic colour triplet -- the doublet-triplet problem solved at tree level, in the closing's vector-like sense, by the Wilson line's thinning (B1301) and the vacuum's pairing (<N_g2> D_g0 Dbar_g1, the flavons pairing generations g0, g1 with each other's mirrors). Best light-triplet count per line on Y_12: 1 on 768, 2 on 14 880, 3 on 19 104; with two light generations' worth of doublets the best is 2 on 2 496 lines. CONTROL: on Y_9 (67 patterns, 706 464 lines) no configuration of any line reaches fewer than 2 light triplet pairs -- B1283's and B1300's light D pair, confirmed by the same code. Vector-like throughout (B1260): one light generation, not three; 0 of 19; price unchanged."
+}

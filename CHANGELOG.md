@@ -1,5 +1,12 @@
 # Changelog
 
+## B1302 — the one-triplet vacua: on 768 of Y₁₂'s SM lines a tree-level flat direction leaves one vector-like generation with two Higgs doublets and no exotic colour triplet; on Y₉ none does
+
+The full tree-level mass matrices (mirrors and flavons included) on every VEV configuration of every survival pattern:
+Y₉'s minimum is two light triplet pairs (B1283/B1300), Y₁₂'s is one — the doublet–triplet problem solved at tree level in
+the closing's vector-like sense, by the Wilson line's thinning and the vacuum's pairing together.
+`frontier/B1302_the_one_triplet_vacua`.
+
 ## B1301 — the tower's alphabet: a deck-eigen law for every closing's h¹ support (Y₂…Y₁₂, Y₁₁ pre-registered), and Y₁₂ as a second SM closing whose Wilson lines thin the colour triplet to one generation
 
 Exhaustive supports at eleven levels; the odd support is exactly the deck eigencharacters whose eigenvalue is a root of

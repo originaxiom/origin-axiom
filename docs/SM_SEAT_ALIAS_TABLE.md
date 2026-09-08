@@ -75,3 +75,4 @@ rather than by attention.
 | **B1300–B1319** | *(requested reserved)* | **this branch's continuation from 2026-09-07** |
 | B1300 | *(requested)* | the_doublet_triplet_lines (banked 2026-09-07, the first of the requested range) |
 | B1301 | *(requested)* | the_towers_alphabet (banked 2026-09-08) |
+| B1302 | *(requested)* | the_one_triplet_vacua (banked 2026-09-08) |

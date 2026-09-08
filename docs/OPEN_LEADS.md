@@ -2505,3 +2505,7 @@ under the deck ℤ/12 and the closing's isometries (L206's question, tower-wide)
 metabelian representations of the knot group (the eigencharacters of H₁(Y_n) are the characters of the metabelian
 quotients; the twisted Alexander polynomial should give h¹ = 1 exactly at the primitive eigenvalues). (i) is compute;
 (ii) is an afternoon with B1283's script; (iv) is the literature. ★★★
+
+**L210 status 2026-09-08 (B1302):** (ii) answered — yes: 768 of Y₁₂'s lines admit a flat direction with exactly one light
+triplet pair (the light generation's d^c) and three light doublet pairs; Y₉ never below two. (i) half done: Y₁₃ came out
+as predicted (1 040 eigencharacters at 521); Y₁₅ in progress. (iii), (iv) open.

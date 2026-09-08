@@ -14546,3 +14546,15 @@ exists on Y₁₂, two generations deep, never three; (H_u, H_d, D, D̄) = (3, 3
 Y₉ reproduced from its support file (a third route). Predictions registered: Y₁₃ (1 040 at 521), Y₁₅ (60 at 31 + Y₅'s 20;
 mixed products open) — L210. Lock `tests/test_b1301_the_towers_alphabet.py`. Vector-like (B1260); 0 of 19; price
 unchanged.
+
+### B1302 — the one-triplet vacua: on 768 of Y₁₂'s SM lines a tree-level flat direction leaves one vector-like generation with two Higgs doublets and no exotic colour triplet; Y₉ never (2026-09-08)
+
+L210(ii) answered. Every D&F-flat VEV configuration (B1283's rule) of every survival pattern of Y₉'s (67) and Y₁₂'s (265)
+SM lines, with the holomorphic tree-level mass matrices of the triplet, doublet and flavon-only sectors built from the
+cubic's VEV'd terms (N H_u H_d, N D D̄, ν^c L H_u, ν^c d^c D with |ε|; the mirror cubic; the flavons S_ij 27_j·27̄_i), ranked
+exactly. **Y₉: never fewer than two light triplet pairs** (B1283/B1300's light D pair, reproduced). **Y₁₂: 768 lines (six
+patterns: D in g₀, D̄ in g₁, N only in g₂) with ⟨N_{g₂}⟩ and the flavon pair {g₀g₁} leave exactly one light triplet pair —
+generation g₂'s own d^c — and its L, H_u, H_d pairs**: one vector-like generation, two Higgs doublets, no exotic. With
+two generations' worth of doublets the best is two triplet pairs on 2 496 lines (a single ν^c VEV marrying the one D to a
+d^c). Vector-like, one light generation; the chirality wall unchanged. Lock `tests/test_b1302_the_one_triplet_vacua.py`.
+0 of 19; price unchanged.
