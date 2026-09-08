@@ -1,5 +1,32 @@
 # MEMO 177 — `c_eff` IS BOUNDED BY 1, AND THE FIGURE-EIGHT'S `Ẑ` STOPS EXISTING AT SLOPE 4
 
+> # 📚 **LITERATURE FENCE, added the same day — READ THIS BEFORE READING ANY NOVELTY INTO THIS MEMO.**
+> `c_eff` of `Ẑ` **is an active research topic with its own papers**, and this bench could not
+> fetch a single one of them: `arxiv.org`, `researchgate.net` and `api.semanticscholar.org` are
+> all blocked by this container's egress proxy. Located by title only, and **not read**:
+>
+> * **S. Gukov, M. Jagadale, `c_eff` for 3d `N=2` theories, arXiv:2308.05360** — the paper that
+>   introduces `c_eff` for `T[M₃]` and states `a_n ~ exp(2π√(c_eff n/6))`, i.e. the definition
+>   used throughout memos 174–177.
+> * **S. Harichurn, M. Jagadale, D. Noshchenko, D. Passaro, `c_eff` from Surgery and Modularity,
+>   arXiv:2508.10087 (DIAS-STP-25-20, Aug 2025, 50 pp.)** — `c_eff` *from surgery*. This is the
+>   same subject as §§3–5 of this memo. It may contain the replacement law, contradict it, or
+>   neither. **I do not know.**
+> * **`c_eff` from resurgence at the Stokes line, JHEP 02 (2026) 075.**
+> * A figure captioned *"The conformal window for 3d `N=2` theories `T[M₃]`, where
+>   `M₃ = S³_p(4₁)` is the integral `p`-surgery on the figure-8 knot"* — a **conformal window in
+>   `p` for surgeries on the figure-eight** is exactly the shape of §4's threshold.
+>
+> **What this changes and what it does not.** Every number in this memo is computed on-bench and
+> stands as a computation: the `F₀` identity, the nine Table-10 series, the refutation of memo
+> 176's formula, the fitted `c_eff` values, `h(0) = 2 log φ`, the ceiling. **What is withdrawn is
+> any implication that the framing, the law, or the ceiling is new.** Until those papers are
+> read, the correct description of §§3–6 is *"computed here, novelty unknown"*.
+>
+> This is filed as `fetch/FETCH_REQUEST_CEFF.md`. The owner has previously offered to download
+> what this bench cannot.
+
+
 **Banked 2026-09-08 · outside bench (lane 1B).**
 Certificate `certificates/ceff_scaling_law.py` (output in `outputs/ceff_scaling_law_out.txt`),
 built on `certificates/xi_recursion_fast.py`. Gate 5 untouched: exact integer series in, fits
