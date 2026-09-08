@@ -1,4 +1,6 @@
-# MEMO 177 — `c_eff` IS BOUNDED BY 1, AND THE FIGURE-EIGHT'S `Ẑ` STOPS EXISTING AT SLOPE 4
+# MEMO 177 — **THE FIGURE-EIGHT'S** `c_eff` IS BOUNDED BY 1, AND ITS `Ẑ` STOPS EXISTING AT SLOPE 4
+
+*(Title corrected the same day by ADDENDUM 4: the bound is a property of this knot, not of the route.)*
 
 > # 📚 **LITERATURE FENCE, added the same day — READ THIS BEFORE READING ANY NOVELTY INTO THIS MEMO.**
 > `c_eff` of `Ẑ` **is an active research topic with its own papers**, and this bench could not
@@ -443,3 +445,88 @@ Seifert invariants; the `c_eff` of the first hyperbolic one is a Legendre transf
 function and appears not to be rational at all. That is a **contrast between two computed
 values**, not a theorem about irrationality — a numerical fit can never prove a number
 irrational, and this one does not.
+
+
+---
+
+# ADDENDUM 4 (2026-09-08, same day) — the ceiling is the colored Jones tail, so it is knot-by-knot, and the title is corrected
+
+Certificate `certificates/tail_mechanism.py`, output `outputs/tail_mechanism_out.txt`.
+
+## 1. The mechanism, checked instead of guessed
+
+Addendum 2 offered the reason for `c_edge = 1` as a smell: *"which smells like Garoufalidis–Lê
+stability of the colored Jones tail."* It is checkable from the same equation the whole pipeline
+started from. GM eq (166) gives `J_n(4₁)` exactly; reading each `J_n` **up from its lowest
+degree**, the coefficients stabilise in `n` — that is Garoufalidis–Lê stability for this
+alternating knot — and the stable limit is
+
+```
+   Phi_{4_1}(q) = (q;q)_inf      [1, -1, -1, 0, 0, 1, 0, 1, 0, 0, 0, 0, -1, 0, 0]
+```
+
+matched over the entire stable window (`J₁₅` and `J₁₆` agree in 15 coefficients). That is
+Armond–Dasbach's tail, reproduced here from `J_n` alone.
+
+And the `F_K` block edge is its **reciprocal**:
+
+| | series | first terms | `c_eff` |
+|---|---|---|---|
+| colored Jones tail | `Φ = (q;q)_∞` | `1, −1, −1, 0, 0, 1, 0, 1, …` | 0 |
+| `F_K` block edge | `E = 2θ/(q;q)_∞` | `2, 2, 6, 8, 14, 20, 34, 46, …` | **1** |
+
+`F_K` is an inversion of the Habiro/cyclotomic expansion, so its stable head carries `1/Φ_K`
+where the colored Jones tail carries `Φ_K`. Hence, stated so it can be wrong:
+
+> ### `c_edge(K) = c_eff(1/Φ_K)`, and the ceiling on `c_eff` over all convergent surgeries on `K` is `c_eff(1/Φ_K)`.
+
+For `4₁`: `Φ = (q;q)_∞`, `1/Φ` is the partition function, `c_eff = 0.9999879` on 40 000 terms.
+**Ceiling 1.** Verified rather than smelled.
+
+## 2. What this costs — the title of this memo
+
+**It removes the reason to expect the ceiling to be universal, and I am correcting the title
+accordingly.** Tails of alternating links are *not* all `(q;q)_∞`: by Armond–Dasbach the tail is
+that of the reduced all-`A` state graph, and richer graphs give higher products and
+Andrews–Gordon-type series. So the ceiling is a **knot-by-knot** quantity. §5's numbers are
+untouched; addendum 2 §4's hope that `c_edge = 1` universally has **no support beyond this one
+knot**, and should not have been written as though it were the likely answer.
+
+`c_eff = 6` on this route needs a knot with `c_eff(1/Φ_K) ≥ 6`. That is a **question about
+colored Jones tails** — a developed subject — and far cheaper to settle than computing `F_K` for
+a second hyperbolic knot, which is what addendum 2 priced. The priced item is superseded by a
+cheaper one.
+
+## 3. A named route to 6, with its own two-outcome test  `[NOT CLAIMED]`
+
+The normalised colored Jones is **multiplicative under connected sum**, `J_n(K₁#K₂) = J_n(K₁)·J_n(K₂)`,
+so tails multiply: `Φ_{K₁#K₂} = Φ_{K₁}·Φ_{K₂}`. If the mechanism of §1 holds, then
+
+```
+   K = 4_1 # 4_1 # 4_1 # 4_1 # 4_1 # 4_1   (six figure-eights)
+   Phi_K = (q;q)_inf^6,   1/Phi_K = 1/(q;q)_inf^6,   c_eff = 6.
+```
+
+> **The route to `c_eff = 6` on the `Ẑ` side, if there is one, is composite knots — and the
+> multiplicity needed is exactly six copies of the figure-eight.**
+
+**Preregistered, two outcomes, before any computation:**
+
+* **OUTCOME A** — `F_{K₁#K₂}` has block edge `1/(Φ_{K₁}Φ_{K₂})`, so `c_edge` adds. Then `c_eff`
+  is unbounded over knots, this memo's ceiling is `4₁`-specific as its corrected title now says,
+  and `6` is approached (never attained, since the supremum sits at the threshold slope) by six
+  figure-eights.
+* **OUTCOME B** — it does not, because `F_K` does not behave multiplicatively under connected
+  sum, or because a composite knot's surgeries fall outside Thm 1.2's range. Then the ceiling
+  argument needs a different generalisation and this route is dead.
+
+**What it would cost to run:** `F_K` for a connected sum. The colored Jones side is free
+(multiply eq (166) by itself), so the real question is whether `F_K` inherits it — which is a
+question this bench can put to the same people as Q12, and has added to
+`fetch/FETCH_REQUEST_CEFF.md`.
+
+**Fence, stated plainly.** That the count is *six* and the object is *the figure-eight* is
+arithmetic, not evidence: `6` is the target and `c_eff(1/(q;q)_∞^m) = m`, so any knot with
+tail `(q;q)_∞` would give six. Nothing here connects that six to `c((E₆)₁) = 6` beyond the
+number. **It is written down because it is the first concrete route to `6` this line has
+produced, not because it is believed.**

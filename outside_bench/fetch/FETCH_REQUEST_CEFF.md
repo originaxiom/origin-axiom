@@ -29,6 +29,20 @@ hyperbolic knot.
 | B4 | "Branches, quivers, and ideals for knot complements", arXiv:2110.13768 | Quiver form of `F_K`; may give `Ξ_k` directly. |
 | B5 | "3d Modularity Revisited", arXiv:2403.14920 | Bears on the `false ↔ mock` orientation pairing that memo 173 got wrong and memo 177 §1 now uses. |
 
+## B'. SUPERSEDES B (cheaper, added by memo 177 addendum 4)
+
+Addendum 4 identifies the ceiling as `c_edge(K) = c_eff(1/Φ_K)` with `Φ_K` the **colored Jones
+tail**, verified for `4₁` (`Φ = (q;q)_∞`, ceiling 1). That turns the priced open computation
+from *"get `F_K` for a second hyperbolic knot"* into a **question about tails**, which is a
+developed subject.
+
+| # | reference | why |
+|---|---|---|
+| B'1 | **C. Armond, O. Dasbach, "Rogers–Ramanujan type identities and the head and tail of the colored Jones polynomial"** (arXiv:1106.3948 — it is reference [7] of the GM paper) | The tail of an alternating link is that of its reduced all-`A` graph. Need: which tails are achievable, and whether `(q;q)_∞^m` for `m ≥ 2` occurs. |
+| B'2 | S. Garoufalidis, T. Lê, "Nahm sums, stability and the colored Jones polynomial" | The stability theorem itself, and the shape of the stable series. |
+| B'3 | M. Hajij, on tails of alternating links / the `q`-series of graphs | Computed tails for families; the fastest way to find a knot with a high-power tail. |
+| B'4 | **Whether `F_K` is multiplicative under connected sum** — i.e. does `F_{K₁#K₂}` have block edge `1/(Φ_{K₁}Φ_{K₂})`? | This is the whole of addendum 4 §3's preregistered cell. The colored Jones side is free; only the `F_K` side is unknown here. A one-line answer from anyone who works with `F_K` settles it. |
+
 ## C. What the bench would do with each, stated so the ask is falsifiable
 
 * **A2 arrives and contains the law** → memo 177 §§3–5 are rewritten as an independent
@@ -41,6 +55,9 @@ hyperbolic knot.
 * **B1 arrives** → run `xi_recursion.py`'s ansatz against `F_{5₂}`, read off its block widths
   (giving its `c`, hence its threshold) and its edge sequence (giving its `c_edge`). Two
   outcomes, both publishable-shaped: `c_edge = 1` again, or not.
+* **B'4 answered yes** → six connected copies of `4₁` give `c_edge = 6`, the ceiling is
+  unbounded over knots, and memo 177's bound is confirmed as `4₁`-specific.
+* **B'4 answered no** → addendum 4 §3's route is dead and the cell closes on OUTCOME B.
 
 ## D. What is NOT being asked for
 
