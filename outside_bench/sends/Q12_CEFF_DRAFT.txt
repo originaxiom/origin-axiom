@@ -1,0 +1,106 @@
+DRAFT — Q12 → the c_eff-from-surgery authors.  *** DO NOT TRANSMIT ***
+=====================================================================
+TO:      [LEAVE EMPTY UNTIL AN ADDRESS IS VERIFIED. Candidates, in order:
+         Shimal Harichurn (DIAS, Dublin) — first author of arXiv:2508.10087,
+         the paper this question is really about; Mrunmay Jagadale (Caltech)
+         — co-author of both 2308.05360 and 2508.10087; Ciprian Manolescu
+         (Stanford) — his own copy of the F_K paper sits at
+         web.stanford.edu/~cm5/surgeries.pdf, so cm5@stanford.edu is a strong
+         inference but IS NOT VERIFIED. Delete this whole bracketed note
+         before the letter goes anywhere.]
+WHY THEM: arXiv:2508.10087 is "c_eff from Surgery and Modularity". That is
+         this question's subject, and I could not read it (arxiv.org,
+         researchgate.net and semanticscholar are all blocked from where I
+         compute). The letter is written so that "it's Theorem 3.2 of our
+         paper" is a completely satisfactory answer.
+SIGNED:  Dritëro M. (the byline on papers/flagship/main.tex)
+STATUS:  DRAFT. Standing instruction is compose, do not transmit.
+
+SUBJECT: c_eff of Zhat for surgeries on the figure-eight — is the ceiling known?
+
+---------------------------------------------------------------------------
+
+Dear Dr Harichurn,
+
+I am writing with one bounded question, and I expect the answer may simply be a
+pointer to your own paper. I have not been able to read arXiv:2508.10087 — the
+machine I compute on cannot reach arXiv — so I may be about to describe
+something you proved last year. If so, please just say which theorem, and I
+will stop.
+
+WHAT I DID
+
+Starting from Gukov and Manolescu's recursion (171)-(172) in section 9.3 of
+arXiv:1904.06057, I solved it directly in the series ansatz
+
+    F_{4_1}(x,q) = sum_{k>=1} Xi_k(q) x^{k-1/2},   Xi_1 = 1,
+
+which turns the recursion into a triangular integer system. Two things came out
+that I did not expect to be able to get:
+
+  - Zhat_0(S^3_{-1/2}(4_1)) exact to q^39524, where equation (13) prints ten
+    coefficients. The whole of Table 10 (r = 2..10) is reproduced, including the
+    isolated +q^112 in the r=6 line, and the p/r = -1 assembly is termwise
+    identical to Ramanujan's F_0 in equation (175) over the first 3000 terms.
+
+  - The lowest power of q in Xi_k is exactly -floor((k-1)^2/4). With m = 2k-1
+    that is -m^2/16 + O(m), so the constant c in the condition (177) is exactly
+    -1/16, and the range of applicability is exactly p/r in (-4,0) — page 73
+    reaches c = -1/16 experimentally, "by calculating more terms".
+
+THE QUESTION
+
+Measuring the Cardy growth of those series, with a three-parameter fit
+log a_n = A sqrt(n) + B log n + C calibrated on eta^{-1} and Rogers-Ramanujan
+to better than 0.01%, I get c_eff(p/r = -1) = 1/7 to seven figures, and at the
+other two integer slopes 3/10 and 1/2 — which are 6|H_1|/(b1 b2 b3) for the
+Seifert manifolds those surgeries give. Across slopes the values fit
+
+    c_eff(Q) = (6/pi^2) max_{y>0} [ y h(y) - y^2/Q ],   Q = |p/r|,
+    h(y) = lim_k (1/k) log Xi_k(e^{-y/k}),
+
+to within 0.2% at every slope I can reach, with h(0) = 2 log phi.
+
+The part I actually want to ask about is what that forces. The block widths give
+y/4 <= h(y) <= y/4 + 2 log phi, so the maximum diverges above |p/r| = 4 — your
+range — and below it the maximum is controlled by the k -> infinity limit of
+Xi_k's edge sequence, which stabilises and appears to be
+
+    2 sum_{j>=0} q^{j(j+1)} / (q;q)_infinity,
+
+whose own c_eff is 1. That would make
+
+    sup_{0 < |p/r| < 4} c_eff = 1,
+
+approached at the threshold and never attained. Numerically the values climb
+0.143, 0.30, 0.50, 0.78, 0.90, 0.964 as |p/r| goes 1, 2, 3, 3.8, 3.95, 3.99.
+
+So:
+
+  1. Is that ceiling in your paper? A ceiling of exactly 1 on c_eff for
+     surgeries on a knot complement feels like the sort of thing that would be
+     stated, and I would rather cite it than re-derive it.
+
+  2. Is the ceiling universal? The mechanism is that the edge sequence is
+     (something theta-like)/(q;q)_infinity, which smells like Garoufalidis-Le
+     stability of the colored Jones tail. If that shape is generic, c_eff < 1
+     for every knot and every slope. I cannot test it without F_K for a second
+     hyperbolic knot, which I also cannot download.
+
+  3. Is there a reason for 1 — is it the free boson, or a coincidence of this
+     knot?
+
+I am happy to send the 39524 coefficients, or the code, to anyone who wants
+them; they are exact integers and they reproduce every published coefficient I
+have been able to check against. If the answer to (1) is yes, that is the most
+useful reply I could get, and I would be glad of it.
+
+With thanks for your time,
+
+Dritero M.
+
+---------------------------------------------------------------------------
+BENCH NOTE (not part of the letter): the letter states no result as new. Every
+claim in it is either the paper's, a computation offered for checking, or a
+question. Gate 5 clean — no measured physical value appears. Nothing is
+transmitted; standing instruction is drafts only.

@@ -111,3 +111,37 @@ useful as a positive one. **Gate 5 clean — no measured value in any of them.**
 - **Q9** — **withdrawn by this bench** pending a rewrite around the live mechanism. Sending it as
   written would put a question to a specialist that our own `B632`/`B1036`/`B1039` work has moved
   past.
+
+---
+
+## Q12 — the `c_eff` ceiling (2026-09-08)
+
+**DRAFT CREATED IN GMAIL, NOT SENT.** Draft id `r-862824470581770840`,
+message id `1a08059420283602`. `To:` is **empty** and the body opens with a bracketed
+recipient note that must be deleted before it goes anywhere.
+
+**Recipient not verified.** Candidates in order: **Shimal Harichurn** (DIAS Dublin), first
+author of arXiv:2508.10087 *"c_eff from Surgery and Modularity"*, which is what the question is
+actually about; **Mrunmay Jagadale** (Caltech), co-author of both arXiv:2308.05360 and
+2508.10087; **Ciprian Manolescu** (Stanford) — his own copy of the `F_K` paper is at
+`web.stanford.edu/~cm5/surgeries.pdf`, so `cm5@stanford.edu` is a strong inference and **is not
+verified**. The salutation must be changed to match whoever is chosen.
+
+**Why this letter exists.** The literature fence on memo 177: `c_eff` of `Ẑ` has its own papers
+and this container can reach none of them. The letter is written so that *"that's Theorem 3.2 of
+our paper"* is a completely satisfactory answer — **novelty is the question, not the claim.**
+
+**What it offers, and what it does not.**
+* Offers: `Ẑ₀(S³_{−1/2}(4₁))` exact to `q^39524`; all nine Table-10 series reproduced including
+  the isolated `+q¹¹²`; the `F₀` identity over 3000 terms; `c = −1/16` exact rather than
+  experimental; the fitted `c_eff` values and the Legendre law; the code and the coefficients to
+  anyone who wants them.
+* Does **not** assert anything as new. Every statement in it is either the paper's, a
+  computation offered for checking, or a question.
+* **Gate 5 clean** — no measured physical value appears. No Standard-Model claim, no physics
+  claim, no `σ`, no `E₆`.
+
+**Three questions asked, all answerable in one line:** is the ceiling in your paper; is it
+universal; and is `1` the free boson or an accident of this knot.
+
+**Standing instruction honoured:** composed, drafted, **not transmitted.**
