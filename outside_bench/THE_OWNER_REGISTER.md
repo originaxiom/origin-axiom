@@ -1363,3 +1363,30 @@ discharged one. The rule taken from it: when a fence names a mechanism that the 
 not model, the derivation is unproved until that mechanism is modelled or measured — being right
 about the number is not the same as being right about the reason, and here the number was wrong
 too, by 1.48 %, in the one place it could be checked exactly.
+
+---
+
+## ADDENDUM 79 (2026-09-08) — a bench charge against the corpus is discharged, and the corpus was right
+
+Memo 174 charged `B1190`/GC-6: *"GC-6's `1` is the only one that was never measured on the
+object."* GC-6 had substituted `η⁻¹`, the free boson, for `T[4₁]` in its Cardy 6-vs-1 reading.
+
+**Memo 178 discharges it, and in the corpus's favour.** The object has now been measured:
+`sup_{0<|p/r|<4} c_eff = 1`, at `0.9999879` on 40 000 terms. And `η⁻¹ = q^{−1/24}/(q;q)_∞`, so
+GC-6's substitute differs from the object's own `F_K` block edge by a `q`-power that does not
+touch `c_eff` — **the substitute is the object**, because the colored Jones tail of `4₁` is
+exactly `(q;q)_∞`.
+
+| register question | status |
+|---|---|
+| was GC-6's `1` a shortcut? | **No.** It was the right object, reached without the reason. The reason is the tail. |
+| is the `6-vs-1` gap real? | **Yes, and structural.** `1` is a supremum, approached at `\|p/r\| = 4` and never attained; past `4` there is no `Ẑ` series at all. |
+| is it a fact about *the object*? | **No — about this knot.** The ceiling is `c_eff(1/Φ_K)` and tails are knot-by-knot. |
+| does `L154`'s missing bridge have a shape now? | **Yes.** Six units needs a knot whose relevant colored Jones end is `(q;q)_∞⁶`. Six connected figure-eights supply exactly that on the colored Jones side (`5.999820` measured). Whether `Ẑ` inherits it is a preregistered cell with prior **B**. |
+
+**What this bench got wrong and right, in one line each.** Right: memo 174's charge was correct
+when filed — the number genuinely had not been measured. Wrong: memo 176 then went and asserted a
+law for that number which was refuted the same day, so the charge and the overreach were the same
+week's work. **Charging a shortcut does not license taking one.**
+
+Memo 171's separate charge against GC-6's estimator bias is untouched and stands.
