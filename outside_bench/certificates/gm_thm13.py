@@ -43,7 +43,6 @@ CONTROLS:
 """
 import sys
 from fractions import Fraction as Fr
-sys.path.insert(0, '/tmp/k52')
 
 # ---- Park's lowest weight Verma R-matrix (same code as park_large_color.py) --------
 def pmul(A, B):

@@ -197,8 +197,15 @@ for j in range(0,JTGT+1):
     lo=min(d); n=0
     while lo+n<=max(d) and Bprev.get(j,{}).get(lo+n,0)==d.get(lo+n,0): n+=1
     STABLE[j]={e:d[e] for e in range(lo,lo+n) if d.get(e)}
-json.dump({str(j):{str(e):int(c) for e,c in d.items()} for j,d in STABLE.items()},
-          open('/tmp/park_f52_W%d.json'%W,'w'))
-print("   blocks written to /tmp/park_f52_W%d.json"%W)
+import os
+_dst = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data',
+                    'park_f52_blocks_w%d.json' % W)
+os.makedirs(os.path.dirname(_dst), exist_ok=True)
+json.dump({"_provenance": "written by certificates/park_large_color.py",
+           "_cutoff": W, "_margin": MARGIN,
+           "_counts": {str(j): len(d) for j, d in sorted(STABLE.items())},
+           "blocks": {str(j): {str(e): int(c) for e, c in d.items()} for j, d in STABLE.items() if d}},
+          open(_dst, 'w'), indent=1, sort_keys=True)
+print("   converged blocks written to", os.path.normpath(_dst))
 if not (c1 and c2 and c3): raise SystemExit("A CONTROL FAILED -- nothing reported.")
 print("ALL CONTROLS PASSED.")

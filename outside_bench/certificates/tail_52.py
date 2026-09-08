@@ -27,7 +27,8 @@ CONTROLS:
 import sys, io, contextlib, math, cmath
 from fractions import Fraction as Fr
 
-src = open('/home/user/origin-axiom/outside_bench/certificates/park_rmatrix_check.py').read()
+import os as _os
+src = open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'park_rmatrix_check.py')).read()
 src = src.split('print()\nprint("Park eq (10)+(12)+(13) vs the references:")')[0]
 g = {'__name__': '__main__'}
 buf = io.StringIO()

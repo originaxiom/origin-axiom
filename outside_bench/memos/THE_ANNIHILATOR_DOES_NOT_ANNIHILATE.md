@@ -549,3 +549,48 @@ Two routes, both stated so they can be priced:
    the twist knot `K_2`, which Park cites as its origin. **One document ends this.**
 
 `§B''` is updated accordingly.
+
+---
+
+# ADDENDUM 5 (2026-09-08, same day) — a reproducibility defect in my own certificates, found by a container restart
+
+**Not a mathematical correction.** Every result in memo 183, its addenda, and memo 184 stands
+unchanged; this records a defect in how they were made runnable, and the fix.
+
+## 1. What was wrong
+
+The container this lane runs in was restarted. Nothing scientific was lost — everything was
+committed and pushed as it was produced — but it exposed that three certificates could not be
+re-run from a clean checkout:
+
+* `park_ahat_repair.py` read the `F⁺_{m(5₂)}` blocks from a **scratch file under `/tmp`**;
+* `park_large_color.py` **wrote** them there;
+* `gm_thm13.py`, `park_ahat_erratum.py` and `tail_52.py` carried **absolute paths**
+  (`/tmp/k52`, `/home/user/...`), one of them dead and merely misleading, two of them real
+  dependencies on sibling certificates.
+
+A certificate that only reproduces on the machine that made it is not a certificate. The lane's
+own rule — *reproduce* is a section in every memo — was being satisfied by accident of the
+filesystem.
+
+## 2. The fix
+
+* The converged blocks are now **vendored into the repo** at
+  `data/park_f52_blocks_w16.json`, carrying their own provenance: which certificate produced
+  them, at which weight cutoff and `x`-degree margin, that its controls C1–C3 fired, and that
+  **only the prefix of each block identical at cutoffs `w = 15` and `w = 16` is stored** —
+  nothing unconverged is kept. `f_0 … f_5` at 16, 105, 69, 49, 28, 11 coefficients.
+* `park_large_color.py` writes there instead of `/tmp`.
+* `park_ahat_repair.py` reads there, by a path relative to its own location.
+* Every absolute path in the session's certificates is now relative to the certificate file.
+
+**All seven certificates re-run and all their controls fire:** `park_ahat_erratum`,
+`park_large_color`, `park_ahat_repair`, `park_table3_repaired`, `park_repair_cannot_close`,
+`tail_52`, `gm_thm13`.
+
+## 3. Recorded as a bench error
+
+It is the same shape as the two errors already filed today — memo 182 addendum 2's truncation
+window and addendum 1 §5's margin. All three are cases where *the computation was right and the
+apparatus around it was not*, and in all three the apparatus was only tested by something going
+wrong. The `/tmp` dependency would have been invisible until someone else tried to run it.

@@ -34,4 +34,3 @@ factor: every eps_m = +-1 gives GM's monomial with its sign and its exponent, an
 eps_m = 0 gives exactly zero.  The check runs on a different paper's machine -- Park's
 large color R-matrix on the lowest weight Verma module -- so neither theorem is used to
 derive the other.  Memo 180's last unverified GM input is closed.
-

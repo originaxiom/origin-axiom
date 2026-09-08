@@ -44,13 +44,18 @@ import sympy as sp
 from fractions import Fraction as Fr
 
 import glob, os
+_HERE = os.path.dirname(os.path.abspath(__file__))
+_DATA = os.path.normpath(os.path.join(_HERE, '..', 'data'))
 if len(sys.argv) > 1:
     BLOCKS = sys.argv[1]
 else:
-    cands = sorted(glob.glob('/tmp/k52/stable_w*.json') + glob.glob('/tmp/park_f52_W*.json'),
+    cands = sorted(glob.glob(os.path.join(_DATA, 'park_f52_blocks_w*.json')),
                    key=lambda p: int(''.join(ch for ch in os.path.basename(p) if ch.isdigit())))
     if not cands:
-        raise SystemExit("no block file; run certificates/park_large_color.py first")
+        cands = sorted(glob.glob('/tmp/k52/stable_w*.json'),
+                       key=lambda p: int(''.join(ch for ch in os.path.basename(p) if ch.isdigit())))
+    if not cands:
+        raise SystemExit("no block file in outside_bench/data/ -- run certificates/park_large_color.py first")
     BLOCKS = cands[-1]
 print("blocks read from", BLOCKS)
 LQ = 400
@@ -141,7 +146,9 @@ def rowQ(n, extra=()):
     return {j: v for j, v in row.items() if v}
 
 # ---------- the true blocks ----------
-FV = {int(j): {int(e): int(c) for e, c in d.items()} for j, d in json.load(open(BLOCKS)).items()}
+_raw = json.load(open(BLOCKS))
+_raw = _raw.get('blocks', _raw)          # vendored files wrap the blocks with provenance
+FV = {int(j): {int(e): int(c) for e, c in d.items()} for j, d in _raw.items() if not j.startswith('_')}
 TRUE = {0: F0, 1: F1, 2: F2, 3: F3}
 for j, d in FV.items():
     if j >= 4 and d: TRUE[j] = d

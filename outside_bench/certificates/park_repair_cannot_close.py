@@ -48,7 +48,6 @@ CONTROLS:
 import sys
 from fractions import Fraction as Fr
 import sympy as sp
-sys.path.insert(0, '/home/user/origin-axiom/outside_bench/certificates')
 LQ = 500
 def ladd(a, b, sc=1):
     r = dict(a)

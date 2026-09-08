@@ -225,7 +225,8 @@ print("="*78); print("C4  GM Thm 1.2 at p/r = -1, controlled on 4_1 against GM e
 print("="*78)
 old = sys.argv[:]; sys.argv = ['xi', '20']
 buf = io.StringIO()
-src = open('/home/user/origin-axiom/outside_bench/certificates/xi_recursion_fast.py').read()
+import os as _os
+src = open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'xi_recursion_fast.py')).read()
 src = src.split('# ---- assemble Zhat_0')[0]
 g = {'__name__': '__main__'}
 with contextlib.redirect_stdout(buf): exec(src, g)
