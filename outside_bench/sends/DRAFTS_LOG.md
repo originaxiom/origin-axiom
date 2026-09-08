@@ -145,3 +145,26 @@ our paper"* is a completely satisfactory answer — **novelty is the question, n
 universal; and is `1` the free boson or an accident of this knot.
 
 **Standing instruction honoured:** composed, drafted, **not transmitted.**
+
+
+---
+
+## ⛔ SEND STAND-DOWN (2026-09-08) — owner: *"dont send anything from gmail"*
+
+**Standing instruction, effective immediately, superseding the earlier "compose drafts, do not
+transmit":** *nothing is sent from Gmail.* Not on approval, not on request from this bench, not
+at all until the owner says otherwise in words. **No further drafts will be created**, since a
+draft's only purpose was to be sent.
+
+**State verified against the account, not from memory:**
+
+| item | state |
+|---|---|
+| sent this session | **nothing** |
+| Q12 (`r-862824470581770840`) | **draft only, never transmitted**; the account listing shows **no `toRecipients` field at all** — the To: line is empty |
+| Q7, Q1, Q3, Q2, Q4, Q5, Q8 | never entered into Gmail; they are text files under `sends/` |
+| the lane's only historical send | Q11 → Dimofte, 2026-08-31, on the owner's explicit *"ok, i aprove"*, recorded verbatim in `sends/Q11_DIMOFTE_READY.txt` |
+
+The Q12 draft is left in place rather than deleted, because deleting is also an action on the
+owner's account and was not asked for. It is inert: empty recipient, and this bench will not
+touch it again. Say the word if it should be trashed.

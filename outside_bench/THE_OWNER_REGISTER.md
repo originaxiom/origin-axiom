@@ -1390,3 +1390,44 @@ law for that number which was refuted the same day, so the charge and the overre
 week's work. **Charging a shortcut does not license taking one.**
 
 Memo 171's separate charge against GC-6's estimator bias is untouched and stands.
+
+---
+
+## ADDENDUM 80 (2026-09-08) — three owner instructions, and the one that found an error
+
+**R80-1 — "papers are old, dont rely on them, verify all."** *(said three times.)*
+**Standing rule, adopted:** an author's stated expectation is evidence about what was known when
+it was written, **never** about what is true. Cite it, test it, and never let it downgrade
+something you computed. The mirror of memo 158's rule for future-tense sentences inside arcs —
+same failure mode, pointing outward.
+
+**It found a live error the same hour.** Memo 177 addendum 8 had used Gukov–Manolescu's page-6
+line *"we cannot expect this to hold for arbitrary knots"* to downgrade a **verified**
+computation of mine. Corrected by **addendum 9**: the credit correction stands (Theorem 1.4 is
+theirs, and I rediscovered it), the downgrade does not. **Memo 180** is the full ledger.
+
+**The ledger's own verdict, stated plainly in both directions.** Thirteen GM inputs were used
+across memos 174–179; **eleven were independently checked on this bench**, including
+reproducing the paper's own eq (166) and eq (168) from a colored Jones calculator built from
+scratch. **No error was found in the paper.** The two unchecked ones are Thm 1.3 (now checkable,
+queued) and page 6's expectation (not checkable here — and it is the one I leaned on).
+
+**R80-2 — "what is GM"** → **Gukov–Manolescu**: Sergei Gukov (Caltech) and Ciprian Manolescu
+(Stanford), *"A two-variable series for knot complements"*, arXiv:1904.06057v2, 79 pp., the paper
+the owner supplied on 2026-09-07. Used as an abbreviation throughout memos 173–179 and **never
+expanded until now**. A register row exists because the question was owner-voiced; the fix is in
+memo 180 §0.
+
+**R80-3 — "dont send anything from gmail."**
+**Standing instruction, effective immediately and superseding the earlier "compose drafts, do not
+transmit":** *nothing is sent from Gmail.* Not on approval, not on request from this bench, not
+at all until the owner says otherwise in words.
+
+**State at the moment of the instruction, verified against the account, not from memory:**
+* **Nothing has been sent this session.** The only send in the lane's history is Q11 → Dimofte
+  (2026-08-31, on the owner's explicit *"ok, i aprove"*), recorded in `sends/Q11_DIMOFTE_READY.txt`.
+* **Q12 exists as a draft and was never transmitted:** id `r-862824470581770840`, and the account
+  listing shows it carries **no `toRecipients` field at all** — the To: line is empty.
+* The seven earlier composed letters (Q7, Q1, Q3, Q2, Q4, Q5, Q8) were never put into Gmail;
+  they are text files under `sends/`.
+* **No further drafts will be created**, since a draft's only purpose was to be sent.

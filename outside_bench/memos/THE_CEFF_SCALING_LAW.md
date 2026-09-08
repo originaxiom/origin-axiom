@@ -774,3 +774,39 @@ The difference this time: each of addenda 4, 6 and 7 was fenced as one data poin
 unverified when written, so what needs correcting is **credit and expectation, not a claim**. The
 rule that would have prevented both: **read the introduction to the end before writing the
 mechanism section.** Page 6 carried the answer, and I was on page 56 before I reached it.
+
+---
+
+# ADDENDUM 9 (2026-09-08, same day) — addendum 8 deferred to an expectation; the computed facts are restored
+
+Owner instruction: ***"papers are old, dont rely on them, verify all."*** Applied to addendum 8,
+it finds a real error there — mine, not the paper's. See **memo 180** for the full verification
+ledger.
+
+**What addendum 8 got right and keeps:** Theorem 1.4 is GM's; §7.5's head/tail mirror statement
+is GM's; the positive trefoil as a counterexample to the *direct* relation is printed on page 6.
+I rediscovered all three, and the credit correction stands.
+
+**What addendum 8 got wrong:** it used page 6's *"we cannot expect this to hold for arbitrary
+knots"* — an **expectation**, not a theorem — to downgrade a **verified computation**. That is
+backwards. Restored:
+
+| statement | status after addendum 9 |
+|---|---|
+| `4₁`'s block edge is `2θ/(q;q)_∞`; its colored Jones tail is `(q;q)_∞` | **computed fact.** And eq (166), the input to the tail, is now independently reproduced by this bench's own `R`-matrix calculator (memo 179 C5) — the tail rests on our arithmetic, not the paper's |
+| `c_edge(4₁) = c_eff(1/Φ_{4₁}) = 1` | **computed fact**, `0.9999879` on 40 000 terms |
+| `4₁` lies outside Theorem 1.4's scope | **fact** — `4₁` is not a torus knot |
+| whether the relation extends to other non-torus knots | **open.** The authors expected not. That is a reason to test, not a reason to stop |
+| addendum 2's "is `c_edge = 1` universal?" | **open, and legitimately open.** Addendum 8 called it unsupported *because the authors expected otherwise*; the honest status is one verified knot and no counterexample among non-torus knots, because none has been computed |
+
+**The connected-sum cell's prior is revised back.** Addendum 8 counted page 6 as a *"third and
+strongest"* reason for **OUTCOME B**. It is not evidence at all — it is an expectation about a
+different class of knots. The prior returns to **B on the two computed obstructions only**
+(the product formula is not a formal `q`-series; a convolution rule leaves the extreme edge
+unchanged). Those two are real and were found here.
+
+**The rule this yields, added to the bench's standing set:** *an author's stated expectation is
+evidence about what was known when it was written, never about what is true.* Cite it, test it,
+and never let it downgrade something you computed. This is the mirror of memo 158's rule for
+future-tense sentences inside arcs — and it is the same failure mode pointing outward instead of
+inward.

@@ -14,7 +14,10 @@ WHY THEM: arXiv:2508.10087 is "c_eff from Surgery and Modularity". That is
          compute). The letter is written so that "it's Theorem 3.2 of our
          paper" is a completely satisfactory answer.
 SIGNED:  Dritëro M. (the byline on papers/flagship/main.tex)
-STATUS:  DRAFT. Standing instruction is compose, do not transmit.
+STATUS:  *** SEND STOOD DOWN 2026-09-08 *** owner: "dont send anything from gmail".
+         NOT TO BE SENT. The Gmail draft r-862824470581770840 is inert (empty To:)
+         and was never transmitted. This file is retained as a record of what was
+         composed, not as a queued item.
 
 SUBJECT: c_eff of Zhat for surgeries on the figure-eight — is the ceiling known?
 
