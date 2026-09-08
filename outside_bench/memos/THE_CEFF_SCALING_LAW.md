@@ -520,6 +520,23 @@ so tails multiply: `Φ_{K₁#K₂} = Φ_{K₁}·Φ_{K₂}`. If the mechanism of 
   sum, or because a composite knot's surgeries fall outside Thm 1.2's range. Then the ceiling
   argument needs a different generalisation and this route is dead.
 
+**An obstruction I found while writing this, which points at OUTCOME B.** The naive product
+formula is **not well defined as a formal `q`-series**. With `F = ½(Ξ(x) − Ξ(1/x))` and
+`U = x^{1/2} − x^{−1/2}`, the product `F₁F₂/U` contains the cross term `Ξ(x)Ξ(1/x)`, whose
+coefficient of `x^n` is `Σ_b Ξ_{b+n}Ξ_b` — and `Ξ_k`'s lowest `q`-power is `−⌊(k−1)²/4⌋ → −∞`,
+so each of those coefficients is a sum of `q`-series whose orders are **unbounded below**. It
+does not converge `q`-adically. So whatever the right connected-sum rule is, it is not this one,
+and §3's OUTCOME A cannot be reached by assuming it.
+
+A second reason to expect B: if the rule were a convolution `Ξ^{#}_k = Σ_{a+b=k} Ξ_a Ξ_b`, the
+lowest `q`-power of `Ξ^{#}_k` would be `−max_{a+b=k}(w_a + w_b)`, attained at the **endpoints**
+`(a,b) ≈ (k,0)` — so the extreme edge would come from a single term and reproduce `Ξ`'s own edge,
+leaving `c_edge = 1` unchanged rather than doubling it.
+
+**Neither of these settles the cell** — they are arguments about a formula that may not be the
+right one. They are recorded because they cut against the route I just proposed, and the honest
+prior after writing them is **B, not A**.
+
 **What it would cost to run:** `F_K` for a connected sum. The colored Jones side is free
 (multiply eq (166) by itself), so the real question is whether `F_K` inherits it — which is a
 question this bench can put to the same people as Q12, and has added to
