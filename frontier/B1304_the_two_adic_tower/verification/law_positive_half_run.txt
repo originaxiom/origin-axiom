@@ -1,0 +1,17 @@
+(A) free-group identities: phi' fixes c; phi = c_a phi'; h^2 = c_{aba} phi'; a = b^-1 phi'(b^-1)^-1; aba = (a^-1 b^-1) phi'(a^-1 b^-1)^-1 -- all hold
+(B) conductor form <=> odd-order form on all 1037 pairs (m, u) with m <= 4000: EQUIVALENT
+(C) every eigencharacter of every level n <= 13: structure of N_0 and the theorem's prediction
+    n =  2: 1 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 0 (ord u odd: 0, ord -u odd: 0), all of them carry: True; both orders even: 1, of which carry: 0 (the converse's content)
+    n =  3: 0 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 0 (ord u odd: 0, ord -u odd: 0), all of them carry: True; both orders even: 0, of which carry: 0 (the converse's content)
+    n =  4: 1 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 0 (ord u odd: 0, ord -u odd: 0), all of them carry: True; both orders even: 1, of which carry: 0 (the converse's content)
+    n =  5: 2 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 2 (ord u odd: 1, ord -u odd: 1), all of them carry: True; both orders even: 0, of which carry: 0 (the converse's content)
+    n =  6: 1 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 0 (ord u odd: 0, ord -u odd: 0), all of them carry: True; both orders even: 1, of which carry: 0 (the converse's content)
+    n =  7: 2 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 2 (ord u odd: 1, ord -u odd: 1), all of them carry: True; both orders even: 0, of which carry: 0 (the converse's content)
+    n =  8: 1 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 0 (ord u odd: 0, ord -u odd: 0), all of them carry: True; both orders even: 1, of which carry: 0 (the converse's content)
+    n =  9: 2 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 2 (ord u odd: 1, ord -u odd: 1), all of them carry: True; both orders even: 0, of which carry: 0 (the converse's content)
+    n = 10: 5 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 2 (ord u odd: 1, ord -u odd: 1), all of them carry: True; both orders even: 3, of which carry: 0 (the converse's content)
+    n = 11: 2 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 2 (ord u odd: 1, ord -u odd: 1), all of them carry: True; both orders even: 0, of which carry: 0 (the converse's content)
+    n = 12: 1 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 0 (ord u odd: 0, ord -u odd: 0), all of them carry: True; both orders even: 1, of which carry: 0 (the converse's content)
+    n = 13: 2 eigencharacter classes (one per (m, u)); theorem predicts h1 = 1 for 2 (ord u odd: 1, ord -u odd: 1), all of them carry: True; both orders even: 0, of which carry: 0 (the converse's content)
+SELFTEST: PASS
+rc=0

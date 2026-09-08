@@ -25,3 +25,19 @@ def test_the_deformations_and_n27():
     out = subprocess.run([sys.executable, str(VER / "v10_direction.py"), "01234"], capture_output=True, text=True, timeout=10800).stdout
     assert "=== (4)" in out
     assert out.count('N(27) = h1(27) - h1(27bar) =') == 4
+
+@pytest.mark.slow
+def test_the_exact_second_order_obstruction_vanishes_on_the_v10_plane():
+    out = subprocess.run([sys.executable, str(VER / "obstruction.py")], capture_output=True, text=True, timeout=3600).stdout
+    assert "rank d1 = 70" in out
+    assert out.count("UNOBSTRUCTED (Q in im d1)") == 16            # eight blocks, two primes
+    assert "V10 classes: [True, True]" in out and "V10 plane span 0" in out
+    assert "agreement of the two primes on every rank: True" in out
+
+
+@pytest.mark.slow
+def test_the_v10_classes_are_formally_integrable_through_order_six():
+    out = subprocess.run([sys.executable, str(VER / "obstruction_higher.py"), "6"], capture_output=True, text=True, timeout=3600).stdout
+    for k in ("V10  ", "V10#2", "V10+V10#2", "V10-V10#2"):
+        assert any(line.strip().startswith(k.strip()) and ": None" in line for line in out.splitlines()), k
+    assert out.count("integrable to order 6") == 8                   # four directions, two primes

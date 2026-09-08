@@ -41,9 +41,35 @@ words (to 10⁻¹⁵⁷ in ball arithmetic): both V₁₀ classes are **trace-fl
 space cannot be read from first-order character variations (the same was true, implicitly, of B1268's V₈ direction, which
 broke self-duality only at finite ε). The parity is read from the finite deformations of §4.
 
-## 4. The deformations and N(27) ((4), 400-bit Newton, 60-digit ranks)
+## 4. The deformations ((4) Newton at 600 bits; (5) the exact obstruction calculus modulo two primes)
 
-*(pending: the Newton stage is running; its record replaces this line)*
+**(a) The Newton search stalls.** From the first-order point exp(0.02·Y/|Y|)ρ₀ along either V₁₀ class (start residual
+1.2·10⁻⁴), B1268's Gauss–Newton (damping 10⁻²⁴·max G_ii, 40 iterations) falls to |res| ≈ 4·10⁻¹³ in seven iterations and
+then crawls — 3.98·10⁻¹³ → 3.44·10⁻¹³ over the next fifteen (record `v10_direction_run_stall.txt`; the same with
+`verbose=False` in `v10_direction_run_A_stalled.txt`, whose "N = 0" lines are printed at a non-representation — relator
+residual 3·10⁻¹³, cusp commutator [μ, λ] ≈ 77 — and mean nothing). B1268's V₈ search converged linearly to 10⁻⁶³ under the
+same code. A stall of this shape is either a geometric obstruction (no representation near the first-order point) or a
+numerical one (the directions that must be corrected are damped away). Stage (5) decides which, exactly.
+
+**(b) No obstruction at second order — exactly.** `obstruction.py` (record `obstruction_run.txt`): for each of the eight
+sl₂-blocks one exact non-coboundary cocycle (ℚ(ω)); the linearised relator map d¹: e₆ ⊕ e₆ → e₆ has rank **70** modulo both
+primes (= 156 − dim Z¹ = 156 − 86 with h¹(M; e₆) = 8, so the rank is exact and dim H²(M; e₆) = 8); the second-order term
+Q(Y) of ρ_ε(REL) lies in im d¹ for **every one of the eight block classes**, the two V₁₀'s included; on the V₁₀ plane the
+quadratic map c ↦ [Q(c₁Y₁ + c₂Y₂)] ∈ H² **vanishes identically** (its three coefficient classes are all zero in H²); over the
+whole eight-dimensional H¹ the 36 coefficient classes of Q span a 3-dimensional subspace of H², and the mixed terms with a V₁₀
+factor are non-zero exactly for V₄, V₆, V₁₄, V₁₆ and zero for V₂, V₈ and the other V₁₀. Both primes agree on every rank.
+
+**(c) Formally integrable through order six.** `obstruction_higher.py` (record `obstruction_higher_run.txt`) continues
+ρ_ε(g) = exp(εY_g + ε²W_g + ε³V_g + …)ρ₀(g) order by order, solving d¹(X_k) = −R_k modulo the cocycle freedom at order
+k − 1: **V₁₀, V₁₀#2, V₁₀ + V₁₀#2 and V₁₀ − V₁₀#2 are all integrable through order 6** (exact: a formal solution is
+exhibited modulo two primes), each needing the cocycle freedom from order 3 on — the higher Taylor coefficients of the
+curve have components along the other classes. The method is one-sided (its "stop" is not a proof of obstruction: the V₈
+control stops at order 5 under the greedy continuation although B1268 integrated V₈ to a genuine representation), so the
+positive verdicts are what it establishes. **The stall of (a) is therefore numerical**: the Newton correction has to move
+along directions whose singular values at the first-order point are of order ε and are suppressed by the damping.
+
+**(d) The Newton search with the damping and the step adjusted.** *(pending: three probes running — damping 10⁻⁵⁰, step
+0.2, both — on class 1; the converged representation's h¹(27), h¹(27̄), h⁰(∂M) and N replace this line.)*
 
 
 
@@ -63,8 +89,11 @@ broke self-duality only at finite ε). The parity is read from the finite deform
 
 ## Verification
 
-- `verification/v10_direction.py` (stages 0 … 4; `v10_direction_run.txt`; the exact stages alone in
-  `v10_direction_stage0123_run.txt`).
+- `verification/v10_direction.py` (stages 0 … 4; controls `V10_STEP`, `V10_MU`, `V10_ITERS`, `V10_CLASSES`; the exact
+  stages alone in `v10_direction_stage0123_run.txt`; the stalled Newton in `v10_direction_run_stall.txt`).
+- `verification/obstruction.py` (stage 5a/5b: the eight exact block cocycles, rank d¹, the second-order obstruction classes
+  and the quadratic map on H¹; `obstruction_run.txt`); `verification/obstruction_higher.py` (stage 5c: formal
+  integrability order by order; `obstruction_higher_run.txt`).
 - Lock `tests/test_b1350_the_v10_direction.py`: fast — stages 0 … 3 (multiplicities, the point, the two classes and
   their cusp restriction, trace-flatness); slow — stage 4.
 - Depends on B1280 (the criterion and the hole), B1268 (the bound and the machinery), B1267 (the instrument), main's

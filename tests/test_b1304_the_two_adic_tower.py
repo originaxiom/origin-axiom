@@ -46,3 +46,9 @@ def test_the_law_in_conductor_form_on_the_small_levels():
     assert t15[(1, 'unramified', '+', 1)] == 340 and t15[(1, 'unramified', 'mixed', 0)] == 600
     t20 = C.level(20)
     assert t20[(0, 'unramified', '-', 0)] == 80 and t20[(1, 'unramified', '+', 1)] == 10
+
+def test_the_positive_half_of_the_law_is_a_theorem():
+    import law_positive_half as P
+    P.check_A()                                   # the free-group identities behind the presentation identity
+    assert P.check_B(2000)                        # conductor form <=> odd-order form on every (m, u), m <= 2000
+    assert P.check_C(9)                           # every eigencharacter class of every level <= 9: N0 structure, prediction

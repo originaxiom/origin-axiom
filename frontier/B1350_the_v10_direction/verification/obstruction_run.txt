@@ -1,0 +1,48 @@
+=== (5a) one exact cocycle class per sl2-block of e6 at the subregular point ===
+    block V2: dim Z1 = 4, dim B1 = 3, h1 = 1
+    block V4: dim Z1 = 6, dim B1 = 5, h1 = 1
+    block V6: dim Z1 = 8, dim B1 = 7, h1 = 1
+    block V8: dim Z1 = 10, dim B1 = 9, h1 = 1
+    block V10: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V10#2: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V14: dim Z1 = 16, dim B1 = 15, h1 = 1
+    block V16: dim Z1 = 18, dim B1 = 17, h1 = 1
+    (40 s)
+=== (5b) modulo p = 67108819 (omega -> 19491216) ===
+    rank d1 = 70 (expected 156 - dim Z1 = 156 - (78 + 8) = 70); dim H^2(M; e6) = 8
+    single blocks: is the second-order obstruction [Q(Y)] zero in H^2 (the class integrates to second order)?
+      V2   : UNOBSTRUCTED (Q in im d1)
+      V4   : UNOBSTRUCTED (Q in im d1)
+      V6   : UNOBSTRUCTED (Q in im d1)
+      V8   : UNOBSTRUCTED (Q in im d1)
+      V10  : UNOBSTRUCTED (Q in im d1)
+      V10#2: UNOBSTRUCTED (Q in im d1)
+      V14  : UNOBSTRUCTED (Q in im d1)
+      V16  : UNOBSTRUCTED (Q in im d1)
+    the V10 plane: dim span{[Q(Y1)], [Q(Y2)], [B(Y1,Y2)]} in H^2 = 0  => a conic of second-order-integrable directions may exist; solve below
+      (relations among the three classes:) rank pairs: {'Q1,Q2': 0, 'Q1,B': 0, 'Q2,B': 0}
+    the full quadratic map H^1 (8) -> H^2 (8): its 36 coefficient classes span a subspace of dimension 3 of H^2
+    mixed terms B(Y_i, Y_j) with a V10 factor, nonzero in H^2 (1) or zero (0): {('V2', 'V10'): 0, ('V2', 'V10#2'): 0, ('V4', 'V10'): 1, ('V4', 'V10#2'): 1, ('V6', 'V10'): 1, ('V6', 'V10#2'): 1, ('V8', 'V10'): 0, ('V8', 'V10#2'): 0, ('V10', 'V10#2'): 0, ('V10', 'V14'): 1, ('V10', 'V16'): 1, ('V10#2', 'V14'): 1, ('V10#2', 'V16'): 1}
+    (61 s)
+=== (5b) modulo p = 67108837 (omega -> 57280852) ===
+    rank d1 = 70 (expected 156 - dim Z1 = 156 - (78 + 8) = 70); dim H^2(M; e6) = 8
+    single blocks: is the second-order obstruction [Q(Y)] zero in H^2 (the class integrates to second order)?
+      V2   : UNOBSTRUCTED (Q in im d1)
+      V4   : UNOBSTRUCTED (Q in im d1)
+      V6   : UNOBSTRUCTED (Q in im d1)
+      V8   : UNOBSTRUCTED (Q in im d1)
+      V10  : UNOBSTRUCTED (Q in im d1)
+      V10#2: UNOBSTRUCTED (Q in im d1)
+      V14  : UNOBSTRUCTED (Q in im d1)
+      V16  : UNOBSTRUCTED (Q in im d1)
+    the V10 plane: dim span{[Q(Y1)], [Q(Y2)], [B(Y1,Y2)]} in H^2 = 0  => a conic of second-order-integrable directions may exist; solve below
+      (relations among the three classes:) rank pairs: {'Q1,Q2': 0, 'Q1,B': 0, 'Q2,B': 0}
+    the full quadratic map H^1 (8) -> H^2 (8): its 36 coefficient classes span a subspace of dimension 3 of H^2
+    mixed terms B(Y_i, Y_j) with a V10 factor, nonzero in H^2 (1) or zero (0): {('V2', 'V10'): 0, ('V2', 'V10#2'): 0, ('V4', 'V10'): 1, ('V4', 'V10#2'): 1, ('V6', 'V10'): 1, ('V6', 'V10#2'): 1, ('V8', 'V10'): 0, ('V8', 'V10#2'): 0, ('V10', 'V10#2'): 0, ('V10', 'V14'): 1, ('V10', 'V16'): 1, ('V10#2', 'V14'): 1, ('V10#2', 'V16'): 1}
+    (81 s)
+
+=== summary ===
+    agreement of the two primes on every rank: True
+    V10 classes: [True, True] (True = unobstructed); V10 plane span 0; rank d1 70
+[81 s]
+rc=0

@@ -2530,6 +2530,8 @@ lift the massless generation (L201 in its proper form, on this vacuum).
 triplet pair (the light generation's d^c) and three light doublet pairs; Y₉ never below two. (i) half done: Y₁₃ came out
 as predicted (1 040 eigencharacters at 521); Y₁₅ in progress. (iii), (iv) open.
 
+**L210(iv) status 2026-09-08 (B1304 addendum, the positive half proved):** the law's "if" direction is a THEOREM — a half-deck eigencharacter carries a class whenever its eigenvalue u or −u has odd order mod m (equivalent to the conductor form; the ramified prime is automatic). Proof via the half-deck presentation (proved equal to B1303's and to the boundary-fixing one by Reidemeister coboundaries), the one-period Fox product N₀ with eigenvalues 1 and (−1)^e, and amphichirality for the conjugate root. Open: the "only if" (both orders even ⇒ no class; exact at n ≤ 30), reduced to N₀ ≠ I — the twisted Fibonacci recursion p_j = p_{j−1} + ζ^{u^j}p_{j−2} must not return to 0; Lam–Leung on vanishing sums of roots of unity is the tool. ★★ (mathematics; no value depends on it).
+
 ## L211 — PIERGALLINI BRANCHED COVERS AT THE 4d-LIFT WALL (registered 2026-09-08, the Asselmeyer-Maluga gate row)
 
 The corpus's 4d-lift wall is a selector problem: every closing bounds (Ω₃^SO = 0), no filling is canonical. Asselmeyer-Maluga

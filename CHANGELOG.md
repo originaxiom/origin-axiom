@@ -1,5 +1,12 @@
 # Changelog
 
+## The tower's law — the positive half proved (B1304 addendum); B1303's presentation proved
+
+A half-deck eigencharacter carries a class whenever u or −u has odd order mod m (the conductor law's "if" direction, now a
+theorem: N₀² = I for odd order, amphichirality for the conjugate root); the converse stays exact-at-n ≤ 30 and is reduced to
+N₀ ≠ I. The three presentations of π₁(Y_n) are proved equal (Reidemeister coboundaries) and agree on every character to n = 9.
+`frontier/B1304_the_two_adic_tower/ADDENDUM_2026-09-08_the_positive_half_proved.md`; registry T-TOWER-LAW-POSITIVE-HALF.
+
 ## Prior-art row reconciled with main's Entry 5 — one verdict (KNOWN-ADJACENT), one of main's corrections reversed
 
 The figure-eight knot is in Asselmeyer-Maluga's 2019 paper (§7, p. 29, "figure 8 knot", the example of an arithmetic

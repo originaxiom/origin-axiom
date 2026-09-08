@@ -203,16 +203,24 @@ print(f"    ({time.time() - t0:.0f} s)")
 # ------------------------------------------------------------------ (4) Newton deformations and N
 if "4" in STAGES:
     print(f"=== (4) Newton to genuine E6 representations along the odd, even and first-class directions; N(27) ===")
+    # controls (environment): V10_STEP (default 0.02), V10_MU (Newton damping, default B1268's 1e-24), V10_CLASSES (comma list)
+    STEP = float(os.environ.get("V10_STEP", "0.02")); MU = os.environ.get("V10_MU", "1e-50"); ITERS = int(os.environ.get("V10_ITERS", "40"))
+    # default damping 1e-50: with B1268's 1e-24 the search stalls at |res| ~ 3.6e-13 along the V10 classes (v10_direction_run_stall.txt);
+    # the directions it must correct along have singular values of order eps and are damped away; at 1e-50 it converges (probe_mu50.txt)
+    WANT = os.environ.get("V10_CLASSES", "class 1,class 2,class 1 + class 2,class 1 - class 2").split(",")
+    print(f"    controls: step {STEP}, damping mu {MU}, iterations {ITERS}, directions {WANT}")
     for name, c in (("class 1", (acb(1), acb(0))), ("class 2", (acb(0), acb(1))), ("class 1 + class 2", (acb(1), acb(1))), ("class 1 - class 2", (acb(1), acb(-1)))):
+        if name not in WANT:
+            continue
         Ya, Yb = combo(c)
         znorm = max(float(H.frob(Ya).mid()), float(H.frob(Yb).mid()))
         assert znorm > 0 and znorm == znorm, znorm
-        # normalise the direction to Frobenius norm 1 (the rescaled e6 coefficients of a V10 class are large), then step 0.02
-        ce = acb(0.02) / acb(arb(str(znorm)))
+        # normalise the direction to Frobenius norm 1 (the rescaled e6 coefficients of a V10 class are large), then step STEP
+        ce = acb(STEP) / acb(arb(str(znorm)))
         mats = {1: (Ya * ce).exp() * A0, 2: (Yb * ce).exp() * B0}
         invs = {1: A0i * (-(Ya * ce)).exp(), 2: B0i * (-(Yb * ce)).exp()}
-        print(f"  -- {name}: |Y| = {znorm:.3e}, step 0.02/|Y|, start residual {H.frob(H.ev(mats, invs, S.REL, n) - H.eye(n)).str(3)}")
-        mats, invs, _, nr = H.newton(mats, invs, verbose=False)
+        print(f"  -- {name}: |Y| = {znorm:.3e}, step {STEP}/|Y|, start residual {H.frob(H.ev(mats, invs, S.REL, n) - H.eye(n)).str(3)}")
+        mats, invs, _, nr = H.newton(mats, invs, iters=ITERS, mu=MU, verbose=True)
         tt = H.selfduality_trace_test(mats, invs, n)
         print(f"     converged residual {nr:.1e}; self-duality defects {[x.str(3) for x in tt]} -> {'NOT self-dual' if max(float(x.mid()) for x in tt) > 1e-20 else 'self-dual'}")
         rep = H.cohomology_report(mats, invs, n, f"27 along {name}")

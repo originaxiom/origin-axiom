@@ -1,0 +1,62 @@
+# B1304 addendum (2026-09-08, later) — THE POSITIVE HALF OF THE TOWER'S LAW, PROVED; the law restated; the converse reduced
+
+**Status:** THEOREM for the "if" direction (a proof, with its steps checked in the free group and on every eigencharacter of
+every level ≤ 13); the "only if" direction stays a verified conjecture (exact at every level ≤ 30, B1304's conductor-form
+addendum), now reduced to one statement about a single 2 × 2 matrix. L210(iv).
+
+## 1. The law, restated
+
+For a Ψ-eigencharacter ψ of H₁(Y_n) — ψ(x) = ζ^{λ(x)} with λ: ℤ[φ] → ℤ/m a ring map, λ(φ) = u, u² = u + 1 (mod m), ζ of
+order m; ψ lives on Y_n iff u^{2n} ≡ 1 — write e = ord_m(u) and e′ = ord_m(−u) = ord_m(ū), ū = 1 − u = −1/u the conjugate
+root. The conductor-form law ("d odd, u^d ≡ ±1 globally, m prime to 5") is **equivalent** to
+
+> **ψ carries a class iff u or −u has odd multiplicative order modulo m.**
+
+(Checked on all 1 037 pairs (m, u) with m ≤ 4 000: `law_positive_half.py` (B).) The ramified prime is automatic in this
+form: modulo 5 the double root is 3, and ord₅(3) = ord₅(−3) = 4, so both orders are even whenever 5 | m.
+
+## 2. The theorem (the "if" direction)
+
+**Theorem.** If ord_m(u) is odd, or ord_m(−u) is odd, then h¹(Y_n; ψ) = 1 at every level n at which ψ lives.
+
+*Proof.* **(1) Three presentations of π₁(Y_n) coincide exactly.** Let φ: a ↦ a²b, b ↦ ab (B1303's automorphism),
+φ′ = c_{a⁻¹}∘φ (which fixes the boundary commutator c = [a, b], so ⟨a, b | φ′ⁿ(x) = x⟩ is π₁ of the branched cover: the
+mapping torus of the boundary-fixing monodromy with the boundary transversal killed) and h: a ↦ ab, b ↦ a (the half-deck:
+Ψ on H₁; h² = c_{ab}∘φ = c_{aba}∘φ′). For an automorphism α = c_g∘φ′, ⟨a, b | αⁿ(x) = x⟩ = Γ/⟨⟨(g t)ⁿ⟩⟩ with
+Γ = ⟨a, b, t | t x t⁻¹ = φ′(x)⟩, because (g t)ⁿ = g φ′(g) ⋯ φ′ⁿ⁻¹(g) tⁿ and c_{g φ′(g)⋯} φ′ⁿ = αⁿ. And **a = z φ′(z)⁻¹ with
+z = b⁻¹, aba = z φ′(z)⁻¹ with z = a⁻¹b⁻¹** (Reidemeister coboundaries; checked in the free group), so g t = z t z⁻¹ and
+⟨⟨(g t)ⁿ⟩⟩ = ⟨⟨tⁿ⟩⟩: all three groups are Γ/⟨⟨tⁿ⟩⟩ = π₁(Y_n). (Independently: the three Fox matrices give the same h¹ on
+every character of every level ≤ 9 modulo two primes ≈ 10⁹ — 0, 3, 0, 20, 27, 56, 0, 147 classes at n = 2 … 9, B1301's
+exact supports; `frontier/B1303_the_two_by_two_criterion/verification/presentations_h1_all_characters.py`.)
+**(2) The half-deck product.** The Fox matrix of h at a character χ is B(χ(a)) = [[1, χ(a)], [1, 0]]; by the chain rule the
+Fox matrix of h^{2n} at ψ is the ordered product of B(ζ^{u^j}), j = 1 … 2n, periodic in j with period e. So
+P_n = N₀^{2n/e}, N₀ the one-period product (the Fox matrix of h^e at ψ, which is h^e-invariant). h¹(Y_n; ψ) = 1 iff P_n = I.
+**(3) The two eigenvalues of N₀.** N₀ fixes the coboundary vector v = (ψ(a) − 1, ψ(b) − 1) and acts on the one-dimensional
+quotient Z¹/B¹ = H¹(F₂; ψ) by (−1)^e ψ(g_e), where h^e(c) = g_e c^{(−1)^e} g_e⁻¹ (h reverses the fibre's orientation:
+h(c) = a c⁻¹ a⁻¹) and g_e abelianises to φ²(φ^e − 1), so ψ(g_e) = ζ^{u²(u^e − 1)} = 1. The scalar is (−1)^e.
+**(4) e odd.** The eigenvalues 1, −1 are distinct, N₀ is diagonalisable, N₀² = I. Since e | 2n with e odd, e | n and
+2n/e is even: P_n = I. **(5) e′ odd.** Y_n is amphichiral (the orientation-reversing symmetry of the figure-eight lifts to
+every cyclic branched cover and inverts the deck); its action on H₁ is J = Ψ∘(Galois conjugation) (B1303), which sends
+ψ to a Ψ-eigencharacter of the same order with eigenvalue ū = −1/u. h¹ is a homeomorphism invariant, so
+h¹(Y_n; ψ) = h¹(Y_n; ψ∘J) = 1 by (4) applied to ū. ∎
+
+Checked (`law_positive_half.py` (C), exact modulo two primes ≈ 10⁹, every eigencharacter class of every level n ≤ 13):
+P_n = N₀^{2n/e}; tr N₀ = 1 + (−1)^e; for e odd N₀² = I and P_n = I; every class the theorem predicts carries; and no class
+with both orders even carries (the converse's content at these levels — 8 such classes, all with h¹ = 0).
+
+## 3. The converse, reduced
+
+**Conjecture (the "only if"; exact at every level ≤ 30):** if ord_m(u) and ord_m(−u) are both even, h¹ = 0 — i.e. the
+unipotent one-period product N₀ (e even) is not the identity. It contains "new characters at even conductor never carry", the
+mixed-sign products and the ramified prime. Two reductions for whoever proves it: (a) **the twisted Fibonacci form:** with
+B(x) acting on the projective line by z ↦ 1 + x/z, N₀ = I iff the recursion p_j = p_{j−1} + ζ^{u^j} p_{j−2} (p₀ = 0, p₁ = ζ^u)
+returns to p_e = 0 — a vanishing sum of m-th roots of unity indexed by the domino tilings of a path of length e, so the
+Lam–Leung structure of vanishing sums is the natural tool; (b) **the antilinear form** (when u^{e/2} ≡ −1): N₀ = H̄H with H
+the Fox matrix of h^{e/2}, so N₀ = A² for the antilinear A(δ) = H̄ δ̄, which fixes v; N₀ = I iff A is an involution.
+
+## 4. What changes on the board
+
+The tower's law is now a theorem in one direction and a verified conjecture in the other; the presentation of π₁(Y_n) that the
+2×2 criterion rests on is proved, not only validated. Nothing changes for the Standard-Model lines (they use the law's
+values, which were already exact where used). L210(iv) status updated. Lock: `tests/test_b1304_the_two_adic_tower.py`
+(fast: the free-group identities, the equivalence of the two forms to m ≤ 2 000, the eigencharacter check to n ≤ 9).

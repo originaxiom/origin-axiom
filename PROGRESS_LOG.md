@@ -14616,3 +14616,16 @@ opens §7 as well as the abstract. The other is CONFIRMED against main's B1291/B
 corrected: det(A − I) = 3 for an order-3 isometry is the sibling m202's count, not the object's (the row's §4(ii) and
 HINT_LEDGER (15) had it wrong). The two threes remain not a convergence on both readings. Relayed to main with the page
 and the sentence. `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` §6. No verdict changes; 0 of 19; price unchanged.
+
+### The tower's law: the positive half proved (2026-09-08, later; B1304 addendum, L210(iv))
+
+A half-deck eigencharacter of H₁(Y_n) carries a class whenever its eigenvalue u, or −u, has odd multiplicative order mod m —
+equivalent to the conductor-form law's "if" direction (checked on every (m, u), m ≤ 4 000; the ramified prime automatic).
+Proof: the half-deck presentation ⟨a, b | h^{2n}(x) = x⟩ is π₁(Y_n) exactly (a = b⁻¹φ′(b⁻¹)⁻¹ and aba = (a⁻¹b⁻¹)φ′(a⁻¹b⁻¹)⁻¹ are
+Reidemeister coboundaries, so all three presentations kill the same tⁿ — B1303's presentation is now proved, not only validated);
+its Fox matrix is N₀^{2n/e}, N₀ the one-period product of [[1, ζ^{u^j}],[1, 0]] with eigenvalues 1 and (−1)^e, so odd order gives
+N₀² = I and P_n = I; amphichirality (J = Ψ∘Galois) carries it to ū = −1/u. Checked on every eigencharacter class of every
+level ≤ 13 (two primes ≈ 10⁹). The converse (both orders even ⇒ no class; exact at n ≤ 30) reduced to one unipotent 2×2
+product ≠ I — the twisted Fibonacci recursion p_j = p_{j−1} + ζ^{u^j}p_{j−2} not returning to 0. Registry row
+T-TOWER-LAW-POSITIVE-HALF; LAW_MAP row for B1304. The three presentations agree on every character at n ≤ 9 with two large
+primes (a one-small-prime run had over-counted Y₇ and Y₉ — the two-prime rule is not optional). No value changes; 0 of 19.
