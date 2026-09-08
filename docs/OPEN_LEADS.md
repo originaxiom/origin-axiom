@@ -2356,4 +2356,15 @@ not a new door. ★★.
 
 *L202 note (2026-09-08): the SM-derivation seat's sm:B1280 Theorem 1 (2026-09-06) already proves W1/W2 vector-like on every cusped cyclic cover by the same period-2 duality (their cusp-fixed curve K is the branch locus of the trace coordinates) — if it reproduces here (B1299), it closes (a) for every component that extends from m004, leaving the non-extending ones; its own L207 (one unpaired θ-odd direction at the subregular point) joins (a).*
 
-
+## L204 — THE SUBREGULAR POINT'S ONE UNPAIRED DIRECTION (registered 2026-09-08, B1299; mirrors the SM-derivation seat's sm:L207 of 2026-09-06; the exact half done by B1298)
+sm:B1280 Theorem 2 makes the θ-odd E₆ germ at the geometric (principal) point vector-like by symmetry: the inversion acts as the
+outer automorphism on the whole tangent space (B1298: twelve signs, exact). At the SUBREGULAR sl₂ point — B1256's assumption-free
+I-25 candidate, e₆ = V₂ V₄ V₆ V₈ V₁₀ V₁₀ V₁₄ V₁₆, the 27 = 13 + 9 + 5 — the outer involution fixes sp(8) = V₂ V₆ V₁₀ V₁₄ and
+negates the 42 = V₄ V₈ V₁₀ V₁₆, while the inversion acts by (−1)^{k/2+1} on every H¹(M; Sym^k): the two agree on seven of the
+eight tangent directions and disagree on EXACTLY ONE, the V₁₀ of the 42 (θ′ = −1, ι* = +1) — B1299, exact. That direction is
+the first place on the object where the θ-odd frame's net chirality N(27) is not forced to vanish by symmetry; it stays bounded
+by B1268 (|N| ≤ h⁰(∂M; 27)). **The computation:** the subregular E₆ local system's H¹ with 27 coefficients along that direction —
+build the subregular embedding explicitly (B1256 has the labelling), deform along the V₁₀ ⊂ 42 class, compute h¹(M; 27_ρ) −
+h¹(M; 27̄_ρ) numerically at first order and exactly if the point is algebraic. Priced at about a day. If N ≠ 0 there it is the
+programme's first symmetry-unprotected chiral direction on the flat sector — and I-25 (which sl₂) becomes load-bearing for
+chirality, not only for typing. Prior 15 %. ★★.

@@ -79,4 +79,11 @@ decisive.
 
 ---
 
+## ADDENDUM 2026-09-08 (B1299, from the SM-derivation seat's sm:B1281 refinement 1, verified here) — "rigid" holds off the curve K only
 
+This arc's "W1 and W2 are RIGID — h¹ = 0, no deformations at all" is true at the 25 generic points sampled and FALSE on the
+curve K = {μ has an eigenvalue in μ₃} of each component: there the cusp keeps a fixed vector, h¹(M; V) = 1 (and 2 at the two
+repeated-eigenvalue points), and the net chirality is still 0 because on K the representation is its own dual pulled back by
+the period-2 isometry (sm:B1280 Theorem 1; the seat's K-locus solve re-run on this bench, receipt in B1299; B71's identity
+c = 1 re-checked at 50 points of this arc's own parametrisation with the B1297 engine). The verdict (index 0) stands; the
+word "rigid" is scoped. E53 corrected at source.
