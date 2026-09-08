@@ -6,7 +6,7 @@ so a sweep reading it treats *declared false* and *never declared* identically. 
 wrong flags; this rebuild stops the base depending on the flag at all.
 
 **POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (117) = 529 arcs.**
-The vocabulary criterion adds **43 arcs neither the flag nor any surface reaches**.
+The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.97** on the corpus's own law vocabulary against
@@ -464,7 +464,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B996` | NEGATIVE | L | | THE GRAMMAR-LEVEL CONTROL: ACCESS TO THE McKAY GROUP IS GENERIC ACROSS THE METALLIC FAMILY. P0: a census of GRAMMARS (metallic words R^m L^m and their mod-N shadows in SL… |
 | `B1111` | PROVED | L | | THE W5 SCOPING (wave F7, cross-verified EXACTLY over Q(sqrt2) after the first verifier's rational-approximation bug was CAUGHT by disagreement with B1084's banked census … |
 | `B875` | PROVED | V | | The solo seat's TRIALITY-TILING THEOREM verified on this seat's fully independent build, three legs in one reproducer: (1) skeleton at 30 digits -- kernels (46,46,46) at … |
-| `B1304` | PROVED | V | | THE 2-ADIC TOWER ENDS AT Y_12. Y_24's character group has 10 749 957 120 elements, but its odd support is empty by B1303's law (an even level pulls back Y_12's, which is … |
 | `B48` | PROVED | S | | The SL(3) Fibonacci trace lift extends to the whole metallic family, with algebraic entropy log((m+sqrt(m^2+4))/2), invariant commutator trace pair, and certificate-backe… |
 | `B71` | PROVED | S | | Fix(T1^2) on the eight SL(3) fiber traces is exactly the SL(3) figure-eight character variety: three components, each of dimension 2.… |
 | `B102` | PROVED | S | | Every irreducible SL(3) figure-eight character is Case I or trB=trB-inverse=1; W1/W2 are excluded from the Hitchin component by ellipticity, not complexity.… |
@@ -575,6 +574,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1067` | PROVED | S | | The branch-resident Q(sqrt-3) class-field asset lands on main DOUBLE-REBUILT (22/23 claims re-derived independently on two declared-different routes; the 23rd is a repo-s… |
 | `B1101` | PROVED | S | | THE CERTIFICATION ENVELOPE ADOPTED (Review 47's methodology delta, owner-elected): during any certifying suite the working tree is read-only by convention -- scratchpad s… |
 | `B1266` | PROVED | S | | THE SOURCE OF INPUT: THE 14 OVERCOUNTS, THE IRREDUCIBLE NUMBER IS 11. On the owner's question 'should we find the source of input'. B1261 measured the trade as 4 axioms +… |
+| `B1304` | PROVED | S | | THE 2-ADIC TOWER ENDS AT Y_12. Y_24's character group has 10 749 957 120 elements, but its odd support is empty by B1303's law (an even level pulls back Y_12's, which is … |
 
 ## The exhibit that forced the rebuild
 

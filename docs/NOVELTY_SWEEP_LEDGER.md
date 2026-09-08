@@ -153,3 +153,11 @@ one clause (Gate 5 is an output firewall; the property is
 true-by-construction — §0.1 of the chain document). **The cost claim
 survives its own adversarial audit with two same-day repairs and one
 corrected sentence.**
+
+## Sources note (2026-09-08)
+
+The nearest neighbour in the literature — Asselmeyer-Maluga, hyperbolic knot complements as fermions, arXiv:1910.09966 —
+is adjudicated once in `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md`: KNOWN-ADJACENT for the frame (cite it), not
+overlapping on the route (torus bundles, not McKay; no selection principle; the arithmetic route flagged and untaken), and
+the trace-field → McKay → E₆ conjunction NOVEL-CANDIDATE with no source found. Every seat sweeping the literature should
+read that row before reaching its own verdict on the overlap.

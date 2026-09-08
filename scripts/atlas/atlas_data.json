@@ -7110,6 +7110,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1350": {
+   "slug": "the v10 direction",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "L204",
+    "L207"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B135": {
    "slug": "lee yang m specific",
    "motifs": [

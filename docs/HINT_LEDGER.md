@@ -641,3 +641,10 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       ENTER (5 is a residue characteristic, four independent ways). What remains open is
       the EXPONENT: is 12 structural (the floor dimension? the D-flip count?) or
       incidental? Registered, not designed.
+  (15) H-PRIORART-THREES (type PATTERN, fenced; 2026-09-08): Asselmeyer-Maluga's three
+      generations (as relayed: Donaldson on the K3 surface, b₂⁺ = 3, the three hyperbolic
+      summands of 3H ⊕ 2(−E₈)) and the object's three (det(A − I) = 3 for the order-3
+      isometry, h¹(Y₃; 3_ρ) = 3, the (27, 3) of the golden E₈) are the SAME INTEGER FROM
+      UNRELATED DERIVATIONS — no K3 in the corpus's chain, no order-3 isometry in his. Two
+      coincidences until a map is exhibited (a K3 whose order-3 automorphism carries the
+      object's closing). B1223's guard on order matches applies. Registered, not designed.

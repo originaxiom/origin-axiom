@@ -14591,3 +14591,14 @@ colour triplet: the MSSM's content with right-handed neutrinos, every field with
 light Higgs carry |ε_{ijg₂}|: rank 2, generation g₂ massless, g₀ and g₁ degenerate and off-diagonal. Three extra U(1)s
 survive. The flavons choose between three light generations and one; the corpus's "one light generation" was that choice.
 Lock extended. Vector-like; 0 of 19; price unchanged.
+
+### Prior-art gate row: Asselmeyer-Maluga, the nearest neighbour, adjudicated once (2026-09-08, chat1's relay)
+
+Fermions as hyperbolic knot complements, bosons as torus bundles, number theory named (Bloch group, K-theory, quaternionic
+trace fields) — from the arXiv abstract of 1910.09966, opened here; the rest as relayed. KNOWN-ADJACENT for the frame,
+cite it; not overlapping on the route (his gauge group from torus-bundle classes, not McKay; no selection principle; the
+arithmetic route flagged and left). He has what this programme lacks — a 4d construction (Piergallini covers), a charge
+spectrum (the Hirzebruch defect), numbers (Ω_Λ, m_H, m_ν on exotic smoothness) — carried as tools and as his claims,
+separately. The gate question run: no source for trace field → McKay → E₆ (NOVEL-CANDIDATE, specialist bar standing).
+The two threes fenced as a hint (H-PRIORART-THREES), not a convergence. Piergallini at the 4d-lift wall registered as
+L211 with its expected verdict (existence is not selection). `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md`.

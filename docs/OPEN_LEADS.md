@@ -2529,3 +2529,14 @@ lift the massless generation (L201 in its proper form, on this vacuum).
 **L210 status 2026-09-08 (B1302):** (ii) answered — yes: 768 of Y₁₂'s lines admit a flat direction with exactly one light
 triplet pair (the light generation's d^c) and three light doublet pairs; Y₉ never below two. (i) half done: Y₁₃ came out
 as predicted (1 040 eigencharacters at 521); Y₁₅ in progress. (iii), (iv) open.
+
+## L211 — PIERGALLINI BRANCHED COVERS AT THE 4d-LIFT WALL (registered 2026-09-08, the Asselmeyer-Maluga gate row)
+
+The corpus's 4d-lift wall is a selector problem: every closing bounds (Ω₃^SO = 0), no filling is canonical. Asselmeyer-Maluga
+builds 4-manifolds as Piergallini 4-fold branched covers of S⁴ whose branch-set singularities are knot and link complements.
+Does the construction select a filling of the object's closings, or only exhibit one among all? **Expected verdict:** the
+selector problem survives — Piergallini's theorem is existence for every closed orientable PL 4-manifold, and the branch
+surface is a choice. **What would overturn it:** a proof that the object's closings force the branch surface, or a cover
+of S⁴ whose singular set is exactly a closing of the tower with no residual choice. A reading, not a computation:
+Piergallini (1995), Iori–Piergallini, the author's construction (`docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` §4(iii)).
+★

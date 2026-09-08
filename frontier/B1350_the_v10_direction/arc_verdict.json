@@ -1,0 +1,17 @@
+{
+ "id": "B1350",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1280",
+  "B1268",
+  "B1267",
+  "B1299"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE V10 DIRECTION (L207 = main's L204), in progress. At the subregular sl2 point of the cusped object's E6 holonomy (e6 = V2+V4+V6+V8+V10+V10+V14+V16, 27 = 13+9+5) the pairing law of B1280 fails along exactly one direction, the V10 of the 42 (theta = -1, iota* = +1). Exact stages done: the block multiplicities {2:1, 4:1, 6:1, 8:1, 10:2, 14:1, 16:1}; rho_0 with h^1(27) = h^1(27bar) = 3, h^0(dM) = 3, N = 0; the two V10 cocycle classes (block h^1 = 1 each, exact over Q(omega)); NEITHER is cusp-trivial and the restriction of the two-dimensional class space to H^1(dM; e6) has rank 2 (no cusp-trivial combination), so by B1268's bound a non-zero N along the unpaired direction needs the deformed cusp holonomy to keep a fixed vector; both classes are trace-flat at first order (all first-order self-duality defects vanish), so the theta-parity must be read from finite deformations. Stage 4 (Newton to genuine E6 representations along four directions at 400 bits; h^1(27), h^1(27bar), h^0(dM), N at 60 digits) is running; prior 15 % for N != 0 (main's price). Vector-like everywhere else in the corpus; 0 of 19."
+}
