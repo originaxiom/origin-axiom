@@ -18,6 +18,38 @@ THE TEST
    c_eff(1/1)          = 0   -> matches the TRIVIAL (top) end.
    c_eff(1/(q;q)_inf)  = 1   -> would NOT match; the bottom end predicts 1, and is wrong.
 
+WHICH CHIRALITY IS THIS, AND WHAT IT RULES OUT
+--------------------------------------------------------------------------
+   J_2 = {-4: -1, -3: 1, -1: 1} = -q^-4 + q^-3 + q^-1, the Jones polynomial of the
+   RIGHT-handed trefoil.  So the Habiro expansion above is 3^r_1, and GM (page 73)
+   states c = +1/24 for 3^r_1 and c = -1/24 for 3^l_1, where c is defined by: the
+   LOWEST power of q in the coefficient of x^{m/2} has exponent of order c m^2.
+   c > 0 means the blocks run UP; c < 0 (the figure-eight, c = -1/16) means DOWN.
+
+   RULED OUT -- 'Phi_K = the BOTTOM end, always':
+      3^r_1's bottom end is (q;q)_inf, which would predict c_edge = 1.  It is 0.
+      That reading is exactly what calibrating on 4_1's bottom end would have given.
+
+   SURVIVES -- 'Phi_K = the end the blocks run toward (the sign of c)':
+      3^r_1: c > 0, blocks run up   -> top end = 1                    -> 0   ok
+      3^l_1: c < 0, blocks run down -> bottom end = mirror of the top = 1 -> 0   ok
+      4_1  : c < 0, blocks run down -> bottom end = (q;q)_inf         -> 1   ok
+
+   BUT IT IS NOT VERIFIED BY THIS.  The trefoil's c_edge = 0 follows from its blocks
+   having NO WIDTH AT ALL (Thm 1.3: monomials), so it comes out 0 under any end rule
+   selecting the trivial end -- and under none selecting (q;q)_inf.  The trefoil
+   ELIMINATES a candidate; it CANNOT CONFIRM one.  Same distinction BENCH ERROR #19
+   was filed for: a necessary condition is not a proof.
+
+   Count: 1 knot verified (4_1, blind to the end question), 1 candidate eliminated,
+   1 candidate surviving and unverified.  Verification still needs a CHIRAL knot
+   whose blocks WIDEN.
+
+MIRROR CHECK (computed, not asserted): 3^l_1 has the two ends swapped
+--------------------------------------------------------------------------
+   3^l_1 bottom n=13,15: window 13  [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  == 1  (TRIVIAL)
+   3^l_1 top    n=13,15: window 13  [1, -1, -1, 0, 0, 1, 0, 1, 0, 0, 0, 0]  == (q;q)_inf
+
    VERDICT: addendum 4's 'Phi_K = the colored Jones tail' is UNDER-DETERMINED.
    It must name which end.  The figure-eight is amphichiral and cannot distinguish
    them, so the mechanism's single verification could not see this.

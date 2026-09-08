@@ -111,6 +111,47 @@ print("-"*74)
 print("   c_edge(trefoil) = 0, known independently: GM Thm 1.3 makes every Xi_k a monomial.")
 print("   c_eff(1/1)          = 0   -> matches the TRIVIAL (top) end.")
 print("   c_eff(1/(q;q)_inf)  = 1   -> would NOT match; the bottom end predicts 1, and is wrong.")
+
+print("\nWHICH CHIRALITY IS THIS, AND WHAT IT RULES OUT")
+print("-"*74)
+j2 = Jtref(2)
+print(f"   J_2 = {dict(sorted(j2.items()))} = -q^-4 + q^-3 + q^-1, the Jones polynomial of the")
+print( "   RIGHT-handed trefoil.  So the Habiro expansion above is 3^r_1, and GM (page 73)")
+print( "   states c = +1/24 for 3^r_1 and c = -1/24 for 3^l_1, where c is defined by: the")
+print( "   LOWEST power of q in the coefficient of x^{m/2} has exponent of order c m^2.")
+print( "   c > 0 means the blocks run UP; c < 0 (the figure-eight, c = -1/16) means DOWN.")
+print()
+print( "   RULED OUT -- 'Phi_K = the BOTTOM end, always':")
+print( "      3^r_1's bottom end is (q;q)_inf, which would predict c_edge = 1.  It is 0.")
+print( "      That reading is exactly what calibrating on 4_1's bottom end would have given.")
+print()
+print( "   SURVIVES -- 'Phi_K = the end the blocks run toward (the sign of c)':")
+print( "      3^r_1: c > 0, blocks run up   -> top end = 1                    -> 0   ok")
+print( "      3^l_1: c < 0, blocks run down -> bottom end = mirror of the top = 1 -> 0   ok")
+print( "      4_1  : c < 0, blocks run down -> bottom end = (q;q)_inf         -> 1   ok")
+print()
+print( "   BUT IT IS NOT VERIFIED BY THIS.  The trefoil's c_edge = 0 follows from its blocks")
+print( "   having NO WIDTH AT ALL (Thm 1.3: monomials), so it comes out 0 under any end rule")
+print( "   selecting the trivial end -- and under none selecting (q;q)_inf.  The trefoil")
+print( "   ELIMINATES a candidate; it CANNOT CONFIRM one.  Same distinction BENCH ERROR #19")
+print( "   was filed for: a necessary condition is not a proof.")
+print()
+print( "   Count: 1 knot verified (4_1, blind to the end question), 1 candidate eliminated,")
+print( "   1 candidate surviving and unverified.  Verification still needs a CHIRAL knot")
+print( "   whose blocks WIDEN.")
+
+print("\nMIRROR CHECK (computed, not asserted): 3^l_1 has the two ends swapped")
+print("-"*74)
+def mirror(d): return {-e: c for e, c in d.items()}
+for nm, end in (("bottom", bottom), ("top   ", top)):
+    a = end(mirror(Jtref(13)), 20); b = end(mirror(Jtref(15)), 20)
+    s2 = 0
+    while s2 < len(a) and a[s2] == b[s2]: s2 += 1
+    v = b[:s2]; sg = 1 if (v and v[0] == 1) else -1
+    norm = [sg*x for x in v]
+    tag = "  == (q;q)_inf" if norm == qq[:s2] else ("  == 1  (TRIVIAL)" if norm == [1]+[0]*(s2-1) else "")
+    print(f"   3^l_1 {nm} n=13,15: window {s2:>2}  {v[:12]}{tag}")
+
 print("\n   VERDICT: addendum 4's 'Phi_K = the colored Jones tail' is UNDER-DETERMINED.")
 print("   It must name which end.  The figure-eight is amphichiral and cannot distinguish")
 print("   them, so the mechanism's single verification could not see this.")

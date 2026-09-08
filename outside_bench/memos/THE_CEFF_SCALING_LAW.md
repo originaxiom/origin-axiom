@@ -653,3 +653,46 @@ load-bearing for two separate questions rather than one.
 figure-eight and do not use the mechanism. The mechanism enters only in addendum 4's reading of
 *why* `c_edge = 1` and in addendum 5's framing of the connected-sum route; both now carry this
 qualification.
+
+---
+
+# ADDENDUM 7 (2026-09-08, same day) — the end rule narrowed to one candidate, and *not* closed
+
+Same certificate, extended: `certificates/trefoil_ends.py`.
+
+Addendum 6 left the mechanism under-determined. It can be narrowed without `5₂`, by reading the
+trefoil's **chirality** off its own Jones polynomial.
+
+`J₂` from the Habiro expansion is `−q⁻⁴ + q⁻³ + q⁻¹` — the **right-handed** trefoil. GM state
+`c = +1/24` for `3^r₁` and `c = −1/24` for `3^l₁`, where `c` is defined by: *the lowest power of
+`q` in the coefficient of `x^{m/2}` has exponent of order `c·m²`.* So `c > 0` means the blocks
+run **up**; `c < 0` (the figure-eight, `c = −1/16`) means **down**.
+
+| candidate rule | `3^r₁` (`c>0`) | `3^l₁` (`c<0`) | `4₁` (`c<0`) | verdict |
+|---|---|---|---|---|
+| `Φ_K` = the **bottom** end, always | bottom `= (q;q)_∞` → predicts **1** | | bottom `= (q;q)_∞` → 1 ✅ | **RULED OUT** — `c_edge(3^r₁) = 0` |
+| `Φ_K` = the end the blocks **run toward** | top `= 1` → 0 ✅ | bottom `= 1` → 0 ✅ | bottom `= (q;q)_∞` → 1 ✅ | **survives** |
+
+The mirror is computed, not asserted: `3^l₁`'s ends come out swapped — trivial at the bottom,
+`(q;q)_∞` at the top — so both chiralities give `c_edge = 0` under the surviving rule.
+
+**The candidate that is ruled out is the one I would have written down.** Calibrating on `4₁`
+alone means calibrating on its bottom end, and that reading predicts `1` for the right trefoil
+and is wrong.
+
+> **But this does not verify the surviving rule, and I am not going to say it does.** The
+> trefoil's `c_edge = 0` follows from its blocks having **no width at all** (Thm 1.3: monomials).
+> It therefore comes out `0` under *any* end rule that happens to select the trivial end, and
+> under *none* that selects `(q;q)_∞`. The trefoil **eliminates** a candidate; it cannot
+> **confirm** one. That is exactly the distinction BENCH ERROR #19 was filed for — a necessary
+> condition is not a proof — and it applies to me here.
+
+**Count, stated plainly:** one knot verified (`4₁`, and blind to the end question), one candidate
+rule eliminated, one candidate rule surviving and unverified. Verification still needs a
+**chiral knot whose blocks widen**, which is the `5₂` ask already filed.
+
+**One consequence worth noting for addendum 5.** Under the surviving rule the relevant end for a
+knot with `c < 0` — the case with a bounded slope window, the interesting one — is the **bottom**.
+`#⁶4₁`'s bottom-end tail is `(q;q)_∞⁶`, computed in addendum 5. So the connected-sum route is
+*not* killed by this sharpening; it remains gated on addendum 4 §3's two obstructions, and its
+prior is still **OUTCOME B**.
