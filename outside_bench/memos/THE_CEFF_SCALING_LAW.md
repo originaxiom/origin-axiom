@@ -2,37 +2,30 @@
 
 *(Title corrected the same day by ADDENDUM 4: the bound is a property of this knot, not of the route.)*
 
-> # 📚 **LITERATURE FENCE, added the same day — READ THIS BEFORE READING ANY NOVELTY INTO THIS MEMO.**
-> `c_eff` of `Ẑ` **is an active research topic with its own papers**, and this bench could not
-> fetch a single one of them: `arxiv.org`, `researchgate.net` and `api.semanticscholar.org` are
-> all blocked by this container's egress proxy. Located by title only, and **not read**:
+> # ✅ **LITERATURE FENCE LIFTED, 2026-09-08 — the papers arrived and neither contains this. See MEMO 181.**
+> The owner supplied `arXiv:2508.10087` (Harichurn–Jagadale–Noshchenko–Passaro, *"c_eff from
+> Surgery and Modularity"*), `arXiv:2308.05360` (Gukov–Jagadale) and `arXiv:2004.02087` (Park),
+> and they were read under the standing rule *"papers are old, verify all"* — nothing adopted on
+> authority.
 >
-> * **S. Gukov, M. Jagadale, `c_eff` for 3d `N=2` theories, arXiv:2308.05360** — the paper that
->   introduces `c_eff` for `T[M₃]` and states `a_n ~ exp(2π√(c_eff n/6))`, i.e. the definition
->   used throughout memos 174–177.
-> * **S. Harichurn, M. Jagadale, D. Noshchenko, D. Passaro, `c_eff` from Surgery and Modularity,
->   arXiv:2508.10087 (DIAS-STP-25-20, Aug 2025, 50 pp.)** — `c_eff` *from surgery*. This is the
->   same subject as §§3–5 of this memo. It may contain the replacement law, contradict it, or
->   neither. **I do not know.**
-> * **`c_eff` from resurgence at the Stokes line, JHEP 02 (2026) 075.**
-> * A figure captioned *"The conformal window for 3d `N=2` theories `T[M₃]`, where
->   `M₃ = S³_p(4₁)` is the integral `p`-surgery on the figure-8 knot"* — a **conformal window in
->   `p` for surgeries on the figure-eight** is exactly the shape of §4's threshold.
+> **Neither `c_eff` paper contains §3's Legendre law or §5's hyperbolic ceiling.** HJNP's scope is
+> Brieskorn spheres `Σ(s,t,rst±1)` from `1/r` surgery on **torus knots**, plus negative-definite
+> plumbed manifolds; the words *figure-eight*, *`4₁`* and *hyperbolic* do not occur in it. GJ's
+> examples are `Σ(2,3,5)`, `Σ(2,3,7)` and `T[Σ(s,t,st−1)]` — all Seifert.
 >
-> **What this changes and what it does not.** Every number in this memo is computed on-bench and
-> stands as a computation: the `F₀` identity, the nine Table-10 series, the refutation of memo
-> 176's formula, the fitted `c_eff` values, `h(0) = 2 log φ`, the ceiling. **What is withdrawn is
-> any implication that the framing, the law, or the ceiling is new.** Until those papers are
-> read, the correct description of §§3–6 is *"computed here, novelty unknown"*.
+> **What they do confirm.** HJNP's Definition 1 of `c_eff` is *identical* to the estimator used
+> throughout memos 174–180. And §1's `1/7` for `Σ(2,3,7)` is confirmed **twice**: by HJNP's eq (9)
+> at `m=1, l=0`, and by GJ's eq (55) once the universal `q^{−1/24}` is split off —
+> `8/7 = 1 + 1/7`, and `6/5 = 1 + 1/5` for `Σ(2,3,5)`. Three routes, one number.
 >
-> This is filed as `fetch/FETCH_REQUEST_CEFF.md`. The owner has previously offered to download
-> what this bench cannot.
-
-
-**Banked 2026-09-08 · outside bench (lane 1B).**
-Certificate `certificates/ceff_scaling_law.py` (output in `outputs/ceff_scaling_law_out.txt`),
-built on `certificates/xi_recursion_fast.py`. Gate 5 untouched: exact integer series in, fits
-out, `c((E₆)₁) = 6` only ever a comparison target.
+> **One caution carried.** HJNP §6 proves `c_eff ≤ 1` for **negative-definite plumbed** manifolds,
+> via a polynomial bound on coefficients. §5's `sup = 1` is over **hyperbolic** surgeries on `4₁`,
+> which are not plumbed, and is approached rather than bounded away from. Different theorems about
+> different classes, sharing a number — **recorded as a coincidence, not a connection.**
+>
+> **And one limitation exposed.** Park's §4.4 shows that for a **non-fibered** knot such as `5₂`
+> the blocks are **infinite `q`-series**, not finite Laurent polynomials — so addendum 2's
+> criterion *"`c_eff > 0` iff the blocks widen"* is **ill-posed** outside the fibered case.
 
 ---
 
