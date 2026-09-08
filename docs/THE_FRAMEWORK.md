@@ -1,5 +1,19 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Source symmetry and global form, 2026-09-08 (path-local R20):**
+In the prescribed scalar-holonomy m202 source model, C3-compatible
+adjoint characters form two isometry orbits: trivial (four/one) and a
+conjugate pair (three/zero). The latter is allowed in E6/Z3 but none of
+its scalar simply connected E6 lifts preserves C3 and the same signed
+Higgs. The adjoint spinor sectors descend; a fundamental 27 does not.
+Thus the earlier two-27 Higgs action cannot be appended to this quotient
+without a new completion. Exact prior word automorphisms and certified
+canonical counts establish the entire source-isometry H1 action.
+This computes compatibility, not physical selection or anomaly inflow.
+The neutral 4D-limit and common-gravity duties remain. Source and
+successful controls, with the original transfer failure preserved:
+`reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md`.
+
 **Flat holonomy and the physical consistency duty, 2026-09-08 (path-local R19):**
 The declared strong-source maximal comparison extends to unitary flat
 line systems from the undrilled core. For prescribed m202 sources,

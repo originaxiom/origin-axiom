@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-09-08 — Path-local R20: source-compatible holonomy and its global lift
+
+The source C3 fixes three adjoint characters. Its nontrivial pair gives
+three/zero in R19's prescribed strong complex and forms one isometry
+orbit, not two certified physical vacua. The same scalar characters
+have no C3-invariant simply connected E6 lift; E6/Z3 permits them but
+does not admit the earlier fundamental-27 Higgs fields. Exact prior
+word automorphisms saturate a twice-certified twelve-isometry count.
+Original basis-transfer failure preserved; separately sealed control
+passes. Focused 34 pass; broad 250 pass / 13 fail / 8 error, including
+six original transfer failures. Physical selection, anomaly/defect
+completion, neutral 4D limit and gravity remain. No B allocation.
+Report: reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md.
+
 ## 2026-09-08 — Path-local R19: generic holonomy removes the extra pair
 
 In the prescribed strong-source maximal complex, the full unitary

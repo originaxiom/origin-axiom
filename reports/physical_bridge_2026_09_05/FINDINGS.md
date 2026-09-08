@@ -1,6 +1,16 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [R19's unitary-holonomy spectrum](HOLONOMY_SPECTRUM.md), seal
+Latest: [R20's source symmetry and global lift](HOLONOMY_EQUIVARIANCE.md).
+The C3-fixed adjoint characters have a pair-free nontrivial isometry
+orbit, giving three/zero in the same prescribed complex. That orbit
+is compatible with E6/Z3, not with a scalar simply connected E6 lift
+preserving C3 and the same Higgs. Source/global-form/orbit selection
+and a compatible anomaly/interaction completion remain open. Original
+transfer failure retained; exact-word control sealed eb9319f3 succeeds,
+with verified canonical counts at both precisions. Focused 34 pass;
+broad 250 pass / 13 fail / 8 error. No B ID or complete TOE certificate.
+
+Preceding: [R19's unitary-holonomy spectrum](HOLONOMY_SPECTRUM.md), seal
 ce08c24b. In the prescribed three-source maximal complex, generic
 unitary holonomy gives three/zero; trivial and Alexander-exceptional
 characters retain four/one. B1282's polynomial and B864's anomaly are

@@ -1,10 +1,10 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
-2026-09-08, updated after R19 and the named partial-filling verification.
+2026-09-08, updated after R20 and the named partial-filling verification.
 This ranks remaining duties of the constructions audited here. It is
 not a theorem that the repository, its other branches, or the object
 cannot supply them. All remote heads were fetched again; latest main
-c78003cd, physics 659487bb, SM d1a91c7a, outside-bench 8a5d6e6f.
+c78003cd, physics 659487bb, SM 3f4ce9af, outside-bench 8a5d6e6f.
 Newer received conclusions are not accepted merely because fetched.
 
 ## 1. A common physical theory and its genuine inputs
@@ -20,7 +20,10 @@ spacetime, compact real form, field content, family number, coefficients
 and scales. R14--R19 choose a sourced twisted-reduction background,
 parent adjoint, maximal domain and now a flat connection. R19 shows
 that nonzero abelian holonomy deformations are non-normalizable boundary
-data in the canonical metric. The partial filling chooses a marked cover/cusp/slope.
+data in the canonical metric. R20 further distinguishes a pair-free
+C3-compatible orbit in E6/Z3 from its obstructed scalar simply connected
+lift. The older fundamental-27 Higgs fields do not descend to this
+quotient. The partial filling chooses a marked cover/cusp/slope.
 Combining their headlines is not yet one theory deriving those choices.
 
 **Strategy:** list the actual maps from source data to fields, kinetic
@@ -51,7 +54,8 @@ cohomology in the specified maximal complex when every abs(q)*beta_a>=1,
 under R15's three-arc hypotheses at trivial gauge transport. R19 extends
 this to flat unitary transport: the exact Alexander polynomial gives
 three/zero at generic holonomy, with four/one retained at the trivial
-and explicit exceptional characters. Separately, the partial filling is
+and explicit exceptional characters. R20 finds a nontrivial C3-compatible
+pair-free orbit, and prices its global-parent lift. Separately, the partial filling is
 certified geometrically chiral with two complete cusps.
 
 **Bottleneck:** geometric chirality, a relative Euler characteristic,
@@ -67,8 +71,12 @@ low-energy channel also remains: a finite charged kernel is not a
 decoupling theorem for a finite four-dimensional effective theory.
 
 **Strategy:** keep the sourced m202 path as the immediate calculational
-priority. Compute which flat characters the actual source symmetries
-permit, with the compact gauge lift and its charge lattice retained.
+priority. R20 now computes the source-compatible scalar characters and
+their parent lift. Next build a global-form-compatible anomaly/defect
+and interaction completion; also test noncentral simply connected
+transport as an unexcluded alternative to the scalar quotient route.
+Selecting the nontrivial orbit or the physical global form still
+requires dynamics or a declared input, not the symmetry menu alone.
 Derive the defect boundary condition, including a=q beta, and determine
 whether it selects this strong maximal class or another domain. Then
 construct the required anomaly/inflow or massive-U(1) mechanism from
@@ -84,7 +92,7 @@ not just net Euler three. A failure in one amplitude/domain class
 closes that class, not all singular or cusped backgrounds.
 Sources: [R15](GLOBAL_SINGULAR.md), [R16](CHARGED_DOMAIN.md),
 [R17](CUSP_TAIL.md), [R18](WEIGHTED_COHOMOLOGY.md),
-[R19](HOLONOMY_SPECTRUM.md).
+[R19](HOLONOMY_SPECTRUM.md), [R20](HOLONOMY_EQUIVARIANCE.md).
 
 ## 3. Gravity in the same four-dimensional dynamical theory
 

@@ -1,6 +1,18 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [R19's flat-holonomy spectrum and anomaly check](HOLONOMY_SPECTRUM.md).**
+**Latest: [R20's source symmetry and global-parent lift](HOLONOMY_EQUIVARIANCE.md).**
+The full C3-compatible adjoint character locus consists of trivial
+transport and a conjugate pair. The pair gives three/zero and is one
+isometry orbit. It preserves the symmetry in E6/Z3; none of its nine
+scalar simply connected E6 lifts does so with the same Higgs field.
+Adjoint spinors descend, fundamental-27 Higgs fields do not. A common
+anomaly/defect and interaction completion is now the immediate duty;
+source/global-form/orbit selection, neutral 4D limit and gravity remain.
+Exact prior word maps saturate the verified twelve-isometry count.
+Original transfer failure retained; separate control seal eb9319f3.
+Focused 34 pass; broad 250 pass / 13 fail / 8 error. No main bank or TOE.
+
+**Preceding: [R19's flat-holonomy spectrum and anomaly check](HOLONOMY_SPECTRUM.md).**
 Under the same prescribed strong-source geometry and maximal domain,
 generic unitary gauge holonomy gives three spinor H1 modes and no
 conjugate modes. Trivial holonomy and the exact Alexander zero locus

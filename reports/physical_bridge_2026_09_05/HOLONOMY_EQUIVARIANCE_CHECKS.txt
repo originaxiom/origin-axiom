@@ -1,0 +1,26 @@
+R20 word-control focused checks, 2026-09-08; seal eb9319f3 before execution.
+Original seal 72e40d9c and its failed basis-bridge instrument remain unchanged.
+Native verified run: exit 0; complete JSON in holonomy_equivariance_word_control_first_run.json.
+Canonical counts at 100 and 212 bits match all twelve exact word-action classes.
+Control pre-execution provenance fields present; 50 seal digests matched.
+Older global provenance debt was reported, not waived. No tree edits during runs.
+
+Native warning (Sage environment prefix redacted):
+<SAGE_ENV>/lib/python3.11/site-packages/mpmath/libmp/libintmath.py:75: DeprecationWarning: bitcount function is deprecated
+  warnings.warn("bitcount function is deprecated",
+
+The receiver initially tried to parse the warning plus JSON as pure JSON;
+that parse failed without running science or writing files. Separating the
+warning from the same complete capture succeeds. No scientific rerun.
+
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest -q tests/test_physical_bridge_holonomy_equivariance_word_control.py tests/test_physical_bridge_holonomy_spectrum.py tests/test_physical_bridge_weighted_cohomology.py
+Exit 0. Nine new controls + 25 unchanged R19/R18 tests. Environment prefix redacted.
+
+..................................                                       [100%]
+=============================== warnings summary ===============================
+tests/test_physical_bridge_holonomy_equivariance_word_control.py::test_numerical_upper_count_and_peripheral_control_match_exact_words
+  <PYTHON_ENV>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+34 passed, 1 warning in 20.73s

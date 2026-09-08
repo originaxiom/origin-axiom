@@ -173,3 +173,31 @@ retroactively claimed. No source/test changes or scientific reruns.
 The all-head refetch advances SM to 3f4ce9af (incoming closed-tower
 B1300--B1302); its log is routed without accepting the computations.
 The immutable R19 dependency pin remains d1a91c7a. No B ID is allocated.
+
+## R20 update (2026-09-08), global form retained
+
+CC's numbering reservation remains respected; no B ID or collision.
+Original pre-execution seal 72e40d9c fails at the direct combinatorial
+basis-transfer check. Its science/tests/output are preserved unchanged.
+Separate control seal eb9319f3 precedes the exact-word/certified-upper-
+count route, which succeeds. Provenance markers and all 50 sealed
+digests were checked before that control; older global debt is declared.
+
+All scientific/certifying runs were quiescent. Focused 34 pass; broad
+38-file result 250 pass / 13 fail / 8 error, including six new original
+transfer failures and the complete older failed/error set. No full-suite
+green or independent receiving-seat acceptance is claimed. Public
+transcripts redact environment prefixes only; raw copies remain local.
+
+The full C3-compatible character locus and scalar-parent obstruction
+are recorded with one nontrivial isometry orbit, not a two-vacuum count.
+The adjoint parent's allowed spinor subspaces do not authorize importing
+fundamental-27 Higgs fields. The same source/anomaly/4D/gravity duties
+remain registered. Reports, three ledgers, framework, ladder, scoped law
+rows and open lead move together. No main merge, PR, external relay or
+mirror push; owner-authorized destination is the audit branch only.
+
+Reporting gates: 27 pass / 3 fail, review due at 119 merges; receipt
+HOLONOMY_EQUIVARIANCE_GATES.txt. Same attribution/static-vacuity/older
+provenance debts. No baseline or exemption changed. Authored staged
+whitespace passes; raw pytest trailing spaces remain in the regression.

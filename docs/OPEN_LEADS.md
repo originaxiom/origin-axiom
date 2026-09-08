@@ -2598,6 +2598,22 @@ inflow or a consistently massive/non-gauged U(1) from the same source
 theory. Preserve the neutral cusp channel as a separate 4D-limit duty.
 No complete 27, bare CS value or added field name discharges those maps.
 
+**R20 movement on PB-BOUNDARY (2026-09-08):** the next R19 sub-duty
+is computed. Closing sentence: "Within the prescribed scalar-holonomy
+source model, the full C3-compatible character locus and its
+compact-parent lift obstruction are computed; a pair-free isometry
+orbit survives in the adjoint parent." Source:
+reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md, section 4.
+NOT closure of PB-BOUNDARY or a universal source-selection theorem.
+NEXT: construct the anomaly/defect completion with the actual global
+group and quantized charge lattice. E6/Z3 admits these adjoint spinors,
+not the R4--R10 fundamental-27 Higgs fields: compose compatible fields
+and interactions in one action. Also test noncentral simply connected
+transport as an unexcluded alternative; derive the source/global-form
+and orbit choice. The pair is one isometry orbit, not an automatic
+two-vacuum count. No orbifold invariant-subspace spectrum was computed.
+Keep the neutral-sector 4D limit and common gravity independently open.
+
 **PB-PARTIAL-FILLING — boundary theory on the certified marked witness. OPEN.**
 The degree-five decorated cover filled at cusp 0 (2,1) now has
 interval-certified hyperbolicity, two complete cusps, and CS outside

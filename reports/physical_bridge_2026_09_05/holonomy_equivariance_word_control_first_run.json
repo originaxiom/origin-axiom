@@ -1,0 +1,2322 @@
+{
+  "algebra": {
+    "c3_fixed": [
+      {
+        "character": [
+          "1",
+          "1"
+        ],
+        "cohomology": {
+          "base_betti": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "differential_ranks": [
+            1,
+            0,
+            0
+          ],
+          "dimensions": [
+            1,
+            5,
+            1,
+            0
+          ],
+          "euler": -3,
+          "exact_sequence": [
+            0,
+            4,
+            1,
+            0
+          ],
+          "exact_sequence_matches": true,
+          "exceptional": false,
+          "k": 3,
+          "polynomial": "7",
+          "relative_E_dual": [
+            0,
+            1,
+            4,
+            0
+          ],
+          "relative_T": [
+            0,
+            4,
+            1,
+            0
+          ],
+          "trivial": true,
+          "x": "1",
+          "y": "1"
+        },
+        "h": [
+          "0",
+          "0"
+        ],
+        "orbit": [
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "parent_lifts": [
+          {
+            "central_defect_mod_three": [
+              "0",
+              "0"
+            ],
+            "h": [
+              "0",
+              "0"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": true
+          },
+          {
+            "central_defect_mod_three": [
+              "1",
+              "2"
+            ],
+            "h": [
+              "0",
+              "1"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "2",
+              "1"
+            ],
+            "h": [
+              "0",
+              "2"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "1",
+              "2"
+            ],
+            "h": [
+              "1",
+              "0"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "2",
+              "1"
+            ],
+            "h": [
+              "1",
+              "1"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "0",
+              "0"
+            ],
+            "h": [
+              "1",
+              "2"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": true
+          },
+          {
+            "central_defect_mod_three": [
+              "2",
+              "1"
+            ],
+            "h": [
+              "2",
+              "0"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "0",
+              "0"
+            ],
+            "h": [
+              "2",
+              "1"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": true
+          },
+          {
+            "central_defect_mod_three": [
+              "1",
+              "2"
+            ],
+            "h": [
+              "2",
+              "2"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          }
+        ],
+        "stabilizer_orders": {
+          "1": 1,
+          "2": 7,
+          "3": 2,
+          "6": 2
+        },
+        "stabilizer_size": 12
+      },
+      {
+        "character": [
+          "-1/2 + sqrt(3)*I/2",
+          "-1/2 - sqrt(3)*I/2"
+        ],
+        "cohomology": {
+          "base_betti": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "differential_ranks": [
+            1,
+            1,
+            0
+          ],
+          "dimensions": [
+            1,
+            5,
+            1,
+            0
+          ],
+          "euler": -3,
+          "exact_sequence": [
+            0,
+            3,
+            0,
+            0
+          ],
+          "exact_sequence_matches": true,
+          "exceptional": false,
+          "k": 3,
+          "polynomial": "-2",
+          "relative_E_dual": [
+            0,
+            0,
+            3,
+            0
+          ],
+          "relative_T": [
+            0,
+            3,
+            0,
+            0
+          ],
+          "trivial": false,
+          "x": "-1/2 + sqrt(3)*I/2",
+          "y": "-1/2 - sqrt(3)*I/2"
+        },
+        "h": [
+          "1/3",
+          "2/3"
+        ],
+        "orbit": [
+          [
+            "1/3",
+            "2/3"
+          ],
+          [
+            "2/3",
+            "1/3"
+          ]
+        ],
+        "parent_lifts": [
+          {
+            "central_defect_mod_three": [
+              "0",
+              "2"
+            ],
+            "h": [
+              "1/3",
+              "2/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "1",
+              "1"
+            ],
+            "h": [
+              "1/3",
+              "5/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "2",
+              "0"
+            ],
+            "h": [
+              "1/3",
+              "8/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "1",
+              "1"
+            ],
+            "h": [
+              "4/3",
+              "2/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "2",
+              "0"
+            ],
+            "h": [
+              "4/3",
+              "5/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "0",
+              "2"
+            ],
+            "h": [
+              "4/3",
+              "8/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "2",
+              "0"
+            ],
+            "h": [
+              "7/3",
+              "2/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "0",
+              "2"
+            ],
+            "h": [
+              "7/3",
+              "5/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "1",
+              "1"
+            ],
+            "h": [
+              "7/3",
+              "8/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          }
+        ],
+        "stabilizer_orders": {
+          "1": 1,
+          "2": 3,
+          "3": 2
+        },
+        "stabilizer_size": 6
+      },
+      {
+        "character": [
+          "-1/2 - sqrt(3)*I/2",
+          "-1/2 + sqrt(3)*I/2"
+        ],
+        "cohomology": {
+          "base_betti": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "differential_ranks": [
+            1,
+            1,
+            0
+          ],
+          "dimensions": [
+            1,
+            5,
+            1,
+            0
+          ],
+          "euler": -3,
+          "exact_sequence": [
+            0,
+            3,
+            0,
+            0
+          ],
+          "exact_sequence_matches": true,
+          "exceptional": false,
+          "k": 3,
+          "polynomial": "-2",
+          "relative_E_dual": [
+            0,
+            0,
+            3,
+            0
+          ],
+          "relative_T": [
+            0,
+            3,
+            0,
+            0
+          ],
+          "trivial": false,
+          "x": "-1/2 - sqrt(3)*I/2",
+          "y": "-1/2 + sqrt(3)*I/2"
+        },
+        "h": [
+          "2/3",
+          "1/3"
+        ],
+        "orbit": [
+          [
+            "1/3",
+            "2/3"
+          ],
+          [
+            "2/3",
+            "1/3"
+          ]
+        ],
+        "parent_lifts": [
+          {
+            "central_defect_mod_three": [
+              "2",
+              "2"
+            ],
+            "h": [
+              "2/3",
+              "1/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "0",
+              "1"
+            ],
+            "h": [
+              "2/3",
+              "4/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "1",
+              "0"
+            ],
+            "h": [
+              "2/3",
+              "7/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "0",
+              "1"
+            ],
+            "h": [
+              "5/3",
+              "1/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "1",
+              "0"
+            ],
+            "h": [
+              "5/3",
+              "4/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "2",
+              "2"
+            ],
+            "h": [
+              "5/3",
+              "7/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "1",
+              "0"
+            ],
+            "h": [
+              "8/3",
+              "1/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "2",
+              "2"
+            ],
+            "h": [
+              "8/3",
+              "4/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          },
+          {
+            "central_defect_mod_three": [
+              "0",
+              "1"
+            ],
+            "h": [
+              "8/3",
+              "7/3"
+            ],
+            "invariant_adjoint": true,
+            "invariant_parent": false
+          }
+        ],
+        "stabilizer_orders": {
+          "1": 1,
+          "2": 3,
+          "3": 2
+        },
+        "stabilizer_size": 6
+      }
+    ],
+    "c3_matrix": [
+      [
+        "-1",
+        "-1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "c6_fixed": [
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "c6_matrix": [
+      [
+        "0",
+        "-1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "full_group_fixed": [
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "old_order_two": {
+      "c3_invariant": false,
+      "h": [
+        "1/2",
+        "0"
+      ],
+      "orbit": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ]
+    },
+    "orbifold_projection_performed": false,
+    "parent": {
+      "adjoint_period": 1,
+      "central_fundamental_phases": [
+        "1/3"
+      ],
+      "central_root_phases": [
+        "0"
+      ],
+      "coroot_period": 3,
+      "u": [
+        "4/3",
+        "1",
+        "5/3",
+        "2",
+        "4/3",
+        "2/3"
+      ]
+    },
+    "physical_selection": false,
+    "polynomial_invariance": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "simply_connected_c3_fixed": [
+      {
+        "adjoint_h": [
+          "0",
+          "0"
+        ],
+        "h": [
+          "0",
+          "0"
+        ],
+        "invariant_parent": true
+      },
+      {
+        "adjoint_h": [
+          "0",
+          "0"
+        ],
+        "h": [
+          "1",
+          "2"
+        ],
+        "invariant_parent": true
+      },
+      {
+        "adjoint_h": [
+          "0",
+          "0"
+        ],
+        "h": [
+          "2",
+          "1"
+        ],
+        "invariant_parent": true
+      }
+    ]
+  },
+  "geometry": [
+    {
+      "canonical_c3_cusps": [
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_maps": [
+            [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ]
+          ],
+          "fixed_points": [
+            3,
+            3
+          ]
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_maps": [
+            [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ],
+            [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          ],
+          "fixed_points": [
+            3,
+            3
+          ]
+        }
+      ],
+      "canonical_finite_vertices": false,
+      "canonical_isosig": "jLLzzQQccdffihhiiqffofafoaa_BBBabBaB",
+      "canonical_orientations_all_positive": true,
+      "canonical_symmetry_upper_bound": 12,
+      "canonical_tetrahedra": 9,
+      "direct_combinatorial_bridges": 0,
+      "exact_word_actions": {
+        "actions": [
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ],
+            "images": [
+              "a",
+              "b"
+            ],
+            "k": 0,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ],
+            "images": [
+              "a",
+              "aB"
+            ],
+            "k": 0,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "0",
+                "-1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "images": [
+              "b",
+              "bA"
+            ],
+            "k": 1,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ],
+            "images": [
+              "b",
+              "baB"
+            ],
+            "k": 1,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ],
+            "images": [
+              "bA",
+              "bAB"
+            ],
+            "k": 2,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "images": [
+              "bA",
+              "bAbaB"
+            ],
+            "k": 2,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ],
+            "images": [
+              "bAB",
+              "bABaB"
+            ],
+            "k": 3,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ],
+            "images": [
+              "bAB",
+              "bAAbaB"
+            ],
+            "k": 3,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ],
+            "images": [
+              "bABaB",
+              "bABaaB"
+            ],
+            "k": 4,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "0",
+                "-1"
+              ],
+              [
+                "-1",
+                "0"
+              ]
+            ],
+            "images": [
+              "bABaB",
+              "bABAbaB"
+            ],
+            "k": 4,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "-1",
+                "0"
+              ]
+            ],
+            "images": [
+              "bABaaB",
+              "bABabaB"
+            ],
+            "k": 5,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ],
+            "images": [
+              "bABaaB",
+              "bABaBAbaB"
+            ],
+            "k": 5,
+            "relator_preserved": true
+          }
+        ],
+        "generators": [
+          {
+            "images": [
+              "b",
+              "bA"
+            ],
+            "inverse": [
+              "Ba",
+              "a"
+            ],
+            "label": "r",
+            "relator_preserved": true,
+            "two_sided_free_inverse": true
+          },
+          {
+            "images": [
+              "a",
+              "aB"
+            ],
+            "inverse": [
+              "a",
+              "Ba"
+            ],
+            "label": "s",
+            "relator_preserved": true,
+            "two_sided_free_inverse": true
+          }
+        ],
+        "outer_class_lower_bound": 12
+      },
+      "lower_equals_upper": true,
+      "m004_symmetry_count": 8,
+      "numerical_peripheral_control": {
+        "grade": "numerical enumeration; exact integral descent; not separately interval-certified",
+        "isometries": [
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1"
+                ]
+              ],
+              [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "1",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "0",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "0",
+                "-1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "0",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "0",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "-1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "0",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "1"
+                ]
+              ],
+              [
+                [
+                  "1",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "-1",
+                "0"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1"
+                ]
+              ],
+              [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "1",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "0",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "0",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "0",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "-1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "0",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "1"
+                ]
+              ],
+              [
+                [
+                  "1",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "0",
+                "-1"
+              ],
+              [
+                "-1",
+                "0"
+              ]
+            ]
+          }
+        ],
+        "peripheral_columns": [
+          [
+            [
+              "-2",
+              "1"
+            ],
+            [
+              "3",
+              "2"
+            ]
+          ],
+          [
+            [
+              "-1",
+              "-3"
+            ],
+            [
+              "3",
+              "2"
+            ]
+          ]
+        ]
+      },
+      "original_isosig": "eLMkbbdddemdxi_BaaBbBba",
+      "original_tetrahedra": 4,
+      "requested_bits": 100,
+      "verified": true,
+      "version": "3.3.2"
+    },
+    {
+      "canonical_c3_cusps": [
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_maps": [
+            [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ]
+          ],
+          "fixed_points": [
+            3,
+            3
+          ]
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_maps": [
+            [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ],
+            [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          ],
+          "fixed_points": [
+            3,
+            3
+          ]
+        }
+      ],
+      "canonical_finite_vertices": false,
+      "canonical_isosig": "jLLzzQQccdffihhiiqffofafoaa_BBBabBaB",
+      "canonical_orientations_all_positive": true,
+      "canonical_symmetry_upper_bound": 12,
+      "canonical_tetrahedra": 9,
+      "direct_combinatorial_bridges": 0,
+      "exact_word_actions": {
+        "actions": [
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ],
+            "images": [
+              "a",
+              "b"
+            ],
+            "k": 0,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ],
+            "images": [
+              "a",
+              "aB"
+            ],
+            "k": 0,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "0",
+                "-1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "images": [
+              "b",
+              "bA"
+            ],
+            "k": 1,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ],
+            "images": [
+              "b",
+              "baB"
+            ],
+            "k": 1,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ],
+            "images": [
+              "bA",
+              "bAB"
+            ],
+            "k": 2,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            "images": [
+              "bA",
+              "bAbaB"
+            ],
+            "k": 2,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ],
+            "images": [
+              "bAB",
+              "bABaB"
+            ],
+            "k": 3,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ],
+            "images": [
+              "bAB",
+              "bAAbaB"
+            ],
+            "k": 3,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ],
+            "images": [
+              "bABaB",
+              "bABaaB"
+            ],
+            "k": 4,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "0",
+                "-1"
+              ],
+              [
+                "-1",
+                "0"
+              ]
+            ],
+            "images": [
+              "bABaB",
+              "bABAbaB"
+            ],
+            "k": 4,
+            "relator_preserved": true
+          },
+          {
+            "e": 0,
+            "h1_matrix": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "-1",
+                "0"
+              ]
+            ],
+            "images": [
+              "bABaaB",
+              "bABabaB"
+            ],
+            "k": 5,
+            "relator_preserved": true
+          },
+          {
+            "e": 1,
+            "h1_matrix": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ],
+            "images": [
+              "bABaaB",
+              "bABaBAbaB"
+            ],
+            "k": 5,
+            "relator_preserved": true
+          }
+        ],
+        "generators": [
+          {
+            "images": [
+              "b",
+              "bA"
+            ],
+            "inverse": [
+              "Ba",
+              "a"
+            ],
+            "label": "r",
+            "relator_preserved": true,
+            "two_sided_free_inverse": true
+          },
+          {
+            "images": [
+              "a",
+              "aB"
+            ],
+            "inverse": [
+              "a",
+              "Ba"
+            ],
+            "label": "s",
+            "relator_preserved": true,
+            "two_sided_free_inverse": true
+          }
+        ],
+        "outer_class_lower_bound": 12
+      },
+      "lower_equals_upper": true,
+      "m004_symmetry_count": 8,
+      "numerical_peripheral_control": {
+        "grade": "numerical enumeration; exact integral descent; not separately interval-certified",
+        "isometries": [
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1"
+                ]
+              ],
+              [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "1",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "0",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "0",
+                "-1"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "0",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "0",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "-1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              0,
+              1
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "0",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "1"
+                ]
+              ],
+              [
+                [
+                  "1",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "-1",
+                "0"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1"
+                ]
+              ],
+              [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "1",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "0",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "0",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  "-1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "-1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "1",
+                "1"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "-1",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "0",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "-1"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "-1",
+                "-1"
+              ]
+            ]
+          },
+          {
+            "cusp_images": [
+              1,
+              0
+            ],
+            "cusp_maps": [
+              [
+                [
+                  "0",
+                  "-1"
+                ],
+                [
+                  "1",
+                  "1"
+                ]
+              ],
+              [
+                [
+                  "1",
+                  "1"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ]
+            ],
+            "h1_matrix": [
+              [
+                "0",
+                "-1"
+              ],
+              [
+                "-1",
+                "0"
+              ]
+            ]
+          }
+        ],
+        "peripheral_columns": [
+          [
+            [
+              "-2",
+              "1"
+            ],
+            [
+              "3",
+              "2"
+            ]
+          ],
+          [
+            [
+              "-1",
+              "-3"
+            ],
+            [
+              "3",
+              "2"
+            ]
+          ]
+        ]
+      },
+      "original_isosig": "eLMkbbdddemdxi_BaaBbBba",
+      "original_tetrahedra": 4,
+      "requested_bits": 212,
+      "verified": true,
+      "version": "3.3.2"
+    }
+  ],
+  "runtime_seconds": 2.050694389000455,
+  "scope": "same R20 scientific target; post-failure exact word-map control"
+}

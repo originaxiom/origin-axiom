@@ -14505,3 +14505,38 @@ Latest complete fetch: main c78003cd, physics 659487bb, SM d1a91c7a,
 outside 8a5d6e6f. Incoming Cardy/tail work is routed, not assumed to
 certify this model or merged. Full main banking and independent review
 remain unpaid; the authorized push destination is this audit branch.
+
+### 2026-09-08 — Path-local R20: source-symmetric holonomy and the global lift
+
+The source-compatibility duty of R19 is computed. Exact prior group
+automorphisms from physics R72b give twelve distinct outer classes;
+verified canonical isometry counts at 100/212 bits give the matching
+upper bound. The original four-tetrahedron triangulation and canonical
+nine-tetrahedron one have no direct combinatorial bridge; that sealed
+failure and its six failing tests remain unchanged. Separate exact-word
+control sealed eb9319f3 succeeds. No group action is guessed from its order.
+
+C3 fixes exactly three adjoint characters. The nontrivial pair gives
+the complete three/zero relative kernel, P=-2, and forms one isometry
+orbit with S3 stabilizers. Trivial transport retains four/one. Full
+sixfold scalar invariance permits only trivial transport, without
+excluding symmetry-breaking vacua. The pair is not a geometric mirror
+pair or an automatically distinct pair of physical vacua.
+
+Simply connected E6's scalar period is three; C3-fixed scalar parent
+holonomies are central and adjoint-trivial. None of the nine lifts of
+either pair-free character preserves C3 with the same signed Higgs.
+E6/Z3 permits them. Its adjoint spinors descend, but the earlier
+fundamental-27 Higgs fields do not: a common anomaly/interaction
+completion must keep that global-form distinction. Noncentral simply
+connected transport remains unexcluded; source/orbit/global-form
+selection, neutral 4D limit, gravity and observable duties stay open.
+
+Focused 34 pass (9 new + 25 R19/R18). The 38-file quiescent regression
+gives 250 pass / 13 fail / 8 error in 267.36 s: old IDs plus exactly
+six original transfer failures. Original assertions/tolerances unchanged.
+Reports, FINDINGS, strategy, reader surfaces and the same PB-BOUNDARY
+lead updated; no B allocation or full-main-bank claim.
+Source: reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md.
+All incoming heads fetched; SM advances to 3f4ce9af. Its new closed-tower
+results retain vector-like scope and were not imported as our completion.

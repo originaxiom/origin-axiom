@@ -1,6 +1,20 @@
-# Verdict toward the full physical-theory goal — 2026-09-08, after path-local R19
+# Verdict toward the full physical-theory goal — 2026-09-08, after path-local R20
 
-**Newest movement:** [R19](HOLONOMY_SPECTRUM.md) removes the extra
+**Newest movement:** [R20](HOLONOMY_EQUIVARIANCE.md) computes the
+source-symmetry compatibility rather than assuming it. One nontrivial
+C3-compatible adjoint-character orbit gives the three/zero kernel.
+It survives in E6/Z3 but has no scalar simply connected E6 lift
+preserving C3 and the same signed Higgs. The trivial orbit retains
+four/one. This is a genuine conditional candidate, not a selected
+physical vacuum. The quotient admits adjoint spinors, not the older
+fundamental-27 Higgs fields; a common anomaly/interaction completion
+must respect that distinction. Exact prior automorphisms and verified
+canonical counts certify the action. Original transfer failure retained;
+separate control passes, focused 34 pass, broad 250 pass / 13 fail /
+8 error. The full TOE, neutral 4D limit, common gravity, empirical
+predictions and independent main banking remain unachieved.
+
+**Preceding movement:** [R19](HOLONOMY_SPECTRUM.md) removes the extra
 pair at generic unitary holonomy in the same prescribed strong-source
 maximal complex: three spinor H1 modes, no conjugate H1 modes. Trivial
 and explicitly exceptional holonomies retain four/one. The complete

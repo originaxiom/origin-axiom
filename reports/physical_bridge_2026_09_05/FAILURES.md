@@ -1,5 +1,35 @@
 # Failures retained, not rewritten as successful runs
 
+## R20 basis-transfer failure and exact-word control (2026-09-08)
+
+Reporting gates return 27 pass / 3 fail, review due at 119 merges,
+with the same attribution/static-vacuity/older-provenance debts.
+HOLONOMY_EQUIVARIANCE_GATES.txt records the pass. Authored staged
+whitespace is clean; captured pytest trailing spaces are retained.
+
+Seal 72e40d9c's native run stops at the missing direct combinatorial
+isomorphism between the original four-tetrahedron triangulation and
+its nine-tetrahedron canonical one. Six geometry-dependent tests fail;
+the original source/tests and full failure are unchanged. Receipt:
+HOLONOMY_EQUIVARIANCE_FAILURE.txt, with raw local captures excluded.
+This is an instrument failure, not a negative on the physical route.
+
+Control seal eb9319f3 precedes a different certification method:
+exact prior free-word automorphisms provide twelve distinct outer
+classes; verified canonical counts supply the matching upper bound.
+The native control and nine direct new tests pass (34 with R19/R18).
+The first capture includes a deprecation warning before JSON; a strict
+receiver parse initially failed, then parsing the JSON portion of the
+SAME complete capture succeeded. Warning and raw output are preserved;
+no scientific rerun or original-code repair was needed.
+
+The quiescent 38-file regression is 250 pass / 13 fail / 8 error,
+267.36 s. All fifteen old failed/error IDs persist, plus exactly the
+six original R20 transfer failures. The separate successful controls
+do not erase those failures. No complete-repository green, independent
+review or full main banking. Public receipts redact only environment
+prefixes; byte-faithful raw copies remain in named local excluded files.
+
 ## R19 first executions and regression (2026-09-08)
 
 On resumption the earlier reporting-gate handle was missing and the

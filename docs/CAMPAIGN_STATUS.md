@@ -1,6 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-**LATEST LOCAL AUDIT (2026-09-08, path-local R19): the extra pair is holonomy-dependent.**
+**LATEST LOCAL AUDIT (2026-09-08, path-local R20): source-compatible pair-free orbit.**
+The exact source C3 action leaves a trivial character and a nontrivial
+pair: four/one versus three/zero in the prescribed maximal complex.
+The pair is one isometry orbit, compatible with E6/Z3 but with no
+C3-equivariant scalar lift to simply connected E6 for the same Higgs.
+Verified canonical counts and exact prior word maps certify the full
+action. Original transfer failure retained; separate control passes.
+Focused 34 pass; broad 250 pass / 13 fail / 8 error. NEXT: a common
+global-form-compatible anomaly/defect and interaction completion, plus
+source/vacuum selection and the neutral 4D limit. No physical vacuum,
+fundamental-27 Higgs on E6/Z3, independent bank or TOE is inferred.
+Source: reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md.
+
+**PRECEDING LOCAL AUDIT (2026-09-08, path-local R19): the extra pair is holonomy-dependent.**
 Generic unitary holonomy gives three/zero in the prescribed three-source
 strong maximal complex; trivial and explicit exceptional connections
 retain four/one. The banked Alexander polynomial and anomaly are
