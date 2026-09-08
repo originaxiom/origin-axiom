@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1196** |
-| words of findings prose | **858,706** |
-| test lock files referenced | **710** |
-| arcs carrying an authored verdict | **1196** (100.0 %) |
+| research arcs with findings | **1197** |
+| words of findings prose | **859,878** |
+| test lock files referenced | **711** |
+| arcs carrying an authored verdict | **1197** (100.0 %) |
 | recorded closures | **783** (616 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 786 |
+| PROVED | 787 |
 | NEGATIVE | 312 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1303`** (2614 words, 1 locks)  
-THE 2x2 CRITERION. The n-fold cyclic branched cover of the object is the fixed quotient of the fibre's monodromy, pi_1(Y_n) = <a, b | phi^n(a) = a, phi^n(b) = b> (phi: a -> a^2 b, b -> a b), so for a non-trivial character psi of H_1(Y_n) = coker(Phi^n - I): h^1(Y_n; psi) = 1 iff A(x_{n-1}) ... A(x_0) = I with A(x) = [[1 + x, x^2], [1, x]] and x_k = psi(a)^{F_{2k+1}} psi(b)^{F_{2k}}, else 0 (rank <= 1: no character has h^1 >= 2). Validated exactly against the Reidemeister-Schreier Fox calculus at every level 2 <= n <= 13 (counts, orders, deck-eigen structures), on the alphabets and Standard-Model lines of Y_9 and Y_12 (B1278, B1300, B1301 reproduced from the criterion's supports by an independent line counter), by homomorphism counts of the three presentations into S_3, A_4, S_4, A_5 for n <= 5, and by a Reidemeister-Schreier check of Y_20's 1 680 order-41 and 120 order-11 characters. The tower's supports through Y_21 in minutes (Y_21: 599 074 576 characters): Y_14 56, Y_15 2 723, Y_16 0, Y_17 7 140, Y_18 171 (Y_9's and Y_6's, nothing new), Y_19 18 696, Y_20 20 (nothing at 41), Y_21 48 947 = (S x V_4) minus 1 with |S| = 12 237, exactly the eigencharacter census's prediction (K3 = 48 945 letters). THE LAW, corrected and exact at n = 2 ... 21: an odd-order character has h^1 = 1 iff it is an eigencharacter of the half-deck Psi = [[1,1],[1,0]] (Psi^2 = the deck; multiplication by the golden ratio on H_1(Y_n) = Z[phi]/(L_n) or Z[phi]/(sqrt5 F_n)), its order is prime to 5 (the ramified prime), Psi^n acts on it by a global sign +-1, and that sign is + when n is even -- so new odd support arises only at odd levels (B1301's prediction of new support at Y_20 and Y_22 withdrawn; Y_15's 600 mixed-sign characters of order 341 at 0 and 680 global-sign ones at 1). The Standard-Model lines of the odd-alphabet closings by a structural count: Y_15 has 5 016 142 400 SM lines (4 960 988 960 full-spectrum, 2 721 letters, 67 survival patterns as on Y_9) with the colour triplet kept in all three generations on every one (B1300's theorem applies: a letter's square has odd order and stays in S); Y_18's lines are Y_9's 706 464 pulled back; Y_21: an alphabet of 48 945 letters, its lines not enumerated (1.8 x 10^12 odd triples), the triplet kept by the theorem. The one-triplet vacua of B1302 are a 2-adic phenomenon of Y_12 (and possibly Y_24, beyond reach). Vector-like throughout (B1260); 0 of 19; price unchanged.  
-`B1303_the_two_by_two_criterion/FINDINGS.md`
+**PROVED — `B1304`** (1172 words, 1 locks)  
+THE 2-ADIC TOWER ENDS AT Y_12. Y_24's character group has 10 749 957 120 elements, but its odd support is empty by B1303's law (an even level pulls back Y_12's, which is empty) and its 2-primary subgroup is (Z/32)^2 = 1 024 characters, on which the 2x2 criterion finds exactly Y_12's 123 support characters pulled back (orders 2, 8, 16; no order 32): the same 97-letter alphabet, the same 190 849 / 181 440 / 34 752 / 3 264 lines, the same thinning of the colour triplet to one generation on 31 488 lines, the same 265 survival patterns and the same 768 one-triplet vacua of B1302 (its census rerun on Y_24 is identical entry for entry); Y_12 through the same route reproduces B1301 and B1302 as the control. So the new 2-adic supports of the tower are at levels 3 (the family), 6 (order 8) and 12 (order 16) only -- the two indices at which the Fibonacci numbers lack a primitive prime divisor, Carmichael's exceptions, a coincidence registered not claimed -- and with B1303's law the tower is described: the closing that thins the triplets is Y_12 and its pullbacks, no closing does better at tree level. Also: for every non-trivial character the criterion's product P is unipotent (rank(P - I) <= 1 since P - I kills (psi(a) - 1, psi(b) - 1); det P = psi((Phi^n - I)(Phi - I)^-1 a) = 1 since Phi - I is unimodular), confirmed exactly on 1 984 917 characters of six levels, so h^1 = 1 iff the rank-one nilpotent part vanishes -- the form in which the law's proof should be sought. Vector-like throughout (B1260); 0 of 19; price unchanged.  
+`B1304_the_two_adic_tower/FINDINGS.md`
 
 **NEGATIVE — `B1300`** (2600 words, 1 locks)  
 THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while keeping the Higgs doublets: exhaustively, with every component's survival in every generation recorded (B1278's pipeline re-run and re-enumerated), 0 split lines; D is kept in all three generations on every SM line -- indeed on every one of the 3 048 625 candidates -- while Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines. BY THEOREM: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; three generations of Q put psi_Q in the alphabet K3 = {1} u ((C_1 u C_2) minus 1) x V_4 (orders 1, 19, 38), whose squares have odd order and are never family characters -- and the family characters (order 2) are the only characters that project anything (B1278's support theorem: h^1 = 1 exactly on ((C_1 u C_2) x V_4) minus 1). An exact structural model built from the support theorem and the weight table (Q, u^c, L a Z-basis of P/Q_SM; the eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders) reproduces every count of B1278 -- 145-letter alphabet, 758 593 three-generation lines, 737 568 SU(5)-breaking, 706 464 SM vacua, 568 656 full-spectrum -- and every histogram of the pipeline in seventeen seconds with no Fox calculus: B1278 verified by a second method. Consequences: L209(ii)'s Wilson-line option is closed; B1283's light D pair is untouched by the Wilson line as it is by the tree-level VEVs, so whatever gives generation g's Higgs pair its mu gives its D pair a mass through the same E6 Clebsch (a vector-like colour-triplet pair near mu if the instanton sector respects the Clebsch -- a stated assumption, not a banked prediction). Vector-like throughout (B1260); 0 of 19; price unchanged.  

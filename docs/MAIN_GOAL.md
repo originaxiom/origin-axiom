@@ -217,3 +217,6 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   characters are the half-deck's eigencharacters with a global sign of Ψⁿ, + at even levels: new odd support only at
   odd levels; Y₂₀ has nothing at 41, confirmed by Reidemeister–Schreier). Y₁₅ is an SM closing with the triplet kept;
   Y₁₈'s lines are Y₉'s; Y₂₁: 48 947 support characters. The one-triplet vacua are Y₁₂'s 2-adic phenomenon.
+- **The 2-adic tower ends at Y₁₂ (B1304).** Y₂₄'s support is Y₁₂'s pulled back (the same 97 letters, 34 752 lines, 768
+  one-triplet vacua); new 2-adic support only at 3, 6, 12. **The closing that thins the triplets is Y₁₂ and no other**;
+  with B1303's law the tower is described. The criterion's product is unipotent on every character.

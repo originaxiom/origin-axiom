@@ -14571,3 +14571,14 @@ prime to 5, Ψⁿ acts on it by a global sign, and the sign is + at even levels 
 B1301's Y₂₀/Y₂₂ prediction withdrawn. SM lines: Y₁₅ 5 016 142 400 (67 patterns, D kept everywhere by B1300's theorem),
 Y₁₈ = Y₉'s 706 464, Y₂₁ an alphabet of 48 945 letters, lines not enumerated (the triplet kept by the theorem). The one-triplet vacua are Y₁₂'s 2-adic phenomenon. Lock
 `tests/test_b1303_the_two_by_two_criterion.py`. Vector-like; 0 of 19; price unchanged.
+
+### B1304 — the 2-adic tower ends at Y₁₂: Y₂₄'s support, alphabet, SM lines and one-triplet vacua are Y₁₂'s pulled back; the criterion's product is unipotent on every non-trivial character (2026-09-08)
+
+Y₂₄'s odd support is empty by B1303's law and its 2-primary subgroup is (ℤ/32)² = 1 024 characters: the criterion finds
+exactly Y₁₂'s 123 (orders 2, 8, 16; no order 32) — the same 97 letters, 34 752 SM lines, 31 488 with D thinned to one
+generation, 265 patterns, 768 one-triplet vacua (B1302's census identical entry for entry; Y₁₂ as the control). The new
+2-adic supports of the tower are at 3, 6, 12 only — Carmichael's exceptional Fibonacci indices, registered not claimed —
+so **the closing that thins the triplets is Y₁₂ and no other**, and with B1303's law the tower is described. Also proved:
+for every non-trivial character the product P is unipotent (rank(P − I) ≤ 1, det P = 1 since Φ − I is unimodular), so
+h¹ = 1 iff its rank-one nilpotent part vanishes — confirmed on 1 984 917 characters. Lock
+`tests/test_b1304_the_two_adic_tower.py`. Vector-like; 0 of 19; price unchanged.

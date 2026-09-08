@@ -2509,8 +2509,10 @@ quotients; the twisted Alexander polynomial should give h¹ = 1 exactly at the p
 **L210 status 2026-09-08 (B1303):** (i) done through Y₂₁ by the 2×2 criterion, and the law corrected — new odd support
 only at odd levels (Y₂₀'s prediction withdrawn), the mixed products decided by the global sign of Ψⁿ; Y₁₅'s lines
 counted (5 016 142 400, triplet kept), Y₁₈'s are Y₉'s, Y₂₁'s alphabet has 48 947 support characters. (iv) is now a
-statement about products of Galois-conjugate matrices A(x^{u^{2k}}). Open: Y₂₄'s 2-adic part (beyond reach), the exact
-structural count of Y₂₁'s lines.
+statement about products of Galois-conjugate matrices A(x^{u^{2k}}). Open: the exact structural count of Y₂₁'s lines. **Y₂₄'s 2-adic part done (B1304):** Y₁₂'s pulled back, nothing new;
+the tower's new 2-adic supports are at 3, 6, 12 only (Carmichael's exceptional Fibonacci indices — a coincidence
+registered, not claimed). The criterion's product is unipotent on every non-trivial character (B1304 §2): (iv) is the
+vanishing of a rank-one nilpotent.
 
 **L210 status 2026-09-08 (B1302):** (ii) answered — yes: 768 of Y₁₂'s lines admit a flat direction with exactly one light
 triplet pair (the light generation's d^c) and three light doublet pairs; Y₉ never below two. (i) half done: Y₁₃ came out

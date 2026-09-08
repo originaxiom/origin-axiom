@@ -1,0 +1,30 @@
+"""B1304 — the 2-adic tower ends at Y_12: Y_24's 2-primary support, alphabet, Standard-Model lines and one-triplet vacua
+are Y_12's (control: Y_12 reproduces B1301/B1302), and the criterion's product is unipotent on every non-trivial
+character (~40 s)."""
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "frontier" / "B1304_the_two_adic_tower" / "verification"))
+
+
+def test_y24_is_y12_pulled_back():
+    import two_adic_lines as T
+    out = T.main()
+    assert out['ok']
+    for n in (12, 24):
+        assert out[n]['support'] == 123 and out[n]['byord'] == {2: 3, 8: 24, 16: 96} and out[n]['K3'] == 97 and out[n]['K2'] == 27
+        assert out[n]['counts'] == {'three': 190849, 'broken': 181440, 'sm': 34752, 'full': 3264}
+        assert out[n]['d_tot'] == {1: 31488, 3: 3264} and len(out[n]['patterns']) == 265
+        assert out[n]['vacua']['minT'] == 1 and out[n]['vacua']['lines_solved'] == 768 and out[n]['vacua']['solved_patterns'] == 6
+    assert out[24]['patterns'] == out[12]['patterns']
+
+
+def test_the_product_is_unipotent_on_every_non_trivial_character():
+    import unipotent_census as U
+    for n, sup in ((5, 20), (6, 27), (9, 147), (10, 20)):
+        r = U.level(n)
+        cls = r['cls']
+        assert cls['(False, True, False, True)'] == 1                                   # the trivial character alone is not unipotent
+        assert cls['(True, True, True, False)'] == sup                                  # the identity exactly on the support
+        assert sum(v for k, v in cls.items() if k.startswith('(True')) == r['unip'] and r['unip'] == {5: 120, 6: 319, 9: 5775, 10: 15124}[n]

@@ -1,0 +1,12 @@
+{
+ "id": "B1304",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1303", "B1302", "B1301", "B1300"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE 2-ADIC TOWER ENDS AT Y_12. Y_24's character group has 10 749 957 120 elements, but its odd support is empty by B1303's law (an even level pulls back Y_12's, which is empty) and its 2-primary subgroup is (Z/32)^2 = 1 024 characters, on which the 2x2 criterion finds exactly Y_12's 123 support characters pulled back (orders 2, 8, 16; no order 32): the same 97-letter alphabet, the same 190 849 / 181 440 / 34 752 / 3 264 lines, the same thinning of the colour triplet to one generation on 31 488 lines, the same 265 survival patterns and the same 768 one-triplet vacua of B1302 (its census rerun on Y_24 is identical entry for entry); Y_12 through the same route reproduces B1301 and B1302 as the control. So the new 2-adic supports of the tower are at levels 3 (the family), 6 (order 8) and 12 (order 16) only -- the two indices at which the Fibonacci numbers lack a primitive prime divisor, Carmichael's exceptions, a coincidence registered not claimed -- and with B1303's law the tower is described: the closing that thins the triplets is Y_12 and its pullbacks, no closing does better at tree level. Also: for every non-trivial character the criterion's product P is unipotent (rank(P - I) <= 1 since P - I kills (psi(a) - 1, psi(b) - 1); det P = psi((Phi^n - I)(Phi - I)^-1 a) = 1 since Phi - I is unimodular), confirmed exactly on 1 984 917 characters of six levels, so h^1 = 1 iff the rank-one nilpotent part vanishes -- the form in which the law's proof should be sought. Vector-like throughout (B1260); 0 of 19; price unchanged."
+}

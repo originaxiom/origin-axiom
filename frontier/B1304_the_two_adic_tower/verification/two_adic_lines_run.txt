@@ -1,0 +1,56 @@
+=== Y_12: 2-primary subgroup Z/16 x Z/16; support 123 by order {2: 3, 8: 24, 16: 96}; K3 97 letters by order {1: 1, 16: 96}; K2 27 ===
+  lines K3^3 = 912673: three generations 190849, SU(5) broken 181440, SM vacua 34752, full spectrum 3264
+  D totals {1: 31488, 3: 3264}; surviving D generations {(0, 0, 1): 10496, (0, 1, 0): 10496, (1, 0, 0): 10496, (1, 1, 1): 3264}; loses a generation {'H_u': 15744, 'D': 31488, 'Dbar': 18528, 'S': 12000, 'H_d': 16608}
+  (H_u, H_d, D, Dbar) -> lines: {(1, 1, 1, 1): 576, (1, 2, 1, 0): 576, (1, 2, 1, 2): 768, (1, 2, 1, 3): 96, (1, 3, 1, 0): 192, (1, 3, 1, 2): 96, (1, 3, 1, 3): 768, (2, 1, 1, 0): 576, (2, 1, 1, 2): 1248, (2, 1, 1, 3): 96, (2, 2, 1, 0): 1152, (2, 2, 1, 1): 1248, (2, 2, 1, 2): 1152, (2, 2, 1, 3): 384, (2, 3, 1, 0): 2496, (2, 3, 1, 1): 96, (2, 3, 1, 2): 384, (2, 3, 1, 3): 3840, (3, 1, 1, 0): 192, (3, 1, 1, 2): 96, (3, 1, 1, 3): 1632, (3, 2, 1, 0): 2496, (3, 2, 1, 1): 96, (3, 2, 1, 2): 384, (3, 2, 1, 3): 3840, (3, 3, 1, 0): 1536, (3, 3, 1, 1): 1632, (3, 3, 1, 2): 1536, (3, 3, 1, 3): 2304, (3, 3, 3, 3): 3264}
+  survival patterns 265
+=== Y_24: 2-primary subgroup Z/32 x Z/32; support 123 by order {2: 3, 8: 24, 16: 96}; K3 97 letters by order {1: 1, 16: 96}; K2 27 ===
+  lines K3^3 = 912673: three generations 190849, SU(5) broken 181440, SM vacua 34752, full spectrum 3264
+  D totals {1: 31488, 3: 3264}; surviving D generations {(0, 0, 1): 10496, (0, 1, 0): 10496, (1, 0, 0): 10496, (1, 1, 1): 3264}; loses a generation {'H_u': 15744, 'D': 31488, 'Dbar': 18528, 'S': 12000, 'H_d': 16608}
+  (H_u, H_d, D, Dbar) -> lines: {(1, 1, 1, 1): 576, (1, 2, 1, 0): 576, (1, 2, 1, 2): 768, (1, 2, 1, 3): 96, (1, 3, 1, 0): 192, (1, 3, 1, 2): 96, (1, 3, 1, 3): 768, (2, 1, 1, 0): 576, (2, 1, 1, 2): 1248, (2, 1, 1, 3): 96, (2, 2, 1, 0): 1152, (2, 2, 1, 1): 1248, (2, 2, 1, 2): 1152, (2, 2, 1, 3): 384, (2, 3, 1, 0): 2496, (2, 3, 1, 1): 96, (2, 3, 1, 2): 384, (2, 3, 1, 3): 3840, (3, 1, 1, 0): 192, (3, 1, 1, 2): 96, (3, 1, 1, 3): 1632, (3, 2, 1, 0): 2496, (3, 2, 1, 1): 96, (3, 2, 1, 2): 384, (3, 2, 1, 3): 3840, (3, 3, 1, 0): 1536, (3, 3, 1, 1): 1632, (3, 3, 1, 2): 1536, (3, 3, 1, 3): 2304, (3, 3, 3, 3): 3264}
+  survival patterns 265
+
+=== Y_12: 34752 SM lines, 265 distinct survival patterns ===
+  (light triplet pairs n_T, light doublet pairs n_H) over all (line, configuration) -> lines x configurations: {(1, 3): 1536, (2, 1): 768, (2, 2): 40704, (2, 3): 43776, (2, 4): 82176, (2, 5): 16896, (2, 6): 6912, (3, 1): 3456, (3, 2): 31872, (3, 3): 149376, (3, 4): 64512, (3, 5): 21504, (3, 6): 384, (4, 1): 768, (4, 2): 10560, (4, 3): 23808, (4, 4): 45696, (4, 5): 22656, (4, 6): 17856, (4, 7): 1920, (5, 1): 3072, (5, 2): 15552, (5, 3): 32352, (5, 4): 53376, (5, 5): 65376, (5, 6): 24960, (5, 7): 2112, (6, 2): 1920, (6, 3): 2496, (6, 4): 2304, (6, 5): 5376, (6, 6): 4128, (6, 7): 768, (7, 2): 192, (7, 3): 3648, (7, 4): 16896, (7, 5): 7680, (7, 6): 6528, (7, 7): 3936}
+  minimal n_T over the patterns' best configurations (n_H >= 1): 1; patterns reaching n_T <= 1: 6 of 265, covering 768 lines
+  best n_T per line (its best configuration with n_H >= 1) -> lines: {1: 768, 2: 14880, 3: 19104}
+  with at least six light doublet pairs (two light generations' worth): best n_T -> lines: {2: 2496, 3: 96, 4: 5952, 5: 8832, 6: 1824, 7: 2592, None: 12960}
+    two-generation example [H_u 011, D 100, Dbar 000] x 256 lines: configuration (None, 2, None) -> light pairs {'T': 2, 'H': 6, 'Q': 3, 'u^c': 3, 'e^c': 3}; exactly massless T rows ["d^c'1", "d^c'2"], H rows ['H_u2', "L'2", "L'3", "H_d'1", "H_d'2", "H_d'3"]; kernel beyond zero rows: T 0, H 0
+    two-generation example [H_u 110, D 100, Dbar 000] x 256 lines: configuration (None, 2, None) -> light pairs {'T': 2, 'H': 6, 'Q': 3, 'u^c': 3, 'e^c': 3}; exactly massless T rows ["d^c'1", "d^c'2"], H rows ['H_u2', "L'1", "L'2", "H_d'1", "H_d'2", "H_d'3"]; kernel beyond zero rows: T 0, H 0
+    solved pattern [D 100, Dbar 001, S 010]: configuration (2, None, 2); exactly massless: T rows ["d^c'2"] cols ['d^c2']; H rows ['H_u2', "L'2", "H_d'2"] cols ['L2', 'H_d2', "H_u'2"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 100, Dbar 010, S 001]: configuration (3, None, 3); exactly massless: T rows ["d^c'3"] cols ['d^c3']; H rows ['H_u3', "L'3", "H_d'3"] cols ['L3', 'H_d3', "H_u'3"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 001, Dbar 100, S 010]: configuration (2, None, 2); exactly massless: T rows ["d^c'2"] cols ['d^c2']; H rows ['H_u2', "L'2", "H_d'2"] cols ['L2', 'H_d2', "H_u'2"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 001, Dbar 010, S 100]: configuration (1, None, 1); exactly massless: T rows ["d^c'1"] cols ['d^c1']; H rows ['H_u1', "L'1", "H_d'1"] cols ['L1', 'H_d1', "H_u'1"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 010, Dbar 100, S 001]: configuration (3, None, 3); exactly massless: T rows ["d^c'3"] cols ['d^c3']; H rows ['H_u3', "L'3", "H_d'3"] cols ['L3', 'H_d3', "H_u'3"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 010, Dbar 001, S 100]: configuration (1, None, 1); exactly massless: T rows ["d^c'1"] cols ['d^c1']; H rows ['H_u1', "L'1", "H_d'1"] cols ['L1', 'H_d1', "H_u'1"]; kernel beyond the zero rows: T 0, H 0
+    pattern [D 100, Dbar 001, S 010] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (2, None, 2) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 100, Dbar 010, S 001] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (3, None, 3) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 001, Dbar 100, S 010] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (2, None, 2) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 001, Dbar 010, S 100] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (1, None, 1) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 010, Dbar 100, S 001] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (3, None, 3) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 010, Dbar 001, S 100] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (1, None, 1) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+  (7 s)
+
+=== Y_24: 34752 SM lines, 265 distinct survival patterns ===
+  (light triplet pairs n_T, light doublet pairs n_H) over all (line, configuration) -> lines x configurations: {(1, 3): 1536, (2, 1): 768, (2, 2): 40704, (2, 3): 43776, (2, 4): 82176, (2, 5): 16896, (2, 6): 6912, (3, 1): 3456, (3, 2): 31872, (3, 3): 149376, (3, 4): 64512, (3, 5): 21504, (3, 6): 384, (4, 1): 768, (4, 2): 10560, (4, 3): 23808, (4, 4): 45696, (4, 5): 22656, (4, 6): 17856, (4, 7): 1920, (5, 1): 3072, (5, 2): 15552, (5, 3): 32352, (5, 4): 53376, (5, 5): 65376, (5, 6): 24960, (5, 7): 2112, (6, 2): 1920, (6, 3): 2496, (6, 4): 2304, (6, 5): 5376, (6, 6): 4128, (6, 7): 768, (7, 2): 192, (7, 3): 3648, (7, 4): 16896, (7, 5): 7680, (7, 6): 6528, (7, 7): 3936}
+  minimal n_T over the patterns' best configurations (n_H >= 1): 1; patterns reaching n_T <= 1: 6 of 265, covering 768 lines
+  best n_T per line (its best configuration with n_H >= 1) -> lines: {1: 768, 2: 14880, 3: 19104}
+  with at least six light doublet pairs (two light generations' worth): best n_T -> lines: {2: 2496, 3: 96, 4: 5952, 5: 8832, 6: 1824, 7: 2592, None: 12960}
+    two-generation example [H_u 011, D 100, Dbar 000] x 256 lines: configuration (None, 2, None) -> light pairs {'T': 2, 'H': 6, 'Q': 3, 'u^c': 3, 'e^c': 3}; exactly massless T rows ["d^c'1", "d^c'2"], H rows ['H_u2', "L'2", "L'3", "H_d'1", "H_d'2", "H_d'3"]; kernel beyond zero rows: T 0, H 0
+    two-generation example [H_u 110, D 100, Dbar 000] x 256 lines: configuration (None, 2, None) -> light pairs {'T': 2, 'H': 6, 'Q': 3, 'u^c': 3, 'e^c': 3}; exactly massless T rows ["d^c'1", "d^c'2"], H rows ['H_u2', "L'1", "L'2", "H_d'1", "H_d'2", "H_d'3"]; kernel beyond zero rows: T 0, H 0
+    solved pattern [D 100, Dbar 001, S 010]: configuration (2, None, 2); exactly massless: T rows ["d^c'2"] cols ['d^c2']; H rows ['H_u2', "L'2", "H_d'2"] cols ['L2', 'H_d2', "H_u'2"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 100, Dbar 010, S 001]: configuration (3, None, 3); exactly massless: T rows ["d^c'3"] cols ['d^c3']; H rows ['H_u3', "L'3", "H_d'3"] cols ['L3', 'H_d3', "H_u'3"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 001, Dbar 100, S 010]: configuration (2, None, 2); exactly massless: T rows ["d^c'2"] cols ['d^c2']; H rows ['H_u2', "L'2", "H_d'2"] cols ['L2', 'H_d2', "H_u'2"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 001, Dbar 010, S 100]: configuration (1, None, 1); exactly massless: T rows ["d^c'1"] cols ['d^c1']; H rows ['H_u1', "L'1", "H_d'1"] cols ['L1', 'H_d1', "H_u'1"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 010, Dbar 100, S 001]: configuration (3, None, 3); exactly massless: T rows ["d^c'3"] cols ['d^c3']; H rows ['H_u3', "L'3", "H_d'3"] cols ['L3', 'H_d3', "H_u'3"]; kernel beyond the zero rows: T 0, H 0
+    solved pattern [D 010, Dbar 001, S 100]: configuration (1, None, 1); exactly massless: T rows ["d^c'1"] cols ['d^c1']; H rows ['H_u1', "L'1", "H_d'1"] cols ['L1', 'H_d1', "H_u'1"]; kernel beyond the zero rows: T 0, H 0
+    pattern [D 100, Dbar 001, S 010] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (2, None, 2) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 100, Dbar 010, S 001] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (3, None, 3) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 001, Dbar 100, S 010] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (2, None, 2) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 001, Dbar 010, S 100] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (1, None, 1) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 010, Dbar 100, S 001] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (3, None, 3) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+    pattern [D 010, Dbar 001, S 100] x 128 lines: best configuration (N gen, nu^c gen, flavon pair's third gen) = (1, None, 1) -> light pairs {'T': 1, 'H': 3, 'Q': 1, 'u^c': 1, 'e^c': 1}
+  (8 s)
+
+  (21 s)
+
+SELFTEST: PASS

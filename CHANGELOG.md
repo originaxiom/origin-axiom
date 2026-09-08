@@ -1,5 +1,11 @@
 # Changelog
 
+## B1304 — the 2-adic tower ends at Y₁₂: Y₂₄ is Y₁₂ pulled back; the criterion's product is unipotent on every character
+
+Y₂₄'s 1 024-element 2-primary subgroup carries exactly Y₁₂'s support; same alphabet, lines, thinning and one-triplet vacua.
+The tower's new 2-adic supports are at 3, 6, 12 only; with B1303's law the tower is described. P = I + N with N of rank ≤ 1
+on every non-trivial character. `frontier/B1304_the_two_adic_tower`.
+
 ## B1303 — the 2×2 criterion: h¹ of every closing by a product of n small matrices; the tower through Y₂₁; the law corrected; the SM lines of Y₁₅, Y₁₈, Y₂₁
 
 π₁(Y_n) is the fixed quotient of the fibre's monodromy; h¹(Y_n; ψ) = 1 iff ΠA(x_k) = I. Validated at twelve levels and by

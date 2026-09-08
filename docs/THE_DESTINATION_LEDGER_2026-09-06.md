@@ -176,6 +176,15 @@ Standard-Model closings of the tower are therefore Y₉, Y₁₂, Y₁₅ (5 016
 (48 947 support characters) and by the law every odd multiple of 3 with a new prime; the one-triplet vacua of §4h
 are Y₁₂'s 2-adic phenomenon, possibly Y₂₄'s, and no odd closing's.
 
+## 4j. The tower described (B1304, 2026-09-08)
+
+Y₂₄'s support is Y₁₂'s pulled back — the same alphabet, the same 34 752 lines, the same 768 one-triplet vacua, no order-32
+support — so the tower's new 2-adic supports are at levels 3, 6 and 12 only, and with B1303's law (new odd support only at
+odd levels, from the half-deck's eigencharacters) every closing's support, alphabet and Standard-Model lines are now
+described. The closing on which §4h's doublet–triplet solution lives is Y₁₂ and its pullbacks, and no closing of the
+tower does better at tree level. What the tower does not do is unchanged: chirality (B1260, B1280, B1290), three light
+generations, the numbers.
+
 ## 5. What is expected, in order
 
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the

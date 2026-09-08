@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-08, B1304 — THE 2-ADIC TOWER ENDS AT Y₁₂)**: Y₂₄'s support is Y₁₂'s pulled back (its 2-primary subgroup
+of 1 024 characters under the criterion: the same 97 letters, 34 752 SM lines, 768 one-triplet vacua; no order-32
+support), so the new 2-adic supports of the tower are at levels 3, 6 and 12 only and **the closing that thins the colour
+triplets is Y₁₂ and no other**; with B1303's law the tower's supports, alphabets and Standard-Model lines are described
+in full. The criterion's product is unipotent on every non-trivial character; h¹ is the vanishing of its rank-one
+nilpotent part. Price unchanged.
+
 **LATEST (2026-09-08, B1303 — THE 2×2 CRITERION)**: the branched covers are the fixed quotients of the fibre's monodromy,
 so **h¹(Y_n; ψ) = 1 iff a product of n explicit 2×2 matrices is the identity** — validated exactly at twelve levels and by
 a Reidemeister–Schreier check at Y₂₀; the tower's supports through Y₂₁ in minutes. **The law, corrected:** the supported
