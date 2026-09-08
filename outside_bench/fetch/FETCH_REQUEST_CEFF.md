@@ -48,7 +48,23 @@ cannot be decided.
 | **B''2** | **Garoufalidis–Koutschan, the non-commutative A-polynomial of the twist knots** — Park cites [GK13] as the source of his eq (32) | the same operator from its origin |
 | **B''3** | `f_4^{m(5₂)}(q)` from any independent computation, to **more than ten** coefficients past `q^{−2}` | this bench has 36 converged coefficients of `f_4`; one independent set fixes the repair by the defect method of memo 183 §5 and needs no source at all |
 
-`B''3` is the cheapest and is a computation, not a document. **`δ_4` is already pinned exactly:**
+> **[UPDATED 2026-09-08 after memo 183 addendum 4 — `B''3` IS NO LONGER THE BINDING CONSTRAINT.]**
+> `f_4` is now in hand to 28 converged coefficients and `f_5` to 11, from Park's own large color
+> `R`-matrix. What blocks the repair is not one more coefficient but the **split of each
+> correction among the five `a_i`**: `δ_d` determines `U_d(0) = Σ_i c_{i,d} Q^i` exactly but not
+> the five `c_{i,d}` separately, and the split is fixed only by `U_d(1) … U_d(4)`, which live in
+> `δ_{d+1} … δ_{d+4}`.
+>
+> ### Closing every `x`-degree up to 12 needs blocks to about `f_16`. This bench has `f_5`.
+>
+> A sequential single-index fit does **not** substitute: memo 183 addendum 4 shows it absorbs each
+> wrong split into the next correction and fails once the degrees run out — at `q^{141}` with every
+> degree of `a_1` used, `q^{164}` with `a_0`'s `x^{12}` as well.
+>
+> **So `B''1` or `B''2` — one document — is now worth more than any amount of further computation
+> here.** `B''3` survives only in the much larger form "`f_6 … f_16`", which is a different ask.
+
+`δ_4` remains pinned exactly, for anyone checking against it:
 `[Â_printed F⁺]_{x^{9/2}} = q^{12} − q^{13} + q^{15} + q^{16} − q^{17} − 3q^{18} + …`
 
 

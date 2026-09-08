@@ -480,3 +480,72 @@ coefficients and two `spin^c` sectors. **Still incomplete** — `a_1` has `x`-de
 `x^3 … x^6` are pinned, so `c_7 … c_{11}` remain, each needing the next block. And addendum 2 §4's
 warning stands: the reconstruction's shape argues these are an equivalent sum rather than Park's
 own missing terms. **No `c_eff` for `5₂` is claimed.**
+
+---
+
+# ADDENDUM 4 (2026-09-08, same day) — **THE SINGLE-INDEX RECONSTRUCTION CANNOT CLOSE.** Addendum 2 §4's argument becomes a demonstration, and the ask sharpens
+
+**Certificate** `certificates/park_repair_cannot_close.py` · **Output** `outputs/park_repair_cannot_close_out.txt`
+
+## 1. What I tried, and what it does
+
+Addendum 2's method extends: at each `x`-degree `d`, read `f_d` off the `p = −1` surgery identity
+and solve `δ_d` for the correction. Carried to `d = 7, 8, 9, 10, 11` it yields short integral
+Laurent polynomials every time, and the `Ẑ(Σ(2,3,11))` agreement climbs
+`q^{45} → q^{59} → q^{75} → q^{95} → q^{116} → q^{140}`. It looks like a reconstruction closing.
+
+**It is not, and the certificate is the proof.**
+
+## 2. The demonstration
+
+`a_1` has `x`-degree **11**, so `c_3 … c_11` exhausts it. Only `a_0` and `a_2` reach `x`-degree
+**12**, which is the maximum anywhere in eq (32). `δ_12` gives `U_{12}(0) = Q^{50} + Q^{52}` —
+even exponents, as the parity of the equation requires. Placing it in either:
+
+| | first mismatch | horizon |
+|---|---|---|
+| `c_3 … c_11` all in `a_1` | `q^{141}` | `q^{769}` (5.5×) |
+| `+ c_12` in `a_0` | `q^{164}` | `q^{778}` (4.7×) |
+| `+ c_12` in `a_2` | `q^{165}` | `q^{780}` (4.7×) |
+
+> ### Every `x`-degree eq (32) has is used, every stage is an integral Laurent series, and it still fails — far inside its own horizon.
+
+## 3. Why, exactly
+
+`δ_d` determines `U_d(0) = Σ_i c_{i,d} Q^i` **exactly and uniquely**. It does **not** determine
+the five `c_{i,d}` separately. Those are fixed by `U_d(1) … U_d(4)` — a Vandermonde system in
+`Q^{2i}` — and those live in `δ_{d+1} … δ_{d+4}`.
+
+So a sequential single-index fit **absorbs each wrong split into the next correction** and pushes
+the error one degree up, degree after degree, until the degrees run out. The climbing agreement in
+§1 is that push, not convergence. **This is the failure mode the numbers looked most like success
+in**, and it is recorded because I ran five more degrees before the structure made it visible.
+
+## 4. What this costs, and what it does not
+
+* **Addendum 2's `c_3` and its placement stand.** That argument uses `U_3(0)` *and* `U_3(1)` —
+  two exact quantities, so the split at `d = 3` **is** determined, and only `a_1` satisfies both.
+* **Addendum 3 stands untouched.** Its Table 3 test uses `f_0 … f_5`, and `f_4` and `f_5` were
+  confirmed coefficient by coefficient against the large color `R`-matrix — they are right
+  *however the corrections are distributed*.
+* **`c_6 … c_12` are NOT determinations and are not banked as such.** Addendum 3 §2 already
+  flagged `c_6` as bookkeeping; this extends that to everything above it.
+* **Addendum 2 §4's structural warning is now a demonstrated fact** rather than an inference from
+  the shape of the coefficients.
+
+## 5. The ask, sharpened
+
+`fetch/FETCH_REQUEST_CEFF.md §B''` asked for `f_4` to ten coefficients. That is no longer the
+binding constraint — `f_4` is in hand to 28. The real requirement is now precise:
+
+> **To close degree `d` one needs `U_d(0) … U_d(4)`, hence `δ_d … δ_{d+4}`, hence `f_0 … f_{d+4}`.
+> Closing every degree up to 12 needs blocks to about `f_16`. This bench has `f_5`.**
+
+Two routes, both stated so they can be priced:
+
+1. **More blocks** — the large color `R`-matrix reaches `f_5` at weight cutoff 17; `f_16` is far
+   beyond what the stratified trace costs here. A better algorithm, not a bigger machine.
+2. **The source** — eq (32)'s LaTeX, or Garoufalidis–Koutschan's non-commutative A-polynomial of
+   the twist knot `K_2`, which Park cites as its origin. **One document ends this.**
+
+`§B''` is updated accordingly.
