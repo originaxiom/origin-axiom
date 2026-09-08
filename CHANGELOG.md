@@ -1,5 +1,12 @@
 # Changelog
 
+## B1301 — the tower's alphabet: a deck-eigen law for every closing's h¹ support (Y₂…Y₁₂, Y₁₁ pre-registered), and Y₁₂ as a second SM closing whose Wilson lines thin the colour triplet to one generation
+
+Exhaustive supports at eleven levels; the odd support is exactly the deck eigencharacters whose eigenvalue is a root of
+the figure-eight's Alexander polynomial of exact order d ≥ 3 mod a prime of the Lucas–Fibonacci torsion (pulled back from
+Y_d). Y₁₂: 97 letters of order 16, 34 752 SM lines, D thinned to one generation on 31 488 of them, never to none.
+`frontier/B1301_the_towers_alphabet`.
+
 ## B1300 — the lines that would split the doublets from the triplets: none of Y₉'s 706 464 SM Wilson lines projects out a colour triplet D — by theorem, ψ_D = ψ_Q⁻²; B1278's enumeration verified by a second method
 
 Every component's survival on every SM line of Y₉ (B1278's pipeline re-run): 0 split lines, D kept everywhere, D̄, H_u,

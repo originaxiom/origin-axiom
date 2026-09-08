@@ -2425,6 +2425,10 @@ symmetries. What remains of (i) is a selection principle that is the object's, n
 subgroups are the eigenlines of the deck action with eigenvalues the roots of the golden polynomial mod 19. The CP
 quotient (an orientation-reversing lift with C₃ → −C₃) is closed as non-chiral by construction (B1279 §5).
 
+**L206 status 2026-09-08 (B1301):** (iii) done for Y₁₂ — 34 752 SM lines, letters of order 16, the colour triplet thinned to one
+generation on 31 488 of them; the alphabet of every closing now follows a law (B1301), so the selection question is
+tower-wide (L210).
+
 ## L207 — THE SIX-SIGN TEST ON THE OTHER E₆ COMPONENTS, AND THE HIGHER-RANK SECTOR (registered 2026-09-06, B1280; `docs/CHIRALITY_MAP_2026-09-06.md` §6)
 
 B1280 closes net chirality on the cusped object wherever the record has a representation: the E₆ germ at the
@@ -2484,4 +2488,20 @@ the line can thin D̄, H_u, H_d, N, ν^c by one generation and never D. What rem
 light D_g pair and the light Higgs pair of branch g have the same tree-level protection (the family tensor, the flavons
 and the Wilson line all leave generation g's 27 alone) and the same coupling to N, so the instanton sector or a ν^c-induced
 mass must give both their masses — a vector-like colour triplet near μ if the non-perturbative term respects the E₆
-Clebsch. (i) and (iii) unchanged.
+Clebsch. (i) and (iii) unchanged. **Addendum (B1301):** the Wilson-line option is closed on Y₉ only — on Y₁₂ the line thins
+the triplets to one generation (never none); whether that finishes the job with a vacuum branch is L210(ii).
+
+## L210 — THE TOWER'S STANDARD-MODEL CLOSINGS AND Y₁₂'S ONE-TRIPLET VACUA (registered 2026-09-08, B1301)
+
+The deck-eigen law (B1301) makes the tower's alphabets predictable from Lucas–Fibonacci arithmetic, and Y₁₂ is a second
+SM closing on which the Wilson lines thin the colour triplet to one generation. Four computations, in order: **(i)** the
+sweeps of Y₁₃ (predicted: 1 040 eigencharacters at the prime 521, nothing else) and Y₁₅ (predicted: 60 at 31 and Y₅'s 20
+pulled back; whether the order-341 products of the two odd parts lie in the support is the law's one open case, and Y₁₅'s
+alphabet — hence whether it is a third SM closing with the triplet protected — depends on it); **(ii)** Y₁₂'s vacuum
+manifold (B1283's method) on a one-triplet line whose surviving D generation g₀ differs from the branch's g: does ⟨N_g⟩
+pair D_{g₀} with a surviving D̄_k so that no light triplet pair remains from the 27s while generation g's Higgs pair stays
+light — the doublet–triplet problem solved at tree level on the tower, or not; **(iii)** the orbits of Y₁₂'s 34 752 lines
+under the deck ℤ/12 and the closing's isometries (L206's question, tower-wide); **(iv)** a proof of the law from the
+metabelian representations of the knot group (the eigencharacters of H₁(Y_n) are the characters of the metabelian
+quotients; the twisted Alexander polynomial should give h¹ = 1 exactly at the primitive eigenvalues). (i) is compute;
+(ii) is an afternoon with B1283's script; (iv) is the literature. ★★★

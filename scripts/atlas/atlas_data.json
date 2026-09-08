@@ -6857,6 +6857,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1301": {
+   "slug": "the towers alphabet",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "K3",
+    "L206",
+    "L210"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 17,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B130": {
    "slug": "no forced choice",
    "motifs": [

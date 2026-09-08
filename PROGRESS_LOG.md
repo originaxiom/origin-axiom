@@ -14530,3 +14530,19 @@ Higgs pair its μ gives the D pair its mass through the same E₆ Clebsch (a vec
 instanton sector respects the Clebsch — an assumption, not a banked prediction). Lock
 `tests/test_b1300_the_doublet_triplet_lines.py`. Vector-like throughout (B1260); 0 of 19; price unchanged. Numbering:
 B1300, the first of the range requested in `SM_TO_CC_2026-09-07_RANGE_EXHAUSTED.md`.
+
+### B1301 — the tower's alphabet: a deck-eigen law for the h¹ support of every closing Y₂…Y₁₂ (Y₁₁ pre-registered and confirmed at the prime 199); Y₁₂ is a second SM closing, and its Wilson lines thin the colour triplet to one generation (2026-09-08)
+
+Eleven exhaustive supports (one Fox computation per deck orbit, deck invariance checked, every positive confirmed exactly
+over ℚ(ζ_order)): 0, 3, 0, 20, 27, 56, 0, 147, 20, 396, 123 at n = 2…12. **Law:** a character of odd prime-power order
+has h¹ = 1 iff it is a deck eigencharacter whose eigenvalue — a root of Δ = t² − 3t + 1 mod p — has exact order d ≥ 3
+(then it is pulled back from Y_d); λ = −1 (mod 5, from the lens space Y₂) and Y₁₀'s order-55 eigencharacters have h¹ = 0.
+The Y₁₁ value (396 = 2·198 at 199, λ = 63, 139) was written down before the computation. B1278's prime 19 is the law's
+Y₉ instance; the family characters are its prime-2 face (Δ ≡ t² + t + 1 mod 2, a 3-cycle of the deck). The 2-adic part is
+Y₆'s (24 of order 8, generation count 1) and Y₁₂'s (96 of order 16, letters). **Y₁₂: alphabet of 97 letters (order 16),
+34 752 SM lines, 3 264 full-spectrum, and on 31 488 lines exactly ONE generation of D survives** (ψ_D = ψ_Q⁻² has order 8
+and lies in Y₆'s pulled-back support) — the Wilson-line thinning of the triplets that B1300 proved impossible on Y₉
+exists on Y₁₂, two generations deep, never three; (H_u, H_d, D, D̄) = (3, 3, 1, 3) on 2 304 lines, (3, 3, 1, 0) on 1 536.
+Y₉ reproduced from its support file (a third route). Predictions registered: Y₁₃ (1 040 at 521), Y₁₅ (60 at 31 + Y₅'s 20;
+mixed products open) — L210. Lock `tests/test_b1301_the_towers_alphabet.py`. Vector-like (B1260); 0 of 19; price
+unchanged.

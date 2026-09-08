@@ -1,0 +1,160 @@
+
+=== Y_2: H_1 = Z/5, order 5 = Fox's product 5, exponent 5; 3 generators ===
+  the deck transformation permutes the characters: 3 orbits, sizes {1: 1, 2: 2}
+  h^1(Y_2; psi) on one representative per orbit (3 Fox computations, 40 digits, 0 s): distribution over all 5 characters {0: 5}; smallest accepted singular value 6.492e-01, largest rejected 4.694e-41
+  deck-invariance control: h^1 recomputed on every element of 2 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 0 positives and 3 zero controls: True (0 s)
+  support: 0 characters, by order {}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (5, 4, 0): 4}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {}
+  (0 s)
+
+=== Y_3: H_1 = Z/4 + Z/4, order 16 = Fox's product 16, exponent 4; 4 generators ===
+  the deck transformation permutes the characters: 6 orbits, sizes {1: 1, 3: 5}
+  h^1(Y_3; psi) on one representative per orbit (6 Fox computations, 40 digits, 0 s): distribution over all 16 characters {0: 13, 1: 3}; smallest accepted singular value 6.624e-01, largest rejected 1.477e-41
+  deck-invariance control: h^1 recomputed on every element of 5 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 3 positives and 3 zero controls: True (0 s)
+  family characters: h^1 = [1, 1, 1]; the deck permutes them as [1, 2, 0] (a 3-cycle: Delta = t^2 + t + 1 mod 2)
+  support: 3 characters, by order {2: 3}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {(2, None): 3}
+  (2 s)
+
+=== Y_4: H_1 = Z/3 + Z/15, order 45 = Fox's product 45, exponent 15; 5 generators ===
+  the deck transformation permutes the characters: 13 orbits, sizes {1: 1, 2: 2, 4: 10}
+  h^1(Y_4; psi) on one representative per orbit (13 Fox computations, 40 digits, 0 s): distribution over all 45 characters {0: 45}; smallest accepted singular value 2.760e-01, largest rejected 2.082e-40
+  deck-invariance control: h^1 recomputed on every element of 12 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 0 positives and 3 zero controls: True (0 s)
+  support: 0 characters, by order {}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (5, 4, 0): 4}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {}
+  (0 s)
+
+=== Y_5: H_1 = Z/11 + Z/11, order 121 = Fox's product 121, exponent 11; 6 generators ===
+  the deck transformation permutes the characters: 25 orbits, sizes {1: 1, 5: 24}
+  h^1(Y_5; psi) on one representative per orbit (25 Fox computations, 40 digits, 0 s): distribution over all 121 characters {0: 101, 1: 20}; smallest accepted singular value 3.243e-01, largest rejected 1.210e-40
+  deck-invariance control: h^1 recomputed on every element of 24 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 20 positives and 3 zero controls: True (1 s)
+  support: 20 characters, by order {11: 20}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (11, 5, 1): 10, (11, 9, 1): 10}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {(11, 5): 10, (11, 9): 10}
+  (2 s)
+
+=== Y_6: H_1 = Z/8 + Z/40, order 320 = Fox's product 320, exponent 40; 7 generators ===
+  the deck transformation permutes the characters: 58 orbits, sizes {1: 1, 2: 2, 3: 5, 6: 50}
+  h^1(Y_6; psi) on one representative per orbit (58 Fox computations, 40 digits, 0 s): distribution over all 320 characters {0: 293, 1: 27}; smallest accepted singular value 1.056e-01, largest rejected 8.956e-41
+  deck-invariance control: h^1 recomputed on every element of 30 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 27 positives and 3 zero controls: True (1 s)
+  family characters: h^1 = [1, 1, 1]; the deck permutes them as [1, 2, 0] (a 3-cycle: Delta = t^2 + t + 1 mod 2)
+  support: 27 characters, by order {2: 3, 8: 24}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (5, 4, 0): 4}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {(2, None): 3, (8, None): 24}
+  (6 s)
+
+=== Y_7: H_1 = Z/29 + Z/29, order 841 = Fox's product 841, exponent 29; 8 generators ===
+  the deck transformation permutes the characters: 121 orbits, sizes {1: 1, 7: 120}
+  h^1(Y_7; psi) on one representative per orbit (121 Fox computations, 40 digits, 1 s): distribution over all 841 characters {0: 785, 1: 56}; smallest accepted singular value 1.030e-01, largest rejected 7.621e-41
+  deck-invariance control: h^1 recomputed on every element of 30 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 56 positives and 3 zero controls: True (4 s)
+  support: 56 characters, by order {29: 56}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (29, 7, 1): 28, (29, 25, 1): 28}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {(29, 25): 28, (29, 7): 28}
+  (8 s)
+
+=== Y_8: H_1 = Z/21 + Z/105, order 2205 = Fox's product 2205, exponent 105; 9 generators ===
+  the deck transformation permutes the characters: 283 orbits, sizes {1: 1, 2: 2, 4: 10, 8: 270}
+  h^1(Y_8; psi) on one representative per orbit (283 Fox computations, 40 digits, 2 s): distribution over all 2205 characters {0: 2205}; smallest accepted singular value 2.977e-02, largest rejected 8.379e-40
+  deck-invariance control: h^1 recomputed on every element of 30 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 0 positives and 3 zero controls: True (0 s)
+  support: 0 characters, by order {}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (5, 4, 0): 4}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {}
+  (7 s)
+
+=== Y_9: H_1 = Z/76 + Z/76, order 5776 = Fox's product 5776, exponent 76; 10 generators ===
+  the deck transformation permutes the characters: 646 orbits, sizes {1: 1, 3: 5, 9: 640}
+  h^1(Y_9; psi) on one representative per orbit (646 Fox computations, 40 digits, 6 s): distribution over all 5776 characters {0: 5629, 1: 147}; smallest accepted singular value 3.597e-03, largest rejected 7.000e-40
+  deck-invariance control: h^1 recomputed on every element of 30 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 147 positives and 3 zero controls: True (18 s)
+  family characters: h^1 = [1, 1, 1]; the deck permutes them as [1, 2, 0] (a 3-cycle: Delta = t^2 + t + 1 mod 2)
+  support: 147 characters, by order {2: 3, 19: 36, 38: 108}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (19, 6, 1): 18, (19, 16, 1): 18}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {(19, 16): 18, (19, 6): 18, (2, None): 3, (38, None): 108}
+  (35 s)
+
+=== Y_10: H_1 = Z/55 + Z/275, order 15125 = Fox's product 15125, exponent 275; 11 generators ===
+  the deck transformation permutes the characters: 1527 orbits, sizes {1: 1, 2: 2, 5: 24, 10: 1500}
+  h^1(Y_10; psi) on one representative per orbit (1527 Fox computations, 40 digits, 17 s): distribution over all 15125 characters {0: 15105, 1: 20}; smallest accepted singular value 5.422e-03, largest rejected 3.500e-39
+  deck-invariance control: h^1 recomputed on every element of 30 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 20 positives and 3 zero controls: True (10 s)
+  support: 20 characters, by order {11: 20}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (5, 4, 0): 4, (11, 5, 1): 10, (11, 9, 1): 10, (55, 9, 0): 40, (55, 49, 0): 40}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {(11, 5): 10, (11, 9): 10}
+  (38 s)
+
+=== Y_11: H_1 = Z/199 + Z/199, order 39601 = Fox's product 39601, exponent 199; 12 generators ===
+  the deck transformation permutes the characters: 3601 orbits, sizes {1: 1, 11: 3600}
+  h^1(Y_11; psi) on one representative per orbit (3601 Fox computations, 40 digits, 50 s): distribution over all 39601 characters {0: 39205, 1: 396}; smallest accepted singular value 1.654e-03, largest rejected 1.761e-39
+  deck-invariance control: h^1 recomputed on every element of 30 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 396 positives and 3 zero controls: True (82 s)
+  support: 396 characters, by order {199: 396}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (199, 63, 1): 198, (199, 139, 1): 198}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {(199, 139): 198, (199, 63): 198}
+  (148 s)
+
+=== Y_12: H_1 = Z/144 + Z/720, order 103680 = Fox's product 103680, exponent 720; 13 generators ===
+  the deck transformation permutes the characters: 8678 orbits, sizes {1: 1, 2: 2, 3: 5, 4: 10, 6: 50, 12: 8610}
+  h^1(Y_12; psi) on one representative per orbit (8678 Fox computations, 40 digits, 143 s): distribution over all 103680 characters {0: 103557, 1: 123}; smallest accepted singular value 8.319e-04, largest rejected 6.752e-39
+  deck-invariance control: h^1 recomputed on every element of 30 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 123 positives and 3 zero controls: True (30 s)
+  family characters: h^1 = [1, 1, 1]; the deck permutes them as [1, 2, 0] (a 3-cycle: Delta = t^2 + t + 1 mod 2)
+  support: 123 characters, by order {2: 3, 8: 24, 16: 96}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (5, 4, 0): 4}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {(16, None): 96, (2, None): 3, (8, None): 24}
+  (217 s)
+
+=== (c) pullbacks between levels ===
+  Y_2: support 0 = 0 pulled back from lower levels + 0 NEW, the new by order {}
+  Y_3: support 3 = 0 pulled back from lower levels + 3 NEW, the new by order {2: 3}
+  Y_2 -> Y_4: pulled-back characters are characters: True; the support of Y_2 lands in the support of Y_4: True (0 characters)
+  Y_4: support 0 = 0 pulled back from lower levels + 0 NEW, the new by order {}
+  Y_5: support 20 = 0 pulled back from lower levels + 20 NEW, the new by order {11: 20}
+  Y_2 -> Y_6: pulled-back characters are characters: True; the support of Y_2 lands in the support of Y_6: True (0 characters)
+  Y_3 -> Y_6: pulled-back characters are characters: True; the support of Y_3 lands in the support of Y_6: True (3 characters)
+  Y_6: support 27 = 3 pulled back from lower levels + 24 NEW, the new by order {8: 24}
+  Y_7: support 56 = 0 pulled back from lower levels + 56 NEW, the new by order {29: 56}
+  Y_2 -> Y_8: pulled-back characters are characters: True; the support of Y_2 lands in the support of Y_8: True (0 characters)
+  Y_4 -> Y_8: pulled-back characters are characters: True; the support of Y_4 lands in the support of Y_8: True (0 characters)
+  Y_8: support 0 = 0 pulled back from lower levels + 0 NEW, the new by order {}
+  Y_3 -> Y_9: pulled-back characters are characters: True; the support of Y_3 lands in the support of Y_9: True (3 characters)
+  Y_9: support 147 = 3 pulled back from lower levels + 144 NEW, the new by order {19: 36, 38: 108}
+  Y_2 -> Y_10: pulled-back characters are characters: True; the support of Y_2 lands in the support of Y_10: True (0 characters)
+  Y_5 -> Y_10: pulled-back characters are characters: True; the support of Y_5 lands in the support of Y_10: True (20 characters)
+  Y_10: support 20 = 20 pulled back from lower levels + 0 NEW, the new by order {}
+  Y_11: support 396 = 0 pulled back from lower levels + 396 NEW, the new by order {199: 396}
+  Y_2 -> Y_12: pulled-back characters are characters: True; the support of Y_2 lands in the support of Y_12: True (0 characters)
+  Y_3 -> Y_12: pulled-back characters are characters: True; the support of Y_3 lands in the support of Y_12: True (3 characters)
+  Y_4 -> Y_12: pulled-back characters are characters: True; the support of Y_4 lands in the support of Y_12: True (0 characters)
+  Y_6 -> Y_12: pulled-back characters are characters: True; the support of Y_6 lands in the support of Y_12: True (27 characters)
+  Y_12: support 123 = 27 pulled back from lower levels + 96 NEW, the new by order {16: 96}
+
+=== (d) the alphabet, the lines and the triplet's protection on each closing with family characters ===
+=== Y_3: H_1 = [4, 4]; support 3; generation-count distribution {0: 12, 2: 3, 3: 1}; K3 = 1 letters by order {1: 1}; K2 = 3 ===
+  protection: squares of letters are letters: True; some square is a family character: False; letter orders {1: 1}  (0 s)
+=== Y_6: H_1 = [8, 40]; support 27; generation-count distribution {0: 268, 1: 24, 2: 27, 3: 1}; K3 = 1 letters by order {1: 1}; K2 = 27 ===
+  protection: squares of letters are letters: True; some square is a family character: False; letter orders {1: 1}  (0 s)
+=== Y_9: H_1 = [76, 76]; support 147; generation-count distribution {0: 5628, 2: 3, 3: 145}; K3 = 145 letters by order {1: 1, 38: 108, 19: 36}; K2 = 3 ===
+  lines K3^3 = 3048625: {'three_gen': 758593, 'su5_broken': 737568, 'sm_vacua': 706464, 'full': 568656}
+  SM lines: D totals [3]; split lines 0; loses-a-generation {'Q': 0, 'u^c': 0, 'd^c': 0, 'L': 0, 'e^c': 0, 'H_u': 30240, 'H_d': 29376, 'D': 0, 'Dbar': 29376, 'S': 28512, 'nu^c': 28512}; (H_u,H_d,D,Dbar) {(2, 2, 3, 3): 1296, (2, 3, 3, 2): 1296, (2, 3, 3, 3): 27648, (3, 2, 3, 2): 864, (3, 2, 3, 3): 27216, (3, 3, 3, 2): 27216, (3, 3, 3, 3): 620928}; (N,nu^c) {(2, 2): 1296, (2, 3): 27216, (3, 2): 27216, (3, 3): 650736}; projected iff family character: True; multiplets lost per non-full line {1: 130464, 2: 6480, 3: 864}
+  SM lines: surviving generations of D (h^1(chi_g psi_D) for g = 1, 2, 3) -> lines: {(1, 1, 1): 706464}; (SU(5) roots, E6 roots) with trivial character -- 8 SU(5) roots = exactly the SM's at the <N>, <nu^c> point (B1278); the extra E6 roots are broken by those VEVs -> lines: {(8, 8): 621648, (8, 10): 26352, (8, 12): 9360, (8, 14): 27792, (8, 16): 1296, (8, 20): 18864, (8, 22): 720, (8, 30): 288, (8, 40): 144}; adjoint chirals from the broken roots -> lines: {32: 144, 42: 288, 50: 720, 52: 18864, 56: 1296, 58: 27792, 60: 9360, 62: 26352, 64: 621648}
+  protection: squares of letters are letters: True; some square is a family character: False; letter orders {1: 1, 38: 108, 19: 36}  (11 s)
+=== Y_12: H_1 = [144, 720]; support 123; generation-count distribution {0: 103532, 1: 24, 2: 27, 3: 97}; K3 = 97 letters by order {1: 1, 16: 96}; K2 = 27 ===
+  lines K3^3 = 912673: {'three_gen': 190849, 'su5_broken': 181440, 'sm_vacua': 34752, 'full': 3264}
+  SM lines: D totals [1, 3]; split lines 0; loses-a-generation {'Q': 0, 'u^c': 0, 'd^c': 0, 'L': 0, 'e^c': 0, 'H_u': 15744, 'H_d': 16608, 'D': 31488, 'Dbar': 18528, 'S': 12000, 'nu^c': 0}; (H_u,H_d,D,Dbar) {(1, 1, 1, 1): 576, (1, 2, 1, 0): 576, (1, 2, 1, 2): 768, (1, 2, 1, 3): 96, (1, 3, 1, 0): 192, (1, 3, 1, 2): 96, (1, 3, 1, 3): 768, (2, 1, 1, 0): 576, (2, 1, 1, 2): 1248, (2, 1, 1, 3): 96, (2, 2, 1, 0): 1152, (2, 2, 1, 1): 1248, (2, 2, 1, 2): 1152, (2, 2, 1, 3): 384, (2, 3, 1, 0): 2496, (2, 3, 1, 1): 96, (2, 3, 1, 2): 384, (2, 3, 1, 3): 3840, (3, 1, 1, 0): 192, (3, 1, 1, 2): 96, (3, 1, 1, 3): 1632, (3, 2, 1, 0): 2496, (3, 2, 1, 1): 96, (3, 2, 1, 2): 384, (3, 2, 1, 3): 3840, (3, 3, 1, 0): 1536, (3, 3, 1, 1): 1632, (3, 3, 1, 2): 1536, (3, 3, 1, 3): 2304, (3, 3, 3, 3): 3264}; (N,nu^c) {(1, 3): 4416, (2, 3): 7584, (3, 3): 22752}; projected iff family character: False; multiplets lost per non-full line {1: 2304, 2: 11616, 3: 7776, 4: 3456, 5: 6336}
+  SM lines: surviving generations of D (h^1(chi_g psi_D) for g = 1, 2, 3) -> lines: {(0, 0, 1): 10496, (0, 1, 0): 10496, (1, 0, 0): 10496, (1, 1, 1): 3264}; (SU(5) roots, E6 roots) with trivial character -- 8 SU(5) roots = exactly the SM's at the <N>, <nu^c> point (B1278); the extra E6 roots are broken by those VEVs -> lines: {(8, 8): 28800, (8, 10): 1152, (8, 12): 3072, (8, 20): 1536, (8, 30): 192}; adjoint chirals from the broken roots -> lines: {8: 768, 10: 1536, 16: 1536, 22: 4608, 28: 3072, 32: 1536, 34: 192, 38: 3072, 40: 3840, 42: 192, 44: 3456, 46: 768, 50: 3840, 52: 1728, 54: 768, 56: 960, 58: 2496, 64: 384}
+  protection: squares of letters are letters: False; some square is a family character: False; letter orders {1: 1, 16: 96}  (5 s)
+
+  (487 s)
+
+SELFTEST: PASS
+rc=0

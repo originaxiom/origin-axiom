@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1093 settled arcs — 76%** —
+the field is **absent on 828 of 1094 settled arcs — 76%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (90) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 525 arcs.**
+**POOL = declared-law (91) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 526 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.93** on the corpus's own law vocabulary against
-**1.14** for the rest — **2.58×**. The criterion
+**2.96** on the corpus's own law vocabulary against
+**1.14** for the rest — **2.6×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -77,7 +77,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1253` | PROVED | S | | THE GEOMETRY OF THE FOREIGN 16s IS RIGID -- AND IT IS *NOT* A GENERATION COUNT. THIS ARC'S DRAFT HEADLINE WAS 'the generation count is forced at three' AND IT IS REFUTED,… |
 | `B1261` | PROVED | S | | THE PRICE, COMPUTED: FIFTEEN UNPRICED INPUTS BOUGHT ZERO OF NINETEEN NUMBERS. JOIN 2's lead closed NEGATIVE first -- n in kappa = 2 + n^2 is NOT object-determined, n = 1.… |
 
-## §5 withheld — the value wall and the rank wall (118)
+## §5 withheld — the value wall and the rank wall (119)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -99,6 +99,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1224` | PROVED | L | | A GATE OF OURS KILLED A POSITIVE, AND THE RECOVERED RESULT IS SHARPER THAN THE ORIGINAL (owner-prompted: 'make sure our gates are not killing positives'). B1222 refuted t… |
 | `B1273` | PROVED | L | | THE OBJECT'S OWN THREE-FOLD CLOSING. The 3-fold cyclic branched cover Y_3 of S^3 along the figure-eight knot -- the object's own closing, three copies permuted by Z/3 -- … |
 | `B1280` | PROVED | L | | THE CHIRALITY PROBE, COMPLETED AND CLOSED BY TWO THEOREMS. (1) THE ELLIPTIC SL(3) COMPONENTS. On B71's non-self-dual components W1, W2 the A-variety identity is exact wit… |
+| `B1301` | PROVED | L | | THE TOWER'S ALPHABET. The h^1 support of the closings Y_2 ... Y_12 (the n-fold cyclic branched covers of the object; /H_1/ = L_n^2 or 5 F_n^2) computed exhaustively -- Fo… |
 | `B185` | NEGATIVE | V | | Cusp-gluing selects continuum to discrete but never to a forced-unique value, and 1-cusp metallic units cap all-unit interaction at pairs.… |
 | `B190` | NEGATIVE | V | | Iterated trace-ring gluing never converges to a forced-unique value: open forks grow, closed-loop genuine fixed points are non-monotone, the lone unique is trivial.… |
 | `B879` | PROVED | V | | The cc3 selection-cochain harvest (packet sha256 e59df18a, 38 files, preserved verbatim; cc3's own reconciliation addendum CHECKED AND CONFIRMED accurate): six claims ver… |

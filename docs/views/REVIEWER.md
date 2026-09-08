@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1193** |
-| words of findings prose | **851,866** |
-| test lock files referenced | **707** |
-| arcs carrying an authored verdict | **1193** (100.0 %) |
+| research arcs with findings | **1194** |
+| words of findings prose | **854,587** |
+| test lock files referenced | **708** |
+| arcs carrying an authored verdict | **1194** (100.0 %) |
 | recorded closures | **783** (616 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 783 |
+| PROVED | 784 |
 | NEGATIVE | 312 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1283`** (1494 words, 1 locks)  
-THE SM CLOSING'S TREE-LEVEL VACUUM. On Y_9 with an SM Wilson line (B1278: E6 -> su(3)+su(2)+u(1)_Y+u(1)_beta+u(1)', three 27s and 27bars, six flavons), the SM-preserving tree-level vacuum manifold of the one-coupling E8 theory is computed exactly: the 18 SM-singlet fields (N, nu^c, their conjugates, the six flavons) carry the charges beta = (psi+chi)/4, gamma = -(5/12)psi + (1/4)chi (verified on every SM field; (N, nu^c) an su(2)_beta doublet) and the two family charges; the cubic has 14 monomials among them (the flavon couplings S_ij X_j Xbar_i and the two flavon cubics; no purely-singlet 27^3 term); the F-flat rule for squarefree cubics gives 85 maximal F-flat sets and an exhaustive LP over the four abelian D-terms cuts them to NINE maximal SM-preserving branches, ALL conjugate-paired (no unpaired direction exists even under the reduced gauge group): three maximal ones {N_g, Nbar_g, nu^c_g, nubar^c_g, S_hk, S_kh} with three complex moduli each and six {N_g, nu^c_h} with two. NO BRANCH BREAKS ALL FOUR EXTRA U(1)s: the minimal surviving abelian rank is 1, so the SM closing's tree-level gauge group is SU(3) x SU(2) x U(1)_Y x U(1)_Z' with Z' of E6 part (5 psi - 3 chi)/2 -- charges 4 on Q, u^c, e^c; -2 on d^c, L; 10 on nu^c and N; -8 on H_u, D; -2 on H_d, Dbar -- mixed with the family torus. On every maximal branch mu_jk = lambda |eps_ijk| <N_i> has rank 2: exactly one light Higgs pair (generation g's own) and one light colour-triplet pair D_g, Dbar_g (the doublet-triplet problem in its E6 form); every branch has a nu^c VEV, mixing the heavy generations' lepton doublets with their down-Higgs doublets. D2's space on the SM closing is three moduli per maximal branch with one Z' left for the instanton sector or the electroweak sector to break; the rank reduction 8 -> 4 stops at 5 at tree level. 0 of 19 (the scales are moduli); price unchanged.  
-`B1283_the_sm_closings_vacuum/FINDINGS.md`
+**PROVED — `B1301`** (2721 words, 1 locks)  
+THE TOWER'S ALPHABET. The h^1 support of the closings Y_2 ... Y_12 (the n-fold cyclic branched covers of the object; |H_1| = L_n^2 or 5 F_n^2) computed exhaustively -- Fox calculus on one representative per deck orbit (the deck transformation is the shift of the Schreier generators), deck invariance checked, every positive confirmed exactly over Q(zeta_order) -- obeys a deck-eigen law: a character of odd prime-power order has h^1 = 1 iff it is a deck eigencharacter whose eigenvalue, a root of Delta = t^2 - 3t + 1 mod p, has exact order d >= 3 (then it is pulled back from Y_d); supports 0, 3, 0, 20, 27, 56, 0, 147, 20, 396, 123 at n = 2 ... 12, the Y_11 value (396 = 2 x 198 at the prime 199, lambda = 63, 139) PRE-REGISTERED before the computation; the eigencharacters with lambda = -1 (mod 5) and Y_10's 80 of order 55 have h^1 = 0; Y_2 (a lens space) is the exception. The prime 19 of B1278 is the law's Y_9 instance (6 and 16 are the roots of Delta of order 9 mod 19); the family characters are its prime-2 face (Delta = t^2 + t + 1 mod 2, a 3-cycle of the deck). The 2-adic part is Y_6's (24 of order 8, generation count 1) and Y_12's (96 of order 16, letters). Y_12 IS A SECOND STANDARD-MODEL CLOSING: alphabet of 97 letters (order 16, no odd part), 34 752 SM lines (three generations of Q, u^c, d^c, L, e^c, nu^c; SU(5) broken; <N>, <nu^c>, both Higgs doublets available), 3 264 full-spectrum; and on 31 488 of them EXACTLY ONE GENERATION OF THE COLOUR TRIPLET D SURVIVES (psi_D = psi_Q^-2 has order 8 and lies in Y_6's pulled-back support of generation count 1), never zero -- the Wilson-line thinning of the triplets that B1300 proved impossible on Y_9 exists on Y_12, two generations deep; (H_u, H_d, D, Dbar) = (3, 3, 1, 3) on 2 304 lines, (3, 3, 1, 0) on 1 536. Y_9 reproduced from its support file (a third route agreeing with B1278 and B1300 on every count). Predictions registered: Y_13 (1 040 at 521), Y_15 (60 at 31 plus Y_5's 20; the mixed products open). Vector-like throughout (B1260); 0 of 19; price unchanged.  
+`B1301_the_towers_alphabet/FINDINGS.md`
 
 **NEGATIVE — `B1300`** (2600 words, 1 locks)  
 THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while keeping the Higgs doublets: exhaustively, with every component's survival in every generation recorded (B1278's pipeline re-run and re-enumerated), 0 split lines; D is kept in all three generations on every SM line -- indeed on every one of the 3 048 625 candidates -- while Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines. BY THEOREM: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; three generations of Q put psi_Q in the alphabet K3 = {1} u ((C_1 u C_2) minus 1) x V_4 (orders 1, 19, 38), whose squares have odd order and are never family characters -- and the family characters (order 2) are the only characters that project anything (B1278's support theorem: h^1 = 1 exactly on ((C_1 u C_2) x V_4) minus 1). An exact structural model built from the support theorem and the weight table (Q, u^c, L a Z-basis of P/Q_SM; the eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders) reproduces every count of B1278 -- 145-letter alphabet, 758 593 three-generation lines, 737 568 SU(5)-breaking, 706 464 SM vacua, 568 656 full-spectrum -- and every histogram of the pipeline in seventeen seconds with no Fox calculus: B1278 verified by a second method. Consequences: L209(ii)'s Wilson-line option is closed; B1283's light D pair is untouched by the Wilson line as it is by the tree-level VEVs, so whatever gives generation g's Higgs pair its mu gives its D pair a mass through the same E6 Clebsch (a vector-like colour-triplet pair near mu if the instanton sector respects the Clebsch -- a stated assumption, not a banked prediction). Vector-like throughout (B1260); 0 of 19; price unchanged.  

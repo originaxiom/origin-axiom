@@ -141,6 +141,19 @@ gives its D pair a mass through the same E₆ Clebsch — a vector-like colour-t
 respects the Clebsch (an assumption to be tested with item 3, not a banked prediction). L209(ii) keeps its two other
 options; the Wilson-line one is closed.
 
+## 4g. The tower's alphabet and Y₁₂'s one-triplet lines (B1301, 2026-09-08)
+
+The closing on which items 2 and 3 are posed is not unique: the h¹ support of every Y_n obeys a deck-eigen law (the
+odd part is the deck eigencharacters whose eigenvalue is a root of the figure-eight's Alexander polynomial of exact order
+d ≥ 3 modulo a prime of the Lucas–Fibonacci torsion; verified exhaustively at n = 2…12 with Y₁₁ pre-registered), so the
+tower carries Standard-Model lines at n = 9 (the prime 19), 12 (a 2-adic alphabet of order-16 letters), and by the law
+15, 21, … **On Y₁₂ the Wilson line does what B1300 proved it cannot do on Y₉: 31 488 of its 34 752 SM lines keep exactly
+one generation of the colour triplet D** (ψ_D = ψ_Q⁻² lands in Y₆'s pulled-back support, which carries one generation),
+never none. Row 4's mechanism therefore exists in the tower one step short of the classical solution, and combined with
+§4e's light pairs it suggests the computation that would finish the step: a one-triplet line whose surviving triplet
+generation g₀ differs from the vacuum branch's g, on which ⟨N_g⟩ pairs D_{g₀} with a surviving D̄ and generation g's Higgs
+pair alone stays light (L210).
+
 ## 5. What is expected, in order
 
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the

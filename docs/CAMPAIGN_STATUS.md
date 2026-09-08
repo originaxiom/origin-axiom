@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-08, B1301 — THE TOWER'S ALPHABET)**: the h¹ support of every closing Y₂…Y₁₂ obeys a deck-eigen
+law — the odd part is exactly the deck eigencharacters whose eigenvalue is a root of Δ = t² − 3t + 1 of exact order d ≥ 3
+modulo a prime of the Lucas–Fibonacci torsion (Y₁₁'s 396 at the prime 199 predicted before the computation); B1278's 19
+is its Y₉ instance. **Y₁₂ is a second Standard-Model closing (34 752 lines, letters of order 16), and on 31 488 of its
+lines the Wilson line thins the colour triplet to ONE generation** — the doublet–triplet mechanism B1300 ruled out on Y₉
+exists in the tower, never all the way. Price unchanged.
+
 **LATEST (2026-09-07, B1300 — THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS)**: none of Y₉'s 706 464
 SM Wilson lines projects out a colour triplet D (exhaustive, every component's survival recorded) — **by theorem: w_D =
 −2 w_Q, so ψ_D = ψ_Q⁻², and the squares of the three-generation alphabet never reach the family characters, the only

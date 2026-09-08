@@ -74,3 +74,4 @@ rather than by attention.
 | B1278–B1283 | *(reserved, never assigned)* | the_six_fold_closing · the_symmetries_of_the_closing · the_chirality_probe · the_seats_verified · the_siblings_germ · the_sm_closings_vacuum |
 | **B1300–B1319** | *(requested reserved)* | **this branch's continuation from 2026-09-07** |
 | B1300 | *(requested)* | the_doublet_triplet_lines (banked 2026-09-07, the first of the requested range) |
+| B1301 | *(requested)* | the_towers_alphabet (banked 2026-09-08) |

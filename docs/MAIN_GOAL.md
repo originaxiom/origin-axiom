@@ -203,3 +203,8 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   characters, the only characters that project anything. The line can thin D̄, H_u, H_d, N, ν^c by one generation, never
   D. An exact structural model reproduces every count of B1278 (a second method). B1283's light D pair stays: the μ-term
   and the D mass have one source (L209(ii)).
+- **The tower's alphabet (B1301).** The h¹ support of every closing Y₂…Y₁₂ obeys a deck-eigen law (the roots of Δ mod
+  the primes of the Lucas–Fibonacci torsion, of exact order d ≥ 3; Y₁₁ pre-registered and confirmed at 199): B1278's 19
+  is its Y₉ instance. **Y₁₂ is a second SM closing (34 752 lines, letters of order 16) on which the Wilson line thins
+  the colour triplet to ONE generation on 31 488 lines** — B1300's protection is Y₉'s; in the tower the triplets can be
+  thinned two generations deep, never three. Next: Y₁₂'s vacuum on a one-triplet line (L210).
