@@ -111,3 +111,61 @@ Memo 181 wrote that Park's observation — non-fibered knots have blocks that ar
   happen to agree on this quantity. That is strong but it is **not** the same as having the
   correct recursion.
 * Gate 5 untouched; no physical value anywhere.
+
+---
+
+# ADDENDUM 1 (2026-09-08, same day) — Park's Tables 3 and 4, and a precise unresolved discrepancy
+
+Reading further: **[Park] §5.1 publishes `Ẑ` for surgeries on `m(5₂)`** — Table 3 for the
+exceptional slopes `p = −1, −2, −3` (`Σ(2,3,11)` and two graph manifolds), and **Table 4 for the
+hyperbolic slopes `−1/r`, `r = 2,3,4,5`**. That is simultaneously the discriminator memo 182 §2
+wanted and the second hyperbolic data point memo 177 §5 wanted.
+
+## 1. What happened when I ran the assembly against Table 4
+
+Assembling `Ẑ(S³_{−1/r}(m(5₂)))` from the blocks via GM Thm 1.2 — the *same* code path that
+reproduces GM's eq (13), all nine of Table 10, and eq (175) for the figure-eight —
+**does not reproduce Park's Table 4.** The mismatch is not noise. Writing `A(q)` for my
+assembled bracket and `P(q)` for Park's:
+
+```
+   P(q)  =  1  -  q * A(q)      exactly,  for every r = 2, 3, 4, 5
+```
+
+checked coefficient by coefficient over the printed range of each row. A scan over six natural
+convention variants — block-index offset `−1/0/+1`, overall sign, and a half-integer shift in the
+`u`-exponent — reproduces Table 4 in **none** of them.
+
+## 2. Why this is recorded as a convention gap, not an error
+
+* **It is `r`-independent.** The same relation holds at all four slopes. A wrong recursion, a
+  wrong block, or a wrong exponent placement would not produce an `r`-independent identity.
+* **It is candidate-independent.** All three of memo 182 §2's candidate corrections give the
+  *identical* assembly, so it has nothing to do with the misprint.
+* **The same code is verified.** It reproduces four independent published objects for `4₁`.
+
+So the gap is one global normalisation between **Park's `F⁺`** and **GM's `Ξ`** — the two papers'
+one-sided series — that I have not identified. GM's `F_K = ½(Ξ(x) − Ξ(1/x))`, so GM's `Ξ` is
+*twice* the positive part of `F_K`, while Park's eq (31) defines `F⁺` as the positive part
+directly; a factor of two alone does not produce `1 − qA`, and I could not find what does.
+
+**Stated as an open item rather than papered over.** Anyone with both conventions in hand should
+be able to settle it in a line.
+
+## 3. What is unaffected
+
+**§3's `c = −1/16` for `5₂` stands.** It is read off the **blocks** — the lowest `q`-power of
+`f_j` — and never touches the assembly. Likewise memo 182 §1's verification of Park's `R`-matrix
+and §2's localisation of the misprint.
+
+**What is blocked by it:** `c_edge(5₂)` and a second hyperbolic `c_eff` measurement. Both need the
+assembly, and the assembly is exactly what is off by an unidentified factor. **No `c_eff` number
+for `5₂` is claimed.**
+
+## 4. The one thing Table 4 already says without any assembly
+
+Park's `r = 2,3,4,5` brackets all begin `1 − 2q + q² + …` and have **small, slowly growing
+coefficients** over the printed range — visibly unlike the figure-eight's, whose blocks grow like
+`φ^{2k}`. That is an observation about twelve printed coefficients and **nothing is inferred from
+it**; it is written down only so that the eventual measurement has something to be checked
+against.
