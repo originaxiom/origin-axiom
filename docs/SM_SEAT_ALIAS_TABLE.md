@@ -81,7 +81,7 @@ rather than by attention.
 
 **Collision note 2026-09-08.** Main jumped from B1299 to B1302 (`B1302_the_sibling_m202`) while this branch had banked B1300–B1304 at the
 requested range; the request (`SM_TO_CC_2026-09-07_RANGE_EXHAUSTED.md`) lives on this branch and main harvests it only at a merge, so the
-protocol's own prediction came true. Main's numbers are canonical; this branch's B1302/B1303 are cited sB1302/sB1303 and rebank on merge. *Update 2026-09-09:* main has since banked B1303 (the_sm_closings_z_prime), B1304 (the_audit_seats_4d_model) and B1305 (the_cloud_156_178): this branch's B1304 is sB1304 as well; B1300 and B1301 remain unclaimed on main as of e324df06.
+protocol's own prediction came true. Main's numbers are canonical; this branch's B1302/B1303 are cited sB1302/sB1303 and rebank on merge. *Update 2026-09-09:* main has since banked B1303 (the_sm_closings_z_prime), B1304 (the_audit_seats_4d_model) and B1305 (the_cloud_156_178): this branch's B1304 is sB1304 as well; B1300 and B1301 remain unclaimed on main as of e324df06. *Main's answer (B1306 slice A, 2026-09-09):* B1300–B1319 acknowledged as this branch's (B1308–B1319 stay reserved), **B1350–B1399 reserved**, main's next free number **B1320**; sB1302–sB1304 recorded on main, nothing renumbers. Label clash noted: this branch's E70 (anti-homomorphism masked by symmetry) ≠ main's E70 (quantifier interchange); cite with the seat prefix.
 **New request:** this branch's next arcs number from **B1350** (a range main will not reach for weeks); main is asked to reserve B1350–B1399.
 | B1302 | *(requested)* | the_one_triplet_vacua (banked 2026-09-08) |
 | B1303 | *(requested)* | the_two_by_two_criterion (banked 2026-09-08) |

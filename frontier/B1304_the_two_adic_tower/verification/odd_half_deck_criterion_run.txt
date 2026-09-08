@@ -1,0 +1,13 @@
+n =  2: m =     5,      4 characters; carry     0; 'odd half-deck power fixes psi up to conjugation'     0; agreement True (4/4) []
+n =  3: m =     4,     15 characters; carry     3; 'odd half-deck power fixes psi up to conjugation'     3; agreement True (15/15) []
+n =  4: m =    15,     44 characters; carry     0; 'odd half-deck power fixes psi up to conjugation'     0; agreement True (44/44) []
+n =  5: m =    11,    120 characters; carry    20; 'odd half-deck power fixes psi up to conjugation'    20; agreement True (120/120) []
+n =  6: m =    40,    319 characters; carry    27; 'odd half-deck power fixes psi up to conjugation'     3; agreement False (295/319) [(5, 10, True, False), (5, 15, True, False), (5, 20, True, False), (5, 25, True, False), (10, 15, True, False)]
+n =  7: m =    29,    840 characters; carry    56; 'odd half-deck power fixes psi up to conjugation'    56; agreement True (840/840) []
+n =  8: m =   105,   2204 characters; carry     0; 'odd half-deck power fixes psi up to conjugation'     0; agreement True (2204/2204) []
+n =  9: m =    76,   5775 characters; carry   147; 'odd half-deck power fixes psi up to conjugation'   147; agreement True (5775/5775) []
+n = 10: m =   275,  15124 characters; carry    20; 'odd half-deck power fixes psi up to conjugation'    20; agreement True (15124/15124) []
+n = 11: m =   199,  39600 characters; carry   396; 'odd half-deck power fixes psi up to conjugation'   396; agreement True (39600/39600) []
+n = 12: m =   720, 103679 characters; carry   123; 'odd half-deck power fixes psi up to conjugation'     3; agreement False (103559/103679) [(45, 90, True, False), (45, 135, True, False), (45, 180, True, False), (45, 225, True, False), (45, 450, True, False)]
+ALL LEVELS AGREE: False
+rc=0

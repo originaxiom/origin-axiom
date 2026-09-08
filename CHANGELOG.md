@@ -1,5 +1,11 @@
 # Changelog
 
+## Harvest from main eb9db7fa — the criterion verified on two benches; the law's theorem generalised; the 2-adic residue named
+
+Main's B1306 re-derived the 2×2 criterion independently (same supports Y₃ … Y₉) and reserved B1300–B1319, B1350–B1399. The positive
+half of the law now holds for every character an odd half-deck power fixes up to conjugation; the support is exactly that set except the
+24 + 96 exceptional 2-adic carriers of conductors 6 and 12 (Carmichael's indices). `frontier/B1304_the_two_adic_tower` addendum §2′.
+
 ## B1350 — the V₁₀ direction: N(27) = 0 along the one unpaired deformation; the θ-odd frame closed on every sl₂ germ
 
 Genuine non-self-dual E₆ representations along both V₁₀ classes and their combinations; h¹(27) = h¹(27̄) = 0, no cusp-fixed vector,

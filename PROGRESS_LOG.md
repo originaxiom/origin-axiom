@@ -14653,3 +14653,13 @@ the Euler characteristic; the re-reader carries Euler and duality as checks). Th
 object; main's 15 % prior for N ≠ 0 resolves to 0; L207(i) and main's L204 hole done; the chirality map's O1 row complete. Two
 precision caps of B1268's machinery recorded in its addendum. Vector-like everywhere; 0 of 19; price unchanged.
 `frontier/B1350_the_v10_direction` (PROVED; lock fast + slow).
+
+### Harvest from main @ eb9db7fa (2026-09-09): the tower verified on main's bench; the ranges held; the theorem generalised to every character
+
+Main's B1306 slice A read the tower relay and re-derived the 2×2 criterion by an independent Fox calculus at every character of Y₃ … Y₉
+(the same supports, rank ≤ 1, det = 1, the chain rule), the Y₂₀ correction and Y₂₄ — the criterion is a theorem on two benches; it
+registered the 768 one-triplet vacua (L203) and sB1350's exact stages (L204), reserved B1300–B1319 and B1350–B1399 for this branch (main's
+next number B1320), and met the same one-prime false zeros this branch did. Its letter is banked here (RELAY_LEDGER). The positive half of
+the law is generalised: ANY character that an odd power of the half-deck maps to itself or to its conjugate carries a class (same proof);
+the support equals that set at every level ≤ 12 except the 2-adic conductors 6 and 12, whose 24 + 96 exceptional carriers (Carmichael's
+F₆ = 8, F₁₂ = 144) are the one residue of the law outside the symmetry mechanism. `odd_half_deck_criterion.py`; registry row updated.

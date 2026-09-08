@@ -52,3 +52,10 @@ def test_the_positive_half_of_the_law_is_a_theorem():
     P.check_A()                                   # the free-group identities behind the presentation identity
     assert P.check_B(2000)                        # conductor form <=> odd-order form on every (m, u), m <= 2000
     assert P.check_C(9)                           # every eigencharacter class of every level <= 9: N0 structure, prediction
+
+
+def test_the_odd_half_deck_criterion_is_the_support_away_from_the_two_adic_exceptions():
+    import odd_half_deck_criterion as O
+    # exact agreement at the odd levels and at 4, 8 (no support); the two-adic conductor 6 is the exception (27 carry, 3 fixed)
+    assert all(O.level(n) for n in (3, 4, 5, 7, 8, 9))
+    assert not O.level(6)
