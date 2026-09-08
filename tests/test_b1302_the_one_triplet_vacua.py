@@ -25,3 +25,15 @@ def test_y9_keeps_a_light_triplet_pair_and_y12_has_one_triplet_vacua():
         lp2, zr, zc = V.light_pairs(s, cfg, __import__('random').Random(1), names=True)
         assert zr['T'] == [('m:d^c', g2)] and zc['T'] == [('d^c', g2)]
         assert sorted(zr['H']) == sorted([('H_u', g2), ('m:L', g2), ('m:H_d', g2)])
+
+
+def test_the_one_triplet_vacuums_gauge_group_and_light_charges():
+    import one_triplet_vacuum_charges as C
+    out = C.main()
+    assert out['ok']
+    assert set(out['res'].values()) == {1, 2}
+    assert all(v == 2 for k, v in out['res'].items() if k.endswith('False)')) and all(v == 1 for k, v in out['res'].items() if k.endswith('True)'))
+    (v1, ch1), (v2, ch2) = out['dirs']
+    assert ch1['Q'] == ch1['u^c'] == ch1['e^c'] and ch1['d^c'] == ch1['L'] and ch1['H_u'] == -ch1['H_d']
+    (v3, ch3), = out['dirs_nu']
+    assert ch3['nu^c'] == 0 and ch3['Q'] == ch3['u^c'] == ch3['e^c'] and ch3['d^c'] == ch3['L'] == 2 * ch3['Q'] and ch3['H_u'] == 3 * ch3['Q']

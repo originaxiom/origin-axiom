@@ -1,0 +1,13 @@
+=== the one-triplet vacuum (B1302): the surviving abelian factors and the light generation's charges ===
+
+  configuration <N_2>, flavons S_13, S_31: charge-matrix rank 2, surviving extra U(1)s: 2
+    direction (beta, gamma, fam1, fam2) = [5, 3, 0, 0]: charges on the light generation Q -2, u^c -2, d^c 6, L 6, e^c -2, nu^c -10, H_u 4, H_d -4
+    direction (beta, gamma, fam1, fam2) = [-2, 0, -1, 2]: charges on the light generation Q 2, u^c 2, d^c 0, L 0, e^c 2, nu^c 4, H_u 2, H_d 4
+
+  configuration <N_2>, flavons S_13, S_31, <nu^c_2>: charge-matrix rank 3, surviving extra U(1)s: 1
+    direction (beta, gamma, fam1, fam2) = [0, 6, -5, 10]: charges on the light generation Q 6, u^c 6, d^c 12, L 12, e^c 6, nu^c 0, H_u 18, H_d 12
+
+  the same surviving rank for every generation assignment: True
+  the light generation's tree-level Yukawa couplings Q_g2 u^c_g2 H_u,g2, Q_g2 d^c_g2 H_d,g2, L_g2 e^c_g2 H_d,g2, L_g2 nu^c_g2 H_u,g2: the family tensor |eps_ijk| has |eps_{g2 g2 g2}| = 0, so all vanish at tree level (B1271's theorem on the light generation)
+
+SELFTEST: PASS
