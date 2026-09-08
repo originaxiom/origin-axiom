@@ -10872,5 +10872,16 @@
   "note": "First reduction of the B1261 price: UNEARNED 11 -> 10, the trade moving 15 : 0 -> 14 : 0. Demonstrates the third move on the exchange rate (refute), which the ratchet supported all along.",
   "priority": "low",
   "revival_score": 1
+ },
+ {
+  "id": "B1300",
+  "claim_killed": "That a Wilson line of the Standard-Model closing Y_9 could split the doublets from the triplets -- project out the colour triplets D, Dbar of the 27s while keeping the Higgs doublets and the three generations (L209(ii)'s classical option, the mechanism of orbifold and Calabi-Yau model building) -- and so remove the light D pair that B1283 found on every maximal branch.",
+  "kill_form": "Killed by exhaustion and then by theorem. All 706 464 SM lines of Y_9 re-enumerated with every component's survival in every generation recorded: 0 split lines, and D kept in all three generations on every line (Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines). Theorem: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; the alphabet's letters have order 1, 19 or 38, their squares have odd order and are never family characters, and the family characters are the only characters that project anything (B1278's support theorem). An exact structural model built from the support theorem and the weight table reproduces every count of B1278.",
+  "fact_computed": "dt_splitting.py (B1278's pipeline re-run with the survival bookkeeping, 1 131 s, SELFTEST PASS) and dt_structure.py (the model, 17 s; --verify-weights re-derives the weight table from B1277's loaders, MATCH); lock tests/test_b1300_the_doublet_triplet_lines.py.",
+  "faces_consulted": "B1278 (the lines and the support theorem), B1283 (the light D pair and the branch rule), B1277 (descent data and the SM roots), B1276 (the one-coupling cubic), B1275 (the weights); afterwards B1301-B1304 (the tower, where the hypothesis fails on Y_12).",
+  "hatch": "The theorem's hypothesis -- an alphabet whose 2-part is the family group -- is Y_9's and every odd-alphabet closing's (Y_15, Y_21), not the tower's: on Y_12 the letters have order 16, their squares land in Y_6's pulled-back support of generation count 1, and the colour triplet is thinned to ONE generation on 31 488 of 34 752 lines (B1301); B1302 then found tree-level vacua on 768 of those lines with no light exotic triplet, and B1304 showed Y_24 repeats Y_12 and no other closing thins. So the kill is of the Wilson-line mechanism on Y_9 and the odd closings; the mechanism exists, one step short of the classical solution, on Y_12.",
+  "note": "A NEGATIVE with a positive continuation in the same identity: psi_D = psi_Q^-2 protects the triplet where the alphabet is odd and thins it where the alphabet is 2-adic. The corpus's 'light D pair' (B1283) is Y_9's.",
+  "priority": "low",
+  "revival_score": 1
  }
 ]
