@@ -11,3 +11,4 @@ tails of connected sums of figure-eights, from J_n(4_1)^m  (J is multiplicative)
 
    c_eff of 1/(q;q)_inf^m, the reciprocal tails:
       m=1: c_eff = 0.999984   (target 1)
+      m=2: c_eff = 1.999966   (target 2)

@@ -479,6 +479,11 @@ And the `F_K` block edge is its **reciprocal**:
 where the colored Jones tail carries `Φ_K`. Hence, stated so it can be wrong:
 
 > ### `c_edge(K) = c_eff(1/Φ_K)`, and the ceiling on `c_eff` over all convergent surgeries on `K` is `c_eff(1/Φ_K)`.
+>
+> **[UNDER-DETERMINED AS WRITTEN — see ADDENDUM 6, same day.** `Φ_K` must name **which end** of
+> the colored Jones. The trefoil has `(q;q)_∞` at one end and the trivial series `1` at the
+> other, and only the trivial end gives the right answer. The figure-eight is amphichiral, so
+> its two ends coincide and the single verification above could not see the ambiguity.**]**
 
 For `4₁`: `Φ = (q;q)_∞`, `1/Φ` is the partition function, `c_eff = 0.9999879` on 40 000 terms.
 **Ceiling 1.** Verified rather than smelled.
@@ -608,3 +613,43 @@ worth running: the target object is in hand on one side of it.
 the summand is the figure-eight is **arithmetic**: `c_eff(1/(q;q)_∞^m) = m`, so *any* knot with
 tail `(q;q)_∞` gives six at `m = 6`. Nothing connects that six to `c((E₆)₁) = 6` beyond the
 number, and the mechanism `c_edge = c_eff(1/Φ_K)` still has exactly **one** data point.
+
+
+---
+
+# ADDENDUM 6 (2026-09-08, same day) — the trefoil finds the hole in addendum 4's mechanism
+
+Certificate `certificates/trefoil_ends.py`, output `outputs/trefoil_ends_out.txt`.
+
+Addendum 4's mechanism had **one** data point. The cheapest second is the trefoil, because
+`c_edge(trefoil)` is known **independently**: by GM Thm 1.3 every `Ξ_k` of a torus knot is a
+single monomial, so there is no widening edge series at all and `c_edge = 0`.
+
+Computing `J_n(3₁)` from Habiro's cyclotomic expansion (controlled against
+`J₂ = q⁻¹ + q⁻³ − q⁻⁴`) and reading both ends at matched parity in `n`:
+
+| knot | bottom end (lowest degrees) | top end (highest degrees) |
+|---|---|---|
+| `3₁` (chiral) | `±(q;q)_∞`, window 13–14 | **`1, 0, 0, …` — trivial**, window 13–14 |
+| `4₁` (amphichiral) | `(q;q)_∞`, window 15 | `(q;q)_∞`, window 15 |
+
+> `c_edge(3₁) = 0 = c_eff(1/1)` — **matches the trivial end.**
+> The `(q;q)_∞` end would predict `1`, and would be **wrong**.
+
+**So addendum 4's statement is under-determined, on exactly the point its single verification
+could not see.** `4₁` is amphichiral: its two ends coincide, so no choice was visible. The
+trefoil is chiral, the ends differ, and the choice matters.
+
+**The honest count is now:** one knot on which the mechanism is verified, and one on which it is
+consistent under **one of two readings** and false under the other. That is weaker than
+addendum 4 read, and it is weaker in a way that matters for addendum 5's connected-sum object:
+`#⁶4₁` is amphichiral too, so it will not settle the end rule either.
+
+**What would settle it:** any chiral knot whose blocks widen — i.e. a chiral hyperbolic knot.
+`5₂` is chiral. This is the same ask already in `fetch/FETCH_REQUEST_CEFF.md` §B, and it is now
+load-bearing for two separate questions rather than one.
+
+**What is unaffected.** §§1–6 of this memo and addenda 1, 3 and 5 are computations about the
+figure-eight and do not use the mechanism. The mechanism enters only in addendum 4's reading of
+*why* `c_edge = 1` and in addendum 5's framing of the connected-sum route; both now carry this
+qualification.
