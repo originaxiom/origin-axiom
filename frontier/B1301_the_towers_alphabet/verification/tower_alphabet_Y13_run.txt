@@ -1,0 +1,10 @@
+=== Y_13: H_1 = Z/521 + Z/521, order 271441 = Fox's product 271441, exponent 521; 14 generators ===
+  the deck transformation permutes the characters: 20881 orbits, sizes {1: 1, 13: 20880}
+  h^1(Y_13; psi) on one representative per orbit (20881 Fox computations, 40 digits, 410 s): distribution over all 271441 characters {0: 270401, 1: 1040}; smallest accepted singular value 3.703e-05, largest rejected 1.008e-39
+  deck-invariance control: h^1 recomputed on every element of 30 full orbits, mismatches 0
+  exact confirmation over Q(zeta_order(psi)) of all 0 positives (1040 of order > 60 skipped) and 3 zero controls: True (2 s)
+  support: 1040 characters, by order {521: 1040}
+  deck eigencharacters t.psi = psi^lambda, (order, lambda mod order, h^1) -> count: {(1, 0, 0): 1, (521, 101, 1): 520, (521, 423, 1): 520}
+  the support's eigen-structure (order, lambda mod order or None) -> count: {(521, 101): 520, (521, 423): 520}
+  (493 s)
+  Y_13: support 1040; sup_eig {(521, 101): 520, (521, 423): 520}  (493 s)

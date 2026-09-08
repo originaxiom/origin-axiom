@@ -1,0 +1,6 @@
+solved lines: 768
+orders of (psi_Q, psi_u, psi_L): {(16, 16, 16): 768}
+order of the line's image in the character group: {256: 768}
+psi_u = psi_Q^k x family, psi_L = psi_Q^k' x family -> (k, k') counts: {(None, None): 768}
+deck orbits of the 768 (the deck permutes D, Dbar, N generations as the 3-cycle): 64
+(generation of D, of Dbar, of N) -> lines: {(0, 2, 1): 128, (0, 1, 2): 128, (2, 0, 1): 128, (2, 1, 0): 128, (1, 0, 2): 128, (1, 2, 0): 128}
