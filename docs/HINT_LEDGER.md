@@ -726,3 +726,4 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 - H-B1299-HOLE (type WITNESS, exact): the symmetry pairing of the θ-odd germ fails at the subregular point on exactly one
   direction (the V₁₀ of the 42). Every other flat-sector direction on the object is paired. L204 is the whole remaining
   flat-sector chirality question on m004 itself. (B1299)
+- H-CHAT1-THREE (type OBSERVATION, seat's, fenced): the number 3 does two independent jobs — geometric (an order-3 element of SL(2,ℤ) has trace −1, so det(A − I) = 3: three fixed lines) and algebraic (gcd(3, |Out(E₆)|) = 1, so an order-3 symmetry lifts only INNER and the outer-lift vector-like theorem does not apply); order 2 fails both at once (four lines; lifts outer). Fences: three fixed lines ⟹ three generations is I-26- and PW-frame-conditional (Phase 2 Arc 0); the lift is I-28. (chat1 relay 2026-09-08, intake row 18)

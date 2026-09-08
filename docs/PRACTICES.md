@@ -772,3 +772,10 @@ window candidate.
   when the instrument first recovers a planted true positive — MB12's bite-control,
   applied to documents. (Two false zeros in one review — an apostrophe and a
   hard-wrap — both caught by controls, neither by re-reading.)
+
+## 2026-09-08 — two instrument notes from the chat1 relay
+
+- **`git grep --all` does not mean all refs.** Git parses `--all` as `--all-match`; `git grep -l <pattern> --all -- '*.md'` searches NOTHING and returns 0 files for every probe. The chat1 seat got fourteen consecutive false ABSENT verdicts this way (eleven of the fourteen were already banked). Use `scripts/checks/absence_sweep.py "<term>"` (which enumerates the heads explicitly) — never a bare `git grep --all`; and run a positive control (a term known to be present) before trusting any zero. This is THE ABSENCE RULE's instrument clause.
+- **A null from an uncontrolled instrument is not a negative** (the seat's proposed rule; it is MB12's second half — the criterion must be able to fire where the thing sought is known to live). Four instances across three seats in one day: an unconditional `ALL THREE CONTROLS PASS`, a two-armed PSLQ tautology, the `git grep --all` zero, and `spacetime64.py`'s printed 0 beside its own count of 2 (fc R49; B1140's re-adjudication is B1303's first item).
+- **Every quoted string is grepped in its source before it ships** (E68).
+
