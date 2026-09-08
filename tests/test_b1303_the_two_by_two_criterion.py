@@ -77,3 +77,14 @@ def test_y18_and_y21_at_scale(tmp_path):
     assert len(d18['positives']) == 171 and len(d18['K3']) == 145 and len(d18['K2']) == 27
     d21 = S.level(21)
     assert len(d21['positives']) == 48947
+
+
+@pytest.mark.slow
+def test_y15s_odd_alphabet_keeps_two_light_triplet_pairs():
+    import odd_alphabet_lines as O
+    sys.path.insert(0, str(ROOT / "frontier" / "B1302_the_one_triplet_vacua" / "verification"))
+    import one_triplet_vacua as V
+    r = O.run(HERE / "support_mt_Y15.json", "Y_15")
+    assert r['n_sm'] == 5016142400 and r['n_full'] == 4960988960 and r['d_tot'] == {3: 5016142400} and len(r['patterns']) == 67
+    out = V.analyse(r['patterns'], "Y_15")
+    assert out['minT'] == 2 and out['lines_solved'] == 0
