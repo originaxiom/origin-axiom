@@ -290,3 +290,75 @@ matches every coefficient of all of them.
 * The Seifert cross-check of §6.
 
 The paper contains no `c_eff` computation, so §§2, 3, 5 and 6 do not collide with it.
+
+---
+
+# ADDENDUM 2 (2026-09-08, same day) — the torus arm, and what actually makes `c_eff` positive
+
+Certificate `certificates/torus_arm.py`, output `outputs/torus_arm_out.txt`.
+
+## 1. A second control on the framework, from the paper's own numbers
+
+Memo 177 §4 (as corrected by addendum 1) reads the threshold off GM's condition (177),
+`4c + r/p > 0`, giving `|p/r| < 1/(4|c|)`. That rule is now checked against **two** ranges the
+paper states, on two different pages, for two different knots:
+
+| knot | `c` | rule gives | the paper says |
+|---|---|---|---|
+| `T(2,3)` (trefoil) | `±1/24` | `\|p/r\| = 6` | *"can be applied for the values `p/r ∉ [0,6]`"* — **page 55** |
+| `4₁` | `−1/16` | `\|p/r\| = 4` | *"we should be able to apply (176) for `p/r ∈ (−4,0)`"* — **page 73** |
+
+Both. The framework is not tuned to the figure-eight.
+
+## 2. Torus knots give `c_eff = 0`, exactly, at every slope
+
+Thm 1.3 eq (2) gives `F_{T(s,t)}` in closed form, and in the `Σ_k Ξ_k(q) x^{k−1/2}`
+normalisation **every block is a single monomial** — width one, no edge sequence. So
+`h(y) = ∓y/(st)`, and
+
+```
+   y h(y) - y^2/Q  =  -y^2 (1/(st) + 1/Q)   (positive torus knots)
+                   =   y^2 (1/(st) - 1/Q)   (negative), which is <= 0 exactly on Q < st
+```
+
+both maximised at `y = 0`. **`c_eff = 0` for every torus knot, both orientations, at every
+slope inside the range of applicability.** Cross-check: memo 174 *measured* the Prop 4.8 false
+theta for `Σ(2,3,7) = S³_{−1}(left trefoil)` and found `c_eff = 0`; `Q = 1 < 6`, in range.
+
+## 3. What actually makes `c_eff` positive — superseding memo 176 §5's reading
+
+Memo 176 §5 said `c_eff > 0` **iff** `Δ_K` has a root off the unit circle. That came from the
+refuted mass argument. It classifies these two examples correctly and for the wrong reason.
+The correct statement is about **block width**:
+
+> `c_eff > 0` **iff the blocks `Ξ_k` widen without bound**; and when they do,
+> `sup_{|p/r| < 1/(4|c|)} c_eff = c_edge`, the effective central charge of the `k → ∞` limit of
+> `Ξ_k`'s edge sequence.
+
+Torus knots: width 1, `c_eff = 0`. Figure-eight: width `2⌊(k−1)²/4⌋+1`, and its edge limit is
+`2Σ_j q^{j(j+1)}/(q;q)_∞` with `c_edge = 1`.
+
+## 4. The open question this leaves, named and priced
+
+> **Is `c_edge = 1` for every knot whose blocks widen?**
+
+If the limiting edge sequence is always (theta-like)`/(q;q)_∞`, then yes, and the ceiling
+`c_eff < 1` is **universal** — which would close `c((E₆)₁) = 6` on the `Ẑ`-of-a-knot-surgery
+route for *all* knots at once, not only the figure-eight. As it stands the ceiling is proved
+(numerically) for `4₁` and trivially true for torus knots, and the general case is open.
+
+**Price:** one more hyperbolic knot's `F_K`, i.e. its `Â`-polynomial recursion. This paper
+supplies only the trefoil's (§9.2) and the figure-eight's (§9.3). `5₂` and `6₁` have
+`Â`-polynomials in the literature; obtaining one and running `xi_recursion.py`'s ansatz against
+it is the whole job. That is the single highest-value next computation on this line, and it is
+not blocked by anything except having the recursion.
+
+## 5. A negative, recorded
+
+`Vol(m004) = 2.0298832…` does **not** appear in the block rate function
+`ρ(σ) = lim_k (1/k) log c_{k,σk²}`, whose Legendre transform is `h(y) − y/4`. `ρ` was computed
+on a grid `σ ∈ [0.002, 0.249]`; its maximum approaches `2 log φ` as it must, its small-`σ` form
+approaches `2π√(σ/6)` as the `c_edge = 1` edge requires, and no value on the grid matches
+`Vol`, `Vol/π`, `Vol/2π`, `Vol/4π` or `Vol/6`. **The hyperbolic volume is not visible in this
+structure.** Searched and not found is worth recording; the object's own central constant does
+not enter its boundary `c_eff`.
