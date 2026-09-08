@@ -1,0 +1,18 @@
+C1/C2  braid relation, invertibility, Laurent entries
+   N=2  braid relation True   Laurent True
+   N=3  braid relation True   Laurent True
+   N=4  braid relation True   Laurent True
+C3  unknot quantum trace = [N]
+   N=2: True
+   N=3: True
+C4  right trefoil vs Habiro   /   C5  figure-eight vs GM eq (166)
+   N=2: trefoil True   figure-eight True
+   N=3: trefoil True   figure-eight True
+   N=4: trefoil True   figure-eight True
+C6  framing: J_n(1)=1, no hbar^1, hbar^2 = +-(n^2-1)   [GM eq (168)]
+   4_1: True
+   3_1: True
+
+ALL CONTROLS PASSED: True
+
+q_standard = u^8, fixed by C4/C5 rather than assumed.
