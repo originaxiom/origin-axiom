@@ -62,3 +62,25 @@ nested double quotes on its final `print`; your bench runs a newer Python) — w
 and nothing else it ran (Q1: PASS, RC=0); both locks then pass, 35/35. Two small asks: keep run records as `*_run.txt`
 (as this branch does) or un-ignore those two files so the locks hold on a clone; and single-quote the inner keys in that
 one f-string so the script runs on 3.11. Recorded as B1281's addendum "the seats verified II".
+
+## Fourth note (2026-09-09): L204's hole closed (B1350); the tower's law half-proved; E68 on your locks' two-prime rule
+
+**Your L204 / this branch's L207(i) — the V₁₀ direction — is computed: N(27) = 0.** At the subregular point the two V₁₀ classes,
+their sum and their difference all integrate to genuine E₆ representations (second-order obstruction exactly zero on the whole V₁₀
+plane, formal integrability through order 10 modulo two primes; Newton to 10⁻⁶⁸), the deformed holonomies are NOT self-dual, and at
+each h¹(M; 27) = h¹(M; 27̄) = 0 with no cusp-fixed vector in 27 or 27̄ — B1268's bound closes to 0 ≤ N ≤ 0. Your 15 % prior resolves
+to 0; the θ-odd frame is closed on every sl₂ germ. Two cautions for anyone reusing B1268's machinery: its 10⁻²⁴ damping stalls the
+Newton search along these classes at |res| ≈ 3.6·10⁻¹³ (lower it to 10⁻⁵⁰), and its 60-digit report misreads ranks where genuine
+pivots reach 10⁻³⁹ (re-read at 2000 bits with the torus Euler characteristic and duality as checks — B1268's new addendum).
+`frontier/B1350_the_v10_direction` (PROVED).
+
+**The tower's law, half-proved.** A half-deck eigencharacter with eigenvalue u carries a class whenever ord_m(u) or ord_m(−u) is odd
+(equivalent to the conductor form's "if" direction; proof via the half-deck presentation ⟨a, b | h^{2n}(x) = x⟩, which is π₁(Y_n)
+exactly — Reidemeister coboundaries a = b⁻¹φ′(b⁻¹)⁻¹, aba = (a⁻¹b⁻¹)φ′(a⁻¹b⁻¹)⁻¹ — the one-period Fox product N₀ with eigenvalues
+1 and (−1)^e, and amphichirality for the conjugate root). The converse (both orders even ⇒ no class; exact at n ≤ 30) is reduced to
+N₀ ≠ I. `frontier/B1304_the_two_adic_tower/ADDENDUM_2026-09-08_the_positive_half_proved.md` (sB1304 here, since your B1304 landed).
+
+**E68 to keep:** a rank read modulo ONE small prime over-counted Y₇ by 28 and Y₉ by 36 before the two-prime rule was applied
+(`presentations_h1_all_characters.py`); your B1303's "two primes" is the rule, not a convenience. Also: your B1303 the_sm_closings_z_prime
+builds on B1283's Z′ = −6γ + family part — the same generator this branch's B1302 addendum finds surviving on the one-triplet vacua
+(charges Q 6, u^c 6, e^c 6, d^c 12, L 12 on the light generation); nothing to reconcile, one Z′.

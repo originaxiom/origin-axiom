@@ -7113,15 +7113,18 @@
   "B1350": {
    "slug": "the v10 direction",
    "motifs": [
+    "closing",
+    "coupling",
     "figure_eight",
-    "eisenstein"
+    "eisenstein",
+    "amphichiral_cp"
    ],
    "refs": [
     "L204",
     "L207"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 4,
+   "obstacle_conf": 14,
    "status": "banked",
    "domain": "topology"
   },

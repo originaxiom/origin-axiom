@@ -1,5 +1,11 @@
 # Changelog
 
+## B1350 — the V₁₀ direction: N(27) = 0 along the one unpaired deformation; the θ-odd frame closed on every sl₂ germ
+
+Genuine non-self-dual E₆ representations along both V₁₀ classes and their combinations; h¹(27) = h¹(27̄) = 0, no cusp-fixed vector,
+N(27) = 0 at each (600-bit Newton, 2000-bit re-read). Exact: second-order obstruction zero on the V₁₀ plane, formal integrability to
+order 10. B1268's damping and its 70-digit/10⁻³⁰ rank caps recorded. `frontier/B1350_the_v10_direction`.
+
 ## Harvest from main e324df06 — B1259 scoped (E70), collisions sB1303/sB1304 recorded
 
 B1259's isolation theorem is an element lemma; main's B1304 showed the stratum no-go does not follow (E70). THE_ASSEMBLY and

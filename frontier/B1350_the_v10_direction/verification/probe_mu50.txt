@@ -1,0 +1,57 @@
+    [rescaled 27: |A0| = [1.80e+3 +/- 4.23], |B0| = [3.45e+3 +/- 4.17]]
+=== (0) the subregular sl2: [e,f] = h ok; block multiplicities by highest weight: {2: 1, 4: 1, 6: 1, 8: 1, 10: 2, 12: 0, 14: 1, 16: 1} ===
+=== (1) rho_0 (subregular, exact over Q(omega)): h0 = 0, h1(27) = 3; h1(27bar) = 3  (35 s) ===
+      [27 at the subregular point d0] rank 27 of (54x27); smallest accepted pivot/scale = 1.27e-9; largest rejected = 0.0
+      [27 at the subregular point d1] rank 24 of (27x54); smallest accepted pivot/scale = 8.19e-13; largest rejected = 1.06e-60
+      [27 at the subregular point cusp fixed] rank 24 of (54x27); smallest accepted pivot/scale = 1.63e-17; largest rejected = 2.83e-73
+      [27 at the subregular point Z1(T2)] rank 24 of (27x54); smallest accepted pivot/scale = 3.99e-25; largest rejected = 2.04e-68
+      [27 at the subregular point B1(T2)] rank 24 of (54x27); smallest accepted pivot/scale = 1.63e-17; largest rejected = 2.83e-73
+      [27 at the subregular point res+B] rank 27 of (54x57); smallest accepted pivot/scale = 1.6e-17; largest rejected = 1.04e-62
+    27 at the subregular point: h0(M) = 0, h1(M) = 3, h0(dM) = 3, h1(dM) = 6, rank(res) = 3, [mu,lambda] = nan  =>  N = rank(res) - h0(dM) = 0
+      [27bar at the subregular point d0] rank 27 of (54x27); smallest accepted pivot/scale = 2.2e-9; largest rejected = 0.0
+      [27bar at the subregular point d1] rank 24 of (27x54); smallest accepted pivot/scale = 7.29e-10; largest rejected = 4.68e-61
+      [27bar at the subregular point cusp fixed] rank 24 of (54x27); smallest accepted pivot/scale = 3.72e-13; largest rejected = 7.28e-74
+      [27bar at the subregular point Z1(T2)] rank 24 of (27x54); smallest accepted pivot/scale = 1.24e-13; largest rejected = 1.2e-70
+      [27bar at the subregular point B1(T2)] rank 24 of (54x27); smallest accepted pivot/scale = 3.72e-13; largest rejected = 7.28e-74
+      [27bar at the subregular point res+B] rank 27 of (54x57); smallest accepted pivot/scale = 1.99e-14; largest rejected = 8.58e-63
+    27bar at the subregular point: h0(M) = 0, h1(M) = 3, h0(dM) = 3, h1(dM) = 6, rank(res) = 3, [mu,lambda] = nan  =>  N = rank(res) - h0(dM) = 0
+    N(27) at the point = 0
+=== (2) the two V10 blocks' exact cocycle classes ===
+    block V10 #1: dim Z1 = 12, dim B1 = 11, h1 = 1; restriction to the cusp torus trivial: False
+    block V10 #2: dim Z1 = 12, dim B1 = 11, h1 = 1; restriction to the cusp torus trivial: False
+    restriction H^1(M; V10-isotype) -> H^1(dM; e6): rank 2 on the two-dimensional class space (2 = no cusp-trivial direction; 1 = one cusp-trivial combination)
+=== (3) first-order self-duality defects d/d eps [tr rho(w) - tr rho(w^-1)] on six words ===
+    class 1: ['[+/- 6.27e-174] + [+/- 1.62e-173]j', '[+/- 1.68e-173] + [+/- 1.80e-173]j', '[+/- 2.37e-163] + [+/- 2.37e-163]j', '[+/- 3.53e-158] + [+/- 3.46e-158]j', '[+/- 1.31e-157] + [+/- 1.31e-157]j', '[+/- 4.19e-160] + [+/- 4.17e-160]j']
+    class 2: ['[+/- 9.78e-174] + [+/- 2.44e-173]j', '[+/- 1.55e-173] + [+/- 1.66e-173]j', '[+/- 2.60e-163] + [+/- 2.60e-163]j', '[+/- 4.48e-158] + [+/- 4.40e-158]j', '[+/- 1.40e-157] + [+/- 1.40e-157]j', '[+/- 3.33e-160] + [+/- 3.32e-160]j']
+    all twelve first-order defects vanish (largest |.| 3.0e-157): both classes are TRACE-FLAT at first order, so the theta-parity of the class space is read from finite deformations (stage 4), not from first order
+    (813 s)
+=== (4) Newton to genuine E6 representations along the odd, even and first-class directions; N(27) ===
+    controls: step 0.02, damping mu 1e-50, iterations 40, directions ['class 1']
+  -- class 1: |Y| = 1.709e+06, step 0.02/|Y|, start residual [0.000116 +/- 3.66e-7]
+      newton it 0: |res| = 1.16e-04
+      newton it 1: |res| = 3.62e-13
+      newton it 2: |res| = 9.26e-18
+      newton it 3: |res| = 3.03e-32
+      newton it 4: |res| = 4.72e-45
+      newton it 5: |res| = 1.10e-52
+      newton it 6: |res| = 2.56e-60
+      newton it 7: |res| = 5.96e-68
+     converged residual 6.0e-68; self-duality defects ['[2.18e-12 +/- 2.55e-15]', '[2.18e-12 +/- 2.55e-15]', '[1.79e-10 +/- 2.53e-13]', '[4.92e-8 +/- 2.63e-11]', '[1.49e-64 +/- 3.72e-67]', '[4.92e-8 +/- 2.63e-11]'] -> NOT self-dual
+      [27 along class 1 d0] rank 27 of (54x27); smallest accepted pivot/scale = 1.27e-9; largest rejected = 0.0
+      [27 along class 1 d1] rank 25 of (27x54); smallest accepted pivot/scale = 5.59e-29; largest rejected = 1.26e-33
+      [27 along class 1 cusp fixed] rank 26 of (54x27); smallest accepted pivot/scale = 1.12e-29; largest rejected = 1.01e-38
+      [27 along class 1 Z1(T2)] rank 26 of (27x54); smallest accepted pivot/scale = 1.47e-30; largest rejected = 1.68e-31
+      [27 along class 1 B1(T2)] rank 26 of (54x27); smallest accepted pivot/scale = 1.12e-29; largest rejected = 1.01e-38
+      [27 along class 1 res+B] rank 27 of (54x56); smallest accepted pivot/scale = 4.88e-29; largest rejected = 2.82e-37
+    27 along class 1: h0(M) = 0, h1(M) = 2, h0(dM) = 1, h1(dM) = 2, rank(res) = 1, [mu,lambda] = 2.0e-54  =>  N = rank(res) - h0(dM) = 0
+      [27bar along class 1 d0] rank 27 of (54x27); smallest accepted pivot/scale = 2.2e-9; largest rejected = 0.0
+      [27bar along class 1 d1] rank 25 of (27x54); smallest accepted pivot/scale = 3.66e-29; largest rejected = 1.7e-34
+      [27bar along class 1 cusp fixed] rank 27 of (54x27); smallest accepted pivot/scale = 1.11e-17; largest rejected = 0.0
+      [27bar along class 1 Z1(T2)] rank 27 of (27x54); smallest accepted pivot/scale = 1.45e-22; largest rejected = 0.0
+      [27bar along class 1 B1(T2)] rank 27 of (54x27); smallest accepted pivot/scale = 1.11e-17; largest rejected = 0.0
+      [27bar along class 1 res+B] rank 27 of (54x56); smallest accepted pivot/scale = 8.91e-27; largest rejected = 5.48e-33
+    27bar along class 1: h0(M) = 0, h1(M) = 2, h0(dM) = 0, h1(dM) = 0, rank(res) = 0, [mu,lambda] = 4.4e-54  =>  N = rank(res) - h0(dM) = 0
+     ==> N(27) = h1(27) - h1(27bar) = 0;  bound -1 <= N <= 0   (1342 s)
+
+[1342 s]
+rc=0

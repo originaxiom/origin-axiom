@@ -14641,3 +14641,15 @@ by it). This branch cited B1259's headline in THE_ASSEMBLY (§0, §3, §7) and T
 carry the scope. Main's B1305 slice B closed the quantum face's chirality half of FRESH_EYES Q1: the colored-Jones ends' ratio is a
 mirror-odd invariant and 2-torsion on the amphichiral knot (R(4₁) = 1) — the same amphichiral pairing that kills the chirality bit on
 the flat and arithmetic faces (B1280, B1350) — consistent with, and independent of, this branch's frame. No verdict changes here.
+
+### B1350 — THE V₁₀ DIRECTION, DONE: the hole in the pairing law closed by computation (2026-09-09)
+
+Along the one deformation of the cusped object's E₆ holonomy that B1280's pairing law does not cover — the V₁₀ of the 42 at the
+subregular point — genuine E₆ representations exist (the class is unobstructed at second order exactly, formally integrable through
+order 10, and Newton converges to 10⁻⁶¹ … 10⁻⁶⁸ once B1268's damping, which stalls the search at 3.6·10⁻¹³, is lowered), they are not
+self-dual, and at every one of them (both classes, their sum, their difference) h¹(M; 27) = h¹(M; 27̄) = 0, no cusp-fixed vector,
+N(27) = 0 — read at 2000 bits with 200-digit ranks after the 60-digit report misread the ranks there (its torus numbers violated
+the Euler characteristic; the re-reader carries Euler and duality as checks). The θ-odd frame is closed on every sl₂ germ of the
+object; main's 15 % prior for N ≠ 0 resolves to 0; L207(i) and main's L204 hole done; the chirality map's O1 row complete. Two
+precision caps of B1268's machinery recorded in its addendum. Vector-like everywhere; 0 of 19; price unchanged.
+`frontier/B1350_the_v10_direction` (PROVED; lock fast + slow).

@@ -1,13 +1,13 @@
 {
- "settled": 1097,
+ "settled": 1098,
  "declared_true": 92,
- "declared_false": 177,
+ "declared_false": 178,
  "absent": 828,
  "absent_pct": 75,
  "control": {
   "declared_mean": 2.97,
   "rest_mean": 1.14,
-  "ratio": 2.61,
+  "ratio": 2.6,
   "passes": true
  },
  "pool_old": [
@@ -1028,7 +1028,8 @@
   "B1301",
   "B1302",
   "B1303",
-  "B1304"
+  "B1304",
+  "B1350"
  ],
  "added_by_vocabulary": [
   "B156",
@@ -1072,7 +1073,8 @@
   "B1236",
   "B1239",
   "B1245",
-  "B1281"
+  "B1281",
+  "B1350"
  ],
  "vocabulary_split": {
   "absent": [
@@ -1194,7 +1196,8 @@
    "B1239",
    "B1245",
    "B1281",
-   "B1304"
+   "B1304",
+   "B1350"
   ]
  }
 }

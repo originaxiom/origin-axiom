@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1198** |
-| words of findings prose | **861,282** |
+| words of findings prose | **862,167** |
 | test lock files referenced | **712** |
 | arcs carrying an authored verdict | **1198** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 787 |
+| PROVED | 788 |
 | NEGATIVE | 312 |
-| OPEN | 88 |
+| OPEN | 87 |
 | RETRACTED | 11 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1304`** (1172 words, 1 locks)  
-THE 2-ADIC TOWER ENDS AT Y_12. Y_24's character group has 10 749 957 120 elements, but its odd support is empty by B1303's law (an even level pulls back Y_12's, which is empty) and its 2-primary subgroup is (Z/32)^2 = 1 024 characters, on which the 2x2 criterion finds exactly Y_12's 123 support characters pulled back (orders 2, 8, 16; no order 32): the same 97-letter alphabet, the same 190 849 / 181 440 / 34 752 / 3 264 lines, the same thinning of the colour triplet to one generation on 31 488 lines, the same 265 survival patterns and the same 768 one-triplet vacua of B1302 (its census rerun on Y_24 is identical entry for entry); Y_12 through the same route reproduces B1301 and B1302 as the control. So the new 2-adic supports of the tower are at levels 3 (the family), 6 (order 8) and 12 (order 16) only -- the two indices at which the Fibonacci numbers lack a primitive prime divisor, Carmichael's exceptions, a coincidence registered not claimed -- and with B1303's law the tower is described: the closing that thins the triplets is Y_12 and its pullbacks, no closing does better at tree level. Also: for every non-trivial character the criterion's product P is unipotent (rank(P - I) <= 1 since P - I kills (psi(a) - 1, psi(b) - 1); det P = psi((Phi^n - I)(Phi - I)^-1 a) = 1 since Phi - I is unimodular), confirmed exactly on 1 984 917 characters of six levels, so h^1 = 1 iff the rank-one nilpotent part vanishes -- the form in which the law's proof should be sought. Vector-like throughout (B1260); 0 of 19; price unchanged.  
-`B1304_the_two_adic_tower/FINDINGS.md`
+**PROVED — `B1350`** (2289 words, 1 locks)  
+THE V10 DIRECTION (L207 = main's L204), DONE: at the subregular sl2 point of the cusped object's E6 holonomy (e6 = V2+V4+V6+V8+V10+V10+V14+V16, 27 = 13+9+5) the pairing law of B1280 fails along exactly one direction, the V10 of the 42 (theta = -1, iota* = +1). Exact: block multiplicities; rho_0 with h^1(27) = h^1(27bar) = 3, N = 0; two V10 cocycle classes, neither cusp-trivial, joint cusp restriction of rank 2; trace-flat at first order; second-order obstruction ZERO on the whole V10 plane (rank d1 = 70, dim H^2(M; e6) = 8, every block class unobstructed; modulo two primes); formally integrable through order 10. Numerics (600-bit Newton, converged to 1e-61..1e-68 once B1268's 1e-24 damping -- which stalls the search at 3.6e-13 -- is lowered to 1e-50; cohomology re-read at 2000 bits with 200-digit ranks and the torus Euler/duality checks): along class 1, class 2, their sum and their difference the deformed representation is NOT self-dual and has h^1(M; 27) = h^1(M; 27bar) = 0, no cusp-fixed vector in 27 or 27bar, N(27) = 0. The theta-odd frame is closed on every sl2 germ of the object; main's 15 % prior for N != 0 resolves to 0. Vector-like everywhere in the corpus; 0 of 19.  
+`B1350_the_v10_direction/FINDINGS.md`
 
 **NEGATIVE — `B1300`** (2600 words, 1 locks)  
 THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while keeping the Higgs doublets: exhaustively, with every component's survival in every generation recorded (B1278's pipeline re-run and re-enumerated), 0 split lines; D is kept in all three generations on every SM line -- indeed on every one of the 3 048 625 candidates -- while Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines. BY THEOREM: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; three generations of Q put psi_Q in the alphabet K3 = {1} u ((C_1 u C_2) minus 1) x V_4 (orders 1, 19, 38), whose squares have odd order and are never family characters -- and the family characters (order 2) are the only characters that project anything (B1278's support theorem: h^1 = 1 exactly on ((C_1 u C_2) x V_4) minus 1). An exact structural model built from the support theorem and the weight table (Q, u^c, L a Z-basis of P/Q_SM; the eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders) reproduces every count of B1278 -- 145-letter alphabet, 758 593 three-generation lines, 737 568 SU(5)-breaking, 706 464 SM vacua, 568 656 full-spectrum -- and every histogram of the pipeline in seventeen seconds with no Fox calculus: B1278 verified by a second method. Consequences: L209(ii)'s Wilson-line option is closed; B1283's light D pair is untouched by the Wilson line as it is by the tree-level VEVs, so whatever gives generation g's Higgs pair its mu gives its D pair a mass through the same E6 Clebsch (a vector-like colour-triplet pair near mu if the instanton sector respects the Clebsch -- a stated assumption, not a banked prediction). Vector-like throughout (B1260); 0 of 19; price unchanged.  

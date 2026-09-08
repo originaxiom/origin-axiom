@@ -52,7 +52,9 @@ mixed-sign products and the ramified prime. Two reductions for whoever proves it
 B(x) acting on the projective line by z ↦ 1 + x/z, N₀ = I iff the recursion p_j = p_{j−1} + ζ^{u^j} p_{j−2} (p₀ = 0, p₁ = ζ^u)
 returns to p_e = 0 — a vanishing sum of m-th roots of unity indexed by the domino tilings of a path of length e, so the
 Lam–Leung structure of vanishing sums is the natural tool; (b) **the antilinear form** (when u^{e/2} ≡ −1): N₀ = H̄H with H
-the Fox matrix of h^{e/2}, so N₀ = A² for the antilinear A(δ) = H̄ δ̄, which fixes v; N₀ = I iff A is an involution.
+the Fox matrix of h^{e/2}, so N₀ = A² for the antilinear A(δ) = H̄ δ̄, which fixes v; N₀ = I iff A is an involution. Numerically the
+converse has no near-misses: over the 43 eigencharacter classes with m < 400 and both orders even (19 ramified, 18 of sign − with d even,
+6 mixed), the unipotent N₀ has ‖N₀ − I‖ ≥ 1.38 (max 73), so whatever proves it need not be delicate.
 
 ## 4. What changes on the board
 

@@ -2448,6 +2448,8 @@ statement is SL(3)-specific). **(iii)** the general statement: *conjecture* N(V)
 cusp-fixed vectors, but the right general formulation (off K on W1/W2 no isometry pairs V with V\*, the bound does the
 work) is not yet written. ★★ for (i); (ii)–(iii) are mathematics beyond the destination's need.
 
+**L207 status 2026-09-09 (B1350, (i) DONE):** along the subregular germ's unpaired V₁₀ direction — both classes, their sum and their difference — genuine non-self-dual E₆ representations exist (unobstructed at second order exactly, formally integrable through order 10, Newton to 10⁻⁶⁸ once B1268's damping is lifted) and at each N(27) = 0 with h¹(27) = h¹(27̄) = 0 and no cusp-fixed vector (2000-bit re-read, torus Euler characteristic and duality consistent). The θ-odd frame is closed on every sl₂ germ; main's 15 % prior resolves to 0. (ii) and (iii) remain as stated.
+
 ## L208 — THE TWO-CUSPED SIBLING m202 AS THE CARRIER OF THE COUNT (registered 2026-09-07, B1281; from main's B1291/B1292 and fc's R72)
 
 The parity theorem (main B1291, re-derived B1281) excludes a fixed-locus count of 3 on any one-cusped manifold; m202 —

@@ -111,7 +111,7 @@ the trace coordinates), the inversion ι does it for the E₆ family (on the who
 - **Quantum.** The θ-odd sector is the object's only door to complex representations, and its sign is the torsor
   the object cannot fix (B760). B1280 shows the door's spectrum is even too at the geometric point: ι\* = θ on the deformation germ — and
   *only* there among the sl₂ points. **The three faces agree at the geometric point: the object is even, in every
-  sense the record can compute; the one direction it leaves open is the subregular germ's V₁₀.**
+  sense the record can compute; the one direction it left open, the subregular germ's V₁₀, is closed by B1350 (2026-09-09): genuine non-self-dual E₆ representations along it, N(27) = 0 at each, no cusp-fixed vector.**
 
 ## 6. What remains, named
 
@@ -135,6 +135,10 @@ object's own cusp; the escape is a two-cusped commensurable sibling (O6). The ch
 three: the singular G₂ closing (O4), the observer (O5), and m202's fixed lines (O6). On m202 the flat E₆ sector is
 paired exactly as on the object (B1282: the inversion is θ on its twelve-dimensional deformation space, uniquely), so the
 sibling's three, if it is anything, is a singular-locus count.
+
+## 6b. The V₁₀ direction (B1350, 2026-09-09)
+
+O1's one open direction is computed. Along the V₁₀ of the 42 at the subregular point the E₆ holonomy deforms to genuine representations that are not self-dual (self-duality defects to 5·10⁻⁸ at ε = 0.02/|Y|), and at every one of them h¹(M; 27) = h¹(M; 27̄) = 0, h⁰(∂M; 27) = h⁰(∂M; 27̄) = 0, N(27) = 0 — read at 2000 bits with the torus Euler characteristic and Poincaré duality as consistency checks after B1268's 60-digit report misread the ranks there. The exact calculus (second-order obstruction zero on the whole V₁₀ plane; formal integrability through order 10) says the directions are real; the numerics say they carry no net count. O1 is complete: every sl₂ germ of the object is vector-like. O2–O6 stand.
 
 ## 7. Consequence for the destination ledger
 

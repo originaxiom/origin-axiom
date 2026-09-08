@@ -41,3 +41,14 @@ def test_the_v10_classes_are_formally_integrable_through_order_six():
     for k in ("V10  ", "V10#2", "V10+V10#2", "V10-V10#2"):
         assert any(line.strip().startswith(k.strip()) and ": None" in line for line in out.splitlines()), k
     assert out.count("integrable to order 6") == 8                   # four directions, two primes
+
+@pytest.mark.slow
+def test_the_converged_points_re_read_at_2000_bits():
+    """the banked converged points (600-bit midpoints) re-read with 200-digit ranks: every direction has h1(27) = h1(27bar) = 0,
+    no cusp-fixed vector in either, torus Euler characteristic and duality consistent, N(27) = 0; the control at rho_0 reproduces the exact stage."""
+    out = subprocess.run([sys.executable, str(VER / "report_hp.py"), str(VER / "v10_direction_points.json")], capture_output=True, text=True, timeout=3600).stdout
+    assert "27 at rho_0: h0(M) = 0, h1(M) = 3, h2(M) = h1 - h0 = 3; torus: h0 = 3, h1 = 6, h2 = 3 (Euler ok); rank(res) = 3" in out
+    lines = [l for l in out.splitlines() if l.strip().startswith(("class 1 ", "class 2 ", "class 1 + class 2", "class 1 - class 2")) and "N(27) =" in l]
+    assert len(lines) == 4, out[-2000:]
+    for l in lines:
+        assert "N(27) = 0; h1(27) = 0, h1(27bar) = 0; cusp h0(27) = 0, h0(27bar) = 0; torus Euler ok: True" in l, l

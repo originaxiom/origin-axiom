@@ -1,6 +1,6 @@
-# B1350 — THE V₁₀ DIRECTION: the one deformation of the cusped object's E₆ holonomy that B1280's pairing law does not cover — the V₁₀ inside the 42 at the subregular point (θ = −1, ι* = +1; L207, main's L204) — computed: the exact part is in (both classes carry the cusp, the class space has no cusp-trivial direction, both are trace-flat at first order); the finite deformations and N(27) are running
+# B1350 — THE V₁₀ DIRECTION: the one deformation of the cusped object's E₆ holonomy that B1280's pairing law does not cover — the V₁₀ inside the 42 at the subregular point (θ = −1, ι* = +1; L207, main's L204) — carries genuine, non-self-dual E₆ representations along every direction of its class space, and N(27) = 0 on all of them: h¹(27) = h¹(27̄) = 0, no cusp-fixed vector, the window of B1268's bound closed. The θ-odd frame is closed on every sl₂ germ of the object.
 
-**Date:** 2026-09-08 · **Seat:** cc (the SM-derivation branch) · **Status:** OPEN (stages 0–3 PROVED: exact; stage 4 running at the time of this record) · **Price: unchanged** · **Numbering:** B1350, the first of the range this branch now numbers from (the collision note in `docs/SM_SEAT_ALIAS_TABLE.md`).
+**Date:** 2026-09-08 · **Seat:** cc (the SM-derivation branch) · **Status:** PROVED (stages 0–3 and 5 exact over ℚ(ω) / modulo two primes; stage 4 at 600 bits with the cohomology re-read at 2000 bits, 200-digit ranks, every zero forty orders below every non-zero; the Newton stall of the first run diagnosed and removed) · **Price: unchanged** · **Numbering:** B1350, the first of the range this branch now numbers from (the collision note in `docs/SM_SEAT_ALIAS_TABLE.md`).
 
 ## Why this arc — the last unpaired direction
 
@@ -68,14 +68,57 @@ control stops at order 5 under the greedy continuation although B1268 integrated
 positive verdicts are what it establishes. **The stall of (a) is therefore numerical**: the Newton correction has to move
 along directions whose singular values at the first-order point are of order ε and are suppressed by the damping.
 
-**(d) The Newton search with the damping and the step adjusted.** *(pending: three probes running — damping 10⁻⁵⁰, step
-0.2, both — on class 1; the converged representation's h¹(27), h¹(27̄), h⁰(∂M) and N replace this line.)*
+**(d) The Newton search converges once the damping is lifted.** Three probes on class 1 (`probe_*.txt`): with the damping
+at 10⁻⁵⁰ and the step 0.02 the residual goes 1.2·10⁻⁴ → 3.6·10⁻¹³ → 9.3·10⁻¹⁸ → 3.0·10⁻³² → 4.7·10⁻⁴⁵ → 1.1·10⁻⁵² → **6.0·10⁻⁶⁸**
+(quadratic from the second step: the stall was the damping and nothing else); with the step raised to 0.2 at the old damping it
+crawls (2.4·10⁻⁹ → 6.4·10⁻¹¹ over three iterations); with both changed it does not move. Damping 10⁻⁵⁰ is now the default.
+
+**(e) The genuine representations along the V₁₀ directions, and N(27) there — read at 2000 bits.** B1268's report decides
+ranks at 60 digits with a relative threshold 10⁻³⁰; at the deformed points its pivots straddle the threshold (d¹: 5.6·10⁻²⁹
+accepted against 1.3·10⁻³³ rejected; Z¹(T²): 1.5·10⁻³⁰ against 1.7·10⁻³¹) and the torus numbers it prints violate
+h⁰ − h¹ + h² = 0, so `report_hp.py` re-reads every converged point (the 600-bit midpoints, `v10_direction_points.json`) at
+2000 bits with 200-digit ranks, threshold 10⁻⁵⁰, the full pivot spectrum printed, and the torus Euler characteristic and
+Poincaré duality (h¹(V) = h¹(V*), h²(V) = h⁰(V*)) checked; at ρ₀ it reproduces the exact stage (h¹ = 3, h⁰(∂M) = 3, N = 0,
+exact zeros at 10⁻²⁰⁵). At the deformed points the "rejected" pivots of the 60-digit report are genuine (10⁻³³ … 10⁻³⁹, forty
+orders above the noise) and every zero is a zero:
+
+| direction (ε = 0.02/|Y|) | residual | self-dual? | h¹(M; 27) | h¹(M; 27̄) | h⁰(∂M; 27), h⁰(∂M; 27̄) | h¹(∂M), h²(∂M) | N(27) |
+|---|---|---|---|---|---|---|---|
+| class 1 | 6.0·10⁻⁶⁸ | no (defects to 4.9·10⁻⁸) | **0** | **0** | 0, 0 | 0, 0 | **0** |
+| class 2 | 1.8·10⁻⁶¹ | no (defects to 8.9·10⁻¹¹) | **0** | **0** | 0, 0 | 0, 0 | **0** |
+| class 1 + class 2 | 2.7·10⁻⁶⁶ | no (defects to 2.3·10⁻⁸) | **0** | **0** | 0, 0 | 0, 0 | **0** |
+| class 1 − class 2 | 7.5·10⁻⁶¹ | no (defects to 4.0·10⁻⁸) | **0** | **0** | 0, 0 | 0, 0 | **0** |
+
+Along every direction the deformed holonomy is **not self-dual** (the θ-odd deformations they were predicted to be), the three
+classes of the 27 at ρ₀ all die (h¹ = 0 for the 27 and for the 27̄), the cusp holonomy keeps **no fixed vector** in either —
+B1268's bound closes to 0 ≤ N ≤ 0 — and **N(27) = 0**, exactly as pre-registered: the classes are not cusp-trivial, the deformed
+cusp has no fixed vector, the count vanishes. (The 60-digit report's lines in `v10_direction_run.txt` — "h¹ = 2, h⁰(∂M) = 1,
+bound −1 ≤ N ≤ 0" — are the misread described above; `report_hp_run.txt` is the record of the ranks. The points are banked
+at 100 significant digits, more than the 10⁻⁶¹ … 10⁻⁶⁸ to which they are representations.)
 
 
 
 ## 5. What this settles
 
-*(pending stage 4)* The exact part already narrows the hole: the unpaired direction is not cusp-trivial, so if N ≠ 0 anywhere along it, it is because the deformed cusp holonomy retains a fixed vector — the fixed-vector locus of B1268 (b), not the generic point.
+**The hole in the pairing law is closed by computation.** B1280 proved N(27) ≡ 0 on the germ of every E₆ point of the cusped
+object's character variety where an isometry realises θ, and found exactly one direction where none does — the V₁₀ of the 42 at
+the subregular point. Along that direction (both classes, their sum and their difference) genuine E₆ representations exist (the
+classes are unobstructed to every order tested and Newton converges to 10⁻⁶¹ … 10⁻⁶⁸ once B1268's damping is lifted), they are
+**not self-dual** — the θ-odd deformations they were predicted to be — and at each of them **h¹(M; 27) = h¹(M; 27̄) = 0**, the cusp
+holonomy has **no fixed vector** in the 27 or the 27̄, and **N(27) = 0**. The mechanism is the one pre-registered: the V₁₀ classes are
+not cusp-trivial, the deformed cusp keeps no fixed vector, and B1268's bound −h⁰(∂M; 27) ≤ N ≤ h⁰(∂M; 27̄) closes to 0 ≤ N ≤ 0. So
+the θ-odd frame — the last frame in which the cusped object could have carried a net count of 27s — is closed on every sl₂ germ:
+main's 15 % prior for N ≠ 0 resolves to 0, L207(i) and main's L204 hole are done, and the chirality map's O1 row loses its one open
+direction. What remains for chirality on the object is what was outside this frame already: the higher-rank components (O2), the
+general theorem (O3), and the singular G₂ closing (O4), where chirality is a 7-dimensional index and not an h¹ of m004.
+
+**Three lessons banked with the result.** (i) B1268's Gauss–Newton damps by 10⁻²⁴·max G_ii; along a class whose corrections lie in
+directions of singular value ~ε that damping stalls the search at |res| ≈ 10⁻¹³ (§4a) and a cohomology report evaluated there is
+meaningless — the first run's "N = 0" lines were of that kind and are kept as a record of the failure mode. (ii) B1268's report
+transfers acb → mpmath at 70 digits and decides ranks at 10⁻³⁰; at points where genuine pivots reach 10⁻³⁹ this misreads
+h¹ and h⁰(∂M) and violates the torus Euler characteristic (§4e) — the consistency checks (Euler, duality) are what caught it, and
+they now travel with the re-reader. (iii) The exact obstruction calculus modulo primes (§4b, §4c) is the cheap, decisive
+complement to the numerics: it says where a Newton stall is geometry and where it is arithmetic.
 
 ## Controls (MB12)
 
@@ -94,6 +137,9 @@ along directions whose singular values at the first-order point are of order ε 
 - `verification/obstruction.py` (stage 5a/5b: the eight exact block cocycles, rank d¹, the second-order obstruction classes
   and the quadratic map on H¹; `obstruction_run.txt`); `verification/obstruction_higher.py` (stage 5c: formal
   integrability order by order; `obstruction_higher_run.txt`).
+- `verification/report_hp.py` (stage 4′: the converged points re-read at 2000 bits / 200-digit ranks with the torus
+  consistency checks; `report_hp_run.txt`; the points in `v10_direction_points.json`); the probes `probe_mu50.txt`
+  (converges), `probe_step02.txt` (crawls).
 - Lock `tests/test_b1350_the_v10_direction.py`: fast — stages 0 … 3 (multiplicities, the point, the two classes and
   their cusp restriction, trace-flatness); slow — stage 4.
 - Depends on B1280 (the criterion and the hole), B1268 (the bound and the machinery), B1267 (the instrument), main's
