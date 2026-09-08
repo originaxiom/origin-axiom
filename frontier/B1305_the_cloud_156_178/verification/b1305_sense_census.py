@@ -12,12 +12,18 @@ CASES = [("logarithmic", r"\bCFT\b|\bVOA\b|Virasoro|vertex algebra|primary field
          ("non-rational", r"\bCFT\b|\bVOA\b|vertex algebra", None),
          ("resurgence", r"Borel|Stokes|transseries", None),
          ("Chern-Simons", r"\bCS\b|level|action|invariant", "pos")]
+META_EXCLUDE = ("frontier/B1305_", "docs/HARVEST_LEDGER.md", "docs/CAMPAIGN_STATUS.md", "docs/RELAY_LEDGER.md", "docs/FRESH_EYES_")
+EXCLUDE = False
 def prose(root):
     out = []
     for base in ("frontier", "docs", "papers"):
         for dp, dns, fns in os.walk(os.path.join(root, base)):
             dns[:] = sorted(d for d in dns if d not in ("outside_bench", ".git", "__pycache__"))
-            out += [os.path.join(dp, f) for f in sorted(fns) if f.endswith((".md", ".tex"))]
+            for f in sorted(fns):
+                if not f.endswith((".md", ".tex")): continue
+                p = os.path.join(dp, f); rel = os.path.relpath(p, root)
+                if EXCLUDE and any(rel.startswith(m) for m in META_EXCLUDE): continue   # the surfaces that quote seats ABOUT gaps
+                out.append(p)
     return out
 def census(root, cases=CASES):
     files = prose(root)
@@ -53,8 +59,8 @@ def planted(root):
                    and c["technical"] == base["technical"] and c["occurrences"] == base["occurrences"] + 1))
     shutil.rmtree(tmp); return out
 if __name__ == "__main__":
-    root = sys.argv[1]; res = census(root); okp, okn = two_sided(res)
-    print(f"tree {root}: {res['files']} prose files, {res['mb']} MB (outside_bench excluded)")
+    root = sys.argv[1]; EXCLUDE = "--exclude" in sys.argv; res = census(root); okp, okn = two_sided(res)
+    print(f"tree {root}: {res['files']} prose files, {res['mb']} MB (outside_bench excluded{', meta-surfaces excluded' if EXCLUDE else ''})")
     for term, v in res["terms"].items():
         print(f"  {term:<16}{v['occurrences']:>8}{v['technical']:>8} ({v['frac']*100:5.1f}%)  {v['verdict']}" + (f"   [{v['kind']}]" if v["kind"] else ""))
     print(f"  CONTROL + (Chern-Simons genuine): {'PASS' if okp else 'FAIL'};  CONTROL - (logarithmic, non-semisimple false comfort): {'PASS' if okn else 'FAIL'};  TWO-SIDED: {'PASSED' if okp and okn else 'FAILED'}")
@@ -62,4 +68,4 @@ if __name__ == "__main__":
     if "--planted" in sys.argv:
         pl = planted(root); out["planted"] = pl
         print(f"  PLANTED CONTROLS: +1 technical with marker: {pl['technical_marker']['technical'] - pl['base']['technical']}; no marker: +{pl['no_marker']['technical'] - pl['base']['technical']}; marker outside window: +{pl['marker_outside_window']['technical'] - pl['base']['technical']}  -> {'PASS' if pl['ok'] else 'FAIL'}")
-    tag = os.path.basename(os.path.normpath(root)); json.dump(out, open(f"b1305_sense_census_{tag}.json", "w"), indent=1)
+    tag = os.path.basename(os.path.normpath(root)) + ("_excluded" if EXCLUDE else ""); json.dump(out, open(f"b1305_sense_census_{tag}.json", "w"), indent=1)

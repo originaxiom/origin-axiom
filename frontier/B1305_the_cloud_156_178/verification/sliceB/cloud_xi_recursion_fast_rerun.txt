@@ -1,0 +1,42 @@
+   (172) transcription checked against the printed q=1 limits: ok
+   divisor structure confirmed: (A0,B0,C0,D0) = (0, -Q, 1, 0)
+
+XI_k FROM THE RECURSION
+==============================================================================
+   Xi_1: q^0 .. q^0  sum=1 (F(1)=1 ok)  [published: MATCH]
+        [1]
+   Xi_2: q^0 .. q^0  sum=2 (F(3)=2 ok)  [published: MATCH]
+        [2]
+   Xi_3: q^-1 .. q^1  sum=5 (F(5)=5 ok)  [published: MATCH]
+        [1, 3, 1]
+   Xi_4: q^-2 .. q^2  sum=13 (F(7)=13 ok)  [published: MATCH]
+        [2, 2, 5, 2, 2]
+   Xi_5: q^-4 .. q^4  sum=34 (F(9)=34 ok)
+        [1, 3, 4, 5, 8, 5, 4, 3, 1]
+   Xi_6: q^-6 .. q^6  sum=89 (F(11)=89 ok)
+        [2, 2, 6, 7, 10, 10, 15, 10, 10, 7, 6, 2, 2]
+   Xi_7: q^-9 .. q^9  sum=233 (F(13)=233 ok)
+   Xi_8: q^-12 .. q^12  sum=610 (F(15)=610 ok)
+   Xi_9: q^-16 .. q^16  sum=1597 (F(17)=1597 ok)
+
+   C1 four published blocks : PASSED
+   C2 Fibonacci sums k<=26  : PASSED
+   widths  : [1, 1, 3, 5, 9, 13, 19, 25, 33, 41, 51, 61]
+   (k-1)^2/4 floor*2+1: [1, 1, 3, 5, 9, 13, 19, 25, 33, 41, 51, 61]
+
+==============================================================================
+Zhat_0(S^3_{-1/2}(4_1))
+==============================================================================
+   blocks 1..26 computed; series exact up to q^1208
+   C3 eq (13)'s ten coefficients, and no spurious term in q^0..q^16: PASSED
+
+   THE BLOCK-4 PREDICTION (memo 175 addendum 2, made with no data behind it):
+     block 4 = [2,2,5,2,2] centred at 21 -> q^19..q^23, negated centred 28 -> q^26..q^30
+     q^19..q^23 = [2, 2, 5, 2, 2]   CONFIRMED
+     q^26..q^30 = [-2, -2, -5, -2, -2]   CONFIRMED
+     nothing at q^17, q^18 : True
+
+   +1q^0 -1q^1 +2q^3 -2q^6 +1q^9 +3q^10 +1q^11 -1q^14 -3q^15 -1q^16 +2q^19 +2q^20 +5q^21 +2q^22 +2q^23 -2q^26 -2q^27 -5q^28 -2q^29 -2q^30 +1q^32 +3q^33 +4q^34 +5q^35 +8q^36 +5q^37 +4q^38 +3q^39 +1q^40 -1q^41 -3q^42 -4q^43 -5q^44 -8q^45 -5q^46 -4q^47 -3q^48 +1q^49 +2q^50 +6q^51 +7q^52 +10q^53 +10q^54 +15q^55 +10q^56 +10q^57 +7q^58 +6q^59 -6q^62 -7q^63 -10q^64 -10q^65 -15q^66 -10q^67 -10q^68 -6q^69 -3q^70 +2q^71 +5q^72 +11q^73 +15q^74 +18q^75 +21q^76 +23q^77 +27q^78 +23q^79 +21q^80
+
+   series written to /tmp/zhat41_series.json  (q^0 .. q^1208)
+RC=0

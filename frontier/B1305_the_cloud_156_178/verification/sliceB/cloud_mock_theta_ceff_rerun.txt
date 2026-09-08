@@ -1,0 +1,5 @@
+control: chi_0 first terms [1, 1, 1, 2, 1, 3, 2, 3, 3, 5, 3, 6]  (Gukov-Jagadale eq (33): sum q^n/(q^{n+1})_n)
+control: F_0   first terms [1, 1, 0, 1, 1, 1, 0, 2, 1, 2, 1, 2, 1, 3]  (their eq (54); GM eq (175))
+   chi_0  Sigma(2,3,5)  fitted c_eff = 0.1999996   target 1/5 = 0.2000000   ratio 1.00000   B=-0.4999
+   F_0    Sigma(2,3,7)  fitted c_eff = 0.1428569   target 1/7 = 0.1428571   ratio 1.00000   B=-0.5000
+RC=0

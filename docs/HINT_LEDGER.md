@@ -769,3 +769,15 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 - H-B1305-THREE-KLEIN (type CAUTION, memo 170 §6(c), checked): main's B1276 joins B1174's legs with B730's faces (V₄ = Gal(ℚ(√−3, √5)/ℚ),
   subfields √−3, √5, √−15); B1182 joins its frame ⟨c, r⟩ with Gal(ℚ(ζ₁₂)/ℚ) (subfields √−3, √3, √−1). The two V₄s share only ℚ(√−3) and
   no main surface identifies them (scan: three sentences carry both tokens, none asserts equality). Keep it so. (B1305)
+- H-B1305-CENTRE-NOT-EDGE (type CORRECTION-OF-FRAMING, this bench on the cloud's relay): in Gukov–Manolescu's F_K the mirror-odd quantity is
+  the CENTRE of a block's exponent range, (c_low + c_high)/2, not their constant c (the lowest edge): the figure-eight's blocks are
+  palindromic for all k ≤ 20 (c_low = −1/16, c_high = +1/16, centre 0 — as B1227 requires), the torus knots' blocks are monomials (centre = c
+  = ±1/24). Chirality is the centre; growth (c_edge, the c_eff ceiling, the surgery window) is the mirror-even width. (B1305 B)
+- H-B1305-FOURTH-REGIME (type SYNTHESIS, the cloud's mechanism + this bench's reading): the ends of the colored Jones polynomial are swapped by
+  the mirror, so their ratio R is a mirror-odd invariant in the group of formal q-series with constant term 1, which is torsion-free: an
+  amphichiral knot has R = 1. R(4₁) = 1, R(3₁) = 1/(q;q)_∞ (the partition numbers), computed by two independent formulas. The fourth face reads
+  "2 or nothing" for the same reason as the other three. What none of the four faces has produced is a COUNT. (B1305 B)
+- H-B1305-META-2 (type PROCESS, this bench): the sense census failed its negative control a second time, after a meta-exclusion list, because
+  slice A's own hint row and the generated views now say "logarithmic CFT". An instrument whose control term names a gap cannot be
+  documented in the tree it scans without defeating itself; the third pre-registration (B1307) must exclude every file that names the
+  instrument, or evaluate the control on a fixed pre-instrument commit. (B1305 B)

@@ -1,0 +1,90 @@
+{
+ "root": "origin-axiom",
+ "census": {
+  "files": 2580,
+  "mb": 17.8,
+  "terms": {
+   "logarithmic": {
+    "occurrences": 11,
+    "technical": 3,
+    "frac": 0.2727,
+    "verdict": "genuine",
+    "kind": "neg"
+   },
+   "non-semisimple": {
+    "occurrences": 18,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": "neg"
+   },
+   "character": {
+    "occurrences": 3665,
+    "technical": 13,
+    "frac": 0.0035,
+    "verdict": "FALSE COMFORT",
+    "kind": null
+   },
+   "modular": {
+    "occurrences": 928,
+    "technical": 57,
+    "frac": 0.0614,
+    "verdict": "thin",
+    "kind": null
+   },
+   "non-rational": {
+    "occurrences": 7,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": null
+   },
+   "resurgence": {
+    "occurrences": 71,
+    "technical": 12,
+    "frac": 0.169,
+    "verdict": "genuine",
+    "kind": null
+   },
+   "Chern-Simons": {
+    "occurrences": 87,
+    "technical": 41,
+    "frac": 0.4713,
+    "verdict": "genuine",
+    "kind": "pos"
+   }
+  }
+ },
+ "two_sided": false,
+ "planted": {
+  "base": {
+   "occurrences": 4,
+   "technical": 3,
+   "frac": 0.75,
+   "verdict": "genuine",
+   "kind": "neg"
+  },
+  "technical_marker": {
+   "occurrences": 5,
+   "technical": 4,
+   "frac": 0.8,
+   "verdict": "genuine",
+   "kind": "neg"
+  },
+  "no_marker": {
+   "occurrences": 5,
+   "technical": 3,
+   "frac": 0.6,
+   "verdict": "genuine",
+   "kind": "neg"
+  },
+  "marker_outside_window": {
+   "occurrences": 5,
+   "technical": 3,
+   "frac": 0.6,
+   "verdict": "genuine",
+   "kind": "neg"
+  },
+  "ok": true
+ }
+}

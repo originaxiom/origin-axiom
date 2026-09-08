@@ -45,3 +45,29 @@ def test_the_cloud_receipts_are_present():
     for f in ("cloud_memo172_sense_census_rerun_cloudtree.txt", "cloud_memo170_six_cusp_reachability_rerun.txt", "cloud_memo170_partial_filling_strict_rerun.txt", "cloud_memo170_partial_filling_repro_rerun.txt"):
         assert (VER / f).read_text(encoding="utf-8", errors="replace").rstrip().endswith("RC=0"), f
     assert "TWO-SIDED CONTROL: PASSED" in (VER / "cloud_memo172_sense_census_rerun_cloudtree.txt").read_text()
+
+
+# ---------------- slice B ----------------
+SB = VER / "sliceB"
+
+
+def test_slice_b_design_is_sealed():
+    h = hashlib.sha256((ARC / "DESIGN_B.md").read_bytes()).hexdigest()
+    assert f"{h}  DESIGN_B.md" in (ARC / "DESIGN_B.sha256").read_text(encoding="utf-8")
+
+
+def test_the_two_ends_and_the_ratio_reproduce_by_RUNNING(tmp_path):
+    r = subprocess.run([sys.executable, str(SB / "b1305_ends.py")], capture_output=True, text=True, cwd=str(tmp_path), timeout=900)
+    assert r.returncode == 0, r.stdout[-2000:] + r.stderr[-2000:]
+    assert "the R-matrix route and the Habiro route agree exactly at n = 3 and n = 4" in r.stdout and "R(4_1) = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]" in r.stdout
+    assert "R(3_1) = [1, 1, 2, 3, 5, 7, 11, 15, 22, 30, 42, 56]" in r.stdout and r.stdout.rstrip().endswith("Q1: PASS")
+
+
+def test_the_blocks_growth_rates_and_census_are_pinned_from_their_runs():
+    b = json.loads((SB / "b1305_blocks.json").read_text(encoding="utf-8")); assert b["ok"] and b["N"] == 20 and all(r["palindromic"] and r["lo"] == -r["expected"] and r["hi"] == r["expected"] for r in b["rows"])
+    m = json.loads((SB / "b1305_mock_theta.json").read_text(encoding="utf-8")); assert m["fails"] == [] and abs(m["F0"]["c_eff"] - 1 / 7) < 5e-4 and abs(m["chi0"]["c_eff"] - 0.2) < 5e-4
+    assert m["F0_first"] == [1, 1, 0, 1, 1, 1, 0, 2, 1, 2, 1, 2, 1, 3]
+    c = json.loads((SB / "b1305_sense_census_origin-axiom_excluded.json").read_text(encoding="utf-8")); assert c["two_sided"] is False   # the pre-registered second FAIL, pinned
+    for f in ("cloud_trefoil_ends_rerun.txt", "cloud_table10_control_rerun.txt", "cloud_mock_theta_ceff_rerun.txt", "cloud_ceff_scaling_law_rerun.txt", "cloud_xi_recursion_fast_rerun.txt", "cloud_torus_arm_rerun.txt"):
+        assert (SB / f).read_text(encoding="utf-8", errors="replace").rstrip().endswith("RC=0"), f
+    assert (SB / "cloud_park_52_blocks_rerun.txt").read_text(encoding="utf-8", errors="replace").rstrip().endswith("RC=1")   # the seat's scratch dependency, recorded as such
