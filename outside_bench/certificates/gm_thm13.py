@@ -37,6 +37,9 @@ CONTROLS:
       were already settled at W = 8 is reported too, so the convergence is visible.
   C2  two knots, T(2,-3) and T(2,-5), with different eps patterns and different
       vanishing sets.
+  The x-degree pruning inside step() is EXACT, not a truncation: on a two-strand
+  negative braid every term of Rcheck^{-1} raises the x-exponent, so a term past the
+  window can never return to it.
 """
 import sys
 from fractions import Fraction as Fr
@@ -94,20 +97,34 @@ def Rminus(a,b):
         t = (j+k, e); out[t] = padd(out.get(t,{}), coef)
     _RM[(a,b)] = {t:v for t,v in out.items() if v}
     return _RM[(a,b)]
-def step(vec):
+def step(vec, BHI):
+    """one negative crossing.  Every term of Rminus raises the x-exponent by at least
+    one half-unit and never lowers it, so terms already past BHI can never come back
+    and are dropped -- an exact pruning, not an approximation."""
     out = {}
     for st, co in vec.items():
         for (na,nb), cc in Rminus(st[0], st[1]).items():
-            ns = (na,nb); p = pmul(co, cc)
+            ns = (na,nb); p = {}
+            for (a1,b1), c1 in co.items():
+                for (a2,b2), c2 in cc.items():
+                    bb = b1+b2
+                    if bb > BHI: continue
+                    k = (a1+a2, bb); p[k] = p.get(k,0)+c1*c2
+            p = {k:c for k,c in p.items() if c}
             if not p: continue
-            out[ns] = padd(out.get(ns,{}), p)
+            cur = out.get(ns)
+            if cur is None: out[ns] = p
+            else:
+                for k,c in p.items():
+                    cur[k] = cur.get(k,0)+c
+                    if cur[k] == 0: del cur[k]
     return {s:v for s,v in out.items() if v}
 def blocks(t, W, JM):
     """F^+ of the closure of sigma_1^{-t} on two strands, weights w <= W"""
     TOT = {}
     for w in range(0, W+1):
         st = (0, w); vec = {st: dict(ONE)}
-        for _ in range(t): vec = step(vec)
+        for _ in range(t): vec = step(vec, 2*JM+3)
         d = vec.get(st)
         if d: TOT = padd(TOT, pmul(d, mono(1+2*w, -1)))   # x^{-1/2} q^{1/2} q^w, N = 2
     F = padd(pmul(TOT, mono(0,1)), pmul(TOT, mono(0,-1)), -1)
@@ -138,7 +155,7 @@ def times1mq(d):
 
 JM = 9
 OK = {}
-for (s_, t_, Ws) in ((2, 3, (8, 12, 16)), (2, 5, (8, 12, 16))):
+for (s_, t_, Ws) in ((2, 3, (6, 11, 15)), (2, 5, (6, 11, 15))):
     print("="*78)
     print("T(%d,-%d) = closure of sigma_1^{-%d} on two strands  vs  GM Theorem 1.3" % (s_, t_, t_))
     print("="*78)

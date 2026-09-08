@@ -84,3 +84,68 @@ them. It bought:
 * Nothing in memos 174–178's *computations* changes. This memo changes what one of them is
   allowed to conclude from someone else's expectation.
 * Gate 5 untouched.
+
+---
+
+# ADDENDUM 1 (2026-09-08, same day) — **THM 1.3 IS NOW VERIFIED. The ledger's one ⚠️ closes, and a ✅ elsewhere needs a footnote**
+
+**Certificate** `certificates/gm_thm13.py` · **Output** `outputs/gm_thm13_out.txt`
+
+## 1. The row that was open
+
+```
+| Thm 1.3 -- F_K for torus knots | memo 177 add. 2's torus arm |
+     NOT independently verified.  Now checkable with memo 179's calculator; not yet done |
+```
+
+§5 listed it first among what remained. It is done, and not with memo 179's calculator — with a
+better instrument that did not exist when the ledger was written: **Park's large color `R`-matrix
+on the lowest weight Verma module**, built in memo 183 addendum 1 and controlled there against
+every block Park prints for `m(5₂)`. So the check is against a **different paper's machine**, and
+neither theorem is used to derive the other.
+
+The negative torus knot `T(2,−t)` is the closure of `σ₁^{−t}` on two strands, which is exactly
+where Park's construction is at its safest.
+
+| | `T(2,−3)` | `T(2,−5)` |
+|---|---|---|
+| `f_0` | `−q^{−1}` | `0` |
+| `f_1` | `0` | `−q^{−2}` |
+| `f_2` | `+q^{−2}` | `0` |
+| `f_3` | `+q^{−3}` | `+q^{−3}` |
+| `f_4` | `0` | `0` |
+| `f_5` | `−q^{−6}` | `0` |
+| `f_6` | `−q^{−8}` | `+q^{−6}` |
+| `f_7` | `0` | `0` |
+| `f_8` | `+q^{−13}` | `−q^{−9}` |
+| `f_9` | `+q^{−16}` | `0` |
+
+> ### Every one of these is **exactly** GM eq (2)–(3), with no normalisation factor:
+> the sign `ε_m`, the exponent `(s−1)(t−1)/2 + (m² − (st−s−t)²)/(4st)` (negated for the mirror,
+> GM p.5), and the whole **vanishing pattern** — `ε_m = 0` gives exactly `0`, at `j = 1,4,7` for
+> `T(2,−3)` and `j = 0,2,4,5,7,9` for `T(2,−5)`, which is six of ten blocks on a knot the
+> instrument knows nothing about.
+
+Two knots, two different `ε` patterns, two different vanishing sets. **Thm 1.3 is verified.**
+
+## 2. What this does to memo 177 addendum 2's torus arm
+
+Addendum 2 concluded *"torus knots give `c_eff = 0`, exactly, at every slope"* because Thm 1.3
+makes every block a single monomial, so there is no widening edge. **That premise is now checked
+rather than taken.** The arm stands on verified ground.
+
+## 3. A footnote the ledger's last line now needs
+
+§1 ended: *"the verification found **no error in GM**."* That is still true, and this addendum
+strengthens it — twelve of thirteen rows now checked, and the paper passes everywhere. But it sat
+next to an implicit reading that the three papers were all sound. **Memo 183 found an error in
+one of them** — Park arXiv:2004.02087v2 eq (32) — so the sentence should be read as scoped to GM,
+which is how it was written and how it remains true.
+
+## 4. What is still not verified
+
+The ledger's other non-✅ row is unchanged and unchangeable here: **Thm 1.4 / page 6**, the claim
+that the `F_K`↔stability relation is *"specific to negative torus knots"*. It is an expectation in
+the paper's own voice, not a theorem with a proof this bench can run, and register rule R80-1
+says an author's stated expectation is evidence about what was known when it was written and
+never about what is true. It stays ❌.
