@@ -1,4 +1,9 @@
-# MEMO 175 — THE HYPERBOLIC CASE MEASURED: `c_eff` IS SET BY THE GOLDEN RATIO, AND IT IS NOT 6
+# MEMO 175 — THE HYPERBOLIC CASE: `c_eff` IS SET BY THE GOLDEN RATIO, AND IT IS NOT 6
+
+> ## ✅ **NOW DERIVED, AND THE VALUE IS CORRECTED — see ADDENDUM 2 (2026-09-08).**
+> The decomposition below is **no longer a fit**: it follows from Thm 1.2 + eq (1) + §6.8's Spin^c
+> convention. **`c_eff = 3(log φ)²/π² = 0.070387265`**, superseding the `4(log φ)²/π² = 0.0938` quoted
+> in §2, which came from a mis-anchored (left-edge) reading. **§3–§4's conclusions are unchanged.**
 
 **Banked 2026-09-08 · outside bench (lane 1B).** Certificate `certificates/hyperbolic_ceff.py`.
 Source: Gukov–Manolescu **arXiv:1904.06057v2** eq (11), (13), owner-supplied, read on-bench.
@@ -123,3 +128,41 @@ derivation, **not patched to fit.**
 constant would shift to `4(log φ)²/π² · (3/4)`, i.e. `≈ 0.0704`. **Both are of order 0.1 and neither is
 6**, so §3's conclusion is unaffected — but **the specific value 0.0938 is only as good as the fitted
 positions, and should be quoted with that attached.**
+
+---
+
+## ADDENDUM 2 (2026-09-08) — THE DECOMPOSITION IS DERIVED, AND MY "REFUTED" GUESS WAS RIGHT
+
+Addendum 1 reported the derivation as **failed** — predicting block centres `0, 3, 10, 21` against a
+fitted `0, 3, 9, 18`, diverging at `k = 3`. **The derivation was right and the fit was mis-anchored.**
+
+**§6.8 supplies the missing convention:** Spin^c labels are `a ∈ ℤ + (r+1)/2 (mod pℤ)`. For `r = 2`
+that is **half-integral**, so `a ≡ 1/2 (mod 1)` and the selection rule `2u − a ∈ ℤ` forces
+`u ∈ ℤ/2 + 1/4` — **exactly what `(x^{1/4} − x^{−1/4})·x^{k−1/2}` produces.** Taking `a = 0`, as I did,
+kills every term. That was the whole error.
+
+**And `Ξ_k` is a Laurent polynomial in `q`, so it SPREADS about its centre.** My `s_k = 3k(k−1)/2`
+measured each block's **left edge**; the derivation gives its **centre**. `9` vs `10` was the left edge
+versus the centre of a width-3 block. **Not a discrepancy.**
+
+> ### `C_k = (2k−1)(k−1) = 0, 3, 10, 21, 36, 55`,  negative copy at `C_k + (2k−1)`
+
+**All ten published coefficients of eq (13) are reproduced from the derivation** —
+`certificates/hyperbolic_derived.py`. **Nothing is fitted.**
+
+**Prediction, still untested:** block 4 = `[2,2,5,2,2]` centred at **21** (`q¹⁹…q²³`), negated centred
+at **28** (`q²⁶…q³⁰`).
+
+### The corrected growth
+
+Mass `F(2k−1) ~ φ^{2k}/√5` at `C_k ~ 2k²`, so `k ~ √(n/2)` and `log|a_n| ~ √2·log φ·√n`:
+
+> # **`c_eff = 3(log φ)²/π² = 0.070387265`**
+
+**This supersedes `4(log φ)²/π² = 0.0938`.** Ironically it is the value addendum 1 named as the
+*refuted alternative* — the refutation was of the wrong anchoring, not of the derivation.
+
+**Target `c((E₆)₁) = 6`. Ratio: 85×.** §3's structural conclusion — golden-ratio-determined, no sign
+of rationality, so not a rational CFT's character and `(E₆)₁` cannot be what it attaches to — **is
+unchanged and now rests on a derivation rather than a fit.**
+

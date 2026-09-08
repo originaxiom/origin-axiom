@@ -1,0 +1,43 @@
+DERIVED PLACEMENT
+   k=1:  centre    0   negative centre    1   separation 1 = 2k-1
+   k=2:  centre    3   negative centre    6   separation 3 = 2k-1
+   k=3:  centre   10   negative centre   15   separation 5 = 2k-1
+   k=4:  centre   21   negative centre   28   separation 7 = 2k-1
+   k=5:  centre   36   negative centre   45   separation 9 = 2k-1
+   k=6:  centre   55   negative centre   66   separation 11 = 2k-1
+   k=7:  centre   78   negative centre   91   separation 13 = 2k-1
+
+   C_k = (2k-1)(k-1) = [0, 3, 10, 21, 36, 55, 78]
+
+VERIFICATION against the ten published coefficients of eq (13)
+   q^0   published   1   derived   1   ok
+   q^1   published  -1   derived  -1   ok
+   q^3   published   2   derived   2   ok
+   q^6   published  -2   derived  -2   ok
+   q^9   published   1   derived   1   ok
+   q^10  published   3   derived   3   ok
+   q^11  published   1   derived   1   ok
+   q^14  published  -1   derived  -1   ok
+   q^15  published  -3   derived  -3   ok
+   q^16  published  -1   derived  -1   ok
+
+   ALL TEN REPRODUCED FROM THE DERIVATION: True
+   (the earlier 'fit' s_k = 3k(k-1)/2 measured each block's LEFT EDGE;
+    the derivation gives its CENTRE -- 9 vs 10 was edge vs centre of a width-3 block)
+
+   PREDICTION, no data behind it: block 4 = [2, 2, 5, 2, 2] centred at 21 (q^19..q^23),
+   negated centred at 28 (q^26..q^30).
+
+======================================================================
+GROWTH, from the DERIVED positions
+======================================================================
+   block k: mass F(2k-1) ~ phi^{2k}/sqrt5  at  C_k = (2k-1)(k-1) ~ 2k^2
+   n ~ 2k^2  =>  k ~ sqrt(n/2)  =>  log|a_n| ~ sqrt(2) log(phi) sqrt(n)
+   Cardy  log a_n ~ 2 pi sqrt(c_eff n/6)  gives
+
+      c_eff = 3 (log phi)^2 / pi^2 = 0.070387265
+
+   SUPERSEDES memo 175's 4(log phi)^2/pi^2 = 0.093849687,
+   which came from the mis-anchored (left-edge) fit.
+
+   target c((E6)_1) = 6.   Ratio: 85.2x.
