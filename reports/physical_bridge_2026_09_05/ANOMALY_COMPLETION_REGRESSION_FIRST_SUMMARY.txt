@@ -1,0 +1,36 @@
+R21 first broad regression: reconstructed summary, NOT byte-faithful raw stdout.
+2026-09-08. Sealed scientific tree 6a08d343.
+39 files: the 38-file R20 list plus test_physical_bridge_anomaly_completion.py.
+Exit 1: 13 failed, 262 passed, 1 warning, 8 errors in 230.58 s.
+The terminal output was observed in the preceding turn. Its in-memory
+capture did not survive continuation, and the process handle 49264 is
+now missing. Do not label a subsequent run as this first run. Native
+JSON and focused test artifacts had already been written and survived.
+
+The failed/error IDs below were transcribed from that visible terminal
+summary and compared with the committed R20 summary: zero added,
+zero missing, 21 identical IDs. This is evidence for the failure-set
+comparison, not a recovered full traceback. A separate expanded action
+control and regression will have their own complete capture.
+
+FAILED tests/test_physical_bridge_charged_domain.py::test_all_eight_exact_hyperbolic_zero_branches
+FAILED tests/test_physical_bridge_charged_domain.py::test_nonzero_green_form_and_distinct_complex_domains
+FAILED tests/test_physical_bridge_charged_domain.py::test_independent_quadrature_and_actual_hyperbolic_measure
+FAILED tests/test_physical_bridge_charged_domain.py::test_general_zero_and_top_solutions_and_cusp_separation
+FAILED tests/test_physical_bridge_g2_isolation.py::test_upstream_element_test_can_pass_without_testing_the_inference
+FAILED tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance
+FAILED tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_complete_numerical_geometry_control_and_two_cusp_descent
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_sixfold_and_full_scalar_invariance_force_trivial_character
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_every_scalar_lift_of_pair_free_character_has_central_obstruction
+ERROR tests/test_physical_bridge_family_action.py::test_lattice_integrality_and_a_corrupt_root_are_checked
+ERROR tests/test_physical_bridge_family_action.py::test_marked_map_verifies_all_products_and_rejects_bad_assignment
+ERROR tests/test_physical_bridge_family_action.py::test_root_space_actions_are_not_identified_from_orbit_counts
+ERROR tests/test_physical_bridge_family_action.py::test_commuting_split_reconstructs_literal_action_exactly
+ERROR tests/test_physical_bridge_family_action.py::test_six_classes_have_the_same_cycles_but_distinct_internal_actions
+ERROR tests/test_physical_bridge_family_action.py::test_map_is_equivariant_and_orientation_is_not_silently_fixed
+ERROR tests/test_physical_bridge_family_action.py::test_family_lift_has_order_three_and_lie_centralizer_control
+ERROR tests/test_physical_bridge_family_action.py::test_exact_arithmetic_and_input_provenance_are_retained
