@@ -1,0 +1,13 @@
+R20 mechanical pre-execution receipt, 2026-09-08
+Starting scientific tree: report commit 5952328d plus staged R20 files.
+No R20 science or tests have executed; compile-only syntax checks pass.
+New design literal BANKED IDENTITY and PRIOR ART fields were found.
+Authored staged whitespace check: exit 0.
+Latest-per-path artifact verification: 226 entries, all match, exit 0.
+
+seal-digests (True, 'ok (49 sealed digests recomputed and matching)')
+global seal-provenance (False, ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md'])
+
+The global provenance failure is older declared debt, not waived and
+not a failure of the new design. This is a path-local research seal,
+not full main-banking compliance or independent receiving-seat review.
