@@ -719,3 +719,10 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 - H-B1298-NAME (type IDENTITY, checked): B353's "hyperelliptic cocycle action" is the meridian-reversing strong inversion S
   (f = −1 on H₁), not the period-2 P (f = +1): P is invisible on the flat germ and −1 on the descent's torsion (B1297) — the
   two order-2 isometries act on different faces of the object. (B1298)
+- H-B1299-K (type LAW-SHAPED, seat's, verified): on W1/W2 the peripheral pair satisfies λ = μ^{±3} exactly (B71's c = 1),
+  so cusp-fixed vectors exist only where μ has a cube-root-of-unity eigenvalue — and that curve K is the branch locus of the
+  trace coordinates, where the representation equals its dual pulled back by the period-2 isometry. The same isometry that is
+  charge conjugation on the descent's twists (B1297) is charge conjugation on the SL(3) components' branch locus. (B1299)
+- H-B1299-HOLE (type WITNESS, exact): the symmetry pairing of the θ-odd germ fails at the subregular point on exactly one
+  direction (the V₁₀ of the 42). Every other flat-sector direction on the object is paired. L204 is the whole remaining
+  flat-sector chirality question on m004 itself. (B1299)

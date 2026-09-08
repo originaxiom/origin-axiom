@@ -1,0 +1,20 @@
+{
+ "id": "B1299",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1298",
+  "B1297",
+  "B1267",
+  "B1256",
+  "B71",
+  "B102",
+  "B1268"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE PERIOD-2 DUALITY, VERIFIED, AND ITS ONE HOLE (MASTERPLAN v3.1 Phase 1, second harvest arc; DESIGN sealed 71b6ed8f). sm:B1280 Theorem 1 VERIFIED on main's own W1/W2 points (B71's parametrisation, B1267's grid, realisations polished to 5e-10 at all but one point): [A,B] = mu^3 on W1 and [A,B] mu^3 = 1 on W2 with |c - 1| <= 1.6e-13 at 50 points, the transpose-sheet identity tr[A^T,B^T] = tr[B,A] to 2e-14, and with the B1297 engine on the fibred presentation a1 = 0, t0 = 0, I = 0 at every generic point -- cusp-fixed vectors exist only on the curve K = {mu has an eigenvalue in mu_3}, the branch locus of the trace coordinates, where the second sheet is the dual pulled back by the period-2 isometry, so h^1(V) = h^1(V*) on every cusped cyclic cover; the seat's K-locus probe re-run here (N = 0 for all (zeta, n)). Main's B1267 'rigid, no modes' scoped at source: true off K, false on K (h^1 = 1), index still 0 (sm:B1281 refinement 1, applied). THE HOLE, EXACT: at the subregular sl2 point (labels (2,2,2,0,2,2); e6 = V2 V4 V6 V8 V10 V10 V14 V16, 27 = 13+9+5) the outer involution fixes sp(8) = V2 V6 V10 V14 and negates the 42 = V4 V8 V10 V16, while the inversion acts by B1298's exact (-1)^(k/2+1): seven of eight tangent directions agree and exactly one does not -- the V10 of the 42 -- sm:B1280's L207 verified and registered on main as L204 (the subregular E6 local system's H^1 with 27 coefficients along that direction, priced ~a day, prior 15%). Two honest notes: the first Q1 run tested zero points (mistyped relators) and printed PASS on an empty set -- caught by a non-vacuity assertion (E67 shape); the script's extra non-scalar criterion is numerical consistency, not the DESIGN's (unpolished 1.9e-8 kept on record, polished 3.2e-9 tracking the relator residual 1e-9). HARVEST_LEDGER rows 8-10; hints H-B1299-K, H-B1299-HOLE. The masterplan head stands: every flat-sector direction on m004 is symmetry-paired except one, now named."
+}

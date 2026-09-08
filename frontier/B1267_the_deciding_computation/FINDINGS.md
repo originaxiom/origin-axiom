@@ -76,3 +76,7 @@ decisive.
 - **Feeds on:** B1260 (the named computation), B102 (W1/W2), B71 (realize/monodromy), B1256's addendum
   (the control table), B1086 (the closed-side spectrum law).
 - **Registers:** no status change; **closes the route B1260 named**, and sharpens **I-26**'s price.
+
+---
+
+

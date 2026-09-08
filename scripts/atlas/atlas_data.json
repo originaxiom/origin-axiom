@@ -6727,6 +6727,31 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1299": {
+   "slug": "the period 2 duality",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B71",
+    "L204",
+    "L207"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B129": {
    "slug": "sl3 tower sealed",
    "motifs": [
