@@ -389,3 +389,57 @@ approaches `2π√(σ/6)` as the `c_edge = 1` edge requires, and no value on the
 `Vol`, `Vol/π`, `Vol/2π`, `Vol/4π` or `Vol/6`. **The hyperbolic volume is not visible in this
 structure.** Searched and not found is worth recording; the object's own central constant does
 not enter its boundary `c_eff`.
+
+---
+
+# ADDENDUM 3 (2026-09-08, same day) — the law confirmed to six figures on 280 399 coefficients, and a rationality split
+
+Extending the generator to `k = 400` puts the horizon at `q^119999` (`p/r = −1`) and `q^280399`
+(`p/r = −1/2`) and makes the three-parameter fit stable across fit windows.
+
+| slope | window ½ | window ¾ | window 0.9 | `B` | **the law of §3** | memo 176's formula |
+|---|---|---|---|---|---|---|
+| `−1` | 0.1428571 | 0.1428571 | 0.1428561 | −0.5000 | 0.1428571 | 0.1407745 (**+1.48 %**) |
+| `−1/2` | **0.0706417** | 0.0706416 | 0.0706406 | −0.5000 | **0.0706416** | 0.0703873 (**+0.36 %**) |
+
+> **At `p/r = −1/2` the law and the measurement agree to six significant figures**
+> (`0.0706416` vs `0.0706417`), on a measurement that is now stable to about `10⁻⁶` relative.
+> Memo 176's formula sits **3 500 times** further away than that. §3's "within 0.2 %" was the
+> `k = 150` figure; the true agreement is `2 × 10⁻⁶`.
+
+`B = −0.5000` at both slopes, to four decimals, across every window — the `√n` form of the
+ansatz is not being strained.
+
+## A fourth slope, outside the set used to build `h`
+
+`p/r = −3` (`p = −3`, `r = 1`, spin`^c` label `a = 2`; the other two sectors are empty) gives a
+horizon of `q^2074` at `k = 150` with **every coefficient positive**:
+
+```
+   measured  c_eff = 0.500416      law says 0.500000      deviation 0.08%
+```
+
+That slope was never used in extracting `h(y)`, and it is the `(3,3,4)` Seifert case whose
+independent value is `6|H₁|/b₁b₂b₃ = 18/36 = 1/2`. Two different reasons to expect `1/2`, and
+the measurement lands on it.
+
+## A split worth recording: rational at the Seifert slopes, not at the hyperbolic one
+
+Asking for the **simplest** rational lying within the measurement's own error:
+
+| slope | manifold | measured | simplest rational within error |
+|---|---|---|---|
+| `−1` | `−Σ(2,3,7)`, Seifert | 0.1428571 | **`1/7`**, denominator 7 |
+| `−2` | `−M(−1;½,¼,⅕)`, Seifert | 0.2999991 | **`3/10`**, denominator 10 |
+| `−3` | `−M(−1;⅓,⅓,¼)`, Seifert | 0.5004160 | **`1/2`**, denominator 2 |
+| `−1/2` | **hyperbolic** | 0.0706417 | nothing below denominator **≈ 1543** |
+
+The three Seifert slopes give rationals with denominator at most 10. The hyperbolic slope, at
+the same measurement precision, admits no rational simpler than `109/1543`. Nor does it match
+`1/14`, `6(log φ)²/π²`, `3(log φ)²/π²`, `6/85`, `13/184`, or `Vol(m004)/4π²`.
+
+**Stated as what it is:** the `c_eff` of the Seifert surgeries is rational and reads off the
+Seifert invariants; the `c_eff` of the first hyperbolic one is a Legendre transform of a scaling
+function and appears not to be rational at all. That is a **contrast between two computed
+values**, not a theorem about irrationality — a numerical fit can never prove a number
+irrational, and this one does not.
