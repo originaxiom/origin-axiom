@@ -2512,7 +2512,9 @@ counted (5 016 142 400, triplet kept), Y₁₈'s are Y₉'s, Y₂₁'s alphabet 
 statement about products of Galois-conjugate matrices A(x^{u^{2k}}). Open: the exact structural count of Y₂₁'s lines. **Y₂₄'s 2-adic part done (B1304):** Y₁₂'s pulled back, nothing new;
 the tower's new 2-adic supports are at 3, 6, 12 only (Carmichael's exceptional Fibonacci indices — a coincidence
 registered, not claimed). The criterion's product is unipotent on every non-trivial character (B1304 §2): (iv) is the
-vanishing of a rank-one nilpotent.
+vanishing of a rank-one nilpotent. **The law's final form (B1304 addendum, exact at n ≤ 30):** a new odd-order character
+of Y_d carries a class iff d is odd, it is a half-deck eigencharacter prime to 5, and u^d ≡ ±1 globally; everything else is
+pullback (exact, Lemma 1) or the 2-adic levels 3, 6, 12.
 
 **L210 status 2026-09-08 (B1302 addendum, the three-generation reading):** the one-triplet lines with ⟨N_{g₂}⟩ alone carry
 the MSSM's content in three generations (vector-like, no exotic, one Higgs pair) with rank-2 Yukawas — the next

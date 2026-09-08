@@ -35,3 +35,14 @@ def test_the_product_is_unipotent_on_every_non_trivial_character():
 def test_the_two_lemmas_on_every_pair_of_levels():
     import two_lemmas as L
     assert L.main()
+
+
+def test_the_law_in_conductor_form_on_the_small_levels():
+    import conductor_law as C
+    for n in (5, 9, 10, 12, 15, 20):
+        tab = C.level(n)
+        assert all(C.law(k) for k in tab), (n, tab)
+    t15 = C.level(15)
+    assert t15[(1, 'unramified', '+', 1)] == 340 and t15[(1, 'unramified', 'mixed', 0)] == 600
+    t20 = C.level(20)
+    assert t20[(0, 'unramified', '-', 0)] == 80 and t20[(1, 'unramified', '+', 1)] == 10
