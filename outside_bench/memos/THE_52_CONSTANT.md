@@ -225,3 +225,31 @@ lowest `q`-power and never touches the assembly.
 Four `c_eff` values for `5₂` (`0.726, 0.499, 0.399, 0.339` at `p/r = −1, −1/2, −1/3, −1/4`) were
 produced today from the repaired assembler *and the defective recursion*. **They are void** and
 are recorded here only so that the record shows they existed and were withdrawn. See memo 183 §7.
+
+---
+
+# ADDENDUM 3 (2026-09-08, same day) — **§3's `c = −1/16` IS WITHDRAWN.** The `low(f_j)` table came from the defective eq (32)
+
+§3's table of lowest `q`-powers, and the closed forms `low = −j²/4 + 5` (even `j ≥ 8`) and
+`−(j²−1)/4 + 6` (odd `j ≥ 7`) fitted through them, were produced by the recursion of
+**Park eq (32)** — which memo 183 shows does not annihilate `F⁺_{m(5₂)}`. Against the true blocks
+(memo 183 addendum 1, large color R-matrix):
+
+```
+   j        :  0   1   2   3   4   5   6
+   TRUE     : -1  -1  -1   0  -2  -3  -4
+   memo 182 : -1  -1  -1   0  -2  -3  -3
+```
+
+They agree through `j = 5` and differ at `j = 6` — the first `j` the closed forms were fitted
+through. **`c = −1/16` for `5₂` is withdrawn**, together with §3's inference that `5₂` shares the
+figure-eight's slope window `p/r ∈ (−4,0)` and its closing remark that two hyperbolic knots have
+the same `c`. No replacement value is claimed: `j = 4,5,6` give `c ≈ −0.0247, −0.0248, −0.0237`
+with `m = 2j+1`, nearer `−1/40`, but three points do not fit a quadratic asymptotic.
+
+**What survives is the SIGN.** `low(f_j) = 0, −2, −3, −4` for `j = 3,4,5,6` on the true blocks:
+`c < 0`, the blocks run down. That is all memo 184 uses, and it is read directly off the R-matrix
+output rather than off any recursion. `low(f_6) = −4` rests on two converged coefficients and is
+the weakest entry; `j ≤ 5` is solid.
+
+Full statement and consequences: **memo 184 §5**.
