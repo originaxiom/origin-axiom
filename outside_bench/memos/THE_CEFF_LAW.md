@@ -1,12 +1,22 @@
-# MEMO 176 — THE `c_eff` LAW: THE ALEXANDER POLYNOMIAL SETS THE BOUNDARY CENTRAL CHARGE, AND 6 IS EXACTLY UNREACHABLE
+# MEMO 176 — THE BLOCK-4 PREDICTION HOLDS, AND THE SERIES IS EXACT TO `q^39524` **[§§5–7 REFUTED/RETRACTED — SEE THE HEAD NOTE]**
 
-**Banked 2026-09-08 · outside bench (lane 1B).**
-Certificates `certificates/xi_recursion.py`, `certificates/xi_recursion_fast.py`,
-`certificates/hyperbolic_ceff_measured.py`, `certificates/dilatation_ceff.py`,
-`certificates/ceff_law.py`. Every number below was computed on-bench before it was written.
-Gate 5 untouched: the only inputs are exact integer/rational arithmetic and two cited
-external theorems. No measured physical value enters; `c((E₆)₁) = 6` appears only as the
-comparison target for a computed negative.
+> # ⛔ **SECTION 5's LAW IS REFUTED AND SECTION 6 IS RETRACTED — 2026-09-08, same day. SEE MEMO 177.**
+> §5's `c_eff = 3|p/r|(log λ)²/(2π²)` is the **`|p/r| → 0` tangent** of the true law and nothing
+> more. At `p/r = −1` it is wrong by 1.48 %; at `p/r = −5/2` by 10 %. The refutation is not close:
+> the assembly at `p/r = −1` is termwise **identical** to Ramanujan's order-7 mock theta `F₀(q)`
+> (GM eq (175), `S³_{−1}(4₁) = −Σ(2,3,7)`), and a three-parameter fit calibrated to 0.004 % on
+> `η⁻¹` and Rogers–Ramanujan returns `c_eff = 1/7` to seven figures. The correct law is a Legendre
+> transform, `c_eff = (6/π²)max_y[y h(y) − y²/|p/r|]` with `h(0) = 2 log φ`.
+>
+> **RETRACTED with it:** §6's Gelfond exclusion of `c_eff = 6` (its input was the refuted formula),
+> §7's Lehmer restatement (same), and arm D's `c_eff` column (same). **Arm D's `λ` column stands.**
+> The *conclusion* of §6 survives under a different proof — memo 177 shows `c_eff < 1` at every
+> slope where it exists, and no `Ẑ` at all past `|p/r| = 4`.
+>
+> **SECTIONS 1–4 STAND**: the block-4 confirmation, the series exact to `q^39524`, the measurement,
+> and the four checked links to `Δ_{4₁}`. §4's link 4 — block mass to Cardy exponent — is the step
+> that failed, and §5's own "S2" named the reason (blocks overlap and cancel) and passed it anyway.
+
 
 ---
 

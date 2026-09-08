@@ -1331,3 +1331,35 @@ one link too far.
 asymptotic verified numerically in one case to 1.4 %. `Ẑ`-as-a-VOA-character is a conjecture.
 And the law does **not** say hyperbolic implies `c_eff > 0` — `5₂`, `8₂₀` and `10₁₃₂` are
 hyperbolic with `λ = 1` and give exactly zero.
+
+---
+
+## ADDENDUM 78 (2026-09-08) — addendum 77's third row is withdrawn the same day, and replaced
+
+Addendum 77 recorded, as settled:
+
+> | does the object's boundary `c_eff` reach `c((E₆)₁) = 6`? | **NO, exactly.** By Gelfond… |
+
+**That row is withdrawn.** The Gelfond argument's input was memo 176 §5's formula, and that
+formula is refuted (memo 177). What forced the refutation was the paper's own §9.4: my assembly
+at `p/r = −1` is termwise identical to Ramanujan's order-7 mock theta `F₀(q)`, and `F₀`'s growth
+is classical — `c_eff = 1/7` exactly, against the formula's 0.1407745.
+
+**The answer to the question is unchanged. The reason is completely different, and better:**
+
+| register question | status after memo 177 |
+|---|---|
+| does the object's boundary `c_eff` reach 6? | **NO.** `c_eff < 1` at every slope where it exists at all, with `sup = 1` approached as `\|p/r\| → 4⁻`. Not an arithmetic near-miss — a hard ceiling one sixth of the target. |
+| when does the boundary series exist? | **`\|p/r\| < 4` and no further.** Forced by three block facts verified to `k = 150`. `4` is also the largest `\|p/r\|` among Thurston's nine exceptional surgeries on `4₁`; recorded, not interpreted. |
+| does the golden ratio survive? | **Yes, exactly, in one place:** `h(0) = 2 log φ` to eight decimals. It is the `\|p/r\| → 0` tangent of the law. Memo 176 mistook the tangent for the curve. |
+| is `Δ_K` still what sets it? | Only at slope zero. The full law needs the whole scaling function `h(y)`, of which `Δ_K` supplies one value. |
+
+**The bench pattern this is an instance of, stated once and not dwelt on.** Memo 176 §5's own
+fence "S2" wrote down the exact reason the derivation fails — *"the blocks do overlap and do
+cancel"* — and then passed it through on the grounds that the measurement was on the assembled
+series. That was true of the measurement and false of the derivation. **A fence that names the
+defect and then clears it is worse than no fence**, because it converts a live doubt into a
+discharged one. The rule taken from it: when a fence names a mechanism that the derivation does
+not model, the derivation is unproved until that mechanism is modelled or measured — being right
+about the number is not the same as being right about the reason, and here the number was wrong
+too, by 1.48 %, in the one place it could be checked exactly.
