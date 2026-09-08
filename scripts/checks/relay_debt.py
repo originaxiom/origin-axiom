@@ -39,6 +39,8 @@ B1172'S FOUR REPAIRS (the sweep found this gate silently dead)
 3. `RELAY_RE` matched only the cc3 lane; `CC_TO_CODEX_*` / `CC_TO_CLOUD_*` /
    `CC_TO_ALL_SEATS_*` were invisible (the MC1 assignment went unrowed exactly there).
    Now: any `<SEAT>_TO_<SEATS>_<date>_*.md` plus the proposal/handoff shapes.
+   (B1307: the sender list was still a closed set -- SM/FC/FAB5/CHAT1 were invisible; now
+   any upper-case sender token. The seat BRANCHES are aged by `harvest_debt.py`.)
 4. Dateless OPEN rows skipped the age check entirely. Now stale-by-definition.
 
 DISCIPLINE ON WHO MAY MARK WHAT
@@ -65,12 +67,16 @@ ESCALATED_RE = re.compile(r"ESCALATED\(\s*[0-9]{4}-[0-9]{2}-[0-9]{2}")
 # B1004: widened after cc3 found the ONE artifact that went unadopted today was INVISIBLE to
 # this gate. B1172: widened again to every seat lane (CC/CC3/CODEX/CLOUD/ALL_SEATS, any
 # direction) after the sweep found the codex/cloud lanes structurally invisible.
+# B1307: widened a third time -- `SM_TO_CC`, `FC_TO_CC`, `FAB5_TO_CC`, `CHAT1_TO_CC` were invisible (the lanes that opened after
+# B1172); the physics seat's relay of R64-R72 had no row for three days and nothing said so. Any `<SEAT>_TO_<SEATS>_<date>` now.
 RELAY_RE = re.compile(
-    r"((CC3?|CODEX|CLOUD)_TO_[A-Z0-9_]+_[0-9]{4}-[0-9]{2}-[0-9]{2}[A-Za-z0-9_.\-]*\.md"
+    r"([A-Z0-9]+_TO_[A-Z0-9_]+_[0-9]{4}-[0-9]{2}-[0-9]{2}[A-Za-z0-9_.\-]*\.md"
     r"|[A-Za-z0-9_.\-]*_PROPOSAL\.md|PROPOSAL_[A-Za-z0-9_.\-]*\.md"
     r"|[A-Za-z0-9_.\-]*_HANDOFF\.md|HANDOFF_[A-Za-z0-9_.\-]*\.md)")
+# B1307: the first cell may carry text after the name -- "(on the seat's branch @ pin)", a zip's contents -- and three
+# BANKED rows (SM x2, cloud) plus the chat1 row were silently unparsed, so the chat1 relay archived on main read as INVISIBLE.
 ROW_RE = re.compile(
-    r"^\|\s*`?(?P<name>[A-Za-z0-9_.\-]+\.md)`?\s*\|\s*(?P<disp>BANKED|DECLINED|OPEN)\s*\|"
+    r"^\|\s*`?(?P<name>[A-Za-z0-9_.\-]+\.md)`?[^|]*\|\s*(?P<disp>BANKED|DECLINED|OPEN)\s*\|"
     r"\s*(?P<date>[0-9]{4}-[0-9]{2}-[0-9]{2}|—|-)\s*\|\s*(?P<note>[^|]*)\|", re.M)
 
 

@@ -51,6 +51,7 @@ PATH_RE = re.compile(
 EXEMPT_CITERS = ("PROGRESS_LOG.md",
     "frontier/B1306_the_older_debt/inputs/",   # B1306: read-only inventories of OTHER branches (SM, physics, codex, hostile-review, cc3, consolidation) -- every path cited exists only there (same class as HARVEST_LEDGER)
     "frontier/B1306_the_older_debt/DESIGN_A.md",  # B1306: a sealed DESIGN that cites the SM seat's branch-only docs by their path on that branch
+    "frontier/B1307_the_harvest_gate/",  # B1307: the harvest gate's DESIGN/FINDINGS/receipts name every seat's index file and relay path ON ITS BRANCH by design
 
                  "docs/HARVEST_LEDGER.md",  # 2026-09-08 (B1298, MASTERPLAN v3.1 §1a): every row cites a SEAT BRANCH path @ commit pin by design -- the ledger is the record of what lives on other branches, none of it resolves on main; the harvest_debt gate (B1307) checks these against the branches themselves
 

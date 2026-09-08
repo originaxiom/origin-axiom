@@ -805,3 +805,18 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 - H-B1306-COLLISION-3 (type PROCESS): the third numbering collision in a month happened with the relay written and the reserved list in
   place, because a seat's request lives on its branch until a harvest; the fix is not another range but the gate that reads seat relays the
   hour they are pushed (B1307). (B1306)
+
+## 2026-09-09 — B1307 hints (recorded, not judged)
+
+- H-B1307-A-PIN-IS-A-RECEIPT (type PROCESS): a harvest pin that means "last looked" is a bookmark and lies by omission; one that means
+  "every item at or before this commit has been read" is a receipt and can only be advanced by the landing that read. The gate's
+  honesty rests on that sentence. (B1307)
+- H-B1307-CLOSED-SENDER-SET (type PROCESS): the relay-debt grammar enumerated its senders (CC/CC3/CODEX/CLOUD) and every lane that
+  opened afterwards (SM, FC, FAB5, CHAT1) was invisible — the same repair B1172 made once. A grammar for names other seats choose
+  must be open (any sender token), and its row grammar must tolerate what rows actually write. (B1307)
+- H-B1307-SELF-NAMING (type INSTRUMENT): an instrument's own documentation defeats its negative control wherever that documentation
+  is scanned; the fix is not a hand-kept exclusion list but a run-time rule — drop every file that names the instrument. The sense
+  census passed on both routes the moment that rule was applied, and had been sound on the pre-instrument tree all along. (B1307)
+- H-B1307-THE-MIRROR-IS-MAIN-ONLY (type PROCESS): the seats push to origin only; codeberg carries main and the seat branches as
+  they were when last mirrored (cloud 5 behind, SM 3 behind at the first run). Whether main should mirror seat branches is the owner's
+  call; the gate reports the lag either way. (B1307)

@@ -201,6 +201,14 @@ Evidence and error classes: E45–E48; the adoption record is B1101.
   result quantifies over is itself a claim — verify completeness or state the bound. Enlarging a family can
   only hurt object-level claims and only help family-level ones.
 
+## Currency note (2026-09-09, at head B1307) — the seat BRANCH is aged, not only the relay
+
+- **The harvest pin is a receipt (B1307):** `docs/HARVEST_LEDGER.md` `## Pins` names, per seat branch, the commit main last READ it up to;
+  it advances only in a landing that read that far. `scripts/checks/harvest_debt.py` (gate `harvest-debt`, 32nd) reports every item changed
+  since the pin, reconciles the ledger against each seat's own index both ways, lists seat-branch relays without a row, and fails a push
+  when an unrowed item is 21 days old; `gates.py review-due` runs it `--strict` — a review cannot close with unread seat results (§1a rule 3).
+  Relay senders are any lane now (`SM_TO_CC`, `FC_TO_CC`, `FAB5_TO_CC`, `CHAT1_TO_CC` were invisible to `relay_debt.py` until B1307).
+
 **Verify the verifier (E52, Review 51).** A stabilization or control run re-verifies its INSTRUMENT
 before trusting its verdict: does the seed actually enter? does the estimator measure the stated
 claim? does the logic prove the stated quantifier? Controls are TWO-SIDED — a known-positive

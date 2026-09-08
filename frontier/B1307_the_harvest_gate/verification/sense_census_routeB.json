@@ -1,0 +1,90 @@
+{
+ "root": "oa-audit-seat/oa-31dd52b9",
+ "census": {
+  "files": 2578,
+  "mb": 18.2,
+  "terms": {
+   "logarithmic": {
+    "occurrences": 8,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": "neg"
+   },
+   "non-semisimple": {
+    "occurrences": 18,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": "neg"
+   },
+   "character": {
+    "occurrences": 3718,
+    "technical": 13,
+    "frac": 0.0035,
+    "verdict": "FALSE COMFORT",
+    "kind": null
+   },
+   "modular": {
+    "occurrences": 937,
+    "technical": 57,
+    "frac": 0.0608,
+    "verdict": "thin",
+    "kind": null
+   },
+   "non-rational": {
+    "occurrences": 7,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": null
+   },
+   "resurgence": {
+    "occurrences": 71,
+    "technical": 12,
+    "frac": 0.169,
+    "verdict": "genuine",
+    "kind": null
+   },
+   "Chern-Simons": {
+    "occurrences": 87,
+    "technical": 41,
+    "frac": 0.4713,
+    "verdict": "genuine",
+    "kind": "pos"
+   }
+  }
+ },
+ "two_sided": true,
+ "planted": {
+  "base": {
+   "occurrences": 1,
+   "technical": 0,
+   "frac": 0.0,
+   "verdict": "thin",
+   "kind": "neg"
+  },
+  "technical_marker": {
+   "occurrences": 2,
+   "technical": 1,
+   "frac": 0.5,
+   "verdict": "genuine",
+   "kind": "neg"
+  },
+  "no_marker": {
+   "occurrences": 2,
+   "technical": 0,
+   "frac": 0.0,
+   "verdict": "thin",
+   "kind": "neg"
+  },
+  "marker_outside_window": {
+   "occurrences": 2,
+   "technical": 0,
+   "frac": 0.0,
+   "verdict": "thin",
+   "kind": "neg"
+  },
+  "ok": true
+ }
+}

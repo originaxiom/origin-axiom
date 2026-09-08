@@ -991,6 +991,18 @@ def gate_relay_debt():
     return True, "ok"
 
 
+def gate_harvest_debt():
+    """B1307 -- every seat branch is READ within 21 days of a push; the harvest ledger is reconciled against each seat's own index
+    (MASTERPLAN v3.1 section 1a rule 3). Plain mode = instrument integrity + ageing; `review-due` runs it --strict."""
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--quiet"],
+                       capture_output=True, text=True, timeout=300)
+    out = (r.stdout + r.stderr).strip()
+    if r.returncode != 0:
+        return False, out.replace("\n", " | ")[:500]
+    return True, "ok"
+
+
 def gate_doc_currency():
     """B984 -- a living document that no longer reflects the corpus is a silent misinformer."""
     import subprocess
@@ -1174,6 +1186,7 @@ GATES = {
     "representation-sweep": gate_representation_sweep,
     "doc-currency": gate_doc_currency,
     "relay-debt": gate_relay_debt,
+    "harvest-debt": gate_harvest_debt,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,
@@ -1198,6 +1211,10 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "review-due":
         n, due = review_status()
         print(f"merges since last review: {n}; due (>= {REVIEW_EVERY}): {due}")
+        # B1307: a review opens with the harvest debt and cannot close with unread seat results (--strict)
+        r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--strict"],
+                           capture_output=True, text=True, timeout=300)
+        print((r.stdout + r.stderr).rstrip())
         sys.exit(0)
     res = run_all()
     worst = 0

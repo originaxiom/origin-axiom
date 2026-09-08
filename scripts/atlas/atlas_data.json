@@ -6896,6 +6896,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1307": {
+   "slug": "the harvest gate",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B702",
+    "B921",
+    "B999"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "topology"
+  },
   "B130": {
    "slug": "no forced choice",
    "motifs": [

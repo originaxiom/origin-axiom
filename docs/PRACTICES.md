@@ -596,6 +596,29 @@ repo root with no row, carrying a P3 verdict (8 CLOSED / 6 HELD / 7 EXPOSED) wit
 BANKED** — that is marking your own homework. BANKED is the *receiving* seat's judgement and its row
 must name the arc.
 
+## Every seat branch is read within 21 days, and every seat item has a row — GATED (`harvest-debt`)
+
+**The rule.** `docs/HARVEST_LEDGER.md` carries a `## Pins` table: per seat branch, the commit main last READ it up to — a receipt,
+advanced only by a landing that read that far. `scripts/checks/harvest_debt.py` (B1307) compares every seat branch with its pin,
+maps the changed paths to seat item ids by the seat's own convention, reconciles the ledger against each seat's OWN index both
+ways (index ids without a row = BACKLOG; rows resolving to no index id = STALE), lists seat-branch relay files without a
+`RELAY_LEDGER` row, and reports mirror lag. **An unrowed item changed on a branch more than 21 days ago fails the push.** Under
+`gates.py review-due` the check runs `--strict`: a review opens with the debt and cannot close with unread seat results
+(MASTERPLAN v3.1 §1a rule 3).
+
+**Why it exists.** A request or a result that lives on a seat branch reaches main only at a harvest, and nothing counted the hours
+in between: three numbering collisions and three relay lags in eight days (the SM seat's range note unanswered while main issued a
+numbering relay it never saw; the cloud's memos 156–189 found by fetching, nine days late; the physics seat's relay of R64–R72 with no
+row for three days because the relay-debt grammar named other lanes). The relay-debt gate ages relays that have rows; this one ages
+the branch.
+
+**It counted on its first run (2026-09-09):** 494 seat-index ids on nine branches, 428 without a row, 348 seat-branch relays without a
+row (131 of them the July cc3 lane, named in B921's manifest and rowed nowhere), two seats already past main's pins, two mirrors behind.
+
+**Both sides, before adoption.** Five synthetic plants (a NEW item reported, a harvested one not, a missing index id in BACKLOG, a
+stale row flagged, 22 days fails / 20 does not) and a live pin-override control that grew one seat's NEW sets by exactly the ids of
+the commits entering the range. The check grades nothing; it counts. Reading and grading stay the harvest arcs' work.
+
 ## The naming gate (proposed at B1033; the day's three same-symbol collisions)
 
 2026-08-11 produced three instances of the corpus's dominant error class in one day —

@@ -1,0 +1,106 @@
+{
+ "root": "<repo>",
+ "excluded": [
+  "docs/CAMPAIGN_STATUS.md",
+  "docs/HARVEST_LEDGER.md",
+  "docs/HINT_LEDGER.md",
+  "docs/RELAY_LEDGER.md",
+  "docs/views/REVIEWER.md",
+  "docs/views/VERDICT_LEDGER.md",
+  "frontier/B1305_the_cloud_156_178/CC_TO_CLOUD_2026-09-08_Q1_ANSWERED_AND_SHARPENED_HELD.md",
+  "frontier/B1305_the_cloud_156_178/DESIGN.md",
+  "frontier/B1305_the_cloud_156_178/DESIGN_B.md",
+  "frontier/B1305_the_cloud_156_178/FINDINGS.md",
+  "frontier/B1305_the_cloud_156_178/FINDINGS_B.md",
+  "frontier/B1305_the_cloud_156_178/inputs/cloud_harvest_debt_table_2026-09-08.md",
+  "frontier/B1307_the_harvest_gate/DESIGN.md"
+ ],
+ "census": {
+  "files": 2588,
+  "mb": 16.7,
+  "terms": {
+   "logarithmic": {
+    "occurrences": 8,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": "neg"
+   },
+   "non-semisimple": {
+    "occurrences": 18,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": "neg"
+   },
+   "character": {
+    "occurrences": 3515,
+    "technical": 12,
+    "frac": 0.0034,
+    "verdict": "FALSE COMFORT",
+    "kind": null
+   },
+   "modular": {
+    "occurrences": 880,
+    "technical": 56,
+    "frac": 0.0636,
+    "verdict": "thin",
+    "kind": null
+   },
+   "non-rational": {
+    "occurrences": 6,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": null
+   },
+   "resurgence": {
+    "occurrences": 70,
+    "technical": 12,
+    "frac": 0.1714,
+    "verdict": "genuine",
+    "kind": null
+   },
+   "Chern-Simons": {
+    "occurrences": 60,
+    "technical": 27,
+    "frac": 0.45,
+    "verdict": "genuine",
+    "kind": "pos"
+   }
+  }
+ },
+ "two_sided": true,
+ "planted": {
+  "base": {
+   "occurrences": 1,
+   "technical": 0,
+   "frac": 0.0,
+   "verdict": "thin",
+   "kind": "neg"
+  },
+  "technical_marker": {
+   "occurrences": 2,
+   "technical": 1,
+   "frac": 0.5,
+   "verdict": "genuine",
+   "kind": "neg"
+  },
+  "no_marker": {
+   "occurrences": 2,
+   "technical": 0,
+   "frac": 0.0,
+   "verdict": "thin",
+   "kind": "neg"
+  },
+  "marker_outside_window": {
+   "occurrences": 2,
+   "technical": 0,
+   "frac": 0.0,
+   "verdict": "thin",
+   "kind": "neg"
+  },
+  "ok": true
+ },
+ "verdict": "PASS"
+}

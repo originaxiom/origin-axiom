@@ -37,6 +37,11 @@ def test_regex_sees_every_seat_lane():
         "CODEX_TO_CC_2026-08-26_YUKAWA_PRIMARY.md",
         "HANDOFF_CC_SELECTION_COCHAIN.md",
         "README_ARC_PROPOSAL.md",
+        # B1307: the lanes that opened after B1172 were invisible again
+        "SM_TO_CC_2026-09-08_THE_TOWER.md",
+        "FC_TO_CC_2026-09-06_THE_LIFT_AND_THE_THIRD_ROOT.md",
+        "FAB5_TO_CC_2026-09-02_phaseB_findings.md",
+        "CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md",
     ]:
         assert m.RELAY_RE.fullmatch(name), f"regex misses {name}"
     # non-relays stay unmatched

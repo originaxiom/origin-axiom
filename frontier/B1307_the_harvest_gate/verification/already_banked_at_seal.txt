@@ -1,0 +1,33 @@
+already-banked: terms ['harvest', 'debt', 'gate', 'seat', 'pin', 'items', 'newer', 'than', 'pin']
+  511 corpus hits; 125 SETTLED arcs matching >= 5 of 9 terms
+      [ 8 terms] OPEN      B1217_seat_integration
+           THE SEAT INTEGRATION (discharging the debt the owner named: 19 commits harvested -- codex 2 + their R027 lead, cloud 17, cc3 none -- integrate-don't-merge, nothing merged). VERIFIED ON THIS BENCH: (1) CODEX R026's determ
+      [ 8 terms] FINDINGS  frontier/B1217_seat_integration/FINDINGS.md
+           # B1217 — THE SEAT INTEGRATION: nineteen commits harvested, four things verified, one evidence-contract gap found 
+  *** [ 7 terms] PROVED    B1014_proof_form
+           THE PROOF-FORM: THE DERIVATION THEOREM CLOSED, THE ANCHOR DOCTRINE LICENSED, THE CLAIM STATED ON ONE PAGE -- executing two owner decisions (approved and confirmed). (1) PROOF-AS-DERIVATION IS CLOSED: docs/THE_CLAIM.md se
+  *** [ 7 terms] PROVED    B1035_receipts_and_register
+           THE TWO HELD RECEIPTS UNBLOCKED AND VERIFIED (a day's hold on evidence that was pushed, byte-stable, on both remotes the whole time -- the point-of-use retrieval defect at its most expensive; located by the audit seat's 
+  *** [ 7 terms] PROVED    B1043_triple_assembly
+           PM2 / L157-4, the triple assembly (sealed 575ad81b pre-compute; the algebraic triangle graph-of-groups -- manifold cyclic welds of one-cusped pieces impossible, stated at seal; rho(t)=1 declared): h1(triple;27) = 10 = 7 
+  *** [ 7 terms] RETRACTED B1181_amphichirality_closure
+           RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 ret
+  *** [ 7 terms] PROVED    B1194_existence_audit
+           THE EXISTENCE AUDIT (owner-directed: no 'missing' without exhausting the repo; six lenses + twelve adversarial checks, archived verbatim): THE HAVE list is twelve rows deep (arena law, one-generator clock, the integer me
+  *** [ 7 terms] PROVED    B1195_close_loop_batch5a
+           CLOSE-LOOP BATCH 5A (the five highest-leverage closes, merged with cloud's routes at their 9915068b): (1) SEAM-A's CS=0 DOOR SHARPENED (lens-scoped) -- the object's b=1 partition function factorizes as Z = (omega/sqrt-3)
+  *** [ 7 terms] PROVED    B1201_lee_verified_and_harvest
+           THE LEE VERIFICATION CORRECTS B1198, AND THE CROSS-SEAT HARVEST CLOSES CLEAN. R52-3, THE READING (full v1 text, sections 7.3-7.5 + Appendix A, 345k chars): (a) THE TANGENTIAL BASE POINT IS NOT FREE FOR OUR OBJECT -- IT I
+  *** [ 7 terms] PROVED    B948_relay_ssb_sweep
+           THE RELAY + THE DEAD-CLAUSE SWEEP. The solo seat EXECUTED rather than noted the obligation B946 flagged: on reading B942 it WITHDREW its own section LXXXI-AC5/AC6 ('the observer is built as the beta=1 SSB', and the philo
+  *** [ 7 terms] NEGATIVE  B957_l124_torsor
+           L124 -- IS B700's TORSOR THE CMR TORSOR? NO, AND IT WAS NEVER CLOSE. Discharges the debt B942 left when it demoted the values/torsor clause to UNEARNED. NO PREREGISTRATION, DELIBERATELY: the discriminating fact was sitti
+  *** [ 6 terms] PROVED    B1000_input_count
+           THE EXTERNAL INPUTS CLOSE ON B717-S FOUR SECTORS, BUT CHARGE NEEDS TWO CLOSINGS. Prereg 7e920329 sealed AND PUSHED before compute with the declared prior OUTCOME B, specifically greater than four, i.e. this cell was EXPE
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+ABSENCE SWEEP for 'last-harvested commit' -- 27 heads enumerated
+  deleted-in-history paths matching: 0
+  working tree (untracked included): 1
+      frontier/B1307_the_harvest_gate/DESIGN.md
+VERDICT: PRESENT -- on 0 head(s), working tree. 'We don't have it' may NOT be written.
