@@ -6843,6 +6843,36 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1305": {
+   "slug": "the cloud 156 178",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "apolynomial",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B358",
+    "B390",
+    "B685",
+    "B730",
+    "B800",
+    "L154",
+    "L202"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B130": {
    "slug": "no forced choice",
    "motifs": [

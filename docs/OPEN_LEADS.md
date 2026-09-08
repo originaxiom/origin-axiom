@@ -2356,6 +2356,18 @@ not a new door. ★★.
 
 *L202 note (2026-09-08): the SM-derivation seat's sm:B1280 Theorem 1 (2026-09-06) already proves W1/W2 vector-like on every cusped cyclic cover by the same period-2 duality (their cusp-fixed curve K is the branch locus of the trace coordinates) — if it reproduces here (B1299), it closes (a) for every component that extends from m004, leaving the non-extending ones; its own L207 (one unpaired θ-odd direction at the subregular point) joins (a).*
 
+*L202(b) note (2026-09-08, B1305; the cloud seat's memo 170 @ ec15923d, verified here with main's own SnapPy loop): the PARTIAL FILLING of a
+multi-cusped cover — fill some cusps, keep others — is the one move that breaks amphichirality (B432: fillings are chiral) while keeping a
+cusp (covers keep cusps but inherit CS = 0). Over degrees 4–8, cusp 0 filled at six slopes, 27 distinct (degree, cusps, slope) triples give a
+positively oriented solution with a cusp left and CS ∉ {0, ¼} mod ½; cleanest witness the degree-5 three-cusped cover (isosig
+`kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb`), slope (2,1) on cusp 0 → 2 cusps left, CS = +0.157590 (unverified numerics on both benches).
+**The price, registered before the route is opened:** three discrete choices — which cover, which cusp, which slope — on top of I-26, on a
+manifold that is no longer m004 (memo 170 §4; B432's "slope selection stays free input"). **And the σ reading is dead already** (memo 170's
+addendum, extended here to degree 12 with main's code): no cover of m004 has ≥ 6 cusps through degree 12 (max 5 at degree 10, 4 at 11 and 12),
+and filling only lowers the count — so a partial filling can supply a quantized sector and cannot supply GC-6's count. Arc B computes the
+chirality question on such fillings only after the census of the 87 covers (amphichirality, 3-torsion, period-2 lifts) says the hypothesis
+is otherwise untestable inside the tower, and prices the three choices as identification rows first.*
+
 ## L204 — THE SUBREGULAR POINT'S ONE UNPAIRED DIRECTION (registered 2026-09-08, B1299; mirrors the SM-derivation seat's sm:L207 of 2026-09-06; the exact half done by B1298)
 sm:B1280 Theorem 2 makes the θ-odd E₆ germ at the geometric (principal) point vector-like by symmetry: the inversion acts as the
 outer automorphism on the whole tangent space (B1298: twelve signs, exact). At the SUBREGULAR sl₂ point — B1256's assumption-free

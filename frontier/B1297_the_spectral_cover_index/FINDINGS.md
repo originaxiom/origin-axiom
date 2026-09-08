@@ -204,3 +204,8 @@ on no head but this arc's; "Alexander module" present (B326, the deck action, ci
 `step6_e6_blocks.py`, `step7_nonvacuity_random.py`, `step8_live_manifold_scan.py [cap]`, `step9_galois.py`,
 `step10_c4.py`, `step11_alexander_module.py`; each ends in a PASS line or a `nonzero = 0` line pinned by
 `tests/test_b1297_the_spectral_cover_index.py`, which RUNS them in a scratch cwd. Runtime ≈ 2 min (scan capped).
+
+*Anchor added 2026-09-08 (E53, B1305; found by the cloud's memo 170 and left undone at Phase 0, which anchored B1294 only): B1227 —
+for an amphichiral object every mirror-odd invariant is 2-torsion in its value group (`T-MIRROR-ODD-VANISHES`) — is the theorem this
+arc's vanishing belongs to in the value group ℤ: the period-2 symmetry is a self-isometry of every cyclic cover, the net index is
+mirror-odd, and a torsion-free value group forces 0. The Galois and period-2 dualities of this arc are the mechanism; B1227 is the frame.*

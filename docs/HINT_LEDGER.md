@@ -753,3 +753,19 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   B1300's theorem fails — Y₁₂'s letters are 2-adic (order 16), their squares land on Y₆'s order-8 support with generation count
   1, and the triplet thins to one generation. The doublet–triplet mechanism is a property of WHICH closing, i.e. of the tower's
   arithmetic (the law), not of the closing's algebra. (B1303)
+
+## 2026-09-08 — B1305 hints (recorded, not judged)
+
+- H-B1305-ONE-THEOREM (type SYNTHESIS, the cloud seat's memo 170, registered here): the σ wall, the selector wall and the chirality wall are
+  B1227's theorem in three value groups (ℝ/½ℤ, ℝ, ℤ). Attack none of them separately; the programme's single defect is that its object
+  is too symmetric. Registered on the theorem row. (B1305)
+- H-B1305-NU-C (type CROSS-REFERENCE, memo 170 §6(b), both halves verified on main by reading): ν^c, the field the object DERIVES, is at
+  once the anomaly-canceller of the derived 16 (B1096: "exactly what cancels the last non-vanishing invariant") and a Yukawa partner in
+  the forced cubic (sm:B1276's table row H_u L ν^c). Two seats, two arcs, no cross-reference until now. (B1305)
+- H-B1305-META-CONTAMINATION (type PROCESS, this bench): a corpus-wide instrument whose control term names a GAP is voided by the
+  documents that adopt it — the sense census's negative control failed on main only because this arc's own DESIGN and its saved cloud
+  table say "logarithmic CFT". The cloud excluded its own memos for the same reason. Any adopted census needs a meta-exclusion list
+  (the harvest arcs' inputs and DESIGNs, HARVEST_LEDGER, CAMPAIGN_STATUS) or a control term no surface has yet named. (B1305)
+- H-B1305-THREE-KLEIN (type CAUTION, memo 170 §6(c), checked): main's B1276 joins B1174's legs with B730's faces (V₄ = Gal(ℚ(√−3, √5)/ℚ),
+  subfields √−3, √5, √−15); B1182 joins its frame ⟨c, r⟩ with Gal(ℚ(ζ₁₂)/ℚ) (subfields √−3, √3, √−1). The two V₄s share only ℚ(√−3) and
+  no main surface identifies them (scan: three sentences carry both tokens, none asserts equality). Keep it so. (B1305)
