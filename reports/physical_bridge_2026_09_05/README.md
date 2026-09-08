@@ -1,6 +1,18 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [R18's complete strong-source weighted cohomology](WEIGHTED_COHOMOLOGY.md).**
+**Latest: [R19's flat-holonomy spectrum and anomaly check](HOLONOMY_SPECTRUM.md).**
+Under the same prescribed strong-source geometry and maximal domain,
+generic unitary gauge holonomy gives three spinor H1 modes and no
+conjugate modes. Trivial holonomy and the exact Alexander zero locus
+retain four/one. The earlier polynomial and anomaly are reused and
+reverified, not claimed as new. Holonomy remains a non-normalizable
+boundary input; the net-three extra-U(1) anomaly still needs completion.
+Fifteen new tests pass, 25 with R18. Broad regression: 237 passed,
+the same 7 original failures and 8 fixture errors. Seal ce08c24b;
+native exact/interval checks pass. No B ID, selected physical vacuum,
+independent/main-bank green or complete TOE is claimed.
+
+**Preceding: [R18's complete strong-source weighted cohomology](WEIGHTED_COHOMOLOGY.md).**
 Bounded end homotopies compare the declared maximal complex with the
 full finite pair and establish closed range. Under R15's three-arc
 hypotheses the normalizable degree-one counts are four and one, net

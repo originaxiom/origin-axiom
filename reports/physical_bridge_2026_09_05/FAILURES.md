@@ -1,5 +1,43 @@
 # Failures retained, not rewritten as successful runs
 
+## R19 first executions and regression (2026-09-08)
+
+On resumption the earlier reporting-gate handle was missing and the
+process table contained no live gate run. Its unreceived output is not
+claimed recovered. A quiescent replacement pass returns 27 pass / 3 fail,
+review due at 116 merges: the same attribution, static-vacuity and older
+literal-provenance debts. Receipt: HOLONOMY_SPECTRUM_GATES.txt. No
+scientific run was restarted. The staged whitespace check flags five
+pytest-output trailing spaces in HOLONOMY_SPECTRUM_REGRESSION.txt;
+the faithful receipt remains intact and authored-file whitespace passes.
+The focused-test receipt also contained local environment/repository
+prefixes. Its byte-faithful raw copy is retained as
+HOLONOMY_SPECTRUM_CHECKS_RAW.local.txt (locally excluded); only those
+prefixes are redacted in the public CHECKS receipt before publication.
+
+The symbolic and native Sage/SnapPy instruments both finish at exit 0;
+their first JSON captures are complete. Fifteen new tests and the ten
+unchanged R18 tests pass. No R19 science, assertion or tolerance was
+repaired after execution. The broader 36-file quiescent run returns
+237 passed, 7 failed, 8 errors, one GUI warning in 289.83 s. All fifteen
+failed/error IDs match R18 exactly. Full receipt:
+HOLONOMY_SPECTRUM_REGRESSION.txt; the raw environment-path copy is
+HOLONOMY_SPECTRUM_REGRESSION_RAW.local.txt, excluded only locally.
+
+The restricted-network fetch failed DNS and its approval wait was
+interrupted. After checking actual state, the restored-network fetch
+completed at exit 0. No scientific process was restarted because of
+that interruption. Earlier missing-path/patch-context queries were
+corrected before sealing; they are not mathematical failures. The prior
+metadata sweep's missing handle was separately rerun to exit 0.
+
+R19's provenance fields and existing sealed digests were mechanically
+checked before execution. The global provenance gate still reports the
+older omissions. The old attribution/static-vacuity debts are not waived,
+and complete-repository green/independent main banking are not claimed.
+Physical holonomy selection and anomaly completion are open duties,
+not failed computations or grounds to retract the three/zero result.
+
 ## R18 evidence capture (2026-09-07)
 
 All ten new tests pass. The first producer exited zero but its tool

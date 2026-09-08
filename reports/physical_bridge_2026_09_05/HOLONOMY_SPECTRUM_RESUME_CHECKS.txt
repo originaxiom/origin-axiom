@@ -1,0 +1,24 @@
+R19 resumption verification, 2026-09-08
+No sealed design/source/test changed. This is an explicit repeat of the
+focused tests, not a replacement first scientific run. Tree quiescent.
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest -q tests/test_physical_bridge_holonomy_spectrum.py tests/test_physical_bridge_weighted_cohomology.py
+Exit 0. Environment prefix redacted below.
+
+.........................                                                [100%]
+=============================== warnings summary ===============================
+tests/test_physical_bridge_holonomy_spectrum.py::test_actual_presentation_asphericity_hypotheses_and_power_mutants
+  <PYTHON_ENV>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+25 passed, 1 warning in 18.83s
+
+Final staged reporting gates repeated after receipt cleanup: exit 1,
+27 pass / 3 fail, output identical to HOLONOMY_SPECTRUM_GATES.txt.
+Latest-per-path artifact verification: 221 entries, all match.
+Authored-file staged whitespace check: exit 0; original regression
+receipt retains its five captured pytest trailing spaces.
+An initial hash command failed on an unavailable Perl locale (exit 9);
+setting LC_ALL=C and LC_CTYPE=C let the unchanged hash check complete.
+The gate receipt's accidentally added EOF blank line was removed;
+no scientific output, assertion or tolerance was repaired.

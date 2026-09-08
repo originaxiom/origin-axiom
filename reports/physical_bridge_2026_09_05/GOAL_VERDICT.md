@@ -1,6 +1,20 @@
-# Verdict toward the full physical-theory goal — 2026-09-07, after path-local R18
+# Verdict toward the full physical-theory goal — 2026-09-08, after path-local R19
 
-**Newest movement:** [R18](WEIGHTED_COHOMOLOGY.md) establishes a
+**Newest movement:** [R19](HOLONOMY_SPECTRUM.md) removes the extra
+pair at generic unitary holonomy in the same prescribed strong-source
+maximal complex: three spinor H1 modes, no conjugate H1 modes. Trivial
+and explicitly exceptional holonomies retain four/one. The complete
+character calculation reuses the already banked Alexander polynomial;
+it is not a new object-selection principle. The connection's continuous
+changes have non-normalizable cusp periods, and the remaining extra
+U(1) has a nonzero net-three anomaly in a standalone 4D truncation.
+Next: source-compatible holonomy/defect selection and an actual anomaly
+completion in the same theory, retaining the neutral low-energy cusp
+channel as a separate 4D-limit duty. Fifteen new tests and the native
+exact/interval controls pass; 237 broad passes with the same 7 failures
+and 8 errors as R18. This is progress, not the complete TOE or full bank.
+
+**Preceding movement:** [R18](WEIGHTED_COHOMOLOGY.md) establishes a
 bounded weighted-cohomology comparison and closed range for the declared
 strong-source maximal complex. R15's three-arc hypotheses now give
 complete normalizable H1 counts FOUR AND ONE, not only a finite Euler
@@ -111,7 +125,7 @@ tests, and no global impossibility theorem is claimed.
 | A grounded mathematical construction | Conditional seed/core tests, actual E6 matrices, 27 and cubic; original carrier/Yukawa reproductions in [AUDIT.md](AUDIT.md) and the upstream audits | That the axioms are laws of nature, or that mathematical labels are physical fields |
 | Reach the SM gauge algebra | The existing two-singlet reduction removes chi and psi, leaving Y; R4 realizes the actual 12-generator stabilizer at a classical minimum. [Recovered steps](RECOVERED_PHYSICAL_STEPS.md), [vacuum](VACUUM_MODEL.md) | Why this action, its inputs and this high-scale branch are selected. **14 versus 12 is not an uncomputed dimension mismatch**; these are gauge-algebra dimensions, not spacetime dimensions |
 | Electroweak breaking compatible with electromagnetism | R8's neutral broken minima and complete leading spectra; R9's positive charged-pair logarithmic curvature; R10's finite hard and triplet contributions also favor neutral alignment. [R8](BROKEN_VACUUM.md), [R9](INFRARED_ALIGNMENT.md), [R10](FINITE_ALIGNMENT.md) | A full finite-epsilon/global quantum vacuum and a measured weak scale. R10's renormalization boundary is declared, not derived |
-| Physical matter and families | Actual Yukawa matrices/ranks; R11's marked family action; R18's complete normalizable four/one cohomology in the declared strong-source maximal complex, under R15's three-arc hypotheses. [R18](WEIGHTED_COHOMOLOGY.md) | Physical source/domain/fibre selection, Lorentz/gauge assignment, extra-pair mass and anomaly/inflow completion in one action, then realistic flavor. Fiber triplets, indices and pure three-family spectra are not interchangeable |
+| Physical matter and families | Actual Yukawa matrices/ranks; R11's marked family action; R18's complete normalizable four/one groups at trivial transport; R19's three/zero groups at generic unitary holonomy in the prescribed three-source maximal complex. [R19](HOLONOMY_SPECTRUM.md) | Source/domain/fibre and holonomy selection; actual anomaly/defect completion, Lorentz assignment and controlled 4D limit in one action, then realistic flavor. The imposed holonomy and the neutral cusp channel cannot be silently dropped |
 | Gravity unified with matter | Hyperbolic/action/state-integral work, explicit Lorentz/color constructions, spin-two representation content, and the principal-CS containment/index are genuine assets. [Audit](AUDIT.md), [recovered scopes](RECOVERED_PHYSICAL_STEPS.md) | A single source-derived four-dimensional dynamical gravity-plus-matter theory with physical propagators and consistent quantum behavior. **No invariant vectors is not no invariant functions; the withdrawn 122-order Lambda miss is not restored** |
 | Predictive physical contact | A corrected crossing solver and quantified spectrum/threshold mechanisms, with parameters and inverse fits explicitly identified. [Model](PHYSICAL_MODEL.md), [solver audit](AUDIT.md) | A new validated distinctive empirical prediction from the originating object. The historical mismatch is model/scenario-scoped, not a calibrated 16-sigma exclusion of the whole programme |
 

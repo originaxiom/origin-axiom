@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-08 — Path-local R19: generic holonomy removes the extra pair
+
+In the prescribed strong-source maximal complex, the full unitary
+character calculation gives three spinor H1 modes and no conjugates
+off the explicit exceptional set. Trivial/Alexander-exceptional
+holonomies retain four/one. The earlier SM-seat B1282 polynomial and
+B864 anomaly are reverified and joined to R18, not rediscovered.
+Actual E6 weights fix the charge normalization; the net-three extra-U(1)
+anomaly persists. Holonomy remains a non-normalizable boundary input,
+not a source-selected vacuum or computed physical mass. Seal ce08c24b;
+15 new tests pass, 25 with R18; independent native exact/interval controls
+pass. Broad regression 237 passed with the same 7 failures/8 errors.
+Report: reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md.
+No B allocation, full main banking, common gravity or TOE completion.
+
 ## 2026-09-07 — Path-local R18: complete strong-source weighted cohomology
 
 Bounded source/cusp homotopies compare the declared maximal deformed

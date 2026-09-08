@@ -137,3 +137,39 @@ as prior debt. The raw seal is preserved and no gate baseline/exemption
 is changed. Publication-policy reconciliation is owed before full main
 banking. The old static-vacuity/provenance debts also remain; review due
 at 114 merges. Receipt: WEIGHTED_COHOMOLOGY_GATES.txt.
+
+## R19 update (2026-09-08), flat holonomy and consistency
+
+CC's full reservation relay and SM alias table were reread on fetched
+main c78003cd. No B ID is taken; this R19 is path-qualified and does
+not claim another seat's round. Pre-execution seal ce08c24b contains
+the design, both instruments, tests, summarized prior receipt and
+mechanical pre-execution provenance/digest receipt. The older global
+provenance failure was explicitly reported before science, not waived.
+
+Both first scientific runs succeed and their complete JSON is retained.
+Fifteen new tests pass, 25 with R18. The full enumerated 36-file broad
+regression is 237 pass / 7 original fail / 8 original error, with the
+same failed/error IDs as R18. Source/tests/tolerances were not changed
+after execution, and the tree was quiescent throughout those runs.
+Raw Python environment prefixes are preserved in an excluded local
+regression copy and are the only redactions in the public receipt.
+
+FINDINGS, README, goal/strategy, failure record, the three ledgers,
+framework, X33, scoped law rows and PB-BOUNDARY are updated together.
+The positive generic three/zero result retains its prescribed source,
+strong maximal domain and external holonomy. The extra-U(1) anomaly
+is an explicit completion duty, not a global kill. The neutral cusp
+channel and the common gravity/predictivity duties are not erased.
+
+No main merge, PR or external relay is performed. Full repository
+pytest green, independent receiving-seat acceptance and complete main
+banking remain unpaid; the owner-authorized push is to this branch only.
+
+Reporting-gate recovery: 27 pass / 3 fail, review due at 116 merges;
+see HOLONOMY_SPECTRUM_GATES.txt. The missing earlier handle was checked
+against the process table before a replacement pass. Its output is not
+retroactively claimed. No source/test changes or scientific reruns.
+The all-head refetch advances SM to 3f4ce9af (incoming closed-tower
+B1300--B1302); its log is routed without accepting the computations.
+The immutable R19 dependency pin remains d1a91c7a. No B ID is allocated.

@@ -2582,6 +2582,22 @@ anomaly/inflow consistency in the same action. Weak/mixed/neutral domains
 are not ruled out or counted by the strong theorem. Compact resolvent
 is not required for this comparison and remains unasserted.
 
+**R19 movement on PB-BOUNDARY (2026-09-08):** the flat unitary extension
+of R18 gives three/zero off the exact m202 Alexander exceptional locus,
+four/one at trivial or exceptional transport. Closing sentence:
+"The result discharges the extra-pair persistence question in the stated
+unitary strong-source maximal class: the pair is absent off the explicit
+exceptional locus, not an unavoidable obstruction of this model."
+Source: reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md, section 7.
+This is a scoped sub-duty, NOT closure of PB-BOUNDARY. The actual
+connection is still external; its nonzero continuous deformations have
+non-normalizable cusp periods. Both four/one and three/zero have the same
+extra-U(1) anomaly (48,48,6) in u units. NEXT: compute source-isometry
+compatibility and physical holonomy/defect selection, then actual anomaly
+inflow or a consistently massive/non-gauged U(1) from the same source
+theory. Preserve the neutral cusp channel as a separate 4D-limit duty.
+No complete 27, bare CS value or added field name discharges those maps.
+
 **PB-PARTIAL-FILLING — boundary theory on the certified marked witness. OPEN.**
 The degree-five decorated cover filled at cusp 0 (2,1) now has
 interval-certified hyperbolicity, two complete cusps, and CS outside

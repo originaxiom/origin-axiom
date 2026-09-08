@@ -1,0 +1,23 @@
+R19 focused checks, 2026-09-08. Seal ce08c24b precedes execution.
+15 new tests plus the 10 unchanged R18 tests. Exit 0; tree quiescent.
+Native Sage/SnapPy run is separately captured in holonomy_spectrum_native_first_run.json.
+No complete-repository or independent banking certificate.
+
+Symbolic run warning:
+<PYTHON_ENV>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+Native run warning:
+reports/physical_bridge_2026_09_05/holonomy_spectrum_native.py:62: DeprecationWarning: Use sage.version instead.
+See https://github.com/sagemath/sage/issues/39015 for details.
+  return dict(sage_version=sa.version(), snappy_version=snappy.version(),
+
+$ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest -q tests/test_physical_bridge_holonomy_spectrum.py tests/test_physical_bridge_weighted_cohomology.py
+.........................                                                [100%]
+=============================== warnings summary ===============================
+tests/test_physical_bridge_holonomy_spectrum.py::test_actual_presentation_asphericity_hypotheses_and_power_mutants
+  <PYTHON_ENV>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+25 passed, 1 warning in 20.12s

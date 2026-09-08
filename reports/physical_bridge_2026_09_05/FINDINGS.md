@@ -1,6 +1,16 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [R18's complete weighted cohomology](WEIGHTED_COHOMOLOGY.md),
+Latest: [R19's unitary-holonomy spectrum](HOLONOMY_SPECTRUM.md), seal
+ce08c24b. In the prescribed three-source maximal complex, generic
+unitary holonomy gives three/zero; trivial and Alexander-exceptional
+characters retain four/one. B1282's polynomial and B864's anomaly are
+reused at their actual scope. The connection is still a boundary input,
+and the net-three extra-U(1) anomaly requires physical completion.
+Fifteen new tests pass, 25 with unchanged R18; native exact and interval
+controls pass. Broader regression: 237 passed, the same 7 failed/8 error
+IDs as R18. No physical source selection, full bank or TOE certificate.
+
+Preceding: [R18's complete weighted cohomology](WEIGHTED_COHOMOLOGY.md),
 sealed at ad3857a7. In the declared maximal complex with all effective
 source strengths abs(q)*beta_a>=1, bounded end homotopies and a global
 parametrix establish closed range and comparison with the full relative

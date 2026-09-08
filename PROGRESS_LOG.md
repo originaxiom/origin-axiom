@@ -14462,3 +14462,46 @@ names in the sealed raw retrieval receipt. The original receipt and
 hash are preserved; no gate baseline or exemption is altered. The
 old static-vacuity and sealed-marker debts remain. This is a local
 research checkpoint, not full main banking or independent acceptance.
+
+## 2026-09-08 — Path-local R19: the extra pair depends on flat holonomy
+
+Same sourced path, not a replacement by a new Euler count. R18's
+maximal-complex comparison extends fibrewise to unitary flat line
+systems pulled back from the undrilled core. Excision identifies the
+full pair with (Q,N); exact Fox cochains classify every unitary m202
+character. Generic holonomy gives (0,3,0,0)/(0,0,3,0), hence three
+spinor H1 modes and zero conjugate H1 modes. Trivial transport and the
+explicit nontrivial Alexander zero locus retain R18's four/one.
+The SM seat's B1282 polynomial is reused from its actual pinned producer,
+checked against B787's engine, triangular cocycles and native SnapPy.
+
+The added flat connection commutes with the prescribed Higgs and has
+a genuine compact E6 lift. Its adjoint order-two witness has parent
+order six; actual 27 weights prevent a charge-normalization conflation.
+The cusp peripheral restriction has rank two, so nonzero continuous
+holonomy changes are non-normalizable boundary data. The anomaly of
+net three, (48,48,6) in u units, is unchanged when the vectorlike pair
+is removed. B864 already computes the one-spinor anomaly; its qualified
+result is retained, not redescribed as a universal E6 no-go.
+
+Source/design/tests sealed at ce08c24b, after literal provenance and
+digest checks and before any scientific execution. First symbolic and
+native runs both succeed, with complete captured JSON: 7.411 s and
+0.653 s after startup. Native hyperbolicity is verified at 100/212 bits;
+the exceptional ranks are checked over an exact number field. Fifteen
+new tests pass, 25 with the unchanged R18 controls, in 20.12 s. The
+36-file quiescent regression gives 237 passed, seven failed, eight
+errors and one warning in 289.83 s. The failed/error IDs match R18
+exactly; original sources, tests and separate passing controls stay.
+
+Next physical duties: source-compatible holonomy and defect/domain
+selection, actual extra-U(1) anomaly completion in the same action,
+and a controlled 4D limit including the unchanged neutral cusp channel.
+No physical mass, source-selected vacuum, common gravity, predictive
+observable or complete TOE is inferred. Report/proof/receipts:
+reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md.
+CC's reservations were reread; no B allocation or alias collision.
+Latest complete fetch: main c78003cd, physics 659487bb, SM d1a91c7a,
+outside 8a5d6e6f. Incoming Cardy/tail work is routed, not assumed to
+certify this model or merged. Full main banking and independent review
+remain unpaid; the authorized push destination is this audit branch.

@@ -1,6 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-**LATEST LOCAL AUDIT (2026-09-07, path-local R18): complete conditional four/one kernel.**
+**LATEST LOCAL AUDIT (2026-09-08, path-local R19): the extra pair is holonomy-dependent.**
+Generic unitary holonomy gives three/zero in the prescribed three-source
+strong maximal complex; trivial and explicit exceptional connections
+retain four/one. The banked Alexander polynomial and anomaly are
+reused and independently recalculated. The gauge connection is a
+non-normalizable boundary input and the net-three extra-U(1) anomaly
+still needs an actual completion. Fifteen new tests pass, 25 with R18;
+native exact/interval controls pass. Broad regression: 237 passed with
+the same 7 failures/8 errors. Next: source-compatible holonomy/defect
+selection and anomaly completion in the same action, with a controlled
+4D limit. Source: reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md.
+No B allocation, independent main-bank acceptance or complete TOE claim.
+
+**PRECEDING LOCAL AUDIT (2026-09-07, path-local R18): complete conditional four/one kernel.**
 The strong-source maximal complex now has a bounded comparison with
 the full relative pair and closed range, giving normalizable H1 counts
 four and one under R15's three-arc hypotheses. Ten new checks pass.

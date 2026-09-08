@@ -1,9 +1,23 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Flat holonomy and the physical consistency duty, 2026-09-08 (path-local R19):**
+The declared strong-source maximal comparison extends to unitary flat
+line systems from the undrilled core. For prescribed m202 sources,
+the exact character classification gives three/zero charged spinor H1
+off the explicit exceptional set, four/one at trivial or exceptional
+holonomy. The SM-seat B1282 polynomial is prior, not newly derived here.
+The connection remains a non-normalizable boundary input; the actual
+E6-weight trace leaves an extra-U(1) anomaly for net three, as the
+qualified B864 computation anticipates. Physical source/holonomy and
+anomaly/defect completion remain required. The neutral cusp channel is
+unchanged, so a separated 4D EFT does not follow from the charged kernel.
+Proof, all charge conventions and 15 new passing tests:
+`reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md`.
+
 **Complete conditional charged kernel, 2026-09-07 (path-local R18):**
 In the declared maximal complex with all effective line strengths
 abs(q)*beta_a>=1, bounded weighted homotopies and a chain parametrix
-give closed range and comparison to the finite relative pair. R15's
+give closed range and comparison to the finite relative pair at W=0. R15's
 three-arc hypotheses therefore give complete normalizable H1 counts
 four and one. This supplies the comparison not provided by R17 alone;
 it does not derive a physical source amplitude, parent or defect law.

@@ -1,10 +1,10 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
-2026-09-07, updated after R18 and the named partial-filling verification.
+2026-09-08, updated after R19 and the named partial-filling verification.
 This ranks remaining duties of the constructions audited here. It is
 not a theorem that the repository, its other branches, or the object
 cannot supply them. All remote heads were fetched again; latest main
-c78003cd, physics 659487bb, SM d1a91c7a, outside-bench 6c7aaba6.
+c78003cd, physics 659487bb, SM d1a91c7a, outside-bench 8a5d6e6f.
 Newer received conclusions are not accepted merely because fetched.
 
 ## 1. A common physical theory and its genuine inputs
@@ -17,8 +17,10 @@ constructions. "No action" or "no physics" would erase actual work.
 
 **Bottleneck:** the tested R4 action explicitly chooses Lorentzian 4d
 spacetime, compact real form, field content, family number, coefficients
-and scales. R14--R16 choose a sourced twisted-reduction background and
-parent adjoint. The partial filling chooses a marked cover/cusp/slope.
+and scales. R14--R19 choose a sourced twisted-reduction background,
+parent adjoint, maximal domain and now a flat connection. R19 shows
+that nonzero abelian holonomy deformations are non-normalizable boundary
+data in the canonical metric. The partial filling chooses a marked cover/cusp/slope.
 Combining their headlines is not yet one theory deriving those choices.
 
 **Strategy:** list the actual maps from source data to fields, kinetic
@@ -46,7 +48,10 @@ criterion. R17 supplies a uniform charged cusp-tail energy barrier
 for a fixed tangential Hilbert complex, including puncture concentration.
 R18 now establishes closed range and complete normalizable four/one
 cohomology in the specified maximal complex when every abs(q)*beta_a>=1,
-under R15's three-arc hypotheses. Separately, the partial filling is
+under R15's three-arc hypotheses at trivial gauge transport. R19 extends
+this to flat unitary transport: the exact Alexander polynomial gives
+three/zero at generic holonomy, with four/one retained at the trivial
+and explicit exceptional characters. Separately, the partial filling is
 certified geometrically chiral with two complete cusps.
 
 **Bottleneck:** geometric chirality, a relative Euler characteristic,
@@ -55,15 +60,22 @@ are distinct. The physical defect/domain law and the joint cusp/line
 limit must connect them. At weak effective charge, L2 alone demonstrably
 does not choose the domain. R18 supplies the previously owed global
 comparison in the declared strong maximal class. Its complete kernel
-does not select that class physically or remove the extra conjugate pair.
+does not select that class physically. R19 removes the extra pair in
+an explicitly changed flat background, not by deriving that background.
+The net-three extra-U(1) anomaly remains unchanged. The neutral cusp
+low-energy channel also remains: a finite charged kernel is not a
+decoupling theorem for a finite four-dimensional effective theory.
 
 **Strategy:** keep the sourced m202 path as the immediate calculational
-priority. Derive its gauge/fibre lift and defect boundary condition,
-including a=q beta. Carry R18's now-complete four/one kernel into that
-same physical Lorentz/gauge assignment. Determine whether the allowed
-defect completion selects the strong maximal class or requires another
-domain. Then compute the extra pair's allowed mass terms and anomaly/
-inflow constraints in the same action. Compact resolvent was not needed
+priority. Compute which flat characters the actual source symmetries
+permit, with the compact gauge lift and its charge lattice retained.
+Derive the defect boundary condition, including a=q beta, and determine
+whether it selects this strong maximal class or another domain. Then
+construct the required anomaly/inflow or massive-U(1) mechanism from
+actual source fields in the same action, not from the label "E6".
+Check the neutral-sector 4D limit and physical Lorentz/gauge assignment.
+An arbitrary pair mass inside the unchanged W=0 operator is not R19's
+mechanism, and no physical mass scale has been obtained. Compact resolvent was not needed
 for R18's closed-range proof and is not silently claimed.
 
 **Success test:** a cutoff-independent normalizable charged spectrum,
@@ -71,7 +83,8 @@ with correct physical chirality and identified gauge representations,
 not just net Euler three. A failure in one amplitude/domain class
 closes that class, not all singular or cusped backgrounds.
 Sources: [R15](GLOBAL_SINGULAR.md), [R16](CHARGED_DOMAIN.md),
-[R17](CUSP_TAIL.md), [R18](WEIGHTED_COHOMOLOGY.md).
+[R17](CUSP_TAIL.md), [R18](WEIGHTED_COHOMOLOGY.md),
+[R19](HOLONOMY_SPECTRUM.md).
 
 ## 3. Gravity in the same four-dimensional dynamical theory
 
@@ -153,11 +166,13 @@ hidden by a green focused subset.
 
 ## Immediate order, preserving both live paths
 
-1. Carry R18's complete conditional four/one kernel into the physical
-   source/amplitude/defect/fibre derivation. Then compute the extra pair's
-   allowed mass and anomaly/inflow completion in that same action.
-   The strong maximal-complex closed-range/cohomology join is now
-   supplied; do not restart from another Euler argument.
+1. Carry R19's complete conditional three/zero generic-holonomy kernel
+   into the source/amplitude/defect/fibre derivation. Compute source-
+   symmetry-compatible flat choices and the actual anomaly/extra-U(1)
+   completion in that same action. Retain R18 at trivial holonomy and
+   R19's nontrivial exceptional locus. The strong maximal cohomology
+   join is supplied; do not restart from another Euler argument or
+   call a non-normalizable Wilson parameter a selected physical modulus.
 2. On the certified partial filling, construct the actual boundary
    sector and its level/anomalies/partition function. Nonzero CS(M)
    alone neither fixes k nor identifies the desired c=6 theory.
