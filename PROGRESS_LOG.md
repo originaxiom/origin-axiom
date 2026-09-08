@@ -14511,3 +14511,22 @@ branch numbers from B1300 and carries the row as proposed in its copy of `docs/S
 the other seats' buffer. Also: B1283's findings and run record now carry the Z′'s total charges per generation (the VEV'd
 generation's N and ν^c neutral, the two heavy generations equal: a family-non-universal Z′ broken at the electroweak scale
 by the light Higgs pair unless something breaks it first).
+
+### B1300 — the lines that would split the doublets from the triplets: none of Y₉'s 706 464 SM Wilson lines projects out a colour triplet D, by theorem (ψ_D = ψ_Q⁻²); B1278 verified by a second method (2026-09-07)
+
+L209(ii)'s Wilson-line option, decided by exhaustion and then by theorem. (a) B1278's Y₉ pipeline re-run with the survival
+of every component of every 27 recorded on all 706 464 SM lines: **0 doublet–triplet split lines; D is kept in all three
+generations on every line**; D̄, H_u, H_d, N, ν^c each lose one generation on ≈ 29 000 lines (137 808 non-full lines:
+130 464 lose one multiplet-generation, 6 480 two, 864 three). (b) An exact structural model from B1278's support theorem
+(h¹ = 1 exactly on ((C₁ ∪ C₂) × V₄) ∖ 1) and the weights of the 27 mod the SM roots in the ℤ-basis (w_Q, w_u^c, w_L) — the
+eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders — reproduces **every count of B1278**
+(145, 758 593, 737 568, 706 464, 568 656) and every histogram of (a) in seventeen seconds with no Fox calculus.
+**Theorem (the triplet's protection):** w_D = −2 w_Q (the diquark coupling Q Q D; D is the only component whose weight mod
+Q_SM is twice a weight), so ψ_D = ψ_Q⁻²; the alphabet's letters have order 1, 19 or 38, their squares have odd order and are
+never family characters — and the family characters are the only characters that project anything. So the Wilson line can
+thin D̄, H_u, H_d, N, ν^c by one generation each and never D: it separates the doublet from the triplet in the wrong
+direction. Consequence: B1283's light D_g pair is untouched by the line as by the tree-level VEVs; whatever gives the
+Higgs pair its μ gives the D pair its mass through the same E₆ Clebsch (a vector-like colour triplet near μ, if the
+instanton sector respects the Clebsch — an assumption, not a banked prediction). Lock
+`tests/test_b1300_the_doublet_triplet_lines.py`. Vector-like throughout (B1260); 0 of 19; price unchanged. Numbering:
+B1300, the first of the range requested in `SM_TO_CC_2026-09-07_RANGE_EXHAUSTED.md`.

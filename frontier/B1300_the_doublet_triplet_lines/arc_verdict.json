@@ -1,0 +1,12 @@
+{
+ "id": "B1300",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": ["B1278", "B1283", "B1277", "B1276", "B1275"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "identifications": [],
+ "claim_one_line": "THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while keeping the Higgs doublets: exhaustively, with every component's survival in every generation recorded (B1278's pipeline re-run and re-enumerated), 0 split lines; D is kept in all three generations on every SM line -- indeed on every one of the 3 048 625 candidates -- while Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines. BY THEOREM: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; three generations of Q put psi_Q in the alphabet K3 = {1} u ((C_1 u C_2) minus 1) x V_4 (orders 1, 19, 38), whose squares have odd order and are never family characters -- and the family characters (order 2) are the only characters that project anything (B1278's support theorem: h^1 = 1 exactly on ((C_1 u C_2) x V_4) minus 1). An exact structural model built from the support theorem and the weight table (Q, u^c, L a Z-basis of P/Q_SM; the eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders) reproduces every count of B1278 -- 145-letter alphabet, 758 593 three-generation lines, 737 568 SU(5)-breaking, 706 464 SM vacua, 568 656 full-spectrum -- and every histogram of the pipeline in seventeen seconds with no Fox calculus: B1278 verified by a second method. Consequences: L209(ii)'s Wilson-line option is closed; B1283's light D pair is untouched by the Wilson line as it is by the tree-level VEVs, so whatever gives generation g's Higgs pair its mu gives its D pair a mass through the same E6 Clebsch (a vector-like colour-triplet pair near mu if the instanton sector respects the Clebsch -- a stated assumption, not a banked prediction). Vector-like throughout (B1260); 0 of 19; price unchanged."
+}

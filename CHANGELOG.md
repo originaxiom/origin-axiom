@@ -1,5 +1,13 @@
 # Changelog
 
+## B1300 — the lines that would split the doublets from the triplets: none of Y₉'s 706 464 SM Wilson lines projects out a colour triplet D — by theorem, ψ_D = ψ_Q⁻²; B1278's enumeration verified by a second method
+
+Every component's survival on every SM line of Y₉ (B1278's pipeline re-run): 0 split lines, D kept everywhere, D̄, H_u,
+H_d, N, ν^c thinned by one generation on ≈ 29 000 lines each. An exact structural model (the support theorem + the weight
+table in the (Q, u^c, L) basis) reproduces every count and histogram in seventeen seconds and proves the triplet's
+protection: w_D = −2 w_Q, and squares of the alphabet never reach the family characters. L209(ii)'s Wilson-line option
+closed. `frontier/B1300_the_doublet_triplet_lines`.
+
 ## B1283 — the SM closing's tree-level vacuum: nine conjugate-paired SM-preserving branches, one Z′ = (5ψ − 3χ)/2 surviving on every one, one light Higgs pair and one light D pair per maximal branch
 
 On Y₉ with an SM Wilson line the tree-level vacuum manifold of the one-coupling E₈ theory, restricted to the 18 SM

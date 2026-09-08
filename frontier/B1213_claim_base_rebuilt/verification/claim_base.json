@@ -1,6 +1,6 @@
 {
- "settled": 1092,
- "declared_true": 89,
+ "settled": 1093,
+ "declared_true": 90,
  "declared_false": 175,
  "absent": 828,
  "absent_pct": 76,
@@ -492,7 +492,8 @@
   "B1279",
   "B1280",
   "B1282",
-  "B1283"
+  "B1283",
+  "B1300"
  ],
  "pool_new": [
   "B14",
@@ -1018,7 +1019,8 @@
   "B1280",
   "B1281",
   "B1282",
-  "B1283"
+  "B1283",
+  "B1300"
  ],
  "added_by_vocabulary": [
   "B156",

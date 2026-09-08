@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-07, B1300 — THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS)**: none of Y₉'s 706 464
+SM Wilson lines projects out a colour triplet D (exhaustive, every component's survival recorded) — **by theorem: w_D =
+−2 w_Q, so ψ_D = ψ_Q⁻², and the squares of the three-generation alphabet never reach the family characters, the only
+characters that project anything**. The Wilson line can thin D̄, H_u, H_d, N or ν^c by one generation and never D. An exact
+structural model reproduces every count of B1278 in seventeen seconds (a second method). B1283's light D pair stays:
+whatever gives the Higgs pair its μ gives the D pair its mass. L209(ii)'s Wilson-line option closed. Price unchanged.
+
 **LATEST (2026-09-07, B1283 — THE SM CLOSING'S TREE-LEVEL VACUUM)**: on Y₉ with an SM line the SM-preserving flat
 directions are nine conjugate-paired branches (three maximal, three moduli each) and **every one leaves exactly one extra
 U(1) unbroken: the tree-level gauge group is SM × U(1)_{Z′} with Z′ = (5ψ − 3χ)/2 + family** (charges 4 on Q, u^c, e^c;

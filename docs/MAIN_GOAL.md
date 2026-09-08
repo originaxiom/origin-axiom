@@ -198,3 +198,8 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   three maximal with three moduli each; **every one leaves exactly one extra U(1): SM × U(1)_{Z′}, Z′ = (5ψ − 3χ)/2 +
   family, charges computed**; one light Higgs pair and one light D pair per maximal branch; ν^c VEVs on all. D2's space
   is three moduli and a Z′; the instanton sector (L201) must lift the moduli and settle the Z′ (L209).
+- **The doublet–triplet lines (B1300).** No Wilson line of Y₉ splits the doublets from the triplets: **0 of 706 464 SM
+  lines project out a D, by theorem** — w_D = −2 w_Q, so ψ_D = ψ_Q⁻², and squares of the alphabet never reach the family
+  characters, the only characters that project anything. The line can thin D̄, H_u, H_d, N, ν^c by one generation, never
+  D. An exact structural model reproduces every count of B1278 (a second method). B1283's light D pair stays: the μ-term
+  and the D mass have one source (L209(ii)).

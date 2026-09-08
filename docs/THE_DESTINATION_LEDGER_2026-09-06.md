@@ -127,6 +127,20 @@ light D/D̄ pair (the doublet–triplet problem in its E₆ form, row 4), and a 
 lepton and down-Higgs doublets. So D2's data on the SM closing are three moduli and a Z′: the instanton superpotential
 (item 3) acts on exactly these, and the rank reduction 8 → 4 that the SM needs is completed at tree level only to 5.
 
+## 4f. The doublet–triplet lines (B1300, 2026-09-07)
+
+Row 4's classical mechanism, decided on the SM closing. Among Y₉'s 706 464 SM Wilson lines none projects out the colour
+triplet D — not by count but by theorem: w_D ≡ −2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27), so the
+triplet's character is the inverse square of the quark doublet's; three generations of Q put ψ_Q in B1278's alphabet, whose
+letters have order 1, 19 or 38; their squares have odd order and are never family characters, and the family characters
+(order 2) are the only characters that project a component. So the line can thin D̄, H_u, H_d, N or ν^c by one generation
+and never D — it separates the doublet from the triplet in the wrong direction. The exact structural model behind the
+theorem reproduces every count of B1278 in seventeen seconds. **Consequence for §4e:** the light D_g pair of the maximal
+branch is untouched by the Wilson line as it is by the tree-level VEVs; whatever gives generation g's Higgs pair its μ
+gives its D pair a mass through the same E₆ Clebsch — a vector-like colour-triplet pair near μ, if the instanton sector
+respects the Clebsch (an assumption to be tested with item 3, not a banked prediction). L209(ii) keeps its two other
+options; the Wilson-line one is closed.
+
 ## 5. What is expected, in order
 
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the

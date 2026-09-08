@@ -6758,8 +6758,8 @@
    "refs": [
     "L201"
    ],
-   "obstacle": "gauge_dict",
-   "obstacle_conf": 9,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -6832,6 +6832,28 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 12,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1300": {
+   "slug": "the doublet triplet lines",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "K2",
+    "K3",
+    "L209"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 40,
    "status": "banked",
    "domain": "arithmetic"
   },

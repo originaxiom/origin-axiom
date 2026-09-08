@@ -2477,3 +2477,11 @@ the doublet–triplet problem: on every maximal branch the light Higgs pair come
 mass)? **(iii)** the ν^c VEV on every branch: L–H_d mixing in the two heavy generations at the VEV scale — a feature
 (neutrino masses through the mixing) or a fatal flaw (R-parity)? (i) is one afternoon once the volumes of item 1 exist; a
 proxy with Y₉'s length spectrum is the L201 pre-registration. ★★★
+
+**L209 status 2026-09-07 (B1300):** (ii)'s Wilson-line option is **closed, negatively and by theorem** — no SM line of Y₉
+projects out a D (0 of 706 464; w_D = −2 w_Q gives ψ_D = ψ_Q⁻², squares of the alphabet never reach the family characters);
+the line can thin D̄, H_u, H_d, N, ν^c by one generation and never D. What remains of (ii) is the μ-term's own question: the
+light D_g pair and the light Higgs pair of branch g have the same tree-level protection (the family tensor, the flavons
+and the Wilson line all leave generation g's 27 alone) and the same coupling to N, so the instanton sector or a ν^c-induced
+mass must give both their masses — a vector-like colour triplet near μ if the non-perturbative term respects the E₆
+Clebsch. (i) and (iii) unchanged.
