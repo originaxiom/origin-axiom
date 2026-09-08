@@ -1,0 +1,53 @@
+=== Lemma 1: pullback exactness on the banked supports ===
+  Y_2 -> Y_4: 4 characters pulled back, 0 in Y_2's support, mismatches of h^1: 0; Phi^2-invariant characters in Y_4's support: 0 (= 0: True)
+  Y_2 -> Y_6: 4 characters pulled back, 0 in Y_2's support, mismatches of h^1: 0; Phi^2-invariant characters in Y_6's support: 0 (= 0: True)
+  Y_3 -> Y_6: 15 characters pulled back, 3 in Y_3's support, mismatches of h^1: 0; Phi^3-invariant characters in Y_6's support: 3 (= 3: True)
+  Y_2 -> Y_8: 4 characters pulled back, 0 in Y_2's support, mismatches of h^1: 0; Phi^2-invariant characters in Y_8's support: 0 (= 0: True)
+  Y_4 -> Y_8: 44 characters pulled back, 0 in Y_4's support, mismatches of h^1: 0; Phi^4-invariant characters in Y_8's support: 0 (= 0: True)
+  Y_3 -> Y_9: 15 characters pulled back, 3 in Y_3's support, mismatches of h^1: 0; Phi^3-invariant characters in Y_9's support: 3 (= 3: True)
+  Y_2 -> Y_10: 4 characters pulled back, 0 in Y_2's support, mismatches of h^1: 0; Phi^2-invariant characters in Y_10's support: 0 (= 0: True)
+  Y_5 -> Y_10: 120 characters pulled back, 20 in Y_5's support, mismatches of h^1: 0; Phi^5-invariant characters in Y_10's support: 20 (= 20: True)
+  Y_2 -> Y_12: 4 characters pulled back, 0 in Y_2's support, mismatches of h^1: 0; Phi^2-invariant characters in Y_12's support: 0 (= 0: True)
+  Y_3 -> Y_12: 15 characters pulled back, 3 in Y_3's support, mismatches of h^1: 0; Phi^3-invariant characters in Y_12's support: 3 (= 3: True)
+  Y_4 -> Y_12: 44 characters pulled back, 0 in Y_4's support, mismatches of h^1: 0; Phi^4-invariant characters in Y_12's support: 0 (= 0: True)
+  Y_6 -> Y_12: 319 characters pulled back, 27 in Y_6's support, mismatches of h^1: 0; Phi^6-invariant characters in Y_12's support: 27 (= 27: True)
+  Y_2 -> Y_14: 4 characters pulled back, 0 in Y_2's support, mismatches of h^1: 0; Phi^2-invariant characters in Y_14's support: 0 (= 0: True)
+  Y_7 -> Y_14: 840 characters pulled back, 56 in Y_7's support, mismatches of h^1: 0; Phi^7-invariant characters in Y_14's support: 56 (= 56: True)
+  Y_3 -> Y_15: 15 characters pulled back, 3 in Y_3's support, mismatches of h^1: 0; Phi^3-invariant characters in Y_15's support: 3 (= 3: True)
+  Y_5 -> Y_15: 120 characters pulled back, 20 in Y_5's support, mismatches of h^1: 0; Phi^5-invariant characters in Y_15's support: 20 (= 20: True)
+  Y_2 -> Y_16: 4 characters pulled back, 0 in Y_2's support, mismatches of h^1: 0; Phi^2-invariant characters in Y_16's support: 0 (= 0: True)
+  Y_4 -> Y_16: 44 characters pulled back, 0 in Y_4's support, mismatches of h^1: 0; Phi^4-invariant characters in Y_16's support: 0 (= 0: True)
+  Y_8 -> Y_16: 2204 characters pulled back, 0 in Y_8's support, mismatches of h^1: 0; Phi^8-invariant characters in Y_16's support: 0 (= 0: True)
+  Y_2 -> Y_18: 4 characters pulled back, 0 in Y_2's support, mismatches of h^1: 0; Phi^2-invariant characters in Y_18's support: 0 (= 0: True)
+  Y_3 -> Y_18: 15 characters pulled back, 3 in Y_3's support, mismatches of h^1: 0; Phi^3-invariant characters in Y_18's support: 3 (= 3: True)
+  Y_6 -> Y_18: 319 characters pulled back, 27 in Y_6's support, mismatches of h^1: 0; Phi^6-invariant characters in Y_18's support: 27 (= 27: True)
+  Y_9 -> Y_18: 5775 characters pulled back, 147 in Y_9's support, mismatches of h^1: 0; Phi^9-invariant characters in Y_18's support: 147 (= 147: True)
+  Y_2 -> Y_20: 4 characters pulled back, 0 in Y_2's support, mismatches of h^1: 0; Phi^2-invariant characters in Y_20's support: 0 (= 0: True)
+  Y_4 -> Y_20: 44 characters pulled back, 0 in Y_4's support, mismatches of h^1: 0; Phi^4-invariant characters in Y_20's support: 0 (= 0: True)
+  Y_5 -> Y_20: 120 characters pulled back, 20 in Y_5's support, mismatches of h^1: 0; Phi^5-invariant characters in Y_20's support: 20 (= 20: True)
+  Y_10 -> Y_20: 15124 characters pulled back, 20 in Y_10's support, mismatches of h^1: 0; Phi^10-invariant characters in Y_20's support: 20 (= 20: True)
+  Y_3 -> Y_21: 15 characters pulled back, 3 in Y_3's support, mismatches of h^1: 0; Phi^3-invariant characters in Y_21's support: 3 (= 3: True)
+  Y_7 -> Y_21: 840 characters pulled back, 56 in Y_7's support, mismatches of h^1: 0; Phi^7-invariant characters in Y_21's support: 56 (= 56: True)
+=== Lemma 2: Galois closure of every support ===
+  Y_2: support closed under psi -> psi^k, k prime to the order: True
+  Y_3: support closed under psi -> psi^k, k prime to the order: True
+  Y_4: support closed under psi -> psi^k, k prime to the order: True
+  Y_5: support closed under psi -> psi^k, k prime to the order: True
+  Y_6: support closed under psi -> psi^k, k prime to the order: True
+  Y_7: support closed under psi -> psi^k, k prime to the order: True
+  Y_8: support closed under psi -> psi^k, k prime to the order: True
+  Y_9: support closed under psi -> psi^k, k prime to the order: True
+  Y_10: support closed under psi -> psi^k, k prime to the order: True
+  Y_11: support closed under psi -> psi^k, k prime to the order: True
+  Y_12: support closed under psi -> psi^k, k prime to the order: True
+  Y_13: support closed under psi -> psi^k, k prime to the order: True
+  Y_14: support closed under psi -> psi^k, k prime to the order: True
+  Y_15: support closed under psi -> psi^k, k prime to the order: True
+  Y_16: support closed under psi -> psi^k, k prime to the order: True
+  Y_17: support closed under psi -> psi^k, k prime to the order: True
+  Y_18: support closed under psi -> psi^k, k prime to the order: True
+  Y_19: support closed under psi -> psi^k, k prime to the order: True
+  Y_20: support closed under psi -> psi^k, k prime to the order: True
+  Y_21: support closed under psi -> psi^k, k prime to the order: True
+
+SELFTEST: PASS

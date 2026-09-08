@@ -2,6 +2,7 @@
 are Y_12's (control: Y_12 reproduces B1301/B1302), and the criterion's product is unipotent on every non-trivial
 character (~40 s)."""
 import sys
+import pytest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,3 +29,9 @@ def test_the_product_is_unipotent_on_every_non_trivial_character():
         assert cls['(False, True, False, True)'] == 1                                   # the trivial character alone is not unipotent
         assert cls['(True, True, True, False)'] == sup                                  # the identity exactly on the support
         assert sum(v for k, v in cls.items() if k.startswith('(True')) == r['unip'] and r['unip'] == {5: 120, 6: 319, 9: 5775, 10: 15124}[n]
+
+
+@pytest.mark.slow
+def test_the_two_lemmas_on_every_pair_of_levels():
+    import two_lemmas as L
+    assert L.main()
