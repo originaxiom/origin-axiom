@@ -1,10 +1,10 @@
 m202: 2 cusps, H_1 = Z + Z, pi_1 = <a, b | aabbAbAABBaB>, |Sym| = 12
 (1) automorphisms of pi_1 with images of length <= 5: 62; classes by (H_1 action, cusp permutation): 4
 Traceback (most recent call last):
-  File "/Users/dri/oa-audit-seat/sm-seat-87a9004a/frontier/B1282_the_siblings_germ/verification/sibling_germ.py", line 299, in <module>
+  File "oa-audit-seat/sm-seat-87a9004a/frontier/B1282_the_siblings_germ/verification/sibling_germ.py", line 299, in <module>
     out = main()
           ^^^^^^
-  File "/Users/dri/oa-audit-seat/sm-seat-87a9004a/frontier/B1282_the_siblings_germ/verification/sibling_germ.py", line 184, in main
+  File "oa-audit-seat/sm-seat-87a9004a/frontier/B1282_the_siblings_germ/verification/sibling_germ.py", line 184, in main
     assert len(classes) == 12 and len(found) == 180
 AssertionError
 RC=1

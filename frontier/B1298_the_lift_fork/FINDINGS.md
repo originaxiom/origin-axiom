@@ -2,7 +2,7 @@
 
 *MASTERPLAN v3.1 Phase 1, first harvest arc. DESIGN sealed before computation (`DESIGN.sha256`, `d81fba42…`). Sources read in
 full: fc R72 + its relay (@ 659487bb), sm:B1280 §3 and sm:B1281 C/3 (@ 87a9004a), main's B353 items (A)–(C). Every seat
-number re-run in a pinned worktree (`/Users/dri/oa-audit-seat/fc-seat-659487bb`, `…/sm-seat-87a9004a`) AND re-derived
+number re-run in a pinned worktree (`oa-audit-seat/fc-seat-659487bb`, `…/sm-seat-87a9004a`) AND re-derived
 here in exact arithmetic. Seats credited by branch + pin; the HARVEST_LEDGER opens with this arc (rows 1–7). Date 2026-09-08.*
 
 ## The sentence

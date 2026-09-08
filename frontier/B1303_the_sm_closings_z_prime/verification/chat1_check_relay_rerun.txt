@@ -1,0 +1,35 @@
+check_relay.py
+========================================================================
+
+STAGE 1: Out(E6) = Z/2, from the Cartan matrix (no recall)
+      graph automorphisms found: 2  [(1, 2, 3, 4, 5, 6), (6, 2, 5, 4, 3, 1)]
+  [PASS] Out(E6) = Z/2 (exactly two diagram automorphisms)
+  [PASS] => any order-3 automorphism is INNER: gcd(3, 2) = 1
+
+STAGE 2: the fixed-line law, exhaustive over SL(2,Z)
+      order 1 : traces [2]  det(A-I) [0]
+      order 2 : traces [-2]  det(A-I) [4]
+      order 3 : traces [-1]  det(A-I) [3]
+      order 4 : traces [0]  det(A-I) [2]
+      order 6 : traces [1]  det(A-I) [1]
+  [PASS] torsion orders of SL(2,Z) are exactly {1,2,3,4,6}
+  [PASS] order 3 => trace -1 and det(A-I) = 3, always
+  [PASS] order 2 => trace -2 and det(A-I) = 4, always
+  [PASS] det(A-I) = 2 - tr A identically on det=1 (0 counterexamples)
+
+STAGE 3: F-flatness forbids exactly the helpful flavons (B1283)
+      rule: no monomial S_ij X_j Xbar_i may contain two switched-on fields
+      forbidden: [(1, 1), (1, 2), (1, 3), (2, 1), (3, 1)]
+      allowed  : [(2, 2), (2, 3), (3, 2), (3, 3)]
+  [PASS] forbidden are exactly S_ij with i=g or j=g
+  [PASS] allowed are exactly the other pair's flavons (B1283's branch table)
+
+STAGE 4: the Z' cubic anomaly cancels against the 27-bars
+      three 27s: -20250    three 27-bars: 20250    total: 0
+  [PASS] cubic anomaly vanishes (the spectrum is vector-like)
+  [PASS] POSITIVE CONTROL: the 27s alone are NOT zero (-20250), so the
+      test is not trivially zero -- the cancellation is real.
+
+========================================================================
+ALL CHECKS PASSED.
+RC=0

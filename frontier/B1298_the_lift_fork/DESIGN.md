@@ -58,5 +58,5 @@ so B1266's union-find keeps eight sources; the ratchet is raised by hand 11 → 
 ## 4. What this arc does not do
 No new count; no m202 (B1302); no verification of R72 §2's refined boundary formula beyond citing it; the seat
 scripts `r72_inner_lift.py` (fc, ~5 min) and `theta_odd_pairing.py` (sm, ~7 s) are RE-RUN in pinned worktrees
-(`/Users/dri/oa-audit-seat/fc-seat-659487bb`, `/Users/dri/oa-audit-seat/sm-seat-87a9004a`) as rule 4 requires, and their
+(`oa-audit-seat/fc-seat-659487bb`, `oa-audit-seat/sm-seat-87a9004a`) as rule 4 requires, and their
 selftests recorded alongside this bench's exact numbers.

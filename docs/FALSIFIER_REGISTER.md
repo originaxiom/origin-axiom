@@ -48,3 +48,18 @@ may not reword (verified: no REFUTED-IF sentence differs). The B709 phrasing tha
 seeded a nine-file θ_QCD overclaim is fenced at source (the fence reads onto its prereg
 line; verified 2026-08-12). Gate 5 untouched throughout: this register grades
 falsifiers; it banks no measured value.
+
+## 2026-09-08 — P9 (B1303): the first entry with a scale REGIME, conditional, and the P7 addendum
+
+*Added by the main seat at B1303 (MASTERPLAN v3.1 Phase 1); Phase A's eight rows and grades are untouched. The plan's "falsifiability
+cell" (v3 §5, v3.1 §7 (5)) is THIS register — the phrase was absent from the surfaces, the surface was not (E54 lesson, recorded).*
+
+| P | claim | falsifier (wording fixed here) | sharpness | status | earned? |
+|---|---|---|---|---|---|
+| **P9** | the Standard-Model closing's tree-level vacuum is **SM × U(1)_Z′ (rank 5)** with a **family-non-universal Z′**: E₆ part (5ψ − 3χ)/2 (charges 4 on Q, u^c, e^c; −2 on d^c, L; 10 on ν^c, N; −8 on H_u, D; −2 on H_d, D̄) plus a family part (−10, 5, 5) — the VEV'd generation's N, ν^c exactly neutral, the other two generations equal; anomaly-free; unbroken above the electroweak scale by anything in W at any order (sm:B1283, verified B1303 with independent code) | **S2 half:** a family-non-universal Z′ discovered with these charge ratios whose *distinguished* family is a light family, at a mass below ~50 TeV·g₂ — excluded by K/D mixing on this vacuum, so its discovery would falsify the vacuum, and a Z′ of these charges at any mass with three EQUAL families falsifies it outright. **S3 half:** the scale itself — under CKM-like down mixing, M_Z′/g₂ ≳ 154 TeV (Δm_K) to 1720 TeV (ε_K, O(1) phase) if the VEV'd generation is a light family (the up-sector escape still ≥ 49 TeV), ~2 TeV·g₂⁻¹ (B_s) if it is the third; with radiative U(1)′ breaking (the only mechanism the record supplies; the D-flat alternative is closed because every flat direction is Z′-neutral) M_soft follows the same fork: 10²–10³ TeV, Δ ∼ (M_soft/m_Z)² = 10⁶–10⁸ (split/high-scale supersymmetry), or the LHC scale | **S2 / S3** — "a regime, not a value, and a fork": which family character carries the third family is a VALUE the record does not fix (JOIN 2, 0/19), and the vacuum is one of nine branches on one of 19 624 lines of one of at least two SM closings (L203) | UNTESTED; consistent with LHC nulls in both branches (ATLAS 2026 universal benchmarks 4.8–5.5 TeV are the Case-II regime, not recomputed for these couplings) | **honestly open** — the register's first entry whose *regime* the object's own vacuum names; it is not earned by the LHC's silence, and it cannot be until the fork is resolved by a computation or a measurement |
+
+**P7 addendum (2026-09-08).** P7 ("exactly two extra neutral gauge bosons", S4: "no scale can be named") stands as graded for the
+E₈ theory's two U(1)s. P9 shows that ON A VACUUM a scale regime CAN be named — conditionally on an identification and a
+mediation scenario — without violating the weight ledger's theorem (B811/B1012: no dimensionful prediction from the object):
+the scale enters through the measured Δm_K, ε_K and v, not from the object. That is the correct reading of the tension recorded
+above: the object emits relations and finite labels; the vacuum plus a measurement emits a regime.

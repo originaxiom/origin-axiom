@@ -2368,3 +2368,33 @@ build the subregular embedding explicitly (B1256 has the labelling), deform alon
 h¹(M; 27̄_ρ) numerically at first order and exactly if the point is algebraic. Priced at about a day. If N ≠ 0 there it is the
 programme's first symmetry-unprotected chiral direction on the flat sector — and I-25 (which sl₂) becomes load-bearing for
 chirality, not only for typing. Prior 15 %. ★★.
+
+## L203 — SELECTION AMONG THE CLOSINGS: Y₉'s 19 624 vacua AND Y₁₂'s 34 752 lines (registered 2026-09-08, B1303; the lead v3 §3 cited as "L206" and never registered — an E53 of the plan itself, closed here)
+The record now has TWO Standard-Model closings on the object's own tower: Y₉ (sm:B1278/B1279, re-run B1294: 706 464 SM lines in
+19 624 inequivalent vacua under the group of order 72, all vector-like, all with the colour triplet in three generations —
+sm:B1300, verified B1303) and Y₁₂ (sm:B1301, verified B1303: 34 752 SM lines valued in characters of order 16, on 31 488 of which
+the colour triplet D survives in exactly ONE generation — the doublet–triplet mechanism B1300 excludes on Y₉ exists two
+generations deep in the tower). Nothing in the record selects a closing, a line, or (on Y₉) one of sm:B1283's nine tree-level
+branches; every physics consequence so far (the Z′, P9) is stated "on an observer-selected vacuum". **The only object-native
+selector on the table is the deck-eigen law itself** (the support is the deck's eigenlines at the primes where Δ = t² − 3t + 1
+acquires roots of exact order d | n): a selection principle would have to be a further law of the same kind — e.g. a condition
+on the letters' orders (Y₉: odd 19/38; Y₁₂: 2-adic 16) — or the instanton superpotential's action on the flat moduli (sm:L209(i),
+sm:L210(ii)). **The computation:** (i) enumerate the tower's SM closings to n = 24 by the law's arithmetic (B1303 §5: new odd
+support at 13, 15, 17, 19, 20, 21, 22, 23) and run the seat's line enumerator on each support (Fox calculus per level; Y₁₃'s 1040 and
+Y₁₅'s 60 + 20 are the next), tabulating which closings carry SM lines, three generations, and a thinned triplet; (ii) on Y₉ and
+Y₁₂ compute sm:B1283's tree-level branch structure on the one-triplet lines (does the one surviving D change the μ-matrix's
+rank pattern?); (iii) only then ask whether any single quantity is extremal on exactly one closing. Prior that (iii) yields a
+unique selection without a new closer's choice: 10 %. ★★.
+
+## L205 — THE SIBLING'S LOCALIZED COUNT (registered 2026-09-08, B1303; the owner's decision on MASTERPLAN v3's D3, taken 2026-09-08 after B1302 priced the case)
+**Decision (owner, 2026-09-08): "Reopen D3 as a bounded arc after Phase 1."** One pre-registered arc, numbered from the free block
+(B1316 or later), not a door until it earns one. Its content, fixed now so that it cannot drift: (i) Pantev–Wijnholt eq. (3.18)'s
+LOCALIZED count on m202 — the signed intersection of the Higgs eigen-form's zero locus with the three fixed lines of the order-3
+isometry (fc R72, verified B1302: cusp maps of orders 6, 3, 2 fixing (1,1), (3,3), (4,4) points per cusp) — with fc's two named
+choices (equal signs on the three lines; the manifold within the class) PRICED as identification rows and I-26's transport
+named; (ii) a search of the three-line tetrahedral class (fc's seven manifolds to 12 tetrahedra, the session-relay seat's confirmation) for a
+member that keeps the golden face (a fibration carrying t² − 3t + 1 — B1302: m202 does not; Δ_{m202} has seven ±1 monomials and
+no primitive specialisation divisible by t² − 3t + 1); (iii) the flat-sector control on each candidate (the two-cusp index of
+B1302's `d2multi.py`, expected 0 by the same conjugation). PASS = a 3 that survives the pricing on a golden-face member; FAIL = the
+3 costs the golden face on every member of the class, in which case D3 is closed as drift by computation and the sibling stays
+a control. Prior for PASS: 10 %. Sequenced after B1304–B1307 (v3.1 §3), before Phase 2 Arc A. ★★.

@@ -124,3 +124,8 @@ main's `B1277_leak_closure` vs the seat's `B1277_the_vacuum_manifold_of_the_clos
 `sm:Bnnnn` / `fc:Rnn`; seat branches never merge.
 
 *Anchor added 2026-09-08 (E53, found by the cloud's memo 170): B1227 — amphichiral ⇒ every mirror-odd invariant is 2-torsion — is the theorem this arc's "counts 2 at every fixed locus" belongs to; the cloud unified the σ wall, the selector wall and this arc's integer regime under it. B1297 makes the same reading for the descent's twists.*
+
+*Scope addendum 2026-09-08 (E53, B1303): "Y₉ carries the Standard-Model group" is the Wilson line's gauge algebra. On the
+tree-level vacuum of that closing (sm:B1283, verified in B1303) one extra U(1) survives on every SM-preserving branch: the
+unbroken group at tree level is SM × U(1)_Z′ (rank 5), the Z′ family-non-universal with the VEV'd generation's N, ν^c exactly
+neutral. The chirality statements of this arc are unaffected (the closing is vector-like with or without the Z′).*

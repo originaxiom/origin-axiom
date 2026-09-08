@@ -734,3 +734,22 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   three fixed lines; the inner lift forced) where the object fails both, its flat sector is vector-like by the inversion (sm:B1282,
   exact here), and its price is the golden face (no fibration carries t² − 3t + 1). The count of three on it is PW's localized
   count under two of fc's named choices. That is the whole case for re-pricing D3 — a decision, recorded for the owner. (B1302)
+## 2026-09-08 — B1303 hints (recorded, not judged)
+
+- H-B1303-FORK (type OBSERVATION, this bench): the first physics consequence of the SM closing (sm:B1283's Z′) is two-valued on an
+  identification nobody had named — which of the three family characters, permuted by the deck 3-cycle, carries the THIRD
+  family. Light family ⇒ 10²–10³ TeV (kaon mixing); third family ⇒ a few TeV (B_s mixing). The record's values are 0/19, so the
+  fork is exactly a value question wearing structural clothes; any future "prediction" from the closings must be checked for
+  the same hidden identification. (B1303)
+- H-B1303-SAFE (type OBSERVATION, this bench): the Z′'s only anomaly is the family torus's cubic (−20250 = 27 · Σ f_i³ with
+  f = (−10, 5, 5)); every mixed coefficient vanishes on the 27s ALONE because E₆ is a safe group and the family torus is
+  traceless. So "the 27̄s cancel the anomaly" is a statement about the family torus, not about E₆ — and anomaly-freedom is
+  precisely what makes W_np Z′-invariant and closes the tadpole door at every order. (B1303)
+- H-B1303-BEING (type PROCESS, cross-seat): chat1's "genuinely absent" item (χ from the odd-plane determinant) is B1103 THE BEING
+  GATE, harvested from an outside session on 2026-08-21 — the record files it under the name of its consequence (the mod-3
+  gate as "the being gate"), not under the name of its method (the determinant). Absence sweeps must search by BOTH the
+  method's words and the consequence's words; the E54 class gains a sub-shape: ABSENT-UNDER-THE-OTHER-NAME. (B1303)
+- H-B1303-Y12 (type OBSERVATION, seat's, verified): the tower has at least two SM closings and they differ in exactly the place
+  B1300's theorem fails — Y₁₂'s letters are 2-adic (order 16), their squares land on Y₆'s order-8 support with generation count
+  1, and the triplet thins to one generation. The doublet–triplet mechanism is a property of WHICH closing, i.e. of the tower's
+  arithmetic (the law), not of the closing's algebra. (B1303)

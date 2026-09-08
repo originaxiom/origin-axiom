@@ -68,3 +68,9 @@ surface has no boundary for an arc to end on. Arcs live on the *quotient*.
    untouched.
 3. **Arc-ID collision discipline holds:** the SM seat's arcs are cited as `sB1272…sB1277` per
    `docs/SM_SEAT_ALIAS_TABLE.md`; main's B1272–B1277 are different arcs.
+
+*Scope addendum 2026-09-08 (E53, B1303; the point was chat1's, HARVEST_LEDGER row 20): the headline's "the SM group is reached" is
+the GAUGE ALGEBRA at the Wilson-line step (sm:B1278, re-run B1294). The seat's own next arc, sm:B1283 — verified on this bench in
+B1303 with independent code — computes the tree-level vacuum of that closing and finds that every SM-preserving flat direction
+leaves ONE extra U(1) unbroken: at tree level the unbroken group is **SU(3) × SU(2) × U(1)_Y × U(1)_Z′ (rank 5)**, with a
+family-non-universal Z′ of computed charges. The headline stands for what it says (the algebra); the vacuum's rank is 5, not 4.*

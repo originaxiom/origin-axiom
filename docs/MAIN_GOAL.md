@@ -95,6 +95,16 @@ vector-like**: the SM seat's Y₉ carries the SM group **and three generations**
 **19,624 inequivalent vacua** under the group of order 72, **all in mirror pairs** (sm:B1278/B1279;
 re-run here) — *"the chiral closing needs to supply only the chirality bit."*
 
+**Scope of "the SM group" (E53 fix, B1303, 2026-09-08):** that is the Wilson line's GAUGE ALGEBRA. The tree-level vacuum of the
+same closing (sm:B1283, verified here with independent code) leaves **one extra U(1) unbroken on every SM-preserving flat
+direction — SM × U(1)_Z′, rank 5** — a family-non-universal Z′ with charges 4, −2, 10, −8, −2 (E₆ part (5ψ − 3χ)/2) plus a family
+part under which the VEV'd generation's N, ν^c are exactly neutral. The Z′ is anomaly-free (its only anomaly, the family
+torus's cubic −20250, is cancelled by the 27̄s), every VEV'd field is Z′-neutral (no tadpole at any order), and nothing at the
+SUSY tree level breaks it above the electroweak scale. Its first consequence is B1303's falsifiability entry (`FALSIFIER_REGISTER`
+P9): under CKM-like down mixing, if the VEV'd generation is a light family the Z′ sits at M_Z′/g₂ ≳ 10²–10³ TeV (kaon mixing;
+with radiative breaking M_soft in the same regime, split/high-scale supersymmetry); if it is the third family, at a few TeV
+(B_s mixing; the LHC regime). Which family it is, is a value the record does not fix — **a regime, not a value, and a fork.**
+
 **Two named ASSUMPTIONS (not theorems), and the doors are about them** *(one closed by B1295, the other turned into a theorem + a priced identification by B1296, both 2026-09-07 — the list now holds ZERO assumptions and ONE identification, I-27)*:
 - ~~**θ-equivariance of the vacuum** — fc's modelling choice, derived nowhere on main.~~ **NO LONGER AN ASSUMPTION — Door D1 = B1296 DONE
   (2026-09-07), with a corrected verdict:** it is a **theorem about where the charge locus can be**, `T-CHARGE-LOCUS-PARITY-LOCK`: a

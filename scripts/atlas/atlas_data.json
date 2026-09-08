@@ -6620,7 +6620,7 @@
     "B434"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -6812,6 +6812,34 @@
    ],
    "obstacle": "observable",
    "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1303": {
+   "slug": "the sm closings z prime",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "L203",
+    "L205",
+    "L209",
+    "L210",
+    "P7",
+    "P9",
+    "S2",
+    "S3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 19,
    "status": "banked",
    "domain": "arithmetic"
   },

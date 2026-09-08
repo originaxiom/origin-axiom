@@ -1,0 +1,1 @@
+pinned from sm-seat worktree 053727f3, frontier/B1301_the_towers_alphabet/verification/ (2026-09-08)

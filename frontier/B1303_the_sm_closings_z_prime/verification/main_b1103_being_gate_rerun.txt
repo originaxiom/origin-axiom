@@ -1,0 +1,29 @@
+check_being_gate.py -- exact certificate in Z[zeta_30]
+======================================================================
+STAGE 1: modular data
+  [PASS] S^2 = s*C exactly (theta = charge conjugation is the centre)
+  [PASS] s = -75 (rational)
+  [PASS] S^-1 S = I
+  [PASS] R R^-1 = I  (the capital A)
+  [PASS] L L^-1 = I  (the capital B)
+
+STAGE 2: chi from the odd-plane determinant
+  [PASS] det(odd R) = zeta_3^2
+  [PASS] det(odd L) = zeta_3^1
+  [PASS] => chi(a) = zeta_3,  chi(b) = zeta_3^-1  (exponent p-q)
+
+STAGE 3: the gate on the free group {a,A,b,B}
+    through length 1:     4 words cumulative
+    through length 2:    20 words cumulative
+    through length 3:    84 words cumulative
+    through length 4:   340 words cumulative
+    through length 5:  1364 words cumulative
+  [PASS] gate holds on every word (length <= 5): 1364/1364, h=0 in 28
+
+STAGE 4: the commutator subgroup is inside the Q(zeta_5) locus
+  [PASS] every sampled commutator [u,v] lies in Q(zeta_5) (chi kills commutators)
+  [PASS] h(abAB) = h(ab) exactly (being phase = 1 on both)
+
+======================================================================
+ALL CHECKS PASSED (1364 words, exact arithmetic)
+RC=0

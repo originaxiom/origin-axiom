@@ -1,4 +1,4 @@
-/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+<site-packages>/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
 (a) m004: vol 2.0298832128, cusps 1, shapes [(-1.1102230246251573e-15+3.464101615137757j)]
     m202: vol 4.0597664256, cusps 2, shapes [(0.5000000000000018+0.8660254037844376j), (0.5+0.8660254037844379j)], ratio 2.0000000000

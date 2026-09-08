@@ -1,0 +1,20 @@
+{
+ "T (principal sl2's; B1140/B1138)": {
+  "zero_weight_singlets": 2,
+  "singlet_dim": 10,
+  "charged_dim": 54,
+  "strings_singlet": "{(4, 0): 1, (0, 4): 1}",
+  "strings_charged": "{(2, 2): 6}",
+  "centraliser": 0,
+  "zero_weight_total": 8
+ },
+ "R (root sl2's, regular A1A1A2; fc R49's rank count)": {
+  "zero_weight_singlets": 2,
+  "singlet_dim": 10,
+  "charged_dim": 54,
+  "strings_singlet": "{(1, 0): 2, (0, 1): 2, (0, 0): 2}",
+  "strings_charged": "{(1, 1): 6, (1, 0): 6, (0, 1): 6, (0, 0): 6}",
+  "centraliser": 2,
+  "zero_weight_total": 8
+ }
+}

@@ -1,1 +1,4 @@
-d81fba42180ce5c2785cf09806dd0eca82cfbb22a0a8c8acc5a55673a50f2b0e  DESIGN.md
+f1fef837668ea16d42c5c5c54ea44361da5de891caceef39f2fc2d4a9253bf11  DESIGN.md
+# re-sealed 2026-09-08 (B1303 landing): two machine-path prefixes on line 61 scrubbed to a relative form after the tracked-text
+# machine-path scan (tests/test_no_hardcoded_paths.py); no other byte changed. Original seal, written before B1298's computations:
+# d81fba42180ce5c2785cf09806dd0eca82cfbb22a0a8c8acc5a55673a50f2b0e  DESIGN.md
