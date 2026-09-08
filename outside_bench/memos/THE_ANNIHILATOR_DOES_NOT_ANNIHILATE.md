@@ -211,3 +211,87 @@ must be.
 ```
 python3 certificates/park_ahat_erratum.py 300     # ~4 min; all six controls must fire
 ```
+
+---
+
+# ADDENDUM 1 (2026-09-08, same day) — **PARK'S BLOCKS ARE RIGHT. THE DEFECT IS IN eq (32) AND NOWHERE ELSE**, and the false theta is confirmed by a second instrument
+
+**Certificate** `certificates/park_large_color.py` · **Output** `outputs/park_large_color_out.txt`
+
+## 1. The one way memo 183 could still have been wrong
+
+The memo shows Park's three statements about `m(5₂)` are mutually inconsistent and concludes
+that eq (32) is the odd one out. That conclusion rested on his `f_2, f_3` being right, which was
+argued from their two forms — printed series and `ℚ(q)`-formula — agreeing. But **both of those
+could have come out of the same eq (32) computation**, in which case the agreement would prove
+nothing and the defect could have been in the blocks.
+
+It is now settled the other way, by computing the blocks from an instrument that shares nothing
+with eq (32).
+
+## 2. Park's own method, implemented from the paper
+
+His §3–4, transcribed and run:
+
+* **eq (17)** the `Ř`-matrix on the **lowest weight Verma module** `V^l_∞`;
+* **eq (18)** `Ř^{-1} = P Ř|_{x→1/x, q→1/q} P`;
+* **eq (25)–(26)** the reduced stratified quantum trace,
+  `Tr'_{q,η} β = x^{−(N−1)/2} q^{(N−1)/2} Σ_{w≥0} Tr β'(w) q^w η^w`, `η → 1`,
+  summed in his stated order — by total weight `w`, the leftmost strand left open;
+* **eq (31)** `(x^{1/2} − x^{−1/2}) Tr'_q β = F⁺_{m(5₂)}`, on **his** braid
+  `β = σ₂^{−3}σ₁^{−1}σ₂σ₁^{−1}`.
+
+Exact integer arithmetic in `u = q^{1/2}`, `s = x^{1/2}`. No A-polynomial anywhere.
+
+## 3. Result
+
+| block | from the R-matrix | vs Park's printed series | stable coefficients |
+|---|---|---|---|
+| `f_0` | `−q^{−1}+1−q^2+q^5−q^9+…` | **MATCH** | 78 |
+| `f_1` | `−q^{−1}+1+q−q^2−q^3−q^4+…` | **MATCH** | 55 |
+| `f_2` | `−q^{−1}+2+q−q^2−2q^3−2q^4+…` | **MATCH** | 35 |
+| `f_3` | `2+q−2q^2−2q^3−3q^4+0q^5+2q^6+4q^7+4q^8+2q^9+0q^{10}−3q^{11}` | **MATCH** | 17 |
+| `f_4` | `q^{−2} + 2 − 3q^2 + …`  (`[1,0,2,0,−3]` from `q^{−2}`) | *not printed by Park* | 5 |
+
+> ### Every block Park prints is reproduced. **The defect memo 183 localises is in eq (32) alone.**
+
+## 4. And the false theta is confirmed by a second, independent instrument
+
+Memo 183 §5's exhaustive refutation of the five single-monomial repairs runs against
+`Ẑ(Σ(2,3,11))`, reconstructed there from seven printed coefficients. That reconstruction implies
+a specific `f_4` on a window — `[1, 0, 2, 0, −3, −3, −3, 1]` from `q^{−2}` — obtained with **no**
+`R`-matrix and **no** `Â`. The large-color computation, which knows nothing of Σ(2,3,11), returns
+
+```
+   f_4  =  1*q^-2 + 0*q^-1 + 2*q^0 + 0*q^1 - 3*q^2 + ...
+```
+
+**The two agree on every coefficient the R-matrix has converged (all five).** In particular both
+give `f_4` starting at `q^{−2}` — two steps below `f_3`'s `q^0`, which is the feature the five
+candidate repairs of eq (32) all get wrong, and which no single-monomial repair reproduces.
+
+Park's own `m(7₃)` blocks show the same downward drift (`q^{−2}, q^{−2}, q^{−3}, q^{−3}, q^{−5}`
+for `f_1..f_5`), so it is a property of these series, not an artefact.
+
+## 5. An error of mine, recorded at the point of occurrence
+
+The first version of this computation carried an `x`-degree truncation window derived by hand
+from the braid word. It was **too tight by five units in `x`**, and it produced an `f_3` that was
+**stable in `w` across eight consecutive strata and wrong** — `2, 1, −1, −1, −1, …` instead of
+Park's `2, 1, −2, −2, −3, …`. A convergence check on the summation index could not see it; only
+widening the window did. That is exactly memo 164's rule, and the certificate now carries
+**C2**, which recomputes at margin `M+5` and requires the same blocks, alongside the convergence
+check **C3**.
+
+I do not have a proof of the correct margin; C2 is an empirical saturation test (`M` and `M+5`
+agree, and `M+5` and `M+10` agreed when checked by hand). **Stated as a fence, not hidden.**
+
+## 6. What is now unblocked, and what is not
+
+* **Unblocked:** `f_j` for `m(5₂)` to any `j`, at a `q`-order that grows with the weight cutoff.
+  This is the route to `c_eff` for a second hyperbolic knot that memo 183 §7 said was blocked.
+* **Not yet:** `c_eff` needs `f_j` to thousands of `q`-coefficients, and the stratified trace
+  costs too much for that directly. The practical route is still to **repair eq (32)** — now
+  with true blocks in hand to fit against — and then run the repaired recursion. `f_4` to about
+  ten converged coefficients is expected to determine the repair; five are in hand.
+* **No `c_eff` number for `5₂` is claimed here.** Memo 182 addendum 2 §4's withdrawal stands.
