@@ -2516,6 +2516,11 @@ vanishing of a rank-one nilpotent. **The law's final form (B1304 addendum, exact
 of Y_d carries a class iff d is odd, it is a half-deck eigencharacter prime to 5, and u^d ≡ ±1 globally; everything else is
 pullback (exact, Lemma 1) or the 2-adic levels 3, 6, 12.
 
+**L210(iii) status 2026-09-08 (B1302 addendum, the selection among the 768):** under the deck, the half-deck Ψ and the
+amphichiral involution J (each a symmetry of the support), Y₁₂'s 768 one-triplet lines form **8 orbits of 96**, and its
+34 752 SM lines 388 orbits (52 of 48, 336 of 96): eight inequivalent one-triplet vacua, which the object does not choose
+among.
+
 **L210 status 2026-09-08 (B1302 addendum, the three-generation reading):** the one-triplet lines with ⟨N_{g₂}⟩ alone carry
 the MSSM's content in three generations (vector-like, no exotic, one Higgs pair) with rank-2 Yukawas — the next
 question is the flavour structure: whether the exponential sector or the flavon moduli split the degenerate pair and

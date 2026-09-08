@@ -43,3 +43,11 @@ def test_the_three_generation_reading_with_the_n_vev_alone():
     import three_generation_reading as R
     out = R.main()
     assert out['ok'] and out['lp'] == {'T': 3, 'H': 5, 'Q': 3, 'u^c': 3, 'e^c': 3}
+
+
+def test_the_selection_among_the_768_under_the_closings_symmetries():
+    import selection_768 as Sel
+    out = Sel.main()
+    assert out["deck t = Psi^2"] == (64, {12: 64}) and out["deck and half-deck <Psi>"] == (32, {24: 32})
+    assert out["<Psi, J>"] == (8, {96: 8}) and out["<Psi, J, inversion>"] == (8, {96: 8})
+    assert out["all SM lines <Psi, J, inversion>"] == (388, {48: 52, 96: 336})
