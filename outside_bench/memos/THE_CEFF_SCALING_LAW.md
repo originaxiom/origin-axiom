@@ -547,3 +547,64 @@ arithmetic, not evidence: `6` is the target and `c_eff(1/(q;q)_∞^m) = m`, so a
 tail `(q;q)_∞` would give six. Nothing here connects that six to `c((E₆)₁) = 6` beyond the
 number. **It is written down because it is the first concrete route to `6` this line has
 produced, not because it is believed.**
+
+---
+
+# ADDENDUM 5 (2026-09-08, same day) — the law at the threshold, and the object with `c_eff(1/Φ) = 6` exists
+
+Certificates `certificates/connected_sum_tails.py` (output `outputs/connected_sum_tails_out.txt`)
+and `outputs/near_threshold_out.txt`.
+
+## 1. Two new slopes, neither used to build `h`, both near the threshold
+
+Extending the generator to `k = 420` and assembling every spin`^c` sector:
+
+| `p/r` | `Q` | sector | horizon | measured | `B` | **law** | ratio | memo 176's formula |
+|---|---|---|---|---|---|---|---|---|
+| `−3/1` | 3.00 | `a = 3` | `q^14699` | **0.499999** | −0.500 | 0.500000 | **1.00000** | 0.422324 (−16 %) |
+| `−7/2` | 3.50 | `a = 15/2` | `q^6359` | **0.645283** | −0.498 | 0.645299 | **0.99998** | 0.492711 (−24 %) |
+| `−7/2` | 3.50 | `a = 3/2` | `q^6479` | 0.645303 | −0.500 | 0.645299 | 1.00001 | — |
+| `−15/4` | 3.75 | `a = 33/2` | `q^3023` | 0.752290 | −0.496 | 0.780263 | 0.964 | 0.527904 (−32 %) |
+
+`Q = 3.5` is the sharpest test yet made: a slope that entered nothing, close enough to the
+threshold that the refuted formula is **24 % low**, and the replacement law lands within
+`2 × 10⁻⁵`. Every one of the seven `a`-sectors at that slope agrees; the two with `B` closest to
+`−1/2` agree to five figures.
+
+**`Q = 3.75` is 3.6 % low, and the reason is structural, not a failure.** The usable horizon
+scales as `(1/Q − 1/4)·k²`, and that coefficient collapses toward the threshold: `0.0833` at
+`Q = 3`, `0.0357` at `Q = 3.5`, **`0.0167` at `Q = 3.75`**. So the same `k = 420` buys `q^14699`
+at `Q = 3`, `q^6479` at `Q = 3.5` and only `q^3023` at `Q = 3.75`. Within that slope the
+under-convergence is visible directly: the sectors with the largest horizons give the largest
+values (`H = 5319 → 0.75796` against `H = 3023 → 0.75229`), rising toward the law's `0.780263`,
+which is the same direction every earlier horizon scan showed. **Recorded as under-converged, not
+as agreement** — it is the one row in this memo that does not confirm the law, and it stays in the
+table.
+
+## 2. The object with `c_eff(1/Φ) = 6` exists, and it costs nothing
+
+Addendum 4 named connected sums as a route to `6` and, in the same breath, gave two computed
+arguments against it. The half of that question that can be settled offline is now settled.
+
+The normalised colored Jones is multiplicative under connected sum, so `#^m 4₁` has
+`J_n = J_n(4₁)^m`. Computing that from eq (166) and reading the stable head:
+
+| `m` | tail of `#^m 4₁` | matched over the stable window | `c_eff(1/Φ)` on 30 000 terms |
+|---|---|---|---|
+| 1 | `(q;q)_∞` | ✅ | 0.999984 |
+| 2 | `(q;q)_∞²` | ✅ | 1.999966 |
+| 3 | `(q;q)_∞³` | ✅ | 2.999940 |
+| **6** | **`(q;q)_∞⁶`** | ✅ | **5.999820** |
+
+> **On the colored Jones side, the object whose reciprocal tail carries six units of central
+> charge exists, is explicit, and is the connected sum of six figure-eight knots.**
+
+That was the ingredient that looked out of reach. It is not out of reach; it costs a connected
+sum. Nothing here says `Ẑ` sees it — addendum 4 §3's cell is unchanged and its prior is still
+**OUTCOME B**, on the two obstructions recorded there. What has changed is that the cell is now
+worth running: the target object is in hand on one side of it.
+
+**Fence, repeated because it is the part most easily misread.** That the multiplicity is six and
+the summand is the figure-eight is **arithmetic**: `c_eff(1/(q;q)_∞^m) = m`, so *any* knot with
+tail `(q;q)_∞` gives six at `m = 6`. Nothing connects that six to `c((E₆)₁) = 6` beyond the
+number, and the mechanism `c_edge = c_eff(1/Φ_K)` still has exactly **one** data point.
