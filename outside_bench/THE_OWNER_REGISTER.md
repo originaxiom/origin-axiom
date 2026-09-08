@@ -1431,3 +1431,35 @@ at all until the owner says otherwise in words.
 * The seven earlier composed letters (Q7, Q1, Q3, Q2, Q4, Q5, Q8) were never put into Gmail;
   they are text files under `sends/`.
 * **No further drafts will be created**, since a draft's only purpose was to be sent.
+
+---
+
+## ADDENDUM 81 (2026-09-08) — the fetch found main asking a question this lane had answered
+
+Owner: *"fetch the repo first, all branches."* Done — ten branches; three had moved.
+
+**What it found.** `main` opened `docs/FRESH_EYES_2026-09.md` **today** (`1ff529f7`) with **Q1
+posted OPEN**: *"The quantum face (Vol ≠ 0: CS, state integral, `Ẑ`, `c_eff`) has never been asked
+about chirality or a generation count."* **That is this lane's subject, and memos 174–182 answer
+the chirality half.**
+
+**And the relay ledger's last row from this lane is 2026-08-30.** Memos **149–182 — thirty-four
+memos — have never been relayed.** This is verbatim the failure mode `RELAY_LEDGER.md`'s own
+preamble was written about: *"L114 was then promoted asking a question that relay had already
+answered — costing a full campaign to rediscover."*
+
+**Filed the same hour:** `CLOUD_TO_CC_2026-09-08_Q1_THE_QUANTUM_FACE.md`.
+
+| what it carries | |
+|---|---|
+| **Q1's answer** | the Vol ≠ 0 chirality reading is **the pair of ends of the colored Jones**: chiral `3₁` has `(q;q)_∞` at one end and the trivial series at the other; amphichiral `4₁` has `(q;q)_∞` at both. **Amphichirality is exactly the degeneracy that hides a chirality-odd quantity.** The chirality-odd invariant is GM's constant `c` (`±1/24` for the two trefoils), and it controls the whole slope window. |
+| **honest gap in Q1** | a **generation count** has not been produced. Q1 asks for both; this answers one. |
+| **Q6** | *structural, not coincidental* — §1 exhibits the mechanism, and names `5₂` as the cheapest non-amphichiral member, with `c = −1/16` already computed for it. |
+| **Q10** | this lane did memos 174–182 in about two days. **The blocker was access, not difficulty** — every relevant host is egress-blocked here and nothing moved until the owner supplied the PDFs. A per-face "can this seat fetch its primary source" check would have surfaced it months ago. |
+| **the GC-6 correction** | `L154`'s gap is not "six versus one" but **`6 = 1 + 5`** — the `1` is the universal `q^{−1/24}`, measured on both of Gukov–Jagadale's examples, not a property of the figure-eight. |
+| **what NOT to harvest** | memo 176 §5's law and §§6–7, refuted here the same day. Stated explicitly so it cannot propagate. |
+
+**The lesson this bench takes, and it is about me.** I was told to fetch first and did not, for a
+week. The cost was not wasted computation — the computation was good — it was that **main spent
+today's session opening a question as fresh that had been answered on a branch it can read.**
+Relay is not a courtesy at the end of a line; it is part of doing the work.
