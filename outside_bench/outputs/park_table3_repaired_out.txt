@@ -1,0 +1,44 @@
+==============================================================================
+blocks from the repaired recursion (c_3, c_4, c_5 only; f_0..f_5 are the ones
+addendum 2 confirmed against Park's large color R-matrix)
+   f_0 : q^-1    lowest
+   f_1 : q^-1    lowest
+   f_2 : q^-1    lowest
+   f_3 : q^0     lowest
+   f_4 : q^-2    lowest
+   f_5 : q^-3    lowest
+   f_6 : q^-4    lowest
+   f_7 : q^-5    lowest
+   f_8 : q^-9    lowest
+==============================================================================
+(1) the x^6 correction
+   with c_3,c_4,c_5 : Zhat(Sigma(2,3,11)) agrees on q^-1 .. q^33
+   with c_6 added   : Zhat(Sigma(2,3,11)) agrees on q^-1 .. q^45
+   c_6 = -1 q^{27/2} -1 q^{29/2} -1 q^{35/2} -2 q^{37/2} +1 q^{41/2}
+   [solved FROM that target, so the extension is bookkeeping, not evidence]
+==============================================================================
+(2) Park's Table 3, assembled from f_0..f_5 ALONE via GM Thm 1.2 + eq (1)
+    F_K = F+(x) - F+(1/x); prefactor (x^{1/2r} - x^{-1/2r}); L: x^u -> q^{-u^2 r/p}
+    if r u - a in pZ.  Blocks land at u^2/|p|, so p = -2, -3 place them where
+    nothing in the repair ever looked.
+==============================================================================
+   p=-1  a=0 : lo = q^-1     verified to q^33    -> 6 of Park's 7 printed terms, and 27 zeros  MATCH
+   p=-2  a=0 : lo = q^-1     verified to q^15    -> 2 of Park's 6 printed terms, and 13 zeros  MATCH
+   p=-2  a=1 : lo = q^3/2    verified to q^18    -> 4 of Park's 5 printed terms, and 14 zeros  MATCH
+   p=-3  a=0 : lo = q^-1     verified to q^9     -> 3 of Park's 6 printed terms, and 6 zeros  MATCH
+   p=-3  a=1 : lo = q^4/3    verified to q^10    -> 2 of Park's 4 printed terms, and 8 zeros  MATCH
+   one overall factor for every series : [Fraction(1, 2)]  ->  PASSED
+   C2 spin^c conjugation, p=-3: a=1 and a=2 give identical series : PASSED
+   C3 p=-1 under the conservative bound lo(f_j) >= -(j-3)^2 : verified to q^28, 6 printed terms, MATCH
+
+   FENCE.  At p = -2 and p = -3 the horizon is finite only if the blocks' lowest
+   q-powers fall more slowly than the placements u^2/|p| grow -- which is GM's own
+   applicability condition (177), 4c + r/p > 0.  The horizons above use the repaired
+   recursion's computed lo(f_j) through j = 18 and -(2j+1)^2/40 beyond, the slope the
+   measured blocks show; under the much harsher -(j-3)^2 the p = -2, -3 sums do not
+   converge at all and those two rows say nothing.  This is a genuine dependence and
+   it is not hidden: what those rows verify is CONDITIONAL on 5_2's block edge falling
+   at roughly the measured rate.
+==============================================================================
+CONTROLS: {'C1 Table 3 matches': 'PASSED', 'C2 spin^c conjugation': 'PASSED', 'C3 p=-1 unconditional': 'PASSED'}
+ALL CONTROLS PASSED.

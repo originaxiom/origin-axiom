@@ -401,3 +401,82 @@ of the correct margin."* It is now **measured**: at weight cutoff 11 the blocks 
 margin 2, correct at margin 3, and **identical at margins 3, 4 and 5** — saturation at 3. The
 certificate uses 5. So `f_5` (margin 4) and `f_6` (margin 3), as used in memo 184 §5, are both
 inside the saturated regime. Still an empirical saturation, not a proof.
+
+---
+
+# ADDENDUM 3 (2026-09-08, same day) — **THE REPAIRED BLOCKS REPRODUCE PARK'S TABLE 3 AT `p = −2` AND `p = −3`**, and `c_6` is determined
+
+**Certificate** `certificates/park_table3_repaired.py` · **Output** `outputs/park_table3_repaired_out.txt`
+
+## 1. Why another test was needed
+
+Addendum 2 tested `c_3, c_4, c_5` against the large color `R`-matrix blocks and against
+`Ẑ(Σ(2,3,11))`. **Both live at `p/r = −1`.** Park's Table 3 also prints `Ẑ` for `p = −2` and
+`p = −3`, where GM Thm 1.2's transform places block `k` at `u²/|p|` instead of `u²`, and the
+residue condition `ru − a ∈ pℤ` selects a *different subset of blocks for each `spin^c` label*.
+**Nothing in the repair ever looked there.**
+
+## 2. `c_6`, and why it is bookkeeping
+
+With `f_0 … f_5` exact, the surgery identity leaves `g_6 = f_5 − f_6` readable on
+`[36 + lo(g_6), 49 + lo(g_7))`, and `δ_6` then gives
+
+```
+   c_6 = -q^{27/2} - q^{29/2} - q^{35/2} - 2 q^{37/2} + q^{41/2}
+```
+
+which extends the `Ẑ(Σ(2,3,11))` agreement from `q^{33}` to `q^{45}`. **`c_6` was solved from
+that target, so the extension is not evidence for it** — stated here so it is not mistaken for a
+test. The independent test is §3, and §3 deliberately uses **only `f_0 … f_5`**, the blocks
+addendum 2 confirmed coefficient by coefficient against Park's own `R`-matrix.
+
+## 3. The independent test
+
+| | lowest | verified to | Park's printed terms covered | zeros reproduced | |
+|---|---|---|---|---|---|
+| `p = −1, a = 0` | `q^{−1}` | `q^{33}` | **6 of 7** | 27 | MATCH |
+| `p = −2, a = 0` | `q^{−1}` | `q^{15}` | 2 of 6 | 13 | MATCH |
+| `p = −2, a = 1` | `q^{3/2}` | `q^{18}` | **4 of 5** | 14 | MATCH |
+| `p = −3, a = 0` | `q^{−1}` | `q^{9}` | 3 of 6 | 6 | MATCH |
+| `p = −3, a = 1` | `q^{4/3}` | `q^{10}` | 2 of 4 | 8 | MATCH |
+
+> **One overall factor, `1/2`, for all five series** — which is GM's own
+> `F_K = ½(Ξ(x) − Ξ(1/x))`, not a fitted scale. It comes out the same on five series with three
+> different `p`, two different `spin^c` sectors and four different lowest exponents.
+
+The **zeros** are the strong part. Park's `p = −2, a = 0` row reads `1 − q` and then *eighteen
+zeros* before `q^{18}`; thirteen of them are inside the horizon and every one is reproduced. A
+wrong block would have to vanish there by accident.
+
+**C2, a structural control the assembly does not enforce:** at `p = −3` the labels `a = 1` and
+`a = 2` come out **identical** — `spin^c` conjugation. Park prints two series for `p = −3`, not
+three, which is the same statement.
+
+**C3:** the `p = −1` row survives even under the harsh bound `lo(f_j) ≥ −(j−3)²` on the blocks
+not used, verified to `q^{28}` with six printed terms. That row does not lean on the repair
+beyond `f_5` at all.
+
+## 4. The fence on §3, stated because it is real
+
+At `p = −2` and `p = −3` the horizon is finite **only if** the blocks' lowest `q`-powers fall
+more slowly than the placements `u²/|p|` grow. That is GM's own applicability condition (177),
+`4c + r/p > 0`. The horizons in §3 use the repaired recursion's computed `lo(f_j)` through
+`j = 18` and `−(2j+1)²/40` beyond — the slope the measured blocks show. **Under the much harsher
+`−(j−3)²` those two sums do not converge at all and those rows say nothing.** So what §3 verifies
+at `p = −2, −3` is *conditional* on `5₂`'s block edge falling at roughly the measured rate.
+
+**A consequence worth flagging, not claimed.** The measured `lo(f_j)` correspond to
+`|c| ≈ 1/40`, and GM's condition then gives a slope window `|p/r| < 1/(4|c|) ≈ 10` for `5₂` —
+not the `4` memo 182 §3 inferred from the table that addendum 3 there withdrew. Park printing
+`Ẑ` for `p = −1, −2, −3` is consistent with a window wider than 4. **No value of `c` is claimed**
+(memo 182 addendum 3), so no window is claimed either; this is recorded as the direction the
+evidence points.
+
+## 5. Where the repair stands
+
+`c_3 … c_6` determined; `Ẑ(Σ(2,3,11))` reproduced to `q^{45}`; every converged coefficient of
+`f_2 … f_5` from two instruments reproduced; Park's Table 3 reproduced at three surgery
+coefficients and two `spin^c` sectors. **Still incomplete** — `a_1` has `x`-degree 11 and only
+`x^3 … x^6` are pinned, so `c_7 … c_{11}` remain, each needing the next block. And addendum 2 §4's
+warning stands: the reconstruction's shape argues these are an equivalent sum rather than Park's
+own missing terms. **No `c_eff` for `5₂` is claimed.**
