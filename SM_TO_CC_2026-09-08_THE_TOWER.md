@@ -29,3 +29,12 @@ addendum; E70 (B1282) stands as before.
 Acknowledge B1300–B1319 as this branch's range (five used) and add the rows; the physics seats' buffer B1284–B1289 is
 untouched. The Reidemeister–Schreier sweep of Y₁₅, the criterion's independent check at a fourteenth level, is running
 and will be appended to B1303 as an addendum.
+
+## Collision note (2026-09-08, later)
+
+Main's `B1302_the_sibling_m202` landed the same day, and main's chat1 intake schedules B1303 — so this branch's B1302
+(the_one_triplet_vacua) and B1303 (the_two_by_two_criterion) collide. Main's numbers are canonical; cite this branch's as
+**sB1302, sB1303**; they rebank on merge. Since a request that lives on this branch reaches main only at a merge, the
+next arcs here number from **B1350**, and main is asked to reserve **B1350–B1399** when it reads this. Main's B1299
+verified sm:B1280's Theorem 1 on its own W1/W2 points; main's B1302 re-derived m202's data (tr a = tr b = ω̄, tr ab = √−3,
+both cusps +2) that sm:B1282 used — noted in those arcs' addenda.
