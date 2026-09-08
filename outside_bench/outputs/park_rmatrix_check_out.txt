@@ -1,0 +1,8 @@
+Park eq (10), n=2: braid relation holds: True
+Park eq (10), n=3: braid relation holds: True
+Park eq (10), n=4: braid relation holds: True
+
+Park eq (10)+(12)+(13) vs the references:
+   n=2  trefoil vs Habiro: True    figure-eight vs GM eq (166): True
+   n=3  trefoil vs Habiro: True    figure-eight vs GM eq (166): True
+   n=4  trefoil vs Habiro: True    figure-eight vs GM eq (166): True
