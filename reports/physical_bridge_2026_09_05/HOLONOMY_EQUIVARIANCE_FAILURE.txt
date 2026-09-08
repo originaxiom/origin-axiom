@@ -1,0 +1,219 @@
+R20 first execution failure, seal 72e40d9c, 2026-09-08
+Both processes terminal; tree quiescent. Original source/tests unchanged.
+
+Native command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 sage -python reports/physical_bridge_2026_09_05/holonomy_equivariance.py --verified
+Exit 1; failed after canonicalization at missing combinatorial basis bridge.
+
+Traceback (most recent call last):
+  File "reports/physical_bridge_2026_09_05/holonomy_equivariance.py", line 252, in <module>
+    print(json.dumps(run(certified), default=str, indent=2, sort_keys=True), flush=True)
+                     ^^^^^^^^^^^^^^
+  File "reports/physical_bridge_2026_09_05/holonomy_equivariance.py", line 240, in run
+    geometric = [geometry(verified, bits) for bits in ((100, 212) if verified else (100,))]
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "reports/physical_bridge_2026_09_05/holonomy_equivariance.py", line 240, in <listcomp>
+    geometric = [geometry(verified, bits) for bits in ((100, 212) if verified else (100,))]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "reports/physical_bridge_2026_09_05/holonomy_equivariance.py", line 114, in geometry
+    raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+Focused command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest -q tests/test_physical_bridge_holonomy_equivariance.py tests/test_physical_bridge_holonomy_spectrum.py tests/test_physical_bridge_weighted_cohomology.py
+Exit 1; 29 passed, 6 failed, one optional GUI warning.
+
+.F..FFFFF..........................                                      [100%]
+=================================== FAILURES ===================================
+________ test_complete_numerical_geometry_control_and_two_cusp_descent _________
+
+    def test_complete_numerical_geometry_control_and_two_cusp_descent():
+>       g = he.numerical_control()['geometry']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+________ test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters ________
+
+    def test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters():
+>       r = he.numerical_control()['algebra']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:55: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+____ test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers ____
+
+    def test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers():
+>       rows = he.numerical_control()['algebra']['c3_fixed']
+               ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+_______ test_sixfold_and_full_scalar_invariance_force_trivial_character ________
+
+    def test_sixfold_and_full_scalar_invariance_force_trivial_character():
+>       r = he.numerical_control()['algebra']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:74: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+____ test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial ____
+
+    def test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial():
+>       r = he.numerical_control()['algebra']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:81: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+____ test_every_scalar_lift_of_pair_free_character_has_central_obstruction _____
+
+    def test_every_scalar_lift_of_pair_free_character_has_central_obstruction():
+>       r = he.numerical_control()['algebra']
+            ^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_physical_bridge_holonomy_equivariance.py:90: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+verified = False, bits = 100
+
+    def geometry(verified=False, bits=100):
+        import snappy
+        Q = snappy.Manifold('m202')
+        pi = Q.fundamental_group()
+        assert list(pi.generators()) == ['a', 'b'] and list(pi.relators()) == [hs.RELATOR]
+        words = [list(pair) for pair in pi.peripheral_curves()]
+        B = [sp.Matrix([[w.count(c)-w.count(c.upper()) for w in pair] for c in 'ab']) for pair in words]
+        K = Q.canonical_retriangulation(verified=verified, interval_bits_precs=[bits],
+                                       exact_bits_prec_and_degrees=[(bits, 10), (1000, 20)])
+        bridges = Q.isomorphisms_to(K)
+        if not bridges:
+>           raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E           ValueError: no explicit original-to-canonical combinatorial basis bridge
+
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: ValueError
+=============================== warnings summary ===============================
+tests/test_physical_bridge_holonomy_equivariance.py::test_complete_numerical_geometry_control_and_two_cusp_descent
+  <PYTHON_ENV>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_complete_numerical_geometry_control_and_two_cusp_descent
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_sixfold_and_full_scalar_invariance_force_trivial_character
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_every_scalar_lift_of_pair_free_character_has_central_obstruction
+6 failed, 29 passed, 1 warning in 19.87s
