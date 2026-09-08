@@ -1,0 +1,63 @@
+
+== u = omega_1^vee ==
+  [78] C_ss = A5/D5 (ranks [5]), charged sectors:
+     q =   -1  dim 16  dominant labels (per factor, Dynkin) ([1 0 0 0 0]) x1
+     q =    1  dim 16  dominant labels (per factor, Dynkin) ([0 0 1 0 0]) x1
+  [27] C_ss = A5/D5 (ranks [5]), charged sectors:
+     q = -2/3  dim 10  dominant labels (per factor, Dynkin) ([0 0 0 0 1]) x1
+     q =  1/3  dim 16  dominant labels (per factor, Dynkin) ([1 0 0 0 0]) x1
+     q =  4/3  dim  1  dominant labels (per factor, Dynkin) ([0 0 0 0 0]) x1
+
+== u = omega_2^vee ==
+  [78] C_ss = A5/D5 (ranks [5]), charged sectors:
+     q =   -2  dim  1  dominant labels (per factor, Dynkin) ([0 0 0 0 0]) x1
+     q =   -1  dim 20  dominant labels (per factor, Dynkin) ([0 0 1 0 0]) x1
+     q =    1  dim 20  dominant labels (per factor, Dynkin) ([0 0 1 0 0]) x1
+     q =    2  dim  1  dominant labels (per factor, Dynkin) ([0 0 0 0 0]) x1
+  [27] C_ss = A5/D5 (ranks [5]), charged sectors:
+     q =   -1  dim  6  dominant labels (per factor, Dynkin) ([1 0 0 0 0]) x1
+     q =    1  dim  6  dominant labels (per factor, Dynkin) ([1 0 0 0 0]) x1
+
+== u = omega_4^vee ==
+  [78] C_ss = A2 x A1 x A2 (ranks [2, 1, 2]), charged sectors:
+     q =   -3  dim  2  dominant labels (per factor, Dynkin) ([0 0], [1], [0 0]) x1
+     q =   -2  dim  9  dominant labels (per factor, Dynkin) ([0 1], [0], [1 0]) x1
+     q =   -1  dim 18  dominant labels (per factor, Dynkin) ([1 0], [1], [0 1]) x1
+     q =    1  dim 18  dominant labels (per factor, Dynkin) ([0 1], [1], [1 0]) x1
+     q =    2  dim  9  dominant labels (per factor, Dynkin) ([1 0], [0], [0 1]) x1
+     q =    3  dim  2  dominant labels (per factor, Dynkin) ([0 0], [1], [0 0]) x1
+  [27] C_ss = A2 x A1 x A2 (ranks [2, 1, 2]), charged sectors:
+     q =   -2  dim  3  dominant labels (per factor, Dynkin) ([1 0], [0], [0 0]) x1
+     q =   -1  dim  6  dominant labels (per factor, Dynkin) ([0 0], [1], [1 0]) x1
+     q =    1  dim  6  dominant labels (per factor, Dynkin) ([1 0], [1], [0 0]) x1
+     q =    2  dim  3  dominant labels (per factor, Dynkin) ([0 0], [0], [1 0]) x1
+
+== u = omega_1^vee+omega_6^vee ==
+  [78] C_ss = D4 (ranks [4]), charged sectors:
+     q =   -2  dim  8  dominant labels (per factor, Dynkin) ([0 0 1 0]) x1
+     q =   -1  dim 16  dominant labels (per factor, Dynkin) ([1 0 0 0]) x1  ([0 0 0 1]) x1
+     q =    1  dim 16  dominant labels (per factor, Dynkin) ([1 0 0 0]) x1  ([0 0 0 1]) x1
+     q =    2  dim  8  dominant labels (per factor, Dynkin) ([0 0 1 0]) x1
+  [27] C_ss = D4 (ranks [4]), charged sectors:
+     q =   -2  dim  1  dominant labels (per factor, Dynkin) ([0 0 0 0]) x1
+     q =   -1  dim  8  dominant labels (per factor, Dynkin) ([0 0 0 1]) x1
+     q =    1  dim  8  dominant labels (per factor, Dynkin) ([1 0 0 0]) x1
+     q =    2  dim  1  dominant labels (per factor, Dynkin) ([0 0 0 0]) x1
+
+== u = omega_3^vee+omega_5^vee ==
+  [78] C_ss = A1 x A2 x A1 (ranks [1, 2, 1]), charged sectors:
+     q =   -4  dim  3  dominant labels (per factor, Dynkin) ([0], [1 0], [0]) x1
+     q =   -3  dim  4  dominant labels (per factor, Dynkin) ([1], [0 0], [0]) x1  ([0], [0 0], [1]) x1
+     q =   -2  dim 12  dominant labels (per factor, Dynkin) ([1], [0 1], [1]) x1
+     q =   -1  dim 12  dominant labels (per factor, Dynkin) ([0], [1 0], [1]) x1  ([1], [1 0], [0]) x1
+     q =    1  dim 12  dominant labels (per factor, Dynkin) ([0], [0 1], [1]) x1  ([1], [0 1], [0]) x1
+     q =    2  dim 12  dominant labels (per factor, Dynkin) ([1], [1 0], [1]) x1
+     q =    3  dim  4  dominant labels (per factor, Dynkin) ([1], [0 0], [0]) x1  ([0], [0 0], [1]) x1
+     q =    4  dim  3  dominant labels (per factor, Dynkin) ([0], [0 1], [0]) x1
+  [27] C_ss = A1 x A2 x A1 (ranks [1, 2, 1]), charged sectors:
+     q =   -3  dim  2  dominant labels (per factor, Dynkin) ([1], [0 0], [0]) x1
+     q =   -2  dim  3  dominant labels (per factor, Dynkin) ([0], [0 1], [0]) x1
+     q =   -1  dim  6  dominant labels (per factor, Dynkin) ([0], [1 0], [1]) x1
+     q =    1  dim  6  dominant labels (per factor, Dynkin) ([1], [0 1], [0]) x1
+     q =    2  dim  3  dominant labels (per factor, Dynkin) ([0], [1 0], [0]) x1
+     q =    3  dim  2  dominant labels (per factor, Dynkin) ([0], [0 0], [1]) x1

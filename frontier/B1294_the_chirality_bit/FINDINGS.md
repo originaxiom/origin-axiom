@@ -27,9 +27,14 @@ re-run or re-derived on this bench, plus the one statement none of the seats mad
   direction of dimension 1, not the harmonic form's actual value); if it vanishes, `(±2, ±1)` leads and `χ = ±4`.
 - **fc:R69 — Fix(θ) as a charge locus gives net ±2 or 0**, and *"the cusp is what keeps the endpoints; every
   closing removes them"*: on every filling the two arcs close into one loop or two, `χ = 0`.
-- **fc:R70 — what the two are two of:** every θ-even Cartan direction gives `2(R ⊕ R̄)`, vector-like; the only
+- **fc:R70 — what the two are two of:** ~~every θ-even Cartan direction gives `2(R ⊕ R̄)`, vector-like~~; the only
   chiral abelian direction, `ω₁^∨` (SO(10)×U(1), `1 + 16 + 10`), is not θ-even, so under θ-equivariance its
   count is zero. Scope gap fc states: PW §3.1 non-abelian spectral covers **not examined**.
+  *Corrected 2026-09-07 by B1296 (computed face by face on the F₄ chamber = the θ-even Cartan):* θ-evenness gives
+  **dimension** symmetry (44/44), not vector-likeness — **4 of the 15 faces are chiral** (`w4`, `w3+w5`, `w2+w4`,
+  `w1+w6+w3+w5`; 54/54/18/6 chiral states) **and every chiral face is SU(3)-cubic-anomalous**; the other 11 are
+  vector-like. R70's *conclusion* survives strengthened — the chamber is vector-like or anomalous, never chiral and
+  clean (`T-CHARGE-LOCUS-PARITY-LOCK`) — its *headline* does not. Registered in `docs/RETRACTED_PHRASES.md`.
 
 ## Re-computed here (sections of the script)
 
@@ -117,3 +122,5 @@ identification of quaternion conjugation with `−s_β`, `β = φ⁻¹`; fc's PW
 half is re-derived in B, its charge half re-run). No identification-ledger row moves. Number collision recorded:
 main's `B1277_leak_closure` vs the seat's `B1277_the_vacuum_manifold_of_the_closing` — cite seat arcs as
 `sm:Bnnnn` / `fc:Rnn`; seat branches never merge.
+
+*Anchor added 2026-09-08 (E53, found by the cloud's memo 170): B1227 — amphichiral ⇒ every mirror-odd invariant is 2-torsion — is the theorem this arc's "counts 2 at every fixed locus" belongs to; the cloud unified the σ wall, the selector wall and this arc's integer regime under it. B1297 makes the same reading for the descent's twists.*

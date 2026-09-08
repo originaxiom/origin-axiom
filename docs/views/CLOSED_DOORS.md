@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**786 recorded closures — of which 619 are CLASSIFIED by mechanism and
+**788 recorded closures — of which 621 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -69,6 +69,8 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Run, with a five-way control. On B102's W1/W2 -- the corpus's only non-self-dual rank-3 systems -- the index h1(V) - h1(V*) is ZERO at all 25 valid parameter points per component, and more sharply BOTH h1 VANISH: W1 and W2 are RIGID, carrying no deformations at all, so they cannot furnish a count in either direction. By B1260's own statement ('agree => the wall extends past closedness AND past the abelian sector') the wall extends.` | 1 |  |
 | `A parity theorem. |Fix| = |det(A - I)|, independent of the translation part, and det(A-I) = det A - tr A + 1, so finite order in GL(2,Z) gives |Fix| in {0,1,2,3,4} -- 3 IS algebraically reachable, from (det 1, tr -1). The GEOMETRY forbids it: Fix(g) of an orientation-preserving finite-order isometry is closed geodesics (no ends) plus properly embedded geodesic LINES (two ends each), so with exactly ONE cusp every end lands there and |Fix on the cusp| = 2*(#fixed lines), ALWAYS EVEN. Three ends in one cusp is odd.` | 1 |  |
 | `Exhaustive scan. Every conjugacy class of subgroup of pi_1(m004) of index 2..10 (snappy covers(d), all 87 covers, 201 cusps), every isometry of every cover (968, both orientations), every cusp each isometry fixes (1,376 (isometry, cusp) pairs), |det(A - I)| of the peripheral matrix; the count would be odd or 2 somewhere if the claim held.` | 1 |  |
+| `Two halves, both exact. TOPOLOGICAL: at a fixed point of an orientation-preserving involution with 1-dim fixed set, d sigma = (+1 | -1, -1); a Morse-Bott zero locus and a vortex locus along Fix(sigma) are sigma-EVEN and a sigma-odd potential has normal Hessian rank 2 there (no non-degenerate zero) -- so a charge locus on Fix(theta) forces theta_G u = +u, the theta-even Cartan = Cartan(F_4). SPECTRAL: enumerate the 15 faces of the F_4 chamber (spanned by omega_2^v, omega_4^v, omega_1^v+omega_6^v, omega_3^v+omega_5^v), compute the centraliser, the signed left-handed weight multiset of the (+,+) content (2 x 78_{q>0}; 2 x (27_{q>0} + 27_{q<0}^*)), its chiral dimension, and the SU(3) cubic anomaly per A2 factor and the Witten parity per A1, at two coefficient draws per face (exact rational arithmetic, rational E_6 in R^8).` | 1 |  |
+| `The one-cusped index I(V) = t0 - r1 (pre-registered with its domain before evaluation), reduced by Shapiro to I(C_n; Sym^2 rho_geo (x) psi) over the cover's cusp-trivial torsion characters, computed exactly over Q(zeta_12) with SVD as second method: 16/16 zeros on C_3, 45/45 on C_4 -- and two theorems make it identically zero on every cyclic cover: T-GALOIS-SELF-DUALITY (order prime to 3) and T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE (all orders: the period-2 symmetry is -1 on the Alexander module, so psi o P = psi^-1 and J(psi) = -J(psi)).` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (522)
 

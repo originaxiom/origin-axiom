@@ -80,3 +80,10 @@ accounts for three rows by itself.**
 - **Feeds on:** B1261 (the price, corrected here), B1231 (the unpriced-input rule), B1263/B1264/B1256
   (the measured multiplicities), B1265 (the fork as a rank obstruction), B950 (the SM's 19).
 - **Registers:** no status change; **restates the price** and classifies its sources.
+
+
+---
+
+## ADDENDUM 2026-09-07 (B1296) — an eighth source
+
+B1296 registered **I-27** (the singular-frame chiral vacuum: locus, sign pair and θ-odd direction are three closer's choices) UNEARNED at creation. Its earning text names no other unearned row, so under this arc's own union-find it is a NEW irreducible source, H5-type (the object supplies the family, the closer picks the point — like I-14 and I-25). Live count: **11 rows → 8 sources; the irreducible price is 4 + 8 = 12** (was 11). The script's selftest pin and `tests/test_b1266_sources.py` are moved 10/7 → 11/8 with this note; the 2026-09-06 numbers above are the arc's original measurement and stand as written.

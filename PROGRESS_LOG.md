@@ -14713,3 +14713,99 @@ leave the pool on a 0.05 drift. Also, `B1210/verification/reproduce.sh` (the com
 regenerates the *pre-B1213* 78-arc format and would overwrite the union pool — tried, seen, reverted. Both are
 instrument defects in the MASTERPLAN §5 repair class (recorded here, not chased): freeze B1213's threshold at its
 banked value or give it a tolerance, and point B1210's lock message at B1213's `reproduce.sh`.
+
+---
+
+## 2026-09-07 — B1296: THE CHARGE-LOCUS PARITY LOCK — θ-evenness is not vector-likeness, the F₄ chamber is vector-like or SU(3)-anomalous, and count 2 costs three closer's choices
+
+**MASTERPLAN v3 Phase 2 = Door D1.** Pre-registered (T1–T5 in `verification/DESIGN.md`) before any computation;
+two of the pre-registered expectations — *no θ-odd ray is spectrum-symmetric* and *θ-even ⇒ vector-like* (fc R70's
+reading) — failed on the screen and the computation, not the expectation, is banked. Every number this bench's:
+the swap/level-curve tests on B1295's own harmonic generator, the Lie-theoretic half on a rational E₆ in ℝ⁸ built
+here (72 roots, 27 = W·ω₁, θ = the diagram flip), not on any seat's basis. Arc
+`frontier/B1296_the_charge_locus_parity_lock/`; lock `tests/test_b1296_the_charge_locus_parity_lock.py` (both
+scripts re-run in the suite, ~15 s).
+
+**T1 — the swap theorem.** All eight cusp isometries satisfy `g(mz,t) = α(m)·g(z,t)` with α the meridian sign
+(worst relative deviation 6.8e−13 on the 538 half-modes); on a 60×60 grid `sign g(−z) = −sign g(z)` at 3592/3592
+points. So the strong inversion **swaps ∂⁺M and ∂⁻M**, `χ(∂⁺M) = χ(∂⁻M)`, and `χ(∂⁺M) = 0` **coefficient-free** —
+B1295's `c₍0,2₎` is demoted to a regularity input. The object's own equivariant smooth vacuum `ω ⊗ u` is θ-ODD.
+
+**T2/T4 — the level-curve lemma and the orbits.** A σ-odd 1-form annihilates `T Fix(σ)`: at the eight arc
+endpoints the tangential component is 1.6e−13 — and the normal components are `ω(∂_x) = 1.280438` on one endpoint
+orbit, `0.724301` on the other. **Fix(θ) is not a zero locus of the object's Higgs.** Endpoint stabilisers {2: 8},
+orbits [4, 4], and **the two arcs of one strong inversion lie in different orbits**: no symmetry relates their
+signs; the sign pair is the closer's (fc R69 §4, now by symmetry rather than bookkeeping).
+
+**THE LOCK (`T-CHARGE-LOCUS-PARITY-LOCK`, topological half).** At `p ∈ Fix(σ)`, `dσ = (+1 | −1, −1)`. A σ-odd
+covector is purely normal; a Morse–Bott zero locus `H_ij x_i dx_j` along the arcs and a vortex locus `q dϑ`
+(ϑ ↦ ϑ+π) are σ-EVEN; a σ-odd potential has vanishing normal Hessian on the arcs (odd germ Hessian rank 2 < 3,
+checked) — no non-degenerate zero there. Hence **every charge locus supported on Fix(θ) is σ-even, and
+equivariance forces `θ_G u = +u`: the Higgs direction lies in the θ-even Cartan = Cartan(F₄ = E₆^θ).** The object
+supplies no such locus (its ω is odd and non-zero on the arcs).
+
+**THE F₄ CHAMBER (spectral half, exact).** θ-even u gives `dim 27_q = dim 27_{−q}` at 44/44 rays — fc R70's
+observation — but **not vector-likeness**: the 15 faces spanned by F₄'s fundamental coweights split into **4 chiral
+= 4 SU(3)-cubic-anomalous** (`ω₄^∨` A₂A₁A₂ chiral 54; `ω₃^∨+ω₅^∨` A₁A₂A₁ 54; `ω₂^∨+ω₄^∨` A₂A₂ 18;
+`ω₁^∨+ω₆^∨+ω₃^∨+ω₅^∨` A₂ 6 — exactly where θ acts on an A₂ by a swap or pointwise, i.e. by an outer twist) and
+**11 vector-like, anomaly-free, Witten 0** (A₅, D₄, A₃, A₁ⁿ, abelian). Two coefficient draws per face agree.
+Sector table normalised to the fundamental: on the swapped-pair faces the 78-sector gives −3 and the 27-sector +1
+per A₂ (the 78 ⊃ (3,3,3̄) is tri-fundamental) — they cancel **only** at multiplicities 78 : 27 = 1 : 3, which is a
+ratio between two frames (PW's 7d adjoint vs the heterotic-type 27); the parents containing both give −1 (E₇,
+n₂₇ = 2) and +3 (E₈, n₂₇ = 6), neither cancels — **firewalled** as an observation (H-B1296-RATIO, L201), not a
+generation count. On the fixed-A₂ faces −1 / −2: uncancellable. Contrast: the mixed `ω₁^∨` and the θ-odd walls
+`ω₁^∨−ω₆^∨`, `ω₃^∨−ω₅^∨` are D₅ = SO(10)×U(1), **chiral 32 and anomaly-free** — the one clean chiral direction sits
+where the lock forbids the charge locus. The θ-odd plane is the **restricted A₂ of (E₆, F₄)**, six restricted
+roots of multiplicity 8 = Helgason's **EIV = E₆(−26)**, the corpus's spacetime form; walls D₅⊕u(1) (36 rays),
+root lines D₄⊕u(1)² (24, symmetric — the 24 "symmetric odd rays" of the failed pre-registration), generic 108;
+`ω₃^∨−ω₅^∨ ∈ W·ω₁^∨` TRUE. The ω₄^∨ face is trinification with the third SU(3) broken to SU(2)×U(1)_u —
+distinct from B1098's trinification remnant (H-B1296-TRIN).
+
+**T3 — the toggle = count 2, priced.** Equivariance dropped, signs (+,+), `u = ω₁^∨`: `27 → 10_{−2/3} (+2) ⊕
+16_{1/3} (−2) ⊕ 1_{4/3} (−2)`, `78 → 16_{−1} (+2) ⊕ 16_{+1} (−2)`: **two chiral 16's of SO(10), COUNT 2** =
+B1086's `h¹ = 2` = fc R70's count, on an independent realisation; signs (+,−) ⇒ every net 0. **I-27 UNEARNED**:
+the chiral vacuum = a charge locus on Fix(θ) + equal signs + a θ-odd direction — three closer's choices, none
+the object's, and by the lock not θ-equivariant; the earning must come from a frame that breaks θ on the object's
+side (D2).
+
+**Correction to fc R70 (sharpening; HELD — owner: all sends hold).** "θ-even ⇒ 2(R⊕R̄), vector-like" holds on 11
+of 15 faces and fails on 4; R70's conclusion (no θ-equivariant anomaly-free chirality) survives strengthened.
+
+**What moves.** MAIN_GOAL: D1 DONE; B1294's assumption list is now **zero assumptions and one identification**
+(θ-equivariance is a theorem about where the charge locus can be, its removal is I-27); the wall renamed **"the
+charge locus is unsupplied"**; D2 gets a pre-registrable fail condition (a spectral-cover derivation landing on
+the F₄ chamber is vector-like or anomalous). THEOREM_REGISTRY +1 (PROVED, lock). IDENTIFICATION_LEDGER I-27.
+Kill graph: one record (the free move, with three hatches). OPEN_LEADS: **L201** (an anomaly-absorbing closing /
+the frame with both sectors; ★, recorded not chased). HINT_LEDGER: six rows. CLAIM_CANDIDATES: the tier-L row
+(generator-rendered, inserted after B1295 for the reason recorded there). `already_banked` on {parity lock,
+chamber, θ-even cartan vector-like, cubic anomaly su(3) face, restricted root, arc sign closer}: no settled arc
+covers any of it (B1149's "clock-depth-parity lock" is a different sense; B1033/B951 hold no E₆-Levi anomaly
+table). **The masterplan head stands: count 2 on every road. Next: B1297 = D2**, the non-abelian spectral cover
+on B298's 3-fold cyclic cover, index written and pre-registered before it is evaluated.
+
+**The doc-currency read (landing).** Landing B1296 tripped `doc-currency`: `docs/RETRACTED_PHRASES.md` had
+last cited B1249 and the 31 arcs since put it one over its tolerance of 30 — *owed a read*, by the gate's own
+words, not a freeze. The read of the B1250–B1296 window is now in the registry: **five retractions** (B1253's
+"the generation count is forced at three", E63; B1255's "twelve", E64; B1256/B1257's "1 abelian + 2 chiral"
+as a chirality count, E65; B1291's "χ_orb = 0 for all 17 wallpaper quotients", E67; and this arc's own
+"every θ-even Cartan direction gives 2(R⊕R̄), vector-like", fc R70's headline as B1294 relayed it) — three as
+*readings* (the phrase stays), two as *phrases* (swept). The read found what the registry exists to find:
+**B1253's refuted headline still stood as a live section header on three surfaces** (CHANGELOG, PROGRESS_LOG,
+CAMPAIGN_STATUS — each paragraph said "refuted", each header did not); struck at source on CHANGELOG and
+CAMPAIGN_STATUS, and for the append-only PROGRESS_LOG (GOVERNANCE §9) *this* entry is the correction, and the
+R70 relay struck at source in B1294's FINDINGS and the B1294 CAMPAIGN_STATUS entry (E53, corrected where the
+claim lives). One instrument sharpening: `retraction_sweep`'s mention cues lacked **"refuted"**, the corpus's
+commonest retraction verb, so the very lines that refute a phrase read as live uses the moment it was
+registered (the E66 shape, again); added with a dated comment, sweep clean at 19 phrases / 2758 files,
+locks green. One fence written so B1296 is not over-applied: **B576's** "θ-even deformations stay F₄-stable
+and vector-like" is about F₄-valued *holonomy* (27 → 26 ⊕ 1, real) and is **not** retracted.
+
+**The ratchet, at landing (2026-09-08).** The full suite on the B1296 tree returned seven reds, all one cause: I-27 was registered UNEARNED in the ledger but `docs/IDENTIFICATION_BASELINE.json` was not raised with it — B1231's ratchet bit, exactly as designed ("new unearned identifications red the suite at CREATION"). Raised by hand 10 → 11 with its reason (three closer's choices, H5-type); I-27's earning text names no other unearned row, so B1266's union-find makes it an **eighth irreducible source**: rows outstanding 4 + 11 = 15, irreducible price 4 + 8 = **12** (was 11); B1261/B1266 carry dated addenda and B1266's pins move 10/7 → 11/8. Six ledger test files re-run green (39/39) before the full suite.
+
+## 2026-09-08 — B1297 — THE SPECTRAL-COVER INDEX: derived and pre-registered, then evaluated — the descent's twists are inverted by the figure-eight's own period-2 symmetry, so every (2+1)-reducible spectral cover on the cyclic tower is vector-like
+
+**MASTERPLAN v3 Phase 3 = Door D2. The index first, sealed before evaluation (Part I `75e55a88`, Part II `16918308`):** on a one-cusped 3-manifold the net chirality of a local system is **`I = t₀ − r₁`** in domain D (`I := n(V) − n(V*) = (a₀ − a*₀) + t*₀ − r₁` exactly; `F = −I`, `Cc = I`) — cusp invariants minus the rank of the boundary map, the failure of "half lives, half dies" for a non-self-dual local system; antisymmetry universal, closed/self-dual/abelian/cusp-trivial-less sectors all 0, homeomorphism-invariant (**`T-ONE-CUSP-INDEX`**). **The configuration exhibited:** E₆ in the SL(3)³ frame exact over ℚ (72 roots, Cartan det 3, the 27 minuscule and one W-orbit), the block cycle `σ = s₁s₅s₃s₂s₄s₅ ∈ W(E₆)`; Shapiro `I(M; 27) = I(C; ρ₁ ⊗ (ρ₁^τ)*)`; the E₆ cubic forces SL(3) twists, so the descent's `(ℤ/4)²` enters only through `ρ₁ = (ρ_geo ⊗ κ) ⊕ κ⁻²`, whose index is `I(C; Sym²ρ_geo ⊗ ψ)` over ALL family characters. **The bench:** exact geometric rep in Fricke form over ℤ[ω] (relator +I; longitude trace −2 in both lifts), own Reidemeister–Schreier, Fox calculus, Smith form; controls reproduce B1256/B1267 (`h¹(Sym^k) = 1,0,1,0,1,0,1`) and B326 (`H₁(C₃) = ℤ⊕(ℤ/4)²`, deck = Φ₃); `[m_C] = [z]`, `[l_C] = 0` ⇒ all 16 characters cusp-trivial. **Census before table:** all 24 isometries of C₃ (12 + 12) faithful on the torsion, and **the period-2 symmetry `a ↦ a⁻¹, b ↦ a³b` acts as −1 on the torsion** — by RS and, independently, by Fox over ℤ[ℤ/3] with the semilinear coefficient action; prediction J ≡ 0. **Table:** 16/16 zeros (`a = (0,1,1)`, `r₁ = r*₁ = t₀ = 1`; every identity; exact = SVD; lift-independent). **Part II, the 4-fold cover** (`H₁ = ℤ⊕ℤ/3⊕ℤ/15`, the first Galois-unprotected sector = 8 order-3 characters; 32 isometries): census first — P inverts them too; 45/45 zeros. **Two theorems:** **`T-GALOIS-SELF-DUALITY`** (a field automorphism fixing ℚ(√−3) and inverting a twist of order prime to 3 carries V to V* with all ranks invariant ⇒ `I = 0`; likewise every unitary V) and **`T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE`** (`H₁(X̃) = ℤ[t^±]e_a/(Δ)` is cyclic on the lift of `a`, and `P(a) = a⁻¹` ⇒ P = −1; |Tors H₁(C_n)| = 5, 16, 45, 121, 320) with corollary `T-CYCLIC-TOWER-VECTOR-LIKE`: **the object's own period-2 symmetry is charge conjugation on the descent's twists.** **MB12, reported honestly:** Part I's test could NOT have passed (Galois, found after the table — the B1267 shape caught in-arc); Part II's sector was census-forced; verdict FORCED, not FAIL. Algebraic non-vacuity shown (random presentations: `I ≠ 0` in 26/31, identities violated in the same 26); live non-vacuity NOT established (60 census manifolds, 12 sectors, all zero). No identification row; I-26 remains the conditional. **Open = L202:** irreducible non-extending SL(3) reps of the covers, non-cyclic covers with 3-torsion, and whether `I ≠ 0` occurs at all in domain D (first). The masterplan head — "the descent is vector-like" — is a theorem for the cyclic tower's (2+1) configurations. Lock test 5/5 (67 s); absence sweeps: `spectral cover index` ABSENT on all 40 heads.
+
+**Process notes.** The scratchpad was wiped overnight; the pre-registration was re-typed from the session record and reproduces its sealed sha256 byte-for-byte (`PREREG.sha256` carries both seals with dates). Every script was rebuilt into the arc's `verification/` and re-run; the lock test runs them in a scratch cwd. The Galois theorem was found while reading the live-manifold scan's uniform `r₁ = t₀ = 1` — the signal was on screen (E65's rule, applied). fc R69's "the cusp keeps the endpoints" gains its cohomological form; the SM-derivation seat's B1280 (W1/W2 vector-like on every cusped cover) is a parallel result, cited and queued for harvest, not verified here.
+
+**Landing corrections (2026-09-08, MASTERPLAN v3.1 Phase 0):** PW §3.1's own chirality is eq. (3.18)'s signed intersection count, the bulk vector-like — the arc's "chiral matter = H¹" is I-26's reading, corrected in FINDINGS §0b (E58 instance #2); the three registry rows carry their literature status (no duality theorem covers `Sym²ρ⊗χ`, ord χ > 2; Miller–Powell's +1 is the strong inversion, a different map; the Galois statement not found); B1227 cited as the amphichirality anchor (the cloud's memo 170 found the omission); sm:B1280 credited for the period-2 duality on W1/W2; L203 registered (v3's "L206" never existed); the numbering relay lands with the harvest block B1298, B1299, B1302–B1307 and the SM seat's B1300–B1301 acknowledged, B1308–B1315 granted; B1296's identifications declaration fixed to the schema and the two arcs added to the claim pool (the suite's two reds: 6228 passed, 60 skipped, 1:17:00). B1296's landing: fc R71 credited (the same dichotomy on 928 directions a day earlier) and the lock scoped to the outer lift; fc R72's inner lift is B1298's question.

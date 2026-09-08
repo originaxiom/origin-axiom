@@ -536,6 +536,8 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1291` | NEGATIVE | L | | THE PARITY THEOREM: 3 IS EXCLUDED ON A ONE-CUSPED MANIFOLD, AND THE ESCAPE IS >=2 CUSPS. For an affine map of T^2 the fixed-point count is /det(A - I)… |
 | `B1294` | PROVED | L | | THE CHIRALITY BIT (MASTERPLAN v3 Phase 0). Seat harvest 2026-09-06 with every load-bearing number re-run or re-derived on this bench. THE SEATS' RESULTS FIRST: sm:B1278/B… |
 | `B1295` | PROVED | S | | THE CAVEAT CLOSED BY COMPUTATION (MASTERPLAN v3 Phase 1 = Door D4; every number this bench's). (a) THE COEFFICIENT THE SM SEAT DID NOT COMPUTE: the harmonic generator of … |
+| `B1296` | PROVED | L | | THE CHARGE-LOCUS PARITY LOCK (MASTERPLAN v3 Phase 2 = Door D1; pre-registered, two pre-registered expectations refuted by the computation and the computation banked). T1 THE SWAP THEOREM: on B1295's h… |
+| `B1297` | PROVED | L | | THE SPECTRAL-COVER INDEX (MASTERPLAN v3 Phase 3 = Door D2; formula + domain pre-registered and sealed BEFORE evaluation, Part I sha256 75e55a88, Part II 16918308). THE INDEX: on a one-cusped 3-manifol… |
 
 ## The exhibit that forced the rebuild
 

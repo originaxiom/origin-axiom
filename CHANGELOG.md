@@ -1,5 +1,38 @@
 # Changelog
 
+## B1297 — THE SPECTRAL-COVER INDEX: derived and pre-registered, then evaluated — the descent's twists are inverted by the figure-eight's own period-2 symmetry, so every (2+1)-reducible spectral cover on the cyclic tower is vector-like
+
+**MASTERPLAN v3 Phase 3 = Door D2. The index first, sealed before evaluation (Part I `75e55a88`, Part II `16918308`):** on a one-cusped 3-manifold the net chirality of a local system is **`I = t₀ − r₁`** in domain D (`I := n(V) − n(V*) = (a₀ − a*₀) + t*₀ − r₁` exactly; `F = −I`, `Cc = I`) — cusp invariants minus the rank of the boundary map, the failure of "half lives, half dies" for a non-self-dual local system; antisymmetry universal, closed/self-dual/abelian/cusp-trivial-less sectors all 0, homeomorphism-invariant (**`T-ONE-CUSP-INDEX`**). **The configuration exhibited:** E₆ in the SL(3)³ frame exact over ℚ (72 roots, Cartan det 3, the 27 minuscule and one W-orbit), the block cycle `σ = s₁s₅s₃s₂s₄s₅ ∈ W(E₆)`; Shapiro `I(M; 27) = I(C; ρ₁ ⊗ (ρ₁^τ)*)`; the E₆ cubic forces SL(3) twists, so the descent's `(ℤ/4)²` enters only through `ρ₁ = (ρ_geo ⊗ κ) ⊕ κ⁻²`, whose index is `I(C; Sym²ρ_geo ⊗ ψ)` over ALL family characters. **The bench:** exact geometric rep in Fricke form over ℤ[ω] (relator +I; longitude trace −2 in both lifts), own Reidemeister–Schreier, Fox calculus, Smith form; controls reproduce B1256/B1267 (`h¹(Sym^k) = 1,0,1,0,1,0,1`) and B326 (`H₁(C₃) = ℤ⊕(ℤ/4)²`, deck = Φ₃); `[m_C] = [z]`, `[l_C] = 0` ⇒ all 16 characters cusp-trivial. **Census before table:** all 24 isometries of C₃ (12 + 12) faithful on the torsion, and **the period-2 symmetry `a ↦ a⁻¹, b ↦ a³b` acts as −1 on the torsion** — by RS and, independently, by Fox over ℤ[ℤ/3] with the semilinear coefficient action; prediction J ≡ 0. **Table:** 16/16 zeros (`a = (0,1,1)`, `r₁ = r*₁ = t₀ = 1`; every identity; exact = SVD; lift-independent). **Part II, the 4-fold cover** (`H₁ = ℤ⊕ℤ/3⊕ℤ/15`, the first Galois-unprotected sector = 8 order-3 characters; 32 isometries): census first — P inverts them too; 45/45 zeros. **Two theorems:** **`T-GALOIS-SELF-DUALITY`** (a field automorphism fixing ℚ(√−3) and inverting a twist of order prime to 3 carries V to V* with all ranks invariant ⇒ `I = 0`; likewise every unitary V) and **`T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE`** (`H₁(X̃) = ℤ[t^±]e_a/(Δ)` is cyclic on the lift of `a`, and `P(a) = a⁻¹` ⇒ P = −1; |Tors H₁(C_n)| = 5, 16, 45, 121, 320) with corollary `T-CYCLIC-TOWER-VECTOR-LIKE`: **the object's own period-2 symmetry is charge conjugation on the descent's twists.** **MB12, reported honestly:** Part I's test could NOT have passed (Galois, found after the table — the B1267 shape caught in-arc); Part II's sector was census-forced; verdict FORCED, not FAIL. Algebraic non-vacuity shown (random presentations: `I ≠ 0` in 26/31, identities violated in the same 26); live non-vacuity NOT established (60 census manifolds, 12 sectors, all zero). No identification row; I-26 remains the conditional. **Open = L202:** irreducible non-extending SL(3) reps of the covers, non-cyclic covers with 3-torsion, and whether `I ≠ 0` occurs at all in domain D (first). The masterplan head — "the descent is vector-like" — is a theorem for the cyclic tower's (2+1) configurations. Lock test 5/5 (67 s); absence sweeps: `spectral cover index` ABSENT on all 40 heads.
+**Landing corrections (2026-09-08, MASTERPLAN v3.1 Phase 0):** PW §3.1's own chirality is eq. (3.18)'s signed intersection count, the bulk vector-like — the arc's "chiral matter = H¹" is I-26's reading, corrected in FINDINGS §0b (E58 instance #2); the three registry rows carry their literature status (no duality theorem covers `Sym²ρ⊗χ`, ord χ > 2; Miller–Powell's +1 is the strong inversion, a different map; the Galois statement not found); B1227 cited as the amphichirality anchor (the cloud's memo 170 found the omission); sm:B1280 credited for the period-2 duality on W1/W2; L203 registered (v3's "L206" never existed); the numbering relay lands with the harvest block B1298, B1299, B1302–B1307 and the SM seat's B1300–B1301 acknowledged, B1308–B1315 granted; B1296's identifications declaration fixed to the schema and the two arcs added to the claim pool (the suite's two reds: 6228 passed, 60 skipped, 1:17:00).
+
+## B1296 — THE CHARGE-LOCUS PARITY LOCK: θ-evenness is not vector-likeness, the F₄ chamber is vector-like or SU(3)-anomalous, and count 2 costs three closer's choices
+
+**MASTERPLAN v3 Phase 2 = Door D1, pre-registered; two pre-registered expectations refuted by the computation
+and the computation banked.** **(1)** The swap theorem: all eight cusp isometries act on B1295's harmonic
+generator by the meridian sign (6.8e−13); the strong inversion swaps `∂⁺M` and `∂⁻M` ⇒ **`χ(∂⁺M) = 0`
+coefficient-free**; the object's equivariant smooth vacuum is θ-odd. **(2)** The level-curve lemma: the arcs are
+level curves but **not zeros** of the object's Higgs (`ω(∂_x) = 1.280438 / 0.724301` on the two endpoint orbits,
+which are different orbits ⇒ the sign pair is the closer's). **(3)** **`T-CHARGE-LOCUS-PARITY-LOCK`**: a
+Morse–Bott or vortex charge locus along `Fix(σ)` is σ-even, a σ-odd potential has normal Hessian rank 2 there ⇒
+a charge locus on `Fix(θ)` forces `θ_G u = +u`, the θ-even Cartan = Cartan(F₄). **(4)** The F₄ chamber, exact
+over ℚ: **chiral ⟺ SU(3)-cubic-anomalous** on all 15 faces (4 both: `ω₄^∨`, `ω₃^∨+ω₅^∨`, `ω₂^∨+ω₄^∨`,
+`ω₁^∨+ω₆^∨+ω₃^∨+ω₅^∨`; 11 neither); fc R70's "θ-even ⇒ 2(R⊕R̄)" is dimension symmetry, false on 4 of 15
+faces, its conclusion strengthened. Sector table: 78 : 27 = −3 : +1 per A₂ on the swapped-pair faces (cancel only
+at 1 : 3 across two frames; E₇ −1, E₈ +3 — **firewalled**, L201), −1 / −2 uncancellable on the fixed-A₂ faces. The
+θ-odd plane = the restricted A₂ of (E₆, F₄), multiplicity 8 = **EIV = E₆(−26)**; its walls are the chiral
+anomaly-free SO(10)×U(1) directions (`ω₃^∨−ω₅^∨ ∈ W·ω₁^∨`). **(5)** The toggle: equivariance dropped, equal
+signs, `u = ω₁^∨` ⇒ two chiral 16's of SO(10), **COUNT 2** (= B1086, = fc R70); opposite signs ⇒ 0. **Priced
+I-27 UNEARNED** (locus, sign pair, direction). Head intact; wall renamed "the charge locus is unsupplied"; D2
+next with a pre-registered fail condition. Arc `frontier/B1296_the_charge_locus_parity_lock/`; lock
+`tests/test_b1296_the_charge_locus_parity_lock.py`; registry +1, I-27, kill graph +1, L201, H-B1296 ×6.
+- **Doc-currency read, done at landing (RETRACTED_PHRASES was one arc over tolerance):** the B1250–B1296 window's
+  five retractions registered (B1253 E63, B1255 E64, B1256/57 E65, B1291 E67, and this arc's refutation of fc R70's
+  "every θ-even Cartan direction … vector-like" headline); **B1253's refuted headline found standing as a live header on three
+  surfaces — struck here and on CAMPAIGN_STATUS; PROGRESS_LOG is append-only, its B1296 entry is the correction**; the R70 relay struck at source (B1294 FINDINGS, CAMPAIGN_STATUS);
+  `retraction_sweep` gains the cue **"refuted"** (E66 shape: the lines that refute a phrase read as uses of it);
+  fence recorded: B576's F₄-holonomy statement is a different frame and stands.
+**Landing (2026-09-08):** the ratchet bit on I-27 (seven reds); raised by hand 10 → 11 with reason; I-27 is an eighth irreducible source (B1266: price 11 → 12; B1261: 15 rows outstanding).
+
 ## B1295 — THE CAVEAT CLOSED BY COMPUTATION: `c₍±2,0₎ = ∓4.260982635 i`, the census counts 2, the tower has no third arc
 
 **MASTERPLAN v3 Phase 1 = Door D4, every number this bench's.** **(a)** The harmonic generator's leading
@@ -459,7 +492,7 @@ falsification and the identification fence; LAW_MAP already has B714's count. **
 current; this seat was the stale part.** The refutation now lives in the instrument (printed every
 run), the lock (reds if the blocks stop being one orbit), and the error ledger.
 
-## THE GENERATION COUNT IS FORCED AT THREE — the layer B891 named in August and nobody ran
+## ~~THE GENERATION COUNT IS FORCED AT THREE~~ — REFUTED BY ITS OWN ARC the same session (B1253, E63; the entry above; header struck 2026-09-07) — the layer B891 named in August and nobody ran
 
 **B1253.** Owner, after four pushes: *"FULL DERIVED SM biri, its all about that."* Right, and the
 decisive computation was cheap once aimed.

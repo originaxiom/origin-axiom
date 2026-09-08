@@ -1,0 +1,29 @@
+lattice tau = -0.000000+3.464102j, chiT = 0; 538 half-modes; max|Re c| = 3.61e-01, max|Im c| = 12.8844
+
+[T1] g(m z, t) = alpha(m) g(z, t) for the eight cusp actions (alpha = the meridian sign s_mu):
+     alpha +1 conj False beta = 0.0 + 0.0 tau  [translation / identity        ]  rel. deviation 0.00e+00
+     alpha +1 conj False beta = 0.0 + 0.5 tau  [translation / identity        ]  rel. deviation 6.64e-13
+     alpha +1 conj True  beta = 0.5 + 0.25 tau  [glide (conj)                  ]  rel. deviation 6.79e-13
+     alpha +1 conj True  beta = 0.5 + 0.75 tau  [glide (conj)                  ]  rel. deviation 5.96e-13
+     alpha -1 conj False beta = 0.0 + 0.0 tau  [STRONG INVERSION              ]  rel. deviation 5.61e-13
+     alpha -1 conj False beta = 0.0 + 0.5 tau  [STRONG INVERSION              ]  rel. deviation 5.98e-13
+     alpha -1 conj True  beta = 0.5 + 0.25 tau  [rotatory reflection (order 4) ]  rel. deviation 5.32e-13
+     alpha -1 conj True  beta = 0.5 + 0.75 tau  [rotatory reflection (order 4) ]  rel. deviation 6.16e-13
+     grid 60x60 at t = 1: sign(g(-z)) == -sign(g(z)) at all 3592 points off the zero set: True  (sigma_1 maps d+M onto d-M)
+
+[T2] the arc endpoints = the fixed points of the strong inversions on the cusp:
+     sigma(beta=0.0 tau) endpoint z = 0.000 + 0.000 i, t = 0.7: g = omega(d_t) = -9.47e-14   omega(d_x) = +1.280438   omega(d_y) = +1.62185
+     sigma(beta=0.0 tau) endpoint z = -0.000 + 1.732 i, t = 0.7: g = omega(d_t) = -8.10e-14   omega(d_x) = +1.280438   omega(d_y) = +1.62185
+     sigma(beta=0.0 tau) endpoint z = 0.500 + 0.000 i, t = 0.7: g = omega(d_t) = +8.80e-14   omega(d_x) = +0.724301   omega(d_y) = +1.45683
+     sigma(beta=0.0 tau) endpoint z = 0.500 + 1.732 i, t = 0.7: g = omega(d_t) = -4.26e-15   omega(d_x) = +0.724301   omega(d_y) = +1.45683
+     sigma(beta=0.5 tau) endpoint z = -0.000 + 0.866 i, t = 0.7: g = omega(d_t) = +7.06e-14   omega(d_x) = +0.724301   omega(d_y) = -1.45683
+     sigma(beta=0.5 tau) endpoint z = -0.000 + 2.598 i, t = 0.7: g = omega(d_t) = -4.12e-14   omega(d_x) = +0.724301   omega(d_y) = -1.45683
+     sigma(beta=0.5 tau) endpoint z = 0.500 + 0.866 i, t = 0.7: g = omega(d_t) = -3.18e-14   omega(d_x) = +1.280438   omega(d_y) = -1.62185
+     sigma(beta=0.5 tau) endpoint z = 0.500 + 2.598 i, t = 0.7: g = omega(d_t) = +1.59e-13   omega(d_x) = +1.280438   omega(d_y) = -1.62185
+     over all 8 endpoints x 3 heights: max|g| = 1.59e-13 (tangential component VANISHES); min|omega(d_x)| = 0.724301 (the form does NOT vanish)
+
+[T4] stabiliser sizes of the 8 endpoints under the 8 cusp actions: {2: 8}  (2 = {identity, its own strong inversion} only)
+     [T4b] endpoint orbits under the 8 actions: sizes [4, 4]; each arc of sigma_1 has both endpoints in one orbit: [True, True]; the two arcs of sigma_1 lie in the SAME orbit: False  -> no symmetry relates the two arcs' signs (the sign pair is the closer's)
+
+VERDICT: T1 SWAP holds (D4-equivariant, sigma swaps d+ and d-); T2 LEVEL-CURVE holds (g = 0, omega(d_x) in {1.28, 0.72} != 0 at every arc endpoint); T4 no second stabiliser.
+SELFTEST: PASS

@@ -6274,6 +6274,7 @@
   "B1266": {
    "slug": "the source of input",
    "motifs": [
+    "measurement",
     "closing",
     "coupling",
     "eisenstein",
@@ -6287,7 +6288,7 @@
     "L4"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "physics"
   },
@@ -6645,6 +6646,65 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1296": {
+   "slug": "the charge locus parity lock",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B298",
+    "B353",
+    "B576"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "topology"
+  },
+  "B1297": {
+   "slug": "the spectral cover index",
+   "motifs": [
+    "monoid",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B1",
+    "B102",
+    "B2",
+    "B3",
+    "B326",
+    "B71",
+    "L202"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B129": {
    "slug": "sl3 tower sealed",

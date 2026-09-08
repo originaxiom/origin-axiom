@@ -95,24 +95,36 @@ vector-like**: the SM seat's Y₉ carries the SM group **and three generations**
 **19,624 inequivalent vacua** under the group of order 72, **all in mirror pairs** (sm:B1278/B1279;
 re-run here) — *"the chiral closing needs to supply only the chirality bit."*
 
-**Two named ASSUMPTIONS (not theorems), and the doors are about them** *(one of the two closed by B1295, 2026-09-07)*:
-- **θ-equivariance of the vacuum** — fc's modelling choice, derived nowhere on main (swept). Under it every
-  θ-even Cartan direction is `2(R ⊕ R̄)` and the one chiral abelian direction `ω₁^∨` (SO(10)×U(1), mixed
-  under the diagram flip, not θ-odd) is inadmissible (fc R70, re-derived). **Door D1 = B1296:** drop it —
-  expected the programme's first chiral spectrum with count **2**, priced as an **identification row**
-  (the θ-odd choice is the closer's, B1174/B576), or the death of the singular frame.
+**Two named ASSUMPTIONS (not theorems), and the doors are about them** *(one closed by B1295, the other turned into a theorem + a priced identification by B1296, both 2026-09-07 — the list now holds ZERO assumptions and ONE identification, I-27)*:
+- ~~**θ-equivariance of the vacuum** — fc's modelling choice, derived nowhere on main.~~ **NO LONGER AN ASSUMPTION — Door D1 = B1296 DONE
+  (2026-09-07), with a corrected verdict:** it is a **theorem about where the charge locus can be**, `T-CHARGE-LOCUS-PARITY-LOCK`: a
+  charge locus (Morse–Bott zero or vortex) on `Fix(θ)` is θ-even, so equivariance forces the Higgs direction into the **F₄ chamber**
+  (the θ-even Cartan), whose 15 faces are **vector-like or SU(3)-cubic-anomalous — never chiral and clean** (fc R70's "θ-even ⇒
+  2(R⊕R̄)" is dimension symmetry, false on 4 of 15 faces; its conclusion survives strengthened). The object's own field is θ-odd,
+  swaps `∂⁺M`/`∂⁻M` (`χ(∂⁺M) = 0` coefficient-free) and is **non-zero on the arcs** (`ω(∂_x) = 1.28 / 0.72`, two different symmetry
+  orbits): **the object supplies no charge locus on Fix(θ) at all.** Dropping equivariance gives the programme's first chiral spectrum —
+  two 16's of SO(10)×U(1), **count 2** (= B1086) — at the price of three closer's choices (locus, sign pair, direction), registered as
+  **I-27 UNEARNED**. The wall is renamed **"the charge locus is unsupplied"**.
 - ~~**`c₍±2,0₎ ≠ 0`** — the SM seat's caveat.~~ **NO LONGER AN ASSUMPTION — Door D4 = B1295 DONE
   (2026-09-07):** `c₍±2,0₎ = ∓4.260982635(2) i` computed (collocation, residual 1.6e−12, stable to 2e−9);
   the closed-closing theorem's census check PAID (360 symmetries of Y₁…Y₉, all `χ(Fix) ∈ {2, 0}` by
   orientation, the `b₁ = 1` control fires `{0, 4}`); the degree-≤10 cover scan banked NEGATIVE. **The
   assumption list is now one item: θ-equivariance.** Bonus, firewalled: the coefficients obey a
   parity-twisted ℤ[√−3] divisor law (CONJECTURE, pre-registered 88/88; L200).
-- **Door D2 = B1297+ (the generative arm):** PW §3.1 non-abelian spectral covers via **B298's 3-fold cyclic
-  cover** — the one route no negative closes (fc R70's stated gap). The count there must be a different
-  index (degree × chirality bit), never a fixed locus; the 3-manifold index is written and pre-registered
-  *before* it is evaluated. Prior ~30 %.
+- **Door D2 = B1297 (the generative arm) — DONE for the (2+1)-reducible family, and the head sentence is now a
+  THEOREM there (2026-09-08):** the one-cusped index `I = t₀ − r₁` was written with its domain and sealed before
+  evaluation, reduced by Shapiro to the descent's twists, and computed: 16/16 zeros on the 3-fold cover, 45/45 on the
+  4-fold. Two proofs make it identically zero on the whole cyclic tower — **T-GALOIS-SELF-DUALITY** (twists of order
+  prime to 3) and **T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE** (all orders: the figure-eight's period-2 symmetry is −1 on
+  the Alexander module, hence charge conjugation on every cover's twists). Reported as FORCED, not FAIL (MB12: Part I's
+  test could not have passed; found in-arc). **What remains of D2 is L202:** (a) irreducible non-extending SL(3)
+  representations of the covers, (b) non-cyclic covers with 3-torsion, (c) whether `I ≠ 0` occurs at all in domain D —
+  (c) first, since a general vanishing would retire the index. B1296's fence untouched (the configuration is
+  block-permuting, not a Cartan direction).
 
-Items 1–2 stay as written; I-26 stays **UNEARNED** until a door earns it. Doors are worked **in order**;
+**MASTERPLAN v3.1 (approved 2026-09-08) continues from here:** Phase 1 = the seat sweep (B1298 the lift fork, B1299 the period-2 duality, B1302 the sibling m202, B1303 the SM closing's Z′ + Y₁₂, B1304 the audit seat, B1305 the cloud, B1306 the older debt, B1307 the harvest gate), Phase 2 = the chiral-cover test (L202), Phase 3 = the quantum-face value question, Phase 4 = instruments first; the harvest rules are binding (every seat item a ledger row, the seat speaks first, scripts run not read).
+
+Items 1–2 stay as written; I-26 and I-27 stay **UNEARNED** until a door earns them. Doors are worked **in order**;
 one is left only when earned, refuted, or blocked by a registered computation.
 
 ## JOIN 2 — the values *(I-13, the listener map)*

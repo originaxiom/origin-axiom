@@ -76,3 +76,10 @@ a derived parameter, and the corpus knows how to earn rows.
 - **Feeds on:** B1231 (unpriced-input rule), B950/`SM_SPECIFICATION_LEDGER` (the 19 and section C),
   B862, B864, B863, B1250, B713/B760, B582/B576/B432, B1248 (the closed lead), E65/B1260.
 - **Registers:** no identification change; measures the ledger rather than adding to it.
+
+
+---
+
+## ADDENDUM 2026-09-07 (B1296) — the ratchet raised by hand
+
+I-27 registered UNEARNED (B1296, the singular-frame road to count 2). The ratchet baseline is raised 10 → 11 with its reason in `docs/IDENTIFICATION_BASELINE.json`; the price this arc measures becomes 4 axioms + 11 unearned rows = 15 rows outstanding (B1266's irreducible count: 4 + 8 = 12). The arc's tests read the live ledger and baseline and need no change.

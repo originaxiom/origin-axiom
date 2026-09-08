@@ -1,0 +1,120 @@
+E6 in R^8: 72 roots, 27 = W.omega_1 (27 weights), theta = diagram flip: involution on roots, fixed roots 24, fixed Cartan dim 4, odd Cartan dim 2, theta(27) = 27bar: True
+[u = omega_1^vee (mixed: theta -> omega_6^vee)] theta-MIXED; centralizer dim 46
+     27: {-2/3: 10, 1/3: 16, 4/3: 1}
+     78: {-1: 16, 0: 46, 1: 16}
+[u = omega_1^vee - omega_6^vee] theta-ODD; centralizer dim 46
+     27: {-4/3: 1, -1/3: 16, 2/3: 10}
+     78: {-1: 16, 0: 46, 1: 16}
+[u = omega_3^vee - omega_5^vee] theta-ODD; centralizer dim 46
+     27: {-2/3: 10, 1/3: 16, 4/3: 1}
+     78: {-1: 16, 0: 46, 1: 16}
+[u = omega_2^vee] theta-EVEN; centralizer dim 36
+     27: {-1: 6, 0: 15, 1: 6}
+     78: {-2: 1, -1: 20, 0: 36, 1: 20, 2: 1}
+[u = omega_4^vee] theta-EVEN; centralizer dim 20
+     27: {-2: 3, -1: 6, 0: 9, 1: 6, 2: 3}
+     78: {-3: 2, -2: 9, -1: 18, 0: 20, 1: 18, 2: 9, 3: 2}
+[u = omega_1^vee + omega_6^vee] theta-EVEN; centralizer dim 30
+     27: {-2: 1, -1: 8, 0: 9, 1: 8, 2: 1}
+     78: {-2: 8, -1: 16, 0: 30, 1: 16, 2: 8}
+[u = omega_3^vee + omega_5^vee] theta-EVEN; centralizer dim 16
+     27: {-3: 2, -2: 3, -1: 6, 0: 5, 1: 6, 2: 3, 3: 2}
+     78: {-4: 3, -3: 4, -2: 12, -1: 12, 0: 16, 1: 12, 2: 12, 3: 4, 4: 3}
+[u = generic theta-odd ray 7(w1-w6) + 3(w3-w5)] theta-ODD; centralizer dim 30
+     27: {-34/3: 1, -13/3: 8, -4/3: 8, 8/3: 1, 17/3: 8, 26/3: 1}
+     78: {-10: 8, -7: 8, -3: 8, 0: 30, 3: 8, 7: 8, 10: 8}
+
+[T5] centralizer dims on the theta-odd plane a(w1-w6)+b(w3-w5), primitive (a,b) in [-6,6]^2:
+     dim 30: 90 rays, e.g. [(-6, -5), (-6, -1), (-6, 1), (-6, 5)]
+     dim 46: 6 rays, e.g. [(-1, 0), (-1, 1), (0, -1), (0, 1)]
+
+[T3] singular frame, theta-equivariance DROPPED, Delta = Fix(theta) two arcs signed (+,+), u = omega_1^vee:
+     27: charge  -2/3 dim 10  net = +2
+     27: charge   1/3 dim 16  net = -2
+     27: charge   4/3 dim  1  net = -2
+     78: charge    -1 dim 16  net = +2
+     78: charge     1 dim 16  net = -2
+     SO(10) reading: 27 -> 1_{4/3} + 16_{1/3} + 10_{-2/3};  78 -> (45+1)_0 + 16_{+1} + 16bar_{-1}
+     => two chiral 16s of SO(10) from the 78 alone (|net| = 2 on 16_{+1}); with a 27 present, two more 16_{1/3}: COUNT 2 either way
+     [same rule, u = omega_1^vee - omega_6^vee (ODD, special ray)]: 27:-4/3x1 net +2; 27:-1/3x16 net +2; 27:2/3x10 net -2; 78:-1x16 net +2; 78:1x16 net -2
+     [same rule, u = omega_3^vee - omega_5^vee (ODD, special ray)]: 27:-2/3x10 net +2; 27:1/3x16 net -2; 27:4/3x1 net -2; 78:-1x16 net +2; 78:1x16 net -2
+     [u = omega_1^vee, arcs signed (+,-)]: every net = [0]  (fc R69 section 4: the sign pair is the closer's)
+     odd rays with a SYMMETRIC spectrum: [(-6, -6), (-6, 3), (-5, -5), (-4, -4), (-4, 2), (-3, -3), (-3, 6), (-2, -2), (-2, 1), (-2, 4), (-1, -1), (-1, 2), (1, -2), (1, 1), (2, -4), (2, -1), (2, 2), (3, -6), (3, 3), (4, -2), (4, 4), (5, 5), (6, -3), (6, 6)]
+        (-6,-6): centralizer 30; 27: {-12: 1, -6: 8, 0: 9, 6: 8, 12: 1}
+        (-6,3): centralizer 30; 27: {-6: 1, -3: 8, 0: 9, 3: 8, 6: 1}
+        (-5,-5): centralizer 30; 27: {-10: 1, -5: 8, 0: 9, 5: 8, 10: 1}
+
+[PARITY LOCK, spectral half] q <-> -q symmetry of the 27's charge spectrum:
+     theta-even directions: 44/44 symmetric (4 basis coweights + 40 random integer rays)
+     theta-odd plane:       24/168 symmetric (all (a,b) in [-6,6]^2 minus 0)
+     mixed omega_1,6,3,5^vee: 0/4 symmetric
+     restricted roots on the odd plane: 6 distinct, multiplicities [8], norm^2 ['1'], cosines [-1.0, -0.5, 0.5, 1.0]  (A2 x 8: 6 roots, cos in {-1,-1/2,1/2,1})
+     generic   centralizer 30  q<->-q symmetric False: 108 rays, e.g. [(-6, -5), (-6, -4), (-6, -3)]
+     WALL      centralizer 46  q<->-q symmetric False: 36 rays, e.g. [(-6, 0), (-6, 6), (-5, 0)]
+     ROOT-LINE centralizer 30  q<->-q symmetric True : 24 rays, e.g. [(-6, -6), (-6, 3), (-5, -5)]
+     Weyl conjugacy of the walls to the minuscule coweights: {'omega_3^vee - omega_5^vee in W.omega_1': True, 'omega_1^vee - omega_6^vee in W.omega_6': True, 'omega_1^vee - omega_6^vee in W.omega_1': False, 'omega_3^vee - omega_5^vee in W.omega_6': False}
+     odd quadratic forms s(ax+by) in (x,y,s): Hessian ranks [2] (< 3: a sigma-odd closed 1-form has no Morse zero on Fix(sigma))
+
+[T6] vector-like or chiral under C_ss (rule (+,+); 78 counted over q > 0, 27 over q != 0):
+     omega_1^vee (MIXED)                    C_ss rank 5: 78 -> CHIRAL dim 32; 27 -> CHIRAL dim 32
+     omega_1^vee - omega_6^vee (ODD wall)   C_ss rank 5: 78 -> CHIRAL dim 32; 27 -> CHIRAL dim 32
+     omega_3^vee - omega_5^vee (ODD wall)   C_ss rank 5: 78 -> CHIRAL dim 32; 27 -> CHIRAL dim 32
+     omega_2^vee (EVEN)                     C_ss rank 5: 78 -> VECTOR-LIKE; 27 -> VECTOR-LIKE
+     omega_4^vee (EVEN)                     C_ss rank 5: 78 -> CHIRAL dim 54; 27 -> CHIRAL dim 36
+     omega_1^vee + omega_6^vee (EVEN)       C_ss rank 4: 78 -> VECTOR-LIKE; 27 -> VECTOR-LIKE
+     omega_3^vee + omega_5^vee (EVEN)       C_ss rank 4: 78 -> CHIRAL dim 54; 27 -> CHIRAL dim 36
+     odd root line (1,1)                    C_ss rank 4: 78 -> VECTOR-LIKE; 27 -> VECTOR-LIKE
+     odd root line (2,-1)                   C_ss rank 4: 78 -> VECTOR-LIKE; 27 -> VECTOR-LIKE
+     odd generic (7,3)                      C_ss rank 4: 78 -> VECTOR-LIKE; 27 -> VECTOR-LIKE
+
+[T7] the F4 chamber: every theta-even direction, by face (generic point; rule (+,+), count |net| = 2 per sector):
+     w2                                 C_ss = A5               78: VECTOR-LIKE      cubic anomaly none  Witten []
+        (again, other coefficients)     C_ss = A5               78: VECTOR-LIKE      cubic anomaly none  Witten []
+     w4                                 C_ss = A2 x A1 x A2     78: CHIRAL dim 54    cubic anomaly YES [('A2', '54'), ('A2', '54')]  Witten [0]
+        (again, other coefficients)     C_ss = A2 x A1 x A2     78: CHIRAL dim 54    cubic anomaly YES [('A2', '432'), ('A2', '-486')]  Witten [0]
+     w1+w6                              C_ss = D4               78: VECTOR-LIKE      cubic anomaly none  Witten []
+        (again, other coefficients)     C_ss = D4               78: VECTOR-LIKE      cubic anomaly none  Witten []
+     w3+w5                              C_ss = A1 x A2 x A1     78: CHIRAL dim 54    cubic anomaly YES [('A2', '-48')]  Witten [0, 0]
+        (again, other coefficients)     C_ss = A1 x A2 x A1     78: CHIRAL dim 54    cubic anomaly YES [('A2', '252')]  Witten [0, 0]
+     w2+w4                              C_ss = A2 x A2          78: CHIRAL dim 18    cubic anomaly YES [('A2', '630'), ('A2', '630')]  Witten []
+        (again, other coefficients)     C_ss = A2 x A2          78: CHIRAL dim 18    cubic anomaly YES [('A2', '-756'), ('A2', '-54')]  Witten []
+     w2+w1+w6                           C_ss = A3               78: VECTOR-LIKE      cubic anomaly none  Witten []
+        (again, other coefficients)     C_ss = A3               78: VECTOR-LIKE      cubic anomaly none  Witten []
+     w2+w3+w5                           C_ss = A1 x A1 x A1     78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0, 0]
+        (again, other coefficients)     C_ss = A1 x A1 x A1     78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0, 0]
+     w4+w1+w6                           C_ss = A1 x A1 x A1     78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0, 0]
+        (again, other coefficients)     C_ss = A1 x A1 x A1     78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0, 0]
+     w4+w3+w5                           C_ss = A1 x A1 x A1     78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0, 0]
+        (again, other coefficients)     C_ss = A1 x A1 x A1     78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0, 0]
+     w1+w6+w3+w5                        C_ss = A2               78: CHIRAL dim 6     cubic anomaly YES [('A2', '-90')]  Witten []
+        (again, other coefficients)     C_ss = A2               78: CHIRAL dim 6     cubic anomaly YES [('A2', '36')]  Witten []
+     w2+w4+w1+w6                        C_ss = A1 x A1          78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0]
+        (again, other coefficients)     C_ss = A1 x A1          78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0]
+     w2+w4+w3+w5                        C_ss = A1 x A1          78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0]
+        (again, other coefficients)     C_ss = A1 x A1          78: VECTOR-LIKE      cubic anomaly none  Witten [0, 0]
+     w2+w1+w6+w3+w5                     C_ss = A1               78: VECTOR-LIKE      cubic anomaly none  Witten [0]
+        (again, other coefficients)     C_ss = A1               78: VECTOR-LIKE      cubic anomaly none  Witten [0]
+     w4+w1+w6+w3+w5                     C_ss = A1               78: VECTOR-LIKE      cubic anomaly none  Witten [0]
+        (again, other coefficients)     C_ss = A1               78: VECTOR-LIKE      cubic anomaly none  Witten [0]
+     w2+w4+w1+w6+w3+w5                  C_ss = (abelian)        78: VECTOR-LIKE      cubic anomaly none  Witten []
+        (again, other coefficients)     C_ss = (abelian)        78: VECTOR-LIKE      cubic anomaly none  Witten []
+     chiral faces: ['w4', 'w3+w5', 'w2+w4', 'w1+w6+w3+w5']
+     cubic-anomalous faces: ['w4', 'w3+w5', 'w2+w4', 'w1+w6+w3+w5']
+     omega_1^vee (MIXED, non-equivariant) C_ss = D5               78: CHIRAL dim 32    cubic anomaly none  Witten []
+     w1-w6 (ODD wall, non-equivariant)  C_ss = D5               78: CHIRAL dim 32    cubic anomaly none  Witten []
+
+[T8] sector anomalies per face, normalised to the fundamental (78-sector | 27-sector), and the multiplicities that cancel them:
+     w2                     C_ss = A5               A5: A3(78)=0 A3(27)=0                                      cancelling (n78:n27) = unconstrained
+     w4                     C_ss = A2 x A1 x A2     A2: A3(78)=-3 A3(27)=1  A2: A3(78)=3 A3(27)=-1             cancelling (n78:n27) = [(1, 3)]
+     w1+w6                  C_ss = D4               no cubic invariant                                         cancelling (n78:n27) = unconstrained
+     w3+w5                  C_ss = A1 x A2 x A1     A2: A3(78)=-1 A3(27)=-2                                    cancelling (n78:n27) = []
+     w2+w4                  C_ss = A2 x A2          A2: A3(78)=-3 A3(27)=1  A2: A3(78)=3 A3(27)=-1             cancelling (n78:n27) = [(1, 3)]
+     w1+w6+w3+w5            C_ss = A2               A2: A3(78)=-1 A3(27)=-2                                    cancelling (n78:n27) = []
+     w2+w1+w6               C_ss = A3               A3: A3(78)=0 A3(27)=0                                      cancelling (n78:n27) = unconstrained
+     interior (all 4)       C_ss = (abelian)        no cubic invariant                                         cancelling (n78:n27) = unconstrained
+     omega_1^vee (mixed)    C_ss = D5               no cubic invariant                                         cancelling (n78:n27) = unconstrained
+     w1-w6 (odd wall)       C_ss = D5               no cubic invariant                                         cancelling (n78:n27) = unconstrained
+     odd generic (7,3)      C_ss = D4               no cubic invariant                                         cancelling (n78:n27) = unconstrained
+     on w4 the 27bar-sector's left-handed weights coincide with the 27-sector's; the parent adjoints give SU(3)_a cubic anomaly: {'E7 (133 = 78+1+27+27bar): n27 = 2': '-1', 'E8 (248 = (78,1)+(1,8)+(27,3)+(27bar,3bar)): n27 = 6': '3'}
+
+SELFTEST: PASS

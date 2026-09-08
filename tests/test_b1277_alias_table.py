@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RESERVED = [(1045, 1059), (1278, 1289)]      # cloud's, then the SM seat's
+RESERVED = [(1045, 1059), (1278, 1289), (1300, 1301), (1308, 1315)]      # cloud's, the SM seat's, its B1300–B1301, its continuation (2026-09-08 relay)
 
 
 def _main_arc_ids():

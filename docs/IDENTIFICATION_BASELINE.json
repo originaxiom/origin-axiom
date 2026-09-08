@@ -1,7 +1,9 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 10,
+ "unearned": 11,
  "rows": [
+  "I-6",
+  "I-7",
   "I-10",
   "I-11",
   "I-13",
@@ -10,10 +12,9 @@
   "I-23",
   "I-25",
   "I-26",
-  "I-6",
-  "I-7"
+  "I-27"
  ],
- "total_rows": 26,
+ "total_rows": 27,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -66,6 +67,14 @@
    "row": "I-26",
    "arc": "B1259",
    "reason": "a twisted-cohomology dimension of the object <-> the number of 4d chiral generations. The identification the entire generation-count line has rested on, and it was NEVER REGISTERED -- found while writing MAIN_GOAL JOIN 1. The index-theorem argument licensing 'massless multiplets = dim H^1' lives on a CY3 (real 6d) or a G2 7-manifold; its transport to a real 3-manifold's H^1 is not exhibited, and the surviving gauge group (the centralizer of rho(pi_1)) is not identified. A PRE-EXISTING debt newly NAMED, not newly created: naming it makes explicit that B1253/B1255/B1256/B1257 and the h^1 readings of B1036/B1086 are all conditional. Two banked complications: B1086 gives h^1(27) = h^1(27bar) on any closed double (PD), so the count is vector-like there whatever its value; and B1259 closes the flat-G2 isolation route for every group."
+  },
+  {
+   "date": "2026-09-07",
+   "from": 10,
+   "to": 11,
+   "row": "I-27",
+   "arc": "B1296",
+   "reason": "THE SINGULAR-FRAME ROAD TO THE FIRST CHIRAL SPECTRUM, PRICED RATHER THAN CLAIMED. B1296 (MASTERPLAN v3 door D1) drops fc R70's theta-equivariance and finds count 2 (two chiral 16's, SO(10)xU(1)) -- but the computation exhibits THREE closer's choices and none the object's: the LOCUS (omega is theta-odd and non-zero on the arcs, T1/T2), the SIGN PAIR (the two arcs lie in different symmetry orbits, T4b) and the DIRECTION (theta-odd; the object is theta-symmetric, B1174/B576). Registered UNEARNED at creation, as the ratchet requires; H5-type in B1266's taxonomy (the object supplies the family, the closer picks the point), so it is a NEW irreducible source: B1266's 7 sources become 8 and the irreducible price 11 becomes 12. Raised by hand; nothing absorbed."
   }
  ],
  "_earned_additions": [

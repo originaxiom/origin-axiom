@@ -111,7 +111,7 @@ def selftest():
     print(f"  [srcs ] irreducible sources: {len(groups)}")
     for k, v in sorted(groups.items(), key=lambda kv: -len(kv[1])):
         print(f"           [{len(v)}] {v}")
-    assert len(un) == 10 and len(groups) == 7
+    assert len(un) == 11 and len(groups) == 8   # 2026-09-07 (B1296): +I-27, a new H5-type source; was 10 / 7
 
     # the I-10/I-11 cycle must be ONE source -- a naive closure reports two
     fork = [v for v in groups.values() if "I-10" in v]
@@ -131,7 +131,7 @@ def selftest():
     print(f"    IRREDUCIBLE INPUTS (the theory's free inputs): {AXIOMS} + {len(groups)} = {AXIOMS+len(groups)}")
     print(f"    against the SM's {SM_PARAMS} free parameters -- the meaningful comparison is"
           f" {AXIOMS+len(groups)}, not {AXIOMS+len(un)}")
-    assert AXIOMS + len(groups) == 11
+    assert AXIOMS + len(groups) == 12   # 2026-09-07 (B1296): I-27 is an eighth source; was 11
     print("\nSELFTEST: PASS")
 
 

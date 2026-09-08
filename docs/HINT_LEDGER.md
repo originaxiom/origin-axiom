@@ -660,3 +660,52 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   covers of m004, none rotated by any isometry. These are the covers to look at first if anyone
   reopens "three arcs need an order-3 cusp rotation" at degree > 10 — the shape is there, the
   symmetry is not; the question is which enlargement of the isometry group a further cover buys.
+- H-B1296-F4 (type LAW-SHAPED, exact, coefficient-independent): on the F₄ chamber of the θ-even Cartan
+  of E₆, *chiral ⟺ SU(3)-cubic-anomalous*, face by face (4 of 15 faces both, 11 of 15 neither; Witten
+  parity 0 everywhere). The mechanism is the twist: θ-evenness gives `dim 27_q = dim 27_{−q}` always and
+  `27_q ≅ 27_{−q}^*` only when θ|_{C_ss} is inner — the swapped A₂ pair and the pointwise-fixed A₂ are the
+  two outer cases. Not yet asked: does the same dichotomy hold for the other two diagram-flip pairs
+  (D₄ triality folding to G₂, A_{2n} folding) — if it is general, "equivariant abelian Higgs on a fixed
+  locus" is vector-like-or-anomalous for every folding, a statement about symmetric pairs, not about m004.
+- H-B1296-A2 (type IDENTITY, checked): the θ-odd Cartan plane is the restricted root system of the
+  symmetric pair (E₆, F₄) — six restricted roots, multiplicity 8, cosines {±1, ±½}: Helgason's EIV =
+  E₆(−26), the form the corpus already names as the object's spacetime form (T-SIMUL-CLOSING). The odd
+  plane's walls are D₅ ⊕ u(1) (36 rays, chiral type), its root lines D₄ ⊕ u(1)² (24 rays, spectrum
+  symmetric), generic D₄ ⊕ u(1)² (108). The chirality of the θ-odd motion (B576) is the wall structure of
+  EIV's restricted A₂ — the first time the spacetime form and the chirality question meet in one object.
+- H-B1296-ORBITS (type WITNESS): the two arcs of one strong inversion of m004 lie in DIFFERENT orbits of
+  the cusp isometry group (endpoint orbits [4, 4], stabilisers {2: 8}) and the object's harmonic form
+  distinguishes them numerically, `ω(∂_x) = 1.280438` vs `0.724301`. The arcs are not interchangeable:
+  a closer who assigns them equal signs is making a choice the object does not make (fc R69 §4 by
+  symmetry). Ratio 1.7677 — recorded, not interpreted.
+- H-B1296-WEYL (type IDENTITY, checked): `ω₃^∨ − ω₅^∨ ∈ W·ω₁^∨` and `ω₁^∨ − ω₆^∨ ∈ W·ω₆^∨` (cross pairs
+  false): the chiral SO(10) direction IS a θ-odd wall of the restricted A₂ up to Weyl. So the θ-odd
+  plane reaches SO(10)×U(1) and the θ-even chamber does not — the crux of c vs θ stated in coweights.
+- H-B1296-TRIN (type DISTINCTION, for citation hygiene): the ω₄^∨ face's centraliser A₂×A₁×A₂ ⊕ u(1) is
+  trinification `SU(3)³` with the third SU(3) broken to SU(2)×U(1)_u (27 → (3,2,1)₁ ⊕ (1,2,3)₋₁ ⊕ (1,1,3)₂
+  ⊕ (3,1,1)₋₂ ⊕ (3̄,1,3̄)₀); B1098's "trinification remnant" is su(3)⊕su(3), the object's holonomy eating
+  one SU(3). Different objects; TERMINOLOGY.md:493 names only the latter.
+- H-B1296-RATIO (type OBSERVATION, FIREWALLED — recorded because it was on the screen, built on by
+  nothing): on the swapped-pair faces the 78-sector's SU(3)² cubic anomaly is exactly −3 × the 27-sector's
+  (−3 vs +1 per A₂, normalised to the fundamental; the 78 ⊃ (3,3,3̄) is tri-fundamental, the 27
+  bi-fundamental), so the two sectors cancel only at multiplicities 78 : 27 = 1 : 3. The two sectors live
+  in two frames (PW's 7d adjoint vs the heterotic-type 27), no frame on main has both with free
+  multiplicities, and the two parents that contain both give −1 (E₇, n₂₇ = 2) and +3 (E₈, n₂₇ = 6) —
+  neither cancels. **This is not a generation count**; it is registered as L201's data.
+
+- H-B1297-INDEX (type LAW-SHAPED, derived and checked on 61 sectors): on a one-cusped 3-manifold the net chirality of a local
+  system is `I = t₀ − r₁` in domain D — cusp invariants minus the rank of the boundary map; `F = −I`, `Cc = I`. Chirality is a
+  boundary-map statement; a closing (no boundary) has none. The twisted, coefficient-level form of fc R69's "the cusp keeps
+  the endpoints" and of B1290's `χ(M, ∂⁺M)`. (B1297, 2026-09-08)
+- H-B1297-GALOIS (type LAW-SHAPED, two-line proof): a twist of order prime to 3 on the ℚ(√−3) object is vector-like by field
+  theory alone — the automorphism fixing ℚ(√−3) and inverting the twist carries V to V*. Only 3-torsion twists are
+  Galois-unprotected for this object; the cyclic tower's 3-torsion first appears at the 4-fold cover (|Tors| = 45). (B1297)
+- H-B1297-PERIOD2 (type LAW-SHAPED, one-line proof): the figure-eight's period-2 symmetry is −1 on its Alexander module (the
+  module is cyclic on the lift of `a`, and P sends a ↦ a⁻¹), hence charge conjugation on every cyclic cover's twists. A
+  chiral spectral cover on this object must be one the period-2 symmetry does not dualise — L202. (B1297)
+- H-B1297-UNITARY (type OBSERVATION, proved): every UNITARY local system has index 0 (`V* ≅ V̄`, conjugation preserves ranks);
+  non-zero net chirality on a cusped 3-manifold needs a NON-unitary local system — the geometric SL(2,ℂ) is the only
+  non-unitary ingredient the object supplies. (B1297)
+- H-B1297-NOEXAMPLE (type WITNESS, negative): in 60 one-cusped census manifolds with torsion ≥ 3 in H₁ (12 non-self-dual
+  `Sym²⊗χ` sectors) the index is 0 with `r₁ = t₀ = 1` every time. Whether `I ≠ 0` ever occurs in domain D is open (L202c);
+  the algebraic non-vacuity of the criterion is shown on random presentations (26/31 non-zero). (B1297)

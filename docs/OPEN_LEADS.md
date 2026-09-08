@@ -2321,3 +2321,39 @@ The two prior "divisor law" hits on main (B842's metallic fixed-point divisor la
 are unrelated terms; `already_banked` on {harmonic, Eisenstein, Fourier, divisor, cusp} returns only
 B1294/B1295. Not on the MASTERPLAN v3 door path — recorded, not chased; it becomes a door only if D1/D2
 need the exact coefficients. ★★ (an exact object where there was a number; no join moves by itself).
+
+## L201 — CAN A CLOSING ABSORB THE SU(3) CUBIC ANOMALY OF THE F₄ CHAMBER'S CHIRAL FACES? (registered 2026-09-07, B1296; source: this bench, found while classifying the θ-even chamber)
+
+B1296 proved that a θ-equivariant charge locus on Fix(θ) lands the Higgs direction on the F₄ chamber, whose four
+chiral faces (`ω₄^∨`, `ω₃^∨+ω₅^∨`, `ω₂^∨+ω₄^∨`, `ω₁^∨+ω₆^∨+ω₃^∨+ω₅^∨`) all carry a non-zero SU(3) cubic anomaly in
+the left-handed content (normalised to the fundamental: 78-sector −3 and 27-sector +1 per A₂ on the two
+swapped-pair faces; −1 and −2 on the two pointwise-fixed-A₂ faces). The arcs end on the cusp, so an anomaly of
+`U(1)_u` may flow out; a non-abelian cubic anomaly of an SU(3) factor cannot, unless the closing supplies
+states. **The lead:** (a) is there a closing (a Dehn filling, a cover, the ℤ/3 descent to Y₉) whose extra
+states carry SU(3)³ = +3 per A₂ (or +1 on the fixed-A₂ faces) in the right chirality — the SM seat's Y₉ vacua
+are vector-like (sm:B1278) so their net contribution is 0, which is the first thing to check; (b) which single
+frame contains both the 78-sector (PW's 7d adjoint) and the 27-sector (the heterotic-type matter) with free
+multiplicities — on the swapped-pair faces they cancel only at 78 : 27 = 1 : 3, and the two parents that contain
+both, E₇ (133 = 78 ⊕ 1 ⊕ 27 ⊕ 27̄, n₂₇ = 2 → −1) and E₈ (248 = (78,1) ⊕ (1,8) ⊕ (27,3) ⊕ (27̄,3̄), n₂₇ = 6 → +3),
+do not cancel. **FIREWALL:** the 1 : 3 is a ratio between two frames and a representation-theoretic fact about
+`E₆ ⊃ SU(3)² × SU(2) × U(1)`; it is NOT a generation count and nothing is built on it (H-B1296-RATIO). Not on
+the MASTERPLAN v3 door path — recorded, not chased; it becomes a door only if D2 lands on the F₄ chamber. ★.
+
+## L202 — WHERE A SPECTRAL COVER ON m004 COULD STILL BE CHIRAL: the sectors the period-2 symmetry does not dualise (registered 2026-09-08, B1297; source: this bench, found while closing D2's (2+1)-reducible family)
+
+B1297 proved every (2+1)-reducible E₆ spectral cover on the cyclic tower of m004 vector-like, twice over: Galois self-duality
+for twists of order prime to 3, and the period-2 symmetry acting as −1 on the Alexander module (so `ψ∘P = ψ⁻¹`,
+`J(ψ) = −J(ψ)`) for all orders. Three sectors survive, each a bounded computation: **(a)** irreducible non-extending SL(3)
+representations of `π₁(C_n)` — a component of `X_{SL(3)}(C_n)` on which `ρ₁∘P ≇ ρ₁*` (the corpus's W1/W2 extend to m004 and
+are rigid, B1267; the non-deck-invariant components have never been enumerated); the index to compute is
+`I(C_n; ρ₁ ⊗ (ρ₁^τ)*)` exactly as pre-registered; **(b)** NON-cyclic covers of m004 in B1295's 87-cover tower with 3-torsion
+in H₁ — P need not preserve a non-normal subgroup and Galois needs the order prime to 3, so 3-torsion there is the first
+place with neither protection; **(c)** the instrument question: does `I ≠ 0` occur AT ALL on a one-cusped hyperbolic
+manifold in domain D (reductive, one-parameter cusp)? The 60-manifold scan found none; a general vanishing theorem
+(e.g. from the L² Hodge theory of `Sym²ρ ⊗ χ`) would retire the index and, with it, this door. (c) gates (a) and (b):
+compute it first. Prior after B1297: ~10 % for (a)+(b) jointly. On the MASTERPLAN v3 door path as D2's continuation;
+not a new door. ★★.
+
+*L202 note (2026-09-08): the SM-derivation seat's sm:B1280 Theorem 1 (2026-09-06) already proves W1/W2 vector-like on every cusped cyclic cover by the same period-2 duality (their cusp-fixed curve K is the branch locus of the trace coordinates) — if it reproduces here (B1299), it closes (a) for every component that extends from m004, leaving the non-extending ones; its own L207 (one unpaired θ-odd direction at the subregular point) joins (a).*
+
+

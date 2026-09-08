@@ -1,0 +1,29 @@
+{
+ "id": "B1296",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1295",
+  "B1294",
+  "B1291",
+  "B1290",
+  "B1174",
+  "B576",
+  "B1182",
+  "B1098",
+  "B1086"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": true,
+ "law_id": "T-CHARGE-LOCUS-PARITY-LOCK",
+ "identifications": [
+  {
+   "row": "I-27",
+   "status": "UNEARNED",
+   "note": "the chiral vacuum = an abelian Higgs whose charge locus is Fix(theta) with equal arc signs and a theta-odd direction: three closer's choices exhibited (locus T2, sign pair T4b, direction B1174/B576), none the object's; the ratchet raised by hand 10 -> 11 at landing; an eighth irreducible source (B1266 price 12)."
+  }
+ ],
+ "claim_one_line": "THE CHARGE-LOCUS PARITY LOCK (MASTERPLAN v3 Phase 2 = Door D1; pre-registered, two pre-registered expectations refuted by the computation and the computation banked). T1 THE SWAP THEOREM: on B1295's harmonic generator all 8 cusp isometries satisfy g(m z, t) = alpha(m) g(z, t) to rel. dev. 6.8e-13 (alpha = the meridian sign), sign g(-z) = -sign g(z) at 3592/3592 grid points: the strong inversion swaps d+M and d-M, so chi(d+M) = 0 COEFFICIENT-FREE (B1295's c_(0,2) is now needed only for regularity) and the object's equivariant smooth vacuum omega (x) u is theta-ODD. T2 THE LEVEL-CURVE LEMMA: a sigma-odd 1-form annihilates T Fix(sigma); at the 8 arc endpoints max|g| = 1.6e-13 while omega(d_x) = 1.280438 on one endpoint orbit and 0.724301 on the other -- Fix(theta) is NOT a zero locus of the object's Higgs. T4/T4b: endpoint stabilisers {2: 8}, orbits [4, 4], the two arcs of one strong inversion lie in DIFFERENT orbits -> no symmetry relates the arcs' signs; the sign pair is the closer's (fc R69 sec. 4 confirmed by symmetry). THE LOCK (topological half, a theorem about involutions): at p in Fix(sigma), d sigma = (+1 | -1, -1); a sigma-odd covector is purely normal, a Morse-Bott zero locus or a vortex locus along Fix(sigma) is sigma-EVEN, a sigma-odd potential has Hessian rank 2 on the arcs (no non-degenerate zero) -> every charge locus on Fix(theta) forces theta_G u = +u: the Higgs direction lies in the theta-even Cartan = Cartan(F_4 = E_6^theta). THE SPECTRAL HALF (exact, rational E_6 in R^8, 72 roots, 27 = W.omega_1, theta = diagram flip): theta-even u gives dim 27_q = dim 27_{-q} (44/44 rays) but NOT vector-likeness -- THE F_4 CHAMBER (15 faces spanned by omega_2^v, omega_4^v, omega_1^v+omega_6^v, omega_3^v+omega_5^v, coefficient-independent): chiral faces = SU(3)-cubic-anomalous faces = {w4 (A2 A1 A2, chiral 54), w3+w5 (A1 A2 A1, 54), w2+w4 (A2 A2, 18), w1+w6+w3+w5 (A2, 6)} -- exactly the faces where theta acts on an A2 by a swap or pointwise; the other 11 (A5, D4, A3, A1^n, abelian) are vector-like with Witten SU(2) parity 0; the only chiral anomaly-free directions (D5 = SO(10) x U(1), chiral 32 = two 16s) are the mixed omega_1^v and the theta-ODD walls omega_1^v - omega_6^v, omega_3^v - omega_5^v (omega_3^v - omega_5^v in W.omega_1^v TRUE), which the lock forbids as a charge locus. Sector anomaly table normalised to the fundamental: on w4 / w2+w4 A_3(78) = -3, A_3(27) = +1 per A2 (cancelling multiplicities 78:27 = 1:3 ONLY -- two different frames, E_7 (n27 = 2) gives -1 and E_8 (n27 = 6) gives +3, neither cancels; FIREWALLED as an observation, not a generation count); on w3+w5 / w1+w6+w3+w5 A_3(78) = -1, A_3(27) = -2, UNCANCELLABLE. The theta-odd plane is the restricted A2 of (E_6, F_4) with multiplicity 8 = Helgason's EIV = E_6(-26), the corpus's spacetime form: 36 wall rays D5+u(1) (chiral type), 24 root-line rays D4+u(1)^2 (symmetric), 108 generic. T3 THE TOGGLE (equivariance dropped, signs (+,+), u = omega_1^v): 27 -> 10_{-2/3} net +2, 16_{1/3} -2, 1_{4/3} -2; 78 -> 16_{-1} +2, 16_{+1} -2: two chiral 16s of SO(10), COUNT 2 = B1086's h^1 = 2 = fc R70's count on an independent realisation; signs (+,-) give every net 0. Priced as I-27 UNEARNED (the chiral vacuum = charge locus Fix(theta) + equal signs + theta-odd direction: locus unsupplied (T2), sign pair free (T4b), direction the closer's (B1174/B576), and by the lock it cannot be theta-equivariant). CORRECTION to fc R70 (sharpening; HOLD): 'theta-even => 2(R+Rbar) vector-like' holds on 11 of 15 F_4 faces and FAILS on 4 (even => dimension-symmetric, not vector-like); R70's conclusion survives strengthened (the chiral even faces are all SU(3)-anomalous). The masterplan head stands (count 2 on every road); the wall is renamed 'the charge locus is unsupplied'; pre-registrable fail condition for D2: a spectral-cover derivation that lands on the F_4 chamber is either vector-like or anomalous. Next: B1297 = D2."
+}

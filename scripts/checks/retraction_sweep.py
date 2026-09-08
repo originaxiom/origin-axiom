@@ -42,7 +42,12 @@ MENTION_CUES = re.compile(
     r"27-only|scoped by|partially retracted|read before quoting|"
     # added 2026-09-06 (Review 55): B1188's correction banner reads "... as \"<phrase>.\" **Wrong direction**",
     # a mention the cue list did not recognise once the sweep could finally see the phrase.
-    r"wrong direction|described .{0,40} as", re.I)
+    r"wrong direction|described .{0,40} as|"
+    # added 2026-09-07 (the doc-currency read at B1296): "refuted" -- the corpus's commonest retraction
+    # verb -- was not a cue, so every line that SAYS a phrase is refuted (B1253 FINDINGS: "It is refuted";
+    # CAMPAIGN_STATUS: "this arc's own headline REFUTED") read as a live use the moment the phrase was
+    # registered. Same E66 shape as the Review-55 widening above: the enforcement narrower than its rule.
+    r"refuted", re.I)
 
 
 def _phrases():
