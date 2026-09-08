@@ -41,7 +41,18 @@ under fresh main IDs and this table maps both directions forever).
 | **B1274** | **the_second_collapse** | **the_tower_and_its_doubles** |
 | **B1275** | **e8_family_verified** | **the_cubic_made_explicit** |
 | **B1276** | **legs_are_faces** | **the_relations_the_chain_forces** |
-| B1277 | leak_closure | *(branch has not used it)* |
+| B1277 | leak_closure | the_vacuum_manifold_of_the_closing (the seventh collision, recorded by main's B1294) |
+| B1278–B1283 | *(reserved, never assigned on main)* | the_six_fold_closing · the_symmetries_of_the_closing · the_chirality_probe · the_seats_verified · the_siblings_germ · the_sm_closings_vacuum |
+| B1284–B1289 | *(reserved: the physics/codex seats' shared buffer)* | — |
+| B1298–B1299 | the_lift_fork · the_period_2_duality (main's harvest arcs) | — |
+| B1300–B1301 | *(reserved for the seat, per the 2026-09-08 relay)* | the_doublet_triplet_lines · the_towers_alphabet |
+| **B1302** | **the_sibling_m202** (main, 2026-09-08 16:27 UTC) | **the_one_triplet_vacua** (seat, banked earlier the same day) — **the eighth collision**; cite the seat's as sB1302 |
+| **B1303** | **the_sm_closings_z_prime** (main, 17:59 UTC) | **the_two_by_two_criterion** (seat, earlier the same day) — the ninth; cite as sB1303 |
+| **B1304** | **the_audit_seats_4d_model** (main, 19:25 UTC) | **the_two_adic_tower** (seat, earlier the same day) — the tenth; cite as sB1304 |
+| B1305–B1307 | the_cloud_156_178 · the_older_debt · the_harvest_gate (main's) | — |
+| B1308–B1319 | *(reserved for the seat; B1308–B1315 granted 2026-09-08, extended to B1319 per its `SM_TO_CC_2026-09-08_THE_TOWER.md` ask)* | *(unused; the seat moved on)* |
+| **B1350–B1399** | *(reserved for the seat, per its collision note of 2026-09-08)* | **the_v10_direction (B1350)** and its continuation |
+| B1320 | **main's next free number** (after B1307) | — |
 
 ## Which side is canonical
 
@@ -53,8 +64,7 @@ resolves to which directory*, nothing more.
 
 ## What each side must do
 
-- **Main (this seat):** never assign B1278–B1289; next new arc **B1290**. Cite the other seat
-  as `sB…` always.
+- **Main (this seat):** never assign B1278–B1289, B1300–B1301, B1308–B1319, B1350–B1399; next new arc after the harvest block **B1320**. Cite the other seat as `sB…` / `sm:B…` always. *(2026-09-09, B1306 slice A: the eighth to tenth collisions, B1302–B1304, happened because the seat's range request lived on its branch until a harvest; main's numbers on those three are canonical because landed, the seat's are cited with the prefix and rebank on merge. The harvest-debt gate — B1307 — reads seat relays the hour they are pushed.)*
 - **The SM-derivation seat:** continue at **B1278**, not B1277. Its existing B1267–B1276 keep
   their directory names on its own branch; on merge they rebank under fresh main IDs, as the
   cloud's did.

@@ -238,3 +238,12 @@ neighbour did not take the route: *has anyone published trace field → McKay �
 pass, with the answer entered here; (b) Piergallini's 4-fold branched covers of S⁴, whose singularities are cones on the trefoil
 and the Hopf link, against the record's 4d-lift wall ("no canonical filling; Ω₃^SO = 0"): does the selector problem survive an
 explicit branched-cover 4-fold whose branching set is a knot complement? — fresh-eyes register Q13. Neither changes a verdict.
+
+*Entry 5, addendum 2026-09-09 — the sixteen-paper check.* The session-relay seat assembled his arXiv corpus (sixteen papers, 2009–2019, 448
+pages; archived under the gitignored `audit/` directory, never tracked). Text-extracted and searched here with ligature-aware patterns: **the
+figure-eight knot is named in none of the sixteen**; "trace field" occurs twice and Maclachlan–Reid once, both only in arXiv:1910.09966; the
+word "arithmetic" occurs in that paper alone (five times). So the README's "names the figure-eight complement as his arithmetic example" is not
+in his corpus, and the overlap column shrinks to: fermions as hyperbolic knot complements, Mostow rigidity, number theory named as a tool once
+(§7 of 1910.09966, the route untaken). The delta grows accordingly. The three numbers papers (1709.03314: Ω_Λ ≈ 0.7029; 1801.10419: m_H ≈ 126.4 GeV,
+m_ν ≈ 0.024 eV; 1812.08158: N ≈ 51, n_s ≈ 0.961) are recorded as his claims; the review 1601.06436, the Brans paper 1502.02087 and 1006.2230 are
+the reads for FRESH_EYES Q13/Q14 in B1306's prior-art pass. No send (owner: all sends hold).

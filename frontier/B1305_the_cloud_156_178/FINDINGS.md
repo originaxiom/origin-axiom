@@ -108,3 +108,10 @@ Cloud certificates re-run in the pinned worktree, RC=0: `cloud_memo172_sense_cen
 for the cloud tree and main), `b1305_covers_11_12.py`, `b1305_partial_fillings.py`, `b1305_klein_check.py` (each with `.out`/`.json`). Inputs: the cloud
 harvest-debt table of 2026-09-08 (`inputs/`). Lock: `tests/test_b1305_the_cloud_156_178.py`. HARVEST_LEDGER rows 38–43. Machine paths in the
 receipts scrubbed to a relative form at landing (the tracked-text scan).
+
+*Correction 2026-09-09 (E53 at source, B1306 slice A): Q4(a)'s forward reading reproduced B1301's list faithfully, including "new odd support at 20
+(41)" and "22 (89)"; the SM-derivation seat's sm:B1303 (banked before this arc landed) withdraws those two: the law's third clause — Ψⁿ acts by
+the sign +1 at even levels — empties the 41-part of Y₂₀ and the 89-part of Y₂₂, so new odd support arises only at ODD levels and an even level's
+odd support is Y_{n/2}'s. Reproduced here with main's own Fox calculus (`B1306_the_older_debt/verification/sm_new/b1306_tower_criterion.py`): 0 of
+Y₂₀'s 1 680 order-41 characters carry a class, its 20 order-11 ones (Y₅'s) do. The arithmetic of §5 stands for the odd levels; its even-level
+predictions are superseded by the seat's own correction of its law.*

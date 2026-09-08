@@ -1,0 +1,23 @@
+{
+ "id": "B1306",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1305",
+  "B1304",
+  "B1303",
+  "B1302",
+  "B1299",
+  "B1298",
+  "B1294",
+  "B1277",
+  "B1274",
+  "B1273"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE OLDER DEBT, SLICE A (MASTERPLAN v3.1 Phase 1, seventh harvest arc; DESIGN_A sealed 815f34be; the SM-derivation seat pinned 0dffacd4). The seat's 2x2 criterion for the tower's twisted cohomology (sm:B1303: pi_1(Y_n) = <a, b | phi^n(a) = a, phi^n(b) = b>, h^1 = 1 iff a product of n 2x2 matrices is the identity) VERIFIED by an independent full Fox calculus on the explicit words phi^n(a), phi^n(b) at every non-trivial character of Y_3..Y_9, exactly modulo two primes: supports 3, 0, 20, 27, 56, 0, 147; rank J <= 1; det(J + I) = 1 everywhere (sm:B1304's unipotent lemma); the factorised product equals J + I at every character (the chain rule). Its even-level correction VERIFIED at Y_20 (0 of 1680 order-41 characters carry a class; Y_5's 20 at 11), so B1305 A's forward list is corrected at source (E53). Y_24's 2-primary support = Y_12's 123 = {2: 3, 8: 24, 16: 96}, no order 32 (own code). Two own errors caught and recorded (a transform-based character parametrisation wrong on the cyclic 5-part; single-prime false zeros on whole eigenlines). sm:B1302's 768 one-triplet vacua of Y_12 REGISTERED on L203 with the seat's limits (vector-like, one light generation, massless at tree level, SM x U(1)^2); sm:B1350 (main's L204 begun by the seat: stages 0-3 exact) REGISTERED on L204. The third numbering collision (B1302-B1304, the seat first by hours) repaired on main: alias table rows, RESERVED (1308, 1319) and (1350, 1399), main's next number B1320; the seat's tower relay BANKED. The Asselmeyer-Maluga corpus (sixteen papers, archived under audit/) checked: the figure-eight knot is named in none; the dossier's Entry 5 amended. Three seat inventories (SM older items; physics/codex/hostile-review; cc3/braver/consolidation) written to inputs/ as slices B-D's DESIGN input. HARVEST_LEDGER rows 77-82; price unchanged."
+}

@@ -1,0 +1,9 @@
+  deck t = Psi^2: 64 orbits on the 768 one-triplet lines, sizes {12: 64}
+  deck and half-deck <Psi>: 32 orbits on the 768 one-triplet lines, sizes {24: 32}
+  <Psi, J>: 8 orbits on the 768 one-triplet lines, sizes {96: 8}
+  <Psi, J, inversion>: 8 orbits on the 768 one-triplet lines, sizes {96: 8}
+  all 34752 SM lines under <Psi, J, inversion>: 388 orbits, sizes {48: 52, 96: 336}
+  J preserves the support: True; Psi preserves it: True; inversion preserves it: True
+
+SELFTEST: PASS
+RC=0

@@ -2368,6 +2368,14 @@ and filling only lowers the count — so a partial filling can supply a quantize
 chirality question on such fillings only after the census of the 87 covers (amphichirality, 3-torsion, period-2 lifts) says the hypothesis
 is otherwise untestable inside the tower, and prices the three choices as identification rows first.*
 
+*L203 note (2026-09-09, B1306 slice A; the SM-derivation seat's sm:B1303/sm:B1304 @ 0dffacd4, the 2×2 criterion re-derived here by full Fox
+calculus at n ≤ 9 with two primes, Y₂₀'s 41-part and Y₂₄'s 2-primary part checked): the tower is COMPUTABLE — h¹(Y_n; ψ) = 1 iff a product of n
+2×2 matrices is the identity — and its Standard-Model closings through Y₂₁ are Y₉ (706 464 lines), Y₁₂ (34 752; the one-triplet ones), Y₁₅
+(5 016 142 400), Y₁₈ (= Y₉'s), Y₂₁ (48 945 letters); the 2-adic new supports stop at Y₁₂ (Y₂₄ is Y₁₂ pulled back); the law's odd part has three
+exact clauses (the ramified prime 5; the half-deck's global sign; + at even levels). Y₁₂'s 768 one-triplet vacua (sm:B1302) are "the closest
+approach to the SM's field content the object has produced" — vector-like, one light generation, massless at tree level, SM × U(1)². The
+object-native selector for this lead is now a finite arithmetic menu.*
+
 ## L204 — THE SUBREGULAR POINT'S ONE UNPAIRED DIRECTION (registered 2026-09-08, B1299; mirrors the SM-derivation seat's sm:L207 of 2026-09-06; the exact half done by B1298)
 sm:B1280 Theorem 2 makes the θ-odd E₆ germ at the geometric (principal) point vector-like by symmetry: the inversion acts as the
 outer automorphism on the whole tangent space (B1298: twelve signs, exact). At the SUBREGULAR sl₂ point — B1256's assumption-free
@@ -2379,7 +2387,7 @@ by B1268 (|N| ≤ h⁰(∂M; 27)). **The computation:** the subregular E₆ loca
 build the subregular embedding explicitly (B1256 has the labelling), deform along the V₁₀ ⊂ 42 class, compute h¹(M; 27_ρ) −
 h¹(M; 27̄_ρ) numerically at first order and exactly if the point is algebraic. Priced at about a day. If N ≠ 0 there it is the
 programme's first symmetry-unprotected chiral direction on the flat sector — and I-25 (which sl₂) becomes load-bearing for
-chirality, not only for typing. Prior 15 %. ★★.
+chirality, not only for typing. Prior 15 %. ★★. *Note 2026-09-09 (B1306 slice A): the SM-derivation seat has begun this computation as sm:B1350 (@ 0dffacd4): stages 0–3 exact — the subregular point's h¹ = 3 for 27 and 27̄ with N = 0, the two V₁₀ classes each with h¹ = 1, neither cusp-trivial (restriction rank 2), both trace-flat at first order; stage 4 (the 400-bit Newton deformations and N(27)) pending on the seat. Main's arc for this lead verifies sm:B1350 when its stage 4 lands, with credit by pin.*
 
 ## L203 — SELECTION AMONG THE CLOSINGS: Y₉'s 19 624 vacua AND Y₁₂'s 34 752 lines (registered 2026-09-08, B1303; the lead v3 §3 cited as "L206" and never registered — an E53 of the plan itself, closed here)
 The record now has TWO Standard-Model closings on the object's own tower: Y₉ (sm:B1278/B1279, re-run B1294: 706 464 SM lines in

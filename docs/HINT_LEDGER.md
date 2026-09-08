@@ -793,3 +793,15 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 - H-B1304-INPUT-TABLE (type SYNTHESIS): the ToE ledger's §E is the price list the programme statement has been paying in prose; with it,
   "which endpoint" is a row number. The audit seat's compact-E₆ theory pays six rows; main's structure chain pays I-26/I-27/I-28 and the
   closing; the Z′ regime pays the mass ordering. No theory in the record pays zero. (B1304)
+
+## 2026-09-09 — B1306 slice A hints (recorded, not judged)
+
+- H-B1306-TWO-PRIMES (type PROCESS, this bench): a matrix identity tested modulo ONE prime admits whole eigenlines of false zeros — my first
+  run of the criterion check found 84 at Y₇ (56 right) and 183 at Y₉ (147 right), each excess a full eigenline; the SM seat's certificate
+  uses two primes for exactly this reason. Rule: an exact-modular identity test is two primes or it is a heuristic. (B1306)
+- H-B1306-CRITERION (type SYNTHESIS, the SM seat's): π₁(Y_n) = ⟨a, b | φⁿ(a) = a, φⁿ(b) = b⟩ makes the tower's twisted cohomology a 2×2
+  matrix product per character; with it every "which closing carries the SM" question is arithmetic in Δ's roots and the half-deck's sign.
+  The selection among the closings (L203) has become a finite, checkable menu — and still no selector. (B1306)
+- H-B1306-COLLISION-3 (type PROCESS): the third numbering collision in a month happened with the relay written and the reserved list in
+  place, because a seat's request lives on its branch until a harvest; the fix is not another range but the gate that reads seat relays the
+  hour they are pushed (B1307). (B1306)
