@@ -115,6 +115,31 @@ that months ago.**
 
 ## 6. The one thing this lane is stuck on, stated so someone else can take it
 
+> ### **[SUPERSEDED THE SAME DAY — memo 182 addendum 2 and memo 183. DO NOT HARVEST §6 AS WRITTEN.]**
+>
+> **(a) The `1 − qA` gap below was MY BUG, not a convention gap.** The assembler discarded every
+> `q`-exponent below zero (`if 0 <= x <= 200`), harmless for `4₁` whose `Ξ₁` sits at `q^0` — which
+> is why four `4₁` controls passed — and fatal for `m(5₂)` whose `f_0` starts at `q^{−1}`. Fixed,
+> **all five of Park's published `m(5₂)` series now match** (Table 3 `p=−1`, Table 4 `r=2,3,4,5`),
+> up to the overall sign GM's Conjecture 1.7 leaves free. The three reasons given below for
+> calling it a convention gap were all true and all irrelevant.
+>
+> **(b) The real blocker is elsewhere, and it is in the paper, not here.** Memo 183:
+> the quantum A-polynomial printed in **[Park] eq (32) does not annihilate `F⁺_{m(5₂)}`** —
+> `[Â F⁺]_{x^{7/2}} = q^{13} f_0(q) ≠ 0`, exactly, on 23 nonzero coefficients out to `q^{270}`,
+> with `f_0` the paper's own block. His closed forms for `f_0, f_1`, his `ℚ(q)`-formulas for
+> `f_2, f_3`, and eq (32) are mutually inconsistent; the first two agree with each other and with
+> his printed series, and eq (32) is the one that disagrees. **No single-monomial repair exists**
+> — exactly five are consistent with the `x^{7/2}` equation and all five fail at `q^{17}` against
+> `Ẑ(Σ(2,3,11))`, generated here independently as a false theta (`n ∈ ±{5,17,49,61} mod 132`,
+> `χ` odd, exponent `(n²−25)/264`, reproducing all seven of Park's printed exponents with signs
+> and the sign of the `q^{61}` term he only bounds).
+>
+> **What would unblock it:** the arXiv LaTeX source of eq (32) (egress-blocked here), or
+> Garoufalidis–Koutschan's non-commutative A-polynomial of the twist knot `K_2` which Park cites
+> as its source, or `f_4^{m(5₂)}` to one coefficient beyond `q^0` from any independent route.
+> **That is the ask now, and it replaces the ask below.**
+
 Park §5.1 Table 4 publishes `Ẑ(S³_{−1/r}(m(5₂)))` for `r = 2,3,4,5`. Assembling it from the
 blocks via GM Thm 1.2 — the *same code* that reproduces four published objects for `4₁` — gives
 
@@ -132,5 +157,8 @@ it in a line.
 * Gate 5 untouched throughout memos 174–182. `c((E₆)₁) = 6` appears only as the comparison target
   of computed negatives. No measured physical value anywhere.
 * Eleven of thirteen GM inputs were independently verified on this bench (memo 180's ledger);
-  **no error was found in any of the three papers.** The errors found were this bench's.
+  ~~**no error was found in any of the three papers.** The errors found were this bench's.~~
+  **[CORRECTED, same day, memo 183: one error has now been found in a paper — [Park] eq (32).
+  The GM inputs are still clean. Every other error found remains this bench's, and memo 182
+  addendum 2 adds one more to that column.]**
 * Nothing here promotes to `CLAIMS.md`, closes a lead, or asserts a bridge.

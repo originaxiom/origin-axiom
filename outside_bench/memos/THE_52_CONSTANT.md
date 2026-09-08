@@ -169,3 +169,59 @@ coefficients** over the printed range — visibly unlike the figure-eight's, who
 `φ^{2k}`. That is an observation about twelve printed coefficients and **nothing is inferred from
 it**; it is written down only so that the eventual measurement has something to be checked
 against.
+
+---
+
+# ADDENDUM 2 (2026-09-08, same day) — **ADDENDUM 1 §2 IS WRONG. THE `1 − qA` GAP WAS MY TRUNCATION BUG, NOT A CONVENTION GAP**
+
+**Correction at the point of occurrence, superseding addendum 1 §§1–2 in place.**
+
+## 1. The cause
+
+The assembler carried the line
+
+```python
+   if 0 <= x <= 200: out[x] = out.get(x,0) + sgn*c
+```
+
+which **silently discarded every `q`-exponent below zero**. Harmless for the figure-eight, whose
+`Ξ₁ = 1` sits at `q^0` — which is exactly why the code passed four independent `4₁` controls
+(eq (13), all nine of Table 10, eq (175), and the block-4 prediction) while being wrong. Fatal
+for `m(5₂)`, whose `f_0` begins at `q^{−1}`: the whole assembled series was being read from the
+wrong base exponent, and `1 − qA` is what that looks like.
+
+With the window opened to `−80 ≤ x ≤ 260` and the base taken as `lo = min(out)`, **all five of
+Park's published series match** — Table 3's `p = −1` and Table 4's `r = 2,3,4,5` — up to an
+overall sign, which GM's Conjecture 1.7 explicitly leaves free (`ε ∈ {±1}`).
+
+> **Addendum 1 §2's three reasons for calling it a convention gap were all true and all
+> irrelevant.** `r`-independence, candidate-independence and "the same code verifies four
+> published objects" are exactly what a base-exponent bug produces. This is the failure mode
+> memo 164 named: *control passing is not instrument working*. Four controls passed on an object
+> whose lowest block sits at `q^0`, and the one property they could not test is the one that was
+> broken.
+
+## 2. What the five matches do and do not establish
+
+They test the **placement**, on twelve or fewer coefficients per row. Tracing which blocks reach
+those coefficients: at `p = −1` the printed range reaches `f_0..f_3`; at `r = 2..5` it reaches
+`f_0..f_2` only. So the five matches validate the exponent placement and `f_0..f_3`'s low-order
+coefficients — **and nothing beyond**. In particular they do **not** validate `f_4` or higher,
+which is where memo 183 finds the real obstruction.
+
+## 3. What is now blocked, and by what
+
+Addendum 1 §3 wrote *"`c_edge(5₂)` and a second hyperbolic `c_eff` measurement … are blocked by an
+unidentified factor."* The factor is identified and gone. **They are still blocked, for a
+different and much better-characterised reason:** memo 183 shows the quantum A-polynomial printed
+in [Park] eq (32) does not annihilate `F⁺_{m(5₂)}` — `[Â F⁺]_{x^{7/2}} = q^{13} f_0 ≠ 0` — so the
+recursion cannot produce `f_4` and beyond, and no single-monomial repair of eq (32) exists.
+
+**`c = −1/16` for `5₂` (§3) still stands**, unaffected by either error: it is read off `f_0`'s
+lowest `q`-power and never touches the assembly.
+
+## 4. Numbers withdrawn before banking
+
+Four `c_eff` values for `5₂` (`0.726, 0.499, 0.399, 0.339` at `p/r = −1, −1/2, −1/3, −1/4`) were
+produced today from the repaired assembler *and the defective recursion*. **They are void** and
+are recorded here only so that the record shows they existed and were withdrawn. See memo 183 §7.
