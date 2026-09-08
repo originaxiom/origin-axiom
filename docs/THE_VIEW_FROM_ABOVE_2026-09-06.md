@@ -127,3 +127,11 @@ n, the orientation, the VEVs and the six flavon values of B1273 §3. The two can
 mechanisms known to physics that do exactly that with lattice data — instanton sums (exponentials of volumes) and
 attractors (charges → moduli). Both are computable on this object. Neither has been run. That is where a fresh
 pair of eyes says the next month belongs.
+
+## Sources note (2026-09-08)
+
+The frame — a hyperbolic knot complement as the carrier of matter — has a published nearest neighbour (Asselmeyer-Maluga,
+Symmetry 11 (2019) 1298, arXiv:1910.09966), adjudicated once for every seat in `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md`:
+KNOWN-ADJACENT (cite it); his gauge group comes from torus-bundle classes, not from a McKay correspondence, he holds the
+which-knot question to be meaningless, and he names the arithmetic route without taking it. The two mechanisms above are not
+in that source; the 2026-09-08 web sweep found them nowhere else either (NOVEL-CANDIDATE, not a certificate).

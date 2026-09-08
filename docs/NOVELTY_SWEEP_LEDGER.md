@@ -160,4 +160,9 @@ The nearest neighbour in the literature — Asselmeyer-Maluga, hyperbolic knot c
 is adjudicated once in `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md`: KNOWN-ADJACENT for the frame (cite it), not
 overlapping on the route (torus bundles, not McKay; no selection principle; the arithmetic route flagged and untaken), and
 the trace-field → McKay → E₆ conjunction NOVEL-CANDIDATE with no source found. Every seat sweeping the literature should
-read that row before reaching its own verdict on the overlap.
+read that row before reaching its own verdict on the overlap. *Later the same day:* main's Entry 5 (the paper read in full
+there) reaches the same verdict; the row's §6 reconciles the two (one of main's two corrections differs — the figure-eight
+IS in the paper, §7 p. 29, as the example of an arithmetic hyperbolic 3-manifold; the other is confirmed and this
+branch's mis-attribution of det(A − I) = 3 is corrected); the row's §4(i) records a six-query web sweep with no source for
+the conjunction and two new KNOWN-ADJACENT neighbours — 2T as a flavour group (Frampton–Kephart's T′ ≡ SL₂(F₃), 0706.1186)
+and binary polyhedral groups in GUTs without McKay (Wilson, 2109.06626).

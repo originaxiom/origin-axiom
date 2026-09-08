@@ -14602,3 +14602,17 @@ spectrum (the Hirzebruch defect), numbers (Ω_Λ, m_H, m_ν on exotic smoothness
 separately. The gate question run: no source for trace field → McKay → E₆ (NOVEL-CANDIDATE, specialist bar standing).
 The two threes fenced as a hint (H-PRIORART-THREES), not a convergence. Piergallini at the 4d-lift wall registered as
 L211 with its expected verdict (existence is not selection). `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md`.
+
+### The prior-art row reconciled with main's Entry 5; the paper opened here (2026-09-08, later)
+
+Main adjudicated the same note the same day with the paper read in full: KNOWN-ADJACENT — the row's own verdict for the
+frame; its NOVEL-CANDIDATE for the route is main's open Q14, and the row's §4(i) is now that question's first sweep (six
+web queries; no source for trace field → McKay → E₆; two new KNOWN-ADJACENT neighbours sharing one link each — 2T as a
+flavour group, Frampton–Kephart's T′ ≡ SL₂(F₃), and binary polyhedral groups in GUTs without McKay, Wilson 2109.06626).
+The full text was then extracted and searched on this bench. Of main's two corrections of record one DIFFERS: the
+figure-eight knot IS in the paper — §7, p. 29, "The complement of the figure 8 knot is one example of an arithmetic
+hyperbolic 3-manifold" — spelled "figure 8", which a search for "figure-eight" misses; and "quaternionic trace fields"
+opens §7 as well as the abstract. The other is CONFIRMED against main's B1291/B1302 and this branch's own error is
+corrected: det(A − I) = 3 for an order-3 isometry is the sibling m202's count, not the object's (the row's §4(ii) and
+HINT_LEDGER (15) had it wrong). The two threes remain not a convergence on both readings. Relayed to main with the page
+and the sentence. `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` §6. No verdict changes; 0 of 19; price unchanged.

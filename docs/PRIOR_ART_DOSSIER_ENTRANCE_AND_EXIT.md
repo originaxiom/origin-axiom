@@ -118,6 +118,17 @@ input.
 
 ---
 
+## Entry 5 — the nearest-neighbour programme (pointer; 2026-09-08)
+
+Asselmeyer-Maluga's *fermions as hyperbolic knot complements* (Symmetry 11 (2019) 1298, arXiv:1910.09966) is adjudicated
+once for every seat: on main as this dossier's Entry 5 (the paper read in full there), on this branch as
+`docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md`, whose §6 reconciles the two — **one verdict, KNOWN-ADJACENT** for the
+frame; the route (trace field → 2T → McKay → E₆ → the closings' Wilson lines) is not in his paper and, after the
+2026-09-08 web sweep (§4(i) there), not found elsewhere: NOVEL-CANDIDATE, the guard of this dossier standing. One
+correction of record travels from this branch to main's Entry 5: the figure-eight knot IS in his paper (§7, p. 29, "the
+figure 8 knot", the example of an arithmetic hyperbolic 3-manifold). The conjunction question (Entry 1's) is the same
+question as his untaken route, which is why the answer "no source" is now sharper than when this dossier was written.
+
 ## How this dossier must be used
 
 1. **Each entry stands or falls alone.** A KNOWN on entry 1 says nothing about entry 4.

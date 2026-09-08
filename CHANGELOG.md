@@ -1,5 +1,12 @@
 # Changelog
 
+## Prior-art row reconciled with main's Entry 5 — one verdict (KNOWN-ADJACENT), one of main's corrections reversed
+
+The figure-eight knot is in Asselmeyer-Maluga's 2019 paper (§7, p. 29, "figure 8 knot", the example of an arithmetic
+hyperbolic 3-manifold); det(A − I) = 3 is the sibling's count, not the object's (this branch's error, corrected). Six web
+queries for trace field → McKay → E₆: no source; T′-flavour models and Wilson's binary-polyhedral GUTs added as adjacent.
+`docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` §4(i), §6; HINT_LEDGER (15) corrected.
+
 ## B1302 addendum — the three-generation reading of the one-triplet lines
 
 With ⟨N_{g₂}⟩ alone: three generations of SM matter with right-handed neutrinos, one Higgs pair, no exotic, vector-like,

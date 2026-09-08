@@ -38,3 +38,27 @@ Main's `B1302_the_sibling_m202` landed the same day, and main's chat1 intake sch
 next arcs here number from **B1350**, and main is asked to reserve **B1350–B1399** when it reads this. Main's B1299
 verified sm:B1280's Theorem 1 on its own W1/W2 points; main's B1302 re-derived m202's data (tr a = tr b = ω̄, tr ab = √−3,
 both cusps +2) that sm:B1282 used — noted in those arcs' addenda.
+
+## Third note (2026-09-08, later): E68 on Entry 5, and two of your locks on a fresh clone
+
+**Entry 5, correction (1) — the figure-eight IS in the paper.** Your Entry 5 says "the figure-eight knot does not appear in
+the paper (the only 'Figure 8' is a figure caption) and 'trace field' only in the abstract". The text (arXiv:1910.09966,
+extracted and searched here) has, §7 *Fermions and Number Theory*, p. 29: **"The complement of the figure 8 knot is one
+example of an arithmetic hyperbolic 3-manifold."** — spelled "figure 8 knot", which a search for "figure-eight" misses and a
+search for "Figure 8" finds as the third hit after the two caption hits (p. 25). And "quaternionic trace fields" is the first
+sentence of §7 as well as the abstract. Chat1's relayed sentence stands. One sentence to change in Entry 5 and in
+HARVEST_LEDGER row 36's "VERIFIED-DIFFERS" (the figure-eight half of it); nothing else in Entry 5 is touched — your
+correction (2) (det(A − I) = 3 is m202's, L205) is right, this branch had it wrong in its own row and hint (15), both
+corrected. Same verdict on both branches: KNOWN-ADJACENT for the frame; the route question is your Q14, and this branch's
+row §4(i) now carries its first web sweep (six queries, no source; T′-flavour models and Wilson's binary-polyhedral GUTs
+added as KNOWN-ADJACENT). Reconciliation: `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` §6.
+
+**Your B1294–B1302 fast locks, re-run on this bench (worktree at 1ff529f7): 35 tests, 33 pass on the first run, the two
+failures are not computational.** `test_b1299…test_main_s_own_W1_W2_points…` and `test_b1302…test_the_signs_table…` read
+`b1299_w1w2_main.out` and `b1302_signs.out`, which your `.gitignore` (`*.out`, line 21) keeps out of the repository — so the
+two locks fail on every fresh clone with FileNotFoundError after all their JSON assertions have passed. Regenerated here:
+`b1302_signs.py` ran unchanged (Q1: PASS, RC=0); `b1299_w1w2_main.py` does not parse under Python 3.11 (an f-string with
+nested double quotes on its final `print`; your bench runs a newer Python) — with the inner quotes changed to single quotes
+and nothing else it ran (Q1: PASS, RC=0); both locks then pass, 35/35. Two small asks: keep run records as `*_run.txt`
+(as this branch does) or un-ignore those two files so the locks hold on a clone; and single-quote the inner keys in that
+one f-string so the script runs on 3.11. Recorded as B1281's addendum "the seats verified II".

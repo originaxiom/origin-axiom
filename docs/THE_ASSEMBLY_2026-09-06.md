@@ -60,6 +60,11 @@ which every flat orbifold spreads into lines (B1259). That, the VEV values of th
 rank 6 → 4, a **diagonal** source for the masses (the object's own closing has the three classes and a Yukawa,
 B1273, and its tree-level texture is refuted by an inequality), and the listener map I-13 for any value, are the
 whole remaining price (§7) — with the two mechanisms that could pay it named in `docs/THE_VIEW_FROM_ABOVE_2026-09-06.md`.
+*Prior art for the frame:* fermions as hyperbolic knot complements is Asselmeyer-Maluga's (Symmetry 11 (2019) 1298; the
+figure-eight named there once, as the example of an arithmetic hyperbolic 3-manifold) — adjudicated once for every seat in
+`docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` (KNOWN-ADJACENT for the frame; the route — trace field → 2T → E₆ → the
+closings' lines — not in it, and not found anywhere else as of the 2026-09-08 sweep). Cite it wherever this document says a
+hyperbolic knot complement carries matter.
 
 ## 1. The chain — what the object forces (the self-referential half)
 

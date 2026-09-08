@@ -643,8 +643,12 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       incidental? Registered, not designed.
   (15) H-PRIORART-THREES (type PATTERN, fenced; 2026-09-08): Asselmeyer-Maluga's three
       generations (as relayed: Donaldson on the K3 surface, b₂⁺ = 3, the three hyperbolic
-      summands of 3H ⊕ 2(−E₈)) and the object's three (det(A − I) = 3 for the order-3
-      isometry, h¹(Y₃; 3_ρ) = 3, the (27, 3) of the golden E₈) are the SAME INTEGER FROM
-      UNRELATED DERIVATIONS — no K3 in the corpus's chain, no order-3 isometry in his. Two
+      summands of 3H ⊕ 2(−E₈); his own words "only a lower bound", p. 31) and the object's
+      three (the degree of the ℤ/3 descent: h¹(Y₃; 3_ρ) = 3, Y₉'s family characters; the
+      (27, 3) of the golden E₈) are the SAME INTEGER FROM UNRELATED DERIVATIONS — no K3 in
+      the corpus's chain, no ℤ/3 descent in his. [Corrected 2026-09-08, later: the first
+      wording cited "det(A − I) = 3 for the order-3 isometry" as the object's — that count is
+      the SIBLING m202's (main's B1302, L205); the object fails it (B1291). Main's Entry 5
+      reads the two threes the same way: not a convergence.] Two
       coincidences until a map is exhibited (a K3 whose order-3 automorphism carries the
       object's closing). B1223's guard on order matches applies. Registered, not designed.
