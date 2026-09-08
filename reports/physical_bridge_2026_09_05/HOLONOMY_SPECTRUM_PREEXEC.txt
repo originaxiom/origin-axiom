@@ -1,0 +1,23 @@
+R19 metadata checks BEFORE the first scientific execution, 2026-09-08.
+The global provenance gate still fails on older sealed documents; this is
+not a full-bank pass or a retroactive repair of those documents.
+
+{
+  "R19_literal_provenance": true,
+  "latest_artifacts_checked": 214,
+  "artifact_mismatches": [],
+  "global_seal_provenance": [
+    false,
+    [
+      "reports/physical_bridge_2026_09_05/EXTENSION_2.md",
+      "reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md",
+      "reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md",
+      "reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md",
+      "reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md"
+    ]
+  ],
+  "global_seal_digests": [
+    true,
+    "ok (48 sealed digests recomputed and matching)"
+  ]
+}
