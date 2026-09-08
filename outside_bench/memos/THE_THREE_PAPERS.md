@@ -165,3 +165,37 @@ result is claimed until it is.
 * The `c_eff ≤ 1` coincidence between [HJNP] §6 and memo 177 §5 is **recorded, not interpreted**.
 * No `5₂` result is claimed. The transcription error is open.
 * Gate 5 untouched; `6` appears only as `c((E₆)₁)`.
+
+---
+
+# ADDENDUM 1 (2026-09-08, same day) — both of [GJ]'s worked examples measured directly, and the convention question settled
+
+Certificate `certificates/mock_theta_ceff.py`, output `outputs/mock_theta_ceff_out.txt`.
+
+§3 reconciled the two papers' differing numbers *arithmetically* — `[GJ] half-index = 1 + [HJNP]`.
+That left one thing unmeasured: **which convention does the actual coefficient growth follow?**
+Both mock theta series are now built directly and fitted, with the estimator calibrated
+beforehand on `η⁻¹` and Rogers–Ramanujan to better than 0.01 %.
+
+| series | manifold | **fitted `c_eff`** | `[HJNP]` eq (9), `m=1,l=0` | `[GJ]` half-index | `B` |
+|---|---|---|---|---|---|
+| `χ₀(q)` | `Σ(2,3,5)` | **0.1999996** | `1/5 = 0.2000000` ✅ | 6/5 | −0.4999 |
+| `F₀(q)` | `Σ(2,3,7)` | **0.1428569** | `1/7 = 0.1428571` ✅ | 8/7 | −0.5000 |
+
+**Ratio `1.00000` in both.** So the bare `q`-series coefficient growth follows **[HJNP]'s
+convention exactly**, and `[GJ]`'s `6/5`, `8/7` are that plus the universal `q^{−1/24}` — as §3's
+arithmetic predicted, now confirmed by measurement rather than inferred.
+
+**Controls that fired:** `F₀`'s printed first terms reproduce GM eq (175) / `[GJ]` eq (54)
+verbatim (`1 + q + q³ + q⁴ + q⁵ + 2q⁷ + q⁸ + 2q⁹ + q¹⁰ + 2q¹¹ + q¹² + 3q¹³`), and `B = −1/2` for
+both — the same subleading structure the figure-eight series show.
+
+**A note on method.** The first attempt built each term `q^{p(n)}/(q^{n+1};q)_n` by dividing from
+scratch — `O(L³)`, and it timed out after an hour. The term recursion
+`T_{n+1}/T_n = q^{p(n+1)−p(n)}(1−q^{n+1})/((1−q^{2n+1})(1−q^{2n+2}))` does it in `O(L²)` and
+finishes in seconds. Recorded because the failure was mine and the fix is reusable.
+
+> **Status of the two `c_eff` papers after this: both of `[GJ]`'s worked examples independently
+> reproduced, `[HJNP]`'s eq (9) confirmed at both of the two points it is claimed to be confirmed
+> at, and this bench's own `1/7` (memo 177 §1, from GM's recursion and Thm 1.2 — a third,
+> unrelated route) agreeing with both.**
