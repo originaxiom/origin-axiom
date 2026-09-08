@@ -295,3 +295,109 @@ agree, and `M+5` and `M+10` agreed when checked by hand). **Stated as a fence, n
   with true blocks in hand to fit against — and then run the repaired recursion. `f_4` to about
   ten converged coefficients is expected to determine the repair; five are in hand.
 * **No `c_eff` number for `5₂` is claimed here.** Memo 182 addendum 2 §4's withdrawal stands.
+
+---
+
+# ADDENDUM 2 (2026-09-08, same day) — **THE REPAIR IS DETERMINATE. THREE OF ITS TERMS ARE RECONSTRUCTED, AND `a_1` IS THE UNIQUE SINGLE-INDEX PLACEMENT**
+
+**Certificate** `certificates/park_ahat_repair.py` · **Output** `outputs/park_ahat_repair_out.txt`
+Blocks from `certificates/park_large_color.py`.
+
+## 1. From a search to a solve
+
+Memo 183 §5 could only *exclude*: five single-monomial repairs, all refuted. With the true blocks
+in hand (addendum 1) the repair stops being a search. Writing `c_d(Q)` for the Laurent polynomial
+to be **added to the `x^d` coefficient of `a_1`** (`q = Q²`), the equation at `x^{n+1/2}` reads
+
+```
+   delta_n  =  - sum_d c_d Q^{2(n-d)+1} f_{n-d} ,
+```
+
+so `δ_3` gives `c_3`, then `δ_4` gives `c_4`, then `δ_5` gives `c_5` — each as an **exact quotient
+by `f_0`**, nothing fitted:
+
+```
+   c_3 = -q^{25/2}          c_4 = q^{25/2}(1 + q - q^3)          c_5 = q^{33/2}(1 + q)
+```
+
+## 2. `a_1` is forced, not preferred
+
+Two quantities are determined **exactly**. Writing `U_3(t) = Σ_i c_{i,3} Q^{(2t+1)i}` for the
+`x^3` correction spread over all five `a_i`:
+
+* `U_3(0) = −Q^{26}`, from `δ_3`, exact to `Q^{612}`;
+* `U_3(1) = −Q^{28}`, from `δ_4`. Since `f_0` and `f_1` are **not rationally related**, the pair
+  `(U_3(1), U_4(0))` solving `δ_4 = −U_3(1) f_1 − U_4(0) f_0` is **unique** — and the linear solve
+  returns it with **zero free parameters**, on `δ_4` known exactly to `Q^{96}`.
+
+| placement | `U_3(1)` it implies | |
+|---|---|---|
+| `i = 0` | `−Q^{26}` | excluded |
+| **`i = 1`** | **`−Q^{28}`** | **consistent** |
+| `i = 2` | `−Q^{30}` | excluded |
+| `i = 3` | `−Q^{32}` | excluded |
+| `i = 4` | `−Q^{34}` | excluded |
+
+For pairs `{i,j}` the 2×2 system has a unique solution: every pair containing `i = 1` collapses to
+`c_1 = −Q^{25}` with the other zero; `{0,2}, {0,3}, {0,4}, {2,4}` force **non-Laurent**
+coefficients and are excluded outright; only `{2,3}` and `{3,4}` survive as genuine alternatives.
+
+> **`a_1` is the unique single-index placement.** Splits over three or more `a_i` are not excluded
+> by these two equations, and `{2,3}` and `{3,4}` were not tested further.
+
+A second, independent test agrees: placing the `x^4` correction in each `a_i` in turn and
+assembling `Ẑ(Σ(2,3,11))` gives first mismatches at `q^{24}, **q^{28}**, q^{25}, q^{25}, q^{25}`
+for `i = 0,1,2,3,4`.
+
+## 3. The controls, and why they are not circular
+
+Each correction is solved from one instrument and then tested against **two**:
+
+| corrections applied | blocks reproduced | `Ẑ(Σ(2,3,11))` agrees to |
+|---|---|---|
+| `c_3` | `f_2` 282/282, `f_3` 293/293, `f_4` 8/28, `f_5` 2/11 | `q^{16}` |
+| `c_3 + c_4` | `f_4` **28/28**, `f_5` 5/11 | `q^{27}` |
+| `c_3 + c_4 + c_5` | `f_5` **11/11** | `q^{33}` |
+
+(`f_2, f_3` against Park's own `ℚ(q)` formulas; `f_4, f_5` against the large color `R`-matrix's
+converged output. `f_0, f_1` are the recursion's seeds, not predictions.)
+
+> Seeded with nothing but Park's closed-form `f_0` and `f_1`, the repaired recursion reproduces
+> **all 614 coefficients** of `f_2, f_3, f_4, f_5` that either instrument has produced.
+>
+> **Each correction extends the agreement exactly as far as the next block's converged range
+> reaches, and no further** — which is what a correct reconstruction does. An overfit buys
+> agreement on what it was fitted to and stops; `c_4` is solved from `δ_4` alone and then
+> correctly predicts three further coefficients of `f_5` and eleven further coefficients of
+> `Ẑ(Σ(2,3,11))`, neither of which entered the solve.
+>
+> And every block comes out an **integral Laurent polynomial in `q`** — no denominators, no
+> half-integer powers — which the recursion does not enforce and a wrong correction destroys.
+
+## 4. What is NOT claimed — including one thing that cuts against the reconstruction
+
+* **The repair is incomplete.** A further correction at `x^6` is needed: the assembled series
+  first fails at `q^{34}`. Determining it needs `f_6` to about ten converged coefficients — at the
+  weight cutoff reached here `f_6` has none. Corrections at `x^7 … x^{11}` may follow.
+* **These are almost certainly not Park's own missing terms, and here is the reason.** `a_1` is
+  printed as `q^{11/2}x²(qx+1)(q³x+1)(q⁷x−1)·I(x)` with `I` an explicit polynomial whose largest
+  `q`-power is `q^9`. Dividing the reconstructed correction by `q^{11/2}x²(qx+1)(q³x+1)(q⁷x−1)`
+  gives a would-be correction to `I` whose coefficients are `q^7`, then
+  `q^7(q+1)(q^6−q^5+q^4−q^3+q^2−q−1)`, then terms reaching `q^{13}` and `q^{16}` — far outside
+  `I`'s printed range. **So the missing terms do not sit inside `I`.** Either the misprint is
+  structural (a wrong or dropped factor, which a monomial-by-monomial repair reproduces only as
+  an equivalent sum), or the split runs over three or more `a_i`. This is recorded because it is
+  evidence against the reconstruction being the paper's object, and it was found while writing
+  the addendum rather than reported by a control.
+* **What the reconstruction *is*:** the unique way to make eq (32) annihilate the series it is
+  printed to annihilate, to the order tested, **given** that the missing terms sit in `a_1`.
+* **No `c_eff` for `5₂` follows yet.** That needs the recursion right at *all* orders, which §4's
+  first bullet says it is not.
+
+## 5. An improvement to addendum 1 §5's fence
+
+Addendum 1 §5 recorded the `x`-degree truncation margin as empirical, with *"I do not have a proof
+of the correct margin."* It is now **measured**: at weight cutoff 11 the blocks are wrong at
+margin 2, correct at margin 3, and **identical at margins 3, 4 and 5** — saturation at 3. The
+certificate uses 5. So `f_5` (margin 4) and `f_6` (margin 3), as used in memo 184 §5, are both
+inside the saturated regime. Still an empirical saturation, not a proof.
