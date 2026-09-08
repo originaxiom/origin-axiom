@@ -1,0 +1,15 @@
+=== Y_9: support 147 = (S x V4) minus 1 with |S| = 36: True; S closed under units: True ===
+  odd triples 50653, distinct signatures 51 (0 s)
+  three generations 758593; SU(5) broken 737568; SM vacua 706464; full spectrum 568656
+  D totals {3: 706464}; loses a generation {'H_d': 29376, 'S': 28512, 'nu^c': 28512, 'H_u': 30240, 'Dbar': 29376}; (H_u,H_d,D,Dbar) {(2, 2, 3, 3): 1296, (2, 3, 3, 2): 1296, (2, 3, 3, 3): 27648, (3, 2, 3, 2): 864, (3, 2, 3, 3): 27216, (3, 3, 3, 2): 27216, (3, 3, 3, 3): 620928}
+  survival patterns 67  (0 s)
+=== Y_18: support 171 = (S x V4) minus 1 with |S| = 36: False; S closed under units: True ===
+  odd triples 50653, distinct signatures 51 (0 s)
+  three generations 758593; SU(5) broken 737568; SM vacua 706464; full spectrum 568656
+  D totals {3: 706464}; loses a generation {'H_d': 29376, 'S': 28512, 'nu^c': 28512, 'H_u': 30240, 'Dbar': 29376}; (H_u,H_d,D,Dbar) {(2, 2, 3, 3): 1296, (2, 3, 3, 2): 1296, (2, 3, 3, 3): 27648, (3, 2, 3, 2): 864, (3, 2, 3, 3): 27216, (3, 3, 3, 2): 27216, (3, 3, 3, 3): 620928}
+  survival patterns 67  (0 s)
+=== Y_15: support 2723 = (S x V4) minus 1 with |S| = 680: True; S closed under units: True ===
+  odd triples 315821241, distinct signatures 51 (227 s)
+  three generations 5034643841; SU(5) broken 5027240000; SM vacua 5016142400; full spectrum 4960988960
+  D totals {3: 5016142400}; loses a generation {'H_d': 11064960, 'S': 11048640, 'nu^c': 11048640, 'H_u': 11081280, 'Dbar': 11064960}; (H_u,H_d,D,Dbar) {(2, 2, 3, 3): 24480, (2, 3, 3, 2): 24480, (2, 3, 3, 3): 11032320, (3, 2, 3, 2): 16320, (3, 2, 3, 3): 11024160, (3, 3, 3, 2): 11024160, (3, 3, 3, 3): 4982996480}
+  survival patterns 67  (227 s)

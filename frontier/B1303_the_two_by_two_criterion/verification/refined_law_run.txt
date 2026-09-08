@@ -1,0 +1,9 @@
+Y_10: odd-order characters by (eigen?, lambda-order condition, global-sign condition, h^1=1?) -> count:
+    ('eigen', 'lam_ord<3', 'u^n mixed', False): 80
+    ('eigen', 'lam_ord<3', 'u^n=+-1', False): 4
+    ('eigen', 'lam_ord>=3', 'u^n=+-1', True): 20
+    ('not-eigen', False): 15020
+Y_15: odd-order characters by (eigen?, lambda-order condition, global-sign condition, h^1=1?) -> count:
+    ('eigen', 'lam_ord>=3', 'u^n mixed', False): 600
+    ('eigen', 'lam_ord>=3', 'u^n=+-1', True): 680
+    ('not-eigen', False): 115000

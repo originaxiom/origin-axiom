@@ -1,0 +1,88 @@
+Y_2: odd eigencharacters 4 (primes [5]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '-', '-', 0): 4
+  (0 s)
+Y_3: no odd-order eigencharacters
+Y_4: odd eigencharacters 4 (primes [3, 5]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '+', '+', 0): 4
+  (0 s)
+Y_5: odd eigencharacters 20 (primes [11]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (1, 'unramified', '+', '+', 1): 10
+    (1, 'unramified', '-', '-', 1): 10
+  (0 s)
+Y_6: odd eigencharacters 4 (primes [5]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '-', '-', 0): 4
+  (0 s)
+Y_7: odd eigencharacters 56 (primes [29]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (1, 'unramified', '+', '+', 1): 28
+    (1, 'unramified', '-', '-', 1): 28
+  (0 s)
+Y_8: odd eigencharacters 4 (primes [3, 5, 7]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '+', '+', 0): 4
+  (0 s)
+Y_9: odd eigencharacters 36 (primes [19]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (1, 'unramified', '+', '+', 1): 18
+    (1, 'unramified', '-', '-', 1): 18
+  (0 s)
+Y_10: odd eigencharacters 104 (primes [5, 11]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '-', '-', 0): 4
+    (0, 'ramified', '-+', 'mixed', 0): 80
+    (0, 'unramified', '+', '+', 1): 20
+  (0 s)
+Y_11: odd eigencharacters 396 (primes [199]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (1, 'unramified', '+', '+', 1): 198
+    (1, 'unramified', '-', '-', 1): 198
+  (1 s)
+Y_12: odd eigencharacters 4 (primes [3, 5]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '+', '+', 0): 4
+  (0 s)
+Y_13: odd eigencharacters 1040 (primes [521]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (1, 'unramified', '+', '+', 1): 520
+    (1, 'unramified', '-', '-', 1): 520
+  (0 s)
+Y_14: odd eigencharacters 284 (primes [5, 13, 29]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '-', '-', 0): 4
+    (0, 'ramified', '-+', 'mixed', 0): 224
+    (0, 'unramified', '+', '+', 1): 56
+  (0 s)
+Y_15: odd eigencharacters 1280 (primes [11, 31]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (1, 'unramified', '+', '+', 1): 40
+    (1, 'unramified', '++', '+', 1): 300
+    (1, 'unramified', '+-', 'mixed', 0): 300
+    (1, 'unramified', '-', '-', 1): 40
+    (1, 'unramified', '-+', 'mixed', 0): 300
+    (1, 'unramified', '--', '-', 1): 300
+  (0 s)
+Y_16: odd eigencharacters 4 (primes [3, 5, 7, 47]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '+', '+', 0): 4
+  (0 s)
+Y_17: odd eigencharacters 7140 (primes [3571]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (1, 'unramified', '+', '+', 1): 3570
+    (1, 'unramified', '-', '-', 1): 3570
+  (0 s)
+Y_18: odd eigencharacters 184 (primes [5, 17, 19]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '-', '-', 0): 4
+    (0, 'ramified', '-+', 'mixed', 0): 144
+    (0, 'unramified', '+', '+', 1): 36
+  (0 s)
+Y_19: odd eigencharacters 18696 (primes [9349]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (1, 'unramified', '+', '+', 1): 9348
+    (1, 'unramified', '-', '-', 1): 9348
+  (0 s)
+Y_20: odd eigencharacters 8504 (primes [3, 5, 11, 41]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (0, 'ramified', '+', '+', 0): 4
+    (0, 'ramified', '++', '+', 0): 80
+    (0, 'ramified', '++-', 'mixed', 0): 6400
+    (0, 'ramified', '+-', 'mixed', 0): 320
+    (0, 'unramified', '+', '+', 1): 20
+    (0, 'unramified', '+-', 'mixed', 0): 1600
+    (0, 'unramified', '-', '-', 0): 80
+  (0 s)
+Y_21: odd eigencharacters 23996 (primes [29, 211]); (n parity, ramified?, signs of u^n per prime, global sign, h^1) -> count:
+    (1, 'unramified', '+', '+', 1): 238
+    (1, 'unramified', '++', '+', 1): 5880
+    (1, 'unramified', '+-', 'mixed', 0): 5880
+    (1, 'unramified', '-', '-', 1): 238
+    (1, 'unramified', '-+', 'mixed', 0): 5880
+    (1, 'unramified', '--', '-', 1): 5880
+  (1 s)
+rc=0

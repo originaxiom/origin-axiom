@@ -1,5 +1,13 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST (2026-09-08, B1303 — THE 2×2 CRITERION)**: the branched covers are the fixed quotients of the fibre's monodromy,
+so **h¹(Y_n; ψ) = 1 iff a product of n explicit 2×2 matrices is the identity** — validated exactly at twelve levels and by
+a Reidemeister–Schreier check at Y₂₀; the tower's supports through Y₂₁ in minutes. **The law, corrected:** the supported
+odd characters are the eigencharacters of the half-deck (multiplication by the golden ratio) with a global sign of Ψⁿ,
+which must be + at even levels, so new odd support arises only at odd levels (B1301's Y₂₀ prediction withdrawn). Y₁₅ is
+an SM closing with 5 016 142 400 lines and the triplet protected; Y₁₈'s lines are Y₉'s; the one-triplet vacua are Y₁₂'s
+own. Price unchanged.
+
 **LATEST (2026-09-08, B1302 — THE ONE-TRIPLET VACUA)**: on 768 of Y₁₂'s 34 752 Standard-Model lines a tree-level
 flat direction (⟨N_{g₂}⟩ with the flavon pair of the other two generations) leaves **exactly one light colour-triplet pair —
 the light generation's own d^c — and its three light doublet pairs: one vector-like generation with two Higgs doublets

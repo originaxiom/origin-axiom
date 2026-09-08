@@ -212,3 +212,8 @@ seven times and lost four arcs to a frame the corpus had already ruled out.**
   generation with two Higgs doublets and no exotic colour triplet** (exactly one light triplet pair, the light
   generation's d^c; Y₉ never below two): the doublet–triplet problem solved at tree level on the tower, in the closing's
   vector-like sense. One light generation, not three; the chirality wall (B1280, B1290) unchanged.
+- **The 2×2 criterion (B1303).** π₁(Y_n) is the fixed quotient of the fibre's monodromy, so h¹ of every closing is a
+  product of n small matrices: the tower's supports through Y₂₁ in minutes, **the law corrected** (the supported odd
+  characters are the half-deck's eigencharacters with a global sign of Ψⁿ, + at even levels: new odd support only at
+  odd levels; Y₂₀ has nothing at 41, confirmed by Reidemeister–Schreier). Y₁₅ is an SM closing with the triplet kept;
+  Y₁₈'s lines are Y₉'s; Y₂₁: 48 947 support characters. The one-triplet vacua are Y₁₂'s 2-adic phenomenon.

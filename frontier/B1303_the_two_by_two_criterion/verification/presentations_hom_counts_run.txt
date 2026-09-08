@@ -1,0 +1,4 @@
+n = 2: S3: (i) 1 (ii) 1 (iii) 1; A4: (i) 1 (ii) 1 (iii) 1; S4: (i) 1 (ii) 1 (iii) 1; A5: (i) 25 (ii) 25 (iii) 25
+n = 3: S3: (i) 28 (ii) 28 (iii) 28; A4: (i) 16 (ii) 16 (iii) 16; S4: (i) 232 (ii) 232 (iii) 232; A5: (i) 616 (ii) 616 (iii) 616
+n = 4: S3: (i) 9 (ii) 9 (iii) 9; A4: (i) 33 (ii) 33 (iii) 33; S4: (i) 33 (ii) 33 (iii) skipped; A5: (i) 105 (ii) 105 (iii) skipped
+n = 5: S3: (i) 1 (ii) 1 (iii) 1; A4: (i) 1 (ii) 1 (iii) 1; S4: (i) 1 (ii) 1 (iii) skipped; A5: (i) 1 (ii) 1 (iii) skipped

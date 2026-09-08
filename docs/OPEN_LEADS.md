@@ -2506,6 +2506,12 @@ metabelian representations of the knot group (the eigencharacters of H₁(Y_n) a
 quotients; the twisted Alexander polynomial should give h¹ = 1 exactly at the primitive eigenvalues). (i) is compute;
 (ii) is an afternoon with B1283's script; (iv) is the literature. ★★★
 
+**L210 status 2026-09-08 (B1303):** (i) done through Y₂₁ by the 2×2 criterion, and the law corrected — new odd support
+only at odd levels (Y₂₀'s prediction withdrawn), the mixed products decided by the global sign of Ψⁿ; Y₁₅'s lines
+counted (5 016 142 400, triplet kept), Y₁₈'s are Y₉'s, Y₂₁'s alphabet has 48 947 support characters. (iv) is now a
+statement about products of Galois-conjugate matrices A(x^{u^{2k}}). Open: Y₂₄'s 2-adic part (beyond reach), the exact
+structural count of Y₂₁'s lines.
+
 **L210 status 2026-09-08 (B1302):** (ii) answered — yes: 768 of Y₁₂'s lines admit a flat direction with exactly one light
 triplet pair (the light generation's d^c) and three light doublet pairs; Y₉ never below two. (i) half done: Y₁₃ came out
 as predicted (1 040 eigencharacters at 521); Y₁₅ in progress. (iii), (iv) open.

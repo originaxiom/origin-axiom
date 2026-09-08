@@ -165,6 +165,17 @@ full mass matrices). So row 4's problem is solved at tree level on the tower in 
 line's thinning and the vacuum's pairing together. What it does not give: three light generations (the largest light
 doublet count of any configuration is seven of nine) or chirality (B1260; the wall of B1280/B1290 stands).
 
+## 4i. The 2×2 criterion and the tower through Y₂₁ (B1303, 2026-09-08)
+
+The closings' cohomology is governed by the fibre's monodromy alone: π₁(Y_n) = ⟨a, b | φⁿ(a) = a, φⁿ(b) = b⟩ and
+h¹(Y_n; ψ) = 1 iff a product of n matrices A(x_k) = [[1 + x_k, x_k²], [1, x_k]] is the identity. With it the tower is
+known through Y₂₁, and the law of §4g is corrected: the supported odd characters are the eigencharacters of the half-deck
+Ψ (multiplication by the golden ratio on ℤ[φ]/(L_n)), unramified, with Ψⁿ acting by a global sign that must be + at even
+levels — so new odd support arises only at odd levels (Y₂₀'s 41-part is empty, confirmed by Reidemeister–Schreier). The
+Standard-Model closings of the tower are therefore Y₉, Y₁₂, Y₁₅ (5 016 142 400 lines, triplet kept), Y₁₈ (Y₉'s), Y₂₁
+(48 947 support characters) and by the law every odd multiple of 3 with a new prime; the one-triplet vacua of §4h
+are Y₁₂'s 2-adic phenomenon, possibly Y₂₄'s, and no odd closing's.
+
 ## 5. What is expected, in order
 
 1. **The G₂ closing** — construct it or prove it impossible (B1259 rules out the flat class; B1273–B1274 have the

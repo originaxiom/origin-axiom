@@ -6897,6 +6897,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1303": {
+   "slug": "the two by two criterion",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "K3",
+    "L210"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B130": {
    "slug": "no forced choice",
    "motifs": [

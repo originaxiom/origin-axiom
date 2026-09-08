@@ -1,0 +1,3 @@
+Y_20 (RS): H_1 = [6765, 33825], exponent 33825
+  order-11 characters: 120 in 24 deck orbits; h^1 distribution {0: 100, 1: 20}  (4 s)
+  order-41 characters: 1680 in 84 deck orbits; h^1 distribution {0: 1680}  (17 s)

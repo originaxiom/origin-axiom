@@ -1,5 +1,12 @@
 # Changelog
 
+## B1303 — the 2×2 criterion: h¹ of every closing by a product of n small matrices; the tower through Y₂₁; the law corrected; the SM lines of Y₁₅, Y₁₈, Y₂₁
+
+π₁(Y_n) is the fixed quotient of the fibre's monodromy; h¹(Y_n; ψ) = 1 iff ΠA(x_k) = I. Validated at twelve levels and by
+an RS check of Y₂₀'s 41-part, where B1301's prediction fails: new odd support arises only at odd levels. Y₁₅ has
+5 016 142 400 SM lines with the triplet kept; Y₁₈'s are Y₉'s; Y₂₁ 48 947 support characters.
+`frontier/B1303_the_two_by_two_criterion`.
+
 ## B1302 — the one-triplet vacua: on 768 of Y₁₂'s SM lines a tree-level flat direction leaves one vector-like generation with two Higgs doublets and no exotic colour triplet; on Y₉ none does
 
 The full tree-level mass matrices (mirrors and flavons included) on every VEV configuration of every survival pattern:

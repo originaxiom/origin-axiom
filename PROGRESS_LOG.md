@@ -14558,3 +14558,16 @@ generation g₂'s own d^c — and its L, H_u, H_d pairs**: one vector-like gener
 two generations' worth of doublets the best is two triplet pairs on 2 496 lines (a single ν^c VEV marrying the one D to a
 d^c). Vector-like, one light generation; the chirality wall unchanged. Lock `tests/test_b1302_the_one_triplet_vacua.py`.
 0 of 19; price unchanged.
+
+### B1303 — the 2×2 criterion: π₁(Y_n) is the fixed quotient of the fibre's monodromy, so h¹ is a product of n 2×2 matrices; the tower through Y₂₁; the law corrected (new odd support only at odd levels); the SM lines of Y₁₅, Y₁₈, Y₂₁ (2026-09-08)
+
+⟨a, b | φⁿ(a) = a, φⁿ(b) = b⟩ is the n-fold branched cover, so **h¹(Y_n; ψ) = 1 iff A(x_{n−1}) ⋯ A(x₀) = I**, A(x) = [[1+x, x²],
+[1, x]], x_k = ψ(a)^{F_{2k+1}} ψ(b)^{F_{2k}} — validated exactly against the Reidemeister–Schreier sweeps at every level
+2…13, on the alphabets and SM lines of Y₉ and Y₁₂, by homomorphism counts into S₃, A₄, S₄, A₅ (n ≤ 5), and by an RS check
+of Y₂₀'s 1 680 order-41 characters. Supports through Y₂₁ in minutes: Y₁₅ 2 723 (K3 = 2 721), Y₁₇ 7 140, Y₁₈ 171 (nothing
+new), Y₁₉ 18 696, Y₂₀ 20 (**nothing at 41**), Y₂₁ 48 947. **The law, corrected:** an odd-order character has h¹ = 1
+iff it is an eigencharacter of the half-deck Ψ (Ψ² = deck, multiplication by the golden ratio on ℤ[φ]/(L_n)), its order is
+prime to 5, Ψⁿ acts on it by a global sign, and the sign is + at even levels — new odd support only at odd levels;
+B1301's Y₂₀/Y₂₂ prediction withdrawn. SM lines: Y₁₅ 5 016 142 400 (67 patterns, D kept everywhere by B1300's theorem),
+Y₁₈ = Y₉'s 706 464, Y₂₁ an alphabet of 48 945 letters, lines not enumerated (the triplet kept by the theorem). The one-triplet vacua are Y₁₂'s 2-adic phenomenon. Lock
+`tests/test_b1303_the_two_by_two_criterion.py`. Vector-like; 0 of 19; price unchanged.

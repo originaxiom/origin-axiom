@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1095 settled arcs — 76%** —
+the field is **absent on 828 of 1096 settled arcs — 76%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (91) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 526 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (116) = 528 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
-**2.96** on the corpus's own law vocabulary against
-**1.14** for the rest — **2.6×**. The criterion
+**2.97** on the corpus's own law vocabulary against
+**1.14** for the rest — **2.61×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -201,7 +201,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1260` | PROVED | S | | WHERE NET CHIRALITY CAN LIVE. MAIN_GOAL JOIN 1 question 1. (1) THE CLOSED WALL IS GENERAL: for ANY closed oriented 3-manifold, PD (h^i(V) = h^(3-i)(V*)) plus chi = 0 plus… |
 | `B1282` | PROVED | S | | THE SIBLING'S GERM. On the two-cusped sibling m202 (pi_1 = <a, b / aabbAbAABBaB>, Sym = D_6, commensurable with the object, Q(sqrt-3), 2T) the twelve isometries are found… |
 
-## §6 the observer — one bit, priced (139)
+## §6 the observer — one bit, priced (140)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -344,8 +344,9 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1263` | PROVED | S | | I-6's SIDE A VERIFIED, ITS MULTIPLICITY MEASURED AT TWO, AND A TEMPTING READING REFUTED. B1261 made the identification ledger the scoreboard and B1262 moved it 15 -> 14 b… |
 | `B1267` | PROVED | S | | THE SPECTRUM LAW REBUILT FROM THE REPOSITORY'S OWN 27 AND EXTENDED. B1086's named residual (an own-code rebuild of the dial matrices hv8/hv16) is paid on the one exact ob… |
 | `B1275` | PROVED | S | | THE CUBIC MADE EXPLICIT. B308's unique E6 cubic invariant d_abc on the 27 is solved exactly from the repository's own 27 (B883's rep27.json): the 45 zero-sum-triple value… |
+| `B1302` | PROVED | S | | THE ONE-TRIPLET VACUA. On Y_12's 34 752 Standard-Model Wilson lines (B1301; 265 survival patterns of the eleven multiplets over three generations, the mirrors following t… |
 
-## §2 the object — arithmetic and geometry (52)
+## §2 the object — arithmetic and geometry (53)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -358,6 +359,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1107` | PROVED | L | | THE ONE-LOOP RUELLE IDENTITY HARVESTED (two-bench; the audit seat's B8100->B8104->B8112 chain with B8113's three residues as scope): R(k, sigma_k) = prod(1 - q^k) exactly… |
 | `B1232` | PROVED | L | | CODEX R031A/R031B VERIFIED ON THIS BENCH, THREE OF MY CLAIMS RETRACTED, AND A THIRD COLUMN THE PROGRAMME DID NOT HAVE. Owner: 'verify everything, trust nothing' -- so cod… |
 | `B1300` | NEGATIVE | L | | THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while k… |
+| `B1303` | PROVED | L | | THE 2x2 CRITERION. The n-fold cyclic branched cover of the object is the fixed quotient of the fibre's monodromy, pi_1(Y_n) = <a, b / phi^n(a) = a, phi^n(b) = b> (phi: a … |
 | `B1165` | NEGATIVE | V | | THE TERMINAL GRAVITY PROBE (sec-E), owner-directed to a typed close. THE FIREWALL VERDICT = GENERIC-RHYME: the observer's archimedean closing is CO-LOCATED with the objec… |
 | `B27` | PROVED | S | | The exact eight-dimensional SL(3) Fibonacci trace lift retains the A quadratic sector and splits into symmetric/antisymmetric inverse-trace blocks.… |
 | `B173` | PROVED | S | | The woven two-seed gap-label group is rank 3 = 1+#distinct quadratic fields (PSLQ-certified), reducing B172's gap to the gap-labeling theorem.… |
