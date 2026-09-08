@@ -10860,7 +10860,8 @@
   "hatch": "Chiral matter by the G2 route requires genuine CURVATURE -- a conical G2 singularity whose local model is a cone over a 6-manifold rather than a linear action on R^7. That is a different construction, not a different group, and it is not closed by this node. Separately, the corpus already has chirality CONSTRUCTED by another route entirely (theta-odd twisted full-E6(C), B582/B576, with a CLOSING supplying the bit, B432/B434), so this node does not bear on whether the object is chiral -- only on whether the flat G2 orbifold can show it.",
   "note": "Upgrades B1084's routed negative from an EMPIRICAL census to a STRUCTURAL no-go. Also records that B1084's hatch was never walked: of ~1180 arcs only one declares a dependency on B1084/B1086/B1087, and it is a bookkeeping follow-through. Does NOT resolve MAIN_GOAL JOIN 1 -- B1086's chiral dial still gives h^1 = 2, not 3.",
   "priority": "medium",
-  "revival_score": 2
+  "revival_score": 2,
+  "scope_note_2026-09-09": "B1304: SCOPED, not retracted -- the SO(odd) lemma excludes an isolated point of the TOTAL singular set for every element; it does not exclude an isolated maximal-isotropy STRATUM (the audit seat's (Z/2)^3 in G2 counterexample, re-derived exactly). The hatch 'an isolated enhancement stratum' is reopened as a question; no chiral matter derived (E70)."
  },
  {
   "id": "B1262",

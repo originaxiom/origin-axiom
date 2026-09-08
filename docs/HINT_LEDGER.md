@@ -781,3 +781,15 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   slice A's own hint row and the generated views now say "logarithmic CFT". An instrument whose control term names a gap cannot be
   documented in the tree it scans without defeating itself; the third pre-registration (B1307) must exclude every file that names the
   instrument, or evaluate the control on a fixed pre-instrument commit. (B1305 B)
+
+## 2026-09-09 — B1304 hints (recorded, not judged)
+
+- H-B1304-LOCUS-IS-ARITHMETIC (type OBSERVATION, this bench on the audit seat's R20): the three C₃-compatible characters of m202 are the
+  kernel of (Mᵀ − I) on the dual torus, a group of order det(M − I) = 3 — the same 3 as the three fixed points per cusp (B1302's cusp maps) and
+  the "three lines". On the sibling every 3 in sight is det(M − I) for the order-3 isometry's action on ℤ²; the object (m004) has no order-3
+  isometry and no such 3. (B1304)
+- H-B1304-QUANTIFIER (type PROCESS, E70's lesson): B1259's proof was about elements and its headline about strata; the audit seat caught it
+  with a group of order 8. Write the quantifier string of the theorem and of the headline side by side before sealing a NEGATIVE. (B1304)
+- H-B1304-INPUT-TABLE (type SYNTHESIS): the ToE ledger's §E is the price list the programme statement has been paying in prose; with it,
+  "which endpoint" is a row number. The audit seat's compact-E₆ theory pays six rows; main's structure chain pays I-26/I-27/I-28 and the
+  closing; the Z′ regime pays the mass ordering. No theory in the record pays zero. (B1304)

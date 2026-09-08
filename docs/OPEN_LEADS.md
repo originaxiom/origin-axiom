@@ -2360,7 +2360,7 @@ not a new door. ★★.
 multi-cusped cover — fill some cusps, keep others — is the one move that breaks amphichirality (B432: fillings are chiral) while keeping a
 cusp (covers keep cusps but inherit CS = 0). Over degrees 4–8, cusp 0 filled at six slopes, 27 distinct (degree, cusps, slope) triples give a
 positively oriented solution with a cusp left and CS ∉ {0, ¼} mod ½; cleanest witness the degree-5 three-cusped cover (isosig
-`kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb`), slope (2,1) on cusp 0 → 2 cusps left, CS = +0.157590 (unverified numerics on both benches).
+`kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb`), slope (2,1) on cusp 0 → 2 cusps left, CS = +0.157590 — **interval-certified by the audit seat (PARTIAL_FILLING.md @ 6f862099; Sage/SnapPy `verify_hyperbolicity` at 100 and 160 bits; complex volume verified modulo 2-torsion; the quarter lattice excluded by more than 0.0924099), so three seats hold one witness: the cloud found it, main re-derived it numerically (B1305 A), the audit seat certified it (B1304).**
 **The price, registered before the route is opened:** three discrete choices — which cover, which cusp, which slope — on top of I-26, on a
 manifold that is no longer m004 (memo 170 §4; B432's "slope selection stays free input"). **And the σ reading is dead already** (memo 170's
 addendum, extended here to degree 12 with main's code): no cover of m004 has ≥ 6 cusps through degree 12 (max 5 at degree 10, 4 at 11 and 12),

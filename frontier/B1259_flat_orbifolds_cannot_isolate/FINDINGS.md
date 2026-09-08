@@ -66,3 +66,17 @@ cusp holonomy. What this arc removes is one plausible-looking way out that would
   language), B944 (the chirality census), B582/B576/B432 (the frame that does work).
 - **Registers:** no identification change. Routes a **structural** node to the kill graph, replacing
   B1084's empirical one.
+
+*Scope addendum 2026-09-09 (B1304; the audit seat's UPSTREAM_THIRD_AUDIT @ 6f862099, its counterexample re-derived here with own exact code,
+`b1304_g2_strata.py`): the theorem above is correct about ELEMENTS — every element of SO(7) has eigenvalue +1, so no single element of a
+finite Ĝ ⊂ G₂ has a 0-dimensional fixed set — and the consequence sentence "Acharya–Witten isolation is unavailable in the entire class of
+flat G₂ orbifolds" interchanges quantifiers. Counterexample: G = (ℤ/2)³ acting on ℝ⁷ by diagonal signs (−1)^{a·v} on the seven non-zero
+vectors of 𝔽₂³ preserves the standard 3-form φ exactly (its seven triples are the Fano lines), has det +1 throughout, every non-identity
+element fixes a 3-plane, and the common fixed dimension by subgroup order is {1: 7, 2: 3, 4: 1, 8: 0}: the origin is an isolated
+maximal-isotropy (order-8) STRATUM although the total singular set is not isolated there. What stands: the element census of B1084's group
+({3d: 53, 1d: 42}, no 0-dimensional fixed set) and the pairwise-line result; what is withdrawn: the universal claim about enhancement strata,
+which the SO(odd) lemma does not reach. The seat adds, and this bench agrees, that the group-theoretic example is NOT an Acharya–Witten
+construction (that needs an enhancement/unfolding and a localisation or index argument; Witten hep-th/0108165 §3, Acharya–Witten
+hep-th/0109152 §2): no chiral matter is derived by this correction. Status stays NEGATIVE, scoped to "no isolated point of the total singular
+set for any Ĝ"; the hatch "an isolated enhancement stratum" is reopened as a question, not answered. E70 minted (the quantifier-interchange
+class).*

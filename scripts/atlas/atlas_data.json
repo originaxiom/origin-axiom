@@ -6098,9 +6098,12 @@
   "B1259": {
    "slug": "flat orbifolds cannot isolate",
    "motifs": [
+    "monoid",
     "closing",
+    "coupling",
     "trace_map",
     "eisenstein",
+    "golden",
     "amphichiral_cp",
     "wrt_quantum"
    ],
@@ -6842,6 +6845,26 @@
    "obstacle_conf": 19,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1304": {
+   "slug": "the audit seats 4d model",
+   "motifs": [
+    "monoid",
+    "coupling",
+    "eisenstein",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B915",
+    "L202",
+    "L205"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "physics"
   },
   "B1305": {
    "slug": "the cloud 156 178",
