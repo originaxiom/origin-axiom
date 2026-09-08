@@ -1296,3 +1296,38 @@ polynomial doing its job, not a discovery.**
 the source. Four pages, then a verdict. **The owner supplied exactly what was asked for and I did
 not read it.**
 
+
+---
+
+## ADDENDUM 77 (2026-09-08) — the block-4 prediction was the falsifier, and it held
+
+No new owner-voiced question this session; the standing instruction is *"continue autonomously, no
+stoping."* This addendum records what that produced, because one row of the register is now
+answerable that was not.
+
+**The one thing that could have falsified memo 175's derivation has been tested and did not.**
+Memo 175 addendum 2 predicted, with no data behind it, that block 4 of `Ẑ₀(S³_{−1/2}(4₁))` sits at
+`q¹⁹…q²³` as `[2,2,5,2,2]` and negated at `q²⁶…q³⁰`. Confirmed (memo 176), by solving
+Gukov–Manolescu §9.3's own recursion (171)–(172) rather than by extending my own placement rule —
+so the test is independent of the thing tested. The series is now exact to `q^39524`; the
+literature had ten coefficients.
+
+**A correction to this register, made in place.** Addendum 76 said of the odd-Fibonacci
+coefficients: *"the Alexander polynomial doing its job, not a discovery."* That was right about
+`q → 1` and I stand by it. It was **too quick** about what follows: the polynomial's **root
+modulus** — not merely its presence — sets the Cardy exponent of the `q`-series, which is what
+memo 176's law says, and that does not follow from `Δ` doing its job. The deflation was correct
+one link too far.
+
+**What the register can now record as settled that it could not before.**
+
+| register question | status |
+|---|---|
+| does the object's boundary `c_eff` reach `c((E₆)₁) = 6`? | **NO, exactly.** By Gelfond: `c_eff = 6` needs `λ = e^{π√d}`, transcendental, while `λ` is an algebraic integer. No knot in `S³`, no rational slope. |
+| is the σ target reachable through `Ẑ` of a knot surgery? | **NO** on this route, for the arithmetic reason above — not for an amphichirality reason. This is the **third** wall on the object and the **first** that is not amphichirality. |
+| what fixes `c_eff`, if not the geometry? | `Δ_K`'s largest root modulus. For `4₁` that is `φ²`, i.e. `charpoly(A = LR)` — **the programme's own matrix**, already banked as B287, B485 (`m = 1`), B158, P1. |
+
+**What is NOT settled, stated so it is not read as settled.** The law is a leading Cardy
+asymptotic verified numerically in one case to 1.4 %. `Ẑ`-as-a-VOA-character is a conjecture.
+And the law does **not** say hyperbolic implies `c_eff > 0` — `5₂`, `8₂₀` and `10₁₃₂` are
+hyperbolic with `λ = 1` and give exactly zero.

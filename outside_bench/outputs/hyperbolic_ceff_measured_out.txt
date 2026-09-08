@@ -1,0 +1,35 @@
+Zhat_0(S^3_{-1/2}(4_1)): 39525 exact coefficients, q^0 .. q^39524
+   39511 nonzero; largest |a_n| = 28500032015422037198961905094789669732768913556517534368 at q^39524
+
+CALIBRATION (same estimator, cases with known c_eff)
+------------------------------------------------------------------------
+   eta^-1             true 1.0    envelope 0.9210 (0.921x)   slope-fit 0.9834 (0.983x)
+   Rogers-Ramanujan   true 0.4    envelope 0.3623 (0.906x)   slope-fit 0.3921 (0.980x)
+
+THE HYPERBOLIC SERIES
+------------------------------------------------------------------------
+   envelope estimate at n=1982   c_eff = 0.045362
+   envelope estimate at n=3958   c_eff = 0.050187
+   envelope estimate at n=9886   c_eff = 0.056496
+   envelope estimate at n=19765  c_eff = 0.060008
+   envelope estimate at n=29644  c_eff = 0.061672
+   envelope estimate at n=39524  c_eff = 0.062696
+
+   slope fit on the upper half (n in [19762, 39524]):
+      log M(n) = 0.675859 sqrt(n) + const   ->  c_eff = 0.069423
+
+   derivation (memo 175 add.2): 3 (log phi)^2/pi^2 = 0.070387
+      predicted slope alpha = sqrt(2) log phi     = 0.680536
+      measured  slope alpha                       = 0.675859   ratio 0.9931
+
+   the same estimator on cases with a known answer: measured/true = 0.9834, 0.9803
+   so its own accuracy floor at this order is 2.0%.
+   measured/derived = 0.9863  -> deviation 1.4%,
+   which is INSIDE that floor.
+
+   REPORTED VALUE: c_eff = 0.069423 measured, 0.070387 derived.
+   (Do NOT rescale the measurement by the calibration ratio: the two arms'
+    subleading corrections are 1/(q;q)_inf-type, this series' is a -log n from
+    block spreading.  The calibration bounds the error, it does not remove it.)
+
+   target c((E6)_1) = 6.

@@ -1,5 +1,16 @@
 # MEMO 175 — THE HYPERBOLIC CASE: `c_eff` IS SET BY THE GOLDEN RATIO, AND IT IS NOT 6
 
+> ## ➡️ **THE PREDICTION HELD — see MEMO 176 (2026-09-08).**
+> Addendum 2's one untested consequence (block 4 = `[2,2,5,2,2]` centred at `q²¹`, negated at
+> `q²⁸`) is **CONFIRMED** by an independent generator: Gukov–Manolescu §9.3's own recursion
+> (171)–(172), solved in the `(x,q)` series ansatz, three controls firing. The series is now exact
+> to `q^39524` and `c_eff` is **measured** there: `0.069423` against this memo's derived
+> `0.070387`, inside the estimator's own 2.0 % accuracy floor. Memo 176 also states the law behind
+> the value — `c_eff = 3|p/r|(log λ)²/(2π²)` with `λ` the largest root modulus of `Δ_K` — and
+> proves, via Gelfond, that `c_eff = 6` is reached by **no** knot in `S³` and **no** rational slope.
+> Nothing in this memo is retracted.
+
+
 > ## ✅ **NOW DERIVED, AND THE VALUE IS CORRECTED — see ADDENDUM 2 (2026-09-08).**
 > The decomposition below is **no longer a fit**: it follows from Thm 1.2 + eq (1) + §6.8's Spin^c
 > convention. **`c_eff = 3(log φ)²/π² = 0.070387265`**, superseding the `4(log φ)²/π² = 0.0938` quoted
