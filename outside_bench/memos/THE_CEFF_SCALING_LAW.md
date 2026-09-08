@@ -480,6 +480,11 @@ where the colored Jones tail carries `Φ_K`. Hence, stated so it can be wrong:
 
 > ### `c_edge(K) = c_eff(1/Φ_K)`, and the ceiling on `c_eff` over all convergent surgeries on `K` is `c_eff(1/Φ_K)`.
 >
+> **[AND SEE ADDENDUM 8: the `F_K` ↔ stability-series relation is the paper's own Theorem 1.4,
+> and page 6 states it is *"specific to negative torus knots; for example, it even fails for the
+> positive trefoil."* My addenda 4/6/7 rediscovered both the relation and its stated
+> counterexample.]**
+>
 > **[UNDER-DETERMINED AS WRITTEN — see ADDENDUM 6, same day.** `Φ_K` must name **which end** of
 > the colored Jones. The trefoil has `(q;q)_∞` at one end and the trivial series `1` at the
 > other, and only the trivial end gives the right answer. The figure-eight is amphichiral, so
@@ -696,3 +701,76 @@ knot with `c < 0` — the case with a bounded slope window, the interesting one 
 `#⁶4₁`'s bottom-end tail is `(q;q)_∞⁶`, computed in addendum 5. So the connected-sum route is
 *not* killed by this sharpening; it remains gated on addendum 4 §3's two obstructions, and its
 prior is still **OUTCOME B**.
+
+
+---
+
+# ADDENDUM 8 (2026-09-08, same day) — the mechanism is the paper's Theorem 1.4, and the paper says it does not generalise
+
+Reading §7.5 and the introduction's page 6, which I had not reached.
+
+## 1. Credit: the relation is Theorem 1.4
+
+Addendum 4 presented `c_edge(K) = c_eff(1/Φ_K)` — the `F_K` block edge against the colored Jones
+tail — as this bench's mechanism. **The `F_K` ↔ stability-series relation is the paper's own
+Theorem 1.4**, proved there for negative torus knots:
+
+> *"The stability series for the colored Jones polynomials of the negative torus knot `T(s,−t)`
+> is `(q^{1/2} − q^{−1/2})⁻¹ · Ψ(x,q)`."*
+
+Garoufalidis–Lê's stability series is defined in the paper's own eqs (5)–(6), and §7.5 states
+the head/tail relation I rederived in addendum 7:
+
+> *"The highest degree terms give the head, which can be obtained from the tail of the mirror
+> knot by taking `q ↦ q⁻¹`."*
+
+## 2. And the paper says it does not generalise — naming my own counterexample
+
+Page 6, immediately after Theorem 1.4:
+
+> *"**This direct connection between `F_K(x,q)` and the stability series is specific to negative
+> torus knots; for example, it even fails for the positive trefoil.** For arbitrary knots, the
+> relation between `F_K(x,q)` and the colored Jones polynomials `J_n(q)` is more complicated."*
+
+and Remark 7.6:
+
+> *"While for negative torus knots we have a direct relation between `F†_K(x,q)` and the stability
+> series, we cannot expect this to hold for arbitrary knots. Indeed, stability series do not even
+> exist for all knots. Even when they do, e.g. for the positive torus knots `T(2,t)`, the same
+> relation does not hold."*
+
+**Addendum 6 computed the positive trefoil, found the naive reading fails there, and reported it
+as a discovery. It is the paper's own stated counterexample, printed in the introduction.**
+§7.5 also explains the parity alternation I saw in the trefoil's head: Armond–Dasbach observed
+that positive torus knots `T(s,t)` with `s,t > 2` have *no* tail — the even and odd colored Jones
+have different ones.
+
+## 3. What survives, stated narrowly
+
+* **The `4₁` observation is a genuine new data point, and the paper neither claims nor excludes
+  it.** `4₁` is not a torus knot; the paper says the general relation is *"more complicated"*, not
+  false. That its block edge is `2θ/(q;q)_∞` while its colored Jones tail is `(q;q)_∞` — both
+  computed here — is a fact about a knot outside Theorem 1.4's scope.
+* **§5's ceiling does not use the mechanism at all.** `sup_{|p/r|<4} c_eff = c_edge = 1` is read
+  off the block edge sequence directly; the tail identification only *explains* it. The
+  measurement stands whatever the general relation turns out to be.
+* **Addendum 7's "end rule" is downgraded further.** It is a rediscovery of the head/tail mirror
+  statement plus the paper's own counterexample, and the paper's position is that no such rule
+  should be expected in general.
+
+## 4. What it costs the connected-sum route
+
+Addendum 4 §3's cell needs exactly the transfer the paper calls *"more complicated"* and warns
+against. Its prior was already **OUTCOME B** on two computed obstructions; this adds a third and
+the strongest — **the authors say not to expect it.** The cell stays open because "more
+complicated" is not "false", but it should not be run before someone who knows `F_K` answers
+`fetch/FETCH_REQUEST_CEFF.md` §B'4.
+
+## 5. The pattern, recorded once
+
+This is the **second** time this session that reading further into the same paper corrected a
+memo of mine — memo 173 was the first, and its head note says *"four pages, then a verdict."*
+The difference this time: each of addenda 4, 6 and 7 was fenced as one data point and explicitly
+unverified when written, so what needs correcting is **credit and expectation, not a claim**. The
+rule that would have prevented both: **read the introduction to the end before writing the
+mechanism section.** Page 6 carried the answer, and I was on page 56 before I reached it.
