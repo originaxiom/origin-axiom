@@ -1,5 +1,45 @@
 # Failures retained, not rewritten as successful runs
 
+## R22 first-run success and unchanged old failures (2026-09-09)
+
+Seal b8485ab5 precedes the first producer and tests. The complete JSON
+and focused receipt were saved before yielding: 69 pass, one warning,
+31.57 s. The 41-file expanded regression ends at exit one with 285 pass,
+13 fail, 8 error, one warning, 291.22 s. Its failed/error ID set equals
+R21's exactly; zero added, zero missing. Raw stdout is saved outside
+the repo, with a public prefix-redacted receipt. No original scientific
+source, assertion, failed result or tolerance is rewritten.
+
+The failed same-source mode transplant and single-current flat-Higgs
+ansatz are mathematical outcomes, not instrument failures. Their
+opposite-source, real-holonomy and multi-current controls preserve the
+unexcluded completions. Report-edit patches were rejected for
+nonmatching context before writing; exact lines were reread and the
+updates applied successfully. No scientific rerun was needed.
+
+Main B1304's independent harvest was initially described too widely in
+an update, then corrected after its pin was read: it stops at R20,
+not R21 or R22. Independent proof/banking review remains unpaid.
+Whole-repository gates and full-suite debts are not waived here.
+
+The first reporting gate returned 26 pass / 4 fail, review due at
+124 merges; its complete GEOMETRIC_COMPLETION_GATES.txt is retained.
+It caught four public branch-label attribution tokens in the prior
+sweep and missing prior-arc citations in four R22 law rows. Reporting
+corrections replace only the branch display labels and add explicitly
+scoped prior context; they neither change the scientific inputs nor
+pretend the earlier arcs prove R22. The original sweep bytes remain
+in seal b8485ab5 and a byte-identical external raw copy. No baseline
+or gate exemption was changed. The corrected reporting pass has a
+separate receipt and is not relabeled the first run.
+
+The corrected pass finishes at 27 pass / 3 fail, review due at
+124 merges: GEOMETRIC_COMPLETION_GATES_CORRECTED.txt. The new
+attribution and law-map issues are gone; the older attribution,
+static-vacuity and literal-provenance debts remain. No full-repository
+green certificate is claimed. Original pytest trailing spaces are
+retained in the raw regression receipt, not silently reformatted.
+
 ## R21 first-run success, stdout loss and expanded regression (2026-09-08)
 
 Original seal 6a08d343: exact native run succeeds, 46 focused tests

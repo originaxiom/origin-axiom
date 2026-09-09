@@ -1,10 +1,10 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
-2026-09-08, updated after R21 and the named partial-filling verification.
+2026-09-09, updated after R22 and the named partial-filling verification.
 This ranks remaining duties of the constructions audited here. It is
 not a theorem that the repository, its other branches, or the object
 cannot supply them. All remote heads were fetched again; latest main
-31dd52b9, physics 659487bb, SM 13d965a9, outside-bench 08fc05a1.
+eb9db7fa, physics 659487bb, SM d722714f, outside-bench 988e2417.
 Newer received conclusions are not accepted merely because fetched.
 
 ## 1. A common physical theory and its genuine inputs
@@ -32,6 +32,14 @@ potential and scales. It has a valid four-dimensional EFT action;
 the new fields are not yet internal modes of the sourced construction.
 Its charge-four Higgs must be nonparallel or localized in the current
 holonomy. This narrows a concrete common-action construction duty.
+
+R22 computes a further restriction: the unchanged source operator
+does not supply the added vector fermions with R21's chosen chirality.
+Every same-sign source contribution reinforces the U1 traces. Finite
+charged trial norms are possible, but a single scalar with no other
+current cannot condense at non-real flat holonomy. This prices actual
+defect/inflow, independent source responses or coupled dynamics; it
+does not turn the valid R21 EFT into a source-derived theory.
 
 **Strategy:** list the actual maps from source data to fields, kinetic
 terms, interactions, boundary data and observables. For each apparent
@@ -82,9 +90,13 @@ decoupling theorem for a finite four-dimensional effective theory.
 priority. R20 computes the source-compatible scalar characters and
 their parent lift. R21 tests an actual global-form-compatible enlarged
 EFT and excludes only its unchanged-holonomy parallel-Higgs shortcut.
-Next solve for a finite-energy nonparallel Higgs or an actual defect/
-inflow sector, derive its internal modes and backreaction, and recheck
-the charged spectrum and anomaly matching in that action. Parallel
+R22 now computes finite-norm trial profiles and tests the same-source
+mode supply and Maxwell equation; these are not a coupled vacuum.
+Next derive an actual defect/inflow sector from the existing mass
+operator, retaining source/cusp boundary terms and global quantization,
+or construct independently realized source responses and coupled
+nonabelian fields. Recheck the charged spectrum and anomaly matching
+in that action: curved A invalidates the old complex. Parallel
 singlet VEVs alone retain a Z3 anomalous on only three spinors; additional
 anomaly-carrying content must not be dropped. Also test noncentral simply connected
 transport as an unexcluded alternative to the scalar quotient route.
@@ -106,7 +118,7 @@ closes that class, not all singular or cusped backgrounds.
 Sources: [R15](GLOBAL_SINGULAR.md), [R16](CHARGED_DOMAIN.md),
 [R17](CUSP_TAIL.md), [R18](WEIGHTED_COHOMOLOGY.md),
 [R19](HOLONOMY_SPECTRUM.md), [R20](HOLONOMY_EQUIVARIANCE.md),
-[R21](ANOMALY_COMPLETION.md).
+[R21](ANOMALY_COMPLETION.md), [R22](GEOMETRIC_COMPLETION.md).
 
 ## 3. Gravity in the same four-dimensional dynamical theory
 

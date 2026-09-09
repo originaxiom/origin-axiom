@@ -67,3 +67,17 @@ no B number. No source branch merge, main mutation or external relay.
 The public web tool responded successfully in this continuation;
 no login command or authentication change was made. No empirical
 value prediction, exhaustive-literature or novelty claim is made.
+
+## Reporting-only correction after execution
+
+The first reporting gate flagged four literal vendor-bearing remote
+branch labels in the prior-sweep JSON. Its public copy now uses seat
+aliases; the commit pins, search terms and all hits are unchanged.
+This is not a fresh sweep or a change to any scientific input.
+The originally sealed bytes remain available at
+`b8485ab5:reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_PRIOR_SWEEP.json`;
+their SHA-256 is
+`c15bdfbf1af403b7e6607998fa61f5d284867df303a854852441fd077d3ac6ad`.
+A byte-identical raw copy is also retained outside the worktree.
+The current metadata hash is appended separately to ARTIFACT_HASHES,
+not substituted for the original pre-execution seal.

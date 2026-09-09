@@ -14586,3 +14586,38 @@ Reports, FINDINGS, all reader ledgers, framework/ladder, scoped laws and
 the open duty updated. Independent/main banking remains unpaid; only
 this audit branch is the authorized push destination. Source:
 reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md.
+
+## 2026-09-09 — R22: the same-source completion test, with finite norms and the connection retained
+
+Pre-execution seal b8485ab5. R21's added-field anomaly-free H theory
+remains valid, but its desired vector fermions are not supplied with
+that chirality by the unchanged positive-source operator. Actual
+cochains at all three character residues give net H1=k sign(q); actual
+weights yield (Tr u,Tr u^3,Spin10^2-u)=(120,480,12) for the transplant.
+All same-source charged pairs reinforce the U1 traces. An independent
+opposite-source response for the vector restores cancellation as a
+positive control, not a response already derived from the same u*dF.
+
+Nonzero charged trial sections with exp(-eta exp(2s)) decay have finite
+L2/deformed quadratic norms in the exact cusp, including nontrivial
+holonomy. They are not vacua. For one minimally coupled scalar and no
+other current, flat Maxwell plus elliptic unique continuation requires
+real holonomy; the charge-four order-three line fails. Real antiperiodic
+and opposite-current two-field controls scope the result. Curved A is
+an open route but gives D^2=-iq dA wedge, requiring a new coupled
+operator before the old chiral count can be carried forward.
+
+NEXT: actual defect/inflow from the source mass operator, including
+source/cusp boundary contributions, quantization and global gauge
+variation; or independent source responses/coupled nonabelian fields.
+Anomaly redistribution is not automatically net cancellation. Source
+selection, SM interactions, neutral 4D limit and dynamical gravity
+remain open. No universal kill, new B ID or complete TOE.
+
+Native first JSON succeeds (6.429 s); 69 focused passes. Complete
+41-file regression: 285 pass/13 fail/8 error, 291.22 s, exactly R21's
+21 failed/error IDs. All first captures saved before yielding; original
+sources/tests unchanged. Main eb9db7fa, SM d722714f, physics 659487bb,
+outside 988e2417 read at current pins. Main B1304's independent harvest
+ends at R20, not R21/R22. Numbering relay read, no B allocation. Report:
+reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION.md.

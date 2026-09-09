@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-09 — Path-local R22: test the completion on the same source operator
+
+The proposed R21 spectator vectors have opposite chirality under the
+unchanged source/domain rule, so the combined supplied spectrum has
+anomalies (120,480,12), not zero. A general same-source trace argument
+and opposite-source control scope this obstruction. Finite charged
+trial profiles exist, but a single current-free scalar condensate
+cannot retain non-real flat holonomy; curvature changes the original
+complex. Actual defect/inflow or coupled-field completion remains live.
+69 focused tests pass; the 41-file regression is 285 pass/13 fail/8 error,
+exactly the same failed/error IDs as R21. Complete first captures saved.
+Main's independent B1304 harvest stops before R21; no review upgrade,
+B allocation or full TOE is claimed. Report:
+reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION.md.
+
 ## 2026-09-08 — Path-local R21: actual-subgroup anomaly completion and holonomy cost
 
 The subgroup H in E6/Z3 admits a root-datum pullback of 16_(1)+10_(-2)

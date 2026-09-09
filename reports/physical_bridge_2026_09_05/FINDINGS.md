@@ -1,6 +1,19 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-Latest: [R21's actual-subgroup anomaly completion](ANOMALY_COMPLETION.md).
+Latest: [R22's same-source completion test](GEOMETRIC_COMPLETION.md).
+R22 tests the missing composition with the unchanged source operator.
+Its negative-charge spectator vectors emerge with opposite chirality;
+the would-be completed spectrum has anomalies (120,480,12), not zero.
+Nonzero finite charged trial norms are constructed, but not a vacuum.
+A single minimally coupled scalar with no compensating current cannot
+condense at non-real flat holonomy; curvature invalidates the original
+cochain differential. Defects, inflow, other source patterns and coupled
+nonabelian fields remain live. Next derive that completion in the same
+source theory, including its boundary terms. No complete TOE is claimed.
+Seal b8485ab5; 69 focused passes, 285 broad passes with exactly the same
+13 failures/8 errors as R21; no original failure or assertion is erased.
+
+Preceding: [R21's actual-subgroup anomaly completion](ANOMALY_COMPLETION.md).
 An explicit root-datum map gives an anomaly-free H representation
 containing the actual positive adjoint spinor. Added vector/singlet
 matter and a charge-four Higgs admit consistent masses, leaving chiral

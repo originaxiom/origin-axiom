@@ -2631,6 +2631,21 @@ topological sectors. The EFT permits any family multiplicity; axion
 arithmetic does not derive three. Spin(10)-to-SM breaking, the neutral
 4D limit, source/global-form selection and gravity remain separate duties.
 
+**R22 movement on PB-BOUNDARY (2026-09-09):** closing sentence:
+"In the declared common-sign strong-source class, R21's added-field
+anomaly completion is not obtained by its unchanged bulk mode rule;
+finite charged trial norms exist, but a single current-free scalar
+condensate cannot keep the non-real flat holonomy unchanged."
+Source: reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION.md,
+section 4. This closes only the mode-transplant/single-current shortcut,
+NOT PB-BOUNDARY. NEXT: derive actual defect/inflow from the existing
+mass operator, retaining source and cusp boundary terms, coefficient,
+global definition and gauge variation. Do not mistake anomaly transport
+to an unaccounted boundary for cancellation. Independent source responses
+or a full multi-field/nonabelian solution are also live; rederive the
+charged operator if A curves. Finite trial norms are not a vacuum.
+Keep source selection, SM breaking, the neutral 4D limit and gravity open.
+
 **PB-PARTIAL-FILLING — boundary theory on the certified marked witness. OPEN.**
 The degree-five decorated cover filled at cusp 0 (2,1) now has
 interval-certified hyperbolicity, two complete cusps, and CS outside

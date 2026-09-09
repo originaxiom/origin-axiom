@@ -240,3 +240,42 @@ Reporting gates: 27 pass / 3 fail, review due at 122 merges; receipt
 ANOMALY_COMPLETION_GATES.txt. Same attribution/static-vacuity/older
 provenance debts as R20. New seals and reader-currency checks pass;
 authored staged whitespace is clean. No full-main-bank acceptance.
+
+## R22 update (2026-09-09), actual source composition not assumed
+
+All heads fetched: own pre-run 84f6b118, main eb9db7fa, SM d722714f,
+physics 659487bb, outside 988e2417. Read main B1304 and B1302 producer,
+the full later SM B1350 body and the held CC-to-SM numbering relay.
+No B allocation, main merge, PR, mirror push or external relay. Main
+B1304 reads this branch through R20 only; no R21/R22 review inferred.
+
+Pre-execution seal b8485ab5 contains design, prior receipt/sweep,
+producer/tests and generated hashes. Native first JSON succeeds;
+69 focused pass. The 41-file expanded regression is 285 pass/13 fail/
+8 error in 291.22 s, with exactly R21's failed/error set. Full raw
+capture is outside the repository and the public prefix-redacted
+receipt retains every result. All original scientific files unchanged.
+
+FINDINGS, report, README, goal verdict, strategy, CHANGELOG, appended
+PROGRESS_LOG, CAMPAIGN_STATUS, framework, X33 inline, four scoped
+LAW_MAP rows and the quoted OPEN_LEADS sub-duty all carry the result.
+Finite trial norms are positive; unchanged-source field transplantation
+and a single-current flat condensate fail their declared tests.
+Actual defect/inflow or coupled source completion stays OPEN alongside
+the source/SM/neutral/gravity duties. Full suite, governance and
+independent receiving-seat debts still prevent full main banking.
+
+The first reporting gate's 26 pass / 4 fail receipt is preserved as
+GEOMETRIC_COMPLETION_GATES.txt. Its new metadata issues were corrected:
+four prior-sweep branch labels have public seat aliases, retaining
+their exact pins/hits and the original sealed JSON; four R22 law rows
+now cite the genuine earlier context without attributing the new
+theorems to it. These are post-execution reporting corrections only.
+No scientific source, test, failed output, baseline or exemption changes.
+
+The corrected staged reporting pass returns 27 pass / 3 fail, review
+due at 124 merges; GEOMETRIC_COMPLETION_GATES_CORRECTED.txt retains
+it separately. Only the three older attribution/static-vacuity/
+literal-provenance gate debts remain. The original regression's
+whitespace is preserved. This is an owner-authorized research-branch
+checkpoint, not full main banking or a whole-repository certificate.

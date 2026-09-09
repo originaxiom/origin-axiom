@@ -1,6 +1,20 @@
-# Verdict toward the full physical-theory goal — 2026-09-08, after path-local R21
+# Verdict toward the full physical-theory goal — 2026-09-09, after path-local R22
 
-**Newest movement:** [R21](ANOMALY_COMPLETION.md) constructs and tests
+**Newest movement:** [R22](GEOMETRIC_COMPLETION.md) tests the actual
+mode supply and Higgs/connection join. R21's 4D completion is valid,
+but its spectator vectors are NOT generated with the required chirality
+by the unchanged positive-source operator. Same-source extra fields
+cannot cancel its U1 traces. Finite charged trial profiles exist;
+normalizability alone does not solve the coupled vacuum equations.
+A single scalar with no other current cannot condense while keeping
+non-real flat holonomy; allowing curvature changes the original complex.
+Next derive actual defect/inflow or coupled source dynamics and their
+boundary terms, not another compatible field list. PB-BOUNDARY and the
+full physical TOE remain OPEN. 69 focused pass; 285 expanded pass with
+the same 13 failures/8 errors, no new failed/error IDs. Main B1304's
+independent harvest stops at R20; R21/R22 are not thereby reviewed.
+
+**Preceding movement:** [R21](ANOMALY_COMPLETION.md) constructs and tests
 an anomaly-free added-field EFT on the ACTUAL unbroken subgroup, with
 quantized local anomaly matching and gauge-invariant spectator masses.
 It leaves the original chiral Spin(10) content and a massive extra U1;

@@ -1,0 +1,1268 @@
+{
+  "current": {
+    "compatible_phase_current": 0,
+    "cusp_lagrangian": "Ap**2/(2*g**2) + W*f**2*exp(-2*s) + f**2*(-A*q + k)**2 + fp**2*exp(-2*s)",
+    "equation_match": true,
+    "flat_order_three_current": "8*f**2/3",
+    "local_current": "-2*a*db*q + 2*b*da*q",
+    "maxwell_equation": "-App/g**2 - 2*f**2*q*(-A*q + k)",
+    "neutral_current": 0,
+    "nonreal_order_three_holonomy": true,
+    "real_wave_antiperiodic": true,
+    "real_wave_current": 0,
+    "real_wave_elliptic_equation": true,
+    "real_wave_nonparallel": true,
+    "single_current_nonzero": true,
+    "two_field_current_cancels": true,
+    "two_field_opposite_currents": [
+      "16*f**2/3",
+      "-16*f**2/3"
+    ]
+  },
+  "cusp": {
+    "constant_amplitude_norm": "exp(-2*s)/2",
+    "constant_amplitude_transverse_primitive": "s",
+    "elementary_tail_checks": [
+      true,
+      true
+    ],
+    "logarithm_ratio_at_max": "4*exp(-2)",
+    "logarithm_ratio_derivative": "-(log(x) - 2)*log(x)/x**2",
+    "no_cusp_volume_factor_transverse": true,
+    "norm_bound": "exp(-2*X*eta)/(4*X**2*eta)",
+    "norm_change": true,
+    "radial_bound": "b**2*q**2*(X/(2*eta) + 1/(4*eta**2))*exp(-2*X*eta) + (-2*eta + q*(b + 2*c))**2*exp(-2*X*eta)/(2*eta)",
+    "radial_change": true,
+    "radial_integrand": "(b*q*log(x) - 2*eta + q*(b + 2*c))**2*exp(-2*eta*x)/2",
+    "transverse_bound": "exp(-2*X*eta)/(4*X*eta)",
+    "transverse_change": true
+  },
+  "cusp_integrals": [
+    {
+      "X": 1.0,
+      "b": 0.7,
+      "bounds": [
+        0.4573430300783554,
+        19.45232354599938,
+        0.4573430300783554
+      ],
+      "c": -0.2,
+      "controls_pass": true,
+      "eta": 0.3,
+      "integrals": [
+        0.13809196709019259,
+        4.912432000207328,
+        0.22718975159470106
+      ],
+      "q": 4,
+      "quadrature_error_estimates": [
+        4.52504858614775e-15,
+        3.5167228296209625e-12,
+        1.5953712136364244e-13
+      ]
+    },
+    {
+      "X": 1.0,
+      "b": 0.7,
+      "bounds": [
+        0.4573430300783554,
+        22.086619399250708,
+        0.4573430300783554
+      ],
+      "c": -0.2,
+      "controls_pass": true,
+      "eta": 0.3,
+      "integrals": [
+        0.13809196709019259,
+        8.774105144693644,
+        0.22718975159470106
+      ],
+      "q": -4,
+      "quadrature_error_estimates": [
+        4.52504858614775e-15,
+        2.404878231054032e-12,
+        1.5953712136364244e-13
+      ]
+    },
+    {
+      "X": 2.0,
+      "b": 1.0,
+      "bounds": [
+        0.0011447274305458862,
+        3.3334462777496205,
+        0.0022894548610917723
+      ],
+      "c": 2.0,
+      "controls_pass": true,
+      "eta": 1.0,
+      "integrals": [
+        0.0007995573123346386,
+        2.1382127380792992,
+        0.001889676204924453
+      ],
+      "q": 4,
+      "quadrature_error_estimates": [
+        3.050816827041941e-14,
+        1.842649189430604e-12,
+        2.1998217094371356e-13
+      ]
+    },
+    {
+      "X": 4.0,
+      "b": 2.0,
+      "bounds": [
+        0.0005723637152729431,
+        0.4132008133298431,
+        0.0022894548610917723
+      ],
+      "c": -0.7,
+      "controls_pass": true,
+      "eta": 0.5,
+      "integrals": [
+        0.0003997786561673193,
+        0.21084298137401666,
+        0.0018896762049242606
+      ],
+      "q": -1,
+      "quadrature_error_estimates": [
+        5.491548083510061e-15,
+        5.2466478409437e-13,
+        3.8806336266672636e-13
+      ]
+    },
+    {
+      "X": 1.0,
+      "b": 1.0,
+      "bounds": [
+        0.2808306025732635,
+        0.3594631712937773,
+        0.2808306025732635
+      ],
+      "c": 1.0,
+      "controls_pass": true,
+      "eta": 0.4,
+      "integrals": [
+        0.10042585064039358,
+        0.17973158564688865,
+        0.1552982892727715
+      ],
+      "q": 0,
+      "quadrature_error_estimates": [
+        6.290586675422904e-13,
+        5.781594774636841e-13,
+        5.4460460071069774e-14
+      ]
+    }
+  ],
+  "differential": {
+    "flat_all_degrees": true,
+    "rows": [
+      {
+        "curvature_identity": true,
+        "indices": [],
+        "square": {
+          "(0, 1)": "-I*q*(r + t + theta + 1)"
+        }
+      },
+      {
+        "curvature_identity": true,
+        "indices": [
+          0
+        ],
+        "square": {}
+      },
+      {
+        "curvature_identity": true,
+        "indices": [
+          1
+        ],
+        "square": {}
+      },
+      {
+        "curvature_identity": true,
+        "indices": [
+          2
+        ],
+        "square": {
+          "(0, 1, 2)": "-I*q*(r + t + theta + 1)"
+        }
+      },
+      {
+        "curvature_identity": true,
+        "indices": [
+          0,
+          1
+        ],
+        "square": {}
+      },
+      {
+        "curvature_identity": true,
+        "indices": [
+          0,
+          2
+        ],
+        "square": {}
+      },
+      {
+        "curvature_identity": true,
+        "indices": [
+          1,
+          2
+        ],
+        "square": {}
+      },
+      {
+        "curvature_identity": true,
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "square": {}
+      }
+    ],
+    "zero_form_square_nonzero": true
+  },
+  "peripheral": [
+    {
+      "classes": [
+        [
+          [
+            -2,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            -1,
+            3
+          ],
+          [
+            -3,
+            2
+          ]
+        ]
+      ],
+      "nearest_lattice_control": true,
+      "nontrivial_cusps": [
+        false,
+        false
+      ],
+      "phases": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "q": 0,
+      "relator_exponents": [
+        0,
+        0
+      ],
+      "square_torus_gap_over_4pi2": [
+        0,
+        0
+      ]
+    },
+    {
+      "classes": [
+        [
+          [
+            -2,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            -1,
+            3
+          ],
+          [
+            -3,
+            2
+          ]
+        ]
+      ],
+      "nearest_lattice_control": true,
+      "nontrivial_cusps": [
+        true,
+        true
+      ],
+      "phases": [
+        [
+          "1/3",
+          "2/3"
+        ],
+        [
+          "2/3",
+          "1/3"
+        ]
+      ],
+      "q": 1,
+      "relator_exponents": [
+        0,
+        0
+      ],
+      "square_torus_gap_over_4pi2": [
+        "2/9",
+        "2/9"
+      ]
+    },
+    {
+      "classes": [
+        [
+          [
+            -2,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            -1,
+            3
+          ],
+          [
+            -3,
+            2
+          ]
+        ]
+      ],
+      "nearest_lattice_control": true,
+      "nontrivial_cusps": [
+        true,
+        true
+      ],
+      "phases": [
+        [
+          "1/3",
+          "2/3"
+        ],
+        [
+          "2/3",
+          "1/3"
+        ]
+      ],
+      "q": -2,
+      "relator_exponents": [
+        0,
+        0
+      ],
+      "square_torus_gap_over_4pi2": [
+        "2/9",
+        "2/9"
+      ]
+    },
+    {
+      "classes": [
+        [
+          [
+            -2,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            -1,
+            3
+          ],
+          [
+            -3,
+            2
+          ]
+        ]
+      ],
+      "nearest_lattice_control": true,
+      "nontrivial_cusps": [
+        true,
+        true
+      ],
+      "phases": [
+        [
+          "1/3",
+          "2/3"
+        ],
+        [
+          "2/3",
+          "1/3"
+        ]
+      ],
+      "q": 4,
+      "relator_exponents": [
+        0,
+        0
+      ],
+      "square_torus_gap_over_4pi2": [
+        "2/9",
+        "2/9"
+      ]
+    },
+    {
+      "classes": [
+        [
+          [
+            -2,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            -1,
+            3
+          ],
+          [
+            -3,
+            2
+          ]
+        ]
+      ],
+      "nearest_lattice_control": true,
+      "nontrivial_cusps": [
+        false,
+        false
+      ],
+      "phases": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "q": 12,
+      "relator_exponents": [
+        0,
+        0
+      ],
+      "square_torus_gap_over_4pi2": [
+        0,
+        0
+      ]
+    }
+  ],
+  "runtime_seconds": 6.428778597000928,
+  "supply": {
+    "CPT_representative_invariance": true,
+    "absolute_charge_trace": 120,
+    "absolute_cubic_trace": 480,
+    "bulk_anomaly": "-5*p1_T*z0 - 15*p1_T*z1/4 - 25*p1_T*z2/4 - 15*p1_T*z3/2 - 5*p1_T*z4 - 5*p1_T*z5/2 + 80*z0**3 + 180*z0**2*z1 + 300*z0**2*z2 + 360*z0**2*z3 + 240*z0**2*z4 + 120*z0**2*z5 + 150*z0*z1**2 + 468*z0*z1*z2 + 576*z0*z1*z3 + 384*z0*z1*z4 + 192*z0*z1*z5 + 390*z0*z2**2 + 936*z0*z2*z3 + 624*z0*z2*z4 + 312*z0*z2*z5 + 576*z0*z3**2 + 768*z0*z3*z4 + 384*z0*z3*z5 + 264*z0*z4**2 + 264*z0*z4*z5 + 72*z0*z5**2 + 45*z1**3 + 201*z1**2*z2 + 252*z1**2*z3 + 168*z1**2*z4 + 84*z1**2*z5 + 315*z1*z2**2 + 774*z1*z2*z3 + 516*z1*z2*z4 + 258*z1*z2*z5 + 486*z1*z3**2 + 648*z1*z3*z4 + 324*z1*z3*z5 + 222*z1*z4**2 + 222*z1*z4*z5 + 60*z1*z5**2 + 175*z2**3 + 630*z2**2*z3 + 420*z2**2*z4 + 210*z2**2*z5 + 774*z2*z3**2 + 1032*z2*z3*z4 + 516*z2*z3*z5 + 354*z2*z4**2 + 354*z2*z4*z5 + 96*z2*z5**2 + 324*z3**3 + 648*z3**2*z4 + 324*z3**2*z5 + 444*z3*z4**2 + 444*z3*z4*z5 + 120*z3*z5**2 + 104*z4**3 + 156*z4**2*z5 + 84*z4*z5**2 + 16*z5**3",
+    "charge_rows": [
+      {
+        "betti": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": -3,
+        "k": 3,
+        "net_H1": -3,
+        "polynomial": "7",
+        "q": -12,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": -3,
+        "k": 3,
+        "net_H1": -3,
+        "polynomial": "7",
+        "q": -6,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": -3,
+        "k": 3,
+        "net_H1": -3,
+        "polynomial": "-2",
+        "q": -4,
+        "residue": 2,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": -3,
+        "k": 3,
+        "net_H1": -3,
+        "polynomial": "7",
+        "q": -3,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": -3,
+        "k": 3,
+        "net_H1": -3,
+        "polynomial": "-2",
+        "q": -2,
+        "residue": 1,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": -3,
+        "k": 3,
+        "net_H1": -3,
+        "polynomial": "-2",
+        "q": -1,
+        "residue": 2,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": 3,
+        "k": 3,
+        "net_H1": 3,
+        "polynomial": "-2",
+        "q": 1,
+        "residue": 1,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": 3,
+        "k": 3,
+        "net_H1": 3,
+        "polynomial": "-2",
+        "q": 2,
+        "residue": 2,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": 3,
+        "k": 3,
+        "net_H1": 3,
+        "polynomial": "7",
+        "q": 3,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": 3,
+        "k": 3,
+        "net_H1": 3,
+        "polynomial": "-2",
+        "q": 4,
+        "residue": 1,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": 3,
+        "k": 3,
+        "net_H1": 3,
+        "polynomial": "7",
+        "q": 6,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": 3,
+        "k": 3,
+        "net_H1": 3,
+        "polynomial": "7",
+        "q": 12,
+        "residue": 0,
+        "source_orientation": 1
+      }
+    ],
+    "component_controls": [
+      {
+        "betti": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": -1,
+        "k": 1,
+        "net_H1": -1,
+        "polynomial": "7",
+        "q": -3,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": -1,
+        "k": 1,
+        "net_H1": -1,
+        "polynomial": "-2",
+        "q": -2,
+        "residue": 1,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": -1,
+        "k": 1,
+        "net_H1": -1,
+        "polynomial": "-2",
+        "q": -1,
+        "residue": 2,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": 1,
+        "k": 1,
+        "net_H1": 1,
+        "polynomial": "-2",
+        "q": 1,
+        "residue": 1,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": 1,
+        "k": 1,
+        "net_H1": 1,
+        "polynomial": "-2",
+        "q": 2,
+        "residue": 2,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": 1,
+        "k": 1,
+        "net_H1": 1,
+        "polynomial": "7",
+        "q": 3,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": -2,
+        "k": 2,
+        "net_H1": -2,
+        "polynomial": "7",
+        "q": -3,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": -2,
+        "k": 2,
+        "net_H1": -2,
+        "polynomial": "-2",
+        "q": -2,
+        "residue": 1,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": -2,
+        "k": 2,
+        "net_H1": -2,
+        "polynomial": "-2",
+        "q": -1,
+        "residue": 2,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": 2,
+        "k": 2,
+        "net_H1": 2,
+        "polynomial": "-2",
+        "q": 1,
+        "residue": 1,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": 2,
+        "k": 2,
+        "net_H1": 2,
+        "polynomial": "-2",
+        "q": 2,
+        "residue": 2,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": 2,
+        "k": 2,
+        "net_H1": 2,
+        "polynomial": "7",
+        "q": 3,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": -4,
+        "k": 4,
+        "net_H1": -4,
+        "polynomial": "7",
+        "q": -3,
+        "residue": 0,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": -4,
+        "k": 4,
+        "net_H1": -4,
+        "polynomial": "-2",
+        "q": -2,
+        "residue": 1,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": -4,
+        "k": 4,
+        "net_H1": -4,
+        "polynomial": "-2",
+        "q": -1,
+        "residue": 2,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": 4,
+        "k": 4,
+        "net_H1": 4,
+        "polynomial": "-2",
+        "q": 1,
+        "residue": 1,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          1,
+          0
+        ],
+        "independent_euler": 4,
+        "k": 4,
+        "net_H1": 4,
+        "polynomial": "-2",
+        "q": 2,
+        "residue": 2,
+        "source_orientation": 1
+      },
+      {
+        "betti": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "conjugate_betti": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "differential_ranks": [
+          1,
+          0,
+          0
+        ],
+        "independent_euler": 4,
+        "k": 4,
+        "net_H1": 4,
+        "polynomial": "7",
+        "q": 3,
+        "residue": 0,
+        "source_orientation": 1
+      }
+    ],
+    "cubic_u_trace": 480,
+    "expected_weight_polynomial": "-5*p1_T*z0 - 15*p1_T*z1/4 - 25*p1_T*z2/4 - 15*p1_T*z3/2 - 5*p1_T*z4 - 5*p1_T*z5/2 + 80*z0**3 + 180*z0**2*z1 + 300*z0**2*z2 + 360*z0**2*z3 + 240*z0**2*z4 + 120*z0**2*z5 + 150*z0*z1**2 + 468*z0*z1*z2 + 576*z0*z1*z3 + 384*z0*z1*z4 + 192*z0*z1*z5 + 390*z0*z2**2 + 936*z0*z2*z3 + 624*z0*z2*z4 + 312*z0*z2*z5 + 576*z0*z3**2 + 768*z0*z3*z4 + 384*z0*z3*z5 + 264*z0*z4**2 + 264*z0*z4*z5 + 72*z0*z5**2 + 45*z1**3 + 201*z1**2*z2 + 252*z1**2*z3 + 168*z1**2*z4 + 84*z1**2*z5 + 315*z1*z2**2 + 774*z1*z2*z3 + 516*z1*z2*z4 + 258*z1*z2*z5 + 486*z1*z3**2 + 648*z1*z3*z4 + 324*z1*z3*z5 + 222*z1*z4**2 + 222*z1*z4*z5 + 60*z1*z5**2 + 175*z2**3 + 630*z2**2*z3 + 420*z2**2*z4 + 210*z2**2*z5 + 774*z2*z3**2 + 1032*z2*z3*z4 + 516*z2*z3*z5 + 354*z2*z4**2 + 354*z2*z4*z5 + 96*z2*z5**2 + 324*z3**3 + 648*z3**2*z4 + 324*z3**2*z5 + 444*z3*z4**2 + 444*z3*z4*z5 + 120*z3*z5**2 + 104*z4**3 + 156*z4**2*z5 + 84*z4*z5**2 + 16*z5**3",
+    "full_polynomial_match": true,
+    "independent_vector_source_restores_zero": true,
+    "mixed_gravity_trace": 120,
+    "mixed_matrix_match": true,
+    "mixed_spin10_u": 12,
+    "original_added_field_polynomial": 0,
+    "reversed_source": true
+  }
+}

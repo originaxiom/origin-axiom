@@ -1,6 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-**LATEST LOCAL AUDIT (2026-09-08, path-local R21): an actual subgroup anomaly completion.**
+**LATEST LOCAL AUDIT (2026-09-09, path-local R22): the same-source composition is tested.**
+R21's valid 4D completion is not supplied by the unchanged source rule:
+the vector chirality reverses, leaving anomalies (120,480,12). Finite
+charged trial norms exist, not a solved Higgs vacuum. A single scalar
+with no other current cannot retain the non-real flat connection when
+it condenses; curvature changes the original cochain differential.
+NEXT: derive actual defect/inflow or coupled source dynamics, including
+boundary anomaly terms and rechecked charged modes. 69 focused passes;
+285 broad passes, same 13 failures/8 errors as R21. No B ID, universal
+kill, independent R21/R22 review or full TOE. Source:
+reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION.md.
+
+**PRECEDING LOCAL AUDIT (2026-09-08, path-local R21): an actual subgroup anomaly completion.**
 An exact root-datum map gives H an anomaly-free enlarged representation
 containing the original chiral spinor. Explicit scalar/gauge/spectator
 mass terms and integral anomaly matching work. But the charge-four

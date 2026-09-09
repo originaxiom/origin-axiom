@@ -1,5 +1,19 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Same-source composition test, 2026-09-09 (path-local R22):**
+R21's added-field EFT remains valid, but feeding those charged pairs
+through the unchanged strong-source operator changes the vector's
+chirality and yields nonzero anomalies (120,480,12). In that precise
+common-sign class all extra charged pairs reinforce the U1 traces;
+independent source responses and inflow are not excluded. Nonzero
+finite-norm charged trial profiles exist on the same source complement,
+not yet as a vacuum. A single minimally coupled scalar with no other
+current cannot condense at non-real flat holonomy; curved transport
+changes the cochain complex. Actual defect/inflow or coupled-field
+completion and a rechecked spectrum remain required. No universal
+chirality kill, main proof review or full TOE. Report and controls:
+`reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION.md`.
+
 **Actual-subgroup anomaly completion, 2026-09-08 (path-local R21):**
 The H centralizer in R20's E6/Z3 parent admits a genuine pullback
 representation 16_(1)+10_(-2)+1_(4), whose spinor is exactly R19's

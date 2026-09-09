@@ -66,7 +66,7 @@
       "filenames": []
     },
     {
-      "head": "origin/claude/new-session-qor5up",
+      "head": "new-session seat",
       "sha": "3851df2a",
       "content": [
         "3851df2a:PROGRESS_LOG.md",
@@ -76,7 +76,7 @@
       "filenames": []
     },
     {
-      "head": "origin/claude/outside-bench",
+      "head": "outside seat",
       "sha": "988e2417",
       "content": [
         "988e2417:PROGRESS_LOG.md",
@@ -86,7 +86,7 @@
       "filenames": []
     },
     {
-      "head": "origin/claude/physics-seat-evaluation-8dkbrl",
+      "head": "physics seat",
       "sha": "659487bb",
       "content": [
         "659487bb:PROGRESS_LOG.md",
@@ -100,7 +100,7 @@
       "filenames": []
     },
     {
-      "head": "origin/claude/standard-model-derivation-0qt6ao",
+      "head": "SM seat",
       "sha": "d722714f",
       "content": [
         "d722714f:PROGRESS_LOG.md",
@@ -178,5 +178,6 @@
     "reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
     "reports/physical_bridge_2026_09_05/README.md",
     "reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md"
-  ]
+  ],
+  "receipt_note": "Post-execution reporting-only redaction: four head display labels replaced by seat aliases. All commit pins, content hits, filenames, history-path hits and worktree hits are unchanged. Exact original receipt is retained at b8485ab5:reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_PRIOR_SWEEP.json and in a byte-identical local raw copy. This is not a new search or a scientific rerun."
 }
