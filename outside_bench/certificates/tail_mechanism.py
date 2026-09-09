@@ -25,6 +25,15 @@ exactly the reciprocal of the factor in E(q).  So:
 F_K is an INVERSION of the Habiro/cyclotomic expansion (the "inverted Habiro series" of the
 literature), so its stable head carries 1/Phi_K where the colored Jones tail carries Phi_K.
 
+  [NOTE ADDED 2026-09-09 -- memo 185.  That sentence is a MOTIVATION here, not a verified
+   input, and it must be read narrowly.  certificates/cyclotomic_vs_fk.py shows by exact
+   computation that the NAIVE identification is false: C_{4_1}(x,q) is not a power series in
+   (x,q) at all, and on the trefoil, where it is, C_K is not f_K up to any monomial.  What
+   survives is the non-naive "inverted Habiro series" of Park arXiv:2106.03942, which this
+   bench does not have (fetch item B2).  NOTHING BELOW DEPENDS ON THAT SENTENCE: the
+   mechanism c_edge(K) = c_eff(1/Phi_K) is stated as a mechanism to be tested, and the
+   computations in this file are eq (166) and (q;q)_inf, neither of which uses it.]
+
 THE MECHANISM, STATED SO IT CAN BE WRONG:
 
      c_edge(K)  =  c_eff( 1 / Phi_K(q) ),   Phi_K = the colored Jones tail,

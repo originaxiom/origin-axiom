@@ -658,3 +658,26 @@ Written before the file exists, so the reading is not chosen after seeing it:
 * **It does not annihilate `F⁺` either** → the defect is **older and further upstream than Park**,
   and the printed coefficients the certificate reports localise where. That is a different and
   larger finding, and it is not a disappointment.
+
+---
+
+## ADDENDUM 7 (2026-09-09) — **the cyclotomic route past `f₅` is closed, and it is closed by computation**
+
+Addendum 4 named the blocker: the reduced quantum trace yields `f_0 … f_5` for `m(5₂)` and the
+sequential single-index fit past `f_5` **cannot close**, because `δ_d` determines only
+`U_d(0) = Σ_i c_{i,d}Q^i` and not the five `c_{i,d}` separately.
+
+A candidate way around it was floated this session — solve Habiro's cyclotomic coefficients
+`C_0 … C_{n−1}` triangularly out of `J_1 … J_n`, then read `f_j` off them. **It is withdrawn.**
+`certificates/cyclotomic_vs_fk.py` (memo 185) resolves both preregistered cells to B:
+
+* on `4₁`, the single monomial `x⁰q⁰` of `C_K(x,q)` receives unboundedly many, unboundedly
+  large contributions (`+1, 0, +2, −2, +8, −16, +52, −152, … , −2407538` at `m = 0…15`), so
+  `C_K` is **not a Laurent power series** and nothing can be read off it term by term;
+* on `3₁`, where `C_K` **is** a series, `C_K ≠ λ x^A q^B f_K` for any `λ, A, B` — `f_K`'s
+  nonzero coefficients all have absolute value `1/2`, `C_K`'s take 32 distinct absolute values
+  in 35 orders.
+
+**So addendum 4's blocker stands.** What is *not* closed: Park's non-naive *inverted* Habiro
+series (arXiv:2106.03942, fetch item B2, not held here). That is the named follow-up, ranked
+below the quantum A-polynomial data of `fetch/FETCH_REQUEST_CEFF.md` §B''.

@@ -1,0 +1,89 @@
+==============================================================================
+CONTROLS
+==============================================================================
+   C1  J_{3_1^l,2} from eq (20) = +1 q^1 +1 q^3 -1 q^4   (cited: q + q^3 - q^4)
+   C2  eq (20) with C_m = (-1)^m q^{-m(m+1)/2} equals GM eq (166) at n = 1..8 : True
+   C2b eq (166) at n=2 = +1 q^-2 -1 q^-1 +1 q^0 -1 q^1 +1 q^2
+
+==============================================================================
+CELL A  --  does C_K(x,q) converge as a series?   statistic: the coefficient of the
+            single monomial x^0 q^0, as the index m is summed
+==============================================================================
+   4_1   m= 0  contributes           +1   partial sum            +1
+   4_1   m= 1  contributes           +0   partial sum            +1
+   4_1   m= 2  contributes           +2   partial sum            +3
+   4_1   m= 3  contributes           -2   partial sum            +1
+   4_1   m= 4  contributes           +8   partial sum            +9
+   4_1   m= 5  contributes          -16   partial sum            -7
+   4_1   m= 6  contributes          +52   partial sum           +45
+   4_1   m= 7  contributes         -152   partial sum          -107
+   4_1   m= 8  contributes         +484   partial sum          +377
+   4_1   m= 9  contributes        -1536   partial sum         -1159
+   4_1   m=10  contributes        +5064   partial sum         +3905
+   4_1   m=11  contributes       -16946   partial sum        -13041
+   4_1   m=12  contributes       +57528   partial sum        +44487
+   4_1   m=13  contributes      -197616   partial sum       -153129
+   4_1   m=14  contributes      +686588   partial sum       +533459
+   4_1   m=15  contributes     -2407538   partial sum      -1874079
+
+   partial sums do NOT stabilise; |contribution| grows without bound.
+   CELL A  ->  OUTCOME B : C_{4_1}(x,q) is not a Laurent power series in (x,q).
+               A single monomial receives unboundedly many unboundedly large
+               contributions.  This is GM's stated structural reason, computed.
+
+   C3 (control)  the SAME detector on the trefoil, C_m = q^m :
+      contributions by m : [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      partial sums       : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+==============================================================================
+CELL B  --  3_1, where CELL A's obstruction is absent:  C_K  vs  f_K
+==============================================================================
+   C_{3_1^l}, coefficient of x^0, by q-order 0..34 :
+       [1, 1, 1, 2, 2, 4, 5, 7, 10, 13, 17, 24, 31, 40, 53, 69, 88, 113, 144, 183, 231, 290, 362, 453, 563, 696, 859, 1058, 1296, 1587, 1935, 2354, 2856, 3458, 4175]
+
+   f_K for T(2,3), coefficient of x^0 : support is sparse,
+      first exponents (by distance from 0) ['1', '2', '3', '6', '8', '13', '16', '23', '27', '36', '41', '52']
+      the SET of absolute values of its nonzero coefficients : ['1/2']
+
+   f_K for T(2,-3) = the mirror, coefficient of x^0 : support is sparse,
+      first exponents (by distance from 0) ['-1', '-2', '-3', '-6', '-8', '-13', '-16', '-23', '-27', '-36', '-41', '-52']
+      the SET of absolute values of its nonzero coefficients : ['1/2']
+
+   the SET of absolute values of C_{3_1^l}'s x^0 coefficients : [1, 2, 4, 5, 7, 10, 13, 17, 24, 31, 40, 53] ...
+
+   If C_K = lambda * x^A q^B * f_K, then every nonzero coefficient of C_K is
+   |lambda|/2 in absolute value -- ONE value.  C_K's x^0 coefficients already take
+   32 distinct absolute values in the first 35 orders.
+   CELL B  ->  OUTCOME B : no lambda, A, B exists.  The identification is false.
+   It fails for BOTH chiralities of f_K and therefore for either q-orientation.
+
+==============================================================================
+CONTROLS AND CELLS
+==============================================================================
+   C1 eq(20)+eq(24) -> Jones(3_1^l) at n=2, and J_1 = 1             PASSED
+   C2 eq(20) with C_m(4_1) = (-1)^m q^{-m(m+1)/2} == GM eq (166), n = 1..8 PASSED
+   C2b eq (166) at n = 2 is the classical Jones polynomial of 4_1   PASSED
+   CELL A resolved to B by computation (not by citation)            PASSED
+   C3 detector returns FINITE on 3_1 (it is not a machine that always diverges) PASSED
+   CELL B resolved to B by computation                              PASSED
+
+VERDICT.  The naive cyclotomic route to f_K is closed at both places it could be open.
+On 4_1 the object C_K is not a series at all, so nothing can be read off it term by term.
+On 3_1, where C_K IS a series, it is not f_K up to any monomial.  GM's sentence is
+therefore not merely an author's expectation this bench had to take on trust (R80-1) --
+it is a computed fact here.
+
+CONSEQUENCE FOR THE COLORED JONES TABLES.  A table of J_{K,n} for n = 1..60 does NOT
+unblock f_6 and beyond (memo 183 addendum 4).  The three other reasons to want it are
+untouched: memo 184's stability fence goes from 8 coefficients to ~60; the tables for
+K_{-1} = 4_1 and K_1 = 3_1 are free controls against eq (166) and eq (24); and memo 184
+addendum 1's family goes from 4 knots to 30.
+
+CONVENTION NOTE, RECORDED BECAUSE IT WILL BITE AGAIN.  "The cyclotomic coefficients of 4_1
+are all 1" is true in the basis prod_{j=1..m} (q^N + q^{-N} - q^j - q^{-j}) -- the form used
+in certificates/c2_habiro.py, where it is anchored against the classical Jones polynomial.
+In GM's eq (20) basis (q^{n+1})_m (q^{1-n})_m the same knot has
+C_m = (-1)^m q^{-m(m+1)/2}, because
+   (q^{n+1})_m (q^{1-n})_m = (-1)^m q^{m(m+1)/2} prod_{j=1..m} (q^n + q^{-n} - q^j - q^{-j}).
+Both are checked above.  The two are not in conflict; they are different bases, and the
+q-valuation of C_m -- which is what decides CELL A -- differs between them.

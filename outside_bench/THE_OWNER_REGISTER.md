@@ -1559,3 +1559,47 @@ owner can run **without trusting this bench**: the correct operator must make
 > **There is no outcome in which this is wasted.** If the primary source differs from eq (32), the
 > erratum is confirmed and the repair is *handed over* rather than fitted. If it agrees, the defect
 > is older and further upstream than Park — a different and larger finding.
+
+---
+
+## ADDENDUM 84 (2026-09-09) — **R84: "how to download them all at once?"**
+
+**What was asked.** With the twist-knot data page pasted in: a way to pull
+`CJTwist.-14.txt.gz … CJTwist.15.txt.gz` — the colored Jones polynomial `J_{K_p,n}(q)` for
+`n = 1…60` of the twist knots `K_p`, `p = −14…15`, with `K_0 = U`, `K_{−1} = 4₁`, `K_1 = 3₁`,
+`K_{−2} = 6₁`, `K_2 = 5₂`, `K_{−3} = 8₁`, `K_3 = 7₂` — in one go.
+
+**Answered with two commands** (a `curl -fOL` loop over `seq -14 15`, and a `wget -r -np -nH
+--cut-dirs=3 -A "*.gz,*.txt"` mirror of the directory), with the size warning and the priority
+subset `p = 2, −1, 1, −2, 3, −3`.
+
+**The correction this register row exists to record.** Four reasons were given for wanting the
+table. The fourth was flagged *"untested, not promised"*: that solving Habiro's cyclotomic
+coefficients `C_0 … C_59` triangularly out of `J_1 … J_60` would route to `f_j` past `f_5` and
+so break memo 183 addendum 4's blocker. **It is withdrawn**, and not on anyone's say-so:
+memo 185 / `certificates/cyclotomic_vs_fk.py` resolves both preregistered cells to B by exact
+computation. `C_{4₁}(x,q)` is not a power series at all; on `3₁`, where it is, it is not `f_K`
+up to any monomial.
+
+**What this changes for the owner's priorities, concretely.**
+
+1. **The colored Jones tables do NOT decide anything about `f₆` and beyond.** They remain
+   worth having for three reasons that were never in doubt: memo 184's stability fence goes
+   from 7 stabilised coefficients to ~60; `K_{−1} = 4₁` and `K_1 = 3₁` are *free controls*
+   (checkable against GM eq (166) and eq (24), both now implemented and passing here) so the
+   tables can be trusted before anything is claimed from them; and memo 184 addendum 1's
+   family goes from 4 knots to 30.
+2. **The item that decides the erratum is still the quantum A-polynomial data**,
+   `fetch/FETCH_REQUEST_CEFF.md` §B'' — Garoufalidis–Sun `twist.knot.data` operator files, not
+   the `CJTwist.*` series files, on the same page.
+3. **A third item now has a name and a rank**: Park, *"Inverted state sums, inverted Habiro
+   series, and indefinite theta functions"*, arXiv:2106.03942 — fetch item **B2**, already
+   tracked before this session. The *non-naive* inversion is untouched by memo 185 and is the
+   only surviving route of this kind. **Rank: below the A-polynomial data, above the CJ
+   tables.**
+
+**Register discipline note.** R80-1 is usually invoked to stop an author's expectation from
+downgrading something this bench computed. Here it ran the other way: it stopped GM's contrary
+sentence from being either believed or waved off, and forced the test. Same rule, both
+directions. Cost of catching it: one certificate, same session, before any download was
+prioritised on it.
