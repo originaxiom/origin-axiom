@@ -176,3 +176,102 @@ is solid. Flagged rather than smoothed.
 python3 certificates/tail_52.py          # ~6 min; C1, C2, C3 must all fire
 python3 certificates/park_large_color.py 12 4 5    # the blocks used in section 3's table
 ```
+
+---
+
+# ADDENDUM 1 (2026-09-09) — **THE FALSE THETA IS THE TAIL OF A FAMILY**, and one member of it is the unknot
+
+**Certificate** `certificates/tail_family.py` · **Output** `outputs/tail_family_out.txt`
+
+**Already-banked check (memo 153).** Terms searched: `twist knot family`, `colored jones tail`,
+`false theta`, `unknot control`, `double twist`. The hits returned are origin-axiom arcs matching
+`family` and `closing` lexically, none of them about knot tails. Nothing here is a MISSING/OPEN
+claim in any case — it is a positive computation extending §2.
+
+## 1. What §2 left open
+
+Memo 184 §2 observed that `Φ = Σ_{k≥0}(−1)^k q^{k(k+1)/2}` is also Park's printed first non-zero
+block, for `m(5₂)` **and** for `m(7₃)`, and said so as *"an observation on two knots, not a
+claim"* — noting it fails for `4₁`. Two knots is not a family, and both were knots Park prints.
+
+**Park's own braid presentations put them in one 3-strand family**, which costs nothing new:
+
+```
+   beta_m = sigma_2^{-(2m-1)} sigma_1^{-1} sigma_2 sigma_1^{-1}
+      m = 2  ->  m(5_2)     [Park section 5.1.1]
+      m = 3  ->  m(7_3)     [Park section 5.1.2]
+```
+
+So `m = 1` and `m = 4` are reachable with exactly the machinery §1 used.
+
+## 2. The family, identified from its own Jones polynomials
+
+| `m` | braid | determinant | `J_2` |
+|---|---|---|---|
+| 1 | `σ₂^{−1}σ₁^{−1}σ₂σ₁^{−1}` | **1** | `1` |
+| 2 | `σ₂^{−3}…` | **7** = det(`5₂`) | `q − q² + 2q³ − q⁴ + q⁵ − q⁶` |
+| 3 | `σ₂^{−5}…` | **13** = det(`7₃`) | `q²(1,−1,2,−2,3,−2,1,−1)` |
+| 4 | `σ₂^{−7}…` | **19** | `q³(1,−1,2,−2,3,−3,3,−2,1,−1)` |
+
+Determinants `1, 7, 13, 19`, and `7` and `13` are `det(5₂)` and `det(7₃)` — which is how Park
+names the `m = 2` and `m = 3` braids. **The family is identified, not assumed.**
+
+## 3. The result, and a control the family gives free
+
+```
+   m = 1  (the UNKNOT)     tail = 1        -- the trivial series
+   m = 2, 3, 4             tail = Phi      -- the same false theta, on every
+                                              stabilised coefficient
+```
+
+> ### The false theta is not a coincidence of two knots. It is the tail of the whole family — and `m = 4` is a knot nobody prints.
+
+**`m = 1` is a control I did not have to construct.** The family's first member closes to the
+**unknot**, and the same code returns the trivial series `1` for it. So the method does not
+manufacture a false theta out of nothing — which is the obvious way this result could have been
+an artefact, and it is excluded by the family's own arithmetic rather than by an added test.
+
+## 4. What it does to memo 184 §3's preregistered cell
+
+`1/Φ` has a pole inside the unit disc (§3 of the memo), so `c_eff(1/Φ) = ∞`. Under memo 177
+addendum 4's mechanism `c_edge(K) = c_eff(1/Φ_K)`:
+
+> **OUTCOME A now says that every member of an infinite family of hyperbolic knots has no finite
+> ceiling on `c_eff`** — not one knot, a family.
+
+The declared prior was **B**, and a whole family with unbounded `c_eff` is harder to believe than
+a single knot, so this pushes the same way. **The cell is not decided** — deciding it still needs
+`c_eff` for these knots' surgeries, which is behind memo 183's repair.
+
+## 5. What I tried and could not settle
+
+§2's stronger observation — that the tail **is** the first non-zero block — makes a prediction for
+`m = 4`: its first non-zero block should be `−q^{−3}Φ`, following `−q^{−1}Φ` for `m(5₂)` and
+`−q^{−2}Φ` for `m(7₃)`. I ran the large color `R`-matrix on the ten-crossing braid to test it.
+
+**Inconclusive, and recorded as such.** At the weight cutoffs this bench reaches, that braid's
+blocks are nowhere near converged — the six-crossing `m(5₂)` braid needed cutoff 16 for `f_4`.
+The first non-zero block came out as `f_2` starting at `q^{+3}`, which would *contradict* the
+prediction, but after memo 183 addendum 1 §5 — a block **stable across eight strata and wrong** —
+an unconverged block is not evidence in either direction. **The cost is named so it is not
+cheaply repeated:** it needs a weight cutoff well past 16 on a ten-crossing braid.
+
+## 6. A performance fix, with its own controls re-run
+
+`certificates/park_rmatrix_check.py` rebuilt the `R`-matrix **and re-inverted it symbolically on
+every single call** — sixteen times over this computation. It now memoises both, keyed by colour.
+**Its own controls were re-run and are unchanged**: the braid relation at `n = 2,3,4`, the trefoil
+against Habiro, and the figure-eight against GM eq (166). This is what made §2–§3 affordable, and
+it speeds `tail_52.py` on the same path.
+
+## 7. Fences
+
+* The stabilised prefix per knot is the one the certificate prints; nothing beyond it is used. A
+  series agreeing with `1 − q + q³ − q⁶` in that many coefficients and differing later is not
+  excluded by this alone. For `m(5₂)` and `m(7₃)` the exact coincidence with Park's printed blocks
+  is what makes it more (§2); for `m = 4` nobody prints anything, so that knot rests on the
+  stabilisation alone.
+* **Which end** is the right one is memo 177 addendum 7's surviving, **unverified** candidate rule.
+  This certificate uses it, as §1 did, and does not test it.
+* `m = 4` is identified here only by its determinant and Jones polynomial. No census name is
+  claimed for it.

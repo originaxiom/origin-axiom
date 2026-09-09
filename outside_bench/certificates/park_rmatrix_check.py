@@ -86,7 +86,12 @@ def parkR(n):
                 key=(i+2*k,j-2*k)
                 out.setdefault((i,j),{}); out[(i,j)][key]=add(out[(i,j)].get(key,{}),c)
     return out
+_CHECK={}
 def check(n):
+    if n in _CHECK: return _CHECK[n]
+    _CHECK[n]=_check(n)
+    return _CHECK[n]
+def _check(n):
     R=parkR(n); W=[1-n+2*t for t in range(n)]
     Rb={}
     for (i,j),d in R.items():
@@ -111,8 +116,12 @@ for n in (2,3,4):
     Rb,ok=check(n)
     print("Park eq (10), n=%d: braid relation holds: %s"%(n,ok))
 
+_RINV={}
 def cj(n, word, m, reduced=True):
     Rb,ok=check(n); assert ok
+    if n in _RINV:
+        Rinv=_RINV[n]
+        return _cj_run(n, word, m, reduced, Rb, Rinv)
     Rinv={}
     # invert Rcheck per total-weight block using sympy
     import sympy as sp, itertools
@@ -132,6 +141,11 @@ def cj(n, word, m, reduced=True):
                 d={}
                 for (e,),co in pn.terms(): d[int(e)-400]=Fr(int(sp.Rational(co).p),int(sp.Rational(co).q))
                 Rinv.setdefault(a,{})[b]={e:v for e,v in d.items() if v}
+    _RINV[n]=Rinv
+    return _cj_run(n, word, m, reduced, Rb, Rinv)
+def _cj_run(n, word, m, reduced, Rb, Rinv):
+    import itertools
+    W=[1-n+2*t for t in range(n)]
     def app(v,p,MM):
         out={}
         for st,co in v.items():
