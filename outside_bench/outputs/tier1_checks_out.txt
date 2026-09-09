@@ -1,0 +1,9 @@
+GM section 10.2      c = -6*p + 13 - 6/p
+CCFGH eq (3.9)       c = -6*p + 13 - 6/p
+identical            : True
+
+Sigma(2, 3, 5) : p = b1 b2 b3 = 30 ; CCFGH Table 3 gives m = 30
+Sigma(2, 3, 7) : p = b1 b2 b3 = 42 ; CCFGH Table 3 gives m = 42
+
+memo 191 used p = 30 (Sigma(2,3,5)) and p = 66 (Sigma(2,3,11)).
+Table 3 confirms 30 directly; 66 follows the same b1b2b3 rule.
