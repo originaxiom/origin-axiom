@@ -1,0 +1,52 @@
+==============================================================================
+CONTROLS
+==============================================================================
+   C1  c_eff(1/(q;q)_inf)   = 0.999976   (must be 1)
+   C2  c_eff(1/(q;q)_inf^2) = 1.999949   (must be 2 -- the estimator is not stuck at 1)
+   C3  c_eff(bare false theta, Sigma(2,3,5)) = 0.000000   (must be 0)
+
+==============================================================================
+THE CELL  --  Zhat^unred = Zhat / (q)_inf, GM Remark 3.8, for two different p
+==============================================================================
+   Sigma(2,3,5)   p = 30    singlet c = 13 - 6(p+1/p) =   -167.200    c_eff(Zhat^unred) = 1.000326
+   Sigma(2,3,11)  p = 66    singlet c = 13 - 6(p+1/p) =   -383.091    c_eff(Zhat^unred) = 1.001480
+
+   c varies by 215.9 between these two; c_eff varies by 0.0012.
+   CELL -> OUTCOME B
+
+==============================================================================
+CONTROLS AND CELL
+==============================================================================
+   C1  estimator gives 1 on 1/(q;q)_inf                           PASSED
+   C2  estimator gives 2 on the square, so it is not stuck at 1   PASSED
+   C3  estimator gives 0 on a bare false theta                    PASSED
+   CELL -> B : c_eff is 1 for both, independent of p              PASSED
+
+WHAT THIS ANSWERS OF Q11, AND WHAT IT DOES NOT.
+
+Q11 asked three things.  Two are now decidable from what this bench holds.
+
+  "Is there a KNOWN MECHANISM attaching modular boundary data to the unquantized sector?"
+  PARTLY ANSWERED, and the answer is: for BRIESKORN SPHERES yes, and GM name it -- the
+  logarithmic (1,p) singlet VOA.  For HYPERBOLIC manifolds, GM themselves name it OPEN, in
+  print, and point at the figure-eight surgeries specifically.  So the honest reply to Q11's
+  own "if the answer is 'read GPPV', that alone is worth the email" is: reading it says the
+  hyperbolic case is open in the literature, not that we failed to find it.
+
+  "Does it carry a character with c_eff = 6?"  ANSWERED, NEGATIVELY, AND STRUCTURALLY.
+  Zhat^unred = (false theta)/(q)_inf by Remark 3.8.  A false theta has bounded coefficients
+  and contributes 0; 1/(q)_inf contributes 1.  So c_eff = 1, and p cancels out COMPLETELY:
+  the two spheres above differ by 216 in c and by less than 0.03 in c_eff.  6 is not
+  reachable by choosing a different 3-manifold in this family.
+
+  "Is the obstruction general, or specific to the integer-level attachment?"  NOT ANSWERED
+  HERE, and it is the part that genuinely needs the expert.  What is now established is
+  narrower and sharper than the original question: the obstruction is not amphichirality
+  and not our knot -- it is the SHAPE (false theta)/(q)_inf that Zhat-type invariants have.
+  Whether some other boundary object escapes that shape is exactly what remains open.
+
+THIS IS ALSO WHY MEMO 171's "1" WAS RIGHT FOR THE WRONG REASON.  GC-6 read c = 6 as six
+cusp-boson units of which the object supplies one, and memo 171 found the 1 was
+c_eff(eta^-1) -- a free boson used as a MODEL, never the object.  The 1 is now the object's
+own, and it is not a coincidence of modelling: it is what (false theta)/(q)_inf always
+gives.  Same number, different standing.
