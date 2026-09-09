@@ -265,3 +265,85 @@ at one slope, and CELL A of the main memo already showed that `C_K` is not even 
 term. **What it adds is a precise account of *why* the naive route looks tempting**: on the one
 knot and the one slope where everything converges, it gets the whole interesting part right and
 loses exactly the constant.
+
+---
+
+## ADDENDUM 2 (2026-09-09) — **why GM's §7.4 near-miss happened at the Poincaré sphere and nowhere else**: `C_K` converges for half the twist knots and diverges for the other half, and the split is the **sign of `p`**
+
+**Certificate** `certificates/cyclotomic_valuation.py` · **Output** `outputs/cyclotomic_valuation_out.txt`
+**Data** `data/cyclotomic_twist.json` (`C_0…C_12` and `J_1…J_7` for four knots, with provenance)
+**Gate 5** exact integer arithmetic. No fitted constant, no measured value.
+
+CELL A of the main memo resolved to B on `4₁`, and CELL B to B on `3₁`. One knot each way, and
+no account of which is which. Addendum 1 then found GM's §7.4 near-miss at the Poincaré sphere.
+**Those two facts turn out to be the same fact.**
+
+### The computation
+
+Habiro's `C_m` are solved triangularly out of the colored Jones polynomials through GM eq (20)
+— `(q^{n+1})_m (q^{1−n})_m` vanishes for `m ≥ n`, so `J_{n+1}` determines `C_n` once `C_0…C_{n−1}`
+are known — on memo 186's four identified tables. Every division is exact in `ℤ[q,q^{−1}]`, and
+that is **proved here by a round trip**, not asserted: the extracted `C_m` are pushed back
+through eq (20) and must rebuild the tables' own `J_1…J_7`, for all four knots. They do.
+
+### The split
+
+```
+knot   p     min q-valuation of C_m,  m = 0 .. 12
+3_1   +1     0  1  2  3  4  5  6  7  8  9 10 11 12
+9_2   +4     0  1  2  3  4  5  6  7  8  9 10 11 12
+4_1   -1     0 -1 -3 -6 -10 -15 -21 -28 -36 -45 -55 -66 -78
+6_1   -2     0 -3 -9 -18 -30 -45 -63 -84 -108 -135 -165 -198 -234
+```
+
+Measured exactly on every `m = 0…12`:
+
+```
+p > 0 :   val C_m  =  m
+p < 0 :   val C_m  =  -(2|p| - 1) · m(m+1)/2
+```
+
+**CELL → OUTCOME B.** The convergence of `C_K` is a property of the **knot**, not of the
+construction, and the deciding property is the **sign of the twist parameter**.
+
+**The divergence is checked directly, not inferred** (control C4). A valuation falling to `−∞`
+is only a *necessary* condition — cancellation could still save it. So the actual contribution
+of each index `m` to the single monomial `x⁰q⁰` is computed for all four knots: it blows up for
+`4₁` and `6₁`, and is zero for every `m ≥ 1` for `3₁` and `9₂`.
+
+### What it explains
+
+GM §7.4: *"we get the right answer for the −1 surgery (the case of the Poincaré sphere), but not
+for other surgeries."* **The Poincaré sphere is `−1` surgery on the trefoil, and the trefoil has
+`p = +1`.** The near-miss did not happen at a random place — it happened at one of the only
+places in this family where the object being fed into the surgery formula **exists at all**.
+(Addendum 1 then showed that even there it is off by exactly one additive monomial.)
+
+### What it sharpens, and what it does not say
+
+CELL A's wording could be read as *"`C_K` never converges"*. **It is not that.** Convergence
+fails for `p < 0` and holds for `p > 0`, and where it fails the rate is quantitative —
+`−(2|p|−1)·m(m+1)/2`, so it fails **faster the more the knot is twisted**.
+
+**For `p > 0` the naive route is therefore not blocked by convergence.** It is still blocked —
+CELL B showed `C_K ≠ λ x^A q^B f_K` on `3₁` — but *that cell has been run on one positive knot*,
+because `f_K` is known in closed form there (GM Thm 1.3) and is not known for `9₂`. Stated so it
+is not overread.
+
+### Controls
+
+| | control | result |
+|---|---|---|
+| C1 | `3₁` comes out as **GM eq (24)'s printed** `C_m = q^m`, a single monomial, `m = 0…12` | PASSED |
+| C2 | `4₁` comes out as `C_m = (−1)^m q^{−m(m+1)/2}` — which the main memo derived by a **different route**, from GM eq (166), with no table involved | PASSED |
+| C3 | **round trip**: the extracted `C_m` rebuild `J_1…J_7` through eq (20), four knots | PASSED |
+| C4 | the divergence checked directly at `x⁰q⁰`, and the convergence too | PASSED |
+
+C2 is two independent derivations meeting on the same answer.
+
+### A falsifiable prediction, banked before the file arrives
+
+**`5₂ = K_2` has `p = +2`. The prediction is `val C_m(5₂) = m` for every `m`, and `C_K(5₂)` a
+genuine power series.** Its opposite-sign partner `6₁ = K_{−2}` gives `−3·m(m+1)/2`, measured
+above. `CJTwist.2` is the file memo 186 **F186-1** asks for and did not receive; when it arrives
+this is decided in one run. Present support: two knots each side, `m = 0…12`.
