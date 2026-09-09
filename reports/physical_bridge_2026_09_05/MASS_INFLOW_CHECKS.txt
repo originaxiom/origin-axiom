@@ -1,0 +1,13 @@
+Environment prefixes redacted; remaining first stdout preserved.
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_mass_inflow.py tests/test_physical_bridge_geometric_completion.py tests/test_physical_bridge_anomaly_completion.py tests/test_physical_bridge_anomaly_action_control.py tests/test_physical_bridge_holonomy_spectrum.py tests/test_physical_bridge_holonomy_equivariance_word_control.py tests/test_physical_bridge_weighted_cohomology.py -q -p no:randomly --tb=short
+Exit code: 0
+
+........................................................................ [ 82%]
+...............                                                          [100%]
+=============================== warnings summary ===============================
+tests/test_physical_bridge_holonomy_spectrum.py::test_actual_presentation_asphericity_hypotheses_and_power_mutants
+  <USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+87 passed, 1 warning in 39.84s
