@@ -360,3 +360,7 @@ is unfalsifiable by construction; termination's two undisclosed fences are state
 has a bibliography** (13 entries) where it had none.
 
 **Thirteen pages.** Five adversarial passes have now produced 25 repairs. The rate is not falling.
+
+## STATUS (2026-09-09) — THE PAPER REFLECTS THE MOST RECENT STATE
+
+S7 and S8 of the submission campaign landed: the chirality campaign is in the paper (\S The chirality bit; the chain at 54 links with C47–C54; abstract, non-claims, falsifiers, wall, recognition updated; six citations added where leaned on; the provenance appendix at 30 claims), and the verification package exists (`verification_package/`). 25 pages. Owner-gated placeholders unchanged: author block, venue, DOI snapshot, the send.

@@ -47,7 +47,7 @@ CLAIMS = [
         ["B993"], "settled"),
  ("2.1","seven genesis forks: five robust or geometry-necessary, two fragile and named",
         ["B1003"], "settled"),
- ("3",  "the chain is 43 links, 39 of them forced; axioms only at the two ends",
+ ("3",  "the chain is 54 links, 50 of them forced (39 of 43 when the census instrument was first recorded); axioms only at the two ends",
         ["B1123"], "settled"),
  ("3",  "the golden substitution matrix squared is the object's monodromy (M^2 = RL)",
         ["B14"], "settled"),
@@ -71,7 +71,7 @@ CLAIMS = [
         ["B1141"], "settled"),
  ("7",  "the P^3 is closed permanently, one condition short of a point set",
         ["B1196"], "settled"),
- ("7",  "...and that closure is hardened by an independent cross-seat pass",
+ ("7",  "...and that closure is hardened by an independent second pass",
         ["B1208"], "computed"),
  ("7",  "lambda is external by theorem: the object's own clock is tracial, trivial modular flow",
         ["B721"], "settled"),
@@ -83,6 +83,24 @@ CLAIMS = [
         ["B1126"], "settled"),
  ("9",  "the mirror-isospectral split: the two hands share their spectrum exactly",
         ["B1095"], "settled"),
+ ("6",  "one cusp cannot carry three fixed points: the cusp-fixed count is even (1200 census manifolds); three needs two cusps and costs the golden face",
+        ["B1291", "B1321"], "settled"),
+ ("6",  "every fixed locus of the object counts two or nothing; on a closed closing the two needs an orientation-reversing isometry; the caveat coefficient computed",
+        ["B1294", "B1295"], "settled"),
+ ("6",  "the localized chirality count on the cyclic descent is 0 or 4",
+        ["B1320"], "settled"),
+ ("6",  "a charge locus on the mirror's fixed set is mirror-even: the F4 chamber is vector-like or anomalous, and the object supplies no charge locus; the involution's two lifts",
+        ["B1296", "B1298"], "settled"),
+ ("6",  "the one-cusped index and its two vanishing theorems: the cyclic tower is vector-like",
+        ["B1297", "B1299"], "settled"),
+ ("6",  "the last flat-sector direction carries non-self-dual representations with zero net count",
+        ["B1322"], "settled"),
+ ("6",  "the tower law (a twisted class iff a product of n 2x2 matrices is the identity); the SM closings carry three complete generations in mirror pairs; the tree-level vacuum SM x U(1)_Z' and its regime fork",
+        ["B1303", "B1306"], "settled"),
+ ("6",  "the genesis dictionary, the criterion census and the substrate fork: three records buy the plastic number and the silver world",
+        ["B1323"], "settled"),
+ ("6",  "the mirror is swap times arrow on every knot complement; 66 of the 87 covers to degree 10 are chiral and keep the arithmetic",
+        ["B1324"], "settled"),
 ]
 
 
@@ -207,7 +225,8 @@ Two kinds of backing appear, and we distinguish them rather than letting one pas
 \textbf{Settled} means the establishing result is itself closed --- proved, or a negative --- and
 the claim rides on that. \textbf{Computed} means the establishing work sits inside an enquiry whose
 \emph{own} wider question remains open, while the specific computation the claim uses was
-re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled.
+re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled. ``Settled'' follows the record's own grading, which admits high-precision numerical certificates with stated
+precision and controls; it is not a claim of formal proof, and the establishing record states which kind it is.
 
 Every row is covered by an automated check that runs with the rest of the test suite. The table
 below is \emph{generated} from that check rather than written by hand, and the check is itself
@@ -226,12 +245,17 @@ independent re-derivation.
 
 \smallskip
 \noindent\textbf{Where to find them.} The records, scripts and test locks referred to here are in
-the public repository \texttt{github.com/originaxiom/origin-axiom} (mirror:
-\texttt{codeberg.org/originaxiom/origin-axiom}). A ``script'' is a \texttt{verification/reproduce.sh}
-inside the named record; a ``lock'' is a file under \texttt{tests/} that runs with the suite.
+the public repository \url{github.com/originaxiom/origin-axiom} (mirror:
+\url{codeberg.org/originaxiom/origin-axiom}). A ``script'' is a \texttt{verification/reproduce.sh}
+inside the named record; a ``lock'' is a file under \texttt{tests/} that runs with the suite. The
+verification package \url{papers/P3_THE_PAPER/verification_package/} carries this table as a machine-readable
+manifest (every claim, its records, their seals, scripts and locks) with a one-command runner; its README says
+what it certifies and what it does not.
 """)
-        print(r"\begin{center}\small\begin{tabular}{@{}clll@{}}\toprule")
-        print(r"\textbf{Claim} & \textbf{Backing} & \textbf{Re-runs by} \\ \midrule")
+        print(r"\begingroup\small\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}")
+        print(r"\begin{longtable}{@{}p{9.2cm}p{2.9cm}p{2.0cm}@{}}\toprule")
+        print(r"\textbf{Claim} & \textbf{Backing} & \textbf{Re-runs by} \\ \midrule \endhead")
+        print(r"\bottomrule \endfoot")
         seen, n_rows, n_computed = set(), 0, 0
         for sec, claim, aid, verdict, repro, settled, locks, support in rows:
             if claim in seen:
@@ -243,7 +267,7 @@ inside the named record; a ``lock'' is a file under \texttt{tests/} that runs wi
             b = "settled" if support == "settled" else "computed (enquiry open)"
             how = "script + lock" if repro else "lock"
             print(f"{c} & {b} & {how} \\\\")
-        print(r"\bottomrule\end{tabular}\end{center}")
+        print(r"\end{longtable}\endgroup")
         print(rf"""
 \noindent\footnotesize All {n_rows} claims below (over {len(rows)} claim--record pairs) carry a test lock; {n_repro} additionally
 ship a standalone re-running script. Nothing in this table is asserted by the appendix itself: each

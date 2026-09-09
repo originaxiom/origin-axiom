@@ -21,8 +21,11 @@ def test_selftest_passes():
 def test_ten_rows_reduce_to_seven_sources():
     S = _mod()
     un, edges, groups = S.sources()
-    assert len(un) == 12 and len(groups) == 8   # B1296 (2026-09-07) registered I-27, an eighth source; B1298 (2026-09-08) I-28 joins it
-    assert S.AXIOMS + len(groups) == 12
+    import json
+    b = json.loads((ROOT / "docs" / "IDENTIFICATION_BASELINE.json").read_text(encoding="utf-8"))
+    assert len(un) == b["unearned"]            # the rows are the ratchet's rows (14 on 2026-09-09: I-27, I-28, I-29, I-30 since B1266)
+    assert len(groups) == 8                    # the irreducible sources: I-27 was the eighth (B1296); I-28, I-29, I-30 are instances (of I-27, I-13, I-27)
+    assert S.AXIOMS + len(groups) == 12        # the price against the SM's 19
 
 
 def test_the_fork_cycle_is_one_source_not_two():

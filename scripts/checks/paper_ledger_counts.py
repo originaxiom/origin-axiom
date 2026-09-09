@@ -22,8 +22,12 @@ WORDS = {2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "e
 
 def counts(text=None):
     s = text if text is not None else io.open(PAPER, encoding="utf-8").read()
+    # the FREEDOM LEDGER's longtable is the one whose header is Input / Type / Status -- selected by header, not by
+    # position (2026-09-09: the provenance appendix became a longtable too, so "the last longtable" stopped being the ledger)
     starts = [m.start() for m in re.finditer(r"\\begin\{longtable\}", s)]
-    tab = s[starts[-1]:s.index("\\end{longtable}", starts[-1])]
+    tabs = [s[a:s.index("\\end{longtable}", a)] for a in starts]
+    ledger = [tb for tb in tabs if "\\textbf{Input} & \\textbf{Type} & \\textbf{Status}" in tb]
+    tab = ledger[-1] if ledger else tabs[-1]
     types = re.findall(r"&\s*((?:continuous|one |finite|\$\\leq 3\$ continuous|dimensionful)[^&]{0,40}?)\s*&", tab)
     # "dimensionful unit" is the ell row: EXTERNAL BY DESIGN, not a non-continuous ledger row (B1237: the
     # first draft of this tool counted it and reported 7 vs the prose's six -- the tool was wrong, not the paper).

@@ -62,6 +62,20 @@ def links():
     return sorted(out)
 
 
+def strip_internal(s):
+    """the paper's body names no internal identifiers: drop record numbers, error classes, review items, dates and
+    process words from a link title before it is typeset (the audit output keeps the raw title)."""
+    s = re.sub(r";\s*R\d+-\d+,\s*owner-opened", "", s)
+    s = re.sub(r";\s*FIRST SUB-STRUCTURE PRICED \d{4}-\d{2}-\d{2}", "", s)
+    s = re.sub(r";\s*SCOPE-CORRECTED same-day\s*\(B\d+\)", "", s)
+    s = re.sub(r",?\s*conventions named per E\d+", ", conventions named", s)
+    s = re.sub(r"closes the door C\d+ opened", "closes an earlier door", s)
+    s = re.sub(r"\s*\((?:B|E|R|C)\d+(?:-\d+)?\)", "", s)
+    s = re.sub(r"\b(?:B|E)\d{2,4}\b", "", s)
+    s = re.sub(r"\d{4}-\d{2}-\d{2}", "", s)
+    s = re.sub(r"\s+", " ", s).strip(" ;,")
+    return s
+
 def tex_escape(s):
     for k, v in ESC.items():
         s = s.replace(k, v)
@@ -91,7 +105,7 @@ if __name__ == "__main__":
     print(r"\textbf{\#} & \textbf{Type} & \textbf{Link} \\ \midrule \endhead")
     for n, typ, title in L:
         mark = r"\textbf{" + typ + "}" if typ == "AXIOM" else typ.capitalize()
-        print(f"{n} & {mark} & {tex_escape(title)} \\\\")
+        print(f"{n} & {mark} & {tex_escape(strip_internal(title))} \\\\")
     print(r"\end{longtable}\endgroup")
     print()
     tal = ", ".join(f"{v} {k.lower()}" for k, v in sorted(tally.items(), key=lambda x: -x[1]))

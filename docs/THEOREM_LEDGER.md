@@ -415,6 +415,110 @@ C44's fork, one level below it. (**No SSB mechanism is available**, B295.)
 `tests/test_b287_distinguished_closing.py`, `tests/test_b288_arithmetic_filling_census.py`,
 `tests/test_b294_selection_verdict.py`, `tests/test_b295_ssb_gauge_status.py`.
 
+**C47 [THEOREM — the parity of the cusp].** For a cusp-fixing isometry g of a one-cusped hyperbolic
+3-manifold the cusp-fixed count is |Fix| = |det(A − I)| (translation-independent), finite order in GL(2,ℤ)
+gives |Fix| ∈ {0, 1, 2, 3, 4} with **3 from (det 1, tr −1)** — and the geometry forbids it: Fix(g) is closed
+geodesics plus geodesic **lines** with two ends each, so with **one cusp** |Fix on the cusp| = 2·(#lines) is
+**even**. Verified over 1 200 one-cusped census manifolds ({(0,4): 1 196, (0,): 4}, zero odd violations; m004:
+Sym = D₄, |Fix| ∈ {0, 4}); the control fires with ≥ 2 cusps (m202 gives 1 and 3). χ(M) = χ(∂M) = 0 at ANY cusp
+count, so |Fix| = 3 and χ(∂⁺M) ≠ 0 are different quantities (B1292). The sibling m202 keeps the arithmetic face
+and **loses the golden face** (no fibration carries t² − 3t + 1); its localized count is 3 on both cusps at the
+price of one identification (I-30), and none of the six members of the three-line class to nine tetrahedra
+keeps the golden face — the count of three costs the face (B1302, B1321). — B1291, B1292, B1302, B1321.
+Locks: `tests/test_b1291_parity_of_the_cusp.py`, `tests/test_b1292_hatch_satisfiable_mis_scoped.py`,
+`tests/test_b1302_the_sibling_m202.py`, `tests/test_b1321_l205_the_siblings_localized_count.py`.
+
+**C48 [THEOREM — every fixed locus counts two or nothing].** On m004 every isometry has
+χ(Fix g) = 1 − s_μ(g) ∈ {0, 2} (arcs χ 2, the axis 0, the glides empty, two isolated interior points for the
+order-4 elements) by H₁ = ℤ⟨μ⟩ alone; on a closed rational-homology-sphere closing χ(Fix g) = 1 − deg g ∈ {0, 2}
+and **the 2 needs an orientation-reversing isometry** — an amphicheiral closing, CS ∈ {0, ½} — so a closing
+chiral in B432's sense has χ(Fix g) = 0 for every symmetry: *on a closed closing you may have the 2 or the
+c-breaking, not both* (T-CLOSED-CLOSING-COUNTS-TWO-OR-NOTHING; 360 symmetries of Y₁…Y₉ all in {2, 0}, the
+b₁ = 1 control fires {0, 4}). The caveat coefficient is computed: c₍±2,0₎ = ∓4.260982635(2) i ≠ 0, the (±2,±1)
+competitor at 7.6 % of it, every horotorus two annuli, χ(∂⁺M) = 0 by computation. Pantev–Wijnholt's localized
+count on the cyclic descent (C₃, C₄) is |det(A − I)| ∈ {0, 4}; across the 87 covers of m004 to degree 10, 968
+isometries and 1 376 cusp-fixing pairs give {0: 882, 4: 494} — no order-3 cusp rotation in the tower. Three
+appears only through the ℤ/3 descent (3 | n), and the descent is vector-like (C51). — B1294, B1295, B1320.
+Locks: `tests/test_b1294_the_chirality_bit.py`, `tests/test_b1295_the_caveat_closed_by_computation.py`,
+`tests/test_b1320_phase2_arc0_pw_count.py`.
+
+**C49 [THEOREM — the charge-locus parity lock, and the lift fork].** A charge locus (Morse–Bott zero or
+vortex) on Fix(θ) is θ-even, so θ-equivariance forces the Higgs direction into the **F₄ chamber**, whose 15
+faces are **vector-like or SU(3)-cubic-anomalous — never chiral and clean** (T-CHARGE-LOCUS-PARITY-LOCK). The
+object's own harmonic 1-form is θ-odd, swaps ∂⁺M and ∂⁻M and is **non-zero on the arcs** (ω(∂ₓ) = 1.28 / 0.72):
+**the object supplies no charge locus on Fix(θ)**. Dropping equivariance gives the programme's first chiral
+spectrum — two 16's of SO(10)×U(1), count 2 — at three closer's choices (locus, sign pair, direction: I-27).
+The geometric involution has TWO lifts to E₆, the outer θ_D (fixing F₄) and the inner Ad(exp πiρ^∨) (fixing
+A₅ ⊕ A₁, the whole Cartan); **on the geometric germ the lift is outer** (six signs ε_n(ι) = (−1)^{n/2+1} over
+two primes, the SM seat's theorem verified), so the inner lift is a closer's choice (I-28). — B1296, B1298.
+Locks: `tests/test_b1296_the_charge_locus_parity_lock.py`, `tests/test_b1298_the_lift_fork.py`.
+
+**C50 [THEOREM — the one-cusped index, and the cyclic tower is vector-like].** On a one-cusped 3-manifold
+the net chirality of a local system V is I(V) = n(V) − n(V*) = (a₀ − a₀*) + t₀* − r₁, and in domain D
+I = t₀ − r₁ (T-ONE-CUSP-INDEX; formula and domain sealed before evaluation). Two theorems make it vanish on
+the whole cyclic tower: **T-GALOIS-SELF-DUALITY** — for k = ℚ(√−3) = ℚ(ζ₃) every twist of order prime to 3 is
+vector-like by arithmetic alone, on every cover — and **T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE** — the
+period-2 symmetry P: a ↦ a⁻¹, b ↦ a³b acts as −1 on ℤ[t^±]/(t² − 3t + 1), hence on Tors H₁(C_n), so
+ψ∘P = ψ⁻¹ and every (2+1)-reducible spectral cover on the cyclic tower is vector-like: 16/16 (C₃), 45/45 (C₄),
+61 sectors, and 60 census manifolds with torsion ≥ 3 (12 non-self-dual sectors) all zero. W1/W2 are vector-like
+on every cusped cyclic cover (V ≅ τ*V* on the branch locus K; the SM seat's Theorem 1 verified), correcting
+"rigid" off K. Reported FORCED, not FAIL: the pre-registered test could not have passed. — B1297, B1299.
+Locks: `tests/test_b1297_the_spectral_cover_index.py`, `tests/test_b1299_the_period_2_duality.py`.
+
+**C51 [THEOREM — the tower law and the Standard-Model closings].** π₁(Y_n) = ⟨a, b | φⁿ(a) = a, φⁿ(b) = b⟩
+for the golden φ, so **h¹(Y_n; ψ) = 1 exactly when a product of n explicit 2×2 matrices is the identity**
+(verified by full Fox calculus at every non-trivial character of Y₃…Y₉ with two primes: supports 3, 0, 20, 27,
+56, 0, 147; det = 1 everywhere; the even-level correction at Y₂₀; Y₂₄'s 2-primary support is Y₁₂'s). The tower
+law's positive half is a theorem on two benches (T-TOWER-LAW-POSITIVE-HALF: ord_m(u) or ord_m(−u) odd ⇒ a
+class at every level). **Y₉ carries the Standard-Model gauge algebra and three complete generations** — 706 464
+SM lines in 19 624 inequivalent vacua under the group of order 72, **all in mirror pairs, vector-like**; Y₁₂ is
+a second SM closing (34 752 lines; 768 one-triplet vacua, one light generation, SM × U(1)² at tree level).
+The tree-level vacuum of Y₉'s closing leaves **SM × U(1)_Z′, rank 5**: a family-non-universal Z′ (E₆ part
+(5ψ − 3χ)/2, charges 4, −2, 10, −8, −2, plus a family part under which the VEV'd generation's N, ν^c are
+neutral), anomaly-free (the family torus's cubic −20 250 cancelled by the 27̄s), every VEV'd field Z′-neutral;
+its first consequence is a **regime fork** (FALSIFIER_REGISTER P9): M_Z′/g₂ ≳ 10²–10³ TeV if a light family is
+VEV'd, a few TeV if the third — which family it is, is a value the record does not fix. — B1303, B1306
+(the SM-derivation seat's sm:B1278–B1304 and sm:B1350, every number re-run or re-derived on main).
+Locks: `tests/test_b1303_the_sm_closings_z_prime.py`, `tests/test_b1306_the_older_debt.py`.
+
+**C52 [NO-GO — the θ-odd frame is closed on every sl₂ germ].** B1280's pairing law pairs every deformation
+of the E₆ holonomy at every sl₂ germ except one direction — the V₁₀ of the 42 at the subregular point (L204).
+Along it genuine non-self-dual E₆ representations exist (relator residuals 1e−61…1e−68 at 110 digits;
+self-duality defect ~1e−10), and at each of the four banked 100-digit points **h¹(27) = h¹(27̄) = 0, no
+cusp-fixed vector, N(27) = 0** (a perturbed point fails the relator: control). The one flat-sector direction the
+pairing left open carries no net count: **chirality on the object is not in its flat E₆ sector.** — B1322
+(the SM seat's sm:B1350 re-read on main with main's own Fox calculus). Lock: `tests/test_b1322_l204_verified.py`.
+
+**C53 [THEOREM — the genesis dictionary, the criterion census, and the substrate fork].** The Sturmian
+morphisms abelianise onto exactly the non-negative GL(2,ℤ) matrices = ⟨L, R, P⟩ (3 280 morphisms to length 7 →
+87 matrices; all 462 with entries ≤ 13 realised); the Fibonacci morphism is L·P and orientation forces
+(LP)² = LR = A while (PL)² = RL — **A7 is the placement of the swap inside the tick**; the a·B bundle is m004
+(C4 ↔ A1); the cutting sequence of A's expanding eigenline is the Fibonacci word letter for letter: **C1–C5 and
+A1–A6 are one construction in two presentations** (T-GENESIS-DICTIONARY). C2 splits into C2a [THEOREM,
+self-similarity ⇒ quadratic slope] and C2b [CRITERION, minimality ⇒ φ]: seven self-application criteria pick φ
+uniquely (Lagrange √5 with 2√2 second; the least constant quotient; the first hyperbolic trace 3 with h⁺(5) = 1;
+the torsion-free closure (1,1); the Markov root (1,1,1); discriminant 5; the smallest quadratic Pisot), and the
+smallest Pisot number of any degree is the plastic number ρ = 1.3247… — the census can fail and is seen to.
+**Fork F9 (A1's "not one, not three") ROBUST twice:** one record has no mixed closure; three records on T³ give
+E₁₂·E₃₁·E₂₃ with dilatation ρ³ and χ = 0 — no hyperbolic carrier (Gauss–Bonnet–Chern); three records on the
+surfaces with H₁ = ℤ³ give the Whitehead link complement m129 (ℚ(i), 4G, chiral), s780 (ℚ(√−7)), t12047
+(ℚ(i), 8G, amphichiral) — none keeps ℚ(√−3): the price of a third record is the atom. — B1323.
+Lock: `tests/test_b1323_the_genesis_upgrades.py`.
+
+**C54 [THEOREM — the mirror is swap × arrow, and covers do not inherit amphichirality].** On every
+one-cusped H₁ = ℤ manifold each isometry's orientation sign is the product of its meridian sign and its
+longitude sign, det = s_m · s_l (T-MIRROR-IS-SWAP-TIMES-ARROW); m004's eight isometries realise the four sign
+patterns (+,+,+), (−,+,−), (−,−,+), (+,−,−) twice each, kernel {1, P}; in the record's bits the fibre's reflection
+is the A7 swap, the flow's reversal is the arrow, the manifold's mirror is their product. Of 2 804 one-cusped H₁ = ℤ census
+manifolds to seven tetrahedra, 2 794 are invertible-chiral, 7 symmetry-free, **3 full — m004, s726, s912**.
+**Covers do not inherit amphichirality:** of the 87 covers of m004 to degree 10 the 9 cyclic and the 1 regular
+are amphichiral and **66 of the 77 irregular covers are chiral**, by two orientation-aware methods; every cover
+keeps the invariant trace field, so **the atom and a remembered A7 bit coexist on the object's own tower**
+(FRESH_EYES Q15). On the chiral one-cusped covers the torsion is generated by the meridian, so cusp-trivial
+twists barely exist: 2 live sectors (order 3), both I = 0; 4 Galois-protected sectors 0; 136 control sectors 0
+(a nonzero appears only where the four identities fail). The 54 multi-cusped chiral covers await the multi-cusp
+index. — B1324. Lock: `tests/test_b1324_arc_b_and_the_dictionary.py`.
+
 *(B909's remaining debts — the six-cubic √77 law, the Compact Measurement Theorem, the
 invisible-12 — enter when their locks land; LAW_MAP §F's pending row governs.)*
 

@@ -46,7 +46,9 @@ def test_the_seat_scripts_were_rerun_here_and_passed():
 
 def test_I28_is_registered_unearned_and_joins_I27_s_source():
     b = json.loads((ROOT / "docs" / "IDENTIFICATION_BASELINE.json").read_text(encoding="utf-8"))
-    assert b["unearned"] == 12 and "I-28" in b["rows"]
+    # replay the audit trail instead of pinning a snapshot: the last raise with a "to" plus one per later raise without one
+    raises = b["_baseline_raises"]; last_to = max(r["to"] for r in raises if "to" in r); later = sum(1 for r in raises if "to" not in r)
+    assert b["unearned"] == last_to + later and "I-28" in b["rows"]
     raise_ = next(r for r in b["_baseline_raises"] if r.get("row") == "I-28")
     assert raise_["from"] == 11 and raise_["to"] == 12 and raise_["arc"] == "B1298"
     led = (ROOT / "docs" / "IDENTIFICATION_LEDGER.md").read_text(encoding="utf-8")
