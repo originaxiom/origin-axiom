@@ -1871,6 +1871,8 @@ rusted instruments, now sees 2 arcs out of the 152 carrying the structure it wat
 corpus renamed its instruments and the check kept looking for the old name.** It still runs. It
 still passes.
 
+> **SUPERSEDED on its final term (memo 188 addendum 2, 2026-09-09).** The census that produced the `0%` ran on a tree **126 commits behind main** and read its zeros as decay. On main the newest era declares `depends_on` at **61%** with the richest verdict records of any era (mean 8.8). The honest series is `3% / 2% / 2% / 2% / 77% / 26% / 61%` — **a dip and a recovery, not a decay** — so the pattern below stands on three instances, not four. Left in place rather than rewritten, per the addendum-only rule.
+
 > **Credit where it is owed: the programme found this pattern before this bench did.** Review 42's
 > *"two locks were red at HEAD, and nobody knew"* is a better statement of it than memo 188 made.
 > What memo 189 adds is that **the antibody rusted the same way as everything else.**

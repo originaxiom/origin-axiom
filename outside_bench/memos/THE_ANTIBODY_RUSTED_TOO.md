@@ -73,7 +73,7 @@ stopped looking at anything.** Nothing red ever appears, so nothing prompts a se
 
 This is the same shape as the other three instances memo 188 counted, in one day:
 
-* `depends_on` — adopted at B800, ran at 77%, decayed to 0%;
+* `depends_on` — adopted at B800, ran at 77%, decayed to 0%;   **<- SUPERSEDED, see below**;
 * `PROGRESS_LOG.md` — the log GOVERNANCE §5 requires every status change to enter, quiet since 2026-08-30;
 * a minus sign that failed to survive a download, **twice** (memos 186 and 187).
 
@@ -208,3 +208,6 @@ Either commit the four artefacts (with a `.gitignore` exception, as the repo alr
 `legacy/` text), or make the tests **generate** what they read, or mark them as requiring a
 prior generation step. **Whichever is chosen, a test that reads an untracked file should say so
 when the file is missing rather than raising `FileNotFoundError`.**
+
+
+> **SUPERSEDED on its final term (memo 188 addendum 2, 2026-09-09).** The census that produced the `0%` ran on a tree **126 commits behind main** and read its zeros as decay. On main the newest era declares `depends_on` at **61%** with the richest verdict records of any era (mean 8.8). The honest series is `3% / 2% / 2% / 2% / 77% / 26% / 61%` — **a dip and a recovery, not a decay** — so the pattern below stands on three instances, not four. Left in place rather than rewritten, per the addendum-only rule.
