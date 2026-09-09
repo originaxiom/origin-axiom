@@ -1463,3 +1463,60 @@ answered — costing a full campaign to rediscover."*
 week. The cost was not wasted computation — the computation was good — it was that **main spent
 today's session opening a question as fresh that had been answered on a branch it can read.**
 Relay is not a courtesy at the end of a line; it is part of doing the work.
+
+---
+
+## ADDENDUM 82 (2026-09-09) — **R82: "whata the overall verdict on the main goal"**
+
+The standing rule is that every owner-voiced question gets a row the same session. This one is a
+demand for a verdict, so the row is the verdict, and it is filed here rather than left in chat.
+
+**THE GOAL.** Force **σ = 1** — remove the programme's last free continuous parameter.
+Brown–Henneaux gives `c = 6σ`; `c((E₆)₁) = 78/13 = 6`; if the object's own boundary CFT could be
+identified with that stage, σ is pinned. The quantum-side route was to measure `c_eff` of the
+object's own `Ẑ`/`F_K` and see whether **6** is reachable.
+
+> ### VERDICT: NO. The goal is not achieved and is not close. Nothing from this line has been promoted to `CLAIMS.md`, no lead is closed, no bridge is asserted — and that is the correct state, not an oversight.
+
+**What the line did deliver, ranked.**
+
+1. **A banked error located and corrected.** GC-6's *"`c = 6` is six cusp-boson units; the object
+   supplies one"* is a **kind error**: its script never ran the estimator on the object. The `1`
+   was `c_eff(η⁻¹)`, a free boson used as a *model* for the cusp — and a free boson is unitary, so
+   `c_eff = c` and the distinction that matters is invisible, while a `Ẑ`/`F_K` character is
+   logarithmic. The gap is `6 = 1 + 5`, the `1` being the universal `q^{−1/24}`. (Memo 171; relay §3.)
+2. **The object's own `c_eff` measured rather than modelled**, and it gives a **hard negative**:
+   for `4₁`, `sup_{|p/r|<4} c_eff = 1` exactly — approached at the threshold, never attained.
+   **6 is unreachable on the figure-eight. That door is shut.** (Memo 177.)
+3. **The ceiling is knot-specific as a measurement**, not as an argument from Armond–Dasbach:
+   `Φ_{4₁} = (q;q)_∞`, while a whole twist family has a **false theta** tail whose reciprocal has a
+   pole in the disc. (Memos 184 and its addendum 1.)
+
+**Why (3) is not progress toward 6, stated so it cannot be misread as progress.**
+
+* Under memo 177 addendum 4's mechanism those knots have *no* ceiling — which looks like the door
+  reopening. **The mechanism has one verified data point** (`4₁`, and blind to the end question),
+  and memo 184 §3's cell is preregistered with declared prior **B — that the mechanism fails
+  exactly where a false theta appears.** If B holds, no knot's ceiling is known but `4₁`'s and
+  there is no established route to 6 at all.
+* **Even reaching 6 would be arithmetic, not evidence.** `c_eff(1/(q;q)_∞^m) = m`, so *any* knot
+  with tail `(q;q)_∞` gives 6 at `m = 6`. Memo 177 addendum 5 states this fence and it is repeated
+  here: **nothing connects that 6 to `c((E₆)₁) = 6` beyond the number.**
+
+**The structural point, which is the real answer.** `c_eff` was always a **proxy**. What would
+force σ is a *mechanism* attaching a genuine boundary character to the **unquantized** sector of
+complex Chern–Simons on `m004` with `CS = 0`. That is exactly what Q11 asked Dimofte on
+2026-08-31 (`sends/Q11_DIMOFTE_READY.txt`). **Measuring `c_eff` more precisely does not substitute
+for that identification** — it only says which numbers are available, and on our own knot the
+answer is **1, not 6**.
+
+**What the last two days bought instead:** `F_K` for a second knot from the paper's own method; an
+error found in a published quantum A-polynomial (memo 183); GM's Thm 1.3 verified, closing memo
+180's ledger; the tail of a family; and **three of this bench's own results withdrawn**
+(memo 176 §5's law, memo 182 §3's `c = −1/16`, memo 183's `c_6…c_12` as determinations). That is a
+healthy ledger for a line that did not reach its target, and it is not the target.
+
+**Housekeeping done with this row.** The relay `CLOUD_TO_CC_2026-09-08_Q1_THE_QUANTUM_FACE.md`
+still headlined `c = −1/16` for `5₂` in its findings table, its Q6 answer and its file list — a
+reader harvesting only the table would have taken a withdrawn claim as established. All three are
+now marked **SUPERSEDED in place**, pointing at §6b.

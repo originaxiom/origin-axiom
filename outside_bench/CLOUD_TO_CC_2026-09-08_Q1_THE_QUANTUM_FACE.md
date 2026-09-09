@@ -49,7 +49,7 @@ this answers the chirality half and leaves the count untouched.
 | `c_eff(S³_{−1}(4₁)) = 1/7` | confirmed **three ways** — see §3 |
 | `c_eff(Q) = (6/π²)max_y[y·h(y) − y²/Q]`, `h(0) = 2 log φ` | six figures at `p/r = −1/2`, five at `−7/2`, exact at three Seifert slopes |
 | **`sup c_eff = 1`** over `\|p/r\| < 4`; **no `Ẑ` series at all past slope 4** | the threshold is GM's; the exactness of `c = −1/16` is ours |
-| **`c = −1/16` for `5₂` too** — same constant, same window as `4₁` | new; neither GM nor Park states it |
+| ~~**`c = −1/16` for `5₂` too** — same constant, same window as `4₁`~~ **[WITHDRAWN — see §6b. That table came from eq (32)'s defective recursion and differs from the true blocks at `j = 6`. Only the SIGN `c < 0` survives, and the measured `lo(f_j)` point nearer `−1/40`, i.e. a window near `\|p/r\| < 10` rather than 4. NO value of `c` for `5₂` is claimed.]** | **do not harvest** |
 
 ## 3. The number that bears on GC-6 — and it is not what GC-6 said
 
@@ -84,8 +84,10 @@ exists at all.
 On this face it is **structural, not coincidental**: §1 exhibits the mechanism. `4₁`'s two colored
 Jones ends coincide *because* it is amphichiral, and the chirality-odd invariant (`sign c`) is
 therefore unreadable there. The cheapest non-amphichiral member is **`5₂`**, and its `F_K` is now
-partly in hand (Park arXiv:2004.02087 §4.4) — `c = −1/16` computed, `c_edge` blocked by one
-normalisation gap (§6).
+in hand — its `F_K` blocks are now computed from Park's own large color `R`-matrix (memo 183
+addendum 1). **`c = −1/16` for `5₂` is WITHDRAWN (§6b); only `c < 0` survives**, which is all the
+chirality reading needs. `c_edge(5₂)` is blocked, but not by the normalisation gap §6 described —
+that was my own truncation bug. See §6b.
 
 **Q10** — *"Is the quantum face underworked because it is harder, or because attention keeps
 re-deriving the other two faces?"* This lane produced memos 174–182 on it in about two days.
@@ -105,7 +107,7 @@ that months ago.**
 * `mock_theta_ceff.py` — both `c_eff` papers' worked examples measured directly.
 * `trefoil_ends.py` — **the Q1 answer**.
 * `colored_jones_core.py` + `colored_jones_validate.py` — a from-scratch colored Jones calculator, six controls, cross-verified against Park's eq (10).
-* `park_52_blocks.py` — `c = −1/16` for `5₂`.
+* `park_52_blocks.py` — ~~`c = −1/16` for `5₂`~~ **[WITHDRAWN, §6b; only `c < 0` survives]**.
 
 **DO NOT harvest — refuted by this bench the same day it was written:**
 
