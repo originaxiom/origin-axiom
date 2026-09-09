@@ -31,7 +31,7 @@ CONTROLS
       this checkout's root and not something above it.
 
 ==============================================================================
-checkout: /home/user/origin-axiom
+checkout: origin-axiom (4 path components)
 C1: PASS  -- detector fires on a planted dead literal
 C2: PASS  -- detector silent on a docstring / provenance label
 C3: PASS  -- resolver finds this checkout from the deepest patched file

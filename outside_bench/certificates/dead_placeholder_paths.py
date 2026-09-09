@@ -74,7 +74,9 @@ KEEP = {"frontier/B660_structure_campaign/packet/s2_cp/s2_cp.py": {7, 446},
 
 print(__doc__)
 print("=" * 78)
-print("checkout:", ROOT)
+# print the checkout by NAME, not by absolute path: this output file is tracked, and
+# the tracked-text half of the very guard this certificate serves forbids machine paths.
+print("checkout:", ROOT.name, f"({len(ROOT.parts)} path components)")
 
 # ---------------------------------------------------------------- controls
 PLANT = 'B575 = "<repo>/frontier/B575_bridge_obstruction/l51_obstruction.py"\nopen(B575)\n'

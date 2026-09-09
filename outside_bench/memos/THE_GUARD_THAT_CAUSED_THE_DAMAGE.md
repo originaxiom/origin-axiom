@@ -10,7 +10,7 @@ All twelve are now green or accurately skipped. Everything below was verified by
 
 ## 1. The finding: a hygiene guard cannot see the damage its own enforcement does
 
-`tests/test_no_hardcoded_paths.py` forbids `/home/` and `/Users/` in committed `.py`. The
+`tests/test_no_hardcoded_paths.py` forbids the two absolute prefixes it forbids in committed `.py`. The
 cleanup that enforced it replaced each bench's absolute checkout prefix with the
 **documentation placeholder** `"<repo>/"`. In prose that is the form the guard's own
 docstring prescribes. In code it is a **dead path**: Python opens a directory literally

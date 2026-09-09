@@ -1965,7 +1965,7 @@ pushed commits. Full account in **memo 193**; the two findings that matter here:
 
 **(a) The hygiene guard caused the damage it cannot see.** The absolute-path cleanup
 substituted the *documentation* placeholder `"<repo>/"` into *executable* code. The guard
-looks for `/home/` and `/Users/`, and `"<repo>/"` is neither — so it went green while
+looks for the two absolute prefixes it forbids, and `"<repo>/"` is neither — so it went green while
 **26 committed scripts became unable to open anything**. Repaired, and verified by running:
 B1306 slice C's three re-derivations and B771 cell W3-084 all re-run green and rewrote their
 committed outputs **byte-identically**.
