@@ -92,3 +92,47 @@ blocks.** What the blocks are good for is the *tail* and *structure* questions o
 
 **F190-1.** Run the chain deep (`DEPTH` and `XMAX` are parameters) and re-measure memo 184's
 `Φ_{m(5₂)}` and `c_edge` with blocks that are no longer fenced at seven coefficients.
+
+---
+
+## ADDENDUM 1 (2026-09-09) — **the route now runs on the whole twist family**: GS06's C-polynomial implemented and controlled against five knots of our own data
+
+**Certificate** `certificates/gs06_twist_family.py` · **Output** `outputs/gs06_twist_family_out.txt`
+
+The body broke the blocker for `m(5₂)` using the **one** quantum C-polynomial Park prints. Park's
+own words for why that was the bottleneck: *"Since explicit expressions for the quantum
+C-polynomials for twist knots are given in [GS06], we will use them."* **[GS06] arrived**
+(Garoufalidis–Sun, *The C-polynomial of a knot*, AGT **6** (2006) 1623–1653, `math/0504305`),
+supplied 2026-09-09.
+
+Its **Definition 1.3** gives `Ĉ_{K_p}` in closed form for **every integer `p`**. Implemented
+verbatim, with the operator convention **derived rather than assumed** — in `a_p(Q,i)E^i` the
+shift acts first and the `Q`-multiplication second, giving
+
+```
+a_{l+|p|} + Σ_{i=0}^{|p|−1} a_p(q^l, i) · a_{l+i} = 0.
+```
+
+### Controls
+
+| | control | result |
+|---|---|---|
+| C1 | `p = +2` reproduces **Park's printed `Ĉ_{5₂}`**, normal-ordered — the exact operator the body ran on | PASSED, both coefficients |
+| C2 | `p = +1` gives Park's printed `a_m(3₁ˡ) = (−1)^m q^{m(m+3)/2}` | PASSED |
+| C3 | `p = −1` gives Park's printed `a_m(4₁) = 1` | PASSED |
+| **C4** | **the recursion annihilates the Habiro coefficients this bench computed itself** | **PASSED — 51 checks** |
+
+C4 is the one that costs something. Five knots, from **two independent sources**:
+`3₁` (12 checks), `4₁` (12), `6₁` (11), `9₂` (9) from the Garoufalidis–Sun colored Jones tables
+via memo 185 addendum 2; and `5₂` (7) from **this bench's own R-matrix state sum** on Park's braid
+word, memo 185 addendum 3. The basis conversion `a_m = (−1)^m q^{m(m+1)/2} C_m` is **fixed, not
+fitted**.
+
+> **The operator memo 190 needed is now available for every twist knot, and verified.**
+
+### What is *not* claimed
+
+Running the route per knot still needs **the boundary ansatz that fixes `a_{−1}`**. Park solves it
+with a continued fraction for `5₂` and says *"the same type of ansatz seems to work for all twist
+knots"* — **his expectation, not tested here** (R80-1). And Conjecture 2 remains a conjecture (§6).
+**What is established is the operator for every `p`, not the blocks for every `p`.**

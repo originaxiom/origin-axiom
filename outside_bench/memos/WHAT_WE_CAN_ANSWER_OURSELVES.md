@@ -111,3 +111,36 @@ drafted — R80-3 stands: nothing goes from Gmail.**
 give characters of some VOA modules"* — an expectation, not a theorem, and memo 190 has just made
 `F_{m(5₂)}` available to arbitrary block depth. Whether the `F_K` side has the same forced
 `c_eff` is a different question from the `Ẑ` side, and it is now computable here.
+
+---
+
+## ADDENDUM 1 (2026-09-09) — **the primary source confirms the bridge, corrects the citation, and hands §3(c) a concrete candidate**
+
+`arXiv:1602.05302` (Gukov–Putrov–Vafa, *Fivebranes and 3-manifold homology*) — GM's **[38]** —
+arrived. The body used GM Remark 3.8's restatement `Ẑ^unred = Ẑ/(q)_∞`. Checked at source:
+
+```
+GPV (6.49)   Zhat^(unred)_a = Zhat_a / (-qt; q)_inf          <- the REFINED object
+GPV (6.50)   Zhat^(unred)_a |_{t=-1} = Zhat_a / (q;q)_inf    <- the unrefined limit
+```
+
+**Three things follow.**
+
+1. **The bridge is confirmed** — the identity memo 191 runs on is real and is GPV **(6.50)**.
+2. **GM's citation is slightly off**: Remark 3.8 cites *"[38, Equation (6.49)]"*, but (6.49) is the
+   **refined** statement; the unrefined identity GM actually use is **(6.50)**. Recorded because
+   R80-1 says check rather than assume, and because a later seat chasing (6.49) would find a
+   different formula.
+3. **§3(c) — the part left to the expert — now has a named candidate.** §3(c) asked *"is there any
+   boundary object for a `CS = 0` cusped hyperbolic manifold that is NOT of the shape
+   `(false theta)/(q)_∞`?"* **GPV's refined block is exactly such an object**: its denominator is
+   `(−qt;q)_∞`, not `(q;q)_∞`, and it carries a second variable. **Memo 191's measurement is
+   about the unrefined `t = −1` object only**, and says nothing about the refined one.
+
+**And one physical reading worth recording**, in GPV's own words: the `(q;q)_∞` denominator *"can
+be interpreted as the contribution of point-like instantons in twisted `N = 4` SYM on `R₊ × M₃`
+realizing CS on its boundary."* **That is a physical account of precisely the factor that forces
+`c_eff = 1`** — the `1` is instanton-counting, not the object's own conformal content.
+
+**F191-3.** Measure the refined block. It is the first candidate for escaping the shape, it came
+from the primary source rather than from speculation, and it is computable here.
