@@ -41,6 +41,21 @@ for p in V:
     m = re.match(r"B(\d+)", i)
     if m: num[i] = int(m.group(1))
 n = len(D)
+# ADDENDUM 2's RULE, ENFORCED HERE: a census is meaningless without the tree it was
+# taken on.  Memo 188 section 3 was wrong because it ran on a branch 126 commits behind
+# origin/main and read that tree's zeros as decay.
+import subprocess as _sp
+def _git(*a):
+    try: return _sp.run(["git"]+list(a), cwd=ROOT, capture_output=True, text=True, timeout=60).stdout.strip()
+    except Exception: return "?"
+print("=" * 78); print("0.  THE TREE THIS CENSUS WAS TAKEN ON"); print("=" * 78)
+print("   HEAD            : %s  %s" % (_git("rev-parse","--short","HEAD"), _git("rev-parse","--abbrev-ref","HEAD")))
+_behind = _git("rev-list","--count","HEAD..origin/main")
+print("   commits behind origin/main : %s" % (_behind or "?"))
+if _behind and _behind.isdigit() and int(_behind) > 0:
+    print("   *** THIS TREE IS BEHIND MAIN.  Every count below is a LOWER BOUND, and any")
+    print("       'decayed to zero' reading is unsafe -- see memo 188 addendum 2. ***")
+print()
 print("=" * 78); print("1.  VOLUME"); print("=" * 78)
 print("   banked arcs                : %d" % n)
 print("   arc-number range           : B%d .. B%d" % (min(num.values()), max(num.values())))

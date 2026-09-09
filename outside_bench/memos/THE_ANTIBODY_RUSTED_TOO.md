@@ -104,3 +104,28 @@ can currently see** — which is the precondition for the drift B1054 found, not
 **F189-1.** Apply the widened selector (owner's call, on main), then run it non-mutating over the
 152 and report how many committed results no longer reproduce. That is the number Review 42 would
 have wanted and nobody has.
+
+---
+
+## ADDENDUM 1 (2026-09-09) — **re-measured on `main`: the finding stands and was UNDERSTATED**
+
+The body was measured on `claude/outside-bench`, **126 commits behind `origin/main`** (the
+staleness that forced memo 188 addendum 2's withdrawal). Re-run against `origin/main` at
+`b94ed03a`:
+
+| | this branch (stale) | `origin/main` |
+|---|---|---|
+| arcs the check selects | 2 | **2** |
+| arcs with a `verification/` directory | 80 | **145** |
+| union carrying the structure B1054 warned about | 152 | **217** |
+| **blind to** | 150 | **215** |
+
+> **The check still sees exactly two arcs. The corpus grew; its coverage did not.** 2 of 217.
+
+**Unlike memo 188 §3, nothing here is withdrawn — the number moved the wrong way for the
+programme and the right way for the finding.** The repair specified in §4 is unchanged and its
+value is now larger.
+
+**And the staleness lesson applies here too, in the other direction:** a stale tree can understate
+a finding as easily as it can manufacture one. **The rule adopted in memo 188 addendum 2 — state
+the tree, and how far it is from `main`** — is why this was caught within the hour.

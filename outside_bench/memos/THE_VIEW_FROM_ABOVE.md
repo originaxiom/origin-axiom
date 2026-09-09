@@ -195,3 +195,53 @@ every status change to be written into **has itself been quiet for ten days.** S
 
 **F188-1 is discharged.** F188-2 (re-populate `depends_on`; make the census standing) and F188-3
 (one chain, not one more node) remain.
+
+---
+
+## ADDENDUM 2 (2026-09-09) — **§3's `depends_on` finding is WITHDRAWN. The field did not decay to zero; it recovered. I measured a tree 126 commits behind `main`.**
+
+**This correction is filed at the top of the memo's addenda rather than at the bottom of a
+paragraph, because §3 was the memo's most-quoted number and it is wrong.**
+
+### What happened
+
+The census in §3 was run on `claude/outside-bench`, which was **126 commits behind `origin/main`**
+— 74 arcs light. Re-run against `origin/main` at `b94ed03a`:
+
+```
+                        outside-bench (stale)        origin/main
+B1200-1399              0% declare depends_on        61%  (58 of 95)
+mean verdict fields     5.6                          8.8   -- the HIGHEST of any era
+banked arcs             1125                         1204
+```
+
+> **`depends_on` did not decay to zero. It recovered, strongly, in work that landed on `main`
+> after this branch's base — and the newest era keeps the richest verdict records in the corpus.**
+
+**§3's "adopted at B800, ran at 77%, decayed to 0%" is withdrawn on its final term.** The honest
+series is `3% / 2% / 2% / 2% / 77% / 26% / 61%` — a dip and a recovery, not a decay.
+
+### What this does to the memo's main claim
+
+**The pattern in §5 stands, on three instances rather than four:**
+
+* `PROGRESS_LOG.md` quiet since 2026-08-30 — **stands**;
+* a minus sign that failed to survive a download, twice — **stands**;
+* `instrument_freshness.py` blind — **stands, and is WORSE than reported.** Re-measured on
+  `main`: the check sees **2 arcs out of 217** carrying the structure it watches, not 2 of 152.
+  Memo 189 understated it.
+
+**The `depends_on` instance is withdrawn from that list.**
+
+### And the part worth saying plainly
+
+**I diagnosed "entropy in the programme's own instruments" while reading a stale copy of the
+repository.** That is the same failure, committed by me, in the act of naming it — and memo 189's
+own sentence applies exactly: *a green check with 0.2% coverage answers with a silence that reads
+as no.* A 126-commit-old tree answered "has the field decayed?" with zeros that read as decay.
+
+**The rule that would have caught it, adopted now:** *before any census, state the tree it was
+taken on and how far that tree is from `origin/main`.* `corpus_census.py` will print it.
+
+*(Found while auditing another seat's work — the fetch that pulled their branch is what revealed
+how far behind this one was. The audit paid for itself before it started.)*
