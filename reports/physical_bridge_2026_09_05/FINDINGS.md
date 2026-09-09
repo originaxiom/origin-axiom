@@ -1,5 +1,12 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
+**Reading in progress, September 10 local:**
+[Asselmeyer--Maluga direct paper audit](ASSELMEYER_MALUGA_READ.md).
+The supplied sixteen-paper archive is extracted and integrity-checked;
+the first three papers are fully read. This is a reading checkpoint,
+not an accepted physical transfer or a new result. The unexecuted
+[index-stability preparation](INDEX_STABILITY_PRIOR.md) is retained.
+
 **Latest local result, R25: [the free boundary wall](BOUNDARY_WALL.md).**
 The actual mass eigenline supports a derived compensating wall channel
 with net index -k and the opposite full anomaly polynomial. For k=3
