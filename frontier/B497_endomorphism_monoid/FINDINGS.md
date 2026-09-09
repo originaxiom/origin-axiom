@@ -160,3 +160,27 @@ unit's own growth law; M Fᵏ M = F_{k+3} M). No H1; nothing to escalate; firewa
 Phase 1 novelty gates (research window ~Jul 14). Q4 full defect dictionary (heavy; queued). Q2's full
 proof (unbounded atoroidality / Mutanguha hypothesis verification) — NEEDS-SPECIALIST or a longer
 certified search. The 3-manifold with-boundary statement — NEEDS-SPECIALIST.
+
+---
+
+## Addendum 2026-09-09 — the four verbs read on the Goldman foliation (the session-relay seat's P-SEAM-02; [RHYME], promotes nothing)
+
+*Credit: the session-relay seat, handoff of 2026-09-08 (its certificates `check_G1.py`, `check_G2.py`, `check_G2G3.py`, re-run on main 2026-09-09,
+archived under `frontier/B1306_the_older_debt/inputs/chat1_handoff_2026-09-08/`). This arc had zero propagation and named none of what follows.*
+
+- **The invariant is one object.** This arc's κ and B293's Goldman Casimir on X(4₁) coincide exactly: tr[a,b] − (x² + y² + z² − xyz − 2) = 0 on
+  generic SL(2, ℂ); the substitution a → ab, b → a induces (x, y, z) ↦ (z, x, xz − y); κ is Poisson-central (a decoy cubic is not); this arc's three
+  κ-laws re-derive from the bracket. So the four strata act on B293's symplectic foliation {κ = const}.
+- **The multiplier is the determinant.** On stratum 1 (Aut(F₂)) the pull-back multiplies the Goldman bracket by det of the abelianisation: +1 Poisson,
+  −1 anti-Poisson (P: a↔b and I: a↦a⁻¹ give −1, U: a↦ab gives +1; both multiplier and det are homomorphisms to {±1}, so agreement on generators is
+  agreement everywhere). Strata 3–4 have multiplier 0. **Classical** (Goldman: the mapping class group acts by symplectomorphisms, orientation-reversing
+  classes anti-symplectically), made explicit in these coordinates — the seat's own prior-art gate demoted it to a propagation.
+- **Attribution.** The invariant is Baake–Roberts's Fricke–Vogt invariant in half-trace normalisation: 4·I(x/2, y/2, z/2) = κ − 2, with
+  I = x² + y² + z² − 2xyz − 1 (*Symmetries and reversing symmetries of trace maps*, arXiv:math/9901124). Their closing section asks for a theory of the
+  NON-invertible trace maps and sees no classification; this arc's four-stratum classification of End(F₂) is that gap, banked in July.
+- **A correction the seat made to itself, recorded so it is not repeated:** the Goldman form does not degenerate on {κ = 2}; a 3 × 3 antisymmetric
+  bivector has rank 0 or 2 and degenerates only at points — exactly five: the four nodes of the Cayley cubic (the central characters, κ = 2) and the
+  origin (the quaternion character, κ = −2, the node of the Markov surface). "Erasure lands on the classical floor" stands; "the floor is a degenerate
+  leaf" does not.
+- **A flagged adjacency, gated, not narrated:** the κ = −2 node is the quaternion character, i.e. Q₈ = ker(2T → ℤ/3) in the record's McKay route. No
+  prior-art gate has been run on it and no computation on main connects the two; it is a hint (H-CHAT1-Q8), not a lead.

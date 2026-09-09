@@ -1,5 +1,12 @@
 # FINDINGS — B766: THE MEASUREMENT TORSOR — three bits close the object; time's arrow IS the golden branch
 
+> **CORRECTION 2026-09-09 (E53 instance #28, at the point the claim lives).** B1083 (2026-08-18) re-derived this torsor under a hostile pass and found
+> every element of the reversal-and-swap orbit is a forward substitution rule: **reversal is a parity bit, not an arrow, and the arrow was never a torsor
+> bit** — it lives in the positive monoid's non-surjectivity (`bb` has no preimage; `aaa` does), an unspendable structural fact. The rank-3 count below
+> stands; read "the golden branch" as the **parity/basepoint choice** wherever this document says "time's arrow". Raised again by the session-relay
+> seat's handoff of 2026-09-08 ("retitle, do not choose"); B124/P006 already record that the tower spectrum is forward/backward symmetric.
+
+
 cc banking seat, 2026-07-23. R29-5, owner-opened. Prereg sealed sha256 c371e18e (Gate 5-Q
 battery in-seal; every action-table entry an in-sandbox re-derivation, never cited).
 Gate 5; structural labels throughout; nothing to CLAIMS.

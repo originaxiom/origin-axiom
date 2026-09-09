@@ -1,0 +1,46 @@
+==========================================================================
+(A)  G2 upgraded: multiplier vs det on GENERATORS of Aut(F2)
+==========================================================================
+  P (a<->b)      multiplier =  -1   det =  -1   agree = True
+  I (a->a^-1)    multiplier =  -1   det =  -1   agree = True
+  U (a->ab)      multiplier =   1   det =   1   agree = True
+
+  composites (spot-check that both are multiplicative):
+    PoP  multiplier =   1  det =   1  True
+    PoI  multiplier =   1  det =   1  True
+    PoU  multiplier =  -1  det =  -1  True
+    IoP  multiplier =   1  det =   1  True
+    IoI  multiplier =   1  det =   1  True
+    IoU  multiplier =  -1  det =  -1  True
+    UoP  multiplier =  -1  det =  -1  True
+    UoI  multiplier =  -1  det =  -1  True
+    UoU  multiplier =   1  det =   1  True
+
+  generators agree: True   composites agree: True
+  => multiplier and det are BOTH homomorphisms Aut(F2)->{+-1}; agreeing on a
+     generating set, they agree on ALL of Aut(F2). Stratum 1 is now covered,
+     not sampled.
+
+==========================================================================
+(B)  G3: rank of the Poisson bivector, and is it {kappa=2}?
+==========================================================================
+  rank-0 locus (all three brackets vanish):
+     (-2, -2, 2)           kappa = 2
+     (-2, 2, -2)           kappa = 2
+     (0, 0, 0)             kappa = -2
+     (2, -2, -2)           kappa = 2
+     (2, 2, 2)             kappa = 2
+
+  generic points tested on {kappa=2}: [(1, 1, -1), (1, 1, 2)]
+  degenerate there? [False, False]
+
+  G3 AS STATED ('{kappa=2} is exactly where the form drops rank'): False
+  CORRECTED STATEMENT:
+    the bivector is antisymmetric 3x3, so rank is 0 or 2 -- it degenerates only
+    at 5 ISOLATED POINTS, not on a surface.
+    4 of them lie on {kappa=2}: [(-2, -2, 2), (-2, 2, -2), (2, -2, -2), (2, 2, 2)]
+    the others: [((0, 0, 0), -2)]
+    {kappa=2} is the Cayley cubic x^2+y^2+z^2-xyz-4=0, and those points are
+    its NODES. So erasure lands on the classical floor, but the floor itself is
+    NOT degenerate -- only its singular points are.
+RC=0

@@ -1,0 +1,18 @@
+=== ab vs ba : are they inner-equivalent in Aut(F2)? ===
+   a^-1 * gold(a) * a = ba       mirror(a) = ba
+   a^-1 * gold(b) * a = a        mirror(b) = a
+   INNER-EQUIVALENT: True
+
+=== induced trace maps (residual 0 = the claimed map is correct) ===
+   gold    -> (z, x, x*z - y)        residuals [0, 0, 0]  ok=True
+   mirror  -> (z, x, x*z - y)        residuals [0, 0, 0]  ok=True
+   invert  -> (x, y, x*y - z)        residuals [0, 0, 0]  ok=True
+
+   gold and mirror induce the SAME map on the character variety: True
+   inversion induces a DIFFERENT map: True
+
+=== VERDICT ===
+   ab vs ba differ by the inner automorphism conj(a^-1); inner automorphisms act
+   trivially on the character variety, so the WORD-ORDER MIRROR IS INVISIBLE on X.
+   It pays no bit. Inversion (a -> a^-1) is NOT inner and does act.
+RC=0

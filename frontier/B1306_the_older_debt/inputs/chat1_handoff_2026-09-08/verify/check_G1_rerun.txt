@@ -1,0 +1,24 @@
+======================================================================
+P-SEAM-02  ---  G1 and controls
+======================================================================
+  G1_identity                        = True
+  C_collision_same_coords            = True
+  C_alive_kappa_is_casimir           = True
+  C_null_decoy_is_central            = False
+  B497_kappa_laws_rederived          = True
+  S4_image_in_kappa_eq_2             = True
+
+    S1  kappa' = kappa                         residual = 0
+    S2  kappa'-2 = (kappa-2)x^2y^2             residual = 0
+    S3  kappa'-2 = (kappa-2)(x^2+y^2-xyz)      residual = 0
+
+  tr[a,b] - (x^2+y^2+z^2-xyz-2)  residual = 0
+  {kappa,x},{kappa,y},{kappa,z}         = [0, 0, 0]
+  decoy brackets (must NOT be all 0)    = [x**3*y + x**2*z - 6*x*y - 3*x*z**3 + 6*y*z**2, -2*x**2*y**2 + 6*x**2 + 4*x*y*z - 6*x*z**2 + 3*y*z**3 - 6*z**2, 2*x**3 + x**2*y*z - 4*x*y**2 - 3*x*z**2 + 6*y*z]
+
+----------------------------------------------------------------------
+  controls: C-alive=True  C-null-correctly-fails=True  instrument=True
+  G1 VERDICT: TRUE  (same polynomial, same coordinates)
+  Scope: G1 only. G2 (Poisson action of stratum 1) and G3 (degeneracy of
+  {kappa=2}) are NOT tested here and remain open per the sealed prereg.
+RC=0

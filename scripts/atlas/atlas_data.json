@@ -16609,12 +16609,16 @@
     "arrow",
     "monoid",
     "measurement",
+    "closing",
     "figure_eight",
     "trace_map",
     "kappa",
     "metallic",
+    "eisenstein",
     "golden",
+    "z3_generation",
     "torsion",
+    "symplectic",
     "quasicrystal",
     "wrt_quantum",
     "lorentzian",
@@ -16624,6 +16628,7 @@
    ],
    "refs": [
     "B221",
+    "B293",
     "B398",
     "B496",
     "H1",
@@ -16636,9 +16641,9 @@
     "S063"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "arithmetic"
   },
   "B498": {
    "slug": "mixed monoid dynamics",
@@ -22772,23 +22777,28 @@
    "slug": "measurement torsor",
    "motifs": [
     "arrow",
+    "monoid",
     "measurement",
     "closing",
     "choice",
+    "trace_map",
+    "metallic",
     "golden",
     "amphichiral_cp",
     "torsion",
     "firewall"
    ],
    "refs": [
+    "B124",
     "B701",
     "B712",
     "B733",
     "B760",
-    "K020"
+    "K020",
+    "P006"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 9,
+   "obstacle_conf": 10,
    "status": "banked",
    "domain": "arithmetic"
   },

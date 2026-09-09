@@ -836,3 +836,14 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 - H-B1306B-INTERPOLATE-EXACTLY (type INSTRUMENT, this bench): a quantum-group trace with Laurent-polynomial answer can be evaluated modulo two
   primes at roots of unity and recovered by an inverse DFT — exact when both primes agree and the support clears the window — but never divide
   pointwise by a quantum integer: the evaluation points include its zeros. Divide exactly afterwards. (B1306 B)
+
+## 2026-09-09 — the session-relay seat's handoff (recorded, not judged; credit: the session-relay seat)
+
+- H-CHAT1-INNER-MIRROR (type SYNTHESIS): ab → ba is the inner automorphism by a⁻¹; inner automorphisms act trivially on the character variety, so the
+  word-order mirror pays no bit; only inversion (a ↦ a⁻¹) acts on X. The generative rule's abelianisation has det −1 as a PROPERTY, not a choice. The
+  content is B979/B1083; the form is the seat's and it is the cleanest statement of "A7 buys φ, not a handedness". (intake 2026-09-09)
+- H-CHAT1-Q8 (type CANDIDATE, GATED — do not narrate): the unique irreducible Poisson-degenerate point of the Fricke surface (κ = −2, the quaternion
+  character [a,b] = −I) is Q₈ = ker(2T → ℤ/3), the kernel of the map whose quotient counts generations in the McKay route. Classical singular points;
+  no prior-art gate; no computation on main connects them. The seat's own words: "an adjacency, not a finding". (intake 2026-09-09)
+- H-CHAT1-TYPE-CHECK-THE-PREREG (type PROCESS, the seat's error 17): a sealed gate asserted a bivector degenerates on a surface — impossible by linear
+  algebra alone. Check the TYPE of a pre-registered claim before sealing it; falsifiability saved it, a type check would have saved the seal. (intake 2026-09-09)
