@@ -118,6 +118,32 @@ compute — the arithmetic face (Alexander reciprocity = ι-invariance of Δ), t
 components (V ≅ τ\*V\* on the cusp-fixed curve). The chirality bit is the singular G₂ closing's (candidate 1's carrier)
 or the observer's. `docs/CHIRALITY_MAP_2026-09-06.md`.
 
+## 5f. The view after B1350–B1355 (added 2026-09-09): the cusp is closed with its mechanism, the closing's point is named
+
+**The pattern in the last five arcs.** Every computation since B1268 was local deformation theory at one point of the object's E₆
+character variety — the subregular point ρ₀, reducible (13 ⊕ 9 ⊕ 5), with unipotent cusp holonomy carrying a 13-block, H¹ = H² = 8,
+and a working basis spanning twenty-two orders of magnitude. Each closed window left a finer residue (B1268's bound → B1350's
+h⁰ = 0 → B1352's Sp(8) locus → B1354's tuned branches), and each residue was expensive to compute because the point is degenerate:
+every rank decision there belongs at 2000 bits. What the residues had in common was seen only from above: the two conditions a
+net count needs on the cusped object — a cusp-fixed weight and a non-self-dual representation — appeared and disappeared
+together at every stage (both lost at order four along the Newton curve, B1352; both kept along the tuned formal branches, B1354).
+They are one condition along V₁₀. That is the mechanism, and it closes L204 formally and numerically. The object supplies no
+chirality; this is now a theorem with a reason, not a list of cases.
+
+**What we were not seeing.** The destination's item 1 is a *curved* conical G₂ geometry (B1259, B1353), and the question is not
+whether the object carries the count but what the point *is*. Acharya–Witten's two families of chiral cones, asked which reaches
+E-type, answer it (B1355): their hyperkähler-U(1) family stops at cyclic groups (the centraliser of 2T in Sp(1) is ±1), their
+twistor family does not — the G₂ cone over CP³/2T, the twistor cone of S⁴/2T, has the E₆ locus and an A₁ locus meeting only at a
+curved apex whose link has b₂ = 1, and Witten's inflow (the mixed U(1)·E₆² anomaly, equal to the integral of the harmonic form over
+the E₆ locus's link) forces chiral E₆-charged matter there; the literature's count is one 27 per point. This is exactly the
+configuration the flat class cannot make (B1353), with the object's own group.
+
+**The three faces, again.** Arithmetic: 2T — the object's McKay group — and its centraliser ±1, which is why the E₆ point needs the
+twistor family. Geometry: the Bryant–Salamon cone over CP³, the two poles of S⁴/2T giving the E₆ and the A₁ loci. Quantum: b₂ = 1
+and ∫_U w = 1 — the inflow. What is open is global and single: a compact closing whose E₆ locus carries three such apexes (L212),
+the "three" being the tower's ℤ/3 descent if it is anything the object supplies. The count stays 0 of 19; the destination's
+local geometry is no longer abstract.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with
