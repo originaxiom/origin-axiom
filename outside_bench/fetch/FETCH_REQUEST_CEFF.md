@@ -111,7 +111,7 @@ hyperbolic knot.
 | # | reference | why |
 |---|---|---|
 | B1 | **S. Park, "Large color `R`-matrix for knot complements and strange identities", arXiv:2004.02087** | Reported to compute `F_K(x,q)` for a large class of knots including **`5₂` and all twist knots** — exactly what is needed. Need: the explicit `F_{5₂}(x,q)` coefficients, or the `R`-matrix recipe in enough detail to run it. |
-| B2 | S. Park, "Inverted state sums, inverted Habiro series, and indefinite theta functions", arXiv:2106.03942 | Alternative route to the same series. |
+| B2 | S. Park, "Inverted state sums, inverted Habiro series, and indefinite theta functions", arXiv:2106.03942 | Alternative route to the same series. **PROMOTED 2026-09-09 (memo 185).** The *naive* cyclotomic route to `f_K` is now closed by exact computation (`certificates/cyclotomic_vs_fk.py`): `C_{4₁}(x,q)` is not a power series, and on `3₁` it is not `f_K` up to any monomial. Park's *inverted* Habiro series is the only surviving route of this kind and this bench does not hold the paper. **Rank: below §B'' (the A-polynomial data), above any colored Jones table.** |
 | B3 | S. Park, "Higher rank `Ẑ` and `F_K`", arXiv:1909.13002 | Context. |
 | B4 | "Branches, quivers, and ideals for knot complements", arXiv:2110.13768 | Quiver form of `F_K`; may give `Ξ_k` directly. |
 | B5 | "3d Modularity Revisited", arXiv:2403.14920 | Bears on the `false ↔ mock` orientation pairing that memo 173 got wrong and memo 177 §1 now uses. |
@@ -150,3 +150,28 @@ developed subject.
 
 Nothing behind a paywall beyond A3, and nothing that requires an institutional login. All of
 A1, A2, A4, B1–B5 are open arXiv preprints; only the egress proxy is in the way.
+
+
+---
+
+## B''' — WHAT THE COLORED JONES TABLES ARE AND ARE NOT FOR (added 2026-09-09, memo 185)
+
+`people.mpim-bonn.mpg.de/stavros/publications/twist.knot.data/CJTwist.<p>.txt.gz`, `p = −14…15`,
+holds `J_{K_p,n}(q)` for `n = 1…60` of the twist knots, normalised `J_{p,1} = 1`, with
+`K_0 = U`, `K_{−1} = 4₁`, `K_1 = 3₁`, `K_{−2} = 6₁`, `K_2 = 5₂`, `K_{−3} = 8₁`, `K_3 = 7₂`.
+
+**They will NOT unblock `f₆` and beyond.** Memo 185 closes the route that would have made them
+do so. Do not prioritise them for that reason.
+
+**They are worth having for exactly three reasons.**
+
+1. Memo 184's stability fence goes from **7** stabilised coefficients to **~60**.
+2. `K_{−1}` and `K_1` are **free controls**: check them against GM eq (166) and GM eq (24)
+   (`certificates/cyclotomic_vs_fk.py` implements both and they pass) **before** claiming
+   anything from any other file in the set.
+3. Memo 184 addendum 1's family goes from **4 knots to 30**.
+
+Priority subset if size is a problem: `p = 2, −1, 1, −2, 3, −3` (`5₂, 4₁, 3₁, 6₁, 7₂, 8₁`).
+
+**The files that decide the erratum are the operator files on the same page, not these.**
+See §B''.
