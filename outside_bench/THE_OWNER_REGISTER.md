@@ -2047,3 +2047,42 @@ geometric bridge is admissible for R20's certified frame is their adjudication.
 
 *Earlier this session I over-read another seat's failure count as decay. The correction that
 mattered was not an apology but a method: read what each failure is before reporting it.*
+
+
+---
+
+## ADDENDUM 93 (2026-09-09) — **R93: "refetch codex seat again"**
+
+Re-fetched. Two things moved, and one of them is a new seat.
+
+**Codex `audit/physical-bridge-2026-09-05`: `833b939b → 2cac82b9`, three commits.** R24 landed
+with its findings and **R25 is new** — the free boundary wall. Their own `GOAL_VERDICT.md`:
+the mass eigenline supports a derived compensating wall with net index `−k` and the opposite
+anomaly polynomial, and then, immediately, ***"For k = 3 this is a mirror sector, not a
+mirror-free completion."*** R25's design preregistered no selection of `k = 3` and no automatic
+cancellation; R25 delivers a cancellation and names the price in the next sentence.
+**Preregistered against its own interest and reported against its own interest.**
+
+Their regression is tracked by ID, not in aggregate — *"341 broad passes with the same 14
+failures/8 errors as R24. No new failed/error IDs"* — and R24's entry names its one added ID as
+*"that diagnosed original comparison"*, which is exactly the preserved receipt addendum 1
+identified here. **My reading of their red tests is confirmed by their own ledger.**
+`CHIRALITY_REFRESH.md` corrects B1355's A-type-only exclusion from **Acharya–Witten §2.3 read
+directly** — the same primary-source route memo 192 took, independently.
+
+**A new seat: `claude/paper-verification-ufp0zn` @ `8dac820e`**, an independent re-derivation of
+THE PAPER. It found **this bench's `<repo>` defect** the same day, without contact —
+*"c_e8_types.py carried a literal `<repo>` placeholder and could never run"*. **Two seats, same
+day, same defect.** The delta is size: it fixed one file; the sweep here found the same defect
+in **26** and closed the class with a certificate.
+
+Its two test improvements are **adopted** here (they compose with mine rather than competing),
+and controlled — with both artifacts hidden the regeneration fallback still passes.
+
+**And the paper you are reading changed.** `8dac820e` removes §8's family-wide amphichirality
+sentence: it had been **retracted in this repository on 2026-09-02** and the paper still carried
+it. Plus three corrections (§2's cusp shapes were backwards; §2's base rate; Scope 20's
+falsifier count). **A rebuilt PDF has been sent, replacing the earlier one.** That seat's
+diagnosis of why no lock caught it is worth keeping: *the claim was absent from
+`MANIFEST.json`* — **a claim outside the manifest is outside the guard**, the same shape as
+evidence outside the repository being outside the lock.

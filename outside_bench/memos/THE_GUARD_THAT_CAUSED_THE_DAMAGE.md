@@ -243,3 +243,89 @@ capability that removes it is the geometric isometry list, and it costs two line
 
 *Scope: nothing about R24's flux claim is assessed here. Only the reachability of the
 equivariance computation, which is what the seven red tests are about.*
+
+---
+
+# ADDENDUM 2 — THE RE-FETCH: CODEX LANDS R24 AND R25, AND A NEW SEAT FOUND THIS BENCH'S DEFECT INDEPENDENTLY
+
+**2026-09-09, second fetch.** Occasion: the owner's *"refetch codex seat again"*.
+Addendum 1 read `833b939b`; the seat is now at **`2cac82b9`**, three commits further, and a
+**new branch appeared**: `claude/paper-verification-ufp0zn` @ `8dac820e`.
+
+## 1. The codex seat banked, and the banking is honest
+
+Three commits: R24 landed with its findings, and **R25 is new** — the free boundary wall.
+Their `GOAL_VERDICT.md` states both in their own words:
+
+* **R24** — the actual positive-source field has total boundary charge `sign(q)·k` for `k`
+  prescribed arcs, *"including rounded seams and the complete topological exhaustion. The
+  three-arc case gives +3 without assuming three isolated critical points."*
+* **R25** — the mass eigenline supports a derived compensating wall with net index `−k` and
+  the opposite anomaly polynomial. And then, immediately: ***"For k = 3 this is a mirror
+  sector, not a mirror-free completion."***
+
+That second sentence is the seat writing down the thing that costs it the result. R25's
+design (addendum 1) preregistered *no* physical selection of `k = 3` and *no* automatic
+anomaly cancellation; R25 delivers a cancellation and then names the price. **Preregistered
+against its own interest and reported against its own interest.**
+
+They also track their own regression precisely rather than in aggregate: *"341 broad passes
+with the same 14 failures/8 errors as R24. No new failed/error IDs"* — and R24's entry names
+the one added ID as *"that diagnosed original comparison"*, which is exactly the preserved
+receipt addendum 1 identified. **My reading of their red tests is confirmed by their own
+ledger.**
+
+`CHIRALITY_REFRESH.md` records all nine remote branches fetched, and corrects B1355's
+A-type-only exclusion **against Acharya–Witten §2.3 read directly** — the same primary-source
+route memo 192 took, reaching the same conclusion independently.
+
+## 2. A second seat found this bench's defect, the same day, without contact
+
+`claude/paper-verification-ufp0zn` @ `8dac820e` is an independent re-derivation of THE
+PAPER's checkable claims. Buried at the end of its message:
+
+> *"Separately, `c_e8_types.py` carried a literal `<repo>` placeholder and could never run;
+> it now resolves the root from its own location."*
+
+**Two seats, same day, same defect, no contact.** That is the strongest evidence the class is
+real and not an artefact of how this bench looks at things.
+
+**The delta is the size.** That seat fixed **one** file. The sweep here found the same defect
+in **26 committed scripts** — including `c_geodir_h1.py` and `c_tits_lift.py` *in the same
+directory* — and repaired all of them, with `certificates/dead_placeholder_paths.py` to keep
+the class closed. Their fix resolves the root as `parents[4]`, a fixed depth; the resolver
+here walks up to the directory holding `frontier/`, which is why one form applied unchanged to
+files sitting three to six levels down.
+
+## 3. Where we diverged, and why both halves are kept
+
+On the gitignored `*.out` artifacts the two answers were different:
+
+| | this bench | the paper seat |
+|---|---|---|
+| approach | commit the artifacts, negate the ignore rule | regenerate from the script when absent |
+| cost | generated files in the repository | the lock runs scripts (79 s for `c_tits_lift`) |
+| benefit | the lock is instant and the evidence is auditable | nothing generated is committed |
+
+**They compose.** Their form prefers a shipped artifact and falls back to regeneration, so
+with the artifacts committed here it takes the fast path, and the fallback keeps the lock
+runnable in any clone that lacks them. Adopted, along with their slice-D skip.
+*Controlled:* with both `.out` files hidden the test still passes, so the fallback is
+exercised and not merely present.
+
+## 4. And the paper the owner is reading has changed
+
+`8dac820e` edits `papers/P3_THE_PAPER/main.tex`. **§8's family-wide amphichirality sentence is
+removed** — it had been retracted in this repository on 2026-09-02 (B1181 → B1235,
+`arc_verdict` RETRACTED, the test used was orientation-blind) **and the paper still carried
+it**; the corrected figure is 112 members, 38 amphichiral, 74 chiral. Also: §2's cusp shapes
+were attributed backwards, §2's base rate resolves to 36.2%/31.0%, and Scope 20's *"five of
+the six falsifiers"* is corrected to five.
+
+That seat's own diagnosis of why no lock caught the retracted claim is worth keeping: *"The
+claim was absent from `MANIFEST.json`, which is why no lock caught it."* **A claim outside the
+manifest is outside the guard** — the same shape as this memo's §2, where evidence outside the
+repository is outside the lock.
+
+*Rebuilt and handed to the owner, replacing the earlier PDF, which was built from `b94ed03a`
+and carries the retracted sentence.*
