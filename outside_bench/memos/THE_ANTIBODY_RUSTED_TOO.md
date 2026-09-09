@@ -1,0 +1,106 @@
+# MEMO 189 — **THE CHECK BUILT TO CATCH RUSTED INSTRUMENTS HAS ITSELF GONE BLIND**: it sees 2 arcs out of 152 that carry exactly the structure it was written to watch
+
+**Date** 2026-09-09 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Certificate** `certificates/instrument_coverage.py` · **Output** `outputs/instrument_coverage_out.txt`
+**Gate 5** pure counting over the repository. No measured physical value.
+
+**Already-banked check (memo 153).** Terms searched: `instrument freshness`, `results.json cache`,
+`stale lock`, `coverage`, `B1054`. **The corpus already holds the arc** — `B1054` / Review 42 —
+and this memo is explicitly built on it, not around it. Nothing here is claimed as new that isn't.
+
+**Scope.** `scripts/checks/` lives on **main**. This lane does not touch main. The finding is
+measured, the repair is specified exactly, and applying it is the owner's call.
+
+---
+
+## 1. The programme found this pattern first, and gets the credit
+
+Memo 188 read the whole corpus and named the master pattern: *the characteristic failure is not
+error, it is entropy in the programme's own instruments.* **That was not this bench's discovery.**
+The programme found it, in a sharper and more specific form, at **B1054 / Review 42**, and wrote a
+check for it. From `scripts/checks/instrument_freshness.py`'s own docstring:
+
+> *"an arc's lock asserts over `frontier/BNNNN_*/results.json`; `results.json` is a CACHE, written
+> once at banking time and committed; later arcs edit the files the instrument measures — that is
+> what a consolidation window IS — and nothing re-runs the instrument; so the lock validates the
+> cache against itself and cannot see the drift. **By construction.**"*
+
+and Review 42's governing finding, in its own words:
+
+> *"two locks were red at HEAD, and nobody knew."*
+
+That is a better statement of memo 188's pattern than memo 188 made. **Memo 188 generalised a
+finding the programme already owned.** Said plainly, because the reverse would be a nicer story
+and would be false.
+
+## 2. What happened next — the pattern, applied to the antibody
+
+The check selects its subjects by looking for arcs carrying **both `verify.py` and `results.json`**.
+Measured today:
+
+```
+arcs in frontier/                                  1125
+arcs the check selects (verify.py + results.json)     2      0.2%
+```
+
+Because the corpus **renamed its instruments**:
+
+```
+probe.py        145        results.json         118
+verdict.py       23        verification/         80
+compute.py       19        per-arc *_results.json, *_out.txt
+```
+
+Widening the selector to the shapes actually in use:
+
+```
+arcs with some runnable script                      303
+arcs with some committed result artefact            316
+arcs with BOTH (a widened selector)                  72
+arcs with a verification/ directory                  80
+union                                               152
+```
+
+> **The check sees 2 of those 152. It is blind to 150 arcs that carry exactly the structure
+> B1054 warned about.** It still runs. It still passes.
+
+## 3. Why this is worse than having no check (interpretation, labelled)
+
+**A green check with 0.2% coverage answers *"is anything stale?"* with a silence that reads as
+*no*.** The failure B1054 identified was that a lock cannot see its own instrument. The failure
+here is one level up: **the instrument that was built to see across locks cannot see that it has
+stopped looking at anything.** Nothing red ever appears, so nothing prompts a second look.
+
+This is the same shape as the other three instances memo 188 counted, in one day:
+
+* `depends_on` — adopted at B800, ran at 77%, decayed to 0%;
+* `PROGRESS_LOG.md` — the log GOVERNANCE §5 requires every status change to enter, quiet since 2026-08-30;
+* a minus sign that failed to survive a download, **twice** (memos 186 and 187).
+
+**None of these is a reasoning error.** Every one is something built, used, and then not fed.
+
+## 4. The repair, specified
+
+Widen the selector in `scripts/checks/instrument_freshness.py` from the literal pair
+`(verify.py, results.json)` to the shapes in §2. That takes it from **2 arcs to 152**.
+
+**Two properties must survive the widening, and both are easy to lose:**
+
+1. **It must stay non-mutating.** Running an instrument rewrites its own results; the current file
+   snapshots every artefact and restores it unconditionally. Its own docstring records that the
+   first version did *not*, and destroyed B946's four cached values — *"only git still had them"* —
+   and that a mutating sweep inside the suite would make other locks depend on **test order**.
+2. **It must stay a test, not a per-push gate.** It costs minutes at 26 instruments; at 152 it
+   should be **sampled or sharded**, not run whole on every suite pass.
+
+## 5. What is NOT claimed
+
+**Nothing here says the 150 hidden arcs are stale.** That is the *next* measurement, and it needs
+the widened selector plus the snapshot discipline above. **What is established is only that nobody
+can currently see** — which is the precondition for the drift B1054 found, not the drift itself.
+
+## 6. Named follow-up
+
+**F189-1.** Apply the widened selector (owner's call, on main), then run it non-mutating over the
+152 and report how many committed results no longer reproduce. That is the number Review 42 would
+have wanted and nobody has.

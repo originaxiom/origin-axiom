@@ -1833,3 +1833,63 @@ particular, never presented → valve. Filed as **F188-1**.
 verified facts — none wrong, none wasted, memo 187 turned borrowed literature into an owned
 instrument — **but the next unit should not be an eighth fact.** It should be the one chain that
 either reaches `σ` or proves it unreachable. Per R83, the clean negative is worth as much.
+
+---
+
+## ADDENDUM 89 (2026-09-09) — **R89: "where does this leave us?"**
+
+### The one-line answer
+
+**The bottleneck moved.** For weeks the honest answer to *"what next"* was **wait for a file, or
+wait for a human.** As of today the two highest-leverage actions are **unblocked, internal, and
+need no one's permission but yours.**
+
+### Where each thing stands
+
+**1. `σ` — unchanged, and not dressed up.** Not forced. `c_eff` was a proxy; the object's own knot
+gives `1`, not `6`. What would close it is a *mechanism*, and that question is with Dimofte (Q11).
+**Nothing this week touched it, and a clean negative there is worth as much as a positive (R83).**
+
+**2. The quantum face — materially stronger, and finished as a unit.** §B'' is closed: a
+**verified** non-commutative A-polynomial for `5₂` is held, checked against this bench's own
+colored Jones. Park's eq (32) is localised — **defective as printed, and his mathematics behind it
+is right**, both proved. Five knots' invariants, four tails in closed form, one law with a
+confirmed prediction. `f₆` and beyond is still blocked; the conversion is unsolved and named.
+
+**3. The programme — knows more than it claims, and that is now measured.** 1,125 arcs. The
+promotion gate is **not obstructed and not a firewall holding a line — it is a batch mechanism
+that works and is not being run**: 63 candidates cleared in one 2026-07-03 pass, **2 promotions in
+the two months since**, and **6 of the 7 candidates that audit itself named are still unclaimed.**
+
+**4. And the thing this session actually found, which was not on any list.** The programme's
+characteristic failure is not error — errors get caught, 302 negatives and 11 retractions say so.
+It is **entropy in its own instruments**. Four instances, counted in one day: `depends_on` adopted
+at B800, run at 77%, decayed to 0%; `PROGRESS_LOG.md` quiet since 2026-08-30, the log GOVERNANCE
+§5 requires every status change to enter; a minus sign that failed to survive a download **twice**;
+and — the sharpest — **`instrument_freshness.py`, the check built at B1054 precisely to catch
+rusted instruments, now sees 2 arcs out of the 152 carrying the structure it watches, because the
+corpus renamed its instruments and the check kept looking for the old name.** It still runs. It
+still passes.
+
+> **Credit where it is owed: the programme found this pattern before this bench did.** Review 42's
+> *"two locks were red at HEAD, and nobody knew"* is a better statement of it than memo 188 made.
+> What memo 189 adds is that **the antibody rusted the same way as everything else.**
+
+### What that leaves to do, ranked, with what each is blocked on
+
+| | action | blocked on |
+|---|---|---|
+| 1 | **run the batch promotion audit again** — machinery proven, target list already written by the July audit, 6/7 unclaimed | **nothing. Your call.** |
+| 2 | **widen `instrument_freshness.py`'s selector**, 2 → 152 arcs, then run it non-mutating and report how many committed results no longer reproduce (**F189-1**) | **nothing. Your call** (it is on main; this lane does not touch main) |
+| 3 | `σ` | a human — Dimofte |
+| 4 | `f₆`+ for `5₂` | a route: Park's Conjecture 2, now in hand and untested (**F187-1**) |
+
+**Items 1 and 2 are the first things in weeks that are not waiting on anybody outside this room.**
+That is the answer to *where does this leave us*: **not closer to `σ`, and for the first time with
+the highest-value work inside our own reach.**
+
+### What this bench will not do
+
+**It will not edit `main`.** Both top items live there. The findings are measured, the repairs are
+specified to the line, and the decision is the owner's — which is the correct division of labour
+for a verification seat and is stated here so it is not mistaken for reluctance.
