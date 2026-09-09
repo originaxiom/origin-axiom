@@ -1,0 +1,32 @@
+{
+ "n_isometries": 6,
+ "cusp_swaps": 0,
+ "per_cusp": {
+  "0": {
+   "fixing_orientation_preserving": 6,
+   "values": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "order3_with_3": 2
+  },
+  "1": {
+   "fixing_orientation_preserving": 6,
+   "values": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "order3_with_3": 2
+  }
+ },
+ "localized_count_on_a_fixed_cusp": 3,
+ "both_cusps_carry_it": true,
+ "equal_signs_forced_in_PW_frame": true,
+ "choices": [
+  "I-30: the closing's charge locus = a cusp of m202 fixed by its order-3 rotation (which cusp; m202 within the class)"
+ ]
+}

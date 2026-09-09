@@ -7023,6 +7023,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1321": {
+   "slug": "l205 the siblings localized count",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "L205"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B132": {
    "slug": "quantum layer",
    "motifs": [

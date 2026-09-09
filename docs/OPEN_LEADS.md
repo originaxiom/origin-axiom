@@ -2413,6 +2413,8 @@ rank pattern?); (iii) only then ask whether any single quantity is extremal on e
 unique selection without a new closer's choice: 10 %. ★★.
 
 ## L205 — THE SIBLING'S LOCALIZED COUNT (registered 2026-09-08, B1303; the owner's decision on MASTERPLAN v3's D3, taken 2026-09-08 after B1302 priced the case)
+
+*L205 status 2026-09-09 (B1321): **PRICED, the bounded arc done.** m202's order-3 rotation gives PW's localized count 3 on both cusps with the signs forced (I-30, one row); the three-line class of the census to nine tetrahedra has six members (m202, s959, v3461, v3551, o9_40999, o9_43931) and none keeps the golden face. Reopens only beyond nine tetrahedra or by construction.*
 **Decision (owner, 2026-09-08): "Reopen D3 as a bounded arc after Phase 1."** One pre-registered arc, numbered from the free block
 (B1316 or later), not a door until it earns one. Its content, fixed now so that it cannot drift: (i) Pantev–Wijnholt eq. (3.18)'s
 LOCALIZED count on m202 — the signed intersection of the Higgs eigen-form's zero locus with the three fixed lines of the order-3

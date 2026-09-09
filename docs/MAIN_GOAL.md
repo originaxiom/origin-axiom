@@ -134,7 +134,7 @@ with radiative breaking M_soft in the same regime, split/high-scale supersymmetr
 
 **MASTERPLAN v3.1 (approved 2026-09-08) continues from here:** Phase 1 = the seat sweep (B1298 the lift fork, B1299 the period-2 duality, B1302 the sibling m202, B1303 the SM closing's Z′ + Y₁₂, B1304 the audit seat, B1305 the cloud, B1306 the older debt, B1307 the harvest gate), Phase 2 = the chiral-cover test (L202), Phase 3 = the quantum-face value question, Phase 4 = instruments first; the harvest rules are binding (every seat item a ledger row, the seat speaks first, scripts run not read).
 
-**Phase 2 Arc 0 done (2026-09-09, B1320):** Pantev–Wijnholt's localized count on the ℤ/3 and ℤ/4 descents is 0 or 4, never 3 (m202's order-3 rotation the live control); with B1297 both halves of D2 are computed on the cyclic tower. Items 1–2 stay as written; I-26, I-27 and I-28 (the lift, B1298) stay **UNEARNED** until a door earns them. Doors are worked **in order**;
+**D3 closed as a PRICED door (2026-09-09, B1321 = L205):** m202's localized count is 3 on both cusps at the price of one identification row (I-30) and the golden face — none of the six members of the three-line class to nine tetrahedra keeps t² − 3t + 1. **Phase 2 Arc 0 done (2026-09-09, B1320):** Pantev–Wijnholt's localized count on the ℤ/3 and ℤ/4 descents is 0 or 4, never 3 (m202's order-3 rotation the live control); with B1297 both halves of D2 are computed on the cyclic tower. Items 1–2 stay as written; I-26, I-27 and I-28 (the lift, B1298) stay **UNEARNED** until a door earns them. Doors are worked **in order**;
 one is left only when earned, refuted, or blocked by a registered computation.
 
 ## JOIN 2 — the values *(I-13, the listener map)*

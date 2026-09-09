@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 12,
+ "unearned": 13,
  "rows": [
   "I-6",
   "I-7",
@@ -13,9 +13,10 @@
   "I-25",
   "I-26",
   "I-27",
-  "I-28"
+  "I-28",
+  "I-30"
  ],
- "total_rows": 28,
+ "total_rows": 29,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -84,6 +85,12 @@
    "row": "I-28",
    "arc": "B1298",
    "reason": "THE LIFT FORK REGISTERED AS THE PHYSICS SEAT ASKED. fc R72 (2026-09-06) proved from main's own B353 item (B) that the involution has TWO lifts to E6 -- inner Ad(exp(pi i rho^vee)) and outer theta_D -- and that R70/R71 and main's B1296 assumed the outer one; under the inner lift every Cartan direction is even and the count-2 SO(10) configuration is anomaly-free and equivariant. B1298 verified both lifts on main's E6 (32 fixed roots A5+A1 vs 24 = F4) and proved exactly that the FLAT germ selects the outer lift (twelve signs = theta_D; = B353 (C) and sm:B1280 Thm 2), so the choice lives only in the singular frame. Registered UNEARNED at creation as the ratchet requires; its earning text names I-27, so under B1266's union-find it joins I-27's source (eight sources, price 12 unchanged). Raised by hand; nothing absorbed."
+  },
+  {
+   "date": "2026-09-09",
+   "arc": "B1321",
+   "row": "I-30",
+   "reason": "L205's bounded arc registers the ONE choice the localized 3 on m202 costs (the locus); the signs are forced. A deliberate, dated raise per the ratchet's own rule; not a promotion."
   }
  ],
  "_earned_additions": [

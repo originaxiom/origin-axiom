@@ -1,0 +1,148 @@
+{
+ "design": "see DESIGN.sha256",
+ "tets_max": 9,
+ "scanned": 61911,
+ "two_cusped": 2750,
+ "klass": [
+  {
+   "name": "m202",
+   "tets": 4,
+   "H1": "Z + Z",
+   "cusps_with_3": [
+    0,
+    1
+   ],
+   "values": {
+    "4|det+1": 1,
+    "0|det+1": 1,
+    "3|det+1": 2,
+    "1|det+1": 2
+   },
+   "presentation": "two-generator",
+   "primitive_classes": 48,
+   "golden_hits": [],
+   "delta": "-t1*t2 - t1 - t2**2 - t2 - 1 - t2**2/t1 - t2/t1"
+  },
+  {
+   "name": "s959",
+   "tets": 6,
+   "H1": "Z/3 + Z + Z",
+   "cusps_with_3": [
+    0,
+    1
+   ],
+   "values": {
+    "4|det+1": 1,
+    "0|det+1": 1,
+    "3|det+1": 2,
+    "1|det+1": 2
+   },
+   "presentation": "rank 3 minors' gcd",
+   "primitive_classes": 48,
+   "golden_hits": [],
+   "delta": "1"
+  },
+  {
+   "name": "v3461",
+   "tets": 7,
+   "H1": "Z + Z",
+   "cusps_with_3": [
+    0,
+    1
+   ],
+   "values": {
+    "4|det+1": 1,
+    "0|det+1": 1,
+    "3|det+1": 2,
+    "1|det+1": 2
+   },
+   "presentation": "two-generator",
+   "primitive_classes": 48,
+   "golden_hits": [],
+   "delta": "t1**3 + t1**3/t2 + t1**3/t2**2 + t1**2 + t1**2/t2 + t1**2/t2**2 + t1**2/t2**3 + t1 + t1/t2 + t1/t2**2 + t1/t2**3 + t1/t2**4 + 1/t2 + t2**(-2) + t2**(-3) + t2**(-4) + 1/(t1*t2**2) + 1/(t1*t2**3) + 1/(t"
+  },
+  {
+   "name": "v3551",
+   "tets": 7,
+   "H1": "Z/2 + Z + Z",
+   "cusps_with_3": [
+    0,
+    1
+   ],
+   "values": {
+    "4|det+1": 1,
+    "0|det+1": 1,
+    "3|det+1": 2,
+    "1|det+1": 2
+   },
+   "presentation": "rank 3 minors' gcd",
+   "primitive_classes": 48,
+   "golden_hits": [],
+   "delta": "1"
+  },
+  {
+   "name": "o9_40999",
+   "tets": 9,
+   "H1": "Z/4 + Z + Z",
+   "cusps_with_3": [
+    0,
+    1
+   ],
+   "values": {
+    "4|det+1": 1,
+    "0|det+1": 1,
+    "3|det+1": 2,
+    "1|det+1": 2
+   },
+   "presentation": "rank 3 minors' gcd",
+   "primitive_classes": 48,
+   "golden_hits": [],
+   "delta": "1/t1"
+  },
+  {
+   "name": "o9_43931",
+   "tets": 9,
+   "H1": "Z/5 + Z + Z",
+   "cusps_with_3": [
+    0,
+    1
+   ],
+   "values": {
+    "4|det+1": 1,
+    "0|det+1": 1,
+    "3|det+1": 2,
+    "1|det+1": 2
+   },
+   "presentation": "rank 3 minors' gcd",
+   "primitive_classes": 48,
+   "golden_hits": [],
+   "delta": "1"
+  }
+ ],
+ "untested": [],
+ "golden": [],
+ "controls": {
+  "m202_in_class_no_golden": true,
+  "planted_detected": true,
+  "m202_record": {
+   "name": "m202",
+   "tets": 4,
+   "H1": "Z + Z",
+   "cusps_with_3": [
+    0,
+    1
+   ],
+   "values": {
+    "4|det+1": 1,
+    "0|det+1": 1,
+    "3|det+1": 2,
+    "1|det+1": 2
+   },
+   "presentation": "two-generator",
+   "primitive_classes": 48,
+   "golden_hits": [],
+   "delta": "-t1*t2 - t1 - t2**2 - t2 - 1 - t2**2/t1 - t2/t1"
+  }
+ },
+ "verdict": "FAIL: no member of the three-line class to nine tetrahedra keeps the golden face"
+}
