@@ -20,7 +20,7 @@ the source bench caught itself).
 
 - |Ĝ| = 96 exactly; the 2T copy has index 4.
 - **The fixed-dimension census over the 95 nontrivial elements: {3d: 53, 1d: 42} — NO
-  element has a 0-dimensional fixed set.** (The 53 split as 23 copies of the ℝ³ plane +
+  element has a 0-dimensional fixed set.** *(Currency 2026-09-09, B1353: the census is reproduced exactly — Ĝ is the Goursat group (D*₂, C₄; 2O, 2T) — and the apex is an isolated fixed point of the group as a whole, though of no element; what fails is not isolation but the collision: every one of the 30 A-planes meets the E₆ plane in a line.)* (The 53 split as 23 copies of the ℝ³ plane +
   30 axis⊕2-plane planes; internally consistent, 23+30+42 = 95.)
 - Gauge loci (codim-4): ONE E₆ locus (the ℝ³ plane; pointwise stabilizer exactly the 2T
   copy, order 24) + THREE A₁ families (30 planes in orbits of 6, 12, 12; pointwise

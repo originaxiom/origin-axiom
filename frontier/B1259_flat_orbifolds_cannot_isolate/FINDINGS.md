@@ -31,6 +31,12 @@ it is a property of **flatness in seven dimensions**.
 
 ## Consequence
 
+*(Currency 2026-09-09, B1353: main's E70 scoped the theorem above — every element fixes a line, but a group can have an
+isolated fixed point, so the stratum no-go does not follow from the element lemma. B1353 proves the stratum statement
+directly: in every flat orbifold model in which the apex of the E₆ locus is an isolated fixed point of the group (fourteen,
+B1084's Ĝ among them), every A-type stratum through the apex contains a line of the E₆ plane; the A₁/E₆ collision is never
+isolated. The consequence below stands with that mechanism.)*
+
 **Acharya–Witten isolation is unavailable in the entire class of flat G₂ orbifolds.** The hatch
 cannot be walked by hunting a better finite group — **that whole search space is closed in one
 line.** Chiral matter by this route requires genuine **curvature**: a *conical* G₂ singularity, whose

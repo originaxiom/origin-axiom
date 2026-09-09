@@ -1,0 +1,20 @@
+  step 0.01 (B1352 step01/): relator residual 2.0e-65; largest singular value of T 1.754e+14; three smallest ['5.572e-41', '3.554e-37', '2.607e-31'] (relative)
+      self-duality defects |tr rho(w) - tr rho(w^-1)| on the six words: ['1.714e-13', '1.714e-13', '1.407e-11', '3.865e-09', '4.901e-62', '3.865e-09']
+  step 0.02 (B1350): relator residual 6.0e-68; largest singular value of T 1.754e+14; three smallest ['6.845e-39', '3.483e-36', '3.32e-30'] (relative)
+      self-duality defects |tr rho(w) - tr rho(w^-1)| on the six words: ['2.183e-12', '2.183e-12', '1.793e-10', '4.923e-08', '1.486e-64', '4.923e-08']
+  step 0.04 (B1352 step04/): relator residual 2.2e-67; largest singular value of T 1.754e+14; three smallest ['3.68e-37', '7.736e-35', '5.605e-29'] (relative)
+      self-duality defects |tr rho(w) - tr rho(w^-1)| on the six words: ['3.685e-11', '3.685e-11', '3.026e-09', '8.311e-07', '5.489e-64', '8.311e-07']
+  == step 0.02 (B1350) / step 0.01 (B1352 step01/)
+     defect ratios: ['12.737', '12.737', '12.737', '12.737', '12.737']
+     if the defects are fourth order, the curve's parameter ratio is 1.8892 (2 at first order; the Newton correction reparametrises)
+     singular value 0: ratio 122.83 = 2^6.941 = (parameter ratio)^7.563
+     singular value 1: ratio 9.8004 = 2^3.293 = (parameter ratio)^3.588
+     singular value 2: ratio 12.737 = 2^3.671 = (parameter ratio)^4.0
+     product of the three: ratio 2^13.9 = (parameter ratio)^15.15   (stage D: e1 + e2 + e3 = 12 on the greedy and keep-branches)
+  == step 0.04 (B1352 step04/) / step 0.02 (B1350)
+     defect ratios: ['16.884', '16.884', '16.884', '16.884', '16.884']
+     if the defects are fourth order, the curve's parameter ratio is 2.0271 (2 at first order; the Newton correction reparametrises)
+     singular value 0: ratio 53.764 = 2^5.749 = (parameter ratio)^5.639
+     singular value 1: ratio 22.208 = 2^4.473 = (parameter ratio)^4.388
+     singular value 2: ratio 16.884 = 2^4.078 = (parameter ratio)^4.0
+     product of the three: ratio 2^14.3 = (parameter ratio)^14.03   (stage D: e1 + e2 + e3 = 12 on the greedy and keep-branches)

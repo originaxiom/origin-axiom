@@ -1,0 +1,49 @@
+    [rescaled 27: |A0| = [1.80e+3 +/- 4.23], |B0| = [3.45e+3 +/- 4.17]]
+=== (5a) one exact cocycle class per sl2-block of e6 at the subregular point ===
+    block V2: dim Z1 = 4, dim B1 = 3, h1 = 1
+    block V4: dim Z1 = 6, dim B1 = 5, h1 = 1
+    block V6: dim Z1 = 8, dim B1 = 7, h1 = 1
+    block V8: dim Z1 = 10, dim B1 = 9, h1 = 1
+    block V10: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V10#2: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V14: dim Z1 = 16, dim B1 = 15, h1 = 1
+    block V16: dim Z1 = 18, dim B1 = 17, h1 = 1
+    (28 s)
+=== (a) the V8 direction: |Y| = 2.031e+06, step 0.02/|Y|, start residual [0.00172 +/- 4.48e-6] ===
+      newton it 0: |res| = 1.72e-03
+      newton it 1: |res| = 1.12e-06
+      newton it 2: |res| = 9.74e-14
+      newton it 3: |res| = 3.34e-14
+      newton it 4: |res| = 3.04e-14
+      newton it 5: |res| = 2.88e-14
+      newton it 6: |res| = 2.73e-14
+      newton it 7: |res| = 2.58e-14
+      newton it 8: |res| = 2.42e-14
+      newton it 9: |res| = 2.25e-14
+      newton it 10: |res| = 2.08e-14
+      newton it 11: |res| = 1.91e-14
+      newton it 12: |res| = 1.74e-14
+      newton it 13: |res| = 1.59e-14
+      newton it 14: |res| = 1.44e-14
+      newton it 15: |res| = 1.30e-14
+      newton it 16: |res| = 1.17e-14
+      newton it 17: |res| = 1.05e-14
+      newton it 18: |res| = 9.48e-15
+      newton it 19: |res| = 8.50e-15
+      newton it 20: |res| = 7.62e-15
+      newton it 21: |res| = 6.82e-15
+      newton it 22: |res| = 6.09e-15
+      newton it 23: |res| = 5.44e-15
+      newton it 24: |res| = 4.86e-15
+      newton it 25: |res| = 4.33e-15
+      newton it 26: |res| = 3.86e-15
+      newton it 27: |res| = 3.44e-15
+      newton it 28: |res| = 3.06e-15
+      newton it 29: |res| = 2.72e-15
+      newton it 30: |res| = 2.42e-15
+      newton it 31: |res| = 2.15e-15
+      newton it 32: |res| = 1.91e-15
+      newton it 33: |res| = 1.69e-15
+      newton it 34: |res| = 1.50e-15
+      newton it 35: |res| = 1.33e-15
+[stopped by hand after 33 iterations: linear convergence, rate 0.89 per iteration, from 9.7e-14 (it 2) to 1.7e-15 (it 33); reaching the 1e-60 target at this rate would need ~700 more iterations -- the signature of a singular limit, not of a genuine transverse point. Contrast: quadratic convergence to 1e-61 on the V10 classes (fixed_locus_c*_b0_run.txt) and B1268's geometric-point V8 run (21 iterations to 2.6e-63).]

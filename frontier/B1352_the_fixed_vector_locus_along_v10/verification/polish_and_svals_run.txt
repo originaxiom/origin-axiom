@@ -1,0 +1,12 @@
+    [rescaled 27: |A0| = [1.80e+3 +/- 4.23], |B0| = [3.45e+3 +/- 4.17]]
+  class 1: loaded (banked at 200 digits; 600-bit Newton residual 6.0e-68); relator residual at 2000 bits 6.0e-68
+     three smallest relative singular values of T before polishing: ['6.84467734424e-39', '3.48341237724e-36', '3.32003751315e-30']
+      newton it 0: |res| = 5.96e-68
+      newton it 1: |res| = 1.39e-75
+      newton it 2: |res| = 2.72e-82
+      newton it 3: |res| = 2.70e-82
+      newton: no descent direction found; stopping
+     polished residual 2.7e-82; relative move of rho(a): 4.2e-60   (351 s)
+     three smallest relative singular values of T after polishing:  ['6.84467734424e-39', '3.48341237724e-36', '3.32003751315e-30']
+     relative changes: ['2.47e-43', '3.85e-45', '1.07e-48']
+[351 s]

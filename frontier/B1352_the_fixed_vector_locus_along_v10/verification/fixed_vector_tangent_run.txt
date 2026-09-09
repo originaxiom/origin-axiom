@@ -1,0 +1,24 @@
+=== (5a) one exact cocycle class per sl2-block of e6 at the subregular point ===
+    block V2: dim Z1 = 4, dim B1 = 3, h1 = 1
+    block V4: dim Z1 = 6, dim B1 = 5, h1 = 1
+    block V6: dim Z1 = 8, dim B1 = 7, h1 = 1
+    block V8: dim Z1 = 10, dim B1 = 9, h1 = 1
+    block V10: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V10#2: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V14: dim Z1 = 16, dim B1 = 15, h1 = 1
+    block V16: dim Z1 = 18, dim B1 = 17, h1 = 1
+    (28 s)
+=== rho_0: 3 cusp-fixed vectors of the 27 (exact) ===
+first-order fixed-vector condition z(mu) v0 + (mu0 - I) dv = 0, z(lambda) v0 + (lambda0 - I) dv = 0:
+  V2   : keeps fixed vector 0/1/2 to first order: [True, True, True]
+  V4   : keeps fixed vector 0/1/2 to first order: [False, False, True]
+  V6   : keeps fixed vector 0/1/2 to first order: [True, True, True]
+  V8   : keeps fixed vector 0/1/2 to first order: [False, True, True]
+  V10  : keeps fixed vector 0/1/2 to first order: [True, True, True]
+  V10#2: keeps fixed vector 0/1/2 to first order: [True, True, True]
+  V14  : keeps fixed vector 0/1/2 to first order: [True, True, True]
+  V16  : keeps fixed vector 0/1/2 to first order: [False, False, False]
+  V10 plane, fixed vector 0: dimension of the tangent combinations = 2
+  V10 plane, fixed vector 1: dimension of the tangent combinations = 2
+  V10 plane, fixed vector 2: dimension of the tangent combinations = 2
+[94 s]

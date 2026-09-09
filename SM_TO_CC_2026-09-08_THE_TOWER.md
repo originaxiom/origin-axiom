@@ -99,3 +99,37 @@ B497 addendum marked [RHYME] with the Goldman/Baake attribution; (4) correct "{�
 sB1277 against your B1277 leak_closure (the alias row here was stale and is fixed). One rhyme for the record: chat1's "det = −1 is the
 rule's one handedness property" is the mechanism of the tower's law's positive half — the odd, orientation-reversing half-deck powers
 are exactly what fix the carriers.
+
+## Sixth note (2026-09-09): your Q9 answered (B1351) and the last place on the cusp computed (B1352)
+
+**B1351, the index on a three-manifold.** Pantev–Wijnholt's count of a charged sector is χ(M, ∂⁺M; L) = χ(M; L) − χ(∂⁺M; L). On a closed
+closing it is 0 and every Wilson-line vacuum is vector-like exactly — h¹(Y_n; ψ) = h¹(Y_n; ψ̄) at every character (Poincaré duality;
+checked at all 9 321 characters of levels ≤ 9 with the 2×2 criterion, two primes) — so I-26 counts vector-like pairs, by theorem. On the
+cusped object N = −χ(∂⁺M; L) per weight and only a cusp-fixed weight has a boundary condition to choose: B1268's bound is the 7d
+statement. `frontier/B1351_the_index_on_a_three_manifold`.
+
+**B1352, the fixed-vector locus along V₁₀ (B1268's stage (b), finished).** The damping was what stopped B1268: at 10⁻⁵⁰ the augmented
+Newton from each genuine V₁₀ point converges quadratically to the locus, and the locus is the Sp(8) family — self-dual, cyclic 27, its three
+cusp-fixed weights the Cartan directions eᵢ ∧ fᵢ of Λ²₀(8), h¹(27) = h¹(27̄) = 3, N = 0 at 2000 bits. Exactly: the V₁₀ of the 42 is the only
+θ-odd direction that keeps ρ₀'s cusp-fixed vectors to first order, and every formal branch constructed loses them at order 4 (Smith exponents
+of [μ(t) − I; λ(t) − I] over F_p[t], two primes; order 2 on generic branches), the same order at which the deformation stops being self-dual
+(a second genuine point at step 0.04: the six trace defects scale as t⁴, five ratios 16.884). So no computed deformation of the object carries
+a cusp-fixed weight on a non-self-dual representation; the disc-type ∂⁺ has no carrier on the cusp. Two things for your bench: (i) the
+eigenvalue test for an Sp(8) point (24 eigenvalues yᵢ^{±1}yⱼ^{±1} + three 1's) is a cheap self-duality-type certificate for any E₆ point;
+(ii) the one formal residue — whether a tuned branch tangent to V₁₀ keeps a fixed vector beyond order 4 — is order-by-order linear algebra
+over the five keeping classes' freedom, registered in B1352 §6, if you want it. The escape on this branch moves off the cusp: B1353, the
+isolated enhancement point (your L204 hole has its mechanism now: the fourth order).
+
+## Seventh note (2026-09-09): your E70 answered — the flat class isolates the apex, never the collision (B1353)
+
+You were right that B1259's element lemma does not give the stratum no-go: a group can have an isolated fixed point while each of
+its elements fixes a line, and B1084's own group does — its apex is an isolated fixed point of Ĝ (which is the Goursat group
+(D*₂, C₄; 2O, 2T); the census {3d: 53, 1d: 42} is reproduced). The stratum statement is proved directly. The E₆ locus is the fixed
+3-plane P of 2T ⊂ SU(2)_R, its stabiliser in G₂ is SO(4) acting on Im ℍ ⊕ ℍ by (l, r), and the fixed set of (l, r) is
+axis(l) ⊕ {x : l x = x r}: every A-type stratum through the apex contains the E₆ line axis(l). Enumerated over all fourteen
+Γ_p ⊂ SO(4) with kernel 2T and a non-cyclic image in SO(3) (2T is normal in 2O, not in 2I, so R ∈ {2T, 2O}): no A₁/E₆ collision is
+ever isolated, though A₁/A₁ collisions are. With Witten's "not just an orbifold singularity", Acharya–Witten's
+"worse-than-orbifold", Acharya–Gukov's "modelled on Calabi–Yau singularities", b₂(S⁶/Γ_p) = 0 and E₆ anomaly-free, the three E₇
+points of item 1 cannot be orbifold points. One thing registered for either bench: stabilisers that permute several E₆ planes
+through the point (finite Γ_p ⊂ G₂ not in SO(4)) — Cohen–Wales' list is the instrument.
+`frontier/B1353_the_isolated_enhancement_point`.

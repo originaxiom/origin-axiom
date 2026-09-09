@@ -1,0 +1,21 @@
+    [rescaled 27: |A0| = [1.80e+3 +/- 4.23], |B0| = [3.45e+3 +/- 4.17]]
+=== (a) the geometric point's exact V8 class and the Newton search (B1268 (a), damping 1e-50) ===
+    block V8: dim Z1 = 10, dim B1 = 9, h1 = 1
+    start eps = 1/696464: relator residual [0.0552 +/- 9.64e-6]
+      newton it 0: |res| = 5.52e-02
+      newton it 1: |res| = 4.14e-04
+      newton it 2: |res| = 5.68e-09
+      newton it 3: |res| = 3.16e-21
+      newton it 4: |res| = 9.12e-44
+      newton it 5: |res| = 5.79e-80
+    converged: residual 5.8e-80; self-duality defects ['[3.01 +/- 3.93e-4]', '[3.01 +/- 3.93e-4]', '[2.70e+3 +/- 4.67]', '[2.87e+6 +/- 4.90e+3]', '[4.20e-79 +/- 4.97e-82]', '[2.87e+6 +/- 4.90e+3]'] -> NOT self-dual (theta-odd)   (262 s)
+=== rho_0 (geometric): cusp-fixed space of dimension 3; dominant coordinates [15, 20, 26] ===
+=== (b) the fixed-vector locus along V8 at the geometric point, target block 0 (dominant coordinate 15), damping 1e-50 ===
+    start residual of the fixed-vector equations at the theta-odd point: 5.772e+02
+      newton it 0: |res| = 5.77e+02
+      newton it 1: |res| = 5.75e+02
+      newton it 2: |res| = 5.75e+02
+      newton it 3: |res| = 5.74e+02
+      newton it 4: |res| = 5.73e+02
+      newton it 5: |res| = 5.72e+02
+[stopped by hand after 4 iterations: |res| 5.77e2 -> 5.75e2 -> 5.74e2 -> 5.74e2 under damping 1e-50 -- the same stall as B1268's stage (b) under 1e-24 (its record: 5.78e2 -> 5.57e2 in 4 iterations); the geometric point's cusp-fixed vector cannot be restored by a Newton step from the theta-odd V8 point rho_s.]

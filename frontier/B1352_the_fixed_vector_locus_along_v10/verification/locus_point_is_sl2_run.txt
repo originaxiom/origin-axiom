@@ -1,0 +1,32 @@
+== fixed_locus_points.json
+    class 2 | fixed vector of block 0
+      rho(a): s = exp((-0.08196535 - 0.012195439j)); exponents [-6, -6, -5, -4, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 4, 5, 6, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.96; eigenvalues equal to 1 (|log| < 1e-40): 3
+      rho(b): s = exp((-0.08196535 - 0.012195439j)); exponents [-6, -6, -5, -4, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 4, 5, 6, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.96; eigenvalues equal to 1 (|log| < 1e-40): 3
+    class 1 | fixed vector of block 0
+      rho(a): s = exp((0.055116957 + 0.065685851j)); exponents [-6, -4, -4, -3, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.2; eigenvalues equal to 1 (|log| < 1e-40): 3
+      rho(b): s = exp((0.055116957 + 0.065685851j)); exponents [-6, -4, -4, -3, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.2; eigenvalues equal to 1 (|log| < 1e-40): 3
+== ../../B1350_the_v10_direction/verification/v10_direction_points.json
+    class 1
+      rho(a): s = exp((-0.055116961 - 0.06568585j)); exponents [-6, -4, -4, -3, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.2; eigenvalues equal to 1 (|log| < 1e-40): 0
+      rho(b): s = exp((-0.055116961 - 0.06568585j)); exponents [-6, -4, -4, -3, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.2; eigenvalues equal to 1 (|log| < 1e-40): 0
+    class 2
+      rho(a): s = exp((0.081965357 + 0.012195441j)); exponents [-6, -6, -5, -4, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 4, 5, 6, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.96; eigenvalues equal to 1 (|log| < 1e-40): 0
+      rho(b): s = exp((0.081965357 + 0.012195441j)); exponents [-6, -6, -5, -4, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 4, 5, 6, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.96; eigenvalues equal to 1 (|log| < 1e-40): 0
+    class 1 + class 2
+      rho(a): s = exp((-0.052963382 - 0.063119313j)); exponents [-6, -4, -4, -3, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.2; eigenvalues equal to 1 (|log| < 1e-40): 0
+      rho(b): s = exp((-0.052963382 - 0.063119313j)); exponents [-6, -4, -4, -3, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.2; eigenvalues equal to 1 (|log| < 1e-40): 0
+    class 1 - class 2
+      rho(a): s = exp((0.016433763 - 0.077174047j)); exponents [-6, -6, -4, -4, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 4, 4, 6, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.84; eigenvalues equal to 1 (|log| < 1e-40): 0
+      rho(b): s = exp((0.016433763 - 0.077174047j)); exponents [-6, -6, -4, -4, -3, -3, -3, -2, -2, -1, -1, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 4, 4, 6, 6]
+        matches the sl2 pattern NO; largest misfit of an exponent from an integer: 5.84; eigenvalues equal to 1 (|log| < 1e-40): 0

@@ -1,0 +1,12 @@
+{
+ "id": "B1352",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1268", "B1350", "B1351"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE FIXED-VECTOR LOCUS ALONG V10 (L204's other half; B1268's stage (b) completed): from every genuine V10 point of B1350 the augmented Newton (relator + mu v = v, lambda v = v, damping 1e-50) converges quadratically to the fixed-vector locus, and the locus is the Sp(8) family -- self-dual (defects 1e-53), cyclic 27, exactly three cusp-fixed weights = the Cartan directions of Lambda^2_0(8), h1(27) = h1(27bar) = 3, N = 0 at 2000 bits. Exactly: the V10 direction keeps all three cusp-fixed vectors of rho_0 to first order (the only theta-odd direction that does; Q(omega)), and every formal V10 branch constructed loses them at order 4 (order 2 on generic branches; two primes, all four directions of the V10 plane alike) -- the same order at which the deformation stops being self-dual (the trace defects scale as t^4 between two genuine points, five ratios 16.884). So no computed deformation of the cusped object carries a cusp-fixed weight on a non-self-dual representation: the disc-type boundary term of Pantev-Wijnholt has no place on the object; N = 0 on the theta-odd frame with the mechanism named. B1268's V8 stage (b) at the geometric point stalls under 1e-50 too. Open: whether a tuned formal branch keeps a fixed vector beyond order 4. 0 of 19."
+}

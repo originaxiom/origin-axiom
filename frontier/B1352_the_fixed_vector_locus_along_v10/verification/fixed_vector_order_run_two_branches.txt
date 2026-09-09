@@ -1,0 +1,47 @@
+=== (5a) one exact cocycle class per sl2-block of e6 at the subregular point ===
+    block V2: dim Z1 = 4, dim B1 = 3, h1 = 1
+    block V4: dim Z1 = 6, dim B1 = 5, h1 = 1
+    block V6: dim Z1 = 8, dim B1 = 7, h1 = 1
+    block V8: dim Z1 = 10, dim B1 = 9, h1 = 1
+    block V10: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V10#2: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V14: dim Z1 = 16, dim B1 = 15, h1 = 1
+    block V16: dim Z1 = 18, dim B1 = 17, h1 = 1
+    (27 s)
+=== stage D modulo p = 67108819 (omega -> 19491216), branches to order 10 ===
+    at rho_0: rank of [mu - I; lambda - I] = 24 (cusp-fixed vectors: 3)
+    V10          [greedy] branch to order 10: kd(m) = [3, 6, 9, 12, 12, 12, 12, 12, 12, 12, 12]; loss orders [4, 4, 4]   (5 s)
+    V10          [random] branch to order 10: kd(m) = [3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]; loss orders [2, 2, 2]   (10 s)
+    V10#2        [greedy] branch to order 10: kd(m) = [3, 6, 9, 12, 12, 12, 12, 12, 12, 12, 12]; loss orders [4, 4, 4]   (15 s)
+    V10#2        [random] branch to order 10: kd(m) = [3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]; loss orders [2, 2, 2]   (20 s)
+    V10 + V10#2  [greedy] branch to order 10: kd(m) = [3, 6, 9, 12, 12, 12, 12, 12, 12, 12, 12]; loss orders [4, 4, 4]   (25 s)
+    V10 + V10#2  [random] branch to order 10: kd(m) = [3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]; loss orders [2, 2, 2]   (30 s)
+    V10 - V10#2  [greedy] branch to order 10: kd(m) = [3, 6, 9, 12, 12, 12, 12, 12, 12, 12, 12]; loss orders [4, 4, 4]   (35 s)
+    V10 - V10#2  [random] branch to order 10: kd(m) = [3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]; loss orders [2, 2, 2]   (40 s)
+    V8           [greedy] branch to order 4: kd(m) = [3, 5, 7, 7, 7]; loss orders [1, 3, 3]   (41 s)
+    V8           [random] branch to order 3: kd(m) = [3, 5, 5, 5]; loss orders [1, 2, 2]   (42 s)
+=== stage D modulo p = 67108837 (omega -> 57280852), branches to order 10 ===
+    at rho_0: rank of [mu - I; lambda - I] = 24 (cusp-fixed vectors: 3)
+    V10          [greedy] branch to order 10: kd(m) = [3, 6, 9, 12, 12, 12, 12, 12, 12, 12, 12]; loss orders [4, 4, 4]   (47 s)
+    V10          [random] branch to order 10: kd(m) = [3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]; loss orders [2, 2, 2]   (52 s)
+    V10#2        [greedy] branch to order 10: kd(m) = [3, 6, 9, 12, 12, 12, 12, 12, 12, 12, 12]; loss orders [4, 4, 4]   (57 s)
+    V10#2        [random] branch to order 10: kd(m) = [3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]; loss orders [2, 2, 2]   (62 s)
+    V10 + V10#2  [greedy] branch to order 10: kd(m) = [3, 6, 9, 12, 12, 12, 12, 12, 12, 12, 12]; loss orders [4, 4, 4]   (68 s)
+    V10 + V10#2  [random] branch to order 10: kd(m) = [3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]; loss orders [2, 2, 2]   (73 s)
+    V10 - V10#2  [greedy] branch to order 10: kd(m) = [3, 6, 9, 12, 12, 12, 12, 12, 12, 12, 12]; loss orders [4, 4, 4]   (78 s)
+    V10 - V10#2  [random] branch to order 10: kd(m) = [3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]; loss orders [2, 2, 2]   (83 s)
+    V8           [greedy] branch to order 4: kd(m) = [3, 5, 7, 7, 7]; loss orders [1, 3, 3]   (84 s)
+    V8           [random] branch to order 3: kd(m) = [3, 5, 5, 5]; loss orders [1, 2, 2]   (85 s)
+
+=== summary: the orders at which the three cusp-fixed vectors are lost along each formal branch ===
+    V10          [greedy]: (4, 4, 4)   agreement between primes: True
+    V10          [random]: (2, 2, 2)   agreement between primes: True
+    V10#2        [greedy]: (4, 4, 4)   agreement between primes: True
+    V10#2        [random]: (2, 2, 2)   agreement between primes: True
+    V10 + V10#2  [greedy]: (4, 4, 4)   agreement between primes: True
+    V10 + V10#2  [random]: (2, 2, 2)   agreement between primes: True
+    V10 - V10#2  [greedy]: (4, 4, 4)   agreement between primes: True
+    V10 - V10#2  [random]: (2, 2, 2)   agreement between primes: True
+    V8           [greedy]: (1, 3, 3)   agreement between primes: True
+    V8           [random]: (1, 2, 2)   agreement between primes: True
+[85 s]

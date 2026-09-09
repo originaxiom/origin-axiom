@@ -6098,6 +6098,7 @@
   "B1259": {
    "slug": "flat orbifolds cannot isolate",
    "motifs": [
+    "monoid",
     "closing",
     "trace_map",
     "eisenstein",
@@ -7142,6 +7143,41 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1352": {
+   "slug": "the fixed vector locus along v10",
+   "motifs": [
+    "monoid",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "L204"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1353": {
+   "slug": "the isolated enhancement point",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
   },
   "B135": {
    "slug": "lee yang m specific",

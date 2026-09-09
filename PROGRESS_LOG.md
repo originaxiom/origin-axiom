@@ -14685,3 +14685,31 @@ points, not on {κ = 2}. Placed on the chirality map as C1/C4 material (§6c) �
 not C3. The Q8 candidate gated: the quaternion character is not a point of X(m004) (relator fails; conjugate generators in Q₈ force
 tr(ab) = ±2) — parked. The det −1 fact is the mechanism of the tower's law's positive half (odd half-deck powers reverse the fibre). Chat1's
 six asks are main's and are relayed (fifth note); the stale B1277 alias row fixed (sB1277 the_vacuum_manifold_of_the_closing).
+
+### B1352 — the fixed-vector locus along V₁₀ (2026-09-09): L204's other half closed on every computed deformation
+
+B1268's stage (b), completed with the 10⁻⁵⁰ damping: from each genuine V₁₀ point of B1350 the augmented Newton (relator + μv = v, λv = v)
+converges quadratically (15–20 steps, residual 10⁻⁶¹) to a point of the fixed-vector locus that is self-dual (defects 10⁻⁵³) and is an Sp(8)
+point — three unit eigenvalues, the other 24 of the form yᵢ^{±1}yⱼ^{±1}, cyclic 27, h¹(27) = h¹(27̄) = 3, N = 0 at 2000 bits; the three
+cusp-fixed weights are the Cartan directions of Λ²₀(8), carried by the whole Sp(8) family. Exactly: the V₁₀ of the 42 is the one θ-odd
+direction that keeps ρ₀'s three cusp-fixed vectors to first order (ℚ(ω)); on every formal V₁₀ branch constructed (greedy, random within
+the keeping classes, random) they are lost at order 4, 4, 2 respectively (Smith exponents of [μ(t) − I; λ(t) − I] over F_p[t], two primes,
+all four directions of the V₁₀ plane alike; V₈ loses one at first order). A second genuine point at step 0.04/|Y|: the six trace defects
+scale as exactly t⁴ (five ratios 16.884), the largest cusp-fixed singular value as t⁴. So the deformation leaves the self-dual world and
+the fixed-vector locus at the same order — no cusp-fixed weight on a non-self-dual point anywhere in reach; the disc-type boundary term
+has no carrier on the object. Controls: V₈ at the subregular point has no genuine point in reach (linear crawl, rate 0.89); B1268's V₈
+stage (b) at the geometric point stalls under 10⁻⁵⁰ as under 10⁻²⁴. Blocks 1 and 2 as targets stall (records). Open, registered: whether
+a tuned formal branch keeps a fixed vector beyond order 4. L204 closed on the object; the escape moves to B1353. 0 of 19; price unchanged.
+
+### B1353 — the isolated enhancement point made finite (2026-09-09): the flat class cannot host the E₇ points, by the strata
+
+Main's E70 scope of B1259 answered. The E₆ locus of a flat G₂ orbifold is the fixed 3-plane P of 2T ⊂ SU(2)_R; its stabiliser in G₂
+is SO(4) on Im ℍ ⊕ ℍ; a point of P is an isolated fixed point of its stabiliser Γ_p iff Γ_p's image in SO(3) is non-cyclic — allowed.
+Goursat enumeration of every Γ_p ⊂ SO(4) with kernel 2T (R ∈ {2T, 2O}; 2T is normal in 2O, not in 2I): fourteen groups, orders 96 to
+1440, all with an isolated apex; B1084's Ĝ = (D*₂, C₄; 2O, 2T), census {1: 42, 3: 53} reproduced, its apex isolated as a group fixed
+point. In every group every A-type stratum through the apex contains a line of the E₆ plane (Fix(l, r) = axis(l) ⊕ {x : l x = x r}
+⊃ axis(l) ⊂ P): no transversal A₁/E₆ collision, while A₁/A₁ planes do meet only at the apex. With the literature's rule (Witten:
+chiral fermions where an ADE locus passes through a conical point "not just an orbifold singularity"; Acharya–Witten:
+"worse-than-orbifold"; Acharya–Gukov: orbifold points modelled on Calabi–Yau ones), b₂(S⁶/Γ_p) = 0 and E₆ anomaly-free: the three
+E₇ points of item 1 are not orbifold points; the closing is the curved cone. Registered: stabilisers permuting several E₆ planes.
+Lock fast (2 s). 0 of 19; price unchanged.

@@ -1,0 +1,20 @@
+== fixed_locus_points.json
+    class 2 | fixed vector of block 0
+      rho(a): eigenvalues equal to 1: 3; Sp(8) pattern {+-u_i +- u_j} on the other 24: YES; u = ['(0.239227 + 0.2851j)', '(0.252565 - 0.211927j)', '(0.184542 - 0.0250355j)', '(0.0567004 - 0.177391j)']
+      rho(b): eigenvalues equal to 1: 3; Sp(8) pattern {+-u_i +- u_j} on the other 24: YES; u = ['(0.239227 + 0.2851j)', '(0.252565 - 0.211927j)', '(0.184542 - 0.0250355j)', '(0.0567004 - 0.177391j)']
+    class 1 | fixed vector of block 0
+      rho(a): eigenvalues equal to 1: 3; Sp(8) pattern {+-u_i +- u_j} on the other 24: YES; u = ['(0.346183 + 0.126j)', '(0.160481 - 0.215339j)', '(-0.0154812 + 0.268115j)', '(0.0422765 - 0.116153j)']
+      rho(b): eigenvalues equal to 1: 3; Sp(8) pattern {+-u_i +- u_j} on the other 24: YES; u = ['(0.346183 + 0.126j)', '(0.160481 - 0.215339j)', '(-0.0154812 + 0.268115j)', '(0.0422765 - 0.116153j)']
+== ../../B1350_the_v10_direction/verification/v10_direction_points.json
+    class 1
+      rho(a): eigenvalues equal to 1: 0; Sp(8) pattern {+-u_i +- u_j} on the other 27: NO; candidates with score >= 6: 27, no 4 of them fit
+      rho(b): eigenvalues equal to 1: 0; Sp(8) pattern {+-u_i +- u_j} on the other 27: NO; candidates with score >= 6: 27, no 4 of them fit
+    class 2
+      rho(a): eigenvalues equal to 1: 0; Sp(8) pattern {+-u_i +- u_j} on the other 27: NO; candidates with score >= 6: 27, no 4 of them fit
+      rho(b): eigenvalues equal to 1: 0; Sp(8) pattern {+-u_i +- u_j} on the other 27: NO; candidates with score >= 6: 27, no 4 of them fit
+    class 1 + class 2
+      rho(a): eigenvalues equal to 1: 0; Sp(8) pattern {+-u_i +- u_j} on the other 27: NO; candidates with score >= 6: 27, no 4 of them fit
+      rho(b): eigenvalues equal to 1: 0; Sp(8) pattern {+-u_i +- u_j} on the other 27: NO; candidates with score >= 6: 27, no 4 of them fit
+    class 1 - class 2
+      rho(a): eigenvalues equal to 1: 0; Sp(8) pattern {+-u_i +- u_j} on the other 27: NO; candidates with score >= 6: 27, no 4 of them fit
+      rho(b): eigenvalues equal to 1: 0; Sp(8) pattern {+-u_i +- u_j} on the other 27: NO; candidates with score >= 6: 27, no 4 of them fit

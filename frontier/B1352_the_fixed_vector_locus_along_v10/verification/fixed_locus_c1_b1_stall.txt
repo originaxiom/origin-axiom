@@ -1,0 +1,22 @@
+    [rescaled 27: |A0| = [1.80e+3 +/- 4.23], |B0| = [3.45e+3 +/- 4.17]]
+=== rho_0: cusp-fixed space of dimension 3 (one vector per block of 27 = 13 + 9 + 5) ===
+    fixed vector 0: dominant coordinate 21
+    fixed vector 1: dominant coordinate 23
+    fixed vector 2: dominant coordinate 26
+=== start: the converged V10 point along 'class 1' (relator residual 6.0e-68); fixed-vector target block 1 ===
+    start residual of the fixed-vector equations at the V10 point: 1.024e+00
+      newton it 0: |res| = 1.02e+00
+      newton it 1: |res| = 1.50e-04
+      newton it 2: |res| = 4.15e-12
+      newton it 3: |res| = 5.34e-17
+      newton it 4: |res| = 4.01e-17
+      newton it 5: |res| = 3.30e-17
+      newton it 6: |res| = 2.90e-17
+      newton it 7: |res| = 2.66e-17
+      newton it 8: |res| = 2.50e-17
+      newton it 9: |res| = 2.37e-17
+      newton it 10: |res| = 2.27e-17
+      newton it 11: |res| = 2.18e-17
+      newton it 12: |res| = 2.10e-17
+      newton it 13: |res| = 2.03e-17
+[stopped by hand after 13 iterations: linear stall (the residual falls by a factor 0.85-0.97 per iteration from iteration 3 on, never quadratically); contrast the block-0 search from the same point, which converges quadratically to 2.2e-62 in 20 iterations (fixed_locus_c1_b0_run.txt).]

@@ -380,3 +380,16 @@ left it.
 > and every Wilson-line spectrum pairs each character with its conjugate (checked at every character of every level ≤ 9); on
 > the cusped object only a cusp-fixed weight can carry a chiral boundary term, which is B1268's bound. The one place left on
 > the object — the fixed-vector locus along the V₁₀ direction — is B1352's computation.
+
+> **Currency note (2026-09-09, B1352):** the fixed-vector locus along V₁₀ is computed and is the Sp(8) family — self-dual, its
+> three cusp-fixed weights the Cartan directions of Λ²₀(8), N = 0 at 2000 bits; exactly, the V₁₀ deformation loses the cusp-fixed
+> weights and its self-duality at the same order, four. No computed deformation of the cusped object carries a cusp-fixed weight on
+> a non-self-dual representation: the disc-type boundary term has no carrier on the object (`frontier/B1352_the_fixed_vector_locus_along_v10`).
+> The escape left is off the cusp: the isolated enhancement point (B1353). 0 of 19; price unchanged.
+
+> **Currency note (2026-09-09, B1353):** the isolated enhancement point made finite. In the flat G₂ orbifold class a point of the
+> E₆ locus can be an isolated fixed point of its stabiliser (fourteen models, B1084's among them — main's E70 was right that the
+> element lemma does not decide it), but in every model every A-type stratum through the apex contains a line of the E₆ plane:
+> the transversal A₁/E₆ collision of Acharya–Witten's E₇ points never occurs in the flat class, the orbifold link has b₂ = 0 and
+> E₆ is anomaly-free, and the literature places chiral fermions only at non-orbifold conical points. The destination's item 1 is
+> the curved conical G₂ closing and nothing flatter (`frontier/B1353_the_isolated_enhancement_point`). 0 of 19; price unchanged.

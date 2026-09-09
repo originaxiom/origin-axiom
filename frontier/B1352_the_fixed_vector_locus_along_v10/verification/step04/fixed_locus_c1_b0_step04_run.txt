@@ -1,0 +1,42 @@
+    [rescaled 27: |A0| = [1.80e+3 +/- 4.23], |B0| = [3.45e+3 +/- 4.17]]
+=== rho_0: cusp-fixed space of dimension 3 (one vector per block of 27 = 13 + 9 + 5) ===
+    fixed vector 0: dominant coordinate 21
+    fixed vector 1: dominant coordinate 23
+    fixed vector 2: dominant coordinate 26
+=== start: the converged V10 point along 'class 1' (relator residual 2.2e-67); fixed-vector target block 0 ===
+    start residual of the fixed-vector equations at the V10 point: 9.251e+00
+      newton it 0: |res| = 9.25e+00
+      newton it 1: |res| = 6.37e-02
+      newton it 2: |res| = 1.23e-10
+      newton it 3: |res| = 7.75e-19
+      newton it 4: |res| = 5.22e-26
+      newton it 5: |res| = 8.75e-33
+      newton it 6: |res| = 8.25e-37
+      newton it 7: |res| = 3.33e-40
+      newton it 8: |res| = 1.35e-43
+      newton it 9: |res| = 5.43e-47
+      newton it 10: |res| = 2.19e-50
+      newton it 11: |res| = 8.86e-54
+      newton it 12: |res| = 3.58e-57
+      newton it 13: |res| = 1.44e-60
+      newton it 14: |res| = 5.83e-64
+    converged: residual 5.8e-64   (1494 s)
+    relator residual 5.8e-64; fixed-vector residual 7.0e-65
+    self-duality defects: ['[5.15e-60 +/- 6.11e-64]', '[1.89e-61 +/- 4.09e-64]', '[3.31e-58 +/- 3.18e-61]', '[2.70e-55 +/- 2.02e-58]', '[1.36e-60 +/- 2.00e-63]', '[2.70e-55 +/- 2.02e-58]'] -> SELF-DUAL
+    relative distance moved from the V10 point: 9.532e-09; distance from rho_0: 3.828e-06  (0 would mean the locus point is rho_0 itself)
+      [27 on the locus (class 1 | fixed vector of block 0) d0] rank 27 of (54x27); smallest accepted pivot/scale = 1.27e-9; largest rejected = 0.0
+      [27 on the locus (class 1 | fixed vector of block 0) d1] rank 24 of (27x54); smallest accepted pivot/scale = 1.63e-14; largest rejected = 1.96e-57
+      [27 on the locus (class 1 | fixed vector of block 0) cusp fixed] rank 24 of (54x27); smallest accepted pivot/scale = 6.86e-22; largest rejected = 9.46e-66
+      [27 on the locus (class 1 | fixed vector of block 0) Z1(T2)] rank 24 of (27x54); smallest accepted pivot/scale = 4.04e-27; largest rejected = 2.63e-57
+      [27 on the locus (class 1 | fixed vector of block 0) B1(T2)] rank 24 of (54x27); smallest accepted pivot/scale = 6.86e-22; largest rejected = 9.46e-66
+      [27 on the locus (class 1 | fixed vector of block 0) res+B] rank 27 of (54x57); smallest accepted pivot/scale = 1.26e-20; largest rejected = 1.48e-61
+    27 on the locus (class 1 | fixed vector of block 0): h0(M) = 0, h1(M) = 3, h0(dM) = 3, h1(dM) = 6, rank(res) = 3, [mu,lambda] = 1.9e-50  =>  N = rank(res) - h0(dM) = 0
+      [27bar on the locus (class 1 | fixed vector of block 0) d0] rank 27 of (54x27); smallest accepted pivot/scale = 2.2e-9; largest rejected = 0.0
+      [27bar on the locus (class 1 | fixed vector of block 0) d1] rank 24 of (27x54); smallest accepted pivot/scale = 3.86e-16; largest rejected = 1.45e-55
+      [27bar on the locus (class 1 | fixed vector of block 0) cusp fixed] rank 24 of (54x27); smallest accepted pivot/scale = 2.42e-17; largest rejected = 6.68e-57
+      [27bar on the locus (class 1 | fixed vector of block 0) Z1(T2)] rank 24 of (27x54); smallest accepted pivot/scale = 8.5e-19; largest rejected = 1.06e-60
+      [27bar on the locus (class 1 | fixed vector of block 0) B1(T2)] rank 24 of (54x27); smallest accepted pivot/scale = 2.42e-17; largest rejected = 6.68e-57
+      [27bar on the locus (class 1 | fixed vector of block 0) res+B] rank 27 of (54x57); smallest accepted pivot/scale = 1.31e-20; largest rejected = 1.25e-58
+    27bar on the locus (class 1 | fixed vector of block 0): h0(M) = 0, h1(M) = 3, h0(dM) = 3, h1(dM) = 6, rank(res) = 3, [mu,lambda] = 1.8e-50  =>  N = rank(res) - h0(dM) = 0
+    ==> (60-digit read) N(27) = 0;  bound -3 <= N <= 3
+[1504 s]

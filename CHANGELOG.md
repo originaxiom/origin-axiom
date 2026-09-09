@@ -1,5 +1,22 @@
 # Changelog
 
+## B1353 — the isolated enhancement point made finite: the flat orbifold class isolates the apex but never the A₁/E₆ collision
+
+Main's E70 scope of B1259 answered by the strata: all fourteen flat orbifold models with an isolated apex on the E₆ locus enumerated
+(Goursat over SO(4); B1084's group among them), and in every one every A-type stratum through the apex contains a line of the E₆
+plane — Acharya–Witten's transversal collision never occurs; with the literature's non-orbifold rule, b₂(S⁶/Γ) = 0 and E₆ anomaly-free,
+the three E₇ points are not orbifold points. `frontier/B1353_the_isolated_enhancement_point`; CHIRALITY_MAP §6e; THE_DESTINATION_LEDGER;
+THE_SM_VERDICT currency note; B1259/B1084 currency notes. 0 of 19.
+
+## B1352 — the fixed-vector locus along V₁₀ is the Sp(8) family; the V₁₀ deformation loses its cusp-fixed weights and its self-duality at the same order, four
+
+L204's other half: from every genuine V₁₀ point the augmented Newton reaches the fixed-vector locus in a few quadratic steps and finds a
+self-dual Sp(8) point (three cusp-fixed weights = the Cartan directions of Λ²₀(8), N = 0 at 2000 bits); exactly, V₁₀ is tangent to the locus
+at first order and every formal branch constructed leaves it at order 4 (two primes), the order at which the trace defects switch on (t⁴
+between the genuine points at steps 0.02 and 0.04). No cusp-fixed weight on a non-self-dual point anywhere in reach; B1268's stage (b)
+completed (V₈ at the geometric point stalls under 10⁻⁵⁰ too). `frontier/B1352_the_fixed_vector_locus_along_v10`; OPEN_LEADS L204 closed on
+the object; CHIRALITY_MAP §6d; THE_SM_VERDICT currency note. 0 of 19.
+
 ## Chat1's arrow/chirality handoff verified and placed — C1/C4 material, not the count; Q8 candidate gated and parked
 
 Word-order mirror inner (pays nothing); det −1 = the rule's one handedness property = the tower law's mechanism; the quaternion

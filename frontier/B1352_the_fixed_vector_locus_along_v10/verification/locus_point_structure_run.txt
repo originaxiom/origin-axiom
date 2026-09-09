@@ -1,0 +1,30 @@
+== fixed_locus_points.json
+    class 2 | fixed vector of block 0: cusp-fixed vectors: 3
+      fixed vector with dominant coordinate 24: generates a submodule of dimension 27
+      fixed vector with dominant coordinate 21: generates a submodule of dimension 27
+      fixed vector with dominant coordinate 26: generates a submodule of dimension 27
+      all cusp-fixed vectors together generate dimension 27
+      a random vector generates dimension 27   (27 = cyclic)
+    class 1 | fixed vector of block 0: cusp-fixed vectors: 3
+      fixed vector with dominant coordinate 24: generates a submodule of dimension 27
+      fixed vector with dominant coordinate 21: generates a submodule of dimension 27
+      fixed vector with dominant coordinate 26: generates a submodule of dimension 27
+      all cusp-fixed vectors together generate dimension 27
+      a random vector generates dimension 27   (27 = cyclic)
+== ../../B1350_the_v10_direction/verification/v10_direction_points.json
+    class 1: cusp-fixed vectors: 1
+      fixed vector with dominant coordinate 26: generates a submodule of dimension 27
+      all cusp-fixed vectors together generate dimension 27
+      a random vector generates dimension 27   (27 = cyclic)
+    class 2: cusp-fixed vectors: 1
+      fixed vector with dominant coordinate 26: generates a submodule of dimension 27
+      all cusp-fixed vectors together generate dimension 27
+      a random vector generates dimension 27   (27 = cyclic)
+    class 1 + class 2: cusp-fixed vectors: 1
+      fixed vector with dominant coordinate 26: generates a submodule of dimension 27
+      all cusp-fixed vectors together generate dimension 27
+      a random vector generates dimension 27   (27 = cyclic)
+    class 1 - class 2: cusp-fixed vectors: 1
+      fixed vector with dominant coordinate 26: generates a submodule of dimension 27
+      all cusp-fixed vectors together generate dimension 27
+      a random vector generates dimension 27   (27 = cyclic)

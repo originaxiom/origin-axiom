@@ -95,7 +95,7 @@ the trace coordinates), the inversion ι does it for the E₆ family (on the who
 | mechanism | what it needs | the object | arc |
 |---|---|---|---|
 | Acharya–Witten: chiral matter at isolated points where an A₁ locus meets an enhanced locus transversally in a G₂ 7-manifold | isolation (0-dimensional fixed sets) | unavailable in the flat class (every SO(7) element fixes a line); needs the non-flat conical G₂ closing over the E₆ locus — the destination's item 1 (B1269 §5) | B1084, B1259, `THE_DESTINATION_LEDGER` §5 |
-| Pantev–Wijnholt: net chiral(R) = χ(M, ∂⁺M), the Euler characteristic of the part of the boundary where the Higgs field's charge points outward | a disc-type ∂⁺ | annular on the object (χ = 0) by its eight cusp symmetries; a disc needs a non-unitary holonomy at the golden value (L204) | B1277 addendum, `LITERATURE_SWEEP` §1 |
+| Pantev–Wijnholt: net chiral(R) = χ(M, ∂⁺M), the Euler characteristic of the part of the boundary where the Higgs field's charge points outward | a disc-type ∂⁺ | annular on the object (χ = 0) by its eight cusp symmetries; a disc needs a cusp-fixed weight on a non-self-dual holonomy (L204) — no such point on any computed deformation: the fixed-vector locus along V₁₀ is the Sp(8) family (B1352, §6d) | B1277 addendum, `LITERATURE_SWEEP` §1 |
 | T-branes: non-commuting / nilpotent Higgs components carrying localized chiral modes | a non-abelian φ with an unpaired zero-mode spectrum | the θ-odd deformations are exactly such data (B576's closure e₆); their zero modes are h¹ of the complexified connection = what B1268 computed; **B1280: paired by ι on the whole germ, N = 0** | `LITERATURE_SWEEP` §1, §3; B1280 |
 | Braun–Cizel–Hübner–Schäfer-Nameki: TCS G₂ manifolds are non-chiral; chirality needs a singular non-TCS transition; no compact chiral G₂ example is constructed | a singular transition | the object's transition (Y₃ flat, Y_n hyperbolic, the two ends) is a candidate carrier, not yet a construction | `LITERATURE_SWEEP` §1, §4 |
 | the 3d–3d and index dictionaries: h¹(M; V) of a 3-manifold read as a 4d generation count | an identification never exhibited | I-26 UNEARNED (`docs/IDENTIFICATION_LEDGER.md`); the index theorems live on a CY3 or a G₂ 7-manifold | B1269, `EXTERNAL_VERIFICATION` §3.4 |
@@ -144,12 +144,44 @@ O1's one open direction is computed. Along the V₁₀ of the 42 at the subregul
 
 Chat1 asked whether the mirror choice inside the generative rule (a ↦ ab against a ↦ ba) pays the chirality bit, and proved it does not: a ↦ ba, b ↦ a is c_{a⁻¹}∘(a ↦ ab, b ↦ a), an inner automorphism away, so both induce the same map (z, x, xz − y) on the character variety; inversion a ↦ a⁻¹ is not inner and does act. The rule has one handedness PROPERTY, not a choice: its abelianisation [[1,1],[1,0]] has det −1, and on Aut(F₂) the Goldman-bracket multiplier is that determinant (Poisson for +1, anti-Poisson for −1; Goldman's dichotomy, made explicit). This is C1/C4 material — the sign, which the record already places at the closing (B286, B289: forced by the oriented slope, not object-derivable; B1184: unutterable) — and it does not touch C3, the count, which is where B1350 and the walls of §1 live. **One rhyme with this branch's own result:** the det −1 element is the half-deck h of the tower, and the tower's law's positive half rests exactly on its orientation reversal — odd powers of h reverse the fibre's orientation, which is why they fix the carriers and even powers do not (B1304 addendum §2–2′). The four certificates re-run here, all exit 0. Chat1's Q8 candidate (the quaternion character (0,0,0), the node of the Markov surface κ = −2, whose image group Q₈ is the kernel of 2T → ℤ/3) is gated here and parked: (0,0,0) does not satisfy the figure-eight relator — a knot group's two generators are conjugate, conjugates in Q₈ are ±g, so tr(ab) = ±2 ≠ 0 — it is a point of the fibre's F₂ character variety, not of the object's. Its two halves are banked separately (B1042, H114).
 
+## 6d. The fixed-vector locus along V₁₀ (B1352, 2026-09-09)
+
+B1351 stated the count in the seven-dimensional frame: on the cusped object N(27) = −χ(∂⁺M; 27) per weight, and only a
+cusp-fixed weight has a boundary condition to choose — so a net count needs a cusp-fixed weight on a non-self-dual
+deformation. B1352 computed that locus. From each genuine V₁₀ point of §6b the augmented Newton (relator + μv = v,
+λv = v; damping 10⁻⁵⁰) converges quadratically to a point of the fixed-vector locus, and the point is an **Sp(8) point**:
+self-dual (defects 10⁻⁵³), cyclic 27, exactly three cusp-fixed weights — the Cartan directions eᵢ ∧ fᵢ of Λ²₀(8) that every
+Sp(8)-valued representation carries — h¹(27) = h¹(27̄) = 3, N = 0 (2000 bits). Exactly (ℚ(ω), then two primes): the V₁₀ of
+the 42 is the only θ-odd direction that keeps the three cusp-fixed vectors of ρ₀ to first order, and every formal V₁₀
+branch constructed loses them at order 4 (order 2 on generic branches) — the order at which the deformation stops being
+self-dual (the trace defects scale as t⁴ between two genuine points). **The window is void on every computed deformation:**
+at the non-self-dual points there is no boundary condition, and where there is one the count pairs. B1268's never-finished
+stage (b) along V₈ (geometric point) stalls under the 10⁻⁵⁰ damping too. Registered: whether a tuned formal branch keeps a
+fixed vector beyond order 4 (B1352 §6). O1 closed with its mechanism; O4 (the singular G₂ closing, B1353) and O5 stand.
+
+## 6e. The isolated enhancement point, made finite (B1353, 2026-09-09)
+
+Main's E70 scoped B1259: every element of SO(7) fixes a line, but a *group* can have an isolated fixed point, so the
+flat class was not closed by the element lemma. B1353 closes it by the strata. In a flat G₂ orbifold the E₆ locus is the
+fixed 3-plane P of 2T ⊂ SU(2)_R, its stabiliser in G₂ is SO(4) on Im ℍ ⊕ ℍ, and a point of P is an isolated fixed
+point of its stabiliser Γ_p exactly when Γ_p's image in SO(3) is non-cyclic. All such Γ_p ⊂ SO(4) with kernel 2T are
+enumerated by Goursat (R ∈ {2T, 2O}: fourteen groups from D*₂ × 2T of order 96 to 2I × 2T of order 1440; B1084's Ĝ is
+(D*₂, C₄; 2O, 2T) and its apex *is* an isolated fixed point of the group). In every one, **every A-type stratum through
+the apex contains a line of the E₆ plane** — an A-plane is axis(l) ⊕ {x : l x = x r} and P ⊃ axis(l) — so the
+transversal A₁/E₆ collision that Acharya–Witten's E₇ points need never occurs (A₁/A₁ planes do meet only at the apex;
+216 of B1084's 435 pairs). The literature's rule closes the rest: chiral fermions arise where an ADE locus passes
+through an isolated conical point "not just an orbifold singularity" (Witten 2001), "worse-than-orbifold"
+(Acharya–Witten 2001), orbifold points being "modelled on Calabi–Yau singularities" (Acharya–Gukov 2004); the orbifold
+link S⁶/Γ_p has b₂ = 0 (no U(1) inflow) and E₆ is anomaly-free (no detector). **O4 stands as the curved conical G₂
+closing and only that**: the three E₇ points are not orbifold points. Registered: stabilisers not preserving the E₆
+plane (several E₆ branches through the point).
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:
 every closed closing (W-closed), the mirror quotient (W-mirror-quotient), the cusped object's abelian sector
-(W-abelian), its elliptic SL(3) components on every cover (W-W1W2), and its E₆ deformation germ (W-θ-odd). It can
-still come from the singular G₂ closing (O4) or be supplied by the observer (O5). **The record's statement is
+(W-abelian), its elliptic SL(3) components on every cover (W-W1W2), and its E₆ deformation germ together with the fixed-vector locus along V₁₀ (W-θ-odd; B1350, B1352). It can
+still come from the singular G₂ closing (O4 — the curved cone, not a flat orbifold point: B1353) or be supplied by the observer (O5). **The record's statement is
 sharpened, not changed: the object is vector-like on every representation it supplies; the Standard Model's
 chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 

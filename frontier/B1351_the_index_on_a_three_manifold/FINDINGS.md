@@ -42,7 +42,7 @@ h⁰(∂M; 27) = h⁰(∂M; 27̄) = 0), so N = 0 with nothing to choose. **The s
 exact:** a point on the V₁₀ direction's fixed-vector locus (μv = v, λv = v kept along the deformation), where one weight
 is cusp-fixed, the field is ι-even so the region-swap theorem is silent, and the leading cusp mode of that weight cuts the
 torus into discs. That locus is B1352's computation; B1268's stage (b) (the same locus along V₈) was begun and never
-reached, and is completed there as the control.
+reached, and is completed there as the control. *(Currency 2026-09-09: B1352 done — the locus reached from every V₁₀ point is the Sp(8) family, self-dual with N = 0; exactly, the cusp-fixed vectors and self-duality are lost together at order 4 along V₁₀; the escape is void on every computed deformation.)*
 
 ## 3. What this settles
 
