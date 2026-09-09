@@ -14637,3 +14637,18 @@ same 21 old failed/error IDs; no original evidence erased or B allocated.
 Report: reports/physical_bridge_2026_09_05/MASS_INFLOW.md.
 New incoming B1355 is a distinct curved-cone proposal, not ruled out here.
 Seals a726252a and 2684623c; first native and test receipts preserved.
+
+## 2026-09-09 — All-seat chirality intake: preserve the derived kernel and scope the new cone
+
+**Cross-seat chirality refresh, 2026-09-09 (path-local):**
+All nine remote branch heads fetched and pinned. The sourced three/zero
+kernel and R23 local inflow are retained; physical source/domain
+selection and the quantum end sector remain OPEN. The received B1355
+curved candidate is distinct and live. Its restricted circle-action
+obstruction does not exclude Acharya--Witten's general E7-to-E6
+construction, and no one-27 spectrum is transferred without a local
+model map. Received descriptions that our source curves A are corrected:
+A stays flat on the smooth source complement; the domain changes.
+Finite-order/two-prime and four-point evidence keeps its stated scope.
+No upstream proof edited, new B number, main merge or full TOE.
+Report: reports/physical_bridge_2026_09_05/CHIRALITY_REFRESH.md.

@@ -304,3 +304,24 @@ artifacts), test-vacuity (two old delegation locks), and seal-provenance
 (old literal-marker omissions) remain unchanged from R22's corrected
 pass. All registered design digests pass. No waiver or independent
 proof review is claimed. Main banking remains incomplete.
+
+## All-seat documentary intake after the R23 push (2026-09-09)
+
+R23 pushed successfully at 9ff4de85, including both sealed calculations
+and all first/regression receipts. The worktree was clean afterward.
+All 288 latest manifest entries matched and authored staged whitespace
+passed (raw pytest whitespace retained).
+
+The new review CHIRALITY_REFRESH.md pins all nine remote heads and
+records the sources actually read. The held main-to-SM range relay was
+re-read: no B allocation. Its corrections are documentary, not a new
+unsealed scientific run or a rewrite of another seat's result.
+New current-reader pointers and PB-BOUNDARY preserve our conditional
+kernel and name the actual next end-sector duty. No external relay,
+main merge or independent-proof grade is implied.
+
+The documentary refresh gate pass is 27 PASS / 3 FAIL, with the same
+three old failing categories and named artifacts as the R23 receipt:
+CHIRALITY_REFRESH_GATES.txt. No new scientific execution or modified
+assertion is hidden in this review. The final artifact check and clean
+push are verified at the checkpoint; no baseline waiver is used.

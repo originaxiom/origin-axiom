@@ -1,0 +1,55 @@
+{
+  "captured_utc": "2026-09-09 11:41:40 UTC",
+  "repository": "https://github.com/originaxiom/origin-axiom",
+  "fetch_refspec": "+refs/heads/*:refs/remotes/origin/*",
+  "tags_fetched": true,
+  "branch_count": 9,
+  "heads": [
+    {
+      "seat": "older audit",
+      "commit": "53da05f6c545edf62ba7ff6d7d001aa1c2642320",
+      "committer_date": "2026-08-14 23:30:41 +0200"
+    },
+    {
+      "seat": "physical-bridge audit",
+      "commit": "9ff4de851c83170cd41e47fc28bea24b1e1458f7",
+      "committer_date": "2026-09-09 13:35:08 +0200"
+    },
+    {
+      "seat": "older new-session seat",
+      "commit": "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+      "committer_date": "2026-08-14 17:01:13 +0000"
+    },
+    {
+      "seat": "outside bench",
+      "commit": "268643947b3a3aedd99ed2454753bdff5c4b80a9",
+      "committer_date": "2026-09-09 10:50:44 +0000"
+    },
+    {
+      "seat": "physics seat",
+      "commit": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+      "committer_date": "2026-09-06 21:53:52 +0000"
+    },
+    {
+      "seat": "SM derivation",
+      "commit": "1703c0d80b6ad4281de61feb882667515500e8e7",
+      "committer_date": "2026-09-09 11:21:26 +0000"
+    },
+    {
+      "seat": "numbered audit seat",
+      "commit": "f7a49536bc45bebc1557d3d081b6b3664a7c2199",
+      "committer_date": "2026-09-02 03:55:30 +0200"
+    },
+    {
+      "seat": "main",
+      "commit": "b94ed03aecba8aae3afc62504e22ec664c26e94f",
+      "committer_date": "2026-09-09 13:25:31 +0200"
+    },
+    {
+      "seat": "paper lineage",
+      "commit": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4",
+      "committer_date": "2026-08-29 00:17:57 +0200"
+    }
+  ],
+  "scope": "All advertised remote branch heads fetched; no merge, no external relay. Names aliased for repository attribution policy. This is availability, not independent verification of every result."
+}

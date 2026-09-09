@@ -1,5 +1,15 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
+**All-seat chirality review, 2026-09-09:** [CHIRALITY_REFRESH.md](CHIRALITY_REFRESH.md).
+All nine remote branches fetched. The conditional sourced three/zero
+kernel stands; its source-selected quantum boundary completion is still
+owed. The new curved-cone candidate stays live, with its claimed
+A-type-only exclusion corrected against Acharya--Witten section 2.3.
+No transfer of a one-27 index or global gauge quotient is assumed.
+The review also corrects the received claim that our source requires
+curved gauge transport, and retains the finite scope of deformation
+calculations. This is a documentary review, not a new numerical theorem.
+
 **R23 update, 2026-09-09:** the existing operator's local mass map,
 chirality sign and unit anomaly transport are now explicit. Keeping
 the full eigenbundle polynomial fixes the extension-normalization

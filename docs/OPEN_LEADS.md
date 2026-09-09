@@ -2681,3 +2681,13 @@ Report: reports/physical_bridge_2026_09_05/MASS_INFLOW.md.
 No assumption that the actual harmonic field has three nondegenerate
 zeros, no dropped boundary and no exclusion of the new B1355 curved
 route. The conditional three/zero kernel is not reclassified as absent.
+
+**PB-BOUNDARY intake update, 2026-09-09:** the conditional sourced
+three/zero kernel is retained, with actual end response and quantum
+completion as the next duty. The received B1355 curved-cone proposal
+is a complementary lead, not a replacement for the sourced path.
+Restore the broader E7-to-E6 unfolding option excluded too widely;
+require a genuine map to the proposed twistor cone before transferring
+its one-27 count. The global two-form lattice and extending periods
+remain required. No numerical theorem or new B ID from this review.
+Source: reports/physical_bridge_2026_09_05/CHIRALITY_REFRESH.md.
