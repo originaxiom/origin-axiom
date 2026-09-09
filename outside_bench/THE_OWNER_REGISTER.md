@@ -1603,3 +1603,64 @@ downgrading something this bench computed. Here it ran the other way: it stopped
 sentence from being either believed or waved off, and forced the test. Same rule, both
 directions. Cost of catching it: one certificate, same session, before any download was
 prioritised on it.
+
+---
+
+## ADDENDUM 85 (2026-09-09) — **R85: "wb this" — the `double.twist.data` page, and five uploaded tables**
+
+**What was put in front of the bench.** (a) Garoufalidis–Koutschan's `double.twist.data` page:
+classical `A_p` for `K_{p,p}`, `p = 2…8`; **quantum `Â_p` for `p = 2…5`**; and `CJ_p`, the first
+20 colored Jones of `K_{p,p}`, `p = 2…5`. (b) Five gzipped `CJTwist.*` files.
+
+### The uploads: answered by computation, in memo 186
+
+Every file was identified **by determinant, not by filename** (`det(K_p) = 4p−1`,
+`det(K_{−p}) = 4p+1`, so the determinant recovers `|p|` *and the sign of `p`*). **Two of the
+five filenames had lost a minus sign**: the second `CJTwist.1` is `4₁`, and `CJTwist.2` is `6₁`.
+
+> **`5₂` is not in the set.** `5₂ = K_2` has `det 7`; no file has determinant 7. The knot memos
+> 183 and 184 are about is the one that did not arrive.
+
+What did arrive was worth having anyway: memo 184's fence went from **7 stabilised coefficients
+to 52**, on four knots, all five tails identified in closed form — including the
+**Rogers–Ramanujan product** at `6₁`'s tail and a **false theta** at `9₂`'s, which puts the
+false/genuine split inside a single one-parameter family. See memo 186.
+
+### The `double.twist.data` page: right directory, **wrong family**
+
+`double.twist.data` is **[GK13]**, and its knots are `K_{p,p}` — **both** twist regions equal,
+with `K_{2,2} = 7₄`. **`5₂` is not in that family.** `5₂` is `K_2` in the *single*-twist family,
+whose operator lives on the sibling page `twist.knot.data` = **[GS10]**.
+
+> **So this page does not decide the erratum.** `fetch/FETCH_REQUEST_CEFF.md` §B'' asks for the
+> `Â` of `m(5₂)`, to compare against Park eq (32) as printed. That file is not here.
+
+### But three files on it are worth taking, and one of them could matter a great deal
+
+1. **`Apoly.15.11.txt`** (`A_2`, the classical A-polynomial of `7₄`) — a small text file, and a
+   **free control**: the `q → 1` limit of a correct `Â` must reproduce it.
+2. **`CJ22_rec.m`** (`Â_2`, the quantum A-polynomial of `7₄`) — two reasons.
+   * It is a **real** operator in exactly the format `certificates/ahat_ingest.py` was built to
+     read. That ingester currently passes only its own synthetic self-tests `T1/T2/T3`.
+     **Memo 164: control passing is not instrument working.** Feeding it real data makes it an
+     instrument *before* the file that decides the erratum arrives — so the reader is proven
+     first and the finding is not gated on debugging a parser under pressure.
+   * **`7₄` is hyperbolic.** GM eq (9)–(10) say the recursion plus a boundary value determines
+     `f_K`. If `Â_{7₄}` annihilates `F_{7₄}`, it **generates `f_{7₄}` to arbitrary order** —
+     which is memo 177's named highest-value computation, *"it needs `F_K` for one more
+     hyperbolic knot"*. That is a way past memo 183 addendum 4's blocker **for a different
+     knot**, and the ceiling question does not care which hyperbolic knot it gets.
+3. **`CJ22.txt`** — the first 20 colored Jones of `7₄`. This is the **control on the operator**:
+   a correct `Â` must annihilate that sequence. Take it with `CJ22_rec.m`, not after.
+
+**Do not take `Ahat_5`** — the page itself warns it is 1 GB zipped. `Â_2` first; `Â_3` only if
+it is small.
+
+### The ranked ask, unchanged at the top
+
+| rank | item | why |
+|---|---|---|
+| 1 | the **rest of the `twist.knot.data` page** — whatever is there besides `CJTwist.*` | this is [GS10], the single-twist family, and it is where `5₂`'s operator lives. **It decides the erratum.** Only the colored Jones section of that page has been seen here. |
+| 2 | `Apoly.15.11.txt` + `CJ22_rec.m` + `CJ22.txt` | proves the ingester on real data now; possible `f_{7₄}` route |
+| 3 | Park, arXiv:2106.03942 (fetch item B2) | the only surviving non-naive Habiro route after memo 185 |
+| 4 | `CJTwist.2.txt.gz` (the real `5₂`), `CJTwist.3`, `CJTwist.-3` | memo 186 F186-1 |

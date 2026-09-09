@@ -175,3 +175,26 @@ Priority subset if size is a problem: `p = 2, −1, 1, −2, 3, −3` (`5₂, 4�
 
 **The files that decide the erratum are the operator files on the same page, not these.**
 See §B''.
+
+
+---
+
+## B'''' — THE `double.twist.data` PAGE (added 2026-09-09, register R85)
+
+`people.mpim-bonn.mpg.de/stavros/publications/double.twist.data/` is **[GK13]**, and its knots
+are the DOUBLE twist knots `K_{p,p}` with `K_{2,2} = 7_4`. **`5_2` is not in that family** — it
+is `K_2` in the single-twist family of **[GS10]**, `twist.knot.data`. So this page **does not
+decide the erratum**; §B'' still does.
+
+Three files on it are worth taking anyway, in this order:
+
+1. `Apoly.15.11.txt` — classical `A` of `7_4`, small, and a free control on any `Â` (its `q→1`
+   limit must reproduce this).
+2. `CJ22_rec.m` — the quantum `Â` of `7_4`. Real data for `certificates/ahat_ingest.py`, which
+   today passes only its own synthetic self-tests (memo 164). And `7_4` is **hyperbolic**: if the
+   operator annihilates `F_{7_4}`, GM eq (9)-(10) generate `f_{7_4}` to arbitrary order, which is
+   memo 177's named highest-value computation.
+3. `CJ22.txt` — the first 20 colored Jones of `7_4`, the **control** that the operator is right.
+   Take it *with* `CJ22_rec.m`, not after.
+
+**Do not take `Ahat_5`** — the page itself warns it is 1 GB zipped.
