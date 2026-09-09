@@ -7042,6 +7042,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1322": {
+   "slug": "l204 verified",
+   "motifs": [
+    "closing",
+    "dickson_tower",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "L204"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B132": {
    "slug": "quantum layer",
    "motifs": [

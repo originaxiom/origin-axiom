@@ -2381,6 +2381,8 @@ approach to the SM's field content the object has produced" — vector-like, one
 object-native selector for this lead is now a finite arithmetic menu.*
 
 ## L204 — THE SUBREGULAR POINT'S ONE UNPAIRED DIRECTION (registered 2026-09-08, B1299; mirrors the SM-derivation seat's sm:L207 of 2026-09-06; the exact half done by B1298)
+
+*L204 status 2026-09-09 (B1322): **CLOSED — VERIFIED on two benches.** The SM-derivation seat's sm:B1350 (@ 7484ad01) integrated the V₁₀ classes to genuine non-self-dual E₆ representations (Newton to 10⁻⁶⁸) and found h¹(M; 27) = h¹(M; 27̄) = 0, no cusp-fixed vector, N(27) = 0 on class 1, class 2, their sum and difference; main re-read the four banked 100-digit points with its own Fox calculus and agrees at every entry. The θ-odd frame is closed on every sl₂ germ; the 15 % prior resolves to 0. Credit: the seat, by pin.*
 sm:B1280 Theorem 2 makes the θ-odd E₆ germ at the geometric (principal) point vector-like by symmetry: the inversion acts as the
 outer automorphism on the whole tangent space (B1298: twelve signs, exact). At the SUBREGULAR sl₂ point — B1256's assumption-free
 I-25 candidate, e₆ = V₂ V₄ V₆ V₈ V₁₀ V₁₀ V₁₄ V₁₆, the 27 = 13 + 9 + 5 — the outer involution fixes sp(8) = V₂ V₆ V₁₀ V₁₄ and

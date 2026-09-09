@@ -1,0 +1,194 @@
+{
+ "points": "oa-audit-seat/sm-7484ad01/frontier/B1350_the_v10_direction/verification/v10_direction_points.json",
+ "dps": 110,
+ "results": [
+  {
+   "label": "class 1",
+   "relator_residual": "5.96e-68",
+   "self_duality_defect": "1.79e-10",
+   "h1_27": 0,
+   "h1_27bar": 0,
+   "h0_27": 0,
+   "h0_27bar": 0,
+   "h0_cusp_27": 0,
+   "h0_cusp_27bar": 0,
+   "N": 0,
+   "bound": [
+    0,
+    0
+   ],
+   "gaps27": {
+    "d0": [
+     "1.27e-9",
+     null
+    ],
+    "d1": [
+     "1.58e-36",
+     null
+    ],
+    "cusp": [
+     "1.01e-38",
+     null
+    ]
+   },
+   "gaps27bar": {
+    "d0": [
+     "1.27e-9",
+     null
+    ],
+    "d1": [
+     "4.16e-37",
+     null
+    ],
+    "cusp": [
+     "4.42e-39",
+     null
+    ]
+   },
+   "mu_lambda": "1.96e-54",
+   "seconds": 16
+  },
+  {
+   "label": "class 2",
+   "relator_residual": "1.77e-61",
+   "self_duality_defect": "8.95e-11",
+   "h1_27": 0,
+   "h1_27bar": 0,
+   "h0_27": 0,
+   "h0_27bar": 0,
+   "h0_cusp_27": 0,
+   "h0_cusp_27bar": 0,
+   "N": 0,
+   "bound": [
+    0,
+    0
+   ],
+   "gaps27": {
+    "d0": [
+     "1.27e-9",
+     null
+    ],
+    "d1": [
+     "1.53e-36",
+     null
+    ],
+    "cusp": [
+     "7.32e-39",
+     null
+    ]
+   },
+   "gaps27bar": {
+    "d0": [
+     "1.27e-9",
+     null
+    ],
+    "d1": [
+     "4.06e-37",
+     null
+    ],
+    "cusp": [
+     "5.82e-39",
+     null
+    ]
+   },
+   "mu_lambda": "5.81e-48",
+   "seconds": 18
+  },
+  {
+   "label": "class 1 + class 2",
+   "relator_residual": "2.71e-66",
+   "self_duality_defect": "8.36e-11",
+   "h1_27": 0,
+   "h1_27bar": 0,
+   "h0_27": 0,
+   "h0_27bar": 0,
+   "h0_cusp_27": 0,
+   "h0_cusp_27bar": 0,
+   "N": 0,
+   "bound": [
+    0,
+    0
+   ],
+   "gaps27": {
+    "d0": [
+     "1.27e-9",
+     null
+    ],
+    "d1": [
+     "1.02e-37",
+     null
+    ],
+    "cusp": [
+     "5.34e-39",
+     null
+    ]
+   },
+   "gaps27bar": {
+    "d0": [
+     "1.27e-9",
+     null
+    ],
+    "d1": [
+     "1.38e-38",
+     null
+    ],
+    "cusp": [
+     "1.33e-38",
+     null
+    ]
+   },
+   "mu_lambda": "8.91e-53",
+   "seconds": 19
+  },
+  {
+   "label": "class 1 - class 2",
+   "relator_residual": "7.51e-61",
+   "self_duality_defect": "1.46e-10",
+   "h1_27": 0,
+   "h1_27bar": 0,
+   "h0_27": 0,
+   "h0_27bar": 0,
+   "h0_cusp_27": 0,
+   "h0_cusp_27bar": 0,
+   "N": 0,
+   "bound": [
+    0,
+    0
+   ],
+   "gaps27": {
+    "d0": [
+     "1.27e-9",
+     null
+    ],
+    "d1": [
+     "1.69e-36",
+     null
+    ],
+    "cusp": [
+     "5.66e-39",
+     null
+    ]
+   },
+   "gaps27bar": {
+    "d0": [
+     "1.27e-9",
+     null
+    ],
+    "d1": [
+     "4.51e-37",
+     null
+    ],
+    "cusp": [
+     "2.95e-39",
+     null
+    ]
+   },
+   "mu_lambda": "2.47e-47",
+   "seconds": 19
+  }
+ ],
+ "controls": {
+  "perturbed_relator_residual": "5.1e-19"
+ },
+ "verdict": "PASS"
+}

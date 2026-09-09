@@ -1,0 +1,56 @@
+blocks read from oa-audit-seat/cloud-e51afd6c/outside_bench/data/park_f52_blocks_w16.json
+==============================================================================
+true blocks in hand (Park's own for j<=3, large color R-matrix for j>=4)
+   f_0 : q^-1   .. q^377   (28 coefficients)
+   f_1 : q^-1   .. q^401   (403 coefficients)
+   f_2 : q^-1   .. q^400   (378 coefficients)
+   f_3 : q^0    .. q^400   (393 coefficients)
+   f_4 : q^-2   .. q^28    (28 coefficients)
+   f_5 : q^-3   .. q^9     (11 coefficients)
+==============================================================================
+SOLVING  delta_n = - sum_d c_d Q^{2(n-d)+1} f_{n-d}   for the corrections to a_1
+==============================================================================
+   n=3 : c_3 = -1 q^{25/2}   (delta_3 exact to Q^768)
+   n=4 : c_4 = +1 q^{25/2} +1 q^{27/2} -1 q^{31/2}   (delta_4 exact to Q^78)
+   n=5 : c_5 = +1 q^{33/2} +1 q^{35/2}   (delta_5 exact to Q^44)
+   n=6 : needs f_6, not available
+==============================================================================
+WHICH a_i CAN CARRY THE x^3 CORRECTION
+==============================================================================
+   delta_3 and delta_4 determine two exact quantities.  Writing c_{i,3} for the
+   correction to a_i's x^3 coefficient, and U_3(t) = sum_i c_{i,3} Q^{(2t+1)i} :
+
+       U_3(0) = -Q^26     (from delta_3, exact to Q^612)
+       U_3(1) = -Q^28     (from delta_4; f_0 and f_1 are not rationally related, so
+                           the pair (U_3(1), U_4(0)) solving delta_4 is UNIQUE, and it
+                           comes out with ZERO free parameters)
+   single index i :
+      i=0 : c_{0,3} = -Q^26  ->  U_3(1) = -Q^26   excluded
+      i=1 : c_{1,3} = -Q^25  ->  U_3(1) = -Q^28   CONSISTENT
+      i=2 : c_{2,3} = -Q^24  ->  U_3(1) = -Q^30   excluded
+      i=3 : c_{3,3} = -Q^23  ->  U_3(1) = -Q^32   excluded
+      i=4 : c_{4,3} = -Q^22  ->  U_3(1) = -Q^34   excluded
+   pairs {i,j} : the 2x2 system has a unique solution for every pair.  Every pair
+      containing i=1 collapses to c_1 = -Q^25 with the other zero; {0,2}, {0,3},
+      {0,4} and {2,4} force NON-LAURENT coefficients and are excluded outright;
+      only {2,3} and {3,4} survive as genuine alternatives, and are NOT tested here.
+   >>> a_1 is the UNIQUE single-index placement.  Splits over three or more a_i are
+       not excluded by these two equations.
+==============================================================================
+CONTROLS
+==============================================================================
+   c_3                    : blocks f_0 25/25 f_1 302/302 f_2 282/282 f_3 293/293 f_4 8/28 f_5 2/11
+                            Zhat(Sigma(2,3,11)) agrees on q^-1..q^16 ; integral Laurent: True
+   c_3+c_4                : blocks f_0 25/25 f_1 302/302 f_2 282/282 f_3 293/293 f_4 28/28 f_5 5/11
+                            Zhat(Sigma(2,3,11)) agrees on q^-1..q^27 ; integral Laurent: True
+   c_3+c_4+c_5            : blocks f_0 25/25 f_1 302/302 f_2 282/282 f_3 293/293 f_4 28/28 f_5 11/11
+                            Zhat(Sigma(2,3,11)) agrees on q^-1..q^33 ; integral Laurent: True
+------------------------------------------------------------------------------
+   C1 every converged large-color block coefficient reproduced : PASSED
+   C2 each correction extends the Sigma(2,3,11) agreement      : PASSED
+   C3 all blocks integral Laurent polynomials in q             : PASSED
+
+   HONEST LIMIT: the repair is INCOMPLETE.  A correction at x^6 remains, and
+   determining it needs f_6 to about ten converged coefficients.
+ALL CONTROLS PASSED.
+RC=0

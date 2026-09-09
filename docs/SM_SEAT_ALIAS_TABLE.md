@@ -54,7 +54,8 @@ under fresh main IDs and this table maps both directions forever).
 | **B1350–B1399** | *(reserved for the seat, per its collision note of 2026-09-08)* | **the_v10_direction (B1350)** and its continuation |
 | B1320 | main: Phase 2 Arc 0, the PW localized count on the cyclic descent (2026-09-09) | — |
 | B1321 | main: L205, the sibling's localized count (2026-09-09) | — |
-| B1322 | **main's next free number** (after B1321) | — |
+| B1322 | main: L204 verified — the SM seat's sm:B1350 re-read on main (2026-09-09) | — |
+| B1323 | **main's next free number** (after B1322) | — |
 
 ## Which side is canonical
 
@@ -66,7 +67,7 @@ resolves to which directory*, nothing more.
 
 ## What each side must do
 
-- **Main (this seat):** never assign B1278–B1289, B1300–B1301, B1308–B1319, B1350–B1399; next new arc after the harvest block **B1322** (B1320 = Phase 2 Arc 0, B1321 = L205, both 2026-09-09). Cite the other seat as `sB…` / `sm:B…` always. *(2026-09-09, B1306 slice A: the eighth to tenth collisions, B1302–B1304, happened because the seat's range request lived on its branch until a harvest; main's numbers on those three are canonical because landed, the seat's are cited with the prefix and rebank on merge. The harvest-debt gate — B1307 — reads seat relays the hour they are pushed.)*
+- **Main (this seat):** never assign B1278–B1289, B1300–B1301, B1308–B1319, B1350–B1399; next new arc after the harvest block **B1323** (B1320 = Phase 2 Arc 0, B1321 = L205, B1322 = L204 verified, all 2026-09-09). Cite the other seat as `sB…` / `sm:B…` always. *(2026-09-09, B1306 slice A: the eighth to tenth collisions, B1302–B1304, happened because the seat's range request lived on its branch until a harvest; main's numbers on those three are canonical because landed, the seat's are cited with the prefix and rebank on merge. The harvest-debt gate — B1307 — reads seat relays the hour they are pushed.)*
 - **The SM-derivation seat:** continue at **B1278**, not B1277. Its existing B1267–B1276 keep
   their directory names on its own branch; on merge they rebank under fresh main IDs, as the
   cloud's did.

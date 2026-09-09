@@ -858,3 +858,11 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   one classical fact is the shape "verified on two benches" should have. (B1306 C)
 - H-B1306C-SEAT-CODE-NEEDS-MAIN (type PROCESS): fc's R66 imports main's B351 module by name; a seat certificate that depends on main's code must say so
   in its docstring, or its re-run fails for the wrong reason. (B1306 C)
+
+## 2026-09-09 — B1322 hints (recorded, not judged; credit: the SM-derivation seat)
+
+- H-B1322-DAMPING-AND-DIGITS (type INSTRUMENT, the seat's): a Gauss–Newton regularised at 10⁻²⁴·max G_ii stalls along classes whose corrections have
+  singular value ~ε, and a 60-digit rank report misreads pivots at 10⁻³⁹ as zeros; the torus Euler characteristic and Poincaré duality are the checks that
+  catch both. Banked points at 100 digits let any bench re-read the ranks — which is how main verified this in five minutes. (B1322)
+- H-B1322-THE-FLAT-SECTOR-IS-EXHAUSTED (type SYNTHESIS): every sl₂ germ of the cusped object's E₆ character variety is now paired (B1280) or computed dead
+  (sm:B1350/B1322) for a net count of 27s. The chirality bit, if the object supplies it, is not in its flat E₆ sector. (B1322)

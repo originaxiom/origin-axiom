@@ -1,0 +1,96 @@
+    [rescaled 27: |A0| = [1.80e+3 +/- 4.23], |B0| = [3.45e+3 +/- 4.17]]
+=== (4') high-precision cohomology: 2000 bits, 200-digit ranks, threshold 1.0e-50 ===
+  -- control: the subregular point rho_0 (exact stages: h1(27) = h1(27bar) = 3, h0(dM) = 3, N = 0)
+      [27 at rho_0 d0] rank 27 of (54x27); pivot tail ['8.87e-9', '7.12e-9', '7.12e-9', '5.64e-9', '3.43e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27 at rho_0 d1] rank 24 of (27x54); pivot tail ['3.34e-9', '5.09e-10', '4.59e-10', '1.26e-205', '3.98e-206', '2.96e-207']; smallest accepted 4.59e-10, largest rejected 1.26e-205
+      [27 at rho_0 cusp fixed] rank 24 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '7.43e-209', '5.42e-211', '3.93e-211']; smallest accepted 1.63e-17, largest rejected 7.43e-209
+      [27 at rho_0 Z1(T2)] rank 24 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '8.7e-213', '1.02e-214', '2.69e-613']; smallest accepted 4.06e-17, largest rejected 8.7e-213
+      [27 at rho_0 B1(T2)] rank 24 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '7.43e-209', '5.42e-211', '3.93e-211']; smallest accepted 1.63e-17, largest rejected 7.43e-209
+      [27 at rho_0 coinvariants(T2)] rank 24 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '8.7e-213', '1.02e-214', '2.69e-613']; smallest accepted 4.06e-17, largest rejected 8.7e-213
+      [27 at rho_0 res+B] rank 27 of (54x57); pivot tail ['2.33e-214', '6.6e-215', '3.04e-215', '2.74e-215', '1.98e-216', '4.97e-217']; smallest accepted 1.69e-17, largest rejected 4.85e-204
+    27 at rho_0: h0(M) = 0, h1(M) = 3, h2(M) = h1 - h0 = 3; torus: h0 = 3, h1 = 6, h2 = 3 (Euler ok); rank(res) = 3; [mu,lambda] = nan
+      [27bar at rho_0 d0] rank 27 of (54x27); pivot tail ['1.09e-8', '8.87e-9', '7.12e-9', '5.64e-9', '1.42e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27bar at rho_0 d1] rank 24 of (27x54); pivot tail ['2.42e-9', '2.4e-9', '1.05e-10', '1.57e-205', '9.74e-207', '1.46e-207']; smallest accepted 1.05e-10, largest rejected 1.57e-205
+      [27bar at rho_0 cusp fixed] rank 24 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '7.02e-207', '2.67e-208', '2.79e-210']; smallest accepted 4.06e-17, largest rejected 7.02e-207
+      [27bar at rho_0 Z1(T2)] rank 24 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '5.74e-212', '1.72e-613', '7.18e-616']; smallest accepted 1.63e-17, largest rejected 5.74e-212
+      [27bar at rho_0 B1(T2)] rank 24 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '7.02e-207', '2.67e-208', '2.79e-210']; smallest accepted 4.06e-17, largest rejected 7.02e-207
+      [27bar at rho_0 coinvariants(T2)] rank 24 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '5.74e-212', '1.72e-613', '7.18e-616']; smallest accepted 1.63e-17, largest rejected 5.74e-212
+      [27bar at rho_0 res+B] rank 27 of (54x57); pivot tail ['3.1e-215', '2.18e-215', '8.42e-216', '3.17e-216', '8.37e-217', '1.75e-217']; smallest accepted 5.77e-17, largest rejected 6.32e-204
+    27bar at rho_0: h0(M) = 0, h1(M) = 3, h2(M) = h1 - h0 = 3; torus: h0 = 3, h1 = 6, h2 = 3 (Euler ok); rank(res) = 3; [mu,lambda] = nan
+     ==> N(27) = h1(27) - h1(27bar) = 0;  bound -3 <= N <= 3;  torus duality (h1 = h1*, h2 = h0*) ok   (28 s)
+  -- class 1 (Newton residual at 600 bits: 6.0e-68)
+     relator residual of the loaded point at 2000 bits: 6.0e-68
+      [27 along class 1 d0] rank 27 of (54x27); pivot tail ['8.87e-9', '7.12e-9', '7.12e-9', '5.64e-9', '3.43e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27 along class 1 d1] rank 27 of (27x54); pivot tail ['3.34e-9', '5.09e-10', '4.59e-10', '1.65e-25', '1.26e-33', '1.58e-36']; smallest accepted 1.58e-36, largest rejected -
+      [27 along class 1 cusp fixed] rank 27 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '4.27e-30', '5.62e-36', '1.01e-38']; smallest accepted 1.01e-38, largest rejected -
+      [27 along class 1 Z1(T2)] rank 27 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '1.89e-30', '4.84e-36', '4.42e-39']; smallest accepted 4.42e-39, largest rejected -
+      [27 along class 1 B1(T2)] rank 27 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '4.27e-30', '5.62e-36', '1.01e-38']; smallest accepted 1.01e-38, largest rejected -
+      [27 along class 1 coinvariants(T2)] rank 27 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '1.89e-30', '4.84e-36', '4.42e-39']; smallest accepted 4.42e-39, largest rejected -
+    27 along class 1: h0(M) = 0, h1(M) = 0, h2(M) = h1 - h0 = 0; torus: h0 = 0, h1 = 0, h2 = 0 (Euler ok); rank(res) = 0 (h1 = 0); [mu,lambda] = 2.0e-54
+      [27bar along class 1 d0] rank 27 of (54x27); pivot tail ['1.09e-8', '8.87e-9', '7.12e-9', '5.64e-9', '1.42e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27bar along class 1 d1] rank 27 of (27x54); pivot tail ['2.42e-9', '2.4e-9', '1.05e-10', '2.28e-24', '1.7e-34', '4.16e-37']; smallest accepted 4.16e-37, largest rejected -
+      [27bar along class 1 cusp fixed] rank 27 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '1.89e-30', '4.84e-36', '4.42e-39']; smallest accepted 4.42e-39, largest rejected -
+      [27bar along class 1 Z1(T2)] rank 27 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '4.27e-30', '5.62e-36', '1.01e-38']; smallest accepted 1.01e-38, largest rejected -
+      [27bar along class 1 B1(T2)] rank 27 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '1.89e-30', '4.84e-36', '4.42e-39']; smallest accepted 4.42e-39, largest rejected -
+      [27bar along class 1 coinvariants(T2)] rank 27 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '4.27e-30', '5.62e-36', '1.01e-38']; smallest accepted 1.01e-38, largest rejected -
+    27bar along class 1: h0(M) = 0, h1(M) = 0, h2(M) = h1 - h0 = 0; torus: h0 = 0, h1 = 0, h2 = 0 (Euler ok); rank(res) = 0 (h1 = 0); [mu,lambda] = 4.4e-54
+     ==> N(27) = h1(27) - h1(27bar) = 0;  bound -0 <= N <= 0;  torus duality (h1 = h1*, h2 = h0*) ok   (37 s)
+  -- class 2 (Newton residual at 600 bits: 1.8e-61)
+     relator residual of the loaded point at 2000 bits: 1.8e-61
+      [27 along class 2 d0] rank 27 of (54x27); pivot tail ['8.87e-9', '7.12e-9', '7.12e-9', '5.64e-9', '3.43e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27 along class 2 d1] rank 27 of (27x54); pivot tail ['3.34e-9', '5.09e-10', '4.59e-10', '8.22e-26', '1.19e-33', '1.53e-36']; smallest accepted 1.53e-36, largest rejected -
+      [27 along class 2 cusp fixed] rank 27 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '2.13e-30', '5.08e-36', '7.32e-39']; smallest accepted 7.32e-39, largest rejected -
+      [27 along class 2 Z1(T2)] rank 27 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '9.42e-31', '2.34e-36', '5.82e-39']; smallest accepted 5.82e-39, largest rejected -
+      [27 along class 2 B1(T2)] rank 27 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '2.13e-30', '5.08e-36', '7.32e-39']; smallest accepted 7.32e-39, largest rejected -
+      [27 along class 2 coinvariants(T2)] rank 27 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '9.42e-31', '2.34e-36', '5.82e-39']; smallest accepted 5.82e-39, largest rejected -
+    27 along class 2: h0(M) = 0, h1(M) = 0, h2(M) = h1 - h0 = 0; torus: h0 = 0, h1 = 0, h2 = 0 (Euler ok); rank(res) = 0 (h1 = 0); [mu,lambda] = 5.8e-48
+      [27bar along class 2 d0] rank 27 of (54x27); pivot tail ['1.09e-8', '8.87e-9', '7.12e-9', '5.64e-9', '1.42e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27bar along class 2 d1] rank 27 of (27x54); pivot tail ['2.42e-9', '2.4e-9', '1.05e-10', '1.14e-24', '1.6e-34', '4.06e-37']; smallest accepted 4.06e-37, largest rejected -
+      [27bar along class 2 cusp fixed] rank 27 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '9.42e-31', '2.34e-36', '5.82e-39']; smallest accepted 5.82e-39, largest rejected -
+      [27bar along class 2 Z1(T2)] rank 27 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '2.13e-30', '5.08e-36', '7.32e-39']; smallest accepted 7.32e-39, largest rejected -
+      [27bar along class 2 B1(T2)] rank 27 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '9.42e-31', '2.34e-36', '5.82e-39']; smallest accepted 5.82e-39, largest rejected -
+      [27bar along class 2 coinvariants(T2)] rank 27 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '2.13e-30', '5.08e-36', '7.32e-39']; smallest accepted 7.32e-39, largest rejected -
+    27bar along class 2: h0(M) = 0, h1(M) = 0, h2(M) = h1 - h0 = 0; torus: h0 = 0, h1 = 0, h2 = 0 (Euler ok); rank(res) = 0 (h1 = 0); [mu,lambda] = 1.3e-47
+     ==> N(27) = h1(27) - h1(27bar) = 0;  bound -0 <= N <= 0;  torus duality (h1 = h1*, h2 = h0*) ok   (47 s)
+  -- class 1 + class 2 (Newton residual at 600 bits: 2.7e-66)
+     relator residual of the loaded point at 2000 bits: 2.7e-66
+      [27 along class 1 + class 2 d0] rank 27 of (54x27); pivot tail ['8.87e-9', '7.12e-9', '7.12e-9', '5.64e-9', '3.43e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27 along class 1 + class 2 d1] rank 27 of (27x54); pivot tail ['3.34e-9', '5.09e-10', '4.59e-10', '7.68e-26', '7.12e-35', '1.02e-37']; smallest accepted 1.02e-37, largest rejected -
+      [27 along class 1 + class 2 cusp fixed] rank 27 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '1.99e-30', '1.82e-36', '5.34e-39']; smallest accepted 5.34e-39, largest rejected -
+      [27 along class 1 + class 2 Z1(T2)] rank 27 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '8.81e-31', '2.32e-37', '1.33e-38']; smallest accepted 1.33e-38, largest rejected -
+      [27 along class 1 + class 2 B1(T2)] rank 27 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '1.99e-30', '1.82e-36', '5.34e-39']; smallest accepted 5.34e-39, largest rejected -
+      [27 along class 1 + class 2 coinvariants(T2)] rank 27 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '8.81e-31', '2.32e-37', '1.33e-38']; smallest accepted 1.33e-38, largest rejected -
+    27 along class 1 + class 2: h0(M) = 0, h1(M) = 0, h2(M) = h1 - h0 = 0; torus: h0 = 0, h1 = 0, h2 = 0 (Euler ok); rank(res) = 0 (h1 = 0); [mu,lambda] = 8.9e-53
+      [27bar along class 1 + class 2 d0] rank 27 of (54x27); pivot tail ['1.09e-8', '8.87e-9', '7.12e-9', '5.64e-9', '1.42e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27bar along class 1 + class 2 d1] rank 27 of (27x54); pivot tail ['2.42e-9', '2.4e-9', '1.05e-10', '1.07e-24', '1.86e-35', '1.38e-38']; smallest accepted 1.38e-38, largest rejected -
+      [27bar along class 1 + class 2 cusp fixed] rank 27 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '8.81e-31', '2.32e-37', '1.33e-38']; smallest accepted 1.33e-38, largest rejected -
+      [27bar along class 1 + class 2 Z1(T2)] rank 27 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '1.99e-30', '1.82e-36', '5.34e-39']; smallest accepted 5.34e-39, largest rejected -
+      [27bar along class 1 + class 2 B1(T2)] rank 27 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '8.81e-31', '2.32e-37', '1.33e-38']; smallest accepted 1.33e-38, largest rejected -
+      [27bar along class 1 + class 2 coinvariants(T2)] rank 27 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '1.99e-30', '1.82e-36', '5.34e-39']; smallest accepted 5.34e-39, largest rejected -
+    27bar along class 1 + class 2: h0(M) = 0, h1(M) = 0, h2(M) = h1 - h0 = 0; torus: h0 = 0, h1 = 0, h2 = 0 (Euler ok); rank(res) = 0 (h1 = 0); [mu,lambda] = 2.0e-52
+     ==> N(27) = h1(27) - h1(27bar) = 0;  bound -0 <= N <= 0;  torus duality (h1 = h1*, h2 = h0*) ok   (57 s)
+  -- class 1 - class 2 (Newton residual at 600 bits: 7.5e-61)
+     relator residual of the loaded point at 2000 bits: 7.5e-61
+      [27 along class 1 - class 2 d0] rank 27 of (54x27); pivot tail ['8.87e-9', '7.12e-9', '7.12e-9', '5.64e-9', '3.43e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27 along class 1 - class 2 d1] rank 27 of (27x54); pivot tail ['3.34e-9', '5.09e-10', '4.59e-10', '1.34e-25', '1.35e-33', '1.69e-36']; smallest accepted 1.69e-36, largest rejected -
+      [27 along class 1 - class 2 cusp fixed] rank 27 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '3.48e-30', '5.88e-36', '5.66e-39']; smallest accepted 5.66e-39, largest rejected -
+      [27 along class 1 - class 2 Z1(T2)] rank 27 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '1.54e-30', '4.05e-36', '2.95e-39']; smallest accepted 2.95e-39, largest rejected -
+      [27 along class 1 - class 2 B1(T2)] rank 27 of (54x27); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '3.48e-30', '5.88e-36', '5.66e-39']; smallest accepted 5.66e-39, largest rejected -
+      [27 along class 1 - class 2 coinvariants(T2)] rank 27 of (27x54); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '1.54e-30', '4.05e-36', '2.95e-39']; smallest accepted 2.95e-39, largest rejected -
+    27 along class 1 - class 2: h0(M) = 0, h1(M) = 0, h2(M) = h1 - h0 = 0; torus: h0 = 0, h1 = 0, h2 = 0 (Euler ok); rank(res) = 0 (h1 = 0); [mu,lambda] = 2.5e-47
+      [27bar along class 1 - class 2 d0] rank 27 of (54x27); pivot tail ['1.09e-8', '8.87e-9', '7.12e-9', '5.64e-9', '1.42e-9', '1.27e-9']; smallest accepted 1.27e-9, largest rejected -
+      [27bar along class 1 - class 2 d1] rank 27 of (27x54); pivot tail ['2.42e-9', '2.4e-9', '1.05e-10', '1.86e-24', '1.8e-34', '4.51e-37']; smallest accepted 4.51e-37, largest rejected -
+      [27bar along class 1 - class 2 cusp fixed] rank 27 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '1.54e-30', '4.05e-36', '2.95e-39']; smallest accepted 2.95e-39, largest rejected -
+      [27bar along class 1 - class 2 Z1(T2)] rank 27 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '3.48e-30', '5.88e-36', '5.66e-39']; smallest accepted 5.66e-39, largest rejected -
+      [27bar along class 1 - class 2 B1(T2)] rank 27 of (54x27); pivot tail ['1.94e-15', '1.56e-15', '4.06e-17', '1.54e-30', '4.05e-36', '2.95e-39']; smallest accepted 2.95e-39, largest rejected -
+      [27bar along class 1 - class 2 coinvariants(T2)] rank 27 of (27x54); pivot tail ['1.54e-15', '8.45e-16', '1.63e-17', '3.48e-30', '5.88e-36', '5.66e-39']; smallest accepted 5.66e-39, largest rejected -
+    27bar along class 1 - class 2: h0(M) = 0, h1(M) = 0, h2(M) = h1 - h0 = 0; torus: h0 = 0, h1 = 0, h2 = 0 (Euler ok); rank(res) = 0 (h1 = 0); [mu,lambda] = 5.6e-47
+     ==> N(27) = h1(27) - h1(27bar) = 0;  bound -0 <= N <= 0;  torus duality (h1 = h1*, h2 = h0*) ok   (66 s)
+
+=== summary ===
+    class 1             : N(27) = 0; h1(27) = 0, h1(27bar) = 0; cusp h0(27) = 0, h0(27bar) = 0; torus Euler ok: True
+    class 2             : N(27) = 0; h1(27) = 0, h1(27bar) = 0; cusp h0(27) = 0, h0(27bar) = 0; torus Euler ok: True
+    class 1 + class 2   : N(27) = 0; h1(27) = 0, h1(27bar) = 0; cusp h0(27) = 0, h0(27bar) = 0; torus Euler ok: True
+    class 1 - class 2   : N(27) = 0; h1(27) = 0, h1(27bar) = 0; cusp h0(27) = 0, h0(27bar) = 0; torus Euler ok: True
+[66 s]
+RC=0

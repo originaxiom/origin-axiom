@@ -93,7 +93,7 @@ closed closing you may have the 2 or the c-breaking, not both.* Three appears on
 descent** (`3 | n`; `H₁(Y_n) = (ℤ/L_n)²` for odd n, the 19 of Y₉ is `L₉/L₃`), and **the descent is
 vector-like**: the SM seat's Y₉ carries the SM group **and three generations** — 706,464 SM lines in
 **19,624 inequivalent vacua** under the group of order 72, **all in mirror pairs** (sm:B1278/B1279;
-re-run here) — *"the chiral closing needs to supply only the chirality bit."*
+re-run here) — *"the chiral closing needs to supply only the chirality bit."* **And the flat sector's last open direction is closed (2026-09-09, B1322 verifying sm:B1350): along the V₁₀ of the 42 at the subregular point the E₆ holonomy deforms to genuine non-self-dual representations with N(27) = 0 — the θ-odd frame is closed on every sl₂ germ of the cusped object.**
 
 **Scope of "the SM group" (E53 fix, B1303, 2026-09-08):** that is the Wilson line's GAUGE ALGEBRA. The tree-level vacuum of the
 same closing (sm:B1283, verified here with independent code) leaves **one extra U(1) unbroken on every SM-preserving flat

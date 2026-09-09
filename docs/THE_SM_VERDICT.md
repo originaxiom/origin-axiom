@@ -7,7 +7,7 @@
 > amphichirality in one face's language (B1296–B1299). **(2) the SM closing's vacuum (B1303):** on the observer-selected closing Y₉ the tree-level vacuum is
 > **SM × U(1)_Z′ (rank 5)**, the Z′ family-non-universal, its first testable consequence a **fork** (`FALSIFIER_REGISTER` P9: M_Z′/g ≳ 154 TeV if a light family is
 > VEV'd, ~2 TeV if the third). **(3) the tower (B1301, B1306 A):** Y₁₂ is a second SM closing and h¹ on every Y_n is a computable 2×2 matrix product, so the
-> selection among the closings (L203) is a finite arithmetic menu with no selector yet. The verdict below stands where it does not contradict these three.
+> selection among the closings (L203) is a finite arithmetic menu with no selector yet. **(4) L204 closed (B1322, 2026-09-09):** the one flat-sector direction the pairing law left open, the V₁₀ at the subregular point, carries genuine non-self-dual E₆ representations with N(27) = 0 — no chirality from the θ-odd frame on any sl₂ germ. The verdict below stands where it does not contradict these four.
 
 
 > ## ⚠ AMENDED 2026-08-08 (B976) — this verdict was written without the B860s

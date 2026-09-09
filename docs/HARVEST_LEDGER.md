@@ -16,12 +16,12 @@ with the debt and cannot close while any seat item lacks a row. The `chat1` (ses
 
 | seat | branch | pin | pinned at | by arc |
 |---|---|---|---|---|
-| sm | `origin/standard-model-derivation-0qt6ao` | `ca850d6b` | 2026-09-09 | B1306 B |
+| sm | `origin/standard-model-derivation-0qt6ao` | `d722714f` | 2026-09-09 | B1322 |
 | fc | `origin/physics-seat-evaluation-8dkbrl` | `659487bb` | 2026-09-08 | B1298 / B1303 |
 | codex | `codex/seat-r001` | `f7a49536` | 2026-09-09 | B1306 A (inventory read) |
 | cc3 | `paper/structure-genesis-first` | `a31456d2` | 2026-09-09 | B1306 A (inventory read) |
 | hostile | `golden_gate/paper-hostile-review-alero0` | `6fc86147` | 2026-09-09 | B1306 A (inventory read) |
-| cloud | `origin/outside-bench` | `02a885ca` | 2026-09-09 | B1306 B |
+| cloud | `origin/outside-bench` | `e51afd6c` | 2026-09-09 | B1322 |
 | braver | `audit/b775-braver-questions` | `53da05f6` | 2026-09-09 | B1306 A (inventory read) |
 | qor5up | `origin/new-session-qor5up` | `3851df2a` | 2026-09-09 | B1306 A (inventory read) |
 | audit | `audit/physical-bridge-2026-09-05` | `6f862099` | 2026-09-09 | B1304 |
@@ -144,3 +144,8 @@ with the debt and cannot close while any seat item lacks a row. The `chat1` (ses
 | 112 | hostile-review seat | memo 19 S₄_TORSOR (`s4_question.py`, `sp4_idx2.py`, `sp4b.py`) | "W(E₈) realizes the full S₄ on the four A₂ slots … the normalizer is computed exactly" | `…/S4_TORSOR.md` @ 6fc86147; re-runs RC=0 | **REGISTERED** with the re-runs | B1306 (C) | 2026-09-09 |
 | 113 | hostile-review seat | memo 20 AW_TYPING (`aw_typing.py`, `aw_typing2.py`) — NEGATIVE | "no transversal pair of the flat cone's order-96 group generates an ADE (SU(2)-type) stabilizer" | `…/AW_TYPING.md` @ 6fc86147; re-runs RC=0 | **REGISTERED** as the seat's typed negative | B1306 (C) | 2026-09-09 |
 | 114 | hostile-review seat | memo 21 UNIT_DICTIONARY (`unit_dictionary.py`) | "every geodesic eigenvalue is a unit of an explicit palindromic quartic … geodesic length is its log-Mahler measure" | `…/UNIT_DICTIONARY.md` @ 6fc86147; re-run RC=0 | **VERIFIED** on 16 geodesics of m004 to length 3.0 (t ∈ ℤ[ω]; log M = ℓ to 10⁻⁹) | B1306 (C) | 2026-09-09 |
+| 115 | SM-derivation seat | sm:B1350 stage 4 + 4′ — THE V₁₀ DIRECTION, PROVED (`v10_direction.py`, `report_hp.py`) | "carries genuine, non-self-dual E₆ representations along every direction of its class space, and N(27) = 0 on all of them" | `frontier/B1350_the_v10_direction/FINDINGS.md`, `verification/v10_direction_points.json` @ 7484ad01; `report_hp.py` re-run here RC=0 | **VERIFIED** — main's own Fox calculus at the four banked 100-digit points (`B1322`): relator 10⁻⁶¹…10⁻⁶⁸, non-self-dual, h¹(27) = h¹(27̄) = 0, no cusp-fixed vector, N = 0; L204 CLOSED | B1322 | 2026-09-09 |
+| 116 | SM-derivation seat | sm:B1268 addendum — two precision caps in the machinery | "its 10⁻²⁴ damping stalls the Newton search … its 60-digit report misreads ranks where genuine pivots reach 10⁻³⁹" | `frontier/B1268_cusped_net_chirality_bound/ADDENDUM_2026-09-09_two_precision_caps.md` @ d722714f | **REGISTERED** (an instrument note; main's re-read at 110 digits saw the same pivots) | B1322 | 2026-09-09 |
+| 117 | SM-derivation seat | the tower relay's fourth note (2026-09-09) | "Your L204 / this branch's L207(i) — the V₁₀ direction — is computed: N(27) = 0 … Your 15 % prior resolves to 0" | `SM_TO_CC_2026-09-08_THE_TOWER.md` @ d722714f | **BANKED** at B1322 (the relay row updated) | B1322 | 2026-09-09 |
+| 118 | cloud seat | memo 183 addenda 2–5 (`park_ahat_repair.py`, `park_table3_repaired.py`, `park_repair_cannot_close.py`; the reproducibility fix) | "THE REPAIR IS DETERMINATE … a₁ IS THE UNIQUE SINGLE-INDEX PLACEMENT"; "THE SINGLE-INDEX RECONSTRUCTION CANNOT CLOSE"; "a reproducibility defect in my own certificates" | `outside_bench/memos/THE_ANNIHILATOR_DOES_NOT_ANNIHILATE.md` @ e51afd6c; two certificates re-run here from a clean checkout RC=0 | **REGISTERED** with the re-runs (the determinacy argument is a bounded follow-up to slice B's Q6, whose source-level check stands); the path defect slice B reported is fixed by the seat (addendum 5) | B1322 | 2026-09-09 |
+| 119 | cloud seat | memo 180 addendum 1 — GM Theorem 1.3 verified | "THM 1.3 IS NOW VERIFIED. The ledger's one ⚠️ closes" | `outside_bench/memos/THE_VERIFICATION_LEDGER.md` @ e51afd6c | **REGISTERED** (the cloud's own verification ledger; main's Phase 3 DESIGN reads it) | B1322 | 2026-09-09 |
