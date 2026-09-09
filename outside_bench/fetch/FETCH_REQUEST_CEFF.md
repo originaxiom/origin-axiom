@@ -198,3 +198,25 @@ Three files on it are worth taking anyway, in this order:
    Take it *with* `CJ22_rec.m`, not after.
 
 **Do not take `Ahat_5`** — the page itself warns it is 1 GB zipped.
+
+
+---
+
+## B'' IS CLOSED (2026-09-09, memo 187)
+
+Section B'' asked for the primary-source quantum A-polynomial of `5_2`, to localise the defect
+memo 183 found in Park's printed eq (32). **It is closed, though not by the file that was
+expected.**
+
+* `rec.twist.knot.2.m` arrived and is the operator for **`6_1 = K_{-2}`**, identified by
+  annihilation — the same lost minus sign as the `CJTwist` filenames. It is **not** `5_2`'s.
+* **S. Garoufalidis, "Quantum knot invariants", arXiv:1201.3314v3, section 4, PRINTS the order-3
+  recursion for `5_2`'s colored Jones.** It annihilates this bench's own R-matrix colored Jones
+  at six values of `n`. That is the verified operator section B'' was asking for.
+
+**Still wanted:** the `rec.twist.knot.*` set with the signs intact (F187-2), which would give the
+whole twist family rather than one knot. **No longer blocking.**
+
+**Fetch item B2 (arXiv:2106.03942) has arrived** and is read into memo 187 section 8. Its
+Conjecture 2 is the non-naive inverted-Habiro route memo 185 section 6 named as the only
+survivor. Nearest cheap test is `4_1`, named F187-1.
