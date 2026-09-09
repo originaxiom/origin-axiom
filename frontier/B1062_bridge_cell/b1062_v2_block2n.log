@@ -1,0 +1,11 @@
+[B2N] solving m=3 geometric point numerically (multistart, elliptic excluded)...
+[B2N] m=3 geometric (numeric): x=-0.543676+0.446874j y=-0.543676-0.446874j z=0.247640+0.361176j
+[B2N] cross-check vs block 3b's z-root -0.592030-0.507802j family: |z| match up to Galois = informational
+[B2N] === box-counts, words to length 10 (declared window) ===
+[B2N] m=1: distinct traces 1161; boxes 1156; max/box 2; top-5 [2, 2, 2, 2, 2]
+[B2N] m=2: distinct traces 1409; boxes 1355; max/box 2; top-5 [2, 2, 2, 2, 2]
+[B2N] m=3: distinct traces 2470; boxes 118; max/box 106; top-5 [106, 105, 96, 96, 82]
+[B2N] reading: golden's counts flat-bounded (the PIPELINE GATE's numeric echo);
+      silver/bronze crowding = what conjugate-unboundedness looks like through
+      a finite window. ILLUSTRATION ONLY -- the exact verdicts are the fields'.
+==== B2N done ====

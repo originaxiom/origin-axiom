@@ -1,11 +1,22 @@
 """B1063 locks -- the refresh verdict: the eight misses, the clause, the closure."""
 import pathlib
 
+import pytest
+
 ARC = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B1063_refresh_verdict"
 
 
 def test_window_log_pins_the_misses():
-    log = (ARC / "refresh_windows.log").read_text()
+    """refresh_windows.log was never committed -- .gitignore's LaTeX rule `*.log` matched
+    it -- and B1063 holds no script that could regenerate it, so no clone can run this
+    lock.  A .gitignore negation is in place so a bench that still has the log can commit
+    it; until then, say what is missing instead of raising FileNotFoundError."""
+    f = ARC / "refresh_windows.log"
+    if not f.exists():
+        pytest.skip("frontier/B1063_refresh_verdict/refresh_windows.log was never "
+                    "committed (gitignored *.log) and the arc has no script to "
+                    "regenerate it")
+    log = f.read_text()
     assert "MISS by 44 deg (240 vs [157,196])" in log
     assert "MISS by 2 deg (240 vs [171,238])" in log
     assert "MISS by 9 deg (240 vs [249,296])" in log

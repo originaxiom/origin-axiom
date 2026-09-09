@@ -24,6 +24,12 @@ dist/
 # reproduce the manifest and several arc locks could not run at all.
 !frontier/*/verification/*.out
 !frontier/*/verification/*/*.out
+# ...and the artifacts that committed locks read by name.  The `*.log` and `*.jsonl`
+# rules below are for build noise; these are evidence, cited in ORIGINALS_MANIFEST.txt
+# and in tests, and a clone that lacks them cannot run those locks.
+!frontier/B646_wave2_integration/cc2_packets/**/*.log
+!frontier/B1062_bridge_cell/*.log
+!frontier/B1063_refresh_verdict/*.log
 *.toc
 *.synctex.gz
 *.fls
@@ -91,6 +97,9 @@ conversations.json
 data-*-batch-*/
 *.jsonl
 !frontier/*/stageA/journals/*.jsonl
+# the PSLQ grids B1137's aggregate lock re-derives from (a negation must follow the
+# rule it undoes, so this one lives here rather than with the other artifact rules)
+!frontier/B1137_regulator_probe/results/*.jsonl
 chronicle_raw*
 
 
