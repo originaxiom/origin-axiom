@@ -1520,3 +1520,42 @@ healthy ledger for a line that did not reach its target, and it is not the targe
 still headlined `c = −1/16` for `5₂` in its findings table, its Q6 answer and its file list — a
 reader harvesting only the table would have taken a withdrawn claim as established. All three are
 now marked **SUPERSEDED in place**, pointing at §6b.
+
+---
+
+## ADDENDUM 83 (2026-09-09) — **R83: "how do we xontinue from this? give up or?"**
+
+**The answer given, and the decision taken.** Not give up — but stop paying for the `c_eff` route,
+for a reason stronger than difficulty: **its success would not have been evidence.**
+`c_eff(1/(q;q)_∞^m) = m`, so `6` is available from *any* knot with tail `(q;q)_∞` at `m = 6`. A
+route whose positive outcome is a number one can manufacture to order is not worth more compute.
+That is the correct reason to stop, and it is not defeat.
+
+**Where "give up" is the wrong frame.** σ has a definite question with a definite answer available,
+and the lane is waiting on **a human, not on compute**. Q11 asked whether a mechanism exists
+attaching a genuine boundary character to the unquantized sector, and said in its own words that
+*"a theorem that none can exist would settle the matter permanently the other way, which we would
+equally like to know."* **A clean negative closes σ instead of leaving it a free parameter under an
+unresolved hope, and is worth as much as a positive.**
+
+**Owner's decision: get the one document.**
+
+**What that turned into, and it is better than what was asked for.** The ask was going to be
+eq (32)'s LaTeX. Reading Park's **own footnote 12** — *"The data for the quantum A-polynomial can
+be found in [GS10, GK13, NRZS12]"* — and then his bibliography gives **direct data URLs** for the
+primary source he transcribed from:
+
+* **[GS10]** Garoufalidis–Sun, *The non-commutative A-polynomial of twist knots*, JKTR 19(12), 2010
+  — `people.mpim-bonn.mpg.de/stavros/publications/twist.knot.data/`
+* **[GK13]** Garoufalidis–Koutschan, *Irreducibility of q-difference operators and the knot 7₄*,
+  AGT 13(6), 2013 — `people.mpim-bonn.mpg.de/stavros/publications/double.twist.data/`
+
+**Both are egress-blocked here**, verified by `curl` (403 from the proxy) and `WebFetch`
+(`EGRESS_BLOCKED`) before asking — not assumed. `fetch/FETCH_REQUEST_CEFF.md` §B'' now carries the
+exact ask, what is needed from it (`a_0 … a_4` for `5₂` = `K_{2,1}`, any format), and a test the
+owner can run **without trusting this bench**: the correct operator must make
+`[Â F⁺]_{x^{7/2}} = 0`, where eq (32) as printed gives `q^{13} f_0(q)`.
+
+> **There is no outcome in which this is wasted.** If the primary source differs from eq (32), the
+> erratum is confirmed and the repair is *handed over* rather than fitted. If it agrees, the defect
+> is older and further upstream than Park — a different and larger finding.

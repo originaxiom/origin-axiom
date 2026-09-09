@@ -64,6 +64,36 @@ cannot be decided.
 > **So `B''1` or `B''2` — one document — is now worth more than any amount of further computation
 > here.** `B''3` survives only in the much larger form "`f_6 … f_16`", which is a different ask.
 
+> ### **[2026-09-09 — THE ASK IS NOW EXACT, AND IT IS NOT ARXIV.]**
+>
+> Park's **footnote 12** names where eq (32)'s data came from: *"The data for the quantum
+> A-polynomial can be found in [GS10, GK13, NRZS12]."* Two of those citations carry **direct data
+> URLs in his own bibliography** — machine-readable files for exactly this object, from the
+> primary source he transcribed:
+>
+> | # | what | where |
+> |---|---|---|
+> | **B''A** | **[GS10]** Garoufalidis & Sun, *"The non-commutative A-polynomial of twist knots"*, J. Knot Theory Ramifications **19(12):1571–1595, 2010** | `people.mpim-bonn.mpg.de/stavros/publications/twist.knot.data/index.html` |
+> | **B''B** | **[GK13]** Garoufalidis & Koutschan, *"Irreducibility of q-difference operators and the knot 7₄"*, Algebr. Geom. Topol. **13(6):3261–3286, 2013** | `people.mpim-bonn.mpg.de/stavros/publications/double.twist.data/index.html` |
+> | B''C | fallback only: the LaTeX source of arXiv:2004.02087 | `arxiv.org/e-print/2004.02087` |
+>
+> **Both hosts, and arxiv.org, are blocked by this container's egress policy** — verified by
+> `curl` (HTTP 403 from the proxy) and by `WebFetch` (`EGRESS_BLOCKED`), not assumed.
+>
+> **WHAT IS NEEDED FROM IT:** the operator `Â` for **`5₂`** — Park's `K_{2,1}`, the twist knot with
+> two twists — as the coefficients `a_0 … a_4` of `ŷ^i`, polynomials in `x` and `q`. **Any format**:
+> Mathematica, plain text, a PDF page. Nothing else from those pages is wanted.
+>
+> **HOW TO TELL IT IS THE RIGHT OBJECT, without trusting me:** the printed eq (32) fails a test the
+> correct operator must pass. Applied to Park's own `F⁺`, its `x^{7/2}` coefficient is
+> `q^{13} f_0(q) ≠ 0` instead of `0`. Feed the fetched operator to
+> `certificates/park_ahat_erratum.py` and that coefficient must come out **zero**.
+>
+> **WHY THIS SETTLES IT EITHER WAY.** If the primary source's operator differs from eq (32), the
+> erratum is confirmed and the repair is handed over rather than fitted. If it agrees, then eq (32)
+> is faithfully copied and the defect is older and further upstream than Park — which is a
+> different and larger finding. **There is no outcome in which this is wasted.**
+
 `δ_4` remains pinned exactly, for anyone checking against it:
 `[Â_printed F⁺]_{x^{9/2}} = q^{12} − q^{13} + q^{15} + q^{16} − q^{17} − 3q^{18} + …`
 
