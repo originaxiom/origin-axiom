@@ -1955,3 +1955,63 @@ been drawn, and drawing it is the difference between waiting and specialising.
 **Standing consequence, adopted:** *no lane's critical path may run through an unanswered external
 question. Where one does, the bench names the capability that would remove the dependency and
 prices it.*
+
+---
+
+## ADDENDUM 91 (2026-09-09) — **R91: "please fix all u can so cc can see and harvest them"**
+
+Twelve red tests on a clean `main`. All twelve now green or accurately skipped, in five
+pushed commits. Full account in **memo 193**; the two findings that matter here:
+
+**(a) The hygiene guard caused the damage it cannot see.** The absolute-path cleanup
+substituted the *documentation* placeholder `"<repo>/"` into *executable* code. The guard
+looks for `/home/` and `/Users/`, and `"<repo>/"` is neither — so it went green while
+**26 committed scripts became unable to open anything**. Repaired, and verified by running:
+B1306 slice C's three re-derivations and B771 cell W3-084 all re-run green and rewrote their
+committed outputs **byte-identically**.
+
+**(b) `.gitignore` was deleting the evidence the locks read.** The LaTeX block's `*.out`,
+`*.log` and `*.jsonl` match at every depth, so they also matched a manifest's originals and
+five arcs' pinned artifacts. **Five locks could not run on any clone.** Worse, the P3
+manifest lock's own failure message instructed the reader to run `build_manifest.py` — which
+on a clone **deletes 20+ entries** from the reviewer-facing package.
+
+**Three numerical locks, three separate causes** — a SnapPy SL(2,C) lift convention (repaired
+with a *stronger* test), a loxodromic overflow that `√|det|` rescaling cannot catch (repaired
+in SU(2); the claim reproduces), and a B616 lock that **has never passed** — checked by
+running its script in a worktree at the very commit that landed both.
+
+**One fragility reported and deliberately left alone**, because re-pinning that number is
+main's call, not this bench's: B616's family membership is decided by the sign of rounding
+noise in 14 exact zeros.
+
+### The standing rule this produces
+**R91: evidence a lock reads must be in the repository, and a lock's failure message must
+never instruct the reader to perform a destructive act.** A blanket ignore rule silently
+converts a lock into an unrunnable one; a "regenerate it" message on a checkout that lacks
+the inputs regenerates something smaller and calls it current.
+
+---
+
+## ADDENDUM 92 (2026-09-09) — **R92: "fetch everything stay updated. especially codex seat and cc seat"**
+
+Fetched; all remotes current at the time of writing.
+
+**Codex seat** `audit/physical-bridge-2026-09-05`, `0558e846 → 833b939b`, two commits,
+1510 lines. **R24: total mass-eigenline flux on the regulated source complement.** Design
+sealed *before* execution; prior art read in full (Nie arXiv:0909.4754v2, eqs (1.4), (1.5),
+(2.2)–(2.12), Remark 1.12). Its stated expectation is `K = −Φ` with the secondary Euler form
+and total flux `sign(q)·k` — and explicitly **no** physical selection of `k = 3` and **no**
+automatic anomaly cancellation. *That preregistration is against the programme's own
+interest, which is the right way to write one.* First run preserved (9.4 s), scope stated as
+"exact local identities and finite controls… not a complete quantum boundary theory".
+Its own dependency run is **red and committed red**: 7 failures, one cause —
+`holonomy_equivariance.py:114`, `ValueError: no explicit original-to-canonical combinatorial
+basis bridge`. Per **R80-1** that is a receipt about the state of that branch, nothing more.
+
+**SM-derivation seat** `claude/standard-model-derivation-0qt6ao`: has read this bench —
+`79b353a7` registers memos 185–189 — and notes codex unchanged since R040, which the two
+commits above now make stale. Live work is B1355 and **L212**: with b₂ = 1 Witten's sum rule
+forces the three 27s' U(1) charges to sum to zero, so a symmetric triple needs b₂ ≥ 2.
+
+**Main** at `b94ed03a`. This branch is 0 behind it.
