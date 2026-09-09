@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1203** |
-| words of findings prose | **871,694** |
+| words of findings prose | **871,774** |
 | test lock files referenced | **717** |
 | arcs carrying an authored verdict | **1203** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1355`** (1799 words, 1 locks)  
+**PROVED — `B1355`** (1879 words, 1 locks)  
 THE E7 POINT MADE EXPLICIT: the destination's local model is the G2 cone over CP^3/2T -- the Bryant-Salamon cone over the nearly-Kaehler CP^3 divided by the object's McKay group 2T acting on one quaternionic factor (the twistor cone of the self-dual Einstein orbifold S^4/2T, Acharya-Witten's twistor family). Its E6 locus (the cone over the twistor line fixed by all of 2T, normal action 2T c SU(2)) and an A1 locus (the cone over the line fixed by -1) meet only at a curved non-orbifold apex; the link CP^3/2T has b_2 = 1 and the E6 locus's class pairs non-trivially with the harmonic two-form, so by Witten's inflow (the mixed U(1).E6^2 anomaly equal to the integral of w over the locus's link) the apex must carry chiral E6-charged matter with U(1) charge -- the E6 analogue of Acharya-Witten's U(N) point, the configuration B1353 proved impossible in the flat class. Acharya-Witten's hyperkaehler-U(1) family is A-type only (the centraliser of 2T in Sp(1) is +-1). The count one 27 per point is the literature's rule (E7 > E6 x U(1)); the compact closing with three such apexes is not constructed. Item 1 of the destination has a named local geometry. 0 of 19.  
 `B1355_the_e7_point_made_explicit/FINDINGS.md`
 
