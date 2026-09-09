@@ -44,6 +44,20 @@ def test_dims():
 
 
 def test_snappy_gate():
+    """The three pinned traces, UP TO THE CHOICE OF SL(2,C) LIFT.
+
+    The holonomy of a hyperbolic 3-manifold is a PSL(2,C) representation; an SL(2,C)
+    lift is only defined up to a sign character chi: H_1 -> {+-1}, and which lift a
+    given SnapPy build returns is not canonical.  SnapPy 3.3.2 returns the lift with
+    chi(a) = -1, chi(b) = +1 relative to the one these traces were pinned from, so
+    tr(a), tr(aB) and tr(ABB) all come back negated and a literal comparison fails
+    while the representation is unchanged.
+
+    The mathematical content is that ONE character reproduces ALL THREE pinned
+    values -- a per-word "match up to sign" would be much weaker and would pass for
+    a rep that is not the holonomy.  So: find every sign character that works, and
+    require exactly one.
+    """
     snappy = pytest.importorskip("snappy")
     G = snappy.Manifold("4_1").fundamental_group()
     assert G.relators() == ["abbbaBAAB"] and G.meridian() == "ABB"
@@ -52,9 +66,21 @@ def test_snappy_gate():
         S = G.SL2C(w)
         return complex(S[0, 0]) + complex(S[1, 1])
 
-    assert abs(tr("a") - complex(sp.N(T_A))) < 1e-9
-    assert abs(tr("aB") - complex(sp.N(T_AB_))) < 1e-9
-    assert abs(tr("ABB") - (-2)) < 1e-9
+    pinned = {"a": complex(sp.N(T_A)), "aB": complex(sp.N(T_AB_)), "ABB": complex(-2)}
+
+    def sign(word, sa, sb):
+        """chi(word): a/A carry sa, b/B carry sb (chi factors through H_1, so
+        inverses carry the same sign)."""
+        s = 1
+        for ch in word:
+            s *= sa if ch in "aA" else sb
+        return s
+
+    good = [(sa, sb) for sa in (1, -1) for sb in (1, -1)
+            if all(abs(sign(w, sa, sb) * tr(w) - v) < 1e-9 for w, v in pinned.items())]
+    assert len(good) == 1, (
+        "no single SL(2,C) lift reproduces the pinned traces: "
+        f"{ {w: tr(w) for w in pinned} } vs pinned { pinned }; matching characters {good}")
 
 
 def test_nonreal_adjoint_traces():
