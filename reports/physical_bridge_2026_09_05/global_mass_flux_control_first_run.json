@@ -1,0 +1,21 @@
+{
+  "control": {
+    "basis_residuals": [
+      "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+      "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])"
+    ],
+    "exact_residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "independent_residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "mass_rotation_residual": "Matrix([[0, 0], [0, 0]])",
+    "mutant_residuals": [
+      "Matrix([[-I*a2/2, -I*a0/2 - a1/2, 0, 0], [-I*a0/2 + a1/2, I*a2/2, 0, 0], [0, 0, -I*a2/2, -I*a0/2 - a1/2], [0, 0, -I*a0/2 + a1/2, I*a2/2]])",
+      "Matrix([[-2*I*a2, -I*a0 - a1, -I*a0 - a1, 0], [-I*a0 + a1, 0, 0, -I*a0 - a1], [-I*a0 + a1, 0, 0, -I*a0 - a1], [0, -I*a0 + a1, -I*a0 + a1, 2*I*a2]])",
+      "Matrix([[0, (1 - I)*(a0 - a1)/2, (1 - I)*(a0 - a1)/2, 0], [(1 - I)*(-I*a0 + I*a1)/2, 0, 0, (1 - I)*(a0 - a1)/2], [(1 - I)*(-I*a0 + I*a1)/2, 0, 0, (1 - I)*(a0 - a1)/2], [0, (1 - I)*(-I*a0 + I*a1)/2, (1 - I)*(-I*a0 + I*a1)/2, 0]])"
+    ],
+    "original_structural_boolean": false,
+    "raw_comparison_disagrees": true
+  },
+  "runtime_seconds": 0.2539160119922599,
+  "scope": "exact normalization and independent linear generators; original failure retained"
+}

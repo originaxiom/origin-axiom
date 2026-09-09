@@ -2691,3 +2691,20 @@ require a genuine map to the proposed twistor cone before transferring
 its one-27 count. The global two-form lattice and extending periods
 remain required. No numerical theorem or new B ID from this review.
 Source: reports/physical_bridge_2026_09_05/CHIRALITY_REFRESH.md.
+
+**R24 movement, same PB-BOUNDARY lead (2026-09-09):** closing sentence:
+"Within the specified positive-source class, the actual global
+mass-eigenline boundary charge equals the signed relative index,
+including all rounded seams and the complete topological exhaustion."
+Source: reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX.md, section 6.
+Only the TOTAL boundary-charge sub-duty is closed. The conditional
+three/zero kernel is retained, and PB-BOUNDARY stays OPEN. Next derive
+an actual source/end action and its compensating quantum response,
+including boundary domains and the global eta/Pfaffian phase, or a
+compatible massive-gauge mechanism. Recheck the charged spectrum in
+the completed theory. Separate open-face flux convergence/quantization
+is not supplied by the total integer. Physical source/amplitude/orbit
+selection, finite-action defects, SM breaking, the neutral 4D limit
+and common gravity remain separate. The nonzero total also forces a
+nonempty critical set; exactly three Morse points were NOT computed.
+The corrected E7-to-E6 curved-cone lead remains live alongside this path.

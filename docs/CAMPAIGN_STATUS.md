@@ -1,5 +1,17 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL AUDIT, 2026-09-09 (R24): the actual total boundary charge.**
+For the specified positive-source class, the actual mass-eigenline
+curvature has total rounded-boundary flux sign(q)*k for k proper arcs.
+The proof includes the actual spin connection, corner flow and complete
+topological exhaustion, without assuming isolated Morse zeros. The
+three-arc case agrees with the conditional three-generation index;
+a compensating quantum end sector and physical source/domain selection
+remain OPEN. The original raw equality failure is retained, with a
+separately sealed exact residual and independent exterior-action check.
+This is not a complete physical TOE, full-suite green or a main bank.
+Report: reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX.md.
+
 **Cross-seat chirality refresh, 2026-09-09 (path-local):**
 All nine remote branch heads fetched and pinned. The sourced three/zero
 kernel and R23 local inflow are retained; physical source/domain

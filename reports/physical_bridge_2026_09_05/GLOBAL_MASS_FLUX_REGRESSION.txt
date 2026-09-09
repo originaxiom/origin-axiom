@@ -1,0 +1,348 @@
+R24 expanded regression after seals d304e2b0/833b939b.
+45 explicitly enumerated files; tree held read-only during the run.
+Original R24 syntactic-comparison failure remains enabled alongside the separately passing exact controls.
+Exit code: 1
+Comparison with R23: {"previous":21,"current":22,"added":["FAILED tests/test_physical_bridge_global_mass_flux.py::test_actual_twisted_connection_transports_both_spin_factors"],"missing":[]}.
+Environment prefixes redacted only. Not the full repo or independent proof review.
+
+$ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_b1084_g2_cone.py tests/test_b1105_b1106_locks.py tests/test_b1255_generation_type.py tests/test_physical_bridge_anomaly_action_control.py tests/test_physical_bridge_anomaly_completion.py tests/test_physical_bridge_boundary_index.py tests/test_physical_bridge_broken_vacuum.py tests/test_physical_bridge_charged_domain.py tests/test_physical_bridge_charged_domain_control.py tests/test_physical_bridge_cusp_tail.py tests/test_physical_bridge_family_action.py tests/test_physical_bridge_family_dispatch.py tests/test_physical_bridge_family_domain.py tests/test_physical_bridge_finite_alignment.py tests/test_physical_bridge_g2_export.py tests/test_physical_bridge_g2_isolation.py tests/test_physical_bridge_gauge_running.py tests/test_physical_bridge_geometric_completion.py tests/test_physical_bridge_global_mass_flux.py tests/test_physical_bridge_global_mass_flux_control.py tests/test_physical_bridge_global_singular.py tests/test_physical_bridge_harmonic_cusp.py tests/test_physical_bridge_harmonic_transport.py tests/test_physical_bridge_higgs_control_repair.py tests/test_physical_bridge_higgs_sector.py tests/test_physical_bridge_holonomy_equivariance.py tests/test_physical_bridge_holonomy_equivariance_word_control.py tests/test_physical_bridge_holonomy_spectrum.py tests/test_physical_bridge_infrared_alignment.py tests/test_physical_bridge_legacy_audit.py tests/test_physical_bridge_mass_inflow.py tests/test_physical_bridge_mass_inflow_bundle_control.py tests/test_physical_bridge_mass_match.py tests/test_physical_bridge_partial_filling.py tests/test_physical_bridge_quantum_derivative.py tests/test_physical_bridge_quantum_result.py tests/test_physical_bridge_quantum_shift.py tests/test_physical_bridge_quantum_shift_control.py tests/test_physical_bridge_quantum_vacuum.py tests/test_physical_bridge_singular_cusp.py tests/test_physical_bridge_upstream.py tests/test_physical_bridge_upstream_second.py tests/test_physical_bridge_vacuum.py tests/test_physical_bridge_vacuum_orientation.py tests/test_physical_bridge_weighted_cohomology.py -q -p no:randomly --tb=short
+
+....................................................F..........FFF...... [ 20%]
+.........EEEEEEEE.....................................F................. [ 41%]
+...............F............................................F.F......F.. [ 62%]
+FFFFF................................................................... [ 82%]
+............................................................             [100%]
+==================================== ERRORS ====================================
+__ ERROR at setup of test_lattice_integrality_and_a_corrupt_root_are_checked ___
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_marked_map_verifies_all_products_and_rejects_bad_assignment _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_root_space_actions_are_not_identified_from_orbit_counts _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+__ ERROR at setup of test_commuting_split_reconstructs_literal_action_exactly __
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_six_classes_have_the_same_cycles_but_distinct_internal_actions _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_map_is_equivariant_and_orientation_is_not_silently_fixed _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+_ ERROR at setup of test_family_lift_has_order_three_and_lie_centralizer_control _
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+__ ERROR at setup of test_exact_arithmetic_and_input_provenance_are_retained ___
+tests/test_physical_bridge_family_action.py:12: in result
+    return f.run()
+           ^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:358: in run
+    lattice = lattice_check(rr)
+              ^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/family_action.py:140: in lattice_check
+    basis = hermite_normal_form(ints.T)/den
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/matrices/normalforms.py:156: in hermite_normal_form
+    return _hnf(A._rep, D=D, check_rank=check_rank).to_Matrix()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py:536: in hermite_normal_form
+    raise DMDomainError('Matrix must be over domain ZZ.')
+E   sympy.polys.matrices.exceptions.DMDomainError: Matrix must be over domain ZZ.
+=================================== FAILURES ===================================
+________________ test_all_eight_exact_hyperbolic_zero_branches _________________
+tests/test_physical_bridge_charged_domain.py:26: in test_all_eight_exact_hyperbolic_zero_branches
+    assert row['d'] == {} and row['delta'] == {}
+E   assert ({(0,): -a*(-s...)*tanh(r)**a)} == {}
+E     
+E     Left contains 1 more item:
+E     {(0,): -a*(-sinh(2*r)*tanh(r) + sinh(2*r)/tanh(r) - 2)/(sinh(2*r)*tanh(r)**a)}
+E     Use -v to get more diff)
+_____________ test_nonzero_green_form_and_distinct_complex_domains _____________
+tests/test_physical_bridge_charged_domain.py:94: in test_nonzero_green_form_and_distinct_complex_domains
+    assert out['capacity_energy_identity'] == 0
+E   assert -(2*L*R**(2*L)*epsilon**(2*L) - R**(2*L)*Piecewise((Integral(Piecewise((0, (r < 1) & (1/r < 1)), (-8*L**3*gamma(-2*L)/...*L)*epsilon**(2*L)) + r*r**(2*L)/R**(4*L)), True)), (r, R, epsilon)), True)))/((R**L - epsilon**L)*(R**L + epsilon**L)) == 0
+__________ test_independent_quadrature_and_actual_hyperbolic_measure ___________
+tests/test_physical_bridge_charged_domain.py:107: in test_independent_quadrature_and_actual_hyperbolic_measure
+    assert max(r['quadrature_relative_error'] for r in rows) < 5e-12
+E   assert 1.9601911205313627e-09 < 5e-12
+E    +  where 1.9601911205313627e-09 = max(<generator object test_independent_quadrature_and_actual_hyperbolic_measure.<locals>.<genexpr> at 0x113ea0d40>)
+___________ test_general_zero_and_top_solutions_and_cusp_separation ____________
+tests/test_physical_bridge_charged_domain.py:116: in test_general_zero_and_top_solutions_and_cusp_separation
+    out = cd.cusp_identities()
+          ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/charged_domain.py:273: in cusp_identities
+    leading_log_density=sp.limit(sp.log(density)/(z**2*sp.log(z)), z, sp.oo))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/series/limits.py:66: in limit
+    return Limit(e, z, z0, dir).doit(deep=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/series/limits.py:384: in doit
+    r = gruntz(e, z, z0, dir)
+        ^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/series/gruntz.py:695: in gruntz
+    r = limitinf(e0, z)
+        ^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/cache.py:72: in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/series/gruntz.py:452: in limitinf
+    c0, e0 = mrv_leadterm(e, x)
+             ^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/cache.py:72: in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/series/gruntz.py:513: in mrv_leadterm
+    f, logw = rewrite(exps, Omega, x, w)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/series/gruntz.py:611: in rewrite
+    raise NotImplementedError('Result depends on the sign of %s' % sig)
+E   NotImplementedError: Result depends on the sign of -sign(q)
+______ test_upstream_element_test_can_pass_without_testing_the_inference _______
+tests/test_physical_bridge_g2_isolation.py:64: in test_upstream_element_test_can_pass_without_testing_the_inference
+    assert json.loads(json.dumps(result, allow_nan=False))["upstream_B1259_selftest"]["commit"] == g.UPSTREAM
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/json/__init__.py:238: in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py:200: in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<USER>/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py:258: in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+E   TypeError: keys must be str, int, float, bool or None, not numpy.int64
+_________ test_actual_twisted_connection_transports_both_spin_factors __________
+tests/test_physical_bridge_global_mass_flux.py:16: in test_actual_twisted_connection_transports_both_spin_factors
+    assert r['connection_matches'] and r['antihermitian']
+E   assert (False)
+_________ test_full_constraint_J_H_derivatives_and_complex_covariance __________
+tests/test_physical_bridge_higgs_sector.py:9: in test_full_constraint_J_H_derivatives_and_complex_covariance
+    result = h.primitive_checks()
+             ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: in primitive_checks
+    np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E   AssertionError: 
+E   Not equal to tolerance rtol=1e-07, atol=3e-07
+E   
+E   Mismatched elements: 12 / 86436 (0.0139%)
+E   First 5 mismatches are at indices:
+E    [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E    [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E    [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E    [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E    [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E   Max absolute difference among violations: 0.00000184
+E   Max relative difference among violations: 0.00001882
+E    ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E           -0.000149],
+E          [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E    DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E           -0.000149],
+E          [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+____________ test_parameter_controls_remove_or_restore_light_modes _____________
+tests/test_physical_bridge_higgs_sector.py:22: in test_parameter_controls_remove_or_restore_light_modes
+    result = h.primitive_checks()
+             ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/higgs_sector.py:70: in primitive_checks
+    np.testing.assert_allclose(numeric_second, second, atol=3e-7)
+E   AssertionError: 
+E   Not equal to tolerance rtol=1e-07, atol=3e-07
+E   
+E   Mismatched elements: 12 / 86436 (0.0139%)
+E   First 5 mismatches are at indices:
+E    [110, 111]: -0.10006920605814451 (ACTUAL), -0.10006888459665333 (DESIRED)
+E    [110, 112]: 0.04168532384195364 (ACTUAL), 0.04168592188444954 (DESIRED)
+E    [111, 110]: -0.10006920540047173 (ACTUAL), -0.1000688845966544 (DESIRED)
+E    [111, 112]: -0.17195404517526955 (ACTUAL), -0.1719529567791472 (DESIRED)
+E    [111, 113]: -0.07230745177202774 (ACTUAL), -0.07230708886159852 (DESIRED)
+E   Max absolute difference among violations: 0.00000184
+E   Max relative difference among violations: 0.00001882
+E    ACTUAL: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E           -0.000149],
+E          [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+E    DESIRED: array([[ 0.348228,  0.059071,  0.005519, ..., -0.000053,  0.000138,
+E           -0.000149],
+E          [ 0.059071,  0.33678 , -0.021125, ...,  0.001917,  0.000122,...
+________ test_complete_numerical_geometry_control_and_two_cusp_descent _________
+tests/test_physical_bridge_holonomy_equivariance.py:23: in test_complete_numerical_geometry_control_and_two_cusp_descent
+    g = he.numerical_control()['geometry']
+        ^^^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: in geometry
+    raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E   ValueError: no explicit original-to-canonical combinatorial basis bridge
+________ test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters ________
+tests/test_physical_bridge_holonomy_equivariance.py:55: in test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters
+    r = he.numerical_control()['algebra']
+        ^^^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: in geometry
+    raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E   ValueError: no explicit original-to-canonical combinatorial basis bridge
+____ test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers ____
+tests/test_physical_bridge_holonomy_equivariance.py:65: in test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers
+    rows = he.numerical_control()['algebra']['c3_fixed']
+           ^^^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: in geometry
+    raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E   ValueError: no explicit original-to-canonical combinatorial basis bridge
+_______ test_sixfold_and_full_scalar_invariance_force_trivial_character ________
+tests/test_physical_bridge_holonomy_equivariance.py:74: in test_sixfold_and_full_scalar_invariance_force_trivial_character
+    r = he.numerical_control()['algebra']
+        ^^^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: in geometry
+    raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E   ValueError: no explicit original-to-canonical combinatorial basis bridge
+____ test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial ____
+tests/test_physical_bridge_holonomy_equivariance.py:81: in test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial
+    r = he.numerical_control()['algebra']
+        ^^^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: in geometry
+    raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E   ValueError: no explicit original-to-canonical combinatorial basis bridge
+____ test_every_scalar_lift_of_pair_free_character_has_central_obstruction _____
+tests/test_physical_bridge_holonomy_equivariance.py:90: in test_every_scalar_lift_of_pair_free_character_has_central_obstruction
+    r = he.numerical_control()['algebra']
+        ^^^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:234: in numerical_control
+    g = geometry()
+        ^^^^^^^^^^
+reports/physical_bridge_2026_09_05/holonomy_equivariance.py:114: in geometry
+    raise ValueError('no explicit original-to-canonical combinatorial basis bridge')
+E   ValueError: no explicit original-to-canonical combinatorial basis bridge
+=============================== warnings summary ===============================
+../../../../.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33
+  <USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_charged_domain.py::test_all_eight_exact_hyperbolic_zero_branches
+FAILED tests/test_physical_bridge_charged_domain.py::test_nonzero_green_form_and_distinct_complex_domains
+FAILED tests/test_physical_bridge_charged_domain.py::test_independent_quadrature_and_actual_hyperbolic_measure
+FAILED tests/test_physical_bridge_charged_domain.py::test_general_zero_and_top_solutions_and_cusp_separation
+FAILED tests/test_physical_bridge_g2_isolation.py::test_upstream_element_test_can_pass_without_testing_the_inference
+FAILED tests/test_physical_bridge_global_mass_flux.py::test_actual_twisted_connection_transports_both_spin_factors
+FAILED tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance
+FAILED tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_complete_numerical_geometry_control_and_two_cusp_descent
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_sixfold_and_full_scalar_invariance_force_trivial_character
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial
+FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_every_scalar_lift_of_pair_free_character_has_central_obstruction
+ERROR tests/test_physical_bridge_family_action.py::test_lattice_integrality_and_a_corrupt_root_are_checked
+ERROR tests/test_physical_bridge_family_action.py::test_marked_map_verifies_all_products_and_rejects_bad_assignment
+ERROR tests/test_physical_bridge_family_action.py::test_root_space_actions_are_not_identified_from_orbit_counts
+ERROR tests/test_physical_bridge_family_action.py::test_commuting_split_reconstructs_literal_action_exactly
+ERROR tests/test_physical_bridge_family_action.py::test_six_classes_have_the_same_cycles_but_distinct_internal_actions
+ERROR tests/test_physical_bridge_family_action.py::test_map_is_equivariant_and_orientation_is_not_silently_fixed
+ERROR tests/test_physical_bridge_family_action.py::test_family_lift_has_order_three_and_lie_centralizer_control
+ERROR tests/test_physical_bridge_family_action.py::test_exact_arithmetic_and_input_provenance_are_retained
+14 failed, 326 passed, 1 warning, 8 errors in 266.80s (0:04:26)

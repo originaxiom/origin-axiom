@@ -14652,3 +14652,30 @@ A stays flat on the smooth source complement; the domain changes.
 Finite-order/two-prime and four-point evidence keeps its stated scope.
 No upstream proof edited, new B number, main merge or full TOE.
 Report: reports/physical_bridge_2026_09_05/CHIRALITY_REFRESH.md.
+
+## 2026-09-09 — R24: global mass flux matches the sourced relative index
+
+**LATEST LOCAL AUDIT, 2026-09-09 (R24): the actual total boundary charge.**
+For the specified positive-source class, the actual mass-eigenline
+curvature has total rounded-boundary flux sign(q)*k for k proper arcs.
+The proof includes the actual spin connection, corner flow and complete
+topological exhaustion, without assuming isolated Morse zeros. The
+three-arc case agrees with the conditional three-generation index;
+a compensating quantum end sector and physical source/domain selection
+remain OPEN. The original raw equality failure is retained, with a
+separately sealed exact residual and independent exterior-action check.
+This is not a complete physical TOE, full-suite green or a main bank.
+Report: reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX.md.
+
+Seals d304e2b0 and 833b939b were pushed before their respective runs.
+First native outputs are preserved, including the false raw matrix
+comparison. The separate exact control has zero polynomial residual,
+an independent exterior construction and three rejected wrong maps.
+The first focused run is 110 passed/7 failed (six original R20);
+the R23/R24 control run is 41 passed/1 failed. The 45-file quiescent
+regression is 326 passed/14 failed/8 errors in 266.80 s: exactly R23's
+21 failed/error IDs plus that retained original comparison. No source,
+test or tolerance was rewritten. All nine remote branch heads fetched;
+outside advanced to 89af20f8. Its memo 192 accepts the earlier general
+E7-to-E6 correction; no new outside numerical certificate is claimed.
+No B allocation, external relay, main merge or completed physical TOE.

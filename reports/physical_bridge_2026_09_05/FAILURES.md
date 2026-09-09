@@ -656,3 +656,34 @@ artifacts), test-vacuity (two old delegation locks), and seal-provenance
 (old literal-marker omissions) remain unchanged from R22's corrected
 pass. All registered design digests pass. No waiver or independent
 proof review is claimed. Main banking remains incomplete.
+
+## R24: a false symbolic negative, preserved and tested exactly (2026-09-09)
+
+The original d304e2b0 producer finishes but returns
+connection_matches=false: it uses raw structural matrix equality
+with an expanded left side and unexpanded right side. Its original
+test correctly flags that returned failure. First focused run:
+110 passed, 7 failed, 44.88 s; six failures are the older R20 transfer
+interface, and one is this new R24 comparison.
+
+The source-informed control was separately sealed/pushed at 833b939b.
+It does not change the old source, U, signs, equations or test.
+Every coefficient of the actual-minus-expected matrix vanishes.
+Independently induced exterior generators agree, while an omitted
+spin factor, wrong sign and switched connection axes each give
+nonzero polynomial residuals. Four new control tests pass. The
+R23/R24 focused selection retains the old raw failure: 41 pass,
+1 fail, 16.86 s.
+
+The expanded 45-file run is 326 pass, 14 fail, 8 error in 266.80 s,
+with all original tests still enabled. Its failed/error inventory is
+NOT unchanged: R23's 21 IDs plus the explicitly diagnosed original
+R24 comparison. Full stdout and the difference are in
+GLOBAL_MASS_FLUX_REGRESSION.txt. Nothing is hidden by an xfail marker,
+a changed tolerance, a renamed original file or a claimed green suite.
+
+The generic curvature, corner, topology and asymptotic controls pass.
+Their mathematical theorem and analytic hypotheses are stated in
+GLOBAL_MASS_FLUX.md. They are not a boundary quantum theory or an
+independent banking review. The false negative is an instrument
+representation defect, not a withdrawal of the source construction.

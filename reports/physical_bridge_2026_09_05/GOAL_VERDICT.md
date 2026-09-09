@@ -1,4 +1,17 @@
-# Verdict toward the full physical-theory goal — 2026-09-09, after path-local R23
+# Verdict toward the full physical-theory goal — 2026-09-09, after path-local R24
+
+**Latest local result, R24: [total sourced mass flux](GLOBAL_MASS_FLUX.md).**
+The actual positive-source field has total boundary charge sign(q)*k
+for k prescribed proper arcs, including rounded seams and the complete
+topological exhaustion. The three-arc case gives +3 without assuming
+three isolated critical points. This matches the conditional relative
+kernel; the source-selected quantum end sector is still required.
+The core changes to Euler -k while its source boundaries stay annuli.
+A first symbolic-comparison failure is preserved; exact residual and
+independent exterior-action controls establish the connection map.
+Expanded regression: 326 passed, 14 failed, 8 errors; the only added
+failed/error ID is that diagnosed original comparison. Not full green,
+independent banking, source selection or a completed physical TOE.
 
 **All-seat chirality review, 2026-09-09:** [CHIRALITY_REFRESH.md](CHIRALITY_REFRESH.md).
 All nine remote branches fetched. The conditional sourced three/zero
@@ -10,7 +23,7 @@ The review also corrects the received claim that our source requires
 curved gauge transport, and retains the finite scope of deformation
 calculations. This is a documentary review, not a new numerical theorem.
 
-**Latest local result: [R23's mass-operator inflow](MASS_INFLOW.md).**
+**Preceding result: [R23's mass-operator inflow](MASS_INFLOW.md).**
 The actual charged operator supplies a normalized local anomaly-transport
 form. Its full eigenbundle response has a conditionally integral
 extension ambiguity, but the source/cusp boundary anomaly remains.

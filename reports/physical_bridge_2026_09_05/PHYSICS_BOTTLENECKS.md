@@ -1,5 +1,18 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
+**R24 update, 2026-09-09:** the actual total mass-eigenline boundary
+flux is now computed: sign(q)*k for k prescribed positive-source arcs,
+with all corners retained. This equals the conditional relative index;
+it does not require a three-Morse-point assumption. Next derive the
+source/end action and quantum sector carrying the compensating anomaly,
+or compatible massive-gauge dynamics, and recheck the spectrum in that
+same theory. Source/domain selection, a neutral 4D limit and gravity
+remain separate duties. The smooth annular zero-index argument does
+not apply to the excised core's Euler -k. See [R24](GLOBAL_MASS_FLUX.md).
+Latest fetched outside head 89af20f8 independently receives the earlier
+E7-to-E6 scope correction; its grading U1 is not a theorem requiring
+a massless U1 in every completion. All prior existence results remain.
+
 **All-seat chirality review, 2026-09-09:** [CHIRALITY_REFRESH.md](CHIRALITY_REFRESH.md).
 All nine remote branches fetched. The conditional sourced three/zero
 kernel stands; its source-selected quantum boundary completion is still
@@ -15,8 +28,8 @@ chirality sign and unit anomaly transport are now explicit. Keeping
 the full eigenbundle polynomial fixes the extension-normalization
 shortcut; it does not supply the global singular regulator or boundary
 eta sector. For an internally constant gauge mode, local bulk descent
-leaves the net boundary anomaly. Next compute the actual global mass
-map and end response, then construct their dynamics in the same theory.
+leaves the net boundary anomaly. R24 subsequently computes the actual
+total global mass flux; quantum end dynamics remain the next task.
 The three/zero kernel is conditional progress, not an open count
 calculation or a completed anomaly-free theory. Source: [MASS_INFLOW.md](MASS_INFLOW.md).
 Latest all-head fetch: main b94ed03a, SM 1703c0d8, outside 26864394.

@@ -1,0 +1,14 @@
+R24 separately sealed connection controls with the original R23/R24 locks.
+Original failed comparison remains enabled and unmodified.
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 -m pytest tests/test_physical_bridge_mass_inflow.py tests/test_physical_bridge_mass_inflow_bundle_control.py tests/test_physical_bridge_global_mass_flux.py tests/test_physical_bridge_global_mass_flux_control.py -q -p no:randomly --tb=short
+Exit code: 1
+
+........................F.................                               [100%]
+=================================== FAILURES ===================================
+_________ test_actual_twisted_connection_transports_both_spin_factors __________
+tests/test_physical_bridge_global_mass_flux.py:16: in test_actual_twisted_connection_transports_both_spin_factors
+    assert r['connection_matches'] and r['antihermitian']
+E   assert (False)
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_global_mass_flux.py::test_actual_twisted_connection_transports_both_spin_factors
+1 failed, 41 passed in 16.86s

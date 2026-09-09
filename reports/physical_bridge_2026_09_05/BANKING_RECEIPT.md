@@ -325,3 +325,48 @@ three old failing categories and named artifacts as the R23 receipt:
 CHIRALITY_REFRESH_GATES.txt. No new scientific execution or modified
 assertion is hidden in this review. The final artifact check and clean
 push are verified at the checkpoint; no baseline waiver is used.
+
+## R24 global boundary flux checkpoint (2026-09-09)
+
+Original seal d304e2b0 and source-informed control seal 833b939b were
+both pushed before their respective scientific executions. All first
+native/test outputs are preserved. The original false structural
+matrix comparison remains in both source and test; separate exact
+residuals and an independently induced exterior action discharge
+the mathematical equality without altering it.
+
+The scoped global theorem and proof are GLOBAL_MASS_FLUX.md. Both
+new designs carry the literal provenance markers, and 57 seal digests
+match in the pre-execution metadata checks. The all-head prior receipt
+pins main b94ed03a, SM 1703c0d8, physics 659487bb and newly advanced
+outside 89af20f8; all other heads are enumerated too. No merge or B ID.
+
+Focused selections give 110/7 and 41/1 pass/fail. Expanded regression
+gives 326 passes, 14 failures and 8 errors, retaining the prior 21
+failed/error IDs and the newly diagnosed raw-comparison failure.
+The 45-file run was quiescent; its complete receipt is retained.
+Full raw pytest stdout is additionally held locally outside the tree;
+only environment prefixes are redacted from the public captures.
+
+README, FINDINGS, goal/strategy, failure record, the three reader
+ledgers, framework, X33, scoped laws and PB-BOUNDARY have the result
+and its exact remaining duty. No full-repository green, independent
+proof acceptance, source selector or completed physical TOE is claimed.
+Reporting gates and final hash/push checks follow in a separate receipt.
+
+The first staged R24 reporting gate run is 27 PASS / 3 FAIL, exit one,
+with the same three failing categories and named old artifacts as
+R23: GLOBAL_MASS_FLUX_GATES.txt. New path references, law provenance,
+test-vacuity scope and registered design digests add no failures.
+No baseline is waived. This is an own-branch research checkpoint;
+independent/main-bank acceptance and the full-repository suite remain
+undischarged. Final staged hash/whitespace and remote synchronization
+are checked at commit/push time, not inferred from this receipt.
+
+At resumption the last final-repeat tool handle was missing; its stdout
+was not recovered. The original complete gate receipt was already on
+disk. A separately labelled final repeat is preserved in
+GLOBAL_MASS_FLUX_FINAL_CHECKS.txt: again 27 PASS / 3 FAIL. The 307
+then-latest manifest paths matched and staged whitespace passed with
+raw transcript end-spaces preserved. Final receipt hashes are appended
+and rechecked before commit. No lost output is represented as recovered.
