@@ -206,3 +206,62 @@ an object that is not a series.
 bench from *downgrading* something it computed because an author expected otherwise. Here it
 stopped the bench from *upgrading* a hope, by requiring that GM's contrary sentence be tested
 rather than either believed or dismissed. Both directions are the same rule.
+
+---
+
+## ADDENDUM 1 (2026-09-09) — **F185-1 is done the same day it was named**, and GM §7.4's sentence turns out to be understated in one direction and slightly overstated in the other
+
+**Certificate** `certificates/gm_74_habiro_surgery.py` · **Output** `outputs/gm_74_habiro_surgery_out.txt`
+**Gate 5** exact `Fraction` arithmetic. No measured value.
+
+§7 named the follow-up: run the surgery formula on `C_K` instead of `f_K` and see. Both
+slopes GM's sentence speaks about are now run, through **the same transform code** — only the
+transformed series differs.
+
+### The two anchors, each from a different paper
+
+| | slope | printed target | result |
+|---|---|---|---|
+| **A1** | `p/r = −1` | **GM eq (26)–(28)**: `Ẑ_0(P) = q^{−3/2}(2 − A(q))`, `A(q) = Σ χ₊(n) q^{(n²−1)/120}` | every printed term **and every zero between them** reproduced to `q^120` |
+| **A2** | `p/r = −1/2` | **Park, Table 4**: `Ẑ(Σ(2,3,11)) = q^{−3/2}(1 − q − q⁹ + q¹⁴ − q¹⁹ + q²⁶ + q⁵⁰ − O(q⁶¹))` | all seven printed terms, and the zeros between them |
+
+### The two cells, both resolved to B
+
+**`p/r = −1`, the Poincaré sphere. GM's *"we get the right answer"* is nearly right and not
+quite.** The `C_K` route reproduces **the entire false theta** — every coefficient of `A(q)`
+to `q^120` — and differs from the true `Ẑ_0` by **exactly one additive monomial**:
+
+```
+f_K route :  2 q^{−1} ( 2 − A(q) )          =  Ẑ_0(P)  up to a monomial
+C_K route :  2 q^{−1} ( 1 − A(q) )
+difference:  2 q^{−1},  a single term, and the only one to q^120
+```
+
+Since `Ẑ` carries only a **multiplicative** monomial ambiguity, that is a difference, not a
+normalisation. **The missing term is the `u = 0, v = −1` contribution, which `C_K` structurally
+cannot supply, because `C_K` has no negative powers of `q`.**
+
+**`p/r = −1/2`, `Σ(2,3,11)`. GM's *"but not for other surgeries"* is understated.** It is not a
+near miss. The `f_K` route is the sparse false theta with all coefficients `±2` that Park
+prints; the `C_K` route is dense and its coefficients reach six figures inside the same window.
+
+### The by-product, which is worth as much as the cells
+
+`certificates/park_table3_repaired.py` already ran GM Thm 1.2 end to end against Park's printed
+Table 3 — but **every row of that test starts from the `5₂` blocks.** Anchor **A2 reaches Park's
+Table 4 line for `Ẑ(Σ(2,3,11))` — the very target memo 183's erratum is measured against — from
+the TREFOIL**, through GM Thm 1.3, with no part of Park's `5₂` machinery involved anywhere.
+
+Park states the underlying identity himself
+(`Ẑ(S³_{−1}(m(5₂))) = Ẑ(S³_{−1/2}(m(3₁))) = Ẑ(Σ(2,3,11))`, Table 4). By R80-1 that is his
+statement; **it is now a computation here.** *The erratum's target no longer rests on a single
+paper.*
+
+### What this does and does not say about memo 185's main result
+
+It does **not** reopen it. §7.4's near-miss at `p = −1` is a statement about one Laplace image
+at one slope, and CELL A of the main memo already showed that `C_K` is not even a series for
+`4₁` — the near-miss is available only where `C_K` converges, and even there it is off by a
+term. **What it adds is a precise account of *why* the naive route looks tempting**: on the one
+knot and the one slope where everything converges, it gets the whole interesting part right and
+loses exactly the constant.
