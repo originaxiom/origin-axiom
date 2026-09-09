@@ -1,0 +1,11 @@
+R22 pre-execution metadata, 2026-09-09.
+No R22 scientific producer or tests have executed.
+Generated sha256 output follows. The new design contains literal
+BANKED IDENTITY and PRIOR ART markers. Existing certification and
+independent-review debts are not waived by this local seal.
+
+2605964794a3f3b59087942d452816a4a19c8ff26dec8d0b9ff05552684e746c  reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_DESIGN.md
+1723db8dfa200e6ba1bf3728455345465fc42cee1bc940fd39b2cd2c60f0bed1  reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_PRIOR.md
+c15bdfbf1af403b7e6607998fa61f5d284867df303a854852441fd077d3ac6ad  reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_PRIOR_SWEEP.json
+8c45da5008043fb9adfb037d215f58889671fcc0b102dfde785ad31bbf1ff5e1  reports/physical_bridge_2026_09_05/geometric_completion.py
+2f2050120f7d58e3b4a6bacea2dac4c9f565b37431c3f10f207bd398b39b2e48  tests/test_physical_bridge_geometric_completion.py

@@ -1,0 +1,182 @@
+{
+  "term": "nonparallel|non.parallel|Ginzburg.Landau|Abelian.Higgs|magnetic.Laplacian|same.sign.*anomal|anomal.*same.sign",
+  "heads": [
+    {
+      "head": "audit/physical-bridge-2026-09-05",
+      "sha": "84f6b118",
+      "content": [
+        "84f6b118:PROGRESS_LOG.md",
+        "84f6b118:docs/CAMPAIGN_STATUS.md",
+        "84f6b118:docs/LAW_MAP.md",
+        "84f6b118:docs/OPEN_LEADS.md",
+        "84f6b118:docs/THE_FRAMEWORK.md",
+        "84f6b118:docs/THE_LADDER.md",
+        "84f6b118:docs/views/VERDICT_LEDGER.md",
+        "84f6b118:frontier/B969_kato_yukie_verify/arc_verdict.json",
+        "84f6b118:reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION_DESIGN.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/BANKING_RECEIPT.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/EXTENSION_3.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/README.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "main",
+      "sha": "f06d3405",
+      "content": [
+        "f06d3405:PROGRESS_LOG.md",
+        "f06d3405:docs/views/VERDICT_LEDGER.md",
+        "f06d3405:frontier/B969_kato_yukie_verify/arc_verdict.json"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/audit/b775-braver-questions",
+      "sha": "53da05f6",
+      "content": [
+        "53da05f6:PROGRESS_LOG.md",
+        "53da05f6:docs/views/VERDICT_LEDGER.md",
+        "53da05f6:frontier/B969_kato_yukie_verify/arc_verdict.json"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/audit/physical-bridge-2026-09-05",
+      "sha": "84f6b118",
+      "content": [
+        "84f6b118:PROGRESS_LOG.md",
+        "84f6b118:docs/CAMPAIGN_STATUS.md",
+        "84f6b118:docs/LAW_MAP.md",
+        "84f6b118:docs/OPEN_LEADS.md",
+        "84f6b118:docs/THE_FRAMEWORK.md",
+        "84f6b118:docs/THE_LADDER.md",
+        "84f6b118:docs/views/VERDICT_LEDGER.md",
+        "84f6b118:frontier/B969_kato_yukie_verify/arc_verdict.json",
+        "84f6b118:reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION_DESIGN.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/BANKING_RECEIPT.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/EXTENSION_3.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/README.md",
+        "84f6b118:reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/claude/new-session-qor5up",
+      "sha": "3851df2a",
+      "content": [
+        "3851df2a:PROGRESS_LOG.md",
+        "3851df2a:docs/views/VERDICT_LEDGER.md",
+        "3851df2a:frontier/B969_kato_yukie_verify/arc_verdict.json"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/claude/outside-bench",
+      "sha": "988e2417",
+      "content": [
+        "988e2417:PROGRESS_LOG.md",
+        "988e2417:docs/views/VERDICT_LEDGER.md",
+        "988e2417:frontier/B969_kato_yukie_verify/arc_verdict.json"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/claude/physics-seat-evaluation-8dkbrl",
+      "sha": "659487bb",
+      "content": [
+        "659487bb:PROGRESS_LOG.md",
+        "659487bb:docs/views/VERDICT_LEDGER.md",
+        "659487bb:frontier/B969_kato_yukie_verify/arc_verdict.json",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/R56_THE_ENDPOINT_THEOREM.md",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/R61_THE_GEOMETRY_OF_THETA.md",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/R62_THE_SYMMETRY_GROUP_ON_THE_CUSP.md",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/computations/r56_endpoint_theorem.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/claude/standard-model-derivation-0qt6ao",
+      "sha": "d722714f",
+      "content": [
+        "d722714f:PROGRESS_LOG.md",
+        "d722714f:docs/CHIRALITY_MAP_2026-09-06.md",
+        "d722714f:docs/OPEN_LEADS.md",
+        "d722714f:docs/views/VERDICT_LEDGER.md",
+        "d722714f:frontier/B1277_the_vacuum_manifold_of_the_closing/verification/arcs_and_corners.py",
+        "d722714f:frontier/B1281_the_seats_verified/FINDINGS.md",
+        "d722714f:frontier/B1282_the_siblings_germ/FINDINGS.md",
+        "d722714f:frontier/B969_kato_yukie_verify/arc_verdict.json"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/codex/seat-r001",
+      "sha": "f7a49536",
+      "content": [
+        "f7a49536:PROGRESS_LOG.md",
+        "f7a49536:docs/views/VERDICT_LEDGER.md",
+        "f7a49536:frontier/B969_kato_yukie_verify/arc_verdict.json"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/main",
+      "sha": "eb9db7fa",
+      "content": [
+        "eb9db7fa:CC_TO_FC_2026-09-06_THE_QUESTION_MOVED_TO_YOUR_CUSP.md",
+        "eb9db7fa:CHANGELOG.md",
+        "eb9db7fa:PROGRESS_LOG.md",
+        "eb9db7fa:docs/CAMPAIGN_STATUS.md",
+        "eb9db7fa:docs/HINT_LEDGER.md",
+        "eb9db7fa:docs/IDENTIFICATION_LEDGER.md",
+        "eb9db7fa:docs/THE_SM_VERDICT.md",
+        "eb9db7fa:docs/views/VERDICT_LEDGER.md",
+        "eb9db7fa:frontier/B1277_leak_closure/FINDINGS.md",
+        "eb9db7fa:frontier/B1277_leak_closure/arc_verdict.json",
+        "eb9db7fa:frontier/B1277_leak_closure/verification/r63_check.py",
+        "eb9db7fa:frontier/B1290_the_index_formula/FINDINGS.md",
+        "eb9db7fa:frontier/B1290_the_index_formula/arc_verdict.json",
+        "eb9db7fa:frontier/B1290_the_index_formula/verification/index_formula.py",
+        "eb9db7fa:frontier/B1296_the_charge_locus_parity_lock/FINDINGS.md",
+        "eb9db7fa:frontier/B1296_the_charge_locus_parity_lock/arc_verdict.json",
+        "eb9db7fa:frontier/B1306_the_older_debt/inputs/fc_codex_hostile_inventory.md",
+        "eb9db7fa:frontier/B738_pathfinder_compiler/kill_graph.json",
+        "eb9db7fa:frontier/B969_kato_yukie_verify/arc_verdict.json"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/paper/structure-genesis-first",
+      "sha": "a31456d2",
+      "content": [
+        "a31456d2:PROGRESS_LOG.md",
+        "a31456d2:docs/views/VERDICT_LEDGER.md",
+        "a31456d2:frontier/B969_kato_yukie_verify/arc_verdict.json"
+      ],
+      "filenames": []
+    }
+  ],
+  "deleted": [],
+  "worktree": [
+    "PROGRESS_LOG.md",
+    "docs/CAMPAIGN_STATUS.md",
+    "docs/LAW_MAP.md",
+    "docs/OPEN_LEADS.md",
+    "docs/THE_FRAMEWORK.md",
+    "docs/THE_LADDER.md",
+    "docs/views/VERDICT_LEDGER.md",
+    "frontier/B969_kato_yukie_verify/arc_verdict.json",
+    "reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md",
+    "reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/BANKING_RECEIPT.md",
+    "reports/physical_bridge_2026_09_05/EXTENSION_3.md",
+    "reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+    "reports/physical_bridge_2026_09_05/README.md",
+    "reports/physical_bridge_2026_09_05/SINGULAR_CUSP.md"
+  ]
+}
