@@ -594,3 +594,67 @@ It is the same shape as the two errors already filed today — memo 182 addendum
 window and addendum 1 §5's margin. All three are cases where *the computation was right and the
 apparatus around it was not*, and in all three the apparatus was only tested by something going
 wrong. The `/tmp` dependency would have been invisible until someone else tried to run it.
+
+---
+
+# ADDENDUM 6 (2026-09-09) — **A CONVENTION MISMATCH IS EXCLUDED**, and the arrival path for the primary source is built and self-tested
+
+**Certificate** `certificates/ahat_ingest.py` · **Output** `outputs/ahat_ingest_out.txt`
+
+## 1. A loophole the memo did not close
+
+Memo 183's **C3** forced the **operator-ordering** convention — how `ŷ` acts on `F⁺` — by showing
+that of five readings, exactly one makes the `x^{1/2}` and `x^{3/2}` equations vanish identically.
+That is not the same as fixing the **presentation** of the operator itself. A reader could still
+have said: *eq (32) is right, but written in a different convention from the one you assumed* —
+`q → 1/q`, `x → 1/x`, the `ŷ`-degree reversed, or a combination. Those give a genuinely different
+operator that is still "the" quantum A-polynomial of the same knot, and the memo did not test them.
+
+**They are now tested, and none of them rescues it.**
+
+| presentation | `x^{1/2}` | `x^{3/2}` | `x^{5/2}` | `x^{7/2}` |
+|---|---|---|---|---|
+| **identity** | 0 | 0 | 0 | **`q^{13} f_0(q)`** |
+| `q → 1/q` | ≠0 | ≠0 | ≠0 | ≠0 |
+| `x → 1/x` | ≠0 | ≠0 | ≠0 | ≠0 |
+| `ŷ`-degree reversed | ≠0 | ≠0 | ≠0 | ≠0 |
+| reversed, `q → 1/q` | ≠0 | ≠0 | ≠0 | ≠0 |
+| reversed, `x → 1/x` | ≠0 | ≠0 | ≠0 | ≠0 |
+| `q → 1/q` and `x → 1/x` | ≠0 | ≠0 | ≠0 | ≠0 |
+
+> **The identity presentation is the only one that gets even the first three equations right, and
+> it is the one that leaves the defect.** Every alternative fails immediately, at `x^{1/2}`. So the
+> erratum is not an artefact of how eq (32) was read — **a convention mismatch is excluded.**
+
+An overall monomial in `x` and `q` is divided out before testing, since it cannot affect
+annihilation.
+
+## 2. Why this was built now
+
+`fetch/FETCH_REQUEST_CEFF.md` §B'' asks for the operator from the **primary source** Park's own
+footnote 12 names. Those authors write in `(M, L)` notation and need not share his conventions —
+so an ingester that only accepted Park's exact format would stall on arrival, and worse, a
+mismatch could be *misread as disagreement*. `ahat_ingest.py` therefore does not assume a
+convention: it takes five coefficients in `M`/`x` and `q`, in labelled lines or a Mathematica list,
+normalises away the overall monomial, and **searches the seven presentations above**, reporting
+which — if any — annihilates Park's own printed blocks.
+
+**Self-test, which must pass before any external file is trusted:**
+
+* **T1** the printed eq (32) reproduces memo 183's defect exactly, in the identity presentation;
+* **T2** no presentation rescues it — §1;
+* **T3** eq (32) plus addendum 2's `c_3 = −q^{25/2}x^3` in `a_1` makes `x^{7/2}` **vanish**, so the
+  diagnostic can see a repair when there is one.
+
+All three pass.
+
+## 3. What the two outcomes will mean, fixed in advance
+
+Written before the file exists, so the reading is not chosen after seeing it:
+
+* **The primary source's operator annihilates `F⁺`** → it differs from eq (32), the erratum is
+  **confirmed against the source**, and the repair is *handed over* instead of fitted — which
+  retires memo 183 addendum 4's dead end and unblocks memo 184 §3's preregistered cell.
+* **It does not annihilate `F⁺` either** → the defect is **older and further upstream than Park**,
+  and the printed coefficients the certificate reports localise where. That is a different and
+  larger finding, and it is not a disappointment.

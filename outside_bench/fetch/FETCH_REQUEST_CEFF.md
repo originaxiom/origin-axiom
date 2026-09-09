@@ -86,8 +86,12 @@ cannot be decided.
 >
 > **HOW TO TELL IT IS THE RIGHT OBJECT, without trusting me:** the printed eq (32) fails a test the
 > correct operator must pass. Applied to Park's own `F⁺`, its `x^{7/2}` coefficient is
-> `q^{13} f_0(q) ≠ 0` instead of `0`. Feed the fetched operator to
-> `certificates/park_ahat_erratum.py` and that coefficient must come out **zero**.
+> `q^{13} f_0(q) ≠ 0` instead of `0`.
+> **Just run** `python3 certificates/ahat_ingest.py <the file>` — it accepts labelled lines or a
+> Mathematica list, in `M` or `x`, understands `Sqrt[q]` and `q^{11/2}`, divides out any overall
+> monomial, and searches seven presentation conventions (`q→1/q`, `x→1/x`, `ŷ`-degree reversal
+> and combinations) so a convention mismatch cannot be misread as disagreement. It prints a
+> verdict. Its own self-test — run it with no argument — must pass first, and does.
 >
 > **WHY THIS SETTLES IT EITHER WAY.** If the primary source's operator differs from eq (32), the
 > erratum is confirmed and the repair is handed over rather than fitted. If it agrees, then eq (32)
