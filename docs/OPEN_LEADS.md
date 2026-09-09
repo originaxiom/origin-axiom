@@ -2668,3 +2668,16 @@ action/input, physical kernel, 4d gravity and predictive-observable
 duties are in reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md.
 Quotient representational choices before counting free physical inputs,
 as B1232 requires. These are scoped unpaid joins, not universal absences.
+
+**R23 movement, same PB-BOUNDARY lead (2026-09-09):**
+The existing commuting charged operator has an explicit local mass
+map and unit anomaly-transport form, with a conditional integral
+eigenbundle response; bulk descent alone retains the outer-boundary
+anomaly of an internally constant gauge mode.
+Status remains OPEN. Next compute the actual global mass map and
+source/cusp end response, including its regulator/domain, then derive
+the end sector or massive-U1 dynamics in that same theory.
+Report: reports/physical_bridge_2026_09_05/MASS_INFLOW.md.
+No assumption that the actual harmonic field has three nondegenerate
+zeros, no dropped boundary and no exclusion of the new B1355 curved
+route. The conditional three/zero kernel is not reclassified as absent.

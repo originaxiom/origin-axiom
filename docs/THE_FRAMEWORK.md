@@ -1,5 +1,19 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**Path-local R23, 2026-09-09: normalized inflow, boundary completion still open.**
+The existing charged operator supplies an explicit local two-flavour
+mass map and a unit anomaly-transport form. The full eigenbundle
+response retains higher Chern terms and has integral extension ambiguity
+on admissible spin fillings. The actual singular determinant is not
+constructed. Bulk descent alone leaves the source/cusp anomaly of an
+internally constant gauge mode, even when it cancels local defects.
+The conditional three/zero charged kernel remains real progress;
+source/domain selection, end dynamics and a common anomaly-free theory
+remain OPEN. 24 new tests, 93 focused passes, 309 expanded passes and the
+same 21 old failed/error IDs; no original evidence erased or B allocated.
+Report: reports/physical_bridge_2026_09_05/MASS_INFLOW.md.
+New incoming B1355 is a distinct curved-cone proposal, not ruled out here.
+
 **Same-source composition test, 2026-09-09 (path-local R22):**
 R21's added-field EFT remains valid, but feeding those charged pairs
 through the unchanged strong-source operator changes the vector's

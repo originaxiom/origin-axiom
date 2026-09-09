@@ -1,6 +1,16 @@
-# Verdict toward the full physical-theory goal — 2026-09-09, after path-local R22
+# Verdict toward the full physical-theory goal — 2026-09-09, after path-local R23
 
-**Newest movement:** [R22](GEOMETRIC_COMPLETION.md) tests the actual
+**Latest local result: [R23's mass-operator inflow](MASS_INFLOW.md).**
+The actual charged operator supplies a normalized local anomaly-transport
+form. Its full eigenbundle response has a conditionally integral
+extension ambiguity, but the source/cusp boundary anomaly remains.
+This is a concrete completion candidate, not a globally regulated
+singular theory or a selected physical vacuum. The conditional three/zero
+kernel stands; consistent end dynamics remain to be derived.
+24 new tests; 93 focused passes; 309 expanded passes with exactly the
+same 13 failures/8 errors as R22. Both seals and first receipts retained.
+
+**Preceding movement:** [R22](GEOMETRIC_COMPLETION.md) tests the actual
 mode supply and Higgs/connection join. R21's 4D completion is valid,
 but its spectator vectors are NOT generated with the required chirality
 by the unchanged positive-source operator. Same-source extra fields

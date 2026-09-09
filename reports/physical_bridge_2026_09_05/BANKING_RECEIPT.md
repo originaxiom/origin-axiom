@@ -279,3 +279,28 @@ it separately. Only the three older attribution/static-vacuity/
 literal-provenance gate debts remain. The original regression's
 whitespace is preserved. This is an owner-authorized research-branch
 checkpoint, not full main banking or a whole-repository certificate.
+
+## R23 sealed execution and preservation checkpoint (2026-09-09)
+
+Original seal a726252a; full-bundle control separately sealed at
+2684623c. No original scientific source or test changed after execution.
+Both full first native outputs are saved. The focused selections give
+87 and 93 passes; the 43-file expanded regression gives 309 passes,
+13 failures and 8 errors in 306.45 s. Its 21 failed/error IDs exactly
+equal R22's. This is not full-repository green or independent review.
+
+All remote heads were fetched again: main b94ed03a, SM 1703c0d8,
+outside-bench 26864394, physics 659487bb; unchanged heads remain in
+the earlier pinned sweep. No merge, new B number or external relay.
+The prior/source scan for the calculation stays pinned to its original
+abb16e85/ce5ca412 inputs. New B1355 is received for separate assessment.
+Current-reader pointers, X33, the law index and PB-BOUNDARY carry the
+scoped closing sentence. Reporting gates and final hash count follow
+in a separate append-only receipt.
+
+R23's first reporting pass is 27 PASS / 3 FAIL, exit one:
+[MASS_INFLOW_GATES.txt](MASS_INFLOW_GATES.txt). Attribution (two old
+artifacts), test-vacuity (two old delegation locks), and seal-provenance
+(old literal-marker omissions) remain unchanged from R22's corrected
+pass. All registered design digests pass. No waiver or independent
+proof review is claimed. Main banking remains incomplete.

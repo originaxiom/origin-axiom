@@ -1,6 +1,16 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest: [R22's same-source completion test](GEOMETRIC_COMPLETION.md).**
+**Latest local result: [R23's mass-operator inflow](MASS_INFLOW.md).**
+The actual charged operator supplies a normalized local anomaly-transport
+form. Its full eigenbundle response has a conditionally integral
+extension ambiguity, but the source/cusp boundary anomaly remains.
+This is a concrete completion candidate, not a globally regulated
+singular theory or a selected physical vacuum. The conditional three/zero
+kernel stands; consistent end dynamics remain to be derived.
+24 new tests; 93 focused passes; 309 expanded passes with exactly the
+same 13 failures/8 errors as R22. Both seals and first receipts retained.
+
+**Preceding: [R22's same-source completion test](GEOMETRIC_COMPLETION.md).**
 R22 tests the missing composition with the unchanged source operator.
 Its negative-charge spectator vectors emerge with opposite chirality;
 the would-be completed spectrum has anomalies (120,480,12), not zero.

@@ -1,6 +1,18 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
-2026-09-09, updated after R22 and the named partial-filling verification.
+**R23 update, 2026-09-09:** the existing operator's local mass map,
+chirality sign and unit anomaly transport are now explicit. Keeping
+the full eigenbundle polynomial fixes the extension-normalization
+shortcut; it does not supply the global singular regulator or boundary
+eta sector. For an internally constant gauge mode, local bulk descent
+leaves the net boundary anomaly. Next compute the actual global mass
+map and end response, then construct their dynamics in the same theory.
+The three/zero kernel is conditional progress, not an open count
+calculation or a completed anomaly-free theory. Source: [MASS_INFLOW.md](MASS_INFLOW.md).
+Latest all-head fetch: main b94ed03a, SM 1703c0d8, outside 26864394.
+B1355's new curved-cone route is received, not excluded or certified here.
+
+Preceding strategy snapshot: 2026-09-09, after R22 and the named partial-filling verification.
 This ranks remaining duties of the constructions audited here. It is
 not a theorem that the repository, its other branches, or the object
 cannot supply them. All remote heads were fetched again; latest main

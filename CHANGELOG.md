@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-09-09 — Path-local R23: the existing operator supplies local inflow
+
+The existing charged operator supplies an explicit local two-flavour
+mass map and a unit anomaly-transport form. The full eigenbundle
+response retains higher Chern terms and has integral extension ambiguity
+on admissible spin fillings. The actual singular determinant is not
+constructed. Bulk descent alone leaves the source/cusp anomaly of an
+internally constant gauge mode, even when it cancels local defects.
+The conditional three/zero charged kernel remains real progress;
+source/domain selection, end dynamics and a common anomaly-free theory
+remain OPEN. 24 new tests, 93 focused passes, 309 expanded passes and the
+same 21 old failed/error IDs; no original evidence erased or B allocated.
+Report: reports/physical_bridge_2026_09_05/MASS_INFLOW.md.
+New incoming B1355 is a distinct curved-cone proposal, not ruled out here.
+Seals a726252a and 2684623c; first native and test receipts preserved.
+
 ## 2026-09-09 — Path-local R22: test the completion on the same source operator
 
 The proposed R21 spectator vectors have opposite chirality under the

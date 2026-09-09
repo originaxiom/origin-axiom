@@ -1,5 +1,24 @@
 # Failures retained, not rewritten as successful runs
 
+## R23 first-run success and unchanged old failures (2026-09-09)
+
+The original seal a726252a and separate bundle seal 2684623c precede
+their own first executions. Both native outputs were saved immediately.
+Focused selections pass 87 and 93 tests respectively; the 43-file
+regression gives 309 pass, 13 fail, 8 error, one warning in 306.45 s.
+Its 21 failed/error IDs equal R22 exactly: none added or missing.
+Full public receipts and native JSON are retained; raw environment
+paths remain only in the outside-worktree receipts. No original
+scientific source, assertion, tolerance or failure was rewritten.
+
+The retained boundary anomaly is a scoped mathematical result, not
+a broken instrument or a universal chirality kill. The first reporting
+patch for the large campaign file encountered a truncated read and
+made no change to that target; subsequent metadata patching uses only
+its first line. This did not alter the sealed calculations.
+Previous reporting debts remain; the next gate receipt will record
+the actual state without waiving them.
+
 ## R22 first-run success and unchanged old failures (2026-09-09)
 
 Seal b8485ab5 precedes the first producer and tests. The complete JSON
@@ -630,3 +649,10 @@ Local research is not full/independent/main-bank acceptance. Before the
 next new scientific seal, check both literal markers in its actual bytes
 and run the relevant provenance verifier BEFORE execution. Do not infer
 physical chirality or completed TOE from the passing finite-pair tests.
+
+R23's first reporting pass is 27 PASS / 3 FAIL, exit one:
+[MASS_INFLOW_GATES.txt](MASS_INFLOW_GATES.txt). Attribution (two old
+artifacts), test-vacuity (two old delegation locks), and seal-provenance
+(old literal-marker omissions) remain unchanged from R22's corrected
+pass. All registered design digests pass. No waiver or independent
+proof review is claimed. Main banking remains incomplete.
