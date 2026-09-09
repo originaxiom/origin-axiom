@@ -1,0 +1,215 @@
+{
+  "term": "inflow|superconnection|mass.texture|angular.form|Kanno|Ohmori|Callias|anomaly.transport|anomaly.redistribution",
+  "heads": [
+    {
+      "head": "audit/physical-bridge-2026-09-05",
+      "sha": "626bd6c7",
+      "content": [
+        "626bd6c7:CHANGELOG.md",
+        "626bd6c7:PROGRESS_LOG.md",
+        "626bd6c7:docs/CAMPAIGN_STATUS.md",
+        "626bd6c7:docs/LAW_MAP.md",
+        "626bd6c7:docs/OPEN_LEADS.md",
+        "626bd6c7:docs/THE_FRAMEWORK.md",
+        "626bd6c7:docs/THE_LADDER.md",
+        "626bd6c7:frontier/B123_arithmeticity_m1/probe.py",
+        "626bd6c7:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "626bd6c7:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "626bd6c7:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/ANOMALY_ACTION_CONTROL_DESIGN.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION_DESIGN.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/BANKING_RECEIPT.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/FINDINGS.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_DESIGN.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_PRIOR.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GOAL_VERDICT.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM_DESIGN.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM_PRIOR.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/README.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/holonomy_spectrum.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "main",
+      "sha": "f06d3405",
+      "content": [
+        "f06d3405:frontier/B123_arithmeticity_m1/probe.py",
+        "f06d3405:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "f06d3405:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "f06d3405:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/audit/b775-braver-questions",
+      "sha": "53da05f6",
+      "content": [
+        "53da05f6:frontier/B123_arithmeticity_m1/probe.py",
+        "53da05f6:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "53da05f6:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "53da05f6:frontier/B796_coupling_campaign/gap2_gs/FINDINGS.md",
+        "53da05f6:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/audit/physical-bridge-2026-09-05",
+      "sha": "626bd6c7",
+      "content": [
+        "626bd6c7:CHANGELOG.md",
+        "626bd6c7:PROGRESS_LOG.md",
+        "626bd6c7:docs/CAMPAIGN_STATUS.md",
+        "626bd6c7:docs/LAW_MAP.md",
+        "626bd6c7:docs/OPEN_LEADS.md",
+        "626bd6c7:docs/THE_FRAMEWORK.md",
+        "626bd6c7:docs/THE_LADDER.md",
+        "626bd6c7:frontier/B123_arithmeticity_m1/probe.py",
+        "626bd6c7:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "626bd6c7:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "626bd6c7:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/ANOMALY_ACTION_CONTROL_DESIGN.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION_DESIGN.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/BANKING_RECEIPT.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/FINDINGS.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_DESIGN.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_PRIOR.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/GOAL_VERDICT.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM_DESIGN.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM_PRIOR.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/README.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY.md",
+        "626bd6c7:reports/physical_bridge_2026_09_05/holonomy_spectrum.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "new-session seat",
+      "sha": "3851df2a",
+      "content": [
+        "3851df2a:frontier/B123_arithmeticity_m1/probe.py",
+        "3851df2a:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "3851df2a:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "3851df2a:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "outside seat",
+      "sha": "26864394",
+      "content": [
+        "26864394:frontier/B123_arithmeticity_m1/probe.py",
+        "26864394:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "26864394:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "26864394:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "physics seat",
+      "sha": "659487bb",
+      "content": [
+        "659487bb:frontier/B123_arithmeticity_m1/probe.py",
+        "659487bb:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "659487bb:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "659487bb:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "SM seat",
+      "sha": "ce5ca412",
+      "content": [
+        "ce5ca412:docs/CHIRALITY_MAP_2026-09-06.md",
+        "ce5ca412:docs/views/VERDICT_LEDGER.md",
+        "ce5ca412:frontier/B123_arithmeticity_m1/probe.py",
+        "ce5ca412:frontier/B1353_the_isolated_enhancement_point/FINDINGS.md",
+        "ce5ca412:frontier/B1353_the_isolated_enhancement_point/arc_verdict.json",
+        "ce5ca412:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "ce5ca412:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "ce5ca412:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "numbered seat",
+      "sha": "f7a49536",
+      "content": [
+        "f7a49536:frontier/B123_arithmeticity_m1/probe.py",
+        "f7a49536:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "f7a49536:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "f7a49536:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/main",
+      "sha": "abb16e85",
+      "content": [
+        "abb16e85:frontier/B123_arithmeticity_m1/probe.py",
+        "abb16e85:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "abb16e85:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "abb16e85:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/paper/structure-genesis-first",
+      "sha": "a31456d2",
+      "content": [
+        "a31456d2:CC_TO_CC3_2026-08-13_L164_DESIGN_FOR_ATTACK.md",
+        "a31456d2:frontier/B123_arithmeticity_m1/probe.py",
+        "a31456d2:frontier/B366_invariant_spin_sector/s_transformation.py",
+        "a31456d2:frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+        "a31456d2:frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md"
+      ],
+      "filenames": []
+    }
+  ],
+  "deleted": [],
+  "worktree": [
+    "CHANGELOG.md",
+    "PROGRESS_LOG.md",
+    "docs/CAMPAIGN_STATUS.md",
+    "docs/LAW_MAP.md",
+    "docs/OPEN_LEADS.md",
+    "docs/THE_FRAMEWORK.md",
+    "docs/THE_LADDER.md",
+    "frontier/B123_arithmeticity_m1/probe.py",
+    "frontier/B366_invariant_spin_sector/s_transformation.py",
+    "frontier/B486_cusp_hexagonal_verdict/FINDINGS.md",
+    "frontier/B951_l132_scout/PRIOR_ART_HYPERCHARGE.md",
+    "reports/physical_bridge_2026_09_05/ANOMALY_ACTION_CONTROL_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md",
+    "reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/BANKING_RECEIPT.md",
+    "reports/physical_bridge_2026_09_05/FINDINGS.md",
+    "reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION.md",
+    "reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION_PRIOR.md",
+    "reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR.md",
+    "reports/physical_bridge_2026_09_05/GOAL_VERDICT.md",
+    "reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md",
+    "reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md",
+    "reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM_PRIOR.md",
+    "reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+    "reports/physical_bridge_2026_09_05/README.md",
+    "reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY.md",
+    "reports/physical_bridge_2026_09_05/holonomy_spectrum.py"
+  ],
+  "receipt_note": "All-head content/filename and deleted-PATH search after successful fetch on 2026-09-09. Remote display names are aliased before sealing; SHA pins and hits are unaltered. Deleted blob CONTENTS are not exhaustively read. Presence receipt, not a universal absence or novelty claim."
+}

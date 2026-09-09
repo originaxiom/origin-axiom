@@ -1,0 +1,20 @@
+R23 pre-execution metadata checks, 2026-09-09
+The scientific producer and tests have not been imported or executed.
+Older governance debt is not waived; this is not the full repo suite.
+
+Command: python3.12 -c 'import importlib.util,pathlib; s=importlib.util.spec_from_file_location("gates", "scripts/gates/gates.py"); g=importlib.util.module_from_spec(s); s.loader.exec_module(g); p=pathlib.Path("reports/physical_bridge_2026_09_05/MASS_INFLOW_DESIGN.md"); t=p.read_text(); print("new_design_markers", "BANKED IDENTITY:" in t and "PRIOR ART:" in t); print("seal_digests", g.gate_seal_digests()); print("older_global_seal_provenance",g.gate_seal_provenance())'
+Exit code: 0
+new_design_markers True
+seal_digests (True, 'ok (54 sealed digests recomputed and matching)')
+older_global_seal_provenance (False, ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md'])
+
+Command: python3.12 scripts/checks/identification_audit.py
+Exit code: 0
+identification ledger: 24 rows -- docs/IDENTIFICATION_LEDGER.md
+  EARNED      8   I-1 I-2 I-3 I-12 I-19 I-20 I-21 I-22
+  REFUTED     7   I-4 I-5 I-8 I-15 I-16 I-17 I-24
+  UNEARNED    9   I-6 I-7 I-9 I-10 I-11 I-13 I-14 I-18 I-23
+
+  UNEARNED = 9   <- these are UNPRICED OBSERVER INPUTS (B1225: the object cannot identify)
+  the input ledger's parameter count is a LOWER BOUND while any row is UNEARNED.
+  ratchet baseline: 9   current: 9   OK
