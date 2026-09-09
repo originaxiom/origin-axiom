@@ -92,6 +92,9 @@ Sp(1) is ±1 — the reason AW's U(1) family stops at A-type and the reason the 
 ## 6. Registered
 
 - The "three": whether the tower's ℤ/3 descent (Y₃, B1301/B1303) can place three CP³/2T apexes on the closing's E₆ locus; the
-  global b₂ and the charge sum rule (3.14).
+  global b₂ and the charge sum rule (3.14). **The sum rule already constrains the design:** ∑_α ∫_{U_α} wᵢ = 0 for every harmonic
+  two-form of the compact closing, so with b₂ = 1 the three 27s carry U(1) charges summing to zero (a 2 + 1 structure, e.g.
+  (1, 1, −2)), and a ℤ/3 that permutes the apexes and fixes w gives equal charges 3q = 0 and no inflow — a ℤ/3-symmetric triple
+  needs b₂ ≥ 2 with the ℤ/3 moving the harmonic forms (H-SUMRULE-TWO-PLUS-ONE, `docs/HINT_LEDGER.md` (16)).
 - The E₆ × SU(2) spectrum at the apex from the A₁ locus over the second pole.
 - A self-dual Einstein orbifold with exactly one 2T point.

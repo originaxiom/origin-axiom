@@ -2558,7 +2558,7 @@ the twistor cone of the self-dual Einstein orbifold S⁴/2T — Acharya–Witten
 locus and an A₁ locus meet only at a curved non-orbifold apex with b₂(link) = 1 and ∫_U w ≠ 0, so Witten's inflow (the mixed
 U(1)·E₆² anomaly) forces chiral E₆-charged matter there. **Computation:** (i) whether the tower's ℤ/3 descent (Y₃, B1301/B1303)
 can place three such apexes on the closing's E₆ locus, with the charge sum rule ∑_α ∫_{U_α} w = 0 over a compact closing read
-against the global b₂; (ii) the E₆ × SU(2) spectrum at the apex from the A₁ locus over the second pole; (iii) a self-dual Einstein
+against the global b₂ — with b₂ = 1 the three charges sum to zero (2 + 1), and a ℤ/3 permuting the apexes while fixing w gives no inflow, so a symmetric triple needs b₂ ≥ 2 with the ℤ/3 moving the forms (HINT 16); (ii) the E₆ × SU(2) spectrum at the apex from the A₁ locus over the second pole; (iii) a self-dual Einstein
 orbifold with exactly one 2T point (S⁴/2T has two poles; B1353's argument shows a larger Γ ⊂ O(4) enlarges the stabiliser).
 `frontier/B1355_the_e7_point_made_explicit`.
 

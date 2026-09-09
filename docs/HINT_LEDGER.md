@@ -652,3 +652,13 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       reads the two threes the same way: not a convergence.] Two
       coincidences until a map is exhibited (a K3 whose order-3 automorphism carries the
       object's closing). B1223's guard on order matches applies. Registered, not designed.
+  (16) H-SUMRULE-TWO-PLUS-ONE (type PATTERN, fenced; 2026-09-09, B1355): if the closing's E₆
+      locus carries three cone-over-CP³/2T apexes and one C-field U(1) (b₂ = 1), Witten's sum
+      rule ∑_α ∫_{U_α} w = ∫_{Q′} dw = 0 (hep-th/0108165 (3.14)) forces the three 27s' U(1)
+      charges to sum to zero — e.g. (1, 1, −2): the three generations cannot be U(1)-symmetric,
+      one differs. The same rule forbids a ℤ/3 permuting the three apexes while fixing w
+      (equal charges would sum to 3q = 0, no inflow), so a ℤ/3-symmetric triple needs b₂ ≥ 2
+      with the ℤ/3 moving the harmonic forms. A 2 + 1 flavour structure from a single
+      geometric U(1) is the first candidate carrier of D3's "diagonal source" in the record
+      that is not the observer; it is a pattern in a construction that does not yet exist
+      (L212). Registered, not designed.
