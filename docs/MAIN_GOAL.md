@@ -137,6 +137,8 @@ with radiative breaking M_soft in the same regime, split/high-scale supersymmetr
 **D3 closed as a PRICED door (2026-09-09, B1321 = L205):** m202's localized count is 3 on both cusps at the price of one identification row (I-30) and the golden face — none of the six members of the three-line class to nine tetrahedra keeps t² − 3t + 1. **Phase 2 Arc 0 done (2026-09-09, B1320):** Pantev–Wijnholt's localized count on the ℤ/3 and ℤ/4 descents is 0 or 4, never 3 (m202's order-3 rotation the live control); with B1297 both halves of D2 are computed on the cyclic tower. Items 1–2 stay as written; I-26, I-27 and I-28 (the lift, B1298) stay **UNEARNED** until a door earns them. Doors are worked **in order**;
 one is left only when earned, refuted, or blocked by a registered computation.
 
+**The genesis-level fork under this head (2026-09-09, B1323 = the owner's thesis "the a·ab·ba principle defines chirality", computed):** the principle defines the bit at A7 (LR vs RL = the record swap = the C-type bit, B979/B1083), the two-record object forgets it (LR ~ RL by P, P reverses the fibre — m004's amphichirality in the genesis's own words), and **a third record makes the object remember it**: the minimal H₁ = ℤ³ bundle is the Whitehead link complement m129, chiral by two methods, whose mirror is exactly the image of P — at the price of the atom (ℚ(i), the silver volume 4G, none of our faces). At the genesis as on the closings: the atom or the remembered bit, not both (FRESH_EYES Q15 asks for a carrier with both).
+
 ## JOIN 2 — the values *(I-13, the listener map)*
 
 Under `OPEN_ITEMS` **H5** — *the object supplies every space and never a point* — I-13 is not one

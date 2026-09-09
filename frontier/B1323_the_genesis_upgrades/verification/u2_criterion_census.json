@@ -1,0 +1,172 @@
+{
+ "K1": {
+  "minimiser_period": [
+   1
+  ],
+  "L_min": "2.236067977499789696409174",
+  "sqrt5": "2.236067977499789696409174",
+  "is_sqrt5": true,
+  "tied_periods": [
+   [
+    1
+   ]
+  ],
+  "second_value": "2.8284271247461900976",
+  "second_period": [
+   2
+  ],
+  "is_2sqrt2_second": true,
+  "PASS": true
+ },
+ "K2": {
+  "[1;1,1,...]": "1.618033988749894848204587",
+  "phi": "1.618033988749894848204587",
+  "PASS": true
+ },
+ "K3": {
+  "reduced_forms_disc_5": [
+   [
+    -1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    -1
+   ]
+  ],
+  "cycles": [
+   [
+    [
+     -1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     -1
+    ]
+   ]
+  ],
+  "class_number_h+(5)": 1,
+  "first_trace_gt_2": 3,
+  "A": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "A trace": 3,
+  "A eigenvalue": 2.618033988749895,
+  "phi^2": 2.618033988749895,
+  "PASS": true
+ },
+ "K4": {
+  "grid": "12x12",
+  "torsion_free_closures": [
+   [
+    1,
+    1
+   ]
+  ],
+  "matrix": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "PASS": true
+ },
+ "K5": {
+  "triples_to_1e4": 21,
+  "fundamental": [
+   1,
+   1,
+   1
+  ],
+  "fricke": [
+   3,
+   3,
+   3
+  ],
+  "fricke_identity x^2+y^2+z^2 == xyz": true,
+  "trace_of_A": 3,
+  "markov_numbers": [
+   1,
+   2,
+   5,
+   13,
+   29,
+   34,
+   89,
+   169
+  ],
+  "lagrange_values_sqrt(9-4/m^2)": [
+   "2.23606797749979",
+   "2.82842712474619",
+   "2.9732137494637",
+   "2.9960526298693"
+  ],
+  "PASS": true
+ },
+ "K6": {
+  "smallest_disc": 5,
+  "field": "Q(sqrt5)",
+  "next": [
+   [
+    8,
+    2
+   ],
+   [
+    12,
+    3
+   ],
+   [
+    13,
+    13
+   ]
+  ],
+  "PASS": true
+ },
+ "K7": {
+  "smallest_quadratic_pisot": "1.6180339887498948482",
+  "poly": "x^2 - 1 x - 1",
+  "is_phi": true,
+  "PASS": true
+ },
+ "K8": {
+  "smallest_pisot_deg_le_4_coeff_le_3": "1.324717957244746026",
+  "degree": 3,
+  "coeffs": [
+   0,
+   -1,
+   -1
+  ],
+  "plastic_number": "1.324717957244746026",
+  "is_plastic": true,
+  "is_phi": false,
+  "below_phi": true,
+  "PASS_as_counter_criterion": true
+ },
+ "K9": {
+  "criterion": "minimal description length of the WORD",
+  "minimiser": "a periodic word (F2)",
+  "excluded_by": "C3 (aperiodicity) -- recorded, not computed",
+  "PASS_as_counter_criterion": true
+ },
+ "census": {
+  "K1..K7 pick phi uniquely": true,
+  "K8 picks something else (the census can fail)": true,
+  "PASS": true
+ }
+}

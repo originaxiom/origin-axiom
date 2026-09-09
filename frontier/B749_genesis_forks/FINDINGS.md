@@ -40,3 +40,7 @@ the erratum rides on P019 for owner+cc sign-off); cc's three execution notes bin
 pre-vacuity with witnesses that demonstrably could have fired); cc2's lindep lesson applied
 (exact confirmations throughout); priors recorded before computation, one falsified (F6's
 total-face-loss) and honestly reported. Locks: tests/test_b749_genesis_forks.py.
+
+## Addendum 2026-09-09 — fork F9, the substrate count (B1323; verdict by pointer, `RESULTS.json` left at its seven forks as `tests/test_b1003_f2_f8_locks.py` requires)
+
+**F9 [A1's "not one, not three"; C1's two-letter alphabet] — ROBUST on both carriers.** One record: GL(1,ℤ) = {±1}, no mixed closure, no hyperbolic element (the degenerate control). Three records on the torus T³: 768 transvection closures to length 4, 162 mixed hyperbolic, minimal trace 3 at E₁₂·E₃₁·E₂₃ whose dilatation is ρ³ for ρ the plastic number (the three-record analogue of A = golden²); every T³-bundle has χ = 0 and no finite-volume hyperbolic 4-manifold does — no carrier. Three records on the surfaces with H₁ = ℤ³ (S₁,₂ and S₀,₄, words to length 3): the minimal hyperbolic bundles are the Whitehead link complement m129 (ℚ(i), 4G, chiral), s780 (ℚ(√−7)), the 4-chain link t12047 (ℚ(i), 8G, amphichiral) and o9_44206 — none keeps ℚ(√−3), none is in m202's class. The price of a third record is the atom; what it buys is a remembered handedness (`frontier/B1323_the_genesis_upgrades/FINDINGS.md` §1–§2; `verification/u1_substrate_count.json`; lock `tests/test_b1323_the_genesis_upgrades.py`).
