@@ -30,6 +30,13 @@ TWO regimes are computed and reported:
 Everything mpmath high precision; Phi_b validated (functional eq, shift eq,
 product-form agreement) before use.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import mpmath as mp
 import sys, time
 mp.mp.dps = 30
@@ -337,8 +344,8 @@ results = {
     'invariants; no new period/L-value/regulator with identifiable structure appears, and any '
     'numeric near-miss is within the base-rate budget. Door closes MISS.'),
 }
-with open('<repo>/frontier/B787_interaction_programme/D5_state_integral/results.json','w') as fh:
+with open(_R('frontier/B787_interaction_programme/D5_state_integral/results.json'),'w') as fh:
     json.dump(results, fh, indent=1)
-with open('<repo>/frontier/B787_interaction_programme/D5_state_integral/output.txt','w') as fh:
+with open(_R('frontier/B787_interaction_programme/D5_state_integral/output.txt'),'w') as fh:
     fh.write("\n".join(out)+"\n")
 w("\nwrote results.json + output.txt")

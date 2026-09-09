@@ -18,12 +18,19 @@ double, no c generator):
   3. GATES: sum h0 = 1, sum h1 = 3 (banked); the dim-1 block gives (h0,h1)=(1,1).
   4. Bank the per-block table; verdict ONE-PER-BLOCK or the actual distribution.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import json
 import os
 import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-B575 = "<repo>/frontier/B575_bridge_obstruction/l51_obstruction.py"
+B575 = _R("frontier/B575_bridge_obstruction/l51_obstruction.py")
 LOG_PATH = os.path.join(HERE, "w0b_run.log")
 JSON_PATH = os.path.join(HERE, "w0b_blocks.json")
 

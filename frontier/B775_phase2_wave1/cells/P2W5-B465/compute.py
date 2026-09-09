@@ -32,6 +32,13 @@ Legs
 
 Env: pyenv python3 (numpy only).  Re-runnable.  ~2 min.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import json
 import sys
 import time
@@ -383,7 +390,7 @@ def leg3():
               f"max|tr|={mx:.6f}  sqrt|ker|={k ** 0.5:.6f}")
     # the c-family (ADDENDUM construction) at l=0
     import importlib.util
-    cf_path = "<repo>/frontier/B465_monodromy_intake/c_family.py"
+    cf_path = _R("frontier/B465_monodromy_intake/c_family.py")
     spec = importlib.util.spec_from_file_location("cf", cf_path)
     cf = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(cf)
@@ -467,7 +474,7 @@ def leg4():
     # identity with the ADDENDUM's (c|5) = -1 nine-distinct pattern
     import importlib.util
     spec = importlib.util.spec_from_file_location(
-        "cf", "<repo>/frontier/B465_monodromy_intake/c_family.py")
+        "cf", _R("frontier/B465_monodromy_intake/c_family.py"))
     cf = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(cf)
     nqr_pat = mult_pattern(cf.U_c(2))
@@ -651,8 +658,7 @@ def main():
             "branch is realized in the same family."),
         elapsed_s=round(time.time() - T0, 1))
 
-    with open("<repo>/frontier/B775_phase2_wave1/cells/"
-              "P2W5-B465/results.json", "w") as f:
+    with open(_R("frontier/B775_phase2_wave1/cells/P2W5-B465/results.json"), "w") as f:
         json.dump(OUT, f, separators=(',', ':'), sort_keys=True)
     print(f"  elapsed {time.time() - T0:.1f}s -> results.json")
     return 0

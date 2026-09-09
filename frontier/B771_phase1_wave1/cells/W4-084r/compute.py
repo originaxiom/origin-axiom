@@ -45,6 +45,13 @@ discriminating fact (collar depth d*, forces_border truth table, b1, charpoly,
 Hˇ^1) computed IN-CELL, never cited.  Comparator control = the raw (uncollared)
 system, which must NOT force the border, proving the criterion can fail.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import json
 import time
 import collections
@@ -53,7 +60,7 @@ from collections import defaultdict
 import sympy as sp
 
 T0 = time.time()
-CELL = "<repo>/frontier/B771_phase1_wave1/cells/W4-084r"
+CELL = _R("frontier/B771_phase1_wave1/cells/W4-084r")
 DMAX = 4                         # max collar depth to search before declaring non-forcing
 FAILED = []
 

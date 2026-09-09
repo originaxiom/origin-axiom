@@ -41,6 +41,13 @@ ASSERTED with its direction (gate()); the discriminating fact computed
 in-cell; PSLQ gated by the sealed tolerance-height rule tol=10^-(agree-14);
 UNRESOLVED is honest and the verdict function can emit it (SELF-TESTED).
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import json
 import time
 
@@ -52,7 +59,7 @@ import sympy as sp
 T0 = time.time()
 OUT = {}
 FAILED = []
-CELL_DIR = "<repo>/frontier/B771_phase1_wave1/cells/W3-270r"
+CELL_DIR = _R("frontier/B771_phase1_wave1/cells/W3-270r")
 RESULTS = f"{CELL_DIR}/results.json"
 
 

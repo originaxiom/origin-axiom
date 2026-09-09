@@ -42,6 +42,13 @@ relating the two bases of the same 26-dim complement.
 Repo <repo> is read-only; only exec'd
 in-memory, nothing is written there.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import os
 import json
 import time
@@ -49,7 +56,7 @@ import time
 os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-B575 = "<repo>/frontier/B575_bridge_obstruction/l51_obstruction.py"
+B575 = _R("frontier/B575_bridge_obstruction/l51_obstruction.py")
 A1_JSON = "<seat-workdir>/anatomy/loop1/a1_jordan/a1_results.json"
 W0B_JSON = "<seat-workdir>/invariant_line/w0b_blocks/w0b_blocks.json"
 LOG_PATH = os.path.join(HERE, "c2_run.log")

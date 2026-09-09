@@ -1,0 +1,44 @@
+CERTIFICATE -- the "<repo>/" placeholder substituted into executable code.
+
+WHAT WENT WRONG.  The repository forbids absolute machine paths in committed .py files
+(tests/test_no_hardcoded_paths.py).  The cleanup that enforced that rule replaced one
+bench's absolute checkout path in front of "frontier/X" with the DOCUMENTATION placeholder
+"<repo>/frontier/X".  In prose that is exactly right.  In code it is a dead path: Python
+opens the literal directory "<repo>", which does not exist.  The guard went green and the
+scripts stopped working -- a portability defect converted into a correctness defect,
+invisible to the guard that caused it.
+
+Confirmed instance: frontier/B1306_the_older_debt/verification/sliceC/c_e8_types.py died on
+  FileNotFoundError: .../sliceC/<repo>/frontier/B1275_e8_family_verified/.../e8_family.py
+and with it tests/test_b1306_the_older_debt.py::test_slice_c_own_rederivations_are_pinned.
+
+WHAT THIS CERTIFICATE CHECKS (three cells, each two-outcome, preregistered):
+
+  CELL 1  Does any committed .py still use a "<repo>/..." literal as a path?
+          A: yes, at least one remains          B: none remain
+  CELL 2  Does every repaired site's _R("...") argument name a path that EXISTS
+          in this checkout?
+          A: at least one names nothing         B: every one resolves
+  CELL 3  Does the _R resolver actually find the checkout root from each file's
+          own depth (the files sit 3-6 levels down)?
+          A: at least one fails to resolve      B: all resolve to this checkout
+
+CONTROLS
+  C1  The detector must FIRE on a planted dead literal (else it proves nothing).
+  C2  The detector must NOT fire on a "<repo>/" string inside a docstring or used
+      as a provenance label -- those are correct as text.
+  C3  The resolver, run from the deepest patched file's directory, must return
+      this checkout's root and not something above it.
+
+==============================================================================
+checkout: /home/user/origin-axiom
+C1: PASS  -- detector fires on a planted dead literal
+C2: PASS  -- detector silent on a docstring / provenance label
+C3: PASS  -- resolver finds this checkout from the deepest patched file
+
+CELL 1  live '<repo>/' path literals remaining: 0  -> B (none remain)
+CELL 2  files carrying the derived resolver: 26; _R() targets that do not exist: 0  -> B (all resolve)
+CELL 3  resolver correct from every patched file: B (yes)
+
+ALL CONTROLS PASSED
+VERDICT: CELL 1 = B, CELL 2 = B, CELL 3 = B -- no dead placeholder path remains
