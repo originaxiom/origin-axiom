@@ -58,6 +58,10 @@ judgement rows are enforced by the independent verification in Part II.
 
 ---
 
+### The DESIGN seal (added 2026-09-09, Review 56 R56-8 — practised by every arc since MASTERPLAN v3.1's INFORM-BEFORE-EXECUTE)
+
+Every arc opens with a `DESIGN.md` written BEFORE any of main's computations: the rule lines (`already_banked.py`, `absence_sweep.py`), the sources read in full, the view from above, and the pre-registration with priors and a PASS/FAIL that can both occur (MB12). It is sealed by `shasum -a 256 DESIGN.md > DESIGN.sha256` before the first run and the arc's lock asserts the seal. A sealed DESIGN is re-sealed only for a wording-only change forced by a gate (an attribution scrub, a dead path), and then the `.sha256` file records the ORIGINAL seal beside the new one with the reason and date — never for a change of prediction. Seat scripts named in a DESIGN are re-run in a pinned worktree before the seal; main's own code runs only after it.
+
 ## PART II — INDEPENDENT VERIFICATION (the owner's "hire an agent")
 
 **The author of an arc is the worst auditor of whether its surfaces were updated**, because the

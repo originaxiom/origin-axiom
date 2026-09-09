@@ -5338,13 +5338,15 @@ in §7a → **R56-3**.
 - [ ] R56-2: LAW_MAP — a second zero-advancement window with eleven non-instrument PROVED arcs banked and three law-creating; decide living-or-frozen: route the seven registry rows in with status columns, or declare the debt in `doc_currency` (owner: cc; source: §3, R55-1)
 - [ ] R56-3: CLAIMS.md (lag 225) and THEOREM_LEDGER.md (lag 62), debts declared 2026-08-09, ESCALATED BY NAME — run the §5 gates on the seven registry rows or declare both surfaces superseded by THEOREM_REGISTRY (owner: cc; source: 7a, §6)
 - [ ] R56-4: mint the overloaded-term-trap and cross-seat-priority classes at their second documented instance (E71 done) (owner: cc; source: R55-8)
-- [ ] R56-5: THE_LADDER.md cites none of B1290–B1307; cite the theorems on its chirality rungs or mark those rungs superseded (owner: cc; source: 7b)
-- [ ] R56-6: GUT_REQUIREMENTS_LEDGER (lag 205): mark superseded-by TOE_REQUIREMENTS_LEDGER or refresh (owner: cc; source: 7a)
-- [ ] R56-7: TOOLBOX.md frozen since B370 (lag 937): state where the owner's read-the-toolset protocol points that TOOLBOX_LIVE.md is the current toolset (owner: cc; source: 7a)
-- [ ] R56-8: BANKING_PROTOCOL.md: one paragraph on the DESIGN-sealed-before-compute convention (sha256; re-seal only with the original seal recorded) (owner: cc; source: 7b method)
-- [ ] R56-9: the pre-push hook keeps its full output (tee to a log) so a transient failing gate's name survives (owner: cc; source: §7)
-- [ ] R56-10: the one-sentence §0 disclaimer for `papers/P3_THE_PAPER/main.tex` (all verification internal; no external review) — the paper lead's call (owner: cc; source: R55-10, narrowed)
+- [x] R56-5 (done 2026-09-09, same day: THE_LADDER carries the dated pointer note): THE_LADDER.md cites none of B1290–B1307; cite the theorems on its chirality rungs or mark those rungs superseded (owner: cc; source: 7b)
+- [x] R56-6 (done 2026-09-09, same day: doc_currency's declared debt names TOE_REQUIREMENTS_LEDGER as the successor): GUT_REQUIREMENTS_LEDGER (lag 205): mark superseded-by TOE_REQUIREMENTS_LEDGER or refresh (owner: cc; source: 7a)
+- [x] R56-7 (done 2026-09-09, same day: doc_currency's declared debt names TOOLBOX_LIVE.md as the read-first toolset): TOOLBOX.md frozen since B370 (lag 937): state where the owner's read-the-toolset protocol points that TOOLBOX_LIVE.md is the current toolset (owner: cc; source: 7a)
+- [x] R56-8 (done 2026-09-09, same day: BANKING_PROTOCOL Part I gains the seal paragraph): BANKING_PROTOCOL.md: one paragraph on the DESIGN-sealed-before-compute convention (sha256; re-seal only with the original seal recorded) (owner: cc; source: 7b method)
+- [x] R56-9 (done 2026-09-09, same day: the hook tees its output to .git/pre-push-gates.log): the pre-push hook keeps its full output (tee to a log) so a transient failing gate's name survives (owner: cc; source: §7)
+- [x] R56-10 (done 2026-09-09, same day: main.tex's abstract carries the sentence): the one-sentence §0 disclaimer for `papers/P3_THE_PAPER/main.tex` (all verification internal; no external review) — the paper lead's call (owner: cc; source: R55-10, narrowed)
 - [>] R55-1 (ex-R54-1), R55-2 (ex-R54-2), R55-4 (ex-R54-4), R55-6, R55-7, R55-9, R55-11, R55-13, R55-14, R55-15 carried unchanged with the evidence in §1; R55-3 (ex-R54-3) carried with two repairs beside it (OPEN 47 → 53); R55-12 carried for B1260 §1 (B1259 scoped, E70); R55-16 carried with progress (20 of 32 gates named by a test) (owner: cc)
 - [>] R55-5: cc3's Papers I–IV owner-gated since 2026-08-26 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6) (owner: the owner)
+
+*Same-day progress on R56-1 (2026-09-09, after the review's anchor): slices B, C and D of B1306 landed (the SM seat's three commits and the cloud's memos 182–184 VERIFIED; the never-read physics items re-run 17/17 and re-derived 8/8; every seat-index item rowed — 292 SCHEDULED remain and the gate counts them); B1320 (Phase 2 Arc 0), B1321 (L205) and B1322 (L204 closed) landed; the chat1 handoff banked. The item stays open until the 292 are read.*
 
 **anchor-commit: `eb9db7fa`**

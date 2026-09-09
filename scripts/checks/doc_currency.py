@@ -85,14 +85,14 @@ def newest_arc_cited(path: pathlib.Path) -> int:
 # was declared, and must be REPORTED LOUDLY on every run. Debts do not silence the gate -- they
 # appear in its output every time, and `test_b984_doc_currency.py` fails if the set grows.
 DECLARED_DEBT = {
-    "docs/TOOLBOX.md": ("declared 2026-08-09 (B984): 613 arcs stale. The owner's own protocol "
+    "docs/TOOLBOX.md": ("declared 2026-08-09 (B984); Review 56 (R56-7, 2026-09-09): the read-first toolset is docs/TOOLBOX_LIVE.md (its own currency gate) -- this file is the frozen historical toolbox; 613 arcs stale. The owner's own protocol "
                         "says read the toolset before any important probe, so this is the "
                         "highest-priority debt on the board.", "2026-08-09"),
     "CLAIMS.md": ("declared 2026-08-09 (B984): 129 arcs stale. Gate 5 governs what may enter, "
                   "not whether it is current; the cascade layer (B860-B873) is absent.",
                   "2026-08-09"),
     "docs/THEOREM_LEDGER.md": ("declared 2026-08-09 (B984): 63 arcs stale.", "2026-08-09"),
-    "docs/GUT_REQUIREMENTS_LEDGER.md": ("declared 2026-08-09 (B984): 31 arcs stale, just over "
+    "docs/GUT_REQUIREMENTS_LEDGER.md": ("declared 2026-08-09 (B984); Review 56 (R56-6, 2026-09-09): SUPERSEDED IN SUBSTANCE by docs/TOE_REQUIREMENTS_LEDGER.md (B1304) -- read that first; 31 arcs stale, just over "
                                         "tolerance.", "2026-08-09"),
 }
 

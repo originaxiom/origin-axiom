@@ -1,5 +1,7 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+> **Note 2026-09-09 (Review 56, R56-5).** The chirality rungs below predate the arcs that settled them: read them with B1291 (one cusp ⇒ an even fixed-point count), B1294/B1295 (the object counts 2 at every fixed locus; every closed QHS closing 2 or nothing), B1296–B1299 (every wall is m004's amphichirality in one face; the θ-odd frame's one hole), B1320/B1321 (PW's localized count on the cyclic descent 0 or 4; the sibling's 3 at the price of the golden face) and B1322 (L204 closed: the θ-odd frame is closed on every sl₂ germ). Rungs that asked for what these arcs proved absent are answered, not still open; the ladder's text is kept and this note is the pointer until each rung is rewritten.
+
 **Standing document. Updated every time a rung moves.** Companion to `THE_FRAMEWORK.md`
 (what we *have*). This file is what we *lack*, stated as ingredients toward a complete
 account rather than as a list of failures.
