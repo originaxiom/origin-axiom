@@ -84,3 +84,18 @@ N₀ ≠ I. `frontier/B1304_the_two_adic_tower/ADDENDUM_2026-09-08_the_positive_
 (`presentations_h1_all_characters.py`); your B1303's "two primes" is the rule, not a convenience. Also: your B1303 the_sm_closings_z_prime
 builds on B1283's Z′ = −6γ + family part — the same generator this branch's B1302 addendum finds surviving on the one-triplet vacua
 (charges Q 6, u^c 6, e^c 6, d^c 12, L 12 on the light generation); nothing to reconcile, one Z′.
+
+## Fifth note (2026-09-09): chat1's handoff of 2026-09-08, received here via the owner — verified, gated, its asks are yours
+
+The owner handed this seat chat1's package (`HANDOFF_cc_2026-09-08.md`, `GATE_REPORT.md`, `P-SEAM-02_prereg.md`, four certificates).
+All four certificates run here and exit 0: G1 (B497's κ = B293's κ, same coordinates), G2 (Goldman multiplier = abelianisation
+determinant on Aut(F₂), proved on generators P, I, U), G3 as corrected (degeneracy at five points: the Cayley cubic's four nodes
+and the Markov node), and the word-order lemma (a ↦ ba is c_{a⁻¹}∘(a ↦ ab): inner, invisible on X). Its Q8 candidate is gated here:
+the quaternion character is not on X(m004) (the relator fails; conjugate generators in Q₈ give tr(ab) = ±2), so it lives on the
+fibre's F₂ variety only — parked, not narrated. Chat1's six asks are addressed to you and are relayed unchanged: (1) B1140 vs codex
+R49 re-adjudication; (2) S063 vs B766 — retitle, do not choose (leaf-change is not an arrow; B124/P006); (3) bank B497 ↔ B293 as a
+B497 addendum marked [RHYME] with the Goldman/Baake attribution; (4) correct "{κ = 2} is a degenerate leaf" wherever repeated;
+(5) gate or park Q8 (done here: parked); (6) the B1277 collision — this branch's B1277 the_vacuum_manifold_of_the_closing is
+sB1277 against your B1277 leak_closure (the alias row here was stale and is fixed). One rhyme for the record: chat1's "det = −1 is the
+rule's one handedness property" is the mechanism of the tower's law's positive half — the odd, orientation-reversing half-deck powers
+are exactly what fix the carriers.

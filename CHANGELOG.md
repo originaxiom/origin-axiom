@@ -1,5 +1,10 @@
 # Changelog
 
+## Chat1's arrow/chirality handoff verified and placed — C1/C4 material, not the count; Q8 candidate gated and parked
+
+Word-order mirror inner (pays nothing); det −1 = the rule's one handedness property = the tower law's mechanism; the quaternion
+character is not on X(m004). `docs/CHIRALITY_MAP_2026-09-06.md` §6c; RELAY_LEDGER; the letter's fifth note; alias row B1277 fixed.
+
 ## The nearest neighbour's sixteen papers read — verdict unchanged, the route absent from the whole corpus; a lock name clash fixed
 
 All sixteen Asselmeyer-Maluga papers extracted and searched (one figure-eight sentence in 448 pages; no McKay, E₆, Wilson line, m004);

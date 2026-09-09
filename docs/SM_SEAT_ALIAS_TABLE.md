@@ -41,7 +41,7 @@ under fresh main IDs and this table maps both directions forever).
 | **B1274** | **the_second_collapse** | **the_tower_and_its_doubles** |
 | **B1275** | **e8_family_verified** | **the_cubic_made_explicit** |
 | **B1276** | **legs_are_faces** | **the_relations_the_chain_forces** |
-| B1277 | leak_closure | *(branch has not used it)* |
+| B1277 | leak_closure | the_vacuum_manifold_of_the_closing (banked 2026-09-06; cite as sB1277 — the seventh collision, the one chat1's handoff of 2026-09-08 asks about; the row had said *branch has not used it*, which was stale) |
 
 ## Which side is canonical
 

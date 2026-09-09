@@ -14676,3 +14676,12 @@ the 2019 paper). `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` §7. The full 
 between B449's and B1304's `conductor_law.py` (the first import wins in a single-process lane): B1304's is renamed `tower_conductor_law.py`
 and loaded by path; both locks pass together. The other seven failures are the pre-existing environment class (gitignored logs, the
 SnapPy build's generator convention, B511's stochastic test). The tower map carries the theorem and the 2-adic residue.
+
+### Chat1's handoff on the arrow/chirality question, received via the owner (2026-09-09)
+
+Four certificates re-run here (all exit 0): the word-order mirror a ↦ ba is inner and pays nothing; the generative rule's one handedness
+property is det −1, and on Aut(F₂) the Goldman-bracket multiplier is the determinant (classical); the Poisson bivector degenerates at five
+points, not on {κ = 2}. Placed on the chirality map as C1/C4 material (§6c) — the sign is paid at the closing, forced not chosen (B286, B289) —
+not C3. The Q8 candidate gated: the quaternion character is not a point of X(m004) (relator fails; conjugate generators in Q₈ force
+tr(ab) = ±2) — parked. The det −1 fact is the mechanism of the tower's law's positive half (odd half-deck powers reverse the fibre). Chat1's
+six asks are main's and are relayed (fifth note); the stale B1277 alias row fixed (sB1277 the_vacuum_manifold_of_the_closing).
