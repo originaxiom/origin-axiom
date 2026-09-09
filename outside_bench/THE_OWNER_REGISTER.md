@@ -1726,3 +1726,64 @@ generalise to the operator**, which is genuinely external data and genuinely dec
 
 **Repo state:** branch `claude/outside-bench`, both trees clean, 0 commits ahead of origin, every
 certificate in this arc re-verified to run from a fresh container after today's restart.
+
+---
+
+## ADDENDUM 87 (2026-09-09) — **R87: "what does this all mean for the programme and what it lacked before it?"**
+
+### First, what it does not mean
+
+**It does not move `σ`.** R82's verdict is untouched: `c_eff` was a proxy, the object's own knot
+gives `1` and not `6`, and what would force `σ` is a *mechanism* attaching a genuine boundary
+character to the unquantized sector — a question sitting with a human (Q11), not with compute.
+Nothing in memos 185–187 touched that.
+
+**And nothing from this lane is in `CLAIMS.md`.** Checked, this session: **zero** occurrences of
+`outside_bench` in the programme's main claim record, against **191 certificates, 152 memos and
+160 index rows** in the lane. R82 called that the correct state rather than an oversight, and it
+still is. This arc did not change it and was not trying to.
+
+### What the programme lacked before, item by item
+
+The quantum face rested on **borrowed, unverified inputs**. Specifically it lacked:
+
+| | what was missing | status now |
+|---|---|---|
+| 1 | any knot invariant **this bench computed itself** and could check the literature against | **supplied** — colored Jones for five knots, `F_K` blocks for `m(5₂)`, all from two independently built machines |
+| 2 | a **verified** non-commutative A-polynomial for the knot the whole arc is about | **supplied** — `5₂`'s order-3 recursion, verified against our own colored Jones at six `n` |
+| 3 | a **localised** account of the published defect — memo 183 could say eq (32) fails, not why | **supplied** — a transcription defect; the mathematics behind it is right, and both halves are proved |
+| 4 | a **predictive** result — everything was descriptive | **supplied** — `val C_m` by the sign of `p`, predicted for `5₂` before the data, confirmed from a different machine |
+| 5 | the colored Jones **tail** as a measured object rather than an argued one | **supplied** — four knots in closed form to 52 coefficients, incl. the Rogers–Ramanujan product |
+| 6 | a reason to stop spending on dead routes | **supplied** — the naive cyclotomic route closed by computation, not by citation |
+| 7 | the **non-naive** route, sourced | **supplied** — Park Conjecture 2 (arXiv:2106.03942), and memo 185 §8's convention note turns out to be its bridge |
+
+### What it still lacks — and this is the honest half
+
+1. **The mechanism for `σ`.** Unchanged, and it is the only thing that would close the goal.
+2. **`f_j` past `f_5` for `5₂`** (memo 183 addendum 4). The blocker stands. A *verified* operator
+   is now on the table where a defective one used to be, but the conversion from it to the `F⁺`
+   block recursion is unsolved — tried four ways, all fail (memo 187 §7).
+3. **Any link between a computed `c_eff` and `c((E₆)₁) = 6` that is not just the number.**
+   R83's fence stands: `c_eff(1/(q;q)_∞^m) = m` is manufacturable to order.
+
+### The structural reading, which is the real answer
+
+**The change is in standing, not in distance.**
+
+Before this arc, the quantum face was a **consumer** of the literature: GM's theorems, Park's
+blocks, Park's operator, the false-theta identification — all taken on trust, any one of which
+could have been the soft spot. For a programme whose entire claim structure rests on Gate 5
+(no measured value enters a derivation), **a borrowed unverified theorem is a soft spot of exactly
+the same kind as a measured input** — it is a number you did not derive.
+
+It is now a **checker** of that literature, and in two cases a **corrector**: GM's §7.4 sentence
+sharpened, Park's eq (32) localised. Two mislabeled files were caught today by one rule —
+*identify by what a thing annihilates, never by its filename* — the same rule that caught the
+mislabeled tables in memo 186. That rule is itself an asset the programme did not have.
+
+And the ratio is what makes the rest worth anything: **six results banked in this arc against
+three of the bench's own withdrawn** (memo 176 §5's law, memo 182 §3's `c = −1/16`, memo 183's
+`c_6…c_12` as determinations) **and one route pulled before it cost the owner a download.**
+
+**The gaps that remain are now named, sourced, and each carries a next action.** Before this arc
+they were named and unsourced. That is a smaller change than closing `σ`, and it is a real one.
