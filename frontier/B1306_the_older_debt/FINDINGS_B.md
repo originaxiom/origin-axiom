@@ -90,7 +90,7 @@ the recursion's f₃ minus Park's printed f₃ = q³ − q⁴ + q⁵ + q⁶ + q�
 and every derived series with it; the defect check passed regardless because both sides carried the same sign — caught by the printed-series controls,
 recorded.) The cloud's exhaustive single-monomial search and its Ẑ(Σ(2,3,11)) reconstruction are re-run here from its certificate (RC=0) and REGISTERED,
 not re-derived. **Two portability defects in the cloud's certificates, reported:** `tail_52.py` and `park_ahat_erratum.py` open a helper by the absolute
-path `/home/user/origin-axiom/...` and fail on any other bench (both re-ran green once the path was pointed at the worktree — the edit lives in the
+path `<seat>/origin-axiom/...` and fail on any other bench (both re-ran green once the path was pointed at the worktree — the edit lives in the
 scratch copy only). Since the source is in hand, the open item is now concrete: eq (32) needs at least two corrections and the true f₄ from the
 large-colour route (five coefficients known) is what would determine them — a bounded follow-up, not this slice.
 

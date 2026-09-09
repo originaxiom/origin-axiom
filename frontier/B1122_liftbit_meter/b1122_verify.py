@@ -725,7 +725,7 @@ results["odd_rep_valid_seam_separation"] = odd_valid_separation
 results["all_controls_pass"] = controls_all_pass
 RUNTIME = round(time.time() - T0, 2)
 results["runtime_seconds"] = RUNTIME
-results["ccb_path"] = CCB_PATH
+results["ccb_path"] = "<repo>/" + REL_CCB   # repo-relative, never an absolute machine path
 
 print()
 print("=" * 78)

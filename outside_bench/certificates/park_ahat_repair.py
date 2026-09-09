@@ -52,12 +52,14 @@ else:
     cands = sorted(glob.glob(os.path.join(_DATA, 'park_f52_blocks_w*.json')),
                    key=lambda p: int(''.join(ch for ch in os.path.basename(p) if ch.isdigit())))
     if not cands:
-        cands = sorted(glob.glob('/tmp/k52/stable_w*.json'),
-                       key=lambda p: int(''.join(ch for ch in os.path.basename(p) if ch.isdigit())))
-    if not cands:
+        # NO SCRATCH-DIRECTORY FALLBACK.  An earlier version fell back to a /tmp path,
+        # which is the reproducibility defect memo 183 addendum 5 filed against this lane
+        # and memo 189 found across the corpus.  If the vendored blocks are absent the
+        # right answer is to say so, not to silently read someone's scratch space.
         raise SystemExit("no block file in outside_bench/data/ -- run certificates/park_large_color.py first")
     BLOCKS = cands[-1]
-print("blocks read from", BLOCKS)
+_ROOT = os.path.normpath(os.path.join(_HERE, '..', '..'))
+print("blocks read from", os.path.relpath(BLOCKS, _ROOT))   # repo-relative, never absolute
 LQ = 400
 
 # ---------- Park's f_0, f_1 (closed forms) and f_2, f_3 (his Q(q) formulas) ----------

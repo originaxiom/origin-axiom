@@ -9,10 +9,14 @@ import re, subprocess, sys
 from fractions import Fraction
 import sympy as sp
 
-import os as _os
+import os as _os, pathlib as _pl
 PIN = _os.environ.get("OA_PAPER_PIN", "89affd5b")  # audit pin; override to re-check a later draft
+# REPO ROOT DERIVED, NOT HARDCODED.  The first version pinned an absolute path and would
+# have run only on the bench that wrote it -- the exact defect memo 183 addendum 5 filed
+# against this lane and memo 189 found across the corpus.  Fixed 2026-09-09.
+_ROOT = _pl.Path(__file__).resolve().parents[2]
 TEX = subprocess.run(["git","show",f"{PIN}:papers/P3_THE_PAPER/main.tex"],
-                     capture_output=True, text=True, cwd="/home/user/origin-axiom").stdout
+                     capture_output=True, text=True, cwd=str(_ROOT)).stdout
 assert len(TEX) > 10000, "could not read the draft at the pin"
 
 print("="*78); print("P3 HOSTILE READ -- main.tex @", PIN, f"({len(TEX)} chars)"); print("="*78)

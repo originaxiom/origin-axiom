@@ -141,5 +141,5 @@
   "odd_rep_valid_seam_separation": false,
   "all_controls_pass": true,
   "runtime_seconds": 8.57,
-  "ccb_path": "/home/user/origin-axiom/frontier/B1102_exact_hypercharge_solve/e6_bracket_vendored.py"
+  "ccb_path": "<repo>/frontier/B1102_exact_hypercharge_solve/e6_bracket_vendored.py"
 }

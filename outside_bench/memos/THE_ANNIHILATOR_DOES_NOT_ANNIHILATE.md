@@ -566,7 +566,7 @@ re-run from a clean checkout:
 * `park_ahat_repair.py` read the `F⁺_{m(5₂)}` blocks from a **scratch file under `/tmp`**;
 * `park_large_color.py` **wrote** them there;
 * `gm_thm13.py`, `park_ahat_erratum.py` and `tail_52.py` carried **absolute paths**
-  (`/tmp/k52`, `/home/user/...`), one of them dead and merely misleading, two of them real
+  (`/tmp/k52`, `<seat>/...`), one of them dead and merely misleading, two of them real
   dependencies on sibling certificates.
 
 A certificate that only reproduces on the machine that made it is not a certificate. The lane's

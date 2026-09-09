@@ -1,4 +1,4 @@
-blocks read from /home/user/origin-axiom/outside_bench/data/park_f52_blocks_w16.json
+blocks read from outside_bench/data/park_f52_blocks_w16.json
 ==============================================================================
 true blocks in hand (Park's own for j<=3, large color R-matrix for j>=4)
    f_0 : q^-1   .. q^377   (28 coefficients)
