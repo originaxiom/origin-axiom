@@ -1,0 +1,65 @@
+{
+ "sm": {
+  "index": 31,
+  "rowed": 15,
+  "HARVESTED-EARLIER": 4,
+  "CITED-EARLIER": 3,
+  "UNREAD": 9
+ },
+ "fc": {
+  "index": 74,
+  "rowed": 8,
+  "HARVESTED-EARLIER": 6,
+  "CITED-EARLIER": 4,
+  "UNREAD": 56
+ },
+ "codex": {
+  "index": 44,
+  "rowed": 1,
+  "HARVESTED-EARLIER": 7,
+  "CITED-EARLIER": 17,
+  "UNREAD": 19
+ },
+ "cc3": {
+  "index": 87,
+  "rowed": 4,
+  "HARVESTED-EARLIER": 20,
+  "CITED-EARLIER": 22,
+  "UNREAD": 41
+ },
+ "hostile": {
+  "index": 29,
+  "rowed": 8,
+  "HARVESTED-EARLIER": 6,
+  "CITED-EARLIER": 3,
+  "UNREAD": 12
+ },
+ "cloud": {
+  "index": 155,
+  "rowed": 15,
+  "HARVESTED-EARLIER": 12,
+  "CITED-EARLIER": 28,
+  "UNREAD": 100
+ },
+ "braver": {
+  "index": 6,
+  "rowed": 1,
+  "HARVESTED-EARLIER": 0,
+  "CITED-EARLIER": 0,
+  "UNREAD": 5
+ },
+ "qor5up": {
+  "index": 30,
+  "rowed": 0,
+  "HARVESTED-EARLIER": 0,
+  "CITED-EARLIER": 0,
+  "UNREAD": 30
+ },
+ "audit": {
+  "index": 38,
+  "rowed": 36,
+  "HARVESTED-EARLIER": 0,
+  "CITED-EARLIER": 0,
+  "UNREAD": 2
+ }
+}
