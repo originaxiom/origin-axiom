@@ -6,3 +6,5 @@ Y_10: 15125 characters; (unipotent, det = 1, identity, trivial) -> count: {(Fals
   non-trivial unipotent characters: 15124, of which Psi-eigencharacters 104; by order {5: 24, 11: 120, 25: 100, 55: 2880, 275: 12000}  (0 s)
 Y_12: 103680 characters; (unipotent, det = 1, identity, trivial) -> count: {(False, True, False, True): 1, (True, True, False, False): 103556, (True, True, True, False): 123}
   non-trivial unipotent characters: 103679, of which Psi-eigencharacters 4; by order {2: 3, 3: 8, 4: 12, 5: 4, 6: 24, 8: 48, 9: 72, 10: 12, 12: 96, 15: 32, 16: 192, 18: 216, 20: 48, 24: 384, 30: 96, 36: 864, 40: 192, 45: 288, 48: 1536, 60: 384, 72: 3456, 80: 768, 90: 864, 120: 1536, 144: 13824, 180: 3456, 240: 6144, 360: 13824, 720: 55296}  (6 s)
+Y_15: 1860496 characters; (unipotent, det = 1, identity, trivial) -> count: {(False, True, False, True): 1, (True, True, False, False): 1857772, (True, True, True, False): 2723}
+  non-trivial unipotent characters: 1860495, of which Psi-eigencharacters 1280; by order {2: 3, 4: 12, 11: 120, 22: 360, 31: 960, 44: 1440, 62: 2880, 124: 11520, 341: 115200, 682: 345600, 1364: 1382400}  (255 s)
