@@ -42,3 +42,58 @@ def test_the_receipts_and_inventories_are_present():
     assert (SM / "RECEIPTS.md").exists() and (SM / "already_banked_at_seal.txt").exists()
     for f in ("sm_seat_inventory.md", "fc_codex_hostile_inventory.md"):
         assert (ARC / "inputs" / f).exists(), f
+
+
+# ---------------- slice B ----------------
+SB = ARC / "verification" / "sliceB"
+
+
+def test_slice_b_design_is_sealed():
+    h = hashlib.sha256((ARC / "DESIGN_B.md").read_bytes()).hexdigest()
+    assert f"{h}  DESIGN_B.md" in (ARC / "DESIGN_B.sha256").read_text(encoding="utf-8")
+
+
+def test_slice_b_positive_half_is_pinned_from_its_run():
+    j = json.loads((SB / "b1306_positive_half.json").read_text(encoding="utf-8"))
+    assert j["fails"] == [] and j["pairs_m_le_4000"] == 1037 and j["mismatches"] == []
+    t = {int(k): v for k, v in j["table"].items()}
+    assert [t[n]["classes"] for n in range(2, 14)] == [1, 0, 1, 2, 1, 2, 1, 2, 5, 2, 1, 2]
+    assert all(t[n]["carry"] == t[n]["predicted"] and t[n]["both_even_carry"] == 0 for n in t)
+    assert (t[10]["predicted"], t[10]["both_even"]) == (2, 3)
+
+
+def test_slice_b_colored_jones_tail_is_pinned_from_its_run():
+    j = json.loads((SB / "b1306_jones_52_N9.json").read_text(encoding="utf-8"))
+    assert j["fails"] == [] and j["m52_orientation"] == "as-is"
+    m = {int(k): v for k, v in j["m52"].items()}
+    assert [(m[n]["lo"], m[n]["hi"]) for n in (6, 7, 8, 9)] == [(5, 80), (6, 111), (7, 147), (8, 188)]
+    assert m[9]["stable_bottom"][:8] == [1, -1, 0, 1, 0, 0, -1, 0] and m[9]["stable_top"] == []
+    assert abs(float(j["inv_phi_growth"]["3000"]) - 1.2880) < 0.002
+
+
+def test_slice_b_park_eq32_defect_is_pinned():
+    j = json.loads((SB / "b1306_park_eq32.json").read_text(encoding="utf-8"))
+    assert j["fails"] == [] and j["x72"].startswith("-1q^12 +1q^13 -1q^15 +1q^18") and j["x72"] == j["target"]
+    assert j["f3_diff"].startswith("+1q^3 -1q^4 +1q^5 +1q^6")
+
+
+def test_slice_b_receipts_present_and_green():
+    for f in ("sm_B1304_law_positive_half_rerun.txt", "sm_B1303_presentations_h1_all_characters_rerun.txt", "sm_B1350_obstruction_rerun.txt",
+              "sm_B1350_obstruction_higher_rerun.txt", "cloud_memo183_park_large_color_rerun.txt", "cloud_memo183_park_ahat_erratum_rerun.txt", "cloud_memo184_tail_52_rerun.txt"):
+        assert (SB / f).read_text(encoding="utf-8", errors="replace").rstrip().endswith("RC=0"), f
+    assert "SELFTEST: PASS" in (SB / "sm_B1304_law_positive_half_rerun.txt").read_text(encoding="utf-8")
+    assert "ALL CONTROLS PASSED" in (SB / "cloud_memo184_tail_52_rerun.txt").read_text(encoding="utf-8")
+
+
+def test_slice_b_the_two_locks_read_tracked_records():
+    for f in ("frontier/B1299_the_period_2_duality/verification/b1299_w1w2_main_run.txt", "frontier/B1302_the_sibling_m202/verification/b1302_signs_run.txt"):
+        assert (ROOT / f).is_file(), f
+        r = subprocess.run(["git", "-C", str(ROOT), "ls-files", "--error-unmatch", f], capture_output=True, text=True); assert r.returncode == 0, f
+    src = (ROOT / "tests" / "test_b1299_the_period_2_duality.py").read_text(encoding="utf-8"); assert "b1299_w1w2_main_run.txt" in src and ".out" not in src
+    src = (ROOT / "tests" / "test_b1302_the_sibling_m202.py").read_text(encoding="utf-8"); assert "b1302_signs_run.txt" in src and ".out" not in src
+
+
+@pytest.mark.slow
+def test_slice_b_positive_half_reproduces_by_RUNNING(tmp_path):
+    r = subprocess.run([sys.executable, str(SB / "b1306_positive_half.py"), "9"], cwd=tmp_path, capture_output=True, text=True, timeout=1200)
+    assert r.returncode == 0 and "Q1: PASS" in r.stdout, r.stdout[-1500:] + r.stderr[-1500:]

@@ -1,0 +1,21 @@
+==============================================================================
+Park's large color R-matrix on m(5_2), beta = s2^-3 s1^-1 s2 s1^-1
+   weight strata w = 0..12 ; blocks wanted f_0..f_4 ; x-margin 5
+==============================================================================
+   f_0 : q^-1  [-1, 1, 0, -1, 0, 0, 1, 0, 0, 0, -1, 0]   vs Park's printed f_0 : MATCH
+        78 leading coefficients stable in w (cutoffs 11 and 12); beyond that, not reported
+   f_1 : q^-1  [-1, 1, 1, -1, -1, -1, 1, 1, 1, 1, -1, -1]   vs Park's printed f_1 : MATCH
+        55 leading coefficients stable in w (cutoffs 11 and 12); beyond that, not reported
+   f_2 : q^-1  [-1, 2, 1, -1, -2, -2, 1, 1, 3, 2, 0, -1]   vs Park's printed f_2 : MATCH
+        35 leading coefficients stable in w (cutoffs 11 and 12); beyond that, not reported
+   f_3 : q^0   [2, 1, -2, -2, -3, 0, 2, 4, 4, 2, 0, -3]   vs Park's printed f_3 : MATCH
+        17 leading coefficients stable in w (cutoffs 11 and 12); beyond that, not reported
+   f_4 : q^-2  [1, 0, 2, 0, -3]
+        5 leading coefficients stable in w (cutoffs 11 and 12); beyond that, not reported
+------------------------------------------------------------------------------
+   C1 Park's printed f_0..f_3 reproduced : PASSED
+   C2 independent of the x-truncation    : PASSED
+   C3 converged in the weight strata     : PASSED
+   blocks written to /tmp/park_f52_W12.json
+ALL CONTROLS PASSED.
+RC=0

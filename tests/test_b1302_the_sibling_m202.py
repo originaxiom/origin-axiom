@@ -39,7 +39,7 @@ def test_the_signs_table_is_pinned_from_the_exact_run():
         r3 = j["order3"]["k"][str(k)]
         if k % 6 == 4: assert r3["scalar"] == "(1)", k
         else: assert r3["tr"] == "(-1)" and r3["det"] == "(1)" and r3["scalar"] is None, k
-    out = (VER / "b1302_signs.out").read_text(encoding="utf-8"); assert "Q1: PASS" in out and out.rstrip().endswith("RC=0")
+    out = (VER / "b1302_signs_run.txt").read_text(encoding="utf-8"); assert "Q1: PASS" in out and out.rstrip().endswith("RC=0")
 
 
 def test_the_seat_receipts_and_ledger_rows_are_present():

@@ -31,7 +31,7 @@ def test_main_s_own_W1_W2_points_satisfy_c_equals_1_and_index_0():
     assert len(rows) >= 40 and {r["comp"] for r in rows} == {"W1", "W2"}
     assert all(abs(complex(*r["c"]) - 1) < 1e-9 and r["ninth"] < 1e-9 for r in rows)   # the DESIGN's criterion: the scalar c = 1 to 1e-9 and the ninth-trace identity; the non-scalar part is reported in the JSON (c_dev), not pinned
     assert all(r["a"][1] == 0 and r["t"][0] == 0 and r["I"] == 0 for r in rows)
-    out = (VER / "b1299_w1w2_main.out").read_text(encoding="utf-8"); assert "Q1: PASS" in out and out.rstrip().endswith("RC=0")
+    out = (VER / "b1299_w1w2_main_run.txt").read_text(encoding="utf-8"); assert "Q1: PASS" in out and out.rstrip().endswith("RC=0")
 
 
 def test_the_seat_probe_was_rerun_here_and_the_ledgers_carry_the_result():

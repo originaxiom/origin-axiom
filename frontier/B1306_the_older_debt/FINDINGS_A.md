@@ -66,7 +66,7 @@ the gate that reads seat relays the hour they are pushed (B1307, next).
 ## 6. The nearest-neighbour literature, sixteen papers
 
 The session-relay seat's package (sixteen papers, 448 pages) is archived under the gitignored `audit/` directory and was text-extracted and
-searched here with ligature-aware patterns: **the figure-eight knot is named in none of them**; "trace field" occurs twice and Maclachlan–Reid
+searched here with ligature-aware patterns: **the figure-eight knot is named in none of them** *[CORRECTED 2026-09-09, B1306 B: the search lacked the DIGIT spelling — arXiv:1910.09966 §7 p. 29 reads "The complement of the ﬁgure 8 knot is one example of an arithmetic hyperbolic 3-manifold", and 1003.5506 has "the ﬁgure-8 knot"; the SM-derivation seat found it (its prior-art document, 2026-09-08); E54 instance filed against this bench]*; "trace field" occurs twice and Maclachlan–Reid
 once, only in arXiv:1910.09966. The dossier's Entry 5 carries the addendum; the overlap column shrinks, the delta grows; the three numbers
 papers are his claims; the review and the two Brans/Rosé papers are the reads for FRESH_EYES Q13/Q14 in this arc's prior-art pass (slice D).
 

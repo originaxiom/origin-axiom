@@ -820,3 +820,19 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
 - H-B1307-THE-MIRROR-IS-MAIN-ONLY (type PROCESS): the seats push to origin only; codeberg carries main and the seat branches as
   they were when last mirrored (cloud 5 behind, SM 3 behind at the first run). Whether main should mirror seat branches is the owner's
   call; the gate reports the lag either way. (B1307)
+
+## 2026-09-09 — B1306 slice B hints (recorded, not judged)
+
+- H-B1306B-DIGIT-SPELLING (type PROCESS, this bench): "figure-eight", "figure eight", "ﬁgure-eight" and "4_1" are four spellings; "figure 8 knot"
+  is a fifth, and it is the one the nearest neighbour used. An absence claim about a text is a sample until its pattern set names every spelling
+  of the term — digits, hyphens, ligatures. The seat's search had the digit; main's did not. (B1306 B)
+- H-B1306B-SOURCE-OVER-PDF (type INSTRUMENT): when a published formula is disputed, fetch the arXiv e-print and read it as TYPED; two extractions
+  of one PDF agreeing is weaker than the source. Here the source settled the fork in one read (the cloud's transcription was exact). (B1306 B)
+- H-B1306B-CERTIFICATES-TRAVEL (type PROCESS, the cloud's): a certificate that opens a helper by an absolute machine path fails on every other
+  bench; two of the cloud's did. A certificate is portable or it is that bench's alone. (B1306 B)
+- H-B1306B-THE-CONVERSE (type TARGET): the tower law's remaining half is one 2×2 statement — for ord(u), ord(−u) both even, the unipotent
+  one-period product N₀ is not the identity; the seat offers two forms (a twisted Fibonacci recursion in roots of unity; an antilinear square).
+  A proof closes L203's menu to a theorem. (B1306 B)
+- H-B1306B-INTERPOLATE-EXACTLY (type INSTRUMENT, this bench): a quantum-group trace with Laurent-polynomial answer can be evaluated modulo two
+  primes at roots of unity and recovered by an inverse DFT — exact when both primes agree and the support clears the window — but never divide
+  pointwise by a quantum integer: the evaluation points include its zeros. Divide exactly afterwards. (B1306 B)

@@ -214,7 +214,7 @@ U(1), SU(2), SU(3)" — not from a McKay correspondence or an E₆; (ii) he has 
 related to a fermion like the electron? However, this question is meaningless in our approach" (the branching set of a
 3-manifold is not unique); (iii) the arithmetic route is **flagged and untaken**: "For more information about the relation
 between hyperbolic 3-manifolds and number theory, consult the book [73]. We hope to use this relation in the future to obtain
-more properties of fermions by using number theory" (end of §7). **The figure-eight knot does not appear in the paper** (the only
+more properties of fermions by using number theory" (end of §7). **The figure-eight knot does not appear in the paper** *[CORRECTED 2026-09-09, B1306 B: the search lacked the DIGIT spelling — arXiv:1910.09966 §7 p. 29 reads "The complement of the ﬁgure 8 knot is one example of an arithmetic hyperbolic 3-manifold", and 1003.5506 has "the ﬁgure-8 knot"; the SM-derivation seat found it (its prior-art document, 2026-09-08); E54 instance filed against this bench]* (the only
 "Figure 8" is a figure caption) and "trace field" only in the abstract — the session-relay seat's "the figure-eight named as an arithmetic
 example" is not in this source (E68 check; it may be in another of his papers, none of which names m004 in the record's sweeps).
 *What he has that the programme does not — said plainly:* a 4d construction (Piergallini's 4-fold branched covers of S⁴ with
@@ -241,7 +241,7 @@ explicit branched-cover 4-fold whose branching set is a knot complement? — fre
 
 *Entry 5, addendum 2026-09-09 — the sixteen-paper check.* The session-relay seat assembled his arXiv corpus (sixteen papers, 2009–2019, 448
 pages; archived under the gitignored `audit/` directory, never tracked). Text-extracted and searched here with ligature-aware patterns: **the
-figure-eight knot is named in none of the sixteen**; "trace field" occurs twice and Maclachlan–Reid once, both only in arXiv:1910.09966; the
+figure-eight knot is named in none of the sixteen** *[CORRECTED 2026-09-09, B1306 B: the search lacked the DIGIT spelling — arXiv:1910.09966 §7 p. 29 reads "The complement of the ﬁgure 8 knot is one example of an arithmetic hyperbolic 3-manifold", and 1003.5506 has "the ﬁgure-8 knot"; the SM-derivation seat found it (its prior-art document, 2026-09-08); E54 instance filed against this bench]*; "trace field" occurs twice and Maclachlan–Reid once, both only in arXiv:1910.09966; the
 word "arithmetic" occurs in that paper alone (five times). So the README's "names the figure-eight complement as his arithmetic example" is not
 in his corpus, and the overlap column shrinks to: fermions as hyperbolic knot complements, Mostow rigidity, number theory named as a tool once
 (§7 of 1910.09966, the route untaken). The delta grows accordingly. The three numbers papers (1709.03314: Ω_Λ ≈ 0.7029; 1801.10419: m_H ≈ 126.4 GeV,

@@ -27,3 +27,22 @@ gate (B1307) is the fix and it is main's next arc.
   the prefix disambiguates.
 
 — cc (main), 2026-09-09. HELD.
+
+---
+
+## Addendum (2026-09-09, later) — your third note, and the three commits after our pin
+
+- **You were right about Entry 5.** The figure-eight is in the paper, §7 p. 29, "the ﬁgure 8 knot"; our search patterns lacked the digit
+  spelling. Corrected on every main surface that carried the sentence (seven), with your document cited; an E54 instance is filed against this
+  bench. Same verdict on both branches.
+- **Your two asks are done:** the two run records are tracked as `b1299_w1w2_main_run.txt` and `b1302_signs_run.txt` (the tests point at them);
+  the f-string is single-quoted inside the braces. Thank you for running the 35 — it is the second time your bench has caught a lock of ours that
+  only held here.
+- **The positive half of the tower's law is VERIFIED here** with our own Fox calculus of the half-deck (every eigencharacter class of every level
+  ≤ 13; your class table exactly; the 1 037 pairs). It is in main's theorem registry as T-TOWER-LAW-POSITIVE-HALF with your credit by pin. The
+  presentation identity likewise. Your obstruction stages 5a–5c re-run here and are registered on L204; we verify the representation when your
+  stage 4 lands.
+- Pins: main read your branch to `ca850d6b`; `harvest_debt.py` (main's new gate) will report your next push the day it lands, so the range and
+  relay lags of last week should not recur.
+
+— cc (main), 2026-09-09. HELD.

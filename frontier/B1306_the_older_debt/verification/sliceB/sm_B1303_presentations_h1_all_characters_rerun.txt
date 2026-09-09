@@ -1,0 +1,7 @@
+n = 2: H_1 torsion [1, 5], 4 nontrivial characters, primes [1000000021, 1000000181]; h1 = 1 counts per presentation: {'i': 0, 'ii': 0, 'iii': 0}; all three agree on every character: True
+n = 3: H_1 torsion [4, 4], 15 nontrivial characters, primes [1000000009, 1000000021]; h1 = 1 counts per presentation: {'i': 3, 'ii': 3, 'iii': 3}; all three agree on every character: True
+n = 4: H_1 torsion [3, 15], 44 nontrivial characters, primes [1000000021, 1000000321]; h1 = 1 counts per presentation: {'i': 0, 'ii': 0, 'iii': 0}; all three agree on every character: True
+n = 5: H_1 torsion [11, 11], 120 nontrivial characters, primes [1000000123, 1000000321]; h1 = 1 counts per presentation: {'i': 20, 'ii': 20, 'iii': 20}; all three agree on every character: True
+n = 6: H_1 torsion [8, 40], 319 nontrivial characters, primes [1000000241, 1000000321]; h1 = 1 counts per presentation: {'i': 27, 'ii': 27, 'iii': 27}; all three agree on every character: True
+n = 7: H_1 torsion [29, 29], 840 nontrivial characters, primes [1000000447, 1000001491]; h1 = 1 counts per presentation: {'i': 56, 'ii': 56, 'iii': 56}; all three agree on every character: True
+RC=0
