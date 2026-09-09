@@ -1664,3 +1664,65 @@ it is small.
 | 2 | `Apoly.15.11.txt` + `CJ22_rec.m` + `CJ22.txt` | proves the ingester on real data now; possible `f_{7₄}` route |
 | 3 | Park, arXiv:2106.03942 (fetch item B2) | the only surviving non-naive Habiro route after memo 185 |
 | 4 | `CJTwist.2.txt.gz` (the real `5₂`), `CJTwist.3`, `CJTwist.-3` | memo 186 F186-1 |
+
+---
+
+## ADDENDUM 86 (2026-09-09) — **R86: "whats the mission status"**
+
+### THE MAIN GOAL — unchanged, and the verdict stands
+
+**Force `σ = 1`.** R82's verdict is **NO**, and nothing since has moved it. The reason is not
+difficulty, it is kind: **`c_eff` was always a proxy.** On the object's own knot the answer is
+`sup_{|p/r|<4} c_eff = 1` exactly (memo 177) — **6 is unreachable on `4₁`, and that door is shut.**
+What would force `σ` is a *mechanism* attaching a genuine boundary character to the **unquantized**
+sector of complex Chern–Simons on `m004` with `CS = 0`. **That is a question put to a human**
+(Q11, Dimofte, 2026-08-31), not a question waiting on compute.
+
+**R83's decision is in force:** stop paying for the `c_eff` route, because
+`c_eff(1/(q;q)_∞^m) = m` means its *success* would not have been evidence. **R80-3 is in force:
+nothing is sent from Gmail.** Neither has been touched.
+
+### WHAT MOVED, AND WHAT IT IS WORTH
+
+The work since R83 has all been **verification and instrument-building around the erratum and the
+`F_K` machinery** — not toward `σ`. That is the honest frame, and it is still worth having:
+
+| | result | status |
+|---|---|---|
+| memo 185 | the **naive cyclotomic route to `f_K` is closed by computation**, not by citing GM | banked, 6 controls |
+| 185 add. 1 | GM §7.4 tested at both slopes; at `p = −1` the `C_K` route is off by **exactly one additive monomial** | banked, 8 controls |
+| 185 add. 1 | **Park's Table 4 target `Ẑ(Σ(2,3,11))` re-derived from the TREFOIL** via GM Thm 1.2+1.3 | **the erratum's target no longer rests on a single paper** |
+| 185 add. 2 | `C_K` converges for `p > 0`, diverges for `p < 0`; `val C_m = m` vs `−(2|p|−1)m(m+1)/2` | banked, 10 controls; **explains why GM's near-miss sat at the Poincaré sphere** |
+| 185 add. 3 | that law's **prediction for `5₂` tested and confirmed**, from a different machine, without the file | banked, 5 controls |
+| memo 186 | the tail fence **7 → 52 coefficients on four knots**; Rogers–Ramanujan product found at `6₁`; false/genuine theta split **inside one family** | banked, 7 controls |
+
+**Three of this bench's own results have been withdrawn** in this arc (memo 176 §5's law, memo 182
+§3's `c = −1/16`, memo 183's `c_6…c_12` as determinations), plus one route floated to the owner
+and withdrawn before it cost anything (memo 185 §0). That ratio is the point of the seat.
+
+### WHAT IS BLOCKED, AND ON WHAT
+
+1. **The erratum (memo 183).** Needs the **`Â` of `m(5₂)`** from `twist.knot.data` = [GS10] —
+   the *single*-twist family. Only that page's colored-Jones section has been seen here. **Blocked
+   on a file.**
+2. **`f₆` and beyond for `5₂`** (memo 183 addendum 4's blocker). The naive cyclotomic route is now
+   closed by computation; the surviving non-naive route is Park arXiv:2106.03942 (fetch item B2).
+   **Blocked on a file.**
+3. **`σ` itself.** **Blocked on a human** — Dimofte's answer to Q11. A clean negative there closes
+   `σ` as well as a positive would.
+4. **Memo 186 F186-2** (the false/genuine split across all thirty twist knots). **Blocked on files**
+   — `CJTwist.2` (the real `5₂`, `det 7`), `±3`, and the rest of `p = −14…15`.
+
+### WHAT IS NOT BLOCKED
+
+Very little of high value. The bench has been converting *files it does not have* into *questions
+it can answer without them* — addendum 3 is the clearest case: a prediction that was supposed to
+need `CJTwist.2` was decided by computing `5₂`'s colored Jones here instead. **That trick does not
+generalise to the operator**, which is genuinely external data and genuinely decides the erratum.
+
+**The ranked ask is unchanged from R85**: (1) the rest of the `twist.knot.data` page; (2)
+`Apoly.15.11.txt` + `CJ22_rec.m` + `CJ22.txt` from the double-twist page; (3) arXiv:2106.03942;
+(4) the real `CJTwist.2`.
+
+**Repo state:** branch `claude/outside-bench`, both trees clean, 0 commits ahead of origin, every
+certificate in this arc re-verified to run from a fresh container after today's restart.

@@ -347,3 +347,61 @@ C2 is two independent derivations meeting on the same answer.
 genuine power series.** Its opposite-sign partner `6₁ = K_{−2}` gives `−3·m(m+1)/2`, measured
 above. `CJTwist.2` is the file memo 186 **F186-1** asks for and did not receive; when it arrives
 this is decided in one run. Present support: two knots each side, `m = 0…12`.
+
+---
+
+## ADDENDUM 3 (2026-09-09) — **addendum 2's prediction is tested and holds, on the one knot that matters, without the file that was supposed to decide it**
+
+**Certificate** `certificates/cyclotomic_52_prediction.py` · **Output** `outputs/cyclotomic_52_prediction_out.txt`
+**Data** `data/cyclotomic_52.json` · **Gate 5** exact integer arithmetic.
+
+Addendum 2 banked: *"`5₂ = K_2` has `p = +2`. The prediction is `val C_m(5₂) = m` for every `m`
+… `CJTwist.2` … when it arrives this is decided in one run."*
+
+**`CJTwist.2` still has not arrived. It is decided anyway, from a route that touches no table.**
+The colored Jones of `5₂` is computed here by the R-matrix state sum of
+`certificates/park_rmatrix_check.py` on Park's braid word
+`β₂ = σ₂^{−3}σ₁^{−1}σ₂σ₁^{−1}` — the same word `park_large_color.py` used to reproduce every
+block Park prints — and `C_m` solved triangularly out of `J_1…J_9` via GM eq (20).
+
+```
+measured  val C_m(5_2), m = 0..8 :  0 1 2 3 4 5 6 7 8
+predicted                        :  0 1 2 3 4 5 6 7 8
+```
+
+> **CELL → OUTCOME A. The prediction holds.**
+
+### Why it counts
+
+The law was measured on **four** knots — `3₁`, `9₂` (`p > 0`) and `4₁`, `6₁` (`p < 0`). **`5₂` is a
+fifth, it was not used to build the law, the prediction was stated first, and the data comes from
+a different source and a different machine** — the four from Garoufalidis–Sun's tables, this one
+from this bench's own R-matrix on a braid word.
+
+### Controls
+
+| | control | result |
+|---|---|---|
+| C1 | `3₁` through the **same machine and same extraction** gives GM eq (24)'s printed `C_m = q^m`, a single monomial, `m = 0…8` | PASSED |
+| **C2** | **chirality** — `3₁`'s `J_2` and `J_3` out of this machine equal the CJTwist table's own `K_1` entries term for term | PASSED |
+| C3 | round trip: the `C_m` rebuild `J_1…J_9`, both knots | PASSED |
+| C4 | `det = |J_2(−1)| = 7`, so the closure really is `5₂` | PASSED |
+
+**C2 is the control that makes the cell mean anything.** Chirality is the one thing that could
+invert the answer — the mirror would have given a *falling* valuation and a false refutation. Tying
+this machine's convention to Garoufalidis–Sun's `K_p` convention, on the one knot where both are
+held, is what makes "`5₂ = K_2`, `p = +2`" the correct reading rather than its mirror.
+
+### A pattern recorded because it FAILED
+
+`C_m(5₂)` has `1, 2, 4, 8` nonzero terms at `m = 0,1,2,3`, all with coefficient `+1`. That reads
+as `2^m`. **It is not.** `m = 4` gives **15**, not 16, and the coefficients stop being all `+1`
+there too. Four terms of a pattern is not a pattern; nothing is banked from it, and it is written
+down so that no later seat banks it either.
+
+### What it settles, and what it does not
+
+**For `5₂` — the knot memos 183 and 184 are about — `C_K` IS a genuine power series in `(x,q)`.**
+So whatever blocks the naive cyclotomic route there, **it is not convergence.** CELL B is the block,
+and CELL B has still been run on **one** positive knot (`3₁`), because `f_K` is known in closed form
+there and is not known for `5₂` past `f₅`. That scope limit is unchanged.
