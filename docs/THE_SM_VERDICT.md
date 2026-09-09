@@ -1,5 +1,15 @@
 # THE SM VERDICT — where the Standard Model question actually stands
 
+> ## ⚠ CURRENCY 2026-09-09 (Review 56) — three results this document predates (E53 #26)
+>
+> Read with `docs/MAIN_GOAL.md` and `docs/CAMPAIGN_STATUS.md`, which carry them: **(1) the chirality bit (B1294/B1295, MASTERPLAN v3):** the object counts **2** at every
+> fixed locus and every closed closing is spectrally vector-like; **3** arises only from the vector-like ℤ/3 descent — every chirality wall found so far is m004's
+> amphichirality in one face's language (B1296–B1299). **(2) the SM closing's vacuum (B1303):** on the observer-selected closing Y₉ the tree-level vacuum is
+> **SM × U(1)_Z′ (rank 5)**, the Z′ family-non-universal, its first testable consequence a **fork** (`FALSIFIER_REGISTER` P9: M_Z′/g ≳ 154 TeV if a light family is
+> VEV'd, ~2 TeV if the third). **(3) the tower (B1301, B1306 A):** Y₁₂ is a second SM closing and h¹ on every Y_n is a computable 2×2 matrix product, so the
+> selection among the closings (L203) is a finite arithmetic menu with no selector yet. **(4) L204 closed (B1322, 2026-09-09):** the one flat-sector direction the pairing law left open, the V₁₀ at the subregular point, carries genuine non-self-dual E₆ representations with N(27) = 0 — no chirality from the θ-odd frame on any sl₂ germ. The verdict below stands where it does not contradict these four.
+
+
 > ## ⚠ AMENDED 2026-08-08 (B976) — this verdict was written without the B860s
 >
 > The first version of this document omitted **eleven of the twelve cascade-closure arcs**
@@ -32,6 +42,61 @@ nothing here promotes to `CLAIMS.md`.
 > adjoint VEV can give any 27 fermion a mass** — the adjoint half does gauge structure and
 > provably cannot do matter mass.
 
+**FORCE-BY-FORCE, BY NAME:** see **`docs/THE_FOUR_FORCES.md`** (2026-09-06) — strong, weak,
+electromagnetic and gravity each with what the object supplies, its fence, and what it does not.
+Summary: **all four are structurally present and none supplies a number**, and B1265 explains why the
+charge side and the gravity side never meet (**a rank obstruction**: D₂ is inner and derives E₆(−14);
+E₆(−26) has 𝔨 = f₄ of rank 4 and is outer).
+
+**THE PRICE, MEASURED (B1261, 2026-09-06) — read this before any row below.** The programme
+**SPENDS 4 axioms + 10 UNEARNED identifications = 14 unpriced inputs** and **BUYS 0 of the SM's 19
+free parameters** (26 with Dirac neutrinos). **CORRECTED BY B1266: the 14 OVERCOUNTS.** The rows are
+not independent — I-18 and I-23 say *"i.e. paying I-13"*, and I-11 says *"the same map as I-10"* — so
+**10 rows reduce to 7 irreducible sources** and the theory's actual free-input count is **4 + 7 = 11**.
+Both numbers are real: **14 = rows outstanding** (what the ratchet tracks), **11 = irreducible inputs**
+(what compares against the SM's 19). The trade is still **net negative**. **By parameter count the trade is NET NEGATIVE.** By
+structural content it derives what the SM assumes or cannot state (the ℤ₆ global form, hypercharge
+direction, anomaly cancellation, termination) — **and the two currencies do not convert.** The rate
+moves by exactly two operations: **earn an identification (−1)** or **derive a parameter (+1)**.
+`docs/IDENTIFICATION_LEDGER.md` is therefore the **scoreboard**, not bookkeeping.
+
+**AND TWO FRAME CORRECTIONS THE ROWS BELOW MUST BE READ THROUGH:**
+
+- **E65 (2026-09-06) — the sl₂ frame cannot carry chirality.** Generation counting needs **net**
+  chirality h¹(27) ≠ h¹(27̄); **every Sym^n of SL(2) is self-dual**, so any holonomy factoring
+  π₁ → SL(2) → E₆ has 27 ≅ 27̄ and **net chirality identically zero — for every embedding.** The
+  frame that *does* carry chirality is the **θ-odd twisted, full-E₆(ℂ)** one (B582/B576), with a
+  **closing** supplying the bit (B432/B434). **B1260** adds that the closed wall is general (PD on
+  *any* closed oriented 3-manifold) and the cusped **abelian** sector is walled by Alexander
+  reciprocity.
+- **B1290 (2026-09-06) — the CUSPED statement, and the zero is now FOURFOLD.** The index formula
+  `net chirality = χ(M, ∂⁺M)` (cited from the SM-derivation seat's sweep, not derived on main)
+  applied to m004: **χ(M) = 1−2+1 = 0** from SnapPy's own presentation and **χ(T²) = 0**, so
+  **net chirality = −χ(∂⁺M)** and is **zero iff χ(∂⁺M) = 0**. Since the natural pieces of a
+  cusp-torus decomposition are **annuli** (χ = 0), any annular ∂⁺M returns zero **identically** —
+  no representation theory entering. That is a **fourth independent route** to the same zero, after
+  **B1267** (numerically, cusped mapping torus), the **SM seat** (exactly over ℚ(ω): h¹(27) = 3 =
+  h¹(27̄)) and **fc's R61** (θ-equivariant abelian Higgs ⇒ zero) — four benches, four methods, and
+  **none of the first three cited the others**. **The escape is now located, not just named:** a
+  count needs **χ(∂⁺M) ≠ 0**, i.e. ∂⁺M must contain **discs or corners**. **I-26's price is
+  restated to "identify ∂⁺M and compute χ(∂⁺M)"; the row stays UNEARNED.**
+- **B1291 (2026-09-06) — THE PARITY THEOREM: 3 is *excluded* with one cusp, and the escape is ≥2 cusps.**
+  `|Fix| = |det(A−I)|` (translation-independent) and finite order in GL(2,ℤ) gives `|Fix| ∈ {0,1,2,3,4}`
+  with **3** from `(det 1, tr −1)` — so **3 is algebraically reachable and the geometry forbids it**:
+  `Fix(g)` is closed geodesics (no ends) plus geodesic **lines** (two ends each), so with **one** cusp
+  `|Fix on the cusp| = 2·(#fixed lines)`, **always even**. *Three ends in one cusp is odd.* Verified over
+  **1200** one-cusped census manifolds — sets `{(0,4): 1196, (0,): 4}`, **zero odd violations**; m004 has
+  `Sym = D₄`, `|Fix| ∈ {0,4}`. **The control fires:** with **≥2 cusps**, `|Fix| = 1, 2, 3` all occur
+  (**m202 gives both 1 and 3**). **So the obstruction is the CUSP COUNT, not the field** — and E₆ is forced
+  through **ℚ(√−3)** (B727), an **invariant trace field**, hence a **commensurability invariant**. **A
+  multi-cusped manifold commensurable with m004 keeps ℚ(√−3), keeps 2T, keeps E₆, and lifts the
+  obstruction. LEAVE THE KNOT, KEEP THE FIELD** — named, and **unrun**. I-26 still **UNEARNED**.
+- **B1265 — the real form is DERIVED and the fork is a rank obstruction.** D₂ is an involution with
+  signature **32 − 46 = −14**, so the object's own twist **selects E₆(−14)**. D₂ is **inner**, and
+  **E₆(−26)** (Lorentz, compact colour, the graviton) has **𝔨 = f₄ of rank 4** — **outer**, reachable
+  by **no torus element**. That is *why* B1140's two branches share nothing; crossing needs **θ**,
+  which is **trivial on the character variety** (fenced).
+
 Everything below is the elaboration, the evidence, and the honest boundary of that sentence.
 
 ---
@@ -42,7 +107,7 @@ Everything below is the elaboration, the evidence, and the honest boundary of th
 |---|---|
 | an **E₆** boundary, with the build proved isomorphic to **M(𝕆,ℂ)** | banked (B882, B904) |
 | the **measurement cascade** — FMT then SMT — landing on **su(3) ⊕ su(2) ⊕ u(1)³** | banked (B892), verified independently on this bench (B961) |
-| **three generations**, structurally; **D₂** carries the entire generation hierarchy | banked (B897, B928) |
+| **three generations**, structurally; **D₂** carries the entire generation hierarchy | banked (B897, B928) *[scope restored 2026-09-02, B1235 addendum: generation-SHAPED at the tiling level, mechanism-hood FENCED — B897's own words (`docs/LAW_MAP.md:194`); B298: the object does not force three; B891: three sectors of ONE 27. "Banked" = the shape and the carrier (D₂), not three replicated families. **B1255 (2026-09-05) CLOSES THE IN-27 ROUTE PERMANENTLY, and by a dimension count rather than a failed search:** 27 = 16+10+1 carries the 16 with **multiplicity one**, so three copies need dim ≥ 48 > 27. The last candidate index — the three embeddings of the totally real S₃ cubic K = ℚ[ρ]/μ13, which has the **right Galois type** and survives both B324's and B1253's kills — fails the third test: a flavour index must **commute with the gauge grading**, and **[C18, D₂|W18] ≠ 0** with 0 of 6 colored atoms a D₂-eigenspace (I-24 REFUTED). What that non-commutation buys is the **mechanism**: canonically the invariant is generation-DEGENERATE ((x+3)³) and the D₂ twist splits it into HIER's three distinct roots, so the same failure that denies g the flavour role is what lifts the degeneracy. **The count must come from MULTIPLICITY: B1253's h¹ = 3 is now the ONLY surviving route.** **B1256 (2026-09-05) LOCATES THE OPEN INPUT:** the trivial Sym⁰ is an artefact of decomposing under the **principal** sl₂ — **a choice never derived** (B1112 pins the holonomy as PSL(2,ℂ) with a spin lift; the *embedding* into E₆ was assumed). Over all 729 weighted Dynkin labellings — **complete** over sl₂ subalgebras, so absence is non-existence — **four** type h¹ = 3 as three chiral, and **exactly one, the subregular E₆(a₁) (27 = 13+9+5), carries no even-dimensional summand** and so needs no assumption about what Sym^odd contributes to h¹. Registered **I-25 UNEARNED**. **Still open and now named:** which sl₂ the object supplies, and what H¹(M; Sym^odd) contributes under the spin lift.]* |
 | **sin²θ_W = 3/8** at tree/GUT level | banked (B919) — **reproduced, not predicted** (a known GUT relation; the run to M_Z missed at 16σ, B915) |
 | **the global ℤ₆ form** — [SU(3)×SU(2)×U(1)]/ℤ₆ | **DERIVED** (B862): resolves an ambiguity **the SM itself cannot fix** |
 | **hypercharge is the UNIQUE gaugeable U(1)** in the chain's abelian sector | **DERIVED** (B864): ψ, χ anomalous over chiral matter; b = c = 0 forced. *Direction only — normalisation is homogeneous and not derivable* |

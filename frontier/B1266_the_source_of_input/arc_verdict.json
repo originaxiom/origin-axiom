@@ -1,0 +1,20 @@
+{
+ "id": "B1266",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1261",
+  "B1231",
+  "B1263",
+  "B1264",
+  "B1256",
+  "B1265",
+  "B950"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE SOURCE OF INPUT: THE 14 OVERCOUNTS, THE IRREDUCIBLE NUMBER IS 11. On the owner's question 'should we find the source of input'. B1261 measured the trade as 4 axioms + 10 UNEARNED identifications = 14 unpriced inputs against the SM's 19 free parameters -- but that counts ROWS, and the rows are NOT independent: several state IN THEIR OWN EARNING CONDITIONS that they reduce to another. I-18: 'earning it means ... i.e. paying I-13, the listener map u'. I-23: '... i.e. paying I-13 on this instance', its claim reading 'an I-13 instance'. I-11: 'the same map as I-10, restricted to the boundary'. TWO PARSER TRAPS avoided and now asserted as controls: I-25's text references I-1, but I-1 is EARNED and an earned row is not a debt, so counting it would invent a dependency; and I-10/I-11 reference EACH OTHER, a 2-cycle that a naive transitive closure splits into two roots instead of one, reporting 8 sources instead of 7. Union-find over the dependency relation restricted to edges into still-UNEARNED rows gives 10 rows -> 7 IRREDUCIBLE SOURCES: [3] I-13/I-18/I-23 the LISTENER MAP u; [2] I-10/I-11 the FORK; [1] each of I-6 (2T quotient = ALE Gamma), I-7 (Z/3 = boundary CFT module group), I-14 (L3 grading = L4 commensurator unit), I-25 (which sl2 embedding), I-26 (h^1 = the generation count). PRICE RESTATED, BOTH NUMBERS KEPT because they measure different things: 14 = ROWS OUTSTANDING, what the ratchet tracks and what must each be individually discharged; 11 = IRREDUCIBLE INPUTS, the theory's actual free inputs, since earning I-13 discharges I-18 and I-23 with it and earning I-10 discharges I-11. Against the SM's 19 free parameters THE MEANINGFUL COMPARISON IS 11, NOT 14. B1261 is CORRECTED not withdrawn: its accounting method and row count were right, but it did not quotient by the rows' own stated reductions. The trade remains NET NEGATIVE by parameter count -- 11 irreducible inputs bought 0 of 19 -- and the two currencies still do not convert. AND THE SOURCES CLASSIFY BY TYPE: H5-type, where the object supplies a FAMILY and the observer picks a point (I-6 with 2 quotients, I-14 with 85 gradings, I-25 with 4 embeddings, all measured); MISSING BRIDGE (I-10/I-11 the fork, which B1265 shows is a RANK obstruction with the real form DERIVED, and I-26 an index theorem across a dimension gap); THE MASTER (I-13, which three rows reduce to); and one unclassified (I-7)."
+}

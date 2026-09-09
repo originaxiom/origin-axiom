@@ -1,0 +1,49 @@
+{
+  "id": "B1238",
+  "verdict": "PROVED",
+  "claim_one_line": "THE SEAT HARVEST, THIRD RING (codex R037-R039 @ e40d46ad; the physics-seat evaluation branch R39-R41 + the W-E absence sweep @ 1c980e69; nothing merged, every number recomputed here): (1) THE CHARACTER VARIETY IS THE SQUARE-TIME CURVE -- 4*Phi(x,z) = (2z-x^2-1)^2 - (x^2-1)(x^2-5), so B211's X^na is isomorphic over Q to B509's curve d^2=(c^2-1)(c^2-5) in the chart (c,d)=(x,2z-x^2-1), c the same meridian trace; Jacobian from the quartic = [0,0,0,-2,1] = Cremona 40a3 (j 55296/5, torsion Z/4), NOT 40a1 as B211 banked -- B211's point-count evidence is isogeny-invariant and could never distinguish, its 'torsion Z/4' was already 40a3's; 40a1 is the QUOTIENT of X^na by the fixed-point-free involution sigma(x,z)=(-x,x^2+1-z) via (X,Y)=(x^2,x(2z-x^2-1)). B510's 'Jacobian of the branch double cover' had the roles inverted; B509's rank-0 Rationality statement is now about X^na(Q) itself = {(+-1,1), two points at infinity}. Identification EARNED by the map (I-12); it is an identification of curves, the physical meaning of square time is not asserted. (2) BRONZE'S INVARIANT TRACE FIELD is the octic x^8+6x^6-x^5+12x^4-3x^3+8x^2-x+2 (disc 391728981, signature (0,4)), computed two ways at 1000 bits (invariant traces; shape field) with nfisisom agreement -- non-arithmetic decisively; the E55 axis is complete: {golden Q(sqrt-3), silver Q(i)} arithmetic vs {bronze} not. The 'degree 6' at B125/B137/B578-D6/B840 is corrected (a degree-6 field cannot contain the degree-8 invariant field); verdicts unaffected. (3) Three E53 propagations: B362 superseded by B367 at pair (3,4) (#16); B211 never received B1237's B213 correction (#17, mine); the bronze degree at four sites (#18). New class E56: an integer relation accepted on residual alone is no test (own bench instance: 50-digit-coefficient degree-5 'relations' at 170 digits; prior instance B578-D6). (4) codex R037/R038/R039 VERIFIED by independent implementation; fc R40/R41 VERIFIED; fc R39's 'recovered' Z1 script is byte-identical to the live cell B775/cells/P2W4-Z1/compute.py whose results.json holds k<=28 certified -- nothing was lost, rerun 22/22 agrees, no new file. W-E: the two CONTRADICTED verdicts dissolve (B778 supersedes itself in-file; B806 misattributed); 44 SUPERSEDED spot-confirmed; the five qor5up OPEN_LATER items were dispositioned by the B1060 digest. Gate 5 clean. Not a theorem arc: verifications, corrections and one classical identity.",
+  "instrument": false,
+  "depends_on": [
+    "B1237",
+    "B211",
+    "B213",
+    "B509",
+    "B510",
+    "B361",
+    "B362",
+    "B367",
+    "B125",
+    "B137",
+    "B578",
+    "B840",
+    "B1062",
+    "B778",
+    "B1060",
+    "B1025",
+    "B1030",
+    "B775",
+    "B516",
+    "B344",
+    "B1231"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc (main seat), 2026-09-02; sources: codex R037-R039, the physics-seat evaluation branch R39-R41 + W-E",
+  "note": "Harvest cell (integrate-don't-merge). Verification: verification/reproduce.sh (SnapPy + PARI via cypari + sympy + numpy; no Sage; the bronze step ~10-15 min, B1238_SKIP_BRONZE=1 to skip). Locks: tests/test_b1238_seat_harvest_40a3_bronze_octic.py. Addenda + verdict notes: B211, B213, B362, B509, B510, B125, B137, B578, B840, B1062, B778, B1060. IDENTIFICATION_LEDGER I-12 EARNED (UNEARNED stays 5). ERROR_LEDGER E53 #16-#18 + E56. No kill rows. Next cell: codex R040 + the physics-seat branch's R42-R48 / Phase C-D.",
+  "identifications": [
+    {
+      "row": "I-12",
+      "status": "EARNED",
+      "note": "X^na(m004) = the square-time curve (Cremona 40a3) over Q; map: (c,d) = (x, 2z-x^2-1), 4*Phi = d^2-(c^2-1)(c^2-5); acts: point counts, torsion Z/4, j = 55296/5, the special points (2, -3) and (sqrt5, 0). Curves only -- the meaning of square time is not identified."
+    }
+  ],
+  "creates_law": false,
+  "creates_law_reviewed": {
+    "date": "2026-09-02",
+    "arc": "B1238 (cc), at landing",
+    "was": "false (declared at landing)",
+    "decision": "false",
+    "class": "VERIFICATION + CORRECTION + one classical IDENTIFICATION -- the theorem-shaped content (X^na isomorphic over Q to 40a3) is a completing-the-square identity plus PARI's ellfromeqn, registered where identifications live (IDENTIFICATION_LEDGER I-12), not as a programme law; the bronze octic is a number-field computation closing E55's axis; everything else re-derives other seats' results",
+    "basis": "read in full; the self-limits are in the claim (curves, not meanings; no measured value; no new NEGATIVE). If a later arc uses the identity to derive a law, that arc registers it."
+  }
+}

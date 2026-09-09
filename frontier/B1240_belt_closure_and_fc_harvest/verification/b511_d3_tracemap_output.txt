@@ -1,0 +1,19 @@
+trace maps vs matrices, 200 Haar pairs: max discrepancy 1.11e-15
+prec200 (~60 digits)   M10/D10/F80   seed 11: {'classical': 0.927, 'wild': 0.028, 'escaped': 0, 'median_kappa': 1.9999999999999991}
+prec200 (~60 digits)   M10/D10/F80   seed 23: {'classical': 0.92, 'wild': 0.035, 'escaped': 0, 'median_kappa': 1.999999999999994}
+prec200 (~60 digits)   M20/F80       seed 11: {'classical': 0.863, 'wild': 0.085, 'escaped': 0, 'median_kappa': 1.9999999999945408}
+prec200 (~60 digits)   M20/F80       seed 23: {'classical': 0.858, 'wild': 0.087, 'escaped': 0, 'median_kappa': 1.9999999999997469}
+prec200 (~60 digits)   D20/F80       seed 11: {'classical': 0.943, 'wild': 0.02, 'escaped': 0, 'median_kappa': 1.9999999999999998}
+prec200 (~60 digits)   D20/F80       seed 23: {'classical': 0.94, 'wild': 0.02, 'escaped': 0, 'median_kappa': 2.0}
+prec200 (~60 digits)   F100 control  seed 11: {'classical': 0.022, 'wild': 0.782, 'escaped': 0, 'median_kappa': 0.8094237024345751, 'max_kappa_drift': 1.0703586277921164e-58}
+prec200 (~60 digits)   F100 control  seed 23: {'classical': 0.028, 'wild': 0.762, 'escaped': 0, 'median_kappa': 0.6792532395564367, 'max_kappa_drift': 1.2943871777951175e-58}
+double (53 bits)       M10/D10/F80   seed 11: {'classical': 0.605, 'wild': 0.043, 'escaped': 127, 'median_kappa': 1.9999999994937374}
+double (53 bits)       M10/D10/F80   seed 23: {'classical': 0.642, 'wild': 0.02, 'escaped': 119, 'median_kappa': 1.9999999998845208}
+double (53 bits)       M20/F80       seed 11: {'classical': 0.55, 'wild': 0.085, 'escaped': 124, 'median_kappa': 1.999999977391357}
+double (53 bits)       M20/F80       seed 23: {'classical': 0.537, 'wild': 0.122, 'escaped': 112, 'median_kappa': 1.9999987567458701}
+double (53 bits)       D20/F80       seed 11: {'classical': 0.525, 'wild': 0.018, 'escaped': 171, 'median_kappa': 1.999999999906466}
+double (53 bits)       D20/F80       seed 23: {'classical': 0.557, 'wild': 0.025, 'escaped': 162, 'median_kappa': 1.9999999999975424}
+double (53 bits)       F100 control  seed 11: {'classical': 0.022, 'wild': 0.782, 'escaped': 0, 'median_kappa': 0.8094237024345823, 'max_kappa_drift': 2.1316282072803006e-14}
+double (53 bits)       F100 control  seed 23: {'classical': 0.028, 'wild': 0.762, 'escaped': 0, 'median_kappa': 0.6792532395564348, 'max_kappa_drift': 2.5757174171303632e-14}
+REPRODUCES
+B511 rc=0

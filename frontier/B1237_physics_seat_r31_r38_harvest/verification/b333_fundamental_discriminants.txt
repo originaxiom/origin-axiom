@@ -1,0 +1,4 @@
+fundamental discriminants in [-399,-3]: 122; with h = 2: 16
+h=2 list: [-15, -20, -24, -35, -40, -51, -52, -88, -91, -115, -123, -148, -187, -232, -235, -267]
+h(-15) = 2
+B333's '14 of 123' reproduced: False | PARI gives (122, 16)

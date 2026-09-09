@@ -1,0 +1,20 @@
+
+== B869 engine menu at parent SU(6)xSU(2) = su(2) + su(6)  dim 38
+   su(6)->su(5)xu(1)@0                -> su(2) + su(5) + 1 u(1)               dim  28  registerable=True
+   su(6)->su(2)xsu(4)xu(1)@0          -> su(2) + su(2) + su(4) + 1 u(1)       dim  22  registerable=True
+   su(6)->su(3)xsu(3)xu(1)@0          -> su(2) + su(3) + su(3) + 1 u(1)       dim  20  registerable=True
+   strip su(2)#1                      -> su(6) + 1 u(1)                       dim  36  registerable=True
+   cascade (B861 rule) endpoint: su(2) + su(3) + 3 u(1)   path: ['su(2) + su(6)', 'su(6) + 1 u(1)', 'su(5) + 2 u(1)', 'su(2) + su(3) + 3 u(1)']
+
+== B869 engine menu at parent SU(3)^3 = su(3) + su(3) + su(3)  dim 24
+   su(3)->su(2)xu(1)@0                -> su(2) + su(3) + su(3) + 1 u(1)       dim  20  registerable=True
+   su(3)->su(2)xu(1)@1                -> su(2) + su(3) + su(3) + 1 u(1)       dim  20  registerable=True
+   su(3)->su(2)xu(1)@2                -> su(2) + su(3) + su(3) + 1 u(1)       dim  20  registerable=True
+   cascade (B861 rule) endpoint: su(2) + su(3) + 3 u(1)   path: ['su(3) + su(3) + su(3)', 'su(2) + su(3) + su(3) + 1 u(1)', 'su(3) + su(3) + 2 u(1)', 'su(2) + su(3) + 3 u(1)']
+
+== B869 engine menu at parent Pati-Salam = su(2) + su(2) + su(4) + 1 u(1)  dim 22
+   su(4)->su(3)xu(1)@0                -> su(2) + su(2) + su(3) + 2 u(1)       dim  16  registerable=True
+   su(4)->su(2)xsu(2)xu(1)@0          -> su(2) + su(2) + su(2) + su(2) + 2 u(1) dim  14  registerable=False
+   strip su(2)#1                      -> su(2) + su(4) + 2 u(1)               dim  20  registerable=True
+   strip su(2)#2                      -> su(2) + su(4) + 2 u(1)               dim  20  registerable=True
+   cascade (B861 rule) endpoint: su(2) + su(3) + 3 u(1)   path: ['su(2) + su(2) + su(4) + 1 u(1)', 'su(2) + su(4) + 2 u(1)', 'su(2) + su(3) + 3 u(1)']

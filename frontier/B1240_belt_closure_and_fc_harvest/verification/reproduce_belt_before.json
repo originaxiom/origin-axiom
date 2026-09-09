@@ -1,0 +1,477 @@
+{
+ "string_locks": [
+  "tests/test_b1147_clane_harvest.py",
+  "tests/test_b1148_carrier_harvest.py",
+  "tests/test_b1149_meridian_longitude.py",
+  "tests/test_b1150_yukawa_clock_and_family.py",
+  "tests/test_b1153_peripheral_and_superposition.py",
+  "tests/test_b1156_seam_a_gate2.py",
+  "tests/test_b1157_dynamics_null.py",
+  "tests/test_b1158_cloud_wave2_harvest.py",
+  "tests/test_b1159_mssm_debt_ledger.py",
+  "tests/test_b1160_hypercharge_forced.py",
+  "tests/test_b1161_frontier_sweep.py",
+  "tests/test_b1162_mssm_debt_closure.py",
+  "tests/test_b1163_w0_attempt.py",
+  "tests/test_b1164_cc_masterplan.py",
+  "tests/test_b1165_gravity_terminal.py",
+  "tests/test_b1166_charter_attack.py",
+  "tests/test_b1167_seat_harvest.py",
+  "tests/test_b1168_c5_investigation.py",
+  "tests/test_b1169_qualia_parity_synthesis.py",
+  "tests/test_b1171_seam_harvest.py",
+  "tests/test_b1172_lose_nothing_register.py",
+  "tests/test_b1173_digest_partial_close.py",
+  "tests/test_b1174_z2_identification.py",
+  "tests/test_b1175_charter_close_harvest.py",
+  "tests/test_b1180_family_retraction.py",
+  "tests/test_b1182_c4prime_resolved.py",
+  "tests/test_b1184_quine_synthesis.py"
+ ],
+ "inert": [
+  {
+   "runner": "frontier/B1171_seam_harvest/verification/reproduce.sh",
+   "kind": "PINS-TEXT",
+   "says_reproduces": true,
+   "says_record": false
+  },
+  {
+   "runner": "frontier/B1173_digest_partial_close/verification/reproduce.sh",
+   "kind": "PINS-TEXT",
+   "says_reproduces": true,
+   "says_record": true
+  },
+  {
+   "runner": "frontier/B1175_charter_close_harvest/verification/reproduce.sh",
+   "kind": "INERT",
+   "says_reproduces": false,
+   "says_record": true
+  },
+  {
+   "runner": "frontier/B1176_record_surface_wave/verification/reproduce.sh",
+   "kind": "PINS-TEXT",
+   "says_reproduces": true,
+   "says_record": false
+  },
+  {
+   "runner": "frontier/B1177_instrument_bundle/verification/reproduce.sh",
+   "kind": "PINS-TEXT",
+   "says_reproduces": true,
+   "says_record": false
+  },
+  {
+   "runner": "frontier/B1178_l184_lazyfy/verification/reproduce.sh",
+   "kind": "PINS-TEXT",
+   "says_reproduces": true,
+   "says_record": false
+  },
+  {
+   "runner": "frontier/B1179_outreach_and_papers/verification/reproduce.sh",
+   "kind": "PINS-TEXT",
+   "says_reproduces": true,
+   "says_record": false
+  }
+ ],
+ "runners": [
+  {
+   "runner": "frontier/B1147_clane_harvest/verification/reproduce_all.sh",
+   "needed": 22,
+   "missing": [
+    "frontier/B1147_clane_harvest/verification/certificates/a2_glue64.py",
+    "frontier/B1147_clane_harvest/verification/certificates/a4_pin.py",
+    "frontier/B1147_clane_harvest/verification/certificates/a5_parity_lemma.py",
+    "frontier/B1147_clane_harvest/verification/certificates/b2_yukawa.py",
+    "frontier/B1147_clane_harvest/verification/certificates/c1_weyl.py",
+    "frontier/B1147_clane_harvest/verification/certificates/c2_habiro.py",
+    "frontier/B1147_clane_harvest/verification/certificates/c2b_ohtsuki_bridge.py",
+    "frontier/B1147_clane_harvest/verification/certificates/c5_qp1.py",
+    "frontier/B1147_clane_harvest/verification/certificates/cp1_strata.py",
+    "frontier/B1147_clane_harvest/verification/certificates/cusp_beat.py",
+    "frontier/B1147_clane_harvest/verification/certificates/jordan_beat.py",
+    "frontier/B1147_clane_harvest/verification/outputs/a2_glue64_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/a4_pin_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/a5_parity_lemma_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/b2_yukawa_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/c1_weyl_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/c2_habiro_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/c2b_ohtsuki_bridge_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/c5_qp1_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/cp1_strata_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/cusp_beat_out.txt",
+    "frontier/B1147_clane_harvest/verification/outputs/jordan_beat_out.txt"
+   ]
+  },
+  {
+   "runner": "frontier/B1148_carrier_harvest/verification/reproduce_new.sh",
+   "needed": 14,
+   "missing": [
+    "frontier/B1148_carrier_harvest/verification/certificates/carrier.py",
+    "frontier/B1148_carrier_harvest/verification/certificates/fixed_twin.py",
+    "frontier/B1148_carrier_harvest/verification/certificates/hitind.py",
+    "frontier/B1148_carrier_harvest/verification/certificates/kappa_beat.py",
+    "frontier/B1148_carrier_harvest/verification/certificates/one_bit.py",
+    "frontier/B1148_carrier_harvest/verification/certificates/only_spinor.py",
+    "frontier/B1148_carrier_harvest/verification/certificates/yukawa_carrier.py",
+    "frontier/B1148_carrier_harvest/verification/outputs/carrier_out.txt",
+    "frontier/B1148_carrier_harvest/verification/outputs/fixed_twin_out.txt",
+    "frontier/B1148_carrier_harvest/verification/outputs/hitind_out.txt",
+    "frontier/B1148_carrier_harvest/verification/outputs/kappa_beat_out.txt",
+    "frontier/B1148_carrier_harvest/verification/outputs/one_bit_out.txt",
+    "frontier/B1148_carrier_harvest/verification/outputs/only_spinor_out.txt",
+    "frontier/B1148_carrier_harvest/verification/outputs/yukawa_carrier_out.txt"
+   ]
+  },
+  {
+   "runner": "frontier/B1149_meridian_longitude_harvest/verification/reproduce.sh",
+   "needed": 6,
+   "missing": [
+    "frontier/B1149_meridian_longitude_harvest/verification/certificates/depth_lock.py",
+    "frontier/B1149_meridian_longitude_harvest/verification/certificates/longitude_lock.py",
+    "frontier/B1149_meridian_longitude_harvest/verification/certificates/trace_three.py",
+    "frontier/B1149_meridian_longitude_harvest/verification/outputs/depth_lock_out.txt",
+    "frontier/B1149_meridian_longitude_harvest/verification/outputs/longitude_lock_out.txt",
+    "frontier/B1149_meridian_longitude_harvest/verification/outputs/trace_three_out.txt"
+   ]
+  },
+  {
+   "runner": "frontier/B1150_yukawa_clock_and_family/verification/reproduce.sh",
+   "needed": 4,
+   "missing": [
+    "frontier/B1150_yukawa_clock_and_family/verification/certificates/family_yukawa.py",
+    "frontier/B1150_yukawa_clock_and_family/verification/certificates/yukawa_clock.py",
+    "frontier/B1150_yukawa_clock_and_family/verification/outputs/family_yukawa_out.txt",
+    "frontier/B1150_yukawa_clock_and_family/verification/outputs/yukawa_clock_out.txt"
+   ]
+  },
+  {
+   "runner": "frontier/B1153_peripheral_and_superposition/verification/reproduce.sh",
+   "needed": 4,
+   "missing": [
+    "frontier/B1153_peripheral_and_superposition/verification/certificates/c4b_superposition.py",
+    "frontier/B1153_peripheral_and_superposition/verification/certificates/peripheral_identity.py",
+    "frontier/B1153_peripheral_and_superposition/verification/outputs/c4b_superposition_out.txt",
+    "frontier/B1153_peripheral_and_superposition/verification/outputs/peripheral_identity_out.txt"
+   ]
+  },
+  {
+   "runner": "frontier/B1156_seam_a_gate2/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1157_dynamics_null/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1158_cloud_wave2_harvest/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1159_mssm_debt_ledger/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1160_hypercharge_forced/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1161_frontier_sweep/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1162_mssm_debt_closure/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1163_w0_attempt/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1164_cc_masterplan/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1165_gravity_terminal/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1166_charter_attack/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1167_seat_harvest/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1168_c5_investigation/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1169_qualia_parity_synthesis/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1170_arena_rescope/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1171_seam_harvest/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1172_lose_nothing_register/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1173_digest_partial_close/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1174_z2_identification/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1175_charter_close_harvest/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1176_record_surface_wave/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1177_instrument_bundle/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1178_l184_lazyfy/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1179_outreach_and_papers/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1180_family_retraction/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1181_amphichirality_closure/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1182_c4prime_resolved/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1183_one_class_theorem/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1184_quine_synthesis/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1185_yukawa_three_mechanisms/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1186_family_is_112/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1187_depth_closure/verification/reproduce.sh",
+   "needed": 5,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1188_grand_retrieval/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1189_close_loop_batch1/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1198_lee_motives_retrieval/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1200_one_polynomial/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1202_already_banked_check/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1203_two_probes/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1204_forcing_shape/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1205_the_dimension_ledger/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1206_one_condition_short/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1207_slow_lane_discharge/verification/reproduce.sh",
+   "needed": 4,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1208_cross_seat_harvest/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1209_lee_verification/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1210_paper_spine_sweep/verification/reproduce.sh",
+   "needed": 2,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1211_declaration_gap/verification/reproduce.sh",
+   "needed": 2,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1212_two_replies/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1213_claim_base_rebuilt/verification/reproduce.sh",
+   "needed": 2,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1214_creates_law_reaudit/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1215_codex_transcript_harvest/verification/reproduce.sh",
+   "needed": 2,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1216_parameter_closure_run1/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1217_seat_integration/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1218_open_claim_sweep/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1219_reverse_sweep/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1220_campaign_premise_audit/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1221_global_form_path_independence/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1222_symmetry_vanishing_thesis/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1224_amphichiral_cs_torsion/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1225_no_canonical_selector/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1235_two_seat_harvest/verification/reproduce.sh",
+   "needed": 7,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1236_a1_landing_exact/verification/reproduce.sh",
+   "needed": 1,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1237_physics_seat_r31_r38_harvest/verification/reproduce.sh",
+   "needed": 7,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1238_seat_harvest_40a3_bronze_octic/verification/reproduce.sh",
+   "needed": 0,
+   "missing": []
+  },
+  {
+   "runner": "frontier/B1239_quarter_class_is_cusp_local/verification/reproduce.sh",
+   "needed": 5,
+   "missing": []
+  }
+ ]
+}

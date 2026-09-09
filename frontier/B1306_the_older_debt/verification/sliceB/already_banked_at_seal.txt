@@ -1,0 +1,29 @@
+### already_banked: tower law positive half odd order eigenvalue half-deck class theorem
+           THE O3 GATE APPLIED RETROACTIVELY -- B922's priority sentence corrected. Review 40 found the asymmetry: B940's prereg invented the O3 gate (no priority word until the sweep reaches MathSciNet/zbMATH grade) and honoured i
+  *** [ 6 terms] NEGATIVE  B979_L131_A7
+           L131 -- IS A7 DISCHARGE-ABLE? NO: A7 IS LOAD-BEARING, and the answer was already banked in section 5 of the SAME DOCUMENT whose section 4 B949 was reading when it registered the lead. No preregistration, deliberately: th
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+### already_banked: colored Jones tail false theta 5_2 twist knot
+           V-2 COMPACT COLOR (value-campaign cell, answering C-AR1): does any sign-lift give COMPACT su(3) color? NO over the LINEAR torsor, and the negative names its own successor. Exhaustive over 48 verified elements (2 Chevalle
+  *** [ 3 terms] PROVED    B1127_antilinear_completion
+           V-2' THE ANTILINEAR COMPLETION (value-campaign cell; the owner's 'another-level measurer' for compact color): does the object's antilinear structure supply compact su(3) color? MATH (verified, deterministic re-run): YES 
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+### already_banked: quantum A-polynomial erratum m(5_2) annihilate F_K blocks
+           L180 THE MAKE-OR-BREAK (the global-object thesis's decisive cell; two-bench): are the Kashaev tower J_N(4_1)'s sub-leading coefficients arithmetic over the trace field Q(sqrt-3)? EULER-STRUCTURE-CONFIRMED at TWO orders. 
+  *** [ 1 terms] PROVED    B1131_koide_no_bridge
+           P-KOIDE (value-probing wave follow-on, owner-directed; sealed prereg): is |det phi|=2/3 (B904 E6-iso determinant) -> Koide's lepton-mass 2/3 a real bridge or a coincidence? NO-BRIDGE -- the instrument was built and FAILE
+
+  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).
+### already_banked: second-order obstruction V10 subregular integrable formal
+           THE WALLS RE-SORTED: FOUR SPECIFICATIONS/BOUNDARIES, ONE REAL WALL -- the reclassification the owner diagnosed, chat1 sharpened, and cc3 independently derived on-branch within twenty-four hours, executed as the editorial
+  *** [ 1 terms] PROVED    B1016_l150_junction
+           L150 CLOSED: SEPARATE -- THE VALUE LAYER HAS TWO INDEPENDENT CHANNELS, AND NOW WE KNOW WHICH LAW GOVERNS WHICH. Sealed 59f51572, declared prior SEPARATE, HELD, by two exact obstructions, zero anchors consumed. J1 recompu
+
+  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).
+### absence_sweep: figure 8 knot
+      ca850d6b:SM_TO_CC_2026-09-08_THE_TOWER.md
+  deleted-in-history paths matching: 0
+  working tree (untracked included): 0
+VERDICT: PRESENT -- on 1 head(s). 'We don't have it' may NOT be written.

@@ -1,5 +1,7 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Review 56 currency (2026-09-09, anchor `eb9db7fa`):** in-window: **L200–L205 registered**; the harvest arcs B1298–B1307 verified every seat number they took (sm:B1280–B1283, sm:B1300–B1304, fc R49/R69–R72, audit R0–R20, cloud memos 156–182); the harvest-debt gate (B1307) now counts the seats' unread items (428 at the first run) and the review escalated them by name (R56-1). Same-day continuation is recorded per lead below with its arc.
+
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** L175 **CLOSED** (B1110) and L57 **ANSWERED-AND-REPOSED** (B364), both found by `scripts/checks/open_claim_sweep.py` rather than by anyone suspecting them. Carried open: R53-2's cross-seat waits (codex R023/MC1/R018; cloud C6), R53-3's unswept remainder (~973 arcs outside every screen), R53-5 (**λ's acceptance gate** — the ledger's weakest row).
 
 > **Review 52 currency (2026-08-28, anchor 8aa71f07):** the grand-computation campaign — L188 CLOSED (B1199); **L190's direction corrected** (reach DEFICIT, B1188); the eight-item existence-audit list dispositioned (B1194–B1196); the Φ₃ unification (B1200). Next lead: **L192**.
@@ -74,7 +76,7 @@ the repo is recorded in the "disposition" column so duplicates are not re-run an
 | **L31** | **Volume → Borromean: the geometric limit** — *why* do the metallic bundle volumes converge to `2·v_oct` (B207)? Identify the geometric limit manifold `N` that `RᵐLᵐ` Dehn-fills (the Borromean complement, a cover/quotient, or another 2-octahedron manifold). | MATH (hyperbolic geom) | ★★ | **DONE (B211, V211).** Drilling the short core geodesics of `RᵐLᵐ` returns — `m`-independently (`m=8,10`) — the **Borromean rings complement** (`6³₂=L6a4=t12067`, two ideal octahedra, vol `2·v_oct=7.32772475`). So the metallic bundles are the large-twist Dehn fillings of one fixed 2-octahedron parent → the volume ceiling is forced (corrects B207's then-unearned "→Borromean"). Novelty UNCHECKED (likely folklore). |
 | **L32** | **The Chern–Simons / complex-volume spectrum** — `CS(RᵐLᵐ)` across the family (figure-eight `CS=0`, amphichiral), unifying the chirality work (B128–147) with the volume work (B207). | MATH (hyperbolic geom) | ★ | **DONE (B211, V211).** Every `RᵐLᵐ` (`m=1..6`) is **amphichiral** (isometric to its orientation-reversal = `True`) ⇒ `CS=0` (`|CS|<1e-15`). The family is uniformly amphichiral → the candidate scale-carrier vanishes for *all* `m` (firewall L15 holds family-wide), unifying B128–147 with B207. |
 | **L33** | **Period ↔ Pisano** — is the WRT level-period `P(m)` (B204) a Pisano-type period of the metallic Fibonacci recurrence `x_{n+1}=m·x_n+x_{n-1}`? Would explain B204's period number-theoretically, not just via Gauss sums. | MATH (arithmetic) | ★★ | **DONE (B211, V211).** Yes — `π(m, m²+4)=4Q(m)` and `P_WRT(m)=(m/4)·π(m,m²+4)` (verified `m=1..12`). The WRT level-period is a Pisano period of `x_{n+1}=m·x_n+x_{n-1}` on the core `Q(m)` — a number-theoretic reading complementary to B204's Gauss-sum proof. Novelty UNCHECKED (Pisano standard; the WRT bridge is the framing). |
-| **L34** | **The character variety's Weil zeta over `𝔽_p`** — point-counts / the zeta function of the figure-eight (and metallic) character variety over finite fields: the arithmetic of the *variety itself* (not the monodromy), an angle never touched. | MATH (arithmetic geom) | ★★ | **DONE (B211, V211) — the headline.** Derived (not asserted) the figure-eight non-abelian character variety `Φ(x,z)=z²−(x²+1)z+(2x²−1)` (verified at the complete structure `x=2→u²+u+1`, roots `ω`); it is an irreducible genus-1 curve and `#X^{na}(𝔽_p) = p−1−a_p(E)` **exactly** (23 good primes `p≤97`) for `E: y²=x(x−1)(x−5) =` Cremona **`40a1`** (conductor 40, `j=148176/25`, **non-CM**, rank 0). So the variety's arithmetic is a weight-2 newform of level 40 — distinct from the `ℚ(√−3)` trace field (which lives only at `x=2`; bad primes `{2,5}` vs ram. `{3}`). Novelty UNCHECKED (polynomial classical; the `40a1`/Weil-zeta framing is the new corner). Metallic `m≥2` (non-2-bridge) is a follow-on. **m≥2 attacked 2026-07-01 → DORMANT (data recorded).** The `40a1` was a *2-bridge Riley-model* artifact (needs the knot meridian). The intrinsic object — the trace-map fixed locus `Fix(φ_m)` on `(x,y,z)` — is **genus-0 rational for m=1** (`#Fix(𝔽_p)=p−1` exactly; `{x=z, y=z/(z−1)}`), while silver `m=2`/bronze `m=3` give **irregular, p-dependent** counts (reducible loci), so **no clean single elliptic curve/conductor** emerges from the fixed-locus route. The full canonical-component arithmetic (with the monodromy trace, the true B211 analog) for silver/bronze is **NEEDS-SPECIALIST** — R7-confirmed: Baker–Petersen (arXiv:1211.4479) cover only the *tunnel-number-one* `R·L^{n+2}` family (fig-8 = their n=−3), **not** the symmetric `RᵐLᵐ` words, and no LMFDB labels exist. |
+| **L34** | **The character variety's Weil zeta over `𝔽_p`** — point-counts / the zeta function of the figure-eight (and metallic) character variety over finite fields: the arithmetic of the *variety itself* (not the monodromy), an angle never touched. | MATH (arithmetic geom) | ★★ | **DONE (B211, V211) — the headline.** Derived (not asserted) the figure-eight non-abelian character variety `Φ(x,z)=z²−(x²+1)z+(2x²−1)` (verified at the complete structure `x=2→u²+u+1`, roots `ω`); it is an irreducible genus-1 curve and `#X^{na}(𝔽_p) = p−1−a_p(E)` **exactly** (23 good primes `p≤97`) for `E: y²=x(x−1)(x−5) =` Cremona **`40a1`** (conductor 40, `j=148176/25`, **non-CM**, rank 0) [B1238, 2026-09-02: the character variety IS the square-time curve — Cremona **40a3**, not 40a1; 4Φ = (2z−x²−1)² − (x²−1)(x²−5); 40a1 is its quotient by σ(x,z) = (−x, x²+1−z); the point counts are isogeny-invariant and stand; I-12 EARNED]. So the variety's arithmetic is a weight-2 newform of level 40 — distinct from the `ℚ(√−3)` trace field (which lives only at `x=2`; bad primes `{2,5}` vs ram. `{3}`). Novelty UNCHECKED (polynomial classical; the `40a1`/Weil-zeta framing is the new corner). Metallic `m≥2` (non-2-bridge) is a follow-on. **m≥2 attacked 2026-07-01 → DORMANT (data recorded).** The `40a1` was a *2-bridge Riley-model* artifact (needs the knot meridian). The intrinsic object — the trace-map fixed locus `Fix(φ_m)` on `(x,y,z)` — is **genus-0 rational for m=1** (`#Fix(𝔽_p)=p−1` exactly; `{x=z, y=z/(z−1)}`), while silver `m=2`/bronze `m=3` give **irregular, p-dependent** counts (reducible loci), so **no clean single elliptic curve/conductor** emerges from the fixed-locus route. The full canonical-component arithmetic (with the monodromy trace, the true B211 analog) for silver/bronze is **NEEDS-SPECIALIST** — R7-confirmed: Baker–Petersen (arXiv:1211.4479) cover only the *tunnel-number-one* `R·L^{n+2}` family (fig-8 = their n=−3), **not** the symmetric `RᵐLᵐ` words, and no LMFDB labels exist. |
 | **L35** | **Silver (and generic) congruence/holonomy shadow — COMPUTE it (B210 silver-framing correction)** — a parallel review flagged that "silver = degenerate prime 2 → S₃ both sides" was *assumed by analogy*, never computed. Already found this session: `⟨R,L⟩ mod 2 = SL(2,𝔽₂)=S₃` (the *group* shadow) but the silver *monodromy* `R²L² ≡ I mod 2` (**trivial**, not S₃); and the m136 hyperbolic holonomy is **not ℤ[i]-integral** (`|tr(a)|²≈2√2`, full trace field ⊋ invariant `ℚ(i)`), so the naive "holonomy mod (1+i)→S₃" does not go through. Remaining: the integral squares-subgroup model for the genuine hyperbolic shadow + the L29 generic-shadow table (silver 𝔽₂, bronze SL(2,𝔽₁₃), …). | MATH (arithmetic / rep theory) | ★★ | **DONE (B212, V213).** Computed: (1) `⟨R,L⟩ mod N = SL(2,ℤ/N)` (golden 120=2I, silver 384, bronze 2184); (2) silver `R²L² ≡ I mod 2` — **trivial, not S₃** (the S₃ is the `⟨R,L⟩` group); (3) the law `RᵐLᵐ≡I mod p ⇔ p∣m ⇔ p=2,m even` (proved); (4) silver hyperbolic shadow trace-**degenerate** (square-traces `2,±2i ≡0 mod (1+i)`, no order-3), image-group a named quaternion-order residual. **Corrected B210's silver line** (was assumed S₃-both-sides). The asserted-not-computed item a parallel review predicted; parallels the B206/V212 golden-uniqueness fix. |
 | **L36** | **The B204 cross Gauss-sum period lemma → period law fully `[proved]`** — B204's `per\|Z(a,b)\|=lcm(a,b)(4+ab)/gcd(4+ab,4)` is `[periodicity proved; one lemma from closure]`: the diagonal `lcm(a,b)` is proved, the cross factor `L_c` (the `(4+ab)/gcd(4+ab,4)` 2-adic part) is only verified per cell via numerical `sub_period(cross_closed,…)`. Derive a **closed form** for `L_c` (a divisor of `4+ab` set by `gcd(4+ab,4)`) and prove `lcm(lcm(a,b),L_c)=lcm(a,b)(4+ab)/gcd(4+ab,4)` symbolically. | MATH (quantum topology / arithmetic) | ★★★ | **DONE — CLOSED to `[proved]` (B204 update, V214).** The cross-period closed form is `L_c=(4+ab)/2^{min(v₂a,v₂b,2)}`. Proof (exact integer arithmetic, no numerics): the cross Gauss sum `Γ_t(N)=∑ c_m ω^{Nm}` (counts `c_m≥0`, no cancellation) has period **exactly** `2D/gcd(2D,content)`; the **content `= 2^{min(v₂a,v₂b,2)}`** (every term of `Q_t` has `v₂≥c`, the `4t y₁y₂` cross capping at 2; no odd prime divides it since `p∣a,p∣b ⇒ p∣4`); and `lcm(lcm(a,b),L_c)=lcm(a,b)·D/gcd(D,4)` (9-case 2-adic identity, verified 200×200). So **`per\|Z(a,b)\| = lcm(a,b)(4+ab)/gcd(4+ab,4)` is PROVED.** a parallel review's "highest-value next step," closed. |
 | **L37** | **Synthesis consolidation — B210 dual-McKay + B211 results + the V212 correction + on-site (kill the "agreed-then-dropped" pattern, all layers)** — (B) `SYNTHESIS.md` §9 states only golden→`E₈` and *refutes* `E₆` ("arithmetically impossible `3∤m²+4`") — true only for the **monodromy** arithmetic; B210 shows golden carries `E₆` via its **hyperbolic** field `ℚ(√−3)` (figure-eight = two ideal tetrahedra → `2T=E₆`); add the reconciling addendum (golden = E₆ **and** E₈ via two arithmetics; Arnold trinity). (B0) **propagate V212:** §9 still says golden is "the **unique** exceptional McKay group" — the overclaim the re-audit caught → "golden **minimal/fundamental** of the `ℚ(√5)/E₈` family." (B1) **fold in all of B211** (a parallel review catch): Borromean parent (L31), 40a1 Weil zeta (L34), Pisano period (L33), family-wide amphichirality (L32) — none currently in the synthesis. (C) weave on-site uniqueness (B200/R2) into SYNTHESIS + the S038 table. | MATH (exposition) | ★★ | **DONE (V215).** SYNTHESIS §9: (B0) "unique exceptional McKay group" → "**minimal/fundamental** of the ℚ(√5) family" (V212 propagated); (B) **dual-McKay paragraph** — golden carries E₆ (hyperbolic ℚ(√−3), tetrahedral 2T) **and** E₈ (monodromy ℚ(√5), icosahedral 2I), reconciling "E₆ impossible (monodromy) vs present (hyperbolic)", Arnold trinity; (B1) **all of B211** folded in — the variety-itself arithmetic (40a1 Weil zeta), Pisano period, family-wide amphichirality/CS=0, the Borromean parent; (B212) silver-degeneracy parenthetical. (C) on-site uniqueness (B200) → SYNTHESIS §7 + the S038 table. **Caught + fixed the next-layer drop:** §7 still listed the B204 cross-lemma as open — now marked closed (L36). Completeness guard satisfied: every banked B204–B212 has a synthesis touchpoint. |
@@ -84,7 +86,7 @@ the repo is recorded in the "disposition" column so duplicates are not re-run an
 | **L41** | **The golden anyon-chain CFT, reproduced in-sandbox (the B218 residual)** — B218 banked the *exact* Jones-index selection (`λ_m<2 ⇔ m=1`; golden = the Fibonacci anyon, the unique anyon-realizable metallic mean) but **cited** the chain-level emergent CFT (`c=7/10` tricritical Ising AFM / `c=4/5` 3-state Potts FM, Feiguin et al. PRL 98 160409 (2007)) rather than reproducing it — my first anyon-chain Hamiltonian gave a *gapped* artifact (`c≈0`) and the XXZ proxy at `Δ=λ_m/2` could not resolve the near-critical gaps at `L≤16`. Residual: build a **correct** Fibonacci golden-chain Hamiltonian (the F-matrix / fusion-tree projector model, AFM coupling) and extract `c=7/10` from finite-size scaling (entanglement `S=(c/6)log L` on the critical chain, or the energy gap). Closes the one in-sandbox gap in the multiplicity probe. | MATH (quantum algebra / numerics) | ★★ | **CLOSED (B220, V223).** The corrected ED reproduces it: the golden chain (Fibonacci anyons, fusion-path basis, Lucas Hilbert dim), local term = the identity-channel projector with the rank-1 `(τ,τ)` block `P=F·diag(1,0)·F` — the prior bug **dropped the off-diagonal `φ⁻³ᐟ²`** (the kinetic term), giving a gapped artifact. `H_AFM=−Σĥ_i` is **gapless** (`gap·N≈0.86` const) with entanglement `c_ent≈0.71` (mean `N≥16` = 0.7135) = **tricritical Ising `c=7/10`**, distinct from 0 and 0.8. FM → 3-state Potts `c=4/5` consistent but noisier. Upgrades B218 `c=7/10` from `[cited]` to `[reproduced]`. |
 | **L42** | **The golden chain's emergent SUPERSYMMETRY — clarified end-to-end** — the thing hiding in plain sight: `c=7/10` is not "a number", it is the tricritical Ising `M(4,5)` = the **first N=1 superconformal minimal model**, so golden multiplicity produces emergent SUSY. Acts: identity (coset/superconformal, `content=m`); operator content (the supercurrent); lattice vs emergent. | MATH (quantum algebra / CFT) | ★★★ | **DONE (B221/B222/B223, V224–V226).** `c=7/10` = first N=1 SCFT by three exact derivations (B221, `[exact]`); the finite-size spectrum reproduces the full TCI content **incl. the `h=3/2` supercurrent** (B222, NS `[reproduced]`, R `[consistent]`); the SUSY is **emergent/IR-only** (no conserved `(−1)^F`) while exact lattice N=2 SUSY lives on the Fendley–Schoutens sibling (B223, `[TESTED-NEGATIVE]` + `[exact]`). `content(RᵐLᵐ)=m` unifies L39/B212/B204. **AND (B224, V227): golden is the UNIQUE metallic mean whose chain is supersymmetric** — among su(2)_k chains (→ M(k+1,k+2)) only k=3 (=M(4,5)) is superconformal, and k=3 is the golden level (n=5=m²+4); silver m=2→c=25/28, bronze m=3→c=25/26, none SUSY. Closes the circle (golden minimal/exceptional/least-hierarchical/uniquely-SUSY, all via 5=m²+4). Firewalled reading: `speculations/S040`. Physics classical (Friedan–Qiu–Shenker; Feiguin 2007; Fendley–Schoutens); novelty UNCHECKED. |
 | **L43** | **The two-SUSY connection — is the figure-eight's licensed 3d-3d SUSY the same as its emergent chain SUSY?** — the same golden/figure-eight object carries SUSY twice: the licensed 3d-3d SUSY (`K006`, `M_SUSY≅M_flat`, `T[4₁]` unbroken, Cho–Gang–Kim) and the emergent N=1 chain SUSY (B221/B222). The bridge: `SU(2)₃` is **both** the figure-eight's Chern–Simons boundary data **and** the coset denominator of `c=7/10`. Are they one structure or two faces? | MATH (quantum topology / CFT, physics-boundary) | ★★ | **RESOLVED (B226, V229) — TWO FACES, separated by the hyperbolic/non-hyperbolic divide.** Literature-grounded scout: 2D Virasoro minimal models incl. the **supersymmetric** ones (the TCI) are realized as 3d bulk theories from **NON-hyperbolic (Seifert/torus-knot)** 3-manifolds via `T[SU(2)]`/`SU(2)_k` (Gang et al., arXiv:2405.16377 — TCI `M(4,5)` via Seifert `S²((5,−1),(4,5),(3,1))`; 2511.04524=JHEP 03(2026)066 SUSY minimal models; 2512.23122 torus-knot VOAs). The **figure-eight is hyperbolic** → its 3d-3d theory `T[4₁]` is the complex-SL(2,ℂ)/3d-gravity object (`Vol=2.03`, arXiv:2401.13900), **not** a minimal model. So the genuine shared ingredient is `SU(2)₃` (via `T[SU(2)]`), NOT the figure-eight's geometry: the golden-chain CFT (TCI) lives on the non-hyperbolic/minimal-model side, the figure-eight (golden m=1 bundle) on the hyperbolic/3d-gravity side — two distinct 3-manifolds in the same Class-R framework. (Rhymes with B217's closed-Sol/cusped-hyperbolic split.) Exact `4₁` 3d-3d→2d reduction stays `NEEDS-SPECIALIST`; the qualitative answer is settled. Firewalled (S040). |
-| **L44** | **Conductor decomposition: does 40 = 2³·5 split as (octahedral parent) × (golden filling)?** — a parallel review's hypothesis: the figure-eight character variety 40a1's bad primes {2,5} decompose as {2} from the octahedral ℚ(i) parent (Whitehead/Borromean) and {5} from the golden monodromy filling. | MATH (arithmetic geom / hyperbolic geom) | ★★★ | **RESOLVED (B225, V228) — HALF confirmed, HALF refuted.** Pipeline now validated (reproduces B211's 40a1, bad {2,5}; the earlier bug was the Riley word's starting generator). **SOLID: 5 = the golden filling** — branch locus `(x²−1)(x²−5)`, the `x²=5` branch = the golden monodromy discriminant (`t²−4=5` for trace 3). **REFUTED: 2 = octahedral parent** — prime 2 appears in EVERY 2-bridge knot, twist (Whitehead fillings 4_1,5_2,6_1,7_2) AND **non-twist** (NOT Whitehead fillings: 6_2,6_3,7_6,8_3,8_8,9_4); so 2 does not discriminate the octahedral parent — it is **universal** to 2-bridge character varieties (the naive `(x²−1)` parabolic mechanism is also refuted — only in the figure-eight). **So `40` does NOT decompose as `(parent 2)×(filling 5)`.** Foundations verified (Whitehead/Borromean ℚ(i) prime 2; fig-8 ℚ(√−3) prime 3; golden ℚ(√5) prime 5). Method limit: higher-genus bad primes overcounted by disc-of-disc (clean only 4_1 {2,5}, 5_2 {2,7}); genuine higher conductors = Jacobian-conductor NEEDS-SPECIALIST. Clean verify-don't-trust outcome on a parallel review's "game-changer": one half real, one half not. |
+| **L44** | **Conductor decomposition: does 40 = 2³·5 split as (octahedral parent) × (golden filling)?** — a parallel review's hypothesis: the figure-eight character variety 40a1's bad primes {2,5} decompose as {2} from the octahedral ℚ(i) parent (Whitehead/Borromean) and {5} from the golden monodromy filling. | MATH (arithmetic geom / hyperbolic geom) | ★★★ | **RESOLVED (B225, V228) — HALF confirmed, HALF refuted.** Pipeline now validated (reproduces B211's 40a1, bad {2,5}; the earlier bug was the Riley word's starting generator) [B1238: the variety is 40a3; bad primes are class-wide, the decomposition question is unaffected]. **SOLID: 5 = the golden filling** — branch locus `(x²−1)(x²−5)`, the `x²=5` branch = the golden monodromy discriminant (`t²−4=5` for trace 3). **REFUTED: 2 = octahedral parent** — prime 2 appears in EVERY 2-bridge knot, twist (Whitehead fillings 4_1,5_2,6_1,7_2) AND **non-twist** (NOT Whitehead fillings: 6_2,6_3,7_6,8_3,8_8,9_4); so 2 does not discriminate the octahedral parent — it is **universal** to 2-bridge character varieties (the naive `(x²−1)` parabolic mechanism is also refuted — only in the figure-eight). **So `40` does NOT decompose as `(parent 2)×(filling 5)`.** Foundations verified (Whitehead/Borromean ℚ(i) prime 2; fig-8 ℚ(√−3) prime 3; golden ℚ(√5) prime 5). Method limit: higher-genus bad primes overcounted by disc-of-disc (clean only 4_1 {2,5}, 5_2 {2,7}); genuine higher conductors = Jacobian-conductor NEEDS-SPECIALIST. Clean verify-don't-trust outcome on a parallel review's "game-changer": one half real, one half not. |
 | **L45** | **The metallic SUSY chains → a family of Seifert 3-manifold duals (the Gang et al. 3d-3d program)** — emerged from the L43 scout (B226). B224 gives the metallic chain at index `m` → the minimal model `M(m²+3, m²+4)` (`k=m²+2`). Gang–Kang–Kim (arXiv:2405.16377, VERIFIED real) realize `M(P,Q) ↔` the Seifert space `S²((P,P−R),(Q,S),(3,1))` with `PS−QR=1`. So **each metallic SUSY chain has an explicit Seifert-3-manifold dual** with exceptional fibers `(m²+3, ·), (m²+4, ·), (3,1)`. Compute the metallic Seifert family and look for a metallic pattern in the 3-manifold invariants (Seifert data, the `T[SU(2)]` levels) — tying B224 to the active 3d-3d minimal-model program. Also: the figure-eight's own Ẑ-invariant / two-variable series (Gukov et al., the *hyperbolic* side). | MATH (quantum topology / CFT, physics-boundary) | ★★ | **DONE (B227, V230).** Recipe verified from arXiv:2405.16377: `M(P,Q) ↔` Seifert `S²((P,P−R),(Q,S),(3,1))`, `PS−QR=1`. Metallic family `P=m²+4` (discriminant), `Q=m²+3`, solved by **`(R,S)=(1,1)` for all m** → **`S²((m²+4, m²+3),(m²+3,1),(3,1))`** (m=1 reproduces the paper's TCI, `|H₁|=83`). **Pattern:** cone orders `(m²+4, m²+3, 3)` — largest = the **metallic discriminant** `m²+4` (5,8,13,20,29,…); `|H₁| = 4m⁴+28m²+51 = (2m²+7)²+2`; all base orbifolds hyperbolic → `SL₂~`/non-hyperbolic 3-manifolds (consistent with B226). So the metallic SUSY chains = the subfamily of unitary-minimal-model Seifert spaces with largest cone order = a metallic discriminant; ties B224 to the 3d-3d program. **Follow-on ANSWERED (B228, V231) at the coset level (no Seifert recipe needed):** the ordinary coset `(·×SU(2)₁)/SU(2)_{m−1}` and the N=1 super coset `(·×SU(2)₂)/SU(2)_{m'}` coincide **uniquely** at `(m,m')=(4,3)` = the TCI, denominator `SU(2)₃` (golden); so golden is the **unique metallic chain whose coset is also a super-minimal-model coset** — the structural mechanism behind B224. **Explicit super-Seifert ALSO DONE (B229, V232):** both recipes share the form `S²((P,P−R),(Q,S),(3,1))`, differing only by the determinant = the SU(2) level (ordinary `PS−QR=1`=SU(2)₁; super `PS−QR=2`=SU(2)₂, Baek–Kang arXiv:2511.04524). TCI ordinary M(4,5)→`S²(3,4,5)` `|H₁|=83`; TCI super SM(3,5)→`S²(3,3,5)` `|H₁|=66`. **One CFT, two distinct bulk 3-manifolds** — the coset coincidence does NOT lift to the bulk. Firewalled (S040). Novelty UNCHECKED. |
 | **L46** | **The framework search — the object's signatures as a filter against SM/GR frameworks (firewalled, `speculations/S041`)** — owner ask (via a parallel review): does any external Standard-Model / gravity framework (heterotic, F-theory, Connes NCG, moonshine, …) feature the object's *specific* structures (dual McKay E₈/E₆; the non-CM elliptic curve 40a1; class-S/3d-3d; emergent N=1 SUSY / `SU(2)₃`; the metallic Seifert duals)? Use them as a filter; structural rhyme = the null hypothesis; a crossing needs a derivation + null test (HELD). | MATH (firewalled, physics-boundary) | ★★ | **STARTED (S041).** First verdict: every overlap is a **structural rhyme** (shared rep-theory / Betti / dimensionless math), **no physical crossing** — the firewall holds a **5th** time, now against external frameworks. **F-theory:** generic modularity only; `40a1` is non-CM so the special CM→rational-N=(2,2)-SCFT realization is blocked. **Heterotic:** same `E₈` algebra, different role (Galois/McKay vs gauge). **NCG:** no shared data. **Moonshine — the one genuine HOOK:** the object's dual McKay `E₈`+`E₆` (E₇ excluded, B210) are exactly McKay's Monster- and Fischer-seeding diagrams; the object's arithmetic selects **Monster+Fischer, excludes Baby Monster** — shared rep-theory, not physics. Continuation: a deeper super-moonshine / `N=1`-SCFT-moonshine scout for the `SU(2)₃`/TCI data; novelty-check the `E₈+E₆−E₇` selection. Firewalled; nothing to CLAIMS.md. |
 | **L47** | **The `ℚ(√−7)` probe — the trace-1 ladder's next rung (from H27/B234)** — the trace-1 congruence law (`disc=1−4·det ≡1 mod 4`) gives the object's two fields `ℚ(√5)` (det −1, E₈) and `ℚ(√−3)` (det +1, E₆) and forbids E₇'s `ℚ(√2)`; the **next reachable imaginary rung is `ℚ(√−7)` (disc −7)**. Does it appear anywhere in the object's data — a deeper cusp field, a finite covering, a Markov/Fricke-level field? If yes, the trace-1 ladder is a genuine generative structure; if the object stops at `{√5, √−3}`, that closure is itself a fact to explain. | MATH (arithmetic / hyperbolic geom) | ★★★ | **RESOLVED (B235) — CLOSED.** `ℚ(√−7)` does **not** appear: SnapPy finds every `4₁` cover ≤deg 6 keeps invariant trace field `ℚ(√−3)` (`4₁` arithmetic, Bianchi `PSL(2,O₃)`); algebraically the trace-1 ladder is realized only at unit determinants `det∈{+1→−3, −1→+5}` — the `√−7` rung needs `det=2` (non-unimodular), absent. The ladder **closes at `{√5,√−3}`** (unimodularity + arithmeticity), not generative. |
@@ -1728,6 +1730,12 @@ crossing proposal (from §4 of the same scrutiny): its location must be stated �
 {the door, the coupling, the closings} — all four dead crossings targeted the value
 layer, the one place the type law forbids; the three legal locations are UNTRIED.**
 
+**ADDENDUM 2026-09-02 (B1237 — the P0-0 control re-typed):** B1062's arithmeticity handle separates the
+golden from **bronze only** — silver (m136) IS arithmetic (invariant trace field ℚ(i); E55). P0-0's silver
+half now rests on **B997's own-conductor McKay uniqueness** (golden-specific, proved over the infinite
+family; B1019: the siblings have no door) — the gate stays open on that handle. "ARITHMETICITY leads" is
+downgraded to: arithmeticity separates bronze; the door separates silver. The SM chain is untouched.
+
 **Fences**: Gate 5-Q throughout Phase 0 (no measured value enters any main
 artifact until a sealed crossing cell exists with its prior declared);
 exploratory-numerics rigor on anything numeric; the reframe's claim-language
@@ -2154,3 +2162,271 @@ pick one depth-5 signature word with a small eliminant, compute the exact elimin
 compute d_K of a quartic factor — one odd d_K kills B502 clean; all-even across witnesses would
 revive it as a live conjecture with the census as its foil. **B398 airlock armed** (a d_K = −283 or
 field-iso hit = STOP, convene). ★★
+## L192 — THE TYPE-MATCHED QUESTION IN THE β-ODD BOX (registered 2026-08-31, B1226; source: the SM-parameter typing)
+
+B1226 typed the SM's 28 parameters by our own law (B1168) into four boxes. Box A (β-even, pure) is
+**closed by proof** — B1225: the object cannot select. Boxes B and C are the reader's by the scale
+wall. **Box D — β-odd, dimensionless: θ_QCD, δ_CKM, δ_PMNS — is the only box where the object has an
+output at all**, and that output is `CS`, forced 2-torsion by amphichirality (B1224): **one bit**.
+
+Every probe ever fired into box D demanded a *continuous value* from that bit-valued channel —
+B1027 (δ₁₃ = 120°/240°, MISS 11.4σ/38.0σ), B1137 (algebraic combinations, DISJOINT), B813 (CS =
+θ_QCD, REFUTED ON TYPE). **3/3 asked for a value; 0/3 asked the bit.** Those negatives measure the
+type mismatch, not the object.
+
+The unasked, type-matched question: **does the object's ℤ/2 fix the CP-conservation BIT** — whether
+a phase sits at a CP-even point — as opposed to any phase magnitude? **B303 already sits at bit
+level** ("the CP sign is literally the sign of Chern-Simons", PROVED) and was never connected to
+these three negatives.
+
+**Before anything is run**: (a) B813's type audit must be re-read as the *governing theorem* — it
+refuted the value dictionary, and any bit-level construction must state why it does not re-enter the
+coefficient slot B813 closed; (b) the criterion must be able to FAIL in both directions (MB12) —
+a bit that cannot come out "CP-violating" is vacuous, and m003's `CS = ¼` is the natural bite
+control, being the sibling that sits at the other element; (c) Gate 5 stays absolute — the object
+side must be computed before any measured value is named. ★★★
+
+## L193 — THE CS-SILENT CHIRAL HALF OF THE FAMILY (registered 2026-09-02, B1235; source: fab5cloud D9, recomputed)
+
+The 112-family is 38 amphichiral / 74 chiral, and **38 of the 74 chiral members are CS-silent** (CS ∈ {0, ¼} mod ½)
+— o10_150700 is the loud one (CS = −1/12). B1224's law is one-way: amphichiral ⇒ CS ∈ {0, ¼}. The converse was
+silently assumed in three places and is false 38 times. **Lead:** what distinguishes the 38 CS-silent chiral members
+from the 38 amphichiral ones — a chirality invariant finer than CS on this family (the η-invariant, the mirror's
+action on the cusp shape, the symmetry-group's orientation character). Whatever it is, it is what the paper's
+family-wide amphichirality story must be rebuilt on. ★★★ (harvested from the seat; the 38/74 split is banked.)
+
+## L194 — DOES A FREE ORIENTATION-REVERSING DECK FORCE CS ≡ 0 (mod ½)? (registered 2026-09-02, B1235; source: codex R036's gap, computed)
+
+Amphichirality forces CS ∈ {0, ¼}; A6's orientation double covers land at **0 in 40 of 40**, while ¼ occurs at
+36 % (16/44) among amphichiral manifolds in general. P ≈ 0.64⁴⁰ ≈ 2 × 10⁻⁸ by amphichirality alone. `already_banked`
+finds B605 (the involutions are free) and B1227 (the value groups) but not the implication. **Conjecture:** a
+*free* orientation-reversing involution kills the ¼ class — the cover is the 2-fold quotient of a fixed-point-free
+map, and the mod-½ ambiguity of the lift collapses. If true it is a theorem about B1234's construction, not about
+m004, and it makes the k-blind wall a consequence of A6 without the dropped step. Bite control: the 16 amphichiral
+manifolds at ¼ — is any of them an orientation double cover of a non-orientable manifold? (If one is, the
+conjecture is dead.) ★★★
+
+*Bite control run 2026-09-02 (B1235 `verification/l194_bite.py`): of the 13 quarter-class members of the
+112-family, none is an orientation double cover of any half-volume nonorientable census manifold (1260 candidates,
+91 isometry tests; positive control m000 → m004 ✔, m003 ✘). Fence: quotients outside the census not excluded.
+L194 survives.*
+
+*Refined 2026-09-02 (B1239, `frontier/B1239_quarter_class_is_cusp_local/`): the question splits by where the isometry
+acts. **Closed:** the ¼ class is excluded by ANY orientation-reversing isometry — APS 3η ≡ 2cs + τ (mod 2), η = 0, τ ∈ ℤ ⇒
+cs ∈ {0, ½} mod 1; freeness and Kawauchi decide only 0 vs ½, which SnapPy (closed CS reduced mod ½, CGHN p.14) cannot
+see; verified on the entire closed census, 37 amphichiral / 37 zero, 17 chiral quarter-class as the bite. **Cusped, no
+cusp fixed by the isometry:** excluded by the swap corollary (equivariant fillings (s, τs); core torsions θ, −θ cancel
+exactly; CGHN's analytic term ≡ 0 mod ½ along the sequence, continuity) — entire cusped census, bucket A 28/28 zero.
+**Cusped with a τ-invariant cusp:** this is where every quarter-class amphichiral manifold lives (bucket B 6 zero / 5
+quarter; the 13 of the bite control, one-cusped) — and where m004 lives (the Gieseking quotient's cusp is a Klein bottle).
+For a free deck the invariant cusp carries a glide-type action; codex R040's census, rerun here, has 1260/1260 covers at
+zero to 9 × 10⁻⁶⁴, 1182 of them with such cusps. No theorem: two invariant slopes only, odd covers keep the cusp type,
+even covers erase the ¼ bit. **The conjecture is now cusp-local:** an orientation-reversing isometry acting freely on
+every cusp it preserves excludes ¼. Discriminating experiment: an amphichiral manifold with interior fixed points but a
+free action on its invariant cusp (predicted zero). Instrument gap: SnapPy's `Isometry` exposes the cusp action's linear
+part only (`cusp_maps()`), not the translation, so freeness on the cusp needs a t3m-level trace of the vertex-link
+action. Literature tool: the cusped η–cs relation, Meyerhoff–Ouyang, Canad. Math. Bull. 40 (1997) — cited, not read; if
+its cusp-basis correction dies under a glide-type action the residue closes by the closed argument. L194 OPEN, sharper.*
+
+## L195 — THE REVIVABLE INDEX (registered 2026-09-02, B1235 addendum; source: cc3's REVIVABLE_rationale of 2026-08-09, recovered under E51)
+
+The kill graph (`frontier/B738_pathfinder_compiler/kill_graph.json`, 774 entries) carries a `hatch` on 264 rows
+(54 distinct hatch kinds; 178 beyond `none-apparent`) and `revival_score ≥ 4` on 31, ≥ 3 on 84. The practice
+"read the hatch before working a kill" is standing (`docs/COMPUTE_THE_PROGRAM.md:92`) and `scripts/atlas/query.py`
+answers it per probe (mode 4, `revive`). What does not exist is the corpus-wide view cc3 specified: a **generated,
+deterministic, sealed-on-input-hash a `REVIVABLE` index file under `docs/` (not yet written)** listing every unwalked hatch and every high-score route,
+with `--check` for the suite — so that the revival reservoir can be *queried against* a new result instead of
+remembered. B738's SHORTLIST (2026-07-21) is that view for 217 of today's 774. **Cell:** ~40 lines on top of the
+existing loaders; MB12 controls = a planted unwalked hatch must appear, a walked one must not. ★★ (instrument, not
+physics; cheap; the reservoir is the program's own negatives read as SPECIFICATIONS.)
+
+## L196 — B1–B5 HAVE NO `arc_verdict.json` (registered 2026-09-02, B1235 addendum; source: cc3's HARVEST_MANIFEST #2 and FRAMEWORK_DELTA Δ6, 2026-08-09)
+
+`frontier/B1_gluing_chern_simons` … `frontier/B5_wheeler_dewitt` are ingested by the digest (B984/B985 closed the
+filename hole) but carry no verdict, so every verdict-reading instrument (views, kill graph, identification audit,
+`already_banked`) is blind to them. **B2 is the one that matters:** it falsified the genesis handoff's monodromy
+claim ("the image polynomial is not divisible by the A-polynomial") and diagnosed why — the monodromy acts on the
+character variety of the *fiber*, not on the meridian/longitude coordinates — which is a NEGATIVE with a named
+successor and belongs in the kill graph with a hatch. **EXECUTED same day (2026-09-02):** five verdicts written (`identifications: []` each) — B1 OPEN (frame/spin ratio 2, torsion 0 exact;
+CS action and level not derived), **B2 NEGATIVE** (probe re-run: `A_POLY divides mapped: False`, degree 9 in L; kill_form kind-mismatch — fiber
+vs peripheral character variety; hatch WALKED by B13/B67), B3 OPEN (3D exact, 4D Regge step undefined), B4 OPEN (bounded BKL/Gutzwiller/golden
+Kasner, 37.8%, ratio 1.13), **B5 NEGATIVE** (Λ = 2π²/Vol ≈ 9.72 "Planck units", 10¹²⁰ off; kind-mismatch by weight — Vol is the shape's number,
+weight 0; Λ weight −2; R = ℓ_P inserted by hand; same family as B259 wall #5, retracted B980). Both negatives routed into the kill graph (776 rows).
+Lock: `tests/test_b1235_nine_relays_read.py::test_l196_b1_b5_carry_verdicts`. ★★ → CLOSED (archival; the digest's oldest blind spot).
+
+## L197 — THE SUPERSESSION SWEEP + THE BELT'S TWO NON-RECOMPUTING FAMILIES (registered 2026-09-02, B1237; source: the physics-seat evaluation branch's W-D synthesis @ d415423a, findings verified here)
+
+**(a) Supersession.** The seat digested 605 arcs and tallied `SUPERSEDED_UNMARKED` 48 [2026-09-02 B1240] the seat's full synthesis tallies **128** (128 distinct arcs; column-parsed, fc `SUMMARY.md` agrees); the candidate list ships as `frontier/B1240_belt_closure_and_fc_harvest/verification/superseded_unmarked_candidates.tsv` — candidates, never verdicts], `RETRACTION_NOT_PROPAGATED` 25,
+`LOG_DRIFT` 24: a later arc corrects an earlier one in the log and the earlier arc's `arc_verdict.json` still says
+`superseded_by: None`. Three instances verified and propagated under B1237 (B361←B367, B259←B980, B892←B950/B951; E53 #13–#15).
+**The lead:** an instrument that, for every arc with `superseded_by: None`, greps later arcs' FINDINGS/verdicts for
+`<id>` next to *refute|withdraw|supersede|overstate|retract* and emits CANDIDATES (never verdicts — the identification
+audit's rule), then a single seat walks the list. Not fanned out: B1216 (9 agents, zero rows deleted, one regression).
+Expected yield: the seat's 48 minus the three done [2026-09-02 B1240] 128 minus the three done; the walk is still single-seat].
+
+**(b) The belt.** Two families verified as described: (i) 29 test files [2026-09-02 B1240] 27, by `scripts/checks/reproduce_belt.py --string-locks`] in the B1147–B1185 belt carry a
+`test_reproduce_*` that asserts the literal string `REPRODUCES` occurs in the committed script or its committed output
+(`tests/test_b1160_hypercharge_forced.py:51–53` is the shape) — a drift lock on stored output, not a recomputation;
+(ii) a large share of B1100+ tests run the real recomputation only under `OA_SLOW=1`. Neither is wrong (the slow lane
+exists for cost, B1207; the string locks catch silent edits), but the reviewer view should say which locks *re-run*
+and which *pin*. **The lead:** a `lock_kind` column in `docs/views/REVIEWER.md` (RECOMPUTES / PINS-OUTPUT / PINS-TEXT)
+derived mechanically from the test source, and a once-per-review `OA_SLOW=1` run on a clean tree (already standing —
+this makes its coverage visible). ★★ (record hygiene; nothing physical rides on it).
+
+[2026-09-02 B1240] **(b) is largely DONE by B1240, and the family was worse than described:** five of the 27 string-locked runners could not run on a fresh clone at all (E57 #2–#6; closure vendored, 25/25 certificates reproduce). `tests/test_reproduce_runners_live.py` now EXECUTES all 26 runnable belt runners on every suite run (the five heavy ones on their fastest certificate by default, in full under `OA_SLOW=1`); `reproduce_belt.py --inert` is the mechanical PINS-TEXT census the `lock_kind` column wanted (six PINS-TEXT: B1171/1173/1176/1177/1178/1179; one INERT: B1175). Remaining under (b): the `lock_kind` column in `docs/views/REVIEWER.md`, and converting the six PINS-TEXT runners to RECORD-printers (→ L198).]
+
+
+## L198 — SHIP THE GENERATOR: the CANNOT_RUN class at corpus scale (registered 2026-09-02, B1240; source: the physics-seat evaluation branch's Phase C/D synthesis, verified here)
+
+B1240 vendored the reproduction closure of five arcs whose runners pointed at a seat branch; the same shape
+recurs wherever a record says "reproduces" and the code that produced it is not on main. Phase C's PARTIAL shape 1
+("hardcoded record, live code absent or guarded") and its **139 CANNOT_RUN** claims (of 398) are this class at
+corpus scale. **The order:** (1) codex side — B1175's R020–R022 certificates and the ten untracked codex
+certificates of fc R46 (only `r024_lepton_character_datum.py` is tracked on main; source `origin/codex/seat-r001`)
+get the B1240 treatment: closure computed at the pinned SHA, vendored with `VENDORED_FROM.txt`, a live test; (2) the
+six PINS-TEXT runners become RECORD-printers (one line each; B1175 is the template); (3) the 139 CANNOT_RUN rows
+walked single-seat with `scripts/checks/reproduce_belt.py --runners` extended to Phase C's packet paths. Instrument
+exists; not fanned out (B1216). ★★★ (the programme's "clone it and run it" claim is exactly this).
+
+## L199 — TWO EARNING COMPUTATIONS FOR PRICED IDENTIFICATIONS (registered 2026-09-02, B1241; source: fc Phase E part 1 rows I-15/I-16, re-read on main) — **CLOSED 2026-09-03 (B1242): both computations run; I-15 and I-16 both REFUTED, the E₆ containment EARNED as I-19.**
+
+Pricing I-15 and I-16 (B1241) exposed one finite computation each that turns a name-match into a map or kills it.
+**(a) I-16, SU(4)₁ ≡ the silver's stage (B675):** compute the discriminant form of the silver knot's cusp lattice
+(the conductor-8 datum B675 heard) and compare it with A₃'s (ℤ/4, q = 3/8). Equal ⇒ the map is the lattice
+isomorphism and the row can be earned by showing it acts on the modular data; unequal ⇒ REFUTED (the conductor
+matched the level and nothing else). One afternoon; snappy + a quadratic-form table. **(b) I-15, E₆(ℂ) CS ≡ 3d
+gravity (B715):** compute the Dynkin index of the principal sl₂ ⊂ e₆ embedding and write the E₆ invariant as
+(index)·(Vol + i·CS) + (the rest); a canonical coefficient is the map, a non-canonical one is the refutation of
+"exactly what it should be". Both are register moves, not physics: neither touches Gate 5 and neither earns
+I-13. ★★ (each closes a row; I-13 stays the programme's).
+
+> **Currency — Review 55 (2026-09-06, anchor `be6f4cab`).** Refreshed against the 102-merge window `c0e9a4a0`→`be6f4cab`. **What changed for this view:** the multi-cusped lead and its correct scope. **The window's spine:** `net chirality = χ(M,∂⁺M)` applied on main (B1290); the **parity theorem** — on a *one-cusped* manifold `|Fix|` is even, so **3 is excluded**, verified over 1200 census manifolds with zero violations (B1291); the escape **satisfiable but mis-scoped** — m202 keeps ℚ(√−3) and 2T and realises `|Fix| = 3`, yet `χ(M) = χ(∂M) = 0` at *any* cusp count, so **flatness, not parity, is the binding obstruction** (B1292); and the seat harvest — the **first vacuum with the SM group** and **I-14 collapsing to a point**, with fc's `χ(M,∂⁺M)` predating main's B1290 (B1293). **I-26 remains UNEARNED.** Review 55 repaired three instruments and left 16 action items.
+
+## L200 — THE DIVISOR LAW OF THE HARMONIC GENERATOR: prove it as an Eisenstein expansion, and identify `c₀` (registered 2026-09-07, B1295; source: this bench, found while computing the SM seat's `c₍±2,0₎`)
+
+B1295 solved the harmonic generator of `H¹(m004; ℝ)` on the cusp to residual 1.6e−12 and found, with **zero
+fitted parameters**, that every θ-odd cusp coefficient obeys `c(ν) = c₀ · S(ν)` for `ν = a + b√−3 ∈ ℤ[√−3]`
+(`a = m₂/2`, `b = −m₁`), `S(ν) = (1/|ν|) Σ_{d·e=ν} w(d, e)`, `w = Re(d ē)` on odd–odd pairs, `±Im(d ē)/√3` on
+mixed pairs (sign by which factor is odd), 0 on even–even pairs ("even" := `a + b` even, i.e. `ν ∈ 2ℤ[ω]`).
+Pre-registered out-of-sample on the 88 modes `108 < N(ν) ≤ 200`: PASS 88/88; all 68 predicted exact zeros
+(`S(√−3·x) = 0`, `S(2ᵏ) = 0`) vanish in the solve. **Status: CONJECTURE**, firewalled in B1295 §4.
+**(a) The proof.** `b₁(m004) = 1 = #cusps`, so `H¹` is entirely Eisenstein and the generator is an Eisenstein
+series of the index-12 subgroup `Γ ⊂ PSL₂(ℤ[ω])` at the harmonic point; write its Fourier expansion on the
+cusp lattice `ℤ + 2√−3 ℤ` (index 4 over `ℤ[ω]`'s hexagonal sublattice, which is why the coefficients live
+on `ℤ[√−3]` and carry the `ℤ[ω]/2 ≅ 𝔽₄` parity character through the glides `c(−ν̄) = (−1)^{a+b} c(ν)`) and
+read off `S(ν)` as the divisor sum. A theorem here makes the coefficient of §1 exact rather than numerical
+and puts the whole θ-odd cusp expansion in closed form. **(b) `c₀`.** `|c₀| = 4.260982635(2)`; a bounded
+linear PSLQ (coefficients ≤ 12, tol 1e−9, ≤ 2 constants among `π, √3, π², log 2, log 3, L(2,χ₋₃), ζ_K(2), G,
+ζ(3), vol(m004)`) finds nothing; the proof in (a) should produce it (expect a ratio of `L`-values of
+`ℚ(√−3)` at the harmonic point times the period normalisation) — do not search numerically again; derive.
+The two prior "divisor law" hits on main (B842's metallic fixed-point divisor laws, B930's ideal divisor)
+are unrelated terms; `already_banked` on {harmonic, Eisenstein, Fourier, divisor, cusp} returns only
+B1294/B1295. Not on the MASTERPLAN v3 door path — recorded, not chased; it becomes a door only if D1/D2
+need the exact coefficients. ★★ (an exact object where there was a number; no join moves by itself).
+
+## L201 — CAN A CLOSING ABSORB THE SU(3) CUBIC ANOMALY OF THE F₄ CHAMBER'S CHIRAL FACES? (registered 2026-09-07, B1296; source: this bench, found while classifying the θ-even chamber)
+
+B1296 proved that a θ-equivariant charge locus on Fix(θ) lands the Higgs direction on the F₄ chamber, whose four
+chiral faces (`ω₄^∨`, `ω₃^∨+ω₅^∨`, `ω₂^∨+ω₄^∨`, `ω₁^∨+ω₆^∨+ω₃^∨+ω₅^∨`) all carry a non-zero SU(3) cubic anomaly in
+the left-handed content (normalised to the fundamental: 78-sector −3 and 27-sector +1 per A₂ on the two
+swapped-pair faces; −1 and −2 on the two pointwise-fixed-A₂ faces). The arcs end on the cusp, so an anomaly of
+`U(1)_u` may flow out; a non-abelian cubic anomaly of an SU(3) factor cannot, unless the closing supplies
+states. **The lead:** (a) is there a closing (a Dehn filling, a cover, the ℤ/3 descent to Y₉) whose extra
+states carry SU(3)³ = +3 per A₂ (or +1 on the fixed-A₂ faces) in the right chirality — the SM seat's Y₉ vacua
+are vector-like (sm:B1278) so their net contribution is 0, which is the first thing to check; (b) which single
+frame contains both the 78-sector (PW's 7d adjoint) and the 27-sector (the heterotic-type matter) with free
+multiplicities — on the swapped-pair faces they cancel only at 78 : 27 = 1 : 3, and the two parents that contain
+both, E₇ (133 = 78 ⊕ 1 ⊕ 27 ⊕ 27̄, n₂₇ = 2 → −1) and E₈ (248 = (78,1) ⊕ (1,8) ⊕ (27,3) ⊕ (27̄,3̄), n₂₇ = 6 → +3),
+do not cancel. **FIREWALL:** the 1 : 3 is a ratio between two frames and a representation-theoretic fact about
+`E₆ ⊃ SU(3)² × SU(2) × U(1)`; it is NOT a generation count and nothing is built on it (H-B1296-RATIO). Not on
+the MASTERPLAN v3 door path — recorded, not chased; it becomes a door only if D2 lands on the F₄ chamber. ★.
+
+## L202 — WHERE A SPECTRAL COVER ON m004 COULD STILL BE CHIRAL: the sectors the period-2 symmetry does not dualise (registered 2026-09-08, B1297; source: this bench, found while closing D2's (2+1)-reducible family)
+
+*L202 note (2026-09-09, B1320 — Phase 2 Arc 0): PW's LOCALIZED count on the cyclic descent is computed: on C₃ and C₄ every orientation-preserving cusp-fixing isometry has |det(A − I)| ∈ {0, 4} — never 3 or 6 — with m202 as the live positive control (its order-3 rotation gives 3 on the same code path). The localized half of D2 is closed on the cyclic tower in PW's own frame; Arc A (the bulk index beyond the tower) and Arc B (a non-amphichiral cover or a priced partial filling) remain.*
+
+B1297 proved every (2+1)-reducible E₆ spectral cover on the cyclic tower of m004 vector-like, twice over: Galois self-duality
+for twists of order prime to 3, and the period-2 symmetry acting as −1 on the Alexander module (so `ψ∘P = ψ⁻¹`,
+`J(ψ) = −J(ψ)`) for all orders. Three sectors survive, each a bounded computation: **(a)** irreducible non-extending SL(3)
+representations of `π₁(C_n)` — a component of `X_{SL(3)}(C_n)` on which `ρ₁∘P ≇ ρ₁*` (the corpus's W1/W2 extend to m004 and
+are rigid, B1267; the non-deck-invariant components have never been enumerated); the index to compute is
+`I(C_n; ρ₁ ⊗ (ρ₁^τ)*)` exactly as pre-registered; **(b)** NON-cyclic covers of m004 in B1295's 87-cover tower with 3-torsion
+in H₁ — P need not preserve a non-normal subgroup and Galois needs the order prime to 3, so 3-torsion there is the first
+place with neither protection; **(c)** the instrument question: does `I ≠ 0` occur AT ALL on a one-cusped hyperbolic
+manifold in domain D (reductive, one-parameter cusp)? The 60-manifold scan found none; a general vanishing theorem
+(e.g. from the L² Hodge theory of `Sym²ρ ⊗ χ`) would retire the index and, with it, this door. (c) gates (a) and (b):
+compute it first. Prior after B1297: ~10 % for (a)+(b) jointly. On the MASTERPLAN v3 door path as D2's continuation;
+not a new door. ★★.
+
+*L202 note (2026-09-08): the SM-derivation seat's sm:B1280 Theorem 1 (2026-09-06) already proves W1/W2 vector-like on every cusped cyclic cover by the same period-2 duality (their cusp-fixed curve K is the branch locus of the trace coordinates) — if it reproduces here (B1299), it closes (a) for every component that extends from m004, leaving the non-extending ones; its own L207 (one unpaired θ-odd direction at the subregular point) joins (a).*
+
+*L202(b) note (2026-09-09, B1324 — Phase 2 Arc B, the census BEFORE any index, DESIGN sealed `03d98827`): **covers do NOT inherit amphichirality.** Of the 87 covers of m004 to degree 10 (B1295's list reproduced, 0 mismatches), the 9 cyclic and the 1 regular cover are amphichiral and **66 of the 77 irregular covers are chiral** (two orientation-aware methods agree on all 87: `is_amphicheiral` and an isometry to the reversed copy with cusp determinant +1). The invariant trace field is a commensurability invariant, so these 66 keep ℚ(√−3): **the atom and a remembered A7 bit coexist on the object's own tower** (FRESH_EYES Q15 answered YES; Q6's hypothesis is testable inside the tower). Among the 23 one-cusped covers, 12 are chiral; six carry 3-divisible torsion — 6.4 (Z/12 + Z), 6.9 (Z/12 + Z), 8.0 (Z/30 + Z), 8.2 (Z/30 + Z), 9.6 (Z/21 + Z), 9.10 (Z/21 + Z) — the sectors T-GALOIS-SELF-DUALITY does not protect and to which T-PERIOD-2's mechanism need not extend; the index there is Part B of the same arc (`frontier/B1324_arc_b_and_the_dictionary/`).*
+
+*L202(b) note (2026-09-08, B1305; the cloud seat's memo 170 @ ec15923d, verified here with main's own SnapPy loop): the PARTIAL FILLING of a
+multi-cusped cover — fill some cusps, keep others — is the one move that breaks amphichirality (B432: fillings are chiral) while keeping a
+cusp (covers keep cusps but inherit CS = 0). Over degrees 4–8, cusp 0 filled at six slopes, 27 distinct (degree, cusps, slope) triples give a
+positively oriented solution with a cusp left and CS ∉ {0, ¼} mod ½; cleanest witness the degree-5 three-cusped cover (isosig
+`kLLLPLQkcefegijjiijiieldllxtxa_aBbBabBbbacb`), slope (2,1) on cusp 0 → 2 cusps left, CS = +0.157590 — **interval-certified by the audit seat (PARTIAL_FILLING.md @ 6f862099; Sage/SnapPy `verify_hyperbolicity` at 100 and 160 bits; complex volume verified modulo 2-torsion; the quarter lattice excluded by more than 0.0924099), so three seats hold one witness: the cloud found it, main re-derived it numerically (B1305 A), the audit seat certified it (B1304).**
+**The price, registered before the route is opened:** three discrete choices — which cover, which cusp, which slope — on top of I-26, on a
+manifold that is no longer m004 (memo 170 §4; B432's "slope selection stays free input"). **And the σ reading is dead already** (memo 170's
+addendum, extended here to degree 12 with main's code): no cover of m004 has ≥ 6 cusps through degree 12 (max 5 at degree 10, 4 at 11 and 12),
+and filling only lowers the count — so a partial filling can supply a quantized sector and cannot supply GC-6's count. Arc B computes the
+chirality question on such fillings only after the census of the 87 covers (amphichirality, 3-torsion, period-2 lifts) says the hypothesis
+is otherwise untestable inside the tower, and prices the three choices as identification rows first.*
+
+*L203 note (2026-09-09, B1306 slice A; the SM-derivation seat's sm:B1303/sm:B1304 @ 0dffacd4, the 2×2 criterion re-derived here by full Fox
+calculus at n ≤ 9 with two primes, Y₂₀'s 41-part and Y₂₄'s 2-primary part checked): the tower is COMPUTABLE — h¹(Y_n; ψ) = 1 iff a product of n
+2×2 matrices is the identity — and its Standard-Model closings through Y₂₁ are Y₉ (706 464 lines), Y₁₂ (34 752; the one-triplet ones), Y₁₅
+(5 016 142 400), Y₁₈ (= Y₉'s), Y₂₁ (48 945 letters); the 2-adic new supports stop at Y₁₂ (Y₂₄ is Y₁₂ pulled back); the law's odd part has three
+exact clauses (the ramified prime 5; the half-deck's global sign; + at even levels). Y₁₂'s 768 one-triplet vacua (sm:B1302) are "the closest
+approach to the SM's field content the object has produced" — vector-like, one light generation, massless at tree level, SM × U(1)². The
+object-native selector for this lead is now a finite arithmetic menu.*
+
+## L204 — THE SUBREGULAR POINT'S ONE UNPAIRED DIRECTION (registered 2026-09-08, B1299; mirrors the SM-derivation seat's sm:L207 of 2026-09-06; the exact half done by B1298)
+
+*L204 status 2026-09-09 (B1322): **CLOSED — VERIFIED on two benches.** The SM-derivation seat's sm:B1350 (@ 7484ad01) integrated the V₁₀ classes to genuine non-self-dual E₆ representations (Newton to 10⁻⁶⁸) and found h¹(M; 27) = h¹(M; 27̄) = 0, no cusp-fixed vector, N(27) = 0 on class 1, class 2, their sum and difference; main re-read the four banked 100-digit points with its own Fox calculus and agrees at every entry. The θ-odd frame is closed on every sl₂ germ; the 15 % prior resolves to 0. Credit: the seat, by pin.*
+sm:B1280 Theorem 2 makes the θ-odd E₆ germ at the geometric (principal) point vector-like by symmetry: the inversion acts as the
+outer automorphism on the whole tangent space (B1298: twelve signs, exact). At the SUBREGULAR sl₂ point — B1256's assumption-free
+I-25 candidate, e₆ = V₂ V₄ V₆ V₈ V₁₀ V₁₀ V₁₄ V₁₆, the 27 = 13 + 9 + 5 — the outer involution fixes sp(8) = V₂ V₆ V₁₀ V₁₄ and
+negates the 42 = V₄ V₈ V₁₀ V₁₆, while the inversion acts by (−1)^{k/2+1} on every H¹(M; Sym^k): the two agree on seven of the
+eight tangent directions and disagree on EXACTLY ONE, the V₁₀ of the 42 (θ′ = −1, ι* = +1) — B1299, exact. That direction is
+the first place on the object where the θ-odd frame's net chirality N(27) is not forced to vanish by symmetry; it stays bounded
+by B1268 (|N| ≤ h⁰(∂M; 27)). **The computation:** the subregular E₆ local system's H¹ with 27 coefficients along that direction —
+build the subregular embedding explicitly (B1256 has the labelling), deform along the V₁₀ ⊂ 42 class, compute h¹(M; 27_ρ) −
+h¹(M; 27̄_ρ) numerically at first order and exactly if the point is algebraic. Priced at about a day. If N ≠ 0 there it is the
+programme's first symmetry-unprotected chiral direction on the flat sector — and I-25 (which sl₂) becomes load-bearing for
+chirality, not only for typing. Prior 15 %. ★★. *Note 2026-09-09 (B1306 slice A): the SM-derivation seat has begun this computation as sm:B1350 (@ 0dffacd4): stages 0–3 exact — the subregular point's h¹ = 3 for 27 and 27̄ with N = 0, the two V₁₀ classes each with h¹ = 1, neither cusp-trivial (restriction rank 2), both trace-flat at first order; stage 4 (the 400-bit Newton deformations and N(27)) pending on the seat. Main's arc for this lead verifies sm:B1350 when its stage 4 lands, with credit by pin. *Slice B (2026-09-09): the seat's exact obstruction calculus (stages 5a–5c) re-run here — rank d¹ = 70, both V₁₀ classes and both combinations formally integrable through order 6 (the V₈ control stops at 5; one-sided method), so the Newton stall is numerical, not geometric; stage 4 still pending.*
+
+## L203 — SELECTION AMONG THE CLOSINGS: Y₉'s 19 624 vacua AND Y₁₂'s 34 752 lines (registered 2026-09-08, B1303; the lead v3 §3 cited as "L206" and never registered — an E53 of the plan itself, closed here)
+
+*L203 note (2026-09-09, B1306 slice B): the tower law's positive half is now a THEOREM on two benches — a Ψ-eigencharacter carries a class whenever u or −u has odd order mod m (sm:B1304 addendum; main's own Fox calculus, n ≤ 13, 1 037 pairs) — so the odd-level half of the menu is proved; the converse (both orders even ⇒ nothing) is exact to level 30 and reduced to the single statement N₀ ≠ I.*
+The record now has TWO Standard-Model closings on the object's own tower: Y₉ (sm:B1278/B1279, re-run B1294: 706 464 SM lines in
+19 624 inequivalent vacua under the group of order 72, all vector-like, all with the colour triplet in three generations —
+sm:B1300, verified B1303) and Y₁₂ (sm:B1301, verified B1303: 34 752 SM lines valued in characters of order 16, on 31 488 of which
+the colour triplet D survives in exactly ONE generation — the doublet–triplet mechanism B1300 excludes on Y₉ exists two
+generations deep in the tower). Nothing in the record selects a closing, a line, or (on Y₉) one of sm:B1283's nine tree-level
+branches; every physics consequence so far (the Z′, P9) is stated "on an observer-selected vacuum". **The only object-native
+selector on the table is the deck-eigen law itself** (the support is the deck's eigenlines at the primes where Δ = t² − 3t + 1
+acquires roots of exact order d | n): a selection principle would have to be a further law of the same kind — e.g. a condition
+on the letters' orders (Y₉: odd 19/38; Y₁₂: 2-adic 16) — or the instanton superpotential's action on the flat moduli (sm:L209(i),
+sm:L210(ii)). **The computation:** (i) enumerate the tower's SM closings to n = 24 by the law's arithmetic (B1303 §5: new odd
+support at 13, 15, 17, 19, 20, 21, 22, 23) and run the seat's line enumerator on each support (Fox calculus per level; Y₁₃'s 1040 and
+Y₁₅'s 60 + 20 are the next), tabulating which closings carry SM lines, three generations, and a thinned triplet; (ii) on Y₉ and
+Y₁₂ compute sm:B1283's tree-level branch structure on the one-triplet lines (does the one surviving D change the μ-matrix's
+rank pattern?); (iii) only then ask whether any single quantity is extremal on exactly one closing. Prior that (iii) yields a
+unique selection without a new closer's choice: 10 %. ★★.
+
+## L205 — THE SIBLING'S LOCALIZED COUNT (registered 2026-09-08, B1303; the owner's decision on MASTERPLAN v3's D3, taken 2026-09-08 after B1302 priced the case)
+
+*L205 status 2026-09-09 (B1321): **PRICED, the bounded arc done.** m202's order-3 rotation gives PW's localized count 3 on both cusps with the signs forced (I-30, one row); the three-line class of the census to nine tetrahedra has six members (m202, s959, v3461, v3551, o9_40999, o9_43931) and none keeps the golden face. Reopens only beyond nine tetrahedra or by construction.*
+**Decision (owner, 2026-09-08): "Reopen D3 as a bounded arc after Phase 1."** One pre-registered arc, numbered from the free block
+(B1316 or later), not a door until it earns one. Its content, fixed now so that it cannot drift: (i) Pantev–Wijnholt eq. (3.18)'s
+LOCALIZED count on m202 — the signed intersection of the Higgs eigen-form's zero locus with the three fixed lines of the order-3
+isometry (fc R72, verified B1302: cusp maps of orders 6, 3, 2 fixing (1,1), (3,3), (4,4) points per cusp) — with fc's two named
+choices (equal signs on the three lines; the manifold within the class) PRICED as identification rows and I-26's transport
+named; (ii) a search of the three-line tetrahedral class (fc's seven manifolds to 12 tetrahedra, the session-relay seat's confirmation) for a
+member that keeps the golden face (a fibration carrying t² − 3t + 1 — B1302: m202 does not; Δ_{m202} has seven ±1 monomials and
+no primitive specialisation divisible by t² − 3t + 1); (iii) the flat-sector control on each candidate (the two-cusp index of
+B1302's `d2multi.py`, expected 0 by the same conjugation). PASS = a 3 that survives the pricing on a golden-face member; FAIL = the
+3 costs the golden face on every member of the class, in which case D3 is closed as drift by computation and the sibling stays
+a control. Prior for PASS: 10 %. Sequenced after B1304–B1307 (v3.1 §3), before Phase 2 Arc A. ★★.

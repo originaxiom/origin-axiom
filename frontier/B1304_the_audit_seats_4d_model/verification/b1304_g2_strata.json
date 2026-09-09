@@ -1,0 +1,27 @@
+{
+ "table": {
+  "1": [
+   7,
+   1
+  ],
+  "2": [
+   3,
+   7
+  ],
+  "4": [
+   1,
+   7
+  ],
+  "8": [
+   0,
+   1
+  ]
+ },
+ "isotropy": {
+  "origin": 8,
+  "axis point (only coordinate 1)": 4,
+  "generic point of the 3-plane fixed by a = (0,0,1)": 2,
+  "free point": 1
+ },
+ "fails": []
+}

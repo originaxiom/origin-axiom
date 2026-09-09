@@ -1,0 +1,134 @@
+{
+ "tol": 1e-06,
+ "closed": {
+  "n": 11031,
+  "table": {
+   "amphichiral": {
+    "zero": 37,
+    "quarter": 0,
+    "other": 0
+   },
+   "chiral": {
+    "zero": 10,
+    "quarter": 17,
+    "other": 10967
+   }
+  },
+  "undecided": 0,
+  "cs_fail": 0,
+  "max_dist_in_class": {
+   "amphichiral": 7.771561172376096e-16,
+   "chiral": 1.1657341758564144e-15
+  },
+  "examples": {
+   "amphichiral_quarter": [],
+   "chiral_quarter": [
+    [
+     "s775",
+     0.24999999999999933
+    ],
+    [
+     "s778",
+     0.25000000000000083
+    ],
+    [
+     "s779",
+     0.24999999999999917
+    ],
+    [
+     "m395",
+     0.24999999999999972
+    ],
+    [
+     "s787",
+     0.24999999999999972
+    ]
+   ],
+   "amphichiral_zero": [
+    [
+     "m034",
+     -1.6653345369377348e-16
+    ],
+    [
+     "m082",
+     3.0531133177191805e-16
+    ],
+    [
+     "m078",
+     -1.6653345369377348e-16
+    ],
+    [
+     "m168",
+     -2.220446049250313e-16
+    ],
+    [
+     "m100",
+     1.1102230246251565e-16
+    ]
+   ]
+  }
+ },
+ "cusped": {
+  "n": 3000,
+  "table": {
+   "amphichiral": {
+    "zero": 14,
+    "quarter": 11,
+    "other": 0
+   },
+   "chiral": {
+    "zero": 3,
+    "quarter": 0,
+    "other": 2972
+   }
+  },
+  "undecided": 0,
+  "by_num_cusps": {
+   "1": {
+    "amphichiral": {
+     "zero": 9,
+     "quarter": 11,
+     "other": 0
+    },
+    "chiral": {
+     "zero": 3,
+     "quarter": 0,
+     "other": 2873
+    }
+   },
+   "2": {
+    "amphichiral": {
+     "zero": 5,
+     "quarter": 0,
+     "other": 0
+    },
+    "chiral": {
+     "zero": 0,
+     "quarter": 0,
+     "other": 98
+    }
+   },
+   "3": {
+    "amphichiral": {
+     "zero": 0,
+     "quarter": 0,
+     "other": 0
+    },
+    "chiral": {
+     "zero": 0,
+     "quarter": 0,
+     "other": 1
+    }
+   }
+  }
+ },
+ "verdict": {
+  "closed_amphichiral_quarter": 0,
+  "closed_amphichiral_total": 37,
+  "closed_chiral_quarter": 17,
+  "cusped_amphichiral_quarter": 11,
+  "cusped_amphichiral_total": 25,
+  "prediction_holds": true,
+  "detector_bites": true
+ }
+}

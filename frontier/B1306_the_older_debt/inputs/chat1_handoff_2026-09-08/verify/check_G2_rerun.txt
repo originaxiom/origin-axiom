@@ -1,0 +1,23 @@
+==========================================================================
+P-SEAM-02  ---  G2: Poisson action of the strata
+==========================================================================
+  stratum 1  gold  (det = -1)      kappa preserved = True   bracket multiplier = -1
+  stratum 1  gold^2 (det = +1)     kappa preserved = True   bracket multiplier = 1
+  stratum 2  doubling (det = 4)    kappa preserved = False  bracket multiplier = None
+  stratum 3  Thue-Morse (det = 0)  kappa preserved = False  bracket multiplier = 0
+  stratum 4  rank 1                kappa preserved = False  bracket multiplier = 0
+
+--------------------------------------------------------------------------
+  C-alive (identity multiplier = +1)        : True
+  C-vacuity (every map preserves kappa?)    : False   (must be False)
+  stratum 1: multiplier == det              : True
+  strata 2-4: kappa NOT preserved           : True
+
+  G2 VERDICT: TRUE
+  Refined statement (computed, not assumed):
+    stratum 1 preserves kappa exactly and preserves the Goldman bracket
+    UP TO SIGN, and the sign IS the determinant:
+       det = +1  ->  Poisson      (symplectic, leaf-preserving)
+       det = -1  ->  ANTI-Poisson (anti-symplectic, bracket reversed)
+    strata 2-4 do not preserve kappa, hence cannot preserve the leaves.
+RC=0

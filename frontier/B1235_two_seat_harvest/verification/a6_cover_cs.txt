@@ -1,0 +1,4 @@
+orientation double covers (40): CS=0: 40   CS=1/4: 0   other: 0
+control -- amphichiral in the 112-family: 38, at CS=1/4: 13
+control -- amphichiral in OrientableCuspedCensus(cusps=1)[:200]: 6, at CS=1/4: 3
+VERDICT: free-deck covers at CS=0: 40/40 | amphichiral-in-general at 1/4: 16/44 -> the free deck is doing MORE than amphichirality (data, not theorem)

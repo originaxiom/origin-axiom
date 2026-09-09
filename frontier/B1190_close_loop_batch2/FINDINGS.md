@@ -73,3 +73,11 @@ grades out.
 All lens refutations archived verbatim beside the cells they killed; no refuted clause propagates
 to any surface. The GC-6 arithmetic that DID verify is usable (the character/lattice data); its
 synthesis is not. Scratchpad paths sanitized. No firewall crossing; no measured value.
+
+*Note added 2026-09-08 (B1305 slice B; the cloud seat's memo 178 and its relay of the same day): GC-6's "six cusp-boson units where the object's
+abelian T[4₁] supplies one" substituted η⁻¹ for the object's own boundary series. The cloud measured that series (Gukov–Manolescu's Ẑ of the
+±1 and −1/r surgeries on 4₁) and reads Gukov–Jagadale's half-index examples as c_eff = 1 + bare rate (6/5 = 1 + 1/5 for Σ(2,3,5), 8/7 = 1 + 1/7
+for Σ(2,3,7)), the "1" being the universal q^{−1/24}-type prefactor. On this bench the bare rates 1/5 and 1/7 reproduce to six figures with an own
+estimator; the "+1" split is the seat's reading of GJ (abstract-level here). If that reading holds, L154's gap is 6 = 1 + 5, not 6 vs 1 — the
+object-side number moves from 1 to a bare 1/7-type rate plus the universal unit; the bridge stays O3-obstructed (B1064). Recorded, not
+re-graded.*

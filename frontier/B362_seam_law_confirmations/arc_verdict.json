@@ -1,10 +1,11 @@
 {
- "id": "B362",
- "verdict": "PROVED",
- "claim_one_line": "All three pre-registered seam predictions hit exactly, extending the doubly-elliptic-seed brightness law to 11 pairs with zero counterexamples.",
- "instrument": false,
- "depends_on": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "W2-wave2-calibrated"
+  "id": "B362",
+  "verdict": "PROVED",
+  "claim_one_line": "SUPERSEDED by B367 (the local brightness law fails at pair (3,4)); the 11 exact pair verdicts stand as data. ORIGINAL CLAIM AS ASSERTED: All three pre-registered seam predictions hit exactly, extending the doubly-elliptic-seed brightness law to 11 pairs with zero counterexamples.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": "B367",
+  "authored_by": "W2-wave2-calibrated",
+  "note": "SUPERSEDED 2026-09-02 (B1238; E53 #16): the 11-pair computation stands; the local brightness law it extended is refuted by B367 at pair (3,4) (B367 FINDINGS:89). B361 received this under B1237; this sibling did not. Not RETRACTED (B818): the exact pair verdicts hold; the induced law is what died. See ADDENDUM_2026-09-02_B1238.md."
 }

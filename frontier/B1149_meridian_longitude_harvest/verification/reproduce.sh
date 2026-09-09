@@ -11,8 +11,14 @@
 # then run against them. reproduce.log records the run done on THIS bench (2026-08-26): 3/3 REPRODUCE,
 # rc=0, byte-identical modulo timing, pyenv 3.12.1. independent_check_memo49.txt cross-verifies memo 49's
 # trace-3 arithmetic with sympy (a tool distinct from the cert's own Fraction code).
+# [2026-09-02 B1240] THE CLOSURE IS NOW VENDORED HERE. The provenance note above described a fetch that a fresh clone
+# could not perform (the run record reproduce.log is gitignored, and the certificates load sibling files the
+# fetch list omitted). certificates/ and outputs/ beside this script are the full transitive closure at
+# origin/outside-bench @ 1544989d; see VENDORED_FROM.txt (sha256 per file). tests/test_reproduce_runners_live.py RUNS
+# this script (fastest certificate by default, all under OA_SLOW=1); the runner text is no longer the lock.
 set -e
-CERTS="trace_three depth_lock longitude_lock"
+cd "$(dirname "$0")"   # [2026-09-02 B1240] runnable from any cwd (was: relied on cwd = this directory)
+CERTS="${CERTS:-trace_three depth_lock longitude_lock}"   # [2026-09-02 B1240] override: CERTS=<one cert> for the default test lane
 filt() { grep -vE 'elapsed|seconds|[0-9]+\.[0-9]+ ?s$|^real|^user|^sys'; }
 for c in $CERTS; do
   echo "===== $c ====="

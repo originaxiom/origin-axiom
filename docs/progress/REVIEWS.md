@@ -4859,7 +4859,7 @@ gap, per hand) is hand-resolved, so **what kills it is the non-uniqueness, not t
 
 ### Action items (Review 53)
 
-- [ ] R53-1: **the live-lane harvest** — codex **R028** (exact toric chart frames) and **R029**
+- [>] R53-1: **CARRIED to Review 54 (R53-1).** **the live-lane harvest** — codex **R028** (exact toric chart frames) and **R029**
   (verified above; disposition OA-C1169 as CORROBORATING B1095 and relay the refinement); the
   **outside-bench 2026-08-30 digest** ("six defects repaired, one drift standing, and my certificate
   was not a test" — the last clause is E52-shaped and wants reading); cc3's Paper IV lane.
@@ -4867,13 +4867,13 @@ gap, per hand) is hand-resolved, so **what kills it is the non-uniqueness, not t
 - [>] R53-2: **the cross-seat waits** (carried from **R52-5**, ex-**R51-5**, ex-**R50-6**): codex
   R023 + MC1 + R018; cloud's **C6 completeness**, still the one thing between "every choice typed"
   and "provably every choice". (owners: the seats; cc harvests)
-- [ ] R53-3: **E53's unswept remainder** — B1218 sweeps the surfaces named in its `SURFACES` list;
+- [x] R53-3: **ANSWERED at Review 54 §2 — measured: `representation_sweep` screens on CLAIM LENGTH (282 seen / 674 blind, 154 unrepresented), and the load-bearing half is that THE CHAIN IS NOT IN ITS `SURFACES` LIST AT ALL. Superseded by R54-1 and R54-2.** **E53's unswept remainder** — B1218 sweeps the surfaces named in its `SURFACES` list;
   the ~973 PROVED/NEGATIVE arcs outside every screen, and B1188's 132 off-surface arcs, remain
   unswept. Extend the sweep from surfaces-to-arcs to arcs-to-surfaces (the reverse direction).
   (owner: banking seat)
-- [ ] R53-4: **the {C, P} promotion cell** — bank the composition of B1118 and B1141 as a named arc
+- [>] R53-4: **CARRIED to Review 54.** **the {C, P} promotion cell** — bank the composition of B1118 and B1141 as a named arc
   so the discrete ledger's closure can promote under §5. (owner: banking seat; blocker named in §6)
-- [ ] R53-5: **λ's acceptance gate** — the ledger's weakest row, unmoved this window and the only
+- [>] R53-5: **CARRIED to Review 54 — and restated there: a row with no criterion is the shape that survives every audit by being unfalsifiable.** **λ's acceptance gate** — the ledger's weakest row, unmoved this window and the only
   row with *no* criterion at all. B1216's closure loop deleted zero rows; λ needs a gate written
   before it can be attempted again. (owner: banking seat)
 - [>] R53-6: **owner-electable, under the standing HOLD** (carried from **R52-6**, ex-**R51-6**,
@@ -4885,3 +4885,468 @@ gap, per hand) is hand-resolved, so **what kills it is the non-uniqueness, not t
 **Next review due after 20 merges from this anchor.**
 
 anchor-commit: `c0e9a4a0` (the B1218 bank, this window's last substantive commit before the review)
+
+---
+
+## Review 54 — 2026-09-03 (58 merges from Review 53; the window the instruments were caught proxying — and every real loss was a positive the chain had dropped)
+
+**Anchor:** `de8e5d8a`. **Window:** B1241–B1246, six arcs, all pushed to both remotes.
+
+### 0. Mechanical — all green, debts visible
+
+| check | result |
+|---|---|
+| `doc_currency` | **ok** — 18 living documents current; **4 declared debts** (CLAIMS lag 164, GUT_REQUIREMENTS 144, THEOREM_LEDGER 1, TOOLBOX 876), all printed every run; 1 visible frozen opt-out |
+| `retraction_sweep` | **0 live-claim violations** across 2704 tracked `.md` |
+| `instrument_freshness` | ok, 2 instruments re-run green |
+| `forcedness_census` | **PASS** — 46 links, forced 42, axioms exactly {C3, C4, C5, C18}, stretch C6..C17 clean |
+| `citation_status` (new, B1243) | **green** — 0 unacknowledged corrected-arc citations; coverage 9/9 |
+| kill-graph routing (`test_b833`) | **0 unrouted negatives** |
+
+### 1. THE WINDOW'S THEME: our instruments proxy, and the proxies drift
+
+Two independent instances, both found by using the instruments rather than trusting them.
+
+**(a) `representation_sweep` proxies SUBSTANTIALITY by CLAIM LENGTH.** `CLAIM_FLOOR = 500`. Measured
+on the live tree: 282 arcs screened (**4** unrepresented), **674 invisible** (**154** unrepresented).
+The gate is **98.6% effective on what it sees and blind to 70% of the corpus**. And the proxy fails
+hardest on the dense: the seam family B286–B295 runs **166–197 characters**, and **B286's 182
+characters relocate the programme's central wall** (P011 corrected: the wall is at the closure, not
+in the object).
+
+**(b) `open_claim_sweep` similarity is dominated by PROCESS vocabulary.** Its top hit this window
+pairs THE_SPINE's `B1156` (OPEN) with `B1157` (NEGATIVE) at 27.8 — on *workflow, agents, adversarial,
+seal, refuters*. Sources opened: **B1156 is SEAM-A Gate 2 (arithmetic); B1157 is the ∞-place dynamics
+(archimedean). Different questions.** A false positive produced by both being WF-workflow arcs.
+
+**Neither instrument is wrong about its own metric.** Both measure something adjacent to what they
+are for. That is the window's lesson and it generalises: *a proxy is a place where an instrument
+stops being an instrument and becomes a habit.*
+
+### 2. R53-3 ANSWERED — and the answer is bigger than the item
+
+R53-3 (carried from Review 53): *"extend the sweep from surfaces-to-arcs to arcs-to-surfaces."*
+Measured above. But the **second** defect it exposed is the load-bearing one:
+
+> **`docs/THEOREM_LEDGER.md` and `docs/THE_END_TO_END_CHAIN.md` are not in `representation_sweep`'s
+> `SURFACES` list at all. Nothing has ever checked chain representation.**
+
+That single gap explains this window's three biggest losses: **C25** carried a known-corrected
+sentence for a month into two downstream seats; the **genesis theorem** (A1–A7 ⟹ A = LR,
+machine-checked, banked day nine, lock green) sat uncited by the chain for **three months** while
+appearing on every other surface; the **seam family** — ten arcs — had **one** citation between them
+in the chain, and it was **B288, the negative half**, inside C8. *The spine kept the wall and dropped
+everything standing behind it.* B1243's coverage direction is the first instrument to ask, and it
+covers only 9 hand-pinned results.
+
+### 3. The relay ledger — the count misled, the design is vindicated
+
+`relay_debt` reports **"45 open"**. Decomposed: **42 outbound** (ours, awaiting the other seat — the
+*correct* resting state) and **3 inbound**. Sources opened on all three: one **triaged with a response
+sent**, one **read on this bench**, one **file LOST with the error-class already filed (B1172) and a
+re-send requested**. **Actual inbound debt: ZERO.**
+
+And the lost one **vindicates the instrument**: `CC3_TO_CC_2026-08-09_REVIVABLE_rationale.md` is gone
+from disk, but its **finding, triage and escalation survived in the ledger row** — exactly the loss
+the ledger was built for after the ι-status case. *Third proxy of the window:* a single "open" count
+that merges our debt with their silence.
+
+### 4. The rooms
+
+**claims** — LAW_MAP, THEOREM_LEDGER, CLAIMS: retraction sweep clean; C25's overstatement repaired
+(B1243); C43 gained its group-independence scope and C44 its Borromean sharpening (B1245); C22's
+terminology collision with B287 resolved by scope line rather than asserted past (B1244).
+**the chain** — 43 → 46 links this window; the genesis theorem now cited; C44/C45/C46 admitted.
+**the negatives** — kill graph complete, 0 unrouted; B1244 routed *its own thesis* as the thing it
+killed. **method** — WORKING_RULES/PRACTICES current; TOOLBOX frozen with a visible opt-out (876 lag,
+declared). **speculation** — firewall one-way; the Gate 5 audit found **zero over-fences in 46 items**.
+**logs** — CHANGELOG/PROGRESS_LOG/CAMPAIGN_STATUS carry all six arcs.
+
+### 5. Error classes minted this window
+
+- **E58** — *judged from a summary*: a seat graded another seat's theorem from a third seat's one-line
+  summary; the wrong grade was accepted downstream **within the hour**. *An incorrect correction
+  propagates faster than the error it replaces, because it arrives with authority.*
+- **E59** — *found-but-not-reverified* (owner-named): *"we check the repo we find it and we dont
+  reverify it in the new light."* **A found artifact carries the role it was filed under, not the role
+  you now need.**
+- **Open question for adjudication:** both classes assume a **static source**. A cross-seat dispute
+  this window resolved as neither party's error — the **file moved between reads** (oa-distill's
+  STATEMENTS.md, omission real at 09-02T18:21, fixed by `1002235` at 09-03T12:18). *A claim about a
+  file is time-indexed.* Is this an E58 clause or its own class? **Deferred to the owner.**
+
+### 6. The Gate 5 audit (B1244) — its own thesis refuted
+
+Pre-registered COLD (`d0f05d44`, amended `53d04ea6` before any item was evaluated). 773 raw hits →
+255 live → **46 examined at source**. **ZERO MISLABELED, ZERO over-fences.** **E-1 failed. E-2
+falsified** — C43 is correctly scoped, and the auditor predicted otherwise from the chain's *phrasing*
+without opening B915, the shortcut the audit's own amendment A1 forbids. **The firewall is not
+blocking physics.** Every genuine loss this window was **coverage**, not release.
+
+### Action items (Review 54)
+
+- [x] **R54-1: replace the length proxy.** RESOLVED BY DOCUMENTED REFUSAL (Review 55): the floor is declared a gate threshold in-file, `coverage_candidates.py` compensates, and the in-degree screen was TRIED and rejected on evidence. The two untried candidates carry as R55-1. Screen `representation_sweep` on something structural —
+  `depends_on` in-degree, verdict class, `creates_law` — not on how many characters the author typed.
+  (owner: banking seat)
+- [>] **R54-2: give the chain a coverage CRITERION, not a pin list.** CARRIED as R55-2 (Review 55): `_criterion` exists and is real, but `citation_status.py:131` still reads the pin list alone, so nothing mechanical decides. `CHAIN_COVERAGE.json` is
+  hand-maintained; it caught the genesis theorem only because someone looked. (owner: banking seat)
+- [>] **R54-3: split `relay_debt`'s "open"** CARRIED as R55-3 (Review 55): unmodified in the window; the number grew 45 → 47, still merged. into inbound (our debt) and outbound (awaiting reply).
+  Today's actionable number was 3, reported as 45. (owner: banking seat)
+- [>] **R54-4: sampled disposition pass on the 154** CARRIED as R55-4 (Review 55): re-scoped by measurement ("the backlog is 9, not 154") but NOT executed — no arc received a disposition. unrepresented short arcs — sample, do not grind.
+- [x] **R54-5: the time-indexed-source question** RESOLVED (Review 55): E58 gained its clause, with a lock. — E58 clause or its own class. **(owner)**
+- [>] **R54-6: cc3's PAPERS I–IV are drafted and building** (0 overfull, 0 undefined refs, each with a
+  reproducer and register appendix), open since **2026-08-26**. **Venue, order and arXiv endorsement
+  are owner-gated.** **(owner)**
+- [>] Carried from Review 53: **R53-1** live-lane harvest · **R53-2** cross-seat waits (ex-**R52-5**, ex-R51-5, ex-R50-6) · **R53-4**
+  {C,P} promotion cell · **R53-5** λ's acceptance gate — *the only ledger row with no criterion at
+  all*, carried since Review 50, and after this window a row with no criterion is exactly the shape
+  that survives every audit by being unfalsifiable · **R53-6** owner-electable under the standing HOLD (ex-**R52-6**, ex-R51-6, ex-R50-7; unchanged).
+
+**Next review due after 20 merges from this anchor.**
+
+---
+
+## Review 55 — the instruments the greens rest on (window `c0e9a4a0` → `be6f4cab`, 102 merges)
+
+**Ran by:** cc (banking seat). Evidence gathered by a six-lane read-only fan-out; **every judgment,
+repair and verdict below is the seat's**, per B1216 (fan-out at corpus judgment scored *zero rows
+deleted, one regression*).
+
+### 1. The loop — Review 54's action items
+
+| item | verdict | evidence |
+|---|---|---|
+| **R54-1** replace `representation_sweep`'s length proxy | **RESOLVED BY DOCUMENTED REFUSAL** | `CLAIM_FLOOR = 500` still stands, but B1247 declared it *"a gate threshold, not a measure"* in-file, built `coverage_candidates.py` as a compensating reporter, and **tried the in-degree screen and rejected it on its own evidence** (the motivating seam family has in-degree 1–2). The two other candidates the item named — `verdict class`, `creates_law` — were **never tried**. → **R55-1** |
+| **R54-2** chain coverage **criterion**, not a pin list | **CARRIED** | `_criterion` is real and names a runnable feeder, but `citation_status.py:131` still reads `must_appear_in_chain` alone, and the criterion's own text hands the decision to *"the decadal review."* → **R55-2** |
+| **R54-3** split `relay_debt`'s "open" | **CARRIED** | no first-parent commit to the file in the window; zero `inbound`/`outbound` tokens in `scripts/` or `tests/`; the number **grew 45 → 47**, still merged. → **R55-3** |
+| **R54-4** sampled disposition pass on the 154 | **CARRIED — re-scoped, not executed** | B1247 re-ranked (*"the backlog is 9, not 154"*), but **no arc received a disposition**; 7 of the 10 queue arcs have no triage row, and `REPRESENTATION_TRIAGE.md` says *"the short-claim-lane detector fix remains owed."* → **R55-4** |
+| **R54-5** the time-indexed-source question | **RESOLVED** | E58 gained its clause, with a lock. |
+| **R54-6**, **R53-1/2/4/5/6**, **R52-5** | **carried untouched** | → **R55-5** |
+
+**Correction to Review 54's own record:** it **skipped template item 6 entirely and omitted its
+`anchor-commit:` trailer** — which is why `review-due` counted **102** merges from *Review 53's*
+anchor. **This review covers two windows** and closes that gap.
+
+### 1b. Branch inventory (B763 rule)
+
+33 unmerged refs across **five** remotes. **Live** — the **physics seat's** branch (fc;
+pushed today, harvested at B1293) and the **SM-derivation seat's** branch ( pushed
+today, harvested at B1293). **Frozen-record** — `codex/seat-r001` (head R040, harvested at
+B1238/B1239), `paper/structure-genesis-first` (cc3's Papers I–IV, owner-gated),
+`audit/b775-braver-questions`, the qor5up branch (window closed), the outside-bench branch.
+**Not this repo** — every `golden_gate/*` and `live_golden/*` ref belongs to a **different
+repository** (`originaxiom/golden_gate`), dependabot branches included; struck from the inventory.
+**Zero unclassified. PASS.**
+
+### 2. Declared modulus
+
+**Sampled:** all six required-core lanes over the window. **Read in full:** every arc banked today
+(B1290–B1293), `RETRACTED_PHRASES.md`, `THEOREM_REGISTRY`'s Tier-3 table, R54's action block,
+`retraction_sweep.py`, the supersession gate. **Skimmed:** the 102-merge log; LAW_MAP's 209 rows
+(11 opened against their arcs). **Re-run here:** the retraction sweep before and after repair, all
+31 gates, the supersession gate, the parity census, the 2T surjection counts. **Trusted-green, not
+re-run:** the full suite from the B1291 window (6178 passed). **Cannot certify:** the SM seat's
+vacuum-manifold scan and fc's icosian 4→1 collapse (both carried as harvest at B1293); LAW_MAP's 76
+status-less rows; SEAL_LEDGER's 30 unchecked digests.
+
+### 3. Advancement
+
+**LAW_MAP recorded ZERO advancement: 209 rows at both ends, diff = 3 insertions / 3 deletions, all
+in-place corrections.** No new row, no promotion, no demotion — and **no LAW_MAP row cites any arc
+above B1242.** Advancement landed in `THEOREM_REGISTRY` (9 `creates_law` arcs → 9 rows) and the
+identification ledger (I-20/21/22 EARNED; I-9, I-24 REFUTED).
+
+**Two structural facts explain the zero and matter more than it does.** (a) `BANKING_PROTOCOL`
+requires a LAW_MAP row only for **non-instrument** arcs and `representation_sweep` skips them — and
+**all 26 arcs B1247–B1277 declare `instrument: true`**, exempting the whole window from the surface
+gate and disarming the under-declaration detector. (b) **The strength-class column covers about half
+the file**: **76 of 209 rows have no status column at all** (§F: 53 of 54).
+
+**Status exceeding evidence — one found: `LAW_MAP:64` (H-CUSP).** B1242's correction landed in the
+statement column while the **status column still asserts the refuted clause**. → **R55-6**
+
+### 4. Error-class recurrence
+
+**Ten classes minted this window (E58–E67)** against **E1–E57 across the seven weeks before** — the
+rate is itself a finding. **The dominant recurrence is none of them: it is E53 (surface
+non-propagation), fifteen numbered instances (#8–#22)** plus a dozen the seat labels "E53's shape,"
+including **B1290's 36 silently superseded arcs**.
+
+**E53 recurred inside this review, in my own hand, twice.** The **B1291 registry row still said
+"unrun"** of a computation B1292 ran the same day — I corrected the kill graph and the FINDINGS and
+not the registry; and **B1187 / B189's addendum carried a retracted phrase for nine days**.
+*What standing rule would have caught it:* one that enumerates **every** artifact carrying a claim
+before a correction is called done — kill graph, FINDINGS, **registry**, surfaces. → **R55-7**
+
+**Catch channel, recorded honestly:** by the ledger's own wording **E59, E62, E64, E65, E66 and E67
+were triggered by the owner, a peer seat, or a commissioned adversarial lane**; only E60, E61 and
+E63 came from the bench's own controls — and E63 *"only after the claim had been stated."*
+
+**Unfiled:** E53 instance **#10** (numbering jumps #8–#9 → #11–#12); the six-way **arc-ID collision**
+(second occurrence, no class); **overloaded-term traps** (`face` at six live senses, κ at five);
+**cross-seat priority** (*"main's B1290 was second"*). → **R55-8**
+
+### 5. Provenance spot-sweep
+
+**Strong pretense patterns: CLEAN.** Every hit on *peer review / externally verified / accepted for
+publication* is either the §0 disclaimer or a literature reference.
+
+**But a new ungrounded family entered: 11 instances of "an external reviewer / reader / audit", all
+added this window, none carrying §0's grounding**, and `TERMINOLOGY.md` contradicts itself (line 72
+records the phrase retired in favour of *"the audit seat"*; line 324, added this window, uses it).
+The direction is safe — every instance credits an outsider with finding an **error**, never with
+endorsing a positive — but **nothing mechanical enforces the phrase list**: no gate, no test scans
+for it. → **R55-9**
+
+**`papers/P3_THE_PAPER/main.tex` carries no verification-provenance statement**, unlike
+`papers/structure_paper/SKELETON.md`. → **R55-10**
+
+**Unglossed load-bearing terms:** *dividing set, parity theorem, listener map, founding ratio*. →
+**R55-11**
+
+### 6. The §5.1 promotion sweep *(owed for two windows — Review 54 ran none)*
+
+**Zero §5 promotions:** `CLAIMS.md`, `LAW_MAP.md`, `THEOREM_LEDGER.md`, `OPEN_LEADS.md` are
+byte-identical across the sub-window. Two `THEOREM_REGISTRY` rows moved (B1248, B1291). **Two strong
+candidates sit unpromoted: B1259 and B1260 §1.** → **R55-12**
+
+### 7. Protocol integrity — the review's headline
+
+**31/31 gates PASS and all 49 recorded seal digests verify.** The greens were thinner than they read.
+
+- **REPAIRED — `retraction_sweep` parsed 9 of the registry's 21 rows.** The gate that *certifies
+  retraction discipline* was blind to **12 phrases for nine days**. Widened to both table formats
+  (**17 phrases**). **The naive widening was wrong twice and I caught both by running it:** sweeping
+  `sin²θ_W = 3/8` reds ~25 **correct** uses (only the *selecting* reading was retracted), and
+  sweeping `mirror-odd` reds B1168/B1169 (the term is correct for the **orientation** bit). **Rule
+  adopted: take the phrase only when the tail is empty or parenthetical; when a row retracts a
+  READING, the bare phrase stays legitimate.** The repaired sweep then found **2 genuine live
+  uses** — B1187's own FINDINGS and B189's addendum — **both corrected at source** — plus one
+  legitimate mention (B1188's correction banner), taught to the cue list.
+- **REPAIRED — `supersession-backlinks`, minted this window by me, skipped a malformed forward
+  edge.** B239 declares `"supersedes": "B234, B235"` — one string, two ids; the gate looked for an
+  arc of that literal name and **silently exempted both**. It now splits on commas; **B234 and B235
+  back-linked, verdicts untouched.**
+- **REPAIRED — my B1291 registry row called a RUN computation "unrun."** Also annotated as the
+  registry's **first row whose arc verdict is NEGATIVE while the theorem status is PROVED** (a no-go
+  can be proved; the column tracks the theorem). The other 8 rows are PROVED/PROVED.
+- **OPEN — `gate_seal_provenance` is green while four post-2026-08-08 preregs (B1102, B1104, B1137,
+  B1244) carry neither required marker**: it iterates ledger rows, not preregistrations. **E66's
+  shape.** → **R55-13**
+- **OPEN — `SEAL_LEDGER.md`'s generated table is ~530 arcs stale** (highest arc B764; 291 sealed docs
+  on disk, 196 rows) **and no gate watches it.** → **R55-14**
+- **OPEN — `gate_seal_digests` recomputes 19 of 49 digests (39%)** against a docstring saying it
+  recomputes every one. → **R55-15**
+- **OPEN — 6 of 31 gates have a planted-violation test; 20 have no test at all.** → **R55-16**
+
+### Action items (Review 55)
+
+- [>] R55-1: try `verdict class` and `creates_law` as representation_sweep screens -- the two R54-1 named and nobody tested (owner: cc; source: R54-1)
+- [>] R55-2: make CHAIN_COVERAGE's _criterion machine-read; citation_status.py:131 still reads the pin list alone (owner: cc; source: R54-2)
+- [>] R55-3: split relay_debt's "open" into inbound/outbound (owner: cc; source: R54-3, now 47)
+- [>] R55-4: give the 10-arc in-degree queue actual dispositions; fix the short-claim-lane detector (owner: cc; source: R54-4)
+- [>] R55-5: cc3's Papers I-IV owner-gated since 2026-08-26 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6 -- the cross-seat-waits item has been carried since Review 50 under four earlier keys; Review 55's first draft dropped them and the review-actions gate caught the silent drop, twice, which is exactly what it is for)
+- [>] R55-6: LAW_MAP:64 H-CUSP status column asserts a clause B1242 refuted (owner: cc; source: advancement lane)
+- [>] R55-7: a correction is not done until EVERY artifact carrying the claim is updated -- kill graph, FINDINGS, registry, surfaces; make it a checklist a gate can read (owner: cc; source: E53 x2 in this review)
+- [>] R55-8: file E53 instance #10; mint classes for the arc-ID collision, overloaded-term traps, and cross-seat priority (owner: cc)
+- [>] R55-9: ground or retire the 11 "external reviewer/reader/audit" instances; reconcile TERMINOLOGY:72 vs :324; add a gate for the pretense phrase list (owner: cc; source: E10)
+- [>] R55-10: papers/P3_THE_PAPER/main.tex needs a verification-provenance statement (owner: cc)
+- [>] R55-11: gloss "dividing set", "parity theorem", "listener map", "founding ratio" in TERMINOLOGY.md (owner: cc)
+- [>] R55-12: process B1259 and B1260 section 1 through 5.1, or defer with the blocker named (owner: cc)
+- [>] R55-13: gate_seal_provenance must iterate PREREGISTRATIONS, not ledger rows -- 4 seals are unmarked and green (owner: cc)
+- [>] R55-14: regenerate SEAL_LEDGER.md (~530 arcs stale) and put it under a currency gate (owner: cc)
+- [>] R55-15: gate_seal_digests recomputes 19 of 49 -- make it match its docstring or fix the docstring (owner: cc)
+- [>] R55-16: 20 of 31 gates have no test, 25 have no planted violation; start with the certifying gates (owner: cc; source: E66/E67)
+
+**anchor-commit: `be6f4cab`**
+
+---
+
+## Review 56 — the debt made visible (window `be6f4cab` → `eb9db7fa`, 21 merges)
+
+**Ran by:** cc (banking seat), no fan-out; every count below was re-run on this bench during the review
+(the harvest gate, the sense census on two trees, `doc_currency`, `open_claim_sweep`, the provenance greps,
+all 32 gates). **The headline is not an instrument repair this time. It is a number: main has never written
+down most of what the other seats have produced, and as of this window an instrument counts it.**
+
+### 0. The headline — the harvest gate's first strict report (B1307, `gates.py review-due`)
+
+| seat | head / pin | index | rows | NEW unrowed | BACKLOG | relays without a row |
+|---|---|---|---|---|---|---|
+| SM-derivation | ca850d6b / 0dffacd4 (+3) | 31 | 18 | 4 | 21 | 0 / 2 |
+| physics (fc) | 659487bb (+0) | 74 | 7 | 0 | 70 | 3 / 4 |
+| codex | f7a49536 (+0) | 44 | 0 | 0 | 44 | 38 / 43 |
+| cc3 (paper) | a31456d2 (+0) | 87 | 0 | 0 | 87 | 176 / 184 |
+| hostile-review | 6fc86147 (+0) | 29 | 1 | 0 | 27 | 0 |
+| cloud | 02a885ca / 792918b7 (+3) | 155 | 17 | 2 (memos 183, 184) | 142 | 0 / 1 |
+| cc3 (braver) | 53da05f6 (+0) | 6 | 1 | 0 | 5 | 131 / 150 |
+| consolidation (qor5up) | 3851df2a (+0) | 30 | 0 | 0 | 30 | 0 |
+| audit | 6f862099 (+0) | 38 | 25 | 0 | 2 | 0 |
+| **total** | | **494** | 69 | **6** | **428** | **348** |
+
+**What the 428 is and is not.** The ledger opened on 2026-09-08; roughly half of the backlog is work main
+integrated earlier under older arcs and never gave a row (the cloud's 51 memos the B1305 table marks
+HARVESTED, the hostile seat's memos 1–29 banked as B1144/B1145, the codex cells behind B1215/B1238/B1239,
+cc3's arcs behind the B8xxx harvests); the other half was never read here at all — and that half holds
+physics (cc3's positivity bridge and cusped gap, fc's exact e₈ and Tits lift, codex R033's listener
+identification, the hostile seat's beat trilogy). The instrument cannot tell the halves apart until the
+rows exist. **The rule this review runs under says a review cannot close with unread seat results.** At
+428 the literal reading blocks every review indefinitely; the owner's direction (2026-09-09) is the honest
+form: **the debt is escalated by name with a dated payment order (R56-1) and B1306 slices B–D pay it,
+newest first.** The first two payments are already named by the gate: the SM seat's three commits past its
+pin (the positive half of its tower law proved; the V₁₀ obstruction stages of sm:B1350, which is main's
+L204) and the cloud's memos 183–184 (a printed quantum A-polynomial for m(5₂) that does not annihilate F⁺;
+its tail a false theta — Phase 3 input and a correction to the literature, to be handled with care).
+
+### 1. The loop — Review 55's action items
+
+| item | verdict | evidence |
+|---|---|---|
+| **R55-1** representation_sweep screens | **CARRIED** | zero commits to `representation_sweep.py` / `coverage_candidates.py` in the window |
+| **R55-2** CHAIN_COVERAGE criterion machine-read | **CARRIED** | `citation_status.py` untouched |
+| **R55-3** split relay_debt's "open" | **CARRIED — two repairs landed beside it** | B1307 widened `RELAY_RE` to every sender token (the SM/FC/FAB5/CHAT1 lanes were invisible, B1172's repair recurring) and made `ROW_RE` tolerate text after the name (**four BANKED rows had been silently unparsed**; 44 banked was 51). The inbound/outbound split is still absent (0 tokens); OPEN **47 → 53**, still merged |
+| **R55-4** dispositions for the in-degree queue | **CARRIED** | `REPRESENTATION_TRIAGE.md` untouched |
+| **R55-5** cc3's Papers I–IV | **CARRIED** (owner-gated since 2026-08-26; R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6) | unchanged |
+| **R55-6** LAW_MAP:64 H-CUSP status | **CARRIED** | LAW_MAP has 219 rows at both ends and a **zero diff** |
+| **R55-7** correction = every artifact | **CARRIED → the E53 surface-propagation check is the next instrument arc (Phase 4 (1))** | this review found two fresh instances in living surfaces (§4) |
+| **R55-8** file E53 #10; mint three classes | **PARTLY RESOLVED** | #10 was a numbering gap with no recorded instance: **retired by note**; **E71 minted** (the branch-local-numbering class, three occurrences in a month); overloaded-term traps and cross-seat priority **not minted** — one documented instance each; minted at the second → **R56-4** |
+| **R55-9** "external reviewer/reader/audit" | **CARRIED** | family 15 → 17, both new hits are Review 55's own sentences naming the phrase; TERMINOLOGY:72 vs :324 unchanged; no pretense-phrase gate (0 tokens in `gates.py`) |
+| **R55-10** main.tex provenance statement | **NARROWED** | `main.tex` was untouched in the window and already carries the generated appendix *"where each claim is verified"* (`paper_provenance.py --tex`) and the abstract's *"cross-verified by independent internal pipelines"* — Review 55's "no statement" overstated. What is absent is the one-sentence §0 disclaimer (*all verification internal; no external review*). Narrowed to that sentence; the paper lead's call → **R56-10** |
+| **R55-11** four glosses | **CARRIED** | `TERMINOLOGY.md` (repo root — Review 55 pointed at `docs/`) still has 0 of the four |
+| **R55-12** B1259 / B1260 §1 through §5.1 | **HALF RESOLVED** | B1259 **scoped** by B1304 (E70: the isolation theorem is about elements, not the class) — its candidacy as a class-wide negative is withdrawn, its element census stands; B1260 §1 unprocessed → carried |
+| **R55-13 / R55-14 / R55-15** the seal gates | **CARRIED** | no seal-related line of `gates.py` changed; `SEAL_LEDGER.md` 0 commits |
+| **R55-16** gates without tests | **PROGRESS, CARRIED** | 31 → 32 gates; the new one ships a five-plant selftest, a live control and a lock; by the weaker measure "named in some test" 20 of 32 are covered — `firewall-oneway`, `append-only`, `views-fresh`, `id-collisions`, `knowledge-index`, `path-refs`, `views-generated`, `practices-register`, `seal-provenance`, `seal-digests`, `chain-locks`, `law-map-provenance` are named by none |
+
+### 1b. Branch inventory (B763 rule)
+
+25 refs: **origin 9, codeberg 9, golden_gate 7**. **Live** — the SM-derivation seat's branch (3 commits past
+main's pin) and the cloud's (3 commits past). **Frozen-record, each now PINNED** — fc (659487bb, 2026-09-06),
+codex (f7a49536), cc3's paper branch (a31456d2), the braver-questions and qor5up branches, the audit seat
+(6f862099). **Not this repo** — six `golden_gate/*` refs (main + dependabot) struck; the seventh,
+`paper-hostile-review-alero0`, is a seat of this programme (memos 1–29) and stays in the harvest gate's
+table with its own pin. **Mirror lag** (codeberg behind origin on the cloud and SM branches): the seats
+push to origin only; **reported, not repaired, by the owner's decision.** Zero unclassified. **PASS.**
+
+### 2. Declared modulus
+
+**Read in full:** every arc banked this window (B1294–B1307, all written on this bench) and the seat items
+each of them verified (sm:B1280–B1283, sm:B1300–B1304, sm:B1350 stages 0–3; fc R49, R69–R72; audit R0–R20;
+cloud memos 156–182 and its relay; the session-relay seat's two packages; the A–M corpus by text search);
+Review 55's action block; `relay_debt.py`; each seat's own index file. **Re-run here during the review:**
+all 32 gates; `harvest_debt.py` (selftest, live, the pin-override control); the sense census on HEAD and at
+`31dd52b9`; `doc_currency`; `open_claim_sweep` (49 open claims with a strongly matching settled arc — the
+same shape as before, none new to this window); the provenance greps at both window ends. **Suite:** the
+full lane with `OA_SLOW=1` was launched on `eb9db7fa` at 22:44 on this bench and its result is recorded in
+the landing entry (CHANGELOG / PROGRESS_LOG) — the review text is written before it returns and says so.
+**Trusted, not re-run today:** the seat scripts' receipts (each re-run inside its harvest arc, pinned).
+**Cannot certify:** the 428 backlog items, by definition; the SM seat's three new commits and the cloud's
+memos 183–184 beyond their headlines.
+
+### 3. Advancement
+
+**LAW_MAP recorded ZERO advancement for the second window running: 219 rows at both ends, no diff, highest
+arc cited B1242** — while **eleven non-instrument PROVED arcs landed, three of them law-creating**. Review
+55's diagnosis (a) — the `instrument: true` exemption — did **not** recur (only B1307 declares it); the
+zero is now the surface's own: advancement lands in `THEOREM_REGISTRY` (**+7 rows**: T-MIRROR-ODD-VANISHES
+with its third and fourth regimes, T-CUSP-PARITY-EXCLUDES-THREE, T-CLOSED-CLOSING-COUNTS-TWO-OR-NOTHING,
+T-CHARGE-LOCUS-PARITY-LOCK, T-ONE-CUSP-INDEX, T-GALOIS-SELF-DUALITY, T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE),
+the identification ledger (**I-27** UNEARNED and priced, **I-28**), `OPEN_LEADS` (**43 → 49**: L200–L205),
+the kill graph (+3 nodes), `FALSIFIER_REGISTER` (**P9**, the Z′ fork), and four new surfaces
+(`TOE_REQUIREMENTS_LEDGER`, `FRESH_EYES_2026-09`, `HARVEST_LEDGER` with its pins, the prior-art dossier's
+Entry 5). **LAW_MAP is 65 arcs behind on its own terms** → **R56-2**: living or frozen, decided, not drifted.
+**Status exceeding evidence:** none new; R55-6 stands.
+
+### 4. Error-class recurrence
+
+**Three classes minted (E68 fabricated quotation; E69 unasserted verdict string; E70 quantifier
+interchange)** and instances of E39 (#2), E52 (B915's solver), E54 (cross-seat), E58's shape (B1297's
+reading of Pantev–Wijnholt). **E53 stays dominant and was under-filed:** three corrections at source this
+window (B1294/B1297's missing B1227 anchor; B1305 A's forward list carrying B1301's superseded reading;
+MAIN_GOAL/CAMPAIGN_STATUS/B1293/B1294 saying "the SM gauge algebra is reached" without the rank-5 vacuum)
+were recorded in FINDINGS and **not numbered in the ledger until this review — now #23–#25**. **This review
+found two more in living surfaces, both repaired in this landing:** `THE_SM_VERDICT.md` (last touched
+2026-09-06) carried neither B1294's sentence nor B1303's tree-level vacuum (**#26**); `MAIN_GOAL.md` JOIN 3
+still called the E₆(−14)/E₆(−26) fork one *"that no arc crosses"* eight days after **B1265 derived it as a
+rank obstruction** — the plan's own Phase 4 (2) item (**#27**). **E71 minted:** the BRANCH-LOCAL-NUMBERING
+class — an arc number taken on a branch collides with main's because the request lives on the branch
+until a harvest (B1267–B1276 vs main's B1267/B1272–B1277; B1277 twice; B1302–B1304 twice), fix = B1307's
+gate and the reserved ranges. **Catch channel, honestly:** E68 (the session-relay seat), E69 (fc), E54 (a
+cross-seat claim), E70 (the audit seat's counterexample) came from outside this bench; E39 #2, the E53s and
+E71's diagnosis from its own controls and this review.
+
+### 5. Provenance spot-sweep
+
+**Strong pretense patterns: CLEAN** — 15 → 16 hits, the new one is Review 55's own sentence naming the
+patterns. **The "external reviewer / reader / audit" family: 15 → 17, both new hits again Review 55's own
+text**; the 11 substantive instances are unchanged, `TERMINOLOGY.md:72` (the phrase retired) and `:324` (the
+phrase used) still coexist, and nothing mechanical enforces the list. Carried as R55-9. `PROVENANCE.md`'s
+§0 remains the only grounding.
+
+### 6. The §5.1 promotion sweep
+
+**Zero promotions:** `CLAIMS.md` and `docs/THEOREM_LEDGER.md` are **byte-identical across the window** (the
+third window running for CLAIMS; `doc_currency` puts its declared lag at **225 arcs**). **Candidates,
+unpromoted:** the seven registry rows above; B1303's SM × U(1)_Z′ tree-level vacuum (structure, with P9);
+the SM seat's 2×2 tower criterion (proved on two benches, B1306 A); and R55-12's B1260 §1. **The promotion
+lane is idle because its surfaces are** — that is a currency debt older than two reviews, escalated by name
+in §7a → **R56-3**.
+
+### 7. Protocol integrity
+
+- **32/32 gates PASS; `harvest-debt` adopted with two-sided controls (five synthetic plants that can fail;
+  a live pin-override control that grew one seat's sets by exactly the ids of the commits entering the
+  range).** `relay-debt` repaired twice (§1, R55-3). `views`, `atlas`, `seal-digests`, `retraction-sweep`
+  green. **One transient pre-push failure** on 2026-09-09: the hook blocked a push and passed on retry with
+  an identical tree; the failing gate's line was lost to a truncated capture → **R56-9** (the hook keeps
+  its output).
+- **7a — `doc_currency` (pasted):** `4 DECLARED DEBTS — CLAIMS.md: B1082 vs B1307 (lag 225), declared 2026-08-09
+  (B984): 129 arcs stale · docs/GUT_REQUIREMENTS_LEDGER.md: B1102 vs B1307 (lag 205), declared 2026-08-09: 31 arcs
+  stale · docs/THEOREM_LEDGER.md: B1245 vs B1307 (lag 62), declared 2026-08-09: 63 arcs stale · docs/TOOLBOX.md:
+  B370 vs B1307 (lag 937), declared 2026-08-09: 613 arcs stale, frozen (visible opt-out) · ok (18 living documents
+  current)`. **All four debts were declared on 2026-08-09 and are now older than two reviews: ESCALATED BY
+  NAME** — CLAIMS.md and THEOREM_LEDGER.md (**R56-3**, they are the promotion surfaces of §6);
+  GUT_REQUIREMENTS_LEDGER (**R56-6**: superseded in substance by `TOE_REQUIREMENTS_LEDGER`, created B1304 —
+  mark it so or refresh it); TOOLBOX.md (**R56-7**: frozen since B370 while the owner's protocol says read
+  the toolset first — `TOOLBOX_LIVE.md` exists and the router names it; say so where the protocol points).
+- **7b — the rooms.** *Claims:* `RETRACTED_PHRASES` gained 7 rows this window and the sweep is green;
+  LAW_MAP:64 still overstates (R55-6). *The chain:* `THE_SM_VERDICT.md` predated B1294 and B1303 — **a dated
+  currency banner is added in this landing** naming the three results it lacked (the object counts 2 at
+  every fixed locus; the SM closing's tree-level vacuum is SM × U(1)_Z′; Y₁₂ a second SM closing with the
+  tower computable); `THE_FRAMEWORK.md` (2026-09-02) and `UNIQUENESS_THEOREM.md` (reference) stand.
+  *The negatives:* the kill graph gained B1295–B1297; **`THE_LADDER.md` (2026-08-25) cites none of
+  B1290–B1307 — its chirality rungs predate the theorems that settled them → R56-5.** *Method:*
+  `WORKING_RULES` and `PRACTICES` were updated for B1307; `BANKING_PROTOCOL.md` (2026-08-21) does not name
+  the DESIGN-sealed-before-compute convention that every arc of this window practised → **R56-8**.
+  *Speculation & philosophy:* zero commits under `speculations/ philosophy/ story/ knowledge/`; the
+  firewall gate is green. *Interpretation & easy-read:* `docs/INDEX.md` (2026-08-21) listed none of the
+  five surfaces created this window — **routed and re-stamped in this landing**; `README.md`'s currency
+  banner re-stamped. *Logs:* all twelve window arcs are in CHANGELOG, PROGRESS_LOG and CAMPAIGN_STATUS;
+  the LATEST line describes the present.
+- **7c — the named chain** (files in `docs/` + `frontier/` naming each waypoint): aAbB 82 · A1–A7 12 ·
+  SL(n) 215 · metallic 971 · figure-eight 1050 · monodromy 806 · cusp 1194 · seam 627 · torus 830 ·
+  puncture 347 · **Markov blanket 22** (was 0 on 2026-08-09; the conflation hazard with Markov triples is
+  unchecked file by file) · **feedback mechanism 7** (was 2) · symmetry breaking 67 · gauge group 161.
+  The two thin waypoints are still the thin ones.
+- **7d — the standard.** A reader arriving today would have been misled by two living surfaces
+  (`THE_SM_VERDICT`, `MAIN_GOAL` JOIN 3) — both repaired in this landing — and is still exposed to
+  LAW_MAP:64 (R55-6), THE_LADDER's silence on the chirality theorems (R56-5), and CLAIMS.md's declared
+  129-arc lag (R56-3). **The review asserts the standard with those three named.**
+
+### Action items (Review 56)
+
+- [ ] R56-1: THE HARVEST DEBT — 428 seat items and 348 seat-branch relays without a row, **ESCALATED(2026-09-09, B1307)**; payment order: (a) the SM seat's three commits past its pin (the tower law's positive half; sm:B1350's obstruction stages = L204) and cloud memos 183–184 → B1306 slice B; (b) the never-read physics items (cc3 B8081/B8082/B8083/B8102; fc R64–R67; codex R033; hostile memos 16–21) → slices C/D; (c) rows for the harvested-earlier items (the cloud table's 51 H; hostile → B1144/B1145; codex → B1215/B1238/B1239; cc3 → the B8xxx harvests) → slice D; pins advance per slice; `review-due --strict` reports the remainder at Review 57 (owner: cc)
+- [ ] R56-2: LAW_MAP — a second zero-advancement window with eleven non-instrument PROVED arcs banked and three law-creating; decide living-or-frozen: route the seven registry rows in with status columns, or declare the debt in `doc_currency` (owner: cc; source: §3, R55-1)
+- [ ] R56-3: CLAIMS.md (lag 225) and THEOREM_LEDGER.md (lag 62), debts declared 2026-08-09, ESCALATED BY NAME — run the §5 gates on the seven registry rows or declare both surfaces superseded by THEOREM_REGISTRY (owner: cc; source: 7a, §6)
+- [ ] R56-4: mint the overloaded-term-trap and cross-seat-priority classes at their second documented instance (E71 done) (owner: cc; source: R55-8)
+- [x] R56-5 (done 2026-09-09, same day: THE_LADDER carries the dated pointer note): THE_LADDER.md cites none of B1290–B1307; cite the theorems on its chirality rungs or mark those rungs superseded (owner: cc; source: 7b)
+- [x] R56-6 (done 2026-09-09, same day: doc_currency's declared debt names TOE_REQUIREMENTS_LEDGER as the successor): GUT_REQUIREMENTS_LEDGER (lag 205): mark superseded-by TOE_REQUIREMENTS_LEDGER or refresh (owner: cc; source: 7a)
+- [x] R56-7 (done 2026-09-09, same day: doc_currency's declared debt names TOOLBOX_LIVE.md as the read-first toolset): TOOLBOX.md frozen since B370 (lag 937): state where the owner's read-the-toolset protocol points that TOOLBOX_LIVE.md is the current toolset (owner: cc; source: 7a)
+- [x] R56-8 (done 2026-09-09, same day: BANKING_PROTOCOL Part I gains the seal paragraph): BANKING_PROTOCOL.md: one paragraph on the DESIGN-sealed-before-compute convention (sha256; re-seal only with the original seal recorded) (owner: cc; source: 7b method)
+- [x] R56-9 (done 2026-09-09, same day: the hook tees its output to .git/pre-push-gates.log): the pre-push hook keeps its full output (tee to a log) so a transient failing gate's name survives (owner: cc; source: §7)
+- [x] R56-10 (done 2026-09-09, same day: main.tex's abstract carries the sentence): the one-sentence §0 disclaimer for `papers/P3_THE_PAPER/main.tex` (all verification internal; no external review) — the paper lead's call (owner: cc; source: R55-10, narrowed)
+- [>] R55-1 (ex-R54-1), R55-2 (ex-R54-2), R55-4 (ex-R54-4), R55-6, R55-7, R55-9, R55-11, R55-13, R55-14, R55-15 carried unchanged with the evidence in §1; R55-3 (ex-R54-3) carried with two repairs beside it (OPEN 47 → 53); R55-12 carried for B1260 §1 (B1259 scoped, E70); R55-16 carried with progress (20 of 32 gates named by a test) (owner: cc)
+- [>] R55-5: cc3's Papers I–IV owner-gated since 2026-08-26 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6) (owner: the owner)
+
+*Same-day progress on R56-1 (2026-09-09, after the review's anchor): slices B, C and D of B1306 landed (the SM seat's three commits and the cloud's memos 182–184 VERIFIED; the never-read physics items re-run 17/17 and re-derived 8/8; every seat-index item rowed — 292 SCHEDULED remain and the gate counts them); B1320 (Phase 2 Arc 0), B1321 (L205) and B1322 (L204 closed) landed; the chat1 handoff banked. The item stays open until the 292 are read.*
+
+**anchor-commit: `eb9db7fa`**

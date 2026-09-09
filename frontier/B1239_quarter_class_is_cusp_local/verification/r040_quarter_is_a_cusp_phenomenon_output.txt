@@ -1,0 +1,162 @@
+[closed 0] {'amphichiral': {'zero': 0, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 0, 'quarter': 0, 'other': 1}}  undecided=0 cs_fail=0  t=0s
+[closed 500] {'amphichiral': {'zero': 8, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 5, 'quarter': 0, 'other': 488}}  undecided=0 cs_fail=0  t=1s
+[closed 1000] {'amphichiral': {'zero': 14, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 5, 'quarter': 0, 'other': 982}}  undecided=0 cs_fail=0  t=3s
+[closed 1500] {'amphichiral': {'zero': 21, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 7, 'quarter': 6, 'other': 1467}}  undecided=0 cs_fail=0  t=5s
+[closed 2000] {'amphichiral': {'zero': 22, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 7, 'quarter': 6, 'other': 1966}}  undecided=0 cs_fail=0  t=6s
+[closed 2500] {'amphichiral': {'zero': 26, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 7, 'quarter': 6, 'other': 2462}}  undecided=0 cs_fail=0  t=8s
+[closed 3000] {'amphichiral': {'zero': 29, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 7, 'quarter': 6, 'other': 2959}}  undecided=0 cs_fail=0  t=10s
+[closed 3500] {'amphichiral': {'zero': 29, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 7, 'quarter': 6, 'other': 3459}}  undecided=0 cs_fail=0  t=12s
+[closed 4000] {'amphichiral': {'zero': 30, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 7, 'quarter': 6, 'other': 3958}}  undecided=0 cs_fail=0  t=14s
+[closed 4500] {'amphichiral': {'zero': 33, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 7, 'quarter': 6, 'other': 4455}}  undecided=0 cs_fail=0  t=16s
+[closed 5000] {'amphichiral': {'zero': 34, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 7, 'quarter': 9, 'other': 4951}}  undecided=0 cs_fail=0  t=17s
+[closed 5500] {'amphichiral': {'zero': 36, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 8, 'quarter': 9, 'other': 5448}}  undecided=0 cs_fail=0  t=19s
+[closed 6000] {'amphichiral': {'zero': 36, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 8, 'quarter': 9, 'other': 5948}}  undecided=0 cs_fail=0  t=21s
+[closed 6500] {'amphichiral': {'zero': 36, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 9, 'quarter': 9, 'other': 6447}}  undecided=0 cs_fail=0  t=23s
+[closed 7000] {'amphichiral': {'zero': 36, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 9, 'quarter': 9, 'other': 6947}}  undecided=0 cs_fail=0  t=25s
+[closed 7500] {'amphichiral': {'zero': 36, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 9, 'quarter': 9, 'other': 7447}}  undecided=0 cs_fail=0  t=27s
+[closed 8000] {'amphichiral': {'zero': 36, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 10, 'quarter': 13, 'other': 7942}}  undecided=0 cs_fail=0  t=29s
+[closed 8500] {'amphichiral': {'zero': 37, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 10, 'quarter': 13, 'other': 8441}}  undecided=0 cs_fail=0  t=31s
+[closed 9000] {'amphichiral': {'zero': 37, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 10, 'quarter': 13, 'other': 8941}}  undecided=0 cs_fail=0  t=33s
+[closed 9500] {'amphichiral': {'zero': 37, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 10, 'quarter': 13, 'other': 9441}}  undecided=0 cs_fail=0  t=35s
+[closed 10000] {'amphichiral': {'zero': 37, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 10, 'quarter': 13, 'other': 9941}}  undecided=0 cs_fail=0  t=37s
+[closed 10500] {'amphichiral': {'zero': 37, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 10, 'quarter': 13, 'other': 10441}}  undecided=0 cs_fail=0  t=39s
+[closed 11000] {'amphichiral': {'zero': 37, 'quarter': 0, 'other': 0}, 'chiral': {'zero': 10, 'quarter': 17, 'other': 10937}}  undecided=0 cs_fail=0  t=41s
+CLOSED: {
+ "n": 11031,
+ "table": {
+  "amphichiral": {
+   "zero": 37,
+   "quarter": 0,
+   "other": 0
+  },
+  "chiral": {
+   "zero": 10,
+   "quarter": 17,
+   "other": 10967
+  }
+ },
+ "undecided": 0,
+ "cs_fail": 0,
+ "max_dist_in_class": {
+  "amphichiral": 7.771561172376096e-16,
+  "chiral": 1.1657341758564144e-15
+ },
+ "examples": {
+  "amphichiral_quarter": [],
+  "chiral_quarter": [
+   [
+    "s775",
+    0.24999999999999933
+   ],
+   [
+    "s778",
+    0.25000000000000083
+   ],
+   [
+    "s779",
+    0.24999999999999917
+   ],
+   [
+    "m395",
+    0.24999999999999972
+   ],
+   [
+    "s787",
+    0.24999999999999972
+   ]
+  ],
+  "amphichiral_zero": [
+   [
+    "m034",
+    -1.6653345369377348e-16
+   ],
+   [
+    "m082",
+    3.0531133177191805e-16
+   ],
+   [
+    "m078",
+    -1.6653345369377348e-16
+   ],
+   [
+    "m168",
+    -2.220446049250313e-16
+   ],
+   [
+    "m100",
+    1.1102230246251565e-16
+   ]
+  ]
+ }
+}
+[cusped 0] {'amphichiral': {'zero': 0, 'quarter': 1, 'other': 0}, 'chiral': {'zero': 0, 'quarter': 0, 'other': 0}}  undecided=0  t=41s
+[cusped 500] {'amphichiral': {'zero': 4, 'quarter': 3, 'other': 0}, 'chiral': {'zero': 1, 'quarter': 0, 'other': 493}}  undecided=0  t=41s
+[cusped 1000] {'amphichiral': {'zero': 6, 'quarter': 4, 'other': 0}, 'chiral': {'zero': 2, 'quarter': 0, 'other': 989}}  undecided=0  t=42s
+[cusped 1500] {'amphichiral': {'zero': 14, 'quarter': 11, 'other': 0}, 'chiral': {'zero': 3, 'quarter': 0, 'other': 1473}}  undecided=0  t=42s
+[cusped 2000] {'amphichiral': {'zero': 14, 'quarter': 11, 'other': 0}, 'chiral': {'zero': 3, 'quarter': 0, 'other': 1973}}  undecided=0  t=42s
+[cusped 2500] {'amphichiral': {'zero': 14, 'quarter': 11, 'other': 0}, 'chiral': {'zero': 3, 'quarter': 0, 'other': 2473}}  undecided=0  t=42s
+CUSPED: {
+ "n": 3000,
+ "table": {
+  "amphichiral": {
+   "zero": 14,
+   "quarter": 11,
+   "other": 0
+  },
+  "chiral": {
+   "zero": 3,
+   "quarter": 0,
+   "other": 2972
+  }
+ },
+ "undecided": 0,
+ "by_num_cusps": {
+  "1": {
+   "amphichiral": {
+    "zero": 9,
+    "quarter": 11,
+    "other": 0
+   },
+   "chiral": {
+    "zero": 3,
+    "quarter": 0,
+    "other": 2873
+   }
+  },
+  "2": {
+   "amphichiral": {
+    "zero": 5,
+    "quarter": 0,
+    "other": 0
+   },
+   "chiral": {
+    "zero": 0,
+    "quarter": 0,
+    "other": 98
+   }
+  },
+  "3": {
+   "amphichiral": {
+    "zero": 0,
+    "quarter": 0,
+    "other": 0
+   },
+   "chiral": {
+    "zero": 0,
+    "quarter": 0,
+    "other": 1
+   }
+  }
+ }
+}
+VERDICT: {
+ "closed_amphichiral_quarter": 0,
+ "closed_amphichiral_total": 37,
+ "closed_chiral_quarter": 17,
+ "cusped_amphichiral_quarter": 11,
+ "cusped_amphichiral_total": 25,
+ "prediction_holds": true,
+ "detector_bites": true
+}
+done in 43s
+rc=0

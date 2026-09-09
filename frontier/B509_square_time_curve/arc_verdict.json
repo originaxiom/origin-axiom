@@ -1,12 +1,13 @@
 {
- "id": "B509",
- "verdict": "PROVED",
- "claim_one_line": "The square-time curve has rank 0 (proved) and is 40a3; the isogeny fact is FLAGGED, not interpreted.",
- "instrument": false,
- "depends_on": [
-  "B508"
- ],
- "superseded_by": null,
- "stratum": "B",
- "authored_by": "W1-pilot"
+  "id": "B509",
+  "verdict": "PROVED",
+  "claim_one_line": "The square-time curve has rank 0 (proved) and is 40a3; the isogeny fact is FLAGGED, not interpreted.",
+  "instrument": false,
+  "depends_on": [
+    "B508"
+  ],
+  "superseded_by": null,
+  "stratum": "B",
+  "authored_by": "W1-pilot",
+  "note": "B1238 (2026-09-02): the flag resolves UPWARD. This arc's curve d^2 = (c^2-1)(c^2-5) IS the figure-eight character variety (4*Phi = (2z-x^2-1)^2 - (x^2-1)(x^2-5), c = x the meridian trace; B211's '40a1' was the wrong member of the class). The Rationality Theorem (rank 0, re-confirmed by ellrank) is therefore a statement about X^na(Q) = {(+-1, 1), two points at infinity}. Identification I-12 EARNED (curves only; the meaning of square time is not asserted). See ADDENDUM_2026-09-02_B1238.md."
 }

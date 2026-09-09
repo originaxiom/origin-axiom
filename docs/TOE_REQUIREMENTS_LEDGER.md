@@ -1,0 +1,67 @@
+# THE ToE REQUIREMENTS LEDGER — what a theory of everything must supply, what this record supplies, and what it declares as input
+
+*Companion to `GUT_REQUIREMENTS_LEDGER.md` and `SM_SPECIFICATION_LEDGER.md`, one level up. Opened 2026-09-09 (B1304, MASTERPLAN v3.1 §7 (4)
+pulled forward): the audit seat's `PHYSICS_BOTTLENECKS.md` §1 listed the inputs of the record's conditional 4d theories, and the plan's
+Phase 4 asked for exactly this table. `absence_sweep.py "TOE_REQUIREMENTS_LEDGER"` and `"ToE requirements"`: ABSENT on every head before
+this file. Banked results only; every "absent" row carries its absence line; nothing here promotes to `CLAIMS.md`. Gate 5 untouched.*
+
+## A. The checklist any theory of everything must pass
+
+| # | requirement | content | status in accepted physics |
+|---|---|---|---|
+| 1 | **Gauge group and matter** | the SM's algebra, matter content, hypercharges, three generations | measured |
+| 2 | **Chirality** | left-handed doublets, right-handed singlets: a net chiral spectrum, anomaly-free | measured |
+| 3 | **Values** | 19+ dimensionless parameters (couplings, masses, mixings, θ) | measured, unexplained |
+| 4 | **Dynamics** | an action (kinetic terms, interactions, a vacuum), a 4d Lorentzian limit | model input in every candidate |
+| 5 | **Gravity** | a propagating massless spin-2 with universal coupling; Λ | measured; quantum completion open |
+| 6 | **Quantum consistency** | anomaly cancellation, unitarity, UV behaviour | hard constraint |
+| 7 | **Predictions** | at least one number or regime not used as input | the bar every candidate fails or has not reached |
+| 8 | **Say which endpoint** | a ToE claim must name its chain end: the algebra, the group, the spectrum, the values, the dynamics, or gravity | this ledger's discipline |
+
+## B. This object specifically
+
+One object with three faces (B258): geometry (m004, the figure-eight complement), arithmetic (ℚ(√−3), the Bloch–Wigner atom, the
+Lucas–Fibonacci tower), quantum (Vol ≠ 0: CS = 0, the state integral, Ẑ, c_eff). The structure chain used the first two; the third has been
+asked one question (chirality: B1305 slice B — it answers "2 or nothing" like the other two) and no generation-count question.
+
+## C. What the record delivers, row by row (banked arcs)
+
+| A-row | delivered | where | grade |
+|---|---|---|---|
+| 1 gauge algebra | E₆ across faces (B727); the SM algebra at the Wilson-line step on Y₉ (sm:B1278, re-run B1294); **the tree-level vacuum is SM × U(1)_Z′, rank 5** (sm:B1283, verified B1303) | B727, B1294, B1303 | structural, forced through E₆/27; the closing observer-selected |
+| 1 matter | three 27s and three 27̄s, vector-like; two SM closings (Y₉, Y₁₂) | sm:B1278/B1301 (B1294, B1303) | structural; **vector-like** |
+| 2 chirality | the object counts 2 at every fixed locus; every closing vector-like; four faces read "2 or nothing" by one theorem (B1227 in four value groups) | B1291, B1294–B1297, B1303, B1305 | **wall**: the chirality bit is the observer's unless Phase 2's chiral-cover test finds otherwise |
+| 3 values | 0 of 19; no object period is an SM ratio (V-3); the first testable regime is a fork on a value (B1303's Z′) | B1124–B1127, B1303 | **open**; the values enter through measurements, not the object |
+| 4 dynamics | the audit seat's conditional 4d compact-E₆ theory (R4–R11) with declared inputs (§E); main has no derived action | audit:R4–R11 (B1304) | **input**, not derived |
+| 5 gravity | a spin-2 slot in the E₆(−26) branch's 64 (B1140, scoped to the principal embedding by B1303); no propagator, no coupling | B1138–B1140 | containment, not a theory |
+| 6 quantum consistency | the Z′ anomaly-free (the family torus's cubic cancelled by the 27̄s, B1303); the seat's net-three extra-U(1) anomaly in a standalone truncation (audit:R19) | B1303, audit:R19 | partial |
+| 7 predictions | P9: a family-non-universal Z′ at 10²–10³ TeV·g₂⁻¹ or a few TeV, by which family is VEV'd — a regime, not a value | FALSIFIER_REGISTER P9 (B1303) | conditional |
+
+## D. The walls, named once
+
+- **B1227 in four value groups** (T-MIRROR-ODD-VANISHES): CS ∈ {0, ¼} (ℝ/½ℤ), no real selector (ℝ), net chirality 0 (ℤ), the colored-Jones
+  ends' ratio 1 (formal q-series). The object is too symmetric for a mirror-odd invariant to survive.
+- **V-3**: no object period is an SM ratio (the value crossing, exhaustive at the current period list).
+- **B1265**: the E₆(−14)/E₆(−26) fork is a rank obstruction, not a choice to be made later.
+- **B1259 (scoped 2026-09-09)**: no isolated point of the total singular set of a flat G₂ orbifold; an isolated enhancement STRATUM is not
+  excluded by that lemma (E70) — a question, not a wall.
+
+## E. THE DECLARED INPUTS — every conditional physical theory in the record, and what each one chose
+
+*Rule 8's table. An input is not a defect; it is what prevents the sentence "uniquely derived from the source" (the audit seat's own
+phrasing). Each row names the theory, the choice, and where it is priced.*
+
+| theory | declared input | source | priced where |
+|---|---|---|---|
+| the audit seat's R4 action (compact E₆, 4d) | Lorentzian 4d spin spacetime; the COMPACT real form (not identified with the banked non-compact forms by dimension); field content (two complex 27s, one real adjoint, N_f Weyl 27s); the family number N_f; the potential's coefficients (a common λ); the scales (VEV units, not GeV) | audit `VACUUM_MODEL.md` §1, `PHYSICS_BOTTLENECKS.md` §1 @ 6f862099 | B1304 |
+| the seat's singular chirality route (R14–R20) on m202 | the sourced twisted-reduction background; the parent adjoint; the maximal domain (strong-source complex, abs(q)·β_a ≥ 1); the flat connection (holonomy: a non-normalizable boundary input); the C₃-compatible orbit or the trivial one (dynamics or a declared input) | audit R15, R18, R19, R20 | B1304, L205 |
+| the partial filling (three seats) | which cover, which cusp, which slope — three discrete choices on top of I-26 | cloud memo 170 §4; B1305 A; audit `PARTIAL_FILLING.md` | L202(b) |
+| main's spectral-cover frame (D2) | I-26: h¹ ↔ 4d generations, the dimension gap not exhibited | IDENTIFICATION_LEDGER | B1297, Phase 2 Arc 0 |
+| main's charge-locus count (D1) | I-27: the θ-odd direction (the closer's), I-28: the lift of the isometry to E₆ (inner/outer) | IDENTIFICATION_LEDGER | B1296, B1298 |
+| the SM closing's vacuum (sm:B1283) | one of nine branches on one of 19 624 lines of Y₉ (or Y₁₂'s 34 752): the closing and the branch are the observer's | sm:B1283, B1303, L203 | B1303 |
+| the Z′'s regime (P9) | which family character carries the third family (the mass ordering: a value) | FALSIFIER_REGISTER P9 | B1303 |
+| the σ bridge's target | c((E₆)₁) = 6 as the boundary theory (GC-6's identification; the object-side rate is 1/7-type plus a universal 1: the cloud's reading) | B1190, B1064; cloud memo 178 | B1305 B |
+
+**Reading rule:** a ToE sentence about this record must name the row of §E it stands on. "The Standard Model from m004" stands on rows 4–7
+of this table and on I-26/I-27/I-28; "the SM's gauge algebra and three vector-like generations from one object, with the chirality bit,
+the closing and the values priced as the observer's" stands on none.

@@ -1,0 +1,26 @@
+{
+ "hits": [
+  [
+   "frontier/B1211_declaration_gap/FINDINGS.md",
+   "| |---|---| | B1182 C4\u2032 resolved | **none** | | B1183 the one-class theorem | **none** | | B1184 the quine split verdict | **none** | | B1192 the relational bit exists | **none** | | B1195 \u03ba, the bit's law | SM_SPECIFICATION_LEDGER | | B1196 selector-free | **none** | | B1200 \u03a6\u2083, one polynomial three faces | **none** | | B1203 two probes | **none** |"
+  ],
+  [
+   "frontier/B358_seam_certification/FINDINGS.md",
+   "Both computed with the same exact engine (`cyclo_engine.py`: `\u211a(\u03b6\u2086\u2080)` as length-16 Fraction vectors mod `\u03a6\u2086\u2080`; the full `C[j][l] = tr(Par\u00b7W\u2081\u02b2\u00b7W\u2082\u02e1)` tables; every double `t(a,b) = (1/240)\u03a3 \u03b6\u2082\u2080^{\u2212ja}\u03b6\u2081\u2082^{\u2212lb}C[j][l]` exactly; Galois H-average over `Gal(\u211a(\u03b6\u2086\u2080)/H) = {1,19,31,49}`; exact solve in `{1,\u221a5,\u221a\u22123,\u221a\u221215}`):"
+  ],
+  [
+   "frontier/B390_criterion_tensor/FINDINGS.md",
+   "The correct object is the exact bilinear pairing \u211a(\u03b6\u2081\u2082) \u00d7 \u211a(\u03b6\u2082\u2080) \u2192 (\u221a\u221215-coefficient of \u03a0_H(x\u2083x\u2085)); computing it and re-attributing each dark pair (5-side kill vs 3-side kill vs convolution cancellation) is the final form."
+  ]
+ ],
+ "faces": [
+  -15,
+  -3,
+  5
+ ],
+ "z12": [
+  -3,
+  -1,
+  3
+ ]
+}

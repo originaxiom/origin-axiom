@@ -1,0 +1,2453 @@
+{
+ "covers": 87,
+ "per_degree": {
+  "2": 1,
+  "3": 1,
+  "4": 2,
+  "5": 4,
+  "6": 11,
+  "7": 9,
+  "8": 10,
+  "9": 11,
+  "10": 38
+ },
+ "b1295_mismatches": [],
+ "by_type_total_and_chiral": {
+  "cyclic": [
+   9,
+   0
+  ],
+  "irregular": [
+   77,
+   66
+  ],
+  "regular": [
+   1,
+   0
+  ]
+ },
+ "chiral_total": 66,
+ "amphichiral_total": 21,
+ "methods_disagree": [],
+ "one_cusped": 23,
+ "one_cusped_chiral_with_3_divisible_torsion": [
+  [
+   6,
+   4,
+   "Z/12 + Z"
+  ],
+  [
+   6,
+   9,
+   "Z/12 + Z"
+  ],
+  [
+   8,
+   0,
+   "Z/30 + Z"
+  ],
+  [
+   8,
+   2,
+   "Z/30 + Z"
+  ],
+  [
+   9,
+   6,
+   "Z/21 + Z"
+  ],
+  [
+   9,
+   10,
+   "Z/21 + Z"
+  ]
+ ],
+ "A1_covers_inherit_amphichirality": false,
+ "A2_chiral_one_cusped_3_divisible": true,
+ "A3_identity_holds_on_all_one_cusped": true,
+ "triple_sets_one_cusped": {
+  "2.0 cyclic": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "3.0 cyclic": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "4.0 cyclic": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "5.0 cyclic": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "6.1 cyclic": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "6.4 irregular": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "6.6 irregular": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "6.9 irregular": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "7.0 irregular": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "7.1 irregular": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "7.2 cyclic": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "7.4 irregular": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "7.6 irregular": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "8.0 irregular": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "8.1 cyclic": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "8.2 irregular": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "9.0 cyclic": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "9.2 irregular": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "9.6 irregular": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "9.10 irregular": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "10.2 cyclic": [
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ],
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "10.36 irregular": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "10.37 irregular": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    1,
+    1
+   ]
+  ]
+ },
+ "rows": [
+  {
+   "degree": 2,
+   "index": 0,
+   "type": "cyclic",
+   "cusps": 1,
+   "H1": "Z/5 + Z",
+   "torsion": [
+    5
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 16,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 4,
+   "volume": 4.059766425638614,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     true
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 3,
+   "index": 0,
+   "type": "cyclic",
+   "cusps": 1,
+   "H1": "Z/4 + Z/4 + Z",
+   "torsion": [
+    4,
+    4
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 24,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 6,
+   "volume": 6.089649638457921,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     true
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 4,
+   "index": 0,
+   "type": "cyclic",
+   "cusps": 1,
+   "H1": "Z/3 + Z/15 + Z",
+   "torsion": [
+    3,
+    15
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": true,
+   "sym_order": 32,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 8,
+   "volume": 8.119532851277228,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 4,
+   "index": 1,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z + Z",
+   "torsion": [],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 8,
+   "volume": 8.119532851277228
+  },
+  {
+   "degree": 5,
+   "index": 0,
+   "type": "cyclic",
+   "cusps": 1,
+   "H1": "Z/11 + Z/11 + Z",
+   "torsion": [
+    11,
+    11
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 40,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 10,
+   "volume": 10.149416064096531,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 5,
+   "index": 1,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/2 + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 10,
+   "volume": 10.149416064096531
+  },
+  {
+   "degree": 5,
+   "index": 2,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z",
+   "torsion": [],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 10,
+   "volume": 10.149416064096531
+  },
+  {
+   "degree": 5,
+   "index": 3,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/2 + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 10,
+   "volume": 10.149416064096531
+  },
+  {
+   "degree": 6,
+   "index": 0,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/5 + Z + Z",
+   "torsion": [
+    5
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 12,
+   "volume": 12.179299276915835
+  },
+  {
+   "degree": 6,
+   "index": 1,
+   "type": "cyclic",
+   "cusps": 1,
+   "H1": "Z/8 + Z/40 + Z",
+   "torsion": [
+    8,
+    40
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 48,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 12,
+   "volume": 12.179299276915835,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 6,
+   "index": 2,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/3 + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": true,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 12,
+   "volume": 12.179299276915835
+  },
+  {
+   "degree": 6,
+   "index": 3,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/3 + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": true,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 12,
+   "volume": 12.179299276915835
+  },
+  {
+   "degree": 6,
+   "index": 4,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/12 + Z",
+   "torsion": [
+    12
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 12,
+   "volume": 12.179299276915835,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 6,
+   "index": 5,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "torsion": [
+    2,
+    4
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 16,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 12,
+   "volume": 12.179299276915835
+  },
+  {
+   "degree": 6,
+   "index": 6,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/4 + Z/8 + Z",
+   "torsion": [
+    4,
+    8
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 16,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 12,
+   "volume": 12.179299276915835,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 6,
+   "index": 7,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/3 + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": true,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 12,
+   "volume": 12.179299276915835
+  },
+  {
+   "degree": 6,
+   "index": 8,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/3 + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": true,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 12,
+   "volume": 12.179299276915835
+  },
+  {
+   "degree": 6,
+   "index": 9,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/12 + Z",
+   "torsion": [
+    12
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 12,
+   "volume": 12.179299276915835,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 6,
+   "index": 10,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/5 + Z + Z",
+   "torsion": [
+    5
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 12,
+   "volume": 12.179299276915835
+  },
+  {
+   "degree": 7,
+   "index": 0,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/14 + Z",
+   "torsion": [
+    14
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 14,
+   "volume": 14.209182489735138,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 7,
+   "index": 1,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/14 + Z",
+   "torsion": [
+    14
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 14,
+   "volume": 14.209182489735138,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 7,
+   "index": 2,
+   "type": "cyclic",
+   "cusps": 1,
+   "H1": "Z/29 + Z/29 + Z",
+   "torsion": [
+    29,
+    29
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 56,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 14,
+   "volume": 14.209182489735138,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 7,
+   "index": 3,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z",
+   "torsion": [],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 14,
+   "volume": 14.209182489735138
+  },
+  {
+   "degree": 7,
+   "index": 4,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/14 + Z",
+   "torsion": [
+    14
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 14,
+   "volume": 14.209182489735138,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 7,
+   "index": 5,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z",
+   "torsion": [],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 14,
+   "volume": 14.209182489735138
+  },
+  {
+   "degree": 7,
+   "index": 6,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/14 + Z",
+   "torsion": [
+    14
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 14,
+   "volume": 14.209182489735138,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 7,
+   "index": 7,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z",
+   "torsion": [],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 14,
+   "volume": 14.209182489735138
+  },
+  {
+   "degree": 7,
+   "index": 8,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z",
+   "torsion": [],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 14,
+   "volume": 14.209182489735138
+  },
+  {
+   "degree": 8,
+   "index": 0,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/30 + Z",
+   "torsion": [
+    30
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 16,
+   "volume": 16.23906570255444,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 8,
+   "index": 1,
+   "type": "cyclic",
+   "cusps": 1,
+   "H1": "Z/21 + Z/105 + Z",
+   "torsion": [
+    21,
+    105
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": true,
+   "sym_order": 64,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 16,
+   "volume": 16.23906570255444,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 8,
+   "index": 2,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/30 + Z",
+   "torsion": [
+    30
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 16,
+   "volume": 16.23906570255444,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 8,
+   "index": 3,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/3 + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 16,
+   "volume": 16.23906570255444
+  },
+  {
+   "degree": 8,
+   "index": 4,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/3 + Z/3 + Z + Z",
+   "torsion": [
+    3,
+    3
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 16,
+   "volume": 16.23906570255444
+  },
+  {
+   "degree": 8,
+   "index": 5,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/5 + Z + Z",
+   "torsion": [
+    5
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 32,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 16,
+   "volume": 16.23906570255444
+  },
+  {
+   "degree": 8,
+   "index": 6,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/3 + Z/3 + Z + Z",
+   "torsion": [
+    3,
+    3
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 16,
+   "volume": 16.23906570255444
+  },
+  {
+   "degree": 8,
+   "index": 7,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/3 + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 16,
+   "volume": 16.23906570255444
+  },
+  {
+   "degree": 8,
+   "index": 8,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/3 + Z/3 + Z + Z",
+   "torsion": [
+    3,
+    3
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": true,
+   "sym_order": 16,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 16,
+   "volume": 16.23906570255444
+  },
+  {
+   "degree": 8,
+   "index": 9,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z + Z",
+   "torsion": [],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 16,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 16,
+   "volume": 16.23906570255444
+  },
+  {
+   "degree": 9,
+   "index": 0,
+   "type": "cyclic",
+   "cusps": 1,
+   "H1": "Z/76 + Z/76 + Z",
+   "torsion": [
+    76,
+    76
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 72,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 18,
+   "volume": 18.26894891537376,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 9,
+   "index": 1,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/3 + Z + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": true,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 18,
+   "volume": 18.26894891537376
+  },
+  {
+   "degree": 9,
+   "index": 2,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/4 + Z/4 + Z",
+   "torsion": [
+    4,
+    4
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 18,
+   "volume": 18.26894891537376,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     true
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 9,
+   "index": 3,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/3 + Z + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": true,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 18,
+   "volume": 18.26894891537376
+  },
+  {
+   "degree": 9,
+   "index": 4,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/3 + Z + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": true,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 18,
+   "volume": 18.26894891537376
+  },
+  {
+   "degree": 9,
+   "index": 5,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/3 + Z + Z + Z",
+   "torsion": [
+    3
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": true,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 18,
+   "volume": 18.26894891537376
+  },
+  {
+   "degree": 9,
+   "index": 6,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/21 + Z",
+   "torsion": [
+    21
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 18,
+   "volume": 18.26894891537376,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 9,
+   "index": 7,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z",
+   "torsion": [],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 18,
+   "volume": 18.26894891537376
+  },
+  {
+   "degree": 9,
+   "index": 8,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z",
+   "torsion": [],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 18,
+   "volume": 18.26894891537376
+  },
+  {
+   "degree": 9,
+   "index": 9,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z",
+   "torsion": [],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 18,
+   "volume": 18.26894891537376
+  },
+  {
+   "degree": 9,
+   "index": 10,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/21 + Z",
+   "torsion": [
+    21
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": true,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 18,
+   "volume": 18.26894891537376,
+   "rational_triviality_(m,l)": [
+    [
+     false,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 10,
+   "index": 0,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 1,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 2,
+   "type": "cyclic",
+   "cusps": 1,
+   "H1": "Z/55 + Z/275 + Z",
+   "torsion": [
+    55,
+    275
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 80,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 20,
+   "volume": 20.298832128193073,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     -1,
+     -1,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1
+    ],
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 10,
+   "index": 3,
+   "type": "irregular",
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "torsion": [],
+   "b1": 4,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 4,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z + Z",
+   "torsion": [],
+   "b1": 4,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 5,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "torsion": [
+    2,
+    4
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 6,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 7,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/8 + Z + Z",
+   "torsion": [
+    8
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 8,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/10 + Z + Z",
+   "torsion": [
+    10
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 9,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/10 + Z + Z",
+   "torsion": [
+    10
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 10,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 11,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "torsion": [
+    2,
+    4
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 12,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z/2 + Z + Z + Z",
+   "torsion": [
+    2,
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 13,
+   "type": "irregular",
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "torsion": [],
+   "b1": 4,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 14,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/10 + Z + Z",
+   "torsion": [
+    10
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 15,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/10 + Z + Z",
+   "torsion": [
+    10
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 2,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 16,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 17,
+   "type": "irregular",
+   "cusps": 5,
+   "H1": "Z + Z + Z + Z + Z",
+   "torsion": [],
+   "b1": 5,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 18,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/8 + Z + Z",
+   "torsion": [
+    8
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 19,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "torsion": [
+    2,
+    4
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 20,
+   "type": "irregular",
+   "cusps": 2,
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "torsion": [
+    2,
+    4
+   ],
+   "b1": 2,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 21,
+   "type": "irregular",
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "torsion": [],
+   "b1": 4,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 22,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 23,
+   "type": "irregular",
+   "cusps": 4,
+   "H1": "Z/2 + Z + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 4,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 24,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z/4 + Z + Z + Z",
+   "torsion": [
+    2,
+    4
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 16,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 25,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 26,
+   "type": "irregular",
+   "cusps": 4,
+   "H1": "Z/2 + Z + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 4,
+   "has_3_divisible_torsion": false,
+   "sym_order": 32,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 27,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 28,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 29,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 30,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z/2 + Z/2 + Z + Z + Z",
+   "torsion": [
+    2,
+    2
+   ],
+   "b1": 3,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 31,
+   "type": "irregular",
+   "cusps": 4,
+   "H1": "Z/2 + Z + Z + Z + Z",
+   "torsion": [
+    2
+   ],
+   "b1": 4,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 32,
+   "type": "irregular",
+   "cusps": 5,
+   "H1": "Z + Z + Z + Z + Z",
+   "torsion": [],
+   "b1": 5,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 33,
+   "type": "irregular",
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "torsion": [],
+   "b1": 4,
+   "has_3_divisible_torsion": false,
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 34,
+   "type": "regular",
+   "cusps": 5,
+   "H1": "Z + Z + Z + Z + Z",
+   "torsion": [],
+   "b1": 5,
+   "has_3_divisible_torsion": false,
+   "sym_order": 80,
+   "amphichiral": true,
+   "amphichiral_by_isometry": true,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 35,
+   "type": "irregular",
+   "cusps": 3,
+   "H1": "Z + Z + Z + Z",
+   "torsion": [],
+   "b1": 4,
+   "has_3_divisible_torsion": false,
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073
+  },
+  {
+   "degree": 10,
+   "index": 36,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/5 + Z/5 + Z",
+   "torsion": [
+    5,
+    5
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 20,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  },
+  {
+   "degree": 10,
+   "index": 37,
+   "type": "irregular",
+   "cusps": 1,
+   "H1": "Z/5 + Z/5 + Z",
+   "torsion": [
+    5,
+    5
+   ],
+   "b1": 1,
+   "has_3_divisible_torsion": false,
+   "sym_order": 20,
+   "amphichiral": false,
+   "amphichiral_by_isometry": false,
+   "tets": 20,
+   "volume": 20.298832128193073,
+   "rational_triviality_(m,l)": [
+    [
+     true,
+     false
+    ]
+   ],
+   "triples": [
+    [
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ],
+   "nondiagonal_cusp_maps": 0,
+   "identity_holds": true
+  }
+ ],
+ "seconds": 0.2
+}

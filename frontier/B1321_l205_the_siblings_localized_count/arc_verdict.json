@@ -1,0 +1,24 @@
+{
+ "id": "B1321",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1320",
+  "B1302",
+  "B1292",
+  "B1291",
+  "B1295"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-30",
+   "status": "UNEARNED",
+   "note": "the closing's charge locus = a cusp of m202 fixed by its order-3 rotation (which cusp; m202 within its class) -- the object supplies the rotation and the count 3, the closer supplies the locus; the three signs are forced (index +1 each), so fc's second choice is not a choice in PW's frame"
+  }
+ ],
+ "claim_one_line": "L205, THE SIBLING'S LOCALIZED COUNT (the owner's D3 decision of 2026-09-08; DESIGN sealed 9b82d2e2 before the runs). (a) m202: 6 isometries, none swapping the cusps; on EACH cusp the order-3 rotation A = [[-1,-1],[1,0]] gives Pantev-Wijnholt's localized count |det(A - I)| = 3; every isolated fixed point of an orientation-preserving torus map has index +1, so the three signs are FORCED -- one identification row (I-30, the locus), not two. (b) the three-line class in SnapPy's orientable cusped census to nine tetrahedra (61911 manifolds, 2750 two-cusped): exactly six members -- m202, s959, v3461, v3551, o9_40999, o9_43931 -- each carrying the 3 on both cusps; main's own golden-face test (B1302's method: the two-variable Alexander polynomial by Fox calculus, 48 primitive specialisations, divisibility by t^2 - 3t + 1) finds NO golden specialisation in any of the six (m202's seven +-1 monomials reproduced; a planted golden factor detected). Pre-registered FAIL branch (prior 0.75): the price of the 3 is the golden face throughout the class the census can see; D3 closes as a PRICED door; L205 moves from OPEN to PRICED. Reopens only beyond nine tetrahedra or by construction."
+}

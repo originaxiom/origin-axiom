@@ -57,3 +57,14 @@ at the full-tower prime, three independent runs, rational reconstruction;
 tier ONE-PRIME with the second prime open-diagnosed). At sealing time the value
 was verified-but-unlocked — cc3's audit flagged it, and the gap is closed at
 the honest tier.
+
+*Instrument addendum 2026-09-09 (B1304; found by the audit seat's R1 on 2026-09-05, `reports/physical_bridge_2026_09_05/AUDIT.md` §4 @ 6f862099,
+reproduced here with B915's own definitions): `curve_point` solves g₁(M_U) = g₂(M_U) for sin²θ_W with α_s HELD at 0.118 and then solves
+g₂(M_U) = g₃(M_U) for α_s without re-solving the first equation; at two loops the first equation depends on g₃ through the off-diagonal
+beta matrix. At the 16 archived two-loop curve points the first UV equation's residual is up to **0.0268 inverse-coupling units** (the seat's
+0.02683971597; here 0.02683971620) while the second is satisfied to 10⁻¹¹; the first-stage guess moves the final point by ~3·10⁻⁵ in both
+coordinates (about one σ of sin²θ_W); the simultaneous solve at the archived d_min scale gives (0.229196, 0.076683) against the archived
+(0.229251, 0.076641). **The instrument was not solving the crossing; the VERDICT is unchanged** — the seat's corrected solver moves the
+minimal distance from 15.97 to 16.116 σ, still a MISS by the sealed d ≤ 3 criterion — retract-keeping-the-computation on the instrument
+only (E52 instance). The seat's further scope notes (only 15 of 61 points inside the root boxes; gauge-only two-loop truncation; the σ_th
+diagnostic is not a calibrated error) are recorded in HARVEST_LEDGER. `verification/` of B1304: `b1304_b915_residual.py`.*

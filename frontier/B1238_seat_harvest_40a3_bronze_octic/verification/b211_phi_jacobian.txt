@@ -1,0 +1,22 @@
+quartic: x**4 - 6*x**2 + 5 = (x - 1)*(x + 1)*(x**2 - 5)
+Jacobian (ellfromeqn): [0, -6, 0, -20, 120]
+minimal model a-invariants: ([0, 0, 0, -2, 1, 0, -4, 4, -4, 96, -864, 80, 55296/5, Vecsmall([1]), [Vecsmall([64, 1])], [0, 0, 0, 0, 0, 0, 0, [[2]~]]], [2, 2, 0, 0])
+j(Jac Phi) = 55296/5 | conductor = 40
+j(40a1 = y^2=x(x-1)(x-5)) = 148176/25
+j(40a3 = B509's Y^2=X^3-2X+1) = 55296/5
+40a class j's: [148176/25, 55296/5, 237276/625, 132304644/5] | degree matrix: [1, 2, 2, 2; 2, 1, 4, 4; 2, 4, 1, 4; 2, 4, 4, 1]
+Jac(Phi) isomorphic over Q-bar to 40a1: False | to 40a3: True
+minimal model of Jac(Phi): [0, 0, 0, -2, 1]
+minimal model of 40a3 [0,0,0,-2,1]: [0, 0, 0, -2, 1]
+torsion Jac(Phi): [4, [4], [[2, 8]]] | 40a1 torsion: [4, [2, 2], [[-2, 0], [-1, 0]]] | 40a3 torsion: [4, [4], [[0, 1]]]
+a_3: Jac(Phi)=0  40a1=0  40a3=0
+a_7: Jac(Phi)=-4  40a1=-4  40a3=-4
+a_11: Jac(Phi)=4  40a1=4  40a3=4
+a_13: Jac(Phi)=-2  40a1=-2  40a3=-2
+d^2-(c^2-1)(c^2-5) at (c,d)=(x,2z-x^2-1) equals 4*Phi: True
+Phi(2,z): z**2 - 5*z + 7  -> (2z-5)^2 = -3
+Y^2 - X(X-1)(X-5) is divisible by Phi (remainder 0): True  quotient: 4*x**2
+sigma preserves Phi: True
+sigma fixed points (affine): [{x: 0, z: 1/2}]  Phi there: [-5/4] (nonzero => fixed-point-free on X^na)
+Phi(1,1), Phi(-1,1): 0 0
+40a3 rank (ellrank bounds) : [0, 0, 0, []]  torsion: [4, [4], [[0, 1]]]

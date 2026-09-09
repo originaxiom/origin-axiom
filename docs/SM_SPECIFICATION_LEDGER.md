@@ -16,7 +16,7 @@ value-matching): the **hypercharge DIRECTION is object-forced** on an SM-shaped 
 dual-homed across two frames + verified on-bench), the **SM-preserving breaking chain is unique** (exactly 2
 SM-safe vev directions, B1162/cloud-D3), there is **exactly one generation** (B1161/B1162/cloud-D4), the
 height-308 MSSM **bundle witness is verified** (B1162, Sage: H0(Y,V)=0). On the VALUE/dynamics side the
-walls sharpened: **SUSY is a no-go** (B1162/cloud-D5), the **up-Yukawa is zero** (SEAM-Y), the **values stay
+walls sharpened: **SUSY is a no-go** (B1162/cloud-D5), the **up-Yukawa is zero** (SEAM-Y) [2026-09-02 B1240] on the heterotic dressing; the object channel's kinematic up-shape has 6 nonzero components (B1185 INV-1) — the two readings are layered, not in conflict], the **values stay
 withheld**, and the **heterotic framework is imported** with its selection reducing to the missing archimedean
 marking W₀ = an observer *orientation* (B1163, a theorem: amphicheiral ⇒ un-self-suppliable). The firewall
 line itself is now **pinned as a principled, falsifiable classifier** (B1164/MD1: STRUCTURE iff dimensionless
@@ -53,6 +53,44 @@ withheld** — the spec's object-column is complete on structure and honestly em
 
 One complex doublet **H = (1, 2)_{+1/2}**; potential V = μ²|H|² + λ|H|⁴ with μ² < 0.
 Gives EWSB: SU(2)×U(1)_Y → U(1)_EM, three Goldstones eaten, one physical Higgs.
+
+### CURRENCY 2026-09-06 (through B1275) — the price, the frame, and the family mechanism
+
+**THE PRICE, MEASURED (B1261, corrected B1266).** Against the **19** free parameters below, the
+programme **SPENDS 4 axioms + 10 UNEARNED identifications = 14 rows**, which reduce to **7 irreducible
+sources**, so **11 actual free inputs** — and **BUYS 0 of the 19**. By parameter count the trade is
+**net negative**; by structural content it derives what the SM assumes or cannot state; **the two do
+not convert**, and the selftest enforces it. `docs/IDENTIFICATION_LEDGER.md` is the **scoreboard**.
+
+**THE FRAME WAS WRONG AND IS CORRECTED (E65).** Generation counting needs **net** chirality
+h¹(27) ≠ h¹(27̄). **Every Sym^n of SL(2) is self-dual**, so any holonomy factoring π₁ → SL(2) → E₆ has
+27 ≅ 27̄ and **net chirality identically zero — for every embedding**. **B1260** extends the wall: PD
+kills it on **any closed oriented 3-manifold**, and **Alexander reciprocity** kills it in the cusped
+**abelian** sector. **B1267** ran the deciding computation — index **0**, and the only non-self-dual
+rank-3 systems are **rigid**. The frame that *does* carry chirality is **θ-odd twisted, full-E₆(ℂ)**
+(B582/B576), with a **closing** supplying the bit (B432/B434).
+
+**THE REAL FORM IS DERIVED, AND THE FORCES' FORK EXPLAINED (B1265).** D₂ — the object's own twist — is
+an involution of signature **32 − 46 = −14**, so it **selects E₆(−14)**. D₂ is **inner**; **E₆(−26)**
+(Lorentz, compact colour, the graviton) has **𝔨 = f₄ of rank 4** and is **outer** — **no torus element
+reaches it**. That is *why* the charge side and the gravity side share nothing. See
+**`docs/THE_FOUR_FORCES.md`** for the force-by-force statement.
+
+**THREE GENERATIONS — the mechanism, verified; the object step, not (B1275).** **E₈ ⊃ E₆ × A₂** is
+rebuilt from scratch on main: 248 = 78 + 8 + **(27,3) + (27̄,3̄)**, the 162 non-E₆/non-A₂ roots fall
+into **six classes of exactly 27**, same-class pairs **never** sum to a root (0), different classes sum
+**270×** for the 12 within-orbit ordered pairs, and the **order-3 A₂ Weyl rotation cycles the six
+classes in two orbits of three**. **All standard, all verified.** **What is NOT verified: that the
+object's own order-3 element is that A₂ rotation.** And the source seat's own fences: **the bit
+(ω vs ω̄) is supplied by a CLOSING**, **N = 0**, and **the Yukawa is forced to ZERO on the triplet** —
+so the mechanism buys the **count**, not the **values**.
+
+**THE LISTENER MAP WAS BUILT AND CAME BACK NULL.** `docs/LISTENER_MAP_SPEC.md` (L166) was **largely
+answered within 48 hours** (B1070/B1071); **B1128** built u(θ) on it, predicted **|U_e1|/|U_e2| = φ**,
+and **missed the PMNS e-row ratio by ~5σ** — INSTRUMENT-NULL. **I-13 is not untouched; it is a failed
+instrument**, which is a different and more informative state.
+
+---
 
 ### A4. The free parameters — 19 in the minimal SM
 
@@ -346,3 +384,45 @@ stand on the input floor); the three Yukawa suppression mechanisms are genuinely
 with the 𝒯 evaluator commissioned; the observer-side spec rows now route through
 `docs/GRAND_COMPUTATION_v0.md` §5/§9 (the typed input slots + the floor amendment) rather than
 this ledger alone.
+
+## Currency read 2026-08-31 (head B1226) — §A4's flat count is a CATEGORY ERROR
+
+Owner, this window: *"we need to count for four forces first, including gravity, then Higgs boson,
+then leptons and quarks. i think were doing a category error on our expectations and the way were
+saying 19 sm parameters or 26 sm parameters if they were all same category."* **The correction is
+adopted, and §A4's heading — "the free parameters — 19 in the minimal SM" — is the error in place.**
+
+Typed by this programme's own law (**B1168**: object-canonical ⟺ β-even ∧ dimensionless), the 28
+parameters (19 minimal + 7 neutrino + G, Λ) are **four different kinds of thing with four different
+suppliers**:
+
+| box | n | members | who supplies it |
+|---|---|---|---|
+| **A** β-even, pure | 6 | CKM angles, PMNS angles | **NOBODY** — **B1225** proves the object *cannot select* within its canonical class |
+| **B** scale-anchored | 3 | g₁, g₂, g₃ — dimensionless but *running*, so they need a renormalisation point | **READER** — B811's H128 kill, on kind |
+| **C** dimensionful | 16 | 9 charged-fermion masses, v, m_H, 3 ν masses, **G, Λ** | **READER** — the scale wall |
+| **D** **β-odd** | **3** | **θ_QCD, δ_CKM, δ_PMNS** | **OBJECT CONSTRAINS** — amphichirality forces a ℤ/2 (**B1224**): a *bit*, not a value |
+
+Two consequences this ledger must carry:
+
+1. **Gravity is not an omission from a list of 19.** It is **two more members of box C** — the box
+   that was already the reader's. Adding it changes no verdict, which is itself the point: the
+   category, not the count, is what determines who supplies a parameter.
+2. **The structure is not in this table at all**, because it is not numeric — gauge group, reps,
+   generation count, hypercharges, the Higgs slot. That is the part the programme **derived**
+   (§C), and the flat count obscures it by listing derived structure and undetermined numbers as
+   one undifferentiated "19."
+
+**The live delta (B1226).** Box D is the only box with an object-side output, and **every probe ever
+fired into it demanded a continuous value**: B1027 (δ₁₃ = 120°/240°, MISS 11.4σ/38.0σ), B1137
+(algebraic combinations over 18 sealed targets, DISJOINT), B813 (CS = θ_QCD, REFUTED ON TYPE).
+**3/3 asked for a value; 0/3 asked the bit.** A bit cannot answer a value question, so those three
+negatives measure the **type mismatch**, not the object. §D5's "honest state of the value layer"
+should be read with that distinction: box A is closed *by proof*, boxes B and C *by the scale wall*,
+and box D was never actually tested. Registered **L192**, not banked — Gate 5 absolute, no phase
+derived, and B813's refutation of the value *dictionary* stands untouched.
+
+Also this window: the scale wall's **reason** is corrected (B1226 cell 1) — `blind-to-k` is
+equivalent to `CS ≡ 0`, i.e. to the object's complex volume being **real**, and **not** to
+amphichirality (m003 is amphichiral with CS = ¼; m208 is chiral with CS = 0). The wall stands for
+m004; it is a contingent datum, not a symmetry theorem.

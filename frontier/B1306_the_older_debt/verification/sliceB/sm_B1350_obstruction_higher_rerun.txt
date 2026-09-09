@@ -1,0 +1,71 @@
+=== (5a) one exact cocycle class per sl2-block of e6 at the subregular point ===
+    block V2: dim Z1 = 4, dim B1 = 3, h1 = 1
+    block V4: dim Z1 = 6, dim B1 = 5, h1 = 1
+    block V6: dim Z1 = 8, dim B1 = 7, h1 = 1
+    block V8: dim Z1 = 10, dim B1 = 9, h1 = 1
+    block V10: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V10#2: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V14: dim Z1 = 16, dim B1 = 15, h1 = 1
+    block V16: dim Z1 = 18, dim B1 = 17, h1 = 1
+    (28 s)
+=== (5c) formal integrability modulo p = 67108819 (omega -> 19491216), orders 2 .. 6 ===
+    V8: integrable to order 2
+    V8: integrable to order 3
+    V8: integrable to order 4
+    V8: the greedy continuation STOPS at order 5 -- R_5 is not in im d1 + span B(Y, Z_i) (rank 70 -> 71); not a proof of obstruction (see the docstring)
+    V10: integrable to order 2
+    V10: integrable to order 3 (using the cocycle freedom at order 2)
+    V10: integrable to order 4 (using the cocycle freedom at order 3)
+    V10: integrable to order 5 (using the cocycle freedom at order 4)
+    V10: integrable to order 6 (using the cocycle freedom at order 5)
+    V10#2: integrable to order 2
+    V10#2: integrable to order 3 (using the cocycle freedom at order 2)
+    V10#2: integrable to order 4 (using the cocycle freedom at order 3)
+    V10#2: integrable to order 5 (using the cocycle freedom at order 4)
+    V10#2: integrable to order 6 (using the cocycle freedom at order 5)
+    V10 + V10#2: integrable to order 2
+    V10 + V10#2: integrable to order 3 (using the cocycle freedom at order 2)
+    V10 + V10#2: integrable to order 4 (using the cocycle freedom at order 3)
+    V10 + V10#2: integrable to order 5 (using the cocycle freedom at order 4)
+    V10 + V10#2: integrable to order 6 (using the cocycle freedom at order 5)
+    V10 - V10#2: integrable to order 2
+    V10 - V10#2: integrable to order 3 (using the cocycle freedom at order 2)
+    V10 - V10#2: integrable to order 4 (using the cocycle freedom at order 3)
+    V10 - V10#2: integrable to order 5 (using the cocycle freedom at order 4)
+    V10 - V10#2: integrable to order 6 (using the cocycle freedom at order 5)
+    (24 s)
+=== (5c) formal integrability modulo p = 67108837 (omega -> 57280852), orders 2 .. 6 ===
+    V8: integrable to order 2
+    V8: integrable to order 3
+    V8: integrable to order 4
+    V8: the greedy continuation STOPS at order 5 -- R_5 is not in im d1 + span B(Y, Z_i) (rank 70 -> 71); not a proof of obstruction (see the docstring)
+    V10: integrable to order 2
+    V10: integrable to order 3 (using the cocycle freedom at order 2)
+    V10: integrable to order 4 (using the cocycle freedom at order 3)
+    V10: integrable to order 5 (using the cocycle freedom at order 4)
+    V10: integrable to order 6 (using the cocycle freedom at order 5)
+    V10#2: integrable to order 2
+    V10#2: integrable to order 3 (using the cocycle freedom at order 2)
+    V10#2: integrable to order 4 (using the cocycle freedom at order 3)
+    V10#2: integrable to order 5 (using the cocycle freedom at order 4)
+    V10#2: integrable to order 6 (using the cocycle freedom at order 5)
+    V10 + V10#2: integrable to order 2
+    V10 + V10#2: integrable to order 3 (using the cocycle freedom at order 2)
+    V10 + V10#2: integrable to order 4 (using the cocycle freedom at order 3)
+    V10 + V10#2: integrable to order 5 (using the cocycle freedom at order 4)
+    V10 + V10#2: integrable to order 6 (using the cocycle freedom at order 5)
+    V10 - V10#2: integrable to order 2
+    V10 - V10#2: integrable to order 3 (using the cocycle freedom at order 2)
+    V10 - V10#2: integrable to order 4 (using the cocycle freedom at order 3)
+    V10 - V10#2: integrable to order 5 (using the cocycle freedom at order 4)
+    V10 - V10#2: integrable to order 6 (using the cocycle freedom at order 5)
+    (49 s)
+
+=== summary (order of the first obstruction; None = integrable through order 6 ) ===
+    V8          : 5   agreement between primes: True
+    V10         : None   agreement between primes: True
+    V10#2       : None   agreement between primes: True
+    V10+V10#2   : None   agreement between primes: True
+    V10-V10#2   : None   agreement between primes: True
+[49 s]
+RC=0

@@ -1,0 +1,45 @@
+<site-packages>/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+(a) m004: vol 2.0298832128, cusps 1, shapes [(-1.1102230246251573e-15+3.464101615137757j)]
+    m202: vol 4.0597664256, cusps 2, shapes [(0.5000000000000018+0.8660254037844376j), (0.5+0.8660254037844379j)], ratio 2.0000000000
+    identify(m202) = [m202(0,0)(0,0), otet04_00000(0,0)(0,0)]   identify(m004) = [m004(0,0), 4_1(0,0), K2_1(0,0), K4a1(0,0), otet02_00001(0,0)]
+(b) shape minimal polynomials: m202 ['x^4 + x', 'x^3 + 1', 'x^3 + 1', 'x^3 + 1']  m004 ['x^3 + 1', 'x^4 + x']
+    pi_1(m202) = ['a', 'b'] ['aabbAbAABBaB']
+    tr(a) = -0.500000-0.866025j   minpoly over Z: x^2 + x + 1
+    tr(b) = -0.500000-0.866025j   minpoly over Z: x^2 + x + 1
+    tr(ab) = -0.000000+1.732051j   minpoly over Z: x^2 + 3
+    tr(aab) = 2.000000+0.000000j   minpoly over Z: x - 2
+    tr(abb) = 2.000000+0.000000j   minpoly over Z: x - 2
+    tr(abab) = -5.000000-0.000000j   minpoly over Z: x + 5
+    tr(aabb) = 1.500000-2.598076j   minpoly over Z: x^2 - 3*x + 9
+    m202 as a cover of m004/m003 of degree <= 6: none (it is a sibling in the class, not a cover)
+(c) Sym(m202) = D6, order 12
+    perm  dets  traces  |Fix| per cusp   cusp maps
+    ([0, 1], [1, 1], [-1, -1], [3, 3], [[[-1, -1], [1, 0]], [[0, 1], [-1, -1]]])
+    ([0, 1], [1, 1], [-1, -1], [3, 3], [[[0, 1], [-1, -1]], [[-1, -1], [1, 0]]])
+    ([0, 1], [1, 1], [-2, -2], [4, 4], [[[-1, 0], [0, -1]], [[-1, 0], [0, -1]]])
+    ([0, 1], [1, 1], [1, 1], [1, 1], [[[0, -1], [1, 1]], [[1, 1], [-1, 0]]])
+    ([0, 1], [1, 1], [1, 1], [1, 1], [[[1, 1], [-1, 0]], [[0, -1], [1, 1]]])
+    ([0, 1], [1, 1], [2, 2], [0, 0], [[[1, 0], [0, 1]], [[1, 0], [0, 1]]])
+    ([1, 0], [1, 1], [-1, -1], ['-', '-'], [[[-1, -1], [1, 0]], [[0, 1], [-1, -1]]])
+    ([1, 0], [1, 1], [-1, -1], ['-', '-'], [[[0, 1], [-1, -1]], [[-1, -1], [1, 0]]])
+    ([1, 0], [1, 1], [-2, -2], ['-', '-'], [[[-1, 0], [0, -1]], [[-1, 0], [0, -1]]])
+    ([1, 0], [1, 1], [1, 1], ['-', '-'], [[[0, -1], [1, 1]], [[1, 1], [-1, 0]]])
+    ([1, 0], [1, 1], [1, 1], ['-', '-'], [[[1, 1], [-1, 0]], [[0, -1], [1, 1]]])
+    ([1, 0], [1, 1], [2, 2], ['-', '-'], [[[1, 0], [0, 1]], [[1, 0], [0, 1]]])
+    Z/6: order-6 element |Fix| = [1, 1] -> 1 line; order-3 |Fix| = [3, 3] -> 3 lines; order-2 |Fix| = [4, 4] -> 4 lines
+(d) tetrahedral census (orientable, cusped), <= 8 tetrahedra, 2+ cusps:
+    otet04_00000(0,0)(0,0)   tets 4 cusps 2 vol/vol(m004) 2.000 |Sym|  12 cusp shapes ['0.500+0.866i', '0.500+0.866i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): {((3, 3), 3): 2}
+    otet04_00001(0,0)(0,0)   tets 4 cusps 2 vol/vol(m004) 2.000 |Sym|   8 cusp shapes ['-0.000+1.732i', '0.000+1.732i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): -
+    otet05_00001(0,0)(0,0)   tets 5 cusps 2 vol/vol(m004) 2.500 |Sym|   8 cusp shapes ['0.000+1.732i', '-0.000+1.732i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): -
+    otet06_00002(0,0)(0,0)   tets 6 cusps 2 vol/vol(m004) 3.000 |Sym|  12 cusp shapes ['0.500+0.866i', '0.500+0.866i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): {((3, 3), 3): 2}
+    otet07_00000(0,0)(0,0)   tets 7 cusps 2 vol/vol(m004) 3.500 |Sym|  12 cusp shapes ['0.500+0.866i', '0.500+0.866i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): {((3, 3), 3): 2}
+    otet08_00001(0,0)(0,0)   tets 8 cusps 2 vol/vol(m004) 4.000 |Sym|   2 cusp shapes ['-0.357+1.608i', '0.500+2.598i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): -
+    otet08_00002(0,0)(0,0)   tets 8 cusps 2 vol/vol(m004) 4.000 |Sym|   8 cusp shapes ['0.000+1.155i', '-0.000+3.464i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): -
+    otet08_00003(0,0)(0,0)   tets 8 cusps 2 vol/vol(m004) 4.000 |Sym|   8 cusp shapes ['-0.000+1.155i', '-0.000+1.155i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): -
+    otet08_00004(0,0)(0,0)   tets 8 cusps 2 vol/vol(m004) 4.000 |Sym|   4 cusp shapes ['0.000+1.732i', '-0.000+1.732i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): -
+    otet08_00005(0,0)(0,0)   tets 8 cusps 2 vol/vol(m004) 4.000 |Sym|   8 cusp shapes ['0.000+1.732i', '-0.000+1.732i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): -
+    otet08_00009(0,0)(0,0)   tets 8 cusps 2 vol/vol(m004) 4.000 |Sym|   2 cusp shapes ['0.500+2.021i', '0.214+1.113i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): -
+    otet08_00010(0,0)(0,0)   tets 8 cusps 2 vol/vol(m004) 4.000 |Sym|  16 cusp shapes ['0.500+0.866i', '0.500+0.866i']  order-3 with 3 fixed pts (|Fix| per cusp, #lines): -
+SELFTEST: PASS
+RC=0

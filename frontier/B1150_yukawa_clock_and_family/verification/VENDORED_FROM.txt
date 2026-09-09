@@ -1,0 +1,19 @@
+VENDORED_FROM -- B1150_yukawa_clock_and_family (B1240, 2026-09-02)
+
+Source: origin/outside-bench @ 981f4c33, directory outside_bench/ (the cloud seat's outside-bench branch).
+Why: reproduce.sh could not run on a fresh clone of main. Its provenance note pointed at a fetch of the
+certificates by name, but (a) the certificates load sibling files the fetch list omitted -- the full
+transitive closure was computed at the pinned SHA (7 files vendored below: code, data, expected outputs) -- and (b) the run
+record it cites, reproduce.log, is gitignored repo-wide (E57 shape: a lock without its tool).
+Integrity: every file below was copied byte-for-byte from the pinned SHA (git show), except where marked
+GENERATED. With this closure in place reproduce.sh prints REPRODUCES for 2/2 certificates
+on the main bench (2026-09-02); the live lock is tests/test_reproduce_runners_live.py (default lane: CERTS=family_yukawa).
+
+path                                                 sha256                                                             source
+certificates/e7_ladder.py                            9af3efff570c9680736759532e5dfc07583aaec50060ddeeba1848656430c4c8   origin/outside-bench @ 981f4c33: outside_bench/certificates/e7_ladder.py
+certificates/family_yukawa.py                        333f74f0d4f3b76f77d53a235544bc3ee236612c68516705e38248c164dbaef5   origin/outside-bench @ 981f4c33: outside_bench/certificates/family_yukawa.py
+certificates/paper/verify/check_charge_bracket.py    4f10df9f55bd58bfb814f8b4428ff55bc710d4e49713876797b5c35f5990455f   origin/outside-bench @ 981f4c33: outside_bench/certificates/paper/verify/check_charge_bracket.py
+certificates/twisted_double.py                       4a0fb415c7681e052681ab4c1a703d666751776d8fb883edf5ccda44a5cfeba6   origin/outside-bench @ 981f4c33: outside_bench/certificates/twisted_double.py
+certificates/yukawa_clock.py                         bb84cb4c7a55444e2e0f31f970678429cc2a333f22fae6c3250d4e3cb5b8dc6e   origin/outside-bench @ 981f4c33: outside_bench/certificates/yukawa_clock.py
+outputs/family_yukawa_out.txt                        28c168e0cb0f2ecf2f651b2df24371c8249ebc3aca304d0a1f5a5d79dd9724af   origin/outside-bench @ 981f4c33: outside_bench/outputs/family_yukawa_out.txt
+outputs/yukawa_clock_out.txt                         20204f4212df0c16a0d5e0a75d3adb791b007c91dc1152a62cc157fd54dd16c7   origin/outside-bench @ 981f4c33: outside_bench/outputs/yukawa_clock_out.txt

@@ -1,0 +1,10 @@
+[R64 lattice part re-run] E6 roots: 72 | w_3 order 3 fixed dim 2
+   functional: positives 36 zeros 0 negatives 36
+[simple roots] icosian E6 Cartan matrix matched to Bourbaki labelling by permutation (3, 0, 1, 2, 4, 5)
+[w_3 in W(E6)] matrix on simple-root coordinates: [[0, 0, 0, 0, -1, 1], [1, 0, 0, 0, -1, 0], [1, 1, 0, -1, -1, 1], [1, 1, 1, -1, -2, 1], [1, 1, 0, 0, -2, 1], [0, 1, 0, 0, -1, 0]]
+[word] |W(E6)| explored: 45649; w_3 = s_6 s_2 s_4 s_5 s_3 s_4 s_1 s_3 s_2 s_4 s_5 s_6 s_2 s_4 s_5 s_3 s_4 s_1 s_3 s_2 s_4 s_5 s_3 s_4 (length 24)
+[lift] w_3-hat^3 == identity on the 78: True
+[Ad multiplicities] fixed (eigenvalue 1): 24;  omega + omega-bar: 54;  total 78 of 78
+      A2^3 class needs (24, 27+27); D4xT^2 would be (30, 24+24).
+[consistency] Ad(w_3-hat) on the Cartan reproduces the Weyl matrix: True
+RC=0

@@ -2,7 +2,7 @@
 
 ## A3 — the E7 tricritical mass ladder (pre-loaded, DATA-LIMITED)
 
-Exact Perron spectrum of the E7 Cartan matrix (m_i/m_1):
+Exact Perron spectrum of the E7 Cartan matrix (m_i/m_1) [2026-09-02 B1240] mislabel: these seven numbers are the Perron EIGENVECTOR of the E7 Dynkin ADJACENCY matrix normalised by its minimum entry, not a spectrum of the Cartan matrix — recomputed to 6 dp in B1240 `verification/fast_checks.py` (R44); the numbers stand — ADDENDUM_2026-09-02_B1240.md]:
 1, 1.285575, 1.879385, 1.969616, 2.532089, 2.879385, 3.701666.
 First non-trivial ratio 1.285575 — cleanly discriminable from E8's φ
 (separation 0.33), silver (2.414), plastic. Filed as a STANDING test: fires

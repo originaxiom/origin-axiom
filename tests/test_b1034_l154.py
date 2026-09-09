@@ -63,7 +63,15 @@ def test_v2_no_exhibit_adjudicated():
                # test spelling the machine-path literal it forbids. An arc that documents a lock
                # will quote that lock's criterion; admitting it is honesty, not evasion, and the
                # conditional test below still applies.
-               "frontier/B1207_slow_lane_discharge/FINDINGS.md"}
+               "frontier/B1207_slow_lane_discharge/FINDINGS.md",
+               # THE CONSISTENCY TURN (2026-08-31). B1229 quantizes the MENU sigma is drawn
+               # from (RCFT rationality + MMS) and therefore pairs Brown-Henneaux with (E6)_1.
+               # It is admitted on B1064/B1190's ground and no other: its FINDINGS states
+               # L154's adjudication in its own section -- NO-EXHIBIT, "c = 6 is NOT derived
+               # here", the bridge still owed -- rather than asserting the join. It caught
+               # this lock legitimately: the first draft discussed the pairing without
+               # stating the adjudication at all.
+               "frontier/B1229_the_consistency_turn/FINDINGS.md"}
     # THE SELF-DOCUMENTING-INSTRUMENT EXEMPTION, made a RULE rather than a growing list.
     # Four files have now tripped this lock by DOCUMENTING it -- B1207 (which repaired it), B1217
     # (which recorded that repair), and the two campaign surfaces before them. Each had to quote the

@@ -1,0 +1,14 @@
+{
+ "id": "B1227",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "creates_law_reviewed": {
+  "date": "2026-08-31",
+  "arc": "B1227",
+  "decision": "true",
+  "class": "LAW -- mirror-odd + amphichiral forces 2-torsion in the value group; the group's torsion decides between {0,1/4} and 0",
+  "basis": "read at banking: regime 1 verified 6/6 on the census with non-vacuity witnesses; regime 2 is B1168's own archimedean classification; the consequence for B1225 is a strict weakening of a stated hypothesis"
+ },
+ "claim_one_line": "ONE THEOREM, TWO REGIMES: B1224 AND B1225'S MISSING KEYSTONE ARE THE SAME STATEMENT IN DIFFERENT VALUE GROUPS, AND THE CONNECTION CLOSES A CRACK THIS BENCH OPENED THIS MORNING. THE THEOREM, elementary: for M amphichiral the mirror mu is a SELF-isometry, so an isometry invariant I valued in an abelian group A with I(mu M) = -I(M) satisfies I(M) = -I(M), i.e. 2*I(M) = 0 in A. TWO REGIMES: A = R/(1/2)Z has torsion, so I lands in the 2-torsion subgroup {0, 1/4} -- that is B1224 (Chern-Simons), verified here 6/6 with the nonzero cases (m003, m135, m207 at 1/4) supplying the non-vacuity; A = R is torsion-free, so I = 0 exactly -- and that is precisely the step B1225 needed and did not have. WHAT IT FIXES: B1225's step 2 assumed the 17 menu atoms are OBJECT-CANONICAL (mirror-even AND dimensionless), and the 2026-08-31 addendum on this bench recorded that as UNVERIFIABLE here because the atom list is cloud's and was never banked -- naming it 'precisely where a surviving selector could hide'. The theorem removes the mirror-even half of the hypothesis: REAL + AMPHICHIRAL => MIRROR-EVEN, for free. B1225 therefore needs only that the atoms are REAL and dimensionless, and B1203 verified reality on this bench when it re-ran cloud's enumerator (11720 reproduced; 'all 17 atoms real'). The crack is closed with a far weaker hypothesis than the one it was opened against. NOVELTY, STATED HONESTLY: this is a CONSOLIDATION, not a discovery. The argument is B1224's own, generalised from CS to an arbitrary value group; a 3-manifold topologist would call it immediate. What was actually missing was the JOIN -- B1183 (c is ONE global involution, with c restricted to R trivial), B1203 (all atoms real) and B1225 sat adjacent in the record without being connected, and the addendum called the question open while the answer was already distributed across three banked arcs. E53 in its purest form: not a lost result, a lost EDGE. STILL OWED: the atom LIST remains cloud's -- only the count and the reality property were reproduced here, so B1225's residual exposure is 'are the 17 atoms real', a one-line check instead of a full parity audit. Gate 5 intact; no value derived."
+}

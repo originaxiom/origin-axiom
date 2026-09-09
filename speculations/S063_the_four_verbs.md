@@ -16,7 +16,7 @@ Legend: [MATH] banked · [LEAP] plausible, unproven · [HOOK] evocative naming.
 
 ## The structural rhymes [LEAP — each needs its own emergence bar before any promotion]
 - **Irreversibility = the monoid's non-units.** The program's object had only reversible dynamics
-  (stratum 1); the arrow of time enters exactly where det ≠ ±1. The measurement postulate reads as
+  (stratum 1); the arrow of time enters exactly where det ≠ ±1. *[Note 2026-09-09: read **irreversibility / leaf-change** for "arrow" — det = −1 is anti-Poisson (bracket-reversing, the reciprocity of B124), not a time direction; B1083 found the arrow is not a spendable bit anywhere. The session-relay seat's P-SEAM-02 verified the det = ±1 half as Goldman's classical dichotomy.]* The measurement postulate reads as
   *stratum choice*, not an extra axiom.
 - **I-D (decoherence shape) [the strongest]:** TM is injective on F₂ yet singular on H₁ and on the
   character torus — information is never destroyed, only relocated into non-abelian structure invisible

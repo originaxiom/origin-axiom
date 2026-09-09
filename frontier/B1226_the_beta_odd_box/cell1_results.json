@@ -1,0 +1,115 @@
+{
+  "identity": "dS/dk = -CS  (B1012, sympy) -- STANDS",
+  "census_scanned": 600,
+  "cells": {
+    "amph_cs0": [
+      "m004",
+      "m136",
+      "m206"
+    ],
+    "amph_csq": [
+      [
+        "m003",
+        0.25
+      ],
+      [
+        "m135",
+        0.25
+      ],
+      [
+        "m207",
+        0.25
+      ]
+    ],
+    "chiral_cs0": [
+      "m208"
+    ],
+    "chiral_csq": 593
+  },
+  "exhibits": [
+    {
+      "name": "m004",
+      "chiral": false,
+      "cs_mod_half": 0.0,
+      "mirror_iso_dets": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "m003",
+      "chiral": false,
+      "cs_mod_half": 0.25,
+      "mirror_iso_dets": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "m136",
+      "chiral": false,
+      "cs_mod_half": 0.0,
+      "mirror_iso_dets": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "m135",
+      "chiral": false,
+      "cs_mod_half": 0.25,
+      "mirror_iso_dets": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "m206",
+      "chiral": false,
+      "cs_mod_half": 0.0,
+      "mirror_iso_dets": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "m207",
+      "chiral": false,
+      "cs_mod_half": 0.25,
+      "mirror_iso_dets": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "m208",
+      "chiral": true,
+      "cs_mod_half": 0.0,
+      "mirror_iso_dets": [
+        -1
+      ]
+    }
+  ],
+  "verdict": {
+    "amphichiral_implies_CS0": false,
+    "CS0_implies_amphichiral": false,
+    "B1012_equivalence_holds": false,
+    "counterexample_forward": [
+      [
+        "m003",
+        0.25
+      ],
+      [
+        "m135",
+        0.25
+      ],
+      [
+        "m207",
+        0.25
+      ]
+    ],
+    "counterexample_reverse": [
+      "m208"
+    ]
+  }
+}

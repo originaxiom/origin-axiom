@@ -38,3 +38,16 @@ escalation are the proof).
 - **Path repairs owed:** three main-branch scripts point at a nonexistent `frontier/B792_maass_m004_eigenvalues`
   (the Maass material lives elsewhere) — repoint or rehome at next touch.
 - Rule: this list grows only from audited extraction (per the frozen body's split), never from memory.
+
+## Instruments audited at landing (each run on the bench the day it is listed)
+
+- **B1238 (2026-09-02)** — `frontier/B1238_seat_harvest_40a3_bronze_octic/verification/`:
+  `bronze_invariant_trace_field.py` (invariant trace field of a SnapPy census word by TWO routes —
+  tr(g²) at 1000 bits and the tetrahedra shape field — cross-checked with `nfisisom`; this is the
+  E55 axis instrument, and it is what caught the degree-6 error at four sites);
+  `b211_phi_jacobian.py` (a plane curve's Jacobian → `ellfromeqn` → minimal model → Cremona label,
+  with the isogeny-class degree matrix so a point-count match is not mistaken for a label match);
+  `z1_compare.py` (rerun-vs-banked ladder comparison for a deleted cell, byte-identity included).
+- **The `tracked-deps` gate** (`scripts/gates/gates.py`, E57) — a tracked test or script may not
+  depend on a path that exists on the bench but not in git; the local suite is blind to this class
+  by construction, so the gate runs at push.

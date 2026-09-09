@@ -1,0 +1,28 @@
+sigma = inversion: N = [[(-1), (-2 + z^2)], [(z^2), (1)]], det = (z^2)
+  k= 0: h1=2  action tr=(-2) det=(1)  scalar? (-1)
+  k= 2: h1=2  action tr=(2) det=(1)  scalar? (1)
+  k= 4: h1=2  action tr=(-2) det=(1)  scalar? (-1)
+  k= 6: h1=2  action tr=(2) det=(1)  scalar? (1)
+  k= 8: h1=2  action tr=(-2) det=(1)  scalar? (-1)
+  k=10: h1=2  action tr=(2) det=(1)  scalar? (1)
+  k=12: h1=2  action tr=(-2) det=(1)  scalar? (-1)
+  k=14: h1=2  action tr=(2) det=(1)  scalar? (1)
+  k=16: h1=2  action tr=(-2) det=(1)  scalar? (-1)
+  k=18: h1=2  action tr=(2) det=(1)  scalar? (1)
+  k=20: h1=2  action tr=(-2) det=(1)  scalar? (-1)
+  k=22: h1=2  action tr=(2) det=(1)  scalar? (1)
+sigma = order3: N = [[(-1), (-1)], [(1), (0)]], det = (1)
+  k= 0: h1=2  action tr=(-1) det=(1)  scalar? None
+  k= 2: h1=2  action tr=(-1) det=(1)  scalar? None
+  k= 4: h1=2  action tr=(2) det=(1)  scalar? (1)
+  k= 6: h1=2  action tr=(-1) det=(1)  scalar? None
+  k= 8: h1=2  action tr=(-1) det=(1)  scalar? None
+  k=10: h1=2  action tr=(2) det=(1)  scalar? (1)
+  k=12: h1=2  action tr=(-1) det=(1)  scalar? None
+  k=14: h1=2  action tr=(-1) det=(1)  scalar? None
+  k=16: h1=2  action tr=(2) det=(1)  scalar? (1)
+  k=18: h1=2  action tr=(-1) det=(1)  scalar? None
+  k=20: h1=2  action tr=(-1) det=(1)  scalar? None
+  k=22: h1=2  action tr=(2) det=(1)  scalar? (1)
+Q1: PASS
+RC=0

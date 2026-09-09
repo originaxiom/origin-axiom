@@ -1,0 +1,29 @@
+{
+ "id": "B1264",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B883",
+  "B305",
+  "B323",
+  "B1223",
+  "B1227",
+  "B1224",
+  "B1248",
+  "B1260",
+  "B1261",
+  "B1263"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-14",
+   "status": "UNEARNED",
+   "note": "unchanged, but the STATUS IS UPGRADED by recomputation rather than citation. The trinification Z/3 grading exists in the objects own 27: 170 labellings split it 9+9+9, giving 85 DISTINCT colourings up to colour permutation, and every grading operator has eigenvalues 1, omega, omega^2 with omega the EISENSTEIN UNIT of Q(sqrt-3) -- the SAME algebraic number generating the commensurators Z/3. So L3~L4 is NOT an order match (B1223s forbidden evidence) but a match of the ACTING ALGEBRAIC NUMBER in the objects own field, which is better than B323 recorded in 2026-07. It is NOT yet a map that ACTS: 85 candidate gradings, none selected."
+  }
+ ],
+ "claim_one_line": "THE H5 CENSUS: EIGHT MEASURED INSTANCES OF 'EVERY SPACE, NEVER A POINT' -- and I-14 upgraded by RECOMPUTING instead of citing. Owner mid-audit: 'b323 is 1000bs old' -- correct, and the seat had just leaned on B323's 2026-07 adjudication ('the two Z/3s are distinct; the CRUX, does L3 connect to L4, is open') to conclude I-14 was not refutable, which is citing rather than computing. RECOMPUTED from the object's own 27: of the 3^6 labellings, 170 are integral on the 27 and split it 9+9+9, giving 85 DISTINCT colourings up to permuting the three colours; and every such grading operator has eigenvalues 1, omega, omega^2 with omega THE EISENSTEIN UNIT of Q(sqrt-3) -- the SAME algebraic number generating the commensurator's Z/3 (units of O_{-3} = Z/6). STATUS CHANGE, stated carefully: L3 and L4 are NOT related by an ORDER MATCH, the evidence B1223 forbids, but by the SAME ACTING ALGEBRAIC NUMBER in the object's OWN field -- better than B323 recorded. It is NOT yet a map that ACTS, since there are 85 candidate gradings and nothing selects one; I-14 stays UNEARNED and the price stays at 14. AND THE MULTIPLICITY IS ITSELF THE FINDING: 85 joins a census of EIGHT instances of OPEN_ITEMS H5 -- the closing (C22), the order (A7, 2), the partner (B1192), n (B1248, infinite), the sl2 embedding (I-25, 4), the 2T quotient (I-6, 2), the L3 grading (I-14, 85) and the L3->L4 map (I-14, 2) -- five with multiplicity now MEASURED, four of those for the first time this session. MECHANISM WITH AN HONEST LIMIT: B1227's theorem (amphichiral => mirror is a SELF-isometry => mirror-odd I has 2I = 0) explains the CHIRALITY instances -- torsion-free forces 0, torsion keeps it (B1224's CS in {0,1/4}) -- which is E65/B1260's seven chirality walls as one theorem; it does NOT explain the counting multiplicities (2, 4, 85, infinite), which are combinatorial not duality facts. ONE PATTERN, AT LEAST TWO MECHANISMS, and this arc declines to over-unify. THE FALSIFIER IS SHARPENED BUT NOT MET: H5 asks for an OTHER-referential point the object supplies, and B1224's CS = 0 is a point but a SELF-referential one, which H5 permits -- so H5 stands un-falsified and still un-banked; this arc measures it, it does not promote it."
+}

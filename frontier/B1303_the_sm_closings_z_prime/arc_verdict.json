@@ -1,0 +1,22 @@
+{
+ "id": "B1303",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1302",
+  "B1297",
+  "B1296",
+  "B1294",
+  "B1293",
+  "B1140",
+  "B1138",
+  "B1103",
+  "B1035"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE SM CLOSING'S Z' (MASTERPLAN v3.1 Phase 1, fourth harvest arc; DESIGN sealed 9f44f4c3; sm:B1283/B1300/B1301 re-run in the pinned worktree 053727f3 with their own selftests AND re-derived here with independent code; B1103, B1140's certificate and chat1's checker re-run). VERIFIED: the tree-level vacuum of the closing with the SM group leaves SM x U(1)_Z' (rank 5) on every SM-preserving flat direction -- 85 F-flat sets, nine branches all conjugate-paired, no unpaired D-flat direction (exact certificates), the Z' = (5psi - 3chi)/2 + a family part (-10, 5, 5), charges 4/-2/10/-8/-2, the VEV'd generation's N and nu^c exactly neutral, one light Higgs pair and one light D pair (mu-rank 2); anomaly-free with the ONLY anomaly the family torus's cubic -20250 = 27 sum f^3 (E6 is safe), cancelled by the 27-bars; every VEV'd field Z'-neutral, so with anomaly-freedom no tadpole at any order (theorem registered with hypotheses): nothing at the SUSY tree level breaks the Z' above the electroweak scale. THE FORK (Q2, from Langacker-Pluemacher's eqs. 41/54-56 read in full, eq. 54 reproduced from eq. 41 within a factor 3): with CKM-like down mixing and the canonical normalisation, if the VEV'd generation is a light family the Z' sits at M_Z'/g_2 >~ 154 TeV (dm_K) to 1720 TeV (eps_K), the up-sector escape still >= 49 TeV (D mixing); if it is the third family, ~2 TeV (B_s) -- the LHC regime; which family it is, is a value the record does not fix (JOIN 2). Given radiative breaking (the only mechanism the record supplies; the D-flat alternative is closed because every flat direction is Z'-neutral) M_soft follows the same fork: FALSIFIER_REGISTER P9, a regime not a value. Q0: B1140 and fc R49 are both right about different embeddings -- principal sl2's (B1140's fork): centraliser 0, the printed 2 = spin-2 middle weights; regular A1A1A2 (R49's rank count): centraliser 2 -- VERIFIED-DIFFERS, B1140 scoped, E69 minted (the unasserted verdict string). Q3: w_D = -2 w_Q from the LATTICE (P/Q_SM free of rank 3, determinant 1) and the 706 464 / 568 656 census from B1278's support theorem alone. Q4: the deck-eigen law's odd support at every level 2-12 and the seat's forward list to 24 from arithmetic alone; Y_12's 34 752 SM lines and the one-generation triplet on 31 488 from the pinned support with an own enumerator -- a second SM closing, L203. chat1's 'absent' chi-determinant is B1103 (2026-08-21), re-run here: E54 instance cross-seat. L203, L205 (the owner's D3 decision) registered; the E53 scope fix 'SM x U(1)_Z' (rank 5)' on MAIN_GOAL, CAMPAIGN_STATUS, B1293, B1294. HARVEST_LEDGER rows 28-35. Price unchanged."
+}

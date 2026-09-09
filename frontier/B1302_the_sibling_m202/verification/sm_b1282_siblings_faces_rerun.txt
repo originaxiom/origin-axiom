@@ -1,0 +1,6 @@
+Delta_m202(t1,t2) * t1 = -t1**2*t2 - t1**2 - t1*t2**2 - t1*t2 - t1 - t2**2 - t2
+support: [(0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1)] ; all coefficients +-1: True
+diagonal Delta(t,t): -2*t1**2 - 3*t1 - 2 ; roots: [-3/4 - sqrt(7)*I/4, -3/4 + sqrt(7)*I/4]
+primitive classes |p|,|q| <= 6: 96; monic specialisations (candidate fibered classes): 90; divisible by t^2 - 3t + 1: []
+SELFTEST: PASS
+RC=0

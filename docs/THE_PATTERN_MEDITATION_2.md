@@ -43,7 +43,8 @@ structure this cell touches?") is its harness.
 **P1 (the withholding taxonomy) — now writable, and the factorisation unifies its
 two largest classes.** The mechanisms classify:
 (i) **type-walls** (the type law: menu vs continuum);
-(ii) **blindness-theorems** (∂S/∂k = −CS ≡ 0 ≡ amphichirality — the scale factor);
+(ii) **blindness-theorems** (∂S/∂k = −CS ≡ 0 ≡ real complex volume — the scale factor; *not*
+     ≡ amphichirality, corrected B1226);
 (iii) **arity/dimension walls** (the symmetric cubic's three slots; W4's absent H³);
 (iv) **genericity deflations** (N5; arrival-generic);
 (v) **torsor no-sections** (B782; value Galois-chosen).

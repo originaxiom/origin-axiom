@@ -1,0 +1,6 @@
+=== Y_9: H_1 = [76, 76]; support 147; generation-count distribution {0: 5628, 2: 3, 3: 145}; K3 = 145 letters by order {1: 1, 38: 108, 19: 36}; K2 = 3 ===
+  lines K3^3 = 3048625: {'three_gen': 758593, 'su5_broken': 737568, 'sm_vacua': 706464, 'full': 568656}
+  SM lines: D totals [3]; split lines 0; loses-a-generation {'Q': 0, 'u^c': 0, 'd^c': 0, 'L': 0, 'e^c': 0, 'H_u': 30240, 'H_d': 29376, 'D': 0, 'Dbar': 29376, 'S': 28512, 'nu^c': 28512}; (H_u,H_d,D,Dbar) {(2, 2, 3, 3): 1296, (2, 3, 3, 2): 1296, (2, 3, 3, 3): 27648, (3, 2, 3, 2): 864, (3, 2, 3, 3): 27216, (3, 3, 3, 2): 27216, (3, 3, 3, 3): 620928}; (N,nu^c) {(2, 2): 1296, (2, 3): 27216, (3, 2): 27216, (3, 3): 650736}; projected iff family character: True; multiplets lost per non-full line {1: 130464, 2: 6480, 3: 864}
+  SM lines: surviving generations of D (h^1(chi_g psi_D) for g = 1, 2, 3) -> lines: {(1, 1, 1): 706464}; (SU(5) roots, E6 roots) with trivial character -- 8 SU(5) roots = exactly the SM's at the <N>, <nu^c> point (B1278); the extra E6 roots are broken by those VEVs -> lines: {}; adjoint chirals from the broken roots -> lines: {}
+  protection: squares of letters are letters: True; some square is a family character: False; letter orders {1: 1, 38: 108, 19: 36}  (5 s)
+RC=0

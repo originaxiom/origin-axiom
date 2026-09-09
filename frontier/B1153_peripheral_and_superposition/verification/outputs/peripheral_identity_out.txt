@@ -1,0 +1,39 @@
+FACT 1: generalized Riley factor of the relator (nonabelian component):
+   phi(s,t) = s**4*t - s**4 + s**2*t**2 - 3*s**2*t + 3*s**2 + t - 1
+   verified: relator = I at every root of phi over 3 sample s-values: True
+   nonabelian trace relation: P(x,z) = -x**2*z + 2*x**2 + z**2 - z - 1
+FACT 2: P(2,z) = z**2 - 5*z + 7   (expect z^2-5z+7)
+FACT 3: (S - 3) mod P  = x**2 - 4
+   BRANCH B: the identity is PERIPHERAL; defect = (x - 2)*(x + 2)
+   on the parabolic scheme Q[z]/(z^2-5z+7):  S - 3 = 0
+   defect divisible by (x^2-4): True  quotient: 1
+
+FACT 4: trace map (exact, interpolated + verified on 40 fresh samples):
+   x' = y
+   y' = xs*ys**3 - 2*xs*ys - ys**2*zs + zs
+   z' = xs*ys**4 - 3*xs*ys**2 + xs - ys**3*zs + 2*ys*zs
+   Groebner basis (lex):
+      16*xs - zs**3 + 2*zs**2 - 16*zs
+      16*ys - zs**3 + 2*zs**2 - 16*zs
+      zs**2*(zs**2 + 12)
+   fixed locus on the level-0 surface: 3 points
+     fixed point: (0, 0, 0)
+     fixed point: (3/2 - sqrt(3)*I/2, 3/2 - sqrt(3)*I/2, -2*sqrt(3)*I)
+     fixed point: (3/2 + sqrt(3)*I/2, 3/2 + sqrt(3)*I/2, 2*sqrt(3)*I)
+   contains the conjugate pair: True   contains (0,0,0): True
+   elimination polynomial in z: zs**2*(zs**2 + 12)
+   => the origin is a NON-REDUCED fixed point (multiplicity 2 in z);
+      the conjugate pair points are simple (their factor is squarefree)
+FACT 5: conjugation swaps the kappa-pair: True; fixes (0,0,0): True
+        => the mirror-moved part of the fixed locus is EXACTLY memo 43's
+           conjugate pair; the remainder is the single mirror-fixed,
+           non-reduced origin
+
+CONCLUSION (closes codex OA-C1083; completes OA-C1082):
+tr(ab^-1) = gal(kappa) = 3 - kappa is exact on the PARABOLIC CHARACTER SCHEME
+(the two geometric characters with their scheme structure), where it is the
+Riley relation itself in disguise; its failure off the slice is measured by
+the defect printed above.  And the trace map's full fixed locus on the cusped
+surface is the list printed above: memo 43's conjugate pair (exchanged by the
+mirror) together with the conjugation-fixed remainder including codex's
+(0,0,0).  Gate 5 untouched.

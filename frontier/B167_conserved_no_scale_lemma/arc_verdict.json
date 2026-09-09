@@ -1,10 +1,11 @@
 {
  "id": "B167",
  "verdict": "NEGATIVE",
- "claim_one_line": "A conserved dimensionless first integral cannot source an internal scale; the five-door case analysis leaves no internal door, only external or ratio lanes.",
+ "claim_one_line": "Under a POSTULATED premise (FINDINGS:3–8: the conserved dimensionless first integral is stated, not derived) a stated five-door case analysis leaves no internal door for a scale, only external or ratio lanes; firewall-side, nothing promotes. [2026-09-02 B1241: qualifier added — the claim previously read as a closure (\"cannot source an internal scale\"); the arc's own body marks the premise postulated and the argument stated.]",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "W1-wave1-fanout"
+ "authored_by": "W1-wave1-fanout",
+ "note": "[2026-09-02 B1241] Flagged LABEL-ONLY by the physics-seat evaluation branch's Phase E part 1; confirmed here. `docs/COSMOLOGY_LEDGER.md:174` cites this arc as forbidding a scale — it forbids one under a postulated premise. Verdict NEGATIVE unchanged."
 }

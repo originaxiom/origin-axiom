@@ -1,0 +1,24 @@
+{
+ "id": "B1304",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1305",
+  "B1303",
+  "B1302",
+  "B1291",
+  "B1275",
+  "B1259",
+  "B1227",
+  "B1190",
+  "B1138",
+  "B1084",
+  "B915"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE AUDIT SEAT'S 4d MODEL, PRICED (MASTERPLAN v3.1 Phase 1, sixth harvest arc; DESIGN sealed 866bd71e; seat pinned 6f862099, its 33 physical-bridge test files re-run there: 235 pass / 13 fail / 8 error = exactly its own preserved set). VERIFIED with main's data: R20's C3-compatible character locus is forced by B1302's order-3 H1 matrix (det(M - I) = 3: the trivial character and a conjugate pair of order 3), Delta_m202 by Fox calculus from R72b's presentation has seven monomials (= B1302) and equals -2 at the pair (off the zero locus; the algebraic twisted h^1 there is 0, recorded beside the seat's analytic three/zero; the DESIGN's '1' was an arithmetic slip, recorded). TWO CLAIMS AGAINST MAIN CONFIRMED BY COMPUTATION: B915's crossing solver never re-solved its first UV equation after fixing alpha_s (residual 0.0268 at the archived points; guess-dependence ~3e-5; simultaneous solve differs) -- the instrument retracted-keeping-the-computation, the MISS verdict unchanged (E52 instance); B1259's isolation theorem interchanged quantifiers -- (Z/2)^3 in G2 preserves phi exactly, every non-identity element fixes a 3-plane, the whole group fixes only the origin ({1:7, 2:3, 4:1, 8:0}) -- B1259 SCOPED to 'no isolated point of the total singular set', the hatch reopened as a question, no chiral matter derived (E70 minted, kill graph noted). The partial filling is one witness on three benches (cloud found, main re-derived, audit interval-certified at 160 bits); L202(b) upgraded. R4-R11 (the compact-E6 action, positive one-loop masses, the family action) and R12-R19 (the singular route on m202) VERIFIED as the seat's by re-run and REGISTERED with their fences; their declared inputs open docs/TOE_REQUIREMENTS_LEDGER.md section E (the plan's Phase 4 (4)), beside main's own I-rows and vacuum choices, with the reading rule that a ToE sentence must name its row. HARVEST_LEDGER rows 54-76; price unchanged."
+}

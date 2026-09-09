@@ -1,0 +1,18 @@
+{
+ "id": "B1290",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1277",
+  "B1267",
+  "B1260",
+  "B1259",
+  "B1086"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE INDEX FORMULA APPLIED, AND I-26 BECOMES A QUESTION ABOUT THE CUSP. The SM-derivation seat's literature sweep supplied net chirality = chi(M, d+M) -- an INDEX FORMULA, which is exactly what I-26 has lacked since it was registered. Applied on main: chi(m004) = 1-2+1 = 0 computed from SnapPy's own presentation, chi(T^2) = 0 for the single cusp, so NET CHIRALITY = -chi(d+M) and IS ZERO IF AND ONLY IF chi(d+M) = 0. The natural pieces of a cusp-torus decomposition are ANNULI and chi(annulus) = 0, so ANY annular d+M returns zero net chirality IDENTICALLY -- with no representation theory entering at all. THIS IS A FOURTH INDEPENDENT ROUTE TO THE SAME ZERO, after B1267 numerically on the cusped mapping torus, the SM seat exactly over Q(omega) (h1(27) = 3 = h1(27bar)), and fc's R61 lemma on theta-equivariant abelian Higgs configurations -- four benches, four methods, one answer, and none of the first three cited the others. It is also the CUSPED statement of the walls already banked closed (E65's self-duality of Sym^n, B1260's PD+chi=0 on any CLOSED oriented 3-manifold), and it locates the escape exactly where B1260 left the cusped case open. THE REFRAMING IS THE POINT: I-26 no longer asks 'why does h^1 count generations' but 'WHAT IS d+M, AND WHAT IS ITS EULER CHARACTERISTIC?' -- a generation count needs chi(d+M) != 0, i.e. d+M must contain DISCS (chi=+1) or corner-carrying pieces (pair of pants, chi=-1), NOT annuli. That is a statement about the cusp torus, it is checkable, and it is not representation theory. The I-26 row's price is updated from 'exhibit the compactification' to 'identify d+M and compute chi(d+M)'; THE ROW STAYS UNEARNED and the ratchet does not move. NAMED CANDIDATE, harvested and NOT verified here: fc's R61/R62 give Fix(theta) = TWO ARCS pairing 0<->tau/2 and 1/2<->(1+tau)/2 on the cusp torus, and arcs cut CORNERS, which is exactly what takes a torus decomposition off chi = 0 -- whether they give chi(d+M) != 0 is fc's next computation, not this bench's. FENCES: the formula is CITED from the SM seat's sweep and not derived here; the identification of net chirality with a physical generation count IS I-26 and remains UNEARNED; chi(M) = 0 is generic to cusped torus-boundary manifolds and does not distinguish the object, so any discrimination must live in d+M."
+}

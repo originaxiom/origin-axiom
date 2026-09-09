@@ -1,0 +1,16 @@
+m000 orientable? False  m004 orientable? True
+index-2 covers of m000: [('m000~cyc~0', True, True)]
+pi_1(m000): ['a', 'b'] ['aabbAB']
+pi_1(m004): ['a', 'b'] ['aaabABBAb']
+|Q|=24, |Z|=2, |Q_ab|= 3
+|Aut(Q)| via GL(2,3)-conjugation: 24
+Surj(pi1 m000, 2T): 48  Surj(pi1 m004, 2T): 48
+Aut-orbits: m000 [24, 24]  m004 [24, 24]
+nonzero mod-2 characters of pi1(m000): [{'a': 1, 'b': 1}]
+distinct restricted maps: 24  fibre sizes: [2]
+restricted image is one of m004's orbits? [False, True]
+nonzero mod-2 characters of pi1(m004): [{'a': 0, 'b': 1}]
+central twist by {'a': 0, 'b': 1} maps the extendable orbit onto the other orbit? [True, False]
+m000 orbit of size 24 restricts onto [False, True]
+m000 orbit of size 24 restricts onto [False, True]
+digest of restricted image: f993c312239f45de

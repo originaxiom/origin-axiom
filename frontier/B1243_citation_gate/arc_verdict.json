@@ -1,0 +1,21 @@
+{
+ "id": "B1243",
+ "verdict": "OPEN",
+ "claim_one_line": "THE POINT-OF-USE GATE: seven errors in one exchange (2026-09-03) shared one shape -- a claim USED without checking its status where it is used -- including one by this seat, which graded another seat's theorem from a SUMMARY rather than its source and had the wrong grade accepted downstream (E58). scripts/checks/citation_status.py fires in two directions: (a) a document leaning on an arc whose FINDINGS carries a correction BANNER with no acknowledgement in the citing text; (b) COVERAGE -- a load-bearing result the chain fails to cite at all. FIRST CATCH, direction (a): C25 asserted the second measurement lands on the SM algebra 'EXACTLY' while citing B892, whose own banner says that phrase overstates by two abelian factors -- so the 14-vs-12 error two downstream seats made was OURS, inherited from the chain. FIRST CATCH, direction (b): docs/UNIQUENESS_THEOREM.md (A1-A7 => A = LR = [[2,1],[1,1]], machine-checked 144 -> 1, banked day 9, lock 9 green) had gone UNCITED by THEOREM_LEDGER.md for three months while appearing on every other synthesis surface, so B977's third gate could not fire on it. C44 (the fork: any two of {spacetime, colour, hypercharge}, never three) and C45 (the anomaly layer is complete: anomaly matching cannot further constrain this matter content) enter the chain; census 43 -> 45 links, NO-GO 5 -> 7. I-18 registers a downstream seat artifact's declared dictionary UNEARNED rather than withdrawing it.",
+ "instrument": true,
+ "depends_on": ["B892", "B950", "B992", "B1096", "B1017", "B1092", "B1138", "B977", "B813", "B1241"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "note": "THE FIRST DESIGN OF THIS GATE WAS WRONG AND IS RECORDED IN THE INSTRUMENT'S OWN DOCSTRING. It forbade a THEOREM link to cite a NEGATIVE or RETRACTED arc; run against the live corpus it produced SEVEN violations, ALL FALSE -- B731 is RETRACTED *because* it established that m004 IS congruence, exactly what C9 asserts; B282's NEGATIVE kills a genericity claim while its surviving arithmetic atom is what C6 cites. A verdict-based prohibition would have red the build on seven honest citations and made the fastest path to green DELETING PROVENANCE (the B1222 shape, aimed at ourselves). The verdict layer therefore REPORTS and never fails; the failing trigger is an unacknowledged correction banner, which is a judgement about whether the reader was warned, not about the mathematics. Gate 5 untouched: no measured value anywhere in this arc. No verdict of record is reversed -- C25 gains the scope its own source already carried, and T17 is REGISTERED rather than withdrawn.",
+ "identifications": [{"row": "I-18", "status": "UNEARNED", "note": "a downstream seat artifact's declared type dictionary (CS 2-torsion -> theta-bar). Explicitly NOT B813's refuted I-4: that killed a VALUE identification filling a coefficient slot; this is a Z/2 -> Z/2 map of symmetry types, fenced as such in the artifact's own text and carrying its own MB12 failability control. Registered, not retracted; the correction that would have withdrawn it is itself withdrawn (E58)."}],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-03",
+  "arc": "B1243",
+  "was": "candidate: none -- the arc contains no theorem-shaped claim of its own. C44 and C45 are chain ADMISSIONS of results already banked and locked elsewhere (B1138, B1096); the instrument is an instrument; the C25 edit is an E53 propagation of B950's existing correction.",
+  "decision": "no law",
+  "class": "instrument + chain admission + E53 propagation + register row",
+  "basis": "every claim is either recomputed by verification/b1243_checks.py or inherited from an arc with a green lock; the gate's own controls bite in both directions (10/10 selftest, never vacuous)"
+ }
+}

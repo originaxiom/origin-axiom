@@ -14,6 +14,11 @@ different arcs.** Citation convention: cloud arcs are cited on main as
 **qB1025…qB1053** (the q-prefix — citation-only; harvested content rebanks under
 fresh main IDs and this table maps both directions forever).
 
+**SEE ALSO `docs/SM_SEAT_ALIAS_TABLE.md` (2026-09-06)** — the SECOND collision of this exact
+shape (B1267+, six IDs, the SM-derivation seat, cited `sB…`). Same cause, same cure: a seat
+renumbered to dodge main, main banked into the vacated range. **B1278–B1289 are now also
+RESERVED-NEVER-ASSIGNED on main; main's next new arc is B1290.**
+
 ## The numbering rule going forward (binding on main)
 
 **Main's arc numbering JUMPS: B1045–B1059 are RESERVED-NEVER-ASSIGNED on main**

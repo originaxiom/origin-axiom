@@ -1,10 +1,11 @@
 {
- "id": "B258",
- "verdict": "PROVED",
- "claim_one_line": "Resolved H27: the trace field ℚ(√−3) is figure-eight-specific and the discriminant field ℚ(√(m²+4)) metallic, coinciding only at m=1; the quantum face splits into the same two ends.",
- "instrument": false,
- "depends_on": [],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "W1-wave1-fanout"
+  "id": "B258",
+  "verdict": "PROVED",
+  "claim_one_line": "Resolved H27: the trace field ℚ(√−3) is figure-eight-specific and the discriminant field ℚ(√(m²+4)) metallic, coinciding only at m=1; the quantum face splits into the same two ends.",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "W1-wave1-fanout",
+  "note": "CORRECTED 2026-09-02 (B1237): the parenthetical 'silver → 8 (non-arithmetic)' infers arithmeticity from the trace field's degree; the invariant trace field of m136 is ℚ(i) and silver is arithmetic (E55, the source instance). The degree facts and H27's split stand. See ADDENDUM_2026-09-02_B1237.md."
 }

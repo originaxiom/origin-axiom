@@ -42,3 +42,47 @@ gate on the cpen leg.
 
 `traces.py` → `results.json` (+ the corrected-status history inside).
 Locks: `tests/test_b919_traces.py`.
+d=$(ls -d frontier/B919_* | head -1); echo "appended to $d"; tail -3 "$d/FINDINGS.md" | cut -c1-100
+---
+
+## ADDENDUM (2026-09-05, B1250 session) — THE VALUE IS NOT SELECTIVE, AND THE Y-ANCHORING IS AN IDENTIFICATION
+
+Raised by an external reviewer working from two files (no ledger access), **verified on this bench**.
+This arc had **no genericity fence**; it needs one, and the honest scoping is sharper than the
+reviewer's.
+
+**The value discriminates nothing.** `Tr(T₃²)/Tr(Y²) = 3/5` — hence `sin²θ_W = 3/8` — for **every**
+representation in the chain, computed exactly here:
+
+| rep | Tr(T₃²) | Tr(Y²) | ratio | sin²θ_W |
+|---|---|---|---|---|
+| SU(5) **5** | 1/2 | 5/6 | 3/5 | **3/8** |
+| SU(5) **5̄** | 1/2 | 5/6 | 3/5 | **3/8** |
+| SU(5) **10** | 3/2 | 5/2 | 3/5 | **3/8** |
+| SO(10) **16** | 2 | 10/3 | 3/5 | **3/8** |
+| E₆ **27** | 7/2 | 35/6 | 3/5 | **3/8** |
+
+*(Absolute traces depend on the Y-normalisation convention; this arc's own `Tr(T₃²)=3, Tr(Y²)=5`
+gives the same ratio. The **ratio** is the claim.)* **3/8 is a property of the SU(5)-compatible
+embedding plus equal normalised couplings. It does not single out E₆, the 27, or the knot.**
+
+**The two halves of this arc's "no convention" claim separate, and only one survives it.**
+
+| ingredient | status |
+|---|---|
+| **T₃** normalised by its sl₂ ad-eigenvalues | **genuinely convention-free** — this arc is right |
+| **Y** *"anchored by the electromagnetic identification"* (Q = T₃ + Y) | **an IDENTIFICATION — an I-13 instance, unpriced** |
+| the resulting value **3/8** | **non-discriminating** (table above) |
+
+So the accurate statement, replacing any reading of this arc as a physics derivation:
+
+> **3/8 follows from object-supplied structure (a weak su(2)-ideal in the wall centralizer,
+> intrinsically normalised) PLUS ONE UNPRICED IDENTIFICATION (the electromagnetic anchoring of Y) —
+> and the resulting number is evidence for nothing, since every representation in the chain gives it.**
+
+What is object-specific is that the object **supplies the su(2)-ideal at all**. The **number** is not.
+This is the programme's standing shape: **structure from the object, the value from an
+identification.** Registered as a new I-13 instance: `Y ≡ the electromagnetic charge functional`.
+
+**Untouched:** the exact 27-traces, the one-prime tier, the trace-orthogonality `Tr(T₃·Y) = 0`, and
+the two self-catches. Only the *significance* of the value is fenced.

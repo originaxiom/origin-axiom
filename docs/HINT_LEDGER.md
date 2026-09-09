@@ -641,3 +641,242 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       ENTER (5 is a residue characteristic, four independent ways). What remains open is
       the EXPONENT: is 12 structural (the floor dimension? the D-flip count?) or
       incidental? Registered, not designed.
+
+## 2026-09-07 — B1295 hints (recorded, not judged)
+
+- H-B1295-DIVISOR (type PATTERN, pre-registered 88/88, firewalled CONJECTURE → L200): the θ-odd
+  cusp coefficients of the harmonic generator are a parity-twisted ℤ[√−3] divisor sum with zero
+  fitted parameters; the weights `Re(d ē)` / `±Im(d ē)/√3` / 0 by the parity of the factors are the
+  `𝔽₄ = ℤ[ω]/2` character heard through the glides. Reading: Eisenstein Fourier coefficients of the
+  index-12 subgroup. Not yet asked: does the same law, with the same character, hold for the
+  harmonic forms of the cyclic covers N_n (`b₁ = 1` for all n, since every Y_n is a QHS — B1295's
+  census) — the family version would say
+  whether the character is m004's or the tower's.
+- H-B1295-C0 (type QUESTION): `|c₀| = 4.260982635(2)` matches no bounded linear form in the ten
+  obvious constants. The number to derive, not to fit — L200(b). If it comes out as an `L`-value ratio
+  of `ℚ(√−3)`, it is the second such value in the object's own grammar after Vol = 9√3ζ_K(2)/π²
+  (B1117–B1122); if it does not, the normalisation of the meridian period is the first suspect.
+- H-B1295-HEX (type WITNESS-SET, for a future hatch walk): 16 hexagonal cusps in 14 degree-10
+  covers of m004, none rotated by any isometry. These are the covers to look at first if anyone
+  reopens "three arcs need an order-3 cusp rotation" at degree > 10 — the shape is there, the
+  symmetry is not; the question is which enlargement of the isometry group a further cover buys.
+- H-B1296-F4 (type LAW-SHAPED, exact, coefficient-independent): on the F₄ chamber of the θ-even Cartan
+  of E₆, *chiral ⟺ SU(3)-cubic-anomalous*, face by face (4 of 15 faces both, 11 of 15 neither; Witten
+  parity 0 everywhere). The mechanism is the twist: θ-evenness gives `dim 27_q = dim 27_{−q}` always and
+  `27_q ≅ 27_{−q}^*` only when θ|_{C_ss} is inner — the swapped A₂ pair and the pointwise-fixed A₂ are the
+  two outer cases. Not yet asked: does the same dichotomy hold for the other two diagram-flip pairs
+  (D₄ triality folding to G₂, A_{2n} folding) — if it is general, "equivariant abelian Higgs on a fixed
+  locus" is vector-like-or-anomalous for every folding, a statement about symmetric pairs, not about m004.
+- H-B1296-A2 (type IDENTITY, checked): the θ-odd Cartan plane is the restricted root system of the
+  symmetric pair (E₆, F₄) — six restricted roots, multiplicity 8, cosines {±1, ±½}: Helgason's EIV =
+  E₆(−26), the form the corpus already names as the object's spacetime form (T-SIMUL-CLOSING). The odd
+  plane's walls are D₅ ⊕ u(1) (36 rays, chiral type), its root lines D₄ ⊕ u(1)² (24 rays, spectrum
+  symmetric), generic D₄ ⊕ u(1)² (108). The chirality of the θ-odd motion (B576) is the wall structure of
+  EIV's restricted A₂ — the first time the spacetime form and the chirality question meet in one object.
+- H-B1296-ORBITS (type WITNESS): the two arcs of one strong inversion of m004 lie in DIFFERENT orbits of
+  the cusp isometry group (endpoint orbits [4, 4], stabilisers {2: 8}) and the object's harmonic form
+  distinguishes them numerically, `ω(∂_x) = 1.280438` vs `0.724301`. The arcs are not interchangeable:
+  a closer who assigns them equal signs is making a choice the object does not make (fc R69 §4 by
+  symmetry). Ratio 1.7677 — recorded, not interpreted.
+- H-B1296-WEYL (type IDENTITY, checked): `ω₃^∨ − ω₅^∨ ∈ W·ω₁^∨` and `ω₁^∨ − ω₆^∨ ∈ W·ω₆^∨` (cross pairs
+  false): the chiral SO(10) direction IS a θ-odd wall of the restricted A₂ up to Weyl. So the θ-odd
+  plane reaches SO(10)×U(1) and the θ-even chamber does not — the crux of c vs θ stated in coweights.
+- H-B1296-TRIN (type DISTINCTION, for citation hygiene): the ω₄^∨ face's centraliser A₂×A₁×A₂ ⊕ u(1) is
+  trinification `SU(3)³` with the third SU(3) broken to SU(2)×U(1)_u (27 → (3,2,1)₁ ⊕ (1,2,3)₋₁ ⊕ (1,1,3)₂
+  ⊕ (3,1,1)₋₂ ⊕ (3̄,1,3̄)₀); B1098's "trinification remnant" is su(3)⊕su(3), the object's holonomy eating
+  one SU(3). Different objects; TERMINOLOGY.md:493 names only the latter.
+- H-B1296-RATIO (type OBSERVATION, FIREWALLED — recorded because it was on the screen, built on by
+  nothing): on the swapped-pair faces the 78-sector's SU(3)² cubic anomaly is exactly −3 × the 27-sector's
+  (−3 vs +1 per A₂, normalised to the fundamental; the 78 ⊃ (3,3,3̄) is tri-fundamental, the 27
+  bi-fundamental), so the two sectors cancel only at multiplicities 78 : 27 = 1 : 3. The two sectors live
+  in two frames (PW's 7d adjoint vs the heterotic-type 27), no frame on main has both with free
+  multiplicities, and the two parents that contain both give −1 (E₇, n₂₇ = 2) and +3 (E₈, n₂₇ = 6) —
+  neither cancels. **This is not a generation count**; it is registered as L201's data.
+
+- H-B1297-INDEX (type LAW-SHAPED, derived and checked on 61 sectors): on a one-cusped 3-manifold the net chirality of a local
+  system is `I = t₀ − r₁` in domain D — cusp invariants minus the rank of the boundary map; `F = −I`, `Cc = I`. Chirality is a
+  boundary-map statement; a closing (no boundary) has none. The twisted, coefficient-level form of fc R69's "the cusp keeps
+  the endpoints" and of B1290's `χ(M, ∂⁺M)`. (B1297, 2026-09-08)
+- H-B1297-GALOIS (type LAW-SHAPED, two-line proof): a twist of order prime to 3 on the ℚ(√−3) object is vector-like by field
+  theory alone — the automorphism fixing ℚ(√−3) and inverting the twist carries V to V*. Only 3-torsion twists are
+  Galois-unprotected for this object; the cyclic tower's 3-torsion first appears at the 4-fold cover (|Tors| = 45). (B1297)
+- H-B1297-PERIOD2 (type LAW-SHAPED, one-line proof): the figure-eight's period-2 symmetry is −1 on its Alexander module (the
+  module is cyclic on the lift of `a`, and P sends a ↦ a⁻¹), hence charge conjugation on every cyclic cover's twists. A
+  chiral spectral cover on this object must be one the period-2 symmetry does not dualise — L202. (B1297)
+- H-B1297-UNITARY (type OBSERVATION, proved): every UNITARY local system has index 0 (`V* ≅ V̄`, conjugation preserves ranks);
+  non-zero net chirality on a cusped 3-manifold needs a NON-unitary local system — the geometric SL(2,ℂ) is the only
+  non-unitary ingredient the object supplies. (B1297)
+- H-B1297-NOEXAMPLE (type WITNESS, negative): in 60 one-cusped census manifolds with torsion ≥ 3 in H₁ (12 non-self-dual
+  `Sym²⊗χ` sectors) the index is 0 with `r₁ = t₀ = 1` every time. Whether `I ≠ 0` ever occurs in domain D is open (L202c);
+  the algebraic non-vacuity of the criterion is shown on random presentations (26/31 non-zero). (B1297)
+- H-B1298-GERM (type LAW-SHAPED, exact): the flat E₆ germ at the geometric point selects the OUTER lift — the strong inversion
+  acts on H¹(m004; Sym^k) by (−1)^{k/2+1}, i.e. as θ_D on the six deformation classes (+,−,+,+,−,+); the period-2 acts trivially
+  on the whole germ. Three benches now hold it (B353 (C) 2026-07 under the name "hyperelliptic"; sm:B1280 Thm 2 mod two primes;
+  B1298 exact). The corpus rediscovered its own theorem across seats: an E53 shape at the level of theorems. (B1298, 2026-09-08)
+- H-B1298-INNER (type OBSERVATION, verified): under the inner lift Ad(exp πiρ^∨) every Cartan direction is even (fixed algebra
+  A₅⊕A₁, all of 𝔥), so B1296's count-2 SO(10) configuration is θ-equivariant AND anomaly-free — the wall on the singular road is
+  not equivariance but the LIFT (I-28), and count 2 stands on both lifts. (B1298)
+- H-B1298-NAME (type IDENTITY, checked): B353's "hyperelliptic cocycle action" is the meridian-reversing strong inversion S
+  (f = −1 on H₁), not the period-2 P (f = +1): P is invisible on the flat germ and −1 on the descent's torsion (B1297) — the
+  two order-2 isometries act on different faces of the object. (B1298)
+- H-B1299-K (type LAW-SHAPED, seat's, verified): on W1/W2 the peripheral pair satisfies λ = μ^{±3} exactly (B71's c = 1),
+  so cusp-fixed vectors exist only where μ has a cube-root-of-unity eigenvalue — and that curve K is the branch locus of the
+  trace coordinates, where the representation equals its dual pulled back by the period-2 isometry. The same isometry that is
+  charge conjugation on the descent's twists (B1297) is charge conjugation on the SL(3) components' branch locus. (B1299)
+- H-B1299-HOLE (type WITNESS, exact): the symmetry pairing of the θ-odd germ fails at the subregular point on exactly one
+  direction (the V₁₀ of the 42). Every other flat-sector direction on the object is paired. L204 is the whole remaining
+  flat-sector chirality question on m004 itself. (B1299)
+- H-CHAT1-THREE (type OBSERVATION, seat's, fenced): the number 3 does two independent jobs — geometric (an order-3 element of SL(2,ℤ) has trace −1, so det(A − I) = 3: three fixed lines) and algebraic (gcd(3, |Out(E₆)|) = 1, so an order-3 symmetry lifts only INNER and the outer-lift vector-like theorem does not apply); order 2 fails both at once (four lines; lifts outer). Fences: three fixed lines ⟹ three generations is I-26- and PW-frame-conditional (Phase 2 Arc 0); the lift is I-28. (chat1 relay 2026-09-08, intake row 18)
+- H-B1302-NOTWIST (type WITNESS, exact): on m202 the two cusps' peripheral classes generate H₁ = ℤ² (elementary divisors 1, 1), so
+  NO non-trivial character is trivial on both cusps — the descent's twist mechanism (B1297) has no sector at all on the sibling;
+  its flat E₆ sector is untwistable as well as vector-like. (B1302)
+- H-B1302-BOTH (type OBSERVATION, seat's + this bench): the sibling m202 passes both of chat1's tests (an order-3 isometry with
+  three fixed lines; the inner lift forced) where the object fails both, its flat sector is vector-like by the inversion (sm:B1282,
+  exact here), and its price is the golden face (no fibration carries t² − 3t + 1). The count of three on it is PW's localized
+  count under two of fc's named choices. That is the whole case for re-pricing D3 — a decision, recorded for the owner. (B1302)
+## 2026-09-08 — B1303 hints (recorded, not judged)
+
+- H-B1303-FORK (type OBSERVATION, this bench): the first physics consequence of the SM closing (sm:B1283's Z′) is two-valued on an
+  identification nobody had named — which of the three family characters, permuted by the deck 3-cycle, carries the THIRD
+  family. Light family ⇒ 10²–10³ TeV (kaon mixing); third family ⇒ a few TeV (B_s mixing). The record's values are 0/19, so the
+  fork is exactly a value question wearing structural clothes; any future "prediction" from the closings must be checked for
+  the same hidden identification. (B1303)
+- H-B1303-SAFE (type OBSERVATION, this bench): the Z′'s only anomaly is the family torus's cubic (−20250 = 27 · Σ f_i³ with
+  f = (−10, 5, 5)); every mixed coefficient vanishes on the 27s ALONE because E₆ is a safe group and the family torus is
+  traceless. So "the 27̄s cancel the anomaly" is a statement about the family torus, not about E₆ — and anomaly-freedom is
+  precisely what makes W_np Z′-invariant and closes the tadpole door at every order. (B1303)
+- H-B1303-BEING (type PROCESS, cross-seat): chat1's "genuinely absent" item (χ from the odd-plane determinant) is B1103 THE BEING
+  GATE, harvested from an outside session on 2026-08-21 — the record files it under the name of its consequence (the mod-3
+  gate as "the being gate"), not under the name of its method (the determinant). Absence sweeps must search by BOTH the
+  method's words and the consequence's words; the E54 class gains a sub-shape: ABSENT-UNDER-THE-OTHER-NAME. (B1303)
+- H-B1303-Y12 (type OBSERVATION, seat's, verified): the tower has at least two SM closings and they differ in exactly the place
+  B1300's theorem fails — Y₁₂'s letters are 2-adic (order 16), their squares land on Y₆'s order-8 support with generation count
+  1, and the triplet thins to one generation. The doublet–triplet mechanism is a property of WHICH closing, i.e. of the tower's
+  arithmetic (the law), not of the closing's algebra. (B1303)
+
+## 2026-09-08 — B1305 hints (recorded, not judged)
+
+- H-B1305-ONE-THEOREM (type SYNTHESIS, the cloud seat's memo 170, registered here): the σ wall, the selector wall and the chirality wall are
+  B1227's theorem in three value groups (ℝ/½ℤ, ℝ, ℤ). Attack none of them separately; the programme's single defect is that its object
+  is too symmetric. Registered on the theorem row. (B1305)
+- H-B1305-NU-C (type CROSS-REFERENCE, memo 170 §6(b), both halves verified on main by reading): ν^c, the field the object DERIVES, is at
+  once the anomaly-canceller of the derived 16 (B1096: "exactly what cancels the last non-vanishing invariant") and a Yukawa partner in
+  the forced cubic (sm:B1276's table row H_u L ν^c). Two seats, two arcs, no cross-reference until now. (B1305)
+- H-B1305-META-CONTAMINATION (type PROCESS, this bench): a corpus-wide instrument whose control term names a GAP is voided by the
+  documents that adopt it — the sense census's negative control failed on main only because this arc's own DESIGN and its saved cloud
+  table say "logarithmic CFT". The cloud excluded its own memos for the same reason. Any adopted census needs a meta-exclusion list
+  (the harvest arcs' inputs and DESIGNs, HARVEST_LEDGER, CAMPAIGN_STATUS) or a control term no surface has yet named. (B1305)
+- H-B1305-THREE-KLEIN (type CAUTION, memo 170 §6(c), checked): main's B1276 joins B1174's legs with B730's faces (V₄ = Gal(ℚ(√−3, √5)/ℚ),
+  subfields √−3, √5, √−15); B1182 joins its frame ⟨c, r⟩ with Gal(ℚ(ζ₁₂)/ℚ) (subfields √−3, √3, √−1). The two V₄s share only ℚ(√−3) and
+  no main surface identifies them (scan: three sentences carry both tokens, none asserts equality). Keep it so. (B1305)
+- H-B1305-CENTRE-NOT-EDGE (type CORRECTION-OF-FRAMING, this bench on the cloud's relay): in Gukov–Manolescu's F_K the mirror-odd quantity is
+  the CENTRE of a block's exponent range, (c_low + c_high)/2, not their constant c (the lowest edge): the figure-eight's blocks are
+  palindromic for all k ≤ 20 (c_low = −1/16, c_high = +1/16, centre 0 — as B1227 requires), the torus knots' blocks are monomials (centre = c
+  = ±1/24). Chirality is the centre; growth (c_edge, the c_eff ceiling, the surgery window) is the mirror-even width. (B1305 B)
+- H-B1305-FOURTH-REGIME (type SYNTHESIS, the cloud's mechanism + this bench's reading): the ends of the colored Jones polynomial are swapped by
+  the mirror, so their ratio R is a mirror-odd invariant in the group of formal q-series with constant term 1, which is torsion-free: an
+  amphichiral knot has R = 1. R(4₁) = 1, R(3₁) = 1/(q;q)_∞ (the partition numbers), computed by two independent formulas. The fourth face reads
+  "2 or nothing" for the same reason as the other three. What none of the four faces has produced is a COUNT. (B1305 B)
+- H-B1305-META-2 (type PROCESS, this bench): the sense census failed its negative control a second time, after a meta-exclusion list, because
+  slice A's own hint row and the generated views now say "logarithmic CFT". An instrument whose control term names a gap cannot be
+  documented in the tree it scans without defeating itself; the third pre-registration (B1307) must exclude every file that names the
+  instrument, or evaluate the control on a fixed pre-instrument commit. (B1305 B)
+
+## 2026-09-09 — B1304 hints (recorded, not judged)
+
+- H-B1304-LOCUS-IS-ARITHMETIC (type OBSERVATION, this bench on the audit seat's R20): the three C₃-compatible characters of m202 are the
+  kernel of (Mᵀ − I) on the dual torus, a group of order det(M − I) = 3 — the same 3 as the three fixed points per cusp (B1302's cusp maps) and
+  the "three lines". On the sibling every 3 in sight is det(M − I) for the order-3 isometry's action on ℤ²; the object (m004) has no order-3
+  isometry and no such 3. (B1304)
+- H-B1304-QUANTIFIER (type PROCESS, E70's lesson): B1259's proof was about elements and its headline about strata; the audit seat caught it
+  with a group of order 8. Write the quantifier string of the theorem and of the headline side by side before sealing a NEGATIVE. (B1304)
+- H-B1304-INPUT-TABLE (type SYNTHESIS): the ToE ledger's §E is the price list the programme statement has been paying in prose; with it,
+  "which endpoint" is a row number. The audit seat's compact-E₆ theory pays six rows; main's structure chain pays I-26/I-27/I-28 and the
+  closing; the Z′ regime pays the mass ordering. No theory in the record pays zero. (B1304)
+
+## 2026-09-09 — B1306 slice A hints (recorded, not judged)
+
+- H-B1306-TWO-PRIMES (type PROCESS, this bench): a matrix identity tested modulo ONE prime admits whole eigenlines of false zeros — my first
+  run of the criterion check found 84 at Y₇ (56 right) and 183 at Y₉ (147 right), each excess a full eigenline; the SM seat's certificate
+  uses two primes for exactly this reason. Rule: an exact-modular identity test is two primes or it is a heuristic. (B1306)
+- H-B1306-CRITERION (type SYNTHESIS, the SM seat's): π₁(Y_n) = ⟨a, b | φⁿ(a) = a, φⁿ(b) = b⟩ makes the tower's twisted cohomology a 2×2
+  matrix product per character; with it every "which closing carries the SM" question is arithmetic in Δ's roots and the half-deck's sign.
+  The selection among the closings (L203) has become a finite, checkable menu — and still no selector. (B1306)
+- H-B1306-COLLISION-3 (type PROCESS): the third numbering collision in a month happened with the relay written and the reserved list in
+  place, because a seat's request lives on its branch until a harvest; the fix is not another range but the gate that reads seat relays the
+  hour they are pushed (B1307). (B1306)
+
+## 2026-09-09 — B1307 hints (recorded, not judged)
+
+- H-B1307-A-PIN-IS-A-RECEIPT (type PROCESS): a harvest pin that means "last looked" is a bookmark and lies by omission; one that means
+  "every item at or before this commit has been read" is a receipt and can only be advanced by the landing that read. The gate's
+  honesty rests on that sentence. (B1307)
+- H-B1307-CLOSED-SENDER-SET (type PROCESS): the relay-debt grammar enumerated its senders (CC/CC3/CODEX/CLOUD) and every lane that
+  opened afterwards (SM, FC, FAB5, CHAT1) was invisible — the same repair B1172 made once. A grammar for names other seats choose
+  must be open (any sender token), and its row grammar must tolerate what rows actually write. (B1307)
+- H-B1307-SELF-NAMING (type INSTRUMENT): an instrument's own documentation defeats its negative control wherever that documentation
+  is scanned; the fix is not a hand-kept exclusion list but a run-time rule — drop every file that names the instrument. The sense
+  census passed on both routes the moment that rule was applied, and had been sound on the pre-instrument tree all along. (B1307)
+- H-B1307-THE-MIRROR-IS-MAIN-ONLY (type PROCESS): the seats push to origin only; codeberg carries main and the seat branches as
+  they were when last mirrored (cloud 5 behind, SM 3 behind at the first run). Whether main should mirror seat branches is the owner's
+  call; the gate reports the lag either way. (B1307)
+
+## 2026-09-09 — B1306 slice B hints (recorded, not judged)
+
+- H-B1306B-DIGIT-SPELLING (type PROCESS, this bench): "figure-eight", "figure eight", "ﬁgure-eight" and "4_1" are four spellings; "figure 8 knot"
+  is a fifth, and it is the one the nearest neighbour used. An absence claim about a text is a sample until its pattern set names every spelling
+  of the term — digits, hyphens, ligatures. The seat's search had the digit; main's did not. (B1306 B)
+- H-B1306B-SOURCE-OVER-PDF (type INSTRUMENT): when a published formula is disputed, fetch the arXiv e-print and read it as TYPED; two extractions
+  of one PDF agreeing is weaker than the source. Here the source settled the fork in one read (the cloud's transcription was exact). (B1306 B)
+- H-B1306B-CERTIFICATES-TRAVEL (type PROCESS, the cloud's): a certificate that opens a helper by an absolute machine path fails on every other
+  bench; two of the cloud's did. A certificate is portable or it is that bench's alone. (B1306 B)
+- H-B1306B-THE-CONVERSE (type TARGET): the tower law's remaining half is one 2×2 statement — for ord(u), ord(−u) both even, the unipotent
+  one-period product N₀ is not the identity; the seat offers two forms (a twisted Fibonacci recursion in roots of unity; an antilinear square).
+  A proof closes L203's menu to a theorem. (B1306 B)
+- H-B1306B-INTERPOLATE-EXACTLY (type INSTRUMENT, this bench): a quantum-group trace with Laurent-polynomial answer can be evaluated modulo two
+  primes at roots of unity and recovered by an inverse DFT — exact when both primes agree and the support clears the window — but never divide
+  pointwise by a quantum integer: the evaluation points include its zeros. Divide exactly afterwards. (B1306 B)
+
+## 2026-09-09 — the session-relay seat's handoff (recorded, not judged; credit: the session-relay seat)
+
+- H-CHAT1-INNER-MIRROR (type SYNTHESIS): ab → ba is the inner automorphism by a⁻¹; inner automorphisms act trivially on the character variety, so the
+  word-order mirror pays no bit; only inversion (a ↦ a⁻¹) acts on X. The generative rule's abelianisation has det −1 as a PROPERTY, not a choice. The
+  content is B979/B1083; the form is the seat's and it is the cleanest statement of "A7 buys φ, not a handedness". (intake 2026-09-09)
+- H-CHAT1-Q8 (type CANDIDATE, GATED — do not narrate): the unique irreducible Poisson-degenerate point of the Fricke surface (κ = −2, the quaternion
+  character [a,b] = −I) is Q₈ = ker(2T → ℤ/3), the kernel of the map whose quotient counts generations in the McKay route. Classical singular points;
+  no prior-art gate; no computation on main connects them. The seat's own words: "an adjacency, not a finding". (intake 2026-09-09)
+- H-CHAT1-TYPE-CHECK-THE-PREREG (type PROCESS, the seat's error 17): a sealed gate asserted a bivector degenerates on a surface — impossible by linear
+  algebra alone. Check the TYPE of a pre-registered claim before sealing it; falsifiability saved it, a type check would have saved the seal. (intake 2026-09-09)
+
+## 2026-09-09 — B1306 slice C hints (recorded, not judged)
+
+- H-B1306C-CENTRE (type PROCESS, this bench): counting labellings c ∈ {0,1,2}⁶ of the 27 gives 510, not 170, until the centre's shift
+  (1,0,2,0,1,2) mod 3 is quotiented — the same automorphism of e₆ under three names. A count over coweights is a count over the adjoint group or it is
+  three times too big. (B1306 C)
+- H-B1306C-TWO-INVARIANTS (type INSTRUMENT): cc3's positivity bridge and main's check used different complete invariants for SL(2,ℤ)-conjugacy of
+  positive words (Latimer–MacDuffee cycles there; Gauss reduction cycles of the fixed-point form here) and agree on 2 026 words: 241 classes. Two routes to
+  one classical fact is the shape "verified on two benches" should have. (B1306 C)
+- H-B1306C-SEAT-CODE-NEEDS-MAIN (type PROCESS): fc's R66 imports main's B351 module by name; a seat certificate that depends on main's code must say so
+  in its docstring, or its re-run fails for the wrong reason. (B1306 C)
+
+## 2026-09-09 — B1322 hints (recorded, not judged; credit: the SM-derivation seat)
+
+- H-B1322-DAMPING-AND-DIGITS (type INSTRUMENT, the seat's): a Gauss–Newton regularised at 10⁻²⁴·max G_ii stalls along classes whose corrections have
+  singular value ~ε, and a 60-digit rank report misreads pivots at 10⁻³⁹ as zeros; the torus Euler characteristic and Poincaré duality are the checks that
+  catch both. Banked points at 100 digits let any bench re-read the ranks — which is how main verified this in five minutes. (B1322)
+- H-B1322-THE-FLAT-SECTOR-IS-EXHAUSTED (type SYNTHESIS): every sl₂ germ of the cusped object's E₆ character variety is now paired (B1280) or computed dead
+  (sm:B1350/B1322) for a net count of 27s. The chirality bit, if the object supplies it, is not in its flat E₆ sector. (B1322)
+
+## 2026-09-09 — B1323 hints (recorded, not judged)
+
+- H-B1323-N-RECORDS-N-TH-PISOT (type PATTERN): two records give A = LR with dilatation φ² (φ the smallest quadratic Pisot number); three records give E₁₂·E₃₁·E₂₃ with dilatation ρ³ (ρ the plastic number, the smallest Pisot number of any degree, Siegel 1944) — n records, the n-th power of the minimal Pisot number of degree n, at n = 2 and n = 3. The criterion census exhibited ρ as the counter-criterion before the fork produced it. Not a law: two instances. (B1323)
+- H-B1323-THE-THIRD-RECORD-BUYS-SILVER (type OBSERVATION): the minimal three-record surface bundle is the Whitehead link complement, ℚ(i), volume 4G — the field and the volume of F3's silver sibling m136; the second class is s780 in ℚ(√−7), B316's chirality field. Three records land where the silver slope lands. Is F3 and F9 one fork seen twice? (B1323)
+- H-B1323-SWAP-IS-NOT-REFLECTION (type PROCESS, this bench): a pre-registration named "the record swap" as the letter swap of a twist word; on the surface the letter swap is the rotation (orientation-preserving) and the image of P is the reflection word x ↦ h(x)⁻¹. The amphichiral control could not tell them apart; the chiral three-record sibling did. Rule: when a control is symmetric under the very map under test, it is not a control of that map. (B1323)
+- H-B1323-THE-ATOM-OR-THE-BIT (type SYNTHESIS): at the genesis, as on the closed closings (B1294), one may have the atom ℚ(√−3) or a remembered handedness, not both — the two-record object has the atom and forgets the bit, the three-record object remembers the bit in the silver field. FRESH_EYES Q15 asks for a carrier that keeps both. (B1323)
+
+## 2026-09-09 — B1324 hints (recorded, not judged)
+
+- H-B1324-COVERS-DO-NOT-INHERIT (type CORRECTION, the cloud's clause): amphichirality passes to a cover only when the orientation-reversing symmetry carries the subgroup to a conjugate — always for cyclic (characteristic) covers, rarely for irregular ones: 66 of 77 irregular covers of m004 to degree 10 are chiral. "Every wall is amphichirality" stands as a statement about m004; it is not a statement about its tower. (B1324)
+- H-B1324-THE-TRIPLE-IDENTITY (type SYNTHESIS): det = s_m · s_l on every isometry of every one-cusped H₁ = ℤ manifold; m004 is one of three in 2 804 to realise all four sign patterns. The bit the programme called missing is a relation: mirror = swap × arrow. Whether that relation is the discrete shadow of the weak sector's C, P, T pattern is a question for the physics reading, not a claim. (B1324)
+- H-B1324-FOUR-RECORDS-BREAK-THE-PATTERN (type NEGATIVE): the minimal-trace mixed closure in SL(4,ℤ) has characteristic polynomial t⁴ − 4t³ + 6t² − 5t + 1 with TWO eigenvalues outside the unit circle (2.2207 and a complex pair of modulus 1.278) — not Pisot at all, and not θ₄⁴ (3.63). H-B1323-N-RECORDS-N-TH-PISOT was two instances. (B1324)
+- H-B1324-A-SYMMETRIC-CONTROL-AGAIN (type PROCESS, this bench): C1 pre-registered the naming of the record swap's image by the isometry set between two bundles of m004 — and every such set is the whole D₄, because m004 is amphichiral. The identity and the kernel are the results; the naming of individual maps rests on the construction (a reflection reverses the fibre's boundary) and on a chiral cover, where the isometry set is a single coset. The same lesson as H-B1323-SWAP-IS-NOT-REFLECTION, applied one arc late. (B1324)

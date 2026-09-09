@@ -1,0 +1,108 @@
+{
+  "flat_counts": {
+    "SM_19": 19,
+    "with_Dirac_neutrinos_26": 26,
+    "plus_gravity_and_Lambda_28": 28
+  },
+  "boxes": {
+    "B-SCALE-ANCHORED": {
+      "n": 3,
+      "members": [
+        [
+          "gauge couplings g1,g2,g3",
+          3,
+          "dimensionless but RUN: need a renormalisation point, itself a scale"
+        ]
+      ],
+      "supplier": "READER -- object is scale-blind (B811 H128 kill: scale-free cannot emit scale-dependent)"
+    },
+    "D-BETA-ODD": {
+      "n": 3,
+      "members": [
+        [
+          "theta_QCD",
+          1,
+          "CP-odd, dimensionless, no scale needed"
+        ],
+        [
+          "CKM phase delta",
+          1,
+          "CP-odd"
+        ],
+        [
+          "PMNS phase delta",
+          1,
+          "CP-odd; beyond the 19"
+        ]
+      ],
+      "supplier": "OBJECT CONSTRAINS -- amphichirality forces a Z/2 (B1224); object gives a BIT, not a value"
+    },
+    "C-DIMENSIONFUL": {
+      "n": 16,
+      "members": [
+        [
+          "quark masses u,d,s,c,b,t",
+          6,
+          ""
+        ],
+        [
+          "charged lepton masses",
+          3,
+          ""
+        ],
+        [
+          "Higgs vev v",
+          1,
+          ""
+        ],
+        [
+          "Higgs mass m_H",
+          1,
+          ""
+        ],
+        [
+          "neutrino masses",
+          3,
+          "beyond the 19"
+        ],
+        [
+          "Newton G (or M_Pl)",
+          1,
+          "the force the SM omits"
+        ],
+        [
+          "cosmological constant L",
+          1,
+          "the force the SM omits"
+        ]
+      ],
+      "supplier": "READER -- the scale wall (B1226 cell 1: contingent on CS=0, NOT a symmetry)"
+    },
+    "A-BETA-EVEN-PURE": {
+      "n": 6,
+      "members": [
+        [
+          "CKM angles th12,th13,th23",
+          3,
+          ""
+        ],
+        [
+          "PMNS angles",
+          3,
+          "beyond the 19"
+        ]
+      ],
+      "supplier": "NOBODY -- object CANNOT SELECT (B1225 no-canonical-selector, PROVED)"
+    }
+  },
+  "mb12": {
+    "boxes_occupied": 4,
+    "vacuous": false
+  },
+  "beta_odd_members": [
+    "theta_QCD",
+    "CKM phase delta",
+    "PMNS phase delta"
+  ],
+  "beta_odd_count": 3
+}

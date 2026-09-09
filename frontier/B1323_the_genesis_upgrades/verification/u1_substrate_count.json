@@ -1,0 +1,863 @@
+{
+ "a": {
+  "GL(1,Z)": [
+   1,
+   -1
+  ],
+  "primitive shears": 0,
+  "mixed closures": 0,
+  "hyperbolic elements": 0,
+  "mapping tori": "torus (+1) or Klein bottle (-1): chi = 0, no cusp, no hyperbolic structure",
+  "verdict": "degenerate control (not a fork)"
+ },
+ "b": {
+  "distinct_products_len_le_4": 768,
+  "mixed": 678,
+  "mixed_hyperbolic": 162,
+  "min_trace_mixed_hyperbolic": 3,
+  "minimal_examples": [
+   {
+    "word": [
+     "E12",
+     "E31",
+     "E23"
+    ],
+    "len": 3,
+    "mixed": true,
+    "trace": 3,
+    "eig_moduli": [
+     0.655866,
+     0.655866,
+     2.324718
+    ],
+    "hyperbolic": true,
+    "det(B-I)": 1,
+    "betti": [
+     1,
+     1,
+     0,
+     1,
+     1
+    ],
+    "chi": 0
+   },
+   {
+    "word": [
+     "E13",
+     "E21",
+     "E32"
+    ],
+    "len": 3,
+    "mixed": true,
+    "trace": 3,
+    "eig_moduli": [
+     0.655866,
+     0.655866,
+     2.324718
+    ],
+    "hyperbolic": true,
+    "det(B-I)": 1,
+    "betti": [
+     1,
+     1,
+     0,
+     1,
+     1
+    ],
+    "chi": 0
+   },
+   {
+    "word": [
+     "E21",
+     "E32",
+     "E13"
+    ],
+    "len": 3,
+    "mixed": true,
+    "trace": 3,
+    "eig_moduli": [
+     0.655866,
+     0.655866,
+     2.324718
+    ],
+    "hyperbolic": true,
+    "det(B-I)": 1,
+    "betti": [
+     1,
+     1,
+     0,
+     1,
+     1
+    ],
+    "chi": 0
+   },
+   {
+    "word": [
+     "E23",
+     "E12",
+     "E31"
+    ],
+    "len": 3,
+    "mixed": true,
+    "trace": 3,
+    "eig_moduli": [
+     0.655866,
+     0.655866,
+     2.324718
+    ],
+    "hyperbolic": true,
+    "det(B-I)": 1,
+    "betti": [
+     1,
+     1,
+     0,
+     1,
+     1
+    ],
+    "chi": 0
+   },
+   {
+    "word": [
+     "E31",
+     "E23",
+     "E12"
+    ],
+    "len": 3,
+    "mixed": true,
+    "trace": 3,
+    "eig_moduli": [
+     0.655866,
+     0.655866,
+     2.324718
+    ],
+    "hyperbolic": true,
+    "det(B-I)": 1,
+    "betti": [
+     1,
+     1,
+     0,
+     1,
+     1
+    ],
+    "chi": 0
+   },
+   {
+    "word": [
+     "E32",
+     "E13",
+     "E21"
+    ],
+    "len": 3,
+    "mixed": true,
+    "trace": 3,
+    "eig_moduli": [
+     0.655866,
+     0.655866,
+     2.324718
+    ],
+    "hyperbolic": true,
+    "det(B-I)": 1,
+    "betti": [
+     1,
+     1,
+     0,
+     1,
+     1
+    ],
+    "chi": 0
+   }
+  ],
+  "all_chi_zero": true,
+  "chi_values": [
+   0
+  ],
+  "torsion_free_mixed_hyperbolic (|det(B-I)|=1)": [
+   [
+    "E12",
+    "E23",
+    "E31"
+   ],
+   [
+    "E12",
+    "E31",
+    "E23"
+   ],
+   [
+    "E13",
+    "E21",
+    "E32"
+   ],
+   [
+    "E13",
+    "E32",
+    "E21"
+   ],
+   [
+    "E21",
+    "E13",
+    "E32"
+   ],
+   [
+    "E21",
+    "E32",
+    "E13"
+   ],
+   [
+    "E23",
+    "E12",
+    "E31"
+   ],
+   [
+    "E23",
+    "E31",
+    "E12"
+   ],
+   [
+    "E31",
+    "E12",
+    "E23"
+   ],
+   [
+    "E31",
+    "E23",
+    "E12"
+   ],
+   [
+    "E32",
+    "E13",
+    "E21"
+   ],
+   [
+    "E32",
+    "E21",
+    "E13"
+   ]
+  ],
+  "theorem": "chi(T^3 bundle) = 0 for every B, while a finite-volume hyperbolic 4-manifold has chi = 3 Vol / (4 pi^2) > 0 (Gauss-Bonnet-Chern): no three-record toral closure has a hyperbolic carrier",
+  "two_record_control_A=LR_on_T2": {
+   "eig_moduli": [
+    0.381966,
+    2.618034
+   ],
+   "betti": [
+    1,
+    "1",
+    "1",
+    1
+   ],
+   "chi": "0",
+   "geometry": "Sol (F6)"
+  },
+  "verdict_on_this_carrier": "ROBUST by theorem (exhibited)"
+ },
+ "c": {
+  "carriers_with_H1_rank_3": [
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    0
+   ]
+  ],
+  "carriers_with_H1_rank_2": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "results": {
+   "S_1_1": {
+    "words_tried": 1,
+    "hyperbolic_bundles": 1,
+    "non_hyperbolic_or_degenerate": 0,
+    "errors": 0,
+    "distinct_isometry_classes": 1,
+    "classes": [
+     {
+      "word": "aB",
+      "words": [
+       "aB"
+      ],
+      "volume": 2.029883212819307,
+      "cusps": 1,
+      "H1": "Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 0.9999999999999998,
+      "identify": [
+       "m004(0,0)",
+       "4_1(0,0)",
+       "K2_1(0,0)",
+       "K4a1(0,0)",
+       "otet02_00001(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": true,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 4,
+       "orientation_reversing": 4
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 4,
+        "orientation_reversing": 4
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 4,
+       "orientation_reversing": 4
+      },
+      "swap_volume": 2.0298832128193074,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 4,
+       "orientation_reversing": 4
+      },
+      "mirror_volume": 2.0298832128193065,
+      "in_three_line_class": false,
+      "isometric_to_m004": true
+     }
+    ],
+    "seconds": 0.1
+   },
+   "S_1_2": {
+    "words_tried": 252,
+    "hyperbolic_bundles": 36,
+    "non_hyperbolic_or_degenerate": 144,
+    "errors": 0,
+    "distinct_isometry_classes": 2,
+    "classes": [
+     {
+      "word": "abC",
+      "words": [
+       "abC",
+       "aBC",
+       "aCb",
+       "aCB",
+       "baC",
+       "bcA",
+       "bAc",
+       "bCa",
+       "cbA",
+       "cAb",
+       "cAB",
+       "cBA",
+       "Abc",
+       "Acb",
+       "AcB",
+       "ABc",
+       "BaC",
+       "BcA",
+       "BAc",
+       "BCa",
+       "Cab",
+       "CaB",
+       "Cba",
+       "CBa"
+      ],
+      "volume": 3.663862376708876,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 1.8049621542611474,
+      "identify": [
+       "m129(0,0)(0,0)",
+       "5^2_1(0,0)(0,0)",
+       "L5a1(0,0)(0,0)",
+       "ooct01_00001(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 3.663862376708876,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 3.663862376708876,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "acB",
+      "words": [
+       "acB",
+       "aBc",
+       "bAC",
+       "bCA",
+       "caB",
+       "cBa",
+       "AbC",
+       "ACb",
+       "Bac",
+       "Bca",
+       "CbA",
+       "CAb"
+      ],
+      "volume": 5.33348956689812,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.6274859229415615,
+      "identify": [
+       "s780(0,0)(0,0)",
+       "6^2_3(0,0)(0,0)",
+       "L6a1(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         2
+        ],
+        [
+         4,
+         -5,
+         2
+        ],
+        [
+         4,
+         -5,
+         2
+        ],
+        [
+         2,
+         -3,
+         2
+        ],
+        [
+         1,
+         -1,
+         2
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 3.6638623767088756,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 3.6638623767088765,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     }
+    ],
+    "seconds": 2.6
+   },
+   "S_0_4": {
+    "words_tried": 80,
+    "hyperbolic_bundles": 28,
+    "non_hyperbolic_or_degenerate": 20,
+    "errors": 0,
+    "distinct_isometry_classes": 2,
+    "classes": [
+     {
+      "word": "aB",
+      "words": [
+       "aB",
+       "bA",
+       "Ab",
+       "Ba",
+       "aab",
+       "aba",
+       "abb",
+       "baa",
+       "bab",
+       "bba",
+       "AAB",
+       "ABA",
+       "ABB",
+       "BAA",
+       "BAB",
+       "BBA"
+      ],
+      "volume": 7.327724753417753,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.609924308522295,
+      "identify": [
+       "t12047(0,0)(0,0)(0,0)(0,0)",
+       "8^4_2(0,0)(0,0)(0,0)(0,0)",
+       "L8n7(0,0)(0,0)(0,0)(0,0)",
+       "ooct02_00001(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 64,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 64,
+       "orientation_preserving": 32,
+       "orientation_reversing": 32
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 64,
+        "orientation_preserving": 32,
+        "orientation_reversing": 32
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 64,
+       "orientation_preserving": 32,
+       "orientation_reversing": 32
+      },
+      "swap_volume": 7.327724753417752,
+      "vs_mirror_word": {
+       "isometries": 64,
+       "orientation_preserving": 32,
+       "orientation_reversing": 32
+      },
+      "mirror_volume": 7.327724753417753,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaB",
+      "words": [
+       "aaB",
+       "aBa",
+       "aBB",
+       "bbA",
+       "bAb",
+       "bAA",
+       "Abb",
+       "AbA",
+       "AAb",
+       "Baa",
+       "BaB",
+       "BBa"
+      ],
+      "volume": 8.92931782309736,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 4.398931803911723,
+      "identify": [
+       "o9_44206(0,0)(0,0)(0,0)(0,0)",
+       "10^4_23(0,0)(0,0)(0,0)(0,0)",
+       "L10n98(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -9,
+         8,
+         -16
+        ],
+        [
+         4,
+         -7,
+         6,
+         -2
+        ],
+        [
+         1,
+         -4,
+         5,
+         -4
+        ],
+        [
+         4,
+         -7,
+         6,
+         -2
+        ],
+        [
+         1,
+         -4,
+         5,
+         -4
+        ],
+        [
+         2,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         -4,
+         5,
+         -4
+        ],
+        [
+         2,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         -4,
+         5,
+         -4
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 3
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 8.929317823097362,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 8.929317823097362,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     }
+    ],
+    "seconds": 1.2
+   }
+  },
+  "F9_surface_verdict": "ROBUST",
+  "keepers_of_Q(sqrt-3)": [],
+  "mirror_test": {
+   "three_record_classes": 4,
+   "chiral_classes": [
+    [
+     "abC",
+     3.663862376708876,
+     2,
+     [
+      "m129(0,0)(0,0)",
+      "5^2_1(0,0)(0,0)",
+      "L5a1(0,0)(0,0)",
+      "ooct01_00001(0,0)(0,0)"
+     ]
+    ],
+    [
+     "acB",
+     5.33348956689812,
+     2,
+     [
+      "s780(0,0)(0,0)",
+      "6^2_3(0,0)(0,0)",
+      "L6a1(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaB",
+     8.92931782309736,
+     4,
+     [
+      "o9_44206(0,0)(0,0)(0,0)(0,0)",
+      "10^4_23(0,0)(0,0)(0,0)(0,0)",
+      "L10n98(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ]
+   ],
+   "amphichiral_classes": [
+    [
+     "aB",
+     7.327724753417753,
+     4,
+     [
+      "t12047(0,0)(0,0)(0,0)(0,0)",
+      "8^4_2(0,0)(0,0)(0,0)(0,0)",
+      "L8n7(0,0)(0,0)(0,0)(0,0)",
+      "ooct02_00001(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ]
+   ],
+   "PASS_A (minimal hyperbolic three-record bundle is chiral)": true
+  },
+  "three_line_class_members": [],
+  "control_S_1_1_aB": {
+   "is_m004": true,
+   "amphichiral": true,
+   "shape_field_Q(sqrt-3)": true,
+   "self_isometries": {
+    "isometries": 8,
+    "orientation_preserving": 4,
+    "orientation_reversing": 4
+   },
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 4,
+    "orientation_reversing": 4
+   },
+   "vs_mirror_word": {
+    "isometries": 8,
+    "orientation_preserving": 4,
+    "orientation_reversing": 4
+   }
+  },
+  "control_PASS": true
+ },
+ "F9": {
+  "toral": "ROBUST by theorem (exhibited)",
+  "surface": "ROBUST",
+  "control_PASS": true
+ }
+}

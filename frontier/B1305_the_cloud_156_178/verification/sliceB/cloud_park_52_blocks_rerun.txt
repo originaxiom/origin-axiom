@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "oa-audit-seat/cloud-seat-792918b7/outside_bench/certificates/park_52_blocks.py", line 48, in <module>
+    exec(open('/tmp/k52/ahat.py').read().split('for n in range(0,4):')[0])
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/k52/ahat.py'
+RC=1

@@ -1,0 +1,17 @@
+1 {'D': 5, 'n_reduced': 2, 'SL_cycles': 1, 'GL': 1, 'pari_qfbclassno': 1, 'left_set': False}
+2 {'D': 8, 'n_reduced': 2, 'SL_cycles': 1, 'GL': 1, 'pari_qfbclassno': 1, 'left_set': False}
+3 {'D': 13, 'n_reduced': 2, 'SL_cycles': 1, 'GL': 1, 'pari_qfbclassno': 1, 'left_set': False}
+4 {'D': 20, 'n_reduced': 2, 'SL_cycles': 1, 'GL': 1, 'pari_qfbclassno': 1, 'left_set': False}
+5 {'D': 29, 'n_reduced': 2, 'SL_cycles': 1, 'GL': 1, 'pari_qfbclassno': 1, 'left_set': False}
+6 {'D': 40, 'n_reduced': 8, 'SL_cycles': 2, 'GL': 2, 'pari_qfbclassno': 2, 'left_set': False}
+7 {'D': 53, 'n_reduced': 2, 'SL_cycles': 1, 'GL': 1, 'pari_qfbclassno': 1, 'left_set': False}
+8 {'D': 68, 'n_reduced': 2, 'SL_cycles': 1, 'GL': 1, 'pari_qfbclassno': 1, 'left_set': False}
+9 {'D': 85, 'n_reduced': 8, 'SL_cycles': 2, 'GL': 2, 'pari_qfbclassno': 2, 'left_set': False}
+10 {'D': 104, 'n_reduced': 8, 'SL_cycles': 2, 'GL': 2, 'pari_qfbclassno': 2, 'left_set': False}
+11 {'D': 125, 'n_reduced': 2, 'SL_cycles': 1, 'GL': 1, 'pari_qfbclassno': 1, 'left_set': False}
+12 {'D': 148, 'n_reduced': 14, 'SL_cycles': 3, 'GL': 2, 'pari_qfbclassno': 3, 'left_set': False}
+   cycle: [(-7, 6, 4), (4, 10, -3), (-3, 8, 7), (7, 6, -4), (-4, 10, 3), (3, 8, -7)]
+   cycle: [(-7, 8, 3), (3, 10, -4), (-4, 6, 7), (7, 8, -3), (-3, 10, 4), (4, 6, -7)]
+   cycle: [(-1, 12, 1), (1, 12, -1)]
+REPRODUCES
+R42 rc=0

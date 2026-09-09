@@ -1,0 +1,7 @@
+B518  kappa(T) - kappa = 0
+B344  det J(Ta) = 1 ; kappa preserved: True
+B344  det J(Tb) = 1 ; kappa preserved: True
+B344 committed modules: ['deviation_symplectic_pairing.py']
+B344  committed det_is_one(m), m=1,2,3: [True, True, True]
+B332  g = -R L^-1 = [[0, -1], [1, -1]] | tr g = -1 | disc(charpoly g) = -3 | RL tr = 3  disc = 5
+B331  eigenvalues of g: [-1/2 - sqrt(3)*I/2, -1/2 + sqrt(3)*I/2] | = {omega, omega^2}: False | g^3 = I: True

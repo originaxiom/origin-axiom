@@ -1,0 +1,67 @@
+E6 in Bourbaki Dynkin labels: 27 weights, 72 roots; theta = diagram flip, 27 o theta = 27bar: True
+
+== R70's four theta-even coweight directions ==
+[u = w2] theta-even: True; 27 by charge: {Fraction(-1, 1): 6, Fraction(0, 1): 15, Fraction(1, 1): 6}; C(u): 30 roots, rank 5 (dim 36); centre dim 1 (of which orthogonal to u: 0)
+      S = 2(+)_{q>0}(27_q (+) 27_q o theta): True;  vector-like under C(u)': True;  under the extra centre U(1)s: None;  net U(1)_u charge of S: 24
+[u = w4] theta-even: True; 27 by charge: {Fraction(-2, 1): 3, Fraction(-1, 1): 6, Fraction(0, 1): 9, Fraction(1, 1): 6, Fraction(2, 1): 3}; C(u): 14 roots, rank 5 (dim 20); centre dim 1 (of which orthogonal to u: 0)
+      S = 2(+)_{q>0}(27_q (+) 27_q o theta): True;  vector-like under C(u)': False;  under the extra centre U(1)s: None;  net U(1)_u charge of S: 48
+[u = w1+w6] theta-even: True; 27 by charge: {Fraction(-2, 1): 1, Fraction(-1, 1): 8, Fraction(0, 1): 9, Fraction(1, 1): 8, Fraction(2, 1): 1}; C(u): 24 roots, rank 4 (dim 30); centre dim 2 (of which orthogonal to u: 1)
+      S = 2(+)_{q>0}(27_q (+) 27_q o theta): True;  vector-like under C(u)': True;  under the extra centre U(1)s: False;  net U(1)_u charge of S: 40
+[u = w3+w5] theta-even: True; 27 by charge: {Fraction(-3, 1): 2, Fraction(-2, 1): 3, Fraction(-1, 1): 6, Fraction(0, 1): 5, Fraction(1, 1): 6, Fraction(2, 1): 3, Fraction(3, 1): 2}; C(u): 10 roots, rank 4 (dim 16); centre dim 2 (of which orthogonal to u: 1)
+      S = 2(+)_{q>0}(27_q (+) 27_q o theta): True;  vector-like under C(u)': False;  under the extra centre U(1)s: False;  net U(1)_u charge of S: 72
+   -> R70's pairing claim holds at the representation level for w2 (A5) and w1+w6 (D4) and FAILS for w4 (A2+A2+A1) and w3+w5 (A1+A2+A1):
+      R70 paired the charged components by dimension; the theta-twist is conjugation on A5 and D4 but swaps the two A2's.
+
+== control: theta-odd / mixed directions (R69's count does not apply; shown so the test can fail) ==
+[u = w1 (D5 x U(1), the 16-direction)] theta-even: False; 27 by charge: {Fraction(-2, 3): 10, Fraction(1, 3): 16, Fraction(4, 3): 1}; C(u): 40 roots, rank 5 (dim 46); centre dim 1 (of which orthogonal to u: 0)
+      S = 2(+)_{q>0}(27_q (+) 27_q o theta): False;  vector-like under C(u)': False;  under the extra centre U(1)s: None;  net U(1)_u charge of S: 80/3
+[u = w6] theta-even: False; 27 by charge: {Fraction(-4, 3): 1, Fraction(-1, 3): 16, Fraction(2, 3): 10}; C(u): 40 roots, rank 5 (dim 46); centre dim 1 (of which orthogonal to u: 0)
+      S = 2(+)_{q>0}(27_q (+) 27_q o theta): False;  vector-like under C(u)': False;  under the extra centre U(1)s: None;  net U(1)_u charge of S: 80/3
+[u = w3] theta-even: False; 27 by charge: {Fraction(-4, 3): 5, Fraction(-1, 3): 10, Fraction(2, 3): 10, Fraction(5, 3): 2}; C(u): 22 roots, rank 5 (dim 28); centre dim 1 (of which orthogonal to u: 0)
+      S = 2(+)_{q>0}(27_q (+) 27_q o theta): False;  vector-like under C(u)': False;  under the extra centre U(1)s: None;  net U(1)_u charge of S: 40
+[u = w5] theta-even: False; 27 by charge: {Fraction(-5, 3): 2, Fraction(-2, 3): 10, Fraction(1, 3): 10, Fraction(4, 3): 5}; C(u): 22 roots, rank 5 (dim 28); centre dim 1 (of which orthogonal to u: 0)
+      S = 2(+)_{q>0}(27_q (+) 27_q o theta): False;  vector-like under C(u)': False;  under the extra centre U(1)s: None;  net U(1)_u charge of S: 40
+[u = w1-w6 (theta-odd)] theta-even: False; 27 by charge: {Fraction(-4, 3): 1, Fraction(-1, 3): 16, Fraction(2, 3): 10}; C(u): 40 roots, rank 5 (dim 46); centre dim 1 (of which orthogonal to u: 0)
+      S = 2(+)_{q>0}(27_q (+) 27_q o theta): False;  vector-like under C(u)': False;  under the extra centre U(1)s: None;  net U(1)_u charge of S: 80/3
+
+== the spectra decomposed under C(u)' (labels = Dynkin labels on C(u)'s simple roots, in the order listed) ==
+[u = w2] C(u)' simple roots (E6 root coords): [(0, 0, 1, 0, 0, 0), (0, 0, 0, 1, 0, 0), (0, 0, 0, 0, 1, 0), (0, 0, 0, 0, 0, 1), (1, 0, 0, 0, 0, 0)]
+      S(u) = 2 x 6(0, 0, 0, 1, 0) + 2 x 6(0, 0, 0, 0, 1)
+      chiral part S - conj(S) = 0  (vector-like)
+      C(u)' factors (by position in the simple-root list): ['A5'];  cubic anomaly of S per SU(N>=3) factor: {'A5[4,3,2,1,5]': '0'}
+[u = w4] C(u)' simple roots (E6 root coords): [(0, 0, 1, 0, 0, 0), (0, 0, 0, 0, 1, 0), (0, 0, 0, 0, 0, 1), (0, 1, 0, 0, 0, 0), (1, 0, 0, 0, 0, 0)]
+      S(u) = 2 x 6(1, 0, 0, 1, 0) + 2 x 6(0, 1, 0, 1, 0) + 2 x 3(0, 0, 1, 0, 0) + 2 x 3(0, 0, 0, 0, 1)
+      chiral part S - conj(S) = +2 x 6(1, 0, 0, 1, 0) + -2 x 6(0, 0, 0, 1, 1) + +2 x 6(0, 1, 0, 1, 0) + -2 x 6(0, 0, 1, 1, 0) + +2 x 3(0, 0, 1, 0, 0) + -2 x 3(0, 1, 0, 0, 0) + +2 x 3(0, 0, 0, 0, 1) + -2 x 3(1, 0, 0, 0, 0)
+      C(u)' factors (by position in the simple-root list): ['A2', 'A2', 'A1'];  cubic anomaly of S per SU(N>=3) factor: {'A2[1,5]': '2', 'A2[2,3]': '2'}
+[u = w1+w6] C(u)' simple roots (E6 root coords): [(0, 0, 1, 0, 0, 0), (0, 0, 0, 1, 0, 0), (0, 0, 0, 0, 1, 0), (0, 1, 0, 0, 0, 0)]
+      S(u) = 2 x 8(1, 0, 0, 0) + 2 x 8(0, 0, 1, 0) + 4 x 1(0, 0, 0, 0)
+      chiral part S - conj(S) = 0  (vector-like)
+      C(u)' factors (by position in the simple-root list): ['D4'];  cubic anomaly of S per SU(N>=3) factor: {}
+[u = w3+w5] C(u)' simple roots (E6 root coords): [(0, 0, 0, 1, 0, 0), (0, 0, 0, 0, 0, 1), (0, 1, 0, 0, 0, 0), (1, 0, 0, 0, 0, 0)]
+      S(u) = 2 x 6(0, 0, 1, 1) + 2 x 6(0, 1, 1, 0) + 4 x 3(1, 0, 0, 0) + 2 x 2(0, 1, 0, 0) + 2 x 2(0, 0, 0, 1)
+      chiral part S - conj(S) = +2 x 6(0, 0, 1, 1) + -2 x 6(1, 0, 0, 1) + +2 x 6(0, 1, 1, 0) + -2 x 6(1, 1, 0, 0) + +4 x 3(1, 0, 0, 0) + -4 x 3(0, 0, 1, 0)
+      C(u)' factors (by position in the simple-root list): ['A2', 'A1', 'A1'];  cubic anomaly of S per SU(N>=3) factor: {'A2[1,3]': '-4'}
+[u = control w1] C(u)' simple roots (E6 root coords): [(0, 0, 1, 0, 0, 0), (0, 0, 0, 1, 0, 0), (0, 0, 0, 0, 1, 0), (0, 0, 0, 0, 0, 1), (0, 1, 0, 0, 0, 0)]
+      S(u) = 2 x 16(1, 0, 0, 0, 0) + 2 x 10(0, 0, 0, 1, 0) + 2 x 1(0, 0, 0, 0, 0)
+      chiral part S - conj(S) = +2 x 16(1, 0, 0, 0, 0) + -2 x 16(0, 0, 0, 0, 1)
+      C(u)' factors (by position in the simple-root list): ['D5'];  cubic anomaly of S per SU(N>=3) factor: {}
+
+== all other theta-even directions spanned by the four with small coefficients (sums, differences, generic) ==
+C(u)prime type   roots  #dirs  vector-like  chiral+anomalous  chiral+anomaly-free
+A5               30     12     12           0                 0
+D4               24     12     12           0                 0
+A1+A2+A2         14     47     0            47                0
+A2+A2            12     66     0            66                0
+A3               12     85     85           0                 0
+A1+A1+A2         10     26     0            26                0
+A1+A1+A1         6      138    138          0                 0
+A2               6      25     0            25                0
+A1+A1            4      181    181          0                 0
+A1               2      151    151          0                 0
+-                0      185    185          0                 0
+
+theta-even directions tested: 928;  theorem S = 2(+)_{q>0}(27_q (+) 27_q o theta) holds for all: True
+chiral under C(u)' AND free of cubic anomalies under every SU(N>=3) factor: 0
+
+SELFTEST: PASS
+RC=0

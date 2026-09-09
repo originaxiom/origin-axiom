@@ -1,0 +1,23 @@
+  harvest-debt (2026-09-08): 489 seat-index ids across 9 seats; NEW unrowed 6, BACKLOG 426, STALE rows 2, relays without a row 353, aged past 21d 0, mirror lag 2 [3.5s]
+    sm       head ca850d6b pin 0dffacd4 (+3 commits) index 31 rows 18 | NEW unrowed 4 rowed 4 | backlog 21 | stale 0 | relays unrowed 2/2 | codeberg 3 behind / 0 ahead of origin
+             NEW unrowed: PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08 (0d), THE_ASSEMBLY_2026-09-06 (0d), THE_DESTINATION_LEDGER_2026-09-06 (0d), THE_VIEW_FROM_ABOVE_2026-09-06 (0d)
+             NEW but rowed (re-read at the next harvest): sm:B1281, sm:B1303, sm:B1304, sm:B1350
+             changed paths not mapped to an item: 13 (e.g. CHANGELOG.md, PROGRESS_LOG.md, docs/HINT_LEDGER.md, docs/LAW_MAP.md)
+             relays without a RELAY_LEDGER row: SM_TO_CC_2026-09-07_RANGE_EXHAUSTED.md, SM_TO_CC_2026-09-08_THE_TOWER.md
+    fc       head 659487bb pin 659487bb (+0 commits) index 74 rows 7 | NEW unrowed 0 rowed 0 | backlog 70 | stale 0 | relays unrowed 3/4
+             relays without a RELAY_LEDGER row: CC3_TO_CC_2026-08-15_C28_RAMIFICATION_CORRECTION.md, FAB5_TO_CC_2026-09-02_phaseB_findings.md, FC_TO_CC_2026-09-06_THE_LIFT_AND_THE_THIRD_ROOT.md
+    codex    head f7a49536 pin f7a49536 (+0 commits) index 39 rows 0 | NEW unrowed 0 rowed 0 | backlog 39 | stale 0 | relays unrowed 38/43
+             relays without a RELAY_LEDGER row: CODEX_TO_CC_2026-08-26_B1147_LOCK_DEFECT.md, CODEX_TO_CC_2026-08-26_C4_SUPERPOSITION_SCOPE.md, CODEX_TO_CC_2026-08-26_DARK_LEDGER_SCOPE.md, CODEX_TO_CC_2026-08-26_E6_27_INVARIANTS.md, CODEX_TO_CC_2026-08-26_HABIRO_ZETA3_EMBEDDING.md, CODEX_TO_CC_2026-08-26_HYPERCHARGE_SCOPE.md …
+    cc3      head a31456d2 pin a31456d2 (+0 commits) index 87 rows 0 | NEW unrowed 0 rowed 0 | backlog 87 | stale 0 | relays unrowed 178/184
+             relays without a RELAY_LEDGER row: CC3_TO_CC_2026-08-15_B874_26_IS_ATTAINED.md, CC3_TO_CC_2026-08-15_C28_RAMIFICATION_CORRECTION.md, CC3_TO_CC_2026-08-18_BANDS_EXECUTED.md, CC3_TO_CC_2026-08-18_ID_COLLISION_AND_THE_ASSEMBLY_REFUTATION.md, CC3_TO_CC_2026-08-19_AUDIT_B1075_CLEAN.md, CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md …
+    hostile  head 6fc86147 pin 6fc86147 (+0 commits) index 29 rows 0 | NEW unrowed 0 rowed 0 | backlog 29 | stale 0 | relays unrowed 0/0
+    cloud    head 02a885ca pin 792918b7 (+3 commits) index 155 rows 17 | NEW unrowed 2 rowed 1 | backlog 143 | stale 2 | relays unrowed 1/1 | codeberg 5 behind / 0 ahead of origin
+             NEW unrowed: memo 183 (0d), memo 184 (0d)
+             NEW but rowed (re-read at the next harvest): memo 182
+             changed paths not mapped to an item: 1 (e.g. outside_bench/INDEX.md)
+             STALE rows (ids in the ledger, not in the seat's index): memo 11, memo 27
+             relays without a RELAY_LEDGER row: CLOUD_TO_CC_2026-09-08_Q1_THE_QUANTUM_FACE.md
+    braver   head 53da05f6 pin 53da05f6 (+0 commits) index 6 rows 1 | NEW unrowed 0 rowed 0 | backlog 5 | stale 0 | relays unrowed 131/150
+             relays without a RELAY_LEDGER row: CC3_TO_CC_2026-07-23_forks_verification.md, CC3_TO_CC_2026-07-28_gate_items_closed_and_prediction_decided.md, CC3_TO_CC_2026-07-28_last_door_closed.md, CC3_TO_CC_2026-07-28_m004_eigenvalues.md, CC3_TO_CC_2026-07-28_rank4_response.md, CC3_TO_CC_2026-07-29_B796_masterplan_for_gate.md …
+    qor5up   head 3851df2a pin 3851df2a (+0 commits) index 30 rows 0 | NEW unrowed 0 rowed 0 | backlog 30 | stale 0 | relays unrowed 0/0
+    audit    head 6f862099 pin 6f862099 (+0 commits) index 38 rows 25 | NEW unrowed 0 rowed 0 | backlog 2 | stale 0 | relays unrowed 0/0

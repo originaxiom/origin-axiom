@@ -1,0 +1,25 @@
+tree <repo>: 2588 prose files scanned, 16.7 MB; self-naming exclusion removed 13 file(s):
+    - docs/CAMPAIGN_STATUS.md
+    - docs/HARVEST_LEDGER.md
+    - docs/HINT_LEDGER.md
+    - docs/RELAY_LEDGER.md
+    - docs/views/REVIEWER.md
+    - docs/views/VERDICT_LEDGER.md
+    - frontier/B1305_the_cloud_156_178/CC_TO_CLOUD_2026-09-08_Q1_ANSWERED_AND_SHARPENED_HELD.md
+    - frontier/B1305_the_cloud_156_178/DESIGN.md
+    - frontier/B1305_the_cloud_156_178/DESIGN_B.md
+    - frontier/B1305_the_cloud_156_178/FINDINGS.md
+    - frontier/B1305_the_cloud_156_178/FINDINGS_B.md
+    - frontier/B1305_the_cloud_156_178/inputs/cloud_harvest_debt_table_2026-09-08.md
+    - frontier/B1307_the_harvest_gate/DESIGN.md
+  logarithmic            8       0 (  0.0%)  FALSE COMFORT   [neg]
+  non-semisimple        18       0 (  0.0%)  FALSE COMFORT   [neg]
+  character           3515      12 (  0.3%)  FALSE COMFORT
+  modular              880      56 (  6.4%)  thin
+  non-rational           6       0 (  0.0%)  FALSE COMFORT
+  resurgence            70      12 ( 17.1%)  genuine
+  Chern-Simons          60      27 ( 45.0%)  genuine   [pos]
+  CONTROL + (Chern-Simons genuine): PASS;  CONTROL - (logarithmic, non-semisimple false comfort): PASS;  TWO-SIDED: PASSED
+  PLANTED CONTROLS: +1 technical with marker: 1; no marker: +0; marker outside window: +0  -> PASS
+  ROUTE A (self-naming exclusion) PRE-REGISTERED VERDICT: PASS
+routeA rc=0

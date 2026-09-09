@@ -1,0 +1,4 @@
+K(0)=-4 local min (Hessian 2I); K(10,10,10)=-704 -> NOT global on R^3
+on the trace box [-2,2]^3: K >= -4 with equality only at the origin (identity + 20000-point check)
+critical locus: [(-2, -2, 2), (-2, 2, -2), (0, 0, 0), (2, -2, -2), (2, 2, 2)] -- origin signature (3,0); the four others value 0, signature (2,1)
+VERDICT: B1233 row 5 narrowed -- 'global minimum' -> 'unique minimum on the SU(2) trace box'

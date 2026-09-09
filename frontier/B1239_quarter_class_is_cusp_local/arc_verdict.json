@@ -1,0 +1,32 @@
+{
+ "id": "B1239",
+ "verdict": "PROVED",
+ "claim_one_line": "THE 1/4 CLASS IS CUSP-LOCAL. Codex R040 (free orientation-reversing deck => CS = 0) reproduced -- 1260/1260 orientation double covers of the nonorientable cusped census in the zero class mod 1/2 at quad-double (max 9.04e-64; codex's 1e-6 tolerance is nine orders loose) and the closed control codex did not run, 17/17 (parent route; Tor H1 = A+A and tau even 17/17 = Kawauchi's conclusion, computed) -- and RE-GRADED from one fact read in CGHN p.14: SnapPy computes closed CS only mod 1/2, so codex's closed theorem (cs = 0 mod 1) is unobservable by the tool offered for it, and the observable statement (1/4 excluded) needs neither Kawauchi nor freeness: APS 3eta = 2cs + tau (mod 2) with eta = 0 under ANY orientation-reversing isometry and tau an integer gives cs in {0,1/2} mod 1 for every closed amphichiral manifold -- verified on the ENTIRE closed census, 37 amphichiral / 37 zero (7.8e-16), with bite (17 chiral closed manifolds at 1/4; cusped amphichiral at 1/4 11/25). THE SWAP COROLLARY, proved here from cited inputs (APS via CGHN; CGHN's Dehn-filling decomposition; Thurston; Mostow): a cusped M with an orientation-reversing isometry fixing NO cusp has cs = 0 mod 1/2 (fill (c, tau c) along (s, tau s); the two core torsions cancel exactly; the analytic term is 0 mod 1/2 at every equivariant filling and tends to cs(M)) -- verified on the ENTIRE cusped census: bucket A (some reversing isometry fixes no cusp) 28/28 zero, bucket B (every reversing isometry fixes a cusp) 6 zero / 5 quarter -- the prediction was falsifiable exactly there and held. THE RESIDUE is m004's own case: a tau-invariant cusp on which tau acts freely (the Klein-bottle cusp of the Gieseking quotient) -- two invariant slopes, no limit; odd covers keep the cusp type, even covers erase the 1/4 bit. L194 REFINED (not closed) to the cusp-local conjecture 'a reversing isometry acting freely on every cusp it preserves excludes 1/4', evidence 1260/1260 at 1e-64, tool named (Meyerhoff-Ouyang's cusped eta-cs relation, cited-not-read; a t3m trace of the cusp action to decide freeness on the cusp). B1234's k-blind wall: CS(m004) = 0 stands computed (B1224/B1227); its structural gloss is now a theorem for closed manifolds (freeness unnecessary), a theorem for cusp-swapping isometries, and an open lemma precisely at the object. E52 instance #7 (mine): the orientation-blind is_isometric_to detector B1181 used and B1235 retracted recurred on this bench for one probe and was caught by the chiral control (5_2) before any number was written; detectors validated 600/600 against symmetry_group(). Gate 5 clean. Not a programme law: two corollaries of cited results, graded as such.",
+ "instrument": false,
+ "depends_on": [
+  "B1235",
+  "B1234",
+  "B1224",
+  "B1227",
+  "B1181",
+  "B1186",
+  "B605",
+  "B1012",
+  "B1088",
+  "B1231"
+ ],
+ "supersedes": [],
+ "superseded_by": null,
+ "authored_by": "cc (main); source certificate: codex R040 @ origin/codex/seat-r001 (integrate-don't-merge)",
+ "note": "B1235 cell 2 (A6, 40/40) superseded UPWARD by 1260/1260 at 1e-64 plus the two theorems; B1235's L194 stays OPEN, refined in place. Kawauchi 1981 Thm III remains cited-not-read (JSTAGE download truncated five times); its CONCLUSION is computed on all 17 closed cases and it is unnecessary for every observable statement in this cell. Meyerhoff-Ouyang 1997 (Canad. Math. Bull. 40, 204-213) cited-not-read; named as the tool for the residue.",
+ "identifications": [],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-02",
+  "arc": "B1239 (cc), at landing",
+  "was": "false (declared at landing)",
+  "decision": "false",
+  "class": "VERIFICATION + two COROLLARIES OF CITED RESULTS + one lead REFINED. Statement 1 (closed amphichiral => cs in {0,1/2} mod 1) is a one-line consequence of the APS relation as printed in CGHN p.15 and eta's oddness; statement 2 (the swap corollary) is a short argument from CGHN's Dehn-filling decomposition, Thurston and Mostow. Both are graded THEOREM-from-cited-inputs and registered in this cell's FINDINGS §2-§3, not as programme laws: they are about hyperbolic 3-manifolds in general, they identify no object-side structure with anything, and the programme-relevant case (a tau-invariant Klein-bottle-type cusp; m004) is exactly what they do NOT cover. L194 remains OPEN.",
+  "basis": "read in full; the self-limits are in the claim (residue OPEN; Kawauchi and Meyerhoff-Ouyang cited-not-read; nothing structural proved about CS(m004), whose computed value stands on B1224/B1227); the census statements are universal claims about finite censuses, each with a bite control that could have failed (bucket B; the 17 chiral closed quarter-class manifolds)."
+ }
+}

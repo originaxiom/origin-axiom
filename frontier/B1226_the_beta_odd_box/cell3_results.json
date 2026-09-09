@@ -1,0 +1,39 @@
+{
+  "object_output_in_box_D": {
+    "invariant": "CS",
+    "constrained_by": "amphichirality (B1224)",
+    "type": "Z/2 -- ONE BIT",
+    "cardinality": 2
+  },
+  "probes": {
+    "B1027": {
+      "asked": "delta_13 == 120 deg or 240 deg",
+      "demanded": "VALUE (a real number in degrees)",
+      "outcome": "MISS 11.4 sigma / 38.0 sigma, powered",
+      "verdict_in_record": "NEGATIVE"
+    },
+    "B1137": {
+      "asked": "is an SM value a bounded-height algebraic combination of regulators",
+      "demanded": "VALUE (rung-1 algebraicity over 18 sealed SM targets)",
+      "outcome": "DISJOINT",
+      "verdict_in_record": "NEGATIVE"
+    },
+    "B813": {
+      "asked": "CS(m004) == theta_QCD",
+      "demanded": "VALUE (a coefficient slot)",
+      "outcome": "REFUTED ON TYPE -- a functional value cannot fill a coefficient slot",
+      "verdict_in_record": "NEGATIVE"
+    }
+  },
+  "n_probes": 3,
+  "demanded_a_value": [
+    "B1027",
+    "B1137",
+    "B813"
+  ],
+  "demanded_a_bit": [],
+  "type_matched_probes": 0,
+  "finding": "every probe ever fired into box D demanded a CONTINUOUS VALUE from a BIT-VALUED channel; the type-matched question -- does the object's Z/2 fix the CP-CONSERVATION BIT -- has never been asked",
+  "already_banked_at_bit_level": "B303: 'the CP sign is literally the sign of Chern-Simons' (PROVED)",
+  "gate5": "no measured physical value asserted anywhere in this cell"
+}

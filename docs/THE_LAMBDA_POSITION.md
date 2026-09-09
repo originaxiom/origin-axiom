@@ -62,7 +62,7 @@ the gravity lane's G1 (the cusp-torus re-pose) but independent of its outcome.*
   **posits** k_anyon = k_gravity."
 - **B563**: ten unit-free Planck-ratio probes, preregistered — **NULL**.
 - **H131**: the Planck-2018 CMB probe — **NULL**.
-- **S039/B213** (the do-or-die question, answered): the 40a1 periods carry "no
+- **S039/B213** (the do-or-die question, answered): the 40a1 periods [B1238: the character variety is 40a3; 40a1 is its σ-quotient — a rational rescaling of the period, the NEGATIVE unchanged] carry "no
   forced tiny dimensionless number" — the firewall held a fourth independent
   time; "vacuum-energy scale is a form↔filling matching datum, not an intrinsic
   output."

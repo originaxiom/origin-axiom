@@ -329,7 +329,7 @@ the **symmetry side**: the figure-eight genuinely carries $E_6$, coherently, fro
 **five-wall map** (`B259`) is updated accordingly (`B268`): wall #1 (SL(2,ℂ) vs compact $E_6$) **dissolves** (it was
 the Coulomb branch, and $E_6$-irreducible connections exist); wall #2 (type selection) **reduces** to a single
 physics conjecture ("does the 3d–3d *input* type equal the arithmetic type?") with no Lie-theoretic obstruction
-left; walls #3 (chirality), #4 (4d-lift), and #5 (scale/DESI, a 122-order gap) stand. The firewall holds exactly
+left; walls #3 (chirality), #4 (4d-lift), and #5 (scale/DESI) stand. [The "122-order gap" number once attached to wall #5 was withdrawn by B980 (the k = 3 → GΛ = 2π relation is 3+1-dimensional and dropped ħ); the scale wall itself stands without it — B1237, 2026-09-02.] The firewall holds exactly
 where it should — symmetry yes; scale, chirality, and dynamics must still enter from outside the object.
 
 ## 9e. Addendum (2026-06-28) — the E₆ bridge, completed and bounded `[B273–B278]`

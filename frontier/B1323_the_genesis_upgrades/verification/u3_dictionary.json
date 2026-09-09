@@ -1,0 +1,166 @@
+{
+ "i": {
+  "st_words": 3280,
+  "distinct_matrices": 87,
+  "matrices_not_in_GL2Z": 0,
+  "matrices_not_nonneg": 0,
+  "matrices_not_in_LRP_monoid": 0,
+  "M(E)": [
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    0
+   ]
+  ],
+  "M(G)": [
+   [
+    1,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "M(Gt)": [
+   [
+    1,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "nonneg_GL2Z_entries_le_13": 462,
+  "realised_by_St": 462,
+  "not_realised": 0,
+  "first_failure": null,
+  "PASS": true
+ },
+ "ii": {
+  "M(Fib)": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    0
+   ]
+  ],
+  "M(Fib) == L.P": true,
+  "det M(Fib)": -1,
+  "(LP)^2": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "LR": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "A": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "(LP)^2 == LR == A": true,
+  "(PL)^2": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "RL": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "(PL)^2 == RL": true,
+  "PLP == R": true,
+  "PRP == L": true,
+  "LR and RL conjugate by P": true,
+  "charpoly LR": "t^2 - 3t + 1",
+  "mobius fixed-point poly LR (z -> (2z+1)/(z+1))": "z^2 - z - 1",
+  "mobius fixed-point poly RL (z -> (z+1)/(z+2))": "z^2 + z - 1",
+  "fp coefficients LR (r, s-p, -q)": [
+   1,
+   -1,
+   -1
+  ],
+  "fp coefficients RL": [
+   1,
+   1,
+   -1
+  ],
+  "PASS": true
+ },
+ "iii": {
+  "H1 rank formula 2g+p-1 for (1,1)": 2,
+  "a*B solution": "all tetrahedra positively oriented",
+  "a*B volume": 2.029883212819307,
+  "a*B identify": [
+   "m004(0,0)",
+   "4_1(0,0)",
+   "K2_1(0,0)",
+   "K4a1(0,0)",
+   "otet02_00001(0,0)"
+  ],
+  "a*B homology": "Z",
+  "a*B cusps": 1,
+  "isometric to m004": true,
+  "PASS": true
+ },
+ "iv": {
+  "eigenvector of A for phi^2": "(phi, 1), slope 1/phi",
+  "cutting == fib": true,
+  "cutting(swapped) == fib": false,
+  "fib[:40]": "abaababaabaababaababaabaababaabaababaaba",
+  "cut[:40]": "abaababaabaababaababaabaababaabaababaaba",
+  "cf(1/phi)": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "PASS": true
+ },
+ "PASS": true
+}

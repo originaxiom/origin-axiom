@@ -21,6 +21,8 @@ from geometric_limit_sage import L31_DRILL, L32_CS, V_OCT, BORROMEAN_VOL  # noqa
 import sympy as sp  # noqa: E402
 
 # known a_p of Cremona 40a1 (good primes), independent reference for the cross-check
+# B1238 (2026-09-02): the character variety is Cremona 40a3 (4*Phi = (2z-x^2-1)^2 - (x^2-1)(x^2-5)); a_p is
+# isogeny-invariant, so the class's a_p below stays the right reference and this lock is unchanged.
 A40A1 = {3: 0, 7: -4, 11: 4, 13: -2, 17: 2, 19: 4, 23: 4, 29: -2, 31: -8, 37: 6,
          41: -6, 43: -8, 47: 4, 53: 6, 59: -4, 61: -2, 67: 8, 71: 0, 73: -6}
 

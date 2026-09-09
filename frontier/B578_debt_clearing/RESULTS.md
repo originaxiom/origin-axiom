@@ -25,7 +25,7 @@ possibly the Kubota–Leopoldt thread's true home.**
 
 **D6 — S031 AT m=3: THE PREMISE WAS FALSE, AND THE ERROR WAS OURS.** K₃, the bronze invariant
 trace field (b++RRRLLL, vol 4.8138), is **DEGREE 6** (two precisions, residuals 1.7e-74 /
-1.8e-142) — exactly as **B125's banked arithmeticity table already said**. B571's excavated
+1.8e-142) [B1238, 2026-09-02: the invariant trace field is degree **8** — the octic x⁸+6x⁶−x⁵+12x⁴−3x³+8x²−x+2 (disc 391728981, two routes at 1000 bits); the 6 was a residual-only integer-relation artefact (E56); this arc's own verifier objection at LEDGER_RAW.md:76 — degree 8, stable 400–1500 bits — was right] — exactly as **B125's banked arithmeticity table already said**. B571's excavated
 item B2 and the B577 in-place "correction" confused the invariant trace field with the
 metallic SCALE field ℚ(√13) = ℚ(√(m²+4)). **B137's original deferral reason was right all
 along; the wrong correction is reverted in place** (frontier/B137 FINDINGS). Even the

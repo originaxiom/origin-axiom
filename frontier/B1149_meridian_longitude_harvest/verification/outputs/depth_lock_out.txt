@@ -1,0 +1,28 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT A: rank N = 27, rank N^2 = 6, N^3 = 0
+  Jordan type of the meridian on Psi: 6 J3 (+) 15 J2 (+) 6 J1
+  graded layers ker N : ker N^2/ker N : Psi/ker N^2 = 27 : 21 : 6
+FACT B: C_Psi commutes with rho_Psi(a): True; with rho_Psi(b): True
+FACT C: LOCKED sector (dim 24): 6 J3 (+) 0 J2 (+) 6 J1
+        UNLOCKED sector (dim 30): 0 J3 (+) 15 J2 (+) 0 J1
+  => the locked sector carries ONLY ODD chains (3,1); the unlocked ONLY
+     EVEN chains (2): the memo-46 lock bit IS the parity of the meridian
+     clock's chain length, and depth 3 is reached ONLY in matter.
+FACT D: BtP = W (x) U27 commutes with C_Psi: True  (C real diagonal =>
+        beta_Psi = BtP o conj preserves both lock sectors)
+        beta_Psi rho(a) beta_Psi^-1 = rho(a) re-verified: True
+        => every filtration layer ker N^k is beat-stable (dims 27/48/54)
+
+ODD STEPS ARE MATTER: the meridian's clock on the carrier has Jordan type
+6 J3 (+) 15 J2 (+) 6 J1 (graded 27:21:6); the lock commutes with the whole
+pi1 image and with the beat; and the two lock sectors split the clock by
+CHAIN-LENGTH PARITY — odd chains (3 and 1) are exactly the 24 fermion-shaped
+locked slots, even chains (2) exactly the 30 unlocked ones.  Memo 46's lock
+and memo 49's three steps are one fact: a slot is lift-independent precisely
+when its internal time under the meridian is odd, and the full three steps
+happen only in matter.  Structure only; Gate 5 untouched.

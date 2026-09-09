@@ -49,6 +49,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | Every navigation view refreshed at each decadal review | **GATED** | `views-fresh` |
 | Every `knowledge/K*.md` indexed, and every indexed K-number has a file | **GATED** | `knowledge-index` |
 | Every backticked repo-path citation resolves | **GATED** | `path-refs` |
+| Every repo path a tracked test/script names is itself tracked, not merely on the bench (E57) | **GATED** | `tracked-deps` |
 | The atlas is regenerated when arcs change | **GATED** | `atlas-fresh` |
 | Every frontier arc with a FINDINGS.md carries a sibling `arc_verdict.json` (the B877 lesson: a banking retry resumed past the failed verdict step) | **GATED** | `arc-verdicts` |
 | `PROGRESS_LOG` and `CHANGELOG` are updated together | **GATED** | `log-changelog-paired` |
@@ -61,6 +62,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | Every link in THE CHAIN cites a **resolvable** test lock (the ledger's own admission rule) | **GATED** | `chain-locks` |
 | `LAW_MAP.md` is an **unenforced index**: every row traceable to an arc, every cited lock resolving (R33-4) | **GATED** | `law-map-provenance` |
 | The atlas lexicon must not **go blind**: zero-motif probes may not grow (B806) | **GATED** | `atlas-lexicon-current` |
+| Every arc a later arc **supersedes** must say so in its own `arc_verdict.json` — E53's shape at the supersession level; the back-link is derivable from `supersedes`, never a judgement, and it never touches a verdict (B1290) | **GATED** | `supersession-backlinks` |
 | No speculative room (`speculations/`, `philosophy/`, `story/`) cited as claim evidence | **GATED** | `firewall-oneway` |
 | Banned overclaim phrasings absent from the corpus | **GATED** | `framing` |
 | No SM values to `CLAIMS.md` (Gate 5); physics readings wait on L91 | **MANUAL** | firewall review at banking |
@@ -594,6 +596,29 @@ repo root with no row, carrying a P3 verdict (8 CLOSED / 6 HELD / 7 EXPOSED) wit
 BANKED** — that is marking your own homework. BANKED is the *receiving* seat's judgement and its row
 must name the arc.
 
+## Every seat branch is read within 21 days, and every seat item has a row — GATED (`harvest-debt`)
+
+**The rule.** `docs/HARVEST_LEDGER.md` carries a `## Pins` table: per seat branch, the commit main last READ it up to — a receipt,
+advanced only by a landing that read that far. `scripts/checks/harvest_debt.py` (B1307) compares every seat branch with its pin,
+maps the changed paths to seat item ids by the seat's own convention, reconciles the ledger against each seat's OWN index both
+ways (index ids without a row = BACKLOG; rows resolving to no index id = STALE), lists seat-branch relay files without a
+`RELAY_LEDGER` row, and reports mirror lag. **An unrowed item changed on a branch more than 21 days ago fails the push.** Under
+`gates.py review-due` the check runs `--strict`: a review opens with the debt and cannot close with unread seat results
+(MASTERPLAN v3.1 §1a rule 3).
+
+**Why it exists.** A request or a result that lives on a seat branch reaches main only at a harvest, and nothing counted the hours
+in between: three numbering collisions and three relay lags in eight days (the SM seat's range note unanswered while main issued a
+numbering relay it never saw; the cloud's memos 156–189 found by fetching, nine days late; the physics seat's relay of R64–R72 with no
+row for three days because the relay-debt grammar named other lanes). The relay-debt gate ages relays that have rows; this one ages
+the branch.
+
+**It counted on its first run (2026-09-09):** 494 seat-index ids on nine branches, 428 without a row, 348 seat-branch relays without a
+row (131 of them the July cc3 lane, named in B921's manifest and rowed nowhere), two seats already past main's pins, two mirrors behind.
+
+**Both sides, before adoption.** Five synthetic plants (a NEW item reported, a harvested one not, a missing index id in BACKLOG, a
+stale row flagged, 22 days fails / 20 does not) and a live pin-override control that grew one seat's NEW sets by exactly the ids of
+the commits entering the range. The check grades nothing; it counts. Reading and grading stay the harvest arcs' work.
+
 ## The naming gate (proposed at B1033; the day's three same-symbol collisions)
 
 2026-08-11 produced three instances of the corpus's dominant error class in one day —
@@ -622,6 +647,11 @@ the TERMINOLOGY registry and the atlas's motif index.
 
 (B1001, applied at the audit seat's cost this window: seven instances, three species.)
 *A search that cannot run returns exactly what a search that finds nothing returns.*
+
+**Sub-clause (2026-09-02, B1235 — THE ABSENCE RULE, WORKING_RULES):** a second source is necessary, not sufficient. Before
+"X does not exist on any branch / in the repo" is written, `scripts/checks/absence_sweep.py "<term>"` runs over every
+remote head (filenames and content) and deleted-in-history, and the sentence cites its output. Six instances of the
+un-swept absence are logged as ERROR_LEDGER E54; two were this bench's.
 Sub-clauses: run both φ and phi; verify the tool ran; `head`/`tail` is a window, never a
 population; check the flag's unit (occurrences vs lines).
 
@@ -709,6 +739,26 @@ window candidate.
    differential, not the raw counts, is the prediction.
 
 
+- **The `identifications` declaration + `identification-register` gate, a RATCHET
+  (2026-09-01; B1231, from this bench's own two failures in one session).** The
+  programme's dominant error mode is IDENTIFICATION — gluing two structures whose
+  labels match, in different places, without a map (B813; B1223, whose one-line kill
+  *"Direct is not semidirect"* is the template; and B1228 + B1230/C-5b, committed one
+  cell apart). By **B1225 the object CANNOT identify**, so an unearned identification
+  is an **unpriced observer input** and the parameter count is a lower bound until it
+  is earned. Rule: `identifications: [...]` declared in `arc_verdict.json` (required
+  from B1231 on), a row per identification in `docs/IDENTIFICATION_LEDGER.md`, and
+  `gate_identification_register` enforcing **completeness, never judgment** — every
+  declared identification has a row, and the UNEARNED count may not **increase**
+  against `docs/IDENTIFICATION_BASELINE.json`. **Deliberately a ratchet, not a
+  blocker:** a hard block while anything is UNEARNED would make the fastest path to
+  green *marking things EARNED*, pressuring the very judgment the gate protects (the
+  B1222 shape, turned on ourselves), and would deadlock unrelated work behind a
+  research question. UNEARNED is the correct resting state for honest open work.
+  Tool: `scripts/checks/identification_audit.py` — and its recall is **partial by
+  design and asserted as such in its own selftest**: it finds explicit correspondence
+  claims, *not* bare assertions, so it would NOT have caught the very error it was
+  built for. Declaration is the mechanism; detection is a lossy net.
 - **The `creates_law` declaration + `theorem-registry` gate (2026-08-21; R48-F1's
   response, the audit seat's sharpening adopted verbatim).** THEOREM_REGISTRY's
   standing same-PR rule went unenforced for 179 arcs because no gate read it. The
@@ -745,3 +795,10 @@ window candidate.
   when the instrument first recovers a planted true positive — MB12's bite-control,
   applied to documents. (Two false zeros in one review — an apostrophe and a
   hard-wrap — both caught by controls, neither by re-reading.)
+
+## 2026-09-08 — two instrument notes from the chat1 relay
+
+- **`git grep --all` does not mean all refs.** Git parses `--all` as `--all-match`; `git grep -l <pattern> --all -- '*.md'` searches NOTHING and returns 0 files for every probe. The chat1 seat got fourteen consecutive false ABSENT verdicts this way (eleven of the fourteen were already banked). Use `scripts/checks/absence_sweep.py "<term>"` (which enumerates the heads explicitly) — never a bare `git grep --all`; and run a positive control (a term known to be present) before trusting any zero. This is THE ABSENCE RULE's instrument clause.
+- **A null from an uncontrolled instrument is not a negative** (the seat's proposed rule; it is MB12's second half — the criterion must be able to fire where the thing sought is known to live). Four instances across three seats in one day: an unconditional `ALL THREE CONTROLS PASS`, a two-armed PSLQ tautology, the `git grep --all` zero, and `spacetime64.py`'s printed 0 beside its own count of 2 (fc R49; B1140's re-adjudication is B1303's first item).
+- **Every quoted string is grepped in its source before it ships** (E68).
+

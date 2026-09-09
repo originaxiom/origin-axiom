@@ -1,0 +1,21 @@
+{
+ "id": "B1247",
+ "verdict": "PROVED",
+ "claim_one_line": "THE RETRIEVAL FIXES: the programme could not reach its own results, and the mechanism is now located and repaired. (1) THE QUESTION LEXICON: the atlas's 18 motifs were authored 2026-07-01 and FROZEN (B806) while ~750 arcs banked since; they index the OBJECTS studied (golden, eisenstein, figure_eight) and never the QUESTIONS asked, so a seat asking 'do we have an arrow of time?' retrieved NOTHING while B497 -- the four-stratum monoid, the programme's only irreversibility structure -- sat banked under twelve object-motifs, none saying monoid, strata or dynamics. Seven question-motifs added (arrow 75, monoid 87, measurement 283, closing 339, naming 38, choice 177, coupling 358 probes) and re-mined; TESTED: every arc excavated by hand this session is now retrieved by the question that wanted it. (2) coverage_candidates.py replaces two proxies with reporters: representation_sweep's CLAIM-LENGTH floor is declared a gate threshold rather than a measure of substantiality (282 screened / 674 blind; the seam family is 166-197 chars and B286's 182 relocate the central wall), and the unrepresented set is ranked BY IN-DEGREE -- the backlog is 9 arcs, not 154. An in-degree SCREEN was tried first and REJECTED on its own evidence (the seam family has in-degree 1-2, so it would have missed the motivating case); the rejected design is recorded in the instrument. (3) chain-gap: arcs on synthesis surfaces but absent from the chain, ranked by surface-degree, validated against the chain as it stood at B1243 BEFORE C46 (flags B286/B294/B287/B295, correctly skips B288). NOT a build gate -- at threshold 1 it is ~688 arcs because the chain is a curated spine; CHAIN_COVERAGE.json gains a _criterion naming its feeder, and the review adjudicates. (4) E58 gains the TIME-INDEXED clause: a claim about a file is time-indexed; quote the SHA you read, not just the filename. (5) A7 RE-PROBED AND THE ANSWER IS NO: both orders have exactly one stable vacuum (LR->phi, RL->1/phi, curvature +-sqrt5, product exactly 1), so the B6 field equation does NOT break A7's tie; requiring the growing vacuum selects LR but replaces one declared input with two. A7 stays an axiom.",
+ "instrument": true,
+ "depends_on": ["B806", "B286", "B287", "B294", "B295", "B497", "B766", "B6", "B1243", "B1244", "B1245"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "note": "THE SESSION'S DIAGNOSIS, LANDED. Seven arcs banked this window and not one was a new computation -- every finding was already in the bank and simply unreachable: the genesis theorem uncited three months, the seam family with one citation, B497 sat seven weeks while a dynamics null concluded the object has no dynamics WITHOUT CITING IT. The cause is now named: the retrieval index was keyed on nouns, and every question the owner asked was a verb. docs/OPEN_ITEMS_2026-09-05.md lands with this arc: 26 items across 8 sections, every point raised in the session, so none of it depends on anyone's memory. The A7 re-probe is a NEGATIVE and is recorded as one -- it killed a seductive reading (phi is stable, therefore the bit is dynamical) before it became an unearned identification, which is what the whole window was about. Gate 5 untouched: no measured value; the A7 computation is symbolic throughout. NOT CLAIMED and explicitly flagged as needing attack: the candidate synthesis 'the object is complete about itself and empty about everything else' (checklist H5) carries its own falsifier and must not be cited as a result.",
+ "identifications": [],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-05",
+  "arc": "B1247",
+  "was": "candidate: none. The lexicon is an index, the reporters report, the E58 clause is a discipline, and the A7 re-probe is a negative.",
+  "decision": "no law",
+  "class": "instrument + index repair + a negative",
+  "basis": "coverage_candidates.py selftests 5/5 both directions; the lexicon fix is verified by retrieval (every hand-excavated arc now answers its question); the A7 result is computed symbolically in verification/a7_stability.py"
+ }
+}

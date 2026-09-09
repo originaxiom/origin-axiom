@@ -1,0 +1,12 @@
+{
+ "id": "B3",
+ "verdict": "OPEN",
+ "claim_one_line": "THE 3D LAYER IS EXACT, THE 4D REGGE STEP IS UNDEFINED (genesis probe, 2026-05-22; verdict written 2026-09-02 under L196). Exact: the two-regular-ideal-tetrahedron triangulation of m004 and its zero-deficit Regge edge equations. Undefined: the handoff's Step 5A (a 4D Regge complex) names no 4-manifold to do Regge calculus on -- 5A -> 5B -> 5C -> Einstein has an unconstructed first step. OPEN, not NEGATIVE: nothing is refuted, a construction is missing (fact_computed would be false for a kill). Read as a specification: any 3+1 bridge must first exhibit the 4-complex.",
+ "instrument": false,
+ "depends_on": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "genesis-probe-2026-05-22; verdict L196 (B1235 addendum, 2026-09-02)",
+ "note": "genesis probe; O1-O3 stayed open",
+ "identifications": []
+}

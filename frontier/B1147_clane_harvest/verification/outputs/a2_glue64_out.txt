@@ -1,0 +1,73 @@
+involutive swappers: 48
+hit found: swapper#13; h2 = theta(h1) in Cartan OK
+full weight table (a,b,type):
+   (0, 0, 'cartan') : 6
+   (Fraction(-2, 1), Fraction(-2, 1), 'col') : 6
+   (Fraction(-2, 1), Fraction(0, 1), 'col') : 6
+   (Fraction(-2, 1), Fraction(0, 1), 'neutral') : 2
+   (Fraction(-2, 1), Fraction(2, 1), 'col') : 6
+   (Fraction(-4, 1), Fraction(0, 1), 'neutral') : 1
+   (Fraction(0, 1), Fraction(-2, 1), 'col') : 6
+   (Fraction(0, 1), Fraction(-2, 1), 'neutral') : 2
+   (Fraction(0, 1), Fraction(-4, 1), 'neutral') : 1
+   (Fraction(0, 1), Fraction(0, 1), 'S2root') : 6
+   (Fraction(0, 1), Fraction(0, 1), 'col') : 6
+   (Fraction(0, 1), Fraction(2, 1), 'col') : 6
+   (Fraction(0, 1), Fraction(2, 1), 'neutral') : 2
+   (Fraction(0, 1), Fraction(4, 1), 'neutral') : 1
+   (Fraction(2, 1), Fraction(-2, 1), 'col') : 6
+   (Fraction(2, 1), Fraction(0, 1), 'col') : 6
+   (Fraction(2, 1), Fraction(0, 1), 'neutral') : 2
+   (Fraction(2, 1), Fraction(2, 1), 'col') : 6
+   (Fraction(4, 1), Fraction(0, 1), 'neutral') : 1
+S2 root (h1,h2) weights: {(Fraction(0, 1), Fraction(0, 1))} (expect {(0,0)})
+complement dimension: 64 (expect 64)
+complement weight table:
+   (0, 0, 'cartan') : 2
+   (Fraction(-2, 1), Fraction(-2, 1), 'col') : 6
+   (Fraction(-2, 1), Fraction(0, 1), 'col') : 6
+   (Fraction(-2, 1), Fraction(0, 1), 'neutral') : 1
+   (Fraction(-2, 1), Fraction(2, 1), 'col') : 6
+   (Fraction(-4, 1), Fraction(0, 1), 'neutral') : 1
+   (Fraction(0, 1), Fraction(-2, 1), 'col') : 6
+   (Fraction(0, 1), Fraction(-2, 1), 'neutral') : 1
+   (Fraction(0, 1), Fraction(-4, 1), 'neutral') : 1
+   (Fraction(0, 1), Fraction(0, 1), 'col') : 6
+   (Fraction(0, 1), Fraction(2, 1), 'col') : 6
+   (Fraction(0, 1), Fraction(2, 1), 'neutral') : 1
+   (Fraction(0, 1), Fraction(4, 1), 'neutral') : 1
+   (Fraction(2, 1), Fraction(-2, 1), 'col') : 6
+   (Fraction(2, 1), Fraction(0, 1), 'col') : 6
+   (Fraction(2, 1), Fraction(0, 1), 'neutral') : 1
+   (Fraction(2, 1), Fraction(2, 1), 'col') : 6
+   (Fraction(4, 1), Fraction(0, 1), 'neutral') : 1
+color-singlet (0,0) content in the complement: 2 (0 = NO hypercharge room; matches memo 11)
+spin-2 tops: S0-side weight-(4,0) roots: 1 ; S1-side (0,4): 1
+theta maps S0 spin-2 top into sl3(S1) span: True -> sigma glues the two spin-2s into ONE complex spin-2 (real dim 10)
+
+--- A2 EXTENSION ---
+theta^2 = id (sampled basis columns): True
+theta maps ALL 8 basis elements of sl3(S0) into span(sl3(S1)): True
+rank of the induced 8x8 map = 8 (8 = BIJECTION sl3(S0) -> sl3(S1))
+bracket equivariance theta([x,y]) = [theta x, theta y] on all 64 pairs: True
+grading: h2(theta e_r) = <h1,r> theta e_r for all 6 roots of S0: True
+theta(T1) is an exact sl2 triple inside sl3(S1): True (quintuplet gluing follows)
+colored basis roots: 54 (expect 54)
+every colored image supported on a SINGLE color weight: True
+induced map on the 6 color weights: {(1, 0): (-1, 0), (1, -1): (-1, 1), (0, 1): (0, -1), (0, -1): (0, 1), (-1, 1): (1, -1), (-1, 0): (1, 0)}
+  w -> -w everywhere (3 <-> 3bar): True ;  w -> w everywhere (3 -> 3): False
+
+beat vs the organization (exact dims over Q(q)):
+  Lorentz double (6): dim V = 6, dim Sigma(V) = 6, dim(Sigma(V) meet V) = 6
+  color sl3 (8): dim V = 8, dim Sigma(V) = 8, dim(Sigma(V) meet V) = 8
+  fork 14: dim V = 14, dim Sigma(V) = 14, dim(Sigma(V) meet V) = 14
+frame diagnostic: the beat's nilpotent E = e_{ROOTS[0]} lies in: S2(color)
+NOTE (frame-relative, F-3 discipline): the dims above are for THIS hit's
+slot frame; beat_descent's banked 'the beat MOVES color' (dim 2 < 8) is the
+LANDING frame's color slot — the difference is the S3 frame torsor acting,
+not a contradiction; both statements are exact in their own frames.
+
+A2 COMPLETE: the gluing is a weight-for-weight bijection on the full
+spin-2 quintuplets; the colored 54 maps color-weight-to-color-weight with
+the single induced map printed above; and the beat's exact overlap with
+the fork's pieces is on the record — memo 27's fence is discharged.

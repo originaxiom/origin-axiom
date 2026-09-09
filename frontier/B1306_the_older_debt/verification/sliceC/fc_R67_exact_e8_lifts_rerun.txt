@@ -1,0 +1,10 @@
+[e8] 240 roots, dim 248; Jacobi violations: random sample 0/30000, mixed (e_a,e_-a,e_b) triples 0   (1s)
+[lifts] n_i act on the Cartan as the simple reflections: OK
+[L_g (founding ratio)] reduced word length 80; lift^3 == identity: True; (fixed, omega+omegabar) mod 10007 / 1000003: (80, 168) / (80, 168)   (7s)
+[w_A2 (family rotation)] reduced word length 32; lift^3 == identity: False; (fixed, omega+omegabar) mod 10007 / 1000003: (70, 50) / (70, 50)   (7s)
+[w_3 (E6 factor)] reduced word length 64; lift^3 == identity: False; (fixed, omega+omegabar) mod 10007 / 1000003: (46, 90) / (46, 90)   (8s)
+Kac classes: SU(9) (80, 84+84); E6xSU(3) (86, 81+81); E7xU(1) (134, 57+57).
+[L_g (founding ratio)] Tits lift already of order 3
+[w_A2 (family rotation)] corrected lift w-hat.t_eta with eta = [0, 1, 0, 0, 0, 0, 0, 0]: order 3: True; (fixed, omega+omegabar) mod 10007 / 1000003: (134, 114) / (134, 114)
+[w_3 (E6 factor)] corrected lift w-hat.t_eta with eta = [1, 0, 0, 0, 0, 0, 0, 0]: order 3: True; (fixed, omega+omegabar) mod 10007 / 1000003: (86, 162) / (86, 162)
+RC=0

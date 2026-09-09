@@ -1,0 +1,14 @@
+{
+ "J_supplied": "E6 via pi_1 ->> 2T + McKay",
+ "k_supplied": false,
+ "why_k1": "level-1 simply-laced WZW = root-lattice VOA: determined by the lattice alone, no level datum",
+ "blindness": "CS=0 => dS/dk = -CS = 0 (B1012/B1088); CS=0 forced by amphichirality (B1224/B1227)",
+ "c": "6",
+ "sigma": "1",
+ "sigma_is_1": true,
+ "mb12": {
+  "1": "1",
+  "2": "13/7",
+  "3": "13/5"
+ }
+}

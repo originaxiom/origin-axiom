@@ -1,0 +1,186 @@
+{
+ "N": 20,
+ "rows": [
+  {
+   "k": 1,
+   "lo": 0,
+   "hi": 0,
+   "expected": 0,
+   "palindromic": true,
+   "edge": 1,
+   "width": 1
+  },
+  {
+   "k": 2,
+   "lo": 0,
+   "hi": 0,
+   "expected": 0,
+   "palindromic": true,
+   "edge": 2,
+   "width": 1
+  },
+  {
+   "k": 3,
+   "lo": -1,
+   "hi": 1,
+   "expected": 1,
+   "palindromic": true,
+   "edge": 1,
+   "width": 3
+  },
+  {
+   "k": 4,
+   "lo": -2,
+   "hi": 2,
+   "expected": 2,
+   "palindromic": true,
+   "edge": 2,
+   "width": 5
+  },
+  {
+   "k": 5,
+   "lo": -4,
+   "hi": 4,
+   "expected": 4,
+   "palindromic": true,
+   "edge": 1,
+   "width": 9
+  },
+  {
+   "k": 6,
+   "lo": -6,
+   "hi": 6,
+   "expected": 6,
+   "palindromic": true,
+   "edge": 2,
+   "width": 13
+  },
+  {
+   "k": 7,
+   "lo": -9,
+   "hi": 9,
+   "expected": 9,
+   "palindromic": true,
+   "edge": 1,
+   "width": 19
+  },
+  {
+   "k": 8,
+   "lo": -12,
+   "hi": 12,
+   "expected": 12,
+   "palindromic": true,
+   "edge": 2,
+   "width": 25
+  },
+  {
+   "k": 9,
+   "lo": -16,
+   "hi": 16,
+   "expected": 16,
+   "palindromic": true,
+   "edge": 1,
+   "width": 33
+  },
+  {
+   "k": 10,
+   "lo": -20,
+   "hi": 20,
+   "expected": 20,
+   "palindromic": true,
+   "edge": 2,
+   "width": 41
+  },
+  {
+   "k": 11,
+   "lo": -25,
+   "hi": 25,
+   "expected": 25,
+   "palindromic": true,
+   "edge": 1,
+   "width": 51
+  },
+  {
+   "k": 12,
+   "lo": -30,
+   "hi": 30,
+   "expected": 30,
+   "palindromic": true,
+   "edge": 2,
+   "width": 61
+  },
+  {
+   "k": 13,
+   "lo": -36,
+   "hi": 36,
+   "expected": 36,
+   "palindromic": true,
+   "edge": 1,
+   "width": 73
+  },
+  {
+   "k": 14,
+   "lo": -42,
+   "hi": 42,
+   "expected": 42,
+   "palindromic": true,
+   "edge": 2,
+   "width": 85
+  },
+  {
+   "k": 15,
+   "lo": -49,
+   "hi": 49,
+   "expected": 49,
+   "palindromic": true,
+   "edge": 1,
+   "width": 99
+  },
+  {
+   "k": 16,
+   "lo": -56,
+   "hi": 56,
+   "expected": 56,
+   "palindromic": true,
+   "edge": 2,
+   "width": 113
+  },
+  {
+   "k": 17,
+   "lo": -64,
+   "hi": 64,
+   "expected": 64,
+   "palindromic": true,
+   "edge": 1,
+   "width": 129
+  },
+  {
+   "k": 18,
+   "lo": -72,
+   "hi": 72,
+   "expected": 72,
+   "palindromic": true,
+   "edge": 2,
+   "width": 145
+  },
+  {
+   "k": 19,
+   "lo": -81,
+   "hi": 81,
+   "expected": 81,
+   "palindromic": true,
+   "edge": 1,
+   "width": 163
+  },
+  {
+   "k": 20,
+   "lo": -90,
+   "hi": 90,
+   "expected": 90,
+   "palindromic": true,
+   "edge": 2,
+   "width": 181
+  }
+ ],
+ "ok": true
+}

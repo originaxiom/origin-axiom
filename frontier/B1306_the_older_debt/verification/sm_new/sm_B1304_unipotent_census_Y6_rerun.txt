@@ -1,0 +1,3 @@
+Y_6: 320 characters; (unipotent, det = 1, identity, trivial) -> count: {(False, True, False, True): 1, (True, True, False, False): 292, (True, True, True, False): 27}
+  non-trivial unipotent characters: 319, of which Psi-eigencharacters 4; by order {2: 3, 4: 12, 5: 4, 8: 48, 10: 12, 20: 48, 40: 192}  (0 s)
+RC=0

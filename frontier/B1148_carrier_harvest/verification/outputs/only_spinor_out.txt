@@ -1,0 +1,27 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+two orthogonal A2 slots found (the Lorentz double's factors)
+27 Lorentz bi-weight multiset: {(-2, -2): 1, (-2, 2): 1, (-2, 0): 4, (0, 0): 7, (0, -2): 4, (0, 2): 4, (2, -2): 1, (2, 2): 1, (2, 0): 4}
+ALL 27 bi-weights even (integer spin under the double): True
+78 bi-weight multiset: {(2, 0): 8, (4, 0): 1, (2, 2): 6, (0, 2): 8, (0, 4): 1, (2, -2): 6, (0, -2): 8, (0, 0): 18, (-2, 0): 8, (-2, 2): 6, (0, -4): 1, (-2, -2): 6, (-4, 0): 1}
+ALL 78 bi-weights even: True
+  bridge[minimal A1 (internal seat)]: relator = +I: True; stratum weights {-1: 6, 0: 15, 1: 6}; odd: True; C = I (lift-free): False
+  bridge[Lorentz-slot A1 (principal of slot 1)]: relator = +I: True; stratum weights {-2: 6, 0: 15, 2: 6}; odd: False; C = I (lift-free): True
+on the holonomy C^2: (W o conj)^2 = W conj(W) = A (the meridian)
+
+THE ONLY SPINOR IN THE ROOM: the closing's own modules carry no half-integer
+Lorentz content anywhere — the 27 and the 78 are integer-spin under the
+Lorentz double, exactly.  The holonomy bridges functorially into the algebra
+two inequivalent ways: through an odd stratum it seeds the fermion-capable
+internal doublets (the seat); through the Lorentz slot it is lift-free and
+bosonic (C = I: the two spin structures become indistinguishable downstream).
+So 4d fermions cannot come from the e6 modules; the record's one spin-1/2
+object is the holonomy's own C^2 — where the kinematics is already fully
+banked, and where the beat's antiunitary square is not a textbook +-1 but the
+MERIDIAN itself.  The internal->spacetime bridge gap is now a single sharp
+question: what carries the holonomy's C^2 into spacetime — and the no-go half
+(not through the closing's modules) is exact.

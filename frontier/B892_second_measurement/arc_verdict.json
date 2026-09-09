@@ -1,24 +1,25 @@
 {
- "id": "B892",
- "verdict": "PROVED",
- "instrument": false,
- "claim_one_line": "THE SECOND MEASUREMENT THEOREM VERIFIED on this build (solo S1 queue #1) + THE B874 AMENDMENT LOGGED: the solo seat's exact tower (perfect-square gate C2^2-4C0 = 0; gamma^2 = -C2/2; a^2 = -det14 in F(gamma), det14 != 0; the squeeze dim z(x1,y*) = 14, derived = 11, center >= 3) reproduces end-to-end -- z(x1,y*) = su(3)+su(2)+u(1)^3 EXACTLY: two measurements of the object's own charges take E6 to the SM algebra, skipping SU(5). THIS SEAT'S TWO NEW FACTS: the wall is COMPLEX in the split frame -- det14 = +2.79e9 at the real root (gamma-part 0) so a is IMAGINARY, and the 120-point real-line scan finds no real nullity-14 point (only the known plane stratum) -- the second charge lives in the complexification, connecting the SMT to layer 8. B874 AMENDED in place: 'the torus does not supply the step-2 charge' was an overgeneralization (coordinate tests right in scope); the within-C ladder includes {18, 14}; SU(5) remains unreached. ALSO VERIFIED THIS SESSION: the hypercharge fit (rank 3 for exactly the conjugation pair, rank-4 exact failures), G20 closure (20/19/1, one round), and the Z2 commutation obstruction (the s_i s_j = c_ij law with prod c = -1). The solo S1 queue is verifying wholesale; the two-seat convergence is total.",
- "depends_on": [
-  "B854",
-  "B866",
-  "B874",
-  "B877"
- ],
- "supersedes": null,
- "superseded_by": null,
- "authored_by": "cc banking seat verifying the solo seat (2026-08-05)",
- "creates_law": false,
- "creates_law_reviewed": {
-  "date": "2026-08-29",
-  "arc": "B1214",
-  "was": "ABSENT",
-  "decision": "false",
-  "class": "VERIFICATION \u2014 it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
-  "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
- }
+  "id": "B892",
+  "verdict": "PROVED",
+  "instrument": false,
+  "claim_one_line": "CORRECTED 2026-09-02 (B1237): z = 14 is su(3)⊕su(2)⊕u(1)³, dim 14 — two abelian factors more than the SM gauge algebra (dim 12, B950); Levi stratum B951; exact content B1236. ORIGINAL CLAIM AS ASSERTED: THE SECOND MEASUREMENT THEOREM VERIFIED on this build (solo S1 queue #1) + THE B874 AMENDMENT LOGGED: the solo seat's exact tower (perfect-square gate C2^2-4C0 = 0; gamma^2 = -C2/2; a^2 = -det14 in F(gamma), det14 != 0; the squeeze dim z(x1,y*) = 14, derived = 11, center >= 3) reproduces end-to-end -- z(x1,y*) = su(3)+su(2)+u(1)^3 EXACTLY: two measurements of the object's own charges take E6 to the SM algebra, skipping SU(5). THIS SEAT'S TWO NEW FACTS: the wall is COMPLEX in the split frame -- det14 = +2.79e9 at the real root (gamma-part 0) so a is IMAGINARY, and the 120-point real-line scan finds no real nullity-14 point (only the known plane stratum) -- the second charge lives in the complexification, connecting the SMT to layer 8. B874 AMENDED in place: 'the torus does not supply the step-2 charge' was an overgeneralization (coordinate tests right in scope); the within-C ladder includes {18, 14}; SU(5) remains unreached. ALSO VERIFIED THIS SESSION: the hypercharge fit (rank 3 for exactly the conjugation pair, rank-4 exact failures), G20 closure (20/19/1, one round), and the Z2 commutation obstruction (the s_i s_j = c_ij law with prod c = -1). The solo S1 queue is verifying wholesale; the two-seat convergence is total.",
+  "depends_on": [
+    "B854",
+    "B866",
+    "B874",
+    "B877"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "authored_by": "cc banking seat verifying the solo seat (2026-08-05)",
+  "creates_law": false,
+  "creates_law_reviewed": {
+    "date": "2026-08-29",
+    "arc": "B1214",
+    "was": "ABSENT",
+    "decision": "false",
+    "class": "VERIFICATION — it re-derives or confirms a result stated elsewhere; the law, if any, belongs to the source",
+    "basis": "classified from its own claim headline against the audit's rule (a NEW general proposition proved here vs a verification / harvest / census / sealed decision / correction). The thirteen arcs that PASSED the rule were read in full before flipping; these were not, and that asymmetry is stated rather than hidden."
+  },
+  "note": "CORRECTED 2026-09-02 (B1237; E53 #15): z = 14 = su(3)⊕su(2)⊕u(1)³ is not 'the SM algebra' — the SM gauge algebra has dimension 12 (B950 FINDINGS:36–41: overstates by two abelian factors); the landing is the A₂+A₁ Levi stratum (B951) and its exact multiplet content, with one extra u(1), is B1236. The mathematics (dim 14, derived 11, centre 3) stands. See ADDENDUM_2026-09-02_B1237.md."
 }

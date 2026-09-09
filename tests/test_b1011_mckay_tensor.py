@@ -55,8 +55,15 @@ def test_the_character_match_is_63_of_63():
 
 def test_the_forced_counts_and_the_value_sets():
     """C5/C6: 992 / 284 by inclusion-exclusion; the five tones; the mirror set with quarters."""
-    assert 8 * 120 + 24 * 2 - 8 * 2 == 992          # theta-odd: ker chi = Q8, Z(2I) = +-1
-    assert 2 * 120 + 24 * 2 - 2 * 2 == 284          # theta-even: Z(2T) = +-1
+    # B1235 (fab5cloud V18): the previous two lines here were `8*120+24*2-8*2 == 992` -- arithmetic on literals,
+    # true of the integers and blind to the tensor. The counts are now COMPUTED from the 2880 cells (~30 s).
+    import subprocess, sys
+    r = subprocess.run([sys.executable, str(ROOT / "frontier" / "B1235_two_seat_harvest" / "verification" /
+                                              "blind_forced_counts.py")], capture_output=True, text=True)
+    assert r.returncode == 0, r.stdout + r.stderr
+    assert "theta-odd  forced cells (Hermitian-part-scalar instrument): 992" in r.stdout
+    assert "theta-even forced cells (Hermitian-part-scalar instrument): 284" in r.stdout
+    assert "weaker criterion): 1440" in r.stdout                 # a weaker criterion gives a different number
     import b1011_match as M
     # the 2I trace set is the golden nine, named exactly in the arc's own run:
     assert sorted(M.labels) == sorted(

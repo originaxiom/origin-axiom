@@ -265,7 +265,7 @@ not yet claims):
   axis" proven.)
 - **The "5" web (H2).** The golden discriminant `5 = m²+4|_{m=1}` governs golden on every face: WRT period 5; the
   Fibonacci/`SU(2)₃` level (`n=k+2=5`); the SUSY coset denominator `SU(2)₃`; the labels `M(4,5)=SM(3,5)`; the
-  `40a1` conductor `2³·5`. **Resolved → H17 (B233): NOT a pile-up — a *partial* unification.** Eight of eight
+  `40a1` conductor `2³·5` [B1238, 2026-09-02: the variety is 40a3; conductor 40 is class-wide]. **Resolved → H17 (B233): NOT a pile-up — a *partial* unification.** Eight of eight
   faces cascade from one root (golden `= m=1`, the field `ℚ(√5)`, disc `5`); the only genuine coincidence is that
   `min(m²+4)=5` is *also* the largest McKay prime (`SL(2,F₅)=2I=E₈`; `E₇=2O` structurally excluded). One cascade +
   one number coincidence — verified exactly in `frontier/B233_synthesis_split_and_five/verify_five.py`.

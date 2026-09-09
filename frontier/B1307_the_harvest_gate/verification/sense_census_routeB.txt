@@ -1,0 +1,11 @@
+tree oa-audit-seat/oa-31dd52b9: 2578 prose files, 18.2 MB (outside_bench excluded)
+  logarithmic            8       0 (  0.0%)  FALSE COMFORT   [neg]
+  non-semisimple        18       0 (  0.0%)  FALSE COMFORT   [neg]
+  character           3718      13 (  0.4%)  FALSE COMFORT
+  modular              937      57 (  6.1%)  thin
+  non-rational           7       0 (  0.0%)  FALSE COMFORT
+  resurgence            71      12 ( 16.9%)  genuine
+  Chern-Simons          87      41 ( 47.1%)  genuine   [pos]
+  CONTROL + (Chern-Simons genuine): PASS;  CONTROL - (logarithmic, non-semisimple false comfort): PASS;  TWO-SIDED: PASSED
+  PLANTED CONTROLS: +1 technical with marker: 1; no marker: +0; marker outside window: +0  -> PASS
+routeB rc=0

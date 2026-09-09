@@ -51,7 +51,14 @@ surf = ""
 for rel in SURFACES:
     f = ROOT / rel
     if f.exists(): surf += f.read_text(encoding="utf-8", errors="ignore")
-on_surface = {a for a in settled if re.search(rf"\b{a}\b", surf)}
+# Short ids (B1-B9, verdicts since L196 / 2026-09-02) collide with section labels on the surfaces
+# ("### B2. CHOSEN / MEASURED" in SM_SPECIFICATION_LEDGER is a category, not an arc): a bare
+# word-boundary match is not a citation for them; require the backticked or "arc"-prefixed form.
+def cited(a):
+    if len(a) <= 2:
+        return re.search(rf"`{a}`|\barc {a}\b|\b{a}_[a-z]", surf) is not None
+    return re.search(rf"\b{a}\b", surf) is not None
+on_surface = {a for a in settled if cited(a)}
 by_vocab = {a for a, v in settled.items()
             if not v.get("instrument") and v.get("creates_law") is not True and vocab(v) >= md}
 pool = set(true_) | on_surface | by_vocab

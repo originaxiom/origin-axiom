@@ -1,0 +1,45 @@
+{
+ "rows": [
+  {
+   "row": "ell",
+   "before": "ONE dimensionful unit",
+   "after": "unchanged -- a unit is a CALIBRATION, not a parameter",
+   "grade": "TYPE"
+  },
+  {
+   "row": "sigma",
+   "before": "was: ONE continuous dimensionless anchor (R+)",
+   "after": "-> RATIONAL by Anderson-Moore/Vafa; -> 7 values by MMS; -> 2 by the object's Z/3. ONE BIT.",
+   "grade": "COMPUTED"
+  },
+  {
+   "row": "the c-bit",
+   "before": "was: an unexplained external Z/2",
+   "after": "-> IS the modular-invariant choice (diagonal vs charge-conjugate). Still a bit, now EXPLAINED.",
+   "grade": "STRUCTURAL"
+  },
+  {
+   "row": "the P^3 line",
+   "before": "was: up to THREE continuous parameters (the floor amendment's contested row)",
+   "after": "-> IF it parametrises boundary data of the rational boundary theory, Cardy cuts it to the 3 primaries. Continuum -> finite. THIS IS THE TEST TO RUN.",
+   "grade": "CANDIDATE"
+  },
+  {
+   "row": "lambda",
+   "before": "was: an uncollapsed continuous 'time' candidate",
+   "after": "-> a KMS weight; for a rational boundary the modular flow is periodic => finite label.",
+   "grade": "CANDIDATE"
+  },
+  {
+   "row": "r, gamma_5, labels",
+   "before": "were: finite already",
+   "after": "unchanged -- finite menus",
+   "grade": "TYPE"
+  }
+ ],
+ "computed": 1,
+ "candidate": 2,
+ "end_state_if_candidates_land": "ell + bits and finite labels; ZERO continuous dimensionless parameters",
+ "method": "consistency classifies the menu; the object's arithmetic cuts it; the closer picks",
+ "b1225_untouched": true
+}

@@ -1,0 +1,42 @@
+=== the weights of the 27 modulo the SM roots, in the basis (w_Q, w_u^c, w_L) ===
+  Q      Smith coords (-1, 0, 0)      = +1 w_Q +0 w_u^c +0 w_L
+  u^c    Smith coords (-1, 0, 1)      = +0 w_Q +1 w_u^c +0 w_L
+  d^c    Smith coords (0, 1, -1)      = +1 w_Q -1 w_u^c +1 w_L
+  L      Smith coords (0, 1, 0)       = +0 w_Q +0 w_u^c +1 w_L
+  e^c    Smith coords (-1, 0, -1)     = +2 w_Q -1 w_u^c +0 w_L
+  H_u    Smith coords (2, 0, -1)      = -1 w_Q -1 w_u^c +0 w_L
+  H_d    Smith coords (1, -1, 1)      = -2 w_Q +1 w_u^c -1 w_L
+  D      Smith coords (2, 0, 0)       = -2 w_Q +0 w_u^c +0 w_L
+  Dbar   Smith coords (1, -1, 0)      = -1 w_Q +0 w_u^c -1 w_L
+  S      Smith coords (-3, 1, 0)      = +3 w_Q +0 w_u^c +1 w_L
+  nu^c   Smith coords (-2, -1, 1)     = +1 w_Q +1 w_u^c -1 w_L
+  the 11 cubic couplings of the 27 are zero-sum triples: True
+  multiplets whose weight is TWICE a weight (all coefficients even): ['D']   (w_D = -2 w_Q: the diquark coupling Q Q D)
+
+=== the model of the character support: ((C_1 u C_2) x V_4) minus 1 in (Z/19)^2 x V_4 (B1278's theorem on Y_9) ===
+  generation counts sum_i h^1(chi_i psi) over the 5776 characters: {0: 5628, 2: 3, 3: 145}  (B1278: {0: 5628, 2: 3, 3: 145})
+
+=== the lines: (psi_Q, psi_u, psi_L) in K3^3 = 3048625 ===
+  three_gen  : model  758593   B1278  758593   OK
+  su5_broken : model  737568   B1278  737568   OK
+  sm_vacua   : model  706464   B1278  706464   OK
+  full       : model  568656   B1278  568656   OK
+
+=== the SM lines' survival ===
+  (H_u, H_d, D, Dbar totals) -> lines: {(2, 2, 3, 3): 1296, (2, 3, 3, 2): 1296, (2, 3, 3, 3): 27648, (3, 2, 3, 2): 864, (3, 2, 3, 3): 27216, (3, 3, 3, 2): 27216, (3, 3, 3, 3): 620928}
+  B1300(a), the pipeline:      {(2, 2, 3, 3): 1296, (2, 3, 3, 2): 1296, (2, 3, 3, 3): 27648, (3, 2, 3, 2): 864, (3, 2, 3, 3): 27216, (3, 3, 3, 2): 27216, (3, 3, 3, 3): 620928}   match: True
+  doublet-triplet split lines (no D, no Dbar, both Higgs doublets, three generations, SU(5) broken): 0
+  D total on the SM lines: [3];  lines on which a multiplet loses a generation: {'Q': 0, 'u^c': 0, 'd^c': 0, 'L': 0, 'e^c': 0, 'H_u': 30240, 'H_d': 29376, 'D': 0, 'Dbar': 29376, 'S': 28512, 'nu^c': 28512}
+  D total on ALL 758593 three-generation lines (SM or not): [3]; on all 3048625 lines of K3^3: [3]
+  on the SM lines a multiplet loses a generation iff its character IS a family character (and then exactly that generation): True
+  (N, nu^c totals) -> lines: {(2, 2): 1296, (2, 3): 27216, (3, 2): 27216, (3, 3): 650736}
+  non-full SM lines: 137808; (multiplet, generation) projected -> lines: {('Dbar', 0): 9792, ('Dbar', 1): 9792, ('Dbar', 2): 9792, ('H_d', 0): 9792, ('H_d', 1): 9792, ('H_d', 2): 9792, ('H_u', 0): 10080, ('H_u', 1): 10080, ('H_u', 2): 10080, ('S', 0): 9504, ('S', 1): 9504, ('S', 2): 9504, ('nu^c', 0): 9504, ('nu^c', 1): 9504, ('nu^c', 2): 9504}
+  multiplets losing a generation per non-full line -> lines: {1: 130464, 2: 6480, 3: 864}
+  the 31104 SU(5)-breaking three-generation lines that are NOT SM vacua, by (Q,u^c,d^c,L,e^c,H_u,H_d,D,Dbar,N,nu^c) multiplicities: {(3, 3, 3, 3, 3, 3, 0, 3, 0, 0, 0): 31104}
+
+=== THE TRIPLET'S PROTECTION: psi_D = psi_Q^-2; the square of every letter of K3 is a letter (True) and none is a family character (True) ===
+
+  (4.9 s)
+
+SELFTEST: PASS
+RC=0

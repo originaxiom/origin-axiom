@@ -1,0 +1,1138 @@
+{
+ "fixed_roots": 24,
+ "even_cartan_dim": 4,
+ "odd_cartan_dim": 2,
+ "spectra": [
+  {
+   "name": "omega_1^vee (mixed: theta -> omega_6^vee)",
+   "parity": "MIXED",
+   "centralizer_dim": 46,
+   "q27": {
+    "-2/3": 10,
+    "1/3": 16,
+    "4/3": 1
+   },
+   "q78": {
+    "-1": 16,
+    "0": 46,
+    "1": 16
+   }
+  },
+  {
+   "name": "omega_1^vee - omega_6^vee",
+   "parity": "ODD",
+   "centralizer_dim": 46,
+   "q27": {
+    "-4/3": 1,
+    "-1/3": 16,
+    "2/3": 10
+   },
+   "q78": {
+    "-1": 16,
+    "0": 46,
+    "1": 16
+   }
+  },
+  {
+   "name": "omega_3^vee - omega_5^vee",
+   "parity": "ODD",
+   "centralizer_dim": 46,
+   "q27": {
+    "-2/3": 10,
+    "1/3": 16,
+    "4/3": 1
+   },
+   "q78": {
+    "-1": 16,
+    "0": 46,
+    "1": 16
+   }
+  },
+  {
+   "name": "omega_2^vee",
+   "parity": "EVEN",
+   "centralizer_dim": 36,
+   "q27": {
+    "-1": 6,
+    "0": 15,
+    "1": 6
+   },
+   "q78": {
+    "-2": 1,
+    "-1": 20,
+    "0": 36,
+    "1": 20,
+    "2": 1
+   }
+  },
+  {
+   "name": "omega_4^vee",
+   "parity": "EVEN",
+   "centralizer_dim": 20,
+   "q27": {
+    "-2": 3,
+    "-1": 6,
+    "0": 9,
+    "1": 6,
+    "2": 3
+   },
+   "q78": {
+    "-3": 2,
+    "-2": 9,
+    "-1": 18,
+    "0": 20,
+    "1": 18,
+    "2": 9,
+    "3": 2
+   }
+  },
+  {
+   "name": "omega_1^vee + omega_6^vee",
+   "parity": "EVEN",
+   "centralizer_dim": 30,
+   "q27": {
+    "-2": 1,
+    "-1": 8,
+    "0": 9,
+    "1": 8,
+    "2": 1
+   },
+   "q78": {
+    "-2": 8,
+    "-1": 16,
+    "0": 30,
+    "1": 16,
+    "2": 8
+   }
+  },
+  {
+   "name": "omega_3^vee + omega_5^vee",
+   "parity": "EVEN",
+   "centralizer_dim": 16,
+   "q27": {
+    "-3": 2,
+    "-2": 3,
+    "-1": 6,
+    "0": 5,
+    "1": 6,
+    "2": 3,
+    "3": 2
+   },
+   "q78": {
+    "-4": 3,
+    "-3": 4,
+    "-2": 12,
+    "-1": 12,
+    "0": 16,
+    "1": 12,
+    "2": 12,
+    "3": 4,
+    "4": 3
+   }
+  },
+  {
+   "name": "generic theta-odd ray 7(w1-w6) + 3(w3-w5)",
+   "parity": "ODD",
+   "centralizer_dim": 30,
+   "q27": {
+    "-34/3": 1,
+    "-13/3": 8,
+    "-4/3": 8,
+    "8/3": 1,
+    "17/3": 8,
+    "26/3": 1
+   },
+   "q78": {
+    "-10": 8,
+    "-7": 8,
+    "-3": 8,
+    "0": 30,
+    "3": 8,
+    "7": 8,
+    "10": 8
+   }
+  }
+ ],
+ "odd_plane_centralizers": {
+  "30": [
+   [
+    -6,
+    -5
+   ],
+   [
+    -6,
+    -1
+   ],
+   [
+    -6,
+    1
+   ],
+   [
+    -6,
+    5
+   ],
+   [
+    -5,
+    -6
+   ],
+   [
+    -5,
+    -4
+   ],
+   [
+    -5,
+    -3
+   ],
+   [
+    -5,
+    -2
+   ]
+  ],
+  "46": [
+   [
+    -1,
+    0
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    0,
+    -1
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    0
+   ]
+  ]
+ },
+ "toggled_omega1_signs_pp": [
+  {
+   "source": "27",
+   "charge": "-2/3",
+   "dim": 10,
+   "net_chirality": 2
+  },
+  {
+   "source": "27",
+   "charge": "1/3",
+   "dim": 16,
+   "net_chirality": -2
+  },
+  {
+   "source": "27",
+   "charge": "4/3",
+   "dim": 1,
+   "net_chirality": -2
+  },
+  {
+   "source": "78",
+   "charge": "-1",
+   "dim": 16,
+   "net_chirality": 2
+  },
+  {
+   "source": "78",
+   "charge": "1",
+   "dim": 16,
+   "net_chirality": -2
+  }
+ ],
+ "toggled_omega_1^vee_signs_pp": [
+  {
+   "source": "27",
+   "charge": "-4/3",
+   "dim": 1,
+   "net_chirality": 2
+  },
+  {
+   "source": "27",
+   "charge": "-1/3",
+   "dim": 16,
+   "net_chirality": 2
+  },
+  {
+   "source": "27",
+   "charge": "2/3",
+   "dim": 10,
+   "net_chirality": -2
+  },
+  {
+   "source": "78",
+   "charge": "-1",
+   "dim": 16,
+   "net_chirality": 2
+  },
+  {
+   "source": "78",
+   "charge": "1",
+   "dim": 16,
+   "net_chirality": -2
+  }
+ ],
+ "toggled_omega_3^vee_signs_pp": [
+  {
+   "source": "27",
+   "charge": "-2/3",
+   "dim": 10,
+   "net_chirality": 2
+  },
+  {
+   "source": "27",
+   "charge": "1/3",
+   "dim": 16,
+   "net_chirality": -2
+  },
+  {
+   "source": "27",
+   "charge": "4/3",
+   "dim": 1,
+   "net_chirality": -2
+  },
+  {
+   "source": "78",
+   "charge": "-1",
+   "dim": 16,
+   "net_chirality": 2
+  },
+  {
+   "source": "78",
+   "charge": "1",
+   "dim": 16,
+   "net_chirality": -2
+  }
+ ],
+ "toggled_omega1_signs_pm": [
+  {
+   "source": "27",
+   "charge": "-2/3",
+   "dim": 10,
+   "net_chirality": 0
+  },
+  {
+   "source": "27",
+   "charge": "1/3",
+   "dim": 16,
+   "net_chirality": 0
+  },
+  {
+   "source": "27",
+   "charge": "4/3",
+   "dim": 1,
+   "net_chirality": 0
+  },
+  {
+   "source": "78",
+   "charge": "-1",
+   "dim": 16,
+   "net_chirality": 0
+  },
+  {
+   "source": "78",
+   "charge": "1",
+   "dim": 16,
+   "net_chirality": 0
+  }
+ ],
+ "parity_lock_spectral": {
+  "even_symmetric": "44/44",
+  "odd_symmetric": "24/168",
+  "mixed_symmetric": "0/4",
+  "F4_chamber_summary": {
+   "faces": 15,
+   "chiral": [
+    "w4",
+    "w3+w5",
+    "w2+w4",
+    "w1+w6+w3+w5"
+   ],
+   "cubic_anomalous": [
+    "w4",
+    "w3+w5",
+    "w2+w4",
+    "w1+w6+w3+w5"
+   ]
+  }
+ },
+ "restricted_A2": {
+  "classes": {
+   "ROOT-LINE|cent30|symTrue": [
+    [
+     -6,
+     -6
+    ],
+    [
+     -6,
+     3
+    ],
+    [
+     -5,
+     -5
+    ],
+    [
+     -4,
+     -4
+    ],
+    [
+     -4,
+     2
+    ],
+    [
+     -3,
+     -3
+    ]
+   ],
+   "generic|cent30|symFalse": [
+    [
+     -6,
+     -5
+    ],
+    [
+     -6,
+     -4
+    ],
+    [
+     -6,
+     -3
+    ],
+    [
+     -6,
+     -2
+    ],
+    [
+     -6,
+     -1
+    ],
+    [
+     -6,
+     1
+    ]
+   ],
+   "WALL|cent46|symFalse": [
+    [
+     -6,
+     0
+    ],
+    [
+     -6,
+     6
+    ],
+    [
+     -5,
+     0
+    ],
+    [
+     -5,
+     5
+    ],
+    [
+     -4,
+     0
+    ],
+    [
+     -4,
+     4
+    ]
+   ]
+  },
+  "weyl_conjugacy": {
+   "omega_3^vee - omega_5^vee in W.omega_1": true,
+   "omega_1^vee - omega_6^vee in W.omega_6": true,
+   "omega_1^vee - omega_6^vee in W.omega_1": false,
+   "omega_3^vee - omega_5^vee in W.omega_6": false
+  }
+ },
+ "odd_quadratic_hessian_ranks": [
+  2
+ ],
+ "vectorlike_test": {
+  "omega_1^vee (MIXED)": {
+   "rank_css": 5,
+   "78": {
+    "vectorlike": false,
+    "chiral_dim": 32,
+    "left_handed_weights": 16
+   },
+   "27": {
+    "vectorlike": false,
+    "chiral_dim": 32,
+    "left_handed_weights": 27
+   }
+  },
+  "omega_1^vee - omega_6^vee (ODD wall)": {
+   "rank_css": 5,
+   "78": {
+    "vectorlike": false,
+    "chiral_dim": 32,
+    "left_handed_weights": 16
+   },
+   "27": {
+    "vectorlike": false,
+    "chiral_dim": 32,
+    "left_handed_weights": 27
+   }
+  },
+  "omega_3^vee - omega_5^vee (ODD wall)": {
+   "rank_css": 5,
+   "78": {
+    "vectorlike": false,
+    "chiral_dim": 32,
+    "left_handed_weights": 16
+   },
+   "27": {
+    "vectorlike": false,
+    "chiral_dim": 32,
+    "left_handed_weights": 27
+   }
+  },
+  "omega_2^vee (EVEN)": {
+   "rank_css": 5,
+   "78": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 21
+   },
+   "27": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 0
+   }
+  },
+  "omega_4^vee (EVEN)": {
+   "rank_css": 5,
+   "78": {
+    "vectorlike": false,
+    "chiral_dim": 54,
+    "left_handed_weights": 29
+   },
+   "27": {
+    "vectorlike": false,
+    "chiral_dim": 36,
+    "left_handed_weights": 18
+   }
+  },
+  "omega_1^vee + omega_6^vee (EVEN)": {
+   "rank_css": 4,
+   "78": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 24
+   },
+   "27": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 16
+   }
+  },
+  "omega_3^vee + omega_5^vee (EVEN)": {
+   "rank_css": 4,
+   "78": {
+    "vectorlike": false,
+    "chiral_dim": 54,
+    "left_handed_weights": 31
+   },
+   "27": {
+    "vectorlike": false,
+    "chiral_dim": 36,
+    "left_handed_weights": 22
+   }
+  },
+  "odd root line (1,1)": {
+   "rank_css": 4,
+   "78": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 24
+   },
+   "27": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 16
+   }
+  },
+  "odd root line (2,-1)": {
+   "rank_css": 4,
+   "78": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 24
+   },
+   "27": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 16
+   }
+  },
+  "odd generic (7,3)": {
+   "rank_css": 4,
+   "78": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 24
+   },
+   "27": {
+    "vectorlike": true,
+    "chiral_dim": 0,
+    "left_handed_weights": 25
+   }
+  }
+ },
+ "F4_chamber": {
+  "w2": {
+   "C_ss": [
+    "A5"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [
+    [
+     "A5",
+     [
+      "0",
+      "0",
+      "0",
+      "0"
+     ]
+    ]
+   ],
+   "witten_mod2": []
+  },
+  "w4": {
+   "C_ss": [
+    "A2",
+    "A1",
+    "A2"
+   ],
+   "vectorlike_78": false,
+   "chiral_dim_78": 54,
+   "cubic_anomaly_free": false,
+   "cubic_P3_samples": [
+    [
+     "A2",
+     [
+      "432",
+      "-270",
+      "-270",
+      "-108"
+     ]
+    ],
+    [
+     "A2",
+     [
+      "-486",
+      "180",
+      "0",
+      "378"
+     ]
+    ]
+   ],
+   "witten_mod2": [
+    0
+   ]
+  },
+  "w1+w6": {
+   "C_ss": [
+    "D4"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": []
+  },
+  "w3+w5": {
+   "C_ss": [
+    "A1",
+    "A2",
+    "A1"
+   ],
+   "vectorlike_78": false,
+   "chiral_dim_78": 54,
+   "cubic_anomaly_free": false,
+   "cubic_P3_samples": [
+    [
+     "A2",
+     [
+      "252",
+      "-18",
+      "-60",
+      "-252"
+     ]
+    ]
+   ],
+   "witten_mod2": [
+    0,
+    0
+   ]
+  },
+  "w2+w4": {
+   "C_ss": [
+    "A2",
+    "A2"
+   ],
+   "vectorlike_78": false,
+   "chiral_dim_78": 18,
+   "cubic_anomaly_free": false,
+   "cubic_P3_samples": [
+    [
+     "A2",
+     [
+      "-756",
+      "-270",
+      "0",
+      "-108"
+     ]
+    ],
+    [
+     "A2",
+     [
+      "-54",
+      "378",
+      "108",
+      "-270"
+     ]
+    ]
+   ],
+   "witten_mod2": []
+  },
+  "w2+w1+w6": {
+   "C_ss": [
+    "A3"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [
+    [
+     "A3",
+     [
+      "0",
+      "0",
+      "0",
+      "0"
+     ]
+    ]
+   ],
+   "witten_mod2": []
+  },
+  "w2+w3+w5": {
+   "C_ss": [
+    "A1",
+    "A1",
+    "A1"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": [
+    0,
+    0,
+    0
+   ]
+  },
+  "w4+w1+w6": {
+   "C_ss": [
+    "A1",
+    "A1",
+    "A1"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": [
+    0,
+    0,
+    0
+   ]
+  },
+  "w4+w3+w5": {
+   "C_ss": [
+    "A1",
+    "A1",
+    "A1"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": [
+    0,
+    0,
+    0
+   ]
+  },
+  "w1+w6+w3+w5": {
+   "C_ss": [
+    "A2"
+   ],
+   "vectorlike_78": false,
+   "chiral_dim_78": 6,
+   "cubic_anomaly_free": false,
+   "cubic_P3_samples": [
+    [
+     "A2",
+     [
+      "36",
+      "-252",
+      "0",
+      "0"
+     ]
+    ]
+   ],
+   "witten_mod2": []
+  },
+  "w2+w4+w1+w6": {
+   "C_ss": [
+    "A1",
+    "A1"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": [
+    0,
+    0
+   ]
+  },
+  "w2+w4+w3+w5": {
+   "C_ss": [
+    "A1",
+    "A1"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": [
+    0,
+    0
+   ]
+  },
+  "w2+w1+w6+w3+w5": {
+   "C_ss": [
+    "A1"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": [
+    0
+   ]
+  },
+  "w4+w1+w6+w3+w5": {
+   "C_ss": [
+    "A1"
+   ],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": [
+    0
+   ]
+  },
+  "w2+w4+w1+w6+w3+w5": {
+   "C_ss": [],
+   "vectorlike_78": true,
+   "chiral_dim_78": 0,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": []
+  },
+  "omega_1^vee (mixed)": {
+   "C_ss": [
+    "D5"
+   ],
+   "vectorlike_78": false,
+   "chiral_dim_78": 32,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": []
+  },
+  "w1-w6 (odd wall)": {
+   "C_ss": [
+    "D5"
+   ],
+   "vectorlike_78": false,
+   "chiral_dim_78": 32,
+   "cubic_anomaly_free": true,
+   "cubic_P3_samples": [],
+   "witten_mod2": []
+  }
+ },
+ "sector_anomalies": {
+  "w2": {
+   "C_ss": [
+    "A5"
+   ],
+   "factors": [
+    {
+     "type": "A5",
+     "A3_78": "0",
+     "A3_27": "0",
+     "mixed_uG2_78": "6",
+     "mixed_uG2_27": "2"
+    }
+   ],
+   "abelian": {
+    "u3_78": "28",
+    "grav_u_78": "22",
+    "u3_27": "12",
+    "grav_u_27": "12"
+   },
+   "cancelling_multiplicities_primitive": "unconstrained"
+  },
+  "w4": {
+   "C_ss": [
+    "A2",
+    "A1",
+    "A2"
+   ],
+   "factors": [
+    {
+     "type": "A2",
+     "A3_78": "-3",
+     "A3_27": "1",
+     "mixed_uG2_78": "12",
+     "mixed_uG2_27": "4"
+    },
+    {
+     "type": "A1",
+     "mixed_uG2_78": "12",
+     "mixed_uG2_27": "6",
+     "witten_78": 0,
+     "witten_27": 0
+    },
+    {
+     "type": "A2",
+     "A3_78": "3",
+     "A3_27": "-1",
+     "mixed_uG2_78": "12",
+     "mixed_uG2_27": "4"
+    }
+   ],
+   "abelian": {
+    "u3_78": "144",
+    "grav_u_78": "42",
+    "u3_27": "60",
+    "grav_u_27": "24"
+   },
+   "cancelling_multiplicities_primitive": [
+    [
+     1,
+     3
+    ]
+   ]
+  },
+  "w1+w6": {
+   "C_ss": [
+    "D4"
+   ],
+   "factors": [
+    {
+     "type": "D4"
+    }
+   ],
+   "abelian": {
+    "u3_78": "80",
+    "grav_u_78": "32",
+    "u3_27": "32",
+    "grav_u_27": "20"
+   },
+   "cancelling_multiplicities_primitive": "unconstrained"
+  },
+  "w3+w5": {
+   "C_ss": [
+    "A1",
+    "A2",
+    "A1"
+   ],
+   "factors": [
+    {
+     "type": "A1",
+     "mixed_uG2_78": "18",
+     "mixed_uG2_27": "6",
+     "witten_78": 0,
+     "witten_27": 0
+    },
+    {
+     "type": "A2",
+     "A3_78": "-1",
+     "A3_27": "-2",
+     "mixed_uG2_78": "16",
+     "mixed_uG2_27": "8"
+    },
+    {
+     "type": "A1",
+     "mixed_uG2_78": "18",
+     "mixed_uG2_27": "6",
+     "witten_78": 0,
+     "witten_27": 0
+    }
+   ],
+   "abelian": {
+    "u3_78": "408",
+    "grav_u_78": "60",
+    "u3_27": "168",
+    "grav_u_27": "36"
+   },
+   "cancelling_multiplicities_primitive": []
+  },
+  "w2+w4": {
+   "C_ss": [
+    "A2",
+    "A2"
+   ],
+   "factors": [
+    {
+     "type": "A2",
+     "A3_78": "-3",
+     "A3_27": "1",
+     "mixed_uG2_78": "48",
+     "mixed_uG2_27": "16"
+    },
+    {
+     "type": "A2",
+     "A3_78": "3",
+     "A3_27": "-1",
+     "mixed_uG2_78": "48",
+     "mixed_uG2_27": "16"
+    }
+   ],
+   "abelian": {
+    "u3_78": "9512",
+    "grav_u_78": "170",
+    "u3_27": "3984",
+    "grav_u_27": "96"
+   },
+   "cancelling_multiplicities_primitive": [
+    [
+     1,
+     3
+    ]
+   ]
+  },
+  "w1+w6+w3+w5": {
+   "C_ss": [
+    "A2"
+   ],
+   "factors": [
+    {
+     "type": "A2",
+     "A3_78": "-1",
+     "A3_27": "-2",
+     "mixed_uG2_78": "56",
+     "mixed_uG2_27": "28"
+    }
+   ],
+   "abelian": {
+    "u3_78": "19248",
+    "grav_u_78": "216",
+    "u3_27": "7824",
+    "grav_u_27": "132"
+   },
+   "cancelling_multiplicities_primitive": []
+  },
+  "w2+w1+w6": {
+   "C_ss": [
+    "A3"
+   ],
+   "factors": [
+    {
+     "type": "A3",
+     "A3_78": "0",
+     "A3_27": "0",
+     "mixed_uG2_78": "52",
+     "mixed_uG2_27": "24"
+    }
+   ],
+   "abelian": {
+    "u3_78": "17904",
+    "grav_u_78": "204",
+    "u3_27": "7216",
+    "grav_u_27": "124"
+   },
+   "cancelling_multiplicities_primitive": "unconstrained"
+  },
+  "interior (all 4)": {
+   "C_ss": [],
+   "factors": [],
+   "abelian": {
+    "u3_78": "228112",
+    "grav_u_78": "502",
+    "u3_27": "93792",
+    "grav_u_27": "300"
+   },
+   "cancelling_multiplicities_primitive": "unconstrained"
+  },
+  "omega_1^vee (mixed)": {
+   "C_ss": [
+    "D5"
+   ],
+   "factors": [
+    {
+     "type": "D5"
+    }
+   ],
+   "abelian": {
+    "u3_78": "16",
+    "grav_u_78": "16",
+    "u3_27": "160/27",
+    "grav_u_27": "40/3"
+   },
+   "cancelling_multiplicities_primitive": "unconstrained"
+  },
+  "w1-w6 (odd wall)": {
+   "C_ss": [
+    "D5"
+   ],
+   "factors": [
+    {
+     "type": "D5"
+    }
+   ],
+   "abelian": {
+    "u3_78": "16",
+    "grav_u_78": "16",
+    "u3_27": "160/27",
+    "grav_u_27": "40/3"
+   },
+   "cancelling_multiplicities_primitive": "unconstrained"
+  },
+  "odd generic (7,3)": {
+   "C_ss": [
+    "D4"
+   ],
+   "factors": [
+    {
+     "type": "D4"
+    }
+   ],
+   "abelian": {
+    "u3_78": "10960",
+    "grav_u_78": "160",
+    "u3_27": "114784/27",
+    "grav_u_27": "340/3"
+   },
+   "cancelling_multiplicities_primitive": "unconstrained"
+  },
+  "parent_frames_on_w4_first_A2": {
+   "E7 (133 = 78+1+27+27bar): n27 = 2": "-1",
+   "E8 (248 = (78,1)+(1,8)+(27,3)+(27bar,3bar)): n27 = 6": "3"
+  }
+ }
+}

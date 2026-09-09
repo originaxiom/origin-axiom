@@ -1,0 +1,7 @@
+H = <u,v,w | ['vuwVU', 'vwuW'] >   with u=b a^-1, v=a^2, w=a b
+Surj(H,2T) on my R-S presentation: 48
+Aut-orbits on H: [24, 24]
+restricted maps on (u,v,w): 24  equals which H-orbit: [True, False]
+nonzero mod-2 characters of H: [(1, 1, 0)]  (H_1(m004)=Z => exactly one)
+central twist by (1, 1, 0) -> the other orbit? [False, True]
+codex's Tietze map sends m004's relator to 1 under all 48 2T reps of H: True

@@ -321,6 +321,18 @@ No invariant may be transferred between these without an explicit map.
   (fiber orientation flip = chirality) — a discrete ℤ/2 closing bit, an item of the
   price. Any sentence saying only "σ" has not stated its subject (the D-iv clause,
   binding).
+- **"κ" names AT LEAST FIVE quantities** (found 2026-09-01 by an external audit, B1233 — and
+  the omission is the point: this register already covered conductor/level/θ-even/σ/π/6 while κ,
+  the repo's most-used symbol, was absent from it). The five: (i) **the raw commutator trace**
+  κ = tr[A,B] — B285 (√3·e^{±iπ/6}), B126, B330, B131, `frontier/README`, and B109 (*"κ=+2 is the
+  void; the parabolic/geometric cusp is κ=−2"*); (ii) **the Fricke commutator-trace DISCRIMINANT**
+  κ = tr[A,M] − 2 — `papers/P3_THE_PAPER/main.tex:696`, defined in-line and internally consistent
+  (a discriminant naturally carries the −2, since an SL(2) element is parabolic iff tr = ±2);
+  (iii) **the stage level** κ (an integer; the θ/Weil level, §"the stage"); (iv) **the conductor**
+  in clock(κ) = ord(A₁ mod 3κ); (v) **the compact pencil** κ (the wall cubic, constant −19³).
+  **Reading rule:** (i) and (ii) differ by exactly 2 — the void is κ=+2 under (i) and κ=0 under
+  (ii), and B1200's "κ−2 = u²" is stated in convention (i). Always say which. **Not an error in
+  either document; a collision that was undocumented.**
 - **"π/6" names TWO objects of OPPOSITE TYPE** (adjudicated by the audit seat's item 2,
   verified): (1) **arg κ = ∓π/6** — the meridian-commutator trace's phase at u = ω, a
   conjugation-invariant TRACE (no basis freedom exists; Test-1 clean by construction),
@@ -601,3 +613,50 @@ P/PC disambiguation. — **G1–G3** = the three roles of gravity (B1165 addendu
 distinct from any future charter G-labels. — **L110/L113** each name TWO leads (annotated in place in
 OPEN_LEADS; no renumbering). Rule (B964's, generalized): every load-bearing overloaded symbol gets a row
 here before its next use.
+
+## Added 2026-09-06 (B1276) — **FACE**: the repo's most overloaded word, six live senses
+
+**The registry's own rule (B1176) says every load-bearing overloaded symbol gets a row before its next
+use. `face` never got one, and it carries at least SIX mutually incompatible senses.** Found by a
+five-angle corpus sweep, each finding adversarially re-checked against the cited files.
+
+1. **THE PRIMARY SENSE — a forced quadratic field.** `being` = **ℚ(√−3)** (Eisenstein, prime 3, 2T,
+   E₆, the holonomy/geometry side, from the ideal-tetrahedron shape x²−x+1); `hearing` = **ℚ(√5)**
+   (golden, prime 5, 2I, E₈, the **monodromy** side, from the Alexander polynomial t²−3t+1);
+   `meeting` = **ℚ(√−15)**. **B730** proves these three are FORCED and are the three involutions of
+   **Gal(ℚ(√−3,√5)/ℚ) = V₄**, with group law **being · hearing = meeting**. Gloss at lines 132–136.
+   *"Two faces, golden and eisenstein" is the corpus's own shorthand and is incomplete by its own
+   theorem — it names the two basis vectors and drops their product.*
+2. **Face I–IV** — four **lenses** on the metallic object (character variety / geodesic / quasicrystal
+   / quantum), `papers/metallic_one_object`. Not fields.
+3. **"four faces of one κ"** — K020/B309/B518: existence / geometry / matter / quantum. A different
+   four, unrelated to (2).
+4. **the eleven faces plus the twelfth** — the kill-graph **anatomy taxonomy** (being, hearing,
+   meeting, children, congruence-tower, sln-tower, coupled-double, mtc-overlay, emittance-×2,
+   infinite-hecke, + the twelfth = the character-variety/trace-map substrate, B985). A corpus
+   **indexing** scheme, which the repo itself disowns as descriptive (*"the eleven faces describe what
+   the object is NOT"*, X16) and whose live instrument has drifted to fourteen keys.
+5. **seven faces** — `P2_trinity`'s dictionary of invariant-types of the golden cat map (its table
+   lists eight rows).
+6. **the adelic "two faces"** — the **finite / archimedean** shadows (B1117), written being/BECOMING in
+   `THE_FRAMEWORK.md` and algebra/MEASUREMENT in `HINT_LEDGER` H122. **A different pair from (1)**,
+   and it also appears in this file at lines 573–575 — so *"the object's two faces"* is ambiguous
+   **inside TERMINOLOGY.md itself**; only the qualifier *golden/eisenstein* pins it to sense (1).
+
+**Rule: say WHICH.** *"the being face (ℚ(√−3))"*, *"Face III (quasicrystal lens)"*, *"the anatomy's
+hearing face"* — never the bare word in a new file. **And E20's standing warning applies on top:** a
+recurrence across faces that are **canonically linked** (McKay ↔ Lie ↔ CIZ are one ADE list) is **not
+independent evidence** — the programme's own flagship three-face E₆ claim failed exactly that test.
+
+**Not faces, per B730:** ℚ(√−7) is a **stage** (adjoining it explodes V₄ to (ℤ/2)³); the **observer**
+is an **axis**; `physics-door` is a boundary label.
+
+## Added 2026-09-02 (B1235, harvested from the physics seat's R3) — `RL` vs `LR` for the same matrix
+
+**One matrix, two spellings, opposite reading conventions.** `[[2,1],[1,1]]` is written **A = LR** in
+`UNIQUENESS_THEOREM` and the genesis prose, where the letters are a **word** read left-to-right (first L, then R),
+and **A₁ = RL** in B1189 and the GC ledger, where the letters are a **matrix product** (R applied after L). The
+matrix is the same; the string is reversed; a reader who takes one convention into the other's text gets the
+mirror monodromy `[[1,1],[1,2]]`. **Rule: say which.** "LR (word)" or "RL (product)"; never the bare string in a
+new file. (E23 territory — the class where a convention flips silently between files.)
+

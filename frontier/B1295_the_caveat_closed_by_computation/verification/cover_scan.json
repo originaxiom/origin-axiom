@@ -1,0 +1,1455 @@
+{
+ "covers": 87,
+ "multi_cusped": 64,
+ "failures": [],
+ "values": {
+  "0": 882,
+  "4": 494
+ },
+ "cusp_shapes": {
+  "rectangular/rhombic": 122,
+  "generic": 63,
+  "hexagonal": 16
+ },
+ "isometries_total": 968,
+ "cusp_fixing_pairs": 1376,
+ "verdict": "NEGATIVE",
+ "rows": [
+  {
+   "degree": 2,
+   "index": 0,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/5 + Z",
+   "n_isometries": 16,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det-1": 8,
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 3,
+   "index": 0,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/4 + Z/4 + Z",
+   "n_isometries": 24,
+   "n_cusp_fixing_pairs": 24,
+   "det_AmI_by_orientation": {
+    "0|det-1": 12,
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 4,
+   "index": 0,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z/15 + Z",
+   "n_isometries": 32,
+   "n_cusp_fixing_pairs": 32,
+   "det_AmI_by_orientation": {
+    "0|det-1": 16,
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 4,
+   "index": 1,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det-1": 8,
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 5,
+   "index": 0,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/11 + Z/11 + Z",
+   "n_isometries": 40,
+   "n_cusp_fixing_pairs": 40,
+   "det_AmI_by_orientation": {
+    "0|det-1": 20,
+    "0|det+1": 10,
+    "4|det+1": 10
+   }
+  },
+  {
+   "degree": 5,
+   "index": 1,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "generic"
+   ],
+   "H1": "Z/2 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 5,
+   "index": 2,
+   "cusps": 3,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det-1": 4,
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 5,
+   "index": 3,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 6,
+   "index": 0,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/5 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 6,
+   "index": 1,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/8 + Z/40 + Z",
+   "n_isometries": 48,
+   "n_cusp_fixing_pairs": 48,
+   "det_AmI_by_orientation": {
+    "0|det-1": 24,
+    "0|det+1": 12,
+    "4|det+1": 12
+   }
+  },
+  {
+   "degree": 6,
+   "index": 2,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 6,
+   "index": 3,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 6,
+   "index": 4,
+   "cusps": 1,
+   "cusp_shapes": [
+    "generic"
+   ],
+   "H1": "Z/12 + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 6,
+   "index": 5,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "n_isometries": 16,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det-1": 8,
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 6,
+   "index": 6,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/4 + Z/8 + Z",
+   "n_isometries": 16,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det-1": 8,
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 6,
+   "index": 7,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 6,
+   "index": 8,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 6,
+   "index": 9,
+   "cusps": 1,
+   "cusp_shapes": [
+    "generic"
+   ],
+   "H1": "Z/12 + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 6,
+   "index": 10,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/5 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 7,
+   "index": 0,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/14 + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 2,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2
+   }
+  },
+  {
+   "degree": 7,
+   "index": 1,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/14 + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 2,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2
+   }
+  },
+  {
+   "degree": 7,
+   "index": 2,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/29 + Z/29 + Z",
+   "n_isometries": 56,
+   "n_cusp_fixing_pairs": 56,
+   "det_AmI_by_orientation": {
+    "0|det-1": 28,
+    "0|det+1": 14,
+    "4|det+1": 14
+   }
+  },
+  {
+   "degree": 7,
+   "index": 3,
+   "cusps": 3,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 6,
+   "det_AmI_by_orientation": {
+    "0|det+1": 3,
+    "4|det+1": 3
+   }
+  },
+  {
+   "degree": 7,
+   "index": 4,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/14 + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 2,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2
+   }
+  },
+  {
+   "degree": 7,
+   "index": 5,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 6,
+   "det_AmI_by_orientation": {
+    "0|det+1": 3,
+    "4|det+1": 3
+   }
+  },
+  {
+   "degree": 7,
+   "index": 6,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/14 + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 2,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2
+   }
+  },
+  {
+   "degree": 7,
+   "index": 7,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 6,
+   "det_AmI_by_orientation": {
+    "0|det+1": 3,
+    "4|det+1": 3
+   }
+  },
+  {
+   "degree": 7,
+   "index": 8,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 6,
+   "det_AmI_by_orientation": {
+    "0|det+1": 3,
+    "4|det+1": 3
+   }
+  },
+  {
+   "degree": 8,
+   "index": 0,
+   "cusps": 1,
+   "cusp_shapes": [
+    "generic"
+   ],
+   "H1": "Z/30 + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 8,
+   "index": 1,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/21 + Z/105 + Z",
+   "n_isometries": 64,
+   "n_cusp_fixing_pairs": 64,
+   "det_AmI_by_orientation": {
+    "0|det-1": 32,
+    "0|det+1": 16,
+    "4|det+1": 16
+   }
+  },
+  {
+   "degree": 8,
+   "index": 2,
+   "cusps": 1,
+   "cusp_shapes": [
+    "generic"
+   ],
+   "H1": "Z/30 + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 8,
+   "index": 3,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "generic"
+   ],
+   "H1": "Z/3 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 8,
+   "index": 4,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z/3 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 8,
+   "index": 5,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/5 + Z + Z",
+   "n_isometries": 16,
+   "n_cusp_fixing_pairs": 32,
+   "det_AmI_by_orientation": {
+    "0|det-1": 16,
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 8,
+   "index": 6,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z/3 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 8,
+   "index": 7,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "generic"
+   ],
+   "H1": "Z/3 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 8,
+   "index": 8,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z/3 + Z + Z",
+   "n_isometries": 16,
+   "n_cusp_fixing_pairs": 32,
+   "det_AmI_by_orientation": {
+    "0|det-1": 16,
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 8,
+   "index": 9,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z",
+   "n_isometries": 16,
+   "n_cusp_fixing_pairs": 32,
+   "det_AmI_by_orientation": {
+    "0|det-1": 16,
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 9,
+   "index": 0,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/76 + Z/76 + Z",
+   "n_isometries": 72,
+   "n_cusp_fixing_pairs": 72,
+   "det_AmI_by_orientation": {
+    "0|det-1": 36,
+    "0|det+1": 18,
+    "4|det+1": 18
+   }
+  },
+  {
+   "degree": 9,
+   "index": 1,
+   "cusps": 3,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 6,
+   "det_AmI_by_orientation": {
+    "0|det+1": 3,
+    "4|det+1": 3
+   }
+  },
+  {
+   "degree": 9,
+   "index": 2,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/4 + Z/4 + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det-1": 4,
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 9,
+   "index": 3,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 6,
+   "det_AmI_by_orientation": {
+    "0|det+1": 3,
+    "4|det+1": 3
+   }
+  },
+  {
+   "degree": 9,
+   "index": 4,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 6,
+   "det_AmI_by_orientation": {
+    "0|det+1": 3,
+    "4|det+1": 3
+   }
+  },
+  {
+   "degree": 9,
+   "index": 5,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/3 + Z + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 6,
+   "det_AmI_by_orientation": {
+    "0|det+1": 3,
+    "4|det+1": 3
+   }
+  },
+  {
+   "degree": 9,
+   "index": 6,
+   "cusps": 1,
+   "cusp_shapes": [
+    "generic"
+   ],
+   "H1": "Z/21 + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 9,
+   "index": 7,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 12,
+   "det_AmI_by_orientation": {
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 9,
+   "index": 8,
+   "cusps": 3,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det-1": 4,
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 9,
+   "index": 9,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 12,
+   "det_AmI_by_orientation": {
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 9,
+   "index": 10,
+   "cusps": 1,
+   "cusp_shapes": [
+    "generic"
+   ],
+   "H1": "Z/21 + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 10,
+   "index": 0,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 12,
+   "det_AmI_by_orientation": {
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 10,
+   "index": 1,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 12,
+   "det_AmI_by_orientation": {
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 10,
+   "index": 2,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/55 + Z/275 + Z",
+   "n_isometries": 80,
+   "n_cusp_fixing_pairs": 80,
+   "det_AmI_by_orientation": {
+    "0|det-1": 40,
+    "0|det+1": 20,
+    "4|det+1": 20
+   }
+  },
+  {
+   "degree": 10,
+   "index": 3,
+   "cusps": 4,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 12,
+   "det_AmI_by_orientation": {
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 10,
+   "index": 4,
+   "cusps": 3,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 10,
+   "index": 5,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "hexagonal"
+   ],
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 6,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "hexagonal",
+    "generic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 7,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "generic"
+   ],
+   "H1": "Z/8 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 10,
+   "index": 8,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/10 + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 10,
+   "index": 9,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/10 + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 10,
+   "index": 10,
+   "cusps": 3,
+   "cusp_shapes": [
+    "hexagonal",
+    "generic",
+    "generic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 11,
+   "cusps": 2,
+   "cusp_shapes": [
+    "hexagonal",
+    "generic"
+   ],
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 12,
+   "cusps": 3,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "generic"
+   ],
+   "H1": "Z/2 + Z/2 + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 10,
+   "index": 13,
+   "cusps": 4,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "generic",
+    "generic"
+   ],
+   "H1": "Z + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 10,
+   "index": 14,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/10 + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 10,
+   "index": 15,
+   "cusps": 2,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/10 + Z + Z",
+   "n_isometries": 2,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 10,
+   "index": 16,
+   "cusps": 3,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 12,
+   "det_AmI_by_orientation": {
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 10,
+   "index": 17,
+   "cusps": 5,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "hexagonal",
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 24,
+   "det_AmI_by_orientation": {
+    "0|det+1": 12,
+    "4|det+1": 12
+   }
+  },
+  {
+   "degree": 10,
+   "index": 18,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "generic"
+   ],
+   "H1": "Z/8 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 4,
+   "det_AmI_by_orientation": {
+    "0|det+1": 2,
+    "4|det+1": 2
+   }
+  },
+  {
+   "degree": 10,
+   "index": 19,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "hexagonal"
+   ],
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 20,
+   "cusps": 2,
+   "cusp_shapes": [
+    "generic",
+    "hexagonal"
+   ],
+   "H1": "Z/2 + Z/4 + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 21,
+   "cusps": 4,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 10,
+   "index": 22,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 23,
+   "cusps": 4,
+   "cusp_shapes": [
+    "hexagonal",
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 24,
+   "det_AmI_by_orientation": {
+    "0|det+1": 12,
+    "4|det+1": 12
+   }
+  },
+  {
+   "degree": 10,
+   "index": 24,
+   "cusps": 3,
+   "cusp_shapes": [
+    "hexagonal",
+    "hexagonal",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z/4 + Z + Z + Z",
+   "n_isometries": 16,
+   "n_cusp_fixing_pairs": 32,
+   "det_AmI_by_orientation": {
+    "0|det-1": 8,
+    "0|det+1": 12,
+    "4|det+1": 12
+   }
+  },
+  {
+   "degree": 10,
+   "index": 25,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 26,
+   "cusps": 4,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "hexagonal",
+    "hexagonal",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z + Z + Z + Z",
+   "n_isometries": 32,
+   "n_cusp_fixing_pairs": 64,
+   "det_AmI_by_orientation": {
+    "0|det-1": 32,
+    "0|det+1": 16,
+    "4|det+1": 16
+   }
+  },
+  {
+   "degree": 10,
+   "index": 27,
+   "cusps": 3,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "generic",
+    "generic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 12,
+   "det_AmI_by_orientation": {
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 10,
+   "index": 28,
+   "cusps": 3,
+   "cusp_shapes": [
+    "hexagonal",
+    "generic",
+    "generic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 29,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "hexagonal",
+    "generic"
+   ],
+   "H1": "Z/2 + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 8,
+   "det_AmI_by_orientation": {
+    "0|det+1": 4,
+    "4|det+1": 4
+   }
+  },
+  {
+   "degree": 10,
+   "index": 30,
+   "cusps": 3,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "generic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z/2 + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 10,
+   "index": 31,
+   "cusps": 4,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "hexagonal",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/2 + Z + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 24,
+   "det_AmI_by_orientation": {
+    "0|det+1": 12,
+    "4|det+1": 12
+   }
+  },
+  {
+   "degree": 10,
+   "index": 32,
+   "cusps": 5,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "hexagonal",
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 24,
+   "det_AmI_by_orientation": {
+    "0|det+1": 12,
+    "4|det+1": 12
+   }
+  },
+  {
+   "degree": 10,
+   "index": 33,
+   "cusps": 4,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z + Z",
+   "n_isometries": 4,
+   "n_cusp_fixing_pairs": 12,
+   "det_AmI_by_orientation": {
+    "0|det+1": 6,
+    "4|det+1": 6
+   }
+  },
+  {
+   "degree": 10,
+   "index": 34,
+   "cusps": 5,
+   "cusp_shapes": [
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z + Z + Z",
+   "n_isometries": 80,
+   "n_cusp_fixing_pairs": 80,
+   "det_AmI_by_orientation": {
+    "0|det-1": 40,
+    "0|det+1": 20,
+    "4|det+1": 20
+   }
+  },
+  {
+   "degree": 10,
+   "index": 35,
+   "cusps": 3,
+   "cusp_shapes": [
+    "generic",
+    "rectangular/rhombic",
+    "rectangular/rhombic"
+   ],
+   "H1": "Z + Z + Z + Z",
+   "n_isometries": 8,
+   "n_cusp_fixing_pairs": 16,
+   "det_AmI_by_orientation": {
+    "0|det+1": 8,
+    "4|det+1": 8
+   }
+  },
+  {
+   "degree": 10,
+   "index": 36,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/5 + Z/5 + Z",
+   "n_isometries": 20,
+   "n_cusp_fixing_pairs": 20,
+   "det_AmI_by_orientation": {
+    "0|det+1": 10,
+    "4|det+1": 10
+   }
+  },
+  {
+   "degree": 10,
+   "index": 37,
+   "cusps": 1,
+   "cusp_shapes": [
+    "rectangular/rhombic"
+   ],
+   "H1": "Z/5 + Z/5 + Z",
+   "n_isometries": 20,
+   "n_cusp_fixing_pairs": 20,
+   "det_AmI_by_orientation": {
+    "0|det+1": 10,
+    "4|det+1": 10
+   }
+  }
+ ]
+}

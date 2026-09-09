@@ -1,0 +1,12 @@
+{
+ "order": 24,
+ "homs": 72,
+ "surjective": 48,
+ "nominates_E6": true,
+ "control": {
+  "4_1": 48,
+  "3_1": 48,
+  "5_2": 0
+ },
+ "fence": "B993/B996: surjection onto 2T is generic (~1/3); the nomination is real, not distinctive"
+}

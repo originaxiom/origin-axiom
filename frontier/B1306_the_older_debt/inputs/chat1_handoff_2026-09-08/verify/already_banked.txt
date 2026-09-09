@@ -1,0 +1,20 @@
+### word order mirror ab ba inner automorphism character variety invisible
+  *** [ 4 terms] PROVED    B1294_the_chirality_bit
+           THE CHIRALITY BIT (MASTERPLAN v3 Phase 0). Seat harvest 2026-09-06 with every load-bearing number re-run or re-derived on this bench. THE SEATS' RESULTS FIRST: sm:B1278/B1279 -- Y_9 carries the Standard-Model group AND t
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+### Goldman bracket multiplier determinant Aut(F2) anti-Poisson orientation reversing
+  *** [ 2 terms] PROVED    B1294_the_chirality_bit
+           THE CHIRALITY BIT (MASTERPLAN v3 Phase 0). Seat harvest 2026-09-06 with every load-bearing number re-run or re-derived on this bench. THE SEATS' RESULTS FIRST: sm:B1278/B1279 -- Y_9 carries the Standard-Model group AND t
+
+  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).
+### quaternion character kappa -2 Markov surface node Q8 kernel 2T Z/3
+  *** [ 2 terms] PROVED    B1024_l153_bits
+           L153 ANSWERED: THE FRAME BITS ARE THE TORSOR BITS (d = 2), AND THE UNDERCOUNT SCENARIO IS REFUTED UNCONDITIONALLY. Sealed dc823e86, prior 'uncertain, weak lean SAME' -- HELD. The instrument validated before use: B936's e
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+### Fricke Vogt invariant Baake Roberts half trace normalization kappa
+  *** [ 3 terms] PROVED    B1011_mckay_tensor
+           THE HEARING DATA IS McKAY TENSOR McKAY: rho_6 = (chi x V2(2I)) + (V2(2T) x V2(2I)) EXACTLY -- sealed fc807f11, declared prior OUTCOME A, HELD AT EVERY CELL, no verdict line resting on a float. An incoming chat1 derivatio
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.

@@ -34,10 +34,12 @@ from pathlib import Path
 LEDGER = "docs/THEOREM_LEDGER.md"
 
 # The banked profile. Update ONLY with a banked ledger change, never to silence a failure.
+# 2026-09-09: C47-C54 entered (the chirality campaign B1291-B1324, each link locked; SUBMISSION_CAMPAIGN S7):
+# THEOREM 27 -> 34, NO-GO 7 -> 8; the axiom set and the axiom-free stretch unchanged.
 EXPECTED = {
-    "THEOREM": 26,
+    "THEOREM": 34,
     "IDENTITY": 6,
-    "NO-GO": 5,
+    "NO-GO": 8,
     "AXIOM": 4,
     "COROLLARY": 1,
     "CENSUS": 1,

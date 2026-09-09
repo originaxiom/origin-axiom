@@ -1,0 +1,24 @@
+# B5 — VERDICT: NEGATIVE
+
+*Genesis probe (2026-05-22). Its findings are `README.md` in this directory (written before the
+FINDINGS/VERDICT convention). This file carries the verdict written 2026-09-02 under L196
+(B1235 addendum) so the arc is readable by the hygiene locks (B1152) and the views; it adds no
+claim beyond `arc_verdict.json`.*
+
+## Verdict
+
+**NEGATIVE.**
+
+LAMBDA = 2 pi^2 / Vol(4_1) IS DEAD-ADJACENT: IT RESTATES THE COSMOLOGICAL-CONSTANT PROBLEM (genesis probe, 2026-05-22; verdict written 2026-09-02 under L196). Computed: the toy Wheeler-DeWitt constraint reduces to r^2 - r - 1 = 0 (the golden fixed-point equation of chi_A, P1 -- known structure, not new); Lambda = 2 pi^2/Vol ~ 9.724 in Planck units, ~10^120 times the observed value. Kill form by TYPE (the weight ledger, B1022): Vol(4_1) = 2.0299 is the SHAPE's number (vol/R^3, weight 0) while Lambda is a weight -2 slot; 'in Planck units' inserts R = l_Planck by hand -- the scale is supplied, not derived, which is why every such Lambda (D1 k~137, D2 phi^{-2N}) has died the same way. Recorded so the path is not re-attempted; O5 stayed open. Routed to the kill graph.
+
+## Note
+
+genesis probe; dead-twin of D1/D2 (docs/ARCHIVE.md) Same family as B259's wall #5 (golden k=3 -> G*Lambda = 2pi), RETRACTED by B980 (PROGRESS_LOG: two stacked conflations and a dropped hbar) -- the retraction never reached B259's own files (physics-seat evaluation branch, W-D synthesis, 2026-09-01).
+
+## Provenance
+
+- authored_by: `genesis-probe-2026-05-22; verdict L196 (B1235 addendum, 2026-09-02)`
+- depends_on: `[]`
+- identifications declared: `[]` (the Identification Rule, B1231)
+- the genesis README's own "honest verdict" paragraph is the source; L196 (docs/OPEN_LEADS.md)
+  records why the verdict was written and what changed since 2026-05-22.

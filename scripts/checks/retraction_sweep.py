@@ -39,7 +39,15 @@ MENTION_CUES = re.compile(
     r"retract|corrected|correction|withdraw|formerly|no longer|was wrong|is false|"
     r"scope error|banner|struck|do not bank|must not|never claim|~~|obsolete|\bfalse\b|"
     r"registry|registered here|the phrase|as a general claim|amend|originally|"
-    r"27-only|scoped by|partially retracted|read before quoting", re.I)
+    r"27-only|scoped by|partially retracted|read before quoting|"
+    # added 2026-09-06 (Review 55): B1188's correction banner reads "... as \"<phrase>.\" **Wrong direction**",
+    # a mention the cue list did not recognise once the sweep could finally see the phrase.
+    r"wrong direction|described .{0,40} as|"
+    # added 2026-09-07 (the doc-currency read at B1296): "refuted" -- the corpus's commonest retraction
+    # verb -- was not a cue, so every line that SAYS a phrase is refuted (B1253 FINDINGS: "It is refuted";
+    # CAMPAIGN_STATUS: "this arc's own headline REFUTED") read as a live use the moment the phrase was
+    # registered. Same E66 shape as the Review-55 widening above: the enforcement narrower than its rule.
+    r"refuted", re.I)
 
 
 def _phrases():
@@ -48,9 +56,39 @@ def _phrases():
         return out
     with open(REGISTRY, encoding="utf-8") as fh:
         for line in fh:
+            # FORMAT 1 (the original numbered table):  | 7 | `phrase` | arc | why |
             m = re.match(r"\|\s*\d+\s*\|\s*`([^`]+)`", line)
             if m:
-                out.append(m.group(1).strip())
+                out.append(m.group(1).strip()); continue
+            # FORMAT 2 (used from 2026-08-28 on):  | "phrase" <tail> | arc, date | why |
+            # WIDENED 2026-09-06 (Review 55, blocker). The registry grew a second table shape and
+            # this parser only knew the first, so it read 9 of 21 rows -- the gate that CERTIFIES
+            # retraction discipline was blind to 12 phrases, among them "cell 2 is queued and
+            # unrun", live in docs/ERROR_LEDGER.md at the time. Error class E66, inside the
+            # instrument the corpus's mechanical greens rest on.
+            #
+            # THE TAIL IS LOAD-BEARING AND A NAIVE WIDENING IS WRONG. Some rows retract a PHRASE
+            # ("excess transitive reach" (of the Omega-DAG...)); others retract only a READING of a
+            # phrase that is otherwise perfectly legitimate -- "sin^2 theta_W = 3/8" READ AS
+            # selecting E6/the knot. Sweeping the bare number would red ~25 correct uses across
+            # README, GOVERNANCE and twelve docs. So: take the phrase only when the tail is EMPTY
+            # or a PARENTHETICAL scope note; skip when the tail restricts a reading. A "/"-joined
+            # tail carries a second retracted phrase and both are taken.
+            m = re.match(r'\|\s*["\u201c]([^"\u201d]+)["\u201d](.*?)\|', line)
+            if m:
+                phrase, tail = m.group(1).strip(), m.group(2).strip()
+                if not tail or tail.startswith("("):
+                    out.append(phrase)
+                # else: a READING is retracted, not the phrase, and the bare phrase stays
+                # legitimate. Two live examples, both of which a naive widening got WRONG here
+                # before this comment was written:
+                #   * "sin^2 theta_W = 3/8" READ AS selecting E6/the knot -- the NUMBER is fine and
+                #     appears correctly in README, GOVERNANCE and twelve docs (~25 uses);
+                #   * "the class restricts to c" / eps described as "mirror-odd" -- MIRROR-ODD is a
+                #     correct, load-bearing term for the ORIENTATION bit (B1168, B1169); only its
+                #     application to eps was retracted.
+                # Sweeping either bare phrase reds correct work. When a row retracts a reading, the
+                # registry must add a separate row for any phrase it wants swept.
     return out
 
 

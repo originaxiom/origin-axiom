@@ -1,0 +1,7 @@
+deleted _verify_Z1/compute.py == live P2W4-Z1/compute.py (byte-identical): True
+main banked kmax: 28 | rerun levels: 22 | deleted-copy partial levels: 22
+rerun == main banked at levels: 22 / 22  mismatches: []
+rerun == deleted partial at levels: 22 / 22
+main certificates all True for k<=22: True
+Z18 = 2-1*sqrt5 | Z21 = 2 | Z22 = 0
+irrational levels (5|kappa forced): [(18, 30)] | rational levels with 5|kappa (the converse fails): [3, 8, 13]

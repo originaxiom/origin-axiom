@@ -1,0 +1,29 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+Jordan cubic rebuilt in-run: dim 1, 45 triples, coefficients +-1 (memo 32 reproduced)
+C invariant under A27: True
+C invariant under B27: True
+C invariant under U27 (the beat's unipotent): True
+det(A2) = 1 (eps-invariance): True
+det(B2) = 1 (eps-invariance): True
+det(W) = 1 (eps-invariance): True
+assembled Y invariant under rho_Psi(a) x rho27(a) (120 random coefficients, exact): True
+assembled Y invariant under rho_Psi(b) x rho27(b) (120 random coefficients, exact): True
+exchange antisymmetry Y(P2,P1,phi) = -Y(P1,P2,phi) (sampled grid, exact): True
+parity split of the 45 cubic triples (number of internally-odd slots): {2: 30, 0: 15}
+=> SELECTION RULE (exact): (locked,locked) -> EVEN phi [30 triples];
+   (unlocked,unlocked) -> even phi [15 triples]; no triple has 1 or 3 odd slots:
+   two locked fermion slots couple ONLY through a lift-free scalar.
+
+THE YUKAWA ON THE CARRIER: the unique coupling-shaped invariant Y = eps (x) C
+exists on Psi x Psi x 27 — pi1-invariant (factor proofs + direct samples),
+beat-covariant (both factors beat-invariant: det W = 1, C preserved by U27),
+ANTISYMMETRIC under exchange of the two fermion slots, and with its parity
+arithmetic already enforcing the physical shape: every cubic triple carries
+an even number of odd slots, so locked matter couples pairwise through
+lift-free scalars only.  Kinematics: no field, no value, no dynamics — the
+coupling's SHAPE, uniqueness, and selection rules, exact.

@@ -18,6 +18,8 @@ partial_results.json.*
 | **CL-H133** | **RESOLVED-B → HARDENS** | cc3's chord-suspect resolved: at level 4 (where Z₄=Tr ρ(A₁)=0), the θ-odd sector is ALSO zero (tr_even=0 AND tr_odd=0 independently, from SEPARATE traces) — a GENUINE structural zero, NOT the W4-304 cancellation pattern (there tr_odd=1/4 was hidden; here everything vanishes). **H133's death hardens at the chord level.** | cc self-verified: deterministic re-run (VERDICT RESOLVED-B, all sectors 0 at level 4); the W4-304 contrast confirmed by hand. |
 
 ## Pending the next pass (2)
+
+*[B1238, 2026-09-02: this block is superseded by this file's own `## COMPLETION (2026-07-24)` section below — CL-W4115 and CL-LATIN both RESOLVED-B, 7/7; the cell is `cells/CL-W4115/` (commit 63286642). Left in place as the append-only record; the physics-seat W-E sweep read it as live.]*
 - **CL-W4115**: strip the fabricated "adjoint 7,815…" string from W4-115c + re-verify the
   cover-torsion/charge wall on real data (extend the charge tower to n≥10). Never ran.
 - **CL-LATIN**: the P2W2-LATIN non-current block — is its 3-valuedness forced or measured?

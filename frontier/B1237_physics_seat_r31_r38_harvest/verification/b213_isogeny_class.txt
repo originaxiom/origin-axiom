@@ -1,0 +1,6 @@
+j(40a1) = 148176/25  j([0,0,0,-2,1]) = 55296/5  j([0,0,0,-32,64]) = 55296/5
+40a isogeny class (from 40a1): members [a4,a6] = [[-7, -6], [-32, 64], [13, -34], [-107, -426]] | isogeny-degree matrix: [1, 2, 2, 2; 2, 1, 4, 4; 2, 4, 1, 4; 2, 4, 4, 1]
+members j = [148176/25, 55296/5, 237276/625, 132304644/5]
+Phi's member is in the class: True | isomorphic to 40a1: False
+[0,0,0,-2,1] and [0,0,0,-32,64] same j (isomorphic over Q(sqrt d)): True
+L(E,1) equal across the class (isogeny-invariant): [0.742206236711193, 0.742206236711193, 0.742206236711193, 0.742206236711193]

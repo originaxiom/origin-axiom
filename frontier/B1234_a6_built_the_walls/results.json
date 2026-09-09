@@ -1,0 +1,20 @@
+{
+ "cell1": {
+  "orientation_covers_tested": 40,
+  "amphichiral": 40,
+  "base_rate_num": 6,
+  "base_rate_den": 200,
+  "cover_rate": 1.0,
+  "base_rate": 0.03
+ },
+ "cell2": {
+  "gieseking_orientable": false,
+  "cover_is_m004": true,
+  "vol_ratio": 2.0
+ },
+ "cell3": {
+  "gieseking_surjections_onto_2T": 48,
+  "m004_surjections_onto_2T": 48,
+  "same_trace_field": "Q(sqrt-3) -- same commensurability class (disc -3: m000, m002, m003, m004, m025, m203, s118)"
+ }
+}

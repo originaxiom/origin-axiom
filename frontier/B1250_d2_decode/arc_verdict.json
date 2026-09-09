@@ -1,0 +1,31 @@
+{
+ "id": "B1250",
+ "verdict": "PROVED",
+ "claim_one_line": "THE D2 DECODE: THE TWIST IS THE SO(10) GRADING OF E6 -- answering POSITIVE the stage-(a) question B926 marks explicitly UNAFFECTED BY THE OWNER GATE on M1, 'the strongest positive structure' on its surviving-shapes menu. B916 searched the PLAIN character (-1)^<a,w>, a in F2^6 (64 candidates), found none, and registered a refined question; that kill is REPRODUCED here (0 solutions). The AFFINE form was ONE BIT outside that search space and there the answer is UNIQUE: D2(w) = (-1)^(<w13,w>+1) with w13 = [1,0,-1,0,1,-1], exact on all 27 weights, w13 ITSELF one of the 27 and itself flipped, and exactly one weight of the 27 (and one a in F2^6 in either polarity) generating it. NOT A FIT: 2^7 = 128 candidates against 2^27 = 134,217,728 sign patterns, ~1 in 10^6 by chance, and the two-sided MB12 control gives 0 of 4000 random 11-subsets admitting an affine character. THE DECODE, EARNED BY THE B1223 TEMPLATE RATHER THAN DIMENSION-MATCHED: a root vector sends w -> w+alpha so the flip parity changes by <w13,alpha> mod 2, hence the roots EVEN against w13 generate the character's stabiliser; from the B883 rep (72 roots recovered cleanly, e6 has exactly 72) there are 40 even roots giving stabiliser dim 6+40 = 46 = dim(so(10)+u(1)) and 32 odd giving complement 32 = 16+16bar, and the ORBITS of the 27 under that stabiliser are [1,10,16] -- the SO(10) branching, singlet block exactly {w13}. THEREFORE D2 FLIPS THE 1 + 10 AND FIXES THE 16. The subalgebra is EXHIBITED (as the stabiliser) and ACTS (orbits computed), so T-IDENTIFICATION-IS-AN-INPUT is respected. B916's '11 = 8+3, one octet plus three vacuum lines' guess is CORRECTED: the split is 11 = 1 + 10 (the weight-sum grading 6/15/6 with flips 2/7/2 is a different, non-invariant slicing, recorded so no seat re-derives it as the answer). CONSEQUENCE FOR M1: B926's stated risk was that the decode 'may dissolve the twist into convention (then the shape dies honestly)'. It does NOT dissolve -- unique generator, 0/4000 control -- so M1 SURVIVES ITS STAGE-(a) TEST and the twist carries the matter/Higgs split of the 27. FENCED: NOT claimed that this object produces Standard Model matter -- that the 16 'is one generation' is standard GUT nomenclature for the REPRESENTATION, not a derivation, and reading it as physics output is exactly the I-13 debt; no gauge theory, no dynamics, no symmetry-breaking sector, no measured value, no crossing; stage (b), the sealed comparison, is RED and untouched; and the 6/15/6 grading's SU(6)xSU(2) dimension agreement is NOT made into an identification. Gate 5 clean.",
+ "instrument": true,
+ "depends_on": [
+  "B916",
+  "B926",
+  "B883",
+  "B1223",
+  "B1225"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "note": "Ran because the owner said to search for POSITIVES rather than hunt negatives, and was right: B916 recorded a negative, and searching ONE BIT wider -- the affine character -- produced the positive in four minutes. The owner also had to point out that B926's surviving-shapes menu existed at all; this seat spent a session reasoning about the crossing without opening the arc titled 'the crossing anatomy'. M1's stage (a) is marked in B926 as unaffected by the owner gate, so it was always this seat's work to do.",
+ "identifications": [
+  {
+   "row": "I-22",
+   "status": "EARNED",
+   "note": "map exhibited AND acts: the stabiliser subalgebra of the character is exhibited (40 even roots + 6 Cartan = 46 = so(10)+u(1), complement 32 = 16+16bar) and its ORBITS on the 27 are computed, giving [1,10,16] with the flips exactly the 1+10. Not a dimension match."
+  }
+ ],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-05",
+  "arc": "B1250",
+  "was": "candidate: D2(w) = (-1)^(<w13,w>+1) as a general law.",
+  "now": "NO LAW. This is a decode of ONE specific object (the D2 of B916) in ONE representation, not a general statement; it is locked as a computation in tests/test_b1250_d2_decode.py."
+ }
+}

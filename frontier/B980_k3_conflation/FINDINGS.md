@@ -78,7 +78,7 @@ dimensional regularization ≈56–60). What is **withdrawn** is its attachment 
 The SL(2,ℂ) Chern–Simons functional evaluated on the geometric representation of a hyperbolic
 3-manifold is its **complex volume** — the honest gravitational CS quantity. **B250** has it:
 
-> **Vol(4₁) = 6·Λ(π/3) = 2.0298832128193072500424051081…** (verified here to 28 digits against the
+> **Vol(4₁) = 6·Λ(π/3) = 2.0298832128193072500424051081…** [2026-09-02 B1240] digit slip in the last four printed places: mpmath at 35 dps gives 2.029883212819307250042405108**5490406** (B1240 `verification/fast_checks.json`, R43); the 28-digit verification below is unaffected] (verified here to 28 digits against the
 > known value) — **and CS = 0 exactly**, because the figure-eight is **amphichiral**, so its
 > Chern–Simons invariant is its own negative.
 

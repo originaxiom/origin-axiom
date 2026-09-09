@@ -1,0 +1,43 @@
+{
+ "id": "B1241",
+ "verdict": "OPEN",
+ "claim_one_line": "THE MASTER IDENTIFICATION PRICED: the listener map u (structural analogue ≡ physical quantity, the programme's crossing) registered UNEARNED as I-13 -- earned only by the crossing cell (W5/W6). Four more legacy identifications from fc Phase E part 1 re-read on main: I-14 B305 (two distinct Z/3s, crux open), I-15 B715 (E6 CS ≡ 3d gravity, principal sl2 with no dynamics), I-16 B675 (SU(4)_1 ≡ silver, conductor-8 number match) UNEARNED; I-17 B312 REFUTED via B727. Ratchet raised by hand 5 -> 9. fc R51 (38/74 split, independent of B1235) and R52 (anomaly cubic) recomputed and REPRODUCE; LAW_MAP:263's amphichirality clause corrected (a cc miss at B1235, E53); B232 PROVED -> OPEN per its own prose; B167/B647 claims corrected to their cells.",
+ "instrument": false,
+ "depends_on": [
+  "B1231",
+  "B1235",
+  "B1240",
+  "B305",
+  "B312",
+  "B323",
+  "B532",
+  "B675",
+  "B715",
+  "B727",
+  "B232",
+  "B167",
+  "B647",
+  "B1223",
+  "B1225"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "note": "One verdict of record demoted (B232 PROVED -> OPEN) on the arc's own prose -- E53 propagation, not a new finding. B167 and B647 keep their verdicts; their claim lines are rewritten to what their cells computed. No identification is earned here: EARNED stays 4; UNEARNED 5 -> 9 by a dated hand raise in docs/IDENTIFICATION_BASELINE.json. fc citation corrections recorded in verification/fc_phase_e_rows_verified.tsv (B532's fence is docs/CLOSURE_2026-07-11.md, not B1017/B1164; B660 is self-caught; B305 is not refuted downstream; B666's mechanism is the full mod-n shadow). B8070 is not on main (cc3 branch) -- relayed, untouched. Gate 5 untouched.",
+ "identifications": [
+  {"row": "I-13", "status": "UNEARNED", "note": "the listener map u: structural analogue ≡ physical quantity; B532's Born rule / gravity / time-arrow readings are its first explicit use; earned by the crossing cell only"},
+  {"row": "I-14", "status": "UNEARNED", "note": "B305: the trinification Z/3 (L3) ≡ the commensurator's Eisenstein-unit Z/3 (L4); B323 keeps them distinct, crux open"},
+  {"row": "I-15", "status": "UNEARNED", "note": "B715: E6(C) Chern-Simons promotion ≡ 3d Euclidean quantum gravity; the map is the principal sl2 embedding, no dynamics exhibited"},
+  {"row": "I-16", "status": "UNEARNED", "note": "B675: SU(4)_1 ≡ the silver's stage; conductor 8 = level 8 is a number match, uniqueness unshown"},
+  {"row": "I-17", "status": "REFUTED", "note": "B312: one E6, three ADE hats; B727 -- the recurrence is forced by the ADE classification, only the atom is object-specific (B1223 template)"}
+ ],
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-02",
+  "arc": "B1241",
+  "was": "candidate: the corrected ONE-WAY FAMILY TEST (universal family claims are hurt, not helped, by enlargement) -- but that is a correction to an existing LAW_MAP row, made in place with a dated bracket, not a new law",
+  "decision": "no law",
+  "class": "register + harvest + corrections",
+  "basis": "the register rows are judgments recorded with their evidence by file:line (verification/fc_phase_e_rows_verified.tsv); the two recomputations are scripts in verification/ locked by tests/test_b1241_master_identification_priced.py; the law-row correction is pinned by the same test"
+ }
+}

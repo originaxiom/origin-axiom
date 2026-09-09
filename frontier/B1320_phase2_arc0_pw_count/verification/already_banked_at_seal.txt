@@ -1,0 +1,9 @@
+  *** [ 3 terms] PROVED    B1095_mirror_isospectral
+           THE MIRROR-ISOSPECTRAL SPLIT (answers the audit seat's two B1085 checks): at reversal-closed windows (even Fibonacci index: N = 987, 2584) the left hand's word IS the reversed right hand's word letter-for-letter, so J H 
+  *** [ 3 terms] PROVED    B1148_carrier_harvest
+           THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduce byte-identical. The batch builds toward the inte
+
+  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.
+      docs/OPEN_LEADS.md
+      frontier/B1302_the_sibling_m202/DESIGN.md
+VERDICT: PRESENT -- on 3 head(s), working tree. 'We don't have it' may NOT be written.

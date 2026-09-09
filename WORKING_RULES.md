@@ -201,6 +201,14 @@ Evidence and error classes: E45–E48; the adoption record is B1101.
   result quantifies over is itself a claim — verify completeness or state the bound. Enlarging a family can
   only hurt object-level claims and only help family-level ones.
 
+## Currency note (2026-09-09, at head B1307) — the seat BRANCH is aged, not only the relay
+
+- **The harvest pin is a receipt (B1307):** `docs/HARVEST_LEDGER.md` `## Pins` names, per seat branch, the commit main last READ it up to;
+  it advances only in a landing that read that far. `scripts/checks/harvest_debt.py` (gate `harvest-debt`, 32nd) reports every item changed
+  since the pin, reconciles the ledger against each seat's own index both ways, lists seat-branch relays without a row, and fails a push
+  when an unrowed item is 21 days old; `gates.py review-due` runs it `--strict` — a review cannot close with unread seat results (§1a rule 3).
+  Relay senders are any lane now (`SM_TO_CC`, `FC_TO_CC`, `FAB5_TO_CC`, `CHAT1_TO_CC` were invisible to `relay_debt.py` until B1307).
+
 **Verify the verifier (E52, Review 51).** A stabilization or control run re-verifies its INSTRUMENT
 before trusting its verdict: does the seed actually enter? does the estimator measure the stated
 claim? does the logic prove the stated quantifier? Controls are TWO-SIDED — a known-positive
@@ -229,3 +237,60 @@ gitignored grid (tripling it, halving a Šidák α off untested multiplicity) an
 results file's sanitized placeholders with the bench's absolute paths. Both were silent successes,
 absent from the run's own report. The standing lesson is the reach, not the vigilance: **a gate only
 works where it is reached**, so reaching it has to be scheduled like any other work.
+
+## Rule (2026-09-01, from the B1228/B1230 self-audit — adopted): THE IDENTIFICATION RULE
+
+**For any claim of the form "X here IS Y there": exhibit the MAP, then show it ACTS FAITHFULLY.**
+Matching orders, names, dimensions or numbers are **not** a connection.
+
+**The template is our own kill.** B1223 assembled V₄ (three quadratic faces) with S₃ (the classifying
+cubic's Galois group) and read it as D₄ triality. The groups matched. The arc died on one line —
+**"Direct is not semidirect"**: the S₃'s quadratic resolvent ℚ(√77) is disjoint from the faces, so
+the compositum is a *direct* product and the S₃ acts **trivially**. The map existed; the action did
+not.
+
+**Why this is not merely hygiene.** By **B1225** the object provably **cannot identify** — naming
+requires an outside. So an unearned identification is not a reasoning slip: it is an **observer
+input the ledger has never counted**. Consequence: *the input ledger's parameter count is a LOWER
+BOUND* until every identification in the chain is earned or priced. And the programme's own goal
+sharpens — **the listener map `u` IS an identification map**, performed implicitly and for free for
+two years; pricing it is the crossing cell.
+
+**The discipline, in practice:**
+1. Every identification an arc uses gets a row in `docs/IDENTIFICATION_LEDGER.md` — the two sides,
+   *map exhibited?*, *acts?*, status `EARNED | REFUTED | UNEARNED`, and for UNEARNED, what would earn it.
+2. Arcs declare them in `arc_verdict.json` (`identifications: [...]`), required from **B1231** on —
+   the same self-declaration pattern `gate_theorem_registry` already uses.
+3. `gate_identification_register` enforces **completeness, never judgment**: every declared
+   identification has a row, and the UNEARNED count may not **increase** against the baseline. It is
+   a **ratchet, not a blocker** — a hard block on UNEARNED would make the fastest path to green
+   *marking things EARNED*, pressuring the very judgment it protects (the B1222 shape, aimed at
+   ourselves). UNEARNED is the correct resting state for honest open work.
+4. `python3 scripts/checks/identification_audit.py` before claiming any cross-structure connection.
+
+**The counterpart, positive:** this programme succeeds when it **TYPES** and fails when it
+**IDENTIFIES**. Typing moves (B1226's parity × dimension boxes; B1227's value-group regimes;
+B1230/C-1's *over what field?*) have held. Identification moves have died — B813, B1223, and two of
+our own in a single session. When tempted to glue, classify instead.
+
+## Rule (2026-09-02, the owner's instruction of 2026-09-01 — adopted): THE ABSENCE RULE
+
+The owner, verbatim: **"one important rule: before you conclude we dont have something, swipe the repo first."**
+
+**"We don't have X" is a universal statement over a population. It may be asserted only after that population has
+been enumerated — every remote head, filenames AND content, and deleted-in-history — and the sentence must cite the
+sweep.** `python3 scripts/checks/absence_sweep.py "<term>"` is the sweep; its output is the citation.
+
+**Why it is binding.** The record now carries a named class for this failure (ERROR_LEDGER **E54**) with six
+instances found in one window: the nine "unrecoverable" relays were on a reachable branch (E51's FINAL verdict);
+the "17 atoms enumerated on no branch" were on main in a heredoc since 08-28 (B1225's addendum, and a relay sent
+on that premise); a "no engine" framing where the engine was committed (B869); a lock that certified a method as
+reliable without looking at what it computes (B1181). Each was a search of a *sample* reported as a search of the
+*population*. Prose grep on main is a sample. One branch is a sample. A filename glance is a sample.
+
+**How it composes with the standing rules.** The owner's epistemic instruction (§0: "we don't have X" is never
+terminal) says an absence is not a *stopping point*; this rule says it is not even a *finding* until the sweep has
+run. PRACTICES' "no match is not a finding until a second source agrees" (B1001) required a second *source*; this
+requires a complete *sweep*. `already_banked.py` (B1202) is the sweep for "is this already banked?"; this is the
+sweep for "is this anywhere at all?".
+

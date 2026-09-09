@@ -1,0 +1,124 @@
+{
+ "candidate": "(E6)_1",
+ "rows": {
+  "A1": {
+   "c": "1",
+   "n_primaries": 2,
+   "h": [
+    "0",
+    "1/4"
+   ],
+   "T_order": 24,
+   "sigma": "1/6"
+  },
+  "A2": {
+   "c": "2",
+   "n_primaries": 3,
+   "h": [
+    "0",
+    "1/3",
+    "1/3"
+   ],
+   "T_order": 12,
+   "sigma": "1/3"
+  },
+  "A3": {
+   "c": "3",
+   "n_primaries": 4,
+   "h": [
+    "0",
+    "3/8",
+    "1/2",
+    "3/8"
+   ],
+   "T_order": 8,
+   "sigma": "1/2"
+  },
+  "A5": {
+   "c": "5",
+   "n_primaries": 6,
+   "h": [
+    "0",
+    "5/12",
+    "2/3",
+    "3/4",
+    "2/3",
+    "5/12"
+   ],
+   "T_order": 24,
+   "sigma": "5/6"
+  },
+  "D4": {
+   "c": "4",
+   "n_primaries": 4,
+   "h": [
+    "0",
+    "1/2",
+    "1/2",
+    "1/2"
+   ],
+   "T_order": 6,
+   "sigma": "2/3"
+  },
+  "D5": {
+   "c": "5",
+   "n_primaries": 4,
+   "h": [
+    "0",
+    "5/8",
+    "1/2",
+    "5/8"
+   ],
+   "T_order": 24,
+   "sigma": "5/6"
+  },
+  "E6": {
+   "c": "6",
+   "n_primaries": 3,
+   "h": [
+    "0",
+    "2/3",
+    "2/3"
+   ],
+   "T_order": 12,
+   "sigma": "1"
+  },
+  "E7": {
+   "c": "7",
+   "n_primaries": 2,
+   "h": [
+    "0",
+    "3/4"
+   ],
+   "T_order": 24,
+   "sigma": "7/6"
+  },
+  "E8": {
+   "c": "8",
+   "n_primaries": 1,
+   "h": [
+    "0"
+   ],
+   "T_order": 3,
+   "sigma": "4/3"
+  }
+ },
+ "checks": {
+  "module group = Z/3 vs the object's trinification Z/3 (B1161)": true,
+  "Z/3 <-> the trace field Q(sqrt-3) = Q(zeta_3) (the object's only specific atom, B727)": true,
+  "T-matrix order 12 <-> the map's exact mod-12 bookkeeping (section 4, down block)": true,
+  "the 27 is the SM-content carrier the programme already uses (map section 3)": true,
+  "c = 6 = rank, pre-fixed rational (K4)": true
+ },
+ "mb12_match": [
+  "E6"
+ ],
+ "three_primaries_alone": [
+  "A2",
+  "E6"
+ ],
+ "T12_alone": [
+  "A2",
+  "E6"
+ ]
+}

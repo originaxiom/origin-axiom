@@ -26,6 +26,55 @@ DATA = os.path.join(os.path.dirname(__file__), 'atlas_data.json')
 #              | tool (our method -> recurrence is a selection effect) | no (derived/incidental)
 # --------------------------------------------------------------------------------------------------
 LEXICON = {
+    # ---------------------------------------------------------------------------------------
+    # THE QUESTION MOTIFS (B1248, 2026-09-05). The eighteen motifs below this block are keyed on
+    # the OBJECTS the programme studies -- golden, eisenstein, figure_eight, torsion. They were
+    # authored 2026-07-01 and frozen (B806), and ~750 arcs have banked since. Nothing indexed
+    # what those arcs ANSWER. So a seat asking "do we have an arrow of time?" or "what closes the
+    # object?" retrieved nothing, while B497 (the four-verb monoid, the programme's only
+    # irreversibility structure) sat banked under twelve object-motifs, none of which says
+    # monoid, strata, or dynamics. That is not a missing arc; it is a missing WORD FOR THE
+    # QUESTION -- and it is the mechanism behind the programme's archaeology.
+    "arrow":          dict(kind="question", conserved="no", domain="dynamics",
+                           gloss="time's direction and/or its irreversibility -- the two are NOT the same "
+                                 "question (B766 = the direction bit, the golden branch; S063 = "
+                                 "irreversibility, entering at det != +-1)",
+                           patterns=[r"arrow of time", r"time'?s arrow", r"time'?s direction",
+                                     "irreversib", "reversib", "entropy", r"T.symmetry",
+                                     "flow reversal", "gamma_?5", "γ₅"]),
+    "monoid":         dict(kind="question", conserved="structural", domain="dynamics",
+                           gloss="End(F2) beyond the units: the four Hopfian-det strata, the "
+                                 "non-invertible verbs the programme has never computed",
+                           patterns=[r"End\(F", "monoid", "semigroup", "stratum", "strata",
+                                     "non-unit", "singular endo", r"det ?= ?0", "Thue.?Morse",
+                                     "Hopfian", "endomorphism"]),
+    "measurement":    dict(kind="question", conserved="no", domain="dynamics",
+                           gloss="collapse, decoherence, the measurement postulate as a structural "
+                                 "shape rather than an added axiom",
+                           patterns=["measurement", "decoheren", "collapse", "observable",
+                                     "projective measurement", "forgetting", "erasure",
+                                     "information loss", "non-invertible"]),
+    "closing":        dict(kind="question", conserved="structural", domain="topology",
+                           gloss="what closing the open object supplies and costs -- Dehn filling, "
+                                 "the seam, the constitutive closure (B286/B287/B294)",
+                           patterns=["Dehn fill", r"seam", "closing", "closure", "filling slope",
+                                     "exceptional filling", "peripheral", "cusp cross"]),
+    "naming":         dict(kind="question", conserved="structural", domain="arithmetic",
+                           gloss="self-reference, the quine, self-name vs self-sign -- naming and "
+                                 "choosing proved complementary (B762/B1184)",
+                           patterns=["self.?name", "self.?refer", "quine", "self.?model", "autopoie",
+                                     "held breath", "fixed point of its own", "self.?sign"]),
+    "choice":         dict(kind="question", conserved="structural", domain="arithmetic",
+                           gloss="the residual bit(s): the torsor of closings, the basepoint bit, "
+                                 "what the object can and cannot select (A7/B766/B1183/B1225)",
+                           patterns=["torsor", "residual choice", "basepoint bit", "one bit",
+                                     "the residue", r"A7", "no canonical", "cannot identify",
+                                     "free choice", "declared choice"]),
+    "coupling":       dict(kind="question", conserved="no", domain="physics",
+                           gloss="the observer/object interface: what the coupling supplies that "
+                                 "neither side has alone (the listener map, the pair, the relational bit)",
+                           patterns=["listener", "coupling", "interface", "observer.?suppl",
+                                     "relational", "the pair", "basepoint.?respecting", "closer"]),
     "figure_eight":   dict(kind="object", conserved="no", domain="topology",
                            gloss="the simplest hyperbolic knot; the carrier object",
                            patterns=[r"figure.eight", r"\b4_?1\b", "4₁", "m004", "fig-8", "fig8"]),

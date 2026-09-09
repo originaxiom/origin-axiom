@@ -1,0 +1,15 @@
+baseline: sm pin 0dffacd4 (+3); NEW unrowed ['PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08', 'THE_ASSEMBLY_2026-09-06', 'THE_DESTINATION_LEDGER_2026-09-06', 'THE_VIEW_FROM_ABOVE_2026-09-06']; NEW rowed ['sm:B1281', 'sm:B1303', 'sm:B1304', 'sm:B1350']
+
+pre-registered: pin^ (0dffacd4 itself re-enters the range): OA_HARVEST_PIN_OVERRIDE=sm=0dffacd4^ -> pin 13d965a9 (+4 commits)
+  expected: ids touched by 0dffacd4 = {PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08, sm:B1350}, both already NEW -> growth must be EMPTY
+  observed: NEW unrowed grew by []; NEW rowed grew by []; lost []; other seats unchanged: True
+
+stronger: pin~2 (13d965a9 enters): OA_HARVEST_PIN_OVERRIDE=sm=0dffacd4~2 -> pin e4eb91e3 (+5 commits)
+  expected: 13d965a9 touched sm:B1280, sm:B1282 (both rowed) -> NEW rowed grows by exactly those two; NEW unrowed unchanged
+  observed: NEW unrowed grew by []; NEW rowed grew by ['sm:B1280', 'sm:B1282']; lost []; other seats unchanged: True
+
+stronger: pin~3 (e4eb91e3 enters): OA_HARVEST_PIN_OVERRIDE=sm=0dffacd4~3 -> pin 09bf1504 (+6 commits)
+  expected: e4eb91e3 touched docs/THE_TOWER_2026-09-08.md (unrowed) and sm:B1302 (rowed) -> NEW unrowed grows by exactly THE_TOWER_2026-09-08, NEW rowed by sm:B1280, sm:B1282, sm:B1302
+  observed: NEW unrowed grew by ['THE_TOWER_2026-09-08']; NEW rowed grew by ['sm:B1280', 'sm:B1282', 'sm:B1302']; lost []; other seats unchanged: True
+
+LIVE CONTROL: PASS — every override grows the SM seat's NEW sets by exactly the ids of the commits that enter the range, nothing else, and no other seat moves

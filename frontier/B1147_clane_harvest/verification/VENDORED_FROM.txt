@@ -1,0 +1,38 @@
+VENDORED_FROM -- B1147_clane_harvest (B1240, 2026-09-02)
+
+Source: origin/outside-bench @ dc937010, directory outside_bench/ (the cloud seat's outside-bench branch).
+Why: reproduce_all.sh could not run on a fresh clone of main. Its provenance note pointed at a fetch of the
+certificates by name, but (a) the certificates load sibling files the fetch list omitted -- the full
+transitive closure was computed at the pinned SHA (26 files vendored below: code, data, expected outputs) -- and (b) the run
+record it cites, reproduce.log, is gitignored repo-wide (E57 shape: a lock without its tool).
+Integrity: every file below was copied byte-for-byte from the pinned SHA (git show), except where marked
+GENERATED. With this closure in place reproduce_all.sh prints REPRODUCES for 11/11 certificates
+on the main bench (2026-09-02); the live lock is tests/test_reproduce_runners_live.py (default lane: CERTS=cusp_beat).
+
+path                                                 sha256                                                             source
+certificates/a2_glue64.py                            1d7d9ccaf47de4a3e065c686606f4e4580e2d16c8b5960894e2b63e3cbbe0e59   origin/outside-bench @ dc937010: outside_bench/certificates/a2_glue64.py
+certificates/a4_pin.py                               075fa6179774175d60389d56b2e733a21326dc0828560c7d74c3c71250d55306   origin/outside-bench @ dc937010: outside_bench/certificates/a4_pin.py
+certificates/a5_parity_lemma.py                      a8dbcee0742507010e957301721ccbfa82f1e2900aa95330a23007345f96a141   origin/outside-bench @ dc937010: outside_bench/certificates/a5_parity_lemma.py
+certificates/b2_yukawa.py                            7bdc54ed87175fe38f60b6838939054eedba7ac992ca7fdec838122bbdde2986   origin/outside-bench @ dc937010: outside_bench/certificates/b2_yukawa.py
+certificates/c1_weyl.py                              83c9588181caf53eca8ab6cb3a93f1ad2775671413d2c25da8784adf86b31d0a   origin/outside-bench @ dc937010: outside_bench/certificates/c1_weyl.py
+certificates/c2_habiro.py                            4084b6edaa4bb93ea33d2c22651e219e7368d0ba84a9382122eddcd3ea3106da   origin/outside-bench @ dc937010: outside_bench/certificates/c2_habiro.py
+certificates/c2b_ohtsuki_bridge.py                   56f0064c80d86a657d918beaa4ac25365afcac42b338ce31311dad408cae8758   origin/outside-bench @ dc937010: outside_bench/certificates/c2b_ohtsuki_bridge.py
+certificates/c5_qp1.py                               05fc618f1399b257a751d378ca8f83cd68dc7baf8a592b476da4a49e406c61c1   origin/outside-bench @ dc937010: outside_bench/certificates/c5_qp1.py
+certificates/cp1_strata.py                           8d3e7092d65803529ca68ef2c01b270d01f61871d84d9d7d606c9f1e63b71c46   origin/outside-bench @ dc937010: outside_bench/certificates/cp1_strata.py
+certificates/cusp_beat.py                            39e5641b6de2fc2af7957f6d6d49ec0f75822c679eae5e08ccd78a8f26200124   origin/outside-bench @ dc937010: outside_bench/certificates/cusp_beat.py
+certificates/jordan_beat.py                          c11315c7678f15e4635a8e9a96be717d9d2b684a725ea32975f0f613cffd4cdd   origin/outside-bench @ dc937010: outside_bench/certificates/jordan_beat.py
+certificates/paper/verify/check_charge_bracket.py    4f10df9f55bd58bfb814f8b4428ff55bc710d4e49713876797b5c35f5990455f   origin/outside-bench @ dc937010: outside_bench/certificates/paper/verify/check_charge_bracket.py
+certificates/simul_verify.py                         4921d744639ede034140d1b6f01115c4055dbdd138df36229b48a868c0602029   origin/outside-bench @ dc937010: outside_bench/certificates/simul_verify.py
+certificates/spacetime64.py                          c0b0654a85cd4677fc65304bf35a356a42999eb5f906c08f3bf764a7089d2e05   origin/outside-bench @ dc937010: outside_bench/certificates/spacetime64.py
+certificates/twisted_double.py                       4a0fb415c7681e052681ab4c1a703d666751776d8fb883edf5ccda44a5cfeba6   origin/outside-bench @ dc937010: outside_bench/certificates/twisted_double.py
+outputs/a2_glue64_out.txt                            b4c5bcefc3bc2ff66357fc4374abd569b9851f3220afb45d80058687d7968fff   origin/outside-bench @ dc937010: outside_bench/outputs/a2_glue64_out.txt
+outputs/a4_pin_out.txt                               a0728d572a2dd4d5e24d7947726948dddd7394b2b324f3ff49d4c2c34803199d   origin/outside-bench @ dc937010: outside_bench/outputs/a4_pin_out.txt
+outputs/a5_parity_lemma_out.txt                      4e1ac42a13e31bd15ff793ed043940bf51f8da95992c9d6af1480405a67d531d   origin/outside-bench @ dc937010: outside_bench/outputs/a5_parity_lemma_out.txt
+outputs/b2_yukawa_out.txt                            6e4f4446063db55d37cc7b0f40093bad5740412bce89b5d5849ff53e01510537   origin/outside-bench @ dc937010: outside_bench/outputs/b2_yukawa_out.txt
+outputs/c1_weyl_out.txt                              cfa37641010575175c911532cae133ad4b41c707992bcdfd8fa04070bbb7a8e7   origin/outside-bench @ dc937010: outside_bench/outputs/c1_weyl_out.txt
+outputs/c2_habiro_out.txt                            ac01c7660c1fcd65fd725423db895afb968cdcd6744e86cdaa44ca8098817dc8   origin/outside-bench @ dc937010: outside_bench/outputs/c2_habiro_out.txt
+outputs/c2b_ohtsuki_bridge_out.txt                   fff7cc4403bcc4bbfa7021b209430a06834d8b58caea277a49fcec6a3a65631f   GENERATED on the main bench 2026-09-02 (never committed at source; run is deterministic, rc=0)
+outputs/c5_qp1_out.txt                               fc220e41b75acfc92183f9841ac51ac7e401203413d18a76b454fae4930f605b   origin/outside-bench @ dc937010: outside_bench/outputs/c5_qp1_out.txt
+outputs/cp1_strata_out.txt                           ff88f833b1ece9473deac6bc325346b82ffe77dc14d38610d146b16544b9121a   origin/outside-bench @ dc937010: outside_bench/outputs/cp1_strata_out.txt
+outputs/cusp_beat_out.txt                            dde352b4a424dfbb0918646ff8865c2becfd6ee2df96169ac5ca8b0ed9839627   origin/outside-bench @ dc937010: outside_bench/outputs/cusp_beat_out.txt
+outputs/jordan_beat_out.txt                          78b2cce5f3cf6b4ef0a4f298e5583e0d5d0e37cbf4400139851ab833163c5d19   origin/outside-bench @ dc937010: outside_bench/outputs/jordan_beat_out.txt

@@ -1,0 +1,17 @@
+Y annihilates C : observable over 2000 random splittings -> spread = 0.000e+00
+   value is constant? True   <- the P^3 choice is INVISIBLE
+Y generic       : spread = 4.834e+00
+   value is constant? False   <- the choice IS visible; the test discriminates
+
+unique factorisation Y = Ybar o proj_T reproduces Y exactly? True
+   Ybar (the observable on T) = -0.036307
+
+VERDICT: the lemma HOLDS and its bite is real.
+  * a 3-parameter family of splittings, and when Y annihilates C the observable is CONSTANT
+    across all of them -- 3 coordinates, ZERO observable parameters;
+  * when Y does not annihilate C the same 3 coordinates ARE visible.
+  => "there is a moduli space" does NOT imply "there are physical parameters".
+     The count that matters is the dimension of the IMAGE in observables, not of the source.
+CAVEAT: this verifies the ALGEBRA. Whether the actual lepton/down couplings annihilate the
+actual connecting block is codex's exact computation, still running -- NOT verified here.
+

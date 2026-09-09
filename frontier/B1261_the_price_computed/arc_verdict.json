@@ -1,0 +1,23 @@
+{
+ "id": "B1261",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1231",
+  "B950",
+  "B862",
+  "B864",
+  "B863",
+  "B1250",
+  "B1248",
+  "B1260",
+  "B713",
+  "B582"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE PRICE, COMPUTED: FIFTEEN UNPRICED INPUTS BOUGHT ZERO OF NINETEEN NUMBERS. JOIN 2's lead closed NEGATIVE first -- n in kappa = 2 + n^2 is NOT object-determined, n = 1..7 all occur with hundreds of partners, reconfirming B1248's 'infinite family, not a point' -- which made the live question the one the corpus had never answered in one place: how many unpriced inputs does the programme spend and what does it buy? B1231 made it askable (an unearned identification IS an unpriced observer input, so the input count is a LOWER BOUND until earned). READ FROM THE LEDGERS: the programme SPENDS 4 axioms (census unchanged; B1248 closed checklist I1 WITHOUT reducing it) + 11 UNEARNED identifications = 15 unpriced inputs. The SM side is 19 free parameters (26 with Dirac neutrinos) plus un-derived structure. The programme BUYS 0 of the 19 numbers -- 'none, seven sealed crossings, seven negatives'. What it does buy, counted SEPARATELY and never converted: the global Z6 form (DERIVED, B862, and the SM ITSELF CANNOT FIX IT), hypercharge DIRECTION (B864; normalisation not derivable), anomaly cancellation, termination at the SM (B863); PARTIAL on the gauge algebra (su(3)+su(2)+u(1)^3 is dim 14 against the SM's 12, so the chain is TWO STEPS from the SM not zero); NOT a prediction for sin^2 theta_W = 3/8 (a known GUT relation, non-discriminating); and chirality is CLOSING-supplied, which E65/B1260 now explain (the object is self-paired and handedness is the mirror-odd content a self-paired thing cannot hold). THE VERDICT IN TWO CURRENCIES THAT DO NOT CONVERT: by PARAMETER COUNT the trade is NET NEGATIVE, 15 bought 0; by STRUCTURAL CONTENT the programme derives what the SM assumes or cannot state, which is real and is the honest reason to continue, but is NOT a parameter reduction and must never be reported as one -- the selftest ENFORCES this, asserting the structural tally is never subtracted from the parameter tally. THE CONSTRUCTIVE CONSEQUENCE: the exchange rate is 15 : 0 and there are exactly two ways to move it -- EARN an identification (-1) or DERIVE a parameter (+1). Earning is cheaper, is already instrumented by the B1231 ratchet, and 8 rows are EARNED already. So the identification ledger is not bookkeeping around the physics, it IS the scoreboard."
+}

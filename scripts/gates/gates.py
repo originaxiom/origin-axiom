@@ -203,6 +203,26 @@ def gate_arc_verdicts():
 
 # --- gate: attribution hygiene -------------------------------------------------------------
 _TOK = base64.b64decode(b"Y2xhdWRl").decode()          # encoded so this file passes itself
+# B1226: the gate enforced ONE name out of the set the rule names, so "Anthropic", "Opus",
+# "sonnet" and "fable" sat in tracked files looking clean. Word-bounded so ordinary English
+# ("philanthropic", "ineffable", "magnum opus") cannot red the gate.
+_VENDOR_TOKS = tuple(base64.b64decode(b).decode() for b in
+                     (b"Y2xhdWRl", b"YW50aHJvcGlj", b"b3B1cw==", b"c29ubmV0", b"ZmFibGU="))
+_VENDOR_RE = re.compile(r"\b(" + "|".join(_VENDOR_TOKS) + r")\b", re.I)
+
+
+def _load_attr_baseline():
+    """B1226 ratchet: the pre-existing occurrences are FROZEN, not forgiven. The gate reds on
+    any new file and on any INCREASE in an existing one, so the footprint can only shrink.
+    Clearing the backlog means editing append-only history — an owner decision, not a gate's."""
+    try:
+        with open(os.path.join(ROOT, "docs", "ATTRIBUTION_BASELINE.json")) as fh:
+            return json.load(fh).get("frozen", {})
+    except Exception:
+        return {}
+
+
+_ATTR_BASELINE = _load_attr_baseline()
 ATTR_EXEMPT_PREFIXES = ("legacy/", ".claude/", "audit/",
                         # preserved forensic review artifacts (hash-pinned; quote seat transcript
                         # paths verbatim as provenance pins — editing them would break their seals)
@@ -224,8 +244,9 @@ def gate_attribution():
         if not rel.endswith((".md", ".py", ".txt", ".json", ".yml", ".yaml", ".toml")):
             continue
         try:
-            if _TOK in _read(rel).lower():
-                hits.append(rel)
+            n = len(_VENDOR_RE.findall(_read(rel)))
+            if n > _ATTR_BASELINE.get(rel, 0):
+                hits.append(f"{rel} ({n} vendor tokens, baseline {_ATTR_BASELINE.get(rel, 0)})")
         except Exception:
             continue
     rc2, author = _git("log", "-1", "--format=%an")
@@ -244,16 +265,33 @@ def gate_tracked_forbidden():
     # LOOSE (at root or in docs/). Relays ARCHIVED INSIDE a frontier arc directory are that
     # arc's evidence record and are allowed — the same distinction the path guard already
     # makes for cc2_packets ("archived cross-seat packet records: history, not live code").
-    # One loose relay predates this rule and is grandfathered: GOVERNANCE §12 forbids removing
-    # banked paths, so the gate's job is to stop the NEXT one.
-    GRANDFATHERED_RELAYS = {"CC3_TO_CC_2026-07-22_p3_complete.md"}
+    #
+    # WIDENED 2026-09-06 (B1290's follow-through). The rule above says "cross-seat relay
+    # files"; the REGEX enforced only CC2/CC3 relays, so CC_TO_FC, CC_TO_CLOUD, CC_TO_CODEX
+    # and CC_TO_ALL_SEATS were invisible to it. That is B1226's shape exactly ("the gate
+    # enforced ONE vendor token of the five the standing rule names"), and it had already
+    # cost two violations — BOTH committed by this bench on 2026-09-06, the day it was found.
+    # The matcher now keys on a KNOWN SEAT as sender plus the relay convention's DATE stamp,
+    # which is what separates a relay from docs/STRUCTURE_TO_NATURE_MASTERPLAN.md. Validated
+    # both directions: 53/53 loose relays on disk matched, and the masterplan, README, and
+    # arc-archived relays all correctly unmatched.
+    #
+    # Three loose relays predate the widening and are grandfathered — GOVERNANCE §12 forbids
+    # moving banked paths ("locks, hashes, and the atlas depend on path stability"), so the
+    # gate's job is to stop the NEXT one, not to relitigate these. NEW relays go inside the
+    # arc directory they belong to.
+    _SEAT = r"(?:CC|CC2|CC3|CLOUD|CODEX|FC|OWNER)"
+    _RELAY_RE = re.compile(
+        rf"^(?:docs/)?{_SEAT}(?:_[A-Z0-9]+)?_TO_[A-Z0-9_]+_\d{{4}}-\d{{2}}-\d{{2}}.*\.md$")
+    GRANDFATHERED_RELAYS = {
+        "CC3_TO_CC_2026-07-22_p3_complete.md",
+        "CC_TO_ALL_SEATS_2026-09-06_ARC_NUMBER_RESERVATION.md",
+        "CC_TO_FC_2026-09-06_THE_QUESTION_MOVED_TO_YOUR_CUSP.md",
+    }
     bad = [f for f in out.splitlines()
            if f.startswith(".github/") or f == "Archive.zip"
            or (f.startswith("papers/flagship/a-self-generating-object") and f.endswith(".pdf"))
-           or (re.match(r"(CC_TO_CC3|CC3_TO_CC|CC_TO_CC2|CC2_TO_CC)[^/]*\.md$", f)
-               and os.path.basename(f) not in GRANDFATHERED_RELAYS)
-           or (f.startswith("docs/")
-               and re.search(r"/(CC_TO_CC3|CC3_TO_CC|CC_TO_CC2|CC2_TO_CC)[^/]*\.md$", f))]
+           or (_RELAY_RE.match(f) and os.path.basename(f) not in GRANDFATHERED_RELAYS)]
     return not bad, bad
 
 
@@ -490,6 +528,44 @@ def gate_path_refs():
         pairs = sorted({f"{r} -> {t}" for r, t in bad})
         return False, f"{len(pairs)} unresolved path citation(s): " + "; ".join(pairs[:5])
     return True, f"ok ({total} citations resolve)"
+
+
+def gate_tracked_deps():
+    """Every repo path a tracked test/script names must itself be TRACKED, not merely present.
+
+    E57 (B1238, 2026-09-02): B1237 committed `tests/test_paper_ledger_counts.py` and pushed it
+    with the tool it runs, `scripts/checks/paper_ledger_counts.py`, still untracked -- the
+    file sat on the bench, so the local suite was green and `path-refs` resolved it; only a
+    fresh clone would have redded. This is the complement of `path-refs`: that gate asks
+    "does the cited path exist?", this one asks "does git HAVE it?". Scope is tracked .py
+    under tests/ and scripts/ (the executable reference graph); a path is checked only when it
+    exists on disk (a missing path is `path-refs`' business, or an intentional skipif).
+    Fail-closed if git is unavailable -- an index we cannot read is not an index we may vouch for.
+    """
+    rc, out = _git("ls-files")
+    if rc != 0:
+        return False, f"git ls-files failed: {out[:80]}"
+    tracked = set(out.split("\n"))
+    lit = re.compile(r"(?:scripts|frontier|docs|tests|data|paper)/[\w./-]+\.(?:py|sh|json|md|txt|csv)")
+    chain = re.compile(r'ROOT(?:\s*/\s*"[^"]+")+')
+    bad = {}
+    for rel in sorted(tracked):
+        if not (rel.startswith(("tests/", "scripts/")) and rel.endswith(".py")):
+            continue
+        try:
+            txt = _read(rel)
+        except OSError:
+            continue                                   # deleted-but-tracked: not this gate's class
+        refs = set(lit.findall(txt))
+        for ch in chain.findall(txt):
+            refs.add("/".join(re.findall(r'"([^"]+)"', ch)))
+        for r in refs:
+            if r not in tracked and os.path.isfile(os.path.join(ROOT, r)):
+                bad.setdefault(r, rel)
+    if bad:
+        pairs = [f"{r} <- {src}" for r, src in sorted(bad.items())]
+        return False, f"{len(pairs)} untracked-but-referenced path(s): " + "; ".join(pairs[:5])
+    return True, "ok"
 
 
 def gate_test_vacuity():
@@ -915,6 +991,18 @@ def gate_relay_debt():
     return True, "ok"
 
 
+def gate_harvest_debt():
+    """B1307 -- every seat branch is READ within 21 days of a push; the harvest ledger is reconciled against each seat's own index
+    (MASTERPLAN v3.1 section 1a rule 3). Plain mode = instrument integrity + ageing; `review-due` runs it --strict."""
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--quiet"],
+                       capture_output=True, text=True, timeout=300)
+    out = (r.stdout + r.stderr).strip()
+    if r.returncode != 0:
+        return False, out.replace("\n", " | ")[:500]
+    return True, "ok"
+
+
 def gate_doc_currency():
     """B984 -- a living document that no longer reflects the corpus is a silent misinformer."""
     import subprocess
@@ -965,7 +1053,114 @@ def gate_theorem_registry():
     ok = not missing
     return ok, ("ok" if ok else f"creates_law arcs missing registry rows: {missing}")
 
+def gate_identification_register():
+    """B1231. The programme's dominant error mode is IDENTIFICATION -- gluing two structures whose
+    labels match, in different places, without a map. B813, B1223, and TWO of this bench's own in a
+    single session (B1228's pi_1-2T-vs-ALE-Gamma; B1230/C-5b's Z/3-vs-module-group, one cell later).
+    By B1225 the object CANNOT identify, so an unearned identification is an UNPRICED OBSERVER
+    INPUT and the parameter count is a lower bound until it is earned.
+
+    This gate enforces COMPLETENESS, NEVER JUDGMENT. It cannot tell whether a map acts; it only
+    enforces that the question was asked and answered somewhere a reader can find it:
+      (a) every identification an arc DECLARES has a row in docs/IDENTIFICATION_LEDGER.md;
+      (b) the UNEARNED count may not INCREASE against docs/IDENTIFICATION_BASELINE.json.
+
+    A RATCHET, not a blocker -- deliberately. A hard block while anything is UNEARNED would make the
+    fastest path to green MARKING THINGS EARNED, pressuring exactly the judgment the gate protects
+    (the B1222 shape, turned on ourselves), and would deadlock unrelated work behind a research
+    question. UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red
+    nothing. But a NEW unearned identification reds the suite at creation -- which is precisely when
+    2026-08-31's two would have been caught.
+    """
+    import glob as _glob
+    import json as _json
+    led = os.path.join(ROOT, "docs", "IDENTIFICATION_LEDGER.md")
+    base = os.path.join(ROOT, "docs", "IDENTIFICATION_BASELINE.json")
+    if not os.path.exists(led):
+        return False, "docs/IDENTIFICATION_LEDGER.md missing (B1231 register)"
+    text = _read("docs/IDENTIFICATION_LEDGER.md")
+    rows, unearned = [], 0
+    for line in text.splitlines():
+        m = re.match(r"\|\s*(I-\d+)\s*\|(.*)", line)
+        if not m:
+            continue
+        cells = [c.strip().replace("*", "") for c in m.group(2).split("|")]
+        st = next((c for c in cells if c in ("EARNED", "REFUTED", "UNEARNED")), "?")
+        rows.append(m.group(1))
+        unearned += (st == "UNEARNED")
+    problems = []
+    # (a) declared-but-unregistered
+    for f in sorted(_glob.glob(os.path.join(ROOT, "frontier", "*", "arc_verdict.json"))):
+        try:
+            d = _json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue
+        for ident in (d.get("identifications") or []):
+            ref = ident.get("row") if isinstance(ident, dict) else str(ident)
+            if ref not in rows:
+                problems.append(f"{d.get('id')}: declares {ref!r}, no ledger row")
+    # (b) the ratchet
+    if os.path.exists(base):
+        try:
+            b = _json.load(open(base, encoding="utf-8")).get("unearned")
+        except Exception:
+            b = None
+        if b is not None and unearned > b:
+            problems.append(f"UNEARNED increased {b} -> {unearned}: a new identification was made "
+                            f"without being earned. Earn it, or register what would earn it and "
+                            f"raise the baseline DELIBERATELY with a dated reason.")
+    ok = not problems
+    return ok, ("ok" if ok else problems[:5])
+
+
+def gate_supersession_backlinks():
+    """B1290's follow-through (2026-09-06). E53 is 'the correction never reached the verdict
+    file'. The same shape exists one level up, at SUPERSESSION: 43 arcs were claimed superseded
+    by a later arc and only ONE said so in its own arc_verdict.json -- so a reader landing on
+    B154 from the atlas saw PROVED with no marker that a later arc had replaced it.
+
+    The back-link is DERIVABLE, not a judgement: `supersedes` already carries the forward edge.
+    This gate enforces that every forward claim has its back-link, so the corpus cannot silently
+    re-accumulate 36 unmarked supersessions. It NEVER touches a verdict -- superseding an arc is
+    not retracting it, and the 12 RETRACTED arcs are a separate, deliberate act."""
+    import glob as _glob
+    import json as _json
+    claims, seen = {}, {}
+    for f in sorted(_glob.glob(os.path.join(ROOT, "frontier", "*", "arc_verdict.json"))):
+        try:
+            d = _json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue
+        i = d.get("id")
+        if not i:
+            continue
+        seen[i] = d
+        s = d.get("supersedes")
+        if s:
+            # A forward edge may be a list, a single id, or -- B239 -- ONE STRING HOLDING TWO IDS
+            # ("B234, B235"). Review 55 found the gate silently skipping that row: it looked for an
+            # arc literally named "B234, B235", found none, and took the not-in-corpus branch,
+            # leaving two arcs unmarked. Split on commas/whitespace so a malformed edge is still
+            # enforced rather than silently exempted -- a gate that skips what it cannot parse is
+            # E66's shape, and this gate was minted the same day E66 was.
+            raw = [s] if isinstance(s, str) else list(s)
+            for chunk in raw:
+                for tgt in re.split(r"[,\s]+", str(chunk).strip()):
+                    if tgt:
+                        claims.setdefault(tgt, []).append(i)
+    silent = []
+    for tgt, by in sorted(claims.items()):
+        if tgt not in seen:          # forward edge points outside the corpus -- not this gate's business
+            continue
+        back = seen[tgt].get("superseded_by")
+        if not back:
+            silent.append(f"{tgt} (superseded by {sorted(set(by))}, says nothing)")
+    ok = not silent
+    return ok, ("ok" if ok else silent[:5])
+
+
 GATES = {
+    "identification-register": gate_identification_register,
     "framing": gate_framing,
     "claims": gate_claims,
     "firewall-oneway": gate_firewall_oneway,
@@ -979,6 +1174,7 @@ GATES = {
     "id-collisions": gate_id_collisions,
     "knowledge-index": gate_knowledge_index,
     "path-refs": gate_path_refs,
+    "tracked-deps": gate_tracked_deps,
     "test-vacuity": gate_test_vacuity,
     "views-generated": gate_views_generated,
     "practices-register": gate_practices_register,
@@ -990,11 +1186,14 @@ GATES = {
     "representation-sweep": gate_representation_sweep,
     "doc-currency": gate_doc_currency,
     "relay-debt": gate_relay_debt,
+    "harvest-debt": gate_harvest_debt,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,
     "law-map-provenance": gate_law_map_provenance,
     "atlas-lexicon-current": gate_atlas_lexicon_current,
+    "supersession-backlinks": gate_supersession_backlinks,
 }
+
 
 
 def run_all():
@@ -1012,6 +1211,10 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "review-due":
         n, due = review_status()
         print(f"merges since last review: {n}; due (>= {REVIEW_EVERY}): {due}")
+        # B1307: a review opens with the harvest debt and cannot close with unread seat results (--strict)
+        r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--strict"],
+                           capture_output=True, text=True, timeout=300)
+        print((r.stdout + r.stderr).rstrip())
         sys.exit(0)
     res = run_all()
     worst = 0

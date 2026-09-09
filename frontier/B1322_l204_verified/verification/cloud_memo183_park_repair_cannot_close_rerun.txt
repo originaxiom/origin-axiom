@@ -1,0 +1,24 @@
+==============================================================================
+Park eq (32): x-degrees of a_0..a_4 = [12, 11, 12, 10, 5]   -- the maximum anywhere is 12
+a_1, which addendum 2 shows must carry the x^3 term, has degree 11.
+==============================================================================
+U_12(0) = sum_i c_{i,12} Q^i = [(50, 1), (52, 1)]
+   every exponent even, as the parity of the equation requires : True
+==============================================================================
+   c_3..c_11 all in a_1             : first mismatch q^141   horizon q^769 (5.5x the mismatch)   [integral Laurent]
+   c_3..c_11 in a_1, c_12 in a_0    : first mismatch q^164   horizon q^778 (4.7x the mismatch)   [integral Laurent]
+   c_3..c_11 in a_1, c_12 in a_2    : first mismatch q^165   horizon q^780 (4.7x the mismatch)   [integral Laurent]
+==============================================================================
+   x-degree 12 is the maximum anywhere in eq (32), so this ansatz has no degree
+   left to use -- and it still fails, far inside its horizon.  The single-index
+   reconstruction CANNOT CLOSE.
+
+   The reason is structural: delta_d determines U_d(0) = sum_i c_{i,d} Q^i exactly but
+   not the five c_{i,d} separately; the split is fixed by U_d(1)..U_d(4), which live in
+   delta_{d+1}..delta_{d+4}.  A sequential single-index fit therefore absorbs each
+   wrong split into the next correction and pushes the error one degree up.  Closing
+   every degree to 12 needs blocks to about f_16; this bench has f_5.
+   C1 every stage integral Laurent : PASSED
+   C2 horizon exceeds the mismatch threefold : PASSED
+ALL CONTROLS PASSED.
+RC=0

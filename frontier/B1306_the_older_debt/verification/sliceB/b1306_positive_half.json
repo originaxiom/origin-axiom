@@ -1,0 +1,140 @@
+{
+ "NMAX": 13,
+ "fails": [],
+ "table": {
+  "2": {
+   "H1": [
+    1,
+    5
+   ],
+   "classes": 1,
+   "predicted": 0,
+   "carry": 0,
+   "both_even": 1,
+   "both_even_carry": 0
+  },
+  "3": {
+   "H1": [
+    4,
+    4
+   ],
+   "classes": 0,
+   "predicted": 0,
+   "carry": 0,
+   "both_even": 0,
+   "both_even_carry": 0
+  },
+  "4": {
+   "H1": [
+    3,
+    15
+   ],
+   "classes": 1,
+   "predicted": 0,
+   "carry": 0,
+   "both_even": 1,
+   "both_even_carry": 0
+  },
+  "5": {
+   "H1": [
+    11,
+    11
+   ],
+   "classes": 2,
+   "predicted": 2,
+   "carry": 2,
+   "both_even": 0,
+   "both_even_carry": 0
+  },
+  "6": {
+   "H1": [
+    8,
+    40
+   ],
+   "classes": 1,
+   "predicted": 0,
+   "carry": 0,
+   "both_even": 1,
+   "both_even_carry": 0
+  },
+  "7": {
+   "H1": [
+    29,
+    29
+   ],
+   "classes": 2,
+   "predicted": 2,
+   "carry": 2,
+   "both_even": 0,
+   "both_even_carry": 0
+  },
+  "8": {
+   "H1": [
+    21,
+    105
+   ],
+   "classes": 1,
+   "predicted": 0,
+   "carry": 0,
+   "both_even": 1,
+   "both_even_carry": 0
+  },
+  "9": {
+   "H1": [
+    76,
+    76
+   ],
+   "classes": 2,
+   "predicted": 2,
+   "carry": 2,
+   "both_even": 0,
+   "both_even_carry": 0
+  },
+  "10": {
+   "H1": [
+    55,
+    275
+   ],
+   "classes": 5,
+   "predicted": 2,
+   "carry": 2,
+   "both_even": 3,
+   "both_even_carry": 0
+  },
+  "11": {
+   "H1": [
+    199,
+    199
+   ],
+   "classes": 2,
+   "predicted": 2,
+   "carry": 2,
+   "both_even": 0,
+   "both_even_carry": 0
+  },
+  "12": {
+   "H1": [
+    144,
+    720
+   ],
+   "classes": 1,
+   "predicted": 0,
+   "carry": 0,
+   "both_even": 1,
+   "both_even_carry": 0
+  },
+  "13": {
+   "H1": [
+    521,
+    521
+   ],
+   "classes": 2,
+   "predicted": 2,
+   "carry": 2,
+   "both_even": 0,
+   "both_even_carry": 0
+  }
+ },
+ "pairs_m_le_4000": 1037,
+ "mismatches": []
+}

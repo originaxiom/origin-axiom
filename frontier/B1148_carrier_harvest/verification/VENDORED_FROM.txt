@@ -1,0 +1,30 @@
+VENDORED_FROM -- B1148_carrier_harvest (B1240, 2026-09-02)
+
+Source: origin/outside-bench @ d3c99640, directory outside_bench/ (the cloud seat's outside-bench branch).
+Why: reproduce_new.sh could not run on a fresh clone of main. Its provenance note pointed at a fetch of the
+certificates by name, but (a) the certificates load sibling files the fetch list omitted -- the full
+transitive closure was computed at the pinned SHA (18 files vendored below: code, data, expected outputs) -- and (b) the run
+record it cites, reproduce.log, is gitignored repo-wide (E57 shape: a lock without its tool).
+Integrity: every file below was copied byte-for-byte from the pinned SHA (git show), except where marked
+GENERATED. With this closure in place reproduce_new.sh prints REPRODUCES for 7/7 certificates
+on the main bench (2026-09-02); the live lock is tests/test_reproduce_runners_live.py (default lane: CERTS=kappa_beat).
+
+path                                                 sha256                                                             source
+certificates/carrier.py                              283921f8678d31ad1ef0210aa72f8451d6b46c1aae6089df1bc0cc739d481e49   origin/outside-bench @ d3c99640: outside_bench/certificates/carrier.py
+certificates/fixed_twin.py                           11b07d1aac5f7d0264a42e5baaf707f99e9622e0eb2d7a8e7aa5cfd08a37132b   origin/outside-bench @ d3c99640: outside_bench/certificates/fixed_twin.py
+certificates/hitind.py                               9f69a79df2eb5641a502a0157e8433f803624787af3fe3893f9f0fdea560cadb   origin/outside-bench @ d3c99640: outside_bench/certificates/hitind.py
+certificates/kappa_beat.py                           a61532e3e5662ca3a4cbe9588214a384d7248b694e4a08203738b4b5cfa03883   origin/outside-bench @ d3c99640: outside_bench/certificates/kappa_beat.py
+certificates/one_bit.py                              7eeacb1287fc23403548d5107942687e91f07670787ec64cbdfa0397328885be   origin/outside-bench @ d3c99640: outside_bench/certificates/one_bit.py
+certificates/only_spinor.py                          c4ba4ae8ca43a3b1f9a5018a9f9a17e958bb760eb9c3e9bfa1e468d2fa1da13e   origin/outside-bench @ d3c99640: outside_bench/certificates/only_spinor.py
+certificates/paper/verify/check_charge_bracket.py    4f10df9f55bd58bfb814f8b4428ff55bc710d4e49713876797b5c35f5990455f   origin/outside-bench @ d3c99640: outside_bench/certificates/paper/verify/check_charge_bracket.py
+certificates/simul_verify.py                         4921d744639ede034140d1b6f01115c4055dbdd138df36229b48a868c0602029   origin/outside-bench @ d3c99640: outside_bench/certificates/simul_verify.py
+certificates/theta_dump.py                           3ea4384c74c3de79ee414e84ccbfa63e79ffb936e3999a0c4f4fcd7224b67ce4   origin/outside-bench @ d3c99640: outside_bench/certificates/theta_dump.py
+certificates/twisted_double.py                       4a0fb415c7681e052681ab4c1a703d666751776d8fb883edf5ccda44a5cfeba6   origin/outside-bench @ d3c99640: outside_bench/certificates/twisted_double.py
+certificates/yukawa_carrier.py                       641a0312f73b4c74ba20d4fc0b1d261b641a1204eb4687c425c39a77a1a02523   origin/outside-bench @ d3c99640: outside_bench/certificates/yukawa_carrier.py
+outputs/carrier_out.txt                              ac41bca09d2a8eb4acb1878041294b85657fb7aed7c488f7f76bfdd1e386638d   origin/outside-bench @ d3c99640: outside_bench/outputs/carrier_out.txt
+outputs/fixed_twin_out.txt                           8de522f3058a736fdd45d5225aa010dd7a6a48c62d77f53574de026e7e74a023   origin/outside-bench @ d3c99640: outside_bench/outputs/fixed_twin_out.txt
+outputs/hitind_out.txt                               181f4059a174c69d7a522328549504c0aedc269a50c086fbd0e919d6f114030a   origin/outside-bench @ d3c99640: outside_bench/outputs/hitind_out.txt
+outputs/kappa_beat_out.txt                           ba1d810b390b44416632a00f8ba42df84c1ee28c554bc91e18944f6587097300   origin/outside-bench @ d3c99640: outside_bench/outputs/kappa_beat_out.txt
+outputs/one_bit_out.txt                              3a147e5c300b92d2972cd3a1f45f85d086d47978748e05a86198dfabe787c3f9   origin/outside-bench @ d3c99640: outside_bench/outputs/one_bit_out.txt
+outputs/only_spinor_out.txt                          0f8b05ec9b5b9ab76eb3a6701df78544e3e1475cd74d6b5b37abd380d0d011ff   origin/outside-bench @ d3c99640: outside_bench/outputs/only_spinor_out.txt
+outputs/yukawa_carrier_out.txt                       4f38c875942580bab66077983e7ad75aef661da6e989dab6847603f6d6cb3880   origin/outside-bench @ d3c99640: outside_bench/outputs/yukawa_carrier_out.txt

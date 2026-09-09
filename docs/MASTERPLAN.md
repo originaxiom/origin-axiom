@@ -1,5 +1,7 @@
 # THE MASTERPLAN — APPROVED (2026-07-04; owner sign-off received)
 
+> **Review 56 currency (2026-09-09, anchor `eb9db7fa`):** this is the A–E masterplan of August, kept as the record of that campaign; the plan in force is **MASTERPLAN v3.1 — THE CHIRALITY BIT** in `docs/MAIN_GOAL.md` (Phase 1's seven harvest arcs B1298–B1307 landed this window; the harvest-debt gate live; the head sentence: the object counts 2 at every fixed locus, 3 only from the vector-like ℤ/3 descent).
+
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** The parameter-closure loop's first run (B1216) is honest about its own score: **zero rows deleted**. What *did* move came from auditing the record rather than the object — the discrete freedom ledger closes to **exactly {C, P}** once B1112, B1109+B1118 and B1141 are actually read onto the ledger (they had not been). The masterplan's remaining continuous rows are unchanged: λ ungated, ℙ³ exactly one condition short.
 
 > **Review 50 currency (2026-08-27, B1173):** the A–E masterplan EXECUTED (cc's cells B1164–B1169; the seam sitting B1170–B1173); the observer is ADELIC with a MECHANISM (the orbit-escape pair); Wave 1 + O3 + O4 complete. Next: R50-3 the ℤ/2 cell; the cross-seat waits (R50-6); the owner menu (R50-7).
@@ -302,3 +304,5 @@ the founding obstruction and the boundary are proved to be one polynomial Φ₃ 
 between its faces. Missing in kind: a forcing theorem for the value arm, and the cosmological
 dynamics (`docs/COSMOLOGY_LEDGER.md` is the new surface). cc3 retired; cloud ran the same directive
 independently and converged.*
+
+> **Currency — Review 55 (2026-09-06, anchor `be6f4cab`).** Refreshed against the 102-merge window `c0e9a4a0`→`be6f4cab`. **What changed for this view:** the generation route's status after the parity theorem. **The window's spine:** `net chirality = χ(M,∂⁺M)` applied on main (B1290); the **parity theorem** — on a *one-cusped* manifold `|Fix|` is even, so **3 is excluded**, verified over 1200 census manifolds with zero violations (B1291); the escape **satisfiable but mis-scoped** — m202 keeps ℚ(√−3) and 2T and realises `|Fix| = 3`, yet `χ(M) = χ(∂M) = 0` at *any* cusp count, so **flatness, not parity, is the binding obstruction** (B1292); and the seat harvest — the **first vacuum with the SM group** and **I-14 collapsing to a point**, with fc's `χ(M,∂⁺M)` predating main's B1290 (B1293). **I-26 remains UNEARNED.** Review 55 repaired three instruments and left 16 action items.

@@ -1,0 +1,18 @@
+{
+ "id": "B1322",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1299",
+  "B1298",
+  "B1297",
+  "B1294",
+  "B1306"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "L204 VERIFIED ON MAIN (DESIGN sealed 29ec11c3 before the run; the SM-derivation seat's sm:B1350 @ 7484ad01 is the computation, credited by pin). At the seat's four banked 100-digit points along the V_10 direction of the 42 at the subregular point (class 1, class 2, sum, difference), main's own Fox calculus at 110 digits finds: relator residuals 1e-61..1e-68 (genuine E6 representations), self-duality defects 1e-10 (not self-dual -- the theta-odd deformations predicted), h^1(M; 27) = h^1(M; 27bar) = 0, no cusp-fixed vector in 27 or 27bar, N(27) = 0 with the bound 0 <= N <= 0 -- the seat's table to the entry; a perturbed point fails the relator (control); the seat's 2000-bit re-reader re-run here reproduces its summary. L204 is CLOSED: the theta-odd frame is closed on every sl2 germ of the cusped object; main's 15 % prior for N != 0 resolves to 0. The cloud's memo 183 addenda 2-5 and memo 180 addendum 1 REGISTERED with re-runs from a clean checkout at e51afd6c."
+}

@@ -1,0 +1,26 @@
+{
+ "id": "B1265",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1140",
+  "B916",
+  "B1250",
+  "B883",
+  "B1261",
+  "B1263",
+  "B1264"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-10",
+   "status": "UNEARNED",
+   "note": "unchanged, price sharpened. The fork these rows reduce to is a RANK OBSTRUCTION: D2 is inner (conjugation by a torus element) and reaches only equal-rank real forms, landing on E6(-14) by its computed signature 32 - 46 = -14; E6(-26) has k = f4 of RANK 4 and is OUTER, so no torus element reaches it. What would cross it is an OUTER involution, i.e. E6 diagram automorphism = theta. FENCED: that the objects theta IS that automorphism and can serve as the Cartan involution is NOT established here."
+  }
+ ],
+ "claim_one_line": "THE REAL FORM IS DERIVED, AND THE FORK IS A RANK OBSTRUCTION. MAIN_GOAL JOIN 3. B1140 banked the fork as a brute fact -- 'the two real forms split the world with NOTHING SHARED, E6(-14) took the charges, E6(-26) took the geometry (Lorentz, compact colour, the graviton)' -- no arc crosses it, and B1263/B1264 localised I-10 and I-11 to it at 2 units on B1261's scoreboard. (1) THE REAL FORM IS DERIVED, NOT CHOSEN: real forms correspond by Cartan to involutions up to conjugacy, labelled by the signature dim p - dim k, and D2 -- the object's OWN twist, B916's 11-flip decoded by B1250 as the SO(10) grading -- IS an involution, computed here on the adjoint by conjugation to give dim k = 46 (= so(10)+u(1) = 45+1) and dim p = 32, so SIGNATURE = 32 - 46 = -14, and E6(-14) is BY DEFINITION the real form of signature -14. The object's own D2 SELECTS it uniquely among the five; the charge branch is DERIVED, and it is a place where the object supplies a POINT not a family. (2) AND THE FORK IS A RANK OBSTRUCTION: D2 is conjugation by a torus element hence INNER, and inner involutions reach only EQUAL-RANK real forms (rank k = rank e6 = 6) -- compact, E6(-14) and E6(2) -- while E6(-26), the branch that took Lorentz, compact colour and the graviton, has k = f4 of RANK 4 and is OUTER, so NO torus element of E6 can reach it. B1140's 'nothing shared' is therefore not a coincidence of two campaigns: one branch is inner, the other outer, and no inner map reaches an outer form. (3) WHAT WOULD CROSS IT, NAMED EXACTLY: only an OUTER involution, i.e. one using E6's diagram automorphism, which is precisely THETA, the 27 <-> 27bar swap the corpus banks as the object's own symmetry -- so JOIN 3's blocker is no longer 'find a bridge' but 'does the object's theta act as an outer involution here, and with which fixed subalgebra'. FENCED: that theta is E6's outer automorphism is standard, but that the OBJECT's theta IS that automorphism and can serve as the Cartan involution is NOT established here, and the corpus's own theta facts cut both ways -- the object is theta-symmetric, but theta is TRIVIAL ON THE CHARACTER VARIETY, a reason to doubt it carries the geometric content E6(-26) needs. Nothing here earns I-10 or I-11; the price stays at 14."
+}

@@ -1,0 +1,7 @@
+conductor, j: 40 148176/25
+torsion: 4 structure [2, 2]
+Tamagawa c_p: {2: 2, 5: 2} product 4
+L(E,1) = 0.742206236711193
+omega_1 = 1.48441247342239  L/omega_1 = 0.500000000000000  L/(2 omega_1) = 0.250000000000000
+Mahler m(Phi) = 0.742264063232416105173110032492
+B213 says: torsion Z/4, prod c_p = 8, L(E,1)=0.74228, m(Phi)=0.74175 ~ L(E,1)

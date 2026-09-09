@@ -1,0 +1,59 @@
+{
+ "root": "oa-audit-seat/cloud-seat-ec15923d",
+ "census": {
+  "files": 2417,
+  "mb": 17.0,
+  "terms": {
+   "logarithmic": {
+    "occurrences": 8,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": "neg"
+   },
+   "non-semisimple": {
+    "occurrences": 18,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": "neg"
+   },
+   "character": {
+    "occurrences": 3474,
+    "technical": 12,
+    "frac": 0.0035,
+    "verdict": "FALSE COMFORT",
+    "kind": null
+   },
+   "modular": {
+    "occurrences": 898,
+    "technical": 54,
+    "frac": 0.0601,
+    "verdict": "thin",
+    "kind": null
+   },
+   "non-rational": {
+    "occurrences": 7,
+    "technical": 0,
+    "frac": 0.0,
+    "verdict": "FALSE COMFORT",
+    "kind": null
+   },
+   "resurgence": {
+    "occurrences": 71,
+    "technical": 12,
+    "frac": 0.169,
+    "verdict": "genuine",
+    "kind": null
+   },
+   "Chern-Simons": {
+    "occurrences": 73,
+    "technical": 34,
+    "frac": 0.4658,
+    "verdict": "genuine",
+    "kind": "pos"
+   }
+  }
+ },
+ "two_sided": true
+}

@@ -1,0 +1,18 @@
+<site-packages>/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+max cusp count of m004's covers, by degree (B1295 went to 10):
+  degree  2:   1 covers, max cusps = 1
+  degree  3:   1 covers, max cusps = 1
+  degree  4:   2 covers, max cusps = 2
+  degree  5:   4 covers, max cusps = 3
+  degree  6:  11 covers, max cusps = 2
+  degree  7:   9 covers, max cusps = 3
+  degree  8:  10 covers, max cusps = 2
+  degree  9:  11 covers, max cusps = 3
+  degree 10:  38 covers, max cusps = 5
+  degree 11:  26 covers, max cusps = 4
+  degree 12:  62 covers, max cusps = 4
+
+covers with >= 6 cusps found: 0
+NONE to degree 12 -> the six-cusp target is NOT reachable in this range.
+RC=0

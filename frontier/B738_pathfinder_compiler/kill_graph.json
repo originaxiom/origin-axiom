@@ -10725,5 +10725,219 @@
   "priority": "P2",
   "revival_score": 2,
   "depth_note": "Routed at banking, same commit as the arc -- the discipline B1207 found lapsing."
+ },
+ {
+  "id": "B1222",
+  "claim_killed": "'THE SELECTION IS THE OBSTRUCTION' -- the unifying thesis that every one of the programme's ~65 proved vanishings (CS=0, Delta=I, dS/dk=0, theta trivial, mirror trivial, invariant content zero, symmetric support empty) is forced by a SYMMETRY, so that the object's selection for canonicity IS the obstruction and the freedom ledger is just its symmetry group itemised.",
+  "kill_form": "premise refuted by population test, with the correlation coming out at the OPPOSITE SIGN to the prediction. Three kill conditions were named in advance; test 3 was decisive. The premise failed first: m003 is not less symmetric than m004 (both |Sym|=8, both amphichiral, same volume), its cusp is the hexagonal omega = e^{i pi/3}, the MOST symmetric torus, and it carries the Z/5 torsion m004 lacks. Census of the first 400 one-cusped orientable manifolds: |Sym|=2 -> 19.5% carry H1 torsion (n=261); |Sym|=4 -> 87.2% (n=133); Pearson r(|Sym|, has-torsion) = +0.50 where the thesis requires NEGATIVE.",
+  "fact_computed": true,
+  "faces_consulted": [
+   "being"
+  ],
+  "hatch": "ALREADY TAKEN, and it paid. The kill used H1 TORSION as the observable for a thesis whose content is Chern-Simons -- the wrong discriminating fact (owner: 'make sure our gates are not killing positives'). Re-run on the right observable, the positive survives and is sharper than the original: amphichirality forces CS to be 2-torsion, CS in {0,1/4}, 6/6 exact on the census -- banked as B1224 (T-CS-TORSION). The thesis's general form stays dead; its CS instance is a theorem.",
+  "note": "The canonical instance of a gate killing a positive by choosing an observable from the wrong sector. B1226 then drew the consequence B1224 left undrawn and broke B1012's blind-to-k <=> amphichiral equivalence with it.",
+  "priority": "P2",
+  "revival_score": 2,
+  "depth_note": "Routed late -- B1222/B1223 banked without kill-graph rows and sat unrouted until the suite caught them at B1226. The same lapse B1207 found, recurring."
+ },
+ {
+  "id": "B1223",
+  "claim_killed": "THE V4/S3 <-> D4 CORRESPONDENCE: that the object's V4 of three forced quadratic faces (Q(sqrt-3), Q(sqrt5), Q(sqrt-15), B730) together with the classifying cubic field's S3 (K = Q[x]/(x^3-12x-5), disc 6237, totally real) reproduces D4's automorphism data -- Z(Spin(8)) = V4 with its three nontrivial elements the three 8-dimensional reps, and Out(D4) = S3 = triality permuting exactly those three, so V4 x| S3 = S4.",
+  "kill_form": "arithmetic disjointness of the ACTION, not of the pieces. Both groups are generic (any three quadratic fields with square discriminant product form a V4 by genus theory; almost every cubic field has Gal = S3), so the isomorphisms alone are the short-catalogue coincidence this programme refuses. The discriminating question is whether S3 permutes V4's involutions FAITHFULLY. Computed: disc K = 6237 = 3^4 * 7 * 11, squarefree part 77, so the S3's own quadratic resolvent is Q(sqrt77) -- NOT among the three faces. The compositum is therefore the DIRECT product V4 x S3 and the S3 acts on the faces TRIVIALLY. Triality requires the semidirect V4 x| S3 = S4. Direct is not semidirect.",
+  "fact_computed": true,
+  "faces_consulted": [
+   "being",
+   "number"
+  ],
+  "hatch": "Any assembly supplying an S3 whose quadratic resolvent LIES IN the V4 of faces would restore the faithful action. That is a sharp arithmetic condition on the classifying field, not a vague hope: find a cubic field classifying the same structure whose discriminant's squarefree part is -3, 5, or -15. The individual pieces all survive -- B730's V4, the seat-supplied S3, B904's 28-dimensional triality algebra as an exact nullspace over Q, and the exact dimension cascade E6/78 -> 52 -> 28.",
+  "note": "Assembled from three seats' material; nobody had joined the halves before, and joining them is what made it testable. Killed in one computation on the same day it was assembled.",
+  "priority": "P2",
+  "revival_score": 3,
+  "depth_note": "Routed late, with B1222, when the suite caught the pair unrouted at B1226."
+ },
+ {
+  "id": "B2",
+  "claim_killed": "The genesis handoff's 'the monodromy A acts on the figure-eight A-polynomial curve as (M,L) -> (M^2 L, M L)'. Killed: the image polynomial (degree 9 in L) is not divisible by A(M,L); nonzero remainder; not a symmetry of the curve.",
+  "kill_form": "kind-mismatch",
+  "faces_consulted": [
+   "being",
+   "character-variety"
+  ],
+  "fact_computed": true,
+  "hatch": "route-through-fiber-character-variety",
+  "priority": "LOW",
+  "revival_score": 0,
+  "note": "Two moduli spaces conflated: the monodromy acts on the FIBER's (punctured-torus) character variety, not on the peripheral (M,L) of the knot exterior. HATCH WALKED: B13 (trace-map linearization contains the A-sector) and B67 (trace-map fixed locus = A-polynomial exactly, Cooper-Long). Nothing to revive; the correct object was found. Routed 2026-09-02 under L196 (B1235 addendum); probe.py re-run that day.",
+  "depth_note": ""
+ },
+ {
+  "id": "B5",
+  "claim_killed": "Lambda = 2 pi^2 / Vol(4_1) ~ 9.724 (Planck units) as the cosmological constant, from a toy Wheeler-DeWitt constraint. Killed: ~10^120 times the observed value -- restates the problem; the same failure as the archived D1 (k~137) and D2 (phi^{-2N}).",
+  "kill_form": "kind-mismatch",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "none-apparent",
+  "priority": "LOW",
+  "revival_score": 0,
+  "note": "By TYPE (B1022 weight ledger): Vol(4_1) = 2.0299 is the shape's number (vol/R^3, weight 0); Lambda is a weight -2 slot; 'Planck units' inserts R = l_Planck by hand, so the scale is supplied rather than derived (the B666/B1022 wall). The only hatch is the universal Layer-5 one -- a scale supplied from outside -- which is not a revival of this formula. Routed 2026-09-02 under L196 (B1235 addendum). Family: B259 wall #5, retracted by B980 (retraction not propagated to B259's files -- fc W-D synthesis).",
+  "depth_note": ""
+ },
+ {
+  "id": "B258-silver-inference",
+  "claim_killed": "Silver (m136, m=2) is NON-ARITHMETIC because its trace field has degree 8 (B258 FINDINGS:15-16, inherited by B1062 V2). Killed: arithmeticity is decided by the INVARIANT trace field Q(tr Gamma^(2)), which is Q(i) for m136 -- 350 traces of squares over words <= 6 are all Gaussian integers, and Vol(m136) = 4G = 12 x covol(PSL2 Z[i]) to 50 digits. Silver is arithmetic (as B125/B147/B137/B850/B337 already banked).",
+  "kill_form": "cited-as-sufficient",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "none-apparent",
+  "priority": "LOW",
+  "revival_score": 0,
+  "depth_note": "The only hatch would be the correct criterion itself, and it has been applied in B1237 (verification/silver_arithmetic.py). Nothing to revive: the degree statement ('golden alone at degree 2 in every tower') was never in question.",
+  "note": "Error class E55 (trace field vs invariant trace field), instance #2 at its source site. Routed 2026-09-02 under B1237 (physics-seat harvest, second ring). Bronze not recomputed; its non-arithmeticity is unchanged as banked."
+ },
+ {
+  "id": "B1062-V2-axis",
+  "claim_killed": "The arithmeticity axis separates {golden} from {silver, bronze} EXACTLY (B1062 V2, CONTROL-EXHIBITED). Killed: silver is arithmetic (invariant trace field Q(i)); the axis separates {golden, silver} from {bronze}. The control is still exhibited, with the corrected partition; B1062's own table row recorded x^2 = 2+2i beside the wrong inference.",
+  "kill_form": "cited-as-sufficient",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": true,
+  "hatch": "none-apparent",
+  "priority": "LOW",
+  "revival_score": 0,
+  "depth_note": "Same computation as B258-silver-inference. The bridge cell's V1 and V3 and its degree statement are untouched; what dies is the reading 'golden alone is arithmetic'. Q(sqrt-3) vs Q(i) is the discriminating datum, not arithmeticity itself.",
+  "note": "Error class E55 instance #1 (the inherited site). Routed 2026-09-02 under B1237."
+ },
+ {
+  "id": "B1244",
+  "claim_killed": "THE AUDIT'S OWN THESIS: that Gate 5 -- the dimensional firewall -- had accumulated over-fenced items and was blocking concrete physics results the programme had already earned, so that a census would find a releasable pile.",
+  "kill_form": "pre-registered expectation falsified by its own run. E-1 predicted at least three MISLABELED items; 46 items were examined with the source opened under amendment A1 and the count is ZERO -- not one over-fence. The two most load-bearing fences are honest FOR A COMPUTED REASON: L15's firewall holds because the complex volume ic(rho) = i(Vol+iCS) in C/4pi^2 Z is DIMENSIONLESS (B151), and the h(27) lead is fenced because B580 PROVES the channel information-free -- the level-1 chord is identical for 4_1, 5_2 and the unknot, and a channel that cannot distinguish the object from the unknot cannot carry its physics. E-2 was falsified separately: C43 repeats B915's own scoping faithfully.",
+  "fact_computed": true,
+  "faces_consulted": [
+   "being",
+   "hearing"
+  ],
+  "hatch": "The releasable pile may exist on the 209 items not examined -- the audit stopped when its thesis was refuted rather than grinding on looking for a result it had already failed to find. Re-opening requires a NEW pre-registration, not a continuation of this one. But the audit also located the disease that IS real and is not this one: COVERAGE. Every genuine loss found on 2026-09-03 was a positive that never reached the spine (C25's corrected sentence, the genesis theorem uncited three months, the seam family's ten arcs with one citation). That lane is open and productive.",
+  "note": "The auditor's own prediction was the thing killed. Recorded rather than quietly dropped, which is what the sealed expectations were written for. The falsifying step for E-2 was itself an instance of the failure mode the audit's amendment A1 forbids -- grading from phrasing rather than from the opened source -- committed by A1's author inside the audit A1 governs.",
+  "priority": "P3",
+  "revival_score": 2
+ },
+ {
+  "id": "B1242",
+  "claim_killed": "TWO REGISTERED IDENTIFICATIONS, both priced by L199 and both paid here. (I-16) 'SU(4)_1 IS the silver's stage' -- that the silver knot's cusp lattice quantizes A_3 at level 1, on the strength of a matching 'conductor 8' / ord(T) = 8. (I-15) 'E6(C) Chern-Simons IS 3d Euclidean quantum gravity' -- that promoting m004's holonomy along the principal sl2 makes the E6 invariant the gravity action.",
+  "kill_form": "both killed by paying the price the register itself set, in exact arithmetic, with two-sided controls. (I-16) the discriminant forms are UNEQUAL on every invariant: (Z/2+Z/8) level 16 signature 2 with 16 anyons, against A_3's (Z/4, q=3/8) level 8 signature 3 with 4 anyons -- and unrescuable, since even scalings give |D| in {16,64,144,256} never 4, and Milgram bars signature 3 for any rank-2 positive-definite form. The matched number was real but was not a lattice invariant: 'conductor 8' named the shadow LEVEL (the order Z[2i] has conductor 2, disc -16). (I-15) killed BY COUNTING rather than by failure: the principal sl2's Dynkin index is 156 by three agreeing routes and the map ACTS with remainder identically zero -- but 78 = 3+9+11+15+17+23 makes the gravity sector 3 of 78, so containment holds and identity does not.",
+  "fact_computed": true,
+  "faces_consulted": [
+   "hearing",
+   "meeting"
+  ],
+  "hatch": "For I-16: none at the lattice level -- the invariants are computed and the obstruction (Milgram) is a theorem. What survives is the FAMILY assignment via the minimal Coxeter-plane field, and B684's OWN-CHANNEL at SU(4)_2, neither touched. For I-15: not a hatch but a promotion -- the containment is EARNED as I-19, and what is open is whether the five higher-spin sectors (sl2-spins 4,5,7,8,11) carry anything object-specific.",
+  "note": "The structural lesson generalises past both rows: A_2's Coxeter PLANE is its root lattice, so the golden case works and invites the extrapolation; A_3's plane is A_1+A_1. Rank 2 -> rank 3 is where the computation became an identification. Golden control confirms it -- the golden CUSP lattice's even form has |D| = 48 against A_2's 3, so even there the cusp does not carry the form; the plane does.",
+  "priority": "P2",
+  "revival_score": 1
+ },
+ {
+  "id": "B1258",
+  "claim_killed": "That the object's own 2T can select WHICH sl2 embedding of the holonomy into E6 is in play -- and, secondarily, that the SO(10) grading D2 expresses a preference between the principal and subregular candidates. Both were the natural object-internal confirmations of B1257's Brieskorn selector, and earning I-25 needed one of them.",
+  "kill_form": "Killed by a THEOREM, not a survey. chi_27 on 2T's seven classes is (27,27,3,0,0,0,0) and chi_78 is (78,78,-2,-3,-3,-3,-3) -- IDENTICAL for both candidates -- and the equality is FORCED: at lambda = +-1 the character is just the dimension (all indices even), and at 2T's remaining classes lambda has order 3, 4 or 6 where chi_Sym^n depends ONLY on n mod m, with the index multisets {16,8,0} and {12,8,4} agreeing mod 3 ([0,1,2]), mod 4 ([0,0,0]) AND mod 6 ([0,2,4]). 2T's eigenvalues are 12th roots of unity and the two decompositions are congruent modulo exactly that. The second half killed by direct computation: neither candidate makes the SO(10) 16 a union of complete sl2 strings, nor the 10+1.",
+  "fact_computed": "the 27|2T and 78|2T characters for both weighted Dynkin labellings, per-class; the per-modulus periodicity of chi_Sym^n (verified for m = 3, 4, 6); the index multisets mod 3, 4, 6; and the sl2-string decomposition of the D2 = +-1 eigenspaces.",
+  "faces_consulted": "B327 (the branching gate now scoped by addendum), B1256 (I-25), B1257 (the Brieskorn selector), B1255 (the transversality [C18, D2|W18] != 0), B883, B1250.",
+  "hatch": "The discriminator for I-25 is neither the finite-group branching (closed by theorem) nor the SO(10) compatibility (closed by computation). Any revival needs an object-internal datum finer than a character on a group whose eigenvalues are 12th roots of unity -- and note E65: the whole sl2 frame cannot carry NET chirality anyway, so a revival of this route does not reach the generation count even if it succeeds.",
+  "note": "Also lands a SCOPE CORRECTION on B327: its n1=n2 conclusions stand (proved by self-duality for ANY SU(2)-factoring embedding, which is exactly why the gate cannot separate two of them), but no reading of its branching gate fixes WHICH embedding. This arc's own first statement of the mechanism ('chi periodic mod 12 on every class') is FALSE at lambda = 1 where chi = n+1 grows; the selftest asserts the naive version false.",
+  "priority": "low",
+  "revival_score": 1
+ },
+ {
+  "id": "B1259",
+  "claim_killed": "B1084's HATCH: that a deformation could make an A1 locus meet the E6 locus at an isolated transversal point in a FLAT G2 orbifold -- resolving the enhancement lines, restoring Acharya-Witten isolation, and so converting the vector-like spectrum into a chiral one. Equivalently: that hunting a better finite group G-hat could supply AW isolation.",
+  "kill_form": "Killed by a structural theorem that closes the entire class in one line. G2 < SO(7), so every element acts on R^7 with det = +1; and EVERY element of SO(2k+1) has eigenvalue +1 -- the characteristic polynomial is real of ODD degree hence has a real root, non-real eigenvalues occur in conjugate pairs of modulus 1 each contributing +1 to the determinant, the real eigenvalues are +-1 and their product must equal det = +1, and an ODD number of them multiplying to +1 forces at least one to be +1. Hence every nontrivial element of ANY flat G2 orbifold group fixes at least a LINE, and a 0-dimensional fixed set cannot occur for ANY G-hat. B1084's census {3d: 53, 1d: 42} was therefore FORCED by flatness in seven dimensions, not a property of |G-hat| = 96.",
+  "fact_computed": "0 of 4000 sampled SO(7) elements lack eigenvalue +1, against 2000 of 2000 sampled SO(6) elements that DO lack it -- so the statement is dimension-specific rather than a triviality about orthogonal matrices; and the parity argument is exhibited as independent of |G-hat|.",
+  "faces_consulted": "B1084 (the orbifold, the census and the hatch), B1086 (the spectrum law), B1087 (the charge/holonomy non-commutation), B944 (the 102-arc chirality census), B582/B576/B432 (the frame that does carry chirality).",
+  "hatch": "Chiral matter by the G2 route requires genuine CURVATURE -- a conical G2 singularity whose local model is a cone over a 6-manifold rather than a linear action on R^7. That is a different construction, not a different group, and it is not closed by this node. Separately, the corpus already has chirality CONSTRUCTED by another route entirely (theta-odd twisted full-E6(C), B582/B576, with a CLOSING supplying the bit, B432/B434), so this node does not bear on whether the object is chiral -- only on whether the flat G2 orbifold can show it.",
+  "note": "Upgrades B1084's routed negative from an EMPIRICAL census to a STRUCTURAL no-go. Also records that B1084's hatch was never walked: of ~1180 arcs only one declares a dependency on B1084/B1086/B1087, and it is a bookkeeping follow-through. Does NOT resolve MAIN_GOAL JOIN 1 -- B1086's chiral dial still gives h^1 = 2, not 3.",
+  "priority": "medium",
+  "revival_score": 2,
+  "scope_note_2026-09-09": "B1304: SCOPED, not retracted -- the SO(odd) lemma excludes an isolated point of the TOTAL singular set for every element; it does not exclude an isolated maximal-isotropy STRATUM (the audit seat's (Z/2)^3 in G2 counterexample, re-derived exactly). The hatch 'an isolated enhancement stratum' is reopened as a question; no chiral matter derived (E70)."
+ },
+ {
+  "id": "B1262",
+  "claim_killed": "I-9: B155's (Z/2)^2 lattice glue = 'the genus V4', with side B recorded as Gal(Q(sqrt-3,sqrt5)/Q).",
+  "kill_form": "Killed by running the discriminator the row itself had carried unrun. disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2^(t-1) = 2 genera: the GENUS GROUP HAS ORDER 2, against Gal's order 4. There is no 'genus V4' for disc -15 -- the object the row NAMES does not exist. The fallback reading (side B = Gal, order 4) rests on an ORDER MATCH, which B1223 forbids as evidence, plus the category mismatch B155 records (the glue is a GL(4,Z)-class invariant 'not forced by the spectral type': lattice data, not field data).",
+  "fact_computed": "h(-15) = 2 and the genus count 2, with the class-number routine validated against five known values (h(-15)=2, h(-23)=3, h(-4)=1, h(-3)=1, h(-47)=5) before being trusted; plus the two-directional control that t = 3 discriminants (-84, -120) DO give 4 genera.",
+  "faces_consulted": "B1261 (the price and its moves), B1233/B1234 (the proposal), B155 (the glue and its scope), B1223 (order matches are not connections), B1231 (the ratchet).",
+  "hatch": "A revival would need an exhibited MAP from the lattice cokernel to a field-theoretic group, together with a demonstration that the glue IS determined by the spectral type -- which B155's own row denies. Nothing in this node bears on B155's glue itself, which stands as a GL(4,Z)-class invariant; only its identification with a genus or Galois group is killed.",
+  "note": "First reduction of the B1261 price: UNEARNED 11 -> 10, the trade moving 15 : 0 -> 14 : 0. Demonstrates the third move on the exchange rate (refute), which the ratchet supported all along.",
+  "priority": "low",
+  "revival_score": 1
+ },
+ {
+  "id": "B1267",
+  "claim_killed": "B1260's named deciding route: that the CUSPED manifold, evaluated on a NON-SELF-DUAL rank-3 local system, might carry net chirality h1(V) != h1(V*) and so supply a generation count where the closed double cannot.",
+  "kill_form": "Run, with a five-way control. On B102's W1/W2 -- the corpus's only non-self-dual rank-3 systems -- the index h1(V) - h1(V*) is ZERO at all 25 valid parameter points per component, and more sharply BOTH h1 VANISH: W1 and W2 are RIGID, carrying no deformations at all, so they cannot furnish a count in either direction. By B1260's own statement ('agree => the wall extends past closedness AND past the abelian sector') the wall extends.",
+  "fact_computed": "h1 via Fox calculus on the mapping-torus presentation <a,b,t | tat^-1 phi(a)^-1, tbt^-1 phi(b)^-1>, phi: a->aab, b->ab, with rho*(g) = rho(g^-1)^T; 25 valid points per component; smallest d1 singular values 0.011 (W1) and 0.020 (W2), far from zero so rank 6 is solid.",
+  "faces_consulted": "B1260 (which named the route), B102 (W1/W2 realized), B71 (realize/monodromy), B1256 addendum (the control table), B1086 (the closed-side spectrum law).",
+  "hatch": "NOT closed in general: this kills the corpus's EXHIBITED non-self-dual rank-3 family over the sampled range, not net chirality on m004 for every local system. A NON-RIGID non-self-dual system -- higher rank, or a different component -- would reopen it, and finding one is the concrete revival path. Note the rigidity is the real obstruction: index zero here is 0 - 0, so the route dies for lack of MODES rather than for a cancellation.",
+  "note": "THE CONTROL CAUGHT A REAL BUG BEFORE THE RESULT SHIPPED: a first attempt failed with relator residuals 1.1-9.3 because Sym^n returned the TRANSPOSE, making it an ANTI-homomorphism. The machinery now reproduces 5/5 of an independently verified h1 table (Sym^1..Sym^6) and asserts the homomorphism property before use. V0 attains h1 = 1, so the test is not a tautology.",
+  "priority": "medium",
+  "revival_score": 3
+ },
+ {
+  "id": "B1291",
+  "claim_killed": "That the generation count 3 could arise from the fixed-point structure of m004's cusp -- the route B1290 opened by reducing net chirality to chi(d+M), and the one the record's theta/mirror language points at, since a three-fold count needs an ORDER-3 rotation of the cusp torus (|Fix| = 3).",
+  "kill_form": "A parity theorem. |Fix| = |det(A - I)|, independent of the translation part, and det(A-I) = det A - tr A + 1, so finite order in GL(2,Z) gives |Fix| in {0,1,2,3,4} -- 3 IS algebraically reachable, from (det 1, tr -1). The GEOMETRY forbids it: Fix(g) of an orientation-preserving finite-order isometry is closed geodesics (no ends) plus properly embedded geodesic LINES (two ends each), so with exactly ONE cusp every end lands there and |Fix on the cusp| = 2*(#fixed lines), ALWAYS EVEN. Three ends in one cusp is odd.",
+  "fact_computed": "Census sweep on this bench (snappy 3.3.2, verification/parity.py): 1200 one-cusped OrientableCuspedCensus manifolds, |Fix| = |det(A-I)| over every peripheral image of Isom -- sets {(0,4): 1196, (0,): 4}, ZERO odd violations. m004 itself: Sym = D4 order 8, |Fix| in {0,4}. Algebraic half by exhaustive enumeration of finite-order GL(2,Z) elements: (det, tr, det(A-I)) classes {(-1,0,0),(1,-2,4),(1,-1,3),(1,0,2),(1,1,1),(1,2,0)}. TWO-SIDED CONTROL: with >=2 cusps |Fix| = 1 (x4), 2 (x5), 3 (x5) all occur -- m202 realises BOTH 1 and 3, m125 realises 2 -- so the criterion FIRES and is not vacuous.",
+  "faces_consulted": "B1290 (which reduced the count to chi(d+M) and named the question), B727 (E6 forced through Q(sqrt-3)), B1260/B1267 (the closed and cusped chirality walls), B749 fork F2 (the punctured cone spectrum chi_orb = -1/2, already banked), B365 (the half-period table at 0, 1/2, tau/2, (1+tau)/2), B366 (the locked puncture lemma).",
+  "hatch": "RE-SCOPED AT B1292 (2026-09-06), BY THE SEAT THAT WROTE IT. The original hatch said: go multi-cusped inside m004's commensurability class, keeping Q(sqrt-3), 2T and E6, and the parity obstruction lifts. BOTH HALVES WERE THEN COMPUTED. (a) IT IS SATISFIABLE: m202 is a witness -- vol = 4*V_tet = 2*vol(m004) (tiled by regular ideal tetrahedra, hence cusped arithmetic over Q(sqrt-3)), both cusp shapes exp(i*pi/3), 96 surjections onto 2T (method validated by reproducing m004's banked 48), 2 cusps, and FOUR isometries with |Fix| = 3 on BOTH cusps. The mechanism is the CUSP SHAPE: m004's is RECTANGULAR and admits only +-1, which is why order 3 is impossible there; m202's are HEXAGONAL and admit Z/6. (b) BUT IT NAMES THE WRONG OBSTRUCTION, AND THIS IS THE LOAD-BEARING HALF: chi(M) = 0 and chi(dM) = 0 for EVERY cusped manifold at ANY cusp count -- every boundary component is a flat torus -- verified at 1, 2 and 4 cusps. So net chirality = -chi(d+M) = 0 SURVIVES the move. |Fix| = 3 and chi(d+M) != 0 are DIFFERENT QUANTITIES and m202 supplies only the first. PARITY WAS REAL BUT NOT BINDING; FLATNESS IS BINDING AND IS CUSP-COUNT-INDEPENDENT. THIS HATCH THEREFORE OPENS AN ORDER-3 STRUCTURE ON THE BOUNDARY INSIDE THE RIGHT ARITHMETIC -- which the programme did not previously have anywhere -- AND DOES NOT OPEN A ROUTE TO NET CHIRALITY. Do not read it as one.",
+  "priority": "high",
+  "revival_score": 4,
+  "note": "THE CONTROL IS WHAT MAKES THIS A SPECIFICATION RATHER THAN AN OBITUARY: 3 is not merely absent, it is EXCLUDED for one cusp -- and it is REALISED at two. A second control points the same way: one-cusped s960 carries a genuine Z/3 whose order-3 elements act on the cusp as FREE TRANSLATIONS, exactly as parity demands, and the 6 hexagonal-cusp one-cusped census manifolds (where the Euclidean geometry PERMITS order 3) still never realise it. AND THE ARC BANKS ITS OWN METHOD FAILURE (E67): its draft closed the corner case with 'chi_orb = 0 for all 17 quotients', which is VACUOUS -- chi_orb(T^2/G) = chi(T^2)/|G| = 0 identically for every finite G -- with a non-vacuity control that varied the orbifold's geometry instead of the finite group the argument actually ranges over. Conclusion survived, argument did not; the corner case closes on GENERICITY (E61: chi(T^2 minus 4 pts) = -4 for 3994/4000 one-cusped manifolds, = -2*(#tetrahedra)) and ADMISSIBILITY instead."
+ },
+ {
+  "id": "B1295",
+  "claim_killed": "That the third arc -- an odd isolated fixed-point count on a cusp, i.e. a cusp rotation of order 3 or 6 (|det(A-I)| = 3 or 1) or of order 4 (|det(A-I)| = 2) -- becomes available inside the object's OWN tower: on a cusp of a finite cover of m004, where B1291's one-cusp parity no longer binds because the covers are multi-cusped (64 of 87 through degree 10).",
+  "kill_form": "Exhaustive scan. Every conjugacy class of subgroup of pi_1(m004) of index 2..10 (snappy covers(d), all 87 covers, 201 cusps), every isometry of every cover (968, both orientations), every cusp each isometry fixes (1,376 (isometry, cusp) pairs), |det(A - I)| of the peripheral matrix; the count would be odd or 2 somewhere if the claim held.",
+  "fact_computed": "|det(A - I)| in {0: 882, 4: 494} over all 1,376 pairs -- never 1, 2 or 3; the value 4 only from orientation-preserving pi-rotations, 0 from both orientations; zero canonization failures (verification/cover_scan.py, ~1 s, re-run in the lock). SHARPENING: SL2(Z)-reduced cusp shapes over the 201 cusps are 122 rectangular/rhombic, 63 generic, 16 HEXAGONAL (all in 14 degree-10 covers, isometry groups of order 4-32) and no square; the hexagonal cusps -- the only ones whose Euclidean geometry admits Z/6 -- are rotated by NO isometry of their covers. So the wall is the covers' symmetry groups, not cusp geometry: B1291/B1292's shape mechanism does not transfer (4Z[omega] has index 4 in the cusp lattice Z + 2 sqrt(-3) Z).",
+  "faces_consulted": "B1291 (the one-cusp parity theorem and its hatch), B1292 (the hatch satisfiable at m202 but mis-scoped: chi(M) = chi(dM) = 0 at any cusp count), B1294 (the closed-closing theorem: 2 or nothing on every QHS closing -- this record is its cusped, multi-cusped complement inside the tower), B1290 (net chirality = -chi(d+M), which this arc's part (a) makes 0 by computation), B298 (the 3-fold cyclic cover that D2 will use: one-cusped, so the parity binds on it too).",
+  "hatch": "Two computations, no conjectures. (i) Degree > 10: the same scan (snappy covers(d) becomes slow past 10; a subgroup enumeration by low-index generators or by the tower's known quotients would do). (ii) A hexagonal-cusped cover whose isometry group is ENLARGED to contain an order-3 element -- the 14 degree-10 witnesses (H-B1295-HEX) show a hexagonal cusp is necessary, not sufficient; look for covers of THOSE first. Either hatch, if it opens, gives a cusp where three arcs can end -- and B1292's flatness result still says that count is not chi(d+M).",
+  "note": "The negative is CUSPED and bounded (degree <= 10), the complement of B1294's CLOSED theorem: together they say the object's own tower, cusped or closed, counts 2 or nothing through degree 10. Read as a specification, not an obituary: the third arc needs an order-3 cusp rotation, the tower supplies the hexagonal cusps that could carry one and withholds the symmetry. The same arc's part (a) closed the smooth frame by computation (c_(+-2,0) = -+4.260982635 i, annuli, chi(d+M) = 0), so after B1295 the only assumption left under B1294's map is theta-equivariance of the vacuum -- Door D1 = B1296.",
+  "priority": "medium",
+  "revival_score": 3
+ },
+ {
+  "id": "B1296",
+  "claim_killed": "That dropping theta-equivariance is a free move -- i.e. that a theta-EQUIVARIANT abelian Higgs phi = omega (x) u whose charge locus is the strong inversion's fixed arcs Fix(theta) can produce a chiral, anomaly-free 4d spectrum (the singular-frame road to the chirality bit), and, as its sub-claim from fc R70, that every theta-even Cartan direction is vector-like.",
+  "kill_form": "Two halves, both exact. TOPOLOGICAL: at a fixed point of an orientation-preserving involution with 1-dim fixed set, d sigma = (+1 | -1, -1); a Morse-Bott zero locus and a vortex locus along Fix(sigma) are sigma-EVEN and a sigma-odd potential has normal Hessian rank 2 there (no non-degenerate zero) -- so a charge locus on Fix(theta) forces theta_G u = +u, the theta-even Cartan = Cartan(F_4). SPECTRAL: enumerate the 15 faces of the F_4 chamber (spanned by omega_2^v, omega_4^v, omega_1^v+omega_6^v, omega_3^v+omega_5^v), compute the centraliser, the signed left-handed weight multiset of the (+,+) content (2 x 78_{q>0}; 2 x (27_{q>0} + 27_{q<0}^*)), its chiral dimension, and the SU(3) cubic anomaly per A2 factor and the Witten parity per A1, at two coefficient draws per face (exact rational arithmetic, rational E_6 in R^8).",
+  "fact_computed": "chiral faces = cubic-anomalous faces = {w4 (A2 A1 A2, chiral 54), w3+w5 (A1 A2 A1, 54), w2+w4 (A2 A2, 18), w1+w6+w3+w5 (A2, 6)}; the other 11 faces vector-like, Witten 0. Per A2 normalised to the fundamental: swapped-pair faces 78-sector -3 / 27-sector +1 (cancelling multiplicities 78:27 = 1:3 only; E7 parent -1, E8 parent +3, neither cancels), fixed-A2 faces -1 / -2 (uncancellable). theta-even => dim 27_q = dim 27_{-q} at 44/44 rays but vector-like only where theta|C_ss is inner (fc R70's 'even => 2(R+Rbar)' fails on 4 of 15 faces). The chiral anomaly-free abelian directions (D5, two 16s, count 2) are the mixed omega_1^v and the theta-ODD walls (omega_3^v - omega_5^v in W.omega_1^v), forbidden as a charge locus by the lock. On the object: the harmonic generator is sigma-odd under all 8 cusp isometries (6.8e-13) and non-zero on the arcs (omega(d_x) = 1.280438 / 0.724301, tangential 1.6e-13) -- the object supplies no charge locus on Fix(theta); the two arcs lie in different symmetry orbits, so the sign pair is the closer's. Toggle (equivariance dropped, (+,+), omega_1^v): 27 -> 10 (+2), 16 (-2), 1 (-2); 78 -> 16 (+2), 16bar (-2): COUNT 2; (+,-): all 0. (verification/swap_and_level.py ~20 s, e6_theta_spectra.py ~40 s, both re-run in the lock.)",
+  "faces_consulted": "B1295 (the coefficient, now a corollary of the swap theorem for the count and needed only for regularity), B1294 (the chirality-bit map and the two named assumptions; theta-equivariance is now a theorem about the charge locus, not an assumption), B1291/B1292 (parity and flatness -- the smooth frame's zeros), B1174/B576 (the object is theta-symmetric; chirality is the theta-odd motion), B1086 (h^1 = 2 theta-odd -- the count matches), B1098 (the trinification remnant -- a different object from the omega_4^v face), B1033/B951 (earlier anomaly computations -- no E6-Levi table there), fc R69/R70 (the singular frame; R70 sharpened here).",
+  "hatch": "(i) D2 = B1297+: PW sec. 3.1 NON-ABELIAN spectral covers (several Higgs directions) via B298's 3-fold cyclic cover -- the one frame that can break theta on the object's side; pre-registrable fail condition: a derivation landing on the F_4 chamber is vector-like or anomalous. (ii) L201: a closing that absorbs the SU(3) cubic anomaly of the omega_4^v face, or a single frame containing both the 78-sector and the 27-sector at 78:27 = 1:3 (the observation of H-B1296-RATIO; not a generation count until a frame supplies the multiplicities). (iii) A charge locus NOT on Fix(theta): the lock only speaks about loci supported on the arcs; a theta-invariant locus off the arcs (a pair of arcs exchanged by theta) is not constrained by it -- but B1291's parity and B1295's census still count 2 or 0 for such a pair.",
+  "note": "The kill is of the FREE MOVE, not of the count: the count is 2 on every road (smooth 0/2 by chi(d+M) = 0, singular 2 with equal signs, closed 2-or-nothing, cusped tower 2-or-nothing), the masterplan head is intact, and the singular frame is alive at the price of three closer's choices (I-27). The wall's name changes from 'theta-equivariance' to 'the charge locus is unsupplied'. Correction to fc R70 held (owner: all sends HOLD).",
+  "priority": "high",
+  "revival_score": 4
+ },
+ {
+  "id": "B1297",
+  "claim_killed": "That the Z/3 descent of m004 (the cyclic tower) carries the chirality bit through PW 3.1's spectral covers in their (2+1)-reducible form -- an E6 configuration Ind(rho1), rho1 = (rho_geo (x) kappa) + kappa^-2 twisted by a torsion character kappa of the cover, with net chirality n_27 - n_27bar != 0.",
+  "kill_form": "The one-cusped index I(V) = t0 - r1 (pre-registered with its domain before evaluation), reduced by Shapiro to I(C_n; Sym^2 rho_geo (x) psi) over the cover's cusp-trivial torsion characters, computed exactly over Q(zeta_12) with SVD as second method: 16/16 zeros on C_3, 45/45 on C_4 -- and two theorems make it identically zero on every cyclic cover: T-GALOIS-SELF-DUALITY (order prime to 3) and T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE (all orders: the period-2 symmetry is -1 on the Alexander module, so psi o P = psi^-1 and J(psi) = -J(psi)).",
+  "fact_computed": "H1(C_3) = Z + (Z/4)^2, [m] = the deck-invariant free generator, [l] = 0 (all 16 family characters cusp-trivial, t0 = 1); 24 isometries of C_3 faithful on the torsion, P = -1 by two routes; table 16 x (a=(0,1,1), t=(1,2,1), r1 = r1* = 1, I = 0); H1(C_4) = Z + Z/3 + Z/15, 32 isometries, P inverts the order-3 characters, 45 x I = 0 (order-3 exact = numeric); H1(X~) = Z[t]/(t^2-3t+1) cyclic on e_a, P(e_a) = -e_a; E6 block cycle = s1 s5 s3 s2 s4 s5 in W(E6).",
+  "faces_consulted": "B1260 (closed wall, abelian wall), B1267 (W1/W2 rigid, 0 = 0), B1290 (chi(M, d+M)), B1291/B1292 (parity, flatness), B1294-B1296 (the head: count 2; the F4 fence), B326 (cover torsion + deck action), B298 (cover multiplicity), B1086 (h^1 = 2 on the double), fc R69/R70 (cusp keeps the endpoints; non-abelian gap), sm:B1280 (cited, unverified).",
+  "hatch": "L202: (a) irreducible non-extending SL(3) representations of pi_1(C_n) on components of X_SL(3)(C_n) where rho1 o P is not dual to rho1; (b) non-cyclic covers of m004 with 3-torsion in H1 (P need not preserve a non-normal subgroup; Galois needs order prime to 3); (c) whether I != 0 occurs at all on a one-cusped manifold in domain D -- no example found in 60 census manifolds; a general vanishing theorem would retire the index as an instrument.",
+  "note": "Reported as FORCED, not FAIL: Part I's test could not have passed (Galois, found after the table); Part II's sector was census-forced before its table. No identification row added; I-26 remains the conditional on every count.",
+  "priority": "high",
+  "revival_score": 5
+ },
+ {
+  "id": "B1322",
+  "claim_killed": "That the cusped object's E6 holonomy carries a net count of 27s along the one flat-sector direction B1280's pairing law did not cover -- the V10 of the 42 at the subregular point (theta = -1, iota* = +1; main's L204, the seat's L207(i)) -- i.e. that a theta-odd deformation there has h^1(M; 27) != h^1(M; 27bar).",
+  "kill_form": "Computation on two benches. The SM seat (sm:B1350 @ 7484ad01): the two V10 classes, their sum and difference integrate to genuine E6 representations (second-order obstruction zero on the V10 plane, formally integrable through order 10 mod two primes, Newton to 1e-68 once B1268's damping is lifted), not self-dual, re-read at 2000 bits with the torus Euler and duality checks. Main (B1322): the four banked 100-digit points re-read with main's own Fox calculus at 110 digits.",
+  "fact_computed": "At all four directions: relator residual 1e-61..1e-68; self-duality defect 1e-10; h^1(M; 27) = h^1(M; 27bar) = 0; h^0(dM; 27) = h^0(dM; 27bar) = 0 (no cusp-fixed vector); N(27) = 0 with the bound 0 <= N <= 0; a point perturbed by 1e-30 fails the relator (control). The seat's re-reader re-run on main reproduces its summary.",
+  "faces_consulted": "B1280 (the pairing law), B1281/B1299 (the hole verified and priced at 15 %), B1268 (the V8 instrument and its two precision caps), B1297/B1320 (the bulk and localized halves of D2 on the cyclic tower), B1294 (the head sentence).",
+  "hatch": "None inside this frame: every sl2 germ of the cusped object's E6 character variety is now either symmetry-paired (B1280) or computed dead (this). Outside it: the higher-rank components of the character variety (O2), a general theorem (O3), the singular G2 closing (O4), where chirality is a 7-dimensional index and not an h^1 of m004; and the priced observer doors (I-27, I-30).",
+  "note": "A closure of a door, not a defeat: the object's flat sector is exhausted for chirality by computation, which is what the plan asked. Read as a specification: the bit is not in the flat E6 sector of the cusped object at any sl2 germ.",
+  "priority": "high",
+  "revival_score": 2
  }
 ]

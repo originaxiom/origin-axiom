@@ -19,7 +19,8 @@ retroactively typed; the value-set registry (tones ×5, mirror ×8, listener ×3
 
 ## Class II — BLINDNESS THEOREMS (the object provably cannot see the quantity)
 
-∂S/∂k = −CS ≡ 0, equivalent to amphichirality (**B1012**): the object is blind to
+∂S/∂k = −CS ≡ 0, equivalent to the reality of the complex volume (**B1012**; *not* to
+amphichirality — corrected **B1226**): the object is blind to
 the level/scale by theorem. The dimensionful no-go; the weight ledger's starvation
 of scale-carrying falsifiers (P7/P8, the register). The observer cannot carry the
 trit (**B1040**) is this class on the observer side.

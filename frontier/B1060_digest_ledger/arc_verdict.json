@@ -1,10 +1,15 @@
 {
- "id": "B1060",
- "verdict": "OPEN",
- "instrument": true,
- "claim_one_line": "THE DIGEST LEDGER (the adopted protocol's step 2, executed at open): the fixed denominator over the cloud window -- 58 rows (the epoch cell first and blocking; 30 arcs qB1024-qB1053; the manual's 12 rules with the convergence-standard row marked; 2 gate-ports + E37/E38 + verdict_drop; 8 findings incl. their Review 1's review-gets-reviewed row; the 12 leads) -- every disposition EMPTY at open BY DESIGN (cherry-picking made impossible by shape), the vocabulary fixed {ACCEPTED(REBUILT-only), ACCEPTED-WEAK(RUN), CORRECTED, REFUTED, SUPERSEDED, COLLIDES(escalates), NOT-REACHED}, triage on BODIES never verdict fields, q-citations throughout with docs/CLOUD_ALIAS_TABLE.md the resolver. The digest CLOSES only at zero EMPTY; the completion lock ships with the closing arc. OPEN is this arc's honest verdict: the instrument banks, the dispositions are the campaign.",
- "depends_on": ["B1044"],
- "supersedes": null,
- "superseded_by": null,
- "locks": ["tests/test_b1060_digest.py"]
+  "id": "B1060",
+  "verdict": "OPEN",
+  "instrument": true,
+  "claim_one_line": "THE DIGEST LEDGER (the adopted protocol's step 2, executed at open): the fixed denominator over the cloud window -- 58 rows (the epoch cell first and blocking; 30 arcs qB1024-qB1053; the manual's 12 rules with the convergence-standard row marked; 2 gate-ports + E37/E38 + verdict_drop; 8 findings incl. their Review 1's review-gets-reviewed row; the 12 leads) -- every disposition EMPTY at open BY DESIGN (cherry-picking made impossible by shape), the vocabulary fixed {ACCEPTED(REBUILT-only), ACCEPTED-WEAK(RUN), CORRECTED, REFUTED, SUPERSEDED, COLLIDES(escalates), NOT-REACHED}, triage on BODIES never verdict fields, q-citations throughout with docs/CLOUD_ALIAS_TABLE.md the resolver. The digest CLOSES only at zero EMPTY; the completion lock ships with the closing arc. OPEN is this arc's honest verdict: the instrument banks, the dispositions are the campaign.",
+  "depends_on": [
+    "B1044"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+  "locks": [
+    "tests/test_b1060_digest.py"
+  ],
+  "note": "B1238 (2026-09-02): row 1.07's pointer ('THE_FRAMEWORK's COUNT DISCIPLINE block') names no existing block; the reconciliation is THE_FRAMEWORK:283-296 + THE_CLAIM section 1 (one unit, two bits, one trit); qB1030's 'one continuous input remains (c)' and B1025's 'none remains (c is L154's)' are one fact typed twice. The five qor5up OPEN_LATER items of the physics-seat W-E sweep are rows 1.03/1.07/1.16/1.20/1.22 here -- dispositioned, not open. See ADDENDUM_2026-09-02_B1238.md."
 }
