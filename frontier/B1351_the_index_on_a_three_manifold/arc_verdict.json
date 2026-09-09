@@ -1,0 +1,12 @@
+{
+ "id": "B1351",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1268", "B1280", "B1281", "B1303", "B1350"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE INDEX ON A THREE-MANIFOLD (main's Q9): Pantev-Wijnholt's net chiral count of a charged sector is chi(M, d+M; L) = chi(M; L) - chi(d+M; L). On a closed closing chi = 0 and every Wilson-line vacuum is vector-like exactly (h^1(Y_n; psi) = h^1(Y_n; psi-bar) for every character, Poincare duality; checked at every character of every level <= 9, 9 321 characters, two primes) -- I-26 counts vector-like pairs. On the cusped object N = -chi(d+M; L) per weight, and a weight whose cusp holonomy is non-trivial has vanishing torus cohomology, hence no boundary condition and N = 0; only a cusp-fixed weight can carry a disc-type d+ -- B1268's bound -h^0(dM; V) <= N <= h^0(dM; V*) in the 7d frame. Along iota-odd directions the region-swap theorem gives 0; along the iota-even V10 direction the generic point has no cusp-fixed weight (B1350) and N = 0. The single remaining escape on the object: the fixed-vector locus along V10 (B1352). 0 of 19; vector-like everywhere, now by theorem."
+}

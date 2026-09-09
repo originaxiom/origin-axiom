@@ -7128,6 +7128,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1351": {
+   "slug": "the index on a three manifold",
+   "motifs": [
+    "closing",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B135": {
    "slug": "lee yang m specific",
    "motifs": [

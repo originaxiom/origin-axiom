@@ -2386,6 +2386,8 @@ coefficient of the actual harmonic form is assumed non-zero. `ADDENDUM_2026-09-0
 region-swap theorem, re-derived in B1281 §2D, gives χ(∂⁺M) = χ(∂⁻M) = 0 exactly for every smooth θ-odd field with
 transverse zeros; what remains of L204 is the disc-type ∂⁺ from a non-unitary holonomy, unchanged.
 
+**L204 status 2026-09-09 (B1351, B1352):** the index stated for the record's objects — on a closed closing the count is χ = 0 and every Wilson-line vacuum is vector-like exactly (h¹(ψ) = h¹(ψ̄) at every character, Poincaré duality; B1351); on the cusped object a weight whose cusp holonomy is non-trivial has vanishing torus cohomology and no boundary condition to choose, so only a cusp-fixed weight can carry a disc-type ∂⁺ (B1268's bound in the 7d frame). Along V₁₀ the generic point has no cusp-fixed weight (B1350); the fixed-vector locus along V₁₀ (and B1268's never-finished stage (b) along V₈) is being computed in B1352 — the single remaining place on the object.
+
 ## L205 — THE TREE-LEVEL VACUUM MANIFOLD OF THE Y₃ THEORY (registered 2026-09-06; D2's space)
 
 The F- and D-flat directions of the one-coupling superpotential (B1276) for 3 × 27 + 3 × 27̄ + 6 singlets under

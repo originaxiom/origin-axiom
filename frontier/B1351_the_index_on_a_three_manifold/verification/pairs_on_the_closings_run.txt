@@ -1,0 +1,9 @@
+n =  2:      4 characters,     0 carry a class, h1(psi) == h1(psi-bar) for 4/4: all paired
+n =  3:     15 characters,     3 carry a class, h1(psi) == h1(psi-bar) for 15/15: all paired
+n =  4:     44 characters,     0 carry a class, h1(psi) == h1(psi-bar) for 44/44: all paired
+n =  5:    120 characters,    20 carry a class, h1(psi) == h1(psi-bar) for 120/120: all paired
+n =  6:    319 characters,    27 carry a class, h1(psi) == h1(psi-bar) for 319/319: all paired
+n =  7:    840 characters,    56 carry a class, h1(psi) == h1(psi-bar) for 840/840: all paired
+n =  8:   2204 characters,     0 carry a class, h1(psi) == h1(psi-bar) for 2204/2204: all paired
+n =  9:   5775 characters,   147 carry a class, h1(psi) == h1(psi-bar) for 5775/5775: all paired
+SELFTEST: PASS
