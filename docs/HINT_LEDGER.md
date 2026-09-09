@@ -661,4 +661,5 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       with the ℤ/3 moving the harmonic forms. A 2 + 1 flavour structure from a single
       geometric U(1) is the first candidate carrier of D3's "diagonal source" in the record
       that is not the observer; it is a pattern in a construction that does not yet exist
-      (L212). Registered, not designed.
+      (L212). The global form (E₆ × U(1))/Z₃ (Witten's U(N) remark transposed; the audit seat's E₆/Z₃)
+      requires the 27s' U(1) charges ≡ 1 mod 3 — (1, 1, −2) is. Registered, not designed.

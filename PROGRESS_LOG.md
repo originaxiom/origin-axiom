@@ -14747,3 +14747,11 @@ U(1)·E₆² anomaly equal to ∫_U w ≠ 0 — forces chiral E₆-charged matte
 cubic anomaly replaced by the mixed one); the literature's count is one 27 per point. B1353's impossible configuration, realised
 curved with the object's group. Registered L212: the three apexes on a compact closing (the ℤ/3 descent), the E₆ × SU(2) spectrum,
 a self-dual Einstein orbifold with one 2T point. 0 of 19; the closing's local geometry named.
+
+### The other seats read (2026-09-09): the audit seat's R15–R22, the cloud's memos 185–189, codex unchanged
+
+Codex's branch has no commit since R040 (banked in B1281). The audit seat's sourced m202 path (R15–R22: weighted cohomology net three
+under a prescribed source, a pair-free orbit in E₆/Z₃, an enlarged EFT without a fundamental 27 of E₆/Z₃, the same-source supply with
+the wrong chirality) is registered as consistent with and disjoint from B1351–B1354 (a source curves the connection); its E₆/Z₃ finding
+is banked as the global form B1355's 27s must respect — (E₆ × U(1))/Z₃, charges ≡ 1 mod 3, which the sum-rule pattern (1, 1, −2)
+satisfies. The cloud's memos count instruments over main's tree and address nothing here. Relay rows; B1355 §4; hint 16.

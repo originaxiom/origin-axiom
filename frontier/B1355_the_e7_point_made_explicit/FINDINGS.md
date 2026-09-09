@@ -68,7 +68,7 @@ cones over CP³/2T on the E₆ locus of the closing.** The group is the object's
 locus is the flat model's ℝ³ (B1084) passing through curved apexes instead of orbifold points; the U(1)s are the C-field's, one per
 apex, under which the three 27s are charged (anomaly cancellation by inflow, Witten (3.14): the charges sum to zero over the
 apexes of a compact closing, ∑_α ∫_{U_α} w = ∫_{Q′} dw = 0 — so on a compact closing the three points cannot all be charged the same
-way under one U(1): the count must be read with the global b₂). What the object has to supply is no longer "a curved closing" in
+way under one U(1): the count must be read with the global b₂). **The global form:** Witten's remark that the group of the SU(N) cone is U(N) = (SU(N) × U(1))/Z_N, not SU(N) × U(1), transposes to (E₆ × U(1))/Z₃ here — the 27 carries Z₃-centre charge, so its U(1) charges must be ≡ 1 mod 3; the sum-rule pattern (1, 1, −2) is, and the audit seat's finding that the object's C₃-compatible characters live in E₆/Z₃ with no fundamental 27 of E₆/Z₃ (its R20/R21, `audit/physical-bridge-2026-09-05`) is the same global form seen from the other side: the 27s exist only together with the C-field U(1). What the object has to supply is no longer "a curved closing" in
 the abstract but a compact G₂ manifold whose E₆ locus carries three such apexes; the tower's ℤ/3 descent (Y₃) is the first place to
 look for the "three", and that is registered (§6).
 
