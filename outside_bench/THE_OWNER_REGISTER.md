@@ -1787,3 +1787,49 @@ three of the bench's own withdrawn** (memo 176 §5's law, memo 182 §3's `c = �
 
 **The gaps that remain are now named, sourced, and each carries a next action.** Before this arc
 they were named and unsourced. That is a smaller change than closing `σ`, and it is a real one.
+
+---
+
+## ADDENDUM 88 (2026-09-09) — **R88: "should we sit and meditate on it first… our style? see it from above"**
+
+**Yes, and it was done properly rather than rhetorically.** The bench's rule is that an
+interpretation may only sit on top of something computed and must be labelled. So the meditation
+is `certificates/corpus_census.py` + **memo 188**, and the counts came first.
+
+**What the view from above actually showed** — the full reading is memo 188; three things belong
+in the register.
+
+1. **The meditation nearly produced a false finding, and the check caught it.** The raw census
+   says 82% of arcs declare no dependency, median depth 0 — which reads as *"the corpus grows by
+   addition, not construction."* Before banking that, the certificate asks whether the **field**
+   is kept: `3% / 2% / 2% / 2% / 77% / 26% / 0%` by era. **The field was adopted around B800, ran
+   at 77%, and decayed to zero.** In the one era where edges were recorded, *most arcs had them*,
+   with chains 76–78 deep. The corpus compounds more than it looks; the instrument for seeing it
+   went dark. **This is memo 164 — control passing is not instrument working — applied to the
+   bench's own reading of the bench's own record.**
+
+2. **The pattern that runs through everything.** *The programme's characteristic failure is not
+   error — it is entropy in its own instruments.* Errors are caught well (302 negatives, 11
+   retractions, three of this bench's own results withdrawn this arc). **Disuse is not.** Today
+   it appeared three times in one session: a `depends_on` field decayed to zero; a claims ledger
+   whose highest reference is 138 arcs behind; **and a minus sign that failed to survive a
+   download twice** — memo 186's tables and memo 187's operator. Every standing rule this bench
+   has written is an antibody against that one thing.
+
+3. **The bottleneck is target selection, not verification.** `c_eff` was pursued for a long
+   stretch and R83 established its success would not have been evidence. That is not a
+   verification failure — the verification is what told us. It is a selection failure caught
+   late. A programme this good at closing questions should spend proportionally more of itself on
+   choosing them.
+
+**The one thing the census could not settle, and the cheap test that would.** `CLAIMS.md` is 138
+arcs behind. Two readings: **a firewall doing its job**, or **a valve stuck shut** — and nobody
+has checked. Distinguishable in an afternoon: take the twenty most recent `PROVED` arcs, run them
+against the §5 gates, and **record why each fails**. Framing lock → firewall. Nothing in
+particular, never presented → valve. Filed as **F188-1**.
+
+**And the recommendation from above, in one line: build an edge, not a node.** The corpus has
+1,125 nodes and no chain aimed at the goal. For the quantum face the last week added seven
+verified facts — none wrong, none wasted, memo 187 turned borrowed literature into an owned
+instrument — **but the next unit should not be an eighth fact.** It should be the one chain that
+either reaches `σ` or proves it unreachable. Per R83, the clean negative is worth as much.
