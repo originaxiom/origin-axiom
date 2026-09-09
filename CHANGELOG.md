@@ -1,5 +1,11 @@
 # Changelog
 
+## The nearest neighbour's sixteen papers read — verdict unchanged, the route absent from the whole corpus; a lock name clash fixed
+
+All sixteen Asselmeyer-Maluga papers extracted and searched (one figure-eight sentence in 448 pages; no McKay, E₆, Wilson line, m004);
+priority of the frame dated to 2014; the numbers' one construction named. B1304's `conductor_law.py` renamed `tower_conductor_law.py`
+(B449 has a module of that name). `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` §7.
+
 ## Harvest from main eb9db7fa — the criterion verified on two benches; the law's theorem generalised; the 2-adic residue named
 
 Main's B1306 re-derived the 2×2 criterion independently (same supports Y₃ … Y₉) and reserved B1300–B1319, B1350–B1399. The positive

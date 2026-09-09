@@ -38,7 +38,11 @@ def test_the_two_lemmas_on_every_pair_of_levels():
 
 
 def test_the_law_in_conductor_form_on_the_small_levels():
-    import conductor_law as C
+    # B449 ships a module named conductor_law and every test module's sys.path insert precedes execution in the full lane; B1304's is
+    # therefore named tower_conductor_law and loaded by path
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("b1304_conductor_law", ROOT / "frontier" / "B1304_the_two_adic_tower" / "verification" / "tower_conductor_law.py")
+    C = importlib.util.module_from_spec(spec); spec.loader.exec_module(C)
     for n in (5, 9, 10, 12, 15, 20):
         tab = C.level(n)
         assert all(C.law(k) for k in tab), (n, tab)

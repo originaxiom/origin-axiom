@@ -10,6 +10,7 @@ other papers (the K3/three-generations argument, the cosmological constant, the 
 smoothness constructions) were **not opened by this seat**; what is said of them below is **as relayed by chat1**, marked.
 **Later the same day** the full text (37 pp., the arXiv PDF, text extracted on this bench and searched) was opened for §6
 below: where §1–§4 say *as relayed*, §6 says what the text says, with page numbers.
+**On 2026-09-09** the author's sixteen arXiv papers (2009–2019, supplied by the owner) were all extracted and read for §7.
 
 ## 1. Overlapping — cite it (KNOWN-ADJACENT for the frame)
 
@@ -140,6 +141,54 @@ Main's Entry 5 makes **two corrections of record** against the relay; this bench
 **What this reconciliation adds to the record:** the E68 lesson in its two directions on one row — a seat that had the
 text still missed a hit by searching for one spelling, and a seat without the text still mis-attributed a number from
 memory. The gate row's purpose (one verdict for every seat) held; its details needed both seats.
+
+## 7. The sixteen papers, read (2026-09-09)
+
+The owner supplied the author's arXiv corpus (sixteen papers, 2009–2019, 448 pages; downloaded 2026-09-08). Every PDF was
+converted to text on this bench and searched; the census below is exact for the extracted text (ligatures normalised). **The
+adjudication of §1–§6 stands on all sixteen; nothing in the fifteen papers not read before moves the verdict.**
+
+| arXiv | year | title (short) | what it carries for this row |
+|---|---|---|---|
+| 0904.1276 | 2009/14 | Abelian gerbes, generalized geometries, foliations of small exotic ℝ⁴ | machinery (exotic ℝ⁴, wild embeddings); no knots as matter |
+| 1001.0882 | 2010 | Exotic smooth ℝ⁴, noncommutative algebras and quantization (with Król) | machinery (foliations, C*-algebras) |
+| 1003.5506 | 2010 | Exotic smoothness and quantum gravity | Mostow rigidity gives a topological part of ⟨volume⟩; area quantisation; K3 via Fintushel–Stern |
+| 1006.2230 | 2010/12 | On the geometrization of matter by exotic smoothness (with Rosé) | **the gauge group first appears here**: connecting tubes (graph manifolds, torus bundles) give a gauge term; "1 generator → U(1), 3 → SU(2), 8 → SU(3) … the maximal group U(1) × SU(2) × SU(3) as gauge group for all possible torus bundles" — a counting of generators, not a McKay correspondence; spinors from the Weierstrass representation |
+| 1105.1557 | 2011 | Topological quantum D-branes and wild embeddings | machinery (IIA, D6 charges) |
+| 1107.3458 | 2011 | Constructing a QFT from spacetime (with Król) | machinery (Godbillon–Vey, PSL(2,ℝ) flat bundles, Witten's CS state sum) |
+| 1112.4882 | 2011/12 | Exotic smoothness and quantum gravity II | large vs small exotic ℝ⁴; volume and Wilson-loop expectation values (a QG observable, not our Wilson lines); Mostow rigidity |
+| 1211.3012 | 2012 | Quantum geometry and wild embeddings as quantum states (with Król) | Drinfeld–Turaev quantisation of skein algebras |
+| 1401.4816 | 2014 | Gravitational sources from exotic smoothness and fermions as knot complements | **fermions = complements of hyperbolic knots** (Brans conjecture confirmed for both exotic ℝ⁴ classes); the non-hyperbolic complements "represent the interaction" |
+| 1502.02087 | 2015 | How to include fermions into GR by exotic smoothness (with Brans) | the identification in full: hyperbolic knot complement with torus boundary, Mostow rigidity central; exotic ℝ⁴ as the spacetime containing them |
+| 1601.06436 | 2016 | Smooth quantum gravity (52-page review, for Brans's 80th) | the whole programme; **no "number theory", "arithmetic", "trace field" or "Maclachlan" anywhere in the review** |
+| 1709.03314 | 2017/18 | A cosmological constant from small exotic ℝ⁴ (with Król) | **Ω_Λ ≈ 0.7029**: eq. (20) Ω_Λ = c⁵/(24π²ħGH₀²) · exp(−3 CS(Σ(2,5,7)) − 3 CS(P#P)) with H₀ = 69.2 km/s/Mpc (Planck + Hubble) — exotic ℝ⁴ ⊂ K3#CP², the Akbulut cork's boundary Σ(2,5,7), two Poincaré spheres |
+| 1801.10419 | 2018/19 | A topological approach to neutrino masses (with Król) | **m_ν by a type-I see-saw** between two topological scales (S³ → Σ(2,5,7) "GUT scale", Σ(2,5,7) → P#P "electroweak, 246 GeV or the Higgs mass 126 GeV"); "the three S² × S² in (1) give three Casson handles with three kinds of fermions … there must exist at least three generations" |
+| 1811.04464 | 2018 | Hyperbolic groups, 4-manifolds and quantum gravity | wild embeddings as quantum states; hyperbolic geometry of every part; dimensional reduction 4 → 2 |
+| 1812.08158 | 2018 | A topological model for inflation (with Król) | Starobinsky-equivalent; e-folds and scales from the CS invariant of the final 3-manifold |
+| **1910.09966** | 2019 | Braids, 3-manifolds, elementary particles | **the particle model** (§1–§6 above); the only paper naming the figure-eight knot |
+
+**The census (exact on the extracted text, all sixteen).** *m004:* 0 occurrences. *McKay:* 0. *E₆ as a Lie group or gauge factor:* 0
+(the one "e6" is an octonion basis element in 1910.09966 §4.1). *Binary tetrahedral / SL(2,3) / 2T:* 0. *Wilson line(s):* 0 (1112.4882's
+"Wilson loop" is a quantum-gravity observable). *Fibonacci, golden ratio, cyclic branched cover of a knot as a tower:* 0. *Trace field:*
+2, both in 1910.09966 (the abstract and the first sentence of §7). *The figure-eight knot:* **one sentence in 448 pages** — 1910.09966
+§7, p. 29, "The complement of the figure 8 knot is one example of an arithmetic hyperbolic 3-manifold" (the other "Figure 8" hits are
+figure captions). *Hyperbolic knot complements as fermions:* 1401.4816, 1502.02087, 1601.06436, 1910.09966. *The gauge group from
+torus bundles by counting generators:* 1006.2230 (first), 1910.09966 §4.4. *Three generations:* 1801.10419 (from the three S² × S² of K3's
+intersection form, "at least three") and 1910.09966 §8–§9 ("only a lower bound"). *Numbers:* 1709.03314 (Ω_Λ), 1801.10419 (m_ν; m_H taken
+as the scale, not derived), 1812.08158 (inflation).
+
+**What the full corpus changes in this row:** nothing in the verdict, three things in its texture. (i) The identification "fermions =
+hyperbolic knot complements" is older than 2019: matter from a knotted torus (Fintushel–Stern surgery, the Weierstrass spinor) is
+1006.2230 (2010, with Rosé — its "hyperbolic" is only global hyperbolicity of spacetime), the *hyperbolic* knot complement as the fermion is
+stated in 1401.4816 (2014) and argued in full in 1502.02087 (2015, with Brans) — so the frame's priority date is 2014 (2010 for the
+knot-complement-as-matter idea), and the record's citation should be to 1502.02087 and 1910.09966 together. (ii) The gauge group is
+derived by **counting generators of the torus-bundle classes** (1 + 3 + 8) in 1006.2230 and again in 1910.09966; at no point in sixteen
+papers does a finite subgroup of SU(2), a McKay correspondence, an E-series algebra or a Wilson line appear — the route of this record is
+absent from the whole corpus, not only from the 2019 paper, which sharpens §4(i)'s NOVEL-CANDIDATE. (iii) The numbers all rest on the
+same two topology changes S³ → Σ(2,5,7) → P#P inside K3#CP² and on Chern–Simons invariants of those spheres — one construction, three
+outputs (Ω_Λ, the see-saw scales, the e-folds); none touches the figure-eight, its trace field, or any invariant of m004. Carried as his
+claims, as before. The 126 GeV in 1801.10419 is the *input* scale identified with the second transition, not an output — the relayed
+"m_H ≈ 126.4 GeV" is his identification of a scale, and the record should say so.
 
 ## 5. Where this row is cited
 

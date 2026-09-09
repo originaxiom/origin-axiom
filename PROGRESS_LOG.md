@@ -14663,3 +14663,16 @@ next number B1320), and met the same one-prime false zeros this branch did. Its 
 the law is generalised: ANY character that an odd power of the half-deck maps to itself or to its conjugate carries a class (same proof);
 the support equals that set at every level ≤ 12 except the 2-adic conductors 6 and 12, whose 24 + 96 exceptional carriers (Carmichael's
 F₆ = 8, F₁₂ = 144) are the one residue of the law outside the symmetry mechanism. `odd_half_deck_criterion.py`; registry row updated.
+
+### The nearest neighbour's whole corpus read (2026-09-09): sixteen papers, one figure-eight sentence, no route
+
+The owner supplied Asselmeyer-Maluga's sixteen arXiv papers (2009–2019, 448 pages); all were extracted and searched on this bench. The
+census is exact: m004 0, McKay 0, E₆ as a group 0, binary tetrahedral 0, Wilson lines 0, Fibonacci/golden 0, trace field 2 (both in the
+2019 paper), the figure-eight knot in ONE sentence (1910.09966 §7, the arithmetic example). The gauge group is a count of torus-bundle
+generators 1 + 3 + 8 (first in 1006.2230, again in 1910.09966); the fermion = hyperbolic knot complement identification dates to 1401.4816
+(2014) and 1502.02087 (2015); the three numbers rest on one construction (S³ → Σ(2,5,7) → P#P in K3#CP², Chern–Simons invariants) and the
+126 GeV is an input scale, not an output. Verdict unchanged (KNOWN-ADJACENT for the frame; the route absent from the whole corpus, not only
+the 2019 paper). `docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` §7. The full test lane (6195 pass, 8 fail) exposed a module-name clash
+between B449's and B1304's `conductor_law.py` (the first import wins in a single-process lane): B1304's is renamed `tower_conductor_law.py`
+and loaded by path; both locks pass together. The other seven failures are the pre-existing environment class (gitignored logs, the
+SnapPy build's generator convention, B511's stochastic test). The tower map carries the theorem and the 2-adic residue.

@@ -12,7 +12,7 @@ B1303's four clauses were this statement with the sign taken at the level n inst
 whenever n/d is odd or the character is pulled back from an odd level, and they part at Y₃₀, where the 1 200 mixed 11·31
 characters of conductor 15 all have u³⁰ ≡ +1 but split 600 : 600 by the sign of u¹⁵ — exactly as their h¹ does.
 
-`verification/conductor_law.py` (record `conductor_law_run.txt`) constructs every odd-order Ψ-eigencharacter of every
+`verification/tower_conductor_law.py` (record `tower_conductor_law_run.txt`; renamed from `conductor_law.py` on 2026-09-09 because B449 ships a module of that name and the full test lane imports both) constructs every odd-order Ψ-eigencharacter of every
 level 2 … 30 (on the eigenlines of each odd prime-primary part and their products; the eigenvalue of a product by the
 Chinese remainder theorem), computes its conductor and the sign of u^d, and applies the criterion:
 
