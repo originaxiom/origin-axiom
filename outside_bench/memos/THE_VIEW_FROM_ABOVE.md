@@ -245,3 +245,82 @@ taken on and how far that tree is from `origin/main`.* `corpus_census.py` will p
 
 *(Found while auditing another seat's work — the fetch that pulled their branch is what revealed
 how far behind this one was. The audit paid for itself before it started.)*
+
+---
+
+# ADDENDUM 3 — THE SECOND INSTANCE FALLS, FOR THE SAME REASON. THE PATTERN RESTS ON TWO.
+
+**2026-09-09, on a tree 0 commits behind `origin/main`** (`ccf30e6f`, branch
+`claude/outside-bench`).
+
+§5 named **four** instances of "entropy in the programme's own instruments". Addendum 2
+withdrew the first. **The second falls now, and it falls the same way.**
+
+## The claim
+
+> *"`PROGRESS_LOG.md`'s last dated section is 2026-08-30. The log that GOVERNANCE §5 requires
+> every status change to be written into has itself been quiet for ten days."*
+
+## What is actually there
+
+`PROGRESS_LOG.md` carries a dated section for **every single day** from 2026-08-31 to
+2026-09-09 — nine consecutive days, each first committed on its own date:
+
+    2026-08-31  d78e1a73     2026-09-05  f06d3405
+    2026-09-01  8f0cda3d     2026-09-06  64af4d21
+    2026-09-02  52010c9e     2026-09-07  …
+    2026-09-03  02e9ab35     2026-09-08  …
+                             2026-09-09  …
+
+**The log was never quiet.** It was being written to every day the claim said it was silent.
+
+## And the cause is identical to addendum 2's
+
+Read directly off the two trees:
+
+    fba45fc2   this bench's pre-merge tip   PROGRESS_LOG last dated section: 2026-08-30
+    b94ed03a   origin/main                  PROGRESS_LOG last dated section: 2026-09-09
+
+`fba45fc2` **is** the 126-commits-behind tree that produced the withdrawn `depends_on`
+finding. Both instances came out of the same stale checkout, in the same sitting, and were
+read as two independent confirmations of a pattern. They were one artefact of one stale tree,
+counted twice.
+
+## What survives
+
+Of the four:
+
+| | instance | status |
+|---|---|---|
+| 1 | `depends_on` decayed to 0% | **withdrawn** (addendum 2) — 61% on main, a dip and a recovery |
+| 2 | `PROGRESS_LOG` quiet for ten days | **withdrawn here** — a section every day, never quiet |
+| 3 | a minus sign lost in a download, twice in one session | **stands** — observed directly, not inferred from a tree |
+| 4 | `instrument_freshness.py` sees 2 arcs of the 152 carrying its structure | **stands** — measured against main's own selector |
+
+**The pattern rests on two instances.** Both survivors were observed by *doing something* — a
+download, and running a selector. Both casualties were read off a *checkout*.
+
+## The lesson is sharper than addendum 2's
+
+Addendum 2's rule — state the tree — is necessary and was not sufficient, because it treats
+staleness as a single mistake. It is not. **One stale tree manufactures a whole family of
+mutually-corroborating "findings", because every field it under-reports under-reports in the
+same direction: absence.** A stale checkout cannot show you something that is there. So it
+produces *only* evidence of decay, never evidence against it — and a reader collecting
+instances will find them agreeing, and mistake the agreement for independence.
+
+**Standing rule, adopted:** *when a diagnosis rests on several observed absences, the
+absences are not independent evidence until each has been re-read on a tree at `origin/main`.
+Corroboration among absences measured on one checkout is a property of the checkout.*
+
+## One instrument repaired in passing
+
+`certificates/promotion_throughput.py` printed the live log range in §0 and then asserted
+"last dated section is 2026-08-30 … quiet for ten days" as **frozen prose** in its conclusion
+— so the certificate contradicted its own measurement the moment the log was written to
+again. The conclusion is now computed from the same variable §0 prints, and the certificate
+now prints the tree it was taken on and how far it is from main, as `corpus_census.py` does.
+It currently reports: *"last dated section is 2026-09-09 (today) … is current."*
+
+*Everything else in memo 188 — the census, the ledger counts, the batch-versus-trickle
+throughput finding of addendum 1 — was re-run on this tree and is unchanged.*

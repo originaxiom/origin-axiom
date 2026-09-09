@@ -42,6 +42,25 @@ for p in (ROOT / "frontier").glob("B*/arc_verdict.json"):
     m = re.match(r"B(\d+)", p.parent.name)
     if m: real.add(int(m.group(1)))
 
+# ------------------------------------------------------------------------------------
+# THE TREE THIS WAS TAKEN ON.  Memo 188 section 3 was wrong because it ran on a branch 126
+# commits behind main and read that tree's zeros as decay.  A measurement of the record
+# must say which copy of the record it measured.
+def _git(*a):
+    try:
+        return subprocess.run(["git", *a], capture_output=True, text=True,
+                              cwd=str(pathlib.Path(__file__).resolve().parents[2])).stdout.strip()
+    except Exception:
+        return ""
+print("=" * 78); print("   THE TREE THIS WAS TAKEN ON"); print("=" * 78)
+print("   HEAD            : %s  %s" % (_git("rev-parse", "--short", "HEAD"),
+                                       _git("rev-parse", "--abbrev-ref", "HEAD")))
+_behind = _git("rev-list", "--count", "HEAD..origin/main")
+print("   commits behind origin/main : %s" % (_behind or "?"))
+if _behind and _behind.isdigit() and int(_behind) > 0:
+    print("   *** WARNING: this tree is BEHIND main.  Anything read as 'absent' or 'zero'")
+    print("       here may be present on main.  Fetch and re-run before interpreting.")
+print()
 print("=" * 78); print("0.  THE CLOCK -- checked, not assumed"); print("=" * 78)
 try:
     out = subprocess.run(["git", "log", "--diff-filter=A", "--name-only",
@@ -151,8 +170,22 @@ And the remedy needs no new machinery, which is the useful part: the programme h
 demonstrated the batch.  Running it again is the same apparatus at roughly thirty times the
 rate, and its first target list was written by the audit itself and is still 6/7 unclaimed.
 
-One more thing the numbers say in passing, and it belongs with memo 188's main pattern:
-PROGRESS_LOG.md's last dated section is 2026-08-30.  The log that GOVERNANCE section 5
-requires every status change to be written into has itself been quiet for ten days.  Same
-shape as the depends_on field and the lost minus signs -- an instrument built, used, and
-then not fed.""")
+One more thing the numbers say in passing, and it belongs with memo 188's main pattern:""")
+
+# COMPUTED, NOT FROZEN.  This paragraph used to assert "last dated section is 2026-08-30 ...
+# quiet for ten days" as literal prose, while section 0 above PRINTS the live range -- so the
+# certificate contradicted its own measurement the moment the log was written to again.
+# A conclusion inside an instrument has to be read off the instrument.
+import datetime as _dt
+_last = heads[-1][1]
+_gap = (_dt.date.today() - _dt.date(*map(int, _last.split("-")))).days
+print("""PROGRESS_LOG.md's last dated section is %s (%s).  The log that GOVERNANCE section 5
+requires every status change to be written into %s.
+%s""" % (
+    _last,
+    "today" if _gap == 0 else "%d day%s ago" % (_gap, "" if _gap == 1 else "s"),
+    "is current" if _gap <= 2 else "has itself been quiet for %d days" % _gap,
+    "The earlier reading of this as an instance of the entropy pattern DOES NOT HOLD on this\n"
+    "tree: the log is being fed."
+    if _gap <= 2 else
+    "Same shape as the lost minus signs -- an instrument built, used, and then not fed."))
