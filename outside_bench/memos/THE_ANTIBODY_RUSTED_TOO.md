@@ -129,3 +129,82 @@ value is now larger.
 **And the staleness lesson applies here too, in the other direction:** a stale tree can understate
 a finding as easily as it can manufacture one. **The rule adopted in memo 188 addendum 2 — state
 the tree, and how far it is from `main`** — is why this was caught within the hour.
+
+---
+
+## ADDENDUM 2 (2026-09-09) — **the full suite run on a clean `main`: 11 failures, and four of them are tests that read files the repo deliberately does not track**
+
+**Method.** `origin/main` at `b94ed03a` checked out into a **fresh worktree**, `python3 -m pytest -q`,
+run to completion: **11 failed, 6312 passed, 68 skipped, 1 h 19 m 28 s.**
+
+*(Note on scope: the other seat's audit reported "309 passed; the same 21 existing failures/errors
+remain." That is a subset run. The full suite collects **6391**. The two numbers are not
+comparable and neither should be quoted as the other.)*
+
+### The four that matter — and they are not drift, they are *never-could-have-passed*
+
+```
+test_b1062_bridge.py::test_block_logs_pin_the_numbers
+    FileNotFoundError: frontier/B1062_bridge_cell/b1062_v2_block1.log
+test_b1063_refresh.py::test_window_log_pins_the_misses
+    FileNotFoundError: frontier/B1063_refresh_verdict/refresh_windows.log
+test_b1306_the_older_debt.py::test_slice_c_own_rederivations_are_pinned
+    FileNotFoundError: frontier/B1306_the_older_debt/verification/sliceC/c_beat.out
+test_b1137_regulator_probe.py::test_aggregate_re_derives_from_pinned_grids
+    FileNotFoundError: results/real_grid.jsonl        (a RELATIVE path — cwd-dependent)
+```
+
+**`.gitignore` line 20 is `*.log`.** The first two read `.log` files that the repository is
+configured never to track. The third reads a `.out` file that is not in the tree. The fourth
+reads a relative path.
+
+> **These four tests pass only on a machine where someone previously generated those files. On a
+> clean clone of `main` they cannot pass, and never could.**
+
+This is Review 42's *"two locks were red at HEAD, and nobody knew"* in a **worse** form. Review 42
+found drift — instruments whose committed cache had gone stale. **These never had a cache to go
+stale.** They are green on a developer's machine and red on a fresh checkout, permanently, and
+the difference is invisible to anyone who does not check out clean.
+
+### And one of the failures is the repo's own check for the defect this bench found
+
+```
+test_no_hardcoded_paths.py::test_no_absolute_machine_paths_in_tracked_text
+    AssertionError: absolute paths in tracked text
+```
+
+**The repository already has a check for absolute machine paths in tracked files, and it is
+failing.** That is the same defect class the widened freshness sweep found inside the arc
+instruments — two of them carrying a literal `(scratchpad)/cloud_handoff/…` path (R90). The
+programme built the antibody, and it is red.
+
+### The remaining six, for completeness
+
+| test | reason |
+|---|---|
+| `test_p3_verification_package.py::test_manifest_is_current` | *"MANIFEST.json is stale: run build_manifest.py"* — **the reviewer-facing verification package added in `main`'s own HEAD commit** |
+| `test_public_surface_scan.py::test_no_email_addresses_or_reviewer_placeholders` | a placeholder left in `CHANGELOG.md` |
+| `test_b646_wave2.py::test_archive_matches_manifest_except_disclosed` | files listed in a manifest that are `MISSING` from the archive |
+| `test_b565_realform.py::test_snappy_gate` | numerical: `assert 4.0 < 1e-09` — a trace that should match and is off by exactly 4 |
+| `test_b511_d5.py::test_d3_wild_dynamically_suppressed` | numerical: `assert 0.0 > 0.8` |
+| `test_b616_heldout.py::test_b616_heldout` | a held-out design check: *"observed 2 coarse-tier matches of 378 pairs"* not found in the expected string |
+
+### What this changes about memo 188's pattern
+
+Memo 188 addendum 2 **withdrew** the `depends_on` instance. This addendum **adds two stronger
+ones**, both measured rather than inferred:
+
+* four tests that are structurally unable to pass from the repository alone;
+* the programme's own hardcoded-path check, red.
+
+**And it corrects the framing this bench used one turn earlier.** I flagged the other seat's "21
+existing failures" as a candidate instance of instrument decay. On the full suite the number is
+**11**, and the interesting thing is not the count — it is that **four of them never ran from a
+clean tree.** The count was the wrong thing to look at.
+
+### The repair, specified (not applied — this lane does not touch `main`)
+
+Either commit the four artefacts (with a `.gitignore` exception, as the repo already does for
+`legacy/` text), or make the tests **generate** what they read, or mark them as requiring a
+prior generation step. **Whichever is chosen, a test that reads an untracked file should say so
+when the file is missing rather than raising `FileNotFoundError`.**
