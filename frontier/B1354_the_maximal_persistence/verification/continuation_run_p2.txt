@@ -1,0 +1,26 @@
+=== (5a) one exact cocycle class per sl2-block of e6 at the subregular point ===
+    block V2: dim Z1 = 4, dim B1 = 3, h1 = 1
+    block V4: dim Z1 = 6, dim B1 = 5, h1 = 1
+    block V6: dim Z1 = 8, dim B1 = 7, h1 = 1
+    block V8: dim Z1 = 10, dim B1 = 9, h1 = 1
+    block V10: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V10#2: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V14: dim Z1 = 16, dim B1 = 15, h1 = 1
+    block V16: dim Z1 = 18, dim B1 = 17, h1 = 1
+    (28 s)
+=== prime p = 67108837 ===
+    order 4 [lam2 symbolic]: unknowns s (8) + lam3 (8) + lam4 (8); 1588 equations; quadratic model exact: True; quadratic unknowns: 8 (all among s: True)   (9 s)
+        ==> 25 independent equations in 8 quadratic unknowns; Groebner basis: 4 elements, all linear: True; e.g. ['s1', 's2 - 4275463*s6 + 28888177', 's3']
+        chosen lam2 fixed; lam3 family has 3 free pure directions carried to the next order
+    order 5 [lam3 symbolic]: unknowns s (3) + lam4 (8) + lam5 (8); 2337 equations; quadratic model exact: True; quadratic unknowns: 0 (all among s: True)   (10 s)
+        chosen lam3 fixed; lam4 family has 3 free pure directions carried to the next order
+    order 6 [lam4 symbolic]: unknowns s (3) + lam5 (8) + lam6 (8); 3086 equations; quadratic model exact: True; quadratic unknowns: 0 (all among s: True)   (15 s)
+        chosen lam4 fixed; lam5 family has 3 free pure directions carried to the next order
+    order 7 [lam5 symbolic]: unknowns s (3) + lam6 (8) + lam7 (8); 3835 equations; quadratic model exact: True; quadratic unknowns: 0 (all among s: True)   (23 s)
+        chosen lam5 fixed; lam6 family has 3 free pure directions carried to the next order
+    order 8 [lam6 symbolic]: unknowns s (3) + lam7 (8) + lam8 (8); 4584 equations; quadratic model exact: True; quadratic unknowns: 0 (all among s: True)   (32 s)
+        chosen lam6 fixed; lam7 family has 3 free pure directions carried to the next order
+    the branch found (class additions at orders 2..8; second order: [12863959, 0, 3584654, 0, 4823997, 5432393, 56733388, 0]): Toeplitz kernel dimensions kd(1..9) = [3, 6, 9, 12, 15, 18, 21, 24, 27]  (3m = all three cusp-fixed vectors persist through order m)
+    second-order class in the block basis ['V2', 'V4', 'V6', 'V8', 'V10', 'V10#2', 'V14', 'V16']: V4 = 0, V8 = 0, V16 = 0 (must vanish); V6 = 3584654, V14 = 56733388
+    prime 67108837: the climb continued through order 8   (94 s)
+[94 s]

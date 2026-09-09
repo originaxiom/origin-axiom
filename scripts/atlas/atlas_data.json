@@ -7157,7 +7157,7 @@
     "L204"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "dynamics"
   },
@@ -7178,6 +7178,22 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1354": {
+   "slug": "the maximal persistence",
+   "motifs": [
+    "choice",
+    "kappa",
+    "metallic",
+    "eisenstein"
+   ],
+   "refs": [
+    "L204"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B135": {
    "slug": "lee yang m specific",

@@ -1,0 +1,287 @@
+=== (5a) one exact cocycle class per sl2-block of e6 at the subregular point ===
+    block V2: dim Z1 = 4, dim B1 = 3, h1 = 1
+    block V4: dim Z1 = 6, dim B1 = 5, h1 = 1
+    block V6: dim Z1 = 8, dim B1 = 7, h1 = 1
+    block V8: dim Z1 = 10, dim B1 = 9, h1 = 1
+    block V10: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V10#2: dim Z1 = 12, dim B1 = 11, h1 = 1
+    block V14: dim Z1 = 16, dim B1 = 15, h1 = 1
+    block V16: dim Z1 = 18, dim B1 = 17, h1 = 1
+    (28 s)
+=== prime p = 67108819: rank d1 = 70, dim coker T0 = 30, cusp-fixed vectors of rho_0: 3   (0 s)
+    fixed vector 0: kept to first order by ['V2', 'V6', 'V10', 'V10#2', 'V14']
+    fixed vector 1: kept to first order by ['V2', 'V6', 'V8', 'V10', 'V10#2', 'V14']
+    fixed vector 2: kept to first order by ['V2', 'V4', 'V6', 'V8', 'V10', 'V10#2', 'V14']
+    V10: the branch with no class additions builds to order 2 (the relator at order 3 needs a class at order 2); the relator constrains 2 of the 8 class directions at each order (6 free, the direction itself among them)
+    V10#2: the branch with no class additions builds to order 2 (the relator at order 3 needs a class at order 2); the relator constrains 2 of the 8 class directions at each order (6 free, the direction itself among them)
+    V10 + V10#2: the branch with no class additions builds to order 2 (the relator at order 3 needs a class at order 2); the relator constrains 2 of the 8 class directions at each order (6 free, the direction itself among them)
+    V10 - V10#2: the branch with no class additions builds to order 2 (the relator at order 3 needs a class at order 2); the relator constrains 2 of the 8 class directions at each order (6 free, the direction itself among them)
+  -- direction V10: Pass A (no kappa-terms)
+    V10, target e0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (10 s)
+        after eliminating the 16 linear unknowns: 162 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 + 11594914', 'lam2_3', 'lam2_7']   (0 s)
+    V10, target e1: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 159 equations, 21 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e1 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 + 11594914', 'lam2_3', 'lam2_7']   (0 s)
+    V10, target e2: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 152 equations, 17 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e2 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 + 11594914', 'lam2_3', 'lam2_7']   (0 s)
+    V10, target random v0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 163 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping random v0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 + 11594914', 'lam2_3', 'lam2_7']   (0 s)
+  -- direction V10: do the other fixed vectors persist through order 3 on every branch allowed for e_a? (then Pass A is complete)
+        e0: yes -- Pass A complete
+        e1: NO -- kappa-terms needed: Pass C
+    V10, target e1 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 167 equations, 32 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e1 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 16588456*lam3_9 + 9779878', 'lam2_3', 'lam2_6 - 13804445*lam3_9 - 782559']   (0 s)
+        e2: NO -- kappa-terms needed: Pass C
+    V10, target e2 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 161 equations, 27 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e2 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 16588456*lam3_9 + 9779878', 'lam2_3', 'lam2_6 - 13804445*lam3_9 - 782559']   (0 s)
+  -- direction V10#2: Pass A (no kappa-terms)
+    V10#2, target e0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 162 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 17312449', 'lam2_3', 'lam2_7']   (0 s)
+    V10#2, target e1: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 159 equations, 21 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e1 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 17312449', 'lam2_3', 'lam2_7']   (0 s)
+    V10#2, target e2: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 152 equations, 17 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e2 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 17312449', 'lam2_3', 'lam2_7']   (0 s)
+    V10#2, target random v0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 163 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping random v0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 17312449', 'lam2_3', 'lam2_7']   (0 s)
+  -- direction V10#2: do the other fixed vectors persist through order 3 on every branch allowed for e_a? (then Pass A is complete)
+        e0: yes -- Pass A complete
+        e1: NO -- kappa-terms needed: Pass C
+    V10#2, target e1 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 167 equations, 32 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e1 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 22149846*lam3_9 - 12904485', 'lam2_3', 'lam2_6 - 11480950*lam3_9 + 1966618']   (0 s)
+        e2: NO -- kappa-terms needed: Pass C
+    V10#2, target e2 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 161 equations, 27 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e2 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 22149846*lam3_9 - 12904485', 'lam2_3', 'lam2_6 - 11480950*lam3_9 + 1966618']   (0 s)
+  -- direction V10 + V10#2: Pass A (no kappa-terms)
+    V10 + V10#2, target e0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (10 s)
+        after eliminating the 16 linear unknowns: 162 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 3150540', 'lam2_3', 'lam2_7']   (0 s)
+    V10 + V10#2, target e1: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 159 equations, 21 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e1 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 3150540', 'lam2_3', 'lam2_7']   (0 s)
+    V10 + V10#2, target e2: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 152 equations, 17 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e2 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 3150540', 'lam2_3', 'lam2_7']   (0 s)
+    V10 + V10#2, target random v0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 163 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping random v0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 3150540', 'lam2_3', 'lam2_7']   (0 s)
+  -- direction V10 + V10#2: do the other fixed vectors persist through order 3 on every branch allowed for e_a? (then Pass A is complete)
+        e0: yes -- Pass A complete
+        e1: NO -- kappa-terms needed: Pass C
+    V10 + V10#2, target e1 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 167 equations, 32 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e1 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 17192452*lam3_9 - 14165940', 'lam2_3', 'lam2_6 + 30369779*lam3_9 + 19313532']   (0 s)
+        e2: NO -- kappa-terms needed: Pass C
+    V10 + V10#2, target e2 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 161 equations, 27 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e2 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 17192452*lam3_9 - 14165940', 'lam2_3', 'lam2_6 + 30369779*lam3_9 + 19313532']   (0 s)
+  -- direction V10 - V10#2: Pass A (no kappa-terms)
+    V10 - V10#2, target e0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 162 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 8284530', 'lam2_3', 'lam2_7']   (0 s)
+    V10 - V10#2, target e1: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 159 equations, 21 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e1 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 8284530', 'lam2_3', 'lam2_7']   (0 s)
+    V10 - V10#2, target e2: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 152 equations, 17 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e2 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 8284530', 'lam2_3', 'lam2_7']   (0 s)
+    V10 - V10#2, target random v0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 163 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping random v0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 30693219*lam2_6 - 8284530', 'lam2_3', 'lam2_7']   (0 s)
+  -- direction V10 - V10#2: do the other fixed vectors persist through order 3 on every branch allowed for e_a? (then Pass A is complete)
+        e0: yes -- Pass A complete
+        e1: NO -- kappa-terms needed: Pass C
+    V10 - V10#2, target e1 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 167 equations, 32 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e1 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 31613378*lam3_9 + 7916726', 'lam2_3', 'lam2_6 + 19231085*lam3_9 - 16945414']   (0 s)
+        e2: NO -- kappa-terms needed: Pass C
+    V10 - V10#2, target e2 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 161 equations, 27 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e2 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 31613378*lam3_9 + 7916726', 'lam2_3', 'lam2_6 + 19231085*lam3_9 - 16945414']   (0 s)
+    (274 s)
+=== prime p = 67108837: rank d1 = 70, dim coker T0 = 30, cusp-fixed vectors of rho_0: 3   (274 s)
+    fixed vector 0: kept to first order by ['V2', 'V6', 'V10', 'V10#2', 'V14']
+    fixed vector 1: kept to first order by ['V2', 'V6', 'V8', 'V10', 'V10#2', 'V14']
+    fixed vector 2: kept to first order by ['V2', 'V4', 'V6', 'V8', 'V10', 'V10#2', 'V14']
+    V10: the branch with no class additions builds to order 2 (the relator at order 3 needs a class at order 2); the relator constrains 2 of the 8 class directions at each order (6 free, the direction itself among them)
+    V10#2: the branch with no class additions builds to order 2 (the relator at order 3 needs a class at order 2); the relator constrains 2 of the 8 class directions at each order (6 free, the direction itself among them)
+    V10 + V10#2: the branch with no class additions builds to order 2 (the relator at order 3 needs a class at order 2); the relator constrains 2 of the 8 class directions at each order (6 free, the direction itself among them)
+    V10 - V10#2: the branch with no class additions builds to order 2 (the relator at order 3 needs a class at order 2); the relator constrains 2 of the 8 class directions at each order (6 free, the direction itself among them)
+  -- direction V10: Pass A (no kappa-terms)
+    V10, target e0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 162 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 28888177', 'lam2_3', 'lam2_7']   (0 s)
+    V10, target e1: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 159 equations, 21 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e1 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 28888177', 'lam2_3', 'lam2_7']   (0 s)
+    V10, target e2: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 152 equations, 17 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e2 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 28888177', 'lam2_3', 'lam2_7']   (0 s)
+    V10, target random v0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 163 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping random v0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 28888177', 'lam2_3', 'lam2_7']   (0 s)
+  -- direction V10: do the other fixed vectors persist through order 3 on every branch allowed for e_a? (then Pass A is complete)
+        e0: yes -- Pass A complete
+        e1: NO -- kappa-terms needed: Pass C
+    V10, target e1 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (13 s)
+        after eliminating the 13 linear unknowns: 167 equations, 32 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e1 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 4825371*lam3_9 + 10807020', 'lam2_3', 'lam2_6 + 10302266*lam3_9 + 184788']   (0 s)
+        e2: NO -- kappa-terms needed: Pass C
+    V10, target e2 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 161 equations, 27 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e2 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 4825371*lam3_9 + 10807020', 'lam2_3', 'lam2_6 + 10302266*lam3_9 + 184788']   (0 s)
+  -- direction V10#2: Pass A (no kappa-terms)
+    V10#2, target e0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 162 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 - 10766208', 'lam2_3', 'lam2_7']   (0 s)
+    V10#2, target e1: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (10 s)
+        after eliminating the 16 linear unknowns: 159 equations, 21 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e1 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 - 10766208', 'lam2_3', 'lam2_7']   (0 s)
+    V10#2, target e2: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 152 equations, 17 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e2 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 - 10766208', 'lam2_3', 'lam2_7']   (0 s)
+    V10#2, target random v0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 163 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping random v0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 - 10766208', 'lam2_3', 'lam2_7']   (0 s)
+  -- direction V10#2: do the other fixed vectors persist through order 3 on every branch allowed for e_a? (then Pass A is complete)
+        e0: yes -- Pass A complete
+        e1: NO -- kappa-terms needed: Pass C
+    V10#2, target e1 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 167 equations, 32 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e1 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 17654069*lam3_9 - 10952807', 'lam2_3', 'lam2_6 + 18083006*lam3_9 + 968617']   (0 s)
+        e2: NO -- kappa-terms needed: Pass C
+    V10#2, target e2 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 161 equations, 27 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e2 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 17654069*lam3_9 - 10952807', 'lam2_3', 'lam2_6 + 18083006*lam3_9 + 968617']   (0 s)
+  -- direction V10 + V10#2: Pass A (no kappa-terms)
+    V10 + V10#2, target e0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 162 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 10960198', 'lam2_3', 'lam2_7']   (0 s)
+    V10 + V10#2, target e1: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (10 s)
+        after eliminating the 16 linear unknowns: 159 equations, 21 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e1 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 10960198', 'lam2_3', 'lam2_7']   (0 s)
+    V10 + V10#2, target e2: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (10 s)
+        after eliminating the 16 linear unknowns: 152 equations, 17 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e2 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 10960198', 'lam2_3', 'lam2_7']   (0 s)
+    V10 + V10#2, target random v0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (10 s)
+        after eliminating the 16 linear unknowns: 163 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping random v0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 10960198', 'lam2_3', 'lam2_7']   (0 s)
+  -- direction V10 + V10#2: do the other fixed vectors persist through order 3 on every branch allowed for e_a? (then Pass A is complete)
+        e0: yes -- Pass A complete
+        e1: NO -- kappa-terms needed: Pass C
+    V10 + V10#2, target e1 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 167 equations, 32 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e1 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 29649486*lam3_9 + 13483436', 'lam2_3', 'lam2_6 + 17600317*lam3_9 - 11526244']   (0 s)
+        e2: NO -- kappa-terms needed: Pass C
+    V10 + V10#2, target e2 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (12 s)
+        after eliminating the 13 linear unknowns: 161 equations, 27 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e2 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 + 29649486*lam3_9 + 13483436', 'lam2_3', 'lam2_6 + 17600317*lam3_9 - 11526244']   (0 s)
+  -- direction V10 - V10#2: Pass A (no kappa-terms)
+    V10 - V10#2, target e0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (9 s)
+        after eliminating the 16 linear unknowns: 162 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 25283740', 'lam2_3', 'lam2_7']   (0 s)
+    V10 - V10#2, target e1: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (10 s)
+        after eliminating the 16 linear unknowns: 159 equations, 21 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e1 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 25283740', 'lam2_3', 'lam2_7']   (0 s)
+    V10 - V10#2, target e2: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (10 s)
+        after eliminating the 16 linear unknowns: 152 equations, 17 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping e2 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 25283740', 'lam2_3', 'lam2_7']   (0 s)
+    V10 - V10#2, target random v0: 1408 equations in 24 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'lam2')]   (10 s)
+        after eliminating the 16 linear unknowns: 163 equations, 25 independent, in the 8 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]']
+        ==> Groebner basis has 4 elements (not {1}): candidate branches keeping random v0 through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 4275463*lam2_6 + 25283740', 'lam2_3', 'lam2_7']   (0 s)
+  -- direction V10 - V10#2: do the other fixed vectors persist through order 3 on every branch allowed for e_a? (then Pass A is complete)
+        e0: yes -- Pass A complete
+        e1: NO -- kappa-terms needed: Pass C
+    V10 - V10#2, target e1 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (13 s)
+        after eliminating the 13 linear unknowns: 167 equations, 32 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e1 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 12947183*lam3_9 - 13775010', 'lam2_3', 'lam2_6 + 1711707*lam3_9 + 13833054']   (1 s)
+        e2: NO -- kappa-terms needed: Pass C
+    V10 - V10#2, target e2 (with kappa): 1408 equations in 28 unknowns; quadratic model exact at random points: True; quadratic terms among blocks: [('lam2', 'kapp'), ('lam2', 'lam2'), ('lam3', 'kapp')]   (13 s)
+        after eliminating the 13 linear unknowns: 161 equations, 27 independent, in the 15 quadratic unknowns ['lam2[0]', 'lam2[1]', 'lam2[2]', 'lam2[3]', 'lam2[4]', 'lam2[5]', 'lam2[6]', 'lam2[7]', 'lam3[9]', 'lam3[11]', 'lam3[15]', 'kappa[0]', 'kappa[1]', 'kappa[2]', 'kappa[3]']
+        ==> Groebner basis has 7 elements (not {1}): candidate branches keeping e2 (with kappa) through order 4 exist; first elements: ['lam2_1', 'lam2_2 - 12947183*lam3_9 - 13775010', 'lam2_3', 'lam2_6 + 1711707*lam3_9 + 13833054']   (0 s)
+    (552 s)
+
+=== summary ===
+    p = 67108819, V10         , e0        , pass A: candidate
+    p = 67108819, V10         , e1        , pass A: candidate
+    p = 67108819, V10         , e2        , pass A: candidate
+    p = 67108819, V10         , random v0 , pass A: candidate
+    p = 67108819, V10         , e0        , pass others: True
+    p = 67108819, V10         , e1        , pass others: False
+    p = 67108819, V10         , e1        , pass C: candidate
+    p = 67108819, V10         , e2        , pass others: False
+    p = 67108819, V10         , e2        , pass C: candidate
+    p = 67108819, V10#2       , e0        , pass A: candidate
+    p = 67108819, V10#2       , e1        , pass A: candidate
+    p = 67108819, V10#2       , e2        , pass A: candidate
+    p = 67108819, V10#2       , random v0 , pass A: candidate
+    p = 67108819, V10#2       , e0        , pass others: True
+    p = 67108819, V10#2       , e1        , pass others: False
+    p = 67108819, V10#2       , e1        , pass C: candidate
+    p = 67108819, V10#2       , e2        , pass others: False
+    p = 67108819, V10#2       , e2        , pass C: candidate
+    p = 67108819, V10 + V10#2 , e0        , pass A: candidate
+    p = 67108819, V10 + V10#2 , e1        , pass A: candidate
+    p = 67108819, V10 + V10#2 , e2        , pass A: candidate
+    p = 67108819, V10 + V10#2 , random v0 , pass A: candidate
+    p = 67108819, V10 + V10#2 , e0        , pass others: True
+    p = 67108819, V10 + V10#2 , e1        , pass others: False
+    p = 67108819, V10 + V10#2 , e1        , pass C: candidate
+    p = 67108819, V10 + V10#2 , e2        , pass others: False
+    p = 67108819, V10 + V10#2 , e2        , pass C: candidate
+    p = 67108819, V10 - V10#2 , e0        , pass A: candidate
+    p = 67108819, V10 - V10#2 , e1        , pass A: candidate
+    p = 67108819, V10 - V10#2 , e2        , pass A: candidate
+    p = 67108819, V10 - V10#2 , random v0 , pass A: candidate
+    p = 67108819, V10 - V10#2 , e0        , pass others: True
+    p = 67108819, V10 - V10#2 , e1        , pass others: False
+    p = 67108819, V10 - V10#2 , e1        , pass C: candidate
+    p = 67108819, V10 - V10#2 , e2        , pass others: False
+    p = 67108819, V10 - V10#2 , e2        , pass C: candidate
+    p = 67108837, V10         , e0        , pass A: candidate
+    p = 67108837, V10         , e1        , pass A: candidate
+    p = 67108837, V10         , e2        , pass A: candidate
+    p = 67108837, V10         , random v0 , pass A: candidate
+    p = 67108837, V10         , e0        , pass others: True
+    p = 67108837, V10         , e1        , pass others: False
+    p = 67108837, V10         , e1        , pass C: candidate
+    p = 67108837, V10         , e2        , pass others: False
+    p = 67108837, V10         , e2        , pass C: candidate
+    p = 67108837, V10#2       , e0        , pass A: candidate
+    p = 67108837, V10#2       , e1        , pass A: candidate
+    p = 67108837, V10#2       , e2        , pass A: candidate
+    p = 67108837, V10#2       , random v0 , pass A: candidate
+    p = 67108837, V10#2       , e0        , pass others: True
+    p = 67108837, V10#2       , e1        , pass others: False
+    p = 67108837, V10#2       , e1        , pass C: candidate
+    p = 67108837, V10#2       , e2        , pass others: False
+    p = 67108837, V10#2       , e2        , pass C: candidate
+    p = 67108837, V10 + V10#2 , e0        , pass A: candidate
+    p = 67108837, V10 + V10#2 , e1        , pass A: candidate
+    p = 67108837, V10 + V10#2 , e2        , pass A: candidate
+    p = 67108837, V10 + V10#2 , random v0 , pass A: candidate
+    p = 67108837, V10 + V10#2 , e0        , pass others: True
+    p = 67108837, V10 + V10#2 , e1        , pass others: False
+    p = 67108837, V10 + V10#2 , e1        , pass C: candidate
+    p = 67108837, V10 + V10#2 , e2        , pass others: False
+    p = 67108837, V10 + V10#2 , e2        , pass C: candidate
+    p = 67108837, V10 - V10#2 , e0        , pass A: candidate
+    p = 67108837, V10 - V10#2 , e1        , pass A: candidate
+    p = 67108837, V10 - V10#2 , e2        , pass A: candidate
+    p = 67108837, V10 - V10#2 , random v0 , pass A: candidate
+    p = 67108837, V10 - V10#2 , e0        , pass others: True
+    p = 67108837, V10 - V10#2 , e1        , pass others: False
+    p = 67108837, V10 - V10#2 , e1        , pass C: candidate
+    p = 67108837, V10 - V10#2 , e2        , pass others: False
+    p = 67108837, V10 - V10#2 , e2        , pass C: candidate
+[552 s]

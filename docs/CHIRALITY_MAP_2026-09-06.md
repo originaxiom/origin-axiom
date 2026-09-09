@@ -176,6 +176,17 @@ link S⁶/Γ_p has b₂ = 0 (no U(1) inflow) and E₆ is anomaly-free (no detect
 closing and only that**: the three E₇ points are not orbifold points. Registered: stabilisers not preserving the E₆
 plane (several E₆ branches through the point).
 
+## 6f. The maximal persistence (B1354, 2026-09-09)
+
+B1352's registered residue — whether a tuned formal branch tangent to V₁₀ keeps a cusp-fixed vector beyond order 4 — is
+answered: yes, and every such branch is formally self-dual. The obstruction-class tower (the newest class shifts the
+obstruction only through the non-keeping classes) is a polynomial system decided by Gröbner bases over two primes: the
+order-4 solution family is linear (V₄ = V₈ = V₁₆ = 0, V₆ tied to V₁₄), the higher orders are affine and free, the climb
+reaches order 8 with all three vectors kept. Along those branches the traces move at first order but the self-duality
+defects vanish through order 8; along the greedy branch they appear at order 4, where the fixed vectors are lost. So on
+the object the two conditions a net count needs exclude each other along V₁₀ at every order reached: **cusp-fixed weights
+and self-duality are one condition.** O1's residue is void; O4 and O5 stand.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

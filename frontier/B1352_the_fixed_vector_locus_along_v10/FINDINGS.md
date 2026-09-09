@@ -190,4 +190,5 @@ two block-0 locus points, 120 digits), records `fixed_locus_c1_b0_run.txt`, `fix
 
 - The maximal-persistence question of §4.1 (does any formal branch tangent to V₁₀ stay in Fix to order 5?) — exact,
   order-by-order linear algebra over the keeping classes' freedom; L204's last formal residue on the object.
+  *(Currency 2026-09-09: answered by B1354 — such branches exist (the second-order class must drop V₄, V₈, V₁₆ and carry a definite V₆ component) and every one is formally self-dual through order 8: fixed vectors and self-duality are one condition along V₁₀; no carrier.)*
 - Stage B with exact arithmetic (the isometries on the block classes).

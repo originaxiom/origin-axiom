@@ -393,3 +393,8 @@ left it.
 > the transversal A₁/E₆ collision of Acharya–Witten's E₇ points never occurs in the flat class, the orbifold link has b₂ = 0 and
 > E₆ is anomaly-free, and the literature places chiral fermions only at non-orbifold conical points. The destination's item 1 is
 > the curved conical G₂ closing and nothing flatter (`frontier/B1353_the_isolated_enhancement_point`). 0 of 19; price unchanged.
+
+> **Currency note (2026-09-09, B1354):** the last formal residue of L204 closed. Tuned formal branches tangent to V₁₀ that keep the
+> three cusp-fixed vectors exist (exact, two primes, through order 8) and are formally self-dual: where the fixed vectors persist
+> the character stays self-dual, where the character leaves the self-dual locus (order 4) the fixed vectors are lost. Fixed vectors
+> and self-duality are one condition along V₁₀ (`frontier/B1354_the_maximal_persistence`). 0 of 19; price unchanged.

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1201** |
-| words of findings prose | **868,290** |
-| test lock files referenced | **715** |
-| arcs carrying an authored verdict | **1201** (100.0 %) |
+| research arcs with findings | **1202** |
+| words of findings prose | **869,749** |
+| test lock files referenced | **716** |
+| arcs carrying an authored verdict | **1202** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 791 |
+| PROVED | 792 |
 | NEGATIVE | 312 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1353`** (2106 words, 1 locks)  
-THE ISOLATED ENHANCEMENT POINT ON AN E6 LOCUS, MADE FINITE (main's E70 scope of B1259 answered): in a flat G2 orbifold the E6 locus is the fixed 3-plane P of 2T c SU(2)_R, its stabiliser in G2 is SO(4) acting on Im H (+) H, and a point of P is an isolated fixed point of its stabiliser Gamma_p exactly when Gamma_p's image in SO(3) is non-cyclic -- which B1259's element lemma does not forbid. All such Gamma_p c SO(4) with kernel 2T are enumerated (Goursat: L x_Q R with R in {2T, 2O}, 14 groups from D*_2 x 2T of order 96 to 2I x 2T of order 1440; B1084's group is (D*_2, C_4; 2O, 2T)); every one has an isolated fixed point at the apex, and in every one EVERY codimension-4 stratum through the apex meets the E6 plane in a line, never only at the apex: an A-type plane is axis(l) (+) {x : l x = x r} and contains the E6 line axis(l) -- the transversal A1/E6 collision Acharya-Witten's E7 points need is impossible in the flat class, although A1/A1 planes do meet only at the apex (e.g. 216 of B1084's 435 pairs). The literature's rule closes the rest: chiral fermions arise where an ADE locus passes through an isolated conical singularity that is 'not just an orbifold singularity' (Witten 2001; Acharya-Witten 2001: 'worse-than-orbifold'), and orbifold points are modelled on Calabi-Yau singularities (Acharya-Gukov 2004); for an orbifold link S^6/Gamma_p, b_2 = 0, so no U(1) inflow can force or detect chiral 27s and E6 itself is anomaly-free. The three E7 points of the destination's item 1 are therefore not orbifold points: the closing must be the curved conical G2 geometry, as B1259 said, now with the stratum theorem main asked for. 0 of 19.  
-`B1353_the_isolated_enhancement_point/FINDINGS.md`
+**PROVED — `B1354`** (1416 words, 1 locks)  
+THE MAXIMAL PERSISTENCE (B1352 section 6's residue): formal branches tangent to the V10 direction that keep all three cusp-fixed vectors of rho_0 exist -- the second-order class must drop V4, V8, V16 and carry a definite V6 component tied to V14 (the Groebner basis of the order-4 obstruction system is linear, the same family for every target vector and every direction of the V10 plane), after which every order is affine and free -- and the climb reaches order 8 modulo two primes (Toeplitz kernel dimensions 3m). Along every such branch the traces move at first order but the self-duality defects vanish through order 8: the fixed-vector branch is formally self-dual, while the greedy branch (the Newton curve's model) leaves the self-dual locus at order 4 and loses the fixed vectors at the same order. Cusp-fixed weights and self-duality are one condition along V10 at every order reached: the theta-odd frame on the cusped object carries no net count, formally or numerically. L204 closed on the object. 0 of 19.  
+`B1354_the_maximal_persistence/FINDINGS.md`
 
 **NEGATIVE — `B1300`** (2600 words, 1 locks)  
 THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while keeping the Higgs doublets: exhaustively, with every component's survival in every generation recorded (B1278's pipeline re-run and re-enumerated), 0 split lines; D is kept in all three generations on every SM line -- indeed on every one of the 3 048 625 candidates -- while Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines. BY THEOREM: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; three generations of Q put psi_Q in the alphabet K3 = {1} u ((C_1 u C_2) minus 1) x V_4 (orders 1, 19, 38), whose squares have odd order and are never family characters -- and the family characters (order 2) are the only characters that project anything (B1278's support theorem: h^1 = 1 exactly on ((C_1 u C_2) x V_4) minus 1). An exact structural model built from the support theorem and the weight table (Q, u^c, L a Z-basis of P/Q_SM; the eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders) reproduces every count of B1278 -- 145-letter alphabet, 758 593 three-generation lines, 737 568 SU(5)-breaking, 706 464 SM vacua, 568 656 full-spectrum -- and every histogram of the pipeline in seventeen seconds with no Fox calculus: B1278 verified by a second method. Consequences: L209(ii)'s Wilson-line option is closed; B1283's light D pair is untouched by the Wilson line as it is by the tree-level VEVs, so whatever gives generation g's Higgs pair its mu gives its D pair a mass through the same E6 Clebsch (a vector-like colour-triplet pair near mu if the instanton sector respects the Clebsch -- a stated assumption, not a banked prediction). Vector-like throughout (B1260); 0 of 19; price unchanged.  

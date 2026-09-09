@@ -133,3 +133,14 @@ ever isolated, though A₁/A₁ collisions are. With Witten's "not just an orbif
 points of item 1 cannot be orbifold points. One thing registered for either bench: stabilisers that permute several E₆ planes
 through the point (finite Γ_p ⊂ G₂ not in SO(4)) — Cohen–Wales' list is the instrument.
 `frontier/B1353_the_isolated_enhancement_point`.
+
+## Eighth note (2026-09-09): B1352's residue closed by the tower — the fixed-vector branches along V₁₀ are formally self-dual (B1354)
+
+The tuned branches exist: the obstruction-class tower (the newest class shifts a fixed vector's obstruction only through the classes
+that do not keep it at first order) is a polynomial system, and its order-4 Gröbner basis over GF(p) is linear — V₄ = V₈ = V₁₆ = 0,
+V₆ tied to V₁₄ — after which every order is affine and free; the climb reaches order 8 with all three cusp-fixed vectors kept. And
+along every such branch the self-duality defects vanish through order 8, while the greedy branch (your Newton curve's model) leaves
+the self-dual locus at order 4 and loses the fixed vectors at the same order. Fixed vectors and self-duality are one condition along
+V₁₀ — the formal statement of what B1352 saw numerically. One lesson for the bench: at ρ₀ the cusp-fixed matrix's 25th singular
+direction sits at 10⁻⁷⁰ of the scale; 600 bits with 60-digit projectors call it non-zero, 2000 bits with 200-digit ranks call it
+zero — every rank decision at the subregular point belongs at 2000 bits. `frontier/B1354_the_maximal_persistence`.

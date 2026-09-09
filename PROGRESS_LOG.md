@@ -14713,3 +14713,16 @@ chiral fermions where an ADE locus passes through a conical point "not just an o
 "worse-than-orbifold"; Acharya–Gukov: orbifold points modelled on Calabi–Yau ones), b₂(S⁶/Γ_p) = 0 and E₆ anomaly-free: the three
 E₇ points of item 1 are not orbifold points; the closing is the curved cone. Registered: stabilisers permuting several E₆ planes.
 Lock fast (2 s). 0 of 19; price unchanged.
+
+### B1354 — the maximal persistence (2026-09-09): the fixed-vector branches along V₁₀ exist and are formally self-dual
+
+B1352 §6's residue made exact: along a formal branch the freedom at each order is H¹ (eight classes) minus the two directions the
+relator constrains; a cusp-fixed vector persists iff its obstruction classes in coker[μ₀−I; λ₀−I] vanish, and the newest class shifts
+the obstruction only through the classes that do not keep the vector at first order. The order-4 system (1408 equations, 24
+unknowns; exact quadratic model, Gröbner over GF(p)) has a linear solution family — V₄ = V₈ = V₁₆ = 0, V₆ = c·V₁₄ + d — for every
+target and every direction of the V₁₀ plane; the higher orders are affine and consistent with three free directions each, and the
+climb reaches order 8 (kd(1..9) = 3m) modulo both primes. Trace series along the branches: the greedy branch moves the character at
+first order and leaves the self-dual locus at order 4 (the t⁴ law), losing the fixed vectors there; the tuned branch moves the
+character at first order and keeps self-duality through order 8. Fixed vectors and self-duality are one condition along V₁₀. A
+600-bit numerical realisation was begun and abandoned (the cusp-fixed matrix's 25th singular direction at 10⁻⁷⁰ of the scale is
+resolved only at 2000 bits). L204 closed on the object, formally and numerically. 0 of 19; price unchanged.

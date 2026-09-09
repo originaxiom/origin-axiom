@@ -1,0 +1,12 @@
+{
+ "id": "B1354",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1268", "B1350", "B1352"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE MAXIMAL PERSISTENCE (B1352 section 6's residue): formal branches tangent to the V10 direction that keep all three cusp-fixed vectors of rho_0 exist -- the second-order class must drop V4, V8, V16 and carry a definite V6 component tied to V14 (the Groebner basis of the order-4 obstruction system is linear, the same family for every target vector and every direction of the V10 plane), after which every order is affine and free -- and the climb reaches order 8 modulo two primes (Toeplitz kernel dimensions 3m). Along every such branch the traces move at first order but the self-duality defects vanish through order 8: the fixed-vector branch is formally self-dual, while the greedy branch (the Newton curve's model) leaves the self-dual locus at order 4 and loses the fixed vectors at the same order. Cusp-fixed weights and self-duality are one condition along V10 at every order reached: the theta-odd frame on the cusped object carries no net count, formally or numerically. L204 closed on the object. 0 of 19."
+}

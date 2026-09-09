@@ -1,5 +1,12 @@
 # Changelog
 
+## B1354 — the maximal persistence: the fixed-vector branches along V₁₀ exist, and every one is formally self-dual
+
+B1352's registered residue answered exactly (two primes, through order 8): tuned formal branches keep all three cusp-fixed vectors
+(the second-order class drops V₄, V₈, V₁₆ and ties V₆ to V₁₄), and along every one the self-duality defects vanish through order 8
+while the greedy branch leaves the self-dual locus at order 4 where it loses the fixed vectors. Cusp-fixed weights and self-duality
+are one condition along V₁₀. `frontier/B1354_the_maximal_persistence`; OPEN_LEADS L204; CHIRALITY_MAP §6f; THE_SM_VERDICT. 0 of 19.
+
 ## B1353 — the isolated enhancement point made finite: the flat orbifold class isolates the apex but never the A₁/E₆ collision
 
 Main's E70 scope of B1259 answered by the strata: all fourteen flat orbifold models with an isolated apex on the E₆ locus enumerated
