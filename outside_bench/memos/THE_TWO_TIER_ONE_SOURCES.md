@@ -111,3 +111,74 @@ listed by them as open.**
 holds — `Im CS(α_geom) ≠ 0` is the complex volume. Confirming it puts `m004` explicitly in the
 non-`C₂`-cofinite class rather than by expectation, and that is the first step of any honest
 answer to Q11(c) from this side.
+
+---
+
+## ADDENDUM 1 (2026-09-09) — **the mechanism spelled out, and measured: the boundedness that forces `c_eff = 1` is created by the FILLING, not carried by the knot**
+
+§3 said memo 191's negative narrows to the `C₂`-cofinite family. This addendum says *why*,
+mechanically, and then tests the load-bearing step on the object memo 190 just made available.
+
+### The chain memo 191's result actually rests on
+
+```
+plumbing graph
+  → rank-one lattice + linking form            (CCFGH §6.1, eq (2.12))
+  → Weil representation Θ_{m+K}                (CCFGH §3.3)
+  → weight-3/2 unary theta θ¹_{m,r}            (CCFGH eq (4.1))
+  → its Eichler integral IS Ẑ_a                (CCFGH eq (4.4), (4.27))
+  → a FALSE THETA: coefficients in {0, ±1}     (CCFGH eq (4.5)-(4.6))
+  → bounded  ⇒  contributes 0 to c_eff
+  → the entire c_eff comes from 1/(q)_∞        ⇒  c_eff = 1
+```
+
+**Every link is a property of plumbed manifolds.** A hyperbolic manifold has no plumbing graph,
+so no lattice, so no Weil representation — CCFGH's machinery is explicitly built for Seifert
+manifolds with three (§6) or four (§8) singular fibres. **The chain has no first link.**
+
+**And the boundedness is not a mild assumption — it is the entire argument.** With `1/(q)_∞`
+supplying `1`, reaching `6` needs the numerator to supply `5`, i.e. coefficients growing like
+`exp(A√n)` with `3A²/2π² = 5`. **A false theta supplies exactly `0`.** There is no dial.
+
+### The test, on the object memo 190 made available
+
+`F_{m(5₂)}` is a **hyperbolic knot complement's** two-variable series, and memo 190 put it within
+reach at arbitrary block depth. Regenerated here at `XMAX = 16`, `DEPTH = 34`, **with all six of
+memo 190's controls still passing**, the largest coefficient in block `f_j`:
+
+```
+ j     6     7     8     9    10    11    12    13    14    15
+max   238   469   739  1123  2232  4806 10358 20563 36599 58027
+```
+
+Fitted over the uniform-window range `j ≥ 6`: **`max|coeff| ~ 1.88^j`** — exponential in the
+block index. *(The `j ≤ 5` maxima are not comparable: their stored windows have different
+lengths.)*
+
+> **The boundedness that forces `1` is simply absent from the hyperbolic object.**
+
+### The sharpest form of it, from two of this bench's own computations
+
+Memo 190's anchor **A2** transformed `F_{m(5₂)}` at slope `−1/2` and got `Ẑ(Σ(2,3,11))` — a
+**sparse false theta with all coefficients `±2`**. Bounded. And the same knot's *complement*
+carries blocks growing like `1.88^j`.
+
+> **Same knot. Fill it to a Seifert manifold and you get bounded coefficients; leave the cusp open
+> and you do not. The boundedness is manufactured by the Dehn filling, not carried by the knot.**
+
+That is exactly CCFGH §5.2's division in concrete terms: filling produces a plumbed manifold with
+rational `CS` (the `C₂`-cofinite side); the cusped complement is the hyperbolic object with
+`Im CS(α_geom) ≠ 0` (the side they expect to be non-`C₂`-cofinite). **Q11 asks about `m004` — a
+complement, not a filling.**
+
+### Scope, stated hard, because this is the kind of result that gets over-read
+
+1. **Nothing here shows `c_eff = 6`, or any particular value.** R83's fence stands and no number
+   is being hunted. What is shown is that *memo 191's argument* does not transfer.
+2. **The blocks past `f₅` rest on Conjecture 2** (memo 190 §6) and are labelled as resting on it.
+3. **Growth in the block index `j` is NOT the statistic `c_eff` measures**, which is growth in the
+   `q`-order at fixed series. **What is established is that the structural fact memo 191 used —
+   boundedness of the numerator — fails for the hyperbolic object.** That is a statement about the
+   argument, not about the value. Turning it into a `c_eff` statement needs a single well-defined
+   `q`-series for the complement, and naming that series is itself part of what CCFGH §9 lists as
+   open.
