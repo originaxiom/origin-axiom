@@ -1,0 +1,180 @@
+{
+  "term": "eigenline.{0,50}(wall|bound)|mass.{0,20}reference|boundary.{0,20}mirror|Callan.Harvey|domain.wall fermion",
+  "heads": [
+    {
+      "head": "audit/physical-bridge-2026-09-05",
+      "sha": "2c673171",
+      "content": [
+        "2c673171:PROGRESS_LOG.md",
+        "2c673171:docs/CAMPAIGN_STATUS.md",
+        "2c673171:docs/LAW_MAP.md",
+        "2c673171:docs/OPEN_LEADS.md",
+        "2c673171:docs/SEAL_LEDGER.md",
+        "2c673171:docs/THE_LADDER.md",
+        "2c673171:frontier/B1085_edge_observability/FINDINGS.md",
+        "2c673171:frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+        "2c673171:frontier/B1169_qualia_parity_synthesis/b1169_results.json",
+        "2c673171:philosophy/13_the_computed_observer.md",
+        "2c673171:reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX.md",
+        "2c673171:reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+        "2c673171:reports/physical_bridge_2026_09_05/MASS_INFLOW_BUNDLE_DESIGN.md",
+        "2c673171:reports/physical_bridge_2026_09_05/MASS_INFLOW_DESIGN.md",
+        "2c673171:reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+        "2c673171:reports/physical_bridge_2026_09_05/infrared_alignment.py",
+        "2c673171:tests/test_physical_bridge_mass_inflow.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "main",
+      "sha": "f06d3405",
+      "content": [
+        "f06d3405:PROGRESS_LOG.md",
+        "f06d3405:docs/CAMPAIGN_STATUS.md",
+        "f06d3405:frontier/B1085_edge_observability/FINDINGS.md",
+        "f06d3405:frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+        "f06d3405:frontier/B1169_qualia_parity_synthesis/b1169_results.json",
+        "f06d3405:philosophy/13_the_computed_observer.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/audit/b775-braver-questions",
+      "sha": "53da05f6",
+      "content": [],
+      "filenames": []
+    },
+    {
+      "head": "origin/audit/physical-bridge-2026-09-05",
+      "sha": "2c673171",
+      "content": [
+        "2c673171:PROGRESS_LOG.md",
+        "2c673171:docs/CAMPAIGN_STATUS.md",
+        "2c673171:docs/LAW_MAP.md",
+        "2c673171:docs/OPEN_LEADS.md",
+        "2c673171:docs/SEAL_LEDGER.md",
+        "2c673171:docs/THE_LADDER.md",
+        "2c673171:frontier/B1085_edge_observability/FINDINGS.md",
+        "2c673171:frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+        "2c673171:frontier/B1169_qualia_parity_synthesis/b1169_results.json",
+        "2c673171:philosophy/13_the_computed_observer.md",
+        "2c673171:reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX.md",
+        "2c673171:reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+        "2c673171:reports/physical_bridge_2026_09_05/MASS_INFLOW_BUNDLE_DESIGN.md",
+        "2c673171:reports/physical_bridge_2026_09_05/MASS_INFLOW_DESIGN.md",
+        "2c673171:reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+        "2c673171:reports/physical_bridge_2026_09_05/infrared_alignment.py",
+        "2c673171:tests/test_physical_bridge_mass_inflow.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/older-new-session",
+      "sha": "3851df2a",
+      "content": [],
+      "filenames": []
+    },
+    {
+      "head": "origin/outside-bench",
+      "sha": "8b32fb4a",
+      "content": [
+        "8b32fb4a:PROGRESS_LOG.md",
+        "8b32fb4a:docs/CAMPAIGN_STATUS.md",
+        "8b32fb4a:frontier/B1085_edge_observability/FINDINGS.md",
+        "8b32fb4a:frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+        "8b32fb4a:frontier/B1169_qualia_parity_synthesis/b1169_results.json",
+        "8b32fb4a:frontier/B1291_the_parity_of_the_cusp/verification/orbifold.py",
+        "8b32fb4a:outside_bench/THE_SUFFICIENCY_QUESTION.md",
+        "8b32fb4a:outside_bench/memos/FIXED_POINT_TWIN.md",
+        "8b32fb4a:outside_bench/memos/ONE_BIT.md",
+        "8b32fb4a:philosophy/13_the_computed_observer.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/physics-seat",
+      "sha": "659487bb",
+      "content": [
+        "659487bb:PROGRESS_LOG.md",
+        "659487bb:docs/CAMPAIGN_STATUS.md",
+        "659487bb:frontier/B1085_edge_observability/FINDINGS.md",
+        "659487bb:frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+        "659487bb:frontier/B1169_qualia_parity_synthesis/b1169_results.json",
+        "659487bb:philosophy/13_the_computed_observer.md",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/T5_a6_audit/sweep_hits.tsv",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/phaseB/digests/arcs/arcs_019.json",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/phaseB/digests/arcs/arcs_025.json",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/phaseB/digests/arcs/arcs_115.json",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/phaseB/digests/log/PROGRESS_LOG.md_5.json",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/phaseB/sweeps/absence_sweep_p5.tsv",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/phaseB/synthesis/load_bearing.tsv",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/phaseB/synthesis/log_entries.tsv",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/phaseB/synthesis/owner_elections.tsv",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/campaign/phaseB/synthesis/thin_reads.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/sm-seat",
+      "sha": "1703c0d8",
+      "content": [
+        "1703c0d8:PROGRESS_LOG.md",
+        "1703c0d8:docs/CAMPAIGN_STATUS.md",
+        "1703c0d8:frontier/B1085_edge_observability/FINDINGS.md",
+        "1703c0d8:frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+        "1703c0d8:frontier/B1169_qualia_parity_synthesis/b1169_results.json",
+        "1703c0d8:philosophy/13_the_computed_observer.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/numbered-seat",
+      "sha": "f7a49536",
+      "content": [
+        "f7a49536:frontier/B1085_edge_observability/FINDINGS.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/main",
+      "sha": "b94ed03a",
+      "content": [
+        "b94ed03a:PROGRESS_LOG.md",
+        "b94ed03a:docs/CAMPAIGN_STATUS.md",
+        "b94ed03a:frontier/B1085_edge_observability/FINDINGS.md",
+        "b94ed03a:frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+        "b94ed03a:frontier/B1169_qualia_parity_synthesis/b1169_results.json",
+        "b94ed03a:frontier/B1291_the_parity_of_the_cusp/verification/orbifold.py",
+        "b94ed03a:philosophy/13_the_computed_observer.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/paper/structure-genesis-first",
+      "sha": "a31456d2",
+      "content": [],
+      "filenames": []
+    }
+  ],
+  "deleted": [],
+  "worktree": [
+    "PROGRESS_LOG.md",
+    "docs/CAMPAIGN_STATUS.md",
+    "docs/LAW_MAP.md",
+    "docs/OPEN_LEADS.md",
+    "docs/SEAL_LEDGER.md",
+    "docs/THE_LADDER.md",
+    "frontier/B1085_edge_observability/FINDINGS.md",
+    "frontier/B1169_qualia_parity_synthesis/FINDINGS.md",
+    "frontier/B1169_qualia_parity_synthesis/b1169_results.json",
+    "philosophy/13_the_computed_observer.md",
+    "reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX.md",
+    "reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+    "reports/physical_bridge_2026_09_05/MASS_INFLOW_BUNDLE_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/MASS_INFLOW_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+    "reports/physical_bridge_2026_09_05/infrared_alignment.py",
+    "tests/test_physical_bridge_mass_inflow.py"
+  ],
+  "note": "2026-09-09 presence sweep after fetch. Branch aliases only; deleted paths are searched, not deleted blob contents, and Git errors are not all fail-closed. No universal absence claim."
+}

@@ -1,0 +1,16 @@
+R25 pre-execution metadata checks, 2026-09-09
+Scientific producer and tests have not been imported or executed.
+Metadata-only seal checks and identification_audit.py; exits 0,0.
+Older debts retained; not a full repository or independent certificate.
+
+new_design_markers True
+seal_digests (True, 'ok (58 sealed digests recomputed and matching)')
+older_global_seal_provenance (False, ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md'])
+identification ledger: 24 rows -- docs/IDENTIFICATION_LEDGER.md
+  EARNED      8   I-1 I-2 I-3 I-12 I-19 I-20 I-21 I-22
+  REFUTED     7   I-4 I-5 I-8 I-15 I-16 I-17 I-24
+  UNEARNED    9   I-6 I-7 I-9 I-10 I-11 I-13 I-14 I-18 I-23
+
+  UNEARNED = 9   <- these are UNPRICED OBSERVER INPUTS (B1225: the object cannot identify)
+  the input ledger's parameter count is a LOWER BOUND while any row is UNEARNED.
+  ratchet baseline: 9   current: 9   OK
