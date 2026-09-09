@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1198** |
-| words of findings prose | **855,860** |
-| test lock files referenced | **704** |
-| arcs carrying an authored verdict | **1198** (100.0 %) |
+| research arcs with findings | **1199** |
+| words of findings prose | **856,522** |
+| test lock files referenced | **705** |
+| arcs carrying an authored verdict | **1199** (100.0 %) |
 | recorded closures | **788** (621 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 787 |
+| PROVED | 788 |
 | NEGATIVE | 313 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1307`** (1418 words, 4 locks)  
-THE HARVEST GATE (MASTERPLAN v3.1 section 1 / 1a rule 3; instrument arc; DESIGN sealed 80899ba4). scripts/checks/harvest_debt.py reads the local remote-tracking refs of nine seat branches, compares each with a pinned last-read commit (a new `## Pins` table in HARVEST_LEDGER; a pin is a receipt advanced only by a landing that read that far), maps changed paths to seat item ids by each seat's own convention, reconciles the harvest ledger against each seat's OWN index both ways (BACKLOG = index ids without a row; STALE = rows resolving to no index id), lists seat-branch relay files without a RELAY_LEDGER row, reports origin-vs-codeberg mirror lag, and ages unrowed NEW items at 21 days (exit 2); --strict fails on any debt and runs under `gates.py review-due`. Two-sided controls PASS (five synthetic plants, and a live pin-override control that grew the SM seat's NEW sets by exactly the ids of the commits entering the range). First run: 494 seat-index ids, NEW unrowed 6 (the SM seat's four branch-only docs; cloud memos 183, 184), BACKLOG 428, STALE 0, 348 seat-branch relays without a row (176 cc3, 131 braver-July, 38 codex, 3 fc incl. FC_TO_CC_2026-09-06), mirror lag on two branches, 5.5 s. relay_debt.py's sender set widened to every lane (SM/FC/FAB5/CHAT1 were invisible) and its row grammar made tolerant (four BANKED rows were unparsed); two tracked relays rowed. The sense census's third pre-registration PASSED on both routes (self-naming exclusion on HEAD; the unmodified census at the pre-instrument commit 31dd52b9): ADOPTED as scripts/checks/sense_census.py (research instrument, not a gate; the cloud's memo 172 credited). 32 gates. Review 56 is due and opens with the debt.  
-`B1307_the_harvest_gate/FINDINGS.md`
+**PROVED — `B1320`** (662 words, 1 locks)  
+PHASE 2 ARC 0 (MASTERPLAN v3.1 section 4; DESIGN sealed b1f71f45 before the run): Pantev-Wijnholt's LOCALIZED chirality count on the cyclic descent -- the signed zero-locus count of the Higgs eigenform, on a one-cusped cover the fixed-point count |det(A - I)| of an orientation-preserving cusp-fixing isometry -- takes the values {0, 4} and never 3 or 6 on C_3 (H_1 = Z/4 + Z/4 + Z, 24 isometries) and C_4 (Z/3 + Z/15 + Z, 32 isometries), computed live with SnapPy on every isometry; the positive control fires on the same code path (m202, the census's first manifold with an order-3 cusp rotation, |det(A - I)| = 3). With B1297 (the bulk index vanishes on every (2+1)-reducible configuration) both halves of D2 are now computed on the cyclic tower: the Z/3 descent that supplies three families supplies no localized chirality. Remaining: Arc A (the bulk index beyond the cyclic tower), Arc B (a non-amphichiral cover or a priced partial filling), L205 (B1321: m202, where the localized count IS 3 at the price of the golden face).  
+`B1320_phase2_arc0_pw_count/FINDINGS.md`
 
 **NEGATIVE — `B1291`** (1252 words, 0 locks)  
 THE PARITY THEOREM: 3 IS EXCLUDED ON A ONE-CUSPED MANIFOLD, AND THE ESCAPE IS >=2 CUSPS. For an affine map of T^2 the fixed-point count is |det(A - I)|, independent of the translation part, and det(A-I) = det A - tr A + 1, so finite order in GL(2,Z) makes |Fix| in {0,1,2,3,4} with 3 coming from the ORDER-3 rotation (det 1, tr -1) -- 3 is ALGEBRAICALLY REACHABLE. The geometry forbids it: Fix(g) of an orientation-preserving finite-order isometry is a union of closed geodesics (no ends) and properly embedded geodesic LINES (two ends each), so with exactly ONE cusp every end lands there and |Fix on the cusp| = 2*(#fixed lines), ALWAYS EVEN. Three ends in one cusp is odd. VERIFIED ON THIS BENCH over 1200 one-cusped census manifolds: |Fix| sets {(0,4): 1196, (0,): 4}, ZERO odd violations; m004 itself Sym = D4 order 8, |Fix| in {0,4}. So the generation count 3 can NEVER come from m004's cusp -- not absent, EXCLUDED. THE CONTROL FIRES, which is what makes this a SPECIFICATION rather than an obituary: with >=2 cusps |Fix| = 1,2,3 all occur (m202 realises BOTH 1 and 3; m125 realises 2), and one-cusped s960 has a genuine Z/3 whose order-3 elements act as FREE TRANSLATIONS, exactly as parity demands. THE ESCAPE IS NAMED AND IS OBJECT-INTRINSIC: E6 does not come from the cusp count -- B727 forces it through Q(sqrt-3), and the invariant trace field is a COMMENSURABILITY INVARIANT -- so a MULTI-CUSPED MANIFOLD COMMENSURABLE WITH m004 keeps Q(sqrt-3), keeps 2T, keeps E6, and lifts the parity obstruction. LEAVE THE KNOT, KEEP THE FIELD. ALSO CLOSED HERE: the subsurface case (chi(d+M) != 0 IFF the dividing set has a null-homotopic component; every canonical dividing set is essential) and the symmetry case (all 54 affine involutions of T^2, exactly three fixed-set types, NEVER inessential; on m004 only 2 of 8 isometries have fixed points, 4 each, and no orientation-reversing isometry has any, so no fixed circles). AND A SELF-INDICTMENT BANKED: this arc's own draft closed the corner case with 'chi_orb = 0 for all 17 wallpaper quotients', which an adversarial lane found to be VACUOUS -- chi_orb(T^2/G) = chi(T^2)/|G| = 0 IDENTICALLY for every finite G, so the criterion CANNOT FAIL; and chi_orb is the wrong invariant anyway, excluded on integrality (D^2(n) has index 1 for every n while chi_orb = 1/n is not an integer). The conclusion survived, the argument did not; the script is retained labelled as the refuted step. The corner case closes instead by adversarial verification on GENERICITY (E61) -- chi(T^2 minus 4 pts) = -4 holds for 3994/4000 one-cusped census manifolds and equals -2*(#tetrahedra), chi(|O|) = #cusps for 17 of 18 -- and on ADMISSIBILITY (puncturing is 0-dimensional; a dividing set must be a closed 1-manifold). FINALLY, A JOIN THE CORPUS ALREADY HAD: B749 fork F2 already computes the punctured cone spectrum chi_orb = -1/2, B365 the half-period table at exactly 0, 1/2, tau/2, (1+tau)/2, and B366 a locked puncture lemma -- never joined, never applied to the cusp. I-26 stays UNEARNED (fourth restatement of its price).  

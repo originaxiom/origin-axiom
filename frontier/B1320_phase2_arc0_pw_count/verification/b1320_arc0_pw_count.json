@@ -1,0 +1,113 @@
+{
+ "design": "b1f71f45",
+ "base": {
+  "name": "m004",
+  "H1": "Z",
+  "n_isometries": 8,
+  "summary": {
+   "0|det-1": 4,
+   "4|det+1": 2,
+   "0|det+1": 2
+  }
+ },
+ "covers": {
+  "deg3_0": {
+   "degree": 3,
+   "index": 0,
+   "type": "cyclic",
+   "H1": "Z/4 + Z/4 + Z",
+   "cusps": 1,
+   "n_isometries": 24,
+   "summary": {
+    "0|det-1": 12,
+    "4|det+1": 6,
+    "0|det+1": 6
+   },
+   "values": [
+    0,
+    4
+   ],
+   "values_orientation_preserving": [
+    0,
+    4
+   ],
+   "max_order": 2
+  },
+  "deg4_0": {
+   "degree": 4,
+   "index": 0,
+   "type": "cyclic",
+   "H1": "Z/3 + Z/15 + Z",
+   "cusps": 1,
+   "n_isometries": 32,
+   "summary": {
+    "0|det-1": 16,
+    "4|det+1": 8,
+    "0|det+1": 8
+   },
+   "values": [
+    0,
+    4
+   ],
+   "values_orientation_preserving": [
+    0,
+    4
+   ],
+   "max_order": 2
+  },
+  "deg4_1": {
+   "degree": 4,
+   "index": 1,
+   "type": "irregular",
+   "H1": "Z + Z",
+   "cusps": 2,
+   "n_isometries": 8,
+   "summary": {
+    "4|det+1": 4,
+    "0|det-1": 8,
+    "0|det+1": 4
+   },
+   "values": [
+    0,
+    4
+   ],
+   "values_orientation_preserving": [
+    0,
+    4
+   ],
+   "max_order": 2
+  }
+ },
+ "control": {
+  "name": "m202",
+  "H1": "Z + Z",
+  "cusps": 2,
+  "example": {
+   "cusp": 0,
+   "det": 1,
+   "det_AmI": 3,
+   "order": 3,
+   "A": [
+    [
+     -1,
+     -1
+    ],
+    [
+     1,
+     0
+    ]
+   ]
+  },
+  "summary": {
+   "1|det+1": 4,
+   "4|det+1": 2,
+   "3|det+1": 4,
+   "0|det+1": 2
+  }
+ },
+ "cyclic_values": [
+  0,
+  4
+ ],
+ "pass": true
+}

@@ -1,0 +1,18 @@
+{
+ "id": "B1320",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1297",
+  "B1295",
+  "B1291",
+  "B1302",
+  "B1294"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "PHASE 2 ARC 0 (MASTERPLAN v3.1 section 4; DESIGN sealed b1f71f45 before the run): Pantev-Wijnholt's LOCALIZED chirality count on the cyclic descent -- the signed zero-locus count of the Higgs eigenform, on a one-cusped cover the fixed-point count |det(A - I)| of an orientation-preserving cusp-fixing isometry -- takes the values {0, 4} and never 3 or 6 on C_3 (H_1 = Z/4 + Z/4 + Z, 24 isometries) and C_4 (Z/3 + Z/15 + Z, 32 isometries), computed live with SnapPy on every isometry; the positive control fires on the same code path (m202, the census's first manifold with an order-3 cusp rotation, |det(A - I)| = 3). With B1297 (the bulk index vanishes on every (2+1)-reducible configuration) both halves of D2 are now computed on the cyclic tower: the Z/3 descent that supplies three families supplies no localized chirality. Remaining: Arc A (the bulk index beyond the cyclic tower), Arc B (a non-amphichiral cover or a priced partial filling), L205 (B1321: m202, where the localized count IS 3 at the price of the golden face)."
+}

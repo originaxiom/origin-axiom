@@ -7004,6 +7004,25 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1320": {
+   "slug": "phase2 arc0 pw count",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "L202",
+    "L205"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B132": {
    "slug": "quantum layer",
    "motifs": [

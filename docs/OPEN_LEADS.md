@@ -2343,6 +2343,8 @@ the MASTERPLAN v3 door path — recorded, not chased; it becomes a door only if 
 
 ## L202 — WHERE A SPECTRAL COVER ON m004 COULD STILL BE CHIRAL: the sectors the period-2 symmetry does not dualise (registered 2026-09-08, B1297; source: this bench, found while closing D2's (2+1)-reducible family)
 
+*L202 note (2026-09-09, B1320 — Phase 2 Arc 0): PW's LOCALIZED count on the cyclic descent is computed: on C₃ and C₄ every orientation-preserving cusp-fixing isometry has |det(A − I)| ∈ {0, 4} — never 3 or 6 — with m202 as the live positive control (its order-3 rotation gives 3 on the same code path). The localized half of D2 is closed on the cyclic tower in PW's own frame; Arc A (the bulk index beyond the tower) and Arc B (a non-amphichiral cover or a priced partial filling) remain.*
+
 B1297 proved every (2+1)-reducible E₆ spectral cover on the cyclic tower of m004 vector-like, twice over: Galois self-duality
 for twists of order prime to 3, and the period-2 symmetry acting as −1 on the Alexander module (so `ψ∘P = ψ⁻¹`,
 `J(ψ) = −J(ψ)`) for all orders. Three sectors survive, each a bounded computation: **(a)** irreducible non-extending SL(3)
