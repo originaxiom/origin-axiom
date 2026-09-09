@@ -1,6 +1,19 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-**LATEST LOCAL AUDIT, 2026-09-09 (R24): the actual total boundary charge.**
+**LATEST LOCAL AUDIT, 2026-09-09 (R25): an explicit free boundary response.**
+The reference-wall ansatz derives an opposite-index/anomaly boundary
+channel from the actual mass eigenline. Moving it to the ends does
+not decouple it from the unchanged constant gauge mode. This is a
+compensating mirror sector and an ADDED scalar mass, not a selected
+physical defect or a mirror-free completion. The conditional interior
+three/zero kernel remains. Next test localized gauge-backreaction
+stability of that index, then the compatible massive-U1 action and
+quantum matching. Other boundary/cone routes remain live.
+Report: reports/physical_bridge_2026_09_05/BOUNDARY_WALL.md.
+15 new tests pass; broad 341 pass/14 fail/8 error, exactly the prior
+failed/error inventory. No main B allocation or completed physical TOE.
+
+**PRECEDING LOCAL AUDIT, 2026-09-09 (R24): the actual total boundary charge.**
 For the specified positive-source class, the actual mass-eigenline
 curvature has total rounded-boundary flux sign(q)*k for k proper arcs.
 The proof includes the actual spin connection, corner flow and complete

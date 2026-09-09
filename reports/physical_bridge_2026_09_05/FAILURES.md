@@ -687,3 +687,20 @@ Their mathematical theorem and analytic hypotheses are stated in
 GLOBAL_MASS_FLUX.md. They are not a boundary quantum theory or an
 independent banking review. The false negative is an instrument
 representation defect, not a withdrawal of the source construction.
+
+## R25: no new failed/error IDs (2026-09-09)
+
+Seal 16ba8ce1 precedes the successful native run (7.677 s), whose
+complete output is retained. All 15 new boundary-wall tests pass.
+The focused 71 pass/1 fail run retains exactly the original R24 raw
+matrix-comparison failure, alongside its successful exact controls.
+The 46-file broad regression is 341 pass/14 fail/8 error in 287.77 s.
+Its full 22-ID inventory equals R24's; none added or missing. Original
+sources, tests, tolerances and failed receipts were not changed.
+
+The free wall's mirror-sector cost is a scoped mathematical result,
+not an instrumental failure or a universal chirality kill. The actual
+source-selected boundary determinant, individual finite-system modes,
+quantum phases and physical source remain outside this calculation.
+Native and test receipts: boundary_wall_first_run.json,
+BOUNDARY_WALL_CHECKS.txt and BOUNDARY_WALL_REGRESSION.txt.

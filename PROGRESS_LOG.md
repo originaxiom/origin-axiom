@@ -14679,3 +14679,28 @@ test or tolerance was rewritten. All nine remote branch heads fetched;
 outside advanced to 89af20f8. Its memo 192 accepts the earlier general
 E7-to-E6 correction; no new outside numerical certificate is claimed.
 No B allocation, external relay, main merge or completed physical TOE.
+
+## 2026-09-09 — R25: free reference wall and the charge-decoupling test
+
+**LATEST LOCAL AUDIT, 2026-09-09 (R25): an explicit free boundary response.**
+The reference-wall ansatz derives an opposite-index/anomaly boundary
+channel from the actual mass eigenline. Moving it to the ends does
+not decouple it from the unchanged constant gauge mode. This is a
+compensating mirror sector and an ADDED scalar mass, not a selected
+physical defect or a mirror-free completion. The conditional interior
+three/zero kernel remains. Next test localized gauge-backreaction
+stability of that index, then the compatible massive-U1 action and
+quantum matching. Other boundary/cone routes remain live.
+Report: reports/physical_bridge_2026_09_05/BOUNDARY_WALL.md.
+15 new tests pass; broad 341 pass/14 fail/8 error, exactly the prior
+failed/error inventory. No main B allocation or completed physical TOE.
+
+Seal 16ba8ce1 was pushed before science. Native run 7.677 s; focused
+71 pass/1 preserved R24 failure in 31.55 s. The quiescent 46-file run
+completed in 287.77 s; all 22 previous failed/error IDs remain, none
+added. Source, tests, tolerances and first evidence are unchanged.
+Physical/regulator distinction, induced spin bundle, both reference
+signs, compact-surface index, full root-weight polynomial and the
+normalized constant-gauge coupling are explicit. Exact separate normal
+and Cech controls do not assert the complete finite-system spectrum.
+CC's held numbering relay read; no B ID, branch merge or external send.

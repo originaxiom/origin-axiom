@@ -1,0 +1,780 @@
+{
+  "scope": "added free reference wall, compact-surface effective index and conditional gauge coupling; not selected defect or full singular determinant",
+  "clifford": {
+    "clifford": true,
+    "chi4": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "chi6": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ]
+    ],
+    "normal": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ]
+    ],
+    "boundary_chirality": true,
+    "right_internal_matches": [
+      true,
+      true,
+      true
+    ],
+    "r23_kinetic_matches": [
+      true,
+      true,
+      true
+    ],
+    "factorization": true,
+    "normal_positive_rank": 4,
+    "reversed_boundary_sign_rejected": true
+  },
+  "normal": {
+    "profile": "cosh(s)**(-a)",
+    "dimensionless_mass": "a*tanh(s)",
+    "residual": "0",
+    "opposite_residual": "2*a*tanh(s)",
+    "right_log_slope": "-a",
+    "left_log_slope": "a",
+    "normal_norm": "sqrt(pi)*ell*gamma(a)/gamma(a + 1/2)",
+    "beta_integrand": "(1 - t**2)**(a - 1)",
+    "integer_integrals": [
+      {
+        "a": 1,
+        "integral": "2",
+        "gamma_formula": "2",
+        "difference": "0"
+      },
+      {
+        "a": 2,
+        "integral": "4/3",
+        "gamma_formula": "4/3",
+        "difference": "0"
+      },
+      {
+        "a": 3,
+        "integral": "16/15",
+        "gamma_formula": "16/15",
+        "difference": "0"
+      },
+      {
+        "a": 4,
+        "integral": "32/35",
+        "gamma_formula": "32/35",
+        "difference": "0"
+      }
+    ],
+    "scalar_trace": "tanh(s) + 1",
+    "identity_mass_coefficient": "tanh(s)/2 + 1/2",
+    "trace_inside": "0",
+    "trace_outside": "2"
+  },
+  "sign_controls": [
+    {
+      "left": -1,
+      "right": -1,
+      "normalizable_chiralities": []
+    },
+    {
+      "left": -1,
+      "right": 1,
+      "normalizable_chiralities": [
+        1
+      ]
+    },
+    {
+      "left": 1,
+      "right": -1,
+      "normalizable_chiralities": [
+        -1
+      ]
+    },
+    {
+      "left": 1,
+      "right": 1,
+      "normalizable_chiralities": []
+    }
+  ],
+  "connection": {
+    "unit_vector": "1",
+    "negative_projector": true,
+    "actual_wall_trace": "u + 1",
+    "wall_inside": true,
+    "wall_outside": true,
+    "negative_mass_eigenvector": true,
+    "direct_curvature": "(h*sin(2*theta) + sin(theta))/(4*pi)",
+    "projector_curvature": "(h*sin(2*theta) + sin(theta))/(4*pi)",
+    "independent_residual": "0",
+    "complementary_residual": "0",
+    "omitted_connection_difference": "h*sin(2*theta)/(4*pi)",
+    "off_diagonal_derivative_nonzero": true,
+    "flat_sphere_minus_flux": "1"
+  },
+  "indices": [
+    {
+      "total_K": -3,
+      "genus": 0,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": -3,
+      "spin_degree": -1,
+      "holomorphic_degree": -4,
+      "spin_index": -3,
+      "four_index": 3,
+      "spin_omission": -2
+    },
+    {
+      "total_K": -3,
+      "genus": 0,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": 3,
+      "spin_degree": -1,
+      "holomorphic_degree": 2,
+      "spin_index": 3,
+      "four_index": 3,
+      "spin_omission": 4
+    },
+    {
+      "total_K": -3,
+      "genus": 1,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": -3,
+      "spin_degree": 0,
+      "holomorphic_degree": -3,
+      "spin_index": -3,
+      "four_index": 3,
+      "spin_omission": -3
+    },
+    {
+      "total_K": -3,
+      "genus": 1,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": 3,
+      "spin_degree": 0,
+      "holomorphic_degree": 3,
+      "spin_index": 3,
+      "four_index": 3,
+      "spin_omission": 3
+    },
+    {
+      "total_K": -3,
+      "genus": 4,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": -3,
+      "spin_degree": 3,
+      "holomorphic_degree": 0,
+      "spin_index": -3,
+      "four_index": 3,
+      "spin_omission": -6
+    },
+    {
+      "total_K": -3,
+      "genus": 4,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": 3,
+      "spin_degree": 3,
+      "holomorphic_degree": 6,
+      "spin_index": 3,
+      "four_index": 3,
+      "spin_omission": 0
+    },
+    {
+      "total_K": -1,
+      "genus": 0,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": -1,
+      "spin_degree": -1,
+      "holomorphic_degree": -2,
+      "spin_index": -1,
+      "four_index": 1,
+      "spin_omission": 0
+    },
+    {
+      "total_K": -1,
+      "genus": 0,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": 1,
+      "spin_degree": -1,
+      "holomorphic_degree": 0,
+      "spin_index": 1,
+      "four_index": 1,
+      "spin_omission": 2
+    },
+    {
+      "total_K": -1,
+      "genus": 1,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": -1,
+      "spin_degree": 0,
+      "holomorphic_degree": -1,
+      "spin_index": -1,
+      "four_index": 1,
+      "spin_omission": -1
+    },
+    {
+      "total_K": -1,
+      "genus": 1,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": 1,
+      "spin_degree": 0,
+      "holomorphic_degree": 1,
+      "spin_index": 1,
+      "four_index": 1,
+      "spin_omission": 1
+    },
+    {
+      "total_K": -1,
+      "genus": 4,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": -1,
+      "spin_degree": 3,
+      "holomorphic_degree": 2,
+      "spin_index": -1,
+      "four_index": 1,
+      "spin_omission": -4
+    },
+    {
+      "total_K": -1,
+      "genus": 4,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": 1,
+      "spin_degree": 3,
+      "holomorphic_degree": 4,
+      "spin_index": 1,
+      "four_index": 1,
+      "spin_omission": -2
+    },
+    {
+      "total_K": 0,
+      "genus": 0,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": 0,
+      "spin_degree": -1,
+      "holomorphic_degree": -1,
+      "spin_index": 0,
+      "four_index": 0,
+      "spin_omission": 1
+    },
+    {
+      "total_K": 0,
+      "genus": 0,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": 0,
+      "spin_degree": -1,
+      "holomorphic_degree": -1,
+      "spin_index": 0,
+      "four_index": 0,
+      "spin_omission": 1
+    },
+    {
+      "total_K": 0,
+      "genus": 1,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": 0,
+      "spin_degree": 0,
+      "holomorphic_degree": 0,
+      "spin_index": 0,
+      "four_index": 0,
+      "spin_omission": 0
+    },
+    {
+      "total_K": 0,
+      "genus": 1,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": 0,
+      "spin_degree": 0,
+      "holomorphic_degree": 0,
+      "spin_index": 0,
+      "four_index": 0,
+      "spin_omission": 0
+    },
+    {
+      "total_K": 0,
+      "genus": 4,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": 0,
+      "spin_degree": 3,
+      "holomorphic_degree": 3,
+      "spin_index": 0,
+      "four_index": 0,
+      "spin_omission": -3
+    },
+    {
+      "total_K": 0,
+      "genus": 4,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": 0,
+      "spin_degree": 3,
+      "holomorphic_degree": 3,
+      "spin_index": 0,
+      "four_index": 0,
+      "spin_omission": -3
+    },
+    {
+      "total_K": 1,
+      "genus": 0,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": 1,
+      "spin_degree": -1,
+      "holomorphic_degree": 0,
+      "spin_index": 1,
+      "four_index": -1,
+      "spin_omission": 2
+    },
+    {
+      "total_K": 1,
+      "genus": 0,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": -1,
+      "spin_degree": -1,
+      "holomorphic_degree": -2,
+      "spin_index": -1,
+      "four_index": -1,
+      "spin_omission": 0
+    },
+    {
+      "total_K": 1,
+      "genus": 1,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": 1,
+      "spin_degree": 0,
+      "holomorphic_degree": 1,
+      "spin_index": 1,
+      "four_index": -1,
+      "spin_omission": 1
+    },
+    {
+      "total_K": 1,
+      "genus": 1,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": -1,
+      "spin_degree": 0,
+      "holomorphic_degree": -1,
+      "spin_index": -1,
+      "four_index": -1,
+      "spin_omission": -1
+    },
+    {
+      "total_K": 1,
+      "genus": 4,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": 1,
+      "spin_degree": 3,
+      "holomorphic_degree": 4,
+      "spin_index": 1,
+      "four_index": -1,
+      "spin_omission": -2
+    },
+    {
+      "total_K": 1,
+      "genus": 4,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": -1,
+      "spin_degree": 3,
+      "holomorphic_degree": 2,
+      "spin_index": -1,
+      "four_index": -1,
+      "spin_omission": -4
+    },
+    {
+      "total_K": 3,
+      "genus": 0,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": 3,
+      "spin_degree": -1,
+      "holomorphic_degree": 2,
+      "spin_index": 3,
+      "four_index": -3,
+      "spin_omission": 4
+    },
+    {
+      "total_K": 3,
+      "genus": 0,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": -3,
+      "spin_degree": -1,
+      "holomorphic_degree": -4,
+      "spin_index": -3,
+      "four_index": -3,
+      "spin_omission": -2
+    },
+    {
+      "total_K": 3,
+      "genus": 1,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": 3,
+      "spin_degree": 0,
+      "holomorphic_degree": 3,
+      "spin_index": 3,
+      "four_index": -3,
+      "spin_omission": 3
+    },
+    {
+      "total_K": 3,
+      "genus": 1,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": -3,
+      "spin_degree": 0,
+      "holomorphic_degree": -3,
+      "spin_index": -3,
+      "four_index": -3,
+      "spin_omission": -3
+    },
+    {
+      "total_K": 3,
+      "genus": 4,
+      "reference": -1,
+      "six_chirality": -1,
+      "eigenline_degree": 3,
+      "spin_degree": 3,
+      "holomorphic_degree": 6,
+      "spin_index": 3,
+      "four_index": -3,
+      "spin_omission": 0
+    },
+    {
+      "total_K": 3,
+      "genus": 4,
+      "reference": 1,
+      "six_chirality": 1,
+      "eigenline_degree": -3,
+      "spin_degree": 3,
+      "holomorphic_degree": 0,
+      "spin_index": -3,
+      "four_index": -3,
+      "spin_omission": -6
+    }
+  ],
+  "spheres": [
+    {
+      "degree": -4,
+      "h0_monomials": [],
+      "h1_laurent_powers": [
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "index": -4
+    },
+    {
+      "degree": -3,
+      "h0_monomials": [],
+      "h1_laurent_powers": [
+        -3,
+        -2,
+        -1
+      ],
+      "index": -3
+    },
+    {
+      "degree": -2,
+      "h0_monomials": [],
+      "h1_laurent_powers": [
+        -2,
+        -1
+      ],
+      "index": -2
+    },
+    {
+      "degree": -1,
+      "h0_monomials": [],
+      "h1_laurent_powers": [
+        -1
+      ],
+      "index": -1
+    },
+    {
+      "degree": 0,
+      "h0_monomials": [],
+      "h1_laurent_powers": [],
+      "index": 0
+    },
+    {
+      "degree": 1,
+      "h0_monomials": [
+        0
+      ],
+      "h1_laurent_powers": [],
+      "index": 1
+    },
+    {
+      "degree": 2,
+      "h0_monomials": [
+        0,
+        1
+      ],
+      "h1_laurent_powers": [],
+      "index": 2
+    },
+    {
+      "degree": 3,
+      "h0_monomials": [
+        0,
+        1,
+        2
+      ],
+      "h1_laurent_powers": [],
+      "index": 3
+    },
+    {
+      "degree": 4,
+      "h0_monomials": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "h1_laurent_powers": [],
+      "index": 4
+    }
+  ],
+  "anomaly": {
+    "edge8": "2*K**4/3 - 8*K**3*z0/3 - 2*K**3*z1 - 10*K**3*z2/3 - 4*K**3*z3 - 8*K**3*z4/3 - 4*K**3*z5/3 - K**2*p1_T/3 + 4*K**2*z0**2 + 6*K**2*z0*z1 + 10*K**2*z0*z2 + 12*K**2*z0*z3 + 8*K**2*z0*z4 + 4*K**2*z0*z5 + 7*K**2*z1**2/2 + 9*K**2*z1*z2 + 12*K**2*z1*z3 + 8*K**2*z1*z4 + 4*K**2*z1*z5 + 15*K**2*z2**2/2 + 18*K**2*z2*z3 + 12*K**2*z2*z4 + 6*K**2*z2*z5 + 12*K**2*z3**2 + 16*K**2*z3*z4 + 8*K**2*z3*z5 + 6*K**2*z4**2 + 6*K**2*z4*z5 + 2*K**2*z5**2 + 2*K*p1_T*z0/3 + K*p1_T*z1/2 + 5*K*p1_T*z2/6 + K*p1_T*z3 + 2*K*p1_T*z4/3 + K*p1_T*z5/3 - 8*K*z0**3/3 - 6*K*z0**2*z1 - 10*K*z0**2*z2 - 12*K*z0**2*z3 - 8*K*z0**2*z4 - 4*K*z0**2*z5 - 7*K*z0*z1**2 - 18*K*z0*z1*z2 - 24*K*z0*z1*z3 - 16*K*z0*z1*z4 - 8*K*z0*z1*z5 - 15*K*z0*z2**2 - 36*K*z0*z2*z3 - 24*K*z0*z2*z4 - 12*K*z0*z2*z5 - 24*K*z0*z3**2 - 32*K*z0*z3*z4 - 16*K*z0*z3*z5 - 12*K*z0*z4**2 - 12*K*z0*z4*z5 - 4*K*z0*z5**2 - 3*K*z1**3 - 11*K*z1**2*z2 - 15*K*z1**2*z3 - 10*K*z1**2*z4 - 5*K*z1**2*z5 - 15*K*z1*z2**2 - 39*K*z1*z2*z3 - 26*K*z1*z2*z4 - 13*K*z1*z2*z5 - 27*K*z1*z3**2 - 36*K*z1*z3*z4 - 18*K*z1*z3*z5 - 13*K*z1*z4**2 - 13*K*z1*z4*z5 - 4*K*z1*z5**2 - 25*K*z2**3/3 - 30*K*z2**2*z3 - 20*K*z2**2*z4 - 10*K*z2**2*z5 - 39*K*z2*z3**2 - 52*K*z2*z3*z4 - 26*K*z2*z3*z5 - 19*K*z2*z4**2 - 19*K*z2*z4*z5 - 6*K*z2*z5**2 - 18*K*z3**3 - 36*K*z3**2*z4 - 18*K*z3**2*z5 - 26*K*z3*z4**2 - 26*K*z3*z4*z5 - 8*K*z3*z5**2 - 20*K*z4**3/3 - 10*K*z4**2*z5 - 6*K*z4*z5**2 - 4*K*z5**3/3 + 7*p1_T**2/360 - p1_T*z0**2/3 - p1_T*z0*z1/2 - 5*p1_T*z0*z2/6 - p1_T*z0*z3 - 2*p1_T*z0*z4/3 - p1_T*z0*z5/3 - 7*p1_T*z1**2/24 - 3*p1_T*z1*z2/4 - p1_T*z1*z3 - 2*p1_T*z1*z4/3 - p1_T*z1*z5/3 - 5*p1_T*z2**2/8 - 3*p1_T*z2*z3/2 - p1_T*z2*z4 - p1_T*z2*z5/2 - p1_T*z3**2 - 4*p1_T*z3*z4/3 - 2*p1_T*z3*z5/3 - p1_T*z4**2/2 - p1_T*z4*z5/2 - p1_T*z5**2/6 - p2_T/90 + 2*z0**4/3 + 2*z0**3*z1 + 10*z0**3*z2/3 + 4*z0**3*z3 + 8*z0**3*z4/3 + 4*z0**3*z5/3 + 7*z0**2*z1**2/2 + 9*z0**2*z1*z2 + 12*z0**2*z1*z3 + 8*z0**2*z1*z4 + 4*z0**2*z1*z5 + 15*z0**2*z2**2/2 + 18*z0**2*z2*z3 + 12*z0**2*z2*z4 + 6*z0**2*z2*z5 + 12*z0**2*z3**2 + 16*z0**2*z3*z4 + 8*z0**2*z3*z5 + 6*z0**2*z4**2 + 6*z0**2*z4*z5 + 2*z0**2*z5**2 + 3*z0*z1**3 + 11*z0*z1**2*z2 + 15*z0*z1**2*z3 + 10*z0*z1**2*z4 + 5*z0*z1**2*z5 + 15*z0*z1*z2**2 + 39*z0*z1*z2*z3 + 26*z0*z1*z2*z4 + 13*z0*z1*z2*z5 + 27*z0*z1*z3**2 + 36*z0*z1*z3*z4 + 18*z0*z1*z3*z5 + 13*z0*z1*z4**2 + 13*z0*z1*z4*z5 + 4*z0*z1*z5**2 + 25*z0*z2**3/3 + 30*z0*z2**2*z3 + 20*z0*z2**2*z4 + 10*z0*z2**2*z5 + 39*z0*z2*z3**2 + 52*z0*z2*z3*z4 + 26*z0*z2*z3*z5 + 19*z0*z2*z4**2 + 19*z0*z2*z4*z5 + 6*z0*z2*z5**2 + 18*z0*z3**3 + 36*z0*z3**2*z4 + 18*z0*z3**2*z5 + 26*z0*z3*z4**2 + 26*z0*z3*z4*z5 + 8*z0*z3*z5**2 + 20*z0*z4**3/3 + 10*z0*z4**2*z5 + 6*z0*z4*z5**2 + 4*z0*z5**3/3 + 13*z1**4/12 + 5*z1**3*z2 + 7*z1**3*z3 + 14*z1**3*z4/3 + 7*z1**3*z5/3 + 19*z1**2*z2**2/2 + 51*z1**2*z2*z3/2 + 17*z1**2*z2*z4 + 17*z1**2*z2*z5/2 + 18*z1**2*z3**2 + 24*z1**2*z3*z4 + 12*z1**2*z3*z5 + 17*z1**2*z4**2/2 + 17*z1**2*z4*z5/2 + 5*z1**2*z5**2/2 + 9*z1*z2**3 + 69*z1*z2**2*z3/2 + 23*z1*z2**2*z4 + 23*z1*z2**2*z5/2 + 93*z1*z2*z3**2/2 + 62*z1*z2*z3*z4 + 31*z1*z2*z3*z5 + 22*z1*z2*z4**2 + 22*z1*z2*z4*z5 + 13*z1*z2*z5**2/2 + 22*z1*z3**3 + 44*z1*z3**2*z4 + 22*z1*z3**2*z5 + 31*z1*z3*z4**2 + 31*z1*z3*z4*z5 + 9*z1*z3*z5**2 + 23*z1*z4**3/3 + 23*z1*z4**2*z5/2 + 13*z1*z4*z5**2/2 + 4*z1*z5**3/3 + 15*z2**4/4 + 18*z2**3*z3 + 12*z2**3*z4 + 6*z2**3*z5 + 69*z2**2*z3**2/2 + 46*z2**2*z3*z4 + 23*z2**2*z3*z5 + 33*z2**2*z4**2/2 + 33*z2**2*z4*z5/2 + 5*z2**2*z5**2 + 31*z2*z3**3 + 62*z2*z3**2*z4 + 31*z2*z3**2*z5 + 44*z2*z3*z4**2 + 44*z2*z3*z4*z5 + 13*z2*z3*z5**2 + 11*z2*z4**3 + 33*z2*z4**2*z5/2 + 19*z2*z4*z5**2/2 + 2*z2*z5**3 + 11*z3**4 + 88*z3**3*z4/3 + 44*z3**3*z5/3 + 31*z3**2*z4**2 + 31*z3**2*z4*z5 + 9*z3**2*z5**2 + 46*z3*z4**3/3 + 23*z3*z4**2*z5 + 13*z3*z4*z5**2 + 8*z3*z5**3/3 + 3*z4**4 + 6*z4**3*z5 + 5*z4**2*z5**2 + 2*z4*z5**3 + z5**4/3",
+    "full_cancellation": "0",
+    "missing_higher_terms": "2*K**4/3 - 8*K**3*z0/3 - 2*K**3*z1 - 10*K**3*z2/3 - 4*K**3*z3 - 8*K**3*z4/3 - 4*K**3*z5/3 - K**2*p1_T/3 + 4*K**2*z0**2 + 6*K**2*z0*z1 + 10*K**2*z0*z2 + 12*K**2*z0*z3 + 8*K**2*z0*z4 + 4*K**2*z0*z5 + 7*K**2*z1**2/2 + 9*K**2*z1*z2 + 12*K**2*z1*z3 + 8*K**2*z1*z4 + 4*K**2*z1*z5 + 15*K**2*z2**2/2 + 18*K**2*z2*z3 + 12*K**2*z2*z4 + 6*K**2*z2*z5 + 12*K**2*z3**2 + 16*K**2*z3*z4 + 8*K**2*z3*z5 + 6*K**2*z4**2 + 6*K**2*z4*z5 + 2*K**2*z5**2",
+    "reduced4": "2*k*p1_T*z0/3 + k*p1_T*z1/2 + 5*k*p1_T*z2/6 + k*p1_T*z3 + 2*k*p1_T*z4/3 + k*p1_T*z5/3 - 8*k*z0**3/3 - 6*k*z0**2*z1 - 10*k*z0**2*z2 - 12*k*z0**2*z3 - 8*k*z0**2*z4 - 4*k*z0**2*z5 - 7*k*z0*z1**2 - 18*k*z0*z1*z2 - 24*k*z0*z1*z3 - 16*k*z0*z1*z4 - 8*k*z0*z1*z5 - 15*k*z0*z2**2 - 36*k*z0*z2*z3 - 24*k*z0*z2*z4 - 12*k*z0*z2*z5 - 24*k*z0*z3**2 - 32*k*z0*z3*z4 - 16*k*z0*z3*z5 - 12*k*z0*z4**2 - 12*k*z0*z4*z5 - 4*k*z0*z5**2 - 3*k*z1**3 - 11*k*z1**2*z2 - 15*k*z1**2*z3 - 10*k*z1**2*z4 - 5*k*z1**2*z5 - 15*k*z1*z2**2 - 39*k*z1*z2*z3 - 26*k*z1*z2*z4 - 13*k*z1*z2*z5 - 27*k*z1*z3**2 - 36*k*z1*z3*z4 - 18*k*z1*z3*z5 - 13*k*z1*z4**2 - 13*k*z1*z4*z5 - 4*k*z1*z5**2 - 25*k*z2**3/3 - 30*k*z2**2*z3 - 20*k*z2**2*z4 - 10*k*z2**2*z5 - 39*k*z2*z3**2 - 52*k*z2*z3*z4 - 26*k*z2*z3*z5 - 19*k*z2*z4**2 - 19*k*z2*z4*z5 - 6*k*z2*z5**2 - 18*k*z3**3 - 36*k*z3**2*z4 - 18*k*z3**2*z5 - 26*k*z3*z4**2 - 26*k*z3*z4*z5 - 8*k*z3*z5**2 - 20*k*z4**3/3 - 10*k*z4**2*z5 - 6*k*z4*z5**2 - 4*k*z5**3/3",
+    "reduced_residual": "0",
+    "reversed_reference_residual": "0",
+    "three_spinor_residual": "0",
+    "three_linear": "48",
+    "three_cubic": "48",
+    "constant_bulk": {
+      "local": 3,
+      "outer": 3,
+      "bulk": 0,
+      "total": 3,
+      "end_flux_if_all_charges_are_accounted": 3,
+      "fake_total_after_dropping_outer": 0
+    },
+    "compact_bulk": {
+      "local": 3,
+      "outer": 0,
+      "bulk": -3,
+      "total": 0,
+      "end_flux_if_all_charges_are_accounted": 3,
+      "fake_total_after_dropping_outer": 0
+    }
+  },
+  "localization": {
+    "norm": "1",
+    "overlap": "(M*R + 1)*exp(-M*R)",
+    "overlap_limit": "0",
+    "constant_coupling": "g7/sqrt(V)",
+    "constant_coupling_R_derivative": "0",
+    "half_norm": "1 - exp(-2*M*R)/2",
+    "cusp_measure_cancellation": "1",
+    "normalized_half_norm": "1",
+    "local_probability": "(exp(2*A*M) - 1)/(2*exp(2*M*R) - 1)",
+    "local_escape": "0",
+    "localized_gauge": "2*(2*exp(M*R) - 1)*exp(-2*M*R)/3",
+    "localized_gauge_limit": "0",
+    "volume_divergence_control": "0"
+  },
+  "seconds": 7.67736259099911
+}

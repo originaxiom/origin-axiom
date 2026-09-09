@@ -2708,3 +2708,31 @@ selection, finite-action defects, SM breaking, the neutral 4D limit
 and common gravity remain separate. The nonzero total also forces a
 nonempty critical set; exactly three Morse points were NOT computed.
 The corrected E7-to-E6 curved-cone lead remains live alongside this path.
+
+**R25 movement, same PB-BOUNDARY lead (2026-09-09):** closing sentence:
+"In the declared free reference-wall ansatz, the derived boundary
+channel has the opposite eigenbundle anomaly and net index, but
+localization alone cannot decouple it from the unchanged constant
+gauge mode; the interpolation is an added mass, not a selected source."
+Source: reports/physical_bridge_2026_09_05/BOUNDARY_WALL.md, section 6.
+Only this free-collar shortcut is scoped; PB-BOUNDARY remains OPEN.
+The interior conditional three/zero kernel is retained. NEXT: test
+whether compactly supported curvature/mass perturbations preserve the
+R18/R19 graded Dirac index on its actual domain, while explicitly
+acknowledging the loss of the flat cochain differential. Then derive
+compatible localized massive-U1 dynamics and the quantum matching in
+one coupled finite-action construction. No uncomputed individual
+kernel multiplicity, scalar origin or global anomaly phase is assumed.
+Keep the genuine source/end-sector, physical selection, SM breaking,
+neutral 4D limit and common gravity duties registered. Curved-cone and
+partial-filling routes remain live; this result is not their exclusion.
+
+**R25 tool-capability intake, received at outside 7ce09cba:** memo 193
+addendum 1 reports a geometric-isometry fallback for R20's absent
+COMBINATORIAL bridge. Test it in a separate sealed control against the
+existing exact word-action set, canonical count and both cusp descent
+equations; declare the numeric-versus-certified scope. Do not edit the
+original source or recast the already established character-locus
+theorem as missing. This capability is registered, not silently merged
+or claimed as independent R24/R25 proof review. Intake:
+reports/physical_bridge_2026_09_05/BOUNDARY_WALL_INTAKE.md.

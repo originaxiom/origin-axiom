@@ -370,3 +370,59 @@ GLOBAL_MASS_FLUX_FINAL_CHECKS.txt: again 27 PASS / 3 FAIL. The 307
 then-latest manifest paths matched and staged whitespace passed with
 raw transcript end-spaces preserved. Final receipt hashes are appended
 and rechecked before commit. No lost output is represented as recovered.
+
+## R25 update (2026-09-09): source-linked free wall, still path-local
+
+All remote heads and tags fetched again; no changes since main
+b94ed03a, SM 1703c0d8, physics 659487bb and outside 8b32fb4a.
+The full held CC-to-SM relay and earlier reservation were reread.
+No B ID, alias collision, main merge, PR or external send. Outside
+memo 193's repairs are received, not independently re-certified here.
+
+Seal 16ba8ce1 was pushed before import/execution. All 58 registered
+design digests and the new literal provenance markers pass the
+metadata checks; the older global provenance debt was reported before
+science. Native output is complete (7.677 s); 15 new tests pass.
+Focused 71 pass/1 old failure; the quiescent 46-file run is
+341 pass/14 fail/8 error in 287.77 s, precisely the same 22 failed/error
+IDs as R24. Original sources/tests/tolerances/receipts are unchanged.
+Only environment prefixes are redacted publicly; unredacted test
+receipts are preserved outside the repository.
+
+Report, FINDINGS/README, goal/strategy, three living ledgers,
+framework, X33, three scoped law rows, PB-BOUNDARY and failure record
+are updated. The opposite free boundary response is not a selected
+physical source or a mirror-free completion. Next is the explicit
+localized-backreaction/index-stability question before a compatible
+massive-U1 action and quantum matching. No new formal B verdict or
+global theorem-registry promotion is manufactured for this local work.
+
+Full repository pytest green, independent receiving-seat proof/banking
+review and main publication gates remain unpaid. Original metadata,
+static-vacuity and attribution debts are not waived. Reporting gates
+are recorded separately; any new defect must be stated, not folded
+into these older debts. The authorized push remains this audit branch.
+
+Reporting gates complete: **27 PASS / 3 FAIL**, exactly R24's three
+failed-detail strings. Attribution names the same two old receipts;
+static-vacuity names the same two old delegation locks; provenance
+lists the same capped subset of older marker omissions. The new seal,
+laws, document currency and path checks pass. Review due at 133 merges.
+Receipt: BOUNDARY_WALL_GATES.txt. No waiver or independent review.
+All 318 then-listed artifact paths match their latest digest. Authored
+whitespace checks pass; five trailing-space lines in the raw regression
+receipt are retained byte-faithfully, not reformatted into new evidence.
+
+Final refetch: outside advances to 7ce09cba; other remote heads
+unchanged. Five first-parent commits were inspected; the complete new
+memo addenda and relevant instrument changes read. Its independent
+agreement with the R24 matrix control is not review of the flux proof.
+Its numerical R20 geometric-bridge fallback is a capability to test
+against our existing exact/certified word-control route. The long
+B1137 rerun remains received-only. See BOUNDARY_WALL_INTAKE.md and
+the registered follow-up in OPEN_LEADS. No original seal or source edited.
+
+Final quiescent reporting pass after that intake: again 27 PASS / 3
+FAIL with identical details. All 320 then-listed artifact digests match;
+the scientific design/source/test diff from 16ba8ce1 is empty.
+Receipt: BOUNDARY_WALL_FINAL_CHECKS.txt. This is not a green main bank.

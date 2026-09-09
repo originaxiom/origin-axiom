@@ -1,6 +1,18 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
-**Latest local result, R24: [total sourced mass flux](GLOBAL_MASS_FLUX.md).**
+**Latest local result, R25: [the free boundary wall](BOUNDARY_WALL.md).**
+The actual mass eigenline supports a derived compensating wall channel
+with net index -k and the opposite full anomaly polynomial. For k=3
+this is a mirror sector, not a mirror-free completion. Its normalized
+modes keep their coupling to the unchanged constant gauge field even
+when moved toward the ends. The wall is an added scalar-mass ansatz;
+physical source/domain selection is not supplied. The conditional
+interior three/zero kernel stands. Next test its stability under
+localized gauge backreaction and consistent massive-U1 dynamics.
+15 new tests pass; 341 broad passes with the same 14 failures/8 errors
+as R24. No new failed/error IDs, full-suite green or complete TOE.
+
+**Preceding local result, R24: [total sourced mass flux](GLOBAL_MASS_FLUX.md).**
 The actual positive-source field has total boundary charge sign(q)*k
 for k prescribed proper arcs, including rounded seams and the complete
 topological exhaustion. The three-arc case gives +3 without assuming

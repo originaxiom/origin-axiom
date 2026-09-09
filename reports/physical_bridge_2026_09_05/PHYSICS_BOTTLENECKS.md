@@ -1,5 +1,30 @@
 # Biggest bottlenecks toward physics: a scoped strategy
 
+**Latest local result, R25: [the free boundary wall](BOUNDARY_WALL.md).**
+The actual mass eigenline supports a derived compensating wall channel
+with net index -k and the opposite full anomaly polynomial. For k=3
+this is a mirror sector, not a mirror-free completion. Its normalized
+modes keep their coupling to the unchanged constant gauge field even
+when moved toward the ends. The wall is an added scalar-mass ansatz;
+physical source/domain selection is not supplied. The conditional
+interior three/zero kernel stands. Next test its stability under
+localized gauge backreaction and consistent massive-U1 dynamics.
+15 new tests pass; 341 broad passes with the same 14 failures/8 errors
+as R24. No new failed/error IDs, full-suite green or complete TOE.
+
+**R25 strategy refinement:** R22 correctly stopped the flat-cohomology
+shortcut when gauge curvature appears. The next question is whether
+the actual graded Dirac index survives compactly supported curvature
+and mass backreaction on the original domain, using R18's closed-range
+gap. Test this explicitly before treating local Higgs/current dynamics
+as incompatible with the chiral index. It is a candidate join, not an
+already solved coupled vacuum or an origin for a new scalar. The
+source-selected end action, anomaly matching and gauge sector must
+still be computed in the same theory. Latest outside intake 7ce09cba
+is scoped in [BOUNDARY_WALL_INTAKE.md](BOUNDARY_WALL_INTAKE.md): its
+new geometric-bridge capability is received, not independently certified.
+All nine remote heads fetched; the original R25 dependency pin is retained.
+
 **R24 update, 2026-09-09:** the actual total mass-eigenline boundary
 flux is now computed: sign(q)*k for k prescribed positive-source arcs,
 with all corners retained. This equals the conditional relative index;
