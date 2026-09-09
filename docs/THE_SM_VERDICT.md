@@ -1,5 +1,15 @@
 # THE SM VERDICT — where the Standard Model question actually stands
 
+> ## ⚠ CURRENCY 2026-09-09 (Review 56) — three results this document predates (E53 #26)
+>
+> Read with `docs/MAIN_GOAL.md` and `docs/CAMPAIGN_STATUS.md`, which carry them: **(1) the chirality bit (B1294/B1295, MASTERPLAN v3):** the object counts **2** at every
+> fixed locus and every closed closing is spectrally vector-like; **3** arises only from the vector-like ℤ/3 descent — every chirality wall found so far is m004's
+> amphichirality in one face's language (B1296–B1299). **(2) the SM closing's vacuum (B1303):** on the observer-selected closing Y₉ the tree-level vacuum is
+> **SM × U(1)_Z′ (rank 5)**, the Z′ family-non-universal, its first testable consequence a **fork** (`FALSIFIER_REGISTER` P9: M_Z′/g ≳ 154 TeV if a light family is
+> VEV'd, ~2 TeV if the third). **(3) the tower (B1301, B1306 A):** Y₁₂ is a second SM closing and h¹ on every Y_n is a computable 2×2 matrix product, so the
+> selection among the closings (L203) is a finite arithmetic menu with no selector yet. The verdict below stands where it does not contradict these three.
+
+
 > ## ⚠ AMENDED 2026-08-08 (B976) — this verdict was written without the B860s
 >
 > The first version of this document omitted **eleven of the twelve cascade-closure arcs**

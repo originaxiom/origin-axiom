@@ -6896,6 +6896,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1306": {
+   "slug": "the older debt",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B1307": {
    "slug": "the harvest gate",
    "motifs": [

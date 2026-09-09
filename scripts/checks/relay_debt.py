@@ -97,13 +97,22 @@ def _read(p: pathlib.Path) -> str:
 
 
 def tracked_relays() -> set[str]:
+    """relay files TRACKED by git (the name says tracked; the old filesystem walk red-lit a gitignored archive under audit/ -- Review 56)"""
+    import subprocess
     out = set()
-    for p in ROOT.rglob("*.md"):
-        if ".git" in p.parts:
+    try:
+        r = subprocess.run(["git", "-C", str(ROOT), "ls-files", "--", "*.md"], capture_output=True, text=True, timeout=60)
+        files = r.stdout.split("\n") if r.returncode == 0 else None
+    except Exception:
+        files = None
+    if files is None:                                   # git unavailable: the walk, minus anything git would ignore by the standing rule (audit/)
+        files = [str(p.relative_to(ROOT)) for p in ROOT.rglob("*.md") if ".git" not in p.parts and not str(p.relative_to(ROOT)).startswith("audit/")]
+    for rel in files:
+        if not rel:
             continue
-        m = RELAY_RE.fullmatch(p.name)
-        if m:
-            out.add(p.name)
+        name = rel.rsplit("/", 1)[-1]
+        if RELAY_RE.fullmatch(name):
+            out.add(name)
     return out
 
 

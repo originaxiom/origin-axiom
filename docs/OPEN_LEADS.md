@@ -1,5 +1,7 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+> **Review 56 currency (2026-09-09, anchor `eb9db7fa`):** in-window: **L200–L205 registered**; the harvest arcs B1298–B1307 verified every seat number they took (sm:B1280–B1283, sm:B1300–B1304, fc R49/R69–R72, audit R0–R20, cloud memos 156–182); the harvest-debt gate (B1307) now counts the seats' unread items (428 at the first run) and the review escalated them by name (R56-1). Same-day continuation is recorded per lead below with its arc.
+
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** L175 **CLOSED** (B1110) and L57 **ANSWERED-AND-REPOSED** (B364), both found by `scripts/checks/open_claim_sweep.py` rather than by anyone suspecting them. Carried open: R53-2's cross-seat waits (codex R023/MC1/R018; cloud C6), R53-3's unswept remainder (~973 arcs outside every screen), R53-5 (**λ's acceptance gate** — the ledger's weakest row).
 
 > **Review 52 currency (2026-08-28, anchor 8aa71f07):** the grand-computation campaign — L188 CLOSED (B1199); **L190's direction corrected** (reach DEFICIT, B1188); the eight-item existence-audit list dispositioned (B1194–B1196); the Φ₃ unification (B1200). Next lead: **L192**.

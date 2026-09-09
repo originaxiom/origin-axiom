@@ -1,6 +1,6 @@
 # The document map — what is living, what is reference, what is history
 
-*Currency: 2026-08-14 (Review 46). **Re-stamp this line at every decadal review** — a
+*Currency: 2026-09-09 (Review 56). **Re-stamp this line at every decadal review** — a
 router that does not carry its own date is how this file went five weeks stale while
 looking authoritative. (Nothing in this repo is deleted — records are the credibility
 model, GOVERNANCE §1/§9; this map says what to read for the current state.)*
@@ -42,10 +42,13 @@ model, GOVERNANCE §1/§9; this map says what to read for the current state.)*
 | was this sealed, and when? | `docs/SEAL_LEDGER.md` |
 | has this failed before? | `docs/ERROR_LEDGER.md` · `docs/ARCHIVE.md` (dead ideas, with causes) |
 | is this comparison legitimate? | `docs/KIND_TABLE.md` (kinds) · `docs/INPUT_COMPLETENESS_LEDGER.md` (method) |
-| is this already known outside? | `docs/NOVELTY_SWEEP_LEDGER.md` |
+| is this already known outside? | `docs/NOVELTY_SWEEP_LEDGER.md` · `docs/PRIOR_ART_DOSSIER_ENTRANCE_AND_EXIT.md` (the entrance-and-exit test per author; Entry 5 the nearest neighbour) |
 | has this recurred? | `docs/RECURRENCE_ATLAS.md` + `scripts/atlas/query.py card` |
 | what would count, and what would kill it? | `docs/WHAT_WOULD_COUNT.md` · `docs/FALSIFIER_REGISTER.md` · the kill graph (`frontier/B738_pathfinder_compiler/kill_graph.json`) |
 | what machinery exists? | `docs/TOOLBOX_LIVE.md` |
+| what does main owe the other seats? | `docs/HARVEST_LEDGER.md` (pins + one row per seat item; `python3 scripts/checks/harvest_debt.py`) · `docs/SM_SEAT_ALIAS_TABLE.md` (which bare arc-ID means what) |
+| what would a theory of everything need that the object has not supplied? | `docs/TOE_REQUIREMENTS_LEDGER.md` (§E: the inputs every 4d model so far declares) |
+| what is the programme not asking? | `docs/FRESH_EYES_2026-09.md` (Q1–Q14; a question leaves only by computation or citation) · `docs/FALSIFIER_REGISTER.md` (P1–P9) |
 
 ## Reference (permanent, load-bearing)
 

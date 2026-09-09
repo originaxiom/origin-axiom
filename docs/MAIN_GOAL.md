@@ -153,8 +153,10 @@ dynamical system several times over. B1157's real result is narrow — no parame
 archimedean ∞-place. **PRICED 2026-09-06:** the fork is worth **2 units on B1261's scoreboard** — **I-10** (the beat-selected internal A₁ lift ≡ 4d Lorentz spin) and **I-11** (the boundary θ polarization ≡ the bulk spin class) are **not independent debts; they ARE the fork**, as B1145's own fence says (*"an su(2) internal to E₆ … not the 4d Lorentz group … the unpaid bridge (the E₆(−26) spacetime branch)"*). Crossing it pays both: **14 → 12**.
 
 **Open:** three of B497's four strata never worked; the **23 S-matrix arcs**
-unassessed; **Ward identity genuinely zero**; and the **E₆(−14)/E₆(−26) fork** that no arc crosses,
-which is what keeps the four interactions from meeting.
+unassessed; **Ward identity genuinely zero**; and the **E₆(−14)/E₆(−26) fork** — **derived, not crossed (B1265, 2026-09-06; E53 #27 repaired at Review 56):** the object's own D2 involution is inner and
+selects E₆(−14) by signature (dim k = 46, dim p = 32); E₆(−26), the branch that took Lorentz, compact colour and the graviton, is the OUTER form
+(k = f₄ of rank 4), unreachable by any inner map — only θ, the diagram automorphism, could cross it. The fork is a rank obstruction, and it is what
+keeps the four interactions from meeting.
 
 ## The rule of no drift
 

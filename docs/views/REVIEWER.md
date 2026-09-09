@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1197** |
-| words of findings prose | **854,692** |
-| test lock files referenced | **703** |
-| arcs carrying an authored verdict | **1197** (100.0 %) |
+| research arcs with findings | **1198** |
+| words of findings prose | **855,329** |
+| test lock files referenced | **704** |
+| arcs carrying an authored verdict | **1198** (100.0 %) |
 | recorded closures | **788** (621 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 786 |
+| PROVED | 787 |
 | NEGATIVE | 313 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1307`** (1402 words, 4 locks)  
+**PROVED — `B1307`** (1418 words, 4 locks)  
 THE HARVEST GATE (MASTERPLAN v3.1 section 1 / 1a rule 3; instrument arc; DESIGN sealed 80899ba4). scripts/checks/harvest_debt.py reads the local remote-tracking refs of nine seat branches, compares each with a pinned last-read commit (a new `## Pins` table in HARVEST_LEDGER; a pin is a receipt advanced only by a landing that read that far), maps changed paths to seat item ids by each seat's own convention, reconciles the harvest ledger against each seat's OWN index both ways (BACKLOG = index ids without a row; STALE = rows resolving to no index id), lists seat-branch relay files without a RELAY_LEDGER row, reports origin-vs-codeberg mirror lag, and ages unrowed NEW items at 21 days (exit 2); --strict fails on any debt and runs under `gates.py review-due`. Two-sided controls PASS (five synthetic plants, and a live pin-override control that grew the SM seat's NEW sets by exactly the ids of the commits entering the range). First run: 494 seat-index ids, NEW unrowed 6 (the SM seat's four branch-only docs; cloud memos 183, 184), BACKLOG 428, STALE 0, 348 seat-branch relays without a row (176 cc3, 131 braver-July, 38 codex, 3 fc incl. FC_TO_CC_2026-09-06), mirror lag on two branches, 5.5 s. relay_debt.py's sender set widened to every lane (SM/FC/FAB5/CHAT1 were invisible) and its row grammar made tolerant (four BANKED rows were unparsed); two tracked relays rowed. The sense census's third pre-registration PASSED on both routes (self-naming exclusion on HEAD; the unmodified census at the pre-instrument commit 31dd52b9): ADOPTED as scripts/checks/sense_census.py (research instrument, not a gate; the cloud's memo 172 credited). 32 gates. Review 56 is due and opens with the debt.  
 `B1307_the_harvest_gate/FINDINGS.md`
 

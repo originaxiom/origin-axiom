@@ -1,5 +1,7 @@
 # THE MASTERPLAN — APPROVED (2026-07-04; owner sign-off received)
 
+> **Review 56 currency (2026-09-09, anchor `eb9db7fa`):** this is the A–E masterplan of August, kept as the record of that campaign; the plan in force is **MASTERPLAN v3.1 — THE CHIRALITY BIT** in `docs/MAIN_GOAL.md` (Phase 1's seven harvest arcs B1298–B1307 landed this window; the harvest-debt gate live; the head sentence: the object counts 2 at every fixed locus, 3 only from the vector-like ℤ/3 descent).
+
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** The parameter-closure loop's first run (B1216) is honest about its own score: **zero rows deleted**. What *did* move came from auditing the record rather than the object — the discrete freedom ledger closes to **exactly {C, P}** once B1112, B1109+B1118 and B1141 are actually read onto the ledger (they had not been). The masterplan's remaining continuous rows are unchanged: λ ungated, ℙ³ exactly one condition short.
 
 > **Review 50 currency (2026-08-27, B1173):** the A–E masterplan EXECUTED (cc's cells B1164–B1169; the seam sitting B1170–B1173); the observer is ADELIC with a MECHANISM (the orbit-escape pair); Wave 1 + O3 + O4 complete. Next: R50-3 the ℤ/2 cell; the cross-seat waits (R50-6); the owner menu (R50-7).
