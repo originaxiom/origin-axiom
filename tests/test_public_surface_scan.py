@@ -64,7 +64,11 @@ def test_no_email_addresses_or_reviewer_placeholders():
     for path, text in docs.items():
         if EMAIL_RE.search(text):
             offenders.append(f"{path.relative_to(ROOT)} contains email-shaped text")
-        if re.search(r"reviewer-(?!style)", text):  # placeholders, not prose (R38)
+        # R38: a *placeholder* is reviewer-001 / reviewer-A2 / reviewer-B -- an identifier.
+        # The old negative lookahead (?!style) also fired on ordinary English compounds
+        # ("reviewer-facing"), so it was matching prose it was written to allow.  Match the
+        # identifier shapes directly instead: a token containing a digit, or a bare capital.
+        if re.search(r"reviewer-(?:\w*\d\w*|[A-Z]\b)", text):
             offenders.append(f"{path.relative_to(ROOT)} contains reviewer placeholder")
     assert offenders == []
 

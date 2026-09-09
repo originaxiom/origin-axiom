@@ -29,6 +29,18 @@ def test_manifest_is_consistent_with_the_repository():
                 assert any(cur in line for line in s["recorded"]), (r["arc"], s["seal_file"])
 
 
+def _drop_absent_paths(node):
+    """Prune, from every list in the manifest, string entries naming a repo path this
+    checkout does not have.  Used only to tell an incomplete checkout from a stale manifest."""
+    if isinstance(node, dict):
+        return {k: _drop_absent_paths(v) for k, v in node.items()}
+    if isinstance(node, list):
+        return [_drop_absent_paths(v) for v in node
+                if not (isinstance(v, str) and "/" in v and not v.split()[1:]
+                        and not (ROOT / v).exists())]   # path-shaped only: no prose, no seal comments
+    return node
+
+
 def test_manifest_is_current():
     """regenerating the manifest changes nothing but the timestamp and the commit."""
     import tempfile
@@ -38,7 +50,17 @@ def test_manifest_is_current():
         assert r.returncode == 0, r.stdout + r.stderr
         after = json.loads((Path(tmp) / "MANIFEST.json").read_text(encoding="utf-8"))
     strip = lambda m: {k: v for k, v in m.items() if k not in ("built", "environment")}
-    assert strip(before) == strip(after), "MANIFEST.json is stale: run build_manifest.py"
+    b, a = strip(before), strip(after)
+    if b != a:
+        # Distinguish a STALE manifest from an INCOMPLETE checkout.  build_manifest.py globs
+        # the filesystem, and .gitignore's LaTeX rule `*.out` also matches every
+        # frontier/*/verification/*.out, so a fresh clone lacks artifacts the manifest cites
+        # and rebuilds a strictly smaller manifest.  Running build_manifest.py there would
+        # DELETE those entries -- the opposite of the repair.  Only the residue after
+        # dropping absent paths may be called staleness.
+        assert _drop_absent_paths(b) == a, "MANIFEST.json is stale: run build_manifest.py"
+        pytest.skip("manifest cites artifacts absent from this checkout (gitignored *.out); "
+                    "not stale -- rebuild only on a bench that holds them")
 
 
 def test_seal_check_passes():

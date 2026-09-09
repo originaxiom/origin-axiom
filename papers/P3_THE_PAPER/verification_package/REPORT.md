@@ -1,4 +1,4 @@
-# THE VERIFICATION PACKAGE — report (2026-09-09T11:23:25Z)
+# THE VERIFICATION PACKAGE — report (2026-09-09T16:06:32Z)
 
 Manifest built 2026-09-09T11:22:42Z at commit `abb16e85`; {'claims': 30, 'records': 36, 'seals': 12, 'locks': 54, 'records_with_a_primary_lock': 34}.
 

@@ -19,6 +19,10 @@ dist/
 *.aux
 *.log
 *.out
+# ...but NOT the verification artifacts the P3 package's manifest cites: the LaTeX rule
+# above was swallowing every frontier/*/verification/*.out, so a fresh clone could not
+# reproduce the manifest and several arc locks could not run at all.
+!frontier/*/verification/*.out
 *.toc
 *.synctex.gz
 *.fls
