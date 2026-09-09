@@ -1,0 +1,50 @@
+CERTIFICATE -- which locks read evidence the repository does not contain.
+
+THE DEFECT CLASS.  .gitignore's LaTeX block carries the blanket rules `*.out`, `*.log` and
+`*.jsonl`.  Those match at every depth, so besides LaTeX intermediates in papers/ they also
+match arc artifacts all over frontier/ -- including files that committed locks read by name
+and that a manifest pins by sha256.  A clone therefore cannot run those locks: they die with
+FileNotFoundError, which reads like corruption and is not.
+
+Five were found the hard way, by running the suite.  This finds the rest by reading, so the
+list handed on is complete rather than "the ones that happened to fail today".
+
+METHOD.  For every tracked tests/*.py, take each string literal that looks like an artifact
+filename (an .out/.log/.jsonl/.json/.txt/.csv basename, or a path ending in one).  Resolve it
+against every directory named in the same file that exists in the repo, plus the arc directory
+the test's own name points at.  Report a hit when the resolved path EXISTS ON DISK BUT IS NOT
+TRACKED (this bench happens to hold it, a clone will not) or DOES NOT EXIST ANYWHERE while a
+tracked sibling directory obviously should hold it.
+
+Reading filenames out of source is a heuristic, so this certificate reports and does not
+gate; its controls say exactly how far to trust it.
+
+CELLS (preregistered, two-outcome)
+  CELL 1  Does any tracked test name an artifact that exists here but is untracked?
+          A: yes -- those locks pass here and fail on a clone      B: none
+  CELL 2  Are the .gitignore negations added this session sufficient for the five
+          known cases -- i.e. is each of those paths now trackable?
+          A: at least one is still ignored                         B: all trackable
+
+CONTROLS
+  C1  The tracked/untracked oracle must be right on a known-tracked file and on a
+      known-ignored one.
+  C2  The five paths repaired this session must be reported as trackable, and a path
+      still covered by a blanket rule (a frontier .log outside the negated arcs) must
+      still be reported as ignored -- so the check can tell the two apart.
+
+==============================================================================
+checkout: origin-axiom
+C1: PASS  -- tracked/untracked oracle correct both ways
+C2: PASS  -- the five repaired paths are trackable and a path outside the negations is still ignored
+
+CELL 1  tests naming artifacts PRESENT HERE BUT UNTRACKED: 0  -> B (none)
+
+        tests naming artifacts ABSENT HERE whose extension is under a blanket rule: 3
+    test_b1062_bridge.py  ->  frontier/B1062_bridge_cell/b1062_v1_v3.log  (absent; extension under a blanket rule)
+    test_b1062_bridge.py  ->  frontier/B1062_bridge_cell/b1062_v2_block1.log  (absent; extension under a blanket rule)
+    test_b1063_refresh.py  ->  frontier/B1063_refresh_verdict/refresh_windows.log  (absent; extension under a blanket rule)
+
+CELL 2  the five repaired paths trackable: B (yes)
+
+ALL CONTROLS PASSED
