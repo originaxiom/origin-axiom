@@ -1,0 +1,6 @@
+labellings splitting the 27 as 9+9+9: 170 (B1264: 170); distinct colourings: 85 (B1264: 85)
+centralizer dimension of the grading operator (6 + #roots with <alpha,h> = 0 mod 3): {24: 80, 30: 90}
+distinct colourings per class: {24: 40, 30: 45}
+colourings appearing in more than one class: 0
+w_3's lift (R64): 24 three-cycles on the 72 roots, no fixed Cartan vector -> Ad-fixed dim 24 -> the A2^3 class.
+RC=0

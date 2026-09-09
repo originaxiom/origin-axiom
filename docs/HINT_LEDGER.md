@@ -847,3 +847,14 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
   no prior-art gate; no computation on main connects them. The seat's own words: "an adjacency, not a finding". (intake 2026-09-09)
 - H-CHAT1-TYPE-CHECK-THE-PREREG (type PROCESS, the seat's error 17): a sealed gate asserted a bivector degenerates on a surface — impossible by linear
   algebra alone. Check the TYPE of a pre-registered claim before sealing it; falsifiability saved it, a type check would have saved the seal. (intake 2026-09-09)
+
+## 2026-09-09 — B1306 slice C hints (recorded, not judged)
+
+- H-B1306C-CENTRE (type PROCESS, this bench): counting labellings c ∈ {0,1,2}⁶ of the 27 gives 510, not 170, until the centre's shift
+  (1,0,2,0,1,2) mod 3 is quotiented — the same automorphism of e₆ under three names. A count over coweights is a count over the adjoint group or it is
+  three times too big. (B1306 C)
+- H-B1306C-TWO-INVARIANTS (type INSTRUMENT): cc3's positivity bridge and main's check used different complete invariants for SL(2,ℤ)-conjugacy of
+  positive words (Latimer–MacDuffee cycles there; Gauss reduction cycles of the fixed-point form here) and agree on 2 026 words: 241 classes. Two routes to
+  one classical fact is the shape "verified on two benches" should have. (B1306 C)
+- H-B1306C-SEAT-CODE-NEEDS-MAIN (type PROCESS): fc's R66 imports main's B351 module by name; a seat certificate that depends on main's code must say so
+  in its docstring, or its re-run fails for the wrong reason. (B1306 C)

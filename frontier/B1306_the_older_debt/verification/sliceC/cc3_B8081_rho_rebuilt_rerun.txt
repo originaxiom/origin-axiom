@@ -1,0 +1,60 @@
+==============================================================================
+(1) THE KAC-PETERSON DATA, BUILT
+==============================================================================
+
+  SU(3) level k = 2:  dual Coxeter g = 3, k+g = 5, c = 16/5, c/24 = 2/15
+  six integrable weights (a,b) with a+b <= 2: [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (2, 0)]
+
+   (a,b) |  h = (a^2+b^2+ab+3a+3b)/15  |  T entry
+   (0, 0) |           0/15            |  zeta_15^13
+   (0, 1) |           4/15            |  zeta_15^2
+   (0, 2) |          10/15            |  zeta_15^8
+   (1, 0) |           4/15            |  zeta_15^2
+   (1, 1) |           9/15            |  zeta_15^7
+   (2, 0) |          10/15            |  zeta_15^8
+  [PASS] ord T = 15, as Prop (2880) states  exponents [13, 2, 8, 2, 7, 8]
+  [PASS] charge conjugation has 2 fixed weights and 2 swapped pairs, so its eigenspaces are 4- and 2-dimensional -- the theta of the coupling law
+
+==============================================================================
+(2) CONTROLS -- the four modular relations, at every prime
+==============================================================================
+  [PASS] p=61: T^15 = I, S^4 = I, S^2 = C, (ST)^3 = S^2
+  [PASS] p=181: T^15 = I, S^4 = I, S^2 = C, (ST)^3 = S^2
+  [PASS] p=241: T^15 = I, S^4 = I, S^2 = C, (ST)^3 = S^2
+  [PASS] p=421: T^15 = I, S^4 = I, S^2 = C, (ST)^3 = S^2
+
+==============================================================================
+(3) PROPOSITION (2880) -- the group order, from the built rho
+==============================================================================
+  p=61:  |<rho(R), rho(L)>| = 2880
+  p=181:  |<rho(R), rho(L)>| = 2880
+  p=241:  |<rho(R), rho(L)>| = 2880
+  p=421:  |<rho(R), rho(L)>| = 2880
+  [PASS] the image has order 2880 = |2T x 2I| at every prime  {61: 2880, 181: 2880, 241: 2880, 421: 2880}
+
+==============================================================================
+(4) THE COUPLING LAW -- blocks, and the 63-class character match
+==============================================================================
+  [PASS] theta commutes with every element of the image, so the eigenspaces are invariant
+  [PASS] every element is block-diagonal in the theta-eigenbasis (4 + 2)
+  [PASS] the 2-dimensional (theta = -1) block has image of order 360, as Scope (2880) says  360
+      (the 4-dimensional block's image has order 1440)
+  [PASS] the model has 7 x 9 = 63 classes  2T: 7, 2I: 9
+  [PASS] chi's kernel Q8 has order 8
+  [PASS] the image has 63 conjugacy classes  63
+  [PASS] CLASS-BY-CLASS MATCH on all 63: (size, chi(A)trV2(B), trV2(A)trV2(B))
+
+  So Proposition (2880) and the coupling law are no longer certificates about a matrix
+  the paper does not write down.  rho is built here from the Kac-Peterson data alone --
+  six weights, one inverse Cartan matrix, one Weyl sum -- and it satisfies the four
+  modular relations before any result is read.  The order 2880, the theta-blocks of
+  dimensions 2 and 4, the odd block's 360, and the 63-class factorisation into
+  chi(A)trV2(B) and trV2(A)trV2(B) all follow from that construction.
+
+  Scope (2880)'s sentence -- "rho's structure constants are specified in the source
+  computation and are not reconstructed in this paper" -- can go.
+
+  results.json written
+
+  ALL CHECKS PASS
+RC=0

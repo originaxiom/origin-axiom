@@ -1,0 +1,9 @@
+{
+ "LMAX": 10,
+ "words": 2026,
+ "rotation_classes": 241,
+ "invariants": 241,
+ "rot_consistent": true,
+ "inv_separates": true,
+ "ok": true
+}

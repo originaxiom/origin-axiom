@@ -1,0 +1,34 @@
+==============================================================================
+CONTROLS
+==============================================================================
+  [PASS] R and L are the stated incidence matrices, of determinant 1
+  [PASS] the metallic word R^m L^m gives phi_m = [[m^2+1, m], [m, 1]]
+  [PASS] cyclic rotation is a conjugacy: w = uv gives vu = u^{-1} w u -- so the easy direction needs no check
+  [PASS] phi_1^3 and phi_4 share trace 18 but are NOT conjugate -- so trace alone is not the invariant, exactly as the paper notes
+
+==============================================================================
+THE BRIDGE, CHECKED EXHAUSTIVELY
+==============================================================================
+
+  positive words of length 2..10 containing both letters : 2026
+  cyclic-rotation classes                                  : 241
+  distinct (trace, form-cycle) conjugacy invariants          : 241
+  cyclic classes sharing an invariant                        : 0
+  [PASS] conjugacy classes and cyclic-rotation classes COINCIDE on positive words
+  [PASS] so a cyclic-word invariant is a complete conjugacy invariant here, and the block-sequence argument is legitimate
+
+  WHAT THIS LICENSES.  The arithmeticity proof may read the cited classification as
+  "conjugate to a power of RL, RRLL or RRL" and then compare BLOCK SEQUENCES, because on
+  positive words conjugacy is exactly cyclic rotation and the block sequence is a cyclic
+  invariant.  Without the bridge the comparison would be answering a coarser question
+  than the one asked.
+
+  WHAT IT DOES NOT LICENSE.  Nothing about non-positive words, and nothing about
+  GL(2,Z): the negative determinant elements do not preserve positivity, and the check
+  above is SL(2,Z)-conjugacy only.  The theorem needs no more than that, since every word
+  in play is positive, but the scope is stated rather than assumed.
+
+  results.json written
+
+  ALL CHECKS PASS
+RC=0

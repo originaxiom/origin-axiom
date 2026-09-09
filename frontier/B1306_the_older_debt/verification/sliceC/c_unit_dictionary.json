@@ -1,0 +1,327 @@
+{
+ "LEN": 3.0,
+ "n": 16,
+ "ok": true,
+ "rows": [
+  {
+   "word": "a",
+   "length": 1.087070145,
+   "torsion": -1.722768,
+   "a": 1,
+   "b": -1,
+   "recognised": true,
+   "quartic": [
+    1,
+    -3,
+    5,
+    -3,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 2.5121479338940403e-15,
+   "logM": 1.087070145,
+   "length_eq_logM": true
+  },
+  {
+   "word": "bC",
+   "length": 1.087070145,
+   "torsion": 1.722768,
+   "a": 2,
+   "b": 1,
+   "recognised": true,
+   "quartic": [
+    1,
+    -3,
+    5,
+    -3,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 2.220446049250313e-15,
+   "logM": 1.087070145,
+   "length_eq_logM": true
+  },
+  {
+   "word": "AB",
+   "length": 1.662885891,
+   "torsion": -2.392124,
+   "a": 0,
+   "b": -2,
+   "recognised": true,
+   "quartic": [
+    1,
+    -2,
+    6,
+    -2,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 2.2644195468014704e-14,
+   "logM": 1.662885891,
+   "length_eq_logM": true
+  },
+  {
+   "word": "CbC",
+   "length": 1.662885891,
+   "torsion": 2.392124,
+   "a": 2,
+   "b": 2,
+   "recognised": true,
+   "quartic": [
+    1,
+    -2,
+    6,
+    -2,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 3.370400129833633e-14,
+   "logM": 1.662885891,
+   "length_eq_logM": true
+  },
+  {
+   "word": "cb",
+   "length": 1.725109255,
+   "torsion": -0.921839,
+   "a": 2,
+   "b": -1,
+   "recognised": true,
+   "quartic": [
+    1,
+    -5,
+    9,
+    -5,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 8.881784197001252e-16,
+   "logM": 1.725109255,
+   "length_eq_logM": true
+  },
+  {
+   "word": "BaB",
+   "length": 1.725109255,
+   "torsion": 0.921839,
+   "a": 3,
+   "b": 1,
+   "recognised": true,
+   "quartic": [
+    1,
+    -5,
+    9,
+    -5,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 9.565974336450906e-15,
+   "logM": 1.725109255,
+   "length_eq_logM": true
+  },
+  {
+   "word": "bba",
+   "length": 2.17414029,
+   "torsion": -2.837648,
+   "a": -1,
+   "b": -3,
+   "recognised": true,
+   "quartic": [
+    1,
+    -1,
+    9,
+    -1,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 5.065335821700624e-13,
+   "logM": 2.17414029,
+   "length_eq_logM": true
+  },
+  {
+   "word": "BcBB",
+   "length": 2.17414029,
+   "torsion": 2.837648,
+   "a": 2,
+   "b": 3,
+   "recognised": true,
+   "quartic": [
+    1,
+    -1,
+    9,
+    -1,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 2.2439911704933297e-13,
+   "logM": 2.17414029,
+   "length_eq_logM": true
+  },
+  {
+   "word": "aBCC",
+   "length": 2.416113287,
+   "torsion": -1.208686,
+   "a": 2,
+   "b": -2,
+   "recognised": true,
+   "quartic": [
+    1,
+    -6,
+    14,
+    -6,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 9.078556458903107e-14,
+   "logM": 2.416113287,
+   "length_eq_logM": true
+  },
+  {
+   "word": "BaBBa",
+   "length": 2.416113287,
+   "torsion": 1.208686,
+   "a": 4,
+   "b": 2,
+   "recognised": true,
+   "quartic": [
+    1,
+    -6,
+    14,
+    -6,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 8.572647311676217e-14,
+   "logM": 2.416113287,
+   "length_eq_logM": true
+  },
+  {
+   "word": "Abcb",
+   "length": 2.633915794,
+   "torsion": -0.0,
+   "a": 4,
+   "b": 0,
+   "recognised": true,
+   "quartic": [
+    1,
+    -8,
+    18,
+    -8,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 2.842170943040401e-14,
+   "logM": 2.633915794,
+   "length_eq_logM": true
+  },
+  {
+   "word": "BcBBB",
+   "length": 2.633915794,
+   "torsion": 3.141593,
+   "a": 2,
+   "b": 4,
+   "recognised": true,
+   "quartic": [
+    1,
+    0,
+    14,
+    0,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 1.206550940086579e-12,
+   "logM": 2.633915794,
+   "length_eq_logM": true
+  },
+  {
+   "word": "cBcBB",
+   "length": 2.839469892,
+   "torsion": -2.19269,
+   "a": 0,
+   "b": -4,
+   "recognised": true,
+   "quartic": [
+    1,
+    -4,
+    18,
+    -4,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 7.813415204003547e-12,
+   "logM": 2.839469892,
+   "length_eq_logM": true
+  },
+  {
+   "word": "caBB",
+   "length": 2.839469892,
+   "torsion": 2.19269,
+   "a": 4,
+   "b": 4,
+   "recognised": true,
+   "quartic": [
+    1,
+    -4,
+    18,
+    -4,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 9.571083346530343e-12,
+   "logM": 2.839469892,
+   "length_eq_logM": true
+  },
+  {
+   "word": "cccbA",
+   "length": 2.921563226,
+   "torsion": -1.381744,
+   "a": 2,
+   "b": -3,
+   "recognised": true,
+   "quartic": [
+    1,
+    -7,
+    21,
+    -7,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 3.354258453760556e-13,
+   "logM": 2.921563226,
+   "length_eq_logM": true
+  },
+  {
+   "word": "BaBaBaB",
+   "length": 2.921563226,
+   "torsion": 1.381744,
+   "a": 5,
+   "b": 3,
+   "recognised": true,
+   "quartic": [
+    1,
+    -7,
+    21,
+    -7,
+    1
+   ],
+   "palindromic": true,
+   "unit": true,
+   "root_residual": 4.3934587420017833e-13,
+   "logM": 2.921563226,
+   "length_eq_logM": true
+  }
+ ]
+}

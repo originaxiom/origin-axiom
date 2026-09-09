@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 13,
+ "unearned": 14,
  "rows": [
   "I-6",
   "I-7",
@@ -14,9 +14,10 @@
   "I-26",
   "I-27",
   "I-28",
-  "I-30"
+  "I-30",
+  "I-29"
  ],
- "total_rows": 29,
+ "total_rows": 30,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -91,6 +92,12 @@
    "arc": "B1321",
    "row": "I-30",
    "reason": "L205's bounded arc registers the ONE choice the localized 3 on m202 costs (the locus); the signs are forced. A deliberate, dated raise per the ratchet's own rule; not a promotion."
+  },
+  {
+   "date": "2026-09-09",
+   "arc": "B1306 C",
+   "row": "I-29",
+   "reason": "the codex seat's R033 (2026-09-01): B1231 admitted the listener map is an unpriced identification and its ledger had no row; registering the admitted debt is the deliberate, dated raise the ratchet's own note calls for. Not a promotion; the count now says what B1231 said."
   }
  ],
  "_earned_additions": [

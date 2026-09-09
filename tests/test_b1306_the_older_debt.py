@@ -97,3 +97,34 @@ def test_slice_b_the_two_locks_read_tracked_records():
 def test_slice_b_positive_half_reproduces_by_RUNNING(tmp_path):
     r = subprocess.run([sys.executable, str(SB / "b1306_positive_half.py"), "9"], cwd=tmp_path, capture_output=True, text=True, timeout=1200)
     assert r.returncode == 0 and "Q1: PASS" in r.stdout, r.stdout[-1500:] + r.stderr[-1500:]
+
+
+# ---------------- slice C ----------------
+SC = ARC / "verification" / "sliceC"
+
+
+def test_slice_c_design_is_sealed():
+    h = hashlib.sha256((ARC / "DESIGN_C.md").read_bytes()).hexdigest()
+    assert f"{h}  DESIGN_C.md" in (ARC / "DESIGN_C.sha256").read_text(encoding="utf-8")
+
+
+def test_slice_c_own_rederivations_are_pinned():
+    j = json.loads((SC / "c_su3_level2.json").read_text(encoding="utf-8")); assert j["ok"] and (j["order"], j["ordT"], j["classes"]) == (2880, 15, 63) and j["texp"] == [13, 2, 8, 2, 7, 8]
+    j = json.loads((SC / "c_geodir_h1.json").read_text(encoding="utf-8")); assert j["ok"] and j["total"] == 6
+    j = json.loads((SC / "c_positivity_bridge.json").read_text(encoding="utf-8")); assert j["ok"] and (j["words"], j["rotation_classes"], j["invariants"]) == (2026, 241, 241)
+    j = json.loads((SC / "c_kac_classes.json").read_text(encoding="utf-8")); assert j["ok"] and j["labellings"] == 170 and j["dims"] == {"24": 80, "30": 90} and j["coldims"] == {"24": 40, "30": 45}
+    j = json.loads((SC / "c_tits_lift.json").read_text(encoding="utf-8")); assert j["ok"] and j["order3"] and (j["mult_1"], j["mult_omega_pair"]) == (24, 54)
+    j = json.loads((SC / "c_unit_dictionary.json").read_text(encoding="utf-8")); assert j["ok"] and j["n"] == 16
+    assert "C10: PASS" in (SC / "c_beat.out").read_text(encoding="utf-8") and "C5 (w_{A2} half): PASS" in (SC / "c_e8_types.out").read_text(encoding="utf-8")
+
+
+def test_slice_c_seventeen_reruns_green():
+    recs = sorted(p.name for p in SC.glob("*_rerun.txt")); assert len(recs) == 17, recs
+    for f in recs:
+        assert (SC / f).read_text(encoding="utf-8", errors="replace").rstrip().endswith("RC=0"), f
+
+
+def test_i29_registered_with_the_baseline_migrated():
+    led = (ROOT / "docs" / "IDENTIFICATION_LEDGER.md").read_text(encoding="utf-8"); assert "| I-29 |" in led and "listener map" in led.split("| I-29 |")[1][:200]
+    base = json.loads((ROOT / "docs" / "IDENTIFICATION_BASELINE.json").read_text(encoding="utf-8")); assert "I-29" in base["rows"] and base["unearned"] == len(base["rows"])
+    assert any(r.get("row") == "I-29" for r in base.get("_baseline_raises", []))
