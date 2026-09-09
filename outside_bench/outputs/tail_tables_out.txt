@@ -1,0 +1,71 @@
+==============================================================================
+THE CERTIFIED TAILS
+==============================================================================
+   source : Garoufalidis-Sun twist.knot.data, CJTwist.<p>.txt.gz, J_{K_p,n}(q) n=1..60, J_{p,1}=1
+   ident. : certificates/cj_table_ingest.py -- determinant |J_2(-1)|, NOT by filename; two filenames had lost a minus sign
+   3_1.high     certified 52 (step 1:  0)   -(q;q)_inf
+   3_1.low      certified 52 (step 1: 56)   1
+   4_1.high     certified 52 (step 1: 56)   (q;q)_inf
+   4_1.low      certified 52 (step 1: 56)   (q;q)_inf
+   6_1.high     certified 52 (step 1: 56)   theta_20  = sum_{n = +-3,+-7 (20)} +-q^{(n^2-9)/40}
+   6_1.low      certified 52 (step 1: 56)   (q;q)_inf
+   9_2.high     certified 52 (step 1:  0)   -(q;q)_inf
+   9_2.low      certified 52 (step 1: 56)   false_16  = sum_{n = +-3,+-5 (16)} +-q^{(n^2-9)/16}
+   unknot.high  certified 70 (step 1: 70)   1
+   unknot.low   certified 70 (step 1: 70)   1
+
+==============================================================================
+CELL 1  --  is the stable end of a twist knot always (q;q)_inf ?
+==============================================================================
+   ends that are NOT (q;q)_inf and not trivial : ['6_1.high', '9_2.low']
+   CELL 1 -> OUTCOME B
+
+==============================================================================
+CELL 2  --  genuine theta or false theta, by TWO independent signatures
+==============================================================================
+   6_1.high     GENUINE theta
+        sign pattern of the nonzero coefficients : +--++--++...
+        product exponents a_1.. : [1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]
+        PERIODIC with period 5 in n -> an eta-quotient:  Phi = prod_{n not= 2,3 (mod 5)} (1-q^n)
+   9_2.low      FALSE theta
+        sign pattern of the nonzero coefficients : +-+-+-+...
+        product exponents a_1.. : [1, 0, 0, 0, 0, 0, -1, -1, -1, 0, 0, 0, 0, 1, 1, 2, 1, 1]
+        aperiodic and unbounded (|a_n| reaches 19 by n = 45) -> NOT an eta-quotient
+   CELL 2 -> OUTCOME B : FALSE theta, GENUINE theta
+
+==============================================================================
+CONTROLS AND CELLS
+==============================================================================
+   C1  unknot, both ends, Phi = 1                                         PASSED
+   C2  4_1, both ends, Phi = (q;q)_inf  (Armond-Dasbach)                  PASSED
+   C3  3_1, low end, Phi = 1 (the instrument can return the trivial series) PASSED
+   C4  every end identified in closed form on ALL its certified coefficients PASSED
+   C5  step-2 window >= 10 everywhere reported (not a parity artifact)    PASSED
+   CELL 1 resolved -> B (the tail is knot-by-knot, measured not argued)   PASSED
+   CELL 2 resolved -> B (both kinds occur inside one twist-knot family)   PASSED
+
+WHAT WAS MEASURED, PLAINLY.
+
+   knot     p     low end                     high end
+   ----     --    -------                     --------
+   unknot    0    1                           1
+   3_1       1    1                           -(q;q)_inf
+   4_1      -1    (q;q)_inf                   (q;q)_inf
+   6_1      -2    (q;q)_inf                   theta, modulus 20
+   9_2       4    false theta, modulus 16     -(q;q)_inf
+
+Memo 184's fence was SEVEN stabilised coefficients.  It is now FIFTY-TWO, on four knots
+rather than one, and every one of the five distinct series is identified in closed form
+on every certified coefficient -- not fitted, matched.
+
+THE FINDING THAT WAS NOT ASKED FOR.  The false / genuine theta distinction -- the one
+memo 173 got backwards and memo 177 section 1 now turns on -- occurs INSIDE ONE
+ONE-PARAMETER FAMILY.  K_{-2} = 6_1 has a genuine theta at one end; K_4 = 9_2 has a
+false theta at the other.  Both are alternating twist knots, differing only in the twist
+parameter.  Whatever selects false from genuine is therefore visible in a family small
+enough to enumerate, and does not require comparing unrelated knots.
+
+WHAT THIS DOES NOT DO.  It does not reopen the c_eff route.  Register R83 stopped paying
+for that route because its SUCCESS would not have been evidence -- c_eff(1/(q;q)_inf^m)
+= m is available to order.  Nothing here changes that.  These are measurements of the
+tails themselves, which are the cheaper object memo 184 addendum 1 asked for.
