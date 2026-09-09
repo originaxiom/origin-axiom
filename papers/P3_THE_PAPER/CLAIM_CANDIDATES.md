@@ -1,7 +1,7 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1102 settled arcs — 75%** —
+the field is **absent on 828 of 1103 settled arcs — 75%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 

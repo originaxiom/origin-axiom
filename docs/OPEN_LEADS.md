@@ -2550,3 +2550,15 @@ surface is a choice. **What would overturn it:** a proof that the object's closi
 of S⁴ whose singular set is exactly a closing of the tower with no residual choice. A reading, not a computation:
 Piergallini (1995), Iori–Piergallini, the author's construction (`docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` §4(iii)).
 ★
+
+## L212 — THE CLOSING'S E₇ POINTS AS CONES OVER CP³/2T (registered 2026-09-09; B1355)
+
+The destination's item 1 (three points on the E₆ locus, one chiral 27 each) has a named local model: the G₂ cone over CP³/2T,
+the twistor cone of the self-dual Einstein orbifold S⁴/2T — Acharya–Witten's twistor family with the object's McKay group; its E₆
+locus and an A₁ locus meet only at a curved non-orbifold apex with b₂(link) = 1 and ∫_U w ≠ 0, so Witten's inflow (the mixed
+U(1)·E₆² anomaly) forces chiral E₆-charged matter there. **Computation:** (i) whether the tower's ℤ/3 descent (Y₃, B1301/B1303)
+can place three such apexes on the closing's E₆ locus, with the charge sum rule ∑_α ∫_{U_α} w = 0 over a compact closing read
+against the global b₂; (ii) the E₆ × SU(2) spectrum at the apex from the A₁ locus over the second pole; (iii) a self-dual Einstein
+orbifold with exactly one 2T point (S⁴/2T has two poles; B1353's argument shows a larger Γ ⊂ O(4) enlarges the stabiliser).
+`frontier/B1355_the_e7_point_made_explicit`.
+

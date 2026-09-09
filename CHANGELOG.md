@@ -1,5 +1,13 @@
 # Changelog
 
+## B1355 — the E₇ point made explicit: the destination's local model is the G₂ cone over CP³/2T
+
+Acharya–Witten's twistor family with the object's McKay group: the Bryant–Salamon cone over CP³ divided by 2T on one quaternionic
+factor has an E₆ locus and an A₁ locus meeting only at a curved non-orbifold apex with b₂(link) = 1 and ∫_U w ≠ 0, where Witten's
+inflow (the mixed U(1)·E₆² anomaly) forces chiral E₆-charged matter — B1353's impossible flat configuration realised curved. AW's
+hyperkähler-U(1) family is A-type only (the centraliser of 2T in Sp(1) is ±1). L212 registered (three apexes on a compact closing).
+`frontier/B1355_the_e7_point_made_explicit`; CHIRALITY_MAP §6g; THE_DESTINATION_LEDGER item 1; THE_SM_VERDICT. 0 of 19.
+
 ## Harvest from main abb16e85 — L204 verified on main (B1322); the localized counts (B1320/B1321) consistent with B1351
 
 Main's re-read of sB1350's banked points with its own Fox calculus banked as a currency note; B1320/B1321's Pantev–Wijnholt localized counts

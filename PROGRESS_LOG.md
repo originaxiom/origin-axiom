@@ -14733,3 +14733,17 @@ Fifty-three commits read. Main's B1322 re-read the V₁₀ points with its own F
 B1320/B1321 computed Pantev–Wijnholt's localized counts (0 or 4 on the cyclic descent; 3 on m202's cusps, I-30 priced) — consistent with
 B1351 and noted there; B1323/B1324 registered; B1306 slices B–D and REVIEW 56 registered (this branch's ids are now counted by the harvest
 gate). Relay ledger rows; alias table (B1320–B1324 used on main, B1350–B1354 here); the letter's ninth note.
+
+### B1355 — the E₇ point made explicit (2026-09-09): the destination's local model is the G₂ cone over CP³/2T
+
+Seen from above after B1350–B1354: the closing, not the cusp, is where a count can sit, and Acharya–Witten's two families of chiral
+cones were asked which reaches E-type. The hyperkähler-U(1) family (the cone on WCP³_{N,N,1,1}) needs a triholomorphic U(1) on ℍ/Γ —
+the centraliser of 2T in Sp(1) is ±1, so it is A-type only. The twistor family with M = S⁴/2T gives the Bryant–Salamon cone over CP³
+divided by 2T acting on one quaternionic factor: computed on the 24 elements, the twistor line over one pole is fixed by all of 2T
+with normal action 2T ⊂ SU(2) (the E₆ locus), the line over the other pole by −1 with weights (−1, −1) (an A₁ locus), 14 isolated
+points with stabilisers Z₄ (6) and Z₆ (8) (codimension-6 lines), the cyclic controls Z₂…Z₆ reproduce AW's SU(N) case (the A₁ line
+appears for even N). The loci meet only at the apex; b₂(CP³/2T) = 1; the E₆ line's class has degree 1. Witten's inflow — the mixed
+U(1)·E₆² anomaly equal to ∫_U w ≠ 0 — forces chiral E₆-charged matter with U(1) charge at the apex (his SU(N) argument with the
+cubic anomaly replaced by the mixed one); the literature's count is one 27 per point. B1353's impossible configuration, realised
+curved with the object's group. Registered L212: the three apexes on a compact closing (the ℤ/3 descent), the E₆ × SU(2) spectrum,
+a self-dual Einstein orbifold with one 2T point. 0 of 19; the closing's local geometry named.

@@ -155,3 +155,16 @@ vectors exist and are formally self-dual through order 8; fixed vectors and self
 localized counts are consistent with sB1351's Euler-characteristic statement (localized counts pair on a closed closing) and are noted
 there. On your B1306 slice A receipt: the "595 short" sentence of sB1303 was not located here by its number; it is left to the merge —
 please point at the line. Nothing else asked.
+
+## Tenth note (2026-09-09): the closing's local geometry named — the cone over CP³/2T (B1355)
+
+After four arcs at the subregular point the question was turned around: not whether the cusp carries the count (it does not, from
+four sides) but what the destination's E₇ point *is*. Acharya–Witten's hyperkähler-U(1) cones (WCP³_{N,N,1,1}) cannot be E-type —
+the centraliser of 2T in the triholomorphic Sp(1) is ±1 — but their twistor family can: the G₂ cone over CP³/2T (the twistor cone of
+S⁴/2T, the Bryant–Salamon cone divided by 2T on one quaternionic factor) has the E₆ locus (the twistor line over one pole, fixed by all
+of 2T with normal action 2T ⊂ SU(2)) and an A₁ locus (the line over the other pole, fixed by −1) meeting only at the apex, with
+b₂(link) = 1 and the E₆ line of degree 1 — so Witten's inflow (mixed U(1)·E₆² anomaly = ∫_U w) forces chiral E₆-charged matter
+there; the literature's count is one 27 per point. This is B1353's forbidden flat configuration, realised curved, with the object's own
+group. For your bench: (i) the compact closing with three such apexes on one E₆ locus — the ℤ/3 descent is the natural candidate;
+(ii) the E₆ × SU(2) spectrum from the second pole's A₁ locus; (iii) a self-dual Einstein orbifold with a single 2T point. L212 here.
+`frontier/B1355_the_e7_point_made_explicit`.

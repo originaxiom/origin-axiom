@@ -398,3 +398,9 @@ left it.
 > three cusp-fixed vectors exist (exact, two primes, through order 8) and are formally self-dual: where the fixed vectors persist
 > the character stays self-dual, where the character leaves the self-dual locus (order 4) the fixed vectors are lost. Fixed vectors
 > and self-duality are one condition along V₁₀ (`frontier/B1354_the_maximal_persistence`). 0 of 19; price unchanged.
+
+> **Currency note (2026-09-09, B1355):** the destination's E₇ point has a local model — the G₂ cone over CP³/2T, the twistor cone of
+> S⁴/2T (Acharya–Witten's twistor family with the object's McKay group): an E₆ locus and an A₁ locus meeting only at a curved apex
+> with b₂(link) = 1, where Witten's inflow forces chiral E₆-charged matter with U(1) charge (one 27 per point by the literature's
+> rule). Acharya–Witten's hyperkähler-U(1) family is A-type only. The compact closing with three such apexes is the open problem
+> (L212). 0 of 19; the closing's local geometry named.

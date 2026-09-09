@@ -1,0 +1,37 @@
+=== 2T: 24 elements acting on C^4 = C^2 (+) C^2 as diag(g, 1) ===
+    P(0 + C^2) (the second factor): fixed pointwise by 24 elements (all of the group: True)
+        normal action = the group itself on C^2, in SU(2): True  -> an ADE locus of the group's type
+    P(C^2 + 0) (the first factor): fixed pointwise by 1 non-trivial elements: [(np.float64(-1.0), np.float64(-1.0))]
+        element with eigenvalue (-1+0j) on L': normal weights (1/lambda, 1/lambda) = (-1-0j) x 2 -> SU(2)-type (A1) 
+    isolated fixed points on L' (vertices of the polyhedral action): 14 points; stabiliser orders {4: 6, 6: 8}
+=== Z_2 = <diag(z, z^-1)> (Acharya-Witten's SU(2) case): 2 elements acting on C^4 = C^2 (+) C^2 as diag(g, 1) ===
+    P(0 + C^2) (the second factor): fixed pointwise by 2 elements (all of the group: True)
+        normal action = the group itself on C^2, in SU(2): True  -> an ADE locus of the group's type
+    P(C^2 + 0) (the first factor): fixed pointwise by 1 non-trivial elements: [(np.float64(-1.0), np.float64(-1.0))]
+        element with eigenvalue (-1+0j) on L': normal weights (1/lambda, 1/lambda) = (-1-0j) x 2 -> SU(2)-type (A1) 
+    isolated fixed points on L' (vertices of the polyhedral action): 0 points; stabiliser orders {}
+=== Z_3 = <diag(z, z^-1)> (Acharya-Witten's SU(3) case): 3 elements acting on C^4 = C^2 (+) C^2 as diag(g, 1) ===
+    P(0 + C^2) (the second factor): fixed pointwise by 3 elements (all of the group: True)
+        normal action = the group itself on C^2, in SU(2): True  -> an ADE locus of the group's type
+    P(C^2 + 0) (the first factor): fixed pointwise by 0 non-trivial elements: []
+    isolated fixed points on L' (vertices of the polyhedral action): 2 points; stabiliser orders {3: 2}
+=== Z_4 = <diag(z, z^-1)> (Acharya-Witten's SU(4) case): 4 elements acting on C^4 = C^2 (+) C^2 as diag(g, 1) ===
+    P(0 + C^2) (the second factor): fixed pointwise by 4 elements (all of the group: True)
+        normal action = the group itself on C^2, in SU(2): True  -> an ADE locus of the group's type
+    P(C^2 + 0) (the first factor): fixed pointwise by 1 non-trivial elements: [(np.float64(-1.0), np.float64(-1.0))]
+        element with eigenvalue (-1+0j) on L': normal weights (1/lambda, 1/lambda) = (-1-0j) x 2 -> SU(2)-type (A1) 
+    isolated fixed points on L' (vertices of the polyhedral action): 2 points; stabiliser orders {4: 2}
+=== Z_5 = <diag(z, z^-1)> (Acharya-Witten's SU(5) case): 5 elements acting on C^4 = C^2 (+) C^2 as diag(g, 1) ===
+    P(0 + C^2) (the second factor): fixed pointwise by 5 elements (all of the group: True)
+        normal action = the group itself on C^2, in SU(2): True  -> an ADE locus of the group's type
+    P(C^2 + 0) (the first factor): fixed pointwise by 0 non-trivial elements: []
+    isolated fixed points on L' (vertices of the polyhedral action): 2 points; stabiliser orders {5: 2}
+=== Z_6 = <diag(z, z^-1)> (Acharya-Witten's SU(6) case): 6 elements acting on C^4 = C^2 (+) C^2 as diag(g, 1) ===
+    P(0 + C^2) (the second factor): fixed pointwise by 6 elements (all of the group: True)
+        normal action = the group itself on C^2, in SU(2): True  -> an ADE locus of the group's type
+    P(C^2 + 0) (the first factor): fixed pointwise by 1 non-trivial elements: [(np.float64(-1.0), np.float64(-1.0))]
+        element with eigenvalue (-1+0j) on L': normal weights (1/lambda, 1/lambda) = (-1-0j) x 2 -> SU(2)-type (A1) 
+    isolated fixed points on L' (vertices of the polyhedral action): 2 points; stabiliser orders {6: 2}
+=== (v) the centraliser of 2T in Sp(1): unit quaternions commuting with the three generators ===
+    elements of 2T central in 2T: 2 (+-1); and any one-parameter subgroup exp(t x) of Sp(1) commuting with i, j, k must have x central in H, i.e. x = 0:
+    the centraliser of 2T in Sp(1) is {+-1} -- no U(1) acts on H/2T tri-holomorphically; for Z_N the U(1) containing it does (Acharya-Witten (2.4)-(2.5)).

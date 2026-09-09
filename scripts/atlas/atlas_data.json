@@ -7125,7 +7125,7 @@
     "L207"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 14,
+   "obstacle_conf": 15,
    "status": "banked",
    "domain": "topology"
   },
@@ -7192,6 +7192,25 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1355": {
+   "slug": "the e7 point made explicit",
+   "motifs": [
+    "closing",
+    "coupling",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "arithmetic"
   },

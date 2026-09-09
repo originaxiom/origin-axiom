@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1202** |
-| words of findings prose | **869,895** |
-| test lock files referenced | **716** |
-| arcs carrying an authored verdict | **1202** (100.0 %) |
+| research arcs with findings | **1203** |
+| words of findings prose | **871,694** |
+| test lock files referenced | **717** |
+| arcs carrying an authored verdict | **1203** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 792 |
+| PROVED | 793 |
 | NEGATIVE | 312 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1354`** (1416 words, 1 locks)  
-THE MAXIMAL PERSISTENCE (B1352 section 6's residue): formal branches tangent to the V10 direction that keep all three cusp-fixed vectors of rho_0 exist -- the second-order class must drop V4, V8, V16 and carry a definite V6 component tied to V14 (the Groebner basis of the order-4 obstruction system is linear, the same family for every target vector and every direction of the V10 plane), after which every order is affine and free -- and the climb reaches order 8 modulo two primes (Toeplitz kernel dimensions 3m). Along every such branch the traces move at first order but the self-duality defects vanish through order 8: the fixed-vector branch is formally self-dual, while the greedy branch (the Newton curve's model) leaves the self-dual locus at order 4 and loses the fixed vectors at the same order. Cusp-fixed weights and self-duality are one condition along V10 at every order reached: the theta-odd frame on the cusped object carries no net count, formally or numerically. L204 closed on the object. 0 of 19.  
-`B1354_the_maximal_persistence/FINDINGS.md`
+**PROVED — `B1355`** (1799 words, 1 locks)  
+THE E7 POINT MADE EXPLICIT: the destination's local model is the G2 cone over CP^3/2T -- the Bryant-Salamon cone over the nearly-Kaehler CP^3 divided by the object's McKay group 2T acting on one quaternionic factor (the twistor cone of the self-dual Einstein orbifold S^4/2T, Acharya-Witten's twistor family). Its E6 locus (the cone over the twistor line fixed by all of 2T, normal action 2T c SU(2)) and an A1 locus (the cone over the line fixed by -1) meet only at a curved non-orbifold apex; the link CP^3/2T has b_2 = 1 and the E6 locus's class pairs non-trivially with the harmonic two-form, so by Witten's inflow (the mixed U(1).E6^2 anomaly equal to the integral of w over the locus's link) the apex must carry chiral E6-charged matter with U(1) charge -- the E6 analogue of Acharya-Witten's U(N) point, the configuration B1353 proved impossible in the flat class. Acharya-Witten's hyperkaehler-U(1) family is A-type only (the centraliser of 2T in Sp(1) is +-1). The count one 27 per point is the literature's rule (E7 > E6 x U(1)); the compact closing with three such apexes is not constructed. Item 1 of the destination has a named local geometry. 0 of 19.  
+`B1355_the_e7_point_made_explicit/FINDINGS.md`
 
 **NEGATIVE — `B1300`** (2600 words, 1 locks)  
 THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while keeping the Higgs doublets: exhaustively, with every component's survival in every generation recorded (B1278's pipeline re-run and re-enumerated), 0 split lines; D is kept in all three generations on every SM line -- indeed on every one of the 3 048 625 candidates -- while Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines. BY THEOREM: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; three generations of Q put psi_Q in the alphabet K3 = {1} u ((C_1 u C_2) minus 1) x V_4 (orders 1, 19, 38), whose squares have odd order and are never family characters -- and the family characters (order 2) are the only characters that project anything (B1278's support theorem: h^1 = 1 exactly on ((C_1 u C_2) x V_4) minus 1). An exact structural model built from the support theorem and the weight table (Q, u^c, L a Z-basis of P/Q_SM; the eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders) reproduces every count of B1278 -- 145-letter alphabet, 758 593 three-generation lines, 737 568 SU(5)-breaking, 706 464 SM vacua, 568 656 full-spectrum -- and every histogram of the pipeline in seventeen seconds with no Fox calculus: B1278 verified by a second method. Consequences: L209(ii)'s Wilson-line option is closed; B1283's light D pair is untouched by the Wilson line as it is by the tree-level VEVs, so whatever gives generation g's Higgs pair its mu gives its D pair a mass through the same E6 Clebsch (a vector-like colour-triplet pair near mu if the instanton sector respects the Clebsch -- a stated assumption, not a banked prediction). Vector-like throughout (B1260); 0 of 19; price unchanged.  

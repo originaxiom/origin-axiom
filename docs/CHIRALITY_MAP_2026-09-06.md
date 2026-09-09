@@ -120,7 +120,7 @@ the trace coordinates), the inversion ι does it for the E₆ family (on the who
 | **O1 — the other sl₂ points (COMPUTED, B1280 §3(d))** | the signs ε_n(ι) = (−1)^{n/2+1} are universal, so the test at every even sl₂ orbit of E₆ is root-system combinatorics (`mod4_criterion_other_sl2.py`): **the geometric (principal) point is the unique one where an isometry realises θ on the deformation space.** At B1256's subregular I-25 point the sl₂ is the principal sl₂ of an sp(8) and **exactly one θ-odd direction — the V₁₀ of the 42 — is unpaired** | the subregular germ's V₁₀ direction is the first place on the object where N(27) ≠ 0 is not excluded by symmetry; B1268's cusp-fixed computation, run there, decides it (|N| ≤ h⁰(∂M; 27) still) |
 | **O2 — higher rank** | non-self-dual SL(n) components, n ≥ 4, of the object's character variety — none realised in the corpus; the two-sheet mechanism of W-W1W2 is Lawton's SL(3) fact, its SL(n) analogue is the transpose sheet | a rank ≥ 4 non-self-dual system with cusp-fixed vectors and no pairing isometry |
 | **O3 — the general theorem** | *conjecture:* N(V) = 0 for every representation of π₁(m004). Mechanism in every case computed: an isometry pairs V with V\* on cohomology (ι for the abelian and E₆ sectors, τ for the SL(3) elliptic components on K), or the cusp keeps no fixed vector | a proof would need, for each V with cusp-fixed vectors, an isometry σ with σ\*V\* ≅ V — false as stated off K on W1/W2, where the bound does the work; the right general statement is not yet formulated |
-| **O4 — the singular G₂ closing** | the destination's item 1: the conical G₂ geometry over the object's E₆ locus, where chirality is a 7-dimensional index (Acharya–Witten), not an h¹ of m004 | the only place C3 can still come from, given W-closed, W-flat-G₂ and the two new walls; I-26 is earned or refuted there |
+| **O4 — the singular G₂ closing** | the destination's item 1: the conical G₂ geometry over the object's E₆ locus, where chirality is a 7-dimensional index (Acharya–Witten), not an h¹ of m004 — **local model named: the cone over CP³/2T (B1355, §6g)** | the only place C3 can still come from, given W-closed, W-flat-G₂ and the two new walls; I-26 is earned or refuted there |
 | **O5 — the sign** | C4: the orientation of the singular closing, or the observer's registration (B871) | not a computation on the object: B713/B760 |
 | **O6 — the two-cusped sibling (from the seats, B1281)** | m202: tetrahedral, vol = 2 vol(m004), commensurable with the object (cusped arithmetic over ℚ(√−3)), keeps 2T (96 surjections), Sym = D₆, chiral, a ℤ/6 whose order-3 element fixes three geodesic lines running cusp 0 → cusp 1. fc R72's fenced count on them: the inner lift is forced for order 3, every Cartan direction is even, and Pantev–Wijnholt's count with equal charges is 3·(16 ⊕ 10 ⊕ 1) on the SO(10) direction, anomaly-free (or 3·(10 ⊕ 5̄), or one quark family) — "three is in the menu, not selected by it"; PW cited not derived; I-26 unpaid | L208: verify the count independently (lines, charges, lift); **B1280's question on m202 is answered (B1282): the inversion of m202 acts on all six E₆ slots as θ's sign, uniquely, so the flat E₆ sector of the sibling is vector-like near its geometric point and the three is a singular-locus count only**; whether a closing of m202 keeps a count (B1294's theorem says a closed one keeps the 2 only if amphicheiral) |
 
@@ -186,6 +186,19 @@ reaches order 8 with all three vectors kept. Along those branches the traces mov
 defects vanish through order 8; along the greedy branch they appear at order 4, where the fixed vectors are lost. So on
 the object the two conditions a net count needs exclude each other along V₁₀ at every order reached: **cusp-fixed weights
 and self-duality are one condition.** O1's residue is void; O4 and O5 stand.
+
+## 6g. The E₇ point made explicit (B1355, 2026-09-09)
+
+O4 has a local model. Acharya–Witten's two families of chiral cones, asked which reaches E-type: the hyperkähler-U(1) family
+(the cone on WCP³_{N,N,1,1}) needs a U(1) acting triholomorphically on ℍ/Γ and stops at cyclic Γ (the centraliser of 2T in Sp(1)
+is ±1); the twistor family does not. With M = S⁴/2T the twistor cone is the Bryant–Salamon cone over CP³ divided by 2T acting on
+one quaternionic factor: the twistor line over one pole is fixed by all of 2T with normal action 2T ⊂ SU(2) — the E₆ locus — the
+line over the other pole is fixed by −1 — an A₁ locus — and they meet only at the apex, a conical singularity whose link CP³/2T has
+b₂ = 1 with the E₆ line's class of degree 1. Witten's inflow, the mixed U(1)·E₆² anomaly equal to ∫_U w ≠ 0, forces chiral
+E₆-charged matter with U(1) charge at the apex; the literature's count is one 27 per point (E₇ ⊃ E₆ × U(1)). This is the
+configuration B1353 proved impossible in the flat class, realised in the curved one, with the object's own group. The three
+faces meet in it: 2T (arithmetic), the twistor cone (geometry), the inflow (quantum). What remains is global: a compact closing
+whose E₆ locus carries three such apexes (L212).
 
 ## 7. Consequence for the destination ledger
 
