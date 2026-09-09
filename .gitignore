@@ -23,6 +23,7 @@ dist/
 # above was swallowing every frontier/*/verification/*.out, so a fresh clone could not
 # reproduce the manifest and several arc locks could not run at all.
 !frontier/*/verification/*.out
+!frontier/*/verification/*/*.out
 *.toc
 *.synctex.gz
 *.fls
