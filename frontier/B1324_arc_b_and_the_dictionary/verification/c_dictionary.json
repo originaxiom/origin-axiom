@@ -1,0 +1,60 @@
+{
+ "C1": {
+  "m004 self-isometry triples (orientation, s_m, s_l) -> count": {
+   "(-1, 1, -1)": 2,
+   "(1, -1, -1)": 2,
+   "(-1, -1, 1)": 2,
+   "(1, 1, 1)": 2
+  },
+  "identity det = s_m*s_l on all": true,
+  "four patterns twice each": true,
+  "kernel of D4 -> (Z/2)^2 has order": 2,
+  "a*B -> B*a (record swap's image, the reflection word) triples": {
+   "(-1, -1, 1)": 2,
+   "(1, 1, 1)": 2,
+   "(1, -1, -1)": 2,
+   "(-1, 1, -1)": 2
+  },
+  "a*B -> b*A (inverse monodromy: rotation and flow reversal) triples": {
+   "(1, 1, 1)": 2,
+   "(-1, -1, 1)": 2,
+   "(-1, 1, -1)": 2,
+   "(1, -1, -1)": 2
+  },
+  "a*B -> a*B (self) triples": {
+   "(-1, 1, -1)": 2,
+   "(1, -1, -1)": 2,
+   "(-1, -1, 1)": 2,
+   "(1, 1, 1)": 2
+  },
+  "a*B is m004": true,
+  "B*a is m004": true,
+  "b*A is m004": true,
+  "PASS_C1": true
+ },
+ "C2": {
+  "one-cusped H1=Z census manifolds to 7 tets": 2804,
+  "pattern sets -> count": {
+   "[(1, -1, -1), (1, 1, 1)]": 2794,
+   "[(1, 1, 1)]": 7,
+   "[(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]": 3
+  },
+  "fully symmetric (all four patterns)": [
+   "m004",
+   "s726",
+   "s912"
+  ],
+  "identity-only (chiral, non-invertible)": [
+   "s879",
+   "v2861",
+   "v2986",
+   "v3169",
+   "v3372",
+   "v3398",
+   "v3522"
+  ],
+  "identity holds on every census isometry": true,
+  "PASS_C2": true
+ },
+ "PASS": true
+}

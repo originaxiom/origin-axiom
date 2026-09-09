@@ -1,0 +1,57 @@
+### already_banked: amphichiral cover figure-eight symmetry lift
+  404 corpus hits; 11 SETTLED arcs matching >= 3 of 5 terms
+      [ 5 terms] FINDINGS  frontier/B1297_the_spectral_cover_index/FINDINGS.md
+      [ 5 terms] FINDINGS  frontier/B348_bloch_class_galois/FINDINGS.md
+      [ 5 terms] FINDINGS  frontier/B469_breath_campaign/FINDINGS.md
+  *** [ 4 terms] PROVED    B1235_two_seat_harvest
+      [ 4 terms] FINDINGS  frontier/B1104_fourd_suspension/FINDINGS.md
+      [ 4 terms] FINDINGS  frontier/B1235_two_seat_harvest/FINDINGS.md
+      [ 4 terms] FINDINGS  frontier/B1239_quarter_class_is_cusp_local/FINDINGS.md
+### already_banked: covers inherit amphichirality orientation-reversing isometry
+  102 corpus hits; 5 SETTLED arcs matching >= 3 of 5 terms
+      [ 5 terms] FINDINGS  frontier/B1235_two_seat_harvest/FINDINGS.md
+      [ 4 terms] FINDINGS  frontier/B1239_quarter_class_is_cusp_local/FINDINGS.md
+      [ 4 terms] FINDINGS  frontier/B605_door2_involution/FINDINGS.md
+  *** [ 3 terms] PROVED    B1234_a6_built_the_walls
+  *** [ 3 terms] PROVED    B1235_two_seat_harvest
+  *** [ 3 terms] PROVED    B1239_quarter_class_is_cusp_local
+  *** [ 3 terms] PROVED    B1294_the_chirality_bit
+### already_banked: discrete symmetry dictionary meridian longitude orientation sign
+  387 corpus hits; 4 SETTLED arcs matching >= 4 of 7 terms
+      [ 6 terms] FINDINGS  frontier/B598_l85_campaign/FINDINGS.md
+  *** [ 5 terms] PROVED    B1295_the_caveat_closed_by_computation
+  *** [ 4 terms] PROVED    B1191_close_loop_batch3
+  *** [ 4 terms] PROVED    B1226_the_beta_odd_box
+  *** [ 4 terms] PROVED    B1323_the_genesis_upgrades
+  *** [ 3 terms] PROVED    B1003_axiom_prices
+  *** [ 3 terms] PROVED    B1014_proof_form
+### already_banked: four record SL(4,Z) transvection closure Pisot
+  464 corpus hits; 5 SETTLED arcs matching >= 3 of 6 terms
+      [ 5 terms] FINDINGS  frontier/B1238_seat_harvest_40a3_bronze_octic/FINDINGS.md
+      [ 5 terms] FINDINGS  frontier/B1323_the_genesis_upgrades/FINDINGS.md
+      [ 5 terms] FINDINGS  frontier/B742_negatives_hunt_p1/FINDINGS.md
+      [ 3 terms] OPEN      B1169_qualia_parity_synthesis
+      [ 3 terms] OPEN      B1172_lose_nothing_register
+  *** [ 3 terms] PROVED    B1218_open_claim_sweep
+  *** [ 3 terms] PROVED    B1233_zai_audit
+### absence_sweep: amphichiral cover
+      docs/CAMPAIGN_STATUS.md
+      docs/FRESH_EYES_2026-09.md
+      docs/OPEN_LEADS.md
+VERDICT: PRESENT -- on 7 head(s), working tree. 'We don't have it' may NOT be written.
+### absence_sweep: inherit amphichirality
+      docs/HARVEST_LEDGER.md
+      frontier/B1324_arc_b_and_the_dictionary/verification/rule_lines.txt
+VERDICT: PRESENT -- on 3 head(s), working tree. 'We don't have it' may NOT be written.
+### absence_sweep: cusp triple
+      frontier/B1324_arc_b_and_the_dictionary/verification/rule_lines.txt
+VERDICT: PRESENT -- on 0 head(s), working tree. 'We don't have it' may NOT be written.
+### absence_sweep: orientation = meridian
+      frontier/B1324_arc_b_and_the_dictionary/verification/rule_lines.txt
+VERDICT: PRESENT -- on 0 head(s), working tree. 'We don't have it' may NOT be written.
+### absence_sweep: four-record
+      frontier/B1324_arc_b_and_the_dictionary/verification/rule_lines.txt
+VERDICT: PRESENT -- on 0 head(s), working tree. 'We don't have it' may NOT be written.
+### absence_sweep: smallest quartic Pisot
+      frontier/B1324_arc_b_and_the_dictionary/verification/rule_lines.txt
+VERDICT: PRESENT -- on 0 head(s), working tree. 'We don't have it' may NOT be written.

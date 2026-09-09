@@ -539,6 +539,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1296` | PROVED | L | | THE CHARGE-LOCUS PARITY LOCK (MASTERPLAN v3 Phase 2 = Door D1; pre-registered, two pre-registered expectations refuted by the computation and the computation banked). T1 THE SWAP THEOREM: on B1295's h… |
 | `B1297` | PROVED | L | | THE SPECTRAL-COVER INDEX (MASTERPLAN v3 Phase 3 = Door D2; formula + domain pre-registered and sealed BEFORE evaluation, Part I sha256 75e55a88, Part II 16918308). THE INDEX: on a one-cusped 3-manifol… |
 | `B1323` | PROVED | L | | THE GENESIS UPGRADES (DESIGN sealed 3e8282a2 before any computation). FORK F9, the substrate count, ROBUST on both carriers: on the toral carrier every T^3-bundle has chi = 0 and no finite-volume hype… |
+| `B1324` | PROVED | L | | PHASE 2 ARC B + THE DISCRETE-SYMMETRY DICTIONARY (DESIGN sealed 03d98827 before any computation). ARC B, the census before any index: of the 87 covers of m004 to degree 10 (B1295's list, 0 mismatches)… |
 
 ## The exhibit that forced the rebuild
 

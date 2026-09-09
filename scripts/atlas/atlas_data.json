@@ -7097,6 +7097,29 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1324": {
+   "slug": "arc b and the dictionary",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "L202",
+    "S068"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B132": {
    "slug": "quantum layer",
    "motifs": [
