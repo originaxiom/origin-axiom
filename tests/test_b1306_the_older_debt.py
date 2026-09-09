@@ -138,6 +138,7 @@ def test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted(tmp_path):
     rep = json.loads(out.read_text(encoding="utf-8"))
     for k, s in rep["seats"].items():
         if "skipped" in s: continue
-        assert s["backlog"] == [] and s["stale_rows"] == [], (k, s["backlog"][:5], s["stale_rows"][:5])
+        # an item the seat pushed after its pin is the gate's NEW debt, not slice D's: the backlog may only contain such items
+        assert set(s["backlog"]) <= set(s["new_unrowed"]) and s["stale_rows"] == [], (k, s["backlog"][:5], s["stale_rows"][:5])
     assert rep["summary"]["scheduled_rows"] > 0 and "SCHEDULED rows" in r.stdout
     assert (ARC / "verification" / "sliceD" / "rows.md").is_file() and (ARC / "FINDINGS_D.md").is_file()

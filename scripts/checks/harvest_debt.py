@@ -128,10 +128,13 @@ def _expand(a, b):
     return list(range(a, b + 1)) if a <= b and b - a < 400 else [a, b]
 
 
-def _nums(text, pat):
-    """all ids matched by pat, with 'N-M' / 'N–M' ranges expanded (pat must have a single group for N)."""
+def _nums(text, pat, second=r"\d+"):
+    """all ids matched by pat, with 'N-M' / 'N–M' ranges expanded (pat has a single group for N; the range's second operand must be
+    the SAME kind of number -- `second` -- optionally re-prefixed like the first, e.g. 'R57–R60', 'sm:B1302–B1304', 'memos 174–178').
+    B1306 D: the old grammar let '— B1163' or '— L171' after an id read as a range and minted hundreds of false ids."""
+    prefix = re.match(r"^(.*?)\(", pat).group(1) if "(" in pat else ""
     out = set()
-    for m in re.finditer(pat + r"(?:\s*[–—-]\s*(?:[A-Za-z:]*)?(\d+))?", text):
+    for m in re.finditer(pat + r"(?:\s*[–—-]\s*(?:" + prefix + r")?(" + second + r")\b)?", text):
         n = int(m.group(1))
         out.add(n)
         if m.group(2):
@@ -321,12 +324,12 @@ def row_ids(seat, row, idx):
     t = row["text"]
     out = set()
     if k == "sm":
-        out |= {f"sm:B{n}" for n in _nums(t, r"(?:sm:B|sB)(\d{4})")}
+        out |= {f"sm:B{n}" for n in _nums(t, r"(?:sm:B|sB)(\d{4})", r"\d{4}")}
         for rid in idx:
             if not rid.startswith("sm:B") and rid in t:
                 out.add(rid)
     elif k == "fc":
-        out |= {f"R{n}" for n in _nums(t, r"\bR(\d{1,2})\b")}
+        out |= {f"R{n}" for n in _nums(t, r"\bR(\d{1,2})\b", r"\d{1,2}")}
         out |= {m.group(0) for m in re.finditer(r"\bH[12]\b", t)}
     elif k == "codex":
         for m in re.finditer(r"\bR(\d{3})([A-Z]?)\b(?:\s*[–—-]\s*R?(\d{3})\b)?", t):
@@ -334,22 +337,22 @@ def row_ids(seat, row, idx):
             if m.group(3):
                 out |= {f"R{n:03d}" for n in _expand(m.group(1), m.group(3))}
     elif k == "cc3":
-        out |= {f"B{n}" for n in _nums(t, r"\bB(8\d{3})\b")}
+        out |= {f"B{n}" for n in _nums(t, r"\bB(8\d{3})\b", r"8\d{3}")}
     elif k == "hostile":
-        out |= {f"memo {n}" for n in _nums(t, r"\bmemos?\s*#?(\d{1,2})\b")}
+        out |= {f"memo {n}" for n in _nums(t, r"\bmemos?\s*#?(\d{1,2})\b", r"\d{1,2}")}
         for rid in idx:
             if not rid.startswith("memo ") and rid in t:
                 out.add(rid)
     elif k == "cloud":
         # the cloud's INDEX starts at memo 30; memos 1-29 are the hostile-review seat's (golden_gate) by its own scope note
-        out |= {f"memo {n}" for n in _nums(t, r"\bmemos?\s+(\d{1,3})\b") if n >= 30}
+        out |= {f"memo {n}" for n in _nums(t, r"\bmemos?\s+(\d{1,3})\b", r"\d{1,3}") if n >= 30}
     elif k == "braver":
-        out |= {f"B{n}" for n in _nums(t, r"\bB(7\d{2})\b")}
+        out |= {f"B{n}" for n in _nums(t, r"\bB(7\d{2})\b", r"7\d{2}")}
         for rid in idx:
             if not rid.startswith("B") and rid in t:
                 out.add(rid)
     elif k == "qor5up":
-        out |= {f"B{n}" for n in _nums(t, r"\bB(10[2-5]\d)\b")}
+        out |= {f"B{n}" for n in _nums(t, r"\bB(10[2-5]\d)\b", r"10[2-5]\d")}
     elif k == "audit":
         for rid in idx:
             if re.search(rf"\b{re.escape(rid)}\b", t):
@@ -387,6 +390,10 @@ def selftest():
     r5 = reconcile({"c"}, [], {"c": 20})
     if r4["aged"] != ["c"] or r5["aged"] != []:
         fails.append(f"ageing wrong: 22d -> {r4['aged']}, 20d -> {r5['aged']}")
+    # the range grammar: same-kind ranges expand, a dash into another kind of number does not (B1306 D)
+    if _nums("R57–R60", r"\bR(\d{1,2})\b", r"\d{1,2}") != {57, 58, 59, 60}: fails.append("range 'R57–R60' not expanded")
+    if _nums("R24 — B1163 w0", r"\bR(\d{1,2})\b", r"\d{1,2}") != {24}: fails.append("'R24 — B1163' read as a range")
+    if _nums("B8093 — L171 clpw", r"\bB(8\d{3})\b", r"8\d{3}") != {8093}: fails.append("'B8093 — L171' read as a range")
     # the relay-file grammar sees every lane
     for name in ("SM_TO_CC_2026-09-08_THE_TOWER.md", "FC_TO_CC_2026-09-06_THE_LIFT_AND_THE_THIRD_ROOT.md",
                  "FAB5_TO_CC_2026-09-01_reply.md", "CODEX_TO_CC_2026-09-02_FREE_DECK_CS.md",
