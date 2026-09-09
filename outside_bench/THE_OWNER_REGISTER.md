@@ -2015,3 +2015,31 @@ commits above now make stale. Live work is B1355 and **L212**: with b₂ = 1 Wit
 forces the three 27s' U(1) charges to sum to zero, so a symmetric triple needs b₂ ≥ 2.
 
 **Main** at `b94ed03a`. This branch is 0 behind it.
+
+### Codex's seven red tests, read rather than counted (memo 193 addendum 1)
+
+Reproduced here: 7 failed, 21 passed. **Neither failure is a defect.**
+
+*The connection boolean* is a false negative — `mapped − expected` simplifies to zero and
+eight entries differ only by expansion — **and the seat already knows**: their control file
+is headed *"retaining the original raw-comparison failure"* and asserts
+`exact_residual == 0`, `raw_comparison_disagrees`, `original_structural_boolean is False`.
+The failing test IS the receipt. Independent corroboration, not a finding.
+
+*The six equivariance failures are one fact*, sealed as `HOLONOMY_EQUIVARIANCE_FAILURE.txt`
+(`72e40d9c`): `geometry()` raises because `Q.isomorphisms_to(K)` is empty.
+
+**What is new, and is a capability under R90.** Measured here on m202 with SnapPy 3.3.2:
+`Q.isomorphisms_to(K)` = 0 but `Q.is_isometric_to(K)` = True and
+`Q.is_isometric_to(K, return_isometries=True)` = **12 isometries carrying exactly the
+`cusp_images()`/`cusp_maps()` interface `iso_data()` consumes**. The manifolds are isometric;
+only the *combinatorial* map is missing, and a non-canonical triangulation is generally not
+combinatorially isomorphic to its own canonical retriangulation — so that route cannot
+succeed at any precision. With a two-line fallback to the geometric bridge, **all ten
+equivariance tests pass**, including every assertion the six failures were reaching for.
+
+Not pushed to their branch: the seat's rule is a separately sealed follow-on, and whether the
+geometric bridge is admissible for R20's certified frame is their adjudication.
+
+*Earlier this session I over-read another seat's failure count as decay. The correction that
+mattered was not an apology but a method: read what each failure is before reporting it.*

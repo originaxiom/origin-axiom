@@ -171,3 +171,75 @@ Each was invisible to reading and immediate on running. **Registers R-193.**
 *Scope: no mathematical claim of the programme is asserted, revised or retracted here.
 Gate 5 untouched. Two arcs' committed outputs (B1306 slice C, B771 W3-084) were reproduced
 byte-identically, which is evidence for those arcs and for nothing else.*
+
+---
+
+# ADDENDUM 1 — THE CODEX SEAT'S SEVEN RED TESTS ARE TWO PRESERVED RECEIPTS, AND ONE OF THEM HAS A ROUTE
+
+**2026-09-09.** Occasion: the owner's *"fetch everything stay updated. especially codex seat
+and cc seat"*. Read at `origin/audit/physical-bridge-2026-09-05` = `833b939b`
+(`0558e846 → 833b939b`, two commits, 1510 lines: R24, total mass-eigenline flux).
+
+Reproduced from this bench in a throwaway worktree: **7 failed, 21 passed**. Earlier in this
+session I over-read another seat's failure count as decay. Not this time — I read what each
+failure *is* before saying anything.
+
+## Neither failure is a defect
+
+**(a) `test_actual_twisted_connection_transports_both_spin_factors`.** `spin_connection_bridge()`
+returns `connection_matches = False`. Localised here: `mapped − expected` **simplifies to the
+zero matrix**, and exactly eight off-diagonal entries differ *only* by expansion —
+`-I*(a0 - I*a1)/2` against `-I*a0/2 - a1/2`. `sympy.Matrix.__eq__` is structural, so the
+identity is true and the boolean is a false negative.
+
+**The seat already found this.** `tests/test_physical_bridge_global_mass_flux_control.py` is
+headed *"Exact R24 connection locks, retaining the original raw-comparison failure"* and
+asserts all three of `exact_residual == 0`, `raw_comparison_disagrees`, and
+`original_structural_boolean is False`. The failing test **is the preserved receipt**; the
+exact control passes beside it. That is their own sealed rule — *"Preserve first runs,
+failures and original code/tests. Any correction requires a separately sealed follow-on, not
+a changed original receipt."* Patching it would destroy the receipt. **Independent
+corroboration, not a finding.**
+
+**(b) The six `holonomy_equivariance` failures are one fact, not six.** All six die at
+`geometry()`'s deliberate `raise ValueError('no explicit original-to-canonical combinatorial
+basis bridge')`, and that failure is sealed as `HOLONOMY_EQUIVARIANCE_FAILURE.txt`,
+seal `72e40d9c`, 2026-09-08.
+
+## What is new: the bridge exists, it is just not combinatorial
+
+Measured here, SnapPy 3.3.2, on `m202`:
+
+    Q.isomorphisms_to(K)                          ->  0
+    K.isomorphisms_to(K)                          -> 12
+    Q.is_isometric_to(K)                          -> True
+    Q.is_isometric_to(K, return_isometries=True)  -> 12 Isometry objects
+
+**The manifolds are isometric and K carries its full symmetry group; only the *combinatorial*
+map is missing** — `isomorphisms_to` searches combinatorial isomorphisms, and a non-canonical
+triangulation is generally not combinatorially isomorphic to its own canonical
+retriangulation. So the route as written cannot succeed in general, and no amount of
+precision will change that.
+
+The geometric bridge does exist and **carries exactly the interface `iso_data()` consumes** —
+`cusp_images()` and `cusp_maps()`, and nothing else. Demonstrated in the worktree with a
+two-line fallback:
+
+```python
+bridges = Q.isomorphisms_to(K)
+if not bridges:
+    bridges = Q.is_isometric_to(K, return_isometries=True)
+```
+
+`tests/test_physical_bridge_holonomy_equivariance.py`: **10 passed.** Every assertion the six
+failures were reaching for — the C₃ fixed characters, the cube-root pair with six-element
+stabilisers, the sixfold scalar-invariance argument, the central obstruction on scalar lifts —
+**passes on the geometric bridge**.
+
+Not pushed to their branch: their discipline is a separately sealed follow-on, and which
+bridge is admissible for R20's certified frame is their adjudication, not this bench's. Filed
+here as a capability, per **R90** — *the dependency was a missing combinatorial object; the
+capability that removes it is the geometric isometry list, and it costs two lines.*
+
+*Scope: nothing about R24's flux claim is assessed here. Only the reachability of the
+equivariance computation, which is what the seven red tests are about.*
