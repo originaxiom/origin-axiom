@@ -1893,3 +1893,65 @@ the highest-value work inside our own reach.**
 **It will not edit `main`.** Both top items live there. The findings are measured, the repairs are
 specified to the line, and the decision is the owner's — which is the correct division of labour
 for a verification seat and is stated here so it is not mistaken for reluctance.
+
+---
+
+## ADDENDUM 90 (2026-09-09) — **R90: "go for 1, 2, 4, then for 3, what we can have from a human, we can specialize ourself for that so we dont lean on answers that might never come"**
+
+**The directive is recorded verbatim because the last clause is a standing change of posture, not
+a task**: *do not build a plan whose critical path runs through someone else's reply.*
+
+### Item 4 — DONE, and it is the session's headline
+
+**Memo 183 addendum 4's blocker is broken.** `f₆, f₇, f₈…` for `m(5₂)` are out, by Park's inverted
+Habiro route — the one survivor memo 185 named. **Memo 190**, five controls, all passing. The
+credit for the route is Park's; what is this bench's is that **every step was checked against
+something already held**: his two printed recursion relations *derived* from his own `Ĉ`; his
+`a_{−1}` *recomputed* and matching every term he prints through `q^27`; his forward `a_0…a_3`
+*reproduced from this bench's own R-matrix* `C_m(5₂)`; and the conjecture itself verified on `4₁`
+against GM eq (11) first. Then all six Verma-trace blocks reproduced — **224 coefficients** — and
+only then were the new ones read off. **Conjecture 2 is a conjecture and the new blocks are
+labelled as resting on it.**
+
+### Item 2 — the widened freshness sweep is BUILT and RUNNING, with real findings
+
+`certificates/instrument_freshness_wide.py`. Coverage **2 → 152 arcs**. It is more conservative
+than upstream (snapshots *every* file in an arc directory, not just the results file) and carries
+the control that had to exist first: **every failure is retried from the arc's own directory**, so
+a finding that is really the harness's is reported as `HARNESS`, not as a defect. **Zero HARNESS
+recoveries in the first shard — the failures are real.** First 22 arcs:
+
+* **4 instruments that cannot run at all** — two with a literal `(scratchpad)/cloud_handoff/…`
+  path committed into them (*the exact reproducibility defect class this bench found in itself at
+  memo 183 addendum 5*), one `FileNotFoundError` under `frontier/`, one
+  `ModuleNotFoundError: No module named 'V1_verify'`;
+* **6 timeouts at 55 s** — inconclusive, need a longer run;
+* **12 `NO-VERDICT`** — **not defects**, and not counted as such: upstream's own docstring says
+  so, because B943/B946 record computed *values* and their locks assert over those.
+
+**And the widening immediately exposed an upstream bug**: `_all_pass` assumes the results file's
+top-level JSON is a dict and raises on the arcs that store a list. **The narrow selector never
+reached those files, so it has never fired.** Guarded here; the fix belongs in `scripts/checks/`.
+
+### Item 1 — not started; stated rather than glossed
+
+The batch promotion audit has **not** been run in this turn. Items 4 and 2 consumed it. It remains
+the single highest-leverage unblocked action, with its target list already written (6/7 unclaimed).
+
+### Item 3 — the posture change, and the first buildable step
+
+**Accepted, and it is the right call.** A plan whose critical path is another person's reply is not
+a plan. What Q11 asks — *does a mechanism exist attaching a genuine boundary character to the
+unquantized sector of complex Chern–Simons on `m004` with `CS = 0`?* — is answerable in principle
+by building the capability rather than waiting for it.
+
+**And the first step needs nothing we do not already hold.** Gukov–Manolescu **§10.2, "Relation to
+log-VOAs"**, is in the paper on this bench, and it is exactly the correspondence the question turns
+on — which boundary characters are available, and for which sector. **Filed as F190-2: read GM
+§10.2 and Remark 3.8's "unreduced `Ẑ`" against the question Q11 actually asks, and report what is
+decidable from what we hold versus what genuinely needs an expert.** That distinction has never
+been drawn, and drawing it is the difference between waiting and specialising.
+
+**Standing consequence, adopted:** *no lane's critical path may run through an unanswered external
+question. Where one does, the bench names the capability that would remove the dependency and
+prices it.*
