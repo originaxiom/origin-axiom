@@ -1,0 +1,124 @@
+{
+  "term": "secondary.{0,12}(Chern|Euler)|Chern.Euler|law of vector fields|global angular|Poincar.{0,4}Hopf|mass.{0,25}(boundary|flux)|Berry.{0,25}(Euler|boundary)",
+  "heads": [
+    {
+      "head": "audit/physical-bridge-2026-09-05",
+      "sha": "0558e846",
+      "content": [
+        "0558e846:docs/WHAT_WOULD_COUNT.md",
+        "0558e846:frontier/B370_massey_depth2/massey.py",
+        "0558e846:reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+        "0558e846:reports/physical_bridge_2026_09_05/MASS_INFLOW_DESIGN.md",
+        "0558e846:reports/physical_bridge_2026_09_05/mass_inflow.py",
+        "0558e846:reports/physical_bridge_2026_09_05/mass_inflow_first_run.json"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "main",
+      "sha": "f06d3405",
+      "content": [
+        "f06d3405:docs/WHAT_WOULD_COUNT.md",
+        "f06d3405:frontier/B370_massey_depth2/massey.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/audit/b775-braver-questions",
+      "sha": "53da05f6",
+      "content": [
+        "53da05f6:frontier/B370_massey_depth2/massey.py",
+        "53da05f6:frontier/B796_coupling_campaign/s1_class_s/FINDINGS.md",
+        "53da05f6:frontier/B796_coupling_campaign/s1_class_s/fricke_fixed_point.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/audit/physical-bridge-2026-09-05",
+      "sha": "0558e846",
+      "content": [
+        "0558e846:docs/WHAT_WOULD_COUNT.md",
+        "0558e846:frontier/B370_massey_depth2/massey.py",
+        "0558e846:reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+        "0558e846:reports/physical_bridge_2026_09_05/MASS_INFLOW_DESIGN.md",
+        "0558e846:reports/physical_bridge_2026_09_05/mass_inflow.py",
+        "0558e846:reports/physical_bridge_2026_09_05/mass_inflow_first_run.json"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/older-new-session",
+      "sha": "3851df2a",
+      "content": [
+        "3851df2a:frontier/B370_massey_depth2/massey.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/outside-bench",
+      "sha": "89af20f8",
+      "content": [
+        "89af20f8:docs/WHAT_WOULD_COUNT.md",
+        "89af20f8:frontier/B370_massey_depth2/massey.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/physics-seat",
+      "sha": "659487bb",
+      "content": [
+        "659487bb:docs/WHAT_WOULD_COUNT.md",
+        "659487bb:frontier/B370_massey_depth2/massey.py",
+        "659487bb:reports/fresh_physics_seat_2026-09-01/03_PAPER_JUDGMENT.md"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/sm-seat",
+      "sha": "1703c0d8",
+      "content": [
+        "1703c0d8:docs/WHAT_WOULD_COUNT.md",
+        "1703c0d8:frontier/B370_massey_depth2/massey.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/numbered-seat",
+      "sha": "f7a49536",
+      "content": [
+        "f7a49536:docs/WHAT_WOULD_COUNT.md",
+        "f7a49536:documents/PROGRAM_QUESTION_ANSWER_MAP.md",
+        "f7a49536:documents/program-question-map/inventory/backbone.json",
+        "f7a49536:frontier/B370_massey_depth2/massey.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/main",
+      "sha": "b94ed03a",
+      "content": [
+        "b94ed03a:docs/WHAT_WOULD_COUNT.md",
+        "b94ed03a:frontier/B370_massey_depth2/massey.py"
+      ],
+      "filenames": []
+    },
+    {
+      "head": "origin/paper/structure-genesis-first",
+      "sha": "a31456d2",
+      "content": [
+        "a31456d2:frontier/B370_massey_depth2/massey.py"
+      ],
+      "filenames": []
+    }
+  ],
+  "deleted": [],
+  "worktree": [
+    "docs/WHAT_WOULD_COUNT.md",
+    "frontier/B370_massey_depth2/massey.py",
+    "reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+    "reports/physical_bridge_2026_09_05/MASS_INFLOW_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/mass_inflow.py",
+    "reports/physical_bridge_2026_09_05/mass_inflow_first_run.json"
+  ],
+  "note": "Read-only presence sweep, 2026-09-09 after all-head fetch. Branch labels aliased only. Deleted-history matches are paths, not deleted contents; the instrument does not fail closed on all Git subprocess errors. No universal absence claim."
+}
