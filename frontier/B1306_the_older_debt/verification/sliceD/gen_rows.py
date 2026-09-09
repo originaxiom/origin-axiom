@@ -3,7 +3,7 @@ Evidence = the main arcs whose FINDINGS/CHANGELOG text names the id (seat-prefix
 'verif'/'re-run'/'reproduc' within the same line), CITED-EARLIER (named, no verification verb), UNREAD (no main text names it). Rows for UNREAD ids get
 disposition SCHEDULED (slice D backlog, visible); nothing is closed unread. Writes rows.md + report.json; --apply appends the rows to the ledger."""
 import sys, re, json, subprocess, pathlib, importlib.util
-R = pathlib.Path("/Users/dri/origin-axiom"); S = pathlib.Path(__file__).parent
+S = pathlib.Path(__file__).resolve().parent; R = next(p for p in [S] + list(S.parents) if (p / "scripts" / "checks" / "harvest_debt.py").is_file())   # the repo root, found relative to this file
 sys.path.insert(0, str(R / "scripts/gates")); from gates import _VENDOR_RE
 spec = importlib.util.spec_from_file_location("hd", R / "scripts/checks/harvest_debt.py"); hd = importlib.util.module_from_spec(spec); spec.loader.exec_module(hd)
 ltext = (R / "docs/HARVEST_LEDGER.md").read_text(encoding="utf-8"); rows = hd.read_rows(ltext); pins = hd.read_pins(ltext)

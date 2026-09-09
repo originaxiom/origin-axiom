@@ -501,9 +501,11 @@ def run(fetch=False, strict=False):
             elif not RELAY_FILE_RE.fullmatch(pathlib.Path(p).name):
                 unmapped.append(p)
         rec = reconcile(set(idx), rows_ids, new_age)
+        # B1306 D: a SCHEDULED row is a debt with a name, not a disposition -- counted and reported so it cannot hide behind the row
+        scheduled = [r["n"] for r in srows if "SCHEDULED" in r["disp"]]
         s.update(index_size=len(idx), rows=len(srows), changed_paths=len(age_by_path), unmapped_changed=sorted(unmapped)[:12],
                  unmapped_count=len(unmapped), new_unrowed=rec["new_unrowed"], new_rowed=rec["new_rowed"],
-                 new_age={i: new_age[i] for i in rec["new_unrowed"]}, backlog=rec["backlog"], stale_rows=rec["stale_rows"], aged=rec["aged"])
+                 new_age={i: new_age[i] for i in rec["new_unrowed"]}, backlog=rec["backlog"], stale_rows=rec["stale_rows"], aged=rec["aged"], scheduled_rows=len(scheduled))
         # relays on the seat branch without a RELAY_LEDGER row (seat-only files)
         relays = [p for p in _ls(head, "", recursive=True) if RELAY_FILE_RE.fullmatch(pathlib.Path(p).name)
                   and pathlib.Path(p).name not in main_relays]
@@ -523,7 +525,7 @@ def run(fetch=False, strict=False):
                 s["mirror_lag"] = f"{seat['remotes'][1]} has no {seat['branch']}"
         totals["new_unrowed"] += len(rec["new_unrowed"]); totals["backlog"] += len(rec["backlog"])
         totals["stale_rows"] += len(rec["stale_rows"]); totals["relays_unrowed"] += len(s["relays_unrowed"])
-        totals["aged"] += len(rec["aged"]); totals["index"] += len(idx)
+        totals["aged"] += len(rec["aged"]); totals["index"] += len(idx); totals["scheduled_rows"] = totals.get("scheduled_rows", 0) + len(scheduled)
     report["summary"] = totals
     report["seconds"] = round(time.time() - t0, 1)
     return report
@@ -532,7 +534,7 @@ def run(fetch=False, strict=False):
 def print_report(rep, verbose=True):
     print(f"  harvest-debt ({rep['today']}): {rep['summary'].get('index', 0)} seat-index ids across {len(rep['seats'])} seats; "
           f"NEW unrowed {rep['summary'].get('new_unrowed', 0)}, BACKLOG {rep['summary'].get('backlog', 0)}, STALE rows {rep['summary'].get('stale_rows', 0)}, "
-          f"relays without a row {rep['summary'].get('relays_unrowed', 0)}, aged past {STALE_DAYS}d {rep['summary'].get('aged', 0)}, mirror lag {rep['summary'].get('mirror_lag', 0)}"
+          f"relays without a row {rep['summary'].get('relays_unrowed', 0)}, SCHEDULED rows {rep['summary'].get('scheduled_rows', 0)}, aged past {STALE_DAYS}d {rep['summary'].get('aged', 0)}, mirror lag {rep['summary'].get('mirror_lag', 0)}"
           f"{'; skipped ' + str(rep['summary'].get('skipped')) if rep['summary'].get('skipped') else ''} [{rep.get('seconds', '?')}s]")
     for k, s in rep["seats"].items():
         if "skipped" in s:
@@ -540,7 +542,7 @@ def print_report(rep, verbose=True):
             continue
         print(f"    {k:<8} head {s['head']} pin {s['pin']} (+{s['commits_since_pin']} commits) index {s['index_size']} rows {s['rows']} | "
               f"NEW unrowed {len(s['new_unrowed'])} rowed {len(s['new_rowed'])} | backlog {len(s['backlog'])} | stale {len(s['stale_rows'])} | "
-              f"relays unrowed {len(s['relays_unrowed'])}/{s['relays_on_branch']} (named on main without a row: {len(s.get('relays_unrowed_named_on_main', []))})"
+              f"relays unrowed {len(s['relays_unrowed'])}/{s['relays_on_branch']} (named on main without a row: {len(s.get('relays_unrowed_named_on_main', []))}) | scheduled rows {s.get('scheduled_rows', 0)}"
               + (f" | {s['mirror_lag']}" if s.get("mirror_lag") else ""))
         if verbose:
             if s["new_unrowed"]:
@@ -580,7 +582,7 @@ def main():
     if rep["integrity"]:
         return 1
     t = rep["summary"]
-    if a.strict and (t["new_unrowed"] or t["backlog"] or t["stale_rows"] or t["relays_unrowed"]):
+    if a.strict and (t["new_unrowed"] or t["backlog"] or t["stale_rows"] or t["relays_unrowed"] or t.get("scheduled_rows")):
         print(f"  harvest-debt --strict: DEBT OPEN — a review cannot close with unread seat results")
         return 1
     if t["aged"]:

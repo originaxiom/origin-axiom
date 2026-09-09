@@ -128,3 +128,16 @@ def test_i29_registered_with_the_baseline_migrated():
     led = (ROOT / "docs" / "IDENTIFICATION_LEDGER.md").read_text(encoding="utf-8"); assert "| I-29 |" in led and "listener map" in led.split("| I-29 |")[1][:200]
     base = json.loads((ROOT / "docs" / "IDENTIFICATION_BASELINE.json").read_text(encoding="utf-8")); assert "I-29" in base["rows"] and base["unearned"] == len(base["rows"])
     assert any(r.get("row") == "I-29" for r in base.get("_baseline_raises", []))
+
+
+# ---------------- slice D ----------------
+def test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted(tmp_path):
+    out = tmp_path / "r.json"
+    r = subprocess.run([sys.executable, str(ROOT / "scripts" / "checks" / "harvest_debt.py"), "--json", str(out), "--quiet"], capture_output=True, text=True, timeout=600)
+    assert r.returncode in (0, 2), r.stdout[-1500:]
+    rep = json.loads(out.read_text(encoding="utf-8"))
+    for k, s in rep["seats"].items():
+        if "skipped" in s: continue
+        assert s["backlog"] == [] and s["stale_rows"] == [], (k, s["backlog"][:5], s["stale_rows"][:5])
+    assert rep["summary"]["scheduled_rows"] > 0 and "SCHEDULED rows" in r.stdout
+    assert (ARC / "verification" / "sliceD" / "rows.md").is_file() and (ARC / "FINDINGS_D.md").is_file()
