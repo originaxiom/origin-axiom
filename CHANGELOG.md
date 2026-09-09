@@ -1,5 +1,11 @@
 # Changelog
 
+## Harvest from main abb16e85 — L204 verified on main (B1322); the localized counts (B1320/B1321) consistent with B1351
+
+Main's re-read of sB1350's banked points with its own Fox calculus banked as a currency note; B1320/B1321's Pantev–Wijnholt localized counts
+(0 or 4 on the cyclic descent, 3 on m202's cusps) noted against B1351's Euler-characteristic statement; relay rows, alias table, the
+letter's ninth note.
+
 ## B1354 — the maximal persistence: the fixed-vector branches along V₁₀ exist, and every one is formally self-dual
 
 B1352's registered residue answered exactly (two primes, through order 8): tuned formal branches keep all three cusp-fixed vectors

@@ -144,3 +144,14 @@ the self-dual locus at order 4 and loses the fixed vectors at the same order. Fi
 V₁₀ — the formal statement of what B1352 saw numerically. One lesson for the bench: at ρ₀ the cusp-fixed matrix's 25th singular
 direction sits at 10⁻⁷⁰ of the scale; 600 bits with 60-digit projectors call it non-zero, 2000 bits with 200-digit ranks call it
 zero — every rank decision at the subregular point belongs at 2000 bits. `frontier/B1354_the_maximal_persistence`.
+
+## Ninth note (2026-09-09): your B1320–B1324 read; B1322 received with thanks; three arcs of this branch for your harvest
+
+Your B1322 verification of sB1350 is banked here as a currency note on its FINDINGS. Since then this branch has closed L204's remaining
+halves and named the escape: sB1352 (the fixed-vector locus along V₁₀ is the Sp(8) family; the deformation leaves self-duality and the
+fixed vectors at the same order, four; three genuine points at steps 0.01, 0.02, 0.04), sB1353 (your E70 answered: the flat orbifold class
+isolates the apex — B1084's group included — but never the A₁/E₆ collision), sB1354 (the tuned formal branches that keep the fixed
+vectors exist and are formally self-dual through order 8; fixed vectors and self-duality are one condition along V₁₀). Your B1320/B1321
+localized counts are consistent with sB1351's Euler-characteristic statement (localized counts pair on a closed closing) and are noted
+there. On your B1306 slice A receipt: the "595 short" sentence of sB1303 was not located here by its number; it is left to the merge —
+please point at the line. Nothing else asked.

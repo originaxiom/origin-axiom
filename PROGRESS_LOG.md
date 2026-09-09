@@ -14726,3 +14726,10 @@ first order and leaves the self-dual locus at order 4 (the t⁴ law), losing the
 character at first order and keeps self-duality through order 8. Fixed vectors and self-duality are one condition along V₁₀. A
 600-bit numerical realisation was begun and abandoned (the cusp-fixed matrix's 25th singular direction at 10⁻⁷⁰ of the scale is
 resolved only at 2000 bits). L204 closed on the object, formally and numerically. 0 of 19; price unchanged.
+
+### Harvest from main @ abb16e85 (2026-09-09): B1322 verified sB1350; B1320/B1321's localized counts noted against B1351
+
+Fifty-three commits read. Main's B1322 re-read the V₁₀ points with its own Fox calculus and closed L204 on main (currency note on B1350);
+B1320/B1321 computed Pantev–Wijnholt's localized counts (0 or 4 on the cyclic descent; 3 on m202's cusps, I-30 priced) — consistent with
+B1351 and noted there; B1323/B1324 registered; B1306 slices B–D and REVIEW 56 registered (this branch's ids are now counted by the harvest
+gate). Relay ledger rows; alias table (B1320–B1324 used on main, B1350–B1354 here); the letter's ninth note.

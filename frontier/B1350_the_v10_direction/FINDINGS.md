@@ -144,3 +144,5 @@ complement to the numerics: it says where a Newton stall is geometry and where i
   their cusp restriction, trace-flatness); slow — stage 4.
 - Depends on B1280 (the criterion and the hole), B1268 (the bound and the machinery), B1267 (the instrument), main's
   B1299 (the hole verified and priced).
+
+*(Currency 2026-09-09: VERIFIED ON MAIN — main's B1322 re-read the four banked points with its own Fox calculus (left derivatives, full-pivot ranks at 110 digits): h¹(27) = h¹(27̄) = 0, no cusp-fixed weight, N(27) = 0 on all four; the seat's `report_hp.py` reproduced line for line; L204 CLOSED on main. The fourth order of the departure and the fixed-vector branches are B1352 and B1354 here.)*

@@ -86,3 +86,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 | B1302 | *(requested)* | the_one_triplet_vacua (banked 2026-09-08) |
 | B1303 | *(requested)* | the_two_by_two_criterion (banked 2026-09-08) |
 | B1304 | *(requested; main banked B1304_the_audit_seats_4d_model 2026-09-09)* | the_two_adic_tower — sB1304 |
+
+*Update 2026-09-09 (later, main @ abb16e85):* main has used B1320–B1324 (arc 0 of Phase 2, L205's sibling count, L204 verified, the genesis upgrades, arc B and the dictionary); B1350–B1399 remain this branch's, with B1350–B1354 used. Main's B1322 verified sB1350 at its banked points; sB1351–sB1354 await main's harvest.
