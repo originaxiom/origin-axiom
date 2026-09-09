@@ -220,3 +220,38 @@ whole twist family rather than one knot. **No longer blocking.**
 **Fetch item B2 (arXiv:2106.03942) has arrived** and is read into memo 187 section 8. Its
 Conjecture 2 is the non-naive inverted-Habiro route memo 185 section 6 named as the only
 survivor. Nearest cheap test is `4_1`, named F187-1.
+
+---
+
+# THE CURRENT ASK — the PDF list, ranked (2026-09-09, owner asked "list the pdfs u need")
+
+**Every reference below is taken from a bibliography this bench holds and reads, not from memory.
+arXiv is egress-blocked in this container (HTTP 000), which is why these have to come from you.**
+
+## Tier 1 — each decides a question that is open *right now*
+
+| # | reference | what it decides |
+|---|---|---|
+| **1** | **`hep-th/0109152`** — B. Acharya & E. Witten, *Chiral Fermions from Manifolds of G₂ Holonomy*, **§2.3** | The **only item blocking a live cross-seat dispute.** The other seat's audit says B1355 "over-excludes the broader exceptional-group construction" because Acharya–Witten *"explicitly include the E₇→E₆ route"*. This bench can neither confirm nor refute that without the paper, and will not repeat it as established until it can. |
+| **2** | **`arXiv:1809.10148`** — Cheng, Chun, Ferrari, Gukov, Harrison, *3d Modularity* | This is Gukov–Manolescu's **[16]** — the **primary source for the `(1,p)` singlet VOA identification** that **memo 191** rests on. Memo 191 *computed* `c_eff = 1`; the identification itself was taken from GM's one-paragraph summary. **R80-1 says test an author's statement, not take it.** This is the source that lets me. |
+| **3** | **S. Garoufalidis & X. Sun, *The C-polynomial of a knot*, Algebr. Geom. Topol. **6** (2006) 1623–1653** — Park's **[GS06]**. *(I do not hold its arXiv number and will not guess one.)* | It carries the quantum **C-polynomials for ALL twist knots**. **Memo 190 broke memo 183 addendum 4's blocker for `5₂` using the single `Ĉ` Park prints.** With GS06 the same route runs for the whole family — **one knot becomes thirty.** |
+
+## Tier 2 — extends machinery that is now working
+
+| # | reference | why |
+|---|---|---|
+| 4 | **`arXiv:1701.06567`** — Gukov, Pei, Putrov, Vafa, *BPS spectra and 3-manifold invariants* (**GPPV**) | **Q11 names it in its own words**: *"If the honest answer is 'read GPPV', that alone is worth the email."* We hold GM but not GPPV. |
+| 5 | **`arXiv:1602.05302`** — Gukov, Putrov, Vafa, *Fivebranes and 3-manifold homology* | GM's **[38]** — the source of the **unreduced `Ẑ`** definition (Remark 3.8) that memo 191's entire computation runs through. Currently used on GM's restatement alone. |
+| 6 | **`arXiv:2005.13349`** — Ekholm, Gruen, Gukov, Kucharski, Park, Sułkowski, *`Ẑ` at large N: from curve counts to quantum modularity* (**EGG+20**) | Park's source for *"we only needed the very first term to determine the full power series `F_K`"* — the boundary-condition question memo 190's route depends on. |
+
+## Tier 3 — already tracked, lower priority
+
+`arXiv:1909.13002` (Park, *Higher rank `Ẑ` and `F_K`*, item B3) · `arXiv:2110.13768` (*Branches,
+quivers, and ideals for knot complements*, B4) · `arXiv:2403.14920` (*3d Modularity Revisited*, B5).
+
+## Not PDFs, but still wanted
+
+* `rec.twist.knot.<p>.m` **with the minus signs intact** — the one that arrived as `.2` is `K_{−2} = 6₁` (memo 187).
+* `CJTwist.2.txt.gz` — **the real `5₂`**; what arrived under that name is `6₁` (memo 186).
+
+**If only one thing comes, make it #1** — it is the only one holding up another seat.
