@@ -136,3 +136,62 @@ recorded *by reason*. Filter or wall.
 **F188-2.** Re-populate `depends_on` for B1000+; make `corpus_census.py` a standing instrument
 on a cadence, so the next decay is seen while it is happening rather than 400 arcs later.
 **F188-3.** For the quantum face: one chain, not one more node.
+
+---
+
+## ADDENDUM 1 (2026-09-09) — **F188-1 discharged: the answer is a third option, and §7's binary was wrong**
+
+**Certificate** `certificates/promotion_throughput.py` · **Output** `outputs/promotion_throughput_out.txt`
+
+§7 posed *"firewall or valve"* and proposed running twenty recent `PROVED` arcs against the §5
+gates. **That test was not needed and the binary was wrong.** The programme's own record answers
+directly.
+
+### The clock, checked rather than assumed
+
+`git` add-dates for the 1122 arc verdicts land **all in one month** — a repository
+reorganisation, not the chronology of the work. **They are unusable here**, and the certificate
+reports that instead of quietly using them. The usable clock is `PROGRESS_LOG.md`'s 698 dated
+sections, `2026-07-14 … 2026-08-30`.
+
+### What was measured
+
+| | |
+|---|---|
+| **the batch** | `OPEN_LEADS` W2.10: on 2026-07-03 the audit adjudicated **63 candidates in five batches** (281 lock tests) → **+39 proven, +7 conditional, +15 certified data, 6 held with reasons** |
+| **the trickle** | `"Promotion logged"` appears in `PROGRESS_LOG.md` exactly **twice** since: 2026-08-04 and 2026-08-05 |
+| **the denominator** | arc numbering ran **B426 → B1220** after the audit ≈ **795 new arc numbers** → roughly **one promotion per 397 arcs** |
+| **the audit's own queue** | of the seven candidates the July audit *itself* named as queued — termination theorem, registerability keystone, lift obstruction, winner-safety, the ladder, false-positive control, matter pencil — **1 of 7 has landed** |
+| **the ledger now** | 69 `P`-ids (max P70), 12 `C`-ids, 17 `E`-ids; `outside_bench` occurrences: **0** |
+
+**Caveat, stated rather than hidden:** the log's *dated* sections begin 2026-07-14, so `B425` is
+the highest arc the pre-audit material references, not a census of what existed on 2026-07-04.
+The denominator is an estimate of new numbering, good to its order of magnitude — **several
+hundred arcs, two promotions** — and nothing below needs more precision.
+
+### INTERPRETATION (labelled)
+
+**The gate is a batch mechanism that works, and it was replaced by a trickle.**
+
+It is **not obstructed**: in one pass it adjudicated 63 candidates and promoted 54. It is **not a
+firewall holding the line either**, because it is not being run. What replaced it is a cadence
+the log states in its own words — *"the audit lane's remaining candidates … queue for subsequent
+passes, one at a time"* — which has delivered **two promotions in two months** while the corpus
+grew by several hundred arcs.
+
+> **The diagnosis is a throughput mismatch, not a policy.** A batch-capable gate on a per-item
+> cadence, against a corpus growing faster than one-at-a-time can drain, produces a backlog that
+> grows structurally. Six of seven of the audit's own named targets are still sitting in it.
+
+**And the remedy needs no new machinery — which is the useful part.** The programme has already
+demonstrated the batch. Running it again is *the same apparatus at roughly thirty times the rate*,
+and **its first target list was written by the audit itself and is still 6/7 unclaimed.**
+
+### And one line that belongs with §5's main pattern
+
+`PROGRESS_LOG.md`'s last dated section is **2026-08-30**. The log that GOVERNANCE §5 requires
+every status change to be written into **has itself been quiet for ten days.** Same shape as the
+`depends_on` field and the lost minus signs: an instrument built, used, and then not fed.
+
+**F188-1 is discharged.** F188-2 (re-populate `depends_on`; make the census standing) and F188-3
+(one chain, not one more node) remain.

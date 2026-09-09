@@ -1,0 +1,81 @@
+==============================================================================
+0.  THE CLOCK -- checked, not assumed
+==============================================================================
+   git add-dates for the 1122 arc verdicts, by month : [('2026-08', 1122)]
+   => all in one month: a repository reorganisation, NOT the chronology of the work.  git dates are unusable here.
+   usable clock: PROGRESS_LOG.md, 698 dated sections, 2026-07-14 .. 2026-08-30
+
+==============================================================================
+1.  THE BATCH -- what the audit did in one pass
+==============================================================================
+   OPEN_LEADS W2.10 :  **the promotion audit** (GOVERNANCE §5.1) | governance | ✅ **EXECUTED (2026-07-03)**: 63 candidates adjudicated in five batches (281 lock tests standalone); **+39 proven (P17–P55), +7 conditional (C6–C12), +15 certified-data (E1–E15); 6 held with reasons** (B63/B196 subsumed; the dps-100 quartet B352/B353/B357/B370 self-barred — a future "exact-core extraction" pass is the named route). Scoping decisions of record in `PROGRESS_LOG.md`; original core P1–P16 unchanged; firewall untouched | the ledger now represents 
+
+==============================================================================
+2.  THE TRICKLE -- promotions since
+==============================================================================
+   occurrences of 'Promotion logged' in PROGRESS_LOG : 2
+      2026-08-04 : 1
+      2026-08-05 : 1
+
+==============================================================================
+3.  THE DENOMINATOR
+==============================================================================
+   highest real arc referenced in the log up to 2026-07-04 : B425
+   highest real arc referenced after                       : B1220
+   arc numbers created after the audit                     : 795  (B426..B1220)
+   distinct real arcs referenced after the audit           : 796
+   => roughly ONE promotion per 397 new arcs
+   CAVEAT, stated rather than hidden: PROGRESS_LOG's DATED sections begin 2026-07-14, so
+   B425 is the highest arc the pre-audit material references, not a census of what
+   existed on 2026-07-04.  The denominator is therefore an ESTIMATE of new arc
+   numbering, good to its order of magnitude -- several hundred arcs, two
+   promotions -- and no conclusion here needs more precision than that.
+
+==============================================================================
+4.  THE AUDIT's OWN NAMED QUEUE
+==============================================================================
+   termination theorem      : still absent
+   registerability          : still absent
+   lift obstruction         : still absent
+   winner-safety            : still absent
+   the ladder               : PRESENT in CLAIMS.md
+   false-positive control   : still absent
+   matter pencil            : still absent
+   => 1 of 7 landed in two months
+
+==============================================================================
+5.  THE LEDGER NOW
+==============================================================================
+   P-ids :  69   (max P70)
+   C-ids :  12   (max C12)
+   E-ids :  17   (max E17)
+   'outside_bench' occurrences in CLAIMS.md : 0
+
+=============================================================================
+INTERPRETATION (labelled), and a correction to memo 188 section 7.
+
+Memo 188 posed "firewall or valve" and proposed a twenty-arc gate test.  The binary was
+wrong and the test was unnecessary: the record answers directly, with a THIRD option.
+
+The gate is a BATCH mechanism.  On 2026-07-03/04 it adjudicated sixty-three candidates in
+five passes and promoted fifty-four of them.  It demonstrably works, at scale, and it is
+not stuck.
+
+What replaced it is a TRICKLE.  The standing cadence since is explicitly one item per
+review -- the log says so in its own words -- and it has delivered TWO promotions against
+several hundred new arcs.  Six of the seven candidates the audit ITSELF named as queued
+are still absent from the ledger two months later.
+
+So the diagnosis is not obstruction.  It is a THROUGHPUT MISMATCH between a batch-capable
+gate and a per-item cadence, with a backlog that grows structurally because the corpus
+grows faster than one-at-a-time can drain it.
+
+And the remedy needs no new machinery, which is the useful part: the programme has already
+demonstrated the batch.  Running it again is the same apparatus at roughly thirty times the
+rate, and its first target list was written by the audit itself and is still 6/7 unclaimed.
+
+One more thing the numbers say in passing, and it belongs with memo 188's main pattern:
+PROGRESS_LOG.md's last dated section is 2026-08-30.  The log that GOVERNANCE section 5
+requires every status change to be written into has itself been quiet for ten days.  Same
+shape as the depends_on field and the lost minus signs -- an instrument built, used, and
+then not fed.
