@@ -2129,3 +2129,45 @@ call**, and the three ways out as I see them:
 
 I would take **2**: it is main's gate, the fix is one predicate, and it makes the check mean *"no
 outside author"* rather than *"exactly one string"* — which is what it is for.
+
+
+---
+
+## ADDENDUM 95 (2026-09-10) — **R95: "what paths u see to completion? be WISE and BRAVE"**
+
+The wise half first, because it changes what "completion" can mean.
+
+**A finished ToE is not on the table, and the ledger says so about everyone.** `TOE_REQUIREMENTS_LEDGER`
+§A grades row 4 (dynamics) as *"model input in every candidate"* and row 7 (predictions) as *"the bar
+every candidate fails or has not reached"*. Those are not this programme's failures; they are the
+state of the field. So the completable goal is not "finish the ToE". It is: **move each row from
+open to settled-with-a-reason, so the record states exactly what this object gives and what it
+cannot.** That is reachable, and three of the eight rows are reachable by us alone.
+
+**The brave half: I picked the record's own ★★★ never-run lead and ran it. Memo 194.**
+
+L192 said box D is the only box where the object has an output, that the output is one bit, and that
+**3 of 3 probes asked it for a value and 0 of 3 asked it for the bit**. Asked, over 203 122
+manifolds. All four preregistered controls pass, all four cells land on B, and the finding is:
+
+> **`m003` and `m004` are commensurable, share the volume, the invariant trace field ℚ(√−3) and V₄ —
+> and sit at opposite elements of the bit.**
+
+B727/B993 proved the chain buys a *commensurability-class* object, which is why the E₆ recurrence is
+generic rather than evidence; B993 then said object-specificity, if it exists, lives below the class.
+**The bit is below the class.** It separates the object from the one manifold that agrees with it on
+everything the chain actually buys. Fenced hard: no phase value follows, B813 governs, no dictionary
+is proposed.
+
+### The paths, ranked by whether we can walk them without anyone else
+
+| | path | ours alone? | what it would settle |
+|---|---|---|---|
+| 1 | **box D's dictionary question** — can any CP-odd phase inherit a bit from a carrier? B813 fences the naive answer; the typed question is now open and bounded | **yes**, and it is the natural successor to memo 194 | row 7, the row every candidate fails |
+| 2 | **the 54 multi-cusped chiral covers** — B1324 ran the index on the one-cusped chiral covers (2 live sectors, both I = 0) and states in its own words that the multi-cusped ones *await the multi-cusp index* | **yes**, but it is main's engine and real compute | row 2's escape (a): if these are 0 too, the cover route closes and row 2 finalises |
+| 3 | **re-grade row 2 from "wall" to "theorem plus three named escapes"** — B1227 already proves a mirror-odd invariant of an amphichiral object lies in `A[2]`, so a ℤ-valued count is 0 for *every* such invariant, not just the ones tried | **yes**, cheap, documentation-level with real consequences | says the generation number *must* come from the carrier — a redirection, not a gap |
+| 4 | σ (row 3's last continuous input) | **no** — needs a mechanism; the question is with a specialist | — |
+| 5 | rows 4, 5 (dynamics, gravity) | **no** — these are inputs in every candidate theory that exists | — |
+
+**I am taking 1, then 3, then 2.** 4 and 5 are named as not ours, per R90: no lane's critical path
+runs through an unanswered external question.
