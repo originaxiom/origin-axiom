@@ -1,5 +1,16 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
+**Reflective review, September 10:**
+[The successful pieces must form one physical theory](BIG_PICTURE_REVIEW_2026_09_10.md).
+The conditional chiral result stands. The review pairs its successful
+assumptions with their anomaly, global-form and boundary costs, and
+distinguishes shared index checks from independent physical predictions.
+The proposed priority is a single source/end action, spectrum and quantum
+completion, with index stability retained as a scoped sub-duty. This is
+an evidence-backed strategic interpretation, not a new scientific result
+or a universal negative. Paper coverage and the last scientific run are
+unchanged below.
+
 **Reading in progress, September 10 local:**
 [Asselmeyer--Maluga direct paper audit](ASSELMEYER_MALUGA_READ.md).
 The supplied sixteen-paper archive is extracted and integrity-checked;

@@ -114,6 +114,16 @@ move toward a cusp. See [inflow](MASS_INFLOW.md) and
 
 ## Questions and strategy
 
+The owner's subsequent [big-picture review](BIG_PICTURE_REVIEW_2026_09_10.md)
+changes the emphasis, not the result ledger: test whether the source/end
+action, chiral spectrum, anomaly completion and gauge normalization can
+coexist in ONE model. The same finite-volume and common-source assumptions
+help explain both positive results and recurring walls. Index stability
+remains a necessary scoped sub-duty for the retained perturbative route,
+not evidence by itself for a physical source or quantum completion.
+This reflection adds no executed R26 result and does not claim that all
+possible interacting completions require mirrors.
+
 The next milestone is a consistent sourced chiral effective theory,
 not an immediate claim to solve every physical sector. These are the
 remaining questions and the discriminating work for each.
