@@ -2209,3 +2209,46 @@ and it is the one that decides. That is the next cell.
 
 *What your question did: it turned a scattered fact into a theorem, and it found five arcs that had
 each discovered it alone.*
+
+
+---
+
+## ADDENDUM 97 (2026-09-10) — **R97: "go for it, do it, advance #1"**
+
+**Advanced — and the first thing it found is that I was wrong about what was blocking it.**
+
+**The correction.** I told you Tier-INTERFACE *"needs your word on L173."* **It does not, and has not
+since 2026-08-21.** L173 was **SEALED** that day (B1106): `docs/EDGE_PREREG_SPEC.md`, digest in
+`SEAL_LEDGER`, *"the owner's D-2/D-3 executed — **the aperiodic unseal RESOLVED**"*, the genericity
+control run and passed **before** the seal. `WHAT_WOULD_COUNT` §4A.2 was written **one day earlier**
+and its status line was never updated. I read the status line instead of the state and handed you
+back a decision you had already made. Third instance of that failure class this session.
+
+**What was actually open, and is now discharged.** The addendum-beside (B1171, from cc3's B8146)
+re-posed R6 as a commissioned observable: the mode count *"on a chain long enough to separate a
+5-count from a 6-count."* **Nobody had computed how long that is.** Banked windows start at N = 987;
+the anchor apparatus has **13–28 waveguides**.
+
+Run on the sealed instrument, both positive controls reproducing first (987 → `[]`, 1.33×10⁻¹⁵,
+(5,6); 1597 → exactly `[0,1]`):
+
+> **The sealed prediction is two experiments, not one, and they differ by two orders of magnitude in
+> array size.**
+>
+> **The forced half is testable at 21 sites.** The word closes at N = F₈ = 21 and isospectrality
+> holds there to **1.33×10⁻¹⁵** — because once the word closes, `J·H_R·J = H_L` letter-for-letter and
+> the spectra are *equal by conjugation, at any size*. The odd-index control breaks at N = **13** and
+> **34** with gaps of 0.19 and 0.15. **K1 and K3 — the two *forced* kill conditions — are testable on
+> arrays that have already been built.**
+>
+> **The free half needs 144–377 sites.** The (5,6) split first appears at N = 144, but the sealed
+> detector's boundary window is an *absolute* 20 sites — 95% of a 21-chain. The count's floor is set
+> by the detector, not the physics.
+
+This was invisible for as long as the banked verification started at 987. The cheaper experiment —
+two fabricated hands, compare spectra, no mode counting at all, and a 10¹⁵ separation from its own
+control — was sitting under a prediction everyone read as needing a thousand-site chain.
+
+**Memo 196.** Two things are owed to main and are main's edits, not this bench's: §4A.2's status
+line, and a decision on whether a fraction-of-chain detector should replace the absolute 20-site
+window under the seal's own amendment rule.

@@ -1,0 +1,79 @@
+CERTIFICATE -- R6' DISCHARGED: how long a chain the sealed edge prediction actually needs.
+
+WHAT IS OPEN, and it is not what WHAT_WOULD_COUNT section 4A.2 says.  That section reads
+"SPEC ONLY, OWNER-PENDING on the aperiodic-design unseal decision (L173)".  THAT LINE IS STALE:
+L173 was SEALED 2026-08-21 (B1106; docs/EDGE_PREREG_SPEC.md; digest in SEAL_LEDGER), the owner's
+D-2/D-3 executed, "the aperiodic unseal RESOLVED".  Section 4A was written 2026-08-20, one day
+before.
+
+What IS open is the addendum-beside (B1171, from cc3's B8146), which re-posed R6 as a COMMISSIONED
+OBSERVABLE:
+
+    R6' -- "the number of boundary-capable edge modes in a LABELLED Fibonacci gap, as a function
+    of the scanned phason rho, ON A CHAIN LONG ENOUGH TO SEPARATE A 5-COUNT FROM A 6-COUNT at the
+    preregistered windows"
+
+Nobody has computed how long "long enough" is.  The banked verifications are at N = 987 and 2584;
+the anchor experiment (Verbin-Zilberberg-Kraus, arXiv 1403.7124) has 13-28 WAVEGUIDES.  Between
+those two numbers is the whole question of whether this prediction is testable on apparatus that
+exists.  This certificate answers it.
+
+THE INSTRUMENT IS THE SEALED ONE, NOT A NEW ONE.  Convention pinned by EDGE_PREREG_SPEC section 3
+and by frontier/B1106_edge_seal/b1106_gen_control.py, verbatim: the Sturmian letter
+b_n = floor((n+1)a + rho) - floor(n a + rho) at slope a = 2 - phi = 1/phi^2 and rho = a; right hand
+= (b_0 .. b_{N-1}); left hand read outward = (b_{-1}, b_{-2}, ...).  The Hamiltonian, detector and
+threshold are tests/test_b1095_mirror_isospectral.py verbatim: on-site potential w_n = b_n, uniform
+hopping 1, tridiagonal; boundary weight = the eigenvector's weight on the FIRST 20 SITES; a mode is
+boundary-capable when that weight exceeds 0.5.
+
+POSITIVE CONTROL FIRST.  B1106's own seal records that two of that bench's attempts failed the
+positive control before one passed (wrong cut phase, wrong comparison pair).  Nothing below is
+read unless the banked numbers reproduce here.
+
+CELLS (two outcomes each, fixed before running)
+  CELL 1  The smallest window at which the WORD closes (left_outward == reversed(right)).
+          A: only at large index      B: it closes at a small index
+  CELL 2  The smallest window at which ISOSPECTRALITY holds to 1e-12.
+          A: needs a large chain      B: holds wherever the word closes
+  CELL 3  The smallest window at which the BOUNDARY-CAPABLE COUNT is meaningful with the sealed
+          20-site detector -- i.e. where the detector is not simply reading the whole chain.
+          A: the count needs a chain far beyond the anchor's 13-28 waveguides
+          B: the count is reachable at or near existing array sizes
+
+CONTROLS
+  C1  POSITIVE: N = 987 must reproduce word-closure [], isospectrality < 1e-12, and the split (5,6).
+  C2  POSITIVE: N = 1597 must reproduce the odd-index breakage at EXACTLY the two cut-adjacent
+      letters, diffs == [0, 1].
+  C3  DETECTOR HONESTY: the 20-site boundary window is an ABSOLUTE length in the sealed instrument.
+      Its fraction of the chain must be printed at every N, so a count read where that fraction is
+      large is visibly not a boundary measurement.
+
+==============================================================================
+C1  POSITIVE, N = 987 (F16): word diffs []  isospectrality 1.332e-15  split (5,6)   -> PASS
+C2  POSITIVE, N = 1597 (F17): odd-index breakage at [0, 1]   -> PASS
+C3  DETECTOR HONESTY: the 20-site window's share of the chain is printed at every N below.
+
+ idx      N  parity     word diffs   isospectrality   split (R,L)  20 sites / N
+------------------------------------------------------------------------------
+   7     13     odd         [0, 1]        1.925e-01      (13, 13)       153.8%
+   8     21    even             []        1.332e-15      (21, 21)        95.2%
+   9     34     odd         [0, 1]        1.514e-01      (22, 22)        58.8%
+  10     55    even             []        8.882e-16      (17, 14)        36.4%
+  11     89     odd         [0, 1]        1.473e-01        (7, 6)        22.5%
+  12    144    even             []        7.772e-16        (5, 6)        13.9%
+  13    233     odd         [0, 1]        1.473e-01        (5, 6)         8.6%
+  14    377    even             []        1.332e-15        (5, 6)         5.3%
+  15    610     odd         [0, 1]        1.473e-01        (5, 6)         3.3%
+  16    987    even             []        1.332e-15        (5, 6)         2.0%
+  17   1597     odd         [0, 1]        1.473e-01        (5, 6)         1.3%
+
+CELL 1  smallest EVEN-index window whose word closes: N = 21 (F8)
+        -> B
+CELL 2  smallest window with isospectrality < 1e-12: N = 21 (F8)
+        -> B (isospectrality holds wherever the word closes -- as the conjugation argument requires)
+CELL 3  smallest window where the sealed 20-site detector reads <= 10% of the chain: N = 377 (F14), split (5, 6)
+        anchor apparatus (arXiv 1403.7124): 13-28 waveguides
+        -> A
+
+ALL CONTROLS PASSED
+VERDICT: CELL 1 = B, CELL 2 = B, CELL 3 = A
