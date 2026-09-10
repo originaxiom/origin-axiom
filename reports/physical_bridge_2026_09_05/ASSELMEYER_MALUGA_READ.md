@@ -32,7 +32,7 @@ will inform that path, not silently replace it.
 | arXiv ID | pages | direct coverage so far |
 |---|---:|---|
 | 1910.09966 | 37 | complete, 1--37; diagrams on 5--8 visually inspected |
-| 1601.06436 | 52 | pending |
+| 1601.06436 | 52 | complete, 1--52, including appendices; equations on 29/33 visually checked |
 | 1502.02087 | 27 | complete, 1--27, including appendices |
 | 1006.2230 | 32 | complete, 1--32, including appendices |
 | 1003.5506 | 16 | pending |
@@ -215,3 +215,106 @@ automatically the Levi--Civita invariant of an arbitrary metric.
 No author-supplied code was executed and no numerical claim was
 recertified in these first three full reads. Standard-source checks
 and discriminating controls remain part of the ongoing audit.
+
+## Direct notes: 1601.06436v1 (52-page review)
+
+Title: *Smooth quantum gravity: Exotic smoothness and Quantum gravity*.
+The supplied arXiv header says v1, January 24, 2016; its title-page
+date is April 23, 2018. All 52 PDF pages, including all appendices
+and references, are directly read. Pages 29 and 33 were also rendered
+and inspected to distinguish the printed equations from extraction
+artifacts. Four complete papers now account for 148 of 448 pages.
+
+The review makes a longer chain than the matter papers. Exotic R4
+is represented through Casson handles and surrounding 3-manifolds;
+a selected foliation supplies a groupoid algebra; skein quantization
+is related to its proposed states; modular theory is proposed as
+dynamics; a traced operator is interpreted as an action; scaling and
+topological transitions are then interpreted as gravity, dimensional
+reduction, measurement and cosmology. Each arrow has different data.
+An operator algebra, a state on it, a Hamiltonian, a physical time and
+a local gravitational field are not interchangeable objects.
+
+Potentially reusable mathematics, still requiring primary-source
+checks and a map to the repo's actual construction:
+
+- Sections 6.3 and 9.2, pages 24--27 and 31: the surface character
+  algebra, Goldman bracket, skein deformation and quantum-group
+  lattice observables. The cited Frohman--Gelca torus embedding is
+  especially concrete for a cusp-boundary comparator. The real form,
+  star operation, positive state, representation and parameter are
+  additional duties; no selected 4D quantum vacuum is yet transferred.
+- Section 5, pages 14--15: Cartan/MacDowell--Mansouri formulations
+  offer a typed way of comparing curvature actions. The review itself
+  chooses a topological action and explicitly sets its scale to the
+  Planck length. A gravity action with those inputs is distinct from
+  deriving Newton's constant from the originating object.
+- Section 9.1, pages 30--31: the CS gradient-flow/instanton relation
+  remains useful. A self-dual gauge curvature is not by itself the
+  curvature of a gravitational tetrad satisfying all Einstein equations.
+  The gauge/frame identification and four-dimensional metric must
+  be retained, including the self-dual restriction.
+- Section 9.3 and references 74/93: Taubes/Kato analysis on periodic
+  or tree-like ends may offer end-operator tools. Such ends are not
+  automatically the repo's cusps with drilled source arcs. No Fredholm
+  theorem can be imported without the end and domain hypotheses.
+- Appendix B records the dependence of the Godbillon--Vey number
+  on a foliation, not just on the underlying manifold. Its explicit
+  continuous family is a useful warning against treating that number
+  as already selected or quantized by topology alone.
+
+Load-bearing claims requiring correction or a missing argument before
+physical use (reading flags, not yet sealed executable results):
+
+1. Page 13 calls the generally varying mean curvature in D psi = H psi
+   a Dirac eigenvalue. A function multiplying a spinor is not generally
+   a constant spectral eigenvalue. Compactness of the boundary does
+   not remove that distinction or prove discrete geometry.
+2. Pages 17--20 move between algebra types, modular flow, a numerical
+   GV invariant and a Hamiltonian. A factor cannot have three nonzero
+   central direct-summands and remain a factor; compact operators are
+   not the von Neumann algebra B(H). More importantly, a cyclic
+   cohomology class or its numerical pairing is not automatically the
+   self-adjoint modular generator. The required spectral data and
+   state dependence are not supplied by a matched label.
+3. Page 20's claim that every SL(2,C) representation defines a
+   hyperbolic structure fails for the trivial representation. The
+   repeated claim of a unique lift must retain the spin/lift choices.
+   Wilson-loop functions and skein elements are not automatically
+   normalized positive linear functionals on a C*-algebra.
+4. Page 24 calls a general surface fundamental group free abelian;
+   that is not true for a higher-genus surface. The standard Goldman
+   construction should be checked in its actual free-homotopy setting,
+   not rejected together with this erroneous explanatory sentence.
+5. Pages 27--29 take a Dixmier trace of a cyclic class and then use
+   the curvature heat coefficient for Tr_omega |D|^-2 on a 2D disk.
+   The required operator/cocycle pairing and summability data must
+   first be defined. Check the second step against Connes' trace
+   theorem and the leading Weyl coefficient; an ordinary 2D Dirac
+   operator's leading residue and its curvature coefficient differ.
+   The printed equation was visually confirmed. This is a specific
+   spectral-action audit duty, not a no-go for spectral gravity.
+6. Pages 32--34 expressly introduce four assumptions for the black-hole
+   metric. Its stated Heaviside coefficients have jumps and vanish
+   in a region. Such an expression has not established a smooth,
+   nondegenerate Lorentzian metric or a physical 4-to-2 dimensional
+   reduction. Fourier--Laplace analysis on an end is a separate tool.
+7. Pages 35--36 infer rational Markoff data from a discrete fundamental
+   group. Discreteness of a group does not restrict all its complex
+   representations to rational traces. Chaotic evolution, finite
+   precision and a trace identity do not alone give quantum
+   probabilities or the uncertainty relations of a positive state.
+8. Pages 36--41 turn finite Casson-tower embedding results into a
+   collapse process and then a time. The dynamics, choice of CS lift,
+   unit of length and time identification must be derived separately.
+   Mostow rigidity of a normalized Riemannian hyperbolic metric does
+   not itself give an FRW evolution equation or Lorentzian de Sitter
+   dynamics. Page 40's two-critical-point Morse claim for every homology
+   3-sphere also needs correction; homology alone is insufficient.
+
+The conclusion on pages 41--42 explicitly leaves the state description
+and Hamiltonian-constraint condition conjectural. Those qualifications
+are retained. References lead to several papers elsewhere in the
+supplied archive; their full bodies are still to be read before the
+overall transfer verdict. No 4D chirality, quantum gravity, collapse
+time or cosmological prediction is adopted from this review.
