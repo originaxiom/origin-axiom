@@ -110,3 +110,86 @@ between them; and B1222's surviving residue is the same statement from the other
 four ways to die.
 
 *Nothing here promotes to `CLAIMS.md`. Gate 5 untouched — no measured value is named or used.*
+
+---
+
+# ADDENDUM 1 — WHAT THIS DOES TO THE GOAL, AND TO MY OWN LAST REPORT
+
+**2026-09-10.** Owner: *"how do we proceed towards the new goal, and how does your recent findings
+reframe your last report"*. Read against `docs/WHAT_WOULD_COUNT.md` §4A, which is the new goal and
+which I had not read when I gave that report.
+
+## 1. §4A.0's fourth pillar is not a theorem, and it says so itself
+
+The old Tier 2 was retired on four legs. Three are theorems — **B666** (the scale-torsor no-go,
+`Hom(G, ℝ₊) = 0` for finite/profinite `G`), **B936** (value-invisibility), **B1096** (the anomaly
+layer identically zero). The fourth is the seven sealed misses, and §4A.0 flags it in its own words:
+
+> *"This leg is **empirical exhaustion, not theorem** — the distinction matters and is kept below."*
+
+**§4 of this memo is a candidate theorem for exactly that leg**, and K3 is the test that decides.
+That is now the sharpest single target this bench has: not new territory, but converting the one
+non-theorem pillar of the programme's own retirement argument.
+
+## 2. Three of the programme's walls may be one lemma
+
+* **B666** — `Hom(finite G, ℝ₊) = 0`. A finite group has no nontrivial map to a torsion-free one.
+* **B1227** — a mirror-odd invariant valued in a **torsion-free** abelian group satisfies `2I = 0`
+  hence `I = 0`.
+* **Dirichlet, rank 0** — being's unit group is **finite**, so its regulator is identically 1: no
+  growth to measure.
+
+All three are *"a finite thing cannot fill a torsion-free slot."* One lemma, three domains, three
+separately-named walls. It is elementary, which is precisely why nobody joined them — each looked
+like a fact about its own subject.
+
+**Measured, extending §2's method to eight arcs (B318, B666, B1069, B1095, B1216, B1222, B1227,
+B1276): 56 ordered pairs, 16 citations — all of them in ONE cell, `B1069 → B666`, one-directional.
+Fifty-five of fifty-six pairs are empty.**
+
+## 3. B1095 is a POSITIVE confirmation, not merely an absent counterexample
+
+K1 asked for a banked result deriving orientation from hearing. What the corpus has is the
+opposite, computed and banked, on the hearing platform itself. **B1095**, the lab lane:
+
+> *"the hand is spectrally **INVISIBLE**, not merely IDS-blind"* — max difference **1.3 × 10⁻¹⁵**
+> across 2584 eigenvalues — and *"**ENERGIES ARE P-INVARIANT (FORCED), LOCALIZATION IS
+> P-EQUIVARIANT (FREE)**"*.
+
+The Fibonacci chain **is** the hearing face. The hand — orientation — is invisible to its spectrum
+to machine precision, and the split runs *inside one computation*: energies (magnitudes, hearing's
+commodity) cannot carry the P-bit; localization (a labelling, torsion-shaped) can. B1095 is a
+lab-lane result that knew nothing of this; it confirms the complementarity from outside.
+
+*Honest limit, in B1095's own words:* at **odd** Fibonacci index the reversal fails at the two
+cut-adjacent letters and isospectrality breaks (0.147). The invisibility holds at reversal-closed
+index and is a theorem about those windows, not everywhere.
+
+## 4. How the eight-row report changes
+
+| row | what I reported | what it should say now |
+|---|---|---|
+| **2 chirality** | *"wall … unless Phase 2's chiral-cover test finds otherwise"* | **a theorem with a named escape.** The object cannot carry a count in ℤ — for *every* mirror-odd invariant, not the tried ones — because ℤ is torsion-free (B1227) and orientation lives only on the rank-0 faces. **The generation number must come from the carrier.** A redirection, not a gap |
+| **3 values** | *"0 of 19; open"* | **three of the four closing legs are theorems and the fourth is not**, by §4A.0's own admission. §4 is a candidate theorem for it. Compression (4A.3) is untouched by all four |
+| **7 predictions** | *"conditional — P9, a Z′ regime"* | **under-reported.** Tier-INTERFACE is stronger and live: a **function** `ρ ↦ edge content`, refutable on an **existing** photonic/polariton platform, theory complete (B1085/B1095), **owner-pending on the L173 unseal decision.** It waits on a signature, not a computation |
+
+## 5. And a correction to my own ranking, one turn old
+
+I ranked the paths as *box D's dictionary → re-grade row 2 → the 54 covers*. Having read §4A that
+ranking is wrong on its own terms. The dictionary question sits inside 4A.3, whose **tested** ground
+B1076 already closed at four gauges; the licensed successors are three named structural doors, none
+a data contact. And **Tier-INTERFACE outranks all of it**, because it is the only tier that touches
+an instrument and the only one whose blocker is a decision rather than work.
+
+**Revised, and this one is read off the goal document rather than off my own enthusiasm:**
+
+1. **Tier-INTERFACE** — spec-complete, owner-pending. *Not ours to advance; ours to state clearly.*
+2. **K3** — convert §4A.0's fourth pillar from empirical exhaustion to theorem. Ours, and decisive
+   either way; four ways to die, already fixed.
+3. **Re-grade Tier-STRUCTURE's one open item** (chirality) from *open* to *closed on the object,
+   open on the carrier*. Ours, cheap, and it is a re-grade with a proof behind it.
+4. **Type the three 4A.3 doors by commodity** — which of the gauge-datum question, L154's σ, and
+   B882's S₃-equality asks for growth and which for torsion. Nobody has sorted them, and §1 gives
+   the sorting rule.
+
+*Nothing here promotes. Gate 5 untouched.*
