@@ -34,7 +34,7 @@ Python 3.12. The versions the manifest was last built and run against are pinned
 Python libraries are expected to work, SnapPy's census tables are version-specific:
 
 ```
-python3 -m pip install "snappy==3.3.2" "sympy==1.14.0" "mpmath==1.3.0" "numpy==2.4.0" "python-flint==0.9.0" pytest
+python3 -m pip install "snappy==3.3.2" "sympy==1.14.0" "mpmath==1.3.0" "numpy==2.4.0" "scipy" "python-flint==0.9.0" pytest
 ```
 
 No TeX distribution, network access or Sage is needed to run the package; TeX is needed only to rebuild the PDF.

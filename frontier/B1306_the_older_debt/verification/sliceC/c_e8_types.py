@@ -1,8 +1,11 @@
 """C5 -- fc R64 (the w_{A2} half): on main's own E8 root system (B1275), the Weyl rotation w = s_a s_b of an A2 plane has order 3, fixed dimension 6,
 and fixes exactly the 72 roots of the plane's centraliser E6. (The L_g half needs the icosian model: the seat's, re-run only.)"""
-import sys, importlib.util
+import sys, importlib.util, pathlib
 from fractions import Fraction as F
-spec = importlib.util.spec_from_file_location("e8", "<repo>/frontier/B1275_e8_family_verified/verification/e8_family.py"); e8 = importlib.util.module_from_spec(spec); spec.loader.exec_module(e8)
+# resolve the repository root from this file's own location, so the script runs in any clone
+_ROOT = pathlib.Path(__file__).resolve().parents[4]
+_E8 = _ROOT / "frontier" / "B1275_e8_family_verified" / "verification" / "e8_family.py"
+spec = importlib.util.spec_from_file_location("e8", str(_E8)); e8 = importlib.util.module_from_spec(spec); spec.loader.exec_module(e8)
 roots, Rset, a, b, A2, E6, rest = e8.decompose()
 def refl(v, r): d = e8.dot(v, r); return tuple(x - d * y for x, y in zip(v, r))   # roots have norm 2
 def w(v): return refl(refl(v, b), a)
