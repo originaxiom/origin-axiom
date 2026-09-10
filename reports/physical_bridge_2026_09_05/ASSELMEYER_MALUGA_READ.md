@@ -43,8 +43,8 @@ will inform that path, not silently replace it.
 | 1812.08158 | 23 | complete, 1--23; equations on 8/9/19 visually checked |
 | 1112.4882 | 24 | complete, 1--24, including appendix and references |
 | 1211.3012 | 16 | complete, 1--16, including references |
-| 1107.3458 | 35 | pending |
-| 1105.1557 | 18 | pending |
+| 1107.3458 | 35 | complete, 1--35; equations on 8/29 visually checked |
+| 1105.1557 | 18 | complete, 1--18; equations on 11/14 visually checked |
 | 1001.0882 | 31 | pending |
 | 0904.1276 | 54 | pending |
 
@@ -786,11 +786,150 @@ size and the proposed state identification. Neither quantum initial
 conditions nor a physical four-dimensional Hilbert space have been
 transferred from that argument here.
 
-Twelve supplied papers, totaling 310 of 448 pages, are now fully read.
-The remaining four papers total 138 pages. No part of their content
-is claimed read by this coverage statement. The complete cited
-mathematical-transfer assessment is still to be written after the
-remaining direct reads and the load-bearing primary checks.
+That checkpoint completed twelve supplied papers and 310 pages. The
+next direct reads below bring coverage to fourteen papers and 363 of
+448 pages. Two papers, totaling 85 pages, remain. The complete cited
+mathematical-transfer assessment is still to be written after those
+reads and the load-bearing primary checks.
+
+## Direct notes: 1107.3458v1 (2011)
+
+Title: *Constructing a quantum field theory from spacetime*. All 35
+pages are read, including appendix A and references. This is a useful
+earlier source for the later papers' foliation/operator-algebra chain.
+Section 2.4 actually gives the holonomy groupoid, half-density
+convolution, regular representations, norm completion and a projector
+from a compact transversal. That is considerably more data than a
+mere shared algebra-type label. Those constructions merit comparison
+with an actual foliation and representation in the repository.
+
+The transitions between objects still matter. Pages 8--9 use the
+one-parameter unipotent subgroup for the claimed codimension-one
+Anosov/type-III example. Page 19 separately invokes the horocycle
+flow for the type-II core. The printed matrix on page 8 was visually
+checked. These are not the same foliation: Connes' primary account
+retains both upper-triangular generators for the Anosov foliation and
+uses the horocycle subflow for its semifinite core. This supplies a
+specific repair route, not an exclusion of type-III foliation algebras.
+
+The radial-family discussion and appendix A require care before
+using the Godbillon--Vey number as an intrinsic physical quantity.
+A topological radius, a sphere metric, a hyperbolic polygon area and
+a foliated-cobordism invariant are identified in separate steps.
+Conformal changes and arbitrary reparameterizations of a topological
+radius do not by themselves preserve a selected metric area. The
+appendix needs compatible smooth foliation charts, dimensions and
+metric conventions; its claimed uniqueness is stronger than the
+non-cobordism detection stated earlier. A connected-sum presentation
+with S3 is not literally an embedded closed S3 inside a distinct
+connected homology three-sphere. The integer flat-bundle discussion
+also needs its Euler class, boundary trivialization and normalization
+checked against the older gerbe paper and Brooks--Goldman. No universal
+classification of exotic R4s by one real number is adopted here.
+
+Sections 4.2--4.3 retain a promising classical/quantum pair: surface
+character functions with a Goldman bracket, and their skein
+deformation. Their exact coordinate algebra, free-homotopy classes,
+spin/lift choices and parameter convention must be supplied. A
+genus-g surface group is not free abelian. The step from a transversal
+projector to a particular character function must preserve actual
+algebraic operations; it is not established by both being drawn as
+closed curves. The paper itself says the connection to the foliation
+still has to be supplied at the start of section 4.4.
+
+Theorem 11's printed equation (9), visually checked on page 29,
+sets both the projection square and adjacent triple-product
+coefficients to one. Jones' normalized projection relations retain
+the inverse-index coefficient in the triple product. The claimed
+type-II1 limit therefore cannot be imported using equation (9)
+unchanged. Page 30 changes to unnormalized generators with a loop
+parameter, but does not retrospectively specify one compatible
+positive trace and weak-closure construction for the preceding tower.
+This is a normalization/representation issue, not a rejection of
+Temperley--Lieb or skein methods. A formal direct limit is not already
+its represented von Neumann closure.
+
+Section 5 explicitly leaves the knot-as-state and concordance-as-
+operator proposals at the level of ideas. A holonomy is not
+automatically a positive normalized linear functional, nor does one
+factor type specify a local quantum field theory, dynamics or a
+vacuum. The final renormalization-tree discussion is speculative.
+Useful transfers are the actual groupoid operations and the
+character/skein map, with the representation and dynamics still to
+construct. No chiral fermion or physical source action is supplied
+to R18--R25 by this reading.
+
+## Direct notes: 1105.1557v1 (2011)
+
+Title: *Topological quantum D-branes and wild embeddings from exotic
+smooth R4*. All 18 pages are read. The arXiv strip says v1, May 8,
+2011; the typesetting header says March 6, 2022. The supplied file
+hash fixes the version. Sections 3--4 concern twisted charge groups
+and embeddings; sections 5--6 propose an operator algebra and action.
+
+The useful standard ingredient is the treatment of charges and
+anomaly constraints through twisted K-theory/K-homology. Its source,
+Brodzki--Mathai--Rosenberg--Szabo, really does define twisted branes
+with a Freed--Witten compatibility condition and actual Kasparov
+modules. These are tools for organizing charge and index data, not
+an equality of dynamics just because two charge classifications
+agree. In particular an integer flux class, the torsion group at
+that fixed twist, and an embedding invariant are different objects.
+Their maps must be exhibited. Compact support, reduced K-theory and
+unitization also matter: C0(R^n) is not the unital algebra C(S^n).
+
+The broad topology assertions need their codimension and ambient
+hypotheses. Nontrivial complement group does not characterize every
+wild embedding, perfectness does not mean every element is a single
+commutator, and an embedding does not by definition have trivial
+normal bundle. The asserted complete recovery of isotopy from
+homotopy of the complement is much stronger than the forward
+implication actually explained. None of these claims should become
+a general classification principle for source defects.
+
+Page 11's convolution integrates over group COMMUTATORS, not group
+products; the printed brackets were visually checked. The subsequent
+map into a usual group convolution algebra therefore needs an
+associativity and multiplication-preservation check. Importantly,
+the later supplied paper 1211.3012, page 5, uses group COMPOSITION
+instead. That exact later formula was re-read. Do not propagate the
+older printed-product objection to the changed later definition;
+its own representation and measure questions remain separate.
+
+Theorem 5.2 also needs a genuine KK construction. Ordinary algebra
+homomorphisms induce KK classes, but the converse is not the stated
+bijection with embeddings: KK uses represented Hilbert modules,
+operators, stabilization and homotopy. The cited primary definition
+was read directly. A KK class is a promising carrier of index/charge
+information, not a reconstruction of an arbitrary embedding or a
+source dynamics by itself.
+
+The action on pages 13--14 starts by applying a Dixmier trace to a
+cyclic cohomology class, then identifies that class with an operator
+expression involving a declared Dirac operator. An actual pairing,
+Hilbert representation, operator and summability have to be given
+before this is a defined functional. The classical-limit formula on
+page 14, visually checked, also mixes a Dixmier trace of |D|^-2 with
+a curvature heat coefficient in unspecified dimension p>2. Ordinary
+Dixmier trace and noncommutative residue have different domains;
+the four-dimensional curvature-residue formula does not justify
+that displayed all-p trace formula. Connes' direct account distinguishes
+the two operations and supplies a possible correctly typed replacement.
+
+The final functional is obtained after discarding linear fluctuations
+and retaining a quadratic gradient term. A full Born--Infeld/Nambu--
+Goto determinant needs either a controlled expansion or the appropriate
+auxiliary-metric variational equivalence, with its coefficients. The
+printed equality does not provide that step or license rescaling a
+position-dependent scalar curvature without derivative terms. Thus
+this is a possible action-building lead, not a transferred stationary
+finite-action source/end completion for our singular model.
+
+These problems were noticed during direct reading and source
+comparison, not a preregistered numerical experiment. No new
+scientific probe or universal negative is banked by these notes.
+The remaining 1001.0882 and 0904.1276 papers must be read before
+concluding how the authors' earlier and later versions fit together.
 
 ## First checks against the cited primary mathematics
 
@@ -848,3 +987,27 @@ separate closed-oriented-three-manifold product result. These support
 the exotic-R4 global-hyperbolicity obstruction, not the further
 identification of Morse handles with curvature singularities or
 particle species. Accessed September 10 UTC.
+
+[Jones, *Von Neumann Algebras*](https://math.berkeley.edu/~vfr/MATH20909/VonNeumann2009.pdf),
+2009, Definition 19.3.1 and Proposition 19.3.2 on PDF page 144,
+were checked directly: normalized Jones projections retain the
+inverse-index coefficient in the adjacent triple relation and in the
+Markov trace. The entire 159-page notes are not claimed read.
+
+[Connes, *Noncommutative Geometry, the spectral standpoint*](https://alainconnes.org/wp-content/uploads/NCGspectral.pdf),
+sections 6.2 and 3.2.1--3.2.2, were read directly. The former
+distinguishes the full upper-triangular Anosov foliation from its
+horocycle subflow and identifies the trace-scaling geodesic action.
+The latter distinguishes Dixmier integration from the residue that
+can recover four-dimensional scalar curvature. Neither identification
+supplies a spectral triple for our singular space. This was a targeted
+read of the author's account, not a full read of its 56 pages.
+
+[Brodzki--Mathai--Rosenberg--Szabo, hep-th/0607020v3](https://arxiv.org/pdf/hep-th/0607020),
+Definition 1.14 and section 2.2, were checked directly. The actual
+twisted-brane condition and Kasparov modules retain anomaly,
+representation, compactness and equivalence data missing from a
+bare charge-group identification. These targeted checks were accessed
+September 10; the whole 56-page paper was not read. Alternate
+Connes/Jones URLs and the requested AMS Brooks--Goldman PDF did not
+return usable files and are not counted as read.

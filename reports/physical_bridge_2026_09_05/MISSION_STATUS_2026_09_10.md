@@ -162,9 +162,9 @@ and [the bottleneck ledger](PHYSICS_BOTTLENECKS.md).
 
 ## Current paper audit and verification status
 
-The supplied archive has sixteen papers and 448 pages. Twelve papers,
-310 pages, are fully read directly by this seat, with no delegated
-summaries. The remaining four are not yet claimed read. The review
+The supplied archive has sixteen papers and 448 pages. Fourteen papers,
+363 pages, are fully read directly by this seat, with no delegated
+summaries. The remaining two are not yet claimed read. The review
 is informing the retained index/interactions path, not replacing it.
 
 Promising mathematical leads include spinorial boundary identities,
@@ -192,6 +192,11 @@ hyperbolicity obstruction for exotic R4; its later identification with
 particular physical singularities remains a different claim. The
 character/skein route remains promising, with the actual representation,
 positive state and dynamics still required before physical use.
+The two latest reads add concrete groupoid/projector and twisted-index
+tools, while distinguishing their normalization, operator and trace
+requirements from a supplied physical action. A changed convolution
+formula in a later paper was checked directly, preventing an older
+printed-product defect from becoming a blanket exclusion.
 
 The last completed R25 run added 15 passing tests. Its 46-file broad
 regression had 341 passes, 14 failures and 8 errors; the failed/error

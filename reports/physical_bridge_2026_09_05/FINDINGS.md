@@ -14,11 +14,16 @@ unchanged below.
 **Reading in progress, September 10 local:**
 [Asselmeyer--Maluga direct paper audit](ASSELMEYER_MALUGA_READ.md).
 The supplied sixteen-paper archive is extracted and integrity-checked;
-twelve papers (310 of 448 pages) are fully read. This is a reading checkpoint,
+fourteen papers (363 of 448 pages) are fully read. This is a reading checkpoint,
 not an accepted physical transfer or a new result. The unexecuted
 [index-stability preparation](INDEX_STABILITY_PRIOR.md) is retained.
 The owner's requested [mission status and next questions](MISSION_STATUS_2026_09_10.md)
 separates conditional achievements from the remaining physical joins.
+The latest reads expose specific foliation, projection-normalization and
+trace-domain duties while preserving groupoid, skein and twisted-index
+tools. A later supplied paper changes the earlier commutator convolution
+to group composition; that change is retained rather than importing an
+old objection into a new formula. No R26 science has run.
 
 **Latest local result, R25: [the free boundary wall](BOUNDARY_WALL.md).**
 The actual mass eigenline supports a derived compensating wall channel
