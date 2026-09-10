@@ -1,0 +1,11 @@
+control: |SL(2,3)| = 24
+m000 presentation: generators ['a', 'b'] relators ['aabbAB']
+orientation characters (surjections onto Z/2): [(1, 1)]
+Schreier generators of the orientation subgroup: ['aA', 'bA', 'aa', 'ab']
+Surj(pi_1 m000, 2T) = 48
+distinct restrictions to the orientation subgroup: 24
+fibre sizes: [2]
+surjections whose central w-twist is a hom with the SAME restriction: 48 of 48
+|Aut(2T)| computed = 24
+Aut(2T)-orbit of one restriction has size 24 ; total restrictions 24
+=> the restrictions form a SINGLE Aut-orbit: True

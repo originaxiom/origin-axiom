@@ -1,0 +1,18 @@
+{
+ "id": "B1325",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1235",
+  "B1234",
+  "B1233",
+  "B1208",
+  "B1224"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE CODEX HARVEST GAP: R037 RE-DERIVED AND BANKED, R038-R040 READ AND ROWED OPEN (the arc carries those three as named debts, hence OPEN). B1235 harvested codex at 4ec3e07f; the seat is at f7a49536, four records ahead, and main had never seen R037-R040 (six relay memos of 2026-09-02 carried no RELAY_LEDGER row -- the invisible-work failure state the ledger exists to catch). R037 IS RE-DERIVED ON THIS BENCH AND BANKED: pi_1(m000) = <a,b | aabbAB> has a unique orientation character w(a)=w(b)=1; Schreier generators of ker(w) are {aA, bA, aa, ab}; Surj(pi_1 m000, 2T) = 48 (matching Surj(pi_1 m004, 2T) = 48, both two Aut(2T)-orbits, |Aut(2T)| = 24 computed here); restriction to the orientation subgroup has exactly 24 distinct images with every fibre of size exactly 2, the fibre being the central twist phi^w(g) = (-I)^{w(g)} phi(g), a homomorphism with the same restriction in all 48 cases; and the 24 images form a SINGLE Aut(2T)-orbit. Hence EXACTLY ONE of m004's two 2T quotient classes extends over the non-orientable parent m000, the other being its unique nonzero central H^1(m004; C2) twist. Codex's fence is preserved: the resemblance to B1208's one-extending-spin result is NOT an identification and I-6 remains UNEARNED. R038 (A1 SU(6) rank reduction), R039 (A4-to-2T lift torsor) and R040 (free-deck Chern-Simons: a closed theorem via Kawauchi + CGHN/APS, plus 1260/1260 cusped orientation covers at cs = 0) are READ AND ROWED BUT NOT BANKED -- none re-derived here, and codex explicitly asks that R040's closed theorem and finite census be graded separately and the census NOT promoted to a universal cusped theorem. ADJACENT AND INDEPENDENT: every orientation double cover is amphichiral (deck involution orientation-reversing, isometric by Mostow; 250/250 over the non-orientable census), the elementary sibling of R040's CS statement -- codex reached the CS half first and over a larger census."
+}
