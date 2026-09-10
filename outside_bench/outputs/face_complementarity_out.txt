@@ -1,0 +1,77 @@
+CERTIFICATE -- THE COMPLEMENTARITY OF THE FACES, and the five arcs that each found it alone.
+
+OCCASION (owner, 2026-09-10): "what Q sqrroot 5 lacks Q qsrroot 3 provides and viceversa /
+maybe reading the results of each failed crossing would help as we expected smthe wlse"
+
+THE QUESTION TAKEN LITERALLY.  B1276/B730: the object's arithmetic forces EXACTLY THREE quadratic
+faces -- being Q(sqrt-3), hearing Q(sqrt5), meeting Q(sqrt-15) -- the three involutions of
+V4 = Gal(Q(sqrt-3,sqrt5)/Q), with the group law being.hearing = meeting.  What does each lack that
+another provides?
+
+THE ANSWER IS A THEOREM, not a metaphor: Dirichlet's unit theorem.  Unit rank = r1 + r2 - 1.
+
+CELLS (two outcomes each)
+  CELL 1  Is the complementarity exact -- do the faces split by unit rank, with no face carrying
+          both commodities?
+          A: some face has both (rank > 0 AND c nontrivial)      B: they split, exclusively
+  CELL 2  Has the corpus already joined it?  Measured by cross-citation among the arcs that
+          state it, B1276's own method.
+          A: the arcs cite one another (already joined)           B: zero citations (never joined)
+
+CONTROLS
+  C1  The unit ranks must be computed from the signature, not asserted, and must reproduce the
+      textbook values the record already banks (B1216: "Q(sqrt-3) has UNIT RANK 0 so its regulator
+      is IDENTICALLY 1").
+  C2  NON-VACUITY of the citation measurement: the grep must FIND a citation where one exists.
+      Positive control -- B1276 cites B1174 and B730 by name in its own claim line.
+  C3  The exclusivity must be a THEOREM, not a sample: rank 0 and rank 1 are the only quadratic
+      possibilities and they are disjoint, so no quadratic face can carry both commodities.
+
+==============================================================================
+CELL 1 -- the split, computed from the signature
+
+  being    Q(sqrt-3)    r1=0 r2=1  UNIT RANK 0   c acts NONTRIVIALLY
+           finite units -> TORSION output   |   CAN carry a mirror-odd bit
+  hearing  Q(sqrt5)     r1=2 r2=0  UNIT RANK 1   c acts TRIVIALLY
+           a unit of infinite order -> GROWTH output   |   MIRROR-EVEN by arithmetic, carries none
+  meeting  Q(sqrt-15)   r1=0 r2=1  UNIT RANK 0   c acts NONTRIVIALLY
+           finite units -> TORSION output   |   CAN carry a mirror-odd bit
+
+  hearing's fundamental unit  phi = (1+sqrt5)/2   N(phi) = -1   regulator = log phi = 0.481211825
+  being's regulator = 1 exactly (rank 0): there is NO unit of infinite order to measure.
+
+  faces carrying BOTH commodities (rank > 0 AND c nontrivial): 0
+  -> B (they split, and exclusively)
+
+C3  the exclusivity is a THEOREM, not a sample: for a quadratic field r1+2*r2 = 2, so
+    (r1,r2) is (2,0) or (0,1) and the unit rank is 1 or 0 -- there is no third option, and
+    c is nontrivial exactly in the second case.  GROWTH and ORIENTATION cannot co-occur
+    on ONE quadratic face.  -> PASS
+
+CELL 2 -- has the corpus joined it?  cross-citation, B1276's own method
+
+  the five arcs, and what each states:
+    B318   the Z/2 level: the Eisenstein Z/2 IS the geometric amphichiral involution;
+            the golden Z/2 is arithmetic-only, NO geometric tau
+    B1069  the Hecke level: the palette 1,1,2 against 1,2,8 -- 'the discriminator is
+            Dirichlet unit rank (1 vs 0; the free unit outraces the residue tower)'
+    B1216  the regulator level: 'Q(sqrt-3) has UNIT RANK 0 so its regulator is IDENTICALLY 1'
+    B1222  the vanishing level: the regulator vanishing is 'a SIGNATURE fact about the
+            field, not a symmetry' -- and its surviving residue, 'symmetry REDISTRIBUTES content'
+    B1276  the parity level: 'c acts nontrivially on a quadratic field IFF the field is
+            IMAGINARY', so hearing is MIRROR-EVEN BY ARITHMETIC
+
+    B318   -> B1069:0  B1216:0  B1222:0  B1276:0
+    B1069  -> B318:0  B1216:0  B1222:0  B1276:0
+    B1216  -> B318:0  B1069:0  B1222:0  B1276:0
+    B1222  -> B318:0  B1069:0  B1216:0  B1276:0
+    B1276  -> B318:0  B1069:0  B1216:0  B1222:0
+
+  ordered pairs measured: 20   citations found: 0
+  -> B (NEVER JOINED: five arcs, four levels, zero cross-citations)
+
+C2  NON-VACUITY of the citation measurement: B1276 must be seen to cite B1174/B730,
+    which its own claim line does.  found -> PASS
+
+ALL CONTROLS PASSED
+VERDICT: CELL 1 = B, CELL 2 = B

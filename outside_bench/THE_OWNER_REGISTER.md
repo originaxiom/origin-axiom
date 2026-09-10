@@ -2171,3 +2171,41 @@ is proposed.
 
 **I am taking 1, then 3, then 2.** 4 and 5 are named as not ours, per R90: no lane's critical path
 runs through an unanswered external question.
+
+
+---
+
+## ADDENDUM 96 (2026-09-10) — **R96: "what Q sqrroot 5 lacks Q qsrroot 3 provides and viceversa / maybe reading the results of each failed crossing would help as we expected smthe wlse"**
+
+**The first half has an exact answer and it is a theorem: Dirichlet's unit theorem.** Memo 195.
+
+Unit rank is `r₁ + r₂ − 1`. Being ℚ(√−3) has rank **0** — units μ₆, *the trit*, regulator
+identically 1, and `c` nontrivial, so it **provides orientation and lacks growth**. Hearing ℚ(√5)
+has rank **1** — the fundamental unit φ, regulator log φ, and `c` trivial, so it **provides growth
+and lacks orientation**, mirror-even by arithmetic. Meeting ℚ(√−15) has rank 0 like being.
+
+And it is **exclusive by theorem, not by sample**: for a quadratic field `r₁ + 2r₂ = 2`, so the unit
+rank is 1 or 0 and never both, and `c` is nontrivial exactly in the second case. **Growth and
+orientation cannot co-occur on one quadratic face.** Your sentence, proved.
+
+**And the corpus has been saying it for months without noticing.** Five arcs, four levels:
+B318 (the ℤ/2 — *"the Eisenstein ℤ/2 IS the geometric amphichiral involution; the golden ℤ/2 is
+arithmetic-only with no geometric τ"*), B1069 (the Hecke palette — *"the discriminator is Dirichlet
+unit rank"*), B1216 (the regulator), B1222 (the vanishings — *"a SIGNATURE fact about the field, not
+a symmetry"*), B1276 (the parity law). Measured by B1276's own method: **20 ordered pairs, 0
+cross-citations.** The same theorem found five times from four directions and joined none of them.
+
+**The second half — reading the failed crossings — is a hypothesis and I have fenced it, not banked
+it.** The reading is that the seven-for-seven exhaustion is *structural*: a measured CP-odd value is
+a magnitude **with** an orientation, the magnitude only from hearing and the orientation only from
+being or meeting, and no face carries both.
+
+**Why fenced:** B1222 proposed a unification of the programme's ~65 negatives, named three kill
+conditions in advance, and **died on them**. A second unification of the same negatives, proposed
+the same afternoon it is thought of, gets the same treatment. Four kill conditions are fixed in
+memo 195 §4. K1 and K2 return nothing on a first pass. **K3 — sort the seven from the sealed text,
+not from memory; ambiguous sorting means vacuous, an own-commodity miss means false — is NOT RUN**,
+and it is the one that decides. That is the next cell.
+
+*What your question did: it turned a scattered fact into a theorem, and it found five arcs that had
+each discovered it alone.*
