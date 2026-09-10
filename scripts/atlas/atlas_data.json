@@ -7150,7 +7150,9 @@
    "refs": [
     "B519",
     "B731",
-    "B964"
+    "B964",
+    "B965",
+    "L139"
    ],
    "obstacle": "bridge_construction",
    "obstacle_conf": 2,
@@ -7174,6 +7176,24 @@
    "obstacle_conf": 3,
    "status": "dead",
    "domain": "dynamics"
+  },
+  "B1328": {
+   "slug": "extension over the parent",
+   "motifs": [
+    "choice",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation"
+   ],
+   "refs": [
+    "S3",
+    "S4"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B132": {
    "slug": "quantum layer",

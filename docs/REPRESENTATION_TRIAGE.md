@@ -94,3 +94,4 @@ in the same commit, with registry and ledger rows where owed:
 
 The 13 PENDING rows above are unchanged and still ride into the register-repair cell; this read adds
 no new PENDING. The short-claim-lane detector fix remains owed.
+| B1328 | PROCESS | extension over the discarded parent m000 selects a central `Z/2` (fibre = the central involutions whose twist stays surjective; verified on 13 groups, 2T among them). Unifies codex R037, codex R039 and §9's spin-lift row into one mechanism, and types it as a **relation** (B1327) rather than an observer's choice. To surface once the seat that owns §9 rules on whether the arrow/chirality/swap triple double-counts. |

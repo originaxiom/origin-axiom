@@ -1,0 +1,12 @@
+{
+ "id": "B1328",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1325", "B1327", "B1208"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE THREE 'EXTENSION OVER m000 SELECTS' INSTANCES ARE ONE MECHANISM, AND IT IS A RELATION RATHER THAN A CHOICE. Codex R037 (m004's 2T quotient class), codex R039 (the A4-to-2T lift) and the paper's own spin-lift row each report that exactly one of two candidates extends over the non-orientable parent the orientation axiom discarded. Tested as a general statement across thirteen finite groups: the restriction Surj(pi_1 m000, Q) -> Surj(pi_1 m004, Q) has fibres of size exactly #{z in Z(Q)[2] : z.phi is STILL SURJECTIVE} -- the central involutions whose twist phi^w(g) = z^{w(g)} phi(g) preserves surjectivity -- and when that count is two, exactly half the m004 classes extend and the relation to m000 fixes one bit. THE NAIVE FORM OF THE RULE IS FALSE AND WAS CORRECTED HERE: fibre = |Z(Q)[2]| is refuted by C2 and C6, where the twist is a homomorphism satisfying the relators (w kills them automatically) but LEAVES the surjections -- for cyclic C_n this fails exactly when n = 2 mod 4. With the surjectivity condition added the rule holds on every group tested: C2, C3, C4, C6, C8, C12, SL(2,3) carry surjections and match; C2xC2, C2xC4, Q8, D4, D6, SL(2,5), S3, S4, A5 admit no surjection at all, so the mechanism has no content there. THE TYPE IS RELATION, NOT SELECTION (B1327): the second relatum is m000, the manifold axiom 5 discarded, and the bit it fixes is precisely a CENTRAL Z/2 -- which is what a spin structure, a 2T lift and a 2T quotient class each are. THE LIMIT, STATED: this explains the three instances and does NOT move the colour frame (a Z/3 triality orbit with no central involution) or the Standard-Model shaping (target knowledge, not a relation to any partner). One of B1327's proposed re-types gains a mechanism; the others do not."
+}

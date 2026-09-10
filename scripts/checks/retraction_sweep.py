@@ -32,6 +32,11 @@ EXEMPT_BASENAMES = ("PRIOR_ART_HYPERCHARGE.md", "PRIOR_ART_MAASS.md",
 # there are correct by the same principle as docs/RETRACTIONS.md.
 EXEMPT_PREFIXES = ("frontier/B967_", "frontier/B964_", "frontier/B963_", "frontier/B965_", "frontier/B943_",
                    "frontier/B941_", "frontier/B942_", "frontier/B723_", "frontier/B892_",
+                   # added 2026-09-10 (B1326), same principle as the arcs above: each of these
+                   # IS a retraction record for the 83-of-83 family closure -- B1181 the retracted
+                   # arc and its addendum, B1235 the arc that retracted it, B1163 the addenda it
+                   # corrected, B1326 the sweep's own widening. Quoting the phrase there is right.
+                   "frontier/B1181_", "frontier/B1235_", "frontier/B1163_", "frontier/B1326_",
                    "docs/atlas/", "docs/views/")
 
 # A line is a MENTION (allowed) if it carries any of these near the phrase.
@@ -43,6 +48,9 @@ MENTION_CUES = re.compile(
     # added 2026-09-06 (Review 55): B1188's correction banner reads "... as \"<phrase>.\" **Wrong direction**",
     # a mention the cue list did not recognise once the sweep could finally see the phrase.
     r"wrong direction|described .{0,40} as|"
+    # added 2026-09-10 (B1326): a line calling a method orientation-blind is discussing the
+    # defect, not asserting the claim -- CAMPAIGN_STATUS names B1181's phrase in exactly that way.
+    r"orientation-blind|38/112|38 of 112|"
     # added 2026-09-07 (the doc-currency read at B1296): "refuted" -- the corpus's commonest retraction
     # verb -- was not a cue, so every line that SAYS a phrase is refuted (B1253 FINDINGS: "It is refuted";
     # CAMPAIGN_STATUS: "this arc's own headline REFUTED") read as a live use the moment the phrase was
@@ -93,9 +101,33 @@ def _phrases():
 
 
 def _tracked_md():
-    r = subprocess.run(["git", "ls-files", "*.md"], cwd=ROOT,
+    """Every tracked prose surface -- .md AND .tex.
+
+    Widened 2026-09-10 (B1326). B1181's retracted "83 of 83" survived in THE PAPER for a week,
+    and this sweep could not have caught it even had the phrase been registered: main.tex is
+    .tex, and the glob was "*.md" only. A sweep that cannot see the project's flagship document
+    is a sweep with a hole the size of the thing it most needs to guard.
+    """
+    r = subprocess.run(["git", "ls-files", "*.md", "*.tex"], cwd=ROOT,
                        capture_output=True, text=True)
     return [p for p in r.stdout.split("\n") if p.strip()]
+
+
+def _flatten(line):
+    """See through the markup the surface is written in.
+
+    A phrase registered as "all 83 members" does not match "all $83$ members"; the paper reads
+    the second. Strip TeX math delimiters and common wrappers, normalise ligatures, collapse
+    whitespace -- matching on the flattened line, reporting the real line number.
+    """
+    for a, b in (("\ufb00", "ff"), ("\ufb01", "fi"), ("\ufb02", "fl"),
+                 ("\ufb03", "ffi"), ("\ufb04", "ffl")):
+        line = line.replace(a, b)
+    line = re.sub(r"\\(?:emph|textbf|textit|mathbf|text|mathrm)\s*\{", "", line)
+    line = line.replace("~", " ")          # a TeX tie is a space, not nothing
+    line = re.sub(r"[${}]", "", line)
+    line = re.sub(r"\s+", " ", line)
+    return line
 
 
 def sweep():
@@ -111,8 +143,10 @@ def sweep():
         try:
             with open(path, encoding="utf-8", errors="ignore") as fh:
                 for n, line in enumerate(fh, 1):
+                    flat = _flatten(line)
+                    mention = MENTION_CUES.search(line) or MENTION_CUES.search(flat)
                     for phrase, rx in phrases:
-                        if rx.search(line) and not MENTION_CUES.search(line):
+                        if rx.search(flat) and not mention:
                             violations.append((rel, n, phrase))
         except OSError:
             continue
@@ -122,7 +156,7 @@ def sweep():
 if __name__ == "__main__":
     v = sweep()
     print(f"registered retracted phrases: {len(_phrases())}")
-    print(f"tracked .md files swept: {len(_tracked_md())}")
+    print(f"tracked .md/.tex files swept: {len(_tracked_md())}")
     print(f"live-claim violations: {len(v)}")
     for rel, n, p in v[:25]:
         print(f"  {rel}:{n}  ->  {p!r}")

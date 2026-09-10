@@ -2,13 +2,26 @@
 
 **Verdict: PROVED (instrument).**
 
-## Why the gate did not exist
+> **CORRECTION (2026-09-10, same day, before landing).** The first version of this record said no
+> gate existed. **That was wrong** — `retraction-sweep` (L139, `scripts/checks/retraction_sweep.py`)
+> has policed registered retracted phrases since B965, with a registry at
+> `docs/RETRACTED_PHRASES.md`. It missed B1181 through **two independent holes**, both now closed
+> here rather than routed around: the phrase was **never registered**, and the sweep globbed
+> `git ls-files "*.md"` — so `main.tex`, the flagship document, was **structurally invisible to it**.
+> The sweep is now widened to `*.tex` and taught to flatten TeX markup and ligatures; the phrase is
+> registered as rows 10–11. Re-run against `main.tex` at `b94ed03` it fires at **line 837**. The
+> instrument below is the *complement*, not the replacement: it sources phrases from the arcs
+> themselves so registration cannot be forgotten.
+
+## Why the existing gate did not fire
 
 B1181 was retracted by B1235 on 2026-09-02: *"the family is 38/112 amphichiral, not 83/83 — the
 method was orientation-blind."* THE PAPER shipped on 2026-09-09 still saying **"all 83 members … are
 amphichiral, with no exceptions and no undecided cases."** Nothing caught it, and the reasons are
 structural rather than careless:
 
+- `retraction-sweep` existed but swept only `*.md`, and the paper is `.tex`;
+- its registry is filled **by hand**, and nobody registered this phrase;
 - the arc-verdict schema gate checks **shape**, not currency;
 - the harvest gate tracks **seat debt**, not claim staleness;
 - the paper's provenance appendix tests that a claim **points at a record that exists** — B1181's
