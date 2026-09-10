@@ -7157,6 +7157,24 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1327": {
+   "slug": "relation not observer",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "choice",
+    "coupling",
+    "kappa",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "selector",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B132": {
    "slug": "quantum layer",
    "motifs": [
