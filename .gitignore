@@ -108,3 +108,8 @@ papers/P3_THE_PAPER/*.pdf
 papers/P3_THE_PAPER/*.aux
 papers/P3_THE_PAPER/*.log
 papers/P3_THE_PAPER/*.out
+
+# a compute cache b1121_pairs.py rebuilds on demand (769 KB of generators).  Running the
+# suite left it untracked in the working tree, so a clean checkout came back dirty after
+# every test run -- and a dirty tree is what makes someone commit a binary by accident.
+frontier/B1121_pair_orbits/f8_gens_cache.npz
