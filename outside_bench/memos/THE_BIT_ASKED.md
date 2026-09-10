@@ -107,3 +107,98 @@ inherit a bit from a carrier is a *dictionary* question, and B813 fences the nai
 where box D goes next, and it is a question about a dictionary, not about this object.
 
 *Interpretive passages are labelled in the certificate output. Nothing here promotes to `CLAIMS.md`.*
+
+---
+
+# ADDENDUM 1 — THE OWNER'S CORRECTION, AND THE FINDING RESTATED WHERE IT BELONGS
+
+**2026-09-10.** The owner, on reading §4: *"ure refering to the object, not the faces
+interactions relations and the shadow."*
+
+Correct, and the correction is not cosmetic. §4 measured a property **of a manifold** and compared
+it to a sibling. The programme's content is not at that level, and the record says so in two places
+this memo should have used.
+
+**The faces (B1276/B730).** The object's arithmetic forces **exactly three** quadratic faces —
+**being** ℚ(√−3), **hearing** ℚ(√5), **meeting** ℚ(√−15) — the three involutions of
+`Gal(ℚ(√−3,√5)/ℚ) = V₄`, with the group law **being · hearing = meeting**. And the parity law:
+*c acts nontrivially on a quadratic field iff the field is imaginary* — so hearing is **mirror-even
+by arithmetic** and cannot carry an orientation bit at all.
+
+**The shadows (`THE_FRAMEWORK`, "the object is adelic").** An arithmetic object has two completions
+and they are its two faces in the other sense:
+
+* **the finite shadow is structure** — E₆ as a reduction mod the ramified prime √−3, and
+  *"the Chern–Simons term is finite-group-valued (B1108)"*;
+* **the archimedean shadow is physics** — *"the volume, the action, the spectra, the growth rates,
+  and Lorentz"*;
+* **"the two shadows are one number"** — `Vol(m004) = 9√3·ζ_K(2)/π²`, verified to 32 digits.
+  *"The archimedean shadow is a special value of the finite shadow's zeta function."*
+
+So the bit is **finite-shadow data**, and the right question is not where one manifold sits. It is:
+**can the archimedean shadow see it?**
+
+## What was computed
+
+All 181 amphichiral one-cusped census manifolds, asking whether the bit is a *function of* the data
+the programme actually reads.
+
+| test | result |
+|---|---|
+| does the **archimedean shadow** (volume) determine the bit? | **NO** — 59 of 99 volumes carry both elements |
+| does the **being face's abelianization** (H₁) determine it? | **NO** — 26 of 62 H₁ types carry both |
+| do the two **jointly** determine it? | **NO** — two explicit witness pairs |
+
+The two witnesses, and they are the whole argument:
+
+    vol 7.327724753   H1 = Z + Z    t12062 -> 1/4     t12063 -> 0
+    vol 8.738570409   H1 = Z + Z    o10_132112 -> 0   o10_132113 -> 1/4
+
+Same volume. Same abelianization. Opposite bits. One such pair suffices; there are two, and 59
+volume-splittings and 26 H₁-splittings behind them.
+
+## The finding, restated at the right level
+
+> **The two shadows are one number in one direction only.** `Vol = 9√3 ζ_K(2)/π²` carries the finite
+> shadow's zeta out to the archimedean side. It does not carry the bit. The bit is the part of the
+> finite shadow that the archimedean shadow cannot see — and it is not recoverable by adding the
+> abelianization either.
+
+And that is not a curiosity: **it is the mechanism L192 was missing.** The record's own sentence is
+*"the archimedean shadow is physics — the volume, the action, the spectra, the growth rates."*
+Every probe ever fired into box D asked for a **continuous value**, which is to say an **archimedean
+quantity**. B1027 asked the angles, B1137 asked algebraic combinations of periods, B813 asked the
+coefficient slot. They did not miss by bad luck and the object was not silent. **They were reading
+the shadow the bit does not cast.** L192 typed the mismatch; this exhibits it, with witnesses.
+
+## The sharpest single instance, and what it is not
+
+B781: *"the golden 5 is field √5 in m004, torsion ℤ/5 in the sister."* The same 5 — hearing's 5 —
+sits in the **archimedean** shadow for the object (a real quadratic field, mirror-even, carrying no
+bit) and in the **finite** shadow for m003 (H₁ torsion). And the bit differs across exactly that
+move.
+
+**That is a candidate mechanism and this memo does not claim it**, because the witness pairs kill
+it as a complete explanation: `t12062` and `t12063` have identical volume *and* identical H₁ and
+still differ. Where the 5 lives cannot be the whole story. Named as a lead, not a result.
+
+## The tension this leaves, named and NOT resolved
+
+B1276 indexes the programme's ℤ/2's **by the three forced faces** — the orientation bit on the
+being-leg, the value torsor a hearing-side swap, the genus bit of ℚ(√−15) the meeting-leg. By its
+own parity law a mirror-odd bit must live on an **imaginary** face, so being or meeting. But m003
+and m004 **share being** (both ℚ(√−3), banked B781/B762/B993) and differ in this bit.
+
+So one of three things is true, and this bench does not know which:
+
+1. the CS bit is the **meeting-leg** (ℚ(√−15)) — i.e. it is a *relation between faces*,
+   `being · hearing`, not a face;
+2. it is a **fourth** ℤ/2 that B1276's indexing does not cover;
+3. B1276's indexing needs amending.
+
+**Registered as a question, not answered.** The discriminating computation is whether the bit tracks
+the meeting field across the census — which needs invariant trace fields at scale, and Sage is
+absent on this bench. That is the next cell, and it is a computation, not a judgement.
+
+*Scope unchanged from the seal: no phase value follows, B813 governs, no dictionary is proposed.
+§4's statement is not withdrawn — it is true and it was aimed one level too low.*
