@@ -985,7 +985,7 @@ across memos 160→162 while two of its rows changed underneath it.
 
 | row | task | answer | where |
 |---|---|---|---|
-| **R68** | *"take a step back back back, or dig deep deep deep… I think we've been circulating around the very essence… but we fail the final kick."* | **You are right, and the corpus already wrote it down.** `B1025`'s floor, carried in `GRAND_COMPUTATION_v0` §5: **"ONE unit + TWO bits + acceptances. No continuous dimensionless input remains anywhere except A2 = σ."** The deletion schedule ranks σ **row 1**. `c = 6σ` (Brown–Henneaux) and `c((E₆)₁) = 78/13 = 6` are both exact, so **σ = 1 iff the object's boundary CFT has `c = 6`** — and `B1190`/GC-6 types the gap exactly: **six cusp-boson units where `T[4₁]` supplies one, because the object has one cusp.** **The programme's whole remaining continuous content is the difference between 1 and 6.** | memo 168 |
+| **R68** | *"take a step back back back, or dig deep deep deep… I think we've been circulating around the very essence… but we fail the final kick."* | **You are right, and the corpus already wrote it down.** `B1025`'s floor, carried in `GRAND_COMPUTATION_v0` §5: **"ONE unit + TWO bits + acceptances. No continuous dimensionless input remains anywhere except A2 = σ."** The deletion schedule ranks σ **row 1**. `c = 6σ` (Brown–Henneaux) and `c((E₆)₁) = 78/13 = 6` are both exact, so **σ = 1 iff the object's boundary CFT has `c = 6`** — and `B1190`/GC-6 types the gap exactly: **six cusp-boson units where `T[4₁]` supplies one, because the object has one cusp.** **The programme's whole remaining continuous content is the difference between 1 and 6.** *(Citation added 2026-09-10: the pairing itself is `B1034`'s question and `B1034` adjudicated it **UNDECIDED — the honest middle**; nothing here re-opens it, and the bench states the two exact sides only to locate where its own work sits.)* | memo 168 |
 
 **The fresh-eyes idea I had, and the corpus had already killed it.** `(E₆)₁` is six free bosons on
 the E₆ lattice; E₆ is a rank-3 ℤ[ω]-lattice; the object's ring is ℤ[ω]. So perhaps the 6 is one cusp
@@ -2086,3 +2086,46 @@ falsifier count). **A rebuilt PDF has been sent, replacing the earlier one.** Th
 diagnosis of why no lock caught it is worth keeping: *the claim was absent from
 `MANIFEST.json`* — **a claim outside the manifest is outside the guard**, the same shape as
 evidence outside the repository being outside the lock.
+
+
+---
+
+## ADDENDUM 94 (2026-09-10) — **one item for you to settle, and the full-suite number**
+
+**The suite finished on this lane: 3 failed, 6316 passed, 72 skipped (1:08:58)** — down from the
+twelve this session started with. All three of the remainder were main's own gates reading *this
+lane*, and two are now closed:
+
+* **`test_b1034_l154`** — its L154 lock is a grep intersection (Brown–Henneaux ∧ (E₆)₁), and three
+  bench files mention both. Adjudicated by reading, which is what that lock's own docstring
+  prescribes: all three discuss the pairing **to record that it does not hold or is unqueued**.
+  Closed the right way — by **citing `B1034`**, the arc that adjudicated L154 **UNDECIDED**, where
+  each of them discusses it. The bench had been stating the two exact sides without naming the arc
+  that settled them; that was a citation gap, and the lock caught it.
+* **`attribution`, the file half** — 23 tracked files, baseline 0, **every one of them mine**.
+  Almost all of it was one habit: citing seat branches by their full name, and a seat branch's first
+  segment *is* the token. Now rendered `<seat>/…`. Two of my own instruments were re-introducing it
+  on every run through the tree-provenance banner I added this session.
+
+### The one thing I am not deciding for you
+
+`test_repo_gates` and `test_b887_gate_audit` both still red, on **one line**, the same line:
+
+> `FAIL  attribution: ['last-commit author: origin-axiom outside bench']`
+
+Thirty gates pass; this one requires the last commit's author to be exactly `originaxiom`. **This
+bench commits as `origin-axiom outside bench` because you set that identity for it.** On this
+branch the check cannot pass by construction; on `main` it passes.
+
+I am not changing it. Greening a gate by overriding a standing instruction is backwards, and the
+distinct author is doing real work — it is how a reader tells bench commits from main's. **Your
+call**, and the three ways out as I see them:
+
+| | what | cost |
+|---|---|---|
+| 1 | leave it — the gate reds only on seat branches, never on `main` | two locks stay red on every seat lane, and a red lock stops being read |
+| 2 | the gate accepts any author whose name *contains* `origin-axiom` | the check keeps its purpose (no third-party author) and stops punishing the seats |
+| 3 | bench commits use author `originaxiom` and carry the seat in a trailer | the distinction survives in the commit body, not the author line |
+
+I would take **2**: it is main's gate, the fix is one predicate, and it makes the check mean *"no
+outside author"* rather than *"exactly one string"* — which is what it is for.

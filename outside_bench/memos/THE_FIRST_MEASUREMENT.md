@@ -68,7 +68,7 @@ charged against GC-6, appearing again one level down. **Neither number is here a
 
 | quantity | value |
 |---|---|
-| target, `c((E₆)₁) = 78/13` | **6** |
+| target, `c((E₆)₁) = 78/13` | **6** |   <!-- the target is B1034's content side; B1034 adjudicated L154 UNDECIDED and this memo measures the object side only -->
 | object-side, growth of the mock theta | **1/7 ≈ 0.143** |
 | object-side, mirror orientation (false theta) | **0** |
 | object-side, prefactor reading of the same series | **12** |

@@ -53,6 +53,8 @@ Two independent derivations, both banked, both exact (`B1012`, `B1088`, `B1190`/
 **If the stage CFT is the AdS₃ boundary CFT of the object's own quotient, then `6σ = 6` and `σ = 1`,
 and the last continuous input becomes an output.**
 
+*Citation added 2026-09-10.* **That "if" is `B1034`'s question, and `B1034` adjudicated it: L154 is **UNDECIDED**, sealed `6361f222` pre-compute, with V1 exact on both sides. Nothing in this memo re-opens it — the conditional is stated to say where the bench's own work sits relative to a settled UNDECIDED, not to assert the join.
+
 **What stands in the way, typed exactly by `B1190`/GC-6:**
 
 > **"`c = 6` is SIX cusp-boson units; the banked `T[4₁]` (`B262`: U(1) gauge + U(1)_m flavor, one
