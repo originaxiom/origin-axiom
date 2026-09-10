@@ -45,7 +45,7 @@ will inform that path, not silently replace it.
 | 1211.3012 | 16 | complete, 1--16, including references |
 | 1107.3458 | 35 | complete, 1--35; equations on 8/29 visually checked |
 | 1105.1557 | 18 | complete, 1--18; equations on 11/14 visually checked |
-| 1001.0882 | 31 | pending |
+| 1001.0882 | 31 | complete, 1--31; diagrams/equations on 19--22 visually checked |
 | 0904.1276 | 54 | pending |
 
 ## Questions to settle from the bodies
@@ -930,6 +930,72 @@ comparison, not a preregistered numerical experiment. No new
 scientific probe or universal negative is banked by these notes.
 The remaining 1001.0882 and 0904.1276 papers must be read before
 concluding how the authors' earlier and later versions fit together.
+
+## Direct notes: 1001.0882v2 (2010)
+
+Title: *Exotic smooth R4, noncommutative algebras and quantization*.
+All 31 pages are read, including the appendix and references. The
+supplied version is v2, January 27, 2010. Pages 19--22 were also
+visually inspected for the flow diagrams and projection formulas.
+
+This earlier paper retains useful data absent from some abbreviated
+later claims. Section 3.3.1 uses actual groupoid composition and
+regular Hilbert-space representations. Section 3.4 defines actual
+Kasparov triples. Thus the 2011 commutator-product problem is not a
+defect in every version, and it would be wrong to say these authors
+never supplied representation or KK data. The remaining question is
+whether the maps subsequently asserted preserve that data.
+
+The same caution applies to stated strength. Theorem 3 and the text
+on page 11 explicitly leave the type-III1 identification conjectural.
+Section 4.6 lists separate assumptions (A), (B), (C), including the
+existence of the physical classical and relativistic quantum field
+theories being compared. Page 27 explicitly acknowledges the missing
+explicit theories and suggests retaining a net of algebras to
+distinguish different smoothings. These qualifications must travel
+with later claims of a geometric quantization or quantum vacuum.
+
+Several joins are not established by the surrounding constructions.
+The twisted compact-operator section algebra is a legitimate kind of
+object; a change in its twist is not by itself a deformation map
+from C(S3), nor a proof of an intrinsic smoothing-to-flux assignment.
+The zero-twist case also has to be separated from the displayed
+nonzero-twist K-groups. The claimed Morita equivalence between a
+foliation C*-algebra and its von Neumann closure needs independent
+hypotheses. Section 3.4's assembly map, reversed classifying-space
+arrow and proposed map from K-theory into cyclic cohomology cannot
+be supplied merely by naming the Connes pairing: a pairing is not
+an inverse reconstruction of a cocycle from a K-class. No such map
+has been transferred to our model.
+
+The unipotent/Anosov distinction, surface-group claim, and
+transversal-projector-to-surface-character join recur here. On page
+21 equation (5) again omits the Jones inverse-index coefficient.
+The tree discussion on page 22 does introduce a trace and a weighted
+path algebra, which is positive additional structure. But its printed
+equation (8) has unequal coefficients in the two adjacent triple
+relations, and the proposed eigenvalue is taken from one small
+branching diagram rather than justified for the full graph and
+compatible tower. These printed formulas were visually checked.
+Page 23 itself states the final Clifford/type-II1 identification
+without proof. One must repair the normalization and verify the
+positive trace, inclusions and represented weak closure before using
+the construction. A linear combination of curves does not already
+provide that closure.
+
+Finally, different presentations of one isomorphism class of factor
+cannot be distinguished by an invariant of that bare factor. The
+extra foliation, embedding, cocycle, state or net must be retained.
+That is a useful structural lesson for the repository's own many
+algebraic realizations. It does not remove those realizations or
+prove that no physical one exists. The paper's explicit conditional
+language is retained alongside its useful construction candidates.
+
+Coverage is now fifteen complete papers, 394 of 448 pages. The last
+file, 0904.1276, is supplied as v5 revised in 2014, not its original
+2009 version. Its first five pages have been read; the remaining
+49 are not yet claimed read. Version dates, not arXiv identifier
+order alone, determine which claims may supersede which others.
 
 ## First checks against the cited primary mathematics
 
