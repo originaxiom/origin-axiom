@@ -41,8 +41,8 @@ will inform that path, not silently replace it.
 | 1709.03314 | 36 | complete, 1--36, including appendices and references |
 | 1801.10419 | 15 | complete, 1--15; printed time expression on 8 visually checked |
 | 1812.08158 | 23 | complete, 1--23; equations on 8/9/19 visually checked |
-| 1112.4882 | 24 | pending |
-| 1211.3012 | 16 | pending |
+| 1112.4882 | 24 | complete, 1--24, including appendix and references |
+| 1211.3012 | 16 | complete, 1--16, including references |
 | 1107.3458 | 35 | pending |
 | 1105.1557 | 18 | pending |
 | 1001.0882 | 31 | pending |
@@ -623,10 +623,174 @@ spinor weights and kinetic normalization must also be kept. Identifying
 a CS exponential directly with a Yukawa coupling would require all
 those data and the physical normalization, not only a decimal match.
 
-Ten supplied papers, totaling 270 of 448 pages, are now fully read.
-Six papers and the completed, cited transfer assessment remain. These
-are direct reading notes and source checks, not a new globally banked
-arc, a numerical recertification or a completed physical transfer.
+At the ten-paper checkpoint, 270 of 448 supplied pages had been fully
+read. These are direct reading notes and source checks, not a new
+globally banked arc, a numerical recertification or a completed
+physical transfer.
+
+## Direct notes: 1112.4882v2 (2012)
+
+Title: *Exotic Smoothness and Quantum Gravity II: exotic R4,
+singularities and cosmology*. All 24 pages, including appendix and
+references, are read. This is the noncompact continuation of the
+2010 path-integral proposal, treating both large exotics from knot
+traces and small exotics from cork/Casson-handle constructions. It
+gives separate formulas for chosen families rather than a proved
+classification or a defined integral over every smooth structure.
+
+The paper retains genuinely useful mathematical inputs: smooth
+Cauchy splitting, knot-trace embedding criteria, cork localization,
+tree-like ends, and the Taubes/Kato analytic references. The claim
+that exotic R4 cannot admit global hyperbolicity is supported by the
+later primary theorem checked below. It must not be withdrawn merely
+because the paper's further physical interpretation is insufficient.
+Conversely, failure of global hyperbolicity is not itself a computation
+of a curvature singularity, a localized matter source or its spectrum.
+The Morse critical points in sections 8--9 require an actual metric
+and causal analysis before being called the physical singularities.
+
+The introductory classification by absence of ANY smoothly embedded
+S3 is too strong: every smooth 4-manifold has coordinate balls and
+their smooth sphere boundaries. Page 7's quoted theorem has the
+essential, narrower statement: no smooth ball containing a specified
+compact set. Pages 6 and 15 infer that because a whole knot trace
+cannot embed, its ball submanifold cannot embed; that restriction
+inference does not follow. The later matter papers' careful surrounding
+compact-set formulation should be used, not discarded with these
+earlier explanatory errors. Large/small smooth embeddability into
+standard R4 is distinct from the existence of a local ball.
+
+The action calculation, pages 8--14, supplies several visible inputs
+that must stay in the input ledger. It selects product metrics, assumes
+equal areas for two different surfaces, drops collar/extrinsic terms,
+and uses Gauss--Bonnet on surfaces with boundary without their boundary
+geodesic curvature term. The distinction between scalar and Gaussian
+curvature also matters. A flat disk has zero bulk curvature while its
+boundary supplies its Euler characteristic; the displayed bulk-only
+formula is therefore not a metric-independent disk identity. A
+topologically flat embedding is not a smooth metric identification
+between exotic and standard pieces. Fixing a Ricci-flat bulk metric
+at the start also needs reconciliation with a later nonzero bulk
+Einstein--Hilbert contribution.
+
+For small exotics the paper chooses a homogeneous cork metric,
+Planck-thickness collar, length scales and a regularization ratio
+sigma. The Casson-tower re-embedding theorem does not select sigma
+as a physical action ratio. Page 13 describes the drilled cork boundary
+as both a nontrivial connected sum and hyperbolic; the topology of
+that join needs checking, rather than assuming hyperbolicity from
+the Whitehead-link piece. The gauge-CS-to-gravity identity again
+requires its Cartan/tetrad data, connection class and common
+normalization. In particular, the displayed CS values use different
+period conventions, which cannot simply be added without conversion.
+
+Section 6 explicitly sets aside measure and convergence difficulties.
+It assumes a product measure and metric-independent exotic term before
+factorizing the path integral. A radial parametrization of an exotic
+family does not prescribe a diffeomorphism-invariant integration
+measure. A Cantor set's cardinality does not justify replacing its
+geometry and weights by ordinary Lebesgue measure on an interval.
+These are substantive additional assumptions, not a constructed
+four-dimensional quantum-gravity partition function. No Fresnel or
+CS numerical formula from this section has been recertified here.
+
+Section 7 has a concrete conditional quantum-field-theory lead: with
+an actual CS theory, appropriate group/level and representation,
+Wilson observables can be related to knot invariants. The required
+gauge invariance and quantization conditions must be established for
+that theory. A chosen geometric scale or a smooth-structure label
+does not by itself establish a discrete spectrum of all area/volume
+operators. Contractibility of a loop does not make the holonomy of a
+curved connection trivial, nor does an un-ordered exponential define
+a general nonabelian Wilson loop.
+
+Sections 8--10 identify topological handles with naked singularities
+and integrated action corrections with a cosmological constant. A
+constant offset to an action is not a cosmological term unless its
+metric variation has the required volume dependence. The chosen
+cosmic region, metric and time interval must be varied consistently.
+A two-handle count is not yet a singularity theorem or a chiral
+fermion count. These qualifications leave the underlying four-manifold
+and end-operator tools available for a properly typed physical model.
+
+## Direct notes: 1211.3012v1 (2012)
+
+Title: *Quantum Geometry and Wild embeddings as quantum states*.
+All 16 pages are read. The supplied arXiv strip says v1, November 13,
+2012; the typesetting header says June 22, 2021. The file hash records
+the exact supplied version. Its route is a wild-complement construction
+to an operator algebra, a classical character/Poisson algebra, a skein
+deformation and a proposed quantum state. The final all-wild-embeddings
+generalization is explicitly conjectural.
+
+The useful part is the explicit algebraic middle of that chain.
+Sections 3.2--3.3 display the invariant bilinear pairing, trace
+gradient, Goldman-type bracket and skein relations. Those can be
+compared to the repo's actual character functions and peripheral
+algebras. This is a stronger starting point than an assertion that
+two constructions have the same von Neumann factor type. The cited
+Goldman/Turaev theorems should be used with their actual free-homotopy,
+coordinate-algebra and deformation conventions. In particular, the
+surface fundamental group is not generally free abelian, and the
+displayed exponential parameter tends to +1 while the stated
+classical identification uses -1. A convention/spin-structure bridge
+must be explicit rather than assuming these are the same map.
+
+The topology in section 2 needs its ambient qualifications. Wildness
+does not contradict Jordan separation; the issue in the horned-sphere
+example is the complement, not the absence of two sides. The
+complements in R3 and S3 have different homology and must not be
+interchanged. Being perfect means generation by products of
+commutators, not that every element of every perfect group is a
+single commutator. The explicit locally free group presentation is
+worth retaining, but claims about that group need that presentation's
+properties, not an implication from perfectness alone. The Hausdorff
+dimension estimate is itself presented as rough and uses a chosen
+self-similarity ratio; it is not a universal dimension of wildness.
+
+Pages 4--7 do not yet specify a usable representation-level dictionary
+from the complement to the proposed convolution algebra. A manifold,
+its discrete fundamental group and a holonomy groupoid have different
+function spaces and convolution measures. Any tubular neighborhood
+or stabilization for a wild subset must be constructed, not assumed
+from the tame normal-bundle case. A loop's group element is not in
+general an idempotent. The construction therefore needs an actual
+map preserving multiplication and the star operation before its
+projectors can be used as observables.
+
+The inference to the hyperfinite II1 factor also needs more than
+infinite conjugacy classes. For an ordinary group von Neumann
+algebra, factoriality and hyperfiniteness are different properties.
+If that regular-group interpretation is intended, the displayed
+nonabelian locally free group requires an amenability check. If a
+different groupoid/representation is intended, it must be supplied.
+The claimed identification must not be accepted or rejected by
+silently switching between those interpretations.
+
+Section 3.4 relates marked-disk skeins to Temperley--Lieb algebras.
+An actual infinite limit requires compatible inclusions, one admissible
+parameter and a positive trace/representation; changing the
+root-of-unity parameter with n is not already such a system. An
+abstract isomorphism of resulting factors would still not identify
+the distinguished loop observables or select a positive normalized
+state. A quantum algebra is not itself a quantum state or its dynamics.
+These are repair tasks, not a rejection of skein quantization.
+
+Page 8 also treats constant curvature as if it made holonomy depend
+only on homotopy. That is a flatness statement, not a consequence of
+nonzero constant curvature. Section 4 repeats the overly strong
+absence of every smooth S3 in an exotic spacetime, again ignoring
+local coordinate spheres. The final quantum-cosmological inference
+additionally assumes an exotic spacetime, a finite initial spatial
+size and the proposed state identification. Neither quantum initial
+conditions nor a physical four-dimensional Hilbert space have been
+transferred from that argument here.
+
+Twelve supplied papers, totaling 310 of 448 pages, are now fully read.
+The remaining four papers total 138 pages. No part of their content
+is claimed read by this coverage statement. The complete cited
+mathematical-transfer assessment is still to be written after the
+remaining direct reads and the load-bearing primary checks.
 
 ## First checks against the cited primary mathematics
 
@@ -674,3 +838,13 @@ incomplete pullback metrics and mere negative scalar/Ricci curvature
 are outside that inference. These two primary checks were accessed
 September 10 local. An alternative requested notes PDF did not return
 usable content and is not counted as read.
+
+[Chernov--Nemirovski, *Cosmic censorship of smooth structures*,
+1201.6070v2](https://arxiv.org/pdf/1201.6070), October 8, 2012, was read
+in full (five pages, outside the supplied archive). Theorem A and
+its proof imply that a contractible globally hyperbolic spacetime is
+standard Euclidean space as a smooth manifold. Theorem B gives a
+separate closed-oriented-three-manifold product result. These support
+the exotic-R4 global-hyperbolicity obstruction, not the further
+identification of Morse handles with curvature singularities or
+particle species. Accessed September 10 UTC.
