@@ -35,7 +35,7 @@ targets are main-side artifacts that exist at the pin and simply are not on this
 | `89affd5b:frontier/B1184_quine_synthesis/FINDINGS.md` | no | yes |
 | `89affd5b:docs/COSMOLOGY_LEDGER.md` | no | yes |
 
-**Why this is a real defect and not a nit.** A reader who checks out `claude/outside-bench` — which
+**Why this is a real defect and not a nit.** A reader who checks out `<seat>/outside-bench` — which
 is what "go read the bench's work" means — and follows a citation hits nothing. Memo 153 is the
 sharpest case: it tells a reader to run `already_banked.py`, **and that file does not exist on the
 branch the memo lives on.** It ran here only because the certificate materialized it from the pin.

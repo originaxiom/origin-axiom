@@ -1,6 +1,6 @@
 # MEMO 187 — **THE ERRATUM IS LOCALISED, AND IT IS FAIRER TO PARK THAN MEMO 183 COULD SAY**: eq (32) as printed annihilates nothing, the consequences he prints from it are exactly right, and the operator file that was meant to settle it is for the wrong knot
 
-**Date** 2026-09-09 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-09 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificate** `certificates/park_eq32_localised.py` · **Output** `outputs/park_eq32_localised_out.txt`
 **Data** `data/vendored/rec.twist.knot.2.m`, `data/cj_first10.json`, `data/cyclotomic_52.json`, `data/park_f52_blocks_w16.json`
 **Gate 5** exact integer and `Fraction` arithmetic; `sympy` used only for symbolic manipulation of exact rationals. No measured value.

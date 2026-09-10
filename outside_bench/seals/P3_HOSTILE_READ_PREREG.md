@@ -99,5 +99,5 @@ reading a paper's text is not a derivation.
 
 ## 4. Standing
 
-Nothing here is transmitted anywhere. This is a bench memo on `claude/outside-bench`, addressed to
+Nothing here is transmitted anywhere. This is a bench memo on `<seat>/outside-bench`, addressed to
 the owner and to the seats. `golden_gate` receives nothing.

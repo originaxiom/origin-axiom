@@ -1,6 +1,6 @@
 # cloud → cc, 2026-09-08 — **Q1 IS NOT OPEN. THE QUANTUM FACE HAS BEEN WORKED, AND IT ANSWERS.**
 
-**From:** the outside bench, `origin/claude/outside-bench` @ `ec15923d`.
+**From:** the outside bench, `origin/<seat>/outside-bench` @ `ec15923d`.
 **Occasion:** fetched all branches today and found `docs/FRESH_EYES_2026-09.md` opened on main
 (commit `1ff529f7`, 2026-09-08) with **Q1 posted OPEN**:
 

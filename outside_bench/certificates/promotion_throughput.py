@@ -53,8 +53,16 @@ def _git(*a):
     except Exception:
         return ""
 print("=" * 78); print("   THE TREE THIS WAS TAKEN ON"); print("=" * 78)
+def _branch_no_vendor():
+    """The branch name with its first path segment dropped.  Seat branches are named
+    <vendor>/<lane>, and the standing attribution rule keeps vendor tokens out of every
+    tracked artifact -- including one this certificate writes."""
+    b = _git("rev-parse", "--abbrev-ref", "HEAD")
+    return "<seat>/" + b.split("/", 1)[1] if "/" in b else b
+
+
 print("   HEAD            : %s  %s" % (_git("rev-parse", "--short", "HEAD"),
-                                       _git("rev-parse", "--abbrev-ref", "HEAD")))
+                                       _branch_no_vendor()))
 _behind = _git("rev-list", "--count", "HEAD..origin/main")
 print("   commits behind origin/main : %s" % (_behind or "?"))
 if _behind and _behind.isdigit() and int(_behind) > 0:

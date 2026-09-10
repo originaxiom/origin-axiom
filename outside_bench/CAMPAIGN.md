@@ -1,5 +1,5 @@
 # THE CONTRIBUTION CAMPAIGN — what the outside bench can compute next, ranked
-## (2026-08-25; produced by a multi-agent survey — 3 haiku extraction lanes over the corpus's own status surfaces (OPEN_LEADS, CLOSED_DOORS, THE_ROAD, WORKING_RULES, the bench's CLOSE_OUT) + 4 sonnet proposal lanes (Lie-structure, topology/holonomy, analytic/number-theoretic, verification-debts) + 1 sonnet synthesis — then re-ranked by this bench. 40 open items surveyed; every dead/killed route excluded by name. Full per-cell details incl. preregistered two-outcome framings: `CAMPAIGN_CELLS.json`.)
+## (2026-08-25; produced by a multi-agent survey — 3 haiku extraction lanes over the corpus's own status surfaces (OPEN_LEADS, CLOSED_DOORS, THE_ROAD, WORKING_RULES, the bench's CLOSE_OUT) + 4 hired-agent proposal lanes (Lie-structure, topology/holonomy, analytic/number-theoretic, verification-debts) + 1 hired-agent synthesis — then re-ranked by this bench. 40 open items surveyed; every dead/killed route excluded by name. Full per-cell details incl. preregistered two-outcome framings: `CAMPAIGN_CELLS.json`.)
 
 ## THE ZOOM-OUT (what this bench sees, looking at the whole record at once)
 The deepest single pattern of the record is now visible as a pattern: **the beat — the

@@ -1,8 +1,8 @@
 # OUTSIDE BENCH — the cloud seat's lane inside the corpus repo
-## Branch `claude/outside-bench` (never `main`: the outside bench WRITES, the banking seat INTEGRATES — the locks/registry/gates stay the seat's). One directory per discipline: `memos/` (banked-grade write-ups), `certificates/` (standalone, `__file__`-relative, self-contained scripts — python3 + sympy), `outputs/` (raw stdout, one per certificate).
+## Branch `<seat>/outside-bench` (never `main`: the outside bench WRITES, the banking seat INTEGRATES — the locks/registry/gates stay the seat's). One directory per discipline: `memos/` (banked-grade write-ups), `certificates/` (standalone, `__file__`-relative, self-contained scripts — python3 + sympy), `outputs/` (raw stdout, one per certificate).
 
 **Provenance.** Continuation of the golden_gate record (branch
-`claude/paper-hostile-review-alero0` of `originaxiom/golden_gate` — memos 1–29, the
+`<seat>/paper-hostile-review-alero0` of `originaxiom/golden_gate` — memos 1–29, the
 close-out, the 46/46 verification sweep, the corpus adoption audit; fetch it directly,
 reachability is solved). Memo numbering continues from there. Corpus sync 2026-08-25 (owner-conveyed; to verify from main when B1143-B1145 land):
 audit reconciled as B1144 (all four points accepted; both spurious errata withdrawn,
@@ -18,7 +18,7 @@ NOT-RECOGNIZED at this depth; raw ladder banked for continuation — see
 COMPUTE_HANDOFF_CC.md status block); C4 still grinding. **B1146 (SEAM-B) converges with
 this lane's lock**: its discriminating ρ(−I) = (−1)^wt on the 27 IS C_27 (memos 46/50/51)
 — convergence addendum filed in memo 51; codex §9 defused on the seat's bench. cc3 flags
-`claude/outside-bench` divergent vs the codeberg mirror — owner authorization for the
+`<seat>/outside-bench` divergent vs the codeberg mirror — owner authorization for the
 fast-forward filed as BRANCH_MIRROR_NOTE.md (this seat cannot reach codeberg). Corpus sync
 2026-08-26b (verified from main @ fe02ade5): **B1153 harvested memos 54–55**
 (reproduce-verified 2/2, memo 54 sympy-confirmed; codex Wave-3 corrections adopted into

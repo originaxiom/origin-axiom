@@ -1,6 +1,6 @@
 # MEMO 184 — **THE COLORED JONES TAIL OF `m(5₂)` IS A FALSE THETA**, so the ceiling on `c_eff` is knot-specific as a measurement, and memo 177's mechanism gets the test it asked for
 
-**Date** 2026-09-08 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-08 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificate** `certificates/tail_52.py` · **Output** `outputs/tail_52_out.txt`
 Blocks from `certificates/park_large_color.py` (memo 183 addendum 1).
 **Gate 5** exact Laurent and integer arithmetic; floats appear only in the growth measurement.

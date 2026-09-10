@@ -1,6 +1,6 @@
 # MEMO 189 — **THE CHECK BUILT TO CATCH RUSTED INSTRUMENTS HAS ITSELF GONE BLIND**: it sees 2 arcs out of 152 that carry exactly the structure it was written to watch
 
-**Date** 2026-09-09 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-09 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificate** `certificates/instrument_coverage.py` · **Output** `outputs/instrument_coverage_out.txt`
 **Gate 5** pure counting over the repository. No measured physical value.
 
@@ -109,7 +109,7 @@ have wanted and nobody has.
 
 ## ADDENDUM 1 (2026-09-09) — **re-measured on `main`: the finding stands and was UNDERSTATED**
 
-The body was measured on `claude/outside-bench`, **126 commits behind `origin/main`** (the
+The body was measured on `<seat>/outside-bench`, **126 commits behind `origin/main`** (the
 staleness that forced memo 188 addendum 2's withdrawal). Re-run against `origin/main` at
 `b94ed03a`:
 

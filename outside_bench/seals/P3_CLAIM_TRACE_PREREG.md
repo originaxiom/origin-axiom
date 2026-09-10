@@ -80,4 +80,4 @@ No measured SM value enters any computation. This cell reads text and compares t
 
 ## 5. Standing
 
-Nothing is transmitted. Bench memo on `claude/outside-bench`. `golden_gate` receives nothing.
+Nothing is transmitted. Bench memo on `<seat>/outside-bench`. `golden_gate` receives nothing.

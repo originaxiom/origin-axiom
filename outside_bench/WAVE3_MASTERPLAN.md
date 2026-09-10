@@ -11,7 +11,7 @@ probes — the rest is retargeted below.
 **Standing rules (unchanged):** every claim verified by exact computation
 before claiming; preregistered two-outcome cells; errors filed at point of
 occurrence; CITED never load-bearing; Gate 5 untouched; hired agents (if a
-workflow fires) run Sonnet/Haiku only; the bench re-runs in-lane before
+workflow fires) run the two cheaper hired tiers only; the bench re-runs in-lane before
 banking. Owner directive in force (forced-vs-observed contradiction =
 thesis-failure signal; "not forced" prices the bit, contradicts nothing).
 
@@ -189,7 +189,7 @@ vendor → byte-identical in-lane rerun → memo → INDEX row; errors filed
 at point of occurrence; corpus fetch after each banking batch (cc's W₀
 workflow is running — its outcome may retarget ME3 mid-wave, and B1162's
 review may land corrections to adopt). If fired as a multi-agent
-workflow: Sonnet drafters + adversarial verifiers, Haiku triage, bench
+workflow: hired drafters + adversarial verifiers, cheap-tier triage, bench
 re-runs and banks — the wave-2 loop (memos 62–69) unchanged.
 
 **What wave-3 does NOT do:** decide the observer-coupling thesis (§A is

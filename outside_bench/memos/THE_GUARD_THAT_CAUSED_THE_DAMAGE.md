@@ -1,6 +1,6 @@
 # 193 — THE GUARD THAT CAUSED THE DAMAGE
 
-**2026-09-09. Branch `claude/outside-bench`, at `origin/main` = `b94ed03a` (0 behind).**
+**2026-09-09. Branch `<seat>/outside-bench`, at `origin/main` = `b94ed03a` (0 behind).**
 Occasion: the owner's instruction — *"please fix all u can so cc can see and harvest them"* —
 after the full-suite run on a clean `main` left twelve red tests.
 
@@ -250,7 +250,7 @@ equivariance computation, which is what the seven red tests are about.*
 
 **2026-09-09, second fetch.** Occasion: the owner's *"refetch codex seat again"*.
 Addendum 1 read `833b939b`; the seat is now at **`2cac82b9`**, three commits further, and a
-**new branch appeared**: `claude/paper-verification-ufp0zn` @ `8dac820e`.
+**new branch appeared**: `<seat>/paper-verification-ufp0zn` @ `8dac820e`.
 
 ## 1. The codex seat banked, and the banking is honest
 
@@ -281,7 +281,7 @@ route memo 192 took, reaching the same conclusion independently.
 
 ## 2. A second seat found this bench's defect, the same day, without contact
 
-`claude/paper-verification-ufp0zn` @ `8dac820e` is an independent re-derivation of THE
+`<seat>/paper-verification-ufp0zn` @ `8dac820e` is an independent re-derivation of THE
 PAPER's checkable claims. Buried at the end of its message:
 
 > *"Separately, `c_e8_types.py` carried a literal `<repo>` placeholder and could never run;

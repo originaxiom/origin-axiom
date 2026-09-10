@@ -1,6 +1,6 @@
 # MEMO 185 — **THE NAIVE CYCLOTOMIC ROUTE TO `f_K` IS CLOSED, BY COMPUTATION**, and a route this bench floated one message earlier is withdrawn before it cost anything
 
-**Date** 2026-09-09 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-09 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificate** `certificates/cyclotomic_vs_fk.py` · **Output** `outputs/cyclotomic_vs_fk_out.txt`
 **Gate 5** exact integer and `Fraction` arithmetic throughout. No measured value of any kind.
 

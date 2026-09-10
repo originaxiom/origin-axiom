@@ -1724,7 +1724,7 @@ generalise to the operator**, which is genuinely external data and genuinely dec
 `Apoly.15.11.txt` + `CJ22_rec.m` + `CJ22.txt` from the double-twist page; (3) arXiv:2106.03942;
 (4) the real `CJTwist.2`.
 
-**Repo state:** branch `claude/outside-bench`, both trees clean, 0 commits ahead of origin, every
+**Repo state:** branch `<seat>/outside-bench`, both trees clean, 0 commits ahead of origin, every
 certificate in this arc re-verified to run from a fresh container after today's restart.
 
 ---
@@ -2013,7 +2013,7 @@ Its own dependency run is **red and committed red**: 7 failures, one cause —
 `holonomy_equivariance.py:114`, `ValueError: no explicit original-to-canonical combinatorial
 basis bridge`. Per **R80-1** that is a receipt about the state of that branch, nothing more.
 
-**SM-derivation seat** `claude/standard-model-derivation-0qt6ao`: has read this bench —
+**SM-derivation seat** `<seat>/standard-model-derivation-0qt6ao`: has read this bench —
 `79b353a7` registers memos 185–189 — and notes codex unchanged since R040, which the two
 commits above now make stale. Live work is B1355 and **L212**: with b₂ = 1 Witten's sum rule
 forces the three 27s' U(1) charges to sum to zero, so a symmetric triple needs b₂ ≥ 2.
@@ -2070,7 +2070,7 @@ identified here. **My reading of their red tests is confirmed by their own ledge
 `CHIRALITY_REFRESH.md` corrects B1355's A-type-only exclusion from **Acharya–Witten §2.3 read
 directly** — the same primary-source route memo 192 took, independently.
 
-**A new seat: `claude/paper-verification-ufp0zn` @ `8dac820e`**, an independent re-derivation of
+**A new seat: `<seat>/paper-verification-ufp0zn` @ `8dac820e`**, an independent re-derivation of
 THE PAPER. It found **this bench's `<repo>` defect** the same day, without contact —
 *"c_e8_types.py carried a literal `<repo>` placeholder and could never run"*. **Two seats, same
 day, same defect.** The delta is size: it fixed one file; the sweep here found the same defect

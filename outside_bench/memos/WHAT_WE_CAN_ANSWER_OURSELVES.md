@@ -1,6 +1,6 @@
 # MEMO 191 — **F190-2: two thirds of Q11 are decidable from what this bench already holds**, and `c_eff = 1` turns out to be forced by the *shape* of `Ẑ`, not by our knot
 
-**Date** 2026-09-09 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-09 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificate** `certificates/zhat_unred_ceff.py` · **Output** `outputs/zhat_unred_ceff_out.txt`
 **Gate 5** exact integer series; floats only in the growth fit. No measured physical value.
 

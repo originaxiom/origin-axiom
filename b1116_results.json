@@ -223,9 +223,9 @@
   "note": "both methods agree to within ~10^-70 or better across the whole range (dps=100 working precision); difference grows very slowly with N as expected from O(N) accumulated rounding in the complex path."
  },
  "timing": {
-  "dense_range_seconds": 1.335,
-  "sparse_tail_seconds": 10.839,
-  "total_seconds": 22.592
+  "dense_range_seconds": 1.329,
+  "sparse_tail_seconds": 10.706,
+  "total_seconds": 22.432
  },
  "J_N_table_sample": [
   {

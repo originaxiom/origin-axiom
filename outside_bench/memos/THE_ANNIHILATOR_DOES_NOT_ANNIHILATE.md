@@ -1,6 +1,6 @@
 # MEMO 183 — **THE QUANTUM A-POLYNOMIAL PRINTED FOR `m(5₂)` DOES NOT ANNIHILATE THE SERIES IT IS PRINTED TO ANNIHILATE**
 
-**Date** 2026-09-08 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-08 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificate** `certificates/park_ahat_erratum.py` · **Output** `outputs/park_ahat_erratum_out.txt`
 **Gate 5** exact integer / `Fraction` arithmetic throughout. No measured value enters. Every
 published series appears **only** as a comparison target for something computed first.

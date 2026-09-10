@@ -127,7 +127,7 @@ is maximally falsifiable, not a faith payment; (iii) memo 92/93 certify
 the choice costs NOTHING from the observer column — among all premises
 on the ledger this is the only one with a banked zero-cost certificate.
 Insight (interpretive, labeled): the premise is weaker than an
-anthropic principle — it does not select among worlds, it selects among
+observer-selection principle — it does not select among worlds, it selects among
 DESCRIPTIONS, and the record itself already banks three resolved
 generations as object structure; what the premise adds is only that the
 description physics uses is one where that resolution is visible.

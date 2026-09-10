@@ -1,6 +1,6 @@
 # MEMO 188 — **THE VIEW FROM ABOVE**: the programme's characteristic failure is not error, it is entropy in its own instruments — and the census that shows it also shows the corpus compounds more than it looks
 
-**Date** 2026-09-09 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-09 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificate** `certificates/corpus_census.py` · **Output** `outputs/corpus_census_out.txt`
 **Gate 5** pure counting over the repository. No measured physical value.
 
@@ -205,7 +205,7 @@ paragraph, because §3 was the memo's most-quoted number and it is wrong.**
 
 ### What happened
 
-The census in §3 was run on `claude/outside-bench`, which was **126 commits behind `origin/main`**
+The census in §3 was run on `<seat>/outside-bench`, which was **126 commits behind `origin/main`**
 — 74 arcs light. Re-run against `origin/main` at `b94ed03a`:
 
 ```
@@ -251,7 +251,7 @@ how far behind this one was. The audit paid for itself before it started.)*
 # ADDENDUM 3 — THE SECOND INSTANCE FALLS, FOR THE SAME REASON. THE PATTERN RESTS ON TWO.
 
 **2026-09-09, on a tree 0 commits behind `origin/main`** (`ccf30e6f`, branch
-`claude/outside-bench`).
+`<seat>/outside-bench`).
 
 §5 named **four** instances of "entropy in the programme's own instruments". Addendum 2
 withdrew the first. **The second falls now, and it falls the same way.**

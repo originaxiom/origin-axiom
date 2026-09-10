@@ -1,6 +1,6 @@
 # MEMO 190 — **MEMO 183 ADDENDUM 4's BLOCKER IS BROKEN**: `f₆, f₇, f₈, …` for `m(5₂)`, by Park's inverted Habiro route, with every step checked against something this bench already owned
 
-**Date** 2026-09-09 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-09 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificate** `certificates/f52_beyond_f5.py` · **Output** `outputs/f52_beyond_f5_out.txt`
 **Data** `data/f52_blocks_beyond.json` · **Gate 5** exact `Fraction` arithmetic. No measured value.
 

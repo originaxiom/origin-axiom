@@ -1,6 +1,6 @@
 # MEMO 192 — **BOTH TIER-1 SOURCES ARRIVE**: the cross-seat dispute is settled in the other seat's favour, with a caveat they should have; and the primary source *partially reopens* what memo 191 closed
 
-**Date** 2026-09-09 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-09 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificate** — the checkable parts are verified inline in `outputs/tier1_checks_out.txt`
 **Gate 5** exact symbolic arithmetic. No measured value. §1 is a reading of a primary source, labelled as such.
 

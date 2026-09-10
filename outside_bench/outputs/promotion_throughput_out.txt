@@ -1,7 +1,7 @@
 ==============================================================================
    THE TREE THIS WAS TAKEN ON
 ==============================================================================
-   HEAD            : ccf30e6f  claude/outside-bench
+   HEAD            : cd582111  <seat>/outside-bench
    commits behind origin/main : 0
 
 ==============================================================================
@@ -81,7 +81,7 @@ demonstrated the batch.  Running it again is the same apparatus at roughly thirt
 rate, and its first target list was written by the audit itself and is still 6/7 unclaimed.
 
 One more thing the numbers say in passing, and it belongs with memo 188's main pattern:
-PROGRESS_LOG.md's last dated section is 2026-09-09 (today).  The log that GOVERNANCE section 5
+PROGRESS_LOG.md's last dated section is 2026-09-09 (1 day ago).  The log that GOVERNANCE section 5
 requires every status change to be written into is current.
 The earlier reading of this as an instance of the entropy pattern DOES NOT HOLD on this
 tree: the log is being fed.

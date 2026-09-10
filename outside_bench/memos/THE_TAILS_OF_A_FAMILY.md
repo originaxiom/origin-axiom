@@ -1,6 +1,6 @@
 # MEMO 186 — **THE FENCE GOES FROM 7 COEFFICIENTS TO 52, ON FOUR KNOTS**, five tails identified in closed form, and the false/genuine theta split turns up inside a single one-parameter family
 
-**Date** 2026-09-09 · **Lane** outside bench · **Branch** `claude/outside-bench`
+**Date** 2026-09-09 · **Lane** outside bench · **Branch** `<seat>/outside-bench`
 **Certificates** `certificates/cj_table_ingest.py` (identification + controls) ·
 `certificates/tail_tables.py` (the measurement)
 **Outputs** `outputs/cj_table_ingest_out.txt` · `outputs/tail_tables_out.txt`

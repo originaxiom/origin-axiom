@@ -88,7 +88,11 @@ for cid, sec, claim, q in CLAIMS:
     cand = retrieve(toks(q))
     out[cid] = dict(section=sec, claim=claim, candidates=[
         dict(arc=c[2], verdict=c[3], overlap=c[1], text=c[4]) for c in cand])
-json.dump(out, open("/tmp/claude-0/-home-user-golden-gate/7aec077f-59a6-5129-b1a7-361cc5dcb800/scratchpad/trace_candidates.json","w"), indent=1)
+# repo-relative, and inside the lane: the previous path was one session's scratch
+# directory, which no other bench has and which carried a vendor token besides.
+_OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "outputs",
+                    "trace_candidates.json")
+json.dump(out, open(os.path.normpath(_OUT), "w"), indent=1)
 print(f"claims extracted: {len(CLAIMS)}   candidates written")
 nohit = [c for c in out if not out[c]["candidates"]]
 print(f"claims with ZERO mechanical candidates: {len(nohit)} {nohit}")
