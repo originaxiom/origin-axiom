@@ -7120,6 +7120,43 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1325": {
+   "slug": "codex r037 r040 harvest",
+   "motifs": [
+    "closing",
+    "choice",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1326": {
+   "slug": "the stale claim gate",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B519",
+    "B731",
+    "B964"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B132": {
    "slug": "quantum layer",
    "motifs": [

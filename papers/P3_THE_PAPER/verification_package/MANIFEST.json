@@ -1,15 +1,15 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-09-09T11:22:42Z",
+ "built": "2026-09-10T21:28:17Z",
  "environment": {
-  "python": "3.12.1",
-  "platform": "macOS-15.1-x86_64-i386-64bit",
+  "python": "3.11.15",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
   "snappy": "3.3.2",
   "sympy": "1.14.0",
   "mpmath": "1.3.0",
-  "numpy": "2.4.0",
-  "flint": "0.9.0",
-  "git_head": "abb16e85"
+  "numpy": "2.4.6",
+  "flint": "not importable (ModuleNotFoundError)",
+  "git_head": "778fc0f7"
  },
  "claims": [
   {
@@ -608,9 +608,7 @@
      "results": [
       "frontier/B1321_l205_the_siblings_localized_count/verification/already_banked_at_seal.txt",
       "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_class_search.json",
-      "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_class_search.out",
-      "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_m202_count.json",
-      "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_m202_count.out"
+      "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_m202_count.json"
      ],
      "locks": [
       "tests/test_b1321_l205_the_siblings_localized_count.py"
@@ -664,14 +662,10 @@
      ],
      "results": [
       "frontier/B1295_the_caveat_closed_by_computation/verification/census_fixed_points.json",
-      "frontier/B1295_the_caveat_closed_by_computation/verification/census_fixed_points.out",
       "frontier/B1295_the_caveat_closed_by_computation/verification/cover_scan.json",
-      "frontier/B1295_the_caveat_closed_by_computation/verification/cover_scan.out",
       "frontier/B1295_the_caveat_closed_by_computation/verification/cusp_coefficient.json",
-      "frontier/B1295_the_caveat_closed_by_computation/verification/cusp_coefficient.out",
       "frontier/B1295_the_caveat_closed_by_computation/verification/harmonic_generator.json",
-      "frontier/B1295_the_caveat_closed_by_computation/verification/law_outofsample.json",
-      "frontier/B1295_the_caveat_closed_by_computation/verification/law_outofsample.out"
+      "frontier/B1295_the_caveat_closed_by_computation/verification/law_outofsample.json"
      ],
      "locks": [
       "tests/test_b1295_the_caveat_closed_by_computation.py",
@@ -710,8 +704,7 @@
      ],
      "results": [
       "frontier/B1320_phase2_arc0_pw_count/verification/already_banked_at_seal.txt",
-      "frontier/B1320_phase2_arc0_pw_count/verification/b1320_arc0_pw_count.json",
-      "frontier/B1320_phase2_arc0_pw_count/verification/b1320_arc0_pw_count.out"
+      "frontier/B1320_phase2_arc0_pw_count/verification/b1320_arc0_pw_count.json"
      ],
      "locks": [
       "tests/test_b1306_the_older_debt.py",
@@ -840,7 +833,6 @@
       "frontier/B1297_the_spectral_cover_index/verification/census.json",
       "frontier/B1297_the_spectral_cover_index/verification/cover_presentation.json",
       "frontier/B1297_the_spectral_cover_index/verification/live_scan.json",
-      "frontier/B1297_the_spectral_cover_index/verification/live_scan.out",
       "frontier/B1297_the_spectral_cover_index/verification/table.json"
      ],
      "locks": [
@@ -874,9 +866,7 @@
      "results": [
       "frontier/B1299_the_period_2_duality/verification/b1299_subregular.json",
       "frontier/B1299_the_period_2_duality/verification/b1299_w1w2_main.json",
-      "frontier/B1299_the_period_2_duality/verification/b1299_w1w2_main.out",
       "frontier/B1299_the_period_2_duality/verification/b1299_w1w2_main_run.txt",
-      "frontier/B1299_the_period_2_duality/verification/b1299_w1w2_main_unpolished.out",
       "frontier/B1299_the_period_2_duality/verification/sm_b1280_chirality_probe_w1w2_rerun.txt"
      ],
      "locks": [
@@ -916,7 +906,6 @@
      "results": [
       "frontier/B1322_l204_verified/verification/already_banked_at_seal.txt",
       "frontier/B1322_l204_verified/verification/b1322_l204_verify.json",
-      "frontier/B1322_l204_verified/verification/b1322_l204_verify.out",
       "frontier/B1322_l204_verified/verification/cloud_memo183_park_ahat_repair_rerun.txt",
       "frontier/B1322_l204_verified/verification/cloud_memo183_park_repair_cannot_close_rerun.txt",
       "frontier/B1322_l204_verified/verification/sm_B1350_report_hp_rerun.txt"
@@ -962,15 +951,10 @@
      ],
      "results": [
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_centraliser.json",
-      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_centraliser.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_dt.json",
-      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_dt.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_fcnc.json",
-      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_fcnc.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_tower.json",
-      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_tower.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_zprime.json",
-      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_zprime.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/chat1_check_relay_rerun.txt",
       "frontier/B1303_the_sm_closings_z_prime/verification/main_b1103_being_gate_rerun.txt",
       "frontier/B1303_the_sm_closings_z_prime/verification/main_b1140_spacetime64_rerun.txt",
@@ -1065,11 +1049,8 @@
      "results": [
       "frontier/B1323_the_genesis_upgrades/verification/rule_lines.txt",
       "frontier/B1323_the_genesis_upgrades/verification/u1_substrate_count.json",
-      "frontier/B1323_the_genesis_upgrades/verification/u1_substrate_count.out",
       "frontier/B1323_the_genesis_upgrades/verification/u2_criterion_census.json",
-      "frontier/B1323_the_genesis_upgrades/verification/u2_criterion_census.out",
-      "frontier/B1323_the_genesis_upgrades/verification/u3_dictionary.json",
-      "frontier/B1323_the_genesis_upgrades/verification/u3_dictionary.out"
+      "frontier/B1323_the_genesis_upgrades/verification/u3_dictionary.json"
      ],
      "locks": [
       "tests/test_b1323_the_genesis_upgrades.py"
@@ -1110,17 +1091,11 @@
      ],
      "results": [
       "frontier/B1324_arc_b_and_the_dictionary/verification/a_arc_b_census.json",
-      "frontier/B1324_arc_b_and_the_dictionary/verification/a_arc_b_census.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_on_chiral_covers.json",
-      "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_on_chiral_covers.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_tol1e-5.json",
-      "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_tol1e-5.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_tol1e-9.json",
-      "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_tol1e-9.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/c_dictionary.json",
-      "frontier/B1324_arc_b_and_the_dictionary/verification/c_dictionary.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/d_four_records.json",
-      "frontier/B1324_arc_b_and_the_dictionary/verification/d_four_records.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/rule_lines.txt"
      ],
      "locks": [
