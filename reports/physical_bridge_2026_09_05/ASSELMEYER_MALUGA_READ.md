@@ -35,9 +35,9 @@ will inform that path, not silently replace it.
 | 1601.06436 | 52 | complete, 1--52, including appendices; equations on 29/33 visually checked |
 | 1502.02087 | 27 | complete, 1--27, including appendices |
 | 1006.2230 | 32 | complete, 1--32, including appendices |
-| 1003.5506 | 16 | pending |
-| 1401.4816 | 21 | pending |
-| 1811.04464 | 11 | pending |
+| 1003.5506 | 16 | complete, 1--16, including appendices and references |
+| 1401.4816 | 21 | complete, 1--21; compared boundary argument with 1502.02087 |
+| 1811.04464 | 11 | complete, 1--11, including final figure-availability page |
 | 1709.03314 | 36 | pending |
 | 1801.10419 | 15 | pending |
 | 1812.08158 | 23 | pending |
@@ -318,3 +318,139 @@ are retained. References lead to several papers elsewhere in the
 supplied archive; their full bodies are still to be read before the
 overall transfer verdict. No 4D chirality, quantum gravity, collapse
 time or cosmological prediction is adopted from this review.
+
+## Direct notes: 1003.5506v1 (2010)
+
+Title: *Exotic Smoothness and Quantum Gravity*. All 16 pages are read.
+The paper explicitly separates a proposed sum over smooth structures
+from an assumed existing integral over geometries. Its section 2
+excludes questions of path-integral definition and signature. Conjecture
+5.1 assumes all exotic K3 structures arise by knot/link surgery. Thus
+the resulting state sum is not presented with a defined gravitational
+measure, and the conjecture must not be imported as a classification.
+
+The concrete reusable construction is again Fintushel--Stern surgery.
+Page 5 itself qualifies its initial broad nontrivial-knot claim by the
+Alexander-polynomial detector's limitations and examples sharing the
+same Seiberg--Witten data. It also retains the knot/mirror equivalence
+of the resulting smooth 4-manifolds. Summing over knot labels therefore
+requires checking multiplicities even after quotienting mirrors; the
+map from knots to smooth structures is not proved bijective here.
+
+The proposed action change, pages 6--8, fixes a metric on one piece
+and uses a product metric on the replacement piece. Intrinsic flatness
+of a boundary T3 does not make its extrinsic GHY contribution vanish.
+A smooth metric join, its collar contribution and the off-shell measure
+are additional duties. The replacement of the 3D gravity action by
+CS must retain the tetrad/connection and real-form conventions, not
+identify every such functional with the ordinary Levi--Civita CS number.
+
+Pages 9--13 explicitly choose units for the circle and torus, then use
+normalized hyperbolic volume in the expectation value. A topological
+volume in curvature-minus-one units is useful, but does not select
+the physical length scale. The subsequent area-quantization argument
+needs a correctly normalized gauge-invariant CS phase and allowed level;
+a coefficient chosen from geometric lengths is not already such a
+level. The printed Whitehead-link volume correction subtracts one
+unit after stating that two torus neighborhoods are removed: retain
+the actual link-surgery construction and normalization before reusing
+that formula. No numerical rerun of that example is claimed.
+
+Appendix B has the same minimum-CS-to-Levi--Civita assertion as the
+later matter paper. Flat gauge critical points, a metric's gravitational
+connection and an instanton interpolation with chosen endpoints must
+be distinguished. Section 6's boundary character/skein route is the
+most concrete quantum-observable lead, not yet a defined 4D gravity
+path integral or a derived chiral matter sector.
+
+## Direct notes: 1401.4816v1 (2014, with Brans)
+
+Title: *Gravitational sources induced by exotic smoothness and fermions
+as knot complements*. All 21 pages, including appendices, are read.
+This earlier presentation of the 2015 matter route includes an
+end-periodic construction and the same selected chiral spinor column.
+The constant-normal extension is not a normalizable localized mode
+calculation; the physical source and domain questions remain.
+
+There is an important development between the supplied papers, not
+just a repeated argument. The 2014 paper's pages 17--18 say two
+interface GHY terms fail to cancel when the interface has no
+orientation-reversing self-diffeomorphism. The cancellation for a
+smooth common metric uses opposite outward normals on the two sides,
+not amphichirality of the interface. The 2015 paper instead displays
+the opposite-sign decomposition on page 12 and on pages 21--22
+compares neighborhoods after choosing equal bulk actions. These later
+pages were re-read directly for the comparison. Its later, different
+assumptions must be audited on their own; the 2014 defect is not a
+blanket rejection of the 2015 argument or all boundary spinor methods.
+
+Other checks before transfer: pages 8--10 pass from general link
+surgery to a one-knot/solid-torus description without the needed
+restriction on the 3-manifold. Page 12 treats the variable H in
+D phi = H phi as a constant eigenvalue and then treats combinations
+of eigenspinors as combinations of mean curvatures. This does not
+follow from the linear spectral theorem with fixed metric and operator.
+Pages 13--14 promote a constrained geometric spinor action to a free
+four-dimensional action, while choosing one chiral component. Pages
+15--17 use a geon configuration-space spin argument and a dust scaling
+claim; neither supplies the charged, normalizable internal-mode index
+of R18/R19. Appendix C explicitly retains a Hubble-dependent critical
+density in its total energy, so metric rigidity alone does not prove
+that entire energy constant. These are specific transfer duties.
+
+## Direct notes: 1811.04464v1 (2018)
+
+Title: *Hyperbolic groups, 4-manifolds and Quantum Gravity*. All 11 PDF
+pages are read; page 11 is an arXiv figure-availability notice. The
+paper's additional useful lead is Morgan--Shalen compactification:
+diverging representation sequences can have projectively rescaled
+length-function limits described by group actions on real trees.
+That is a potential tool for organizing degenerating character data.
+It does not by itself prove a physical drop from four dimensions to
+two, a limit of Einstein actions, or a nonsingular black-hole metric.
+
+The account moves from hyperbolic pieces in a JSJ description to the
+whole assembled manifold being hyperbolic; that implication requires
+an argument. A flat Cartan holonomy, a Levi--Civita holonomy and a
+representation with diverging traces are not the same curvature
+observable. Section 5's physical large-curvature interpretation needs
+a metric family and a rescaling prescription linked to the dynamics.
+Those cannot be supplied just by a projective length compactification.
+
+Sections 2--4 also need an actual algebra map. The group construction,
+its chosen representation/closure, a Temperley--Lieb inductive system
+and a positive state cannot be identified solely because a factor type
+is asserted for both. The inference from infinite conjugacy classes
+to hyperfiniteness needs more than factoriality. The Jones--Wenzl
+root-of-unity truncation, consistent parameter and positive trace must
+be retained when discussing a limit over all n. A skein element is
+not automatically a normalized positive functional. No quantum state,
+unitary 4D theory or physical dimensional reduction is adopted here.
+
+Seven supplied papers, totaling 196 of 448 pages, are now fully read.
+The other nine papers and the completed transfer assessment remain.
+
+## First checks against the cited primary mathematics
+
+[Friedrich, dg-ga/9712021v1](https://arxiv.org/pdf/dg-ga/9712021),
+sections 2--3 and Theorem 1, was consulted directly after the matter
+papers. Proposition 2 starts with a parallel ambient spinor and a
+specified Clifford recombination of its restriction. Remark 2 retains
+the normal derivative for a general spinor. Theorem 1 requires constant
+nonzero length and gives an immersion of the universal cover; descent
+involves periods. It treats H as a smooth function, not necessarily
+a spectral constant. This verifies useful spinorial geometry while
+restricting the proposed physical transfer; it supplies no charged
+4D three-family index. Relevant passages, not the whole primary paper,
+were read in this first check.
+
+[Frohman--Gelca, math/9806107v1](https://arxiv.org/pdf/math/9806107),
+introduction and Theorem 2 with its proof, were consulted directly.
+The theorem gives a specific algebra isomorphism from the torus skein
+algebra to the inversion-invariant subalgebra of the quantum torus,
+with a Chebyshev-threaded slope mapped to the sum of two opposite
+quantum-torus monomials. This is a concrete boundary-algebra map to
+compare, not merely a shared factor label. A physical representation,
+positive state and identification of the deformation parameter remain
+additional tasks. The whole paper and its other theorems have not yet
+been claimed read. Both primary checks were accessed September 9 UTC.
