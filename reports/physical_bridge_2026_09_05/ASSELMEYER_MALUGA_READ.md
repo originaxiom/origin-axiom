@@ -38,9 +38,9 @@ will inform that path, not silently replace it.
 | 1003.5506 | 16 | complete, 1--16, including appendices and references |
 | 1401.4816 | 21 | complete, 1--21; compared boundary argument with 1502.02087 |
 | 1811.04464 | 11 | complete, 1--11, including final figure-availability page |
-| 1709.03314 | 36 | pending |
-| 1801.10419 | 15 | pending |
-| 1812.08158 | 23 | pending |
+| 1709.03314 | 36 | complete, 1--36, including appendices and references |
+| 1801.10419 | 15 | complete, 1--15; printed time expression on 8 visually checked |
+| 1812.08158 | 23 | complete, 1--23; equations on 8/9/19 visually checked |
 | 1112.4882 | 24 | pending |
 | 1211.3012 | 16 | pending |
 | 1107.3458 | 35 | pending |
@@ -427,8 +427,206 @@ be retained when discussing a limit over all n. A skein element is
 not automatically a normalized positive functional. No quantum state,
 unitary 4D theory or physical dimensional reduction is adopted here.
 
-Seven supplied papers, totaling 196 of 448 pages, are now fully read.
-The other nine papers and the completed transfer assessment remain.
+At this checkpoint seven supplied papers, totaling 196 of 448 pages,
+had been fully read. Subsequent coverage is recorded below and in the
+current coverage table.
+
+## Direct notes: 1709.03314v2 (2017)
+
+Title: *How to obtain a cosmological constant from small exotic R4*.
+All 36 pages, including appendices and references, are read. The paper
+explicitly revisits earlier choices of Casson handle, cork embedding
+and cosmological evolution. Its attempt to remove those choices must
+be assessed from this version's argument, not dismissed by repeating
+an objection to an earlier paper.
+
+The selected construction uses an embedding of a small exotic R4 into
+the standard R4 and into a chosen blown-up K3, with transitions through
+Sigma(2,5,7) and P#P. Sections 3--4 describe the end and its successive
+three-manifolds. Pages 11--13 infer hyperbolicity of an assembled space
+from hyperbolic pieces and introduce a radial embedding and Poincare
+metric. These steps require the actual gluing, metric and completeness
+hypotheses. Hyperbolic JSJ pieces do not alone prove that their torus
+gluing is a complete hyperbolic manifold. The sequence's homology and
+its limit must also be distinguished; the later neutrino paper does
+make that distinction explicitly.
+
+There is an important two-sided metric check. A smooth open embedding
+of a small exotic R4 into standard R4 permits pulling back the Euclidean
+metric; the resulting flat metric is incomplete. Pulling back a
+hyperbolic metric on an open image similarly preserves a positive
+existence possibility without supplying completeness or uniqueness.
+Conversely, Cartan--Hadamard excludes a COMPLETE everywhere
+nonpositive-sectional-curvature metric on a simply connected exotic
+R4. Thus neither "no such local geometry" nor "complete Mostow
+rigidity follows from an embedding" is justified. The primary theorem
+was checked below. This does not exclude general metrics on exotics.
+
+Pages 14--15 supply a useful Seiberg--Witten/Weitzenbock energy
+identity. A nonzero spinor solution can constrain the scalar curvature;
+it does not force constant sectional curvature. Negative Einstein
+curvature and real hyperbolicity are distinct even in dimension four:
+the product of two equal-curvature hyperbolic surfaces has negative
+Einstein Ricci curvature but zero mixed sectional curvatures. The
+paper's appendix comparison theorem assumes a hyperbolic comparison
+manifold already exists and retains rescaling freedom. Neither that
+theorem nor a localized smooth-structure change supplies the omitted
+metric identification.
+
+Pages 15--23 move from those Riemannian claims to FRW evolution and
+a physical time/length scale. The topology of a handle decomposition
+also does not by itself establish causal properties of a specified
+Lorentzian metric: a homotopy contracting a loop is not a causal
+homotopy. The radial/tree parametrization, physical clock, selected
+curvature normalization and passage to de Sitter geometry require
+their own equations and assumptions.
+
+The CS discussion is more explicit than a mere equality of labels.
+Pages 20--22 actually introduce a Cartan connection, an invariant
+pairing and a length parameter. This is a positive construction to
+retain. Its real form, contraction, torsion restriction and subsequent
+rescaling of the connection need checking: multiplying a connection
+form by a constant does not preserve its original inhomogeneous gauge
+transformation law. Equation (13) also applies a closed signature
+formula to a cobordism without its spectral boundary correction.
+The actual APS signature theorem is recorded below as a possible
+repair, not as a reason to discard relative CS/index methods.
+
+Pages 24--28 turn chosen CS representatives and Planck units into
+lengths and a cosmological constant. The reciprocal-CS exponential
+requires a declared connection class and lift, not only a periodic
+invariant. CS(S3)=0 gives a singular expression before a limiting
+prescription is chosen. A proposed quantum multiplier from the cork's
+Euler characteristic also requires the action coefficient. The
+specified Planck convention uses h, not hbar; no unearned extra 2pi
+objection is introduced. The numerical values and historical Hubble
+comparison have not been independently recertified or adopted here.
+
+The conclusion itself retains selection and quantum-mechanical
+interpretation questions. The useful transfers are a typed 3D gravity
+connection, energy identities, end constructions and corrected
+relative index data. A physical Lambda prediction does not follow
+from importing their names or from a normalized geometric volume.
+
+## Direct notes: 1801.10419v4 (2019)
+
+Title: *A topological approach to Neutrino masses by using exotic
+smoothness*. All 15 pages are read. The proposed chain is the same
+chosen pair of topological transitions, two inferred energy scales,
+a seesaw mass matrix, a spinorial boundary interpretation and a
+speculative generation/mixing argument. Those are distinct claims.
+
+Page 3 now explicitly distinguishes the homology of the finite end
+approximants from their limiting S3. That correct qualification must
+not be lost by treating every version as identical. On page 6, however,
+the stated minimum over all CS representations needs a restriction:
+the trivial flat connection has zero CS on every such manifold.
+An irreducible class, minimum positive value or other selected sector
+and lift must be specified before reusing the formula. This is a
+definition repair to investigate, not a dismissal of every rational
+CS value used in the literature.
+
+Pages 7--8 invoke a three-stage tower result to set a time scale and
+then divide a later exponent among three proposed channels. The exact
+Freedman theorem cited here must be read before comparing its scope
+with the other papers' five-stage statements. Even a tower-embedding
+theorem would not by itself identify one stage with a Planck-time
+increment or select the physical channels. The printed expression
+for the second time interval has the same multiplying factor as the
+energy expression, despite the reciprocal time--energy relation used
+earlier. Page 8 was rendered and visually checked. This may be a
+formula error rather than a failure of the conditional seesaw algebra.
+
+Pages 8--11 again choose one chiral spinor column in an immersion
+construction. A mapping-class count is then interpreted as a count
+of Dirac operators and handed neutrinos. A map on metrics, spin
+structures, operator domains and orientation is needed: transporting
+all geometric data by a diffeomorphism gives a unitary-equivalent
+Dirac problem, not automatically a second particle species. A homology
+3-sphere has a unique spin structure, and a statement about Diff(P)
+does not directly establish the same mapping-class statement for P#P.
+The latter includes connected-sum structure that must actually be
+analyzed. No normalizable charged generation count is supplied by
+that identification alone.
+
+The small-eigenvalue seesaw relation M^2/B is useful conditional
+algebra; deriving the two entries, their Yukawa normalization and the
+mass splittings remains separate. The model's quoted mass and its
+experimental comparisons have not been independently adopted. In
+particular, a bound on an effective Majorana mass must not silently
+become a bound on a sum of neutrino masses. Equal assigned masses
+also require a separate account of nonzero oscillation splittings.
+
+Section 6 explicitly labels the three-family and mixing discussion
+speculative. Three hyperbolic-plane summands and their permutation
+group do not alone produce a flavor representation or PMNS matrix.
+Its index-2 observation also needs an operator dictionary. A chiral
+spin or Spin-c index is not the index of an entire self-adjoint Dirac
+operator, nor automatically a particle--antiparticle asymmetry on
+an open spacetime. The blown-up K3 is not spin, but this does NOT
+dispose of index 2: a suitable Spin-c determinant class can still
+give that integer. The exact bundle, background and boundary/domain
+data must be supplied before transferring it to our different model.
+
+## Direct notes: 1812.08158v1 (2018)
+
+Title: *A topological model for inflation*. All 23 pages are read,
+including appendices and references. A truncated extraction of page
+4 was immediately repaired by reading that page separately. Pages
+8, 9 and 19 were rendered and visually inspected. The route is
+Morse/Cerf theory to a gradient action, a hyperbolic radial metric,
+a claimed inflation potential, a CS scale and boundary-spinor
+reheating. Morse theory is relevant to our deformed Dirac problem;
+none of those later physical identifications follows merely from
+that shared starting point.
+
+The most discriminating audit lead is equations (7)--(12), pages
+8--9. With the printed radial metric g_rr=(1-r^2)^(-2) and
+h=r^2/2-r^3/3, the squared gradient requires g^rr(h')^2. The paper
+instead prints the lower-index factor g_rr(h')^2. The latter gives
+a nonzero limiting plateau as r tends to 1, whereas the covariant
+gradient expression tends to zero. Its stated logarithmic coordinate
+also has derivative 2/(1-r^2), not 1/(1-r^2), so the displayed line
+element has a separate factor-four discrepancy. These printed
+equations, not an OCR substitution, are the subject of the check.
+An overall potential coefficient cannot repair a changed limiting
+shape. A different Morse function could change the outcome; this is
+not a no-go for inflation or hyperbolic scalar-field models. A bounded
+coordinate-covariance control remains to be separately designed and
+sealed; no executable scientific certificate is claimed here.
+
+The earlier worldline-to-field step also needs a dictionary. A
+gradient trajectory is not already a four-dimensional scalar action,
+and a normalized velocity's rank-one product is not a spacetime
+metric. A Morse Hessian's signature does not force the curvature of
+a cobordism. The subsequent Weyl transformation must retain canonical
+field normalization and the chosen potential coefficient before
+identifying an R+alpha R^2 theory. The appendix's correct completeness
+and finite-volume hypotheses for rigidity must be retained in its
+physical applications.
+
+Pages 11--15 again require a boundary-corrected signature formula,
+a selected CS lift, a physical clock and curvature normalization.
+The total expansion factor is not automatically the e-fold number
+between horizon exit and the end of inflation. The printed expression
+for alpha on page 19 also changes a reciprocal truncated series to
+the series itself while keeping the same small numerical estimate;
+its convention and dimensional powers need checking. These may be
+correctable formula errors. Historical numerical fits are not new
+tests, and no inflation parameter or reheating value is adopted here.
+
+Pages 15--17 offer a boundary-spinor coupling, but explicitly remove
+the constant-norm constraint in promoting it to a free field action.
+Intrinsic hyperbolic geometry does not fix extrinsic mean curvature.
+A Weyl change of that curvature has a normal-derivative contribution;
+spinor weights and kinetic normalization must also be kept. Identifying
+a CS exponential directly with a Yukawa coupling would require all
+those data and the physical normalization, not only a decimal match.
+
+Ten supplied papers, totaling 270 of 448 pages, are now fully read.
+Six papers and the completed, cited transfer assessment remain. These
+are direct reading notes and source checks, not a new globally banked
+arc, a numerical recertification or a completed physical transfer.
 
 ## First checks against the cited primary mathematics
 
@@ -454,3 +652,25 @@ compare, not merely a shared factor label. A physical representation,
 positive state and identification of the deformation parameter remain
 additional tasks. The whole paper and its other theorems have not yet
 been claimed read. Both primary checks were accessed September 9 UTC.
+
+Theorem (4-14) and its surrounding discussion in
+[Atiyah--Patodi--Singer, *Spectral asymmetry and Riemannian geometry I*](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/aps001.pdf),
+1975, printed pages 65--66, were checked directly. For a compact oriented
+4k-manifold with product metric near its boundary, signature equals the
+integral of the L-form minus the eta invariant of the specified
+even-form boundary operator. The metric-dependent spectral correction
+is not optional. Its convention differs from the general spin-Dirac
+half-eta-plus-kernel formula. This supplies a repair candidate for the
+papers' cobordism step, not a theorem about our singular noncompact
+ends without additional analysis. Only the cited passages, not this
+entire primary paper, have been read for this check.
+
+[Diego Conti, *Notes of Riemannian Geometry*](https://poisson.phc.dm.unipi.it/~lmigliorini/secondo_magistrale/riemanniana/note_conti.pdf),
+December 11, 2025, Theorem 9.1 and its proof on printed page 31, were
+read directly. Completeness and nonpositive SECTIONAL curvature give
+an exponential covering and a universal cover diffeomorphic to R^n.
+Our inference for a simply connected exotic R4 uses both hypotheses;
+incomplete pullback metrics and mere negative scalar/Ricci curvature
+are outside that inference. These two primary checks were accessed
+September 10 local. An alternative requested notes PDF did not return
+usable content and is not counted as read.

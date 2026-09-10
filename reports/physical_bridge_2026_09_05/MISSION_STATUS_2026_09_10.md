@@ -3,8 +3,8 @@
 This is a status checkpoint of the audit branch, not a new scientific
 seal or a certificate for the whole repository. The latest completed
 local scientific round is R25. All ten remote heads were fetched again
-on September 9 at approximately 22:19 UTC / September 10 local; no
-other head advanced from the preceding intake. Main is b94ed03a,
+on September 10 UTC; no other head advanced from the preceding
+September 9 intake. Main is b94ed03a,
 SM 1703c0d8, physics 659487bb, outside 4d481751 and paper review
 67f939cc. Received work is not treated as independently verified merely
 because it was fetched. This seat uses no reserved global B numbers.
@@ -152,9 +152,9 @@ and [the bottleneck ledger](PHYSICS_BOTTLENECKS.md).
 
 ## Current paper audit and verification status
 
-The supplied archive has sixteen papers and 448 pages. Seven papers,
-196 pages, are fully read directly by this seat, with no delegated
-summaries. The remaining nine are not yet claimed read. The review
+The supplied archive has sixteen papers and 448 pages. Ten papers,
+270 pages, are fully read directly by this seat, with no delegated
+summaries. The remaining six are not yet claimed read. The review
 is informing the retained index/interactions path, not replacing it.
 
 Promising mathematical leads include spinorial boundary identities,
@@ -166,6 +166,16 @@ actual model. Several physical identifications in the papers need
 missing arguments; a defect in one arrow does not invalidate their
 standard mathematical ingredients. Exact coverage and page-qualified
 notes are in [the direct-reading ledger](ASSELMEYER_MALUGA_READ.md).
+
+The cosmological-constant, neutrino and inflation papers now add
+specific transfer questions. Their choices of CS connection/lift,
+metric completeness, physical scale and Dirac domain matter. The
+inflation paper's printed gradient expression appears to use the
+metric where its inverse is required; a separately sealed coordinate
+check is a concrete next audit, not yet an executed new result. The
+primary APS boundary-signature theorem and Cartan--Hadamard hypotheses
+were checked directly. These checks preserve useful relative-index
+and geometric tools without importing the papers' physical values.
 
 The last completed R25 run added 15 passing tests. Its 46-file broad
 regression had 341 passes, 14 failures and 8 errors; the failed/error
