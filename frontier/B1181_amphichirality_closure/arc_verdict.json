@@ -9,6 +9,12 @@
  "retracted": {
   "date": "2026-09-02",
   "by": "B1235",
-  "reason": "the closure was measured by M.is_isometric_to(mirror), which is orientation-blind (REPRODUCIBILITY.md:73); by symmetry_group().is_amphicheiral() the family is 38/112 amphichiral, o10_150700 (this arc's own spot-check witness) CHIRAL at CS=-1/12. The ONE-WAY FAMILY TEST method-law minted here STANDS; this retraction is its second instance. Original claim_one_line preserved below as the record of what was asserted."
+  "reason": "the closure was measured by M.is_isometric_to(mirror), which is orientation-blind (REPRODUCIBILITY.md:73); by symmetry_group().is_amphicheiral() the family is 38/112 amphichiral, o10_150700 (this arc's own spot-check witness) CHIRAL at CS=-1/12. The ONE-WAY FAMILY TEST method-law minted here STANDS; this retraction is its second instance. Original claim_one_line preserved below as the record of what was asserted.",
+  "stale_phrases": [
+   "83 of 83",
+   "83/83",
+   "all 83 members",
+   "83 members of the family"
+  ]
  }
 }
