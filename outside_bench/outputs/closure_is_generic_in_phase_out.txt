@@ -1,0 +1,70 @@
+CERTIFICATE -- the sealed edge law is generic in the PHASE, and that control was never run.
+
+WHY THIS EXISTS.  Memo 196 addendum 1 showed the three sealed clauses of docs/EDGE_PREREG_SPEC.md
+are functions of the word, and stated its own limit: it analysed the sealed windows AT rho = alpha,
+while B1085's object is the FUNCTION rho -> edge content over a scanned phason.  This runs the
+missing control.
+
+WHAT THE SEAL ALREADY CONTROLLED, AND IT STANDS.  B1106's C-GEN varied the SLOPE: golden reproduces
+the closure law, the strict silver analogue NEVER closes.  That is a real genericity control and
+this certificate re-runs it rather than assuming it.
+
+WHAT NOBODY CONTROLLED.  rho-genericity AT the golden slope.  The seal ties rho = alpha; the
+experiment SCANS rho (the phason is the knob, B8094); so the sealed prediction is one point of a
+scan the apparatus will pass through.  The question this answers: does the sealed law single out
+that point?
+
+CELLS (two outcomes each)
+  CELL 1  What measure of phases rho closes the word at all?
+          A: a thin set -- the closure marks the phase   B: a large set -- closure is common
+  CELL 2  What fraction of random phases reproduces the SEALED LAW -- close at even Fibonacci
+          index, break at odd -- across nine consecutive windows?
+          A: negligible, the law marks the phase         B: substantial, the law is generic
+  CELL 3  Does the slope control still hold?
+          A: silver closes too, C-GEN overturned         B: silver never closes, C-GEN preserved
+
+CONTROLS
+  C1  rho = alpha MUST reproduce the sealed law, or the instrument is wrong and nothing is read.
+  C2  The pattern space must be RICH: if few patterns were possible, a large fraction would be an
+      artefact of the alphabet, not a finding.  The number of distinct patterns observed is printed.
+  C3  The silver slope must be tested in the SAME instrument, so CELL 3 is not taken on trust.
+
+==============================================================================
+C1  rho = alpha reproduces the sealed law:  C.C.C.C.C  vs law C.C.C.C.C   -> PASS
+
+CELL 1  measure of the closure set in rho (20000 phases per window)
+        N =   21 (index 8, even) : 53.17% of phases close
+        N =  144 (index 12, even) : 54.97% of phases close
+        N =  233 (index 13, odd ) : 55.10% of phases close
+        N =  987 (index 16, even) : 55.21% of phases close
+        -> B  (closure is the MAJORITY case at every window, including the odd one)
+
+CELL 2  3000 random phases, nine consecutive Fibonacci windows
+        reproducing the SEALED LAW exactly: 593  (19.77%)
+        distinct patterns observed: 35   (C2: the space is rich, not binary)
+          C.C.C.C.C  19.77%   <-- THE SEALED LAW, and the MODE
+          .C.C.C.C.  15.00%
+          .C.C.CC.C   6.67%
+          C.C.CC.C.   6.20%
+        -> B  (the law is the single most common behaviour of a random phase)
+
+CELL 3  C-GEN's slope control, re-run here: silver closes at Pell windows? [False, False, False, False, False, False]
+        -> B  (silver NEVER closes: C-GEN stands, the closure IS slope-specific)
+
+ALL CONTROLS PASSED
+VERDICT: CELL 1 = B, CELL 2 = B, CELL 3 = B
+
+READING, and the counter-argument stated with it.
+
+  The closure law is SLOPE-specific (CELL 3, C-GEN preserved) and NOT PHASE-specific
+  (CELLS 1-2).  An experimentalist scanning the phason passes through the sealed
+  alternation pattern at roughly one phase in five.  Observing it at alpha therefore
+  does not identify alpha.
+
+  THE COUNTER-ARGUMENT, which a fair reader will raise: the object does not have a free
+  rho -- the cut phase IS the slope, by construction, so asking "is alpha special among
+  phases" may be a question about a parameter the object never varies.  Against that:
+  B1085's banked object is the FUNCTION rho -> edge content and the experiment SCANS
+  rho, so the scan is the apparatus's own, not this certificate's invention.  Both
+  readings are recorded; neither is adjudicated here.
+

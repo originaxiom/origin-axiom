@@ -2285,3 +2285,42 @@ calibration; its framing does not.**
 touches Parts III–V of the chain — E₆, the frame, the 27, the ℤ₆ global form. That is the part that
 works, and it is exactly as it was. **Everything this session found is about where forcing stops, not
 about extending it.**
+
+
+---
+
+## ADDENDUM 99 (2026-09-11) — **R99: "go"** — the ρ-sweep run, and it decides
+
+Path 2 taken. **Memo 197.** The control memo 196 addendum 1 named as its own limit is now run, and
+it goes further than that limit anticipated.
+
+**What stands, re-run not assumed:** C-GEN's slope control. Silver closes at **none** of six Pell
+windows. **The closure is slope-specific and that was real.**
+
+**What was never controlled:** the phase. The seal ties ρ = α; the *experiment scans ρ*.
+
+* **The closure set in ρ has measure ≈ 55% at every window — including the odd-index one.** So the
+  even/odd law is not about the index. At N = 233 the closure set is still a 55% majority; α simply
+  lies outside it there.
+* **The sealed law is the MODE.** 3000 random phases, nine consecutive windows, 35 distinct patterns
+  observed — and `C.C.C.C.C`, the sealed alternation, is the single most common at **19.77%**, its
+  mirror second at 15%.
+
+> **One phase in five reproduces the sealed law exactly.** An experimentalist scanning the phason
+> passes through it roughly every fifth phase, so observing it at α does not identify α.
+
+**With memo 196's two addenda this closes the lane's account:** slope-specific (real), not
+phase-specific (this), not contingent on a measurement (the relabelling), and unable to reach the SM
+in any case (C4 prices the tiling hull as seeing only the hearing).
+
+**The counter-argument is in the memo, stated and not adjudicated:** the object has no free ρ — the
+cut phase *is* the slope — so a look-elsewhere count over a knob the theory never turns may be no
+charge at all. Against it: B1085's banked object *is* the function, and the apparatus scans. That is
+the seal-holder's call and the addendum-beside rule is where it belongs.
+
+**Nothing is retracted.** C-GEN stands. B1095 states its own mechanism. B1106's discipline did what
+it was built for. What this adds is a **second genericity axis the first did not cover** — and it
+was found only because memo 196 addendum 1 wrote its own limit down instead of leaving it for a
+reader.
+
+**Next: K3** — the one that converts §4A.0's empirical leg into a theorem.
