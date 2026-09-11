@@ -2667,3 +2667,61 @@ rider.** The measurement stands; the rider is withdrawn.
 
 **The rule it buys: a preregistered outcome states only what will be OBSERVED. Consequences belong
 in the interpretation section, where a later cell can overturn them without corrupting the seal.**
+
+---
+
+## ADDENDUM 107 (2026-09-11) — **R107: "how do we probe this more to understand it and contemplate on it" / "go"**
+
+Three probes run, and **the third one trims the memo it was testing**. Recorded here because the
+trim matters more than the confirmations.
+
+### R107-1 — the partition is **Coxeter duality**
+
+E₆'s exponents are `(1,4,5,7,8,11)`, Coxeter number `h = 12`, dual pairs `(1,11) (4,8) (5,7)`. The
+four superselection charges sit at `{4,7,8,11}`:
+
+* **`{4,8}` is the ONLY complete dual pair among them** — `4 + 8 = 12 = h`;
+* **`7` and `11` are ORPHANS** — their duals `5` and `1` carry no charge.
+
+Exponent arithmetic, nothing fitted. This is *why* the six planes split 2 + 4.
+
+### R107-2 — the orphans share a kernel, and nothing else in the space has one
+
+    dim ker rho(x8) = 0   dim ker rho(x16) = 0   dim ker rho(x14) = 3   dim ker rho(x22) = 3
+    ker x14 = ker x22 AS SUBSPACES -- one canonical rational 3-space in the 27
+    every other pair of the four: common kernel dim 0
+    six random elements of the same charge space: dim ker 0, all six
+
+The 3-space is **invariant under both dual-pair charges**, and restricting them to it —
+**no pencil, no λ, no branch locus** — gives irreducible cubics of resolvent 77 that **generate K**.
+**Two more routes to the charge field with no pencil in them.**
+
+### R107-3 — **the genericity control TRIMS memo 201, and this bench ran it on itself**
+
+Memo 201 read as though **77 is tied to measuring WITHIN a block**. **It is not.** Five random
+2-planes in the same four-dimensional charge space: **all five** return the generic shape and **all
+three** resolvents `{−3, 77, −231}`. 77 is everywhere in the space.
+
+**What survives is cleaner than what was banked:** the **Klein four-group is an invariant of the
+charge space**; the **six coordinate planes are DEGENERATE LOCI**, each seeing a proper subset; and
+**which half goes blind is Coxeter duality**.
+
+**And the anti-circularity conclusion is STRENGTHENED.** B1077's blocker said the only twist-source
+is the *measured* pencil, so its 77 is circular. The control shows 77 is not a property of that
+pencil at all — **visible from almost every plane, and K reachable with no pencil whatsoever.**
+**A datum that shows up from almost anywhere is not an artifact of where one looked.**
+
+### R107-4 — the rule, and it is the session's second instance
+
+**Run the randomisation control on your own result before the session ends, not after someone else
+asks.** B1223 established the shape (*"the difference is one computation"*); this is the first time
+this bench has applied it to a result of its own inside the same session, and it changed the
+reading. Memo 201's §3/§6 wording is corrected by addendum, not edited; the measurement stands.
+
+### R107-5 — what is recorded and NOT claimed
+
+`{−3,5,−15}` (B730's faces), `{−3,3,−1}` (B1174's branch V₄) and `{−3,77,−231}` (this run) each
+close under squarefree product and **pairwise share exactly the leg −3, the being face**. A third V₄
+on the same hub, found from the charge system rather than from Galois theory. **Not claimed to be
+the same V₄, and not claimed to act** — that is precisely what B1223 killed on the **action** and
+what memo 200 typed by **kind**.

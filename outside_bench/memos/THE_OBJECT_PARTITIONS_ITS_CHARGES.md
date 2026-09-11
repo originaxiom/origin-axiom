@@ -140,3 +140,73 @@ The seal is unedited; this is the correction, filed at the point of occurrence.
 *Gate 5 untouched — no measured value is used or named. Nothing promotes to `CLAIMS.md`. No arc is
 retracted; one "observation, unweighted" of B888's is withdrawn as a mechanism, and one rider of my
 own seal is withdrawn.*
+
+---
+
+# ADDENDUM 1 (2026-09-11, same session) — **THE GENERICITY CONTROL TRIMS THIS MEMO'S READING — and what survives is better than what was banked**
+
+**Certificate** `certificates/six_planes_genericity.py` · **Output**
+`outputs/six_planes_genericity_out.txt` · **CELL 1/2/3 = B/B/B**, four controls, all passing.
+
+Run on this bench's own result the same session it was banked, under B1223's rule: *"the value of
+a small-group coincidence is not zero, but it is not evidence, and the difference is one
+computation."* The analogue for this memo is **randomisation**.
+
+## Trimmed
+
+This memo's §3 and §6 read as though **77 is tied to measuring WITHIN a block**. **It is not.**
+Five random 2-planes in the same four-dimensional charge space, all commuting, all exact:
+
+    random plane 1..5:  shape [(3,1),(6,1),(6,3)]   resolvents [-231, -3, 77]   (all five)
+
+**Every generic plane sees all three resolvents.** 77 is not confined to the coordinate planes; it
+is everywhere in the space. The measurement in §2 is correct and reproduces (control C1) — the
+**six coordinate planes** really do split `{77}` / `{−3,−231}` — but the sentence *"the 77 is the
+within-block resolvent of a partition the object computes for itself"* over-reads it.
+
+## What survives, and it is a cleaner statement than the one banked
+
+1. **The Klein four-group is an INVARIANT OF THE CHARGE SPACE**, not an artifact of a chosen pair.
+   `{ℚ(√−3), ℚ(√77), ℚ(√−231)}` is what a generic plane sees, 5 of 5. `−231 = −3·77`. One leg is
+   the **being face**.
+2. **The six coordinate planes are DEGENERATE LOCI.** Each sees a **proper subset** of the generic
+   picture — `{77}` within a block, `{−3,−231}` across. A generic plane sees the whole group; the
+   coordinate planes go **partially blind**.
+3. **Which half goes blind is COXETER DUALITY.** `{4,8}` is the unique complete dual pair among the
+   charges (`4+8 = 12 = h`); 7 and 11 are orphans, their duals 5 and 1 carrying no charge.
+4. **The orphan kernel is NOT generic** (CELL 1 = B):
+
+       dim ker rho(x8)  (exp 4)  = 0        dim ker rho(x16) (exp 8)  = 0
+       dim ker rho(x14) (exp 7)  = 3        dim ker rho(x22) (exp 11) = 3
+       six random elements of the same space: 0, 0, 0, 0, 0, 0
+
+   `ker x₁₄ = ker x₂₂` **as subspaces** — one canonical rational 3-space in the 27, annihilated by
+   both orphans, invariant under both dual-pair charges, and **no other pair of the four
+   annihilates anything at all**.
+
+## And a fourth and fifth route to K, with no pencil in them
+
+Restricting the dual-pair charges to that orphan kernel — **no λ, no branch locus, no pencil**:
+
+    rho(x8)  | orphan-kernel :  x^3 - 10063872x - 9710862336            resolvent 77, GENERATES K
+    rho(x16) | orphan-kernel :  2197x^3 - 6963104474726400x + ...       resolvent 77, GENERATES K
+
+## Why §6's conclusion is STRENGTHENED rather than weakened
+
+B1077's blocker: *"the only dressing source in the bank is the pencil triple"* — so any 77 it
+yields is circular, the branch locus being μ by construction. **This control shows 77 is not a
+property of that pencil at all.** It is visible from almost every plane of the charge space, and K
+is reachable with **no pencil whatsoever**. **A datum that shows up from almost anywhere is not an
+artifact of where one looked.** The premise of the circularity argument is refuted more firmly by
+the control than by the partition story the memo told.
+
+## Three more V₄'s note, recorded and not claimed
+
+`{−3, 5, −15}` (B730's faces), `{−3, 3, −1}` (B1174's branch V₄) and `{−3, 77, −231}` (this run)
+each close under squarefree product and **pairwise share exactly the leg −3**. B1174's theorem for
+two of them was *"not one torsor — one shared involution."* This is a **third** on the same hub,
+found from the charge system rather than from Galois theory. **Recorded. Not claimed to be the same
+V₄, not claimed to act** — that identification is precisely what B1223 killed once on the **action**
+and what memo 200 typed by **kind**.
+
+*Gate 5 untouched. Nothing promotes. No arc retracted; one reading of my own is.*
