@@ -147,3 +147,50 @@ simplifier's grouping of `eigenvals()`.** Control C6 now enforces it in the cert
 
 *Gate 5 untouched — no measured value is used or named. Nothing promotes to `CLAIMS.md`. No arc is
 retracted.*
+
+---
+
+# ADDENDUM 1 (2026-09-11, same session) — **MOST OF THIS MEMO IS A REDISCOVERY, AND I DID NOT RUN THE CHECK THAT WOULD HAVE CAUGHT IT**
+
+Found while searching the literature at the owner's instruction, in
+`docs/NOVELTY_SWEEP_LEDGER.md` **row 6** — a row this bench did not read before banking memo 202.
+
+## What was already banked, and where
+
+| memo 202 | already banked |
+|---|---|
+| **CELL 2** — the 30/12 split across the planes, with a base rate | **B874** (2026-08-03), *the measurement ladder*: **all 15 coordinate subtori** censused exactly, the *"two-value cliff"* 30 vs 12, the (8,16)-plane named *"the unique soft direction"*, the ladder `78 → 46 → 30 → 12` with no intermediate stratum. **A month and a week before memo 202, and over 15 subtori where I did 6 pairs.** |
+| **CELL 3** — `dim 30 = 28 + 2`, hence D₄ | **B877**: *"core (30, 28, 2)"*, *"reductivity ⟹ (28, 2); I3 ⟹ D₄"* |
+| **CELL 4** — the 48 under the dual-pair charges | **B898** (PROVED), *the exact signature census*: `ad(x₈)` and `ad(x₁₆)` have **identical exact signatures** `{0³⁰, 48 real}`, and `ad(x₁₄)`, `ad(x₂₂)` likewise — charpoly over ℚ, factorisation, Sturm, no floats |
+| the whole locus | **W4, executed 2026-08-18**: *"the trialitarian datum is `z(⟨x₈,x₁₆⟩) = so(8)⊕u(1)²` at the MEASURED plane"*, and *"the 77-bearing charges x₁₄/x₂₂ are DISJOINT from it (B874: adding either collapses 30→12, past D₄ entirely)"* |
+
+**So memo 202's §3, §5 and §6 are rediscoveries.** The base rates I computed are real and the arithmetic
+is right; they were simply already in the bank, in a stronger form.
+
+## What survives as new
+
+* **§1 — the four charges are FORCED.** The invariant dimension in *every* block, including the two
+  B854 never examines. Row 6 shows the *"1 and 5 unaccounted"* question was raised by another seat
+  and adjudicated through an entirely different route (a sign-law entry, a ramification channel) —
+  **not** by computing invariant dimensions in the `sl₂` blocks. The semigroup rule appears to be new.
+* **§2 — the Coxeter-duality framing.** Row 6 banks that `(7,11)` is the unique product-77 pair among
+  all 15 exponent pairs. That `{4,8}` is the unique **complete Coxeter-dual pair** — `4+8 = 12 = h` —
+  and that the invariant condition breaks the other two pairs by killing exponents 1 and 5, is a
+  different statement and is not in the row.
+
+## The failure, named exactly
+
+**I ran `already_banked.py` on the pencil question and never on the centraliser question.** The
+standing rule (memo 153) says the searched terms must be stated with the claim — I stated terms for
+memo 201's question and then carried memo 202 on the same exhaustion, although memo 202 asks a
+**different** question. **An exhaustion is scoped to the question it was run for. Re-running is
+cheap; assuming coverage is not.**
+
+This is the **fifth** measurement of the citation gap this bench has made — and the first one where
+**this bench is the offender**, one memo after banking the rule about it (memo 199, §3). The rule
+did not fail. **I did not run it.**
+
+**BENCH ERROR #23. The rule it buys: `already_banked.py` is run PER QUESTION, not per session, and
+`docs/NOVELTY_SWEEP_LEDGER.md` is read before any memo that touches a novelty-swept claim.**
+
+*Nothing in memo 202's arithmetic is retracted. Its priority claim is.*

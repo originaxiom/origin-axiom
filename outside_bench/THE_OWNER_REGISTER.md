@@ -2791,3 +2791,60 @@ B1077's blocker is dead three ways: 77 is what a **generic** plane sees; K is re
 pencil at all**; and the plane the pencil used is **the one whose centraliser is the triality
 algebra** the conjecture is about. **The blocker is gone. The door is still not open** — the
 remaining half is the ³D₄ twisting classification, a literature proposition.
+
+---
+
+## ADDENDUM 109 (2026-09-11) — **R109: "lets search liferature"**
+
+Two results, and the second is a correction of this bench, not of the record.
+
+### R109-1 — the floor, opened as far as the environment allows
+
+**Memo 203.** The connective statement W4 named as the missing piece is **found and quoted**:
+
+> *"The Clifford algebra `C(𝔄)` is a semisimple algebra with center a quadratic étale `F`-algebra
+> **given by the discriminant** of the quadratic pair `(σ, f)`."*
+
+And the door's **shape changes**. Knus–Tignol (1409.1718): order-3 outer automorphisms exist **iff**
+the algebra is the endomorphism algebra of an **induced cyclic composition**, with conjugacy classes
+in bijection with **isomorphism classes of symmetric compositions**. The 8-dimensional symmetric
+compositions are a **short classified list** — para-octonions and **Okubo** algebras. So B882 is not
+waiting on an obstruction theorem: **it is a construction question with a finite check.**
+
+**A correction to a banked label, flagged not settled.** B1077 calls the object's form the
+**³D₄** twist. `³D₄` splits over a **cyclic** cubic; `⁶D₄` over an `S₃` one. **`K` is `S₃`**, so the
+form is **⁶D₄** — and it matters, because Springer's cyclic composition needs an automorphism `ρ` of
+**order 3**, which an `S₃` cubic field does not have. Different theorems govern the two cases.
+
+**Stated with it: no full text was obtained — not one paper.** `arxiv.org` is denied by organisation
+policy and every other academic host tried is blocked. Everything rests on search summaries; **no
+theorem number is verified**, and the ⁶D₄ correction is the most load-bearing and least verified item
+in the memo. It goes to a seat with document access before the record is edited.
+
+### R109-2 — **BENCH ERROR #23**, found by the same search
+
+`docs/NOVELTY_SWEEP_LEDGER.md` **row 6** — which I did not read before banking memo 202 — shows that
+**memo 202's §3, §5 and §6 are rediscoveries**: the 30/12 cliff is **B874** (all fifteen coordinate
+subtori, 2026-08-03), `(30,28,2) → D₄` is **B877**, the 48's structure is **B898** (PROVED, exact
+signatures), and the whole locus is **W4, executed 2026-08-18**. What survives as new is §1 (the four
+charges are forced, by invariant dimension in every block) and §2's Coxeter framing.
+
+**The failure, exactly:** I ran `already_banked.py` for memo 201's **pencil** question and carried
+memo 202 on that exhaustion, although memo 202 asks a **different** question.
+
+> **An exhaustion is scoped to the question it was run for.**
+
+This is the **fifth** measurement of the citation gap this bench has made, and **the first where
+this bench is the offender** — one memo after banking the rule about it (memo 199 §3). **The rule did
+not fail. I did not run it.**
+
+**The rule it buys: `already_banked.py` is run PER QUESTION, not per session, and
+`NOVELTY_SWEEP_LEDGER.md` is read before any memo that touches a novelty-swept claim.**
+
+### R109-3 — what this says about the session's shape
+
+Three errors filed in three memos (#21 seal rider, #22 eigenvalue grouping, #23 unscoped
+exhaustion). **All three were caught by this bench, none by the owner — but two had already been
+reported to the owner as conclusions before being caught.** The pattern is not carelessness in the
+arithmetic, which has held every time; it is **claiming before the check that governs the claim has
+been run.** That is one habit, not three errors.
