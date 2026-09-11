@@ -1,0 +1,12 @@
+{
+ "id": "B1331",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": ["B1329", "B1330", "B1297"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE VANISHING THEOREM HAS A SHARP STRUCTURAL FORM, AND THE OBVIOUS MECHANISM FOR IT IS RULED OUT. First, a REDUCTION: since L_V and L_{V*} are mutual annihilators in H^1(T;W) with dim L_V + dim L_{V*} = t_1, isotropy of L_V alone forces dim L_V <= t_1/2, and the same for V*, so their dimensions must BOTH be t_1/2 -- hence I = 0 follows from ISOTROPY ALONE, and the whole theorem reduces to one question. Second, the question answered empirically and exactly: L_V and L_{V*} are not merely equal in DIMENSION, they are THE SAME SUBSPACE of H^1(T;W) -- checked on s958's geometric holonomy over Q(zeta_12) in 8 exact sectors up to t_0 = 3, identical in every one, zero exceptions. Since L_{V*} = L_V^perp, that says exactly L_V = L_V^perp, i.e. L_V IS LAGRANGIAN, which is I = 0 with a mechanism rather than a numerical coincidence. So the theorem to prove is: for V = W (x) chi with W self-dual and chi CUSP-TRIVIAL, the images of H^1(M;V) and H^1(M;V*) in H^1(T;W) COINCIDE. THIRD, AND THE POINT: the obvious mechanism is Galois -- complex conjugation sends W (x) chi to W^sigma (x) chi^{-1}, which is V* provided W^sigma = W; but W^sigma is the holonomy of the MIRROR manifold, so that argument needs amphichirality, and s958 IS CHIRAL. The coincidence survives chirality, so whatever forces it is NOT the Galois symmetry the record's own protection theorem uses. The surviving candidate is that the equality is LOCAL AT THE CUSP -- the peripheral holonomy is unipotent, and unipotents are conjugate to their own conjugates -- which would explain why chirality of the global manifold does not disturb it."
+}

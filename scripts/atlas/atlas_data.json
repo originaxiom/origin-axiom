@@ -7285,6 +7285,21 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1331": {
+   "slug": "the two images coincide",
+   "motifs": [
+    "closing",
+    "dickson_tower",
+    "amphichiral_cp",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "numerology",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B134": {
    "slug": "chirality recursion proved",
    "motifs": [
