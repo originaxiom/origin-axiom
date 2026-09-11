@@ -111,3 +111,88 @@ not this bench's.
 
 *Gate 5 untouched: no measured physical value is used or named. Nothing promotes to `CLAIMS.md`.
 The prediction's content is unchanged — this memo prices its apparatus, and prices nothing else.*
+
+---
+
+# ADDENDUM 1 — THE PRICING WAS THE SMALL FINDING. THE LARGE ONE POINTS THE OTHER WAY.
+
+**2026-09-11.** Owner: *"what does this mean? why it feels like youre not reporting properlu/downplaying"*.
+
+The instinct was right, and for a worse reason than tone. The body of this memo priced the
+apparatus and led with the cheap number. I had not finished asking **what the sealed clauses
+depend on.** Having asked, the answer runs against the body's framing.
+
+## 1. All three sealed clauses are functions of the word
+
+At every window where the word closes, `H_L` **is** `H_R` read backwards — not similar to it, the
+same matrix under the reversal permutation, verified elementwise:
+
+    N =   21  even   H_L == J·H_R·J : True    isospectrality 1.33e-15
+    N =  144  even   H_L == J·H_R·J : True    isospectrality 7.77e-16
+    N =  987  even   H_L == J·H_R·J : True    isospectrality 1.33e-15
+    N =   34  odd    H_L == J·H_R·J : False   isospectrality 1.51e-01
+    N = 1597  odd    H_L == J·H_R·J : False   isospectrality 1.47e-01
+
+* **Clause 1** (isospectrality at even index) holds exactly where the word closes — and there it is
+  a **relabelling**. Two orderings of one matrix have the same eigenvalues. The `1.3×10⁻¹⁵` is
+  floating-point error in diagonalising the same matrix twice.
+* **Clause 3** (breakage at odd index) is the complement of the same word fact.
+* **Clause 2** (the 5/6 split) is the one I expected to be free, and it is not. Under `J` a
+  right-hand eigenvector carrying weight on the **first** 20 sites maps to a left-hand eigenvector
+  carrying weight on the **last** 20. So the left count is forced to be the right chain's *far-end*
+  count. **Computed: the J-forced left count equals the measured left count at every closed window.**
+  The "complementary split between two hands" is **(near-end, far-end) counts of one chain.**
+
+The word is a function of `(ρ, N)`, both fixed in the seal. **So all three clauses are computable on
+paper, and none is contingent on a measurement.**
+
+## 2. What this is NOT
+
+**It is not an error in B1095, and B1095 does not hide it.** Its own sentence: *"the left hand's word
+is EXACTLY the reversal of the right hand's word … so the two half-line Hamiltonians are conjugate
+by the exchange matrix (J·H_R·J = H_L) and the spectra coincide."* The mechanism is stated. The spec
+labels clause 1 **(forced)**. And *"P-equivariant (free)"* means **not invariant** — which is true:
+the split does change under P. Nobody claimed it was undetermined. **No retraction is asked of
+anyone.**
+
+## 3. What it is
+
+A question about the **prereg as a falsifier**, and the record's own rule answers it.
+
+> **MB12/E2**, `WHAT_WOULD_COUNT` §4A.0's own citation: *"a preregistered test must be able to both
+> pass and fail"* … *"**cannot-fail and cannot-pass are the two faces of one defect (E2/MB12): both
+> settle the outcome before the test runs, so neither is a test.**"*
+
+If the prediction is an identity of its own model, then **given the model it cannot fail.** What a
+measurement could still refute is that a fabricated array *realises* the intended word and the
+tight-binding model. That is a real and worthwhile experiment — it tests fabrication and the
+platform's reciprocity — but it is a test of the apparatus, not of the object.
+
+And the reciprocity half is not even contingent: *any* chain read backwards has the same spectrum.
+So the empirical residue of clause 1 is **"is the left-going word the reverse of the right-going
+word"** — combinatorics — **plus "is the photonic platform reciprocal"** — known physics.
+
+§4A.0 applied MB12 to a whole success *tier*, and wrote that doing so was the larger application of
+a rule previously used on single criteria. **This is the same rule applied to a sealed prereg.**
+
+## 4. The limit of this finding, stated rather than left for a reader to find
+
+This analyses the **sealed §1 windows, at ρ = α**. B1085's object is the **function ρ ↦ edge
+content**, banked over a 144-point sweep (`rho_sweep_counts.json`). **Whether that function carries
+contingent content is not addressed here**, and it is the obvious next cell. If it does, the lab
+lane's falsifier should be re-posed on the function rather than on the α windows — which is a thing
+the seal's own addendum-beside rule permits.
+
+## 5. What survives of the body of this memo
+
+The pricing stands and is still useful, but as **calibration, not as the experiment**: the word
+closes at N = 21 and breaks at 13/34 with macroscopic gaps, so a fabricator can verify that an array
+realises the intended cut phase on 13–34 waveguides before committing to a 144+ array. That is worth
+having. It is not a test of the programme.
+
+**And the honest consequence for the goal: Tier-INTERFACE is weaker than §4A.2 presents it.** That
+does not make the programme worse — it makes the ledger true. It does re-rank what is left: if the
+lab lane tests a model identity, then K3 (the crossings sort) and the three 4A.3 doors carry the
+weight.
+
+*Nothing is retracted from any other arc. Gate 5 untouched.*

@@ -155,3 +155,63 @@ print(f"        -> {cell3}")
 print()
 print("ALL CONTROLS PASSED")
 print(f"VERDICT: CELL 1 = {cell1}, CELL 2 = {cell2}, CELL 3 = {cell3}")
+
+
+# =====================================================================================
+# ADDENDUM (2026-09-11) -- IS THE SEALED DIFFERENTIAL CONTINGENT ON A MEASUREMENT?
+#
+# The pricing above is correct and is not the important question.  The important question,
+# which the pricing exposed, is what the three sealed clauses actually depend on.
+#
+# CELL 4  Are the three clauses functions of the WORD alone -- hence computable on paper?
+#         A: at least one is contingent on the Hamiltonian's spectrum beyond the word
+#         B: all three are word-determined
+# =====================================================================================
+def addendum():
+    print()
+    print("=" * 78)
+    print("ADDENDUM -- WHAT THE THREE SEALED CLAUSES DEPEND ON")
+    print("=" * 78)
+    rows = []
+    for N, par in ((21, "even"), (34, "odd"), (144, "even"), (987, "even"), (1597, "odd")):
+        r, lo = hands(N)
+        d = word_diffs(N)
+        same = (list(lo) == list(r[::-1]))
+        Er, Vr = spec_full(r)
+        El, Vl = spec_full(lo)
+        iso = float(np.max(np.abs(np.sort(Er) - np.sort(El))))
+        bwr = (Vr[:BW_SITES, :] ** 2).sum(axis=0)
+        bwl = (Vl[:BW_SITES, :] ** 2).sum(axis=0)
+        far = (Vr[-BW_SITES:, :] ** 2).sum(axis=0)
+        nr, nl = int((bwr > BW_THRESH).sum()), int((bwl > BW_THRESH).sum())
+        forced = int((far > BW_THRESH).sum())
+        rows.append((N, par, d, same, iso, nr, nl, forced))
+        print(f"  N={N:5d} {par:5s} diffs {str(d[:2]):8s}  H_L == J H_R J: {str(same):5s}  "
+              f"iso {iso:.2e}   split ({nr},{nl})   J-forced left count {forced}")
+    ok_forced = all(r[6] == r[7] for r in rows if r[3])
+    print()
+    print("  CLAUSE 1, isospectrality at even index: holds exactly where the word closes -- and")
+    print("            there H_L IS H_R read backwards.  Equal spectra is then a RELABELLING.")
+    print("  CLAUSE 3, breakage at odd index: the complement of the same word fact.")
+    print(f"  CLAUSE 2, the 5/6 split: equals (near-end, far-end) counts of the SINGLE right-hand")
+    print(f"            chain -- the J-forced left count matches the measured one at every closed")
+    print(f"            window: {ok_forced}")
+    print()
+    print("  CELL 4 -> B.  All three are functions of the word; the word is a function of")
+    print("  (rho, N), both FIXED IN THE SEAL.  None is contingent on a measurement.")
+    print()
+    print("  NOT AN ERROR IN B1095, WHICH STATES THE MECHANISM: 'the two half-line Hamiltonians")
+    print("  are conjugate by the exchange matrix (J H_R J = H_L)'.  The spec labels clause 1")
+    print("  '(forced)'.  'P-equivariant (free)' means not-INVARIANT, which is true.")
+    print()
+    print("  THE LIMIT OF THIS FINDING, STATED: it analyses the sealed section 1 windows AT")
+    print("  rho = alpha.  B1085's object is the FUNCTION rho -> edge content over a 144-point")
+    print("  sweep.  Whether THAT function carries contingent content is NOT addressed here.")
+
+
+def spec_full(w):
+    E, V = eigh_tridiagonal(np.array(w), np.ones(len(w) - 1))
+    return E, V
+
+
+addendum()

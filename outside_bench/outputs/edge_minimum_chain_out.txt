@@ -77,3 +77,30 @@ CELL 3  smallest window where the sealed 20-site detector reads <= 10% of the ch
 
 ALL CONTROLS PASSED
 VERDICT: CELL 1 = B, CELL 2 = B, CELL 3 = A
+
+==============================================================================
+ADDENDUM -- WHAT THE THREE SEALED CLAUSES DEPEND ON
+==============================================================================
+  N=   21 even  diffs []        H_L == J H_R J: True   iso 1.33e-15   split (21,21)   J-forced left count 21
+  N=   34 odd   diffs [0, 1]    H_L == J H_R J: False  iso 1.51e-01   split (22,22)   J-forced left count 22
+  N=  144 even  diffs []        H_L == J H_R J: True   iso 7.77e-16   split (5,6)   J-forced left count 6
+  N=  987 even  diffs []        H_L == J H_R J: True   iso 1.33e-15   split (5,6)   J-forced left count 6
+  N= 1597 odd   diffs [0, 1]    H_L == J H_R J: False  iso 1.47e-01   split (5,6)   J-forced left count 9
+
+  CLAUSE 1, isospectrality at even index: holds exactly where the word closes -- and
+            there H_L IS H_R read backwards.  Equal spectra is then a RELABELLING.
+  CLAUSE 3, breakage at odd index: the complement of the same word fact.
+  CLAUSE 2, the 5/6 split: equals (near-end, far-end) counts of the SINGLE right-hand
+            chain -- the J-forced left count matches the measured one at every closed
+            window: True
+
+  CELL 4 -> B.  All three are functions of the word; the word is a function of
+  (rho, N), both FIXED IN THE SEAL.  None is contingent on a measurement.
+
+  NOT AN ERROR IN B1095, WHICH STATES THE MECHANISM: 'the two half-line Hamiltonians
+  are conjugate by the exchange matrix (J H_R J = H_L)'.  The spec labels clause 1
+  '(forced)'.  'P-equivariant (free)' means not-INVARIANT, which is true.
+
+  THE LIMIT OF THIS FINDING, STATED: it analyses the sealed section 1 windows AT
+  rho = alpha.  B1085's object is the FUNCTION rho -> edge content over a 144-point
+  sweep.  Whether THAT function carries contingent content is NOT addressed here.
