@@ -1,0 +1,78 @@
+
+==============================================================================
+CELL 1 -- how often does the record name the MEETING FIELD?
+==============================================================================
+       tracked files scanned (outside_bench excluded, C4): 9831
+       frontier arc FINDINGS.md scanned:                   1203
+
+       tracked files naming the meeting field:  350
+       frontier ARCS naming the meeting field:  65
+       memo 198 said:                           6
+  [OK ] C1 -- the field is counted, not the prose word  26 arcs say the WORD 'meeting' and never the FIELD; they are NOT counted
+  [OK ] C2 -- the same scan returns a SMALL number for a field the programme has no reason to name  Q(sqrt-311): 0 tracked files
+
+  CELL 1 = B  -- 65 arcs, not 6.  Memo 198's number was off by a factor of 11.
+
+==============================================================================
+CELL 2 & 3 -- was the meeting face ever ASKED, and was a VALUE computed on it?
+==============================================================================
+       frontier/B698_the_meeting_probed/ : ['FINDINGS.md', 'PREREG_LEG_A.md', 'arc_verdict.json', 'b698_legA.py', 'ref_baserate_control.sage', 'ref_classnumbers.sage', 'ref_e15_lvalues.sage']
+  [OK ] C3 -- B698 carries its own SEALED prereg in its own directory
+  [OK ] C3 -- B698 carries a graded verdict artifact
+  [OK ] C3 -- B698 carries its own executable
+       arc_verdict.json  id               = B698
+       arc_verdict.json  verdict          = PROVED
+       arc_verdict.json  claim_one_line   = Leg A: the meeting is probed on its analytic side, with the prereg sealed BEFORE the verdict.
+       value work present in B698: yes   L(15a,1) special value
+       value work present in B698: yes   L(15a,2) special value
+       value work present in B698: yes   L'(15a,0) Beilinson K2 regulator
+       value work present in B698: yes   PSLQ at 60 digits over a 5-element basis
+       value work present in B698: yes   class number of the meeting field, two independent ways
+       value work present in B698: yes   a base-rate control over rank-0 conductor-pq curves
+
+  CELL 2 = B  -- the meeting face carries a VALUE COMPUTATION, at theorem grade, with a base-rate control
+
+       B698's sealed question: does the level-15 meeting's ANALYTIC content COUPLE the
+       being-prime 3 and the hearing-prime 5, or is it FACTORED?
+       B698's verdict:  FACTORED -- 'a product with a residue, not nothing'
+       the mechanism:   Flath's tensor-product theorem: the primes are independent local
+                        factors BY CONSTRUCTION.  Not a base-rate miss -- a theorem.
+  CELL 3 = B
+
+==============================================================================
+VERDICT -- the correction owed to memo 198
+==============================================================================
+  CELL 1 = B   CELL 2 = B   CELL 3 = B   controls: ALL PASS
+
+  WITHDRAWN FROM MEMO 198, both sentences, in full:
+
+    "which the corpus mentions six times in total, none of them a crossing and none of them a
+     value computation"                      -> 65 FRONTIER ARCS and 350 tracked files name the
+                                                meeting field, and B698 Leg A IS a value computation.
+    "it has never been asked"                -> B698 Leg A ASKED IT, under a prereg sealed BEFORE
+                                                the verdict, and ANSWERED IT.
+
+  WHAT MEMO 198 MEASURED, AND WHICH STANDS UNCHANGED:
+    *  zero occurrences of the meeting field in each of the SEVEN sealed crossing directories;
+    *  zero meeting rows and zero multi-face rows in docs/KIND_TABLE.md, the admissibility GATE;
+    *  h(-3) = 1, h(5) = 1, h(-15) = 2 -- meeting alone carries a non-trivial class group.
+
+  AND THE ANSWER IS SHARPER THAN THE MEMO'S OPEN QUESTION, NOT WEAKER:
+  memo 198 asked "whether a joint quantity is even well-defined" as though it were untouched.
+  For the ANALYTIC joint quantity it is not untouched -- it is SETTLED NEGATIVE BY A THEOREM.
+  Flath: the automorphic representation is a restricted tensor product, so 3 and 5 are independent
+  local factors by construction.  PSLQ at 60 digits finds no relation among the meeting's and the
+  being's special values.  THE MEETING IS A PRODUCT, NOT A FUSION.
+
+  What B698 leaves standing is exactly what memo 198 rediscovered without knowing it had been
+  found: the genus-theory Z/2, "the 2-rank residue of both primes present" -- the one thing at
+  level 15 that neither hand has alone.  Memo 198 reached the right object by the wrong route and
+  then claimed the route was untravelled.
+
+  THE RULE THIS COSTS, and it is the bench's own standing rule turned on itself:
+  A NUMBER IN A MEMO MUST COME FROM THAT MEMO'S CERTIFICATE.  Memo 198's certificate measured three
+  things and measured them correctly; "six times" and "never been asked" were written beside those
+  measurements and measured nothing.  Asserting a count from prose is the exact defect this bench
+  built already_banked.py and the state-claim linter to catch in others.  BENCH ERROR #20.
+
+Gate 5 untouched.  No measured value is used or named.

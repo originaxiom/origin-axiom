@@ -2421,3 +2421,142 @@ at once** — and the gate has no such row, which is why it was never tried and 
 
 *Two turns ago I said the value wall needed no further explanation. That was true of the wall **as
 tested**. It was not true of the wall **as stated**.*
+
+---
+
+## ADDENDUM 102 (2026-09-11) — **R102: "mission status and roadmap"**
+
+Answered in chat the same turn. Filed here because the standing rule is that **every owner-voiced
+question gets a row the same session**, and because the answer's shape is the thing worth keeping,
+not its wording.
+
+**What was reported:** the lane's state after memos 193–198 — 10 of 12 red tests closed, the 26-file
+dead-script class repaired, B1137 reproduced byte-identically, L192 asked for the first time, the
+complementarity identified as Dirichlet's unit theorem, the lab lane's account closed
+(word-determined, phase-generic, C4-blocked), my own unification hypothesis killed by its
+preregistered condition, and the admissibility gate shown to have zero joint rows.
+
+**R102-1 — the standing lesson, recorded as a rule.** A roadmap that lists what a bench *could* do
+is a wish list. The only roadmap items this bench will carry forward are ones where **the next
+computation is already named and its two outcomes already fixed**. Everything else is a note, and is
+labelled a note.
+
+---
+
+## ADDENDUM 103 (2026-09-11) — **R103: "i want u to be useful and progress"**
+
+Taken as a standing instruction and not a single request: **stop auditing, produce**. The answer is
+memo 199, and the item it closes was chosen by one criterion — *an open question another seat named,
+explicitly handed off, and owned by nobody.*
+
+**What was done.** `frontier/B1327_relation_not_observer/FINDINGS.md` (verdict OPEN) ends with:
+*"§8's chirality bit is a Fricke-`kappa` torsor class of a pair, and may not be the same object as
+the manifold's mirror sign … the seat that owns §8 should adjudicate. If they are, one of the three
+rows is not an independent input."* **Adjudicated: NO. They are not the same bit.** Sealed before
+the computation (`SECTION8_BIT_ADJUDICATION_PREREG.md`,
+sha256 `a0f898ac70dc9bdaa27778e98d73692f94e8abb443aba3922962c07ca4094dbb`), both outcomes of all
+three cells fixed in advance, five controls, all passing.
+
+Two separations, either sufficient:
+
+* **Domain.** Hold the object relatum fixed and move only the partner: the §8 class takes **eight
+  distinct values across all four branches** while the object never changes once. The mirror sign is
+  read off the object's own symmetry group with no partner named anywhere, splitting 4 + 4.
+* **Presence.** On the object they **disagree about existing**. The mirror sign is present and
+  non-trivial (m004 amphichiral, four orientation-reversing isometries). The §8 bit is **absent**:
+  `kappa = −2`, `2 − kappa = 4 = 2²`, `D = +1`, the branch where the mirror is realised *inside*
+  `SL₂(ℤ)` — B1248's mechanism, *the cusp pins `kappa` below the wall `kappa = 2`.*
+
+### R103-1 — **the answer was already banked, and that is the finding**
+
+`already_banked.py` on *"chirality bit same as mirror sign"*, *"Fricke kappa torsor pair double
+count"*, *"arrow swap mirror three bits one relation"*, *"freedom ledger independent input
+over-count"* returns **B1248 — PROVED, banked 2026-09-05**, six days before B1327 was written, and it
+contains **both halves**: *"the class taking many values"* and *"why the object alone has no bit."*
+**Neither arc cites the other.** Fourth measurement of the same citation gap (memos 195, 196, 198).
+The first three cost redundancy. **This one cost a seat a question mark on a settled fact.**
+
+### R103-2 — returned to B1327's seat, as an observation and not a correction
+
+All eight of m004's cusp maps are **diagonal** (verified: zero off-diagonal entries), and
+`det diag(a,d) = a·d` **identically**. So on this presentation `mirror = arrow × swap` is the
+determinant of a diagonal matrix. **The empirical content of that check is the diagonality, not the
+product law**, and the relation cannot be cited as independent evidence that three named bits are one
+relation — given diagonality it could not have come out otherwise. B1327's typing proposal does not
+rest on the product and is untouched.
+
+### R103-3 — **BENCH ERROR #19**, filed at the point of occurrence
+
+An earlier pass of this adjudication computed `kappa` in the **character-variety** normalisation
+`tr[A,B] − 4`, compared it to B1200's statement, and printed a mismatch — i.e. this bench momentarily
+read a **PROVED** arc as contradicted. B1200 and §8 both use `tr[A,B] − 2`. Verified on m004's
+holonomy: `tr[A,B] − 2 = ω` exactly, `|tr[A,B] − 2| = 1` (B1200's unit obstruction),
+`Φ₃(tr[A,B] − 2) = 1.79e-15`. **B1200 reproduces. The contradiction was the convention, and the
+convention was mine.** Control C2 now prints **both** forms permanently so the next reader cannot
+make it silently.
+
+### R103-4 — what this deliberately does not do
+
+It does not move a freedom-ledger row; that is the §8/§9 owner's call, and this bench reports only
+that **the identity the over-count needed does not hold**. It does not decide whether **arrow** and
+**swap** are independent of each other — that relation is internal to B1327's triple, it is real, and
+all three of its terms are object-internal, so if a row moves on that account it is **not §8's**. And
+it recovers none of *"which pair is used remains supplied"*; if anything the domain separation
+**sharpens** that cost, since the bit depends on the partner across all four branches.
+
+---
+
+## ADDENDUM 104 (2026-09-11) — **R101, CORRECTED IN PLACE ABOVE'S TERMS: the meeting face WAS asked, and R101's own numbers were wrong**
+
+R101 (the owner's *"are we making same mistake again by counting only on the object, and not its
+relationships, faces interactions"*) carries two sentences that this bench now withdraws. They are
+left standing above, unedited, and corrected here — the addendum-only rule.
+
+**Certificate** `certificates/the_meeting_was_asked.py` · **Output**
+`outputs/the_meeting_was_asked_out.txt` · CELL 1/2/3 = **B/B/B**, four controls, all passing.
+
+### Withdrawn
+
+> *"the corpus mentions **six times in total**, never in a crossing"*
+
+**Measured: 65 frontier arcs and 350 tracked files name the meeting field**, with this bench's own
+lane excluded from the count (control C4). Off by a factor of eleven.
+
+> *(memo 198 §6, carried into R101's framing)* *"it has never been asked"*
+
+**False.** `frontier/B698_the_meeting_probed/` — **verdict PROVED**, prereg `PREREG_LEG_A.md`
+**sealed before the verdict** — asked the joint question and answered it: **FACTORED**, by **Flath's
+tensor-product theorem** (the automorphic representation is a restricted tensor product: 3 and 5 are
+independent local factors *by construction*). With `L(15a,1)`, `L(15a,2)`, `L'(15a,0)`, **PSLQ at 60
+digits**, the class number two ways, and a base-rate control. **THE MEETING IS A PRODUCT, NOT A
+FUSION.**
+
+### R104-1 — what survives, and it is the part that was measured
+
+The seven crossing directories' zeros, the gate's **zero meeting rows and zero multi-face rows**,
+and `h(−3)=1 / h(5)=1 / h(−15)=2` all came from memo 198's certificate and stand unchanged. **The
+answer to the owner's question does not change**: the exhaustion really is exhaustion of a table
+with no joint row in it. What changes is that the meeting face itself is not unexplored — and the
+one joint quantity that *was* explored came back **factored by a theorem**, which is a harder fact
+than "unasked".
+
+The live question **narrows**, and the narrowing is the gain: not *"has anyone asked the meeting
+face"* — yes, at theorem grade — but **"is there a joint quantity outside the analytic channel
+Flath factors, and would the gate admit it?"**
+
+### R104-2 — **BENCH ERROR #20**, and the standing rule it buys
+
+**A number in a memo must come from that memo's certificate.** Memo 198's certificate measured three
+things and measured them correctly; *"six times"* and *"never been asked"* were written beside those
+measurements and measured nothing. This is the precise defect this bench built `already_banked.py`
+and the state-claim linter to catch **in others**, committed in the memo that cites both.
+
+**Memo 153's rule required the searched TERMS to be stated with the claim. It did not require the
+NUMBER to be produced by the instrument. It does now.** Added to the standing list.
+
+### R104-3 — how it was caught, which is the only reassuring part
+
+By the bench's own standing rule, applied to its own prose: *exhaust the repo before ranking a gap.*
+Running `already_banked.py` on the terms of the very sentence — rather than trusting the sentence —
+returned B698 in the first page of hits. **The rule works. It was not run on that sentence when the
+sentence was written.**

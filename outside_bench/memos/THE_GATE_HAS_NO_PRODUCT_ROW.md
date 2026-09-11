@@ -98,3 +98,68 @@ the wall as stated.
 
 *Gate 5 untouched — no measured value is used or named. Nothing promotes to `CLAIMS.md`.
 No arc is retracted; one sentence of my own is.*
+
+---
+
+# ADDENDUM 1 (2026-09-11, next turn) — **TWO SENTENCES OF THIS MEMO ARE WITHDRAWN. THE MEETING FACE WAS ASKED, AND IT WAS ANSWERED.**
+
+**Certificate** `certificates/the_meeting_was_asked.py` · **Output**
+`outputs/the_meeting_was_asked_out.txt` · CELL 1/2/3 = **B/B/B**, four controls, all passing.
+
+## Withdrawn
+
+> *"which the corpus mentions **six times in total**, none of them a crossing and none of them a
+> value computation"*
+
+**Measured: 65 frontier arcs and 350 tracked files name the meeting field** (this bench's own lane
+excluded from the count, control C4). Off by a factor of eleven.
+
+> *"What this bench can say is only this: **it has never been asked**."*
+
+**False.** `frontier/B698_the_meeting_probed/` — **verdict PROVED**, its own prereg
+`PREREG_LEG_A.md` **sealed before the verdict**, its own executable, three reference scripts — asked
+precisely the joint question:
+
+> *"Does the level-15 meeting's ANALYTIC content **couple** the being-prime 3 and hearing-prime 5 —
+> an entanglement neither hand has — or is it **factored**?"*
+
+and answered it: **FACTORED — but a product with a residue, not nothing.** The mechanism is
+**Flath's tensor-product theorem**: the automorphic representation is a restricted tensor product,
+so 3 and 5 are independent local factors **by construction**. Not a base-rate miss, a theorem.
+Supporting value work, all present in that directory: `L(15a,1)`, `L(15a,2)`, `L'(15a,0)` (the
+meeting's Beilinson K₂ regulator), **PSLQ at 60 digits** over a five-element basis finding no
+relation, the class number computed two independent ways, and a base-rate control over rank-0
+conductor-p·q curves.
+
+## What this memo measured, and which stands unchanged
+
+* zero occurrences of the meeting field in **each** of the seven sealed crossing directories;
+* **zero** meeting rows and **zero** multi-face rows in `docs/KIND_TABLE.md`, the admissibility gate;
+* `h(−3) = 1`, `h(5) = 1`, `h(−15) = 2` — meeting alone carries a non-trivial class group.
+
+All three came from this memo's certificate. Both withdrawn sentences did not.
+
+## The answer is SHARPER than this memo's open question, not weaker
+
+§6 asked *"whether a joint quantity is even well-defined"* as though the door were unopened. For the
+**analytic** joint quantity it is not unopened — **it is settled NEGATIVE by a theorem.**
+**THE MEETING IS A PRODUCT, NOT A FUSION.**
+
+And what B698 leaves standing is exactly the object §3 of this memo rediscovered without knowing it
+had been found: the **genus-theory ℤ/2**, *"the 2-rank residue of both primes present"* — the one
+thing at level 15 that neither hand has alone. **This memo reached the right object by the wrong
+route and then claimed the route was untravelled.**
+
+The live question therefore narrows, and narrowing is the gain: *not* "has anyone asked the meeting
+face" (yes, at theorem grade) but **"is there a joint quantity outside the analytic channel Flath
+factors — and would the gate admit it?"** The gate's zero rows, which this memo did measure, is the
+real finding and it survives intact.
+
+## BENCH ERROR #20 — the rule this costs
+
+**A number in a memo must come from that memo's certificate.** Memo 198's certificate measured
+three things and measured them correctly; *"six times"* and *"never been asked"* were written beside
+those measurements and measured nothing. Asserting a count from prose is the precise defect this
+bench built `already_banked.py` and the state-claim linter to catch **in others**. The standing rule
+(memo 153) already required the terms to be stated with the claim; it did not require the **number**
+to be. It does now.
