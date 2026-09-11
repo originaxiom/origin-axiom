@@ -92,6 +92,7 @@ def analyse_mc(gens,rels,peripherals,rho,p,d):
     r1=rank(R+Bt,p)-rB
     return dict(c=c,a0=a0,a1=a1,a2=a2,t0=t0,t1=t1,r1=r1,rB=rB,
                 t0s=[x['t0'] for x in cusps], t1s=[x['t1'] for x in cusps],
+                live=sum(1 for x in cusps if x['t0']>0),
                 n=a1-r1, I=t0-r1)
 
 def dual_rho(rho,gens,p,d):
