@@ -2374,3 +2374,50 @@ B1222's own wording, now applied to mine.
 
 *Both paths you said "go" to are now run. Path 2 closed the lab lane's account; path 1 closed my own
 hypothesis. Neither result extends the programme — both make the ledger true.*
+
+
+---
+
+## ADDENDUM 101 (2026-09-11) — **R101: "are we making same mistake again by counting only on the object, and not its relationships, faces interactions"**
+
+**You are, and it was aimed at a sentence I had banked hours earlier. Tested; the charge holds.
+Memo 198.**
+
+**Not one of the seven sealed crossings touches the meeting face.** `sqrt-15` across all seven arc
+directories: **0, 0, 0, 0, 0, 0, 0.** (The English word "meeting" is counted separately — 7 in B915,
+3 in B925 — because a prose word is not a field.)
+
+**And the gate has no row for it.** `KIND_TABLE.md` is not a survey, it is the **admissibility gate**,
+and its rule is categorical: *"a prereg proposing a pair absent from the admissible list does not
+seal."* Its field column, over every object-side row: **2× ℚ(√5), 2× ℚ, 1× ℚ(ω), 1× cubic K, 1× —.**
+**Meeting: 0. Rows built from more than one face: 0.**
+
+> **Every admissible object quantity in the programme's own gate is a single-field quantity.** A
+> product-face crossing could not have been sealed — not by prohibition, **by absence**.
+
+**And meeting is not redundant.** Class numbers, computed not asserted: being **1**, hearing **1**,
+**meeting 2** — the only one of the three with a non-trivial class group, the *genus bit* B1276 named
+and that the corpus mentions six times in total, never in a crossing.
+
+### The correction
+
+**Wrong, as I banked it:** *"the object's numbers are not nature's numbers."*
+**What the record supports:** *the object's **single-face** numbers are not nature's numbers, and no
+multi-face quantity has ever been admissible.*
+
+K3's refutation stands — the type story still fails, and three hearing-side crossings asking hearing
+for magnitudes and missing is still fatal to it. What K3 could not license is a claim about a
+population nobody has drawn from, and I extended it there anyway.
+
+### And the fence, because the opposite error is available
+
+**This does not say the meeting face will yield values.** Meeting is imaginary quadratic, unit rank
+0 — by the same Dirichlet argument it carries **torsion, not growth**. A class group of order 2 is a
+bit, and **a bit is still not a value**. Reading this as "the product face is where the values are"
+is my error with the sign flipped.
+
+**The untested population is not ℚ(√−15)'s numbers. It is any quantity built from more than one face
+at once** — and the gate has no such row, which is why it was never tried and why nobody noticed.
+
+*Two turns ago I said the value wall needed no further explanation. That was true of the wall **as
+tested**. It was not true of the wall **as stated**.*
