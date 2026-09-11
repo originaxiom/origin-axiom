@@ -2324,3 +2324,53 @@ was found only because memo 196 addendum 1 wrote its own limit down instead of l
 reader.
 
 **Next: K3** — the one that converts §4A.0's empirical leg into a theorem.
+
+
+---
+
+## ADDENDUM 100 (2026-09-11) — **R100: "go"** — K3 run, and my own hypothesis is refuted
+
+Path 1 taken. **Memo 195 addendum 2.** The result is a negative, and it is mine.
+
+§4 of memo 195 proposed that the seven-for-seven crossing exhaustion is **structural** — a measured
+value is a magnitude *with* an orientation, no quadratic face carries both, so every crossing asked a
+face for what it lacks. **Fenced, never banked as a law, given four ways to die. K3 was the decisive
+one and it fires on its FALSE branch.**
+
+**The four being-side crossings sort as the hypothesis predicts**, and two of them strikingly:
+B915 asked being for `α_s` — a *running* coupling — and missed **α_s-dominated, +0.041 against
++0.002** in the trace-fixed boundary ratio, a 20× asymmetry in exactly the predicted direction.
+B925 asked being for an RG ladder and got the E₆ rung back *"RG-invisible"*. B929 asked being for
+CKM ratios, **hit on shape and missed on magnitude by 5–9×**. B1027 asked being's μ₆ **trit** for a
+continuous phase.
+
+**And then it dies.** B1066 R-A, B1066 R-B and B1075 asked the **hearing** face for **magnitudes** —
+hearing's *own* commodity, unit rank 1, the fundamental unit φ — whether a measured ratio equals a
+φ-expression. **All three missed: 4.7σ, 3.4σ, ≈5σ.** K3's own text: *"a crossing that asked a face
+for its own commodity and still missed → the hypothesis is **false**."*
+
+**Refuted — not vacuous**, which is the more informative of the two deaths it was given.
+
+**Second time.** B1222 proposed a unification of the programme's ~65 vanishings, named three kill
+conditions, and died on them. §4 cited B1222 as the precedent *when writing these conditions*. The
+discipline worked twice, and the second time it was aimed at my own proposal — which is the only
+reason it is worth having.
+
+### What this settles, and it is the answer to the question I set out on
+
+**§4A.0's fourth leg STAYS EMPIRICAL.** Converting it was the whole point: three of the four legs
+retiring old Tier 2 are theorems and the fourth is the seven misses, which the document itself calls
+*"empirical exhaustion, not theorem."* **It does not convert.** The seven-for-seven needs no type
+story — it is what it looks like: **the object's numbers are not nature's numbers.** The document
+was right and this bench's attempt to improve on it fails.
+
+### What survives
+
+**Memo 195 §§1–3 are untouched** — the complementarity is Dirichlet's unit theorem and the
+five-arcs-never-joined result is a count; neither depended on §4. Two of the seven remain
+*consistent* with the complementarity and are recorded as observations, not law. Two out of seven is
+a tendency, and **a thesis that fails its decisive test is refuted, not partially confirmed** —
+B1222's own wording, now applied to mine.
+
+*Both paths you said "go" to are now run. Path 2 closed the lab lane's account; path 1 closed my own
+hypothesis. Neither result extends the programme — both make the ledger true.*

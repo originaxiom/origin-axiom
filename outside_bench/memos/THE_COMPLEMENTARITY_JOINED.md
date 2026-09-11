@@ -193,3 +193,64 @@ an instrument and the only one whose blocker is a decision rather than work.
    the sorting rule.
 
 *Nothing here promotes. Gate 5 untouched.*
+
+
+---
+
+# ADDENDUM 2 — K3 RUN. §4'S HYPOTHESIS IS REFUTED BY ITS OWN CONDITION.
+
+**2026-09-11.** Certificate `certificates/k3_the_crossings_sorted.py`, output
+`outputs/k3_the_crossings_sorted_out.txt`.
+
+§4 proposed that the seven-for-seven crossing exhaustion is **structural** — a measured value is a
+magnitude *with* an orientation; no quadratic face carries both; so every crossing asked a face for
+what it provably lacks. It was fenced, never banked as a law, and given four ways to die. **K3 was
+named as the decisive one. It fires, on its FALSE branch.**
+
+## The sort, from the sealed text
+
+| crossing | object side | face | asked for | outcome |
+|---|---|---|---|---|
+| **B915** | `sin²θ_W = 3/8` from exact E₆ traces + the SM-desert curve | **being** | `α_s(M_Z)` — a **running** coupling | MISS 15.97σ, **α_s-dominated: +0.041 against +0.002** |
+| **B925** | the compact D-chain's own algebra | **being** | an **RG ladder** | rungs RG-degenerate, the E₆ rung *"RG-invisible"* |
+| **B929** | the `m_S` flip-mass structure | **being** | CKM **ratios** | shape **HIT**, ratios **MISS by 5–9×** |
+| **B1027/B1063** | the χ phases `{±2π/3}` — the arguments of ω, being's μ₆ units | **being** (a **trit**) | `δ_CP`, a continuous phase | MISS 11.4σ / 38σ; refresh: eight pairs, eight misses |
+| **B1066 R-A** | the listener pair, `0.27639 = |S_ττ|²` | **hearing** | `sin²θ₁₂` — a **magnitude** | **MISS 4.7σ** |
+| **B1066 R-B** | *"the φ-geometric row"*, anchor `φ/2 = 0.80902` | **hearing** | `|U_e1|` — a **magnitude** | **MISS 3.4σ, "unrescuable"** |
+| **B1075** | the same tones, `1/2` and `1/(2φ)` | **hearing** | PMNS **moduli** | **MISS at power** |
+
+## Why it dies
+
+**Three crossings asked the hearing face for magnitudes.** Multiplicative magnitude *is* hearing's
+commodity — unit rank 1, the fundamental unit φ, the regulator. All three asked whether a measured
+ratio equals a φ-expression, which is asking hearing for exactly what hearing has. **All three
+missed, at 4.7σ, 3.4σ and ≈5σ.**
+
+K3's own words: *"if any crossing asked a face for its OWN commodity and still missed, the
+hypothesis is **false**."* It did, three times. **Refuted — not vacuous, which is the more
+informative of the two deaths it was given.**
+
+**Second time this has happened to a unification of the programme's negatives.** B1222 was the
+first, and §4 cited it as the precedent when writing these conditions. The discipline worked twice,
+and the second time it was pointed at my own proposal.
+
+## What survives, as observations and not as law
+
+* **B915's miss is α_s-dominated by ≈20×** — `+0.041` in the running direction against `+0.002` in
+  the trace-fixed boundary ratio. The boundary value, being's own commodity, was nearly right.
+* **B929 hit on shape and missed on magnitude** — the discrete cascade ordering landed in band; the
+  ratios were off 5–9×.
+
+Two supporting instances out of seven is a tendency. **A thesis that fails its decisive test is
+refuted, not partially confirmed** — B1222's exact wording, now applied to mine.
+
+## What is untouched, and what it means for the goal
+
+**§§1–3 stand.** The complementarity is Dirichlet's unit theorem; the five-arcs-never-joined result
+is a count. Neither depended on §4.
+
+**And §4A.0's fourth leg STAYS EMPIRICAL.** That was the point of running this: to convert the one
+non-theorem pillar of the programme's retirement argument. It does not convert. The seven-for-seven
+needs no type story — **it is what it looks like: the object's numbers are not nature's numbers.**
+`WHAT_WOULD_COUNT` was right to call it exhaustion rather than theorem, and this bench's attempt to
+upgrade it fails.
