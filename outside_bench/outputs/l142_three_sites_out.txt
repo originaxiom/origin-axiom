@@ -1,0 +1,25 @@
+
+==============================================================================
+CELL 1 -- across representations: can any e6-equivariant morphism exist?
+==============================================================================
+       mu's site  (B866): a pencil on the ADJOINT 78, det of a 48x48 minor of ad(x8 + t x16)
+       B969's site      : the cubic form on the compact kernel, in the MATTER 27
+       this bench's new site (memo 201): the (x14,x22) branch locus, in the MATTER 27
+
+       dim of the adjoint representation : 78
+       dim of the matter representation  : 27
+       27 and 78 are irreducible e6-representations of DIFFERENT dimension, hence
+       INEQUIVALENT; by Schur's lemma Hom_e6(27, 78) = 0.
+
+  CELL 1 = B  -- no e6-equivariant morphism carries the adjoint-side pencil to a matter-side pencil, or back.
+
+==============================================================================
+CELL 2 -- within the 27: are the two pencils' generating pairs CONJUGATE in GL(27)?
+==============================================================================
+       kernel_0         measured-plane vs orphan-plane : (0, 3)
+       charpoly_0       measured-plane vs orphan-plane : False
+       trace_0          measured-plane vs orphan-plane : True
+       kernel_1         measured-plane vs orphan-plane : (0, 3)
+       charpoly_1       measured-plane vs orphan-plane : False
+       trace_1          measured-plane vs orphan-plane : True
+       rank_product     measured-plane vs orphan-plane : (27, 24)

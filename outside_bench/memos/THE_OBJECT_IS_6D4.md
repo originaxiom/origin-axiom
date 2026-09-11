@@ -125,3 +125,52 @@ now explicit in the code with that note attached. **Loud failure here was luck, 
 *Gate 5 untouched — no measured value is used or named. Nothing promotes to `CLAIMS.md`. One
 conjecture of the programme (B882) is refuted; one banked claim (B1077's split cubic) is flagged as
 in conflict and left for reproduction.*
+
+---
+
+# ADDENDUM 1 (2026-09-11, same session) — **WHERE THE TRIALITY LIVES: 77 IS THE PRICE, NOT THE MECHANISM**
+
+The constructive counterpart to §3's refutation. Verified on **three** cubics independently — `μ`,
+the monic model `x³−12x−5`, and **the 48-commutant cubic from `ad(x₈)²`**:
+
+    disc = 77 x (a perfect square)   in all three cases
+      -> sqrt(disc) lies in Q(sqrt 77)
+      -> over Q(sqrt 77) the cubic has SQUARE discriminant  ->  Galois group A3 = Z/3
+      -> Aut over Q(sqrt 77) has an element of ORDER 3
+
+and the cubic stays irreducible over `ℚ(√77)` because `deg 3` and `[ℚ(√77):ℚ] = 2` are coprime.
+
+| | `L` | type | the `L`-obstruction |
+|---|---|---|---|
+| over **ℚ** | non-cyclic cubic field, `Aut = 1` | **⁶D₄** | **present** |
+| over **ℚ(√77)** | cyclic cubic, `Aut` of order 3 | **³D₄** | **gone** |
+
+**And `ℚ(√77)` is minimal** — it is the fixed field of `A₃` inside the `S₃` Galois closure, so no
+smaller field makes `L` cyclic. Knus–Tignol p. 5 adds that *"cyclic compositions over finite fields,
+p-adic fields or algebraic number fields are reduced"*, so Theorem 4.2(i)'s **reduced** hypothesis is
+automatic over any number field.
+
+> **77 is not what makes triality work. It is the exact price of buying triality at all.**
+
+This inverts the programme's reading of the resolvent. Months were spent asking what mechanism
+*produces* 77. **It is not a product. It is the measure of what the object cannot do over its own
+base field** — the size of the obstruction, not a clue to a mechanism.
+
+## The fence on the positive half, stated plainly
+
+Over `ℚ(√77)` the obstruction **from `L`** vanishes, giving type ³D₄. **Triality there additionally
+requires `E` split over that base** — Theorem 4.1 gives that as necessary, and **this bench has not
+verified it.** So the correct statement is:
+
+> **`ℚ(√77)` is where the `L`-obstruction dies. It is not yet where triality is proved to live.**
+
+**Whether `E` — the Allen invariant — is split is the named next computation**, and it is what
+completes the verdict in either direction: if `E` is not split, the object has no triality even over
+`ℚ(√77)`, and the obstruction is doubled.
+
+## Recorded, not dropped: a computation that died
+
+The full commutant of the 28 on the 48 (expected `dim 12`, centre `dim 3`) was attempted and **killed
+by a resource limit (exit 143)**. It was corroboration only — §3's `Mat₂(ℚ)³` argument deliberately
+avoids needing it — but it was attempted and did not finish, and that belongs in the record rather
+than quietly vanishing.
