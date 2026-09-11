@@ -132,3 +132,64 @@ Consequences, stated plainly:
 
 *Gate 5 untouched — no measured value is used or named. Nothing promotes to `CLAIMS.md`. No arc is
 retracted; one label of a banked arc is flagged for correction, at search-summary confidence.*
+
+---
+
+# ADDENDUM 1 (2026-09-11, same session) — **THE ⁶D₄ POINT WAS ALREADY FOUND, IN AUGUST, BY B882'S OWN SWEEP — AND IT NEVER LEFT THE JSON**
+
+Found by doing what should have come first: **mining the repository's own fetched literature before
+searching the web.** `frontier/B882_magic_square_naming/priorart_findings.json` is **72 KB** of a
+ten-agent prior-art sweep run 2026-08-04, and it contains the following, verbatim:
+
+> *"…specializes to the CYCLIC case (Gal = ℤ/3, i.e. an irreducible cubic with cyclic, not full S₃,
+> Galois group) for genuine trialitarian (³D₄) groups — **an important nuance: the pure S₃-Galois-group
+> case corresponds to a DIFFERENT (non-cyclic, '⁶D₄' / non-Galois cubic étale) stratum, not the
+> cyclic ³D₄ case usually emphasized as 'trialitarian.'**"*
+
+**§3 of this memo is therefore not a discovery. It is a rediscovery of a finding this programme
+already made, five weeks earlier, and then lost.**
+
+## Where it was lost
+
+`grep` for `6D4` across the whole repository returns **exactly one file**: that JSON.
+
+**It never reached B882's own `FINDINGS.md`.** It never reached `NOVELTY_SWEEP_LEDGER.md` row 6. And
+it never reached **B1077's floor-lift**, which a month later wrote *"`ℚ(√77)` can only enter through
+the twisted **³D₄** form"* — the exact error the August sweep had already flagged as *"an important
+nuance."*
+
+**This is a sharper form of the citation gap than the five this bench has measured before.** Those
+were arcs failing to cite other arcs. **This is an arc failing to cite its own artifact** — the
+finding was in the same directory as the FINDINGS.md that omitted it.
+
+## And the confidence level was already typed, better than this memo typed it
+
+The same JSON records that the `cyclic ⇒ ³D₄` dichotomy **was not located verbatim** in
+Knus–Tignol 0912.3405 (only pp. 1–13 were read), and attributes it instead to **KMRT Ch. VII §44.B**
+and **Springer–Veldkamp**, calling it *"a real, standard fact … but NOT located verbatim."*
+**That is a better-fenced statement than §3's**, and it supersedes §3's fencing.
+
+## Two other things the JSON already holds, which bear on memo 202
+
+* **The decomposition is confirmed VERBATIM from Landsberg–Manivel's Vinberg construction:**
+  *"g(A,B) = t(A)×t(B) ⊕ (A₁⊗B₁)⊕(A₂⊗B₂)⊕(A₃⊗B₃) … g(ℂ,𝕆) = e₆. Hence
+  e₆ = (so₈ + u(1)²) ⊕ V₁⊕V₂⊕V₃ with dim Vᵢ = 16, EXACTLY the user's decomposition."*
+  **Memo 202's §7 statement is textbook, and the record already had the citation.**
+* **But:** *"no direct single-step branching table for `E₆ ⊃ so(8)⊕u(1)⊕u(1)` was located in any
+  source … the CYCLIC LAW `[Vᵢ,Vⱼ] = Vₖ` … is not present in any standard branching-rule table and
+  is not a textbook/classical statement."* So the **grading** is classical; the **cyclic bracket law**
+  is not — a distinction memo 202 did not draw.
+
+## The rule this buys, and it is the one that would have caught three of today's errors
+
+> **MINE THE REPOSITORY'S OWN FETCHED LITERATURE BEFORE SEARCHING THE WEB.**
+> `priorart_findings.json`, `prior_art_*.json`, `docs/LITERATURE_*.md` and
+> `docs/PRIOR_ART_DOSSIER*.md` are fetched primary material sitting in the tree. `already_banked.py`
+> searches **prose**; it does not search these JSON artifacts, which is exactly why this was missed.
+
+**BENCH ERROR #24.** And it is the same habit as #23 — *claiming before running the check that governs
+the claim* — one memo later.
+
+*§5's limits stand unchanged and are now more important, not less: no full text was obtained in this
+session. But the record already contained fetched full-text extracts, and this bench searched the web
+before reading them.*
