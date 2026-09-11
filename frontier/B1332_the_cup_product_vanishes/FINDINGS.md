@@ -25,9 +25,13 @@ V|_T  =  Sym^m (x) 1  =  Sym^m  =  V*|_T        ( = W )
 — not merely isomorphic, **the same module** (asserted and checked in every sector, not assumed).
 Two consequences, and together they are the entire shape of the theorem:
 
-**(1) Half of it is free.** `t_0 = dim H^0(T;V) = dim H^0(T;V*) = t_0*`. With B1297's `t_1 = t_0 + t_0*`
-that gives `t_0 = t_1/2` immediately. The target `r_1 = t_0` *is* the target `r_1 = t_1/2`.
-Every sector computed below shows `t_1 = 2 t_0` — the identity is visible in the data.
+**(1) An upgrade of a condition the domain already carries.** B1297's `D` *states* `t_0 = t_0*` — it is
+part of the domain's definition, not a discovery here, and with `t_1 = t_0 + t_0*` it already gives
+`t_0 = t_1/2`, so the target `r_1 = t_0` was always the target `r_1 = t_1/2`. (Every sector below shows
+`t_1 = 2 t_0`, as it must.) What is new is **why**, and it is strictly stronger than the equality of two
+numbers: the two restrictions are not merely equidimensional, they are **the same module**. That is what
+puts `L_V` and `L_{V*}` in one space — equal dimensions would not — and so it is the upgrade from
+`t_0 = t_0*` to a well-posed isotropy question.
 
 **(2) The pairing exists downstairs.** `W = Sym^m` is self-dual as an `SL2` module, so the canonical
 perfect pairing `H^1(T;V) x H^1(T;V*) -> H^2(T;C) = C` becomes a pairing of `H^1(T;W)` **with itself**,
