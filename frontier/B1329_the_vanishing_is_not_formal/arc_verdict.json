@@ -1,0 +1,12 @@
+{
+ "id": "B1329",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": ["B1297", "B1324"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE INDEX VANISHING IS NOT FORMAL, THE NAIVE PROOF ROUTE IS CLOSED WITH A REASON, AND THE EVIDENCE IS STRONGER AFTER A BIAS IN IT WAS FOUND AND REMOVED. (1) ALL FOUR of B1297's identities are consequences of the long exact sequence of (M, dM), Poincare-Lefschetz duality and chi(M) = 0 -- including r1 + r1* = t1, which had looked like an extra input: it is derived here by applying the same computation to V*. They leave I FREE, so no rearrangement of them can prove the vanishing. (2) THE CLASSICAL HALF-LIVES-HALF-DIES ARGUMENT PROVABLY DOES NOT EXTEND. For self-dual W the image L_W is isotropic because H^2(M;C) -> H^2(T;C) is ZERO, factoring through H^3(M,dM;C) = C. For V = W (x) chi with chi of order 3 the cup product lands in H^2(M;chi^2), where H^3(M,dM;chi^2) = H_0(M;chi^2)* = 0 because chi^2 is non-trivial -- so that map is SURJECTIVE, not zero, and the isotropy argument fails exactly where the twist is non-trivial. (3) A BIAS IN THIS BENCH'S OWN EARLIER SCAN, FOUND AND REMOVED: a single Sym^m germ has t0 = 1 and t1 = 2, where L_V is a LINE in a 2-dimensional space and I != 0 would require r1 = 0 or 2 -- both extremes. The realistic case is a SUM, 27 restricted to an sl2 germ being (+) Sym^{n_i} with t0 = #summands. Re-run on sums: 696 further in-domain sectors with t0 > 1 (488 at t0 = 2, 208 at t0 = 3, where a 3-plane in a 6-dimensional space is Lagrangian only on a real condition), EVERY ONE STILL ZERO. The earlier 9 108 are also 63% non-vacuous (t0 = 1 rather than 0), so T5 does not account for them. (4) THE SHARP STATEMENT IS r1 = t0 -- the restriction image is exactly half-dimensional even for non-self-dual V, equivalently a1 = a1*. It is NOT 'a1 = t0 and the restriction injective': 32 sectors carry a1 = 2 > t0 = 1 with a one-dimensional kernel. (5) A CAUTION FOR WHOEVER PROVES IT: Sym^m carries a SYMMETRIC invariant form for m even and an ALTERNATING one for m odd, so against the cup product on H^1 of a torus the induced pairing alternates in parity with m, and 'Lagrangian' is the right word only for one parity. V is genuinely not self-dual throughout -- V = V* would force chi trivial."
+}

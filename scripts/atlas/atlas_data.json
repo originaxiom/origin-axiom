@@ -7195,6 +7195,17 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1329": {
+   "slug": "the vanishing is not formal",
+   "motifs": [
+    "dickson_tower"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "representation"
+  },
   "B132": {
    "slug": "quantum layer",
    "motifs": [

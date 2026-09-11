@@ -51,3 +51,31 @@ escalation are the proof).
 - **The `tracked-deps` gate** (`scripts/gates/gates.py`, E57) — a tracked test or script may not
   depend on a path that exists on the bench but not in git; the local suite is blind to this class
   by construction, so the gate runs at push.
+
+## Four traps this bench walked into in one session (2026-09-10/11, B1325–B1329)
+
+Recorded because each cost a wrong answer that a re-run caught, and all four are
+the same species: **an instrument that cannot see the notation its target is
+written in reports a clean result.**
+
+- **A grep over TeX or PDF text must be normalised first.** Three separate wrong
+  answers in one session: a prior-art PDF scan reported *zero* "figure-eight"
+  mentions when the file reads `ﬁgure` with a **ligature**; a retraction gate
+  missed the retracted `all $83$ members` while matching `all 83 members`; and a flattener that
+  stripped `~` deleted the markdown `~~strikethrough~~` that marks a line as a
+  *mention*, turning a struck-out claim into a live one. **Normalise ligatures and
+  TeX wrappers before matching, and read mention-cues from the ORIGINAL line**
+  (`scripts/checks/retraction_sweep.py::_flatten`, B1326).
+- **`retraction_sweep` now sweeps `*.tex` as well as `*.md`** (B1326). It globbed
+  `*.md` only, so `papers/P3_THE_PAPER/main.tex` — the flagship document — was
+  structurally invisible to the gate meant to guard it.
+- **`scripts/atlas/render.py` renders; `scripts/atlas/atlas.py` mines.** Running
+  only the first refreshes the rendered map while leaving `atlas_data.json` stale,
+  and `gate_atlas_fresh` then reports the new arcs as dirs-only. **Run `atlas.py`
+  then `render.py`, in that order, whenever an arc is added** (B1328).
+- **A single `Sym^m` germ is a biased test of the index** (B1329). It has
+  `t_0 = 1`, `t_1 = 2`, so the restriction image is a line in a 2-dimensional
+  space and `I != 0` would need the extreme `r_1 = 0` or `2`. The realistic object
+  is a **sum** — `27` on an `sl2` germ is `(+) Sym^{n_i}`, `t_0 = #summands`. Test
+  sums before concluding anything vanishes.
+
