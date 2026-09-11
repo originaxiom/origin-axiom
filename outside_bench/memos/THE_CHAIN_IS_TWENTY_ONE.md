@@ -196,3 +196,75 @@ lab lane tests a model identity, then K3 (the crossings sort) and the three 4A.3
 weight.
 
 *Nothing is retracted from any other arc. Gate 5 untouched.*
+
+---
+
+# ADDENDUM 2 — WHERE THE LAB LANE SITS ON THE CHAIN, AND WHAT IT MEANS FOR THE SM
+
+**2026-09-11.** Owner: *"what it nean for sm anf what problem are we tackling on what chain"*.
+
+Two different things have been called "the chain" and that is my fault: the **Fibonacci chain** is a
+lattice of waveguides; **the chain** is the derivation spine, C1–C54. They are not the same object
+and they meet at exactly one place.
+
+## 1. Measured: the lab lane is not on the chain
+
+`docs/THE_END_TO_END_CHAIN.md`, 510 lines. Occurrences of **B1085: 0. B1095: 0. B1106: 0.
+"photonic": 0.** The lab lane has never been placed on the spine. Nobody wrote down which link it
+tests — which is why its standing has been easy to overstate, including by me.
+
+## 2. Where it belongs: C1–C2, upstream of every priced choice
+
+* **C1 [THEOREM — Morse–Hedlund]** minimal non-trivial description is forced to be **Sturmian**.
+* **C2 [THEOREM — self-selection]** the unique fixed point is **the golden slope**. *"This is where
+  φ enters — not chosen, self-selected."*
+
+Addendum 1 showed the sealed differential is a function of the **word** at the **golden slope** —
+i.e. of exactly C1 and C2, and of nothing downstream.
+
+## 3. And the chain already says a waveguide array cannot reach the SM — at C4
+
+**C4 [AXIOM — the geometric carrier; PRICED].** The word is realized on the once-punctured torus.
+Its price note, written long before any of this session's work:
+
+> *"Price (F8, GEOMETRY-NECESSARY): **non-geometric carriers (tiling hull; Effros–Shen algebra,
+> K₀ = ℤ[φ]) see only the hearing** — **ℚ(√−3) is bought at geometrization and nowhere earlier.**"*
+
+**A photonic Fibonacci array realizes the tiling hull.** C4 names that carrier explicitly and prices
+it: such a carrier **sees only the hearing face**. And every link that reaches the Standard Model
+runs through ℚ(√−3) — the *being* face — which C4 says is bought at geometrization **and nowhere
+earlier**.
+
+So the answer is not a judgement, it is a link:
+
+> **The lab lane tests C1–C2. The SM algebra arrives in Part IV. Between them sit C3, C4 and C5 —
+> the three priced choices — and C4 is a wall a waveguide array cannot cross by construction.
+> No photonic experiment can bear on any link downstream of C4.**
+
+**This is memo 195's complementarity, already written into the chain at C4.** The non-geometric
+carrier sees hearing; being costs geometrization. Two more arcs saying it, and C4 cites none of the
+five in memo 195 §2 — it is a **sixth** independent statement of the same fact.
+
+## 4. What the problem actually is, stated without the word "chain" doing two jobs
+
+The spine already delivers, forced from C6 onward with no further choices: **su(3)⊕su(2)⊕u(1)**, the
+**ℤ₆ global form** (which the SM cannot fix for itself), matter in the **unique 27** decomposing as
+**16 + 10 + 1**, three generations as the **three Galois branches of K**, and **sin²θ_W = 3/8**.
+
+It does not deliver **values** (0 of 19) or **chirality as a count** (every closing vector-like).
+
+So the problem being worked is not *"derive the Standard Model"* — the algebra and the shape are
+already derived. It is: **where exactly does forcing stop, and by what mechanism.** This session
+located two mechanisms and one mis-location:
+
+* **memo 194/195** — the object's outputs are *torsion* (a bit, a trit) because its unit group is
+  **finite**; *growth* lives on the other face; and no quadratic face carries both, by Dirichlet.
+  A measured value is a magnitude **with** an orientation. That is why Part VI is 0 of 19.
+* **memo 196 + addendum 1** — the one lab-facing claim tests a word identity at C1–C2, not the
+  object, and by C4 it could never have reached the SM even in principle.
+
+**Neither result is about the middle of the chain — Parts III–V, the part that works.** Nothing here
+touches E₆, the frame, the 27, or the ℤ₆ form. The structural claim is untouched by everything in
+this memo.
+
+*Gate 5 untouched. Nothing retracted from any arc.*
