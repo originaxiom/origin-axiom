@@ -2848,3 +2848,65 @@ exhaustion). **All three were caught by this bench, none by the owner — but tw
 reported to the owner as conclusions before being caught.** The pattern is not carelessness in the
 arithmetic, which has held every time; it is **claiming before the check that governs the claim has
 been run.** That is one habit, not three errors.
+
+---
+
+## ADDENDUM 110 (2026-09-11) — **R110: "send me the links and ill get the rest of literature for you" / "verify load barring math, dont lean on old work" / "continue"**
+
+The owner supplied three primary sources (arXiv 0912.3405, 1409.1718, 2301.10130) after the session's
+egress proxy denied every academic host. **That unblocked the programme's central question, and the
+answer is a refutation.**
+
+### R110-1 — the instruction, and how it changed the work
+
+> *"verify load bearing math, dont lean on old work which might have been misinformed, or later
+> superseded."*
+
+Applied literally: **every computational step of memo 204 is redone from the e₆ structure
+constants**, and the only outside inputs are two verbatim statements from a supplied paper, quoted
+with page numbers, whose proofs were read. **It immediately caught an overreach of my own** — I had
+told the owner *"the object has triality over ℚ in its bare form"*, derived by reading Theorem 4.1's
+**necessary** condition as **sufficient**. Withdrawn on the spot, and now **refuted**.
+
+### R110-2 — **B882 IS REFUTED**
+
+* **CELL 1** — K is non-cyclic, from **two independent models**: `|Aut(K/ℚ)| = 1`.
+* **CELL 2** — the 28's Killing signature is `(+16, −12)` = **so(4,4)**, the split real form, by
+  exact congruence with four validated controls.
+* **CELL 3** — for **both** dual-pair charges independently, `ad(x)²|₄₈` has an irreducible cubic
+  as its **annihilating** polynomial, that cubic **generates K**, and it **commutes with all 28** of
+  the 28 — with both bite controls firing.
+
+**The argument:** a degree-3 field sits in the commutant; a cubic field cannot embed in
+`Mat₂(ℚ)³` (3 ∤ 2); so **L is not split**; L is non-cyclic; so the object is **⁶D₄**; so by
+Theorem 4.1 it has **no trialitarian automorphism over ℚ**.
+
+> **B882's "the arithmetic S₃ IS the geometric S₃" is refuted. The arithmetic cubic IS K — from the
+> object's own FORCED charges, non-circularly — and that is EXACTLY what makes the geometric S₃
+> (triality) fail to exist over ℚ. The two S₃'s are incompatible.**
+
+B1077 called B882 *"the UNIQUE non-circular route to a 77-mechanism."* **The route is non-circular.
+It does not lead where the programme hoped.**
+
+### R110-3 — a conflict left open on purpose
+
+B1077/W4: *"the **undressed** algebra attaches the split cubic ℚ³."* Memo 204 gets **K** from the D₄
+**as it sits in e₆ with its forced charges**. Consistent (bare vs dressed) or not — **this bench does
+not adjudicate by assertion.** Recorded as a conflict between two computations, **to be settled by
+reproducing B1077's**, not by preferring the newer one.
+
+### R110-4 — a bug caught by luck, recorded as such
+
+An earlier certificate draft reused the **78×78** `ad` matrices where the **48-restrictions** were
+required. It crashed on a shape mismatch. **Had the shapes matched, it would have silently compared
+the wrong operators and the commutant test would have been meaningless.** The separation is now
+explicit in the code with that note attached. **Loud failure was luck, not design** — and the
+session's error pattern (#21–#24) is the same family: *claiming before the check that governs the
+claim has run.*
+
+### R110-5 — what the owner's supply actually bought
+
+Three PDFs converted a five-week-old *"typed literature floor, the named external need"* into a
+**settled refutation** in one sitting. **The bottleneck was never the mathematics; it was access.**
+Worth saying plainly: the remaining ask (**KMRT Ch. VII §44.B and §43**, a book, not on arXiv) is
+still outstanding and is the only piece that could revise §6's conflict.
