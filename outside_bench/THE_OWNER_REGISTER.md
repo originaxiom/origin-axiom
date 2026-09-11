@@ -2560,3 +2560,47 @@ By the bench's own standing rule, applied to its own prose: *exhaust the repo be
 Running `already_banked.py` on the terms of the very sentence — rather than trusting the sentence —
 returned B698 in the first page of hits. **The rule works. It was not run on that sentence when the
 sentence was written.**
+
+---
+
+## ADDENDUM 105 (2026-09-11) — **R103, continued: the typing that memo 199's answer demanded**
+
+Memo 199 settled *one* pair of bits by computation. The owner's standing instruction — **"i want u
+to be useful and progress"** — is better served by settling the **shape** of that comparison than by
+adjudicating pairs one at a time. Memo 200 does that.
+
+**Certificate** `certificates/the_z2_slots_are_full.py` · CELL 1/2/3 = **B/B/B**, four controls.
+
+### R105-1 — the existing census is sound, and nothing was rebuilt
+
+`already_banked.py` returned **B1174** (NEGATIVE — *"not one torsor, one shared involution"*),
+**B1276** (PROVED — B1174's legs are B730's faces, plus the parity law) and **B1041** (PROVED — the
+three `(ℤ/2)³` cubes are one cube at direction level). **The ℤ/2 census exists.** The rule worked
+twice in one session: it caught memo 198's false "never been asked" and it stopped a rebuild here.
+
+### R105-2 — but the census has exactly one KIND in it, and that kind's slots are full
+
+Every candidate in B1174/B1276/B1041 is *the sign of a named surd under a field automorphism*.
+`Hom(V₄, ℤ/2)` enumerated by brute force: **4 elements, 3 non-trivial**, and B730/B1174 already name
+all three — **being (c), hearing, meeting (= c · hearing)**. **Full, by counting rather than by
+inspection.** Scope: this is the **meeting V₄**; B1041's cube is a larger group and is not counted.
+
+### R105-3 — two bits the record books are NOT of that kind
+
+* **§8's relational bit is not even two-valued on its own domain.** Object relatum fixed, partner
+  moving: `D` runs over `−181, −29, −19, −1, +1, 5, 11`. A bit only on `|D| = 1`; off it, a torsor.
+* **The Chern–Simons bit is torsion of an archimedean value group and is independent of c.**
+  m003 and m004 are **both amphichiral** and of **equal volume** 2.029883213, yet sit at **¼ and 0**.
+  Banked census: 181 amphichiral, **106 at 0, 75 at ¼**.
+  **Amphichirality forces membership in `A[2]`; it does not force which element.**
+
+**At least three kinds, exhibited: (a) Galois legs, (b) square classes of a pair, (c) torsion of a
+value group.** Not claimed complete.
+
+### R105-4 — the point, in one line
+
+**A ledger that books bits without typing them by kind invites exactly the over-count worry B1327
+raised.** Two bits of different kinds cannot be the same input, and that is settleable **by typing,
+before any pair is compared** — B1327's worry was a **(b)** against an **(a)**. It is B1327's own
+move applied one level down: *an identity can be searched for, an observer cannot* — and **a bit
+whose kind is named can be compared; a bit booked as "one bit" cannot.**
