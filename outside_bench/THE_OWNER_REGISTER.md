@@ -2252,3 +2252,36 @@ control — was sitting under a prediction everyone read as needing a thousand-s
 **Memo 196.** Two things are owed to main and are main's edits, not this bench's: §4A.2's status
 line, and a decision on whether a fraction-of-chain detector should replace the absolute 20-site
 window under the seal's own amendment rule.
+
+
+---
+
+## ADDENDUM 98 (2026-09-11) — **R98: "did u bank everything in your branch? what paths this opens toward our goal"**
+
+**The banking answer, audited rather than asserted.** Tree clean, 0 unpushed, 0 behind `origin/main`.
+Memos 193–196 each have an INDEX row; five certificates written this session each have a banked
+output. **The audit found one real gap and it is now closed:** INDEX rows 195 and 196 carried only
+the memo bodies, not their addenda — so the row for 196 still said *"testable at 21 sites"* with no
+trace of the correction that all three sealed clauses are word-determined. **A correction that lives
+in one place is not a correction** — this bench's own rule from R91, and it had been broken here
+within a day of being written. Both rows now carry their addenda.
+
+**R97 is superseded on its headline.** It reported the forced half as testable at 21 sites and
+framed that as advancing Tier-INTERFACE. Memo 196 addendum 1 shows the clause is a relabelling;
+addendum 2 shows C4 blocks the lane from the SM by construction. **R97's pricing stands as
+calibration; its framing does not.**
+
+### What the last four memos actually open, ranked
+
+| | path | why it is now live | ours alone? |
+|---|---|---|---|
+| 1 | **K3 — sort the seven crossings from their sealed text** | §4A.0 retires old Tier 2 on four legs and says of the fourth, *in its own words*, *"this leg is empirical exhaustion, not theorem."* Memo 195 §4 is a candidate theorem for exactly that leg. Converting it finishes the programme's own retirement argument | **yes**, four kill conditions already fixed |
+| 2 | **The ρ-sweep** | memo 196 addendum 1's own stated limit: the α-windows are word-determined, but B1085's object is the **function** ρ ↦ edge content over a banked 144-point sweep, and whether **that** carries contingent content is untested. If it does, the lab lane's falsifier can be re-posed on the function under the seal's own addendum-beside rule; if it does not, Tier-INTERFACE closes honestly | **yes** |
+| 3 | **Join the six** | B318, B666, B1069, B1216, B1222, B1276 and C4 state one lemma at six levels with 55 of 56 ordered pairs uncited. Writing the join is cheap, and it converts three separately-named walls into one lemma with three corollaries | **yes**, cheap |
+| 4 | **Re-grade Tier-STRUCTURE's one open item** | chirality moves from *open* to *closed on the object, open on the carrier*, with B1227 + the rank-0 argument behind it | **yes**, cheap |
+| 5 | the three 4A.3 doors, typed by commodity | the gauge-datum question, L154's σ, B882's S₃-equality — §1's unit-rank rule sorts which asks for growth and which for torsion. Nobody has sorted them | **yes** |
+
+**And one thing these memos do NOT open, stated so it is not mistaken for progress:** nothing here
+touches Parts III–V of the chain — E₆, the frame, the 27, the ℤ₆ global form. That is the part that
+works, and it is exactly as it was. **Everything this session found is about where forcing stops, not
+about extending it.**
