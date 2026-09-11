@@ -7264,6 +7264,27 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1330": {
+   "slug": "the best case object",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "H1"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B134": {
    "slug": "chirality recursion proved",
    "motifs": [

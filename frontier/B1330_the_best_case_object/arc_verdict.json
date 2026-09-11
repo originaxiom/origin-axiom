@@ -1,0 +1,12 @@
+{
+ "id": "B1330",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": ["B1329", "B1324", "B1297"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE BEST-CASE OBJECT FOR THE CHIRALITY INDEX EXISTS, IS NAMED, AND RETURNS ZERO. B1324 concluded that m004's chiral one-cusped covers carry almost no cusp-trivial twists -- true of the TOWER, but the FAMILY was never searched. Intersecting the 112-member Q(sqrt-3) family (all tetrahedron shapes in Q(sqrt-3)) with chirality and with the existence of order-3 cusp-trivial characters gives EIGHT members, of which FOUR ARE ONE-CUSPED: s958, v2873, t12833, t12835. Each is simultaneously CHIRAL (so amphichirality cannot be forcing the vanishing), in the object's own COMMENSURABILITY CLASS (so the arithmetic that carries every claim survives), ONE-CUSPED (so the index applies in its own stated domain, with NO multi-cusp extension owed), and carrying GALOIS-UNPROTECTED order-3 twists. This is the object THE PAPER's section 12 says the programme still needs, and it needs none of the machinery section 12 says is missing. v2873 computed in full: 952 in-domain sectors over three primes and seven germ shapes, with t0 reaching 4 (a 4-plane in an 8-dimensional space, where half-dimensionality is a real condition) -- 680 of them at t0 >= 2. EVERY INDEX ZERO. A first pass with odd Sym powers was in the weak t0 <= 1 regime, because v2873's peripheral holonomy carries a -1 that kills odd blocks; even powers were required to reach t0 >= 2, and the same bias check that corrected B1329 caught it. THIS IS THE FIFTH INDEPENDENT REGIME RETURNING ZERO and the first on the best-case object, so the vanishing conjecture is now the strongly favoured reading and the 54 multi-cusped chiral covers look correspondingly less likely to pay. NOT DONE: s958, t12833 and t12835 carry three-generator presentations, where brute-force SL(2,F_p) enumeration is 336^3 and was not run; they are named, not computed."
+}
