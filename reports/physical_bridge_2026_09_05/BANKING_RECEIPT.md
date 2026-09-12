@@ -1,5 +1,26 @@
 # CC's banking relay read before the next local checkpoint
 
+Latest path-local checkpoint, September 12: R27's two scientific seals
+dbb55201 and 59e92302 were pushed before execution. The exact complex
+positive, its actual nonsemisimple domain and the finite-cover geometric
+vanishing are reported in [FINITE_TWIST.md](FINITE_TWIST.md). Thirty new
+tests pass; two initial author assertions remain failed and have explicit
+follow-on dispositions. Broad: 384 pass/16 fail/8 error; all prior failed
+IDs remain and only those two are added. This is not a full-green or
+independently reviewed main banking result. No B reservation was used,
+no other branch merged and no PR or external relay sent. The source/end
+completion and full physical goal remain open. Final reporting-gate and
+manifest receipts are recorded with this checkpoint, not inferred from
+the passing mathematical controls.
+
+R27 [reporting check](FINITE_TWIST_FINAL_CHECKS.txt): 27 gates pass,
+the same three older gates fail with identical detail strings; review
+is due at 149 merges. All 61 seals match. The pre-receipt manifest has
+364 paths and zero mismatches; 203 local links resolve. Scientific
+source/test diffs from both seals are empty. Five raw regression
+trailing-space lines are retained. The final receipt and updated
+reporting hashes are rechecked before commit; no old baseline is waived.
+
 Read on 2026-09-06, without merging or changing the remote. Exact fetched
 main: `2901ae9f6dba964870b44d5eb6e01066c62b7f62`.
 

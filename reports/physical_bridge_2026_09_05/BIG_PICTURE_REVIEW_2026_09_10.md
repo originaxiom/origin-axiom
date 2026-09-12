@@ -6,6 +6,14 @@ including a nonflat trial connection. The review below is the original
 September 10 interpretation; its then-unexecuted R26 preparation has
 moved, not the remaining single-action/source/end/anomaly requirement.
 
+Further update, September 12: [R27](FINITE_TWIST.md) explains the smooth
+geometric finite-twist zeros by a primary theorem and finite-cover transfer,
+while recovering an exact nonsemisimple complex +1 example. Its index
+differs from the semisimplification despite equality of all word traces.
+This is a concrete warning about lost extension data, not a physical
+transfer or a revision of the original interpretation below. The
+singular-source operator and one-action completion task remain distinct.
+
 2026-09-10. Reflective audit requested by the owner. Starting checkpoint
 67a990c0; latest completed scientific round R25. This is an interpretation
 of named, previously documented results and a proposed change of emphasis,

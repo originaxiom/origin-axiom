@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-12",
+  "scientific_seals": [
+    "dbb55201",
+    "59e92302"
+  ],
+  "redaction": "Execution environment prefixes only; log hashes identify unchanged private raw captures.",
+  "runs": [
+    {
+      "capture": "oa_r27_native_first.json",
+      "receipt": {
+        "command": [
+          "env",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<scientific-python3.12>",
+          "-u",
+          "reports/physical_bridge_2026_09_05/finite_twist.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 14.222524999990128,
+        "log_bytes": 12969,
+        "log_sha256": "b7b7646e9745ee78660e89d4f9a350571a2904757c01c04ee68ad5a809d0b959"
+      }
+    },
+    {
+      "capture": "oa_r27_focused_first.json",
+      "receipt": {
+        "command": [
+          "env",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<scientific-python3.12>",
+          "-m",
+          "pytest",
+          "-q",
+          "tests/test_physical_bridge_finite_twist.py",
+          "tests/test_physical_bridge_index_stability.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 75.77477000001818,
+        "log_bytes": 2182,
+        "log_sha256": "99bc8dac6948ea618ae18c1d073f38c4f1d6d6e190f091a45fe42212b6a98688"
+      }
+    },
+    {
+      "capture": "oa_r27_reductivity_first.json",
+      "receipt": {
+        "command": [
+          "env",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "sage",
+          "-python",
+          "-u",
+          "reports/physical_bridge_2026_09_05/finite_twist_reductivity.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.623542000015732,
+        "log_bytes": 14275,
+        "log_sha256": "9213103c2a903bbb3d9f1c141aaaa7a9567d4c2ec52202ca7916483287364993"
+      }
+    },
+    {
+      "capture": "oa_r27_reductivity_tests_first.json",
+      "receipt": {
+        "command": [
+          "env",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<scientific-python3.12>",
+          "-m",
+          "pytest",
+          "-q",
+          "tests/test_physical_bridge_finite_twist_reductivity.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.5229099999996834,
+        "log_bytes": 99,
+        "log_sha256": "edaf43c93807835362569a49b06a369bc1b9d3410aa2b17c6a144d2c627022b2"
+      }
+    },
+    {
+      "capture": "oa_r27_broad_first.json",
+      "receipt": {
+        "command": [
+          "env",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<scientific-python3.12>",
+          "-m",
+          "pytest",
+          "tests/test_b1084_g2_cone.py",
+          "tests/test_b1105_b1106_locks.py",
+          "tests/test_b1255_generation_type.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_boundary_index.py",
+          "tests/test_physical_bridge_boundary_wall.py",
+          "tests/test_physical_bridge_broken_vacuum.py",
+          "tests/test_physical_bridge_charged_domain.py",
+          "tests/test_physical_bridge_charged_domain_control.py",
+          "tests/test_physical_bridge_cusp_tail.py",
+          "tests/test_physical_bridge_family_action.py",
+          "tests/test_physical_bridge_family_dispatch.py",
+          "tests/test_physical_bridge_family_domain.py",
+          "tests/test_physical_bridge_finite_alignment.py",
+          "tests/test_physical_bridge_g2_export.py",
+          "tests/test_physical_bridge_g2_isolation.py",
+          "tests/test_physical_bridge_gauge_running.py",
+          "tests/test_physical_bridge_geometric_completion.py",
+          "tests/test_physical_bridge_global_mass_flux.py",
+          "tests/test_physical_bridge_global_mass_flux_control.py",
+          "tests/test_physical_bridge_global_singular.py",
+          "tests/test_physical_bridge_harmonic_cusp.py",
+          "tests/test_physical_bridge_harmonic_transport.py",
+          "tests/test_physical_bridge_higgs_control_repair.py",
+          "tests/test_physical_bridge_higgs_sector.py",
+          "tests/test_physical_bridge_holonomy_equivariance.py",
+          "tests/test_physical_bridge_holonomy_equivariance_word_control.py",
+          "tests/test_physical_bridge_holonomy_spectrum.py",
+          "tests/test_physical_bridge_index_stability.py",
+          "tests/test_physical_bridge_infrared_alignment.py",
+          "tests/test_physical_bridge_legacy_audit.py",
+          "tests/test_physical_bridge_mass_inflow.py",
+          "tests/test_physical_bridge_mass_inflow_bundle_control.py",
+          "tests/test_physical_bridge_mass_match.py",
+          "tests/test_physical_bridge_partial_filling.py",
+          "tests/test_physical_bridge_quantum_derivative.py",
+          "tests/test_physical_bridge_quantum_result.py",
+          "tests/test_physical_bridge_quantum_shift.py",
+          "tests/test_physical_bridge_quantum_shift_control.py",
+          "tests/test_physical_bridge_quantum_vacuum.py",
+          "tests/test_physical_bridge_singular_cusp.py",
+          "tests/test_physical_bridge_upstream.py",
+          "tests/test_physical_bridge_upstream_second.py",
+          "tests/test_physical_bridge_vacuum.py",
+          "tests/test_physical_bridge_vacuum_orientation.py",
+          "tests/test_physical_bridge_weighted_cohomology.py",
+          "tests/test_physical_bridge_finite_twist.py",
+          "tests/test_physical_bridge_finite_twist_reductivity.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "--tb=short"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 366.39455000002636,
+        "log_bytes": 23523,
+        "log_sha256": "31a58be5f3b8ec4c5c1c21fb22ca3f2531d548e1aa2e82df0b8266ab5cb6191e"
+      }
+    }
+  ]
+}

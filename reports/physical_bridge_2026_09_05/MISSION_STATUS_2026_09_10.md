@@ -2,11 +2,14 @@
 
 This is a status checkpoint of the audit branch, not a new scientific
 seal or a certificate for the whole repository. The latest completed
-local scientific round is R26. All ten remote heads were fetched again
+local scientific round is R27. All ten remote heads were fetched again
 on September 12 UTC. Main remains b94ed03a, SM 1703c0d8 and physics
 659487bb. The final fetch advances outside to 24d73610 and paper review
 to c83b6b80; their [new findings and scope duties](INDEX_STABILITY_INTAKE.md)
-are read but not independently rerun. The earlier paper-review forced
+were read at R26; R27 now independently reproduces the specified
+finite-field index/cup example and its exact complex lift, with the
+domain correction described below. Other received claims are not
+thereby certified. The earlier paper-review forced
 update and its old/new tips remain in
 the [preceding intake ledger](RELAY_TRIAGE_2026_09_12.md). Received work is not
 treated as independently verified merely because it was fetched.
@@ -20,6 +23,12 @@ theories and an analytic construction of a normalizable chiral sector.
 It has not produced a single source-derived, quantum-consistent
 Standard Model plus gravity, and it has not established a complete TOE.
 There is no defensible percentage-complete estimate for that goal.
+Confidence in completing the full experimentally supported TOE is very
+low, with no defensible numerical probability. Confidence in particular
+verified mathematical results is a different question. Continued work
+is not a promise that the remaining physical and empirical bridges
+must exist. This preserves the full goal rather than renaming an
+intermediate mathematical achievement its completion.
 
 The nearest unresolved join is precise. A prescribed sourced geometry
 and flat transport give three chiral spinor multiplets without their
@@ -34,6 +43,25 @@ curvature, and of the pair-free kernel below the original gap. It does
 not yet show that a stationary coupled solution has those properties.
 
 ## Results actually obtained
+
+### The latest audit preserves a positive and corrects its domain
+
+R27 applies the published Menal-Ferrer--Porti restriction theorem on
+a finite cover killing a finite coefficient twist. This proves zero
+interior H1 on the smooth complete geometric symmetric-power class,
+including noncyclic covers and isolated finite characters. It does not
+identify that ordinary cohomology with the sourced Hilbert complex.
+
+Independently, the specified B1335 finite-field +1 index is reproduced
+and lifted exactly to Q(sqrt(-3)); it is not merely a characteristic-p
+artifact. But its representation is nonsemisimple. The received filter
+misses a common invariant line with distinct generator eigenvalues;
+the original reductivity hypothesis does not follow from the dimension
+equalities. The semisimplification has index zero with the same traces
+on every group word. This preserves real extension-dependent mathematics
+without presenting it as a physical vacuum. Two overly strong assertions
+in the initial verifier failed; both are retained and diagnosed by a
+separately sealed exact-ring calculation. See [R27](FINITE_TWIST.md).
 
 ### Conditional actions, not an absence of physics
 
@@ -140,6 +168,14 @@ class membership, not whether curvature necessarily erases chirality.
 
 ## Questions and strategy
 
+R27 sharpens the search population: finite twists of complete geometric
+symmetric powers have the stated vanishing theorem, regardless of the
+member's handedness. Nonsemisimple extension data can change an ordinary
+relative-image index, but their physical operator, metric and source/end
+admissibility must be earned. The current source path is retained;
+this audit does not replace its stationary one-action test with another
+representation count or a new unverified no-go.
+
 The owner's subsequent [big-picture review](BIG_PICTURE_REVIEW_2026_09_10.md)
 changes the emphasis, not the result ledger: test whether the source/end
 action, chiral spectrum, anomaly completion and gauge normalization can
@@ -226,6 +262,13 @@ Outside memo 205's six equal field readouts likewise remain distinct
 from a theorem about every possible readout. See
 [the final read-only intake](INDEX_STABILITY_INTAKE.md).
 
+The later [R27 verification](FINITE_TWIST.md) supersedes the received-only
+status for that one finite-field example and its two-sided cup control.
+It also supplies the exact complex lift and the actual nonsemisimplicity
+certificate. The broader received census and B1334's all-complex-family
+claim are not certified by those calculations. The finite-cover proof
+instead establishes the stated geometric finite-twist subfamily.
+
 The cosmological-constant, neutrino and inflation papers now add
 specific transfer questions. Their choices of CS connection/lift,
 metric completeness, physical scale and Dirac domain matter. The
@@ -257,6 +300,14 @@ explicitly retained; the replacement has durable complete output and
 a terminal receipt. All scientific source, design, proof and test
 bytes remain unchanged from the pre-execution seal `46b34c09`.
 The tree stayed read-only during the completed scientific runs.
+
+R27 adds 30 passing new tests and two preserved author-assumption
+failures. Its 49-file broad run has 384 passes, 16 failures and eight
+errors in 364.80 seconds, with exactly those two new failed IDs and
+none of R26's 22 IDs missing. The successful exact lift/complement
+follow-on has ten passing tests. Scientific seals dbb55201 and 59e92302
+precede their runs; raw captures and terminal receipts are retained.
+No original scientific assertion was silently relaxed.
 
 Work is committed and pushed on `audit/physical-bridge-2026-09-05`,
 not merged into main. No completed TOE, independently accepted main

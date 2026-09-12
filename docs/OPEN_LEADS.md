@@ -2769,3 +2769,34 @@ adds the six-field-readout memo. These are read, not independently
 reproduced. The unchanged B1334 proof still owes its parameter-dependent
 rank step. None is identified with the singular sourced operator by
 name alone. Receipt: reports/physical_bridge_2026_09_05/INDEX_STABILITY_INTAKE.md.
+
+**R27 verification of that intake (2026-09-12), not closure of PB-BOUNDARY:**
+"On the class of nontrivial complete geometric symmetric powers with
+finite-image twists, ordinary H1 restriction is injective by the
+published theorem on a finite cover and the trace identity. This is
+not the singular sourced operator's domain or a universal local-system
+vanishing theorem." Path: reports/physical_bridge_2026_09_05/FINITE_TWIST.md,
+section 1; full proof: FINITE_TWIST_PROOF.md. The finite-character
+noncyclic/isolated sectors of that stated class are included; arbitrary
+non-geometric representations and all nonunitary complex twists are not.
+No received census or stronger B1334 theorem is silently promoted.
+
+**R27 positive preserved and registered:** the specified arithmetic
+index +1 lifts exactly to Q(sqrt(-3)). Its actual module is nonsemisimple;
+a received common-eigenvalue filter missed the invariant line. The
+semisimplification has index zero despite identical word traces.
+Thus extension data can affect this ordinary relative-image index.
+The lead is to test whether an explicit operator/end-data map can make
+such data physically admissible in the retained source theory, not
+to substitute this example for a normalizable chiral spectrum. The
+original reductive-domain claim fails on this witness; dimension
+equalities alone do not restore it. No all-representation kill is made.
+
+NEXT remains the common source/end action, stationary solution, admitted
+gauge transformations and full spectrum/anomaly response. Trace-only
+character data are insufficient for any transfer spending the displayed
+extension-dependent index. Source selection, neutral modes, gravity
+and empirical checks remain as above. Thirty new tests pass; two
+overly strong author assertions and their exact follow-on correction
+are preserved. The full 49-file regression has 384 passes, 16 failures,
+eight errors, with only those two failed IDs added to R26.

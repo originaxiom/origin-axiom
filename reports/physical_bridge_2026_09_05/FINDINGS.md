@@ -42,9 +42,27 @@ paper-review c83b6b80 and outside 24d73610 updates: finite-field nonzero
 indices, the two-sided isotropy correction and six equal cubic-field
 readouts are received at their stated scope. B1334's text is unchanged,
 so its proof obligation remains. No new received computation is claimed
-as independently reproduced or as review of the R26 sourced operator.
+as independently reproduced or as review of the R26 sourced operator
+by that read-only intake. The subsequent R27 computation below now
+independently verifies the specified index/cup example, corrects its
+domain claim and lifts it exactly to characteristic zero.
 
-**Latest local result, R26: [localized-curvature index stability](INDEX_STABILITY.md).**
+**Latest local audit, R27: [geometric zeros and an exact complex positive](FINITE_TWIST.md).**
+A finite-cover application of the published restriction theorem proves
+zero interior cohomology for nontrivial geometric symmetric powers with
+finite twists. Independently, the received finite-field +1 index lifts
+exactly to Q(sqrt(-3)), but its coefficient module is nonsemisimple;
+the claimed irreducibility filter misses a common line with different
+generator eigenvalues. Its semisimplification has index zero despite
+the same trace on every word. Both facts are mathematical, not a new
+physical vacuum or a kill of the singular source path. R19's conditional
+three/zero kernel and R26's stability remain. The one-action source/end,
+anomaly and spectrum task is still next. Thirty of 32 new tests pass;
+two too-strong author assertions are preserved and disposed of by the
+separately sealed follow-on. Broad: 384 pass/16 fail/8 error, with only
+those two added failed IDs. No full green, independent bank or TOE.
+
+**Preceding local result, R26: [localized-curvature index stability](INDEX_STABILITY.md).**
 Conditional on R18/R19, bounded Hermitian odd perturbations supported
 in the regular interior or uniformly vanishing at every source/cusp
 end preserve the fixed-domain Dirac index. Below the original gap they

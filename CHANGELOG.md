@@ -1,5 +1,36 @@
 # Changelog
 
+## 2026-09-12 — R27: smooth geometric vanishing and an exact complex nonsemisimple positive
+
+The published Menal-Ferrer--Porti restriction theorem, applied on the
+finite cover killing a finite coefficient twist, proves zero interior
+H1 for nontrivial complete geometric symmetric powers. This covers
+isolated finite characters and noncyclic covers within that class,
+without a mirror/Galois/deformation argument. It does not identify
+ordinary cohomology with the singular-source Hilbert complex.
+
+Independently, the specified B1335 finite-field +1 index is reproduced
+and lifted exactly to Q(sqrt(-3)). Its actual coefficient module is
+nonsemisimple: a received same-eigenvalue filter misses an invariant
+line with different generator eigenvalues, and the original reductive
+hypothesis does not follow from two dimension equalities. The actual
+semisimplification has zero index with the same traces on every word.
+The positive is not erased as a characteristic-p artifact or promoted
+to a physical vacuum. The source path and its one-action completion
+duty remain intact. Report: reports/physical_bridge_2026_09_05/FINITE_TWIST.md.
+
+Seals dbb55201 and 59e92302 were pushed before their respective runs.
+The first verifier failed two overly strong author assertions:
+irreducibility and Hom(V,V*)=0. The exact follow-on gives a nonsplit
+flag and a one-dimensional space of rank-three intertwiners, retaining
+non-self-duality. Its ten tests pass. Across R27 there are 30 new passes
+and two retained failures. The 49-file broad run is 384 pass/16 fail/
+8 error in 364.80 s, with precisely those two added failed IDs and all
+22 R26 IDs retained. First outputs, failed assertions, raw digests and
+exit receipts are preserved; no science files changed during runs.
+No new B allocation, main merge, PR, independent banking, full-green
+repository claim or complete physical TOE.
+
 ## 2026-09-12 — R26: the sourced chiral index survives a declared class of localized curvature
 
 The actual graded Dirac operator and its metric adjoint give a bounded

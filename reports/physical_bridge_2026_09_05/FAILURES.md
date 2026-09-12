@@ -733,3 +733,36 @@ output and raw digest with only environment prefixes redacted.
 Original source, proof, design, tests and first receipts remain frozen.
 Neither the conditional stability proof nor its finite controls supply
 a numerical PDE spectrum, stationary source or anomaly cancellation.
+
+## R27: two author assumptions fail; the exact positive survives (2026-09-12)
+
+The first sealed producer reproduces the received F13 index +1 and its
+dual -1, all chain/pair identities and the actual dual cup matrix. It
+then fails the author's expectation that the coefficient algebra has
+dimension 16 and Hom(V,V*) has dimension zero. Actual values are 9 and
+1. The original focused group has 33 passes/two failures; both exact
+assertions remain unchanged in test_physical_bridge_finite_twist.py.
+First outputs are FINITE_TWIST_NATIVE_FIRST.txt and
+FINITE_TWIST_FOCUSED_FIRST.txt, committed at the follow-on seal 59e92302.
+
+The follow-on design explicitly records those observations before its
+own execution. Separate exact-ring arithmetic proves a nonsplit flag,
+no invariant complement, and a rank-three generator of Hom(V,V*).
+Non-self-duality is retained; a nonzero intertwiner need not invert.
+The received prime-scan filter was also defective: it checks a common
+eigenvalue rather than a common line with distinct generator eigenvalues.
+The target's eigenvalues are 4 and 12. Both dimension equalities hold
+but do not certify B1297's original reductivity hypothesis.
+
+Crucially the same explicit matrices lift to Q(sqrt(-3)) with index
++1, so the positive is not merely a finite-field artifact. Its actual
+semisimplification has zero index. The follow-on native and all ten
+new follow-on tests pass. These are the mathematical dispositions of
+the failed assertions, not a silent assertion edit or xfail exemption.
+
+The broad 49-file run finishes 384 pass/16 fail/8 error, one optional
+GUI warning, 364.80 s, exit one. Its 24 FAILED/ERROR IDs are the prior
+22 plus exactly the two author assertions above; none is missing.
+All raw captures are durable and have exit receipts; public transcripts
+redact environment prefixes only. Source/design/test bytes stay sealed.
+This is not full green or a completed independent banking pass.

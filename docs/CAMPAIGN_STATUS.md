@@ -1,6 +1,22 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
-**LATEST LOCAL AUDIT, 2026-09-12 (R26): conditional stability under localized curvature.**
+**LATEST LOCAL AUDIT, 2026-09-12 (R27): smooth geometric zeros and a complex positive.**
+The published restriction theorem plus finite-cover transfer gives zero
+interior H1 for nontrivial geometric symmetric powers with finite twists.
+The independently reproduced finite-field positive lifts exactly to
+Q(sqrt(-3)), with I=+1, but is nonsemisimple and fails the original
+reductive-domain hypothesis. A received same-eigenvalue filter misses
+its invariant line; the semisimplification has I=0 with the same word
+traces. This scopes both the positive and the geometric vanishing;
+it is not a theorem against R19's conditional sourced three/zero kernel.
+The source/end action, stationary solution, full anomaly and spectrum
+remain the next PB-BOUNDARY duties. Report:
+reports/physical_bridge_2026_09_05/FINITE_TWIST.md.
+Thirty new tests pass; two author assertions fail and remain preserved
+alongside the exact follow-on correction. Broad 384 pass/16 fail/8 error;
+only those two failed IDs are added to R26. No main bank or full TOE.
+
+**PRECEDING LOCAL AUDIT, 2026-09-12 (R26): conditional stability under localized curvature.**
 The fixed strong-source charged Dirac index survives bounded Hermitian
 odd perturbations supported in the regular interior or uniformly
 vanishing at ALL source/cusp ends. Below the original gap, the pair-free
