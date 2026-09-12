@@ -1,0 +1,19 @@
+{
+ "det_half": "-1",
+ "det_square": "1",
+ "genesis_det": "-1",
+ "double_step": [
+  [
+   1,
+   1
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "generating_function": "U**2 - U*u + u**2/2",
+ "object_leaf_I": "-1",
+ "object_leaf_is_markov": true,
+ "fails": []
+}
