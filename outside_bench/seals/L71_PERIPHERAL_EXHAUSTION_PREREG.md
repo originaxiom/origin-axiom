@@ -87,3 +87,47 @@ presence at HEAD, not by memory.
 ## Interpretation is not preregistered
 
 Per bench rule #21 the outcomes state only what is observed.
+
+---
+
+## ADDENDUM 1 (same session, before any cell was read) — THE DECLARED BASIS IS WRONG
+
+**Filed at the point of occurrence.** The seal above declares
+`u₂ := (0, e_n)` and calls it canonical because *"`e_n` spans `ker N`."*
+**That is false in this certificate's index convention**, and the certificate caught it:
+with `ρ(a) = [[1,1],[0,1]]` acting on the monomial basis `e_i = x^{n−i}y^i`, the nilpotent
+`N = ρ_V(a) − I` **lowers** the index, so
+
+> **`ker N = ⟨e₀⟩`, not `⟨e_n⟩`; `im N = ⟨e₀, …, e_{n−1}⟩`; and the coker functional `f`
+> reads the `e_n` coordinate.**
+
+Run with the seal's `u₂`, the certificate reported `u₂ ∉ Z¹(T²;V)` and every coordinate
+`None` — the failure was loud, not silent. **The index orientation was asserted from habit
+and not checked, which is the same error class as BENCH ERROR #22.**
+
+**The repair is not a patched basis, because the attempt to patch it exposed the real
+structure.** With `ker N = ⟨e₀⟩` the two natural candidates are `(e₀, 0)` and `(0, e₀)` —
+and **both are annihilated by `f`**, so neither supplies the second coordinate. Since
+memo 213 proved `f(ξ(λ)) = τ·f(ξ(a))` identically on `Z¹(T²;V)`, **the two canonical
+functionals available on the peripheral space are proportional**, and the canonically
+readable part of the 2-dimensional `H¹(T²;V)` is **one-dimensional**.
+
+**The cells are therefore re-posed, and this addendum is committed before any of them is
+read:**
+
+- **CELL 1 (unchanged):** is `res(ξ) ≠ 0` for every m = 1…11?
+  **A:** yes for all. **B:** some block is cuspidal.
+- **CELL 2 (re-posed):** are the two canonical functionals `x ↦ f(x)` and `y ↦ f(y)`
+  proportional on `Z¹(T²;V)`, with ratio `τ`?
+  **A:** yes, every m. **B:** no, for some m.
+- **CELL 3 (re-posed):** is the second coordinate an invariant at all? Compute `β/α` for
+  the same `res(ξ)` under **two** declared, equally natural completions of the basis —
+  `B_I = {(e₀,0), (0,e₀)}` and `B_II` = the first two non-coboundary vectors of the
+  computed `Z¹` in index order.
+  **A:** the two completions give **different** ratios — the second coordinate is
+  basis-dependent and is **not** an invariant.
+  **B:** they agree — a canonical second coordinate exists after all, and the per-block
+  values may then be read.
+- **CELL 4 (unchanged):** the exhaustion check.
+
+**No prior is declared for any re-posed cell.**
