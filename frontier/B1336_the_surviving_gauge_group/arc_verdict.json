@@ -1,0 +1,22 @@
+{
+ "id": "B1336",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": [
+  "B854",
+  "B1295",
+  "B1303"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-26",
+   "status": "UNEARNED",
+   "note": "the row's second half -- 'naming the surviving gauge group, the centralizer of rho(pi_1), remains part of the price and is untouched' -- is now PAID, and the answer makes the row HARDER, not earned. B854's u(1)^4 is the centralizer of the FINITE 2T; the geometric holonomy is a lattice in PSL2(C), hence Zariski-dense, so its centralizer is that of the whole principal SL2 and is computed here to be dim 0 (control: Z(h) = 6 = rank E6). Theorem: for any H with 2T <= H <= SL2, Z(H) is a subalgebra of the abelian Z(2T), hence abelian of dim <= 4, while the Standard-Model algebra is non-abelian of dim 12 -- so no such flat connection leaves it unbroken. The identification reads dim H^1(M;27_rho) as massless multiplets OF A GAUGE GROUP, and there is no non-abelian group for them to be multiplets of. The ratchet does NOT move; the row should now record the surviving group as named and abelian-or-trivial. Scope: this constrains the FLAT-CONNECTION route only (the paper's SM algebra comes from the closing Y_9), and the embedding is I-25, itself UNEARNED, so it covers the PRINCIPAL sl2 only. Prior art is the SM seat's sm:B1269, SCHEDULED in HARVEST_LEDGER row 125 since 2026-09-09 with no main text naming it; re-derived here independently, its fuller claim over every holonomy the corpus supplies NOT verified here."
+  }
+ ],
+ "claim_one_line": "I-26'S UNTOUCHED HALF PAID, AND THE ANSWER IS ABELIAN OR NOTHING. The identification ledger records that naming the surviving gauge group -- the centralizer of rho(pi_1) -- remains part of I-26's price and is UNTOUCHED, its other half having been paid at B1295. The corpus has not drawn the decisive distinction: B854 computes the centralizer of 2T, the FINITE McKay image, and gets an abelian u(1)^4, but the object's geometric holonomy is discrete and faithful, hence a lattice in PSL2(C), hence ZARISKI-DENSE by Borel density, so its centralizer is that of the whole SL2 and is strictly smaller. Computed exactly over Q on B854's E6 Chevalley algebra with its own controls re-run: Z(2T) has dim 4 and is abelian (rank 4, all six brackets vanish), Z(the geometric holonomy, i.e. of the principal sl2) has DIM 0, and the positive control Z(h) for the principal semisimple element has dim 6 = rank E6 as it must. THEOREM, needing no case analysis: for any H with 2T <= H <= SL2 principal, Z(H) is a subalgebra of the abelian Z(2T), hence abelian of dimension at most 4, while the Standard-Model algebra is NON-ABELIAN of dimension 12 -- so no flat connection with holonomy in the principal SL2 containing 2T leaves the Standard-Model algebra unbroken, whatever the holonomy. For I-26 this means the identification that reads dim H^1(M;27_rho) as a count of massless multiplets OF A GAUGE GROUP has no non-abelian group for the classes to be multiplets of: none of any size for the geometric holonomy, an abelian u(1)^4 at best for the finite 2T connection. I-26 is NOT earned and the ratchet does not move; it is made harder, and the row should record that the surviving group is now named and is abelian or trivial. SCOPE: this constrains the FLAT-CONNECTION route only -- the paper's Standard-Model algebra comes from the ninth closing Y_9, a closed manifold, and nothing here refutes that; it says the flat E6 connection cannot supply the group, so the closing must, and the h^1 readings on the cusped object cannot be multiplet counts. The embedding is I-25 and I-25 is UNEARNED, so all of this is for the PRINCIPAL sl2; other embeddings give other centralizers, B1303 having computed dim 2 for the regular A1A1A2, also far from 12 but not covered by the theorem. PRIOR ART, NOT OURS: the SM-derivation seat's sm:B1269 reached the headline first and is recorded SCHEDULED in the harvest ledger row 125 since 2026-09-09 with no main text naming it, its arc not being in this repository; this bench re-derived the part above independently rather than on the seat's word, and B1269's fuller claim covering every holonomy the corpus supplies is NOT verified here. Fourth instance of the invisible-work pattern: the harvest ledger's SCHEDULED rows should be swept before a campaign picks its target, not after."
+}
