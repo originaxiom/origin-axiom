@@ -1,5 +1,13 @@
 # B1332 — the cup product vanishes, form-free, and the mechanism is cusp-triviality
 
+> ## SCOPE CORRECTION (B1333 addendum, next day)
+> **Everything below is a ONE-CUSP statement.** With several cusps `L_V` is usually **not** isotropic
+> and `L_V != L_{V*}` — 36 of 40 sectors across 14 multi-cusped covers — **and the index vanishes
+> anyway, in all 40.** So §1's implication (isotropy ⇒ `I = 0`) stands, but the reduction is **not**
+> an equivalence: isotropy is sufficient, not necessary, and proving it would settle the one-cusped
+> case only. §2–§3's "`L_V` is Lagrangian" and the form-free cup vanishing hold at one cusp and fail
+> at two. See `frontier/B1333_the_index_on_several_cusps/ADDENDUM_isotropy_is_one_cusp.md`.
+
 **Verdict: OPEN.** Still not a proof. But the thing to be proved is now a *different and smaller*
 statement than B1331 left it, it is form-independent, and the reason the question is well-posed at
 all has been identified — and it is not the reason B1331 guessed.
