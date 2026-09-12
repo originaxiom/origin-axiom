@@ -3,10 +3,17 @@
 > ## SCOPE CORRECTION (B1333 addendum, next day)
 > **Everything below is a ONE-CUSP statement.** With several cusps `L_V` is usually **not** isotropic
 > and `L_V != L_{V*}` — 36 of 40 sectors across 14 multi-cusped covers — **and the index vanishes
-> anyway, in all 40.** So §1's implication (isotropy ⇒ `I = 0`) stands, but the reduction is **not**
-> an equivalence: isotropy is sufficient, not necessary, and proving it would settle the one-cusped
-> case only. §2–§3's "`L_V` is Lagrangian" and the form-free cup vanishing hold at one cusp and fail
-> at two. See `frontier/B1333_the_index_on_several_cusps/ADDENDUM_isotropy_is_one_cusp.md`.
+> anyway, in all 40.** So the reduction is **not** an equivalence: isotropy is sufficient, not
+> necessary, and proving it would settle the one-cusped case only. §2–§3's "`L_V` is Lagrangian" and
+> the form-free cup vanishing hold at one cusp and fail at two.
+> See `frontier/B1333_the_index_on_several_cusps/ADDENDUM_isotropy_is_one_cusp.md`.
+>
+> ## SECOND CORRECTION — §1's implication does not even hold pointwise
+> Isotropy of `L_V` **alone** gives only `dim L_V <= t_1/2`, not equality; equality needs `L_{V*}`
+> isotropic too, which does not follow. B1335's `m010` sector is a counterexample: `L_V = 0` is
+> isotropic and `I = 1` all the same. **As a statement about the whole class the reduction is
+> sound**, and "prove isotropy for the class" remains the right target for the one-cusped case.
+> No computed result changes. See `ADDENDUM_reduction_needs_both.md`.
 
 **Verdict: OPEN.** Still not a proof. But the thing to be proved is now a *different and smaller*
 statement than B1331 left it, it is form-independent, and the reason the question is well-posed at
