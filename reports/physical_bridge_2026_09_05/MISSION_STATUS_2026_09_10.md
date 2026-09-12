@@ -3,11 +3,12 @@
 This is a status checkpoint of the audit branch, not a new scientific
 seal or a certificate for the whole repository. The latest completed
 local scientific round is R25. All ten remote heads were fetched again
-on September 10 UTC; no other head advanced from the preceding
-September 9 intake. Main is b94ed03a,
-SM 1703c0d8, physics 659487bb, outside 4d481751 and paper review
-67f939cc. Received work is not treated as independently verified merely
-because it was fetched. This seat uses no reserved global B numbers.
+on September 12 UTC. Main remains b94ed03a, SM 1703c0d8 and physics
+659487bb. Outside advanced to a445e657 and paper review to 8bf2c443;
+the latter is a forced update, with both old and new tips retained in
+the [intake ledger](RELAY_TRIAGE_2026_09_12.md). Received work is not
+treated as independently verified merely because it was fetched.
+This seat uses no reserved global B numbers.
 
 ## Verdict
 
@@ -164,9 +165,12 @@ and [the bottleneck ledger](PHYSICS_BOTTLENECKS.md).
 
 Updated September 12 UTC: all sixteen supplied papers, 448 pages,
 are fully read directly by this seat, with no delegated summaries.
-The transfer assessment is being finalized. Reading completion does
-not certify every theorem or a physical import. The review informs
-the retained index/interactions path, not replacing it.
+The [32-source transfer assessment](ASSELMEYER_MALUGA_TRANSFER.md)
+is complete. It identifies concrete mathematical transfers, records
+their remaining hypotheses, and preserves later repairs to earlier
+formulations. Reading and synthesis do not certify every theorem or
+a physical import. The review informs the retained index/interactions
+path, not replacing it.
 
 Promising mathematical leads include spinorial boundary identities,
 CS gradient flow, relative framing/index data, character/skein
@@ -177,6 +181,14 @@ actual model. Several physical identifications in the papers need
 missing arguments; a defect in one arrow does not invalidate their
 standard mathematical ingredients. Exact coverage and page-qualified
 notes are in [the direct-reading ledger](ASSELMEYER_MALUGA_READ.md).
+
+The new B1334 vanishing argument also has a specific unverified step:
+its restriction matrix is built from a parameter-dependent kernel,
+so the stated rank-semicontinuity inference needs more justification
+at kernel-dimension jumps. This is not a counterexample to its numerical
+zeros or an automatic theorem about the sourced singular operator.
+The newer outside algebra claims likewise remain received rather than
+independently reproduced. The intake ledger preserves their scope.
 
 The cosmological-constant, neutrino and inflation papers now add
 specific transfer questions. Their choices of CS connection/lift,

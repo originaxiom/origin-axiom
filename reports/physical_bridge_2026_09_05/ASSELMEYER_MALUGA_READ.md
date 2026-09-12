@@ -2,9 +2,11 @@
 
 Started 2026-09-09 UTC / September 10 local, at the user's request.
 Direct-reading status: COMPLETE, sixteen PDFs and 448 pages. The
-mathematical-transfer assessment is being finalized. Reading every
-page is not verification of every theorem, a novelty certificate,
-or a physical derivation. Final source checks resumed September 12 UTC.
+[mathematical-transfer assessment](ASSELMEYER_MALUGA_TRANSFER.md) is
+complete as a literature assessment, not an accepted physical import.
+Reading every page is not verification of every theorem, a novelty
+certificate, or a physical derivation. Final source checks and the
+cited synthesis were completed September 12 UTC.
 
 ## Custody and method
 
@@ -70,6 +72,25 @@ the chronological notes below describe progress at those earlier reads.
 
 No external contact, main merge, B allocation or publication of the
 supplied papers is performed by this reading.
+
+## Synthesis checkpoint, September 12 UTC
+
+The separate transfer report contains about 4,600 words and 32 numbered
+source definitions, with all sixteen supplied versions represented.
+Its conclusion is to attach boundary spinors, gauge flow and relative
+response tools to the retained source/operator/action construction,
+not replace it with an uncomputed physical identification. It separates
+net-index stability from pair-free multiplicity and preserves corrected
+later formulations instead of importing older blanket objections.
+
+Document checks: all 32 references are defined and used, with no duplicate
+definitions; all 12 local source links resolve. The first Ruby citation
+and link checks failed on non-ASCII author names under the shell's
+US-ASCII external encoding. Both pass after explicitly reading UTF-8;
+no text was deleted to hide that tooling failure. The inflation appendix
+locator was rechecked against PDF pages 20--23. No new scientific
+producer/test, R26 seal, or numerical phenomenology was executed for
+this synthesis. The previous scientific regressions remain as reported.
 
 ## Direct notes: 1910.09966v1 (2019)
 
