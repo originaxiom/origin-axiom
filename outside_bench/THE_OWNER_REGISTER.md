@@ -3027,3 +3027,71 @@ and genuinely moves something, so that the cheaper control is not a weaker one.
 | L142 | **closed** |
 | `E` split over **K itself** | **reduced** to the ramification of one quaternion algebra over one totally real cubic field, unramified at all three real places — a pari/sage question this bench cannot run |
 | §4A.3's other two doors (gauge-datum, L154's σ) | vague / not-posable |
+
+---
+
+## R113 — "whats left for us to do towards concrete results towards the goal" (2026-09-12)
+
+**Asked:** *"whats left for us to do towards concrete results towards the goal"*
+
+**Answered from the record, not from memory.** Sources read this session: `docs/WHAT_WOULD_COUNT.md`
+§4A.1/§4A.2/§4A.3 verbatim; `docs/OPEN_LEADS.md` rows L6, L7, L53, L68, L70, L71, L72, L78, L173,
+L174. Admissibility of the OPEN claims below: `scripts/checks/already_banked.py` run on the terms
+`level-2 filling span`, `E6-principal torsion`, `principal torsion`, `arithmetic Chern-Simons`,
+`theta-odd deformations geometric meaning` — 361 corpus hits, **0 SETTLED arcs matching ≥7 of 13
+terms**, no settled arc matched; the claims are admissible.
+
+### R113-1 — the three success tiers, as the corpus itself states them
+
+| tier | what the corpus says is left | blocked on |
+|---|---|---|
+| **§4A.1 Tier-STRUCTURE** | **exactly one item.** *"Currently open, neither PASS nor FAIL: chirality without an inserted closing — the one gap this tier has always had."* B1098/B1100's non-abelian holonomy adds a **priced** closing; the four-language wall (B1083/B1084/B1086/B1087) keeps **chirality at count** explicitly unclaimed. | mathematics |
+| **§4A.2 Tier-INTERFACE** | *"SPEC ONLY, OWNER-PENDING on the aperiodic-design unseal decision"* (L173 / `docs/EDGE_PREREG_SPEC.md`). The theory side is complete (B1085/B1095); the experimental technique is established science. **What has not happened is the seal.** | **an owner decision**, not a computation |
+| **§4A.3 Tier-VALUE-COMPRESSION** | B882 is **REFUTED BY THEOREM** this session (memo 204: the object is ⁶D₄, `Aut_F(L)(F)=1`, no trialitarian automorphism over ℚ). The two remaining doors — the gauge-datum question and L154's σ — are **vague / not-posable** (B1064-O3). | nothing computable is posed |
+
+### R113-2 — two OPEN_LEADS rows are STALE and should not be counted as work
+
+- **L53** — the duplicate row (the one merged from the renumbered L70 successor) still reads
+  *"OPEN — first in the queue."* The primary L53 row states **"L53 CLOSED"**: B578-D1 made the
+  third-order Massey class vanish **exactly** in all six directions, discharging B370's
+  conditionality; indeterminacy-zero computed for {4,8} (12/12). **What is actually open at L53 is
+  all-orders integrability** (the Menal-Ferrer–Porti analogue at E₆), and the row itself records
+  *"no Goldman–Millson formality is available for knot groups"* — i.e. the method is missing, not
+  the effort.
+- **L174** — the ★★★★★ campaign row still reads *"OPEN — C1 first."* **C1, C2, C3 and C4 are all
+  BANKED** (B1088/B1090/B1089/B1091). The only remaining cell is **C5, the arithmetic-CS hole**,
+  already carried as **NEEDS-SPECIALIST, honestly fenced**.
+
+> Filed here rather than edited on main: this bench does not mutate main's standing documents.
+
+### R113-3 — what is left that this bench can actually compute
+
+Ranked by *rung exists today*, not by ambition:
+
+1. **L78 — the level-2 filling span (Route A), ★★★★, "OPEN — Round 2 first."** Row-0 covectors of
+   ρ_level-2(g_{p,q}) over the slope sweep, SVD against the θ-even/θ-odd split. **Both outcomes
+   bank:** rank > θ-even dim ⇒ the θ-odd state amplitude (Q3's missing fact) becomes computable;
+   rank pinned ⇒ a **second structural-unhearability theorem**. Controls mandatory (5₂ + one non-E₆
+   theater). Route B (state-integral vs the six torsions) is the cross-check.
+2. **L72 phase 1 — the E₆-principal torsion, ★★★.** The genuinely new step: the E₆-principal
+   torsion = the **product of the six Sym^{2m}-block torsions**; start from **B425's method**
+   (τ₁ = −3 ∈ ℚ(√−3) at the geometric root). Phases 2–3 are gated on phase 1. This is a
+   finite exact computation over a field the corpus already works in.
+3. **L71 — what ARE the θ-odd deformations, ★★★.** B576 closed *where* they go (θ-odd activation
+   forces full E₆, where the 27 is chiral); L71 asks what they **are** geometrically. B270 banked
+   *"deformations are cusp deformations"* — the row says start there.
+
+### R113-4 — what is left that this bench cannot run here
+
+| item | why not here |
+|---|---|
+| `E` split over **K** itself (the last step of memo 204's arc) | reduced to the ramification of one quaternion algebra over one totally real cubic field, unramified at all three real places — **needs pari/sage**, neither is on this box |
+| **KMRT Ch. VII §43 and §44.B** (*The Book of Involutions*, AMS Colloquium 44) | a **book**, not on arXiv — the only source covering the non-cyclic-cubic case |
+| **C5, the arithmetic-CS hole** (L174) / **L6** non-metallic sealing | both already carried as **NEEDS-SPECIALIST** by the corpus itself |
+
+### R113-5 — the honest one-line answer
+
+> **One structural item (chirality at count), one instrument item waiting on the owner's signature
+> rather than on any computation (the L173 seal), one refuted door (B882), two stale rows that look
+> like work and are not, three computable rungs (L78, L72-phase-1, L71), and three handoffs that need
+> software or a book this box does not have.**
