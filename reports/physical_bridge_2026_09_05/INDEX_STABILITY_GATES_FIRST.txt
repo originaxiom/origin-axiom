@@ -1,0 +1,42 @@
+R26 FIRST reporting gate run, after final all-head intake.
+All then-current files staged; tree read-only during the check.
+Exit 1; 26 PASS / 4 FAIL; elapsed 15.409747999976389 seconds.
+Not identical to R25: two newer notes add attribution flags and the earlier relay note has two unresolved remote-only path citations.
+These reporting defects require correction; they are not folded into the old baseline.
+Older attribution, static-vacuity and seal-provenance debts remain. No waiver.
+Latest manifest at launch: 345 paths, zero mismatches.
+Authored staged whitespace passes; five raw regression trailing-space lines are preserved.
+Raw gate log SHA256: c14237f0dce636cb60c3887be6772c97b6d877fd6bca89b77b83b2a7ac79451a.
+Command: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3.12 scripts/gates/gates.py
+
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/INDEX_STABILITY_INTAKE.md (3 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/RELAY_TRIAGE_2026_09_12.md (2 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  FAIL  path-refs: 2 unresolved path citation(s): reports/physical_bridge_2026_09_05/RELAY_TRIAGE_2026_09_12.md -> frontier/B1334_the_deformation_proof/ADDENDUM_what_is_left.md; reports/physical_bridge_2026_09_05/RELAY_TRIAGE_2026_09_12.md -> frontier/B1334_the_deformation_proof/FINDINGS.md
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  PASS  relay-debt: ok
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 146 merges since last review (DUE — run the decadal review)

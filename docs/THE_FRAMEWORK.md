@@ -1,6 +1,20 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**LATEST LOCAL AUDIT, 2026-09-09 (R25): an explicit free boundary response.**
+**LATEST LOCAL AUDIT, 2026-09-12 (R26): conditional stability under localized curvature.**
+The fixed strong-source charged Dirac index survives bounded Hermitian
+odd perturbations supported in the regular interior or uniformly
+vanishing at ALL source/cusp ends. Below the original gap, the pair-free
+three/zero kernel survives; an actual nonflat trial connection satisfies
+this class. The charged sector and spinor factor must be preserved.
+The argument is conditional on R18/R19, not a stationary coupled source,
+anomaly completion or a neutral-sector gap. Next derive one source/end
+action and test its actual solution and gauge symmetries against these
+hypotheses. PB-BOUNDARY remains OPEN. Report:
+reports/physical_bridge_2026_09_05/INDEX_STABILITY.md.
+13 new tests pass; broad 354 pass/14 fail/8 error, exactly R25's
+failed/error inventory. No reserved B allocation, main bank or TOE.
+
+**PRECEDING LOCAL AUDIT, 2026-09-09 (R25): an explicit free boundary response.**
 The reference-wall ansatz derives an opposite-index/anomaly boundary
 channel from the actual mass eigenline. Moving it to the ends does
 not decouple it from the unchanged constant gauge mode. This is a

@@ -27,9 +27,12 @@ dimension is not a map. A flaw in one inference does not kill the
 remaining mathematics. Any new two-outcome numerical/symbolic probe
 will be separately designed and sealed before execution.
 
-The current index-stability path remains registered in
-INDEX_STABILITY_PRIOR.md; its science has not run. The paper read
-will inform that path, not silently replace it.
+The index-stability path registered in INDEX_STABILITY_PRIOR.md was
+subsequently sealed and executed as [R26](INDEX_STABILITY.md), after
+this reading checkpoint. It supplies conditional fixed-domain stability,
+not a stationary source or anomaly completion. The paper assessment
+informs that retained path; it does not replace it. Earlier dated
+reading entries below retain their then-unexecuted status as history.
 
 ## Reading coverage (PDF pages, not keyword hits)
 

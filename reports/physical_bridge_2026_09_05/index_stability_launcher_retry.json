@@ -1,0 +1,1239 @@
+{
+  "channel_rows": [
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 0,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 0,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 0,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 2,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 2,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 2,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 1,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 1,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 1,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 4,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 4,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 4,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 3,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 3,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 3,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 6,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 1,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 6,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 2,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "-2"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 0,
+      "small_norm": "True",
+      "strength": "0"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 1,
+      "small_norm": "True",
+      "strength": "1/2"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 1,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 6,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "1"
+    },
+    {
+      "computed_index": 5,
+      "even_kernel": 0,
+      "gap": "1",
+      "hermitian": true,
+      "k": 5,
+      "n": 4,
+      "odd": true,
+      "odd_kernel": 5,
+      "perturbation_rank": 1,
+      "small_norm": "False",
+      "strength": "3/2"
+    }
+  ],
+  "curvature": {
+    "bump": "exp(-1/(-r**2 - t**2 - theta**2 + 1))",
+    "centre_curvature": {
+      "(0, 1)": "epsilon*exp(-1)",
+      "(1, 2)": "0"
+    },
+    "centre_mass": {
+      "(0,)": "2*r",
+      "(1,)": "t",
+      "(2,)": "theta"
+    },
+    "centre_square": "-I*epsilon*q*exp(-1)",
+    "connection": {
+      "(1,)": "epsilon*r*exp(-1/(-r**2 - t**2 - theta**2 + 1))"
+    },
+    "curvature": {
+      "(0, 1)": "epsilon*(r**4 + 2*r**2*t**2 + 2*r**2*theta**2 - 4*r**2 + t**4 + 2*t**2*theta**2 - 2*t**2 + theta**4 - 2*theta**2 + 1)*exp(-1/(-r**2 - t**2 - theta**2 + 1))/(r**2 + t**2 + theta**2 - 1)**2",
+      "(1, 2)": "2*epsilon*r*t*exp(-1/(-r**2 - t**2 - theta**2 + 1))/(r**2 + t**2 + theta**2 - 1)**2"
+    },
+    "nonflat": true,
+    "sphere_support_radius": 1,
+    "square_rows": [
+      {
+        "basis": [],
+        "identity": true
+      },
+      {
+        "basis": [
+          0
+        ],
+        "identity": true
+      },
+      {
+        "basis": [
+          1
+        ],
+        "identity": true
+      },
+      {
+        "basis": [
+          2
+        ],
+        "identity": true
+      },
+      {
+        "basis": [
+          0,
+          1
+        ],
+        "identity": true
+      },
+      {
+        "basis": [
+          0,
+          2
+        ],
+        "identity": true
+      },
+      {
+        "basis": [
+          1,
+          2
+        ],
+        "identity": true
+      },
+      {
+        "basis": [
+          0,
+          1,
+          2
+        ],
+        "identity": true
+      }
+    ],
+    "zero_amplitude_flat": true,
+    "zero_form_square_nonzero": true
+  },
+  "original_kernels": [
+    {
+      "betti": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "euler": -3,
+      "even": 0,
+      "index": 3,
+      "label": "pair_free",
+      "odd": 3
+    },
+    {
+      "betti": [
+        0,
+        4,
+        1,
+        0
+      ],
+      "euler": -3,
+      "even": 1,
+      "index": 3,
+      "label": "trivial",
+      "odd": 4
+    },
+    {
+      "betti": [
+        0,
+        4,
+        1,
+        0
+      ],
+      "euler": -3,
+      "even": 1,
+      "index": 3,
+      "label": "exceptional",
+      "odd": 4
+    }
+  ],
+  "resolvent": {
+    "factorization": true,
+    "inverse_difference": true,
+    "wrong_order_rejected": true
+  },
+  "runtime_seconds": 57.21029573198757,
+  "scope": "Controls of the displayed fixed-domain argument; not a stationary coupled source, numerical PDE spectrum or physical completion.",
+  "symbol": {
+    "actual_map": true,
+    "even_scalar_not_odd": true,
+    "expected": [
+      [
+        "0",
+        "I*a0*q + v0",
+        "I*a1*q + v1",
+        "I*a2*q + v2",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-I*a0*q + v0",
+        "0",
+        "0",
+        "0",
+        "-I*a1*q - v1",
+        "-I*a2*q - v2",
+        "0",
+        "0"
+      ],
+      [
+        "-I*a1*q + v1",
+        "0",
+        "0",
+        "0",
+        "I*a0*q + v0",
+        "0",
+        "-I*a2*q - v2",
+        "0"
+      ],
+      [
+        "-I*a2*q + v2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "I*a0*q + v0",
+        "I*a1*q + v1",
+        "0"
+      ],
+      [
+        "0",
+        "I*a1*q - v1",
+        "-I*a0*q + v0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "I*a2*q + v2"
+      ],
+      [
+        "0",
+        "I*a2*q - v2",
+        "0",
+        "-I*a0*q + v0",
+        "0",
+        "0",
+        "0",
+        "-I*a1*q - v1"
+      ],
+      [
+        "0",
+        "0",
+        "I*a2*q - v2",
+        "-I*a1*q + v1",
+        "0",
+        "0",
+        "0",
+        "I*a0*q + v0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-I*a2*q + v2",
+        "I*a1*q - v1",
+        "-I*a0*q + v0",
+        "0"
+      ]
+    ],
+    "hermitian": true,
+    "norm_square": "q**2*(a0**2 + a1**2 + a2**2) + v0**2 + v1**2 + v2**2",
+    "odd": true,
+    "operator": [
+      [
+        "0",
+        "I*a0*q + v0",
+        "I*a1*q + v1",
+        "I*a2*q + v2",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-I*a0*q + v0",
+        "0",
+        "0",
+        "0",
+        "-I*a1*q - v1",
+        "-I*a2*q - v2",
+        "0",
+        "0"
+      ],
+      [
+        "-I*a1*q + v1",
+        "0",
+        "0",
+        "0",
+        "I*a0*q + v0",
+        "0",
+        "-I*a2*q - v2",
+        "0"
+      ],
+      [
+        "-I*a2*q + v2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "I*a0*q + v0",
+        "I*a1*q + v1",
+        "0"
+      ],
+      [
+        "0",
+        "I*a1*q - v1",
+        "-I*a0*q + v0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "I*a2*q + v2"
+      ],
+      [
+        "0",
+        "I*a2*q - v2",
+        "0",
+        "-I*a0*q + v0",
+        "0",
+        "0",
+        "0",
+        "-I*a1*q - v1"
+      ],
+      [
+        "0",
+        "0",
+        "I*a2*q - v2",
+        "-I*a1*q + v1",
+        "0",
+        "0",
+        "0",
+        "I*a0*q + v0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-I*a2*q + v2",
+        "I*a1*q - v1",
+        "-I*a0*q + v0",
+        "0"
+      ]
+    ],
+    "scalar_norm": true,
+    "square": [
+      [
+        "a0**2*q**2 + a1**2*q**2 + a2**2*q**2 + v0**2 + v1**2 + v2**2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "a0**2*q**2 + a1**2*q**2 + a2**2*q**2 + v0**2 + v1**2 + v2**2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "a0**2*q**2 + a1**2*q**2 + a2**2*q**2 + v0**2 + v1**2 + v2**2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "a0**2*q**2 + a1**2*q**2 + a2**2*q**2 + v0**2 + v1**2 + v2**2",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "a0**2*q**2 + a1**2*q**2 + a2**2*q**2 + v0**2 + v1**2 + v2**2",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "a0**2*q**2 + a1**2*q**2 + a2**2*q**2 + v0**2 + v1**2 + v2**2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "a0**2*q**2 + a1**2*q**2 + a2**2*q**2 + v0**2 + v1**2 + v2**2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "a0**2*q**2 + a1**2*q**2 + a2**2*q**2 + v0**2 + v1**2 + v2**2"
+      ]
+    ],
+    "wrong_adjoint_not_hermitian": true,
+    "wrong_adjoint_rejected": true
+  },
+  "tails": [
+    {
+      "both_eigenvectors": true,
+      "distance_formula": true,
+      "orthonormal": true,
+      "resolvent_distance_squared": "1",
+      "tail_kill": [
+        {
+          "full_kernel": 5,
+          "matched": 1
+        },
+        {
+          "full_kernel": 7,
+          "matched": 2
+        },
+        {
+          "full_kernel": 11,
+          "matched": 4
+        },
+        {
+          "full_kernel": 19,
+          "matched": 8
+        }
+      ]
+    },
+    {
+      "both_eigenvectors": true,
+      "distance_formula": true,
+      "orthonormal": true,
+      "resolvent_distance_squared": "2/5",
+      "tail_kill": [
+        {
+          "full_kernel": 5,
+          "matched": 1
+        },
+        {
+          "full_kernel": 7,
+          "matched": 2
+        },
+        {
+          "full_kernel": 11,
+          "matched": 4
+        },
+        {
+          "full_kernel": 19,
+          "matched": 8
+        }
+      ]
+    },
+    {
+      "both_eigenvectors": true,
+      "distance_formula": true,
+      "orthonormal": true,
+      "resolvent_distance_squared": "1/5",
+      "tail_kill": [
+        {
+          "full_kernel": 5,
+          "matched": 1
+        },
+        {
+          "full_kernel": 7,
+          "matched": 2
+        },
+        {
+          "full_kernel": 11,
+          "matched": 4
+        },
+        {
+          "full_kernel": 19,
+          "matched": 8
+        }
+      ]
+    }
+  ]
+}

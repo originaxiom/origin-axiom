@@ -426,3 +426,73 @@ Final quiescent reporting pass after that intake: again 27 PASS / 3
 FAIL with identical details. All 320 then-listed artifact digests match;
 the scientific design/source/test diff from 16ba8ce1 is empty.
 Receipt: BOUNDARY_WALL_FINAL_CHECKS.txt. This is not a green main bank.
+
+## R26 update (2026-09-12): fixed-domain index stability, still path-local
+
+Seal 46b34c09 was pushed before execution; the scientific design,
+proof, producer and tests remain byte-identical to that seal. All
+59 registered design digests passed the pre-execution metadata check;
+older literal-provenance omissions remain debt. No new B allocation,
+reserved CC number, main merge, PR or external relay. The full-head
+and all-object retrieval receipts pin current and retained old tips;
+they are not absence or novelty certificates. B1247 is a retrieval
+method reference, not a source-domain theorem.
+
+The first interpreter failures were committed with the unchanged-code
+retry declaration at 8dfbd9bc. The established Python 3.12.1 environment
+then completes the native control in 57.2103 s and the focused 56-test
+selection in 84.65 s, all passing. A lost first broad terminal capture
+is explicitly unrecovered. Only after checking the original process
+was absent was the same population repeated with durable exclusive
+file capture. The completed 47-file run is 354 pass/14 fail/8 error
+in 337.17 s, exactly R25's 22 failed/error IDs. Source, assertions,
+tolerances and original failures are unchanged. Raw receipts are
+retained outside the repository, publicly prefix-redacted only.
+
+The result/proof, FINDINGS/README, goal/mission/strategy, three living
+ledgers, framework, woven X33 row, three scoped law rows, PB-BOUNDARY
+and failure record carry the outcome. The proof is conditional on the
+original strong-source maximal operator and standard local compactness,
+not a stationary coupled solution or an independent analytic review.
+The original proof candidate is frozen; INDEX_STABILITY.md reports
+the executed controls and discharges its pre-execution status.
+
+PB-BOUNDARY remains open for one source/end action, actual stationary
+class membership, admitted gauge transformations and quantum completion.
+No new formal arc verdict or global theorem-registry promotion is
+manufactured. Full repository pytest green, all-green reporting gates,
+independent receiving-seat banking and main publication remain unpaid.
+Final reporting gates, hashes and authorized own-branch push checks
+follow in a separate receipt; older debts are not waived.
+
+Final all-head/tag fetch completes with two advances: outside 24d73610
+and paper review c83b6b80. The new memo/addenda, findings and paper-impact
+note were read with selected complete implementations and exact diffs;
+INDEX_STABILITY_INTAKE.md states the reading boundary. The finite-field
+positive and isotropy repair are preserved; the unchanged B1334 proof
+step is not silently certified. This is received work, not independent
+reproduction or review of R26. Its pre-execution pins remain unchanged.
+
+The FIRST R26 reporting pass is **26 PASS / 4 FAIL**, not the older
+27/3: INDEX_STABILITY_GATES_FIRST.txt. Two newer intake notes trigger
+attribution flags through literal remote branch labels, and the earlier
+relay note cites two remote-only paths as if local. These are reporting
+defects in this seat's notes, not new mathematical failures. Role labels
+now preserve the immutable branch SHAs without attribution prefixes,
+and the two citations are explicit immutable remote links. The first
+failed pass remains on disk; no baseline or gate is changed. The older
+attribution, static-vacuity and literal-provenance debts are untouched.
+The final staged pass follows this correction. All 345 then-listed
+artifact digests matched; authored whitespace passed, with the raw
+regression's five trailing-space transcript lines retained.
+
+Final staged reporting run completes in 13.6078 s: **27 PASS / 3 FAIL**,
+with exactly R25's three failed-detail strings, none added or missing.
+The two note defects are cleared and the first failed run is retained;
+no old baseline is waived. Receipt: INDEX_STABILITY_FINAL_CHECKS.txt.
+All 346 then-listed latest artifact digests match; the original R26
+proof/design/source/test diff is empty. The final receipt is hashed
+and the complete latest-row manifest is checked again before commit.
+The owner reiterates that no other seat's load-bearing claim is to
+be assumed: the new intake remains read-only, not certification, and
+its named proof/representation obligations stay open.

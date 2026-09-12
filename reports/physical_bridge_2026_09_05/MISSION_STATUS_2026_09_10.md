@@ -2,11 +2,13 @@
 
 This is a status checkpoint of the audit branch, not a new scientific
 seal or a certificate for the whole repository. The latest completed
-local scientific round is R25. All ten remote heads were fetched again
+local scientific round is R26. All ten remote heads were fetched again
 on September 12 UTC. Main remains b94ed03a, SM 1703c0d8 and physics
-659487bb. Outside advanced to a445e657 and paper review to 8bf2c443;
-the latter is a forced update, with both old and new tips retained in
-the [intake ledger](RELAY_TRIAGE_2026_09_12.md). Received work is not
+659487bb. The final fetch advances outside to 24d73610 and paper review
+to c83b6b80; their [new findings and scope duties](INDEX_STABILITY_INTAKE.md)
+are read but not independently rerun. The earlier paper-review forced
+update and its old/new tips remain in
+the [preceding intake ledger](RELAY_TRIAGE_2026_09_12.md). Received work is not
 treated as independently verified merely because it was fetched.
 This seat uses no reserved global B numbers.
 
@@ -26,7 +28,10 @@ unbroken extra U(1) is anomalous as a standalone 4D gauge theory. The
 tested free boundary completion supplies the opposite response through
 mirror modes. The task is now to derive consistent interacting and end
 dynamics in the same construction, not to discard the interior result
-or declare the complete physical problem solved.
+or declare the complete physical problem solved. R26 now establishes
+conditional robustness of the charged index under specified localized
+curvature, and of the pair-free kernel below the original gap. It does
+not yet show that a stationary coupled solution has those properties.
 
 ## Results actually obtained
 
@@ -113,6 +118,26 @@ normalization keeps those modes gauge-coupled even when their profiles
 move toward a cusp. See [inflow](MASS_INFLOW.md) and
 [the boundary wall](BOUNDARY_WALL.md).
 
+### Curvature need not destroy the conditional chiral sector
+
+R26 derives the bounded connection/mass perturbation from the actual
+exterior operator and its metric adjoint. On the original strong-source
+domain, regular-interior compact support, or uniform decay at every
+source/cusp end, makes it compact for the graph norm. The graded index
+is unchanged; no compact resolvent is assumed. A separate strict
+smallness bound by the original gap preserves the exact three/zero
+kernel. An explicit smooth compactly supported connection is genuinely
+curved and can satisfy that bound. See [the result](INDEX_STABILITY.md)
+and [fixed-domain argument](INDEX_STABILITY_PROOF.md).
+
+This is conditional on R18/R19 and on preservation of the charged
+sector and spinor factor for the multiplet statement. The new finite
+controls pass but do not independently prove the earlier infinite-
+dimensional analysis. The curved example is a finite-additional-energy
+trial, not a Maxwell--Higgs/BPS solution or a proof of finite total
+source action. The next question is now the actual coupled solution's
+class membership, not whether curvature necessarily erases chirality.
+
 ## Questions and strategy
 
 The owner's subsequent [big-picture review](BIG_PICTURE_REVIEW_2026_09_10.md)
@@ -122,7 +147,8 @@ coexist in ONE model. The same finite-volume and common-source assumptions
 help explain both positive results and recurring walls. Index stability
 remains a necessary scoped sub-duty for the retained perturbative route,
 not evidence by itself for a physical source or quantum completion.
-This reflection adds no executed R26 result and does not claim that all
+The reflection itself added no scientific result. The later R26
+calculation advances its stability sub-duty; neither asserts that all
 possible interacting completions require mirrors.
 
 The next milestone is a consistent sourced chiral effective theory,
@@ -131,21 +157,22 @@ remaining questions and the discriminating work for each.
 
 | Question | Next work | What would count as progress |
 |---|---|---|
-| Does chirality survive gauge backreaction? | Use the actual graded Dirac operator, its fixed complete domain and the R18 gap; test localized curvature/mass perturbations. | A proved index-stability statement with its decay/support hypotheses, and a separate bound for preserving the exact three/zero count. |
+| Does an actual coupled solution preserve chirality? | R26 now supplies the conditional fixed-domain index theorem and separate small-norm pair-free bound. Derive the stationary solution and estimate its perturbation, gap, source behavior and gauge-sector map. | A solution proved to lie in a controlled stability class, not another unconstrained trial connection. |
 | Can the same theory be quantum-consistent without light mirrors? | Derive a source/end action or coupled Higgs/current mechanism; recompute spectrum, full anomaly and gauge coupling together. | Consistent gauge variation and spectrum in one model, not a cancellation supplied by unrelated added fields. |
 | Why these sources, amplitudes, domain and holonomy? | Identify genuine observable choices after gauge equivalence; derive defect equations, variational boundary laws and any selector. | A mechanism producing the declared background, or an honest reduced input count in a conditional theory. |
 | Does a usable four-dimensional limit exist? | Analyze neutral as well as charged modes, normalizability, continuum thresholds and interaction overlaps. | A controlled low-energy truncation with finite couplings and quantified unwanted light sectors. |
 | How do the gauge and matter constructions join gravity? | Require one action and field dictionary; check global groups, kinetic signs, physical gravitational modes and universal coupling. | A shared dynamical theory, not a spin-2 representation or a separately chosen Einstein action. |
 | Can it predict measurements? | Derive normalized couplings, symmetry breaking, masses and running; record adjustable inputs before comparison. | Falsifiable predictions with uncertainty and a specified scale, not fitted numerical coincidences. |
 
-The index-stability route is prepared but NOT executed or sealed as
-a new result. The crucial distinction is that curved transport can
-destroy the flat cochain differential without automatically destroying
-the Dirac index. Conversely, preservation of the net index does not
-automatically preserve every kernel multiplicity or solve a Maxwell--
-Higgs equation. A successful compact-perturbation theorem would still
-need proof that an actual finite-action interacting solution lies in
-its hypotheses. See [the retained R26 preparation](INDEX_STABILITY_PRIOR.md).
+The index-stability route is now sealed and executed, with all 13 new
+tests passing. Curved transport can destroy the flat cochain differential
+without destroying the graded Dirac index. Preservation of the net index
+alone does not preserve every multiplicity: the explicit rank-one control
+adds a pair at the gap crossing. Nor does an index theorem solve the
+field equations. A finite-action interacting solution must still be
+derived and checked against the support/decay, fixed-domain and gauge
+hypotheses. See [R26](INDEX_STABILITY.md), with the original
+[preparation and retrieval](INDEX_STABILITY_PRIOR.md) retained.
 
 A Higgs mass for an anomalous U(1) is not by itself a cure. The full
 gauge-invariant completion, including heavy fields and induced boundary
@@ -190,6 +217,15 @@ zeros or an automatic theorem about the sourced singular operator.
 The newer outside algebra claims likewise remain received rather than
 independently reproduced. The intake ledger preserves their scope.
 
+The final intake adds B1335's reported finite-field nonzero example
+and B1332's correction that both a restriction image and its dual need
+isotropy for the half-dimension conclusion. The sampled geometric
+characteristic-zero zeros remain. B1334's text was not changed by this
+update, so its earlier proof obligation is not silently discharged.
+Outside memo 205's six equal field readouts likewise remain distinct
+from a theorem about every possible readout. See
+[the final read-only intake](INDEX_STABILITY_INTAKE.md).
+
 The cosmological-constant, neutrino and inflation papers now add
 specific transfer questions. Their choices of CS connection/lift,
 metric completeness, physical scale and Dirac domain matter. The
@@ -211,13 +247,16 @@ requirements from a supplied physical action. A changed convolution
 formula in a later paper was checked directly, preventing an older
 printed-product defect from becoming a blanket exclusion.
 
-The last completed R25 run added 15 passing tests. Its 46-file broad
-regression had 341 passes, 14 failures and 8 errors; the failed/error
-IDs were exactly those already present at R24. This is not full green,
-and passing code checks do not replace independent proof review.
-Original failures, receipts, seals and assumptions remain preserved.
-No scientific source or test has been changed during this reading
-checkpoint, and those suites have not been rerun just for the notes.
+R26's first successful native run takes 57.2103 seconds; the focused
+selection gives 56 passes. Its completed 47-file expanded regression
+has 354 passes, 14 failures and 8 errors in 337.17 seconds, with exactly
+R25's 22 failed/error IDs. This is not full green, and passing finite
+controls do not replace independent proof review. Initial wrong-
+interpreter failures and a lost first broad-run terminal capture are
+explicitly retained; the replacement has durable complete output and
+a terminal receipt. All scientific source, design, proof and test
+bytes remain unchanged from the pre-execution seal `46b34c09`.
+The tree stayed read-only during the completed scientific runs.
 
 Work is committed and pushed on `audit/physical-bridge-2026-09-05`,
 not merged into main. No completed TOE, independently accepted main

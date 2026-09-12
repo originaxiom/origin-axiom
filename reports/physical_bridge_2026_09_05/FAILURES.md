@@ -704,3 +704,32 @@ source-selected boundary determinant, individual finite-system modes,
 quantum phases and physical source remain outside this calculation.
 Native and test receipts: boundary_wall_first_run.json,
 BOUNDARY_WALL_CHECKS.txt and BOUNDARY_WALL_REGRESSION.txt.
+
+## R26: launcher failure and broad-capture loss, no new scientific failure IDs (2026-09-12)
+
+After the pushed seal 46b34c09, the first native launch resolved a
+system interpreter without SymPy; the first focused launch lacked
+pytest. Both stopped before the new calculation. The nonexistent
+alternate interpreter path was checked and rejected, then the existing
+pyenv Python 3.12.1 environment was verified. The unchanged-source
+retry declaration was committed at 8dfbd9bc before execution. No package,
+equation, tolerance or test was changed. INDEX_STABILITY_LAUNCH_FAILURE.txt
+retains the first failures rather than relabeling them scientific zeros.
+
+The first successful native output takes 57.2103 s, and all 56 focused
+tests pass in 84.65 s, including 13 new tests. The first broad-regression
+terminal capture was lost across continuation; its session was unknown
+and no test process remained before the replacement was launched.
+No terminal verdict is recovered for that first broad run. The loss
+and unchanged-population retry are declared in
+INDEX_STABILITY_REGRESSION_CAPTURE_LOSS.md. A file-backed exclusive
+capture helper preserves the replacement's complete raw output and
+terminal exit receipt outside the tree.
+
+The replacement 47-file regression is 354 pass/14 fail/8 error in
+337.17 s, exit one. All 22 FAILED/ERROR IDs match R25 exactly: none
+added or missing. INDEX_STABILITY_REGRESSION.txt retains the full
+output and raw digest with only environment prefixes redacted.
+Original source, proof, design, tests and first receipts remain frozen.
+Neither the conditional stability proof nor its finite controls supply
+a numerical PDE spectrum, stationary source or anomaly cancellation.

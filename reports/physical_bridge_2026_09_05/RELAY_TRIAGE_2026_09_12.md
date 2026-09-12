@@ -10,10 +10,13 @@ are proof obligations, not preregistered experimental verdicts.
 Fetched all remote heads and tags at 08:52 UTC. Main remains
 `b94ed03aecba8aae3afc62504e22ec664c26e94f`. Two tracked heads changed:
 
-| branch | earlier observed head | current fetched head |
+| branch role | earlier observed head | current fetched head |
 |---|---|---|
-| claude/outside-bench | 4d481751b056030e695a68cb1ace4bfd8e5bdb8d | a445e6575eba2c03921d0eabd957ec7764a7b231 |
-| claude/paper-verification-ufp0zn | 67f939cc8cc11b9018283e994a847268b05ab43b | 8bf2c4439b0c4b5e575e749b507bb1b79918f9ef |
+| outside bench | 4d481751b056030e695a68cb1ace4bfd8e5bdb8d | a445e6575eba2c03921d0eabd957ec7764a7b231 |
+| paper verification | 67f939cc8cc11b9018283e994a847268b05ab43b | 8bf2c4439b0c4b5e575e749b507bb1b79918f9ef |
+
+Display labels use branch roles; the immutable commit IDs are unchanged.
+The original full branch spellings remain in this note's earlier commit.
 
 The latter was reported as a forced update. Recording both IDs does
 not certify that every prior artifact survives in the new history.
@@ -24,8 +27,8 @@ files have NOT been read or reproduced.
 
 Read in full at the fetched head:
 
-- `frontier/B1334_the_deformation_proof/FINDINGS.md`;
-- `frontier/B1334_the_deformation_proof/ADDENDUM_what_is_left.md`;
+- [B1334 findings at the fetched tip](https://github.com/originaxiom/origin-axiom/blob/8bf2c4439b0c4b5e575e749b507bb1b79918f9ef/frontier/B1334_the_deformation_proof/FINDINGS.md);
+- [B1334 addendum at the fetched tip](https://github.com/originaxiom/origin-axiom/blob/8bf2c4439b0c4b5e575e749b507bb1b79918f9ef/frontier/B1334_the_deformation_proof/ADDENDUM_what_is_left.md);
 - its `verification/index_lib.py` and `verification/mc_lib.py`.
 
 The retained positive is the explicit distinction between one and

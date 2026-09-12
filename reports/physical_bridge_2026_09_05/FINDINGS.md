@@ -8,8 +8,8 @@ distinguishes shared index checks from independent physical predictions.
 The proposed priority is a single source/end action, spectrum and quantum
 completion, with index stability retained as a scoped sub-duty. This is
 an evidence-backed strategic interpretation, not a new scientific result
-or a universal negative. Paper coverage and the last scientific run are
-unchanged below.
+or a universal negative. The later R26 result below advances its
+analytic stability sub-duty while retaining the one-action priority.
 
 **Direct reading and cited transfer assessment complete, September 12 UTC:**
 [Exotic smoothness, chiral matter, and the physical bridge](ASSELMEYER_MALUGA_TRANSFER.md),
@@ -17,8 +17,9 @@ with the [direct-reading ledger](ASSELMEYER_MALUGA_READ.md).
 The supplied sixteen-paper archive is extracted and integrity-checked;
 all sixteen papers (448 pages) are fully read. The 32-source synthesis
 identifies usable mathematical tools and their precise physical joins;
-it is not an accepted physical transfer or a new scientific result. The unexecuted
-[index-stability preparation](INDEX_STABILITY_PRIOR.md) is retained.
+it is not an accepted physical transfer or a new scientific result.
+The subsequently sealed [R26 stability result](INDEX_STABILITY.md)
+is now executed, with its original preparation and first failures retained.
 The owner's requested [mission status and next questions](MISSION_STATUS_2026_09_10.md)
 separates conditional achievements from the remaining physical joins.
 The latest reads expose specific foliation, projection-normalization and
@@ -26,9 +27,9 @@ trace-domain duties while preserving groupoid, skein and twisted-index
 tools. A later supplied paper changes the earlier commutator convolution
 to group composition; that change is retained rather than importing an
 old objection into a new formula. The most direct next step remains
-fixed-domain index stability and one consistent source/end action;
+one consistent source/end action, using the new fixed-domain stability result;
 the papers do not yet select either the source or a mirror-free quantum
-completion. Citation and local-link checks pass. No R26 science has run.
+completion. Citation and local-link checks for the assessment pass.
 
 **September 12 branch intake:**
 [new relay proof obligations](RELAY_TRIAGE_2026_09_12.md) records the
@@ -36,7 +37,26 @@ two changed remote heads and a targeted read of B1334 and outside
 memo 204. The claimed vanishing proof has an unverified kernel-rank
 step; this is not a counterexample to its observed zero indices.
 
-**Latest local result, R25: [the free boundary wall](BOUNDARY_WALL.md).**
+The [final R26 intake](INDEX_STABILITY_INTAKE.md) reads the later
+paper-review c83b6b80 and outside 24d73610 updates: finite-field nonzero
+indices, the two-sided isotropy correction and six equal cubic-field
+readouts are received at their stated scope. B1334's text is unchanged,
+so its proof obligation remains. No new received computation is claimed
+as independently reproduced or as review of the R26 sourced operator.
+
+**Latest local result, R26: [localized-curvature index stability](INDEX_STABILITY.md).**
+Conditional on R18/R19, bounded Hermitian odd perturbations supported
+in the regular interior or uniformly vanishing at every source/cusp
+end preserve the fixed-domain Dirac index. Below the original gap they
+preserve the exact three/zero kernel; an explicitly nonflat trial
+connection lies in this class. Charged-sector and Spin(10)-factor
+preservation are required for the multiplet count. This is not a
+stationary coupled background or anomaly completion. Next derive a
+source/end action and check its solution, gauge symmetries and spectrum
+together. Thirteen new tests pass; 354 broad passes with exactly the
+same 14 failures/8 errors as R25. No full-suite green or complete TOE.
+
+**Preceding local result, R25: [the free boundary wall](BOUNDARY_WALL.md).**
 The actual mass eigenline supports a derived compensating wall channel
 with net index -k and the opposite full anomaly polynomial. For k=3
 this is a mirror sector, not a mirror-free completion. Its normalized

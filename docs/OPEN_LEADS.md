@@ -2736,3 +2736,36 @@ original source or recast the already established character-locus
 theorem as missing. This capability is registered, not silently merged
 or claimed as independent R24/R25 proof review. Intake:
 reports/physical_bridge_2026_09_05/BOUNDARY_WALL_INTAKE.md.
+
+**R26 movement, same PB-BOUNDARY lead (2026-09-12):** closing sentence:
+"Within the fixed strong-source charged domain, bounded Hermitian odd
+perturbations compactly supported in the regular interior or uniformly
+vanishing at all ends preserve the graded index; below the original
+gap they preserve the pair-free kernel, including an explicit nonflat
+trial connection. Only this analytic stability sub-duty closes; a
+stationary source/end and quantum completion remain open."
+Path: reports/physical_bridge_2026_09_05/INDEX_STABILITY.md, section 5;
+conditional proof: INDEX_STABILITY_PROOF.md, sections 1--7. No compact
+resolvent is assumed. The multiplet statement preserves the charged
+block and scalar spinor factor; finite controls do not prove the
+noncompact theorem or numerical gap. PB-BOUNDARY stays OPEN.
+
+NEXT: derive one source/end action with explicit variational domains,
+allowed gauge transformations and a stationary coupled background;
+test its behavior at every source/cusp end, sector mixing and gap
+against the declared stability class. Recompute its anomaly response
+and low-energy spectrum in that same model. R21's added-field EFT,
+R25's mirror-producing free wall and R26's nonstationary bump cannot
+be pasted together as a derived physical vacuum. Alternatives changing
+the gauge profile or admitted end transformations need an explicit
+action/domain map, not a universal no-go or an unearned completion.
+Source selection, a neutral 4D limit, gravity and measured parameters
+remain unpaid. Thirteen new controls pass; the 47-file regression has
+354 passes and precisely the prior 22 failed/error IDs. No global B ID.
+
+**Final R26 intake:** paper-review c83b6b80 adds a reported finite-field
+nonzero index and the two-sided isotropy correction; outside 24d73610
+adds the six-field-readout memo. These are read, not independently
+reproduced. The unchanged B1334 proof still owes its parameter-dependent
+rank step. None is identified with the singular sourced operator by
+name alone. Receipt: reports/physical_bridge_2026_09_05/INDEX_STABILITY_INTAKE.md.

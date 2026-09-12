@@ -14704,3 +14704,46 @@ signs, compact-surface index, full root-weight polynomial and the
 normalized constant-gauge coupling are explicit. Exact separate normal
 and Cech controls do not assert the complete finite-system spectrum.
 CC's held numbering relay read; no B ID, branch merge or external send.
+
+## 2026-09-12 — R26: the sourced chiral index survives a declared class of localized curvature
+
+The actual graded Dirac operator and its metric adjoint give a bounded
+Hermitian odd perturbation on the fixed R18/R19 strong-source domain.
+Regular-interior compact support or uniform decay at ALL source/cusp
+ends preserves the index without compact resolvent. Below the original
+gap, the pair-free three/zero kernel is unchanged; an explicit nonflat
+trial connection satisfies the class. Charged-sector and spinor-factor
+preservation are required. Large compact perturbations can add pairs;
+curved transport need not define the former cochain complex.
+
+This is a conditional analytic result with exact controls, not a
+stationary source/Higgs solution, anomaly completion or full physical
+TOE. Next derive one source/end action and check its actual solution,
+admitted gauge transformations and low-energy spectrum together.
+The extra-U1 anomaly, source selection and neutral-sector duties remain.
+Report: reports/physical_bridge_2026_09_05/INDEX_STABILITY.md.
+
+Seal 46b34c09 was pushed before execution. Initial wrong-interpreter
+failures were recorded at 8dfbd9bc before the unchanged-code retry.
+Native runtime 57.2103 s; focused 56 passes in 84.65 s, including all
+13 new tests. The first broad terminal capture is unrecovered and not
+counted. Its explicitly labeled file-backed replacement completes the
+47-file population: 354 passes, 14 failures and 8 errors in 337.17 s,
+exactly R25's 22 failed/error IDs, with no source/assertion/tolerance
+rewrites. The tree was read-only during completed scientific runs.
+
+All remote heads/tags were fetched; main b94ed03a, outside a445e657
+and paper review 8bf2c443 are pinned. Old forced-update tips and the
+complete repeated all-object search receipt are retained. No CC-reserved
+B number, main merge, PR or external message. The sixteen-paper,
+448-page direct reading and cited transfer assessment were also
+completed and pushed before this round; they inform, not replace,
+the retained source/end/index path. Independent banking, all-green
+repository gates and the full repository test suite are not claimed.
+
+Final intake before this reporting checkpoint: outside advances to
+24d73610 and paper review to c83b6b80. New finite-field/isotropy findings
+and the algebra memo are read but not independently reproduced;
+INDEX_STABILITY_INTAKE.md preserves their exact scope, code-custody
+caveats and the unchanged B1334 proof obligation. R26's seal and
+completed scientific population remain unchanged.

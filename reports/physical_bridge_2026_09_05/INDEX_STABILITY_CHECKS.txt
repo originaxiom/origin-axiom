@@ -1,0 +1,14 @@
+R26 focused launcher retry, original scientific seal 46b34c09.
+Interpreter correction recorded before retry at 8dfbd9bc; source/tests unchanged.
+56 passing tests: 13 new R26 plus unchanged R18/R19/R22 controls.
+Exit 0. One optional-GUI warning. Not a full repository certificate.
+Only user-directory prefixes redacted below; raw capture retained in temp001.
+
+........................................................                 [100%]
+=============================== warnings summary ===============================
+tests/test_physical_bridge_holonomy_spectrum.py::test_actual_presentation_asphericity_hypotheses_and_power_mutants
+  <USER>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+56 passed, 1 warning in 84.65s (0:01:24)

@@ -1,5 +1,11 @@
 # The successful pieces must form one physical theory
 
+Subsequent update, September 12: [R26](INDEX_STABILITY.md) now supplies
+the conditional fixed-domain stability argument and passing new controls,
+including a nonflat trial connection. The review below is the original
+September 10 interpretation; its then-unexecuted R26 preparation has
+moved, not the remaining single-action/source/end/anomaly requirement.
+
 2026-09-10. Reflective audit requested by the owner. Starting checkpoint
 67a990c0; latest completed scientific round R25. This is an interpretation
 of named, previously documented results and a proposed change of emphasis,

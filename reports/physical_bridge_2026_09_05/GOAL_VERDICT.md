@@ -1,6 +1,18 @@
-# Verdict toward the full physical-theory goal — 2026-09-09, after path-local R25
+# Verdict toward the full physical-theory goal — 2026-09-12, after path-local R26
 
-**Latest local result, R25: [the free boundary wall](BOUNDARY_WALL.md).**
+**Latest local result, R26: [localized-curvature index stability](INDEX_STABILITY.md).**
+Conditional on R18/R19, bounded Hermitian odd perturbations supported
+in the regular interior or uniformly vanishing at every source/cusp
+end preserve the fixed-domain Dirac index. Below the original gap they
+preserve the exact three/zero kernel; an explicitly nonflat trial
+connection lies in this class. Charged-sector and Spin(10)-factor
+preservation are required for the multiplet count. This is not a
+stationary coupled background or anomaly completion. Next derive a
+source/end action and check its solution, gauge symmetries and spectrum
+together. Thirteen new tests pass; 354 broad passes with exactly the
+same 14 failures/8 errors as R25. No full-suite green or complete TOE.
+
+**Preceding local result, R25: [the free boundary wall](BOUNDARY_WALL.md).**
 The actual mass eigenline supports a derived compensating wall channel
 with net index -k and the opposite full anomaly polynomial. For k=3
 this is a mirror sector, not a mirror-free completion. Its normalized
