@@ -1,0 +1,132 @@
+==============================================================================
+L71 -- THE FULL PERIPHERAL CLASS: IS THERE A SECOND COORDINATE?
+seal sha256 d5c420834fe2a78a0c0f209ad7f32e0868ec252b8f4f5f9c25a179cc169d4de9
+  (the seal carries ADDENDUM 1: its first declared basis was WRONG and is corrected
+   there, before any cell below was read)
+==============================================================================
+
+ * m= 1  dim= 3  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [2]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -27/14 + 3/14*sqrt(-3)
+
+   m= 2  dim= 5  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [4]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -6/103 + 20/103*sqrt(-3)
+
+   m= 3  dim= 7  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [6]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -675/558962 + 15855/558962*sqrt(-3)
+
+ * m= 4  dim= 9  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [8]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -243/53551022 + 93141/53551022*sqrt(-3)
+
+ * m= 5  dim=11  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [10]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -625/100760631374 + 6479475/100760631374*sqrt(-3)
+
+   m= 6  dim=13  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [12]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -81675/21087796799632202 + 33885550545/21087796799632202*sqrt(-3)
+
+ * m= 7  dim=15  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [14]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -737116875/581755689626137464480602 + 16908024445031775/581755689626137464480602*sqrt(-3)
+
+ * m= 8  dim=17  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [16]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -18150/76211222081222934962611 + 30367018081840/76211222081222934962611*sqrt(-3)
+
+   m= 9  dim=19  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [18]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -162608472675/5906630442376239082937190035266382 + 25304389011796087163355/5906630442376239082937190035266382*sqrt(-3)
+
+   m=10  dim=21  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [20]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -7570665675/3668876206759177069047199463843681522 + 136078004993057578329945/3668876206759177069047199463843681522*sqrt(-3)
+
+ * m=11  dim=23  rel_ok=True comm=True  h0=0 h1=1 periph_inv=1  dim H^1(T^2)=2
+        ker N supported on index [0];  coker functional f supported on index [22]
+        res(xi) is a cusp cocycle: True      res(xi) = 0 ? False
+        f(y) = tau*f(x) on ALL of Z^1(T^2): True
+        beta/alpha  under basis I  : None
+        beta/alpha  under basis II : -317343675/3032870368797744460564461950872829274302 + 801025271608364658685555/3032870368797744460564461950872829274302*sqrt(-3)
+
+==============================================================================
+OUTCOMES
+==============================================================================
+  CELL 1  res(xi) != 0 for every m           : True  -> OUTCOME A
+  CELL 2  f(y) = tau f(x) on all of Z^1(T^2) : True  -> OUTCOME A
+  CELL 3  the two completions agree, per m   : [None, None, None, None, None, None, None, None, None, None, None]
+          they DIFFER somewhere: False  -> OUTCOME B
+
+  controls: dim H^1(T^2) = 2 every m: True;  res is a cusp cocycle every m: True
+    six E6 exponents h0/h1/periph = [(0, 1, 1), (0, 1, 1), (0, 1, 1), (0, 1, 1), (0, 1, 1), (0, 1, 1)]
+
+==============================================================================
+WHY basis I fails -- the canonical data spans only ONE dimension of H^1(T^2)
+==============================================================================
+  ker N = <k>.  Both (k,0) and (0,k) are cusp cocycles and neither is a coboundary.
+  How many dimensions do they span MODULO the coboundaries?
+   m= 1  dim B^1= 2  dim H^1(T^2)=2   <(k,0)> mod B^1: 1   <(0,k)> mod B^1: 1   <(k,0),(0,k)> mod B^1: 1
+          (0,k) - (-1/6*sqrt(-3))*(k,0) IS a coboundary;  tau = -2*sqrt(-3)   equal: False
+   m= 2  dim B^1= 4  dim H^1(T^2)=2   <(k,0)> mod B^1: 1   <(0,k)> mod B^1: 1   <(k,0),(0,k)> mod B^1: 1
+          (0,k) - (-1/6*sqrt(-3))*(k,0) IS a coboundary;  tau = -2*sqrt(-3)   equal: False
+   m= 3  dim B^1= 6  dim H^1(T^2)=2   <(k,0)> mod B^1: 1   <(0,k)> mod B^1: 1   <(k,0),(0,k)> mod B^1: 1
+          (0,k) - (-1/6*sqrt(-3))*(k,0) IS a coboundary;  tau = -2*sqrt(-3)   equal: False
+   m= 4  dim B^1= 8  dim H^1(T^2)=2   <(k,0)> mod B^1: 1   <(0,k)> mod B^1: 1   <(k,0),(0,k)> mod B^1: 1
+          (0,k) - (-1/6*sqrt(-3))*(k,0) IS a coboundary;  tau = -2*sqrt(-3)   equal: False
+   m= 5  dim B^1=10  dim H^1(T^2)=2   <(k,0)> mod B^1: 1   <(0,k)> mod B^1: 1   <(k,0),(0,k)> mod B^1: 1
+          (0,k) - (-1/6*sqrt(-3))*(k,0) IS a coboundary;  tau = -2*sqrt(-3)   equal: False
+   m= 6  dim B^1=12  dim H^1(T^2)=2   <(k,0)> mod B^1: 1   <(0,k)> mod B^1: 1   <(k,0),(0,k)> mod B^1: 1
+          (0,k) - (-1/6*sqrt(-3))*(k,0) IS a coboundary;  tau = -2*sqrt(-3)   equal: False
+
+  So the two canonical vectors span ONE dimension modulo the coboundaries, and the
+  relation between them is exactly tau -- the same identity memo 213 proved.  The
+  canonical peripheral data (ker N, the coker functional f, tau) reaches a
+  1-DIMENSIONAL subspace of the 2-dimensional H^1(T^2;V).  There is no canonical
+  second coordinate to read.
+
+==============================================================================
+CELL 4 -- is L71's computable content already in the record?
+==============================================================================
+  [OK ] integrability at 2nd order     frontier/B575_bridge_obstruction/FINDINGS.md
+  [OK ] Zariski closure per direction  frontier/B576_deformed_closure/FINDINGS.md
+  [OK ] cup product at the foundation  frontier/B270_integrability_cup_product/FINDINGS.md
+  [OK ] peripheral behaviour           outside_bench/memos/THE_CUSP_CANNOT_TELL.md
+
+  CELL 4 OUTCOME: A   (all four present: True)
+
+==============================================================================
+DONE -- outcomes above; interpretation lives in the memo, not here.
+==============================================================================

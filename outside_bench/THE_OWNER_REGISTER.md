@@ -3586,3 +3586,65 @@ The owner asked for brave mathematics. This was a real attempt at L71 with a gen
 invariant, taken to an exact answer in one sitting — and the answer is that the invariant is
 empty. **That is the outcome, and it is reported as the outcome rather than dressed as the
 headline CELL 1 would have supported.**
+
+---
+
+## R122 — "go for it" (2026-09-12): the peripheral route is exhausted, provably
+
+### R122-1 — the successor memo 213 named is dead too, and the reason is a theorem
+
+Seal committed before the certificate; its **ADDENDUM 1** — correcting the seal's own
+declared basis — was committed **before any cell was read**.
+**CELL 1 = A · CELL 2 = A · CELL 3 = NOT EXECUTABLE AS POSED · CELL 4 = A.**
+
+**CELL 1.** `res(ξ) ≠ 0` for every m = 1…11, all six E₆ exponents and five non-exponents.
+**No block's deformation is invisible at the boundary, uniformly across θ-parity** — the
+θ-odd directions are not cuspidal.
+
+**CELL 2.** Memo 213's identity `f(ξ(λ)) = τ·f(ξ(a))` holds on **all** of `Z¹(T²;V)`, every
+m — for every cusp cocycle, not just the one the manifold supplies.
+
+**CELL 3 is the result.** The canonical vectors `(k,0)` and `(0,k)`, `k` spanning `ker N`,
+are both cocycles and neither is a coboundary — and **together they span ONE dimension
+modulo the coboundaries**, in every block m = 1…6, with the dependence exact and identical:
+
+> **`(0,k) + (√−3/6)·(k,0) ∈ B¹`, and `√−3/6 = −1/τ`** — the reciprocal of the same cusp
+> shape.
+
+> **The canonical peripheral data — `ker N`, the coker functional `f`, `τ` — reaches a
+> 1-DIMENSIONAL subspace of the 2-dimensional `H¹(T²;V)`. There is no canonical second
+> coordinate.** Memo 213's slope is not *a* coordinate on the peripheral class; it is **the
+> whole canonically readable part**, and it is forced.
+
+### R122-2 — L71's computable content is finished
+
+**CELL 4 = A.** All four components present at HEAD: integrability at second order
+(**B575**, *"Q ≡ 0 … in every direction"*); the Zariski closure per direction (**B576**);
+the cup product at the foundation (**B270**); the peripheral behaviour (**memos 213–214**).
+
+> **What remains in L71 is the geometric NAMING — quasi-Fuchsian-like? complex-projective?
+> — and naming is not a computation.** It is a literature-and-specialist question about a
+> family this bench can already describe exactly.
+
+**Recommendation, not an action:** re-pose L71 as a literature/specialist item or close it,
+citing its four computable components. **This bench does not edit `docs/OPEN_LEADS.md`.**
+
+### R122-3 — two errors, same class, one sitting
+
+**BENCH ERROR #26.** The seal asserted `ker N = ⟨e_n⟩`. False: with
+`ρ(a) = [[1,1],[0,1]]` on `e_i = x^{n−i}y^i`, `N` **lowers** the index, so `ker N = ⟨e₀⟩`.
+**Asserted from habit, not computed** — the class of BENCH ERROR #22. The certificate
+reported `u₂ ∉ Z¹` and every coordinate `None`: **loud, not silent.** The certificate now
+computes `ker N`'s support and prints it.
+
+**BENCH ERROR #27.** The repair then proposed `{(k,0),(0,k)}` as a basis **without checking
+it either.** It spans one dimension.
+
+> **RULE ADDED: a declared basis is not a basis until its rank modulo the relevant subspace
+> has been computed. Declare, verify, use — in that order, in the same cell.**
+
+**Operational note.** Two background runs wrote to one output file; the mixture read as a
+completed run with a new header and an old outcome block. Caught by reading line 65 against
+the header; redone clean. **Memo 212's subject — an artifact disagreeing with the code that
+wrote it — reproduced in this bench's own outputs, in the same session that measured it in
+the corpus.**
