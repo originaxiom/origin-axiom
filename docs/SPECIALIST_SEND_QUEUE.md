@@ -14,6 +14,9 @@ proof-status — the June template's sobriety (`frontier/EXPERT_OUTREACH.md`), u
 | Q4 | **Cappell–Miller order of vanishing** | For the cusped m004 with ρ(m)=Sym²ᵐ (never acyclic: H¹=H²=#cusps, B1157), what governs the leading Laurent coefficient of R_{ρ(m)}(s) at s=0, and does the cusp correction equal exp(−4mVol/π)? Status: the framework identified (cusped Park/Pfaff), the computation not run. | analytic-torsion / Ruelle-zeta specialist | that the reflection formula fails cusped ⇒ cc3's residue-2 route closes | ★★ |
 | Q5 | **B165 complexified hyperbolicity** | The off-axis residual: is the complexified trace-map hyperbolicity criterion decidable on the metallic family's off-axis locus? Status: the one pre-cascade analytic bar still standing. | complex-dynamics (Cantat–Loray school) | a decidability proof either way closes it | ★★ |
 | Q6 | **The closed-form k** (the SL(n)-era survivor) | The order-based exponent's closed form (B154's one open) — folded into any Q3/Q5 conversation as the secondary ask, not a standalone send. | (rider on Q3/Q5) | — | ★ |
+| Q7 | **Route A — the K-refined integral-orbit count** (the hatch) | The record's own hatch beside the four gates: obstructions **proved absent**, the coarse count **closed positive**, and the refined counter is frontier mathematics. Drafted in `THE_ROUTE_A_DISPOSITION.md`; never sent. | arithmetic geometry / integral orbit counting | that the K-refinement provably cannot be made ⇒ the hatch seals as an answer, not a loss | ★★★ |
+| Q8 | **Gate B — the CRUX, `T[4₁;E₆]`** | Does the 3d–3d correspondence at gauge type `E₆` realize the cascade as *physical gauge dynamics*? Settled parts: the tangent is computed (`dim H¹ = 6 = rank E₆`, one direction per exponent, B347–B352); the Eisenstein-`ℤ/3`-selects-`SU(3)²` sub-path is **CLOSED-NEGATIVE** (B561/P12 — no exceptional 3d–3d state integral). The full exceptional state integral is what needs a specialist. | quantum field theory / 3d–3d correspondence | that no `E₆` state integral exists or that it cannot carry the cascade ⇒ the CRUX seals negative | ★★★★ |
+| Q9 | **Gate D — the non-Hermitian spectral theorem** | The object's `κ = √3·e^{±iπ/6}` is **complex**, so the cocycle is **non-self-adjoint**. Is there a Damanik–Gorodetski-type spectral theorem in that regime? The Hermitian `κ>2` case is DG. **Carry the warning**: `B1085`/`B1095`'s Fibonacci-Hamiltonian numerics ran at *real* coupling and **do not transfer**; the non-Hermitian case must be re-derived fresh. | spectral theory / non-self-adjoint quasi-periodic cocycles | that no DG-analogue holds non-Hermitian ⇒ Gate D seals | ★★★ |
 
 **Explicitly NOT in the external queue:** the torsion mirror-parity (queued at cc3 — internal first); the
 generation-number question (NULL on-object; an external route would need its own framing session).
@@ -27,3 +30,11 @@ anything yet. We will craft another paper — me and you — after we exhaust th
 to best put it. cc3's papers stay as insight."* The queue stands built for the day the math is exhausted;
 nothing leaves before then. The priority is THE REMAINING MATHEMATICS, to a full ToE in the program's
 proven sense.
+
+> **Q7–Q9 added 2026-09-12 (B1339), and they are DRAFTED, NOT SENT.** They discharge the fix cloud memo 152
+> named and nobody ran: the record says four gates plus a hatch are where values could cross, and **not one of
+> them was in this queue** — measured by memo 152 on 2026-08-30 and re-measured here, still true. **Gate C is
+> deliberately absent: it CLOSED 2026-08-30** by its own refutation condition (`OPEN_PROBLEMS.md` §C), and the
+> generation question it carried is relocated to codex `OA-C0009`, not to this queue. Memo 152's fence stands —
+> *this bench drafts; the owner sends* — and so does the standing directive at the foot of this file: nothing
+> leaves before the mathematics is exhausted. Status of record: `docs/THE_CHAIN_STATUS.md`.
