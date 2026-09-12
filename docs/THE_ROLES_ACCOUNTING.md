@@ -79,3 +79,26 @@ But the record does not get to call the crossing finished without it, and it say
 currency: **I-13**, the listener map `u` — *"a structural analogue ≡ the physical quantity of that
 name, on the observer's side"* — is **UNEARNED** and is the register's own name for the crossing
 cell. Whatever "qualia math" would be, the record has already priced its slot and left it unpaid.
+
+## Postscript — the dynamics row, assembled
+
+Written after the table above, and it is the table's own thesis landing on the largest open row.
+**B1157** (NEGATIVE) is what `TOE` row 4 and the chain's row 14 rest on. Its argument is sound and
+**narrowly scoped**: at the *archimedean infinity-place*, every load-bearing ingredient is generic to
+all finite-volume hyperbolic 3-manifolds and never touches the arithmetic. Its **headline** —
+*"the object supplies NO parameter-free dynamical law"* — reads broader than that argument, and both
+rows inherited the broad reading.
+
+Assembled, the row is **four places with four answers, and no arc holds the union**:
+
+| place | answer | arc |
+|---|---|---|
+| the archimedean infinity-place | **no** parameter-free law — and correctly so | B1157 (NEGATIVE) |
+| the potential | **derived**; the kinetic term is inserted | B6 (OPEN, **week one**) |
+| the discrete level | a **parameter-free variational structure exists**, at the monodromy | B1341 (PROVED) |
+| irreversibility | the four-stratum `End(F₂)` monoid | B497 (PROVED) |
+
+The 4d action is still input, not derived — (b) inserts the carrier, (c) is one degree of freedom on
+a surface, (d) is structure rather than dynamics. **What is false is the reading the rows carried:
+that the object supplies no variational structure at all.** Nothing was cut here either; four
+answers sat in four places with nothing standing where a reader would look.
