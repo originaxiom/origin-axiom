@@ -1,0 +1,69 @@
+==============================================================================
+THE SEAL ALREADY HAPPENED
+HEAD = cf37aedf
+==============================================================================
+
+--- (A) what WHAT_WOULD_COUNT section 4A.2 says today ---
+  [OK ] the tier is marked owner-pending   (docs/WHAT_WOULD_COUNT.md:286)
+         "**STATUS: SPEC ONLY, OWNER-PENDING**"
+  [OK ] and says in words that the seal has not happened   (docs/WHAT_WOULD_COUNT.md:288)
+         "what has not happened is the seal"
+
+--- (B) the seal, in the ledger, three weeks earlier ---
+  [OK ] the SEAL LEDGER carries THE EDGE SEAL   (docs/SEAL_LEDGER.md:527)
+         "THE EDGE SEAL (L173;"
+  [OK ] dated 2026-08-21   (docs/SEAL_LEDGER.md:527)
+         "| 2026-08-21 | THE EDGE SEAL"
+  [OK ] B1106 banks it as the first outward-facing falsifier   (frontier/B1106_edge_seal/FINDINGS.md:1)
+         "THE EDGE SEAL: the program's first outward-facing falsifier is sealed"
+  [OK ] with the owner rulings recorded   (frontier/B1106_edge_seal/FINDINGS.md:4)
+         "Owner rulings"
+  [OK ] D-2 executed   (frontier/B1106_edge_seal/FINDINGS.md:5)
+         "D-2 (the edge lane seals alone"
+  [OK ] D-3 executed   (frontier/B1106_edge_seal/FINDINGS.md:5)
+         "D-3 (placeholder"
+  [OK ] and the spec's own header says SEALED   (docs/EDGE_PREREG_SPEC.md:3)
+         "Status at landing: SEALED"
+
+--- (C) L173's row contradicts ITSELF, in one line ---
+  [OK ] the row's header says SEALED   (docs/OPEN_LEADS.md:1895)
+         "**SEALED 2026-08-21 (B1106;"
+  [OK ] and the unseal RESOLVED   (docs/OPEN_LEADS.md:1895)
+         "the aperiodic unseal RESOLVED"
+  [OK ] the SAME row's body says SPEC ONLY, owner-pending   (docs/OPEN_LEADS.md:1895)
+         "SPEC ONLY until the aperiodic design's owner-pending unseal resolves"
+  [OK ] and its value column says GATED on the owner   (docs/OPEN_LEADS.md:1895)
+         "GATED on the owner's aperiodic unseal for the seal step"
+         all four strings are on line 1895 of the same file.
+
+--- (D) the seal was amended once, by its own rule ---
+  [OK ] an addendum-beside is in the ledger   (docs/SEAL_LEDGER.md:529)
+         "THE EDGE SEAL ADDENDUM-BESIDE (B1171"
+  [OK ] and it states the sealed spec is not edited   (docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md:3)
+         "is NOT edited"
+  [OK ] R6 re-posed as a commissioned OBSERVABLE   (docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md:25)
+         "R6′ (the commissioned observable)"
+  [OK ] because the anchor experiment is not metrology   (docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md:17)
+         "demonstration paper, not metrology"
+  [OK ] the programme supplies the knob, not the readout   (docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md:19)
+         "The program supplies the KNOB"
+
+--- (E) what the seal actually contains ---
+  [OK ] section 0 states the standard content FIRST   (docs/EDGE_PREREG_SPEC.md:20)
+         "WHAT STANDARD THEORY ALREADY FORCES (read this before the prediction)"
+  [OK ] section 1 is the differential, not the counts   (docs/EDGE_PREREG_SPEC.md:34)
+         "THE PREDICTION (the differential; all content banked in B1095, exact)"
+  [OK ] section 2 names what kills it   (docs/EDGE_PREREG_SPEC.md:51)
+         "KILL CONDITIONS (any one, at budget, kills the prediction; NEGATIVE banks)"
+  [OK ] section 3: the control ran BEFORE the seal   (docs/EDGE_PREREG_SPEC.md:59)
+         "CONTROLS (C-GEN RUN AND PASSED before this seal"
+
+--- (F) and this bench already priced what passing would buy ---
+  [OK ] memo 197   (outside_bench/INDEX.md:295)
+         "THE SEALED EDGE LAW IS THE MODAL BEHAVIOUR OF A RANDOM PHASE"
+  [OK ] one phase in five reproduces the sealed law   (outside_bench/INDEX.md:295)
+         "ONE PHASE IN FIVE REPRODUCES THE SEALED LAW EXACTLY OVER NINE WINDOWS"
+
+==============================================================================
+ALL ASSERTIONS HOLD AT THIS HEAD.
+==============================================================================

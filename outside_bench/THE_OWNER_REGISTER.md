@@ -3648,3 +3648,60 @@ completed run with a new header and an old outcome block. Caught by reading line
 the header; redone clean. **Memo 212's subject — an artifact disagreeing with the code that
 wrote it — reproduced in this bench's own outputs, in the same session that measured it in
 the corpus.**
+
+---
+
+## R123 — "elaborate 4 a2 seal" (2026-09-12)
+
+**Asked:** *"elaborate 4 a2 seal."*
+
+### R123-1 — the elaboration begins with a correction to R113, R114 and R115
+
+`WHAT_WOULD_COUNT.md` §4A.2 says `STATUS: SPEC ONLY, OWNER-PENDING` and *"what has not
+happened is the seal."* **The seal happened on 2026-08-21** — `SEAL_LEDGER.md:527`,
+`B1106` (*"the program's first outward-facing falsifier is sealed"*), with the owner's
+**D-2 and D-3 executed**, and the spec's own header reading *"Status at landing: SEALED."*
+
+**BENCH ERROR #28.** R113 called §4A.2 *"blocked on an owner decision"*; R114/R115 repeated
+it as *"waiting on your signature."* **The signature was given and executed three weeks
+before I said it was pending.** I read the tier document and not the seal ledger it points
+at — memo 208's own rule, unapplied, at the one roadmap item that faces outward.
+
+**And L173's row contradicts itself on one line** (`OPEN_LEADS.md:1895`): header
+*"SEALED 2026-08-21 … the aperiodic unseal RESOLVED"*; body *"SPEC ONLY until the …
+owner-pending unseal resolves"*; value column *"GATED on the owner's aperiodic unseal for
+the seal step."* **A twelfth stale row, and the worst-placed one.**
+
+### R123-2 — what the seal is
+
+Differential-first, built against B724's defusal pattern. **§0** states what gap labeling
+and bulk–boundary already force, *before* the claim. **§1** is the differential: exact
+two-hand isospectrality at even-index Fibonacci windows (**1.3×10⁻¹⁵ over 2584 levels**),
+complementary localization of the eleven shared boundary-capable energies (**5-right /
+6-left** at N = 987), and an odd-index control that must **break** at exactly the two
+cut-adjacent letters. **§2** names three kill conditions. **§3**'s genericity control ran
+and passed **before** the seal.
+
+Amended once by its own rule (`SEAL_LEDGER:529`, B1171, addendum-beside, spec *not* edited):
+**R6′, the commissioned observable** — count modes in a labelled gap on a chain long enough
+to separate 5 from 6 — because the anchor paper is *"a demonstration paper, not
+metrology."* **"The program supplies the KNOB … but not the READOUT."**
+
+### R123-3 — what is left, and the price of passing
+
+> **What is left: an experimentalist who can count modes in a labelled Fibonacci gap while
+> scanning the phason. Not a signature. Not a computation.**
+
+And, in the same breath, **memo 197's price**: the sealed alternation is the **mode** of
+3000 random phases at **19.77%** — **one phase in five reproduces it exactly over nine
+windows** — so observing it at ρ = α does **not** identify α; with memo 196's addenda the
+lab lane reduces to **slope-specific, not phase-specific**.
+
+> §4A.2 is neither *"waiting on the owner"* (false) nor *"the laboratory road"*
+> (overstated). It is a real, sealed, kill-conditioned falsifier whose differential this
+> bench has shown is weaker than the tier's framing implies, **waiting on an experimentalist
+> nobody has asked.**
+
+**Recommendation, not an action:** bring §4A.2's STATUS line and L173's body and value
+column into agreement with the header and the seal ledger. R113/R114/R115 are **superseded
+on this point.**
