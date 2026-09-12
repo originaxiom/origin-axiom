@@ -1,0 +1,1094 @@
+[
+ {
+  "seat": "codex seat",
+  "arc": "R001",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "documents/codex-seat-r001.md"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R002",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "documents/codex-seat-r002-masterplan.md"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R004",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "documents/program-question-map/validate.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R005",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/check_b1147_lock.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R007",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/oa_c1070_omega1_parity.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R008",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/r008_peripheral_sheet_conjugacy.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R013",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/r013_rung_transfer.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R016",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/r016_habiro_zeta3_embeddings.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R018",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "documents/program-question-map/validate.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R022",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/r022_v4_torsors/v4_named_action_audit.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R023",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "documents/program-question-map/validate.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R029",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "documents/program-question-map/validate.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R029A",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/r029_upstream_hostile_corrections.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R031",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/r031_sparse_toric_trace/sparse_toric_trace.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R031A",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/r031a_b0_character_field/b0_character_field.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R031B",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/r031b_rcft_scope/rcft_scope.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R031C",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "documents/program-question-map/validate.py"
+ },
+ {
+  "seat": "codex seat",
+  "arc": "R031D",
+  "claim": "\"(no first line read)\"",
+  "commit": "f7a49536",
+  "path": "certificates/r031d_observable_quotient/observable_quotient.py"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 100",
+  "claim": "\"THE GRAMMAR \u2192 DISC-48 BRIDGE \u2014 GC-17's named gap closed: the r-bit's ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/GRAMMAR_DISC48.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 101",
+  "claim": "\"TIME REVERSAL IS THE GOLDEN GALOIS \u2014 the reverser R restricts to the ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/GAMMA5_REVERSER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 102",
+  "claim": "\"THE 953 STEP CLOSES \u2014 h(K) = 1 for the disc-6237 value field, with an",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/CLASS_GROUP_953.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 103",
+  "claim": "\"THE PRINCIPAL WITNESSES \u2014 h(K) = 1 re-proved by a disjoint method: an",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/PRINCIPAL_WITNESSES.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 105",
+  "claim": "\"THE MENU'S WIDTH \u2014 MENU-1 tier 1 run on the owner's signature: W\u2081 = 1",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/MENU_WIDTH.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 106",
+  "claim": "\"THE ONE POLYNOMIAL \u2014 cc's \u03ba-law and selector-freedom verified; and th",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/RELATIONAL_KAPPA.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 108",
+  "claim": "\"THE MIRROR IS A WORD MAP \u2014 the quine's one bit constructively convent",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/AMPHICHIRAL_WORD.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 109",
+  "claim": "\"THE FENCE, ASKED \u2014 THE question posed inside the sandbox, and what as",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/FENCE_INDEPENDENCE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 110",
+  "claim": "\"THE MIRROR'S KERNEL \u2014 the SM-impact audit: the undecidable bit moves ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/MIRROR_KERNEL.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 111",
+  "claim": "\"THE BIT'S LEDGER \u2014 when and how the one bit is spent: at the embeddin",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/BIT_LEDGER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 112",
+  "claim": "\"THE OCCUPANT'S TYPE IS FORCED \u2014 the owner's challenge answered by com",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/OCCUPANT_TYPE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 113",
+  "claim": "\"THE FIRST BEAT LAW \u2014 the owner's requested next a/ab/ba principle, de",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/FIRST_BEAT_LAW.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 114",
+  "claim": "\"THE PATTERN LADDER \u2014 how a fixed information budget makes patterns, a",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/PATTERN_LADDER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 115",
+  "claim": "\"THE OBJECT MEETS ITS SHADOW \u2014 the owner's hypothesis tested: ab \u2260 ba ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/SHADOW_PAIRING.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 116",
+  "claim": "\"THE UNIQUENESS TEST \u2014 A5 is not unique, and the failure is the GATES'",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/UNIQUENESS_TEST.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 117",
+  "claim": "\"THE LAYER TOWER \u2014 the owner's layering hypothesis: the architecture i",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/LAYER_TOWER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 118",
+  "claim": "\"THE LAYER FLOW \u2014 where ab/ba attacks the dominant bottleneck: the lay",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/LAYER_FLOW.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 119",
+  "claim": "\"THE SECOND CLIMB \u2014 ab/ba applied to the MAPS: the climb yields real m",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/SECOND_CLIMB.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 120",
+  "claim": "\"THE CLOCKS INVENTORY \u2014 the owner's catch upheld (bench error #10): th",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/CLOCKS_INVENTORY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 121",
+  "claim": "\"THE B496 REDISCOVERY \u2014 the hunt caught this bench: memos 117/118 (and",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/B496_REDISCOVERY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 122",
+  "claim": "\"DARK MATTER'S STABILITY PROBE \u2014 the cosmology ledger's named first mo",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/DM_STABILITY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 124",
+  "claim": "\"THE TOWER'S IMAGINARY\u2192REAL CROSSING \u2014 the record's dynamics passes fr",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/YIN_TRANSITION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 125",
+  "claim": "\"THE CANCELLATION RESIDUE, VALUED AND PROPAGATED \u2014 PC04's stalled ques",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/CANCELLATION_RESIDUE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 126",
+  "claim": "\"THE TWO ANATOMIES RECONCILED \u2014 the corpus's zero-overlap \"finding\" is",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/ANATOMY_RECONCILE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 131",
+  "claim": "\"THE LEAP-1 PROPAGATION AUDIT \u2014 the payment written through the corpus",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/LEAP1_PROPAGATION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 132",
+  "claim": "\"COSMOLOGY ROW 2 (INFLATION) \u2014 the ledger's named first probe, RUN: th",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/INFLATION_PROBE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 134",
+  "claim": "\"R52-6 COLD PASS \u2014 the paper's claim base is drawn from a field that 8",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/LAW_DECLARATION_AUDIT.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 135",
+  "claim": "\"COSMOLOGY ROWS 8 AND 7 \u2014 the ledger's last two never-run probes, RUN:",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/STRUCTURE_PROBE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 136",
+  "claim": "\"THE \u03b8-EVEN DESIGNED CROSSING \u2014 hold released by the owner, shot BLOCK",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/THETA_EVEN_FIREABILITY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 137",
+  "claim": "\"THE CONTACT-QUANTITY KIND-ROW ADJUDICATION \u2014 the mirror row's indepen",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/KIND_ROW_ADJUDICATION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 138",
+  "claim": "\"THE L173 MODE-COUNT SEAL PATH \u2014 a SECOND B724-shaped defusal, caught ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/L173_SEAL_PATH.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 139",
+  "claim": "\"THE SPECIALIST SEND-QUEUE \u2014 hold RELEASED; readiness audit finds the ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/SEND_QUEUE_READINESS.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 140",
+  "claim": "\"Q1 REWRITE \u2014 the SEAM-A Gate 2 send, restated from B1198/B1201/B1209\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/Q1_REWRITE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 141",
+  "claim": "\"Q1 REWRITE \u2014 the SEAM-A Gate 2 send, restated from B1198/B1201/B1209\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/Q1_REWRITE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 142",
+  "claim": "\"THE LANE SELF-AUDIT \u2014 112 pairs re-run: ZERO failures, ONE genuine dr",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/LANE_SELF_AUDIT.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 143",
+  "claim": "\"THE VOLUME-IN-BASIS PROBE \u2014 the corner is closed NEGATIVELY: even wit",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/VOL_BASIS_PROBE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 144",
+  "claim": "\"THE PER-GAP OCCUPANCY DETECTOR \u2014 built, and it overturns the diagnosi",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/L173_GAP_DETECTOR.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 145",
+  "claim": "\"THE ASYMMETRY IS IMPOSSIBLE, NOT ABSENT \u2014 reversal forces every two-e",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/REVERSAL_FORCES_SYMMETRY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 146",
+  "claim": "\"THE ODD-INDEX WINDOW \u2014 the theorem's one exception is real, and what ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/ODD_INDEX_ASYMMETRY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 147",
+  "claim": "\"THE GOLDEN EXCESS CLOSES NEGATIVELY \u2014 and the failure is in this cell",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/GOLDEN_EXCESS_ENSEMBLE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 148",
+  "claim": "\"MEMO 148 \u2014 THE HOSTILE READ OF P3 (THE PAPER)\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/P3_HOSTILE_READ.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 150",
+  "claim": "\"THE PAPER CHAIN \u2014 WHAT WE PROBED, WHAT WE GOT, AND WHAT IT SAYS\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/THE_PAPER_CHAIN.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 151",
+  "claim": "\"ROUTE A \u2014 HOW WE DEAL WITH IT\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/THE_ROUTE_A_DISPOSITION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 152",
+  "claim": "\"THE CHAIN, LINK BY LINK \u2014 what exactly we do not have\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/THE_CHAIN_GAP.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 153",
+  "claim": "\"MEMO 153 \u2014 THE CURRENCY PASS ON THIS BENCH'S OWN GAP DOCUMENTS\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/GAP_DOCS_CURRENCY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 154",
+  "claim": "\"MEMO 154 \u2014 THE CORPUS'S OWN INSTRUMENTS, TURNED ON THIS LANE\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/LANE_INSTRUMENT_ADOPTION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 155",
+  "claim": "\"MEMO 155 \u2014 THE LAG CLOSED, THE DIGEST, AND A DEFECT IN MY OWN INSTRUM",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/MERGE_DIGEST_AND_VERIFY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 156",
+  "claim": "\"MEMO 156 \u2014 GATE D: THE FIRST NUMERICS AT THE OBJECT'S OWN \u03ba\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/GATE_D_FIRST_NUMERICS.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 157",
+  "claim": "\"MEMO 157 \u2014 GATE C ADJUDICATED: THE GENERATION GATE CLOSES ON BANKED M",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/GATE_C_ADJUDICATION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 158",
+  "claim": "\"MEMO 158 \u2014 BENCH ERROR #17: THE LIVE ROUTE IS NOT UNRUN. IT IS RUN, A",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/GATE_C_CORRECTION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 159",
+  "claim": "\"MEMO 159 \u2014 THE STATE-CLAIM LINTER: THE INSTRUMENT FOR MY OWN REPEATED",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/STATE_CLAIM_LINTER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 160",
+  "claim": "\"MEMO 160 \u2014 Q7: THE TOOL NOBODY REACHED, AND THREE FACTS THAT CONVERGE",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/Q7_STRONG_APPROXIMATION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 161",
+  "claim": "\"MEMO 161 \u2014 THE STABILIZER IS so(8), COMPUTED \u2014 AND WHAT THAT MEANS FO",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/Q7_STABILIZER_ID.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 162",
+  "claim": "\"MEMO 162 \u2014 THE GROUP IS Spin(8): Q7 GOES TO FOUR OF FIVE\"",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/Q7_TRIALITY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 163",
+  "claim": "\"MEMO 163 \u2014 THE DRIFT IS NOW CONTRADICTED, NOT MERELY UNSUPPORTED \u2014 AN",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/THE_MIRROR_CLASS.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 165",
+  "claim": "\"MEMO 165 \u2014 THE CHAIN-GAP CURRENCY PASS, AND THE DESIGN MEMO 164 WAS M",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/CHAIN_GAP_CURRENCY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 166",
+  "claim": "\"THE PAIRED-SUMMARY CHECK \u2014 NOT ADOPTED, AND THE CONTROL THAT PASSED W",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/THE_PAIRED_SUMMARY_CHECK.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 167",
+  "claim": "\"MEMO 167 \u2014 THE ROW THAT LEFT THE TALLY, AND THE COMPUTATION THAT CLOS",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/Q7_LEDGER_AUDIT.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 168",
+  "claim": "\"MEMO 168 \u2014 THE WHOLE THING IS ONE NUMBER, AND THE GAP IS ONE CUSP AGA",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/THE_ESSENCE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 171",
+  "claim": "\"MEMO 171 \u2014 THE \u03c3 BRIDGE COMPARES TWO DIFFERENT QUANTITIES, AND SIX CU",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/THE_SIGMA_TYPE_ERROR.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 173",
+  "claim": "\"MEMO 173 \u2014 THE PAPER ARRIVED **[\u00a72(a) AND \u00a73 RETRACTED \u2014 SEE THE HEAD",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/THE_PAPER_ARRIVED.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 31",
+  "claim": "\"THE CUSP REFLECTION \u2014 the beat acts on the cusp lattice as exactly di",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/CUSP_REFLECTION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 32",
+  "claim": "\"THE JORDAN CUBIC MEETS THE BEAT \u2014 the matter module's unique cubic is",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/JORDAN_BEAT.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 36",
+  "claim": "\"PIN ABOVE THE FORK \u2014 both Gieseking-level structures restrict to the ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/PIN_ABOVE_THE_FORK.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 37",
+  "claim": "\"THE BLANKET'S BLIND SPOT IS THE BEAT'S BIT \u2014 QP-1 closes: the cusp's ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/BLANKET_BLIND_SPOT.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 39",
+  "claim": "\"THE HABIRO TOWER, MEASURED \u2014 the cyclotomic form and the Kashaev brid",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/HABIRO_TOWER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 40",
+  "claim": "\"THE OHTSUKI BRIDGE \u2014 every finite place reads the same germ: the Tayl",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/OHTSUKI_BRIDGE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 44",
+  "claim": "\"ONE BIT \u2014 the geometric branch's mirror and the beat's mirror are the",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/ONE_BIT.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 58",
+  "claim": "\"THE ANOMALY PAYMENT \u2014 the visible 16 alone is quantum-inconsistent un",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/ANOMALY_PAYMENT.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 59",
+  "claim": "\"THE CENTER IS THE LOCK \u2014 the object's one group-paid \u2124/2 on the carri",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/CENTER_IS_THE_LOCK.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 60",
+  "claim": "\"ONE QUADRATIC, TWO ENDS \u2014 on the character variety the conserved pair",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/ONE_QUADRATIC_TWO_ENDS.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 61",
+  "claim": "\"WHAT A VEV WOULD BREAK \u2014 the standard dark-parity-preserving vev (the",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/VEV_LEDGER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 62",
+  "claim": "\"THE FAMILY-RESOLVED PORTAL \u2014 the E8 channel's fine structure: uniform",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/FAMILY_PORTAL_FINE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 63",
+  "claim": "\"THE EXCHANGE LEDGER \u2014 the three-family vertex is exactly symmetric un",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/EXCHANGE_LEDGER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 64",
+  "claim": "\"THE MIRROR ON THE DEEPEST LAYER \u2014 the beat induces the IDENTITY on gr",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/MIRROR_DEEPEST.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 65",
+  "claim": "\"PERIPHERAL DIMENSIONS \u2014 the longitude-alone fixed space IS the joint ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/PERIPHERAL_DIMS.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 66",
+  "claim": "\"THE MINIMAL INTERNAL FACTOR \u2014 exact Weyl-dimension enumeration: every",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/MINIMAL_FACTOR.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 67",
+  "claim": "\"THE CENSUS MEASURED \u2014 exact centralizer/orbit dimensions for all 20 c",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/CENSUS_DIMENSIONS.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 72",
+  "claim": "\"THE UNIQUE CHAIN AND ITS DISCRETE REMAINDER \u2014 with hypercharge forced",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/UNIQUE_CHAIN.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 74",
+  "claim": "\"THE FAMILY CENSUS \u2014 one 27 carries NO family index: the trinification",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/FAMILY_CENSUS.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 76",
+  "claim": "\"THE SURVIVING \u2124/2s NAMED \u2014 the unique chain's discrete remainder is O",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/Z2_CENSUS.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 77",
+  "claim": "\"NOTHING ABELIAN SURVIVES BUT THE SM \u2014 the unique chain's torus is the",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/PSI_SURVIVAL.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 79",
+  "claim": "\"THE ONE-BIT WITNESS \u2014 chirality and orientation are NOT one bit, and ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/ONE_BIT_WITNESS.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 83",
+  "claim": "\"THE COSMOGONY LEDGER \u2014 what we see as the Big Bang, typed against the",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/COSMOGONY_LEDGER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 84",
+  "claim": "\"THE ATOM SHAPE \u2014 the record forces that neutral atoms are possible, e",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/ATOM_SHAPE.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 85",
+  "claim": "\"THE SCRIPT ASSEMBLED \u2014 the forced cosmogony re-asserted end-to-end fr",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/SCRIPT_CHAIN.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 86",
+  "claim": "\"ORDER WITHOUT DIRECTION \u2014 the owner's proposal (\"the very initial a, ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/ORDER_DIRECTION.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 87",
+  "claim": "\"THE RECURSIVE DARK LAW PROVED \u2014 the named open step of B566-S1 paid: ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/DARK_LAW_PROVED.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 88",
+  "claim": "\"THE DARK TOWER \u2014 the recursive dark law is the e = 2 floor of a full ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/DARK_TOWER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 89",
+  "claim": "\"THE TOWER COUNTED \u2014 every shell of the dark tower has a closed form, ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/DARK_TOWER_COUNTED.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 90",
+  "claim": "\"THE TWO PULSES \u2014 the beat cannot drive expansion (theorem, from banke",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/TWO_PULSES.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 91",
+  "claim": "\"THE OWN METER \u2014 the object's internal unit system banked: curvature r",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/OWN_METER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 92",
+  "claim": "\"THE TWIST MEETS THE MIRROR \u2014 the hierarchy carrier is MIRROR-EVEN: th",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/TWIST_PARITY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 93",
+  "claim": "\"THE KLEIN GROUP MEETS THE MIRROR \u2014 B928's gauge 2-torsion SPLITS unde",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/KLEIN_PARITY.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 94",
+  "claim": "\"THE H-THEOREM INSTRUMENT \u2014 S002's D2 test run after ~1100 batches que",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/H_THEOREM.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 95",
+  "claim": "\"STAGE 2 UNSEALED \u2014 the owner's word arrived: the full B928 shape shee",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/STAGE2_UNSEALED.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 96",
+  "claim": "\"THE DEGREE LEDGER \u2014 the schedule wall formalized: the record's whole ",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/DEGREE_LEDGER.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 97",
+  "claim": "\"THE BRANCH BIT TEST \u2014 no object symmetry swaps the branches: the arro",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/BRANCH_BIT.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 98",
+  "claim": "\"THE FOUNDING TORSOR, VERIFIED \u2014 cc's basepoint theorem reproduced fro",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/FOUNDING_TORSOR.md"
+ },
+ {
+  "seat": "cloud seat",
+  "arc": "memo 99",
+  "claim": "\"THE UNIT TRICHOTOMY \u2014 the record's three quadratic fields split the r",
+  "commit": "e51afd6c",
+  "path": "outside_bench/memos/UNIT_TRICHOTOMY.md"
+ },
+ {
+  "seat": "cc3 (braver-questions branch)",
+  "arc": "B775",
+  "claim": "\"(no first line read)\"",
+  "commit": "53da05f6",
+  "path": "frontier/B775_braver_questions"
+ },
+ {
+  "seat": "cc3 (braver-questions branch)",
+  "arc": "B783",
+  "claim": "\"B783: THE OBSERVER GROUND-ZERO \u2014 FINDINGS\"",
+  "commit": "53da05f6",
+  "path": "frontier/B783_observer_ground_zero"
+ },
+ {
+  "seat": "cc3 (braver-questions branch)",
+  "arc": "B784",
+  "claim": "\"B784: THE TRACE-MAP INTERTWINING \u2014 FINDINGS\"",
+  "commit": "53da05f6",
+  "path": "frontier/B784_trace_map_intertwining"
+ },
+ {
+  "seat": "cc3 (braver-questions branch)",
+  "arc": "B792",
+  "claim": "\"B792: THE MAASS EIGENVALUES OF m004 \u2014 COMPUTED IN-SANDBOX\"",
+  "commit": "53da05f6",
+  "path": "frontier/B792_maass_m004_eigenvalues"
+ },
+ {
+  "seat": "cc3 (braver-questions branch)",
+  "arc": "tierB_opening",
+  "claim": "\"(no first line read)\"",
+  "commit": "53da05f6",
+  "path": "frontier/tierB_opening"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1025",
+  "claim": "\"B1025 \u2014 THE SUITE DID NOT RUN: three unguarded optional imports abort",
+  "commit": "3851df2a",
+  "path": "frontier/B1025_suite_collection_repair"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1026",
+  "claim": "\"B1026 \u2014 ONE INVOLUTION, SIX NAMES: the substrate record swap IS the s",
+  "commit": "3851df2a",
+  "path": "frontier/B1026_the_one_involution"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1027",
+  "claim": "\"B1027 \u2014 \u03ba = 2 IS THE FREE CHAIN: the founding sentence's \"nothing\" ha",
+  "commit": "3851df2a",
+  "path": "frontier/B1027_kappa_two_faces"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1028",
+  "claim": "\"B1028 \u2014 \u03ba = 2 IS ABSOLUTELY CONSERVED: every endomorphism of F\u2082 scale",
+  "commit": "3851df2a",
+  "path": "frontier/B1028_kappa_absolutely_conserved"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1029",
+  "claim": "\"B1029 \u2014 THE SEAM IS NOT A THIRD FACE: its Hilbert class field *is* th",
+  "commit": "3851df2a",
+  "path": "frontier/B1029_seam_class_field"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1030",
+  "claim": "\"B1030 \u2014 the counted input list, audited: **one continuous dimensionle",
+  "commit": "3851df2a",
+  "path": "frontier/B1030_input_typing_audit"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1031",
+  "claim": "\"B1031 \u2014 three generations: **structural, not derived** \u2014 and the ladd",
+  "commit": "3851df2a",
+  "path": "frontier/B1031_generation_rung"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1032",
+  "claim": "\"B1032 \u2014 the across-breakings route: **two sealed cells B307 does not ",
+  "commit": "3851df2a",
+  "path": "frontier/B1032_across_breakings_route"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1033",
+  "claim": "\"B1033 \u2014 the second debt register meets the first, and the gated one *",
+  "commit": "3851df2a",
+  "path": "frontier/B1033_register_reconciliation"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1034",
+  "claim": "\"B1034 \u2014 **\u03ba names two quantities**, and one of them is exported by th",
+  "commit": "3851df2a",
+  "path": "frontier/B1034_two_kappas"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1035",
+  "claim": "\"B1035 \u2014 the shadow library, the orphaned core, and one non-finding\"",
+  "commit": "3851df2a",
+  "path": "frontier/B1035_shadow_library"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1036",
+  "claim": "\"B1036 \u2014 the knowledge room: the firewall runs backwards in five place",
+  "commit": "3851df2a",
+  "path": "frontier/B1036_knowledge_room"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1037",
+  "claim": "\"B1037 \u2014 the B100\u2013B199 band dispositioned: **37 rows are 17 statements",
+  "commit": "3851df2a",
+  "path": "frontier/B1037_band_B100_dispositioned"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1038",
+  "claim": "\"B1038 \u2014 the tower cluster restored: **two Sym bands, and the fit is u",
+  "commit": "3851df2a",
+  "path": "frontier/B1038_tower_restored"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1039",
+  "claim": "\"B1039 \u2014 two clusters restored, and **re-verifying them found two defe",
+  "commit": "3851df2a",
+  "path": "frontier/B1039_phi_fixed_and_metallic_exponent"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1040",
+  "claim": "\"B1040 \u2014 the isomonodromy cluster restored, and the cluster's own `[ex",
+  "commit": "3851df2a",
+  "path": "frontier/B1040_isomonodromy_restored"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1041",
+  "claim": "\"B1041 \u2014 three red locks, and the one reason none of them was seen\"",
+  "commit": "3851df2a",
+  "path": "frontier/B1041_the_red_locks"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1042",
+  "claim": "\"B1042 \u2014 the corpus names its lessons where it finds them, and the reg",
+  "commit": "3851df2a",
+  "path": "frontier/B1042_the_error_ledger"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1043",
+  "claim": "\"B1043 \u2014 the band is the wrong unit, and it made this refresh restore ",
+  "commit": "3851df2a",
+  "path": "frontier/B1043_the_band_is_the_wrong_unit"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1044",
+  "claim": "\"B1044 \u2014 the topic search per restoration, made mechanical\"",
+  "commit": "3851df2a",
+  "path": "frontier/B1044_law_siblings_gated"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1045",
+  "claim": "\"B1045 \u2014 the instrument's first measured miss, and why the middle band",
+  "commit": "3851df2a",
+  "path": "frontier/B1045_middle_band_mapped"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1046",
+  "claim": "\"B1046 \u2014 the arc graph does not carry what the bodies know\"",
+  "commit": "3851df2a",
+  "path": "frontier/B1046_the_arc_graph"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1047",
+  "claim": "\"B1047 \u2014 the seam cluster dispositioned from the bodies: the headline ",
+  "commit": "3851df2a",
+  "path": "frontier/B1047_the_seam_cluster"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1048",
+  "claim": "\"B1048 \u2014 the seam cluster CLOSED, and the scale wall's real proof was ",
+  "commit": "3851df2a",
+  "path": "frontier/B1048_the_seam_cluster_closed"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1049",
+  "claim": "\"B1049 \u2014 the full suite found five red locks that 94 targeted tests di",
+  "commit": "3851df2a",
+  "path": "frontier/B1049_the_wrapped_exclusion"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1050",
+  "claim": "\"B1050 \u2014 the projective quotient is fully natural, and still not a sel",
+  "commit": "3851df2a",
+  "path": "frontier/B1050_the_projective_wall"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1051",
+  "claim": "\"B1051 \u2014 B0\u2013B99 closed: the fixed line is Dickson, and two siblings th",
+  "commit": "3851df2a",
+  "path": "frontier/B1051_the_band_closed"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1052",
+  "claim": "\"B1052 \u2014 the refresh exits through a manual, and the manual is checked",
+  "commit": "3851df2a",
+  "path": "frontier/B1052_the_handoff"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1053",
+  "claim": "\"B1053 \u2014 the handoffs I wrote into but had not read\"",
+  "commit": "3851df2a",
+  "path": "frontier/B1053_the_unread_handoffs"
+ },
+ {
+  "seat": "consolidation seat (qor5up)",
+  "arc": "B1054",
+  "claim": "\"B1054 \u2014 Review 1: the consolidation seat reviews its own window, and ",
+  "commit": "3851df2a",
+  "path": "frontier/B1054_review_one"
+ },
+ {
+  "seat": "audit seat",
+  "arc": "EXTENSION_1",
+  "claim": "\"Extension 1 \u2014 declared after R1/R2, before executing this extension\"",
+  "commit": "6f862099",
+  "path": "reports/physical_bridge_2026_09_05/EXTENSION_1.md"
+ },
+ {
+  "seat": "audit seat",
+  "arc": "FINDINGS",
+  "claim": "\"Physical-bridge findings: path-qualified local research, not main arc",
+  "commit": "6f862099",
+  "path": "reports/physical_bridge_2026_09_05/FINDINGS.md"
+ },
+ {
+  "seat": "audit seat",
+  "arc": "R21 ANOMALY_COMPLETION (+ its DESIGN, PRIOR, first-run JSON; three commits 6a08d343 \u2192 84f6b118, arrived 2026-09-08 late, after B1304's pin)",
+  "claim": "\"The actual subgroup of R20's quotient parent admits a 27-dimensional ",
+  "commit": "84f6b118",
+  "path": "reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md"
+ }
+]
