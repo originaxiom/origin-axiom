@@ -1,0 +1,53 @@
+{
+ "zprime_charges": {
+  "Q": "4",
+  "uc": "4",
+  "ec": "4",
+  "dc": "-2",
+  "L": "-2",
+  "nuc": "10",
+  "Hu": "-8",
+  "D": "-8",
+  "Hd": "-2",
+  "Dbar": "-2",
+  "N": "10"
+ },
+ "vector_like": {
+  "grav": "0",
+  "su3sq": "0",
+  "su2sq": "0",
+  "YYZ": "0",
+  "YZZ": "0",
+  "cubic": "0"
+ },
+ "chiral_27": {
+  "grav": "0",
+  "su3sq": "0",
+  "su2sq": "0",
+  "YYZ": "0",
+  "YZZ": "0",
+  "cubic": "-20250"
+ },
+ "chiral_16": {
+  "grav": "120",
+  "su3sq": "15",
+  "su2sq": "15",
+  "YYZ": "25",
+  "YZZ": "0",
+  "cubic": "10800"
+ },
+ "identically_zero_on_vector_like": true,
+ "solutions": {
+  "3 x 27, chiral": [
+   "{f1: 0, f2: -f3}",
+   "{f1: -f2, f3: 0}",
+   "{f1: -f3, f2: 0}"
+  ],
+  "3 x 16, chiral": [
+   "{c: -f2, f1: 2*f2 - f3}",
+   "{c: -f3, f1: -f2 + 2*f3}",
+   "{c: -f2/2 - f3/2, f1: f2/2 + f3/2}"
+  ]
+ },
+ "fails": []
+}

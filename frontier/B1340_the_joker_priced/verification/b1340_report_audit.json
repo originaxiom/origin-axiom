@@ -1,0 +1,8 @@
+{
+ "checked_fails": [],
+ "dispositions": {
+  "C1 anomaly cancellation is automatic": "HALF RIGHT, AND FOR THE WRONG REASON. On the record's VECTOR-LIKE vacuum it is automatic because it is VACUOUS -- b1340_joker_zprime.py Q3 shows all six coefficients vanish identically in every parameter. Under C3 it is NOT automatic: Q4 forces the family shape (0, t, -t) and Q5 kills the record's (-10, 5, 5). The joker turns a vacuous check into a live one, and the record's Z' fails it.",
+  "C5 proton decay dominantly K+ nubar": "IMPORTED, NOT DERIVED. K+ nubar dominance is the SUSY dimension-5 signature; without superpartners the dominant channel is e+ pi0. docs/GUT_REQUIREMENTS_LEDGER.md row 5 records proton decay as 'not addressed / absent' on this record, and supersymmetry appears only as ONE FORK of P9's regime (docs/MAIN_GOAL.md:105), never as a commitment. The claim smuggles in a superpartner spectrum.",
+  "C8 the CKM Grassmannian coordinate IS I-13": "RIGHT IN KIND, WRONG IN FORCE, AND EMPTY AS STATED. I-13 is the MASTER identification (structural analogue == physical quantity, the listener map u; docs/IDENTIFICATION_LEDGER.md:30). A Grassmannian coordinate read as V_CKM is an INSTANCE of it, exactly as I-18, I-23 and I-29 are instances -- and an instance does not PAY the row, it inherits its debt and needs a row of its own. Sharper: the same report asserts V_CKM = I, and if V_CKM = I there is no non-trivial CKM matrix for a coordinate to identify. The two claims cannot both be load-bearing."
+ }
+}

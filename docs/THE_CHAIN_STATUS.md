@@ -88,9 +88,16 @@ generation computation"* is **WITHDRAWN**, and the physical generation/index que
 | **B1332/B1333** | isotropy is a one-cusp phenomenon; the multi-cusp index was derived and all 54 chiral multi-cusped covers evaluated (38070 sectors, zero) |
 | **B1335** | the index identities and domain conditions **do not imply** `I = 0` — over `F_7`/`F_13` they hold while `I = ±1`. No proof can come from them alone |
 | **B1337** | memo 79's *"chirality is character-invisible"* is an `SL2` fact (`tr A = tr A⁻¹`), true on every manifold — not a property of the object |
+| **B1340** | **the joker, priced.** `C3` granted as a declared input (an *import*: the fixed-locus theorem gives `|det(A−I)| ∈ {0,4}`, and 3 never occurs). It does **not** complete the programme. It **costs** P9 — the record's Z′ is anomaly-free only on a **vector-like** spectrum, where the check is *vacuous* (all six coefficients vanish identically, so nothing could have failed). It **buys** one theorem: over a chiral spectrum the family part of any anomaly-free `U(1)′` is forced to `(0, t, −t)` — one generation neutral, the other two **opposite**, where P9 has them **equal** |
 
 Together these say the same thing from five directions: **the flat-`E₆`/cohomology sector of the
 cusped object does not contain chiral matter, and the reasons have nothing to do with the object.**
+
+**And B1340 answers the natural follow-up** — *what if we simply grant chirality?* — with: the chain
+does not close, and the grant is not free. Its general lesson is worth carrying past the Z′: **on a
+vector-like spectrum every consistency check that is odd in the charges is vacuous**, so any claim of
+the form “it is anomaly-free / it is consistent” made on the 19 624 vacua must state whether it could
+have failed.
 The paper's SM algebra comes from the ninth closing `Y₉`, a closed manifold — nothing above touches
 that, but the cusped object cannot supply it.
 
