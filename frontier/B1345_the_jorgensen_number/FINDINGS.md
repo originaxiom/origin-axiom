@@ -126,3 +126,59 @@ image of the **Thue–Morse substitution**, B497's stratum-3 citizen. Whether th
 artefact of short-word search order is **untested**.
 
 **No physics reading is licensed and no claim is promoted.**
+
+---
+
+# ADDENDUM (same day) — §4's REFUTATION IS WITHDRAWN. F6 IS RIGHT, AND IT AGREES WITH B1335.
+
+**This bench graded a finding from a transcript paraphrase instead of from its source, and the
+paraphrase inverted the finding's conclusion.** The full handoff arrived with a runnable check
+(`verify/check_chi_wall.py`), and F6 says the **opposite** of what §4 refuted.
+
+## What F6 actually claims
+
+From the seat's own script, verbatim:
+
+> *"1. is `I = t0 - r1` an index, or a truncation?
+>  from B1297's F: `(a0-a0*)-(a1-a1*) = -r1 + t0 == I` : True
+>  `chi(M)=0` for V and V* => FULL alternating difference = 0 (identically zero): True
+>  therefore `I = -(a2 - a2*)` : a PARTIAL SUM of something that vanishes by dimension.
+>  => **no index theorem stands behind I. Nothing forces its value either way** — which is exactly
+>  B1329's 'the identities leave I free'."*
+
+**Re-derived here as linear algebra, not taken from the script:** subtracting the two χ-identities
+`a₀ − a₁ + a₂ = 0` (for `V` and for `V*`) gives `(a₀−a₀*) − (a₁−a₁*) + (a₂−a₂*) = 0`, so
+`I = −(a₂−a₂*)`. **Confirmed.**
+
+## So F6 and B1335 are the same statement from two sides
+
+F6: `I` is a partial sum of an identically-vanishing alternating difference, therefore **nothing
+forces its value**. B1335: a sector on **m010** where the value is **`I = ±1`**. F6 *predicts* B1335;
+B1335 *instantiates* F6. **They agree.** F6 even cites B1329's *"the identities leave I free"* —
+which is this bench's own line.
+
+## What §4 actually refuted, and what it got wrong
+
+The transcript's compressed sentence — *"the index **vanishes because** `I` is a truncation of
+something identically zero"* — reads as an inference to `I = 0`, which is a non-sequitur and is what
+B1335 contradicts. **That sentence, read literally, is still wrong.** But it is a paraphrase, and
+**F6 is not the paraphrase.** Attributing the error to F6 was this bench's, not the seat's.
+
+**Withdrawn:** §4's *"the index explanation is refuted by B1335"*, and the verdict line's
+corresponding clause.
+**Stands, unchanged:** the amphichirality refutation (§3) — computed directly, six counterexamples,
+unaffected. And the synthesis sentence *"the object has no handedness and no Euler characteristic
+because it has no slack"* is still wrong — **but F6 refutes it too**, since F6's §2 shows the entire
+geometric family shares `χ = 0` whatever its slack. The seat's synthesis contradicted the seat's own
+finding, and this bench blamed the finding.
+
+## The error class
+
+**`ERROR_LEDGER` E58 — graded from a summary.** The source was one request away and was offered; this
+bench graded the compressed version. The handoff's own README says *"read section 13 (what is NOT
+verified) before citing"* and *"assume the un-gated results are known until checked"* — a seat that
+fences its own work that carefully deserved to be read at the source before being refuted.
+
+**Standing rule this instance sharpens:** a REFUTATION of another seat's named finding is graded from
+that finding's own artifact, never from a relay, a transcript, or a summary — and if the artifact is
+not in hand, the disposition is *"not assessed"*, not *"refuted"*.
