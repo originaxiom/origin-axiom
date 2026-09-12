@@ -3523,3 +3523,66 @@ somewhere in `results.json`. It does **not** compare the numbers in the two, doe
 re-run the 113 cells that have a `compute.py`, and says nothing about the 29 cells with a
 verdict on only one side or the 114 `results.json` files with no `output.txt` at all.
 **A cell passing this check is not verified — only not caught by this one test.**
+
+---
+
+## R121 — "back to math, bravely" (2026-09-12): L71, a route opened and closed in one sitting
+
+### R121-1 — the result, and it is a NEGATIVE
+
+Seal `788faf6fd92a…` committed before the certificate, **with a disclosure inside it**: a
+scratch prototype had already computed the statistic at m = 1 and m = 2, both giving
+`−2√−3`, and the CELL 1 prior was declared knowing that. **CELL 1 = A, CELL 2 = B,
+CELL 3 = A**, controls C1–C4 passing.
+
+**CELL 1.** Exactly over ℚ(ζ₆), no floating point: the peripheral slope
+`[ξ(λ)]/[ξ(a)]` equals **`−2√−3` for every m from 1 to 12** — both θ-odd exponents (4, 8),
+all six E₆ exponents, and the six non-exponents. `−2√−3` is the figure-eight's **cusp
+shape**; SnapPy agrees in magnitude to **2.220e−15**.
+
+**Read alone that is a headline. CELL 2 is why it is worthless.**
+
+**CELL 2.** The cusp's own cocycle condition **already forces the ratio**. For every m the
+solution space (dimensions 4, 6, …, 26) contains **no** solution with a different ratio.
+The mechanism, computed: `ρ(a) = exp(N)`, `ρ(λ) = exp(τN)` with the same N; writing
+`exp(N) − I = N·φ(N)` with φ unipotent, the condition puts `φ(N)ξ(λ) − τφ(τN)ξ(a)` in
+`ker N`; and since **`f ∘ N = 0`** and **`f(ker N) = 0`** (both checked exactly, m = 1…6),
+`f(ξ(λ)) = τ·f(ξ(a))` **identically — for any cocycle, on any manifold with this cusp.**
+
+> **The invariant is blind by construction. It reads the cusp shape and nothing else.
+> L71 is not answered, and this route cannot answer it.**
+
+CELL 3 says the same from the other side: the statistic *does* move with the
+representation (the conjugate rep gives `+2√−3`) — but it moves exactly as the cusp shape
+moves. **Passing MB12 shows the instrument is not constant; it does not show it is
+informative.** Memo 164, again.
+
+### R121-2 — the part worth keeping, and the rule it adds
+
+Had CELL 2 not been in the seal, this bench would have banked *"every Sym^{2m} deformation
+moves the cusp by the same shape — including the chiral ones"* as a theorem about the
+object. It is a theorem about **ℤ² with a unipotent action**, true for every knot and every
+block: **a real computation, correctly done, whose content was already in the hypotheses.**
+
+The seal's CELL 2 exists only because the m = 1, 2 agreement looked *too* clean.
+
+> **RULE ADDED:** when a statistic comes out identical across every case, the next cell asks
+> whether the statistic **could** have differed — *before* the constancy is written down as
+> a finding.
+
+### R121-3 — what L71 still needs, named because a route was closed
+
+The coker slope factors through the cusp. Three candidates that do not, **none of them
+claimed to work**: the **full** peripheral class (the coker crushes a 2-dimensional space to
+one number; the second coordinate is where block dependence could survive); the
+**cup-product / symplectic pairing** on the peripheral space (B270 did m = 1; the Sym^{2m}
+analogue is not in the corpus by this bench's search); and the **per-block Zariski closure
+of the representation** — B576 answered the *algebra* version, which is a different
+question from the one L71 asks.
+
+### R121-4 — bravery, honestly accounted
+
+The owner asked for brave mathematics. This was a real attempt at L71 with a genuinely new
+invariant, taken to an exact answer in one sitting — and the answer is that the invariant is
+empty. **That is the outcome, and it is reported as the outcome rather than dressed as the
+headline CELL 1 would have supported.**

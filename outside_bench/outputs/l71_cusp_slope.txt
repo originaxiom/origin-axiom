@@ -1,0 +1,122 @@
+==============================================================================
+L71 -- WHAT THE THETA-ODD DEFORMATIONS DO TO THE CUSP
+seal sha256 788faf6fd92a0674109f38307cdf1725bb9f28c298e533956e181d47fc19ad31
+==============================================================================
+
+  presentation <a,b | abABaBAbaB>   longitude bABaaBAb
+  rho(a)=[[1,1],[0,1]]  rho(b)=[[1,0],[u,1]]  u = zeta_6, u^2 = u-1
+  the target value tau = -2*sqrt(-3) = -2*sqrt(-3)
+
+==============================================================================
+CELL 1 -- the slopes, m = 1 .. 12   (E6 exponents starred)
+==============================================================================
+ * m= 1  dim= 3  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = -1/2 - 1/2*sqrt(-3)     [xi(lambda)] = -3 + sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+   m= 2  dim= 5  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = -1/2 + 1/2*sqrt(-3)     [xi(lambda)] = 3 + sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+   m= 3  dim= 7  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = 1     [xi(lambda)] = -2*sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+ * m= 4  dim= 9  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = -1/2 - 1/2*sqrt(-3)     [xi(lambda)] = -3 + sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+ * m= 5  dim=11  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = -1/2 + 1/2*sqrt(-3)     [xi(lambda)] = 3 + sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+   m= 6  dim=13  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = 1     [xi(lambda)] = -2*sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+ * m= 7  dim=15  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = -1/2 - 1/2*sqrt(-3)     [xi(lambda)] = -3 + sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+ * m= 8  dim=17  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = -1/2 + 1/2*sqrt(-3)     [xi(lambda)] = 3 + sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+   m= 9  dim=19  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = 1     [xi(lambda)] = -2*sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+   m=10  dim=21  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = -1/2 - 1/2*sqrt(-3)     [xi(lambda)] = -3 + sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+ * m=11  dim=23  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = -1/2 + 1/2*sqrt(-3)     [xi(lambda)] = 3 + sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+   m=12  dim=25  rel_ok=True  [a],[lam] commute=True  h0=0 h1=1 periph_inv=1
+        [xi(a)] = 1     [xi(lambda)] = -2*sqrt(-3)
+        slope   = -2*sqrt(-3)   == tau : True
+
+  CELL 1 OUTCOME: A   (all twelve equal -2*sqrt(-3): True)
+
+  C1/C2/C3 -- controls read off the same run:
+    relator = I in every block                 : True
+    rho(lambda) commutes with rho(a) every m   : True
+    at the six E6 exponents: h0 = [0, 0, 0, 0, 0, 0], h1 = [1, 1, 1, 1, 1, 1], periph_inv = [1, 1, 1, 1, 1, 1]
+      (P2W5-L72's exact Q(zeta_6) table: h0 = 0, h1 = 1, periph_inv = 1 for all six)
+
+==============================================================================
+CELL 2 -- is the value forced by the cusp alone?
+==============================================================================
+  The cusp condition is  (rho(a)-I) xi(lam) = (rho(lam)-I) xi(a).
+  Solve it for the PAIR (xi(a), xi(lam)) freely and look at the ratio of classes.
+   m= 1  cusp-only solution space dim  4;  a solution with ratio != tau exists: False
+   m= 2  cusp-only solution space dim  6;  a solution with ratio != tau exists: False
+   m= 3  cusp-only solution space dim  8;  a solution with ratio != tau exists: False
+   m= 4  cusp-only solution space dim 10;  a solution with ratio != tau exists: False
+   m= 5  cusp-only solution space dim 12;  a solution with ratio != tau exists: False
+   m= 6  cusp-only solution space dim 14;  a solution with ratio != tau exists: False
+   m= 7  cusp-only solution space dim 16;  a solution with ratio != tau exists: False
+   m= 8  cusp-only solution space dim 18;  a solution with ratio != tau exists: False
+   m= 9  cusp-only solution space dim 20;  a solution with ratio != tau exists: False
+   m=10  cusp-only solution space dim 22;  a solution with ratio != tau exists: False
+   m=11  cusp-only solution space dim 24;  a solution with ratio != tau exists: False
+   m=12  cusp-only solution space dim 26;  a solution with ratio != tau exists: False
+
+  CELL 2 OUTCOME: B   (the cusp does NOT force the ratio: False)
+
+==============================================================================
+CELL 3 -- MB12: does the statistic read the representation?
+==============================================================================
+  conjugate rep: u -> 1 - u = 1/2 - 1/2*sqrt(-3)
+   m= 1  slope(conjugate rep) = 2*sqrt(-3)   expected conj(tau) = 2*sqrt(-3)   True
+   m= 4  slope(conjugate rep) = 2*sqrt(-3)   expected conj(tau) = 2*sqrt(-3)   True
+   m= 8  slope(conjugate rep) = 2*sqrt(-3)   expected conj(tau) = 2*sqrt(-3)   True
+
+  CELL 3 OUTCOME: A   (the statistic MOVES with the rep: True)
+
+==============================================================================
+C4 -- SnapPy's cusp shape of 4_1 (magnitude is the test; sign is convention)
+==============================================================================
+  SnapPy cusp shape      : -2.664535259 E-15 + 3.4641016151*I
+  this bench's tau       : -2*sqrt(-3)   = -2*sqrt(3)*i ~ -3.4641016151i
+  |SnapPy| = 3.4641016151   |tau| = 3.4641016151
+  magnitudes agree to    : 2.220e-15
+  SIGN DIFFERS -- SnapPy's meridian/longitude orientation is its own;
+  this was fenced in the seal as a convention difference, not a discrepancy.
+
+==============================================================================
+POST-HOC MECHANISM -- NOT PREREGISTERED: WHY the cusp forces it
+==============================================================================
+  rho(a) = exp(N), rho(lambda) = exp(tau N) with the SAME nilpotent N (single block).
+  Write exp(N) - I = N.phi(N) with phi(N) = I + N/2 + N^2/6 + ... , which is UNIPOTENT.
+  The cusp condition (exp(N)-I) xi(lam) = (exp(tau N)-I) xi(a) becomes
+       N ( phi(N) xi(lam) - tau phi(tau N) xi(a) ) = 0,
+  so the bracket lies in ker N.  Now apply f, the functional with f o N = 0:
+    - f(phi(N) v) = f(v) for every v, since phi(N) - I is a polynomial in N with no
+      constant term and f o N = 0;
+    - f vanishes on ker N whenever dim > 1.
+  Hence f(xi(lam)) = tau f(xi(a)) IDENTICALLY.  The three ingredients, checked exactly:
+   m= 1  dim= 3   f o N = 0 : True   dim ker N = 1   f(ker N) = 0 : True
+   m= 2  dim= 5   f o N = 0 : True   dim ker N = 1   f(ker N) = 0 : True
+   m= 3  dim= 7   f o N = 0 : True   dim ker N = 1   f(ker N) = 0 : True
+   m= 4  dim= 9   f o N = 0 : True   dim ker N = 1   f(ker N) = 0 : True
+   m= 5  dim=11   f o N = 0 : True   dim ker N = 1   f(ker N) = 0 : True
+   m= 6  dim=13   f o N = 0 : True   dim ker N = 1   f(ker N) = 0 : True
+
+  So the statistic reads the CUSP SHAPE and nothing else.  It cannot distinguish the
+  theta-odd deformations from the geometric one, at any m, by construction.
+
+==============================================================================
+DONE -- outcomes above; interpretation lives in the memo, not here.
+==============================================================================
