@@ -62,7 +62,24 @@ def scan(terms, exclude=()):
         n = sum(1 for t in terms if t in txt)
         if n >= max(2, len(terms) - 1):
             head = fp.read_text(encoding="utf-8", errors="ignore").splitlines()[:2]
-            hits.append((n, "FINDINGS", str(fp.relative_to(ROOT)), " ".join(head)[:220]))
+            # B1341: a FINDINGS-surface hit used to print only the file's first HEADING, and a
+            # heading need not carry the matched term -- B448's title says "the heartbeat
+            # adjudication" while its claim_one_line's FIRST SENTENCE says "the Markov surface".
+            # A reader who scans the printed line therefore misses the very join the sweep found.
+            # Print the arc's claim_one_line alongside, so the match is visible where it lives.
+            claim = ""
+            for up in fp.parents:
+                cand = up / "arc_verdict.json"
+                if cand.exists():
+                    try:
+                        claim = (json.loads(cand.read_text(encoding="utf-8")).get("claim_one_line") or "")
+                    except Exception:
+                        claim = ""
+                    break
+                if up == ROOT:
+                    break
+            hits.append((n, "FINDINGS", str(fp.relative_to(ROOT)),
+                         (" ".join(head)[:180] + (" || VERDICT: " + claim[:260] if claim else ""))))
     hits.sort(key=lambda h: -h[0])
     return hits
 

@@ -128,3 +128,85 @@ mechanism then went unused for 1300 arcs. **Least action** was never asked about
 fact that settles it (B21) has been banked since the twenties. The failure mode is not deletion; it
 is **two banked facts sitting eleven hundred arcs apart with nothing joining them** — the same
 mechanism B1338 measured in the anti-rediscovery instrument and B1339 in the chain status.
+
+---
+
+# ADDENDUM (same day, before the arc was a day old) — TWO OF THE FIVE FINDINGS ARE B448'S, AND THE HEADLINE GETS BETTER
+
+**This bench rediscovered banked water and is correcting the arc rather than leaving the claim
+standing.** §5's Markov identification and §4's det-−1 echo are **not new**. Both are in **B448**
+(the heartbeat adjudication), banked long before this arc.
+
+## What B448 already had, verified here against its own text
+
+B448's verdict line: *"the exact T₁ periodic-orbit field tower on the cusp locus **kappa=-2 (the
+Markov surface)**."* Its Part C:
+
+> *"The classical anchor: κ=−2 **is the Markov surface** (`x²+y²+z² = xyz`; scaling x=3a gives the
+> Markov equation `a²+b²+c²=3abc` … the integer T₁-orbit of (3,3,3) walks the Markov tree).
+> **Classical territory — a credibility anchor, no novelty claimed.**"*
+>
+> *"T₁ itself is the **half-monodromy**: `T₁² = L∘R` verified; the half corresponds to the
+> **det-−1** Fibonacci matrix `C=[[1,1],[1,0]]`, `C² = A`."*
+
+Checked on this bench: B448's `T₁(x,y,z) = (z, x, xz−y)` and B37's `T(x,y,z) = (z, x, 2xz−y)` are
+**one map** under the half-trace rescaling (`2·T(x,y,z) = T₁(2x,2y,2z)` exactly); `det(DT₁) = −1`,
+`det(D(T₁²)) = +1`; and **`C = L·P` identically**, with `C² = L·R`. So B448's "det-−1 half-monodromy"
+and this arc's "genesis morphism `L·P`" are **the same matrix**, and B448 got there first.
+
+**Corrections to the arc above:**
+
+* §5's *"the corpus never joined those either"* is **WRONG** and is withdrawn. B448 joined them, and
+  explicitly claimed no novelty for it because it is classical.
+* §4's det/trace table stands as arithmetic but **is not this arc's finding**. Credit: B448.
+* §1's table should read: the roles were not un-joined; **this reader failed to read the join.**
+
+## The process failure, recorded against B1338
+
+The pre-flight sweep **worked**. `already_banked --wide "Markov surface trace map leaf phase space"`
+returned **B448 as the top hit, 6 of 7 terms**. What it printed beside it was the FINDINGS **title**
+— *"the heartbeat adjudication: two handoffs, one exact orbit-field tower"* — which does not contain
+the word Markov. The **verdict line** does, in its first sentence. **This bench read the title and
+moved on.**
+
+So B1338's finding needs a sibling: the instrument's blind spots were the subject there; here the
+instrument was not blind and **the reader was**. The concrete defect is that `already_banked` prints
+a FINDINGS row's *first heading* and a SETTLED row's *claim line*, and B448 matched on the FINDINGS
+surface, so its claim line — the one carrying "Markov surface" — was never shown. **Registered as a
+fix for the instrument: for a FINDINGS-surface hit, print the arc's `claim_one_line` too.**
+
+## What actually survives as this arc's own
+
+1. **The theorem (§3).** A discrete Lagrangian's Euler–Lagrange map preserves `ω = ∂₁∂₂L·da∧db`,
+   hence has determinant +1; an orientation-reversing map of a surface preserves no area form; so
+   **an anti-symplectic map has no discrete Lagrangian.** B21 banked the anti-Poisson fact and B448
+   banked the det −1; **neither drew this consequence, and nothing in the corpus does.**
+2. **The leaf-level form (Q6e).** `T*ω = −ω` for the invariant Gelfand–Leray form on **every** leaf —
+   which is what makes the theorem reach the object rather than only the leaf where the map
+   linearises.
+3. **The join, which is the real result and is better than what was banked above.**
+
+## THE SHARPENED HEADLINE: the double tick is not a choice — it IS the monodromy
+
+B448 verified that **`T₁` is the half-monodromy and the figure-eight monodromy is `T₁²`**. This arc
+proves that **`T₁` has no action principle and `T₁²` does.** Put together:
+
+> **The object's action exists exactly at its monodromy, and fails exactly at the formal square root
+> of the monodromy.**
+
+The "double tick" was never a modelling choice or a convenience. `T₁` is not a thing the object does
+— it is a square root of the thing the object does, and it is precisely that square root which is
+anti-variational. The geometrically real map — the monodromy of the figure-eight bundle — is the one
+with a least-action principle.
+
+And the record now has **three independent reasons the physical step is the double one**, which is
+the part no single arc had:
+
+| reason | where |
+|---|---|
+| **orientation** — `L·P` carries the swap, det −1; squaring restores it | the paper's genesis paragraph |
+| **geometry** — `T₁` is the half-monodromy; the monodromy is `T₁² = L∘R` | **B448** |
+| **variational** — `T₁` is generated by no Lagrangian; `T₁²` is | **this arc** |
+
+Three faces of one det = −1. The arc's verdict stays **PROVED**, on the theorem and this join; the
+Markov and det-−1 observations are re-credited to B448 and claimed by nobody here.
