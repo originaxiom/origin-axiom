@@ -4,8 +4,8 @@
 Each item names the line, quotes what is there now, and states what the record can now support.
 Several of the stale sentences **understate** what has been done; one needs a new caveat.*
 
-Arcs: B1332 (+3 addenda), B1333 (+2 addenda), B1334 (+1 addendum), B1335. All on
-`claude/paper-verification-ufp0zn`, none on main.
+Arcs: B1332 (+3 addenda), B1333 (+2 addenda), B1334 (+1 addendum), B1335. All on this bench's
+working branch (`paper-verification-ufp0zn`), none on main.
 
 ---
 

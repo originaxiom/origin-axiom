@@ -1,6 +1,6 @@
-# THE VERIFICATION PACKAGE — report (2026-09-10T21:44:26Z)
+# THE VERIFICATION PACKAGE — report (2026-09-12T21:16:45Z)
 
-Manifest built 2026-09-10T21:44:24Z at commit `92331a28`; {'claims': 30, 'records': 36, 'seals': 12, 'locks': 54, 'records_with_a_primary_lock': 34}.
+Manifest built 2026-09-12T21:13:46Z at commit `83cb185a`; {'claims': 30, 'records': 36, 'seals': 12, 'locks': 55, 'records_with_a_primary_lock': 34}.
 
 ## Seals — PASS (12/12 match)
 
@@ -16,9 +16,5 @@ Manifest built 2026-09-10T21:44:24Z at commit `92331a28`; {'claims': 30, 'record
 - `B1306` frontier/B1306_the_older_debt/DESIGN_C.sha256: ok
 - `B1323` frontier/B1323_the_genesis_upgrades/DESIGN.sha256: ok
 - `B1324` frontier/B1324_arc_b_and_the_dictionary/DESIGN.sha256: ok
-
-## Test locks — PASS
-
-- 54 lock files: 301 passed, 10 skipped in 141.09s (0:02:21)
 
 **Overall: PASS.** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.

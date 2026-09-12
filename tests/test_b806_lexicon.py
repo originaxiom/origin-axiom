@@ -13,13 +13,17 @@ def _atlas():
 def test_the_lexicon_is_a_small_hand_authored_closed_vocabulary():
     """The finding's premise: the atlas can only ever see what it was told to look for."""
     lex = _atlas()["lexicon"]
-    # 26 since B1247 added SEVEN QUESTION MOTIFS (arrow, monoid, measurement, closing, naming,
-    # choice, coupling). This tripwire fired a SECOND time and its demand was again MET rather than
-    # bumped, by the B829 method: top-3 coverage recomputed WITH and WITHOUT the new motifs is
-    # 0.8404 BOTH WAYS -- top-3 unchanged (golden, eisenstein, firewall), change +0.0000 -- so the
-    # widening re-dates NO recurrence claim; the drift from B829's 0.8845 is corpus growth alone.
-    # (19 since B825 added `markov_cubic`; B806's numbers re-derived then at B829.)
-    assert len(lex) == 26, f"lexicon size changed from 26 to {len(lex)} -- re-derive B806's numbers"
+    # 28 since B1341 added TWO MORE QUESTION MOTIFS (action, feedback) -- the two questions B1247's
+    # seven still had no word for, measured the same way it measured its own: "feedback" returned 4
+    # corpus hits in 1300+ arcs and "least action" zero arcs joined to the object, while B6 (an
+    # Euler-Lagrange equation, OPEN since week one), B21 and B37 had all been banked for a year.
+    # This tripwire fired a THIRD time and its demand was again MET rather than bumped, by the B829
+    # method: top-3 coverage recomputed WITH and WITHOUT the new motifs is 0.8436 BOTH WAYS --
+    # top-3 unchanged (eisenstein, golden, firewall), change +0.0000, and the new motifs rank #23
+    # and #28 of 28 -- so the widening re-dates NO recurrence claim. The drift from B1247's 0.8404
+    # is corpus growth alone (1207 -> 1221 probes).
+    # (26 since B1247 added seven; 19 since B825 added `markov_cubic`; re-derived then at B829.)
+    assert len(lex) == 28, f"lexicon size changed from 28 to {len(lex)} -- re-derive B806's numbers"
     src = (ROOT / "scripts" / "atlas" / "atlas.py").read_text()
     assert "LEXICON = {" in src                      # hand-authored, not derived from the corpus
     assert "K001..K022" in src                       # and its grounding is frozen, by its own header
