@@ -1,0 +1,12 @@
+R27 pre-execution metadata checks, September 12, 2026.
+Neither the scientific producer nor its test module has been imported or executed.
+AST-only syntax checks pass for both files.
+All origin heads/tags refreshed; no tip changed from the fixed intake.
+The design, argument, prior receipt, producer and tests are hash-pinned.
+No empirical predicate or physical value is an input.
+
+seal_digests (True, 'ok (60 sealed digests recomputed and matching)')
+carried_seal_provenance (False, ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md'])
+Identification audit: 24 rows, 8 earned, 7 refuted, 9 unearned.
+Unearned baseline 9, current 9: unchanged.
+This is not an independent review, a new all-green certificate, or an executed result.
