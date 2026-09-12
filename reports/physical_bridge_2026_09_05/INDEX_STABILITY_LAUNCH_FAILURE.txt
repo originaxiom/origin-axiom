@@ -1,0 +1,25 @@
+R26 first launch receipt, September 12, 2026.
+Both commands exited 1 before the new scientific code/tests could run.
+Workspace prefix in the traceback replaced by <repo>; text otherwise retained.
+
+Native command: env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 reports/physical_bridge_2026_09_05/index_stability.py
+Exit: 1
+Traceback (most recent call last):
+  File "<repo>/reports/physical_bridge_2026_09_05/index_stability.py", line 14, in <module>
+    import sympy as sp
+ModuleNotFoundError: No module named 'sympy'
+
+Focused command: env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 -m pytest -q tests/test_physical_bridge_index_stability.py tests/test_physical_bridge_weighted_cohomology.py tests/test_physical_bridge_holonomy_spectrum.py tests/test_physical_bridge_geometric_completion.py
+Exit: 1
+/Library/Developer/CommandLineTools/usr/bin/python3: No module named pytest
+
+The launcher resolved the system CommandLineTools Python, which lacks both dependencies.
+A subsequent check of /usr/local/bin/python3.12 failed (path nonexistent); no scientific rerun there.
+pyenv which python3.12 then resolved the EXISTING 3.12.1 environment.
+An import-only environment check confirmed Python 3.12.1, SymPy 1.14.0,
+pytest 9.0.3, SciPy 1.16.3. Nothing installed and no package version changed.
+
+Pre-rerun control: use that resolved absolute interpreter for the SAME
+sealed producer and tests at 46b34c09. No equation, source byte, test
+assertion, tolerance, domain or outcome criterion changed. The first
+successful scientific attempt will be explicitly labeled a launcher retry.
