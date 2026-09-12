@@ -7636,6 +7636,27 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1346": {
+   "slug": "the chat1 handoff intake",
+   "motifs": [
+    "action",
+    "figure_eight",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B134",
+    "B136",
+    "B497",
+    "P0"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B134": {
    "slug": "chirality recursion proved",
    "motifs": [

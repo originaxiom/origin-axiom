@@ -1,0 +1,22 @@
+{
+ "id": "B1346",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "depends_on": [
+  "B134",
+  "B136",
+  "B497",
+  "B1083",
+  "B1297",
+  "B1330",
+  "B1331",
+  "B1341",
+  "B1345"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [],
+ "claim_one_line": "THE chat1 HANDOFF INTAKEN: 34/34 REPRODUCED, F1 CORRECTS A BANKED ARC, F5 GENERALISES, AND CHAT-2'S NESTING IS REFUTED. Every number recomputed on this bench, not read from the handoff. (1) The seat's own verification reproduces: verify_all.py 22 checks + stageC.py 12 checks = 34/34 PASS, controls included (C-NULL checks that must fail do fail); one portability defect, both scripts write to a hardcoded /home/claude path after the checks. (2) F1 CONFIRMED and it corrects B1330: the protection table reproduces exactly -- s958 |Sym|=2 cover 6 UNPROTECTED, v2873 4/12 PROTECTED, t12833 2/6 UNPROTECTED, t12835 2/24 PROTECTED -- and t12835's no-computation argument checks, element orders in S_4 being {1,2,3,4} with no 6, so an order-6 subgroup of the octahedral group is S_3 and its lift inverts. CONSEQUENCE: B1330's headline 952-sector scan was run on v2873, which is PROTECTED, so its zero is PREDICTED by B1297's own theorem -- a confirmation of a banked result, not evidence that the vanishing survives where protection is removed. That is the vacuity class on a headline scan, and it bears on this bench's own B1332-B1335. (3) F2/F3 confirmed at their stated numbers (1260/1260, tau-odd 251, notAA 697; amphichiral 283, classes exactly {0,1/4} at 195/88/0, quarter class 88, 21 with an involution, 0/88 covers, control 111/195, closed 37/11). (4) F5 CONFIRMED AND GENERALISED BEYOND WHAT THE HANDOFF CLAIMS: M = twist x swap with det -1 and char poly x^2-x-1, S.R.S = L, and M^2 = X.swap(X) verified for every X in SL2(Z) with entries in [-2,2] -- so the double tick is a word followed by its own mirror BY CONSTRUCTION. F5's section 7.4 states the trade without computing it; computed here, EVERY metallic unit solves x^2 - m x - 1 so the product of its roots is -1 for every m (verified m = 1..8), hence NORM -1 <=> DET -1 <=> THE SWAP, and the forced self-mirroring at tick two is a property of the WHOLE METALLIC FAMILY rather than of the golden alone; the escape F5 names (2+sqrt3, norm +1) works precisely because x^2-4x+1 is NOT of the metallic form. AND THIS IS THE SAME FACT AS B1341'S: norm = -1 <=> det = -1 <=> the swap <=> the double tick is X.swap(X), self-mirroring <=> chirality is zero <=> THERE IS NO ACTION AT THE HALF STEP. One fact in five languages across the whole family; the seat's 'the golden ratio and the handedness are the same coin' is confirmed and is stronger than stated. (5) F6: this bench's refutation of it was WITHDRAWN the same day (B1345 addendum, ERROR_LEDGER E58, graded from a transcript paraphrase that had inverted the finding). (6) CHAT-2'S STRUCTURAL FINDING 3a REFUTED: its claim that drilling the shortest geodesic of m004 produces the silver bundle M(A_2), 'previously unrecorded in the programme', is FALSE. The VOLUME match is real (3.6638623767089 to 1e-13) but drill(m004) along word bC has TWO cusps and is isometric to m129, the WHITEHEAD LINK complement (5^2_1 / L5a1), while m136 the silver bundle has ONE cusp; a once-punctured-torus bundle has exactly one cusp so the identification cannot hold whatever the volume agrees to, and SnapPy's isometry test returns False for m136 and True for m129. m136 and m129 are a VOLUME-SHARING PAIR THAT DIFFER -- exactly the trap chat1's OWN NEG.2 control flags for s958/s961. One seat shipped the antidote while another walked into it. (7) Carried from the seat's error ledger: #31 is a live SnapPy trap verified here -- M.name() on a filled census manifold DROPS THE FILLING, OrientableClosedCensus[0] reprs as m003(-3,1), .name() returns 'm003', and re-instantiating gives the cusped parent at a different volume. STILL OPEN, recorded not chased: the J(t12833) discrepancy from B1345 (this bench exhibits a pair at 9, the seat reports 13), and the seat's own un-run gates. Their standing caution adopted: assume the un-gated results are known until checked."
+}
