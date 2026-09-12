@@ -174,3 +174,69 @@ The full commutant of the 28 on the 48 (expected `dim 12`, centre `dim 3`) was a
 by a resource limit (exit 143)**. It was corroboration only — §3's `Mat₂(ℚ)³` argument deliberately
 avoids needing it — but it was attempted and did not finish, and that belongs in the record rather
 than quietly vanishing.
+
+---
+
+# ADDENDUM 2 (2026-09-12) — **ℚ(√77) BUYS OFF BOTH OBSTRUCTIONS, AND IS CHARGED EXACTLY ONCE**
+
+**Certificate** `certificates/the_price_is_charged_once.py` · **Output**
+`outputs/the_price_is_charged_once_out.txt` · **CELL 1/2/3 = B/B/B**, controls pass
+
+Completes the computation §7 named as owed: whether the Allen invariant **E** is split, and over
+which field the object's triality becomes available. Inputs are the sextic and cubic **reproduced
+from memo 204's own banked output** — the e₆ build is not needed for this cell.
+
+## 1. The sextic is irreducible, so the 48 does not split over K
+
+`ad(x₈)` commutes with the 28 (memo 204, 0/28 failures) and `ad(x₈)² = u ∈ K`, so a splitting of
+the 48 over K along `ad(x₈)` needs `√u ∈ K`.
+
+    sextic: t^6 - 15095808t^4 + 56970854793216t^2 - 23922095638236364800
+       irreducible over Q: True,  degree 6      (and its square IS the cubic, checked symbolically)
+
+**So `F₆ = ℚ[ad(x₈)|₄₈]` is a degree-6 FIELD containing K, `√u ∉ K`, and the 48 is an
+EIGHT-DIMENSIONAL `F₆`-vector space on which the 28 acts `F₆`-linearly.** The 8-dimensional
+representation — and with it the splitting of **E** — lives over `F₆`.
+
+## 2. And a negative result of this bench's own is confirmed as an artifact
+
+A mod-p meataxe found a proper submodule of ℚ-dimension 24 at two primes. At **exactly those
+primes**:
+
+    sextic mod 10007  : factor degrees [2, 2, 2]
+    sextic mod 100003 : factor degrees [2, 2, 2]
+
+so `√u` exists mod p and the module splits there while **nothing splits over ℚ**. **The result was
+not read at the time** — the cyclic-vector test's branches had already been found incomplete, and
+the meataxe was run precisely because mod-p data cannot settle a ℚ-question. **CELL 2 is why.**
+
+## 3. And `F₆` is the same field as the L-obstruction's
+
+    sqrt(77) lies in F6 : True
+    sqrt(-77), sqrt(3), sqrt(7), sqrt(11), sqrt(33), sqrt(21), sqrt(-3), sqrt(5), sqrt(13) : all False
+
+**`F₆ = K(√77)` — the Galois closure of K.** Nine of ten candidates come back False, so the
+containment test can say no.
+
+## 4. The result
+
+> **The object's triality is defined over the Galois closure of its own charge field, and that
+> closure is `K(√77)`.**
+>
+> **77 is not one price among several. It appears independently in the L-obstruction and in the
+> E-obstruction, and resolves both at the same extension. The price is charged exactly once.**
+
+* **The L-obstruction:** over ℚ, `L` is non-cyclic with `Aut = 1` (type ⁶D₄, no triality). Over
+  `ℚ(√77)` the discriminant becomes a square, `L` becomes cyclic, the type drops to ³D₄.
+* **The E-obstruction:** the 8-dimensional representation appears over `F₆`.
+* **Same field.**
+
+## 5. What this does not do
+
+It does **not** decide whether `E` is split over **K itself**. What is shown is that `E` is split
+**by** `K(√77)`, and that the 8-dimensional representation does not appear over K **along
+`ad(x₈)`**. Settling `E` over K needs the algebra type of the commutant — `M₂(K)` versus a
+quaternion division algebra — **the one computation that has twice been killed by resource limits**,
+and it is recorded as outstanding. It does not change the headline either way.
+
+*Gate 5 untouched — no measured value is used or named. Nothing promotes to `CLAIMS.md`.*

@@ -2910,3 +2910,59 @@ Three PDFs converted a five-week-old *"typed literature floor, the named externa
 **settled refutation** in one sitting. **The bottleneck was never the mathematics; it was access.**
 Worth saying plainly: the remaining ask (**KMRT Ch. VII §44.B and §43**, a book, not on arXiv) is
 still outstanding and is the only piece that could revise §6's conflict.
+
+---
+
+## ADDENDUM 111 (2026-09-12) — **R111: "what can we compute to make progress" / "go as u recomend"**
+
+Four items were ranked; **three are now done and the top one resolved the arc.** Recorded with a
+container restart in the middle, which cost one running job.
+
+### R111-1 — item 3 (mine the supplied papers): a clean NEGATIVE that says what to get
+
+| paper | covers | use for the object's case |
+|---|---|---|
+| **1409.1718** | type table + Theorem 4.1 | **decisive** — gave the refutation |
+| **2301.10130** (69pp, 2023) | trialitarian **triples**, i.e. the **split-cubic** case | **one** mention of "cubic", in the intro, citing KMRT §43. Zero hits: "non-cyclic", "6D4", "Okubo". **Nothing.** |
+| **0912.3405** | octic étale algebras, `H¹(Γ,W(D₄))` | zero hits: "trialitarian algebra", "3D", "6D". **Nothing.** |
+
+> **KMRT's book (§43, §44.B) is the only source covering the object's actual case.** The two arXiv
+> papers bracket it. That is where the literature sits, not a gap in the reading.
+
+### R111-2 — item 1 (is E split): resolved, and it completes the arc
+
+**Memo 204 addendum 2.** `ad(x₈)` commutes with the 28 and `ad(x₈)² = u ∈ K`, so splitting the 48
+over K along `ad(x₈)` needs `√u ∈ K`. **The sextic is irreducible over ℚ**, so `F₆ = ℚ[ad(x₈)|₄₈]`
+is a degree-6 field, `√u ∉ K`, and **the 48 is an 8-dimensional `F₆`-vector space** with the 28
+acting `F₆`-linearly. **And `√77 ∈ F₆` while nine other tested quadratics are not: `F₆ = K(√77)`,
+the Galois closure of K.**
+
+> **ℚ(√77) buys off BOTH obstructions — the L-obstruction and the E-obstruction — and is charged
+> exactly once. The object's triality is defined over the Galois closure of its own charge field.**
+
+### R111-3 — **two test designs of mine failed before the mathematics did**
+
+* The **cyclic-vector test**'s preregistered branches were **incomplete**: I wrote "dim 48 ⇒
+  irreducible ⇒ E not split" and never enumerated `V₁ ⊕ V₂` with non-isomorphic summands, which is
+  also cyclic and also gives 48. **The measurement stood; the reading was void, and I refused it.**
+* The **mod-p meataxe** then found a proper 24-dimensional submodule at two primes — and that was
+  **an artifact**: the sextic factors `[2,2,2]` at exactly those primes. **Also refused at the
+  time**, because mod-p data cannot settle a ℚ-question.
+
+**Both were caught before being reported as conclusions.** That is the first time today the pattern
+broke in the right direction — the three earlier errors (#21, #22, #23) all reached the owner first.
+**The habit being corrected is naming what a measurement can and cannot support BEFORE reading it.**
+
+### R111-4 — what the restart cost
+
+The container restarted mid-session. **The L142 run was lost** (registered cell, CELL 1 and CELL 2
+already **B**, CELL 3 unfinished) and must be re-run. Nothing else was lost; the branch was clean and
+pushed at the time.
+
+### R111-5 — what remains
+
+* **The commutant's algebra type** (`M₂(K)` vs quaternion division algebra) — settles E over K
+  itself. **Twice killed by resource limits.** Does not change the headline.
+* **Item 2, still owed:** reproduce B1077's split-cubic computation, the conflict flagged in memo
+  204 §6 and deliberately not adjudicated.
+* **L142**, to re-run.
