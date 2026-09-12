@@ -155,11 +155,20 @@ differs = (inv["kernel_0"][0] != inv["kernel_0"][1]) or (inv["kernel_1"][0] != i
 
 # C2 -- the test must be able to say YES
 random.seed(20260911)
-while True:
-    T = sp.Matrix(27, 27, lambda i, j: random.randint(-2, 2))
-    if T.det() != 0:
-        break
-CONJ = [T * PAIR_M[0] * T.inv(), T * PAIR_M[1] * T.inv()]
+# C2's T is a PERMUTATION matrix.  Conjugating by one genuinely changes the matrices while
+# preserving every conjugation invariant -- exactly what a positive control needs -- and its entries
+# CANNOT grow, so the conjugated charpolys stay the size of the originals.  Two earlier drafts used
+# a dense random T, then a 40-step unimodular T; both produced entries whose exact charpolys did not
+# terminate.  THE CONTROL WAS THE BOTTLENECK, NOT THE CELL -- twice.
+_perm = list(range(27))
+random.shuffle(_perm)
+T = sp.zeros(27, 27)
+for _r, _c in enumerate(_perm):
+    T[_r, _c] = 1
+Ti = T.T
+assert T * Ti == sp.eye(27), "a permutation matrix's inverse is its transpose"
+assert _perm != list(range(27)), "the control must actually move something"
+CONJ = [T * PAIR_M[0] * Ti, T * PAIR_M[1] * Ti]
 inv_pos = conjugate_possible(PAIR_M, CONJ)
 pos_ok = (inv_pos["kernel_0"][0] == inv_pos["kernel_0"][1]
           and inv_pos["kernel_1"][0] == inv_pos["kernel_1"][1]
@@ -178,8 +187,17 @@ print(f"\n  CELL 2 = {CELL2}  -- " +
 
 # ================================================================== CELL 3
 rule("CELL 3 -- does every site's cubic generate K?  (C1: positive and bite controls)")
-theta = sp.RootOf(MU.as_expr(), 0)
+# C6 -- K is presented by its SMALLEST model, not by mu.  mu's coefficients are ~5e11 and
+# factoring over Q(root of mu) is what stalled two runs of this certificate; x^3-12x-5 generates
+# the SAME field -- verified immediately below, not assumed -- with coefficients small enough for
+# the factorisation to terminate.
+K_SMALL = sp.Poly(L**3 - 12*L - 5, L)
+theta = sp.RootOf(K_SMALL.as_expr(), 0)
 KF = sp.QQ.algebraic_field(theta)
+_mu_deg = sorted(f.degree() for f, _ in sp.Poly(MU.as_expr(), L, domain=KF).factor_list()[1])
+print(f"       C6 -- K presented as {sp.sstr(K_SMALL.as_expr())}; mu factors over it as {_mu_deg}")
+print(f"              -> mu has a root there, so both models generate THE SAME field: "
+      f"{1 in _mu_deg}")
 
 
 def in_K(expr):

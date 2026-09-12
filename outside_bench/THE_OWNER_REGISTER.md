@@ -2966,3 +2966,64 @@ pushed at the time.
 * **Item 2, still owed:** reproduce B1077's split-cubic computation, the conflict flagged in memo
   204 §6 and deliberately not adjudicated.
 * **L142**, to re-run.
+
+---
+
+## ADDENDUM 112 (2026-09-12) — **R112: "continue" ×5** — L142 closed, and the session's two failure modes separated
+
+### R112-1 — L142 is answered
+
+**Memo 205.** A cell registered **2026-08-08** with its own discriminating test named, and not
+executed until now. **CELL 1/2/3 = B/B/B.**
+
+> **THREE FACTS. THE AGREEMENT IS OF OUTPUTS.**
+
+* **Across representations** — `Hom_{e₆}(27, 78) = 0` by Schur. **No morphism can exist**; closed by
+  a theorem, not a failed search.
+* **Within the 27** — the two pencils are **not conjugate**: kernels `(0,3)`, charpolys differ,
+  rank-product `27` vs `24`. Proved, not searched for.
+* **Six sites, one field** — every cubic irreducible over ℚ with resolvent **77**, every one
+  generating **K**, and the bite control found **not** K.
+
+### R112-2 — and the successor question the seal demanded now has an answer
+
+The seal fixed in advance that `B/B/B` does **not** exclude a common upstream cause, and named the
+successor: *"what property of the charge space makes every construction on it return the same cubic
+field."*
+
+**Memo 204 answers it: that cubic IS the object's trialitarian `L`.** So *"three facts"* is exactly
+right about **morphisms** and would mislead as a statement about **cause** — there is no map between
+the sites, and there is a common origin, and that origin is what makes the object **⁶D₄**.
+
+> **Every construction on the charge space returns K because K is the charge space's own trialitarian
+> invariant. Each site is a different way of reading it off.**
+
+### R112-3 — **the session has had TWO distinct failure modes, and they should not be conflated**
+
+**Reading errors (#21–#23):** a preregistered outcome's *stated consequence* outran what the
+measurement could support. Three instances, all reaching the owner before being caught.
+
+**Instrument-cost failures (new, and all in the CONTROLS):** L142 stalled **three times** — the field
+test over `ℚ[L]/(μ)` with ~5×10¹¹ coefficients; the C2 control inverting a dense random 27×27 integer
+matrix; and its unimodular replacement whose entries still grew. Also the commutant computation
+(twice killed) and the E-split test (twice killed).
+
+> **In the reading errors the arithmetic was right and the conclusion was not. In the instrument
+> failures the mathematics was reachable throughout and the ENCODING was not.** Different diagnosis,
+> different fix. Conflating them would have produced more caution where speed was needed and more
+> speed where caution was.
+
+**And in every one of L142's three stalls the bottleneck was a CONTROL, never a cell.** The fix was a
+permutation conjugator whose entries cannot grow — with assertions that it is genuinely a conjugation
+and genuinely moves something, so that the cheaper control is not a weaker one.
+
+### R112-4 — the state of the arc after this stretch
+
+| | |
+|---|---|
+| B882 refuted; object is ⁶D₄, no triality over ℚ | **established** |
+| 77 is the price of triality, charged exactly once (`K(√77)` kills both obstructions) | **established** |
+| B1077's flagged conflict | **dissolved by reproduction**, in B1077's favour |
+| L142 | **closed** |
+| `E` split over **K itself** | **reduced** to the ramification of one quaternion algebra over one totally real cubic field, unramified at all three real places — a pari/sage question this bench cannot run |
+| §4A.3's other two doors (gauge-datum, L154's σ) | vague / not-posable |

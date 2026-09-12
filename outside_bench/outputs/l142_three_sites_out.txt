@@ -23,3 +23,74 @@ CELL 2 -- within the 27: are the two pencils' generating pairs CONJUGATE in GL(2
        charpoly_1       measured-plane vs orphan-plane : False
        trace_1          measured-plane vs orphan-plane : True
        rank_product     measured-plane vs orphan-plane : (27, 24)
+  [OK ] C2 -- the conjugacy test reports a genuinely conjugated pair as CONJUGATE
+  [OK ] C3 -- and reports a genuinely non-conjugate pair as NOT conjugate
+
+  CELL 2 = B  -- a conjugation invariant DIFFERS, so NO T in GL(27) carries one pencil to the other. Proved, not searched for.
+
+==============================================================================
+CELL 3 -- does every site's cubic generate K?  (C1: positive and bite controls)
+==============================================================================
+       C6 -- K presented as L**3 - 12*L - 5; mu factors over it as [1, 2]
+              -> mu has a root there, so both models generate THE SAME field: True
+       x8 restricted to the compact kernel in the 27 (B969's site, recomputed)
+           x**3 - 10063872*x - 9710862336
+           irreducible/Q True   resolvent sf 77   GENERATES K: True
+       x16 restricted to the compact kernel in the 27 (B969's site, recomputed)
+           2197*x**3 - 6963104474726400*x + 2923811689117777920000
+           irreducible/Q True   resolvent sf 77   GENERATES K: True
+       the (x14,x22) branch locus in the 27 (memo 201, new site)
+           2771822592000*x**3 + 3033676800*x**2 - 56402640*x - 6859
+           irreducible/Q True   resolvent sf 77   GENERATES K: True
+       the (x14,x22) branch locus in the 27 (memo 201, new site)
+           1686085632000*x**3 - 94043980800*x**2 - 34309440*x + 212629
+           irreducible/Q True   resolvent sf 77   GENERATES K: True
+       mu itself -- POSITIVE CONTROL, K by definition
+           500716339200*x**3 - 2075673600*x**2 - 4769856*x + 2197
+           irreducible/Q True   resolvent sf 77   GENERATES K: True
+       B866's adjoint-pencil mu, reproduced as a check (C4)
+           500716339200*x**3 - 159667200*x**2 - 28224*x + 1
+           irreducible/Q True   resolvent sf 77   GENERATES K: True
+       BITE CONTROL -- an unrelated cubic of resolvent Q(sqrt77)
+           x**3 - 6*x**2 - 14*x + 18
+           irreducible/Q True   resolvent sf 77   GENERATES K: False
+  [OK ] C1 -- POSITIVE control: mu is found isomorphic to K
+  [OK ] C1 -- BITE control: an unrelated resolvent-77 cubic is found NOT K
+
+  CELL 3 = B  -- every site's cubic generates K: the agreement at output level is real
+
+==============================================================================
+VERDICT
+==============================================================================
+  CELL 1 = B   CELL 2 = B   CELL 3 = B   controls: ALL PASS
+
+  L142 ANSWERS: **THREE FACTS. THE AGREEMENT IS OF OUTPUTS.**
+
+  The cell named its own discriminating test -- "exhibit a morphism carrying one pencil to another,
+  or show the agreement is only of outputs" -- and declined to guess.  Both halves are now settled
+  by computation rather than by opinion:
+
+   *  ACROSS REPRESENTATIONS there is no morphism to exhibit, and none can exist.  mu's site is a
+      pencil on the adjoint 78; B969's compact-kernel site and this bench's (x14,x22) site are on
+      the matter 27.  These are INEQUIVALENT irreducible e6-representations, so Hom_e6(27,78) = 0
+      by Schur.  The question is closed by a theorem, not by a failed search.
+
+   *  WITHIN THE 27 the two pencils are NOT CONJUGATE, and again this is proved rather than
+      searched: a conjugation invariant DIFFERS between the ordered pairs (rho(x8), rho(x16)) and
+      (rho(x14), rho(x22)).  No T in GL(27) carries one to the other.
+
+   *  AND THE AGREEMENT IS REAL: every site's cubic generates K, with the test controlled in both
+      directions -- mu is found isomorphic to K, and an unrelated cubic of the same resolvent
+      Q(sqrt77) is found NOT to be.
+
+  THE RESIDUE, which a B/B/B result does NOT exclude and which the seal required be stated rather
+  than buried: the sites are not related by a morphism, but they are all determined by THE SAME
+  FOUR-DIMENSIONAL CHARGE SPACE.  "Three facts" here means three constructions with no map between
+  them -- NOT three unrelated accidents.  A COMMON UPSTREAM CAUSE IS UNTOUCHED BY THIS RESULT, and
+  is the successor question: not "is there a morphism between the sites" (no) but "what property of
+  the charge space makes every construction on it return the same cubic field".
+
+  WHAT THIS DOES NOT DO.  It does not prove or refute B882.  It does not decide whether the
+  object's cubic is canonically K.  It produces no value, ratio or prediction; Gate 5 untouched.
+
+Gate 5 untouched.  No measured value is used or named.
