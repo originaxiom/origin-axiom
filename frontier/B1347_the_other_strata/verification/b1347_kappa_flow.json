@@ -1,0 +1,49 @@
+{
+ "classes": {
+  "1  (Aut, det +-1)": {
+   "generic": {
+    "FLAT": 400
+   },
+   "kappa=-2 leaf": {
+    "FLAT": 26
+   }
+  },
+  "2  (squaring, det 4)": {
+   "generic": {
+    "ESCAPE": 265,
+    "COLLAPSE": 135
+   },
+   "kappa=-2 leaf": {
+    "ESCAPE": 26
+   }
+  },
+  "2' (per-doubling, -2)": {
+   "generic": {
+    "ESCAPE": 324,
+    "COLLAPSE": 76
+   },
+   "kappa=-2 leaf": {
+    "ESCAPE": 26
+   }
+  },
+  "3  (Thue-Morse, det 0)": {
+   "generic": {
+    "ESCAPE": 328,
+    "COLLAPSE": 72
+   },
+   "kappa=-2 leaf": {
+    "ESCAPE": 26
+   }
+  },
+  "4  (degenerate, det 0)": {
+   "generic": {
+    "COLLAPSE": 400
+   },
+   "kappa=-2 leaf": {
+    "COLLAPSE": 26
+   }
+  }
+ },
+ "uniform_sign": false,
+ "fails": []
+}

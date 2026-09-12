@@ -7661,6 +7661,26 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1347": {
+   "slug": "the other strata",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "kappa",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B309",
+    "B496",
+    "B497",
+    "P0",
+    "S063"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B134": {
    "slug": "chirality recursion proved",
    "motifs": [

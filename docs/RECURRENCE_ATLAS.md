@@ -1,7 +1,7 @@
 # The Recurrence Atlas — the map
 
 > **GENERATED FILE — do not hand-edit.** Regenerate with `python scripts/atlas/render.py`.
-> Last generated: 2026-09-12 from 1222 frontier probes.
+> Last generated: 2026-09-12 from 1223 frontier probes.
 > This is a *derived navigation aid*, not a claim: it maps which mathematical **motifs recur**, at which
 > **obstacles**, and where a conserved motif **re-surfaces** across domains. The **vision** (why recurrence
 > ≈ unity, and the honest caveat) is in [`knowledge/K023_the_recurrence_atlas.md`](../knowledge/K023_the_recurrence_atlas.md).
@@ -11,10 +11,10 @@
 
 ```
 THE RECURRENCE ATLAS -- context card
-  corpus: 1222 frontier probes; status {'open': 70, 'banked': 800, 'dead': 328, 'dormant': 24}
-  the ONE conserved first integral: kappa (recurs 275x, 22%) -- genuine unity, MUST recur
+  corpus: 1223 frontier probes; status {'open': 70, 'banked': 801, 'dead': 328, 'dormant': 24}
+  the ONE conserved first integral: kappa (recurs 276x, 22%) -- genuine unity, MUST recur
   top recurring motifs: eisenstein(687), golden(678), firewall(635), figure_eight(529), amphichiral_cp(458), metallic(452)
-  recurrence is: structural-invariant 4847 mentions | conserved-integral 275 | TOOL 445
+  recurrence is: structural-invariant 4849 mentions | conserved-integral 276 | TOOL 445
   the honest split: the trace-map TOOL is in 445 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B497, B530, B156, B521, B309, B598
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
@@ -37,16 +37,16 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | closing | 380 | 31% | question | structural | topology | what closing the open object supplies and costs -- Dehn filling, the seam, the constitutive closure (B286/B287/B294) |
 | torsion | 374 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | z3_generation | 311 | 25% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
-| measurement | 294 | 24% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
+| measurement | 295 | 24% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
 | wrt_quantum | 278 | 22% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
-| kappa | 275 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
+| kappa | 276 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | lorentzian | 219 | 17% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
 | choice | 187 | 15% | question | structural | arithmetic | the residual bit(s): the torsor of closings, the basepoint bit, what the object can and cannot select (A7/B766/B1183/B1225) |
 | symplectic | 123 | 10% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
 | dickson_tower | 123 | 10% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
-| monoid | 101 | 8% | question | structural | dynamics | End(F2) beyond the units: the four Hopfian-det strata, the non-invertible verbs the programme has never computed |
+| monoid | 102 | 8% | question | structural | dynamics | End(F2) beyond the units: the four Hopfian-det strata, the non-invertible verbs the programme has never computed |
 | apolynomial | 85 | 6% | structure | no | topology | the A-polynomial / Cooper-Long / AJ |
-| markov_cubic | 81 | 6% | invariant | structural | topology | the trace-triple SURFACE the trace map acts on: the Markov/Fricke cubic x^2+y^2+z^2-xyz=c and SL(2,Z) triples (tr A, tr B, tr AB). Deliberately EXCLUDES the bare phrase 'character variety', which B824 measured at 13.8%% of the corpus -- this programme's subject matter, not a topic within it |
+| markov_cubic | 82 | 6% | invariant | structural | topology | the trace-triple SURFACE the trace map acts on: the Markov/Fricke cubic x^2+y^2+z^2-xyz=c and SL(2,Z) triples (tr A, tr B, tr AB). Deliberately EXCLUDES the bare phrase 'character variety', which B824 measured at 13.8%% of the corpus -- this programme's subject matter, not a topic within it |
 | arrow | 79 | 6% | question | no | dynamics | time's direction and/or its irreversibility -- the two are NOT the same question (B766 = the direction bit, the golden branch; S063 = irreversibility, entering at det != +-1) |
 | action | 77 | 6% | question | structural | dynamics | is there a least-action principle, and at which step -- the variational structure the object supplies rather than one lifted onto it (B6's derived potential, B21's bracket, B1341's theorem that the half step is generated by no Lagrangian and the monodromy is) |
 | quasicrystal | 71 | 5% | dynamics | structural | quantum | the Fibonacci quasicrystal / Suto / Damanik-Gorodetski |
@@ -57,8 +57,8 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 ### The honest split — unity vs the hammer
 
-- **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **275** probes (22%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **4847** mentions — invariants of the object's transforms.
+- **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **276** probes (22%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **4849** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **445** probes (36%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
@@ -70,7 +70,7 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | source_free | 1 | choice | choice(1), figure_eight(1), golden(1) |
 | cancellation | 64 | golden | golden(40), eisenstein(39), firewall(35), trace_map(28) |
 | selector | 24 | eisenstein | eisenstein(17), golden(14), figure_eight(13), trace_map(12) |
-| measure | 121 | golden | golden(64), eisenstein(64), firewall(57), measurement(52) |
+| measure | 122 | golden | golden(64), eisenstein(64), firewall(57), measurement(53) |
 | units_scale | 114 | firewall | firewall(76), golden(68), eisenstein(61), metallic(55) |
 | gauge_dict | 67 | eisenstein | eisenstein(42), firewall(34), golden(33), amphichiral_cp(32) |
 | particle_dict | 104 | eisenstein | eisenstein(75), z3_generation(70), firewall(63), golden(62) |
@@ -123,7 +123,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 |---|---|
 | source_free | 1/3 |
 | bridge_construction | 11/24 |
-| measure | 121/204 |
+| measure | 122/205 |
 | gauge_dict | 67/108 |
 | spacetime_3p1 | 144/224 |
 | selector | 24/37 |

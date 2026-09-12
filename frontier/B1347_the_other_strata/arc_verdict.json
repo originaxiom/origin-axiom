@@ -1,0 +1,18 @@
+{
+ "id": "B1347",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "depends_on": [
+  "B309",
+  "B496",
+  "B497",
+  "B1341",
+  "B1342"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [],
+ "claim_one_line": "ENTERING THE OTHER THREE STRATA: THE KAPPA-FLOW MEASURED, THE ARROW NOT FOUND, AND ONE EXACT IDENTITY. B497 classified End(F2) in July and ended 'the program to date = stratum 1 of 4'; B1342 derived why (kappa is conserved in stratum 1 alone) and verified the multipliers; nobody had ITERATED them. Since U1 gives kappa' - 2 = (kappa - 2) * M, the orbit of distance-from-nothing is governed by the multiplier product, so the well-posed question is whether the non-invertible dynamics drives kappa toward 2 or away, and whether uniformly. MEASURED over 400 generic points and 1200 on the object's own leaf (both roots, four coordinate ranges), 40 steps. THE MAIN RESULT IS NEGATIVE: THE MULTIPLIER DOES NOT SUPPLY AN ARROW. Strata 2, 2' and 3 each produce BOTH collapse and escape from different starting points (34/66, 19/81, 18/82) -- a BASIN STRUCTURE, not a direction. This refutes the natural reading, which this bench itself voiced before computing, that 'the multiplier is the arrow': it is the quantity that would CARRY an arrow, but its sign is not uniform, so it does not HAVE one. Leaving stratum 1 does not hand you a direction any more than leaving extremality hands you chi != 0. WHAT IS UNIFORM is the two ends: stratum 1 never moves kappa (FLAT on every orbit) and stratum 4 lands ON kappa = 2 in ONE step from every start, total collapse onto B309's 'nothing', consistent with B1342's finding that kappa = 2 is a fixed point of the whole monoid. THE EXACT IDENTITY: on the object's own leaf kappa = -2, i.e. x^2+y^2+z^2 = xyz, THE MARKOV SURFACE, the Thue-Morse multiplier is exactly M_3 = -z^2, verified as the polynomial identity M_3 + z^2 - (x^2+y^2+z^2-xyz) = 0. Consequences, all exact: one step sends kappa-2 = -4 to +4z^2, so it CROSSES FROM BELOW NOTHING TO ABOVE IT; it lands exactly on nothing iff z = 0; and the step expands iff |z| > 1, which is what the 100%-escape column measures. SCOPE, stated because it bounds the claim: Thue-Morse does NOT preserve the leaf, so this is a ONE-STEP identity and later steps sit on other leaves; the 100% column is the identity's first step plus generic growth, and the percentage alone would have been weak evidence since generic escape at large coordinates is also ~100%. METHOD ERROR CAUGHT BY THIS ARC'S OWN CONTROL and recorded rather than silently fixed: the first classifier returned ESCAPE when the POINT overflowed, but the question is about |kappa - 2| and stratum 1's points DO escape while kappa is exactly conserved -- the control failed, correctly, and the classifier was rewritten to track the multiplier product. FENCES KEPT: the physics verb-names live in S063 and are not used here, no naming is derived; and chat1's caveat stands untouched -- a non-invertible map has NO mapping torus, so the natural object is an inverse limit rather than a manifold and chi need not be defined there. Nothing here says the non-invertible side is a place a theory can live; it says what the dynamics does, which is the step that had never been taken."
+}
