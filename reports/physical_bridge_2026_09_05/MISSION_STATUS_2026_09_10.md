@@ -162,10 +162,11 @@ and [the bottleneck ledger](PHYSICS_BOTTLENECKS.md).
 
 ## Current paper audit and verification status
 
-The supplied archive has sixteen papers and 448 pages. Fifteen papers,
-394 pages, are fully read directly by this seat, with no delegated
-summaries. The remaining paper is not yet claimed fully read. The review
-is informing the retained index/interactions path, not replacing it.
+Updated September 12 UTC: all sixteen supplied papers, 448 pages,
+are fully read directly by this seat, with no delegated summaries.
+The transfer assessment is being finalized. Reading completion does
+not certify every theorem or a physical import. The review informs
+the retained index/interactions path, not replacing it.
 
 Promising mathematical leads include spinorial boundary identities,
 CS gradient flow, relative framing/index data, character/skein

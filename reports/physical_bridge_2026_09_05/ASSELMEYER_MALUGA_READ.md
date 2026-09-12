@@ -1,8 +1,10 @@
 # Asselmeyer--Maluga papers: direct reading and transfer audit
 
 Started 2026-09-09 UTC / September 10 local, at the user's request.
-Status: IN PROGRESS. This is not yet a completed literature audit,
-a novelty certificate, or a physical derivation.
+Direct-reading status: COMPLETE, sixteen PDFs and 448 pages. The
+mathematical-transfer assessment is being finalized. Reading every
+page is not verification of every theorem, a novelty certificate,
+or a physical derivation. Final source checks resumed September 12 UTC.
 
 ## Custody and method
 
@@ -46,7 +48,10 @@ will inform that path, not silently replace it.
 | 1107.3458 | 35 | complete, 1--35; equations on 8/29 visually checked |
 | 1105.1557 | 18 | complete, 1--18; equations on 11/14 visually checked |
 | 1001.0882 | 31 | complete, 1--31; diagrams/equations on 19--22 visually checked |
-| 0904.1276 | 54 | pending |
+| 0904.1276 | 54 | complete, 1--54; diagram/formulas on 22/35/36 visually checked |
+
+This table is the current coverage statement. Checkpoint counts in
+the chronological notes below describe progress at those earlier reads.
 
 ## Questions to settle from the bodies
 
@@ -997,6 +1002,105 @@ file, 0904.1276, is supplied as v5 revised in 2014, not its original
 49 are not yet claimed read. Version dates, not arXiv identifier
 order alone, determine which claims may supersede which others.
 
+## Direct notes: 0904.1276v5 (revised 2014)
+
+Title: *Abelian gerbes, generalized geometries and foliations of small
+exotic R4*. All 54 pages are read, including both appendices and the
+references. The supplied version is v5, August 28, 2014, revised
+August 27, 2014; the typesetting header says August 3, 2021. This is
+not a read of the original 2009 version. The sphere-foliation diagram
+on page 22 and the flat-bundle formulas on pages 35--36 were also
+visually checked. This completes the sixteen supplied PDFs, 448 pages.
+
+Several qualifications and corrections are important positives.
+The abstract and theorem 3.2 restrict the construction to a FIXED
+radial family. Pages 26 and 28 expressly state that its radius is
+not a diffeomorphism invariant and that relabeling it does not produce
+new smoothings. Page 14 explicitly denies the converse from equal
+Godbillon--Vey numbers to foliated cobordism, correcting the older
+overstatement. Page 30 warns that its boundary-S3 language does not
+mean an actual S3 in that boundary; theorem 4.1 and figure 10 instead
+use an S3 in the surrounding standard R4 and a proposed foliated
+transfer. Section 4 again uses group composition, not the 2011
+commutator product. These changes prevent several false blanket
+objections to the later version.
+
+The smooth construction and the numerical radius assignment still
+need separate verification. The disk/sphere pictures in section 2.1
+and lemma 3.1 cannot themselves define a regular one-dimensional
+foliation of S2; a singular version needs its singularities and a
+compatible replacement in the later regular-foliation argument.
+The inference from ordering or embedding trees to a smooth foliation
+needs charts and leaf dimensions. An embedding into a bounded disk
+does not automatically control the sum of normalized hyperbolic
+areas of infinitely many pieces. Mostow rigidity concerns normalized
+complete hyperbolic metrics up to the appropriate equivalence; it
+does not equate an arbitrary topological radius to geometric area or
+make every actual diffeomorphism an isometry. The stated fixed-family
+restriction is retained, but it is not a physical scale selector.
+
+Sections 2.3 and 3.4 replace a general surgery-link complement by
+(a punctured sphere) x S1. That product is a particular Seifert
+piece, not a presentation of every link complement. Hatcher's
+explicit filling construction was checked: non-fiber slopes extend
+the Seifert structure. General surgery data cannot be dropped in
+this step. This criticizes the stated construction, not the possible
+existence of other foliations with the same GV number on a given
+three-manifold. Likewise the Whitehead DOUBLE complement is not
+globally hyperbolic simply because its Whitehead LINK pieces are.
+The paper's own appendix B correctly retains the JSJ gluing, and
+Budney's example 4.2 confirms that distinction. The hyperbolic pieces
+survive this correction; a global constant-curvature metric does not
+follow from them. A surface-bundle foliation and the transversely
+projective foliation with nonzero GV also need to be distinguished.
+
+Section 4 has another consequential object distinction. For the
+ordinary unbranched Whitehead continuum, S3 minus the continuum is
+the contractible Whitehead manifold. Its ordinary fundamental group
+is trivial, although its topology at infinity is not that of R3.
+The text's nonzero ordinary-pi1 claim therefore cannot supply that
+example's proposed algebra. The defining construction was checked
+against Wang's direct account. This does not dispose of generalized
+wild examples or their end data: a system of neighborhoods at infinity
+is not the ordinary pi1 of the whole complement. Any repair must
+say which one its algebra represents. Flat holonomy representations
+of pi1 likewise do not encode a general curved Levi-Civita connection.
+
+The integer-GV step was checked against the actual Brooks--Goldman
+Proposition 2, in the author-uploaded full text. Fiber integration
+gives 4*pi^2 times the EULER CLASS OF THE CIRCLE BUNDLE. The paper
+prints (4*pi)^2 and then integrates that bundle class as if it were
+automatically the Euler characteristic of the base. The primary source
+does not make that identification: its section 1 permits the different
+Euler numbers allowed by Milnor--Wood. For a punctured surface the
+relative class and boundary trivialization must also be specified;
+the displayed absolute fundamental-class pairing is not sufficient.
+Particular integer-GV constructions may be retained with those data,
+but the stated universal flat-bundle formula is not imported.
+
+Sections 5.2--6 do contain useful gerbe connection data and twisted
+Courant brackets. Gualtieri's actual sections 3.7--3.8 were read for
+the differential conditions, integral periods and splitting changes.
+The paper itself notes that generalized COMPLEX structures need an
+even-dimensional base, using S3 x R for that purpose; its Courant
+algebroid on S3 is a different object. A generalized Dirac structure
+is not already a physical Dirac operator. These tools can help keep
+flux, gauge transformations and boundary trivializations consistent,
+without providing our source action or chiral particle spectrum.
+
+Finally section 7.2 explicitly ASSUMES that the physical magnetic
+field is proportional to the curvature of the line bundle assigned
+to the chosen integral class. The ordinary Dirac quantization
+condition in section 7.1 then constrains a charge product. The
+cohomology isomorphism used to represent a point source is useful;
+it does not derive the magnetic coupling, identify SM hypercharge,
+fix its normalization, or select the integral subfamily dynamically.
+Those missing maps remain separate from the gerbe mathematics.
+
+This is a reading/source-comparison checkpoint. No new physical
+transfer or numerical experiment is certified by completing the
+archive. The retained source/end/index-stability route remains open.
+
 ## First checks against the cited primary mathematics
 
 [Friedrich, dg-ga/9712021v1](https://arxiv.org/pdf/dg-ga/9712021),
@@ -1077,3 +1181,26 @@ bare charge-group identification. These targeted checks were accessed
 September 10; the whole 56-page paper was not read. Alternate
 Connes/Jones URLs and the requested AMS Brooks--Goldman PDF did not
 return usable files and are not counted as read.
+
+September 12 source checks for the final supplied paper:
+
+- [Brooks--Goldman, *The Godbillon--Vey invariant of a transversely homogeneous foliation*](https://www.researchgate.net/publication/303491802_The_Godbillon-Vey_invariant_of_a_transversely_homogeneous_foliation),
+  1984, author-uploaded full text, sections 1--2, especially proposition
+  1(c), the flat-bundle example and proposition 2. The fiber-integral
+  coefficient and bundle Euler class were checked; the entire paper
+  is not claimed read. The earlier failed AMS fetch is not erased.
+- [Hatcher, *Notes on Basic 3-Manifold Topology*](https://pi.math.cornell.edu/~hatcher/3M/3M.pdf),
+  section 2.1, printed pages 24--25: the explicit Seifert filling
+  construction. This is a targeted check, not a read of all 61 pages.
+- [Budney, *JSJ-decompositions of knot and link complements in S3*](https://arxiv.org/pdf/math/0506523),
+  v5, 2007, section 3's end and example 4.2, printed pages 13--15:
+  atoroidality and the distinct Whitehead-link piece in a satellite
+  complement. The full 30-page paper is not claimed read.
+- [Wang, *Contractible 3-manifold and Positive scalar curvature (I)*](https://arxiv.org/pdf/1901.04605),
+  introduction, PDF pages 2--3: the nested-torus definition and
+  identification of the Whitehead-continuum complement. Only this
+  construction was needed; the curvature theorem's proof was not read.
+- [Gualtieri, *Generalized complex geometry*](https://arxiv.org/pdf/math/0401221),
+  2004 thesis version, sections 3.7--3.8, printed pages 35--40 (PDF
+  43--48), fully read: twisted brackets, integrability and actual
+  gerbe/splitting data. This is not a full read of the 107-page thesis.
