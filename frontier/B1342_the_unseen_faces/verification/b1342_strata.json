@@ -1,0 +1,30 @@
+{
+ "dets": {
+  "1  golden (Aut)": "-1",
+  "2  squaring": "4",
+  "2' period-doubling": "-2",
+  "3  Thue-Morse": "0",
+  "4  degenerate": "0"
+ },
+ "multipliers": {
+  "1  golden (Aut)": "1",
+  "2  squaring": "x**2*y**2",
+  "2' period-doubling": "x**2",
+  "3  Thue-Morse": "x**2 - x*y*z + y**2",
+  "4  degenerate": "0"
+ },
+ "u1_exact": {
+  "1  golden (Aut)": true,
+  "2  squaring": true,
+  "2' period-doubling": true,
+  "3  Thue-Morse": true,
+  "4  degenerate": true
+ },
+ "moves_leaf": {
+  "2  squaring": true,
+  "2' period-doubling": true,
+  "3  Thue-Morse": true,
+  "4  degenerate": true
+ },
+ "fails": []
+}

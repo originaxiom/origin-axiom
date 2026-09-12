@@ -1,0 +1,22 @@
+{
+ "id": "B1342",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "depends_on": [
+  "B258",
+  "B309",
+  "B312",
+  "B496",
+  "B497",
+  "B518",
+  "B730",
+  "B1247",
+  "B1341"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [],
+ "claim_one_line": "IS THERE A FACE WE HAVE NOT SEEN? THREE OF FOUR, AND THE RECORD NAMED THEM IN 2026-07. The owner asked. 'Face' has three senses here and two are CLOSED WITH THEOREMS: the ARITHMETIC faces close at exactly three (B730, three-way verified -- Q(sqrt-3) being, Q(sqrt5) hearing, Q(sqrt-15) meeting, the involutions of one biquadratic field, Gal = V4, with Q(sqrt-7) excluded three independent ways as a stage), and the KAPPA-faces are four and all worked (B309/B518, numbered by B312: existence, geometry, matter/content, quantum). The third sense is OPEN BY THREE QUARTERS and B497 says so in its own words: 'The program to date = STRATUM 1 OF 4.' B1247 records that B497 sat SEVEN WEEKS uncited. RECOMPUTED HERE FROM THE SUBSTITUTIONS, NOTHING COPIED: every trace map B497 states is reproduced from its word, and every kappa-law is verified by IDEAL MEMBERSHIP modulo (det A - 1, det B - 1) -- stratum 1 (golden, det +-1) kappa' = kappa; stratum 2 (squaring, det 4) multiplier x^2 y^2; stratum 2' (period-doubling, det -2) multiplier x^2, COMPUTED HERE since B497 leaves it as 'stratum-2 family'; stratum 3 (Thue-Morse, det 0) multiplier x^2+y^2-xyz; stratum 4 (degenerate, det 0) kappa' == 2 identically. WHY THE PROGRAMME STAYED, DERIVED NOT GUESSED: kappa is conserved ONLY in stratum 1 -- verified that all four other strata MOVE BETWEEN LEAVES -- so since kappa is the programme's one conserved first integral, every arc built on it is STRUCTURALLY TRAPPED in stratum 1. The confinement is a theorem about the object, not a habit of the seats. B497's U1 re-derived: (kappa-2) divides (kappa'-2) in EVERY stratum, so kappa = 2 -- B309's 'nothing' -- is a fixed point of the WHOLE monoid, not just of the units; the floor is absolutely invariant and only the units preserve the height. WHAT THE CONFINEMENT COSTS, joining B1341 the same day: B1341 proved a discrete Lagrangian's map preserves an area form, so an anti-symplectic map has none; extended across the strata, stratum 1 det +1 (the monodromy) is variational, stratum 1 det -1 (the half step) is not, and strata 2/2'/3/4 do not preserve kappa at all so there is no invariant leaf to carry a form and the question is NOT EVEN WELL POSED. THE OBJECT'S LEAST-ACTION PRINCIPLE OCCUPIES HALF OF ONE STRATUM OUT OF FOUR. And S063 places irreversibility at det != +-1, i.e. strata 2/2'/3/4, so IRREVERSIBILITY AND LEAST ACTION ARE IN DISJOINT STRATA: where the action is, time is reversible; where time has an arrow, there is no action to vary -- the arrow will not be found where the action was found. It also says what the multiplier is FOR: kappa'-2 = (kappa-2)*M measures motion toward or away from kappa = 2, toward or away from NOTHING, so THE MULTIPLIER IS THE ARROW, and it is identically 1 exactly where the programme has been standing. CONFINEMENT MEASURED over 1221 arcs with a verdict: Thue-Morse in 10 FINDINGS and 3 claim lines, period-doubling in 4 FINDINGS and ZERO claim lines, End(F2)/non-invertible in 4 and 2 -- essentially B496, B497 and B1254, three arcs out of 1221 outside the units. METHOD ERROR CAUGHT BY THIS ARC'S OWN CONTROLS AND RECORDED RATHER THAN SILENTLY FIXED: the first version tested divisibility with multivariate sp.div over the eight matrix entries, which does not decide divisibility and returned FALSE for three laws that are exact; the ideal-membership test is the correct one. HONEST SCOPE: this is not a hidden face of the OBJECT -- m004 is what it is -- but an unexplored face of the MONOID acting on it, already classified by B497; whether anything physical lives there is untested and nothing is claimed about it."
+}
