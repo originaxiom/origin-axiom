@@ -3392,3 +3392,72 @@ here. Two successors registered, neither claimed: the constant C (needs more blo
 six), and whether the linear coefficient is **exactly** Vol/π (0.986 is suggestive, not a
 proof; the refined Menal-Ferrer–Porti/Müller expansions would settle it, and this bench has
 not read them).
+
+---
+
+## R119 — "continue" (2026-09-12): L72's flagged issue is located, and it is a stale artifact
+
+### R119-1 — the issue was never named in the arc; it is now, and it is decisive
+
+`FINDINGS_WAVE5.md:22` carried L72's phase-2 cell with *"an issue the verifier flagged"* and
+**named it nowhere.** Seal `0daa7ada95b2…` committed before computing; **CELL 1 = B,
+CELL 2 = A, CELL 3 = A**, controls C1–C3 passing.
+
+**SnapPy is on this box**, so the cell's own unmodified `compute.py` was re-run in an
+isolated tree — twenty seconds.
+
+> **`output.txt` reproduces byte-for-byte** apart from a warning line's position, the
+> runtime stamp, and one Chern–Simons value at the 1e-15 level (both zero).
+> **`results.json` does not: 51 fields differ, and `gate5` is missing entirely.**
+
+And the difference is not cosmetic:
+
+| | committed `results.json` | what the committed code produces |
+|---|---|---|
+| verdict | **UNRESOLVED** | **RESOLVED-A** |
+| `h1` per E₆ exponent | **0 for all six** | **1 for all six** |
+| `rel_ok` per exponent | **False for all six** | True |
+| exact ℚ(ζ₆) cross-check | **absent** | present |
+
+> **The committed machine-readable artifact says the object has dim H¹ = 0 in every E₆
+> exponent block.** That contradicts B581, B575's G4 gates, the cell's own printed output,
+> and memo 210's CELL 1 — where Δ_E6's order of vanishing came out **exactly 6**, which *is*
+> those six one-dimensional H¹'s. The JSON is from an earlier code version whose relator
+> check failed; `UNRESOLVED` is downstream of that. **It was never regenerated.**
+
+**Fence:** the arc never names its flagged issue, so this is **an** issue, not provably
+*the* one. It is decisive and reproducible in twenty seconds.
+
+### R119-2 — the mathematics is right, and now independently reproduced
+
+Rebuilt from the Cartan matrix on the memo-206 stage: the same three simple currents
+(`000000, 000002, 200000`), closed cyclic ℤ/3, `|det S|` on the pointed part
+**0.0352828005** against the cell's 0.03528, the same rank-3 Müger centraliser
+(`000000, 010000, 100001`), and the Deligne product reproducing S to **6.229e−15** and T to
+**1.601e−15**.
+
+**And the plausible failure mode behind the cell's own residual is closed.** Modular data
+does not determine a modular tensor category, so the whole Galois orbit was swept:
+
+> **k′ = 1 matches at 1.1e−15 / 2.7e−16; all five others are rejected — including k′ = 6,
+> which has IDENTICAL quantum dimensions (1, 1.801938, 2.24698) and fails on S at 8.4e−2 and
+> on T at 8.7e−1.** So quantum dimensions alone do not identify the factor, and the cell's
+> entry-by-entry test was the right instrument.
+
+### R119-3 — what is left, and whose it is
+
+1. **Regenerate that `results.json`** from the committed `compute.py` — twenty seconds,
+   SnapPy present. **Main's action, not this bench's.** Until then any consumer reads a
+   failed run.
+2. **The uniqueness residual is NARROWED, not discharged.** Galois ambiguity closed;
+   *"not classified"* still needs the **rank ≤ 4 classification of modular tensor
+   categories** from the literature — **unread here, and not cited.**
+3. **Phase 3 stays WALLED/EXTERNAL** by the cell's own computation: an 8112-variable
+   PGL(27,ℂ) Ptolemy solve, or an extended-Bloch/CCS class for E₆.
+
+### R119-4 — the audit lane's subject has reached a mathematics cell
+
+Memos 207–209 found **status lines** disagreeing with arcs. Here a **committed JSON
+disagrees with the committed code that produced it** — and the disagreement is not a label
+but a failed computation preserved as though it were a result. The machine-readable
+artifact is precisely what a ledger or a sweep consumes.
