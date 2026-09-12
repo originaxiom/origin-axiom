@@ -292,3 +292,52 @@ check has run), and it is worth recording as such.
 
 *Gate 5 untouched. No arc is retracted; one flagged conflict is closed, and closed in favour of the
 older arc.*
+
+---
+
+# ADDENDUM 4 (2026-09-12) — **THE OPEN E-QUESTION, REDUCED TO ONE ARITHMETIC STATEMENT**
+
+Addendum 2 left one item open: **is `E` split over `K` itself?** It is still open, but it is now
+reduced from "compute a 48×48 commutant" — twice killed by resource limits — to a **statement about
+one quaternion algebra**. Recorded as a reduction, **not** as a result.
+
+## The reduction
+
+1. **The commutant has ℚ-dimension 12.** Over `ℚ̄` the 48 is `2·8ᵥ ⊕ 2·8ₛ ⊕ 2·8_c` — the magic
+   square's three 16s, each `8 ⊗ ℂ` and hence two copies of one 8 (consistent with memo 202 CELL 4,
+   which measured six weight spaces of dimension 8). Three pairwise non-isomorphic irreducibles of
+   multiplicity 2 give commutant `M₂ × M₂ × M₂`, dimension 12 — and **dimension is preserved under
+   base change**, so the ℚ-commutant is 12-dimensional.
+2. **It contains `F₆ = ℚ[ad(x₈)|₄₈] ≅ K(√77)`**, a degree-6 field (addendum 2).
+3. **Its centre is `K`** (memo 204 CELL 3: `ℚ[ad(x₈)²]` is a degree-3 field in the commutant).
+4. A 12-dimensional ℚ-algebra with centre `K` (degree 3) is **4-dimensional over `K`** — a
+   **quaternion algebra over `K`**, containing `K(√77)` as a maximal subfield.
+
+> **So: `E` is split ⟺ that quaternion algebra over `K` is split, i.e. `≅ M₂(K)`.**
+
+## And one place-condition is already settled
+
+`K` is **totally real** with three real places. The Killing signature of the 28 is `(+16,−12) =
+so(4,4)`, the **split** real form (memo 204 CELL 2). So the quaternion algebra is **unramified at
+every real place**.
+
+> **It is therefore split iff it is unramified at every finite place too** — a statement about a
+> finite ramification set of even cardinality, and nothing more.
+
+## One further constraint, computed rather than assumed
+
+`ad(x₈)` and `ad(x₁₆)` both lie in the commutant (both are central in the 30) and they **commute**.
+A commutative subalgebra of a quaternion algebra is at most quadratic over the centre, so
+`ℚ[ad(x₈), ad(x₁₆)] ⊆ F₆`: **`ad(x₁₆)` lies in `ℚ[ad(x₈)]`.** The two dual-pair charges do not give
+independent handles on the commutant — which is why the remaining six dimensions need the full
+computation, and why the cheap routes are exhausted.
+
+## Stated as what it is
+
+**This closes nothing.** It converts an intractable linear-algebra computation into a question about
+the ramification of one quaternion algebra over one totally real cubic field — a question a seat with
+a number-theory package (`pari`/`sage`) could answer directly, and this bench cannot with `sympy`
+alone. **It does not change addendum 2's headline either way:** `ℚ(√77)` is where both obstructions
+die, whether or not `E` was already split over `K`.
+
+*Gate 5 untouched. Nothing promotes.*
