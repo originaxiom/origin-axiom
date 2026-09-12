@@ -1,0 +1,84 @@
+{
+ "geometric_point": [
+  "3/2 + sqrt(3)*I/2",
+  "3/2 - sqrt(3)*I/2",
+  "3/2 - sqrt(3)*I/2"
+ ],
+ "kappa_fibre": "-2",
+ "chat1_point": [
+  "-3/2 + sqrt(3)*I/2",
+  "1 - sqrt(3)*I",
+  "-2"
+ ],
+ "kappa_chat1": "3/2 + sqrt(3)*I/2",
+ "meridian_kappa_minus_2": "-1/2 - sqrt(3)*I/2",
+ "table": {
+  "fibre geometric point": {
+   "1  evolution": [
+    "1",
+    "-4"
+   ],
+   "2  renormalize": [
+    "9",
+    "-36"
+   ],
+   "2' per-doubling": [
+    "3/2 + 3*sqrt(3)*I/2",
+    "-6 - 6*sqrt(3)*I"
+   ],
+   "3  decoherence": [
+    "-3/2 + 3*sqrt(3)*I/2",
+    "6 - 6*sqrt(3)*I"
+   ],
+   "4  erasure": [
+    "0",
+    "0"
+   ]
+  },
+  "meridian point (2,2,2+w)": {
+   "1  evolution": [
+    "1",
+    "-1/2 - sqrt(3)*I/2"
+   ],
+   "2  renormalize": [
+    "16",
+    "-8 - 8*sqrt(3)*I"
+   ],
+   "2' per-doubling": [
+    "4",
+    "-2 - 2*sqrt(3)*I"
+   ],
+   "3  decoherence": [
+    "2 - 2*sqrt(3)*I",
+    "-4"
+   ],
+   "4  erasure": [
+    "0",
+    "0"
+   ]
+  },
+  "chat1's point": {
+   "1  evolution": [
+    "1",
+    "-1/2 + sqrt(3)*I/2"
+   ],
+   "2  renormalize": [
+    "-12",
+    "6 - 6*sqrt(3)*I"
+   ],
+   "2' per-doubling": [
+    "3/2 - 3*sqrt(3)*I/2",
+    "3/2 + 3*sqrt(3)*I/2"
+   ],
+   "3  decoherence": [
+    "-1/2 + sqrt(3)*I/2",
+    "-1/2 - sqrt(3)*I/2"
+   ],
+   "4  erasure": [
+    "0",
+    "0"
+   ]
+  }
+ },
+ "fails": []
+}

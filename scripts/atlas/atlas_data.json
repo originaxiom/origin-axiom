@@ -7581,6 +7581,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1344": {
+   "slug": "chat1 strata verification",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B309",
+    "B416",
+    "B448",
+    "B497",
+    "B518",
+    "P0"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B134": {
    "slug": "chirality recursion proved",
    "motifs": [

@@ -1,0 +1,20 @@
+{
+ "id": "B1344",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "depends_on": [
+  "B309",
+  "B416",
+  "B448",
+  "B497",
+  "B518",
+  "B1248",
+  "B1342"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [],
+ "claim_one_line": "VERIFYING chat1's STRATA REPORT: ONE REAL RESULT, ONE REFUTATION, AND A COLLISION IN OUR OWN RECORD. (C1 CONFIRMED, and it is the best thing in the report) stratum 1 IS the chi = 0 stratum: chi is multiplicative in fibrations so chi(M) = chi(F)*chi(S^1) = 0 for every surface bundle over the circle, and a mapping torus requires a self-HOMEOMORPHISM hence an AUTOMORPHISM of pi_1, which is stratum 1 by definition (Dehn-Nielsen-Baer); strata 2/2'/3/4 are injective-not-surjective or non-injective so no mapping torus exists for them. F6's chi = 0 wall and B497's 'stratum 1 of 4' are THE SAME BOUNDARY, and B497 said it in July as algebra with nobody reading it as geometry. C7's caveat also confirmed: the natural object off stratum 1 is an inverse limit / solenoid, not a manifold, so chi need not be defined -- leaving the wall does not hand you chi != 0. (C2 CONFIRMED) the multipliers reproduce B1342's by exact division. (C3 REFUTED, three independent ways) the object's geometric point is DERIVED here rather than assumed, as the character fixed by the monodromy T1^2 on the parabolic leaf kappa = -2: it is (x,y,z) = (2+w, 1-w, 1-w) with kappa = -2 and x^2-3x+3 = 0, EXACTLY B448 Part C's banked period-2 field Q(sqrt-3), 'the discrete-faithful pair', re-derived independently. chat1's (w-1, -2w, -2) has kappa = 2+w NOT -2, is fixed by neither the monodromy nor its half step, and is not in the Aut(F2) orbit of either meridian point (186 points to depth 4 from each; kappa is Aut(F2)-invariant so orbits cannot mix kappa values). It is a legitimate character-variety point and NOT the object's geometric point. (C4: THE ROOT CAUSE, AND IT IS OUR DEFECT NOT chat1's) THE RECORD CONTAINS TWO DIFFERENT NUMBERS BOTH CALLED 'kappa = tr[a,b]': B309/B518/B1010's kappa-2 = w^2 with |kappa-2| = 1, 'the UNIT obstruction', is the KNOT GROUP'S MERIDIAN pair, while B416/B448/B1248's kappa = -2 is the FIBRE's pair -- commutator traces of different generating pairs of different groups, not equal, one symbol for two quantities, never flagged. chat1's 'kappa - 2 = omega' is TRUE of the first and FALSE of the second, and the report attaches it to the second. Recorded as ERROR_LEDGER E72. (C5 does not survive) pending item 9's first step done at the points that ARE the object's: at the fibre point the multipliers are 1, 9, -3w^2, 3w, 0 on kappa-2 = -4, and at the meridian point stratum 3 sends w^2 to -4; the stratum-3 multiplier equals w at CHAT1'S POINT ONLY, so the 'decoherence rotates the Z/3' reading does not reach the object at all and chat1's own two gates (base rate, and whether this Z/3 is the generation Z/3) are not the binding constraint. WHAT SURVIVES: C1 as a genuine result converting B497's July line into a geometric statement about the programme's own wall; pending item 9 now actually evaluated at the object, giving the exact algebraic integers 1, 9, -3w^2, 3w, 0 in Z[w], new on the record and carrying NO attached reading; and the kappa-collision, which is upstream of both reports and of anything else that computes with kappa. No physics reading is licensed and no claim is promoted."
+}
