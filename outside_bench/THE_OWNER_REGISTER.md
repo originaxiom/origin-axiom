@@ -3210,3 +3210,61 @@ running a shipped check.
 > Before this bench ranks any lead as open: run `scripts/checks/open_claim_sweep.py`, and
 > read the lead's row **together with the rows adjacent to it**. A cheap first pass that
 > catches the self-contradictions — not a substitute for reading the arcs.
+
+---
+
+## R116 — "go, comit and push on your branch as u go" (2026-09-12)
+
+**Asked:** *"go, comit and push on your branch as u go"* — against memo 207's closing
+proposal to triage the flagged rows.
+
+### R116-1 — the triage existed, eight weeks old, and I nearly rebuilt it
+
+`frontier/B666_leads_campaign/cellT/TRIAGE_TABLE.md`, **2026-07-17**: *"every L-numbered
+lead in `docs/OPEN_LEADS.md` numbered below L91 that is not explicitly marked RESOLVED /
+CLOSED / BANKED / WITHDRAWN in its own row,"* with *"Every SUPERSEDED verdict cites the
+superseding arc; nothing is asserted from memory."* **38 rows, 17 SUPERSEDED.**
+
+Caught before building, by searching first. Nothing wasted — but **that is three deep in
+two turns**: L78 already resolved in an arc; `open_claim_sweep.py` already shipped and
+unrun; now the triage table itself.
+
+> **The rule this adds:** before this bench builds an audit instrument, it greps
+> `frontier/**` for an arc that already ran that audit. Distinct from `already_banked.py`
+> on the *subject* — this is a search for the **instrument**.
+
+### R116-2 — the only question worth asking about it, and the answer
+
+Did the verdicts land? Test: does the lead's row in `docs/OPEN_LEADS.md` carry **any**
+resolution word from a deliberately generous list of eighteen — generous because a miss
+would **invent** staleness.
+
+> **17 SUPERSEDED · 10 applied · 7 NOT APPLIED · 0 rows missing.**
+> Unapplied: **L26, L54, L64, L65, L73, L74, L78.**
+
+Plus four the triage could not have caught — post-dating it, or inside the file's own
+contradictions: **L53** (`OPEN — first in the queue` at :521 vs `L53 CLOSED.` at :270),
+**L72** (`OPEN (B579)` vs `THIS CELL RUNS PHASES 2 AND 3.`), **L112** (`OPEN, ready` at
+:659 vs `| L112 | **CLOSED**` at :807 — same file, 148 lines apart), **L174** (`OPEN — C1
+first`, ★★★★★, eight lines below C1's `**DONE (B1088`), and inside it **C5**
+(`NEEDS-SPECIALIST, honestly fenced` vs an arc titled `C5 CLOSED NEGATIVE, harvested`).
+
+> **Eleven leads read as live work and are not.** Memo 208, certificate
+> `the_triage_was_already_done.py` — every claim a substring or table test at HEAD.
+
+### R116-3 — the diagnosis, and the fence
+
+> **INTERPRETIVE.** The failure is not analysis and not effort. The triage was run, run
+> well, and cited its deciders. **The write-back step has no owner.**
+> `open_claim_sweep.py` has the same shape: a working instrument whose output nobody
+> consumes. **The programme keeps building the detector and not the loop.**
+
+**Fence.** Nothing here touches the eleven rows' mathematics. B581's torsions are exact,
+B656's clock law is 10/10 verified, B583's rank really is 6, L174's C1–C4 really are
+banked, B1108's C5 really is closed negative. **The rows are wrong about status, not
+about content** — and a status that reads OPEN when the work is done costs exactly what it
+cost this bench two turns ago.
+
+**Not claimed:** that eleven is the complete set. One file was tested against one triage
+table and five hand reads; `open_claim_sweep` flags **52** claims across **twelve
+surfaces**, and **28 of those lie outside `OPEN_LEADS` and were not examined.**

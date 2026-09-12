@@ -1,0 +1,71 @@
+==============================================================================
+THE TRIAGE WAS ALREADY DONE
+HEAD = 739834ea
+==============================================================================
+
+  frontier/B666_leads_campaign/cellT/TRIAGE_TABLE.md
+  "B666 CELL T — WAVE 0: the historical-leads triage (2026-07-17)"
+  "Every SUPERSEDED verdict cites the superseding arc; nothing is asserted from memory."
+
+  triage rows parsed: 38   of which SUPERSEDED: 17
+
+------------------------------------------------------------------------------
+For each SUPERSEDED verdict: does its row in docs/OPEN_LEADS.md carry ANY
+resolution word at all?  (generous vocabulary -- a miss here would invent staleness)
+------------------------------------------------------------------------------
+  L8     applied      -- row 96 carries ['CHARACTERIZED']
+  L10    applied      -- row 97 carries ['CHARACTERIZED']
+  L14    applied      -- row 101 carries ['CHARACTERIZED']
+  L15    applied      -- row 102 carries ['CONFIRMED']
+  L26    *** NOT APPLIED *** -- row 71 carries no resolution word
+         triage decider: B644 (2026-07-16): the structural content is now DERIVED in-repo — ρ_hear\
+  L28    applied      -- row 73 carries ['DONE']
+  L54    *** NOT APPLIED *** -- row 271 carries no resolution word
+         triage decider: the named most-tractable member (torsion-polynomial tower at the geometric rep) executed by B581 (all six Sym^{2m} torsi
+  L57    applied      -- row 296 carries ['ANSWERED', 'PROVED']
+  L64    *** NOT APPLIED *** -- row 524 carries no resolution word
+         triage decider: in-row note + B575/G4: the G4 gates ARE an exact Fox-calculus recomputation of the six dims; residual = the MFP citation
+  L65    *** NOT APPLIED *** -- row 525 carries no resolution word
+         triage decider: B562/P13 (verified TOMBSTONE, grounded in B298/B299): the 27 splits under triality as trinification 9+9+9 — a 9-weight o
+  L68    applied      -- row 528 carries ['CLEARED', 'RETRACTED']
+  L73    *** NOT APPLIED *** -- row 542 carries no resolution word
+         triage decider: B580-R1 (the prediction "confirmed as banked", four ways); the one-pager lemma locked green in-repo via the cc2 packet (
+  L74    *** NOT APPLIED *** -- row 543 carries no resolution word
+         triage decider: B600 + the cc2 level-ladder packet: the level-4 prediction (pure ramified-2 → dyadic) realized — the ℚ(√2) import + even
+  L77    applied      -- row 546 carries ['REFUTED']
+  L78    *** NOT APPLIED *** -- row 552 carries no resolution word
+         triage decider: B583/X3 (the second unhearability theorem, with mechanism): every filling covector is θ-even AT EVERY LEVEL — "L78 resol
+  L79    applied      -- row 553 carries ['CLOSED']
+  L82    applied      -- row 556 carries ['ANSWERED', 'REFUTED']
+
+  applied: 10  ['L8', 'L10', 'L14', 'L15', 'L28', 'L57', 'L68', 'L77', 'L79', 'L82']
+  NOT applied: 7  ['L26', 'L54', 'L64', 'L65', 'L73', 'L74', 'L78']
+  no row: 0  []
+
+------------------------------------------------------------------------------
+The four found by reading this session, which post-date or escaped the triage
+------------------------------------------------------------------------------
+  [OK ] L53 duplicate row reads open  (docs/OPEN_LEADS.md:521)
+         "OPEN — first in the queue"
+  [OK ] L53 primary row reads closed  (docs/OPEN_LEADS.md:270)
+         "L53 CLOSED."
+  [OK ] L72 row reads open  (docs/OPEN_LEADS.md:531)
+         "| MATH | ★★★ | OPEN (B579) |"
+  [OK ] L72 phases 2-3 ran  (frontier/B775_phase2_wave1/cells/P2W5-L72/compute.py:11)
+         "THIS CELL RUNS PHASES 2 AND 3."
+  [OK ] L112 row at 659 reads open  (docs/OPEN_LEADS.md:659)
+         "OPEN, ready"
+  [OK ] L112 row at 807 reads CLOSED  (docs/OPEN_LEADS.md:807)
+         "| L112 | **CLOSED**"
+  [OK ] L174 campaign row reads C1 first  (docs/OPEN_LEADS.md:1922)
+         "OPEN — C1 first"
+  [OK ] L174 C1 is banked, eight lines above  (docs/OPEN_LEADS.md:1915)
+         "**DONE (B1088"
+  [OK ] L174 C5 reads needs-specialist  (docs/OPEN_LEADS.md:1919)
+         "NEEDS-SPECIALIST, honestly fenced"
+  [OK ] an arc titled C5 CLOSED NEGATIVE  (frontier/B1108_c5_archimedean/FINDINGS.md:1)
+         "C5 CLOSED NEGATIVE, harvested"
+
+==============================================================================
+ALL ASSERTIONS HOLD AT THIS HEAD.
+==============================================================================
