@@ -7607,6 +7607,35 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1345": {
+   "slug": "the jorgensen number",
+   "motifs": [
+    "monoid",
+    "closing",
+    "naming",
+    "coupling",
+    "action",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B286",
+    "B309",
+    "B497",
+    "B518",
+    "B727",
+    "B762",
+    "B993",
+    "P0"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B134": {
    "slug": "chirality recursion proved",
    "motifs": [
