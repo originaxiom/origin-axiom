@@ -12,6 +12,8 @@
 > This one is adopted: it lives on main, it carries a currency date, and the four above are demoted
 > to **sources**. A future consolidation should edit this file, not open a sixth.
 >
+> **Currency: row 14 refined 2026-09-12** (B1088/B1157 — "nothing derived anywhere" was too flat).
+>
 > **Adopted 2026-09-12** from cloud memo 152 (`e51afd6c:outside_bench/THE_CHAIN_GAP.md`, banked
 > 2026-08-30), with the currency pass in §3 — **memo 152 is stale on its own headline**, and that is
 > exactly why adoption means a pass and not a copy.
@@ -47,7 +49,7 @@
 | 11 | Yukawas, masses, mixings | ❌ | `ℙ(B₀)` cuts `3→2→1`; points need `0`. Exactly one condition short |
 | 12 | every measured dimensionless value | 🔒 | nine value-crossing negatives; proved absent from the single object |
 | 13 | scale / anything dimensionful | 🔒 | Mostow fixes shape, not size; nobody derives the metre |
-| 14 | **dynamics — equation of motion, rate, action** | ❌ | **no equation of motion is derived anywhere in the record** |
+| 14 | **dynamics — equation of motion, rate, action** | ❌ | the **form is imported**, the **constants are forced**, the **4d dynamics is absent**. B1088 (PROVED) assembles a *parameter-free action card* — `Λ = −1` FORCED (B259: the object is an exact 3d Einstein solution), `ℓ = 1` — but the action's form is classical 3d gravity, not derived. B1157 (NEGATIVE) closes the ∞-place "dynamical law" reading as **structural rhyme**. So: the object **solves** a theory whose constants it fixes; it does not **derive** the theory |
 | 15 | the observer | ✅ | priced at exactly one bit, spent once at coordinatisation |
 
 **Read the column.** Structure is ✅ or 📖 nearly all the way down; every ❌ and 🔒 sits at
