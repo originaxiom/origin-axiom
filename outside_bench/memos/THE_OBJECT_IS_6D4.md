@@ -240,3 +240,55 @@ quaternion division algebra — **the one computation that has twice been killed
 and it is recorded as outstanding. It does not change the headline either way.
 
 *Gate 5 untouched — no measured value is used or named. Nothing promotes to `CLAIMS.md`.*
+
+---
+
+# ADDENDUM 3 (2026-09-12) — **B1077 REPRODUCES. THE FLAGGED CONFLICT IS NOT A CONFLICT — AND IT RESOLVES IN B1077'S FAVOUR.**
+
+**Certificate** `certificates/b1077_reproduces.py` · **Output** `outputs/b1077_reproduces_out.txt` ·
+**CELL 1/2/3 = B/B/B**, controls pass
+
+§6 flagged a conflict and declined to adjudicate, with its own rule: *"to be settled by
+**reproducing B1077's**, not by preferring the newer one."* **This is that reproduction.**
+
+## Reproduced
+
+B1077's norm form, from its own banked claim — `N(x) = x₀x₇ − x₁x₄ − x₂x₅ − x₃x₆`, with the Gram
+built here **by differentiation** rather than transcribed, so a typo could not silently reproduce
+B1077's answer:
+
+    Gram symmetric, rank 8, det 1/256; matches B1077's stated entries G[0,7]=1/2, G[i,i+3]=-1/2
+    signature (exact congruence): (4, 4, 0)   -- B1077 claims (+1,+1,+1,+1,-1,-1,-1,-1)
+    signed discriminant = 1/256, a square in Q*: True
+    Witt index 4 EXHIBITED: span(e0,e1,e2,e3) is totally isotropic
+
+**Hyperbolic, signed discriminant trivial, `Z(C₀) = ℚ×ℚ`, attached cubic SPLIT. Every part of
+B1077's claim holds.**
+
+## And the conflict dissolves
+
+* **B1077's object:** the **bare** split-octonion norm form, on the 8-dimensional octonion space.
+* **Memo 204's object:** the cubic indexing **the three 16s inside the object's e₆**, from the
+  **forced** charges.
+
+**Different objects.** And B1077 said in advance exactly where the 77 would have to come from:
+
+> *"the 77 is NOT in the bare algebra; **any echo mechanism must come from the
+> measurement-dressing**."*
+
+Memo 204 computed the dressing and found K, resolvent 77. **Memo 204 is B1077's completion, not its
+contradiction.**
+
+## And the procedure is the point
+
+B1077's artifact records **exhaustive** associativity on all **2,097,152** even-blade triples and
+the centre checked on all **16,384** ordered even-blade pairs rather than by a generating-set
+shortcut. **Had this bench adjudicated by assertion — preferring its own newer computation — it
+would have been wrong about a careful arc.**
+
+**Flagging rather than deciding was the load-bearing choice, not the cautious one.** That is the
+counterexample to this session's dominant error pattern (#21–#23: claiming before the governing
+check has run), and it is worth recording as such.
+
+*Gate 5 untouched. No arc is retracted; one flagged conflict is closed, and closed in favour of the
+older arc.*
