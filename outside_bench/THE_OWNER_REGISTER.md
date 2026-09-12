@@ -3325,3 +3325,70 @@ a working loop that already tracks I3's correction with a reason and a deadline;
 > **Corrected: the programme HAS a write-back loop, it works, and it tracks its own
 > backlog. `docs/OPEN_LEADS.md` is outside it.** Actionable, and supported by the files.
 > Memo 208's count of eleven and its 17/10/7 split stand unchanged.
+
+---
+
+## R118 — "go for it" (2026-09-12): L72 phase 1 is done
+
+**Asked:** *"go for it"* — L72 phase 1, the E₆-principal torsion.
+
+### R118-1 — the product now exists, and it carries E₆'s two numbers
+
+Seal `962d708047fb…` pushed before the certificate was written. **CELL 1/2/3 = A/A/A**,
+controls C1–C5 all passing. B581's six torsions **reproduce exactly** from its own data,
+including every banked factorization string and its own analytic gate
+(`Δ₁ = (t−1)(t²−5t+1)`, `τ₁ = −3` = B425's value).
+
+> **deg Δ_E6 = 78 = dim E₆** (deg Δ_m = 2m+1 = dim Sym^{2m}; the six blocks tile the
+> adjoint 3+9+11+15+17+23, asserted as a gate), and the **order of vanishing at t = 1 is
+> exactly 6 = rank E₆** — one simple zero per exponent.
+
+Both routes to the number agree exactly as integers — `Π τ_m` and `Δ_E6⁽⁶⁾(1)/6!`:
+
+> **τ_E6 = 2^61·3^20·5^5·7^17·11^4·13^5·17·19^2·31·43·73·97·149·151·607·1471·49297·160453**
+> — an 87-digit integer, ≈ 2.9246427 × 10^86, **positive**.
+
+**The sign is the chirality fold.** Four θ-even blocks give a minus each, the two θ-odd
+blocks {4, 8} give a plus: `(−1)^36 = +1`.
+
+### R118-2 — and the six blocks obey a growth law
+
+`R_m := log|τ_m| − (Vol/π)·m(m+1)` over m ∈ {4,5,7,8,11}:
+**−0.45137, −0.46183, −0.46370, −0.46345, −0.46365 — spread 0.0123**, against a
+preregistered threshold of 0.05. The same statistic against the **wrong** law `m²` spreads
+by **4.51**, so the instrument discriminates (C4, run before the cell was read).
+
+Post-hoc and labelled as such — the quadratic fit gives `A/(Vol/π) = 1.00078` and
+`B/(Vol/π) = 0.98620`. The leading half **verifies Menal-Ferrer–Porti / Müller**
+(`log|tor(Sym^n)|/n² → Vol/4π`; computed `A/4 = 0.161659` vs `Vol/4π = 0.161533`). The
+subleading half is the new observation: the linear coefficient looks like **the same
+Vol/π**, which is what turns `m²` into `m(m+1)` and gives, in the block dimension
+`d_m = 2m+1`:
+
+> **log|τ_m| ≈ (Vol/4π)·(d_m² − 1) + C.**
+
+**The constant is NOT identified and no identification was attempted** — four significant
+figures cannot support one, and this bench has the B583-X2 PSLQ-overclaim precedent on its
+own record.
+
+### R118-3 — the fence was adopted in the seal, not discovered in the result
+
+B1157 banked, and the seal quoted **before computing**: *"generic spectral geometry, not
+object-specific physics … generic to all finite-volume hyperbolic 3-manifolds."*
+
+> **The growth law is a check of B581's data against generic hyperbolic geometry. It is not
+> an object-specific finding, and it was never going to be.** Any finite-volume hyperbolic
+> 3-manifold shows the same Vol-scaling.
+
+**What does belong to the object:** the six blocks are E₆'s exponents — so the degree is
+dim E₆, the vanishing order is rank E₆, and the sign is positive because exactly two
+exponents are θ-odd. Those are E₆ sitting on this knot, not hyperbolic volume.
+
+### R118-4 — what is left of L72
+
+Phases 2–3 already ran (`P2W5-L72`), *"with the cell's Phase-2 closure claim carrying an
+issue the verifier flagged."* **That flagged issue is L72's live remainder**, untouched
+here. Two successors registered, neither claimed: the constant C (needs more blocks than
+six), and whether the linear coefficient is **exactly** Vol/π (0.986 is suggestive, not a
+proof; the refined Menal-Ferrer–Porti/Müller expansions would settle it, and this bench has
+not read them).
