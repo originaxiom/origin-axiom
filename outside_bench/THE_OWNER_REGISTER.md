@@ -3147,3 +3147,66 @@ A nine-primary claim stood in prose for two months. Memo 206 supplies the reprod
 Seating an observer in a `27` to hear chirality is precisely the move that item is about.
 Memo 206 says only that **if** such an observer is legitimate, it hears everything — and
 whether it is legitimate is the unanswered question, not a corollary.
+
+---
+
+## R115 — "how positive is the new result btw? did we make any leap?" (2026-09-12)
+
+**Asked:** *"continue. how positive is the new result btw? did we make any leap?"*
+
+### R115-1 — no leap. The honest grading of memo 206
+
+**No. Nothing in memo 206 moves the Standard Model or the TOE by one number.**
+
+| memo 206's three cells | what it is | weight |
+|---|---|---|
+| CELL 1 — rank 6 reproduces | a **reproduction** of a two-month-old prose claim that had no lock and no code | hygiene. Real, small |
+| CELL 2 — Route A could never have failed | a fact about **our bookkeeping**, not about the object | bookkeeping. Sharp, not physics |
+| CELL 3 — the reach law | **new mathematics**, previously unstated | the only new content, and it is small |
+
+And CELL 3 itself splits honestly. Its **containment** half — a C-antisymmetric seed's
+span stays inside the θ-odd space — is *forced* by `C = S²` being central, which is the
+same three lines as CELL 2. Only the **saturation** half — reach **3 of 3**, span rank
+**9**, no partial hearing anywhere — is genuine computation. Centrality gives containment;
+it does not give saturation.
+
+> **What it buys:** it removes a belief — that no observer could carry the chiral
+> information. **What it does not buy:** a number. B580's Q3 asked for the θ-odd amplitude
+> of a *specific* state; this bench has not computed that state. §4A.1's one open item is
+> *"chirality without an **inserted** closing,"* and seating an observer in a `27` is
+> precisely the move that item is about.
+
+**A brick, correctly laid. Not a leap.** And memo 207 narrows it further: the E₆ level-2
+stage memo 206 built **already existed** in `P2W5-L72`, so that part is corroboration, not
+novelty. The two builds agree on all nine conformal weights exactly.
+
+### R115-2 — the larger finding this turn, which is not about the object
+
+Four `docs/OPEN_LEADS.md` rows read as live work and are not: **L53, L72, L78, L174** —
+including the file's own ★★★★★ campaign. **Two of the four contradict themselves inside
+that one file**, four and eight lines apart. Memo 207, certificate
+`the_register_is_behind.py`, every claim a substring test at HEAD.
+
+And the corpus **already ships the instrument**: `scripts/checks/open_claim_sweep.py`,
+selftest **5/5 positive, negative PASS**, reporting **52 open claims with a strongly
+matching settled arc, 18 of them `OPEN_LEADS` rows** — and it **flags L78 → B583 at 36.4,
+with `l78` itself among the shared terms.** It was not missing and not broken. Nobody ran
+it against this file.
+
+> **The programme's picture of what is left is wrong in a measurable way.** That is worth
+> more this turn than the reach law is.
+
+**Scope, stated plainly:** a sweep hit is a **read order, not a verdict**. This says
+nothing about the other 14 flagged rows, and nothing against the four rows' mathematics —
+L53's class really vanishes, L174's C1–C4 really are banked, L78's rank really is 6.
+**The rows are wrong about status, not about content.**
+
+### R115-3 — the rule, restated (BENCH ERROR #25's fix was too narrow)
+
+Memo 206 fixed #25 as *read the lead's own arcs before naming it open.* The certificate
+shows two of the four could have been caught **without opening any arc**, and a third by
+running a shipped check.
+
+> Before this bench ranks any lead as open: run `scripts/checks/open_claim_sweep.py`, and
+> read the lead's row **together with the rows adjacent to it**. A cheap first pass that
+> catches the self-contradictions — not a substitute for reading the arcs.
