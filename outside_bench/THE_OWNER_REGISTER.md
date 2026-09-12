@@ -3461,3 +3461,65 @@ Memos 207–209 found **status lines** disagreeing with arcs. Here a **committed
 disagrees with the committed code that produced it** — and the disagreement is not a label
 but a failed computation preserved as though it were a result. The machine-readable
 artifact is precisely what a ledger or a sweep consumes.
+
+---
+
+## R120 — "continue as u recomend" (2026-09-12): the artifact-pair sweep
+
+**Asked:** *"continue as u recomend"* — the sweep memo 211 pointed at: every cell's two
+committed artifacts, checked against each other.
+
+### R120-1 — three in seventy-five, and the defect is NOT endemic
+
+| | |
+|---|---|
+| `results.json` under `frontier/` | **228** |
+| … with an `output.txt` beside them | **114** |
+| … carrying a verdict on **both** sides | **75** |
+| **… where `output.txt`'s verdict appears NOWHERE in `results.json`** | **3 — 4.0%** |
+
+> **Three, not thirty.** Any reading of memos 207–211 as *"the record is broadly
+> untrustworthy"* would be wrong, and is refused here.
+
+### R120-2 — but the staleness runs BOTH WAYS, and that is the part that matters
+
+| cell | `output.txt` | `results.json` | the stale side |
+|---|---|---|---|
+| `P2W5-L72` | RESOLVED-A | UNRESOLVED | **the JSON** — 51 fields differ; it records `h1 = 0` for all six E₆ exponents |
+| `W2-270` | UNRESOLVED | RESOLVED-B | **the output.txt** — it gives as its obstruction that *"depth 9-11 recomputation did not complete"*, and the JSON **contains** that depth 7–11 sequence plus an Aitken extrapolation |
+| `W4-017r` | RESOLVED-A | PENDING_PART_B | **the JSON** — its only result key is `part_A` |
+
+**W2-270's two files were committed in the SAME commit**, `2026-08-25 17:39:12 +0200`,
+already inconsistent.
+
+**Two of the three are settled by running the cell's own code, not by reading it.**
+P2W5-L72 (memo 211) and now **W4-017r: 469.9 s, `VERDICT: RESOLVED-A`, a `results.json`
+with six keys — the committed file has two of them and the wrong verdict.**
+
+> **There is no privileged artifact.** A rule like *always trust the JSON* — or *always
+> trust the text* — would be wrong one time in three. **A cell's two outputs are only as
+> trustworthy as the run that wrote them both, and nothing in the tree records whether
+> that happened.**
+
+### R120-3 — no mathematics is wrong in any of the three
+
+P2W5-L72's splitting was independently reproduced in memo 211. W2-270's structural
+obstruction — its own noise floor — is untouched by which verdict string is right.
+W4-017r's part A and part B both ran and are both in its text. **All three are
+bookkeeping.**
+
+### R120-4 — the fix is a gate, not a cleanup, and it is not this bench's to apply
+
+A cell's `results.json` and `output.txt` should be written **in the same process exit
+path**, and a repo check can assert that every cell carrying a verdict in both places
+carries the same one. **That check is this certificate and it runs in under a second.**
+Three files to regenerate on main from their own committed `compute.py`:
+`P2W5-L72/results.json`, `W2-270/output.txt`, `W4-017r/results.json`.
+
+### R120-5 — the fence
+
+The census tests **one** thing: whether a verdict string in `output.txt` also appears
+somewhere in `results.json`. It does **not** compare the numbers in the two, does not
+re-run the 113 cells that have a `compute.py`, and says nothing about the 29 cells with a
+verdict on only one side or the 114 `results.json` files with no `output.txt` at all.
+**A cell passing this check is not verified — only not caught by this one test.**
