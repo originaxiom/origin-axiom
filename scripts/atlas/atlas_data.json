@@ -7639,9 +7639,13 @@
   "B1346": {
    "slug": "the chat1 handoff intake",
    "motifs": [
+    "monoid",
     "action",
     "figure_eight",
+    "trace_map",
+    "kappa",
     "metallic",
+    "eisenstein",
     "golden",
     "z3_generation",
     "amphichiral_cp"

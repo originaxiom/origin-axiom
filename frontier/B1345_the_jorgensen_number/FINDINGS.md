@@ -103,10 +103,15 @@ proposed *mechanism* is wrong.
 Nine of eleven reproduce exactly: m000 **1**, m004 **1**, m009 **√2**, m136 **2√2**, m003 **4**,
 m206 **4**, v2873 **3√3**, s958 **7**, m202 **7**. Two differ:
 
-* **t12835** — computed 7, chat1 says 4. This bench's search is over words of length ≤ 3, so its
-  value is an **upper bound**; chat1's smaller value is compatible and probably better.
-* **t12833** — computed **9**, chat1 says 13. Here the direction is decisive: J is an **infimum** and
-  a pair achieving 9 is exhibited, so **the true J is ≤ 9 and chat1's 13 cannot be it.**
+* **t12835** — computed 7, chat1 says 4. **CORRECTED 2026-09-12 on receipt of the seat's code:** the
+  concession that chat1's 4 was “probably better” is **RETRACTED**. Its table computes `|κ − 2|` at
+  SnapPy's **default** pair with **word-length 0** and **no parabolicity check**; t12835's default
+  generator is not parabolic, so the `|tr²A − 4|` term is silently dropped and the number is not a
+  bound on `J` at all. **This bench's 7 stands as the upper bound.**
+* **t12833** — computed **9**, chat1 says 13. **Refined:** t12833 is the *one* row where their
+  default generator **is** parabolic, so their 13 is a legitimate evaluation of the Jørgensen
+  quantity at that pair and hence a valid upper bound. `J` is an infimum, so `J ≤ 9 < 13`: both are
+  sound, this bench's is tighter, and there was never a contradiction.
 
 **And m000 at J = 1 is not a counterexample to uniqueness — it is the hypothesis working.** m000 is
 the **Gieseking manifold: non-orientable**, volume 1.014942, and m004 is exactly its orientable

@@ -113,3 +113,61 @@ the trap's antidote while another walked into it.
 pair at 9, the seat reports 13); and the seat's own un-run gates (F5's prior-art status against
 Goodman–Heard–Hodgson, F6 §8.4's). **Their standing caution is adopted: assume the un-gated results
 are known until checked.**
+
+---
+
+# ADDENDUM — THE ARTIFACTS PACKAGE, AND HOW THE JØRGENSEN RESULT WAS ACTUALLY FOUND
+
+The requested artifacts arrived: **code and data, no synthesis** (`01_slack_table.py`,
+`02_G2_multiplier.py`, `04_strata_multipliers.py`, `07_the_identification_error.py`,
+`08_J_m004_exact.py`, the Callahan list, the provenance note). Run here.
+
+## 1. The seat withdrew more than was asked, including things this bench had not caught
+
+* **The slack table is self-labelled MISLABELLED.** Its header: *"computes `|κ − 2|` at SnapPy's
+  DEFAULT generating pair only … word-length searched = 0 … does NOT check the generators are
+  parabolic … the outputs are NEITHER Jørgensen numbers NOR upper bounds."*
+* **The ω / stratum-3 / ℤ3 reading: withdrawn in full**, with its own script showing why — the point
+  was a **knot-group** character while B497's strata are **fibre-side** trace maps. *"Different F₂'s."*
+* **The amphichirality citation (Callahan Cor. 7.7): withdrawn** — *"those four knots are all
+  chiral"*, which is this bench's E67 point, conceded at source.
+* **"The index vanishes because χ = 0": withdrawn** — *"contradicts my own algebra, which says the
+  identities leave I FREE. Free means free."* Confirms the B1345 addendum from the other side.
+* **428/494 re-attributed to B1325** — which is on **this branch**, not theirs. Verified: B1325
+  exists here and is the harvest-gap arc.
+* **Numbering: zero taken, no write access, E71 exposure nil.** The concern this bench raised was
+  unfounded, as the owner said. Checked independently: the SM branch carries only `B1300` in the
+  1300s, so nothing collides with B1340–B1346, and `B1350–B1399` remains reserved.
+
+**F1 STANDS** by their own label table, so §2 above is unaffected. What is withdrawn from F6 is only
+the conclusion *"so the index must vanish"* — the algebra stands.
+
+## 2. The sharpest thing in the package, and neither of us said it
+
+Their m004 row prints **1.000000000** — and their own table marks that generator **not parabolic**
+(`tr A = ω`). So at *their* pair the `|tr²A − 4|` term is **not** zero:
+
+> `|tr²A − 4| = |ω² − 4| = √21 = 4.5826`, so the **full** Jørgensen quantity at their pair is
+> **√21 + 1 = 5.5826**, not 1.
+
+The true `J(m004) = 1` is attained at a **different, parabolic** pair — `(ab, ba)`, `tr A = −2`,
+verified independently here and correctly computed by their own `08_J_m004_exact.py`.
+
+> **The headline is right and the table that motivated it was measuring something else.** The
+> result survives because it was checked against Callahan's theorem and re-derived at a parabolic
+> pair — not because the table that suggested it was sound.
+
+That is the cleanest instance of this intake's pattern: **the computations are reliable, the labels
+are not**, and the discipline that saved the find was reading the source rather than trusting the
+number that pointed at it.
+
+## 3. Corrections this forces to B1345 §5
+
+* **t12835** — the concession that chat1's 4 was *"probably better"* is **RETRACTED**. Its default
+  generator is not parabolic, so the number is not a bound on `J`. **This bench's 7 stands.**
+* **t12833** — **refined**: this is the *one* row whose default generator **is** parabolic, so their
+  13 is a legitimate evaluation and a valid upper bound. `J ≤ 9 < 13` — both sound, this bench's
+  tighter, **no contradiction**, and B1345's *"13 cannot be it"* overstated the disagreement.
+* Minor, flagged so it does not propagate: their README and header **reverse the attribution**
+  (crediting this bench with 4 for t12835 and themselves with 7). Their own table output is
+  authoritative: **theirs 4, this bench's 7.**
