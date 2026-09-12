@@ -3095,3 +3095,55 @@ Ranked by *rung exists today*, not by ambition:
 > rather than on any computation (the L173 seal), one refuted door (B882), two stale rows that look
 > like work and are not, three computable rungs (L78, L72-phase-1, L71), and three handoffs that need
 > software or a book this box does not have.**
+
+---
+
+## R114 — "go" (2026-09-12): L78 climbed, and R113 item 1 superseded
+
+**Asked:** *"go"* — against R113's ranking, whose first rung was L78.
+
+### R114-1 — R113 item 1 is SUPERSEDED, by the rule R113 itself was written under
+
+R113 named **L78** *"the highest-graded still-open lead"* and the first rung to climb.
+**It was resolved on the day it was registered.** `frontier/B583_chiral_content/FINDINGS.md`
+§X3 (2026-07-14) says, in those words, *"L78 resolves: the θ-odd amplitude is NOT
+reachable by Route A."* Filed as **BENCH ERROR #25** in memo 206.
+
+> The standing rule *exhaust the repo BEFORE ranking a gap* was applied to the building
+> step and not to the ranking step. **It now reads: before a lead is named as open in a
+> status answer, its own arcs are read, not just its row.**
+
+R113's other content stands: §4A.1's single open item, §4A.2's owner-pending seal,
+§4A.3's refuted door, L53's and L174's stale rows, and the three handoffs. **L78 now
+joins L53 and L174 as a third stale row** — three of the leads a reader would take as
+live work are not.
+
+### R114-2 — what the climb produced anyway
+
+The ranking was wrong and the work was not wasted, because B583's level-2 number **had
+no lock and no code**: the arc directory holds `FINDINGS.md`, `READING_RAW.md`,
+`arc_verdict.json` and `x2r_recompute.py`, none of which computes X3, and the arc's lock
+`tests/test_b583_content.py` tests the mechanism **at level 1 only**, in a 3×3 theater.
+A nine-primary claim stood in prose for two months. Memo 206 supplies the reproduction
+(CELL 1) and two things the record did not have (CELLs 2 and 3).
+
+| | |
+|---|---|
+| B583 X3's level-2 rank 6 | **reproduced**, 1111 slopes vs its 719, θ-odd projection 2.1e−14 vs its 4e−13 |
+| B580 Q1's level-1 rank 2 | **reproduced** as the control |
+| L78's positive outcome | **was never available** — `C = S²` is central and fixes the vacuum, in any modular tensor category |
+| who can hear chirality at level 2 | **the reach law, new:** a primary observer hears it **iff it is not self-conjugate**, and every one that does hears **all** of it |
+| the θ-odd amplitude of the object's own state (B580 Q3) | **still not computed** — this memo computes reachability, not a value |
+
+### R114-3 — the shape of the finding, plainly
+
+> **The theater was never the obstruction. The vacuum was, and only the vacuum.**
+> The θ-odd 3-space is fully reachable — by any observer seated in a primary that is not
+> its own conjugate. Reach 0 for {1, 78, 650}; reach 3 of 3 for each of the six in a
+> `C`-pair. There is no partial hearing anywhere in the theater.
+
+**What this does NOT do**, stated because the temptation is obvious:
+`WHAT_WOULD_COUNT.md` §4A.1's open item is *"chirality without an **inserted** closing."*
+Seating an observer in a `27` to hear chirality is precisely the move that item is about.
+Memo 206 says only that **if** such an observer is legitimate, it hears everything — and
+whether it is legitimate is the unanswered question, not a corollary.
