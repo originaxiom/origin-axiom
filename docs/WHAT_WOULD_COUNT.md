@@ -283,9 +283,31 @@ pre-registered tolerance. **FAIL:** the differential is measured and refuted, or
 collapses to the standard-content counts (an R12 violation, meant to be caught before sealing, not
 after).
 
-**STATUS: SPEC ONLY, OWNER-PENDING** on the aperiodic-design unseal decision (`docs/OPEN_LEADS.md`
+~~**STATUS: SPEC ONLY, OWNER-PENDING** on the aperiodic-design unseal decision (`docs/OPEN_LEADS.md`
 L173) — the theory side is complete (B1085/B1095) and the experimental technique is established
-science; what has not happened is the seal. A structurally similar cousin not yet cast in this
+science; what has not happened is the seal.~~
+**[STATUS SUPERSEDED IN PLACE, 2026-09-12 — outside-bench memo 215, certificate
+`outside_bench/certificates/the_seal_already_happened.py`; the struck sentence above is kept for
+provenance, not deleted.]**
+
+**STATUS: SEALED 2026-08-21 — AWAITING AN EXPERIMENTALIST, NOT A DECISION.** The seal is in
+`docs/SEAL_LEDGER.md` (line dated 2026-08-21, *"THE EDGE SEAL (L173; …)"*), banked by **B1106**
+(*"the program's first outward-facing falsifier is sealed"*) with **the owner's rulings D-2 and D-3
+executed**, and `docs/EDGE_PREREG_SPEC.md`'s own header reads *"Status at landing: SEALED."*
+Amended once by its own rule (`SEAL_LEDGER`, 2026-08-27, B1171 addendum-beside — the sealed spec is
+**not** edited): **R6′, the commissioned observable** — count boundary-capable modes in a *labelled*
+Fibonacci gap on a chain long enough to separate a 5-count from a 6-count, because the anchor
+experiment is *"a demonstration paper, not metrology."* **What is outstanding is an experimental run
+nobody has commissioned** — a collaborator who can count modes in a labelled gap while scanning the
+phason.
+
+**And the price of passing, stated here so the tier is not read as stronger than it is:**
+outside-bench **memo 197** computed that the sealed alternation is the **modal** behaviour of a
+random phase (**19.77%** of 3000 phases; one phase in five reproduces the sealed law exactly over
+nine windows), so **observing it at ρ = α does not identify α**; with memo 196's addenda (at the
+closure windows `H_L` *is* `H_R` read backwards, so the differential is a relabelling; C4 prices the
+tiling hull as seeing only the hearing) **the lab lane's content is slope-specific, not
+phase-specific.** A structurally similar cousin not yet cast in this
 function-shaped form is PD1 (the anyon door, `docs/PRICED_DOORS.md`) — hardware instantiation of a
 modular algebra rather than a differential comparison; it belongs to this tier in spirit, not yet in
 form.

@@ -7,86 +7,57 @@
 [     0.0s]   Perron eigenvalue (growth rate) = 3.6762050160
 [     0.0s]   Perron freq vector (a,b,A,B)    = [0.27201965 0.16811739 0.34601434 0.21384862]
 [     0.0s]   banked closed-form FREQ (a,b,A,B) = [0.27201965 0.16811739 0.34601434 0.21384862]
-[     0.0s] GATE G0 Perron freq vector matches banked closed form phi,sqrt(phi): PASS  max|diff|=5.55e-17
-[     0.0s] GATE G0b Perron growth rate matches phi^1.5 = phi*sqrt(phi): FAIL  perron=3.6762050160 phi^1.5=2.0581710273
+[     0.0s] GATE G0 Perron freq vector matches banked closed form phi,sqrt(phi): PASS  max|diff|=2.22e-16
+[     0.0s] GATE G0b(corrected) Perron growth rate = 1/2+sqrt5/2+sqrt(2+sqrt5): PASS  perron=3.6762050160 exact=3.6762050160
 [     0.0s]   TARGET_IDS = [np.float64(0.272019649514069), np.float64(0.44013703852159747), np.float64(0.7861513777574233)]
 [     0.0s] == STEP 1: gap-opening slopes, two seeds, depths 7..11 ==
-[    17.9s]   depth= 7 N=   12069  seedA: s1=0.193046 s2=0.154909 r=1.246187  seedB: s1=0.190674 s2=0.155452 r=1.226576  [17.9s]
-[    69.8s]   depth= 8 N=   44368  seedA: s1=0.191684 s2=0.152657 r=1.255648  seedB: s1=0.188898 s2=0.152596 r=1.237896  [51.9s]
-
-============================================================================
-RUN TERMINATED EARLY (time-budget / environment-contention decision).
-============================================================================
-The compute.py depth sweep (depths 7..11, two seeds, windowed LAPACK
-eigensolves) was started as a background process. At the point this cell's
-turn budget forced a verdict, only depths 7 and 8 had completed (killed
-after depth 8, PID 26348). The machine was running >10 other B771 Wave-2
-cells concurrently (visible via `ps aux`), which slowed the windowed
-diagonalizations well below the single-process benchmark timing measured
-before launch (17s/call unloaded vs the observed 52s for depth 8's block
-under contention). depth-9 (the depth at which the ORIGINAL run first
-reported convergence to 1.204) and depths 10-11 (the NEW depths this cell
-intended to add) did not complete.
-
-PARTIAL DATA OBTAINED (this cell, independent recomputation):
-  depth 7 (N=12069):  seedA r=1.246187  seedB r=1.226576
-  depth 8 (N=44368):  seedA r=1.255648  seedB r=1.237896
-These are CONSISTENT with the banked FINDINGS.md Movement XXXIII
-self-correction, which explicitly flags depth 7-8 as PRE-CONVERGENCE
-("ratio 1.27 at depth 8" is named there as an artifact; convergence to
-1.204 is only claimed at depth 9, N=163106). This cell's independent
-numbers reproduce that same non-monotonic pre-convergence pattern
-(1.246 -> 1.256, moving AWAY from 1.204, not yet turned over) -- an
-independent confirmation of the qualitative claim "depths 7-8 are not
-converged," but this cell did NOT reach depth 9 to confirm the 1.204
-convergence value itself, and did NOT reach the new depths 10-11 this
-cell was designed to add for extra precision.
-
-DISCRIMINATING FACT computed in-cell (the actionable finding of this run):
-  Seed-to-seed disagreement (eps-grid A vs eps-grid B, same depth) is
-  itself ~1-2% (e.g. depth 8: 1.2556 vs 1.2379, differ by ~1.4%). This
-  bounds the ACHIEVABLE PRECISION of this whole numerical route at
-  1-2 SIGNIFICANT DIGITS per depth, before even reaching the N->infinity
-  extrapolation. Combined with the ORIGINAL run's own finding that the
-  ratio only stabilizes in the THIRD digit between depth 8 and depth 9
-  (1.204 vs an implied depth-8 value near 1.27 per the self-correction
-  note), the honest ceiling on this method's precision is ~3-4
-  significant digits even at full convergence. The sealed tolerance-
-  height PSLQ rule requires >=15 honest agreement digits (tol=10^-(agree-14)
-  with agree>=15 for a nonvacuous, non-forced tolerance). 3-4 digits is
-  roughly 4x short of that floor. This is the discriminating fact against
-  a confident identification via this numerical route, independent of
-  which depths get completed: THE METHOD'S OWN NOISE FLOOR (seed
-  disagreement + depth-to-depth drift), not merely insufficient runtime,
-  is the binding obstruction.
-
-VERDICT: UNRESOLVED (=> EXTERNAL).
-Obstruction (two-part, both independently sufficient):
-  (a) OPERATIONAL: depth 9-11 recomputation did not complete in the
-      available turn budget under heavy environment CPU contention from
-      parallel B771 Wave-2 cells; re-running compute.py standalone
-      (outside the batch window) would let it finish (est. 15-45 min
-      unloaded based on the pre-launch benchmarks in this cell's history).
-  (b) STRUCTURAL (the deeper one -- would apply even with unlimited
-      runtime): this observable (a finite-size linear-response slope of a
-      Cantor-spectrum tight-binding chain) has NO known closed-form
-      perturbative expression in the banked B530 machinery (FINDINGS.md
-      Movement XXXIII item 6 names this explicitly: "should be derivable
-      from the substitution's trace-map dynamics" but the 4-letter
-      trace map "hasn't been worked out"). Without that derivation, the
-      only route to the ratio is finite-N diagonalization + finite-eps
-      linear fit, and BOTH seeds/depths tried here (and in the original
-      Movement XXXIII run) show this route saturates at ~3-4 significant
-      digits -- far short of the sealed tolerance-height rule's >=15-digit
-      floor for a trustworthy PSLQ hit. The already-refuted candidate
-      sqrt(1/phi^2+1)=1.176 (2.4% off) is the base-rate proof: at 2-3
-      digit precision, "close-looking" golden-family numbers are
-      abundant and not discriminating.
-NEXT STEP (external): either (i) derive the multi-letter substitution's
-trace map exactly (a genuine open mathematical problem, not a compute
-budget problem) to get an exact perturbative slope formula, enabling
-arbitrary-precision PSLQ; or (ii) re-run this cell's compute.py standalone
-with a dedicated time/CPU slot to at least confirm depth 9-11 numerically
-and tighten the Aitken-extrapolation error bar (this would likely still
-plateau at ~4-5 digits, per (b), but is worth doing to close out the
-operational half of the obstruction).
+[     7.2s]   depth= 7 N=   12069  seedA: s1=0.193046 s2=0.154909 r=1.246187  seedB: s1=0.190674 s2=0.155452 r=1.226576  [7.2s]
+[    32.0s]   depth= 8 N=   44368  seedA: s1=0.191684 s2=0.152657 r=1.255648  seedB: s1=0.188898 s2=0.152596 r=1.237896  [24.8s]
+[   113.9s]   depth= 9 N=  163106  seedA: s1=0.191626 s2=0.152387 r=1.257492  seedB: s1=0.188801 s2=0.152257 r=1.240010  [81.9s]
+[   344.8s]   depth=10 N=  599611  seedA: s1=0.191625 s2=0.152364 r=1.257681  seedB: s1=0.188800 s2=0.152226 r=1.240262  [230.9s]
+[   860.0s]   depth=11 N= 2204293  seedA: s1=0.191625 s2=0.152364 r=1.257682  seedB: s1=0.188800 s2=0.152226 r=1.240265  [515.2s]
+[   860.0s] GATE G1 depth-9 seedA reproduces banked slope1 (Movement XXXIII, tol 0.005): FAIL  got 0.191626 vs banked 0.183
+[   860.0s] GATE G2 depth-9 seedA reproduces banked slope2 (Movement XXXIII, tol 0.005): PASS  got 0.152387 vs banked 0.152
+[   860.0s] GATE G3 depth-9 seedA reproduces banked ratio 1.204 (tol 0.005): FAIL  got 1.257492 vs banked 1.204
+[   860.0s] == STEP 2: seed agreement (eps-discretization error bound) ==
+[   860.0s]   depth=7: seedA=1.24618723 seedB=1.22657610 agree~1.80 digits
+[   860.0s]   depth=8: seedA=1.25564796 seedB=1.23789647 agree~1.85 digits
+[   860.0s]   depth=9: seedA=1.25749226 seedB=1.24001007 agree~1.86 digits
+[   860.0s]   depth=10: seedA=1.25768054 seedB=1.24026179 agree~1.86 digits
+[   860.0s]   depth=11: seedA=1.25768211 seedB=1.24026470 agree~1.86 digits
+[   860.0s] == STEP 3: Aitken Delta^2 extrapolation of r_n across depth ==
+[   860.0s]   r_n (seedA) sequence over depths [7, 8, 9, 10, 11]: ['1.246187', '1.255648', '1.257492', '1.257681', '1.257682']
+[   860.0s]   Aitken-accelerated estimates: [1.257938845576415, 1.25770194161282, 1.2576821244629701]
+[   860.0s]   consecutive-depth digit agreement: [2.122943307133029, 2.833675288989765, 3.824768220253615, 5.902075838108345]
+[   860.0s]   Aitken-pair agreement digits: [3.725005404489542, 4.802529694936171]
+[   860.0s]   BEST ESTIMATE r_infinity ~ 1.25768212
+[   860.0s]   HONEST ACHIEVED PRECISION (min of seed-agreement, consecutive-depth, Aitken-pair digit counts): 1 digits
+[   860.0s] == STEP 4: sealed tolerance-height rule (tol = 10^-(agree-14)) ==
+[   860.0s]   achieved digit agreement = 1; tol_exp = agree-14 = -13
+[   860.0s] GATE G4 sealed tolerance-height rule is satisfiable (needs agree-14 >= 1, i.e. >=15 honest digits): FAIL  tol_exp=-13 (need >=1)
+[   860.0s]   working precision dps=20, PSLQ tol used = 0.01 (floored at 1e-2 if tol_exp<2 -- RESULTS AT THIS TOLERANCE ARE NOT TRUSTED unless G4 passed)
+[   860.0s]   candidate sqrt(1/phi^2+1) = 1.175570505 vs measured 1.257682124: err = 0.08211 (6.53% off) -- CONFIRMED FAILED (base-rate warning)
+[   860.0s]   candidate battery at achieved precision (1 digits, illustrating the base-rate problem):
+[   860.0s]     sqrt(1/phi^2+1)                  = 1.17557050458  rel_err=0.0653  CLOSE at achieved precision
+[   860.0s]     phi/sqrt(phi^2-phi)              = 1.61803398875  rel_err=0.287  CLOSE at achieved precision
+[   860.0s]     sqrt(phi)                        = 1.27201964951  rel_err=0.0114  CLOSE at achieved precision
+[   860.0s]     phi^2/phi                        = 1.61803398875  rel_err=0.287  CLOSE at achieved precision
+[   860.0s]     6/5                              = 1.2  rel_err=0.0459  CLOSE at achieved precision
+[   860.0s]     sqrt(29)/phi^2                   = 2.05694992131  rel_err=0.636  CLOSE at achieved precision
+[   860.0s]     phi^(1/2)*phi^(-1/6)             = 1.17398499671  rel_err=0.0665  CLOSE at achieved precision
+[   860.0s]     1+1/phi^3                        = 1.2360679775  rel_err=0.0172  CLOSE at achieved precision
+[   860.0s]     sqrt(1+1/(2phi))                 = 1.14412280564  rel_err=0.0903  CLOSE at achieved precision
+[   860.0s]     (1+sqrt(phi))/phi                = 1.40418536651  rel_err=0.116  CLOSE at achieved precision
+[   860.0s]     PSLQ minpoly degree 1 at tol=0.01: [-39, 31]
+[   860.0s]     PSLQ minpoly degree 2 at tol=0.01: [5, -9, 4]
+[   860.0s]     PSLQ minpoly degree 3 at tol=0.01: [2, 0, 0, -1]
+[   860.0s]     PSLQ minpoly degree 4 at tol=0.01: [1, 0, 0, -3, 2]
+[   860.0s]     PSLQ minpoly degree 5 at tol=0.01: [0, 1, 0, 0, -3, 2]
+[   860.0s]     PSLQ minpoly degree 6 at tol=0.01: [0, 0, 1, 0, 0, -3, 2]
+[   860.0s]   PSLQ linear over {1,phi,sqrt(phi),phi*sqrt(phi),sqrt5}+x: [0, 0, 1, 0, 0, -1]
+[   860.0s] == STEP 5: verdict ==
+[   860.0s]   The sealed tolerance-height rule requires >=15 honest agreement digits (tol_exp=agree-14>=1); this cell achieves only 1 digits from finite-N tight-binding numerics (the linear-response slope has no known closed form -- only the GAP POSITIONS are Bellissard-exact; the WIDTHS/slopes are a genuine numerical linear-response coefficient of a Cantor-measure spectrum, and depth-11 (N=2.2M) is close to the practical windowed-diagonalization ceiling in this environment).
+[   860.0s]   DISCRIMINATING FACT: 10 unrelated golden-family candidates are simultaneously 'close' at the achieved precision (['sqrt(1/phi^2+1)', 'phi/sqrt(phi^2-phi)', 'sqrt(phi)', 'phi^2/phi', '6/5', 'sqrt(29)/phi^2', 'phi^(1/2)*phi^(-1/6)', '1+1/phi^3', 'sqrt(1+1/(2phi))', '(1+sqrt(phi))/phi']) -- textbook base-rate problem (same pattern as the already-refuted sqrt(1/phi^2+1)=1.176 candidate). No single candidate is distinguished. PSLQ at this tolerance is UNTRUSTED by construction (recorded, not used to force a hit).
+[   860.0s]   FINAL VERDICT: RESOLVED-B
+[   860.0s]   best numeric estimate of the ratio: 1.25768212 (1 honest digits)
+[   860.0s] == DONE: results.json written ==

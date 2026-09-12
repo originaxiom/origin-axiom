@@ -74,7 +74,7 @@ for d, vt, vs, _ in bad:
         print(f"        results.json{k} = {v}")
 
 print("\n" + "-" * 78)
-print("WHICH ARTIFACT IS THE STALE ONE, cell by cell -- from the files themselves")
+print("WHICH ARTIFACT WAS THE STALE ONE -- and all three were REGENERATED 2026-09-12")
 print("-" * 78)
 
 
@@ -92,25 +92,25 @@ print("      output.txt reproduces byte-for-byte; results.json does not (51 fiel
 must('frontier/B775_phase2_wave1/cells/P2W5-L72/output.txt', 'VERDICT: RESOLVED-A',
      "output.txt says RESOLVED-A")
 j = json.loads((ROOT / 'frontier/B775_phase2_wave1/cells/P2W5-L72/results.json').read_text())
-print(f"    [OK ] results.json says {j['verdict']}, and records "
-      f"h1={{{', '.join(str(v['h1']) for v in j['G_deformation']['per_exponent'].values())}}} "
-      f"for the six E6 exponents")
-assert j['verdict'] == 'UNRESOLVED'
-assert all(v['h1'] == 0 for v in j['G_deformation']['per_exponent'].values())
-print("      => THE JSON IS THE STALE ARTIFACT.")
+print("      BEFORE 2026-09-12: results.json said UNRESOLVED and recorded h1 = {0,0,0,0,0,0}")
+print("      for the six E6 exponents -- a failed relator check from an older code version.")
+print(f"    [OK ] results.json NOW says {j['verdict']}, h1="
+      f"{{{', '.join(str(v['h1']) for v in j['G_deformation']['per_exponent'].values())}}}")
+assert j['verdict'] == 'RESOLVED-A'
+assert all(v['h1'] == 1 for v in j['G_deformation']['per_exponent'].values())
+print("      => REGENERATED from the committed compute.py, 2026-09-12. Pair agrees.")
 
 print("\n  (2) W2-270 -- settled by READING, and the direction is REVERSED:")
-must('frontier/B771_phase1_wave1/cells/W2-270/output.txt',
-     'VERDICT: UNRESOLVED (=> EXTERNAL).', "output.txt says UNRESOLVED (=> EXTERNAL)")
-must('frontier/B771_phase1_wave1/cells/W2-270/output.txt',
-     'depth 9-11 recomputation did not complete in the',
-     "and gives as obstruction (a) that depths 9-11 DID NOT COMPLETE")
+print("      BEFORE 2026-09-12: output.txt said 'VERDICT: UNRESOLVED (=> EXTERNAL).' and gave as")
+print("      obstruction (a) that 'depth 9-11 recomputation did not complete' -- while its")
+print("      results.json already CONTAINED that depth 7-11 sequence. The TEXT was the stale side.")
+must('frontier/B771_phase1_wave1/cells/W2-270/output.txt', 'FINAL VERDICT: RESOLVED-B',
+     "output.txt NOW says RESOLVED-B")
 j = json.loads((ROOT / 'frontier/B771_phase1_wave1/cells/W2-270/results.json').read_text())
-print(f"    [OK ] results.json says {j['verdict']}, and CONTAINS the depth 7-11 sequence: "
-      f"{len(j['r_seq_depths_7_11'])} entries, plus an Aitken extrapolation")
+print(f"    [OK ] results.json says {j['verdict']}, depth 7-11 sequence: "
+      f"{len(j['r_seq_depths_7_11'])} entries")
 assert j['verdict'] == 'RESOLVED-B' and len(j['r_seq_depths_7_11']) == 5
-print("      The JSON holds exactly the data output.txt says did not finish.")
-print("      => HERE THE OUTPUT.TXT IS THE STALE ARTIFACT.")
+print("      => REGENERATED (860.0s, depths 7..11 all completed). Pair agrees.")
 for f in ('results.json', 'output.txt'):
     ts = subprocess.check_output(
         ['git', '-C', str(ROOT), 'log', '-1', '--format=%ci', '--',
@@ -121,13 +121,14 @@ print("      Both committed in the SAME commit, already inconsistent.")
 print("\n  (3) W4-017r -- the JSON was written MID-RUN and never rewritten:")
 must('frontier/B771_phase1_wave1/cells/W4-017r/output.txt', 'VERDICT: RESOLVED-A',
      "output.txt says RESOLVED-A")
-must('frontier/B771_phase1_wave1/cells/W4-017r/output.txt', 'total runtime 598.6s',
-     "after a 598.6-second run")
+must('frontier/B771_phase1_wave1/cells/W4-017r/output.txt', 'total runtime',
+     "after a full run (598.6s before the regeneration; 474.8s after)")
+print("      BEFORE 2026-09-12: results.json said PENDING_PART_B and its ONLY result key was")
+print("      ['part_A'] -- a snapshot taken between part A and part B, never rewritten.")
 j = json.loads((ROOT / 'frontier/B771_phase1_wave1/cells/W4-017r/results.json').read_text())
-print(f"    [OK ] results.json says {j['verdict']} and its ONLY result key is "
-      f"{[k for k in j if k not in ('cell','verdict')]}")
-assert j['verdict'] == 'PENDING_PART_B' and [k for k in j if k not in ('cell', 'verdict')] == ['part_A']
-print("      => THE JSON IS THE STALE ARTIFACT (part B ran; the file predates it).")
+print(f"    [OK ] results.json NOW says {j['verdict']}, keys {list(j)}")
+assert j['verdict'] == 'RESOLVED-A' and 'part_B' in j
+print("      => REGENERATED from the committed compute.py (474.8s). Pair agrees.")
 
 print("\n" + "=" * 78)
 print("ALL ASSERTIONS HOLD AT THIS HEAD.")

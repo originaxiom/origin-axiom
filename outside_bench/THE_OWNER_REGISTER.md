@@ -3705,3 +3705,67 @@ lab lane reduces to **slope-specific, not phase-specific**.
 **Recommendation, not an action:** bring §4A.2's STATUS line and L173's body and value
 column into agreement with the header and the seal ledger. R113/R114/R115 are **superseded
 on this point.**
+
+---
+
+## R124 — "do as u recomend" (2026-09-12): the corrections are applied
+
+**Asked:** *"do as u recomend"* — against memo 215's recommendation and the standing ones in
+memos 208 and 212. **Taken as authorization to edit main's documents**, which this bench had
+been fencing itself away from all session.
+
+**Done on `claude/outside-bench`, as a proposal. Main is not touched by this bench.**
+
+### R124-1 — the discipline, stated before the list
+
+**Nothing was deleted.** Every stale sentence is **struck in place** and followed by a dated
+supersession that **quotes its decider**. **No verdict, no number, no arc and no mathematics
+was changed** — only status text, and only where a cited decider or the file's **own
+header** contradicted it.
+
+### R124-2 — what changed
+
+**`docs/WHAT_WOULD_COUNT.md` §4A.2:** *"SPEC ONLY, OWNER-PENDING … what has not happened is
+the seal"* struck; replaced by **SEALED 2026-08-21 — AWAITING AN EXPERIMENTALIST, NOT A
+DECISION**, with the ledger line, B1106, the owner's executed D-2/D-3, and R6′. **And the
+price of passing is now stated inside the tier** — memo 197's *one phase in five*, the
+slope-specific-not-phase-specific reduction — so the tier cannot be read as stronger than it
+is.
+
+**`docs/OPEN_LEADS.md`: 15 supersessions across 13 leads and one campaign cell** — L26, L53,
+L54, L64, L65, L68, L72, L73, L74, L78, L112, L173 (two clauses), L174, and C5. Four of them
+contradicted **this one file**: L53, L112, L174 and L173.
+
+> **Structural verification, because a table is easy to break:** line count unchanged
+> (2433 → 2433), **14 changed lines**, **zero rows with an altered unescaped pipe count**.
+> A first attempt *did* break it — the strike-through wrapped whole table rows and doubled
+> their cells — and was caught by that same check and **fully reverted before any commit**.
+
+**Three artifact pairs regenerated from their own committed `compute.py`:**
+
+| cell | before | after |
+|---|---|---|
+| `P2W5-L72` | `UNRESOLVED`, `h¹ = {0,0,0,0,0,0}` | **`RESOLVED-A`, `h¹ = {1,1,1,1,1,1}`** |
+| `W4-017r` | `PENDING_PART_B`, only key `part_A` | **`RESOLVED-A`**, all six keys (474.8 s) |
+| `W2-270` | text: `UNRESOLVED` on *"depth 9-11 … did not complete"* | **`RESOLVED-B`**, depths 7–11 complete (860.0 s) |
+
+**W2-270 settles memo 212's direction question by running rather than reading:** its JSON
+was right, its text was stale.
+
+> **The corpus-wide artifact-pair census is now `0` of 75.** It was 3.
+
+### R124-3 — the certificates had to change, and that is correct
+
+A certificate asserting a defect **must fail once the defect is repaired** — both did,
+immediately. Converted to **before/after**: pre-fix values printed as quoted history,
+post-fix values asserted. `the_triage_was_already_done.py`'s anchors now point at the
+**struck** forms, so the historical text is still verified present. All three certificates
+green.
+
+### R124-4 — what was deliberately NOT done
+
+**No lead was closed** — every annotation supersedes a *status*, never a verdict (L26 is
+written as *partly* stale, because that is what its decider supports). **No mathematics was
+revisited.** **The gate memo 212 recommended is not installed** — writing both artifacts in
+one process exit path is a change to the cells' own harness, main's call, not this bench's;
+the check itself already exists and runs in under a second.

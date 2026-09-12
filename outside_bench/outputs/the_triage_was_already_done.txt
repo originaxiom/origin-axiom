@@ -1,6 +1,6 @@
 ==============================================================================
 THE TRIAGE WAS ALREADY DONE
-HEAD = 739834ea
+HEAD = 82896898
 ==============================================================================
 
   frontier/B666_leads_campaign/cellT/TRIAGE_TABLE.md
@@ -17,52 +17,49 @@ resolution word at all?  (generous vocabulary -- a miss here would invent stalen
   L10    applied      -- row 97 carries ['CHARACTERIZED']
   L14    applied      -- row 101 carries ['CHARACTERIZED']
   L15    applied      -- row 102 carries ['CONFIRMED']
-  L26    *** NOT APPLIED *** -- row 71 carries no resolution word
-         triage decider: B644 (2026-07-16): the structural content is now DERIVED in-repo — ρ_hear\
+  L26    applied      -- row 71 carries ['SUPERSEDED']
   L28    applied      -- row 73 carries ['DONE']
-  L54    *** NOT APPLIED *** -- row 271 carries no resolution word
-         triage decider: the named most-tractable member (torsion-polynomial tower at the geometric rep) executed by B581 (all six Sym^{2m} torsi
+  L54    applied      -- row 271 carries ['SUPERSEDED']
   L57    applied      -- row 296 carries ['ANSWERED', 'PROVED']
-  L64    *** NOT APPLIED *** -- row 524 carries no resolution word
-         triage decider: in-row note + B575/G4: the G4 gates ARE an exact Fox-calculus recomputation of the six dims; residual = the MFP citation
-  L65    *** NOT APPLIED *** -- row 525 carries no resolution word
-         triage decider: B562/P13 (verified TOMBSTONE, grounded in B298/B299): the 27 splits under triality as trinification 9+9+9 — a 9-weight o
-  L68    applied      -- row 528 carries ['CLEARED', 'RETRACTED']
-  L73    *** NOT APPLIED *** -- row 542 carries no resolution word
-         triage decider: B580-R1 (the prediction "confirmed as banked", four ways); the one-pager lemma locked green in-repo via the cc2 packet (
-  L74    *** NOT APPLIED *** -- row 543 carries no resolution word
-         triage decider: B600 + the cc2 level-ladder packet: the level-4 prediction (pure ramified-2 → dyadic) realized — the ℚ(√2) import + even
+  L64    applied      -- row 524 carries ['CLOSED', 'RESOLVED', 'SUPERSEDED']
+  L65    applied      -- row 525 carries ['SUPERSEDED', 'TOMBSTONE']
+  L68    applied      -- row 528 carries ['CLEARED', 'RETRACTED', 'SUPERSEDED']
+  L73    applied      -- row 542 carries ['ANSWERED', 'SUPERSEDED']
+  L74    applied      -- row 543 carries ['SUPERSEDED']
   L77    applied      -- row 546 carries ['REFUTED']
-  L78    *** NOT APPLIED *** -- row 552 carries no resolution word
-         triage decider: B583/X3 (the second unhearability theorem, with mechanism): every filling covector is θ-even AT EVERY LEVEL — "L78 resol
+  L78    applied      -- row 552 carries ['RESOLVED', 'SUPERSEDED']
   L79    applied      -- row 553 carries ['CLOSED']
   L82    applied      -- row 556 carries ['ANSWERED', 'REFUTED']
 
-  applied: 10  ['L8', 'L10', 'L14', 'L15', 'L28', 'L57', 'L68', 'L77', 'L79', 'L82']
-  NOT applied: 7  ['L26', 'L54', 'L64', 'L65', 'L73', 'L74', 'L78']
+  NOTE 2026-09-12: the seven unapplied verdicts were written back on this branch as
+  in-place supersessions (struck text preserved). Before that write-back the counts were
+  17 SUPERSEDED / 10 applied / 7 NOT applied; they are recomputed live below.
+
+  applied: 17  ['L8', 'L10', 'L14', 'L15', 'L26', 'L28', 'L54', 'L57', 'L64', 'L65', 'L68', 'L73', 'L74', 'L77', 'L78', 'L79', 'L82']
+  NOT applied: 0  []
   no row: 0  []
 
 ------------------------------------------------------------------------------
 The four found by reading this session, which post-date or escaped the triage
 ------------------------------------------------------------------------------
-  [OK ] L53 duplicate row reads open  (docs/OPEN_LEADS.md:521)
-         "OPEN — first in the queue"
+  [OK ] L53 duplicate row read open (now STRUCK)  (docs/OPEN_LEADS.md:521)
+         "~~OPEN — first in the queue~~"
   [OK ] L53 primary row reads closed  (docs/OPEN_LEADS.md:270)
          "L53 CLOSED."
-  [OK ] L72 row reads open  (docs/OPEN_LEADS.md:531)
-         "| MATH | ★★★ | OPEN (B579) |"
+  [OK ] L72 row read open (now STRUCK in place, 2026-09-12)  (docs/OPEN_LEADS.md:531)
+         "~~OPEN (B579)~~"
   [OK ] L72 phases 2-3 ran  (frontier/B775_phase2_wave1/cells/P2W5-L72/compute.py:11)
          "THIS CELL RUNS PHASES 2 AND 3."
-  [OK ] L112 row at 659 reads open  (docs/OPEN_LEADS.md:659)
-         "OPEN, ready"
+  [OK ] L112 row read open (now STRUCK)  (docs/OPEN_LEADS.md:659)
+         "~~OPEN, ready~~"
   [OK ] L112 row at 807 reads CLOSED  (docs/OPEN_LEADS.md:807)
          "| L112 | **CLOSED**"
-  [OK ] L174 campaign row reads C1 first  (docs/OPEN_LEADS.md:1922)
-         "OPEN — C1 first"
+  [OK ] L174 row read C1 first (now STRUCK)  (docs/OPEN_LEADS.md:1922)
+         "~~OPEN — C1 first~~"
   [OK ] L174 C1 is banked, eight lines above  (docs/OPEN_LEADS.md:1915)
          "**DONE (B1088"
-  [OK ] L174 C5 reads needs-specialist  (docs/OPEN_LEADS.md:1919)
-         "NEEDS-SPECIALIST, honestly fenced"
+  [OK ] L174 C5 read needs-specialist (now STRUCK)  (docs/OPEN_LEADS.md:1919)
+         "~~NEEDS-SPECIALIST, honestly fenced~~"
   [OK ] an arc titled C5 CLOSED NEGATIVE  (frontier/B1108_c5_archimedean/FINDINGS.md:1)
          "C5 CLOSED NEGATIVE, harvested"
 

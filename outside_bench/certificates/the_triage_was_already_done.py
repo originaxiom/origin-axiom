@@ -78,6 +78,9 @@ for lid, _, cite in sup:
         print(f"  {lid:5s}  *** NOT APPLIED *** -- row {rs[0][0]} carries no resolution word")
         print(f"         triage decider: {cite[:120]}")
 
+print("\n  NOTE 2026-09-12: the seven unapplied verdicts were written back on this branch as")
+print("  in-place supersessions (struck text preserved). Before that write-back the counts were")
+print("  17 SUPERSEDED / 10 applied / 7 NOT applied; they are recomputed live below.")
 print(f"\n  applied: {len(applied)}  {applied}")
 print(f"  NOT applied: {len(unapplied)}  {unapplied}")
 print(f"  no row: {len(missing)}  {missing}")
@@ -95,15 +98,15 @@ def must(rel, needle, label):
     assert line, f"not found in {rel}: {needle!r}"
 
 
-must('docs/OPEN_LEADS.md', 'OPEN — first in the queue', 'L53 duplicate row reads open')
+must('docs/OPEN_LEADS.md', '~~OPEN — first in the queue~~', 'L53 duplicate row read open (now STRUCK)')
 must('docs/OPEN_LEADS.md', 'L53 CLOSED.', 'L53 primary row reads closed')
-must('docs/OPEN_LEADS.md', '| MATH | ★★★ | OPEN (B579) |', 'L72 row reads open')
+must('docs/OPEN_LEADS.md', '~~OPEN (B579)~~', 'L72 row read open (now STRUCK in place, 2026-09-12)')
 must('frontier/B775_phase2_wave1/cells/P2W5-L72/compute.py', 'THIS CELL RUNS PHASES 2 AND 3.', 'L72 phases 2-3 ran')
-must('docs/OPEN_LEADS.md', 'OPEN, ready', 'L112 row at 659 reads open')
+must('docs/OPEN_LEADS.md', '~~OPEN, ready~~', 'L112 row read open (now STRUCK)')
 must('docs/OPEN_LEADS.md', '| L112 | **CLOSED**', 'L112 row at 807 reads CLOSED')
-must('docs/OPEN_LEADS.md', 'OPEN — C1 first', 'L174 campaign row reads C1 first')
+must('docs/OPEN_LEADS.md', '~~OPEN — C1 first~~', 'L174 row read C1 first (now STRUCK)')
 must('docs/OPEN_LEADS.md', '**DONE (B1088', 'L174 C1 is banked, eight lines above')
-must('docs/OPEN_LEADS.md', 'NEEDS-SPECIALIST, honestly fenced', 'L174 C5 reads needs-specialist')
+must('docs/OPEN_LEADS.md', '~~NEEDS-SPECIALIST, honestly fenced~~', 'L174 C5 read needs-specialist (now STRUCK)')
 must('frontier/B1108_c5_archimedean/FINDINGS.md', 'C5 CLOSED NEGATIVE, harvested', 'an arc titled C5 CLOSED NEGATIVE')
 
 print("\n" + "=" * 78)

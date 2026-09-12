@@ -1,4 +1,3 @@
-  warnings.warn('Plink failed to import tkinter, GUI will not be available')
 [A] |W(E6)| = 51840  det split: 25920 / 25920
 [A] level 1: rank 3  c = 6  qdims = ['1.0', '1.0', '1.0']
     h = ['0', '2/3', '2/3']
@@ -20,7 +19,9 @@
 [D] E6 level-2 colored invariants of 4_1 (= SU(2)_5-even colored Jones at zeta_7): {'N=1 (spin 0)': '(1.0 + 0.0j)', 'N=3 (spin 1)': '(2.0881460000204 + 3.4999854577467e-41j)', 'N=5 (spin 2)': '(-0.6920214716301 - 7.0061431920628e-41j)'}
     control: Habiro form reproduces the N=2 Jones polynomial of 4_1 (err 0.0);  level-1 (pointed) invariants are framing-only = 1.
 [E] index(principal SL2 -> E6) = 156  (control: principal su2 in su(3) = 4; closed form h^(h^+1)rank/6 = 156)
-[F] SnapPy complex volume (2 triangulations): {'4_1': {'vol': '2.02988321281931', 'cs': '-1.33227e-15'}, 'm004': {'vol': '2.02988321281931', 'cs': '-2.22045e-15'}}  -> CS(rho_geo) = 0: True
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+[F] SnapPy complex volume (2 triangulations): {'4_1': {'vol': '2.02988321281931', 'cs': '1.33227e-15'}, 'm004': {'vol': '2.02988321281931', 'cs': '-1.33227e-15'}}  -> CS(rho_geo) = 0: True
     => CS(E6-principal geometric flat connection) = 156 * 0 = 0 (exact).
 [G] B581 sign law re-verified in-cell from the banked exact torsions: tau_1 = -3 anchor OK; sign(tau_m) = {1: -1, 4: 1, 5: -1, 7: -1, 8: 1, 11: -1} == (-1)^m: True;  theta-parity (B353, (-1)^(m+1)): {1: 'even', 4: 'odd', 5: 'even', 7: 'even', 8: 'odd', 11: 'even'}
 [G] dim H^1(M; Sym^2m rho_geo) per E6 exponent: {1: 1, 4: 1, 5: 1, 7: 1, 8: 1, 11: 1}  (h^0 = {1: 0, 4: 0, 5: 0, 7: 0, 8: 0, 11: 0}, 2 primes agree: True)
@@ -38,4 +39,4 @@ gates: modular-data True | level1-6j True | level2-6j True | A2 True | A3 False 
 VERDICT: RESOLVED-A
 E6 6j COMPUTED at both levels: level 1 is pointed (Z/3, theta_27 = exp(4 pi i/3)) with TRIVIAL associator (all 27 F-symbols = 1); level 2 (rank 9, c = 78/7) SPLITS as a Deligne product of its modular Z/3 current subcategory and its Mueger centralizer, which is the even part of SU(2)_5 at q = exp(i pi/7) -- so the level-2 6j are the quantum Racah symbols (pentagon, hexagons, Hopf-link S and twists all verified), and the E6 level-2 invariants of 4_1 are the SU(2)_5 colored Jones at zeta_7. PHASE 3 splits: CS of the E6-principal geometric connection = 156 x 0 = 0 and the deformation space is exactly 6 = rank(E6) (one direction per exponent, a Lagrangian on the boundary), the CS functional is computable along the theta-EVEN m=1 direction, and WALLED (EXTERNAL, 8112-variable PGL(27) Ptolemy) along the theta-ODD m = 4, 8.
 DISCRIMINATING FACT: The Z/3 simple-current subcategory of E6 level 2 is MODULAR (|det S_pointed| = 0.0352828 != 0), so E6_2 = Pointed(Z/3) (x) Centralizer with the centralizer of rank 3 -- and that rank-3 factor's S-matrix and twists match the even part of SU(2)_5 entry-by-entry (errS 4.41e-41, errT 4.46e-41). That is what makes the level-2 6j symbols closed-form instead of an unsolved rank-9 pentagon system.
-[runtime 24.8s]
+[runtime 31.9s]

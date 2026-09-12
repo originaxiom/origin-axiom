@@ -1,6 +1,6 @@
 ==============================================================================
 THE ARTIFACT-PAIR SWEEP
-HEAD = e359cb9e
+HEAD = 82896898
 ==============================================================================
 
   results.json under frontier/           : 228
@@ -8,48 +8,41 @@ HEAD = e359cb9e
   ... unreadable JSON                     : 0
   ... with a compute.py beside them too   : 113
 
-  cells carrying a verdict on BOTH sides  : 75
-  cells carrying one on only ONE side     : 29   (a formatting gap, not a contradiction)
+  cells carrying a verdict on BOTH sides  : 74
+  cells carrying one on only ONE side     : 30   (a formatting gap, not a contradiction)
 
-  >>> cells where output.txt's verdict appears NOWHERE in results.json: 3  (4.0% of the pairs that carry both)
-
-     frontier/B771_phase1_wave1/cells/W2-270
-        output.txt   VERDICT: UNRESOLVED
-        results.json/verdict = RESOLVED-B
-
-     frontier/B771_phase1_wave1/cells/W4-017r
-        output.txt   VERDICT: RESOLVED-A
-        results.json/verdict = PENDING_PART_B
-
-     frontier/B775_phase2_wave1/cells/P2W5-L72
-        output.txt   VERDICT: RESOLVED-A
-        results.json/verdict = UNRESOLVED
+  >>> cells where output.txt's verdict appears NOWHERE in results.json: 0  (0.0% of the pairs that carry both)
 
 ------------------------------------------------------------------------------
-WHICH ARTIFACT IS THE STALE ONE, cell by cell -- from the files themselves
+WHICH ARTIFACT WAS THE STALE ONE -- and all three were REGENERATED 2026-09-12
 ------------------------------------------------------------------------------
 
   (1) P2W5-L72 -- settled by RE-RUNNING the cell's own code (memo 211):
       output.txt reproduces byte-for-byte; results.json does not (51 fields).
-    [OK ] output.txt says RESOLVED-A  (output.txt:38)
-    [OK ] results.json says UNRESOLVED, and records h1={0, 0, 0, 0, 0, 0} for the six E6 exponents
-      => THE JSON IS THE STALE ARTIFACT.
+    [OK ] output.txt says RESOLVED-A  (output.txt:39)
+      BEFORE 2026-09-12: results.json said UNRESOLVED and recorded h1 = {0,0,0,0,0,0}
+      for the six E6 exponents -- a failed relator check from an older code version.
+    [OK ] results.json NOW says RESOLVED-A, h1={1, 1, 1, 1, 1, 1}
+      => REGENERATED from the committed compute.py, 2026-09-12. Pair agrees.
 
   (2) W2-270 -- settled by READING, and the direction is REVERSED:
-    [OK ] output.txt says UNRESOLVED (=> EXTERNAL)  (output.txt:63)
-    [OK ] and gives as obstruction (a) that depths 9-11 DID NOT COMPLETE  (output.txt:65)
-    [OK ] results.json says RESOLVED-B, and CONTAINS the depth 7-11 sequence: 5 entries, plus an Aitken extrapolation
-      The JSON holds exactly the data output.txt says did not finish.
-      => HERE THE OUTPUT.TXT IS THE STALE ARTIFACT.
+      BEFORE 2026-09-12: output.txt said 'VERDICT: UNRESOLVED (=> EXTERNAL).' and gave as
+      obstruction (a) that 'depth 9-11 recomputation did not complete' -- while its
+      results.json already CONTAINED that depth 7-11 sequence. The TEXT was the stale side.
+    [OK ] output.txt NOW says RESOLVED-B  (output.txt:61)
+    [OK ] results.json says RESOLVED-B, depth 7-11 sequence: 5 entries
+      => REGENERATED (860.0s, depths 7..11 all completed). Pair agrees.
       last commit touching results.json  : 2026-08-25 17:39:12 +0200
       last commit touching output.txt    : 2026-08-25 17:39:12 +0200
       Both committed in the SAME commit, already inconsistent.
 
   (3) W4-017r -- the JSON was written MID-RUN and never rewritten:
     [OK ] output.txt says RESOLVED-A  (output.txt:127)
-    [OK ] after a 598.6-second run  (output.txt:130)
-    [OK ] results.json says PENDING_PART_B and its ONLY result key is ['part_A']
-      => THE JSON IS THE STALE ARTIFACT (part B ran; the file predates it).
+    [OK ] after a full run (598.6s before the regeneration; 474.8s after)  (output.txt:130)
+      BEFORE 2026-09-12: results.json said PENDING_PART_B and its ONLY result key was
+      ['part_A'] -- a snapshot taken between part A and part B, never rewritten.
+    [OK ] results.json NOW says RESOLVED-A, keys ['cell', 'verdict', 'reason', 'part_A', 'part_B', 'runtime_s']
+      => REGENERATED from the committed compute.py (474.8s). Pair agrees.
 
 ==============================================================================
 ALL ASSERTIONS HOLD AT THIS HEAD.
