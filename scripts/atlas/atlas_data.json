@@ -7485,9 +7485,13 @@
   "B1341": {
    "slug": "the action of the object",
    "motifs": [
+    "arrow",
+    "monoid",
     "measurement",
+    "closing",
     "naming",
     "choice",
+    "coupling",
     "action",
     "feedback",
     "figure_eight",
@@ -7507,10 +7511,73 @@
     "B21",
     "B37",
     "B448",
+    "B497",
+    "B6",
     "P0"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1342": {
+   "slug": "the unseen faces",
+   "motifs": [
+    "arrow",
+    "monoid",
+    "measurement",
+    "closing",
+    "action",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "symplectic",
+    "apolynomial",
+    "wrt_quantum",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B258",
+    "B309",
+    "B312",
+    "B496",
+    "B497",
+    "B518",
+    "B730",
+    "P0",
+    "S063"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1343": {
+   "slug": "deriving the other faces",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B448",
+    "B727",
+    "B730",
+    "P0"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },

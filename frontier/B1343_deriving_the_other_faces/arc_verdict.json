@@ -1,0 +1,20 @@
+{
+ "id": "B1343",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "depends_on": [
+  "B727",
+  "B730",
+  "B1248",
+  "B1257",
+  "B1258",
+  "B1341",
+  "B1342"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [],
+ "claim_one_line": "DERIVING THE OTHER ADE FACES IS FREE AND THEREFORE EVIDENTIALLY EMPTY; ENRICHMENT HAS A TEST; AND THE ELLIPTIC BRIDGE IS CLOSED BY A THEOREM. The owner asked how to derive the remaining ADE faces from the substitution so as to see whether the programme's principles emerge or enrich. CORRECTION TO THE FORWARDED SURVEY FIRST: it lists 'singularity theory' among terms returning zero, but the face IS in the record -- spelled Brieskorn-Slodowy / Slodowy slice / surface singularity (B1257 PROVED, B1258 NEGATIVE); elliptic surfaces, Kronheimer, ADHM and Nakajima do genuinely return zero. THE STRUCTURE: the chain is substitution -> abelianisation in GL2(Z) -> trace map -> kappa -> Q(sqrt-3) -> 2T -> E6 by McKay, and EVERY other ADE face is a standard functor F applied to the SAME 2T (Kleinian singularity, ALE resolution, McKay quiver, Kodaira IV* fibre, the Minahan-Nemeschansky D3 probe). So 'can we derive them' answers YES TRIVIALLY, which is exactly B727's fence landing. THE BLINDNESS INHERITANCE, the general answer, from B1258's '2T is too small: its eigenvalues are 12th roots of unity and the two decompositions are congruent modulo exactly that': ANY FACE THAT IS A FUNCTOR OF 2T ALONE INHERITS 2T'S BLINDNESS -- it can supply a HOME (a 4-manifold, a chi != 0, an SCFT) but cannot DECIDE anything 2T cannot decide. So 'emerge' is guaranteed and worthless, and 'enrich' means CONSUMING DATA THE SUBSTITUTION SUPPLIES BEYOND 2T: kappa = -2 (the leaf, the Markov surface), the golden lam^2-lam-1, det = -1 (the orientation bit), the specific monodromy L.R, and the stratum (1 of 4). That is a checkable test per face. RUN ON THE HIGHEST-RANKED CANDIDATE, the elliptic/Kodaira face, which genuinely returns zero in the corpus: (Q1) every Kodaira singular-fibre monodromy is quasi-unipotent, det +1 and |trace| <= 2, verified by enumerating the classification; (Q2) the object's monodromy L.R = [[2,1],[1,1]] has TRACE 3, hence is HYPERBOLIC, hence is conjugate to NO Kodaira fibre monodromy -- the obvious bridge 'the object's monodromy IS a degeneration' is CLOSED BY THE MONODROMY THEOREM; (Q3) no iterate escapes, the traces of (L.R)^k being 3, 7, 18, 47, 123, 322, 843, 2207, the even Lucas numbers and the record's own tower, all > 2; (Q5) the near-miss is KILLED not admired -- the HALF step has trace 1 matching Kodaira II*, but det -1 against II*'s +1 so they are not conjugate, and II* is E8~ not E6~ so even the coincidence points at the wrong group; (Q4) where the face DOES touch the object is the FIELD: the IV* (= E6~) monodromy has order 3, char poly lam^2+lam+1, eigenvalue field Q(zeta_3) = Q(sqrt-3), EXACTLY the object's forced 'being' face (B730). Since the remaining content is the lattice E6 < NS(S), which is F(2T), THE ELLIPTIC FACE IS DERIVABLE AND CANNOT ENRICH: it would supply a compact chi = 12 home for E6 -- a genuine want -- and zero new constraint. THE MAP FOR THE OTHER TWO: Minahan-Nemeschansky's free data are the E6 mass parameters, the same Cartan the record already cannot fix (JOIN 2, 0/19), so no new leverage; KRONHEIMER/ALE is the ONE well-posed opening, because Kronheimer's theorem makes ALE hyperkahler spaces correspond to (Gamma, zeta in R^3 (x) h) and 2T fixes only the diffeomorphism type, leaving the DEFORMATION PARAMETER zeta as the sole free datum -- so 'does the substitution supply zeta?' is the single question of the three where an object-specific datum has anywhere to land. NOT ANSWERED HERE. HONEST CAUTION: all three are standard well-populated literature; nothing here connects the figure-eight's arithmetic to them, and the computed no-go is evidence that such a connection is HARDER than it looks, not easier. No new physics is claimed."
+}
