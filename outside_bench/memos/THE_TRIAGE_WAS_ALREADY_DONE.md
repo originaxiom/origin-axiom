@@ -101,3 +101,27 @@ arc, `open_claim_sweep.py` shipped and unrun, and now the triage table itself.**
 > **The rule this adds:** before this bench builds an audit instrument, it greps
 > `frontier/**` for an arc that already ran that audit. Not the same as
 > `already_banked.py` on the *subject* — this is a search for the **instrument**.
+
+---
+
+## ADDENDUM 1 (2026-09-12, same session) — §4's ownership sentence is CORRECTED
+
+§4 of this memo reads: *"**The write-back step has no owner.**"* **That is too broad and
+is corrected here; the memo is not rewritten.**
+
+Memo 209 examined the 28 hits §4's closing paragraph left unexamined, and found the loop:
+
+- **`docs/HARVEST_LEDGER.md` is a working write-back loop.** The one stale row found on
+  `GRAND_COMPUTATION_LEDGER` — I3, still reading *"THE DESIGNED CROSSING, never run"*
+  against this bench's own memo 136 (*"NOT FIREABLE"*) — is **already in it**, at `:417`,
+  marked **SCHEDULED** with a reason and a deadline: *"no main text names it — the slice D
+  backlog, read before Review 57."*
+- **`docs/OPEN_PROBLEMS.md` gate D does it unprompted**, with a dated currency note
+  warning the next reader that *"a future session tempted to reuse B1085/B1095's code …
+  must re-derive the non-self-adjoint case fresh."*
+
+> **The corrected sentence: the programme HAS a write-back loop, it works, and it tracks
+> its own backlog with reasons. `docs/OPEN_LEADS.md` is outside it.**
+
+**What stands unchanged:** the count of eleven leads, the 17/10/7 split, every quoted
+decider, and the fence that the rows are wrong about status and not about content.

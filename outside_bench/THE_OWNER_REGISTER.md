@@ -3268,3 +3268,60 @@ cost this bench two turns ago.
 **Not claimed:** that eleven is the complete set. One file was tested against one triage
 table and five hand reads; `open_claim_sweep` flags **52** claims across **twelve
 surfaces**, and **28 of those lie outside `OPEN_LEADS` and were not examined.**
+
+---
+
+## R117 — "you can push maybe only on important results so we dont trigger full test suite and slow the progress" (2026-09-12)
+
+**Asked:** *"you can push maybe only on important results so we dont trigger full test suite
+and slow the progress."*
+
+### R117-1 — a STANDING CONSTRAINT IS CHANGED, and it supersedes an older one
+
+The bench has carried, since early in this collaboration: **"push everything as you go;
+`git rev-list --count origin/<branch>..<branch>` = 0 at the end of every turn."**
+
+> **SUPERSEDED by the owner's word, 2026-09-12. The rule now reads: COMMIT as you go —
+> every turn still ends with a clean, fully committed tree, which the stop hook requires
+> and which nothing in this change touches — but PUSH only when a result is worth a CI
+> run.** The unpushed count at end of turn may be non-zero.
+
+**Worth a push:** a banked memo with a certificate; a correction to an already-pushed
+memo; anything the owner asked for. **Not worth a push on its own:** bookkeeping, an
+INDEX row, a register addendum with no memo behind it, a work-in-progress certificate.
+
+### R117-2 — what this turn produced under the new rule
+
+**Memo 209**, and an **addendum that corrects memo 208** — pushed together, because a
+correction to a pushed memo is exactly the case the rule keeps.
+
+Memo 208 left 28 sweep hits unexamined on eleven surfaces and framed them as a backlog.
+**They are mostly not.**
+
+| | of the 28 |
+|---|---|
+| **genuinely stale** | **2** — `THE_SPINE`'s `B171` (answered by B172) and `B1130` (answered by B1133, *"RESOLVED single-end"*) |
+| correct as written | 1 — `THE_SPINE`'s `B1156`: the arc's own verdict really is OPEN |
+| exemplary | 1 — `OPEN_PROBLEMS` gate D, with a dated currency note warning the next reader off B1085/B1095's numbers |
+| tracked-pending | 1 — `GRAND_COMPUTATION_LEDGER` I3, stale against **this bench's own memo 136**, and **already SCHEDULED** in `HARVEST_LEDGER.md:417` |
+| benign self-citation | 23, **by classification, not individually verified** |
+
+### R117-3 — the rule that makes the sweep usable
+
+`open_claim_sweep.py` ranks by shared-term IDF, so **a verdict document scores high
+against the arc that produced its verdict by construction.** `LAW_MAP`'s seven hits are
+law rows naming their deciders *inside the row*.
+
+> **A sweep hit is a true positive only when the surface's claim carries an OPEN /
+> never-run / unresolved status AND the arc settles that same question.** Without this,
+> the sweep's 52 read as 52 debts; with it, the debts are few and findable.
+
+### R117-4 — and memo 208's diagnosis is CORRECTED, by addendum
+
+Memo 208 said *"the write-back step has no owner."* **Too broad.** `HARVEST_LEDGER.md` is
+a working loop that already tracks I3's correction with a reason and a deadline;
+`OPEN_PROBLEMS` gate D does the write-back unprompted.
+
+> **Corrected: the programme HAS a write-back loop, it works, and it tracks its own
+> backlog. `docs/OPEN_LEADS.md` is outside it.** Actionable, and supported by the files.
+> Memo 208's count of eleven and its 17/10/7 split stand unchanged.
