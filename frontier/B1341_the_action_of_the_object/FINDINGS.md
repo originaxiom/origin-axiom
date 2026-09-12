@@ -210,3 +210,73 @@ the part no single arc had:
 
 Three faces of one det = −1. The arc's verdict stays **PROVED**, on the theorem and this join; the
 Markov and det-−1 observations are re-credited to B448 and claimed by nobody here.
+
+---
+
+# SECOND ADDENDUM — B6 AND THIS ARC ARE ONE NUMBER, AND THE PRODUCT HAS A REFERENT AFTER ALL
+
+Found by applying the discipline the first addendum registered. **Main's newest commit is B1247,
+*"the index was keyed on NOUNS and every question asked of it was a VERB"*** — the same failure mode,
+diagnosed on main the same week. Its text names two arcs:
+
+> *"B497 — the four-stratum monoid, the programme's only irreversibility structure — sat SEVEN WEEKS
+> while B1157 concluded 'the object supplies no parameter-free dynamical law' WITHOUT CITING IT; and
+> **B6, holding the very kinetic term B1157 lists as missing**, on ZERO surfaces since week one."*
+
+So B6 was read — **to its claim line**.
+
+## B6, OPEN since week one, is an Euler–Lagrange equation
+
+> `□τ + κ(τ² − τ − 1) = 0`, from `L = ½(∂τ)² − V(τ)` with the **derived** potential
+> `V(τ) = κ(τ³/3 − τ²/2 − τ)`; stationary points `τ = φ` (stable) and `τ = −1/φ` (unstable).
+> B6's own fence: *"the potential is derived; the field theory is a natural but not unique
+> extension … the lift is a **CHOICE**."*
+
+## The join, verified (`verification/b1341b_b6_join.py`, four checks + a control)
+
+| | |
+|---|---|
+| **J1** | B6's stationary polynomial `τ² − τ − 1` **is** `char(C)` for `C = L·P` — B448's half-monodromy, this arc's genesis morphism. Not a second appearance of the golden ratio: **the same polynomial** |
+| **J2** | B6's stationary points are exactly `−1/φ` and `φ`, and their **product is −1 = det(C)** — the very determinant §3 proves forbids a discrete Lagrangian |
+| **J3** | and they are the eigenvalues of the **obstructed** map. The monodromy `C²` has eigenvalues `φ²`, `φ⁻²`, product **+1** — unobstructed |
+| **J4** | **control:** the silver morphism gives `λ² − 2λ − 1`, a different polynomial. The match is object-specific and could have failed |
+
+## What it says
+
+B6 fenced its result and located the freedom **in the kinetic term**. This arc names what sits
+underneath that freedom:
+
+> **At the level the object actually supplies — a discrete map on a surface — there is no Lagrangian
+> at the half step to lift. And the number that forbids one is the product of B6's own stationary
+> points.**
+
+B6's "the lift is a choice" is therefore not only a statement about kinetic-term conventions. The
+thing being lifted is anti-variational at the step where the object's own stationary points live.
+
+**One number, −1, wearing four names in this record:**
+
+| name | where |
+|---|---|
+| *"the product of creation is inversion"*, `λ·σ(λ) = −1` | `CRYSTALLIZATION_2026-07-09` |
+| `φ · (−1/φ)`, the product of the field equation's stationary points | **B6** |
+| `det(C)` for the det-−1 half-monodromy `C = [[1,1],[1,0]]` | **B448** |
+| the anti-symplectic obstruction to a discrete Lagrangian | **this arc** |
+
+## And this gives "the product" a referent — correcting `THE_ROLES_ACCOUNTING`
+
+That document, banked hours earlier today, lists **the product** as *"the one named role with no
+referent — 74 corpus hits, zero settled arcs, a phrase rather than an object."* **That is now wrong
+and is corrected there.** The product has a referent: it is `det(C) = φ·σ(φ) = −1`, and it is the
+obstruction. The phrase was not empty; it was **unindexed**.
+
+## The instrument, extended rather than only registered
+
+B1247 added seven question-motifs — arrow, monoid, measurement, closing, naming, choice, coupling.
+It added **no word for *action* or *feedback***, and that gap cost this session directly. Two motifs
+added here on the same pattern and re-mined: **`action` → 74 probes, `feedback` → 12**. Verified by
+retrieval and locked by test: B6, B21, B1157, B497 and this arc all return under `action`; B37 and
+this arc under `feedback`; and **B1157 and B6 — the pair B1247 names as un-joined — now share a
+motif**, so a seat asking *"is there an action?"* gets both.
+
+The `feedback` motif matches the **phrase** "markov blanket" and never bare "markov", honouring
+campaign row **X31**'s hazard: in this corpus bare "markov" overwhelmingly means Markov *triples*.
