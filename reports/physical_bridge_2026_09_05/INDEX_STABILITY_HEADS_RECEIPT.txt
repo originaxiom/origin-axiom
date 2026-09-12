@@ -1,0 +1,66 @@
+R26 current-head presence receipt, September 12, 2026.
+Display branch names replaced by aliases; commits and counts unchanged.
+This existing instrument checks deleted paths, not all deleted contents.
+The separate full historical blob receipt supplies that missing search.
+
+ABSENCE SWEEP for 'Fredholm|Atkinson|Rellich|compact.{0,24}perturb|perturb.{0,24}index|index.{0,24}stabil|curv.{0,30}chiral|back.?reaction' -- 12 heads enumerated
+  head_00                        ec038748  content:  43  filenames:  2
+      ec038748:CHANGELOG.md
+      ec038748:PROGRESS_LOG.md
+      ec038748:docs/CAMPAIGN_STATUS.md
+      reports/physical_bridge_2026_09_05/INDEX_STABILITY_PRIOR.md
+      reports/physical_bridge_2026_09_05/INDEX_STABILITY_PRIOR_SWEEP.json
+  head_01                                                    f06d3405  content:  16  filenames:  0
+      f06d3405:CHANGELOG.md
+      f06d3405:PROGRESS_LOG.md
+      f06d3405:docs/ERROR_LEDGER.md
+  head_02                      53da05f6  content:  14  filenames:  0
+      53da05f6:CHANGELOG.md
+      53da05f6:PROGRESS_LOG.md
+      53da05f6:docs/ERROR_LEDGER.md
+  head_03                 ec038748  content:  43  filenames:  2
+      ec038748:CHANGELOG.md
+      ec038748:PROGRESS_LOG.md
+      ec038748:docs/CAMPAIGN_STATUS.md
+      reports/physical_bridge_2026_09_05/INDEX_STABILITY_PRIOR.md
+      reports/physical_bridge_2026_09_05/INDEX_STABILITY_PRIOR_SWEEP.json
+  head_04                        3851df2a  content:  14  filenames:  0
+      3851df2a:CHANGELOG.md
+      3851df2a:PROGRESS_LOG.md
+      3851df2a:docs/ERROR_LEDGER.md
+  head_05                             a445e657  content:  22  filenames:  0
+      a445e657:CHANGELOG.md
+      a445e657:PROGRESS_LOG.md
+      a445e657:docs/ERROR_LEDGER.md
+  head_06                 8bf2c443  content:  16  filenames:  0
+      8bf2c443:CHANGELOG.md
+      8bf2c443:PROGRESS_LOG.md
+      8bf2c443:docs/ERROR_LEDGER.md
+  head_07            659487bb  content:  20  filenames:  0
+      659487bb:CHANGELOG.md
+      659487bb:PROGRESS_LOG.md
+      659487bb:docs/ERROR_LEDGER.md
+  head_08          1703c0d8  content:  17  filenames:  0
+      1703c0d8:CHANGELOG.md
+      1703c0d8:PROGRESS_LOG.md
+      1703c0d8:docs/ERROR_LEDGER.md
+  head_09                                  f7a49536  content:  14  filenames:  0
+      f7a49536:CHANGELOG.md
+      f7a49536:PROGRESS_LOG.md
+      f7a49536:docs/ERROR_LEDGER.md
+  head_10                                             b94ed03a  content:  16  filenames:  0
+      b94ed03a:CHANGELOG.md
+      b94ed03a:PROGRESS_LOG.md
+      b94ed03a:docs/ERROR_LEDGER.md
+  head_11                    a31456d2  content:  14  filenames:  0
+      a31456d2:CHANGELOG.md
+      a31456d2:PROGRESS_LOG.md
+      a31456d2:docs/ERROR_LEDGER.md
+  deleted-in-history paths matching: 0
+  working tree (untracked included): 48
+      CHANGELOG.md
+      PROGRESS_LOG.md
+      docs/CAMPAIGN_STATUS.md
+      docs/ERROR_LEDGER.md
+      docs/LAW_MAP.md
+VERDICT: PRESENT -- on 12 head(s), working tree. 'We don't have it' may NOT be written.
