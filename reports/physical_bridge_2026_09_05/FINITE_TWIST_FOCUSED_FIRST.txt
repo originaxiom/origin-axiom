@@ -1,0 +1,30 @@
+..................FF...............                                      [100%]
+=================================== FAILURES ===================================
+_ test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp _
+
+witness = {'V': {'a0': 0, 'a1': 1, 'a2': 1, 'checks': {'relator_boundary_zero': True, 'restriction_is_cocycle': True, 'restricti...o': True}, ...}, 'base_pairing_invariant': True, 'candidate_pairs_examined': 2300, 'character': {'a': 4, 'b': 12}, ...}
+
+    def test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp(witness):
+>       assert witness['generated_algebra_dimension'] == 16
+E       assert 9 == 16
+
+tests/test_physical_bridge_finite_twist.py:90: AssertionError
+____ test_non_self_duality_has_an_actual_obstruction_and_dual_character_map ____
+
+witness = {'V': {'a0': 0, 'a1': 1, 'a2': 1, 'checks': {'relator_boundary_zero': True, 'restriction_is_cocycle': True, 'restricti...o': True}, ...}, 'base_pairing_invariant': True, 'candidate_pairs_examined': 2300, 'character': {'a': 4, 'b': 12}, ...}
+
+    def test_non_self_duality_has_an_actual_obstruction_and_dual_character_map(witness):
+>       assert witness['intertwiner_dimension'] == 0
+E       assert 1 == 0
+
+tests/test_physical_bridge_finite_twist.py:99: AssertionError
+=============================== warnings summary ===============================
+tests/test_physical_bridge_finite_twist.py::test_received_finite_field_positive_is_recomputed_with_both_cochain_maps
+  <scientific-python>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_finite_twist.py::test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp
+FAILED tests/test_physical_bridge_finite_twist.py::test_non_self_duality_has_an_actual_obstruction_and_dual_character_map
+2 failed, 33 passed, 1 warning in 74.68s (0:01:14)
