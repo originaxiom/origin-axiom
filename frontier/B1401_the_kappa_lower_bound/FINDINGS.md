@@ -118,3 +118,83 @@ number in this arc. Recorded so the withdrawal is not mistaken for a gap.
 Nothing reaches `CLAIMS.md`, F2 or Gate 5. **No value is compared to any measurement** — these are
 invariants of manifolds, not couplings, and no physical reading is proposed. The Jørgensen-number
 identifications in §4 are stated **with their unproved step named**.
+
+---
+
+# ADDENDUM 1 — THE GENERATING STEP, CLOSED FOR FOUR OF FIVE; AND §4's "ALL FIVE" IS CORRECTED
+
+§4 left one proviso: *"provided the meridian pair generates."* That proviso is now discharged for
+**four** of the five — **and for m202 the pair I actually used turned out NOT to generate**, so §4's
+"attained for all five" was, as written, unsupported for one manifold. Corrected below.
+
+## 1. The meridian words settle three immediately
+
+| manifold | `meridian(0)` | argument |
+|---|---|---|
+| **m004** | `ab` | `a⁻¹·(ab) = b`, so `⟨ab, a⟩ = ⟨ab, b⟩ = ⟨a,b⟩` — **PROVED** |
+| **m009** | `ab` | same — **PROVED** |
+| **v2873** | `BA` `= (ab)⁻¹` | `⟨(ab)⁻¹, x⟩ = ⟨ab, x⟩` — **PROVED** |
+| m003 | `ABABB` | `a` occurs twice; not immediate |
+| m202 | `bbAbA` | not immediate |
+
+## 2. THE CORRECTION: m202's meridian pairs provably do NOT generate
+
+A **necessary** condition: `⟨P, x⟩ = π₁` forces the images of `P` and `x` to generate `H₁`. Computed
+from exponent vectors against the abelianised relators:
+
+| manifold | pair | index in `H₁` | verdict |
+|---|---|---|---|
+| m003 | `(mer, a)` | 1 | allows |
+| m003 | `(mer, b)` | **2** | **FORBIDS** |
+| **m202** | `(mer, a)` | **3** | **FORBIDS** |
+| **m202** | `(mer, b)` | **2** | **FORBIDS** |
+
+> **So for m202 both meridian pairs fail a necessary condition.** The pair §4 exhibited is not a
+> generating pair, contributes nothing to the infimum, and yields **no** upper bound on `J`.
+> **§4's claim of attainment "in all five" is withdrawn as stated.**
+
+## 3. …and attainment is RECOVERED, from other parabolics
+
+The meridian is not the only parabolic: on a cusp the whole peripheral subgroup is parabolic, and
+m202 has **two** cusps. Searching meridians and longitudes on every cusp:
+
+| manifold | parabolic | pair | `H₁` test | `|κ−2|` | generation |
+|---|---|---|---|---|---|
+| **m202** | `longitude(0) = 'bba'` | `(bba, b)` | passes | **7.000000** | **PROVED**: `b⁻²·(b²a) = a` |
+| **m202** | `meridian(1) = 'bbAb'` | `(bbAb, b)` | passes | 7.000000 | **PROVED**: `b⁻²·(bbAb)·b⁻¹ = a⁻¹` |
+| m003 | `longitude(0) = 'ABAbab'` | `(lon, a)` and `(lon, b)` | both pass | 4.000000 | not proved |
+| m003 | `meridian(0) = 'ABABB'` | `(mer, a)` | passes | 4.000000 | not proved |
+
+**m202 is therefore PROVED after all** — via the *longitude* (or the second cusp's meridian), not the
+first meridian. **m003 remains the one open case:** three candidate pairs pass the necessary
+condition and reproduce `κ = 4`, but none has a word from which the missing generator is immediately
+recoverable (`ABABB` and `ABAbab` each contain `a` more than once), so generation is **not proved**.
+
+## 4. The corrected statement, with the two directions kept apart
+
+The two bounds have *different* status and §4 bundled them:
+
+**UPPER, `J ≤ |κ−2|` — now ESTABLISHED for four of five** (m004, m009, v2873, m202), by exhibiting a
+parabolic **generating** pair whose Jørgensen sum is `0 + |κ−2|`. Conditional for **m003** only.
+
+**LOWER, `J ≥ |κ−2|` — still conditional for four of five.** It needs `κ` constant over *all*
+generating pairs, not merely the Nielsen class (§3's E72 caveat), and nothing here touches that.
+
+**The exception, and it is the interesting one: m004 needs neither proviso.** Jørgensen's inequality
+gives `J ≥ 1` **unconditionally**, and `|κ−2| = 1`, so the lower bound is free:
+
+> ### `J(m004) = 1` is fully established, with no open premise. It is the only one of the five that is.
+> That is exactly because m004 sits at the **floor** of Jørgensen's inequality — which is what makes
+> B309's `|κ−2| = 1` a *unit* obstruction rather than merely a small one, and why m004 is the case
+> Callahan could settle.
+
+For the other four the honest form is: **`J ≤ |κ−2|` (proved, except m003), with equality if and only
+if no Nielsen-inequivalent generating pair carries a smaller `κ`.**
+
+## 5. What I got wrong, plainly
+
+§4 said "attained in all five, provided the meridian pair generates". Two defects: the proviso was
+stated once but needed **per manifold**, and for m202 it is **false** for the pair I used. The fix
+strengthens the result for four manifolds and isolates m003 — but the original sentence asserted
+more than the computation supported, and the abelianisation test that caught it is three lines long
+and should have been in §4.
