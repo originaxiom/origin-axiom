@@ -1,0 +1,10 @@
+[B3] m=3 system degrees: [10, 3, 13, 3]
+[B3] computing lex Groebner basis (eliminating x, y)...
+[B3] basis size 3; univariate-in-z elements: 1
+[B3] eliminant factors (deg, mult): [(1, 2), (2, 1), (8, 1)]
+[B3] fixed points recovered: 3
+[B3]   deg-1 orbit (0, 0, 0) types ('ELLIPTIC', 'ELLIPTIC', 'ELLIPTIC') -> trivial
+[B3]   deg-2 orbit (-1, -1, 1/2 - sqrt(7)*I/2) types ('ELLIPTIC', 'ELLIPTIC', 'loxodromic') -> non-geometric
+[B3]   deg-2 orbit (-1, -1, 1/2 + sqrt(7)*I/2) types ('ELLIPTIC', 'ELLIPTIC', 'loxodromic') -> non-geometric
+
+==== B3 done: m=3's complete variety, typed ====

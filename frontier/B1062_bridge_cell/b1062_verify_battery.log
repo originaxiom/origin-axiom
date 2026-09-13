@@ -1,0 +1,21 @@
+=== (2) MONODROMY CONVENTION ===
+  m=1 abelianized monodromy: [[2, 1], [1, 1]]  det=1  tr=3
+  matches banked m004 monodromy [[2,1],[1,1]] up to conjugacy (tr 3 = 3, det 1 = 1): True
+  m=2: tr=6 det=1 (expected tr=m^2+2=6, det=1): True
+  m=3: tr=11 det=1 (expected tr=m^2+2=11, det=1): True
+=== (1) THE KILL, MY OWN DERIVATION ===
+  Markov value: 0 (must be 0): True
+  tr[a,b] = -2 (must be -2): True
+  eigenvalues of tr=-1 element: [-1/2 - sqrt(3)*I/2, -1/2 + sqrt(3)*I/2]; lambda^3 = [1, 1] (both 1 => order 3 in SL up to sign): True
+  free-group faithfulness contradiction: rho(a)^3 = I while a^3 != 1 in F2 -> NOT faithful. KILL VERIFIED INDEPENDENTLY.
+=== (3) ORIGINAL-SYSTEM RESIDUALS ===
+  m=1 residuals all zero: True  ([0, 0, 0, 0])
+  m=2 residuals all zero: True
+  m=3 (elliptic pair) residuals all zero: True
+=== (4) m=2 FIELD DEGREE, SECOND PRIMITIVE ===
+  second primitive's degree: 8 (first gave 8): True
+=== (5) TYPES FROM EIGENVALUES ===
+  m=1 triple types: ['loxodromic(|lam|!=1)', 'loxodromic(|lam|!=1)', 'loxodromic(|lam|!=1)']
+  m=2 triple types: ['loxodromic(|lam|!=1)', 'loxodromic(|lam|!=1)', 'loxodromic(|lam|!=1)']
+  m=3 elliptic-pair types: ['elliptic-or-parabolic(|lam|=1)', 'elliptic-or-parabolic(|lam|=1)', 'loxodromic(|lam|!=1)']
+==== BATTERY DONE ====
