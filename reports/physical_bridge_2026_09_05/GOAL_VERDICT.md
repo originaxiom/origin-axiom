@@ -1,6 +1,21 @@
-# Verdict toward the full physical-theory goal — 2026-09-12, after path-local R27
+# Verdict toward the full physical-theory goal — 2026-09-13, after path-local R28
 
-**Latest local audit, R27: [geometric zeros and an exact complex positive](FINITE_TWIST.md).**
+**Latest local result, R28: [fixed-source action and the cost of resolving it](SOURCE_ACTION.md).**
+The prescribed background is stationary with zero static BPS potential
+in the adopted twisted bulk theory on the source complement. Source
+residues and through-flux changes instead have divergent 4D kinetic
+norms in its fixed metric. A specified commuting core has the sharp
+bare D-term bound 4*pi*L*beta^2/sinh(epsilon)^2; an external moment-map
+source changes that functional and remains input. This supplies bulk
+compatibility, not a physical defect, selected fermion domain or quantum
+anomaly completion. R19's conditional three/zero kernel is retained.
+The new trace-map “no action” wording is also narrowed by explicit
+time-dependent and enlarged-state actions; its anti-Poisson fact stands.
+20 new tests pass; 33 focused and 404 broad passes. The broad 16 failures/
+8 errors have exactly R27's IDs, with no added or missing failure.
+No full-green repository, independent bank or complete TOE is claimed.
+
+**Preceding local audit, R27: [geometric zeros and an exact complex positive](FINITE_TWIST.md).**
 A finite-cover application of the published restriction theorem proves
 zero interior cohomology for nontrivial geometric symmetric powers with
 finite twists. Independently, the received finite-field +1 index lifts

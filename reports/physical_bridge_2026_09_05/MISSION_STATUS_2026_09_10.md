@@ -2,14 +2,14 @@
 
 This is a status checkpoint of the audit branch, not a new scientific
 seal or a certificate for the whole repository. The latest completed
-local scientific round is R27. All ten remote heads were fetched again
-on September 12 UTC. Main remains b94ed03a, SM 1703c0d8 and physics
-659487bb. The final fetch advances outside to 24d73610 and paper review
-to c83b6b80; their [new findings and scope duties](INDEX_STABILITY_INTAKE.md)
-were read at R26; R27 now independently reproduces the specified
-finite-field index/cup example and its exact complex lift, with the
-domain correction described below. Other received claims are not
-thereby certified. The earlier paper-review forced
+local scientific round is R28. All ten remote heads and tags were
+fetched again on September 13. Main remains b94ed03a, SM 1703c0d8 and
+physics 659487bb; outside advances to 82896898 and paper review to
+f52e7e6f. The [new intake and retrieval](SOURCE_ACTION_PRIOR.md) states
+which bodies and producers were actually read. R28 checks the incoming
+action-scope claim, not every new result. R27's exact index/cup example,
+complex lift and domain correction are preserved below. Other received
+claims are not thereby certified. The earlier paper-review forced
 update and its old/new tips remain in
 the [preceding intake ledger](RELAY_TRIAGE_2026_09_12.md). Received work is not
 treated as independently verified merely because it was fetched.
@@ -42,7 +42,40 @@ conditional robustness of the charged index under specified localized
 curvature, and of the pair-free kernel below the original gap. It does
 not yet show that a stationary coupled solution has those properties.
 
+R28 now establishes the narrower STATIC BULK part: the original
+prescribed field is stationary with zero BPS potential in the adopted
+twisted theory on the source complement. The source parameters are
+not thereby dynamical: changing residues or through-flux has divergent
+4D kinetic norm, and a specified smooth commuting core has a sharp
+bare D-term cost. A physical defect, its end/domain laws and quantum
+anomaly completion are still required. [Source-action result](SOURCE_ACTION.md).
+
 ## Results actually obtained
+
+### The action test distinguishes a valid background from its source
+
+The static functional is built from derivatives of the Higgs ONE-FORM,
+not an electrostatic energy for the auxiliary potential F. Its residuals
+vanish on the prescribed source complement. Exact metric, Hessian and
+boundary checks prevent a divergent rough-energy term from becoming a
+false static-action kill. Source-strength and through-flux variations
+are nevertheless nonnormalizable in the adopted fixed-metric kinetic
+term; zero bulk energy does not make them ordinary 4D moduli.
+
+For a specified fixed-flux commuting geodesic core with no axial-cap
+flux, the bare D-residual has minimum
+4*pi*L*beta^2/sinh(epsilon)^2. A regular profile attains it. An EXTERNAL
+moment-map density removes the residual in a changed functional, so
+this is a constraint on a particular resolution, not a no-go for all
+defects. The next construction must supply the density's actual fields,
+gauge-covariant source/end action and consistent quantum response.
+
+The same round also narrows B1341's unrestricted action negative:
+explicit time-dependent and enlarged-state stationary actions exist
+for the half-step/full trace map. Its regular-autonomous same-state
+obstruction, anti-Poisson identity and geometric monodromy remain.
+Neither a discrete action nor a static bulk solution is a complete
+four-dimensional physical theory. See [R28](SOURCE_ACTION.md).
 
 ### The latest audit preserves a positive and corrects its domain
 
@@ -168,6 +201,13 @@ class membership, not whether curvature necessarily erases chirality.
 
 ## Questions and strategy
 
+R28 makes the first action question more precise: static bulk
+stationarity at fixed source data is established, not still awaiting
+a trial field. What is next is the dynamical, gauge-covariant source/end
+functional and its regulator/variation laws. Its actual solution and
+operator domain must then be tested against R18/R19/R26, with the full
+anomaly and gauge spectrum evaluated in the SAME construction.
+
 R27 sharpens the search population: finite twists of complete geometric
 symmetric powers have the stated vanishing theorem, regardless of the
 member's handedness. Nonsemisimple extension data can change an ordinary
@@ -193,9 +233,9 @@ remaining questions and the discriminating work for each.
 
 | Question | Next work | What would count as progress |
 |---|---|---|
-| Does an actual coupled solution preserve chirality? | R26 now supplies the conditional fixed-domain index theorem and separate small-norm pair-free bound. Derive the stationary solution and estimate its perturbation, gap, source behavior and gauge-sector map. | A solution proved to lie in a controlled stability class, not another unconstrained trial connection. |
+| Does an actual coupled solution preserve chirality? | R28 establishes the prescribed static bulk solution; supply dynamical source/end equations and test their solution against R26's domain, perturbation, gap and gauge-sector hypotheses. | A controlled complete sourced solution, not just the already stationary bulk field or another trial connection. |
 | Can the same theory be quantum-consistent without light mirrors? | Derive a source/end action or coupled Higgs/current mechanism; recompute spectrum, full anomaly and gauge coupling together. | Consistent gauge variation and spectrum in one model, not a cancellation supplied by unrelated added fields. |
-| Why these sources, amplitudes, domain and holonomy? | Identify genuine observable choices after gauge equivalence; derive defect equations, variational boundary laws and any selector. | A mechanism producing the declared background, or an honest reduced input count in a conditional theory. |
+| Why these sources, amplitudes, domain and holonomy? | R28 separates zero bulk potential from nonnormalizable source parameters and a sharp specified-core cost. Derive source fields, regulator/counterterms, defect equations and variational boundary laws. | A mechanism producing the declared background, or an honest reduced input count; no selection is inferred from zero bulk potential. |
 | Does a usable four-dimensional limit exist? | Analyze neutral as well as charged modes, normalizability, continuum thresholds and interaction overlaps. | A controlled low-energy truncation with finite couplings and quantified unwanted light sectors. |
 | How do the gauge and matter constructions join gravity? | Require one action and field dictionary; check global groups, kinetic signs, physical gravitational modes and universal coupling. | A shared dynamical theory, not a spin-2 representation or a separately chosen Einstein action. |
 | Can it predict measurements? | Derive normalized couplings, symmetry breaking, masses and running; record adjustable inputs before comparison. | Falsifiable predictions with uncertainty and a specified scale, not fitted numerical coincidences. |
@@ -312,3 +352,11 @@ No original scientific assertion was silently relaxed.
 Work is committed and pushed on `audit/physical-bridge-2026-09-05`,
 not merged into main. No completed TOE, independently accepted main
 banking result or empirical validation is claimed by this checkpoint.
+
+R28 adds 20 passing new tests; the 33-test focused group is green.
+Its 50-file regression is 404 pass/16 fail/8 error in 365.51 seconds,
+with exactly R27's 24 failed/error IDs, no added or missing failure.
+Its pre-execution seal b3c7892c and complete raw captures are preserved.
+No scientific source, proof, design, assertion or tolerance was changed
+to obtain these results. Final reporting-gate status is carried in
+[the round report](SOURCE_ACTION.md), not inferred from focused success.

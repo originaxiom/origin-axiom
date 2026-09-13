@@ -1,0 +1,59 @@
+R28 reporting checks, September 13, 2026.
+All then-current reporting files staged; the tree stayed read-only during the gate run.
+Exit 1; 26 PASS / 4 FAIL; elapsed 14.267273000034038 seconds.
+The three prior attribution, test-vacuity and seal-provenance failures retain
+exactly their R27 detail strings. A fourth failure is the real-date relay-debt
+threshold: CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md is OPEN for 22 days.
+The ledger row assigns that specialist reading program to main after cc3 retired.
+Its body was not read here; the ledger and checker were read. The failed gate is
+retained, not closed by an unsupported disposition or a clock/baseline override.
+Review is due at 151 merges. This is not a full-green/independent-bank certificate.
+Latest-row artifact manifest during the check: 378 paths, zero mismatches.
+All 62 recorded design seals exist and recompute correctly.
+All seven R28 sealed scientific/prior/retrieval paths have empty diffs from b3c7892c.
+Public native/focused/regression copies equal raw captures after declared prefix
+redactions only; all three original raw SHA-256 digests match their run receipts.
+Regression failure/error IDs: R27 24, R28 24, zero added and zero missing.
+Identification audit: the same 9 UNEARNED rows, baseline 9 unchanged.
+Local-link check: 215 links in 16 staged plus 3 sealed Markdown files, zero unresolved.
+Authored staged whitespace passes; five raw regression trailing-space lines remain.
+Metadata-only diagnostics included an unsuccessful section-move patch, unmatched
+shell path patterns and a presumed root relay path. None changed scientific files.
+The first equality check against R27 gate failures correctly failed on the newly
+aged relay; actual counts and detail strings above replace the earlier expectation.
+This receipt is added after the gate run and separately hashed before commit.
+Raw gate log bytes: 1818.
+Raw gate log SHA-256: 8fb7dad4c0681346de7e06c2b0b8e9a7b4561a7767be8ed7de5acf5dffe76a40.
+Command: env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 <python3.12-env>/bin/python3.12 scripts/gates/gates.py
+
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 45 open |   relay-debt: 1 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 22 days (> 21), no ESCALATED marker
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 151 merges since last review (DUE — run the decadal review)

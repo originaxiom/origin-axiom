@@ -14778,3 +14778,33 @@ and two retained failures. The 49-file broad run is 384 pass/16 fail/
 exit receipts are preserved; no science files changed during runs.
 No new B allocation, main merge, PR, independent banking, full-green
 repository claim or complete physical TOE.
+
+## 2026-09-13 — R28: stationary bulk source field, kinetic norm and core-action constraints
+
+The prescribed commuting background has zero static BPS potential
+and is stationary in the adopted twisted bulk action on the source
+complement. This is not the electrostatic functional of the auxiliary
+potential F. Exact metric/Hessian/boundary checks distinguish it from
+a divergent rough-energy piece. Source-residue and through-flux
+variations have divergent 4D kinetic norms in the fixed metric.
+A specified commuting geodesic core with no axial-cap flux has sharp
+bare D-residual cost 4*pi*L*beta^2/sinh(epsilon)^2, attained by an explicit
+regular core. A prescribed moment-map source shifts that residual to
+zero in a changed functional; it remains external data, not a derived
+physical defect. R19's conditional three/zero kernel and R26's scoped
+stability are retained. Source/end dynamics and quantum anomaly
+completion remain open. Report: reports/physical_bridge_2026_09_05/SOURCE_ACTION.md.
+
+The new unrestricted trace-map action negative is corrected by explicit
+regular time-dependent and enlarged-state stationary actions, without
+withdrawing its anti-Poisson identity, geometric monodromy or properly
+scoped regular-autonomous same-state obstruction. A preserved area
+density also does not imply a coordinate Jacobian identically one.
+
+Seal b3c7892c was pushed before first execution. All 27 native controls
+and 20 new tests pass; 33 focused passes. The 50-file regression has
+404 passes, 16 failures and eight errors in 365.51 seconds; its 24
+failed/error IDs are EXACTLY R27's, zero added and zero missing.
+The tree was read-only during runs; original scientific files and
+raw outputs are retained. No main bank, B allocation, branch merge,
+PR, independent acceptance, all-green claim or completed physical TOE.

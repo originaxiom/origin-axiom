@@ -1,0 +1,83 @@
+{
+  "action": {
+    "const_norm": "8*pi**3",
+    "first": "0",
+    "gauge_norm": "4*lam**2 + 1",
+    "gauge_projection": "0",
+    "second": "2*a**2",
+    "sin_norm": "4*pi**3",
+    "sin_residual": "4*pi**3"
+  },
+  "checks": {
+    "action_form_convention": true,
+    "actual_halfstep_conjugacy": true,
+    "alternating_regular_action": true,
+    "bochner_boundary_exact": true,
+    "core_continuous_match": true,
+    "core_inverse_square_cost": true,
+    "core_saturates_cauchy_schwarz": true,
+    "cusp_laplace_zero": true,
+    "cusp_norm_primitive": true,
+    "declared_source_shift_works": true,
+    "dropping_alternation_fails": true,
+    "full_map_multiplier_action": true,
+    "gauge_cannot_cancel_cartan_velocity": true,
+    "metric_ricci_minus_two": true,
+    "nonuniform_core_cost": true,
+    "nonuniform_core_is_actual_profile": true,
+    "positive_compact_norm_and_potential": true,
+    "residue_log_coefficient": true,
+    "stationarity_at_zero_residual": true,
+    "through_flux_nonzero": true,
+    "trace_map_anti_poisson_retained": true,
+    "trace_map_invariant": true,
+    "tube_norm_primitive": true,
+    "tube_residual_zero": true,
+    "variable_density_not_unit_jacobian": true,
+    "wrong_source_shift_rejected": true,
+    "wrong_tube_rejected": true
+  },
+  "core": {
+    "axis_slope": "beta/sinh(eps)**2",
+    "bound": "4*pi*L*beta**2/sinh(eps)**2",
+    "core_limit": "4*pi*L*beta**2",
+    "cost": "4*pi*L*beta**2/sinh(eps)**2",
+    "div": "2*beta/sinh(eps)**2",
+    "flux": "2*pi*L*beta",
+    "nonuniform_cost": "k**2/3 + 1",
+    "phi": "beta*tanh(r)/sinh(eps)**2",
+    "shifted_residual": "0",
+    "volume": "pi*L*sinh(eps)**2"
+  },
+  "cusp": {
+    "density": "A*(2*db*s + db + 2*dc)**2*exp(2*s)",
+    "finite_norm_density": "A*exp(-4*s)",
+    "finite_residual_density": "9*A*exp(-4*s)",
+    "growing_norm_density": "A*c2**2*exp(2*s)",
+    "laplace": "0",
+    "primitive": "A*(db**2 + 4*(db*s + dc)**2)*exp(2*s)/2",
+    "tangent_norm_density": "A",
+    "through": "4*A*dc**2*exp(2*s)"
+  },
+  "discrete": {
+    "alternating_del": "-a - b + c",
+    "autonomous_del": "a - b + c",
+    "determinant": "-1",
+    "half": "Matrix([[0, 1], [1, 1]])",
+    "jacobian": "exp(a - b)",
+    "multiplier_p": "Matrix([[X - z], [Y - x], [Z - 2*x*z + y]])",
+    "multiplier_x": "Matrix([[p0 - q1 - 2*q2*z], [p1 + q2], [p2 - q0 - 2*q2*x]])",
+    "nonlinear_map": "Matrix([[b], [-exp(a - b)]])",
+    "square": "Matrix([[1, 1], [1, 2]])"
+  },
+  "scope": "Fixed-metric commuting source class; static bulk compatibility, not selected defect or TOE. Discrete controls use different declared action classes.",
+  "tube": {
+    "boundary": "-beta**2*(8/(cosh(4*r) - 1) + 4/(cosh(2*r) + 1))",
+    "divergence": "0",
+    "hnorm": "beta**2*(384*sinh(r)**4 + 384*sinh(r)**2 + 128)/(cosh(4*r) - 1)**2",
+    "leading": "2*pi*L*beta**2",
+    "norm": "2*pi*L*beta**2*log(tanh(R)) - 2*pi*L*beta**2*log(tanh(eps))",
+    "radial": "2*beta/sinh(2*r)",
+    "ricci": "Matrix([[-2, 0, 0], [0, -2*sinh(r)**2, 0], [0, 0, -2*cosh(r)**2]])"
+  }
+}

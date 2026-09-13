@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-13",
+  "scientific_seal": "b3c7892c",
+  "redaction": "Execution environment prefixes only; raw capture hashes and scientific content preserved.",
+  "runs": [
+    {
+      "capture": "oa_r28_source_action_native_first.json",
+      "receipt": {
+        "command": [
+          "env",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/source_action.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 8.50682999996934,
+        "log_bytes": 3024,
+        "log_sha256": "07b8ba2e1cce1910346e14efdc819cf32dea865e28555d6c1ea08e9cd616f2ba"
+      }
+    },
+    {
+      "capture": "oa_r28_source_action_focused_first.json",
+      "receipt": {
+        "command": [
+          "env",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "tests/test_physical_bridge_source_action.py",
+          "tests/test_physical_bridge_index_stability.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "--tb=short"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 77.24490300001344,
+        "log_bytes": 110,
+        "log_sha256": "250dbdf0351cd4bb75069542cef5b50de0b0fcba7cab600a29b1944a03ea3ce3"
+      }
+    },
+    {
+      "capture": "oa_r28_source_action_broad_first.json",
+      "receipt": {
+        "command": [
+          "env",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "tests/test_b1084_g2_cone.py",
+          "tests/test_b1105_b1106_locks.py",
+          "tests/test_b1255_generation_type.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_boundary_index.py",
+          "tests/test_physical_bridge_boundary_wall.py",
+          "tests/test_physical_bridge_broken_vacuum.py",
+          "tests/test_physical_bridge_charged_domain.py",
+          "tests/test_physical_bridge_charged_domain_control.py",
+          "tests/test_physical_bridge_cusp_tail.py",
+          "tests/test_physical_bridge_family_action.py",
+          "tests/test_physical_bridge_family_dispatch.py",
+          "tests/test_physical_bridge_family_domain.py",
+          "tests/test_physical_bridge_finite_alignment.py",
+          "tests/test_physical_bridge_g2_export.py",
+          "tests/test_physical_bridge_g2_isolation.py",
+          "tests/test_physical_bridge_gauge_running.py",
+          "tests/test_physical_bridge_geometric_completion.py",
+          "tests/test_physical_bridge_global_mass_flux.py",
+          "tests/test_physical_bridge_global_mass_flux_control.py",
+          "tests/test_physical_bridge_global_singular.py",
+          "tests/test_physical_bridge_harmonic_cusp.py",
+          "tests/test_physical_bridge_harmonic_transport.py",
+          "tests/test_physical_bridge_higgs_control_repair.py",
+          "tests/test_physical_bridge_higgs_sector.py",
+          "tests/test_physical_bridge_holonomy_equivariance.py",
+          "tests/test_physical_bridge_holonomy_equivariance_word_control.py",
+          "tests/test_physical_bridge_holonomy_spectrum.py",
+          "tests/test_physical_bridge_index_stability.py",
+          "tests/test_physical_bridge_infrared_alignment.py",
+          "tests/test_physical_bridge_legacy_audit.py",
+          "tests/test_physical_bridge_mass_inflow.py",
+          "tests/test_physical_bridge_mass_inflow_bundle_control.py",
+          "tests/test_physical_bridge_mass_match.py",
+          "tests/test_physical_bridge_partial_filling.py",
+          "tests/test_physical_bridge_quantum_derivative.py",
+          "tests/test_physical_bridge_quantum_result.py",
+          "tests/test_physical_bridge_quantum_shift.py",
+          "tests/test_physical_bridge_quantum_shift_control.py",
+          "tests/test_physical_bridge_quantum_vacuum.py",
+          "tests/test_physical_bridge_singular_cusp.py",
+          "tests/test_physical_bridge_upstream.py",
+          "tests/test_physical_bridge_upstream_second.py",
+          "tests/test_physical_bridge_vacuum.py",
+          "tests/test_physical_bridge_vacuum_orientation.py",
+          "tests/test_physical_bridge_weighted_cohomology.py",
+          "tests/test_physical_bridge_finite_twist.py",
+          "tests/test_physical_bridge_finite_twist_reductivity.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "--tb=short",
+          "tests/test_physical_bridge_source_action.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 367.0637140000472,
+        "log_bytes": 23523,
+        "log_sha256": "6dda6abe4ab32ee6855c4352fa7436abd07fc3c1baf8e65242e3ab19e399c5db"
+      }
+    }
+  ]
+}

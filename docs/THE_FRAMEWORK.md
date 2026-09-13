@@ -1,6 +1,24 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**LATEST LOCAL AUDIT, 2026-09-12 (R27): smooth geometric zeros and a complex positive.**
+**LATEST LOCAL AUDIT, 2026-09-13 (R28): static bulk compatibility, source dynamics still owed.**
+R15's prescribed commuting background is stationary with zero BPS
+potential in the adopted twisted bulk action on the source complement.
+Its source-residue and through-flux variations have divergent 4D kinetic
+norms in the fixed metric. A fixed-flux commuting core with no axial
+cap flux has sharp bare D-residual cost 4*pi*L*beta^2/sinh(epsilon)^2.
+A prescribed source shift can remove that residual but is a different,
+externally sourced functional, not a derived defect. The original
+conditional three/zero kernel and its fixed-domain stability remain.
+Next supply gauge-covariant source/end dynamics, the physical domain
+and full anomaly/spectrum; freezing source parameters does not delete
+the surviving U1 gauge transformation. Separately, explicit actions
+correct the new unrestricted trace-map action negative while keeping
+its anti-Poisson and monodromy identities. Report:
+reports/physical_bridge_2026_09_05/SOURCE_ACTION.md.
+20 new tests pass; broad 404 pass/16 fail/8 error, exactly R27's failed/
+error IDs. No new B, independent main bank, full green or complete TOE.
+
+**PRECEDING LOCAL AUDIT, 2026-09-12 (R27): smooth geometric zeros and a complex positive.**
 The published restriction theorem plus finite-cover transfer gives zero
 interior H1 for nontrivial geometric symmetric powers with finite twists.
 The independently reproduced finite-field positive lifts exactly to

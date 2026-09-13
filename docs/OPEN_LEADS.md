@@ -2800,3 +2800,37 @@ and empirical checks remain as above. Thirty new tests pass; two
 overly strong author assertions and their exact follow-on correction
 are preserved. The full 49-file regression has 384 passes, 16 failures,
 eight errors, with only those two failed IDs added to R26.
+
+**R28 movement, same PB-BOUNDARY lead (2026-09-13):** closing sentence:
+"The prescribed commuting background is stationary with zero static
+BPS potential in the adopted twisted bulk theory on the source
+complement. Source-residue and through-flux changes have divergent
+4D kinetic norms in its fixed metric, and a specified bare commuting
+core has sharp D-residual cost 4*pi*L*beta^2/sinh(epsilon)^2."
+Path: reports/physical_bridge_2026_09_05/SOURCE_ACTION.md, sections 1--3;
+full argument: SOURCE_ACTION_PROOF.md. This closes static BULK
+compatibility, not the dynamical source/end, fermion-domain or quantum
+completion. The norm statement excludes new boundary/gravity/UV terms;
+the core bound assumes fixed radial and zero axial-cap flux. A declared
+moment-map source gives a zero-residual control in a CHANGED functional,
+not a source selected by the object. All conditional chiral results
+remain on their original domains. PB-BOUNDARY and PB-ACTION stay OPEN.
+
+NEXT: construct one gauge-covariant source/end functional. Specify its
+regulator/counterterms, admitted end gauge transformations and actual
+fields carrying the source moment map. Derive its stationary background
+and physical fermion domain, then test against R18/R19/R26 and compute
+its complete spectrum and anomaly. The zero bulk potential does not
+select source data, and freezing their variations does not remove the
+unchanged constant U1 gauge symmetry. Nonabelian cores, dynamical end
+fields and compatible massive-U1 constructions remain live. Source
+activation/count selection, the neutral 4D limit, SM breaking, gravity
+and empirical comparison remain distinct duties.
+
+R28 also corrects the incoming unrestricted B1341 action negative with
+explicit time-dependent and enlarged-state stationary actions, while
+retaining its valid regular-autonomous same-state obstruction and the
+anti-Poisson/monodromy identities. No discrete action is identified with
+the sourced physical field theory. Twenty new tests pass; the 50-file
+regression is 404 pass/16 fail/8 error with exactly R27's failed/error
+IDs. No independent bank, all-green certificate or full TOE is claimed.

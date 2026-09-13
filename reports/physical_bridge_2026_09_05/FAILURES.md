@@ -766,3 +766,27 @@ GUI warning, 364.80 s, exit one. Its 24 FAILED/ERROR IDs are the prior
 All raw captures are durable and have exit receipts; public transcripts
 redact environment prefixes only. Source/design/test bytes stay sealed.
 This is not full green or a completed independent banking pass.
+
+## R28 checkpoint, September 13 — no new scientific failed/error IDs
+
+Seal b3c7892c precedes first execution. All 27 native controls and 20
+new tests pass; the focused group has 33 passes. The exact R27 broad
+population plus the new test file gives 404 pass/16 fail/8 error.
+The 24 distinct failed/error IDs are IDENTICAL to R27: none added,
+none missing. Original failures, assertions, tolerances and scientific
+source are retained. This does not turn the existing suite green.
+First native/focused/broad captures and raw digests are recorded in
+SOURCE_ACTION_RUN_RECEIPTS.json; the new result and its exclusions are
+in SOURCE_ACTION.md. The incoming unrestricted “no action” conclusion
+is corrected by explicit other-action-class controls, not by altering
+that seat's files. Final reporting-gate disposition is recorded with
+this round; old gate failures are not waived.
+
+The R28 reporting run is 26 PASS / 4 FAIL, not the expected R27 27/3.
+All three previous detail strings persist, and the August 22 specialist-
+reading relay now exceeds the 21-day open-debt threshold (22 days).
+The first exact-equality comparison against R27 therefore fails, as it
+should. The ledger's main-owned duty is not marked resolved here, no
+clock/baseline override is applied, and the complete failing output is
+retained in SOURCE_ACTION_FINAL_CHECKS.txt. This is a reporting-debt
+change, not a new scientific failure or an all-green checkpoint.

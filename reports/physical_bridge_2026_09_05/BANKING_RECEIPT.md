@@ -1,5 +1,26 @@
 # CC's banking relay read before the next local checkpoint
 
+Latest path-local checkpoint, September 13: R28's scientific seal
+b3c7892c was committed and pushed before first execution. Static bulk
+stationarity, source kinetic norms, the sharp specified-core bound and
+the discrete-action scope controls are reported in [SOURCE_ACTION.md](SOURCE_ACTION.md).
+20 new tests and 33 focused tests pass. Broad: 404 pass/16 fail/8 error,
+exactly R27's 24 failed/error IDs. No original source, assertion or
+tolerance was changed. No B reservation, other-branch merge, PR or
+external relay is used. This is local research, not independently
+accepted main banking or a complete physical TOE.
+
+R28 [reporting check](SOURCE_ACTION_FINAL_CHECKS.txt): 26 gates pass,
+four fail. The three older failure details are unchanged; the additional
+relay-debt failure is the August 22 specialist-reading relay reaching
+22 days open. Its main-owned duty is not marked discharged here.
+Review is due at 151 merges. All 62 design seals match; the pre-receipt
+manifest has 378 paths and zero mismatches; 215 local links resolve.
+All sealed R28 scientific/prior/retrieval paths are unchanged. Raw
+copies and receipt digests match, with five raw trailing-space lines
+retained. The final receipt and reporting hashes are checked before
+commit; no old or newly aged gate failure is waived.
+
 Latest path-local checkpoint, September 12: R27's two scientific seals
 dbb55201 and 59e92302 were pushed before execution. The exact complex
 positive, its actual nonsemisimple domain and the finite-cover geometric

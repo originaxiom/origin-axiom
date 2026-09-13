@@ -1,5 +1,15 @@
 # The successful pieces must form one physical theory
 
+Subsequent update, September 13: [R28](SOURCE_ACTION.md) establishes
+the prescribed background's static bulk stationarity in the adopted
+twisted theory. Its source strengths and through-flux remain
+nonnormalizable kinetic directions, and a specified commuting core
+has a sharp bare cost. This supports a distinction the original review
+needed: a valid fixed-background subsystem is not its dynamical source
+completion. It does not supply that completion or retract the chiral
+kernel. The discrete-action scope correction also reinforces the rule
+that a no-go must name its action class.
+
 Subsequent update, September 12: [R26](INDEX_STABILITY.md) now supplies
 the conditional fixed-domain stability argument and passing new controls,
 including a nonflat trial connection. The review below is the original
@@ -50,6 +60,7 @@ these alternatives, not make the completion hypothesis unfalsifiable.
 | Nontrivial scalar flat transport | Removal of the extra vector-like pair | The relevant holonomy variations are nonnormalizable cusp data, not automatically four-dimensional dynamical moduli. |
 | The C3-compatible nontrivial orbit with parent E6/Z3 | A genuine global lift of the sourced adjoint construction | A parent 27 from the earlier simply connected E6 action cannot simply be imported into this parent. |
 | The specified singular source and maximal domain | The complete weighted-cohomology comparison | Source activation, strengths and the physical domain still need a variational interpretation. |
+| Fixed singular source data in the adopted twisted action (R28) | A stationary zero-potential bulk background | Source-strength/through-flux variations are not finite-norm 4D moduli, and smoothing a specified bare commuting core costs inverse radius squared. Source/end dynamics still must be supplied. |
 | An added free scalar reference-mass wall | An explicit compensating index and anomaly polynomial | The tested physical interface supplies a mirror sector; the scalar interpolation is additional dynamics. |
 
 These are not six independent failures. Several are the other side of
