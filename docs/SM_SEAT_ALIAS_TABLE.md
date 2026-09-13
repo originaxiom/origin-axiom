@@ -57,7 +57,10 @@ under fresh main IDs and this table maps both directions forever).
 | B1322 | main: L204 verified — the SM seat's sm:B1350 re-read on main (2026-09-09) | — |
 | B1323 | main: THE GENESIS UPGRADES (fork F9, the criterion census, the dictionary lemma, the mirror test) | taken 2026-09-09 |
 | B1324 | main: PHASE 2 ARC B (the chiral covers) + THE DISCRETE-SYMMETRY DICTIONARY + the four-record probe | taken 2026-09-09 |
-| B1325 | **main's next free number** (after B1324) | — |
+| B1325 | main: `codex_r037_r040_harvest` (taken) | — |
+| B1326–B1349 | **main/cloud bench, ALL TAKEN 2026-09-09–09-13** — `the_stale_claim_gate`, `relation_not_observer`, `extension_over_the_parent`, `the_vanishing_is_not_formal`, `the_best_case_object`, `the_two_images_coincide`, `the_cup_product_vanishes`, `the_index_on_several_cusps`, `the_deformation_proof`, `the_vanishing_is_not_formal_exhibited`, `the_surviving_gauge_group`, `the_scheduled_sweep`, `the_instrument_is_blind`, `the_chain_status_adopted`, `the_joker_priced`, `the_action_of_the_object`, `the_unseen_faces`, `deriving_the_other_faces`, `chat1_strata_verification`, `the_jorgensen_number`, `the_chat1_handoff_intake`, `the_other_strata`, `the_listener_map_posed`, `the_mirror_sector_posed` | — |
+| **B1350–B1399** | **DO NOT ASSIGN — reserved for the SM seat** (row above; re-stated here because B1349 sits immediately below it and the next seat to reach for a number will land on it) | — |
+| **B1400** | **THIS BENCH'S NEXT FREE NUMBER.** B1349 exhausted the run below the reserved block, and B1326–B1349 had been banked past the stale “next free = B1325” line this row replaces. B1400 is clear of **every** reserved range on this table (B1278–B1289, B1300–B1301, B1308–B1319, B1350–B1399), so it needs no grant from the other seat — recorded here rather than asked for by relay, per **E71**'s fix rule (*reserved ranges are granted in the alias table, not by relay alone*). Arcs B1400+ are this bench's; the SM seat's block is untouched. | — |
 
 ## Which side is canonical
 
@@ -69,7 +72,7 @@ resolves to which directory*, nothing more.
 
 ## What each side must do
 
-- **Main (this seat):** never assign B1278–B1289, B1300–B1301, B1308–B1319, B1350–B1399; next new arc after the harvest block **B1325** (B1320 = Phase 2 Arc 0, B1321 = L205, B1322 = L204 verified, all 2026-09-09). Cite the other seat as `sB…` / `sm:B…` always. *(2026-09-09, B1306 slice A: the eighth to tenth collisions, B1302–B1304, happened because the seat's range request lived on its branch until a harvest; main's numbers on those three are canonical because landed, the seat's are cited with the prefix and rebank on merge. The harvest-debt gate — B1307 — reads seat relays the hour they are pushed.)*
+- **Main (this seat):** never assign B1278–B1289, B1300–B1301, B1308–B1319, B1350–B1399; next new arc **B1400** — *updated 2026-09-13: the “next free = B1325” reading was stale, B1325–B1349 are all taken (see the rows above), and B1400 is the first number clear of every reserved block. B1350–B1399 stays the SM seat's*. Cite the other seat as `sB…` / `sm:B…` always. *(2026-09-09, B1306 slice A: the eighth to tenth collisions, B1302–B1304, happened because the seat's range request lived on its branch until a harvest; main's numbers on those three are canonical because landed, the seat's are cited with the prefix and rebank on merge. The harvest-debt gate — B1307 — reads seat relays the hour they are pushed.)*
 - **The SM-derivation seat:** continue at **B1278**, not B1277. Its existing B1267–B1276 keep
   their directory names on its own branch; on merge they rebank under fresh main IDs, as the
   cloud's did.
