@@ -2444,8 +2444,7 @@ step is simply open.
 **What would close it.** Any parabolic `P` in m003's peripheral subgroup whose reduced word contains
 one generator exactly once — search `mer^p·lon^q` over small `(p,q)` and reduce using the relator.
 Or a direct proof that `⟨ABABB, a⟩ = π₁(m003)`. **Then `J(m003) ≤ 4` joins the other four.**
-**Cheap: the search is a few lines.** `verification/b1401b_other_parabolics.py` already enumerates
-the candidates; it lacks only the word-reduction step.
+**ATTEMPTED 2026-09-13 (B1401 addendum 2) AND STILL OPEN — three methods, three diagnosable failures.** Coset enumeration did not terminate (not even on the m004 control, index 1); one-way Nielsen BFS passed its control and exhausted at depth 7; bidirectional Nielsen search passed its control and found **no meeting point at Nielsen distance ~12**, 28.7K pairs each side. **What that narrows: if any of m003's four candidate pairs generates, its Nielsen distance from `(a,b)` exceeds 12** — against m004's at distance 1–2 and m202's one-line word identity. **m003 is structurally different, and the possibility that its parabolic pairs simply do not generate is live.** Next probes, named: **refute** via a proper finite-index subgroup containing both words (decisive; SnapPy's `cover_info()` does not expose the permutation rep, so it needs a coset table from elsewhere), or **prove** by pushing past distance 12 (~5.5× per half-depth), or by finding a peripheral parabolic whose reduced word contains one generator exactly once.
 
 ## L207 — IS κ CONSTANT OVER *ALL* GENERATING PAIRS, OR ONLY THE NIELSEN CLASS? (registered 2026-09-13, B1401; E72's hazard, stated as a lead rather than assumed)
 

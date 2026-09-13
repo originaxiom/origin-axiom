@@ -198,3 +198,66 @@ stated once but needed **per manifold**, and for m202 it is **false** for the pa
 strengthens the result for four manifolds and isolates m003 — but the original sentence asserted
 more than the computation supported, and the abelianisation test that caught it is three lines long
 and should have been in §4.
+
+---
+
+# ADDENDUM 2 — L206 (m003) ATTEMPTED AND **NOT SETTLED**: three methods, three diagnosable failures
+
+Addendum 1 left m003 as the single open case. **It is still open.** This records what was tried, why
+each failed, and what the failures narrow — a bounded negative is worth more than a silent one.
+
+## 1. What was tried
+
+| method | outcome | why |
+|---|---|---|
+| **Coset enumeration** (Todd–Coxeter, sympy `FpGroup.index`) | **did not terminate** — not even on the m004 **control**, where the answer is index 1 | Todd–Coxeter terminates only at **finite** index, and is slow on 2-generator 1-relator hyperbolic groups even then |
+| **One-way Nielsen BFS** on matrices | **control passed** (m004 at depth 1–2); m003 **exhausted at depth 7**, 232K pairs | the holonomy is discrete and faithful, so matrix equality *is* word equality — the method is sound, the reach was short |
+| **Bidirectional Nielsen search** | **control passed**; m003: **no meeting point at Nielsen distance ~12**, 28.7K pairs each side | Nielsen moves are invertible, so half-depth `d` covers distance `2d` |
+
+## 2. What the failure narrows — this is the useful part
+
+> **If m003's `(mer,a)`, `(mer,b)`, `(lon,a)` or `(lon,b)` is a generating pair at all, its Nielsen
+> distance from `(a,b)` EXCEEDS 12.**
+
+For contrast, on the manifolds that are settled the pairs are **immediate**: m004's sit at Nielsen
+distance **1 and 2**; m202's longitude pair is a one-line word identity (`b⁻²(b²a) = a`). **m003 is
+not merely unlucky — it is structurally different**, and the possibility that its parabolic pairs
+simply **do not generate** (as m202's meridian pairs provably do not) is live. The `H₁` index test
+allows them, but that is necessary-only.
+
+## 3. THE METHODOLOGICAL FINDING — E75 again, and raising precision made it WORSE
+
+The bidirectional search **failed its own m004 control on the first run**, which is the only reason
+the bug was caught. Diagnosis, run rather than guessed: `a·b` and the meridian **are the same
+matrix** — they differ by `3.3e−16` — and the pivot agreed. But the key used **`mp.nstr(x, 14)`,
+which prints *significant* digits**, so the near-zero entries printed their full noise mantissa:
+
+```
+key(a*b) : ... ('-3.3869186896553e-82', ...) ('6.2894787754431e-16', '1.0')
+key(mer) : ... ( '1.102397795803e-82',  ...) ('9.211786308461e-16', '1.0')
+```
+
+**Two copies of one matrix, two different keys.** And the earlier **float** version had worked
+precisely because `np.round` rounds **absolutely**, sending both to `0.0`.
+
+> **Raising the precision from float64 to 80 digits made the bug worse, not better** — more precision
+> means more noise digits printed. Fixed by rounding **absolutely** (`round(float(...), 10)`), after
+> which the control passes and the ball *shrinks* from 8731 pairs to 1960, the excess having been
+> duplicates of the same pair under noise-distinct keys.
+
+**This is E75's third instance and its second mechanism.** The class was diagnosed as rounded keys
+and `argmax` pivots flipping at boundaries; this adds **relative (significant-digit) formatting of
+near-zero values**, which is the same disease with the opposite cure to the intuitive one.
+
+## 4. What would settle it — named, not attempted
+
+**Refute** rather than prove: if both words lie in a proper finite-index subgroup, generation is
+**decisively** refuted. Low-index subgroups of `π₁(m003)` correspond to covers, and membership is
+"the word fixes the basepoint" in the permutation representation. **SnapPy's `cover_info()` does not
+expose that permutation rep** (checked — `m003` has 2 covers of index 4 and the object carries only
+base/type/degree), so this needs another route: a coset table from another system, or constructing
+the permutation reps directly from the presentation.
+
+**Or prove:** push the bidirectional search past distance 12, which costs roughly `5.5×` per extra
+half-depth — or find a parabolic in the peripheral subgroup whose reduced word contains one generator
+exactly once, which would close it in one line as m202's longitude did.
