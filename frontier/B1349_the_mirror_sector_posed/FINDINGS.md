@@ -652,3 +652,86 @@ question's *setting*. A setting is an input. Recorded in `ERROR_LEDGER` as **E76
 
 **Fences unchanged:** verdict **NEGATIVE**, I-13 **UNEARNED**, F2 untouched, no comparison performed,
 no value read, nothing reaches `CLAIMS.md`, Gate 5 untouched.
+
+---
+
+# ADDENDUM 6 — THE CUTS ARE RELATED: ONE PRIME, TWO ROLES
+
+*Same branch, same arc id.* Addendum 2 §8 left this **open**: *"Three arcs now cut the metallic family
+by arithmetic in m; whether the cuts are related is OPEN and not investigated here."* It is now
+investigated, and they are related — by the same prime, doing two different jobs.
+
+## 1. Naming the quantity first, because the corpus has a live collision here
+
+**B1002:** *"TWO DISTINCT QUANTITIES BOTH CALLED CONDUCTOR IN ADJACENT LAWS, a live terminology
+collision."*
+
+| | value at golden / silver | used by |
+|---|---|---|
+| **B675's cusp-order conductor** | 4 / 2 | the quantization-index law |
+| **the word's own SHADOW MODULUS** | **5 / 8**, `= m² + 4` | **B666, B997** |
+
+**Everything below uses the SHADOW MODULUS `m² + 4`** — B997's quantity, which B1002 confirms is
+correct as the shadow modulus. This is the E72 discipline applied before the computation rather than
+after: a symbol whose value depends on an unstated choice is not an invariant.
+
+## 2. The correspondence, exact and complete
+
+`verification/b1349i_conductor_link.py`. **Both sides depend only on `m mod 5`**, hence on `m mod 15`,
+so the period-15 check is again *complete* rather than a sample.
+
+> ### On the ear-independent branch, the forced value `λ` leaves ℚ **exactly when `5 | (m² + 4)`**.
+> **Zero mismatches over the complete period.**
+
+| m | shadow modulus `m²+4` | `5 |` it? | `λ` | degree over ℚ |
+|---|---|---|---|---|
+| 3 | 13 | no | `1/2` | 1 |
+| 5 | 29 | no | `0` | 1 |
+| **6** | **40** | **yes** | **`−1/(2φ)`** | **2** |
+| **9** | **85** | **yes** | **`−1/(2φ)`** | **2** |
+| 10 | 104 | no | `0` | 1 |
+| 12 | 148 | no | `1/2` | 1 |
+| 15 | 229 | no | `1` | 1 |
+
+And the arithmetic reason is elementary: `m² ≡ 1 (mod 5)` for `m ≢ 0`, so
+**`5 | m²+4 ⟺ m ≡ ±1 (mod 5)`** — verified for `m = 1..199`, and the residue table shows
+`(m²+4) mod 5 = 0` exactly on the classes `1, 4`.
+
+## 3. ONE PRIME, TWO ROLES — and it does not disturb B997
+
+The golden's shadow modulus is **5**. B997 uses its **primality**: `5` is prime, so the shadow *is*
+`SL(2,ℤ/5) = 2I`, E₈'s McKay group — and since `|SL(2,ℤ/N)|` is a McKay order for exactly
+`N ∈ {3,4,5}` and `m²+4 = 5` only at `m = 1`, **the golden is unique.** This addendum uses the same
+prime's **divisibility**: whether `5 | m²+4` decides whether the θ-even forced value is golden or
+rational.
+
+> **Primality of `m²+4` singles out the grammar; divisibility of `m²+4` by 5 decides the value's
+> field. Related, and not the same cut.**
+
+**B997's uniqueness is untouched, and the check that it is matters.** The golden `m = 1` satisfies
+`5 | m²+4`, but `gcd(1,15) = 1` puts it on the **ear-dependent** branch, where there *is* no forced
+value (addendum 2 §3: those readings are traceless). The forced golden value `−1/(2φ)` occurs only at
+`m = 6, 9`, whose moduli are `40` and `85` — **divisible by 5 but not prime**, so neither competes
+with the golden for B997's property.
+
+## 4. What this is, and what it is not
+
+**It is an enrichment, not a new claim on the world.** Two arcs, asked independent questions — B997
+about which grammar's shadow is a McKay group, B1349 about whether a listener's direction matters —
+and their answers turn out to be governed by the same prime in two different ways. That is the shape
+of a structure being found rather than fitted, and it is checkable: the correspondence is exact over
+the whole period, and the arithmetic behind it is a one-line congruence.
+
+**It is not a rescue of the row.** Addendum 5 stands unchanged: the object's own word is on the dead
+branch, the word anchor is unpriced-then-priced, and branch A closes on one reading of four. If
+anything this sharpens addendum 5's discomfort — **the forced golden value exists only at `m = 6, 9`,
+which are neither the golden word nor any named metallic grammar.** The readout goes golden exactly
+where the grammar does not.
+
+**Still open, and not investigated here:** B996's cut (McKay access generic across the family) against
+either of these; and whether B1002's *other* gcd — `gcd(cusp-order conductor, shadow modulus)`,
+which is `1` for golden (isomorphism) and `2` for silver (ramified) — relates to `gcd(m,15)`. Named
+as open rather than guessed at.
+
+**Fences:** verdict **NEGATIVE**, I-13 **UNEARNED**, F2 untouched, no comparison performed, no value
+read, nothing reaches `CLAIMS.md`, Gate 5 untouched.

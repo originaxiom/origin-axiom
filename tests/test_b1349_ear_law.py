@@ -502,3 +502,68 @@ def test_the_word_anchor_and_the_withdrawn_four_of_six():
     assert closes == [("4 values", "ear discharged")]
     assert ledger[closes[0]] > 1.1 and ledger[closes[0]] < 1.2      # +1.19
     assert all(v < 0 for k, v in ledger.items() if k != closes[0])
+
+
+# --- addendum 6: the conductor link -- one prime, two roles ---
+
+def test_the_shadow_modulus_link_on_the_ear_independent_branch():
+    """lambda leaves Q exactly when 5 | (m^2+4), the SHADOW MODULUS (B666/B997's conductor).
+
+    NAMING, because the corpus has a live collision (B1002): "conductor" is TWO quantities --
+    B675's cusp-order conductor (golden 4, silver 2) and the word's own shadow modulus
+    (golden 5, silver 8, = m^2+4). This uses the SHADOW MODULUS, B997's quantity.
+    """
+    # the shadow modulus reproduces B997/B666's two data points
+    assert 1 ** 2 + 4 == 5, "golden shadow modulus is 5"
+    assert 2 ** 2 + 4 == 8, "silver shadow modulus is 8"
+    irrational_at, div5_at = [], []
+    for m in range(1, 16):
+        M, _, _ = _form(m, BEV)
+        ok, lam = _is_scalar(M)
+        if not ok:
+            continue                                  # branch B carries no forced value
+        # lambda is irrational iff it is -1/(2phi); the rationals are 0, 1/2, 1
+        is_irr = min(abs(lam - r) for r in (0.0, 0.5, 1.0)) > 1e-9
+        if is_irr:
+            assert abs(lam + 1 / (2 * PHI)) < 1e-9, f"the only irrational lambda is -1/(2phi): {lam}"
+            irrational_at.append(m)
+        if (m * m + 4) % 5 == 0:
+            div5_at.append(m)
+    assert irrational_at == [6, 9], irrational_at
+    assert div5_at == [6, 9], div5_at
+    assert irrational_at == div5_at, "the correspondence must be exact on the branch"
+    # the shadow moduli at those m are divisible by 5 but NOT prime -- B997's uniqueness untouched
+    for m in (6, 9):
+        n = m * m + 4
+        assert n % 5 == 0 and not sp_isprime(n), f"{n} must be 5-divisible and composite"
+    # and the elementary reason, over a wide range
+    for m in range(1, 200):
+        assert ((m * m + 4) % 5 == 0) == (m % 5 in (1, 4)), m
+
+
+def sp_isprime(n):
+    if n < 2:
+        return False
+    d = 2
+    while d * d <= n:
+        if n % d == 0:
+            return False
+        d += 1
+    return True
+
+
+def test_the_golden_word_has_a_prime_shadow_modulus_but_no_forced_value():
+    """B997's uniqueness rests on PRIMALITY of m^2+4; this arc's law on DIVISIBILITY by 5.
+
+    m=1 satisfies both 5 | m^2+4 and primality -- and is still on the ear-DEPENDENT branch,
+    where the readings are traceless and there is no forced value at all.
+    """
+    assert sp_isprime(1 ** 2 + 4), "the golden's shadow modulus 5 is prime"
+    assert (1 ** 2 + 4) % 5 == 0
+    assert math.gcd(1, 15) == 1, "and yet m=1 is a unit -> ear-dependent"
+    M, _, _ = _form(1, BEV)
+    assert not _is_scalar(M)[0], "m=1 carries no forced value"
+    assert abs(np.trace(M)) < 1e-9, "branch B is traceless -- no mean to read"
+    # no other m in the period has a prime shadow modulus divisible by 5 (5 itself is the only one)
+    others = [m for m in range(2, 16) if (m * m + 4) % 5 == 0 and sp_isprime(m * m + 4)]
+    assert others == [], others
