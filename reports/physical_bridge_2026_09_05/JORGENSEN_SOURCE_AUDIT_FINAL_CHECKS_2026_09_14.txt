@@ -1,0 +1,71 @@
+Jorgensen primary-source audit: final reporting checks.
+Intake began 2026-09-13; reporting completed 2026-09-14 Europe/Belgrade
+(2026-09-13 UTC). Original dated source-audit paths are retained.
+Baseline: d88d604235e18589434ef029c7ecbf8bf211c385 (completed R29).
+No new scientific run, empirical fit, full-repository green or main bank.
+
+All then-current reporting paths were staged before the gate run.
+The tree stayed read-only during execution. Gate exit 1, 26 PASS / 4 FAIL,
+elapsed 14.780138999980409 seconds. The four failed gate identities
+are unchanged from R29. The only failed-detail change is the existing
+August 22 relay aging from 22 to 23 days; the other details are identical.
+Review is due at 155 merges. Old attribution, static test-vacuity,
+literal seal-provenance and un-escalated relay debts are not waived.
+
+403 then-latest artifact hashes match. All 63 design-seal paths exist
+and their digests match. Every original scientific source/test/design
+remains unchanged; this patch is reader-facing documentation only.
+131 relative Markdown links resolve in the changed Markdown documents.
+All eight pinned incoming file byte counts and SHA-256 receipts match
+their Git objects. Primary PDF digest is preserved in the intake receipt.
+Authored staged whitespace passes. No pytest rerun or incoming
+numerical-producer execution is claimed for this literature checkpoint.
+
+The raw gate log and terminal metadata agree in byte count and SHA-256.
+A read-only metadata JSON serialization initially rejected the binary
+string's UTF-8 punctuation; the same files were reread with explicit
+UTF-8. This was not a new gate run, no scientific artifact changed,
+and the original gate capture was not overwritten.
+
+This final receipt and its reader pointers are added AFTER the gate run
+and separately hashed. They were not part of that execution. Their
+links, staged scope and latest-row hashes are checked again before
+commit; remote synchronization is checked after the push.
+
+Raw gate basename: oa_jorgensen_source_audit_2026_09_14_gates_first.log
+Raw gate log bytes: 1818
+Raw gate log SHA-256: 3b25be834532f6b899cba281279acd909f7bd3ce7eab638762e7d84c512989c6
+Raw gate receipt SHA-256: b3718d06703f203a3c0e3ecf0a92f0a0fab6e449967fdd85b12aaa70f31acdab
+Command: env PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 <python3.12-env>/bin/python3.12 scripts/gates/gates.py
+
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 45 open |   relay-debt: 1 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 23 days (> 21), no ESCALATED marker
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 155 merges since last review (DUE — run the decadal review)

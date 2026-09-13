@@ -1,5 +1,11 @@
 # Physical bridge audit — 2026-09-05
 
+**Owner-requested source audit, September 13:**
+[Jorgensen's stronger selector and the axiom distinction](JORGENSEN_SOURCE_AUDIT_2026_09_13.md).
+The geometric positive is retained from the primary source; the later
+two-generator/two-record identification is not adopted. This is a
+literature/reception checkpoint, not a new spectrum or R30 execution.
+
 **Latest local result, R29: [a coupled finite-width source and its gauge limit](DEFECT_GAUGE.md).**
 Added charge-four fields on contractible tubes dynamically supply the
 source density and admit a zero-residual classical solution on compact

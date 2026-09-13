@@ -1,5 +1,12 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**SOURCE AUDIT, 2026-09-13 (after R29):** the primary Jorgensen/Callahan
+selector is stronger than the received two-generator-only reading;
+ambient group generators are not the integer record state space.
+The geometric positive is retained without declaring an axiom count or
+a physical selection mechanism. The source-resolved fermion/domain task
+continues. Report: reports/physical_bridge_2026_09_05/JORGENSEN_SOURCE_AUDIT_2026_09_13.md.
+
 **LATEST LOCAL AUDIT, 2026-09-13 (R29): a coupled finite-width source and a scoped gauge limit.**
 The added charge-four tube fields support a zero-residual stationary
 classical model on compact truncations. The actual transverse extra-U1

@@ -1,6 +1,11 @@
 # CC's banking relay read before the next local checkpoint
 
-Latest path-local checkpoint, September 13: R28's scientific seal
+Latest intake: the owner-requested Jorgensen primary-source audit below.
+The latest executed science remains R29, committed and pushed as d88d6042;
+its coupled source/gauge result and verification are in [DEFECT_GAUGE.md](DEFECT_GAUGE.md).
+The following earlier checkpoint entries are retained as historical receipts.
+
+Earlier path-local checkpoint, September 13: R28's scientific seal
 b3c7892c was committed and pushed before first execution. Static bulk
 stationarity, source kinetic norms, the sharp specified-core bound and
 the discrete-action scope controls are reported in [SOURCE_ACTION.md](SOURCE_ACTION.md).
@@ -622,3 +627,39 @@ DEFECT_GAUGE_FINAL_CHECKS.txt retains the complete gate output and digests.
 This final receipt and its reader pointers are added after the run and
 separately hashed; final staging and remote synchronization are checked
 before handoff. No old failure, baseline or independent-review debt is waived.
+
+## Owner-requested Jorgensen primary-source intake (2026-09-13)
+
+This is a literature/reception checkpoint after d88d6042, not R30
+scientific execution. Callahan's exact definitions/section 2 and Adams'
+introductory statement were read directly, together with the pinned
+B1345/B1401 bodies, the named producer read set, both outside memos
+and the precise axiom document. Source digests and read boundaries
+are explicit; no incoming numerical census is certified by citation.
+
+The positive generalized selector is preserved. The received equation
+of ambient-group generator count with the integer record state space
+is corrected locally, not by rewriting the other branch. The two
+torsion-free meanings and the geometric/update orientation meanings
+are kept distinct. No physical extremality mechanism, axiom-discharge
+count or chiral completion is claimed. Original scientific files,
+tests, seals and results remain unchanged.
+
+The report, FINDINGS/README, three reader ledgers, framework, scoped
+literature LAW_MAP row, roadmap and OPEN_LEADS carry the intake and
+its non-circular reconstruction duty. R29 and the existing physical
+source/end path remain the latest executed science and next priority.
+No B number or reserved-band mutation, external relay, branch merge,
+PR or main bank. No new identification is marked earned. Reporting
+checks follow; independent acceptance and old gate/test debts remain.
+
+The reporting run gives 26 PASS / 4 FAIL, exit one in 14.7801 s.
+Failed identities match R29; only the existing relay's age changes
+from 22 to 23 days. Review is due at 155 merges. All 403 then-latest
+artifact hashes and 63 seals match, 131 relative links resolve and
+all eight pinned source-file digest/byte-count receipts reproduce.
+No scientific file or test changed and no science rerun is claimed.
+JORGENSEN_SOURCE_AUDIT_FINAL_CHECKS_2026_09_14.txt preserves the full
+gate output and raw digests, with after-run receipt/hash checks kept
+distinct. Local reporting completed September 14, still September 13 UTC.
+The goal and the independent/main/full-green duties remain open.

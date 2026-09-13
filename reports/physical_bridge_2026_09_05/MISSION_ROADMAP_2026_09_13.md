@@ -1,5 +1,14 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Subsequent source audit, September 13:**
+[Jorgensen's geometric selector](JORGENSEN_SOURCE_AUDIT_2026_09_13.md)
+is retained from the original theorem, including its stronger
+attained-subgroup formulation. The received two-generator/two-record
+identification is not accepted. This adds a non-circular
+geometry-to-record reconstruction duty; it does not check off a
+physical selection principle or alter the finite-width fermion/domain
+priority. No new spectrum calculation accompanies this intake.
+
 **Scientific follow-through, September 13: [R29](DEFECT_GAUGE.md) is now
 executed.** It supplies a declared coupled finite-width bosonic source
 and its transverse gauge operator, while establishing the scoped bare

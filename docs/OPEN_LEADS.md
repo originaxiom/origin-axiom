@@ -2883,3 +2883,24 @@ a conditional split trialitarian algebra; its own commutant-to-trialitarian
 identification remains an input. Its producer/book were not independently
 audited here. These incoming arithmetic/axiom obligations remain on their
 stated branches; none is imported into the declared H source model.
+
+**Owner-requested Jorgensen intake, 2026-09-13; no new physical closure.**
+The stronger Callahan theorem and its attained-pair proof admit a
+geometric entrance without assuming a two-generated ambient group.
+The received identification of that generator count with A1's Z^2
+record state is not valid without a map. The GL(2,Z)/PSL(2,C) and
+group-torsion/H1-torsion meanings likewise must not be collapsed.
+The geometric positive is retained as cited literature, not a new
+proof or a certificate for the incoming numerical J tables.
+Source: reports/physical_bridge_2026_09_05/JORGENSEN_SOURCE_AUDIT_2026_09_13.md.
+
+Carry forward, not a new absence assertion:
+- Audit whether saturation is derived BEFORE selecting the figure-eight
+  representation, rather than read from that representation afterward.
+- Read the existing fibre/monodromy proofs and exhibit the proposed
+  geometry-to-record map, pricing basis/order, positivity and all
+  starting geometric assumptions. Do not declare either received
+  axiom-discharge count proved by matching names.
+- Keep a base-object selector distinct from later covers/fillings and
+  sourced sectors. PB-BOUNDARY still requires the same finite-width/end
+  fermion action, actual domain, full anomaly and normalized currents.

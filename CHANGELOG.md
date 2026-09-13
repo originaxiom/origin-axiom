@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-09-13 — Jorgensen: primary-source selector audit after R29
+
+The owner-requested read retains paper-review B1345's geometric
+extremality positive. Callahan's generalized theorem and its attained
+parabolic-pair proof do not require the ambient group to be two-generated.
+The later reception's equation of two generators with the integer
+record state space is not accepted; the GL(2,Z)/PSL(2,C) and two
+torsion-free meanings are also kept distinct. No axiom-discharge count,
+physical selector, new chiral spectrum or incoming numerical census is
+certified. The finite-width fermion/domain task remains the physical
+priority, alongside a non-circular geometry-to-record reconstruction.
+No scientific run, B allocation, branch merge or main bank.
+Report: reports/physical_bridge_2026_09_05/JORGENSEN_SOURCE_AUDIT_2026_09_13.md.
+
 ## 2026-09-13 — R29: coupled finite-width source and the bare gauge thin limit
 
 A declared charge-four H field on contractible tubes supplies the

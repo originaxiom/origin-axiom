@@ -1,5 +1,13 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**SOURCE INTAKE, 2026-09-13 (after R29):** the primary Jorgensen/Callahan
+geometric selector includes an attained-pair route that does not assume
+the ambient group is two-generated. That generator count must not be
+identified with the integer record state space; no axiom-discharge
+count or physical extremality principle is inferred. The source-end
+fermion/domain programme continues. Report:
+reports/physical_bridge_2026_09_05/JORGENSEN_SOURCE_AUDIT_2026_09_13.md.
+
 **LATEST LOCAL AUDIT, 2026-09-13 (R29): a coupled finite-width source and a scoped gauge limit.**
 The added charge-four tube fields support a zero-residual stationary
 classical model on compact truncations. The actual transverse extra-U1

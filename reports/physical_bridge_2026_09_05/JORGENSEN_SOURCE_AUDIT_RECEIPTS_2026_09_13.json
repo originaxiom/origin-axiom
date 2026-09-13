@@ -1,0 +1,81 @@
+{
+  "audit_base": "d88d604235e18589434ef029c7ecbf8bf211c385",
+  "paper_review_pin": "44ca6c357f102e911c90e6f379a0dc971735250c",
+  "outside_pin": "6388c69bea95c68dd9041c2a699f2055ffdb4971",
+  "origin_main_pin": "b94ed03aecba8aae3afc62504e22ec664c26e94f",
+  "source_files": [
+    {
+      "commit": "44ca6c357f102e911c90e6f379a0dc971735250c",
+      "path": "frontier/B1345_the_jorgensen_number/FINDINGS.md",
+      "bytes": 11047,
+      "sha256": "db79f01aadcd6f09a769d6780c61f20e8bd335dfa0e924aba3bd705b409a5fc6",
+      "read": "complete"
+    },
+    {
+      "commit": "44ca6c357f102e911c90e6f379a0dc971735250c",
+      "path": "frontier/B1345_the_jorgensen_number/verification/b1345_j_of_m004.py",
+      "bytes": 1880,
+      "sha256": "d295726ccd5bbc6e82460394f3e1e694b3327b9b1f08bb93b63b2b6727cc77af",
+      "read": "complete"
+    },
+    {
+      "commit": "44ca6c357f102e911c90e6f379a0dc971735250c",
+      "path": "frontier/B1345_the_jorgensen_number/verification/b1345_the_link.py",
+      "bytes": 5349,
+      "sha256": "6e7b691a6330b01387faa10de9112757dc698afdb88d1a6b34837a6d34dbc872",
+      "read": "complete"
+    },
+    {
+      "commit": "44ca6c357f102e911c90e6f379a0dc971735250c",
+      "path": "frontier/B1401_the_kappa_lower_bound/FINDINGS.md",
+      "bytes": 15088,
+      "sha256": "3e54af42a3c3335a9873a0a13fadf3d79f3885b05be7e631c6492f6b675943b4",
+      "read": "complete"
+    },
+    {
+      "commit": "44ca6c357f102e911c90e6f379a0dc971735250c",
+      "path": "frontier/B1401_the_kappa_lower_bound/verification/b1401c_nielsen_bidirectional.py",
+      "bytes": 3800,
+      "sha256": "f3aa4a3a9465c91b2da5d17ec357441d9a26cdf4a2e78beb01034d3629e4f9e3",
+      "read": "complete"
+    },
+    {
+      "commit": "44ca6c357f102e911c90e6f379a0dc971735250c",
+      "path": "docs/UNIQUENESS_THEOREM.md",
+      "bytes": 9074,
+      "sha256": "aa72590db6d4ef023c6deea1166736814f41a6c9b0981cff767a0577390334c1",
+      "read": "complete"
+    },
+    {
+      "commit": "6388c69bea95c68dd9041c2a699f2055ffdb4971",
+      "path": "outside_bench/memos/THE_JORGENSEN_NUMBER.md",
+      "bytes": 9187,
+      "sha256": "a5580232cc31c08d430669f902b9175d9f2261742a24aff85e0c02522b8a5713",
+      "read": "complete"
+    },
+    {
+      "commit": "6388c69bea95c68dd9041c2a699f2055ffdb4971",
+      "path": "outside_bench/memos/JORGENSEN_IS_IT_RIGHT.md",
+      "bytes": 6821,
+      "sha256": "08b1939e5c57d767372d6149af0ceb1184dbc3e34b858759e4ed9eed749fff13",
+      "read": "complete"
+    }
+  ],
+  "primary_pdf": {
+    "url": "https://arxiv.org/pdf/0905.1318",
+    "sha256": "6635a595cc99e78d80ef657ca4baa84dc7bf9d0818250345b56b82ae90d88ed3",
+    "pages_read": "1-4 of 27; full definitions and section 2"
+  },
+  "additional_primary": {
+    "url": "https://arxiv.org/pdf/1703.01324",
+    "pages_read": "1-2, introduction and background; not the full paper"
+  },
+  "scientific_execution": "None in this source-reading checkpoint; incoming numerical producers not rerun.",
+  "sweep": {
+    "term": "J.rgensen|Jorgensen|Jørgensen|waist size",
+    "head_count": 12,
+    "verdict": "PRESENT",
+    "deleted_path_matches": 0,
+    "limits": "Existing absence_sweep.py checks deleted paths, not all deleted content, and excludes tags. Its text is not a corpus-absence or correctness certificate."
+  }
+}
