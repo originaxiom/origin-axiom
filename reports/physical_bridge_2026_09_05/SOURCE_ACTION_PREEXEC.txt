@@ -1,0 +1,16 @@
+R28 PRE-EXECUTION CUSTODY — 2026-09-13
+Starting science tree: 8ab80e56.
+No scientific producer or new test has yet been imported or executed.
+The read-only history scanner ran before this seal; it is retrieval, not a physics test.
+No measured values or new source data are inferred from incoming branches.
+This exact design/proof/source/test set is to be committed before first execution.
+The theorem is analytic; finite controls check identities and scope, not a PDE census.
+Command-produced SHA-256 values:
+
+5a395512a9636a807b8fb9bcaa8940afcefaf6826e62b6a8fca9211adde9ced9  reports/physical_bridge_2026_09_05/SOURCE_ACTION_PRIOR.md
+f12dbf23abd43aacef184761994d7275a481db09e735c56a2d006e8306b3a1c1  reports/physical_bridge_2026_09_05/SOURCE_ACTION_DESIGN.md
+3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e  reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md
+07fefdc1402a25dfdfe788e7762ff236ebfa8174cd3f2ce9c726517cbc9dbc94  reports/physical_bridge_2026_09_05/source_action.py
+4faa2cebdd6e90b0d4fedb1fde72a402f03a03d5dff42a0b3f47ede1926fade5  tests/test_physical_bridge_source_action.py
+72b052e22d396c0d75bd69055c1f9201d440f441bbcc51a11452b8d2c6807ce1  reports/physical_bridge_2026_09_05/source_action_history_scan.rb
+a6cae4fe314a1d1441f0592c04b11e34d350fbf7594c2cf3da3037b8c134b539  reports/physical_bridge_2026_09_05/SOURCE_ACTION_HISTORY_RECEIPT.json
