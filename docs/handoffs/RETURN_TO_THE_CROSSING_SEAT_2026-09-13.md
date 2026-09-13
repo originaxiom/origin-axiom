@@ -108,7 +108,7 @@ not generate; it is recovered via the *longitude*).
 | `docs/OPEN_LEADS.md` | **L206–L211**, the open questions from this window |
 | `docs/ERROR_LEDGER.md` | E72–E76 and the instances |
 | `docs/SM_SEAT_ALIAS_TABLE.md` | numbering; **B1402 next** |
-| `frontier/B13xx/FINDINGS.md` | the arcs themselves, addenda included |
+| the arcs' own `FINDINGS.md` under `frontier/` (B1340–B1349, B1400, B1401) | the arcs themselves, addenda included |
 
 **A gap named rather than papered over:** both logs had stopped at **B1324 (2026-09-09)** while 25
 arcs landed — the `log-changelog-paired` gate enforces that the two files move *together*, not that
