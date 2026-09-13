@@ -17,10 +17,9 @@ CONTROL C5 -- the quotation instrument must be able to say ABSENT
     false about it.  (Memo 164: control passing is not instrument working.)
 
     decoy (the 3D4/6D4 clauses SWAPPED): ABSENT
-    the true clause, same instrument    : ABSENT
+    the true clause, same instrument    : FOUND
 
-  C5: FAIL -- the instrument separates the two
-  !! FAIL [C5] the quotation instrument cannot distinguish a decoy from the source
+  C5: PASS -- the instrument separates the two
 
 ------------------------------------------------------------------------------
 CONTROL C3 -- PARI's K reproduces B1093's hand-proved facts
@@ -75,7 +74,7 @@ CELL 1 -- does KMRT's own definition type the object's cubic as 6D4?
            NON-ABELIAN, not the label string.
         and on the cubic itself PARI returns S3, order 6
 
-  >>> CELL 1 OUTCOME B: K (x) Delta IS a Galois field extension with
+  >>> CELL 1 OUTCOME A: K (x) Delta IS a Galois field extension with
       group S3 over Q -- KMRT's 6D4 clause, literally, and none of the other three.
 
 ------------------------------------------------------------------------------
@@ -191,20 +190,123 @@ CELL 4 VERDICT
     non-split (a,77)_K.  REPORTED AS A NOT-FOUND OVER A STATED FAMILY, not as a
     proof that none exists.
 
+------------------------------------------------------------------------------
+CELL 6 -- could (a,77)_K have been non-split at all?  [NOT PREREGISTERED]
+------------------------------------------------------------------------------
+
+    FILED AFTER CELL 4 RETURNED B, under seal ADDENDUM 1 and standing rule
+    R121/memo 213: when a statistic comes out identical across every case, ask
+    whether it COULD have differed BEFORE banking the constancy.  Nothing below
+    is preregistered and the memo says so.
+
+    n_p := the number of primes w of K above p at which 77 is NOT a square in
+    K_w -- i.e. the number of primes above p where a quaternion algebra
+    (77, .)_K is CAPABLE of ramifying at all.
+
+    disc of the sextic M = K(sqrt 77):  [3, 8; 7, 3; 11, 3]
+    -- so M/Q ramifies ONLY at 3, 7, 11: those are the finitely many
+       primes that cannot be reached by a Frobenius-class argument,
+       and each is computed individually below.
+
+    p  | (e,f) of the primes of K | v_w(77)       | n_p
+    ---+--------------------------+---------------+----
+    2  | [[1, 1], [1, 2]]         | [0, 0]        | 1
+    3  | [[3, 1]]                 | [0]           | 1
+    7  | [[1, 1], [2, 1]]         | [1, 2]        | 1
+    11 | [[1, 1], [2, 1]]         | [1, 2]        | 1
+
+    n_p by splitting pattern, over every prime p < 500:
+    f-pattern and e-pattern            | n_p | first p
+    -----------------------------------+-----+--------
+    [1, 2] e[1, 1]                     | 1   | 2
+    [1] e[3]                           | 1   | 3
+    [1, 1] e[1, 2]                     | 1   | 7
+    [3] e[1]                           | 0   | 13
+    [1, 1, 1] e[1, 1, 1]               | 0   | 73
+
+    n_p was CONSTANT on every splitting pattern observed (a NONCONSTANT
+    line above would have failed the run; there is none).
+
+    max n_p over all p < 500 : 1
+
+  CONTROL C7 -- two independent instruments
+    residue-field test vs splitting test, odd p < 500 with 77 a unit:
+    disagreements: 0 
+    (p = 2 was EXCLUDED IN ADVANCE: the residue-field test is invalid in
+     characteristic 2.  It is not excluded because it disagreed.)
+  C7: PASS
+
+  CONTROL C6 -- is 'n_p <= 1' a fact about 77, or about the instrument?
+
+      b   | max n_p over p < 300 | attained at p
+      ----+----------------------+--------------
+      77  | 1                    | 2
+      5   | 3                    | 73
+      13  | 3                    | 73
+      33  | 3                    | 73
+      -1  | 3                    | 139
+      3   | 3                    | 137
+
+    Some b reaches n_p >= 2 : True
+    So the count CAN exceed 1, and 'n_p <= 1' is a property of 77 over K.
+    THE REASON, and it is not a coincidence: 77 is the squarefree part of
+    disc(K), so Q(sqrt 77) is K's QUADRATIC RESOLVENT and K(sqrt 77) is K's
+    GALOIS CLOSURE.  For a generic b, K(sqrt b) is not Galois over Q and the
+    count is unconstrained.
+  C6: PASS
+
+  [Prop 44.16] p. 563 -- FOUND in the supplied text
+      (44.16) Proposition. (1) If T = (E, L, σ, αE ) is a trialitarian algebra such that
+      [E] = 1 ∈ Br(L), then there exists a twisted composition Γ = (V, L, N, β) such that
+      T = End(Γ).
+      (2) Γ, Γ0 are twisted compositions such that End(Γ) ≃ End(Γ0 ) if and only if there
+      exists λ ∈ L× such that Γ0 ≃ Γλ .
+
+  [Prop 43.6] p. 552 -- FOUND in the supplied text
+      (43.6) Proposition. For any trialitarian algebra T = (E, L, σ, αE ) the central
+      simple L-algebra E satisfies NL/F ([E]) = 1 ∈ Br(F ).
+
+  >>> CELL 6 OUTCOME A.  n_p <= 1 for EVERY rational prime p.  Exhaustive because
+      M = K(sqrt 77) ramifies only at 3, 7, 11 -- all three computed above -- and at
+      every unramified p the count depends only on the Frobenius class in S3, of
+      which there are three, each with a computed representative.
+
+      CONSEQUENCE, a deduction and not a search:  let Q be ANY quaternion algebra
+      over K containing K(sqrt 77) as a maximal subfield, with N_{K/Q}([Q]) = 1.
+        * it can ramify at no more than ONE prime above each rational prime (n_p <= 1);
+        * the norm condition forces an EVEN number above each rational prime;
+        * so it ramifies at NO finite place;
+        * and 77 > 0 in all three real embeddings, so at no real place either.
+      A quaternion algebra unramified at every place is SPLIT.
+
+      SO THERE WAS NEVER A NON-SPLIT EXAMPLE TO FIND.  CELL 4's OUTCOME B was the
+      TRUE ANSWER, not a search limit.
+
+      AND THE NORM CONDITION IS NOT AN ASSUMPTION HERE: 43.6, quoted above, gives
+      N_{L/F}([E]) = 1 for EVERY trialitarian algebra.  So the hypothesis is only
+      that the object's E carries the trialitarian structure -- which is what the
+      6D4 typing asserts and CELL 1 verified against the definition.
+
+      WHAT [E] = 1 THEN BUYS, by 44.16(1) quoted above: the object's trialitarian
+      algebra is End(Gamma) for a TWISTED COMPOSITION Gamma over K -- and 44.16(2)
+      classifies those up to Gamma -> Gamma_lambda.  SS36.C constructs them for an
+      arbitrary cubic etale L by descent from L (x) Delta.  The structure memo 203
+      reached for from search summaries is a named, finite, constructible object.
+
 ==============================================================================
  OUTCOMES
 ==============================================================================
-   CELL 1 (KMRT types the object 6D4)        : B
+   CELL 1 (KMRT types the object 6D4)        : A
    CELL 2 (no cyclic composition over K)     : A
    CELL 3 (memo 204's pin is the normal form): A
    CELL 4 (classification decides E?)        : B
    CELL 5 (the bench's citation)             : A
+   CELL 6 (could it have differed?) NOT PREREG: A
    C1 instrument bites   : PASS
    C2 projection formula : N/A
    C3 field is B1093's K : PASS
    C4 quotations located : PASS
-   C5 quote instr. bites : FAIL
-
-  FAILURES:
-    - C5: the quotation instrument cannot distinguish a decoy from the source
+   C5 quote instr. bites : PASS
+   C6 count could differ : PASS
+   C7 two instruments    : PASS
 ==============================================================================

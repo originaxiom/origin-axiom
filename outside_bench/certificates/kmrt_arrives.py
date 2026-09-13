@@ -73,14 +73,31 @@ def gp(script: str, timeout: int = 300) -> str:
         r = subprocess.run(["gp", "-q", path], capture_output=True, text=True,
                            timeout=timeout)
         if r.returncode != 0:
-            raise RuntimeError(f"gp exit {r.returncode}: {r.stderr[:500]}")
+            raise RuntimeError(f"gp exit {r.returncode}: {r.stderr[:800]}")
+        # gp EXITS 0 EVEN ON A SYNTAX OR RUNTIME ERROR in file mode: it reports the
+        # error on stderr, skips the rest of the file, and returns success.  Every
+        # silent-empty-table bug in this certificate's history came from ignoring
+        # that.  stderr is therefore treated as fatal.
+        err = re.sub(r"\x1b\[[0-9;]*m", "", r.stderr).strip()
+        if err:
+            raise RuntimeError("gp wrote to stderr (exit 0 is not success):\n"
+                               + err[:800])
         return r.stdout
     finally:
         os.unlink(path)
 
 
 def gp_block(setup: str, block: str, tail: str = "", timeout: int = 300) -> str:
-    """Run a multi-line GP statement safely: `block` is wrapped in braces."""
+    """Run a multi-line GP statement safely: `block` is wrapped in braces.
+
+    `setup` must be ONE STATEMENT PER LINE and is NOT braced -- put function
+    definitions there.  GP's `{...}` is a lexical line-continuation marker, not a
+    block construct, so a function definition's own braces nested inside the
+    wrapper silently breaks the parse and the loops produce NOTHING while gp
+    still exits 0.  That is the same failure mode as the unbraced multi-line
+    `for`, and it is why every table this certificate prints is checked for
+    emptiness rather than trusted.
+    """
     return gp(f"{setup}\n{{\n{block}\n}}\n{tail}", timeout)
 
 
@@ -289,7 +306,7 @@ of F and 6D4 if L ⊗ ∆ is a Galois field extension with group S3 over F ."""
                 and d["closureaut"] == "6"
                 and d["closureord"] == "6"
                 and d["closureabelian"] == "0"
-                and d["cubiclabel"] == '"S3"')
+                and d["cubiclabel"].strip('"') == "S3")
     cell1 = "A" if cell1_ok else "B"
     print(f"\n  >>> CELL 1 OUTCOME {cell1}: K (x) Delta IS a Galois field extension with")
     print("      group S3 over Q -- KMRT's 6D4 clause, literally, and none of the other three.")
@@ -508,6 +525,181 @@ a ∈ L× be such that NL (a) = 1. Let Q be the quaternion algebra (K ⊗ L/L, a
     non-split (a,77)_K.  REPORTED AS A NOT-FOUND OVER A STATED FAMILY, not as a
     proof that none exists.""")
 
+    # ---------------------------------------------------------------- CELL 6
+    rule("CELL 6 -- could (a,77)_K have been non-split at all?  [NOT PREREGISTERED]")
+    print("""
+    FILED AFTER CELL 4 RETURNED B, under seal ADDENDUM 1 and standing rule
+    R121/memo 213: when a statistic comes out identical across every case, ask
+    whether it COULD have differed BEFORE banking the constancy.  Nothing below
+    is preregistered and the memo says so.
+
+    n_p := the number of primes w of K above p at which 77 is NOT a square in
+    K_w -- i.e. the number of primes above p where a quaternion algebra
+    (77, .)_K is CAPABLE of ramifying at all.""")
+
+    setup6 = "\n".join([
+        "K = nfinit(y^3 - 12*y - 5);",
+        "rnf = rnfinit(K, x^2 - 77);",
+        "nA(p) = {my(d=idealprimedec(K,p),n=0); for(i=1,#d, my(t=nfmodprinit(K,d[i]));"
+        " if(!issquare(nfmodpr(K,77,t)), n=n+1)); n;}",
+        "nB(p) = {my(d=idealprimedec(K,p),n=0); for(i=1,#d,"
+        " if(#rnfidealprimedec(rnf,d[i]) < 2, n=n+1)); n;}",
+    ])
+    block6 = r"""
+    print("Mdisc=", factor(nfinit(polredbest(polcompositum(y^3-12*y-5, y^2-77)[1])).disc));
+    for(j=1,4, p=[2,3,7,11][j]; d = idealprimedec(K,p);
+      print("SMALL=", p, ";", vector(#d,i,[d[i].e,d[i].f]), ";",
+            vector(#d,i,idealval(K,77,d[i])), ";", nB(p)));
+    mx = 0; mism = 0; pat = List();
+    forprime(p=2, 500,
+      b = nB(p);
+      if(b > mx, mx = b);
+      if(p != 2 && p != 3 && p != 7 && p != 11,
+        if(nA(p) != b, mism = mism + 1; print("MISMATCH=", p)));
+      d = idealprimedec(K,p);
+      key = Str(vector(#d,i,d[i].f), " e", vector(#d,i,d[i].e));
+      seen = 0;
+      for(i=1, #pat, if(pat[i][1] == key, seen = 1;
+        if(pat[i][2] != b, print("NONCONSTANT=", key, ";", p))));
+      if(seen == 0, listput(pat, [key, b, p])));
+    print("maxn=", mx);
+    print("mismatch=", mism);
+    for(i=1, #pat, print("PATTERN=", pat[i][1], ";", pat[i][2], ";", pat[i][3]));
+    """
+    out6 = gp_block(setup6, block6, timeout=1800)
+
+    small, patterns, mismatches = [], [], []
+    st6 = {}
+    for ln in out6.splitlines():
+        if ln.startswith("SMALL="):
+            small.append(ln.split("=", 1)[1].split(";"))
+        elif ln.startswith("PATTERN="):
+            patterns.append(ln.split("=", 1)[1].split(";"))
+        elif ln.startswith("MISMATCH="):
+            mismatches.append(ln.split("=", 1)[1].strip())
+        elif ln.startswith("NONCONSTANT="):
+            fail("CELL6", f"n_p is not constant on a splitting pattern: {ln}")
+        elif "=" in ln:
+            k, _, v = ln.partition("=")
+            st6[k.strip()] = v.strip()
+
+    if not small or not patterns:
+        fail("CELL6", "a GP table came back EMPTY -- the block did not execute")
+    print(f"\n    disc of the sextic M = K(sqrt 77):  {st6.get('Mdisc','?')}")
+    print("    -- so M/Q ramifies ONLY at 3, 7, 11: those are the finitely many")
+    print("       primes that cannot be reached by a Frobenius-class argument,")
+    print("       and each is computed individually below.")
+    print("\n    p  | (e,f) of the primes of K | v_w(77)       | n_p")
+    print("    ---+--------------------------+---------------+----")
+    for row in small:
+        print(f"    {row[0].strip():<3}| {row[1].strip():<25}| {row[2].strip():<14}| {row[3].strip()}")
+
+    print("\n    n_p by splitting pattern, over every prime p < 500:")
+    print("    f-pattern and e-pattern            | n_p | first p")
+    print("    -----------------------------------+-----+--------")
+    for row in patterns:
+        print(f"    {row[0].strip():<35}| {row[1].strip():<4}| {row[2].strip()}")
+    print("\n    n_p was CONSTANT on every splitting pattern observed (a NONCONSTANT")
+    print("    line above would have failed the run; there is none).")
+    print(f"\n    max n_p over all p < 500 : {st6.get('maxn')}")
+
+    # ---- C7
+    print("\n  CONTROL C7 -- two independent instruments")
+    print(f"    residue-field test vs splitting test, odd p < 500 with 77 a unit:")
+    print(f"    disagreements: {len(mismatches)} {mismatches if mismatches else ''}")
+    c7 = (not mismatches) and bool(patterns)
+    print(f"    (p = 2 was EXCLUDED IN ADVANCE: the residue-field test is invalid in")
+    print(f"     characteristic 2.  It is not excluded because it disagreed.)")
+    print(f"  C7: {'PASS' if c7 else 'FAIL'}")
+    if not c7:
+        fail("C7", "the two square-tests disagree where both are valid")
+
+    # ---- C6
+    print("\n  CONTROL C6 -- is 'n_p <= 1' a fact about 77, or about the instrument?")
+    setup6b = "K = nfinit(y^3 - 12*y - 5);"   # no function defs: brace-safe
+    block6b = r"""
+    for(j=1, 6, b = [77, 5, 13, 33, -1, 3][j];
+      rnf2 = rnfinit(K, x^2 - b);
+      mx = 0; atp = 0;
+      forprime(p=2, 300,
+        d = idealprimedec(K,p); n = 0;
+        for(i=1,#d, if(#rnfidealprimedec(rnf2,d[i]) < 2, n = n+1));
+        if(n > mx, mx = n; atp = p));
+      print("BVAL=", b, ";", mx, ";", atp));
+    """
+    out6b = gp_block(setup6b, block6b, timeout=1800)
+    bvals = [ln.split("=", 1)[1].split(";") for ln in out6b.splitlines()
+             if ln.startswith("BVAL=")]
+    print("\n      b   | max n_p over p < 300 | attained at p")
+    print("      ----+----------------------+--------------")
+    for row in bvals:
+        print(f"      {row[0].strip():<4}| {row[1].strip():<21}| {row[2].strip()}")
+    if not bvals:
+        fail("C6", "the control's GP table came back EMPTY -- the block did not execute")
+    others = [int(r[1]) for r in bvals if r[0].strip() != "77"]
+    c6 = bool(others) and max(others) >= 2
+    print(f"\n    Some b reaches n_p >= 2 : {c6}")
+    print("    So the count CAN exceed 1, and 'n_p <= 1' is a property of 77 over K.")
+    print("    THE REASON, and it is not a coincidence: 77 is the squarefree part of")
+    print("    disc(K), so Q(sqrt 77) is K's QUADRATIC RESOLVENT and K(sqrt 77) is K's")
+    print("    GALOIS CLOSURE.  For a generic b, K(sqrt b) is not Galois over Q and the")
+    print("    count is unconstrained.")
+    print(f"  C6: {'PASS' if c6 else 'FAIL'}")
+    if not c6:
+        fail("C6", "no b reached n_p >= 2; the statistic could not have differed")
+
+    cell6_ok = (st6.get("maxn") == "1" and c6 and c7 and bool(small) and bool(patterns)
+                and all(r[3].strip() in ("0", "1") for r in small))
+    cell6 = "A" if cell6_ok else "B"
+    # SS44.16 is what makes CELL 6's arithmetic structural rather than merely negative.
+    q4416 = """(44.16) Proposition. (1) If T = (E, L, σ, αE ) is a trialitarian algebra such that
+[E] = 1 ∈ Br(L), then there exists a twisted composition Γ = (V, L, N, β) such that
+T = End(Γ).
+(2) Γ, Γ0 are twisted compositions such that End(Γ) ≃ End(Γ0 ) if and only if there
+exists λ ∈ L× such that Γ0 ≃ Γλ ."""
+    got4416 = quote("Prop 44.16", "p. 563", q4416)
+    q436 = """(43.6) Proposition. For any trialitarian algebra T = (E, L, σ, αE ) the central
+simple L-algebra E satisfies NL/F ([E]) = 1 ∈ Br(F )."""
+    got436 = quote("Prop 43.6", "p. 552", q436)
+    if not (got4416 and got436):
+        fail("CELL6", "the two propositions CELL 6 leans on could not be located")
+
+    if cell6 == "A":
+        print(f"""
+  >>> CELL 6 OUTCOME A.  n_p <= 1 for EVERY rational prime p.  Exhaustive because
+      M = K(sqrt 77) ramifies only at 3, 7, 11 -- all three computed above -- and at
+      every unramified p the count depends only on the Frobenius class in S3, of
+      which there are three, each with a computed representative.
+
+      CONSEQUENCE, a deduction and not a search:  let Q be ANY quaternion algebra
+      over K containing K(sqrt 77) as a maximal subfield, with N_{{K/Q}}([Q]) = 1.
+        * it can ramify at no more than ONE prime above each rational prime (n_p <= 1);
+        * the norm condition forces an EVEN number above each rational prime;
+        * so it ramifies at NO finite place;
+        * and 77 > 0 in all three real embeddings, so at no real place either.
+      A quaternion algebra unramified at every place is SPLIT.
+
+      SO THERE WAS NEVER A NON-SPLIT EXAMPLE TO FIND.  CELL 4's OUTCOME B was the
+      TRUE ANSWER, not a search limit.
+
+      AND THE NORM CONDITION IS NOT AN ASSUMPTION HERE: 43.6, quoted above, gives
+      N_{{L/F}}([E]) = 1 for EVERY trialitarian algebra.  So the hypothesis is only
+      that the object's E carries the trialitarian structure -- which is what the
+      6D4 typing asserts and CELL 1 verified against the definition.
+
+      WHAT [E] = 1 THEN BUYS, by 44.16(1) quoted above: the object's trialitarian
+      algebra is End(Gamma) for a TWISTED COMPOSITION Gamma over K -- and 44.16(2)
+      classifies those up to Gamma -> Gamma_lambda.  SS36.C constructs them for an
+      arbitrary cubic etale L by descent from L (x) Delta.  The structure memo 203
+      reached for from search summaries is a named, finite, constructible object.""")
+    else:
+        print(f"""
+  >>> CELL 6 OUTCOME B.  The exhaustiveness argument did NOT close: max n_p =
+      {st6.get('maxn','?')}, tables populated = {bool(small) and bool(patterns)},
+      C6 = {'PASS' if c6 else 'FAIL'}, C7 = {'PASS' if c7 else 'FAIL'}.
+      NO CONSEQUENCE IS DRAWN.  CELL 4's outcome B stands as a not-found over a
+      stated family and nothing more.""")
+
     # ---------------------------------------------------------------- summary
     print("\n" + "=" * 78)
     print(" OUTCOMES")
@@ -517,11 +709,14 @@ a ∈ L× be such that NL (a) = 1. Let Q be the quaternion algebra (K ⊗ L/L, a
     print(f"   CELL 3 (memo 204's pin is the normal form): {cell3}")
     print(f"   CELL 4 (classification decides E?)        : {cell4}")
     print(f"   CELL 5 (the bench's citation)             : {cell5}")
+    print(f"   CELL 6 (could it have differed?) NOT PREREG: {cell6}")
     print(f"   C1 instrument bites   : {'PASS' if c1 else 'FAIL'}")
     print(f"   C2 projection formula : {'PASS' if c2 else ('FAIL' if discarded else 'N/A')}")
     print(f"   C3 field is B1093's K : {'PASS' if c3 else 'FAIL'}")
     print(f"   C4 quotations located : {'PASS' if not [f for f in FAILURES if f.startswith('C4')] else 'FAIL'}")
     print(f"   C5 quote instr. bites : {'PASS' if c5 else 'FAIL'}")
+    print(f"   C6 count could differ : {'PASS' if c6 else 'FAIL'}")
+    print(f"   C7 two instruments    : {'PASS' if c7 else 'FAIL'}")
     if FAILURES:
         print("\n  FAILURES:")
         for f in FAILURES:
