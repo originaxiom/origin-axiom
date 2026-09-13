@@ -522,3 +522,50 @@ row* — but the shape is now complete: **branch B is dead on two independent ga
 arithmetically clear and kind-eligible with its outputs matching a law banked before the question.
 What remains for branch A is the one thing this bench cannot settle by computation: whether the
 mirror row is the right observable at all.**
+
+## 5. AN OBJECTION TO §2, RAISED AGAINST MYSELF AND CLOSED BY AN IDENTITY
+
+**The objection.** B641 does not grade `Re(A)`. It grades **`Re(A/ζ)`** with `ζ = √det(M|sector)` —
+`b641_verify.py` verbatim: `Modd = -M; d = det(Modd); zeta = sqrt(d); vals.append(mp.re(A/zeta))`.
+Addenda 2–4 dropped the `/ζ`. Since `|ζ| = 1`, `A/ζ = A·ζ̄`, so the form actually graded is
+**`Sym(Re(ζ̄·B))`, not `Sym(Re B)`** — a phase rotation, and a phase rotation changes a real part.
+**So the `gcd(m,15)` law, the field statement and the C6 containment could all have been artifacts of
+a missing normalisation.** That would have invalidated §2 and addenda 2–4 with it.
+
+**They are not, and the reason is an identity rather than a coincidence: `ζ = 1` on every metallic
+word.** `verification/b1349h_zeta_is_one.py`, exact:
+
+> `det(RᵐLᵐ) = det(T)ᵐ · det(S⁻¹T⁻¹S)ᵐ = det(T)ᵐ · det(T)⁻ᵐ = 1` for every `m`, and this holds on
+> every invariant subspace because restrictions multiply the same way. Exactly, in `ℚ(ζ₆₀)`:
+> `det(T) = −z¹⁰`, `det(L) = z¹⁰ − 1`, and `det(T)·det(L) ≡ 1 mod Φ₆₀`.
+>
+> `det(C|even) = det(I₄) = 1` and `det(C|odd) = det(−I₂) = (−1)² = 1`.
+>
+> **Therefore `det((C·RᵐLᵐ)|sector) = 1`** — verified exactly for all 15 words on *both* sectors —
+> **so `ζ = √1 = 1` and `Sym(Re(ζ̄B)) = Sym(Re B)`.**
+
+**B641's twist is the identity on the metallic words — and it is worth saying exactly where it is
+automatic and where it is not,** because a first pass asserted the wrong half and the truth is
+sharper:
+
+* On the **θ-even** sector, `det(R|even) = det(L|even) = 1` *individually*. So `ζ = 1` there for
+  **every** word in `⟨R,L⟩`, not just the metallic ones — the even sector never needed the twist.
+* On the **θ-odd** sector, `det(R|odd) = e^{−2πi/3}` and `det(L|odd) = e^{+2πi/3}` — **conjugate
+  primitive cube roots of unity.** `det` is a homomorphism, so its image on the odd sector is
+  `⟨ω⟩ ≅ ℤ/3`: exactly three values. `det = 1` there holds **only for words with equally many `R`s
+  and `L`s** — which `RᵐLᵐ` is, by construction.
+
+**That is precisely why B641 needed the twist:** ranging over all **360** group elements it meets all
+three odd-sector determinants, so the tone is only well defined after dividing by `ζ`. On the 15
+words `RᵐLᵐ` the twist is vacuous on both sectors — on the even one trivially, on the odd one because
+the word pairs each `R` with an `L`.
+The quantity addenda 2–4 computed **is** B641's quantity here.
+
+Checked the other way too, numerically and independently: recomputing the whole table *with* the `/ζ`
+reproduces the law with the identical ear-independent set `{3,5,6,9,10,12,15}`, the identical λ's, and
+the identical spectra — and the odd sector stays ear-independent for every `m` under both conventions.
+
+> **Why this is recorded rather than quietly checked.** The normalisation difference is exactly the
+> **E72** shape — one name (`the tone`), two quantities — and it was a live route by which all four
+> addenda could have been measuring the wrong thing. It is closed by proving the two quantities
+> *coincide on this domain*, which is stronger than observing that the answers happened to match.

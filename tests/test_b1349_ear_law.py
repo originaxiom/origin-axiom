@@ -396,3 +396,61 @@ def test_branch_A_lands_in_the_banked_set_and_branch_B_cannot():
     # and the near-misses are near: this is why the exclusion has to be structural, not numeric
     near = min(_c6_set(), key=lambda c: abs(c - 5 ** 0.5 / s2))
     assert abs(near - PHI / 2) < 1e-12 and 0.01 < abs(near - 5 ** 0.5 / s2) < 0.05
+
+
+# --- addendum 4 section 5: zeta = 1 on the metallic words, so B641's twist is the identity ---
+
+def test_zeta_is_one_on_every_metallic_word():
+    """B641 grades Re(A/zeta), zeta = sqrt(det M|sector). This arc dropped the /zeta.
+
+    It is legitimate only because zeta = 1 here, which is an IDENTITY, not a coincidence:
+      det(R^m L^m) = det(T)^m . det(S^-1 T^-1 S)^m = det(T)^m . det(T)^-m = 1,
+      det(C|even) = det(I_4) = 1,  det(C|odd) = det(-I_2) = +1.
+    The exact QQ(zeta_60) proof is verification/b1349h_zeta_is_one.py; pinned here.
+    """
+    # the algebraic reason, on the full 6-dim space
+    assert abs(np.linalg.det(R) * np.linalg.det(L) - 1.0) < 1e-9, "det(T).det(L) must be 1"
+    for m in range(1, 16):
+        P = np.linalg.matrix_power(R, m) @ np.linalg.matrix_power(L, m)
+        assert abs(np.linalg.det(P) - 1.0) < 1e-9, f"det(R^m L^m) must be 1 (m={m})"
+    # and on each sector, for the WELDED word -- which is what zeta is built from
+    for name, B in (("even", BEV), ("odd", BOD)):
+        for m in range(1, 16):
+            Mres = np.linalg.lstsq(B, _weld(m) @ B, rcond=None)[0]
+            d = complex(np.linalg.det(Mres))
+            assert abs(d - 1.0) < 1e-8, f"det of the {name} restriction must be 1 (m={m}): {d}"
+    # WHERE det = 1 IS AUTOMATIC AND WHERE IT IS NOT -- a first draft of this control asserted
+    # the wrong half, and the truth is sharper. On the EVEN sector each generator already has
+    # det 1, so zeta = 1 for EVERY word in <R,L>. On the ODD sector det(R) and det(L) are
+    # CONJUGATE PRIMITIVE CUBE ROOTS of unity, so det = 1 only for words with equally many
+    # R's and L's -- which R^m L^m is. That is exactly why B641, ranging over all 360 group
+    # elements, needed the /zeta twist at all.
+    def _det_on(M, B):
+        return complex(np.linalg.det(np.linalg.lstsq(B, M @ B, rcond=None)[0]))
+    for M, nm in ((R, "R"), (L, "L")):
+        assert abs(_det_on(M, BEV) - 1.0) < 1e-9, f"det({nm}|even) must be 1"
+        d = _det_on(M, BOD)
+        assert abs(d - 1.0) > 0.5, f"det({nm}|odd) must NOT be 1 -- else the pairing is vacuous"
+        assert abs(d ** 3 - 1.0) < 1e-9, f"det({nm}|odd) must be a cube root of unity: {d}"
+    assert abs(_det_on(R, BOD) * _det_on(L, BOD) - 1.0) < 1e-9, "the two must be conjugate"
+
+
+def test_the_law_is_unchanged_by_the_zeta_normalisation():
+    """The decisive cross-check: redo the law WITH B641's /zeta and get the same answer."""
+    def indep_with_zeta(m, B):
+        Bm = B.T @ _weld(m) @ B
+        Mres = np.linalg.lstsq(B, _weld(m) @ B, rcond=None)[0]
+        Bm = np.conj(np.sqrt(complex(np.linalg.det(Mres)))) * Bm
+        Qm = 0.5 * (Bm.real + Bm.real.T)
+        return _is_scalar(np.linalg.inv(B.T @ B) @ Qm)
+    with_zeta = [m for m in range(1, 16) if indep_with_zeta(m, BEV)[0]]
+    assert with_zeta == [3, 5, 6, 9, 10, 12, 15], with_zeta
+    assert with_zeta == [m for m in range(1, 16) if math.gcd(m, 15) != 1]
+    # the lambdas agree too, not just the membership
+    for m in with_zeta:
+        a = _is_scalar(_form(m, BEV)[0])[1]
+        b = indep_with_zeta(m, BEV)[1]
+        assert abs(a - b) < 1e-9, f"lambda must agree with and without zeta (m={m})"
+    # and the odd sector is ear-independent under BOTH conventions, for every m
+    for m in range(1, 16):
+        assert _is_scalar(_form(m, BOD)[0])[0] and indep_with_zeta(m, BOD)[0], m
