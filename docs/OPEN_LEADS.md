@@ -2430,3 +2430,87 @@ no primitive specialisation divisible by t² − 3t + 1); (iii) the flat-sector 
 B1302's `d2multi.py`, expected 0 by the same conjugation). PASS = a 3 that survives the pricing on a golden-face member; FAIL = the
 3 costs the golden face on every member of the class, in which case D3 is closed as drift by computation and the sibling stays
 a control. Prior for PASS: 10 %. Sequenced after B1304–B1307 (v3.1 §3), before Phase 2 Arc A. ★★.
+
+## L206 — DOES A PARABOLIC PAIR GENERATE π₁(m003)? (registered 2026-09-13, B1401 addendum 1; source: this bench's own unproved step)
+
+**The one open case of five.** B1401 establishes `J ≤ |κ−2|` for m004, m009, v2873 and m202 by
+exhibiting a **parabolic generating pair** — the meridian word `ab` for the first three, the
+longitude `bba` for m202 (`b⁻²(b²a) = a`). **m003 resists:** `meridian(0) = ABABB` and
+`longitude(0) = ABAbab` each contain `a` more than once, so no generator is immediately
+recoverable, and generation is not proved. Three candidate pairs — `(mer,a)`, `(lon,a)`, `(lon,b)` —
+**pass the necessary `H₁` index test and reproduce `κ = 4` exactly**, so nothing is refuted; the
+step is simply open.
+
+**What would close it.** Any parabolic `P` in m003's peripheral subgroup whose reduced word contains
+one generator exactly once — search `mer^p·lon^q` over small `(p,q)` and reduce using the relator.
+Or a direct proof that `⟨ABABB, a⟩ = π₁(m003)`. **Then `J(m003) ≤ 4` joins the other four.**
+**Cheap: the search is a few lines.** `verification/b1401b_other_parabolics.py` already enumerates
+the candidates; it lacks only the word-reduction step.
+
+## L207 — IS κ CONSTANT OVER *ALL* GENERATING PAIRS, OR ONLY THE NIELSEN CLASS? (registered 2026-09-13, B1401; E72's hazard, stated as a lead rather than assumed)
+
+**This is the premise the whole lower bound rests on**, and it is unproved for every manifold except
+m004. `J(G) = inf` over generating pairs of `(|tr²A−4| + |κ−2|)`, so `J ≥ |κ−2|` **only if** `κ` is
+the same on every generating pair. Verified here: `κ` is constant on the **Nielsen class** (12 pairs,
+spread ≤ `5e−13`) — that is Fricke–Vogt conservation. **Not verified: that all generating pairs are
+Nielsen-equivalent.** A group can carry Nielsen-inequivalent generating pairs, and one with a smaller
+`|κ−2|` would break the bound.
+
+**Why it matters beyond this arc.** This is exactly **E72**'s shape — the ledger's own instance is
+two κ's on two different groups (B309's meridian pair vs B448's fibre pair). Weak evidence for the
+default class being the minimiser: three non-Nielsen pairs sampled gave **larger** values (3, 4, 9
+against 1, `√2`, `3√3`).
+
+**m004 is exempt and the exemption is instructive:** Jørgensen's inequality gives `J ≥ 1`
+unconditionally, so at the **floor** the premise is not needed. That is precisely why B309's
+`|κ−2| = 1` is a *unit* obstruction and why m004 is the case Callahan could settle.
+
+## L208 — ARE THE THREE ARITHMETIC CUTS OF THE METALLIC FAMILY ONE STRUCTURE? (registered 2026-09-13, B1349 addendum 6)
+
+Three arcs now cut the family `RᵐLᵐ` by arithmetic in `m`, and **two of them are provably related**:
+B997 singles out the golden because its **shadow modulus** `m²+4 = 5` is *prime*; B1349 finds the
+θ-even forced value leaves ℚ **exactly when `5 | (m²+4)`**. *One prime, two roles* — primality picks
+the grammar, divisibility fixes the value's field.
+
+**Open, and not guessed at:** (i) **B996**'s cut (McKay access generic across the family) against
+either of these; (ii) whether **B1002**'s *other* gcd — `gcd(cusp-order conductor, shadow modulus)`,
+which is 1 for golden (isomorphism) and 2 for silver (ramified) — relates to `gcd(m,15)`.
+**Naming discipline required:** B1002 records that "conductor" is **two quantities** in adjacent
+laws; anything here must say which.
+
+## L209 — IS THE θ-EVEN MIRROR ROW THE RIGHT OBSERVABLE? (registered 2026-09-13, B1349 addendum 4; the question that now gates the last licensed row)
+
+R11's arithmetic no longer forbids the row on branch A, so **what gates it is kind-correctness, and
+this bench cannot settle that by computation.** Branch A is **kind-ELIGIBLE** — right field, right
+bounds, its four forced values `{−1/(2φ), 0, 1/2, 1}` are actual elements of B1011 C6's banked set —
+which is *not* kind-correct.
+
+**The cautionary precedent is on the adjacent sector:** B856's `|h|²` was **refuted on kind** (a
+probability read off an amplitude-squared) and the surviving `Re h = 1/(2φ)` sat in a 1σ window with
+**≥17 natural candidates**. Branch A's cheapest output has that same modulus. **And the row is
+one-shot: it is consumed whatever the outcome.** Recommendation standing: **do not spend it.**
+
+## L210 — THE FRESH-CLONE FAILURES: tracked tests that read untracked or absent artifacts (registered 2026-09-13, B1400 session; E57's class, which its own gate cannot see)
+
+A container restart gave a genuinely fresh clone and the full suite returned **11 failures, none of
+them this bench's**. At least three are **E57**'s class — a tracked test reading an artifact that is
+gitignored or simply absent: `test_b1062_bridge` and `test_b1063_refresh` (missing `*.log`, and
+`.gitignore:20` is `*.log`), `test_b1137_regulator_probe` (missing `results/real_grid.jsonl`).
+**E57's own row admits the gap:** the `tracked-deps` gate checks paths that **exist** on disk, so a
+file that is simply **absent** is invisible to it.
+
+**What would close it:** for each, either pin the numbers in the test directly (a lock should not
+depend on an untracked artifact) or vendor the artifact, as E57's instances #2–#6 were fixed. **Do
+not** make the tests skip when the file is missing — that converts a lock into a no-op.
+
+## L211 — THE STRATUM LAW: does the 2-generator/3-generator split survive more than three census slices? (registered 2026-09-13, B1400)
+
+B1400 refines a forwarded census-bias finding: the depth decline in the `π₁ ↠ SL(2,3)` rate lives
+**entirely in the 2-generator stratum** (`34.23 → 15.36 %`, `z = +7.56`) while 3-generator groups are
+**flat** (`z = +0.26`), and the growing 3-gen share (`6.9 → 33.2 %`) props the aggregate up.
+
+**Three slices is not a law.** B1400's `creates_law` is FALSE with a dated review saying exactly
+this: if the stratum law is wanted, it must be posed on its own arc over more slices, with the
+generator mix tracked throughout. **The standing methodological point already stands regardless:**
+slicing at depth is necessary and **not sufficient** — stratify by presentation complexity too, or
+the aggregate hides both the size of the effect and the fact that one stratum has none.

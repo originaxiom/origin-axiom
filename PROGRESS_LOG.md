@@ -14903,3 +14903,66 @@ The session-relay seat's `HANDOFF_cc_2026-09-08.md` + `GATE_REPORT.md` + sealed 
 ## 2026-09-09 — THE PAPER REFLECTS THE MOST RECENT STATE (S7) + THE VERIFICATION PACKAGE (S8): the chirality campaign enters the chain as C47–C54 (54 links, 50 forced) and the paper as a new section with the abstract, non-claims, falsifiers, wall and recognition updated; the provenance appendix grows to 30 claims; a reviewer-facing verification package with a manifest, a one-command runner and a README
 
 Owner-directed 2026-09-09 ("the paper should reflect the most recent state of the work"; "including a verification package so we can start sending it"). Chain ledger: C47 parity of the cusp (B1291/B1292/B1302/B1321), C48 two-or-nothing + the caveat coefficient + PW's localized count (B1294/B1295/B1320), C49 the charge-locus lock + the lift fork (B1296/B1298), C50 the one-cusped index + the vector-like cyclic tower (B1297/B1299), C51 the tower law + the SM closings + the Z′ fork (B1303/B1306), C52 the θ-odd frame closed (B1322), C53 the genesis dictionary + criterion census + F9 (B1323), C54 mirror = swap × arrow + the chiral covers (B1324); forcedness profile 34/6/8/4/1/1. Paper: the stale 43/39 counts corrected (E53 on the paper's own chain section), the chain table regenerated, the figure at 54 links, \S The chirality bit (no internal identifiers), abstract's 'Three chiral generations are not derived' replaced by the current statement, non-claims (chiral generations exhibited-vector-like; the C/P/T resonance not claimed), falsifiers (an upgrade trigger: a live index on a chiral cover; the Z′ regime as a weak handle on an observer-selected vacuum), the wall (what a specialist must supply on chirality), recognition (PW, Siegel, Mignosi–Séébold, Markov reproduced), bibliography 15 → 21, keywords, date. Provenance appendix: 30 claims over 36 records, audit 0 defects, wrapping columns. Package: `papers/P3_THE_PAPER/verification_package/` (build_manifest.py, run_package.py, README.md, MANIFEST.json/.md; 30 claims, 36 records, 12/12 seals, 54 lock files) + `tests/test_p3_verification_package.py`. Hostile read of the final text by two fresh seats recorded in SUBMISSION_CAMPAIGN S7. Owner-gated: author block, venue, DOI, the send (HOLD).
+
+## 2026-09-13 — B1340–B1349 (+ addenda), B1400, B1401 — THE CROSSING'S LAST ROW PRICED AND NOT SPENT; two forwarded seat reports verified; six error classes added
+
+**This bench's working branch (the paper-verification branch); main untouched at `f06d3405` throughout.** Everything
+below is banked on the branch and has not landed on main — which matters, because a seat auditing
+`origin/main` cannot see it (see B1400's cross-seat finding).
+
+**THE MAIN LINE — the mirror row, KIND_TABLE's last licensed coupling row, is now fully priced and
+the recommendation is still DO NOT SPEND IT.** B1349 posed it (residual freedom 48); addendum 1 paid
+the exactification debt in `ℚ(ζ₆₀)` and cut the freedom `48 → 8` by Galois; addenda 2–6 then settled
+the arithmetic. **The law:** on the θ-even sector `Re h` is ear-independent **exactly when
+`gcd(m,15) > 1`**, ear-dependent exactly on the 8 units of ℤ/15 — complete over the period, since
+`ord(R) = ord(L) = 15`. **Branch B** (the units) reads `2 − 2 = 0` and fails by a **tie**, with
+provably no third ear-discriminating direction, **and** is excluded on **kind**: its readings carry
+`1/√2`, generating `ℚ(√2,√5)`, while the row's field is `ℚ(√5)` and `√2 ∉ ℚ(ζ₆₀)`. **Branch A** is
+kind-eligible — its four forced values `{−1/(2φ), 0, 1/2, 1}` are elements of B1011 C6's banked set —
+but **the golden word `m = 1`, B997's unique McKay-shadow grammar, is a unit and therefore on the dead
+branch**, so branch A requires departing from the object's own grammar at `log₂7 ≈ 2.81` bits; with
+that anchor priced it closes on **one reading of four**. **What gates the row now is kind-correctness,
+not arithmetic** (L209).
+
+**A structural bonus:** B997's shadow modulus and this law are governed by the **same prime** in two
+roles — *primality* of `m²+4` picks the golden grammar, *divisibility by 5* decides whether the
+forced value is golden or rational. Related, not the same cut (L208).
+
+**Earlier in the window.** B1340 priced the joker: on the record's vector-like vacuum all six anomaly
+coefficients vanish identically, so "anomaly-free on the 19,624 vacua" **carries zero bits**; over a
+*chiral* spectrum the family part is **forced to `(0,t,−t)`**, and the record's `(−10,5,5)` is not of
+that shape, so **imposing chirality kills P9's `Z′`**. B1341 proved an anti-symplectic map has **no
+discrete Lagrangian**, so the object's action exists at its monodromy and fails at the formal square
+root. B1342/B1343 answered the "other faces" question (derivable but **evidentially empty**, the chain
+being 2T-blind). B1345 found `J(m004) = 1` **is** B309's banked unit obstruction. B1346 intook the
+chat1 handoff 34/34.
+
+**TWO FORWARDED SEAT REPORTS VERIFIED.** **B1400** (chat1's six sweeps): the census-bias headline
+reproduces **to every digit**, and stratifying shows the decline lives **entirely in the 2-generator
+stratum** while 3-generator groups are flat — **the headline understates it by better than 2×**
+(L211). Their absent-term list is right on `origin/main`, but **8 of its 16 terms are already present
+on this branch**. **B1401** (the relayed `|κ−2|` values): all five exact; the two relayed claims
+collapse to one (the bound is a *corollary* of the invariance); the bound is **attained** via a
+parabolic generating pair, proved for four of five (m003 open, L206); and **`J(m004) = 1` alone needs
+no proviso**, because m004 sits at the floor of Jørgensen's inequality.
+
+**SIX ERROR CLASSES ADDED, all from this bench's own mistakes:** **E72** (one symbol, two quantities —
+κ), **E73** (a count taken over the wrong base field: `dim` over ℚ of `ℚ(ζ₆₀)` coefficient vectors read
+as 6 independent readings; over ℝ it is 3, which **reversed** a verdict), **E74** (a pre-registered
+decision rule that was itself mis-derived, and would have declared the last licensed row dead on the
+branch where its arithmetic closes), **E75** (the rounded-canonical-form class, diagnosed after a
+*fourth* orbit drift), **E76** (the unpriced-setting class — a ledger that prices what the question is
+*about* and leaves the question's *setting* unbilled, which is systematically favourable), plus an
+**E66** extension (a predicate broader than its stated rule) and **E58** extended from a relay to my
+own paraphrase.
+
+**Housekeeping:** numbering recorded in the alias table (B1326–B1349 taken, B1400/B1401 spent, **B1402
+next**); a paper impact note written for the seat that owns `main.tex`; three suite failures that were
+ours fixed; 31 of 32 gates pass, the remainder the long-declared `doc-currency` debt.
+
+**A GAP THIS ENTRY CLOSES, AND ONE IT DOES NOT.** `CHANGELOG.md` and this log both stopped at
+**B1324 (2026-09-09)** while 25 arcs landed — the `log-changelog-paired` gate enforces that the two
+files move *together*, not that either moves *at all*, so it stayed green throughout. **Arcs
+B1325–B1339 remain unlogged**; they were banked by earlier sessions on this branch and are **not**
+described here, because writing entries for work this seat did not author would risk misdescribing
+it. That gap is named rather than papered over.
