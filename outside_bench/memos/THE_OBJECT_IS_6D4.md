@@ -341,3 +341,47 @@ alone. **It does not change addendum 2's headline either way:** `ℚ(√77)` is 
 die, whether or not `E` was already split over `K`.
 
 *Gate 5 untouched. Nothing promotes.*
+
+---
+
+# ADDENDUM 5 (2026-09-13) — **ADDENDUM 4's OPEN QUESTION IS ANSWERED: `E` IS SPLIT** (memo 222)
+
+Addendum 4 reduced *"is `E` split over `K` itself?"* from a 48×48 commutant — *"twice killed by
+resource limits"* — to **the ramification of one quaternion algebra over one totally real cubic
+field**, and handed it to *"a seat with a number-theory package."* That seat exists (memo 219),
+and the owner supplied KMRT on 2026-09-13. **The answer is YES: `E` is split.**
+
+**The argument (memo 222 CELL 6, NOT preregistered — filed under R121 after the preregistered
+search returned nothing):**
+
+1. **KMRT Prop. 43.6**, verbatim: *"For any trialitarian algebra `T = (E, L, σ, αE)` the
+   central simple `L`-algebra `E` satisfies `N_{L/F}([E]) = 1 ∈ Br(F)`."* This is not an
+   assumption about the object — it holds for every trialitarian algebra, so the only
+   hypothesis is the ⁶D₄ typing this memo established and memo 222 CELL 1 verified against
+   KMRT's own definition.
+2. Corestriction is additive on local invariants and a quaternion class has `inv_w ∈ {0, ½}`,
+   so the ramified primes of `Q` lie over **each** rational prime in **EVEN** number.
+3. **Computed, exhaustively:** the number of primes `w | p` of `K` at which `77` is a
+   non-square is **`n_p ≤ 1` for every `p`** — `M = K(√77)` has discriminant `3⁸·7³·11³` so
+   ramifies only at `3, 7, 11` (all three computed individually), and every unramified `p`
+   falls into one of exactly three Frobenius classes in `S₃`, each with a computed
+   representative.
+4. `≤ 1` and `even` force **0**. And `77 > 0` in all three real embeddings, so no real
+   ramification either — consistent with, and independent of, addendum 4's `so(4,4)` argument.
+
+> **A quaternion algebra unramified at every place is split. `E ≅ M₈(K)`.**
+
+**And the reason is structural, not arithmetic luck:** `77` is the squarefree part of
+`disc(K)`, so `ℚ(√77)` is `K`'s **quadratic resolvent** and `K(√77)` is `K`'s **Galois
+closure**. Memo 222's control C6 shows every other `b` tested (`5, 13, 33, −1, 3`) reaches the
+maximum `n_p = 3`. **The object's algebra is split because the quadratic face it carries is its
+own discriminant field** — the same fact that types it ⁶D₄ and that refuted B882 in this memo.
+
+**What this buys, by KMRT Prop. 44.16(1):** a trialitarian algebra with `[E] = 1` is `End(Γ)`
+for a **twisted composition** `Γ` over `K`, classified by 44.16(2) up to `Γ → Γ_λ`, and §36.C
+constructs such `Γ` for an arbitrary cubic étale `L` by descent from `L ⊗ ∆`.
+
+**Scope, unchanged:** the deduction is conditional on this memo's own derivation that the
+commutant is a quaternion algebra over `K` containing `K(√77)` — that remains an input, not a
+result of memo 222. **Addendum 4's closing sentence stands: this does not change addendum 2's
+headline either way.** What it removes is the 48×48 computation, permanently.

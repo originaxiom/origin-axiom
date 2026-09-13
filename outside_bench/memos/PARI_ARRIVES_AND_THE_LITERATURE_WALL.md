@@ -116,3 +116,26 @@ conjugate of their listed representative.
 and §4's insistence that search summaries are not a read. **That insistence is exactly why
 the upload mattered**: memo 220 shows the summary-level principle (*"modular data determines
 the category"*) would have discharged the residual **wrongly**.
+
+---
+
+# ADDENDUM 2 (2026-09-13) — **§6's "LIVE COMPUTABLE ITEM" IS DISCHARGED WITHOUT BEING RUN** (memo 222)
+
+§6 closed: *"THE LIVE COMPUTABLE ITEM IS THEREFORE THE ONE MEMO 204 CALLED INTRACTABLE: the
+explicit 48×48 commutant over ℚ … PARI's rational linear algebra is a different instrument.
+NAMED, NOT ATTEMPTED HERE."*
+
+**It is still not attempted, and it is no longer needed.** The owner supplied KMRT on
+2026-09-13. Memo 222 answers the question that computation was named for — *is `E` split over
+`K`?* — **YES**, from KMRT Prop. 43.6 plus a finite, exhaustive local computation (`n_p ≤ 1`
+for every rational prime `p`; see memo 204 ADDENDUM 5).
+
+> **§6 is SUPERSEDED on this point.** The 48×48 commutant is no longer the bench's live
+> computable item; it would now only *re-derive* an answer already in hand by a cheaper route.
+> Anything it could still contribute is the explicit `a ∈ K×`, not the split/non-split verdict.
+
+**§5's egress measurement stands unchanged**, and its lesson is reinforced for the third time:
+the blocker was never the arithmetic, it was the reading channel. Three papers and one book,
+all owner-supplied, have now settled three items this box could not reach —
+L72's uniqueness residual (memo 220), memo 210's two successors (memo 221), and memo 204
+addendum 4's `E`-question (memo 222).
