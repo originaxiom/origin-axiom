@@ -25,6 +25,10 @@ STALE_REFERENCES = [
     "reviewer-001",
 ]
 
+# The R38 placeholder shape, as STALE_REFERENCES names it: "reviewer-" + digits.
+# NOT a blanket "reviewer-" + anything -- that catches ordinary prose ("reviewer-facing").
+REVIEWER_PLACEHOLDER_RE = re.compile(r"reviewer-\d", re.I)
+
 RAW_TRANSCRIPT_MARKERS = [
     "Claude responded:",
     "You said:",
@@ -64,9 +68,27 @@ def test_no_email_addresses_or_reviewer_placeholders():
     for path, text in docs.items():
         if EMAIL_RE.search(text):
             offenders.append(f"{path.relative_to(ROOT)} contains email-shaped text")
-        if re.search(r"reviewer-(?!style)", text):  # placeholders, not prose (R38)
+        if REVIEWER_PLACEHOLDER_RE.search(text):     # placeholders, not prose (R38)
             offenders.append(f"{path.relative_to(ROOT)} contains reviewer placeholder")
     assert offenders == []
+
+
+def test_reviewer_placeholder_pattern_is_not_vacuous():
+    """CONTROL on the predicate above: it must catch placeholders and pass prose.
+
+    The pattern was `reviewer-(?!style)`, which is BROADER than the rule its own comment
+    states ("placeholders, not prose"): it red-flagged the ordinary phrase "reviewer-facing"
+    in the append-only CHANGELOG and PROGRESS_LOG, where no placeholder exists. A predicate
+    wider than its stated rule reports findings its rule does not claim -- the mirror image
+    of E66 (a gate NARROWER than its rule), and equally invisible, because the failure was
+    read as a real hit for days. Narrowed to the placeholder SHAPE that STALE_REFERENCES
+    actually names (reviewer-001), and locked in both directions here.
+    """
+    for bad in ["reviewer-001", "reviewer-1", "reviewer-042 said", "Reviewer-7"]:
+        assert REVIEWER_PLACEHOLDER_RE.search(bad), f"must catch the placeholder {bad!r}"
+    for ok in ["reviewer-facing verification package", "reviewer-style prose",
+               "a reviewer-friendly summary", "reviewer-ready"]:
+        assert not REVIEWER_PLACEHOLDER_RE.search(ok), f"must pass the prose {ok!r}"
 
 
 def test_no_raw_transcript_markers_in_public_docs():
