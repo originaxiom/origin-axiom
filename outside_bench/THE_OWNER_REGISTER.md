@@ -4067,3 +4067,93 @@ inside the memo so §5's fit can never be read as a verified theorem for 4₁.
 R128 discharged L72's uniqueness residual against RSW; R129 discharges memo 210's two
 successors against Müller and Menal-Ferrer–Porti. The pattern is stable and worth naming —
 **the bench's arithmetic was never the blocker; the reading channel was.**
+
+---
+
+## R130 — the book (2026-09-13): the last literature ask, and the object's algebra is SPLIT
+
+**Owner's input:** *The Book of Involutions* (Knus–Merkurjev–Rost–Tignol), draft PDF, 588 pp —
+**the one outstanding literature ask on this bench**, a book and not on arXiv, carried in the
+handoff list since memo 203.
+
+**Answer: memo 222, `KMRT_ARRIVES.md`.** Six cells, seven controls, all passing.
+
+### R130-1 — the record's most load-bearing unverified claim HOLDS
+
+Memo 203 flagged itself: *"the section-3 correction is THE MOST LOAD-BEARING AND THE LEAST
+VERIFIED ITEM and should be checked against KMRT … BEFORE the record is edited."* The record
+**was** edited — memo 204 typed the object **⁶D₄** and **REFUTED B882** on that basis.
+
+KMRT **§43.C**, verbatim: *"³D₄ if `L` is a **cyclic** field extension of `F` and **⁶D₄** if
+`L ⊗ ∆` is a Galois field extension with group `S₃` over `F`."* `K ⊗ ∆ = x⁶−30x⁴+225x²−308`,
+degree 6, six automorphisms, order 6, non-abelian. **Memo 204 was right, and B882's ³D₄ naming
+is now refuted by the definition rather than by a summary.**
+
+Memo 203's second claim holds too: **§36.B** makes *"the choice of a generator `ρ` of the group
+`Gal(L/F) = A₃` … part of the datum"*, and `#Aut(K/ℚ) = 1`.
+
+### R130-2 — and then the book answered a question the bench had given up on
+
+Memo 204 addendum 4 reduced *"is `E` split over `K`?"* from a 48×48 commutant — *"twice killed
+by resource limits"* — to one quaternion algebra's ramification, and handed it off. Memo 219
+named it the bench's **one live computable item**.
+
+> **IT IS SPLIT.** KMRT **Prop. 43.6** — *"For any trialitarian algebra … `N_{L/F}([E]) = 1`"* —
+> plus a finite exhaustive local computation: the number of primes `w | p` of `K` at which `77`
+> is a non-square is **`n_p ≤ 1` for EVERY `p`**. Corestriction forces that count **even**.
+> `≤1` and `even` give **0**; `77 > 0` at all three real places. **Unramified everywhere ⟹
+> split.** `E ≅ M₈(K)`.
+
+Exhaustive rather than sampled: `M = K(√77)` has disc `3⁸·7³·11³` so ramifies only at `3, 7,
+11` (each computed), and every unramified `p` sits in one of exactly **three** `S₃` Frobenius
+classes, each with a computed representative.
+
+**The 48×48 commutant is no longer needed.** Memo 219 §6 is superseded (addendum filed there);
+memo 204 addendum 5 records the answer.
+
+### R130-3 — the reason is the object's own discriminant, and the control proves it
+
+Control C6 recomputes `n_p` with `77` replaced: `b = 5, 13, 33, −1, 3` **all reach the maximum
+`n_p = 3`**; only `77` is capped at 1.
+
+> **INTERPRETIVE.** `77` is the squarefree part of `disc(K)`, so `ℚ(√77)` is `K`'s quadratic
+> resolvent and `K(√77)` is `K`'s **Galois closure**. **The object's algebra is split because
+> the quadratic face it carries is its own discriminant field** — one fact behind the ⁶D₄
+> typing, the B882 refutation, and now the splitting. Not three coincidences.
+
+And by **Prop. 44.16(1)**, `[E] = 1` makes the object's trialitarian algebra `End(Γ)` for a
+**twisted composition** over `K`, classified up to `Γ → Γ_λ` — the concrete finite object memo
+203 §4 guessed at from summaries.
+
+### R130-4 — the preregistered cell found nothing, and that was the right answer
+
+CELL 4 searched 342 admissible `a` and found `(a,77)_K` split in every one. Reported as a
+not-found over a stated family. **CELL 6 then showed there was never an example to find** — so
+outcome B was the truth, not a search limit. CELL 6 is **NOT preregistered**; it was filed
+under seal ADDENDUM 1 after CELL 4 was read, because **R121** demands it.
+
+### R130-5 — BENCH ERROR #29, and four silent failures
+
+**#29:** the standing ask read *"KMRT Ch. VII §43 and §44.B"* since memo 203. §43–44 are
+**Chapter X**, §36 is **Chapter VIII**. Section numbers right, chapter wrong; nothing
+downstream used it.
+
+The certificate was wrong four times first, and **every failure exited 0**: a multi-line
+`for(...)` in a GP file is a syntax error per line (the loop never ran and produced a **false
+hit** from symbolic variables); nested braces inside the wrapper made **every table empty**
+while a confident `0` printed; `arg` is a reserved GP name; and the helper **discarded
+stderr**, which is why all three were silent.
+
+> **RULE ADDED (#25): a subprocess that exits 0 is not a subprocess that worked.** Capture
+> stderr, treat it as fatal, and check every table it was meant to fill for emptiness.
+>
+> **And the catch that mattered was a THEORY check, not a control:** `n_p = 0` for every prime
+> is impossible — an extension with every prime split is trivial — and noticing that exposed a
+> wrong API indexing that all seven controls had passed over. *Controls catch what you thought
+> to guard; a contradiction with a theorem catches what you didn't.*
+
+### R130-6 — the literature ledger is now empty
+
+Three papers and one book, all owner-supplied, have settled three items this box could not
+reach: **L72's uniqueness residual** (memo 220), **memo 210's two successors** (memo 221), and
+**memo 204's `E`-question** (memo 222). **There is no outstanding literature ask on this bench.**
