@@ -4415,3 +4415,82 @@ is main's call. The certificate **computes matrices, not manifolds**: that `M`'s
 **C4 fired once and was right to:** the F9 needle used typographic quotes where the arc uses
 straight ones, and the run **failed** rather than passing a quotation this bench had mistyped.
 Recorded rather than quietly repaired.
+
+---
+
+## R134 — "Jørgensen theorem" (2026-09-13): the theorem I missed, and the record has had its number all along
+
+**Answer: memo 225.** The owner named the theorem in two words, and it corrects R133.
+
+### R134-1 — BENCH ERROR #31: I found a theorem, not THE theorem
+
+R133 answered *"a theoreme about figure 8 being only with cusp that fixes first axiom"* with **fork
+F9 / B1323, on main**. **Wrong.** It is **Jørgensen's inequality (1976) + Callahan (2009)
+Cor. 2.4** — *"the only **orientable** hyperbolic 3-manifold with `J = 1` is the figure-eight
+complement"* — and it **is on a branch**, `claude/paper-verification-ufp0zn` arc **B1345**, dated
+**2026-09-12**.
+
+> **The owner's "check new work from other branches" was exactly right.** My sweep searched for
+> uniqueness phrasings and axiom-discharge phrasings and found the A6 audit and F9 — and walked past
+> an arc directory literally named `B1345_the_jorgensen_number`. **A named-thing search that does
+> not enumerate the new arcs BY NAME can miss the one arc whose title is the answer.**
+
+### R134-2 — `J(m004) = 1`, exactly, with NO search — and the cusp is why
+
+Exact in `ℤ[ζ₆]` from the object's own holonomy; relator `a W b⁻¹ W⁻¹` verified `= +I`:
+
+* `a` is **parabolic** — a **cusp** element — so `|tr²a − 4| = 0` **identically**;
+* `κ = tr[a,b] = u² + 2`, so `κ − 2 = u²`, a **primitive cube root of unity**, `|κ − 2| = 1`.
+
+**Upper bound** `J ≤ 0 + 1 = 1` from the generating pair; **lower bound** `J ≥ 1` from Jørgensen.
+**`J(m004) = 1`.** *At a cusp, Jørgensen's quantity collapses to `|κ − 2|`.*
+
+### R134-3 — and the record has carried that number for hundreds of arcs under another name
+
+Verified at `origin/main`: `HINT_LEDGER` H96 — *"`κ−2=ω²`, `|κ−2|=1` (unit obstruction)"* — and
+B1200 — *"the object sits at **`|κ − 2| = 1`**, the unit obstruction"*. H96 calls `κ` *"the
+program's MOST-banked thread."*
+
+> **The programme's founding constant — existence as frustrated cancellation — IS the saturation of
+> a 1976 discreteness bound.** The record had the number, the literature had the theorem, and
+> nothing joined them. B1345's finding, reproduced here rather than taken on trust.
+
+### R134-4 — what it fixes, and what it leaves exactly where it was
+
+**It discharges FIVE axioms, not one.** Given orientability, *"hyperbolic + `J = 1`"* characterises
+m004 while mentioning no records, no punctured torus, no monodromy, no knot and no arithmetic — so
+`UNIQUENESS_THEOREM`'s **A1, A2, A4, A5, A6 become consequences**. Far more than F9, which only
+*prices* A1.
+
+**It does not touch orientation, and the reason is exact:** B1345's slack table gives **m000 — the
+Gieseking manifold, non-orientable, the sibling the orientation axiom discards — `J = 1` as well.**
+That is why Callahan's hypothesis says *orientable*.
+
+> **`J = 1` selects the PAIR `{m000, m004}`; orientation picks m004 out of it.**
+>
+> **And that is memo 224 CELL 3's fork, reached from the other side.** Dropping `A3` moves the
+> forced matrix from `A = LR` to `M = L·S` with `M² = A` — the un-squared golden matrix, **whose
+> mapping torus is m000**. **A `GL(2,ℤ)` monoid enumeration and a 1976 discreteness bound land on
+> the same pair and the same single remaining choice.**
+
+After it the genesis reads **`orientable + hyperbolic + J = 1 ⟹ m004`** — one axiom and one
+canonical extremality condition, where the condition is the saturation of a bound *every* discrete
+group obeys rather than a taste.
+
+**NOT CLAIMED: that the axiom count drops.** Adopting it is main's call, and it interacts with the
+unmerged A6-relabeling audit (R133-4). If both landed the entrance would be **one extremality
+condition plus one closing** — a statement about what *would* follow. **Memo 223's price stands at
+12.**
+
+### R134-5 — scope and controls
+
+Callahan is **cited, not proved**; **m000's `J = 1` is INHERITED** from B1345 and not recomputed
+(its holonomy is not in `PSL(2,ℂ)`); whether `{m000, m004}` is the **complete** `J = 1` set is **not
+established by anything verified here**. **C1 passed** — the quantity reaches 5.58, 8.58 and 4 at
+other pairs of the same group, so it is not identically 1. **C3:** B1344's collision is real — the
+**fibre** `κ` is `−2`, giving 4, **not** the Jørgensen number; a cell taking the wrong `κ` misses
+the theorem entirely.
+
+**Two of this certificate's own checks fired and were right to:** the relator word `W = bABa` read
+with capitals as generators did **not** close, and the `HINT_LEDGER` needle was written with spaces
+where the ledger has none. Both recorded, not quietly repaired.

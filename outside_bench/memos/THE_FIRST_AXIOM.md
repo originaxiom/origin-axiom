@@ -151,3 +151,28 @@ than quietly repaired.
 
 *Gate 5 untouched. Nothing promotes. No arc retracted.*
 *Every number above comes from `outside_bench/outputs/the_first_axiom.txt`.*
+
+---
+
+# ADDENDUM 1 (2026-09-13) — **THE IDENTIFICATION IN §1 IS SUPERSEDED** (memo 225)
+
+The owner named the theorem: **Jørgensen**. This memo's §1 identified the owner's *"theorem about
+figure 8 being only with cusp"* as **fork F9 / B1323, on main**. **That identification is wrong.**
+The theorem is **Jørgensen's inequality (1976) + Callahan (2009) Cor. 2.4** — *"the only orientable
+hyperbolic 3-manifold with `J = 1` is the figure-eight complement"* — and it **is on a branch**
+(`claude/paper-verification-ufp0zn`, arc **B1345**, 2026-09-12). The owner's *"new work from other
+branches"* was exactly right; the sweep in §3 landed one theorem short.
+
+**Everything else in this memo stands**: F9 is real, it is on main, it prices A1 rather than
+discharging it, the branch sweep's A6-relabeling find is unchanged, and **CELL 3's computation is
+untouched**.
+
+**And CELL 3 gains a second, independent confirmation.** It found that dropping `A3` moves the
+forced matrix from `A = LR` to `M = L·S`, `M² = A` — the un-squared golden matrix, whose mapping
+torus is **m000**. Memo 225 finds that **`J = 1` holds for BOTH m000 and m004**, which is exactly why
+Callahan's hypothesis reads *orientable*. **A `GL(2,ℤ)` monoid enumeration and a 1976 discreteness
+bound select the same pair `{m000, m004}` and leave the same single choice — orientation.**
+
+**What changes about the axioms:** Jørgensen + Callahan discharge **A1, A2, A4, A5, A6** at once
+given orientability — far more than F9's pricing of A1 — and **leave orientation exactly where it
+was**. *Nothing here changes memo 223's price of 12.*

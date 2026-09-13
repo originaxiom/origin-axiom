@@ -1,0 +1,116 @@
+==============================================================================
+ THE JORGENSEN NUMBER -- verified exactly from the object's own holonomy
+==============================================================================
+
+------------------------------------------------------------------------------
+STEP 1 -- the holonomy, and the relator, exactly
+------------------------------------------------------------------------------
+    u = zeta_6 = 1/2 + sqrt(3)*I/2,   u^2 - u + 1 = 0
+    rho(a) = [[1, 1], [0, 1]]   tr = 2  (PARABOLIC)
+    rho(b) = [[1, 0], [1/2 + sqrt(3)*I/2, 1]]   tr = 2  (PARABOLIC)
+
+    W = b a^-1 b^-1 a = [[3/2 + sqrt(3)*I/2, 1/2 + sqrt(3)*I/2], [-1/2 + sqrt(3)*I/2, 0]]
+    relator a W b^-1 W^-1 = [[1, 0], [0, 1]]
+    relator = +I in SL(2,C); the identity in PSL(2,C): True
+    (so <a,b> IS the figure-eight knot group and the upper bound applies)
+
+------------------------------------------------------------------------------
+STEP 2 -- kappa, and it is the record's OWN banked number
+------------------------------------------------------------------------------
+    kappa = tr[a,b]           = 3/2 + sqrt(3)*I/2
+    kappa - 2                 = -1/2 + sqrt(3)*I/2
+    u^2                       = -1/2 + sqrt(3)*I/2
+    kappa - 2 == u^2          : True
+    |kappa - 2|               = 1
+    (kappa-2)^3 = 1           : True
+    Phi_3(kappa-2) = 0        : True   (a PRIMITIVE cube root of unity)
+
+------------------------------------------------------------------------------
+STEP 3 -- J(m004) = 1, PROVED from both sides, with NO search
+------------------------------------------------------------------------------
+    at the pair (a, b):
+      |tr^2 a - 4|   = 0      <- EXACTLY zero, because a is parabolic
+      |tr[a,b] - 2|  = 1
+      Jorgensen's quantity = 1
+
+    UPPER BOUND: the pair (a, b) generates the group (relator verified above), so
+      J(m004) <= 1.
+    LOWER BOUND, CITED not proved -- Jorgensen (1976): for every NON-ELEMENTARY
+      DISCRETE <X,Y> < PSL(2,C),  |tr^2 X - 4| + |tr[X,Y] - 2| >= 1.
+      The figure-eight group is discrete and non-elementary (it is a finite-volume
+      Kleinian group), so J(m004) >= 1.
+
+    >>> J(m004) = 1 EXACTLY.  No minimisation was run and none is needed:
+        one exact value from the object's own holonomy, and a 1976 inequality.
+
+------------------------------------------------------------------------------
+CONTROL C1 -- the quantity must be able to EXCEED 1 on this same group
+------------------------------------------------------------------------------
+
+    If every pair gave 1 the computation would be vacuous.  The bound is
+    saturated only where the first term vanishes; a non-parabolic first element
+    must push it above 1.
+    (ab, b)     |tr^2-4| = 4.5825757      |tr[.,.]-2| = 1.0000000      total = 5.58257569496
+    (a, ab)     |tr^2-4| = 0              |tr[.,.]-2| = 1.0000000      total = 1.00000000000
+    (ab, ba)    |tr^2-4| = 4.5825757      |tr[.,.]-2| = 4.0000000      total = 8.58257569496
+    (a*a, b)    |tr^2-4| = 0              |tr[.,.]-2| = 4.0000000      total = 4.00000000000
+
+    pairs strictly above 1: 3 of 4
+  C1: PASS -- the quantity is not identically 1
+
+------------------------------------------------------------------------------
+CONTROL C2 -- the record banked this number under ANOTHER NAME, on main
+------------------------------------------------------------------------------
+
+  [the unit obstruction] origin/main HINT_LEDGER H96 -- FOUND
+      κ−2=ω², |κ−2|=1 (unit obstruction)
+
+  [B1200's sentence] origin/main B1200 -- FOUND
+      the object sits at **|κ − 2| = 1**, the unit obstruction
+
+    So the value J(m004) = 1 has been in the record for hundreds of arcs as
+    "THE UNIT OBSTRUCTION", and the record did not know it is the SATURATION of
+    Jorgensen's 1976 discreteness bound.  That is an absence-under-another-name
+    ACROSS the record/literature boundary rather than inside the record.
+
+------------------------------------------------------------------------------
+CONTROL C3 -- the fibre/meridian collision: WHICH kappa saturates
+------------------------------------------------------------------------------
+
+    The branch arc B1344 flags a collision (its E72): there are two kappas.
+    Only the MERIDIAN one saturates.  Checked here on the object's own data.
+    meridian kappa : kappa - 2 = -1/2 + sqrt(3)*I/2, |kappa - 2| = 1   -> saturates
+    fibre kappa    : kappa = -2 (banked), |kappa - 2| = 4          -> does NOT saturate
+    A cell that took the fibre kappa would report 4 and miss the theorem.
+
+------------------------------------------------------------------------------
+CONTROL C4 -- the uniqueness theorem, CITED, with its hypothesis intact
+------------------------------------------------------------------------------
+    B1345 present on origin/claude/paper-verification-ufp0zn: True
+
+  [Callahan's corollary] origin/claude/paper-verification-ufp0zn B1345 -- FOUND
+      Callahan (2009) Cor. 2.4 — the only **orientable** hyperbolic
+      3-manifold with `J = 1` is the figure-eight complement — is cited, not re-proved.
+
+  [the slack table] origin/claude/paper-verification-ufp0zn B1345 -- FOUND
+      Nine of eleven reproduce exactly: m000 **1**, m004 **1**, m009 **√2**
+
+    LOAD-BEARING, and this certificate does not prove it: the hypothesis is
+    ORIENTABLE.  The branch's own slack table gives m000 -- the GIESEKING
+    MANIFOLD, NON-orientable, the sibling the orientation axiom discards -- the
+    same value J = 1.  So J = 1 does NOT single out m004 among hyperbolic
+    3-manifolds; it singles it out among ORIENTABLE ones, and the orientation
+    axiom is exactly what separates the two.
+
+    B1345 and the m000 value are INHERITED from the branch arc and labelled as
+    such: not recomputed here (m000's holonomy is not in PSL(2,C)).
+
+==============================================================================
+ WHAT IS ESTABLISHED HERE
+==============================================================================
+   kappa - 2 = u^2, a primitive cube root of unity, |kappa - 2| = 1  : exact
+   J(m004) = 1, from the pair (a,b) plus Jorgensen's inequality      : exact + cited
+   the record banked this number as 'the unit obstruction'           : verified on main
+   the uniqueness theorem needs ORIENTABLE, and m000 also has J = 1  : cited/inherited
+   C1 non-vacuity : PASS
+==============================================================================
