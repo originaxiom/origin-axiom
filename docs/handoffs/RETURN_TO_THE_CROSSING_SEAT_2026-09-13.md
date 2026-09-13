@@ -17,11 +17,11 @@ assume), §6 (what to do next).
   branch**. A seat cannot audit what has not landed. If you are reconciling with another seat, say
   which ref you measured.
 * **Numbering:** B1326–B1349 taken, B1350–B1399 **RESERVED for the SM seat** (do not assign),
-  B1400/B1401 spent. **Your next id is B1402.** Recorded in `docs/SM_SEAT_ALIAS_TABLE.md`, per E71's
+  B1400–B1402 spent. **Your next id is B1403.** Recorded in `docs/SM_SEAT_ALIAS_TABLE.md`, per E71's
   rule that ranges are granted in the table and not by relay.
 * **Gates:** 31 of 32 pass. The one failure is the long-declared `doc-currency` debt, which is
   designed to be visible.
-* **Suite:** 11 failures, **none of them this bench's** — each checked, not assumed. See L210.
+* **Suite:** **7 failures** (was 11), none of them this bench's — each checked, not assumed. Four were closed by **adopting** an unlanded fix rather than re-deriving it; see L210 and §7.
 
 ## 1. WHERE THE CROSSING STANDS — the headline
 
@@ -54,7 +54,9 @@ These are live premises, not established facts. Each is registered as a lead.
    **`J(m004) = 1` is the sole exception and needs no proviso**, because m004 sits at the *floor* of
    Jørgensen's inequality.
 2. **m003's generating step is open** (**L206**) — three candidate parabolic pairs pass the necessary
-   `H₁` test and give `κ = 4`, but generation is not proved.
+   `H₁` test and give `κ = 4`, but generation is not proved. **Now bounded (B1401 addendum 2): if any
+   of them generates, its Nielsen distance from `(a,b)` exceeds 12** — against m004's at 1–2 and
+   m202's one-line identity. **“Does not generate” is a live possibility, not just a gap.**
 3. **The census stratum law rests on three slices** (**L211**). The methodological point stands
    regardless: **slicing at depth is necessary and not sufficient — stratify by presentation
    complexity too.**
@@ -107,7 +109,7 @@ not generate; it is recovered via the *longitude*).
 | `docs/KIND_TABLE.md` | the mirror row's full pricing |
 | `docs/OPEN_LEADS.md` | **L206–L211**, the open questions from this window |
 | `docs/ERROR_LEDGER.md` | E72–E76 and the instances |
-| `docs/SM_SEAT_ALIAS_TABLE.md` | numbering; **B1402 next** |
+| `docs/SM_SEAT_ALIAS_TABLE.md` | numbering; **B1403 next** |
 | the arcs' own `FINDINGS.md` under `frontier/` (B1340–B1349, B1400, B1401) | the arcs themselves, addenda included |
 
 **A gap named rather than papered over:** both logs had stopped at **B1324 (2026-09-09)** while 25
@@ -116,13 +118,53 @@ either moves *at all*, so it stayed green. **Arcs B1325–B1339 are still unlogg
 by earlier sessions on this branch and this seat did not describe them, because writing entries for
 work it did not author would risk misdescribing it.
 
-## 6. IF YOU WANT THE CHEAPEST USEFUL NEXT STEPS
+## 6. WHAT WAS DONE AFTER THIS DOCUMENT WAS FIRST WRITTEN, AND WHAT IS LEFT
 
-1. **L206 (m003)** — a few lines: search `mer^p·lon^q` for a parabolic whose reduced word contains one
-   generator exactly once. Closes the last of the five.
-2. **L210 (fresh-clone failures)** — pin the numbers in the three E57-class tests, or vendor the
-   artifacts. **Do not** make them skip when the file is missing; that turns a lock into a no-op.
-3. **L208 (the three cuts)** — B996 against B997 and `gcd(m,15)`. Name *which* conductor first:
-   B1002 records that the word is **two quantities** in adjacent laws.
-4. **Do not open the mirror row** without an answer to L209. It is the last licensed row and it is
-   consumed whatever the outcome.
+*Three items were taken off §6's original list. Two closed, one did not — recorded here so the list
+is not read as still pending.*
+
+* **L210 — CLOSED, by ADOPTION rather than re-derivation.** The fix already existed on the
+  outside-bench branch (`89c2ad2d`: three regenerated B1062 logs plus the `.gitignore` negations;
+  `51f8b002`: B1137's grids, *“reproduced from scratch … byte-identical”*) and had reached neither
+  main nor here. Cherry-picked and checked out. **Suite 11 → 7.** That branch is **3085 commits ahead
+  of main** — the same unlanded-work problem §0 names, seen from the other side. Nothing else taken.
+* **L208 — HALF ANSWERED, banked as B1402, and it inverts something.** `gcd(m,15) > 1` decomposes as
+  `(3|m) or (5|m)`, and **`3|m` *is* B996's degeneracy condition**. The parts differ: the
+  B996-**degenerate** grammars carry the nontrivial forced values `1/2, −1/(2φ)`; the 5-part is
+  **silent**. So **the mirror row speaks exactly where McKay access dies** — every grammar that reaches
+  E₆ is on the dead branch, which sharpens §1's point beyond the golden word alone. B1002's *other*
+  gcd is the open half.
+* **L206 — ATTEMPTED, NOT SETTLED, and bounded.** Three methods, three diagnosable failures: coset
+  enumeration did not terminate (not even on the m004 control); one-way Nielsen BFS passed its control
+  and exhausted at depth 7; bidirectional search passed its control and found no meeting point at
+  distance ~12. **See §2 item 2 for what that narrows.**
+
+### Still worth doing, cheapest first
+
+1. **L206**, by the route that would be *decisive*: **refute** via a proper finite-index subgroup
+   containing both words. SnapPy's `cover_info()` does **not** expose the permutation representation
+   (checked), so it needs a coset table from elsewhere. Or find a peripheral parabolic whose reduced
+   word contains one generator exactly once — that closed m202 in one line.
+2. **L208's open half** — B1002's `gcd(cusp-order conductor, shadow modulus)` against `gcd(m,15)`.
+   **Name which conductor first:** B1002 records that the word is **two quantities** in adjacent laws.
+3. **L207 and L211** are the substantial ones and were flagged as needing a steer before the time is
+   spent: whether κ is constant over *all* generating pairs (the premise the whole lower bound rests
+   on), and the stratum law over more than three census slices.
+4. **Do not open the mirror row** without an answer to **L209**. It is the last licensed row, it is
+   consumed whatever the outcome, and B1402 has since added a second reason for caution.
+
+## 7. A NOTE ON METHOD, WORTH MORE THAN ANY ONE RESULT HERE
+
+**E75 struck a third time, and the fix was the opposite of the intuition.** A Nielsen search keyed
+matrices with `mp.nstr(x, 14)` — *significant* digits — so two copies of the **same** matrix
+(differing by `3.3e−16`) produced **different keys**, because near-zero entries printed their full
+noise mantissa. The earlier **float** version had worked precisely because `np.round` rounds
+**absolutely**.
+
+> **Raising the precision from float64 to 80 digits made the bug worse, not better.** More precision
+> means more noise digits. Caught only because the search **failed its own control**; after the fix
+> the control passed *and* the search ball shrank from 8731 pairs to 1960, the excess having been
+> duplicates under noise-distinct keys.
+
+**Canonicalise by absolute tolerance — never significant digits, never a pivot. And when a numerical
+fix makes things worse, suspect the key rather than the arithmetic.**
