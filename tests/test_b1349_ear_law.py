@@ -454,3 +454,51 @@ def test_the_law_is_unchanged_by_the_zeta_normalisation():
     # and the odd sector is ear-independent under BOTH conventions, for every m
     for m in range(1, 16):
         assert _is_scalar(_form(m, BOD)[0])[0] and indep_with_zeta(m, BOD)[0], m
+
+
+# --- addendum 5: the object's own word is on the dead branch, and the word anchor ---
+
+def test_the_golden_word_is_on_the_dead_branch():
+    """m=1 is the golden (SL(2,Z) trace m^2+2 = 3) and B997's UNIQUE McKay-shadow grammar.
+
+    gcd(1,15) = 1, so it is a unit: ear-DEPENDENT, hence branch B -- the branch that ties at
+    zero on the ledger and is excluded on kind. Silver (m=2) too. This is recorded because it
+    cuts against the programme: the mirror row closes only on words the object does not single out.
+    """
+    assert 1 * 1 + 2 == 3, "m=1 is SL(2,Z) trace 3, the golden"
+    assert 2 * 2 + 2 == 6, "m=2 is trace 6, silver"
+    assert math.gcd(1, 15) == 1 and math.gcd(2, 15) == 1, "golden and silver are UNITS of Z/15"
+    # so both are ear-dependent, i.e. branch B
+    for m in (1, 2):
+        assert not _is_scalar(_form(m, BEV)[0])[0], f"m={m} must be ear-dependent (branch B)"
+    # the live branch contains no golden and no silver
+    NON = [m for m in range(1, 16) if math.gcd(m, 15) != 1]
+    assert 1 not in NON and 2 not in NON
+    assert min(NON) == 3, "the first live word is bronze, m=3"
+    # the only branch-A value outside Q occurs only at m in {6,9}
+    got = sorted(m for m in NON if abs(_is_scalar(_form(m, BEV)[0])[1] + 1 / (2 * PHI)) < 1e-9)
+    assert got == [6, 9], got
+
+
+def test_the_word_anchor_and_the_withdrawn_four_of_six():
+    """With the word anchor restored, branch A closes on ONE reading of four, not four of six.
+
+    Addenda 2-4 priced the ear and treated the word as given; it cannot be given as m=1, which
+    is dead. Naming a non-unit costs log2(7). ERROR_LEDGER E76.
+    """
+    NON = [m for m in range(1, 16) if math.gcd(m, 15) != 1]
+    word_bits = math.log2(len(NON))
+    assert len(NON) == 7 and abs(word_bits - 2.807354922) < 1e-6
+    ear_bits_if_not_discharged = math.log2(4)          # addendum 3's one-orbit anchor
+    outputs_generous, outputs_conservative = 4, 1
+    ledger = {
+        ("4 values", "ear discharged"): outputs_generous - word_bits,
+        ("4 values", "ear billed"): outputs_generous - word_bits - ear_bits_if_not_discharged,
+        ("1 value", "ear discharged"): outputs_conservative - word_bits,
+        ("1 value", "ear billed"): outputs_conservative - word_bits - ear_bits_if_not_discharged,
+    }
+    closes = [k for k, v in ledger.items() if v > 0]
+    assert len(closes) == 1, ledger
+    assert closes == [("4 values", "ear discharged")]
+    assert ledger[closes[0]] > 1.1 and ledger[closes[0]] < 1.2      # +1.19
+    assert all(v < 0 for k, v in ledger.items() if k != closes[0])

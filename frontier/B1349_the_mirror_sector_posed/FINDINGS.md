@@ -569,3 +569,86 @@ the identical spectra — and the odd sector stays ear-independent for every `m`
 > **E72** shape — one name (`the tone`), two quantities — and it was a live route by which all four
 > addenda could have been measuring the wrong thing. It is closed by proving the two quantities
 > *coincide on this domain*, which is stronger than observing that the answers happened to match.
+
+---
+
+# ADDENDUM 5 — THE OBJECT'S OWN WORD IS ON THE DEAD BRANCH, AND MY LEDGER OMITTED AN ANCHOR
+
+*Same branch, same arc id.* This addendum **weakens addenda 2–4's ledger**. It is written because the
+omission favoured the programme, and a table that flatters is worth less than a table that holds.
+
+## 1. The structural fact, and it cuts against us
+
+The metallic words carry `SL(2,ℤ)` trace `m² + 2` (B856): `m = 1` is trace 3, **the golden**; `m = 2`
+is silver; `m = 3` bronze. And **B997** proves *"the golden is the UNIQUE metallic grammar whose
+own-conductor shadow is a McKay group"* — over an infinite family, at Tier 1. The golden is the
+object's own grammar; the whole programme is built on it.
+
+| word | trace | | branch |
+|---|---|---|---|
+| **`m = 1`** | 3 | **GOLDEN — the object's own grammar (B997's unique one)** | **B — dead on two gates** |
+| `m = 2` | 6 | silver | **B — dead** |
+| `m = 3` | 11 | bronze | A — closes |
+
+> ### The mirror row's arithmetic closes only on words that are NOT the object's own.
+> `gcd(1,15) = 1`, so the golden word is a **unit** of ℤ/15 — ear-dependent, outside `ℚ(√5)`, outside
+> B1011 C6's banked value set. Branch A consists entirely of `m ∈ {3,5,6,9,10,12,15}`, and **none of
+> them is the golden.** Worse for the programme: the one branch-A value that leaves ℚ, `−1/(2φ)`,
+> occurs only at `m ∈ {6, 9}` — `1/2` at `m ∈ {3,12}`, `0` at `{5,10}`, `1` at `{15}`.
+
+## 2. THE ANCHOR MY TABLES OMITTED
+
+Addenda 2–4 priced the **ear** and silently treated the **word** as given. That is inconsistent, and
+the inconsistency runs in my favour: the word cannot be "given" as `m = 1`, because `m = 1` is on the
+dead branch. **Using branch A requires departing from the object's own grammar, and that departure is
+an input.**
+
+Two coherent readings, priced properly:
+
+**Reading (i) — the row predicts the SET.** This is B1011 C6's own framing: the θ-even *value set*.
+Nothing is selected, so no anchor is consumed, and the output is the set (15 values; ℚ-span
+`⟨1,√5⟩`, so 2 independent numbers). `15 − 0` or `2 − 0`: closes trivially. **But a set-valued
+prediction is a 15-fold look-elsewhere on the comparison side** — precisely the objection addendum 1
+raised against its own branch B ("the prediction becomes a 48-element set"). Closing R11 this way
+buys nothing, and consistency requires rejecting it here for the same reason it was rejected there.
+
+**Reading (ii) — the row predicts ONE number at a specified word.** Then the word is an anchor:
+`log₂7 ≈ 2.81` bits to name a non-unit (or `log₂15 ≈ 3.91` to name any word).
+
+| branch A reading | ear anchor | word anchor | outputs | total | |
+|---|---|---|---|---|---|
+| 4 values, ear discharged | 0 | **2.81** | 4 | **+1.19** | closes |
+| 4 values, ear not discharged | 2 | **2.81** | 4 | **−0.81** | fails |
+| 1 value (`−1/(2φ)`), ear discharged | 0 | **2.81** | 1 | **−1.81** | fails |
+| 1 value, neither discharged | 2 | **2.81** | 1 | **−3.81** | fails |
+
+> ### With the word anchor counted, branch A closes on ONE reading of four, not four of six.
+> Addenda 2–4 said "four of six". **That count is withdrawn.** The mathematics in those addenda is
+> untouched — the `gcd(m,15)` law, the exact spectra, the field statement, the C6 containment, the
+> 4/4 split all stand. What is withdrawn is the **accounting**, which omitted an anchor.
+
+## 3. What this does to the recommendation — it strengthens it
+
+Addendum 1 said *do not spend the row*. Addenda 2–4 moved the reason from arithmetic to kind while
+leaving the arithmetic looking comfortable. **It is not comfortable.** The honest position now:
+
+* **Branch B** — the object's own word, golden and silver among them — is dead on **two** independent
+  gates (`2 − 2 = 0` tie; values outside the row's field).
+* **Branch A** survives R11 on **one** reading only, and it requires using a word the object does not
+  single out, against a programme whose central theorem (B997) singles out the golden **uniquely**.
+* **And branch A's cheapest output is still `−1/(2φ)`**, whose modulus B856 already took to a bench
+  and could not discriminate.
+
+**So the recommendation is unchanged and now better founded: do not spend the last licensed row.**
+Not because the arithmetic is short by a hair, but because the only branch on which it is not short
+asks the programme to read its coupling off a grammar that is not the object's.
+
+## 4. The honest name for what happened
+
+This is an **E73-adjacent** failure of my own — a count taken in the wrong frame — but the mechanism
+is different enough to name: **an anchor omitted because it was implicitly assumed to be free.** The
+ear was priced because the question was *about* ears; the word went unpriced because it was the
+question's *setting*. A setting is an input. Recorded in `ERROR_LEDGER` as **E76**.
+
+**Fences unchanged:** verdict **NEGATIVE**, I-13 **UNEARNED**, F2 untouched, no comparison performed,
+no value read, nothing reaches `CLAIMS.md`, Gate 5 untouched.
