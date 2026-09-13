@@ -1,0 +1,26 @@
+{
+ "id": "B1403",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-13",
+  "arc": "B1403",
+  "was": "FALSE",
+  "decision": "false",
+  "class": "VERIFICATION / DOMAIN MAP -- it establishes WHERE two banked quantities are defined, and shows they do not overlap; the quantities and their laws belong to B675/B1002 and B1349.",
+  "basis": "The positive content is a domain statement (the metallic cusp field is quadratic only at m = 1, 2) plus the observation that this makes B1002's gcd and gcd(m,15) non-comparable. That maps existing laws rather than establishing a new proposition about the object. The bronze non-abelianness is CITED from B675, not re-derived; this arc proves only non-quadraticity for m >= 3."
+ },
+ "depends_on": [
+  "B675",
+  "B1002",
+  "B1349",
+  "B1402",
+  "B997"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [],
+ "claim_one_line": "L208'S SECOND HALF CLOSED: B1002'S gcd AND gcd(m,15) HAVE DISJOINT DOMAINS, AND DISJOINT EXACTLY WHERE IT MATTERS. L208 asked whether B1002's other gcd -- gcd(cusp-order conductor, shadow modulus), 1 for golden (isomorphism) and 2 for silver (ramified) -- relates to B1349's gcd(m,15). IT CANNOT, and the reason is structural. A CONDUCTOR IS A KRONECKER-WEBER OBJECT AND NEEDS AN ABELIAN CUSP FIELD; B675 banks its law as TWO INSTANCES and reports where it stops -- the bronze cusp shape's u = y^2 has an irreducible quartic with Galois group S_4, NON-ABELIAN, so [Q(tau):Q] = 8 embeds in NO cyclotomic field and the bronze is a DEAF object. VERIFIED INDEPENDENTLY HERE on the punctured-torus bundles b++ R^m L^m at SnapPy high precision, with no LLL needed since Im(tau^2) + b Im(tau) = 0 forces b and the real part then forces c, leaving only the question whether both are rational (PSLQ at full precision): m=1 IS quadratic with tau^2 - 2 tau + 13/12, discriminant -1/3, field Q(sqrt-3); m=2 IS quadratic with tau^2 + 1/4, discriminant -1, field Q(i) -- BOTH OF B675'S BANKED FIELDS REPRODUCED FROM THE CUSP SHAPES -- and m = 3..8 are NOT quadratic, so the family leaves the quadratic world exactly at bronze, where B675 found S_4. SCOPE STATED: quadratic implies abelian so m = 1, 2 certainly admit a conductor, but non-quadratic does NOT by itself prove non-abelian; for bronze the non-abelianness is CITED from B675 and not re-derived, and for m = 4..8 this arc establishes only non-quadraticity. THE ANSWER: B1002's gcd is defined only at m = 1 and m = 2, and gcd(1,15) = gcd(2,15) = 1 so BOTH ARE UNITS OF Z/15 AND BOTH LIE ON BRANCH B, the dead branch; while gcd(m,15)'s entire content is on BRANCH A, m in {3,5,6,9,10,12,15}, where the conductor fails to exist at the very first member. THERE IS NO m AT WHICH BOTH ARE INFORMATIVE, so no relation between them can be stated -- not 'unknown' but UNASKABLE AS POSED. And the failure is structural rather than incidental: the conductor needs an abelian cusp field and the family is abelian only at its two smallest members, so B675's own phrase 'a two-instance law' gets its reason here -- the family leaves the abelian world at bronze and does not return within the computed range. TOGETHER WITH B1402, L208 IS NOW FULLY ANSWERED: two of the three cuts are one structure, and the third quantity cannot be compared to them at all. LEFT OPEN, not guessed: whether the cusp field is abelian for any m >= 4, this arc showing only non-quadraticity; if some higher m were abelian the question could be reopened AT THAT m, and nothing here suggests it is. THREE BUGS OF MINE IN ONE COMPUTATION, ALL THE SAME CLASS, every one a float used where exactness was required: (1) Fraction(float(x)) compared at 1e-30, while float() truncates at 1e-16, so NO rational with a non-dyadic denominator could ever pass -- and the m=1 answer 13/12 is exactly such a rational; (2) THE CONTROLS MISSED IT because they used only 0, 1, 4 and -1, all exactly representable, so a control that does not vary the thing which can break is not a control (E67's shape), fixed by adding 1 + sqrt(-3)/6 whose c = 13/12 is non-dyadic, which failed immediately; (3) the cusp shapes were read through Python complex(), double precision, and then tested at 1e-40, which PSLQ can never satisfy, fixed with SnapPy's high_precision(). That is the THIRD float-before-exact-test failure this session after E75's two mechanisms in B1401 addendum 2. RULE RESTATED: when a high-precision test returns 'no relation', suspect the precision of the INPUT before believing the answer. FENCES: B675 and B1002 are untouched and correct as stated, this only maps their domain; nothing reaches CLAIMS.md, F2 or Gate 5; no value compared to any measurement."
+}

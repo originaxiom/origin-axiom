@@ -7983,10 +7983,11 @@
    ],
    "refs": [
     "B309",
-    "B448"
+    "B448",
+    "L206"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 2,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "dynamics"
   },
@@ -8006,6 +8007,25 @@
     "B997",
     "L208",
     "L209"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1403": {
+   "slug": "the conductors domain",
+   "motifs": [
+    "measurement",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "B675",
+    "B996",
+    "L208"
    ],
    "obstacle": "measure",
    "obstacle_conf": 1,
