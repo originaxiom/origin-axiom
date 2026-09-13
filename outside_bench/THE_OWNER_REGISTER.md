@@ -4157,3 +4157,83 @@ stderr**, which is why all three were silent.
 Three papers and one book, all owner-supplied, have settled three items this box could not
 reach: **L72's uniqueness residual** (memo 220), **memo 210's two successors** (memo 221), and
 **memo 204's `E`-question** (memo 222). **There is no outstanding literature ask on this bench.**
+
+---
+
+## R131 — "whar did we learn and whar progress we made on our chain to physics" (2026-09-13)
+
+**Answered against the arcs, not the rows** (R114), and against `docs/THE_SM_VERDICT.md`,
+`docs/WHAT_WOULD_COUNT.md` §4A, `docs/CAMPAIGN_STATUS.md`, B1223, B1297, B1320.
+
+### R131-1 — what was learned, in order of how load-bearing it is
+
+1. **The record's most load-bearing unverified claim HOLDS** (memo 222 CELL 1). Memo 203 named
+   its own §3 *"THE MOST LOAD-BEARING AND THE LEAST VERIFIED ITEM"*; memo 204 used it to type
+   the object **⁶D₄** and to **REFUTE B882**, a banked PROVED arc. KMRT §43.C now types `K` as
+   ⁶D₄ and as nothing else. **A refutation that rested on a search summary now rests on the
+   definition.**
+2. **`E` is SPLIT** (memo 222 CELL 6) — memo 204 addendum 4's open question, answered without
+   the 48×48 commutant *"twice killed by resource limits"*. **That computation is permanently
+   off the board.**
+3. **The price of triality over ℚ is exactly one quadratic extension.** Knus–Tignol Thm 4.1
+   (memo 204 §1) ties ¹D₄/³D₄ to a split `E`; the object has the **split `E` without being
+   either**. So the obstruction to triality over ℚ is **purely the Galois side**
+   (`#Aut(K/ℚ) = 1`) — there is **no algebra-side obstruction at all**, and `K ⊗ ℚ(√77)` is
+   cyclic over `ℚ(√77)`. Memo 204 addendum 2 said *"ℚ(√77) is where both obstructions die"*;
+   what is new is that **one of the two was never alive.**
+4. **Memo 221:** the torsion law's linear coefficient is exactly `m(m+1)` — but Müller's
+   theorem is for a **CLOSED** manifold and `4₁` is **cusped**, so the bench's six exact
+   integers obeying it to `0.0123242` are **evidence for an unproved extension**, not a check.
+
+### R131-2 — progress on the chain to physics: NONE, and the reason is worth stating
+
+All of the above is **Tier-STRUCTURE (`WHAT_WOULD_COUNT` §4A.1)**. It produces **no number**.
+
+> **The price ledger is UNCHANGED: 11 irreducible inputs, 0 of the SM's 19 free parameters.
+> Net negative** (B1261/B1266). The rate moves by exactly two operations — earn an
+> identification, or derive a parameter. **This session did neither.**
+
+§4A.1's one open item is *"chirality without an inserted closing"*, and memo 222 does not
+reach it.
+
+### R131-3 — and the bridge this bench would have proposed is ALREADY DEAD
+
+The natural next move was: *the ℤ/3 that supplies three families is the `A₃ = Gal(M/∆)` that
+becomes available over `ℚ(√77)`.* **`already_banked.py` on `Z/3 descent · chirality · triality
+· cyclic cubic · sqrt 77` returned B1320 and B1297, and they kill the payoff:**
+
+* **B1320:** *"the ℤ/3 descent that supplies three families supplies **no localized
+  chirality**"* — PW's localized count on the cyclic descent is **0 or 4, never 3**.
+* **B1297 (`T-CYCLIC-TOWER-VECTOR-LIKE`):** *"the object's own period-2 symmetry is charge
+  conjugation on the descent's twists"* — every (2+1)-reducible spectral cover on the cyclic
+  tower is **vector-like**.
+
+So even if that ℤ/3 acquired an arithmetic name, **it would supply no chirality.** Naming it
+would be a label on a dead mechanism.
+
+> **This is the standing rule paying for itself.** *(memo 153 / #23: run `already_banked.py`
+> per question, and state the terms.)* The terms are stated above. Without that check this
+> bench would have opened a lane whose physics payoff was refuted four days ago — and
+> **B1223 is the precedent**: the V₄/S₃ ↔ D₄ correspondence was assembled from three seats and
+> killed because *"the action does not match, and the action is the whole content of triality."*
+
+### R131-4 — what genuinely opened, stated small because it is small
+
+**KMRT 44.16(1):** `[E] = 1` makes the object's trialitarian algebra `End(Γ)` for a **twisted
+composition** `Γ` over `K`, classified by 44.16(2) up to `Γ → Γ_λ`, constructed by §36.C for
+arbitrary cubic étale `L` by descent from `L ⊗ ∆`. **A concrete, finite, constructible object,
+named for the first time.** Whether it reaches physics is **unknown and not promised** — the
+bench has killed two structure-side bridges (B1223, and the one above) in the same week.
+
+### R131-5 — the honest shape of the session
+
+Seventeen memos, 206–222. **Two leads closed** (L71 as computation, L72 to a footnote), **one
+banked refutation verified against its source**, **one intractable computation removed**, **15
+stale statuses superseded, 3 artifacts regenerated, 1 gate installed**, and **the literature
+ledger emptied** — three papers and a book, all owner-supplied, settling three items this box
+could not reach.
+
+> **The audit is in much better shape than it was. The physics is exactly where it was.** Those
+> are different currencies and they do not convert — which is the same sentence
+> `THE_SM_VERDICT` already uses about structure versus parameters, now true of a session's work
+> as well as of the programme's.
