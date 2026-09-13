@@ -2465,7 +2465,7 @@ against 1, `√2`, `3√3`).
 unconditionally, so at the **floor** the premise is not needed. That is precisely why B309's
 `|κ−2| = 1` is a *unit* obstruction and why m004 is the case Callahan could settle.
 
-## L208 — ARE THE THREE ARITHMETIC CUTS OF THE METALLIC FAMILY ONE STRUCTURE? (registered 2026-09-13, B1349 addendum 6)
+## L208 — ARE THE THREE ARITHMETIC CUTS OF THE METALLIC FAMILY ONE STRUCTURE? (registered 2026-09-13, B1349 addendum 6) — **HALF ANSWERED (B1402, 2026-09-13): YES for B996 vs B1349.** `gcd(m,15) > 1` decomposes as `(3\|m) or (5\|m)`, and `3\|m` **is** B996's degeneracy condition; the B996-degenerate grammars carry the nontrivial forced values while the 5-part is silent. **The mirror speaks exactly where McKay access dies.** The B1002 half below is still open.
 
 Three arcs now cut the family `RᵐLᵐ` by arithmetic in `m`, and **two of them are provably related**:
 B997 singles out the golden because its **shadow modulus** `m²+4 = 5` is *prime*; B1349 finds the
@@ -2490,7 +2490,7 @@ probability read off an amplitude-squared) and the surviving `Re h = 1/(2φ)` sa
 **≥17 natural candidates**. Branch A's cheapest output has that same modulus. **And the row is
 one-shot: it is consumed whatever the outcome.** Recommendation standing: **do not spend it.**
 
-## L210 — THE FRESH-CLONE FAILURES: tracked tests that read untracked or absent artifacts (registered 2026-09-13, B1400 session; E57's class, which its own gate cannot see)
+## L210 — THE FRESH-CLONE FAILURES: tracked tests that read untracked or absent artifacts (registered 2026-09-13, B1400 session; E57's class, which its own gate cannot see) — **CLOSED 2026-09-13 by ADOPTING an unlanded fix.** The work already existed on the outside-bench branch @ `89c2ad2d` (three regenerated B1062 logs + the `.gitignore` negations) and `51f8b002` (B1137's grids, “reproduced from scratch … byte-identical”), and had reached neither main nor this branch. Cherry-picked and checked out rather than re-derived. **Suite 11 failures → 7.** The branch is 3085 commits ahead of main; nothing else was taken.
 
 A container restart gave a genuinely fresh clone and the full suite returned **11 failures, none of
 them this bench's**. At least three are **E57**'s class — a tracked test reading an artifact that is

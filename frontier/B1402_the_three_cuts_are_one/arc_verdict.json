@@ -1,0 +1,26 @@
+{
+ "id": "B1402",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "creates_law_reviewed": {
+  "date": "2026-09-13",
+  "arc": "B1402",
+  "was": "FALSE",
+  "decision": "false",
+  "class": "VERIFICATION / RELATION -- it relates three existing criteria by an arithmetic identity (15 = 3 x 5); the criteria and their proofs belong to B996, B997 and B1349.",
+  "basis": "The content is that B1349's gcd(m,15) cut DECOMPOSES into B996's 3-part and a 5-part, and that the two parts carry different readouts. That is a true and checkable relation, not a new general proposition about the object. The interpretive reading in section 3 -- that the mirror speaks exactly where McKay access dies -- is a reading of the relation, and is fenced as such."
+ },
+ "depends_on": [
+  "B996",
+  "B997",
+  "B1002",
+  "B1349",
+  "B1011"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [],
+ "claim_one_line": "THE THREE CUTS ARE ONE STRUCTURE, AND THE MIRROR SPEAKS EXACTLY WHERE McKAY ACCESS DIES. L208 answered. B996's criterion, recomputed independently here (mod-3 shadow orders 24,24,1,24,24,1,24 for m=1..7, B996's own stated list REPRODUCED), is that <R^m, L^m> in SL(2,Z/3) is the full 2T exactly when 3 does not divide m, degenerating to the identity when it does. B997's is that the SHADOW MODULUS m^2+4 is a McKay order only at m=1, where it is 5 and PRIME. B1349's is that the theta-even readout is ear-independent exactly when gcd(m,15) > 1. SINCE 15 = 3 x 5, THE THIRD DECOMPOSES INTO THE FIRST PLUS A 5-PART: gcd(m,15) > 1 <=> (3|m) OR (5|m) <=> (B996-DEGENERATE) OR (5|m), verified over the complete period with zero exceptions. AND THE TWO PARTS CARRY DIFFERENT READOUTS: 3|m only (m = 3,6,9,12, the B996-degenerate grammars) gives the NONTRIVIAL forced values 1/2 and -1/(2phi), the golden among them; 5|m only (m = 5,10) is SILENT, lambda = 0; and 15|m (m = 15) is trivial, lambda = 1 since the word is the identity. Within the 3-part the value is golden exactly when m = +-1 mod 5, i.e. when 5 | m^2+4 -- addendum 6's law, which is B997's prime acting on the VALUE rather than on the GRAMMAR. THE UNCOMFORTABLE READING, WHICH IS THE POINT: the theta-even mirror readout carries a nontrivial forced value EXACTLY ON THE GRAMMARS WHERE B996'S McKAY ACCESS DEGENERATES. B996's verdict was that access to the McKay group and therefore to E6 is GENERIC, every word with 3 not dividing m, two thirds of the family, and its purpose was a control -- the arrival at E6 does not distinguish the golden grammar. The mirror row speaks on the COMPLEMENTARY THIRD: where the mod-3 shadow is the full 2T, the grammars that REACH E6, the readout is ear-dependent and therefore branch B, dead on two gates; where the shadow COLLAPSES TO THE IDENTITY, the readout goes scalar and forced. THIS SHARPENS B1349 ADDENDUM 5 RATHER THAN SOFTENING IT: that addendum found the object's own golden word m=1 on the dead branch, and this says more -- EVERY grammar that reaches the McKay group sits there, so the row's arithmetic closes only where the E6 access is gone. WHAT IT IS NOT: not a refutation, since B996, B997 and B1349 are each correct as stated and this is a relation among them, registered as OPEN in addendum 6 rather than guessed at; not a physical claim, nothing reaching CLAIMS.md, F2 or Gate 5 and no value compared to measurement; and not a reason to spend the row, if anything the reverse -- L209 stands, the gate is kind-correctness, and this adds a second discomfort beside addendum 5's. NAMING PER B1002: the shadow modulus, not B675's cusp-order conductor, since 'conductor' is two quantities in adjacent laws. STILL OPEN, the remaining half of L208: whether B1002's other gcd, gcd(cusp-order conductor, shadow modulus) -- 1 for golden and 2 for silver -- relates to gcd(m,15). Not investigated, not guessed at."
+}

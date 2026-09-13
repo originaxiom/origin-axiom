@@ -7971,11 +7971,14 @@
    "motifs": [
     "monoid",
     "measurement",
+    "closing",
     "coupling",
     "figure_eight",
     "trace_map",
     "kappa",
     "eisenstein",
+    "z3_generation",
+    "symplectic",
     "markov_cubic"
    ],
    "refs": [
@@ -7986,6 +7989,28 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1402": {
+   "slug": "the three cuts are one",
+   "motifs": [
+    "measurement",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B675",
+    "B996",
+    "B997",
+    "L208",
+    "L209"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B140": {
    "slug": "compute reconciliation",
