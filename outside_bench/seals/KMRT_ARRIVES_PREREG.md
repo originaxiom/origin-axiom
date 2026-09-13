@@ -115,3 +115,60 @@ each computes the global Hilbert symbol `(a, 77)_K`.
 * The PDF is a **draft**. No claim will be attached to a cross-reference that renders as `(??)`.
 * **Gate 5 untouched. Nothing promotes. No arc is retracted by this certificate.**
 * `docs/` and `frontier/` are not edited by this bench.
+
+---
+
+# ADDENDUM 1 (2026-09-13) — CELL 6, ADDED AFTER CELL 4 RETURNED B
+
+**This addendum is filed AFTER CELL 4's outcome was read. CELL 6 is therefore NOT
+preregistered, and no sentence anywhere may present it as such.** It is filed because the
+bench's own standing rule requires it, not because the result was attractive:
+
+> **R121 / memo 213** — *when a statistic comes out identical across every case, the next cell
+> asks whether the statistic COULD have differed, BEFORE the constancy is written down as a
+> finding.*
+
+CELL 4 searched 342 admissible `a` and found `(a,77)_K` **split in every single one**. Under
+R121 that constancy may not be banked as "no example found" until it has been asked whether an
+example can exist at all. The seal's own control C1 already invokes R121 by name, so this is
+the seal's rule being applied, not a new rule invented to fit an outcome.
+
+## CELL 6 — can `(a,77)_K` be non-split at all, for `a` admissible?
+
+Let `n_p` := the number of primes `w` of `K` above the rational prime `p` at which `77` is
+**not** a square in the completion `K_w` — i.e. the number of primes above `p` at which a
+quaternion algebra `(77, ·)_K` is *capable* of ramifying.
+
+Two standard inputs, both already in the record or in the source:
+
+* **KMRT (43.6)**: for any trialitarian algebra `T = (E,L,σ,α)`, `N_{L/F}([E]) = 1 ∈ Br(F)`.
+* The norm/corestriction is additive on local invariants: `inv_v(cor x) = Σ_{w|v} inv_w(x)`.
+  For a quaternion class each `inv_w ∈ {0, ½}`, so `N_{K/ℚ}([Q]) = 1` says the ramified primes
+  of `Q` lie over **each** rational prime in **EVEN** number.
+
+* **OUTCOME A** — `n_p ≤ 1` for **every** rational prime `p`, established exhaustively: the
+  primes ramified in `K(√77)` are finitely many and each is computed individually, and for the
+  unramified ones `n_p` is a function of the Frobenius class in `S₃`, of which there are
+  exactly three, each with a computed representative.
+* **OUTCOME B** — some `p` has `n_p ≥ 2`, so a non-split admissible `(a,77)_K` is not excluded
+  and CELL 4's B is a search limit rather than an answer.
+
+## CONTROL C6 — "n_p ≤ 1" must be a fact about 77, not about the instrument
+
+The same `n_p` is computed with `77` replaced by other rational `b`. **At least one `b` must
+produce `n_p ≥ 2`**, or the statistic could not have differed and CELL 6 is void. *(This is
+the same demand C1 makes of `nfhilbert` and the same demand memo 213 made of itself.)*
+
+## CONTROL C7 — two independent instruments
+
+`n_p` is computed **twice**: (A) by testing whether `77` is a square in the residue field
+(valid only at odd primes where `77` is a unit — a stated domain, not a hidden one), and
+(B) by testing whether the prime splits in `K(√77)/K`. They must agree wherever A is valid.
+**A disagreement at `p = 2` is EXPECTED and is not a failure** — A is invalid in residue
+characteristic 2 and is declared invalid here, in advance of the run.
+
+## Fence on CELL 6
+
+CELL 6 concerns quaternion algebras over `K` **containing `K(√77)`**. It says nothing about
+any other algebra, and it does not establish that the object's commutant is such an algebra —
+that is memo 204 addendum 4's input, used as an input and labelled as one.
