@@ -64,12 +64,26 @@ STEP 4 -- the price
     bought, of the SM's 19 free parameters: 0
 
 ------------------------------------------------------------------------------
-STEP 5 -- which surfaces carry the stale number
+STEP 5 -- the verdict doc: stale numbers must be STRUCK, not live
 ------------------------------------------------------------------------------
-    STALE: docs/THE_SM_VERDICT.md still says 'irreducible 4+7=11'
-    STALE: docs/THE_SM_VERDICT.md still says '10 rows -> 7 sources'
-    STALE: docs/THE_SM_VERDICT.md still says '11 = irreducible'
-    STALE: docs/THE_SM_VERDICT.md still says '14 = rows outstanding'
+
+    A stale figure inside a ~~strikethrough~~ is PROVENANCE and must be kept
+    (the addendum-only rule: mark superseded in place, never rewrite history).
+    The same figure OUTSIDE a strikethrough is a LIVE WRONG CLAIM.  This step
+    separates the two, so the check can go green without deleting the record --
+    memo 216's precedent, where the certificates were re-pointed at the STRUCK
+    forms so the historical text is still verified present.
+
+    stale figures KEPT AS PROVENANCE (inside ~~...~~) : 4
+      struck: irreducible 4+7=11
+      struck: 10 rows -> 7 sources
+      struck: 11 = irreducible
+      struck: 14 = rows outstanding
+    stale figures STILL LIVE (outside ~~...~~)        : 0
+
+    and the LIVE figures must be present and must be the computed ones:
+      the irreducible count: '4 + 8 = 12' present = True
+      the row count: '18 ROWS OUTSTANDING' present = True
 
     The ledger's own baseline records the raises that moved it:
       2026-09-06  10 -> 11  row I-26  (arc B1259)
@@ -97,5 +111,5 @@ CONTROLS
 ==============================================================================
  LIVE PRICE: 4 axioms + 8 irreducible sources = 12
              (18 rows outstanding) vs the SM's 19 free parameters
- THE_SM_VERDICT's '4 + 7 = 11' and '14 rows' are STALE: True
+ verdict doc: 4 stale figure(s) struck for provenance, 0 still live
 ==============================================================================

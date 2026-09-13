@@ -142,20 +142,49 @@ def main() -> int:
     print(f"\n    bought, of the SM's 19 free parameters: 0")
 
     # ---------------------------------------------------------------- staleness
-    rule("STEP 5 -- which surfaces carry the stale number")
-    stale = []
-    for label, path, txt in [("THE_SM_VERDICT", VERDICT, verdict)]:
-        for pat, what in [(r"4 \+ 7 = 11", "irreducible 4+7=11"),
-                          (r"10 rows reduce to 7 irreducible", "10 rows -> 7 sources"),
-                          (r"\*\*11 = irreducible inputs\*\*", "11 = irreducible"),
-                          (r"4 \+ 10 = 14", "rows 4+10=14"),
-                          (r"\*\*14 = rows outstanding\*\*", "14 = rows outstanding")]:
-            if re.search(pat, txt):
-                stale.append((label, path, what))
-    for label, path, what in stale:
-        print(f"    STALE: {path} still says '{what}'")
-    if not stale:
-        print("    none found")
+    rule("STEP 5 -- the verdict doc: stale numbers must be STRUCK, not live")
+    print("""
+    A stale figure inside a ~~strikethrough~~ is PROVENANCE and must be kept
+    (the addendum-only rule: mark superseded in place, never rewrite history).
+    The same figure OUTSIDE a strikethrough is a LIVE WRONG CLAIM.  This step
+    separates the two, so the check can go green without deleting the record --
+    memo 216's precedent, where the certificates were re-pointed at the STRUCK
+    forms so the historical text is still verified present.""")
+
+    struck = set()
+    for m in re.finditer(r"~~.*?~~", verdict, re.S):
+        struck.add((m.start(), m.end()))
+
+    def inside_strike(i: int) -> bool:
+        return any(a <= i < b for a, b in struck)
+
+    patterns = [(r"4 \+ 7 = 11", "irreducible 4+7=11"),
+                (r"10 rows reduce to 7\s+irreducible", "10 rows -> 7 sources"),
+                (r"\*\*11 = irreducible inputs\*\*", "11 = irreducible"),
+                (r"4 \+ 10 = 14", "rows 4+10=14"),
+                (r"\*\*14 = rows\s+outstanding\*\*", "14 = rows outstanding")]
+    live_stale, kept = [], []
+    for pat, what in patterns:
+        for m in re.finditer(pat, verdict):
+            (kept if inside_strike(m.start()) else live_stale).append(what)
+
+    print(f"\n    stale figures KEPT AS PROVENANCE (inside ~~...~~) : {len(kept)}")
+    for w in kept:
+        print(f"      struck: {w}")
+    print(f"    stale figures STILL LIVE (outside ~~...~~)        : {len(live_stale)}")
+    for w in live_stale:
+        print(f"      !! LIVE: {w}")
+    if live_stale:
+        fail("VERDICT", f"{len(live_stale)} stale figure(s) still stated as live")
+
+    print("\n    and the LIVE figures must be present and must be the computed ones:")
+    wants = [(f"4 + {nsources} = {irred}", "the irreducible count"),
+             (f"{rows_out} ROWS OUTSTANDING", "the row count")]
+    for text, what in wants:
+        present = text in verdict
+        print(f"      {what}: '{text}' present = {present}")
+        if not present:
+            fail("VERDICT", f"the live figure '{text}' is not stated in the verdict doc")
 
     print(f"""
     The ledger's own baseline records the raises that moved it:""")
@@ -196,7 +225,7 @@ def main() -> int:
     print("\n" + "=" * 78)
     print(f" LIVE PRICE: {naxioms} axioms + {nsources} irreducible sources = {irred}")
     print(f"             ({rows_out} rows outstanding) vs the SM's 19 free parameters")
-    print(f" THE_SM_VERDICT's '4 + 7 = 11' and '14 rows' are STALE: {bool(stale)}")
+    print(f" verdict doc: {len(kept)} stale figure(s) struck for provenance, {len(live_stale)} still live")
     if FAILURES:
         print("\n FAILURES:")
         for f in FAILURES:
