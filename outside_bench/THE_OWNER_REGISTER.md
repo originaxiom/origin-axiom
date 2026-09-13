@@ -4675,3 +4675,80 @@ shape, not size**.
 > It buys structural facts the SM cannot state, and a proof of why the values are out of reach.
 > **It does not buy a single number, and by the one currency that converts the trade is net
 > negative — which the programme's own scoreboard records rather than hides.**
+
+---
+
+## R138 — "what does this actually mean" (2026-09-13): the lab lane, in plain terms
+
+The owner asked for the sentence unpacked rather than repeated. Sources re-read: `WHAT_WOULD_COUNT`
+§4A.2, `SEAL_LEDGER`, B1085/B1095/B1106/B1171, and this bench's memos 196–197.
+
+### R138-1 — the experiment is real hardware, and it already exists
+
+A **Fibonacci chain**: a one-dimensional lattice — photonic waveguide array or polariton
+lattice — whose sites follow the Fibonacci word, two letters ordered by the golden ratio. It has a
+knob, the **phason `ρ`**: *where you slice the quasiperiodic pattern*. Turning it is established
+technique (topological pumping in aperiodic lattices), so **no new instrument has to be built**.
+
+**The prediction is a FUNCTION, not a number:** `ρ ↦ edge content` — for each phase, how many
+boundary-capable modes sit in a *labelled* gap, and at which edge.
+
+### R138-2 — "sealed" and "waiting on an experimentalist"
+
+**Sealed** = preregistered and hash-committed before any data, with kill conditions K1/K2/K3, on
+**2026-08-21**, the owner's rulings D-2/D-3 executed. It is **the programme's only outward-facing
+falsifier** — the one claim an existing lab could refute.
+
+**Waiting on an experimentalist** = **nobody has been asked to run it.** The anchor experiment
+(Verbin–Zilberberg–Kraus) is *"a demonstration paper, not metrology"* — 13–28 waveguides, ~13
+arrays, **no error bars, no counts**. It shows the technique works; it does not count modes. The
+amendment **R6′** names what is actually needed: **count boundary-capable modes in a labelled gap,
+on a chain long enough to separate a 5-count from a 6-count, while scanning the phason.** That run
+has never been commissioned.
+
+### R138-3 — what "priced its differential down" means, exactly
+
+The sealed prediction is an **alternation pattern across nine consecutive Fibonacci windows**,
+written `C.C.C.C.C` — *closes at even index, breaks at odd*.
+
+**What was already controlled and STANDS (B1106's C-GEN):** vary the **slope**. Golden reproduces
+the law; strict silver **never closes** — re-run in memo 197's own instrument, silver closes at none
+of six Pell windows. **The closure IS slope-specific.**
+
+**What nobody had controlled: the PHASE, at the golden slope.** Memo 197 ran it — 3000 random
+phases, same nine windows, **35 distinct patterns** observed (so the alphabet is rich, not tiny):
+
+| pattern | share |
+|---|---|
+| **`C.C.C.C.C` — the sealed law** | **19.77 %** ← the **mode** |
+| `.C.C.C.C.` — its mirror | 15.00 % |
+| `.C.C.CC.C` | 6.67 % |
+
+And CELL 1: the closure set has measure **53–55 % at every window, including the odd-index one** —
+so the even/odd law is *not* a statement about the index; at `N = 233`, α simply lies outside a set
+that is still a 55 % majority.
+
+> **So an experimentalist scanning the phason passes through the sealed pattern about one time in
+> five. Seeing it does not tell you the phase is α.** What the observation confirms is the
+> **slope** — and the slope is what you put in when you fabricated a Fibonacci chain. **The lane is
+> slope-specific, not phase-specific.**
+
+Plus memo 196's two addenda: at the closure windows **`H_L` IS `H_R` read backwards**, so the
+two-hand "differential" is a **relabelling**; and C4 prices the tiling hull as seeing only *the
+hearing*, so **the lane cannot reach the SM** even if it passed.
+
+### R138-4 — the counter-argument, stated and NOT adjudicated
+
+**The object has no free `ρ`** — the cut phase *is* the slope by construction — so a
+look-elsewhere count over a knob the theory never turns may not be a charge it must answer.
+**Against that:** B1085's banked object **is** the function, and the apparatus **does** scan `ρ`
+(144 banked sweep points), so the sweep is the experiment's own. **Both readings are recorded; it is
+the seal-holder's call**, under the seal's own addendum-beside rule.
+
+### R138-5 — the net, in one line
+
+> **A pass would be weak evidence — one phase in five gives the same picture, and the thing it
+> confirms was built into the sample. A fail would still bite, because K1/K2/K3 are real kill
+> conditions.** Nothing is retracted: C-GEN stands and was re-run, B1095's mechanism stands, and
+> the seal discipline did what it was built to do. **Memo 197 added a second genericity axis the
+> first control did not cover** — and found the prediction is common rather than rare.
