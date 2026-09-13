@@ -1,0 +1,78 @@
+R29 coupled source and transverse gauge result: final reporting checks, 2026-09-13.
+Scientific seal: f8bb9fbad549e8a2c30e37f60c6de59fb06c1143.
+This is not a full-parent completion, empirical fit, full-repository green or main bank.
+
+All then-current reporting files were staged; the tree stayed read-only during gates.
+Gate exit 1; 26 PASS / 4 FAIL; elapsed 14.554644000018016 seconds.
+All four failed-detail strings are byte-identical to the preceding compatibility
+checkpoint (and its recorded R28 comparison), none added or missing.
+The existing attribution, static test-vacuity, literal seal-provenance and aged
+un-escalated relay debts remain. No baseline, clock or old scientific test changed.
+Review due: 154 merges since the last review; independent acceptance remains open.
+
+Latest-row artifact check before adding this receipt: 400 paths, zero mismatches.
+All 63 recorded design seals have present files and matching recomputed digests.
+The six R29 scientific/prior paths are unchanged from the pre-execution seal.
+292 relative Markdown links in the changed documents plus the sealed design,
+proof and prior resolve. Final receipt links and hashes are checked after addition.
+
+All four public scientific outputs match their durable raw captures exactly,
+apart from the declared environment-prefix redactions in the broad output only.
+Every raw capture digest, byte count and terminal receipt hash matches the public
+run metadata; only the declared interpreter prefix is redacted in commands.
+The 51-file broad population is exactly R28's ordered 50 files plus the R29 test.
+All 24 failed/error IDs match R28 exactly, none added or missing.
+These comparisons do not waive old failures or certify the full repository.
+
+Authored staged whitespace passes. Five trailing-space lines are retained from
+the unaltered scientific raw broad output; the explicit raw-only whitespace check
+reports those lines. They are not silently reformatted.
+Recovery checks corrected a wrong manifest suffix, an unmatched read-only shell
+pattern and a Ruby prose-read encoding error. No scientific artifact or run was
+changed, repeated or replaced because of those metadata-probe failures.
+The earlier duplicate-target reporting-patch failure remains in FAILURES.md.
+
+This receipt and its short reader pointers are added after the gate run and hashed
+separately before commit. They were not part of that gate execution. Final staging,
+hashes and remote synchronization are checked at commit/push time, not inferred
+from the pre-receipt gate pass. The complete physical goal remains open.
+The older campaign-status follow-up is also explicitly labelled as the
+pre-execution checkpoint after this run; its historical result is retained.
+
+Raw gate basename: oa_r29_defect_gauge_gates_first.log
+Raw gate log bytes: 1818
+Raw gate log SHA-256: 22c5b36d0ed17f96c7ca4eab86cdfe7d7d12e1ee786357d39f5460cb58812a14
+Raw gate receipt SHA-256: d7cfa0f9c1872414b9be7831726f117bd3b901010cba4ce3011d0fe4194f8d39
+Command: env PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 <python3.12-env>/bin/python3.12 scripts/gates/gates.py
+
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 45 open |   relay-debt: 1 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 22 days (> 21), no ESCALATED marker
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 154 merges since last review (DUE — run the decadal review)

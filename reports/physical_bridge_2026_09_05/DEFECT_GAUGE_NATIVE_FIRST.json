@@ -1,0 +1,291 @@
+{
+  "all_class_proof": "DEFECT_GAUGE_PROOF.md; numerical controls do not replace the analytic argument",
+  "checks": {
+    "codimension_one_lower_bound": true,
+    "core_join_and_exterior": true,
+    "coupled_stationarity": true,
+    "cusp_exhaustion": true,
+    "cutoff_endpoints": true,
+    "finite_gauge_covariance": true,
+    "finite_width_gap_bound": true,
+    "full_gauge_current": true,
+    "hessian_residual_square": true,
+    "hyperbolic_harmonic_cutoff": true,
+    "independent_two_dimensional_spectrum": true,
+    "integrated_source_is_flux": true,
+    "missing_phase_derivative_fails": true,
+    "missing_source_fails": true,
+    "no_higgs_control": true,
+    "normalized_source_core": true,
+    "positive_bare_limit_and_inverse_sign": true,
+    "primitive_q4_character": true,
+    "quadrature_agrees": true,
+    "renormalization_inverse": true,
+    "source_varies_with_scalar": true,
+    "square_shell_lower_bound": true,
+    "transverse_phase_decouples": true,
+    "transverse_vector_mass": true,
+    "two_dimensional_upper_bound": true,
+    "unchanged_global_holonomy_obstruction": true,
+    "uniform_mass_control": true,
+    "wrong_radial_metric_fails": true,
+    "wrong_scalar_amplitude_fails": true
+  },
+  "cutoff_quadratures": [
+    {
+      "epsilon": 0.01,
+      "formula": 2.106645008186408,
+      "integration_error": 1.0171917508321528e-12,
+      "quadrature": 2.1066450081864083,
+      "radius": 0.2,
+      "relative_error": 2.1080400737871593e-16
+    },
+    {
+      "epsilon": 0.003,
+      "formula": 1.2977959741785414,
+      "integration_error": 4.7307285458987755e-14,
+      "quadrature": 1.2977959741785416,
+      "radius": 0.4,
+      "relative_error": 1.7109361513128258e-16
+    }
+  ],
+  "elapsed_seconds": 3.6301181340240873,
+  "line_sequence": [
+    {
+      "epsilon": 0.01831563888873418,
+      "l2_upper": 0.057892431238254695,
+      "n": 2,
+      "radial_energy": 3.150994343031745,
+      "radius": 0.1353352832366127,
+      "trace_squared_per_unit_axial_norm": 1.0
+    },
+    {
+      "epsilon": 0.00012340980408667956,
+      "l2_upper": 0.007793665959298058,
+      "n": 3,
+      "radial_energy": 1.047341694756563,
+      "radius": 0.049787068367863944,
+      "trace_squared_per_unit_axial_norm": 1.0
+    },
+    {
+      "epsilon": 1.1253517471925912e-07,
+      "l2_upper": 0.0010540047792030555,
+      "n": 4,
+      "radial_energy": 0.5236036543680286,
+      "radius": 0.01831563888873418,
+      "trace_squared_per_unit_axial_norm": 1.0
+    },
+    {
+      "epsilon": 2.3195228302435696e-16,
+      "l2_upper": 1.930265192446045e-05,
+      "n": 6,
+      "radial_energy": 0.20943952453753142,
+      "radius": 0.0024787521766663585,
+      "trace_squared_per_unit_axial_norm": 1.0
+    },
+    {
+      "epsilon": 1.603810890548638e-28,
+      "l2_upper": 3.535396914303516e-07,
+      "n": 8,
+      "radial_energy": 0.11219973770336414,
+      "radius": 0.00033546262790251185,
+      "trace_squared_per_unit_axial_norm": 1.0
+    },
+    {
+      "epsilon": 2.8946403116483003e-63,
+      "l2_upper": 1.1859934950769507e-10,
+      "n": 12,
+      "radial_energy": 0.047599888690758985,
+      "radius": 6.14421235332821e-06,
+      "trace_squared_per_unit_axial_norm": 1.0
+    }
+  ],
+  "one_dimensional": [
+    {
+      "N": 1,
+      "difference": 5.551115123125783e-17,
+      "dim": 1,
+      "eigenvalue": 0.15692966918274637,
+      "eigenvector_residual": 1.4526172914154867e-16,
+      "eta": 0.25,
+      "secular_root": 0.15692966918274642,
+      "size": 3,
+      "sum0": 2.0,
+      "upper_bound": 0.16666666666666666,
+      "zero_mode_only": 0.25
+    },
+    {
+      "N": 2,
+      "difference": 7.771561172376096e-16,
+      "dim": 1,
+      "eigenvalue": 0.14576843606967813,
+      "eigenvector_residual": 1.0231876407958443e-15,
+      "eta": 0.25,
+      "secular_root": 0.1457684360696789,
+      "size": 5,
+      "sum0": 2.5,
+      "upper_bound": 0.15384615384615385,
+      "zero_mode_only": 0.25
+    },
+    {
+      "N": 4,
+      "difference": 6.106226635438361e-16,
+      "dim": 1,
+      "eigenvalue": 0.13902856695777588,
+      "eigenvector_residual": 1.794573479583877e-15,
+      "eta": 0.25,
+      "secular_root": 0.13902856695777527,
+      "size": 9,
+      "sum0": 2.8472222222222223,
+      "upper_bound": 0.1460446247464503,
+      "zero_mode_only": 0.25
+    },
+    {
+      "N": 8,
+      "difference": 5.6066262743570405e-15,
+      "dim": 1,
+      "eigenvalue": 0.13530716007503263,
+      "eigenvector_residual": 9.347316038470883e-15,
+      "eta": 0.25,
+      "secular_root": 0.13530716007503824,
+      "size": 17,
+      "sum0": 3.05484410430839,
+      "upper_bound": 0.141746576567057,
+      "zero_mode_only": 0.25
+    },
+    {
+      "N": 16,
+      "difference": 1.7930101847696278e-14,
+      "dim": 1,
+      "eigenvalue": 0.13335101963779092,
+      "eigenvector_residual": 3.744023301285102e-14,
+      "eta": 0.25,
+      "secular_root": 0.13335101963780885,
+      "size": 33,
+      "sum0": 3.168693066889974,
+      "upper_bound": 0.13949544089405888,
+      "zero_mode_only": 0.25
+    },
+    {
+      "N": 32,
+      "difference": 5.0709436649754025e-14,
+      "dim": 1,
+      "eigenvalue": 0.1323482726452773,
+      "eigenvector_residual": 1.692221671810949e-13,
+      "eta": 0.25,
+      "secular_root": 0.132348272645328,
+      "size": 65,
+      "sum0": 3.228334525655849,
+      "upper_bound": 0.1383444549295077,
+      "zero_mode_only": 0.25
+    }
+  ],
+  "scope": "Added H bosonic tube model; bare bulk-L2 vector limit. No chiral-domain transfer, anomaly completion, empirical fit or TOE.",
+  "sympy_version": "1.14.0",
+  "two_dimensional": [
+    {
+      "N": 1,
+      "difference": 7.216449660063518e-16,
+      "dim": 2,
+      "eigenvalue": 0.09505730453103642,
+      "eigenvector_residual": 9.05463341846228e-16,
+      "eta": 0.25,
+      "secular_root": 0.0950573045310357,
+      "size": 9,
+      "sum0": 6.0,
+      "upper_bound": 0.1,
+      "zero_mode_only": 0.25
+    },
+    {
+      "N": 2,
+      "difference": 9.71445146547012e-17,
+      "dim": 2,
+      "eigenvalue": 0.07383877883252592,
+      "eigenvector_residual": 1.5204793825141519e-15,
+      "eta": 0.25,
+      "secular_root": 0.07383877883252601,
+      "size": 25,
+      "sum0": 9.1,
+      "upper_bound": 0.07633587786259542,
+      "zero_mode_only": 0.25
+    },
+    {
+      "N": 4,
+      "difference": 8.326672684688674e-17,
+      "dim": 2,
+      "eigenvalue": 0.058447456483933374,
+      "eigenvector_residual": 8.603401632485693e-15,
+      "eta": 0.25,
+      "secular_root": 0.05844745648393329,
+      "size": 81,
+      "sum0": 12.7476395173454,
+      "upper_bound": 0.05970990711642127,
+      "zero_mode_only": 0.25
+    },
+    {
+      "N": 8,
+      "difference": 7.778500066280003e-15,
+      "dim": 2,
+      "eigenvalue": 0.047563265749408,
+      "eigenvector_residual": 6.358888932538311e-14,
+      "eta": 0.25,
+      "secular_root": 0.04756326574941578,
+      "size": 289,
+      "sum0": 16.728637530527855,
+      "upper_bound": 0.04824243747459339,
+      "zero_mode_only": 0.25
+    },
+    {
+      "N": 1,
+      "difference": 3.1086244689504383e-15,
+      "dim": 2,
+      "eigenvalue": 0.12932582549205984,
+      "eigenvector_residual": 5.763878168445254e-16,
+      "eta": 1.0,
+      "secular_root": 0.12932582549205673,
+      "size": 9,
+      "sum0": 6.0,
+      "upper_bound": 0.14285714285714285,
+      "zero_mode_only": 1.0
+    },
+    {
+      "N": 2,
+      "difference": 1.6653345369377348e-16,
+      "dim": 2,
+      "eigenvalue": 0.09370028372931138,
+      "eigenvector_residual": 2.258153120245483e-15,
+      "eta": 1.0,
+      "secular_root": 0.09370028372931122,
+      "size": 25,
+      "sum0": 9.1,
+      "upper_bound": 0.09900990099009901,
+      "zero_mode_only": 1.0
+    },
+    {
+      "N": 4,
+      "difference": 5.218048215738236e-15,
+      "dim": 2,
+      "eigenvalue": 0.0704804848724617,
+      "eigenvector_residual": 9.508831636784343e-15,
+      "eta": 1.0,
+      "secular_root": 0.07048048487246691,
+      "size": 81,
+      "sum0": 12.7476395173454,
+      "upper_bound": 0.07273976006850484,
+      "zero_mode_only": 1.0
+    },
+    {
+      "N": 8,
+      "difference": 1.527250548249981e-14,
+      "dim": 2,
+      "eigenvalue": 0.05532462712579225,
+      "eigenvector_residual": 6.571019481122265e-14,
+      "eta": 1.0,
+      "secular_root": 0.05532462712577698,
+      "size": 289,
+      "sum0": 16.728637530527855,
+      "upper_bound": 0.05640591378091229,
+      "zero_mode_only": 1.0
+    }
+  ]
+}

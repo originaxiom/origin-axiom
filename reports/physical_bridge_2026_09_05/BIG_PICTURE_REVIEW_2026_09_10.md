@@ -1,5 +1,14 @@
 # The successful pieces must form one physical theory
 
+Subsequent update, September 13: [R29](DEFECT_GAUGE.md) now constructs
+an added finite-width source and derives its actual transverse gauge
+operator. The bare shrinking-line limit loses its positive gap in
+the stated bulk Hilbert space; finite width and renormalized defect
+dynamics remain possible. This reinforces the need to check full
+internal profiles, not just a constant-mode truncation. It does not
+supply the source-resolved fermion domain or anomaly cancellation;
+the original conditional chiral kernel is not erased or transplanted.
+
 Subsequent update, September 13: [R28](SOURCE_ACTION.md) establishes
 the prescribed background's static bulk stationarity in the adopted
 twisted theory. Its source strengths and through-flux remain

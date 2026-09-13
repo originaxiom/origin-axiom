@@ -1,15 +1,31 @@
 # Physical bridge audit — 2026-09-05
 
+**Latest local result, R29: [a coupled finite-width source and its gauge limit](DEFECT_GAUGE.md).**
+Added charge-four fields on contractible tubes dynamically supply the
+source density and admit a zero-residual classical solution on compact
+truncations. Their actual transverse extra-U1 operator has a positive
+lowest eigenvalue at finite radius there, but the bare shrinking-tube
+limit loses that gap on the fixed bulk Hilbert space even when the
+constant-mode estimate stays finite. The exact capacity argument includes
+the cusp; the literal positive line-mass form is not closable on bulk L2.
+This does not exclude finite width, renormalized defect dynamics or
+changed kinetic domains. The action and localization are supplied,
+not object-derived. The resolved fermion domain, complete end dynamics
+and full anomaly remain to be computed; the original three/zero kernel
+is retained on its old singular domain. Seal f8bb9fba precedes execution.
+24 new tests and 92 focused tests pass. Broad: 428 pass/16 fail/8 error,
+exactly R28's failed/error IDs. No full green, main bank or complete TOE.
+
 **Owner-requested roadmap and reality check, September 13:**
 [Complete checklist and completion tests](MISSION_ROADMAP_2026_09_13.md)
 and [observational compatibility](OBSERVATIONAL_COMPATIBILITY_2026_09_13.md).
 Structural compatibilities, the standalone extra-U1 anomaly, the restricted
 running mismatch and untested common-theory requirements are separated.
 Seven unchanged test files rechecked: 78 passed; this is not an empirical
-fit or a full-suite certificate. [R29 preparation](DEFECT_GAUGE_INTAKE_2026_09_13.md)
-and all-head/history receipts are retained; no new R29 science is claimed.
+fit or a full-suite certificate. The earlier [R29 preparation](DEFECT_GAUGE_INTAKE_2026_09_13.md)
+and all-head/history receipts are retained; R29 subsequently executed as above.
 
-**Latest local result, R28: [fixed-source action and the cost of resolving it](SOURCE_ACTION.md).**
+**Preceding local result, R28: [fixed-source action and the cost of resolving it](SOURCE_ACTION.md).**
 The prescribed background is stationary with zero static BPS potential
 in the adopted twisted bulk theory on the source complement. Source
 residues and through-flux changes instead have divergent 4D kinetic

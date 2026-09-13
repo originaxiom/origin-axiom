@@ -2834,3 +2834,52 @@ anti-Poisson/monodromy identities. No discrete action is identified with
 the sourced physical field theory. Twenty new tests pass; the 50-file
 regression is 404 pass/16 fail/8 error with exactly R27's failed/error
 IDs. No independent bank, all-green certificate or full TOE is claimed.
+
+**R29 movement, same PB-BOUNDARY lead (2026-09-13):** closing sentence:
+"The declared H charged-tube model admits a zero-residual stationary
+finite-width source on compact truncations, but its bare positive
+shrinking-line mass has spectral bottom tending to zero on the fixed
+bulk Hilbert space, irrespective of potential height."
+Report: reports/physical_bridge_2026_09_05/DEFECT_GAUGE.md, sections 1--3;
+full argument: DEFECT_GAUGE_PROOF.md, sections 1--5. The operator and
+literal line-form domain are derived, not read from the constant mode.
+Only this bosonic finite-width/source-gauge sub-duty advances.
+PB-BOUNDARY and PB-ACTION remain OPEN; no quantum or chiral-domain closure.
+
+NEXT, within the same common-model task:
+1. Derive a fermionic source/end action and its actual variational domain,
+   at finite physical width or with a specified renormalized defect
+   prescription. Replacing beta*dr/r by a smooth core is outside R26's
+   bounded regular-interior class; re-establish the spectrum, do not
+   transplant the original three/zero count.
+2. Compute the full anomaly and actual normalized gauge-current overlaps.
+   Added bosons do not cancel the original fermion anomaly; a small
+   vector eigenvalue proves neither exclusion nor gauge decoupling.
+3. Price/derive tube location, width, density, amplitudes and all action
+   coefficients. Include the full-parent lift and any extra allowed
+   couplings, such as the omitted full-parent h--Q potential.
+4. Construct the complete cusp/end model. The uniform tube-amplitude
+   kinetic weight grows with axis length and beta changes retain the
+   original logarithmic kinetic cost. Fixed nonnormalizable data are
+   not ordinary four-dimensional moduli.
+5. If pursuing a zero-width description, test a renormalized/enlarged
+   kinetic state space or a genuinely different source mechanism.
+   Increasing only the bare positive line-Higgs strength is constrained
+   by this result. Finite width, bulk condensates, nonabelian sources
+   and the separate curved-cone/partial-filling routes remain live.
+
+No object-level source count, quantum gravity or observational prediction
+is implied. Twenty-four new tests pass; the 51-file broad run is
+428 pass/16 fail/8 error with exactly R28's failed/error IDs. Native,
+focused and broad first captures and the pre-execution seal f8bb9fba
+are retained. No new B number, main merge or independent bank.
+
+**Incoming R29 reading follow-up, not certification:** paper-review
+B1402 at 44ca6c35 concerns arithmetic word cuts, not the source arcs.
+Its full producer was read: the mod-3 shadow is enumerated, but lambda
+readouts are supplied literals. It was not rerun and those values were
+not independently regenerated. Outside memo 222 at 5565610b reports
+a conditional split trialitarian algebra; its own commutant-to-trialitarian
+identification remains an input. Its producer/book were not independently
+audited here. These incoming arithmetic/axiom obligations remain on their
+stated branches; none is imported into the declared H source model.

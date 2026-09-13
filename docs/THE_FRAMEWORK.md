@@ -1,6 +1,24 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**LATEST LOCAL AUDIT, 2026-09-13 (R28): static bulk compatibility, source dynamics still owed.**
+**LATEST LOCAL AUDIT, 2026-09-13 (R29): a coupled finite-width source and a scoped gauge limit.**
+The added charge-four tube fields support a zero-residual stationary
+classical model on compact truncations. The actual transverse extra-U1
+operator has a positive lowest eigenvalue at fixed finite radius, but
+its bare positive shrinking-line mass has spectral bottom tending to
+zero on the specified bulk Hilbert space. A finite constant-profile
+mass is only an upper bound. Hyperbolic cutoffs, cusp exhaustion and
+a nonclosable literal line-trace form identify the mechanism; finite
+physical widths and renormalized or enlarged defect theories remain live.
+The action/localization/widths are supplied, and the resolved fermion
+domain and anomaly have not been derived. The earlier conditional
+three/zero kernel stays on its original domain. Next join a fermionic
+source/end sector to a finite-width or explicitly renormalized model,
+including normalized gauge-current overlaps and complete end behavior.
+Report: reports/physical_bridge_2026_09_05/DEFECT_GAUGE.md.
+24 new tests pass; focused 92 pass; broad 428 pass/16 fail/8 error,
+exactly R28's failed/error IDs. No new B, main bank or completed TOE.
+
+**PRECEDING LOCAL AUDIT, 2026-09-13 (R28): static bulk compatibility, source dynamics still owed.**
 R15's prescribed commuting background is stationary with zero BPS
 potential in the adopted twisted bulk action on the source complement.
 Its source-residue and through-flux variations have divergent 4D kinetic

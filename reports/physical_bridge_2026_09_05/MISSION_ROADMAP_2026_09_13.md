@@ -1,5 +1,12 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Scientific follow-through, September 13: [R29](DEFECT_GAUGE.md) is now
+executed.** It supplies a declared coupled finite-width bosonic source
+and its transverse gauge operator, while establishing the scoped bare
+shrinking-line gap loss. Its fermionic/end domain and quantum completion
+are still open. This updates the original R28 checkpoint below, not the
+full goal or its completion tests.
+
 2026-09-13. Owner-requested checklist and strategy, based on completed
 local science through R28, commit `1bf75c2e`. This is a status/requirements
 document, not a new scientific result or a declaration of main acceptance.
@@ -27,6 +34,11 @@ result on every branch.
 
 ## 1. Completed assets to retain
 
+- [x] Construct an added coupled source on compact truncations and derive
+  the full transverse extra-U1 operator. Finite-radius positivity and
+  bare shrinking-line gap loss are separate results; the literal positive
+  line-mass form is not closable on bulk L2. This neither selects sources
+  nor transfers the singular chiral domain. [R29](DEFECT_GAUGE.md).
 - [x] Repository/history intake, branch-qualified citations, repeated
   all-head/tag fetches, full reachable-content retrievals, preserved first
   failures and exact producer checks. This is continuing audit coverage,
@@ -120,6 +132,9 @@ E6/Z3 parent; R21's explicit subgroup map is a narrower, valid tool.
 ### B. Derive the source/end sector — ACTIVE, immediate priority
 
 - [x] Verify the prescribed bulk background is stationary: R28.
+- [x] Supply a declared finite-width bosonic source and stationary compact
+  construction: R29. The complete end sector and fermionic theory are
+  not supplied by this narrower success.
 - [ ] Supply gauge-covariant source fields and an end action, including
   kinetic terms, regulator, allowed variations and any counterterms.
 - [ ] Solve the coupled equations, not only a background equation with
@@ -129,14 +144,17 @@ E6/Z3 parent; R21's explicit subgroup map is a narrower, valid tool.
 - [ ] Determine whether source activation, strengths, signs, number and
   holonomy are selected, or remain genuine physical inputs.
 
-Immediate R29 candidate: a charged scalar defined on contractible
+Executed R29 construction: a charged scalar defined on contractible
 finite-width source tubes. Its restricted flat bundle need not share
 the obstruction to a globally parallel scalar over the whole manifold.
-This is a proposed added regulator model, not a completed derivation.
+This is an added regulator model, not a source-selected physical derivation.
 The [intake](DEFECT_GAUGE_INTAKE_2026_09_13.md) registers the necessary
 tests, including the actual transverse gauge operator and its thin limit.
-No R29 source, proof or test has yet been sealed or scientifically run
-at this checkpoint.
+The source, proof and tests were sealed at f8bb9fba before execution;
+all 24 new tests pass. The bare shrinking-tube limit loses its gauge gap
+on the specified bulk Hilbert space. Next derive the fermionic source/end
+sector and recompute its spectrum, full anomaly and normalized currents
+at finite width or with an explicit renormalized defect prescription.
 
 Done when: a controlled coupled source/end solution has a well-defined
 action and operator domain, with the original desired spectrum either
@@ -279,8 +297,9 @@ desired answer can be fitted.
   locally passing tests do not supply non-authoring acceptance.
 - [ ] Resolve/classify repository verification debt without deleting
   historical failures or weakening tests to produce a green summary.
-  The latest broad R28 population was **404 pass / 16 fail / 8 error**;
-  it was not the full repository. Its reporting gates were **26 pass / 4 fail**.
+  The latest broad R29 population is **428 pass / 16 fail / 8 error**;
+  its failed/error IDs equal R28's, and it is not the full repository.
+  R28's reporting gates were **26 pass / 4 fail**.
   This follow-up's [reporting check](COMPATIBILITY_FINAL_CHECKS_2026_09_13.txt)
   retains the same four failed-detail strings, without a baseline waiver.
 - [ ] Complete main banking/review and a genuine end-to-end reproducibility

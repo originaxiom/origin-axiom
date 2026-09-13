@@ -579,3 +579,46 @@ history-summary equality checks pass. The final receipt records the exact
 command, raw digests and limitations: COMPATIBILITY_FINAL_CHECKS_2026_09_13.txt.
 It is added after the run and separately hashed, with final synchronization
 verified at commit/push time. No debt or old failure has been waived.
+
+## R29 coupled tube source and transverse gauge checkpoint (2026-09-13)
+
+Seal f8bb9fba was committed and pushed BEFORE first scientific import or
+execution. All six scientific/prior paths remain unchanged from it.
+The added-model scope, input budget and analytic proof are explicit:
+finite-width classical source existence; actual transverse gauge operator;
+bare shrinking-support gap loss; nonclosability of the literal line form.
+Neither a physical fermion domain nor anomaly cancellation is asserted.
+
+All 29 native checks pass; 24 new tests pass in 5.10 s; six-file focused
+92 pass in 84.24 s. The quiescent 51-file broad run gives 428 pass /
+16 fail / 8 error, one warning, in 368.72 s. Its population is exactly
+R28 plus the new file and its failed/error IDs are exactly R28's 24.
+Every raw capture and terminal receipt is retained outside the tree;
+public captures preserve all content except stated environment prefixes.
+No scientific source, old assertion or tolerance was rewritten.
+
+The all-head/tag refresh, full-history population and incoming read
+boundaries are recorded in the pre-seal prior. No B allocation, reserved
+band collision, main merge, PR or external relay. The prior body is frozen;
+the report records the later B1402 producer read separately. Incoming
+split-algebra and arithmetic-cut claims are not adopted without proof.
+
+FINDINGS, the report/README, mission/roadmap, failure record, three reader
+ledgers, framework, X33, five scoped law rows and PB-BOUNDARY carry the
+result and named follow-on duties. No formal global theorem-registry
+promotion is manufactured for this path-local checkpoint. The complete
+source/end domain, quantum consistency, 4D physical limit and full TOE
+remain open. Full-repository green and independent receiving-seat/main
+banking remain unpaid. Reporting gates and final hash/synchronization
+checks follow; existing failures and baselines are not waived.
+
+The staged reporting run gives **26 PASS / 4 FAIL**, exit one in 14.5546 s.
+All four failed-detail strings are exactly the preceding checkpoint's;
+review is due at 154 merges. All 400 then-latest artifact hashes and all
+63 design seals match; 292 relative Markdown links resolve. The six
+scientific/prior paths remain unchanged from f8bb9fba. Public/raw capture,
+metadata, ordered test-population and exact failed-ID comparisons pass.
+DEFECT_GAUGE_FINAL_CHECKS.txt retains the complete gate output and digests.
+This final receipt and its reader pointers are added after the run and
+separately hashed; final staging and remote synchronization are checked
+before handoff. No old failure, baseline or independent-review debt is waived.

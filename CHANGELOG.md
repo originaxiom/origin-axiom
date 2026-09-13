@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-09-13 — R29: coupled finite-width source and the bare gauge thin limit
+
+A declared charge-four H field on contractible tubes supplies the
+moment-map density dynamically and gives a zero-residual stationary
+classical model on compact truncations. The action, localization,
+amplitudes and outer data remain inputs; no full-parent or quantum
+completion is claimed. Its transverse extra-U1 operator includes the
+internal gradient and has a positive lowest eigenvalue at fixed finite
+radius on a compact connected truncation.
+
+Bare positive mass supported on shrinking source lines has spectral
+bottom tending to zero in the stated fixed bulk Hilbert space, even
+if its constant-mode mass estimate stays finite. Exact hyperbolic
+cutoffs and ordered cusp exhaustion give the analytic argument;
+independent Fourier matrices and a codimension-one positive comparator
+test its mechanism. The literal positive line-trace mass form is
+not closable on bulk L2. Finite widths, renormalized defect state spaces,
+other kinetic terms and nonabelian sources are not excluded.
+
+Seal f8bb9fba was pushed before execution. All 29 native checks and
+24 new tests pass; focused 92 pass. The 51-file regression is
+428 pass / 16 fail / 8 error in 368.72 s, with exactly R28's 24
+failed/error IDs. Original scientific files and raw captures are
+retained. The source-resolved fermion domain and full anomaly still
+must be derived together; R19's three/zero result is not transferred
+across smoothing by citation. No B allocation, merge, main bank,
+full-repository green or completed TOE.
+Report: reports/physical_bridge_2026_09_05/DEFECT_GAUGE.md.
+
 ## 2026-09-13 — Physical mission roadmap and observational compatibility checkpoint
 
 The owner-requested checklist gives explicit completion tests from one

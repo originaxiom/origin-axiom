@@ -1,0 +1,23 @@
+R29 metadata before first scientific execution, 2026-09-13.
+Clean starting checkpoint: 6f2fb5c0.
+The pre-execution design/proof/producer/tests and prior receipt were committed
+and pushed as f8bb9fba before their first scientific import or execution.
+The tree was clean after that push. All scientific runs then stayed read-only.
+The raw read-only history scan preceded writing the new scientific files.
+No empirical targets or new B allocation; no parent-action or TOE identification.
+
+Pre-execution metadata checks:
+seal-digests: PASS, 63 sealed digests recomputed and matching.
+seal-provenance: FAIL, the same capped older list beginning EXTENSION_2.md,
+EXTENSION_2_CONTROL.md, UPSTREAM_3_DESIGN.md, UPSTREAM_3_EXPORT_REPAIR.md,
+GLOBAL_SINGULAR_DESIGN.md. New design carries the literal provenance markers.
+test-vacuity: FAIL, the same two old tests:
+tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain
+tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+Latest-row artifact manifest: 393 paths, zero mismatches.
+Staged whitespace: PASS.
+These are metadata checks, not an all-green banking certificate.
+
+This receipt is written after execution from the observed metadata output;
+it is not represented as a separately pre-execution-committed artifact.
+Original scientific files remain unchanged; independent review is outstanding.

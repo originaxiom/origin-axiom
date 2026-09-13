@@ -1,5 +1,12 @@
 # Does the current work agree with observed reality?
 
+**Subsequent result, September 13:** [R29](DEFECT_GAUGE.md) constructs
+an added finite-width source and its gauge operator. Its bare shrinking-line
+gap disappears in the stated bulk Hilbert space, not in every defect theory.
+No new observational fit or source-resolved fermion spectrum was produced;
+the compatibility verdict below is unchanged. Finite widths, actual
+currents, quantum matching and complete end behavior need further work.
+
 2026-09-13. Owner-requested assessment. Science baseline `1bf75c2e`,
 completed local rounds through R28. This is a comparison of the audited
 constructions, not a new fit, full-corpus absence theorem or experimental
@@ -163,10 +170,12 @@ has never studied these topics.
 
 This is the key strategic inference: the nearest task is compatibility
 of the successful sectors within one action and domain, not another
-search for the integer three. The source path is retained. A finite-width
-source-Higgs proposal is being prepared; it is not counted as a result
-or as an anomaly/low-energy cure before its coupled equations, gauge
-spectrum, quantum response and limiting domain are checked.
+search for the integer three. The source path is retained. At this
+assessment's original checkpoint the finite-width source-Higgs proposal
+was only preparation. R29 now checks its coupled bosonic equations and
+gauge operator, with the scoped thin-limit result above. Its quantum
+response and fermion domain remain unchecked; it is not an anomaly or
+complete low-energy cure.
 
 ## 6. Evidence and limits of this assessment
 

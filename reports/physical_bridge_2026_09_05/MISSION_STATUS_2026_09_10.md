@@ -1,6 +1,21 @@
 # Physical-bridge mission status and next questions
 
-**September 13 follow-up:** the owner's full
+**Latest scientific result, September 13: R29.**
+[The coupled source-tube construction](DEFECT_GAUGE.md) now supplies
+an added stationary finite-radius bosonic model and its actual gauge
+operator. At fixed radius on a compact truncation the extra-U1 mass
+is positive, while its bare shrinking-support limit has spectral bottom
+tending to zero in the fixed bulk Hilbert space. Finite widths and
+renormalized defect dynamics remain live. The original three/zero
+kernel is not automatically transferred to a smooth core: a fermionic
+source/end action, actual domain, full anomaly and normalized currents
+must be computed in the same model. Seal f8bb9fba precedes execution.
+24 new tests and 92 focused tests pass; broad 428 pass/16 fail/8 error,
+with exactly R28's failed/error IDs. No complete TOE or main bank.
+Current fetch pins outside 5565610b and paper review 44ca6c35; main,
+SM and physics are unchanged. [Pre-seal intake](DEFECT_GAUGE_PRESEAL_PRIOR.md).
+
+**Earlier September 13 status checkpoint:** the owner's full
 [roadmap/checklist](MISSION_ROADMAP_2026_09_13.md) and
 [observational assessment](OBSERVATIONAL_COMPATIBILITY_2026_09_13.md)
 now state the common-theory acceptance tests explicitly. The latest
@@ -8,12 +23,12 @@ fetch advances paper review to 1b84b11c and outside to 01ec814e; the
 [new intake](DEFECT_GAUGE_INTAKE_2026_09_13.md) records reading versus
 verification and refreshed full-history coverage. The seven-file
 old-result recheck passes 78 tests; it is not a new empirical fit.
-R28 is still the latest completed scientific round. R29's localized
-source/gauge calculation is prepared, not sealed or executed.
+R28 was then the latest completed scientific round. R29's localized
+source/gauge calculation was only prepared; the later result is above.
 
-This is a status checkpoint of the audit branch, not a new scientific
-seal or a certificate for the whole repository. The latest completed
-local scientific round is R28. All ten remote heads and tags were
+The following records that earlier status checkpoint of the audit branch,
+not a new scientific seal or a certificate for the whole repository.
+Its latest completed local round was R28. All ten remote heads and tags were
 fetched again on September 13. Main remains b94ed03a, SM 1703c0d8 and
 physics 659487bb; outside advances to 82896898 and paper review to
 f52e7e6f. The [new intake and retrieval](SOURCE_ACTION_PRIOR.md) states
@@ -211,6 +226,15 @@ source action. The next question is now the actual coupled solution's
 class membership, not whether curvature necessarily erases chirality.
 
 ## Questions and strategy
+
+R29 now supplies the finite-width bosonic existence step, not its complete
+source/end or fermion theory. Priority: derive a fermionic completion and
+its boundary/domain laws at finite width or in an explicitly renormalized
+defect model; recompute the charged spectrum, anomaly and normalized gauge
+currents together. A smooth core changes the old singular-domain problem
+outside R26's stated stability hypotheses. Raising only a bare positive
+line-Higgs strength does not retain a gap in R29's fixed bulk Hilbert space.
+Source selection, complete cusp behavior and a full-parent lift remain open.
 
 R28 makes the first action question more precise: static bulk
 stationarity at fixed source data is established, not still awaiting

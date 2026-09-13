@@ -1,5 +1,27 @@
 # Failures retained, not rewritten as successful runs
 
+## R29 first-run success and unchanged prior failures (2026-09-13)
+
+Seal f8bb9fba was pushed before execution. Native 29/29 checks, 24 new
+tests and focused 92 tests pass. The 51-file broad run finishes with
+428 pass/16 fail/8 error in 368.72 s; its 24 failed/error IDs exactly
+equal R28's. Original scientific files, controls, assertions and
+tolerances are unchanged. All first raw captures are preserved; public
+copies redact environment prefixes only. The tree was read-only during
+the scientific runs. This is not full-repository green or independent
+analytic proof acceptance.
+
+The bare shrinking-line gauge limit is a scoped result, not an instrument
+failure or a universal defect exclusion. Finite-width source existence,
+the codimension-one comparator and renormalized-defect prior are retained.
+The source-resolved fermion domain and anomaly are not presumed solved.
+
+Reporting encountered a duplicate-target patch rejection; the patch was
+split by explicit file and reapplied. Earlier truncated display reads
+were repeated on their relevant complete sections before use. No sealed
+scientific file changed. Old reporting debts remain for the gate pass;
+the new checkpoint does not waive them.
+
 ## R23 first-run success and unchanged old failures (2026-09-09)
 
 The original seal a726252a and separate bundle seal 2684623c precede
