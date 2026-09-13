@@ -7966,6 +7966,27 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1401": {
+   "slug": "the kappa lower bound",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B309",
+    "B448"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B140": {
    "slug": "compute reconciliation",
    "motifs": [
