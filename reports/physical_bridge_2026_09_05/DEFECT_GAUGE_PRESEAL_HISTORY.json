@@ -1,0 +1,163 @@
+{
+  "scope": "Every unique Git blob reachable from listed local/remote heads and tags plus extra tips. Binary contents included. rev-list supplies one example path per object, not every historical name. Untracked filesystem contents are not this scan population. Pattern presence is not mathematical relevance or completeness.",
+  "head_aliases": [
+    {
+      "alias": "head_00",
+      "kind": "heads",
+      "sha": "6f2fb5c05e523a2ec0d285058b404d10950e0105"
+    },
+    {
+      "alias": "head_01",
+      "kind": "heads",
+      "sha": "f06d34054899e8c23672b836a7c534af77cbd35d"
+    },
+    {
+      "alias": "head_02",
+      "kind": "remotes",
+      "sha": "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    },
+    {
+      "alias": "head_03",
+      "kind": "remotes",
+      "sha": "6f2fb5c05e523a2ec0d285058b404d10950e0105"
+    },
+    {
+      "alias": "head_04",
+      "kind": "remotes",
+      "sha": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    },
+    {
+      "alias": "head_05",
+      "kind": "remotes",
+      "sha": "5565610b94d5ecd769b63ad29670637ee27016ae"
+    },
+    {
+      "alias": "head_06",
+      "kind": "remotes",
+      "sha": "44ca6c357f102e911c90e6f379a0dc971735250c"
+    },
+    {
+      "alias": "head_07",
+      "kind": "remotes",
+      "sha": "659487bbd93c7990c4686a8b86985b6b66efedc4"
+    },
+    {
+      "alias": "head_08",
+      "kind": "remotes",
+      "sha": "1703c0d80b6ad4281de61feb882667515500e8e7"
+    },
+    {
+      "alias": "head_09",
+      "kind": "remotes",
+      "sha": "f7a49536bc45bebc1557d3d081b6b3664a7c2199"
+    },
+    {
+      "alias": "head_10",
+      "kind": "remotes",
+      "sha": "b94ed03aecba8aae3afc62504e22ec664c26e94f"
+    },
+    {
+      "alias": "head_11",
+      "kind": "remotes",
+      "sha": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4"
+    },
+    {
+      "alias": "head_12",
+      "kind": "tags",
+      "sha": "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    },
+    {
+      "alias": "head_13",
+      "kind": "tags",
+      "sha": "cd37701aec80ea26eea709f25c23c16f22470a42"
+    },
+    {
+      "alias": "head_14",
+      "kind": "tags",
+      "sha": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    },
+    {
+      "alias": "head_15",
+      "kind": "tags",
+      "sha": "84f5adaabccc7f494f814f6433af060e6ae75d5c"
+    },
+    {
+      "alias": "head_16",
+      "kind": "tags",
+      "sha": "e42c336efb5c2b6877e3368d07ae3c6e301483c8"
+    },
+    {
+      "alias": "head_17",
+      "kind": "tags",
+      "sha": "b94be245b670966a2518153f5827643d330e2451"
+    },
+    {
+      "alias": "head_18",
+      "kind": "tags",
+      "sha": "931b5d81492cd5480e34c6873266f1ea7356ca43"
+    },
+    {
+      "alias": "head_19",
+      "kind": "tags",
+      "sha": "3d4a1c711a4c60919258fcb17b964bb69f2ab68f"
+    },
+    {
+      "alias": "head_20",
+      "kind": "tags",
+      "sha": "6ed3a8488fb1f897604325349bdf2c13086b3dad"
+    },
+    {
+      "alias": "head_21",
+      "kind": "tags",
+      "sha": "1d27db2de2a12c389f6397ba6114f58ca5411514"
+    },
+    {
+      "alias": "head_22",
+      "kind": "tags",
+      "sha": "f7a77e054b5893a189be5ed5115e18a4373142c3"
+    },
+    {
+      "alias": "head_23",
+      "kind": "tags",
+      "sha": "28373f554df917eb73059ff6c389d8ef34d48b84"
+    },
+    {
+      "alias": "head_24",
+      "kind": "tags",
+      "sha": "d08fb1144ba858d9766697dd10cc2989e2f0ac04"
+    },
+    {
+      "alias": "head_25",
+      "kind": "tags",
+      "sha": "c1ffdece46bceb24f0cfb1aa67d32025d33b29c4"
+    },
+    {
+      "alias": "head_26",
+      "kind": "tags",
+      "sha": "8de000515147848e5610fb016ea1dad077cc481b"
+    },
+    {
+      "alias": "head_27",
+      "kind": "tags",
+      "sha": "9862db341ef1647683f38c924084eebe0eeaa6c7"
+    }
+  ],
+  "extra_tips": [
+    "67f939cc8cc11b9018283e994a847268b05ab43b",
+    "4d481751b056030e695a68cb1ace4bfd8e5bdb8d"
+  ],
+  "pattern": "codimension.?two|co.?dimension.?2|capacity|defect.{0,30}(Higgs|gauge|moment)|Higgs.{0,30}(defect|brane|locali[sz])|thin.{0,20}(brane|tube|core)|line.{0,20}trace|non.?closable|closability",
+  "unique_objects_sha256": "866d560156a78688ed994ae5230f3c40e1ac63e30fc54e2ab86ab317844d1a7b",
+  "counts": {
+    "commit": 4352,
+    "tag": 10,
+    "tree": 21271,
+    "blob": 28230
+  },
+  "blob_bytes": 3052728779,
+  "hit_blob_versions": 3171,
+  "example_path_count": 248,
+  "hit_records_compact_json_sha256": "cbbe88b140091519293b51bc8c0c47499126f5437783617a70a0ff9fbff44959",
+  "raw_receipt_basename": "oa_r29_defect_gauge_history_preseal_2026_09_13.json",
+  "raw_receipt_sha256": "f6dd65db4ca6cdf6434b837e08da39c4c88da8a0e27a0d2523e01c31089361e3"
+}
