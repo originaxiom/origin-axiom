@@ -14,7 +14,7 @@ THE RECURRENCE ATLAS -- context card
   corpus: 1225 frontier probes; status {'open': 70, 'banked': 803, 'dead': 328, 'dormant': 24}
   the ONE conserved first integral: kappa (recurs 276x, 22%) -- genuine unity, MUST recur
   top recurring motifs: eisenstein(689), golden(680), firewall(637), figure_eight(529), amphichiral_cp(459), metallic(453)
-  recurrence is: structural-invariant 4860 mentions | conserved-integral 276 | TOOL 445
+  recurrence is: structural-invariant 4862 mentions | conserved-integral 276 | TOOL 445
   the honest split: the trace-map TOOL is in 445 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B497, B530, B156, B521, B309, B598
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
@@ -35,13 +35,13 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | trace_map | 445 | 36% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | coupling | 383 | 31% | question | no | physics | the observer/object interface: what the coupling supplies that neither side has alone (the listener map, the pair, the relational bit) |
 | closing | 381 | 31% | question | structural | topology | what closing the open object supplies and costs -- Dehn filling, the seam, the constitutive closure (B286/B287/B294) |
-| torsion | 374 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
+| torsion | 375 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
 | z3_generation | 312 | 25% | symmetry | structural | arithmetic | the generation Z/3 (deck / commensurator / omega-circulant) |
 | measurement | 296 | 24% | question | no | dynamics | collapse, decoherence, the measurement postulate as a structural shape rather than an added axiom |
 | wrt_quantum | 280 | 22% | quantum | no | quantum | the WRT / colored-Jones / modular quantum invariants |
 | kappa | 276 | 22% | invariant | first-integral | dynamics | the conserved commutator trace kappa = tr[a,b] = the Suto invariant |
 | lorentzian | 221 | 18% | physics-bridge | no | physics | the Lorentzian / signature / spacetime bridge |
-| choice | 187 | 15% | question | structural | arithmetic | the residual bit(s): the torsor of closings, the basepoint bit, what the object can and cannot select (A7/B766/B1183/B1225) |
+| choice | 188 | 15% | question | structural | arithmetic | the residual bit(s): the torsor of closings, the basepoint bit, what the object can and cannot select (A7/B766/B1183/B1225) |
 | symplectic | 123 | 10% | structure | structural | geometry | the Goldman symplectic / Neumann-Zagier pairing |
 | dickson_tower | 123 | 10% | structure | structural | representation | the Dickson tower rho_n / degree=rank / the det=-1 parity |
 | monoid | 103 | 8% | question | structural | dynamics | End(F2) beyond the units: the four Hopfian-det strata, the non-invertible verbs the programme has never computed |
@@ -58,7 +58,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 ### The honest split — unity vs the hammer
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **276** probes (22%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **4860** mentions — invariants of the object's transforms.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **4862** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **445** probes (36%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it

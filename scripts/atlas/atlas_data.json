@@ -7706,18 +7706,34 @@
   "B1349": {
    "slug": "the mirror sector posed",
    "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "choice",
     "coupling",
+    "metallic",
+    "eisenstein",
     "golden",
+    "z3_generation",
     "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian",
     "firewall"
    ],
    "refs": [
+    "B641",
+    "B666",
+    "B675",
+    "B856",
+    "B996",
+    "B997",
     "P0"
    ],
-   "obstacle": "bridge_construction",
-   "obstacle_conf": 2,
+   "obstacle": "observable",
+   "obstacle_conf": 7,
    "status": "banked",
-   "domain": "physics"
+   "domain": "arithmetic"
   },
   "B134": {
    "slug": "chirality recursion proved",
@@ -7924,6 +7940,30 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 7,
    "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1400": {
+   "slug": "the six sweeps intaken",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "figure_eight",
+    "kappa",
+    "eisenstein"
+   ],
+   "refs": [
+    "B309",
+    "B993",
+    "P10",
+    "P43",
+    "P46",
+    "P48",
+    "P53"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "dead",
    "domain": "dynamics"
   },
   "B140": {
