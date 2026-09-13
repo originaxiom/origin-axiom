@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**STATUS FOLLOW-UP, 2026-09-13:** the physical-bridge branch's complete
+mission checklist and observational compatibility assessment are in
+reports/physical_bridge_2026_09_05/MISSION_ROADMAP_2026_09_13.md and
+OBSERVATIONAL_COMPATIBILITY_2026_09_13.md in that directory. They retain
+the conditional three/zero sector, price its standalone extra-U1 anomaly,
+preserve the restricted coupling mismatch without a global 16-sigma claim,
+and distinguish untested gravity/flavor/cosmology from empirical successes.
+78 unchanged focused tests pass; no new fit, scientific rung closure,
+full green or complete TOE. All heads/tags fetched; source-tube R29
+retrieval is preserved, with its scientific construction still unexecuted.
+
 **LATEST LOCAL AUDIT, 2026-09-13 (R28): static bulk compatibility, source dynamics still owed.**
 R15's prescribed commuting background is stationary with zero BPS
 potential in the adopted twisted bulk action on the source complement.

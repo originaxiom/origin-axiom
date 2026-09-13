@@ -1,0 +1,32 @@
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "<PYTHON_BIN>/python3.12",
+    "-m",
+    "pytest",
+    "tests/test_physical_bridge_gauge_running.py",
+    "tests/test_physical_bridge_mass_match.py",
+    "tests/test_physical_bridge_legacy_audit.py",
+    "tests/test_physical_bridge_anomaly_completion.py",
+    "tests/test_physical_bridge_anomaly_action_control.py",
+    "tests/test_physical_bridge_boundary_wall.py",
+    "tests/test_physical_bridge_source_action.py",
+    "-q",
+    "-p",
+    "no:randomly",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 25.13920400000643,
+  "log_bytes": 180,
+  "log_sha256": "7ce0b007b04350435a2a26b148a7c3511e975969eab8fbbd0e62be1adebb648a",
+  "science_commit": "1bf75c2e3d8812e8b256eef994fd385e2fa0f316",
+  "scope": "Repeat of seven unchanged previously sealed test files. Not a new empirical fit, R29 science run, full-repository test or independent proof review.",
+  "raw_receipt_sha256": "1b2d811165456530e70fba7258162e70baee7e5c842d7acd35d9c1254a041e6b",
+  "public_command_redaction": "Only the interpreter directory prefix is redacted."
+}

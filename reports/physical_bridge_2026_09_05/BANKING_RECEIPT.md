@@ -538,3 +538,44 @@ and the complete latest-row manifest is checked again before commit.
 The owner reiterates that no other seat's load-bearing claim is to
 be assumed: the new intake remains read-only, not certification, and
 its named proof/representation obligations stay open.
+
+## Owner-requested roadmap and reality check (2026-09-13)
+
+This is a status/retrieval checkpoint after R28, not a new scientific
+arc or R29 execution. The complete roadmap gives explicit common-model
+completion tests; the observational assessment separates structural
+compatibilities, the standalone extra-U1 anomaly, the restricted running
+mismatch and untested requirements. Current primary PDG review portions
+were checked directly. No empirical fixture was replaced, no new fit or
+significance computed, and no failed scoped model promoted to a universal
+negative. FINDINGS/README, mission status and the three reader ledgers
+point to these documents. No ladder/law/identification closure is claimed.
+
+The focused recheck is seven unchanged previously sealed test files:
+78 passed in 24.30 s, exit zero. Its public stdout is byte-identical to
+the durable raw capture; the public command redacts only the interpreter
+directory prefix. The tree was read-only during execution. This does not
+certify the full sourced analytic proof or supply a new observational pass.
+The broader R28 population remains 404 pass / 16 fail / 8 error; it was
+not rerun for this documentary follow-up and is not the entire repository.
+
+All origin heads and tags were fetched; the full-history refresh and
+incoming-read boundaries are preserved in the source-tube intake/receipt.
+This is content retrieval, not a corpus-wide absence or independent
+correctness certificate. No B number, reserved allocation, branch merge,
+PR, external relay or new scientific seal. R29's scientific design,
+proof, producer and tests are still to be written and sealed before use.
+
+The authorized checkpoint is on audit/physical-bridge-2026-09-05 only.
+Main banking, independent review and full-green verification remain
+undischarged. Reporting gates, latest-row hashes and final synchronization
+are checked separately below; old failures and their baselines are retained.
+
+The staged reporting run gives **26 PASS / 4 FAIL**, exit one in 13.5135 s.
+All four failed-detail strings are exactly R28's; review is due at 152 merges.
+All 386 then-latest artifact hashes match, and 187 relative Markdown links
+resolve. Scientific files remain unchanged. Public/raw focused output and
+history-summary equality checks pass. The final receipt records the exact
+command, raw digests and limitations: COMPATIBILITY_FINAL_CHECKS_2026_09_13.txt.
+It is added after the run and separately hashed, with final synchronization
+verified at commit/push time. No debt or old failure has been waived.

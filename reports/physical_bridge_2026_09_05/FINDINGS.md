@@ -1,5 +1,15 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
+**Owner-requested status follow-up, September 13:**
+[Observational compatibility](OBSERVATIONAL_COMPATIBILITY_2026_09_13.md)
+and the [complete mission checklist](MISSION_ROADMAP_2026_09_13.md)
+distinguish structural matches, failures of specified models, untested
+physical requirements and withdrawn overclaims. Seven unchanged test
+files rechecked: 78 passed; no new empirical fit or scientific rung closure.
+R28 remains the latest completed scientific round. The
+[source-tube intake](DEFECT_GAUGE_INTAKE_2026_09_13.md) preserves R29
+preparation and incoming claims without treating either as executed science.
+
 **Reflective review, September 10:**
 [The successful pieces must form one physical theory](BIG_PICTURE_REVIEW_2026_09_10.md).
 The conditional chiral result stands. The review pairs its successful

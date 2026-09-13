@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+**Owner-requested roadmap and reality check, September 13:**
+[Complete checklist and completion tests](MISSION_ROADMAP_2026_09_13.md)
+and [observational compatibility](OBSERVATIONAL_COMPATIBILITY_2026_09_13.md).
+Structural compatibilities, the standalone extra-U1 anomaly, the restricted
+running mismatch and untested common-theory requirements are separated.
+Seven unchanged test files rechecked: 78 passed; this is not an empirical
+fit or a full-suite certificate. [R29 preparation](DEFECT_GAUGE_INTAKE_2026_09_13.md)
+and all-head/history receipts are retained; no new R29 science is claimed.
+
 **Latest local result, R28: [fixed-source action and the cost of resolving it](SOURCE_ACTION.md).**
 The prescribed background is stationary with zero static BPS potential
 in the adopted twisted bulk theory on the source complement. Source

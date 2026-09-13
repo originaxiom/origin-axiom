@@ -1,0 +1,62 @@
+Owner-requested observational assessment and roadmap: reporting checkpoint, 2026-09-13.
+Science baseline: 1bf75c2e3d8812e8b256eef994fd385e2fa0f316 (R28).
+This is not R29 execution, an empirical fit, full-repository green or main banking.
+
+All then-current reporting files were staged; the tree stayed read-only during gates.
+Gate exit 1; 26 PASS / 4 FAIL; elapsed 13.513477000000421 seconds.
+All four failed-detail strings are byte-identical to R28, none added or missing.
+The existing attribution, static test-vacuity, literal seal-provenance and aged
+un-escalated relay debts remain. No baseline, clock or old scientific test changed.
+Review due: 152 merges since the last review; independent acceptance remains open.
+Latest-row artifact check before adding this receipt: 386 paths, zero mismatches.
+All previously tracked scientific source/test/design/proof paths are unchanged.
+187 relative Markdown links in the then-changed documents resolve.
+The seven-file focused public stdout equals its durable raw capture byte for byte;
+public run metadata matches, with only the interpreter directory prefix redacted.
+The complete history summary, prior digest and four added hit records match raw JSON.
+The full-history retrieval is not an absence, novelty or correctness certificate.
+Authored staged whitespace passes. No broad/full pytest rerun is claimed.
+
+Metadata checks caught and corrected one wrong round label on the R7 Higgs link.
+An unmatched shell path pattern was corrected using actual paths; no science changed.
+This receipt and its short reader pointers are added after the gate run and hashed
+separately before commit. Final staging, hashes and remote synchronization are checked
+at commit/push time, not inferred from the pre-receipt gate pass.
+
+Raw gate basename: oa_compatibility_2026_09_13_gates_first.log
+Raw gate log bytes: 1818
+Raw gate log SHA-256: 3e27564b9b1c56ff1fbb6b72aa38452fb7c56f1ea9472228c1bcf860cbfed173
+Raw gate receipt SHA-256: f6e8ffeee98d06f95291c5d2534f598ad7fb71531d15bedb24ef093af0c627d1
+Command: env PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 <PYTHON_BIN>/python3.12 scripts/gates/gates.py
+
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 45 open |   relay-debt: 1 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 22 days (> 21), no ESCALATED marker
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 152 merges since last review (DUE — run the decadal review)

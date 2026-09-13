@@ -1,0 +1,208 @@
+{
+  "scope": "Every unique Git blob reachable from listed local/remote heads and tags plus extra tips. Binary contents included. rev-list supplies one example path per object, not every historical name. Untracked filesystem contents are not this scan population. Pattern presence is not mathematical relevance or completeness.",
+  "head_aliases": [
+    {
+      "alias": "head_00",
+      "kind": "heads",
+      "sha": "1bf75c2e3d8812e8b256eef994fd385e2fa0f316"
+    },
+    {
+      "alias": "head_01",
+      "kind": "heads",
+      "sha": "f06d34054899e8c23672b836a7c534af77cbd35d"
+    },
+    {
+      "alias": "head_02",
+      "kind": "remotes",
+      "sha": "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    },
+    {
+      "alias": "head_03",
+      "kind": "remotes",
+      "sha": "1bf75c2e3d8812e8b256eef994fd385e2fa0f316"
+    },
+    {
+      "alias": "head_04",
+      "kind": "remotes",
+      "sha": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    },
+    {
+      "alias": "head_05",
+      "kind": "remotes",
+      "sha": "01ec814ee63df64abbc9b6e7d1f6a01402516512"
+    },
+    {
+      "alias": "head_06",
+      "kind": "remotes",
+      "sha": "1b84b11c7f4186927dd64c811b94afb28a46a5aa"
+    },
+    {
+      "alias": "head_07",
+      "kind": "remotes",
+      "sha": "659487bbd93c7990c4686a8b86985b6b66efedc4"
+    },
+    {
+      "alias": "head_08",
+      "kind": "remotes",
+      "sha": "1703c0d80b6ad4281de61feb882667515500e8e7"
+    },
+    {
+      "alias": "head_09",
+      "kind": "remotes",
+      "sha": "f7a49536bc45bebc1557d3d081b6b3664a7c2199"
+    },
+    {
+      "alias": "head_10",
+      "kind": "remotes",
+      "sha": "b94ed03aecba8aae3afc62504e22ec664c26e94f"
+    },
+    {
+      "alias": "head_11",
+      "kind": "remotes",
+      "sha": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4"
+    },
+    {
+      "alias": "head_12",
+      "kind": "tags",
+      "sha": "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    },
+    {
+      "alias": "head_13",
+      "kind": "tags",
+      "sha": "cd37701aec80ea26eea709f25c23c16f22470a42"
+    },
+    {
+      "alias": "head_14",
+      "kind": "tags",
+      "sha": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    },
+    {
+      "alias": "head_15",
+      "kind": "tags",
+      "sha": "84f5adaabccc7f494f814f6433af060e6ae75d5c"
+    },
+    {
+      "alias": "head_16",
+      "kind": "tags",
+      "sha": "e42c336efb5c2b6877e3368d07ae3c6e301483c8"
+    },
+    {
+      "alias": "head_17",
+      "kind": "tags",
+      "sha": "b94be245b670966a2518153f5827643d330e2451"
+    },
+    {
+      "alias": "head_18",
+      "kind": "tags",
+      "sha": "931b5d81492cd5480e34c6873266f1ea7356ca43"
+    },
+    {
+      "alias": "head_19",
+      "kind": "tags",
+      "sha": "3d4a1c711a4c60919258fcb17b964bb69f2ab68f"
+    },
+    {
+      "alias": "head_20",
+      "kind": "tags",
+      "sha": "6ed3a8488fb1f897604325349bdf2c13086b3dad"
+    },
+    {
+      "alias": "head_21",
+      "kind": "tags",
+      "sha": "1d27db2de2a12c389f6397ba6114f58ca5411514"
+    },
+    {
+      "alias": "head_22",
+      "kind": "tags",
+      "sha": "f7a77e054b5893a189be5ed5115e18a4373142c3"
+    },
+    {
+      "alias": "head_23",
+      "kind": "tags",
+      "sha": "28373f554df917eb73059ff6c389d8ef34d48b84"
+    },
+    {
+      "alias": "head_24",
+      "kind": "tags",
+      "sha": "d08fb1144ba858d9766697dd10cc2989e2f0ac04"
+    },
+    {
+      "alias": "head_25",
+      "kind": "tags",
+      "sha": "c1ffdece46bceb24f0cfb1aa67d32025d33b29c4"
+    },
+    {
+      "alias": "head_26",
+      "kind": "tags",
+      "sha": "8de000515147848e5610fb016ea1dad077cc481b"
+    },
+    {
+      "alias": "head_27",
+      "kind": "tags",
+      "sha": "9862db341ef1647683f38c924084eebe0eeaa6c7"
+    }
+  ],
+  "extra_tips": [
+    "67f939cc8cc11b9018283e994a847268b05ab43b",
+    "4d481751b056030e695a68cb1ace4bfd8e5bdb8d"
+  ],
+  "pattern": "codimension.?two|co.?dimension.?2|capacity|defect.{0,30}(Higgs|gauge|moment)|Higgs.{0,30}(defect|brane|locali[sz])|thin.{0,20}(brane|tube|core)|line.{0,20}trace|non.?closable|closability",
+  "unique_objects_sha256": "3ffc5b801cb7a99bfc94e659945b548d4f073c364f9b20b19a3054fee9c7e200",
+  "counts": {
+    "commit": 4332,
+    "tag": 10,
+    "tree": 21186,
+    "blob": 28141
+  },
+  "blob_bytes": 3038502401,
+  "hit_blob_versions": 3151,
+  "example_path_count": 240,
+  "hit_records_compact_json_sha256": "04276a5dca9d96282565993d97ec8cecfd9ff3b9ff1e7d9ff95bac078362b73b",
+  "raw_receipt_basename": "oa_r29_defect_gauge_history_refresh_2026_09_13.json",
+  "raw_receipt_sha256": "92b82d23234c23d893766c306a9c9995f11476c3acd94904c57f67d015c693d7",
+  "preceding_scan": {
+    "raw_receipt_basename": "oa_r29_defect_gauge_history_first.json",
+    "raw_receipt_sha256": "18e09c954b84588715b34ae5183d236e47555a7481223d6a918df791866cb92d",
+    "counts": {
+      "commit": 4328,
+      "tag": 10,
+      "tree": 21170,
+      "blob": 28125
+    },
+    "blob_bytes": 3033324632,
+    "hit_blob_versions": 3147,
+    "unique_objects_sha256": "972303a0cc7389280f1d4b013369ea6b0c1d6fb5cfe0563ed1735e26cdbcc517"
+  },
+  "new_matched_versions": [
+    {
+      "oid": "4d99ed75fc8d732b8f1cf9c593e68d2bc633e07a",
+      "path_example": "outside_bench/INDEX.md",
+      "matching_lines": [
+        263
+      ]
+    },
+    {
+      "oid": "f069e9d0dfc4dd3632095da9662784267d4dbaac",
+      "path_example": "CHANGELOG.md",
+      "matching_lines": [
+        9095,
+        9097,
+        9099
+      ]
+    },
+    {
+      "oid": "038e836a2d1b53bf81355ca203d1270be4991568",
+      "path_example": "PROGRESS_LOG.md",
+      "matching_lines": [
+        6676
+      ]
+    },
+    {
+      "oid": "d9a71c91fd916a0495b67800b7d4b4a95cc52afa",
+      "path_example": "outside_bench/INDEX.md",
+      "matching_lines": [
+        263
+      ]
+    }
+  ]
+}

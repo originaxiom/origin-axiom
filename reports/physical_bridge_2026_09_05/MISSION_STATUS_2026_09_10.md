@@ -1,5 +1,16 @@
 # Physical-bridge mission status and next questions
 
+**September 13 follow-up:** the owner's full
+[roadmap/checklist](MISSION_ROADMAP_2026_09_13.md) and
+[observational assessment](OBSERVATIONAL_COMPATIBILITY_2026_09_13.md)
+now state the common-theory acceptance tests explicitly. The latest
+fetch advances paper review to 1b84b11c and outside to 01ec814e; the
+[new intake](DEFECT_GAUGE_INTAKE_2026_09_13.md) records reading versus
+verification and refreshed full-history coverage. The seven-file
+old-result recheck passes 78 tests; it is not a new empirical fit.
+R28 is still the latest completed scientific round. R29's localized
+source/gauge calculation is prepared, not sealed or executed.
+
 This is a status checkpoint of the audit branch, not a new scientific
 seal or a certificate for the whole repository. The latest completed
 local scientific round is R28. All ten remote heads and tags were

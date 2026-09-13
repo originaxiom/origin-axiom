@@ -14808,3 +14808,21 @@ failed/error IDs are EXACTLY R27's, zero added and zero missing.
 The tree was read-only during runs; original scientific files and
 raw outputs are retained. No main bank, B allocation, branch merge,
 PR, independent acceptance, all-green claim or completed physical TOE.
+
+## 2026-09-13 — Physical mission roadmap and observational compatibility checkpoint
+
+The owner-requested checklist gives explicit completion tests from one
+source/end model through quantum consistency, a controlled four-dimensional
+limit, SM interactions, predictions, gravity and cosmology. Its companion
+assessment distinguishes genuine structural compatibilities, the standalone
+extra-U1 anomaly, the restricted running mismatch, untested physical duties
+and withdrawn overclaims. Current primary PDG review portions were checked;
+no measurement was fitted or substituted into old scientific fixtures.
+Seven unchanged test files pass 78 tests in 24.30 s. No full-suite green,
+independent acceptance or completed TOE is inferred. R28 remains the latest
+completed scientific round. R29's source-tube proposal is preserved as
+preparation only, with a refreshed 28,141-blob all-head/history receipt and
+explicit incoming read-versus-verified boundaries. No new B number or merge.
+Reports: reports/physical_bridge_2026_09_05/MISSION_ROADMAP_2026_09_13.md,
+OBSERVATIONAL_COMPATIBILITY_2026_09_13.md and DEFECT_GAUGE_INTAKE_2026_09_13.md
+in that directory.
