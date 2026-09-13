@@ -4320,3 +4320,98 @@ EARNED — pressuring the very judgment the gate protects."*
 `THE_SM_VERDICT` carries **four** stale strings (enumerated by the certificate). Bringing them to
 **8 / 12 / 18** is main's call; `the_price_is_twelve.py` is the check that would keep them
 current. **This bench does not edit `docs/`.**
+
+---
+
+## R133 — "go for it, fix it. also check new work from other branches, theres a theoreme about figure 8 being only with cusp that fixes first axiom" (2026-09-13)
+
+### R133-1 — the fix is done
+
+`docs/THE_SM_VERDICT.md`'s price paragraph now states the computed figures — **4 axioms + 14
+unearned rows = 18 ROWS OUTSTANDING**, reducing to **4 + 8 = 12 IRREDUCIBLE INPUTS**, buying **0 of
+19**. The four stale figures are **STRUCK IN PLACE and kept**, never deleted, with the five dated
+raises named in the supersession note and B1261/B1266's **method recorded as unchanged and correct
+— only the counts moved**. On the bench branch as a proposal; main is not touched by this bench.
+
+The certificate's check is upgraded to the **memo 216 pattern** so it can go green *without*
+deleting history: a stale figure **inside** `~~…~~` is provenance and must be kept; the same figure
+**outside** one is a live wrong claim and **fails the run**. It now also asserts the live figures are
+present and are the computed ones, so the doc cannot drift back silently. **Result: 4 struck, 0
+live, both live figures present.**
+
+### R133-2 — the theorem is real, the owner's description of it is right, and it is on MAIN
+
+**Memo 224.** The first axiom is `UNIQUENESS_THEOREM` **A1** — *"Two-record substrate … (Not one;
+not three.)"* The theorem is **fork F9, B1323, banked on `origin/main` 2026-09-09** — four days old,
+**not on a branch**. And **the cusp count is exactly the discriminator**:
+
+| substrate | bundle | **cusps** | field |
+|---|---|---|---|
+| **two records** | **m004** | **ONE** | **ℚ(√−3)** — the atom |
+| three records, surface | **the Whitehead link** | **TWO** | ℚ(i) |
+| three records, toral | **no hyperbolic structure at all** | — | — |
+
+The toral half is a theorem: every `T³`-bundle has `χ = 0`; a finite-volume hyperbolic 4-manifold
+has `χ = 3Vol/4π² > 0`.
+
+### R133-3 — but it PRICES the axiom; it does not discharge it
+
+B1323's own fence, verified verbatim: *"**Not claimed:** that the genesis is unconditional
+(UNIQUENESS §6 stands verbatim: **A1–A7 are not derived from anything weaker**)"*, with F9's reach
+stated as **words of length 3**.
+
+> **A1 remains an axiom. The count stays 4 and the price stays 12.** What F9 bought is that A1's
+> *"not one, not three"* now has **a computed price, and the price is the atom**. That makes the
+> axiom **defensible, not unnecessary** — a different currency, exactly as with structure versus
+> parameters.
+
+### R133-4 — the branch sweep, and the one unmerged thing that WOULD move the count
+
+All remotes fetched and diffed. **`claude/physics-seat-evaluation-8dkbrl`, cell `T5_a6_audit`:**
+the **A6 relabeling audit**, verdict **FEASIBLE** — re-type **orientation** as the observer's
+**closing #0**, on a 1394-file sweep finding the class of pre-object axiom-consumers **EMPTY**.
+Under it *"the axiom count at the entrance drops from three to two-plus-one-closing"* — **4 → 3**,
+and **the price 12 → 11**. **Proposed only; never landed on main.**
+
+Its one recorded missing datum: *"the `GL(2,ℤ)`-level uniqueness statement — that **A1, A2, A4–A6
+WITHOUT A3 force M up to the swap** — is **NOT computed anywhere in the record**."*
+
+### R133-5 — that computation is now run, and A3 IS THE SQUARING
+
+| | det | min `\|trace\|` | selected | dilatation |
+|---|---|---|---|---|
+| **with A3** | +1 | **3** | `A = LR` | `φ²` |
+| **without A3** | **−1** | **1** | `M = L·S = [[1,1],[1,0]]` | **`φ`** |
+
+**One class up to the A7 swap**, and **`M² = LR = A` exactly**; `char(M) = t² − t − 1`.
+
+> **A3's entire matter-level content is that it replaces the golden matrix by its square.** The
+> paper asserts this in words — *"The squaring is not cosmetic: it **is** the orientation axiom"* —
+> and this is the forcing behind that sentence, which the audit correctly recorded as absent.
+> **CELL 4 reproduced the banked SL answer (`A = LR`, trace 3) with the same code first**, per memo
+> 154.
+
+**Not done, and stated:** the relabel is **not adopted** and no axiom count is changed here — that
+is main's call. The certificate **computes matrices, not manifolds**: that `M`'s mapping torus is
+**m000** is **inherited** from B749/F5 and the paper, labelled as such, with no SnapPy claim.
+
+### R133-6 — two things the sweep found that should not be lost
+
+* **`codex/seat-r001` holds a refutation of a STRONGER reading of "only one with a cusp":**
+  **OA-C1103 REFUTED** — over the exactly-certified `ℚ(√−3)` cusped family (corrected size **112**),
+  `H₁ = ℤ` does **not** isolate m004; `o10_150700` is a one-cusped counterexample. **OA-C1134 OPEN**
+  — `o9_41001` and `o9_41009` *numerically* share m004's cusp shape `2√3 i` at `1e-6`, awaiting an
+  **exact peripheral certificate**.
+  > **"Only one with a cusp" is TRUE in F9's sense (two records vs three) and FALSE as an isolation
+  > claim inside the one-cusped `ℚ(√−3)` census.** Reid's uniqueness is narrower still — the unique
+  > arithmetic **knot** complement — and `knot in S³` is itself an input the T5 audit lists among
+  > the **orientation consumers**.
+* **F9's registered successor:** `FRESH_EYES` **Q15 — *is there a carrier that keeps the atom and
+  remembers the bit?*** Two records keep `ℚ(√−3)` and forget handedness; three remember it and lose
+  the atom. **Nothing found so far does both.**
+
+### R133-7 — operational
+
+**C4 fired once and was right to:** the F9 needle used typographic quotes where the arc uses
+straight ones, and the run **failed** rather than passing a quotation this bench had mistyped.
+Recorded rather than quietly repaired.

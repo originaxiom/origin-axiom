@@ -1,0 +1,138 @@
+==============================================================================
+ THE FIRST AXIOM -- what F9 prices, and what A3 actually buys
+==============================================================================
+
+------------------------------------------------------------------------------
+CELL 1 -- is the theorem on MAIN, and does it say what it is cited for?
+------------------------------------------------------------------------------
+    B1323 present at origin/main : True  (16,429 chars)
+
+  [F9 verdict] origin/main B1323 -- FOUND
+      does A1's "not one, not three" carry weight? | **ROBUST twice.**
+
+  [the added sentence] origin/main B1323 -- FOUND
+      one record is nothing; two records are the golden ratio, the atom ℚ(√−3), and an object that forgets its own handedness; three records are the plastic number on the torus, where there is no geometry at all, and the Whitehead link on the surface, where the handedness is remembered and the atom is gone.
+
+  [the two-record control] origin/main B1323 -- FOUND
+      Control first: on S₁,₁ the word a·B returns **m004** (isometric; one cusp;
+
+    the three-record row, as the arc prints it:
+      | U1 (c′) | the owner's mirror test: does a third record make the object remember the A7 bit? | **YES, at the price of the atom.** The minimal three-record bundle, m129 (the Whitehead link complement)
+      | S₁,₂ | 252 (length 2–3 in a, b, c and inverses) | 36 | 2 | a·b·C (24 words) | 3.6638623767 = 4G | 2 | ℤ² | **ℚ(i)** (z² − 2z + 2, z² + 1, 2z² − 2z + 1) | order 8 | **NO / NO** | **m129 = 5²₁ = L5a1,
+
+    two-record carrier S(1,1)  -> m004,  ONE cusp,  field Q(sqrt-3)
+    three-record carrier S(1,2)-> m129 Whitehead link, TWO cusps, field Q(i): True
+
+  >>> CELL 1 OUTCOME A
+
+------------------------------------------------------------------------------
+CELL 2 -- does F9 DISCHARGE A1, or price it?
+------------------------------------------------------------------------------
+
+  [B1323's own fence] origin/main B1323 -- FOUND
+      **Not claimed:** that the genesis is unconditional (UNIQUENESS §6 stands verbatim: A1–A7 are not derived from anything weaker
+
+  [F9's stated reach] origin/main B1323 -- FOUND
+      that F9's ROBUST extends beyond words of length 3 on the two punctured carriers (a longer enumeration or a proof is the next step if anyone wants the general statement)
+
+  >>> CELL 2 OUTCOME A: F9 PRICES A1 and does not discharge it -- the arc
+      disclaims deriving the genesis in as many words.  So A1 remains an axiom,
+      the axiom count stays 4, and memo 223's price stays 12.
+
+------------------------------------------------------------------------------
+CONTROL C1 -- the Anosov test must bite in BOTH directions at det = -1
+------------------------------------------------------------------------------
+
+    For det = +1 hyperbolicity is |trace| > 2.  For det = -1 it is NOT: the
+    eigenvalues are lambda and -1/lambda, so the condition is trace != 0.  A test
+    that inherited |trace| > 2 would call the golden matrix NON-hyperbolic and
+    silently empty CELL 3.  Both answers are exhibited here.
+    M = L*S    = [[1, 1], [1, 0]]  det -1  trace +1  |eigs| [-1/2 + sqrt(5)/2, 1/2 + sqrt(5)/2]  anosov=True
+    S itself   = [[0, 1], [1, 0]]  det -1  trace +0  |eigs| [1, 1]  anosov=False
+    L*R        = [[2, 1], [1, 1]]  det +1  trace +3  |eigs| [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]  anosov=True
+    L          = [[1, 1], [0, 1]]  det +1  trace +2  |eigs| [1, 1]  anosov=False
+
+  C1: PASS -- the test says YES at det -1 (L*S) and NO at det -1 (S), and reproduces det +1 both ways
+
+------------------------------------------------------------------------------
+CONTROL C2 -- the torsion formula reproduces UNIQUENESS_THEOREM's own grid
+------------------------------------------------------------------------------
+
+  [the locked identity] origin/main UNIQUENESS_THEOREM -- FOUND
+      det(B(a,b) − I) = −ab.
+    144-point grid: formula mismatches = 0
+    torsion-free survivors            = [(1, 1)]   (the banked 144 -> 1 collapse)
+  C2: PASS
+
+------------------------------------------------------------------------------
+CELL 4 -- the SAME code must return the banked SL-level answer first
+------------------------------------------------------------------------------
+    det = +1, words to length 4 over {L,R}, A5 applied:
+      det +1  |trace| 3  words ['LR', 'RL']
+
+    A6 (minimal |trace|) selects |trace| = 3, witness LR = [[2, 1], [1, 1]]
+  >>> CELL 4 OUTCOME A: the banked A = LR, trace 3, recovered by this code
+
+------------------------------------------------------------------------------
+CELL 3 -- WITHOUT A3: what do A1, A2, A4-A6 force over GL(2,Z)?
+------------------------------------------------------------------------------
+
+    A2 gives GL(2,Z) (det = +-1); A3 is the restriction to det = +1.  The T5
+    audit states A3's content as "the exclusion of the pure swap S from the
+    primitive monoid".  So dropping A3 means enumerating words over {L, R, S}.
+    A4 keeps the primitive one-channel moves L, R; A5 is torsion-free closure
+    (|det(B - I)| = 1); A6 is minimal hyperbolic complexity.
+
+    words to length 4 over {L,R,S}, mixed, Anosov, A5 applied:
+      det -1  |trace| 1    12 words   e.g. ['LS', 'SL', 'SR', 'RS', 'SSSL', 'SLSS', 'LSSS', 'SRSS']
+      det +1  |trace| 3    14 words   e.g. ['LR', 'RL', 'SSLR', 'RLSS', 'SLRS', 'LSLS', 'RSRS', 'RSSL']
+
+    A6 over ALL of GL(2,Z): the minimum |trace| among Anosov, torsion-free
+      minimum |trace| = 1, attained at det = -1
+      distinct matrices at that minimum: 2
+        [[0, 1], [1, 1]]
+        [[1, 1], [1, 0]]
+      classes up to the A7 swap (conjugation by S): 1
+        [[0, 1], [1, 1]]
+
+    M = L*S = [[1, 1], [1, 0]]  det -1  trace 1
+    M^2     = [[2, 1], [1, 1]]   == A = LR : True
+    char poly of M   : t**2 - t - 1   (roots: the golden ratio and -1/phi)
+    char poly of M^2 : t**2 - 3*t + 1   (roots phi^2, phi^-2 -- the banked A)
+
+  >>> CELL 3 OUTCOME A.  Dropping A3 moves the selected matrix from
+      A = LR (det +1, trace 3, dilatation phi^2) to M = L*S (det -1, trace 1,
+      dilatation phi) -- ONE class up to the A7 swap, and M^2 = A exactly.
+
+      SO A3 IS THE SQUARING.  The orientation axiom's whole matrix-level content
+      is that it replaces the golden matrix by its square; the paper says this in
+      words ("The squaring is not cosmetic: it IS the orientation axiom") and the
+      GL(2,Z)-level forcing the T5 audit called missing is the computation behind
+      that sentence.
+
+------------------------------------------------------------------------------
+CONTROL C3 -- the manifold identification is INHERITED, not recomputed
+------------------------------------------------------------------------------
+
+  [the paper's own sentence] origin/main P3 main.tex -- FOUND
+      The squaring is not cosmetic: it \emph{is} the orientation axiom. The un-squared matrix gives a non-orientable manifold of exactly half the volume
+
+    THIS CERTIFICATE COMPUTES MATRICES, NOT MANIFOLDS.  That M's mapping torus is
+    the Gieseking manifold m000, and that m004 double-covers it at exactly twice
+    the volume, is taken from the record (B749/F5 and the paper sentence above)
+    and is LABELLED INHERITED.  No SnapPy identification is claimed here.
+
+==============================================================================
+ OUTCOMES
+==============================================================================
+   CELL 1 (F9 is on main and says it) : A
+   CELL 2 (F9 prices, not discharges) : A
+   CELL 3 (without A3: M, not A)      : A
+   CELL 4 (SL answer reproduced)      : A
+   C1 Anosov bites both ways : PASS
+   C2 torsion grid reproduced: PASS
+   C3 identification inherited: stated
+   C4 quotations located     : PASS
+
+   THE AXIOM COUNT IS UNCHANGED BY THIS CERTIFICATE: 4 axioms, price 12.
+==============================================================================
