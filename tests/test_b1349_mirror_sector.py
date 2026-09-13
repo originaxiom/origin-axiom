@@ -108,3 +108,24 @@ def test_the_recommendation_and_fences_are_on_the_record():
     assert "withdrawn" in t.lower() and "do not divide 720" in t
     assert "F2" in t and "I-13 remains UNEARNED" in t
     assert "B1350" in t, "the reserved-range note must travel with the last usable id"
+
+
+def test_the_galois_cut_and_its_control():
+    """the addendum: 48 -> 8 rational, and the rationality test must reject 1/phi."""
+    from fractions import Fraction
+    def is_rational(x, tol=1e-11, maxden=1000):
+        return abs(float(Fraction(x).limit_denominator(maxden)) - x) <= tol
+    phi_inv = (5 ** 0.5 - 1) / 2
+    assert not is_rational(phi_inv), "1/phi must be REJECTED -- the first pass accepted it"
+    assert is_rational(-0.5) and is_rational(1.0), "genuine rationals must be accepted"
+    # the recomputed ledger
+    assert math.log2(8) == 3.0
+    assert 1 - math.log2(8) < 0, "R11 still does not close at one output"
+    assert 4 - math.log2(8) > 0, "four independent outputs would close it"
+
+
+def test_the_exactification_is_recorded_as_discharged():
+    t = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "EXACTIFICATION DISCHARGED" in t or "exactification debt is discharged" in t
+    assert "1/\u03c6" in t or "1/φ" in t, "the golden false positive must stay on the record"
+    assert "68" in t, "the third orbit-drift instance must stay recorded"

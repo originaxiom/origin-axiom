@@ -91,3 +91,80 @@ precision, robust here because orbit–stabilizer checks them, but the exact `�
 
 **Numbering note:** this arc takes **B1349**, the last id before the reserved range
 `B1350–B1399` (E71). The next new arc on this branch needs a range grant.
+
+---
+
+# ADDENDUM — THE EXACTIFICATION DISCHARGED, AND GALOIS DOES CUT: 48 → 8
+
+**Numbering note:** this is an **addendum to B1349**, not a new arc. `B1350–B1399` is reserved (E71),
+so the work that discharges B1349's own debt is banked on B1349 rather than taking a reserved id.
+
+## 1. The exactification, owed by B1348 and B1349 — now PAID
+
+The instrument is rebuilt in **exact `ℚ(ζ₆₀) = ℚ[z]/Φ₆₀`** (`b1349c_exact_instrument.py`). Every
+exponent lands in `(1/15)ℤ`, so every entry is a `ℤ`-combination of `ζ₆₀` powers:
+
+> `T = diag(ζ₁₅^−², ζ₁₅², ζ₁₅⁸, ζ₁₅², ζ₁₅⁷, ζ₁₅⁸)`, and
+> `S = (−i / 5√3) · Σ_w sgn(w) ζ₁₅^{−3⟨w(λ+ρ), μ+ρ⟩}` with `i = ζ₆₀¹⁵`, `√3 = ζ₆₀⁵ + ζ₆₀^−⁵`.
+
+**Exact controls, all PASS with no float anywhere:** `S·S† = I`; `S = Sᵀ`; `C = S²` has entries in
+`{0,1}` and **is** the charge conjugation `(a,b) ↦ (b,a)`; and **`(ST)³ = S²`**.
+
+> **B1348's and B1349's registered exactification debt is discharged.** Their verdicts rested on
+> integers over a float instrument; the instrument is now exact and the integers are unchanged.
+
+## 2. THE GALOIS CUT — it works, and it is measurable
+
+A direction with **rational coordinates in the weight basis** is fixed by *every* `σ ∈
+Gal(ℚ(ζ₆₀)/ℚ)` automatically. So "does Galois cut the orbit" becomes **how many distinguished
+directions are rational** — and that number, not the orbit size, is what R7 prices.
+
+| sector | orbit size | **rational (Galois-fixed)** | anchor cost |
+|---|---|---|---|
+| **θ-odd** (B1348) | 12 | **2** — `[1:0]` and `[0:1]`, i.e. `f₁` and `f₂` | `log₂2 = 1` bit |
+| **θ-even** (the crossing target) | 48 (×2 orbits) | **8** of the 96 maximal-stabilizer directions | `log₂8 = 3` bits |
+
+The eight are the **four canonical weight basis vectors** — `e₍₀,₀₎`, `e₍₁,₁₎`, `e₍₀,₁₎+e₍₁,₀₎`,
+`e₍₀,₂₎+e₍₂,₀₎` — plus four more with entries in `{0, 1, −½}`.
+
+**Structure:** the 96 maximal-stabilizer directions are **two orbits of 48**, forced because `A₄` has
+**two** classes of stabilizer-3 points (vertices *and* faces, four each): `2 × (4 × 12) = 96`. The
+`4/4` split of the rationals between them is **indicated, not established** — it rests on the same
+orbit keying that drifted (below).
+
+## 3. R11, RECOMPUTED — still short, but by 3 bits instead of 5.6
+
+| | before | after the Galois cut |
+|---|---|---|
+| anchor cost (even sector) | `log₂48 ≈ 5.58` bits | **`log₂8 = 3` bits** |
+| outputs (the mirror row) | 1 | 1 |
+| `outputs − anchors` | **−4.6** | **−2** |
+
+> **R11 still does not close — but the gap is now 3 bits, and the recommendation changes shape.**
+>
+> **Before:** *"not through this row at all."*
+> **Now:** *"**one more output than three and it closes.**"* If the mirror set's exact value set
+> carries **≥ 4 independent numbers**, the ledger balances and the arc becomes worth its one shot.
+
+**That is a concrete, checkable follow-up** where before there was none: *count the mirror set's
+independent outputs.*
+
+## 4. Two errors caught, both recorded
+
+**(a) The rationality test accepted 1/φ.** With `tol = 1e-8` and denominators to `10⁴`, the Fibonacci
+ratio `4181/6765` approximates `1/φ` to `~1e-8` — so six golden directions were reported as rational.
+**In an instrument whose value set is the golden nine, that is the worst possible false positive.**
+Fixed to `tol = 1e-11`, denominators to `1000` (where `1/φ`'s best approximation `610/987` is off by
+`4.5e-7`), **and a control now asserts the test rejects `1/φ` and accepts `−½`.** The 14 became 8.
+
+**(b) The orbit enumeration drifted for the third time.** It reported sizes `[48, 68]`, and `68 ∤ 720`.
+The `48` and the two-orbit structure are established by orbit–stabilizer and by `A₄`'s two
+stabilizer-3 classes; the enumeration is **not** used for any banked number. Third instance in three
+arcs of the same float-drift failure, caught each time by the same invariant.
+
+## 5. What the recommendation is now
+
+**Still: do not spend the row yet.** But the reason has changed from *structural* to *arithmetic by a
+measurable margin*. The next step is no longer "cut the 48" — that is done, `48 → 8` — it is:
+
+> **Count how many independent numbers the θ-even mirror set actually carries.** Four suffices.
