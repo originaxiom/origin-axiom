@@ -147,3 +147,35 @@ Two successors registered, neither claimed:
 2. **Is the linear coefficient exactly Vol/π?** 0.986 is suggestive and is not a proof. The
    refined asymptotic expansions in the Menal-Ferrer–Porti / Müller line are where this
    would be settled or refuted, and this bench has not read them.
+
+---
+
+## ADDENDUM 1 (2026-09-13) — §7's TWO SUCCESSORS ARE ANSWERED (memo 221)
+
+§7 registered two successors, "neither claimed": the constant `C`, and whether the linear
+coefficient is **exactly** `Vol/π`. The owner supplied Müller (arXiv:1003.5168) and
+Menal-Ferrer–Porti (arXiv:1110.3718), previously `EGRESS_BLOCKED`. Both are answered.
+
+**The linear coefficient — YES, exactly.** Müller's sharp formula (his own §8, with
+`τ_{2m} = Sym^{2m}`, so his m is our m):
+`log T_X(τ_{2m}) = log T_X(τ₄) + Σ log|R_{2k}(k)| − (1/π)·vol(Γ\H³)·(m(m+1) − 6)`.
+**The combination is `m(m+1)`.** §5 here *fitted* `B/(Vol/π) = 0.9861960956`; it is 1.
+
+**With a scope this memo must carry:** Müller's Theorem 1.1 is for a **CLOSED** manifold,
+and Menal-Ferrer–Porti's cusped theorem is the **leading term only**. **4₁ is cusped**, so
+the refinement is **unproved for it** — which makes §5's measurement evidence for an
+extension rather than a check of a theorem.
+
+**The constant — there is none.** Müller identifies it as
+`log T(τ₄) + 6Vol/π + Σ_k log|R_{2k}(k)|`, a bounded decaying Ruelle sum. §5's
+*"THE CONSTANT IS NOT IDENTIFIED, AND NO IDENTIFICATION IS ATTEMPTED"* was **right for a
+better reason than it knew**: there is nothing to identify, and a PSLQ hit on −0.4636 would
+have fitted the partial sum of a convergent series.
+
+**And the drift §4 reported and could not explain is that sum.** Consecutive exponents
+extract its terms: `log|R₁₀(5)| = +0.01046`, `log|R₁₆(8)| = −0.000247` — magnitudes falling
+by **42.361** over three steps against `e^{3ℓ₀} = 26.081`, `e^{3.5ℓ₀} = 44.914` at the
+systole `ℓ₀ = 1.08707`, **and the sign flips**, as an oscillating geodesic sum must and a
+constant cannot.
+
+*Nothing in §§1–6 changes.*

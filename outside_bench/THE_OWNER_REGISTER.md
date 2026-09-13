@@ -3993,3 +3993,77 @@ E₆ level-2 WZW category, whose unitarity is **cited, not proved here**. The di
 about the **category**, hence the F-symbols up to gauge; memo 218 already showed no reported
 number depends on them. **Memo 219 §5 is superseded on this point** (addendum filed there);
 its egress measurement stands unchanged.
+
+---
+
+## R129 — the second two PDFs (2026-09-13): memo 210's two open successors, both answered
+
+**Owner's input:** `1003.5168.pdf` (Müller, *"The asymptotics of the Ray–Singer analytic
+torsion of hyperbolic 3-manifolds"*, v1, 26 Mar 2010) and `1110.3718.pdf`
+(Menal-Ferrer–Porti, *"Higher-dimensional Reidemeister torsion invariants for cusped
+hyperbolic 3-manifolds"*, v2, 16 Apr 2013) — **the exact two papers memo 210 §7 named as
+where its questions "would be settled or refuted", and which memo 219 had just measured as
+unreachable from this box.**
+
+**Answer: memo 221, `MUELLER_ANSWERS_MEMO_210.md`.** Both successors are answered, one of
+them with a scope caveat that is the more interesting half.
+
+### R129-1 — the linear coefficient is `m(m+1)`, exactly
+
+Memo 210 fitted `log|τ_m| = A·m² + B·m + C` on B581's six exact torsions and measured
+`B/(Vol/π) = 0.9861960956`, declining to call it 1.
+
+[Mül]'s **Corollary 1.2** — *"−log τ_X(τ_m) = (vol(X)/4π)·m² + O(m)"* — gives `O(m)` and
+**does not pin the linear term**. His **own sharp formula at the end of §8** does, and with
+`τ_{2m} = Sym^{2m}` **his m is our m**:
+
+> `log T_X(τ_{2m}) = log T_X(τ₄) + Σ_{k=3}^{m} log|R_{2k}(k)| − (1/π)·vol(Γ\H³)·(m(m+1) − 6)`
+
+[MFP] eq. (2) quotes the same formula and adds that the sum is *"uniformly bounded on k."*
+**The combination is `m(m+1)`. The fit said 0.986; the theorem says 1.**
+
+### R129-2 — and the theorem is for a CLOSED manifold, which makes the bench's number the contribution
+
+[Mül] **Theorem 1.1** opens *"Let X be a **closed**, oriented hyperbolic 3-manifold."*
+[MFP], who handle the cusped case, prove the **leading term only**:
+*"lim log|T_{2k+1}(M)|/(2k+1)² = −Vol(M)/4π."*
+
+**4₁ is cusped.** So the `m(m+1)` refinement is **not established for our object by either
+paper** — and six exact integers on a cusped manifold obey it to a spread of **0.0123242**.
+
+> **INTERPRETIVE.** That is evidence for an extension neither paper proves, and a precisely
+> stated target for someone who could. Had the papers been reachable in time, memo 210 would
+> have read like a check of a known theorem; they were not, and it is a measurement instead.
+
+### R129-3 — there is no constant `C`, and the drift memo 210 flagged is a Ruelle sum converging
+
+[Mül]'s formula names the residual: `log T(τ₄) + 6·Vol/π + Σ_k log|R_{2k}(k)|` — bounded
+(his Lemma 8.1, `log|R(k,σ_{2k})| ≤ C₁ ΣΣ e^{−3nℓ(γ)}/n`) and **decaying**.
+
+Consecutive exponents extract its terms directly from the banked numbers:
+`log|R₁₀(5)| = +0.0104577255`, `log|R₁₆(8)| = −0.0002468702556` — magnitudes falling by
+**42.361** over three steps against `e^{3ℓ₀} = 26.081` and `e^{3.5ℓ₀} = 44.914` at the
+systole `ℓ₀ = 1.087070144995739`, **and the sign flips**. Geodesics carry imaginary parts
+(`±1.7228i` at the systole). **A constant cannot change sign; an oscillating geodesic sum
+must.**
+
+### R129-4 — memo 210's refusal was right for a better reason than it knew
+
+Memo 210 wrote *"THE CONSTANT IS NOT IDENTIFIED, AND NO IDENTIFICATION IS ATTEMPTED … four
+figures cannot support an identification,"* citing B583's X2 PSLQ overclaim as the precedent
+it was avoiding.
+
+> **There was nothing to identify.** Any PSLQ hit on `−0.4636` would have fitted the partial
+> sum of a convergent series — the exact failure mode X2 was retracted for. The discipline
+> did not merely avoid a risk; it avoided a guaranteed artifact.
+
+### R129-5 — propagation
+
+Memo 210 is **corrected by ADDENDUM 1, not rewritten**: its cells, numbers and outcomes
+stand unchanged; only §7's "neither claimed" is discharged, and the scope caveat is carried
+inside the memo so §5's fit can never be read as a verified theorem for 4₁.
+
+**Two sessions running, the owner's uploads have settled what this box's egress could not:**
+R128 discharged L72's uniqueness residual against RSW; R129 discharges memo 210's two
+successors against Müller and Menal-Ferrer–Porti. The pattern is stable and worth naming —
+**the bench's arithmetic was never the blocker; the reading channel was.**
