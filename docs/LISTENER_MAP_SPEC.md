@@ -286,3 +286,32 @@ against the gap list (each verdict banked, none re-derived here):
   G7 (the non-χ irreps of 2T), G9 (the physical-apparatus layer — a boundary by design,
   and the fourth sealed crossing B1075 that used this listener MISSED at power, closing
   the coupling channel's value story). OPEN as of B1082.
+
+---
+
+## STATUS UPDATE — 2026-09-13 (B1348): §1.2 and §1.3 ANSWERED
+
+**§1.2 EXISTENCE — POSITIVE.** A non-vacuous field-licensed Λ exists:
+**the directions of `ℂP¹_odd` whose stabilizer in the projective image of ⟨R,L⟩ has maximal order 5
+— the 12-element icosahedral vertex orbit.** Stated in domain data alone; cuts a continuum to 12.
+The instrument was rebuilt from Kac–Peterson (not inherited): `|⟨R,L⟩| = 2880` reproduces B1011 C1
+independently, the θ-grading is `(−1,−1,+1,+1,+1,+1)`, the projective image on the odd plane is
+**`A₅`**, `ℂ²_odd` is **irreducible**, and the exceptional orbits are exactly **[12, 20, 30]**.
+**The canonical weight directions `f₁ = e₍₀,₁₎−e₍₁,₀₎` and `f₂ = e₍₀,₂₎−e₍₂,₀₎` are both vertices**
+(`|Stab| = 5`, cyclic, generator exhibited).
+**AC4′ SATISFIED:** the discriminating quantity is `|Stab|`, witness `f₁ ↦ 5` vs `f₁+f₂ ↦ 1`, and Λ's
+value is pinned by the construction. AC4 stayed demoted and was not used as a gate.
+
+**§1.3 UNIQUENESS — NEGATIVE, structurally.** `A₅` is **transitive** on the 12 vertices (five
+elements carry `f₁` to `f₂`), so **no rule stated in the group alone singles one out** — B1040's
+SELECTION shape, now with a count.
+
+**THE RESIDUAL FREEDOM IS EXACTLY 12**, and the obstruction to cutting further is a theorem
+(transitivity), not an unfinished search.
+
+**G8 half-answered:** no structural no-go at the existence level; one at the uniqueness level.
+**G5 still open** — the off-real-segment behaviour was not the route taken.
+**I-13 still UNEARNED and F2 untouched:** no value comparison was performed, and the crossing remains
+a separate act under `R1–R11` (G9).
+**OWED:** the verdict rests on integers computed in double precision; the spec's exact-`ℚ(ζ₆₀)` bar
+requires an exact re-derivation, registered at B1348 rather than implied.

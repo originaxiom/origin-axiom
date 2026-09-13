@@ -1,0 +1,25 @@
+{
+ "id": "B1348",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "depends_on": [
+  "B238",
+  "B641",
+  "B856",
+  "B1011",
+  "B1040",
+  "B1066"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [
+  {
+   "row": "I-13",
+   "status": "UNEARNED",
+   "note": "This arc answers LISTENER_MAP_SPEC's section 1.2 (existence) and 1.3 (uniqueness) and does NOT pay I-13. The spec asks Lambda to be POSED, not the crossing to be made; F2 is absolute and no value comparison is performed here, so the value-contact surface stays closed. What changes is the PRICE's shape, not its payment: the listener freedom was an unbounded continuum (CP^1_odd) and is now a FINITE SET OF 12 (the icosahedral vertex orbit), with the obstruction to cutting further being the transitivity of A_5 -- a theorem rather than an unfinished search. Earning I-13 still requires u constructed from field data, never fitted, sealed, then compared (W5/W6), which is a separate act under the full CROSSING_REQUIREMENTS R1-R11 (spec G9)."
+  }
+ ],
+ "claim_one_line": "THE LISTENER MAP POSED AND HALF-DECIDED: EXISTENCE YES, UNIQUENESS NO, AND THE FREEDOM IS EXACTLY 12. LISTENER_MAP_SPEC (L166) asks whether a nonempty non-vacuous Lambda exists -- a rule in domain data alone excluding at least one candidate direction -- and records that NEITHER of its two admissible outcomes had been attempted on this instrument. INSTRUMENT REBUILT FROM SCRATCH from Kac-Peterson, not inherited: S unitary and symmetric, (ST)^3 = S^2, C = S^2 is charge conjugation (a,b) -> (b,a), |<R,L>| = 2880 = |2T x 2I| reproducing B1011 C1 INDEPENDENTLY, C central so its eigenspaces are invariant, the theta-grading C^6 = C^2_odd (+) C^4_even with eigenvalues (-1,-1,+1,+1,+1,+1), det on the odd plane equal to omega^(+-1) confirming chi's order 3, the projective image on the odd plane is A_5 of order 60, C^2_odd is IRREDUCIBLE (no common eigenvector), and the exceptional orbits on CP^1_odd are exactly [12, 20, 30], the icosahedral signature. EXISTENCE, POSITIVE: irreducibility kills the 'fixed by the whole group' form, but the spec asks only for exclusion, and LAMBDA = THE DIRECTIONS WHOSE STABILISER HAS MAXIMAL ORDER 5, i.e. THE 12-ELEMENT VERTEX ORBIT, is stated in domain data alone and cuts a CONTINUUM DOWN TO 12. A sharper fact that is not imposed: the odd plane's CANONICAL WEIGHT BASIS f1 = e(0,1)-e(1,0) and f2 = e(0,2)-e(2,0), rational in the weight basis, consists of TWO VERTICES -- both |Stab| = 5, the stabiliser cyclic of order 5 with a generator exhibited. AC4' (the bench repair's replacement gate) IS SATISFIED: the discriminating quantity is |Stab| on CP^1_odd, the two-direction witness is f1 -> 5 against f1+f2 -> 1, a random control gives 1, and Lambda's value is pinned by the construction rather than chosen; AC4 (the five tones) was DEMOTED by the bench repair as non-discriminating and was deliberately not used as a gate. UNIQUENESS, NEGATIVE AND STRUCTURALLY: A_5 acts TRANSITIVELY on the 12 vertices -- five group elements carry f1 to f2, verified -- so no rule stated in the group alone can single one out, and even 'the direction from the fundamental-weight pair' is a choice among group-conjugate alternatives. This is B1040's SELECTION shape with a number on it. THE PAYLOAD: the listener freedom was an unbounded continuum and is now a set of size 12, the obstruction to cutting further being the transitivity of A_5, a theorem rather than a gap in the search. G8 is half-answered -- no structural no-go at the existence level, one at the uniqueness level. FENCES KEPT: F2 absolute, no value comparison performed, the value-contact surface stays closed; I-13 NOT paid, the crossing remaining a separate act under R1-R11 (G9). HONEST SCOPE, AN OWED EXACTIFICATION: the verdict rests on INTEGERS (stabiliser orders 5 and 1, orbit size 12, group order 60, the [12,20,30] signature) which double precision determines reliably and which are cross-checked against B1011's banked 2880 and against controls that must and do come out generic -- but the spec's own bar is exact Q(zeta_60) arithmetic with no float in the verdict line, so THE EXACT RE-DERIVATION IS OWED and is registered rather than implied. WITHDRAWN BEFORE BANKING: an attempt to factor the orbit polynomials over Q to locate Galois-fixed points directly gave degrees [1,2,4,4] and [2,4,8,8,8], but its orbit decomposition was numerically unstable, splitting the 20-orbit and reporting five spurious 60s against the correct [12,20,30]; that result is NOT banked and no conclusion rests on it, so the Galois question at the point level remains open while the group-theoretic count, which does not need it, stands."
+}

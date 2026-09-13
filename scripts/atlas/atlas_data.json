@@ -7681,6 +7681,28 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1348": {
+   "slug": "the listener map posed",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "golden",
+    "wrt_quantum",
+    "lorentzian",
+    "firewall"
+   ],
+   "refs": [
+    "B238",
+    "B641",
+    "B856",
+    "L166",
+    "P0"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B134": {
    "slug": "chirality recursion proved",
    "motifs": [
