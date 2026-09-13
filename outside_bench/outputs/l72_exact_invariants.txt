@@ -1,0 +1,95 @@
+==============================================================================
+L72 -- THE LEVEL-2 INVARIANTS, EXACTLY
+seal sha256 4621857a643e631fbb6d1ceeb2bcee450aa58122db4f50947236cb301082b6a3
+HEAD = de991bcf
+==============================================================================
+
+C2 -- the tail-vanishing claim (the cell's loop runs one step past the standard sum)
+   N=1: the j=N factor  q^N + q^-N - q^N - q^-N  = 0
+   N=3: the j=N factor  q^N + q^-N - q^N - q^-N  = 0
+   N=5: the j=N factor  q^N + q^-N - q^N - q^-N  = 0
+   => every term with k >= N is zero; the cell's sum IS the standard Habiro sum.
+
+C1 -- Habiro's form must give the Jones polynomial of 4_1 at N = 2, EXACTLY in Z[q,1/q]
+   Habiro(N=2) = q**2 - q + 1 - 1/q + q**(-2)
+   Jones(4_1)  = q**2 - q + 1 - 1/q + q**(-2)
+   difference  = 0
+   => EXACT match (the cell checked this numerically at a generic value; exact here).
+
+C3 (MB12) -- the minimal-polynomial routine must be able to answer something but 3
+   zeta_7 itself    -> degree 6  (want 6)   minpoly x**6 + x**5 + x**4 + x**3 + x**2 + x + 1
+   a rational       -> degree 1  (want 1)   minpoly x - 5
+   => the routine discriminates; CELL 1 may be read.
+
+==============================================================================
+CELL 1 -- the exact values
+==============================================================================
+
+  N=1  (spin 0)
+     J_N(zeta_7) = 1
+     minimal polynomial over Q : x - 1
+     degree                    : 1
+
+  N=3  (spin 1)
+     J_N(zeta_7) = -2*z**5 + z**4 + z**3 - 2*z**2 + 3
+     minimal polynomial over Q : x**3 - 10*x**2 + 17*x - 1
+     degree                    : 3
+
+  N=5  (spin 2)
+     J_N(zeta_7) = 2*z**5 + z**4 + z**3 + 2*z**2 + 2
+     minimal polynomial over Q : x**3 - 3*x**2 - 4*x - 1
+     degree                    : 3
+
+  WHICH cubic field?  (the degree-3 minimal polynomials' discriminants)
+     Q(zeta_7)^+ generator x**3 + x**2 - 2*x - 1  disc = 49
+     N=3: minpoly disc = 8281;  disc/disc(Q(z7)^+) = 169, a rational square: True
+     N=5: minpoly disc = 49;  disc/disc(Q(z7)^+) = 1, a rational square: True
+     => both degree-3 invariants generate the SAME cubic field as Q(zeta_7)^+: True
+
+  all three of degree <= 3 (i.e. inside the real cubic subfield): True
+  CELL 1 OUTCOME: A
+
+==============================================================================
+CELL 2 -- against the cell's printed floats
+==============================================================================
+   N=1  exact -> 1.0000000000000  (imag +0.00e+00)   cell printed 1.0   agree: True
+   N=3  exact -> 2.0881460000204  (imag +1.20e-35)   cell printed 2.0881460000204   agree: True
+   N=5  exact -> -0.6920214716301  (imag +1.20e-35)   cell printed -0.6920214716301   agree: True
+
+  CELL 2 OUTCOME: A
+
+==============================================================================
+CELL 3 -- does the uniqueness residual reach any reported number?
+==============================================================================
+  J_fig8's whole body, quoted:
+     def J_fig8(N, q):
+         tot, term = mp.mpf(1), mp.mpf(1)
+         for kk in range(1, N + 1):
+             term = term * (q**N + q**(-N) - q**kk - q**(-kk))
+             tot += term
+         return tot
+
+  F-symbol / associator tokens inside J_fig8: []
+  => the colored invariants are computed from q and N ALONE.
+
+  the cell's stored result keys: ['A_modular_data', 'A_modular_data_validated', 'B_level1', 'C_level2', 'D_object', 'E_principal_index', 'F_CS_basepoint', 'G_deformation', 'H_CS_theta_even', 'I_wall', 'verdict', 'gates', 'headline', 'discriminating_fact', 'residuals_external', 'gate5', 'runtime_sec']
+  D_object (the only reported knot numbers): ['level1_knot_invariant', 'level2_colored_invariants_of_4_1', 'habiro_control_err', 'adjoint_color_note']
+  C_level2 stores COUNTS of F-symbols and VERIFICATION residuals (n_F_symbols_level2 = 2646), not a number that feeds anything downstream.
+  Every other stored quantity -- A_modular_data, C_level2's S/T/N errors, E_principal_index, F_CS_basepoint, G_deformation, H_CS_theta_even, I_wall -- is computed from the Weyl sum, SnapPy, or Fox calculus.
+
+  CELL 3 OUTCOME: A   (no reported number depends on the F-symbols)
+
+==============================================================================
+CELL 4 -- is Q(zeta_7)^+ the object's charge field K?
+==============================================================================
+  K  = Q[x]/(x**3 - 12*x - 5)   disc = 6237 = {3: 4, 7: 1, 11: 1}   squarefree part = 77
+       disc a perfect square? False  =>  Galois group S3 (NON-cyclic)
+  Q(z7)^+ = Q[x]/(x**3 + x**2 - 2*x - 1)   disc = 49
+       disc a perfect square? True  =>  Galois group C3 (cyclic)
+
+  same Galois type: False
+  CELL 4 OUTCOME: A   (not isomorphic, and the Galois type is the obstruction: True)
+
+==============================================================================
+DONE -- outcomes above; interpretation lives in the memo, not here.
+==============================================================================

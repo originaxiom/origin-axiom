@@ -3829,3 +3829,55 @@ printed-verdict shapes, one nested-JSON case. **PASS.**
   it.** Prevention means one process exit path in each cell's harness — **113 cells**, still
   main's call.
 - **It reads verdict strings, not meaning.**
+
+---
+
+## R126 — "go" (2026-09-13): the level-2 invariants are exact, and the residual is inert
+
+Seal `4621857a643e…` committed before the certificate. **CELL 1/2/3/4 = A/A/A/A**, controls
+C1–C3 passing.
+
+### R126-1 — the floats are now exact algebraic numbers
+
+`P2W5-L72` reported the E₆ level-2 colored invariants of 4₁ as floats. In `ℤ[ζ₇]`, exactly:
+
+| N | spin | minimal polynomial | degree |
+|---|---|---|---|
+| 1 | 0 | `x − 1` | 1 |
+| 3 | 1 | **`x³ − 10x² + 17x − 1`** | 3 |
+| 5 | 2 | **`x³ − 3x² − 4x − 1`** | 3 |
+
+Both cubics generate **the same field, `ℚ(ζ₇)⁺`**, identified by discriminant: N = 3 gives
+`8281 = 49·13²`, N = 5 gives **49 exactly**. The invariant carrying the **E₆ adjoint** (the
+cell places the 78 at spin 2, N = 5) is a root of `x³ − 3x² − 4x − 1`, **disc 49 on the
+nose**. Numerically they reproduce the cell's printed digits exactly, with imaginary parts
+at 1.2e−35.
+
+### R126-2 — the uniqueness residual reaches no reported number
+
+`J_fig8`'s whole body is five lines of `q` and `N`; **F-symbol and associator tokens inside
+it: none.** Across the cell's seventeen stored keys, `D_object` holds the only reported knot
+numbers, `C_level2` stores F-symbol **counts** and **verification residuals**, and everything
+else comes from the Weyl sum, SnapPy or Fox calculus.
+
+> **The residual is real about the CATEGORY and inert for every NUMBER.** It qualifies
+> *"these are the F-symbols"*; it does not touch a computed invariant.
+
+### R126-3 — and the field is NOT the object's charge field
+
+| | disc | Galois |
+|---|---|---|
+| **K** = `x³ − 12x − 5` | 6237, squarefree part **77** | **S₃, non-cyclic** |
+| **ℚ(ζ₇)⁺** = `x³ + x² − 2x − 1` | **49** | **C₃, cyclic** |
+
+> **Not isomorphic, by Galois type.** `K`'s non-cyclicity is the same fact memo 204 used to
+> make the object **⁶D₄** and kill B882's triality; it now also separates the object's charge
+> field from the field its quantum invariants live in. **7 divides both discriminants, and
+> that is the whole of the resemblance.**
+
+### R126-4 — L72 has no computable content left here
+
+Phase 1 done (memo 210); phase 2 sound and reproduced (memo 211), artifact regenerated
+(memo 216); the residual narrowed to **a citation that qualifies nothing anyone has used**;
+phase 3 **WALLED/EXTERNAL** by the cell's own computation. What remains is *"does modular
+data determine a rank-3 modular tensor category"* — **literature, unread here, not cited.**
