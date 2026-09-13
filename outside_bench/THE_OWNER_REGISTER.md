@@ -3769,3 +3769,63 @@ written as *partly* stale, because that is what its decider supports). **No math
 revisited.** **The gate memo 212 recommended is not installed** — writing both artifacts in
 one process exit path is a change to the cells' own harness, main's call, not this bench's;
 the check itself already exists and runs in under a second.
+
+---
+
+## R125 — "go" (2026-09-13): the gate is installed
+
+**Asked:** *"go"* — against the one item left standing: the harness gate memo 212 recommended
+and memo 216 deliberately did not install.
+
+**Done on `claude/outside-bench`, as a proposal. Main is not touched by this bench.**
+
+### R125-1 — exhausted first, and the corpus already had the expensive half
+
+`scripts/checks/instrument_freshness.py` **already exists** (B1054, Review 1): it **re-runs**
+every `verify.py` instrument and reports the ones whose committed `results.json` is *"a
+LIE,"* naming the mechanism — *"`results.json` is a CACHE … the lock validates the cache
+against itself and cannot see the drift. **By construction.**"*
+
+**Read, not assumed:** it scans `verify.py` + `results.json` pairs and **never reads
+`output.txt`.** Different population, different signal. The new gate is the **cheap
+complementary half** and covers the side the existing one cannot see: the text.
+
+### R125-2 — what was installed
+
+`scripts/checks/artifact_pair_gate.py` (house style, `main() -> int`, sub-second) and its
+lock `tests/test_artifact_pair_gate.py` (**5 tests, 0.38 s**).
+
+> **The rule:** a pair is a MISMATCH when **both** artifacts carry a verdict and the text's
+> appears among **none** of the JSON's. One-sided cells are a **formatting gap** — reported,
+> not failed.
+
+**Census at HEAD: `ok` — 83 cells carry a verdict on both sides and all agree; 22 carry one
+on a single side.** The population exceeds memo 212's 75 because **the extractor improved**
+(memo 212 matched only `^VERDICT:` and missed the `[ 860.0s] FINAL VERDICT:` form) — stated
+so the change is not later read as drift.
+
+### R125-3 — the part that matters most
+
+A gate on a clean corpus is a gate nobody watches. So it carries a **historical regression**,
+run against the three real contradictions **as they stood at the commit before their
+repair**, read from the git blobs:
+
+| cell | text | json | fires |
+|---|---|---|---|
+| `P2W5-L72` | `RESOLVED-A` | `['UNRESOLVED']` | **True** |
+| `W2-270` | `UNRESOLVED` | `['RESOLVED-B']` | **True** |
+| `W4-017r` | `RESOLVED-A` | `['PENDING_PART_B']` | **True** |
+
+**All three fire, and the pairs are transcribed into the lock** so it cannot go vacuous the
+moment the corpus is clean. Plus `--selftest`: three must-fire, five must-stay-quiet, four
+printed-verdict shapes, one nested-JSON case. **PASS.**
+
+### R125-4 — the fence
+
+- **It re-runs nothing.** A cell whose *numbers* drifted while its verdict string held passes
+  untouched — that is `instrument_freshness`'s job, and it remains the stronger check.
+- **It does not fix the root cause.** `results.json` is still written inside `compute.py` and
+  `output.txt` by a shell redirect. **The gate detects the divergence; it does not prevent
+  it.** Prevention means one process exit path in each cell's harness — **113 cells**, still
+  main's call.
+- **It reads verdict strings, not meaning.**
