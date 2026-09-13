@@ -387,3 +387,70 @@ discrimination, and an independent one: neither B996 nor B997 mentions `15`, `gc
 (checked, not assumed), and their modulus is the SL(2,ℤ/N) shadow's conductor while this one is
 `15 = ord(R) = ord(L)` in the SU(3)₂ modular data. Three separate arcs now cut the metallic family
 by arithmetic in m; whether the cuts are related is **open and not investigated here**.
+
+---
+
+# ADDENDUM 3 — THE 4/4 SPLIT IS ESTABLISHED, AND BRANCH B TIES AT ZERO
+
+*Same branch, same arc id.* Addendum 1 left one item explicitly **open**: *"the 4/4 split of the
+rationals between them is **INDICATED, NOT ESTABLISHED**."* It is now established, exactly, and it
+is not cosmetic — it changes the anchor.
+
+## 1. The split, computed exactly
+
+`verification/b1349f_orbit_split.py`. Every coordinate is an exact element of `ℚ(ζ₆₀)`; projective
+canonicalisation is **exact division in that field** (`sp.invert` mod `Φ₆₀`), so two directions
+compare equal iff they *are* equal. The orbit enumeration drifted **three times** on floats in
+B1348/B1349 (sizes 68, 370, 423 — none dividing 720); here `|orbit| divides 720` is **asserted**,
+not hoped for, and holds for all eight.
+
+| orbit | size | \|Stab\| | the rationals it contains |
+|---|---|---|---|
+| **1** | **48** | **15** | `e₁ = (1,0,0,0)`, `e₂ = (0,1,0,0)`, `(1,0,0,1)`, `(0,1,1,0)` |
+| **2** | **48** | **15** | `e₃ = (0,0,1,0)`, `e₄ = (0,0,0,1)`, `(1,0,0,−1/2)`, `(0,1,−1/2,0)` |
+
+> **The split is `[4, 4]` over exactly two orbits, both of size 48, each with `|Stab| = 15`.**
+
+A control the enumeration had to pass first: `R` and `L` restrict to the θ-even sector *exactly*
+(`M₆·B_even = B_even·M₄`, verified symbolically), so the 4×4 action is the 6×6 one and not an
+approximation of it.
+
+**This also upgrades addendum 1's two-orbit structure from argued to verified.** Addendum 1 inferred
+it (*"forced because `A₄` has two classes of stabiliser-3 points, `2 × (4 × 12) = 96`"*); the two
+orbits of 48 are now enumerated directly. Scope: what is established here is that **the eight
+rationals occupy exactly two orbits of 48, four each**. That the *whole* maximal-stabiliser set is
+96 = 2 × 48 still rests on addendum 1's `A₄` argument, which this does not re-derive.
+
+## 2. What it costs, and the full ledger
+
+If the construction is confined to **one** orbit — which it is, whenever the orbit is *generated*
+from a starting point rather than chosen — the anchor is `log₂4 = **2 bits**`, not `log₂8 = 3`.
+
+| branch | anchors | outputs | `out − anch` | |
+|---|---|---|---|---|
+| **A** `gcd(m,15)>1`, anchor discharged | 0 | 4 forced values | **+4** | closes |
+| A, discharged, conservative | 0 | 1 | **+1** | closes |
+| A, **not** discharged, one orbit | **2** | 4 | **+2** | closes |
+| A, not discharged, any of the 8 | 3 | 4 | **+1** | closes |
+| A, not discharged **and** conservative, one orbit | **2** | 1 | **−1** | fails |
+| A, not discharged and conservative, any of 8 | 3 | 1 | **−2** | fails |
+| **B** `gcd(m,15)=1`, one orbit | **2** | 2 ear-discriminating | **0** | **fails — it TIES** |
+| B, any of the 8 | 3 | 2 | **−1** | fails |
+
+> ### Branch B is short by exactly nothing: at its best reading it reads `2 − 2 = 0`, and R11 requires `> 0`.
+
+That is a sharper negative than addendum 2's `−1`. **One more ear-discriminating direction would
+close it — and there is provably no third:** `dim_ℝ span{Q_m : m` a unit`} = 2` exactly (addendum 2
+§5, unambiguous singular-value gap). Branch B does not fail for want of effort; it fails by one
+dimension that the sector does not contain.
+
+**Branch A is unaffected in substance** — it closes on four of six readings now instead of three of
+four, and the two failures remain the same combination: the conservative output count *together with*
+ruling that ear-independence does not discharge the anchor.
+
+## 3. Unchanged
+
+The verdict stays **NEGATIVE**, I-13 stays **UNEARNED**, F2 untouched, no comparison performed, no
+value read, nothing reaches `CLAIMS.md`, Gate 5 untouched. Addendum 2's closing judgement stands
+verbatim: **what gates the row now is kind-correctness, not arithmetic.** Making branch B's failure
+exact does not make branch A's closure a physical result.

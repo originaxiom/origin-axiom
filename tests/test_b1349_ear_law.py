@@ -239,3 +239,110 @@ def test_results_json_matches():
         assert row["gcd"] == math.gcd(m, 15)
         assert row["ear_independent"] == (math.gcd(m, 15) > 1)
         assert res["odd"][str(m)]["ear_independent"] is True
+
+
+# --- addendum 3: the 4/4 orbit split, and branch B's tie at zero ---
+
+def _proj_eq(u, v, tol=1e-7):
+    """Projective equality, INDEX-FREE and ROUNDING-FREE: [u] == [v] iff |<u,v>| = |u||v|.
+
+    WHY NOT A ROUNDED KEY. The first version of this test canonicalised by dividing by the
+    argmax entry and rounding to 9 decimals, and the orbit came out at 66 -- which does not
+    divide 720, so the orbit-stabiliser assert caught it. That is the FOURTH float drift in
+    this family (B1348 step 4: 68; B1349: 370, 423; here: 66) and it has two causes, both
+    boundary effects: np.round splits values that straddle a rounding boundary, and argmax
+    flips the pivot between entries of nearly equal magnitude. A Cauchy-Schwarz test has
+    neither a pivot nor a boundary. The EXACT settlement is verification/b1349f_orbit_split.py,
+    which divides in Q(zeta_60) and needs no tolerance at all.
+    """
+    u = np.asarray(u, dtype=complex); v = np.asarray(v, dtype=complex)
+    nu, nv = np.linalg.norm(u), np.linalg.norm(v)
+    return abs(abs(np.vdot(u, v)) - nu * nv) < tol * nu * nv
+
+
+def _find(pts, w):
+    for i, p in enumerate(pts):
+        if _proj_eq(p, w):
+            return i
+    return -1
+
+
+def _even_restriction():
+    """R, L restricted to the 4-dim theta-even sector; BEV is a 0/1 selection, so read the blocks."""
+    rows = [1 - 1, 4, 1, 2]           # placeholder, replaced below by index lookup
+    # recover the weight order used by _data()
+    k = 2
+    W = [(a, b) for a in range(k + 1) for b in range(k + 1 - a)]
+    ix = {w: i for i, w in enumerate(W)}
+    rows = [ix[(0, 0)], ix[(1, 1)], ix[(0, 1)], ix[(0, 2)]]
+    R4 = np.array([[(R @ BEV)[r, b] for b in range(4)] for r in rows])
+    L4 = np.array([[(L @ BEV)[r, b] for b in range(4)] for r in rows])
+    # the restriction must be faithful: M6 . BEV == BEV . M4
+    assert np.allclose(R @ BEV, BEV @ R4, atol=1e-9), "R must restrict exactly"
+    assert np.allclose(L @ BEV, BEV @ L4, atol=1e-9), "L must restrict exactly"
+    return R4, L4
+
+
+def _orbit(v0, gens, cap=400):
+    pts = [np.asarray(v0, dtype=complex)]
+    frontier = [pts[0]]
+    while frontier:
+        nxt = []
+        for v in frontier:
+            for M in gens:
+                w = M @ v
+                if _find(pts, w) < 0:
+                    pts.append(w); nxt.append(w)
+                    assert len(pts) <= cap, "orbit exceeded cap"
+        frontier = nxt
+    return pts
+
+
+RATIONAL_DIRECTIONS = {
+    "e1": [1, 0, 0, 0], "e2": [0, 1, 0, 0], "e3": [0, 0, 1, 0], "e4": [0, 0, 0, 1],
+    "(1,0,0,-1/2)": [1, 0, 0, -0.5], "(1,0,0,1)": [1, 0, 0, 1],
+    "(0,1,1,0)": [0, 1, 1, 0], "(0,1,-1/2,0)": [0, 1, -0.5, 0],
+}
+
+
+def test_the_eight_rationals_split_four_and_four():
+    """THE SPLIT: two orbits of 48, four rationals each. Addendum 1 left this OPEN.
+
+    Every orbit size must divide 720 -- the orbit-stabiliser invariant that caught three
+    earlier float drifts (reported 68, 370, 423). Asserted, not hoped for.
+    """
+    gens = _even_restriction()
+    orbits = []
+    for name, v in RATIONAL_DIRECTIONS.items():
+        for members, names in orbits:
+            if _find(members, v) >= 0:
+                names.append(name); break
+        else:
+            O = _orbit(v, gens)
+            assert 720 % len(O) == 0, f"|orbit| = {len(O)} must divide 720 ({name})"
+            assert len(O) == 48, f"{name}: expected the 48-orbit, got {len(O)}"
+            orbits.append((O, [name]))
+    assert len(orbits) == 2, f"expected exactly two orbits, got {len(orbits)}"
+    assert sorted(len(n) for _, n in orbits) == [4, 4], [n for _, n in orbits]
+    assert sum(len(n) for _, n in orbits) == 8
+    # the membership itself, as banked
+    byname = {frozenset(n) for _, n in orbits}
+    assert byname == {frozenset({"e1", "e2", "(1,0,0,1)", "(0,1,1,0)"}),
+                      frozenset({"e3", "e4", "(1,0,0,-1/2)", "(0,1,-1/2,0)"})}, byname
+
+
+def test_branch_B_ties_at_zero_and_no_third_direction_exists():
+    """One orbit => log2(4) = 2 bits, so branch B reads 2 - 2 = 0. R11 needs > 0, so it FAILS.
+
+    And the tie cannot be broken from inside the sector: there is provably no third
+    ear-discriminating direction.
+    """
+    anchor_bits_one_orbit = math.log2(4)
+    assert anchor_bits_one_orbit == 2.0
+    UNITS = [m for m in range(1, 16) if math.gcd(m, 15) == 1]
+    outputs = _rank(UNITS)
+    assert outputs == 2, "the ear-dependent forms span exactly 2 dimensions"
+    assert outputs - anchor_bits_one_orbit == 0.0, "branch B ties at zero"
+    assert not (outputs - anchor_bits_one_orbit > 0), "a tie is NOT a close under R11"
+    # no third direction: adding G does not raise the unit-span past 3, and the units alone stop at 2
+    assert _rank(UNITS, extra=BEV.T @ BEV) == 3, "G is outside the unit span, so 2 is the ceiling"
