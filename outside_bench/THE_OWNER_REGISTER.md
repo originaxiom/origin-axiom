@@ -4566,3 +4566,54 @@ B1345.** The rule was already written on the page I was reading.
 **B1345 on `claude/paper-verification-ufp0zn` carries the imprecise paraphrase.** Its own
 conclusions are unaffected — it never drew an axiom claim from it — but that sentence is the one
 R134 over-read. **That seat's call**; this bench does not edit another branch.
+
+---
+
+## R136 — "how does the chain from minimal description to sm look like? right now" (2026-09-13)
+
+**Answer: memo 227**, read out of the record rather than recalled — the corpus's **own** forcedness
+census run first (memo 154), then the status table parsed from its file.
+
+### R136-1 — the shape
+
+**54 links, 50 of them not axioms.** 34 theorems · 8 no-gos · 6 identities · **4 axioms** · 1 census
+· 1 corollary. **The axioms are C3, C4, C5, C18 — three before the object, one after the algebra —
+and `C6…C17` has not one declared choice.** That twelve-link stretch is exactly where the knot
+becomes the algebra.
+
+`C1–C5` entrance · **`C6` the object m004** · `C7–C17` the axiom-free stretch · `C18` the observer's
+closings · `C19–C23` the torsor (*the group without the point*) · **`C24–C25` the measurements:
+2T-charges stratify e₆, and a second measurement lands on `su(3)⊕su(2)⊕u(1)³` EXACTLY, skipping
+SU(5)** · `C26–C46` matter, anomalies, the sealed crossing, the fork · `C47–C54` the chirality
+campaign.
+
+### R136-2 — the reading, in one sentence that is the document's own
+
+> **"The chain does not thin out and stop — it completes as structure and hits a firewall."**
+
+**6 derived · 2 derived-but-generic · 2 classical · 3 proved-unobtainable · 3 absent.** Structure is
+✅ or 📖 nearly all the way down; **every ❌ and 🔒 sits at *features*** — three generations,
+Yukawas, dynamics (absent); hypercharge normalisation, every measured value, scale (unobtainable **in
+principle**). **There is no ragged edge to point at, which is why it is hard to look at.**
+
+### R136-3 — where a hostile reader should push, and it is not the ❌ rows
+
+**The two ◐ rows.** Row 3, `ℚ(√−3) → 2T → E₆`: *"~1 manifold in 3 also arrives; **arriving does not
+confirm the earlier steps**."* Row 8, arena → content 252 → 2: exact, and **arena-generic, with
+*zero object tokens* in the computation.**
+
+> **The chain's two junctions where the object is supposed to be doing the work are the two where a
+> generic object would do the same.** The ❌ rows are honestly labelled absences; the ◐ rows are
+> claims whose object-specificity is measured and weak. **That is the softer target.**
+
+### R136-4 — the cost, live
+
+**4 axioms + 8 irreducible sources = 12**, over **18 rows outstanding**, buying **0 of the SM's 19**.
+
+### R136-5 — a currency finding
+
+**`docs/THE_CHAIN_STATUS.md` — the status of record, the 15-row table — is NOT on `origin/main`.**
+It lives only on `claude/paper-verification-ufp0zn`. Its own header reads *"each consolidation was
+**added, never adopted** … **This one is adopted: it lives on main**."* **It does not.** The
+consolidation written to end that pattern is itself unadopted. **Contents not in question** — this
+memo uses them — **reported as currency, not as a defect.** Landing it is main's call.
