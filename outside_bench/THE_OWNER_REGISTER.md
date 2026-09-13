@@ -4752,3 +4752,81 @@ the seal-holder's call**, under the seal's own addendum-beside rule.
 > conditions.** Nothing is retracted: C-GEN stands and was re-run, B1095's mechanism stands, and
 > the seal discipline did what it was built to do. **Memo 197 added a second genericity axis the
 > first control did not cover** — and found the prediction is common rather than rare.
+
+---
+
+## R139 — "is anything real on it?" (2026-09-13): your instinct was right three times, and one of them is about me
+
+**Certificate:** `certificates/is_anything_real_on_it.py` · **Output:** `outputs/is_anything_real_on_it.txt`
+Addendum 1's central claim is **verified here from the sealed convention, not relayed.**
+
+### R139-1 — BENCH ERROR #33: I had the decisive fact and buried it, then contradicted it
+
+R138 led with memo 197's **19.77 %** and mentioned memo 196 **ADDENDUM 1** only as a supporting
+clause — then closed with *"a fail would still bite, because K1/K2/K3 are real kill conditions."*
+
+> **That sentence is wrong.** Addendum 1 shows the sealed clauses are **identities of the model**,
+> so **given the model they cannot fail.** The kill conditions are real as written, but what they
+> would kill is **the fabrication assumption**, not the object.
+
+**The class is #30 and #32 for the third time in one day** — leading from a summary line (here,
+memo 197's headline and the INDEX row) instead of from the source's own strongest finding. The
+difference is that this time **I had read it and mis-weighted it**, which is worse than not having
+read it.
+
+### R139-2 — the homework WAS done, and I did not cite it
+
+**Memo 196 (2026-09-10) discharged R6′** — the question *"how long a chain does this need?"* — which
+I presented as an open gap. Its answer, reproduced here:
+
+| N | index | word closes | `H_L == J·H_R·J` | isospectrality |
+|---|---|---|---|---|
+| 13 | odd | False | False | 1.93e−01 |
+| **21** | **even** | **True** | **True** | **1.78e−15** |
+| 34 | odd | False | False | 1.51e−01 |
+| 144 | even | True | True | 3.55e−15 |
+| 987 | even | True | True | 5.77e−15 |
+
+**The forced half is testable at 21 sites — inside the anchor's 13–28 waveguides.**
+
+### R139-3 — and the addendum is the real finding: all three clauses are word identities
+
+**Verified elementwise here, not cited:** at every even-index window `H_L` is **literally the same
+matrix** as `H_R` under the reversal permutation `J` — *equal elementwise, not merely similar*. The
+`1e−15` "isospectrality" is **floating-point error from diagonalising one matrix twice.**
+
+And **clause 2, the 5/6 split, is forced too** — computed here at N = 144, 377, 987:
+
+> right chain **near-end 5, far-end 6**; measured **left count 6**; **far-end == left: True** at
+> every window. **The "complementary split between two hands" is the (near-end, far-end) count of
+> ONE chain.**
+
+> **All three sealed clauses are functions of the word, and the word is fixed by `(ρ, N)` — both
+> pinned in the seal. None is contingent on a measurement.**
+
+### R139-4 — so what a run would actually test
+
+**(1) does the fabricated array realise the intended word** — fabrication QC; **(2) is the photonic
+platform reciprocal** — known physics. **Both worth doing. Neither is a test of the programme.**
+
+### R139-5 — and C4 forbids it reaching the SM anyway
+
+`C4`'s own price note, written long before any of this: *"non-geometric carriers (**tiling hull**;
+Effros–Shen algebra, `K₀ = ℤ[φ]`) **see only the hearing** — `ℚ(√−3)` is bought at geometrization
+and nowhere earlier."* **A photonic Fibonacci array IS the tiling hull**, and every link reaching
+the SM runs through `ℚ(√−3)`. **The lab lane tests C1–C2 and stops there.**
+
+### R139-6 — what IS real
+
+* **The mathematics** — exact, and it is **combinatorics of Sturmian words** (the even-index closure)
+  plus **linear algebra** (reversal conjugacy). Real, checkable on paper, and not about the object.
+* **The apparatus pricing** — N = 21 for the forced half, N ≈ 144–377 for the count. Real and useful
+  **as calibration**: a fabricator can verify an array realises the intended cut phase on 13–34
+  waveguides before committing to a larger run.
+* **What is NOT real: the lane as a falsifier of the programme.** Memo 196 addendum 1 says so, in
+  the record's own MB12/E2 language, and this certificate confirms it.
+
+> **Tier-INTERFACE is weaker than `WHAT_WOULD_COUNT` §4A.2 presents it — and the honest consequence
+> is a re-ranking, not a retraction:** if the lab lane tests a model identity, then **K3 (the
+> crossings sort) and the three §4A.3 doors carry the weight.** Memo 196 addendum 1 already said
+> this; it should be on the tier, and it is not.
