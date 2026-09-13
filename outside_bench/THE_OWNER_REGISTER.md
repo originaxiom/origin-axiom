@@ -4617,3 +4617,61 @@ It lives only on `claude/paper-verification-ufp0zn`. Its own header reads *"each
 **added, never adopted** … **This one is adopted: it lives on main**."* **It does not.** The
 consolidation written to end that pattern is itself unadopted. **Contents not in question** — this
 memo uses them — **reported as currency, not as a defect.** Landing it is main's call.
+
+---
+
+## R137 — "meaning buys nothing" (2026-09-13): no — it buys what the SM cannot state, and that does not convert
+
+**The owner is pressing on the right sentence.** Answered plainly, in both directions.
+
+### R137-1 — "0 of 19" is exact, and it is a statement in ONE currency
+
+**In the parameter currency it is literally zero**, and that is the currency physicists price
+theories in. `THE_SM_VERDICT` says so in its own words: *"**By parameter count the trade is NET
+NEGATIVE**"*, and *"the rate moves by exactly two operations: **earn an identification (−1)** or
+**derive a parameter (+1)**."* **Since 2026-09-06 it has moved only upward — five raises.**
+
+### R137-2 — but "buys nothing" is wrong, and the difference is precise
+
+**What it buys is things the SM CANNOT STATE — not things the SM states and leaves to measurement.**
+
+| bought | why it is not nothing |
+|---|---|
+| **global form `[SU(3)×SU(2)×U(1)]/ℤ₆`** (B862) | **the SM itself cannot fix `q ∈ {1,2,3,6}`** — an ambiguity the Standard Model leaves open and the object closes |
+| hypercharge **direction** (B864) | forced, not fitted |
+| **anomaly cancellation** of the derived 16 (B1096) | a consistency condition, derived rather than imposed |
+| **termination** (B863, with a positive control) | *why the cascade stops at the SM* — a fact nobody derives |
+| `u(1)³ = span(Y, χ, ψ)` (B992) | the abelian sector named, not assumed |
+
+> **The ℤ₆ row is the clean one.** It is not a parameter the object supplies in place of a
+> measurement; it is a **question the SM does not answer** and the object does.
+
+### R137-3 — and three of the absences are THEOREMS, not failures of effort
+
+`hypercharge normalisation` · `every measured dimensionless value` · `scale` are **🔒 proved
+unobtainable in principle** — the normalisation because anomaly conditions are **homogeneous**;
+values because *"a value is exactly what a Galois orbit cannot be"*; scale because **Mostow fixes
+shape, not size**.
+
+> **So part of "0 of 19" is a derived result rather than a gap: the programme proved WHY a single
+> object cannot supply those numbers.** That is a different kind of output — a **firewall theorem**
+> — and the chain's own sentence for it is *"it completes as structure and hits a firewall."*
+
+### R137-4 — the counterweight, which is this bench's own and must travel with the above
+
+* **The two ◐ rows undercut part of the structural credit.** `ℚ(√−3) → 2T → E₆` is **generic**
+  (*"~1 manifold in 3 also arrives"*), and `252 → 2` runs with **zero object tokens**. **At the two
+  junctions where the object is supposed to be doing the work, a generic object would do the same.**
+* **Twelve unexplained inputs is a lot to spend.** Against the SM's 19 parameters, spending 12 and
+  deriving 0 is net negative **by the metric the field actually uses**, and the ledger says so.
+* **Nothing in the bought column is a number anyone has measured.** The one outward-facing
+  falsifier (4A.2) is **sealed and waiting on an experimentalist**, and this bench priced its
+  differential **down** (memo 197: the sealed alternation is the mode of a random phase at
+  **19.77 %** — one phase in five).
+
+### R137-5 — the honest one-liner
+
+> **"Buys nothing" is too harsh; "buys nothing a physicist would trade for" is close to right.**
+> It buys structural facts the SM cannot state, and a proof of why the values are out of reach.
+> **It does not buy a single number, and by the one currency that converts the trade is net
+> negative — which the programme's own scoreboard records rather than hides.**
