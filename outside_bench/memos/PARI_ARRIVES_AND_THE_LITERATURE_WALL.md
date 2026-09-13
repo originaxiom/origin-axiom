@@ -97,3 +97,22 @@ supply `b`.
 > 48×48 commutant over ℚ, "twice killed by resource limits" under sympy.** PARI's linear
 > algebra over ℚ is a different instrument from sympy's, and that computation is the next
 > thing to attempt. **Named, not attempted here.**
+
+---
+
+## ADDENDUM 1 (2026-09-13, same day) — §5's "still not discharged" is SUPERSEDED
+
+§5 concluded that L72's residual *"is still not discharged"*, because the two settling
+documents were unreachable from this box. **The owner then supplied both as PDFs.**
+
+**Read, quoted and verified in memo 220, the residual closes.** RSW §5.4, verbatim:
+*"For the (A₁, 5)_½ fusion rule, all unitary MTCs are the one listed in last subsection and
+those from the two symmetries S → −S and complex conjugate."* Our centraliser's fusion rules
+and quantum dimensions match RSW §5.3.6 and Theorem 3.2(3) exactly, and it is the complex
+conjugate of their listed representative.
+
+**What stands unchanged:** §3's measurement of the egress block — `arxiv.org`,
+`people.tamu.edu` and `escholarship.org` all `EGRESS_BLOCKED`, WebSearch the only channel —
+and §4's insistence that search summaries are not a read. **That insistence is exactly why
+the upload mattered**: memo 220 shows the summary-level principle (*"modular data determines
+the category"*) would have discharged the residual **wrongly**.

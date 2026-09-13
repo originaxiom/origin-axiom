@@ -3942,3 +3942,54 @@ decides splitting **from `(a, b)`**; it cannot supply `b`.
 > **The live computable item is the one memo 204 called intractable: the explicit 48×48
 > commutant over ℚ, "twice killed by resource limits" under sympy.** PARI's rational linear
 > algebra is a different instrument. **Named, not attempted here.**
+
+---
+
+## R128 — the two PDFs (2026-09-13): L72's residual is discharged, and the obvious route was wrong
+
+**Given:** the owner supplied `RSW.pdf` and `0712.1377.pdf` — Rowell–Stong–Wang,
+*"On classification of modular tensor categories"*, arXiv:0712.1377v4 — the paper memo 219
+had just recorded as **unreachable** (`arxiv.org`, `people.tamu.edu`, `escholarship.org` all
+`EGRESS_BLOCKED`). *(`poppler-utils` installed from the same signed archive to read them.)*
+
+### R128-1 — four checks, all passing
+
+| check | RSW, read verbatim | this bench |
+|---|---|---|
+| **fusion rules** | §5.3.6: *"α² = 1 + β, αβ = α + β, β² = 1 + α + β"* | **identical**, from Verlinde on the rebuilt stage |
+| **quantum dims** | Thm 3.2(3): d₁ root of `x³−2x²−x+1`, largest **2.246979604**; §5.3.6: `{1, d, d²−1}`, `d = 2cos(π/7) = 1.801937736` | **1, 1.801937736, 2.246979604** — every digit |
+| **orbit member** | representative twists `h = 0, 1/7, 5/7` | ours `h = 0, 2/7, 6/7`; **complex conjugation maps ours onto theirs** |
+| **the classification** | §5.4: *"For the (A₁,5)_½ fusion rule, **all** unitary MTCs are the one listed in last subsection and those from the two symmetries S → −S and complex conjugate."* | the fusion rule is ours; S and T pin which member |
+
+**CHECK 3 is exactly consistent with memo 211's CELL 3**, which matched `k′=1` at 1.1e−15
+and rejected `k′=6` — the conjugate — on S at 8.4e−2 and T at 8.7e−1.
+
+> **The residual is DISCHARGED.** *"Constructed + verified, not classified"* is now
+> **classified**, against a complete list.
+
+### R128-2 — and the tempting citation would have been FALSE
+
+The natural move was *"modular data determines the category."* **RSW state that as a
+conjecture, §2, in their own words:** *"Very likely the modular symbol of an MTC determines
+the MTC, and we do not know when a modular symbol becomes a modular data."* **And it is
+false in general** — Mignard–Schauenburg, smallest known counterexample **rank 49**.
+
+> Had this bench leaned on the natural-sounding principle, the discharge would have rested on
+> a statement its own authors called *"very likely"* and that was later disproved. What
+> closes it is the **explicit realization classification** for this one fusion rule —
+> unconditional. **That difference is the whole value of reading the paper rather than a
+> summary of it**, and it retroactively justifies memo 219's refusal to close on summaries.
+
+### R128-3 — a free confirmation of the stage
+
+RSW **Table 3** lists **`(E₆, k), k = 1, 2` at ranks 3 and 9** — exactly the two stages this
+bench rebuilt from the Cartan matrix in memos 206 and 211, and exactly the ranks those memos
+computed. Neither was consulted for the other.
+
+### R128-4 — scope and propagation
+
+RSW classify **unitary** MTCs; our centraliser's dims are all positive and it sits in the
+E₆ level-2 WZW category, whose unitarity is **cited, not proved here**. The discharge is
+about the **category**, hence the F-symbols up to gauge; memo 218 already showed no reported
+number depends on them. **Memo 219 §5 is superseded on this point** (addendum filed there);
+its egress measurement stands unchanged.
