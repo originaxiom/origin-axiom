@@ -19,6 +19,7 @@ assume), §6 (what to do next).
 * **Numbering:** B1326–B1349 taken, B1350–B1399 **RESERVED for the SM seat** (do not assign),
   B1400–B1402 spent. **Your next id is B1403.** Recorded in `docs/SM_SEAT_ALIAS_TABLE.md`, per E71's
   rule that ranges are granted in the table and not by relay.
+* **READ `LINEAGE_DECISION_2026-09-13.md` BEFORE YOU BANK.** `main` and the historical line **never shared a root** — `main` was re-founded from a 9400-file snapshot on 2026-09-06 (twice, in fact: the historical line carries **three** root commits), and the lane kept merging `main` in **one-directionally**, by its own commit messages. **`main` can be FAST-FORWARDED onto the historical line** — verified: its tip is already an ancestor — so no rewrite and no force-push, nothing lost (84 482 insertions against 255 deletions, all of them edits), and it **already fixes tests that are red here**. The recommendation is fast-forward, **not** harvest. One due-diligence step is not yet done: the tip is verified *reachable*, not verified *healthy*.
 * **Gates:** 31 of 32 pass. The one failure is the long-declared `doc-currency` debt, which is
   designed to be visible.
 * **Suite:** **7 failures** (was 11), none of them this bench's — each checked, not assumed. Four were closed by **adopting** an unlanded fix rather than re-deriving it; see L210 and §7.
