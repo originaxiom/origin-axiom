@@ -4189,9 +4189,16 @@ reach: **L72's uniqueness residual** (memo 220), **memo 210's two successors** (
 
 All of the above is **Tier-STRUCTURE (`WHAT_WOULD_COUNT` §4A.1)**. It produces **no number**.
 
-> **The price ledger is UNCHANGED: 11 irreducible inputs, 0 of the SM's 19 free parameters.
+> ~~**The price ledger is UNCHANGED: 11 irreducible inputs, 0 of the SM's 19 free parameters.
 > Net negative** (B1261/B1266). The rate moves by exactly two operations — earn an
-> identification, or derive a parameter. **This session did neither.**
+> identification, or derive a parameter. **This session did neither.**~~
+>
+> **[NUMBER SUPERSEDED IN PLACE 2026-09-13 — R132 / memo 223, certificate
+> `the_price_is_twelve.py`. The struck text is kept for provenance, not deleted.]**
+> **The live price is 12 irreducible inputs (4 axioms + 8 sources) over 18 rows outstanding**,
+> not 11 over 14 — the ledger was raised five times between 2026-09-06 and 2026-09-09 and
+> `THE_SM_VERDICT`, which this bench quoted, is stale. **The conclusion is unchanged and
+> slightly stronger: 0 of the SM's 19 bought, and this session moved neither operation.**
 
 §4A.1's one open item is *"chirality without an inserted closing"*, and memo 222 does not
 reach it.
@@ -4237,3 +4244,79 @@ could not reach.
 > are different currencies and they do not convert — which is the same sentence
 > `THE_SM_VERDICT` already uses about structure versus parameters, now true of a session's work
 > as well as of the programme's.
+
+---
+
+## R132 — "what arw the 11 irreducible inputs, elaborate" (2026-09-13)
+
+**Answer: memo 223, `THE_PRICE_IS_TWELVE.md`.** The elaboration is there; this row carries the
+correction and the shape.
+
+### R132-1 — the number in the question is stale, and this bench supplied it
+
+**I told the owner 11 twice** — in the status answer and in **R131**, quoting
+`docs/THE_SM_VERDICT.md`'s *"4 + 7 = 11"*. **Recomputed from the live ledger by rerunning
+B1266's own union-find:**
+
+| | `THE_SM_VERDICT` | **live** |
+|---|---|---|
+| rows outstanding | 4 + 10 = **14** | 4 + 14 = **18** |
+| irreducible inputs | 4 + 7 = **11** | **4 + 8 = 12** |
+| bought, of 19 | 0 | **0** |
+
+Five dated raises moved it — **I-26** (B1259), **I-27** (B1296), **I-28** (B1298), **I-30**
+(B1321), **I-29** (B1306 C) — all between 2026-09-06 and 2026-09-09. The ledger table and
+`IDENTIFICATION_BASELINE.json` are **independent surfaces and agree**, so the 14 is not a
+parsing artifact. **R131's number is superseded in place.**
+
+> **The class of the error is worth more than the error.** I answered a ledger question from a
+> **synthesis document** rather than from the **ledger** — which is memo 208's rule (read the
+> thing the summary points at) and memo 215's BENCH ERROR #28 (*"I read the tier document and
+> did not read the seal ledger it points at"*) **repeated at the one place the programme keeps
+> its score**. `THE_SM_VERDICT`'s own header warns it predates later results; I quoted past the
+> warning. **BENCH ERROR #30.**
+
+### R132-2 — the four axioms
+
+**C3** being is inexhaustible description · **C4** the geometric carrier (the once-punctured
+torus — *"ℚ(√−3) is bought at geometrization and nowhere earlier"*) · **C5** orientation
+(*"the most expensive"*; the discarded sibling is the **Gieseking manifold**, m004's own
+orientation double-cover parent) · **C18** the observer's closings. **Three before the knot, one
+after the algebra — and C6 → C17, knot to algebra, is AXIOM-FREE.**
+
+### R132-3 — the eight sources, and the shape they make
+
+| # | source | rows |
+|---|---|---|
+| ① | **the listener map `u`** — structural analogue ≡ physical quantity | I-13, I-18, I-23, I-29 |
+| ② | **the fork** E₆(−14)/E₆(−26) — internal A₁ vs 4d Lorentz spin | I-10, I-11 |
+| ③ | **the closer's frame** — the chiral locus, lift and cusp | I-27, I-28, I-30 |
+| ④ | `π₁(m004) ↠ 2T` ≡ the transverse ALE `Γ` | I-6 |
+| ⑤ | the object's ℤ/3 ≡ the boundary CFT module group | I-7 |
+| ⑥ | B305's grading ℤ/3 ≡ the commensurator's Eisenstein unit | I-14 |
+| ⑦ | which sl₂ the object supplies (principal vs subregular) | I-25 |
+| ⑧ | `h¹` ≡ the number of 4d chiral generations | I-26 |
+
+> **THREE OF THE EIGHT ARE ONE WALL IN THREE LANGUAGES** — ⑦ which sl₂ *types* `h¹`, ⑧ whether
+> `h¹` is a generation count *at all*, ③ whose frame supplies the chiral *locus*. That is
+> `WHAT_WOULD_COUNT` §4A.1's one open item, seen from three sides.
+>
+> **AND ONE SOURCE CARRIES FOUR ROWS** — the listener map. Nothing in the corpus that reads a
+> structure as a physical quantity is free of it; it is *"the price of the main goal in the
+> register's own currency."*
+
+### R132-4 — the count rose, and that is the ratchet working
+
+Four of the five raises are **pre-existing debts newly NAMED, not newly created**.
+`IDENTIFICATION_BASELINE.json` says why in its own note: *"UNEARNED is the correct resting state
+for honest open work"*, and a hard block *"would make the fastest path to green MARKING THINGS
+EARNED — pressuring the very judgment the gate protects."*
+
+> **INTERPRETIVE.** The number went up because **the accounting got more honest, not because the
+> theory got worse.** The trade is unchanged in the only direction that matters: **0 of 19.**
+
+### R132-5 — recommendation, not an action
+
+`THE_SM_VERDICT` carries **four** stale strings (enumerated by the certificate). Bringing them to
+**8 / 12 / 18** is main's call; `the_price_is_twelve.py` is the check that would keep them
+current. **This bench does not edit `docs/`.**
