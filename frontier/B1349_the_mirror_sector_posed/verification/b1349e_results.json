@@ -1,0 +1,156 @@
+{
+ "even": {
+  "1": {
+   "ear_independent": false,
+   "gcd": 1,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "2": {
+   "ear_independent": false,
+   "gcd": 1,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "3": {
+   "ear_independent": true,
+   "gcd": 3,
+   "lam": 0.5,
+   "trace_is_zero": false
+  },
+  "4": {
+   "ear_independent": false,
+   "gcd": 1,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "5": {
+   "ear_independent": true,
+   "gcd": 5,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "6": {
+   "ear_independent": true,
+   "gcd": 3,
+   "lam": -0.30901699437494745,
+   "trace_is_zero": false
+  },
+  "7": {
+   "ear_independent": false,
+   "gcd": 1,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "8": {
+   "ear_independent": false,
+   "gcd": 1,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "9": {
+   "ear_independent": true,
+   "gcd": 3,
+   "lam": -0.30901699437494745,
+   "trace_is_zero": false
+  },
+  "10": {
+   "ear_independent": true,
+   "gcd": 5,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "11": {
+   "ear_independent": false,
+   "gcd": 1,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "12": {
+   "ear_independent": true,
+   "gcd": 3,
+   "lam": 0.5,
+   "trace_is_zero": false
+  },
+  "13": {
+   "ear_independent": false,
+   "gcd": 1,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "14": {
+   "ear_independent": false,
+   "gcd": 1,
+   "lam": 0.0,
+   "trace_is_zero": true
+  },
+  "15": {
+   "ear_independent": true,
+   "gcd": 15,
+   "lam": 1.0,
+   "trace_is_zero": false
+  }
+ },
+ "odd": {
+  "1": {
+   "ear_independent": true,
+   "lam": 0.30901699437494745
+  },
+  "2": {
+   "ear_independent": true,
+   "lam": -0.5
+  },
+  "3": {
+   "ear_independent": true,
+   "lam": -0.5
+  },
+  "4": {
+   "ear_independent": true,
+   "lam": 0.30901699437494745
+  },
+  "5": {
+   "ear_independent": true,
+   "lam": -1.0
+  },
+  "6": {
+   "ear_independent": true,
+   "lam": 0.30901699437494745
+  },
+  "7": {
+   "ear_independent": true,
+   "lam": -0.5
+  },
+  "8": {
+   "ear_independent": true,
+   "lam": -0.5
+  },
+  "9": {
+   "ear_independent": true,
+   "lam": 0.30901699437494745
+  },
+  "10": {
+   "ear_independent": true,
+   "lam": -1.0
+  },
+  "11": {
+   "ear_independent": true,
+   "lam": 0.30901699437494745
+  },
+  "12": {
+   "ear_independent": true,
+   "lam": -0.5
+  },
+  "13": {
+   "ear_independent": true,
+   "lam": -0.5
+  },
+  "14": {
+   "ear_independent": true,
+   "lam": 0.30901699437494745
+  },
+  "15": {
+   "ear_independent": true,
+   "lam": -1.0
+  }
+ }
+}

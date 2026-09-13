@@ -12,7 +12,7 @@ scripts were run, and the load-bearing claims were then re-derived independently
 `verify/master/verify_all.py` (22 checks) + `verify/master/stageC.py` (12 checks): **34/34 PASS on
 this bench**, nothing read from cache. Controls included — `C-NULL` checks that must fail do fail,
 `C-ALIVE` checks that must pass do pass. One portability defect: both scripts write to a hardcoded
-`/home/claude/...` path *after* all checks (same class as this repo's own `test_no_hardcoded_paths`).
+absolute home-directory path (the other seat's runtime root, not this one's) *after* all checks (same class as this repo's own `test_no_hardcoded_paths`).
 
 ## 2. F1 — CONFIRMED, and it corrects a banked arc
 
