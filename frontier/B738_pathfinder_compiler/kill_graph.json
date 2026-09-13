@@ -10939,5 +10939,96 @@
   "note": "A closure of a door, not a defeat: the object's flat sector is exhausted for chirality by computation, which is what the plan asked. Read as a specification: the bit is not in the flat E6 sector of the cusped object at any sl2 germ.",
   "priority": "high",
   "revival_score": 2
+ },
+ {
+  "id": "B1330",
+  "claim_killed": "That the BEST CASE for the chirality index -- a manifold that is simultaneously chiral (so amphichirality cannot force the cancellation) and one-cusped and carries order-3 cusp-trivial characters -- produces a nonzero index. B1324 had concluded m004's chiral one-cusped covers carry almost no cusp-trivial twists; that was true of the TOWER, and the FAMILY had never been searched, so the best case was untested rather than absent.",
+  "kill_form": "Constructed, not argued. Intersecting the 112-member Q(sqrt-3) family (all tetrahedron shapes over Q(sqrt-3)) with chirality and with the existence of order-3 cusp-trivial characters leaves EIGHT members, of which FOUR are one-cusped: s958, v2873, t12833, t12835. The best case therefore EXISTS and IS NAMED -- and every one of the four returns index ZERO. A negative that names its own strongest counterexample and then evaluates it.",
+  "hatch": "Widen exactly one of the three intersecting conditions and re-evaluate: a member outside the 112-member Q(sqrt-3) family (the family was chosen for arithmetic tractability, not by a theorem); a cusp-trivial character of order other than 3; or a MULTI-cusped member, where B1333's per-torus index can vanish by cancellation between cusps rather than pointwise and so has room the one-cusped case does not.",
+  "priority": "LOW",
+  "routed_from": "B833 backlog sweep 2026-09-13 (this bench's own negatives)",
+  "note": "fact_computed deliberately UNSET: B836's precedent is that a value there is a claim nobody checked, and this routing was done from the arc verdicts, not by re-running each arc's discriminating computation. faces_consulted assigned by nearest banked relative (nearest relative: the chirality-index arcs on the object's own covers), so the assignment is auditable rather than asserted.",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": null
+ },
+ {
+  "id": "B1335",
+  "claim_killed": "That the chirality falsifier FIRES -- i.e. that a sector with nonzero index I on a chiral one-cusped manifold reaches the physical target rather than being excluded by the protection conditions.",
+  "kill_form": "The falsifier does not fire, and the arc's positive half is what makes that meaningful: scanning one-cusped census manifolds with honest SL2(F_p) representations twisted by cusp-trivial characters DOES turn up, on the chiral one-cusped m010 (H_1 = Z/6 + Z), sectors with Sym^3 (x) chi where a_0 = a_0* = 0, t_0 = t_0* = 1, r_1 in {0,2} and I = +-1 -- checked exhaustively with independently written self-contained code, relators evaluating to +I so odd Sym^3 is valid and this is NOT the -I trap. So THE VANISHING IS NOT FORMAL (it is not forced by the setup) and the falsifier still does not fire.",
+  "hatch": "Exhibit a nonzero-index sector that also survives every protection condition simultaneously -- the arc separates 'a nonzero index exists' from 'a nonzero index reaches the target', and only the second is killed. The m010 sectors are the concrete starting point, since they already clear the formality objection.",
+  "priority": "MEDIUM",
+  "routed_from": "B833 backlog sweep 2026-09-13 (this bench's own negatives)",
+  "note": "fact_computed deliberately UNSET, per B836's precedent. faces_consulted assigned by nearest banked relative (nearest relative: the chirality-index arcs on the object's own covers), so the assignment is auditable rather than asserted.",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": null
+ },
+ {
+  "id": "B1336",
+  "claim_killed": "That the surviving gauge group -- the centralizer of rho(pi_1), I-26's untouched half -- is nonabelian, or has positive dimension beyond an abelian factor. The corpus invited this by recording B854's abelian u(1)^4 without drawing the distinction that makes it inapplicable.",
+  "kill_form": "ABELIAN OR NOTHING, by Borel density. The object's geometric holonomy is discrete and faithful, hence a lattice in PSL2(C), hence ZARISKI-DENSE -- so its centralizer is contained in the centre of the ambient group. B854's u(1)^4 is the centralizer of 2T, the FINITE McKay image, which is a different object from the geometric holonomy; conflating them is what left the half looking open.",
+  "hatch": "A representation that is NOT Zariski-dense -- i.e. not the geometric holonomy: a finite-image or reducible rho, where the centralizer genuinely can be large (B854's u(1)^4 is exactly such a case, correctly computed for its own object). Any revival must first say which representation it centralises, because the two answers differ and both are right about their own input.",
+  "priority": "LOW",
+  "routed_from": "B833 backlog sweep 2026-09-13 (this bench's own negatives)",
+  "note": "fact_computed deliberately UNSET, per B836's precedent. faces_consulted assigned by nearest banked relative (matches B854 exactly -- the arc B1336 distinguishes itself from), so the assignment is auditable rather than asserted.",
+  "faces_consulted": [
+   "being",
+   "mtc-overlay"
+  ],
+  "fact_computed": null
+ },
+ {
+  "id": "B1338",
+  "claim_killed": "That the anti-rediscovery instrument covers the corpus -- i.e. that a proposal it does not flag is actually new. Asked for a brave next step, this bench proposed a no-go consolidation and the instrument did not object.",
+  "kill_form": "The instrument is itself blind, demonstrated by its own miss: the proposed consolidation had been written THIRTEEN DAYS EARLIER as cloud memo 152 THE_CHAIN_GAP, in answer to the owner asking the same question -- and memo 152 records that it was itself the FOURTH such document, because the answer was spread across three taxonomies none of which walked the chain in order. The instrument's two DECLARED blind regions are stale, so the declaration that bounded its blindness no longer bounds it.",
+  "hatch": "Re-declare the blind regions against the current corpus and re-run the instrument on the same proposal; the kill is of the instrument's CURRENT coverage, not of the method. A revival needs the redeclaration first, otherwise it reproduces the same miss with fresh confidence.",
+  "priority": "MEDIUM",
+  "routed_from": "B833 backlog sweep 2026-09-13 (this bench's own negatives)",
+  "note": "fact_computed deliberately UNSET, per B836's precedent. faces_consulted assigned by nearest banked relative (no face consulted: the arc is about the anti-rediscovery INSTRUMENT, not the object), so the assignment is auditable rather than asserted.",
+  "faces_consulted": [],
+  "fact_computed": null
+ },
+ {
+  "id": "B1340",
+  "claim_killed": "That 'anomaly-free on the 19,624 vacua' is evidence, and that either falsifier this bench proposed for it can fail: (a) E6 anomalies over a full 27, (b) Standard-Model anomalies over N chiral generations.",
+  "kill_form": "All three vacuous, two by theorem and one by identity. (a) E6 is anomaly-safe (T-ANOMALY-REALIZED), so a full 27 cannot fail. (b) The SM conditions are LINEAR in the generation count and one generation already cancels, so N generations cannot fail. (c) The load-bearing one: on the record's VECTOR-LIKE vacuum, 3x27 + 3x27bar, ALL SIX anomaly coefficients vanish IDENTICALLY AS POLYNOMIALS in all six parameters -- every SM-commuting direction is anomaly-free there, so the check CANNOT FAIL and CARRIES ZERO BITS. B1303's table was rebuilt independently from the E6 branching, reproducing -20250 as a positive control.",
+  "hatch": "The one coefficient that CAN fail: the CUBIC of a family-non-universal direction over a CHIRAL spectrum, carrying sum f_i^3. It is not merely open but already productive -- B1340 Q4 proves the family part is then FORCED to (0, t, -t) up to permutation, one generation exactly neutral and the other two exactly opposite, on both readings of three chiral generations. That is where the anomaly conditions do work rather than pass trivially, and it is the live route.",
+  "priority": "HIGH",
+  "routed_from": "B833 backlog sweep 2026-09-13 (this bench's own negatives)",
+  "note": "fact_computed deliberately UNSET, per B836's precedent. Consequence for the record: FALSIFIER_REGISTER's P9 now carries the vector-like condition, and imposing chirality kills P9's Z' outright, since the record's family part (-10, 5, 5) has sum f = 0 but f1 f2 f3 = -250 != 0 and so is not of the forced shape. faces_consulted assigned by nearest banked relative (the anomaly computation is on the object's own closings), so the assignment is auditable rather than asserted.",
+  "faces_consulted": [
+   "being"
+  ],
+  "fact_computed": null
+ },
+ {
+  "id": "B1347",
+  "claim_killed": "That the multiplier is the arrow -- that a point's stratum in B497's four-strata classification of End(F_2) determines a DIRECTION of flow (collapse versus escape). Asserted on this bench, and refuted on this bench.",
+  "kill_form": "A basin, not a direction. Strata 2, 2' and 3 each produce BOTH outcomes -- 34/66, 19/81, 18/82 collapse-to-escape -- so the stratum fixes no arrow. The measurement also required a correction that a control caught: a first classifier returned ESCAPE whenever the POINT overflowed, which misreads stratum 1, whose points escape while kappa is exactly conserved; tracking the MULTIPLIER PRODUCT instead makes stratum 1 read FLAT at 100%.",
+  "hatch": "Characterise the BASIN BOUNDARY rather than the stratum: the split is reproducible and lopsided (roughly 1:2, 1:4, 1:4.5), so something separates the two outcomes within a stratum. A stratum-dependent invariant of that boundary would be a real result; the stratum label alone provably is not.",
+  "priority": "MEDIUM",
+  "routed_from": "B833 backlog sweep 2026-09-13 (this bench's own negatives)",
+  "note": "fact_computed deliberately UNSET, per B836's precedent. faces_consulted assigned by nearest banked relative (matches B497, whose four strata of End(F_2) this arc works inside), so the assignment is auditable rather than asserted.",
+  "faces_consulted": [
+   "hearing"
+  ],
+  "fact_computed": null
+ },
+ {
+  "id": "B1349",
+  "claim_killed": "That the theta-even MIRROR SET -- KIND_TABLE's last licensed coupling row, delivered by B1011 C6 and never drawn on -- can pay R11's ledger and is worth its single shot.",
+  "kill_form": "Priced on both branches and dead on the object's own word. The residual freedom is 48, Galois-cut to 8 rational directions (3 bits) and then to 4 per orbit (2 bits, the split established exactly as [4,4] over two orbits of 48). Re h is ear-independent EXACTLY when gcd(m,15) > 1, complete over the period since ord(R) = ord(L) = 15. BRANCH B (the 8 units of Z/15) reads 2 outputs - 2 bits = 0 and fails by a TIE with provably no third direction (dim_R span = 2 exactly), AND is excluded on KIND: every reading carries 1/sqrt2, generating Q(sqrt2,sqrt5), while the row's declared field is Q(sqrt5) and sqrt2 is not in Q(zeta_60) -- so those values cannot be members of C6's banked set, as field arithmetic and not as approximation. BRANCH A carries 4 forced values {-1/(2phi), 0, 1/2, 1}, all elements of C6's set, but the GOLDEN WORD m=1 -- B997's unique McKay-shadow grammar, the object's own -- is a unit and therefore on branch B, so branch A requires departing from the object's grammar at log2(7) = 2.81 bits, and with that anchor priced it closes on ONE reading of four.",
+  "hatch": "Two routes, both named in the arc. (1) A NEW licensed row under R5, derived and not fitted, since F1 forbids fitting and the four coupling rows are now exhausted. (2) Settle the question this arc explicitly could not: whether the mirror row is the RIGHT OBSERVABLE. Branch A is kind-ELIGIBLE (right field, right bounds, an actual member of the banked set) but that is not kind-correct, and B856 lost exactly this question on the adjacent sector -- its |h|^2 refuted on kind, its surviving Re h = 1/(2phi) sitting in a 1-sigma window with at least 17 natural candidates. Branch A's cheapest output has that same modulus.",
+  "priority": "HIGH",
+  "routed_from": "B833 backlog sweep 2026-09-13 (this bench's own negatives)",
+  "note": "fact_computed deliberately UNSET, per B836's precedent. The arc is NEGATIVE as a recommendation, not as a refutation of the row's existence: the row remains unspent and licensed, and the one-shot rule still applies whenever it is drawn on. faces_consulted assigned by nearest banked relative (the hearing instrument, built on SU(3)_2 modular data), so the assignment is auditable rather than asserted.",
+  "faces_consulted": [
+   "hearing",
+   "mtc-overlay"
+  ],
+  "fact_computed": null
  }
 ]

@@ -23,7 +23,7 @@ result, not the debt.
 | words of findings prose | **896,329** |
 | test lock files referenced | **712** |
 | arcs carrying an authored verdict | **1228** (100.0 %) |
-| recorded closures | **789** (622 classified, 167 routed-only) |
+| recorded closures | **796** (629 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -52,11 +52,11 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 59 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 66 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
-**522 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**529 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.

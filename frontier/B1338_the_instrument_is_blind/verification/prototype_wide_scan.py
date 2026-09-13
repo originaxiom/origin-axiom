@@ -18,7 +18,7 @@ must STILL come back clean -- an instrument that fires on everything discriminat
 """
 import json, pathlib, re, subprocess, sys
 ROOT = pathlib.Path(__file__).resolve().parents[0]
-ROOT = pathlib.Path('/home/user/origin-axiom')
+ROOT = pathlib.Path(__file__).resolve().parents[3]   # repo root, portable
 SETTLED = {"PROVED","NEGATIVE","RESOLVED","RESOLVED-A","THEOREM","RETRACTED"}
 
 def _terms(argv):

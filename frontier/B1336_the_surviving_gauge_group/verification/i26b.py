@@ -9,7 +9,7 @@ here; if the upper end is ABELIAN then every Z(H) in the family is abelian, and 
 algebra -- NON-abelian, dim 12 -- cannot be any of them, whatever the holonomy.
 """
 import sys, io, contextlib
-sys.path.insert(0,'/home/user/origin-axiom/frontier/B854_centralizer_exact')
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / 'B854_centralizer_exact'))
 from fractions import Fraction as F
 buf=io.StringIO()
 with contextlib.redirect_stdout(buf):
