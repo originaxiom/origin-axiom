@@ -87,7 +87,7 @@ comparison DRAWS on it. Booking, coupling channel (arc-cited):
 | tones (the five-tone set) | **CONSUMED** | B1066 R-B (the φ-geometric triple; MISS, decisive) |
 | probability (\|h\|²) | **CONSUMED** | B1066 R-A (the listener pair; MISS, decisive) |
 | phases (arg h ∈ {0, ±2π/3}) | **CONSUMED** | B1027 + B1063 (the pre-committed refresh; MISS both sectors) |
-| **mirror set (θ-even)** | **UNCONSUMED — the last licensed row** | never drawn on by any sealed comparison (B1011 C6 delivered the set; no arc took it to data) | *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
+| **mirror set (θ-even)** | **UNCONSUMED — the last licensed row. B1349 (2026-09-13) RECOMMENDS NOT SPENDING IT:** the sector is now posed — projective image `A₄ × A₅` (720), `ℂ⁴_even` irreducible, maximal `|Stab| = 15 = 3×5` on a **rank-1 product state**, so the **residual freedom is 48**. R11's arithmetic fails on either branch — one output against a 48-fold selection (`log₂48 ≈ 5.58` bits), or against a 48-element target set — so the cell is **vacuous by MB12 before the seal**. Re-evaluate only if the mirror set is shown to carry more than one independent output, or if the 48 is cut (the Galois question at the point level is open).** | never drawn on by any sealed comparison (B1011 C6 delivered the set; no arc took it to data) | *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 
 Reading note: B1066's "the kind table's current rows were both consumed here" counts the
 TWO rows its own relations drew from (tones, probability) — the plain reading, since the

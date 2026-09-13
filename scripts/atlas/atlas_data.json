@@ -7703,6 +7703,21 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1349": {
+   "slug": "the mirror sector posed",
+   "motifs": [
+    "coupling",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "P0"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B134": {
    "slug": "chirality recursion proved",
    "motifs": [

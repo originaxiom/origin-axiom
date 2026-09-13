@@ -1,0 +1,23 @@
+{
+ "id": "B1349",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "depends_on": [
+  "B1011",
+  "B1040",
+  "B1066",
+  "B1348"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "identifications": [
+  {
+   "row": "I-13",
+   "status": "UNEARNED",
+   "note": "This arc COUNTS the freedom in the crossing's only remaining target and performs no comparison; F2 is untouched and nothing is read. Its consequence for the row is a RECOMMENDATION NOT TO SPEND IT: R11's arithmetic (outputs - consumed anchors > 0, else vacuous by MB12) fails on either branch, because the mirror set is ONE row while the residual freedom is a 48-fold discrete selection (log2 48 ~ 5.58 bits) or, if the whole orbit is used, a 48-element target set. I-13's price is therefore now KNOWN and UNAFFORDABLE at present outputs, which is a sharper statement than 'unearned' -- the crossing is not blocked by missing effort but by an arithmetic that does not close."
+  }
+ ],
+ "claim_one_line": "THE MIRROR SECTOR POSED: THE RESIDUAL FREEDOM IS 48, AND R11'S ARITHMETIC SAYS DO NOT SPEND THE LAST ROW. Of KIND_TABLE's four coupling rows, tones, probability and phases are all CONSUMED with decisive MISSes and the MIRROR SET (theta-even) is the last licensed row, delivered by B1011 C6 and never drawn on by any sealed comparison; the one-shot rule consumes CONTACT ROWS, so it is spent whatever the outcome. B1348 posed the theta-ODD plane, which is NOT the crossing target; this poses the right one. CONTROLS: the canonical rational basis from the weights (e(0,0), e(1,1), e(0,1)+e(1,0), e(0,2)+e(2,0)) satisfies C v = +v; <R,L> restricts exactly; the PROJECTIVE IMAGE IS 720 = 12 x 60 = A_4 x A_5, as forced since (-1,-1) and (-1,1) act as scalars on V_2 (x) V_2; C^4_even is IRREDUCIBLE; and a random direction has |Stab| = 1 with orbit 720. THE STABILISER SPECTRUM, every orbit size dividing 720 as orbit-stabiliser requires: |Stab| = 15, 10, 9, 6, 5, 3, 2 giving orbits 48, 72, 80, 120, 144, 240, 360. MAXIMAL |Stab| = 15, SO THE SMALLEST DISTINGUISHED ORBIT HAS 48 ELEMENTS -- four times the odd plane's 12. The structure is confirmed rather than assumed: 15 = 3 x 5 = (tetrahedral vertex stabiliser) x (icosahedral vertex stabiliser), and the maximal-stabiliser direction is RANK 1, singular values [1,0], a PRODUCT STATE v (x) w. METHOD CORRECTION recorded not hidden: a first pass orbit-decomposed by rounding projective coordinates and produced sizes that DO NOT DIVIDE 720 (68, 370, 423...), impossible by orbit-stabiliser; that enumeration is WITHDRAWN and the table is derived from stabiliser orders alone with |orbit| = 720/|Stab| -- the same float-drift failure as B1348's withdrawn step 4, caught by an invariant the answer must satisfy. R11'S ARITHMETIC, THE POINT OF THE ARC: on branch A (the row needs one direction) the anchor cost is a 48-FOLD DISCRETE SELECTION, log2 48 ~ 5.58 bits; on branch B (the row uses the whole orbit) there is no selection but the prediction becomes a 48-ELEMENT SET, a 48-fold look-elsewhere on the comparison side; and the mirror row is ONE row, so ON EITHER BRANCH OUTPUTS MINUS ANCHORS IS NEGATIVE AND R11 DECLARES THE CELL VACUOUS BEFORE THE SEAL. RECOMMENDATION, STATED AS A RESULT: DO NOT SPEND THE LAST ROW -- not now, and on this arithmetic not through this row at all, unless the mirror set's value set is shown to carry MORE THAN ONE independent output, in which case the outputs are recounted and R11 re-evaluated. Three of four rows are spent with decisive misses and the fourth is unrepeatable, so a gating computation that says NO is worth more than a fourth miss and costs less. WHAT WOULD CHANGE IT: count the mirror set's independent outputs (k > 5.6 bits closes the ledger); cut the 48 (the Galois question at the point level is OPEN, B1348's withdrawal having left it so); or add a new licensed row under R5 in advance, derived not fitted since F1 forbids fitting. FENCES: F2 untouched, no comparison performed, no value read, I-13 still UNEARNED, R4/R5/R10 left as banked. The exactification debt B1348 registered applies to both arcs. NUMBERING: this takes B1349, the last id before the reserved range B1350-B1399 (E71); the next new arc on this branch needs a range grant."
+}
