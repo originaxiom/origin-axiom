@@ -3881,3 +3881,64 @@ Phase 1 done (memo 210); phase 2 sound and reproduced (memo 211), artifact regen
 (memo 216); the residual narrowed to **a citation that qualifies nothing anyone has used**;
 phase 3 **WALLED/EXTERNAL** by the cell's own computation. What remains is *"does modular
 data determine a rank-3 modular tensor category"* — **literature, unread here, not cited.**
+
+---
+
+## R127 — "lets read the literature, also install pari safe in your box" (2026-09-13)
+
+### R127-1 — PARI is in, installed safely, and validated before use
+
+**GP/PARI 2.15.4** (amd64, GMP-6.3.0) plus galdata/elldata/seadata, from the **signed Ubuntu
+`noble/universe` archive** via `apt-get`. **No third-party source, no build from source, no
+TLS verification disabled, no proxy bypass.** Two unrelated PPAs are refused by the gateway
+and were left refused. 28 G free after.
+
+**Validated against `B1093`, which proved its facts BY HAND — its own words, *"no PARI;
+sympy + hand-rolled algorithms."*** Asked for the same five:
+
+> **7 of 7 agree** — disc **6237**; index **1** (`ℤ[θ] = O_K`); signature **`[3,0]`**
+> (totally real); **h = 1**, class group `[]`; both fundamental units **`x²+2x−4`** and
+> **`3x²+6x+2`**, exactly B1093's; narrow class number **1**.
+
+*The first attempt hung on `bnfinit(…, 1)` — the certification flag's cost, not the
+install's; without it everything returns in under a second.*
+
+### R127-2 — the literature channel is narrower than "unread", and now measured
+
+Memos 211, 214 and 218 each ended *"literature, unread here."* **Imprecise.** The full texts
+are **unreachable from this box**:
+
+| attempt | result |
+|---|---|
+| `arxiv.org/abs/0712.1377` | **EGRESS_BLOCKED** at the gateway |
+| `people.tamu.edu/~rowell/RSW.pdf` (the author's own copy) | **EGRESS_BLOCKED** |
+| `escholarship.org/…` | **EGRESS_BLOCKED** |
+| **WebSearch** | **works** |
+
+> **"Read the literature" is not available here — only search summaries are.** The policy is
+> not something to work around and no attempt was made to. The honest replacement for
+> *"unread here"* is **"unreachable from here, by a named network policy."**
+
+### R127-3 — what search established, labelled SEARCH-DERIVED, NOT READ
+
+- **Rowell–Stong–Wang (arXiv:0712.1377):** UMTCs of **rank ≤ 4** are classified — **35** up to
+  ribbon tensor equivalence, from **10** non-trivial prime UMTCs.
+- **Mignard–Schauenburg (arXiv:1708.02796):** modular data does **not** determine a modular
+  category — **smallest known counterexample family is rank 49**, `G = ℤ₁₁⋊ℤ₅`.
+
+Both point the same way for memo 211's rank-3 centraliser. **The residual is still not
+discharged** — this bench does not close one on search summaries, which is the standard that
+made memos 206, 211 and 218 worth anything. **What improves is the handoff:** the blocker is
+now a *named, reproducible network policy*, and the two documents that would settle it are
+identified by arXiv number.
+
+### R127-4 — and PARI does NOT unblock what it was wanted for
+
+Memo 204 addendum 4 handed off *"is `E` split over `K`?"* as *"a question a seat with
+`pari`/`sage` could answer directly."* **Half true.** The quaternion algebra is pinned only
+as *"contains `K(√77)` as a maximal subfield"* — `(77, b)_K` with **`b` unknown**. PARI
+decides splitting **from `(a, b)`**; it cannot supply `b`.
+
+> **The live computable item is the one memo 204 called intractable: the explicit 48×48
+> commutant over ℚ, "twice killed by resource limits" under sympy.** PARI's rational linear
+> algebra is a different instrument. **Named, not attempted here.**
