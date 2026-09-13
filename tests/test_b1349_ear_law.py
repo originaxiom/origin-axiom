@@ -346,3 +346,53 @@ def test_branch_B_ties_at_zero_and_no_third_direction_exists():
     assert not (outputs - anchor_bits_one_orbit > 0), "a tie is NOT a close under R11"
     # no third direction: adding G does not raise the unit-span past 3, and the units alone stop at 2
     assert _rank(UNITS, extra=BEV.T @ BEV) == 3, "G is outside the unit span, so 2 is the ceiling"
+
+
+# --- addendum 4: the kind gate -- containment in B1011 C6's banked theta-even value set ---
+
+def _c6_set():
+    """B1011 C6, verbatim: {0, +-1/4, +-1/(4phi), +-1/2, +-1/(2phi), +-phi/4, +-phi/2, +-1}."""
+    s = {0.0}
+    for v in (0.25, 1 / (4 * PHI), 0.5, 1 / (2 * PHI), PHI / 4, PHI / 2, 1.0):
+        s.add(v); s.add(-v)
+    return sorted(s)
+
+
+def _in_c6(x, tol=1e-12):
+    return any(abs(x - c) < tol for c in _c6_set())
+
+
+def test_c6_containment_test_is_two_sided():
+    """CONTROL against E2/E67: the containment test must accept members and reject near-misses."""
+    # 0 plus SEVEN +- pairs (1/4, 1/(4phi), 1/2, 1/(2phi), phi/4, phi/2, 1) = 15 values,
+    # which is the count B1011 C6 states. A first draft asserted 13 here and this control
+    # caught the miscount before it reached a claim.
+    assert len(_c6_set()) == 15, _c6_set()
+    assert len(set(_c6_set())) == 15, "the 15 banked values must be pairwise distinct"
+    for v in (0.0, 0.5, 1.0, 1 / (2 * PHI), -1 / (2 * PHI), PHI / 2, 0.25):
+        assert _in_c6(v), f"must accept the banked value {v}"
+    for v in (0.30, 0.31, 1 / (2 * PHI) + 1e-9, 0.8, 0.9):
+        assert not _in_c6(v), f"must reject the near-miss {v}"
+
+
+def test_branch_A_lands_in_the_banked_set_and_branch_B_cannot():
+    """The kind gate's first step, and the split's THIRD independent signature.
+
+    Branch A's forced values are elements of B1011 C6's banked theta-even set; branch B's
+    ear-dependent extremes are not, and structurally cannot be -- each carries 1/sqrt2 and
+    generates Q(sqrt2,sqrt5), while the row's declared field (KIND_TABLE) is Q(sqrt5).
+    """
+    NON = [m for m in range(1, 16) if math.gcd(m, 15) != 1]
+    forced = sorted({round(_is_scalar(_form(m, BEV)[0])[1], 12) for m in NON})
+    assert len(forced) == 4
+    for v in forced:
+        assert _in_c6(v), f"branch A value {v} must lie in C6's banked set"
+    s2 = 2 * 2 ** 0.5
+    for v in (PHI ** 2 / s2, 1 / (PHI * s2), 5 ** 0.5 / s2, 1 / s2):
+        assert not _in_c6(v), f"branch B value {v} must fall OUTSIDE C6's banked set"
+    # the extremes actually are the spectra computed above, not free-floating constants
+    assert abs(max(_spectrum(1)) - PHI ** 2 / s2) < 1e-9
+    assert abs(max(_spectrum(2)) - 5 ** 0.5 / s2) < 1e-9
+    # and the near-misses are near: this is why the exclusion has to be structural, not numeric
+    near = min(_c6_set(), key=lambda c: abs(c - 5 ** 0.5 / s2))
+    assert abs(near - PHI / 2) < 1e-12 and 0.01 < abs(near - 5 ** 0.5 / s2) < 0.05

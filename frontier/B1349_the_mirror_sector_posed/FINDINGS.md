@@ -454,3 +454,71 @@ The verdict stays **NEGATIVE**, I-13 stays **UNEARNED**, F2 untouched, no compar
 value read, nothing reaches `CLAIMS.md`, Gate 5 untouched. Addendum 2's closing judgement stands
 verbatim: **what gates the row now is kind-correctness, not arithmetic.** Making branch B's failure
 exact does not make branch A's closure a physical result.
+
+---
+
+# ADDENDUM 4 — THE KIND GATE, FIRST STEP: BRANCH B IS EXCLUDED ON KIND TOO
+
+*Same branch, same arc id.* Addendum 2 closed by saying **"what now gates the row is
+kind-correctness, not arithmetic."** This asks the first kind question there is, and it is answerable
+without any comparison to data: **does the reading land in the value set the corpus has already
+banked for this sector?**
+
+## 1. The banked set, and what is being compared
+
+**B1011 C6, verbatim:** *"The θ-even value set, exact:
+`{0, ±1/4, ±1/(4φ), ±1/2, ±1/(2φ), ±φ/4, ±φ/2, ±1}`"* — 15 values. `KIND_TABLE` carries it as the
+**mirror set**, declared kind **amplitude-part**, bounds **[−1, 1]**, field **ℚ(√5)**.
+
+**What is NOT claimed (E72 — one name, two quantities).** C6's set is a *census over group elements*
+of `Re(ζ⁻¹ūMu)`; the values here are over the *15 metallic words* `RᵐLᵐ` with the charge-conjugation
+weld. **The two quantities are not asserted to be identical.** What is tested is **containment** —
+whether each computed reading is an *element* of the banked set and of its declared field. That is
+all the kind question needs, and it needs no identification. `verification/b1349g_kind.py`, with a
+two-sided control (the test accepts the banked values and rejects near-misses at `0.30`, `0.31`, and
+`1/(2φ) + 1e−9`).
+
+## 2. The result, and it splits the same way a third time
+
+| branch | reading | in C6's banked set? |
+|---|---|---|
+| **A** `gcd(m,15)>1` | `−1/(2φ)`, `0`, `1/2`, `1` | **all four YES** |
+| **B** `gcd(m,15)=1` | `φ²/(2√2)` ≈ 0.9256 | **no** (nearest banked `1`, off by 0.0744) |
+| | `1/(φ·2√2)` ≈ 0.2185 | **no** (nearest `1/4`, off by 0.0315) |
+| | `√5/(2√2)` ≈ 0.7906 | **no** (nearest `φ/2` ≈ 0.8090, off by 0.0184) |
+| | `1/(2√2)` ≈ 0.3536 | **no** (nearest `1/(2φ)` ≈ 0.3090, off by 0.0445) |
+
+**And it is the field, not an accident.** Branch A's four values lie in `ℚ(√5)`, the row's declared
+field. Every branch-B reading carries a `1/√2` and generates `ℚ(√2,√5)`; `√2 ∉ ℚ(ζ₆₀)` (addendum 2
+§4, conductor 8 ∤ 60), so *a fortiori* `√2 ∉ ℚ(√5)`. **A branch-B reading cannot be an element of a
+set declared over `ℚ(√5)` — not approximately, but as a matter of field arithmetic.**
+
+> ### Branch B is EXCLUDED ON KIND, independently of its `2 − 2 = 0` tie on the ledger.
+> Two separate gates now reject it, and neither depends on the other: the R11 arithmetic ties at
+> zero (addendum 3), and its values are not of the mirror row's declared kind. The near-misses make
+> the point sharply — `0.7906` against a banked `0.8090` is the shape of a reading that would look
+> like a near-hit to a fitter and is *structurally* not a member of the set.
+
+## 3. What branch A earns, stated narrowly
+
+**KIND-ELIGIBLE, which is not kind-correct.** Eligibility means the value *could* belong to the row:
+right field, right bounds, and in fact an element of the banked set. It does **not** mean the row is
+the right physical observable — that is precisely the question **B856 lost on its own sector**, where
+`|h|²` was refuted on kind because a probability was read off an amplitude-squared, and the surviving
+`Re h = 1/(2φ)` sat in a 1σ window with ≥17 natural candidates. **Nothing here touches that
+question**, and branch A's cheapest output is still `−1/(2φ)`, whose modulus is the number that lost.
+
+**A third independent signature of the same split.** The `gcd(m,15)` law now shows up three ways, and
+the second implies the third: ear-(in)dependence; inside/outside `ℚ(√5) ⊂ ℚ(ζ₆₀)`; and inside/outside
+B1011 C6's banked value set. **The programme's own banked law and this arc's computation agree
+exactly on branch A and disagree exactly on branch B** — which is the strongest consistency check
+available here, because C6 was banked before this question was asked.
+
+## 4. Unchanged
+
+Verdict **NEGATIVE**. I-13 **UNEARNED**. F2 untouched, **no comparison to any measurement, no value
+read, nothing reaches `CLAIMS.md`, Gate 5 untouched.** The recommendation is still *do not spend the
+row* — but the shape is now complete: **branch B is dead on two independent gates, and branch A is
+arithmetically clear and kind-eligible with its outputs matching a law banked before the question.
+What remains for branch A is the one thing this bench cannot settle by computation: whether the
+mirror row is the right observable at all.**
