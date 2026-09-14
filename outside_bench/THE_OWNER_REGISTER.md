@@ -5360,3 +5360,43 @@ bench's own assumptions about what the record says, both caught by a control rat
 both corrected by addendum rather than rewrite. That is the system working, and it is recorded rather
 than tidied away.
 
+### ADDENDUM 4 to R145 (same session) — CELL 6: the first named rival, and the trade for the fifth time
+
+Cell 5 handed the programme a **named alternative object**. Cell 6 scored it on the four predicates
+cells 1–3 have base rates for, with the **same code paths** and **m004 re-scored in the same
+certificate** as control (it matched cells 1–3 exactly).
+
+| predicate | m004 | **m412** |
+|---|---|---|
+| chirality — no orientation-reversing self-isometry | False | **True** |
+| the atom — shape field ℚ(√−3) | True | True |
+| the 2T door — surjects onto SL(2,𝔽₃) | True | **False** |
+| the count of three | False | False |
+
+> ### **OUTCOME B. m412 gains the chirality bit and loses the E₆ door.**
+
+**So the trade appears a fifth time — now between two named objects on two named predicates: the
+chirality bit or the McKay door, not both.** The earlier four are B1323 (*the atom or the remembered
+bit*), B1321 (*the price of the 3 is the golden polynomial*), B1294 (*the 2 or the c-breaking*), and
+Cell 1's mirror pairs (a chiral cover costs one free ℤ/2 bit).
+
+**And the door m412 loses is the one 33.92 % of the census passes.** Common across the census does not
+mean automatic in the neighbourhood.
+
+**The commensurability question was answered, not skipped.** vol(m412)/vol(m004) = **2.5 exactly**, so
+m412 is **not a cover** of m004 — but all five of its tetrahedron shapes are x² − x + 1, the regular
+ideal tetrahedron, so both are arithmetic over ℚ(√−3) and **commensurable**. By B803, m412's arithmetic
+face is **inherited from the class**, not independent evidence. Chirality is **not** a commensurability
+invariant — which is exactly why it is the predicate on which they differ.
+
+**Costs, fixed in the seal before the gains were seen:** 2 cusps against 1 (the C4/A1 carrier story and
+every one-cusped instrument assume one); H₁ = ℤ/2 ⊕ ℤ ⊕ ℤ, so **not a knot complement**, and Reid's
+uniqueness of the arithmetic *knot* does not apply to it.
+
+**Not concluded: that m412 should replace m004.** That is the owner's call and a chain's worth of work,
+not a four-predicate score.
+
+**Five instances is no longer obviously a coincidence.** What would settle it is a **mechanism**, and
+the record already has the candidate: B1183's single global involution **c**. That is the next cell, and
+it is stated here as a question, not a law.
+

@@ -19,7 +19,7 @@
 `seals/REQUIRE_AND_TEST_CELL5_PREREG.md` (sha256
 `3a8103c71d0429e1b6075f8b3770e365652dbda753d5bcbc818c6f99a18344a2`) ·
 `certificates/require_and_test_cell4.py`, `certificates/require_and_test_cell5.py` ·
-`outputs/require_and_test_cell{4,5}_out.txt` · `outputs/require_and_test_cell5_f9_maxlen5.json`
+`outputs/require_and_test_cell{4,5}_out.txt` · `outputs/require_and_test_cell5_f9_maxlen5.json` · `seals/REQUIRE_AND_TEST_CELL6_PREREG.md` (sha256 `ba82e84adb3c7d3880fc097cb0aa1090b3459c5705606b091f2a7f858df8dd04`) · `certificates/require_and_test_cell6.py` → `outputs/require_and_test_cell6_out.txt`
 
 ---
 
@@ -365,6 +365,49 @@ fire, on m004's own shapes → True. N1, N2, N3 passed.
 S₁,₂ and S₀,₄. B1323's scope line is kept verbatim with only the number 3 replaced by 5. The closed
 genus-2 carrier stays out of frame (A5b). Nothing about physics. No value.
 
+---
+
+## 7. CELL 6 — the first named rival, scored on the same table
+
+Cell 5 handed the programme something it has never had: **a named alternative object**. Cell 6 scores
+it on the four predicates cells 1–3 measured base rates for, **using the same code paths** (cells 1–3
+are imported, not re-implemented) with **m004 re-scored in the same certificate** as control.
+
+| predicate | m004 | **m412** |
+|---|---|---|
+| **P_chir** — no orientation-reversing self-isometry | False | **True** |
+| **P_atom** — shape field in ℚ(√−3) | True | True |
+| **P_2T** — surjects onto SL(2,𝔽₃) | True | **False** (raw 0) |
+| **P_3** — \|det(A − I)\| = 3 somewhere | False | False (multiset {0: 4, 4: 4}) |
+
+> ### **OUTCOME B. m412 GAINS the chirality bit and LOSES the E₆ door.**
+
+**The trade, a fifth time — and this time between two named objects on two named predicates.** The
+record has it in B1323 (*"the atom or the remembered bit"*), B1321 (*"the price of the 3 is the golden
+polynomial"*), B1294 (*"the 2 or the c-breaking"*), and Cell 1 §E (a chiral cover costs one free ℤ/2
+bit). Here it is again: **the chirality bit or the McKay door, not both.**
+
+**And the door m412 loses is the one 33.92 % of the census passes** (Cell 2). So "common across the
+census" does **not** mean "automatic in the neighbourhood" — a nearby object in m004's own
+commensurability class simply fails it.
+
+**The commensurability question was answered, not skipped** (control P4): vol(m412)/vol(m004) = **2.5
+exactly**, so m412 is **not a cover** of m004; but every one of its five tetrahedron shapes has minimal
+polynomial x² − x + 1 — the regular ideal tetrahedron — so both are arithmetic over ℚ(√−3) and
+**commensurable**. By `frontier/B803_commensurability_audit` — *"any derivation routing through it is
+class-level not the object's specific"* — **m412's arithmetic face is inherited from the class, not
+independent evidence for m412.** What is *not* inherited is chirality: it is not a commensurability
+invariant, which is precisely why the two objects differ there and agree everywhere else arithmetic.
+
+**The costs, fixed in the seal before the gains were seen:** m412 has **2 cusps** against m004's 1, and
+the chain's C4/A1 carrier story and every one-cusped instrument (the D2 index frame, the
+knot-complement dictionary) assume one. H₁ = ℤ/2 ⊕ ℤ ⊕ ℤ, so **m412 is not a knot complement** and
+Reid's uniqueness of the arithmetic *knot* does not apply to it.
+
+**Not concluded:** that m412 should replace m004 — that is the owner's call and a chain's worth of
+work, not a four-predicate score. That m412 supplies physics: nothing here touches the SM. That these
+are the right four predicates: they are the four this programme has base rates for, and no more.
+
 ## 4. INTERPRETIVE — labelled as such
 
 The pattern across three separately-banked arcs is that every requirement this object fails is
@@ -372,8 +415,10 @@ available on a near neighbour, and every neighbour supplying it loses one of the
 *"one may have the atom or the remembered bit, not both"*; B1321, *"the price of the 3 is the golden
 polynomial"*; B1294, *"the 2 or the c-breaking, not both"*. Cell 1 adds a fourth instance **inside** the
 object's own tower — the chiral covers exist and come in mirror pairs, so the bit is relocated rather
-than supplied. Whether that is one conservation law across the commensurability class or four
-coincidences is **not settled here**; it is the next cell, and it is stated as a question.
+than supplied — and **Cell 6 a fifth, between two named objects**: m412 gains chirality and loses the
+McKay door. Five instances is no longer obviously a coincidence, but it is **not settled here** either:
+what would settle it is a mechanism, and B1183's single involution c is the candidate the record
+already has. Stated as a question, not a law.
 
 ## 5. What is NOT claimed
 
