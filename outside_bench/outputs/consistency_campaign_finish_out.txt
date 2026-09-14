@@ -1,0 +1,176 @@
+==============================================================================
+ FINISHING THE CONSISTENCY CAMPAIGN -- C-2, C-3, C-4, C-6
+==============================================================================
+
+    seal  outside_bench/seals/CONSISTENCY_CAMPAIGN_FINISH_PREREG.md
+    sha256 0c7c729c21a7bafa647db5d2ededf845c0d0a20d95fd50bfa65feb6469b8ec1e
+
+------------------------------------------------------------------------------
+ C-4 -- THE r-LABEL VIA THE T-MATRIX  (a CROSS-CHECK, per the seal)
+------------------------------------------------------------------------------
+
+    Campaign question, verbatim:
+      "The r-label via the T-matrix.  T has finite order (12 at E6).  Is the
+       arrow a branch choice of finite order?"
+    Outcomes, verbatim:
+      "FINITE-PLACE CONFIRMED (matches B1182's typing from an independent
+       direction) / UNRELATED"
+
+    B1182's banked typing (GRAND_COMPUTATION_v0 section 5):
+      "the r-label (arrow) | one Z/2 seed, FINITE-place | B1182: r -> k7
+       (fixes K pointwise, flips sqrt3), finite orbits"
+    So the r-label is ALREADY finite.  C-4 asks whether modular data says the
+    same from an independent direction.  It is not a new deletion.
+
+    primaries        : 3   (E6's centre is Z/3)
+    central charge c : 6   (level 1 simply-laced: c = rank)
+    conformal weights: [0, 2/3, 2/3]
+
+    T = diag(-I, exp(5*I*pi/6), exp(5*I*pi/6))
+      T[0,0] = -I   = exp(2*pi*i*-1/4)
+      T[1,1] = -sqrt(3)/2 + I/2   = exp(2*pi*i*5/12)
+      T[2,2] = -sqrt(3)/2 + I/2   = exp(2*pi*i*5/12)
+
+    per-entry orders : [4, 12, 12]
+    ORDER OF T       : 12   (computed, not asserted)
+    T2 -> PASS (the campaign says '12 at E6')
+
+------------------------------------------------------------------------------
+ CONTROL T1 -- is this actually a modular tensor category?
+------------------------------------------------------------------------------
+
+    T's ORDER above is exact (root-of-unity exponent arithmetic).  The four
+    MTC identities are matrix identities in Q(zeta_24); sympy's simplify does
+    not reduce these symbolic exponentials reliably (the first run printed
+    -I == -I and still reported FAIL), so they are verified NUMERICALLY at
+    dps = 60 with residuals printed.  A residual is a number you can check;
+    a boolean from a simplifier that silently gives up is not.
+
+    THE S-MATRIX SIGN IS DETERMINED BY THE THEOREM, NOT CHOSEN.  A pointed
+    Z/3 MTC has S_jk = w^{s*jk}/sqrt(3) with s = +1 or -1.  The first run used
+    s = +1 and (ST)^3 = S^2 failed by EXACTLY 1.0 -- a real discrepancy, not
+    precision.  Both signs are computed below; exactly one satisfies the
+    relations, and that is what fixes the convention.
+
+    S_jk = w^{+jk}/sqrt(3):  symmetric 0.0   unitary 1.81e-61   S^2=C 5.487e-61   (ST)^3=S^2 1.0
+    S_jk = w^{-jk}/sqrt(3):  symmetric 0.0   unitary 1.81e-61   S^2=C 5.487e-61   (ST)^3=S^2 4.441e-61
+
+    -> the relations FIX the sign at s = -1; all four residuals < 1e-30
+    T1 -> PASS (all four are theorems of an MTC)
+    Note: T's ORDER, computed exactly above, does not depend on this sign --
+    the load-bearing number is untouched by the convention.
+
+------------------------------------------------------------------------------
+ CONTROL T3 -- the Gauss-sum condition fixes the c/24 phase
+------------------------------------------------------------------------------
+    sum_j theta_j / sqrt(N) = (-3.59285954584e-61 - 1.0j)
+    exp(2*pi*i*c/8)         = (-1.92569126664e-61 - 1.0j)   (c = 6)
+    residual                = 2.868e-61
+    T3 -> PASS
+
+------------------------------------------------------------------------------
+ C-4 VERDICT
+------------------------------------------------------------------------------
+    T has finite order 12.  Every branch choice inside this modular
+    data therefore lies in a finite-order structure -- there is no continuum
+    for the arrow to live in on the RCFT side.
+
+    -> C-4 = FINITE-PLACE CONFIRMED
+
+    AND WHAT IT IS NOT, per the seal: the r-label was ALREADY typed
+    FINITE-place by B1182 from the arithmetic side (r -> k7, finite orbits).
+    This is a SECOND, INDEPENDENT direction agreeing -- a cross-check.  NO ROW
+    IS DELETED (stop rule 1), and the input count does not move.
+
+------------------------------------------------------------------------------
+ C-3 -- LAMBDA AS A KMS WEIGHT: NOT RUN, BLOCKED
+------------------------------------------------------------------------------
+
+    Campaign question, verbatim:
+      "lambda as a KMS weight.  Is the modular (Tomita-Takesaki) flow periodic
+       for a rational boundary?  Periodic => lambda is a finite label."
+    Outcomes, verbatim:
+      "PERIODIC (lambda joins the finite menus) / NOT (lambda stays a genuine
+       continuum; the floor carries it)"
+
+    BLOCKED, and the seal said so in advance.  Tomita-Takesaki modular theory
+    for the local algebra of a rational boundary is operator algebra, not
+    arithmetic.  This bench has no instrument for it and will not manufacture
+    an argument in order to avoid reporting a block.
+
+    WHAT WOULD SETTLE IT: a statement, with citation, of whether the modular
+    automorphism group of the vacuum state on a chiral RCFT's local algebra is
+    periodic -- the Bisognano-Wichmann / Borchers line for conformal nets is
+    where such a statement would live.  That is a reading task for someone who
+    holds the operator-algebra literature, not a computation.
+
+------------------------------------------------------------------------------
+ C-2 -- THE Z/12 CHARACTER ASSIGNMENT: NOT RUN, BLOCKED (externally held)
+------------------------------------------------------------------------------
+
+    Campaign question, verbatim:
+      "The Z/12 character assignment (codex holds it; B1216's R1).  Decides
+       identity-vs-scalar on B_0."
+    Outcomes, verbatim:
+      "A: identity -> P^3 is real, floor carries 3 continuous params /
+       B: scalar -> B_0 is 1-dim over Q(zeta_12), P = a point, ZERO"
+
+    BLOCKED.  The campaign's own status column reads RELAY, and its cell text
+    says "codex holds it".  The datum is not in this repository.
+
+    WHAT IS NEEDED AND FROM WHOM: the Z/12 character assignment on B_0 from
+    the seat that holds it (B1216's R1).  NOTE THE STAKE, since it is the
+    largest single item left in the input accounting: outcome B would take the
+    P^3 Higgs line from THREE continuous parameters to ZERO.  That is the
+    biggest available reduction named anywhere in the deletion schedule, and
+    it is waiting on a relay, not on mathematics.
+
+------------------------------------------------------------------------------
+ C-6 -- THE LEDGER AMENDMENT, over what actually ran
+------------------------------------------------------------------------------
+
+    Campaign cells, final state:
+      C-1   RAN  (B1230)  OVER-COUNTED -- sigma counted as a continuum where
+                          consistency gives a finite menu; two rows state no field
+      C-5   RAN  (B1230)  REFUTED B1229's uniqueness: c = 6 has FOUR solutions
+      C-5b  RAN  (B1230)  the recovery
+      C-4   RAN  (here)   FINITE-PLACE CONFIRMED
+      C-3   BLOCKED       operator algebra
+      C-2   BLOCKED       externally held -- the largest reduction left
+      C-6   RAN  (here)   this table
+
+    THE AMENDMENT, and it is a typing not a deletion (stop rule 1):
+      the r-label (arrow)  FINITE-place, now confirmed from TWO independent
+                           directions -- arithmetic (B1182: r -> k7, finite
+                           orbits) and modular data (C-4: ord(T) = 12)
+      sigma                finite menu, NOT a continuum -- but the menu's
+                           TIGHTNESS rests on the two-character restriction,
+                           which C-5 showed is doing real work (c = 6 has four
+                           solutions without it).  Carried as a HYPOTHESIS.
+      the P^3 Higgs line   UNRESOLVED, pending C-2.  3 continuous params or 0.
+      lambda               UNRESOLVED, pending C-3.  Finite label or continuum.
+
+    SO THE CAMPAIGN'S NET EFFECT ON THE INPUT COUNT IS: nothing deleted, one
+    typing cross-confirmed, and TWO ROWS WHOSE RESOLUTION IS BLOCKED ON
+    MATERIAL THIS BENCH DOES NOT HOLD.
+
+------------------------------------------------------------------------------
+ CONTROL T4 -- a campaign that comes back all-green is not this campaign
+------------------------------------------------------------------------------
+    cells RUN     : 2  ['C-4', 'C-6']
+    cells BLOCKED : 2  ['C-3', 'C-2']
+    T4 -> PASS
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    C-4   RAN      FINITE-PLACE CONFIRMED
+    C-6   RAN      amendment written over what ran
+    C-3   BLOCKED  operator algebra; no instrument on this bench
+    C-2   BLOCKED  externally held (codex; B1216 R1) -- and it is the largest single reduction left: 3 continuous params -> 0
+
+    controls: ALL PASSED
+
+    NOT CONCLUDED: no row is DELETED (stop rule 1).  sigma is not claimed to be
+    1 -- C-5 refuted that uniqueness argument and the restriction it leaned on
+    is carried as a hypothesis (#26).  Nothing about the SM.  No value.
