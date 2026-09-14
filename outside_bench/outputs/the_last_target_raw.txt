@@ -1,0 +1,6 @@
+
+=== s958 === chiral=True
+  relator 'abcaaBBC' -> I
+  relator 'aacBacbbc' -> I
+  RELATORS VALIDATED: True
+  order-3 cusp-trivial characters: 2
