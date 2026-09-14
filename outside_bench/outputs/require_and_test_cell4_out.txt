@@ -1,0 +1,111 @@
+==============================================================================
+ CELL 4 -- THE REMAINING ROWS, AND WHETHER THE VALUE WALLS NAME THE OBJECT
+==============================================================================
+
+    seal  outside_bench/seals/REQUIRE_AND_TEST_CELL4_PREREG.md
+    sha256 f846c6e7a68dad615136629ac3b66bebe8a04661dc589e319b84eb39d4e83338
+
+------------------------------------------------------------------------------
+ CONTROL M1 / M3 -- every quotation asserted present in its named file
+------------------------------------------------------------------------------
+    [ok ] A3 values                              docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] A3 grade                               docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] A4 dynamics                            docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] A4 grade                               docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] A5 gravity                             docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] A5 grade                               docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] A6 quantum                             docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] A7 predictions                         docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] A8 endpoint                            docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] V-3 wall                               docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] E row 4 (I-26)                         docs/TOE_REQUIREMENTS_LEDGER.md
+    [ok ] 4A is E2/MB12, not disappointment      docs/WHAT_WOULD_COUNT.md
+    [ok ] E2's own wording                       docs/WHAT_WOULD_COUNT.md
+    [ok ] the coupling leg is NOT a theorem      docs/WHAT_WOULD_COUNT.md
+    [ok ] B666 scale-torsor no-go                docs/LAW_MAP.md
+    [ok ] B666's six verification groups         docs/LAW_MAP.md
+    [ok ] falsifier 1 still open                 docs/WHAT_WOULD_COUNT.md
+
+    quotations checked: 17   missing: 0
+    -> PASS
+
+------------------------------------------------------------------------------
+ CONTROL M2 -- the object-token search must be shown to WORK
+------------------------------------------------------------------------------
+
+    M2 AS FIRST SEALED USED ONE PROBE, B1321's claim line -- which does NOT
+    name the object: B1321 is about the SIBLING (m202, s959).  The run
+    correctly FAILED.  The search was not broken; the probe was.  Corrected by
+    seal ADDENDUM 1 to three probes that exercise three distinct spellings,
+    because ERROR_LEDGER E54 records a search that missed its target "because
+    the search lacked the DIGIT spelling".
+
+    B803_commensurability_audit                    carries m004                     -> found ['m004']
+    B282_e6_is_arithmetic_not_geometric            carries 4₁ (digit subscript)     -> found ['4₁']
+    B1163_w0_attempt                               carries m004 and 4_1             -> found ['m004', '4_1']
+
+    distinct spellings exercised: 3  ['4_1', '4₁', 'm004']
+    -> PASS (all three probes must hit; >= 3 spellings exercised)
+
+------------------------------------------------------------------------------
+ ROW 3 -- do the three theorems 4A rests on MENTION THE OBJECT?
+------------------------------------------------------------------------------
+
+    Only each theorem's OWN STATEMENT is consulted: the arc_verdict claim line,
+    or the LAW_MAP paragraph for B666.  Not the arc directory, not its code.
+
+    B666 cell S -- the scale-torsor no-go
+      source     : docs/LAW_MAP.md  (581 chars)
+      object tokens: NONE
+      opens       : UPGRADED TO A STANDALONE THEOREM (B666 cell S): the scale-torsor no-go — every output is stabilized by a finite/profinite structure; Hom(G, ℝ₊) = 0 fo...
+
+    B936 -- the value-invisibility theorem
+      source     : frontier/B936_cohomology_reading/arc_verdict.json  (2256 chars)
+      object tokens: NONE
+      opens       : THE COHOMOLOGY READING -- A SPLIT RESULT, REPORTED VERBATIM (the agent sealed its OWN prereg 2808c8a7 before running, then reported its central criter...
+
+    B1096 -- the anomaly layer is identically zero
+      source     : frontier/B1096_anomaly_layer/arc_verdict.json  (801 chars)
+      object tokens: NONE
+      opens       : DOOR 5 SHUT STRUCTURALLY (the audit seat's B8089 re-derived entry-for-entry with own exact code): over the object's DERIVED 16 every anomaly channel v...
+
+    -> OUTCOME I
+    OBJECT-FREE.  All three statements are about finite/profinite groups,
+    about E6's structure, and about the SM's own 16.  So the value criterion
+    cannot pass for ANY object through these routes: row 3's base rate is 0
+    for every object, and that is a fact about the REQUIREMENT, not m004.
+
+    THE CORRECTION THIS FORCES, preregistered before the run:
+      R144-4 wrote that when falsifier 2 fired the programme took reading (a)
+      "values are the wrong success criterion" and never (b) "the object is
+      the wrong object".  FOR ROW 3 THAT IS TOO STRONG: reading (a) is here a
+      theorem, not a re-framing.  WHAT_WOULD_COUNT 4A says so in its own
+      words -- "The re-scope is licensed by discipline, not by disappointment"
+      -- and this cell confirms the three theorems it leans on name no object.
+      R144's diagnosis stands for the programme; it does not stand for row 3.
+
+------------------------------------------------------------------------------
+ THE REMAINING ROWS -- verdicts, with what would make each computable
+------------------------------------------------------------------------------
+    3 values                 P writable; T = LACKS (V-3)
+      B = 0 FOR EVERY OBJECT by the three theorems (OUTCOME I)
+    4 dynamics               NOT-COMPUTABLE
+      computable when an action is DERIVED; section E row 1 lists six declared inputs
+    5 gravity                NOT-COMPUTABLE
+      'containment, not a theory': a spin-2 slot, no propagator, no coupling
+    6 quantum consistency    DOWNSTREAM, not independent
+      anomaly-freedom is a property of a CLOSING; it cannot discriminate objects until a closing is derived rather than chosen
+    7 predictions            P writable; T = a REGIME, not a value
+      P9 is conditional and sealed; computable when a number not used as input exists
+    8 say which endpoint     NOT A CELL
+      the only section-A row whose status column is the ledger itself: a discipline rule on claims, not an object property
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    ROW 3 = OUTCOME I    quotations verified 17/17
+    controls: ALL PASSED
+
+    NOT CONCLUDED: that row 3's walls are the only walls, or that no route to
+    values exists.  4A's own fence is kept: the coupling-channel leg is
+    "empirical exhaustion, not theorem".  No value.

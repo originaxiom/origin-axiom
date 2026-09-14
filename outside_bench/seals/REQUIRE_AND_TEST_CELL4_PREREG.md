@@ -73,3 +73,32 @@ computable**, never quietly upgraded.
 That row 3's walls are the only walls, or that no route to values exists — §4A's own fence says the
 coupling-channel leg is *"empirical exhaustion, not theorem"*, and that distinction is kept. No value.
 Nothing about rows 4–6 beyond NOT-COMPUTABLE/DOWNSTREAM.
+
+---
+
+# ADDENDUM 1 (2026-09-14) — CONTROL M2's PROBE WAS MIS-CHOSEN
+
+**M2 as sealed said:** *"run it on a statement that does name the object (B1321's claim line) and it
+must find one."* **B1321's claim line does not name the object** — B1321 is about the **sibling**
+(m202, s959), so its claim line names m202 and never m004. The first run returned `tokens found: []`
+and **M2 correctly FAILED.** The search was not broken; the probe was.
+
+**This is the second mis-specified control in this programme** (Cell 3's L1 was the first). Both were
+assumptions this bench made about what the record says, and both were caught by the control rather
+than by re-reading. Recorded as such.
+
+**CORRECTED M2 — three probes, chosen to exercise the token list, not one:**
+
+| probe | the spelling it carries |
+|---|---|
+| `frontier/B803_commensurability_audit` claim line | `m004` |
+| `frontier/B282_e6_is_arithmetic_not_geometric` claim line | **`4₁`** — the digit-subscript spelling |
+| `frontier/B1163_w0_attempt` claim line | `m004` **and** `4_1` |
+
+**All three must find at least one token, and between them they must exercise at least three distinct
+spellings.** This is not decoration: `ERROR_LEDGER` **E54** records a search of this exact kind that
+missed its target *"because the search lacked the DIGIT spelling"*. A single-probe control would not
+have tested that.
+
+**Not changed:** the question, the three theorems, the two outcomes, the quotation list, or the row
+table. Only the control's probe — and only because the seal named one that could not pass.
