@@ -5400,3 +5400,53 @@ not a four-predicate score.
 the record already has the candidate: B1183's single global involution **c**. That is the next cell, and
 it is stated here as a question, not a law.
 
+## R146 — "next plan is to solve these" (the table, 2026-09-14)
+
+| # | the question | prior art read first | what was banked before | what this session did | what is open |
+|---|---|---|---|---|---|
+| R146 | **"next plan is to solve these"** — the five rows of Phase 1's table | T-MIRROR-ODD-VANISHES (B1227); B1186 + B1235 + B1321's artifacts; B1292; B1302; B666 cellS PROOF_NOTE; B1116; B1170; B1128 | the table's five rows were five unexplained facts, and the joint question had never been asked | **PHASE 2, cells 7–10.** The table is not five facts: it is one theorem, one latent witness, and one stale closure | m202's adoption (the owner's call); row 5 |
+
+### The four answers
+
+**CELL 7 — the table splits.** T-MIRROR-ODD-VANISHES is stated about **invariants**; pointed at the
+**requirements** it sorts them. **Chirality and values are mirror-ODD — FORCED failures**, and the only
+solve is a chiral object. **The count of three is mirror-EVEN — CONTINGENT**, no theorem against it.
+The atom and the 2T door are mirror-even and held.
+
+**CELL 8 — and the record already held the chiral object. Two of them.**
+
+| | P_chir | P_atom | P_2T | P_3 | |
+|---|---|---|---|---|---|
+| **m004** | ✗ | ✓ | ✓ | ✗ | **2 of 4** |
+| **m202** | ✓ | ✓ | ✓ | ✓ | **4 of 4** |
+| **s959** | ✓ | ✓ | ✓ | ✓ | **4 of 4** |
+
+Assembled from three banked artifacts **no arc had ever cross-referenced**, sealed as a prediction
+**before** computing, then confirmed on one code path with **zero disagreements**. B1292 came closest and
+missed it: *"a witness meeting every clause"* — **chirality was not among its clauses.**
+
+**Priced, not adopted.** The genesis **C1–C5 derives m004**; m202 has two cusps and can only be
+**selected** — trading a derived object for a chosen one, which **C16 refuses**.
+
+**CELL 9 — row 4 is not as closed as the table said.** B666's `Hom(G, ℝ₊) = 0` is proved; the clause that
+makes it bite is **Definition 1**, and its own Scope says the premise is *"consume[d] rather than
+reprove[d]"*. **B1116** already showed every such no-go is **single-level**, and §4A — one day older —
+does not cite it. **Row 4: closed at single level, open at the archimedean one.** It does **not** say
+values are derivable.
+
+**CELL 10 — propagated onto main**, addendum-only per the owner, **+92 lines, 0 deletions**, each
+addendum verified back against the cell that produced it.
+
+**Row 5 stays NOT-COMPUTABLE** and is reported as such rather than converted into activity.
+
+### Four control catches this phase, all recorded
+
+C-EVEN (an observable carrying more than its predicate — fixed by *verifying* the reciprocal relation);
+S2 (a certificate that verified a quotation without printing it); and the sharpest: **re-running Cell 9
+after Cell 10's addendum flipped its outcome, because the certificate was measuring this bench's own
+edit.** Cell 9 now excludes its own addendum and reports both states. Without that it was not
+reproducible.
+
+**Not claimed:** that m202 should replace m004. That values are derivable. That the four predicates are
+the right four. No value. Gate 5 untouched.
+

@@ -439,3 +439,153 @@ already has. Stated as a question, not a law.
   fixed-point count on a torus and is reported as one. Its population is 4000 census members, not the
   61 911 B1321 searched; it recovers two of B1321's six and does not claim the other four are absent.
 - **No value of anything. Gate 5 untouched. Nothing promotes to `CLAIMS.md`.**
+
+---
+
+# PHASE 2 — SOLVING THE TABLE
+
+*The owner's instruction after Phase 1: **solve these**. The table was five unexplained facts. It is
+not five facts.*
+
+## 8. CELL 7 — the table splits into FORCED and CONTINGENT
+
+`docs/THEOREM_LEDGER.md` **T-MIRROR-ODD-VANISHES** (B1227, PROVED) already unifies four walls — *"the σ
+wall (ℝ/½ℤ), the selector wall (ℝ) and the chirality wall (ℤ) **are ONE theorem in three value groups —
+the corpus had tracked them as three**."* **It is stated about INVARIANTS. Nobody had pointed it at the
+REQUIREMENTS.**
+
+Parity under the mirror, **measured not asserted** — every predicate computed on m004 **and on its
+mirror**, claimed-even required to agree:
+
+| requirement | parity | m004 | reading |
+|---|---|---|---|
+| **chirality** | **ODD** | LACKS | **forced** by the theorem |
+| **values** (CS, selector, net chirality, Jones ends) | **ODD** | LACKS | **forced**, B1227's own four groups |
+| the 2T door | EVEN | HAS | not determined by the law |
+| the atom | EVEN | HAS | not determined by the law |
+| **the count of three** | **EVEN** | **LACKS** | **not determined — contingent** |
+
+> ### **OUTCOME A. So the table splits: two FORCED failures, whose only solve is a chiral object; one CONTINGENT failure, which no theorem forbids.**
+
+**Control C-EVEN failed on its first run** (5₂'s P_atom) and the fix **strengthened** it. The seal's
+observable bundled the tetrahedron-shape polynomial **list** into the predicate. The boolean agreed
+everywhere; only the list moved — and it moved because the mirror's polynomials are **exact
+reciprocals** (`[1,−2,3,−1]` reversed and negated is `[1,−3,2,−1]`), whose roots z and 1/z **generate the
+same field**. The corrected control demands both: predicates agree **and** any polynomial difference is
+**verified reciprocal**. A non-reciprocal difference still fails.
+
+## 9. CELL 8 — the record already held a four-predicate witness. Two of them.
+
+Chirality being forced, the only solve is a chiral object. **Standing rule: exhaust the repository
+first.** Three banked artifacts, **never cross-referenced by any arc** — B1186's 112 ℚ(√−3) members,
+B1235's per-member chirality (B1186's own field was orientation-blind and is **retracted** by its own
+addendum), B1321's six with \|det(A − I)\| = 3 — were intersected **before anything was computed**, and
+the prediction sealed. Then re-scored on **one code path**, with **zero disagreements**:
+
+| | P_chir | P_atom | P_2T | P_3 | |
+|---|---|---|---|---|---|
+| **m004** | False | True | True | False | **2 of 4** |
+| m412 | True | True | False | False | 2 of 4 |
+| **m202** | **True** | **True** | **True** | **True** | **4 of 4** |
+| **s959** | **True** | **True** | **True** | **True** | **4 of 4** |
+| v3461 | True | False | True | True | 3 of 4 |
+| v3551 | True | True | False | True | 3 of 4 |
+| o9_40999 | True | True | False | True | 3 of 4 |
+| o9_43931 | True | False | True | True | 3 of 4 |
+
+**New measurements no arc had run:** the 2T counts for **s959 (576 raw = 24 quotients)**, v3551 (0),
+o9_40999 (0), v3461 (288), o9_43931 (288); and v3461/o9_43931's shape fields, both False as predicted
+from B1186's census-complete enumeration.
+
+**Controls:** m004 and m412 re-scored **exactly** as Phase 1 banked them (Q1); m202 reproduced
+**B1292's 96** surjections and m004 its **48** (Q2).
+
+**Why no arc said it.** B1292 came closest — it called m202 *"a witness meeting every clause"* — **but
+chirality was not among its clauses**, and it predates B1235's chirality correction. And the fence that
+decides the cell was quoted **before** scoring: B1321's *"none of which keeps the golden face"* is the
+**golden ℚ(√5) Alexander face**, not the atom — `frontier/B1302_the_sibling_m202` §3: *"'leave the knot,
+keep the field' keeps ℚ(√−3) and 2T only."*
+
+### Priced, not adopted
+
+**m004** 1 cusp, H₁ = ℤ, \|Sym\| 8. **m202** 2 cusps, H₁ = ℤ ⊕ ℤ, \|Sym\| 12.
+
+**The sore point, stated in the seal before the run:** the genesis **C1–C5 DERIVES m004** — two records,
+one cusp, H₁ = ℤ, the a·B bundle on S₁,₁. **m202 has two cusps.** So **m202 cannot be derived by the
+existing genesis; it can only be selected** — trading a derived object for a chosen one, which is what
+**C16 refuses**. Survives on m202: the atom, the door (**96** vs m004's 48), the count 3 on both cusps,
+and chirality. Breaks: C1–C5, knot-ness (so Reid's uniqueness of the arithmetic *knot* does not apply),
+every one-cusped instrument, and the golden ℚ(√5) face.
+
+**Fences carried:** B1292's commensurability is *"argued, not certified"*; its *"keeps E₆"* is *"inferred
+from 2T via the McKay door, not recomputed"* — and Phase 1 measured that door at **33.92 %** of the
+census, so the inference is weaker than it reads; **I-26 stays UNEARNED**.
+
+## 10. CELL 9 — row 4 is closed at single level and OPEN at the archimedean one
+
+B666's no-go has two halves and they grade differently. **Hom(G, ℝ₊) = 0 is PROVED** and exactly verified
+on six groups. **The clause that makes it bite is DECLARED:** *"every output is stabilized by a
+finite/profinite structure"* is **Definition 1** of `cellS/PROOF_NOTE.md`, and that note's own Scope calls
+the premise behind it *"the one assembly ingredient this note consumes rather than reproves."* It even
+names its falsifier — *"exhibit a banked output NOT stabilized by a finite/profinite structure"* — **and
+no arc has taken it up.**
+
+**And the corpus already banked the route past it.** B1116: *"Every banked value/scale no-go quantifies
+over SINGLE-LEVEL invariants. A **growth rate of a tower** … is outside all of them"*, checked row by row
+against B666 and B936. `GRAND_COMPUTATION_LEDGER`: that caveat *"must ride with the headline."*
+**§4A does not carry it** — searching §4A for `B1116`, `asymptotic`, `growth rate`, `growth-rate`,
+`T-ASYMPTOTIC` returns nothing, while the positive probes `B1096`, `B936`, `B666` all hit (control R2,
+the repair for Cell 4's M2).
+
+> **Row 4 restated. WAS: 0 for every object. IS: 0 for every object THROUGH THE ROUTES §4A NAMES — and
+> those routes are single-level. The tower-growth-rate channel is reached by no banked no-go.**
+
+**This does not say values are derivable.** B1116 opens a **channel, not a number**;
+`THE_SM_VERDICT`'s own *"VALUE-matching remains OPEN — no SM number is produced"* rides along. §4A's
+coupling leg stays what §4A calls it, *"empirical exhaustion, not theorem"*, now eight misses.
+
+**A bogus comparison was caught before banking:** the first run inferred the date ordering from a string
+compare against `"not found"`. B1116's FINDINGS carries no date and this branch's git dates are squashed,
+so the date now comes from `CAMPAIGN_STATUS.md:2815`'s own packet line (**2026-08-21**, against §4A's
+**2026-08-20**), asserted verbatim — and the ordering is reported as carrying **no** weight, since an
+earlier B1116 would make the omission worse, not better.
+
+## 11. CELL 10 — propagated onto main, addendum-only, and verified
+
+Owner's decision this session. Three dated addenda, **+92 lines, 0 deletions**, mechanically checked:
+
+| file | what it now carries |
+|---|---|
+| `frontier/B749_genesis_forks/FINDINGS.md` | the F9 price sentence's **depth bound** |
+| `docs/TOE_REQUIREMENTS_LEDGER.md` | §C row 2's **frame** — the 2 is χ(Fix g), the 3 is \|det(A − I)\| |
+| `docs/WHAT_WOULD_COUNT.md` | §4A gains **B1116's scope caveat** |
+
+The instrument is verification of the propagation: every number in an addendum must appear in the banked
+cell that produced it (S2), every attributed quotation must be present in the file named (S3), the word
+counts recomputed not copied (S4).
+
+**Two control catches worth recording.** S2 found Cell 9 **verified** a quotation but never **printed**
+it — its output was labels, not a record; Cell 9 now echoes every string it verifies. Then re-running
+Cell 9 **flipped it A → B**, because the addendum puts `B1116` *inside* §4A and the certificate was
+**measuring this bench's own edit**. Cell 9 now cuts §4A at the addendum marker and reports **both**
+states. Without that, the cell was not reproducible.
+
+**Row 5 stays NOT-COMPUTABLE**, reported rather than converted into activity: dynamics needs an action
+**derived** rather than declared (§E row 1 lists six declared inputs); gravity needs I-26's dimension gap
+**exhibited** (FRESH_EYES Q9, open since 2026-09-08). This bench has no instrument for either.
+
+## 12. THE TABLE, SOLVED AS FAR AS IT GOES
+
+| requirement | status after Phase 2 |
+|---|---|
+| **chirality** | **FORCED** failure — one theorem with values. Solve = a chiral object; **m202 and s959 are named** |
+| **the count of three** | **CONTINGENT** failure — no theorem forbids it; **m202, s959 have it** |
+| **the 2T door** | held, but common (33.92 %) — it selects little |
+| **values** | closed at single level; **open at the archimedean one**, and §4A now says so |
+| **dynamics, gravity** | NOT-COMPUTABLE, with the minimal sub-question named for each |
+
+**Four of the five rows moved. The fifth is honestly immovable by this bench.**
+
+**Not claimed:** that m202 should replace m004 — the owner's call, and the genesis derives m004 while
+m202 can only be selected. That values are derivable. That the four predicates are the right four. No
+value. Gate 5 untouched.
