@@ -5067,3 +5067,54 @@ past it from inside the object — **three of four exits are closed by computati
 > **The one thing left that is computable rather than philosophical is the tower past degree 10.**
 > Everything else on the list needs an identification the object does not supply — which is the
 > price ledger's 12, in other words.
+
+---
+
+## R143 — "go" (2026-09-14): the tower past ten is scanned, the index is still zero, and the frontier moves rather than closes
+
+**Answer: memo 230**, sealed `25048f40…` first. **CELL 1 = B; C1–C5 pass.**
+
+### R143-1 — the result, and the number that matters more
+
+**18 in-domain sectors on m004's own covers at degrees 11–14. Every one returns `I = 0`.**
+
+But the preregistered population was **47** covers, and the coverage is: **17 rejected** (relator
+not `±I` at tolerance), **30 reached** the character loop, and only those with a cusp-trivial
+character of order > 2 inside the cap produced any sector — **18 in all**.
+
+> **This is a null over EIGHTEEN SECTORS, not forty-seven manifolds, and not "the tower".** The
+> certificate prints the coverage rather than implying it, because the difference between those
+> three statements is the whole value of the run.
+
+### R143-2 — and the seal forbids the reading that would have been worth having
+
+Declared before the run: **there is no live positive control in characteristic zero anywhere in the
+record.** B1297's own MB12 — *"live non-vacuity NOT established"*; B1335's nonzero is over **`𝔽_p`**
+with its own title reading *"and its refutation in characteristic zero"*, verdict NEGATIVE.
+
+> **An instrument that has never fired on any real manifold in char 0, not firing on eighteen more
+> sectors, has told us almost nothing new about the covers.** That is the honest reading. **It is
+> NOT "the tower is vector-like."**
+
+### R143-3 — the controls did real work
+
+**C1** random presentations return `I ≠ 0` — without it the cell is void, since a scan by an
+instrument that cannot fire is not a scan. **C2** the same code reproduces the banked all-zero
+census result before touching new ground. **C3** B1335's named `±I` trap — the one that *"produced
+this bench's last false positive"* — **discarded 18 odd-power sectors**. **C4** **12 sectors
+discarded** for violating the four identities rather than reported. **C5** the 400-character cap is
+printed; covers with torsion 199, 720, 1885 are **not** exhausted and the memo says so.
+
+### R143-4 — I over-ranked this target yesterday, and this is the correction
+
+**Memo 229 called the tower past degree 10 *"the one place the question still has a computable
+answer."* That was too strong.** The place is computable; the **instrument** pointed at it has no
+demonstrated live positive in char 0, so a null cannot separate *"the covers are vector-like"* from
+*"this index never fires on real manifolds."*
+
+> **The frontier MOVES rather than closes.** The live question is no longer *"is there a nonzero
+> index higher up the tower?"* but **"can this index fire on ANY real manifold in characteristic
+> zero at all?"** — **B1297's own open item**, and no amount of scanning higher covers will settle
+> it. What would: a live positive anywhere, or a proof the char-0 vanishing is forced — which B1335
+> showed **cannot** come from the identities and domain conditions alone, since over `𝔽_p` they
+> permit `I ≠ 0`.
