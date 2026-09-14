@@ -5154,7 +5154,7 @@ pending); memo 216 (**15** stale statuses); memo 227 (the status-of-record says 
 
 ### R144-3 — and the effort is aimed downstream, overwhelmingly
 
-> **1253 arcs in `frontier/`. EIGHT touch the axiom forks. 0.6 %.**
+> **~~1253 arcs~~ 1246 arc directories in `frontier/` (1204 with a banked `arc_verdict.json`). EIGHT touch the axiom forks. 0.6 %.**  *[figure corrected 2026-09-14 — see R144-9]*
 
 Everything is tested **given** the object; almost nothing tests the **choice** of object. And the
 chain's own census says the object was **chosen** — C3/C4/C5, two graded **FRAGILE**. **Pricing a
@@ -5216,6 +5216,34 @@ file.**
 
 **Not that the object is wrong.** I have no such result, and this bench has killed enough
 over-readings to be careful here. **What I am saying is that it is the UNTESTED HYPOTHESIS** — the
-one load-bearing assumption that 1253 arcs of excellent discipline have almost entirely left alone,
+one load-bearing assumption that ~~1253~~ 1246 arcs of excellent discipline have almost entirely left alone,
 **while every consequence of it has been tested to exhaustion.** That asymmetry, not any single
 error, is what is wrong with the approach.
+
+### R144-9 — ERRATUM, filed at point of occurrence (2026-09-14)
+
+**R144-3 and R144-8 both said "1253 arcs in `frontier/`". 1253 is `ls frontier | wc -l`.** It counts
+seven non-directory entries as arcs: `README.md`, `REPO_STATE.md`, `EXPERT_OUTREACH.md`,
+`NEXT_CAMPAIGN_DRAFT.md`, `literature_search.md`, `VERIFICATION_2026-07-08_double_dgg.md`,
+`aj_conjecture_check.json`. The verified figures at `05c42040`:
+
+| count | basis |
+|---|---|
+| 1253 | `ls frontier \| wc -l` — **includes 7 loose files; this is the wrong basis** |
+| **1246** | arc directories (`ls -d frontier/*/ \| wc -l`) |
+| **1204** | arcs with a banked `arc_verdict.json` (and, separately, 1204 with a `FINDINGS.md`) |
+
+**The ratio is unchanged: 8 / 1246 = 0.64 %, still 0.6 %.** The diagnosis stands; the number was
+struck in place above, not rewritten. Filed because a number quoted twice in one answer, off by a
+count of loose files, is the exact failure this bench files errors for — and because R144's own
+subject is the difference between a measurement and a habit.
+
+---
+
+## R145 — "craft a plan and execute it properly, until we figure out" (2026-09-14)
+
+| # | the question | prior art read first | what was banked before | what this session did | what is open |
+|---|---|---|---|---|---|
+| R145 | **"craft a plan and execute it properly, until we figure out"** — turn R144's diagnosis into an executable programme | `docs/TOE_REQUIREMENTS_LEDGER.md` §A–§E; `frontier/B1028_freedom_ledger/ADDENDUM_2026-08-12.md`; `frontier/B749_genesis_forks` F2–F8 + `frontier/B1323_the_genesis_upgrades` F9; `frontier/B1163_w0_attempt/ADDENDUM_orientation_theorem.md`; `frontier/B1183_one_class_theorem`; `frontier/B1324_arc_b_and_the_dictionary`; `frontier/B1321_l205_the_siblings_localized_count`; `frontier/B282_e6_is_arithmetic_not_geometric`; `frontier/B1186_family_is_112`; `outside_bench/memos/UNIQUENESS_TEST.md` (memo 116); `docs/WHAT_WOULD_COUNT.md` §5 | the gap is **already conceded in the record**: B1028's addendum calls the family-choice row **UNPRICED (flagged)** — *"a fact about the programme's history, not a measurement of the object"* — and has done since 2026-08-12; B749's fork **F1 (A0) is excluded from computation by design** | **THE REQUIRE-AND-TEST PROGRAMME.** Targets sealed (`seals/REQUIRE_AND_TEST_TARGETS.md`) before any computation. The inversion: per requirement, *what must ANY object have to supply this — does m004 have it — and how many objects do?* Every cell carries R/P/T/**B (a base rate over a named census, population printed)**; without B, "m004 has P" is not information | the cells themselves — see the memo |
+
+**Standing rule applied:** the owner's question gets its row the same session.
