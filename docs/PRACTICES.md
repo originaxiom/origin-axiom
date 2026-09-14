@@ -827,3 +827,37 @@ inversion on a structural question and reached a verdict in one session.
 **The general form:** *ask what would make the answer informative before computing the answer.*
 When the question is a value, that is precision. When it is a structure, it is a control that
 varies the thing that can break (**E67**) — B1409's `k`-sweep, not a repeat run on one object.
+
+## 2026-09-14 — NINE ERROR CLASSES ARE ONE CLASS: name the proxy (Review 57 §5)
+
+E72–E80 were minted in a single window. They are **one failure seen nine times: a proxy was
+checked in place of the thing it stands for.**
+
+| class | the proxy that got checked | the thing it stood for |
+|---|---|---|
+| **E72** | a symbol | its referent |
+| **E73** | a rank | what it counts |
+| **E74** | a seal | the rule's soundness |
+| **E75** | a representation | the object |
+| **E76** | a ledger line | the choice actually made |
+| **E77** | a relation between two artefacts | either artefact's state |
+| **E78** | a measurement | the thing measured |
+| **E79** | a question's form | who can answer it |
+| **E80** | a committed artefact | its reproduction |
+
+E75 is the loudest only because representations are the most numerous proxies — twelve
+instances, three mechanisms. **E78** (an audit reading its own report) and **E80** (a
+verification pointing outside the repository) are the same error at the level of *instruments*;
+**E79** (a decidable question escalated as a judgement) is the same error at the level of
+*judgement*.
+
+> **The practice: every check names the thing it is a proxy for, and states how the two could
+> differ.** One sentence beside the assertion. It is cheap, and it would have caught all nine.
+
+**It earned its keep the day it was written.** Closing Review 57's own action items produced
+**three self-corrections in one pass, all of this shape**: a wall-audit premise taken from an
+arc's text rather than from the ledger that had corrected it; a bootstrap test served by state
+it was supposed to create (`/tmp/sweep` already populated — E78 exactly); and a branch-registry
+audit that matched `git branch -r`'s full refs against a table which deliberately records
+**leaves**, reporting three false gaps (E75 exactly, at the level of the audit). None was caught
+by a gate. All three were caught by asking *what is this check actually looking at.*

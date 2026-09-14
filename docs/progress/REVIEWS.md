@@ -5381,8 +5381,23 @@ not**, and the template calls an unclassified unmerged branch a review blocker:
 | `…/standard-model-derivation-0qt6ao` | 2026-09-09 | 82 | **LIVE** — the SM-derivation seat, named in `SM_SEAT_ALIAS_TABLE.md`. Registry entry owed. |
 | `…/new-session-qor5up` | 2026-08-14 | 2589 | **FROZEN-RECORD, a month cold** — needs a disposition (registry entry or delete). |
 
-**The gap is in the registry, not in the knowledge**: two of the three are named elsewhere in the
-record and were *used* this window. That is E53's shape applied to branches. → **R57-1**.
+> **WITHDRAWN 2026-09-14, before this review left the window it audits.** There is **no gap**.
+> All six refs **are** registered — the pin table records each branch by its **leaf**
+> (`origin/outside-bench`, `origin/new-session-qor5up`,
+> `origin/standard-model-derivation-0qt6ao`), deliberately dropping the vendor prefix so the
+> `attribution` gate stays green on a tracked file. **My audit matched on the full ref and so
+> reported three false gaps.** Re-matched on the leaf: 6 of 6 present.
+>
+> **The real finding is the one underneath it, and it survives:** a governance rule (no vendor
+> tokens in tracked text) makes the registry's keys **deliberately unequal to git's keys**, so
+> any branch audit that matches on `git branch -r`'s own output reports a false gap — silently,
+> and in the direction of *more* work rather than less. **The B763 rule should say that the match
+> is on the leaf.** → **R57-1 (restated)**.
+>
+> *This is E75 at the level of the audit itself: I identified the branches by one representation
+> and the registry uses another. Third self-correction in this pass, after the wall-audit premise
+> and a contaminated bootstrap test — each caught by checking rather than by asserting, which is
+> the only reason any of them is in the record as a correction rather than as a claim.*
 
 ## 3. The declared modulus
 
@@ -5466,10 +5481,11 @@ grew by nine classes, and the programme's distance to a value is now stated as a
 
 ### Action items (Review 57)
 
-- [ ] R57-1: three unmerged branches unregistered under the B763 rule — `…/outside-bench` (live, used this window), `…/standard-model-derivation-0qt6ao` (live, named in the alias table), `…/new-session-qor5up` (frozen, a month cold, needs a disposition) (owner: cc; source: Review 57 §2)
-- [ ] R57-2: gloss *graded trace*, *supertrace*, *parameter budget*, *end invariant* in `TERMINOLOGY.md` (owner: cc; source: Review 57 §6)
-- [ ] R57-3: adjudicate the remaining ten openness-asserting candidates from `open_claim_sweep.py`, and decide whether the sweep runs per-window rather than per-review — both instances found today were one day old (owner: cc; source: L220)
-- [ ] R57-4: E80's repair — B1333's fifteen `/tmp/sweep`-rooted scripts cannot re-run from a clean checkout; commit the cache beside them or reroot the paths (owner: cc; source: E80)
+- [x] R57-1 (WITHDRAWN 2026-09-14, same day: there is no gap — all 6 unmerged refs are registered; the audit matched full refs while the pin table records leaves, to keep the vendor token out of tracked text). **Restated as R57-1b.** (owner: cc; source: Review 57 §2)
+- [ ] R57-1b: state in the B763 rule that a branch-registry audit matches on the branch LEAF, not on `git branch -r`'s full ref — the vendor-token rule makes the two deliberately unequal, so a naive audit reports false gaps (owner: cc; source: Review 57 §2, withdrawn R57-1)
+- [x] R57-2 (done 2026-09-14, same day: TERMINOLOGY.md gains all four, with the E78 homonym note on *end invariant* — the corpus's older *Eisenstein-end* / *E₈-end* are a different word): gloss *graded trace*, *supertrace*, *parameter budget*, *end invariant* in `TERMINOLOGY.md` (owner: cc; source: Review 57 §6)
+- [>] R57-3 (PARTIAL, 2026-09-14: 7 of 12 openness-asserting candidates read — 3 stale and fixed, 4 accurate; B921-9 SPLIT into its five conditions, two fixed, one moot, one UNREADABLE-AS-BANKED, one carried as B921-9b with its seven named arcs; 5 candidates remain): adjudicate the remaining ten openness-asserting candidates from `open_claim_sweep.py`, and decide whether the sweep runs per-window rather than per-review — both instances found today were one day old (owner: cc; source: L220)
+- [x] R57-4 (done 2026-09-14, same day: `frontier/B1333_.../verification/bootstrap.py`, ADDITIVE — not one banked line edited, since those scripts are the record of what was run; verified from an empty /tmp/sweep, 22 modules + 30 of 32 degree-10 covers, the other two needing B1333's own documented fallback recogniser): E80's repair — B1333's fifteen `/tmp/sweep`-rooted scripts cannot re-run from a clean checkout; commit the cache beside them or reroot the paths (owner: cc; source: E80)
 - [>] R56-1: THE HARVEST DEBT, carried unmoved (carried from R56-1)
 - [>] R56-2: LAW_MAP living-or-frozen, carried unmoved — third zero-advancement window (carried from R56-2)
 - [>] R56-3: CLAIMS.md lag now 322, carried and worsening (carried from R56-3)

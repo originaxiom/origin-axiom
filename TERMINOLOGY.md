@@ -660,3 +660,24 @@ matrix is the same; the string is reversed; a reader who takes one convention in
 mirror monodromy `[[1,1],[1,2]]`. **Rule: say which.** "LR (word)" or "RL (product)"; never the bare string in a
 new file. (E23 territory — the class where a convention flips silently between files.)
 
+
+
+## Added at Review 57 (2026-09-14) — four terms minted in the B1400–B1409 window
+
+- **graded trace** (also **supertrace**) — for the θ-grading operator `C` and a word `W` in the
+  modular data, `str(W) := tr(C·W) = tr_even(W) − tr_odd(W)`. A **trace, so it takes no vector
+  argument**: it is the ear-free counterpart of the matrix elements the coupling rows read, and it
+  is mirror-invariant (`str(m) = str(15−m)`). Banked at B1406; `str(0) = tr(C) = 2` is the grading's
+  own index. *Not* the physics supertrace of a superalgebra — the name is borrowed for the
+  ℤ/2-graded trace only.
+- **parameter budget** — how many **continuous** parameters a structure attached to the object
+  actually carries, counted as `dim_ℂ` and stated beside the field it is counted over (E73). B1406
+  §3 opened it; B1409 closed the tower and rank rows (`k(n−1)`, verified `n = 2,3,4`). **A budget is
+  ROOM, not parameters**: nothing in it is selected, and R11 would charge for a selection (L219).
+- **end invariant** — in Minsky's classification of punctured-torus groups, the datum attached to
+  each end of a doubly degenerate group; for the object's fibre group the two are the attracting and
+  repelling fixed points of the monodromy on `∂ℍ²` (`φ` and `φ′` at `m = 1`). **Marking-dependent as
+  numbers**: the invariant is their `SL(2,ℤ)` orbit, and every member is *noble* (continued fraction
+  periodic part `[1]`). B1404. **Distinct from** the corpus's older hyphenated uses — *Eisenstein-end
+  invariant* (B318), *E₈-end invariants* (L75) — which are a different word entirely (E78's homonym
+  hazard; a bare grep for "end invariant" returns those and not this).

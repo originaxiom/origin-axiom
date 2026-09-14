@@ -778,7 +778,8 @@ clause, not the whole normalisation.
 | B921-6 | Cell 3 spin fork (= L7): the two spin structures of m004 are DISTINGUISHED by cusp data (ρ₁ trace pattern (2,−2), ρ₂ (−2,−2)); ρ₁ is non-Lie under BOTH conventions ⇒ discrete Dirac spectrum ⇒ spinor-Hejhal is AUTHORIZED  | OPEN — routed from the harvest manifest §4 |
 | B921-7 | [MAIN-STATE] L9 cheapest recovery: Gate 8R2-A closable — "both instruments exist" (L112 + B878's harvested mesh-scanning solver is option (b)); connect them. | OPEN — routed from the harvest manifest §4 |
 | B921-8 | [MAIN-STATE] L9 dropped forward obligations: B878 §4.5 items (a_π census, Steil read, parity census, J-normalization); B849's carried list (BC/CMR test, CS-torsion prior-art gate, the 370-geodesic phantom); B787 §4 items | OPEN — routed from the harvest manifest §4 |
-| B921-9 | [MAIN-STATE] L10 ledger debts (route as one register-sweep lead): THEOREM_REGISTRY/LEDGER zero B8xx/B9xx rows; RETRACTIONS ≥5 missing rows; ROADMAP Tier-3 false; LAW_MAP five orphan rows; COMMS_PROTOCOL no legal name for | OPEN — routed from the harvest manifest §4 |
+| B921-9 | **SPLIT AND ADJUDICATED 2026-09-14 (R57-3).** This was a **compound row** — five conditions under one `OPEN` — and so could be neither closed nor carried as a unit; three of the five had changed status without anyone able to say so. Each is now checked by a command, not asserted: **(a) THEOREM_REGISTRY/LEDGER zero B8xx/B9xx rows — FIXED** (registry **46**, ledger **30**). **(b) RETRACTIONS ≥5 missing rows — STILL OPEN, and understated: it is 7** of 12 `RETRACTED` arcs with no row (B702, B780, B192, B58, B1181, B216, B731) → carried as **B921-9b**. **(c) ROADMAP Tier-3 false — MOOT**: the ROADMAP no longer carries Tier-3 language at all, so the claim has no referent; superseded, not fixed. **(d) LAW_MAP five orphan rows — FIXED** (0 orphans of 209 rows; every row cites an arc id). **(e) COMMS_PROTOCOL no legal name for — UNREADABLE: the condition is TRUNCATED IN THE SOURCE**, ending mid-sentence at *"no legal name for"*, and has been since it was banked. It cannot be adjudicated and is not carried; if it mattered, it must be re-posed. | **CLOSED as a row** — (a) and (d) fixed, (c) moot, (e) unreadable; only (b) survives, as B921-9b |
+| **B921-9b** | **RETRACTIONS.md is missing 7 of 12 `RETRACTED` arcs**: B702_metallic_hearing_law, B780_galois_reversal_gate, B192_sln_higher_rank, B58_sl4_tower_test, B1181_amphichirality_closure, B216_period_law_f8_boundary, B731_object_observer_noncongruence. The `retraction-sweep` gate is green, which means it checks something other than completeness against the verdict files. | OPEN — split from B921-9 at R57-3, 2026-09-14, with the seven named |
 | B921-10 | L11 the paper void: named deliverables with zero drafts; the un-externalizable pile includes P69/P70, the sealed crossing negative, 21 §F laws, the 43-eigenvalue dataset (now + the branch's 25-digit lam_2). | OPEN — routed from the harvest manifest §4 |
 | B921-11 | [PROCESS] The loss-audit pattern finding: nothing gates register COMPLETENESS against the carried-forward sections of banked FINDINGS; a standing sweep of "Carried forward"/"Open items" sections across frontier/ into OPE | OPEN — routed from the harvest manifest §4 |
 | B921-12 | Conditions C2–C7 must be done before any cell9 rung-(i) run banked under the sealed chain: C2 non-convergence abort after itmax; C3 self-labeling shakedown JSON; C4 correct the prereg stamp 3ba81779→169e9042 + stale v2 d | OPEN — routed from the harvest manifest §4 |
@@ -2706,9 +2707,23 @@ real staleness candidates.
 scorers are mostly *correct* citations (a doc describing a result, matched to the arc that proved it),
 so the sweep is a **candidate generator and not a verdict**, and each remaining row needs a read.
 
-**The lead:** adjudicate the remaining ten, then decide whether the sweep should run on a cadence —
-the two found today were both **one day old**, which suggests the useful interval is *per-window*, not
-per-review. **And note what this says about the wall re-audit that motivated it:** the premise —
+**PARTIALLY DISCHARGED, same day (R57-3).** Seven of the twelve now read: **3 stale** (the two
+above plus **B921-9**, which is *old and not this bench's* — its first condition,
+*"THEOREM_REGISTRY/LEDGER zero B8xx/B9xx rows"*, is falsified at **46** and **30**) and **4
+accurate** (`THE_SM_VERDICT`'s *"object-specificity lives at the group level"*;
+`CROSSING_REQUIREMENTS`' *"as of B1101 no licensed candidate class"*, which B1407 made **more**
+true; H4's minimality question; the Review-37 scoped-stale note). **So the instrument is
+high-recall and moderate-precision — a candidate generator needing a read per row, never a
+verdict** — and the per-window reading is **wrong on its own evidence**: B921-9 is old, so
+staleness accumulates at both ends and the sweep earns a run at review cadence *as well*.
+
+**B921-9 also named a shape:** it was a **compound row**, five conditions under one `OPEN`, so it
+could be neither closed nor carried as a unit — and one of the five (**COMMS_PROTOCOL**) turns out
+to be **truncated in the source**, ending mid-sentence at *"no legal name for"*, unadjudicable
+since the day it was banked. It is now split; only the RETRACTIONS condition survives, as
+**B921-9b**, with its seven arcs named.
+
+**The lead, reduced:** read the remaining five. **And note what this says about the wall re-audit that motivated it:** the premise —
 "walls get banked and never corrected" — was **not** borne out on its own test case (wall #4's
 correction *was* propagated, into `HINT_LEDGER` at H72/H80). The staleness that exists is in **leads
 and ledgers, not walls**, and it is days old rather than months.
