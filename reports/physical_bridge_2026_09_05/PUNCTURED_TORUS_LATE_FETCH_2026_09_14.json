@@ -1,0 +1,32 @@
+{
+  "scope": "Follow-up fetch after the pinned history scan; no repeat of the old absence census",
+  "paper_review_head": "31cfd0325d947f797fcd480d2acc32ed526e2913",
+  "outside_head": "d3309b1d7881c2c573622ddb621e0444ff9d1909",
+  "incoming_changes": {
+    "paper_review_commits": 8,
+    "outside_commits": 16
+  },
+  "files": [
+    {
+      "commit": "31cfd0325d947f797fcd480d2acc32ed526e2913",
+      "path": "frontier/B1404_the_family_has_a_name/FINDINGS.md",
+      "bytes": 19975,
+      "sha256": "ca3e05ed5f86cd8c2967e4a7e4cecd96424e280daedae7978440c6470ba3f5d6",
+      "reading": "complete personal read; not executed"
+    },
+    {
+      "commit": "31cfd0325d947f797fcd480d2acc32ed526e2913",
+      "path": "frontier/B1404_the_family_has_a_name/b1404_the_family.py",
+      "bytes": 16153,
+      "sha256": "80fc0753eb72bb14c4dc54f5d63e3d68251c575b7e3be1b87c6bab205d34fa99",
+      "reading": "complete personal read; not executed"
+    },
+    {
+      "commit": "31cfd0325d947f797fcd480d2acc32ed526e2913",
+      "path": "docs/SM_SEAT_ALIAS_TABLE.md",
+      "bytes": 8654,
+      "sha256": "89bc123d550cc0d421ac42c49537c4e32fa0ebfee5f4560a7c541f0a68561209",
+      "reading": "complete personal read; not executed"
+    }
+  ]
+}

@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**GEOMETRY/SOURCE REVIEW, 2026-09-14:** Minsky, Thurston and Jorgensen's
+1977 paper have been read completely; the 2003 chapter remains unread.
+The compact orbifold construction keeps the return matrix distinct from
+the peripheral relation; the surface/fibre-cover/quotient types stay separate.
+Invariant end directions do not alone select a quotient period; physical
+norms and interface gluing still belong to the actual operator domain.
+R19's conditional chiral kernel and R29's bosonic source are preserved.
+The resolved fermion/source-end calculation remains next; no new spectrum
+or physical selection law is claimed. Report:
+reports/physical_bridge_2026_09_05/PUNCTURED_TORUS_GEOMETRY_2026_09_14.md.
+
 **SOURCE AUDIT, 2026-09-13 (after R29):** the primary Jorgensen/Callahan
 selector is stronger than the received two-generator-only reading;
 ambient group generators are not the integer record state space.

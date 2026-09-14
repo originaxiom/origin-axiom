@@ -1,5 +1,15 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Geometry/source review, September 14:**
+[Minsky, the fibre cover and the physical boundary problem](PUNCTURED_TORUS_GEOMETRY_2026_09_14.md).
+All 68 Minsky pages, all 32 Thurston pages and the complete 1977 Jorgensen
+paper were read personally; the 2003 Jorgensen chapter remains unread.
+The compact orbifold construction distinguishes return dynamics from
+the peripheral relation. The fibre cover, quotient and physical Hilbert
+domain are kept distinct. This preserves R19's conditional kernel
+and the R29 source model; it does not execute the resolved fermion problem.
+[Reading and history custody](PUNCTURED_TORUS_READING_2026_09_14.md).
+
 **Subsequent source audit, September 13:**
 [Jorgensen's geometric selector](JORGENSEN_SOURCE_AUDIT_2026_09_13.md)
 is retained from the original theorem, including its stronger

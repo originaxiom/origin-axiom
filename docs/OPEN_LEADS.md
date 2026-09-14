@@ -2904,3 +2904,26 @@ Carry forward, not a new absence assertion:
 - Keep a base-object selector distinct from later covers/fillings and
   sourced sectors. PB-BOUNDARY still requires the same finite-width/end
   fermion action, actual domain, full anomaly and normalized currents.
+
+**Punctured-torus literature follow-through, 2026-09-14:** Minsky,
+Thurston and Jorgensen 1977 have been read completely. Only the distinct
+2003 Jorgensen chapter remains an access/reading duty. The assessment does not close
+PB-BOUNDARY. It requires the fibre embedding, actual return word and
+quotient period before importing the surface-group geometry. Positive
+return powers share limiting directions, so those directions alone
+cannot choose the finite quotient. Do not replace a finite-volume
+field norm with whole-cover L2 or treat artificial fibre cuts as
+independent physical boundaries. R19's two-cusped m202 and the
+E6-valued L71 deformation are not automatically in the punctured-torus
+surface-representation problem. Next derive R29's fermion action/domain,
+track core-gluing modes and the complete cusp limit, then anomalies and
+normalized currents in that same model. R19/R26 positives stay scoped
+and are not retracted. Jorgensen's finite-n orbifold family supplies a
+concrete comparison with the same abelianized return polynomial but a
+different peripheral relation. Any cusp limit or map to a filling must
+be certified separately; no specific filling identification is asserted.
+Thurston's drilled geometric limits require tracking group, topology
+and geometry together, not transferring a fermion index from traces.
+These geometric leads are retained, not substituted for PB-BOUNDARY.
+No new spectrum execution is claimed.
+Report: reports/physical_bridge_2026_09_05/PUNCTURED_TORUS_GEOMETRY_2026_09_14.md.

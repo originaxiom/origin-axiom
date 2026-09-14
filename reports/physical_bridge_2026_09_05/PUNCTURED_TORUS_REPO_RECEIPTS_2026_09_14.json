@@ -1,0 +1,51 @@
+[
+  {
+    "commit": "d08d1f9834f2e5ceb92ff6e33c2ea1f466446a80",
+    "path": "frontier/B1400_the_six_sweeps_intaken/FINDINGS.md",
+    "bytes": 9858,
+    "sha256": "026902678616381a6cd321ea86de12b4e4e72bf01e9a4d1817084648bbbdc153",
+    "read": "complete; incoming scientific conclusions not independently recertified"
+  },
+  {
+    "commit": "d08d1f9834f2e5ceb92ff6e33c2ea1f466446a80",
+    "path": "docs/SM_SEAT_ALIAS_TABLE.md",
+    "bytes": 8518,
+    "sha256": "e402727f00d53a681ea211f94da2072b5af10831ff8aab3a73a0c6ab3507423f",
+    "read": "complete; incoming scientific conclusions not independently recertified"
+  },
+  {
+    "commit": "d08d1f9834f2e5ceb92ff6e33c2ea1f466446a80",
+    "path": "docs/handoffs/LINEAGE_DECISION_2026-09-13.md",
+    "bytes": 6236,
+    "sha256": "5033e14dfeb0084ffbb326aba2d30ad8e867e9f5353e5b822ae8f5aa729ef5a9",
+    "read": "complete; incoming scientific conclusions not independently recertified"
+  },
+  {
+    "commit": "d2d70b692dc473f4dbffd57a62fa400567696ee2",
+    "path": "outside_bench/memos/THE_PERIPHERAL_ROUTE_IS_EXHAUSTED.md",
+    "bytes": 6228,
+    "sha256": "4836fa9a0a3d007bb7c05ffd04075d3a04a4aaa347a5ac3873716b76d0191893",
+    "read": "complete; incoming scientific conclusions not independently recertified"
+  },
+  {
+    "commit": "d2d70b692dc473f4dbffd57a62fa400567696ee2",
+    "path": "outside_bench/seals/L71_CUSP_SLOPE_PREREG.md",
+    "bytes": 4512,
+    "sha256": "788faf6fd92a0674109f38307cdf1725bb9f28c298e533956e181d47fc19ad31",
+    "read": "complete; incoming scientific conclusions not independently recertified"
+  },
+  {
+    "commit": "d2d70b692dc473f4dbffd57a62fa400567696ee2",
+    "path": "outside_bench/certificates/is_anything_real_on_it.py",
+    "bytes": 6656,
+    "sha256": "f34383be62923eea58bddeecc588672ee496b115ac1e238a77744cf56fb57ac9",
+    "read": "complete; incoming scientific conclusions not independently recertified"
+  },
+  {
+    "commit": "d2d70b692dc473f4dbffd57a62fa400567696ee2",
+    "path": "outside_bench/outputs/is_anything_real_on_it.txt",
+    "bytes": 4227,
+    "sha256": "757ce3f23934ce6a6316bf08a526790ec26b91ddb8ec73051078823b5662f04c",
+    "read": "complete; incoming scientific conclusions not independently recertified"
+  }
+]

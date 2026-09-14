@@ -1,8 +1,18 @@
 # CC's banking relay read before the next local checkpoint
 
-Latest intake: the owner-requested Jorgensen primary-source audit below.
+Latest intake: the owner-requested punctured-torus literature assessment
+in [the reading receipt](PUNCTURED_TORUS_READING_2026_09_14.md). No B
+number is used, no main pointer moved, and no new scientific run claimed.
+The supplied 1977 Jorgensen article and Thurston PDF are now completely
+read; the 2003 chapter remains unread. B1404's later report/producer
+have been inspected with explicit reception limits. The Jorgensen
+primary-source audit below is retained as the preceding checkpoint.
 The latest executed science remains R29, committed and pushed as d88d6042;
 its coupled source/gauge result and verification are in [DEFECT_GAUGE.md](DEFECT_GAUGE.md).
+The [literature reporting check](PUNCTURED_TORUS_FINAL_CHECKS_2026_09_14.txt)
+preserves the first path-citation failure and the repaired follow-up:
+26 gates pass and the same four inherited gates fail. The independent
+main-banking duty and full-suite debt remain open.
 The following earlier checkpoint entries are retained as historical receipts.
 
 Earlier path-local checkpoint, September 13: R28's scientific seal

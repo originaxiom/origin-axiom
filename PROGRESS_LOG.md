@@ -14869,3 +14869,26 @@ certified. The finite-width fermion/domain task remains the physical
 priority, alongside a non-circular geometry-to-record reconstruction.
 No scientific run, B allocation, branch merge or main bank.
 Report: reports/physical_bridge_2026_09_05/JORGENSEN_SOURCE_AUDIT_2026_09_13.md.
+
+
+## 2026-09-14 — Punctured-torus geometry: the cover, quotient and physical domain
+
+Personal reading of all 68 Minsky pages, all 32 Thurston pages and the
+complete 12-page Jorgensen 1977 article clarifies the surface-group
+entrance and the orbifold/core comparison. End directions do not
+alone choose a quotient period. A periodic field's finite base norm
+cannot be replaced by whole-cover L2, and artificial fibre cuts require
+gluing rather than independent chiral boundary data. The R19 singular
+three/zero result and R29 bosonic source remain on their stated domains;
+the source-resolved fermion calculation is still next.
+All-reference/history retrieval scanned 28304 unique blobs and preserves
+its scope and raw receipt; name counts do not certify theorem coverage.
+The supplied screenshots discharge the 1977 reading duty; the distinct
+2003 Jorgensen chapter remains unread. The finite-n compact construction
+keeps the peripheral relation separate from the integer return matrix;
+no cusp-limit or particular filling identification is certified.
+A later fetch brings in B1404's Minsky connection; its complete report
+and producer were read but not rerun. Earlier zero-name counts stay
+historical. The fixed-direction/return-power equivalence is not adopted.
+No new scientific execution, B allocation, main bank or completed TOE.
+Report: reports/physical_bridge_2026_09_05/PUNCTURED_TORUS_GEOMETRY_2026_09_14.md.
