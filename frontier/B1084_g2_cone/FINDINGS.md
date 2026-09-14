@@ -98,3 +98,34 @@ verifier re-run by exec with **0 items reporting FAIL**). Seal:
 `outside_bench/seals/THE_REOPENED_G2_HATCH_PREREG.md` ADDENDUM 1 (**BENCH ERROR #35**: the cell's *number*
 reproduces §3 and is not news; its *derivation* is what is new). Gate 5 untouched; nothing promotes to
 `CLAIMS.md`.
+
+### CORRECTION to the addendum above (same day, 2026-09-14): **B1353 GOT THERE FIRST AND WENT FURTHER**
+
+The addendum above says the outside bench's direct computation is *"the first valid derivation"* of §3's
+isolation verdict. **That is wrong, and is corrected here rather than struck.**
+
+**`frontier/B1353_the_isolated_enhancement_point` (PROVED, 2026-09-09, on the SM-derivation head — absent
+from main and from the bench's branch)** answers main's E70 scope of B1259 directly and supplies exactly the
+derivation the addendum claims: it enumerates by Goursat **all fourteen** stabiliser groups Γ_p ⊂ SO(4) with
+kernel 2T, **this arc's Ĝ among them as `(D*₂, C₄; 2O)`**, reproduces this arc's census {3d: 53, 1d: 42}
+exactly, and proves in two lines that every A-type plane through the apex meets the E₆ plane P in a line:
+
+> *"the A-planes [are] `axis(l) ⊕ {x : l x = x r}` (l ~ r, l ≠ ±1) — and each A-plane contains the line
+> `axis(l) ⊕ 0 ⊂ P`. The intersection is exactly that line."*
+
+It also corrects §3's **mechanism** in the direction the addendum above only half-states, and reports a fact
+neither §3 nor the addendum has: **the apex IS an isolated fixed point of the group** in all fourteen models
+— *"B1084's 'isolation fails' read the elements; the group isolates"* — and **A₁/A₁ planes do meet only at
+the apex (216 of this arc's 435 pairs)**, so the flat class fails specifically at **A₁/E₆**, not at
+isolation as such. In B1353's words: *"B1259's conclusion stands with its mechanism corrected: not 'no
+element isolates' but 'no stratum collides'."*
+
+B1353 further closes the detector — the flat apex's link `S⁶/Γ_p` has **b₂ = 0** so there is no C-field
+U(1), and **E₆ has no cubic Casimir** so no anomaly can force or detect a count — and **`B1355`** names the
+curved replacement: the **G₂ cone over CP³/2T**, where E₆ and A₁ meet only at a curved non-orbifold apex
+with **b₂ = 1**.
+
+**So §3's verdict is right, its derivation is E70-class, and B1353 is the arc that repaired it.** The
+outside bench's cell (`outside_bench/certificates/the_reopened_g2_hatch.py`) is a correct **reproduction on
+one of the fourteen models** and is marked SUPERSEDED BY B1353 in its own seal. No priority is claimed for
+it. Nothing above is struck; Gate 5 untouched.

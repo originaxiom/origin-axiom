@@ -131,3 +131,63 @@ about and did not compute.
 All fences in the pre-compute text stand unchanged: nothing is claimed about what Acharya–Witten formally
 requires, no chiral matter is derived, I-26 remains UNEARNED, and everything here concerns **flat**
 orbifolds, the class B1259 closed. **Nothing above is struck.** Gate 5 untouched.
+
+---
+
+## ADDENDUM 2 (2026-09-14) — **THIS CELL IS SUPERSEDED IN FULL BY B1353**, which did more of it, five days earlier, on a head this bench had never diffed. **BENCH ERROR #34, THIRD INSTANCE — AND THE INSTRUMENT IS NOW FIXED.**
+
+**`frontier/B1353_the_isolated_enhancement_point` (PROVED, 2026-09-09, on
+`<seat>/standard-model-derivation-…`, absent from this branch and from main)** asked this cell's exact
+question — it is titled *"main's E70 scope of B1259 answered"* — and answered it across **fourteen local
+models** where this cell did one. Its row for **B1084's own Ĝ**, `(D*₂, C₄; 2O)`:
+
+| | B1353's row 8 | this cell |
+|---|---|---|
+| \|Γ_p\| | 96 | 96 (control G1) |
+| fixed dims of non-trivial elements | 42, 53 | {3: 53, 1: 42} (control G1) |
+| **apex isolated** | **yes** | R1 holds — same |
+| **distinct A-planes through 0** | **30** | 30 |
+| **A ∩ P** | **line, always** | **{1: 30}** — same |
+
+**Everything this cell reported, B1353 reported first and more of**, including the structural reason: its
+two-line proof gives `Fix(g) = Fix_{Im ℍ}(Ad l) ⊕ Fix_ℍ(x ↦ l x r⁻¹)`, so the A-planes are
+`axis(l) ⊕ {x : l x = x r}` and *"each A-plane contains the line axis(l) ⊕ 0 ⊂ P. The intersection is
+exactly that line."* — the same fact this cell found as "ℝ³⊕0 meets (line in ℝ³)⊕(plane in ℍ)", stated
+uniformly in `n` rather than for one group.
+
+**And it goes past this cell in three directions this cell explicitly declined:**
+1. **The AW literature question this cell called out of scope, B1353 settles with verbatim citation** —
+   Witten hep-th/0108165 (*"not just an orbifold singularity"*), Acharya–Witten hep-th/0109152
+   (*"worse-than-orbifold"*), Acharya–Gukov hep-th/0409191.
+2. **The detector, not just the geometry:** the flat apex's link is `S⁶/Γ_p` with **b₂ = 0**, so there is no
+   C-field U(1); and **E₆ is anomaly-free** (no cubic Casimir), so nothing at the apex can carry *or detect*
+   a count.
+3. **A₁/A₁ collisions at a point DO occur in the flat class** — *"216 of B1084's 435 pairs"* — so the flat
+   class fails specifically at **A₁/E₆**, not at isolation generally. This cell never looked at A₁/A₁ pairs
+   and would have reported the wrong shape of the obstruction.
+
+**And `B1355_the_e7_point_made_explicit` (PROVED, same head) then walked the door this bench was about to
+recommend as never attempted** — the curved model is named: **the G₂ cone over CP³/2T**, the Bryant–Salamon
+cone over nearly-Kähler CP³ quotiented by the object's own McKay group, with E₆ and A₁ loci meeting **only
+at a curved non-orbifold apex**, link `b₂ = 1`, `∫_U w ≠ 0`.
+
+### The error, and the instrument
+
+**#34 was minted on this bench as "Diff the frontier against EVERY head before calling anything unrun" —
+and was never built into the tool.** `the_branch_gap.py` diffs **one** sibling. The all-heads diff, built
+today as `outside_bench/certificates/the_frontier_gap_all_heads.py`, reports:
+
+- **185 arcs absent from this branch**, not the 35 filed at #34 — the union over all heads is **1428**
+  against this branch's **1243**;
+- run with this cell's own terms (`acharya`, `isolated`, `enhancement`, `E6 locus`, `cone`), **B1353 scores
+  5/5 and prints first** — *the instrument would have stopped this cell before it was sealed.*
+
+**A rule that lives in a memo and not in an instrument is not a rule.** That is the transferable finding
+here, and it is the only thing this cell contributes that B1353 does not.
+
+### Disposition
+
+**This cell is SUPERSEDED BY B1353.** Its computation is correct and its controls pass; it is a
+**reproduction on one of fourteen models**, and no claim of priority, novelty or first-valid-derivation
+stands. ADDENDUM 1's repair claim is corrected accordingly in place below and at
+`frontier/B1084_g2_cone/FINDINGS.md`. Nothing is struck. Gate 5 untouched.
