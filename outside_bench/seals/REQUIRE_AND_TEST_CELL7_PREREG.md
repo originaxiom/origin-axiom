@@ -59,3 +59,38 @@ everything, the instrument is not measuring parity at all and the cell says so.
 That mirror-even requirements are satisfiable — the law says nothing about them, which is the point.
 That the four value groups are exhaustive — B1227's list is cited, not extended. That any requirement
 outside §A has been classified. No value.
+
+---
+
+# ADDENDUM 1 (2026-09-14) — THE OBSERVABLE CARRIED MORE THAN THE PREDICATE
+
+**Control C-EVEN failed on `5_2 : P_atom` in the first run.** The instrument was right; **the seal's
+observable was wrong.**
+
+**P_atom is the predicate `all_in_Q(sqrt-3)`** — a boolean. The certificate's observable bundled the
+**list of tetrahedron-shape minimal polynomials** alongside it, and compared *that*. The boolean agreed
+on every manifold (m004 True/True, m412 True/True, **5₂ False/False**). Only the polynomial list
+differed, and it differed for a stated reason:
+
+| | 5₂ | its mirror |
+|---|---|---|
+| shape min polys | `[1,−2,3,−1]`, `[1,−2,1,−1]` | `[1,−3,2,−1]`, `[1,−1,2,−1]` |
+
+**These are exact reciprocals.** Reversing `[1,−2,3,−1]` gives `[−1,3,−2,1]`; negating gives
+`[1,−3,2,−1]`. Same for the second. A polynomial and its reciprocal have roots z and 1/z, which
+**generate the same field** — so the *field* is unchanged and P_atom is mirror-even, exactly as the seal
+derived. What changed is SnapPy's normalisation of the shape under `reverse_orientation`, a **convention
+of the triangulation, not a fact about the manifold.**
+
+**CORRECTED CONTROL C-EVEN, and it is strengthened rather than weakened:** the claimed-even predicates
+must agree as **predicates**, **and** wherever the shape-polynomial lists differ, the certificate must
+**verify that the two lists are related by polynomial reciprocal** — the explanation is computed, not
+asserted. A difference that is *not* reciprocal still fails the cell.
+
+**This is the third mis-specified control in this programme** (Cell 3's L1 imported a number from the
+wrong frame; Cell 4's M2 chose a probe that could not pass; this one bundled convention-dependent data
+into a predicate). All three were caught by controls rather than by re-reading, and all three were this
+bench's own seals being looser than the thing they were testing. **The pattern is now named: an
+observable must be exactly the predicate, and no more.**
+
+**Not changed:** the parity claims, the test, the two outcomes, or C-DISC.
