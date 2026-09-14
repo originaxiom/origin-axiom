@@ -64,3 +64,38 @@ must not be sold as a live test of the vanishing: since B1330 was written, **B13
 stated domain**, and **B1331/B1332 reduced the one-cusped case to ISOTROPY**, which has held across 128
 genuine scalar equations on six further manifolds with zero non-isotropic. **A sixth zero is bookkeeping,
 not news**, and this cell says so in advance. No value. Gate 5 untouched.
+
+---
+
+# ADDENDUM 1 (2026-09-14) — "BOOKKEEPING, NOT NEWS" WAS TOO WEAK, AND THE REASON IS COMPUTABLE
+
+The seal above rated t12835 **"bookkeeping, not news"** on the grounds that **B1334 has PROVED I = 0 on
+a stated domain**. That rating is **wrong on these manifolds**, and the correction is arithmetic.
+
+**B1334's theorem quantifies over S⁰** — the identity component of
+`S = Hom(H₁(M)/⟨peripheral⟩, ℂ*)`, *"a torus of dimension rank(H₁(M)/⟨peripheral⟩)"*. So its reach on a
+given manifold is decided by that rank. Computed here, on the four best-case objects:
+
+| manifold | H₁ | gens | rank(rels + peripheral) | **rank(H₁/⟨peripheral⟩)** |
+|---|---|---|---|---|
+| s958 | ℤ/3 ⊕ ℤ | 3 | 3 | **0** |
+| t12833 | ℤ/6 ⊕ ℤ | 3 | 3 | **0** |
+| t12835 | ℤ/6 ⊕ ℤ | 3 | 3 | **0** |
+| v2873 | ℤ/6 ⊕ ℤ | 2 | 2 | **0** |
+
+**Rank 0 means S⁰ is a single point — the trivial character.** So on exactly these manifolds **B1334's
+theorem covers χ = 1 and nothing else**, and **every order-3 cusp-trivial sector — which is the entire
+reason these are the "best-case" objects — lies OUTSIDE the proof.**
+
+This agrees with, and makes concrete, B1332's own framing: *"B1334's addendum leaves isotropy as the
+ONLY live route for the one-cusped case."* **The computed reason it leaves it open is that the
+one-cusped best-case objects have rank(H₁/⟨peripheral⟩) = 0.**
+
+**The corrected rating.** t12835 is **not** a sixth confirmation of a theorem that already covers it. It
+is the last un-run member of the only family where the vanishing is observed but **unproved**, in
+sectors no banked theorem reaches. That is a higher value than the seal first assigned — and the
+correction is recorded here, before the result is known, rather than after.
+
+**What does NOT change:** the outcomes A/B, every control, and every fence. In particular B1331/B1332's
+isotropy evidence still stands and still holds across 128 scalar equations, and a null on t12835 is
+still a null, not a proof. **No value. Gate 5 untouched.**
