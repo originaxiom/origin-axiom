@@ -4989,3 +4989,81 @@ sweep with it reported **38 of 38 covers amphichiral**, caught only by compariso
 the trace-field instrument at **double** precision returned **degree 11 garbage** for m004's degree-2
 field, caught by its own positive control. **Both failures are reproduced inside the certificate**,
 so the wrong instruments are on the record and not only their repairs.
+
+---
+
+## R142 — "what did we learn from my question, and can we find the source of what we miss?" (2026-09-14)
+
+### R142-1 — what the question produced, and it inverted its own premise
+
+The premise was *"we're computing a part (complement, mirror, shadow), not the whole — where's the
+rest?"* **The parts are not missing. Each has been computed, and each is a PRICE.** Three new
+verified facts this turn:
+
+* the mirror map is an **automorphism** — 8 isometries to the mirror, determinants `{−1, +1}`,
+  symmetry group **D₄**;
+* **eight hyperbolic fillings, `√−3` in none** — the bulk, re-verified independently against C8;
+* **the tower first breaks the mirror at DEGREE 5** — a sharper datum than the record carried
+  (B1324 censused *at* degree 10; the **first** chirality degree is smaller and was not surfaced).
+
+> **And all three trace to the same two places: the ENTRANCE (C4, axiom 5) or OPENNESS (C8). None
+> traces to a missing piece of the object.**
+
+### R142-2 — the source: located, and it is a FOUR-WAY FORK with one branch left
+
+| exit | what it gives | state |
+|---|---|---|
+| **inside the object** | amphichiral; two-or-nothing at every fixed locus | **CLOSED** |
+| **the bulk** (filling) | destroys the atom — 8/8 fillings verified here | **CLOSED** (C8) |
+| **the tower** (covers) | keeps the atom, breaks the mirror — **index still 0 to degree 10** | **OPEN past degree 10** |
+| **a different substrate** (three records) | remembers the bit, **loses the atom** | **CLOSED** (B1323 / F9) |
+
+> **Three closed, one open at a named boundary.** That is what "finding the source" amounts to
+> right now: **the absence is localised to a fork, and the only unexamined branch is the object's
+> own covering tower past degree 10.**
+
+### R142-3 — and the KIND of the absence, which is the real answer
+
+**C16, the threefold refusal:** every banked refusal-to-close falls into three classes, and the
+largest is
+
+> **NO POINT (×8) — the torsor lack — *the object provides the group, never the choice*.**
+
+**This session landed there twice more, independently.** Door 3: KMRT's cubic is a **free
+classifying parameter** — the map *"trialitarian algebra ↦ its cubic"* is **surjective**, so the
+formalism accommodates every cubic and singles out none. And the price ledger's **largest source is
+the listener map** (4 of 14 rows) — which is *by definition* the map from a structure to a physical
+quantity.
+
+> **What is missing is not a PART of the object. It is an IDENTIFICATION — a point in a family the
+> object supplies whole.** A measured value *is* a point. **That is why the chain completes as
+> structure and stops at values, and it is one fact, not a list of gaps.**
+
+### R142-4 — a count coincidence, REFUSED
+
+`NO POINT` has **8** instances; memo 223's irreducible price has **8** sources. **These are not the
+same eight and must not be joined.** Different populations (refusals-to-close vs unearned
+identifications), different dates (B750 predates the identification ledger), and **B1223's precedent
+forbids an order/count match as evidence.** *Recorded so the temptation is on the record and
+declined, not so it is used.*
+
+### R142-5 — the one structural hypothesis this makes available, and it is NOT tested
+
+Every route to the object assumes **A1, the two-record substrate** — and memo 226 showed that even
+**Jørgensen's characterisation assumes it** (a *"Jørgensen group"* is by definition two-generator)
+rather than deriving it. **B1323 shows two records is exactly the choice that forgets handedness.**
+
+> **So the missing chirality may be traceable not to a gap in the object, but to the axiom that
+> selected the object.** **This is a hypothesis, not a finding** — it is stated because this
+> session's work is what makes it available, and it has **not** been tested. Its obvious kill
+> condition is the tower: if a higher cover carries a nonzero index, the absence is *not* A1's doing.
+
+### R142-6 — the honest bottom line
+
+**Yes, we can find the source, and to a large extent we have: it is a torsor lack, established from
+eight independent directions and re-confirmed twice this session.** What we have *not* got is a way
+past it from inside the object — **three of four exits are closed by computation, not by fatigue.**
+
+> **The one thing left that is computable rather than philosophical is the tower past degree 10.**
+> Everything else on the list needs an identification the object does not supply — which is the
+> price ledger's 12, in other words.
