@@ -1,5 +1,89 @@
 # Changelog
 
+## L208 CLOSED IN BOTH HALVES (B1402, B1403), AND THE OBJECT'S FAMILY IDENTIFIED: it is Minsky's punctured-torus groups, classified by end invariants, and the corpus had the defining condition banked 442 times across 187 files without the name (B1404)
+
+**L208 closed in both halves, and the object's family identified.** Three arcs, one of them a
+verification-on-receipt.
+
+**B1402 — the three cuts are one structure (L208's first half).** `gcd(m,15) > 1` decomposes as
+`(3\|m) or (5\|m)`, and `3\|m` **is** B996's degeneracy condition: the B996-degenerate grammars carry
+the nontrivial forced values while the 5-part is silent. **The mirror speaks exactly where McKay
+access dies** — and *every* grammar reaching the McKay group is on the dead branch, not just the
+golden one.
+
+**B1403 — the second half, closed by domain rather than by relation.** L208 asked how B1002's other
+gcd (cusp-order conductor against shadow modulus) relates to `gcd(m,15)`. **It cannot: their domains
+are disjoint.** A conductor is a Kronecker–Weber object and needs an **abelian** cusp field; verified
+independently at SnapPy high precision on `b++ RᵐLᵐ` that the cusp shape is quadratic **only at
+m = 1** (`τ² − 2τ + 13/12`, disc `−1/3`, `ℚ(√−3)`) **and m = 2** (`τ² + 1/4`, `ℚ(i)`) — both of B675's
+banked fields reproduced from the cusp shapes — and **not** for `m = 3..8`. Both conductor instances
+are units of ℤ/15 and so lie on **branch B**; `gcd(m,15)`'s whole content is on **branch A**, where
+the conductor fails at the first member. **Unaskable as posed, not unknown.** Scope stated: bronze
+non-abelianness is cited from B675, not re-derived. **Three float-before-exact-test bugs in one
+computation** (`Fraction(float(x))` at a `1e-30` tolerance while the answer was `13/12`; controls
+using only dyadic values, so they could not catch it; cusp shapes read through `complex()`), which
+widened **E75 from keys to inputs**.
+
+**B1404 — the family has a name, and the record held every ingredient except the theorem.** A relay
+verified on receipt, 40/40 exact checks plus a corpus audit, with the citation checked against the
+arXiv record rather than taken on trust. **The object's fibre group is a PUNCTURED-TORUS GROUP** —
+Minsky's family: *free, two-generator, discrete, **parabolic commutator***, i.e. `κ = −2`, the Markov
+surface. So the corpus's `κ = −2` (B416/B448/B1248; **442 lines across 187 files**, measured at `d08d1f98` so the audit could not read its own report) is the family's
+**defining condition**, not a computed property, and **E72's one-symbol-two-quantities collision now
+has its reason**: two κ's because two groups. Verified exactly that B1344's own banked triple
+`(2+ω, 1−ω, 1−ω)` satisfies `x²+y²+z² = xyz`, with the Fricke identity **proved symbolically** rather
+than recalled. Minsky classifies the family **by its end invariants**; for m004's doubly degenerate
+fibre group those are the fixed points of `RL` on `∂ℍ²` — **exactly `φ` (attracting, derivative
+`1/φ⁴`) and `φ′` (repelling, `φ⁴`)**, Galois conjugates. **Two corrections that change what may be
+said:** the classified object is the **fibre group**, not m004 — m004's knot group fails the
+definition *decidably* (`|κ + 2| = 3.6055…`, its commutator is not parabolic) — and the two *numbers*
+are a **marking**: an `SL(2,ℤ)` change of basis moves the pair while fixing the manifold, so the
+invariant is the **orbit** (certificate: every member **noble**, continued fraction periodic part
+`[1]`), equivalently `RL`'s conjugacy class, equivalently the dilatation `φ²`. **The programme's
+oldest sentence survives at orbit level and not at digit level** — E76's shape, on the quantity the
+programme cares about most. **Extended in reading, not in arithmetic:** `RᵐLᵐ = X_m²` (T-GIES-FAM), so the
+fixed-point equation is `z² − mz − 1` with discriminant **`m²+4` — B666/B997's shadow modulus** — and
+for `m = 1..8` the end invariant is the m-th **metallic mean**, CF purely periodic `[m]`. **Every
+number there was already banked** (K002 for `λ_m` and its continued fraction; B148/V137 for
+`tr φ_m = m²+2`, the dilatation `λ_m²` and *the `κ = −2` slice is the Markov surface*), which the arc
+discovered only by chasing its own line count into `papers/metallic_one_object/SYNTHESIS.md`. **The
+arc drafted the corpus's own ingredients as an extension — its own finding, committed while
+diagnosing it** — and the section is now recorded as citation. **The
+absence audit corrected:** Minsky, Marden, Maskit, Bromberg, ending laminations and **Epstein–Penner**
+are genuinely absent, while Guéritaud (18), Futer (58 over 32 files), Floyd–Hatcher (25, in
+`THEOREM_REGISTRY`), Lackenby (5) and Jørgensen (93) are **present** — and **two of the six absences
+are invisible to a bare grep**, this corpus containing an Epstein *zeta function* and an
+*Eisenstein-end* invariant. **An audit by name needs a homonym filter in both directions.**
+
+**E75 three times more, a third and fourth mechanism, and a new class E78.** (1) The identification of `κ_meridian` against the banked
+`ω²` failed at a **5.0e−17 residual** with the measurement correct at 60 digits — the **control** had
+built its candidate through `complex(sp.N(…,50))`, one day after the class was widened to inputs.
+Fixed numerically, and then fixed properly: the check was replaced by a **label-free** one, since
+`κ − 2 = ω²` tests which cube root someone chose to call `ω` while `(κ−2)³ = 1` tests the fact.
+(2) On the metallic ladder **every even `m` failed a true statement**, because the Galois-conjugacy
+step substituted `√(m²+4) ↦ −√(m²+4)` into a root that `nsimplify` had already rewritten as `1+√2` —
+a substitution that **silently matched nothing**. No float involved: the same disease in symbolic
+clothing, *identifying an object by its printed form rather than by a property*, fixed by Vieta and
+the minimal polynomial. (3) **The same regex returned two counts, a factor of two apart, depending
+on the process locale**: the corpus-scale count of `κ = −2` used the bracket expression `[-−]2`, and
+outside a UTF-8 locale a bracket expression is **byte-oriented** while the Unicode minus is three
+bytes in a one-byte slot — `LC_ALL=C` gives **215**, `LC_ALL=C.UTF-8` gives **442**, same pattern and
+same corpus, while four full alternatives give 442 under every locale. Invisible from where this
+corpus works, since Python sets `LC_CTYPE=C.UTF-8` for its children, so the script was right and the
+identical command in a plain shell was wrong. Silent, plausible, and one edit from four documents. **And a new class, E78 — the
+SELF-INCLUDING MEASUREMENT:** the absence audit grepped its own directory (every "absent" name
+present, at 1–4 hits, all of them the script), and then, once fixed, was run against a working tree in
+which the arc's prose had already reached eight doc surfaces and reported **nothing absent at all** —
+the six names now "present" in the files saying they were absent. Fixed by pinning every corpus
+measurement to `d08d1f98`. **A count of a corpus without a revision may not even be about the
+corpus.**
+
+**Surfaces:** `THEOREM_REGISTRY` gains a **Tier 0** (T-FAMILY, T-MINSKY, T-ENDLADDER, T-CANON — all
+KNOWN, cited never claimed, recorded so no future arc re-derives them); `NOVELTY_AUDIT` gains **R5**
+on its own blind spot; `ERROR_LEDGER` records E72's literature-side resolution and E75 instances
+#9–#10; `RELAY_LEDGER` rows the intake; **L208 CLOSED**, **L212–L214 registered**; alias table
+**B1405 next**.
+
 ## THE CROSSING'S LAST ROW PRICED AND NOT SPENT (B1340–B1349 + addenda); two forwarded seat reports verified (B1400, B1401); six error classes added
 
 This bench's working branch (the paper-verification branch); **main untouched at `f06d3405`** — none of this has landed on main, which is itself a finding (B1400). **The mirror set, `KIND_TABLE`'s last licensed coupling row, is now fully priced, and the recommendation is still DO NOT SPEND IT.** B1349 posed it (residual freedom 48); addendum 1 paid the exactification debt in `ℚ(ζ₆₀)` and Galois-cut the freedom `48 → 8`; addenda 2–6 settled the arithmetic. **The law:** on the θ-even sector `Re h` is ear-independent **exactly when `gcd(m,15) > 1`** and ear-dependent exactly on the 8 units of ℤ/15 — complete over the period since `ord(R) = ord(L) = 15`, zero violations. **Branch B** ties at `2 − 2 = 0` with provably no third ear-discriminating direction, **and** is excluded on **kind** (its readings carry `1/√2`, generating `ℚ(√2,√5)`, while the row's field is `ℚ(√5)` and `√2 ∉ ℚ(ζ₆₀)`). **Branch A** is kind-eligible — its four forced values `{−1/(2φ), 0, 1/2, 1}` are elements of B1011 C6's banked set — but **the golden word `m = 1`, B997's *unique* McKay-shadow grammar, is a unit and so sits on the dead branch**; branch A therefore requires departing from the object's own grammar at `log₂7 ≈ 2.81` bits, and with that anchor priced it closes on **one reading of four**. **What gates the row now is kind-correctness, not arithmetic** (`OPEN_LEADS` L209). Structural bonus: B997's **shadow modulus** and this law are governed by the **same prime in two roles** — *primality* of `m²+4` picks the golden grammar, *divisibility by 5* decides whether the forced value is golden or rational (L208). Earlier in the window: **B1340** — on the record's vector-like vacuum all six anomaly coefficients vanish identically, so "anomaly-free on the 19 624 vacua" **carries zero bits**, while over a *chiral* spectrum the family part is **forced to `(0,t,−t)`** and the record's `(−10,5,5)` is not of that shape, so **imposing chirality kills P9's `Z′`**; **B1341** — an anti-symplectic map has **no discrete Lagrangian**, so the object's action exists at its monodromy and fails at the formal square root; **B1342/B1343** — the other ADE faces are derivable but **evidentially empty** (the chain is 2T-blind); **B1345** — `J(m004) = 1` **is** B309's banked unit obstruction; **B1346** — the chat1 handoff intaken 34/34. **Two forwarded seat reports verified, every number recomputed here.** **B1400** (chat1's six sweeps): the census-bias headline reproduces **to every digit**, and stratifying by generator count shows the decline lives **entirely in the 2-generator stratum** (`34.23 → 15.36 %`, `z = +7.56`) while 3-generator groups are **flat** (`z = +0.26`), so **the headline understates it by better than 2×** (L211); B993 is **not** corrected (right for its declared 400-manifold sample, and the bias runs *against* the programme's own skepticism); their absent-term list is right on `origin/main` while **8 of its 16 terms are already present on this branch** — a cross-seat visibility matter of E71/E53's class. **B1401** (the relayed `|κ−2|` values): all five exact (m004 `1`, m009 `√2`, m003 `4`, v2873 `3√3`, m202 `7`); the two relayed claims collapse to one, the lower bound being a **corollary** of the invariance; the bound is **attained** on a parabolic *generating* pair, **proved for four of five** (m003 open, L206); and **`J(m004) = 1` alone needs no proviso**, because m004 sits at the **floor** of Jørgensen's inequality — which is exactly why B309's `|κ−2| = 1` is a *unit* obstruction. **Six error classes added, every one from this bench's own mistakes:** **E72** (one symbol, two quantities — κ), **E73** (a count over the wrong base field — `dim` over ℚ of `ℚ(ζ₆₀)` coefficient vectors read as 6 independent readings; over ℝ it is 3, which **reversed a verdict**), **E74** (a *pre-registered* decision rule that was itself mis-derived and would have declared the last licensed row dead on the branch where its arithmetic closes), **E75** (the rounded-canonical-form class, diagnosed after a **fourth** orbit drift: rounded keys and `argmax` pivots both flip at boundaries), **E76** (the unpriced-setting class — a ledger that prices what the question is *about* and leaves the question's *setting* unbilled, which is invisible from inside the arc and systematically favourable), plus an **E66** extension (a predicate *broader* than its stated rule) and **E58** extended from a relay to this seat's own paraphrase. Housekeeping: alias table records B1326–B1349 taken and B1400/B1401 spent (**B1402 next**); a paper impact note written for the seat that owns `main.tex` (one sentence to weaken at line 775, two to strengthen, two to locate); three suite failures that were ours fixed, leaving 11 pre-existing; 31 of 32 gates pass, the remainder the long-declared `doc-currency` debt. **Note on this entry:** `CHANGELOG` and `PROGRESS_LOG` both stopped at **B1324 (2026-09-09)** while 25 arcs landed — the `log-changelog-paired` gate enforces that the two move *together*, not that either moves *at all*. **Arcs B1325–B1339 remain unlogged** and are deliberately not described here, having been banked by earlier sessions on this branch.

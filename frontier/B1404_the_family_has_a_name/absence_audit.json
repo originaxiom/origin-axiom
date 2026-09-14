@@ -1,0 +1,219 @@
+{
+ "base": "d08d1f98",
+ "rows": [
+  {
+   "term": "Minsky",
+   "role": "the classification of punctured-torus groups (1999)",
+   "raw_lines": 0,
+   "after_homonym_filter": 0,
+   "files": 0,
+   "present": false,
+   "sample_files": []
+  },
+  {
+   "term": "Epstein",
+   "role": "Epstein-Penner canonical decomposition",
+   "raw_lines": 15,
+   "after_homonym_filter": 0,
+   "files": 0,
+   "present": false,
+   "sample_files": []
+  },
+  {
+   "term": "Penner",
+   "role": "Epstein-Penner canonical decomposition",
+   "raw_lines": 1,
+   "after_homonym_filter": 1,
+   "files": 1,
+   "present": true,
+   "sample_files": [
+    "speculations/S033_gate1_cusp_swap_weyl.md"
+   ]
+  },
+  {
+   "term": "Marden",
+   "role": "the Marden conjecture / tameness",
+   "raw_lines": 0,
+   "after_homonym_filter": 0,
+   "files": 0,
+   "present": false,
+   "sample_files": []
+  },
+  {
+   "term": "Maskit",
+   "role": "Kleinian-group combination theorems",
+   "raw_lines": 0,
+   "after_homonym_filter": 0,
+   "files": 0,
+   "present": false,
+   "sample_files": []
+  },
+  {
+   "term": "Bromberg",
+   "role": "the ending lamination theorem, general case",
+   "raw_lines": 0,
+   "after_homonym_filter": 0,
+   "files": 0,
+   "present": false,
+   "sample_files": []
+  },
+  {
+   "term": "ending lamination",
+   "role": "Thurston's end invariant",
+   "raw_lines": 0,
+   "after_homonym_filter": 0,
+   "files": 0,
+   "present": false,
+   "sample_files": []
+  },
+  {
+   "term": "end invariant",
+   "role": "Thurston's end invariant",
+   "raw_lines": 5,
+   "after_homonym_filter": 0,
+   "files": 0,
+   "present": false,
+   "sample_files": []
+  },
+  {
+   "term": "punctured.torus group",
+   "role": "the family's NAME as a technical term",
+   "raw_lines": 15,
+   "after_homonym_filter": 15,
+   "files": 11,
+   "present": true,
+   "sample_files": [
+    "frontier/B662_successor_campaign/cellA/PROOF_NOTE.md",
+    "papers/P4_markov_stage/DRAFT_v1.md",
+    "papers/P4_markov_stage/DRAFT_v2.md",
+    "papers/P4_markov_stage/DRAFT_v3.md"
+   ]
+  },
+  {
+   "term": "Lackenby",
+   "role": "the canonical decomposition of once-punctured torus bundles",
+   "raw_lines": 5,
+   "after_homonym_filter": 5,
+   "files": 3,
+   "present": true,
+   "sample_files": [
+    "docs/NOVELTY_AUDIT.md",
+    "frontier/B718_child_program/b718_probe4.py",
+    "papers/THE_MAP_of_the_object.md"
+   ]
+  },
+  {
+   "term": "Gu.ritaud",
+   "role": "punctured-torus-bundle geometry via the Farey triangulation",
+   "raw_lines": 18,
+   "after_homonym_filter": 18,
+   "files": 11,
+   "present": true,
+   "sample_files": [
+    "docs/NOVELTY_AUDIT.md",
+    "docs/THEOREM_REGISTRY.md",
+    "frontier/B134_chirality_recursion_proved/FINDINGS.md",
+    "frontier/B470_reflection_campaign/FINDINGS.md"
+   ]
+  },
+  {
+   "term": "Futer",
+   "role": "Gueritaud-Futer",
+   "raw_lines": 58,
+   "after_homonym_filter": 58,
+   "files": 32,
+   "present": true,
+   "sample_files": [
+    "CHANGELOG.md",
+    "PROGRESS_LOG.md",
+    "docs/CAMPAIGN_STATUS.md",
+    "docs/NOVELTY_AUDIT.md"
+   ]
+  },
+  {
+   "term": "Floyd",
+   "role": "Floyd-Hatcher, incompressible surfaces",
+   "raw_lines": 25,
+   "after_homonym_filter": 25,
+   "files": 11,
+   "present": true,
+   "sample_files": [
+    "docs/THEOREM_REGISTRY.md",
+    "frontier/B251_metallic_specificity/FINDINGS.md",
+    "papers/P4_markov_stage/DRAFT_v4.md",
+    "papers/P4_markov_stage/DRAFT_v5.md"
+   ]
+  },
+  {
+   "term": "Hatcher",
+   "role": "Floyd-Hatcher, incompressible surfaces",
+   "raw_lines": 25,
+   "after_homonym_filter": 25,
+   "files": 11,
+   "present": true,
+   "sample_files": [
+    "docs/THEOREM_REGISTRY.md",
+    "frontier/B251_metallic_specificity/FINDINGS.md",
+    "papers/P4_markov_stage/DRAFT_v4.md",
+    "papers/P4_markov_stage/DRAFT_v5.md"
+   ]
+  },
+  {
+   "term": "J.rgensen",
+   "role": "the inequality; once-punctured tori",
+   "raw_lines": 93,
+   "after_homonym_filter": 93,
+   "files": 35,
+   "present": true,
+   "sample_files": [
+    "CHANGELOG.md",
+    "PROGRESS_LOG.md",
+    "docs/LITERATURE_CONTEXT_2026-07-15.md",
+    "docs/NOVELTY_AUDIT.md"
+   ]
+  },
+  {
+   "term": "Farey",
+   "role": "the tessellation all four views share",
+   "raw_lines": 47,
+   "after_homonym_filter": 47,
+   "files": 19,
+   "present": true,
+   "sample_files": [
+    "CHANGELOG.md",
+    "PROGRESS_LOG.md",
+    "docs/CAMPAIGN_STATUS.md",
+    "docs/THEOREM_REGISTRY.md"
+   ]
+  }
+ ],
+ "scale": [
+  {
+   "term": "Markov",
+   "rev": "d08d1f98",
+   "lines": 930,
+   "files": 269,
+   "role": "the surface x^2+y^2+z^2 = xyz, which IS the kappa = -2 locus"
+  },
+  {
+   "term": "kappa = -2",
+   "rev": "d08d1f98",
+   "lines": 442,
+   "files": 187,
+   "role": "the family's defining condition, banked as a computed value. ALL spellings: ASCII and Greek kappa, ASCII hyphen and Unicode minus, with and without spaces"
+  }
+ ],
+ "absent": [
+  "Minsky",
+  "Epstein",
+  "Marden",
+  "Maskit",
+  "Bromberg",
+  "ending lamination",
+  "end invariant"
+ ],
+ "homonym_masked": [
+  "Epstein",
+  "end invariant"
+ ]
+}

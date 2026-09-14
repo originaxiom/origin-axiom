@@ -2513,3 +2513,51 @@ this: if the stratum law is wanted, it must be posed on its own arc over more sl
 generator mix tracked throughout. **The standing methodological point already stands regardless:**
 slicing at depth is necessary and **not sufficient** — stratify by presentation complexity too, or
 the aggregate hides both the size of the effect and the fact that one stratum has none.
+
+## L212 — WHERE DOES THE BRONZE'S DEAFNESS LIVE IN MINSKY'S COORDINATES? (registered 2026-09-14, B1404)
+
+B1404 puts the metallic ladder in the classification's coordinates: the end invariant of `RᵐLᵐ`
+is the m-th metallic mean `μ_m`, root of `z² − mz − 1`, discriminant the shadow modulus `m²+4`,
+continued fraction purely periodic `[m]`. **Every rung looks the same there.**
+
+But B675/B1403 found the ladder is **not** uniform: the cusp field is quadratic only at `m = 1, 2`,
+and the bronze `m = 3` has `[ℚ(τ):ℚ] = 8` with Galois group `S₄` — non-abelian, deaf to every
+cyclotomic Coxeter plane. Meanwhile bronze's end invariant `(3+√13)/2` is **as ordinary as gold's**:
+degree 2, purely periodic `[3]`.
+
+**So deafness is invisible in the end invariant.** Two coordinates on the same manifold carry
+different information, and the classification's coordinate does not see the obstruction that kills
+the conductor. **The question:** what *does* the end invariant fail to see — is the cusp field a
+function of the end invariant at all, or does it need the marking/topology half of Minsky's data?
+A bounded first probe: compute the cusp field and the end invariant for `m = 1..8` side by side and
+check whether any two rungs share an end-invariant orbit while differing in cusp field.
+
+**Prerequisite:** none. Runnable with B1403's machinery plus B1404's.
+
+## L213 — WHICH BANKED RESULTS ASSUME CANONICITY, AND WHICH ONLY USE SnapPy'S TRIANGULATION? (registered 2026-09-14, B1404)
+
+B1404's audit found **Epstein–Penner absent from the corpus under that name** while its *object* —
+the canonical ideal decomposition — is used throughout, and Lackenby's theorem (the Floyd–Hatcher
+monodromy triangulation **is** the Epstein–Penner decomposition) is the bridge the corpus holds one
+end of.
+
+**The hazard is specific, not decorative.** An arc that says *"the canonical triangulation"* and an
+arc that says *"SnapPy's triangulation"* are making different claims: the first is invariant, the
+second is a computation that happens to return the first **for this family, by Lackenby's theorem**,
+and not in general. **The sweep:** grep every banked use of a triangulation, classify it as
+*canonicity-assuming* or *instrument-only*, and for the first kind check the manifold is in a family
+where canonicity is proved. Bounded; no new mathematics.
+
+## L214 — RE-RUN THE LITERATURE AUDITS WITH A HOMONYM FILTER (registered 2026-09-14, B1404)
+
+Two of the six genuine absences B1404 found were **invisible to a bare grep**: this corpus contains
+an unrelated Epstein (the **zeta function**, all 15 lines read and none of them Epstein–Penner) and
+an unrelated hyphenated *-end* (Eisenstein-end, E₈-end), so `grep -c` reports presence where there
+is none.
+
+`NOVELTY_AUDIT.md` and the registry's NEEDS-LIT rows were **all run by name**. An audit that counts
+spellings is wrong in both directions — it reports presence for a homonym, and absence for a result
+carried under a different name (E54's class, *absent-under-another-name*, from the other side).
+**The lead:** re-run the corpus's literature audits through `b1404_absence_audit.py`'s filter, with
+the rule that a filter is only trustworthy if **every raw line was read**. Cheap; the payoff is that
+the novelty claims stop depending on spelling.

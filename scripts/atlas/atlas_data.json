@@ -8032,6 +8032,36 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1404": {
+   "slug": "the family has a name",
+   "motifs": [
+    "measurement",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B148",
+    "B448",
+    "B675",
+    "K002",
+    "L212",
+    "L213",
+    "L214",
+    "V137"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B140": {
    "slug": "compute reconciliation",
    "motifs": [

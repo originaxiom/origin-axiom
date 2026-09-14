@@ -298,3 +298,43 @@ Adversarial web/literature sweep (assume-known-until-refuted) on the items **not
   — but the **symmetric metallic words `RᵐLᵐ` (silver, bronze) are NOT in that family** (tunnel number >1), and **no
   conductor / LMFDB labels** exist for any of them. So the silver/bronze arithmetic is genuinely uncomputed. **Specialist:**
   Baker / Petersen / Chesebro / Dunfield, + an arithmetic-geometry collaborator for the LMFDB side.
+
+---
+
+## R5 (2026-09-14, B1404) — THE AUDIT'S OWN BLIND SPOT: THE FAMILY'S NAME, AND WHY A GREP IS NOT AN AUDIT
+
+This audit, and the registry's NEEDS-LIT rows, were **run by name**. B1404 re-ran the absence
+question over the whole corpus with a homonym filter and found the method fails in **both**
+directions.
+
+**What is genuinely absent** — and it is the family's own classification, not a side branch:
+
+| absent | what it is |
+|---|---|
+| **Minsky 1999** | *The classification of punctured-torus groups*, Ann. of Math. (2) **149**, 559–626 (math/9807001). Defines the family the object's fibre group belongs to — *free two-generator Kleinian groups with parabolic commutator* — and proves Thurston's ending lamination conjecture for it. **The corpus's `κ = −2` is this definition**, banked **442 times across 187 files** (measured at `d08d1f98`, all spellings) without the name. |
+| **Epstein–Penner** | the canonical decomposition. The corpus uses the *object* constantly and has never cited the theorem. Lackenby (CMH **78** (2003) 363–384) is the bridge — the Floyd–Hatcher monodromy triangulation **is** the Epstein–Penner decomposition — and the corpus cites **Lackenby** already (`math/0112221`, §R1 above) while holding neither end of what he proves. |
+| **Marden, Maskit, Bromberg; "ending lamination"** | the Kleinian-group half of the family's literature. Zero lines. |
+
+**What the relay got wrong, and the audit can now say precisely:** Guéritaud (18 lines), Futer
+(58 lines / 32 files), Floyd–Hatcher (25 lines, in `THEOREM_REGISTRY.md` at T-MIRROR), Lackenby
+(5 lines), Jørgensen (93 lines / 35 files) and Farey (47 lines / 19 files) are **all present**.
+The literature hole is Minsky-shaped, not general.
+
+**The method finding.** Two of the six genuine absences are **invisible to `grep -c`**:
+
+- **Epstein** returns 15 lines — every one the Epstein **zeta function** (B737's KMS/lattice cells,
+  K027's list of RH-analogue control objects). None is David Epstein.
+- **"end invariant"** returns 5 — every one an *Eisenstein-end* or *E₈-end* invariant, a hyphenated
+  prefix, not Thurston's ends of a hyperbolic 3-manifold.
+
+So an audit that counts spellings reports **presence where there is none**, and — run the other way,
+which is E54's *absent-under-another-name* class — reports **absence for a result carried under a
+different name**, which is exactly how `κ = −2` sat in this corpus for hundreds of arcs as a computed
+value rather than a family membership. **A name-based literature audit needs a homonym filter in both
+directions, and the filter is trustworthy only if every raw line was read.** All 15 Epstein lines and
+all 5 *end invariant* lines were read at B1404.
+
+Reproducer: `frontier/B1404_the_family_has_a_name/b1404_absence_audit.py`, locked by
+`tests/test_b1404_the_family.py`. Follow-on: **L214** (re-run this audit and the registry's NEEDS-LIT
+rows through the filter), **L213** (which banked results assume canonicity rather than merely using
+SnapPy's triangulation).
