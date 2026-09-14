@@ -9,10 +9,17 @@
 **Certificates:** `certificates/require_and_test_cell1.py` → `outputs/require_and_test_cell1_out.txt` ·
 `certificates/require_and_test_cell2.py` → `outputs/require_and_test_cell2_out.txt`
 
-**Outcomes: CELL 1 = C:A · V:A · E:A — CELL 2 = OUTCOME B, D = DIFFERENT — CELL 3 = OUTCOME A.**
+**Outcomes: CELL 1 = C:A · V:A · E:A — CELL 2 = OUTCOME B, D = DIFFERENT — CELL 3 = OUTCOME A — CELL 4 = OUTCOME I — CELL 5 = OUTCOME B (fork F9 FRAGILE).**
 **All controls passed. Cell 3's control L1 failed on its first run; the cause is §2b and the seal was corrected by addendum, not rewritten.**
 
 **Cell 3 adds:** `seals/REQUIRE_AND_TEST_CELL3_PREREG.md` (sha256 after ADDENDUM 1 `62e6af252a7a6c4b154b4f5168435f83b62293c5eb215505b5fd54e71f77012d`) · `certificates/require_and_test_cell3.py` → `outputs/require_and_test_cell3_out.txt`
+
+**Cells 4–5 add:** `seals/REQUIRE_AND_TEST_CELL4_PREREG.md` (sha256 pre-addendum
+`f846c6e7a68dad615136629ac3b66bebe8a04661dc589e319b84eb39d4e83338`) ·
+`seals/REQUIRE_AND_TEST_CELL5_PREREG.md` (sha256
+`3a8103c71d0429e1b6075f8b3770e365652dbda753d5bcbc818c6f99a18344a2`) ·
+`certificates/require_and_test_cell4.py`, `certificates/require_and_test_cell5.py` ·
+`outputs/require_and_test_cell{4,5}_out.txt` · `outputs/require_and_test_cell5_f9_maxlen5.json`
 
 ---
 
@@ -250,6 +257,113 @@ a single object-specific kernel — *"the arithmetic 2T atom"* — and said ever
 (Reid), which the 2T door does **not** track.
 
 ---
+
+---
+
+## 5. CELL 4 — rows 3–8, and a correction to R144 that the seal required in advance
+
+Rows 3–8 are mostly **assembly**, so the instrument is **citation verification**: every quoted line
+asserted present verbatim in the file it is attributed to — the defect class `ERROR_LEDGER` **E2**
+calls *"a reference table transcribed wrong at sealing"*. **17 of 17 verified.**
+
+**The computable question.** `WHAT_WOULD_COUNT` §4A re-scoped the value tier — and its argument is not
+disappointment but **E2/MB12 vacuity**, resting on three theorems. E2's own wording for the defect is
+*"a sealed gate that **cannot pass for any genuine object**"*. So: **do those three theorems mention
+the object?** Only each theorem's own statement was searched.
+
+| theorem | object tokens in its statement |
+|---|---|
+| **B666 cell S** — the scale-torsor no-go (`docs/LAW_MAP.md`) | **NONE** — and it is verified on six named groups: *"Gal(L/ℚ(i)), 2I, PSL(2,7), 2I×ℤ/3, SL(2,ℤ/15), W(E6)"* |
+| **B936** — value-invisibility | **NONE** — about E₆'s structure: X = T_ad[2] = (ℤ/2)⁶, H¹ = (ℤ/2)² |
+| **B1096** — the anomaly layer is identically zero | **NONE** — about the SM's own 16, *"ν^c … is EXACTLY what cancels the last non-vanishing invariant"* |
+
+> ### **OUTCOME I — OBJECT-FREE.** Row 3's base rate is **0 for every object** through these routes.
+
+### The correction, preregistered before the run
+
+**R144-4 wrote that when falsifier 2 fired the programme took reading (a) — *values are the wrong
+success criterion* — and never (b) — *the object is the wrong object*. For row 3 that is too strong.**
+Reading (a) is a **theorem** there, not a re-framing: the criterion cannot pass for any object, so it
+carries no information about which object was chosen. §4A says as much in its own words — *"The
+re-scope is licensed by discipline, not by disappointment"* — and this cell confirms the three
+theorems it leans on name no object. **R144's diagnosis stands for the programme; it does not stand for
+row 3.** The seal fixed this correction in advance so it could not be presented afterwards as the plan.
+
+### The remaining rows, with what would make each computable
+
+| §A row | verdict | what would change it |
+|---|---|---|
+| **4 dynamics** | **NOT-COMPUTABLE** | an action *derived*; §E row 1 lists six declared inputs |
+| **5 gravity** | **NOT-COMPUTABLE** | *"containment, not a theory"*: a spin-2 slot, no propagator, no coupling |
+| **6 quantum consistency** | **DOWNSTREAM** | anomaly-freedom is a property of a *closing*; it cannot discriminate objects until a closing is derived rather than chosen |
+| **7 predictions** | a **regime**, not a value | P9 is conditional and sealed |
+| **8 say which endpoint** | **NOT A CELL** | the only §A row whose status column is the ledger itself |
+
+**Control M2 failed on its first run** — the seal's single probe was B1321's claim line, which names the
+**sibling** (m202, s959), never the object, so the search correctly found nothing. **Second
+mis-specified control in this programme; both were this bench's assumptions about the record, and both
+were caught by a control rather than by re-reading.** Corrected by addendum to three probes exercising
+three spellings — `m004`, `4₁`, `4_1` — because `ERROR_LEDGER` **E54** records a search that missed its
+target *for lacking the digit spelling*.
+
+---
+
+## 6. CELL 5 — fork F9 past its declared bound: ROBUST becomes FRAGILE
+
+**This is the "change the 0.6 %" item.** `frontier/B1323_the_genesis_upgrades/FINDINGS.md` §5 names its
+own next step and no arc had taken it:
+
+> that F9's ROBUST extends beyond **words of length 3** on the two punctured carriers (**a longer
+> enumeration or a proof is the next step if anyone wants the general statement**)
+
+**The instrument is the arc's own `part_c(maxlen)`, unmodified** (memo 154). `python-flint`, absent from
+this container, was **installed** rather than substituted so the arc's code runs unaltered.
+
+| | B1323's bound | this cell |
+|---|---|---|
+| word length | 2…3 | **2…5** |
+| words | 332 | **10 684** |
+| hyperbolic bundles | 64 | **2 256** |
+| isometry classes | 4 | **35** |
+| **F9 surface verdict** | **ROBUST** | **FRAGILE** |
+
+> ### **OUTCOME B. Two three-record bundles keep the atom ℚ(√−3) at depth 4.**
+
+**`abbC` → m412** (= otet05_00001), vol **5.074708** = 2.5 × vol(m004), 2 cusps, |Sym| = 8,
+H₁ = ℤ/2 ⊕ ℤ ⊕ ℤ. **All five of its tetrahedron shapes have minimal polynomial x² − x + 1** — m004's
+own shape, the regular ideal tetrahedron. **Chiral by both methods:** SnapPy's `is_amphicheiral` is
+False, and all 8 isometries to its mirror are orientation-**reversing**, 0 preserving (B1235's lesson
+respected). `uses_all_loops` True — a genuine three-record word. And the **record swap sends it to a
+manifold with 0 isometries to it**, so the A7 bit is a class invariant on this carrier.
+
+**`abAB` → L12n2208**, vol **12.179299** = 6 × vol(m004), 4 cusps, |Sym| = 48, **amphichiral** by both
+methods (24 / 24): keeps the atom, forgets the bit — the other side of the same fork.
+
+### What this does to the genesis
+
+**m412 has BOTH the atom and a remembered handedness.** B1323's *"one may have the atom or the
+remembered bit, not both"* does not survive depth 4, and the price it computed for A1's *"not one, not
+three"* — *"the price of a third record is the atom"* — **is not the price.** FRESH_EYES **Q15** gets a
+second, independent YES: B1324 found the coexistence on m004's own covering tower; it is now exhibited
+on a genuinely different substrate, a three-record carrier.
+
+### Fairness, stated plainly
+
+**B1323 fenced this itself.** Its §5 says the statement is *"a computed fork over the enumerated set,
+not a theorem about all carriers"*. **Its depth-3 verdict stands exactly as computed** — reproduced
+here as control **N1**, all four classes matching to 1e−5 (m129 abC 3.663862; s780 acB 5.33349;
+t12047 aB 7.327725; o9_44206 aaB 8.929318) with verdict ROBUST and no keepers. What does **not** carry
+the fence is the sentence propagated into **B749's F9 addendum** — *"The price of a third record is the
+atom"* — stated flatly there with no depth qualifier. **That propagation needs the qualifier.** B749 is
+main-tree and is not edited from this bench; it is named here as a propagation item.
+
+**Control N4 was the load-bearing one.** F9's verdict is an **absence**, and an absence computed by a
+predicate that cannot return True is not evidence (#164). `all_in_Q(sqrt-3)` was first shown able to
+fire, on m004's own shapes → True. N1, N2, N3 passed.
+
+**Not concluded:** that F9 is ROBUST or FRAGILE for *all* word lengths, or for carriers other than
+S₁,₂ and S₀,₄. B1323's scope line is kept verbatim with only the number 3 replaced by 5. The closed
+genus-2 carrier stays out of frame (A5b). Nothing about physics. No value.
 
 ## 4. INTERPRETIVE — labelled as such
 

@@ -5316,3 +5316,47 @@ same error one level down.
 **This is the inversion earning its keep twice over:** a predicate must name its quantity, and a grade
 in a ledger need not — so writing the predicate is what exposed the ambiguity.
 
+### ADDENDUM 3 to R145 (same session) — CELLS 4 AND 5: a correction to R144, and fork F9 falls
+
+**CELL 4 = OUTCOME I.** The three theorems `WHAT_WOULD_COUNT` §4A rests on — **B666**'s scale-torsor
+no-go, **B936**'s value-invisibility, **B1096**'s identically-vanishing anomaly layer — contain **no
+object token in their own statements**. They are about finite/profinite groups (B666 is verified on six
+named groups, none of them this object), about E₆'s structure, and about the SM's own 16. So row 3's
+base rate is **0 for every object** through these routes — a fact about the **requirement**.
+
+**THIS CORRECTS R144-4, and the correction was sealed before the run.** R144-4 said the response to
+falsifier 2 took reading (a) *values are the wrong criterion* and never (b) *the object is the wrong
+object*. **For row 3 that is too strong**: reading (a) is a theorem there, not a re-framing. §4A says so
+itself — *"The re-scope is licensed by discipline, not by disappointment."* **R144's diagnosis stands
+for the programme; it does not stand for row 3.**
+
+Rows 4 and 5 **NOT-COMPUTABLE**, 6 **DOWNSTREAM**, 7 a **regime** not a value, 8 **not a cell** — each
+with what would make it computable. 17 of 17 quotations verified verbatim against their named files.
+
+**CELL 5 = OUTCOME B. FORK F9 IS FRAGILE.** This is the "change the 0.6 %" item, and it was done by
+running **B1323's own instrument, unmodified, past the bound that arc declared**: words of length 3 → 5,
+**332 → 10 684 words, 64 → 2 256 hyperbolic bundles, 4 → 35 classes.**
+
+> **`abbC` → m412** (= otet05_00001): vol **5.074708** = 2.5 × vol(m004), 2 cusps, |Sym| = 8. **All
+> five of its tetrahedron shapes have minimal polynomial x² − x + 1** — m004's own shape, the regular
+> ideal tetrahedron. **Chiral by both methods** (all 8 isometries to its mirror orientation-reversing,
+> 0 preserving). Uses all three loops. The record swap sends it to a manifold with **0** isometries to
+> it, so the A7 bit is a class invariant there.
+
+**A three-record carrier keeps the atom AND remembers the bit.** B1323's *"one may have the atom or the
+remembered bit, not both"* does not survive depth 4, and *"the price of a third record is the atom"* is
+**not the price**. A second keeper, `abAB` → L12n2208 (vol 6 × m004, |Sym| 48), keeps the atom and
+forgets the bit — the other side of the same fork. **FRESH_EYES Q15 gets a second, independent YES**, on
+a different substrate from B1324's covers.
+
+**Fairness, stated.** B1323 **fenced this itself** — *"a computed fork over the enumerated set, not a
+theorem about all carriers"* — and named the longer enumeration as the next step. **Its depth-3 verdict
+stands and was reproduced here as control N1**, four classes to 1e−5. What lacks the fence is the flat
+sentence propagated into **B749's F9 addendum**, *"The price of a third record is the atom"*. That is a
+**propagation item for the main seat**; B749 is main-tree and is not edited from this bench.
+
+**Two mis-specified controls were caught this session** — Cell 3's L1 and Cell 4's M2 — both this
+bench's own assumptions about what the record says, both caught by a control rather than by re-reading,
+both corrected by addendum rather than rewrite. That is the system working, and it is recorded rather
+than tidied away.
+
