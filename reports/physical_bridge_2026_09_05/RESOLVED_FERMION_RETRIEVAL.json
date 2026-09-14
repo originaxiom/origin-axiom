@@ -1,0 +1,1036 @@
+{
+  "scope": "All unique Git blobs reachable from listed heads/remotes/tags plus two retained historical tips; includes binary bytes and deleted content. Not untracked files. One example path per object, not every historical filename. Presence routes reading; no regex result establishes semantic absence or mathematical novelty.",
+  "refs": [
+    {
+      "ref": "ref-01",
+      "sha": "9ad06bea6065191bdb6f8ce0dae70a6929c8d2dc"
+    },
+    {
+      "ref": "ref-02",
+      "sha": "f06d34054899e8c23672b836a7c534af77cbd35d"
+    },
+    {
+      "ref": "ref-03",
+      "sha": "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    },
+    {
+      "ref": "ref-04",
+      "sha": "9ad06bea6065191bdb6f8ce0dae70a6929c8d2dc"
+    },
+    {
+      "ref": "ref-05",
+      "sha": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    },
+    {
+      "ref": "ref-06",
+      "sha": "8429ad4a7debf23fcfc01bb3a22b1ca0f7f75b05"
+    },
+    {
+      "ref": "ref-07",
+      "sha": "836b3c488f2ec7a037d833322ad3bda80fb5d2a7"
+    },
+    {
+      "ref": "ref-08",
+      "sha": "659487bbd93c7990c4686a8b86985b6b66efedc4"
+    },
+    {
+      "ref": "ref-09",
+      "sha": "1703c0d80b6ad4281de61feb882667515500e8e7"
+    },
+    {
+      "ref": "ref-10",
+      "sha": "f7a49536bc45bebc1557d3d081b6b3664a7c2199"
+    },
+    {
+      "ref": "ref-11",
+      "sha": "b94ed03aecba8aae3afc62504e22ec664c26e94f"
+    },
+    {
+      "ref": "ref-12",
+      "sha": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4"
+    },
+    {
+      "ref": "ref-13",
+      "sha": "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    },
+    {
+      "ref": "ref-14",
+      "sha": "cd37701aec80ea26eea709f25c23c16f22470a42"
+    },
+    {
+      "ref": "ref-15",
+      "sha": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    },
+    {
+      "ref": "ref-16",
+      "sha": "84f5adaabccc7f494f814f6433af060e6ae75d5c"
+    },
+    {
+      "ref": "ref-17",
+      "sha": "e42c336efb5c2b6877e3368d07ae3c6e301483c8"
+    },
+    {
+      "ref": "ref-18",
+      "sha": "b94be245b670966a2518153f5827643d330e2451"
+    },
+    {
+      "ref": "ref-19",
+      "sha": "931b5d81492cd5480e34c6873266f1ea7356ca43"
+    },
+    {
+      "ref": "ref-20",
+      "sha": "3d4a1c711a4c60919258fcb17b964bb69f2ab68f"
+    },
+    {
+      "ref": "ref-21",
+      "sha": "6ed3a8488fb1f897604325349bdf2c13086b3dad"
+    },
+    {
+      "ref": "ref-22",
+      "sha": "1d27db2de2a12c389f6397ba6114f58ca5411514"
+    },
+    {
+      "ref": "ref-23",
+      "sha": "f7a77e054b5893a189be5ed5115e18a4373142c3"
+    },
+    {
+      "ref": "ref-24",
+      "sha": "28373f554df917eb73059ff6c389d8ef34d48b84"
+    },
+    {
+      "ref": "ref-25",
+      "sha": "d08fb1144ba858d9766697dd10cc2989e2f0ac04"
+    },
+    {
+      "ref": "ref-26",
+      "sha": "c1ffdece46bceb24f0cfb1aa67d32025d33b29c4"
+    },
+    {
+      "ref": "ref-27",
+      "sha": "8de000515147848e5610fb016ea1dad077cc481b"
+    },
+    {
+      "ref": "ref-28",
+      "sha": "9862db341ef1647683f38c924084eebe0eeaa6c7"
+    }
+  ],
+  "extra_tips": [
+    "67f939cc8cc11b9018283e994a847268b05ab43b",
+    "4d481751b056030e695a68cb1ace4bfd8e5bdb8d"
+  ],
+  "patterns": {
+    "resolved_core": "resolv.{0,12}core|core.{0,12}resol|smooth.{0,12}core",
+    "finite_width_fermion": "finite.width.{0,90}fermion|fermion.{0,90}finite.width",
+    "absolute_boundary": "absolute.{0,20}boundar",
+    "core_partner": "core.{0,30}partner|partner.{0,30}core|core.{0,30}mirror",
+    "witten_conjugacy": "Witten.{0,35}conjuga|conjuga.{0,35}Witten",
+    "mapping_cone": "mapping.{0,2}cone|mapping.{0,2}fibre|mapping.{0,2}fiber",
+    "light_fermion": "light.{0,30}fermion|fermion.{0,30}light|small.{0,20}eigenvalue",
+    "fermion_domain": "fermion.{0,30}domain|domain.{0,30}fermion"
+  },
+  "unique_objects_sha256": "ffa885c34ce01bb1beec1ade9d86a5429b300acdf92a1a20091dff3aeff10c56",
+  "counts": {
+    "commit": 4412,
+    "tag": 10,
+    "tree": 21540,
+    "blob": 28546
+  },
+  "blob_bytes": 3121518095,
+  "term_hit_blobs": {
+    "resolved_core": 29,
+    "finite_width_fermion": 6,
+    "absolute_boundary": 5,
+    "core_partner": 438,
+    "witten_conjugacy": 0,
+    "mapping_cone": 4,
+    "light_fermion": 1340,
+    "fermion_domain": 291
+  },
+  "raw_sha256": "ac68467150f965e1abcfd863005186c0fec264a87d18cdf518a2b1959c3de57b",
+  "raw_basename": "oa_r30_history_population_first.json",
+  "path_groups": [
+    {
+      "path": "CHANGELOG.md",
+      "versions": 520,
+      "terms": [
+        "core_partner",
+        "fermion_domain",
+        "finite_width_fermion",
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "PROGRESS_LOG.md",
+      "versions": 542,
+      "terms": [
+        "fermion_domain",
+        "finite_width_fermion",
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "docs/ERROR_LEDGER.md",
+      "versions": 37,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "docs/RETRACTED_PHRASES.md",
+      "versions": 5,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "docs/views/VERDICT_LEDGER.md",
+      "versions": 229,
+      "terms": [
+        "core_partner",
+        "fermion_domain",
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B1007_arb_maass/_reference_double.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B1068_descent_inventory/FINDINGS.md",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B1068_descent_inventory/w2_full_results.json",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B1069_hearing_biography/w3_results.json",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B1085_edge_observability/FINDINGS.md",
+      "versions": 2,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "frontier/B1085_edge_observability/arc_verdict.json",
+      "versions": 3,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "frontier/B1102_exact_hypercharge_solve/b1102_RUNLOG.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B1168_c5_investigation/FINDINGS.md",
+      "versions": 1,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "frontier/B1169_qualia_parity_synthesis/verification/qualia_parity.txt",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B1169_qualia_parity_synthesis/verification/reproduce.sh",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B1180_family_retraction/arc_verdict.json",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B1189_close_loop_batch1/verification/batch1_cells.json",
+      "versions": 1,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "frontier/B1248_norm_classification/FINDINGS.md",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B1248_norm_classification/arc_verdict.json",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B1248_norm_classification/verification/norm_classification.py",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B1258_2T_is_blind/FINDINGS.md",
+      "versions": 2,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B1258_2T_is_blind/arc_verdict.json",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B143_interaction_feasibility/FINDINGS.md",
+      "versions": 2,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B422_mirror_frame/PREREGISTRATION.md",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B650_typed_functor/checker_output.txt",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "frontier/B739_character_rigidity/b739_probe.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B739_character_rigidity/b739_probe_out.txt",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B771_phase1_wave1/cells/W4-183/compute.py",
+      "versions": 1,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "frontier/B771_phase1_wave1/wave4_results.json",
+      "versions": 2,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "frontier/B771_phase1_wave1/wave5_results.json",
+      "versions": 2,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "frontier/B775_phase2_wave1/wave1_results.json",
+      "versions": 2,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "frontier/B779_convergence_probe/R6_maass_assessment.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B779_convergence_probe/R6_maass_assessment.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B791_weyl_completeness/PROVENANCE_ALERT.md",
+      "versions": 2,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B854_centralizer_exact/FINDINGS.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B878_maass_upper_window/branch_FINDINGS.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B878_maass_upper_window/branch_hejhal_m004.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B922_lambda2_receipt/PRIOR_ART_MAASS.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B922_lambda2_receipt/prior_art_maass.json",
+      "versions": 2,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B94_tower_universality/FINDINGS.md",
+      "versions": 2,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B94_tower_universality/probe.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "outside_bench/THE_SECOND_HALF.md",
+      "versions": 6,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "philosophy/METALLIC_FOUNDATIONS.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "tests/test_b144_interaction_chirality.py",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "tests/test_b531.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "tests/test_b854_centralizer.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "docs/REPRESENTATION_TRIAGE.md",
+      "versions": 10,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B1343_deriving_the_other_faces/FINDINGS.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B1343_deriving_the_other_faces/arc_verdict.json",
+      "versions": 2,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B1343_deriving_the_other_faces/verification/b1343_faces.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "docs/CAMPAIGN_STATUS.md",
+      "versions": 34,
+      "terms": [
+        "fermion_domain",
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "docs/LAW_MAP.md",
+      "versions": 4,
+      "terms": [
+        "fermion_domain",
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "docs/OPEN_LEADS.md",
+      "versions": 4,
+      "terms": [
+        "fermion_domain",
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "docs/THE_FRAMEWORK.md",
+      "versions": 25,
+      "terms": [
+        "fermion_domain",
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "docs/THE_LADDER.md",
+      "versions": 2,
+      "terms": [
+        "fermion_domain",
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/ASSELMEYER_MALUGA_READ.md",
+      "versions": 7,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/ASSELMEYER_MALUGA_TRANSFER.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AUDIT.md",
+      "versions": 3,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/BANKING_RECEIPT.md",
+      "versions": 3,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/BIG_PICTURE_REVIEW_2026_09_10.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/BOUNDARY_WALL_PRIOR.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/BOUNDARY_WALL_PRIOR_SWEEP.json",
+      "versions": 1,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/BROKEN_VACUUM.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/DEFECT_GAUGE.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain",
+        "light_fermion",
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/DEFECT_GAUGE_DESIGN.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain",
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/DEFECT_GAUGE_INTAKE_2026_09_13.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/DEFECT_GAUGE_PROOF.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/EXTENSION_6.md",
+      "versions": 2,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FAILURES.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FINDINGS.md",
+      "versions": 5,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FINITE_ALIGNMENT.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GOAL_VERDICT.md",
+      "versions": 2,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/HIGGS_SECTOR.md",
+      "versions": 2,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md",
+      "versions": 1,
+      "terms": [
+        "mapping_cone"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM_DESIGN.md",
+      "versions": 1,
+      "terms": [
+        "mapping_cone"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/INFRARED_ALIGNMENT.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/JORGENSEN_SOURCE_AUDIT_2026_09_13.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MASS_INFLOW.md",
+      "versions": 1,
+      "terms": [
+        "mapping_cone"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MASS_INFLOW_DESIGN.md",
+      "versions": 1,
+      "terms": [
+        "mapping_cone"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MISSION_ROADMAP_2026_09_13.md",
+      "versions": 4,
+      "terms": [
+        "fermion_domain",
+        "finite_width_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MISSION_STATUS_2026_09_10.md",
+      "versions": 3,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/OBSERVATIONAL_COMPATIBILITY_2026_09_13.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PHYSICS_BOTTLENECKS.md",
+      "versions": 2,
+      "terms": [
+        "fermion_domain"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PUNCTURED_TORUS_GEOMETRY_2026_09_14.md",
+      "versions": 1,
+      "terms": [
+        "core_partner",
+        "fermion_domain",
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/README.md",
+      "versions": 26,
+      "terms": [
+        "fermion_domain",
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain",
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_DESIGN.md",
+      "versions": 1,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "versions": 1,
+      "terms": [
+        "fermion_domain",
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/VACUUM_MODEL.md",
+      "versions": 2,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY.md",
+      "versions": 1,
+      "terms": [
+        "absolute_boundary"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/quantum_vacuum.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "tests/test_physical_bridge_source_action.py",
+      "versions": 1,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/T4_prior_art/SEARCH_LOG.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/T5_a6_audit/sweep_hits.tsv",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseB/digests/arcs/arcs_083.json",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseB/digests/arcs/arcs_115.json",
+      "versions": 1,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseB/digests/log/PROGRESS_LOG.md_3.json",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseB/digests/tests/tests_08.json",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseB/synthesis/load_bearing.tsv",
+      "versions": 6,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseB/synthesis/red_flags.tsv",
+      "versions": 7,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseB/synthesis/tests.tsv",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseD/results/DIGEST.md",
+      "versions": 2,
+      "terms": [
+        "absolute_boundary"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseD/results/certificate_results.tsv",
+      "versions": 2,
+      "terms": [
+        "absolute_boundary"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseE/packets/E060.json",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseE/results/flags_verified.tsv",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseF/results/chirality_sweep.tsv",
+      "versions": 2,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseG/TRACKER_LEDGER.md",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "reports/fresh_physics_seat_2026-09-01/recompute/R24_b1163_chain/FINDINGS.md",
+      "versions": 1,
+      "terms": [
+        "core_partner"
+      ]
+    },
+    {
+      "path": "docs/views/REVIEWER.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "CC3_TO_CC_2026-07-29_chat1_review_processed.md",
+      "versions": 1,
+      "terms": [
+        "resolved_core"
+      ]
+    },
+    {
+      "path": "CC_TO_CC3_2026-07-28_B792_gate_51014_resolved_and_a_classification_error.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "CC_TO_CC3_2026-07-28_URGENT_provenance_failure_51014.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B792_maass_m004_eigenvalues/scanE_log.txt",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B792_maass_m004_eigenvalues/scanF_log.txt",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B796_coupling_campaign/exotics/FINDINGS.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B796_coupling_campaign/harvest/lit_aqc_maass_data.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B796_coupling_campaign/harvest/lit_ncg_spectral_action.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B792_maass_m004_eigenvalues/hejhal_m004.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B792_maass_m004_eigenvalues/FINDINGS.md",
+      "versions": 6,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "frontier/B788_maass_spectrum/hejhal_m004.py",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    },
+    {
+      "path": "paths/philosophical/METALLIC_FOUNDATIONS.md",
+      "versions": 1,
+      "terms": [
+        "light_fermion"
+      ]
+    }
+  ],
+  "presentation": "Ref names anonymized; hit objects grouped by example path. Complete per-object line records remain in the hashed raw capture; this summary is not semantic absence."
+}

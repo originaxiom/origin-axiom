@@ -1,0 +1,20 @@
+{
+  "retrieved": "2026-09-14",
+  "reading_completed": "2026-09-15",
+  "sources": [
+    {
+      "filename": "lu_2017.pdf",
+      "bytes": 263092,
+      "sha256": "15488fea2c8dbb2e474554801f1904fdae5271bcdc5963f53e79d80b25bd8442",
+      "url": "https://intlpress.com/site/pub/files/_fulltext/journals/mrl/2017/0024/0001/MRL-2017-0024-0001-a006.pdf",
+      "read_boundary": "Section 4 pp. 133–135 in full; introduction and relevant half-space passages checked. Not full paper."
+    },
+    {
+      "filename": "anne_takahashi_2015.pdf",
+      "bytes": 1192581,
+      "sha256": "982f57125da9f3ba0c899f97b2a14aa193d9d104007e35869ac615bc23b697ab",
+      "url": "https://msp.org/apde/2015/8-5/apde-v8-n5-p01-p.pdf",
+      "read_boundary": "Introduction, setup/results, section 2.1 through p. 1028; beginning of 2.2. Not full collapse proof."
+    }
+  ]
+}
