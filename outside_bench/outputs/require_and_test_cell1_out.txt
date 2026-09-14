@@ -1,0 +1,98 @@
+==============================================================================
+ CELL 1 -- REQUIREMENT 2 (CHIRALITY): DOES B1163'S THEOREM CLIMB?
+==============================================================================
+
+    seal  outside_bench/seals/REQUIRE_AND_TEST_CELL1_PREREG.md
+    sha256 70bce752b759f090681c53dce2b21243b4a2400474aff47442b08fae871b45d6
+
+------------------------------------------------------------------------------
+ CONTROL C1 -- the instrument is wired to the object
+------------------------------------------------------------------------------
+    m004  amphichiral_det = True   |Sym| = 8   is_amphicheiral = True
+    -> PASS  (expect True and order 8: D4, amphichiral)
+
+------------------------------------------------------------------------------
+ CONTROL C2 -- the instrument can say NO (else PART C passes vacuously)
+------------------------------------------------------------------------------
+    5_2    amphichiral_det = False   naive = True 
+    6_1    amphichiral_det = False   naive = True 
+    m015   amphichiral_det = False   naive = True 
+    -> PASS  (all three must read CHIRAL)
+
+------------------------------------------------------------------------------
+ CONTROL C3 + PART C -- the cyclic (CHARACTERISTIC) covers
+------------------------------------------------------------------------------
+
+    The subgroup is ker(pi_1 ->> H_1 ->> Z/n): characteristic BY CONSTRUCTION.
+    sigma_*-fixedness is therefore established without computing anything about
+    the cover -- the test is not circular.  The lemma predicts AMPHICHIRAL for
+    every row.  A single CHIRAL row refutes it.
+
+    n= 2  type=cyclic    vol=   4.059766 (= 2*vol0: yes)  H1=Z/5 + Z                  amphichiral=True
+    n= 3  type=cyclic    vol=   6.089650 (= 3*vol0: yes)  H1=Z/4 + Z/4 + Z            amphichiral=True
+    n= 4  type=cyclic    vol=   8.119533 (= 4*vol0: yes)  H1=Z/3 + Z/15 + Z           amphichiral=True
+    n= 5  type=cyclic    vol=  10.149416 (= 5*vol0: yes)  H1=Z/11 + Z/11 + Z          amphichiral=True
+    n= 6  type=cyclic    vol=  12.179299 (= 6*vol0: yes)  H1=Z/8 + Z/40 + Z           amphichiral=True
+    n= 7  type=cyclic    vol=  14.209182 (= 7*vol0: yes)  H1=Z/29 + Z/29 + Z          amphichiral=True
+    n= 8  type=cyclic    vol=  16.239066 (= 8*vol0: yes)  H1=Z/21 + Z/105 + Z         amphichiral=True
+    n= 9  type=cyclic    vol=  18.268949 (= 9*vol0: yes)  H1=Z/76 + Z/76 + Z          amphichiral=True
+    n=10  type=cyclic    vol=  20.298832 (= 10*vol0: yes)  H1=Z/55 + Z/275 + Z         amphichiral=True
+    n=11  type=cyclic    vol=  22.328715 (= 11*vol0: yes)  H1=Z/199 + Z/199 + Z        amphichiral=True
+    n=12  type=cyclic    vol=  24.358599 (= 12*vol0: yes)  H1=Z/144 + Z/720 + Z        amphichiral=True
+    n=13  type=cyclic    vol=  26.388482 (= 13*vol0: yes)  H1=Z/521 + Z/521 + Z        amphichiral=True
+    n=14  type=cyclic    vol=  28.418365 (= 14*vol0: yes)  H1=Z/377 + Z/1885 + Z       amphichiral=True
+    n=15  type=cyclic    vol=  30.448248 (= 15*vol0: yes)  H1=Z/1364 + Z/1364 + Z      amphichiral=True
+    n=16  type=cyclic    vol=  32.478131 (= 16*vol0: yes)  H1=Z/987 + Z/4935 + Z       amphichiral=True
+    n=17  type=cyclic    vol=  34.508015 (= 17*vol0: yes)  H1=Z/3571 + Z/3571 + Z      amphichiral=True
+    n=18  type=cyclic    vol=  36.537898 (= 18*vol0: yes)  H1=Z/2584 + Z/12920 + Z     amphichiral=True
+    n=19  type=cyclic    vol=  38.567781 (= 19*vol0: yes)  H1=Z/9349 + Z/9349 + Z      amphichiral=True
+    n=20  type=cyclic    vol=  40.597664 (= 20*vol0: yes)  H1=Z/6765 + Z/33825 + Z     amphichiral=True
+    n=21  type=cyclic    vol=  42.627547 (= 21*vol0: yes)  H1=Z/24476 + Z/24476 + Z    amphichiral=True
+    n=22  type=cyclic    vol=  44.657431 (= 22*vol0: yes)  H1=Z/17711 + Z/88555 + Z    amphichiral=True
+    n=23  type=cyclic    vol=  46.687314 (= 23*vol0: yes)  H1=Z/64079 + Z/64079 + Z    amphichiral=True
+    n=24  type=cyclic    vol=  48.717197 (= 24*vol0: yes)  H1=Z/46368 + Z/231840 + Z   amphichiral=True
+    n=25  type=cyclic    vol=  50.747080 (= 25*vol0: yes)  H1=Z/167761 + Z/167761 + Z  amphichiral=True
+    n=26  type=cyclic    vol=  52.776964 (= 26*vol0: yes)  H1=Z/121393 + Z/606965 + Z  amphichiral=True
+    n=27  type=cyclic    vol=  54.806847 (= 27*vol0: yes)  H1=Z/439204 + Z/439204 + Z  amphichiral=True
+    n=28  type=cyclic    vol=  56.836730 (= 28*vol0: yes)  H1=Z/317811 + Z/1589055 + Z amphichiral=True
+    n=29  type=cyclic    vol=  58.866613 (= 29*vol0: yes)  H1=Z/1149851 + Z/1149851 + Z amphichiral=True
+    n=30  type=cyclic    vol=  60.896496 (= 30*vol0: yes)  H1=Z/832040 + Z/4160200 + Z amphichiral=True
+
+    cyclic covers built and DECIDED : 29 of 29
+    undecided (reported, not counted as either) : 0
+    CHIRAL among them : 0
+    -> PART C = A : every characteristic cover tested is amphichiral.
+       The lemma survives its falsifier over this population.
+    C3 (type and volume of every built cover) -> PASS
+
+------------------------------------------------------------------------------
+ PART V -- NON-VACUITY: are any covers of m004 chiral at all?
+------------------------------------------------------------------------------
+
+    If no cover of m004 is chiral, PART C says nothing and must be reported as
+    vacuous.  Re-derived here, not cited from B1324.
+
+    degree 2: 1 covers
+    degree 3: 1 covers
+    degree 4: 2 covers
+    degree 5: 4 covers
+    degree 6: 11 covers
+    degree 7: 9 covers
+
+    POPULATION (asserted non-empty before any rate): 28
+    amphichiral 10   chiral 18   undecided 0
+      cyclic     amphichiral   6   chiral   0   undecided   0
+      irregular  amphichiral   4   chiral  18   undecided   0
+    -> PART V = A : chiral covers exist, the lemma has content.
+
+    cross-check: chiral CYCLIC covers in this independent enumeration: 0
+      (the lemma predicts 0; this is a second, independent look at PART C)
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    PART C = A    PART V = A
+    controls: ALL PASSED
+
+    PART E (the four named escape routes) is adjudication against the record,
+    not a computation; it is carried in the memo, from the seal's fixed list.
