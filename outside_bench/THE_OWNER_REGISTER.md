@@ -5118,3 +5118,104 @@ demonstrated live positive in char 0, so a null cannot separate *"the covers are
 > it. What would: a live positive anywhere, or a proof the char-0 vanishing is forced — which B1335
 > showed **cannot** come from the identities and domain conditions alone, since over `𝔽_p` they
 > permit `I ≠ 0`.
+
+---
+
+## R144 — "what is wrong with our approach? why do we fail to see?" (2026-09-14)
+
+**Asked three times in one message. Answered against the record, including one diagnosis I had
+drafted and had to discard because the record refuted it.**
+
+### R144-0 — what I checked first, and what it killed
+
+I was going to say *"the programme has no falsifier for its own premise."* **False.**
+`WHAT_WOULD_COUNT` §5 states **four** computable falsifiers, and **falsifier 2 HAS FIRED**
+(2026-08-09, B1005), flagged in bold in the document itself. **That is more rigorous than most of
+the field, and it means the problem is not missing falsification.** Discarded before use.
+
+### R144-1 — it is not the mathematics, and not the rigor. That is why it is hard to see.
+
+Seals before compute. Kill conditions. Non-vacuity controls. A ratchet that can only rise. A fired
+falsifier flagged rather than buried. **The per-arc discipline is genuinely excellent — so there is
+no local signal, and looking for sloppiness will never find this.**
+
+### R144-2 — the discipline is aimed at CLAIMS. It has never been aimed at TARGETS.
+
+**Every claim is sealed. No target is.** Targets are chosen from synthesis documents, and the record
+documents those as chronically stale **in its own words**: B976 (the SM verdict written without
+**eleven of twelve** cascade arcs, citing ℤ₆ as *"not addressed"* when B862 derives it); memo 207
+(the register is behind); memo 215 (a seal that had happened **three weeks** before I called it
+pending); memo 216 (**15** stale statuses); memo 227 (the status-of-record says *"it lives on main"*
+— **it does not**).
+
+> **I hit that same failure FIVE times in this session alone** — #30, #31, #32, #33, and calling the
+> tower *"the one computable place"* without checking the instrument had ever fired.
+> **The error cannot appear inside an arc. It lives at the join, and nothing at the join is sealed.**
+
+### R144-3 — and the effort is aimed downstream, overwhelmingly
+
+> **1253 arcs in `frontier/`. EIGHT touch the axiom forks. 0.6 %.**
+
+Everything is tested **given** the object; almost nothing tests the **choice** of object. And the
+chain's own census says the object was **chosen** — C3/C4/C5, two graded **FRAGILE**. **Pricing a
+fork is not testing it:** naming the discarded sibling (the Gieseking manifold) records what was not
+taken; it never asks whether it should have been.
+
+### R144-4 — the decisive move, and I would point at this one
+
+**When falsifier 2 fired on 2026-08-09, the response was §4A — a re-framing of what success
+means — eleven days later.** Its argument is honest and locally correct: E2/MB12 voids an unpassable
+gate, and B666/B936/B1096 **prove** a value cannot emerge from a Galois orbit.
+
+**But the theorem has two readings and only one was taken:**
+
+| reading | taken? |
+|---|---|
+| **(a)** values are the wrong success criterion | **YES** — §4A |
+| **(b)** the object is the wrong object | **never seriously** |
+
+**Both are consistent with the theorem.** The programme proved its object cannot do the thing, and
+concluded the thing was the wrong test — rather than that the object might be the wrong object.
+**That single inference, made once and never revisited, is what I would name.**
+
+### R144-5 — and one artifact shows the shape of it whole
+
+**`docs/TOE_REQUIREMENTS_LEDGER.md` — *"what a theory of everything must supply"* — was opened
+2026-09-09**, and its own header records the absence sweep: **ABSENT on every head before this
+file.**
+
+> **The programme ran ~1250 arcs before writing down what it was trying to produce.** It derived
+> forward from a chosen object for a year, and only last week wrote the list the answer would have
+> to satisfy. **That is the whole problem in one artifact**, and it is nobody's carelessness — it is
+> what happens when the method is *derive-and-see* rather than *require-and-test*.
+
+### R144-6 — why we fail to see it
+
+* **every local check passes** — there is no arc-level signal;
+* **the only layer where it could show is the synthesis layer, and that is the one layer with no
+  seal**;
+* **each re-framing is individually defensible**, and the drift is visible only cumulatively;
+* and **success was redefined by theorems the programme itself proved** — which feels exactly like
+  rigor, and is the most convincing possible way to be wrong.
+
+### R144-7 — what to do differently, concretely
+
+1. **Invert the direction.** Not *"what does the object give?"* but, per requirement:
+   *"what must ANY object have to supply this — and does m004 have it?"* **Chirality is the test
+   case:** the requirement is a net chiral spectrum; m004 is **provably amphichiral**; five sessions
+   have failed to find a closing that breaks it with a live index. **Under require-and-test that is
+   a strike against the object. Under derive-and-see it became a re-framing.**
+2. **Seal the targets.** Record, before an arc runs, *why this arc and not another*, and what that
+   rests on — so a stale map becomes visible the way a stale claim already is.
+3. **Change the 0.6 %.** B1323's F9 is the one genuine probe of the substrate, and it found a real
+   trade (**the atom ↔ the bit**). **It deserves fifty arcs, not one.**
+4. **Point E2/MB12 at the programme.** The rule has been applied to a criterion, a lab lane, and a
+   whole tier. **It has never been applied to "the object is the right object."**
+
+### R144-8 — what I am NOT saying
+
+**Not that the object is wrong.** I have no such result, and this bench has killed enough
+over-readings to be careful here. **What I am saying is that it is the UNTESTED HYPOTHESIS** — the
+one load-bearing assumption that 1253 arcs of excellent discipline have almost entirely left alone,
+**while every consequence of it has been tested to exhaustion.** That asymmetry, not any single
+error, is what is wrong with the approach.
