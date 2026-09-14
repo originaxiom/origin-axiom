@@ -82,13 +82,28 @@ QUOTES = [
 ]
 
 
-def section_4A(text):
-    """The 4A section of WHAT_WOULD_COUNT, from its heading to section 5."""
+ADDENDUM_MARK = "### ADDENDUM 2026-09-14 — \u00a74A's no-goes are SINGLE-LEVEL"
+
+
+def section_4A(text, exclude_own_addendum=True):
+    """The 4A section of WHAT_WOULD_COUNT, from its heading to section 5.
+
+    REPRODUCIBILITY: cell 10 later APPENDS this bench's own addendum inside
+    section 4A, and that addendum names B1116.  A re-run would then find the
+    citation it is testing for -- the certificate measuring its own edit, which
+    silently flipped this cell's outcome on the first re-run.  So the section
+    is cut at the addendum marker, and BOTH states are reported.
+    """
     i = text.find("## 4A.")
     j = text.find("## 5.", i if i >= 0 else 0)
     if i < 0:
         return None
-    return text[i:j if j > i else len(text)]
+    sec = text[i:j if j > i else len(text)]
+    if exclude_own_addendum:
+        k = sec.find(ADDENDUM_MARK)
+        if k >= 0:
+            sec = sec[:k]
+    return sec
 
 
 def main() -> int:
@@ -109,6 +124,9 @@ def main() -> int:
             cache[rel] = read(rel)
         ok = norm(q) in cache[rel]
         print(f"    [{'ok ' if ok else 'MISS'}] {label:42s} {rel}")
+        # ECHO the verified string, so this output file is a STANDALONE record
+        # rather than a list of labels (caught by cell 10's control S2).
+        print(f"           \"{q}\"")
         if not ok:
             missing.append((label, rel, q))
     print(f"\n    quotations checked: {len(QUOTES)}   missing: {len(missing)}")
@@ -156,7 +174,11 @@ def main() -> int:
         print("    FATAL: section 4A not located")
         failures.append("R2-locate")
         sec = ""
-    print(f"    section 4A located: {len(sec)} chars")
+    sec_full = section_4A(wwc_raw, exclude_own_addendum=False) or ""
+    own = len(sec_full) - len(sec)
+    print(f"    section 4A located: {len(sec)} chars"
+          + (f"   (excluding this bench's own {own}-char addendum, appended by cell 10)"
+             if own > 0 else "   (this bench has appended nothing to it yet)"))
     positives = ["B1096", "B936", "B666"]
     found_pos = {t: (t in sec) for t in positives}
     for t, v in found_pos.items():
@@ -173,7 +195,14 @@ def main() -> int:
     for t, v in hits.items():
         print(f"    {t:14s} in 4A: {v}")
     cites = any(hits.values())
-    print(f"    -> 4A {'CITES' if cites else 'DOES NOT CITE'} B1116 or its channel")
+    print(f"    -> 4A AS THE RECORD CARRIED IT {'CITES' if cites else 'DOES NOT CITE'} "
+          f"B1116 or its channel")
+    if own > 0:
+        hits_after = {t: (t.lower() in sec_full.lower()) for t in targets}
+        print(f"    after this bench's cell-10 addendum: "
+              f"{'CITES' if any(hits_after.values()) else 'still does not cite'} "
+              f"-- by our own insertion, which is the point of the addendum, "
+              f"and is excluded from the measurement above")
 
     # ------------------------------------------------------------------ T5
     rule("T5 -- the dates")

@@ -9,18 +9,31 @@
  CONTROL R1 -- every quotation asserted present in its named file
 ------------------------------------------------------------------------------
     [ok ] T1 Definition 1 (the clause itself)        frontier/B666_leads_campaign/cellS/PROOF_NOTE.md
+           "A *framework output* is an element of a fixed number field F, carried by a representation of"
     [ok ] T1 the arc's own Scope admission           frontier/B666_leads_campaign/cellS/PROOF_NOTE.md
+           "the one assembly ingredient this note consumes rather than reproves"
     [ok ] T1 the named falsifier, never taken up     frontier/B666_leads_campaign/cellS/PROOF_NOTE.md
+           "exhibit a banked output NOT stabilized by a finite/profinite structure"
     [ok ] T1 the w = 0 exemption                     frontier/B666_leads_campaign/cellS/PROOF_NOTE.md
+           "weight w = 0 is outside its hypothesis"
     [ok ] T2 what was verified exactly               frontier/B666_leads_campaign/cellS/cellS_output.txt
+           "THE RIGIDITY STEP IS VERIFIED EXACTLY ON ALL BANKED STRUCTURES"
     [ok ] T3 B1116's quantifier finding              frontier/B1116_asymptotic_channel/FINDINGS.md
+           "Every banked value/scale no-go quantifies over SINGLE-LEVEL invariants"
     [ok ] T3 B1116's verdict                         frontier/B1116_asymptotic_channel/FINDINGS.md
+           "the archimedean/growth-rate channel is not excluded by any banked no-go"
     [ok ] T3 the caveat must travel                  docs/GRAND_COMPUTATION_LEDGER.md
+           "must ride with the headline"
     [ok ] fence: values still not produced           docs/THE_SM_VERDICT.md
+           "no SM number is produced"
     [ok ] fence: 4A's own non-theorem leg            docs/WHAT_WOULD_COUNT.md
+           "This leg is empirical exhaustion, not theorem"
     [ok ] 4A is not disappointment                   docs/WHAT_WOULD_COUNT.md
+           "The re-scope is licensed by discipline, not by disappointment"
     [ok ] T5 B1116's banked date                     docs/CAMPAIGN_STATUS.md
+           "THE BREAKTHROUGH PACKET pt.1 (2026-08-21)"
     [ok ] T5 that packet names B1116                 docs/CAMPAIGN_STATUS.md
+           "B1116 asymptotic channel (value door not-excluded"
 
     quotations checked: 13   missing: 0
     -> PASS
@@ -56,7 +69,7 @@
     Cell 4's M2 failed because a single probe could not pass.  Before
     concluding that 4A does NOT cite B1116, the same search is run for terms
     4A demonstrably DOES contain.
-    section 4A located: 15936 chars
+    section 4A located: 15936 chars   (excluding this bench's own 2435-char addendum, appended by cell 10)
       probe B1096    present in 4A: True
       probe B936     present in 4A: True
       probe B666     present in 4A: True
@@ -70,7 +83,8 @@
     growth rate    in 4A: False
     growth-rate    in 4A: False
     T-ASYMPTOTIC   in 4A: False
-    -> 4A DOES NOT CITE B1116 or its channel
+    -> 4A AS THE RECORD CARRIED IT DOES NOT CITE B1116 or its channel
+    after this bench's cell-10 addendum: CITES -- by our own insertion, which is the point of the addendum, and is excluded from the measurement above
 
 ------------------------------------------------------------------------------
  T5 -- the dates

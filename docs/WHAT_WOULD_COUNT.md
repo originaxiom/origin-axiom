@@ -383,6 +383,40 @@ pending §4A's own extension. §7 rule 2 below still binds: nothing claims this 
 
 ---
 
+### ADDENDUM 2026-09-14 — §4A's no-goes are SINGLE-LEVEL, and B1116's scope caveat belongs here (outside bench, memo 231 cell 9)
+
+§4A above closes the value tier on three results. Two of them were **scoped by a later banked theorem that
+this section predates by one day and does not cite.**
+
+**B1116** (`frontier/B1116_asymptotic_channel`, T-ASYMPTOTIC, dated 2026-08-21 by
+`docs/CAMPAIGN_STATUS.md`'s own packet line; §4A is dated 2026-08-20), verbatim:
+
+> **Every banked value/scale no-go quantifies over SINGLE-LEVEL invariants.** A **growth rate of a tower** —
+> a difference of levels, needing no basepoint, no frame, no section — is outside all of them.
+
+checked row by row against **B666 cell S** (*"a rate is an N→∞ asymptotic, not a G-equivariant map"*) and
+**B936** (*"a rate is a basis-free scalar limit"*), with the verdict *"the archimedean/growth-rate channel
+is not excluded by any banked no-go."* `docs/GRAND_COMPUTATION_LEDGER.md` records that this caveat
+**"must ride with the headline."** Searching §4A for `B1116`, `asymptotic`, `growth rate`, `growth-rate`
+and `T-ASYMPTOTIC` returns nothing.
+
+**And B666's load-bearing clause is a definition, not a theorem.** `Hom(G, ℝ₊) = 0` is proved and exactly
+verified on six groups. The clause that makes it bite — *"every output is stabilized by a finite/profinite
+structure"* — is **Definition 1** of `frontier/B666_leads_campaign/cellS/PROOF_NOTE.md`, and that note's own
+Scope calls the premise behind it *"the one assembly ingredient this note consumes rather than reproves."*
+The note names its own falsifier — *"exhibit a banked output NOT stabilized by a finite/profinite
+structure"* — and **no arc has taken it up.**
+
+**The restatement this forces:** §4A's closure is sound **for the routes it names**, and those routes are
+single-level. It is **not** established for the tower-growth-rate channel.
+
+**What this does NOT say:** that values are derivable. B1116 opens a **channel, not a number**, and
+`docs/THE_SM_VERDICT.md`'s own words ride along — *"VALUE-matching remains OPEN — no SM number is
+produced."* §4A's coupling leg remains exactly what §4A calls it, *"empirical exhaustion, not theorem"*,
+now at eight misses (the last, B1128, INSTRUMENT-NULL). B666 is not wrong. **Nothing above is struck or
+edited; this addendum adds the caveat the ledger says must travel.** Certificate:
+`outside_bench/certificates/require_and_test_cell9.py`. Gate 5 untouched.
+
 ## 5. WHAT WOULD DISPROVE IT — the half nobody had written
 
 **A ToE claim that cannot fail is not a claim.** Four falsifiers, each computable:
