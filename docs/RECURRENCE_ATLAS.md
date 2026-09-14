@@ -68,9 +68,9 @@ For each obstacle-type (from `docs/atlas/FAILURE_ATLAS.md`), the motifs most pre
 | obstacle-type | #banked | top conserved resolver | top motifs |
 |---|---|---|---|
 | source_free | 1 | choice | choice(1), figure_eight(1), golden(1) |
-| cancellation | 65 | golden | golden(41), eisenstein(40), firewall(36), trace_map(29) |
+| cancellation | 64 | golden | golden(40), eisenstein(39), firewall(35), trace_map(28) |
 | selector | 24 | eisenstein | eisenstein(17), golden(14), figure_eight(13), trace_map(12) |
-| measure | 125 | golden | golden(67), eisenstein(67), firewall(59), measurement(55) |
+| measure | 126 | golden | golden(68), eisenstein(68), firewall(60), measurement(56) |
 | units_scale | 114 | firewall | firewall(76), golden(68), eisenstein(61), metallic(55) |
 | gauge_dict | 67 | eisenstein | eisenstein(42), firewall(34), golden(33), amphichiral_cp(32) |
 | particle_dict | 105 | eisenstein | eisenstein(76), z3_generation(71), firewall(63), golden(62) |
@@ -123,7 +123,7 @@ Obstacle-types with few **banked** resolutions (under-resolved ⇒ where the obj
 |---|---|
 | source_free | 1/3 |
 | bridge_construction | 11/24 |
-| measure | 125/209 |
+| measure | 126/210 |
 | gauge_dict | 67/108 |
 | spacetime_3p1 | 144/224 |
 | selector | 24/37 |
