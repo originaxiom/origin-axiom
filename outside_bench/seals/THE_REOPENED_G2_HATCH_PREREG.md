@@ -78,3 +78,56 @@ own fence on B1304's example is *"the example is not an Acharya–Witten constru
 computes **geometry**, and states the two readings so a specialist can say which one AW needs. **No
 chiral matter is derived.** **No generation count** — I-26 is UNEARNED and this does not touch it. No
 value. Gate 5 untouched.
+
+---
+
+## ADDENDUM 1 (2026-09-14, POST-COMPUTE) — OUTCOME B WAS ALREADY BANKED AS A SENTENCE; WHAT THIS CELL ADDS IS THE DERIVATION. **BENCH ERROR #35.**
+
+**The error, stated first.** This seal quoted B1084's census and the words *"ISOLATION FAILING"*, and then
+presented outcome B as an open alternative. It is not open. **B1084's `claim_one_line` and its FINDINGS §3
+state outcome B verbatim:**
+
+> **"ISOLATION: FAILS, by the census. No 0-dim fixed set ⟹ every A₁ locus meets the E₆ locus along a LINE,
+> never transversally at a point ⟹ every localized state extends along a flat direction ⟹ vector-like
+> in 4d."**
+
+So the cell's numeric result — 30 intersections, all of dimension 1 — **REPRODUCES a banked conclusion and
+is not news.** Reading an arc's summary line instead of its own stated conclusion is the same failure as
+**BENCH ERROR #34** (reading a branch listing instead of the record). Filed as **#35**. Terms searched
+before this addendum: `"meets the E6 locus"`, `"along a LINE"`, `"isolat"`, `"vector-like"` inside
+`frontier/B1084_g2_cone/` — all present, all missed at seal time because only `arc_verdict.json`'s census
+clause was read.
+
+**What survives, and it is not nothing: B1084's ⟹ IS THE QUANTIFIER INTERCHANGE B1304 NAMED.**
+
+B1084's own script says what the census ranges over:
+
+> `# ITEM 2: fixed-subspace dimension census over the 95 nonidentity elements`
+> `print(f"ITEM 2: fixed-space dimension census over 95 nonidentity elements: {census}")`
+
+and its FINDINGS repeats it: *"The fixed-dimension census **over the 95 nontrivial elements**: {3d: 53, 1d:
+42} — NO **element** has a 0-dimensional fixed set."*
+
+But an A₁–E₆ intersection is `Fix(H₁) ∩ Fix(H₂) = Fix(⟨H₁, H₂⟩)` — **the fixed set of a SUBGROUP, which is
+not in that census.** "No element has a 0-dimensional fixed set" therefore does **not** entail "no
+intersection of loci is 0-dimensional". This is precisely E70, and **B1304 supplies the counterexample that
+shows the step is invalid in general**: on (ℤ/2)³ ⊂ G₂ the subgroup-order → fixed-dimension map is
+**{1: 7, 2: 3, 4: 1, 8: 0}** — no element reaches dimension 0, a subgroup does.
+
+**So the conclusion was banked on an invalid derivation, and this cell's direct exact computation of all 30
+intersections is the first valid derivation of it.** The cell computes the linear meet
+`dim(U ∩ V) = dim U + dim V − dim(U + V)` over ℚ(√2) exactly, per locus pair — the object B1084 asserted
+about and did not compute.
+
+**The corrected reading of the cell, replacing the pre-compute framing above:**
+
+| | |
+|---|---|
+| **the number** | reproduction of B1084 §3 — **not news** |
+| **the derivation** | new: B1084's element-census ⟹ locus-intersection step is E70-class and is not repaired by adding data; it is replaced here |
+| **R1 vs R2** | stands as written: B1304's reopening establishes R1 (the apex is an isolated maximal-isotropy stratum), and R2 (an isolated A₁–E₆ intersection) is now **computed** false on this Ĝ rather than inferred false |
+| **the hatch** | open as stated, shut as needed — unchanged |
+
+All fences in the pre-compute text stand unchanged: nothing is claimed about what Acharya–Witten formally
+requires, no chiral matter is derived, I-26 remains UNEARNED, and everything here concerns **flat**
+orbifolds, the class B1259 closed. **Nothing above is struck.** Gate 5 untouched.
