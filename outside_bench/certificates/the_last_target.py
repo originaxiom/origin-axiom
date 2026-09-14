@@ -30,6 +30,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RAW = os.path.join(ROOT, "outside_bench", "outputs", "the_last_target_raw.txt")
+DUP = os.path.join(ROOT, "outside_bench", "outputs", "the_last_target_t12835.txt")
 
 # B1330 ADDENDUM 2 (2026-09-11), banked -- V1's targets
 BANKED = {
@@ -94,6 +95,21 @@ def main() -> int:
     with open(RAW, encoding="utf-8", errors="replace") as fh:
         raw = fh.read()
     res = parse(raw)
+    # t12835 was run TWICE, in two independent processes from the same vendored
+    # script: once inside the three-manifold run and once alone.  The alone run
+    # is read here; agreement between them is control V5.
+    dup = {}
+    if os.path.exists(DUP):
+        with open(DUP, encoding="utf-8", errors="replace") as fh:
+            dup = parse(fh.read())
+    # KEEP THE TWO PARSES SEPARATE.  A first version merged dup into res and
+    # then "compared" them -- an object against itself, a control that could
+    # not fail (MB12).  res_own is the three-manifold run's own block; dup is
+    # the standalone run's.  They are only ever compared, never merged.
+    res_own = {k: v for k, v in res.items()}
+    if res.get("t12835", {}).get("nonzero") is None and \
+       dup.get("t12835", {}).get("nonzero") is not None:
+        res["t12835"] = dup["t12835"]   # for reporting the RESULT only
 
     rule("WHAT WAS ALREADY DONE, and why this cell is one manifold and not three")
     print("""    B1330's closing line -- "NOT DONE: s958, t12833 and t12835 ... are named,
@@ -190,6 +206,27 @@ def main() -> int:
         failures.append("V4")
 
     # ------------------------------------------------------------------ outcome
+    rule("CONTROL V5 -- t12835 was run TWICE, independently; the runs must agree")
+    a = res_own.get("t12835", {})     # the three-manifold run's OWN block
+    b = dup.get("t12835", {})         # the standalone run's block
+    fields = ("sectors", "t0_ge2", "nonzero", "dist")
+    print("    run-1 = the three-manifold run's own t12835 block")
+    print("    run-2 = the standalone t12835 run  (two separate processes)")
+    if a.get("nonzero") is None or b.get("nonzero") is None:
+        which = "run-1" if a.get("nonzero") is None else "run-2"
+        print(f"    {which} has NOT finished its t12835 block.")
+        print("    -> PENDING, not agreement.  A self-comparison is not a control;")
+        print("       an earlier version of this cell merged the two and compared")
+        print("       an object to itself, which passed vacuously.  Reported as")
+        print("       pending until two independent blocks exist.")
+    else:
+        same = all(a.get(f) == b.get(f) for f in fields)
+        for f in fields:
+            print(f"    {f:9s} run-1 {str(a.get(f)):28s} run-2 {str(b.get(f))}")
+        print(f"    -> {'PASS' if same else 'FAIL'} (independent runs must agree)")
+        if not same:
+            failures.append("V5")
+
     rule("THE PREREGISTERED OUTCOME -- t12835")
     t = res.get("t12835")
     if not t:
