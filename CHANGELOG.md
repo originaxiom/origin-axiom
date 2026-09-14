@@ -1,5 +1,59 @@
 # Changelog
 
+## THE SEVEN RETRACTIONS THAT NEVER GOT A ROW, AND THE SWEEP'S LAST SIX CANDIDATES — L143'S GAP, STILL OPEN ON A SECOND SURFACE (B921-9b, R57-3)
+
+**Twelve arcs carry `"verdict": "RETRACTED"`. Five had a row in `docs/RETRACTIONS.md`.** The other
+seven — B58, B192, B216, B702, B731, B780, B1181 — had none, and **every gate was right to be
+green.** `retraction-sweep`'s rule is *"registered retracted phrases must not appear as live
+claims"*: it polices the **content of rows that exist**. The comment that introduced `relay-debt` in
+`scripts/gates/gates.py` had already written the sentence — *"`lawmap-scope` and `retraction-sweep`
+police the CONTENT of rows that exist; neither notices a row that was NEVER WRITTEN"* — and built the
+third gate for exactly this failure, **for relays. Nothing did it for retractions.** So this is not a
+discovery; it is **L143's gap on a second surface**, under a lead row that had been pointing at it for
+four weeks.
+
+**Nothing in the corpus was ever wrong.** Each of the seven carries a correction banner in its own
+FINDINGS, written at the time. What was missing is the **index** — which is what a reader consults
+who never opens that arc's file, exactly the hazard `RETRACTIONS.md`'s own preamble names
+(*"a reader of an old FINDINGS could still act on them"*). It compounds: `RETRACTED_PHRASES` is
+populated **from** that index, so an unwritten row also means the retracted wording is never swept
+for. **E53's limit case — the correction reaching exactly one surface, its own.**
+
+**Closed two ways.** Seven rows, each quoting the arc's **own** stated reason from its **own** banked
+record — no reason invented, **all 16 quotes re-extracted from the shipped file and grepped in their
+own arcs' records** (E68; the first pass grepped the quotes *before* writing the rows, and writing them
+silently broke three — a backtick, an emphasis marker, a re-typed quote character — so **verifying the
+intended quote is not verifying the shipped one**, the same substitution a fifth time) — and
+`scripts/checks/retraction_debt.py`, wired as the **`retraction-debt`** gate (33 now): every
+`RETRACTED` verdict is NAMED in `RETRACTIONS.md` on a line carrying a retraction verb, the verb
+requirement being what stops a bare mention from discharging the debt. **Shown reporting 7 before the
+rows and 0 after** (MB12), with the failure path locked against a stripped ledger.
+
+**R57-3 finished: 12 of 12 candidates adjudicated, each by a command — 5 stale, 7 accurate.** The two
+new stale ones are both *unpropagated truth*, and both far older than the first pass suggested:
+**`L144`, 25 days** — door 5 closed 2026-08-20 on `THE_LADDER` X30, `THEOREM_LEDGER` and
+`SM_SPECIFICATION_LEDGER`, and carried live in the leads register with two now-false supporting facts
+(*"no arc's `depends_on` cites B167"* — B1241, B1248 and B1249 all do; *"nothing has tested it"* —
+B1096 did); and **`B171`, 88 days** — its verdict file never touched after B172 answered its question
+and B173 certified the label at rank 3, so `THE_SPINE` and `VERDICT_LEDGER` both rendered a settled
+question as live, **each faithful to a stale source**. Repaired at source the B1241/B167 way.
+
+**The cadence question settles the other way, on the finished evidence rather than the first two
+instances:** staleness does **not** accumulate per window — 25 and 88 days against the first pass's
+one — so the sweep belongs at **review cadence**, and a per-window run would have missed both.
+
+**A fourth instance of this window's own synthesis, and the first caught before it shipped.** The
+first pass reported *"7 read"*; **six were read** — the fourth "accurate" was judged from
+`open_claim_sweep.py`'s **150-character excerpt**, never from the document. *A proxy checked in place
+of the thing it stands for*, after the wall-audit premise, the contaminated bootstrap and the branch
+audit. Two mechanical siblings fell out of the same pass: **`gate_views_generated` never ran
+`spine.py`**, so `docs/views/THE_SPINE.md` had drifted to **1127 locks against the 1216 its generator
+produces** — inside the very directory the gate scans, under a header reading *"Regenerated with the
+views"* (gate widened, shown failing on injected drift); and **`docs/NOVELTY_AUDIT.md` carried two
+`## R5` headings** since the previous entry, renumbered to **R8** with the append-only log lines left
+standing. **R57-1b** also lands: `REVIEW_TEMPLATE.md` §1b now says the branch-inventory match is on
+the **leaf**, not on `git branch -r`'s full ref.
+
 ## THE TOWER'S BUDGET IS REAL — 20 REAL PARAMETERS AT ITS CEILING, k(n−1) VERIFIED AS A TWO-PARAMETER LAW, AND EVERY PARAMETER IS BOUNDARY DATA WITH ZERO INTERIOR MODULI (B1409)
 
 **The plan's decisive computation ran, and it came back positive with a structure nobody asked

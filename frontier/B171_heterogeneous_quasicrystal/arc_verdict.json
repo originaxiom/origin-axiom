@@ -1,7 +1,7 @@
 {
  "id": "B171",
  "verdict": "OPEN",
- "claim_one_line": "Phase-0 baselines show the woven metallic spectrum inherits both rank-2 ladders and quantifies the density trap, leaving the rank-3 combination gap unsettled.",
+ "claim_one_line": "Phase-0 baselines show the woven metallic spectrum inherits both rank-2 ladders and quantifies the density trap, leaving the rank-3 combination gap unsettled. [2026-09-14 R57-3: qualifier added, the B1241/B167 way — the OPEN verdict is accurate about THIS arc (Phase 0 was a baseline and a null calibration, and its own FINDINGS says so: it does “not establish a rank-3 combination gap (that is Phase 1)”), but the QUESTION it left open has since been answered. B172 (PROVED) “Answers the question B171 opened — does heterogeneous interaction generate a genuine rank-3 combination gap? — affirmatively, hedged”, with the sharp many-digit certification NEEDS-SPECIALIST; B173 (PROVED) then certified the woven two-seed gap-label group at rank 3 by PSLQ, reducing B172’s gap to the gap-labeling theorem. Nothing said so on any surface, so THE_SPINE and VERDICT_LEDGER both rendered a settled question as live — E53’s shape one level up, found by the open-claim sweep.]",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,

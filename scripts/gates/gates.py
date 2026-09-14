@@ -601,26 +601,34 @@ def gate_views_generated():
     GOVERNANCE §12 clause two. Unlike `views-fresh` (which asks whether a HAND-maintained view
     was touched recently), this asks whether a GENERATED view still equals what its sources
     produce -- a strictly stronger check, and the one that makes hand-editing detectable."""
-    gen = os.path.join(ROOT, "scripts", "views", "generate.py")
-    if not os.path.isfile(gen):
-        return False, "view generator missing"                 # fail-closed
+    # R57-3 (2026-09-14): THE_SPINE.md is written by a DIFFERENT generator, and this gate ran only
+    # generate.py -- so the one view nothing regenerated could drift for as long as it liked inside
+    # the directory the gate scans. It had: 1127 locks on disk against 1216 the generator produces,
+    # while its own header read "Regenerated with the views." Same shape as B921-9b, one surface
+    # over: the check read what existed and never noticed what was never RUN. Every generator that
+    # writes into docs/views/ is listed here.
+    gens = [os.path.join(ROOT, "scripts", "views", g) for g in ("generate.py", "spine.py")]
+    missing = [g for g in gens if not os.path.isfile(g)]
+    if missing:
+        return False, "view generator missing: " + ", ".join(os.path.basename(g) for g in missing)
     vdir = os.path.join(ROOT, "docs", "views")
     before = {}
     if os.path.isdir(vdir):
         for f in sorted(os.listdir(vdir)):
             if f.endswith(".md"):
                 before[f] = _read(f"docs/views/{f}")
-    r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=180)
-    if r.returncode != 0:
-        return False, f"generator failed: {r.stderr[-200:]}"
+    for gen in gens:
+        r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=300)
+        if r.returncode != 0:
+            return False, f"{os.path.basename(gen)} failed: {r.stderr[-200:]}"
     stale = []
     for f, old in before.items():
         if _read(f"docs/views/{f}") != old:
             stale.append(f)
     new = [f for f in os.listdir(vdir) if f.endswith(".md") and f not in before]
     if stale or new:
-        return False, ("generated views out of date (regenerate: python3 scripts/views/"
-                       "generate.py): " + ", ".join(stale + new))
+        return False, ("generated views out of date (regenerate: python3 scripts/views/generate.py "
+                       "AND python3 scripts/views/spine.py): " + ", ".join(stale + new))
     return True, f"ok ({len(before)} views current)"
 
 
@@ -991,6 +999,22 @@ def gate_relay_debt():
     return True, "ok"
 
 
+# B921-9b (2026-09-14): the SAME gap as L143, on a second surface. `retraction-sweep` is green
+# on a corpus where SEVEN of the twelve RETRACTED arcs have no row in docs/RETRACTIONS.md -- and
+# it is right to be: its rule is about the CONTENT of rows that exist. The comment above built
+# `relay-debt` for "a row that was never written" -- for RELAYS. Nothing did it for retractions,
+# and the lead row that had been sitting on it (B921-9) was itself four weeks old when it was read.
+def gate_retraction_debt():
+    """B921-9b -- every RETRACTED arc is NAMED in docs/RETRACTIONS.md, or its retraction is invisible."""
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "retraction_debt.py")],
+                       capture_output=True, text=True, timeout=120)
+    out = (r.stdout + r.stderr).strip()
+    if r.returncode != 0:
+        return False, out.replace("\n", " | ")[:500]
+    return True, "ok"
+
+
 def gate_harvest_debt():
     """B1307 -- every seat branch is READ within 21 days of a push; the harvest ledger is reconciled against each seat's own index
     (MASTERPLAN v3.1 section 1a rule 3). Plain mode = instrument integrity + ageing; `review-due` runs it --strict."""
@@ -1186,6 +1210,7 @@ GATES = {
     "representation-sweep": gate_representation_sweep,
     "doc-currency": gate_doc_currency,
     "relay-debt": gate_relay_debt,
+    "retraction-debt": gate_retraction_debt,
     "harvest-debt": gate_harvest_debt,
     "log-changelog-paired": gate_log_changelog_paired,
     "chain-locks": gate_chain_locks,

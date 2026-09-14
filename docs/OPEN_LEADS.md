@@ -779,7 +779,7 @@ clause, not the whole normalisation.
 | B921-7 | [MAIN-STATE] L9 cheapest recovery: Gate 8R2-A closable — "both instruments exist" (L112 + B878's harvested mesh-scanning solver is option (b)); connect them. | OPEN — routed from the harvest manifest §4 |
 | B921-8 | [MAIN-STATE] L9 dropped forward obligations: B878 §4.5 items (a_π census, Steil read, parity census, J-normalization); B849's carried list (BC/CMR test, CS-torsion prior-art gate, the 370-geodesic phantom); B787 §4 items | OPEN — routed from the harvest manifest §4 |
 | B921-9 | **SPLIT AND ADJUDICATED 2026-09-14 (R57-3).** This was a **compound row** — five conditions under one `OPEN` — and so could be neither closed nor carried as a unit; three of the five had changed status without anyone able to say so. Each is now checked by a command, not asserted: **(a) THEOREM_REGISTRY/LEDGER zero B8xx/B9xx rows — FIXED** (registry **46**, ledger **30**). **(b) RETRACTIONS ≥5 missing rows — STILL OPEN, and understated: it is 7** of 12 `RETRACTED` arcs with no row (B702, B780, B192, B58, B1181, B216, B731) → carried as **B921-9b**. **(c) ROADMAP Tier-3 false — MOOT**: the ROADMAP no longer carries Tier-3 language at all, so the claim has no referent; superseded, not fixed. **(d) LAW_MAP five orphan rows — FIXED** (0 orphans of 209 rows; every row cites an arc id). **(e) COMMS_PROTOCOL no legal name for — UNREADABLE: the condition is TRUNCATED IN THE SOURCE**, ending mid-sentence at *"no legal name for"*, and has been since it was banked. It cannot be adjudicated and is not carried; if it mattered, it must be re-posed. | **CLOSED as a row** — (a) and (d) fixed, (c) moot, (e) unreadable; only (b) survives, as B921-9b |
-| **B921-9b** | **RETRACTIONS.md is missing 7 of 12 `RETRACTED` arcs**: B702_metallic_hearing_law, B780_galois_reversal_gate, B192_sln_higher_rank, B58_sl4_tower_test, B1181_amphichirality_closure, B216_period_law_f8_boundary, B731_object_observer_noncongruence. The `retraction-sweep` gate is green, which means it checks something other than completeness against the verdict files. | OPEN — split from B921-9 at R57-3, 2026-09-14, with the seven named |
+| **B921-9b** | **RETRACTIONS.md is missing 7 of 12 `RETRACTED` arcs**: B702_metallic_hearing_law, B780_galois_reversal_gate, B192_sln_higher_rank, B58_sl4_tower_test, B1181_amphichirality_closure, B216_period_law_f8_boundary, B731_object_observer_noncongruence. The `retraction-sweep` gate is green, which means it checks something other than completeness against the verdict files. **CLOSED 2026-09-14.** It checks exactly what its docstring says — *"registered retracted phrases must not appear as live claims"*, the **content of rows that exist** — so it was right to be green. **This is L143's gap on a second surface**, and the corpus had already written the sentence: the comment introducing `relay-debt` in `scripts/gates/gates.py` reads *"`lawmap-scope` and `retraction-sweep` police the CONTENT of rows that exist; neither notices a row that was NEVER WRITTEN."* That comment built the third gate for exactly this failure — **for relays; nothing did it for retractions**, and this row sat on it for four weeks. Nothing in the corpus was ever wrong: each of the seven carries a correction banner in its own FINDINGS, written at the time. What was missing is the **index**, which is what a reader consults who never opens that arc's file — and `RETRACTED_PHRASES` is populated *from* the index, so an unwritten row also means the wording is never swept for. Closed two ways: **the seven rows**, each quoting the arc's own stated reason from its own banked record, every quote grepped in its source before it shipped (E68); and **`scripts/checks/retraction_debt.py`**, wired as the `retraction-debt` gate — **shown reporting 7 before the rows and 0 after** (MB12), with the failure path locked against a stripped ledger in `tests/test_b921_9b_retraction_debt_gate.py`. | **CLOSED** 2026-09-14 — seven rows written + `retraction-debt` gated (33 gates) |
 | B921-10 | L11 the paper void: named deliverables with zero drafts; the un-externalizable pile includes P69/P70, the sealed crossing negative, 21 §F laws, the 43-eigenvalue dataset (now + the branch's 25-digit lam_2). | OPEN — routed from the harvest manifest §4 |
 | B921-11 | [PROCESS] The loss-audit pattern finding: nothing gates register COMPLETENESS against the carried-forward sections of banked FINDINGS; a standing sweep of "Carried forward"/"Open items" sections across frontier/ into OPE | OPEN — routed from the harvest manifest §4 |
 | B921-12 | Conditions C2–C7 must be done before any cell9 rung-(i) run banked under the sealed chain: C2 non-convergence abort after itmax; C3 self-labeling shakedown JSON; C4 correct the prereg stamp 3ba81779→169e9042 + stale v2 d | OPEN — routed from the harvest manifest §4 |
@@ -1074,6 +1074,27 @@ clause, not the whole normalisation.
 > unconditional "from nothing" direction is **mapped dead**.
 
 ## L144 — is B167's door-map still standing after the cascade campaign? (registered 2026-08-08, B979 prior-art read)
+
+> **CLOSED 2026-08-20 (B1096, L170a) — banner added 2026-09-14 at R57-3, three weeks and five
+> days late, by the open-claim sweep.** The closure was banked on **three** surfaces at the time —
+> `docs/THE_LADDER.md` rung X30, `docs/THEOREM_LEDGER.md:395`, `docs/SM_SPECIFICATION_LEDGER.md:275`
+> (*"the door is shut structurally, not merely unexplored — this closes L144"*) — and on **none** of
+> them is the leads register itself, which is the one surface a reader consults to ask what is open.
+> **Door 5 is shut structurally, on new grounds, not the ones this lead was carrying:** X29's
+> computation shows the anomaly layer over the object's own derived matter content **vanishes
+> identically in every channel**, and *"a layer that vanishes identically cannot supply a ratio"* —
+> so the two-outcome retry proposed below is **unanswerable by construction**, not merely closed by
+> the overturned premise. **Doors 1–4 remain untouched** and the first move below stands for them.
+>
+> **Two load-bearing facts in the body below are now FALSE, and the body is left standing with this
+> correction rather than rewritten** (the record of what was believed is the point): (i) *"It is
+> orphaned. No arc's `depends_on` cites B167"* — **B1241, B1248 and B1249 all do**, checked by
+> command; (ii) *"Nothing has tested it since it was written"* — **B1096 did**, which is this
+> closure. The one thing the body predicted correctly: B167 *"gets its first citation, which it has
+> never had"* — it now has three.
+>
+> **Why this sat:** the same shape as L208's body three weeks later — a closure reaching the
+> synthesis surfaces and never the register. E53, one level up from a verdict file.
 
 **Not a Planck-scale retry.** The *scale* question is genuinely bolted: **B413** (the tower-measure
 is flat, |L(χ)|=1/4 for every character — exact) and **B563** (a preregistered Planck-ratio retry
@@ -2707,15 +2728,54 @@ real staleness candidates.
 scorers are mostly *correct* citations (a doc describing a result, matched to the arc that proved it),
 so the sweep is a **candidate generator and not a verdict**, and each remaining row needs a read.
 
-**PARTIALLY DISCHARGED, same day (R57-3).** Seven of the twelve now read: **3 stale** (the two
-above plus **B921-9**, which is *old and not this bench's* — its first condition,
-*"THEOREM_REGISTRY/LEDGER zero B8xx/B9xx rows"*, is falsified at **46** and **30**) and **4
-accurate** (`THE_SM_VERDICT`'s *"object-specificity lives at the group level"*;
-`CROSSING_REQUIREMENTS`' *"as of B1101 no licensed candidate class"*, which B1407 made **more**
-true; H4's minimality question; the Review-37 scoped-stale note). **So the instrument is
+**PARTIALLY DISCHARGED, same day (R57-3).** ~~Seven of the twelve now read: **3 stale** … and **4
+accurate** …~~ — **TALLY CORRECTED 2026-09-14, and the correction is the report's own error class.**
+**SIX were read, not seven.** The fourth "accurate" — the **Review-37 scoped-stale note** — was
+judged **from its line in the sweep's output**, which prints only the first 150 characters of a
+claim. It was never opened. That is an adjudication *asserted* rather than *performed*: **a proxy
+checked in place of the thing it stands for**, the single class this window minted nine times over,
+here in its most compact form — *the sweep's excerpt standing in for the document.* Fourth instance
+in two passes, and **the first one the new practice caught before it shipped rather than after.**
+
+**The corrected figure: 6 read — 3 stale, 3 accurate** (`THE_SM_VERDICT`'s *"object-specificity
+lives at the group level"*; `CROSSING_REQUIREMENTS`' *"as of B1101 no licensed candidate class"*,
+which B1407 made **more** true; H4's minimality question), the three stale being the two fixed on
+the spot plus **B921-9** (*old and not this bench's* — its first condition, *"THEOREM_REGISTRY/
+LEDGER zero B8xx/B9xx rows"*, is falsified at **46** and **30**). **So the instrument is
 high-recall and moderate-precision — a candidate generator needing a read per row, never a
 verdict** — and the per-window reading is **wrong on its own evidence**: B921-9 is old, so
 staleness accumulates at both ends and the sweep earns a run at review cadence *as well*.
+
+**FULLY DISCHARGED 2026-09-14 (R57-3, second pass) — the last six read, each by a command.**
+Result: **2 stale, 4 accurate** → **12 of 12 adjudicated: 5 stale, 7 accurate.**
+
+| # | the candidate | the command that decided it | verdict |
+|---|---|---|---|
+| 7 | `OPEN_LEADS` **H2 — citation check (the novelty gate)**: *"SPECIALIST CLOSE still OPEN — the user's"* | `sed -n '200,215p' docs/NOVELTY_AUDIT.md` — the audit's own Net assessment still reads *"both pending a specialist read (… R4: the Falbel/HMP/BFG circle …)"*; the three matched arcs (B199, B204 — both 2026-06-24 — and B281) are on other subjects | **ACCURATE.** And **not closable by an arc at all**: the row says *"An AI read de-risks; it does not close."* A correct citation matched to nearby arcs — the sweep's documented false-positive mode |
+| 8 | `LAW_MAP` **THE FRAME-ARC LAWS (B909)**: *"second prime open-diagnosed"* | `grep -rniE 'second prime' --include=FINDINGS.md frontier/` — `B926_crossing_anatomy/FINDINGS.md:338`, written **after** B919, repeats *"B919 is one-prime tier (second prime open-diagnosed)"*; B895's "second prime" is B884's hypercharge direction, a different claim | **ACCURATE** — the most recent arc touching it **confirms** the row rather than superseding it |
+| 9 | `OPEN_LEADS` **L144 / the Door-5 ratio lane**: *"It is orphaned. No arc's `depends_on` cites B167 … Nothing has tested it since it was written"*, plus a two-outcome retry to be sealed | (a) a `depends_on` scan over all 1238 `arc_verdict.json` → **B1241, B1248, B1249 all cite B167**; (b) `grep -rn 'L144' docs/` → **CLOSED 2026-08-20 (B1096)** on `THE_LADDER` X30, `THEOREM_LEDGER:395`, `SM_SPECIFICATION_LEDGER:275` | **STALE — the sharpest of the twelve.** The closure reached **three synthesis surfaces and not the leads register**, for 25 days. Banner written, body left standing with its two false facts marked. **The same shape as L208's body, three weeks earlier** |
+| 10 | `views/THE_SPINE` **B171 `OPEN`**: *"leaving the rank-3 combination gap unsettled"* | `head -20 frontier/B172_combination_gap_resolution/FINDINGS.md` — *"Answers the question B171 opened … affirmatively, hedged"*; B173 (PROVED) then certified the gap-label group at **rank 3** by PSLQ | **STALE at its source.** The view is faithful; `frontier/B171_…/arc_verdict.json` is what was never updated, so **THE_SPINE and VERDICT_LEDGER both rendered a settled question as live**. Qualifier added to the verdict file the B1241/B167 way; B171 stays `OPEN`, which is true *of B171* |
+| 11 | `OPEN_LEADS` **the Review-37 note** (the one mis-counted above): *"Full-catalog audit remains a carried review item (R37-7)"* | `grep -n 'R37-7' docs/progress/REVIEWS.md` → `2965:- [>] R37-7 (carried R36-5)` — still carried | **ACCURATE.** Read this time |
+| 12 | `OPEN_LEADS` **the OBJECT-LEVEL quantity / B993 row**: *"precisely the address B993 left open"* | `frontier/B1006_lambda2_pslq/arc_verdict.json` — the arc the sweep matched **quotes this doc's sentence verbatim**, which is *why* it scored; and the doc's next paragraph already reads *"Sealed as B1006"* | **ACCURATE** — a historical statement, correctly cited, with its own resolution named two paragraphs later |
+
+**What the finished set says about the instrument, now that it is finished** (the first two
+instances were not enough to say it): **5 of 12 stale, 7 accurate.** Every one of the five is a
+**closure or a correction that reached some surfaces and not others** — never a wrong computation.
+The sweep does not find errors; it finds **unpropagated truth**, which is precisely the class no
+content-reading gate can see. And the two it found this pass were **25 days** (L144) and **88 days**
+(B171) old, against the first pass's one day — so **staleness does not accumulate per window**, and
+a per-window run would have missed both.
+
+**Two gate-shaped defects fell out of running the adjudication, both the same shape as B921-9b:**
+1. `docs/views/THE_SPINE.md` is written by `scripts/views/spine.py`, but `gate_views_generated`
+   ran **only** `generate.py` — so the one view nothing regenerated could drift inside the very
+   directory the gate scans. **It had: 1127 locks on disk against 1216**, while its own header read
+   *"Regenerated with the views."* The gate now runs every generator that writes into `docs/views/`,
+   and is shown failing on injected drift.
+2. `docs/NOVELTY_AUDIT.md` carried **two `## R5` headings** — the 2026-06-27 round and the one
+   appended yesterday — because nothing checks a round label for collision. Renumbered to **R8**
+   (the first free label) with the reconciliation noted in place; the append-only log entries that
+   say "gains R5" stand as written. A pre-existing `## R6` collision is recorded, not renumbered.
 
 **B921-9 also named a shape:** it was a **compound row**, five conditions under one `OPEN`, so it
 could be neither closed nor carried as a unit — and one of the five (**COMMS_PROTOCOL**) turns out
@@ -2723,7 +2783,7 @@ to be **truncated in the source**, ending mid-sentence at *"no legal name for"*,
 since the day it was banked. It is now split; only the RETRACTIONS condition survives, as
 **B921-9b**, with its seven arcs named.
 
-**The lead, reduced:** read the remaining five. **And note what this says about the wall re-audit that motivated it:** the premise —
+**The lead, CLOSED** (all twelve adjudicated; the two stale ones repaired at source). **And note what this says about the wall re-audit that motivated it:** the premise —
 "walls get banked and never corrected" — was **not** borne out on its own test case (wall #4's
 correction *was* propagated, into `HINT_LEDGER` at H72/H80). The staleness that exists is in **leads
 and ledgers, not walls**, and it is days old rather than months.

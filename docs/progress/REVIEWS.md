@@ -5444,6 +5444,27 @@ row was still holding the mirror row open a day after B1407 killed it. **Both we
 both one day old.** The standing rule that would have caught them: *the banner and the body are two
 surfaces*; updating one is not updating the claim.
 
+> **ADDENDUM, same day (R57-3 second pass, after the remaining six were read).** The one-day figure
+> above was an artefact of stopping at two. **E53 re-fired five times this window, not twice**, and
+> the three found on the second pass are **25 days** (`L144`, closed 2026-08-20 on three synthesis
+> surfaces and live in the leads register), **88 days** (`B171`, whose verdict file was never touched
+> after B172 answered its question, so two *generated* views rendered it open — both faithful to a
+> stale source) and **up to 80 days** (the seven `RETRACTED` arcs with no row in `RETRACTIONS.md`).
+> **So staleness does not accumulate per window, and the cadence question settles the other way:**
+> the sweep belongs at review cadence, where it sees the old as well as the new — a per-window run
+> would have missed all three. Registered as **E53 #13–#14 plus the index-level reading**.
+>
+> **And a fourth instance of this window's own synthesis, self-caught before it shipped.** §5's tally
+> of the first pass said *seven read*; **six were read.** The fourth "accurate" was judged from
+> `open_claim_sweep.py`'s **150-character excerpt** rather than from the document — *a proxy checked
+> in place of the thing it stands for*, after the wall-audit premise, the contaminated bootstrap and
+> the branch audit. **First of the four caught before the report left the bench rather than after.**
+> Corrected in `L220`, where all twelve adjudications now carry the command that decided them.
+> Two mechanical siblings fell out of the same pass: `gate_views_generated` never ran `spine.py`, so
+> `THE_SPINE.md` had drifted to **1127 locks against 1216** inside the directory the gate scans; and
+> `NOVELTY_AUDIT.md` carried **two `## R5` headings**. Both fixed; the gate is shown failing on
+> injected drift.
+
 ## 6. The provenance spot-sweep
 
 **External-verification pretense: clean.** Six files matched the Review-18 phrase list; every hit is
@@ -5482,9 +5503,9 @@ grew by nine classes, and the programme's distance to a value is now stated as a
 ### Action items (Review 57)
 
 - [x] R57-1 (WITHDRAWN 2026-09-14, same day: there is no gap — all 6 unmerged refs are registered; the audit matched full refs while the pin table records leaves, to keep the vendor token out of tracked text). **Restated as R57-1b.** (owner: cc; source: Review 57 §2)
-- [ ] R57-1b: state in the B763 rule that a branch-registry audit matches on the branch LEAF, not on `git branch -r`'s full ref — the vendor-token rule makes the two deliberately unequal, so a naive audit reports false gaps (owner: cc; source: Review 57 §2, withdrawn R57-1)
+- [x] R57-1b (done 2026-09-14, same day: `docs/progress/REVIEW_TEMPLATE.md` §1b gains the rule, with the concrete remedy — compare `ref.rsplit("/", 1)[-1]` against the ledger's keys — and the three withdrawn Review-57 findings cited as the instance): state in the B763 rule that a branch-registry audit matches on the branch LEAF, not on `git branch -r`'s full ref — the vendor-token rule makes the two deliberately unequal, so a naive audit reports false gaps (owner: cc; source: Review 57 §2, withdrawn R57-1)
 - [x] R57-2 (done 2026-09-14, same day: TERMINOLOGY.md gains all four, with the E78 homonym note on *end invariant* — the corpus's older *Eisenstein-end* / *E₈-end* are a different word): gloss *graded trace*, *supertrace*, *parameter budget*, *end invariant* in `TERMINOLOGY.md` (owner: cc; source: Review 57 §6)
-- [>] R57-3 (PARTIAL, 2026-09-14: 7 of 12 openness-asserting candidates read — 3 stale and fixed, 4 accurate; B921-9 SPLIT into its five conditions, two fixed, one moot, one UNREADABLE-AS-BANKED, one carried as B921-9b with its seven named arcs; 5 candidates remain): adjudicate the remaining ten openness-asserting candidates from `open_claim_sweep.py`, and decide whether the sweep runs per-window rather than per-review — both instances found today were one day old (owner: cc; source: L220)
+- [x] R57-3 (done 2026-09-14, second pass; the first pass's tally CORRECTED — it said 7 read and **6** were read, the "fourth accurate" having been judged from the sweep's 150-character excerpt rather than from the document: a proxy checked in place of the thing it stands for, the fourth instance in two passes and the first caught **before** it shipped. **12 of 12 now adjudicated, each by a command quoted in `L220`: 5 stale, 7 accurate.** The two new stale ones: **L144** — closed 2026-08-20 on `THE_LADDER` X30, `THEOREM_LEDGER` and `SM_SPECIFICATION_LEDGER`, and carried live in the leads register for 25 days with two now-false supporting facts (banner written, body left standing); and **B171** — its `arc_verdict.json` never updated after B172 answered its question and B173 certified the label at rank 3, so THE_SPINE and VERDICT_LEDGER both rendered a settled question as live for 88 days (qualifier added at source, the B1241/B167 way). **The cadence question, settled from the finished evidence rather than the first two instances: the per-window reading is wrong.** All five stale rows are *unpropagated truth* — a closure or correction that reached some surfaces and not others, never a wrong computation — and the two found this pass were **25 and 88 days** old against the first pass's one day, so staleness does not accumulate per window and a per-window run would have missed both; the sweep belongs at **review cadence**. Two gate-shaped defects fell out of the work, both B921-9b's shape: `gate_views_generated` ran only `generate.py` and never `spine.py`, so `THE_SPINE.md` had drifted to **1127 locks against 1216** inside the directory the gate scans (gate widened, shown failing on injected drift); and `NOVELTY_AUDIT.md` carried **two `## R5` headings** since yesterday, renumbered to **R8**): adjudicate the remaining ten openness-asserting candidates from `open_claim_sweep.py`, and decide whether the sweep runs per-window rather than per-review — both instances found today were one day old (owner: cc; source: L220)
 - [x] R57-4 (done 2026-09-14, same day: `frontier/B1333_.../verification/bootstrap.py`, ADDITIVE — not one banked line edited, since those scripts are the record of what was run; verified from an empty /tmp/sweep, 22 modules + 30 of 32 degree-10 covers, the other two needing B1333's own documented fallback recogniser): E80's repair — B1333's fifteen `/tmp/sweep`-rooted scripts cannot re-run from a clean checkout; commit the cache beside them or reroot the paths (owner: cc; source: E80)
 - [>] R56-1: THE HARVEST DEBT, carried unmoved (carried from R56-1)
 - [>] R56-2: LAW_MAP living-or-frozen, carried unmoved — third zero-advancement window (carried from R56-2)

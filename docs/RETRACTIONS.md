@@ -117,3 +117,46 @@ be right, so nothing red).
 Corrected at source in `frontier/B1192_close_loop_batch4/FINDINGS.md` (Addendum 2, per E53), in
 `frontier/B1248_norm_classification/`, THEOREM_REGISTRY, IDENTIFICATION_LEDGER, CHANGELOG and
 CAMPAIGN_STATUS.
+
+## 2026-09-14 (B921-9b) — the seven retractions that never got a row
+
+**The gap, and why every gate was right to be green.** Twelve arcs carry
+`"verdict": "RETRACTED"` in their `arc_verdict.json`; **five had a row here.** The
+other seven were corrected properly — each arc's own `FINDINGS.md` carries a
+correction banner written at the time, so nothing in the corpus was ever wrong — but
+the correction never reached *this* index, and this index is what a reader consults
+who never opens that arc's file. `retraction-sweep` did not notice, and **that is
+correct behaviour**: its rule is *"registered retracted phrases must not appear as
+live claims"* — it polices the content of rows that exist. The comment that
+introduced `relay-debt` in `scripts/gates/gates.py` had already named the shape:
+*"`lawmap-scope` and `retraction-sweep` police the CONTENT of rows that exist;
+neither notices a row that was NEVER WRITTEN."* That comment built the third gate for
+exactly this failure — **for relays. Nothing did it for retractions.** So this is not
+a new discovery; it is **L143's gap, still open on a second surface**, found by a lead
+row (B921-9) that had been sitting on it since August.
+
+Closed two ways: the seven rows below, each quoting the arc's **own** stated reason
+from its **own** banked record (no reason invented), and `scripts/checks/retraction_debt.py`,
+wired as the `retraction-debt` gate — **shown reporting 7 before these rows and 0 after**
+(MB12: a check that cannot fail is not a check).
+
+**A note on how the quotes were verified, because the first method failed.** Fourteen quotes
+were grepped in their sources **before the rows were written** — and then writing them broke
+three, silently: a backtick added inside `M.is_isometric_to(mirror)`, an emphasis marker dropped
+from `only the *conclusion* is`, a `"gate"` re-typed with single quotes. Every one still *read*
+correctly; none was any longer the source's text. **Verifying the intended quote is not verifying
+the shipped one** — the same proxy substitution this window has now named five times. The rows
+below are checked by re-extracting all 16 quotes **from this file as it stands** and grepping each
+in its own arc's record, resolving the arc by its verdict file's `id` rather than by directory name
+(a glob picks `frontier/B58_stage1`, NEGATIVE, over `frontier/B58_sl4_tower_test` — the
+grandfathered B58 collision). **16 of 16 verbatim.**
+
+| what was asserted | where banked | the correction | where corrected |
+|---|---|---|---|
+| B192's metallic Lyapunov-spectrum **parity law** — the SL(n) transfer cocycle's spectrum is symmetric iff `n` is even, realizing V29, and **special to the metallic cocycle** (163× a generic SL(n)) | `frontier/B192_sln_higher_rank/FINDINGS.md` (2026-06-22, ledger V185) | **REFUTED** — *"an artifact of cherry-picked energies"* plus a *"rigged control"*: on a fair broad energy grid the defect grows monotonically with `n` (no alternation; n=4 is *more* asymmetric than n=3), and a **random potential in the same companion** matches metallic (n=4: 0.337 vs 0.344). The 163× compared metallic-at-cherry-energy against a dense-Gaussian matrix with no transfer structure. **Survives:** D1 (spectrum sums to 0) and B166's own results | the same arc, corrected in place 2026-06-23 after independent adversarial verification; its reproducer's checks now *verify the refutation*; third verify-don't-trust self-correction |
+| B216's verdict that the `f≥8` class-field period-law split is **genus-theoretic / NEEDS-SPECIALIST** | `frontier/B216_period_law_f8_boundary/FINDINGS.md` (2026-06-26, ledger V219) | **OVERTURNED** — *"an artifact of testing"* `γ≡±I` (only the scalars ±1). The correct invariant is elementary: the form **content** `gcd(b,c,a−d)`; at `f=8` mod 8 has extra square-roots of 1, so `GAMMA_A ≡ 5·I (mod 8)` has content **8**, not the ±I-depth 4 — which was the entire "obstruction". Period is genus-**independent**. **Survives:** *"The validated general-WRT tool built here is correct and reused by B219"*; only the conclusion is overturned | B219 (V222, 2026-06-26), `frontier/B219_period_content_law/`; banner in B216's own FINDINGS |
+| B58's headline **"the prediction cannot be tested numerically"** (the SL(4) 7-factor tower), verdict NEEDS-EXPERTISE | `frontier/B58_sl4_tower_test/FINDINGS.md` | **NEGATED** — the ε-extrapolated pinv-ratio route computes the ambient SL(4) 15×15 fixed-line Jacobian, validated against the exact SL(3) anchor and B65's exact symbolic J(1); the spectrum reproduces B59's banked factorization. **Survives:** the fixed-line point *is* the identity representation, where the rep-to-trace map is first-order degenerate, so the naive at-the-point route is genuinely dead — *"What flips: only the impossibility headline."* | B742 (the negatives hunt) + B745 (five independent exact checks, ALL PASS), 2026-07-21; relabeled PROVED → RETRACTED by B831 (R35-4) |
+| B702's law **"metallic hearing ⇔ real-quadratic SWAP field"** | `frontier/B702_metallic_hearing_law/FINDINGS.md` (2026-07-19, verifying cc2's E-Q1/E-Q2) | **RETRACTED** — it *"conflated the being-face SWAP with the hearing-face WELD"*: the golden swap's eigenvalues are roots of unity in ℚ(√−3) with **rational** tones, while φ = 2cos108° is the order-10 **weld** in ℚ(√5). So *"both swap fields are IMAGINARY"* and there is no reality asymmetry in the swap at all. **Survives:** E-Q1's exact ℚ(i) silver core ratio, unaffected; E-Q2 corrected to **torsion vs non-torsion**; and the correct hearing statement, at the weld/character field — ℚ(√p\*) real ⟺ p ≡ 1 mod 4 | the same arc's RETRACTION + CORRECTION block (cc2 self-correction, cc-verified, 2026-07-19) |
+| B731's headline **"the figure-eight knot group is NON-CONGRUENCE"** — the knot has no finite congruence observer (a NO-GO) | `frontier/B731_object_observer_noncongruence/FINDINGS.md` (2026-07-20) | **RETRACTED** — the arc inferred the 2-adic index had stabilized at 6 from levels 2–6 alone; *"It had NOT"*: the index jumps to 12 at level (2)³=(8), so **m004 IS a congruence subgroup, at level (8)**, and the object-level observer exists for the knot too. **Survives:** the level-2 and level-4 index-6 computations, and the E21 SL/PSL-center lesson | B734 (2026-07-20; cc2 computed, cc verified), later B794; *"the error is logged as E22"* |
+| B780's **c-versus-θ gate** — "the gate is VERIFIED" and "applying it halves cc3's enumeration 8→4" | `frontier/B780_galois_reversal_gate/FINDINGS.md` (2026-07-24) | **RETRACTED AS VACUOUS** — `c_sig=(True,True,True)` and `theta_sig=(False,False,False)` *"are LITERALS, not wired to any computed boolean"*, and `classify()` maps them to 'c' and 'θ' by definition, so "the gate rejects the swap" *"cannot fail"*. **Survives (upstream, already banked elsewhere):** c and θ genuinely differ on SL(2) rank-onset, on action type (diagonal vs the permutation (1 4)(2 5)(3 8)(6 7)), and on the B766 solo axis — *"Those differences are real"*, and the gate built on top of them added nothing | the B784 adversarial audit, 2026-07-24; banner in B780's own FINDINGS |
+| B1181's amphichirality closure — the family is **83 of 83 amphichiral**, zero exceptions, spot-verified 5/5 | `frontier/B1181_amphichirality_closure/` (banked 2026-08-27, `37e1521c`; FINDINGS authored 2026-08-29 under R52-4) | **RETRACTED 2026-09-02** — *"the closure was measured by M.is_isometric_to(mirror), which is orientation-blind"*; by `symmetry_group().is_amphicheiral()` the family is **38/112 amphichiral**, and `o10_150700` — *this arc's own spot-check witness* — is **CHIRAL** at CS = −1/12. **Survives:** THE ONE-WAY FAMILY TEST method-law minted here stands, and this retraction is its second instance | B1235, 2026-09-02; recorded in the arc's own `arc_verdict.json` `retracted` block with its stale phrases, which `RETRACTED_PHRASES` and the `retraction-sweep` gate already carry |

@@ -17,6 +17,14 @@ inside a review.*
    ref: stale (delete), frozen-record (must appear in B763's registry or
    gain an entry there), or live (process before this review closes). An
    unclassified unmerged branch is a review blocker.
+   **Match on the branch LEAF, not on the full ref (R57-1b, 2026-09-14).**
+   `git branch -r` prints `<remote>/<full/path/to/branch>`, while
+   `HARVEST_LEDGER`'s keys are the **leaf** — deliberately, because the
+   attribution rule forbids the vendor token some path prefixes carry, so
+   the two registers **cannot** be equal by construction. Comparing full
+   refs therefore reports registered branches as unregistered: it did, on
+   **three** in Review 57, and all three findings were **withdrawn** the
+   same day. Compare `ref.rsplit("/", 1)[-1]` against the ledger's keys.
 2. **The declared modulus.** State what this review sampled and what it
    can and cannot certify (the window of merges, which arcs read in full
    vs skimmed, which locks re-run vs trusted-green). Silent truncation is

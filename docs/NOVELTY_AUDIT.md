@@ -301,7 +301,19 @@ Adversarial web/literature sweep (assume-known-until-refuted) on the items **not
 
 ---
 
-## R5 (2026-09-14, B1404) — THE AUDIT'S OWN BLIND SPOT: THE FAMILY'S NAME, AND WHY A GREP IS NOT AN AUDIT
+## R8 (2026-09-14, B1404) — THE AUDIT'S OWN BLIND SPOT: THE FAMILY'S NAME, AND WHY A GREP IS NOT AN AUDIT
+
+> **Renumbered R5 → R8 at R57-3, 2026-09-14, same day.** This round was appended as **R5**, which
+> was already taken by the 2026-06-27 round above — so this file briefly carried two `## R5`
+> headings and no gate noticed, since nothing checks a round label for collision. The
+> `CHANGELOG` and `PROGRESS_LOG` entries that banked it say *"`NOVELTY_AUDIT` gains **R5**"*; those
+> files are append-only and **stand as written** — this note is the reconciliation. **A
+> pre-existing collision is left alone and recorded instead:** `## R6` appears twice too (the
+> 2026-06-27 coset-coincidence read and the 2026-06-28 E₆-bridge arc), both banked and both cited
+> elsewhere, so renumbering either would break live references. R8 was the first free label.
+>
+> *Fitting, for a round whose subject is that an audit run by name misses what it is looking for.*
+
 
 This audit, and the registry's NEEDS-LIT rows, were **run by name**. B1404 re-ran the absence
 question over the whole corpus with a homonym filter and found the method fails in **both**

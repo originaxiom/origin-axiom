@@ -393,6 +393,39 @@ not greps — `docs/RETRACTED_PHRASES.md` records which retractions are handled 
 why.
 
 
+## A retraction that never got a row is invisible — GATED (`retraction-debt`)
+
+**Rule (adopted 2026-09-14, B921-9b).** Every arc whose `arc_verdict.json` says
+`verdict: RETRACTED` is **NAMED in `docs/RETRACTIONS.md`, on a line that also carries a
+retraction verb.** The verb requirement is what stops a bare incidental mention (*"see B731 for
+the index table"*) from discharging the debt: the row has to **say** the arc was retracted.
+
+**Why.** Twelve arcs are RETRACTED; **five had a row.** The other seven were corrected properly —
+each carries a correction banner in its own FINDINGS, written at the time — but the correction
+never reached the index, and **the index is what a reader consults who never opens that arc's
+file.** That is precisely the hazard `docs/RETRACTIONS.md` names in its own preamble: *"a reader
+of an old FINDINGS could still act on them."* It compounds: `RETRACTED_PHRASES` is populated
+**from** this index, so an unwritten row also means the retracted wording is never swept for.
+
+**Every gate was right to be green.** `retraction-sweep`'s rule is *"registered retracted phrases
+must not appear as live claims"* — **the content of rows that exist.** This is the same shape
+`relay-debt` was built for in L143, and that gate's own introducing comment had already written
+the sentence: *"`lawmap-scope` and `retraction-sweep` police the CONTENT of rows that exist;
+neither notices a row that was NEVER WRITTEN."* **The corpus named this gap for itself and then
+closed it on one surface only.** It stayed open on the second for four weeks, under a lead row
+(B921-9) that was pointing straight at it.
+
+**The general form, now stated three times:** *a proxy checked in place of the thing it stands
+for.* Here the proxy was **the sweep being green**, standing for **the retraction being
+recorded**.
+
+**Scope, deliberately narrow.** This gate judges **existence**; `retraction-sweep` judges
+**content**; they are complementary by construction. It does **not** demand a row for a merely
+*superseded* arc — `supersession-backlinks` covers those, and draws the line in its own words:
+*"superseding an arc is not retracting it, and the 12 RETRACTED arcs are a separate, deliberate
+act."*
+
+
 ## Render before banking — NOT GATED (a human obligation)
 
 **Rule (adopted 2026-08-08, from cc3's render audit, B975).** For any arc whose product is a

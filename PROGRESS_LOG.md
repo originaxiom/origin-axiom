@@ -15369,3 +15369,70 @@ checkout**. B1409 was unaffected only because it recomputes rather than reads.
 **Also landed:** `docs/PRACTICES.md` gains **discrimination-first as a binding practice** — the plan's
 Phase 0 — with B1408's precision table, so that a value-channel row proposed without a `10⁻³` bench in
 hand is already answered.
+
+## 2026-09-14 — B921-9b + R57-3: the seven retractions that never got a row, and the sweep's last six candidates
+
+**Twelve arcs say `RETRACTED` in their `arc_verdict.json`; five had a row in `docs/RETRACTIONS.md`.**
+B58, B192, B216, B702, B731, B780 and B1181 had none — and `retraction-sweep` was **right** to be
+green, because its rule is about the **content of rows that exist**. The comment introducing
+`relay-debt` in `scripts/gates/gates.py` had already named the shape in the corpus's own words —
+*"neither notices a row that was NEVER WRITTEN"* — and built the third gate for exactly this failure,
+**for relays. Nothing did it for retractions**, so **L143's gap was still open on a second surface**,
+under a lead row (B921-9) that had been sitting on it since August.
+
+Nothing was ever wrong: each of the seven carries a correction banner in its own FINDINGS, written at
+the time. What was missing is the **index** — the surface a reader consults who never opens that
+arc's file — and it compounds, since `RETRACTED_PHRASES` is populated *from* the index, so an
+unwritten row also means the wording is never swept for. **E53's limit case: the correction reaching
+exactly one surface, its own.**
+
+Closed two ways: **the seven rows**, each quoting the arc's own stated reason from its own banked
+record, with **all 16 quotes re-extracted from the shipped file and grepped in their own arcs' records**
+(E68 — the first pass grepped the quotes *before* the rows were written, and writing them silently broke
+three: a backtick added inside `M.is_isometric_to(mirror)`, an emphasis marker dropped from `only the
+*conclusion* is`, a `"gate"` re-typed with single quotes. All three still **read** right; none was the
+source's text. **Verifying the intended quote is not verifying the shipped one** — the fifth instance of
+this window's proxy class, and the second caught before shipping); and
+`scripts/checks/retraction_debt.py` as the **`retraction-debt`** gate (33 gates now) — every
+`RETRACTED` verdict NAMED on a line carrying a retraction verb, so a bare incidental mention cannot
+discharge the debt. **Shown reporting 7 before the rows and 0 after**, with the failure path locked
+against a stripped ledger in `tests/test_b921_9b_retraction_debt_gate.py` (5 tests).
+
+**R57-3 finished — 12 of 12 adjudicated, each by a command quoted in `L220`: 5 stale, 7 accurate.**
+The two new stale ones are both *unpropagated truth*, and both far older than the first pass
+suggested. **`L144`, 25 days:** door 5 was closed 2026-08-20 (B1096) on `THE_LADDER` X30,
+`THEOREM_LEDGER:395` and `SM_SPECIFICATION_LEDGER:275` — three synthesis surfaces — and carried live
+in the leads register, with two supporting facts the closure had falsified (*"No arc's `depends_on`
+cites B167"*: B1241, B1248, B1249 all do; *"Nothing has tested it since it was written"*: B1096 did).
+Banner written, body left standing with its false facts marked. **`B171`, 88 days:** its verdict file
+was never touched after B172 *"Answers the question B171 opened … affirmatively, hedged"* and B173
+certified the gap-label group at rank 3 by PSLQ, so `THE_SPINE` and `VERDICT_LEDGER` **both** rendered
+a settled question as live — each faithful to a stale source, which is why no view-level check could
+have seen it. Qualifier added at source, the B1241/B167 way; B171 stays `OPEN`, which is true *of
+B171*. The four accurate ones (H2's specialist close, the `LAW_MAP` frame-arc row's second prime, the
+Review-37 note's carried R37-7, the OBJECT-LEVEL/B993 row) are all **correct citations matched to
+nearby arcs** — the sweep's documented false-positive mode, and in one case the matched arc quotes the
+doc's own sentence verbatim, which is why it scored.
+
+**The cadence question settles the other way, and only the finished set could settle it:** staleness
+does **not** accumulate per window — 25 and 88 days against the first pass's one — so
+`open_claim_sweep.py` belongs at **review cadence**; a per-window run would have missed both.
+
+**A fourth instance of this window's own synthesis, self-caught before it shipped.** The first pass
+reported *"7 of 12 read"*; **six were read.** The fourth "accurate" was judged from the sweep's
+**150-character excerpt** and the document was never opened — *a proxy checked in place of the thing
+it stands for*, after the wall-audit premise, the contaminated bootstrap and the branch audit. The
+reading happened to be right; the adjudication did not happen. **First of the four caught before the
+report left the bench rather than after.** Two mechanical siblings fell out of the same pass:
+`gate_views_generated` ran only `generate.py` and **never `spine.py`**, so `docs/views/THE_SPINE.md`
+had drifted to **1127 locks against the 1216 its generator produces**, inside the directory the gate
+scans, under a header reading *"Regenerated with the views"* — the gate now runs every generator that
+writes there and is shown failing on injected drift; and `docs/NOVELTY_AUDIT.md` carried **two `## R5`
+headings** because nothing checks a round label for collision — renumbered to **R8**, with the
+append-only log lines that say "gains R5" left standing and reconciled in place.
+
+**R57-1b lands with them:** `docs/progress/REVIEW_TEMPLATE.md` §1b now states that a branch-registry
+audit matches on the branch **leaf**, not on `git branch -r`'s full ref — the vendor-token rule makes
+the two registers deliberately unequal, which is what produced three false gaps in Review 57, all
+withdrawn the same day. **Review 57's action block is now closed: R57-1 withdrawn, R57-1b, R57-2,
+R57-3 and R57-4 all done.**
