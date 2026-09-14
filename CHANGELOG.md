@@ -1,5 +1,61 @@
 # Changelog
 
+## L216 CLOSED WITH NO WINDOW SPENT, THE MIRROR SECTOR CLOSED ENTIRE, AND THE OBSTRUCTION QUANTIFIED: the value channel needs 10⁻²–10⁻³ precision, an index channel needs 10⁻¹, and 10⁻¹ is what was available (B1408)
+
+**L216 answered before the window was spent, and the obstruction replaced by a number (B1408).**
+B1407 said the θ-odd row must be posed with a **discrimination** argument first, not an accounting one.
+This is that argument, run the same day, and it closed the lead without any effort going into the
+readout.
+
+**THE ODD SECTOR CARRIES EXACTLY ONE NUMBER.** Computed at B1349's exactness over the complete period:
+**ear-independent at all 15 words** — so zero ear anchor *by construction*, which the even sector never
+had — but **`dim_ℝ span{Q_m} = 1`** of an ambient 3 (singular values `[6.3705, 0, 0]`). The sector
+carries one number, scaled; its output ceiling is **1**, never 4; and its whole value set is three
+numbers, `{−1, −1/2, +1/(2φ)}`.
+
+**AND AT THE OBJECT'S OWN WORD IT IS THE ALREADY-BENCHED VALUE.** `m = 1` reads
+`(√5−1)/4 = 1/(2φ) = 0.309016994375…`, which `KIND_TABLE` records as *"the `1/(2φ)` that B856 already
+took to a bench and could not discriminate."* **And the two halves of the mirror agree**: for the ten
+words with `3 ∤ m` — exactly those where B1406 found the even sector's graded trace vanishes — the odd
+ear-independent readout and the normalised graded trace are the **same number**. **So the mirror sector
+is now closed entire: both halves, one value, at the object's own word.**
+
+**AND THE ARC REFUTES ITS OWN AUTHOR'S HYPOTHESIS.** Going in, the working idea was that the crowding is
+a property of the **field** — that small-height `ℚ(√5)` values are dense enough in any window that no
+such reading could ever discriminate, which would have been a structural no-go for the whole coupling
+channel. **Measured, it is false.** Counting height-bounded `(p+q√5)/r` in a window of relative
+half-width `ε` (height ≤ 20, 28 001 candidates — a strict **lower** bound, excluding `π`, `e` and
+everything outside `ℚ(√5)`):
+
+| target | `ε=10⁻¹` | `ε=10⁻²` | `ε=10⁻³` | `ε=10⁻⁴` |
+|---|---|---|---|---|
+| `1/(2φ)` | 198 | 18 | **1** | **1** |
+| `1/2` | 317 | 25 | **1** | **1** |
+| `1` | 633 | 54 | 4 | **1** |
+| `φ/2` | 513 | 51 | 4 | **1** |
+
+At `ε = 10⁻¹` every window is crowded — and at height ≤ 12 the count at `1/(2φ)` is **43**, which
+**reproduces B856's *"≥17 natural candidates"* as a generic fact about that precision rather than a fact
+about that value: B856 was not unlucky.** But by `ε = 10⁻³` the windows are essentially unique, and at
+`10⁻⁴` exactly unique. **The value channel is not dead in principle. It is dead at the precision that
+was available**, and the field-forbids-discrimination hypothesis is **withdrawn**.
+
+**THE REQUIREMENT, AND THE CHEAPER CHANNEL.** A value reading must beat the candidates in its window:
+`10⁻²` conservative, `10⁻³` generous. An integer `n` must beat only the next integer, at `1/|n|`:
+**`10⁻¹`** for `|n| ≤ 2`. B856's bench had `10⁻¹`. **At the precision the programme can reach, only
+discrete observables can discriminate — two to three orders of slack** — and the corpus already holds
+such quantities: B1406's graded index `tr(C) = 2`, B1335's `I = ±1`, the cusp count, cover degrees, the
+`gcd(m,15)` classes. Registered as **L218**, the successor to the coupling campaign, with its standing
+fence: **being discrete buys precision, not relevance.** A discrete quantity of no physical kind is
+exactly as useless as a precise one, and cheaper to fool yourself with — the kind gate B856 lost on is
+untouched by any of this.
+
+**What this settles:** L216 closed with no window spent; the mirror sector closed entire; and B856's
+failure shown to be **structural** rather than unlucky, as was the even row's — three windows of
+accounting work went into a channel whose binding constraint was a factor of `10²` in precision.
+**Standing precondition:** any future coupling-channel row states its bench precision first, against
+B1408's table. One proposed without a `10⁻³` bench in hand is already answered.
+
 ## L209 CLOSED NEGATIVE, AND IT WAS NEVER AN OWNER'S CALL: the row's spec says ZERO ANCHORS in three places, branch A is unlicensed by construction, and the observable that does meet the spec reads an already-benched non-discriminating value — the row is dead on POWER (B1407)
 
 **L209 closed, negative — and it was never an owner's call (B1407).** B1405 left the fork

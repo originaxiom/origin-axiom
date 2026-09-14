@@ -2589,7 +2589,9 @@ derive `j(m)` in closed form. A character-sum or Gauss-sum evaluation of `tr(C·
 data is the obvious route, and it would say whether the six values are an accident of level 2 or the
 shadow of something that survives to other stages.
 
-## L216 — THE ODD SECTOR IS WHERE THE OBJECT'S GRADED CONTENT IS (registered 2026-09-14, B1406)
+## L216 — THE ODD SECTOR IS WHERE THE OBJECT'S GRADED CONTENT IS — **L216 CLOSED NEGATIVE (B1408, same day): NO WINDOW SPENT.** (registered 2026-09-14, B1406)
+
+> **CLOSED (B1408).** B1407's rule — *pose the discrimination argument first* — applied immediately, and it settled the lead before any effort went into the readout. Computed at B1349's exactness on the θ-odd sector over the complete period: it is **ear-independent at ALL 15 words** (so zero ear anchor by construction, unlike the even sector) but **`dim_ℝ span{Q_m} = 1`** of an ambient 3 — **it carries exactly ONE number**, output ceiling 1 and never 4 — with a value set of three, `{−1, −1/2, +1/(2φ)}`. **And at the object's own word `m = 1` the readout is `1/(2φ)`** — the value `KIND_TABLE` already records as the one B856 benched and could not discriminate. **The two halves of the mirror agree**: for the ten words with `3 ∤ m` the odd readout and B1406's normalised graded trace are the *same number*. **So the mirror sector is closed entire — both halves, one value** — and the odd row would have delivered the number already known to fail.
 
 Measured, not argued: `tr_even(RᵐLᵐ) = 0` **exactly** unless `3 | m`, so at the object's own word
 `m = 1` the θ-**even** sector's graded trace is **exactly zero** and all of `str(1) = 1/φ` sits in the
@@ -2623,3 +2625,30 @@ places room exists — **the tower** (covers, more cusps), **the rank** (`SL(n)`
 has ever computed on it. The corpus has touched all three (B1324's 87 covers; the SL(n) tower at
 B89–B95/B153/B198–B199; the surgery work at B467) and budgeted none. **Doing the budget is cheap and
 it would tell the programme where it is allowed to look.**
+
+
+## L218 — THE INDEX CHANNEL: build the contact row out of something DISCRETE (registered 2026-09-14, B1408)
+
+B1408 replaced an asserted obstruction with a measured one. Counting height-bounded `(p+q√5)/r` in a
+window of relative half-width `ε`:
+
+| channel | must beat | needed precision |
+|---|---|---|
+| **value** (a `ℚ(√5)` reading) | the candidates in the window — 198 at `ε=10⁻¹`, 18 at `10⁻²`, **1** at `10⁻³` | **`10⁻²`–`10⁻³`** |
+| **index** (an integer `n`) | the next integer, at `1/\|n\|` | **`10⁻¹`** for `\|n\| ≤ 2` |
+| *available* (B856's bench) | — | *`10⁻¹`* |
+
+**At the precision the programme can reach, only discrete observables can discriminate** — two to three
+orders of slack. The corpus already holds integer-valued quantities: B1406's graded index `tr(C) = 2`,
+B1335's `I = ±1`, the cusp count, cover degrees, the `gcd(m,15)` classes themselves.
+
+**The lead, and it is the successor to the whole coupling campaign:** enumerate the object's
+**integer-valued** invariants, ask of each the two questions the mirror row failed — *is it anchor-free?*
+and *is it of a kind anything measures?* — and build the next contact row from the survivors. Note the
+second question is the one B856 lost on and nothing in B1406–B1408 touches it: **being discrete buys
+precision, not relevance.** A discrete quantity of no physical kind is exactly as useless as a precise
+one, and cheaper to fool yourself with.
+
+**Prerequisite:** none. **Precondition on any future coupling-channel work:** state the bench precision
+first, against B1408's table. A value-channel row proposed without a `10⁻³` bench in hand is already
+answered.

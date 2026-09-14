@@ -8133,6 +8133,24 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1408": {
+   "slug": "the precision requirement",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "coupling",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B856",
+    "L216"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B140": {
    "slug": "compute reconciliation",
    "motifs": [
