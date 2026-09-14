@@ -4830,3 +4830,81 @@ the SM runs through `ℚ(√−3)`. **The lab lane tests C1–C2 and stops there
 > is a re-ranking, not a retraction:** if the lab lane tests a model identity, then **K3 (the
 > crossings sort) and the three §4A.3 doors carry the weight.** Memo 196 addendum 1 already said
 > this; it should be on the tier, and it is not.
+
+---
+
+## R140 — "lets go for them" (2026-09-14): door 3 attacked; the named external need is PAID and the door changes type
+
+**Answer: memo 228**, sealed `0b2d7b60…` before the certificate was written. Four cells, four
+controls, all passing.
+
+### R140-1 — first, the target list shrank: K3 is already dead
+
+Memo 196 addendum 1 ended *"K3 and the three §4A.3 doors carry the weight"*, and I repeated it
+yesterday. **K3 ran the day after that sentence was written and was REFUTED** — R100 / memo 195
+addendum 2, 2026-09-11, on its **FALSE** branch: the three hearing-side crossings asked hearing for
+**magnitudes — its own commodity** — and missed at **4.7σ, 3.4σ, ≈5σ**. **Three doors, not four.**
+
+### R140-2 — door 3 is the one this session had a key for, and B1077 said so
+
+> *"**B882's conjecture (arithmetic S₃ = geometric S₃) is now the UNIQUE non-circular route to a
+> 77-mechanism** … the remaining half is **the KMRT §43 connective proposition — a typed literature
+> floor, the named external need**."* — B1077, 2026-08-19
+
+Decision route, `NOVELTY_SWEEP_LEDGER` row 6: *"moves only by **(a) KMRT §43 opened + an independent
+dressing computation**, or (b) B882's conjecture proved."* **The owner supplied KMRT on 2026-09-13.
+Clause (a)'s first half is paid.**
+
+### R140-3 — what it bought: three readings, each quoted, and they converge
+
+1. **The cubic is not a function of `(A,σ)`.** A trialitarian algebra is `T = (E, L, σ, α)`; what
+   `(A,σ)` canonically carries is **quadratic** — KMRT: *"the center `Z` of `C(A,σ,f)` is a
+   **quadratic** étale `F`-algebra."*
+2. **One Cayley algebra feeds every cubic.** §36.C builds the twisted composition *"for an
+   **arbitrary cubic étale algebra** `L`"*; §43.7 makes `End(Γ)` trialitarian; split `L` gives
+   §43.2's type-`G₂` algebra from the **same** `C`.
+3. **The cubic is a free classifying parameter.** §44.1's sequence is **split** (§44.2: *"has a
+   section"*), §44.5 classifies trialitarian algebras by `H¹(F, PGO₈⁺⋊S₃)` with the second map
+   sending `T` to *"**the class of `L`**"*, and a split surjection surjects on `H¹`.
+
+> **The map "trialitarian algebra ↦ its cubic" is SURJECTIVE onto every cubic étale algebra.**
+> `K` is one; `ℚ³` is one. **A formalism that accommodates every cubic cannot single out `K`.**
+> *"Which cubic"* is a **torsor** question — the record's own NO POINT class, ×8.
+
+### R140-4 — so the door does not open, and that IS the result
+
+The 77 must still come from the dressing, and the circularity theorem-let is untouched: *"the bank
+contains exactly ONE such triple (the enhancement lines) and its resolvent already **is** `K` — so
+every in-bank dressing route makes C77 true **BY FIAT**."*
+
+> **The door changes TYPE.** It was *"blocked on a book nobody here could read."* It is now
+> *"blocked on an **independent dressing** — with the literature half settled and shown not to
+> supply one."* **A smaller door, and a better-posed one:** a literature blocker is an unknown; a
+> torsor is a known shape with a known price. **And it removes the hope that reading KMRT would
+> force `K`** — a hope the record carried, reasonably, for 26 days.
+
+### R140-5 — not claimed
+
+**Route (b) is untouched — door 3 stays open on it.** No arc is retracted. This is a **reading of
+KMRT**, labelled CITED, with the quotations as the load-bearing part. **C4 held:** no step used the
+enhancement triple, the pencil triple, or anything whose resolvent is `K` by construction.
+
+### R140-6 — rule #26 fired on schedule, one day old
+
+**C1 caught a needle I had taken from memo 203's SEARCH SUMMARY of KMRT rather than from KMRT** —
+the *"center a quadratic étale F-algebra"* phrasing is the summary's, not the book's — and the run
+**failed** until it was replaced with the book's own sentence. **That is yesterday's rule catching
+exactly what it was written for.** C3 also caught a mistyped `𝕆` (I wrote `𝕂`).
+
+### R140-7 — what is left of the three doors
+
+| door | state after this |
+|---|---|
+| 1 — the gauge datum (*which datum picks the coboundary element*) | open; B1076's four gauges negative; **needs an external datum — an I-13 instance** |
+| 2 — L154's σ-identification | **UNDECIDED with the obstruction FULLY MAPPED** — the two 6's are same-convention Virasoro charges, equal exactly at `σ := 1`, which the circularity guard forbids as evidence |
+| 3 — B882's conjecture | **clause (a) priced out here**; open on route (b) |
+
+> **All three doors are now blocked by the same shape** — an identification the object does not
+> supply: door 1 needs the gauge datum, door 2 is forbidden its coincidence by the circularity
+> guard, door 3 needs a non-circular dressing. **That is one wall in three languages, and it is the
+> same wall the price ledger calls the listener map.**
