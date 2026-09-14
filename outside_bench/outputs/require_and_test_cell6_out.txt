@@ -1,0 +1,97 @@
+==============================================================================
+ CELL 6 -- THE FIRST ALTERNATIVE OBJECT, SCORED ON THE SAME TABLE
+==============================================================================
+
+    seal  outside_bench/seals/REQUIRE_AND_TEST_CELL6_PREREG.md
+    sha256 ba82e84adb3c7d3880fc097cb0aa1090b3459c5705606b091f2a7f858df8dd04
+
+------------------------------------------------------------------------------
+ CONTROL P2 -- a negative control INSIDE this cell, not inherited
+------------------------------------------------------------------------------
+    5_2 raw 2T surjections = 0   (B282: 0)
+    -> PASS
+
+------------------------------------------------------------------------------
+ THE SCORES
+------------------------------------------------------------------------------
+
+    m004  vol 2.029883  cusps 1  H1 Z  |Sym| 8  gens 2
+      P_chir (no orientation-reversing self-isometry) : False   (amphichiral_det=True, is_amphicheiral=True)
+      P_atom (shape field in Q(sqrt-3))               : True   min_polys [[1, -1, 1], [1, -1, 1]]
+      P_2T   (surjects onto SL(2,F_3))                : True   raw 48  /24 = 2
+      P_3    (|det(A-I)| = 3 somewhere)               : False   multiset {0: 2, 4: 2}
+
+    m412  vol 5.074708  cusps 2  H1 Z/2 + Z + Z  |Sym| 8  gens 3
+      P_chir (no orientation-reversing self-isometry) : True   (amphichiral_det=False, is_amphicheiral=False)
+      P_atom (shape field in Q(sqrt-3))               : True   min_polys [[1, -1, 1], [1, -1, 1], [1, -1, 1], [1, -1, 1], [1, -1, 1]]
+      P_2T   (surjects onto SL(2,F_3))                : False   raw 0  /24 = 0
+      P_3    (|det(A-I)| = 3 somewhere)               : False   multiset {0: 4, 4: 4}
+
+------------------------------------------------------------------------------
+ CONTROL P1 -- m004 re-scored here must match cells 1-3
+------------------------------------------------------------------------------
+    [ok ] amphichiral
+    [ok ] 2T raw = 48
+    [ok ] det multiset {0:2, 4:2}
+    [ok ] shape field Q(sqrt-3)
+    -> PASS
+
+------------------------------------------------------------------------------
+ CONTROL P3 -- m412's chirality by BOTH methods, agreeing
+------------------------------------------------------------------------------
+    amphichiral_det = False   is_amphicheiral = False
+    -> PASS (both must read CHIRAL)
+
+------------------------------------------------------------------------------
+ CONTROL P4 -- the commensurability question, ANSWERED not skipped
+------------------------------------------------------------------------------
+    vol(m412)/vol(m004) = 2.5000000000
+    integer? False  -> m412 is NOT a cover of m004
+    every m412 tetrahedron shape has min poly x^2-x+1 (the regular ideal tetrahedron, m004's own): True
+    m004 shapes: [[1, -1, 1], [1, -1, 1]]
+
+    READING, and it is a COST not a gain: both are tiled by REGULAR IDEAL
+    TETRAHEDRA, so both are arithmetic over Q(sqrt-3) and COMMENSURABLE.  By
+    frontier/B803_commensurability_audit -- "any derivation routing through it
+    is class-level not the object's specific" -- m412's arithmetic face is
+    INHERITED from the class, not independent evidence for m412.  What is NOT
+    inherited is chirality: it is not a commensurability invariant, and that is
+    exactly the predicate on which the two objects differ.
+
+------------------------------------------------------------------------------
+ THE PREREGISTERED OUTCOME
+------------------------------------------------------------------------------
+    predicate      m004     m412
+    P_chir        False     True
+    P_atom         True     True
+    P_2T           True    False
+    P_3           False    False
+
+    m412 GAINS : ['P_chir']
+    m412 LOSES : ['P_2T']
+    -> OUTCOME B
+    m412 does NOT strictly dominate: it gains and it loses.  The fork is a
+    trade like every other trade in the record.
+
+------------------------------------------------------------------------------
+ THE COSTS -- fixed in the seal BEFORE the gains were seen
+------------------------------------------------------------------------------
+    cusps            m004 1   m412 2
+      the chain's C4/A1 carrier story and every one-cusped instrument
+      (the D2 index frame, the knot-complement dictionary) assume ONE cusp
+    H1               m004 Z   m412 Z/2 + Z + Z
+      m412 is NOT a knot complement, so Reid's uniqueness of the
+      arithmetic KNOT does not apply to it
+    arithmetic face  INHERITED from the commensurability class (P4), not
+      independent evidence for m412
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    OUTCOME B   gains ['P_chir']   losses ['P_2T']
+    controls: ALL PASSED
+
+    NOT CONCLUDED: that m412 should replace m004 -- that is the owner's call
+    and a whole chain's worth of work, not a four-predicate score.  That m412
+    supplies physics: nothing here touches the SM.  That these are the right
+    four predicates: they are the four this programme has base rates for.
