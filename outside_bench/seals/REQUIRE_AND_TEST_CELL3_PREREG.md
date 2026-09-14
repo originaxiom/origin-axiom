@@ -59,3 +59,38 @@ distribution** of the maximum attained count, not only the rate at 3. If 2 is th
 Nothing about generations as physics: the identification h¹ ↔ 4d generations is **I-26, a declared
 input** (`TOE_REQUIREMENTS_LEDGER` §E row 4, *"the dimension gap not exhibited"*), and this cell does
 not earn it. The count here is a fixed-point count on a torus, and it is reported as one. No value.
+
+---
+
+# ADDENDUM 1 (2026-09-14) — CONTROL L1 WAS MIS-SPECIFIED BY THIS SEAL, AND THE MIS-SPECIFICATION IS THE FINDING
+
+**The seal above wrote:** *"The record says 'the object counts 2 at every fixed locus'. Recomputed
+here: m004's full multiset of |det(A − I)| … is printed"* — and made **L1 = the multiset must contain 2.**
+
+**It does not, and it should not.** The first run returned m004 → **{0: 2, 4: 2}**. The instrument is
+correct; the control imported a number from the wrong frame.
+
+**The record uses TWO different counts, and this seal collapsed them into one.**
+
+| # | quantity | on m004 | where |
+|---|---|---|---|
+| 1 | **\|det(A − I)\|** — the cusp fixed-point count, Pantev–Wijnholt's localized count | **{0, 4}** | `docs/MAIN_GOAL.md` l. 80–84, quoting **B1295 as a banked NEGATIVE**: *"968 isometries, 1,376 cusp-fixing pairs, `\|det(A−I)\| ∈ {0: 882, 4: 494}`"* — over all 87 covers to degree 10 |
+| 2 | **χ(Fix g) = 1 − s_μ(g)** — the Euler characteristic of the fixed locus in the 3-manifold | **{0, 2}** | `docs/MAIN_GOAL.md` l. 87: *"On m004 every isometry has `χ(Fix g) = 1 − s_μ(g) ∈ {0, 2}`"* |
+
+**The "2" of "the object counts 2 at every fixed locus" is quantity 2. The "3" of B1321 and of
+requirement 1's three generations is quantity 1.** They are not on the same scale, and
+`docs/TOE_REQUIREMENTS_LEDGER.md` §C row 2 carries the sentence *"the object counts 2 at every fixed
+locus"* with no frame attached — so a reader of the ledger cannot tell that the 2 and the 3 are
+different quantities. This is rule #26 in the wild: **a paraphrase is where the hypotheses go missing**,
+and it took writing a predicate to expose it, because a predicate must name its quantity.
+
+**CORRECTED CONTROL L1, with its source stated:** in the |det(A − I)| frame, m004 must return
+**{0, 4}** — B1295's own banked values. **L2 (m202 → 3) is unchanged and passed on the first run.**
+
+**Not changed:** the sweep, the population, the two outcomes, or the second question. Only the control's
+expected value, and only because the seal named the wrong one. The first run's numbers stand and are
+reported; nothing was re-aimed after seeing a rate.
+
+**χ is NOT swept across the census.** `χ(Fix g) = 1 − s_μ(g)` is stated in the record **for m004**;
+generalising it to arbitrary census manifolds would be the same paraphrase error one level down. It is
+printed for m004 and m202 only, from the record, and labelled as cited.
