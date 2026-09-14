@@ -1,0 +1,62 @@
+{
+ "m004|n=2  sl_2 = Sym^2": {
+  "k": 1,
+  "n": 2,
+  "d": 3,
+  "a0": 0,
+  "a1": 1,
+  "pred": 1,
+  "match": true,
+  "interior": 0
+ },
+ "m004|n=3  sl_3 = Sym^2+Sym^4": {
+  "k": 1,
+  "n": 3,
+  "d": 8,
+  "a0": 0,
+  "a1": 2,
+  "pred": 2,
+  "match": true,
+  "interior": 0
+ },
+ "m004|n=4  sl_4 = Sym^2+Sym^4+Sym^6": {
+  "k": 1,
+  "n": 4,
+  "d": 15,
+  "a0": 0,
+  "a1": 3,
+  "pred": 3,
+  "match": true,
+  "interior": 0
+ },
+ "5-cusped chiral [17]|n=2  sl_2 = Sym^2": {
+  "k": 5,
+  "n": 2,
+  "d": 3,
+  "a0": 0,
+  "a1": 5,
+  "pred": 5,
+  "match": true,
+  "interior": 0
+ },
+ "5-cusped chiral [17]|n=3  sl_3 = Sym^2+Sym^4": {
+  "k": 5,
+  "n": 3,
+  "d": 8,
+  "a0": 0,
+  "a1": 10,
+  "pred": 10,
+  "match": true,
+  "interior": 0
+ },
+ "5-cusped chiral [17]|n=4  sl_4 = Sym^2+Sym^4+Sym^6": {
+  "k": 5,
+  "n": 4,
+  "d": 15,
+  "a0": 0,
+  "a1": 15,
+  "pred": 15,
+  "match": true,
+  "interior": 0
+ }
+}

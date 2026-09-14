@@ -434,3 +434,10 @@ dynamics (`docs/COSMOLOGY_LEDGER.md` is the new surface). cc3 retired; cloud ran
 independently and converged.*
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
+
+
+---
+
+## ⟳ VIEW REFRESH — 2026-09-14 (Review 57)
+
+Touched at the Review 57 anchor. **The window's headline is a closure, not an advance:** the coupling channel's last licensed contact row died (B1349 → B1405 → B1407) and the sector behind it with it (B1408); five leads closed (L208, L209, L210, L216, L217); nine error classes were minted (E72–E80). The one positive result, **B1409**, is fenced as an accounting closure: the tower's parameter budget is real — `k(n−1)` verified at `n = 2,3,4` — **and entirely boundary data, with no selector** (L219). The programme's distance to a value is now a number: the value channel needs `10⁻²`–`10⁻³` relative precision and the bench had `10⁻¹` (B1408). Full review: `docs/progress/REVIEWS.md`, Review 57.

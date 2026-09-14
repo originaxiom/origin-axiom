@@ -2874,3 +2874,10 @@ capstone document, the existence audit and its eight-item disposition, the D2 ga
 literature retrieval, and the Φ₃ unification. The review's own summary lives at
 `docs/progress/REVIEWS.md`; the standing surfaces are `docs/GRAND_COMPUTATION_v0.md`,
 `docs/GRAND_COMPUTATION_LEDGER.md` and `docs/COSMOLOGY_LEDGER.md`.*
+
+
+---
+
+## ⟳ VIEW REFRESH — 2026-09-14 (Review 57)
+
+Touched at the Review 57 anchor. **The window's headline is a closure, not an advance:** the coupling channel's last licensed contact row died (B1349 → B1405 → B1407) and the sector behind it with it (B1408); five leads closed (L208, L209, L210, L216, L217); nine error classes were minted (E72–E80). The one positive result, **B1409**, is fenced as an accounting closure: the tower's parameter budget is real — `k(n−1)` verified at `n = 2,3,4` — **and entirely boundary data, with no selector** (L219). The programme's distance to a value is now a number: the value channel needs `10⁻²`–`10⁻³` relative precision and the bench had `10⁻¹` (B1408). Full review: `docs/progress/REVIEWS.md`, Review 57.

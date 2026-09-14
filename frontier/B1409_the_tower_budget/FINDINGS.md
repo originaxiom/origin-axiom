@@ -126,6 +126,27 @@ This is B1406's riddle-2 answer made quantitative. That arc argued the object is
 *boundary*; this one measures it: **100% of the available continuous room is boundary data,
 0% is interior.**
 
+## 3a. ADDENDUM — THE RANK LADDER: `k(n−1)` AT `n = 2, 3, 4`, AND STILL NO INTERIOR
+
+`sl₄` under the principal `SL(2)` is `Sym² ⊕ Sym⁴ ⊕ Sym⁶` (3+5+7 = 15). Run on both the
+positive control and the ceiling:
+
+| manifold | `k` | `n=2` (`d=3`) | `n=3` (`d=8`) | `n=4` (`d=15`) |
+|---|---|---|---|---|
+| m004 | 1 | **1** | **2** | **3** |
+| L14n63694 | 5 | **5** | **10** | **15** |
+| *predicted* `k(n−1)` | | `k` | `2k` | `3k` |
+
+`a₀ = 0` and `n = a₁ − r₁ = 0` on **every** row. Cost `0.1 s → 1.6 s → 9.2 s` at `k=1`, and
+`1.3 s → 17.1 s → 99.1 s` at `k=5`.
+
+> **So the rank direction supplies exactly `k` more complex parameters per rank step, and
+> every one of them is boundary data too. Raising the rank does not buy an interior
+> modulus — it buys more cusp data.**
+
+That closes **L217's rank row** alongside its tower row, and sharpens the §3 finding from a
+statement about `SL(3)` to a statement about the whole ladder the corpus can reach.
+
 ## 4. WHAT THIS LICENSES — AND WHAT IT DOES NOT
 
 **Licensed (and this is real):**

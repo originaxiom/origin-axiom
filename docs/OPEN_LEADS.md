@@ -2471,11 +2471,22 @@ B997 singles out the golden because its **shadow modulus** `m²+4 = 5` is *prime
 θ-even forced value leaves ℚ **exactly when `5 | (m²+4)`**. *One prime, two roles* — primality picks
 the grammar, divisibility fixes the value's field.
 
-**Open, and not guessed at:** (i) **B996**'s cut (McKay access generic across the family) against
+~~**Open, and not guessed at:** (i) **B996**'s cut (McKay access generic across the family) against
 either of these; (ii) whether **B1002**'s *other* gcd — `gcd(cusp-order conductor, shadow modulus)`,
-which is 1 for golden (isomorphism) and 2 for silver (ramified) — relates to `gcd(m,15)`.
+which is 1 for golden (isomorphism) and 2 for silver (ramified) — relates to `gcd(m,15)`.~~
+**BOTH CLOSED** — (i) by **B1402** (`3|m` *is* B996's degeneracy condition; the mirror speaks exactly
+where McKay access dies) and (ii) by **B1403** (the two gcds have **disjoint domains**: a conductor
+needs an abelian cusp field, which exists only at `m = 1, 2`, both units of ℤ/15 and so on branch B,
+while `gcd(m,15)`'s content is on branch A — *unaskable as posed, not unknown*).
 **Naming discipline required:** B1002 records that "conductor" is **two quantities** in adjacent
 laws; anything here must say which.
+
+> *(Struck through rather than deleted, and flagged: this paragraph was left asserting OPEN for a day
+> after B1402/B1403 closed it, one line above the CLOSED banner added in the same edit —* **E53,
+> surface non-propagation, this bench's own** *. Found 2026-09-14 by running
+> `scripts/checks/open_claim_sweep.py`, the instrument built for exactly this failure at B1201–B1218,
+> which ranked it 3rd of 54 candidates. The lesson is not that the paragraph was missed but that
+> **the banner and the body are two surfaces**, and updating one is not updating the claim.)*
 
 ## L209 — IS THE θ-EVEN MIRROR ROW THE RIGHT OBSERVABLE? — **L209 CLOSED (B1407, 2026-09-14): NO, AND IT WAS NEVER AN OWNER'S CALL.** (registered 2026-09-13, B1349 addendum 4; the question that now gates the last licensed row)
 
@@ -2610,7 +2621,7 @@ the exact computation is cheaper than the one already done.
 
 ## L217 — THE PARAMETER BUDGET AS A DESIGN CONSTRAINT (registered 2026-09-14, B1406)
 
-> **THE TOWER ROW IS CLOSED (B1409, same day) — POSITIVE, AND SHARPER THAN ASKED.** Computed exactly over `ℚ(ζ₁₂)` at the geometric holonomy, on covers selected **by property** and never by list index: `dim_ℂ H¹(π₁, sl₂) = k` and `dim_ℂ H¹(π₁, sl₃) = k(n−1) = 2k`, verified for **`k = 2, 3, 4, 5`** across every chiral multi-cusped degree-10 cover, with the `m004` positive control returning `k = 1`. At the tower's ceiling — the chiral 5-cusped **L14n63694** — that is **10 complex = 20 real**, the first count in the corpus to clear ~19. **Menal-Ferrer–Porti's `k(n−1)`, which B1406 cited as explicitly unverified, is now verified as a two-parameter law on this object's own covers.** **AND THE STRUCTURE, which was not asked for:** the restriction `H¹(M) → H¹(∂M)` is **injective on every row** (`n = a₁ − r₁ = 0`), with `dim H¹(∂M) = 2 dim H¹(M)` exactly — half-lives-half-dies, image Lagrangian. **Every parameter in the tower is cusp data; there are zero interior moduli anywhere.** So the room is real, sufficient in count, and made entirely of boundary choices — structurally the same unpriced free input as a Dehn slope (**B432**, *"slope selection stays free input"*; **B322** tested filling invariants against SM parameters at chance level). **The rank and filling rows remain open.**
+> **THE TOWER ROW IS CLOSED (B1409, same day) — POSITIVE, AND SHARPER THAN ASKED.** Computed exactly over `ℚ(ζ₁₂)` at the geometric holonomy, on covers selected **by property** and never by list index: `dim_ℂ H¹(π₁, sl₂) = k` and `dim_ℂ H¹(π₁, sl₃) = k(n−1) = 2k`, verified for **`k = 2, 3, 4, 5`** across every chiral multi-cusped degree-10 cover, with the `m004` positive control returning `k = 1`. At the tower's ceiling — the chiral 5-cusped **L14n63694** — that is **10 complex = 20 real**, the first count in the corpus to clear ~19. **Menal-Ferrer–Porti's `k(n−1)`, which B1406 cited as explicitly unverified, is now verified as a two-parameter law on this object's own covers.** **AND THE STRUCTURE, which was not asked for:** the restriction `H¹(M) → H¹(∂M)` is **injective on every row** (`n = a₁ − r₁ = 0`), with `dim H¹(∂M) = 2 dim H¹(M)` exactly — half-lives-half-dies, image Lagrangian. **Every parameter in the tower is cusp data; there are zero interior moduli anywhere.** So the room is real, sufficient in count, and made entirely of boundary choices — structurally the same unpriced free input as a Dehn slope (**B432**, *"slope selection stays free input"*; **B322** tested filling invariants against SM parameters at chance level). **AND THE RANK ROW CLOSES TOO (B1409 addendum):** the ladder runs `k(n−1)` at **`n = 2, 3, 4`** on both the control and the ceiling — m004 gives `1, 2, 3`, the 5-cusped cover gives `5, 10, 15` — with `a₀ = 0` and **zero interior moduli at every rank**. So raising the rank buys `k` more complex parameters per step and **every one is still cusp data**. **The filling row needs no computation:** B1406 typed it **discrete** (`ℤ²` per cusp), so its contribution to a *continuous* budget is structurally **zero**, and B322 already tested filling invariants against SM parameters at chance level. **L217 IS CLOSED, all three rows:** tower `k(n−1)` and growing, rank `k` per step, filling discrete — **and the whole of it boundary data with no selector** (L219).
 
 B1406 §3 writes down, for the first time, how much **continuous room** each structure attached to the
 object actually carries: the object itself **zero** (Mostow), its `SL(2,ℂ)` character variety `k = 1`
@@ -2675,3 +2686,29 @@ ledger does to it. **A budget with no selector buys nothing** — it moves the f
 manifold" to "which boundary data", which is a relocation, not a derivation.
 
 **Precondition, from B1408:** before any of it is taken toward contact, state the bench precision.
+
+## L220 — FINISH THE OPEN-CLAIM SWEEP'S ADJUDICATION (registered 2026-09-14, B1409 audit pass)
+
+`scripts/checks/open_claim_sweep.py` — the instrument built at B1201–B1218 for exactly this failure —
+was re-run 2026-09-14 (selftest green: positive 5/5, negative PASS). It returned **54 open claims with
+a strongly-matching settled arc**, of which **12 actually assert openness** in their text and are the
+real staleness candidates.
+
+**Two were adjudicated and fixed on the spot, both this bench's own, both E53:**
+- **L208's body** still read *"Open, and not guessed at"* for the two questions **B1402/B1403** closed
+  — **one line above the CLOSED banner added in the same edit.** The banner and the body are two
+  surfaces.
+- **`GRAND_COMPUTATION_LEDGER` row I3** still read *"THE DESIGNED CROSSING, never run … the last
+  licensed contact row … HELD FOR OWNER ELECTION"*, with **zero mentions of B1405–B1408**, a day after
+  B1407 killed that row.
+
+**Ten candidates remain unadjudicated**, and saying so is the point rather than a hedge: the top
+scorers are mostly *correct* citations (a doc describing a result, matched to the arc that proved it),
+so the sweep is a **candidate generator and not a verdict**, and each remaining row needs a read.
+
+**The lead:** adjudicate the remaining ten, then decide whether the sweep should run on a cadence —
+the two found today were both **one day old**, which suggests the useful interval is *per-window*, not
+per-review. **And note what this says about the wall re-audit that motivated it:** the premise —
+"walls get banked and never corrected" — was **not** borne out on its own test case (wall #4's
+correction *was* propagated, into `HINT_LEDGER` at H72/H80). The staleness that exists is in **leads
+and ledgers, not walls**, and it is days old rather than months.

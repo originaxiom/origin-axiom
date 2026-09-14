@@ -5334,10 +5334,10 @@ in §7a → **R56-3**.
 
 ### Action items (Review 56)
 
-- [ ] R56-1: THE HARVEST DEBT — 428 seat items and 348 seat-branch relays without a row, **ESCALATED(2026-09-09, B1307)**; payment order: (a) the SM seat's three commits past its pin (the tower law's positive half; sm:B1350's obstruction stages = L204) and cloud memos 183–184 → B1306 slice B; (b) the never-read physics items (cc3 B8081/B8082/B8083/B8102; fc R64–R67; codex R033; hostile memos 16–21) → slices C/D; (c) rows for the harvested-earlier items (the cloud table's 51 H; hostile → B1144/B1145; codex → B1215/B1238/B1239; cc3 → the B8xxx harvests) → slice D; pins advance per slice; `review-due --strict` reports the remainder at Review 57 (owner: cc)
-- [ ] R56-2: LAW_MAP — a second zero-advancement window with eleven non-instrument PROVED arcs banked and three law-creating; decide living-or-frozen: route the seven registry rows in with status columns, or declare the debt in `doc_currency` (owner: cc; source: §3, R55-1)
-- [ ] R56-3: CLAIMS.md (lag 225) and THEOREM_LEDGER.md (lag 62), debts declared 2026-08-09, ESCALATED BY NAME — run the §5 gates on the seven registry rows or declare both surfaces superseded by THEOREM_REGISTRY (owner: cc; source: 7a, §6)
-- [ ] R56-4: mint the overloaded-term-trap and cross-seat-priority classes at their second documented instance (E71 done) (owner: cc; source: R55-8)
+- [>] R56-1 (carried to R57): THE HARVEST DEBT — 428 seat items and 348 seat-branch relays without a row, **ESCALATED(2026-09-09, B1307)**; payment order: (a) the SM seat's three commits past its pin (the tower law's positive half; sm:B1350's obstruction stages = L204) and cloud memos 183–184 → B1306 slice B; (b) the never-read physics items (cc3 B8081/B8082/B8083/B8102; fc R64–R67; codex R033; hostile memos 16–21) → slices C/D; (c) rows for the harvested-earlier items (the cloud table's 51 H; hostile → B1144/B1145; codex → B1215/B1238/B1239; cc3 → the B8xxx harvests) → slice D; pins advance per slice; `review-due --strict` reports the remainder at Review 57 (owner: cc)
+- [>] R56-2 (carried to R57): LAW_MAP — a second zero-advancement window with eleven non-instrument PROVED arcs banked and three law-creating; decide living-or-frozen: route the seven registry rows in with status columns, or declare the debt in `doc_currency` (owner: cc; source: §3, R55-1)
+- [>] R56-3 (carried to R57): CLAIMS.md (lag 225) and THEOREM_LEDGER.md (lag 62), debts declared 2026-08-09, ESCALATED BY NAME — run the §5 gates on the seven registry rows or declare both surfaces superseded by THEOREM_REGISTRY (owner: cc; source: 7a, §6)
+- [x] R56-4 (done 2026-09-12, B1344: E72 THE ONE-SYMBOL-TWO-QUANTITIES class is the overloaded-term trap, minted at its second instance; resolved from the literature side at B1404): mint the overloaded-term-trap and cross-seat-priority classes at their second documented instance (E71 done) (owner: cc; source: R55-8)
 - [x] R56-5 (done 2026-09-09, same day: THE_LADDER carries the dated pointer note): THE_LADDER.md cites none of B1290–B1307; cite the theorems on its chirality rungs or mark those rungs superseded (owner: cc; source: 7b)
 - [x] R56-6 (done 2026-09-09, same day: doc_currency's declared debt names TOE_REQUIREMENTS_LEDGER as the successor): GUT_REQUIREMENTS_LEDGER (lag 205): mark superseded-by TOE_REQUIREMENTS_LEDGER or refresh (owner: cc; source: 7a)
 - [x] R56-7 (done 2026-09-09, same day: doc_currency's declared debt names TOOLBOX_LIVE.md as the read-first toolset): TOOLBOX.md frozen since B370 (lag 937): state where the owner's read-the-toolset protocol points that TOOLBOX_LIVE.md is the current toolset (owner: cc; source: 7a)
@@ -5350,3 +5350,130 @@ in §7a → **R56-3**.
 *Same-day progress on R56-1 (2026-09-09, after the review's anchor): slices B, C and D of B1306 landed (the SM seat's three commits and the cloud's memos 182–184 VERIFIED; the never-read physics items re-run 17/17 and re-derived 8/8; every seat-index item rowed — 292 SCHEDULED remain and the gate counts them); B1320 (Phase 2 Arc 0), B1321 (L205) and B1322 (L204 closed) landed; the chat1 handoff banked. The item stays open until the 292 are read.*
 
 **anchor-commit: `eb9db7fa`**
+
+---
+
+# Review 57 (2026-09-14) — the window the value channel died in
+
+## 1. The loop (Review 56's block, closed or carried)
+
+- **[x] R56-4** — *mint the overloaded-term-trap and cross-seat-priority classes at their second
+  documented instance.* **DONE this window: E72, the ONE-SYMBOL-TWO-QUANTITIES class** (banked
+  2026-09-12, B1344), is the overloaded-term trap, minted at its second instance exactly as asked —
+  `κ` carrying the knot group's meridian value and the fibre's `−2`. Its literature-side resolution
+  landed at B1404.
+- **[ ] R56-1** — THE HARVEST DEBT (428 seat items, 348 relays). **Carried, unmoved this window**;
+  `harvest-debt` gate green, meaning paired, not paid.
+- **[ ] R56-2** — LAW_MAP living-or-frozen. **Carried, unmoved.** A third zero-advancement window.
+- **[ ] R56-3** — CLAIMS.md (lag now **322**) and THEOREM_LEDGER. **Carried and worsening**; the
+  `doc-currency` debt is declared, visible, and the single standing gate failure.
+- **[>] R55-1/-2/-3/-4/-5/-6/-7/-9/-11/-13/-14/-15** — carried unchanged; no evidence moved.
+
+## 2. The branch inventory (B763 rule) — **and it is a finding**
+
+Six unmerged refs on `origin`. **Three are registered** (`audit/b775-braver-questions`,
+`audit/physical-bridge-2026-09-05`, `codex/seat-r001` — all in `HARVEST_LEDGER.md`). **Three are
+not**, and the template calls an unclassified unmerged branch a review blocker:
+
+| branch | last commit | ahead | classification |
+|---|---|---|---|
+| `…/outside-bench` | 2026-09-10 | 3133 | **LIVE** — this session cherry-picked L210's fix from it (B1400 window). Registry entry owed. |
+| `…/standard-model-derivation-0qt6ao` | 2026-09-09 | 82 | **LIVE** — the SM-derivation seat, named in `SM_SEAT_ALIAS_TABLE.md`. Registry entry owed. |
+| `…/new-session-qor5up` | 2026-08-14 | 2589 | **FROZEN-RECORD, a month cold** — needs a disposition (registry entry or delete). |
+
+**The gap is in the registry, not in the knowledge**: two of the three are named elsewhere in the
+record and were *used* this window. That is E53's shape applied to branches. → **R57-1**.
+
+## 3. The declared modulus
+
+**Sampled in full:** B1400–B1409 (this seat's own arcs, all ten authored and verified here);
+`KIND_TABLE.md`, `CROSSING_REQUIREMENTS.md`, `LISTENER_MAP_SPEC.md`, `TOE_REQUIREMENTS_LEDGER.md`,
+`WHAT_WOULD_COUNT.md` §1–§4A, `OPEN_LEADS.md` L206–L220, `ERROR_LEDGER.md` E72–E80.
+**Read in part:** B1320–B1349 (through their FINDINGS headers, the chain-status rows, and three
+subagent surveys); `README.md`'s state section in full.
+**Trusted green, not re-run:** the full suite (last full pass 6512 passed / 7 pre-existing failures /
+71 skipped, 53 min, 2026-09-14); B1333's 38 070 sectors; every arc before B1320.
+**Cannot certify:** the 96-commit window's arcs B1320–B1349 at the level of their own computations —
+they were surveyed, not re-derived. Silent truncation is forbidden and this is the truncation, stated.
+
+## 4. Advancement
+
+**28 PROVED · 9 NEGATIVE · 4 OPEN · 1 RETRACTED** across the window's arcs.
+
+**What moved, and it is mostly closure rather than advance:** the coupling channel's **last licensed
+contact row died** (B1349 → B1405 → B1407), and the sector behind it died with it (B1408). **Five
+leads closed** — L208 (B1402/B1403), L209 (B1407), L210 (adopted, not re-derived), L216 (B1408),
+L217 (B1409, all three rows). **One count verified that the record had carried as cited-unverified
+for a month**: Menal-Ferrer–Porti's `k(n−1)`, now checked at `n = 2, 3, 4` and `k = 1..5` (B1409).
+
+**Stuck longest:** the **value layer**, unmoved since the seventh sealed miss, and now with a fourth
+independent reason (**power**, B1408: the value channel needs `10⁻²`–`10⁻³` and the bench had `10⁻¹`).
+**No row's stated status exceeds its banked evidence that this review found** — but see §6.
+
+## 5. Error-class recurrence — **nine new classes in one window**
+
+**E72** (one symbol, two quantities) · **E73** (count over the wrong base field — *reversed a
+verdict*) · **E74** (pre-registered wrong rule) · **E75** (rounded-canonical-form, widened twice:
+keys → inputs → *any identification by representation*) · **E76** (unpriced setting, widened to
+**mis-typed**) · **E77** (paired-but-not-live) · **E78** (self-including measurement) · **E79** (false
+owner-call) · **E80** (scratchpad-rooted verification).
+
+**E75 is the dominant class of the window — twelve instances, three mechanisms** (rounded keys, float
+inputs, `subs`/regex/`==` on a printed form), and at B1409 it fired **three times in one file at three
+removes**: the measurement, the fix, and the guard on the fix. The class is correctly stated: the fix
+written for one context transferred to the others with no rederivation.
+
+**E53 re-fired twice and its own instrument caught both** — `open_claim_sweep.py` (built at
+B1201–B1218 for exactly this) ranked L208's stale body 3rd of 54, and `GRAND_COMPUTATION_LEDGER`'s I3
+row was still holding the mirror row open a day after B1407 killed it. **Both were this bench's own,
+both one day old.** The standing rule that would have caught them: *the banner and the body are two
+surfaces*; updating one is not updating the claim.
+
+## 6. The provenance spot-sweep
+
+**External-verification pretense: clean.** Six files matched the Review-18 phrase list; every hit is
+the disclaimer itself (`README`: *"Nothing here is externally verified or peer-reviewed"*).
+
+**Terminology: a genuine gap.** Four load-bearing terms minted this window are **not glossed** in
+`TERMINOLOGY.md` — *graded trace*, *supertrace*, *parameter budget*, *end invariant*. → **R57-2**.
+
+## 7. The §5.1 promotion sweep
+
+**Zero candidates, and for a stated reason rather than for want of looking.** The coupling channel is
+closed (KIND_TABLE's consumption ledger now reads all four rows spent or dead); `LISTENER_MAP_SPEC`
+F2 stands; B1409's result is explicitly fenced as *room, not parameters*, with its own successor lead
+(L219) naming selection as unpriced. Nothing this window was eligible.
+
+## 8. Protocol integrity
+
+`seal-provenance` **PASS**, `seal-digests` **PASS** (every recorded hash recomputed at read time).
+**B1409 was sealed hash-first and the order is in the git record**: prereg `5618216a` committed and
+**pushed at `31cfd032` before any compute**, the computation landing at `efa5fd46`.
+
+**And the case worth recording:** B1409's sealed preregistration contains a **false claim** (*"no
+character variety has ever been computed on any cover"* — `analyse_exact` returns `a₁`, and B1333 had
+computed it 38 070 times without printing it). **The seal was not edited.** The correction is a
+section of the FINDINGS. That is the protocol behaving exactly as designed, and it is the first time
+this reviewer has seen it exercised on a claim rather than on a number.
+
+## 9. What this review cannot say
+
+The window's headline is that **a channel closed**. Five leads shut, one row died, and the one
+positive result (B1409) is fenced as an accounting closure. A review that called that *advancement*
+would be wrong. The honest summary is: **the record got smaller and more accurate**, the error ledger
+grew by nine classes, and the programme's distance to a value is now stated as a number
+(`10⁻²`–`10⁻³` against `10⁻¹`) rather than as a hope.
+
+### Action items (Review 57)
+
+- [ ] R57-1: three unmerged branches unregistered under the B763 rule — `…/outside-bench` (live, used this window), `…/standard-model-derivation-0qt6ao` (live, named in the alias table), `…/new-session-qor5up` (frozen, a month cold, needs a disposition) (owner: cc; source: Review 57 §2)
+- [ ] R57-2: gloss *graded trace*, *supertrace*, *parameter budget*, *end invariant* in `TERMINOLOGY.md` (owner: cc; source: Review 57 §6)
+- [ ] R57-3: adjudicate the remaining ten openness-asserting candidates from `open_claim_sweep.py`, and decide whether the sweep runs per-window rather than per-review — both instances found today were one day old (owner: cc; source: L220)
+- [ ] R57-4: E80's repair — B1333's fifteen `/tmp/sweep`-rooted scripts cannot re-run from a clean checkout; commit the cache beside them or reroot the paths (owner: cc; source: E80)
+- [>] R56-1: THE HARVEST DEBT, carried unmoved (carried from R56-1)
+- [>] R56-2: LAW_MAP living-or-frozen, carried unmoved — third zero-advancement window (carried from R56-2)
+- [>] R56-3: CLAIMS.md lag now 322, carried and worsening (carried from R56-3)
+- [>] R55-1 (ex-R54-1), R55-2 (ex-R54-2), R55-3 (ex-R54-3), R55-4 (ex-R54-4), R55-6, R55-7, R55-9, R55-11, R55-13, R55-14, R55-15 carried unchanged; no evidence moved this window (carried from R56). Also carried, restated by key so the loop does not drop them: R55-10, R55-12, R55-16, R55-8 (carried from R56)
+- [>] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26 (owner: the owner)
+
+**anchor-commit: `efa5fd46`**

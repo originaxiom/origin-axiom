@@ -352,3 +352,10 @@ independently and converged.*
 > **Currency — Review 55 (2026-09-06, anchor `be6f4cab`).** Refreshed against the 102-merge window `c0e9a4a0`→`be6f4cab`. **What changed for this view:** JOIN 1's live question after B1291/B1292. **The window's spine:** `net chirality = χ(M,∂⁺M)` applied on main (B1290); the **parity theorem** — on a *one-cusped* manifold `|Fix|` is even, so **3 is excluded**, verified over 1200 census manifolds with zero violations (B1291); the escape **satisfiable but mis-scoped** — m202 keeps ℚ(√−3) and 2T and realises `|Fix| = 3`, yet `χ(M) = χ(∂M) = 0` at *any* cusp count, so **flatness, not parity, is the binding obstruction** (B1292); and the seat harvest — the **first vacuum with the SM group** and **I-14 collapsing to a point**, with fc's `χ(M,∂⁺M)` predating main's B1290 (B1293). **I-26 remains UNEARNED.** Review 55 repaired three instruments and left 16 action items.
 
 *Review 56 currency (2026-09-09, anchor eb9db7fa): the phase ladder in force is MASTERPLAN v3.1 (`docs/MAIN_GOAL.md`): Phase 0 done, Phase 1 — the seat sweep, B1298–B1307 — done with the harvest-debt gate as the 32nd gate; the window's debt to the seats is written down (428 items, 348 relays; R56-1) and is paid newest first before Phase 2's chiral-cover test and Phase 3's quantum-face question. This file's earlier cadences stand as history.*
+
+
+---
+
+## ⟳ VIEW REFRESH — 2026-09-14 (Review 57)
+
+Touched at the Review 57 anchor. **The window's headline is a closure, not an advance:** the coupling channel's last licensed contact row died (B1349 → B1405 → B1407) and the sector behind it with it (B1408); five leads closed (L208, L209, L210, L216, L217); nine error classes were minted (E72–E80). The one positive result, **B1409**, is fenced as an accounting closure: the tower's parameter budget is real — `k(n−1)` verified at `n = 2,3,4` — **and entirely boundary data, with no selector** (L219). The programme's distance to a value is now a number: the value channel needs `10⁻²`–`10⁻³` relative precision and the bench had `10⁻¹` (B1408). Full review: `docs/progress/REVIEWS.md`, Review 57.
