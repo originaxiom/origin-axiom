@@ -24,3 +24,7 @@
   relator 'aCAbcaCAbcaaaBB' -> -I
   RELATORS VALIDATED: True
   order-3 cusp-trivial characters: 2
+  EXACT in-domain sectors: 16
+  (t0,I): {(1, 0): 4, (2, 0): 6, (3, 0): 4, (4, 0): 2}
+  t0>=2: 12
+  NON-ZERO INDEX: 0

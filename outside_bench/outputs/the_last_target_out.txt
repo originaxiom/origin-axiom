@@ -74,11 +74,11 @@
 ------------------------------------------------------------------------------
     run-1 = the three-manifold run's own t12835 block
     run-2 = the standalone t12835 run  (two separate processes)
-    run-1 has NOT finished its t12835 block.
-    -> PENDING, not agreement.  A self-comparison is not a control;
-       an earlier version of this cell merged the two and compared
-       an object to itself, which passed vacuously.  Reported as
-       pending until two independent blocks exist.
+    sectors   run-1 16                           run-2 16
+    t0_ge2    run-1 12                           run-2 12
+    nonzero   run-1 0                            run-2 0
+    dist      run-1 {(1, 0): 4, (2, 0): 6, (3, 0): 4, (4, 0): 2} run-2 {(1, 0): 4, (2, 0): 6, (3, 0): 4, (4, 0): 2}
+    -> PASS (independent runs must agree)
 
 ------------------------------------------------------------------------------
  THE PREREGISTERED OUTCOME -- t12835
