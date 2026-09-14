@@ -2479,6 +2479,8 @@ laws; anything here must say which.
 
 ## L209 — IS THE θ-EVEN MIRROR ROW THE RIGHT OBSERVABLE? (registered 2026-09-13, B1349 addendum 4; the question that now gates the last licensed row)
 
+> **MADE DECIDABLE, NOT DECIDED (B1405, 2026-09-14).** The question is no longer *"is this the right observable"* in the abstract. It is **"is the row about the object, or about a residue class?"**, and both answers are now priced. **If about the object:** the word must be the object's own; Lackenby makes the word the manifold's canonical decomposition rather than a label, and **five** independent principles (minimal volume, minimal systole, Jørgensen extremality, B997's McKay uniqueness, the existence of a conductor) all output `m = 1`, a **unit**, hence **branch B** — dead on two gates. **If about a residue class:** branch A closes at `+1.19` exactly as banked, but the row is then **not about m004** and cannot be cited as the object predicting anything; the class `m ≡ 3` contains no manifold any principle selects, and its smallest member is B675's **deaf** bronze. **Either way the row cannot do the job it was licensed for** — a third independent ground for *do not spend it*. The owner's call is now which of the two readings the row was ever meant to be.
+
 R11's arithmetic no longer forbids the row on branch A, so **what gates it is kind-correctness, and
 this bench cannot settle that by computation.** Branch A is **kind-ELIGIBLE** — right field, right
 bounds, its four forced values `{−1/(2φ), 0, 1/2, 1}` are actual elements of B1011 C6's banked set —

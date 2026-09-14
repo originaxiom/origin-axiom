@@ -8062,6 +8062,29 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1405": {
+   "slug": "the word anchor repriced",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "choice",
+    "figure_eight",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B675",
+    "B997",
+    "L209"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B140": {
    "slug": "compute reconciliation",
    "motifs": [

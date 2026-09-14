@@ -15053,3 +15053,54 @@ KNOWN, cited never claimed, recorded so no future arc re-derives them); `NOVELTY
 on its own blind spot; `ERROR_LEDGER` records E72's literature-side resolution and E75 instances
 #9–#10; `RELAY_LEDGER` rows the intake; **L208 CLOSED**, **L212–L214 registered**; alias table
 **B1405 next**.
+
+
+---
+
+## 2026-09-14 — the word anchor re-priced; the last licensed row forked (B1405)
+
+**The word anchor re-priced, and the last licensed row forked (B1405).** B1404 put two outside
+theorems on the table; this arc follows one consequence to the end.
+
+B1349 addendum 5 restored the word anchor and priced it as a **label** — `log₂7 ≈ 2.81` bits to name a
+non-unit residue of ℤ/15 — after which branch A's one surviving reading closes by **+1.19 bits**.
+**Lackenby** says the word is not a label: it is the manifold's own Epstein–Penner decomposition, read
+off. **Jørgensen/Callahan** say `m = 1` is the *output of a principle*, not a choice from a menu.
+
+**The crux, verified exactly.** `ord(R) = ord(L) = 15`, so the SU(3)₂ readout is a function of
+**m mod 15** — `weld(1) = weld(16)` and `weld(3) = weld(18)` exactly — while the manifolds are not:
+`vol(b++R¹L¹) = 2.0298832128` (identified as m004) against `vol(b++R¹⁶L¹⁶) = 7.1768908459`. **Same
+reading, different manifolds, a whole volume apart.** So naming a residue and naming a manifold are
+different acts — and every selection principle the programme has is about the **manifold**. That is
+**E72's class one level up**: not one symbol carrying two values, but one **anchor pricing two
+different choices**.
+
+**Five principles, all landing on `m = 1`, all on the dead branch:** minimal volume in the family and
+minimal systole `2 log λ_m` (both verified here, strictly increasing over `m = 1..10`), Jørgensen
+extremality `J = 1` (B1345/B1401, Callahan cited), the McKay-unique shadow (B997), and the existence of
+a cusp-order conductor (B675/B1403, `m ∈ {1,2}`). **Every one outputs a unit of ℤ/15**, hence branch B.
+Not one principle in the corpus selects a branch-A word.
+
+**And branch A's residues `{0,3,5,6,9,10,12}` are the ones the corpus already disqualified:** `0` is the
+**empty word** (`R⁰L⁰ = I`, so `weld = C` and `λ = 1`, ear-independent for a trivial reason, reachable
+by the real manifold `m = 15` whose reading is nevertheless bare charge conjugation); `3` is the
+**bronze**, B675's certified **DEAF** object; and `5, 6, 9, 10, 12` all have non-quadratic cusp fields.
+**Branch A's cheapest live entry point is the one member the corpus proved no stage can hear.**
+
+**The re-priced ledger.** If `m = 1` is a principle's output it costs 0 bits — you name a condition, not
+a manifold. Forfeit the principle and a manifold must be named, floor
+`log₂|OrientableCuspedCensus| = log₂ 212641 = 17.70` bits, itself only a floor since Callahan's
+uniqueness is over *all* orientable hyperbolic 3-manifolds. Branch A's surviving reading: **as banked
+`4 − 2.81 = +1.19`, closes; with the degenerate residue excluded `4 − 2.58 = +1.42`, closes by MORE —
+reported because it cuts against this arc; as a departure `4 − 17.70 = −13.70`, FAILS.**
+
+**The verdict is a fork, and both horns fail the row's purpose.** About **the object** ⟹ the word must be
+the object's own ⟹ `m = 1` ⟹ branch B ⟹ dead on two gates. About a **residue class** ⟹ closes at `+1.19`
+exactly as banked ⟹ but the row is not about m004 and cannot be cited as the object predicting anything.
+**Third independent ground for *do not spend it*,** after addendum 1's arithmetic and addenda 2–4's kind.
+
+**L209 is made decidable rather than decided:** the question is now *"is the row about the object or
+about a residue?"*, and both answers are priced. **E76 is widened from OMITTED to MIS-TYPED** — the
+anchor was the right line at the wrong type, invisible to the class's original fix rule because the
+quantity *was* listed; the rule now requires naming **which object each choice ranges over**. B1349's
+mathematics is untouched throughout: only the anchor's type is in question.
