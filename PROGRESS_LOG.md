@@ -15186,3 +15186,61 @@ the `subs` on a rewritten radical and the byte-read bracket expression. **Final 
 identify by property, never by representation — any comparison that could be changed by re-printing the
 same object is not a comparison.** New leads **L215** (the closed form of `m ↦ j`), **L216**, **L217**;
 alias table **B1407 next**.
+
+
+---
+
+## 2026-09-14 — L209 closed negative; the row is dead on power, and the question was never the owner's (B1407)
+
+**L209 closed, negative — and it was never an owner's call (B1407).** B1405 left the fork
+*"is the row about the object, or about a residue class?"* and this bench handed it to the owner as a
+judgement. **That was wrong.** The owner's push — *"it should not depend on me but on math"* — is what
+caught it, and the answer had been written down for weeks.
+
+**THE ROW'S SPECIFICATION IS IN THE RECORD, IN THREE PLACES:** `docs/KIND_TABLE.md:102` — *"the
+crossing's designed shape is `Λ → u →` the mirror-sector prediction → this row's one shot, **with zero
+anchors consumed** (R11's open lane)"*; `docs/CAMPAIGN_STATUS.md:994` — *"THE CROSSING PREREG
+(**coupling, zero anchors, one licensed row**)"*; and again at line 1038. **Zero anchors is not an
+aspiration. It is the row's spec.**
+
+**BRANCH A IS UNLICENSED BY THAT CLAUSE, NOT BY PREFERENCE.** It requires a word the object does not
+single out, and its anchor is non-zero on *both* of the record's accountings — `log₂7 ≈ 2.81` bits at
+B1349 addendum 5, and a departure from a five-fold selection (floor `17.70` bits) at B1405. A spec that
+says zero and a reading that costs 2.81 do not meet. There was never a second horn.
+
+**BRANCH B IS DEAD** on two independent gates already banked: the ear tie (`2 − 2 = 0`, with provably
+no third discriminating direction) and kind (`ℚ(√2,√5)` against a declared `ℚ(√5)`, with
+`√2 ∉ ℚ(ζ₆₀)` — field arithmetic, not approximation). And by B1405 the object's own word `m = 1` **is**
+branch B.
+
+**AND THE OBSERVABLE THAT DOES MEET THE SPEC EXISTS.** B1406's graded trace, normalised by the
+grading's own index `tr(C) = 4 − 2 = 2` — canonical, the value at the empty word, not fitted:
+`ŝtr(m) = tr(C·RᵐLᵐ)/tr(C)`. Against the row's own columns it scores **zero anchors** (a trace has no
+vector argument, so no ear; `m = 1` is what five principles select, so no word), **range `[−1,1]`**,
+**field `ℚ(√5)`**, and **all six of its values are members of B1011 C6's banked 15** — the same test
+branch A passed on four of four and branch B failed on four of four. **So the anchor problem was
+solvable all along.**
+
+**BUT AT THE OBJECT'S OWN WORD IT READS `1/(2φ) = 0.309016994375…`** — and `KIND_TABLE`'s own text
+already says of that number that it is *"precisely the `1/(2φ)` that **B856 already took to a bench and
+could not discriminate** (its `|h|²` reading **REFUTED ON KIND**; the surviving `Re h` in a 1σ window
+holding **≥17 natural candidates**)."*
+
+> **THE ROW IS DEAD, AND THE BINDING OBSTRUCTION IS POWER, NOT ACCOUNTING. L209 CLOSED.**
+
+This is the **fourth** independent ground for *do not spend it* — after addendum 1's arithmetic,
+addenda 2–4's kind, and B1405's anchor type — **and it explains the other three.** The campaign spent
+three windows improving an accounting that was never the binding constraint. **The row could not have
+worked at any anchor price.** `KIND_TABLE`'s mirror row is updated in place with the closure.
+
+**E79 ADDED, AND IT IS THIS BENCH'S OWN — the FALSE OWNER-CALL class:** a question the record already
+answers, escalated to the owner as a judgement. It is not a refusal and does not look like an error; it
+looks like deference, and it produces a well-formed question that never resolves, because **the owner
+cannot know it is decidable without redoing the work**. **Rule: before calling anything an owner's
+call, grep the record for the thing's SPECIFICATION.** Genuine owner-calls are about resources and
+exposure — what to spend effort on, what to publish, what to risk. Corollary for this corpus, which is
+heavily self-documenting: *"nobody has decided"* is very often *"nobody has re-read."*
+
+**What correctly remains an owner's call:** **L216** (whether to run the θ-odd sector at B1349's
+exactness) — a resource question, and now better founded, since the even row failed on **power**, so
+the odd row must be posed with a **discrimination** argument first rather than an accounting one.

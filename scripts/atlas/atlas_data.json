@@ -8114,6 +8114,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1407": {
+   "slug": "l209 was never a choice",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "coupling",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B856",
+    "L209",
+    "L216"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B140": {
    "slug": "compute reconciliation",
    "motifs": [
