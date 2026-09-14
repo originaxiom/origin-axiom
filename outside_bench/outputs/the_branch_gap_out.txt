@@ -1,0 +1,144 @@
+==============================================================================
+ THE BRANCH GAP -- what this branch does not know
+==============================================================================
+
+------------------------------------------------------------------------------
+ THE DIFF
+------------------------------------------------------------------------------
+    arcs on HEAD                     : 1246
+    arcs on the sibling branch       : 1281
+    ON THE SIBLING, ABSENT HERE      : 35
+    on HEAD, absent there            : 0
+
+    by verdict: {'NEGATIVE': 9, 'OPEN': 5, 'PROVED': 21}
+
+------------------------------------------------------------------------------
+ THE 35, BY VERDICT
+------------------------------------------------------------------------------
+
+    PROVED (21):
+      B1326_the_stale_claim_gate
+      B1328_extension_over_the_parent
+      B1333_the_index_on_several_cusps  <-- COLLIDES
+      B1334_the_deformation_proof
+      B1337_the_scheduled_sweep
+      B1339_the_chain_status_adopted
+      B1341_the_action_of_the_object  <-- COLLIDES
+      B1342_the_unseen_faces
+      B1343_deriving_the_other_faces
+      B1344_chat1_strata_verification
+      B1345_the_jorgensen_number  <-- COLLIDES
+      B1346_the_chat1_handoff_intake
+      B1348_the_listener_map_posed
+      B1400_the_six_sweeps_intaken
+      B1401_the_kappa_lower_bound
+      B1402_the_three_cuts_are_one
+      B1403_the_conductors_domain
+      B1404_the_family_has_a_name
+      B1405_the_word_anchor_repriced
+      B1406_the_mirror_and_the_bulk  <-- COLLIDES
+      B1409_the_tower_budget
+
+    NEGATIVE (9):
+      B1330_the_best_case_object  <-- COLLIDES
+      B1335_the_vanishing_is_not_formal_exhibited  <-- COLLIDES
+      B1336_the_surviving_gauge_group
+      B1338_the_instrument_is_blind  <-- COLLIDES
+      B1340_the_joker_priced
+      B1347_the_other_strata
+      B1349_the_mirror_sector_posed
+      B1407_l209_was_never_a_choice
+      B1408_the_precision_requirement
+
+    OPEN (5):
+      B1325_codex_r037_r040_harvest
+      B1327_relation_not_observer
+      B1329_the_vanishing_is_not_formal
+      B1331_the_two_images_coincide
+      B1332_the_cup_product_vanishes
+
+------------------------------------------------------------------------------
+ THE COLLISIONS -- arcs that answer or pre-empt what this bench asserted
+------------------------------------------------------------------------------
+
+    B1341_the_action_of_the_object  [PROVED]
+      Phase 2 cell 10 and Phase 3's plan both reported TOE row 4 (DYNAMICS) as NOT-COMPUTABLE.
+      This arc is PROVED and is, in its own words, 'an attempt at TOE row 4 (dynamics) rather than a report on it'.
+
+    B1330_the_best_case_object  [NEGATIVE]
+      Phase 2 cell 8 intersected the 112-member family with chirality to find a witness.
+      This arc did the same intersection FOR THE INDEX and went further: 8 members, 4 ONE-CUSPED (s958, v2873, t12833, t12835) -- so no multi-cusp extension is owed at all -- and v2873 returns ZERO over 952 in-domain sectors.
+
+    B1333_the_index_on_several_cusps  [PROVED]
+      Phase 3's plan called the multi-cusp index 'the named-never-run next computation', from B1324's wording.
+      This arc ran it on all 54 multi-cusped chiral covers: 38 070 sectors, NON-ZERO INDEX 0.
+
+    B1335_the_vanishing_is_not_formal_exhibited  [NEGATIVE]
+      Memo 230 said live non-vacuity in char 0 was never established.
+      Still true -- this arc's nonzero is over F_p and is REFUTED in char 0 -- but the arc itself was not on this branch when that was written.
+
+    B1338_the_instrument_is_blind  [NEGATIVE]
+      Names the failure class this very cell is an instance of, and reports that the instrument built against it (B1202) is itself blind.
+
+    B1345_the_jorgensen_number  [PROVED]
+      Phase-1 predecessor work reached this independently; BENCH ERROR #31 was filed for searching phrasings and walking past a directory named for it.
+
+    B1406_the_mirror_and_the_bulk  [PROVED]
+      Same title as this bench's memo 229 -- the same question answered twice, on two branches, without either seeing the other.
+
+------------------------------------------------------------------------------
+ BENCH ERROR #34 -- filed against this bench, at point of occurrence
+------------------------------------------------------------------------------
+
+    THE ERROR.  Phase 3's plan asserted that the multi-cusp index was "named
+    and never run", and Phase 2 cell 10 reported TOE row 4 (dynamics) as
+    NOT-COMPUTABLE.  Both were read off THIS BRANCH's frontier/ listing.  Both
+    are wrong on the record as a whole: B1333 ran the index at 38 070 sectors,
+    and B1341 is a PROVED attempt at row 4.
+
+    THE CLASS IS ALREADY NUMBERED.  Cloud memo 158, BENCH ERROR #17: "THE LIVE
+    ROUTE IS NOT UNRUN, IT IS RUN AND SECTOR-COMPLETE" -- a seat asserting an
+    unrun cell from a directory listing it never opened, while writing a memo
+    charging exactly that failure.  This is the same error, seventeen numbers
+    later, by a bench that had read #17's own description this session.
+
+    WHAT THE STANDING RULES DID AND DID NOT CATCH.  already_banked.py and
+    absence_sweep.py were both run, repeatedly, and neither fired -- because
+    BOTH SEARCH THE HEADS THIS BRANCH KNOWS ABOUT, and absence_sweep's own
+    output says "13 heads enumerated".  The sibling branch's 35 arcs were
+    inside that enumeration as a HEAD but the tools report per-phrase presence,
+    not per-arc coverage, so a phrase absent from this tree reads as absent
+    from the record.  THE INSTRUMENT IS NOT AT FAULT FOR A QUESTION IT WAS NOT
+    ASKED; the bench is at fault for not asking it.
+
+    THE FIX, and it is one line of discipline: BEFORE calling anything unrun,
+    DIFF THE FRONTIER AGAINST EVERY HEAD, not just this one.  That is what this
+    certificate does, and it should run before any "never run" claim.
+
+------------------------------------------------------------------------------
+ WHAT IS ACTUALLY STILL OPEN, from the arcs this branch was missing
+------------------------------------------------------------------------------
+
+    B1330 closes with a NAMED, BOUNDED, UN-RUN computation -- verbatim:
+
+      "NOT DONE: s958, t12833 and t12835 carry three-generator presentations,
+       where brute-force SL(2,F_p) enumeration is 336^3 and was not run; they
+       are named, not computed."
+
+    These are the remaining ONE-CUSPED best-case objects: chiral, in m004's own
+    commensurability class, carrying Galois-unprotected order-3 twists, and in
+    the index's own stated domain with NO multi-cusp extension owed.  v2873 --
+    the one that was computed -- returned ZERO over 952 in-domain sectors, and
+    B1330 calls that "THE FIFTH INDEPENDENT REGIME RETURNING ZERO".
+
+    HONEST WEIGHT: a sixth zero would add little; the vanishing is already
+    "the strongly favoured reading" in B1330's own words.  A NONZERO would be
+    the first live positive in characteristic zero anywhere in the record.
+    That asymmetry is the whole reason the computation is still worth doing.
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    35 arcs absent from this branch; 7 of them collide with claims this bench made.
+    BENCH ERROR #34 filed.  No prior result of this bench is retracted by
+    this cell except the two NOT-RUN/NOT-COMPUTABLE assertions named above.
