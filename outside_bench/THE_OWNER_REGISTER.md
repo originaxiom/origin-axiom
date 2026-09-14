@@ -5283,3 +5283,36 @@ neither had a base rate.**
 **Not claimed:** falsifier 1 has not fired; PART C's reach is cyclic covers to degree 30; PART E's is
 the seal's four named routes; nothing about E₆ beyond the door (B1258: the 27|2T branching is blind);
 no value. Gate 5 untouched.
+
+### ADDENDUM 2 to R145 (same session) — CELL 3, and the two counts wearing one phrase
+
+**CELL 3 = OUTCOME A.** P₃ — a cusp-fixing rotation with |det(A − I)| = 3 — holds for **2 of 4000**
+census manifolds (**0.050 %**: m202, s959). **Requirement 1's three generations DOES do real selecting
+work**, unlike Cell 2's 2T door. And the distribution B1321 never asked for: **89.88 %** of the
+population carries the value 4, and **m004's own multiset is exactly {0, 4}** — so m004 fails the 3
+while carrying the value nine manifolds in ten carry.
+
+**The three cells, in one sentence: the selecting power sits where the object does not deliver, and the
+delivery sits where there is no selecting power.**
+
+| requirement | m004 | base rate |
+|---|---|---|
+| chirality | **LACKS**, by theorem | 0.089 % of the census also lacks it |
+| the 2T door | **HAS** | 33.92 % also has it |
+| the count of three | **LACKS** (its count is 4) | 0.050 % has it; **89.88 % carries m004's 4** |
+
+**CONTROL L1 FAILED ON ITS FIRST RUN, and the cause is worth more than the rate.** The seal demanded a
+2 in the |det(A − I)| frame because `TOE_REQUIREMENTS_LEDGER` §C row 2 says *"the object counts 2 at
+every fixed locus"*. m004 returned {0, 4}. The instrument was right; the seal had imported a number
+from the wrong frame. **The record uses two counts under one phrase:** |det(A − I)|, the cusp
+fixed-point count — {0, 4} on m004, and `docs/MAIN_GOAL.md` says so itself, quoting **B1295 as a banked
+NEGATIVE**, *"|det(A−I)| ∈ {0: 882, 4: 494}"* over all 87 covers — and **χ(Fix g) = 1 − s_μ(g)**, which
+is {0, 2}. **The ledger's "2" is the second; B1321's "3" and requirement 1's three generations are the
+first.** The row carries the sentence with no frame attached, so the 2 and the 3 read as comparable and
+are not. Corrected by **addendum** to the seal — only the control's expected value — and χ was
+deliberately **not** swept, since generalising a formula the record states for m004 would repeat the
+same error one level down.
+
+**This is the inversion earning its keep twice over:** a predicate must name its quantity, and a grade
+in a ledger need not — so writing the predicate is what exposed the ambiguity.
+

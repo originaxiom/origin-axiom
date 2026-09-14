@@ -9,7 +9,10 @@
 **Certificates:** `certificates/require_and_test_cell1.py` → `outputs/require_and_test_cell1_out.txt` ·
 `certificates/require_and_test_cell2.py` → `outputs/require_and_test_cell2_out.txt`
 
-**Outcomes: CELL 1 = C:A · V:A · E:A — CELL 2 = OUTCOME B, D = DIFFERENT. All controls passed in both.**
+**Outcomes: CELL 1 = C:A · V:A · E:A — CELL 2 = OUTCOME B, D = DIFFERENT — CELL 3 = OUTCOME A.**
+**All controls passed. Cell 3's control L1 failed on its first run; the cause is §2b and the seal was corrected by addendum, not rewritten.**
+
+**Cell 3 adds:** `seals/REQUIRE_AND_TEST_CELL3_PREREG.md` (sha256 after ADDENDUM 1 `62e6af252a7a6c4b154b4f5168435f83b62293c5eb215505b5fd54e71f77012d`) · `certificates/require_and_test_cell3.py` → `outputs/require_and_test_cell3_out.txt`
 
 ---
 
@@ -160,18 +163,86 @@ B1183 and B1324 were found and cited above rather than reinvented.
 
 ---
 
-## 3. What the two cells say together
+## 2b. CELL 3 — requirement 1 (matter): the count of three, and two counts wearing one phrase
+
+**P₃** = the object has an orientation-preserving cusp-fixing isometry with **|det(A − I)| = 3** — the
+Pantev–Wijnholt localized count, in the frame B1321 uses: *"in PW's frame the localized count on a fixed
+cusp is the fixed-point count of the rotation."*
+
+**The sweep.** `OrientableCuspedCensus`, all cusp numbers, **population 4000**; 0 skipped; 113
+orientation-**reversing** cusp-fixing rows rejected by control L3 rather than silently counted.
+
+> ### **P₃ holds for 2 of 4000 = 0.050 %. OUTCOME A** — m202 and s959, two of the six B1321 found over 61 911.
+
+**Requirement 1's three generations DOES do real selecting work** — the opposite of Cell 2's door. And
+the distribution, which B1321 never asked for:
+
+| max \|det(A − I)\| attained | manifolds | share |
+|---|---|---|
+| 0 | 405 | 10.12 % |
+| **4** | **3595** | **89.88 %** |
+
+| value attained somewhere | manifolds | share |
+|---|---|---|
+| 0 | 4000 | 100 % |
+| 1 | 2 | 0.05 % |
+| 2 | 3 | 0.07 % |
+| **3** | **2** | **0.05 %** |
+| **4** | **3595** | **89.88 %** |
+
+**m004's multiset is exactly {0: 2, 4: 2}.** So m004 fails the 3 **while carrying the generic value**:
+the count it supplies is the one nine manifolds in ten supply.
+
+### The control failure, and why it is the more useful half
+
+**L1 failed on the first run.** The seal demanded that m004's |det(A − I)| multiset contain **2**,
+because `docs/TOE_REQUIREMENTS_LEDGER.md` §C row 2 says *"the object counts 2 at every fixed locus"*.
+It returned {0, 4}. The instrument was right; **the seal imported a number from the wrong frame.**
+
+**The record uses two different counts under one phrase:**
+
+| quantity | on m004 | source |
+|---|---|---|
+| **\|det(A − I)\|** — the cusp fixed-point count (PW's localized count) | **{0, 4}** | `docs/MAIN_GOAL.md` ll. 80–84, quoting **B1295 as a banked NEGATIVE**: *"968 isometries, 1 376 cusp-fixing pairs, `\|det(A−I)\| ∈ {0: 882, 4: 494}`"* across all 87 covers to degree 10 |
+| **χ(Fix g) = 1 − s_μ(g)** — the Euler characteristic of the fixed locus in the 3-manifold | **{0, 2}** | `docs/MAIN_GOAL.md` l. 87 |
+
+**The "2" of "the object counts 2 at every fixed locus" is the second quantity. The "3" of B1321, and of
+requirement 1's three generations, is the first.** They are not on the same scale — and the ledger row
+carries the sentence with **no frame attached**, so the 2 and the 3 read as comparable when they are
+not. This is **#26 in the wild**: a paraphrase is where the hypotheses go missing. It surfaced only
+because a predicate must name its quantity, which a grade in a ledger need not.
+
+**Handled by addendum, not rewrite.** ADDENDUM 1 to the Cell 3 seal corrects **only** the control's
+expected value — to B1295's own {0, 4} — and changes nothing about the sweep, the population, the two
+outcomes, or the second question. The first run's numbers stand. **χ is deliberately not swept across
+the census**: the formula is stated in the record *for m004*, and generalising it would repeat the same
+paraphrase error one level down.
+
+**Second question, answered as sealed:** 2 is **not** modal in this frame (the modal attained value is
+0, universal; the modal *maximum* is 4 at 89.88 %). m004's 2 — in the χ frame — is not a census default,
+but neither is it comparable to the 3.
+
+---
+
+## 3. What the three cells say together
 
 | requirement | P | m004 | base rate |
 |---|---|---|---|
 | **2 — chirality** | no orientation-reversing self-isometry | **LACKS**, by theorem | **181 / 203 123 = 0.089 %** are amphichiral (`outputs/l192_the_bit_out.txt` ll. 38–39, this bench's own sweep) — m004 is in the tenth of a percent that fails |
 | **1 — gauge algebra** | surjects onto 2T | **HAS** | **1696 / 5000 = 33.92 %** |
+| **1 — matter (three)** | a cusp-fixing rotation with \|det(A − I)\| = 3 | **LACKS**; its multiset is {0, 4} | **2 / 4000 = 0.050 %** — and **89.88 %** carry m004's own 4 |
 
-**The two requirements behave in opposite ways, and neither behaves as the chain reads it.**
+**The three requirements behave in three different ways, and not one behaves as the chain reads it.**
 
-- The requirement m004 **fails** is one that **99.9 % of the census passes.**
-- The requirement m004 **passes** is one that **a third of the census passes** — so it does little
+- The requirement m004 **fails** on chirality is one **99.9 % of the census passes.**
+- The requirement m004 **passes** is one **a third of the census passes** — so it does little
   selecting, and it is not the arithmetic atom B282 took it to be.
+- The requirement m004 **fails** on the count of three is the one that **does** select — 0.05 % — and
+  m004 fails it carrying the value 89.88 % of the census carries.
+
+**So the selecting power sits where the object does not deliver, and the delivery sits where there is
+no selecting power.** That sentence is the cells' joint content, and it is not visible from any single
+arc, because no single arc carried a base rate.
 
 **This is B282's own genericity collapse, extended one link further down.** B282 stripped the E₆ arc to
 a single object-specific kernel — *"the arithmetic 2T atom"* — and said everything else was generic.
@@ -204,4 +275,8 @@ coincidences is **not settled here**; it is the next cell, and it is stated as a
   branching character is identical for both candidate embeddings, so it cannot discriminate objects and
   was not invoked. Cell 2 also does **not** show m004 was wrongly chosen — only that requirement 1's
   door does far less selecting than the chain reads it as doing.
+- **Cell 3 concludes nothing about generations as physics.** h¹ ↔ 4d generations is **I-26, a declared
+  input** (`TOE_REQUIREMENTS_LEDGER` §E row 4, *"the dimension gap not exhibited"*). Cell 3's count is a
+  fixed-point count on a torus and is reported as one. Its population is 4000 census members, not the
+  61 911 B1321 searched; it recovers two of B1321's six and does not claim the other four are absent.
 - **No value of anything. Gate 5 untouched. Nothing promotes to `CLAIMS.md`.**
