@@ -1,0 +1,7094 @@
+{
+ "baseline_maxlen": 3,
+ "maxlen": 5,
+ "baseline": {
+  "carriers_with_H1_rank_3": [
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    0
+   ]
+  ],
+  "carriers_with_H1_rank_2": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "results": {
+   "S_1_1": {
+    "words_tried": 1,
+    "hyperbolic_bundles": 1,
+    "non_hyperbolic_or_degenerate": 0,
+    "errors": 0,
+    "distinct_isometry_classes": 1,
+    "classes": [
+     {
+      "word": "aB",
+      "words": [
+       "aB"
+      ],
+      "volume": 2.0298832128193074,
+      "cusps": 1,
+      "H1": "Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 1.0,
+      "identify": [
+       "m004(0,0)",
+       "4_1(0,0)",
+       "K2_1(0,0)",
+       "K4a1(0,0)",
+       "otet02_00001(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": true,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 4,
+       "orientation_reversing": 4
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 4,
+        "orientation_reversing": 4
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 4,
+       "orientation_reversing": 4
+      },
+      "swap_volume": 2.029883212819307,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 4,
+       "orientation_reversing": 4
+      },
+      "mirror_volume": 2.0298832128193074,
+      "in_three_line_class": false,
+      "isometric_to_m004": true
+     }
+    ],
+    "seconds": 0.0
+   },
+   "S_1_2": {
+    "words_tried": 252,
+    "hyperbolic_bundles": 36,
+    "non_hyperbolic_or_degenerate": 144,
+    "errors": 0,
+    "distinct_isometry_classes": 2,
+    "classes": [
+     {
+      "word": "abC",
+      "words": [
+       "abC",
+       "aBC",
+       "aCb",
+       "aCB",
+       "baC",
+       "bcA",
+       "bAc",
+       "bCa",
+       "cbA",
+       "cAb",
+       "cAB",
+       "cBA",
+       "Abc",
+       "Acb",
+       "AcB",
+       "ABc",
+       "BaC",
+       "BcA",
+       "BAc",
+       "BCa",
+       "Cab",
+       "CaB",
+       "Cba",
+       "CBa"
+      ],
+      "volume": 3.6638623767088756,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 1.8049621542611471,
+      "identify": [
+       "m129(0,0)(0,0)",
+       "5^2_1(0,0)(0,0)",
+       "L5a1(0,0)(0,0)",
+       "ooct01_00001(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 3.663862376708876,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 3.663862376708876,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "acB",
+      "words": [
+       "acB",
+       "aBc",
+       "bAC",
+       "bCA",
+       "caB",
+       "cBa",
+       "AbC",
+       "ACb",
+       "Bac",
+       "Bca",
+       "CbA",
+       "CAb"
+      ],
+      "volume": 5.333489566898119,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.627485922941561,
+      "identify": [
+       "s780(0,0)(0,0)",
+       "6^2_3(0,0)(0,0)",
+       "L6a1(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         1,
+         -3,
+         4
+        ],
+        [
+         2,
+         1,
+         1
+        ],
+        [
+         1,
+         -1,
+         2
+        ],
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         2,
+         -1,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 3.663862376708876,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 3.663862376708876,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     }
+    ],
+    "seconds": 2.4
+   },
+   "S_0_4": {
+    "words_tried": 80,
+    "hyperbolic_bundles": 28,
+    "non_hyperbolic_or_degenerate": 20,
+    "errors": 0,
+    "distinct_isometry_classes": 2,
+    "classes": [
+     {
+      "word": "aB",
+      "words": [
+       "aB",
+       "bA",
+       "Ab",
+       "Ba",
+       "aab",
+       "aba",
+       "abb",
+       "baa",
+       "bab",
+       "bba",
+       "AAB",
+       "ABA",
+       "ABB",
+       "BAA",
+       "BAB",
+       "BBA"
+      ],
+      "volume": 7.327724753417753,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.609924308522295,
+      "identify": [
+       "t12047(0,0)(0,0)(0,0)(0,0)",
+       "8^4_2(0,0)(0,0)(0,0)(0,0)",
+       "L8n7(0,0)(0,0)(0,0)(0,0)",
+       "ooct02_00001(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 64,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 64,
+       "orientation_preserving": 32,
+       "orientation_reversing": 32
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 64,
+        "orientation_preserving": 32,
+        "orientation_reversing": 32
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 64,
+       "orientation_preserving": 32,
+       "orientation_reversing": 32
+      },
+      "swap_volume": 7.327724753417753,
+      "vs_mirror_word": {
+       "isometries": 64,
+       "orientation_preserving": 32,
+       "orientation_reversing": 32
+      },
+      "mirror_volume": 7.327724753417753,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaB",
+      "words": [
+       "aaB",
+       "aBa",
+       "aBB",
+       "bbA",
+       "bAb",
+       "bAA",
+       "Abb",
+       "AbA",
+       "AAb",
+       "Baa",
+       "BaB",
+       "BBa"
+      ],
+      "volume": 8.929317823097362,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 4.398931803911724,
+      "identify": [
+       "o9_44206(0,0)(0,0)(0,0)(0,0)",
+       "10^4_23(0,0)(0,0)(0,0)(0,0)",
+       "L10n98(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         2,
+         -1,
+         4,
+         -1
+        ],
+        [
+         2,
+         -1,
+         4,
+         -1
+        ],
+        [
+         1,
+         -1,
+         0,
+         -2
+        ],
+        [
+         4,
+         -8,
+         5,
+         -2
+        ],
+        [
+         1,
+         -1,
+         0,
+         -2
+        ],
+        [
+         4,
+         -8,
+         5,
+         -2
+        ],
+        [
+         2,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         -4,
+         5,
+         -4
+        ],
+        [
+         2,
+         -7,
+         12,
+         -8
+        ],
+        [
+         8,
+         -12,
+         7,
+         -1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 3
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 8.92931782309736,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 8.92931782309736,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     }
+    ],
+    "seconds": 0.8
+   }
+  },
+  "F9_surface_verdict": "ROBUST",
+  "keepers_of_Q(sqrt-3)": [],
+  "mirror_test": {
+   "three_record_classes": 4,
+   "chiral_classes": [
+    [
+     "abC",
+     3.6638623767088756,
+     2,
+     [
+      "m129(0,0)(0,0)",
+      "5^2_1(0,0)(0,0)",
+      "L5a1(0,0)(0,0)",
+      "ooct01_00001(0,0)(0,0)"
+     ]
+    ],
+    [
+     "acB",
+     5.333489566898119,
+     2,
+     [
+      "s780(0,0)(0,0)",
+      "6^2_3(0,0)(0,0)",
+      "L6a1(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaB",
+     8.929317823097362,
+     4,
+     [
+      "o9_44206(0,0)(0,0)(0,0)(0,0)",
+      "10^4_23(0,0)(0,0)(0,0)(0,0)",
+      "L10n98(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ]
+   ],
+   "amphichiral_classes": [
+    [
+     "aB",
+     7.327724753417753,
+     4,
+     [
+      "t12047(0,0)(0,0)(0,0)(0,0)",
+      "8^4_2(0,0)(0,0)(0,0)(0,0)",
+      "L8n7(0,0)(0,0)(0,0)(0,0)",
+      "ooct02_00001(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ]
+   ],
+   "PASS_A (minimal hyperbolic three-record bundle is chiral)": true
+  },
+  "three_line_class_members": [],
+  "control_S_1_1_aB": {
+   "is_m004": true,
+   "amphichiral": true,
+   "shape_field_Q(sqrt-3)": true,
+   "self_isometries": {
+    "isometries": 8,
+    "orientation_preserving": 4,
+    "orientation_reversing": 4
+   },
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 4,
+    "orientation_reversing": 4
+   },
+   "vs_mirror_word": {
+    "isometries": 8,
+    "orientation_preserving": 4,
+    "orientation_reversing": 4
+   }
+  },
+  "control_PASS": true
+ },
+ "extended": {
+  "carriers_with_H1_rank_3": [
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    0
+   ]
+  ],
+  "carriers_with_H1_rank_2": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "results": {
+   "S_1_1": {
+    "words_tried": 1,
+    "hyperbolic_bundles": 1,
+    "non_hyperbolic_or_degenerate": 0,
+    "errors": 0,
+    "distinct_isometry_classes": 1,
+    "classes": [
+     {
+      "word": "aB",
+      "words": [
+       "aB"
+      ],
+      "volume": 2.0298832128193074,
+      "cusps": 1,
+      "H1": "Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 1.0,
+      "identify": [
+       "m004(0,0)",
+       "4_1(0,0)",
+       "K2_1(0,0)",
+       "K4a1(0,0)",
+       "otet02_00001(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": true,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 4,
+       "orientation_reversing": 4
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 4,
+        "orientation_reversing": 4
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 4,
+       "orientation_reversing": 4
+      },
+      "swap_volume": 2.029883212819307,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 4,
+       "orientation_reversing": 4
+      },
+      "mirror_volume": 2.029883212819307,
+      "in_three_line_class": false,
+      "isometric_to_m004": true
+     }
+    ],
+    "seconds": 0.0
+   },
+   "S_1_2": {
+    "words_tried": 9324,
+    "hyperbolic_bundles": 1856,
+    "non_hyperbolic_or_degenerate": 2824,
+    "errors": 0,
+    "distinct_isometry_classes": 21,
+    "classes": [
+     {
+      "word": "abC",
+      "words": [
+       "abC",
+       "aBC",
+       "aCb",
+       "aCB",
+       "baC",
+       "bcA",
+       "bAc",
+       "bCa",
+       "cbA",
+       "cAb",
+       "cAB",
+       "cBA",
+       "Abc",
+       "Acb",
+       "AcB",
+       "ABc",
+       "BaC",
+       "BcA",
+       "BAc",
+       "BCa",
+       "Cab",
+       "CaB",
+       "Cba",
+       "CBa",
+       "aabAC",
+       "aabCA",
+       "aaBAC",
+       "aaBCA",
+       "aaCbA",
+       "aaCAb",
+       "aaCAB",
+       "aaCBA",
+       "abaBC",
+       "abaCA",
+       "abaCB",
+       "abcAA",
+       "abcAB",
+       "abcBB",
+       "abcBC",
+       "abAcA",
+       "abAcB",
+       "abAAc",
+       "abABC",
+       "abACa",
+       "abACb",
+       "abCaB",
+       "abCAb",
+       "abCBC",
+       "acbAA",
+       "acbCC",
+       "acAbA",
+       "acAAb",
+       "acAAB",
+       "acABA",
+       "acBAA",
+       "acBAB",
+       "acBCB",
+       "acBCC",
+       "aBabC",
+       "aBaCb",
+       "aBaCA",
+       "aBcbC",
+       "aBcAb",
+       "aBcAA",
+       "aBAbC",
+       "aBAcb",
+       "aBAcA",
+       "aBAAc",
+       "aBABc",
+       "aBACa",
+       "aBBcb",
+       "aBCab",
+       "aBCbC",
+       "aBCBc",
+       "aCabA",
+       "aCaBA",
+       "aCbaB",
+       "aCbcB",
+       "aCbAB",
+       "aCbCB",
+       "aCAba",
+       "aCABa",
+       "aCBab",
+       "aCBcb",
+       "aCBAb",
+       "aCBCb",
+       "aCCbc",
+       "aCCBc",
+       "baaCA",
+       "babAC",
+       "babCA",
+       "babCB",
+       "bacAA",
+       "baBaC",
+       "baBcA",
+       "baBAc",
+       "baBBc",
+       "baBCa",
+       "baBCB",
+       "baCBa",
+       "baCBc",
+       "baCBA",
+       "baCBB",
+       "baCBC",
+       "bbaCB",
+       "bbcAB",
+       "bbAcB",
+       "bbABC",
+       "bbCaB",
+       "bbCBA",
+       "bcaCC",
+       "bcbAB",
+       "bcbAC",
+       "bcbCA",
+       "bccAC",
+       "bcABa",
+       "bcABc",
+       "bcABA",
+       "bcABB",
+       "bcABC",
+       "bcBaC",
+       "bcBcA",
+       "bcBAc",
+       "bcBAB",
+       "bcBBa",
+       "bcBCa",
+       "bAbcB",
+       "bAcBa",
+       "bAcBc",
+       "bAcBA",
+       "bAcBB",
+       "bAcBC",
+       "bAAca",
+       "bABaC",
+       "bABcA",
+       "bABcB",
+       "bABAc",
+       "bABCa",
+       "bABCb",
+       "bACaa",
+       "bACba",
+       "bACbc",
+       "bCaBa",
+       "bCaBc",
+       "bCaBA",
+       "bCaBB",
+       "bCaBC",
+       "bCbaB",
+       "bCAba",
+       "bCAbc",
+       "bCAcc",
+       "bCBaB",
+       "bCBaC",
+       "bCBcA",
+       "bCBAb",
+       "bCBAc",
+       "bCBCa",
+       "bCCac",
+       "cabAA",
+       "cabCC",
+       "caBAA",
+       "caBAB",
+       "caBCB",
+       "caBCC",
+       "caCbC",
+       "caCBC",
+       "caCCb",
+       "caCCB",
+       "cbaBA",
+       "cbaBB",
+       "cbaCB",
+       "cbaCC",
+       "cbcAB",
+       "cbcAC",
+       "cbcBA",
+       "cbAcB",
+       "cbABA",
+       "cbACb",
+       "cbCaB",
+       "cbCaC",
+       "cbCAb",
+       "cbCAc",
+       "cbCBA",
+       "cbCCa",
+       "ccbAC",
+       "ccbCA",
+       "ccAbC",
+       "ccABC",
+       "ccACb",
+       "ccACB",
+       "ccBAC",
+       "ccBCA",
+       "cAbaB",
+       "cAbcB",
+       "cAbAB",
+       "cAbCB",
+       "cAcbC",
+       "cAcBC",
+       "cAAba",
+       "cAABa",
+       "cABab",
+       "cABcb",
+       "cABAb",
+       "cABCb",
+       "cACbc",
+       "cACBc",
+       "cBabA",
+       "cBaCb",
+       "cBaCC",
+       "cBcbA",
+       "cBcAb",
+       "cBcAC",
+       "cBAbA",
+       "cBAcb",
+       "cBABa",
+       "cBBab",
+       "cBCab",
+       "cBCaC",
+       "cBCbA",
+       "cBCAc",
+       "cBCBa",
+       "cBCCa",
+       "AbaaC",
+       "AbabC",
+       "AbacA",
+       "AbaBc",
+       "AbaCa",
+       "AbaCB",
+       "AbbCB",
+       "AbcbC",
+       "AbcAB",
+       "AbcBc",
+       "AbAca",
+       "AbAcB",
+       "AbABc",
+       "AbCaa",
+       "AbCaB",
+       "AbCBc",
+       "AcabA",
+       "AcaBA",
+       "AcbaB",
+       "AcbcB",
+       "AcbAB",
+       "AcbCB",
+       "AccbC",
+       "AccBC",
+       "AcAba",
+       "AcABa",
+       "AcBab",
+       "AcBcb",
+       "AcBAb",
+       "AcBCb",
+       "AAbac",
+       "AAbca",
+       "AAcab",
+       "AAcaB",
+       "AAcba",
+       "AAcBa",
+       "AABac",
+       "AABca",
+       "ABaaC",
+       "ABabc",
+       "ABacA",
+       "ABacB",
+       "ABaCa",
+       "ABaCb",
+       "ABcaB",
+       "ABcbc",
+       "ABcAb",
+       "ABAbc",
+       "ABAca",
+       "ABAcb",
+       "ABCaa",
+       "ABCab",
+       "ABCbb",
+       "ABCbc",
+       "ACaab",
+       "ACaaB",
+       "ACaba",
+       "ACaBa",
+       "ACbaa",
+       "ACbab",
+       "ACbcb",
+       "ACbcc",
+       "ACBaa",
+       "ACBcc",
+       "BaaCA",
+       "BabaC",
+       "BabcA",
+       "BabcB",
+       "BabAc",
+       "BabCa",
+       "BabCb",
+       "BacAA",
+       "BacBA",
+       "BacBC",
+       "BaBCb",
+       "BaCba",
+       "BaCbb",
+       "BaCbc",
+       "BaCbA",
+       "BaCbC",
+       "BcaBA",
+       "BcaBC",
+       "BcaCC",
+       "BcbaB",
+       "BcbaC",
+       "BcbcA",
+       "BcbAb",
+       "BcbAc",
+       "BcbCa",
+       "BccAC",
+       "BcAba",
+       "BcAbb",
+       "BcAbc",
+       "BcAbA",
+       "BcAbC",
+       "BcBAb",
+       "BAbaC",
+       "BAbbC",
+       "BAbcb",
+       "BAbcA",
+       "BAbAc",
+       "BAbCa",
+       "BAcba",
+       "BAcbb",
+       "BAcbc",
+       "BAcbA",
+       "BAcbC",
+       "BAAca",
+       "BABac",
+       "BABca",
+       "BABcb",
+       "BACaa",
+       "BBabc",
+       "BBaCb",
+       "BBcba",
+       "BBcAb",
+       "BBAcb",
+       "BBCab",
+       "BCaba",
+       "BCabb",
+       "BCabc",
+       "BCabA",
+       "BCabC",
+       "BCbab",
+       "BCbaC",
+       "BCbbA",
+       "BCbcA",
+       "BCbAc",
+       "BCbCa",
+       "BCAcc",
+       "BCBab",
+       "BCBac",
+       "BCBca",
+       "BCCac",
+       "CaabA",
+       "CaaBA",
+       "CabaB",
+       "CabcB",
+       "CabAB",
+       "CabCB",
+       "CacbC",
+       "CacBC",
+       "CaBab",
+       "CaBcb",
+       "CaBAb",
+       "CaBCb",
+       "CaCbc",
+       "CaCBc",
+       "CbabA",
+       "CbaBa",
+       "CbaCB",
+       "CbbAB",
+       "CbcaC",
+       "CbcbA",
+       "CbccA",
+       "CbcAc",
+       "CbcAB",
+       "CbcBa",
+       "CbAcc",
+       "CbAcB",
+       "CbABa",
+       "CbCac",
+       "CbCaB",
+       "CbCBa",
+       "CAbaa",
+       "CAbab",
+       "CAbcb",
+       "CAbcc",
+       "CAcbc",
+       "CAccb",
+       "CAccB",
+       "CAcBc",
+       "CABaa",
+       "CABcc",
+       "CBaba",
+       "CBacB",
+       "CBaCb",
+       "CBcaB",
+       "CBcaC",
+       "CBcba",
+       "CBccA",
+       "CBcAb",
+       "CBcAc",
+       "CBAba",
+       "CBAbb",
+       "CBAcb",
+       "CBAcc",
+       "CBCab",
+       "CBCac",
+       "CBCba",
+       "CCabc",
+       "CCacb",
+       "CCacB",
+       "CCaBc",
+       "CCbac",
+       "CCbca",
+       "CCBac",
+       "CCBca"
+      ],
+      "volume": 3.6638623767088756,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 1.8049621542611471,
+      "identify": [
+       "m129(0,0)(0,0)",
+       "5^2_1(0,0)(0,0)",
+       "L5a1(0,0)(0,0)",
+       "ooct01_00001(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 3.663862376708876,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 3.663862376708875,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aabC",
+      "words": [
+       "aabC",
+       "aaBC",
+       "aaCb",
+       "aaCB",
+       "abaC",
+       "abCa",
+       "abCb",
+       "abCC",
+       "aBaC",
+       "aBCa",
+       "aBCB",
+       "aBCC",
+       "aCab",
+       "aCaB",
+       "aCba",
+       "aCbC",
+       "aCBa",
+       "aCBC",
+       "aCCb",
+       "aCCB",
+       "baaC",
+       "babC",
+       "baCa",
+       "baCC",
+       "bcbA",
+       "bccA",
+       "bcAc",
+       "bcAA",
+       "bAbc",
+       "bAcc",
+       "bAcA",
+       "bAAc",
+       "bCaa",
+       "bCaC",
+       "bCba",
+       "bCCa",
+       "cbcA",
+       "cbAb",
+       "cbAc",
+       "cbAA",
+       "ccbA",
+       "ccAb",
+       "ccAB",
+       "ccBA",
+       "cAbc",
+       "cAbA",
+       "cAcb",
+       "cAcB",
+       "cAAb",
+       "cAAB",
+       "cABc",
+       "cABA",
+       "cBcA",
+       "cBAc",
+       "cBAA",
+       "cBAB",
+       "Abcb",
+       "Abcc",
+       "AbcA",
+       "AbAc",
+       "Acbc",
+       "AcbA",
+       "Accb",
+       "AccB",
+       "AcAb",
+       "AcAB",
+       "AcBc",
+       "AcBA",
+       "AAbc",
+       "AAcb",
+       "AAcB",
+       "AABc",
+       "ABcc",
+       "ABcA",
+       "ABcB",
+       "ABAc",
+       "BaaC",
+       "BaBC",
+       "BaCa",
+       "BaCC",
+       "BccA",
+       "BcAc",
+       "BcAA",
+       "BcBA",
+       "BAcc",
+       "BAcA",
+       "BAAc",
+       "BABc",
+       "BCaa",
+       "BCaC",
+       "BCBa",
+       "BCCa",
+       "Caab",
+       "CaaB",
+       "Caba",
+       "CabC",
+       "CaBa",
+       "CaBC",
+       "CaCb",
+       "CaCB",
+       "Cbaa",
+       "Cbab",
+       "CbaC",
+       "CbCa",
+       "CBaa",
+       "CBaB",
+       "CBaC",
+       "CBCa",
+       "CCab",
+       "CCaB",
+       "CCba",
+       "CCBa"
+      ],
+      "volume": 4.415332477453864,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.175165767946523,
+      "identify": [
+       "m295(0,0)(0,0)",
+       "9^2_50(0,0)(0,0)",
+       "L9n14(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         2,
+         1
+        ],
+        [
+         1,
+         3,
+         -4,
+         4
+        ],
+        [
+         1,
+         -2,
+         2,
+         1
+        ],
+        [
+         4,
+         -5,
+         6,
+         -1
+        ],
+        [
+         4,
+         -17,
+         28,
+         -16
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 3
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 5.074708032048268,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 5.074708032048267,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaaBC",
+      "words": [
+       "aaaBC",
+       "aaaCB",
+       "aaBaC",
+       "aaBCa",
+       "aaCaB",
+       "aaCBa",
+       "abCCC",
+       "aBaaC",
+       "aBaCa",
+       "aBCaa",
+       "aCaaB",
+       "aCaBa",
+       "aCbCC",
+       "aCBaa",
+       "aCCbC",
+       "aCCCb",
+       "baCCC",
+       "bcAAA",
+       "bAcAA",
+       "bAAcA",
+       "bAAAc",
+       "bCaCC",
+       "bCCaC",
+       "bCCCa",
+       "cbAAA",
+       "cccAB",
+       "cccBA",
+       "ccAcB",
+       "ccABc",
+       "ccBcA",
+       "ccBAc",
+       "cAbAA",
+       "cAccB",
+       "cAcBc",
+       "cAAbA",
+       "cAAAb",
+       "cABcc",
+       "cBccA",
+       "cBcAc",
+       "cBAcc",
+       "AbcAA",
+       "AbAcA",
+       "AbAAc",
+       "AcbAA",
+       "AcccB",
+       "AccBc",
+       "AcAbA",
+       "AcAAb",
+       "AcBcc",
+       "AAbcA",
+       "AAbAc",
+       "AAcbA",
+       "AAcAb",
+       "AAAbc",
+       "AAAcb",
+       "ABccc",
+       "BaaaC",
+       "BaaCa",
+       "BaCaa",
+       "BcccA",
+       "BccAc",
+       "BcAcc",
+       "BAccc",
+       "BCaaa",
+       "CaaaB",
+       "CaaBa",
+       "CabCC",
+       "CaBaa",
+       "CaCbC",
+       "CaCCb",
+       "CbaCC",
+       "CbCaC",
+       "CbCCa",
+       "CBaaa",
+       "CCabC",
+       "CCaCb",
+       "CCbaC",
+       "CCbCa",
+       "CCCab",
+       "CCCba"
+      ],
+      "volume": 4.751701965517899,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.3408745564816282,
+      "identify": [
+       "s443(0,0)(0,0)",
+       "L11n208(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         64,
+         -112,
+         76,
+         -25,
+         4
+        ],
+        [
+         16,
+         -44,
+         52,
+         -30,
+         7
+        ],
+        [
+         7,
+         -19,
+         25,
+         -9,
+         4
+        ],
+        [
+         7,
+         -19,
+         25,
+         -9,
+         4
+        ],
+        [
+         16,
+         -44,
+         52,
+         -30,
+         7
+        ],
+        [
+         1,
+         -2,
+         4,
+         -2,
+         7
+        ],
+        [
+         7,
+         -26,
+         40,
+         -28,
+         8
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 4
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 6.755194816462884,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 6.755194816462887,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "abbC",
+      "words": [
+       "abbC",
+       "aBBC",
+       "aCbb",
+       "aCBB",
+       "baCb",
+       "bbaC",
+       "bbcA",
+       "bbAc",
+       "bbCa",
+       "bcAb",
+       "bAcb",
+       "bCab",
+       "cbbA",
+       "cAbb",
+       "cABB",
+       "cBBA",
+       "Abbc",
+       "Acbb",
+       "AcBB",
+       "ABBc",
+       "BaCB",
+       "BcAB",
+       "BAcB",
+       "BBaC",
+       "BBcA",
+       "BBAc",
+       "BBCa",
+       "BCaB",
+       "Cabb",
+       "CaBB",
+       "Cbba",
+       "CBBa",
+       "aabbc",
+       "aacbb",
+       "abbac",
+       "abbca",
+       "abbcc",
+       "acabb",
+       "acbba",
+       "acbbc",
+       "accbb",
+       "baacb",
+       "bacab",
+       "baccb",
+       "bbaac",
+       "bbaca",
+       "bbacc",
+       "bbcaa",
+       "bbcac",
+       "bbcca",
+       "bcaab",
+       "bcacb",
+       "bccab",
+       "caabb",
+       "cabba",
+       "cabbc",
+       "cacbb",
+       "cbbaa",
+       "cbbac",
+       "cbbca",
+       "ccabb",
+       "ccbba",
+       "AABBC",
+       "AACBB",
+       "ABBAC",
+       "ABBCA",
+       "ABBCC",
+       "ACABB",
+       "ACBBA",
+       "ACBBC",
+       "ACCBB",
+       "BAACB",
+       "BACAB",
+       "BACCB",
+       "BBAAC",
+       "BBACA",
+       "BBACC",
+       "BBCAA",
+       "BBCAC",
+       "BBCCA",
+       "BCAAB",
+       "BCACB",
+       "BCCAB",
+       "CAABB",
+       "CABBA",
+       "CABBC",
+       "CACBB",
+       "CBBAA",
+       "CBBAC",
+       "CBBCA",
+       "CCABB",
+       "CCBBA"
+      ],
+      "volume": 5.074708032048269,
+      "cusps": 2,
+      "H1": "Z/2 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.5000000000000004,
+      "identify": [
+       "m412(0,0)(0,0)",
+       "otet05_00001(0,0)(0,0)",
+       "ocube01_00002(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": true,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 4.415332477453866,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 4.415332477453866,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaabC",
+      "words": [
+       "aaabC",
+       "aaaCb",
+       "aabaC",
+       "aabCa",
+       "aaCab",
+       "aaCba",
+       "abaaC",
+       "ababC",
+       "abaCa",
+       "abaCb",
+       "abbCb",
+       "abCaa",
+       "abCab",
+       "abCbb",
+       "aBBCB",
+       "aBCBB",
+       "aBCBC",
+       "aBCCC",
+       "aCaab",
+       "aCaba",
+       "aCbaa",
+       "aCbab",
+       "aCBCB",
+       "aCBCC",
+       "aCCBC",
+       "aCCCB",
+       "baaaC",
+       "baaCa",
+       "babaC",
+       "babbC",
+       "babCa",
+       "babCb",
+       "baCaa",
+       "baCba",
+       "bbabC",
+       "bbcbA",
+       "bbAbc",
+       "bbCba",
+       "bcbbA",
+       "bcbcA",
+       "bcbAb",
+       "bcbAc",
+       "bcccA",
+       "bccAc",
+       "bcAbc",
+       "bcAcc",
+       "bAbbc",
+       "bAbcb",
+       "bAcbc",
+       "bAccc",
+       "bCaaa",
+       "bCaba",
+       "bCbab",
+       "bCbba",
+       "cbbAb",
+       "cbcbA",
+       "cbccA",
+       "cbcAb",
+       "cbcAc",
+       "cbAbb",
+       "cbAcb",
+       "cbAcc",
+       "ccbcA",
+       "ccbAc",
+       "cccbA",
+       "cccAb",
+       "ccAbc",
+       "ccAcb",
+       "cAbcb",
+       "cAbcc",
+       "cAcbc",
+       "cAccb",
+       "cAAAB",
+       "cAABA",
+       "cABAA",
+       "cABAB",
+       "cBAAA",
+       "cBABA",
+       "cBABB",
+       "cBBAB",
+       "Abbcb",
+       "Abcbb",
+       "Abcbc",
+       "Abccc",
+       "Acbcb",
+       "Acbcc",
+       "Accbc",
+       "Acccb",
+       "AcAAB",
+       "AcABA",
+       "AcBAA",
+       "AcBAB",
+       "AAcAB",
+       "AAcBA",
+       "AAAcB",
+       "AAABc",
+       "AABcA",
+       "AABAc",
+       "ABcAA",
+       "ABcAB",
+       "ABcBB",
+       "ABAcA",
+       "ABAcB",
+       "ABAAc",
+       "ABABc",
+       "ABBcB",
+       "BaBBC",
+       "BaBCB",
+       "BaCBC",
+       "BaCCC",
+       "BcAAA",
+       "BcABA",
+       "BcBAB",
+       "BcBBA",
+       "BAcAA",
+       "BAcBA",
+       "BAAcA",
+       "BAAAc",
+       "BABcA",
+       "BABcB",
+       "BABAc",
+       "BABBc",
+       "BBaBC",
+       "BBcBA",
+       "BBABc",
+       "BBCBa",
+       "BCaBC",
+       "BCaCC",
+       "BCBaB",
+       "BCBaC",
+       "BCBBa",
+       "BCBCa",
+       "BCCaC",
+       "BCCCa",
+       "Caaab",
+       "Caaba",
+       "Cabaa",
+       "Cabab",
+       "CaBCB",
+       "CaBCC",
+       "CaCBC",
+       "CaCCB",
+       "Cbaaa",
+       "Cbaba",
+       "Cbabb",
+       "Cbbab",
+       "CBaBB",
+       "CBaCB",
+       "CBaCC",
+       "CBBaB",
+       "CBCaB",
+       "CBCaC",
+       "CBCBa",
+       "CBCCa",
+       "CCaBC",
+       "CCaCB",
+       "CCBaC",
+       "CCBCa",
+       "CCCaB",
+       "CCCBa"
+      ],
+      "volume": 5.137941201873416,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.53115113688601,
+      "identify": [
+       "s647(0,0)(0,0)",
+       "L12n1027(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         0,
+         -1
+        ],
+        [
+         1,
+         -1,
+         -2,
+         4
+        ],
+        [
+         4,
+         -6,
+         5,
+         -1
+        ],
+        [
+         1,
+         2,
+         -1,
+         2
+        ],
+        [
+         2,
+         1,
+         2,
+         -1
+        ],
+        [
+         1,
+         -2,
+         0,
+         -1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 3
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 5.875918082667624,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 5.875918082667625,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "acB",
+      "words": [
+       "acB",
+       "aBc",
+       "bAC",
+       "bCA",
+       "caB",
+       "cBa",
+       "AbC",
+       "ACb",
+       "Bac",
+       "Bca",
+       "CbA",
+       "CAb",
+       "aacAB",
+       "aacBA",
+       "aaBcA",
+       "aaBAc",
+       "abbCB",
+       "abAbC",
+       "abAAC",
+       "abABc",
+       "abACA",
+       "abACB",
+       "abCAA",
+       "abCAB",
+       "abCBc",
+       "abCBB",
+       "acaBA",
+       "acbAB",
+       "acbCB",
+       "accBC",
+       "acABa",
+       "acBAb",
+       "acBCb",
+       "aBacA",
+       "aBcAB",
+       "aBcBC",
+       "aBAbc",
+       "aBAca",
+       "aBAcB",
+       "aBACb",
+       "aBBCb",
+       "aBCbb",
+       "aBCbc",
+       "aBCAb",
+       "aCbAb",
+       "aCbAA",
+       "aCAbA",
+       "aCAAb",
+       "aCBcc",
+       "aCBcB",
+       "bacBA",
+       "bacBB",
+       "bacBC",
+       "baBcB",
+       "baBAC",
+       "baBBC",
+       "baBCb",
+       "baBCA",
+       "baCbA",
+       "baCAA",
+       "bbaBC",
+       "bbcBA",
+       "bbABc",
+       "bbACB",
+       "bbCAB",
+       "bbCBa",
+       "bcaBA",
+       "bcaBB",
+       "bcaBC",
+       "bcAbC",
+       "bcACC",
+       "bcBaB",
+       "bcBAb",
+       "bcBAC",
+       "bcBBA",
+       "bcBCA",
+       "bAbaC",
+       "bAbCa",
+       "bAbCB",
+       "bAcbC",
+       "bAACa",
+       "bABac",
+       "bABca",
+       "bABcb",
+       "bABBc",
+       "bACBa",
+       "bACBc",
+       "bCabA",
+       "bCbcA",
+       "bCbAc",
+       "bCbAB",
+       "bCABa",
+       "bCABc",
+       "bCBab",
+       "bCBac",
+       "bCBca",
+       "bCBBa",
+       "bCCAc",
+       "caaBA",
+       "cabAB",
+       "cabCB",
+       "cacBC",
+       "caBAb",
+       "caBCb",
+       "caCBc",
+       "cbbAB",
+       "cbABa",
+       "cbABB",
+       "cbACB",
+       "cbACC",
+       "cbCbA",
+       "cbCAB",
+       "cbCAC",
+       "cbCBa",
+       "cbCCA",
+       "ccaBC",
+       "ccaCB",
+       "ccBaC",
+       "ccBCa",
+       "cAbCb",
+       "cAbCC",
+       "cABaa",
+       "cABaB",
+       "cACbC",
+       "cACCb",
+       "cBaBA",
+       "cBaCB",
+       "cBcaC",
+       "cBAba",
+       "cBAbb",
+       "cBACb",
+       "cBBAb",
+       "cBCac",
+       "cBCaB",
+       "cBCba",
+       "cBCAb",
+       "AbacB",
+       "AbaBC",
+       "AbaCb",
+       "AbaCA",
+       "AbbcB",
+       "AbcaB",
+       "AbcBB",
+       "AbcBC",
+       "AbACa",
+       "AbCab",
+       "AbCbc",
+       "AcaaB",
+       "AcaBa",
+       "AcbCb",
+       "AcbCC",
+       "AcBaa",
+       "AcBaB",
+       "AAbaC",
+       "AAbCa",
+       "AACab",
+       "AACba",
+       "ABaac",
+       "ABabC",
+       "ABaca",
+       "ABacb",
+       "ABaBc",
+       "ABcaa",
+       "ABcab",
+       "ABcbb",
+       "ABcbC",
+       "ABBcb",
+       "ACabA",
+       "ACbaB",
+       "ACbcB",
+       "ACAba",
+       "ACBab",
+       "ACBcb",
+       "ACCbc",
+       "BaacA",
+       "BabbC",
+       "BabAC",
+       "BabCA",
+       "BabCB",
+       "BacbA",
+       "BacbC",
+       "BaBcb",
+       "BaBcA",
+       "BaBAc",
+       "BaCBc",
+       "BcabA",
+       "BcabC",
+       "BcbbA",
+       "BcbAB",
+       "BcbAC",
+       "BcbCA",
+       "BccaC",
+       "BcABa",
+       "BcBab",
+       "BcBaC",
+       "BcBCa",
+       "BAbac",
+       "BAbbc",
+       "BAbca",
+       "BAbcB",
+       "BAbCb",
+       "BAcaa",
+       "BAcBa",
+       "BACba",
+       "BACbb",
+       "BACbc",
+       "BBabC",
+       "BBacb",
+       "BBcab",
+       "BBcbA",
+       "BBAbc",
+       "BBCba",
+       "BCacc",
+       "BCaBc",
+       "BCbac",
+       "BCbaB",
+       "BCbba",
+       "BCbca",
+       "BCbAb",
+       "BCAba",
+       "BCAbb",
+       "BCAbc",
+       "CabAb",
+       "CabAA",
+       "CaccB",
+       "CacBc",
+       "CaBcc",
+       "CaBcB",
+       "CbacB",
+       "CbaBA",
+       "CbaBB",
+       "CbbaB",
+       "CbcaB",
+       "CbcAb",
+       "CbcAC",
+       "CbcBA",
+       "CbAba",
+       "CbAcb",
+       "CbCAc",
+       "CAbaB",
+       "CAbcB",
+       "CAcbC",
+       "CAAba",
+       "CABab",
+       "CABcb",
+       "CACbc",
+       "CBabb",
+       "CBabA",
+       "CBacb",
+       "CBacc",
+       "CBcab",
+       "CBcac",
+       "CBcbA",
+       "CBcca",
+       "CBcBa",
+       "CBBab",
+       "CCbcA",
+       "CCbAc",
+       "CCAbc",
+       "CCAcb"
+      ],
+      "volume": 5.333489566898119,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.627485922941561,
+      "identify": [
+       "s780(0,0)(0,0)",
+       "6^2_3(0,0)(0,0)",
+       "L6a1(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         2,
+         -3,
+         2
+        ],
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         2
+        ],
+        [
+         2,
+         -5,
+         4
+        ],
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         2,
+         -5,
+         4
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 3.6638623767088765,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 3.6638623767088756,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "abbbc",
+      "words": [
+       "abbbc",
+       "acbbb",
+       "bacbb",
+       "bbacb",
+       "bbbac",
+       "bbbca",
+       "bbcab",
+       "bcabb",
+       "cabbb",
+       "cbbba",
+       "ABBBC",
+       "ACBBB",
+       "BACBB",
+       "BBACB",
+       "BBBAC",
+       "BBBCA",
+       "BBCAB",
+       "BCABB",
+       "CABBB",
+       "CBBBA"
+      ],
+      "volume": 5.333489566898119,
+      "cusps": 2,
+      "H1": "Z/3 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.627485922941561,
+      "identify": [
+       "s774(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         2,
+         -5,
+         4
+        ],
+        [
+         2,
+         -3,
+         2
+        ],
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         4,
+         -3,
+         1
+        ],
+        [
+         1,
+         -1,
+         2
+        ],
+        [
+         2,
+         -3,
+         2
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aabCC",
+      "words": [
+       "aabCC",
+       "aaBCB",
+       "aaBCC",
+       "aaCbC",
+       "aaCBC",
+       "aaCCb",
+       "aaCCB",
+       "abaCC",
+       "abCaC",
+       "abCCa",
+       "abCCb",
+       "aBaCC",
+       "aBCaC",
+       "aBCBa",
+       "aBCCa",
+       "aCabC",
+       "aCaBC",
+       "aCaCb",
+       "aCaCB",
+       "aCbaC",
+       "aCbCa",
+       "aCBaC",
+       "aCBCa",
+       "aCCab",
+       "aCCaB",
+       "aCCba",
+       "aCCBa",
+       "baaCC",
+       "babCC",
+       "baCaC",
+       "baCCa",
+       "bcbAA",
+       "bccAA",
+       "bcAcA",
+       "bcAAc",
+       "bAccA",
+       "bAcAc",
+       "bAAbc",
+       "bAAcc",
+       "bCaaC",
+       "bCaCa",
+       "bCCaa",
+       "bCCba",
+       "cbcAA",
+       "cbAcA",
+       "cbAAb",
+       "cbAAc",
+       "ccbAA",
+       "ccAbA",
+       "ccAAb",
+       "ccAAB",
+       "ccABA",
+       "ccBAA",
+       "ccBAB",
+       "cAbcA",
+       "cAbAc",
+       "cAcbA",
+       "cAcAb",
+       "cAcAB",
+       "cAcBA",
+       "cAAbc",
+       "cAAcb",
+       "cAAcB",
+       "cAABc",
+       "cABcA",
+       "cABAc",
+       "cBcAA",
+       "cBAcA",
+       "cBAAc",
+       "cBABc",
+       "AbcbA",
+       "AbccA",
+       "AbcAc",
+       "AbAcc",
+       "AcbcA",
+       "AcbAc",
+       "AccbA",
+       "AccAb",
+       "AccAB",
+       "AccBA",
+       "AcAbc",
+       "AcAcb",
+       "AcAcB",
+       "AcABc",
+       "AcBcA",
+       "AcBAc",
+       "AAbcb",
+       "AAbcc",
+       "AAcbc",
+       "AAccb",
+       "AAccB",
+       "AAcBc",
+       "AABcc",
+       "ABccA",
+       "ABccB",
+       "ABcAc",
+       "ABAcc",
+       "BaaBC",
+       "BaaCC",
+       "BaCaC",
+       "BaCCa",
+       "BccAA",
+       "BccBA",
+       "BcAcA",
+       "BcAAc",
+       "BAccA",
+       "BAcAc",
+       "BAAcc",
+       "BABcc",
+       "BCaaC",
+       "BCaCa",
+       "BCBaa",
+       "BCCaa",
+       "CaabC",
+       "CaaBC",
+       "CaaCb",
+       "CaaCB",
+       "CabaC",
+       "CabCa",
+       "CaBaC",
+       "CaBCa",
+       "CaCab",
+       "CaCaB",
+       "CaCba",
+       "CaCBa",
+       "CbaaC",
+       "CbabC",
+       "CbaCa",
+       "CbCaa",
+       "CBaaB",
+       "CBaaC",
+       "CBaCa",
+       "CBCaa",
+       "CCaab",
+       "CCaaB",
+       "CCaba",
+       "CCaBa",
+       "CCbaa",
+       "CCbab",
+       "CCBaa"
+      ],
+      "volume": 5.33348956689812,
+      "cusps": 2,
+      "H1": "Z/2 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.6274859229415615,
+      "identify": [
+       "s782(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         2
+        ],
+        [
+         2,
+         1,
+         1
+        ],
+        [
+         1,
+         -1,
+         2
+        ],
+        [
+         1,
+         -3,
+         4
+        ],
+        [
+         2,
+         -3,
+         2
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 6.422426502341772,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 6.422426502341771,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "abbbC",
+      "words": [
+       "abbbC",
+       "aBBBC",
+       "aCbbb",
+       "aCBBB",
+       "baCbb",
+       "bbaCb",
+       "bbbaC",
+       "bbbcA",
+       "bbbAc",
+       "bbbCa",
+       "bbcAb",
+       "bbAcb",
+       "bbCab",
+       "bcAbb",
+       "bAcbb",
+       "bCabb",
+       "cbbbA",
+       "cAbbb",
+       "cABBB",
+       "cBBBA",
+       "Abbbc",
+       "Acbbb",
+       "AcBBB",
+       "ABBBc",
+       "BaCBB",
+       "BcABB",
+       "BAcBB",
+       "BBaCB",
+       "BBcAB",
+       "BBAcB",
+       "BBBaC",
+       "BBBcA",
+       "BBBAc",
+       "BBBCa",
+       "BBCaB",
+       "BCaBB",
+       "Cabbb",
+       "CaBBB",
+       "Cbbba",
+       "CBBBa"
+      ],
+      "volume": 5.875918082667626,
+      "cusps": 2,
+      "H1": "Z/3 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 2.894707461768973,
+      "identify": [
+       "s937(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         2,
+         -6,
+         9,
+         -8,
+         4
+        ],
+        [
+         2,
+         -6,
+         9,
+         -8,
+         4
+        ],
+        [
+         4,
+         -8,
+         9,
+         -4,
+         1
+        ],
+        [
+         1,
+         2,
+         1,
+         -4,
+         4
+        ],
+        [
+         1,
+         2,
+         1,
+         -4,
+         4
+        ],
+        [
+         2,
+         -6,
+         9,
+         -8,
+         4
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 4
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 5.137941201873418,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 5.137941201873418,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aacB",
+      "words": [
+       "aacB",
+       "aaBc",
+       "acaB",
+       "accB",
+       "acBa",
+       "acBc",
+       "aBac",
+       "aBca",
+       "aBcc",
+       "bAAC",
+       "bACA",
+       "bACC",
+       "bCAA",
+       "bCAC",
+       "bCCA",
+       "caaB",
+       "cacB",
+       "caBa",
+       "caBc",
+       "ccaB",
+       "ccBa",
+       "cBaa",
+       "cBac",
+       "cBca",
+       "AbAC",
+       "AbCA",
+       "AbCC",
+       "AAbC",
+       "AACb",
+       "ACbA",
+       "ACbC",
+       "ACAb",
+       "ACCb",
+       "Baac",
+       "Baca",
+       "Bacc",
+       "Bcaa",
+       "Bcac",
+       "Bcca",
+       "CbAA",
+       "CbAC",
+       "CbCA",
+       "CAbA",
+       "CAbC",
+       "CAAb",
+       "CACb",
+       "CCbA",
+       "CCAb"
+      ],
+      "volume": 6.290302684028292,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.0988495516900616,
+      "identify": [
+       "v3127(0,0)(0,0)",
+       "10^2_124(0,0)(0,0)",
+       "L10n49(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -3,
+         6,
+         -6,
+         4,
+         1
+        ],
+        [
+         11,
+         -80,
+         234,
+         -346,
+         261,
+         -81
+        ],
+        [
+         3,
+         -3,
+         4,
+         -4,
+         2,
+         -1
+        ],
+        [
+         11,
+         -80,
+         234,
+         -346,
+         261,
+         -81
+        ],
+        [
+         11,
+         5,
+         144,
+         210,
+         522,
+         -1
+        ],
+        [
+         1,
+         10,
+         52,
+         110,
+         81,
+         -243
+        ],
+        [
+         11,
+         -20,
+         20,
+         2,
+         -15,
+         11
+        ],
+        [
+         3,
+         -45,
+         -14,
+         -46,
+         -8,
+         -11
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 5
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 5.074708032048269,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 5.074708032048267,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "acBB",
+      "words": [
+       "acBB",
+       "aBBc",
+       "bbAC",
+       "bbCA",
+       "bACb",
+       "bCAb",
+       "caBB",
+       "cBBa",
+       "AbbC",
+       "ACbb",
+       "BacB",
+       "BcaB",
+       "BBac",
+       "BBca",
+       "CbbA",
+       "CAbb"
+      ],
+      "volume": 6.35458655720065,
+      "cusps": 2,
+      "H1": "Z/2 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.130518306210709,
+      "identify": [
+       "v3225(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -6,
+         8,
+         -4
+        ],
+        [
+         4,
+         -4,
+         2,
+         -1
+        ],
+        [
+         4,
+         -4,
+         0,
+         1
+        ],
+        [
+         4,
+         -4,
+         2,
+         -1
+        ],
+        [
+         1,
+         -3,
+         -1,
+         -1
+        ],
+        [
+         1,
+         -4,
+         8,
+         -4
+        ],
+        [
+         1,
+         -4,
+         8,
+         -4
+        ],
+        [
+         4,
+         -4,
+         2,
+         -1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 3
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 4.415332477453866,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 4.415332477453865,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aabbC",
+      "words": [
+       "aabbC",
+       "aaBBC",
+       "aaCbb",
+       "aaCBB",
+       "abbaC",
+       "abbCa",
+       "abbCC",
+       "aBBaC",
+       "aBBCa",
+       "aBBCC",
+       "aCabb",
+       "aCaBB",
+       "aCbba",
+       "aCbbC",
+       "aCBBa",
+       "aCBBC",
+       "aCCbb",
+       "aCCBB",
+       "baaCb",
+       "baCab",
+       "baCCb",
+       "bbaaC",
+       "bbaCa",
+       "bbaCC",
+       "bbccA",
+       "bbcAc",
+       "bbcAA",
+       "bbAcc",
+       "bbAcA",
+       "bbAAc",
+       "bbCaa",
+       "bbCaC",
+       "bbCCa",
+       "bccAb",
+       "bcAcb",
+       "bcAAb",
+       "bAccb",
+       "bAcAb",
+       "bAAcb",
+       "bCaab",
+       "bCaCb",
+       "bCCab",
+       "cbbcA",
+       "cbbAc",
+       "cbbAA",
+       "ccbbA",
+       "ccAbb",
+       "ccABB",
+       "ccBBA",
+       "cAbbc",
+       "cAbbA",
+       "cAcbb",
+       "cAcBB",
+       "cAAbb",
+       "cAABB",
+       "cABBc",
+       "cABBA",
+       "cBBcA",
+       "cBBAc",
+       "cBBAA",
+       "Abbcc",
+       "AbbcA",
+       "AbbAc",
+       "Acbbc",
+       "AcbbA",
+       "Accbb",
+       "AccBB",
+       "AcAbb",
+       "AcABB",
+       "AcBBc",
+       "AcBBA",
+       "AAbbc",
+       "AAcbb",
+       "AAcBB",
+       "AABBc",
+       "ABBcc",
+       "ABBcA",
+       "ABBAc",
+       "BaaCB",
+       "BaCaB",
+       "BaCCB",
+       "BccAB",
+       "BcAcB",
+       "BcAAB",
+       "BAccB",
+       "BAcAB",
+       "BAAcB",
+       "BBaaC",
+       "BBaCa",
+       "BBaCC",
+       "BBccA",
+       "BBcAc",
+       "BBcAA",
+       "BBAcc",
+       "BBAcA",
+       "BBAAc",
+       "BBCaa",
+       "BBCaC",
+       "BBCCa",
+       "BCaaB",
+       "BCaCB",
+       "BCCaB",
+       "Caabb",
+       "CaaBB",
+       "Cabba",
+       "CabbC",
+       "CaBBa",
+       "CaBBC",
+       "CaCbb",
+       "CaCBB",
+       "Cbbaa",
+       "CbbaC",
+       "CbbCa",
+       "CBBaa",
+       "CBBaC",
+       "CBBCa",
+       "CCabb",
+       "CCaBB",
+       "CCbba",
+       "CCBBa"
+      ],
+      "volume": 6.4224265023417715,
+      "cusps": 2,
+      "H1": "Z/2 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.163938921107513,
+      "identify": [
+       "v3292(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -5,
+         6,
+         -4
+        ],
+        [
+         1,
+         6,
+         -7,
+         4
+        ],
+        [
+         4,
+         -2,
+         -1,
+         1
+        ],
+        [
+         1,
+         -5,
+         6,
+         -4
+        ],
+        [
+         1,
+         -2,
+         -1,
+         -2
+        ],
+        [
+         2,
+         -1,
+         2,
+         1
+        ],
+        [
+         4,
+         -6,
+         5,
+         -2
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 3
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 6.4224265023417715,
+      "vs_mirror_word": {
+       "isometries": 4,
+       "orientation_preserving": 0,
+       "orientation_reversing": 4
+      },
+      "mirror_volume": 6.4224265023417715,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "abCbC",
+      "words": [
+       "abCbC",
+       "aBaBC",
+       "aBaCB",
+       "aBCaB",
+       "aCbCb",
+       "aCBaB",
+       "baCbC",
+       "bcAbA",
+       "bAbcA",
+       "bAbAc",
+       "bAcbA",
+       "bCabC",
+       "bCbaC",
+       "bCbCa",
+       "cbAbA",
+       "cAbAb",
+       "cABcB",
+       "cBcAB",
+       "cBcBA",
+       "cBAcB",
+       "AbcAb",
+       "AbAbc",
+       "AbAcb",
+       "AcbAb",
+       "AcBcB",
+       "ABcBc",
+       "BaBaC",
+       "BaBCa",
+       "BaCBa",
+       "BcABc",
+       "BcBcA",
+       "BcBAc",
+       "BAcBc",
+       "BCaBa",
+       "CabCb",
+       "CaBaB",
+       "CbaCb",
+       "CbCab",
+       "CbCba",
+       "CBaBa"
+      ],
+      "volume": 6.637443563091125,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.2698647494465316,
+      "identify": [
+       "v3450(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         16,
+         -89,
+         169,
+         -216,
+         144,
+         -64
+        ],
+        [
+         1,
+         4,
+         8,
+         34,
+         -9,
+         90
+        ],
+        [
+         1,
+         -8,
+         27,
+         -51,
+         54,
+         -32
+        ],
+        [
+         32,
+         -106,
+         155,
+         -122,
+         51,
+         -9
+        ],
+        [
+         1,
+         2,
+         9,
+         25,
+         -1,
+         64
+        ],
+        [
+         128,
+         -104,
+         92,
+         -34,
+         9,
+         -1
+        ],
+        [
+         4,
+         3,
+         -19,
+         -36,
+         -32,
+         -64
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 5
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 5.333489566898123,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 5.333489566898121,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "acBBB",
+      "words": [
+       "acBBB",
+       "aBBBc",
+       "bbbAC",
+       "bbbCA",
+       "bbACb",
+       "bbCAb",
+       "bACbb",
+       "bCAbb",
+       "caBBB",
+       "cBBBa",
+       "AbbbC",
+       "ACbbb",
+       "BacBB",
+       "BcaBB",
+       "BBacB",
+       "BBcaB",
+       "BBBac",
+       "BBBca",
+       "CbbbA",
+       "CAbbb"
+      ],
+      "volume": 6.755194816462885,
+      "cusps": 2,
+      "H1": "Z/3 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.3278736302669287,
+      "identify": [
+       "t09759(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -1,
+         8,
+         -12,
+         16
+        ],
+        [
+         16,
+         -52,
+         68,
+         -43,
+         12
+        ],
+        [
+         2,
+         -13,
+         34,
+         -43,
+         24
+        ],
+        [
+         24,
+         -53,
+         49,
+         -22,
+         4
+        ],
+        [
+         2,
+         -1,
+         4,
+         -3,
+         2
+        ],
+        [
+         2,
+         -5,
+         7,
+         -6,
+         4
+        ],
+        [
+         1,
+         -8,
+         30,
+         -31,
+         72
+        ],
+        [
+         36,
+         -49,
+         28,
+         -8,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 4
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 4.751701965517898,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 4.751701965517898,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaacB",
+      "words": [
+       "aaacB",
+       "aaaBc",
+       "aacaB",
+       "aacBa",
+       "aaBac",
+       "aaBca",
+       "acaaB",
+       "acaBa",
+       "acccB",
+       "accBc",
+       "acBaa",
+       "acBcc",
+       "aBaac",
+       "aBaca",
+       "aBcaa",
+       "aBccc",
+       "bAAAC",
+       "bAACA",
+       "bACAA",
+       "bACCC",
+       "bCAAA",
+       "bCACC",
+       "bCCAC",
+       "bCCCA",
+       "caaaB",
+       "caaBa",
+       "caccB",
+       "cacBc",
+       "caBaa",
+       "caBcc",
+       "ccacB",
+       "ccaBc",
+       "cccaB",
+       "cccBa",
+       "ccBac",
+       "ccBca",
+       "cBaaa",
+       "cBacc",
+       "cBcac",
+       "cBcca",
+       "AbAAC",
+       "AbACA",
+       "AbCAA",
+       "AbCCC",
+       "AAbAC",
+       "AAbCA",
+       "AAAbC",
+       "AAACb",
+       "AACbA",
+       "AACAb",
+       "ACbAA",
+       "ACbCC",
+       "ACAbA",
+       "ACAAb",
+       "ACCbC",
+       "ACCCb",
+       "Baaac",
+       "Baaca",
+       "Bacaa",
+       "Baccc",
+       "Bcaaa",
+       "Bcacc",
+       "Bccac",
+       "Bccca",
+       "CbAAA",
+       "CbACC",
+       "CbCAC",
+       "CbCCA",
+       "CAbAA",
+       "CAbCC",
+       "CAAbA",
+       "CAAAb",
+       "CACbC",
+       "CACCb",
+       "CCbAC",
+       "CCbCA",
+       "CCAbC",
+       "CCACb",
+       "CCCbA",
+       "CCCAb"
+      ],
+      "volume": 6.770816780739824,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.33556962192708,
+      "identify": [
+       "t09857(0,0)(0,0)",
+       "L12n1039(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         20,
+         -62,
+         -87,
+         -8,
+         922,
+         -98,
+         1
+        ],
+        [
+         64,
+         -320,
+         704,
+         -668,
+         229,
+         24,
+         -13
+        ],
+        [
+         172,
+         -492,
+         4,
+         1284,
+         -1465,
+         478,
+         20
+        ],
+        [
+         20,
+         -154,
+         493,
+         -842,
+         810,
+         -414,
+         86
+        ],
+        [
+         1,
+         2,
+         -2,
+         -10,
+         -23,
+         -34,
+         -20
+        ],
+        [
+         4,
+         36,
+         -56,
+         68,
+         -47,
+         28,
+         -13
+        ],
+        [
+         16,
+         32,
+         -40,
+         24,
+         65,
+         52,
+         20
+        ],
+        [
+         1,
+         -3,
+         7,
+         -8,
+         7,
+         -1,
+         -1
+        ],
+        [
+         2,
+         -8,
+         10,
+         -10,
+         7,
+         -3,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 6
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 5.875918082667625,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 5.875918082667624,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aBcB",
+      "words": [
+       "aBcB",
+       "bAbC",
+       "bCbA",
+       "cBaB",
+       "AbCb",
+       "BaBc",
+       "BcBa",
+       "CbAb"
+      ],
+      "volume": 7.327724753417753,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.609924308522295,
+      "identify": [
+       "t12055(0,0)(0,0)",
+       "ooct02_00004(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 4.415332477453866,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 4.415332477453865,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaccB",
+      "words": [
+       "aaccB",
+       "aacBc",
+       "aaBcc",
+       "acacB",
+       "acaBc",
+       "accaB",
+       "accBa",
+       "acBac",
+       "acBca",
+       "aBacc",
+       "aBcac",
+       "aBcca",
+       "bAACC",
+       "bACAC",
+       "bACCA",
+       "bCAAC",
+       "bCACA",
+       "bCCAA",
+       "caacB",
+       "caaBc",
+       "cacaB",
+       "cacBa",
+       "caBac",
+       "caBca",
+       "ccaaB",
+       "ccaBa",
+       "ccBaa",
+       "cBaac",
+       "cBaca",
+       "cBcaa",
+       "AbACC",
+       "AbCAC",
+       "AbCCA",
+       "AAbCC",
+       "AACbC",
+       "AACCb",
+       "ACbAC",
+       "ACbCA",
+       "ACAbC",
+       "ACACb",
+       "ACCbA",
+       "ACCAb",
+       "Baacc",
+       "Bacac",
+       "Bacca",
+       "Bcaac",
+       "Bcaca",
+       "Bccaa",
+       "CbAAC",
+       "CbACA",
+       "CbCAA",
+       "CAbAC",
+       "CAbCA",
+       "CAAbC",
+       "CAACb",
+       "CACbA",
+       "CACAb",
+       "CCbAA",
+       "CCAbA",
+       "CCAAb"
+      ],
+      "volume": 7.327724753417753,
+      "cusps": 2,
+      "H1": "Z/2 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.609924308522295,
+      "identify": [
+       "t12037(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         -2,
+         2
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 6.4224265023417715,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 6.422426502341772,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aacBB",
+      "words": [
+       "aacBB",
+       "aaBBc",
+       "acaBB",
+       "accBB",
+       "acBBa",
+       "acBBc",
+       "aBBac",
+       "aBBca",
+       "aBBcc",
+       "bbAAC",
+       "bbACA",
+       "bbACC",
+       "bbCAA",
+       "bbCAC",
+       "bbCCA",
+       "bAACb",
+       "bACAb",
+       "bACCb",
+       "bCAAb",
+       "bCACb",
+       "bCCAb",
+       "caaBB",
+       "cacBB",
+       "caBBa",
+       "caBBc",
+       "ccaBB",
+       "ccBBa",
+       "cBBaa",
+       "cBBac",
+       "cBBca",
+       "AbbAC",
+       "AbbCA",
+       "AbbCC",
+       "AAbbC",
+       "AACbb",
+       "ACbbA",
+       "ACbbC",
+       "ACAbb",
+       "ACCbb",
+       "BaacB",
+       "BacaB",
+       "BaccB",
+       "BcaaB",
+       "BcacB",
+       "BccaB",
+       "BBaac",
+       "BBaca",
+       "BBacc",
+       "BBcaa",
+       "BBcac",
+       "BBcca",
+       "CbbAA",
+       "CbbAC",
+       "CbbCA",
+       "CAbbA",
+       "CAbbC",
+       "CAAbb",
+       "CACbb",
+       "CCbbA",
+       "CCAbb"
+      ],
+      "volume": 7.602324788790107,
+      "cusps": 2,
+      "H1": "Z/2 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.7452030445787217,
+      "identify": [
+       "o9_35257(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         8,
+         -24,
+         32,
+         -27,
+         9,
+         -1
+        ],
+        [
+         1,
+         -6,
+         16,
+         -27,
+         18,
+         -4
+        ],
+        [
+         4,
+         -2,
+         -5,
+         3,
+         3,
+         -2
+        ],
+        [
+         1,
+         7,
+         10,
+         15,
+         19,
+         12
+        ],
+        [
+         12,
+         -19,
+         15,
+         -10,
+         7,
+         -1
+        ],
+        [
+         16,
+         -88,
+         200,
+         -242,
+         149,
+         -36
+        ],
+        [
+         12,
+         -19,
+         15,
+         -10,
+         7,
+         -1
+        ],
+        [
+         4,
+         18,
+         27,
+         16,
+         6,
+         1
+        ],
+        [
+         12,
+         -10,
+         -5,
+         8,
+         -4,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 5
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 6.422426502341772,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 6.4224265023417715,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aBcBB",
+      "words": [
+       "aBcBB",
+       "aBBcB",
+       "bbAbC",
+       "bbCbA",
+       "bAbbC",
+       "bAbCb",
+       "bCbbA",
+       "bCbAb",
+       "cBaBB",
+       "cBBaB",
+       "AbbCb",
+       "AbCbb",
+       "BaBcB",
+       "BaBBc",
+       "BcBaB",
+       "BcBBa",
+       "BBaBc",
+       "BBcBa",
+       "CbbAb",
+       "CbAbb"
+      ],
+      "volume": 8.087973788626373,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.984452769276798,
+      "identify": [
+       "o9_40722(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         2,
+         -3,
+         -1,
+         8,
+         -4
+        ],
+        [
+         2,
+         -5,
+         2,
+         -5,
+         2
+        ],
+        [
+         2,
+         -13,
+         29,
+         -32,
+         16
+        ],
+        [
+         16,
+         -32,
+         29,
+         -13,
+         2
+        ],
+        [
+         1,
+         -13,
+         40,
+         -52,
+         16
+        ],
+        [
+         4,
+         -16,
+         29,
+         -26,
+         8
+        ],
+        [
+         8,
+         -39,
+         62,
+         -48,
+         16
+        ],
+        [
+         1,
+         -9,
+         7,
+         -7,
+         -8
+        ],
+        [
+         8,
+         -6,
+         -1,
+         4,
+         -1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 4
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 4.751701965517899,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 4.751701965517899,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "acBaB",
+      "words": [
+       "acBaB",
+       "acBcB",
+       "aBacB",
+       "aBaBc",
+       "aBcaB",
+       "aBcBc",
+       "bAbAC",
+       "bAbCA",
+       "bACbA",
+       "bACbC",
+       "bCbAC",
+       "bCbCA",
+       "bCAbA",
+       "bCAbC",
+       "caBaB",
+       "caBcB",
+       "cBacB",
+       "cBaBa",
+       "cBcaB",
+       "cBcBa",
+       "AbAbC",
+       "AbACb",
+       "AbCbC",
+       "AbCAb",
+       "ACbAb",
+       "ACbCb",
+       "BacBa",
+       "BacBc",
+       "BaBac",
+       "BaBca",
+       "BcaBa",
+       "BcaBc",
+       "BcBac",
+       "BcBca",
+       "CbAbA",
+       "CbACb",
+       "CbCbA",
+       "CbCAb",
+       "CAbAb",
+       "CAbCb"
+      ],
+      "volume": 8.69767020758614,
+      "cusps": 2,
+      "H1": "Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 4.284813112723828,
+      "identify": [
+       "o10_130613(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": null
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 6.637443563091124,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 6.637443563091124,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaBcB",
+      "words": [
+       "aaBcB",
+       "aBccB",
+       "aBcBa",
+       "bAbCC",
+       "bAAbC",
+       "bCbAA",
+       "bCCbA",
+       "ccBaB",
+       "cBaaB",
+       "cBaBc",
+       "AbCbA",
+       "AbCCb",
+       "AAbCb",
+       "BaaBc",
+       "BaBcc",
+       "BccBa",
+       "BcBaa",
+       "CbAbC",
+       "CbAAb",
+       "CCbAb"
+      ],
+      "volume": 8.778658803173823,
+      "cusps": 2,
+      "H1": "Z/2 + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 4.324711267985281,
+      "identify": [
+       "o10_133625(0,0)(0,0)"
+      ],
+      "sym_order": 4,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         4,
+         -16,
+         28,
+         -23,
+         4,
+         4
+        ],
+        [
+         16,
+         -16,
+         12,
+         -4,
+         -6,
+         -1
+        ],
+        [
+         4,
+         4,
+         4,
+         5,
+         -2,
+         1
+        ],
+        [
+         2,
+         0,
+         -1,
+         -3,
+         -1,
+         -1
+        ],
+        [
+         8,
+         -4,
+         7,
+         8,
+         24,
+         -44
+        ],
+        [
+         44,
+         -148,
+         184,
+         -109,
+         32,
+         -4
+        ],
+        [
+         2,
+         -10,
+         19,
+         -20,
+         12,
+         -4
+        ],
+        [
+         44,
+         -188,
+         370,
+         -401,
+         240,
+         -64
+        ],
+        [
+         32,
+         -104,
+         123,
+         -14,
+         -80,
+         44
+        ],
+        [
+         4,
+         -16,
+         28,
+         -23,
+         4,
+         4
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 5
+      },
+      "self_isometries": {
+       "isometries": 4,
+       "orientation_preserving": 4,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 4,
+        "orientation_preserving": 0,
+        "orientation_reversing": 4
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 6.4224265023417715,
+      "vs_mirror_word": {
+       "isometries": 0,
+       "orientation_preserving": 0,
+       "orientation_reversing": 0
+      },
+      "mirror_volume": 6.422426502341772,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     }
+    ],
+    "seconds": 46.0
+   },
+   "S_0_4": {
+    "words_tried": 1360,
+    "hyperbolic_bundles": 400,
+    "non_hyperbolic_or_degenerate": 80,
+    "errors": 0,
+    "distinct_isometry_classes": 14,
+    "classes": [
+     {
+      "word": "aB",
+      "words": [
+       "aB",
+       "bA",
+       "Ab",
+       "Ba",
+       "aab",
+       "aba",
+       "abb",
+       "baa",
+       "bab",
+       "bba",
+       "AAB",
+       "ABA",
+       "ABB",
+       "BAA",
+       "BAB",
+       "BBA",
+       "aaBA",
+       "abAA",
+       "baBB",
+       "bbAB",
+       "AAba",
+       "ABaa",
+       "BAbb",
+       "BBab",
+       "aaabA",
+       "aabbA",
+       "ababA",
+       "aBAAA",
+       "aBABA",
+       "aBBAA",
+       "babaB",
+       "bbaaB",
+       "bbbaB",
+       "bAABB",
+       "bABAB",
+       "bABBB",
+       "Abaaa",
+       "Ababa",
+       "Abbaa",
+       "AAABa",
+       "AABBa",
+       "ABABa",
+       "Baabb",
+       "Babab",
+       "Babbb",
+       "BABAb",
+       "BBAAb",
+       "BBBAb"
+      ],
+      "volume": 7.327724753417753,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 3.609924308522295,
+      "identify": [
+       "t12047(0,0)(0,0)(0,0)(0,0)",
+       "8^4_2(0,0)(0,0)(0,0)(0,0)",
+       "L8n7(0,0)(0,0)(0,0)(0,0)",
+       "ooct02_00001(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 64,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         2,
+         -2,
+         1
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 64,
+       "orientation_preserving": 32,
+       "orientation_reversing": 32
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 64,
+        "orientation_preserving": 32,
+        "orientation_reversing": 32
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 64,
+       "orientation_preserving": 32,
+       "orientation_reversing": 32
+      },
+      "swap_volume": 7.327724753417753,
+      "vs_mirror_word": {
+       "isometries": 64,
+       "orientation_preserving": 32,
+       "orientation_reversing": 32
+      },
+      "mirror_volume": 7.327724753417753,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaB",
+      "words": [
+       "aaB",
+       "aBa",
+       "aBB",
+       "bbA",
+       "bAb",
+       "bAA",
+       "Abb",
+       "AbA",
+       "AAb",
+       "Baa",
+       "BaB",
+       "BBa",
+       "aaab",
+       "aaba",
+       "abaa",
+       "abbb",
+       "baaa",
+       "babb",
+       "bbab",
+       "bbba",
+       "AAAB",
+       "AABA",
+       "ABAA",
+       "ABBB",
+       "BAAA",
+       "BABB",
+       "BBAB",
+       "BBBA",
+       "aaaBA",
+       "aabab",
+       "aaBBA",
+       "abaab",
+       "ababa",
+       "ababb",
+       "abbab",
+       "abbAA",
+       "abAbA",
+       "abAAA",
+       "aBaBA",
+       "baaba",
+       "baaBB",
+       "babaa",
+       "babab",
+       "babba",
+       "baBaB",
+       "baBBB",
+       "bbaba",
+       "bbbAB",
+       "bbAAB",
+       "bAbAB",
+       "AbAba",
+       "AAbba",
+       "AAAba",
+       "AABAB",
+       "ABaaa",
+       "ABaBa",
+       "ABAAB",
+       "ABABA",
+       "ABABB",
+       "ABBaa",
+       "ABBAB",
+       "BaBab",
+       "BAbbb",
+       "BAbAb",
+       "BAAbb",
+       "BAABA",
+       "BABAA",
+       "BABAB",
+       "BABBA",
+       "BBaab",
+       "BBABA",
+       "BBBab"
+      ],
+      "volume": 8.929317823097362,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 4.398931803911724,
+      "identify": [
+       "o9_44206(0,0)(0,0)(0,0)(0,0)",
+       "10^4_23(0,0)(0,0)(0,0)(0,0)",
+       "L10n98(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -4,
+         5,
+         -4
+        ],
+        [
+         4,
+         -7,
+         6,
+         -2
+        ],
+        [
+         2,
+         0,
+         1,
+         1
+        ],
+        [
+         1,
+         -4,
+         5,
+         -4
+        ],
+        [
+         16,
+         -7,
+         6,
+         1
+        ],
+        [
+         1,
+         -4,
+         5,
+         -4
+        ],
+        [
+         4,
+         -7,
+         6,
+         -2
+        ],
+        [
+         4,
+         -7,
+         6,
+         -2
+        ],
+        [
+         1,
+         -4,
+         5,
+         -4
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 3
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 8.929317823097362,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 8.929317823097362,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaaB",
+      "words": [
+       "aaaB",
+       "aaBa",
+       "aBaa",
+       "aBBB",
+       "bbbA",
+       "bbAb",
+       "bAbb",
+       "bAAA",
+       "Abbb",
+       "AbAA",
+       "AAbA",
+       "AAAb",
+       "Baaa",
+       "BaBB",
+       "BBaB",
+       "BBBa",
+       "aaaab",
+       "aaaba",
+       "aabaa",
+       "abaaa",
+       "abbbb",
+       "baaaa",
+       "babbb",
+       "bbabb",
+       "bbbab",
+       "bbbba",
+       "AAAAB",
+       "AAABA",
+       "AABAA",
+       "ABAAA",
+       "ABBBB",
+       "BAAAA",
+       "BABBB",
+       "BBABB",
+       "BBBAB",
+       "BBBBA"
+      ],
+      "volume": 9.491889686649433,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 4.676076745058714,
+      "identify": [
+       "o10_148924(0,0)(0,0)(0,0)(0,0)",
+       "L12n2027(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         8,
+         -20,
+         24,
+         -15,
+         4
+        ],
+        [
+         4,
+         -1,
+         3,
+         1,
+         1
+        ],
+        [
+         8,
+         12,
+         12,
+         5,
+         1
+        ],
+        [
+         8,
+         12,
+         12,
+         5,
+         1
+        ],
+        [
+         2,
+         -1,
+         6,
+         4,
+         8
+        ],
+        [
+         8,
+         -36,
+         66,
+         -55,
+         19
+        ],
+        [
+         19,
+         -21,
+         15,
+         -7,
+         2
+        ],
+        [
+         8,
+         -36,
+         66,
+         -55,
+         19
+        ],
+        [
+         8,
+         -32,
+         34,
+         5,
+         4
+        ],
+        [
+         8,
+         -32,
+         34,
+         5,
+         4
+        ],
+        [
+         1,
+         5,
+         5,
+         -5,
+         2
+        ],
+        [
+         8,
+         -24,
+         26,
+         -9,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 4
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 9.491889686649431,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 9.491889686649428,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaaaB",
+      "words": [
+       "aaaaB",
+       "aaaBa",
+       "aaBaa",
+       "aBaaa",
+       "aBBBB",
+       "bbbbA",
+       "bbbAb",
+       "bbAbb",
+       "bAbbb",
+       "bAAAA",
+       "Abbbb",
+       "AbAAA",
+       "AAbAA",
+       "AAAbA",
+       "AAAAb",
+       "Baaaa",
+       "BaBBB",
+       "BBaBB",
+       "BBBaB",
+       "BBBBa"
+      ],
+      "volume": 9.742365783360718,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 4.799471083772122,
+      "identify": [
+       "L14n59351(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         8,
+         -4,
+         8,
+         1,
+         2,
+         1
+        ],
+        [
+         16,
+         -52,
+         81,
+         -72,
+         36,
+         -8
+        ],
+        [
+         1,
+         -7,
+         19,
+         -33,
+         28,
+         -16
+        ],
+        [
+         8,
+         -4,
+         8,
+         1,
+         2,
+         1
+        ],
+        [
+         8,
+         -4,
+         8,
+         1,
+         2,
+         1
+        ],
+        [
+         1,
+         -7,
+         19,
+         -33,
+         28,
+         -16
+        ],
+        [
+         8,
+         -4,
+         8,
+         1,
+         2,
+         1
+        ],
+        [
+         16,
+         -52,
+         81,
+         -72,
+         36,
+         -8
+        ],
+        [
+         625,
+         -2975,
+         5695,
+         -5456,
+         2624,
+         -512
+        ],
+        [
+         1,
+         -11,
+         41,
+         -72,
+         80,
+         -64
+        ],
+        [
+         1,
+         -82,
+         881,
+         -2336,
+         -768,
+         -4096
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 5
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 9.742365783360722,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 9.74236578336072,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aabb",
+      "words": [
+       "aabb",
+       "abaB",
+       "abba",
+       "abAb",
+       "aBab",
+       "aBAB",
+       "baab",
+       "babA",
+       "baBa",
+       "bbaa",
+       "bAba",
+       "bABA",
+       "Abab",
+       "AbAB",
+       "AABB",
+       "ABaB",
+       "ABAb",
+       "ABBA",
+       "Baba",
+       "BaBA",
+       "BAbA",
+       "BAAB",
+       "BABa",
+       "BBAA"
+      ],
+      "volume": 10.666979133796238,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 5.254971845883122,
+      "identify": [
+       "L12n2205(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 16,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         2,
+         1,
+         1
+        ],
+        [
+         1,
+         -1,
+         2
+        ],
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         4,
+         -3,
+         1
+        ],
+        [
+         1,
+         1,
+         2
+        ],
+        [
+         1,
+         -1,
+         2
+        ],
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         2,
+         1,
+         1
+        ],
+        [
+         2,
+         -3,
+         2
+        ],
+        [
+         1,
+         -1,
+         2
+        ],
+        [
+         2,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         2
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 16,
+       "orientation_preserving": 16,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 16,
+        "orientation_preserving": 0,
+        "orientation_reversing": 16
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 16,
+       "orientation_preserving": 16,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 10.666979133796236,
+      "vs_mirror_word": {
+       "isometries": 16,
+       "orientation_preserving": 0,
+       "orientation_reversing": 16
+      },
+      "mirror_volume": 10.66697913379624,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaBB",
+      "words": [
+       "aaBB",
+       "aBBa",
+       "bbAA",
+       "bAAb",
+       "AbbA",
+       "AAbb",
+       "BaaB",
+       "BBaa"
+      ],
+      "volume": 11.147218225662272,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 5.4915564379587565,
+      "identify": [
+       "L14n62805(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 16,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         4,
+         -4,
+         -3,
+         36,
+         -16
+        ],
+        [
+         4,
+         -20,
+         25,
+         -34,
+         17
+        ],
+        [
+         17,
+         -51,
+         26,
+         -7,
+         -1
+        ],
+        [
+         1,
+         0,
+         1,
+         0,
+         -4
+        ],
+        [
+         1,
+         -4,
+         5,
+         -2,
+         -4
+        ],
+        [
+         4,
+         -18,
+         25,
+         -16,
+         4
+        ],
+        [
+         4,
+         2,
+         3,
+         6,
+         2
+        ],
+        [
+         16,
+         44,
+         1,
+         6,
+         1
+        ],
+        [
+         4,
+         -18,
+         25,
+         -16,
+         4
+        ],
+        [
+         1,
+         -4,
+         5,
+         -2,
+         -4
+        ],
+        [
+         1,
+         -8,
+         23,
+         -28,
+         8
+        ],
+        [
+         1,
+         -4,
+         5,
+         -2,
+         -4
+        ],
+        [
+         4,
+         0,
+         1,
+         0,
+         -1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 4
+      },
+      "self_isometries": {
+       "isometries": 16,
+       "orientation_preserving": 8,
+       "orientation_reversing": 8
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 16,
+        "orientation_preserving": 8,
+        "orientation_reversing": 8
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 16,
+       "orientation_preserving": 8,
+       "orientation_reversing": 8
+      },
+      "swap_volume": 11.147218225662273,
+      "vs_mirror_word": {
+       "isometries": 16,
+       "orientation_preserving": 8,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 11.147218225662273,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaabb",
+      "words": [
+       "aaabb",
+       "aabba",
+       "aabbb",
+       "aaBAB",
+       "abaBB",
+       "abbaa",
+       "abbba",
+       "abAAb",
+       "aBABa",
+       "aBBab",
+       "baaab",
+       "baabb",
+       "babAA",
+       "baBBa",
+       "bbaaa",
+       "bbaab",
+       "bbbaa",
+       "bbABA",
+       "bAAba",
+       "bABAb",
+       "AbabA",
+       "AbbAB",
+       "AAbab",
+       "AAABB",
+       "AABBA",
+       "AABBB",
+       "ABaaB",
+       "ABAbb",
+       "ABBAA",
+       "ABBBA",
+       "BaaBA",
+       "BabaB",
+       "BAbbA",
+       "BAAAB",
+       "BAABB",
+       "BABaa",
+       "BBaba",
+       "BBAAA",
+       "BBAAB",
+       "BBBAA"
+      ],
+      "volume": 11.73289069867249,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 5.780081644390104,
+      "identify": [
+       "L14n63020(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         23,
+         -151,
+         411,
+         -580,
+         424,
+         -128
+        ],
+        [
+         8,
+         -44,
+         102,
+         -123,
+         79,
+         -23
+        ],
+        [
+         32,
+         -191,
+         457,
+         -567,
+         360,
+         -92
+        ],
+        [
+         8,
+         -44,
+         102,
+         -123,
+         79,
+         -23
+        ],
+        [
+         1,
+         -11,
+         51,
+         -123,
+         158,
+         -92
+        ],
+        [
+         92,
+         -302,
+         411,
+         -290,
+         106,
+         -16
+        ],
+        [
+         1,
+         8,
+         23,
+         37,
+         36,
+         23
+        ],
+        [
+         92,
+         -100,
+         47,
+         -4,
+         -2,
+         -1
+        ],
+        [
+         16,
+         -54,
+         82,
+         -65,
+         26,
+         -4
+        ],
+        [
+         1,
+         3,
+         1,
+         6,
+         4,
+         8
+        ],
+        [
+         4,
+         6,
+         1,
+         3,
+         1,
+         1
+        ],
+        [
+         23,
+         -36,
+         37,
+         -23,
+         8,
+         -1
+        ],
+        [
+         1,
+         -12,
+         60,
+         -105,
+         104,
+         -16
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 5
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 11.732890698672486,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 11.732890698672488,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaaBB",
+      "words": [
+       "aaaBB",
+       "aaBBa",
+       "aaBBB",
+       "aBBaa",
+       "aBBBa",
+       "bbbAA",
+       "bbAAb",
+       "bbAAA",
+       "bAAbb",
+       "bAAAb",
+       "AbbbA",
+       "AbbAA",
+       "AAbbb",
+       "AAbbA",
+       "AAAbb",
+       "BaaaB",
+       "BaaBB",
+       "BBaaa",
+       "BBaaB",
+       "BBBaa"
+      ],
+      "volume": 11.916241673264595,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 5.870407518033568,
+      "identify": [],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         4,
+         -8,
+         -23,
+         17,
+         -19,
+         -2,
+         -1
+        ],
+        [
+         40,
+         -48,
+         42,
+         -31,
+         19,
+         -7,
+         1
+        ],
+        [
+         40,
+         -48,
+         42,
+         -31,
+         19,
+         -7,
+         1
+        ],
+        [
+         5,
+         -52,
+         205,
+         -382,
+         352,
+         -168,
+         32
+        ],
+        [
+         1,
+         -14,
+         99,
+         -375,
+         777,
+         -856,
+         400
+        ],
+        [
+         1,
+         1,
+         -1,
+         5,
+         8,
+         10,
+         16
+        ],
+        [
+         40,
+         -48,
+         42,
+         -31,
+         19,
+         -7,
+         1
+        ],
+        [
+         4,
+         4,
+         -7,
+         -11,
+         -22,
+         0,
+         -8
+        ],
+        [
+         5,
+         27,
+         34,
+         38,
+         28,
+         16,
+         16
+        ],
+        [
+         1,
+         -3,
+         -4,
+         1,
+         18,
+         20,
+         8
+        ],
+        [
+         1,
+         11,
+         -12,
+         -73,
+         386,
+         -454,
+         205
+        ],
+        [
+         41,
+         -137,
+         231,
+         -193,
+         126,
+         -56,
+         8
+        ],
+        [
+         1,
+         -5,
+         9,
+         -1,
+         -8,
+         12,
+         8
+        ],
+        [
+         8,
+         -60,
+         172,
+         -247,
+         198,
+         -86,
+         16
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 6
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 11.916241673264594,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 11.916241673264592,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "abAB",
+      "words": [
+       "abAB",
+       "aBAb",
+       "baBA",
+       "bABa",
+       "AbaB",
+       "ABab",
+       "BabA",
+       "BAba"
+      ],
+      "volume": 12.179299276915838,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 5.999999999999997,
+      "identify": [
+       "L12n2208(0,0)(0,0)(0,0)(0,0)",
+       "otet12_00009(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 48,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         3,
+         -6,
+         4
+        ],
+        [
+         3,
+         0,
+         1
+        ],
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         3,
+         -6,
+         4
+        ],
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         3,
+         -3,
+         1
+        ],
+        [
+         3,
+         -3,
+         1
+        ],
+        [
+         3,
+         -6,
+         4
+        ],
+        [
+         4,
+         -2,
+         1
+        ],
+        [
+         4,
+         -6,
+         3
+        ],
+        [
+         4,
+         -6,
+         3
+        ],
+        [
+         1,
+         -2,
+         4
+        ],
+        [
+         1,
+         -1,
+         1
+        ],
+        [
+         1,
+         -1,
+         1
+        ]
+       ],
+       "all_in_Q(sqrt-3)": true,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 48,
+       "orientation_preserving": 24,
+       "orientation_reversing": 24
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 48,
+        "orientation_preserving": 24,
+        "orientation_reversing": 24
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 48,
+       "orientation_preserving": 24,
+       "orientation_reversing": 24
+      },
+      "swap_volume": 12.179299276915843,
+      "vs_mirror_word": {
+       "isometries": 48,
+       "orientation_preserving": 24,
+       "orientation_reversing": 24
+      },
+      "mirror_volume": 12.179299276915838,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aabaB",
+      "words": [
+       "aabaB",
+       "aaBab",
+       "abaaB",
+       "abaBa",
+       "abbAb",
+       "abAbb",
+       "aBaab",
+       "aBaba",
+       "aBABB",
+       "aBBAB",
+       "baaBa",
+       "babbA",
+       "babAb",
+       "baBaa",
+       "bbabA",
+       "bbAba",
+       "bAbab",
+       "bAbba",
+       "bAABA",
+       "bABAA",
+       "Ababb",
+       "Abbab",
+       "AbAAB",
+       "AbABA",
+       "AAbAB",
+       "AABAb",
+       "ABaBB",
+       "ABAbA",
+       "ABAAb",
+       "ABBaB",
+       "Baaba",
+       "Babaa",
+       "BaBAB",
+       "BaBBA",
+       "BAbAA",
+       "BAAbA",
+       "BABaB",
+       "BABBa",
+       "BBaBA",
+       "BBABa"
+      ],
+      "volume": 13.903678016858205,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 6.849496527215163,
+      "identify": [
+       "L14n62990(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         4,
+         -6,
+         1,
+         -2,
+         1,
+         -1
+        ],
+        [
+         1,
+         -12,
+         45,
+         -85,
+         92,
+         -56,
+         16
+        ],
+        [
+         16,
+         -40,
+         52,
+         -43,
+         22,
+         -7,
+         1
+        ],
+        [
+         1,
+         -6,
+         0,
+         -5,
+         2,
+         -1,
+         1
+        ],
+        [
+         1,
+         -6,
+         0,
+         -5,
+         2,
+         -1,
+         1
+        ],
+        [
+         4,
+         -8,
+         0,
+         13,
+         -14,
+         7,
+         -1
+        ],
+        [
+         1,
+         -5,
+         18,
+         -43,
+         24,
+         -12,
+         1
+        ],
+        [
+         4,
+         -8,
+         0,
+         13,
+         -14,
+         7,
+         -1
+        ],
+        [
+         1,
+         1,
+         2,
+         5,
+         0,
+         6,
+         1
+        ],
+        [
+         1,
+         1,
+         2,
+         5,
+         0,
+         6,
+         1
+        ],
+        [
+         1,
+         -5,
+         12,
+         -17,
+         20,
+         -14,
+         2
+        ],
+        [
+         1,
+         -8,
+         20,
+         -29,
+         22,
+         -7,
+         -1
+        ],
+        [
+         4,
+         -8,
+         0,
+         13,
+         -14,
+         7,
+         -1
+        ],
+        [
+         1,
+         -2,
+         5,
+         -13,
+         20,
+         -16,
+         4
+        ],
+        [
+         1,
+         -13,
+         28,
+         -31,
+         20,
+         -8,
+         2
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 6
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 13.903678016858207,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 13.903678016858207,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aabAB",
+      "words": [
+       "aabAB",
+       "aaBAb",
+       "abbAB",
+       "abAAB",
+       "abABa",
+       "abABB",
+       "aBAba",
+       "aBAbb",
+       "aBAAb",
+       "aBBAb",
+       "baaBA",
+       "baBAb",
+       "baBAA",
+       "baBBA",
+       "bbaBA",
+       "bbABa",
+       "bAABa",
+       "bABaa",
+       "bABab",
+       "bABBa",
+       "AbaaB",
+       "AbaBA",
+       "AbaBB",
+       "AbbaB",
+       "AAbaB",
+       "AABab",
+       "ABaab",
+       "ABabb",
+       "ABabA",
+       "ABBab",
+       "BaabA",
+       "BabbA",
+       "BabAA",
+       "BabAB",
+       "BAbaa",
+       "BAbaB",
+       "BAbba",
+       "BAAba",
+       "BBabA",
+       "BBAba"
+      ],
+      "volume": 14.372279326833098,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 7.080347891971293,
+      "identify": [
+       "L14n62998(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": null
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 14.372279326833098,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 14.372279326833096,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aBaB",
+      "words": [
+       "aBaB",
+       "bAbA",
+       "AbAb",
+       "BaBa"
+      ],
+      "volume": 14.655449506835504,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 7.2198486170445895,
+      "identify": [
+       "L14n62847(0,0)(0,0)(0,0)(0,0)",
+       "ooct04_00057(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 32,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         -2,
+         5
+        ],
+        [
+         5,
+         -8,
+         4
+        ],
+        [
+         1,
+         -4,
+         8
+        ],
+        [
+         4,
+         -8,
+         5
+        ],
+        [
+         1,
+         -2,
+         2
+        ],
+        [
+         5,
+         -6,
+         2
+        ],
+        [
+         5,
+         4,
+         8
+        ],
+        [
+         8,
+         -20,
+         17
+        ],
+        [
+         17,
+         -24,
+         32
+        ],
+        [
+         2,
+         -2,
+         5
+        ],
+        [
+         5,
+         -6,
+         2
+        ],
+        [
+         17,
+         -22,
+         10
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         5,
+         -2,
+         2
+        ],
+        [
+         1,
+         0,
+         1
+        ],
+        [
+         4,
+         -4,
+         5
+        ],
+        [
+         5,
+         -8,
+         4
+        ],
+        [
+         1,
+         -2,
+         5
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 2
+      },
+      "self_isometries": {
+       "isometries": 32,
+       "orientation_preserving": 16,
+       "orientation_reversing": 16
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 32,
+        "orientation_preserving": 16,
+        "orientation_reversing": 16
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 32,
+       "orientation_preserving": 16,
+       "orientation_reversing": 16
+      },
+      "swap_volume": 14.655449506835494,
+      "vs_mirror_word": {
+       "isometries": 32,
+       "orientation_preserving": 16,
+       "orientation_reversing": 16
+      },
+      "mirror_volume": 14.655449506835508,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aabAb",
+      "words": [
+       "aabAb",
+       "abbaB",
+       "abAba",
+       "aBabb",
+       "aBAAB",
+       "baabA",
+       "baBab",
+       "bbaBa",
+       "bAbaa",
+       "bABBA",
+       "Abaab",
+       "AbABB",
+       "AABaB",
+       "ABaBA",
+       "ABBAb",
+       "Babba",
+       "BaBAA",
+       "BAbAB",
+       "BAABa",
+       "BBAbA"
+      ],
+      "volume": 15.110029536389007,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 7.4437925497214525,
+      "identify": [
+       "L14n63034(0,0)(0,0)(0,0)(0,0)"
+      ],
+      "sym_order": 16,
+      "amphichiral": true,
+      "shape_field": {
+       "min_polys": [
+        [
+         1,
+         5,
+         1,
+         -20,
+         30,
+         -24,
+         8
+        ],
+        [
+         8,
+         -34,
+         70,
+         -85,
+         62,
+         -28,
+         8
+        ],
+        [
+         8,
+         -24,
+         30,
+         -20,
+         1,
+         5,
+         1
+        ],
+        [
+         1,
+         -11,
+         41,
+         -54,
+         41,
+         -11,
+         1
+        ],
+        [
+         1,
+         5,
+         1,
+         -20,
+         30,
+         -24,
+         8
+        ],
+        [
+         1,
+         -1,
+         11,
+         -11,
+         16,
+         -16,
+         8
+        ],
+        [
+         8,
+         -32,
+         56,
+         -53,
+         34,
+         -20,
+         8
+        ],
+        [
+         8,
+         -28,
+         62,
+         -85,
+         70,
+         -34,
+         8
+        ],
+        [
+         8,
+         -34,
+         70,
+         -85,
+         62,
+         -28,
+         8
+        ],
+        [
+         8,
+         -64,
+         216,
+         -395,
+         420,
+         -248,
+         64
+        ],
+        [
+         8,
+         16,
+         16,
+         11,
+         11,
+         1,
+         1
+        ],
+        [
+         8,
+         -20,
+         34,
+         -53,
+         56,
+         -32,
+         8
+        ],
+        [
+         8,
+         -16,
+         16,
+         -11,
+         11,
+         -1,
+         1
+        ],
+        [
+         64,
+         -136,
+         140,
+         -85,
+         31,
+         -7,
+         1
+        ],
+        [
+         1,
+         -7,
+         27,
+         -43,
+         42,
+         -20,
+         8
+        ],
+        [
+         1,
+         -7,
+         31,
+         -85,
+         140,
+         -136,
+         64
+        ]
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": 6
+      },
+      "self_isometries": {
+       "isometries": 16,
+       "orientation_preserving": 8,
+       "orientation_reversing": 8
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 16,
+        "orientation_preserving": 8,
+        "orientation_reversing": 8
+       },
+       "amphichiral": true
+      },
+      "vs_record_swap": {
+       "isometries": 16,
+       "orientation_preserving": 8,
+       "orientation_reversing": 8
+      },
+      "swap_volume": 15.110029536389005,
+      "vs_mirror_word": {
+       "isometries": 16,
+       "orientation_preserving": 8,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 15.110029536389009,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     },
+     {
+      "word": "aaBaB",
+      "words": [
+       "aaBaB",
+       "aBaaB",
+       "aBaBa",
+       "aBaBB",
+       "aBBaB",
+       "bbAbA",
+       "bAbbA",
+       "bAbAb",
+       "bAbAA",
+       "bAAbA",
+       "AbbAb",
+       "AbAbb",
+       "AbAbA",
+       "AbAAb",
+       "AAbAb",
+       "BaaBa",
+       "BaBaa",
+       "BaBaB",
+       "BaBBa",
+       "BBaBa"
+      ],
+      "volume": 16.30953321915015,
+      "cusps": 4,
+      "H1": "Z + Z + Z + Z",
+      "uses_all_loops": true,
+      "vol_over_m004": 8.034715059541686,
+      "identify": [],
+      "sym_order": 8,
+      "amphichiral": false,
+      "shape_field": {
+       "min_polys": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       "all_in_Q(sqrt-3)": false,
+       "max_degree": null
+      },
+      "self_isometries": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "amphichiral_by_isometry": {
+       "to_mirror": {
+        "isometries": 8,
+        "orientation_preserving": 0,
+        "orientation_reversing": 8
+       },
+       "amphichiral": false
+      },
+      "vs_record_swap": {
+       "isometries": 8,
+       "orientation_preserving": 8,
+       "orientation_reversing": 0
+      },
+      "swap_volume": 16.309533219150147,
+      "vs_mirror_word": {
+       "isometries": 8,
+       "orientation_preserving": 0,
+       "orientation_reversing": 8
+      },
+      "mirror_volume": 16.309533219150154,
+      "in_three_line_class": false,
+      "isometric_to_m004": false
+     }
+    ],
+    "seconds": 6.6
+   }
+  },
+  "F9_surface_verdict": "FRAGILE",
+  "keepers_of_Q(sqrt-3)": [
+   [
+    "abbC",
+    5.074708032048269,
+    2,
+    [
+     "m412(0,0)(0,0)",
+     "otet05_00001(0,0)(0,0)",
+     "ocube01_00002(0,0)(0,0)"
+    ]
+   ],
+   [
+    "abAB",
+    12.179299276915838,
+    4,
+    [
+     "L12n2208(0,0)(0,0)(0,0)(0,0)",
+     "otet12_00009(0,0)(0,0)(0,0)(0,0)"
+    ]
+   ]
+  ],
+  "mirror_test": {
+   "three_record_classes": 35,
+   "chiral_classes": [
+    [
+     "abC",
+     3.6638623767088756,
+     2,
+     [
+      "m129(0,0)(0,0)",
+      "5^2_1(0,0)(0,0)",
+      "L5a1(0,0)(0,0)",
+      "ooct01_00001(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aabC",
+     4.415332477453864,
+     2,
+     [
+      "m295(0,0)(0,0)",
+      "9^2_50(0,0)(0,0)",
+      "L9n14(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaaBC",
+     4.751701965517899,
+     2,
+     [
+      "s443(0,0)(0,0)",
+      "L11n208(0,0)(0,0)"
+     ]
+    ],
+    [
+     "abbC",
+     5.074708032048269,
+     2,
+     [
+      "m412(0,0)(0,0)",
+      "otet05_00001(0,0)(0,0)",
+      "ocube01_00002(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaabC",
+     5.137941201873416,
+     2,
+     [
+      "s647(0,0)(0,0)",
+      "L12n1027(0,0)(0,0)"
+     ]
+    ],
+    [
+     "acB",
+     5.333489566898119,
+     2,
+     [
+      "s780(0,0)(0,0)",
+      "6^2_3(0,0)(0,0)",
+      "L6a1(0,0)(0,0)"
+     ]
+    ],
+    [
+     "abbbc",
+     5.333489566898119,
+     2,
+     [
+      "s774(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aabCC",
+     5.33348956689812,
+     2,
+     [
+      "s782(0,0)(0,0)"
+     ]
+    ],
+    [
+     "abbbC",
+     5.875918082667626,
+     2,
+     [
+      "s937(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aacB",
+     6.290302684028292,
+     2,
+     [
+      "v3127(0,0)(0,0)",
+      "10^2_124(0,0)(0,0)",
+      "L10n49(0,0)(0,0)"
+     ]
+    ],
+    [
+     "acBB",
+     6.35458655720065,
+     2,
+     [
+      "v3225(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aabbC",
+     6.4224265023417715,
+     2,
+     [
+      "v3292(0,0)(0,0)"
+     ]
+    ],
+    [
+     "abCbC",
+     6.637443563091125,
+     2,
+     [
+      "v3450(0,0)(0,0)"
+     ]
+    ],
+    [
+     "acBBB",
+     6.755194816462885,
+     2,
+     [
+      "t09759(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaacB",
+     6.770816780739824,
+     2,
+     [
+      "t09857(0,0)(0,0)",
+      "L12n1039(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aBcB",
+     7.327724753417753,
+     2,
+     [
+      "t12055(0,0)(0,0)",
+      "ooct02_00004(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaccB",
+     7.327724753417753,
+     2,
+     [
+      "t12037(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aacBB",
+     7.602324788790107,
+     2,
+     [
+      "o9_35257(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aBcBB",
+     8.087973788626373,
+     2,
+     [
+      "o9_40722(0,0)(0,0)"
+     ]
+    ],
+    [
+     "acBaB",
+     8.69767020758614,
+     2,
+     [
+      "o10_130613(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaBcB",
+     8.778658803173823,
+     2,
+     [
+      "o10_133625(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaB",
+     8.929317823097362,
+     4,
+     [
+      "o9_44206(0,0)(0,0)(0,0)(0,0)",
+      "10^4_23(0,0)(0,0)(0,0)(0,0)",
+      "L10n98(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaaB",
+     9.491889686649433,
+     4,
+     [
+      "o10_148924(0,0)(0,0)(0,0)(0,0)",
+      "L12n2027(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaaaB",
+     9.742365783360718,
+     4,
+     [
+      "L14n59351(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aabb",
+     10.666979133796238,
+     4,
+     [
+      "L12n2205(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaabb",
+     11.73289069867249,
+     4,
+     [
+      "L14n63020(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaaBB",
+     11.916241673264595,
+     4,
+     []
+    ],
+    [
+     "aabaB",
+     13.903678016858205,
+     4,
+     [
+      "L14n62990(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aabAB",
+     14.372279326833098,
+     4,
+     [
+      "L14n62998(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaBaB",
+     16.30953321915015,
+     4,
+     []
+    ]
+   ],
+   "amphichiral_classes": [
+    [
+     "aB",
+     7.327724753417753,
+     4,
+     [
+      "t12047(0,0)(0,0)(0,0)(0,0)",
+      "8^4_2(0,0)(0,0)(0,0)(0,0)",
+      "L8n7(0,0)(0,0)(0,0)(0,0)",
+      "ooct02_00001(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aaBB",
+     11.147218225662272,
+     4,
+     [
+      "L14n62805(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "abAB",
+     12.179299276915838,
+     4,
+     [
+      "L12n2208(0,0)(0,0)(0,0)(0,0)",
+      "otet12_00009(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aBaB",
+     14.655449506835504,
+     4,
+     [
+      "L14n62847(0,0)(0,0)(0,0)(0,0)",
+      "ooct04_00057(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ],
+    [
+     "aabAb",
+     15.110029536389007,
+     4,
+     [
+      "L14n63034(0,0)(0,0)(0,0)(0,0)"
+     ]
+    ]
+   ],
+   "PASS_A (minimal hyperbolic three-record bundle is chiral)": true
+  },
+  "three_line_class_members": [],
+  "control_S_1_1_aB": {
+   "is_m004": true,
+   "amphichiral": true,
+   "shape_field_Q(sqrt-3)": true,
+   "self_isometries": {
+    "isometries": 8,
+    "orientation_preserving": 4,
+    "orientation_reversing": 4
+   },
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 4,
+    "orientation_reversing": 4
+   },
+   "vs_mirror_word": {
+    "isometries": 8,
+    "orientation_preserving": 4,
+    "orientation_reversing": 4
+   }
+  },
+  "control_PASS": true
+ }
+}
