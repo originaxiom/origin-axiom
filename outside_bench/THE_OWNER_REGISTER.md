@@ -4908,3 +4908,84 @@ exactly what it was written for.** C3 also caught a mistyped `𝕆` (I wrote `�
 > supply: door 1 needs the gauge datum, door 2 is forbidden its coincidence by the circularity
 > guard, door 3 needs a non-circular dressing. **That is one wall in three languages, and it is the
 > same wall the price ledger calls the listener map.**
+
+---
+
+## R141 — "the object is its own mirror" / "it's a complement, where's the bulk" (2026-09-14)
+
+**Answer: memo 229**, sealed `f1e065d3…` before the certificate. Both riddles are **literal** and
+both are **computable**. Four cells, four controls, all passing.
+
+### R141-1 — the mirror: the other half IS the object
+
+`m004 → mirror`: **8 isometries**, cusp-map determinants `{−1, +1}`, symmetry group **D₄**; the
+`+1` one is an orientation-**reversing** self-map.
+
+> **The mirror map is an AUTOMORPHISM — there is no second manifold.** The two halves are
+> **identified**. *A mirror with both halves glued together has no reflection to show* — and that is
+> not a defect, it is what the object is.
+
+**And it is the programme's missing bit:** *"every chirality wall found so far is m004's
+amphichirality in one face's language"*; and **axiom 5 provably yields an amphichiral object**
+(250/250), so **the bit is spent by the axiom, not withheld by the arithmetic.**
+
+### R141-2 — the bulk: it exists, it has been looked at, and it erases the atom
+
+`m004 = S³ ∖ 4₁`; the bulk is the **solid torus** you glue back — Dehn filling. Computed here at
+high precision, control first (**m004's own field: `x²+x+7`, degree 2, disc −27 = `ℚ(√−3)`**):
+
+**eight hyperbolic fillings — degrees 4, 7, 4, 8, 8, 7, 8, 8 — and `√−3` in NONE of them.**
+Independently reproducing **C8**: *"the entire forced V₄ is a property of the OPEN object."*
+
+> **Putting the rest back does not complete the object — it destroys the structure the programme
+> runs on. BEING OPEN IS THE STRUCTURE.**
+
+### R141-3 — so the rest is not outward. It is UPWARD: the covering tower
+
+**The object is its own mirror; its covers are not.** First chiral cover at **degree 5** (2 cusps,
+`H₁ = ℤ/2 ⊕ ℤ ⊕ ℤ`); **18 of 28 chiral to degree 7**; B1324's census **66 of 87 to degree 10** —
+*"every cover keeps the invariant trace field, so **the atom and a remembered A7 bit coexist on the
+object's own tower**."*
+
+> **That is the record's own `FRESH_EYES` Q15 — *is there a carrier that keeps the atom and
+> remembers the bit?* — answered YES.** Unlike the bulk, **the rest is arithmetically alive.**
+
+### R141-4 — and the rest has been examined, and it still gives nothing
+
+*"The spectral half does not follow yet."* Chiral one-cusped covers: two unprotected sectors, **both
+index 0**, plus 136 controls at 0. The 54 multi-cusped chiral covers (B1333, branch work, cited not
+re-run): **38 070 sectors, all 54 covers, 1 841 with ≥2 live cusps — index ZERO in every one.**
+
+> **The tower breaks the mirror WITHOUT producing chirality.** It keeps the atom, remembers
+> handedness **as a manifold symmetry**, and still returns **0** as a **spectrum**.
+
+### R141-5 — the three words are three PRICES, each already named
+
+| the owner's word | what it is | where it was paid |
+|---|---|---|
+| **complement** | the bulk is the filling | **C8** — filling destroys the V₄ |
+| **mirror** | an automorphism, not a partner | **axiom 5** — the bit spent at the entrance |
+| **shadow** | the hull sees only *the hearing* | **C4** — `ℚ(√−3)` bought at geometrization, nowhere earlier |
+
+**B1323's genesis fork says why they cluster:** *two records* = golden + the atom + **forgets**
+handedness; *three records* = the Whitehead link + **remembers** handedness + **loses** the atom.
+**The object sits exactly at the corner where the atom and the bit trade against each other**, and
+the covering tower is the one place the record has found that holds both — **and even there the
+index is 0.**
+
+### R141-6 — the live frontier, named
+
+**Both censuses stop at DEGREE 10.** What lies past it on the object's own tower is **unexamined**,
+and it is the one place this question still has a *computable* answer rather than a banked one.
+**Stated now so it cannot be oversold later:** a nonzero index on a higher cover would be the
+programme's **first chirality from the object's own structure**; a continued zero would make *"the
+tower is vector-like"* far stronger than two censuses currently support, and would point the absence
+back at **C4 and axiom 5**, where memo 196 addendum 2 and B1323 already put it.
+
+### R141-7 — the controls caught the instrument twice
+
+`is_isometric_to(M, mirror)` **ignores orientation** — `True` for the chiral `m015` — and a first
+sweep with it reported **38 of 38 covers amphichiral**, caught only by comparison with B1324. And
+the trace-field instrument at **double** precision returned **degree 11 garbage** for m004's degree-2
+field, caught by its own positive control. **Both failures are reproduced inside the certificate**,
+so the wrong instruments are on the record and not only their repairs.

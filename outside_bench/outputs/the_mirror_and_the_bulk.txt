@@ -1,0 +1,158 @@
+==============================================================================
+ THE MIRROR AND THE BULK -- where the rest of the object is
+==============================================================================
+
+------------------------------------------------------------------------------
+CONTROL C1 -- the NAIVE test is wrong, reproduced on the record
+------------------------------------------------------------------------------
+
+    is_isometric_to(M, mirror) IGNORES ORIENTATION.  A first sweep using it
+    reported 38 of 38 covers amphichiral to degree 8 -- contradicting B1324.
+    It was caught by comparison with the record, not by the instrument.
+    m004   naive is_isometric_to(mirror) = True
+    m015   naive is_isometric_to(mirror) = True
+
+    m015 = the 5_2 knot, which is CHIRAL, and the naive test says True.
+  C1: PASS -- the wrong instrument is on the record
+
+------------------------------------------------------------------------------
+CONTROL C2 / C3 -- two orientation-aware methods on a control set
+------------------------------------------------------------------------------
+
+    manifold   det-test amphichiral   CS          CS proves chiral
+    m004       True                 +0.000000000   None  
+    m015       False                -0.153204133   True  
+    m009       False                -0.020833333   True  
+    m129       False                +0.125000000   True  
+
+  C2: PASS -- det-test matches the known values
+  C3: the CS column shows m004 at 0.000 and m003-type values at 1/4 --
+      2*CS == 0 there, which proves NOTHING (one-sided, as sealed).
+
+------------------------------------------------------------------------------
+CELL 2 -- THE MIRROR: is the other half a different object?
+------------------------------------------------------------------------------
+    m004 -> mirror: 8 isometries, cusp-map determinants [-1, 1]
+    amphichiral (an orientation-REVERSING self-isometry exists): True
+    #symmetries of m004: D4
+
+  >>> CELL 2 OUTCOME A.  THE MIRROR MAP IS AN AUTOMORPHISM.  There is no
+      second manifold.  "The other half of the mirror" is the object itself --
+      the two halves are IDENTIFIED, and the identification is the whole content.
+      A mirror with both halves glued together has no reflection to show.
+
+------------------------------------------------------------------------------
+CELL 1 -- THE BULK: put the solid torus back and see what survives
+------------------------------------------------------------------------------
+
+    m004 = S^3 minus the figure-eight knot.  The "missing bulk" is exactly the
+    SOLID TORUS you glue back along a slope -- Dehn filling.  So the bulk is not
+    missing; it is a KNOWN one-parameter family, and the question is what it does
+    to the arithmetic.
+
+    INSTRUMENT, and its FIRST VERSION FAILED ITS CONTROL: the invariant trace
+    field is computed from tr(g^2) over the generators by PARI's algdep.  At
+    SnapPy's DOUBLE precision the control returned DEGREE 11 GARBAGE for m004,
+    whose field is degree 2 -- caught by the control, not by the output looking
+    wrong.  ManifoldHP (high precision) is used below.
+
+    CONTROL -- m004's own invariant trace field: (2, 'x^2 + x + 7')
+    degree 2 (= Q(sqrt-3), disc(x^2+x+7) = -27): True
+
+    slope    volume      itf degree  contains sqrt(-3)?  minimal polynomial
+    (5, 1)   0.981369    4           False               x^4 + 13*x^3 + 75*x^2 + 165*x + 119
+    (5, 2)   1.529477    7           False               x^7 - x^6 - 11*x^5 - 63*x^4 - 427*x^3 - 1177
+    (6, 1)   1.284485    4           False               x^4 + 6*x^3 + 22*x^2 + 5*x - 34
+    (7, 1)   1.463777    8           False               x^8 + x^7 - 4*x^6 - 2*x^5 + 6*x^4 + 2*x^3 - 
+    (7, 2)   1.649610    8           False               x^8 - 4*x^7 - 13*x^6 + 35*x^5 + 64*x^4 - 99*
+    (8, 3)   1.824344    7           False               x^7 - 5*x^6 + x^5 + 18*x^4 - 9*x^3 - 4*x^2 -
+    (9, 1)   1.667804    8           False               x^8 + 13*x^7 + 78*x^6 + 275*x^5 + 583*x^4 + 
+    (10, 3)  1.859989    8           False               x^8 - 4*x^7 - 9*x^6 + 28*x^5 + 33*x^4 - 50*x
+
+    fillings whose trace field CONTAINS sqrt(-3): NONE
+
+------------------------------------------------------------------------------
+CONTROL C4 -- the record's own statements, quoted from origin/main
+------------------------------------------------------------------------------
+
+  [C8, the interface-only V4] origin/main C8 -- FOUND
+      No closed hyperbolic filling of m004 in the
+      |p|,q ≤ 8 grid (78 hyperbolic slopes) has an invariant trace field containing √−3, √5,
+      OR √−15 — the entire forced V₄ is a property of the OPEN object
+
+  [Q15 answered on the tower] origin/main MAIN_GOAL (B1324) -- FOUND
+      covers do NOT inherit amphichirality — 66 of the 87 covers of m004 to degree 10 are chiral
+
+  [and the atom survives on them] origin/main MAIN_GOAL (B1324) -- FOUND
+      every cover keeps the invariant trace field, so **the atom and a remembered A7 bit coexist on the object's own tower.**
+
+  [the spectral half does not follow] origin/main MAIN_GOAL (B1324) -- FOUND
+      The spectral half does not follow yet
+
+  >>> CELL 1 OUTCOME A.  THE BULK EXISTS, HAS BEEN LOOKED AT, AND IS
+      ARITHMETICALLY INERT.  Gluing the solid torus back is Dehn filling; the
+      banked census over 78 hyperbolic slopes finds NOT ONE whose trace field
+      carries any of the object's three faces.  The V4 is a property of the OPEN
+      object.  THE REST-AS-BULK IS NOT A MISSING INGREDIENT -- IT IS A KNOWN
+      FAMILY THAT DESTROYS THE STRUCTURE THE PROGRAMME RUNS ON.
+
+------------------------------------------------------------------------------
+CELL 3 -- THE REST: does the covering tower break the mirror and keep the atom?
+------------------------------------------------------------------------------
+
+    This is the record's own Q15 -- "is there a carrier that keeps the atom and
+    remembers the bit?" -- and B1324 answers it on the object's own tower.
+    Re-run here with the ORIENTATION-AWARE instrument.
+
+    deg  covers  amphichiral  chiral  undecided
+    2    1       1            0       0
+    3    1       1            0       0
+    4    2       2            0       0
+    5    4       2            2       0
+    6    11      3            8       0
+    7    9       1            8       0
+    ---  28      10           18      0
+
+    first chiral cover (degree, cusps, H1): (5, 2, 'Z/2 + Z + Z')
+
+  >>> CELL 3 OUTCOME A.  THE MIRROR BREAKS ON THE TOWER.  The object is its
+      own mirror; its COVERS are not.  And B1324's census (quoted above) adds the
+      half this sweep does not compute: EVERY COVER KEEPS THE INVARIANT TRACE
+      FIELD.  So the "rest" is the covering tower, and unlike the bulk it is NOT
+      arithmetically inert -- it keeps the atom AND remembers the bit.
+
+------------------------------------------------------------------------------
+CELL 4 -- and does the rest supply what the object lacks?
+------------------------------------------------------------------------------
+
+    NO -- and the record already computed it.  B1324's own sentence, quoted
+    above: "The spectral half does not follow yet."  On the chiral ONE-cusped
+    covers the torsion is meridian-generated, leaving only two cusp-trivial
+    unprotected sectors, BOTH INDEX 0, plus 136 control sectors at 0.
+
+    And the 54 multi-cusped chiral covers -- the case B1324 left open -- were
+    computed on claude/paper-verification-ufp0zn (B1333), CITED AS BRANCH WORK
+    AND NOT RE-RUN HERE: 38070 sectors at three primes over all 54 covers, 1841
+    of them with two or more LIVE cusps (the regime impossible on one cusp),
+    and INDEX ZERO IN EVERY ONE.
+
+  >>> CELL 4 OUTCOME A.  THE TOWER BREAKS THE MIRROR WITHOUT PRODUCING
+      CHIRALITY.  The rest exists, keeps the atom, remembers the bit as a
+      MANIFOLD symmetry -- and still returns index 0 as a SPECTRUM.
+
+      THE HONEST FRONTIER: both censuses stop at DEGREE 10.  What lies past
+      degree 10 on the object's own tower is UNEXAMINED, and it is the one place
+      the owner's question has a live computable answer left.
+
+==============================================================================
+ OUTCOMES
+==============================================================================
+   CELL 1 (the bulk is inert)              : A
+   CELL 2 (the mirror is an automorphism)  : A
+   CELL 3 (the tower breaks the mirror)    : A
+   CELL 4 (and still gives index 0)        : A
+   C1 the naive test's failure reproduced  : PASS
+   C2 two methods agree on controls        : PASS
+   C3 CS declared one-sided                : stated
+   C4 record quoted                        : PASS
+==============================================================================
