@@ -2563,3 +2563,61 @@ carried under a different name (E54's class, *absent-under-another-name*, from t
 **The lead:** re-run the corpus's literature audits through `b1404_absence_audit.py`'s filter, with
 the rule that a filter is only trustworthy if **every raw line was read**. Cheap; the payoff is that
 the novelty claims stop depending on spelling.
+
+
+## L215 — THE CLOSED FORM OF THE GRADED TRACE (registered 2026-09-14, B1406)
+
+`str(m) = tr(C·RᵐLᵐ)` takes exactly **six** values over the period, and every one is exactly
+`2cos(jπ/15)` with `j ∈ {0, 5, 6, 9, 10, 15}` — arguments running over the **divisors** of the period
+rather than over 15 itself. The map `m ↦ j` is **observed, not derived**:
+
+| `j` | `str` | the `m` that give it |
+|---|---|---|
+| 0 | `+2` | 0 |
+| 5 | `+1` | 3, 12 |
+| 6 | `+1/φ` | 1, 4, 11, 14 |
+| 9 | `−1/φ` | 6, 9 |
+| 10 | `−1` | 2, 7, 8, 13 |
+| 15 | `−2` | 5, 10 |
+
+Two structures are visible and neither is proved: among the **units** the split is by **2-torsion**
+(`str = +1/φ` exactly when `m² ≡ 1 mod 15`, i.e. on `{1,4,11,14}`, the 2-torsion subgroup of
+`(ℤ/15)*`); and the whole table is invariant under `m ↦ 15−m`, which is the mirror. **The lead:**
+derive `j(m)` in closed form. A character-sum or Gauss-sum evaluation of `tr(C·RᵐLᵐ)` in Kac–Peterson
+data is the obvious route, and it would say whether the six values are an accident of level 2 or the
+shadow of something that survives to other stages.
+
+## L216 — THE ODD SECTOR IS WHERE THE OBJECT'S GRADED CONTENT IS (registered 2026-09-14, B1406)
+
+Measured, not argued: `tr_even(RᵐLᵐ) = 0` **exactly** unless `3 | m`, so at the object's own word
+`m = 1` the θ-**even** sector's graded trace is **exactly zero** and all of `str(1) = 1/φ` sits in the
+θ-**odd** sector. `KIND_TABLE`'s last licensed coupling row is the **even** one.
+
+**This is not a demotion of B1349** — the even sector's *matrix elements* are not zero, only its trace,
+and the two are different observables. **But the question it forces is sharp:** the campaign that has
+consumed the crossing seat's last three windows was run on the sector whose ear-free content vanishes
+at the object, while B856 — the arc whose ear-independence started the whole thread — worked on the
+**odd** one. **The lead:** run the θ-odd sector's readout at the same exactness as B1349's even one,
+and price it. It is a 2-dimensional sector, so the ear space is a circle rather than a 3-sphere, and
+the exact computation is cheaper than the one already done.
+
+**Prerequisite:** L209's fork (B1405) should be answered first, because it decides what a row on
+*either* sector is allowed to claim.
+
+## L217 — THE PARAMETER BUDGET AS A DESIGN CONSTRAINT (registered 2026-09-14, B1406)
+
+B1406 §3 writes down, for the first time, how much **continuous room** each structure attached to the
+object actually carries: the object itself **zero** (Mostow), its `SL(2,ℂ)` character variety `k = 1`
+complex, `SL(n,ℂ)` `k(n−1)` complex (cited, unverified), quasi-Fuchsian space of the fibre 2 complex,
+and the Dehn filling space **discrete**.
+
+**As an accounting fact and not a physical claim:** a description that must account for ~19 numbers
+needs `k(n−1) ≈ 10`. The object supplies 0, and no invariant extracted from a rigid point changes that
+— rigidity is a theorem, not an obstacle to be out-computed.
+
+**The lead, and it is a programme-level one:** treat the budget as a *filter*. For each of the three
+places room exists — **the tower** (covers, more cusps), **the rank** (`SL(n)`), **the filling space**
+(discrete) — state how many parameters it supplies, what selects among them, and whether the corpus
+has ever computed on it. The corpus has touched all three (B1324's 87 covers; the SL(n) tower at
+B89–B95/B153/B198–B199; the surgery work at B467) and budgeted none. **Doing the budget is cheap and
+it would tell the programme where it is allowed to look.**

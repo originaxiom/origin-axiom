@@ -15104,3 +15104,85 @@ about a residue?"*, and both answers are priced. **E76 is widened from OMITTED t
 anchor was the right line at the wrong type, invisible to the class's original fix rule because the
 quantity *was* listed; the rule now requires naming **which object each choice ranges over**. B1349's
 mathematics is untouched throughout: only the anchor's type is in question.
+
+
+---
+
+## 2026-09-14 — the two riddles: the mirror's other end, the bulk's boundary, and an anchor-free observable (B1406)
+
+**Two riddles about the object, answered exactly, and they turn out to be one answer (B1406).**
+*The object is its own mirror — where is the other half? The object is a complement — where is the
+bulk?* **Because it is a boundary, and what feels missing is what it is the boundary of.** 26/26 checks.
+
+**THE MIRROR'S OTHER HALF IS THE OTHER END.** A punctured-torus bundle has two ends, with invariants
+`φ` and `φ′` (B1404). The mirror does not point at a second manifold — it **exchanges the two ends of
+this one**. `A_m = RᵐLᵐ = [[1+m², m],[m, 1]]` is **symmetric**, and `S = [[0,−1],[1,0]] ∈ SL(2,ℤ)` gives
+`S A_m S⁻¹ = A_m⁻¹` exactly for every `m`; inverting the monodromy reverses the fibration, which swaps
+attracting and repelling. At `m = 1` that swap is `φ ↦ φ′` — **the Galois involution `√5 ↦ −√5`**. The
+proof is one line of symmetry: for *any* symmetric `M ∈ SL(2)`, `S M S⁻¹ = M⁻¹`. **So every metallic
+bundle is its own mirror because `A_m` is symmetric** — nothing golden about it, and no coincidence to
+explain. **The corpus has been naming this involution for two years without joining the names:**
+`T-UNIQ`'s *"the transpose/elliptic involution"*, B318's *"`√−3 → −√−3`, the nontrivial Galois
+automorphism"*, `T-MIRROR`'s palindromic word. One map. And what a mirror with only one object produces
+is not a second copy but a **grading** — which is precisely what `C = S²` is.
+
+**THE BULK IS THE DEFORMATION SPACE, AND THE OBJECT IS ON ITS BOUNDARY.** Four honest answers to
+"complement of what": `S³` (closed, rigid); the **filling space** (discrete, `ℤ²` per cusp); the
+`ℤ`-cover (Minsky's object, also rigid); and **quasi-Fuchsian space** `QF(T₁) = Teich(T₁) × Teich(T₁)`,
+one factor per end, `dim_ℂ = 2` (Bers, cited). **The object is not in it — it is on its boundary, at a
+corner.** Verified: both end invariants are **irrational** for `m = 1..8`, and a rational slope would be
+a parabolic still holding its Teichmüller coordinate while an irrational one is an ending lamination —
+the coordinate has **left the space**. Both of the object's have left. **It holds 0 of the bulk's 2
+complex parameters, and that is not a defect of the description: it is why the object is rigid.**
+Rigidity and bulklessness are the same fact.
+
+**THE PARAMETER BUDGET — the arithmetic nobody had written down.** The object itself: **zero**
+(Mostow). m004 at `SL(2,ℂ)`: 1 complex (Thurston; `dim_ℂ = k` = cusps, and m004 has **1 cusp**,
+verified). At `SL(3,ℂ)`: 2. `QF(T₁)`: 2. A 5-cusped cover at `SL(3)` or a 10-cusped cover at `SL(2)`:
+**10 complex = 20 real**. Cusps grow in the tower — degree 4 already gives a 2-cusped cover.
+**As an accounting fact and not a physical claim: a description that must account for ~19 numbers needs
+`k(n−1) ≈ 10` — many cusps, high rank, or both — and a rigid point supplies zero, which no invariant
+extracted from it can change.** `dim_ℂ = k(n−1)` for `SL(n)` is cited from Menal-Ferrer–Porti and
+explicitly **not verified** here. Registered as **L217**, a programme-level filter.
+
+**AND THE EAR WAS NEVER FREE — THE BULK SUPPLIES A TRACE.** `C` is the θ-grading (`C² = I`, `C = S²`,
+`+1` on a 4-dim even sector, `−1` on a 2-dim odd one), so B856's weld **traced** is the graded trace
+`str(m) = tr(C·RᵐLᵐ) = tr_even − tr_odd`. **A trace has no vector argument: there is no ear to anchor.**
+Verified: **real** for every `m`; in **`ℚ(√5)`**; **mirror-invariant**, `str(m) = str(15−m)` for all 15;
+`str(0) = 2 = dim_even − dim_odd`, the grading's own index; exactly **six values**
+`{−2, −1, −1/φ, +1/φ, +1, +2}`, every one exactly `2cos(jπ/15)` with `j ∈ {0,5,6,9,10,15}` — arguments
+over the **divisors** of the period, not 15 itself; among units the split is by **2-torsion**
+(`str = +1/φ` ⟺ `m² ≡ 1 mod 15`); and **at the object's own word `str(1) = 1/φ = φ−1` EXACTLY**.
+**The anchor ledger:** B1349's matrix element costs 2 bits of ear and 2.81 of word for 4 outputs; the
+graded trace costs **0 and 0** for 1 output. **The word is free because `m = 1` is what five independent
+principles select — B1405's finding is what pays for it**, since those principles are exactly what
+killed branch A, which needed a *different* word. **The same fact that closed the licensed row opens
+this one.** Fenced: this says an anchor-free, mirror-invariant observable **exists** and equals `1/φ` at
+the object; it does **not** say what it is an observable *of*, and nothing is compared to any
+measurement.
+
+**AND THE FEELING WAS RIGHT, MEASURED.** `tr_even(RᵐLᵐ) = 0` **exactly** unless `3 | m` — and `3 | m`
+is B996's degeneracy condition (B1402). So on **ten of the fifteen** words the θ-even sector's graded
+trace vanishes identically, the object's own `m = 1` among them: `tr_even(1) = 0`, `tr_odd(1) = −1/φ`,
+`str(1) = +1/φ`. **`KIND_TABLE`'s last licensed row lives on the even sector, and at the object's own
+word that sector's graded content is exactly zero — all of it sitting in the ODD sector, the smaller
+half, the one B856 worked on and the campaign left.** That is the precise version of *"we are computing
+part of something"*: not a metaphor, a measured zero. Registered as **L216**, with the note that this is
+**not** a demotion of B1349 — the even sector's *matrix elements* are not zero, only its trace.
+
+**FOUR SENSES IN WHICH THE OBJECT IS HALF OF SOMETHING,** three structural and one measured: a
+**complement** (room only in the discrete filling space); a **boundary point** (0 of 2 moduli, which
+*is* its rigidity); an **operator without its state** (matrix elements read where the bulk supplies a
+trace — which is why the ear could never be anchored); and **one sector of a graded pair** (the
+licensed one tracing to zero at the object's word). **The honest reading of the gap: the missing
+structure is not a cleverer invariant of the object. A rigid point has no parameters to give, by
+theorem. Room exists in exactly three places — the tower, the rank, and the filling space — and the
+programme has touched all three and budgeted none.**
+
+**E75 instance #12, third consecutive arc, and the class is now plainly not about floats.** The law
+`tr_even = 0 ⟺ 3 ∤ m` first came back **FALSE**: the values were right and the *test* was wrong, comparing
+an `nsimplify`-ed **printed form** against `0` with `==` instead of `simplify(raw) == 0`. Same disease as
+the `subs` on a rewritten radical and the byte-read bracket expression. **Final form of the fix rule:
+identify by property, never by representation — any comparison that could be changed by re-printing the
+same object is not a comparison.** New leads **L215** (the closed form of `m ↦ j`), **L216**, **L217**;
+alias table **B1407 next**.
