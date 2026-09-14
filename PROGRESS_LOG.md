@@ -15303,3 +15303,69 @@ failure shown to be **structural** rather than unlucky, as was the even row's �
 accounting work went into a channel whose binding constraint was a factor of `10²` in precision.
 **Standing precondition:** any future coupling-channel row states its bench precision first, against
 B1408's table. One proposed without a `10⁻³` bench in hand is already answered.
+
+
+---
+
+## 2026-09-14 — the tower's parameter budget, computed at its ceiling (B1409)
+
+**The plan's decisive computation ran, and it came back positive with a structure nobody asked
+for (B1409).** Preregistration sealed `5618216a` and **pushed at `31cfd032` before any compute**,
+under the owner's election of full discipline.
+
+**THE RESULT.** At the tower's ceiling — the chiral 5-cusped degree-10 cover **L14n63694**
+(= `otet20_00063`, appearing as `m004.covers(10)[17]` and `[32]`, which are **isometric**, so there
+is one such manifold and not two) — the character variety's dimension at the geometric representation
+is `dim_ℂ H¹(π₁, sl₂) = 5 = k` and `dim_ℂ H¹(π₁, sl₃) = 10 = k(n−1)`: **twenty real parameters**, the
+first count in the corpus that clears the ~19 a Standard Model needs. **L217's tower row closes
+POSITIVE.**
+
+**THE CONTROL THAT MATTERS, and it is stronger than the headline.** `a₁` tracks `k` across the whole
+tower: on covers selected **by property** (multi-cusped, not amphichiral) and never by list index,
+`k = 2,3,4,5` return `(2,4)`, `(3,6)`, `(4,8)`, `(5,10)`, with `a₀ = 0` on every row and the **m004
+positive control returning `k = 1`**. **So Menal-Ferrer–Porti's `k(n−1)` — which B1406 cited as
+explicitly unverified where its whole parameter budget leans on it — is now verified as a
+TWO-PARAMETER LAW on this object's own covers.** The control is the right one because the thing that
+could break (`k`) is the thing that varies (E67).
+
+**THE ROUTE.** `sl₂ ≅ Sym²V` and, under the principal `SL(2) ⊂ SL(3)`, `sl₃ ≅ Sym²V ⊕ Sym⁴V`
+(3 + 5 = 8), so the budget is a sum of two `H¹`'s with coefficients in symmetric powers of the
+geometric holonomy. Exact over `ℚ(ζ₁₂)` end to end via B1333's `exact_rho` (PSLQ) and
+`analyse_exact`, whose `a₁ = |Z¹| − (d − a₀)` **is** `dim H¹`. **No Ptolemy variety**, which was not
+tractable: `ptolemy_variety(3, obstruction_class="all")` returns **122 varieties in 80 variables**.
+
+**AND THE FINDING THE PREREG DID NOT ANTICIPATE.** The restriction `H¹(M) → H¹(∂M)` is **injective on
+every row** (`n = a₁ − r₁ = 0`), with `dim H¹(∂M) = 2 dim H¹(M)` exactly — half-lives-half-dies, the
+image Lagrangian, the map losing nothing. **Every one of the parameters is cusp data. There are zero
+interior moduli anywhere in the tower.** This is B1406's *the object is a boundary* made
+quantitative: **100% of the available continuous room is boundary, 0% is interior.**
+
+> **The honest reading: the programme has found where its parameters could live, and it is exactly
+> the place it has never been able to select from.** Choosing a point is choosing `rank(G)` complex
+> numbers at each of `k` cusps — structurally the same unpriced free input as a Dehn slope, which the
+> corpus has carried as *"slope selection stays free input"* (B432) and tested at **chance level**
+> against SM parameters (B322, 8/12 vs null 7.6). Registered as **L219**.
+
+**A CLAIM IN THE ARC'S OWN SEALED PREREG IS WRONG, AND THE SEAL WAS NOT EDITED TO HIDE IT.** The
+prereg says *"No character variety has ever been computed on any cover."* But `analyse_exact`
+**returns `a₁` in its output dict**, and B1333 called it on all 54 chiral multi-cusped covers across
+**38 070 sectors** — these among them. The tangent dimension was computed tens of thousands of times
+and **never printed**, that arc having chased the index `I = t₀ − r₁` and reported only
+`(c, live, t₀, I)`. **The honest claim is "it has been computed and never read"**, which makes this a
+reporting-and-certification arc and an easier thing to defend. Genuinely new: the **exact char-0**
+run at the `Sym²⊕Sym⁴` germ (B1333's logged exact pass ran `Sym²` only; `(2,4)` was mod `p`, and
+`rank mod p ≤ rank char 0` bounds rather than determines), and the injectivity reading.
+
+**TWO LEDGER ENTRIES.** **E75 re-fired and the banked fix transferred unchanged** — `mp.pslq` asserts
+its tolerance non-zero, B1333's modules set `mp.dps` at import time, and under **pytest** the import
+order differs, so the same computation passed from a script and died in 0.94 s inside
+`mpmath/identification.py` from a test file. Pinning `mp.mp.dps` explicitly and re-asserting it before
+every recognition fixed it with no rederivation, and a guard test now asserts the precision before the
+first recognition runs. **E80 is new — the SCRATCHPAD-ROOTED VERIFICATION class:** fifteen of B1333's
+committed scripts `sys.path.insert(0,'/tmp/sweep')` and read `/tmp/sweep/covcache.json` by absolute
+path, so the directory that certifies its 38 070 sectors **cannot re-run itself from a clean
+checkout**. B1409 was unaffected only because it recomputes rather than reads.
+
+**Also landed:** `docs/PRACTICES.md` gains **discrimination-first as a binding practice** — the plan's
+Phase 0 — with B1408's precision table, so that a value-channel row proposed without a `10⁻³` bench in
+hand is already answered.

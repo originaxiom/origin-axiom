@@ -802,3 +802,28 @@ window candidate.
 - **A null from an uncontrolled instrument is not a negative** (the seat's proposed rule; it is MB12's second half — the criterion must be able to fire where the thing sought is known to live). Four instances across three seats in one day: an unconditional `ALL THREE CONTROLS PASS`, a two-armed PSLQ tautology, the `git grep --all` zero, and `spacetime64.py`'s printed 0 beside its own count of 2 (fc R49; B1140's re-adjudication is B1303's first item).
 - **Every quoted string is grepped in its source before it ships** (E68).
 
+
+## 2026-09-14 — DISCRIMINATION FIRST, and it is binding (B1408/B1409)
+
+**The rule:** any proposal to compute a value for contact states, in its first paragraph and
+**before any value is computed**, what precision would be needed to tell its answer apart from
+the alternatives — against B1408's table:
+
+| channel | must beat | needed relative precision |
+|---|---|---|
+| **value** (a `ℚ(√5)` reading) | the height-bounded candidates in its window — 198 at `ε = 10⁻¹`, 18 at `10⁻²`, **1** at `10⁻³` | **`10⁻²`–`10⁻³`** |
+| **index** (an integer `n`) | the next integer, at `1/\|n\|` | **`10⁻¹`** for `\|n\| ≤ 2` |
+| *available* (B856's bench) | — | *`10⁻¹`* |
+
+**A value-channel row proposed without a `10⁻³` bench in hand is already answered.**
+
+**Why it is a practice and not a preference.** R5 (kind) and R6 (the precision budget,
+`N ≈ 1.43·d·log₁₀(H)`) have been **pre-seal requirements since CROSSING_REQUIREMENTS was
+written**, and in practice both got checked *after* the value existed. The mirror-row campaign
+spent three windows improving an accounting whose binding constraint was a factor of `10²` in
+precision — and the check that found it took twenty minutes (B1408). B1409 then ran the same
+inversion on a structural question and reached a verdict in one session.
+
+**The general form:** *ask what would make the answer informative before computing the answer.*
+When the question is a value, that is precision. When it is a structure, it is a control that
+varies the thing that can break (**E67**) — B1409's `k`-sweep, not a repeat run on one object.

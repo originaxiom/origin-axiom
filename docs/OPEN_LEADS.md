@@ -2610,6 +2610,8 @@ the exact computation is cheaper than the one already done.
 
 ## L217 — THE PARAMETER BUDGET AS A DESIGN CONSTRAINT (registered 2026-09-14, B1406)
 
+> **THE TOWER ROW IS CLOSED (B1409, same day) — POSITIVE, AND SHARPER THAN ASKED.** Computed exactly over `ℚ(ζ₁₂)` at the geometric holonomy, on covers selected **by property** and never by list index: `dim_ℂ H¹(π₁, sl₂) = k` and `dim_ℂ H¹(π₁, sl₃) = k(n−1) = 2k`, verified for **`k = 2, 3, 4, 5`** across every chiral multi-cusped degree-10 cover, with the `m004` positive control returning `k = 1`. At the tower's ceiling — the chiral 5-cusped **L14n63694** — that is **10 complex = 20 real**, the first count in the corpus to clear ~19. **Menal-Ferrer–Porti's `k(n−1)`, which B1406 cited as explicitly unverified, is now verified as a two-parameter law on this object's own covers.** **AND THE STRUCTURE, which was not asked for:** the restriction `H¹(M) → H¹(∂M)` is **injective on every row** (`n = a₁ − r₁ = 0`), with `dim H¹(∂M) = 2 dim H¹(M)` exactly — half-lives-half-dies, image Lagrangian. **Every parameter in the tower is cusp data; there are zero interior moduli anywhere.** So the room is real, sufficient in count, and made entirely of boundary choices — structurally the same unpriced free input as a Dehn slope (**B432**, *"slope selection stays free input"*; **B322** tested filling invariants against SM parameters at chance level). **The rank and filling rows remain open.**
+
 B1406 §3 writes down, for the first time, how much **continuous room** each structure attached to the
 object actually carries: the object itself **zero** (Mostow), its `SL(2,ℂ)` character variety `k = 1`
 complex, `SL(n,ℂ)` `k(n−1)` complex (cited, unverified), quasi-Fuchsian space of the fibre 2 complex,
@@ -2652,3 +2654,24 @@ one, and cheaper to fool yourself with.
 **Prerequisite:** none. **Precondition on any future coupling-channel work:** state the bench precision
 first, against B1408's table. A value-channel row proposed without a `10⁻³` bench in hand is already
 answered.
+
+## L219 — WHAT SELECTS A POINT IN THE TOWER'S ROOM? (registered 2026-09-14, B1409)
+
+B1409 closed L217's tower row positive: the room is real, it is `k(n−1)` complex, and at the ceiling
+that is 20 real parameters. **And it is entirely boundary data** — `H¹(M) → H¹(∂M)` injective on every
+chiral multi-cusped cover in the degree-10 tower, so there is not one interior modulus anywhere.
+
+**That makes selection the whole remaining question, and it is unpriced.** Choosing a point is
+choosing `rank(G)` complex numbers at each of `k` cusps. The corpus has never priced such a choice:
+**B432** carries *"slope selection stays free input"*; **B322** tested filling invariants against SM
+parameters and got **chance level** (8/12 against a null of 7.6); there is **no cover-selection
+principle** anywhere (L202 is a test, not a selector). R11 would charge for every one of those
+numbers, and nothing pays it.
+
+**The lead, stated so it cannot be answered by wanting:** either exhibit a **principle** that selects
+cusp data the way Jørgensen extremality selects the manifold (B1405's five principles all select
+`m = 1`; none of them says anything about a cusp), or price the selection honestly and see what the
+ledger does to it. **A budget with no selector buys nothing** — it moves the free input from "which
+manifold" to "which boundary data", which is a relocation, not a derivation.
+
+**Precondition, from B1408:** before any of it is taken toward contact, state the bench precision.

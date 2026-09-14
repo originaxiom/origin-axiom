@@ -8151,6 +8151,27 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1409": {
+   "slug": "the tower budget",
+   "motifs": [
+    "measurement",
+    "coupling",
+    "action",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B322",
+    "B432",
+    "L217"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B140": {
    "slug": "compute reconciliation",
    "motifs": [
