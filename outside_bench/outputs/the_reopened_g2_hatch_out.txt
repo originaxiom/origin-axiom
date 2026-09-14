@@ -1,0 +1,82 @@
+==============================================================================
+ THE REOPENED G2 HATCH -- R1 vs R2
+==============================================================================
+
+    seal  outside_bench/seals/THE_REOPENED_G2_HATCH_PREREG.md
+    sha256 c5fde1341873b983e854b4de719c7d2cb1b4a75157d1847afa74af174f42f1c4
+
+------------------------------------------------------------------------------
+ CONTROL G1 -- B1084's own verifier re-run; its banked items must PASS
+------------------------------------------------------------------------------
+    [ok ] |Ghat| = 96
+    [ok ] census {3:53, 1:42}
+    [ok ] stabiliser(R^3) = 24
+    [ok ] stabiliser is the 2T copy
+    [ok ] 30 A1 planes, stabiliser 2
+    [ok ] orbits [6, 12, 12]
+    B1084 items reporting FAIL: 0
+    -> PASS
+
+------------------------------------------------------------------------------
+ CONTROL G3 -- the routine must be able to RETURN ZERO
+------------------------------------------------------------------------------
+
+    An intersection routine that can only ever report >= 1 is an instrument
+    that cannot fire (#164).  Two subspaces of R^7 meeting only at the origin
+    are constructed and the routine is required to return 0.
+
+    span(e1,e2,e3) cap span(e4,e5,e6,e7) = 0   (must be 0)
+    span(e1,e2,e3) cap span(e3,e4)       = 1   (must be 1)
+    -> PASS
+
+------------------------------------------------------------------------------
+ THE LOCI, from B1084's own group
+------------------------------------------------------------------------------
+    E6 locus = common fixed space of the 24-element 2T copy: dim 3
+    A1 loci = fixed spaces of the (1,2)-type elements: 30 of them, each dim 3
+
+------------------------------------------------------------------------------
+ CONTROL G4 + THE QUESTION -- every A1 locus against the E6 locus, exact
+------------------------------------------------------------------------------
+    population: 30 A1 loci, 1 E6 locus, 30 intersections
+    intersection-dimension distribution: {1: 30}
+    A1 loci meeting E6 in dimension 0: 0
+
+    -> OUTCOME B
+    EVERY A1 locus meets the E6 locus in dimension 1.  R2 FAILS.
+
+    THE REASON, and it is structural rather than numerical: the E6 locus is
+    R^3 (+) 0, and each A1 locus is (a line in R^3) (+) (a plane in H).  Their
+    intersection is therefore that line -- dimension 1 -- for every one of the
+    30 planes.  No choice of A1 locus escapes it.
+
+    SO THE TWO READINGS COME APART, and the cell's whole content is that they
+    do:
+      R1  the apex IS an isolated maximal-isotropy stratum -- B1304 is right,
+          and the SO(odd) lemma does not touch it.
+      R2  no A1-E6 enhancement is isolated -- what Acharya-Witten needs is
+          absent from this Ghat.
+    THE HATCH IS OPEN AS STATED AND SHUT AS NEEDED.
+
+------------------------------------------------------------------------------
+ WHAT THIS DOES NOT SAY
+------------------------------------------------------------------------------
+    It does not say what Acharya-Witten's theorem formally requires: that is
+    literature, and B1304's own fence on its (Z/2)^3 example is "the example is
+    not an Acharya-Witten construction".  This cell computes GEOMETRY and puts
+    the two readings side by side so a specialist can say which one AW needs.
+
+    It does not close the 7d route.  B1259's own consequence stands and is
+    where this axis continues: chiral matter "requires genuine CURVATURE -- a
+    conical G2 singularity, whose local model is a CONE OVER A 6-MANIFOLD
+    rather than a linear action on R^7".  Every result here is about FLAT
+    orbifolds, which is precisely the class B1259 closed.
+
+    No chiral matter is derived.  No generation count -- I-26 is UNEARNED and
+    untouched.  No value.  Gate 5 untouched.
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    OUTCOME B   (30 intersections, dims {1: 30})
+    controls: ALL PASSED
