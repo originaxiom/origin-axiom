@@ -89,10 +89,34 @@
       (the lemma predicts 0; this is a second, independent look at PART C)
 
 ------------------------------------------------------------------------------
+ PART E -- the four named escape routes, from the seal's fixed list
+------------------------------------------------------------------------------
+
+    E1 is COMPUTED here, not adjudicated: by the lemma's contrapositive a
+    chiral cover's subgroup class is NOT sigma-fixed, so the mirror carries
+    each chiral cover to a DIFFERENT cover.  If so they must come in mirror
+    PAIRS, and choosing one is exactly one bit -- the bit B1163 proves the
+    object cannot supply.  That is a prediction with a number, so measure it.
+
+    chiral covers to degree 7: 18
+    mirror PAIRS among them : 9   by degree {5: 1, 6: 4, 7: 4}
+    UNPAIRED                : 0  []
+    -> E1 CHOICE-CONSUMING, and the choice is exactly ONE BIT
+
+    E2  the partial filling -- "which cover, which cusp, which slope":
+        CHOICE-CONSUMING by the record's own words (TOE_REQUIREMENTS_LEDGER
+        section E row 3 calls them "three discrete choices").  Not computed here.
+    E3/E4  m202 and m129: these CHANGE THE OBJECT rather than construct from
+        it, so the lemma does not apply and neither is an equivariant route.
+        Their chirality is measured below only to state the routes accurately.
+
+    m202  amphichiral_det = False   |Sym| = 12   cusps = 2   vol = 4.059766
+    m129  amphichiral_det = False   |Sym| = 8   cusps = 2   vol = 3.663862
+
+    -> PART E = A : no named route is an equivariant construction on m004 yielding a chiral object.
+
+------------------------------------------------------------------------------
  VERDICT
 ------------------------------------------------------------------------------
-    PART C = A    PART V = A
+    PART C = A    PART V = A    PART E = A
     controls: ALL PASSED
-
-    PART E (the four named escape routes) is adjudication against the record,
-    not a computation; it is carried in the memo, from the seal's fixed list.

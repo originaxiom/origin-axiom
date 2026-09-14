@@ -272,15 +272,76 @@ def main() -> int:
     if cyc_chiral != 0:
         failures.append("LEMMA-CROSSCHECK")
 
+    # ------------------------------------------------------------------ PART E
+    rule("PART E -- the four named escape routes, from the seal's fixed list")
+    print("""
+    E1 is COMPUTED here, not adjudicated: by the lemma's contrapositive a
+    chiral cover's subgroup class is NOT sigma-fixed, so the mirror carries
+    each chiral cover to a DIFFERENT cover.  If so they must come in mirror
+    PAIRS, and choosing one is exactly one bit -- the bit B1163 proves the
+    object cannot supply.  That is a prediction with a number, so measure it.
+""")
+    chir = []
+    for d in range(2, VACUITY_COVER_DEGREE + 1):
+        try:
+            for C in base.covers(d):
+                if amphichiral_det(C) is False:
+                    chir.append((d, C))
+        except Exception:
+            continue
+    print(f"    chiral covers to degree {VACUITY_COVER_DEGREE}: {len(chir)}")
+    used, pairs, unpaired = set(), [], []
+    for i, (d, C) in enumerate(chir):
+        if i in used:
+            continue
+        Cm = mirror(C)
+        found = None
+        for j, (d2, D) in enumerate(chir):
+            if j <= i or j in used or d2 != d:
+                continue
+            try:
+                if D.is_isometric_to(Cm):
+                    found = j
+                    break
+            except Exception:
+                pass
+        if found is None:
+            unpaired.append((d, i))
+        else:
+            used.update((i, found))
+            pairs.append(d)
+    from collections import Counter
+    print(f"    mirror PAIRS among them : {len(pairs)}   by degree {dict(Counter(pairs))}")
+    print(f"    UNPAIRED                : {len(unpaired)}  {unpaired}")
+    e1_paired = (len(unpaired) == 0 and len(chir) == 2 * len(pairs) and len(chir) > 0)
+    print(f"    -> E1 {'CHOICE-CONSUMING, and the choice is exactly ONE BIT' if e1_paired else 'NOT the clean pairing -- reported as such'}")
+    if not e1_paired:
+        failures.append("E1-PAIRING")
+
+    print("""
+    E2  the partial filling -- "which cover, which cusp, which slope":
+        CHOICE-CONSUMING by the record's own words (TOE_REQUIREMENTS_LEDGER
+        section E row 3 calls them "three discrete choices").  Not computed here.
+    E3/E4  m202 and m129: these CHANGE THE OBJECT rather than construct from
+        it, so the lemma does not apply and neither is an equivariant route.
+        Their chirality is measured below only to state the routes accurately.
+""")
+    for nm in ("m202", "m129"):
+        M = snappy.Manifold(nm)
+        print(f"    {nm:5s} amphichiral_det = {amphichiral_det(M)}   "
+              f"|Sym| = {M.symmetry_group().order()}   cusps = {M.num_cusps()}   "
+              f"vol = {float(M.volume()):.6f}")
+    partE = "A" if e1_paired else "B"
+    print(f"\n    -> PART E = {partE} : "
+          + ("no named route is an equivariant construction on m004 yielding a"
+             " chiral object." if partE == "A" else "see above."))
+
     # ------------------------------------------------------------------ verdict
     rule("VERDICT")
-    print(f"    PART C = {partC}    PART V = {partV}")
+    print(f"    PART C = {partC}    PART V = {partV}    PART E = {partE}")
     print(f"    controls: {'ALL PASSED' if not failures else 'FAILED: ' + ', '.join(failures)}")
     if partV == "B":
         print("    PART C's result is VACUOUS and is reported as such, whatever it says.")
-    print("""
-    PART E (the four named escape routes) is adjudication against the record,
-    not a computation; it is carried in the memo, from the seal's fixed list.""")
     return 0 if not failures else 1
 
 

@@ -5247,3 +5247,39 @@ subject is the difference between a measurement and a habit.
 | R145 | **"craft a plan and execute it properly, until we figure out"** — turn R144's diagnosis into an executable programme | `docs/TOE_REQUIREMENTS_LEDGER.md` §A–§E; `frontier/B1028_freedom_ledger/ADDENDUM_2026-08-12.md`; `frontier/B749_genesis_forks` F2–F8 + `frontier/B1323_the_genesis_upgrades` F9; `frontier/B1163_w0_attempt/ADDENDUM_orientation_theorem.md`; `frontier/B1183_one_class_theorem`; `frontier/B1324_arc_b_and_the_dictionary`; `frontier/B1321_l205_the_siblings_localized_count`; `frontier/B282_e6_is_arithmetic_not_geometric`; `frontier/B1186_family_is_112`; `outside_bench/memos/UNIQUENESS_TEST.md` (memo 116); `docs/WHAT_WOULD_COUNT.md` §5 | the gap is **already conceded in the record**: B1028's addendum calls the family-choice row **UNPRICED (flagged)** — *"a fact about the programme's history, not a measurement of the object"* — and has done since 2026-08-12; B749's fork **F1 (A0) is excluded from computation by design** | **THE REQUIRE-AND-TEST PROGRAMME.** Targets sealed (`seals/REQUIRE_AND_TEST_TARGETS.md`) before any computation. The inversion: per requirement, *what must ANY object have to supply this — does m004 have it — and how many objects do?* Every cell carries R/P/T/**B (a base rate over a named census, population printed)**; without B, "m004 has P" is not information | the cells themselves — see the memo |
 
 **Standing rule applied:** the owner's question gets its row the same session.
+
+### ADDENDUM to R145 (same session) — the first two cells, banked
+
+**CELL 1 = C:A · V:A · E:A. CELL 2 = OUTCOME B, D = DIFFERENT.** Memo 231
+(`outside_bench/memos/REQUIRE_AND_TEST.md`), three seals hashed before their certificates existed.
+
+| requirement | the predicate any object must satisfy | m004 | the base rate |
+|---|---|---|---|
+| **2 — chirality** | no orientation-reversing self-isometry | **LACKS**, by theorem (B1163) | **181 / 203 123 = 0.089 %** of the census is amphichiral — m004 is in the tenth of a percent that FAILS |
+| **1 — gauge algebra** | surjects onto 2T = SL(2,𝔽₃) (chain link C6) | **HAS** | **1696 / 5000 = 33.92 %** |
+
+**The two answers, in one line each.**
+
+**Chirality — B1163's theorem climbs the tower.** The lemma (proved in the memo, generalising B1183):
+a finite-index subgroup whose conjugacy class is fixed by an orientation-reversing isometry gives an
+**amphichiral** cover. Cyclic covers are characteristic **by construction**, so the prediction is
+falsifiable without circularity — and over degrees 2…30 it had **29 chances to fail and took none**.
+Then the escape route was *measured*, not argued: **the 18 chiral covers to degree 7 form exactly 9
+mirror pairs, 0 unpaired.** **The tower does not supply the chirality bit; it relocates it.** Choosing a
+chiral cover is choosing one element of a free ℤ/2-orbit — precisely the bit the object cannot supply.
+
+**The gauge algebra — the door is common, and it is not the atom.** The base rate of C6's 2T door had
+never been measured (`absence_sweep`, 13 heads: absent on all twelve others). Measured: **a third of
+the one-cusped census passes it.** B282 read its **six**-knot table as identifying that door with the
+arithmetic atom; stratifying inside B282's own H₁ = ℤ population gives **34.362 %**, so the six-knot
+sample was unrepresentative. And of the 1696 hits only **7** lie in B1186's banked ℚ(√−3) family.
+**B282's genericity collapse extends one link further down: the 2T atom is generic too.**
+
+**What this does to R144's diagnosis.** It stops being a diagnosis. The requirement the object fails is
+one 99.9 % of the census passes; the requirement it passes is one a third of the census passes. Neither
+requirement behaves as the chain reads it — **and neither fact was visible under derive-and-see, because
+neither had a base rate.**
+
+**Not claimed:** falsifier 1 has not fired; PART C's reach is cyclic covers to degree 30; PART E's is
+the seal's four named routes; nothing about E₆ beyond the door (B1258: the 27|2T branching is blind);
+no value. Gate 5 untouched.
