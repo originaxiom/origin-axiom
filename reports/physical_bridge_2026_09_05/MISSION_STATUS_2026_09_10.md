@@ -1,6 +1,19 @@
 # Physical-bridge mission status and next questions
 
-**Latest scientific result, September 13: R29.**
+**Latest local result, R31 (September 15): [global compact Poisson wells](GLOBAL_POISSON.md).**
+The authored Green-kernel argument supplies the uniform interior and
+off-source estimates for R29's fixed compact normalized uniform tubes,
+retaining proper-arc and regulator hypotheses. R30's absolute extending-
+flat realization, with nontrivial L and q beta>=1, therefore has at least
+three positive light Dirac pairs on three strong arcs, not three unpaired
+generations. R19's singular domain remains distinct. Complete cusp
+limits, physical source/end dynamics and quantum completion stay open.
+Native 12/12 checks, 47 new and 115 focused tests pass; broad 508 pass/
+16 fail/8 error has exactly R30's failed/error IDs. These controls are
+not independent proof review, an interval certificate, a compact mesh
+solve, full green, main banking or a completed TOE.
+
+**Earlier scientific checkpoint, September 13: R29.**
 [The coupled source-tube construction](DEFECT_GAUGE.md) now supplies
 an added stationary finite-radius bosonic model and its actual gauge
 operator. At fixed radius on a compact truncation the extra-U1 mass

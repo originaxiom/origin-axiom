@@ -1,5 +1,12 @@
 # Does the current work agree with observed reality?
 
+**September 15 update:** [R31](GLOBAL_POISSON.md) supplies the compact
+normalized-source estimates behind R30's strong-well light-pair bound.
+This constrains hiding partners by shrinking cores; it is not an observed
+particle spectrum or a universal chirality exclusion. Complete end limits,
+physical parameters and a common-theory empirical test remain open.
+No earlier measured-data fixture is updated here.
+
 **Subsequent result, September 13:** [R29](DEFECT_GAUGE.md) constructs
 an added finite-width source and its gauge operator. Its bare shrinking-line
 gap disappears in the stated bulk Hilbert space, not in every defect theory.

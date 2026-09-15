@@ -2960,3 +2960,17 @@ NEXT, in the same model:
 4. Retain the common-model input budget, source/orbit selection and
    same-theory gravity/empirical duties. The scoped smooth-core result
    does not close all defect, topological or interacting hatches.
+
+**R31 movement, same PB-BOUNDARY lead (2026-09-15):** closing sentence
+from reports/physical_bridge_2026_09_05/GLOBAL_POISSON.md:
+"For the fixed compact normalized uniform-source family and R30's
+declared absolute extending-flat fermion realization, the global
+potential has the required interior logarithmic wells and off-source
+bounds; k strong arcs with q beta_j >= 1 and nontrivial L therefore
+give at least k positive light Dirac pairs as width tends to zero,
+not k unpaired Weyl generations."
+This supplies the compact uniform-source sub-duty by an authored
+analytic argument and supporting controls, not independent proof review
+or closure of PB-BOUNDARY. NEXT: complete source/end limits, normalized
+currents and a specified interacting completion with its full anomaly.
+R19's different singular domain and other kinetic spaces remain live.

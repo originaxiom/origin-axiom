@@ -1,5 +1,11 @@
 # R30: what happens to the chiral sector when its cores are resolved?
 
+**Subsequent R31 result:** [the global compact Poisson argument](GLOBAL_POISSON.md)
+now supplies the uniform-source sub-duty under its fixed-truncation and
+proper-arc hypotheses. The original R30 science, runs, correction and
+historical open-duty wording below are retained. Complete cusp limits
+and physical source/end completion remain open.
+
 2026-09-15. Local research on the same physical-bridge mission, not a
 main arc, an independently accepted theorem, or a completed physical theory.
 

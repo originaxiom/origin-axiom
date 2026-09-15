@@ -1,6 +1,20 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**LATEST LOCAL AUDIT, 2026-09-15 (R30): the resolved fermion/domain test.**
+**LATEST LOCAL AUDIT, 2026-09-15 (R31): actual compact Poisson wells.**
+The authored Green-kernel argument supplies uniform interior logarithmic
+and off-source bounds for R29's fixed compact normalized uniform tubes,
+with proper-arc hypotheses retained. R30's absolute extending-flat
+realization, with nontrivial L and q beta>=1, therefore has at least three
+positive light Dirac pairs for three strong arcs, not unpaired generations.
+R19's singular domain remains distinct. Complete cusp limits, physical
+source/end dynamics and full quantum completion remain OPEN. Native
+12/12 checks, 47 new and 115 focused tests pass; broad 508 pass/16 fail/
+8 error retains exactly R30's failed/error IDs. No independent proof
+acceptance, interval certification, compact mesh solve, new B, main bank,
+full green or completed TOE.
+Report: reports/physical_bridge_2026_09_05/GLOBAL_POISSON.md.
+
+**PRECEDING LOCAL AUDIT, 2026-09-15 (R30): the resolved fermion/domain test.**
 An added quadratic extension of R29 with positive bulk norm, extending
 flat coefficients and absolute compact data has ordinary twisted
 cohomology at each finite width. The true nontrivial source-C3 points

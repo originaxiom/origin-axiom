@@ -1,0 +1,139 @@
+R31 reporting and evidence-custody checkpoint, 2026-09-15.
+
+
+Follow-on validation after this receipt and report pointer were added:
+The entire gate output is byte-identical to the first reporting run;
+26 PASS / 4 FAIL including the additional attribution item remain.
+Integrity exits zero with 452 artifact paths and 187 resolving links;
+all previously listed science hashes, receipts and populations still match.
+These follow-on receipt lines are added after the runs they describe.
+
+reporting_gates_followup
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "<python3.12-env>/bin/python3.12",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 21.145444000023417,
+  "log_bytes": 1916,
+  "log_sha256": "e19a8c36dcdada282521b8f04be0b1252ea2e636d6e911f0ae75c67181b23be4"
+}
+Raw receipt SHA256: 28440ee1e92495c838b7cc1801ea7670349c0e19cfdda85dde9e2935dee1ceec
+
+final_integrity_followup
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+    "/Users/dri/Documents/temp001"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 1.6575299999676645,
+  "log_bytes": 615,
+  "log_sha256": "621267033c1d764e4946a278620de43119d09df4771688b7fd580d941e0e74ec"
+}
+Raw receipt SHA256: bb44e1d8841e4598bc70a2875bcdd2a21de0c25f43d8acbf60ec5c4af25efc5c
+Science was sealed and pushed at bd5009c4e5037513fd139ecc23e6302e526c863f
+before execution. All eight R31 sealed paths and the 11 earlier R30/C3
+science/prior paths remain byte-identical to their respective seals.
+
+The first reporting gate run exits 1: 26 PASS / 4 FAIL. Unlike the four
+unchanged fail categories, attribution DETAIL has one additional item:
+GLOBAL_POISSON_RETRIEVAL.json contains one vendor token in a retained
+historical ref name. That sealed metadata is not edited after scientific
+execution or silently exempted. The other two attribution items, two
+old static vacuity tests, old seal-provenance failures and 24-day stale
+relay debt remain. Review is due at 162 merges. This is not full green.
+
+The first integrity run exits 0: 451 artifact paths, 96 latest distinct
+seals, eight unchanged R31 inputs, 11 unchanged R30/C3 inputs, nine R31
+and 14 earlier raw captures, four new and seven earlier public outputs.
+The broad population is exactly the ordered R30 52 files followed by
+the C3 correction and R31 (54 total); all 24 failure/error IDs match.
+The history population digest matches. 186 checked relative links
+resolve. This is byte custody, not independent proof review.
+
+Authored staged whitespace passes; original trailing whitespace in the
+broad raw output is retained. The all-file check also passes with only
+blank-at-end-of-line complaints disabled for that preserved output.
+No scientific producer or assertion was changed to make a check pass.
+
+This receipt was written after the runs it describes and is not claimed
+as an input to those runs. Follow-on metadata validation is separate.
+
+reporting_gates_first
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "<python3.12-env>/bin/python3.12",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 23.773744000005536,
+  "log_bytes": 1916,
+  "log_sha256": "e19a8c36dcdada282521b8f04be0b1252ea2e636d6e911f0ae75c67181b23be4"
+}
+Raw receipt SHA256: 37b878ca778d6c22756e66666e2a627a6b9c30b6b1709feec514b56c2473f793
+Output, unchanged:
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 45 open |   relay-debt: 1 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 24 days (> 21), no ESCALATED marker
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 162 merges since last review (DUE — run the decadal review)
+
+
+final_integrity_first
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+    "/Users/dri/Documents/temp001"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 1.868544999975711,
+  "log_bytes": 615,
+  "log_sha256": "d498a558634146e477265d5df903c966d827b26f7953571af8ad44610324ffa7"
+}
+Raw receipt SHA256: 78eb150e76d39774f25af4567eb2584630d8d4b00aac4281580ad131afae7f9c
+Output, unchanged:
+{"old_custody":{"artifacts":451,"latest_distinct_seals":96,"unchanged_science_paths":11,"raw_captures":14,"public_science_copies":7,"broad_test_files":52,"unchanged_failed_error_ids":24,"relative_markdown_links":186,"scope":"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green."},"unchanged_r31_science_paths":8,"r31_raw_captures":9,"r31_public_copies":4,"r31_broad_test_files":54,"unchanged_failed_error_ids":24,"history_population_verified":true,"scope":"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green."}

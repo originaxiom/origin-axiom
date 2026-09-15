@@ -1,0 +1,314 @@
+{
+  "date": "2026-09-15",
+  "scientific_seal": "bd5009c4e5037513fd139ecc23e6302e526c863f",
+  "redaction": "Only declared interpreter/environment prefixes and the absolute repository prefix. Raw digests are unredacted. No scientific assertion, number or failure was changed.",
+  "runs": {
+    "native_first": {
+      "raw_basename": "oa_r31_native_first",
+      "public_path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_NATIVE_FIRST.json",
+      "public_sha256": "8b57dc4f203caf79832c089903430e6b4367fb3bedb8f2a7c62917c70a204f1c",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/global_poisson.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.9742829999886453,
+        "log_bytes": 10021,
+        "log_sha256": "8b57dc4f203caf79832c089903430e6b4367fb3bedb8f2a7c62917c70a204f1c"
+      },
+      "raw_receipt_sha256": "70c7fe01f6a9387d0884522be15f8a2aab89020ee03fe78333382e6c01991015"
+    },
+    "tests_first": {
+      "raw_basename": "oa_r31_tests_first",
+      "public_path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_TESTS_FIRST.txt",
+      "public_sha256": "62bb3f189105d18ed8b56ede4cfe89f9ce34d48d9f6bdccdbd0ae7cc05f6b147",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "tests/test_physical_bridge_global_poisson.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.4305739999981597,
+        "log_bytes": 99,
+        "log_sha256": "62bb3f189105d18ed8b56ede4cfe89f9ce34d48d9f6bdccdbd0ae7cc05f6b147"
+      },
+      "raw_receipt_sha256": "5f8cb16a462e2fc02f879da8094c7fdd50515ac5e49ffc93a81103128e6cec5d"
+    },
+    "focused_first": {
+      "raw_basename": "oa_r31_focused_first",
+      "public_path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_FOCUSED_FIRST.txt",
+      "public_sha256": "7323a459e26d09baef5f09663c88955f62132db992708959626d07e92e616752",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "tests/test_physical_bridge_global_poisson.py",
+          "tests/test_physical_bridge_global_singular.py",
+          "tests/test_physical_bridge_defect_gauge.py",
+          "tests/test_physical_bridge_resolved_fermion.py",
+          "tests/test_physical_bridge_resolved_fermion_c3_control.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 24.157302999985404,
+        "log_bytes": 684,
+        "log_sha256": "ba7d43e5a20bc56e2e012f0d02f0a878255dc20ff17b6c34b44454fe2d0e0ad1"
+      },
+      "raw_receipt_sha256": "6ef29ed3c85ef816d02a445885ababb68531710c79d81b1cf0d81341c8875f7f"
+    },
+    "broad_first": {
+      "raw_basename": "oa_r31_broad_first",
+      "public_path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_REGRESSION.txt",
+      "public_sha256": "651c87ac403afaf646afbe69858ad3e04b8106d29398528f6971aceb54db887c",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "tests/test_b1084_g2_cone.py",
+          "tests/test_b1105_b1106_locks.py",
+          "tests/test_b1255_generation_type.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_boundary_index.py",
+          "tests/test_physical_bridge_boundary_wall.py",
+          "tests/test_physical_bridge_broken_vacuum.py",
+          "tests/test_physical_bridge_charged_domain.py",
+          "tests/test_physical_bridge_charged_domain_control.py",
+          "tests/test_physical_bridge_cusp_tail.py",
+          "tests/test_physical_bridge_family_action.py",
+          "tests/test_physical_bridge_family_dispatch.py",
+          "tests/test_physical_bridge_family_domain.py",
+          "tests/test_physical_bridge_finite_alignment.py",
+          "tests/test_physical_bridge_g2_export.py",
+          "tests/test_physical_bridge_g2_isolation.py",
+          "tests/test_physical_bridge_gauge_running.py",
+          "tests/test_physical_bridge_geometric_completion.py",
+          "tests/test_physical_bridge_global_mass_flux.py",
+          "tests/test_physical_bridge_global_mass_flux_control.py",
+          "tests/test_physical_bridge_global_singular.py",
+          "tests/test_physical_bridge_harmonic_cusp.py",
+          "tests/test_physical_bridge_harmonic_transport.py",
+          "tests/test_physical_bridge_higgs_control_repair.py",
+          "tests/test_physical_bridge_higgs_sector.py",
+          "tests/test_physical_bridge_holonomy_equivariance.py",
+          "tests/test_physical_bridge_holonomy_equivariance_word_control.py",
+          "tests/test_physical_bridge_holonomy_spectrum.py",
+          "tests/test_physical_bridge_index_stability.py",
+          "tests/test_physical_bridge_infrared_alignment.py",
+          "tests/test_physical_bridge_legacy_audit.py",
+          "tests/test_physical_bridge_mass_inflow.py",
+          "tests/test_physical_bridge_mass_inflow_bundle_control.py",
+          "tests/test_physical_bridge_mass_match.py",
+          "tests/test_physical_bridge_partial_filling.py",
+          "tests/test_physical_bridge_quantum_derivative.py",
+          "tests/test_physical_bridge_quantum_result.py",
+          "tests/test_physical_bridge_quantum_shift.py",
+          "tests/test_physical_bridge_quantum_shift_control.py",
+          "tests/test_physical_bridge_quantum_vacuum.py",
+          "tests/test_physical_bridge_singular_cusp.py",
+          "tests/test_physical_bridge_upstream.py",
+          "tests/test_physical_bridge_upstream_second.py",
+          "tests/test_physical_bridge_vacuum.py",
+          "tests/test_physical_bridge_vacuum_orientation.py",
+          "tests/test_physical_bridge_weighted_cohomology.py",
+          "tests/test_physical_bridge_finite_twist.py",
+          "tests/test_physical_bridge_finite_twist_reductivity.py",
+          "tests/test_physical_bridge_resolved_fermion.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "--tb=short",
+          "tests/test_physical_bridge_source_action.py",
+          "tests/test_physical_bridge_defect_gauge.py",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_resolved_fermion_c3_control.py",
+          "tests/test_physical_bridge_global_poisson.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 385.9989380000625,
+        "log_bytes": 23683,
+        "log_sha256": "0c27aa700e10625816c55126438d3139fa80fb061ad77da91fd08a3d9da5c756"
+      },
+      "raw_receipt_sha256": "8ca7bb95b3d55dd43d11ef620fd8bd4ac7b8d64571201d97a51cdcf9658bd3c7"
+    }
+  },
+  "audit_runs": {
+    "banked_first": {
+      "raw_basename": "oa_r31_banked_first",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "Green kernel Poisson line source uniform logarithmic well"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.8254580000648275,
+        "log_bytes": 3637,
+        "log_sha256": "9eae408731ceb1f36431aaac223a4aac0acf4fc8bd49043fe7d654ce16650a25"
+      },
+      "raw_receipt_sha256": "ce9b9d4a6b78834c2e1cde762daf8f8acf9883e65a8de369b342a82978f0b290"
+    },
+    "atlas_first": {
+      "raw_basename": "oa_r31_atlas_first",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/atlas/query.py",
+          "card",
+          "global Poisson logarithmic well"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.07924600003752857,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "raw_receipt_sha256": "add772eaacb39f6d74980f164303ea0a347f25a510bc6b2d93b246e48bcfd295"
+    },
+    "absence_first": {
+      "raw_basename": "oa_r31_absence_first",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "Green.kernel|line.source|singular.{0,15}subtract|uniform.{0,40}Poisson|logarithm.{0,25}well|shrink.{0,20}tube"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 5.2204320000018924,
+        "log_bytes": 419,
+        "log_sha256": "fc80006b0b8bcdff0d36b1d5d21b5912c9fa0904fb988efaa599a2b0bdeab0be"
+      },
+      "raw_receipt_sha256": "90e871fb8547572646abbfec667c1877bf255f306833d50cb281b5efa980f39b"
+    },
+    "absence_regex_control": {
+      "raw_basename": "oa_r31_absence_regex_control",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "--regex",
+          "Green.kernel|line.source|singular.{0,15}subtract|uniform.{0,40}Poisson|logarithm.{0,25}well|shrink.{0,20}tube"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 45.95863700006157,
+        "log_bytes": 3324,
+        "log_sha256": "99bc4510807fc4e4eb5dcf8e4ceaa209593ee5eeb09ec54b39ee4ebacc26761d"
+      },
+      "raw_receipt_sha256": "b978c0bbe343fa9f38c6cc93bb1eedf559eb100a8c480560e83c7b1992f5a096"
+    },
+    "history_first": {
+      "raw_basename": "oa_r31_history_first",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/global_poisson_history_scan.rb",
+          "/Users/dri/Documents/temp001/oa_r31_history_population_first.json"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 103.78974599996582,
+        "log_bytes": 372,
+        "log_sha256": "378c1f0615bae028146179e5aa5ca96a58435a9ac60d7434976bde80e82b40d2"
+      },
+      "raw_receipt_sha256": "38cca7b946d76c2be0879492807b584caaa7fc0c2a9f6c70b97c96dfe30dec7f"
+    }
+  },
+  "old_failed_error_ids": [
+    "ERROR tests/test_physical_bridge_family_action.py::test_commuting_split_reconstructs_literal_action_exactly",
+    "ERROR tests/test_physical_bridge_family_action.py::test_exact_arithmetic_and_input_provenance_are_retained",
+    "ERROR tests/test_physical_bridge_family_action.py::test_family_lift_has_order_three_and_lie_centralizer_control",
+    "ERROR tests/test_physical_bridge_family_action.py::test_lattice_integrality_and_a_corrupt_root_are_checked",
+    "ERROR tests/test_physical_bridge_family_action.py::test_map_is_equivariant_and_orientation_is_not_silently_fixed",
+    "ERROR tests/test_physical_bridge_family_action.py::test_marked_map_verifies_all_products_and_rejects_bad_assignment",
+    "ERROR tests/test_physical_bridge_family_action.py::test_root_space_actions_are_not_identified_from_orbit_counts",
+    "ERROR tests/test_physical_bridge_family_action.py::test_six_classes_have_the_same_cycles_but_distinct_internal_actions",
+    "FAILED tests/test_physical_bridge_charged_domain.py::test_all_eight_exact_hyperbolic_zero_branches",
+    "FAILED tests/test_physical_bridge_charged_domain.py::test_general_zero_and_top_solutions_and_cusp_separation",
+    "FAILED tests/test_physical_bridge_charged_domain.py::test_independent_quadrature_and_actual_hyperbolic_measure",
+    "FAILED tests/test_physical_bridge_charged_domain.py::test_nonzero_green_form_and_distinct_complex_domains",
+    "FAILED tests/test_physical_bridge_finite_twist.py::test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp",
+    "FAILED tests/test_physical_bridge_finite_twist.py::test_non_self_duality_has_an_actual_obstruction_and_dual_character_map",
+    "FAILED tests/test_physical_bridge_g2_isolation.py::test_upstream_element_test_can_pass_without_testing_the_inference",
+    "FAILED tests/test_physical_bridge_global_mass_flux.py::test_actual_twisted_connection_transports_both_spin_factors",
+    "FAILED tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance",
+    "FAILED tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_complete_numerical_geometry_control_and_two_cusp_descent",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_every_scalar_lift_of_pair_free_character_has_central_obstruction",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_sixfold_and_full_scalar_invariance_force_trivial_character"
+  ],
+  "new_failed_error_ids": [
+    "ERROR tests/test_physical_bridge_family_action.py::test_commuting_split_reconstructs_literal_action_exactly",
+    "ERROR tests/test_physical_bridge_family_action.py::test_exact_arithmetic_and_input_provenance_are_retained",
+    "ERROR tests/test_physical_bridge_family_action.py::test_family_lift_has_order_three_and_lie_centralizer_control",
+    "ERROR tests/test_physical_bridge_family_action.py::test_lattice_integrality_and_a_corrupt_root_are_checked",
+    "ERROR tests/test_physical_bridge_family_action.py::test_map_is_equivariant_and_orientation_is_not_silently_fixed",
+    "ERROR tests/test_physical_bridge_family_action.py::test_marked_map_verifies_all_products_and_rejects_bad_assignment",
+    "ERROR tests/test_physical_bridge_family_action.py::test_root_space_actions_are_not_identified_from_orbit_counts",
+    "ERROR tests/test_physical_bridge_family_action.py::test_six_classes_have_the_same_cycles_but_distinct_internal_actions",
+    "FAILED tests/test_physical_bridge_charged_domain.py::test_all_eight_exact_hyperbolic_zero_branches",
+    "FAILED tests/test_physical_bridge_charged_domain.py::test_general_zero_and_top_solutions_and_cusp_separation",
+    "FAILED tests/test_physical_bridge_charged_domain.py::test_independent_quadrature_and_actual_hyperbolic_measure",
+    "FAILED tests/test_physical_bridge_charged_domain.py::test_nonzero_green_form_and_distinct_complex_domains",
+    "FAILED tests/test_physical_bridge_finite_twist.py::test_domain_input_is_an_actual_irreducible_representation_and_unipotent_cusp",
+    "FAILED tests/test_physical_bridge_finite_twist.py::test_non_self_duality_has_an_actual_obstruction_and_dual_character_map",
+    "FAILED tests/test_physical_bridge_g2_isolation.py::test_upstream_element_test_can_pass_without_testing_the_inference",
+    "FAILED tests/test_physical_bridge_global_mass_flux.py::test_actual_twisted_connection_transports_both_spin_factors",
+    "FAILED tests/test_physical_bridge_higgs_sector.py::test_full_constraint_J_H_derivatives_and_complex_covariance",
+    "FAILED tests/test_physical_bridge_higgs_sector.py::test_parameter_controls_remove_or_restore_light_modes",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_c3_fixes_exactly_trivial_and_the_two_cube_root_characters",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_complete_numerical_geometry_control_and_two_cusp_descent",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_every_scalar_lift_of_pair_free_character_has_central_obstruction",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_nontrivial_c3_characters_form_a_pair_with_six_element_stabilizers",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_simply_connected_fixed_holonomies_are_central_and_adjoint_trivial",
+    "FAILED tests/test_physical_bridge_holonomy_equivariance.py::test_sixfold_and_full_scalar_invariance_force_trivial_character"
+  ],
+  "history_population": {
+    "raw_basename": "oa_r31_history_population_first.json",
+    "bytes": 373304,
+    "sha256": "0fca1e266dd3571357fcfe517aa8e68f62635c95d341c96f3486ea2f8753884f"
+  },
+  "scope": "Author-run supporting controls and evidence custody; not independent proof review or full-repository green."
+}

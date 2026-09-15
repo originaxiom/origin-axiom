@@ -14925,3 +14925,28 @@ full-suite green, global chirality no-go or complete physical TOE.
 Next prove the global well estimates, then the complete source/end
 limit and its actual low-energy spectrum, currents and quantum completion.
 Report: reports/physical_bridge_2026_09_05/RESOLVED_FERMION.md.
+
+## 2026-09-15 — R31: global Poisson wells and light paired fermions
+
+The actual fixed compact normalized uniform-source solution has an
+authored Green-kernel proof of R30's uniform interior logarithmic and
+off-source estimates, with cap mass and boundary enlargement explicit.
+For nontrivial extending flat L, absolute outer data and q beta>=1,
+at least three light Dirac pairs occur for three strong proper arcs.
+These are not three unpaired Weyl generations; R19's singular domain
+and its conditional three/zero result remain distinct.
+
+Scientific seal bd5009c4 was pushed before execution; all eight sealed
+inputs are unchanged. Native 12/12 checks, 47 new and 115 focused tests
+pass. Broad 508 pass/16 fail/8 error retains exactly R30's 24 failed/error
+IDs. All captures, including the initial incorrect literal search, remain.
+Independent tube convolution and endpoint controls support the proof,
+not an interval certificate, independent proof review or compact mesh
+solve. Both kernel and line-source papers were personally read in full.
+
+Next derive complete end/domain limits, normalized currents and a
+specified interacting source/end completion with its full anomaly.
+No physical width/strength, exactly-three light count, empirical mass,
+full-parent lift, same-theory gravity, new B, main bank, full green or
+complete TOE is claimed. PB-BOUNDARY stays OPEN.
+Report: reports/physical_bridge_2026_09_05/GLOBAL_POISSON.md.

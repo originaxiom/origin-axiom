@@ -1,6 +1,19 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
-**Latest local result, R30 (September 15): [fermions through resolved cores](RESOLVED_FERMION.md).**
+**Latest local result, R31 (September 15): [global compact Poisson wells](GLOBAL_POISSON.md).**
+The authored Green-kernel argument supplies the uniform interior and
+off-source estimates for R29's fixed compact normalized uniform tubes,
+retaining proper-arc and regulator hypotheses. R30's absolute extending-
+flat realization, with nontrivial L and q beta>=1, therefore has at least
+three positive light Dirac pairs on three strong arcs, not three unpaired
+generations. R19's singular domain remains distinct. Complete cusp
+limits, physical source/end dynamics and quantum completion stay open.
+Native 12/12 checks, 47 new and 115 focused tests pass; broad 508 pass/
+16 fail/8 error has exactly R30's failed/error IDs. These controls are
+not independent proof review, an interval certificate, a compact mesh
+solve, full green, main banking or a completed TOE.
+
+**Preceding local result, R30 (September 15): [fermions through resolved cores](RESOLVED_FERMION.md).**
 The declared quadratic extension of R29 has an explicit absolute compact
 domain and full core transmission. Its finite-width kernel is ordinary
 twisted cohomology: zero for the true nontrivial source-C3 characters.
@@ -70,7 +83,8 @@ result on every branch.
 - [x] Execute one specified finite-width fermion extension with its compact
   absolute domain, whole-core transmission, actual Fox attachment and
   source-C3 control. Its generic finite-width kernel is zero; conditional
-  shrinking-well light partners need a uniform global Poisson estimate.
+  shrinking-well light partners had a global Poisson duty, now supplied
+  for the fixed compact normalized uniform-source family by R31.
   This does not retract the original singular kernel or finish the end
   theory. [R30](RESOLVED_FERMION.md).
 - [x] Construct an added coupled source on compact truncations and derive
@@ -173,10 +187,13 @@ E6/Z3 parent; R21's explicit subgroup map is a narrower, valid tool.
 - [x] Derive the domain and finite-width kernel for the DECLARED minimal
   compact quadratic extension: R30. This is a model test, not physical
   selection of the outer absolute condition or full source fermions.
-- [ ] Establish R30's uniform global Poisson well bounds on the actual
-  source geometry; then analyze the complete-end limit and interactions.
-  Do not exchange width and cusp limits or infer a heavy mirror from a
-  zero exact finite-width kernel.
+- [x] Supply the uniform interior and off-source Poisson estimates for
+  the actual fixed compact normalized uniform-source family, with the
+  proper-arc hypotheses retained: [R31](GLOBAL_POISSON.md). Authored
+  analytic proof and controls, not independent proof acceptance.
+- [ ] Analyze the complete-end limit and interactions. Do not exchange
+  width and cusp limits or infer heavy partners from a zero exact kernel;
+  R31 now gives light partners in its specified strong-source regime.
 - [x] Verify the prescribed bulk background is stationary: R28.
 - [x] Supply a declared finite-width bosonic source and stationary compact
   construction: R29. The complete end sector and fermionic theory are
