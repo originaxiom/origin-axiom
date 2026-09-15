@@ -87,3 +87,67 @@ the 2T/Q₈ permuting the three imaginary quaternion units of Q₈ ⊂ 2T (B1269
 - **Outcome A is not progress toward chirality.** It sharpens a requirement on an object nobody has
   built.
 - Gate 5 untouched; nothing promotes to `CLAIMS.md`.
+
+---
+
+## ADDENDUM 1 (2026-09-15, POST-BANK) — **THE CELL'S CENTRAL TEST WAS VACUOUS. BENCH ERROR #36.** The replacement test is named here BEFORE v2 is written.
+
+**The defect, stated first.** In `certificates/the_two_threes.py`:
+
+```
+side A:   img          = qmul(qmul(W, base), qinv(W))        # conjugation by w on {i,j,k}
+side B:   conj_v(W, n) = modpm(qmul(qmul(W, n), qinv(W)))    # THE SAME conjugation, mod ±1
+```
+
+**Side B is side A relabelled through V₄ = Q₈/{±1}.** `sideB[x] == sideA[x]` by construction, so the
+headline — *"the natural map is ℤ/3-equivariant: True"* — **compares an object with itself and
+carries no information.** Y₃ enters the certificate **only** in Z4 (the F(2,6) fingerprint), which
+never touches the deck action. **The cell restated B1273; it did not test it**, and memo 233's
+*"re-derives it exactly rather than citing it"* is false for the half that matters.
+
+**Why Z3 did not catch it.** Z3 perturbs the **comparator** (transposing i↔j); the defect is in the
+**derivation of the two inputs**. A control on the comparator cannot detect that two inputs are one
+input. Same class as this bench's earlier **V5** error (merging `dup` into `res`, then "comparing"
+them). **Filed as BENCH ERROR #36: a control on the comparison does not establish independence of
+the things compared.**
+
+**A second, milder overstatement.** Even with an independent side B, *"an equivariant bijection
+exists"* is **automatic** once both actions are 3-cycles — both triples are then the regular ℤ/3-set.
+The content is not equivariance. **The real question is binary:** is the deck action on the three
+characters a **3-cycle** or **trivial**?
+
+**A third, procedural.** Z1 ran to `/tmp/z1.txt` — cited as a control with **no committed artifact**,
+against the rule that evidence a lock reads must live in the repository (R91).
+
+## THE REPLACEMENT TEST — side B from KNOT THEORY ONLY, no quaternions
+
+**Preregistered outcomes, and the refuting one is named:**
+
+- **A′ — the deck action on the three order-2 characters is a 3-CYCLE.** Then both triples are free
+  transitive ℤ/3-sets, hence isomorphic as ℤ/3-sets, and memo 233's conclusion **stands — now on a
+  computation instead of a restatement.**
+- **B′ — the action is TRIVIAL.** Then the two ℤ/3's cannot be identified, **outcome A is REFUTED,
+  and memo 233's banked conclusion is retracted in all three places** — not softened.
+
+**What v2 computes, in a module that never imports the quaternion code:**
+
+1. `Δ(t)` for m004 from **SnapPy's `alexander_polynomial()`**, not hardcoded.
+2. `H₁(Y₃) = ℤ[t]/(t³ − 1, Δ(t))` — basis (1, t, t²), relations `Δ·tʲ`; Smith form.
+3. The deck **t = the cyclic shift** of that basis; `T³ = I`.
+4. The induced action on `H₁/2H₁ ≅ (ℤ/2)²` and the permutation of its three non-zero classes — the
+   three order-2 characters B1273 calls χ₁, χ₂, χ₃.
+5. **The question: 3-cycle or trivial?**
+6. Only then side A, reported as *"both are free transitive ℤ/3-sets"* — **never** as a non-trivial
+   equivariance result.
+
+**Controls:**
+
+| # | control | catches |
+|---|---|---|
+| **V-INDEP** | side B computed in a namespace that imports **nothing** from the quaternion side; stated in the output | **#36 recurring** — the whole point |
+| **V-FIRE** | the routine must **return the other answer**: a synthetic module with `T = I` must be reported TRIVIAL | memo 164 |
+| **V-CROSS** | SnapPy's 3-fold cyclic cover, filled (1,0), reproduces `H₁` and gives **volume ≈ 0**, independently of the Alexander route | a drifted presentation; corroborates B1273's flat identification |
+| **V-Z1** | Z1 re-run into a **committed** output file, terms stated | R91 |
+
+**Fences unchanged:** X is not constructed; no b₂ of any 7-manifold computed or inferred; **I-26
+UNEARNED**, no generation count; **not progress toward chirality**. Gate 5 untouched.
