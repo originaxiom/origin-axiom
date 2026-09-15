@@ -11030,5 +11030,29 @@
    "mtc-overlay"
   ],
   "fact_computed": null
+ },
+ {
+  "id": "B1407",
+  "claim_killed": "That L209 (which branch of the theta-even mirror row is licensed) was an owner's choice. The row's own spec says one shot with ZERO anchors consumed, so branch A -- whose anchor is non-zero by construction -- is unlicensed, and branch B is dead on power (R11 ties at zero with no third ear-discriminating direction); the row is closed, and the binding obstruction is power, not accounting.",
+  "kill_form": "Computed on the paper-verification lane (2026-09-14), L209 WAS NEVER A CHOICE: THE ROW'S SPEC SETTLES IT, THE ROW ; routed by main at the merge (2026-09-15), the lane's checks re-run in its suite (6611 passed at 6f513e19).",
+  "hatch": "a re-licensing of the mirror row by the owner with a spec that admits a non-zero anchor",
+  "priority": "high",
+  "routed_from": "main, at the merge of the paper-verification lane (2026-09-15), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the last licensed contact row cannot be fired on either branch as the spec stands; a new licence needs a spec that admits anchors or a value channel with 1e-2 to 1e-3 relative precision (B1408). The owner's earlier HELD FOR OWNER ELECTION on this row is superseded by this closure and should be confirmed at the merge (2026-09-15).",
+  "faces_consulted": "the lane's own verdict file and FINDINGS (frontier/B1407_l209_was_never_a_choice); its suite at 6f513e19",
+  "fact_computed": "L209 WAS NEVER A CHOICE: THE ROW'S SPEC SETTLES IT, THE ROW IS DEAD, AND THE BINDING OBSTRUCTION IS POWER RATHER THAN ACCOUNTING. 19/19 checks. THE CORRECTION FIRST. B1405 left L209 'decidable, not decided', and this bench put the fork to the owner as a judgement -- 'is the row about the object, or about a residue class?' That was WRONG, and the owner's push is what caught it. THE ROW'S SPECIFICAT",
+  "revival_score": 2
+ },
+ {
+  "id": "B1408",
+  "claim_killed": "That the mirror sector (L216) could pay a value before its one-shot window was spent. Closed negative before the window was spent: the odd sector carries exactly one number, the value channel needs ~1e-2 to 1e-3 relative precision, an index channel ~1e-1, and ~1e-1 is what was available.",
+  "kill_form": "Computed on the paper-verification lane (2026-09-14), L216 CLOSED NEGATIVE BEFORE THE WINDOW WAS SPENT, THE MIRROR; routed by main at the merge (2026-09-15), the lane's checks re-run in its suite (6611 passed at 6f513e19).",
+  "hatch": "a spec that admits anchors, or an instrument two orders of magnitude sharper (1e-2 to 1e-3 relative)",
+  "priority": "high",
+  "routed_from": "main, at the merge of the paper-verification lane (2026-09-15), for tests/test_b833_negative_routing.py",
+  "note": "Read as a specification: the obstruction is quantified -- a precision requirement, not an accounting one -- so the row re-opens only with an instrument two orders of magnitude sharper.",
+  "faces_consulted": "the lane's own verdict file and FINDINGS (frontier/B1408_the_precision_requirement); its suite at 6f513e19",
+  "fact_computed": "L216 CLOSED NEGATIVE BEFORE THE WINDOW WAS SPENT, THE MIRROR SECTOR CLOSED ENTIRE, AND THE OBSTRUCTION QUANTIFIED: THE VALUE CHANNEL NEEDS ~1e-2 TO 1e-3 RELATIVE PRECISION, AN INDEX CHANNEL NEEDS ~1e-1, AND ~1e-1 IS WHAT WAS AVAILABLE. 12/12 checks. THE ODD SECTOR CARRIES EXACTLY ONE NUMBER. Computed at B1349's exactness on the 2-dimensional theta-odd sector over the complete period: EAR-INDEPENDE",
+  "revival_score": 2
  }
 ]

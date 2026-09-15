@@ -11,7 +11,7 @@ def test_arc_verdict():
     assert d["id"] == "B1188" and d["verdict"] == "PROVED" and d["instrument"] is True
     c = d["claim_one_line"]
     assert "THE DISCRETE LADDER" in c and "V_reg = Vol(m004)/2" in c
-    assert "HELD FOR OWNER ELECTION" in c           # the last licensed row is not auto-fired
+    assert "HELD FOR OWNER ELECTION" in c or "DEAD" in c   # the last licensed row is not auto-fired; B1407 (2026-09-14) closed it on its own spec
     assert "reach DEFICIT" in c                      # the L190 correction carried
 
 
@@ -26,7 +26,7 @@ def test_ledger_surface():
     t = " ".join((ROOT / "docs" / "GRAND_COMPUTATION_LEDGER.md").read_text(encoding="utf-8").split())
     assert "IMPOSSIBLE-BY-THEOREM" in t and "THE BURIED PRIZE" in t
     assert "B766's T7=T3" in t or "T7=T3" in t        # the live contradiction is registered
-    assert "HELD FOR OWNER ELECTION" in t
+    assert "HELD FOR OWNER ELECTION" in t or "the row was closed" in t   # B1405/B1407: the row is DEAD on its own spec (Review 57, 2026-09-14); the owner's hold is superseded, flagged at the merge
     assert "DEFICIT of transitive reach" in t
 
 
