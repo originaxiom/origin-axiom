@@ -84,6 +84,8 @@ first.** m004's value in the first frame is **4**, not 2 — and 4 is the generi
 manifolds (all cusp numbers), **89.88 % attain 4**, while **0.050 % attain 3** (two of them, m202 and s959 —
 two of the six B1321 found over 61 911).
 
+> **Currency 2026-09-16 (B1414):** the 89.88 % above was computed on the census triangulations as given (E81: an uncanonized isometry list undercounts); on canonical triangulations **3 996 of 4 000 = 99.90 % attain 4** and 4 attain nothing — the "generic value" reading is strengthened, not weakened. The two that attain 3 are unchanged (m202, s959), and they are two of **nine** members to nine tetrahedra (B1321's six plus t10829, t12582, o9_42897; twenty in the full census to ten tetrahedra), none of which keeps the golden face.
+
 **So m004 fails requirement 1's count while carrying the value nine manifolds in ten carry.** This addendum
 adds the frame; **it changes no verdict and strikes nothing.** Certificate:
 `outside_bench/certificates/require_and_test_cell3.py`. Gate 5 untouched; nothing promotes to `CLAIMS.md`.

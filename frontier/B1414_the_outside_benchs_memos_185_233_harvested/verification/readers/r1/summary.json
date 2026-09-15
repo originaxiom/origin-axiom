@@ -1,0 +1,74 @@
+[
+  {
+    "memo": 187,
+    "title": "THE_ERRATUM_LOCALISED",
+    "headline": "eq (32) as printed annihilates nothing; Park's own computation was right; rec.twist.knot.2.m is the operator for 6_1=K_{-2}, not 5_2; arXiv:1201.3314 supplies a verified 5_2 recursion",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "60-convention annihilation test of eq(32) against 5 knots' colored Jones",
+      "order-3 recursion (arXiv:1201.3314 sec4) annihilates 5_2's colored Jones at n=1..6",
+      "classical q->1 limit of verified operator matches A_polynomial_5_2.txt under w<->1/w"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "Main's frontier/B1306_the_older_debt (slice B, same day 2026-09-09) independently reproduces the eq(32)-fails-but-Park's-math-is-right shape from Park's own arXiv source, corroborating not duplicating memo 187. The specific rec.twist.knot.2.m/1201.3314 localisation is not found outside outside_bench/."
+  },
+  {
+    "memo": 200,
+    "title": "THE_Z2_SLOTS_ARE_FULL",
+    "headline": "The Z/2 census has one kind in it (Galois legs on the meeting V4, exactly 3, full); two other bits (section-8 relational bit, Chern-Simons torsion) are different kinds, not legs",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "Hom(V4,Z/2) = 4 elements, 3 non-trivial (trivial group check)",
+      "CS(m003)=1/4, CS(m004)=0, equal volume 2.029883213 (SnapPy chern_simons/volume)",
+      "L192 census recount: 181 amphichiral, 106 at CS=0, 75 at CS=1/4"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "B1174/B1276/B1041 (the census this memo reproduces) are on main. The three-kind typology and the D-torsor/CS(2) split are not found outside outside_bench/. Purely documentary/typing; no new headline number."
+  },
+  {
+    "memo": 204,
+    "title": "THE_OBJECT_IS_6D4",
+    "headline": "The object's D4 is type 6D4 with no triality over Q; B882's conjecture (arithmetic S3 = geometric S3) is REFUTED; addenda show ℚ(√77) buys back type 3D4 and (per memo 222) the Allen invariant E is split",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "K non-cyclic: factor mu / x^3-12x-5, discriminant squarefree part = 77, non-square",
+      "Killing signature of the 28 = (16,12,0) = so(4,4) by exact congruence",
+      "cubic annihilating ad(x8)^2|48 generates K, commutes with all 28, bite controls fail correctly",
+      "sextic irreducibility + F6=K(sqrt77) checks (addendum 2)",
+      "memo 222's ramification count (pari/sage-dependent, flagged for a seat with that tooling)"
+    ],
+    "disputed": false,
+    "on_main": "d",
+    "notes": "K's non-cyclicity itself was ALREADY banked on main (docs/NOVELTY_SWEEP_LEDGER.md, docs/RETRACTED_PHRASES.md, 2026-08-13 W4 cell), which explicitly called unconditional B882 'CLOSED-CIRCULAR' / undischargeable as of 2026-08-18. B1077 (main, 2026-08-19) anticipated type 3D4 (not 6D4) as the KMRT-language restatement of B882. Memo 204's genuinely new step is applying Knus-Tignol's type table + Theorem 4.1 (external PDFs first read here) to get the sharper 6D4 refutation. Zero hits on main for '6D4', 'Knus-Tignol', 'Theorem 4.1', or 'B882 refuted' outside outside_bench/ -- headline not yet on main. Memo's own Sec.6 flags then (Addendum 3) resolves an apparent conflict with B1077/W4 in B1077's favour -- not a live dispute, but a verifier should know it looked like one."
+  },
+  {
+    "memo": 220,
+    "title": "THE_RESIDUAL_IS_DISCHARGED",
+    "headline": "L72's uniqueness-up-to-gauge residual (F-symbols 'not classified') is discharged by RSW arXiv:0712.1377 Sec.5.4's explicit realization classification; the tempting 'modular data determines category' route would have been WRONG (RSW's own conjecture, later disproved)",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "Verlinde fusion rules / quantum dims on rebuilt E6 level-2 stage match RSW Thm 3.2(3)/5.3.6 to 9 sig figs (DOCUMENTARY re-check)",
+      "verify RSW PDF sec 5.4 and sec 2 quotes verbatim on supplied pages",
+      "verify RSW Table 3 lists (E6,k) k=1,2 at ranks 3,9"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "docs/OPEN_LEADS.md:531's L72 row already carries a 2026-09-12 SUPERSEDED-IN-PLACE note (citing outside-bench memos 206-215) ending with exactly this residual as still open ('classification still needs the rank<=4 classification from the literature'). Memo 220 (2026-09-13) is the missing next update -- zero hits for '0712.1377' or 'Rowell-Stong-Wang' anywhere on main. Most actionable finding: a concrete stale-doc-row fix."
+  },
+  {
+    "memo": 224,
+    "title": "THE_FIRST_AXIOM",
+    "headline": "The owner's remembered figure-8-only-with-a-cusp theorem is F9/B1323 (on main, 2026-09-09); it PRICES axiom A1, not discharges it; without A3, GL(2,Z) enumeration forces M=L.S (M^2=LR=A exactly) -- A3's content IS the squaring. Addendum 1 (same day): the CELL-1 identification is WRONG -- the real theorem is Jorgensen's inequality + Callahan Cor 2.4 (memo 225, arc B1345)",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "GL(2,Z)-word enumeration over {L,R,S} det+-1 to length 4: global min |trace|=1 at det=-1, M=L.S, M^2=LR=A (cross-check against B1323's own u3_dictionary.py which already has this identity as L.P)",
+      "CELL 4 control: det=+1 enumeration reproduces A=LR trace 3",
+      "Jorgensen number J(m000)=J(m004)=1 via SnapPy geometric holonomy word-pair minimization (B1345's own script, already on main)"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "SEAL VERIFIED: sha256 of outside_bench/seals/THE_FIRST_AXIOM_PREREG.md matches the memo's quoted hash exactly. Two provenance flags (not math disputes): (1) frontier/B1323_the_genesis_upgrades/FINDINGS.md:75, already on main 4 days earlier, contains the IDENTICAL matrix/squaring identity (M=L.P there, M^2=LR=A) via the Fibonacci-morphism route -- CELL 3's claim that this was 'NOT computed anywhere in the record' is true only of the exhaustive-minimality framing, not the underlying fact. (2) Addendum 1 describes B1345 (Jorgensen/Callahan) as 'on a branch' but frontier/B1345_the_jorgensen_number/ landed on origin/main via commit 83cb185a dated 2026-09-12 -- one day BEFORE the addendum was written; it is fully on main now. Also confirmed: docs/THE_SM_VERDICT.md's '4 axioms+14 unearned=18 rows / 12 irreducible / 0 of 19' fix is on main, credited to memo 223 not 224."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "memo": 193,
+    "title": "THE_GUARD_THAT_CAUSED_THE_DAMAGE",
+    "headline": "Twelve red tests on a clean main, all twelve closed -- two guards (a path-hygiene test, .gitignore's LaTeX rules) damaged what they were built to protect.",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "re-run frontier/B1306_the_older_debt/verification/sliceC/{c_e8_types,c_geodir_h1,c_tits_lift}.py and diff committed JSON (expect byte-identical)",
+      "re-run B511/D3.3 SU(2)-projected walk for 60 steps (expect no NaN, classical mix ~0.895)",
+      "re-run B1137 aggregate.py on the committed real grid (expect overall verdict = DISJOINT)",
+      "SnapPy on m202: Q.is_isometric_to(K, return_isometries=True) vs Q.isomorphisms_to(K) (expect 12 vs 0)"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "Spot-checked repairs all present on main with exact file:line matches: c_e8_types.py:5 (placeholder now comment-only), .gitignore:25-32,99,102 (negations), test_b565_realform.py:50-83 (strengthened gate), test_b616_heldout.py:3-7 (re-pin, matches exactly) plus a later 2026-09-15 refinement, test_p3_verification_package.py:55-61 (stale-manifest trap fixed), main.tex:1058-1063 (retracted amphichirality sentence corrected to 112/38/74). Certificate + output present and verdict line matches headline exactly."
+  },
+  {
+    "memo": 197,
+    "title": "THE_CLOSURE_IS_GENERIC",
+    "headline": "The sealed edge law (closure alternates C.C.C.C.C over Fibonacci windows) is the modal behaviour of a random phase, not a signature of alpha -- one phase in five reproduces it.",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "re-run the 3000-random-phase sweep over nine consecutive Fibonacci windows and confirm mode ~19.77% / mirror ~15.00%",
+      "re-run C-GEN at six Pell (strict-silver) windows and confirm none close"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "docs/OPEN_LEADS.md:1917 (row L173) cites 'outside-bench memo 197' by number verbatim with matching figures (19.77% of 3000, one phase in five) -- the cleanest direct-citation case among my six memos. Certificate output figures match exactly (593/3000=19.77%, silver all-False). The memo's own stated counter-argument (object has no free rho) is left explicitly unadjudicated by both the memo and OPEN_LEADS -- not a dispute, a standing open question for the seal-holder."
+  },
+  {
+    "memo": 203,
+    "title": "THE_LITERATURE_FLOOR",
+    "headline": "Search-only literature floor for KMRT trialitarian algebras; the record's own label for the object's form is WRONG -- it is sixD4, not threeD4 (search-summary confidence only, no full text obtained).",
+    "grade_proposal": "DISPUTED",
+    "needs_computation": [
+      "DOCUMENTARY for the 3D4/6D4 label itself (now settled by owner-supplied KMRT text in memo 222, not re-derivable in-sandbox)",
+      "genuine computation still open: does the object's charge data define a symmetric (Okubo/para-octonion) composition over K, per the finite check memo 203 section 4 poses"
+    ],
+    "disputed": true,
+    "on_main": "d",
+    "notes": "MOST IMPORTANT FINDING OF MY SIX: frontier/B1077_intrinsic_split/FINDINGS.md:54-56 and docs/CAMPAIGN_STATUS.md:911-913 still assert the object is the 3D4 twist -- the label this memo (and its own rediscovered 2026-08-04 artifact, and the later KMRT-verified memo 222) says is wrong. A full-repo search finds the corrected 'sixD4' label nowhere on main outside outside_bench/. Separately, frontier/B882_magic_square_naming/arc_verdict.json still reads verdict=PROVED, superseded_by=null, even though outside_bench/THE_OWNER_REGISTER.md (R110-2, R130) says B882 IS REFUTED by this chain (memo 204, confirmed by memo 222 against real KMRT text). The correction is real and now solidly verified (not just search-summary) but has never been written back into the banked frontier files."
+  },
+  {
+    "memo": 205,
+    "title": "L142_THREE_FACTS",
+    "headline": "L142 answered: three constructions returning cubic field K are not related by any morphism (Hom_e6(27,78)=0 by Schur; the two 27-pencils are not GL(27)-conjugate) -- the agreement is of outputs only; the successor cause-question is answered by memo 204.",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "recompute joint kernels/charpolys/rank-products of the two ordered pairs of e6-27 elements (expect charpolys to differ)",
+      "factor/root-check the six cited cubics plus the bite control over K's smallest model x^3-12x-5 (expect 6 True, 1 False)"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "Seal verified: sha256 of outside_bench/seals/L142_THREE_SITES_PREREG.md matches the memo's stated hash exactly (8226e745...). Certificate output verdict matches headline exactly. BUT docs/OPEN_LEADS.md:1050-1057 (the L142 row) still reads 'the lead's demand stands' from a 2026-08-12 note predating this memo by a month -- the closure has not been written back into OPEN_LEADS, unlike memo 197's L173 row. Same register-lag class as memo 207's own diagnosis, just on a lead memo 207 didn't check."
+  },
+  {
+    "memo": 207,
+    "title": "THE_REGISTER_IS_BEHIND",
+    "headline": "The lead register (OPEN_LEADS.md) is behind its own arcs -- four rows (L53, L72, L78, L174) read OPEN while the corpus's own arcs (and in two cases the same file, lines away) already closed them; the corpus's own open_claim_sweep.py instrument already flagged this and nobody ran it.",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "re-run scripts/checks/open_claim_sweep.py --selftest and the full sweep (expect 5/5 positive control, negative control 0.00, >=52 open claims flagged)",
+      "independently re-derive the E6 level-2 Kac-Peterson conformal weights and confirm agreement with P2W5-L72/compute.py's nine rational values"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "All four rows (docs/OPEN_LEADS.md:521, 531, 552, 1922) are now struck through and marked SUPERSEDED/RESOLVED in place, quoting the same evidence memo 207 cites. Minor provenance gap: the write-back credits 'outside-bench memos 206/208/210/211/213/214/215' and never names memo 207 itself, even though 207 is the memo that assembled all four contradictions together and named the general diagnosis. Memo 208 (same day) extends the count to eleven unwritten-back rows without contradicting 207."
+  },
+  {
+    "memo": 219,
+    "title": "PARI_ARRIVES_AND_THE_LITERATURE_WALL",
+    "headline": "PARI/GP installed safely from the signed Ubuntu archive and validated 7-of-7 against a hand proof; the literature channel is 'unreachable by named network policy', not merely 'unread' -- and PARI does not unblock the E-split-over-K question as hoped (addenda later close both residuals anyway, via owner-supplied PDFs, not PARI).",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "re-run PARI bnfinit/nfdisc/bnfunits on K=Q[x]/(x^3-12x-5) without the certification flag (expect disc 6237, h=1, same units, <1s)",
+      "independently re-derive the finite local computation behind memo 222's E-split-over-K result (n_p<=1 for every ramified prime of K(sqrt77), forced even, hence 0)"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "PARI is not yet referenced anywhere in docs/TOOLBOX_LIVE.md or docs/PRACTICES.md (checked directly, no false-negative). The memo self-supersedes twice via same-day addenda (memo 220 closes the L72 rank-3 residual via owner-supplied RSW PDF; memo 222 answers E-split-over-K via owner-supplied KMRT, retiring the 48x48-commutant plan). Both downstream results (memo 220, memo 222) are themselves not written back into any frontier/ arc file -- same register-lag pattern as memo 203/207, flagged but not scored as DISPUTED since main simply hasn't caught up rather than contradicting anything."
+  }
+]

@@ -1,0 +1,3 @@
+# ADDENDUM 2026-09-16 — the §8 bit is not the mirror: the question this arc left open is answered by B1248 (outside bench memo 199, sealed; B1414)
+
+**Nothing above is struck.** The outside bench's memo 199 (`outside_bench/memos/THE_SECTION8_BIT_IS_NOT_THE_MIRROR.md`, seal `seals/…` hash verified in B1414's reader report r5) adjudicates the question this arc registered — whether the §8 bit is the mirror involution — as **NO**, on the strength of `frontier/B1248_…` (PROVED, 2026-09-05), which predates the question. The bench did not edit this file by policy; the answer is written back here so the arc's own text no longer reads as un-adjudicated. Verdict of this arc unchanged (OPEN for its remaining rows).

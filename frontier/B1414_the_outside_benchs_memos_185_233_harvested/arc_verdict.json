@@ -1,0 +1,24 @@
+{
+ "id": "B1414",
+ "verdict": "VERIFIED",
+ "instrument": false,
+ "depends_on": [
+  "B1321",
+  "B1323",
+  "B993",
+  "B1330",
+  "B1077",
+  "B882",
+  "B1411",
+  "B1295",
+  "B1324",
+  "B1186",
+  "B1273"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE OUTSIDE BENCH'S MEMOS 185-233 HARVESTED at 8262c6ed. Its eight load-bearing items recomputed on main: five reproduced (F9 FRAGILE at depth 5 with B1323's own enumerator, m412 chiral in Q(sqrt-3) with 0 surjections onto SL(2,3); chirality 181 of 203 123; the 2T door 1 696 of 5 000 with B993's own counter and exactly 7 in the Q(sqrt-3) family; the count of three 2 of 4 000; memo 233's forced escape clause re-derived exactly and its v1 vacuity confirmed), one CORRECTED (the 89.88 % attain-4 figure is 99.90 % on canonical triangulations), two already on main. The same instrument corrects main's own B1321: the three-line class to nine tetrahedra has NINE members (t10829, t12582, o9_42897 missed by an uncanonized isometry list; twenty in the census to ten tetrahedra), none of which keeps the golden face -- E81 minted, the FAIL branch unchanged. The object's D4 form is of type 6D4 over Q (cubic Galois group S3, recomputed) and 3D4 over Q(sqrt77): B1077's label corrected by addendum, B882's conjecture split into its two readings. Forty-nine memos rowed (561-609), eight readers' reports filed, the reproducible exact results still confined to outside_bench/ named as owed. No value, no generation count, no physics claim."
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "memo": 189,
+    "title": "THE_ANTIBODY_RUSTED_TOO",
+    "headline": "The instrument-freshness check built to catch rusted instruments has itself gone blind: it selects 2 of 1125 frontier arcs (0.2%), blind to 150-215 arcs carrying the exact structure it was built to watch; addendum 2's clean-worktree full-suite run found 11 failures, 4 of which read untracked .log/.out/relative-path files that could never pass on a fresh clone.",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "re-run the widened selector (F189-1) over current main and report coverage",
+      "re-run python3 -m pytest -q on a fresh main worktree and recheck the 11 failures (3 of 4 log/out files are now tracked; results/real_grid.jsonl is still absent)",
+      "recheck test_no_hardcoded_paths.py::test_no_absolute_machine_paths_in_tracked_text pass/fail"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "Repair (widen selector) NOT applied on main (grep confirms narrow selector unchanged). But 3 of the 4 'never-could-have-passed' artifact files ARE now tracked on main (git ls-files confirms), via a new .gitignore exception (!frontier/*/verification/*.out, commit cd582111) -- partial fix landed, results/real_grid.jsonl still missing."
+  },
+  {
+    "memo": 195,
+    "title": "THE_COMPLEMENTARITY_JOINED",
+    "headline": "The owner's 'what does each field lack' question has an exact answer: Dirichlet's unit theorem -- growth (hearing, unit rank 1) and orientation (being, unit rank 0, nontrivial conjugation) cannot co-occur on one quadratic face; stated in 5 arcs at 4 levels with 0 cross-citations. Addendum 2 (K3) then REFUTES the memo's own follow-on hypothesis that this complementarity explains the seven sealed value-crossing misses: 3 of 7 crossings asked hearing for its own commodity (magnitude) and still missed.",
+    "grade_proposal": "SUPERSEDED",
+    "needs_computation": [
+      "re-run the grep cross-citation count over B318/B1069/B1216/B1222/B1276 directories, expect 0/20",
+      "re-read frontier/B1066* and B1075* preregs to confirm they ask hearing for a magnitude, not orientation"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "SS4/section-4 hypothesis is REFUTED by the memo's own addendum 2 one day later, on its own pre-registered kill condition (K3). Only sections 1-3 (the pure unit-theorem fact and the 0-citation count) survive; do not cite the memo's headline as explaining the value-crossing misses. docs/WHAT_WOULD_COUNT.md already independently states the seven (now eight) misses are 'empirical exhaustion, not theorem,' consistent with the refutation."
+  },
+  {
+    "memo": 198,
+    "title": "THE_GATE_HAS_NO_PRODUCT_ROW",
+    "headline": "None of the seven sealed value crossings touches the meeting field Q(sqrt-15) (0/0/0/0/0/0/0), and docs/KIND_TABLE.md's admissibility gate has zero multi-face rows -- the seven-for-seven miss is exhaustion of a table that never contained a joint row, by absence not prohibition. Addendum 1 (same day) WITHDRAWS two of the memo's own sentences: the meeting field is actually named in 65 frontier arcs/350 files (not 6), and it WAS already asked -- frontier/B698_the_meeting_probed (verdict PROVED) answered the joint question FACTORED via Flath's tensor-product theorem.",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "grep -rc sqrt-15 across the seven crossing directories, expect 0 everywhere",
+      "confirm docs/KIND_TABLE.md's field column has no multi-field row (spot-checked here, none found)",
+      "re-run B698's PSLQ-at-60-digits search to confirm no relation among meeting/being special L-values"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "BENCH ERROR #20 added: a number in a memo must come from that memo's own certificate. Spot-checked docs/KIND_TABLE.md and frontier/B698_the_meeting_probed on current main directly: both confirm the memo's corrected picture (gate still has zero product rows; B698 is real, PROVED, and matches the quoted question verbatim)."
+  },
+  {
+    "memo": 216,
+    "title": "THE_CORRECTIONS_APPLIED",
+    "headline": "Fourteen status lines in docs/OPEN_LEADS.md and docs/WHAT_WOULD_COUNT.md superseded in place (struck, never deleted, each citing its own decider), and three artifact-pair cells (P2W5-L72, W4-017r, W2-270) regenerated from their own committed compute.py, bringing the corpus-wide artifact-pair-mismatch census from 3 to 0 of 75. Owner-authorized against the bench's own prior caution; done on the outside-bench branch as a proposal, main not touched by this bench (at time of writing).",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "re-run each regenerated cell's compute.py fresh and diff results.json/output.txt against committed state (exceeds 2-minute bound for a bounded reader; flagged for a verifier with more budget)",
+      "re-run scripts/checks/artifact_pair_gate.py or certificates/the_artifact_pair_sweep.py on current main, expect 0 mismatches"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "Directly verified on current main after the outside-bench merge (80e3ec83): docs/WHAT_WOULD_COUNT.md line 293 carries the exact 'SEALED 2026-08-21 -- AWAITING AN EXPERIMENTALIST' text; docs/OPEN_LEADS.md L112/L173/L174 carry the exact supersession annotations; frontier/B771_phase1_wave1/cells/W4-017r/results.json shows verdict RESOLVED-A with the memo's exact reason string. The one thing memo 216 deliberately did NOT install (the artifact_pair_gate.py harness) was installed one session later (R125) and is also now on main."
+  },
+  {
+    "memo": 226,
+    "title": "JORGENSEN_IS_IT_RIGHT",
+    "headline": "Jorgensen's inequality and J(m004)=1 are right (reproduced a second, independent way via SnapPy holonomy + Nielsen moves; 323 two-generator census manifolds scanned, exactly one reaches 1). But memo 225's claim that Callahan's theorem discharges five of UNIQUENESS_THEOREM's axioms is WRONG (BENCH ERROR #32): a two-generator group IS axiom A1 in another language, so the theorem ASSUMES A1 (and A2/A3) rather than deriving it -- corrected count is three of six discharged (A4, A5, A6), not five.",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "re-run SnapPy: M=snappy.Manifold('m004'), compute J over Nielsen-move pairs, expect exactly 1.0",
+      "spot-check 10-20 manifolds from OrientableCuspedCensus (full 323 may exceed 2-min bound) to confirm none but m004 reaches 1"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "The owner register's own copy of this correction (R134-4 struck, R135/memo-226 supersession quoted) is present verbatim on current main. The memo's recommendation to fix B1345's paraphrase on <remote>/paper-verification-ufp0zn was explicitly NOT applied by this bench ('this bench does not edit another branch') and was not independently checked here."
+  }
+]

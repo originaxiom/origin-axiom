@@ -1,0 +1,45 @@
+{
+ "full_census": {
+  "N": 212641,
+  "errors": [
+   "o10_047926"
+  ],
+  "attain_3": [
+   "m202",
+   "s959",
+   "v3461",
+   "v3551",
+   "t10829",
+   "t12582",
+   "o9_40999",
+   "o9_42897",
+   "o9_43931",
+   "o10_106653",
+   "o10_118186",
+   "o10_135235",
+   "o10_137270",
+   "o10_137271",
+   "o10_143602",
+   "o10_146953",
+   "o10_150704",
+   "o10_150725",
+   "o10_150726",
+   "o10_150729"
+  ],
+  "seconds": 93
+ },
+ "covers_to_10": {
+  "n": 87,
+  "chiral_canon": 66,
+  "chiral_raw": 66,
+  "raw_undercounts": 1,
+  "disagree_chirality": [],
+  "isometries_total_canon": 984,
+  "cusp_fixing_pairs_canon": 996,
+  "det_multiset_canon": {
+   "0": 502,
+   "4": 494
+  },
+  "seconds": 0
+ }
+}

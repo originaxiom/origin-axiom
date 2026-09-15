@@ -1,0 +1,83 @@
+{
+ "cyclic_2_30": {
+  "all_vol_ok": true,
+  "amphichiral": 29,
+  "chiral": 0,
+  "H1_last": "Z/832040 + Z/4160200 + Z",
+  "seconds": 0
+ },
+ "covers_to_7": {
+  "n": 28,
+  "table": {
+   "cyclic/amph": 6,
+   "irregular/amph": 4,
+   "irregular/chiral": 18
+  },
+  "chiral": 18,
+  "mirror_pairs": 9,
+  "unpaired": 0,
+  "seconds": 0
+ },
+ "m412": {
+  "cusps": 2,
+  "vol": 5.074708032048268,
+  "vol/m004": 2.5000000000000004,
+  "H1": "Z/2 + Z + Z",
+  "sym_order": 8,
+  "snappy_is_amphicheiral": false,
+  "self_isometries": 4,
+  "orientation_reversing": 0,
+  "amphichiral_by_isometry": false,
+  "all_shapes_x2-x+1": true,
+  "det_multiset": [
+   0,
+   0,
+   0,
+   0,
+   4,
+   4,
+   4,
+   4
+  ]
+ },
+ "L12n2208": {
+  "cusps": 4,
+  "vol": 12.179299276915843,
+  "vol/m004": 6.000000000000001,
+  "H1": "Z + Z + Z + Z",
+  "sym_order": 48,
+  "snappy_is_amphicheiral": true,
+  "self_isometries": 48,
+  "orientation_reversing": 24,
+  "amphichiral_by_isometry": true,
+  "all_shapes_x2-x+1": true,
+  "det_multiset": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4
+  ]
+ },
+ "2T_raw_m004": 48,
+ "2T_raw_m412": 0
+}

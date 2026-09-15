@@ -1,0 +1,32 @@
+{
+ "instrument": "frontier/B993_cornerstone_verified/verification/sl23_baserate.py run with N=5000 (unmodified)",
+ "N": 5000,
+ "with_at_least_one": 1696,
+ "frac_any": 0.3392,
+ "exactly_m004_count": 1337,
+ "distribution_of_classes": {
+  "2": 1337,
+  "0": 3304,
+  "4": 222,
+  "6": 78,
+  "10": 26,
+  "12": 7,
+  "8": 20,
+  "14": 4,
+  "16": 2
+ },
+ "denominator_by_generator_count": {
+  "2": 4085,
+  "3": 915
+ },
+ "hits_in_B1186_Qsqrt3_family": [
+  "m003",
+  "m004",
+  "m206",
+  "m207",
+  "s118",
+  "s958",
+  "v2873"
+ ],
+ "seconds": 94
+}

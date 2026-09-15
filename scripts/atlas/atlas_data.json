@@ -8329,6 +8329,45 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1414": {
+   "slug": "the outside benchs memos 185 233 harvested",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "firewall"
+   ],
+   "refs": [
+    "B171",
+    "B493",
+    "B503",
+    "B749",
+    "B874",
+    "B877",
+    "B882",
+    "B898",
+    "B993",
+    "L142",
+    "L173",
+    "L192",
+    "L205",
+    "L71",
+    "L72"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [

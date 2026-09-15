@@ -424,7 +424,7 @@ Sym = D₄, |Fix| ∈ {0, 4}); the control fires with ≥ 2 cusps (m202 gives 1 
 count, so |Fix| = 3 and χ(∂⁺M) ≠ 0 are different quantities (B1292). The sibling m202 keeps the arithmetic face
 and **loses the golden face** (no fibration carries t² − 3t + 1); its localized count is 3 on both cusps at the
 price of one identification (I-30), and none of the six members of the three-line class to nine tetrahedra
-keeps the golden face — the count of three costs the face (B1302, B1321). — B1291, B1292, B1302, B1321.
+(**nine** members on canonical triangulations, B1414/E81 2026-09-16 — still none) keeps the golden face — the count of three costs the face (B1302, B1321). — B1291, B1292, B1302, B1321.
 Locks: `tests/test_b1291_parity_of_the_cusp.py`, `tests/test_b1292_hatch_satisfiable_mis_scoped.py`,
 `tests/test_b1302_the_sibling_m202.py`, `tests/test_b1321_l205_the_siblings_localized_count.py`.
 

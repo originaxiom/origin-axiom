@@ -1,0 +1,87 @@
+[
+  {
+    "memo": 186,
+    "title": "THE_TAILS_OF_A_FAMILY",
+    "headline": "The fence goes from 7 coefficients to 52, on four knots; five tails identified in closed form; the false/genuine theta split occurs inside one one-parameter family",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "re-run cj_table_ingest.py determinant identification",
+      "re-run tail_tables.py and confirm five closed-form series match on every certified coefficient",
+      "F186-2: measure the full twist-knot family p=-14..15 for the false/genuine split as a function of p"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "Zero hits on main (frontier/docs/papers) for CJTwist/tail_tables/colored-jones-tail; this is a pure outside-bench measurement not yet harvested. No seal (data/measurement memo, not a preregistered A/B memo). Certificates, outputs, and data all exist and outputs match the memo's language exactly."
+  },
+  {
+    "memo": 201,
+    "title": "THE_OBJECT_PARTITIONS_ITS_CHARGES",
+    "headline": "The measured plane is not a choice: the object partitions its own four charges into two blocks, and both blocks carry K; B1077's circularity premise is refuted",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "recompute the six-plane factorization/resolvent table from B854's charges [8,14,16,22]",
+      "recompute (7,11) branch cubics and verify field isomorphism to K vs the bite control",
+      "recompute orphan-kernel dim(ker rho(x14))=dim(ker rho(x22))=3 and their exact subspace equality",
+      "re-run already_banked.py specifically on the resolvent/Klein-four-group/K-generation question before banking (not just the centralizer-dimension question a sibling memo already found duplicated B874/877/898)"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "Seal sha256 verified exact match. Zero hits on main for six_planes_77/Klein-four/resolvent-77 content -- appears genuinely novel. CAUTION: sibling memo 202 (same session) found much of ITS OWN adjacent centralizer-based claim was a rediscovery of pre-existing frontier/B874 (2026-08-03, all-15-subtori census, already flagged the (4,8) plane as special via a DIFFERENT invariant). I independently checked B874/FINDINGS.md and found no mention of resolvent/K/Klein-four, so memo 201's specific computation is not itself duplicated there, but a verifier should run the targeted already_banked.py check named above before banking."
+  },
+  {
+    "memo": 206,
+    "title": "WHO_CAN_HEAR_CHIRALITY",
+    "headline": "L78 answered, and the route could never have failed: at level 2, a primary observer hears chirality iff it is not self-conjugate, and hears all of it",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "independently rebuild E6 Cartan/Kac-Peterson S,T at level 2 and recompute the rank-6 filling-covector span on an independent slope set",
+      "verify [S^2,S]=0 and S^2*e0=e0 symbolically",
+      "verify the C=diagram-flip permutation from the 36-positive-root Weyl dimension formula"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "Seal sha256 verified exact match. docs/OPEN_LEADS.md:552 (L78 row) is verbatim-updated citing memo 206's own numbers (1111 slopes vs 719, theta-odd projection 2.1e-14, the reach law) as the resolving evidence -- this is a confirmed, specific write-back, not a generic mention."
+  },
+  {
+    "memo": 209,
+    "title": "THE_SWEEPS_FALSE_POSITIVES",
+    "headline": "Most of the sweep's 28 unexamined hits are health, not debt; memo 208's 'write-back has no owner' diagnosis was too broad and is corrected by addendum",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "DOCUMENTARY: individually verify the remaining 23 benign-classified sweep hits (memo's own fence: classified, not individually checked)",
+      "DOCUMENTARY: fix THE_SPINE.md's B171 and B1130 stale OPEN rows"
+    ],
+    "disputed": false,
+    "on_main": "mixed",
+    "notes": "No seal (substring-test memo). Confirmed exactly on main: THE_SPINE.md still shows B171 and B1130 as OPEN (unfixed, matches the memo's diagnosis, not yet remediated); docs/HARVEST_LEDGER.md:417 matches the memo's quote of memo-136's row character-for-character (write-back loop claim confirmed). GRAND_COMPUTATION_LEDGER's I3 row, which the memo found 'SCHEDULED', has SINCE been closed on main (2026-09-14/15, per B1405/B1407/B1408) -- not a contradiction of the 2026-09-12 snapshot, but the row has moved on since this memo was banked."
+  },
+  {
+    "memo": 210,
+    "title": "THE_PRINCIPAL_TORSION",
+    "headline": "L72 phase 1 done: the E6-principal torsion tau_E6 is an exact 87-digit positive integer (two routes agree), its degree=dim(E6)=78, vanishing order=rank(E6)=6, and the six blocks obey a Vol/pi growth law (later proved exact via Muller, Addendum 1)",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "recompute Delta_E6 = product of B581's six polynomials, verify deg=78 and vanishing order 6 at t=1",
+      "recompute tau_E6 both routes (product of tau_m; 6th derivative of Delta_E6 at 1 over 6!) and confirm exact 87-digit integer match",
+      "recompute R_m = log|tau_m| - (Vol/pi)m(m+1) spread for m in {4,5,7,8,11} vs the wrong-law m^2 control",
+      "DOCUMENTARY: independently read Muller arXiv:1003.5168 section 8 to confirm the m(m+1) combination and the 'no constant, it's a Ruelle sum' claim"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "Seal sha256 verified exact match. docs/OPEN_LEADS.md:531 (L72) and :271 (L54) both cite memo 210's exact numbers (78=dim E6, 6=rank E6, 87-digit tau_E6, two routes agreeing) -- but the 87-digit integer itself does not appear anywhere on main outside outside_bench/outputs/, so the citation is a summary, not a copied number. Addendum 1's literature claims (Muller, Menal-Ferrer-Porti) are not independently corroborated by any other main arc."
+  },
+  {
+    "memo": 213,
+    "title": "THE_CUSP_CANNOT_TELL",
+    "headline": "L71: the peripheral coker slope is the same (-2*sqrt(-3)) in every block, but the cusp's own cocycle condition already forces it -- this is a theorem about the cusp (ZZ^2 with a unipotent action), not about the object, and L71 is not answered by this route",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "recompute the exact peripheral slope over Q(zeta_6) for m=1..12 and confirm -2*sqrt(-3)",
+      "independently solve the cocycle condition (rho(a)-I)xi(lambda)=(rho(lambda)-I)xi(a) for m=1..6 and confirm the solution space has no freedom in the ratio",
+      "verify f.N=0 and f(ker N)=0 exactly for m=1..6"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "Seal sha256 verified exact match. Zero hits on main for this content. docs/OPEN_LEADS.md L71 row (line 522) is UNCHANGED and still plain OPEN -- unlike L72/L78's rows, it carries NO supersession bracket, even though memo 213 is listed as a contributor to OTHER rows' brackets. Confirmed via the owner register (R122) that this is BY THE BENCH'S OWN STATED POLICY ('this bench does not edit docs/OPEN_LEADS.md'), not an oversight or contradiction -- R122 only recommends re-posing/closing L71, citing memo 213's own successor work as closing its route further (the peripheral class reaches only a 1-dim subspace of the 2-dim H^1). Not disputed."
+  }
+]

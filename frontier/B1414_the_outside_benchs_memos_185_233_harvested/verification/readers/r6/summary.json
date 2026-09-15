@@ -1,0 +1,81 @@
+[
+  {
+    "memo": 190,
+    "title": "THE_BLOCKER_IS_BROKEN",
+    "headline": "Park's inverted Habiro route (+GS06 twist-family operator) breaks memo 183 addendum 4's blocker; f_0..f_5 for m(5_2) reproduced exactly (224 coefficients), f_6-f_8 computed but explicitly labelled non-theorem since Park's Conjecture 2 is unproved.",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "Re-run certificates/f52_beyond_f5.py and diff f_0..f_5 against the memo's 224-coefficient table",
+      "Re-run gs06_twist_family.py's C4 51-check annihilation test on 3_1/4_1/6_1/9_2/5_2"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "Pure exploratory colored-Jones/Habiro computation, entirely confined to outside_bench; zero hits on main for any of its terms. Certificate+output+CELL->A verdict all agree. No supersession found."
+  },
+  {
+    "memo": 194,
+    "title": "THE_BIT_ASKED",
+    "headline": "L192 answered: the object's CS-mod-1/2 bit sits at 0 (m004), amphichirality forces membership in A[2]={0,1/4} but not which element (106/75 split over 203,122 census manifolds), and m003 (commensurable, same trace field and volume as m004) sits at the OTHER element -- the bit separates the object below the commensurability class; ADDENDUM shows neither volume nor H1 (nor both) determines it (two exact witness pairs).",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "SnapPy census sweep: amphichirality + CS mod 1/2 classification over one-cusped census, confirm 106/75 split and worst distance ~2.6e-15",
+      "Recompute CS(m003) vs CS(m004) directly and confirm opposite A[2] elements",
+      "Recompute the volume/H1 cross-tabulation over 181 amphichiral manifolds and confirm the two witness pairs (t12062/t12063, o10_132112/o10_132113)"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "L192 still reads OPEN/unresolved text in docs/OPEN_LEADS.md at HEAD -- this finding has not been applied to main. All cited background facts (B993, B781, B1224, B1226, B1027, B1137, B813, B1276, B730, B1108, B803) exist on main. Seal hash verified (969d8bd1...). Not superseded; the addendum sharpens rather than withdraws."
+  },
+  {
+    "memo": 214,
+    "title": "THE_PERIPHERAL_ROUTE_IS_EXHAUSTED",
+    "headline": "L71's peripheral route (the coker slope's successor) is dead too, and exactly: the canonical peripheral data (ker N, coker f, tau) spans only 1 of the 2 dimensions of H^1(T^2;V) in every block m=1..6, forced by the exact identity (0,k)+(sqrt(-3)/6)(k,0) in B^1 with sqrt(-3)/6=-1/tau; what remains of L71 is geometric naming, not computation.",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "Recompute res(xi) in H^1(T^2;Sym^{2m}) for m=1..11, confirm (h0,h1,periph_inv)=(0,1,1) at the six E6 exponents",
+      "Recompute rank of {(k,0),(0,k)} mod B^1 for m=1..6 and verify the exact dependence identity symbolically"
+    ],
+    "disputed": false,
+    "on_main": "a/c",
+    "notes": "CELL 4's cited components (B575, B576, B270) all exist on main with exact FINDINGS.md:1 headline matches. L71 itself still reads OPEN in docs/OPEN_LEADS.md -- memo's recommendation (re-pose or close) not yet applied. Seal hash verified. Two bench errors logged and self-corrected within the memo."
+  },
+  {
+    "memo": 222,
+    "title": "KMRT_ARRIVES",
+    "headline": "KMRT's own definition (Book of Involutions, primary source, sha256 verified) types the object's cubic as 6D4 (not 3D4), refuting B882's/B1077's 3D4 naming by definition; the trialitarian algebra E is proved SPLIT via an exhaustive ramification argument (n_p<=1 for every prime because K(sqrt77) is K's own Galois closure).",
+    "grade_proposal": "DISPUTED",
+    "needs_computation": [
+      "Recompute irreducibility of x^3-12x-5, disc(K)=6237 non-square (refutes 3D4/cyclic), and that K tensor Delta = x^6-30x^4+225x^2-308 has a non-abelian order-6 Galois group (confirms 6D4)",
+      "Recompute disc(K(sqrt77))=3^8*7^3*11^3 and the Frobenius-class/n_p<=1 table for p<500",
+      "Recompute control C6: n_p for b in {5,13,33,-1,3} reaches max 3"
+    ],
+    "disputed": true,
+    "on_main": "d",
+    "notes": "DISPUTED: frontier/B1077_intrinsic_split/FINDINGS.md (verdict PROVED, superseded_by:null) still names the dressed object's twist '3D4' -- memo 222, reading the actual KMRT text, proves it must be '6D4'. Zero hits for '6D4' anywhere on main. A DOC_RELAY_TRIAGE note on main records that memo 204 (222's predecessor) 'reproduces B1077 and withdraws the apparent conflict' at the intrinsic-layer/dressed-layer scope level, but B1077's own '3D4' label itself is never corrected on main. Seal hash verified (8a936c77...). B882 itself does not state a D4 type -- the disputed label lives in B1077."
+  },
+  {
+    "memo": 225,
+    "title": "THE_JORGENSEN_NUMBER",
+    "headline": "J(m004)=1 exactly (cusp collapses Jorgensen's quantity to |kappa-2|=1, a 1976 inequality plus one exact holonomy computation); this is the record's 'unit obstruction' (H96/B1200) unknowingly saturating a discreteness bound. ADDENDUM 1 (=memo 226) WITHDRAWS the memo's own claim that this discharges axioms A1/A2/A4/A5/A6 -- corrected to A4/A5/A6 only, since a Jorgensen group is two-generator BY DEFINITION (assumes A1).",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "Recompute the exact relator/trace arithmetic in Z[zeta_6]: aWb^-1W^-1=I, tr(a)=2, kappa-2=u^2, |kappa-2|=1",
+      "Recompute J via SnapPy holonomy + Nielsen-move minimization over ~323 two-generator census manifolds, confirm exactly one (m004) reaches 1.0"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "frontier/B1345_the_jorgensen_number/ IS on main (commit 83cb185a, 2026-09-12, confirmed ancestor of current HEAD) even though this memo (banked 2026-09-13) still describes it as branch-only -- a currency gap, not a contradiction. B1345's own FINDINGS.md never makes the withdrawn axiom-discharge overclaim, so no dispute with main; main was already more careful. Self-corrected via its own ADDENDUM 1 (memo 226), read in full."
+  },
+  {
+    "memo": 227,
+    "title": "THE_CHAIN_RIGHT_NOW",
+    "headline": "The chain (docs/THEOREM_LEDGER.md via scripts/checks/forcedness_census.py) is 54 links, 50 forced, axioms only at C3/C4/C5/C18; the 15-row status table (docs/THE_CHAIN_STATUS.md) shows 6 derived/2 generic/2 classical/3 unobtainable/3 absent -- 'completes as structure and hits a firewall'. Currency finding: THE_CHAIN_STATUS.md's own header claims it 'lives on main' but at banking time it did NOT.",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "Re-run scripts/checks/forcedness_census.py (already done in this review: reproduces 54/50/[3,4,5,18] identically on current HEAD, 3857877d)"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "Independently re-ran the census on today's HEAD and got byte-identical numbers despite many later B-arcs having landed since. The currency gap the memo flagged is now RESOLVED: docs/THE_CHAIN_STATUS.md (commit 4d1cbb6b, B1339, 2026-09-12) is confirmed an ancestor of current HEAD -- it has since landed on main. Nothing further to do; worth a one-line cross-lane-verification note in the record."
+  }
+]

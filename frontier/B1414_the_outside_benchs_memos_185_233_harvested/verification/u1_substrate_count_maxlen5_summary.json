@@ -1,0 +1,959 @@
+{
+ "instrument": "frontier/B1323_the_genesis_upgrades/verification/u1_substrate_count.py --maxlen 5 (unmodified)",
+ "results": {
+  "S_1_1": {
+   "words_tried": 1,
+   "hyperbolic_bundles": 1,
+   "distinct_isometry_classes": 1,
+   "seconds": 0.1
+  },
+  "S_1_2": {
+   "words_tried": 9324,
+   "hyperbolic_bundles": 1856,
+   "distinct_isometry_classes": 21,
+   "seconds": 62.4
+  },
+  "S_0_4": {
+   "words_tried": 1360,
+   "hyperbolic_bundles": 400,
+   "distinct_isometry_classes": 14,
+   "seconds": 12.0
+  }
+ },
+ "F9_surface_verdict": "FRAGILE",
+ "keepers_of_Q(sqrt-3)": [
+  [
+   "abbC",
+   5.074708032048267,
+   2,
+   [
+    "m412(0,0)(0,0)",
+    "otet05_00001(0,0)(0,0)",
+    "ocube01_00002(0,0)(0,0)"
+   ]
+  ],
+  [
+   "abAB",
+   12.179299276915836,
+   4,
+   [
+    "L12n2208(0,0)(0,0)(0,0)(0,0)",
+    "otet12_00009(0,0)(0,0)(0,0)(0,0)"
+   ]
+  ]
+ ],
+ "three_record_classes": 35,
+ "classes": [
+  {
+   "word": "abC",
+   "volume": 3.663862376708876,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "m129(0,0)(0,0)",
+    "5^2_1(0,0)(0,0)",
+    "L5a1(0,0)(0,0)",
+    "ooct01_00001(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 8,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aabC",
+   "volume": 4.415332477453866,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "m295(0,0)(0,0)",
+    "9^2_50(0,0)(0,0)",
+    "L9n14(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aaaBC",
+   "volume": 4.7517019655179,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "s443(0,0)(0,0)",
+    "L11n208(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "abbC",
+   "volume": 5.074708032048267,
+   "cusps": 2,
+   "H1": "Z/2 + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "m412(0,0)(0,0)",
+    "otet05_00001(0,0)(0,0)",
+    "ocube01_00002(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aaabC",
+   "volume": 5.137941201873418,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "s647(0,0)(0,0)",
+    "L12n1027(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "acB",
+   "volume": 5.333489566898119,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "s780(0,0)(0,0)",
+    "6^2_3(0,0)(0,0)",
+    "L6a1(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "abbbc",
+   "volume": 5.333489566898119,
+   "cusps": 2,
+   "H1": "Z/3 + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "s774(0,0)(0,0)"
+   ],
+   "vs_record_swap": null
+  },
+  {
+   "word": "aabCC",
+   "volume": 5.33348956689812,
+   "cusps": 2,
+   "H1": "Z/2 + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "s782(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "abbbC",
+   "volume": 5.875918082667625,
+   "cusps": 2,
+   "H1": "Z/3 + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "s937(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aacB",
+   "volume": 6.2903026840282905,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "v3127(0,0)(0,0)",
+    "10^2_124(0,0)(0,0)",
+    "L10n49(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "acBB",
+   "volume": 6.354586557200651,
+   "cusps": 2,
+   "H1": "Z/2 + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "v3225(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aabbC",
+   "volume": 6.422426502341772,
+   "cusps": 2,
+   "H1": "Z/2 + Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "v3292(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 4,
+    "orientation_preserving": 4,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "abCbC",
+   "volume": 6.637443563091125,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "v3450(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "acBBB",
+   "volume": 6.755194816462885,
+   "cusps": 2,
+   "H1": "Z/3 + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "t09759(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aaacB",
+   "volume": 6.770816780739821,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "t09857(0,0)(0,0)",
+    "L12n1039(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aBcB",
+   "volume": 7.327724753417751,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "t12055(0,0)(0,0)",
+    "ooct02_00004(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aaccB",
+   "volume": 7.327724753417755,
+   "cusps": 2,
+   "H1": "Z/2 + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "t12037(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aacBB",
+   "volume": 7.60232478879011,
+   "cusps": 2,
+   "H1": "Z/2 + Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "o9_35257(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aBcBB",
+   "volume": 8.087973788626373,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "o9_40722(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "acBaB",
+   "volume": 8.697670207586139,
+   "cusps": 2,
+   "H1": "Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "o10_130613(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aaBcB",
+   "volume": 8.778658803173823,
+   "cusps": 2,
+   "H1": "Z/2 + Z + Z",
+   "sym_order": 4,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 4,
+     "orientation_preserving": 0,
+     "orientation_reversing": 4
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "o10_133625(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 0,
+    "orientation_preserving": 0,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aB",
+   "volume": 7.327724753417752,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 64,
+   "amphichiral": true,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 64,
+     "orientation_preserving": 32,
+     "orientation_reversing": 32
+    },
+    "amphichiral": true
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "t12047(0,0)(0,0)(0,0)(0,0)",
+    "8^4_2(0,0)(0,0)(0,0)(0,0)",
+    "L8n7(0,0)(0,0)(0,0)(0,0)",
+    "ooct02_00001(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 64,
+    "orientation_preserving": 32,
+    "orientation_reversing": 32
+   }
+  },
+  {
+   "word": "aaB",
+   "volume": 8.929317823097358,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "o9_44206(0,0)(0,0)(0,0)(0,0)",
+    "10^4_23(0,0)(0,0)(0,0)(0,0)",
+    "L10n98(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 8,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aaaB",
+   "volume": 9.491889686649435,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "o10_148924(0,0)(0,0)(0,0)(0,0)",
+    "L12n2027(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 8,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aaaaB",
+   "volume": 9.742365783360722,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "L14n59351(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 8,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aabb",
+   "volume": 10.666979133796238,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 16,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 16,
+     "orientation_preserving": 0,
+     "orientation_reversing": 16
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "L12n2205(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 16,
+    "orientation_preserving": 16,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aaBB",
+   "volume": 11.147218225662279,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 16,
+   "amphichiral": true,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 16,
+     "orientation_preserving": 8,
+     "orientation_reversing": 8
+    },
+    "amphichiral": true
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "L14n62805(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 16,
+    "orientation_preserving": 8,
+    "orientation_reversing": 8
+   }
+  },
+  {
+   "word": "aaabb",
+   "volume": 11.732890698672488,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "L14n63020(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 8,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aaaBB",
+   "volume": 11.916241673264592,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [],
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 8,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "abAB",
+   "volume": 12.179299276915836,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 48,
+   "amphichiral": true,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 48,
+     "orientation_preserving": 24,
+     "orientation_reversing": 24
+    },
+    "amphichiral": true
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "L12n2208(0,0)(0,0)(0,0)(0,0)",
+    "otet12_00009(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 48,
+    "orientation_preserving": 24,
+    "orientation_reversing": 24
+   }
+  },
+  {
+   "word": "aabaB",
+   "volume": 13.903678016858203,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "L14n62990(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 8,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aabAB",
+   "volume": 14.372279326833095,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "L14n62998(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 8,
+    "orientation_reversing": 0
+   }
+  },
+  {
+   "word": "aBaB",
+   "volume": 14.655449506835504,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 32,
+   "amphichiral": true,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 32,
+     "orientation_preserving": 16,
+     "orientation_reversing": 16
+    },
+    "amphichiral": true
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "L14n62847(0,0)(0,0)(0,0)(0,0)",
+    "ooct04_00057(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 32,
+    "orientation_preserving": 16,
+    "orientation_reversing": 16
+   }
+  },
+  {
+   "word": "aabAb",
+   "volume": 15.110029536389003,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 16,
+   "amphichiral": true,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 16,
+     "orientation_preserving": 8,
+     "orientation_reversing": 8
+    },
+    "amphichiral": true
+   },
+   "uses_all_loops": true,
+   "identify": [
+    "L14n63034(0,0)(0,0)(0,0)(0,0)"
+   ],
+   "vs_record_swap": {
+    "isometries": 16,
+    "orientation_preserving": 8,
+    "orientation_reversing": 8
+   }
+  },
+  {
+   "word": "aaBaB",
+   "volume": 16.309533219150154,
+   "cusps": 4,
+   "H1": "Z + Z + Z + Z",
+   "sym_order": 8,
+   "amphichiral": false,
+   "amphichiral_by_isometry": {
+    "to_mirror": {
+     "isometries": 8,
+     "orientation_preserving": 0,
+     "orientation_reversing": 8
+    },
+    "amphichiral": false
+   },
+   "uses_all_loops": true,
+   "identify": [],
+   "vs_record_swap": {
+    "isometries": 8,
+    "orientation_preserving": 8,
+    "orientation_reversing": 0
+   }
+  }
+ ],
+ "control_S_1_1_aB": {
+  "is_m004": true,
+  "amphichiral": true,
+  "shape_field_Q(sqrt-3)": true,
+  "self_isometries": {
+   "isometries": 8,
+   "orientation_preserving": 4,
+   "orientation_reversing": 4
+  },
+  "vs_record_swap": {
+   "isometries": 8,
+   "orientation_preserving": 4,
+   "orientation_reversing": 4
+  },
+  "vs_mirror_word": {
+   "isometries": 8,
+   "orientation_preserving": 4,
+   "orientation_reversing": 4
+  }
+ },
+ "control_PASS": true
+}

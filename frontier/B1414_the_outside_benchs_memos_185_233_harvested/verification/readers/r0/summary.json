@@ -1,0 +1,69 @@
+[
+  {
+    "memo": 185,
+    "title": "THE_CYCLOTOMIC_ROUTE_IS_CLOSED.md",
+    "headline": "THE NAIVE CYCLOTOMIC ROUTE TO f_K IS CLOSED, BY COMPUTATION",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "recompute C_m(4_1) x^0q^0 contributions m=0..14, confirm non-stabilizing partial sums",
+      "recompute C_{3_1} x^0 q-coefficients q=0..34, confirm 32 distinct abs values vs f_K's constant 1/2",
+      "recompute Habiro C_m valuation law (val=m for p>0, val=-(2|p|-1)m(m+1)/2 for p<0) on 3_1,9_2,4_1,6_1",
+      "rerun R-matrix state sum on Park's braid word beta_2 for 5_2, confirm val C_m(5_2)=m for m=0..8"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "Entirely confined to outside_bench/; not cited anywhere in docs/ or frontier/. Feeds a still-open fetch item (Park's inverted-Habiro-series paper, B2). No addendum withdraws the headline; addenda extend it with a p-sign convergence law and a confirmed falsifiable prediction on 5_2."
+  },
+  {
+    "memo": 208,
+    "title": "THE_TRIAGE_WAS_ALREADY_DONE.md",
+    "headline": "THE TRIAGE WAS ALREADY DONE, IN 2026, AND SEVEN OF ITS VERDICTS NEVER LANDED",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "re-run certificates/the_triage_was_already_done.py against current HEAD, confirm ALL ASSERTIONS HOLD"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "Fix applied on main the same week: docs/OPEN_LEADS.md:71,270-271,521,524-525,542-543,552,659,807-808 all now carry '[SUPERSEDED IN PLACE 2026-09-12 -- outside-bench memos 206/208/210/211/213/214/215]' stamps, landed in commit e15eaada (memo 216). Addendum 1 (same memo) corrects its own SS4 ownership sentence as too broad, but leaves the eleven-lead count and 17/10/7 split unchanged."
+  },
+  {
+    "memo": 212,
+    "title": "THE_ARTIFACT_PAIR_SWEEP.md",
+    "headline": "THREE CELLS IN SEVENTY-FIVE, AND THE STALENESS RUNS BOTH WAYS",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "re-run certificates/the_artifact_pair_sweep.py, confirm 228/114/113/75/29/3 counts (or updated counts if corpus grew)",
+      "re-run frontier/B771_phase1_wave1/cells/W4-017r/compute.py in isolation, confirm RESOLVED-A in <600s"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "All three flagged cells (P2W5-L72, W2-270, W4-017r) regenerated on main in commit e15eaada (memo 216); a permanent structural gate (scripts/checks/artifact_pair_gate.py + tests/test_artifact_pair_gate.py) was installed per memo 217 and exists at HEAD."
+  },
+  {
+    "memo": 223,
+    "title": "THE_PRICE_IS_TWELVE.md",
+    "headline": "THE PRICE, ELABORATED -- AND IT IS TWELVE, NOT ELEVEN",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "re-run frontier/B1266_the_source_of_input/verification/sources.py (or the memo's certificate) against docs/IDENTIFICATION_BASELINE.json, confirm 8 sources / 12 total / 18 rows outstanding",
+      "confirm C1 non-vacuity: stripping reduction edges reverts count to 14 sources",
+      "confirm C3: I-10/I-11 form exactly one 2-cycle before collapse"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "docs/THE_SM_VERDICT.md:58-68 carries the exact live figures (4 axioms + 8 sources = 12, 18 rows outstanding, five dated raises listed) with an explicit citation to this memo and its certificate, struck-in-place per memo 224. Confirmed independently at frontier/B1266_the_source_of_input/FINDINGS.md and docs/CAMPAIGN_STATUS.md. Still current as of the latest indexed memo (233)."
+  },
+  {
+    "memo": 228,
+    "title": "DOOR_THREE.md",
+    "headline": "DOOR 3: THE NAMED EXTERNAL NEED IS PAID, AND THE DOOR DOES NOT OPEN -- IT CHANGES TYPE",
+    "grade_proposal": "DISPUTED",
+    "needs_computation": [
+      "DOCUMENTARY for CELLS 1-3 (KMRT literature reading); re-check quoted KMRT sections (36.C, 43.C, 44.1, 44.2, 44.5) against the actual book",
+      "re-verify R110-2's B882 refutation still holds at current HEAD (K's Galois group, the 28's Killing signature (+16,-12), cubic-in-commutant argument) to settle whether route (b) is actually dead"
+    ],
+    "disputed": true,
+    "on_main": "d",
+    "notes": "CELLS 1-4 (the KMRT surjectivity reading) are sound and not yet on main outside outside_bench/. BUT the memo's own claim 'B882's conjecture is not proved, disproved, or made harder... door 3 stays open on (b)' directly contradicts outside_bench/THE_OWNER_REGISTER.md's own R110-2 (2026-09-11, 'B882 IS REFUTED') and its reconfirmation at R130-3 (2026-09-13, the day before this memo: 'the B882 refutation... not three coincidences'). Memo 228 even affirms the R130 typing result ('memo 222's 6D4 typing... stand') that the register itself calls the basis of the refutation, yet doesn't connect it. Likely cause: memo 228 quoted docs/NOVELTY_SWEEP_LEDGER.md row 6's decision route verbatim without checking it against the 2026-09-11 refutation. Seal hash verified: shasum -a 256 of outside_bench/seals/DOOR_THREE_PREREG.md matches the memo's declared 0b2d7b60afa32bd8f24f4f9393e5e24bbc75a612e9c39385c6b8ff1eb93b9afd exactly."
+  }
+]

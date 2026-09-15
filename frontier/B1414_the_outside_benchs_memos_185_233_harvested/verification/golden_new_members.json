@@ -1,0 +1,119 @@
+[
+ {
+  "name": "m202",
+  "H1": "Z + Z",
+  "cusps_with_3": [
+   0,
+   1
+  ],
+  "raw_found_3": true,
+  "presentation": "two-generator",
+  "primitive_classes": 48,
+  "golden_hits": [],
+  "delta": "-t1*t2 - t1 - t2**2 - t2 - 1 - t2**2/t1 - t2/t1"
+ },
+ {
+  "name": "s959",
+  "H1": "Z/3 + Z + Z",
+  "cusps_with_3": [
+   0,
+   1
+  ],
+  "raw_found_3": true,
+  "presentation": "rank 3 minors' gcd",
+  "primitive_classes": 48,
+  "golden_hits": [],
+  "delta": "1"
+ },
+ {
+  "name": "v3461",
+  "H1": "Z + Z",
+  "cusps_with_3": [
+   0,
+   1
+  ],
+  "raw_found_3": true,
+  "presentation": "two-generator",
+  "primitive_classes": 48,
+  "golden_hits": [],
+  "delta": "t1**3 + t1**3/t2 + t1**3/t2**2 + t1**2 + t1**2/t2 + t1**2/t2**2 + t1**2/t2**3 + t1 + t1/t2 + t1/t2**2 + t1/t2**3 + t1/t2**4 + 1/t2 + t2**(-2) + t2**(-3) + t2**("
+ },
+ {
+  "name": "v3551",
+  "H1": "Z/2 + Z + Z",
+  "cusps_with_3": [
+   0,
+   1
+  ],
+  "raw_found_3": true,
+  "presentation": "rank 3 minors' gcd",
+  "primitive_classes": 48,
+  "golden_hits": [],
+  "delta": "1"
+ },
+ {
+  "name": "o9_40999",
+  "H1": "Z/4 + Z + Z",
+  "cusps_with_3": [
+   0,
+   1
+  ],
+  "raw_found_3": true,
+  "presentation": "rank 3 minors' gcd",
+  "primitive_classes": 48,
+  "golden_hits": [],
+  "delta": "1/t1"
+ },
+ {
+  "name": "o9_43931",
+  "H1": "Z/5 + Z + Z",
+  "cusps_with_3": [
+   0,
+   1
+  ],
+  "raw_found_3": true,
+  "presentation": "rank 3 minors' gcd",
+  "primitive_classes": 48,
+  "golden_hits": [],
+  "delta": "1"
+ },
+ {
+  "name": "t10829",
+  "H1": "Z + Z",
+  "cusps_with_3": [
+   0,
+   1
+  ],
+  "raw_found_3": false,
+  "presentation": "two-generator",
+  "primitive_classes": 48,
+  "golden_hits": [],
+  "delta": "t1**4*t2 + t1**3*t2**2 + t1**3*t2 + t1**3 + t1**3/t2 + t1**2*t2 + t1**2 + t1**2/t2 + t1*t2 + t1 + t1/t2 + t1/t2**2 + 1/t2"
+ },
+ {
+  "name": "t12582",
+  "H1": "Z/3 + Z + Z",
+  "cusps_with_3": [
+   0,
+   1
+  ],
+  "raw_found_3": false,
+  "presentation": "rank 3 minors' gcd",
+  "primitive_classes": 48,
+  "golden_hits": [],
+  "delta": "1"
+ },
+ {
+  "name": "o9_42897",
+  "H1": "Z/3 + Z + Z",
+  "cusps_with_3": [
+   0,
+   1
+  ],
+  "raw_found_3": false,
+  "presentation": "rank 3 minors' gcd",
+  "primitive_classes": 48,
+  "golden_hits": [],
+  "delta": "1"
+ }
+]

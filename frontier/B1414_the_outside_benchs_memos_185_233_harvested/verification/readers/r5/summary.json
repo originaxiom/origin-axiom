@@ -1,0 +1,78 @@
+[
+  {
+    "memo": 191,
+    "title": "WHAT_WE_CAN_ANSWER_OURSELVES.md",
+    "headline": "Two thirds of Q11 are decidable from held material; c_eff = 1 for Zhat^unred of Brieskorn spheres is forced by the (false theta)/(q)_inf shape, independent of p.",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "recompute Zhat_0 for Sigma(2,3,5) and Sigma(2,3,11) as q-series, form Zhat_0/(q;q)_inf, fit c_eff via the corpus's standard growth-rate estimator; expect c_eff ~ 1.000-1.002 for both, independent of p",
+      "confirm GPV (6.49) vs (6.50) citation distinction against the primary arXiv:1602.05302 source text (documentary)"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "Certificate and output exist and agree with the memo. No seal claimed. Not cited anywhere on main (docs/HARVEST_LEDGER.md row 41 registers a different Q11 fork from B1305, not this memo's answer). F191-3 (measure the refined GPV block) is explicitly named-not-done."
+  },
+  {
+    "memo": 196,
+    "title": "THE_CHAIN_IS_TWENTY_ONE.md",
+    "headline": "R6' discharged: the sealed edge prediction's FORCED half (isospectrality/parity-breakage) is testable at N=21 sites; the FREE half (5/6 split) needs N~144-377. Addendum 1: all three sealed clauses are provably functions of the word alone (H_L is H_R read backwards), none contingent on measurement. Addendum 2: the lab lane only tests C1-C2 of the derivation chain and C4 already bars it from reaching the SM.",
+    "grade_proposal": "REGISTER (body/pricing already cited on main via memo 215's supersession block); Addendum 1's word-identity finding is REPRODUCE-AND-BANK and NOT yet cited on main",
+    "needs_computation": [
+      "recompute b_n Fibonacci word, H_L/H_R tridiagonal Hamiltonians, isospectrality at N=13,21,34,144,377,987 per tests/test_b1095_mirror_isospectral.py convention",
+      "verify the EXACT matrix identity H_L == J.H_R.J elementwise at N=21,144,987 (not just isospectral-to-tolerance) -- this is the single fact that converts three 'kill conditions' into provable identities",
+      "grep-count B1085/B1095/B1106/'photonic' in docs/THE_END_TO_END_CHAIN.md (documentary)"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "docs/OPEN_LEADS.md:1917 and docs/WHAT_WOULD_COUNT.md:286 were corrected 2026-09-12 for the SAME status-line error this memo caught one day earlier (2026-09-10), but both citation blocks credit memos 206/208/210/211/213/214/215 -- NOT memo 196, which made the identical correction first. Provenance/citation gap, not a contradiction. Addendum 1's substantive finding (K1/K2/K3 are word-forced identities) is not reflected in the current L173 row text, which still frames them as independent kill conditions."
+  },
+  {
+    "memo": 199,
+    "title": "THE_SECTION8_BIT_IS_NOT_THE_MIRROR.md",
+    "headline": "B1327's over-count question adjudicated NO: the section-8 chirality bit and the manifold's mirror sign are not the same bit (domain separation: 8 values vs 4+4 split; presence separation: bit absent at the object's canonical branch while mirror is present).",
+    "grade_proposal": "ALREADY-ON-MAIN for the math (B1248, PROVED 2026-09-05, predates B1327's question and this memo); REGISTER the adjudication act itself, which has not been written back into B1327's own file",
+    "needs_computation": [
+      "recompute the section-8 class across B1248's four branches holding the object relatum fixed; expect 8 distinct values {-181,-29,-19,-1,0,1,5,11}",
+      "verify m004 amphichirality (4 of 8 isometries orientation-reversing) and kappa=-2 at the canonical pair (both cheap SnapPy/sympy checks)"
+    ],
+    "disputed": false,
+    "on_main": "d",
+    "notes": "Seal sha256 VERIFIED EXACT MATCH (a0f898ac70dc9bdaa27778e98d73692f94e8abb443aba3922962c07ca4094dbb). Flagging as (d)-adjacent: frontier/B1327_relation_not_observer/FINDINGS.md is still verdict OPEN and still contains the unadjudicated question verbatim ('Whether they are the same bit is for the seat that owns section 8 to adjudicate') with no annotation reflecting memo 199's NO answer -- a documentation debt a verifier should flag, though not a contradiction of memo 199's content."
+  },
+  {
+    "memo": 202,
+    "title": "THE_MAGIC_SQUARE_SPLITS_THE_CHARGES.md",
+    "headline": "The object's four forced superselection charges are FORCED (invariant-dimension/numerical-semigroup rule over all six e6 principal-sl2 blocks, including the two B854 never examines), and B882's magic square (e6 = so(8) + u(1)^2 + 48) splits them: the Coxeter-dual pair {4,8} spans the u(1)^2, the two orphans (from broken pairs (1,11),(5,7)) lie in so(8).",
+    "grade_proposal": "REGISTER (cells 2/3/4 = B874/B877/B898/W4, already on main per memo's own Addendum 1); REPRODUCE-AND-BANK for cell 1 and the Coxeter-duality framing (genuinely new, not yet on main)",
+    "needs_computation": [
+      "compute invariant-subspace dimension of the |G|=24 group action on each e6 principal-sl2 block V_2m for m=1,4,5,7,8,11; expect dim=0 at m=1,5 and dim=1 at m=4,7,8,11",
+      "recompute charpoly of ad(x8)/ad(x16) on the 48-dim complement via exact factorization (NOT sympy eigenvals() grouping, per the memo's own corrected rule); expect an irreducible sextic to the 8th power"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "Memo's own same-session Addendum 1 retracts its PRIORITY claim for cells 2/3/4 as rediscoveries of B874(2026-08-03)/B877/B898/W4(2026-08-18), confirmed via docs/NOVELTY_SWEEP_LEDGER.md row 6 which independently corroborates this. frontier/B854_centralizer_exact/e6_centralizer.py still has the hardcoded 'for n in [8,14,16,22]' list UNCHANGED on main -- not annotated to reflect it is now proved-forced rather than assumed."
+  },
+  {
+    "memo": 215,
+    "title": "THE_SEAL_ALREADY_HAPPENED.md",
+    "headline": "The section-4A.2 seal (L173/B1106) actually happened on 2026-08-21, three weeks before this bench told the owner twice (registers R113/R114/R115) that it was still owner-pending; docs/OPEN_LEADS.md's L173 row also self-contradicted (header said SEALED, body/value column said owner-pending).",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "Cleanest case of the six: purely documentary (grep/substring facts), no seal on this memo itself, output.txt ends 'ALL ASSERTIONS HOLD AT THIS HEAD'. docs/WHAT_WOULD_COUNT.md:286 and docs/OPEN_LEADS.md:1917 both now carry '[STATUS SUPERSEDED IN PLACE, 2026-09-12 -- outside-bench memo 215 ...]' with the corrected SEALED status live on main. Verified directly by reading current main file contents."
+  },
+  {
+    "memo": 217,
+    "title": "THE_GATE_IS_INSTALLED.md",
+    "headline": "A new cheap gate (scripts/checks/artifact_pair_gate.py) complements instrument_freshness.py by comparing output.txt's printed VERDICT against results.json's verdict keys; census at HEAD: 83 cells agree, 22 have a one-sided formatting gap, 0 contradictions; a historical regression against three real past contradictions (P2W5-L72, W2-270, W4-017r) all correctly fire.",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "re-run python3 scripts/checks/artifact_pair_gate.py at current HEAD to confirm 0 contradictions still holds (counts may have shifted with new arcs since 2026-09-13)",
+      "re-run pytest tests/test_artifact_pair_gate.py -q; expect 5 passed in well under 1s"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "scripts/checks/artifact_pair_gate.py and tests/test_artifact_pair_gate.py are tracked on main (git log shows commit 8b3f1924 'memo 217 -- install the artifact-pair gate'), and referenced in docs/views/THE_SPINE.md:1489. The memo's own text ('main not touched by this bench... as a proposal') is now stale relative to its own subsequent landing -- a wording lag, not a contradiction. Not wired into any master gate-runner or git hook found; enforcement is manual/opt-in, same as instrument_freshness.py."
+  }
+]

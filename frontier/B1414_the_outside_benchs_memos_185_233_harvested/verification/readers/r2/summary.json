@@ -1,0 +1,82 @@
+[
+  {
+    "memo": 188,
+    "title": "THE_VIEW_FROM_ABOVE.md",
+    "headline": "The programme's characteristic failure is entropy in its own instruments, not error; census of 1125 arcs (65.2% PROVED / 26.8% NEGATIVE / 1.0% RETRACTED); three same-day addenda withdraw two of the four supporting instances (both traced to one 126-commit-stale tree).",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "re-run outside_bench/certificates/corpus_census.py against current origin/main HEAD and diff PROVED/NEGATIVE/OPEN/RETRACTED shares and the depends_on-by-era table",
+      "grep PROGRESS_LOG.md for 'Promotion logged' occurrences since 2026-09-09 to see if the batch-vs-trickle pattern persisted"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "corpus_census.py was never promoted into scripts/checks/ (F188-2 not done); CLAIMS.md still shows 0 outside_bench hits, confirming the memo's own footprint finding still holds. instrument_freshness.py IS a real tracked instrument on main."
+  },
+  {
+    "memo": 192,
+    "title": "THE_TWO_TIER_ONE_SOURCES.md",
+    "headline": "Acharya-Witten confirm the other seat's E7->E6 correction to B1355 (with the topology-not-constructed caveat); CCFGH partially reopens memo 191 section 3(b), narrowing its c_eff=1 negative to the rational-CS/C2-cofinite family and excluding m004; Addendum 1 computes F_{m(5_2)} block growth ~1.88^j (exponential, unbounded) vs. the bounded false-theta case under Dehn filling.",
+    "grade_proposal": "REGISTER",
+    "needs_computation": [
+      "re-verify the symbolic identity c=13-6(p+1/p) == 1-6(1-p)^2/p with sympy",
+      "regenerate F_{m(5_2)} at XMAX=16 DEPTH=34 and refit max|coeff|~1.88^j for j=6..15",
+      "compute Im CS(alpha_geom) for m004 directly (F192-1, not yet executed anywhere found)"
+    ],
+    "disputed": false,
+    "on_main": "a",
+    "notes": "B1355 on main is now titled 'THE E7 POINT MADE EXPLICIT' (docs/HARVEST_LEDGER.md row 535) -- consistent with memo 192's correction having propagated, though causality not independently diffed. The c_eff/hyperbolic-reopening material and F192-1 are NOT cited anywhere in docs/ outside outside_bench."
+  },
+  {
+    "memo": 211,
+    "title": "THE_STALE_ARTIFACT.md",
+    "headline": "L72's flagged issue located: the committed results.json for cell P2W5-L72 records a failed run of older code (h1=0 everywhere, UNRESOLVED) that disagrees with the cell's own output.txt and current compute.py (h1=1, RESOLVED-A); Cell 2/3 independently reproduce the Deligne splitting and close the Galois ambiguity (k'=1 unique match, k'=6 rejected despite identical quantum dimensions).",
+    "grade_proposal": "ALREADY-ON-MAIN",
+    "needs_computation": [
+      "re-run compute.py fresh and diff against current results.json to confirm the memo-216 fix is durable",
+      "recompute the Galois sweep S/T match for k'=1..6 to confirm only k'=1 passes"
+    ],
+    "disputed": false,
+    "on_main": "b",
+    "notes": "results.json was regenerated on main via commit e15eaada (memo 216's corrections), confirmed live: h1=1/rel_ok=True for all six exponents, verdict RESOLVED-A, gate5 present. The remaining classification residual this memo left 'narrowed not discharged' was fully discharged by memo 220 the next day."
+  },
+  {
+    "memo": 218,
+    "title": "THE_INVARIANTS_ARE_EXACT.md",
+    "headline": "L72's level-2 E6 colored invariants of 4_1 computed exactly in Z[zeta_7] (previously only floats): N=1,3,5 give degree 1,3,3 minimal polynomials all generating the cubic field Q(zeta_7)+ (disc 49); this field is NOT the object's charge field K (memo 204, disc 6237, S3 non-cyclic) by Galois type (C3 cyclic vs S3 non-cyclic); the uniqueness residual is shown to be inert for every reported number.",
+    "grade_proposal": "SUPERSEDED",
+    "needs_computation": [
+      "recompute J_N(zeta_7) for N=1,3,5 from Habiro's expansion and their minimal polynomials",
+      "recompute discriminants and Galois groups of the four cubics with sympy/PARI"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "The 'literature, unread here, not cited' residual framing was superseded within a day by memo 220 (RSW read directly from an owner-supplied PDF, residual DISCHARGED). The exact ZZ[zeta_7] invariants themselves are a genuine new computed fact not reflected in frontier/B775's committed artifacts (which still report floats only)."
+  },
+  {
+    "memo": 221,
+    "title": "MUELLER_ANSWERS_MEMO_210.md",
+    "headline": "Memo 210's two open questions answered from Mueller and Menal-Ferrer-Porti (owner-supplied PDFs): the linear torsion-growth coefficient is exactly Vol/pi -- via the m(m+1) combination -- but ONLY PROVEN for closed hyperbolic 3-manifolds, not the cusped figure-eight (six exact integers obey it to spread 0.0123); and the 'constant' C is not a constant but a bounded, sign-flipping, decaying Ruelle sum, matching the measured drift exactly.",
+    "grade_proposal": "REPRODUCE-AND-BANK",
+    "needs_computation": [
+      "re-fit log|tau_m|=Am^2+Bm+C on B581's six exact torsions and confirm B/(Vol/pi)=0.9861960956",
+      "recompute the Ruelle-term increments R_5-R_4 and R_8-R_7 and the systole l_0=1.087070144995739 via SnapPy"
+    ],
+    "disputed": false,
+    "on_main": "c",
+    "notes": "B581 (the six exact torsions) is on main as a tracked arc, but this memo's Mueller/MFP citation, the m(m+1) result, and -- most importantly -- the closed-vs-cusped scope caveat are not cited anywhere in docs/ or frontier/ outside outside_bench. Risk: if harvested later without the caveat, it could be mis-cited as a proven theorem for 4_1 rather than an unproven-but-well-fit extension."
+  },
+  {
+    "memo": 229,
+    "title": "THE_MIRROR_AND_THE_BULK.md",
+    "headline": "Both owner riddles answered literally: the mirror map is an orientation-reversing automorphism of m004 (no second manifold; D4, 8 isometries); the missing bulk is Dehn filling and is arithmetically inert (none of 8 hyperbolic fillings contains sqrt(-3)); the covering tower breaks the mirror while keeping the atom (first chiral cover at degree 5) but still returns chirality index 0 everywhere examined (2 one-cusped sectors + 38,070 multi-cusped sectors across 54 covers, cited from B1333).",
+    "grade_proposal": "DISPUTED",
+    "needs_computation": [
+      "re-run the 8-slope filling census with ManifoldHP and confirm none contains sqrt(-3)",
+      "recompute m004's mirror isometry group and cusp-map determinants",
+      "check whether the chirality index has EVER returned nonzero on any real manifold in characteristic zero (per memo 230, it has not)"
+    ],
+    "disputed": true,
+    "on_main": "d",
+    "notes": "Seal hash mismatch explained: memo states f1e065d3...; current on-disk file hashes to 3a98f2c2... because the merge commit 4e21000f redacted a vendor branch name (<vendor>/ -> <remote>/) inside the seal file -- benign, confirmed via git show at the pre-merge commit b3c32df2 which matches the memo exactly. DISPUTED item: memo 229's own claim 7 ('the live frontier... one place the question still has a computable answer' past degree 10) was explicitly called TOO STRONG by its own sibling memo 230 (same day), which found the chirality-index instrument has never returned a live nonzero on any real manifold in characteristic zero. docs/TOE_REQUIREMENTS_LEDGER.md (dated one day later) cites memo 229/B1333's 38,070-sector zero result with matching numbers but WITHOUT memo 230's caveat -- main is currently more confident than the record's own most careful memo licenses. Flag for harvesting: propagate memo 230's caveat into the TOE ledger row."
+  }
+]

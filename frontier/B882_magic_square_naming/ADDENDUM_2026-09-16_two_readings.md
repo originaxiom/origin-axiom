@@ -1,0 +1,8 @@
+# ADDENDUM 2026-09-16 — the conjecture "the arithmetic S₃ IS the geometric S₃" has two readings; under one it is refuted by the type of the form, under the other it is the type itself (B1414; outside bench memos 204, 222, 228; owner register R110-2)
+
+**The naming theorem above is unchanged.** The queued conjecture (§2, item 3) is stated over K = ℚ[x]/(x³ − 12x − 5), a non-cyclic cubic with Galois group S₃ (B1414, recomputed). By the Knus–Tignol type table (B1077's addendum of this date) the object's D₄ form is of type **⁶D₄ over ℚ**. Then:
+
+- **Reading (i) — "geometric S₃" = triality automorphisms defined over ℚ** (an outer automorphism φ with φ³ inner). By the theorem memo 204 quotes (Knus–Tignol Thm 4.1: such a φ exists only in types ¹D₄ and ³D₄), **no such φ exists over ℚ**; the arithmetic S₃ cannot "be" it. Under this reading the conjecture is **refuted as stated** — the outside bench's register entry R110-2 ("B882 IS REFUTED") is this reading, and it is right.
+- **Reading (ii) — "geometric S₃" = the full symmetry group of the Dynkin diagram D₄, realised by the Galois action.** That the Galois group of K acts on the diagram through all of S₃ is *exactly* the statement "type ⁶D₄". Under this reading the conjecture is **true by the typing**, and says nothing beyond it. Memo 228's "not proved, disproved or made harder" is this reading, taken from a stale novelty-sweep row.
+
+The record should state which reading it means whenever it cites this conjecture; neither yields a value or a physics claim. Over ℚ(√77) (type ³D₄) reading (i) becomes available and is a different question, not asked here.

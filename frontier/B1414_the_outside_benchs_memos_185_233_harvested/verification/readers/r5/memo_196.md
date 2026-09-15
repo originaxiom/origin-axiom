@@ -1,0 +1,38 @@
+# memo_196 — THE_CHAIN_IS_TWENTY_ONE.md
+
+## 1. HEADLINE
+"**R6′ DISCHARGED, AND A CORRECTION OWED FIRST**" — the sealed prediction splits into a FORCED half testable at 21 sites and a FREE half needing N≈144–377; plus Addendum 1 ("THE PRICING WAS THE SMALL FINDING AND THE LARGE ONE POINTS THE OTHER WAY" — all three sealed clauses are functions of the word alone, none contingent on measurement) and Addendum 2 (the lab lane tests only C1–C2 of the derivation chain, and C4 already bars it from reaching the SM). Date: 2026-09-10, addenda 2026-09-11.
+
+## 2. CLAIMS
+1. Correction: Tier-INTERFACE/L173 was SEALED 2026-08-21 (B1106), not "owner-pending" as this bench had twice reported — graded BENCH ERROR (self-filed), CORRECTED.
+2. Positive controls reproduce: N=987 word diffs `[]`, isospectrality 1.332e-15, split (5,6) — PASS. N=1597 odd-index breakage at exactly `[0,1]` — PASS.
+3. Table of N=13,21,34,55,89,144,233,377,987 with parity/word-diffs/isospectrality/split/window-fraction — MEASURED, exact table.
+4. "The FORCED half is testable at 21 sites" — word closes at N=F₈=21, isospectrality 1.33e-15 — graded FORCED/PASS.
+5. "The FREE half needs a longer chain" — (5,6) split first appears N=144, stable upward; on a ≤10%-of-chain criterion K2 needs N=377 — graded NAMED, NOT DONE (apparatus doesn't yet exist at that scale; anchor built 13–28).
+6. §4A.2's status line should read SEALED — RECOMMENDATION, not an edit made by this bench.
+7. ADDENDUM 1: H_L is exactly H_R read backwards at every closed even window (N=21,144,987, verified elementwise) — PROVED/computed exactly.
+8. ADDENDUM 1: Clause 1 (isospectrality) = a relabelling (forced, not contingent); Clause 3 = complement of the same word fact; Clause 2 (5/6 split) = J-forced (near-end,far-end) count of ONE chain, verified equal at every closed window — graded "all three clauses computable on paper, none contingent on a measurement."
+9. ADDENDUM 1: applies MB12/E2 ("cannot-fail and cannot-pass are two faces of one defect") to the sealed prereg itself — the model-identity residue is only "is the word a palindrome" (combinatorics) + "is the platform reciprocal" (known physics) — graded INTERPRETIVE, explicitly "not an error in B1095, no retraction asked."
+10. ADDENDUM 1: limit stated — analysis is at ρ=α only; B1085's ρ↦edge-content function over a 144-point sweep is NOT addressed — graded NAMED, NOT DONE.
+11. ADDENDUM 2: `docs/THE_END_TO_END_CHAIN.md` (510 lines) has zero occurrences of B1085, B1095, B1106, "photonic" — MEASURED fact, "the lab lane was never placed on the spine."
+12. ADDENDUM 2: the lab lane belongs at C1–C2 (Sturmian/golden-slope theorems), and C4's existing price note ("non-geometric carriers see only the hearing; ℚ(√−3) bought at geometrization and nowhere earlier") already excludes any photonic experiment from reaching the SM — graded "a sixth independent statement" of memo 195's complementarity (i.e., not novel in kind, novel in count).
+
+## 3. CERTIFICATE
+`outside_bench/certificates/edge_minimum_chain.py` EXISTS (217 lines). `outside_bench/outputs/edge_minimum_chain_out.txt` EXISTS (106 lines). Tail of output reproduces the Addendum-1 table and conclusion verbatim/near-verbatim: "CELL 4 -> B. All three are functions of the word; the word is a function of (rho, N), both FIXED IN THE SEAL. None is contingent on a measurement." — agrees with the memo's Addendum-1 headline. No seal is claimed for memo 196 itself (it discusses seal L173/B1106, which is a separate, pre-existing seal on main, not a seal of this memo).
+
+## 4. ON MAIN ALREADY?
+1. The correction (L173 was already SEALED 2026-08-21, not owner-pending) — **(b) applied via the merge as an ADDENDUM inside a main arc**: `docs/WHAT_WOULD_COUNT.md:286` carries a struck-through old status line and "[STATUS SUPERSEDED IN PLACE, 2026-09-12 — outside-bench memo 215, ...]" — note this citation is to memo **215**, not 196, even though 196 §0 makes the identical correction one memo earlier. `docs/OPEN_LEADS.md:1917` (L173 row) likewise carries "SUPERSEDED IN PLACE 2026-09-12 — outside-bench memos 206/208/210/211/213/214/215" — again citing later memos, not 196.
+2. The FORCED-half-at-21-sites / FREE-half-needs-144–377 pricing (§3): **(c) NOT on main** under memo 196's own name — `docs/OPEN_LEADS.md:1917`'s current text does cite "outside-bench memo 197" for the 19.77%-modal-phase pricing, but does not cite memo 196's N=21/144/377 apparatus-cost table anywhere searched.
+3. ADDENDUM 1's finding (all three sealed clauses are functions of the word, none contingent) — **(c) NOT on main**: not found in `docs/WHAT_WOULD_COUNT.md`, `docs/OPEN_LEADS.md`, `docs/SEAL_LEDGER.md`, or `docs/EDGE_PREREG_SPEC.md`. This is the memo's most important content (its own Addendum 1 says so) and it is the one piece not yet reflected in the L173 row's rewritten text, which still frames K1/K2/K3 as live kill conditions without noting they are provably relabellings/complements of a fixed word.
+4. ADDENDUM 2's "lab lane never on the spine" / C4-already-bars-it finding — **(c) NOT on main**: `docs/THE_END_TO_END_CHAIN.md` was not found to have been edited to add B1085/B1095/B1106/photonic cross-references (not directly checked line-by-line here, but no citation to memo 196 appears in that file via grep for "memo 196").
+
+## 5. NEEDS COMPUTATION HERE
+1. §3's table: recompute `b_n = ⌊(n+1)a+ρ⌋−⌊na+ρ⌋` at `a=2−φ`, `ρ=a`, build H_L/H_R per `tests/test_b1095_mirror_isospectral.py`'s convention, diagonalize at N=13,21,34,144,377,987 and check isospectrality + word-diff. Expected: even-index N gives isospectrality ~1e-15, odd-index gives ~0.15–0.19 gap. Cheap (seconds), a good REPRODUCE-AND-BANK candidate.
+2. ADDENDUM 1's elementwise check `H_L == J·H_R·J` at N=21,144,987 (exact boolean, not a tolerance) — the single most discriminating fact for the whole memo, since it is what turns "isospectral to 1e-15" into "identical by construction." A verifier should confirm this is an *exact* matrix identity (permutation conjugacy), not merely close.
+3. ADDENDUM 2's "0 occurrences" claim is DOCUMENTARY (a grep count on `docs/THE_END_TO_END_CHAIN.md`) — trivially reproducible with `grep -c`.
+
+## 6. SUPERSESSION
+Not superseded by a later outside-bench memo (INDEX.md does not show a later memo retracting 196; memo 215's title/content is about a *different* seal item, though it makes an overlapping correction about L173's status independently). On main, the L173 row (`docs/OPEN_LEADS.md:1917`) was rewritten citing memos 206/208/210/211/213/214/215 for the status correction — memo 196 made the same correction first (2026-09-10, one day before 215's 2026-09-12) but is not in that citation list, which is itself a citation-gap of the kind this bench repeatedly flags in memos 199/202. Not a withdrawal, but a **provenance gap**: the earliest source of the correction is uncredited on main.
+
+## 7. GRADE PROPOSAL
+**DISPUTED-ADJACENT / REGISTER.** Not DISPUTED in the sense of "main contradicts it" — no contradiction was found. But flag prominently: main's own L173 row (`docs/OPEN_LEADS.md:1917`) has been corrected on the *status* point but not on Addendum 1's substantive point (that K1/K2/K3 are word-forced identities, not independent falsifiers) — a verifier should check whether the current L173 row still overstates the lab lane's evidentiary weight now that Addendum 1 shows two of three clauses are provable identities rather than measurements. Recommend REGISTER for §0/§3 (documentary/pricing, already substantively adopted on main via memo 215's citation) and flag Addendum 1 + Addendum 2 as REPRODUCE-AND-BANK / REGISTER items **not yet on main** and worth a citation fix.
