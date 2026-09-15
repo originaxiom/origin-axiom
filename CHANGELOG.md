@@ -1,5 +1,44 @@
 # Changelog
 
+## B1410 ADDENDUM 1 — THE OWED DEFINITION WAS ALREADY PAID, AND THE REAL BLOCKER IS STRONGER
+
+**Yesterday's headline was wrong and today's correction makes the result better.** B1410 banked
+*"H5's falsifier is priced, and it costs one owed definition"*. **The definition was paid six weeks
+earlier**, at `B871_registering_datum` (PROVED, never superseded), whose own headline is *"the
+cascade's last owed definition is paid … the selection spine's imports reduce to P5 alone"*, with
+four legs verified on all eight cascade menu rows. `B994` records the same (*"B871 paying the owed
+definition"*). **`B861/FINDINGS.md:61` still said "still owed"** — never updated, and it is the file
+B1410 read. E53 at source; a dated banner is now on it.
+
+**Why it happened, and the rule that now catches it.** `already_banked.py --wide` ran twice before
+sealing — on the arc's framing, **never on the claim that carried it.** Run afterwards on the
+load-bearing phrase, it returns B871 **third**. The ABSENCE RULE fires on *"X does not exist"* and
+did not fire on ***"X is still owed"*** — the same assertion in the future tense. **The rule is
+widened**: *"still owed" / "remains open" / "nothing has done X" are absence claims, and the sweep
+runs on the claim the arc RESTS ON, not the claim the arc is about.* And the general reason it bites:
+**a debt's own record lives in the arc that incurred it, which has no reason to be updated when the
+debt is paid elsewhere — so a debt's own record is structurally the corpus's most likely stale
+surface.**
+
+**The true blocker, and it is stronger.** `B994`'s THE LIMIT: *"What forces the landing is
+chirality … **The endpoint is forced by an input the object does not have**"* — with **chirality**
+proved absent twice (`B713` NEGATIVE, *"Chirality is not in the amphichiral object"*; `B760`
+NEGATIVE, *"the object cannot close itself"*) and **E₆** bought by the field (`B993`). Both verified
+at source, not from B994's summary of them.
+
+**Row P1's verdict did not move: `UNDECIDED`, not `OTHER`.** Only the blocker's name changed — and
+the arc's conclusion survived its own false premise, which is the sharpest reason to correct it
+rather than let it stand. **H5's falsifier, on its best candidate, is blocked by a proved
+impossibility rather than an outstanding chore. That is evidence FOR H5, measured.**
+
+**Also landed:** `B994` added as ledger row **P4** — it is an H5 instance nobody classified as one,
+the object supplying the *menu* and not the *landing*, and the strongest row in the ledger;
+`B871`'s own stated boundary recorded and deliberately **not** resolved (the probe is realized at the
+group-character layer, not *"inside the SU(3)₂ modular stage … as B599's theorem is phrased there"*);
+the lock extended, having already caught the correction itself. **The sealed preregistration is
+untouched — `sha256 9ac73d7a…` still verifies.** No new arc id: a seat's correction of its own arc is
+an addendum, not a discovery.
+
 ## THE POINT LEDGER: H5'S FALSIFIER IS PRICED, AND IT COSTS ONE OWED DEFINITION (B1410)
 
 **Preregistration sealed `9ac73d7a…` and pushed at `5dde7b3e` before the first sweep ran.** Zero R11

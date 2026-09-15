@@ -59,6 +59,19 @@ not by the gate). The step-1 *winner* is unchanged either way.
 - **The registerability premise** is one definition away from banked machinery (B599 + B593 +
   B860's dichotomy), but that definition — "chirality-registering measurement = a B599 pairing
   datum" — is still owed.
+  > **PAID 2026-08-03 by `B871_registering_datum` (PROVED); banner added 2026-09-15 by B1410's
+  > Addendum 1, six weeks late.** B871's verdict: *"the cascade's last owed definition is paid: a
+  > chirality-REGISTERING measurement is the B599 pairing datum … 'Registerable' = 'a B599-legal
+  > chirality measurement exists'; the selection spine's imports reduce to P5 alone."* Four legs
+  > verified on all eight menu rows, both failures and all six passes. `B994` concurs and adds that
+  > the **assumed** half of this arc's rule — *maximal residual symmetry* — **does not do the
+  > landing**; registerability, the derived half, does.
+  > **This line was read as current six weeks after it stopped being true, and an arc was built on
+  > it** — E53, surface non-propagation, on the file that records the debt. The sentence above is
+  > left standing as the record of what was believed; this banner is the correction.
+  > **B871's own boundary stands and is not resolved by it:** the probe is realized at the
+  > group-character layer, not *"inside the SU(3)₂ modular stage … as B599's theorem is phrased
+  > there"* (`B871/FINDINGS.md:45-49`).
 - **No values.** Group selection only; nothing touches couplings, masses, generations, or scale.
 
 ## 5. Selection-cost ledger, final form of this session

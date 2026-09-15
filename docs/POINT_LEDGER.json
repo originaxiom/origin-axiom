@@ -2,7 +2,7 @@
   "what": "The POINT ledger -- where the object supplies a distinguished ELEMENT, the complement of B750's refusal ledger. Built at B1410 to hunt H5's falsifier, which asks for a POINT and therefore cannot live in any census of refusals.",
   "prereg": "frontier/B1410_the_point_ledger/PREREGISTRATION.md (sha256 9ac73d7a..., pushed at 5dde7b3e before any sweep ran)",
   "rule": "See the prereg section 4. Computed by scripts/checks/point_census.py --classify, never judged.",
-  "status": "FIRST PASS. Adjudicated small and carefully rather than large and loosely: the matcher measured 3/5 recall on the sealed calibration set, so a wide auto-built ledger would be a recollection with a test around it -- the exact failure this arc repairs in B1264.",
+  "status": "FIRST PASS. Adjudicated small and carefully rather than large and loosely: the matcher measured 3/5 recall on the sealed calibration set, so a wide auto-built ledger would be a recollection with a test around it -- the exact failure this arc repairs in B1264. CORRECTED 2026-09-15 (Addendum 1 to B1410): row P1's REASON was wrong -- the registerability definition was paid at B871 six weeks earlier. The verdict is unchanged; only the blocker is renamed, and it is stronger.",
   "rows": [
     {
       "id": "P1",
@@ -15,15 +15,24 @@
         "closure_ref": "out[1]"
       },
       "derivation": {
-        "identifications_used": ["registerability -- 'chirality-registering measurement = a B599 pairing datum', recorded by B861 as STILL OWED"],
+        "identifications_used": [
+          "CHIRALITY -- B994's THE LIMIT: 'What forces the landing is chirality' and 'the corpus proves the object does not supply it' (B713 NEGATIVE, B760 NEGATIVE). B994's own words: 'The endpoint is forced by an input the object does not have.'",
+          "E6 -- B994: 'bought by the FIELD, a commensurability-class invariant' (B993: the object-specific atom is generic at roughly 1 in 3)"
+        ],
         "anchors_T1": 0,
         "anchors_T2": 0,
-        "cited_mathematics_not_counted_as_input": ["P5 menu completeness (the subalgebra classification)"]
+        "cited_mathematics_not_counted_as_input": [
+          "P5 menu completeness (the subalgebra classification)"
+        ],
+        "paid_not_owed": "The registerability definition is PAID, at B871 (PROVED, not superseded): 'the cascade's last owed definition is paid ... the selection spine's imports reduce to P5 alone'. B994 concurs. CORRECTED 2026-09-15: B1410's first pass recorded it as STILL OWED, reading B861:61 which was never updated -- E53 at source. B871's own boundary (FINDINGS:45-49) flags a stage-internal refinement, NOT adjudicated here."
       },
-      "specificity": {"control_family": "not run", "object_unique": "UNTESTED"},
+      "specificity": {
+        "control_family": "not run",
+        "object_unique": "UNTESTED"
+      },
       "prereg_of_arc": "none -- B862's FINDINGS says 'Not preregistered'; POST-HOC",
       "citation": "frontier/B862_global_form/FINDINGS.md",
-      "note": "THE DECISIVE ROW. Other-referential target; the SM cannot fix its own global form and the chain does. Blocked from OTHER by exactly ONE owed bridge."
+      "note": "THE DECISIVE ROW. Other-referential target; the SM cannot fix its own global form and the chain does. Blocked from OTHER not by an outstanding chore but by TWO banked externals, one of them a proved impossibility (B713/B760). Verdict UNDECIDED, unchanged by the correction -- only the reason changed."
     },
     {
       "id": "P2",
@@ -35,8 +44,15 @@
         "generated_by_object": true,
         "closure_ref": "the object's own filling space"
       },
-      "derivation": {"identifications_used": [], "anchors_T1": 0, "anchors_T2": 0},
-      "specificity": {"control_family": "not run", "object_unique": "UNTESTED"},
+      "derivation": {
+        "identifications_used": [],
+        "anchors_T1": 0,
+        "anchors_T2": 0
+      },
+      "specificity": {
+        "control_family": "not run",
+        "object_unique": "UNTESTED"
+      },
       "prereg_of_arc": "none -- POST-HOC",
       "citation": "frontier/B287_distinguished_closing/arc_verdict.json",
       "note": "A clean selection inside a set the object generates. Cannot be typed SELF until object-specificity is MEASURED (E67); UNTESTED is not true."
@@ -51,16 +67,60 @@
         "generated_by_object": true,
         "closure_ref": "the object's own family"
       },
-      "derivation": {"identifications_used": [], "anchors_T1": 0, "anchors_T2": 0},
-      "specificity": {"control_family": "not run", "object_unique": "UNTESTED"},
+      "derivation": {
+        "identifications_used": [],
+        "anchors_T1": 0,
+        "anchors_T2": 0
+      },
+      "specificity": {
+        "control_family": "not run",
+        "object_unique": "UNTESTED"
+      },
       "prereg_of_arc": "none -- POST-HOC",
       "citation": "frontier/B1345_the_jorgensen_number/arc_verdict.json",
       "note": "One of B1405's five principles, all of which select m = 1. Not recovered by the matcher: the selection is not in the verdict line."
+    },
+    {
+      "id": "P4",
+      "arc": "B994",
+      "point": "the Standard Model, as the landing of every registerable-respecting chain",
+      "target": {
+        "name": "the cascade menu: all six registerable-respecting selection functions",
+        "size": 6,
+        "generated_by_object": false,
+        "closure_ref": "the menu is the Borel-de Siebenthal classification (P5), not object-generated"
+      },
+      "derivation": {
+        "identifications_used": [
+          "CHIRALITY -- 'the endpoint is forced by an input the object does not have' (B994, THE LIMIT)"
+        ],
+        "anchors_T1": 0,
+        "anchors_T2": 0
+      },
+      "specificity": {
+        "control_family": "B869 varied the starting group; B994 varied the rule",
+        "object_unique": "UNTESTED"
+      },
+      "prereg_of_arc": "none -- POST-HOC",
+      "citation": "frontier/B994_rule_variation/FINDINGS.md",
+      "note": "ADDED 2026-09-15. B994 is an H5 instance and nobody classified it as one: the object supplies the MENU (the space) and not the LANDING (the point), because the landing needs chirality it provably lacks. B994's own grade: 'REPRODUCED, not DERIVED ... Predicts none of the 19 dimensionless numbers.' The strongest row in this ledger."
     }
   ],
   "rejected_as_non_points": [
-    {"arc": "B680", "why": "Vol(4_1) = (3sqrt3/2) L(chi_-3, 2) is an IDENTITY. No candidate set exists, so nothing is selected.", "matcher_flagged": false},
-    {"arc": "B1406", "why": "tr(C) = 2 is a COMPUTED index, not a selection.", "matcher_flagged": true},
-    {"arc": "B1409", "why": "dim H^1 = k is a COMPUTED dimension, not a selection.", "matcher_flagged": true}
+    {
+      "arc": "B680",
+      "why": "Vol(4_1) = (3sqrt3/2) L(chi_-3, 2) is an IDENTITY. No candidate set exists, so nothing is selected.",
+      "matcher_flagged": false
+    },
+    {
+      "arc": "B1406",
+      "why": "tr(C) = 2 is a COMPUTED index, not a selection.",
+      "matcher_flagged": true
+    },
+    {
+      "arc": "B1409",
+      "why": "dim H^1 = k is a COMPUTED dimension, not a selection.",
+      "matcher_flagged": true
+    }
   ]
 }

@@ -688,6 +688,23 @@ un-swept absence are logged as ERROR_LEDGER E54; two were this bench's.
 Sub-clauses: run both φ and phi; verify the tool ran; `head`/`tail` is a window, never a
 population; check the flag's unit (occurrences vs lines).
 
+**Sub-clause (2026-09-15, B1410 Addendum 1 — "STILL OWED" IS AN ABSENCE CLAIM IN THE FUTURE TENSE.)**
+The rule above triggers on *"X does not exist"*. It did not trigger on **"X is still owed"**,
+**"X remains open"**, **"nothing has done X"** — which assert the same absence and carry the same
+cost. **They are absence claims and the sweep is owed before any of them is written.**
+
+*The instance, and it is this seat's.* B1410 was sealed and banked on the claim that B861's
+registerability definition was outstanding; it had been **paid six weeks earlier at B871**, whose
+headline is literally *"the cascade's last owed definition is paid"*. `already_banked.py --wide` was
+run twice before sealing — on the arc's framing, never on **the claim that carried it** — and run
+afterwards on the load-bearing phrase it returns B871 third. **Run the sweep on the sentence the arc
+rests on, not on the sentence the arc is about.**
+
+*Why the general rule bites here:* the corpus's own record of a debt lives in the arc that INCURRED
+it, and that arc has no reason to be updated when the debt is paid elsewhere. So a debt's own record
+is **structurally** the most likely place in the corpus to be stale — E53 pointed at the one file a
+reader would most trust. B861:61 said "still owed" for six weeks after it stopped being true.
+
 ## Assert the ordering, not the threshold — MANUAL
 
 (B1002.) *Re-fitting a floor to each new N is fitting, not testing.* A count dressed as

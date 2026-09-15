@@ -15490,3 +15490,31 @@ parameters are departures from it, so the question is what would justify moving 
 cover `L14n63694` — maximal cusp areas `2√6·(1,1,1,2,1)` under the unbiased normalisation, and
 `Isom = (ℤ/2)³` with cusp orbits `{0,4},{1,2},{3}` — two concordant criteria on one distinguished
 cusp, which is a **cusp** and not a point in the room.
+
+## 2026-09-15 — B1410 Addendum 1: the owed definition was already paid
+
+**Yesterday's headline was wrong, and the correction makes the result better.** B1410 banked "H5's
+falsifier is priced, and it costs one owed definition." **The definition was paid six weeks earlier**
+at `B871_registering_datum` (PROVED, never superseded): *"the cascade's last owed definition is paid …
+the selection spine's imports reduce to P5 alone"*, four legs on all eight menu rows. `B994` records
+it too. **`B861/FINDINGS.md:61` still said "still owed"** — the file B1410 read, never updated. E53 at
+source; banner added.
+
+**The process failure.** `already_banked.py --wide` ran twice before sealing — on the arc's framing,
+never on the claim that carried it. Run on the load-bearing phrase afterwards, B871 comes back third.
+**The ABSENCE RULE fires on "X does not exist" and not on "X is still owed"** — the same claim in the
+future tense. Widened in `docs/PRACTICES.md`, with the general reason stated: a debt's own record
+lives in the arc that incurred it, which has no reason to be updated when the debt is paid elsewhere,
+so **a debt's own record is structurally the most likely stale surface in the corpus.**
+
+**The true blocker is stronger than the one I named.** B994's THE LIMIT: *"What forces the landing is
+chirality … The endpoint is forced by an input the object does not have"* — chirality proved absent
+twice (B713 NEGATIVE, B760 NEGATIVE) and E₆ bought by the field (B993). Verified at source rather
+than from B994's summary. **Row P1's verdict is unchanged — UNDECIDED, not OTHER — and only the
+reason moved.** So the arc's conclusion survived its own false premise. **H5's falsifier, on its best
+candidate, is blocked by a proved impossibility rather than a chore: evidence FOR H5, measured.**
+
+**Also:** B994 added as row P4 (an H5 instance nobody had classified — the object supplies the menu,
+not the landing); B871's own stated boundary recorded and **not** resolved; the lock extended, having
+caught this correction itself. Seal untouched. No new arc id — a seat's correction of its own arc is
+an addendum, not a discovery.

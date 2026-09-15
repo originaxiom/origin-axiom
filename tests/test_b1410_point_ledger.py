@@ -68,16 +68,34 @@ def test_an_anchor_blocks_other_just_as_an_identification_does():
 
 
 def test_the_ledger_classifies_as_the_findings_reports():
-    """A silent re-adjudication is caught here rather than discovered later."""
+    """A silent re-adjudication is caught here rather than discovered later.
+
+    It already did its job once: Addendum 1 corrected row P1's REASON and added row P4, and this
+    test failed until both were accounted for. That is the point of pinning the whole map rather
+    than a count."""
     m = _mod()
     led = json.loads((ROOT / "docs" / "POINT_LEDGER.json").read_text(encoding="utf-8"))
     got = {r["arc"]: m.classify(r)[0] for r in led["rows"]}
-    assert got == {"B862": "UNDECIDED", "B287": "UNDECIDED", "B1345": "UNDECIDED"}, got
-    # B862 is blocked by the OWED BRIDGE, not by an anchor -- that distinction IS the finding
+    assert got == {"B862": "UNDECIDED", "B287": "UNDECIDED",
+                   "B1345": "UNDECIDED", "B994": "UNDECIDED"}, got
+
+
+def test_b862_is_blocked_by_external_inputs_and_not_by_an_anchor():
+    """THE finding, and Addendum 1's correction of it. B862's target is other-referential and its
+    anchors are zero; what blocks OTHER is external INPUT. Addendum 1 replaced the named input --
+    the registerability definition was paid at B871 six weeks before B1410 called it owed -- with
+    the two B994 names: CHIRALITY (B713/B760, both NEGATIVE) and E6 (bought by the field, B993).
+    The verdict did not move. This pins that it is inputs, not anchors, that do the blocking."""
+    m = _mod()
+    led = json.loads((ROOT / "docs" / "POINT_LEDGER.json").read_text(encoding="utf-8"))
     b862 = next(r for r in led["rows"] if r["arc"] == "B862")
     assert b862["target"]["generated_by_object"] is False
     assert b862["derivation"]["anchors_T1"] == 0 and b862["derivation"]["anchors_T2"] == 0
-    assert len(b862["derivation"]["identifications_used"]) == 1
+    used = " ".join(b862["derivation"]["identifications_used"]).upper()
+    assert "CHIRALITY" in used and "B713" in used and "B760" in used, used
+    # and the corrected record must say the definition is PAID, naming where
+    assert "B871" in json.dumps(b862), "row P1 no longer records that B871 paid the definition"
+    assert m.classify(b862)[0] == "UNDECIDED"
 
 
 def test_the_closure_amendment_count_is_visible_and_the_policy_survives():

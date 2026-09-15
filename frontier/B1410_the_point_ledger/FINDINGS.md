@@ -160,3 +160,85 @@ class is the window's own and this is its cleanest instance.
 
 `verification/` · `tests/test_b1410_point_ledger.py` · `docs/POINT_LEDGER.json` ·
 `docs/OBJECT_CLOSURE.json` · `scripts/checks/point_census.py`
+
+---
+
+# ADDENDUM 1 — 2026-09-15: the owed definition was already paid, and the real blocker is stronger
+
+*Appended, not edited: the sealed `PREREGISTRATION.md` is untouched (`sha256 9ac73d7a…` still
+verifies) and §1a above stands as the record of what was asserted. This is E53's own practice —
+correct at source with a dated addendum.*
+
+## What was wrong
+
+§1a and §7 above say H5's falsifier is *"one owed definition away"*, and `POINT_LEDGER` row P1 named
+that definition as the blocker. **It was paid six weeks earlier.**
+
+- **`B871_registering_datum` (PROVED, `superseded_by: null`)**, its own verdict line: *"the cascade's
+  last owed definition is paid: a chirality-REGISTERING measurement is the B599 pairing datum … the
+  selection spine's imports reduce to P5 alone."* Four legs verified on all eight cascade menu rows —
+  both failures and all six passes.
+- **`B994_rule_variation` (PROVED)** concurs and adds: *"the assumed half of B861's rule — 'maximal
+  residual symmetry' … **DOES NOT DO THE LANDING**. The landing is done by REGISTERABILITY, which is
+  the DERIVED half (B860 theorem-grade, **B871 paying the owed definition**)."*
+- **`frontier/B861_fused_cascade/FINDINGS.md:61` still says "still owed"** — never updated. **That is
+  E53 at source, and it is the file this arc read.** A dated banner is added there in this same pass.
+
+## Why it happened, and it is the same class a third time
+
+I ran `already_banked.py --wide` twice before sealing — on *"self-referential other-referential
+classification"* and *"H5 falsifier hunt"* — **and never on the claim that actually carried the
+arc.** Run afterwards on the load-bearing claim, it returns `B871` third, by its headline:
+
+```
+already-banked: terms ['registerability', 'owed', 'definition', 'b599', 'pairing', 'datum']
+  *** [ 5 terms] PROVED    B871_registering_datum
+           G5 CLOSED at the group layer -- the cascade's last owed definition is paid: ...
+```
+
+**The absence rule (E54) says to sweep before writing "we don't have X". "X is still owed" is the
+same claim in the future tense**, and the rule did not say so. It does now — see `docs/PRACTICES.md`.
+
+## The blocker is real, and it is stronger than the one I named
+
+`B994`'s own **THE LIMIT** section (`FINDINGS.md:50-70`), verbatim:
+
+> **What forces the landing is chirality.** The criterion is, verbatim from the code, *"registerable
+> = the generation stays **chiral**"*. And the corpus proves the object does not supply it:
+> **B713 [NEGATIVE]** … **B760 [NEGATIVE]** …
+> **The endpoint is forced by an input the object does not have.**
+> … given E₆ — which B993 shows is bought by the FIELD, a commensurability-class invariant — and
+> given CHIRALITY, which the object provably does not supply, six paths land on the SM. **Two
+> external inputs, both named, both already banked as external.**
+
+Both verified at source: `B713` **NEGATIVE** (*"Chirality is not in the amphichiral object"*),
+`B760` **NEGATIVE** (*"the object cannot close itself"*), neither superseded.
+
+**So row P1's verdict is unchanged — `UNDECIDED`, not `OTHER` — and only the reason moved.** Re-run
+after the correction returns the same four verdicts; a correction that moved a verdict would be a
+different finding and would have to be argued, not slipped in.
+
+> **The corrected reading, and it is a better result than the one it replaces.** H5's falsifier, on
+> its single best candidate, is not blocked by an outstanding chore. It is blocked by **two banked
+> external inputs, one of them an impossibility the corpus proved twice.** That is evidence *for*
+> H5 — measured, not asserted — and it is the strongest the hypothesis has.
+
+## A row that should have been in the ledger from the start
+
+**`B994` is itself an H5 instance and nobody classified it as one.** *"The endpoint is forced by an
+input the object does not have"* is H5's exact shape: the object supplies the **menu** (the space)
+and not the **landing** (the point). Added as row **P4**, with B994's own grade attached —
+*"REPRODUCED, not DERIVED … Predicts none of the 19 dimensionless numbers."*
+
+## What is NOT decided here
+
+**`B871`'s own stated boundary** (`FINDINGS.md:45-49`): the probe is realized at the
+**group-character layer**, not *"inside the SU(3)₂ modular stage … as B599's theorem is phrased
+there"*. Whether that gap re-opens the debt is **not adjudicated in any file**, and is not
+adjudicated here. It is recorded as the open question it is, rather than decided in passing to make
+a headline work — which is how this addendum's own error was produced.
+
+**H5's status is unchanged: SURVIVED-WITH-A-MEASURED-POPULATION.** Not falsified, not proved. The
+population is now four rows, and its best candidate is blocked by a proved absence.
+
+*No new arc id was minted. A seat's correction of its own arc is an addendum, not a discovery.*
