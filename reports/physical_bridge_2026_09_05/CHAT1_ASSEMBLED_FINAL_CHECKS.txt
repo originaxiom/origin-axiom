@@ -1,0 +1,217 @@
+Chat1 reporting/custody checkpoint, 2026-09-16.
+
+Follow-on validation: 26 PASS / 4 FAIL. The provenance row now
+passes. The four prior failures remain; nothing was exempted to clear them.
+Packet custody is unchanged and passes. Prior-work custody also passes,
+now covering 467 artifact paths and 103 checked relative links. The
+scientific inputs and historical failed/error IDs still match.
+The following receipt lines are added after the runs they describe.
+
+oa_chat1_reporting_custody_followup
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/chat1_receipt_check.rb",
+    "<raw-directory>",
+    "<packet-zip>",
+    "<extracted-packet>"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.3754330000374466,
+  "log_bytes": 197,
+  "log_sha256": "75fb31691cba933240b1fae26bd43d699cfdf8148b08914ff1eba2419c243035"
+}
+Raw receipt SHA256: 76c1b9229ce69fe619d56d857e08e25c5061052eafe0cfb536068c6597df8eb4
+Output, unchanged:
+{"packet_members":29,"raw_and_public_runs":5,"unchanged_science_paths":6,"exit_codes":[1,1,0,0,0],"scope":"Packet and run custody, including original errors; not a science rerun or proof review."}
+
+oa_chat1_reporting_prior_custody_followup
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+    "<raw-directory>"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 1.236434999969788,
+  "log_bytes": 616,
+  "log_sha256": "8cddde66804e539457d15c749c63885d6d68e4ea917e2c5c5cf2d3125c528a65"
+}
+Raw receipt SHA256: 829d9982bc47252cc2924ea307bfe425ffff2a754daffd3921fb70298df66cc0
+Output, unchanged:
+{"old_custody":{"artifacts":467,"latest_distinct_seals":102,"unchanged_science_paths":11,"raw_captures":14,"public_science_copies":7,"broad_test_files":52,"unchanged_failed_error_ids":24,"relative_markdown_links":103,"scope":"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green."},"unchanged_r31_science_paths":8,"r31_raw_captures":9,"r31_public_copies":4,"r31_broad_test_files":54,"unchanged_failed_error_ids":24,"history_population_verified":true,"scope":"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green."}
+
+oa_chat1_reporting_gates_followup
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "<python3.12-env>/bin/python3.12",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 15.580152000067756,
+  "log_bytes": 1916,
+  "log_sha256": "91ff4dca75c81470c58f95bbac45f47b0750ce09918c68608409c981d5ae0456"
+}
+Raw receipt SHA256: 5865a71996fcccfa714eb7b8922fe57f7bda9ea2085aacfcba7b0d5cc7132bd7
+Output, unchanged:
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 45 open |   relay-debt: 1 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 25 days (> 21), no ESCALATED marker
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 165 merges since last review (DUE — run the decadal review)
+
+No scientific producer, assertion or original failed output was changed.
+Original two failed runs, the successful certified canonical run and
+the separately sealed successful alias control are all retained.
+The old 508-pass/16-fail/8-error broad run predates these two new test
+files. The original new fixture has eight errors; the follow-on file
+has eight passes. No full-repository green is claimed.
+
+First reporting gate result: 25 PASS / 5 FAIL.
+The additional law-map-provenance failure was an omitted repository
+context citation in the new grade/matter row. B960 was read completely
+and linked for its central-character/module distinction, explicitly NOT
+as a source for the separate branching computation or wholesale
+endorsement of its no-go. The actual branching evidence remains the
+primary paper and our exact controls. No arbitrary arc or new B was used.
+The other four gate categories are the existing attribution,
+test-vacuity, seal-provenance and stale relay-debt failures. The debt is
+now 25 days old; review is due at 165 merges.
+
+Custody exits zero for all 29 packet members, five raw/public runs and
+six unchanged sealed inputs. The prior-work integrity check exits zero:
+466 artifact paths, 102 distinct seals and the R30/R31 science, raw
+captures and 54-file historical broad-population/failure IDs still match.
+This is custody, not independent proof review or a new science rerun.
+
+Authored staged whitespace passes. Two original raw failure logs retain
+their trailing whitespace/end blank line; the all-file check passes
+when only those whitespace complaint classes are disabled. They have
+not been reformatted to pass a check.
+
+These reporting receipts were written after the runs they describe.
+The new report/helper/reader hashes are maintained by computed append
+in ARTIFACT_HASHES.txt. Follow-on checks are recorded separately below.
+
+oa_chat1_reporting_custody_first
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/chat1_receipt_check.rb",
+    "<raw-directory>",
+    "<packet-zip>",
+    "<extracted-packet>"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.3625900000333786,
+  "log_bytes": 197,
+  "log_sha256": "75fb31691cba933240b1fae26bd43d699cfdf8148b08914ff1eba2419c243035"
+}
+Raw receipt SHA256: 64a07535681e1d9cdb16bea044193420ecf51e2da035de1424b039eb945bbc65
+Output, unchanged:
+{"packet_members":29,"raw_and_public_runs":5,"unchanged_science_paths":6,"exit_codes":[1,1,0,0,0],"scope":"Packet and run custody, including original errors; not a science rerun or proof review."}
+
+oa_chat1_reporting_prior_custody_first
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+    "<raw-directory>"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 1.3515299999853596,
+  "log_bytes": 616,
+  "log_sha256": "8c7b5b4406c2c06ce3f0b8d18456afc66455e0af641ad3120c5f46ff91c7ac97"
+}
+Raw receipt SHA256: 2e27c941422544a6fd91fce2f0e34363c454713c7f06f2dd588bbd7fa0af1732
+Output, unchanged:
+{"old_custody":{"artifacts":466,"latest_distinct_seals":102,"unchanged_science_paths":11,"raw_captures":14,"public_science_copies":7,"broad_test_files":52,"unchanged_failed_error_ids":24,"relative_markdown_links":102,"scope":"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green."},"unchanged_r31_science_paths":8,"r31_raw_captures":9,"r31_public_copies":4,"r31_broad_test_files":54,"unchanged_failed_error_ids":24,"history_population_verified":true,"scope":"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green."}
+
+oa_chat1_reporting_gates_first
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "<python3.12-env>/bin/python3.12",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 17.07592700002715,
+  "log_bytes": 1998,
+  "log_sha256": "bfc91574942d36dfb98efabe78128942b56f8cb8a6b9bb7745ba8ddd41717fb2"
+}
+Raw receipt SHA256: f86e5aa29c2788ac1262f7ceb5048fa9f0f65a38b253f1451e63de15cc1d5485
+Output, unchanged:
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 45 open |   relay-debt: 1 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 25 days (> 21), no ESCALATED marker
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  FAIL  law-map-provenance: LAW_MAP provenance -- 1 row(s) cite no arc: A 27-dimensional adjoint grade is not th
+  PASS  atlas-lexicon-current: ok
+  review-due: 165 merges since last review (DUE — run the decadal review)

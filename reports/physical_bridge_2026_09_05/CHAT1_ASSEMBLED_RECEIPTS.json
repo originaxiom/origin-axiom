@@ -1,0 +1,291 @@
+{
+  "date": "2026-09-15",
+  "original_seal": "5b6391c368a7695fef4b86a7c7bf8bfee7f8a309",
+  "alias_seal": "5e063851358bc1b8016d93df426eb975a1665d89",
+  "redaction": "Only declared interpreter/environment, Sage launcher and absolute repository prefixes; raw digests are unredacted. Warning prefixes remain in the native TXT outputs.",
+  "packet": {
+    "zip_basename": "chat1_ASSEMBLED_PICTURE_2026-09-13.zip",
+    "bytes": 45825,
+    "sha256": "2ee56067221a1377140beb8c06df32fa8f455d13200761dc6b0a0b2d4be933a1",
+    "read_extent": "Entire assembled document and all 28 scripts personally read; no supplied script executed.",
+    "members": [
+      {
+        "path": "THE_ASSEMBLED_PICTURE.md",
+        "bytes": 8297,
+        "sha256": "2bbf80208b7a12e367bd3b6a5b6e49a132762de672a58f6284d8f27ad0626351"
+      },
+      {
+        "path": "verify/01_slack_table.py",
+        "bytes": 1635,
+        "sha256": "91334d93591da5805d93834ba1172dc6ca3a5b37fbba91c0e0dd0453ad2c1f77"
+      },
+      {
+        "path": "verify/02_G2_multiplier.py",
+        "bytes": 2086,
+        "sha256": "b2dfcc84c0b35eeacd365e96888d66e405aced3693d8de339b04c81af74cf276"
+      },
+      {
+        "path": "verify/04_strata_multipliers.py",
+        "bytes": 1361,
+        "sha256": "b5da7672f3dea368544d0f8cf50d3af0dfd549e21409494d8c97e78f208c5608"
+      },
+      {
+        "path": "verify/07_the_identification_error.py",
+        "bytes": 2647,
+        "sha256": "fcc7b9f05111528912e693dd558ccdf0ba87a0695210f67f496c86f5cd45f5be"
+      },
+      {
+        "path": "verify/08_J_m004_exact.py",
+        "bytes": 736,
+        "sha256": "02cb4f4640496dde4b09458285967c2635afc1a2b79a68f09ca28e6b37145f01"
+      },
+      {
+        "path": "verify/census_bias.py",
+        "bytes": 1459,
+        "sha256": "ba7937bd1c61cc25aa58d636fb5fa450b48112a349833b246510a7d88a66a931"
+      },
+      {
+        "path": "verify/check_C1_criterion.py",
+        "bytes": 2818,
+        "sha256": "fd85a14bbccaf9eeca2ac282a1e8dfecc6034993eac3f04dc92894347d21f375"
+      },
+      {
+        "path": "verify/check_G1.py",
+        "bytes": 4882,
+        "sha256": "ca8b94c524857af0a0cf06b1189ceb6a5a0ebb877e9b183807806b7f61dfbe86"
+      },
+      {
+        "path": "verify/check_G2.py",
+        "bytes": 3657,
+        "sha256": "b140890f8a3bce0e1bf8941d407b91613ff26db2401e6a38a21008292290a0f5"
+      },
+      {
+        "path": "verify/check_G2G3.py",
+        "bytes": 4265,
+        "sha256": "dd8e082850c34dcbc8372526ae30cd3dbebad414d00962765fff655d69fb03cb"
+      },
+      {
+        "path": "verify/check_chi_wall.py",
+        "bytes": 3121,
+        "sha256": "1c90bc98329a116fd79924bc6ca519aaf1bceca47d008747f36db48e95bf04fc"
+      },
+      {
+        "path": "verify/check_form_parity.py",
+        "bytes": 2432,
+        "sha256": "0c6a3a315162f1aec2f31dd30991b86b0f657cde9ca20d251a5f7c1dfe9a3d9f"
+      },
+      {
+        "path": "verify/check_galois_separation.py",
+        "bytes": 3291,
+        "sha256": "9785c9dcf2e9072778cb1f26f063e3e43ec55c9ece4b60e76e73795bf075d2af"
+      },
+      {
+        "path": "verify/check_symmetry_protection.py",
+        "bytes": 4410,
+        "sha256": "8a63ad63607d19145be4f6c84680d38d16b58200199598646036df148af1bb3f"
+      },
+      {
+        "path": "verify/check_word_order.py",
+        "bytes": 2903,
+        "sha256": "2d4a47fe8b9e38e6b314888b4aabf7482f759cfe0a8a407451ee91ee34a895b9"
+      },
+      {
+        "path": "verify/closedaps.py",
+        "bytes": 1251,
+        "sha256": "c6ff550fd2d33c7ba82260fb9addb877fb6d228e89f1c7c593de4a5e3a24ce59"
+      },
+      {
+        "path": "verify/closedtau.py",
+        "bytes": 2130,
+        "sha256": "afa8f9f44046956a992c5de1c942da0e03a75490d9cd99710468e0282cca7744"
+      },
+      {
+        "path": "verify/freetest.py",
+        "bytes": 1755,
+        "sha256": "1a5f5975895c5e2e28a1ae43e487a23db504ef28debff7c3c6885d8550c1da6e"
+      },
+      {
+        "path": "verify/jorgensen_proper.py",
+        "bytes": 2255,
+        "sha256": "370ea247980cb5940e8c992a46accb48a4255a00eb828d569cddbae22ce2fc47"
+      },
+      {
+        "path": "verify/kawauchi_cusped.py",
+        "bytes": 3072,
+        "sha256": "086eb3d4655f87b8728a57601f19bdad8f7771933f2e276bb8f49ea0eeea3ae5"
+      },
+      {
+        "path": "verify/kawauchi_scale.py",
+        "bytes": 2558,
+        "sha256": "67b663a1b0104a03f64bd58de83ba3b44d686989c94d0cb940b8ad72c507a609"
+      },
+      {
+        "path": "verify/recheck_r040_census.py",
+        "bytes": 2207,
+        "sha256": "cff350c034f394f9868fb01c0610996233a8e1c70c02f4bbeb97ae97b1fbf197"
+      },
+      {
+        "path": "verify/run_omega.py",
+        "bytes": 3318,
+        "sha256": "68d694d89332763edbe62ad1b2dd9e9734d95f30e43d89f92e3b0383e4169559"
+      },
+      {
+        "path": "verify/stageC.py",
+        "bytes": 4550,
+        "sha256": "48fea4db219efdb2cc52ea18a8c0e79de587e558732adc56db9b434787d893af"
+      },
+      {
+        "path": "verify/tau_vs_cs.py",
+        "bytes": 2303,
+        "sha256": "102a438a2404371d6d10c34749e17a912da67931cb9f9b0b3f7dd28831b1113a"
+      },
+      {
+        "path": "verify/verify_all.py",
+        "bytes": 6528,
+        "sha256": "f853f4ac1a070586157b493cdfc795ec2e973dc2ae3de65c0ea183128077186f"
+      },
+      {
+        "path": "verify/verify_b993.py",
+        "bytes": 2138,
+        "sha256": "07e0367ff1fd0fb1cad6e4fba8d90da0af4e9e9ecfec9bad96f1e377c2439348"
+      },
+      {
+        "path": "verify/wide.py",
+        "bytes": 1469,
+        "sha256": "9d6377364ef9c92fa5b97b061d088c01a8f4dc32cf2ef66c2ab89fbe3c8d3361"
+      }
+    ]
+  },
+  "relay": {
+    "basename": "CC_TO_CODEX_2026-09-15_CONSOLIDATION_YOU_ARE_FREE_TO_WORK.md",
+    "bytes": 2024,
+    "sha256": "123ebcff92b35b3cd7d623dabfa711cfd2a39cd5f8900ccba4e647abf5ed6c6a",
+    "read_extent": "All 15 lines, no external send, historical seat identity not adopted."
+  },
+  "runs": {
+    "native_first": {
+      "raw_basename": "oa_chat1_class_native_first",
+      "public_path": "reports/physical_bridge_2026_09_05/CHAT1_CLASS_NATIVE_FIRST.txt",
+      "public_sha256": "d0fca13c03c64a1ad43681b8e2366c0fe0de2507870a2dec34333a0e4723c098",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/chat1_class_control.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 1.8924309998983517,
+        "log_bytes": 1577,
+        "log_sha256": "3367b88ed2b5e740d345615d1366768df6eac4f7ea5580d862bc608af3f8c61e"
+      },
+      "raw_receipt_sha256": "81bf12b8e5d9ff63d58e6faedfc625ffba452b33abc86c18af94b54dbd7a3686"
+    },
+    "tests_first": {
+      "raw_basename": "oa_chat1_class_tests_first",
+      "public_path": "reports/physical_bridge_2026_09_05/CHAT1_CLASS_TESTS_FIRST.txt",
+      "public_sha256": "fe5be491b2703664e7fed2e36fa52ed5afaf6973c3650410df2acc3a3b12befa",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "tests/test_physical_bridge_chat1_class_control.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 3.077089999918826,
+        "log_bytes": 10366,
+        "log_sha256": "04973fbe1d6c97922073419cd7449e1b5ce4fe2f80c8de541ef3ede765d2a977"
+      },
+      "raw_receipt_sha256": "25d03503b25c2f4d165773ba45c4e6d5ae8152943092f1812a1ebf4099b0ed30"
+    },
+    "canonical_first": {
+      "raw_basename": "oa_chat1_class_canonical_first",
+      "public_path": "reports/physical_bridge_2026_09_05/CHAT1_CLASS_CANONICAL_FIRST.json",
+      "public_sha256": "3b07c9c340103f743a194f4e0b334fb0111e6ba0f5e9c705dd65d0e78999a648",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<sage-launcher>",
+          "-python",
+          "reports/physical_bridge_2026_09_05/chat1_class_control.py",
+          "--canonical"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 10.522655999986455,
+        "log_bytes": 16476,
+        "log_sha256": "3b07c9c340103f743a194f4e0b334fb0111e6ba0f5e9c705dd65d0e78999a648"
+      },
+      "raw_receipt_sha256": "08bd04db45b048067a8b0b362a452a7ed6418676cc9a39b600398eaa7e3a479e"
+    },
+    "alias_native_first": {
+      "raw_basename": "oa_chat1_class_alias_native_first",
+      "public_path": "reports/physical_bridge_2026_09_05/CHAT1_CLASS_ALIAS_NATIVE_FIRST.txt",
+      "public_sha256": "c484bab881a155fee9f14729725c4ec68e96acfc37293c8c17a21cc7f2d05b77",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/chat1_class_alias_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.6441409999970347,
+        "log_bytes": 32482,
+        "log_sha256": "62607f89e1058f7e82696e22c9d3109a288823ca259cd5fe2a7e9bcc1fa7af4f"
+      },
+      "raw_receipt_sha256": "876faa891f782ead607ebf6942546a9cb504c4681dab05f17af9ef092be52138"
+    },
+    "alias_tests_first": {
+      "raw_basename": "oa_chat1_class_alias_tests_first",
+      "public_path": "reports/physical_bridge_2026_09_05/CHAT1_CLASS_ALIAS_TESTS_FIRST.txt",
+      "public_sha256": "4af3e798c237fa31c8451608dd4fec45df29d78502acf035c47a3b2fb84a7b1c",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "tests/test_physical_bridge_chat1_class_alias_control.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.2376870000734925,
+        "log_bytes": 605,
+        "log_sha256": "b2849dd0a4d8c85d24ce5fc81a15cd1bc767c0651c0f655563463dc9a03de5db"
+      },
+      "raw_receipt_sha256": "3b22fbd90b83db2f4ddcab334995077af3b3148c0ced09d2288ad99ddda7ff97"
+    }
+  },
+  "scope": "Original failure and separate successful controls; not all packet results rerun, independent main banking or full-repository green."
+}

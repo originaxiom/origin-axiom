@@ -1,0 +1,194 @@
+EEEEEEEE                                                                 [100%]
+==================================== ERRORS ====================================
+____ ERROR at setup of test_exact_parent_matrices_act_on_actual_tetrahedron ____
+tests/test_physical_bridge_chat1_class_control.py:15: in result
+    return m.exact_run()
+           ^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+cython/core/triangulation.pyx:308: in SnapPy.Triangulation.get_from_file
+    ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+_ ERROR at setup of test_proposed_indices_require_shape_and_subgroup_checks[0-12] _
+tests/test_physical_bridge_chat1_class_control.py:15: in result
+    return m.exact_run()
+           ^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+cython/core/triangulation.pyx:308: in SnapPy.Triangulation.get_from_file
+    ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+_ ERROR at setup of test_proposed_indices_require_shape_and_subgroup_checks[1-24] _
+tests/test_physical_bridge_chat1_class_control.py:15: in result
+    return m.exact_run()
+           ^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+cython/core/triangulation.pyx:308: in SnapPy.Triangulation.get_from_file
+    ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+_ ERROR at setup of test_proposed_indices_require_shape_and_subgroup_checks[2-36] _
+tests/test_physical_bridge_chat1_class_control.py:15: in result
+    return m.exact_run()
+           ^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+cython/core/triangulation.pyx:308: in SnapPy.Triangulation.get_from_file
+    ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+_ ERROR at setup of test_rejector_does_not_turn_integer_volume_into_psl_cover __
+tests/test_physical_bridge_chat1_class_control.py:15: in result
+    return m.exact_run()
+           ^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+cython/core/triangulation.pyx:308: in SnapPy.Triangulation.get_from_file
+    ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+_ ERROR at setup of test_exact_grade_and_fundamental_are_different_representations _
+tests/test_physical_bridge_chat1_class_control.py:15: in result
+    return m.exact_run()
+           ^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+cython/core/triangulation.pyx:308: in SnapPy.Triangulation.get_from_file
+    ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+______ ERROR at setup of test_bad_graphs_and_peripheral_data_are_rejected ______
+tests/test_physical_bridge_chat1_class_control.py:15: in result
+    return m.exact_run()
+           ^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+cython/core/triangulation.pyx:308: in SnapPy.Triangulation.get_from_file
+    ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+_______ ERROR at setup of test_native_outcome_is_derived_from_all_checks _______
+tests/test_physical_bridge_chat1_class_control.py:15: in result
+    return m.exact_run()
+           ^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:153: in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+reports/physical_bridge_2026_09_05/chat1_class_control.py:118: in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+cython/core/triangulation.pyx:107: in SnapPy.Triangulation.__cinit__
+    ???
+cython/core/triangulation.pyx:142: in SnapPy.Triangulation.get_triangulation
+    ???
+cython/core/triangulation.pyx:249: in SnapPy.Triangulation.get_triangulation_from_name
+    ???
+cython/core/triangulation.pyx:308: in SnapPy.Triangulation.get_from_file
+    ???
+E   OSError: The manifold file otet06_0000 was not found.
+E   
+E       A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+E       conventions detailed in its docstring.
+=============================== warnings summary ===============================
+tests/test_physical_bridge_chat1_class_control.py::test_exact_parent_matrices_act_on_actual_tetrahedron
+  <python3.12-env>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_exact_parent_matrices_act_on_actual_tetrahedron
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_proposed_indices_require_shape_and_subgroup_checks[0-12]
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_proposed_indices_require_shape_and_subgroup_checks[1-24]
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_proposed_indices_require_shape_and_subgroup_checks[2-36]
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_rejector_does_not_turn_integer_volume_into_psl_cover
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_exact_grade_and_fundamental_are_different_representations
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_bad_graphs_and_peripheral_data_are_rejected
+ERROR tests/test_physical_bridge_chat1_class_control.py::test_native_outcome_is_derived_from_all_checks
+1 warning, 8 errors in 2.17s

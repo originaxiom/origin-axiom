@@ -2974,3 +2974,31 @@ analytic argument and supporting controls, not independent proof review
 or closure of PB-BOUNDARY. NEXT: complete source/end limits, normalized
 currents and a specified interacting completion with its full anomaly.
 R19's different singular domain and other kinetic spaces remain live.
+
+**Chat1/class intake on PB-BOUNDARY, 2026-09-16 — no closure.**
+The verified parent/cover indices and binary tetrahedral isotropy are
+retained; the source strategy now has a concrete arithmetic-parent
+setting. Equal-index s958/s959 prevent treating depth as the only
+descent condition. The received adjoint-grade/matter-27 identification
+is declined by exact representation and color-anomaly controls, not
+by rejecting the parent geometry. The universal bare-mirror index
+negative is also declined without a complete operator/domain symmetry.
+
+Carried-forward duties, not claims of corpus-wide absence:
+
+- Construct the actual parent-equivariant bundle and source/end action;
+  state its cover restriction, normalizer action or finite correspondence.
+- Identify the chosen four-dimensional fermion module, actual kinetic
+  domain and normalized spectrum. Recompute the index and compensating
+  modes after any orbifold projection; do not silently discard R31's pairs.
+- Track the complete anomaly and normalized gauge currents in that same
+  theory. A three-point fixed-locus count is not a generation count.
+- Derive scalar breaking and scales within that action before promoting
+  the packet's detailed phenomenology. Those scale claims were not
+  independently reproduced here.
+- Respect the consolidation relay: keep this audit lane and numbering,
+  use portable new scripts, and leave main acceptance to item-level review.
+
+Packet scope, controls, failures and exact receipts:
+reports/physical_bridge_2026_09_05/CHAT1_ASSEMBLED_AUDIT_2026_09_15.md.
+No shared number or new physical rung is allocated.

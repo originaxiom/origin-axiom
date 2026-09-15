@@ -1,5 +1,18 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL INTAKE, 2026-09-16: chat1 and the arithmetic parent.**
+Independent exact covering and parent-matrix controls retain the
+PSL(2,O_3) indices 12,24,36 and tetrahedral 2T. Certified isometries
+show equal-index s958/s959 differ in order-three symmetry; normalization
+of the subgroup, not depth alone, is the descent condition. The proposed
+adjoint-grade/fundamental-27 identification fails an exact color-content
+and cubic-anomaly test. The parent strategy helps but does not supply a
+physical fermion operator or dismiss R31's resolved partners. Original
+alias failures and a separately sealed successful correction are both
+preserved. No new B, main bank, full green or completed TOE.
+Report: reports/physical_bridge_2026_09_05/CHAT1_ASSEMBLED_AUDIT_2026_09_15.md.
+
+
 **LATEST LOCAL AUDIT, 2026-09-15 (R31): actual compact Poisson wells.**
 The authored Green-kernel argument supplies uniform interior logarithmic
 and off-source bounds for R29's fixed compact normalized uniform tubes,

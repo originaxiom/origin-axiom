@@ -1,0 +1,924 @@
+{
+  "all_checks_pass": true,
+  "manifolds": [
+    {
+      "canonical_isosig": "cPcbbbiht",
+      "canonical_verified": true,
+      "expected_counts_match": true,
+      "isometries": [
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        }
+      ],
+      "name": "m004",
+      "rotational_c3_count": 0,
+      "symmetry_count": 8
+    },
+    {
+      "canonical_isosig": "jLLzzQQccdffihhiiqffofafoaa",
+      "canonical_verified": true,
+      "expected_counts_match": true,
+      "isometries": [
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                1
+              ],
+              [
+                -1,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                -1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -1,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": true
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              [
+                -1,
+                0
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              [
+                -1,
+                0
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -1,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                -1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -1,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                -1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          ],
+          "rotational_c3": true
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                1
+              ],
+              [
+                -1,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                -1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -1,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        }
+      ],
+      "name": "m202",
+      "rotational_c3_count": 2,
+      "symmetry_count": 12
+    },
+    {
+      "canonical_isosig": "jLLzzQQccdffihhiiqffofafoqq",
+      "canonical_verified": true,
+      "expected_counts_match": true,
+      "isometries": [
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              [
+                -1,
+                0
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                -1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -1,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": true
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -1,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                -1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                1
+              ],
+              [
+                -1,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                1
+              ],
+              [
+                -1,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -1,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                -1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          ],
+          "rotational_c3": true
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                -1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -1,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                1
+              ],
+              [
+                -1,
+                0
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            1,
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0,
+            1
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        }
+      ],
+      "name": "s959",
+      "rotational_c3_count": 2,
+      "symmetry_count": 12
+    },
+    {
+      "canonical_isosig": "gLvQQbefeeffedimipt",
+      "canonical_verified": true,
+      "expected_counts_match": true,
+      "isometries": [
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                -1,
+                0
+              ],
+              [
+                0,
+                -1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        },
+        {
+          "cusp_images": [
+            0
+          ],
+          "cusp_matrices": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "rotational_c3": false
+        }
+      ],
+      "name": "s958",
+      "rotational_c3_count": 0,
+      "symmetry_count": 2
+    }
+  ],
+  "python_version": "3.11.15",
+  "scope": "Certified canonical cells and exact cusp-action census, not a lift of each isometry into the chosen parent or a physical spectrum.",
+  "snappy_version": "3.3.2"
+}

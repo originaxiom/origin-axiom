@@ -1,5 +1,18 @@
 # Physical bridge audit — 2026-09-05
 
+**Latest intake, September 15--16: [chat1 and the arithmetic parent](CHAT1_ASSEMBLED_AUDIT_2026_09_15.md).**
+Exact regular-tessellation checks give PSL(2,O_3) indices 12,24,36
+for m004,m202,s959; certified canonical symmetries distinguish s959
+from the equally index-36 s958. Explicit parent matrices recover 2T.
+The useful parent/cover strategy survives, but an adjoint grade
+(3,3,3) is not the fundamental E6 matter 27: their color content and
+cubic anomalies differ. No geometric mirror alone kills every sourced
+index. The parent-equivariant fields, operator and end sector still
+must be joined; R31's light-pair result and R19's different singular
+domain remain. Original alias failures are retained alongside a
+separately sealed successful control. No B allocation or main bank.
+
+
 **Latest local result, R31 (September 15): [global compact Poisson wells](GLOBAL_POISSON.md).**
 The authored Green-kernel argument supplies the uniform interior and
 off-source estimates for R29's fixed compact normalized uniform tubes,

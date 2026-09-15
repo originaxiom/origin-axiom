@@ -14950,3 +14950,37 @@ No physical width/strength, exactly-three light count, empirical mass,
 full-parent lift, same-theory gravity, new B, main bank, full green or
 complete TOE is claimed. PB-BOUNDARY stays OPEN.
 Report: reports/physical_bridge_2026_09_05/GLOBAL_POISSON.md.
+
+## 2026-09-16 — chat1 parent/class audit, with both positives and failed joins retained
+
+The complete supplied document and all 28 scripts were personally read.
+Independent exact controls verify PSL(2,O_3) cover indices 12,24,36 for
+m004,m202,s959 and the parent's tetrahedral 2T lift. Certified canonical
+isometries distinguish s959 from s958, which also has index 36: depth
+alone does not determine which parent symmetry descends. This is a
+parent/cover construction, not identification of a lattice with the
+whole commensurability class or a nested three-manifold tower.
+
+The supplied adjoint-grade/matter identification fails: (3,3,3) has
+nine color triplets and cubic coefficient +9, whereas the fundamental
+E6 27 has three triplets, three antitriplets, nine singlets and zero
+color cubic anomaly. This conditional four-dimensional matter test
+does not kill trinification or make a Lie grading itself anomalous.
+A bare geometric mirror also does not prove every twisted sourced
+physical index vanishes. No new physical chiral completion is claimed.
+
+Both science seals were pushed before execution. The original native
+run and eight fixture errors from an obsolete census alias are kept;
+the certified canonical calculation passed independently. A separately
+sealed published-isosig follow-on passes 10/10 checks and eight tests.
+Custody verifies all 29 packet members, five raw/public runs and six
+unchanged scientific inputs. This is not full-suite green, independent
+proof review or main banking, and allocates no shared B number.
+
+Continue the sourced route by specifying parent-equivariant fields and
+an actual source/end operator, then computing projected representations,
+compensating modes, normalized currents and the full anomaly together.
+R19's singular kernel and R30/R31's resolved light partners retain their
+distinct domains. The consolidation relay does not move this lane from
+audit/physical-bridge-2026-09-05 or authorize merging main.
+Report: reports/physical_bridge_2026_09_05/CHAT1_ASSEMBLED_AUDIT_2026_09_15.md.

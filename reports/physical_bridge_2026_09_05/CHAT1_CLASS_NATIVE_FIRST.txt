@@ -1,0 +1,21 @@
+<python3.12-env>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "<repo>/reports/physical_bridge_2026_09_05/chat1_class_control.py", line 203, in <module>
+    result = canonical_run() if args.canonical else exact_run()
+                                                    ^^^^^^^^^^^
+  File "<repo>/reports/physical_bridge_2026_09_05/chat1_class_control.py", line 153, in exact_run
+    rows = [triangulation_row(n) for n in ('m004', 'm202', 's959', 's958', 'otet06_0000')]
+            ^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/reports/physical_bridge_2026_09_05/chat1_class_control.py", line 118, in triangulation_row
+    m = snappy.Manifold(name)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "cython/core/triangulation.pyx", line 107, in SnapPy.Triangulation.__cinit__
+  File "cython/core/triangulation.pyx", line 142, in SnapPy.Triangulation.get_triangulation
+  File "cython/core/triangulation.pyx", line 249, in SnapPy.Triangulation.get_triangulation_from_name
+  File "cython/core/triangulation.pyx", line 308, in SnapPy.Triangulation.get_from_file
+OSError: The manifold file otet06_0000 was not found.
+
+    A Triangulation or Manifold is specified by a string or a byte sequence, according to the
+    conventions detailed in its docstring.
+    
