@@ -49,6 +49,8 @@ PATH_RE = re.compile(
 
 # Files whose stale citations are structurally uncorrectable -- see module docstring.
 EXEMPT_CITERS = ("PROGRESS_LOG.md",
+    "outside_bench/",   # 2026-09-15 (the outside-bench lane merged into main): its memos and owner register cite OTHER seats' branch-only paths (the SM seat's docs, the audit seat's tests) by design, like B1306/B1307 and the harvest ledger
+
     "frontier/B1306_the_older_debt/",   # B1306 (all slices; widened 2026-09-09 at slice B): the harvest arc's DESIGNs, FINDINGS and inventories cite OTHER branches' paths @ pin by design
     "frontier/B1306_the_older_debt/inputs/",   # B1306: read-only inventories of OTHER branches (SM, physics, codex, hostile-review, cc3, consolidation) -- every path cited exists only there (same class as HARVEST_LEDGER)
     "frontier/B1306_the_older_debt/DESIGN_A.md",  # B1306: a sealed DESIGN that cites the SM seat's branch-only docs by their path on that branch

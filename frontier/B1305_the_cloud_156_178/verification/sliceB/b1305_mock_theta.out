@@ -1,0 +1,13 @@
+=== exact controls (first coefficients) ===
+  F_0 : [1, 1, 0, 1, 1, 1, 0, 2, 1, 2, 1, 2, 1, 3]
+  chi_0: [1, 1, 1, 2, 1, 3, 2, 3, 3, 5, 3, 6]
+  [PASS] F_0's first 14 coefficients are GM eq. (175)'s 1,1,0,1,1,1,0,2,1,2,1,2,1,3
+  [PASS] chi_0's first 12 coefficients are 1,1,1,2,1,3,2,3,3,5,3,6 (the cloud's control, GJ eq. 33)
+=== calibration of the estimator ===
+  1/(q;q)_inf: c_eff = 0.99998 (B = -0.996)   Rogers-Ramanujan G: c_eff = 0.39999 (B = -0.748)
+  [PASS] calibration: 1/(q;q)_inf -> 1 +- 0.001 and G(q) -> 2/5 +- 0.001
+=== the two mock theta functions ===
+  F_0 (order 7):  c_eff = 0.142857   1/7 = 0.142857   B = -0.500
+  chi_0 (order 5): c_eff = 0.200000   1/5 = 0.200000   B = -0.500
+  [PASS] c_eff(F_0) = 1/7 +- 0.0005 and c_eff(chi_0) = 1/5 +- 0.0005, B = -1/2 +- 0.01
+Q3: PASS

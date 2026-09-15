@@ -1,0 +1,6 @@
+roots: 72  weights of the 27: 27
+central shift vectors mod 3: [(1, 0, 2, 0, 1, 2), (2, 0, 1, 0, 2, 1)]  (expect two: z and 2z)
+labellings with a 9+9+9 grading, modulo the centre: 170  (B1264: 170)
+fixed-subalgebra dimensions: {24: 80, 30: 90}  (seat: {24: 80, 30: 90})
+colourings (c ~ -c, modulo the centre): 85  by dimension: {24: 40, 30: 45}  (seat: 40 at 24, 45 at 30)
+C6: PASS

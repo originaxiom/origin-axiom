@@ -1,0 +1,63 @@
+=== (a) the two extra Cartan directions beta = (psi+chi)/4, gamma = -5psi/12 + chi/4 on the eleven multiplets ===
+   {'Q': ('0', '-2/3'), 'u^c': ('0', '-2/3'), 'e^c': ('0', '-2/3'), 'd^c': ('1', '1/3'), 'L': ('1', '1/3'), 'nu^c': ('-1', '-5/3'), 'H_u': ('0', '4/3'), 'D': ('0', '4/3'), 'H_d': ('-1', '1/3'), 'Dbar': ('-1', '1/3'), 'N': ('1', '-5/3')}
+  [PASS] (a) the (beta, gamma) table reproduces sm:B1283 on all eleven multiplets
+  [PASS] (a') the 14 singlet monomials are each U(1)^4-invariant with these charges
+=== (b) maximal F-flat coordinate subspaces: 85 ===
+  [PASS] (b) 85 maximal F-flat sets
+=== (c) maximal D&F-flat branches (all 18 fields are SM singlets, so every branch preserves the SM): 9 ===
+   6 fields, surviving extra u(1)s: 1, conjugate-paired: True: ['N_1', 'Nbar_1', 'S_23', 'S_32', 'nu^c_1', 'nu^cbar_1']
+   6 fields, surviving extra u(1)s: 1, conjugate-paired: True: ['N_2', 'Nbar_2', 'S_13', 'S_31', 'nu^c_2', 'nu^cbar_2']
+   6 fields, surviving extra u(1)s: 1, conjugate-paired: True: ['N_3', 'Nbar_3', 'S_12', 'S_21', 'nu^c_3', 'nu^cbar_3']
+   4 fields, surviving extra u(1)s: 2, conjugate-paired: True: ['N_1', 'Nbar_1', 'nu^c_2', 'nu^cbar_2']
+   4 fields, surviving extra u(1)s: 2, conjugate-paired: True: ['N_1', 'Nbar_1', 'nu^c_3', 'nu^cbar_3']
+   4 fields, surviving extra u(1)s: 2, conjugate-paired: True: ['N_2', 'Nbar_2', 'nu^c_1', 'nu^cbar_1']
+   4 fields, surviving extra u(1)s: 2, conjugate-paired: True: ['N_2', 'Nbar_2', 'nu^c_3', 'nu^cbar_3']
+   4 fields, surviving extra u(1)s: 2, conjugate-paired: True: ['N_3', 'Nbar_3', 'nu^c_1', 'nu^cbar_1']
+   4 fields, surviving extra u(1)s: 2, conjugate-paired: True: ['N_3', 'Nbar_3', 'nu^c_2', 'nu^cbar_2']
+  [PASS] (c) nine branches
+  [PASS] (c) all conjugate-paired
+  [PASS] (c) three 6-field branches of rank 1 and six 4-field branches of rank 2
+  [PASS] (c) minimal surviving abelian rank is 1 (no branch breaks all four)
+  [PASS] (c') every D-flat subset of every F-flat set is conjugate-paired (no unpaired direction)
+=== (d) the surviving direction on each maximal branch ===
+   branch g=1 ['N_1', 'Nbar_1', 'S_23', 'S_32', 'nu^c_1', 'nu^cbar_1']: direction (beta, gamma, F1, F2) = [0, 12, 15, 5]; beta-coefficient 0 (0 <=> E6 part is pure gamma)
+     E6 part (normalised): {'Q': 4, 'u^c': 4, 'e^c': 4, 'd^c': -2, 'L': -2, 'nu^c': 10, 'H_u': -8, 'D': -8, 'H_d': -2, 'Dbar': -2, 'N': 10}
+     generation 1: {'Q': -6, 'u^c': -6, 'e^c': -6, 'd^c': -12, 'L': -12, 'nu^c': 0, 'H_u': -18, 'D': -18, 'H_d': -12, 'Dbar': -12, 'N': 0}
+     generation 2: {'Q': 9, 'u^c': 9, 'e^c': 9, 'd^c': 3, 'L': 3, 'nu^c': 15, 'H_u': -3, 'D': -3, 'H_d': 3, 'Dbar': 3, 'N': 15}
+     generation 3: {'Q': 9, 'u^c': 9, 'e^c': 9, 'd^c': 3, 'L': 3, 'nu^c': 15, 'H_u': -3, 'D': -3, 'H_d': 3, 'Dbar': 3, 'N': 15}
+   branch g=2 ['N_2', 'Nbar_2', 'S_13', 'S_31', 'nu^c_2', 'nu^cbar_2']: direction (beta, gamma, F1, F2) = [0, 12, -15, 5]; beta-coefficient 0 (0 <=> E6 part is pure gamma)
+     E6 part (normalised): {'Q': 4, 'u^c': 4, 'e^c': 4, 'd^c': -2, 'L': -2, 'nu^c': 10, 'H_u': -8, 'D': -8, 'H_d': -2, 'Dbar': -2, 'N': 10}
+     generation 1: {'Q': 9, 'u^c': 9, 'e^c': 9, 'd^c': 3, 'L': 3, 'nu^c': 15, 'H_u': -3, 'D': -3, 'H_d': 3, 'Dbar': 3, 'N': 15}
+     generation 2: {'Q': -6, 'u^c': -6, 'e^c': -6, 'd^c': -12, 'L': -12, 'nu^c': 0, 'H_u': -18, 'D': -18, 'H_d': -12, 'Dbar': -12, 'N': 0}
+     generation 3: {'Q': 9, 'u^c': 9, 'e^c': 9, 'd^c': 3, 'L': 3, 'nu^c': 15, 'H_u': -3, 'D': -3, 'H_d': 3, 'Dbar': 3, 'N': 15}
+   branch g=3 ['N_3', 'Nbar_3', 'S_12', 'S_21', 'nu^c_3', 'nu^cbar_3']: direction (beta, gamma, F1, F2) = [0, -6, 0, 5]; beta-coefficient 0 (0 <=> E6 part is pure gamma)
+     E6 part (normalised): {'Q': 4, 'u^c': 4, 'e^c': 4, 'd^c': -2, 'L': -2, 'nu^c': 10, 'H_u': -8, 'D': -8, 'H_d': -2, 'Dbar': -2, 'N': 10}
+     generation 1: {'Q': 9, 'u^c': 9, 'e^c': 9, 'd^c': 3, 'L': 3, 'nu^c': 15, 'H_u': -3, 'D': -3, 'H_d': 3, 'Dbar': 3, 'N': 15}
+     generation 2: {'Q': 9, 'u^c': 9, 'e^c': 9, 'd^c': 3, 'L': 3, 'nu^c': 15, 'H_u': -3, 'D': -3, 'H_d': 3, 'Dbar': 3, 'N': 15}
+     generation 3: {'Q': -6, 'u^c': -6, 'e^c': -6, 'd^c': -12, 'L': -12, 'nu^c': 0, 'H_u': -18, 'D': -18, 'H_d': -12, 'Dbar': -12, 'N': 0}
+  [PASS] (d) the E6 part of the surviving U(1) is (5psi - 3chi)/2: charges 4, -2, 10, -8, -2 on every maximal branch
+  [PASS] (d') (5psi - 3chi)/2 evaluates to the same eleven charges
+  [PASS] (d) the per-generation table (VEV'd g: 0, -6, -12, -18, -12; the other two equal: 15, 9, 3, -3, 3) on every maximal branch
+  [PASS] (d) the VEV'd generation's N and nu^c are exactly neutral
+=== (e) mu-matrix ranks ===
+   one N per branch -> ranks {1: 2, 2: 2, 3: 2}; three N's -> rank 3, det = 2*N1*N2*N3*lambda**3
+  [PASS] (e) rank 2 on every maximal branch (one light Higgs pair, one light D pair) and rank 3 with three N's (the control)
+=== Q1' (f) forbidden / allowed flavons on branch g (the record has SIX flavons S_ij, i != j) ===
+   g=1: forbidden ['S_12', 'S_13', 'S_21', 'S_31']; allowed ['S_23', 'S_32']
+   g=2: forbidden ['S_12', 'S_21', 'S_23', 'S_32']; allowed ['S_13', 'S_31']
+   g=3: forbidden ['S_13', 'S_23', 'S_31', 'S_32']; allowed ['S_12', 'S_21']
+  [PASS] (f) forbidden = the four flavons S_gj, S_jg; allowed = the other pair's S_hk, S_kh (chat1's (i,i) labels are not fields of the record)
+=== Q1' (g) Z'-neutrality of the VEV'd fields ===
+   ['N_1', 'Nbar_1', 'S_23', 'S_32', 'nu^c_1', 'nu^cbar_1']: Z' charges {'N_1': 0, 'Nbar_1': 0, 'S_23': 0, 'S_32': 0, 'nu^c_1': 0, 'nu^cbar_1': 0}
+   ['N_2', 'Nbar_2', 'S_13', 'S_31', 'nu^c_2', 'nu^cbar_2']: Z' charges {'N_2': 0, 'Nbar_2': 0, 'S_13': 0, 'S_31': 0, 'nu^c_2': 0, 'nu^cbar_2': 0}
+   ['N_3', 'Nbar_3', 'S_12', 'S_21', 'nu^c_3', 'nu^cbar_3']: Z' charges {'N_3': 0, 'Nbar_3': 0, 'S_12': 0, 'S_21': 0, 'nu^c_3': 0, 'nu^cbar_3': 0}
+  [PASS] (g) 6/6 VEV'd fields Z'-neutral on each of the three maximal branches (by construction of the surviving direction)
+=== Q1' (h) anomalies (the per-generation integer table; state counts as multiplicities) ===
+   three 27s: {'cubic': -20250, 'grav': 0, 'su3sq': 0, 'su2sq': 0, 'YYZ': 0, 'YZZ': 0}
+   three 27bars: {'cubic': 20250, 'grav': 0, 'su3sq': 0, 'su2sq': 0, 'YYZ': 0, 'YZZ': 0}
+   total: {'cubic': 0, 'grav': 0, 'su3sq': 0, 'su2sq': 0, 'YYZ': 0, 'YZZ': 0}
+  [PASS] (h) cubic anomaly -20250 from the 27s and +20250 from the 27bars, total 0
+  [PASS] (h) every coefficient vanishes on 27s + 27bars (vector-like); the 27s alone are non-zero on the cubic (positive control)
+   family parts of the Z' by generation: {1: -10, 2: 5, 3: 5}; 27 * sum f^3 = -20250
+  [PASS] (h') the mixed and gravitational coefficients vanish on the 27s alone (E6 safe + traceless family torus) and the cubic -20250 = 27 * sum f_i^3 is the family torus's alone
+Q1/Q1': PASS

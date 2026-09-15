@@ -1,0 +1,38 @@
+=== L3: THE UNIFORM JUMP LAW (all classes x r = 14..25 vs generic r=13) ===
+L3: 300/300 PASS
+
+=== L2: character sectors (generic row r=13; chi from odd-exponent divisors) ===
+  sector TRIVIAL: sum = +0.5000000000 -0.0000000000i
+  sector chi(0, 1, 0, 0, 0): sum = +0.5000000000 -0.0000000000i
+
+=== L2 cross-check: totals at the three fully generic rungs ===
+  r=13: Z = +1.0000000000
+  r=17: Z = +1.0000000000
+  r=23: Z = +1.0000000000
+
+class table (bucket: size sign divisors):
+  b 0 sz 6480 sgn-1 divs [7, 35]
+  b 1 sz 5760 sgn+1 divs [19, 19]
+  b 2 sz 5184 sgn+1 divs [11, 11]
+  b 3 sz 5184 sgn-1 divs [11, 55]
+  b 4 sz 4320 sgn-1 divs [8, 40]
+  b 5 sz 4320 sgn+1 divs [24, 24]
+  b 6 sz 4320 sgn-1 divs [6, 30]
+  b 7 sz 3240 sgn+1 divs [15, 15]
+  b 8 sz 2160 sgn+1 divs [20, 20]
+  b 9 sz 1620 sgn-1 divs [3, 15]
+  b10 sz 1440 sgn-1 divs [4, 20]
+  b11 sz 1440 sgn+1 divs [10, 10]
+  b12 sz 1440 sgn-1 divs [4, 4, 4, 20]
+  b13 sz 1440 sgn+1 divs [40, 40]
+  b14 sz  720 sgn+1 divs [2, 2, 8, 8]
+  b15 sz  540 sgn-1 divs [5, 5, 5]
+  b16 sz  540 sgn+1 divs [3, 3, 3, 3]
+  b17 sz  540 sgn-1 divs [5, 15, 15]
+  b18 sz  480 sgn+1 divs [4, 4, 4, 4]
+  b19 sz  270 sgn+1 divs [5, 5]
+  b20 sz  240 sgn+1 divs [4, 4]
+  b21 sz   80 sgn+1 divs [4, 4, 4, 4, 4, 4]
+  b22 sz   45 sgn+1 divs [5, 5, 5, 5]
+  b23 sz   36 sgn-1 divs [5]
+  b24 sz    1 sgn+1 divs []

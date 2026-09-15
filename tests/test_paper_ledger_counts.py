@@ -13,7 +13,7 @@ TOOL = ROOT / "scripts" / "checks" / "paper_ledger_counts.py"
 def test_the_tool_agrees_with_the_paper_and_its_plant_bites():
     r = subprocess.run([sys.executable, str(TOOL), "--selftest"], capture_output=True, text=True, cwd=str(ROOT))
     assert r.returncode == 0, r.stdout + r.stderr
-    assert "non-continuous: 6" in r.stdout
+    assert "non-continuous: 7" in r.stdout
     assert "MISMATCH" not in r.stdout
     assert "CONTROLS PASS" in r.stdout
 

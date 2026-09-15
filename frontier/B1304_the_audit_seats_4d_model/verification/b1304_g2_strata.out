@@ -1,0 +1,9 @@
+  [PASS] every triple of phi is a line of the Fano plane under this labelling (v_i + v_j + v_k = 0)
+  [PASS] all eight sign matrices preserve phi exactly and have det +1
+  [PASS] every non-identity element fixes exactly a 3-plane (B1259's lemma holds element by element)
+  subgroups by order -> [common fixed dimensions..., count]: {1: [7, 1], 2: [3, 7], 4: [1, 7], 8: [0, 1]}
+  [PASS] 16 subgroups: orders 1 (x1) fix 7, 2 (x7) fix 3, 4 (x7) fix 1, 8 (x1) fix 0
+  isotropy orders: {'origin': 8, 'axis point (only coordinate 1)': 4, 'generic point of the 3-plane fixed by a = (0,0,1)': 2, 'free point': 1}
+  [PASS] isotropy orders: plane point 2, axis point 4, free point 1, origin 8 -> the origin is an isolated maximal-isotropy stratum
+  [PASS] control: a wrong sign matrix is rejected by the phi test
+Q3: PASS

@@ -1,0 +1,29 @@
+=== (a) the trinification frame: Y and psi on the 27 ===
+  [PASS] (a) the functional Y = w1[2]/2 - 2w2[0]/3 + w2[1]/3 + w2[2]/3 gives the SM hypercharges of all 27 states
+  [PASS] (a) the functional psi = 3(w1[2] - w2[2]) gives the SO(10) grading 16 -> 1, 10 -> -2, 1 -> 4 of all 27 states (the SO(10) assignment is right)
+  [PASS] (a) state counts Q 6, u^c 3, d^c 3, L 2, e^c 1, nu^c 1, N 1, H_u 2, H_d 2, D 3, Dbar 3
+  [PASS] (a) 8 Standard-Model roots in the frame: 6 colour + 2 of SU(2)_L
+  [PASS] (a) P (the Z-span of the 27's weights) has rank 6 and Q_SM rank 3
+   det[ Q_SM basis ; w_Q, w_u^c, w_L ] in P's coordinates = 1
+  [PASS] (a) {Q_SM basis} u {w_Q, w_u^c, w_L} is a Z-basis of P (determinant +-1): P/Q_SM is FREE of rank 3 with basis (w_Q, w_u^c, w_L)
+   weights mod Q_SM in the basis (w_Q, w_u^c, w_L): {'Q': (1, 0, 0), 'D': (-2, 0, 0), 'u^c': (0, 1, 0), 'd^c': (1, -1, 1), 'Dbar': (-1, 0, -1), 'H_u': (-1, -1, 0), 'H_d': (-2, 1, -1), 'L': (0, 0, 1), 'e^c': (2, -1, 0), 'nu^c': (1, 1, -1), 'N': (3, 0, 1)}
+  [PASS] (a) w_D = -2 w_Q, and the whole table as pre-registered (lattice route)
+  [PASS] (a) the coupling route (the eleven zero-sum triples with (w_Q, w_u^c, w_L) as basis) gives the same table
+   roots by (Q,u,L) coordinate: zero 8, +-(1,-1,0) 12, others 52
+  [PASS] (a) 8 roots trivial mod Q_SM (the SM's) and 12 at +-(w_Q - w_u^c) (SU(5)'s X, Y): SU(5) = 20 roots
+  [PASS] (a) the seat's e6_roots_qul.json root multiset equals this frame's, and its table27 (S = the SO(10) singlet N) equals the lattice table (cross-check of two derivations)
+=== (b) Y_9: the support model ((C_1 u C_2) x V_4) minus 1 in (Z/76)^2 and the 145^3 lines ===
+  [PASS] (b) the model support has 147 characters
+   generation-count distribution over the 5776 characters: {3: 145, 0: 5628, 2: 3}
+  [PASS] (b) {0: 5628, 2: 3, 3: 145} (B1278)
+  [PASS] (b) K2 = the three family characters
+   lines K3^3 = 3048625: {'three_gen': 758593, 'su5_broken': 737568, 'sm_vacua': 706464, 'full': 568656}
+  [PASS] (b) three-generation 758 593, SU(5) broken 737 568, SM vacua 706 464, full 568 656 (sm:B1278/B1300)
+   SM lines: doublet-triplet split lines 0; loses-a-generation {'Q': 0, 'u^c': 0, 'L': 0, 'D': 0, 'e^c': 0, 'H_u': 30240, 'd^c': 0, 'H_d': 29376, 'Dbar': 29376, 'N': 28512, 'nu^c': 28512}
+  [PASS] (b) split lines 0 and D loses a generation on 0 SM lines; D-bar on 29 376, H_u 30 240, H_d 29 376, N 28 512, nu^c 28 512
+   (H_u, H_d, D, Dbar) on SM lines: {(2, 2, 3, 3): 1296, (2, 3, 3, 2): 1296, (2, 3, 3, 3): 27648, (3, 2, 3, 2): 864, (3, 2, 3, 3): 27216, (3, 3, 3, 2): 27216, (3, 3, 3, 3): 620928}
+  [PASS] (b) the (H_u, H_d, D, Dbar) histogram of sm:B1300
+   D total on SM lines: {3: 706464}; on all lines: {3: 3048625}
+  [PASS] (b) D total is 3 on every one of the 3 048 625 candidate lines
+  [PASS] (c) the square of every letter is a letter and no square is a family character (so psi_D = psi_Q^-2 is never projected)
+Q3: PASS

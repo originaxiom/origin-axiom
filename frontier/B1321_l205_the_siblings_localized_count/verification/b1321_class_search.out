@@ -1,0 +1,10 @@
+  m202     tets 4 H1 Z + Z              cusps with a 3: [0, 1]  two-generator                golden hits: []
+  s959     tets 6 H1 Z/3 + Z + Z        cusps with a 3: [0, 1]  rank 3 minors' gcd           golden hits: []
+  v3461    tets 7 H1 Z + Z              cusps with a 3: [0, 1]  two-generator                golden hits: []
+  v3551    tets 7 H1 Z/2 + Z + Z        cusps with a 3: [0, 1]  rank 3 minors' gcd           golden hits: []
+  o9_40999 tets 9 H1 Z/4 + Z + Z        cusps with a 3: [0, 1]  rank 3 minors' gcd           golden hits: []
+  o9_43931 tets 9 H1 Z/5 + Z + Z        cusps with a 3: [0, 1]  rank 3 minors' gcd           golden hits: []
+scanned 61911 census manifolds, 2750 two-cusped, class size 6, untested 0, golden-face members 0  [18s]
+controls: {'m202_in_class_no_golden': True, 'planted_detected': True, 'm202_record': {'name': 'm202', 'tets': 4, 'H1': 'Z + Z', 'cusps_with_3': [0, 1], 'values': {'4|det+1': 1, '0|det+1': 1, '3|det+1': 2, '1|det+1': 2}, 'presentation': 'two-generator', 'primitive_classes': 48, 'golden_hits': [], 'delta': '-t1*t2 - t1 - t2**2 - t2 - 1 - t2**2/t1 - t2/t1'}}
+FAIL: no member of the three-line class to nine tetrahedra keeps the golden face
+rc=0

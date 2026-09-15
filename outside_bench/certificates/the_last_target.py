@@ -10,7 +10,7 @@ not computed" is itself STALE.  Two addenda dated 2026-09-11 computed s958 and
 t12833.  Only t12835 was left "(pending at write time)".
 
 THE COMPUTATION IS B1330's OWN CODE, VENDORED BYTE-IDENTICAL to
-  origin/claude/paper-verification-ufp0zn:frontier/B1330_the_best_case_object/verification/
+  origin/<remote>/paper-verification-ufp0zn:frontier/B1330_the_best_case_object/verification/
 in outside_bench/certificates/lib/b1330/ (see PROVENANCE.md).  No line modified.
 This file does not recompute anything; it RUNS that code and CHECKS it.
 

@@ -191,7 +191,7 @@ def main() -> int:
 
     # ------------------------------------------------------------ C4
     rule("CONTROL C4 -- the uniqueness theorem, CITED, with its hypothesis intact")
-    BR = "origin/claude/paper-verification-ufp0zn"
+    BR = "origin/<remote>/paper-verification-ufp0zn"
     b1345 = show(BR, "frontier/B1345_the_jorgensen_number/FINDINGS.md")
     print(f"    B1345 present on {BR}: {bool(b1345)}")
     quote("Callahan's corollary", b1345,

@@ -110,7 +110,7 @@ def _tracked_md():
     """
     r = subprocess.run(["git", "ls-files", "*.md", "*.tex"], cwd=ROOT,
                        capture_output=True, text=True)
-    return [p for p in r.stdout.split("\n") if p.strip()]
+    return sorted(set(p for p in r.stdout.split("\n") if p.strip()))
 
 
 def _flatten(line):

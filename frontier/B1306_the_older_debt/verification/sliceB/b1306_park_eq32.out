@@ -1,0 +1,14 @@
+  [PASS] f_0: the closed form / Q(q)-formula reproduces Park's printed series below O(q^35)
+  [PASS] f_1: the closed form / Q(q)-formula reproduces Park's printed series below O(q^9)
+  [PASS] f_2: the closed form / Q(q)-formula reproduces Park's printed series below O(q^11)
+  [PASS] f_3: the closed form / Q(q)-formula reproduces Park's printed series below O(q^12)
+  [PASS] x^0+1/2 equation vanishes IDENTICALLY as an operator (rows [0] all zero)
+  [PASS] x^1+1/2 equation vanishes IDENTICALLY as an operator (rows [0, 1] all zero)
+  [PASS] x^{5/2} equation satisfied EXACTLY by Park's f_0, f_1, f_2 (all coefficients through Q^120)
+   [A-hat F+]_{x^{7/2}} = -1q^12 +1q^13 -1q^15 +1q^18 -1q^22 +1q^27 -1q^33
+   q^13 f_0             = -1q^12 +1q^13 -1q^15 +1q^18 -1q^22 +1q^27 -1q^33
+  [PASS] x^{7/2} coefficient equals q^13 f_0 (the cloud's defect), through Q^100
+  [PASS] and it is NOT zero
+   f_3(recursion) - f_3(Park) = +1q^3 -1q^4 +1q^5 +1q^6 +1q^8 +1q^9 +1q^11 +1q^12 +1q^13 +1q^14 +2q^15
+  [PASS] the recursion's f_3 differs from Park's printed/rational f_3, first at q^3
+Q6: PASS

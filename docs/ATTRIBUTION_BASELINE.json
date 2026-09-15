@@ -69,6 +69,9 @@
   "philosophy/PHILOSOPHICAL_PATHS.md": 4,
   "tests/test_flagship_paper.py": 2,
   "tests/test_public_surface_scan.py": 3,
-  "tests/test_sl4_dehn_filling_paper.py": 2
+  "tests/test_sl4_dehn_filling_paper.py": 2,
+  "outside_bench/certificates/the_branch_gap.py": 1,
+  "outside_bench/certificates/the_chain_right_now.py": 1,
+  "outside_bench/certificates/the_jorgensen_number.py": 1
  }
 }

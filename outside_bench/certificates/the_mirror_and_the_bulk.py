@@ -310,7 +310,7 @@ def main() -> int:
     unprotected sectors, BOTH INDEX 0, plus 136 control sectors at 0.
 
     And the 54 multi-cusped chiral covers -- the case B1324 left open -- were
-    computed on claude/paper-verification-ufp0zn (B1333), CITED AS BRANCH WORK
+    computed on <remote>/paper-verification-ufp0zn (B1333), CITED AS BRANCH WORK
     AND NOT RE-RUN HERE: 38070 sectors at three primes over all 54 covers, 1841
     of them with two or more LIVE cusps (the regime impossible on one cusp),
     and INDEX ZERO IN EVERY ONE.""")

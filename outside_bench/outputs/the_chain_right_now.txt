@@ -95,7 +95,7 @@ CELL 2 -- the 15-row status table, and WHERE IT LIVES
 ------------------------------------------------------------------------------
     docs/THE_CHAIN_STATUS.md
       on origin/main : False
-      on origin/claude/paper-verification-ufp0zn : True
+      on origin/<remote>/paper-verification-ufp0zn : True
 
     the document's own header says 'This one is adopted: it lives on main' : True
 

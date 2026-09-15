@@ -5,16 +5,16 @@
   origin                                               arcs= 1243   max=B1324
   origin/audit/b775-braver-questions                   arcs= 1021   max=B1067
   origin/audit/physical-bridge-2026-09-05              arcs= 1204   max=B1255
-  origin/claude/new-session-qor5up                     arcs= 1019   max=B1054
-  origin/claude/outside-bench                          arcs= 1243   max=B1324
-  origin/claude/paper-verification-ufp0zn              arcs= 1278   max=B1409
-  origin/claude/physics-seat-evaluation-8dkbrl         arcs= 1183   max=B1234
-  origin/claude/standard-model-derivation-0qt6ao       arcs= 1243   max=B1355
+  origin/<remote>/new-session-qor5up                     arcs= 1019   max=B1054
+  origin/<remote>/outside-bench                          arcs= 1243   max=B1324
+  origin/<remote>/paper-verification-ufp0zn              arcs= 1278   max=B1409
+  origin/<remote>/physics-seat-evaluation-8dkbrl         arcs= 1183   max=B1234
+  origin/<remote>/standard-model-derivation-0qt6ao       arcs= 1243   max=B1355
   origin/codex/seat-r001                               arcs= 1092   max=B1143
   origin/main                                          arcs= 1243   max=B1324
   origin/paper/structure-genesis-first                 arcs= 1103   max=B8154
 
-  THIS BRANCH (claude/outside-bench): arcs=1243
+  THIS BRANCH (<remote>/outside-bench): arcs=1243
 
 ------------------------------------------------------------------------------
  THE GAP -- arcs present on SOME head and ABSENT here
@@ -424,55 +424,55 @@
       on origin/audit/b775-braver-questions
 
   *** PROVED    B1029_seam_class_field   [1/5] ['cone']
-      on origin/claude/new-session-qor5up
+      on origin/<remote>/new-session-qor5up
       THE SEAM IS NOT A THIRD FACE -- ITS HILBERT CLASS FIELD IS THE TWO ENDS. THE CHAIN's C7 banks the object's forced quadratic faces as exactly three, a Klein four-group: being Q(sqrt-3), hearing Q(sqrt5), meeting Q(sqrt-15
 
   *** PROVED    B1031_generation_rung   [1/5] ['cone']
-      on origin/claude/new-session-qor5up
+      on origin/<remote>/new-session-qor5up
       THREE GENERATIONS: STRUCTURAL, COUNT MATCHES -- NOT DERIVED. AND THE LADDER HAD NO RUNG FOR IT. Occasioned by the owner's belief that the programme derives three generations; the record answers precisely and the answer i
 
   *** PROVED    B1269_transport_computed   [4/5] ['acharya', 'isolated', 'enhancement', 'e6 locus']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE TRANSPORT COMPUTED. I-26 asks for the compactification in which an h^1 of the object counts 4d chiral generations and for the surviving gauge group; both are computed here on the rebuilt instrument. (1) In the Achary
 
   *** PROVED    B1270_e6_from_the_two_faces   [2/5] ['isolated', 'enhancement']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       E6 FROM THE TWO FACES. The corpus had E8 at the golden end (RL -> Q(sqrt5) -> 2I) and E6 at the Eisenstein end (g = -R L^-1 -> Q(sqrt-3) -> 2T) and said neither forces the other; here E6 is derived from both at once, exa
 
   *** PROVED    B1271_the_chain_all_the_way   [1/5] ['acharya']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE CHAIN TAKEN ALL THE WAY. Every remaining Standard-Model step the corpus's ingredients supply is computed exactly on B1270's icosian E8 and B1252's descent. THREE GENERATIONS: the 162 non-E6, non-A2 roots of E8 fall i
 
   *** PROVED    B1277_the_vacuum_manifold_of_the_closing   [1/5] ['cone']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE VACUUM MANIFOLD OF THE CLOSING AND ITS WILSON LINES. The E8 theory on Y_3 (B1273: e6 + u(1)^2, three 27s on the sign characters chi_i, three 27bars, six flavons, one coupling) has 36 neutral fields (N, nu^c, h_u0, h_
 
   *** PROVED    B1278_the_six_fold_closing   [1/5] ['cone']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE. The closings Y_n are the manifold covers of the object's geometric transition (Y_2 the spherical end's, Y_3 the Euclidean point's -- where the quantum face is empty, Vol
 
   *** PROVED    B1334_the_deformation_proof   [1/5] ['isolated']
-      on origin/claude/paper-verification-ufp0zn
+      on origin/<remote>/paper-verification-ufp0zn
       THE FIRST PROOF OF I = 0 IN THE RECORD, ON A NARROW STATED DOMAIN, AND IT USES NONE OF THE THREE MECHANISMS THIS BENCH PROPOSED AND KILLED. Let S = Hom(H_1(M)/<peripheral>, C*) be the cusp-trivial characters and S^0 its 
 
   *** PROVED    B1343_deriving_the_other_faces   [1/5] ['cone']
-      on origin/claude/paper-verification-ufp0zn
+      on origin/<remote>/paper-verification-ufp0zn
       DERIVING THE OTHER ADE FACES IS FREE AND THEREFORE EVIDENTIALLY EMPTY; ENRICHMENT HAS A TEST; AND THE ELLIPTIC BRIDGE IS CLOSED BY A THEOREM. The owner asked how to derive the remaining ADE faces from the substitution so
 
   *** PROVED    B1351_the_index_on_a_three_manifold   [1/5] ['enhancement']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE INDEX ON A THREE-MANIFOLD (main's Q9): Pantev-Wijnholt's net chiral count of a charged sector is chi(M, d+M; L) = chi(M; L) - chi(d+M; L). On a closed closing chi = 0 and every Wilson-line vacuum is vector-like exact
 
   *** PROVED    B1352_the_fixed_vector_locus_along_v10   [2/5] ['isolated', 'enhancement']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE FIXED-VECTOR LOCUS ALONG V10 (L204's other half; B1268's stage (b) completed): from every genuine V10 point of B1350 the augmented Newton (relator + mu v = v, lambda v = v, damping 1e-50) converges quadratically to t
 
   *** PROVED    B1353_the_isolated_enhancement_point   [5/5] ['acharya', 'isolated', 'enhancement', 'e6 locus', 'cone']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE ISOLATED ENHANCEMENT POINT ON AN E6 LOCUS, MADE FINITE (main's E70 scope of B1259 answered): in a flat G2 orbifold the E6 locus is the fixed 3-plane P of 2T c SU(2)_R, its stabiliser in G2 is SO(4) acting on Im H (+)
 
   *** PROVED    B1355_the_e7_point_made_explicit   [5/5] ['acharya', 'isolated', 'enhancement', 'e6 locus', 'cone']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE E7 POINT MADE EXPLICIT: the destination's local model is the G2 cone over CP^3/2T -- the Bryant-Salamon cone over the nearly-Kaehler CP^3 divided by the object's McKay group 2T acting on one quaternionic factor (the 
 
   *** PROVED    B8069_conformal_selection   [1/5] ['cone']

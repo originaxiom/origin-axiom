@@ -8,7 +8,7 @@ assertions against tracked files, plus one literature theorem **cited and labell
 > **CORRECTION to memo 224.** The owner asked for *"a theorem about figure 8 being only with cusp
 > that fixes first axiom"*, and my branch sweep returned **fork F9 / B1323**, on main. **That was
 > not it.** The theorem is **Jørgensen's inequality (1976) + Callahan (2009) Cor. 2.4**, and it
-> **is on a branch** — `claude/paper-verification-ufp0zn`, arc **B1345**, dated **2026-09-12**. The
+> **is on a branch** — `<remote>/paper-verification-ufp0zn`, arc **B1345**, dated **2026-09-12**. The
 > owner's "new work from other branches" was exactly right and my sweep landed one theorem short.
 > Memo 224's own findings stand; its **identification** of which theorem was meant is superseded
 > (addendum filed there).

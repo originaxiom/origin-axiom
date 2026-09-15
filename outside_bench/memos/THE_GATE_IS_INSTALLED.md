@@ -1,7 +1,7 @@
 # Memo 217 — THE GATE IS INSTALLED: a cell's two artifacts can no longer contradict each other silently
 
 **Authorization:** the owner, this session.
-**Where:** branch `claude/outside-bench`, as a **proposal**. Main is not touched by this bench.
+**Where:** branch `<remote>/outside-bench`, as a **proposal**. Main is not touched by this bench.
 **New files:** `scripts/checks/artifact_pair_gate.py` · `tests/test_artifact_pair_gate.py`
 **Output:** `outside_bench/outputs/artifact_pair_gate.txt`
 

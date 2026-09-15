@@ -1,0 +1,14 @@
+(a) one record: degenerate control (not a fork)
+(b) toral T^3: {'distinct_products_len_le_4': 768, 'mixed': 678, 'mixed_hyperbolic': 162, 'min_trace_mixed_hyperbolic': 3, 'all_chi_zero': True, 'verdict_on_this_carrier': 'ROBUST by theorem (exhibited)'}
+(c) surface carriers ...
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+  S_1_1: 1 words, 1 hyperbolic, 1 classes (0.1 s)
+  S_1_2: 252 words, 36 hyperbolic, 2 classes (2.6 s)
+  S_0_4: 80 words, 28 hyperbolic, 2 classes (1.2 s)
+(c) control S_1_1 a*B: {'is_m004': True, 'amphichiral': True, 'shape_field_Q(sqrt-3)': True, 'self_isometries': {'isometries': 8, 'orientation_preserving': 4, 'orientation_reversing': 4}, 'vs_record_swap': {'isometries': 8, 'orientation_preserving': 4, 'orientation_reversing': 4}, 'vs_mirror_word': {'isometries': 8, 'orientation_preserving': 4, 'orientation_reversing': 4}} PASS
+(c) F9 surface verdict: ROBUST keepers: []
+(c') mirror test: {"three_record_classes": 4, "chiral_classes": [["abC", 3.663862376708876, 2, ["m129(0,0)(0,0)", "5^2_1(0,0)(0,0)", "L5a1(0,0)(0,0)", "ooct01_00001(0,0)(0,0)"]], ["acB", 5.33348956689812, 2, ["s780(0,0)(0,0)", "6^2_3(0,0)(0,0)", "L6a1(0,0)(0,0)"]], ["aaB", 8.92931782309736, 4, ["o9_44206(0,0)(0,0)(0,0)(0,0)", "10^4_23(0,0)(0,0)(0,0)(0,0)", "L10n98(0,0)(0,0)(0,0)(0,0)"]]], "amphichiral_classes": [["aB", 7.327724753417753, 4, ["t12047(0,0)(0,0)(0,0)(0,0)", "8^4_2(0,0)(0,0)(0,0)(0,0)", "L8n7(0,0)(0,0)(0,0)(0,0)", "ooct02_00001(0,0)(0,0)(0,0)(0,0)"]]], "PASS_A (minimal hyperbolic three-record bundle is chiral)": true}
+(c'') three-line class members: []
+U1 F9: {'toral': 'ROBUST by theorem (exhibited)', 'surface': 'ROBUST', 'control_PASS': True}
+RC=0

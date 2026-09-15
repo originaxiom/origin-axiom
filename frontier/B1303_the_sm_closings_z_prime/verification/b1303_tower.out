@@ -1,0 +1,25 @@
+=== (a) the law's arithmetic, n = 2 .. 12 ===
+   Y_2: |H_1| = 5 (= 5 F_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 0, seat 0;  p=5: p-part exps [1], roots [4], orders [2]
+   Y_3: |H_1| = 16 (= L_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 0, seat 0;  
+   Y_4: |H_1| = 45 (= 5 F_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 0, seat 0;  p=3: p-part exps [1, 1], roots [], orders []; p=5: p-part exps [1], roots [4], orders [2]
+   Y_5: |H_1| = 121 (= L_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 20, seat 20;  p=11: p-part exps [1, 1], roots [5, 9], orders [5] -> +20
+   Y_6: |H_1| = 320 (= 5 F_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 0, seat 0;  p=5: p-part exps [1], roots [4], orders [2]
+   Y_7: |H_1| = 841 (= L_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 56, seat 56;  p=29: p-part exps [1, 1], roots [7, 25], orders [7] -> +56
+   Y_8: |H_1| = 2205 (= 5 F_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 0, seat 0;  p=3: p-part exps [1, 1], roots [], orders []; p=5: p-part exps [1], roots [4], orders [2]; p=7: p-part exps [1, 1], roots [], orders []
+   Y_9: |H_1| = 5776 (= L_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 36, seat 36;  p=19: p-part exps [1, 1], roots [6, 16], orders [9] -> +36
+   Y_10: |H_1| = 15125 (= 5 F_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 20, seat 20;  p=5: p-part exps [1, 2], roots [4], orders [2]; p=11: p-part exps [1, 1], roots [5, 9], orders [5] -> +20
+   Y_11: |H_1| = 39601 (= L_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 396, seat 396;  p=199: p-part exps [1, 1], roots [63, 139], orders [11] -> +396
+   Y_12: |H_1| = 103680 (= 5 F_n^2) matches the seat's invariant factors: True; odd-order support predicted by the law 0, seat 0;  p=3: p-part exps [2, 2], roots [], orders []; p=5: p-part exps [1], roots [4], orders [2]
+  [PASS] (a) |H_1(Y_n)| = L_n^2 / 5F_n^2 matches the seat's H_1 at every level, and the law's odd-order count equals the seat's support at every level 2..12
+   forward (arithmetic only; the seat's own list): Y_13: [(521, 13, 1040, 'new')]; Y_14: [(29, 7, 56, 'from Y_7')]; Y_15: [(11, 5, 20, 'from Y_5'), (31, 15, 60, 'new')]; Y_16: []; Y_17: [(3571, 17, 7140, 'new')]; Y_18: [(19, 9, 36, 'from Y_9')]; Y_19: [(9349, 19, 18696, 'new')]; Y_20: [(11, 5, 20, 'from Y_5'), (41, 20, 80, 'new')]; Y_21: [(29, 7, 56, 'from Y_7'), (211, 21, 420, 'new')]; Y_22: [(89, 22, 176, 'new'), (199, 11, 396, 'from Y_11')]; Y_23: [(139, 23, 276, 'new'), (461, 23, 920, 'new')]; Y_24: []
+  [PASS] (a') the forward reading reproduces the seat's list: new odd support at 13 (521, 1040), 15 (31, 60 + Y_5's 20), 17 (3571), 19 (9349), 20 (41), 21 (211 + Y_7's 56), 22 (89), 23 (139, 461); none new at 14, 16, 18, 24
+=== (b) the census from the pinned support files ===
+   inputs/support_Y9.json: n = 9, H_1 = [76, 76], support 147, K3 = 145 letters by order {1: 1, 19: 36, 38: 108}, K2 = 3
+      lines K3^3 = 3048625: {'three_gen': 758593, 'su5_broken': 737568, 'sm_vacua': 706464, 'full': 568656};  D total on SM lines {3: 706464};  D surviving generations {(1, 1, 1): 706464};  loses {'nu^c': 28512, 'N': 28512, 'H_d': 29376, 'Dbar': 29376, 'H_u': 30240}
+  [PASS] (b) Y_9 control: 145 letters (orders 1, 19, 38), SM vacua 706 464, full 568 656, D total 3 on all SM lines (= Q3's model census and sm:B1300)
+   inputs/support_Y12.json: n = 12, H_1 = [144, 720], support 123, K3 = 97 letters by order {1: 1, 16: 96}, K2 = 27
+      lines K3^3 = 912673: {'three_gen': 190849, 'su5_broken': 181440, 'sm_vacua': 34752, 'full': 3264};  D total on SM lines {3: 3264, 1: 31488};  D surviving generations {(1, 1, 1): 3264, (0, 1, 0): 10496, (0, 0, 1): 10496, (1, 0, 0): 10496};  loses {'D': 31488, 'H_u': 15744, 'H_d': 16608, 'Dbar': 18528, 'N': 12000}
+  [PASS] (b) Y_12: 97 letters of orders {1: 1, 16: 96}; three-generation 190 849, SU(5) broken 181 440, SM vacua 34 752, full 3 264
+  [PASS] (b) Y_12: the colour triplet D is thinned to exactly ONE generation on 31 488 SM lines (10 496 per generation) and kept in all three on 3 264
+  [PASS] (b) Y_12: D loses a generation on 31 488 SM lines, D-bar on 18 528, H_u 15 744, H_d 16 608, N 12 000, nu^c 0 (the seat's table)
+Q4: PASS

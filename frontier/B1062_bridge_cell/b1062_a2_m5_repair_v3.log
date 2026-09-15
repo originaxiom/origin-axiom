@@ -1,0 +1,21 @@
+[v3] numerator degree in x: 21; dps=60
+[v3] z=(-1.057750-1.270429j): 1 pt, [('lox', 'lox', 'lox')], res 1.3e-49
+[v3] z=(-1.057750+1.270429j): 1 pt, [('lox', 'lox', 'lox')], res 1.3e-49
+[v3] z=(-1.027711-2.252771j): 1 pt, [('lox', 'lox', 'lox')], res 1.5e-49
+[v3] z=(-1.027711+2.252771j): 1 pt, [('lox', 'lox', 'lox')], res 1.5e-49
+[v3] z=(-0.269847-0.532623j): 1 pt, [('lox', 'lox', 'lox')], res 4.8e-50
+[v3] z=(-0.269847+0.532623j): 1 pt, [('lox', 'lox', 'lox')], res 4.8e-50
+[v3] z=(-0.227119-1.280123j): 1 pt, [('lox', 'lox', 'lox')], res 4.8e-50
+[v3] z=(-0.227119+1.280123j): 1 pt, [('lox', 'lox', 'lox')], res 4.8e-50
+[v3] z=(0.092817-0.222378j): 1 pt, [('lox', 'lox', 'lox')], res 1.9e-50
+[v3] z=(0.092817+0.222378j): 1 pt, [('lox', 'lox', 'lox')], res 1.9e-50
+[v3] z=(0.357804-2.538250j): 1 pt, [('lox', 'lox', 'lox')], res 6.9e-50
+[v3] z=(0.357804+2.538250j): 1 pt, [('lox', 'lox', 'lox')], res 6.9e-50
+[v3] z=(0.380802-0.820900j): 1 pt, [('lox', 'lox', 'lox')], res 3.8e-50
+[v3] z=(0.380802+0.820900j): 1 pt, [('lox', 'lox', 'lox')], res 3.8e-50
+[v3] z=(0.693319-1.245156j): 1 pt, [('lox', 'lox', 'lox')], res 3.4e-50
+[v3] z=(0.693319+1.245156j): 1 pt, [('lox', 'lox', 'lox')], res 3.4e-50
+[v3] z=(1.557685-1.913198j): 1 pt, [('lox', 'lox', 'lox')], res 6.7e-50
+[v3] z=(1.557685+1.913198j): 1 pt, [('lox', 'lox', 'lox')], res 6.7e-50
+[v3] SUMMARY: resolved 18/18, fails 0, elliptic-bearing 0, pure-all-lox 18
+[v3] CERTIFICATION: ALL-LOX CERTIFIED — full triple, all 18 roots, deterministic, 60-digit

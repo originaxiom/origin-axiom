@@ -1,6 +1,6 @@
-# THE VERIFICATION PACKAGE — report (2026-09-15T17:08:30Z)
+# THE VERIFICATION PACKAGE — report (2026-09-15T17:11:18Z)
 
-Manifest built 2026-09-15T15:29:04Z at commit `6f513e19`; {'claims': 30, 'records': 36, 'seals': 12, 'locks': 56, 'records_with_a_primary_lock': 34}.
+Manifest built 2026-09-15T17:11:16Z at commit `80e3ec83`; {'claims': 41, 'records': 57, 'seals': 12, 'locks': 98, 'records_with_a_primary_lock': 56}.
 
 ## Seals — PASS (12/12 match)
 

@@ -1,0 +1,4 @@
+words (length 2..10, mixed): 2026; rotation classes: 241; distinct invariants: 241
+rotations share their invariant: True; the invariant separates rotation classes: True
+trace-18 words: 44 in 6 rotation classes with 6 invariants (B8083: phi1^3 and phi4 both trace 18, not conjugate)
+C3: PASS

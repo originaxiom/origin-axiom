@@ -1,0 +1,5 @@
+lifts of the six simple reflections built [37s]
+word of length 24 multiplied [54s]
+N^3 = I: True  N^6 = I: True  multiplicity of eigenvalue 1: 24  dim ker(N^2+N+1) (omega + omega-bar): 54  (seat: 24 and 27+27)
+C7: PASS [61s]
+rc=0

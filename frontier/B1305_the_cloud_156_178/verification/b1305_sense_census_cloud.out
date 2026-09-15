@@ -1,0 +1,9 @@
+tree oa-audit-seat/cloud-seat-ec15923d: 2417 prose files, 17.0 MB (outside_bench excluded)
+  logarithmic            8       0 (  0.0%)  FALSE COMFORT   [neg]
+  non-semisimple        18       0 (  0.0%)  FALSE COMFORT   [neg]
+  character           3474      12 (  0.4%)  FALSE COMFORT
+  modular              898      54 (  6.0%)  thin
+  non-rational           7       0 (  0.0%)  FALSE COMFORT
+  resurgence            71      12 ( 16.9%)  genuine
+  Chern-Simons          73      34 ( 46.6%)  genuine   [pos]
+  CONTROL + (Chern-Simons genuine): PASS;  CONTROL - (logarithmic, non-semisimple false comfort): PASS;  TWO-SIDED: PASSED

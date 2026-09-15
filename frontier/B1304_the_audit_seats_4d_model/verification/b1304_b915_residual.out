@@ -1,0 +1,7 @@
+  archived two-loop points: 16; max |x1 - x2| (the first UV equation, NOT re-solved) = 0.02683971620; max |x2 - x3| (the solved one) = 2.35e-11
+  [PASS] (a) the first UV equation is violated at the archived points: max residual in [0.02, 0.035] inverse-coupling units (the seat's 0.02683971597) and > 1e-6
+  at MU = 1.542e+13 GeV: (sw2, alpha_s) with first-stage guess 0.118 = (0.22925051289121834, 0.07664050903949089), 0.09 = (0.22921540288339898, 0.0766675204033129), 0.15 = (0.22928320678901587, 0.07661537383700175)
+  [FAIL] (b) the answer depends on the first-stage guess (max shift > 1e-4): the 0.118 is not an inert initial guess
+  simultaneous solve at the same MU: (sw2, alpha_s) = (0.229196, 0.076683); residuals -7.11e-15, 0.00e+00; B915's archived point (0.229251, 0.076641)
+  [PASS] (c) the simultaneous solve satisfies both equations to 1e-8 and differs from B915's archived point
+Q2: FAIL (1)

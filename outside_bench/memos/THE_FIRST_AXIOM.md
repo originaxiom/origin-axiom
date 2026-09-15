@@ -66,10 +66,10 @@ and its stated reach:
 ## 3. The branch sweep — and the one thing on a branch that WOULD move the count
 
 All remote branches fetched and diffed against `origin/main`. Two moved today
-(`claude/paper-verification-ufp0zn`, `audit/physical-bridge-2026-09-05`). The axiom-relevant find is
+(`<remote>/paper-verification-ufp0zn`, `audit/physical-bridge-2026-09-05`). The axiom-relevant find is
 older and **unmerged**:
 
-**`claude/physics-seat-evaluation-8dkbrl`, cell `T5_a6_audit` — "THE A6 RELABELING FEASIBILITY
+**`<remote>/physics-seat-evaluation-8dkbrl`, cell `T5_a6_audit` — "THE A6 RELABELING FEASIBILITY
 AUDIT", verdict FEASIBLE.** It proposes re-typing the **orientation** axiom as the observer's
 **closing #0**, on the finding that the class of *axiom-consumers before the object exists* is
 **EMPTY** over a 1394-file sweep (629 files with hits, 4648 hit lines, bite control passed in both
@@ -160,7 +160,7 @@ The owner named the theorem: **Jørgensen**. This memo's §1 identified the owne
 figure 8 being only with cusp"* as **fork F9 / B1323, on main**. **That identification is wrong.**
 The theorem is **Jørgensen's inequality (1976) + Callahan (2009) Cor. 2.4** — *"the only orientable
 hyperbolic 3-manifold with `J = 1` is the figure-eight complement"* — and it **is on a branch**
-(`claude/paper-verification-ufp0zn`, arc **B1345**, 2026-09-12). The owner's *"new work from other
+(`<remote>/paper-verification-ufp0zn`, arc **B1345**, 2026-09-12). The owner's *"new work from other
 branches"* was exactly right; the sweep in §3 landed one theorem short.
 
 **Everything else in this memo stands**: F9 is real, it is on main, it prices A1 rather than

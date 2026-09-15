@@ -1,0 +1,12 @@
+  exponent  1 (Sym^2, dim 3): h0=0 h1=1 h2=1  [0s]
+  exponent  4 (Sym^8, dim 9): h0=0 h1=1 h2=1  [0s]
+  exponent  5 (Sym^10, dim 11): h0=0 h1=1 h2=1  [1s]
+  exponent  7 (Sym^14, dim 15): h0=0 h1=1 h2=1  [1s]
+  exponent  8 (Sym^16, dim 17): h0=0 h1=1 h2=1  [3s]
+  exponent 11 (Sym^22, dim 23): h0=0 h1=1 h2=1  [7s]
+  exponent  2 (Sym^4, dim 5): h0=0 h1=1 h2=1  [0s]
+  exponent  3 (Sym^6, dim 7): h0=0 h1=1 h2=1  [0s]
+  exponent  6 (Sym^12, dim 13): h0=0 h1=1 h2=1  [1s]
+h^1(m004; e6) = sum over the six exponents = 6  (B8082: 6)
+C2: PASS
+rc=0

@@ -5,16 +5,16 @@
   origin                                               arcs= 1243   max=B1324
   origin/audit/b775-braver-questions                   arcs= 1021   max=B1067
   origin/audit/physical-bridge-2026-09-05              arcs= 1204   max=B1255
-  origin/claude/new-session-qor5up                     arcs= 1019   max=B1054
-  origin/claude/outside-bench                          arcs= 1243   max=B1324
-  origin/claude/paper-verification-ufp0zn              arcs= 1278   max=B1409
-  origin/claude/physics-seat-evaluation-8dkbrl         arcs= 1183   max=B1234
-  origin/claude/standard-model-derivation-0qt6ao       arcs= 1243   max=B1355
+  origin/<remote>/new-session-qor5up                     arcs= 1019   max=B1054
+  origin/<remote>/outside-bench                          arcs= 1243   max=B1324
+  origin/<remote>/paper-verification-ufp0zn              arcs= 1278   max=B1409
+  origin/<remote>/physics-seat-evaluation-8dkbrl         arcs= 1183   max=B1234
+  origin/<remote>/standard-model-derivation-0qt6ao       arcs= 1243   max=B1355
   origin/codex/seat-r001                               arcs= 1092   max=B1143
   origin/main                                          arcs= 1243   max=B1324
   origin/paper/structure-genesis-first                 arcs= 1103   max=B8154
 
-  THIS BRANCH (claude/outside-bench): arcs=1243
+  THIS BRANCH (<remote>/outside-bench): arcs=1243
 
 ------------------------------------------------------------------------------
  THE GAP -- arcs present on SOME head and ABSENT here
@@ -424,79 +424,79 @@
       on origin/audit/b775-braver-questions
 
   *** PROVED    B1031_generation_rung   [1/8] ['deck']
-      on origin/claude/new-session-qor5up
+      on origin/<remote>/new-session-qor5up
       THREE GENERATIONS: STRUCTURAL, COUNT MATCHES -- NOT DERIVED. AND THE LADDER HAD NO RUNG FOR IT. Occasioned by the owner's belief that the programme derives three generations; the record answers precisely and the answer i
 
   *** PROVED    B1037_band_B100_dispositioned   [1/8] ['q_8']
-      on origin/claude/new-session-qor5up
+      on origin/<remote>/new-session-qor5up
       THE B100-B199 BAND DISPOSITIONED: 37 ROWS ARE 17 STATEMENTS. The consolidation campaign's STEP 6 executed for the first time -- 'a band is DONE when its debt rows are either RESTORED or EXPLICITLY DECLINED WITH A REASON'
 
   *** PROVED    B1039_phi_fixed_and_metallic_exponent   [2/8] ['q8', 'intertwin']
-      on origin/claude/new-session-qor5up
+      on origin/<remote>/new-session-qor5up
       TWO MORE CLUSTERS RESTORED -- AND RE-VERIFYING THEM FOUND TWO DEFECTS IN WHAT WAS ABOUT TO BE RESTORED. Restorations 2 and 3 of B1037's seven, under campaign step 5 ('re-verify the identities before restoring, NEVER rest
 
   *** PROVED    B1043_the_band_is_the_wrong_unit   [1/8] ['intertwin']
-      on origin/claude/new-session-qor5up
+      on origin/<remote>/new-session-qor5up
       THE BAND IS THE WRONG UNIT, AND IT MADE THIS REFRESH RESTORE A SETTLED QUESTION AS OPEN. Occasion: sweeping band B200-B299, the campaign's next unit of work, the FIRST ROW READ (B232) turned out to be a law this refresh 
 
   *** PROVED    B1269_transport_computed   [3/8] ['2t/q', 'q8', 'imaginary quaternion units']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE TRANSPORT COMPUTED. I-26 asks for the compactification in which an h^1 of the object counts 4d chiral generations and for the surviving gauge group; both are computed here on the rebuilt instrument. (1) In the Achary
 
   *** PROVED    B1273_the_three_fold_closing   [4/8] ['q8', 'hantzsche', 'didicosm', 'deck']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE OBJECT'S OWN THREE-FOLD CLOSING. The 3-fold cyclic branched cover Y_3 of S^3 along the figure-eight knot -- the object's own closing, three copies permuted by Z/3 -- is built by Reidemeister-Schreier from pi_1(m004) 
 
   *** PROVED    B1277_the_vacuum_manifold_of_the_closing   [2/8] ['hantzsche', 'deck']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE VACUUM MANIFOLD OF THE CLOSING AND ITS WILSON LINES. The E8 theory on Y_3 (B1273: e6 + u(1)^2, three 27s on the sign characters chi_i, three 27bars, six flavons, one coupling) has 36 neutral fields (N, nu^c, h_u0, h_
 
   *** PROVED    B1278_the_six_fold_closing   [2/8] ['hantzsche', 'deck']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE. The closings Y_n are the manifold covers of the object's geometric transition (Y_2 the spherical end's, Y_3 the Euclidean point's -- where the quantum face is empty, Vol
 
   *** PROVED    B1279_the_symmetries_of_the_closing   [1/8] ['deck']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE SYMMETRIES OF THE CLOSING ON ITS STANDARD-MODEL LINES. The eight isometries of the object are found as automorphisms of its own presentation <a, b | a w B w^-1> (a word search, the relator preserved in Riley's geomet
 
   *** PROVED    B1280_the_chirality_probe   [1/8] ['intertwin']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE CHIRALITY PROBE, COMPLETED AND CLOSED BY TWO THEOREMS. (1) THE ELLIPTIC SL(3) COMPONENTS. On B71's non-self-dual components W1, W2 the A-variety identity is exact with scalar 1: lambda = mu^(+-3), so the peripheral p
 
   *** PROVED    B1281_the_seats_verified   [1/8] ['deck']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE SEATS VERIFIED (2026-09-07). Fetched origin/main @ 506c591f (main's B1267, B1272-B1277, B1290-B1294), the physics seat @ 659487bb (R56-R72) and codex @ f7a49536 (R040); every relevant script re-run on this bench from
 
   *** PROVED    B1282_the_siblings_germ   [1/8] ['intertwin']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE SIBLING'S GERM. On the two-cusped sibling m202 (pi_1 = <a, b | aabbAbAABBaB>, Sym = D_6, commensurable with the object, Q(sqrt-3), 2T) the twelve isometries are found as automorphisms of pi_1 by exhaustive word searc
 
   *** PROVED    B1301_the_towers_alphabet   [1/8] ['deck']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE TOWER'S ALPHABET. The h^1 support of the closings Y_2 ... Y_12 (the n-fold cyclic branched covers of the object; |H_1| = L_n^2 or 5 F_n^2) computed exhaustively -- Fox calculus on one representative per deck orbit (t
 
   *** PROVED    B1302_the_one_triplet_vacua   [1/8] ['deck']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE ONE-TRIPLET VACUA. On Y_12's 34 752 Standard-Model Wilson lines (B1301; 265 survival patterns of the eleven multiplets over three generations, the mirrors following their partners) every D- and F-flat tree-level VEV 
 
   *** PROVED    B1303_the_two_by_two_criterion   [1/8] ['deck']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE 2x2 CRITERION. The n-fold cyclic branched cover of the object is the fixed quotient of the fibre's monodromy, pi_1(Y_n) = <a, b | phi^n(a) = a, phi^n(b) = b> (phi: a -> a^2 b, b -> a b), so for a non-trivial characte
 
   *** PROVED    B1304_the_two_adic_tower   [1/8] ['deck']
-      on origin/claude/standard-model-derivation-0qt6ao
+      on origin/<remote>/standard-model-derivation-0qt6ao
       THE 2-ADIC TOWER ENDS AT Y_12. Y_24's character group has 10 749 957 120 elements, but its odd support is empty by B1303's law (an even level pulls back Y_12's, which is empty) and its 2-primary subgroup is (Z/32)^2 = 1 
 
   *** OPEN      B1325_codex_r037_r040_harvest   [1/8] ['deck']
-      on origin/claude/paper-verification-ufp0zn
+      on origin/<remote>/paper-verification-ufp0zn
       THE CODEX HARVEST GAP: R037 RE-DERIVED AND BANKED, R038-R040 READ AND ROWED OPEN (the arc carries those three as named debts, hence OPEN). B1235 harvested codex at 4ec3e07f; the seat is at f7a49536, four records ahead, a
 
   *** PROVED    B1328_extension_over_the_parent   [1/8] ['q8']
-      on origin/claude/paper-verification-ufp0zn
+      on origin/<remote>/paper-verification-ufp0zn
       THE THREE 'EXTENSION OVER m000 SELECTS' INSTANCES ARE ONE MECHANISM, AND IT IS A RELATION RATHER THAN A CHOICE. Codex R037 (m004's 2T quotient class), codex R039 (the A4-to-2T lift) and the paper's own spin-lift row each
 
   *** PROVED    B1339_the_chain_status_adopted   [1/8] ['q8']
-      on origin/claude/paper-verification-ufp0zn
+      on origin/<remote>/paper-verification-ufp0zn
       THE CHAIN STATUS ADOPTED, AND MEMO 152'S OWN FIX DISCHARGED. B1338 found four consolidations each ADDED and never ADOPTED, none on main, and a fifth being drafted; this closes the loop by adopting one and demoting the re
 
   *** PROVED    B8068_j2t_charge_field   [2/8] ['2t/q', 'intertwin']

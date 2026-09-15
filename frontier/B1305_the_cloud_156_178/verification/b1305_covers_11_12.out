@@ -1,0 +1,15 @@
+  degree  2:   1 covers,    1 cusps, max 1, by cusp count {1: 1}   (0 s)
+  degree  3:   1 covers,    1 cusps, max 1, by cusp count {1: 1}   (0 s)
+  degree  4:   2 covers,    3 cusps, max 2, by cusp count {1: 1, 2: 1}   (0 s)
+  degree  5:   4 covers,    8 cusps, max 3, by cusp count {1: 1, 2: 2, 3: 1}   (0 s)
+  degree  6:  11 covers,   18 cusps, max 2, by cusp count {1: 4, 2: 7}   (0 s)
+  degree  7:   9 covers,   17 cusps, max 3, by cusp count {1: 5, 3: 4}   (0 s)
+  degree  8:  10 covers,   17 cusps, max 2, by cusp count {1: 3, 2: 7}   (0 s)
+  degree  9:  11 covers,   25 cusps, max 3, by cusp count {1: 4, 3: 7}   (0 s)
+  degree 10:  38 covers,  111 cusps, max 5, by cusp count {1: 3, 2: 10, 3: 15, 4: 7, 5: 3}   (0 s)
+  degree 11:  26 covers,   72 cusps, max 4, by cusp count {1: 1, 2: 12, 3: 5, 4: 8}   (0 s)
+  degree 12:  62 covers,  140 cusps, max 4, by cusp count {1: 16, 2: 22, 3: 16, 4: 8}   (0 s)
+  POSITIVE CONTROL (degrees 2-10 = B1295: 87 covers, 201 cusps, per-degree counts and max cusps): PASS
+  degrees 11-12 as the cloud's memo 170 addendum: PASS; covers with >= 6 cusps to degree 12: 0
+Q2(b): PASS
+RC=0

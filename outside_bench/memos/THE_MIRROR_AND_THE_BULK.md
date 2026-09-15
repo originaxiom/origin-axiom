@@ -77,7 +77,7 @@ remembered A7 bit coexist on the object's own tower**."*
 B1324's own next sentence: *"**The spectral half does not follow yet.**"* On the chiral one-cusped
 covers the torsion is meridian-generated, leaving **two** cusp-trivial unprotected sectors — **both
 index 0** — plus 136 control sectors at 0. And the 54 multi-cusped chiral covers, the case B1324
-left open, were computed on `claude/paper-verification-ufp0zn` (**B1333**, cited as branch work, not
+left open, were computed on `<remote>/paper-verification-ufp0zn` (**B1333**, cited as branch work, not
 re-run here): **38 070 sectors, three primes, all 54 covers, 1 841 with two or more LIVE cusps —
 index ZERO in every one.**
 

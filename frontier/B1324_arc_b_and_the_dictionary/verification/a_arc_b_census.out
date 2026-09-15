@@ -1,0 +1,40 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+degree 2: 1 covers (0.0 s)
+degree 3: 1 covers (0.0 s)
+degree 4: 2 covers (0.0 s)
+degree 5: 4 covers (0.0 s)
+degree 6: 11 covers (0.1 s)
+degree 7: 9 covers (0.1 s)
+degree 8: 10 covers (0.1 s)
+degree 9: 11 covers (0.2 s)
+degree 10: 38 covers (0.2 s)
+covers 87 per degree {2: 1, 3: 1, 4: 2, 5: 4, 6: 11, 7: 9, 8: 10, 9: 11, 10: 38} | B1295 mismatches 0
+by type (total, chiral): {'cyclic': [9, 0], 'irregular': [77, 66], 'regular': [1, 0]} | chiral 66 amphichiral 21 | methods disagree []
+A1 covers inherit amphichirality: False
+A2 chiral one-cusped with 3-divisible torsion: [(6, 4, 'Z/12 + Z'), (6, 9, 'Z/12 + Z'), (8, 0, 'Z/30 + Z'), (8, 2, 'Z/30 + Z'), (9, 6, 'Z/21 + Z'), (9, 10, 'Z/21 + Z')]
+A3 identity det = s_m*s_l on all one-cusped: True
+    2.0 cyclic [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    3.0 cyclic [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    4.0 cyclic [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    5.0 cyclic [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    6.1 cyclic [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    6.4 irregular [(1, -1, -1), (1, 1, 1)]
+    6.6 irregular [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    6.9 irregular [(1, -1, -1), (1, 1, 1)]
+    7.0 irregular [(1, 1, 1)]
+    7.1 irregular [(1, 1, 1)]
+    7.2 cyclic [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    7.4 irregular [(1, 1, 1)]
+    7.6 irregular [(1, 1, 1)]
+    8.0 irregular [(1, -1, -1), (1, 1, 1)]
+    8.1 cyclic [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    8.2 irregular [(1, -1, -1), (1, 1, 1)]
+    9.0 cyclic [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    9.2 irregular [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    9.6 irregular [(1, -1, -1), (1, 1, 1)]
+    9.10 irregular [(1, -1, -1), (1, 1, 1)]
+    10.2 cyclic [(-1, -1, 1), (-1, 1, -1), (1, -1, -1), (1, 1, 1)]
+    10.36 irregular [(1, -1, -1), (1, 1, 1)]
+    10.37 irregular [(1, -1, -1), (1, 1, 1)]
+RC=0

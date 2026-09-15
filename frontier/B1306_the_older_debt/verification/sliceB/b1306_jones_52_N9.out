@@ -1,0 +1,33 @@
+primes: [268369921, 268361729] D = 4096
+  [PASS] N=2: R-hat R-hat^-1 = 1 exactly in every weight sector
+  [PASS] N=2: braid relation s1 s2 s1 = s2 s1 s2 exactly on V^(x)3
+  [PASS] N=3: R-hat R-hat^-1 = 1 exactly in every weight sector
+  [PASS] N=3: braid relation s1 s2 s1 = s2 s1 s2 exactly on V^(x)3
+  [PASS] N=4: R-hat R-hat^-1 = 1 exactly in every weight sector
+  [PASS] N=4: braid relation s1 s2 s1 = s2 s1 s2 exactly on V^(x)3
+  [PASS] N=2: unknot (closure of s1 s2, writhe 2) J = 1  [pivotal sign +1, theta = +1 v^3]
+  [PASS] N=2: figure-eight = GM (166)
+  [PASS] N=2: trefoil (s1^3 s2) = Habiro's series (same; chirality convention fixed at N=2)
+   J_2(Park's word) = +1q^1 -1q^2 +2q^3 -1q^4 +1q^5 -1q^6 | V(-1) = -7
+  [PASS] N=2: Park's word gives a Jones polynomial with |V(-1)| = 7 = det(5_2) and V(1) = 1
+  [PASS] N=2: it is memo 184's J_2(m(5_2)) = q - q^2 + 2q^3 - q^4 + q^5 - q^6, as-is or as its mirror
+  [PASS] N=3: unknot (closure of s1 s2, writhe 2) J = 1  [pivotal sign +1, theta = +1 v^8]
+  [PASS] N=3: figure-eight = GM (166)
+  [PASS] N=3: trefoil (s1^3 s2) = Habiro's series (same; chirality convention fixed at N=2)
+  [PASS] N=4: unknot (closure of s1 s2, writhe 2) J = 1  [pivotal sign +1, theta = +1 v^15]
+  [PASS] N=4: figure-eight = GM (166)
+  [PASS] N=4: trefoil (s1^3 s2) = Habiro's series (same; chirality convention fixed at N=2)
+  controls done in 27s; orientation of Park's word here: as-is
+   n=6: q^5 .. q^80 (68 terms) bottom [1, -1, 0, 1, 0, 0, 1, -2, -1, 2] top [-1, 1, 1, 0, 0, -1, -2, 0, 2, 1]  [11s]
+   n=7: q^6 .. q^111 (92 terms) bottom [1, -1, 0, 1, 0, 0, -1, 2, -2, -1] top [1, -1, -1, 0, 0, 1, 0, 3, -1, -2]  [22s]
+        stabilised vs n=6: bottom [1, -1, 0, 1, 0, 0] | top []
+   n=8: q^7 .. q^147 (129 terms) bottom [1, -1, 0, 1, 0, 0, -1, 0, 2, -2] top [-1, 1, 1, 0, 0, -1, 0, -1, -2, 1]  [45s]
+        stabilised vs n=7: bottom [1, -1, 0, 1, 0, 0, -1] | top []
+   n=9: q^8 .. q^188 (167 terms) bottom [1, -1, 0, 1, 0, 0, -1, 0, 0, 2] top [1, -1, -1, 0, 0, 1, 0, 1, 0, 2]  [90s]
+        stabilised vs n=8: bottom [1, -1, 0, 1, 0, 0, -1, 0] | top []
+  [PASS] bottom end of J_n(m(5_2)) stabilised on >= 8 coefficients and equals the false theta sum (-1)^k q^(k(k+1)/2): [1, -1, 0, 1, 0, 0, -1, 0]
+  [PASS] top end not stabilised beyond a few coefficients at n <= 9 (memo 184 read it as empty): []
+   1/Phi: |a_n|^(1/n) at n=100,500,1500,3000 = {100: 1.28156, 500: 1.286, 1500: 1.28749, 3000: 1.28865}
+  [PASS] 1/Phi's coefficients grow geometrically with |a_n|^(1/n) -> 1.288 +- 0.002 (memo 184: 1.2880)
+Q5: PASS  [197s]
+rc=0

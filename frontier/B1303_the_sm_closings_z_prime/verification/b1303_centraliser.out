@@ -1,0 +1,11 @@
+T (principal sl2's; B1140/B1138):
+   64 = 10 colour-singlet + 54 coloured; states at weight (0,0): 8, of them colour singlets: 2
+   sl2+sl2 strings, colour-singlet sector: {(4, 0): 1, (0, 4): 1}; coloured sector: {(2, 2): 6}
+   CENTRALISER of the 14 inside the 64 (trivial summands): 0
+R (root sl2's, regular A1A1A2; fc R49's rank count):
+   64 = 10 colour-singlet + 54 coloured; states at weight (0,0): 8, of them colour singlets: 2
+   sl2+sl2 strings, colour-singlet sector: {(1, 0): 2, (0, 1): 2, (0, 0): 2}; coloured sector: {(1, 1): 6, (1, 0): 6, (0, 1): 6, (0, 0): 6}
+   CENTRALISER of the 14 inside the 64 (trivial summands): 2
+B1140's (b) 'invariant content = 0' holds for (T): True; the printed count 2 = the two spin-2 middle weights (members of the (4,0) and (0,4) strings), not invariants
+fc R49's 'two u(1)s of room' holds for (R): True; the same count 2 there IS the centraliser
+Q0: PASS

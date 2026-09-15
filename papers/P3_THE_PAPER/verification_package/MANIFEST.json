@@ -1,15 +1,15 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-09-15T15:29:04Z",
+ "built": "2026-09-15T17:11:16Z",
  "environment": {
-  "python": "3.11.15",
-  "platform": "Linux-6.18.44-fc-v33-x86_64-with-glibc2.39",
+  "python": "3.12.1",
+  "platform": "macOS-15.1-x86_64-i386-64bit",
   "snappy": "3.3.2",
   "sympy": "1.14.0",
   "mpmath": "1.3.0",
-  "numpy": "2.4.6",
-  "flint": "not importable (ModuleNotFoundError)",
-  "git_head": "6f513e19"
+  "numpy": "2.4.0",
+  "flint": "0.9.0",
+  "git_head": "80e3ec83"
  },
  "claims": [
   {
@@ -43,7 +43,7 @@
   },
   {
    "section": "2",
-   "claim": "the census base rate against which any recurrence must be judged",
+   "claim": "the census base rate against which any recurrence must be judged (145 of 400 admit the surjection; 124 of 400 share the object's count)",
    "support": "settled",
    "records": [
     {
@@ -53,15 +53,22 @@
      "claim_one_line": "THE CORNERSTONE VERIFIED ON THIS BENCH: THE OBJECT-SPECIFIC ATOM IS GENERIC AT ROUGHLY 1 IN 3. cc3-s cornerstone synthesis returns NOT YET -- and not for want of theorems, but because the cornerstone has no object under it -- and the load-bearing number was RE-DERIVED HERE before acceptance (integra",
      "seals": [],
      "reproduce_sh": false,
-     "scripts": [],
-     "results": [],
+     "scripts": [
+      "frontier/B993_cornerstone_verified/verification/sl23_baserate.py"
+     ],
+     "results": [
+      "frontier/B993_cornerstone_verified/verification/sl23_baserate.json"
+     ],
      "locks": [
       "tests/test_b1009_verification.py",
       "tests/test_b1044_gamma.py",
       "tests/test_b1235_nine_relays_read.py",
-      "tests/test_b1410_point_ledger.py"
+      "tests/test_b1410_point_ledger.py",
+      "tests/test_b993_baserate_exact.py"
      ],
-     "primary_locks": []
+     "primary_locks": [
+      "tests/test_b993_baserate_exact.py"
+     ]
     }
    ]
   },
@@ -113,7 +120,7 @@
   },
   {
    "section": "3",
-   "claim": "the golden substitution matrix squared is the object's monodromy (M^2 = RL)",
+   "claim": "the golden substitution matrix squared is the object's monodromy (M^2 = LR)",
    "support": "settled",
    "records": [
     {
@@ -354,7 +361,7 @@
   },
   {
    "section": "7",
-   "claim": "the spin lift is assigned by the object's own beat, not free",
+   "claim": "the spin lift is assigned by the object's own spectral period, not free",
    "support": "settled",
    "records": [
     {
@@ -512,7 +519,7 @@
   },
   {
    "section": "5",
-   "claim": "no object period is an SM ratio (the value negative, exhaustive)",
+   "claim": "no object period is an SM ratio (the value negative, over a sealed 22-target menu)",
    "support": "settled",
    "records": [
     {
@@ -610,7 +617,9 @@
      "results": [
       "frontier/B1321_l205_the_siblings_localized_count/verification/already_banked_at_seal.txt",
       "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_class_search.json",
-      "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_m202_count.json"
+      "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_class_search.out",
+      "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_m202_count.json",
+      "frontier/B1321_l205_the_siblings_localized_count/verification/b1321_m202_count.out"
      ],
      "locks": [
       "tests/test_b1321_l205_the_siblings_localized_count.py"
@@ -664,10 +673,14 @@
      ],
      "results": [
       "frontier/B1295_the_caveat_closed_by_computation/verification/census_fixed_points.json",
+      "frontier/B1295_the_caveat_closed_by_computation/verification/census_fixed_points.out",
       "frontier/B1295_the_caveat_closed_by_computation/verification/cover_scan.json",
+      "frontier/B1295_the_caveat_closed_by_computation/verification/cover_scan.out",
       "frontier/B1295_the_caveat_closed_by_computation/verification/cusp_coefficient.json",
+      "frontier/B1295_the_caveat_closed_by_computation/verification/cusp_coefficient.out",
       "frontier/B1295_the_caveat_closed_by_computation/verification/harmonic_generator.json",
-      "frontier/B1295_the_caveat_closed_by_computation/verification/law_outofsample.json"
+      "frontier/B1295_the_caveat_closed_by_computation/verification/law_outofsample.json",
+      "frontier/B1295_the_caveat_closed_by_computation/verification/law_outofsample.out"
      ],
      "locks": [
       "tests/test_b1295_the_caveat_closed_by_computation.py",
@@ -706,7 +719,8 @@
      ],
      "results": [
       "frontier/B1320_phase2_arc0_pw_count/verification/already_banked_at_seal.txt",
-      "frontier/B1320_phase2_arc0_pw_count/verification/b1320_arc0_pw_count.json"
+      "frontier/B1320_phase2_arc0_pw_count/verification/b1320_arc0_pw_count.json",
+      "frontier/B1320_phase2_arc0_pw_count/verification/b1320_arc0_pw_count.out"
      ],
      "locks": [
       "tests/test_b1306_the_older_debt.py",
@@ -795,7 +809,7 @@
   },
   {
    "section": "6",
-   "claim": "the one-cusped index and its two vanishing theorems: the cyclic tower is vector-like",
+   "claim": "the one-cusped index vanishes on every sector of the cyclic tower by two theorems (its non-vacuity as an instrument is open)",
    "support": "settled",
    "records": [
     {
@@ -835,6 +849,7 @@
       "frontier/B1297_the_spectral_cover_index/verification/census.json",
       "frontier/B1297_the_spectral_cover_index/verification/cover_presentation.json",
       "frontier/B1297_the_spectral_cover_index/verification/live_scan.json",
+      "frontier/B1297_the_spectral_cover_index/verification/live_scan.out",
       "frontier/B1297_the_spectral_cover_index/verification/table.json"
      ],
      "locks": [
@@ -868,7 +883,9 @@
      "results": [
       "frontier/B1299_the_period_2_duality/verification/b1299_subregular.json",
       "frontier/B1299_the_period_2_duality/verification/b1299_w1w2_main.json",
+      "frontier/B1299_the_period_2_duality/verification/b1299_w1w2_main.out",
       "frontier/B1299_the_period_2_duality/verification/b1299_w1w2_main_run.txt",
+      "frontier/B1299_the_period_2_duality/verification/b1299_w1w2_main_unpolished.out",
       "frontier/B1299_the_period_2_duality/verification/sm_b1280_chirality_probe_w1w2_rerun.txt"
      ],
      "locks": [
@@ -908,6 +925,7 @@
      "results": [
       "frontier/B1322_l204_verified/verification/already_banked_at_seal.txt",
       "frontier/B1322_l204_verified/verification/b1322_l204_verify.json",
+      "frontier/B1322_l204_verified/verification/b1322_l204_verify.out",
       "frontier/B1322_l204_verified/verification/cloud_memo183_park_ahat_repair_rerun.txt",
       "frontier/B1322_l204_verified/verification/cloud_memo183_park_repair_cannot_close_rerun.txt",
       "frontier/B1322_l204_verified/verification/sm_B1350_report_hp_rerun.txt"
@@ -923,7 +941,7 @@
   },
   {
    "section": "6",
-   "claim": "the tower law (a twisted class iff a product of n 2x2 matrices is the identity); the SM closings carry three complete generations in mirror pairs; the tree-level vacuum SM x U(1)_Z' and its regime fork",
+   "claim": "the tower law (a twisted class iff a product of n 2x2 matrices is the identity); the SM closings carry three complete structural copies of the Standard-Model content in mirror pairs, vector-like; the tree-level vacuum SM x U(1)_Z' and its regime fork",
    "support": "settled",
    "records": [
     {
@@ -953,10 +971,15 @@
      ],
      "results": [
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_centraliser.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_centraliser.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_dt.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_dt.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_fcnc.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_fcnc.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_tower.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_tower.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/b1303_zprime.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_zprime.out",
       "frontier/B1303_the_sm_closings_z_prime/verification/chat1_check_relay_rerun.txt",
       "frontier/B1303_the_sm_closings_z_prime/verification/main_b1103_being_gate_rerun.txt",
       "frontier/B1303_the_sm_closings_z_prime/verification/main_b1140_spacetime64_rerun.txt",
@@ -1051,8 +1074,11 @@
      "results": [
       "frontier/B1323_the_genesis_upgrades/verification/rule_lines.txt",
       "frontier/B1323_the_genesis_upgrades/verification/u1_substrate_count.json",
+      "frontier/B1323_the_genesis_upgrades/verification/u1_substrate_count.out",
       "frontier/B1323_the_genesis_upgrades/verification/u2_criterion_census.json",
-      "frontier/B1323_the_genesis_upgrades/verification/u3_dictionary.json"
+      "frontier/B1323_the_genesis_upgrades/verification/u2_criterion_census.out",
+      "frontier/B1323_the_genesis_upgrades/verification/u3_dictionary.json",
+      "frontier/B1323_the_genesis_upgrades/verification/u3_dictionary.out"
      ],
      "locks": [
       "tests/test_b1323_the_genesis_upgrades.py"
@@ -1093,11 +1119,17 @@
      ],
      "results": [
       "frontier/B1324_arc_b_and_the_dictionary/verification/a_arc_b_census.json",
+      "frontier/B1324_arc_b_and_the_dictionary/verification/a_arc_b_census.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_on_chiral_covers.json",
+      "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_on_chiral_covers.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_tol1e-5.json",
+      "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_tol1e-5.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_tol1e-9.json",
+      "frontier/B1324_arc_b_and_the_dictionary/verification/b_index_tol1e-9.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/c_dictionary.json",
+      "frontier/B1324_arc_b_and_the_dictionary/verification/c_dictionary.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/d_four_records.json",
+      "frontier/B1324_arc_b_and_the_dictionary/verification/d_four_records.out",
       "frontier/B1324_arc_b_and_the_dictionary/verification/rule_lines.txt"
      ],
      "locks": [
@@ -1108,13 +1140,461 @@
      ]
     }
    ]
+  },
+  {
+   "section": "4",
+   "claim": "the manifold's intrinsic arithmetic forces exactly three quadratic faces, Q(sqrt-3), Q(sqrt5), Q(sqrt-15), and no closed filling in the |p|,q <= 8 grid keeps any of them",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B730",
+     "dir": "frontier/B730_forced_faces_and_cosmos",
+     "verdict": "PROVED",
+     "claim_one_line": "The object's forced quadratic faces close at exactly three \u2014 \u211a(\u221a\u22123), \u211a(\u221a5), \u211a(\u221a\u221215) \u2014 a Klein four-group; \u211a(\u221a\u22127) is an external stage.",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b730_faces_cosmos.py"
+     ],
+     "primary_locks": [
+      "tests/test_b730_faces_cosmos.py"
+     ]
+    },
+    {
+     "arc": "B288",
+     "dir": "frontier/B288_arithmetic_filling_census",
+     "verdict": "NEGATIVE",
+     "claim_one_line": "No closed hyperbolic Dehn filling of the figure-eight re-sees \u211a(\u221a\u22123) or is arithmetic, so the E\u2086-selecting arithmetic is an open-object property destroyed by closing.",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b288_arithmetic_filling_census.py",
+      "tests/test_b291_scale_extremal.py",
+      "tests/test_b294_selection_verdict.py",
+      "tests/test_b296_seam_arc_verification.py",
+      "tests/test_b740_grid.py",
+      "tests/test_b747_b748_sweeps.py"
+     ],
+     "primary_locks": [
+      "tests/test_b288_arithmetic_filling_census.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "the manifold group is congruence (level 4 in the SL-kernel convention); the continuous spectrum is one channel, phi(s) = Lambda_K(s-1)/Lambda_K(s)",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B734",
+     "dir": "frontier/B734_m004_is_congruence",
+     "verdict": "PROVED",
+     "claim_one_line": "\u03c0\u2081(m004) reaches the geometric index 12 at level (2)\u00b3=(8), so the figure-eight knot group IS a congruence subgroup \u2014 three 2-adic levels deeper than its sister m003.",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b734_m004_congruence.py",
+      "tests/test_b830_masterplan.py",
+      "tests/test_e21_group_naming_guard.py"
+     ],
+     "primary_locks": [
+      "tests/test_b734_m004_congruence.py"
+     ]
+    },
+    {
+     "arc": "B739",
+     "dir": "frontier/B739_character_rigidity",
+     "verdict": "PROVED",
+     "claim_one_line": "m004's continuous spectrum is character-rigid: one Eisenstein channel pulled back from the Bianchi base, scattering \u039b_K(s\u22121)/\u039b_K(s), carrying no level characters.",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1142_lane_c_cusp_spectrum.py",
+      "tests/test_b739_rigidity.py",
+      "tests/test_b742_negatives_hunt.py",
+      "tests/test_b754_p2_spectral.py"
+     ],
+     "primary_locks": [
+      "tests/test_b739_rigidity.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "the theta-odd block at the monodromy is unitary with eigenphases +-72 degrees and a golden-exact overlap matrix",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B753",
+     "dir": "frontier/B753_mixing_structure",
+     "verdict": "PROVED",
+     "claim_one_line": "The \u03b8-odd block of the twisted weld is exactly unitary with eigenphases \u00b172\u00b0, and the kind-correct mixing object is unistochastic with |B\u2080\u2080|\u00b2=1/(\u03c6\u221a5), refuting the disputed 108\u00b0/'different quantity' claim.",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b753_mixing.py",
+      "tests/test_b754_p2_spectral.py"
+     ],
+     "primary_locks": [
+      "tests/test_b753_mixing.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "the constructed algebra is Barton-Sudbery's magic-square algebra M(O,C): a Lie isomorphism on all 3003 unordered basis pairs, zero mismatches",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B904",
+     "dir": "frontier/B904_barton_sudbery",
+     "verdict": "PROVED",
+     "claim_one_line": "THE BARTON-SUDBERY CAPSTONE (B880's priced gap, paid): L(O_split, C'_split) constructed explicitly over Q -- Zorn octonions, tri(O) dim 28 as an exact nullspace, EVERY product derived rather than chosen (cross products by multiplicity-one equivariance over all 28 triples x 64 pairs: (1,2)->3 = xy, (",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1129_naturalvalues.py",
+      "tests/test_b904_bs.py"
+     ],
+     "primary_locks": [
+      "tests/test_b904_bs.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "the measurement calculus: the four charges' Killing signature (2,2), the two S3 cubic pencils with one resolvent Q(sqrt77) and one cubic field K, and the first measurement so(10)+u(1) at each noncompact wall",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B877",
+     "dir": "frontier/B877_fmt_review",
+     "verdict": "PROVED",
+     "claim_one_line": "S1 REVIEW PASSED -- the solo seat's FIRST MEASUREMENT THEOREM accepted at banking grade; the charge-measurement/triality story is now a TWO-SEAT THEOREM. Every exact certificate rerun green on this build: the pencil theorem (det36 = c*mu^12, det12 = c*mu^4, exact over Q), restriction-of-scalars null",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b758_chain.py",
+      "tests/test_b877_fmt_review.py"
+     ],
+     "primary_locks": [
+      "tests/test_b877_fmt_review.py"
+     ]
+    },
+    {
+     "arc": "B894",
+     "dir": "frontier/B894_meditation_trio",
+     "verdict": "PROVED",
+     "claim_one_line": "THE TORSION-PRIME BRIDGE (M4) + THE FOUR-COLUMN LEDGER (M6 keystone): the small-prime block (p<=13) of the adjoint torsion tau_ad = prod of the BANKED B581 block torsions is 2^61 3^20 5^5 7^17 11^4 13^5 with support {2,3,5,7,11,13} = supp(disc mu) EXACTLY (support identity TRUE), while NO exponent i",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b894_bridge.py",
+      "tests/test_c28_ramification.py"
+     ],
+     "primary_locks": [
+      "tests/test_b894_bridge.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "the second measurement lands on su(3)+su(2)+u(1)^3, the A2+A1 Levi (dimension 14, rank 6), skipping SU(5)",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B892",
+     "dir": "frontier/B892_second_measurement",
+     "verdict": "PROVED",
+     "claim_one_line": "CORRECTED 2026-09-02 (B1237): z = 14 is su(3)\u2295su(2)\u2295u(1)\u00b3, dim 14 \u2014 two abelian factors more than the SM gauge algebra (dim 12, B950); Levi stratum B951; exact content B1236. ORIGINAL CLAIM AS ASSERTED: THE SECOND MEASUREMENT THEOREM VERIFIED on this build (solo S1 queue #1) + THE B874 AMENDMENT LOG",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b892_smt.py",
+      "tests/test_b946_handoff6.py"
+     ],
+     "primary_locks": [
+      "tests/test_b892_smt.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "one Z2-graded matter law with obstruction prod c = -1, verified on four faces; the fifteen flavour atoms",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B906",
+     "dir": "frontier/B906_flavor_verification",
+     "verdict": "PROVED",
+     "claim_one_line": "THE FLAVOR ARC VERIFIED WHOLESALE (solo handoff 5, integrate-don't-merge, every suite script rerun on this build): (1) INSTANT CONVERGENCES -- their sealed XXXVII prediction (wall complex in e6(6), all three roots) is MET by B893, committed BEFORE the handoff existed (det14 positive at all three roo",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b906_flavor.py"
+     ],
+     "primary_locks": [
+      "tests/test_b906_flavor.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "the value layer as structure: the real form e6(2); the Hermitian signature (15,12); I = -1; v1 v2 v3 = 3^{3/2} times the square of a normalisation the charge-equivariant gauge fixes to 1; the 3/8 traces",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B907",
+     "dir": "frontier/B907_real_form_selector",
+     "verdict": "PROVED",
+     "claim_one_line": "THE SEALED CELL DECIDES -- OUTCOME A: THE WALL IS REAL IN e6(2), AND ONLY THERE (the joint J1 with the solo seat's XLIX-L leg; prereg cd7aae3b committed f0450d71 BEFORE compute, seal verified): sweeping all 128 frame-diagonal inner and tau-composite outer involution representatives -- the diagram fl",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b907_selector.py"
+     ],
+     "primary_locks": [
+      "tests/test_b907_selector.py"
+     ]
+    },
+    {
+     "arc": "B912",
+     "dir": "frontier/B912_norm_cell",
+     "verdict": "PROVED",
+     "claim_one_line": "R1, THE SEALED NORM CELL DECIDES -- OUTCOME B, AND THE OBSTRUCTION IS EXACTLY THE COLORED SECTOR (prereg 93d420ea committed 878137e2 before compute; seal verified): the antilinear intertwiner J EXISTS and is unique up to one real scale -- H+- are integer +-1 signed-permutation symmetric matrices sol",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b912_norm.py"
+     ],
+     "primary_locks": [
+      "tests/test_b912_norm.py"
+     ]
+    },
+    {
+     "arc": "B908",
+     "dir": "frontier/B908_exactness_pin",
+     "verdict": "PROVED",
+     "claim_one_line": "THE I-EXACTNESS PIN, two of three legs closed: (leg 1) v = prod(rows) + prod(cols) is RATIONAL by the K3,3 bipartition-uniqueness argument (the coupling graph verified connected complete bipartite on the banked incidence); (leg 2) I == -1 at all SEVEN full-tower primes, atom-rescaling gated; (leg 3,",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b908_pin.py"
+     ],
+     "primary_locks": [
+      "tests/test_b908_pin.py"
+     ]
+    },
+    {
+     "arc": "B917",
+     "dir": "frontier/B917_value_arc_verification",
+     "verdict": "PROVED",
+     "claim_one_line": "THE VALUE ARC (handoff 7) VERIFIED at the firm layer: their suite reproduces end-to-end on this bench (the tau-intertwiner exact-tier PASS; the six-fold democracy at 45 digits; CCC = 3!*lambda; the P8 equivariance machinery test with the predicted slot transposition; the K-biography split table incl",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b917_value_arc.py"
+     ],
+     "primary_locks": [
+      "tests/test_b917_value_arc.py"
+     ]
+    },
+    {
+     "arc": "B919",
+     "dir": "frontier/B919_weinberg_traces",
+     "verdict": "PROVED",
+     "claim_one_line": "THE A1 DEBT DISCHARGED AT ITS HONEST TIER (cc3 loss audit): sin^2(theta_W) = 3/8 at the object's normalization now has a standalone arc + lock -- with the object's own operators (T3 = the weak su(2)-ideal Cartan, intrinsically sl2-normalized; Y = the solved central-charge functional anchored electro",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1242_l199_two_earning_computations.py",
+      "tests/test_b758_chain.py",
+      "tests/test_b919_traces.py"
+     ],
+     "primary_locks": [
+      "tests/test_b919_traces.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "the second crossing: the object's centraliser ladder is not Pati-Salam and cannot pose the unification triangle; the third crossing: the register cascade is mixing-shaped, magnitudes off by 5-9x",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B925",
+     "dir": "frontier/B925_second_crossing",
+     "verdict": "NEGATIVE",
+     "claim_one_line": "THE SECOND CROSSING (R4b, sealed 5af3f099 pushed 66fd0ba4 BEFORE compute; owner-authorized): OUTCOME B VERBATIM, in a form STRONGER than the disclosed prior -- the object's D-chain refuses the RG-ladder identification BY ITS OWN ALGEBRA, before data votes: (FACT 1, theorem-grade) the banked D3/D4 ty",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b925_crossing2.py",
+      "tests/test_b926_anatomy.py",
+      "tests/test_end_to_end_chain.py"
+     ],
+     "primary_locks": [
+      "tests/test_b925_crossing2.py"
+     ]
+    },
+    {
+     "arc": "B929",
+     "dir": "frontier/B929_third_crossing",
+     "verdict": "PROVED",
+     "claim_one_line": "THE THIRD CROSSING (Twist stage 2; prereg 672b5afb pushed c8421f14 BEFORE data contact; owner word at the registered gate): SEALED VERDICT HIT-SHAPE -- TIER 1 PASS: the blind triple s = (0.8629, 0.8001, 0.6964) (the |m_S| branch values, ascending-rho, computed with zero flavor input) is a same-side ",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b929_crossing3.py",
+      "tests/test_end_to_end_chain.py"
+     ],
+     "primary_locks": [
+      "tests/test_b929_crossing3.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "the seam: exactly ten exceptional fillings; the fibre slope is the unique torus bundle with monodromy LR; of the grid's 78 closed hyperbolic fillings none keeps Q(sqrt-3) and none is arithmetic (54 in the first census, completed to 78/78)",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B286",
+     "dir": "frontier/B286_the_seam",
+     "verdict": "PROVED",
+     "claim_one_line": "The ingredients live at the seam: Dehn filling the open complement supplies a forced 10-element exceptional set, chirality, an oriented CS sign, a 2\u03c0/n scale, and a peripheral clock.",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b286_the_seam.py",
+      "tests/test_b287_distinguished_closing.py",
+      "tests/test_b290_core_scale_ladder.py",
+      "tests/test_b294_selection_verdict.py",
+      "tests/test_b295_ssb_gauge_status.py",
+      "tests/test_b297_consolidation_v4.py",
+      "tests/test_b309_kappa_unification.py"
+     ],
+     "primary_locks": [
+      "tests/test_b286_the_seam.py"
+     ]
+    },
+    {
+     "arc": "B287",
+     "dir": "frontier/B287_distinguished_closing",
+     "verdict": "PROVED",
+     "claim_one_line": "The fiber slope (0,1) is the unique torus-bundle closing among the ten exceptional fillings, and its monodromy is exactly A=LR, confirmed by Alexander polynomial, Twister and Regina.",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1410_point_ledger.py",
+      "tests/test_b287_distinguished_closing.py",
+      "tests/test_b291_scale_extremal.py",
+      "tests/test_b294_selection_verdict.py",
+      "tests/test_b296_seam_arc_verification.py"
+     ],
+     "primary_locks": [
+      "tests/test_b287_distinguished_closing.py"
+     ]
+    },
+    {
+     "arc": "B288",
+     "dir": "frontier/B288_arithmetic_filling_census",
+     "verdict": "NEGATIVE",
+     "claim_one_line": "No closed hyperbolic Dehn filling of the figure-eight re-sees \u211a(\u221a\u22123) or is arithmetic, so the E\u2086-selecting arithmetic is an open-object property destroyed by closing.",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b288_arithmetic_filling_census.py",
+      "tests/test_b291_scale_extremal.py",
+      "tests/test_b294_selection_verdict.py",
+      "tests/test_b296_seam_arc_verification.py",
+      "tests/test_b740_grid.py",
+      "tests/test_b747_b748_sweeps.py"
+     ],
+     "primary_locks": [
+      "tests/test_b288_arithmetic_filling_census.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "claim": "tau does double duty: the involution making the 27 complex is the only one that can reduce rank, one resource spent once (an analysis)",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B963",
+     "dir": "frontier/B963_tau_double_duty",
+     "verdict": "PROVED",
+     "claim_one_line": "TAU DOES DOUBLE DUTY -- the one cause behind four apparently independent failures -- PLUS a scope correction caught before banking, prompted by the owner's 'are we rushing?'. THE MECHANISM: computed here, E6's diagram has exactly ONE nontrivial automorphism tau = (5,1,4,3,2,0) of order 2 swapping no",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b963_tau.py"
+     ],
+     "primary_locks": [
+      "tests/test_b963_tau.py"
+     ]
+    }
+   ]
   }
  ],
  "totals": {
-  "claims": 30,
-  "records": 36,
+  "claims": 41,
+  "records": 57,
   "seals": 12,
-  "locks": 56,
-  "records_with_a_primary_lock": 34
+  "locks": 98,
+  "records_with_a_primary_lock": 56
  }
 }

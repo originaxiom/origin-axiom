@@ -1,0 +1,12 @@
+  order-3 H1 actions in B1302's census: [[[0, 1], [-1, -1]], [[-1, -1], [1, 0]]]
+  [PASS] (a) the order-3 action has characteristic polynomial t^2 + t + 1 and det(M - I) = 3
+  C3-fixed characters (as (theta_a, theta_b) in (Q/Z)^2): [(0, 0), (1/3, 2/3), (2/3, 1/3)]
+  [PASS] (a) exactly three C3-fixed characters: the trivial one and a conjugate pair of order 3
+  [PASS] (b) the relator abelianises to zero (H_1 = Z^2 with basis a, b)
+  Delta_m202 (up to units) = t1**2*t2 + t1**2 + t1*t2**2 + t1*t2 + t1 + t2**2 + t2
+  [PASS] (b) Delta has seven monomials with coefficients +-1 (B1302's Fox result by another presentation)
+  chi = (1/3, 2/3): Delta(chi) = -2  |Delta| = 2.000000;  Fox row = (2*sqrt(3)*I, -3 - sqrt(3)*I);  algebraic h^1(m202; chi) = 0
+  chi = (2/3, 1/3): Delta(chi) = -2  |Delta| = 2.000000;  Fox row = (-2*sqrt(3)*I, -3 + sqrt(3)*I);  algebraic h^1(m202; chi) = 0
+  [PASS] (c) Delta(chi) != 0 at both characters of the pair (they are OFF the Alexander zero locus)
+  [FAIL] (c') the algebraic twisted h^1 at the pair is 1 (the DESIGN's prediction)
+Q1: FAIL (1)

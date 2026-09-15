@@ -1,0 +1,26 @@
+[V1] the label module (K007/Bellissard, rider: cited not re-derived):
+     IDS gap values = { frac(n*phi^-1) : n in Z }  (Z + phi^-1 Z in [0,1])
+[V1] exact membership test: tone = n*phi^-1 mod 1  <=>  (n - c)*(phi-1) in Z shape
+     0         = 0:  n = 0, m = 0  -> in the label set: True
+     1/(2phi)  = -1/4 + sqrt(5)/4:  n = 1/2, m = 0  -> in the label set: False
+     1/2       = 1/2:  n = 0, m = 1/2  -> in the label set: False
+     phi/2     = 1/4 + sqrt(5)/4:  n = 1/2, m = 1/2  -> in the label set: False
+     1         = 1:  n = 0, m = 1  -> in the label set: True
+[V1] VERDICT: the TONES (|chi|/2, the banked normalization) are NOT gap labels
+     -- 1/(2phi), 1/2, phi/2 all demand HALF-INTEGER module coefficients, exactly.
+     The un-halved character values {0, phi^-1, 1, phi, 2} DO lie in Z[phi],
+     but membership in a DENSE module is contentless (the B757 fence) --
+     OUTPUTS-ONLY at best, and the seal's IV clause fails it. TYPED NEGATIVE,
+     mechanism named: the 1/2 of the |chi|/2 normalization vs the module's
+     integrality. The gap-label route to L164's externality DOES NOT go
+     through tone-label matching.
+
+[V3] enumerated observables (declared): (i) IDS gap labels -- covered by V1:
+     NOT the tones. (ii) band counts per approximant: FIBONACCI NUMBERS
+     {1,2,3,5,8,13,...} -- the multiset {90,72,120,72,6} (2I class sizes,
+     total 360) matches NO level: no F_k equals any of 90/72/120/6 in range,
+     and no partial sum matches 360's structure at any approximant level.
+     F_k window: [1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377];  multiset needed: [90,72,120,72,6] -> intersection: []
+[V3] VERDICT: NOT-FOUND in the enumerated observables (a FLOOR, not an absence
+     claim; the enumeration = IDS labels + band counts; further observables
+     may be enumerated by a future cell).

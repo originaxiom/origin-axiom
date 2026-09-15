@@ -1,0 +1,25 @@
+=== (a) convention control: LP eq. (41), pure left-handed coupling, against dm_K -> the bound of eq. (54) ===
+   y |B_12|^2 < 1.313e-08 (F_K = 155.7 MeV)   |   < 2.626e-08 (F_K = 110.1 MeV)   |   LP eq. (54): < 1e-8
+  [PASS] (a) eq. (54)'s 10^-8 reproduces from eq. (41) within a factor 3 in both decay-constant conventions
+   LR bracket if B_L = B_R: -8.40 (vs 1/3 pure-L): the K floor on M_Z' rises by sqrt(25.2) = 5.0
+=== (b) the record's charge table, normalised so that Tr Q'^2 over the three 27s = Tr Y_GUT^2 = 9 ===
+   Tr Q'^2 (integer table) = 6210;  Tr Y_GUT^2 = 9.000;  scale s = 0.03807 (DESIGN: sqrt(9/6210) = 0.03807)
+  [PASS] (b) Tr Q'^2 = 6210 and Tr Y_GUT^2 = 9 on the three 27s
+   charge differences heavy - VEV'd (integer units): {'Q': 15, 'u^c': 15, 'e^c': 15, 'd^c': 15, 'L': 15, 'nu^c': 15, 'N': 15, 'H_u': 15, 'D': 15, 'H_d': 15, 'Dbar': 15}
+  [PASS] (b) the difference is 15 units on Q, u^c, e^c, d^c, L (both quark chiralities and both lepton chiralities)
+   normalised difference De = 0.5710
+=== (c) Case I: the VEV'd generation is a light family (g = first, and g = second) ===
+   g = first family : |B_12| = 1.251e-01, |B_13| = 4.771e-03, |B_23| = 1.101e-03
+      floors on M_Z'/g_2 [TeV]: K_dmK 154, K_epsK_O1phase 1.72e+03, Bd 2.4, Bs 0.0959, D_if_CKM_is_up_sector 48.7
+   g = second family: |B_12| = 1.251e-01, |B_13| = 5.282e-03, |B_23| = 2.285e-02
+      floors on M_Z'/g_2 [TeV]: K_dmK 154, K_epsK_O1phase 1.72e+03, Bd 2.65, Bs 1.99, D_if_CKM_is_up_sector 48.7
+=== (d) Case II: the VEV'd generation is the third family ===
+   g = third family : |B_12| = 8.914e-05, |B_13| = 2.129e-03, |B_23| = 2.387e-02
+      floors on M_Z'/g_2 [TeV]: K_dmK 0.11, K_epsK_O1phase 1.23, Bd 1.07, Bs 2.08, D_if_CKM_is_up_sector 0.0347
+  [PASS] (c) Case I: every route (dm_K, eps_K with O(1) phase, and the up-sector escape via D mixing) gives M_Z'/g_2 >= 10 TeV
+  [PASS] (c) Case I: dm_K floor ~ 10^2 TeV and eps_K floor ~ 10^3 TeV (within a factor 3 of 150 and 1500 TeV)
+  [PASS] (d) Case II: the K floor is empty (< 1 TeV) and both B floors are below 10 TeV -- the fork between the cases is real
+=== (e)/(f) the scale link and the fine-tuning scaling (reported, not derived) ===
+   LHC universal-coupling benchmarks (ATLAS 2607.28334): Z'_SSM 5.5, Z'_chi 5.1, Z'_psi 4.8 TeV -- the Case II regime
+   if M_Z' ~ M_soft (radiative U(1)' breaking, LP intro / Cvetic-Langacker): Delta ~ (M_soft/m_Z)^2 = 5 TeV -> 3e+03, 100 TeV -> 1.2e+06, 1000 TeV -> 1.2e+08
+Q2: PASS

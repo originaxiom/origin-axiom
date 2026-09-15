@@ -14,8 +14,8 @@ THE RECURRENCE ATLAS -- context card
   corpus: 1236 frontier probes; status {'open': 70, 'banked': 809, 'dead': 333, 'dormant': 24}
   the ONE conserved first integral: kappa (recurs 280x, 22%) -- genuine unity, MUST recur
   top recurring motifs: eisenstein(696), golden(687), firewall(641), figure_eight(535), amphichiral_cp(467), metallic(459)
-  recurrence is: structural-invariant 4915 mentions | conserved-integral 280 | TOOL 449
-  the honest split: the trace-map TOOL is in 449 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral
+  recurrence is: structural-invariant 4915 mentions | conserved-integral 280 | TOOL 450
+  the honest split: the trace-map TOOL is in 450 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B497, B530, B156, B521, B309, B598
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
 ```
@@ -32,7 +32,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | figure_eight | 535 | 43% | object | no | topology | the simplest hyperbolic knot; the carrier object |
 | amphichiral_cp | 467 | 37% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
 | metallic | 459 | 37% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
-| trace_map | 449 | 36% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
+| trace_map | 450 | 36% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | coupling | 388 | 31% | question | no | physics | the observer/object interface: what the coupling supplies that neither side has alone (the listener map, the pair, the relational bit) |
 | closing | 385 | 31% | question | structural | topology | what closing the open object supplies and costs -- Dehn filling, the seam, the constitutive closure (B286/B287/B294) |
 | torsion | 376 | 30% | arithmetic | structural | arithmetic | the (Z/4)^2 congruence torsion / Alexander polynomial |
@@ -59,7 +59,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **280** probes (22%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
 - **Structural invariants** (the two ends, ω, the Dickson parity, …): **4915** mentions — invariants of the object's transforms.
-- **The hammer (selection effect):** the trace-map **tool** appears in **449** probes (36%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
+- **The hammer (selection effect):** the trace-map **tool** appears in **450** probes (36%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it
 

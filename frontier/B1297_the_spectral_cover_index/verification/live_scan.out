@@ -1,0 +1,13 @@
+m010     H1=[6, 0] sectors= 1 |Isom|= 4  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+m059     H1=[3, 0] sectors= 1 |Isom|= 4  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+m077     H1=[3, 0] sectors= 1 |Isom|= 4  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+m135     H1=[2, 4, 0] sectors= 1 |Isom|= 8  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+m149     H1=[6, 0] sectors= 1 |Isom|= 4  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+m186     H1=[3, 0] sectors= 1 |Isom|= 2  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+m207     H1=[3, 3, 0] sectors= 1 |Isom|=16  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+m234     H1=[10, 0] sectors= 2 |Isom|= 4  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+m235     H1=[6, 0] sectors= 2 |Isom|= 4  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+m249     H1=[3, 0] sectors= 1 |Isom|= 4  (I, t0, r1, r1*, ids) set = [(0, 1, 1, 1, True)]
+
+scanned 60 one-cusped census manifolds with torsion >= 3; 12 non-self-dual sectors; NONZERO INDICES: 0
+RC=0

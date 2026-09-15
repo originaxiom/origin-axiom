@@ -72,6 +72,6 @@ instrument.
 
 * **No physics reading is licensed.** This cell locates structure; it derives no value and touches no
   link past C4.
-* **The multi-cusped index result lives on a branch** (`claude/paper-verification-ufp0zn`, B1333) and
+* **The multi-cusped index result lives on a branch** (`<remote>/paper-verification-ufp0zn`, B1333) and
   is **cited as branch work, labelled as such, not re-run here.**
 * **Gate 5 untouched. Nothing promotes. No arc retracted.**

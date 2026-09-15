@@ -1,0 +1,7 @@
+c = 3.2  h = [np.float64(0.0), np.float64(0.266667), np.float64(0.666667), np.float64(0.266667), np.float64(0.6), np.float64(0.666667)]  T exponents over 15: [13, 2, 8, 2, 7, 8]  (B8081: [13, 2, 8, 2, 7, 8])
+(ST)^3 = S^2 : True  S^4 = 1: True  S^2 = C (a permutation): True
+order of <S, T>: 2880  (B8081: 2880)
+ord T: 15
+conjugacy classes: 63  (B8081: 63)
+C1: PASS
+rc=0

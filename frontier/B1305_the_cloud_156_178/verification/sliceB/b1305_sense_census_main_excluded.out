@@ -1,0 +1,10 @@
+tree origin-axiom: 2580 prose files, 17.8 MB (outside_bench excluded, meta-surfaces excluded)
+  logarithmic           11       3 ( 27.3%)  genuine   [neg]
+  non-semisimple        18       0 (  0.0%)  FALSE COMFORT   [neg]
+  character           3665      13 (  0.4%)  FALSE COMFORT
+  modular              928      57 (  6.1%)  thin
+  non-rational           7       0 (  0.0%)  FALSE COMFORT
+  resurgence            71      12 ( 16.9%)  genuine
+  Chern-Simons          87      41 ( 47.1%)  genuine   [pos]
+  CONTROL + (Chern-Simons genuine): PASS;  CONTROL - (logarithmic, non-semisimple false comfort): FAIL;  TWO-SIDED: FAILED
+  PLANTED CONTROLS: +1 technical with marker: 1; no marker: +0; marker outside window: +0  -> PASS

@@ -86,13 +86,13 @@ CONTROL C3 -- the fibre/meridian collision: WHICH kappa saturates
 ------------------------------------------------------------------------------
 CONTROL C4 -- the uniqueness theorem, CITED, with its hypothesis intact
 ------------------------------------------------------------------------------
-    B1345 present on origin/claude/paper-verification-ufp0zn: True
+    B1345 present on origin/<remote>/paper-verification-ufp0zn: True
 
-  [Callahan's corollary] origin/claude/paper-verification-ufp0zn B1345 -- FOUND
+  [Callahan's corollary] origin/<remote>/paper-verification-ufp0zn B1345 -- FOUND
       Callahan (2009) Cor. 2.4 — the only **orientable** hyperbolic
       3-manifold with `J = 1` is the figure-eight complement — is cited, not re-proved.
 
-  [the slack table] origin/claude/paper-verification-ufp0zn B1345 -- FOUND
+  [the slack table] origin/<remote>/paper-verification-ufp0zn B1345 -- FOUND
       Nine of eleven reproduce exactly: m000 **1**, m004 **1**, m009 **√2**
 
     LOAD-BEARING, and this certificate does not prove it: the hypothesis is

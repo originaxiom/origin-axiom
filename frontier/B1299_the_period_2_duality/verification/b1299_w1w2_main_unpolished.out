@@ -1,0 +1,30 @@
+W1 point  1: c = 1.000000000000+0.000000000000j (non-scalar 1.4e-10); |tr[A^T,B^T]-tr[B,A]| = 6.3e-16; relators 1.3e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point  2: c = 1.000000000000-0.000000000000j (non-scalar 5.4e-10); |tr[A^T,B^T]-tr[B,A]| = 2.2e-16; relators 3.0e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point  3: c = 1.000000000000+0.000000000000j (non-scalar 1.0e-09); |tr[A^T,B^T]-tr[B,A]| = 1.2e-15; relators 4.9e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point  4: c = 1.000000000000-0.000000000000j (non-scalar 7.2e-10); |tr[A^T,B^T]-tr[B,A]| = 3.0e-15; relators 2.2e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point  5: c = 1.000000000000+0.000000000000j (non-scalar 3.2e-09); |tr[A^T,B^T]-tr[B,A]| = 9.9e-16; relators 3.9e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point  6: c = 1.000000000000+0.000000000000j (non-scalar 8.5e-11); |tr[A^T,B^T]-tr[B,A]| = 4.4e-16; relators 3.8e-11; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point  7: c = 1.000000000000-0.000000000000j (non-scalar 1.9e-09); |tr[A^T,B^T]-tr[B,A]| = 1.4e-15; relators 1.2e-09; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point  8: c = 1.000000000000-0.000000000000j (non-scalar 2.8e-10); |tr[A^T,B^T]-tr[B,A]| = 1.5e-15; relators 5.1e-11; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point  9: c = 1.000000000000-0.000000000000j (non-scalar 3.2e-11); |tr[A^T,B^T]-tr[B,A]| = 3.2e-15; relators 6.7e-12; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point 10: c = 1.000000000000-0.000000000000j (non-scalar 3.0e-09); |tr[A^T,B^T]-tr[B,A]| = 4.4e-15; relators 2.9e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point 11: c = 1.000000000000+0.000000000000j (non-scalar 3.4e-09); |tr[A^T,B^T]-tr[B,A]| = 2.3e-15; relators 4.5e-09; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W1 point 12: c = 1.000000000000-0.000000000000j (non-scalar 2.1e-09); |tr[A^T,B^T]-tr[B,A]| = 9.9e-16; relators 1.0e-09; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point  1: c = 1.000000000000+0.000000000000j (non-scalar 7.9e-09); |tr[A^T,B^T]-tr[B,A]| = 4.6e-16; relators 1.1e-08; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point  2: c = 1.000000000000-0.000000000000j (non-scalar 3.4e-09); |tr[A^T,B^T]-tr[B,A]| = 1.4e-15; relators 9.1e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point  3: c = 1.000000000000-0.000000000000j (non-scalar 2.9e-09); |tr[A^T,B^T]-tr[B,A]| = 1.5e-15; relators 1.3e-09; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point  4: c = 1.000000000000+0.000000000000j (non-scalar 4.5e-10); |tr[A^T,B^T]-tr[B,A]| = 3.3e-16; relators 6.5e-11; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point  5: c = 1.000000000000+0.000000000000j (non-scalar 3.5e-09); |tr[A^T,B^T]-tr[B,A]| = 1.8e-15; relators 9.3e-11; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point  6: c = 1.000000000000-0.000000000000j (non-scalar 7.1e-09); |tr[A^T,B^T]-tr[B,A]| = 6.7e-16; relators 7.2e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point  7: c = 1.000000000000-0.000000000000j (non-scalar 4.2e-09); |tr[A^T,B^T]-tr[B,A]| = 4.2e-15; relators 4.5e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point  8: c = 1.000000000000-0.000000000000j (non-scalar 4.0e-09); |tr[A^T,B^T]-tr[B,A]| = 2.5e-15; relators 3.7e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point  9: c = 1.000000000000+0.000000000000j (non-scalar 1.1e-09); |tr[A^T,B^T]-tr[B,A]| = 2.2e-16; relators 3.6e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point 10: c = 1.000000000000+0.000000000000j (non-scalar 1.9e-08); |tr[A^T,B^T]-tr[B,A]| = 2.7e-15; relators 2.2e-09; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point 11: c = 1.000000000000+0.000000000000j (non-scalar 7.8e-09); |tr[A^T,B^T]-tr[B,A]| = 8.9e-16; relators 4.5e-10; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+W2 point 12: c = 1.000000000000-0.000000000000j (non-scalar 4.6e-12); |tr[A^T,B^T]-tr[B,A]| = 4.2e-15; relators 2.5e-13; a=(0,0,0) t=(0,0) r1=0 r1*=0 I=0
+
+Q1: worst |c-1| / non-scalar part 1.87e-08; worst ninth-trace identity 4.37e-15; worst relator 1.13e-08
+    a1 = 0 (rigid) at every generic point: True  t0 = 0 and I = 0 everywhere: True
+points tested: 24 {'W2', 'W1'} conventions: {'aab'}
+Q1: FAIL
+RC=0

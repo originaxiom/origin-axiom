@@ -1,0 +1,28 @@
+[m5F] words: |phi2(a)|=31 |phi2(b)|=6
+Traceback (most recent call last):
+  File "<home>/origin-axiom/frontier/B1062_bridge_cell/b1062_a2_m5_fricke.py", line 63, in <module>
+    Ta = tr(w2a); print(f"[m5F] tr(phi2 a) built ({time.time()-t0:.0f}s, memo {len(MEMO)})", flush=True)
+         ^^^^^^^
+  File "<home>/origin-axiom/frontier/B1062_bridge_cell/b1062_a2_m5_fricke.py", line 51, in tr
+    val = sp.expand(tr(U) * tr(V) - tr(winv(U) + V))
+                            ^^^^^
+  File "<home>/origin-axiom/frontier/B1062_bridge_cell/b1062_a2_m5_fricke.py", line 51, in tr
+    val = sp.expand(tr(U) * tr(V) - tr(winv(U) + V))
+                            ^^^^^
+  File "<home>/origin-axiom/frontier/B1062_bridge_cell/b1062_a2_m5_fricke.py", line 51, in tr
+    val = sp.expand(tr(U) * tr(V) - tr(winv(U) + V))
+                            ^^^^^
+  [Previous line repeated 992 more times]
+  File "<home>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/decorators.py", line 248, in _func
+    return func(self, other)
+           ^^^^^^^^^^^^^^^^^
+  File "<home>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/decorators.py", line 118, in binary_op_wrapper
+    return func(self, other)
+           ^^^^^^^^^^^^^^^^^
+  File "<home>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/expr.py", line 254, in __mul__
+    return Mul(self, other)
+           ^^^^^^^^^^^^^^^^
+  File "<home>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+RecursionError: maximum recursion depth exceeded

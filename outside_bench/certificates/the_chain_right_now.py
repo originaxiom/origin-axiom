@@ -81,7 +81,7 @@ def main() -> int:
 
     # ------------------------------------------------------------ CELL 2
     rule("CELL 2 -- the 15-row status table, and WHERE IT LIVES")
-    BR = "origin/claude/paper-verification-ufp0zn"
+    BR = "origin/<remote>/paper-verification-ufp0zn"
     P = "docs/THE_CHAIN_STATUS.md"
     on_main, on_branch = on_ref("origin/main", P), on_ref(BR, P)
     print(f"    {P}")

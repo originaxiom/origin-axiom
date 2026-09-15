@@ -1,0 +1,27 @@
+FACT 1: four A2 slots re-anchored (72-root e6 complement, 162 crossing,
+        6 classes x 27); family block = 81 roots over triplet weights [(-1, 1), (0, -1), (1, 0)]
+        internal labels: 27 distinct e6-weights per family block
+FACT 2: zero-sum triples in the family block: 270 = 45 internal
+        weight-zero triples x 6 family assignments; EVERY triple has three
+        DISTINCT families — no same-family triple exists at all
+FACT 3: kappa(r) = tr(ad e_r ad e_-r) = -60 for ALL 81 family roots (exact)
+FACT 4: derivation identity = 0 for all 78 generators (72 e6 + 6 family A2): True
+FACT 5: T totally ANTISYMMETRIC on all 270 x 6 entries: True
+FACT 6: values one constant x +-1: True; RAW C' symmetric: False
+        (raw asymmetry = the per-root Chevalley sign gauge; error filed)
+        GF(2) gauge system: 270 equations, 126 unknowns, rank 97, consistent: True
+        forward check T = kappa * sgn(fam) * sigma sigma sigma * S on all 1620 entries: True
+        => in the sigma-rescaled basis, T = eps_family (x) C_sym EXACTLY;
+        C_sym is e6-invariant (FACT 4) + symmetric + support 45 => by the
+        banked dim-1 count (memo 48 rung 3) it IS the Jordan cubic up to scale
+FACT 7: sl3-invariant trilinears on 3x3x3: dim = 1, survivor totally antisymmetric: True (= eps)
+
+THE THREE-FAMILY YUKAWA IS INTER-FAMILY (E8 channel, possibility space):
+the bracket-induced coupling on the G-3 family triplet of 27's is EXACTLY
+eps_family (x) C_Jordan — verified entry by entry, invariance and
+factorization computed, both factors unique.  Its support has one leg from
+each family always: same-family (diagonal) Yukawa couplings are IDENTICALLY
+ZERO in this channel — not suppressed, absent.  E8 is not object-paid (G-3
+fence stands); what is object-paid is the internal factor, which is forced
+to be the object's own unique coupling (memos 32/47/48).  Structure only;
+Gate 5 untouched.

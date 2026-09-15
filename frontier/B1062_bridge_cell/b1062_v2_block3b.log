@@ -1,0 +1,20 @@
+[B3b] the octic: z**8 - z**7 + 6*z**6 - 5*z**5 + 21*z**4 + 15*z**3 + 7*z**2 - 3*z + 3
+[B3b] non-univariate basis elements: 2 (lex-triangular: expect x- and y- solvers)
+[B3b] root 0: z≈-0.592030-0.507802j types ('loxodromic', 'loxodromic', 'loxodromic') -> GEOM-CANDIDATE
+[B3b] root 1: z≈-0.592030+0.507802j types ('loxodromic', 'loxodromic', 'loxodromic') -> GEOM-CANDIDATE
+[B3b] root 2: z≈-0.566869-2.225067j types ('loxodromic', 'loxodromic', 'loxodromic') -> GEOM-CANDIDATE
+[B3b] root 3: z≈-0.566869+2.225067j types ('loxodromic', 'loxodromic', 'loxodromic') -> GEOM-CANDIDATE
+[B3b] root 4: z≈0.247640-0.361176j types ('loxodromic', 'loxodromic', 'loxodromic') -> GEOM-CANDIDATE
+[B3b] root 5: z≈0.247640+0.361176j types ('loxodromic', 'loxodromic', 'loxodromic') -> GEOM-CANDIDATE
+[B3b] root 6: z≈1.411259-1.698700j types ('loxodromic', 'loxodromic', 'loxodromic') -> GEOM-CANDIDATE
+[B3b] root 7: z≈1.411259+1.698700j types ('loxodromic', 'loxodromic', 'loxodromic') -> GEOM-CANDIDATE
+
+[B3b] GEOM-CANDIDATES in the octic: 8
+[B3b] VERDICT INPUT: the geometric m=3 orbit has z of DEGREE 8 over Q ->
+      the Kleinian trace field has degree >= 8 > 2 -> NOT imaginary
+      quadratic -> NON-ARITHMETIC (a cusped arithmetic Kleinian group's
+      trace field is imaginary quadratic). THE INVERSION DIES; the
+      elliptic sqrt(-7) pair was spurious (the adversary's kill stands);
+      the arithmeticity control is RESTORED: golden ARITH-SIDE vs BOTH
+      siblings NON-ARITH (silver deg 8, bronze deg 8).
+==== B3b done ====

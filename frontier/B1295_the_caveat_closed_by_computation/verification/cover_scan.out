@@ -1,0 +1,13 @@
+degree 2: 1 covers done, values so far {0: 12, 4: 4}, 0s
+degree 3: 1 covers done, values so far {0: 30, 4: 10}, 0s
+degree 4: 2 covers done, values so far {0: 66, 4: 22}, 0s
+degree 5: 4 covers done, values so far {0: 114, 4: 46}, 0s
+degree 6: 11 covers done, values so far {0: 194, 4: 86}, 0s
+degree 7: 9 covers done, values so far {0: 256, 4: 112}, 0s
+degree 8: 10 covers done, values so far {0: 392, 4: 168}, 0s
+degree 9: 11 covers done, values so far {0: 490, 4: 222}, 0s
+degree 10: 38 covers done, values so far {0: 882, 4: 494}, 0s
+covers 87 (64 multi-cusped), isometries 968, cusp-fixing pairs 1376, |det(A-I)| values {0: 882, 4: 494}, failures 0
+cusp shapes over all 201 cusps (SL2Z-reduced): {'rectangular/rhombic': 122, 'generic': 63, 'hexagonal': 16}  -- order 3/6 needs hexagonal, order 4 needs square
+VERDICT: NEGATIVE -- no order-3/4/6 cusp rotation in the tower through degree 10
+RC=0

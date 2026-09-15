@@ -6,12 +6,12 @@ No seal: this cell ASSERTS NOTHING NEW.  It is the anti-rediscovery instrument,
 rebuilt after it failed a third time.
 
 WHY IT EXISTS.  `the_branch_gap.py` diffs this branch against ONE sibling
-(`origin/claude/paper-verification-ufp0zn`).  #34 was minted as
+(`origin/<remote>/paper-verification-ufp0zn`).  #34 was minted as
 
     "Diff the frontier against EVERY head before calling anything unrun."
 
 and then NOT BUILT INTO THE TOOL.  On 2026-09-14 the reopened-G2-hatch cell was
-sealed and run against a question that `origin/claude/standard-model-derivation-0qt6ao`
+sealed and run against a question that `origin/<remote>/standard-model-derivation-0qt6ao`
 had already answered in B1353 -- a head this bench had never diffed, carrying 18
 arcs absent here.  A rule that lives in a memo and not in an instrument is not a
 rule.  This is that rule, in an instrument.

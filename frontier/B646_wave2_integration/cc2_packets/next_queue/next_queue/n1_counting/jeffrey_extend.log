@@ -1,0 +1,34 @@
+bucket 1/25 done
+bucket 2/25 done
+bucket 3/25 done
+bucket 4/25 done
+bucket 5/25 done
+bucket 6/25 done
+bucket 7/25 done
+bucket 8/25 done
+bucket 9/25 done
+bucket 10/25 done
+bucket 11/25 done
+bucket 12/25 done
+bucket 13/25 done
+bucket 14/25 done
+bucket 15/25 done
+bucket 16/25 done
+bucket 17/25 done
+bucket 18/25 done
+bucket 19/25 done
+bucket 20/25 done
+bucket 21/25 done
+bucket 22/25 done
+bucket 23/25 done
+bucket 24/25 done
+bucket 25/25 done
+
+==== PREDICTED ladder continuation (Z_J = Z under the verified identity) ====
+  kappa = 20 (E6 k = 8): Z_J = +1.0000000000 +0.0000000000i
+  kappa = 21 (E6 k = 9): Z_J = +1.0000000000 +0.0000000000i
+  kappa = 22 (E6 k = 10): Z_J = +2.0000000000 +0.0000000000i
+  kappa = 23 (E6 k = 11): Z_J = +1.0000000000 +0.0000000000i
+  kappa = 24 (E6 k = 12): Z_J = +2.0000000000 -0.0000000000i
+  kappa = 25 (E6 k = 13): Z_J = -0.0000000000 -0.0000000000i
+DONE — jeffrey_extension.json written

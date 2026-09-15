@@ -1,0 +1,18 @@
+=== route 2 convention, fixed on n = 2 only (the Jones polynomial) ===
+  Habiro J_2(3_1) = {-4: -1, -3: 1, -1: 1}
+  convention found: (1, -1)
+  [PASS] (a) an R-matrix convention reproduces J_2 exactly
+  n = 3: True  n = 4: True
+  [PASS] (a) the R-matrix route and the Habiro route agree exactly at n = 3 and n = 4 (independent formulas)
+=== the ends at matched parity ===
+  3_1 (Habiro's expansion)   bottom window 13  [1, -1, -1, 0, 0, 1, 0, 1, 0, 0]  -> +(q;q)_inf
+  3_1 (Habiro's expansion)   top    window 13  [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]  -> +1
+  3_1 mirror (q -> 1/q)      bottom window 13  [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]  -> +1
+  3_1 mirror (q -> 1/q)      top    window 13  [1, -1, -1, 0, 0, 1, 0, 1, 0, 0]  -> +(q;q)_inf
+  4_1                        bottom window 15  [1, -1, -1, 0, 0, 1, 0, 1, 0, 0]  -> +(q;q)_inf
+  4_1                        top    window 15  [1, -1, -1, 0, 0, 1, 0, 1, 0, 0]  -> +(q;q)_inf
+  [PASS] (b) 3_1: bottom end +-(q;q)_inf, top end trivial (windows >= 12); 4_1: (q;q)_inf at both ends (window >= 14)
+  [PASS] (c) the mirror trefoil has the ends swapped
+  R(4_1) = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]   R(3_1) = [1, 1, 2, 3, 5, 7, 11, 15, 22, 30, 42, 56]   R(3_1*) = [1, -1, -1, 0, 0, 1, 0, 1, 0, 0, 0, 0]   partitions = [1, 1, 2, 3, 5, 7, 11, 15, 22, 30, 42, 56]
+  [PASS] (d) R(4_1) = 1 exactly (2-torsion of a mirror-odd invariant on an amphichiral knot); R(3_1) = 1/(q;q)_inf and R(3_1*) = (q;q)_inf = 1/R(3_1)
+Q1: PASS

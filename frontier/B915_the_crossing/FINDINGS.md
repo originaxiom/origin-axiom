@@ -68,3 +68,7 @@ coordinates (about one σ of sin²θ_W); the simultaneous solve at the archived 
 minimal distance from 15.97 to 16.116 σ, still a MISS by the sealed d ≤ 3 criterion — retract-keeping-the-computation on the instrument
 only (E52 instance). The seat's further scope notes (only 15 of 61 points inside the root boxes; gauge-only two-loop truncation; the σ_th
 diagnostic is not a calibrated error) are recorded in HARVEST_LEDGER. `verification/` of B1304: `b1304_b915_residual.py`.*
+
+## Addendum 2026-09-09 (S9, the paper's second hostile read) — the truncation band in the prose above does not match `results.json`
+
+The prose line "Truncation band at nearest approach (1↔2-loop): σ_th = (0.0018, 0.0028)" is contradicted by the sealed computation's own `results.json`, where the truncation σ for sin²θ_W is 3.04×10⁻⁴ and the experimental σ is 4×10⁻⁵: on those numbers the sin²θ_W gap +0.00197 contributes **6.4** of the quoted 15.97 σ (α_s contributes 14.6; √(6.4² + 14.6²) = 15.97 reproduces `d_min_euclidean_sigma`), and against the experimental error alone it is **49 σ**. The paper had said "within about 1σ" on the strength of the prose line; that sentence is withdrawn from the paper, which now reports the discrepancies themselves (α_s 0.077 vs 0.118; sin²θ_W 0.2293 vs 0.2312). The verdict MISS is unchanged. Found by a fresh-seat rigor read of the paper (2026-09-09); the `results.json` numbers are the record.

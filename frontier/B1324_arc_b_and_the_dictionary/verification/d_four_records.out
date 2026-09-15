@@ -1,0 +1,15 @@
+  records: 4
+  distinct_products: 7550
+  mixed_hyperbolic: 60
+  min_trace: 4
+  n_minimal: 24
+  charpolys_of_minimal: ['t**4 - 4*t**3 + 6*t**2 - 5*t + 1']
+  dilatation: 2.220744
+  theta4: 1.3802775690976126
+  theta4_pow4: 3.629658126754518
+  minpoly_theta4_pow4: t**4 - 5*t**3 + 6*t**2 - 4*t + 1
+  smallest_quartic_pisot_small_coeffs: (1.3802775690976126, (-1, 0, 0, -1))
+  PASS: False
+  minimal examples: [(('E12', 'E31', 'E43', 'E24'), [np.float64(0.275508), np.float64(1.27845), np.float64(1.27845), np.float64(2.220744)], -1), (('E12', 'E41', 'E34', 'E23'), [np.float64(0.275508), np.float64(1.27845), np.float64(1.27845), np.float64(2.220744)], -1), (('E13', 'E21', 'E42', 'E34'), [np.float64(0.275508), np.float64(1.27845), np.float64(1.27845), np.float64(2.220744)], -1)]
+D FOUR RECORDS: FAIL (the pattern was two instances)
+RC=0

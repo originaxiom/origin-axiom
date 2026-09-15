@@ -1,0 +1,7 @@
+m004: {'name': 'm004', 'H1': 'Z', 'n_isometries': 8, 'summary': {'0|det-1': 4, '4|det+1': 2, '0|det+1': 2}}
+degree 3 cover 0: type cyclic, H1 Z/4 + Z/4 + Z, cusps 1, isometries 24, |det(A-I)| by orientation {'0|det-1': 12, '4|det+1': 6, '0|det+1': 6}, orientation-preserving values [0, 4]
+degree 4 cover 0: type cyclic, H1 Z/3 + Z/15 + Z, cusps 1, isometries 32, |det(A-I)| by orientation {'0|det-1': 16, '4|det+1': 8, '0|det+1': 8}, orientation-preserving values [0, 4]
+degree 4 cover 1: type irregular, H1 Z + Z, cusps 2, isometries 8, |det(A-I)| by orientation {'4|det+1': 4, '0|det-1': 8, '0|det+1': 4}, orientation-preserving values [0, 4]
+positive control (first census manifold with |det(A-I)| = 3 on a fixed cusp): {'name': 'm202', 'H1': 'Z + Z', 'cusps': 2, 'example': {'cusp': 0, 'det': 1, 'det_AmI': 3, 'order': 3, 'A': [[-1, -1], [1, 0]]}, 'summary': {'1|det+1': 4, '4|det+1': 2, '3|det+1': 4, '0|det+1': 2}}
+cyclic covers: {'deg3_0': ('Z/4 + Z/4 + Z', [0, 4]), 'deg4_0': ('Z/3 + Z/15 + Z', [0, 4])}
+PW localized count on the cyclic descent takes the values [0, 4] -> PASS (subset of {0,2,4}; the control sees a 3)

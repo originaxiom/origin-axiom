@@ -1,0 +1,12 @@
+=== H-Q2' — SU(3)_2 odd block vs Fibonacci ===
+  Fib(c=14/5,h=2/5): S-ratio scalar True, T-ratio scalar True
+    chi(S) ord 4, chi(T) ord 4, chi(A1-word) ord 1 (BLIND iff 1); ord(rho_Fib(A1-word)) = 10 (banked clock 10)
+  YL-conj(c=-22/5,h=-1/5): S-ratio scalar True, T-ratio scalar False
+
+=== H-Q2'' — E6 k=2 odd block decomposition (post-hoc label) ===
+  pair T-eigenvalue orders: [84, 84, 84] (lcm = c_odd = 84 confirmed by q2 table)
+  S_odd matrix (moduli, quantized):
+    ['0.59100905', '0.73697623', '0.32798528']
+    ['0.73697623', '0.32798528', '0.59100905']
+    ['0.32798528', '0.59100905', '0.73697623']
+  NO coordinate 1-dim subrep — H-Q2'' fails in the diagonal-T basis (any 1-dim subrep must be coordinate-aligned unless T-degenerate; T-degeneracy: False )

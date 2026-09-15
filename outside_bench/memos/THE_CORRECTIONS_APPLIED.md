@@ -2,7 +2,7 @@
 
 **Authorization:** the owner, this session — *"do as u recomend"*, against memo 215's
 recommendation and the standing ones in memos 208 and 212.
-**Where:** branch `claude/outside-bench`, as a **proposal**. **Main is not touched by this
+**Where:** branch `<remote>/outside-bench`, as a **proposal**. **Main is not touched by this
 bench.**
 **Certificates re-run green after the edits:** `the_seal_already_happened.py`,
 `the_triage_was_already_done.py`, `the_artifact_pair_sweep.py`.
@@ -76,7 +76,7 @@ form: the pre-fix values are printed as quoted history, the post-fix values are 
 
 ## 5. What was NOT done, and why
 
-- **Main is untouched.** All of this is on `claude/outside-bench` for main's seat to take
+- **Main is untouched.** All of this is on `<remote>/outside-bench` for main's seat to take
   or refuse.
 - **No lead was closed.** Every annotation supersedes a **status**, never a verdict. L26 is
   written as *partly* stale because that is what its decider supports.

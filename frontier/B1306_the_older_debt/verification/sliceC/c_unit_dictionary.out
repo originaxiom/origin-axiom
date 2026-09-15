@@ -1,0 +1,20 @@
+<site-packages>/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+  a            l=1.087070 t=(1,-1)  quartic [1, -3, 5, -3, 1]  palindromic True unit True |f(lam)|=2.5e-15  logM=1.087070 == l: True
+  bC           l=1.087070 t=(2,1)  quartic [1, -3, 5, -3, 1]  palindromic True unit True |f(lam)|=2.2e-15  logM=1.087070 == l: True
+  AB           l=1.662886 t=(0,-2)  quartic [1, -2, 6, -2, 1]  palindromic True unit True |f(lam)|=2.3e-14  logM=1.662886 == l: True
+  CbC          l=1.662886 t=(2,2)  quartic [1, -2, 6, -2, 1]  palindromic True unit True |f(lam)|=3.4e-14  logM=1.662886 == l: True
+  cb           l=1.725109 t=(2,-1)  quartic [1, -5, 9, -5, 1]  palindromic True unit True |f(lam)|=8.9e-16  logM=1.725109 == l: True
+  BaB          l=1.725109 t=(3,1)  quartic [1, -5, 9, -5, 1]  palindromic True unit True |f(lam)|=9.6e-15  logM=1.725109 == l: True
+  bba          l=2.174140 t=(-1,-3)  quartic [1, -1, 9, -1, 1]  palindromic True unit True |f(lam)|=5.1e-13  logM=2.174140 == l: True
+  BcBB         l=2.174140 t=(2,3)  quartic [1, -1, 9, -1, 1]  palindromic True unit True |f(lam)|=2.2e-13  logM=2.174140 == l: True
+  aBCC         l=2.416113 t=(2,-2)  quartic [1, -6, 14, -6, 1]  palindromic True unit True |f(lam)|=9.1e-14  logM=2.416113 == l: True
+  BaBBa        l=2.416113 t=(4,2)  quartic [1, -6, 14, -6, 1]  palindromic True unit True |f(lam)|=8.6e-14  logM=2.416113 == l: True
+  Abcb         l=2.633916 t=(4,0)  quartic [1, -8, 18, -8, 1]  palindromic True unit True |f(lam)|=2.8e-14  logM=2.633916 == l: True
+  BcBBB        l=2.633916 t=(2,4)  quartic [1, 0, 14, 0, 1]  palindromic True unit True |f(lam)|=1.2e-12  logM=2.633916 == l: True
+  cBcBB        l=2.839470 t=(0,-4)  quartic [1, -4, 18, -4, 1]  palindromic True unit True |f(lam)|=7.8e-12  logM=2.839470 == l: True
+  caBB         l=2.839470 t=(4,4)  quartic [1, -4, 18, -4, 1]  palindromic True unit True |f(lam)|=9.6e-12  logM=2.839470 == l: True
+  cccbA        l=2.921563 t=(2,-3)  quartic [1, -7, 21, -7, 1]  palindromic True unit True |f(lam)|=3.4e-13  logM=2.921563 == l: True
+  BaBaBaB      l=2.921563 t=(5,3)  quartic [1, -7, 21, -7, 1]  palindromic True unit True |f(lam)|=4.4e-13  logM=2.921563 == l: True
+geodesics to length 3.0: 16; all obey the dictionary: True
+C14: PASS

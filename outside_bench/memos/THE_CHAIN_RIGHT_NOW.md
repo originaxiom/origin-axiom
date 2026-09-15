@@ -79,7 +79,7 @@ C47–C54  THE CHIRALITY CAMPAIGN  parity of the cusp · "two or nothing" · the
 ## 4. A currency finding, reported as an observation
 
 `docs/THE_CHAIN_STATUS.md` — the 15-row table above, the **status of record**, adopted 2026-09-12 —
-**is NOT on `origin/main`.** It exists only on `claude/paper-verification-ufp0zn`.
+**is NOT on `origin/main`.** It exists only on `<remote>/paper-verification-ufp0zn`.
 
 Its own header reads: *"The failure was never the analysis — it was that each consolidation was
 **added, never adopted**. **This one is adopted: it lives on main**."*

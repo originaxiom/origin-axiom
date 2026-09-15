@@ -30,7 +30,8 @@ import unicodedata
 
 # ----------------------------------------------------------------------------- infra
 
-UPLOADS = "/root/.claude/uploads/7aec077f-59a6-5129-b1a7-361cc5dcb800"
+import os as _os_u
+UPLOADS = _os_u.environ.get("OA_UPLOADS", "<uploads dir: set OA_UPLOADS>")   # the bench's upload directory, never a machine path (merge hygiene 2026-09-15)
 DEFAULT_PDF = os.path.join(
     UPLOADS,
     "c7603f02-Knus_M.-A._Merkurjev_A._Rost_M._Tignol_J.-P._"

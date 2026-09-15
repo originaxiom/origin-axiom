@@ -95,3 +95,7 @@ That is the sharpest cheap test available before any Tier-2 campaign, and it bel
 **Verdict: cc3's cornerstone finding CONFIRMED.** The programme's atom is generic; its unique
 property is unconsumed; its derivation is class-scope. **What remains genuinely object-scope is the
 group level, and that is now the only place a Tier-2 result could live.**
+
+## Addendum 2026-09-09 — the base rate settled exactly (the paper's S9 premise audit)
+
+The two implementations disagreed (37.2 % / 32.8 % against 36.2 % / 31.0 %) and the paper carried both with "we do not yet know which is right". Computed here by brute force with no presentation assumption — every homomorphism π₁ → SL(2,3) over generator images, relators checked in the group's multiplication table, surjections counted up to Aut(SL(2,3)) ≅ S₄ (24 automorphisms, computed) — over the first 400 one-cusped orientable census manifolds in census order: **145/400 = 36.25 % admit a surjection; 124/400 = 31.0 % have exactly m004's count of two classes**; distribution of class counts {'2': 124, '0': 255, '4': 14, '6': 4, '10': 2, '12': 1}; denominator by generator count {'2': 372, '3': 28} (the count needs no two-generator assumption); the tie list's first twelve ['m003', 'm004', 'm007', 'm022', 'm026', 'm027', 'm029', 'm030', 'm033', 'm034', 'm036', 'm047']. The second implementation was right to the digit; the first's defect was its two-generator restriction. `verification/sl23_baserate.py` (+ `.json`, 4 s); lock `tests/test_b993_baserate_exact.py`.

@@ -1,0 +1,2837 @@
+{
+ "N": 400,
+ "denominator_by_generator_count": {
+  "2": 372,
+  "3": 28
+ },
+ "m004_classes": 2,
+ "with_at_least_one": 145,
+ "frac_any": 0.3625,
+ "exactly_m004_count": 124,
+ "frac_same": 0.31,
+ "distribution_of_classes": {
+  "2": 124,
+  "0": 255,
+  "4": 14,
+  "6": 4,
+  "10": 2,
+  "12": 1
+ },
+ "tie_list_first_12": [
+  "m003",
+  "m004",
+  "m007",
+  "m022",
+  "m026",
+  "m027",
+  "m029",
+  "m030",
+  "m033",
+  "m034",
+  "m036",
+  "m047"
+ ],
+ "seconds": 4,
+ "rows": [
+  {
+   "name": "m003",
+   "volume": 2.029883212819307,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m004",
+   "volume": 2.029883212819307,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m006",
+   "volume": 2.568970600936709,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m007",
+   "volume": 2.568970600936709,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m009",
+   "volume": 2.6667447834490603,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m010",
+   "volume": 2.6667447834490594,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m011",
+   "volume": 2.78183391239608,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m015",
+   "volume": 2.828122088330783,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m016",
+   "volume": 2.8281220883307827,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m017",
+   "volume": 2.828122088330783,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m019",
+   "volume": 2.9441064866766964,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m022",
+   "volume": 2.989120282929485,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m023",
+   "volume": 2.989120282929485,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "m026",
+   "volume": 3.059338057778956,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m027",
+   "volume": 3.121334773012293,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m029",
+   "volume": 3.148509826440727,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m030",
+   "volume": 3.1485098264407267,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m032",
+   "volume": 3.1639632288831443,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m033",
+   "volume": 3.1639632288831425,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m034",
+   "volume": 3.166333321249626,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m035",
+   "volume": 3.177293278600325,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m036",
+   "volume": 3.177293278600325,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m037",
+   "volume": 3.1772932786003265,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m038",
+   "volume": 3.1772932786003256,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m039",
+   "volume": 3.1772932786003265,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m040",
+   "volume": 3.1772932786003234,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m043",
+   "volume": 3.252908048471646,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m044",
+   "volume": 3.275676560024376,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m045",
+   "volume": 3.2758716439439333,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m046",
+   "volume": 3.275871643943934,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m047",
+   "volume": 3.277062185133985,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m049",
+   "volume": 3.3002176285353912,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m052",
+   "volume": 3.3082415547304196,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m053",
+   "volume": 3.3317442316411148,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m054",
+   "volume": 3.331744231641115,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m055",
+   "volume": 3.337191720007033,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m058",
+   "volume": 3.356692845141417,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m059",
+   "volume": 3.356692845141417,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m060",
+   "volume": 3.362093204427048,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m061",
+   "volume": 3.3667294204703566,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m062",
+   "volume": 3.3667294204703575,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m064",
+   "volume": 3.3805053992016116,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m066",
+   "volume": 3.3945405170616616,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m067",
+   "volume": 3.3945405170616643,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m069",
+   "volume": 3.4029912511664557,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m070",
+   "volume": 3.4029912511664557,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m071",
+   "volume": 3.417914837237523,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m072",
+   "volume": 3.4245035087709694,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m073",
+   "volume": 3.4272052462740152,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m074",
+   "volume": 3.427205246274017,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m076",
+   "volume": 3.4395928893487766,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m077",
+   "volume": 3.439592889348776,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m078",
+   "volume": 3.460675847481775,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m079",
+   "volume": 3.4636885561527677,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m080",
+   "volume": 3.4636885561527673,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m081",
+   "volume": 3.4644088172895797,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m082",
+   "volume": 3.474247761312742,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m083",
+   "volume": 3.474402775553106,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m084",
+   "volume": 3.4761739892389856,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m085",
+   "volume": 3.476173989238984,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m087",
+   "volume": 3.481970896072991,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m089",
+   "volume": 3.4838985783324476,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m090",
+   "volume": 3.4838985783324485,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m093",
+   "volume": 3.486660146295045,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m094",
+   "volume": 3.4866601462950437,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m095",
+   "volume": 3.489870168027842,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m096",
+   "volume": 3.497133287781815,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m098",
+   "volume": 3.508917187076647,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m099",
+   "volume": 3.514082912503539,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m100",
+   "volume": 3.5142520583769032,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m102",
+   "volume": 3.5264488314556504,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m103",
+   "volume": 3.528509496737518,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m104",
+   "volume": 3.5302596474914156,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m105",
+   "volume": 3.5302596474914156,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "m106",
+   "volume": 3.530953642500321,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m108",
+   "volume": 3.5313283298715663,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m110",
+   "volume": 3.5423950183789183,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m111",
+   "volume": 3.542395018378918,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m112",
+   "volume": 3.5514038739869886,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m113",
+   "volume": 3.5538796551003373,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m115",
+   "volume": 3.5817073255683654,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m116",
+   "volume": 3.589901460753739,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m117",
+   "volume": 3.60388504339003,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m118",
+   "volume": 3.608689061770784,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m119",
+   "volume": 3.6086890617707845,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m120",
+   "volume": 3.645578296159625,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m121",
+   "volume": 3.6486886444058246,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m122",
+   "volume": 3.6532457405645524,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m123",
+   "volume": 3.6532457405645524,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m130",
+   "volume": 3.663862376708875,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m135",
+   "volume": 3.663862376708876,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m136",
+   "volume": 3.663862376708876,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m137",
+   "volume": 3.663862376708876,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m139",
+   "volume": 3.663862376708878,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m140",
+   "volume": 3.6638623767088756,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m141",
+   "volume": 3.6756456059498706,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m142",
+   "volume": 3.7146852119680145,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m143",
+   "volume": 3.719977654342578,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m144",
+   "volume": 3.7202985563392508,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m145",
+   "volume": 3.7506106743987537,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m146",
+   "volume": 3.758844948237284,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m147",
+   "volume": 3.7588449482372845,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m148",
+   "volume": 3.758844948237284,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m149",
+   "volume": 3.7588449482372845,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m150",
+   "volume": 3.759875075302389,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m151",
+   "volume": 3.774824870829003,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m154",
+   "volume": 3.7848914165520617,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m155",
+   "volume": 3.791127715974131,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m157",
+   "volume": 3.8019087641793705,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m159",
+   "volume": 3.821687586179978,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m160",
+   "volume": 3.8216875861799777,
+   "gens": 2,
+   "surjections": 144,
+   "classes": 6
+  },
+  {
+   "name": "m161",
+   "volume": 3.821687586179976,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m162",
+   "volume": 3.8240462358449347,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m163",
+   "volume": 3.8285694583539405,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m164",
+   "volume": 3.828569458353939,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m165",
+   "volume": 3.8405838601937536,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m166",
+   "volume": 3.8405838601937528,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m167",
+   "volume": 3.846174663468661,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m168",
+   "volume": 3.8534559014050624,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m169",
+   "volume": 3.8573361277572684,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m170",
+   "volume": 3.857864734341298,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m171",
+   "volume": 3.8807683977112912,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m172",
+   "volume": 3.885271343008248,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m173",
+   "volume": 3.885271343008248,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m175",
+   "volume": 3.893208606997881,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m178",
+   "volume": 3.9254753155689284,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m179",
+   "volume": 3.925475315568929,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m180",
+   "volume": 3.9259173428567093,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m181",
+   "volume": 3.9271992400137488,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m182",
+   "volume": 3.939496374008863,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m183",
+   "volume": 3.9508185403983638,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m184",
+   "volume": 3.951384887462671,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m185",
+   "volume": 3.9542298166756673,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m186",
+   "volume": 3.963802165629918,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m188",
+   "volume": 3.9702896238906553,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m189",
+   "volume": 4.003979154528881,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m190",
+   "volume": 4.0048555780598925,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m191",
+   "volume": 4.006847897785627,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m192",
+   "volume": 4.013299374387959,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m193",
+   "volume": 4.0230427436188165,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m194",
+   "volume": 4.026120126742921,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m195",
+   "volume": 4.028003044011994,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m196",
+   "volume": 4.034347917854696,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m197",
+   "volume": 4.041743215890432,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m198",
+   "volume": 4.054504027290048,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m199",
+   "volume": 4.056860224236821,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m200",
+   "volume": 4.056860224236819,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m201",
+   "volume": 4.056860224236819,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m206",
+   "volume": 4.059766425638614,
+   "gens": 3,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m207",
+   "volume": 4.059766425638615,
+   "gens": 3,
+   "surjections": 240,
+   "classes": 10
+  },
+  {
+   "name": "m208",
+   "volume": 4.059766425638614,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m209",
+   "volume": 4.077865682908013,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m210",
+   "volume": 4.081088503514448,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m211",
+   "volume": 4.08209138610607,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m212",
+   "volume": 4.082296471265485,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m213",
+   "volume": 4.085492759403923,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m214",
+   "volume": 4.088840082166481,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m215",
+   "volume": 4.095971258899732,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m216",
+   "volume": 4.097416056713396,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m217",
+   "volume": 4.107953096639782,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m218",
+   "volume": 4.109426592271387,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m219",
+   "volume": 4.112852898494061,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m220",
+   "volume": 4.116968736386066,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m221",
+   "volume": 4.116968736386067,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m222",
+   "volume": 4.124903251807677,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m223",
+   "volume": 4.124903251807676,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m224",
+   "volume": 4.124903251807676,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m225",
+   "volume": 4.130256611822301,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m227",
+   "volume": 4.142398812694146,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m228",
+   "volume": 4.143224022865005,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m229",
+   "volume": 4.145871975004377,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m230",
+   "volume": 4.148777484888461,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m231",
+   "volume": 4.156675426817943,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m232",
+   "volume": 4.165544899192822,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m233",
+   "volume": 4.169937251578722,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m234",
+   "volume": 4.177751073189782,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m235",
+   "volume": 4.177751073189782,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m236",
+   "volume": 4.177838764722184,
+   "gens": 3,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m238",
+   "volume": 4.186231547736592,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m239",
+   "volume": 4.188306370546257,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m240",
+   "volume": 4.1885842864775675,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m241",
+   "volume": 4.190753062645131,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m242",
+   "volume": 4.2022318033355335,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m243",
+   "volume": 4.20470907630291,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m244",
+   "volume": 4.209959866425953,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m246",
+   "volume": 4.215963952413262,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m247",
+   "volume": 4.217272256572119,
+   "gens": 2,
+   "surjections": 144,
+   "classes": 6
+  },
+  {
+   "name": "m248",
+   "volume": 4.224462596587547,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m249",
+   "volume": 4.229427422661931,
+   "gens": 3,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "m250",
+   "volume": 4.232299734377445,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m251",
+   "volume": 4.234088050527738,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m252",
+   "volume": 4.234203157704184,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m253",
+   "volume": 4.23464780856565,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m255",
+   "volume": 4.245065552718458,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m256",
+   "volume": 4.248134792578511,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m257",
+   "volume": 4.24918079736279,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m258",
+   "volume": 4.255513176975159,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m259",
+   "volume": 4.256024922365218,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m260",
+   "volume": 4.256024922365217,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m261",
+   "volume": 4.259591801982826,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m262",
+   "volume": 4.259591801982827,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m263",
+   "volume": 4.259629131248292,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m266",
+   "volume": 4.274168154242615,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m267",
+   "volume": 4.285499304408614,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m269",
+   "volume": 4.2905499398485745,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m270",
+   "volume": 4.293682831712135,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m271",
+   "volume": 4.2949553185940434,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m272",
+   "volume": 4.300287363726721,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m273",
+   "volume": 4.309689458321044,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m275",
+   "volume": 4.316120422218612,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m276",
+   "volume": 4.326014420083493,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m277",
+   "volume": 4.327710570791142,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m278",
+   "volume": 4.3335352164027645,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m279",
+   "volume": 4.333765547769906,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m280",
+   "volume": 4.352349302121002,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m281",
+   "volume": 4.353384417535885,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m282",
+   "volume": 4.370040923571918,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m284",
+   "volume": 4.374200788070542,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m285",
+   "volume": 4.381323162387972,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m286",
+   "volume": 4.381323162387971,
+   "gens": 2,
+   "surjections": 144,
+   "classes": 6
+  },
+  {
+   "name": "m287",
+   "volume": 4.38672864102784,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m288",
+   "volume": 4.38672864102784,
+   "gens": 2,
+   "surjections": 144,
+   "classes": 6
+  },
+  {
+   "name": "m289",
+   "volume": 4.400832516123046,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m290",
+   "volume": 4.403155016694858,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m291",
+   "volume": 4.407055716651599,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m293",
+   "volume": 4.415332477453865,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m294",
+   "volume": 4.415332477453865,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "m296",
+   "volume": 4.4184838949422645,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m297",
+   "volume": 4.4191713248512645,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m299",
+   "volume": 4.433568314629014,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m300",
+   "volume": 4.455978629568558,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m302",
+   "volume": 4.460146757230545,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m303",
+   "volume": 4.46465891154868,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m304",
+   "volume": 4.464658911548682,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m305",
+   "volume": 4.464658911548679,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m306",
+   "volume": 4.46465891154868,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m307",
+   "volume": 4.464658911548681,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m310",
+   "volume": 4.476916261428254,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m312",
+   "volume": 4.492048141992186,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m316",
+   "volume": 4.510249796305665,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m318",
+   "volume": 4.515033381642849,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m319",
+   "volume": 4.522778843842443,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m320",
+   "volume": 4.522778843842443,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m322",
+   "volume": 4.531095397303394,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m326",
+   "volume": 4.551050139332694,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m335",
+   "volume": 4.564127808484149,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m336",
+   "volume": 4.569565634743646,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m337",
+   "volume": 4.579045476778233,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m338",
+   "volume": 4.579045476778231,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m339",
+   "volume": 4.5865294141356,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m340",
+   "volume": 4.592125697027062,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m342",
+   "volume": 4.603177949573199,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m343",
+   "volume": 4.60646915244495,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m345",
+   "volume": 4.625270806506048,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m346",
+   "volume": 4.639941487968165,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m349",
+   "volume": 4.666479949102682,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m350",
+   "volume": 4.666479949102683,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m351",
+   "volume": 4.6751407797261955,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m352",
+   "volume": 4.68221862938612,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m356",
+   "volume": 4.718620029768329,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m358",
+   "volume": 4.725401585109002,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "m360",
+   "volume": 4.735842375072601,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m361",
+   "volume": 4.737097322451172,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m363",
+   "volume": 4.742938350035485,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m364",
+   "volume": 4.748327184342424,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m368",
+   "volume": 4.751701965517899,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "m369",
+   "volume": 4.751701965517899,
+   "gens": 3,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "m370",
+   "volume": 4.7517019655179,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m371",
+   "volume": 4.751701965517899,
+   "gens": 3,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "m372",
+   "volume": 4.751701965517898,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m373",
+   "volume": 4.751701965517898,
+   "gens": 3,
+   "surjections": 288,
+   "classes": 12
+  },
+  {
+   "name": "m374",
+   "volume": 4.7529306107837455,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m376",
+   "volume": 4.765939917900488,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m378",
+   "volume": 4.782297993956171,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m385",
+   "volume": 4.816331863483256,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m389",
+   "volume": 4.851170757332738,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m390",
+   "volume": 4.851170757332737,
+   "gens": 3,
+   "surjections": 240,
+   "classes": 10
+  },
+  {
+   "name": "m392",
+   "volume": 4.8536594621711595,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m393",
+   "volume": 4.857322398475472,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m395",
+   "volume": 4.910833038739802,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m397",
+   "volume": 4.918003436190093,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m400",
+   "volume": 4.9356932742127295,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m401",
+   "volume": 4.948313363080839,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m402",
+   "volume": 4.95303291929364,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "m403",
+   "volume": 4.953604268557538,
+   "gens": 3,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "m410",
+   "volume": 5.074708032048267,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s000",
+   "volume": 3.2969024143266368,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s001",
+   "volume": 3.296902414326638,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "s002",
+   "volume": 3.394556686695282,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s003",
+   "volume": 3.40465896250138,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s004",
+   "volume": 3.460128933250288,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s005",
+   "volume": 3.4601289332502896,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s006",
+   "volume": 3.471287882779975,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s007",
+   "volume": 3.4712878827799756,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "s008",
+   "volume": 3.4938815997102375,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s009",
+   "volume": 3.4938815997102375,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s010",
+   "volume": 3.4999229300529175,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s011",
+   "volume": 3.502349676519154,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s012",
+   "volume": 3.5177607285426133,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s013",
+   "volume": 3.5177607285426125,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s014",
+   "volume": 3.5177607285426142,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s015",
+   "volume": 3.5177607285426165,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s016",
+   "volume": 3.526195990735376,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s017",
+   "volume": 3.5261959907353764,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s018",
+   "volume": 3.5376087845519266,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s019",
+   "volume": 3.537608784551925,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s020",
+   "volume": 3.5468430970636042,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s021",
+   "volume": 3.54936434839943,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s022",
+   "volume": 3.5538199185120423,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s023",
+   "volume": 3.553819918512043,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s024",
+   "volume": 3.556390252569002,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s025",
+   "volume": 3.5563902525690043,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s026",
+   "volume": 3.5607484983533064,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s027",
+   "volume": 3.563333662902657,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s028",
+   "volume": 3.5658451403553357,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s029",
+   "volume": 3.5658451403553366,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s030",
+   "volume": 3.56808795277002,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s031",
+   "volume": 3.5680879527700196,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s032",
+   "volume": 3.5695933446588426,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s033",
+   "volume": 3.5710786369939966,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s034",
+   "volume": 3.5710786369939935,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s035",
+   "volume": 3.5715644894211915,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s036",
+   "volume": 3.572505745544322,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s037",
+   "volume": 3.5743676729766993,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s038",
+   "volume": 3.5746848911479505,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s039",
+   "volume": 3.5746848911479496,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "s040",
+   "volume": 3.582448512877889,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s041",
+   "volume": 3.582448512877889,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s042",
+   "volume": 3.5873867857754824,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s043",
+   "volume": 3.5874300679638926,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s044",
+   "volume": 3.5880890205040723,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s045",
+   "volume": 3.588675243766397,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s046",
+   "volume": 3.5897152397101526,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s047",
+   "volume": 3.5897152397101517,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s048",
+   "volume": 3.5900899640413693,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "s049",
+   "volume": 3.5900899640413715,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s050",
+   "volume": 3.591213463571567,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s051",
+   "volume": 3.5923251824872557,
+   "gens": 3,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s052",
+   "volume": 3.5923251824872544,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s053",
+   "volume": 3.5924859683181967,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s054",
+   "volume": 3.5937641970880723,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s055",
+   "volume": 3.5937641970880714,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s056",
+   "volume": 3.5968822449320696,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s057",
+   "volume": 3.596882244932068,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s058",
+   "volume": 3.5971261486157506,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s059",
+   "volume": 3.5978432962909217,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s060",
+   "volume": 3.6013046974122056,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s061",
+   "volume": 3.6013046974122083,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "s062",
+   "volume": 3.6050291825109437,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s063",
+   "volume": 3.6053875072499757,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s064",
+   "volume": 3.605535899657414,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s065",
+   "volume": 3.6055358996574114,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s066",
+   "volume": 3.605882111800111,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s067",
+   "volume": 3.6060419991663437,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s068",
+   "volume": 3.6102068814877177,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s069",
+   "volume": 3.610629872966607,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s070",
+   "volume": 3.611333673853002,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s071",
+   "volume": 3.6113336738530024,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s072",
+   "volume": 3.612383987822166,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s073",
+   "volume": 3.6126742384321617,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s074",
+   "volume": 3.61294912782805,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s075",
+   "volume": 3.613316904964569,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s076",
+   "volume": 3.6172515338333,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s077",
+   "volume": 3.6172515338333,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s078",
+   "volume": 3.6212765538078533,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s079",
+   "volume": 3.6216404644259623,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s080",
+   "volume": 3.6302379697606026,
+   "gens": 2,
+   "surjections": 96,
+   "classes": 4
+  },
+  {
+   "name": "s081",
+   "volume": 3.777811201845675,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s082",
+   "volume": 3.784261294450394,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s083",
+   "volume": 3.7842612944503946,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s084",
+   "volume": 3.8213572698360396,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s085",
+   "volume": 3.830662505480832,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s086",
+   "volume": 3.8390407223605827,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s087",
+   "volume": 3.869628420468003,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s088",
+   "volume": 3.8715130832556874,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s089",
+   "volume": 3.8804385231128697,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s090",
+   "volume": 3.890499576403362,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s091",
+   "volume": 3.9196021609606415,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s092",
+   "volume": 3.919602160960641,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s093",
+   "volume": 3.920213363415967,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s094",
+   "volume": 3.9322047142028285,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s095",
+   "volume": 3.932204714202829,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s096",
+   "volume": 3.9344468302127256,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s097",
+   "volume": 3.9353146616692674,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s098",
+   "volume": 3.9475248772920297,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s099",
+   "volume": 3.950845368268056,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s100",
+   "volume": 3.9515678741127536,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s101",
+   "volume": 3.951567874112753,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s102",
+   "volume": 3.9552185547495484,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s103",
+   "volume": 3.9604056337733415,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s104",
+   "volume": 3.967851728555906,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s105",
+   "volume": 3.9678517285559054,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s106",
+   "volume": 3.971649282097903,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s107",
+   "volume": 3.971649282097905,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s108",
+   "volume": 3.9747963025103057,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s109",
+   "volume": 3.975176717134643,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  },
+  {
+   "name": "s110",
+   "volume": 3.9811086175076937,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s111",
+   "volume": 3.981343578339087,
+   "gens": 2,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s112",
+   "volume": 3.981343578339087,
+   "gens": 3,
+   "surjections": 0,
+   "classes": 0
+  },
+  {
+   "name": "s113",
+   "volume": 3.9935045462585763,
+   "gens": 2,
+   "surjections": 48,
+   "classes": 2
+  }
+ ]
+}

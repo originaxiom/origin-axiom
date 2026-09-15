@@ -27010,7 +27010,8 @@
    "refs": [
     "B909",
     "B911",
-    "B919"
+    "B919",
+    "S9"
    ],
    "obstacle": "measure",
    "obstacle_conf": 5,
@@ -29040,6 +29041,7 @@
    "slug": "cornerstone verified",
    "motifs": [
     "figure_eight",
+    "trace_map",
     "kappa",
     "eisenstein",
     "z3_generation"
@@ -29059,7 +29061,8 @@
     "B970",
     "B978",
     "B987",
-    "P0"
+    "P0",
+    "S9"
    ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 2,

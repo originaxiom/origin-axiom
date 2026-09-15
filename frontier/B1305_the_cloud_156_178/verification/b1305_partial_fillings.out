@@ -1,0 +1,8 @@
+  loop over the cloud's grid: 112 fillings returned a CS, 97 survive the strict predicate (run-dependent), 27 distinct (degree, cusps, slope) triples   (0 s)
+  sample: [(4, 2, (2, 1), 1, 0.198438617), (4, 2, (3, 1), 1, 0.147945981), (4, 2, (1, 2), 1, -0.218549937), (4, 2, (3, 2), 1, -0.196778393), (5, 2, (2, 1), 1, 0.157590041), (5, 2, (3, 1), 1, 0.12872568)]
+  witness (isosig, 3 cusps, vol 10.149416): fill cusp 0 with (2,1) -> 2 left, all tetrahedra positively oriented, CS = +0.157590041, dist 0.092410
+  CONTROL m004 unfilled: CS = 9.00e-17 -> FAILS the predicate (correct); unfilled degree-5 two-cusped covers CS = ['3.9e-16', '2.1e-16'] -> FAIL (correct)
+  the withdrawn 1/24 case (degree 7, H1 = Z^3, slope (1,0)): [(0, 0.0, 'contains negatively oriented tetrahedra'), (1, 0.041666667, 'contains negatively oriented tetrahedra'), (0, 0.041666667, 'contains negatively oriented tetrahedra'), (1, 0.0, 'contains negatively oriented tetrahedra')]
+  27 triples: True; witness: True; controls: True; withdrawn case negatively oriented at +-1/24: True
+Q2(c): PASS
+RC=0

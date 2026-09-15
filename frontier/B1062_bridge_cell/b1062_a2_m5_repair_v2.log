@@ -1,0 +1,21 @@
+[v2] eq1 numerator degree in x: 21
+[v2] z=-1.057750-1.270429j: NO verified (x,y) on this branch
+[v2] z=-1.057750+1.270429j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 8.3e-09
+[v2] z=-1.027711-2.252771j: NO verified (x,y) on this branch
+[v2] z=-1.027711+2.252771j: NO verified (x,y) on this branch
+[v2] z=-0.269847-0.532623j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 6.4e-13
+[v2] z=-0.269847+0.532623j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 6.4e-13
+[v2] z=-0.227119-1.280123j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 8.7e-11
+[v2] z=-0.227119+1.280123j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 8.7e-11
+[v2] z=0.092817-0.222378j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 8.0e-14
+[v2] z=0.092817+0.222378j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 8.0e-14
+[v2] z=0.357804-2.538250j: NO verified (x,y) on this branch
+[v2] z=0.357804+2.538250j: NO verified (x,y) on this branch
+[v2] z=0.380802-0.820900j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 1.4e-10
+[v2] z=0.380802+0.820900j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 2.5e-10
+[v2] z=0.693319-1.245156j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 1.1e-09
+[v2] z=0.693319+1.245156j: 1 verified point(s), types [('lox', 'lox', 'lox')], best res 1.1e-09
+[v2] z=1.557685-1.913198j: NO verified (x,y) on this branch
+[v2] z=1.557685+1.913198j: NO verified (x,y) on this branch
+[v2] SUMMARY: z-roots resolved 11/18, fails 7, elliptic-bearing roots 0, pure-all-lox roots 11
+[v2] CERTIFICATION: NOT certified — state the counts honestly

@@ -3714,7 +3714,7 @@ on this point.**
 memos 208 and 212. **Taken as authorization to edit main's documents**, which this bench had
 been fencing itself away from all session.
 
-**Done on `claude/outside-bench`, as a proposal. Main is not touched by this bench.**
+**Done on `<remote>/outside-bench`, as a proposal. Main is not touched by this bench.**
 
 ### R124-1 — the discipline, stated before the list
 
@@ -3777,7 +3777,7 @@ the check itself already exists and runs in under a second.
 **Asked:** *"go"* — against the one item left standing: the harness gate memo 212 recommended
 and memo 216 deliberately did not install.
 
-**Done on `claude/outside-bench`, as a proposal. Main is not touched by this bench.**
+**Done on `<remote>/outside-bench`, as a proposal. Main is not touched by this bench.**
 
 ### R125-1 — exhausted first, and the corpus already had the expensive half
 
@@ -4367,7 +4367,7 @@ stated as **words of length 3**.
 
 ### R133-4 — the branch sweep, and the one unmerged thing that WOULD move the count
 
-All remotes fetched and diffed. **`claude/physics-seat-evaluation-8dkbrl`, cell `T5_a6_audit`:**
+All remotes fetched and diffed. **`<remote>/physics-seat-evaluation-8dkbrl`, cell `T5_a6_audit`:**
 the **A6 relabeling audit**, verdict **FEASIBLE** — re-type **orientation** as the observer's
 **closing #0**, on a 1394-file sweep finding the class of pre-object axiom-consumers **EMPTY**.
 Under it *"the axiom count at the entrance drops from three to two-plus-one-closing"* — **4 → 3**,
@@ -4427,7 +4427,7 @@ Recorded rather than quietly repaired.
 R133 answered *"a theoreme about figure 8 being only with cusp that fixes first axiom"* with **fork
 F9 / B1323, on main**. **Wrong.** It is **Jørgensen's inequality (1976) + Callahan (2009)
 Cor. 2.4** — *"the only **orientable** hyperbolic 3-manifold with `J = 1` is the figure-eight
-complement"* — and it **is on a branch**, `claude/paper-verification-ufp0zn` arc **B1345**, dated
+complement"* — and it **is on a branch**, `<remote>/paper-verification-ufp0zn` arc **B1345**, dated
 **2026-09-12**.
 
 > **The owner's "check new work from other branches" was exactly right.** My sweep searched for
@@ -4563,7 +4563,7 @@ B1345.** The rule was already written on the page I was reading.
 
 ### R135-4 — recommendation, not an action
 
-**B1345 on `claude/paper-verification-ufp0zn` carries the imprecise paraphrase.** Its own
+**B1345 on `<remote>/paper-verification-ufp0zn` carries the imprecise paraphrase.** Its own
 conclusions are unaffected — it never drew an axiom claim from it — but that sentence is the one
 R134 over-read. **That seat's call**; this bench does not edit another branch.
 
@@ -4613,7 +4613,7 @@ confirm the earlier steps**."* Row 8, arena → content 252 → 2: exact, and **
 ### R136-5 — a currency finding
 
 **`docs/THE_CHAIN_STATUS.md` — the status of record, the 15-row table — is NOT on `origin/main`.**
-It lives only on `claude/paper-verification-ufp0zn`. Its own header reads *"each consolidation was
+It lives only on `<remote>/paper-verification-ufp0zn`. Its own header reads *"each consolidation was
 **added, never adopted** … **This one is adopted: it lives on main**."* **It does not.** The
 consolidation written to end that pattern is itself unadopted. **Contents not in question** — this
 memo uses them — **reported as currency, not as a defect.** Landing it is main's call.

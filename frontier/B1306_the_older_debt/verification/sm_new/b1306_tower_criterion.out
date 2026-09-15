@@ -1,0 +1,23 @@
+=== Q1: the full Fox Jacobian vs the criterion, n = 3 .. 9 ===
+  Y_3: H_1 = Z/4 + Z/4 (16 characters, primes 5, 13); |phi^n(a)| = 21; support 3 by order {2: 3}; rank J = 2 (both primes agree): 0; det(J + I) != 1: 0; product != J + I: 0; zero modulo ONE prime only (false positives caught): 0
+  Y_4: H_1 = Z/3 + Z/15 (45 characters, primes 31, 61); |phi^n(a)| = 55; support 0 by order {}; rank J = 2 (both primes agree): 0; det(J + I) != 1: 0; product != J + I: 0; zero modulo ONE prime only (false positives caught): 0
+  Y_5: H_1 = Z/11 + Z/11 (121 characters, primes 23, 67); |phi^n(a)| = 144; support 20 by order {11: 20}; rank J = 2 (both primes agree): 0; det(J + I) != 1: 0; product != J + I: 0; zero modulo ONE prime only (false positives caught): 0
+  Y_6: H_1 = Z/8 + Z/40 (320 characters, primes 41, 241); |phi^n(a)| = 377; support 27 by order {2: 3, 8: 24}; rank J = 2 (both primes agree): 0; det(J + I) != 1: 0; product != J + I: 0; zero modulo ONE prime only (false positives caught): 0
+  Y_7: H_1 = Z/29 + Z/29 (841 characters, primes 59, 233); |phi^n(a)| = 987; support 56 by order {29: 56}; rank J = 2 (both primes agree): 0; det(J + I) != 1: 0; product != J + I: 0; zero modulo ONE prime only (false positives caught): 56
+  Y_8: H_1 = Z/21 + Z/105 (2205 characters, primes 211, 421); |phi^n(a)| = 2584; support 0 by order {}; rank J = 2 (both primes agree): 0; det(J + I) != 1: 0; product != J + I: 0; zero modulo ONE prime only (false positives caught): 0
+  Y_9: H_1 = Z/76 + Z/76 (5776 characters, primes 229, 457); |phi^n(a)| = 6765; support 147 by order {2: 3, 19: 36, 38: 108}; rank J = 2 (both primes agree): 0; det(J + I) != 1: 0; product != J + I: 0; zero modulo ONE prime only (false positives caught): 36
+  [PASS] (a) support counts 3, 0, 20, 27, 56, 0, 147 at n = 3..9 (B1301/B1303)
+  [PASS] (b) rank J <= 1 on every non-trivial character (no h^1 >= 2)
+  [PASS] (c) det(J + I) = 1 on every non-trivial character (sm:B1304's unipotent lemma, on the full Jacobian)
+  [PASS] (d) the seat's factorised product A(x_{n-1})...A(x_0) equals J + I at every character (the chain rule, left-multiplied)
+  [PASS] (a') H_1 structures Y_3 (4,4), Y_5 (11,11), Y_6 (8,40), Y_7 (29,29), Y_8 (21,105), Y_9 (76,76)
+=== Q2: Y_20's order-41 and order-11 characters (the even-level correction) ===
+  H_1(Y_20) = Z/6765 + Z/33825; order-41 characters: 1680; order-11: 120
+  Y_20: h^1 = 1 on 0 of the order-41 characters (zero modulo both primes); on 20 of the order-11 characters
+  [PASS] Q2: nothing at 41 (0 of 1680) and Y_5's 20 at 11 -- sm:B1303's correction of B1301's forward list, reproduced
+=== Q3: the 2-primary subgroups of Y_12 (control) and Y_24 ===
+  Y_12: H_1 = Z/144 + Z/720; 2-primary characters 255; support by order {2: 3, 8: 24, 16: 96}
+  Y_24: H_1 = Z/46368 + Z/231840; 2-primary characters 1023; support by order {2: 3, 8: 24, 16: 96}
+  [PASS] Q3: Y_12's 2-primary support 123 = {2: 3, 8: 24, 16: 96} (control) and Y_24's is the same with no order-32 character
+Q1-Q3: PASS
+RC=0

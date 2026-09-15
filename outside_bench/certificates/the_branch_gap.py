@@ -25,7 +25,7 @@ import json
 import subprocess
 import sys
 
-SIB = "origin/claude/paper-verification-ufp0zn"
+SIB = "origin/<remote>/paper-verification-ufp0zn"
 
 
 def rule(t):

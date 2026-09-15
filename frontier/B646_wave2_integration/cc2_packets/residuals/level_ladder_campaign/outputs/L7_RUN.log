@@ -1,0 +1,291 @@
+=== (0) banked-rung gates k=1..4 ===
+  k=1: reproduced (N=3, dim_odd=1, Z=1.0, ord=1)
+  k=2: reproduced (N=9, dim_odd=3, Z=1.0, ord=4)
+  k=3: reproduced (N=20, dim_odd=8, Z=1.0, ord=60)
+  k=4: reproduced (N=42, dim_odd=17, Z=0.0, ord=12)
+  k=5: reproduced (N=78, dim_odd=34, Z=1.0, ord=36)
+  k=6: reproduced (N=139, dim_odd=61, Z=1.0, ord=18)
+
+=== (1) k=5 build + gates ===
+  gate float_vs_exactcounts: 4.097e-13
+  gate unitary: 1.284e-14
+  gate symmetric: 0.000e+00
+  gate (ST)^3=S^2: 2.354e-14
+  gate S^4=I: 3.075e-14
+  gate S^2=theta-perm: 1.556e-14
+  gate verlinde_int_dev: 3.662e-11
+  gate verlinde_min: -0.000e+00
+  gate qdim_dev: 3.224e-10
+  gate two_word: 1.289e-13
+  gate rho_unitary: 1.411e-14
+
+=== (2) BLIND BANK ===
+{
+ "N": 231,
+ "n_theta_fixed": 21,
+ "dim_odd": 105,
+ "Z": [
+  2.0,
+  -5.88418203051333e-15
+ ],
+ "tr_odd": [
+  1.0000000000000007,
+  -2.9976021664879227e-15
+ ],
+ "off_block_norm": 3.936154892915367e-15,
+ "S_odd_sq_plus_I": 9.820084344096419e-15,
+ "B_odd_nonscalar": 10.24699342919708,
+ "order_float": 36,
+ "n_distinct_mags": 238
+}
+BANKED outputs/level7_readouts.json (+npz) before comparison.
+
+=== (3) certificates ===
+exact Z5 (unnormalized, mod Phi_204): zero-poly = False; numeric ~ (23760.2729782 - 2.87290133158e-46j)
+exact Tr(Theta rho): zero-poly = True; numeric ~ 0.0
+ord(B_odd) = 36 (dev 2.6e-49; proper divisors {18: '2.0e+00', 12: '1.2e+00'})
+clock check: divides 36 = ord(A1 mod 228): True; equality: True
+
+odd block: 238 distinct magnitudes w = 34|S_odd|^2-scale 2K=38
+  w = 0.000001277599925671186974075318: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.000006586421592096703832535531: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.000007131963449923761554614237: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.00008793841266684634095824536: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.0001041190966787795070716951: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.0003609661158550953950769231: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.000709980573733122187496886: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.0008213462543911983237991693: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.001190499774318160520174824: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.001269958132262200524475653: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.001285750977941533486827552: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.001321128510105181036942867: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.002075782576803961729347094: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.002141394336284109762336862: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.004068964014383160042982252: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.004229912021885671815153029: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.004386296703350005344520705: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.004428409414536984907764451: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.004490915412315292184107515: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.00474716816286342115239041: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -10108, 1596, -8]  disc {2: 6, 11: 2, 19: 8}
+  w = 0.00558315792126852890281443: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.005755894846615924012835197: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [3249, -2622, 16]  disc {2: 2, 3: 5, 19: 3}
+  w = 0.006882580399942936199797928: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.006904109295254786068321448: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.007465903258649849751947721: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.008169346095134046527754973: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.008178288881024068296964408: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01025432842345795030287491: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01055292846098652093543966: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01182505810372648129118647: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01183497247350088079242058: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01222747242212290745717458: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01282590852122511611089095: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01323316026867063702639034: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.0146784698419322950788346: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01468724609167798863835826: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.0147220543161246650217555: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01506824746277143419055171: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01588161950659696922537544: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01673470340807601599371377: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01936294907172381350288675: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.01983323480543928382346565: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.02212944391798444527620209: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.02292945413504054979042836: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.02606201462105259564102151: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.02793543838462790455009542: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.02816018040403028599279042: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.02895227091178769963540652: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.03448031787570997516845067: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.03457140716260343873332983: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.03644398897306831043459994: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.03680030389571172990450312: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.03726258827042203866395741: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.03860010424511915513029243: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.04231338095868629775360412: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.04398955702975232555237908: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.04430254534855360302899315: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.04441788777528863198957931: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.04843291948570898270098032: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.04889240015590711283102696: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.05312739538573127517156591: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.05446729000861543230314125: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.05494471130839282882648547: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.05753826744088913019402134: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [3249, -1254, 64]  disc {2: 2, 3: 3, 19: 3}
+  w = 0.06063171699146289093264279: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.06224647144201028639127839: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.06343485211486398575912521: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.06421256891966204449769611: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.06555773894265368682045331: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.06882459136294644606510294: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.07066393800666345622139047: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.07255246737427708245391778: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.07336421171633957414669536: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.07558376827820655065446265: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.07709168355273140512298427: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.08032668927121834038790162: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.08969324339699662109428454: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.09131067074829742506668577: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.09420466680125979884938099: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.09959887050425051196097838: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1001531105589799442368663: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1019335615248092612491258: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [19, -2]  disc {}
+  w = 0.1134183594666088347218331: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1159725499960697758195349: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1191791034947613539952558: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1201194053594142455304288: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1238619176261404833054764: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1252800766338679769400317: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1331017424905239412227012: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1383583788737610362518936: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1423050412722931823876354: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1429027118620149997076251: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1466151047579171862745372: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1477565378719029221915218: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1567374766770298119135468: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -9386, 3800, -392]  disc {2: 6, 19: 8}
+  w = 0.1605184001997270509902848: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1616026700133252877390763: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1686741510845010299935538: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -10108, 1596, -8]  disc {2: 6, 11: 2, 19: 8}
+  w = 0.1921469328292316624852354: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.1958193329595591320266112: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2028288470160180351014557: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.205754142103933740067645: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2118381078501689431282342: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.214084201643729274455405: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2229432761975958817094209: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2253334526653483993052803: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2315230851322139390177499: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2339297709420096897909981: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2339994153842335213586794: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2382763542514210231089426: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -12996, 6764, -968]  disc {2: 6, 7: 2, 19: 8}
+  w = 0.2437010902012504614956867: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2481014674345592327167461: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.252420121139772709177016: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2545564682898991520119177: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2569369605528192192361039: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2675323709639090785744028: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2684965101397716796523465: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2726635225326559127320873: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2777317318649834909195619: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2855066961628585114252921: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.287431467521666812090617: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2885907897417418824247503: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2909088413561989685653964: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2910193464847029470728971: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.2978794216484977119303794: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3059115179900888059978205: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -38266, 36024, -7688]  disc {2: 6, 7: 6, 19: 8}
+  w = 0.3105255447998463599267412: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3136864295567533514966151: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3220018473667732131560806: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [3249, -1254, 64]  disc {2: 2, 3: 3, 19: 3}
+  w = 0.3401883912576647618283479: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3446467058231950354990155: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3533351195678432380375279: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3556790682458229763612021: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3563927478185604047814011: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3660565217296511546494609: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3712788310231507379402236: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3868745222726398543566269: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3917137161197314880260367: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3944395554964969720316272: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3957042755736144333933524: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.3999582870850526362756655: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [19, -8]  disc {}
+  w = 0.4288773703245265993154056: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.4378835976372771942077728: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.4522351440322382619080777: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.461515977177238798296144: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.4689073779205076443256732: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.4792010618178301739178754: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.4881141657646470114918526: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.4901901087873372186943736: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.4918528992017934449423301: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.4952883113617659722694805: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.517586332980811631177614: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -12996, 6764, -968]  disc {2: 6, 7: 2, 19: 8}
+  w = 0.5250556171645697538622202: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [3249, -9462, 4096]  disc {2: 2, 3: 3, 7: 2, 19: 3}
+  w = 0.5339743186644205615105098: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.5384402382926261304497188: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.5414397114595010006065703: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -9386, 3800, -392]  disc {2: 6, 19: 8}
+  w = 0.5612990901240393149848198: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.570132522359792927484524: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.5708621659331303759947871: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.5782542907414976639621179: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.5850564371607470446503872: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.6055824322920066758856514: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.6194883043378354418495107: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.6386218681032589623163928: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -9386, 3800, -392]  disc {2: 6, 19: 8}
+  minpoly [3, -2]  disc {}
+  w = 0.6716555747896119684265766: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.67933657137148388648119: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.685078262910091520117764: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.6997403170386497573390007: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.7033198852245854161843032: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.7108321797990793628964474: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.723969929260729450435068: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.7492316846206532543284091: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.7645401286273727554308372: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.7824916049317758562665293: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.7830779071303772684698613: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.7850749541451399720615564: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.7996666837473892238208384: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [3249, -2622, 16]  disc {2: 2, 3: 5, 19: 3}
+  w = 0.809507727576859261528816: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -38266, 36024, -7688]  disc {2: 6, 7: 6, 19: 8}
+  w = 0.8326013752116733933880723: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.8801631563784553594228026: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.8894615880724210030074654: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.9161729135468379984328975: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.9328212532559651218797597: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.934789952068433730155766: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.9498971965139838297809528: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.9654992789735296939528589: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 0.9760048339342679472811432: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.026700507022531359824066: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.030040888182410991296263: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.045792277982535359795575: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.118578210621950556021249: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.132540924116771967181553: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -12996, 6764, -968]  disc {2: 6, 7: 2, 19: 8}
+  w = 1.156890500878889237999665: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.162417872960033890380635: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.188207388433160354778338: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.204423124457465533459974: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.261635406411561877671669: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.27221732464448355270141: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.283935454589457485490401: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -10108, 1596, -8]  disc {2: 6, 11: 2, 19: 8}
+  w = 1.384345759702714580254154: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.510031312303738245953049: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.510907502031431105053852: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.516584149668631029006804: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.523893943512366797913459: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.567032145686348941320249: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [19, -32]  disc {}
+  w = 1.748022871528197101481357: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.754022669624518494407309: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 1.792414685933638177804251: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 2.131605464151825117973233: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 2.155533731674788808537354: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 2.192460875170807705938626: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 2.199005104287520827040993: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 2.309423300473812581501436: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [3249, -9462, 4096]  disc {2: 2, 3: 3, 7: 2, 19: 3}
+  w = 2.406410949361862895303412: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 2.487423255104898443600184: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  w = 3.851983216250577944368408: UNIDENTIFIED <= deg16/1e14 (Bantay bound deg | 32; priced out)
+  minpoly [6859, -38266, 36024, -7688]  disc {2: 6, 7: 6, 19: 8}
+
+sqrt-p import scan (p>=5 would REFUTE the null-prediction): sqrt17-style flag = False
+
+even control: ord(B_even) = 36; tr_odd = (1.0 + 1.73667715763547e-50j); tr_even = (1.0 - 3.091526124326e-51j)

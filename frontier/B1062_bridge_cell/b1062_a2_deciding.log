@@ -1,0 +1,6 @@
+[A2 m=4] degrees [17, 4, 21, 3]; groebner...
+[A2 m=4] eliminant factors: [(1, 3), (8, 1)]
+[A2 m=4]   factor deg 1: geometric-candidate roots present: False
+[A2 m=4]   factor deg 8: geometric-candidate roots present: False
+[A2 m=4] GEOMETRIC-COMPONENT DEGREES: []
+old A2 run killed: its m=4 eliminant factors [(1,3),(8,1)] stand as the output; its typing solve failed silently (the block-3 species — empty read as absence) and its m=5 duplicated the dedicated run

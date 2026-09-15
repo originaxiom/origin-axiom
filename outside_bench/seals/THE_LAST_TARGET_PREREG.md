@@ -37,7 +37,7 @@ invalid. B1330's fix is the `GERMS` list: **even powers only**.
 ## Method — B1330's own code, vendored UNCHANGED
 
 `outside_bench/certificates/lib/b1330/{q12.py, recog12.py, final_index.py}`, byte-identical to
-`origin/claude/paper-verification-ufp0zn:frontier/B1330_the_best_case_object/verification/`, with the
+`origin/<remote>/paper-verification-ufp0zn:frontier/B1330_the_best_case_object/verification/`, with the
 source commit recorded in `PROVENANCE.md`. **No line is modified.** The script already defaults to
 exactly these three manifolds and already carries the even-only `GERMS` list.
 

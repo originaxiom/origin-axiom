@@ -1,0 +1,8 @@
+[repair] z=0.380802-0.820900j: BACK-SOLVE FAIL (residual 1.35e-01)
+[repair] z=0.380802+0.820900j: BACK-SOLVE FAIL (residual 1.35e-01)
+[repair] z=0.693319-1.245156j: (lox,lox,lox)  res=2.9e-10
+[repair] z=0.693319+1.245156j: BACK-SOLVE FAIL (residual 5.73e-01)
+[repair] z=1.557685-1.913198j: BACK-SOLVE FAIL (residual 1.67e+00)
+[repair] z=1.557685+1.913198j: BACK-SOLVE FAIL (residual 1.74e+00)
+[repair] SUMMARY: typed 6/18, fails 12, elliptic-bearing 0, all-lox 6
+[repair] CERTIFICATION: NOT certified — the honest state stands

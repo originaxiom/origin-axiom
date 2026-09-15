@@ -1,0 +1,117 @@
+cusp: tau = 3.464101615138 i (word bABaaBAb), chi(T) = 0; 508 moves
+  ok   tau = 2 sqrt3 i and chi(T) = 0 (T is the longitude: class 0 in H_1)
+
+1. collocation at four resolutions (Rcut, Y, npts); the R=10 solve is final, R=6 -> R=10 gives the error bar
+  R=4.0 Y=0.55 n=500: eq 492 unk 166 rank 166 resid_rms 2.95e-06 max 8.27e-06
+  R=5.0 Y=0.5 n=900: eq 880 unk 260 rank 260 resid_rms 4.84e-07 max 1.58e-06
+  R=6.0 Y=0.5 n=1400: eq 1380 unk 380 rank 380 resid_rms 1.37e-08 max 4.45e-08
+  R=10.0 Y=0.45 n=3200: eq 3150 unk 1076 rank 1076 resid_rms 1.63e-12 max 5.41e-12
+  ok   final solve (R=10) residual rms < 1e-9
+  mode      R=4.0                        R=5.0                        R=6.0                        R=10.0                    
+  (0, 2)    -0.0000001-4.2609814i   +0.0000000-4.2609826i   -0.0000000-4.2609826i   -0.0000000-4.2609826i
+  (1, 2)    -0.0000019-4.2609801i   +0.0000004-4.2609832i   +0.0000000-4.2609826i   +0.0000000-4.2609826i
+  (1, -2)   -0.0000037-4.2609840i   +0.0000005-4.2609825i   +0.0000000-4.2609826i   -0.0000000-4.2609826i
+  (1, 4)    +0.0000403-6.4420027i   +0.0000013-6.4420038i   -0.0000000-6.4420003i   +0.0000000-6.4420002i
+  (1, -4)   -0.0000065+6.4420042i   -0.0000016+6.4419992i   -0.0000000+6.4420002i   -0.0000000+6.4420002i
+  (0, 6)    -0.0000589-4.2610249i   +0.0000009-4.2609809i   -0.0000000-4.2609828i   +0.0000000-4.2609826i
+  (2, 2)    +0.0001000-2.3635989i   -0.0000068-2.3635681i   +0.0000001-2.3635680i   +0.0000000-2.3635679i
+  (2, -2)   +0.0003436+2.3636498i   +0.0000111+2.3635705i   +0.0000004+2.3635680i   +0.0000000+2.3635679i
+  (0, 1)    -0.0000000+0.0000001i   +0.0000000-0.0000000i   +0.0000000+0.0000000i   -0.0000000-0.0000000i
+  (1, 0)    -0.0000020+0.0000018i   +0.0000000+0.0000001i   +0.0000000+0.0000000i   +0.0000000-0.0000000i
+  (0, 4)    +0.0000096-0.0000036i   +0.0000000+0.0000001i   +0.0000000-0.0000000i   -0.0000000-0.0000000i
+  (2, 0)    -0.0001240+0.0000055i   +0.0000010-0.0000049i   +0.0000000-0.0000001i   -0.0000000-0.0000000i
+  (2, 1)    +0.0000745+0.0000925i   +0.0000115-0.0000028i   +0.0000001+0.0000001i   +0.0000000-0.0000000i
+  (1, 6)    -0.0000430-0.0000039i   +0.0000137-0.0000164i   +0.0000003-0.0000000i   -0.0000000+0.0000000i
+  (0, 3)    -0.0000001+0.0000011i   +0.0000000+0.0000001i   +0.0000000-0.0000000i   -0.0000000-0.0000000i
+  (1, 1)    -0.0000010+0.0000001i   -0.0000002-0.0000004i   +0.0000000-0.0000000i   -0.0000000+0.0000000i
+  c_(0,2): -0.0000000000 -4.2609826349 i ;  |delta| R4->R5 1.1e-06, R5->R6 5.6e-08, R6->R10 2.2e-09
+  ==> c_0 = c_(0,2) = -4.260982635 i  +- 2e-09   (seat convention c_(+-2,0) = -+ 4.260982635 i)
+  ok   c_(0,2) stable to 1e-6 between R=5 and R=6
+  ok   c_(0,2) stable to 1e-7 between R=6 and R=10 (the error bar)
+  ok   c_(0,2) is O(1) and pure imaginary (a sine in the longitude coordinate)
+
+2. cusp isometries: normaliser elements fixing infinity, z -> alpha z + beta or alpha conj(z) + beta
+  found 8 isometries (beta searched on the (1/8)-grid of the torus):
+    alpha=+1       beta = 0.0 + 0.0 tau     (H_1 action: mu -> +1 mu, lambda -> +1 lambda)
+    alpha=+1       beta = 0.0 + 0.5 tau     (H_1 action: mu -> +1 mu, lambda -> +1 lambda)
+    alpha=+1 conj  beta = 0.5 + 0.25 tau     (H_1 action: mu -> +1 mu, lambda -> -1 lambda)
+    alpha=+1 conj  beta = 0.5 + 0.75 tau     (H_1 action: mu -> +1 mu, lambda -> -1 lambda)
+    alpha=-1       beta = 0.0 + 0.0 tau     (H_1 action: mu -> -1 mu, lambda -> -1 lambda)
+    alpha=-1       beta = 0.0 + 0.5 tau     (H_1 action: mu -> -1 mu, lambda -> -1 lambda)
+    alpha=-1 conj  beta = 0.5 + 0.25 tau     (H_1 action: mu -> -1 mu, lambda -> +1 lambda)
+    alpha=-1 conj  beta = 0.5 + 0.75 tau     (H_1 action: mu -> -1 mu, lambda -> +1 lambda)
+  ok   exactly eight cusp isometries (D_4)
+  ok   four of them orientation-reversing (conjugating type)
+  the half-translation (period-2 rotation r^2 on the cusp): beta = [(0.0, 0.5)]
+  ok   r^2 acts on the cusp as translation by tau/2 (half the LONGITUDE)
+
+3. symmetry-allowed Fourier subspace derived from the eight maps (c_{g.nu} e^{2 pi i <g.nu, beta>} = alpha c_nu)
+  modes |mu| <= 3.0: 90; constraint rows 1620; allowed real dimension = 11
+  orbit (representative, meridian-first)   |mu|    allowed dim   observed max|c| in orbit (R=10 solve)
+  (0, 1)     (orbit size  2)   0.2887    0             3.306e-14
+  (0, 2)     (orbit size  2)   0.5774    1             4.261e+00
+  (0, 3)     (orbit size  2)   0.8660    0             5.527e-14
+  (1, 0)     (orbit size  2)   1.0000    0             7.922e-13
+  (1, 1)     (orbit size  4)   1.0408    0             9.124e-13
+  (1, 2)     (orbit size  4)   1.1547    1             4.261e+00
+  (0, 4)     (orbit size  2)   1.1547    0             8.427e-13
+  (1, 3)     (orbit size  4)   1.3229    0             1.459e-12
+  (0, 5)     (orbit size  2)   1.4434    0             2.471e-12
+  (1, 4)     (orbit size  4)   1.5275    1             6.442e+00
+  (0, 6)     (orbit size  2)   1.7321    1             4.261e+00
+  (1, 5)     (orbit size  4)   1.7559    0             1.199e-11
+  (2, 0)     (orbit size  2)   2.0000    1             1.638e-11   allowed but vanishing: nu = (0, -2), S(nu) = 0.0
+  (1, 6)     (orbit size  4)   2.0000    1             2.066e-11   allowed but vanishing: nu = (3, -1), S(nu) = 0.0
+  (0, 7)     (orbit size  2)   2.0207    0             3.539e-12
+  (2, 1)     (orbit size  4)   2.0207    0             1.621e-11
+  (2, 2)     (orbit size  4)   2.0817    1             2.364e+00
+  (2, 3)     (orbit size  4)   2.1794    0             2.909e-11
+  (1, 7)     (orbit size  4)   2.2546    0             2.680e-11
+  (2, 4)     (orbit size  4)   2.3094    1             4.261e+00
+  (0, 8)     (orbit size  2)   2.3094    0             2.582e-11
+  (2, 5)     (orbit size  4)   2.4664    0             1.224e-10
+  (1, 8)     (orbit size  4)   2.5166    1             7.820e+00
+  (0, 9)     (orbit size  2)   2.5981    0             1.009e-10
+  (2, 6)     (orbit size  4)   2.6458    1             1.545e-10   allowed but vanishing: nu = (3, -2), S(nu) = 0.0
+  (1, 9)     (orbit size  4)   2.7839    0             1.946e-10
+  (2, 7)     (orbit size  4)   2.8431    0             2.784e-10
+  (0, 10)    (orbit size  2)   2.8868    1             8.522e+00
+  (3, 0)     (orbit size  2)   3.0000    0             4.943e-10
+  ok   every symmetry-forbidden orbit is at noise (|c| < 1e-06) for |mu| <= 3
+  ok   the 3 allowed-but-vanishing orbits are exactly the ones the divisor law predicts zero (sqrt(-3) | nu): (2, 0)->nu=(0, -2), (1, 6)->nu=(3, -1), (2, 6)->nu=(3, -2)
+  ok   seat's table entry (meridian-first (0, 1)) allowed dim = 0 reproduced by the derived subspace
+  ok   seat's table entry (meridian-first (0, 2)) allowed dim = 1 reproduced by the derived subspace
+  ok   seat's table entry (meridian-first (0, 3)) allowed dim = 0 reproduced by the derived subspace
+  ok   seat's table entry (meridian-first (1, 0)) allowed dim = 0 reproduced by the derived subspace
+  ok   seat's table entry (meridian-first (1, 1)) allowed dim = 0 reproduced by the derived subspace
+  ok   seat's table entry (meridian-first (1, 2)) allowed dim = 1 reproduced by the derived subspace
+  |c - P_allowed c| / |c| = 3.62e-11
+  ok   the solved coefficient vector lies in the derived allowed subspace
+
+4. sign partition of g = d_t psi on the horotorus (t = maximal cusp height 1, and around it)
+  t = 0.60: {g>0}: 2 components, chi [0, 0] ; {g<0}: 2 components, chi [0, 0] ; max|g| 1.818e+00
+  t = 0.70: {g>0}: 2 components, chi [0, 0] ; {g<0}: 2 components, chi [0, 0] ; max|g| 1.321e+00
+  t = 0.80: {g>0}: 2 components, chi [0, 0] ; {g<0}: 2 components, chi [0, 0] ; max|g| 9.720e-01
+  t = 0.90: {g>0}: 2 components, chi [0, 0] ; {g<0}: 2 components, chi [0, 0] ; max|g| 7.158e-01
+  t = 1.00: {g>0}: 2 components, chi [0, 0] ; {g<0}: 2 components, chi [0, 0] ; max|g| 5.253e-01
+  t = 1.25: {g>0}: 2 components, chi [0, 0] ; {g<0}: 2 components, chi [0, 0] ; max|g| 2.381e-01
+  t = 1.50: {g>0}: 2 components, chi [0, 0] ; {g<0}: 2 components, chi [0, 0] ; max|g| 1.057e-01
+  t = 2.00: {g>0}: 2 components, chi [0, 0] ; {g<0}: 2 components, chi [0, 0] ; max|g| 2.000e-02
+  t = 3.00: {g>0}: 2 components, chi [0, 0] ; {g<0}: 2 components, chi [0, 0] ; max|g| 6.544e-04
+  ok   at the maximal cusp (t = 1): {g>0} = two annuli, {g<0} = two annuli  =>  chi(d+M) = 0
+  ok   the annular partition persists on every embedded horotorus t >= 1
+  radial amplitude ratio at t=1: [(1,2)+(1,-2)] / (0,2) = 0.0763   (seat's convention: (+-2,+-1) pair / (+-2,0))
+  g at the eight corners (x in {0,1/2}, y/|tau| in {0,1/4,1/2,3/4}) at t=1: max |g| = 3.08e-14 (max on torus 5.253e-01)
+  ok   the zero set of g passes through all eight corners (the inversions' fixed points on the cusp)
+
+5. the divisor law c(nu) = c0 S(nu), nu = a + b sqrt(-3) <-> (m1, m2) = (-b, 2a)   [CONJECTURE -- divisor_law.py]
+  even-m2 modes with N(nu) <= 200: 184; |c/c0 - S(nu)| > 0.005: 0; worst 3.4e-04; predicted exact zeros: 68 (worst 3.4e-04)
+  spot values: S((1, 0))=+1.0000, S((3, 0))=+1.0000, S((5, 0))=+2.0000, S((7, 0))=+2.2857, S((9, 0))=+1.0000, S((2, 0))=+0.0000, S((4, 0))=+0.0000, S((0, 1))=+0.0000, S((1, 1))=-1.0000, S((2, 1))=+1.5119, S((1, 2))=+0.5547
+  ok   the divisor law holds on all 184 solved even-m2 modes with N(nu) <= 200 to 0.005 (zero fitted parameters)
+  ok   all 68 predicted zeros (sqrt(-3) | nu or nu a power of 2) vanish to 0.005
+  pre-registered out-of-sample test on file: 88 modes 108 < N <= 200 at R=10, eps_in 5.5e-07, tol 0.005, worst 3.4e-04: PASS
+  ok   the pre-registered out-of-sample test (law_outofsample.py) is PASS on file, 88/88
+  closed form for |c0| = 4.2609826349: PSLQ over [x or x*c, 1, <= 2 of ['pi', 'sqrt3', 'pi^2', 'log2', 'log3', 'L2chi3', 'zetaK2', 'G', 'zeta3', 'vol_m004']], |coeff| <= 12, tol 1e-9: NONE -- c0 closed form OPEN (bounded search, negative)
+
+SELFTEST: PASS
+RC=0

@@ -1,0 +1,17 @@
+(a),(c): Psi-eigencharacter classes of every level n <= 13, exact modulo two primes
+  n= 2: H1=(1,5) classes 1 | theorem predicts h1=1 for 0, carry 0 | both orders even 1, of which carry 0 | (5,3):e=4,e'=4,h1=0,fix=col
+  n= 3: H1=(4,4) classes 0 | theorem predicts h1=1 for 0, carry 0 | both orders even 0, of which carry 0 | 
+  n= 4: H1=(3,15) classes 1 | theorem predicts h1=1 for 0, carry 0 | both orders even 1, of which carry 0 | (5,3):e=4,e'=4,h1=0,fix=col
+  n= 5: H1=(11,11) classes 2 | theorem predicts h1=1 for 2, carry 2 | both orders even 0, of which carry 0 | (11,4):e=5,e'=10,h1=1,fix=col, (11,8):e=10,e'=5,h1=1,fix=col
+  n= 6: H1=(8,40) classes 1 | theorem predicts h1=1 for 0, carry 0 | both orders even 1, of which carry 0 | (5,3):e=4,e'=4,h1=0,fix=col
+  n= 7: H1=(29,29) classes 2 | theorem predicts h1=1 for 2, carry 2 | both orders even 0, of which carry 0 | (29,6):e=14,e'=7,h1=1,fix=col, (29,24):e=7,e'=14,h1=1,fix=col
+  n= 8: H1=(21,105) classes 1 | theorem predicts h1=1 for 0, carry 0 | both orders even 1, of which carry 0 | (5,3):e=4,e'=4,h1=0,fix=col
+  n= 9: H1=(76,76) classes 2 | theorem predicts h1=1 for 2, carry 2 | both orders even 0, of which carry 0 | (19,5):e=9,e'=18,h1=1,fix=col, (19,15):e=18,e'=9,h1=1,fix=col
+  n=10: H1=(55,275) classes 5 | theorem predicts h1=1 for 2, carry 2 | both orders even 3, of which carry 0 | (5,3):e=4,e'=4,h1=0,fix=col, (11,4):e=5,e'=10,h1=1,fix=col, (11,8):e=10,e'=5,h1=1,fix=col, (55,8):e=20,e'=20,h1=0,fix=col, (55,48):e=20,e'=20,h1=0,fix=col
+  n=11: H1=(199,199) classes 2 | theorem predicts h1=1 for 2, carry 2 | both orders even 0, of which carry 0 | (199,62):e=11,e'=22,h1=1,fix=col, (199,138):e=22,e'=11,h1=1,fix=col
+  n=12: H1=(144,720) classes 1 | theorem predicts h1=1 for 0, carry 0 | both orders even 1, of which carry 0 | (5,3):e=4,e'=4,h1=0,fix=col
+  n=13: H1=(521,521) classes 2 | theorem predicts h1=1 for 2, carry 2 | both orders even 0, of which carry 0 | (521,100):e=26,e'=13,h1=1,fix=col, (521,422):e=13,e'=26,h1=1,fix=col
+(b): conductor form <=> odd-order form on every root of x^2 - x - 1 mod m, m <= 4000
+  pairs (m, u): 1037; mismatches: 0 []
+FAILS: 0
+Q1: PASS

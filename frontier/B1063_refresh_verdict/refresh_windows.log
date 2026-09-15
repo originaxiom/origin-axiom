@@ -1,0 +1,15 @@
+NO, IC19 w/o SK-atm                  target 240: MISS by 44 deg (240 vs [157,196])
+NO, IC19 w/o SK-atm                  target 120: MISS by 37 deg (120 vs [157,196])
+IO, IC19 w/o SK-atm (best fit)       target 240: MISS by 17 deg (240 vs [257,310])
+IO, IC19 w/o SK-atm (best fit)       target 120: MISS by 137 deg (120 vs [257,310])
+NO, IC24 with SK-atm (best fit)      target 240: MISS by 2 deg (240 vs [171,238])
+NO, IC24 with SK-atm (best fit)      target 120: MISS by 51 deg (120 vs [171,238])
+IO, IC24 with SK-atm                 target 240: MISS by 9 deg (240 vs [249,296])
+IO, IC24 with SK-atm                 target 120: MISS by 129 deg (120 vs [249,296])
+
+B1027's decisive clause: 'a fit shrinking delta_CP's upper error by ~2x
+decides +-120 sharply' -- NO upper error: 5.2 gave +42 -> 6.0 w/o SK gives +19
+  shrink factor: 2.21x  -> THE DECISIVE CONDITION IS MET on that variant.
+Jarlskog cross-read (B1038's binding): Jmax = 0.0333(7); +-120 deg implies
+|J| = Jmax*sqrt(3)/2 = 0.0288; NO best J = 0.0017 (CP-conserving, far);
+IO best J = -0.032 (|sin d| ~ 0.96, d ~ 254 or 286 -- not the 240 label).

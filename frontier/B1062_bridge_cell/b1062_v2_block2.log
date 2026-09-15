@@ -1,0 +1,10 @@
+[B2] === THE LEADING TEST: field degree + embeddings' boundedness ===
+[B2 m=1] field degree 2, imaginary quadratic: True -> ARITH-SIDE (boundedness vacuous)
+[B2 m=2] field degree 8 -> NON-ARITHMETIC (degree alone decides; 0 real embeddings present)
+[B2 m=3] field degree 2, imaginary quadratic: True -> ARITH-SIDE (boundedness vacuous)
+
+[B2] === R4: cusp/nonuniformity per object ===
+[B2] kappa = tr[a,b] = -2 is the Markov constraint itself: the commutator
+     is parabolic at every solved point -> parabolics present -> nonuniform.
+
+[B2] === THE ILLUSTRATION: box-counts, words to length 8 (declared) ===

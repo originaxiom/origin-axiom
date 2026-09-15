@@ -120,7 +120,7 @@ was reading.
 
 ## 5. Recommendation, not an action
 
-**`B1345` on `claude/paper-verification-ufp0zn` carries the imprecise paraphrase** — *"the only
+**`B1345` on `<remote>/paper-verification-ufp0zn` carries the imprecise paraphrase** — *"the only
 orientable hyperbolic 3-manifold with J = 1"* — where the source says *"the only torsion-free
 Jørgensen group"*. Its **conclusions are unaffected** (it never drew an axiom claim from it, and its
 m000 reasoning is right), but the sentence is the one memo 225 over-read. **That is that seat's

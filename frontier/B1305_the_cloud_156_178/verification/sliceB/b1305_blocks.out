@@ -1,0 +1,12 @@
+  k= 1: exponents [+0, +0]  (+-floor((k-1)^2/4) = 0)  palindromic True  edge coeff 1  width 1
+  k= 2: exponents [+0, +0]  (+-floor((k-1)^2/4) = 0)  palindromic True  edge coeff 2  width 1
+  k= 3: exponents [-1, +1]  (+-floor((k-1)^2/4) = 1)  palindromic True  edge coeff 1  width 3
+  k= 4: exponents [-2, +2]  (+-floor((k-1)^2/4) = 2)  palindromic True  edge coeff 2  width 5
+  k= 5: exponents [-4, +4]  (+-floor((k-1)^2/4) = 4)  palindromic True  edge coeff 1  width 9
+  k= 6: exponents [-6, +6]  (+-floor((k-1)^2/4) = 6)  palindromic True  edge coeff 2  width 13
+  k= 7: exponents [-9, +9]  (+-floor((k-1)^2/4) = 9)  palindromic True  edge coeff 1  width 19
+  k= 8: exponents [-12, +12]  (+-floor((k-1)^2/4) = 12)  palindromic True  edge coeff 2  width 25
+  k=20: exponents [-90, +90]  (+-floor((k-1)^2/4) = 90)  palindromic True  edge coeff 2  width 181
+  all 20 blocks: lowest = -floor((k-1)^2/4), highest = +floor((k-1)^2/4), palindromic: True
+  => c_low = -1/16, c_high = +1/16 (m = 2k-1: floor((k-1)^2/4) = m^2/16 + O(m)); mirror-odd CENTRE = 0; mirror-even half-WIDTH = 1/16
+Q2: PASS

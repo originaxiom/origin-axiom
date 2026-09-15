@@ -1,0 +1,94 @@
+== closings Y_n = (1,0)-filling of the n-fold cyclic cover N_n, n = 1..9 ==
+Y_1: N_1 has 2 tets; automorphisms 8 (SnapPy 8); H1(Y_1) = 0; orientation-reversing 4: chi(Fix) in [2]; preserving: [0]; consistent=True diag=True signs=True
+      signature (eps, a, chi_c(N_n), chi(Fix Y_n), #tets, #faces, #edges kept) : count  -> {'(-1, -1, 2, 2, 2, 0, 0)': 2, '(-1, 1, 0, 2, 0, 0, 0)': 2, '(1, -1, -2, 0, 0, 2, 2)': 2, '(1, 1, 0, 0, 2, 0, 2)': 1, '(1, 1, 0, 0, 2, 4, 2)': 1}
+  ok   Y_1 is a QHS
+  ok   |Isom(N_1)| = 8n = 8, matched by SnapPy
+  ok   N_1: every cusp matrix is diagonal in (mu~, lambda~) (slope kept)
+  ok   N_1: (det A, A_11) multiset from SnapPy == (eps, a) from the spine
+  ok   N_1: geometric chi(Fix core) == Hopf trace == 1 - a for all 8 automorphisms
+  ok   Y_1: every orientation-reversing isometry has chi(Fix) = 2
+  ok   Y_1: every orientation-preserving isometry has chi(Fix) = 0
+Y_2: N_2 has 4 tets; automorphisms 16 (SnapPy 16); H1(Y_2) = Z/5; orientation-reversing 8: chi(Fix) in [2]; preserving: [0]; consistent=True diag=True signs=True
+      signature (eps, a, chi_c(N_n), chi(Fix Y_n), #tets, #faces, #edges kept) : count  -> {'(-1, -1, 2, 2, 2, 0, 0)': 4, '(-1, 1, 0, 2, 0, 0, 0)': 4, '(1, -1, -2, 0, 0, 0, 2)': 2, '(1, -1, -2, 0, 0, 4, 2)': 2, '(1, 1, 0, 0, 0, 0, 0)': 2, '(1, 1, 0, 0, 4, 0, 4)': 1, '(1, 1, 0, 0, 4, 8, 4)': 1}
+  ok   Y_2 is a QHS
+  ok   |Isom(N_2)| = 8n = 16, matched by SnapPy
+  ok   N_2: every cusp matrix is diagonal in (mu~, lambda~) (slope kept)
+  ok   N_2: (det A, A_11) multiset from SnapPy == (eps, a) from the spine
+  ok   N_2: geometric chi(Fix core) == Hopf trace == 1 - a for all 16 automorphisms
+  ok   Y_2: every orientation-reversing isometry has chi(Fix) = 2
+  ok   Y_2: every orientation-preserving isometry has chi(Fix) = 0
+Y_3: N_3 has 6 tets; automorphisms 24 (SnapPy 24); H1(Y_3) = Z/4 + Z/4; orientation-reversing 12: chi(Fix) in [2]; preserving: [0]; consistent=True diag=True signs=True
+      signature (eps, a, chi_c(N_n), chi(Fix Y_n), #tets, #faces, #edges kept) : count  -> {'(-1, -1, 2, 2, 2, 0, 0)': 6, '(-1, 1, 0, 2, 0, 0, 0)': 6, '(1, -1, -2, 0, 0, 2, 2)': 6, '(1, 1, 0, 0, 0, 0, 0)': 4, '(1, 1, 0, 0, 6, 0, 6)': 1, '(1, 1, 0, 0, 6, 12, 6)': 1}
+  ok   Y_3 is a QHS
+  ok   |Isom(N_3)| = 8n = 24, matched by SnapPy
+  ok   N_3: every cusp matrix is diagonal in (mu~, lambda~) (slope kept)
+  ok   N_3: (det A, A_11) multiset from SnapPy == (eps, a) from the spine
+  ok   N_3: geometric chi(Fix core) == Hopf trace == 1 - a for all 24 automorphisms
+  ok   Y_3: every orientation-reversing isometry has chi(Fix) = 2
+  ok   Y_3: every orientation-preserving isometry has chi(Fix) = 0
+Y_4: N_4 has 8 tets; automorphisms 32 (SnapPy 32); H1(Y_4) = Z/3 + Z/15; orientation-reversing 16: chi(Fix) in [2]; preserving: [0]; consistent=True diag=True signs=True
+      signature (eps, a, chi_c(N_n), chi(Fix Y_n), #tets, #faces, #edges kept) : count  -> {'(-1, -1, 2, 2, 2, 0, 0)': 8, '(-1, 1, 0, 2, 0, 0, 0)': 8, '(1, -1, -2, 0, 0, 0, 2)': 4, '(1, -1, -2, 0, 0, 4, 2)': 4, '(1, 1, 0, 0, 0, 0, 0)': 6, '(1, 1, 0, 0, 8, 0, 8)': 1, '(1, 1, 0, 0, 8, 16, 8)': 1}
+  ok   Y_4 is a QHS
+  ok   |Isom(N_4)| = 8n = 32, matched by SnapPy
+  ok   N_4: every cusp matrix is diagonal in (mu~, lambda~) (slope kept)
+  ok   N_4: (det A, A_11) multiset from SnapPy == (eps, a) from the spine
+  ok   N_4: geometric chi(Fix core) == Hopf trace == 1 - a for all 32 automorphisms
+  ok   Y_4: every orientation-reversing isometry has chi(Fix) = 2
+  ok   Y_4: every orientation-preserving isometry has chi(Fix) = 0
+Y_5: N_5 has 10 tets; automorphisms 40 (SnapPy 40); H1(Y_5) = Z/11 + Z/11; orientation-reversing 20: chi(Fix) in [2]; preserving: [0]; consistent=True diag=True signs=True
+      signature (eps, a, chi_c(N_n), chi(Fix Y_n), #tets, #faces, #edges kept) : count  -> {'(-1, -1, 2, 2, 2, 0, 0)': 10, '(-1, 1, 0, 2, 0, 0, 0)': 10, '(1, -1, -2, 0, 0, 2, 2)': 10, '(1, 1, 0, 0, 0, 0, 0)': 8, '(1, 1, 0, 0, 10, 0, 10)': 1, '(1, 1, 0, 0, 10, 20, 10)': 1}
+  ok   Y_5 is a QHS
+  ok   |Isom(N_5)| = 8n = 40, matched by SnapPy
+  ok   N_5: every cusp matrix is diagonal in (mu~, lambda~) (slope kept)
+  ok   N_5: (det A, A_11) multiset from SnapPy == (eps, a) from the spine
+  ok   N_5: geometric chi(Fix core) == Hopf trace == 1 - a for all 40 automorphisms
+  ok   Y_5: every orientation-reversing isometry has chi(Fix) = 2
+  ok   Y_5: every orientation-preserving isometry has chi(Fix) = 0
+Y_6: N_6 has 12 tets; automorphisms 48 (SnapPy 48); H1(Y_6) = Z/8 + Z/40; orientation-reversing 24: chi(Fix) in [2]; preserving: [0]; consistent=True diag=True signs=True
+      signature (eps, a, chi_c(N_n), chi(Fix Y_n), #tets, #faces, #edges kept) : count  -> {'(-1, -1, 2, 2, 2, 0, 0)': 12, '(-1, 1, 0, 2, 0, 0, 0)': 12, '(1, -1, -2, 0, 0, 0, 2)': 6, '(1, -1, -2, 0, 0, 4, 2)': 6, '(1, 1, 0, 0, 0, 0, 0)': 10, '(1, 1, 0, 0, 12, 0, 12)': 1, '(1, 1, 0, 0, 12, 24, 12)': 1}
+  ok   Y_6 is a QHS
+  ok   |Isom(N_6)| = 8n = 48, matched by SnapPy
+  ok   N_6: every cusp matrix is diagonal in (mu~, lambda~) (slope kept)
+  ok   N_6: (det A, A_11) multiset from SnapPy == (eps, a) from the spine
+  ok   N_6: geometric chi(Fix core) == Hopf trace == 1 - a for all 48 automorphisms
+  ok   Y_6: every orientation-reversing isometry has chi(Fix) = 2
+  ok   Y_6: every orientation-preserving isometry has chi(Fix) = 0
+Y_7: N_7 has 14 tets; automorphisms 56 (SnapPy 56); H1(Y_7) = Z/29 + Z/29; orientation-reversing 28: chi(Fix) in [2]; preserving: [0]; consistent=True diag=True signs=True
+      signature (eps, a, chi_c(N_n), chi(Fix Y_n), #tets, #faces, #edges kept) : count  -> {'(-1, -1, 2, 2, 2, 0, 0)': 14, '(-1, 1, 0, 2, 0, 0, 0)': 14, '(1, -1, -2, 0, 0, 2, 2)': 14, '(1, 1, 0, 0, 0, 0, 0)': 12, '(1, 1, 0, 0, 14, 0, 14)': 1, '(1, 1, 0, 0, 14, 28, 14)': 1}
+  ok   Y_7 is a QHS
+  ok   |Isom(N_7)| = 8n = 56, matched by SnapPy
+  ok   N_7: every cusp matrix is diagonal in (mu~, lambda~) (slope kept)
+  ok   N_7: (det A, A_11) multiset from SnapPy == (eps, a) from the spine
+  ok   N_7: geometric chi(Fix core) == Hopf trace == 1 - a for all 56 automorphisms
+  ok   Y_7: every orientation-reversing isometry has chi(Fix) = 2
+  ok   Y_7: every orientation-preserving isometry has chi(Fix) = 0
+Y_8: N_8 has 16 tets; automorphisms 64 (SnapPy 64); H1(Y_8) = Z/21 + Z/105; orientation-reversing 32: chi(Fix) in [2]; preserving: [0]; consistent=True diag=True signs=True
+      signature (eps, a, chi_c(N_n), chi(Fix Y_n), #tets, #faces, #edges kept) : count  -> {'(-1, -1, 2, 2, 2, 0, 0)': 16, '(-1, 1, 0, 2, 0, 0, 0)': 16, '(1, -1, -2, 0, 0, 0, 2)': 8, '(1, -1, -2, 0, 0, 4, 2)': 8, '(1, 1, 0, 0, 0, 0, 0)': 14, '(1, 1, 0, 0, 16, 0, 16)': 1, '(1, 1, 0, 0, 16, 32, 16)': 1}
+  ok   Y_8 is a QHS
+  ok   |Isom(N_8)| = 8n = 64, matched by SnapPy
+  ok   N_8: every cusp matrix is diagonal in (mu~, lambda~) (slope kept)
+  ok   N_8: (det A, A_11) multiset from SnapPy == (eps, a) from the spine
+  ok   N_8: geometric chi(Fix core) == Hopf trace == 1 - a for all 64 automorphisms
+  ok   Y_8: every orientation-reversing isometry has chi(Fix) = 2
+  ok   Y_8: every orientation-preserving isometry has chi(Fix) = 0
+Y_9: N_9 has 18 tets; automorphisms 72 (SnapPy 72); H1(Y_9) = Z/76 + Z/76; orientation-reversing 36: chi(Fix) in [2]; preserving: [0]; consistent=True diag=True signs=True
+      signature (eps, a, chi_c(N_n), chi(Fix Y_n), #tets, #faces, #edges kept) : count  -> {'(-1, -1, 2, 2, 2, 0, 0)': 18, '(-1, 1, 0, 2, 0, 0, 0)': 18, '(1, -1, -2, 0, 0, 2, 2)': 18, '(1, 1, 0, 0, 0, 0, 0)': 16, '(1, 1, 0, 0, 18, 0, 18)': 1, '(1, 1, 0, 0, 18, 36, 18)': 1}
+  ok   Y_9 is a QHS
+  ok   |Isom(N_9)| = 8n = 72, matched by SnapPy
+  ok   N_9: every cusp matrix is diagonal in (mu~, lambda~) (slope kept)
+  ok   N_9: (det A, A_11) multiset from SnapPy == (eps, a) from the spine
+  ok   N_9: geometric chi(Fix core) == Hopf trace == 1 - a for all 72 automorphisms
+  ok   Y_9: every orientation-reversing isometry has chi(Fix) = 2
+  ok   Y_9: every orientation-preserving isometry has chi(Fix) = 0
+      m004 rows (eps, a, chi_c, chi_closed, fixed tets, faces, edges): {'(-1, -1, 2, 2, 2, 0, 0)': 2, '(-1, 1, 0, 2, 0, 0, 0)': 2, '(1, -1, -2, 0, 0, 2, 2)': 2, '(1, 1, 0, 0, 2, 0, 2)': 1, '(1, 1, 0, 0, 2, 4, 2)': 1}
+  ok   m004 glides: no cell mapped to itself (fixed-point free in M), 2 points on the knot in S^3
+  ok   m004 order-4 rotatory reflections: exactly the two tetrahedron centres, nothing on the knot
+  ok   m004 pi-rotations: two open arcs cusp-to-cusp (chi_c = -2: one whole edge kept + two face-rays through a reversed edge's midpoint), closing to a circle in S^3
+  ok   m004 r^2: a closed geodesic through both tets (pi-rotations of the tets, two edge midpoints)
+  ok   m004 identity: everything fixed, chi_c(M) = 0
+  ok   m004: the eight elements of D4 are exactly these five kinds
+== the control: Y_0 = the longitude filling of m004 (b_1 = 1, not a QHS) ==
+Y_0: H1 = Z; orientation-reversing counts chi(Fix) in [0, 4]; preserving [0]
+  ok   Y_0 is not a QHS (b_1 = 1)
+  ok   CONTROL FIRES: orientation-reversing counts on Y_0 are {0, 4}, never 2 (= 2 - 2a, the b_1 = 1 Lefschetz value; tr(g|H^1) = a odd)
+SELFTEST: PASS (71/71)

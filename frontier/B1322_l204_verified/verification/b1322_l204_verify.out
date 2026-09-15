@@ -1,0 +1,7 @@
+  class 1              relator 5.96e-68  non-self-dual defect 1.79e-10  h1(27)=0 h1(27bar)=0  h0(dM;27)=0 h0(dM;27bar)=0  N=0  bound (0, 0)  d1 gap ('1.58e-36', None)  [16s]
+  class 2              relator 1.77e-61  non-self-dual defect 8.95e-11  h1(27)=0 h1(27bar)=0  h0(dM;27)=0 h0(dM;27bar)=0  N=0  bound (0, 0)  d1 gap ('1.53e-36', None)  [18s]
+  class 1 + class 2    relator 2.71e-66  non-self-dual defect 8.36e-11  h1(27)=0 h1(27bar)=0  h0(dM;27)=0 h0(dM;27bar)=0  N=0  bound (0, 0)  d1 gap ('1.02e-37', None)  [19s]
+  class 1 - class 2    relator 7.51e-61  non-self-dual defect 1.46e-10  h1(27)=0 h1(27bar)=0  h0(dM;27)=0 h0(dM;27bar)=0  N=0  bound (0, 0)  d1 gap ('1.69e-36', None)  [19s]
+  control: perturbed point relator residual 5.1e-19 (must be >> 1e-60)
+B1322 L204 VERIFY: PASS
+rc=0
