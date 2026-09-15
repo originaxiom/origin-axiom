@@ -86,3 +86,11 @@ Fibonacci presentation with the deck action, and the descent's order-3 bound. Lo
 **Sources.** B1269 (the double centraliser, c(s) = 5, c(c(s)) = 13); B1277 (the sign-character line and its price); B1300 (no abelian SM
 lines on Y₃); B1273, B1303 (the Fibonacci presentation and the deck); B1356–B1362 (the design). Slansky's tables for the 27 and 78
 decompositions.
+
+*(Currency 2026-09-15, B1365: §5's first two items answered and caveat 2 discharged — the U(1)′ is the Cartan direction γ ⊥ (SM, Y, β),
+its charge table is B1283's γ exactly (U(1)_η, Witten's rank-5 Wilson-line Z′; family-universal here), and no combined line is
+E₆-conjugate to its deck image (the 27-character differs for all 288): the deck is broken by the line alone. The line's bulk
+H¹(Y₃; 78_ρ) is three exactly flat neutral moduli and one vector-like (3,1)_{−1/3} pair, never a doublet (all four SM-reaching order-4
+elements of exp(u(1)²) square to one triplet-type involution), the (2,20) sector empty. And the design fails at the next step: N and
+ν^c carry the same U(1)_η charge, so nothing breaks U(1)_η above the soft scale, there is no seesaw, and B1276's one coupling puts the
+neutrinos at the up-quark masses — the three-apex design needs a 27̄ sector (L215). `frontier/B1365_the_bulk_of_the_line`.)*

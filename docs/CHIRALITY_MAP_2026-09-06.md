@@ -310,6 +310,27 @@ has a complete gauge and matter structure: E₆ on Y₃ with the Hurwitz-torus b
 sum-zero U(1)² (B1356), the Q₈-plus-order-4 line (B1364), and a U(1)²-breaking sector owing the hierarchy (B1361–B1362), the
 5 + 5̄ masses and the doublet–triplet splitting (B1300). What it is not: a manifold.
 
+## 6o. The bulk of the line, and the neutrino obstruction (B1365, 2026-09-15)
+
+The line's four-dimensional content, computed. The unbroken U(1)′ is the Cartan direction γ orthogonal to the Standard Model, to Y
+and to β; on the 27's eleven field types it is B1283's γ exactly (Z′ = −6γ: 4 on Q, u^c, e^c; −2 on d^c, L; 10 on ν^c and N; −8 on
+H_u, D; −2 on H_d, D̄), and γ = (2√15/3)·Q_η with Q_η = √(3/8)Q_χ − √(5/8)Q_ψ — the η model, the U(1) that survives when E₆ breaks
+directly to a rank-5 group by Wilson lines (Witten 1985; Langacker), family-universal here (B1283's family part came from Y₉'s
+flavons); β is the inert U(1)_I. The torus exp(u(1)²) has twelve order-4 elements; four reach exactly the Standard Model and all
+four square to one involution whose −1 roots are the colour triplets (3,1)_{∓1/3} of SU(6)'s 5 ⊕ 5̄. By Fox calculus on
+⟨a, b | φ³(a) = a, φ³(b) = b⟩ — with b₁ = 0, the three sign characters' h¹ = 1 and the twelve order-4 characters' h¹ = 0 as controls —
+the bulk H¹(Y₃; 78_ρ) of every SM-reaching line is three neutral moduli (Ad ρ_{Q₈} = the three sign characters; W = κφ₁φ₂φ₃; three
+explicit one-parameter families of flat connections through the Q₈ point along which SM × U(1)_η stays unbroken) and one vector-like
+(3,1)_{−1/3} ⊕ (3̄,1)_{+1/3} pair with U(1)_η charge ∓2 and no tree-level mass source; the (2,20) sector is empty for every line and
+character (the translations act by −1 on the 2; no character of (ℤ/4)² is −1 on all three translation classes). Then the vacuum: the
+only E₆-charged Standard-Model singlets in the design are N and ν^c, both γ = −5/3, and the bulk's singlets are neutral, so the
+U(1)_η D-term on singlet VEVs vanishes only at the origin — nothing breaks U(1)_η above the soft scale. U(1)_η charges ν^c (unlike
+the E₆SSM's U(1)_N), so the Majorana mass is forbidden, there is no seesaw, and the E₆ cubic's single coupling (B1276) ties
+L ν^c H_u to Q u^c H_u: **the neutrinos are Dirac at the up-quark masses; the three-apex design is excluded as it stands.** The remedy
+is a 27̄ sector — anti-apexes (nine apexes, since the deck is free on them) or the tower's h¹ pairs on an E₇/E₈ locus — registered as
+L215. The deck: no combined line is E₆-conjugate to its deck image (the 27-character differs for all 288), so the three apexes are
+made inequivalent by the line alone.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

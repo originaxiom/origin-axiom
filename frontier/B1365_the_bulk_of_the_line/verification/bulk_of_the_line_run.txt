@@ -1,0 +1,71 @@
+=== (A) the 27 and the unbroken U(1)' ===
+27 weights: 27, integral pairings with all 72 roots, norm^2 4/3 each (the minuscule orbit)
+field  mult     Y  beta  gamma -6gamma  psi  chi  B1283 (beta,gamma)  gamma = -(5/12)psi + chi/4
+L         2  -1/2     1    1/3      -2    1    3  (1, Fraction(1, 3))  True
+d^c       3   1/3     1    1/3      -2    1    3  (1, Fraction(1, 3))  True
+u^c       3  -2/3     0   -2/3       4    1   -1  (0, Fraction(-2, 3))  True
+Q         6   1/6     0   -2/3       4    1   -1  (0, Fraction(-2, 3))  True
+e^c       1     1     0   -2/3       4    1   -1  (0, Fraction(-2, 3))  True
+nu^c      1     0    -1   -5/3      10    1   -5  (-1, Fraction(-5, 3))  True
+D         3  -1/3     0    4/3      -8   -2    2  (0, Fraction(4, 3))  True
+Dbar      3   1/3    -1    1/3      -2   -2   -2  (-1, Fraction(1, 3))  True
+H_u       2   1/2     0    4/3      -8   -2    2  (0, Fraction(4, 3))  True
+H_d       2  -1/2    -1    1/3      -2   -2   -2  (-1, Fraction(1, 3))  True
+N         1     0     1   -5/3      10    4    0  (1, Fraction(-5, 3))  True
+all eleven field types agree with B1283's identification, and gamma = -(5 psi - 3 chi)/12 on every weight: True
+gamma = (2 sqrt 15 / 3) Q_eta on every field type (U(1)' is the eta model's U(1)): True
+the SM singlets of the 27 (Y = 0, colour and weak singlets): ['nu^c', 'N'] with gamma = ['-5/3', '-5/3'] (equal, same sign)
+
+=== (B) the order-4 elements of the torus exp(u(1)^2) ===
+Lambda = span of the 72 pairs (Y.alpha, gamma.alpha): basis [('1/6', '1'), ('0', '5')]; L = Lambda^*: basis [('6', '0'), ('-6/5', '1/5')]
+non-trivial 4-torsion points of T^2: 15; orders: {4: 12, 2: 3}
+order-4 points (the candidates for chi_4's generator): roots of su(6) killed / sent to -1, by SM type (SU(3) dim, SU(2) dim, Y):
+  (m,n) = (0,1): g^2 = (0,2); killed 14 of 30 -> unbroken dim 19 (exactly the SM: False); -1 on 0: {}
+  (m,n) = (0,3): g^2 = (0,2); killed 14 of 30 -> unbroken dim 19 (exactly the SM: False); -1 on 0: {}
+  (m,n) = (1,0): g^2 = (2,0); killed 8 of 30 -> unbroken dim 13 (exactly the SM: True); -1 on 6: {(3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3}
+  (m,n) = (1,1): g^2 = (2,2); killed 20 of 30 -> unbroken dim 25 (exactly the SM: False); -1 on 10: {(3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3, (1, 2, Fraction(1, 2)): 2, (1, 2, Fraction(-1, 2)): 2}
+  (m,n) = (1,2): g^2 = (2,0); killed 8 of 30 -> unbroken dim 13 (exactly the SM: True); -1 on 6: {(3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3}
+  (m,n) = (1,3): g^2 = (2,2); killed 12 of 30 -> unbroken dim 17 (exactly the SM: False); -1 on 18: {(3, 2, Fraction(-5, 6)): 6, (3, 2, Fraction(5, 6)): 6, (3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3}
+  (m,n) = (2,1): g^2 = (0,2); killed 14 of 30 -> unbroken dim 19 (exactly the SM: False); -1 on 0: {}
+  (m,n) = (2,3): g^2 = (0,2); killed 14 of 30 -> unbroken dim 19 (exactly the SM: False); -1 on 0: {}
+  (m,n) = (3,0): g^2 = (2,0); killed 8 of 30 -> unbroken dim 13 (exactly the SM: True); -1 on 6: {(3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3}
+  (m,n) = (3,1): g^2 = (2,2); killed 12 of 30 -> unbroken dim 17 (exactly the SM: False); -1 on 18: {(3, 2, Fraction(-5, 6)): 6, (3, 2, Fraction(5, 6)): 6, (3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3}
+  (m,n) = (3,2): g^2 = (2,0); killed 8 of 30 -> unbroken dim 13 (exactly the SM: True); -1 on 6: {(3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3}
+  (m,n) = (3,3): g^2 = (2,2); killed 20 of 30 -> unbroken dim 25 (exactly the SM: False); -1 on 10: {(3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3, (1, 2, Fraction(1, 2)): 2, (1, 2, Fraction(-1, 2)): 2}
+order-4 points killing exactly the SM's eight among the 30 (B1364's condition): 4 -> [(1, 0), (1, 2), (3, 0), (3, 2)]
+order-2 points (the squares g^2): roots of su(6) killed, by type:
+  (m,n) = (0,2): killed 14 of 30 = SM 8 + {(3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3}
+  (m,n) = (2,0): killed 14 of 30 = SM 8 + {(3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3}
+  (m,n) = (2,2): killed 30 of 30 = SM 8 + {(3, 2, Fraction(-5, 6)): 6, (3, 2, Fraction(5, 6)): 6, (3, 1, Fraction(-1, 3)): 3, (3, 1, Fraction(1, 3)): 3, (1, 2, Fraction(1, 2)): 2, (1, 2, Fraction(-1, 2)): 2}
+
+=== (C) the bulk zero modes H^1(Y_3; 78_rho) ===
+controls: b_1(Y_3) = h^1(trivial) = 0 (rational homology sphere)
+  the 16 characters of H_1 = (Z/4)^2, h^1 by order: order 1: [0], order 2: [1, 1, 1], order 4: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  the deck on the characters: fixed points 1 (the trivial one); order-4 characters fall in orbits of size [3]
+  every Q_8-line sends a^2, b^2, (ab)^2 to +-1 (the squares of Q_8 are central; the translations act by a sign on the 2): True
+  h^1 of the adjoint (3,1) = Ad o rho_Q8 over the 24 lines: [3]; of the doublet (2) alone: [0]
+  the bulk spectrum for each minimal order-4 point (any Q_8 line, the order-4 character (1/4, 0)):
+    g = (1,0): neutral moduli from (3,1): 3; Cartan: 0; charged modes: {('(1,35)', 3, 1, Fraction(-1, 3), Fraction(-2, 1)): 3, ('(1,35)', 3, 1, Fraction(1, 3), Fraction(2, 1)): 3}
+    g = (1,2): neutral moduli from (3,1): 3; Cartan: 0; charged modes: {('(1,35)', 3, 1, Fraction(-1, 3), Fraction(-2, 1)): 3, ('(1,35)', 3, 1, Fraction(1, 3), Fraction(2, 1)): 3}
+    g = (3,0): neutral moduli from (3,1): 3; Cartan: 0; charged modes: {('(1,35)', 3, 1, Fraction(-1, 3), Fraction(-2, 1)): 3, ('(1,35)', 3, 1, Fraction(1, 3), Fraction(2, 1)): 3}
+    g = (3,2): neutral moduli from (3,1): 3; Cartan: 0; charged modes: {('(1,35)', 3, 1, Fraction(-1, 3), Fraction(-2, 1)): 3, ('(1,35)', 3, 1, Fraction(1, 3), Fraction(2, 1)): 3}
+  over 5 lines x 4 order-4 characters x 2 minimal points, the spectrum depends only on the point g: 1 distinct outcomes
+    (3, (('(1,35)', (3, 1, Fraction(-1, 3), Fraction(-2, 1)), 3), ('(1,35)', (3, 1, Fraction(1, 3), Fraction(2, 1)), 3)))
+
+=== (D) the tree-level vacuum of the design's E6 sector ===
+  E6-charged SM singlets: apex 27_i's ['nu^c', 'N'] with gamma = ['-5/3', '-5/3'] (one sign); bulk roots that are SM singlets: True (+-beta, gamma = ['0']) -> the (3,1) moduli are U(1)'-neutral
+  => the U(1)' D-term restricted to SM-singlet VEVs is (-5/3) sum_i (|N_i|^2 + |nu^c_i|^2) times g'^2: it vanishes only at N_i = nu^c_i = 0.
+  => no SM-preserving flat direction breaks U(1)' at tree level; the SM-preserving tree-level moduli are the (3,1) modes alone.
+  the three sign characters multiply to the trivial character (their triple cup product can be non-zero: W_bulk = kappa phi_1 phi_2 phi_3): True
+  a modulus phi_i coupling to a charged bulk pair (X, Xbar) needs chi_i chi_X chi_Xbar = 1, i.e. chi_i = 1: no such cubic exists.
+
+=== (E) the deck test: 27-characters of the line and of its deck image ===
+  lines (24 Q_8 x 12 order-4 characters) whose 27-character differs from their deck image's on some word of length <= 6: 288 of 288
+  (a differing character rules out E6-conjugacy: the deck-transformed flat connection is a different point of the moduli space)
+  Q_8 parts alone whose 2-character agrees with the deck image's: 24 of 24 (the Q_8 part is deck-symmetric up to conjugation, B1364)
+
+=== (F) the three flat directions of the (3,1) moduli: explicit families of SU(2)_beta-representations through the Q_8 line ===
+  over the 24 lines, (family along a's axis, along b's axis, along ab's axis) hold for all test angles: {(True, True, True): 24}
+  along b's family (a fixed at (0.0, -1.0, 0.0, 0.0)): |[a, b_theta] - 1| at theta = pi/2 (the Q_8 point), 1.0, 0.1, 0.0: [2.0, 1.4161, 0.0199, 0.0] -> non-abelian (SM x U(1)' unbroken) until the abelian end theta = 0, where U(1)_beta returns
+
+DONE

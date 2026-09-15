@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1212** |
-| words of findings prose | **889,690** |
-| test lock files referenced | **726** |
-| arcs carrying an authored verdict | **1212** (100.0 %) |
+| research arcs with findings | **1213** |
+| words of findings prose | **893,266** |
+| test lock files referenced | **727** |
+| arcs carrying an authored verdict | **1213** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 800 |
-| NEGATIVE | 314 |
+| NEGATIVE | 315 |
 | OPEN | 87 |
 | RETRACTED | 11 |
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1364`** (1559 words, 1 locks)  
+**PROVED — `B1364`** (1705 words, 1 locks)  
 THE LEVEL MISMATCH RESOLVED: on the E6 root system (SO(10) x U(1) coordinates, 72 roots) the Standard Model's centraliser is su(2)_beta + u(1)^2 (beta the SO(10)-singlet weight of the 16; dimension 5 = B1269's c(s)), the centraliser of su(2)_beta is su(6) (30 roots), a Q_8 placed in SU(2)_beta has centraliser SU(6), and an order-4 element of the u(1)^2 kills exactly the eight Standard-Model roots among su(6)'s thirty, so the flat connection (rho_{Q_8} into SU(2)_beta) x (an order-4 character of H_1 = (Z/4)^2) leaves exactly su(3) + su(2) + u(1)_Y + u(1)' -- the 13-dimensional minimum B1269 proved no flat connection can beat. Y_3's Fibonacci group F(2,6) has 24 surjections onto Q_8 (the Hantzsche-Wendt holonomy lifted; none onto 2T), each deck-invariant up to 2T-conjugation, while the 12 order-4 characters are permuted by the deck without fixed points: the combined line breaks the deck as B1362 requires. With the three chiral 27s at the apexes rather than in h^1 (B1355-B1360), B1277's price does not arise: the design's closing carries both the three and the breaking E6 -> SM x U(1)'. The descent cannot: its order-3 characters leave at least 17. The compact closing remains unconstructed; the U(1)'-charges, the 5+5-bar masses and the doublet-triplet splitting are the U(1)^2-breaking sector's. 0 of 19.  
 `B1364_the_level_mismatch_resolved/FINDINGS.md`
 
-**NEGATIVE — `B1363`** (817 words, 1 locks)  
-THE DESCENT'S WILSON LINES: the object's own closing S^3(4_1; 2pi/3) has H_1 = Z/3 (pi_1^orb = pi_1(m004)/<<mu^3>>; the crystallographic five-term sequence with coinvariants Z/2 agrees), and Kac's classification of the order-3 inner automorphisms of E6 -- six classes with fixed subalgebras E6, A5+u(1), A2^3, A1+A4+u(1), D5+u(1), D4+2u(1) -- contains no Standard-Model commutant (nor do the eleven order-4 classes, single elements); so the descent's abelian Wilson lines cannot break E6 to SU(3) x SU(2) x U(1)^2, as the cover's cannot (B1277, B1300): L214 (i) negative for abelian lines on both levels of the Z/3; the non-abelian half registered. 0 of 19.  
-`B1363_the_descents_wilson_lines/FINDINGS.md`
+**NEGATIVE — `B1365`** (2929 words, 1 locks)  
+THE BULK OF THE LINE: B1364's unbroken U(1)' is the Cartan direction gamma orthogonal to the Standard Model, to Y and to beta; its charges on the eleven field types of the 27 are B1283's (beta, gamma) table exactly and gamma = (2 sqrt 15 / 3) Q_eta -- the eta model, the U(1) of Witten's rank-5 Wilson-line breaking (B1283's Z' was this direction plus a family part; here it is family-universal, with ATLAS's m_{Z'_eta} > 4.5 TeV applying directly). The torus exp(u(1)^2) has twelve order-4 elements, four of which reach exactly the Standard Model, and all four square to one triplet-type involution; by Fox calculus on F(2,6) (controls: b_1 = 0, the three sign characters h^1 = 1, the twelve order-4 characters 0) the bulk H^1(Y_3; 78_rho) of every SM-reaching line is three neutral exactly-flat moduli (Ad rho_{Q_8}, W = kappa phi_1 phi_2 phi_3, three explicit families of flat connections) plus one vector-like colour-triplet pair (3,1)_{-1/3} + conj with no tree-level mass source -- never a doublet, and the (2,20) sector is empty. The D-term sign theorem: the only E6-charged SM singlets are the apex 27s' N and nu^c, both with gamma = -5/3, so no tree-level VEV breaks U(1)_eta above the soft scale; since U(1)_eta charges nu^c (unlike U(1)_N), the Majorana mass is forbidden, there is no seesaw, and B1276's one coupling ties L nu^c H_u to Q u^c H_u: the three-apex design predicts neutrinos at the up-quark masses and is excluded as it stands. Remedy registered as L215 (a 27-bar sector: nine apexes, or the tower's h^1 pairs on an E7/E8 locus). The deck test: all 288 combined lines differ from their deck images in the 27-character (no E6-conjugacy): the deck is broken by the line alone. 0 of 19.  
+`B1365_the_bulk_of_the_line/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

@@ -14884,3 +14884,18 @@ with (Q₈ ⊂ SU(2)_β, g) are the SM's 8 → unbroken 13. Hom(F(2,6), Q₈) wi
 image inside 2T; the 12 order-4 characters permuted without fixed points. The descent's order-3 elements kill ≥ 12 of 30 (≥ 17
 unbroken). L214 resolved as design; surfaces (THE_CLOSING §0/§1/§6.7, the view, THE_SM_VERDICT, CHIRALITY_MAP §6n, the SM
 specification ledger addendum, the letter's twenty-second note), currency notes on B1277, B1300, B1363. Lock (seconds). 0 of 19.
+
+### B1365 — the bulk of the line: U(1)′ = U(1)_η, three moduli and a triplet pair, the deck broken by every line, and the neutrino obstruction (2026-09-15)
+
+The 27 in the root coordinates (27 weights, integral pairings); γ = the Cartan direction ⊥ (SM, Y, β) reproduces B1283's (β, γ) table on
+all eleven field types and γ = (2√15/3)·Q_η (the η model; β = the inert U(1)_I). The torus exp(u(1)²): Λ = span(Y·α, γ·α) with basis
+(1/6, 1), (0, 5), L = Λ* with basis (6, 0), (−6/5, 1/5); 15 non-trivial 4-torsion points (12 of order 4, 3 of order 2); four order-4
+points reach exactly the SM (13), four leave 19, two 25, two 17; the four SM-reaching ones square to the one triplet-type involution.
+Fox calculus on F(2,6): b₁ = 0; sign characters h¹ = 1 (three), order-4 characters 0 (twelve); Ad ρ_{Q₈}: h¹ = 3 for all 24 lines; the
+doublet alone 0; the bulk of every SM-reaching line = 3 neutral moduli + (3,1)_{−1/3} (γ = −2) + conjugate, the (2,20) sector empty (one
+outcome over 5 lines × 4 characters × 2 points). The D-term sign theorem (N, ν^c: γ = −5/3; bulk singlets neutral); W = κφ₁φ₂φ₃; no
+modulus–pair cubic. The deck test: 288 of 288 combined lines differ from their deck images in the 27-character (Q₈ parts: 24 of 24
+agree). Three explicit families of flat connections through each Q₈ line. Verdict NEGATIVE (the three-apex design's neutrinos are Dirac
+at the up-quark masses; no seesaw without 27̄s) + PROVED; L215 registered; surfaces (THE_CLOSING §0/§1/§6.8, the view, THE_SM_VERDICT,
+CHIRALITY_MAP §6o, the SM specification ledger addendum, the letter's twenty-third note, hint 19), currency notes on B1283, B1364,
+B1276, B1300, B1361, B1277. Lock (~20 s). 0 of 19.

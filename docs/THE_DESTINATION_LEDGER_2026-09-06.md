@@ -217,3 +217,10 @@ off-diagonal E₆ cubic, so the design's tree-level mass matrices are hollow and
 bound, the bound now an identity — refuted in every charged sector; with a neutral Higgs no tree-level Yukawa. Whatever fills these
 items comes from the sector that breaks the apex U(1)s (L213 (vii)), not from the E₆ cubic at tree level.
 `frontier/B1361_the_decks_texture`.)*
+
+*Currency 2026-09-15 (B1365): rows 20–22 and D3's "neutrino mass" — in the closing's design (three apex 27s, the η line of B1364) the
+"unpaired" case is forced (no 27̄s) and sharpened: the unbroken U(1)′ is U(1)_η, which charges ν^c, and both Standard-Model singlets of
+the 27 carry the same U(1)_η charge, so no tree-level VEV breaks it above the soft scale — no Majorana mass at any order above that
+scale, not only "nowhere in the cubic" (B1271 (d)). With y_ν = y_u (B1276) the neutrinos are Dirac at the up-quark masses: the design
+is excluded by these rows unless it acquires a 27̄ sector (L215), in which case the paired case returns — massless at tree level, with
+ν^c ν^c ν̄^c ν̄^c/M the seesaw's source. `frontier/B1365_the_bulk_of_the_line` §4.*

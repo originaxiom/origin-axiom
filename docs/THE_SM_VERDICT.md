@@ -478,3 +478,12 @@ left it.
 > B1269's minimum. With the three 27s at the apexes, B1277's price does not arise: the design's closing carries both the three and
 > the breaking, at the price of one U(1)′; the deck is broken by the character; the descent cannot follow. 0 of 19; price unchanged
 > (`frontier/B1364_the_level_mismatch_resolved`).
+
+> **Currency note (2026-09-15, B1365): the line's bulk, and the neutrino obstruction.** The U(1)′ is U(1)_η (γ = (2√15/3)·Q_η; B1283's
+> Z′ charges, family-universal; Witten's rank-5 Wilson-line breaking; m_{Z′_η} > 4.5 TeV). The bulk H¹(Y₃; 78_ρ), by Fox calculus on
+> F(2,6) with the alphabet as control, is three exactly flat neutral moduli and one vector-like (3,1)_{−1/3} pair — never a doublet
+> (all four SM-reaching order-4 elements square to the triplet-type involution), the (2,20) sector empty. The sign theorem: N and ν^c
+> both carry γ = −5/3 and the bulk singlets are neutral, so no tree-level VEV breaks U(1)_η above the soft scale; U(1)_η charges ν^c, so
+> there is no seesaw, and B1276's one coupling puts the neutrinos at the up-quark masses: the three-apex design is excluded as it
+> stands and needs a 27̄ sector (L215). The deck is broken by every combined line (288 of 288 27-characters differ). 0 of 19; price
+> unchanged (`frontier/B1365_the_bulk_of_the_line`).

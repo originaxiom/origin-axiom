@@ -2672,3 +2672,29 @@ the character (B1362's demand); the descent cannot follow (its order-3 elements 
 sector's three duties (the hierarchy, the 5 + 5̄ masses, the doublet–triplet splitting) and the compact closing itself.
 `frontier/B1364_the_level_mismatch_resolved`.
 
+**L214 status 2026-09-15 (B1365): the resolved line's bulk computed — and the resolved design fails at the next step.** The U(1)′ is
+the Cartan direction γ ⊥ (SM, Y, β): its charges are B1283's (β, γ) table exactly and γ = (2√15/3)·Q_η — the η model, the U(1) of
+Witten's rank-5 Wilson-line breaking (Langacker RMP 2009), family-universal here; m_{Z′_η} > 4.5 TeV (ATLAS). The torus exp(u(1)²)
+has twelve order-4 elements, four reaching the Standard Model, all squaring to one triplet-type involution; by Fox calculus on
+F(2,6) the bulk H¹(Y₃; 78_ρ) of every SM-reaching line is three neutral exactly flat moduli (three explicit families of flat
+connections through the Q₈ point) plus one vector-like (3,1)_{−1/3} pair, never a doublet, with the (2,20) sector empty. The
+D-term sign theorem: both SM singlets of the 27 (N, ν^c) carry γ = −5/3 and the bulk's singlets are neutral, so no tree-level VEV
+breaks U(1)_η above the soft scale; since U(1)_η charges ν^c, there is no seesaw, and B1276's one coupling puts the neutrinos at
+the up-quark masses. The three-apex design is excluded as it stands → L215. The deck test: all 288 combined lines differ from
+their deck images in the 27-character (no E₆-conjugacy). `frontier/B1365_the_bulk_of_the_line`.
+
+## L215 — THE 27̄ SECTOR AND THE SEESAW (registered 2026-09-15, B1365; the design's next structural step)
+
+The three-apex closing with the η line has, as E₆-charged Standard-Model singlets, only the apex 27s' N and ν^c, both with the same
+U(1)_η charge, so U(1)_η is exact above the soft scale, the Majorana mass ν^c ν^c is forbidden, and with the E₆ cubic's one coupling
+(B1276) the neutrinos are Dirac at the up-quark masses (B1365 §4). A 27̄ sector cures it in the standard way: with ν̄^c, N̄ present,
+⟨ν^c ν̄^c⟩ and ⟨N N̄⟩ are D-flat (B1283's paired branches), U(1)_η breaks at a high scale, and ν^c ν^c ν̄^c ν̄^c/M gives M_R ~ ⟨ν̄^c⟩²/M.
+**Computation:** (a) anti-apexes — the deck acts freely on Y₃'s apexes (B1356, B1358), so 27̄ apexes come in orbits of three and net
+chirality 3(n₊ − n₋) = 3 needs nine apexes (six 27s, three 27̄s): the sum rule with nine charges, the selection rule (which cubics
+survive), the vacuum (which pairs get Dirac masses from the bulk moduli, which stay light), and whether the twistor/Kronheimer
+models admit the opposite chirality at an apex; (b) the tower's h¹ sector — an E₇ (or E₈) gauge group on the E₆ locus whose line
+leaves E₆-charged bulk modes 133 ⊃ 27 ⊕ 27̄ (B1277/B1278's mechanism: three vector-like pairs from the sign characters) on top of the
+three chiral apex 27s — the hybrid of the closed closing and the apex design: the line's centraliser in E₇, the bulk spectrum by the
+Fox calculus of B1365, the vacuum; (c) in either, the neutrino sector: M_R, the light masses, and whether the hollow texture (B1361)
+survives the 27̄s' couplings. Until (a) or (b) is computed, the closing's design is excluded by neutrino masses. `frontier/B1365_the_bulk_of_the_line` §4.
+

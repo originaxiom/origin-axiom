@@ -103,3 +103,10 @@ cubic), B1273 (the zero diagonal), B1279 (the 19 624 vacua; the branch list is t
 exact F-flat rule for squarefree cubics; the Luty–Taylor / Buccella–Derendinger–Ferrara–Savoy pairing criterion for
 D-flatness; the E₆SSM Z′ literature for comparison (the U(1)_N of the E₆SSM is the direction under which ν^c is neutral;
 the object's Z′ = (5ψ − 3χ)/2 is not it — ν^c and N both carry charge 10). Registers no identification change.
+
+*(Currency 2026-09-15, B1365: the Z′'s E₆ part, (5ψ − 3χ)/2 = −6γ, is U(1)_η — γ = (2√15/3)·Q_η with Q_η = √(3/8)Q_χ − √(5/8)Q_ψ, the
+U(1) of Witten's rank-5 Wilson-line breaking (Langacker RMP 2009); the (β, γ) table above is reproduced on all eleven field types from
+the E₆ weights, and β is the inert U(1)_I. On the apex design's Y₃ line (B1364) the same γ is the whole U(1)′, family-universal (no
+flavons). This arc's nine paired branches existed because the 27̄s of h¹ supplied N̄, ν̄^c with the opposite γ; the apex design has no
+27̄s, and B1365's sign theorem shows it then has no U(1)_η-breaking direction at all — hence no seesaw and neutrinos at the up-quark
+masses (L215). `frontier/B1365_the_bulk_of_the_line`.)*

@@ -694,3 +694,12 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       G₂-holonomy background produced by the same ℤ/3 that makes the closing Euclidean. Pattern;
       the 4d consequences (the folded gauge theory on S³(4₁; 3), its matter along the knot) are
       not computed (L213 (v)).
+  (19) H-ETA-UNBREAKABLE (type LAW-SHAPED, fenced; 2026-09-15, B1365): every flat E₆ connection
+      commuting with the Standard Model leaves the Cartan direction γ ⊥ (SM, Y, β) unbroken — it is
+      U(1)_η, the η model's Z′ — and the 27's two Standard-Model singlets, N and ν^c, carry the same
+      γ-charge, so a theory whose E₆-charged fields are 27s and the 78's bulk modes can never break
+      U(1)_η by a Standard-Model-preserving VEV: the D-term has one sign. Consequences seen on the
+      three-apex design: U(1)_η exact above the soft scale, no Majorana mass for ν^c, neutrinos at
+      the up-quark masses through the E₆ cubic's one coupling. The law-shaped part is the sign; the
+      remedy is structural (27̄s: anti-apexes or the tower's h¹ pairs, L215). Fenced until a 27̄
+      sector is computed on the design.

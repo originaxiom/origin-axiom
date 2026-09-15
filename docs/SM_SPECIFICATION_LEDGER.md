@@ -450,3 +450,9 @@ surjections onto Q₈, the holonomy's lift) placed in the Standard Model's centr
 U(1)², leave exactly SU(3) × SU(2) × U(1)_Y × U(1)′ — B1269's 13-dimensional minimum — so the design's E₆ locus carries the
 breaking; the "no SM lines on Y₃" of B1277/B1300 was the alphabet's (generations by h¹). The price is the surviving U(1)′ and the
 U(1)²-breaking sector's duties. Rows unchanged in count: 0 of 19.
+
+*Addendum, the same night (B1365):* rows A1/C/E — the line's U(1)′ is U(1)_η (B1283's Z′ charges, family-universal); its bulk is three
+exactly flat moduli and one vector-like (3,1)_{−1/3} pair (never a doublet); and the design's neutrino rows fail: both Standard-Model
+singlets of the 27 carry the same U(1)_η charge, so no tree-level VEV breaks U(1)_η above the soft scale, the seesaw is forbidden, and
+B1276's one coupling puts the neutrinos at the up-quark masses. The three-apex design needs a 27̄ sector (L215) or is excluded. Rows
+unchanged in count: 0 of 19; the neutrino rows now carry a design-level obstruction rather than an absence.

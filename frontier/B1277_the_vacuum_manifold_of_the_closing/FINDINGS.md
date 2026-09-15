@@ -157,3 +157,9 @@ fundamental group also has non-abelian lines — 24 surjections onto Q₈, the h
 centraliser SU(2)_β (c(SU(2)_β) = SU(6)) with an order-4 character into the U(1)² leaves exactly SU(3) × SU(2) × U(1)_Y × U(1)′, B1269's
 minimum, without a vev. In the apex design (B1355–B1360), where the three 27s are point-localised, the price paid here does not arise.
 `frontier/B1364_the_level_mismatch_resolved`.)*
+
+*(Currency 2026-09-15, B1365: this arc's paired branches ⟨N N̄⟩, ⟨ν^c ν̄^c⟩ used the 27̄s of h¹; the apex design (three 27s at points,
+B1364's line) has none, and B1365's sign theorem — N and ν^c carry the same charge under the unbroken U(1)_η = γ, the bulk's singlets
+none — leaves it with no Standard-Model-preserving direction that breaks U(1)_η: only the three neutral moduli of the line's adjoint
+(W = κφ₁φ₂φ₃) are flat. The closed closing's vector-like sector is exactly what the apex design lacks (L215).
+`frontier/B1365_the_bulk_of_the_line`.)*

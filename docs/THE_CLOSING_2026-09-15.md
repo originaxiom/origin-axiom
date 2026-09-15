@@ -23,6 +23,11 @@ companion-free and parity-free, with a topology they do not describe. It is not 
 breaking — a non-abelian Wilson line onto Q₈ in the Standard Model's own centraliser SU(2)_β with an order-4 character leaves
 exactly SU(3) × SU(2) × U(1)_Y × U(1)′, the minimum any flat connection can (B1364, §6.7) — so the design's closing carries both
 the three chiral 27s and the breaking, at B1269's price of one U(1)′.
+That U(1)′ is U(1)_η, the Z′ of Witten's rank-5 Wilson-line breaking, with B1283's charges — and the price is higher than a Z′: the
+line's bulk carries three flat moduli and a vector-like colour-triplet pair, and because both Standard-Model singlets of the 27
+carry the same U(1)_η charge nothing in the design breaks U(1)_η above the soft scale, so the right-handed neutrinos have no
+Majorana mass and B1276's one coupling puts the neutrinos at the up-quark masses: **the three-apex closing needs a 27̄ sector or is
+excluded** (B1365, §6.8; L215).
 
 ## 1. The ledger
 
@@ -43,6 +48,7 @@ the three chiral 27s and the breaking, at B1269's price of one U(1)′.
 | A symplectic 2T on K3 has one of two fixed-point types (Xiao #37, #38), neither with an A₁ orbit: no K3 fibre carries the companion | PROVED (Burnside count) + CITED (Nikulin, Xiao) | B1359 |
 | The design's tree-level texture is hollow (only 27₁27₂27₃ survives the apex U(1)²) and σ₁ = σ₂ + σ₃ exactly: refuted; flavour needs the U(1)²-breaking sector | PROVED (selection rule, identity) + NEGATIVE | B1361 |
 | Y₃ carries a flat E₆ connection with unbroken group exactly SM × U(1)′: Q₈ (24 surjections of F(2,6)) in the SM's centraliser SU(2)_β plus an order-4 character; the deck broken by the character; the descent cannot (≥ 17) | PROVED (root system; enumeration) | B1364 |
+| The line's U(1)′ is U(1)_η with B1283's Z′ charges (family-universal); the bulk H¹(Y₃; 78_ρ) is three exactly flat moduli plus one vector-like (3,1)_{−1/3} pair, never a doublet, the (2,20) sector empty; the U(1)_η D-term has one sign on the 27's singlets — no seesaw, neutrinos at the up-quark masses without a 27̄ sector; every combined line breaks the deck (288 of 288) | PROVED (charge table, torsion census, Fox calculus, deck test) + NEGATIVE (the neutrino sector) | B1365 |
 | The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
 | AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1 | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
 | Its topology: singular set the E₆ locus and the apex only; b₂(link) = 1; the E₆ link pairs non-trivially with the generator (the inflow applies) | PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones) | B1360 |
@@ -112,6 +118,19 @@ those local models on a circle — vector-like.
    characters leave at least 17 (B1363, B1364) — so the three and the breaking both live on the cover, and the deck is broken by
    the breaking line, as B1362 requires. What the closing still owes: the U(1)′ charges, the 5 + 5̄ masses, the doublet–triplet
    splitting (B1300), and its own existence.
+   the breaking line, as B1362 requires. What the closing still owes: the U(1)′ charges, the 5 + 5̄ masses, the doublet–triplet
+   splitting (B1300), and its own existence.
+8. **The neutrino obstruction (B1365, the same night).** The U(1)′ charges are now computed: U(1)′ is the Cartan direction γ
+   orthogonal to the Standard Model, to Y and to β, with B1283's (β, γ) table exactly and γ = (2√15/3)·Q_η — the η model, the U(1)
+   of Witten's rank-5 Wilson-line breaking, here family-universal (m_{Z′_η} > 4.5 TeV, ATLAS). The line's bulk H¹(Y₃; 78_ρ) is
+   three neutral exactly flat moduli (Ad ρ_{Q₈}, W = κφ₁φ₂φ₃, three explicit families of flat connections) and one vector-like
+   (3,1)_{−1/3} pair with no tree-level mass source — never a doublet: all four SM-reaching order-4 elements of exp(u(1)²) square
+   to the same triplet-type involution — and no (2,20) modes. Then the sign theorem: the only E₆-charged Standard-Model singlets
+   are N and ν^c with γ = −5/3 each, so the U(1)_η D-term vanishes on singlet VEVs only at the origin and U(1)_η is exact above
+   the soft scale. U(1)_η charges ν^c, the Majorana mass is forbidden, there is no seesaw, and the E₆ cubic's one coupling (B1276)
+   ties L ν^c H_u to Q u^c H_u: **the neutrinos are Dirac at the up-quark masses, and the three-apex design is excluded as it
+   stands.** The remedy is a 27̄ sector — anti-apexes (nine apexes, the deck being free) or the tower's h¹ pairs on an E₇/E₈ locus —
+   registered as L215. The deck is broken by every combined line (no E₆-conjugacy to its deck image, 288 of 288).
 
 ## 7. The three faces, once more
 

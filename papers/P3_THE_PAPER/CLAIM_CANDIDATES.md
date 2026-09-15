@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1112 settled arcs — 74%** —
+the field is **absent on 828 of 1113 settled arcs — 74%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (121) = 544 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (122) = 545 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.97** on the corpus's own law vocabulary against
-**1.15** for the rest — **2.58×**. The criterion
+**1.15** for the rest — **2.57×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -204,7 +204,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1360` | PROVED | S | | THE COMPANION-FREE APEX: Acharya-Witten's E7 -> E6 unfolding cone X = (H^k///K')/U(1)' is the total space of Kronheimer's E7 family over the omitted node's D-term; the no… |
 | `B1362` | PROVED | S | | THE HIERARCHY IS A U(1)-BREAKING EFFECT AT ORDER ONE: a deck-symmetric complex symmetric Yukawa is the circulant circ(x,y,y) with eigenvalues x+2y, x-y, x-y (symbolic), s… |
 
-## §6 the observer — one bit, priced (145)
+## §6 the observer — one bit, priced (146)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -353,6 +353,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1356` | PROVED | S | | THE THREE ON Y3: on the flat Hantzsche-Wendt closing Y3 the deck fixes exactly one closed geodesic (the lift of the knot; P2_1 3's torsion is its 3-fold rotations only), … |
 | `B1357` | PROVED | S | | THE OBJECT'S OWN JOYCE ORBIFOLD: compactifying the E6 fibre C^2/2T by the Hurwitz torus (the unique 2T-invariant lattice up to scale) and letting the Hantzsche-Wendt grou… |
 | `B1359` | PROVED | S | | THE K3 ALTERNATIVE, DECIDED: the orbit types of a 2T action with isolated fixed points are determined by a Burnside count from the per-order fixed-point numbers (fixed co… |
+| `B1365` | NEGATIVE | S | | THE BULK OF THE LINE: B1364's unbroken U(1)' is the Cartan direction gamma orthogonal to the Standard Model, to Y and to beta; its charges on the eleven field types of th… |
 
 ## §2 the object — arithmetic and geometry (53)
 

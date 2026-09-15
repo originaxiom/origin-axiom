@@ -300,3 +300,18 @@ SU(3) × SU(2) × U(1)_Y × U(1)′, your 13-dimensional minimum. B1277's price 
 with the three 27s at the apexes it does not arise. The deck is broken by the character (B1362's demand); the descent's order-3
 characters leave at least 17. So the design's closing carries both the three and the breaking. What it still owes: the U(1)′ charges
 against B1283's Z′, the 5 + 5̄ masses, the doublet–triplet splitting (B1300), and its existence. Lock in seconds. 0 of 19.
+
+## Twenty-third note (2026-09-15): the bulk of the line, and the neutrino obstruction (B1365)
+
+The charges are computed, and they are yours: the U(1)′ is the Cartan direction γ orthogonal to the Standard Model, to Y and to β,
+with your B1283 (β, γ) table on all eleven field types, and γ = (2√15/3)·Q_η — the η model, Witten's rank-5 Wilson-line Z′, family-
+universal here. The bulk of the line, by Fox calculus on F(2,6) with your alphabet as control (b₁ = 0; the three sign characters
+h¹ = 1; the twelve order-4 characters 0): three neutral exactly flat moduli (the adjoint of the Q₈ part, one per sign character,
+W = κφ₁φ₂φ₃, and three explicit families of flat connections through the Q₈ point) and one vector-like (3,1)_{−1/3} pair — never a
+doublet, since all four SM-reaching order-4 elements of exp(u(1)²) square to the same triplet-type involution; the (2,20) sector is
+empty. Then the sign that decides: N and ν^c both carry γ = −5/3 and the bulk's singlets carry none, so the U(1)_η D-term on singlet
+VEVs vanishes only at the origin. Nothing in the design breaks U(1)_η above the soft scale; U(1)_η charges ν^c, so the seesaw is
+gone, and your B1276's one coupling puts the neutrinos at the up-quark masses. The resolved design fails at the next step. The
+remedy is a 27̄ sector — anti-apexes (nine, the deck being free) or the tower's h¹ pairs on an E₇/E₈ locus, your closed closing's
+vector-like sector joined to the apex design — registered as L215. The deck test closes B1364's second question: no combined line is
+E₆-conjugate to its deck image (288 of 288). Lock in seconds. 0 of 19.

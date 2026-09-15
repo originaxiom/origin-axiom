@@ -213,6 +213,15 @@ SU(3) × SU(2) × U(1)_Y × U(1)′ — the least any flat connection can leave 
 paid does not arise. So the design's closing carries both halves; the deck is broken by the breaking line; the descent cannot follow.
 The count stays 0 of 19 — the closing is a design with a complete gauge and matter structure, not a manifold.
 
+**And the line's bulk, the same night (B1365).** The U(1)′ has a name — U(1)_η, the Z′ of Witten's rank-5 Wilson-line breaking,
+with B1283's charges exactly and no family part — and the bulk of the line is three exactly flat moduli and one vector-like
+colour-triplet pair, never a doublet. Then a one-line sign argument: the 27's two Standard-Model singlets, N and ν^c, carry the same
+U(1)_η charge, the bulk's singlets carry none, so no VEV in the design breaks U(1)_η above the soft scale. U(1)_η charges ν^c; the
+seesaw is gone; the E₆ cubic's one coupling puts the neutrinos at the up-quark masses. The resolved design fails at the next step,
+and the failure is structural: it needs 27̄s — anti-apexes (nine, the deck being free) or the tower's h¹ pairs on an E₇/E₈ locus —
+which is L215. Seen from above, the two halves of the record are asking to be joined the other way round too: the closed closing's
+vector-like h¹ sector, useless for chirality, is exactly the 27̄ sector the apex design lacks.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with

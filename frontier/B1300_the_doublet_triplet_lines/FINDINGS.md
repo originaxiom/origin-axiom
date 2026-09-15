@@ -173,3 +173,10 @@ generations by h¹. Y₃'s non-abelian lines onto Q₈, placed in the Standard M
 exactly SM × U(1)′; the theorem of this arc — a Wilson line cannot split D from H — stands there too, and in the apex design the line
 does not act on the point-localised 27s at all: the doublet–triplet splitting is the U(1)²-breaking sector's duty.
 `frontier/B1364_the_level_mismatch_resolved`.)*
+
+*(Currency 2026-09-15, B1365: the theorem's bulk counterpart on Y₃'s non-abelian line — of the twelve order-4 elements of the torus
+exp(u(1)²) (u(1)² = the Standard Model's Cartan complement orthogonal to β), the four that reach exactly the Standard Model all square
+to the same involution, whose −1 roots are the colour triplets (3,1)_{∓1/3} of SU(6)'s 5 ⊕ 5̄; so the bulk H¹(Y₃; 78_ρ) of every
+SM-reaching line carries one vector-like triplet pair and never a doublet, while the doublet-type −1 sets belong to the elements that
+stop at SU(5) × U(1) or SU(3)³-like groups. The triplet's protection again, now as the line's bulk.
+`frontier/B1365_the_bulk_of_the_line` §3.)*

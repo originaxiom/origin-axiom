@@ -65,3 +65,17 @@ escalation are the proof).
   (a root system from its Cartan matrix by simple reflections, sub-root-systems by coefficient conditions, commutants in gl(2, ℂ)).
   Reusable beyond their arcs: the Cayley–Dickson G₂ action and the Hurwitz-lattice reduction are the bench's first exact G₂/2T
   machinery; the Burnside count decides orbit types for any finite group acting with isolated fixed points from its per-element counts.
+- **B1361–B1365 (2026-09-15, the SM seat)** — five more exact instruments, each run on this bench the day it is listed and locked:
+  `frontier/B1361_the_decks_texture/verification/decks_texture.py` (the U(1)² selection rule on cubics by enumeration; the symbolic
+  identity e₂(MM†) = (tr MM†/2)² for hollow complex symmetric 3 × 3 matrices); `frontier/B1362_the_hierarchy_is_u1_breaking/verification/hierarchy_bound.py`
+  (circulant eigenvalues, Weyl's inequality for singular values, random search over unitaries in the Takagi frame);
+  `frontier/B1363_the_descents_wilson_lines/verification/descent_lines.py` (Kac's classification of finite-order inner automorphisms
+  from the affine diagram — components, Dynkin type, commutant — and the Smith form of (1 − g)ℤ³ for a crystallographic group);
+  `frontier/B1364_the_level_mismatch_resolved/verification/sm_lines_on_y3.py` (the E₆ root system in SO(10) × U(1) coordinates with
+  exact pairings, centralisers by root orthogonality, homomorphisms of the Fibonacci presentation F(2,6) into a finite quaternion
+  group with the deck's action); `frontier/B1365_the_bulk_of_the_line/verification/bulk_of_the_line.py` (the 27's weights and charge
+  table; the 4-torsion census of a rational subtorus by its coweight lattice; **Fox calculus for the twisted cohomology H¹(π₁(Y₃); V_ρ)
+  on the two-relator presentation**, validated on b₁ = 0 and the alphabet; the 27-character deck test; explicit deformation families
+  of flat SU(2) connections). Reusable beyond their arcs: the Fox-calculus instrument computes the bulk zero modes of any flat
+  connection on any 3-manifold given by a finite presentation, and the torsion census classifies every finite-order element of a
+  named subtorus by the roots it kills.

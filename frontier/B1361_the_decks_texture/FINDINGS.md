@@ -79,3 +79,9 @@ Lock: `tests/test_b1361_the_decks_texture.py`.
 degenerate pair, and Weyl's inequality on the hollow tree level gives ‖E‖ ≥ (m₃ − m₂ − m₁)/3 for the U(1)²-violating part: a third of
 the third-generation Yukawa, attained numerically. The breaking sector is a leading effect, not a correction.
 `frontier/B1362_the_hierarchy_is_u1_breaking`.)*
+
+*(Currency 2026-09-15, B1365: the hollow texture's neutrino face — L ν^c H_u is hollow like the rest and at the up-quark Yukawa
+(B1276), and on the three-apex design the seesaw that would rescue it is forbidden: the unbroken U(1)′ is U(1)_η, it charges ν^c, and
+the 27's two Standard-Model singlets carry the same U(1)_η charge, so no tree-level VEV breaks it above the soft scale. Two neutrinos
+at λ⟨H_u⟩ and one massless at tree level; order-one corrections (B1362) change the texture, not the scale. The design needs 27̄s
+(L215). `frontier/B1365_the_bulk_of_the_line` §4.)*

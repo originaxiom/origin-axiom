@@ -1,0 +1,12 @@
+{
+ "id": "B1365",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": ["B1364", "B1283", "B1269", "B1276", "B1361", "B1362", "B1300", "B1277", "B1278", "B1356"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE BULK OF THE LINE: B1364's unbroken U(1)' is the Cartan direction gamma orthogonal to the Standard Model, to Y and to beta; its charges on the eleven field types of the 27 are B1283's (beta, gamma) table exactly and gamma = (2 sqrt 15 / 3) Q_eta -- the eta model, the U(1) of Witten's rank-5 Wilson-line breaking (B1283's Z' was this direction plus a family part; here it is family-universal, with ATLAS's m_{Z'_eta} > 4.5 TeV applying directly). The torus exp(u(1)^2) has twelve order-4 elements, four of which reach exactly the Standard Model, and all four square to one triplet-type involution; by Fox calculus on F(2,6) (controls: b_1 = 0, the three sign characters h^1 = 1, the twelve order-4 characters 0) the bulk H^1(Y_3; 78_rho) of every SM-reaching line is three neutral exactly-flat moduli (Ad rho_{Q_8}, W = kappa phi_1 phi_2 phi_3, three explicit families of flat connections) plus one vector-like colour-triplet pair (3,1)_{-1/3} + conj with no tree-level mass source -- never a doublet, and the (2,20) sector is empty. The D-term sign theorem: the only E6-charged SM singlets are the apex 27s' N and nu^c, both with gamma = -5/3, so no tree-level VEV breaks U(1)_eta above the soft scale; since U(1)_eta charges nu^c (unlike U(1)_N), the Majorana mass is forbidden, there is no seesaw, and B1276's one coupling ties L nu^c H_u to Q u^c H_u: the three-apex design predicts neutrinos at the up-quark masses and is excluded as it stands. Remedy registered as L215 (a 27-bar sector: nine apexes, or the tower's h^1 pairs on an E7/E8 locus). The deck test: all 288 combined lines differ from their deck images in the 27-character (no E6-conjugacy): the deck is broken by the line alone. 0 of 19."
+}

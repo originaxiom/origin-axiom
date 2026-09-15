@@ -110,3 +110,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-15 (later):* B1363 used (the descent's Wilson lines); next arc B1364.
 
 *Update 2026-09-15 (later):* B1364 used (the level mismatch resolved); next arc B1365.
+
+*Update 2026-09-15 (later):* B1365 used (the bulk of the line; L215 registered); next arc B1366.

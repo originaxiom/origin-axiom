@@ -1,5 +1,11 @@
 # Changelog
 
+# Changelog
+
+## B1365 — the bulk of the line: the unbroken U(1)′ is U(1)_η with B1283's Z′ charges; the bulk H¹(Y₃; 78_ρ) is three flat moduli and one vector-like colour-triplet pair (never a doublet); every combined line breaks the deck; and the three-apex design fails the neutrino test — U(1)_η is unbreakable by its own singlets, so no seesaw and neutrinos at the up-quark masses without a 27̄ sector (L215)
+
+The 27's charge table on the E₆ weights against B1283 and the η normalisation; the 4-torsion census of exp(u(1)²); Fox calculus on F(2,6) with the alphabet as control; the D-term sign theorem; the 27-character deck test; three explicit deformation families.
+
 ## B1364 — the level mismatch resolved: Y₃'s non-abelian Wilson lines onto Q₈, placed in the Standard Model's centraliser SU(2)_β with an order-4 character, leave exactly SU(3) × SU(2) × U(1)_Y × U(1)′ — B1269's minimum; the design's closing carries both the three and the breaking
 
 c(SM) = su(2)_β ⊕ u(1)² and c(su(2)_β) = su(6) on the E₆ root system; the order-4 element killing exactly the SM roots; 24 surjections F(2,6) ↠ Q₈; the deck broken by the character; the descent stops at ≥ 17. L214 resolved as design.

@@ -73,3 +73,9 @@ Everything that is not a ratio the chain fixes is a VEV or a non-tree-level term
 `verification/relations.py` (exact; ~2 min; `SELFTEST: PASS`), run record `verification/relations_run.txt`.
 Lock: `tests/test_b1276_the_relations_the_chain_forces.py`. Feeds on B1275, B1252, B1253, B1250, B1271, B1273.
 Registers no identification change.
+
+*(Currency 2026-09-15, B1365: the one coupling's sharpest consequence on the closing's design — L ν^c H_u and Q u^c H_u sit together in
+the 16·16·10 of the cubic, so y_ν = y_u; on the three-apex design with B1364's line the unbroken U(1)′ is U(1)_η, which charges ν^c,
+and both Standard-Model singlets of the 27 carry the same U(1)_η charge, so no tree-level VEV breaks it above the soft scale: the
+Majorana mass is forbidden, there is no seesaw, and the neutrinos are Dirac at the up-quark masses. The design needs a 27̄ sector
+(L215). `frontier/B1365_the_bulk_of_the_line` §4.)*
