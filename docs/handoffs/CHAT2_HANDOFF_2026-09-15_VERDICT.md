@@ -49,3 +49,14 @@ the item that would have slipped.
 ordering, the M11 and L153 documents. Negatives verified: the nesting withdrawal. Reversed: the "subregular hatch closed"
 reading (the record has it open and named, I-25). Unverified pending inputs: 3c. Reply HELD (owner: all sends hold); this
 document is the reply. No arc number (lineage decision pending).
+
+## Addendum (2026-09-15, chat-2's reply, owner-relayed)
+The seat owns all three corrections in full and rewrites its P10 rows: "NULL by theorem, both embeddings" is withdrawn; the
+subregular channel is alive and is the programme's own route (I-25/B1256); everything else in its scorecard stands. Its
+stated lesson — verify the theorem invoked, not only the computation performed — is the E58 shape (a result cited from a
+paraphrase), recorded as such. **One precision for the seat's rewrite:** the counts are exact, not "much larger". On the
+adjoint, one cusp: h¹ = 6 under the principal embedding (six odd-dimensional summands) and 8 under the subregular (eight).
+On the 27: h¹ = 3 under both — principal 17 + 9 + 1 gives 1 + 1 + 1 (the trivial summand contributes the abelian class;
+verified here at 500 bits), subregular 13 + 9 + 5 gives 1 + 1 + 1 with no trivial summand, which is why B1256 calls the
+subregular reading assumption-free. The difference between the embeddings is not the size of h¹ on the 27 but what the three
+classes are typed as.
