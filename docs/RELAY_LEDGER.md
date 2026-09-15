@@ -166,3 +166,4 @@ the receiving seat's judgement.
 | `HANDOFF_2026-09-15_UNBANKED.md` | BANKED | 2026-09-15 | chat1→cc, owner-relayed (zip; archived in `docs/handoffs/chat1_handoff_2026-09-15/`, never at root). Banked against B993, B1089, B286, B1302/B1321, B1256; verdict `docs/handoffs/CHAT1_HANDOFF_2026-09-15_VERDICT.md` (VERIFIED-DIFFERS; HARVEST_LEDGER row 528). |
 | `QUESTION_R29_character_blindness.md` | BANKED | 2026-09-15 | chat1→cc, in the same zip. Registered as FRESH_EYES Q16; banked against B1297 (domain D) and flagged for the audit seat's R27 harvest. |
 | `CHAT1_HANDOFF_2026-09-15_VERDICT.md` | OPEN | 2026-09-15 | cc→chat1, **HELD** (owner: all sends hold). The verdict is the reply. |
+| `CC_TO_CODEX_2026-09-15_CONSOLIDATION_YOU_ARE_FREE_TO_WORK.md` (in `docs/handoffs/`) | OPEN | 2026-09-15 | cc→codex, **HELD** (owner carries). The rule change, codex's state as main sees it, and the four rules that keep its harvest clean. |
