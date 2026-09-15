@@ -1,0 +1,12 @@
+{
+ "id": "B1364",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1269", "B1277", "B1300", "B1273", "B1356", "B1357", "B1363"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE LEVEL MISMATCH RESOLVED: on the E6 root system (SO(10) x U(1) coordinates, 72 roots) the Standard Model's centraliser is su(2)_beta + u(1)^2 (beta the SO(10)-singlet weight of the 16; dimension 5 = B1269's c(s)), the centraliser of su(2)_beta is su(6) (30 roots), a Q_8 placed in SU(2)_beta has centraliser SU(6), and an order-4 element of the u(1)^2 kills exactly the eight Standard-Model roots among su(6)'s thirty, so the flat connection (rho_{Q_8} into SU(2)_beta) x (an order-4 character of H_1 = (Z/4)^2) leaves exactly su(3) + su(2) + u(1)_Y + u(1)' -- the 13-dimensional minimum B1269 proved no flat connection can beat. Y_3's Fibonacci group F(2,6) has 24 surjections onto Q_8 (the Hantzsche-Wendt holonomy lifted; none onto 2T), each deck-invariant up to 2T-conjugation, while the 12 order-4 characters are permuted by the deck without fixed points: the combined line breaks the deck as B1362 requires. With the three chiral 27s at the apexes rather than in h^1 (B1355-B1360), B1277's price does not arise: the design's closing carries both the three and the breaking E6 -> SM x U(1)'. The descent cannot: its order-3 characters leave at least 17. The compact closing remains unconstructed; the U(1)'-charges, the 5+5-bar masses and the doublet-triplet splitting are the U(1)^2-breaking sector's. 0 of 19."
+}

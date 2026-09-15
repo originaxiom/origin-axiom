@@ -289,3 +289,14 @@ The descent's H₁ is ℤ/3 (the knot presentation; the crystallographic five-te
 enumeration of the order-3 inner automorphisms of E₆ from the affine diagram gives six classes with commutants E₆, SU(6) × U(1), SU(3)³,
 SU(5) × SU(2) × U(1), SO(10) × U(1), SO(8) × U(1)² — no Standard Model; the eleven order-4 classes (single elements of the cover's
 alphabet) likewise. So neither level of the ℤ/3 carries an abelian SM line, and the level mismatch stands. Lock in seconds.
+
+## Twenty-second note (2026-09-15): the level mismatch resolved (B1364)
+
+L214 dissolves. Your B1269's c(s) = 5 is recomputed on the root system as su(2)_β ⊕ u(1)², β the SO(10)-singlet weight of the 16, and
+c(su(2)_β) = su(6) (the 30 roots orthogonal to β). Y₃'s Fibonacci group surjects onto Q₈ in 24 ways (the holonomy's lift; none onto
+2T), each deck-invariant up to 2T-conjugation. A Q₈ in SU(2)_β leaves SU(6); an order-4 character of H₁ = (ℤ/4)² into the U(1)²
+— found on a quarter-grid — kills exactly the eight Standard-Model roots of SU(6): the flat connection leaves exactly
+SU(3) × SU(2) × U(1)_Y × U(1)′, your 13-dimensional minimum. B1277's price (one generation's doublets) belonged to the h¹ framework;
+with the three 27s at the apexes it does not arise. The deck is broken by the character (B1362's demand); the descent's order-3
+characters leave at least 17. So the design's closing carries both the three and the breaking. What it still owes: the U(1)′ charges
+against B1283's Z′, the 5 + 5̄ masses, the doublet–triplet splitting (B1300), and its existence. Lock in seconds. 0 of 19.

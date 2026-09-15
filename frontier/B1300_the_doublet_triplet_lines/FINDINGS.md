@@ -167,3 +167,9 @@ its 19-part is (ℤ/19)² (the norm of Δ(ζ₉) is 19²; the 4² comes from Δ(
   theorem's two checks); slow — the loader verification and the pipeline.
 - Depends on B1278 (the pipeline and the support theorem), B1283 (the light pairs), B1277 (descent data and SM roots),
   B1276 (the cubic), B1275 (the weights).
+
+*(Currency 2026-09-15, B1364: "on Y₃ and Y₆ … no SM lines to begin with" is the alphabet's statement — abelian characters carrying
+generations by h¹. Y₃'s non-abelian lines onto Q₈, placed in the Standard Model's centraliser SU(2)_β with an order-4 character, do leave
+exactly SM × U(1)′; the theorem of this arc — a Wilson line cannot split D from H — stands there too, and in the apex design the line
+does not act on the point-localised 27s at all: the doublet–triplet splitting is the U(1)²-breaking sector's duty.
+`frontier/B1364_the_level_mismatch_resolved`.)*

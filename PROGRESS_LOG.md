@@ -14874,3 +14874,13 @@ Kac coordinates on the affine E₆ diagram (marks 1,1,1,2,2,2,3, up to S₃): or
 D₄+2u(1)); order 4 — eleven; none with commutant A₂+A₁+2u(1). Coinvariants of A₄ on ℤ³ by Smith form: ℤ/2; the knot presentation gives
 H₁(P2₁3) = ℤ/3. Verdict NEGATIVE for abelian lines on the descent; the non-abelian half registered. Lock (seconds). Surfaces: L214 status,
 THE_CLOSING §6.7, THE_SM_VERDICT, the letter's twenty-first note, alias table. 0 of 19; price unchanged.
+
+### B1364 — the level mismatch resolved: Y₃ carries a flat E₆ connection with unbroken group exactly SM × U(1)′ (2026-09-15)
+
+E₆ roots in SO(10) × U(1) coordinates (72, norm 2, integral, rank 6); SM ⊂ SU(5) ⊂ SO(10) with Y ∝ (−⅓,−⅓,−⅓,½,½); the roots commuting
+with the SM are exactly ±β (β = ((½)⁵, +c)) → c(SM) = su(2)_β ⊕ u(1)² (5 = B1269's c(s)); roots ⊥ β: 30 → c(su(2)_β) = su(6); an
+order-4 element of the u(1)² killing exactly the 8 SM roots of su(6) found (denominators {1,2,4}); over all of E₆ the roots commuting
+with (Q₈ ⊂ SU(2)_β, g) are the SM's 8 → unbroken 13. Hom(F(2,6), Q₈) with image Q₈: 24, deck orbits of 3, each conjugate to its deck
+image inside 2T; the 12 order-4 characters permuted without fixed points. The descent's order-3 elements kill ≥ 12 of 30 (≥ 17
+unbroken). L214 resolved as design; surfaces (THE_CLOSING §0/§1/§6.7, the view, THE_SM_VERDICT, CHIRALITY_MAP §6n, the SM
+specification ledger addendum, the letter's twenty-second note), currency notes on B1277, B1300, B1363. Lock (seconds). 0 of 19.

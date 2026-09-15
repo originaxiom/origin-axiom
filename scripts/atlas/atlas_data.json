@@ -6585,7 +6585,7 @@
     "L205"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 30,
+   "obstacle_conf": 31,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -6858,7 +6858,7 @@
     "L209"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 40,
+   "obstacle_conf": 41,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7412,6 +7412,26 @@
    "obstacle": "cancellation",
    "obstacle_conf": 4,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1364": {
+   "slug": "the level mismatch resolved",
+   "motifs": [
+    "closing",
+    "coupling",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L214"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 14,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B136": {

@@ -294,6 +294,22 @@ diagonal. So the design says of its own flavour: hierarchy is not tree level; it
 not a small one — a deck-symmetric Yukawa is a symmetric circulant with a degenerate pair, and Weyl's inequality on the hollow tree
 level gives ‖E‖ ≥ (m₃ − m₂ − m₁)/3 for the U(1)²-violating part: a third of the top, bottom and tau Yukawas, attained numerically.
 
+## 6n. The level mismatch resolved (B1364, 2026-09-15)
+
+The gauge face of the design. On the E₆ root system (SO(10) × U(1) coordinates) the Standard Model's centraliser is SU(2)_β × U(1)²,
+β the SO(10)-singlet weight of the 16 (dimension 5, B1269's c(s) recomputed); the centraliser of SU(2)_β is SU(6) (the 30 roots
+orthogonal to β); a Q₈ inside SU(2)_β has the same centraliser (no invariants on the 2 or the 3); and an order-4 element of the U(1)²
+kills exactly the eight Standard-Model roots among SU(6)'s thirty. Y₃'s fundamental group F(2,6) surjects onto Q₈ in 24 ways (its
+holonomy V₄ lifted), each deck-invariant up to conjugation in 2T, and H₁ = (ℤ/4)² has 12 order-4 characters permuted by the deck
+without fixed points. The flat connection (Q₈ in SU(2)_β) × (an order-4 character) therefore leaves exactly SU(3) × SU(2) × U(1)_Y × U(1)′
+— the 13-dimensional minimum B1269 proved no flat connection can beat — with the deck broken by the character, as B1362 requires.
+"No SM lines on Y₃" (B1277, B1300) is true of the alphabet, the sign characters carrying generations by h¹; the apex design carries
+its three 27s at points, and they decompose as full 27s: three generations, three 5 + 5̄ pairs, three singlets. The descent cannot
+follow (order-3 characters leave at least 17). So the three and the breaking live on the same level, the cover Y₃, and O4's design
+has a complete gauge and matter structure: E₆ on Y₃ with the Hurwitz-torus background (B1357), three apexes (B1355/B1360), the
+sum-zero U(1)² (B1356), the Q₈-plus-order-4 line (B1364), and a U(1)²-breaking sector owing the hierarchy (B1361–B1362), the
+5 + 5̄ masses and the doublet–triplet splitting (B1300). What it is not: a manifold.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

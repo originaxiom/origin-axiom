@@ -1,12 +1,12 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1111 settled arcs — 75%** —
+the field is **absent on 828 of 1112 settled arcs — 74%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (121) = 543 arcs.**
-The vocabulary criterion adds **43 arcs neither the flag nor any surface reaches**.
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (121) = 544 arcs.**
+The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.97** on the corpus's own law vocabulary against
@@ -264,7 +264,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1233` | PROVED | V | | THE Z-AI AUDIT: 15 CLAIMS CONFIRMED ON THIS BENCH, 7 REFUTED, ONE REAL DEFECT FOUND IN OUR OWN RECORD, AND ONE HEADLINE IDENTIFICATION REFUTED BY GALOIS THEORY. Owner: 't… |
 | `B1239` | PROVED | V | | THE 1/4 CLASS IS CUSP-LOCAL. Codex R040 (free orientation-reversing deck => CS = 0) reproduced -- 1260/1260 orientation double covers of the nonorientable cusped census i… |
 | `B1281` | PROVED | V | | THE SEATS VERIFIED (2026-09-07). Fetched origin/main @ 506c591f (main's B1267, B1272-B1277, B1290-B1294), the physics seat @ 659487bb (R56-R72) and codex @ f7a49536 (R040… |
-| `B1350` | PROVED | V | | THE V10 DIRECTION (L207 = main's L204), DONE: at the subregular sl2 point of the cusped object's E6 holonomy (e6 = V2+V4+V6+V8+V10+V10+V14+V16, 27 = 13+9+5) the pairing l… |
 | `B14` | PROVED | S | | F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b.… |
 | `B64` | PROVED | S | | The k(alpha) sector-assignment is proven symbolically: even-/k/ char(M^k) is P-symmetric, odd-/k/ P-antisymmetric, via depth-n CH plus Dickson parity.… |
 | `B161` | PROVED | S | | The cancellation locus kappa=2 is codimension-1, measure-zero and spectrally trivial, while non-cancellation is generic and fractured; 'forced/empty' is retired.… |
@@ -349,6 +348,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1267` | PROVED | S | | THE SPECTRUM LAW REBUILT FROM THE REPOSITORY'S OWN 27 AND EXTENDED. B1086's named residual (an own-code rebuild of the dial matrices hv8/hv16) is paid on the one exact ob… |
 | `B1275` | PROVED | S | | THE CUBIC MADE EXPLICIT. B308's unique E6 cubic invariant d_abc on the 27 is solved exactly from the repository's own 27 (B883's rep27.json): the 45 zero-sum-triple value… |
 | `B1302` | PROVED | S | | THE ONE-TRIPLET VACUA. On Y_12's 34 752 Standard-Model Wilson lines (B1301; 265 survival patterns of the eleven multiplets over three generations, the mirrors following t… |
+| `B1350` | PROVED | S | | THE V10 DIRECTION (L207 = main's L204), DONE: at the subregular sl2 point of the cusped object's E6 holonomy (e6 = V2+V4+V6+V8+V10+V10+V14+V16, 27 = 13+9+5) the pairing l… |
 | `B1352` | PROVED | S | | THE FIXED-VECTOR LOCUS ALONG V10 (L204's other half; B1268's stage (b) completed): from every genuine V10 point of B1350 the augmented Newton (relator + mu v = v, lambda … |
 | `B1356` | PROVED | S | | THE THREE ON Y3: on the flat Hantzsche-Wendt closing Y3 the deck fixes exactly one closed geodesic (the lift of the knot; P2_1 3's torsion is its 3-fold rotations only), … |
 | `B1357` | PROVED | S | | THE OBJECT'S OWN JOYCE ORBIFOLD: compactifying the E6 fibre C^2/2T by the Hurwitz torus (the unique 2T-invariant lattice up to scale) and letting the Hantzsche-Wendt grou… |
@@ -412,7 +412,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1136` | PROVED | S | | THE GENERICITY CONTROL TURNED ON THE OBJECT'S OWN WINS (cc3's B8128, owner-elected; verified TWO-BENCH via an independent SnapPy census on this bench): over the shape-fie… |
 | `B1238` | PROVED | S | | THE SEAT HARVEST, THIRD RING (codex R037-R039 @ e40d46ad; the physics-seat evaluation branch R39-R41 + the W-E absence sweep @ 1c980e69; nothing merged, every number reco… |
 
-## §10 the wall — what a specialist must supply (46)
+## §10 the wall — what a specialist must supply (47)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -462,6 +462,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1195` | PROVED | S | | CLOSE-LOOP BATCH 5A (the five highest-leverage closes, merged with cloud's routes at their 9915068b): (1) SEAM-A's CS=0 DOOR SHARPENED (lens-scoped) -- the object's b=1 p… |
 | `B1265` | PROVED | S | | THE REAL FORM IS DERIVED, AND THE FORK IS A RANK OBSTRUCTION. MAIN_GOAL JOIN 3. B1140 banked the fork as a brute fact -- 'the two real forms split the world with NOTHING … |
 | `B1351` | PROVED | S | | THE INDEX ON A THREE-MANIFOLD (main's Q9): Pantev-Wijnholt's net chiral count of a charged sector is chi(M, d+M; L) = chi(M; L) - chi(d+M; L). On a closed closing chi = 0… |
+| `B1364` | PROVED | S | | THE LEVEL MISMATCH RESOLVED: on the E6 root system (SO(10) x U(1) coordinates, 72 roots) the Standard Model's centraliser is su(2)_beta + u(1)^2 (beta the SO(10)-singlet … |
 
 ## UNASSIGNED — needs an editorial call (122)
 

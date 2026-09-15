@@ -1,0 +1,15 @@
+E6: 72 roots of norm 2 with integral pairings; rank 6
+roots commuting with the Standard Model (orthogonal to its roots, Y-neutral): 2 = +-beta with beta = (1/2)^5, psi = +c: True
+c(SM) = su(2)_beta (+) u(1)^2, dimension 3 + 2 = 5 (its double centraliser is B1269's 13)
+roots orthogonal to beta: 30 (the 30 roots of A5) -> c(su(2)_beta) = su(6), dimension 35
+an element g = exp(2 pi i v), v in u(1)^2, of order 4 on the roots (denominators [1, 2, 4]) killing exactly the 8 SM roots among the 30 of su(6): found -> unbroken algebra = 5 (Cartan) + 8 = 13 = su(3) + su(2) + u(1)^2
+  roots of E6 commuting with both the Q_8 part (orthogonal to beta) and g: 8 (= the SM's 8: True)
+
+Y_3: homomorphisms F(2,6) -> Q_8 with image Q_8 (non-abelian): 24
+  deck orbits of the Q_8-lines (as homomorphisms, before conjugation): sizes [3] x counts {3: 8}
+  lines whose deck image is conjugate (in 2T) to themselves: 24 of 24 (the Q_8 part can be deck-symmetric)
+  the order-4 characters of H_1 = (Z/4)^2: 12, permuted by the deck without fixed points (B1301/B1303's eigen-structure), so the combined flat connection breaks the deck.
+
+the descent: an order-3 element of u(1)^2 kills at least 12 of the 30 roots of su(6) (the SM keeps 8): its lines stop at dimension >= 17, never 13
+
+DONE

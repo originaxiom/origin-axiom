@@ -471,3 +471,10 @@ left it.
 > closing in the record carries both the three and the breaking. The descent does not mend it: its H₁ is ℤ/3 and Kac's six order-3
 > classes of E₆ have commutants E₆, SU(6) × U(1), SU(3)³, SU(5) × SU(2) × U(1), SO(10) × U(1), SO(8) × U(1)² — none the Standard Model
 > (B1363). 0 of 19; price unchanged.
+
+> **Currency note (2026-09-15, B1364): the level mismatch resolved as design.** Y₃'s Fibonacci group surjects onto Q₈ (24 ways); the
+> Standard Model's centraliser in E₆ is SU(2)_β × U(1)² (dimension 5 = B1269's c(s), recomputed on the root system) with
+> c(SU(2)_β) = SU(6); a Q₈ in SU(2)_β plus an order-4 character of H₁ = (ℤ/4)² into the U(1)² leaves exactly SU(3) × SU(2) × U(1)_Y × U(1)′,
+> B1269's minimum. With the three 27s at the apexes, B1277's price does not arise: the design's closing carries both the three and
+> the breaking, at the price of one U(1)′; the deck is broken by the character; the descent cannot follow. 0 of 19; price unchanged
+> (`frontier/B1364_the_level_mismatch_resolved`).

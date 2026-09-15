@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1211** |
-| words of findings prose | **887,907** |
-| test lock files referenced | **725** |
-| arcs carrying an authored verdict | **1211** (100.0 %) |
+| research arcs with findings | **1212** |
+| words of findings prose | **889,690** |
+| test lock files referenced | **726** |
+| arcs carrying an authored verdict | **1212** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 799 |
+| PROVED | 800 |
 | NEGATIVE | 314 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1362`** (837 words, 1 locks)  
-THE HIERARCHY IS A U(1)-BREAKING EFFECT AT ORDER ONE: a deck-symmetric complex symmetric Yukawa is the circulant circ(x,y,y) with eigenvalues x+2y, x-y, x-y (symbolic), so the deck must be broken; and since the design's hollow tree-level texture has sigma_1 = sigma_2 + sigma_3 exactly (B1361), Weyl's inequality gives m_3 - m_2 - m_1 <= 3 ||E||_op for the part E of the mass matrix violating the apex U(1)s: ||E|| >= 0.332 m_t, 0.327 m_b, 0.313 m_tau, and the minimum over Takagi frames attains the bound numerically. The sector that breaks the apex U(1)s supplies at least a third of the third-generation Yukawas; a small-parameter Froggatt-Nielsen structure with the deck's charges cannot lift the hollow texture. 0 of 19.  
-`B1362_the_hierarchy_is_u1_breaking/FINDINGS.md`
+**PROVED — `B1364`** (1559 words, 1 locks)  
+THE LEVEL MISMATCH RESOLVED: on the E6 root system (SO(10) x U(1) coordinates, 72 roots) the Standard Model's centraliser is su(2)_beta + u(1)^2 (beta the SO(10)-singlet weight of the 16; dimension 5 = B1269's c(s)), the centraliser of su(2)_beta is su(6) (30 roots), a Q_8 placed in SU(2)_beta has centraliser SU(6), and an order-4 element of the u(1)^2 kills exactly the eight Standard-Model roots among su(6)'s thirty, so the flat connection (rho_{Q_8} into SU(2)_beta) x (an order-4 character of H_1 = (Z/4)^2) leaves exactly su(3) + su(2) + u(1)_Y + u(1)' -- the 13-dimensional minimum B1269 proved no flat connection can beat. Y_3's Fibonacci group F(2,6) has 24 surjections onto Q_8 (the Hantzsche-Wendt holonomy lifted; none onto 2T), each deck-invariant up to 2T-conjugation, while the 12 order-4 characters are permuted by the deck without fixed points: the combined line breaks the deck as B1362 requires. With the three chiral 27s at the apexes rather than in h^1 (B1355-B1360), B1277's price does not arise: the design's closing carries both the three and the breaking E6 -> SM x U(1)'. The descent cannot: its order-3 characters leave at least 17. The compact closing remains unconstructed; the U(1)'-charges, the 5+5-bar masses and the doublet-triplet splitting are the U(1)^2-breaking sector's. 0 of 19.  
+`B1364_the_level_mismatch_resolved/FINDINGS.md`
 
-**NEGATIVE — `B1363`** (769 words, 1 locks)  
+**NEGATIVE — `B1363`** (817 words, 1 locks)  
 THE DESCENT'S WILSON LINES: the object's own closing S^3(4_1; 2pi/3) has H_1 = Z/3 (pi_1^orb = pi_1(m004)/<<mu^3>>; the crystallographic five-term sequence with coinvariants Z/2 agrees), and Kac's classification of the order-3 inner automorphisms of E6 -- six classes with fixed subalgebras E6, A5+u(1), A2^3, A1+A4+u(1), D5+u(1), D4+2u(1) -- contains no Standard-Model commutant (nor do the eleven order-4 classes, single elements); so the descent's abelian Wilson lines cannot break E6 to SU(3) x SU(2) x U(1)^2, as the cover's cannot (B1277, B1300): L214 (i) negative for abelian lines on both levels of the Z/3; the non-abelian half registered. 0 of 19.  
 `B1363_the_descents_wilson_lines/FINDINGS.md`
 

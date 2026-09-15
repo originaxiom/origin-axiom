@@ -206,6 +206,13 @@ on Y₉ and Y₁₂ (B1283, B1302), where no flat background and no triple exist
 in the record carries both the three chiral 27s and the breaking of E₆ to the Standard Model. That is the honest shape of the
 destination after this week: item 1 designed on Y₃, item 2 proved on Y₉, and the join between them open (L214).
 
+**And resolved, the same evening (B1364).** The join was hiding in the non-abelian part of Y₃'s fundamental group, which the alphabet
+framework never used: the Hantzsche–Wendt group surjects onto Q₈, the Standard Model's centraliser in E₆ is SU(2)_β × U(1)² whose
+SU(2) has centraliser SU(6), and a Q₈ in that SU(2) together with an order-4 character into the U(1)² leaves exactly
+SU(3) × SU(2) × U(1)_Y × U(1)′ — the least any flat connection can leave (B1269). With the generations at the apexes the price B1277
+paid does not arise. So the design's closing carries both halves; the deck is broken by the breaking line; the descent cannot follow.
+The count stays 0 of 19 — the closing is a design with a complete gauge and matter structure, not a manifold.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with

@@ -48,3 +48,7 @@ typing, the Standard-Model test, the coinvariants of A₄ on ℤ³ by Smith form
 
 **Sources.** Kac, *Infinite dimensional Lie algebras*, ch. 8 (finite-order automorphisms); B1356 (the descent as S³(4₁; 2π/3)),
 B1273, B1277, B1300 (the cover's lines).
+
+*(Currency 2026-09-15, B1364: the cover does what the descent cannot — its non-abelian lines onto Q₈ in SU(2)_β with an order-4
+character leave exactly SM × U(1)′; the descent's order-3 elements of the U(1)² leave at least 17 (computed there). L214 resolved as
+design on the cover. `frontier/B1364_the_level_mismatch_resolved`.)*

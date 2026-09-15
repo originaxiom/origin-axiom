@@ -19,8 +19,10 @@ Y₃ as companion, and that the inflow coefficients there are E₆ : SU(2) = 12 
 The design is one picture with two local models for its apex: **the E₆ copy of Y₃ carrying a deck orbit of three apexes** — each
 either B1355's twistor cone, in which case the SU(2) copy of Y₃ is brought to touch the E₆ copy there and the doublet parity of §6
 must be met, or Acharya–Witten's §2.3 Kronheimer unfolding of E₇ (correction of record 2026-09-15: their family reaches E₆ too),
-companion-free and parity-free, with a topology they do not describe. It is not constructed, and its E₆ locus Y₃ carries no
-Standard-Model Wilson line (B1277, B1300): the three and the breaking sit on different levels of the tower (§6.7, L214).
+companion-free and parity-free, with a topology they do not describe. It is not constructed; its E₆ locus Y₃ does carry the
+breaking — a non-abelian Wilson line onto Q₈ in the Standard Model's own centraliser SU(2)_β with an order-4 character leaves
+exactly SU(3) × SU(2) × U(1)_Y × U(1)′, the minimum any flat connection can (B1364, §6.7) — so the design's closing carries both
+the three chiral 27s and the breaking, at B1269's price of one U(1)′.
 
 ## 1. The ledger
 
@@ -40,6 +42,7 @@ Standard-Model Wilson line (B1277, B1300): the three and the breaking sit on dif
 | The apex on the knot has an A₅ companion: excluded in the twistor family | PROVED | B1358 §3 |
 | A symplectic 2T on K3 has one of two fixed-point types (Xiao #37, #38), neither with an A₁ orbit: no K3 fibre carries the companion | PROVED (Burnside count) + CITED (Nikulin, Xiao) | B1359 |
 | The design's tree-level texture is hollow (only 27₁27₂27₃ survives the apex U(1)²) and σ₁ = σ₂ + σ₃ exactly: refuted; flavour needs the U(1)²-breaking sector | PROVED (selection rule, identity) + NEGATIVE | B1361 |
+| Y₃ carries a flat E₆ connection with unbroken group exactly SM × U(1)′: Q₈ (24 surjections of F(2,6)) in the SM's centraliser SU(2)_β plus an order-4 character; the deck broken by the character; the descent cannot (≥ 17) | PROVED (root system; enumeration) | B1364 |
 | The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
 | AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1 | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
 | Its topology: singular set the E₆ locus and the apex only; b₂(link) = 1; the E₆ link pairs non-trivially with the generator (the inflow applies) | PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones) | B1360 |
@@ -99,15 +102,16 @@ those local models on a circle — vector-like.
    neutral Higgs no tree-level Yukawa. The hierarchy must come from the U(1)²-breaking sector (L213 (vii)) — and at order one: the
    deck must be broken (a deck-symmetric Yukawa has a degenerate pair) and the U(1)²-violating part of each mass matrix is at least
    (m₃ − m₂ − m₁)/3, a third of the third-generation Yukawa, by Weyl's inequality (B1362).
-7. **The level mismatch (seen from above, 2026-09-15).** The three need Y₃: on the tower's levels the deck orbits off the branch
-   circle have the deck's order (3 on Y₃, 6 on Y₆, 9 on Y₉), so a triple of apexes exists only at n = 3, the flat level with the
-   Hurwitz-torus background. But Y₃ carries no Standard-Model Wilson line — its alphabet is (ℤ/4)² and B1277 proved the E₈ theory
-   on Y₃ never reaches the Standard Model, with or without Wilson lines; B1300 states it for Y₃ and Y₆ — while the record's SM
-   lines and one-triplet vacua live on Y₉ and Y₁₂ (B1283, B1302), hyperbolic levels with no flat background and no triple. The
-   design's E₆ locus and the record's SM closings are different levels of one tower: no closing in the record carries both the
-   three and the breaking. What could reconcile them is open (L214): a breaking of E₆ on Y₃ that is not a Wilson line, or a
-   triple on a higher level that is not a deck orbit. The descent's own characters do not help: H₁ of the object's own closing
-   is ℤ/3 and no order-3 element of E₆ has the Standard-Model commutant (B1363).
+7. **The level mismatch, raised and resolved (2026-09-15).** The three need Y₃ (a deck orbit has the deck's order), and Y₃ was
+   believed to carry no Standard-Model line (B1277, B1300) while the record's SM lines live on Y₉ and Y₁₂ (B1283, B1302) — the
+   tension registered as L214. It dissolves once the generations are at the apexes rather than in h¹: Y₃'s fundamental group
+   surjects onto Q₈ (24 ways, the lift of its holonomy), the Standard Model's centraliser in E₆ is SU(2)_β × U(1)² with
+   c(SU(2)_β) = SU(6), a Q₈ in SU(2)_β leaves SU(6), and an order-4 character into the U(1)² kills exactly the eight
+   Standard-Model roots of SU(6): the unbroken group is SU(3) × SU(2) × U(1)_Y × U(1)′, B1269's minimum (B1364). B1277's price
+   (one generation's doublets) was the h¹ framework's; the apex 27s decompose as full 27s. The descent cannot do it — its order-3
+   characters leave at least 17 (B1363, B1364) — so the three and the breaking both live on the cover, and the deck is broken by
+   the breaking line, as B1362 requires. What the closing still owes: the U(1)′ charges, the 5 + 5̄ masses, the doublet–triplet
+   splitting (B1300), and its own existence.
 
 ## 7. The three faces, once more
 

@@ -2662,3 +2662,13 @@ gives six classes — E₆, A₅ + u(1), A₂³, A₁ + A₄ + u(1), D₅ + u(1)
 classes for single elements). Neither level of the ℤ/3 carries an abelian SM line. Open: the non-abelian lines of P2₁3; (ii), (iii).
 `frontier/B1363_the_descents_wilson_lines`.
 
+**L214 status 2026-09-15 (B1364): RESOLVED as design — Y₃ carries the breaking.** The Standard Model's centraliser in E₆ is
+SU(2)_β × U(1)² (β the SO(10)-singlet weight of the 16; dimension 5 = B1269's c(s), computed on the root system), the centraliser of
+SU(2)_β is SU(6), a Q₈ in SU(2)_β has centraliser SU(6), and an order-4 element of the U(1)² kills exactly the eight Standard-Model
+roots among SU(6)'s thirty: the flat connection (one of the 24 surjections F(2,6) ↠ Q₈ into SU(2)_β) × (an order-4 character of
+H₁ = (ℤ/4)²) leaves exactly SU(3) × SU(2) × U(1)_Y × U(1)′ — B1269's minimum. "No SM lines on Y₃" (B1277, B1300) is the alphabet's
+statement (generations by h¹ through the sign characters); with the three 27s at the apexes it does not bind. The deck is broken by
+the character (B1362's demand); the descent cannot follow (its order-3 elements leave ≥ 17). What remains is the U(1)²-breaking
+sector's three duties (the hierarchy, the 5 + 5̄ masses, the doublet–triplet splitting) and the compact closing itself.
+`frontier/B1364_the_level_mismatch_resolved`.
+

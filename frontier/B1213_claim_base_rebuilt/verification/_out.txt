@@ -1,9 +1,9 @@
-settled arcs: 1111   declared true: 92   declared false: 191   ABSENT: 828 (75%)
+settled arcs: 1112   declared true: 92   declared false: 192   ABSENT: 828 (74%)
 control: declared-law mean 2.97 vs rest 1.15 = 2.58x
 control PASSES -- the criterion discriminates, so it is not noise
 
-POOL = declared(92) U surface(500) U vocabulary(121) = 543 arcs
-  the vocabulary criterion adds 43 arcs neither the flag nor any surface reaches
+POOL = declared(92) U surface(502) U vocabulary(121) = 544 arcs
+  the vocabulary criterion adds 42 arcs neither the flag nor any surface reaches
   of the vocabulary candidates: 1 have the field ABSENT, 120 have it declared FALSE
 
 THE EXHIBIT B991: in the old pool? True   in the new pool? True

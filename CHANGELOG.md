@@ -1,5 +1,9 @@
 # Changelog
 
+## B1364 — the level mismatch resolved: Y₃'s non-abelian Wilson lines onto Q₈, placed in the Standard Model's centraliser SU(2)_β with an order-4 character, leave exactly SU(3) × SU(2) × U(1)_Y × U(1)′ — B1269's minimum; the design's closing carries both the three and the breaking
+
+c(SM) = su(2)_β ⊕ u(1)² and c(su(2)_β) = su(6) on the E₆ root system; the order-4 element killing exactly the SM roots; 24 surjections F(2,6) ↠ Q₈; the deck broken by the character; the descent stops at ≥ 17. L214 resolved as design.
+
 ## B1363 — the descent's Wilson lines: H₁ = ℤ/3 and none of Kac's six order-3 classes of E₆ has the Standard-Model commutant (L214 (i) negative for abelian lines)
 
 The Kac enumeration for orders 3 and 4 from the affine diagram, the five-term sequence on the crystallographic side, the knot presentation.

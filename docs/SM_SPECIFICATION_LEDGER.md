@@ -444,3 +444,9 @@ Window B1350–B1363 (this branch) and main's B1411–B1413. Read against the ro
   texture); none of the three is a number.
 
 Synthesis: `docs/THE_CLOSING_2026-09-15.md`; leads L212–L214.
+
+*Addendum, later the same day (B1364):* rows A1/C — the level mismatch is resolved as design: Y₃'s non-abelian Wilson lines (24
+surjections onto Q₈, the holonomy's lift) placed in the Standard Model's centraliser SU(2)_β, with an order-4 character into the
+U(1)², leave exactly SU(3) × SU(2) × U(1)_Y × U(1)′ — B1269's 13-dimensional minimum — so the design's E₆ locus carries the
+breaking; the "no SM lines on Y₃" of B1277/B1300 was the alphabet's (generations by h¹). The price is the surviving U(1)′ and the
+U(1)²-breaking sector's duties. Rows unchanged in count: 0 of 19.

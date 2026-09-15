@@ -151,3 +151,9 @@ B952/B955 (the rank obstruction; abelian holonomy on the knot complement), B1079
 (1982) 375 and Luty–Taylor, *Phys. Rev. D* 53 (1996) 3399 (D-flatness by holomorphic invariants); Pantev–Wijnholt,
 arXiv:0905.1968 (χ(M, ∂⁺M)); the Hantzsche–Wendt manifold's characters (nontrivial on the translations ⇒ acyclic).
 Registers no identification change.
+
+*(Currency 2026-09-15, B1364: the Wilson-line route's theorem here concerns generations carried by the sign characters through h¹. Y₃'s
+fundamental group also has non-abelian lines — 24 surjections onto Q₈, the holonomy lifted — and a Q₈ placed in the Standard Model's
+centraliser SU(2)_β (c(SU(2)_β) = SU(6)) with an order-4 character into the U(1)² leaves exactly SU(3) × SU(2) × U(1)_Y × U(1)′, B1269's
+minimum, without a vev. In the apex design (B1355–B1360), where the three 27s are point-localised, the price paid here does not arise.
+`frontier/B1364_the_level_mismatch_resolved`.)*
