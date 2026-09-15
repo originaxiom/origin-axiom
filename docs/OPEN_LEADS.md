@@ -2698,3 +2698,21 @@ three chiral apex 27s — the hybrid of the closed closing and the apex design: 
 Fox calculus of B1365, the vacuum; (c) in either, the neutrino sector: M_R, the light masses, and whether the hollow texture (B1361)
 survives the 27̄s' couplings. Until (a) or (b) is computed, the closing's design is excluded by neutrino masses. `frontier/B1365_the_bulk_of_the_line` §4.
 
+**L215 status 2026-09-15 (analysis, not computed; the seat's reading before an arc is spent).** (b) is closed by representation theory:
+27̄s cannot come from the bulk of the E₆ locus (the 78 contains none), and changing the locus to E₇ or E₈ makes the apex matter a 56
+(or 248-descended), whose E₆ content 27 ⊕ 27̄ is vector-like — the chirality would sit in a U(1) the line must then break, and the
+pairs get masses. So the 27̄s are anti-apexes (a). Three constraints then bind together, and none is a computation the record can
+do today: (1) the seesaw with y_ν = y_u (B1276) needs M_R ≳ 10¹⁴–10¹⁵ GeV, i.e. ⟨ν̄^c⟩ ≳ 10¹⁶ GeV along a direction that is flat in
+the superpotential; (2) any membrane-instanton mass 27_A 27̄_C that pairs a 27 apex with an anti-apex is E₆-invariant, so it lifts
+⟨N_A N̄_C⟩ and ⟨ν^c_A ν̄^c_C⟩ exactly when it makes the pair's quarks heavy — a flat singlet direction and a heavy vector-like
+generation cannot come from the same pairing; (3) an unpaired pair's charged components must then take their masses from
+(27_A 27̄_C)²/M, whose F-term lifts the flat direction to ⟨N⟩ ~ (m_soft M)^{1/2} ~ 10¹⁰–10¹¹ GeV, which gives M_R ≲ 10⁴ GeV from any
+dimension-four or -five operator — two to three orders short for the first generation and ten for the third. The design's
+neutrino wall is therefore not the absence of 27̄s alone: it is that the object's E₆ cubic fixes y_ν = y_u and the apex geometry
+offers no U(1)_η-breaking direction that is both exactly flat and harmless. What would lift it (each an assumption the object does
+not force): a pairing matrix with a kernel restricted by the apex U(1)² (a charged instanton spectrum with the right zeros), a
+U(1)_η-neutral Majorana source outside the 27 (none in E₆'s 27³ or 78), or a non-perturbative flat direction at the GUT scale. The
+arc that would settle (1)–(3) is the instanton pairing spectrum of the apexes on the design's background (the 3-cycles between
+apex orbits and their C-field charges) — not yet an instrument on this bench. Registered here so that the vacuum of nine apexes is
+not computed before its inputs exist.
+

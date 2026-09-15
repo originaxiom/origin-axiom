@@ -131,6 +131,11 @@ those local models on a circle — vector-like.
    ties L ν^c H_u to Q u^c H_u: **the neutrinos are Dirac at the up-quark masses, and the three-apex design is excluded as it
    stands.** The remedy is a 27̄ sector — anti-apexes (nine apexes, the deck being free) or the tower's h¹ pairs on an E₇/E₈ locus —
    registered as L215. The deck is broken by every combined line (no E₆-conjugacy to its deck image, 288 of 288).
+   And the remedy is harder than it looks (L215 status, analysis): 27̄s must be anti-apexes (the bulk has none; an E₇/E₈ locus makes
+   the apex matter vector-like under E₆); a pairing mass 27·27̄ is E₆-invariant, so it lifts the ⟨N N̄⟩ direction exactly when it
+   makes the pair's quarks heavy; and an unlifted direction is capped by (27 27̄)²/M at 10¹⁰–10¹¹ GeV, giving M_R ≲ 10⁴ GeV against the
+   10¹⁴–10¹⁵ GeV that y_ν = y_u demands. The neutrino wall is the cubic's one coupling meeting a geometry with no exactly flat,
+   harmless U(1)_η-breaking direction; what would lift it is an assumption the object does not force.
 
 ## 7. The three faces, once more
 

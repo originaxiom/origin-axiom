@@ -114,6 +114,12 @@ sector — a locus with E₇ (or E₈) gauge group whose line leaves E₆-charge
 vector-like pairs from the sign characters) on top of the three chiral apex 27s: the hybrid of the closed closing and the apex design.
 Either changes the sum rule, the selection rule and the vacuum; neither is computed here.
 
+*(Currency 2026-09-15, the same night — the remedy read more closely (analysis, in `docs/OPEN_LEADS.md` L215 status): (b) is closed —
+the 78 has no 27̄ and an E₇/E₈ locus makes the apex matter vector-like under E₆ — and (a) meets three constraints at once: the seesaw
+with y_ν = y_u needs ⟨ν̄^c⟩ ≳ 10¹⁶ GeV on a superpotential-flat direction; an instanton pairing mass 27·27̄ is E₆-invariant and lifts
+⟨N N̄⟩ exactly when it makes the pair's quarks heavy; and an unlifted direction is capped by (27 27̄)²/M at ~10¹⁰–10¹¹ GeV, i.e.
+M_R ≲ 10⁴ GeV. The wall is the one coupling meeting a geometry without an exactly flat, harmless U(1)_η-breaking direction.)*
+
 ## 5. What it means
 
 1. **The Z′ is named and family-universal.** The design's extra U(1) is the η model's; LHC bounds apply directly; its mass is at the
