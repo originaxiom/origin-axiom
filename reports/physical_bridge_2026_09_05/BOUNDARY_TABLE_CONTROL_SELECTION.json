@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-16",
+  "own_science_pin": "745e10b8545f80b0f593aa744e16dad2781074c7",
+  "main_intake_pin": "3857877dfcc2ac2d2c8f3d31a90114aeb606004c",
+  "scope": "Frozen selected R19/R24/R30 mathematical locks; not full-suite green or independent proof review.",
+  "pytest_selection": [
+    "tests/test_physical_bridge_global_mass_flux.py::test_general_arc_euler_additivity_keeps_excised_core_distinct",
+    "tests/test_physical_bridge_global_mass_flux.py::test_independent_cellular_pairs_agree_in_both_charge_sectors",
+    "tests/test_physical_bridge_global_mass_flux.py::test_changed_resolution_and_height_preserve_full_cohomology",
+    "tests/test_physical_bridge_global_mass_flux.py::test_corner_crossing_is_transverse_and_tube_to_cap",
+    "tests/test_physical_bridge_global_mass_flux.py::test_reversing_charge_also_reverses_the_incoming_region_boundary",
+    "tests/test_physical_bridge_global_mass_flux.py::test_asymptotic_cap_and_tube_bounds_are_strict_not_fixed_rate_assumptions",
+    "tests/test_physical_bridge_holonomy_spectrum.py::test_three_fox_calculations_and_full_character_identity",
+    "tests/test_physical_bridge_holonomy_spectrum.py::test_trivial_holonomy_retains_four_one_all_degrees",
+    "tests/test_physical_bridge_holonomy_spectrum.py::test_source_component_count_and_zero_arc_control",
+    "tests/test_physical_bridge_holonomy_spectrum.py::test_nontrivial_exceptional_unitary_roots_do_not_remove_the_pair",
+    "tests/test_physical_bridge_holonomy_spectrum.py::test_every_nontrivial_order_two_character_removes_extra_pair",
+    "tests/test_physical_bridge_resolved_fermion.py::test_exact_chain_homotopy_recovers_base_for_nonzero_attachment",
+    "tests/test_physical_bridge_resolved_fermion.py::test_actual_fox_loci_have_distinct_absolute_kernels",
+    "tests/test_physical_bridge_resolved_fermion.py::test_generic_split_three_odd_and_three_even_then_none_at_finite_attachment",
+    "tests/test_physical_bridge_resolved_fermion.py::test_singular_attachment_retains_a_pair_so_gluing_test_can_fail",
+    "tests/test_physical_bridge_resolved_fermion.py::test_even_odd_positive_eigenvalues_pair_in_declared_cochain_metric",
+    "tests/test_physical_bridge_resolved_fermion.py::test_full_transmission_not_just_tangential_pullback",
+    "tests/test_physical_bridge_resolved_fermion_c3_control.py"
+  ]
+}

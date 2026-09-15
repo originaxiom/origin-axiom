@@ -610,3 +610,16 @@ The wrapper and tests below must be pushed before follow-on execution.
 | `reports/physical_bridge_2026_09_05/CHAT1_CLASS_ALIAS_CONTROL_DESIGN.md` | `cd8440266ef8a0dc83f1ae6c59399bcaeca8696399347a64b92cea4a133de942` |
 | `reports/physical_bridge_2026_09_05/chat1_class_alias_control.py` | `4331444e7f108858c69b778dcfb9cc3012966a579cbc3ff3ebbba6bc6ece2deb` |
 | `tests/test_physical_bridge_chat1_class_alias_control.py` | `0af4a36d3674dfb8345012844abccd416dc12e78e83ddc253cf2863051930383` |
+
+
+## Named boundary-table receiving control, 2026-09-16 — before rerun
+
+Existing R19/R24/R30 source and tests remain at 745e10b8. This selection
+rechecks the already-present bulk/boundary distinction and both spectra;
+no shared number, new source model or physical chiral completion.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_CONTROL_DESIGN.md` | `82925fffe28d629b530f161136eaaf1ada739a805e048df48759e7110547d064` |
+| `reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_CONTROL_SELECTION.json` | `f233803003b0cc3edc0f9339fb69ba2ce259945ce868aaab62a399caaa5297a5` |
+| `reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_CONTROL_DESIGN.md` | `f4377472878c198cc5381556ab4d70d7e6609206059f9bcace32c14e930d24de` |
