@@ -1,5 +1,9 @@
 # Changelog
 
+## THE CLOSING, DESIGNED — synthesis surface for B1355–B1359 (`docs/THE_CLOSING_2026-09-15.md`); the view's §5i
+
+The ledger of proved / cited / designed statements, the background, the apexes, the three, the descent, and the open conditions (existence, the doublet parity, the extension of the apex classes, the spectra). No new claim.
+
 ## B1359 — the K3 alternative decided: Nikulin's numbers force Xiao's two T₂₄ configurations, neither with an A₁ orbit; the three-generation design lives on the Hurwitz torus
 
 A Burnside count from per-order fixed-point numbers (fixed cosets of 2T/H on the Hurwitz units) returns B1357's torus census once the

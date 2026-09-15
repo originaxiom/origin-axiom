@@ -14822,3 +14822,9 @@ rank 19, χ 5 → 24 — Xiao's #37 and #38 for T₂₄ (numdam copy read; his n
 the SU(2) companion of B1355's apex (B1358): the three-generation design lives on the Hurwitz torus. Loci table for a hypothetical
 (T³ × K3)/Γ recorded (conditional on the twist). The audit seat's R23–R31 rowed. Lock (seconds). Surfaces: L213 status, THE_SM_VERDICT,
 CHIRALITY_MAP §6k, the letter's fifteenth note, relay row, alias table, currency notes on B1357, B1358. 0 of 19; price unchanged.
+
+### THE CLOSING, DESIGNED — synthesis surface for B1355–B1359 (2026-09-15)
+
+`docs/THE_CLOSING_2026-09-15.md`: the ledger of what is proved, cited and designed across the five arcs, the background, the apexes,
+the three, the descent, the open conditions (existence, the doublet parity, the extension of the apex classes, the spectra), the
+three faces; the view's §5i. No new claim; 0 of 19.

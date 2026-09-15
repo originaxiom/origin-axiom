@@ -183,6 +183,22 @@ local models. What it cannot supply is the one thing item 1 needs beyond the ape
 has no source but the apexes themselves. That narrows the design to one picture: the SU(2)-copy of Y₃ brought to touch the
 E₆-copy at three deck-related points, with B1355's cone as the local model (L213 (iv)). Registered, not built. 0 of 19.
 
+## 5i. The view after B1358–B1359 (added 2026-09-15): the design has one picture and one parity
+
+**The family and the fibre.** The apexes of the destination come in a family — the twistor cones of S⁴/(2T × Γ_R) — and the family
+is rigid in what it allows: the companion at the antipode is {±1}·Γ_R, of even order because the −1 of the object's McKay group sits
+there whatever Γ_R is, and every Γ_R that shares an eigenvalue with 2T drags further A-loci through the apex. Against the object's
+own background only the plainest member fits — B1355's cone, companion the SU(2) copy of Y₃ — and its two inflow coefficients stand
+in the exact ratio 12 : 1, the degrees of the two pole lines onto their links. The fibre is rigid too: a K3 with a symplectic 2T has
+one of two fixed-point types, and neither has the A₁ orbit the companion needs; the Hurwitz torus, with its sixteen 2-torsion points
+splitting 1 + 3 + 12, is the only fibre in the record on which the three can be designed.
+
+**What we were not seeing.** The whole design now rests on parity twice. The companion's order is even because of the −1 of 2T; and
+the SU(2) copy receives chiral doublets at three apexes, an odd number of apexes, so the doublet count per apex — which the inflow
+fixes only up to the charge — decides whether the three are consistent with Witten's SU(2) anomaly. The geometry has said everything
+it can; what remains is the local spectrum on the SU(2) side (L213 (v)) and the closing itself. The synthesis is
+`docs/THE_CLOSING_2026-09-15.md`. The count stays 0 of 19.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with
