@@ -1,0 +1,34 @@
+================================================================================================
+inner automorphisms of E6 of order 3: Kac coordinates (s_0..s_6 on the affine diagram, marks 1,1,1,2,2,2,3), up to symmetry
+================================================================================================
+  s = (0, 0, 0, 0, 0, 0, 3): fixed subalgebra E6 + 0 u(1)  (central: no breaking)
+  s = (0, 0, 0, 0, 0, 1, 1): fixed subalgebra A5 + 1 u(1)
+  s = (0, 0, 0, 0, 1, 0, 0): fixed subalgebra A2 + A2 + A2 + 0 u(1)
+  s = (0, 0, 0, 1, 0, 0, 1): fixed subalgebra A1 + A4 + 1 u(1)
+  s = (0, 1, 0, 0, 0, 0, 2): fixed subalgebra D5 + 1 u(1)
+  s = (1, 1, 0, 0, 0, 0, 1): fixed subalgebra D4 + 2 u(1)
+  an order-3 element with commutant exactly SU(3) x SU(2) x U(1)^2 exists: False
+================================================================================================
+inner automorphisms of E6 of order 4: Kac coordinates (s_0..s_6 on the affine diagram, marks 1,1,1,2,2,2,3), up to symmetry
+================================================================================================
+  s = (0, 0, 0, 0, 0, 0, 4): fixed subalgebra E6 + 0 u(1)  (central: no breaking)
+  s = (0, 0, 0, 0, 0, 1, 2): fixed subalgebra A5 + 1 u(1)
+  s = (0, 0, 0, 0, 0, 2, 0): fixed subalgebra A1 + A5 + 0 u(1)
+  s = (0, 0, 0, 0, 1, 0, 1): fixed subalgebra A1 + A2 + A2 + 1 u(1)
+  s = (0, 0, 0, 1, 0, 0, 2): fixed subalgebra A1 + A4 + 1 u(1)
+  s = (0, 0, 0, 1, 0, 1, 0): fixed subalgebra A1 + A1 + A3 + 1 u(1)
+  s = (0, 1, 0, 0, 0, 0, 3): fixed subalgebra D5 + 1 u(1)
+  s = (0, 1, 0, 0, 0, 1, 1): fixed subalgebra A4 + 2 u(1)
+  s = (0, 1, 1, 0, 0, 0, 1): fixed subalgebra A1 + A3 + 2 u(1)
+  s = (0, 2, 0, 0, 0, 0, 2): fixed subalgebra D5 + 1 u(1)
+  s = (1, 1, 0, 0, 0, 0, 2): fixed subalgebra D4 + 2 u(1)
+  an order-4 element with commutant exactly SU(3) x SU(2) x U(1)^2 exists: False
+
+================================================================================================
+H_1 of the descent's orbifold group by the five-term sequence (crystallographic side)
+================================================================================================
+  Smith form of the span of (1 - g) Z^3 over g in A_4: [1, 1, 2] -> coinvariants Z^3_T = Z/1 x Z/1 x Z/2 (nontrivial part: Z/2)
+  five-term: H_2(A_4) = Z/2 -> Z^3_T = Z/2 -> H_1(P2_1 3) -> H_1(A_4) = Z/3 -> 0; the knot presentation pi_1(m004)/<<mu^3>> gives H_1 = Z/3,
+  so the Z/2 is killed: H_1(descent) = Z/3, against H_1(Y_3) = (Z/4)^2 on the cover.
+
+DONE

@@ -7395,6 +7395,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1363": {
+   "slug": "the descents wilson lines",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "L214"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B136": {
    "slug": "general amphichirality",
    "motifs": [

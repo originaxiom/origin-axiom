@@ -414,3 +414,33 @@ Read against `docs/THE_ASSEMBLY_2026-09-06.md` §6 (this ledger's rows, graded) 
   5 (1·10·10)**: no Majorana term for ν^c exists in it at all.
 - **Values (§D5):** unchanged — 0 of 19; the price 14 rows / 11 irreducible sources (B1261, B1266). The value
   question gains a named carrier, not a number: one closing with three classes, an H³, and a non-self-dual 3_ρ.
+
+## Currency read 2026-09-15 (head B1363) — the closing designed on Y₃, and the level mismatch
+
+Window B1350–B1363 (this branch) and main's B1411–B1413. Read against the rows:
+
+- **Three generations (row A3), the chirality bit:** the object and every closing of its tower stay vector-like (B1351; the cusp closed
+  with its mechanism, B1350–B1354, verified on main in B1411). What changed is the *design* of the closing that would carry the bit:
+  the E₇ point has two local models — the twistor cone over CP³/2T (B1355; explicit, with an A₁ companion) and Acharya–Witten's
+  E₇ → E₆ Kronheimer unfolding (their §2.3, the correction of record from main's B1413; companion-free, b₂(link) = 1 and the E₆ link
+  pairing non-trivially, B1360) — and the "three" is a free orbit of the deck of Y₃ (B1356: the deck fixes only the knot; the
+  descent is the Euclidean figure-eight orbifold). The three 27s are told apart by exactly two C-field U(1)s, the sum-zero pair on
+  which the deck acts as rotation, with charges 3 × the weights of the 3̄ (B1356), and those U(1)s must be born with the apexes:
+  the object's own compact background — the E₆ fibre closed by the Hurwitz torus under the Hantzsche–Wendt group, N = 1, with
+  E₆, SO(8), SU(2) rigid on three copies of Y₃ and SU(3) on T³, b₂ = 0 (B1357) — carries none, and no K3 fibre carries the
+  companion (B1359). The design is one picture with a named local model, still not a construction. **Row A3 stays 0.**
+- **Gauge algebra (rows A1/C):** the level mismatch (L214). The E₆ locus of the design is Y₃, whose Wilson lines never reach the
+  Standard Model (B1277, B1300) — and neither do the descent's: H₁ of the object's own closing is ℤ/3, and Kac's six order-3 classes
+  of E₆ have commutants E₆, SU(6) × U(1), SU(3)³, SU(5) × SU(2) × U(1), SO(10) × U(1), SO(8) × U(1)², none the Standard Model (B1363).
+  The record's SM lines and one-triplet vacua are Y₉'s and Y₁₂'s (B1283, B1302), levels with no flat background and no triple. No
+  closing in the record carries both the three and the breaking. **Rows A1/C unchanged.**
+- **Yukawa couplings and masses (rows A5–A7):** the design's flavour at tree level is B1273's negative by a second route — the apex
+  U(1)² allows only 27₁27₂27₃, the mass matrices are hollow, and hollow complex symmetric 3 × 3 matrices obey σ₁ = σ₂ + σ₃ exactly
+  (B1273's bound made an identity, B1361), refuted in every charged sector; and the breaking that would lift it is order one — a
+  deck-symmetric Yukawa has a degenerate pair, and Weyl's inequality makes the apex-U(1)-violating part at least a third of the
+  top, bottom and tau Yukawas (B1362). Whatever fills these rows is a U(1)²-violating coupling of order one, not the E₆ cubic.
+- **Values (§D5):** unchanged — **0 of 19**; the price unchanged. The value question now has a designed carrier for the count (three
+  apexes on Y₃), a named obstruction for the breaking (the level mismatch), and a named obstruction for the masses (the hollow
+  texture); none of the three is a number.
+
+Synthesis: `docs/THE_CLOSING_2026-09-15.md`; leads L212–L214.

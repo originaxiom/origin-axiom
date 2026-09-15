@@ -14867,3 +14867,10 @@ unitaries: 0.3321, 0.3272, 0.3135 m₃ — the bound attained. Lock (a minute). 
 Synthesis: the three (a deck orbit of apexes) exist only on Y₃; Y₃ carries no SM Wilson line (B1277, B1300); the SM lines and
 one-triplet vacua are Y₉'s and Y₁₂'s (B1283, B1302). No closing in the record carries both. THE_CLOSING §0/§6.7, the view §5i, the
 letter's twentieth note, L214 (three computations named). No new claim; 0 of 19.
+
+### B1363 — the descent's Wilson lines: H₁ = ℤ/3, and no order-3 element of E₆ has the Standard-Model commutant (2026-09-15)
+
+Kac coordinates on the affine E₆ diagram (marks 1,1,1,2,2,2,3, up to S₃): order 3 — six classes (E₆; A₅+u(1); A₂³; A₁+A₄+u(1); D₅+u(1);
+D₄+2u(1)); order 4 — eleven; none with commutant A₂+A₁+2u(1). Coinvariants of A₄ on ℤ³ by Smith form: ℤ/2; the knot presentation gives
+H₁(P2₁3) = ℤ/3. Verdict NEGATIVE for abelian lines on the descent; the non-abelian half registered. Lock (seconds). Surfaces: L214 status,
+THE_CLOSING §6.7, THE_SM_VERDICT, the letter's twenty-first note, alias table. 0 of 19; price unchanged.

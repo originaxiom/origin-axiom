@@ -1,5 +1,9 @@
 # Changelog
 
+## B1363 — the descent's Wilson lines: H₁ = ℤ/3 and none of Kac's six order-3 classes of E₆ has the Standard-Model commutant (L214 (i) negative for abelian lines)
+
+The Kac enumeration for orders 3 and 4 from the affine diagram, the five-term sequence on the crystallographic side, the knot presentation.
+
 ## The level mismatch named (L214): the three live on Y₃, the Standard-Model lines on Y₉ and Y₁₂; no closing in the record carries both
 
 A synthesis observation from banked results (B1356, B1277, B1300, B1283, B1302), recorded on THE_CLOSING, the view and the leads.

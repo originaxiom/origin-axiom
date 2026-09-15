@@ -2656,3 +2656,9 @@ the orbifold group P2₁3 has order-3 characters HW lacks; whether an SM line ex
 collision loci carry SU(3)s outside E₆); (iii) whether three apexes on Y₉ or Y₁₂ can be placed as a non-deck-orbit consistent with
 the sum rule and Witten's inflow. `docs/THE_CLOSING_2026-09-15.md` §6.7.
 
+**L214 status 2026-09-15 (B1363): (i) negative for abelian lines.** The descent's orbifold group has H₁ = ℤ/3 (the knot presentation
+π₁(m004)/⟨⟨μ³⟩⟩; the crystallographic five-term sequence agrees), and Kac's classification of the order-3 inner automorphisms of E₆
+gives six classes — E₆, A₅ + u(1), A₂³, A₁ + A₄ + u(1), D₅ + u(1), D₄ + 2u(1) — none the Standard Model (nor any of the eleven order-4
+classes for single elements). Neither level of the ℤ/3 carries an abelian SM line. Open: the non-abelian lines of P2₁3; (ii), (iii).
+`frontier/B1363_the_descents_wilson_lines`.
+

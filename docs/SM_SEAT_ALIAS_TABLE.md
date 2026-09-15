@@ -106,3 +106,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-15 (later):* B1361 used (the deck's texture); next arc B1362.
 
 *Update 2026-09-15 (later):* B1362 used (the hierarchy is U(1)-breaking at order one); next arc B1363.
+
+*Update 2026-09-15 (later):* B1363 used (the descent's Wilson lines); next arc B1364.

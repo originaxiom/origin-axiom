@@ -282,3 +282,10 @@ lines; the alphabet is (ℤ/4)²), while the record's SM lines and one-triplet v
 levels with no flat background and deck orbits of nine and twelve. So the design's E₆ locus and the SM closings are different levels
 of one tower, and no closing in the record carries both the three chiral 27s and the breaking. L214 registers the three ways out
 (the descent's order-3 characters; a non-Wilson-line breaking on Y₃; a non-deck triple on Y₉). THE_CLOSING §6.7 and the view carry it.
+
+## Twenty-first note (2026-09-15): L214 (i) negative for abelian lines (B1363)
+
+The descent's H₁ is ℤ/3 (the knot presentation; the crystallographic five-term sequence agrees, coinvariants ℤ/2 killed), and Kac's
+enumeration of the order-3 inner automorphisms of E₆ from the affine diagram gives six classes with commutants E₆, SU(6) × U(1), SU(3)³,
+SU(5) × SU(2) × U(1), SO(10) × U(1), SO(8) × U(1)² — no Standard Model; the eleven order-4 classes (single elements of the cover's
+alphabet) likewise. So neither level of the ℤ/3 carries an abelian SM line, and the level mismatch stands. Lock in seconds.

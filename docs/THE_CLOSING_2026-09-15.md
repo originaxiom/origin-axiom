@@ -106,7 +106,8 @@ those local models on a circle — vector-like.
    lines and one-triplet vacua live on Y₉ and Y₁₂ (B1283, B1302), hyperbolic levels with no flat background and no triple. The
    design's E₆ locus and the record's SM closings are different levels of one tower: no closing in the record carries both the
    three and the breaking. What could reconcile them is open (L214): a breaking of E₆ on Y₃ that is not a Wilson line, or a
-   triple on a higher level that is not a deck orbit.
+   triple on a higher level that is not a deck orbit. The descent's own characters do not help: H₁ of the object's own closing
+   is ℤ/3 and no order-3 element of E₆ has the Standard-Model commutant (B1363).
 
 ## 7. The three faces, once more
 

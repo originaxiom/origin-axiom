@@ -1,0 +1,12 @@
+{
+ "id": "B1363",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": ["B1356", "B1277", "B1300"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE DESCENT'S WILSON LINES: the object's own closing S^3(4_1; 2pi/3) has H_1 = Z/3 (pi_1^orb = pi_1(m004)/<<mu^3>>; the crystallographic five-term sequence with coinvariants Z/2 agrees), and Kac's classification of the order-3 inner automorphisms of E6 -- six classes with fixed subalgebras E6, A5+u(1), A2^3, A1+A4+u(1), D5+u(1), D4+2u(1) -- contains no Standard-Model commutant (nor do the eleven order-4 classes, single elements); so the descent's abelian Wilson lines cannot break E6 to SU(3) x SU(2) x U(1)^2, as the cover's cannot (B1277, B1300): L214 (i) negative for abelian lines on both levels of the Z/3; the non-abelian half registered. 0 of 19."
+}

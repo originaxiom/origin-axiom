@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1210** |
-| words of findings prose | **887,138** |
-| test lock files referenced | **724** |
-| arcs carrying an authored verdict | **1210** (100.0 %) |
+| research arcs with findings | **1211** |
+| words of findings prose | **887,907** |
+| test lock files referenced | **725** |
+| arcs carrying an authored verdict | **1211** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 799 |
-| NEGATIVE | 313 |
+| NEGATIVE | 314 |
 | OPEN | 87 |
 | RETRACTED | 11 |
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE HIERARCHY IS A U(1)-BREAKING EFFECT AT ORDER ONE: a deck-symmetric complex symmetric Yukawa is the circulant circ(x,y,y) with eigenvalues x+2y, x-y, x-y (symbolic), so the deck must be broken; and since the design's hollow tree-level texture has sigma_1 = sigma_2 + sigma_3 exactly (B1361), Weyl's inequality gives m_3 - m_2 - m_1 <= 3 ||E||_op for the part E of the mass matrix violating the apex U(1)s: ||E|| >= 0.332 m_t, 0.327 m_b, 0.313 m_tau, and the minimum over Takagi frames attains the bound numerically. The sector that breaks the apex U(1)s supplies at least a third of the third-generation Yukawas; a small-parameter Froggatt-Nielsen structure with the deck's charges cannot lift the hollow texture. 0 of 19.  
 `B1362_the_hierarchy_is_u1_breaking/FINDINGS.md`
 
-**NEGATIVE — `B1361`** (1128 words, 1 locks)  
-THE DECK'S TEXTURE IS B1273'S: under the two C-field U(1)s born with the apexes (charges (1,-2), (1,1), (-2,1), an equilateral triangle), the only invariant E6 cubic among the three 27s is 27_1 27_2 27_3, so with the Higgs in the apex 27s every tree-level charged-fermion mass matrix is complex symmetric with zero diagonal -- B1273's texture from the flat classes, by a second route -- and with a neutral Higgs there is no tree-level Yukawa at all. B1273's bound is an identity: for every hollow complex symmetric 3x3 matrix e_2(MM^dagger) = (tr MM^dagger / 2)^2 (symbolic), hence sigma_1 = sigma_2 + sigma_3 exactly, refuted by m_3/(m_2+m_1) = 273, 50, 17 (low scale; 136, 43, 17 at B1273's). The diagonal source B1273 named is, in the design, the U(1)^2-breaking sector (Witten's axionic mass, the charged instantons): a Froggatt-Nielsen-like structure with the deck's charges, registered as L213 (vii). 0 of 19.  
-`B1361_the_decks_texture/FINDINGS.md`
+**NEGATIVE — `B1363`** (769 words, 1 locks)  
+THE DESCENT'S WILSON LINES: the object's own closing S^3(4_1; 2pi/3) has H_1 = Z/3 (pi_1^orb = pi_1(m004)/<<mu^3>>; the crystallographic five-term sequence with coinvariants Z/2 agrees), and Kac's classification of the order-3 inner automorphisms of E6 -- six classes with fixed subalgebras E6, A5+u(1), A2^3, A1+A4+u(1), D5+u(1), D4+2u(1) -- contains no Standard-Model commutant (nor do the eleven order-4 classes, single elements); so the descent's abelian Wilson lines cannot break E6 to SU(3) x SU(2) x U(1)^2, as the cover's cannot (B1277, B1300): L214 (i) negative for abelian lines on both levels of the Z/3; the non-abelian half registered. 0 of 19.  
+`B1363_the_descents_wilson_lines/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

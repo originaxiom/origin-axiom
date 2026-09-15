@@ -465,3 +465,9 @@ left it.
 > identity), and Weyl's inequality on the hollow tree level gives ‖E‖ ≥ (m₃ − m₂ − m₁)/3 for the apex-U(1)-violating part of each mass
 > matrix — a third of the top, bottom and tau Yukawas, the bound attained numerically. The design's flavour is an order-one effect of the
 > sector that breaks the apex U(1)s. 0 of 19; price unchanged (`frontier/B1362_the_hierarchy_is_u1_breaking`).
+
+> **Currency note (2026-09-15, L214 and B1363):** the level mismatch. A deck orbit of apexes exists only on Y₃, which carries no
+> Standard-Model Wilson line (B1277, B1300), while the record's SM lines and one-triplet vacua are Y₉'s and Y₁₂'s (B1283, B1302): no
+> closing in the record carries both the three and the breaking. The descent does not mend it: its H₁ is ℤ/3 and Kac's six order-3
+> classes of E₆ have commutants E₆, SU(6) × U(1), SU(3)³, SU(5) × SU(2) × U(1), SO(10) × U(1), SO(8) × U(1)² — none the Standard Model
+> (B1363). 0 of 19; price unchanged.
