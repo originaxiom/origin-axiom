@@ -52,6 +52,8 @@ one extra is C18, the observer's closing act **downstream** of the algebra. Thre
 are consistent, not competing — the same argument, one counted at the genesis and one over
 the whole chain.)*
 
+*Currency note 2026-09-09 (S9, the paper's rigor read): the stretch C6–C17 is the manifold's own structure (C7–C15) and two no-gos (C16–C17); the exceptional algebra is NOT a numbered link inside it — it is handed over by McKay (Part III's narrative) and certified at C26, and the measurement links C24–C42 are numbered after the observer's axiom C18 because they were banked later (2026-08-06), not because they depend on it. The sentence below is kept as written; read "hands over e₆" as Part III's narrative, not as a link of the stretch.*
+
 **The axiom-free stretch.** From C6 (the knot) to C17 there is **not one declared choice**
 — Part II is theorem, census and identity throughout, and Part III *hands over* e₆ and the
 27 ("the object's own operators, not imported ones").

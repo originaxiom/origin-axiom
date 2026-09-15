@@ -43,13 +43,13 @@ SETTLED = {"PROVED", "NEGATIVE", "RESOLVED", "RESOLVED-A", "THEOREM"}
 CLAIMS = [
  ("2",  "E6 recurrence is one ADE classification -- a graph identity, not an object-specific fact",
         ["B727"], "settled"),
- ("2",  "the census base rate against which any recurrence must be judged",
+ ("2",  "the census base rate against which any recurrence must be judged (145 of 400 admit the surjection; 124 of 400 share the object's count)",
         ["B993"], "settled"),
  ("2.1","seven genesis forks: five robust or geometry-necessary, two fragile and named",
         ["B1003"], "settled"),
  ("3",  "the chain is 54 links, 50 of them forced (39 of 43 when the census instrument was first recorded); axioms only at the two ends",
         ["B1123"], "settled"),
- ("3",  "the golden substitution matrix squared is the object's monodromy (M^2 = RL)",
+ ("3",  "the golden substitution matrix squared is the object's monodromy (M^2 = LR)",
         ["B14"], "settled"),
  ("3",  "the combinatorial carrier reaches only Q(sqrt5); Q(sqrt-3) is bought at geometrization",
         ["B1003"], "settled"),
@@ -67,7 +67,7 @@ CLAIMS = [
         ["B1109"], "settled"),
  ("7",  "that one bit IS P, the two orbits fused by the arithmetic mirror",
         ["B1118"], "settled"),
- ("7",  "the spin lift is assigned by the object's own beat, not free",
+ ("7",  "the spin lift is assigned by the object's own spectral period, not free",
         ["B1141"], "settled"),
  ("7",  "the P^3 is closed permanently, one condition short of a point set",
         ["B1196"], "settled"),
@@ -79,7 +79,7 @@ CLAIMS = [
         ["B723"], "settled"),
  ("7",  "compactness needs an antilinear involution; one conjugation buys Lorentz and colour together",
         ["B1134"], "settled"),
- ("5",  "no object period is an SM ratio (the value negative, exhaustive)",
+ ("5",  "no object period is an SM ratio (the value negative, over a sealed 22-target menu)",
         ["B1126"], "settled"),
  ("9",  "the mirror-isospectral split: the two hands share their spectrum exactly",
         ["B1095"], "settled"),
@@ -91,16 +91,38 @@ CLAIMS = [
         ["B1320"], "settled"),
  ("6",  "a charge locus on the mirror's fixed set is mirror-even: the F4 chamber is vector-like or anomalous, and the object supplies no charge locus; the involution's two lifts",
         ["B1296", "B1298"], "settled"),
- ("6",  "the one-cusped index and its two vanishing theorems: the cyclic tower is vector-like",
+ ("6",  "the one-cusped index vanishes on every sector of the cyclic tower by two theorems (its non-vacuity as an instrument is open)",
         ["B1297", "B1299"], "settled"),
  ("6",  "the last flat-sector direction carries non-self-dual representations with zero net count",
         ["B1322"], "settled"),
- ("6",  "the tower law (a twisted class iff a product of n 2x2 matrices is the identity); the SM closings carry three complete generations in mirror pairs; the tree-level vacuum SM x U(1)_Z' and its regime fork",
+ ("6",  "the tower law (a twisted class iff a product of n 2x2 matrices is the identity); the SM closings carry three complete structural copies of the Standard-Model content in mirror pairs, vector-like; the tree-level vacuum SM x U(1)_Z' and its regime fork",
         ["B1303", "B1306"], "settled"),
  ("6",  "the genesis dictionary, the criterion census and the substrate fork: three records buy the plastic number and the silver world",
         ["B1323"], "settled"),
  ("6",  "the mirror is swap times arrow on every knot complement; 66 of the 87 covers to degree 10 are chiral and keep the arithmetic",
         ["B1324"], "settled"),
+ ("4",  "the manifold's intrinsic arithmetic forces exactly three quadratic faces, Q(sqrt-3), Q(sqrt5), Q(sqrt-15), and no closed filling in the |p|,q <= 8 grid keeps any of them",
+        ["B730", "B288"], "settled"),
+ ("4",  "the manifold group is congruence (level 4 in the SL-kernel convention); the continuous spectrum is one channel, phi(s) = Lambda_K(s-1)/Lambda_K(s)",
+        ["B734", "B739"], "settled"),
+ ("4",  "the theta-odd block at the monodromy is unitary with eigenphases +-72 degrees and a golden-exact overlap matrix",
+        ["B753"], "settled"),
+ ("4",  "the constructed algebra is Barton-Sudbery's magic-square algebra M(O,C): a Lie isomorphism on all 3003 unordered basis pairs, zero mismatches",
+        ["B904"], "settled"),
+ ("4",  "the measurement calculus: the four charges' Killing signature (2,2), the two S3 cubic pencils with one resolvent Q(sqrt77) and one cubic field K, and the first measurement so(10)+u(1) at each noncompact wall",
+        ["B877", "B894"], "settled"),
+ ("4",  "the second measurement lands on su(3)+su(2)+u(1)^3, the A2+A1 Levi (dimension 14, rank 6), skipping SU(5)",
+        ["B892"], "settled"),
+ ("4",  "one Z2-graded matter law with obstruction prod c = -1, verified on four faces; the fifteen flavour atoms",
+        ["B906"], "settled"),
+ ("4",  "the value layer as structure: the real form e6(2); the Hermitian signature (15,12); I = -1; v1 v2 v3 = 3^{3/2} times the square of a normalisation the charge-equivariant gauge fixes to 1; the 3/8 traces",
+        ["B907", "B912", "B908", "B917", "B919"], "settled"),
+ ("4",  "the second crossing: the object's centraliser ladder is not Pati-Salam and cannot pose the unification triangle; the third crossing: the register cascade is mixing-shaped, magnitudes off by 5-9x",
+        ["B925", "B929"], "settled"),
+ ("4",  "the seam: exactly ten exceptional fillings; the fibre slope is the unique torus bundle with monodromy LR; of the grid's 78 closed hyperbolic fillings none keeps Q(sqrt-3) and none is arithmetic (54 in the first census, completed to 78/78)",
+        ["B286", "B287", "B288"], "settled"),
+ ("4",  "tau does double duty: the involution making the 27 complex is the only one that can reduce rank, one resource spent once (an analysis)",
+        ["B963"], "settled"),
 ]
 
 
@@ -228,9 +250,11 @@ the claim rides on that. \textbf{Computed} means the establishing work sits insi
 re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled. ``Settled'' follows the record's own grading, which admits high-precision numerical certificates with stated
 precision and controls; it is not a claim of formal proof, and the establishing record states which kind it is.
 
-Every row is covered by an automated check that runs with the rest of the test suite. The table
-below is \emph{generated} from that check rather than written by hand, and the check is itself
-adversarially controlled: a claim pointed at a non-existent result must be reported, and it is.
+Every row is covered by an automated check that runs with the rest of the test suite, and the table
+below is \emph{generated} from that check rather than written by hand. Two limits of that machinery have already
+fired and we state them: the check's control proves only that a claim pointed at a non-existent record is reported,
+not that no claim was left off the list, whose completeness is editorial; and a lock is traceability, not
+re-derivation --- in one recorded case a lock pinned a family-wide claim that was later withdrawn.
 
 \smallskip
 \noindent\textbf{Two limitations of this appendix, stated rather than left to be discovered.}

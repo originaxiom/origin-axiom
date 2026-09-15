@@ -52,7 +52,7 @@ if __name__ == "__main__":
     print(f"section 8 says externally supplied = {said_ext!r}  (table: {WORDS.get(nc-1)!r})  {'OK' if ok_ext else 'MISMATCH'}")
     if "--selftest" in sys.argv:
         s = io.open(PAPER, encoding="utf-8").read()
-        broken = s.replace("and six non-continuous rows", "and four non-continuous rows", 1)
+        broken = s.replace("and seven non-continuous rows", "and four non-continuous rows", 1)
         bad_nc, _ = prose(broken)
         fired = bad_nc != WORDS.get(nc)
         print(f"\nPLANT (abstract says four, table says {WORDS.get(nc)}): reported = {fired}")

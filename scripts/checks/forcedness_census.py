@@ -16,7 +16,7 @@ WHAT IT ASSERTS
 ---------------
 1. the label census over all C-links
 2. THE AXIOM-FREE STRETCH: no [AXIOM] link between C6 (the knot, Thurston/Riley)
-   and C17 inclusive -- the stretch in which e6 and the 27 arrive.
+   and C17 inclusive -- the object's own structure and its two no-gos; the algebra is handed over by McKay and certified at C26 (S9, 2026-09-09).
 3. the axioms are exactly {C3, C4, C5, C18} -- three BEFORE the knot, one at the
    observer's closings, none in the stretch above.
 
@@ -45,7 +45,7 @@ EXPECTED = {
     "CENSUS": 1,
 }
 EXPECTED_AXIOMS = [3, 4, 5, 18]
-STRETCH = (6, 17)  # the knot .. the algebra's no-gos; e6 and the 27 arrive inside
+STRETCH = (6, 17)  # the knot .. the object's own structure and its two no-gos (C16, C17); the algebra is handed over by McKay and certified at C26, and the measurement links C24-C42 are numbered after C18 by banking order, not dependence (S9, 2026-09-09)
 
 LINK = re.compile(r"^\*\*C(\d+)\s*\[([A-Z][A-Z-]*)")
 
@@ -104,7 +104,7 @@ def main(argv):
         return 1
 
     print("PASS: the census holds; the axiom-free stretch is intact.")
-    print(f"      From the knot (C{lo}) to C{hi} -- where e6 and the 27 arrive --")
+    print(f"      From the knot (C{lo}) to C{hi} -- the object's own structure and its two no-gos --")
     print("      there is not one declared choice.")
     return 0
 

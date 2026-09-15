@@ -93,9 +93,12 @@ def _phrases():
 
 
 def _tracked_md():
-    r = subprocess.run(["git", "ls-files", "*.md"], cwd=ROOT,
+    # 2026-09-09 (S9, E53 instance #30): the paper's TeX source sat outside this sweep, and a claim
+    # B1235 retracted a week earlier was still asserted there. Tracked .tex files under papers/ are
+    # swept with the .md corpus from now on.
+    r = subprocess.run(["git", "ls-files", "*.md", "papers/*.tex", "papers/**/*.tex"], cwd=ROOT,
                        capture_output=True, text=True)
-    return [p for p in r.stdout.split("\n") if p.strip()]
+    return sorted(set(p for p in r.stdout.split("\n") if p.strip()))
 
 
 def sweep():
