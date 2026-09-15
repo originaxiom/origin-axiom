@@ -596,3 +596,17 @@ are retained; this seal does not imply main banking or proof acceptance.
 | `reports/physical_bridge_2026_09_05/CHAT1_CLASS_CONTROL_DESIGN.md` | `87ec7b80316c5f432d9baeb56c9a61f83a43a0be504b66d2011ca0b3df0264ce` |
 | `reports/physical_bridge_2026_09_05/chat1_class_control.py` | `61a4ef5f17f36a80946f6b311b1658a57a43845c12adec3a272f328df9e6411e` |
 | `tests/test_physical_bridge_chat1_class_control.py` | `9026d2491d38eabc06b12b04b3faf9cbb5784c3428e32e47b9cb07fd7ee1dcc3` |
+
+
+## 2026-09-15 — separate chat1 published-identifier control
+
+The first native run and eight fixture errors are retained. Only the
+published negative-control alias is resolved by its Table 2 isosig;
+all original mathematical predicates and source remain unchanged.
+The wrapper and tests below must be pushed before follow-on execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CHAT1_CLASS_ALIAS_CONTROL_DESIGN.md` | `cd8440266ef8a0dc83f1ae6c59399bcaeca8696399347a64b92cea4a133de942` |
+| `reports/physical_bridge_2026_09_05/chat1_class_alias_control.py` | `4331444e7f108858c69b778dcfb9cc3012966a579cbc3ff3ebbba6bc6ece2deb` |
+| `tests/test_physical_bridge_chat1_class_alias_control.py` | `0af4a36d3674dfb8345012844abccd416dc12e78e83ddc253cf2863051930383` |
