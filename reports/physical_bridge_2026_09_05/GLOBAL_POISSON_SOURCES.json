@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-15",
+  "scope": "Primary-source custody and personal reading; not numerical or independent proof certification.",
+  "sources": [
+    {
+      "title": "Splitting method for elliptic equations with line sources",
+      "authors": ["Ingeborg G. Gjerde", "Kundan Kumar", "Jan M. Nordbotten", "Barbara Wohlmuth"],
+      "version": "arXiv:1810.12979v1",
+      "url": "https://arxiv.org/pdf/1810.12979v1",
+      "pages": 26,
+      "pdf_bytes": 8867580,
+      "pdf_sha256": "9639c58bc209f4167c4a70b896650446f008aee89b9ae01550b2032846bdbe6b",
+      "text_bytes": 105591,
+      "text_sha256": "14649a02f3fe6bc52db1e6abf1ee5c44811e0e41c7c04364fd87f51a9bb4eb1b",
+      "personal_read_extent": "Entire paper, text lines 1-1382, including references; partial outer-truncated reads were reread in complete chunks.",
+      "use": "Singularity subtraction prior art. No import of its Euclidean scalar-permeability theorem to the hyperbolic shrinking-source family."
+    },
+    {
+      "title": "Fundamental solution of the Laplacian in the hyperboloid model of hyperbolic geometry",
+      "authors": ["Howard S. Cohl", "Ernie G. Kalnins"],
+      "version": "arXiv:1201.4406v1",
+      "url": "https://arxiv.org/pdf/1201.4406v1",
+      "pages": 20,
+      "pdf_bytes": 1550882,
+      "pdf_sha256": "cb6799abb2ec47f59da35f43cac4839d48b92914625fe25fc361392bb85e396a",
+      "text_bytes": 68364,
+      "text_sha256": "0c4285264a1eadea4a0b40b343179304a58b778f6115849b3aafbcd483ec40ec",
+      "personal_read_extent": "Entire paper, text lines 1-1086, including references.",
+      "use": "Theorem 3.1, section 3.2 and proposition 4.1 for the normalized H3 kernel; no quotient-domain estimate imported."
+    }
+  ]
+}

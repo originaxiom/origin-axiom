@@ -1,0 +1,235 @@
+{
+  "scope": "All unique Git blobs reachable from listed heads/remotes/tags plus two retained historical tips; includes binary bytes and deleted content, not untracked files. One example path per object. Presence routes reading; regex results do not establish semantic absence or mathematical novelty. Public ref names are stable role aliases; exact tips and raw population digest are retained. The first absence run omitted --regex and is invocation-error evidence only; the separately captured regex run supersedes its search interpretation. already_banked exit 1 is a settled-hit signal.",
+  "refs": [
+    {
+      "ref": "local/audit",
+      "sha": "40d6f7871f687094badbdf86273f71e2fe0a7349"
+    },
+    {
+      "ref": "local/main",
+      "sha": "f06d34054899e8c23672b836a7c534af77cbd35d"
+    },
+    {
+      "ref": "origin/b775-audit",
+      "sha": "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    },
+    {
+      "ref": "origin/audit",
+      "sha": "40d6f7871f687094badbdf86273f71e2fe0a7349"
+    },
+    {
+      "ref": "origin/cloud",
+      "sha": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    },
+    {
+      "ref": "origin/outside",
+      "sha": "9f3f561c9bcd6ac38c6161c2f67df8347d5cc20c"
+    },
+    {
+      "ref": "origin/paper-review",
+      "sha": "5dde7b3efe59ca2055de6b84395416d173b2e290"
+    },
+    {
+      "ref": "origin/physics",
+      "sha": "659487bbd93c7990c4686a8b86985b6b66efedc4"
+    },
+    {
+      "ref": "origin/standard-model",
+      "sha": "1703c0d80b6ad4281de61feb882667515500e8e7"
+    },
+    {
+      "ref": "origin/older-audit",
+      "sha": "f7a49536bc45bebc1557d3d081b6b3664a7c2199"
+    },
+    {
+      "ref": "origin/main",
+      "sha": "b94ed03aecba8aae3afc62504e22ec664c26e94f"
+    },
+    {
+      "ref": "origin/structure-paper",
+      "sha": "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4"
+    },
+    {
+      "ref": "refs/tags/archive/audit-b775-braver-questions-2026-08-14",
+      "sha": "53da05f6c545edf62ba7ff6d7d001aa1c2642320"
+    },
+    {
+      "ref": "refs/tags/archive/b739-negatives-hunt-p1",
+      "sha": "cd37701aec80ea26eea709f25c23c16f22470a42"
+    },
+    {
+      "ref": "refs/tags/archive/claude-new-session-qor5up-2026-08-14",
+      "sha": "3851df2aa683b67ba3f5c4976f4371c3bd22716e"
+    },
+    {
+      "ref": "refs/tags/archive/closure-phase0-hygiene",
+      "sha": "84f5adaabccc7f494f814f6433af060e6ae75d5c"
+    },
+    {
+      "ref": "refs/tags/archive/closure-phase1-duels",
+      "sha": "e42c336efb5c2b6877e3368d07ae3c6e301483c8"
+    },
+    {
+      "ref": "refs/tags/archive/scrutinize-v4h3tb",
+      "sha": "b94be245b670966a2518153f5827643d330e2451"
+    },
+    {
+      "ref": "refs/tags/atlas-paper-integration-v1",
+      "sha": "931b5d81492cd5480e34c6873266f1ea7356ca43"
+    },
+    {
+      "ref": "refs/tags/external-review-workflow-v1",
+      "sha": "3d4a1c711a4c60919258fcb17b964bb69f2ab68f"
+    },
+    {
+      "ref": "refs/tags/falsifiability-matrix-v1",
+      "sha": "6ed3a8488fb1f897604325349bdf2c13086b3dad"
+    },
+    {
+      "ref": "refs/tags/pc02-outreach-kit-v1",
+      "sha": "1d27db2de2a12c389f6397ba6114f58ca5411514"
+    },
+    {
+      "ref": "refs/tags/phaseA-foundation-freeze",
+      "sha": "f7a77e054b5893a189be5ed5115e18a4373142c3"
+    },
+    {
+      "ref": "refs/tags/pre-branch-reconciliation",
+      "sha": "28373f554df917eb73059ff6c389d8ef34d48b84"
+    },
+    {
+      "ref": "refs/tags/reviewability-falsifiability-v1",
+      "sha": "d08fb1144ba858d9766697dd10cc2989e2f0ac04"
+    },
+    {
+      "ref": "refs/tags/session3-synthesis-freeze",
+      "sha": "c1ffdece46bceb24f0cfb1aa67d32025d33b29c4"
+    },
+    {
+      "ref": "refs/tags/trace-map-spectrum-checkpoint-v1",
+      "sha": "8de000515147848e5610fb016ea1dad077cc481b"
+    },
+    {
+      "ref": "refs/tags/trace-selector-c5-freeze",
+      "sha": "9862db341ef1647683f38c924084eebe0eeaa6c7"
+    }
+  ],
+  "extra_tips": [
+    "67f939cc8cc11b9018283e994a847268b05ab43b",
+    "4d481751b056030e695a68cb1ace4bfd8e5bdb8d"
+  ],
+  "patterns": {
+    "green_kernel": "Green.{0,15}kernel|Green.{0,15}function",
+    "line_source": "line.{0,3}source|source.{0,3}line",
+    "singularity_subtraction": "singular.{0,15}subtract|singular.{0,15}split",
+    "uniform_poisson": "uniform.{0,40}Poisson|Poisson.{0,40}uniform",
+    "log_well": "logarithm.{0,25}well|log.{0,3}well|well.{0,25}logarithm",
+    "shrinking_tube": "shrink.{0,20}tube|tube.{0,20}shrink",
+    "green_remainder": "Green.{0,40}remain|Green.{0,40}parametrix",
+    "hyperbolic_poisson": "hyperbolic.{0,30}Poisson|Poisson.{0,30}hyperbolic"
+  },
+  "unique_objects_sha256": "ec0621090a65e0710420e3892f41639646e9b69824fd06b783802303e3cce1b5",
+  "counts": {
+    "commit": 4424,
+    "tag": 10,
+    "tree": 21589,
+    "blob": 28607
+  },
+  "blob_bytes": 3127800547,
+  "term_hit_blobs": {
+    "green_kernel": 86,
+    "line_source": 1102,
+    "singularity_subtraction": 910,
+    "uniform_poisson": 14,
+    "log_well": 16,
+    "shrinking_tube": 41,
+    "green_remainder": 523,
+    "hyperbolic_poisson": 0
+  },
+  "raw_population_sha256": "0fca1e266dd3571357fcfe517aa8e68f62635c95d341c96f3486ea2f8753884f",
+  "retrieval_runs": [
+    {
+      "raw_basename": "oa_r31_history_first",
+      "receipt": {
+        "command": [
+          "ruby",
+          "reports/physical_bridge_2026_09_05/global_poisson_history_scan.rb",
+          "<raw-capture-directory>/oa_r31_history_population_first.json"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 103.78974599996582,
+        "log_bytes": 372,
+        "log_sha256": "378c1f0615bae028146179e5aa5ca96a58435a9ac60d7434976bde80e82b40d2"
+      },
+      "raw_receipt_sha256": "38cca7b946d76c2be0879492807b584caaa7fc0c2a9f6c70b97c96dfe30dec7f"
+    },
+    {
+      "raw_basename": "oa_r31_banked_first",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "Green kernel Poisson line source uniform logarithmic well"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.8254580000648275,
+        "log_bytes": 3637,
+        "log_sha256": "9eae408731ceb1f36431aaac223a4aac0acf4fc8bd49043fe7d654ce16650a25"
+      },
+      "raw_receipt_sha256": "ce9b9d4a6b78834c2e1cde762daf8f8acf9883e65a8de369b342a82978f0b290"
+    },
+    {
+      "raw_basename": "oa_r31_atlas_first",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/atlas/query.py",
+          "card",
+          "global Poisson logarithmic well"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.07924600003752857,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "raw_receipt_sha256": "add772eaacb39f6d74980f164303ea0a347f25a510bc6b2d93b246e48bcfd295"
+    },
+    {
+      "raw_basename": "oa_r31_absence_first",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "Green.kernel|line.source|singular.{0,15}subtract|uniform.{0,40}Poisson|logarithm.{0,25}well|shrink.{0,20}tube"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 5.2204320000018924,
+        "log_bytes": 419,
+        "log_sha256": "fc80006b0b8bcdff0d36b1d5d21b5912c9fa0904fb988efaa599a2b0bdeab0be"
+      },
+      "raw_receipt_sha256": "90e871fb8547572646abbfec667c1877bf255f306833d50cb281b5efa980f39b"
+    },
+    {
+      "raw_basename": "oa_r31_absence_regex_control",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "--regex",
+          "Green.kernel|line.source|singular.{0,15}subtract|uniform.{0,40}Poisson|logarithm.{0,25}well|shrink.{0,20}tube"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 45.95863700006157,
+        "log_bytes": 3324,
+        "log_sha256": "99bc4510807fc4e4eb5dcf8e4ceaa209593ee5eeb09ec54b39ee4ebacc26761d"
+      },
+      "raw_receipt_sha256": "b978c0bbe343fa9f38c6cc93bb1eedf559eb100a8c480560e83c7b1992f5a096"
+    }
+  ],
+  "date": "2026-09-15"
+}
