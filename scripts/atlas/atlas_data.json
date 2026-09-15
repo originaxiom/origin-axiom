@@ -8257,6 +8257,29 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1411": {
+   "slug": "the sm seats v10 arcs harvested",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L212"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [

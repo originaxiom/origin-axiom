@@ -1,0 +1,14 @@
+presentation (seat's): relator abABaBAbaB meridian/longitude ('a', 'bABaaBAb')
+
+== class 2 | fixed vector of block 0: seat's residual 7.3e-61, self_dual True
+   relator residual (a->1, b->2): 3.06e-54
+   h^0(27) = 0, h^1(27) = 3;  h^0(27bar) = 0, h^1(27bar) = 3;  N = h^1(27) - h^1(27bar) = 0   [seat: h1(27) = h1(27bar) = 3, N = 0]
+   joint fixed space of the peripheral images on the 27: dim 3   [seat: exactly three cusp-fixed weights]
+   self-duality check: |tr A - tr A^-1| = 6.48e-57
+
+== class 1 | fixed vector of block 0: seat's residual 2.2e-62, self_dual True
+   relator residual (a->1, b->2): 1.22e-54
+   h^0(27) = 0, h^1(27) = 3;  h^0(27bar) = 0, h^1(27bar) = 3;  N = h^1(27) - h^1(27bar) = 0   [seat: h1(27) = h1(27bar) = 3, N = 0]
+   joint fixed space of the peripheral images on the 27: dim 3   [seat: exactly three cusp-fixed weights]
+   self-duality check: |tr A - tr A^-1| = 1.93e-58
+EXIT 0
