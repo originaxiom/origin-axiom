@@ -1,0 +1,52 @@
+V1 — bench's L vs B496's T1:  IDENTICAL = True
+     memo 117's layering map (A,B) -> (AB,BA) IS the Thue-Morse
+     endomorphism a->ab, b->ba, whose trace map B496 banked as PROVED.
+
+V2a — B496's factorization reproduces the true kappa-image: True
+V2b — B496's form rewritten in (z, kappa):  k**2 - k*z**2 + 2*z**2 - 2
+V2c — memo 118's closed form:               k**2 - k*z**2 + 2*z**2 - 2
+     ALGEBRAICALLY THE SAME: True
+     => memo 118 re-derived a banked identity in different coordinates.
+
+V3 — THE RECORD'S OWN TOWER vs B496's real-case ejection bound:
+     level 0: z = (2, -1),  kappa = (1, 1)
+     level 1: z = (2, -4),  kappa = (-2, 0)
+     level 2: z = (-10, 0),  kappa = (-46, 0)
+     level 3: z = (146, 0),  kappa = (6914, 0)
+
+     at level 1 the tower sits EXACTLY on kappa = -2 — B496's Markov
+     surface, the very locus its Q1 studies.
+     then z_1^2 = (-12, 0)  — NEGATIVE, because z_1 = (2, -4) is COMPLEX
+     (Eisenstein), not real.  So kappa_2 = 2 + 4 z_1^2 = (-46, 0),
+     which is < 2: **the record's own tower EVADES B496's '>= 2 over R'**
+     bound — not by contradicting it, but because B496's bound is stated
+     over the REALS while the record's arithmetic is Eisenstein.  The
+     'one-way door off the Markov surface' opens in a direction the real
+     case cannot see.
+
+V4 — THE HONEST LEDGER (rediscovered vs new):
+  REDISCOVERED (B496 has it, PROVED, and the bench did not cite it):
+    * the map itself — memo 117's L IS B496's T1 (V1);
+    * memo 118's closed form — algebraically B496's kappa-factorization
+      in other coordinates (V2);
+    * memo 120's "growth exponent 2" — B496's arc verdict already says
+      "with DEGREE GROWTH 2";
+    * memo 119's "T_golden preserves kappa, L does not" — B496's Q1
+      states both, and studies the mixed semigroup <T_golden, T_TM>,
+      which is memo 119's [T,L] non-commutation question.
+  GENUINELY NEW (not found in B496 by this hunt):
+    * THE COMPLEX EVASION (V3) — B496's ejection bound is stated over
+      R; the record's own tower is Eisenstein, z_1^2 = -12 < 0, and
+      lands at kappa = -46, BELOW the real floor.  B496's Q1(b) treats
+      the figure-eight point under ONE TM event; this is the ITERATED
+      tower from the record's own (a, b), which B496 did not run;
+    * that the record's tower passes EXACTLY THROUGH kappa = -2 at
+      level 1 — i.e. the object's own layering lands on B496's Markov
+      surface after one step, then leaves it;
+    * memo 119's involution layer (s, e, R), the full commutation
+      table, and the relation (RT)^2 = id strengthening memo 97.
+  THE LESSON, recorded: the owner's instruction "hunt the repo for it"
+  caught a rediscovery three memos deep.  The standing rule — exhaust
+  the repo before claiming — must be applied BEFORE building, not only
+  before saying "we don't have".
+Gate 5 untouched.

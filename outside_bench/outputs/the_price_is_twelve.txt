@@ -1,0 +1,115 @@
+==============================================================================
+ THE PRICE IS TWELVE -- the live input count, recomputed
+==============================================================================
+
+------------------------------------------------------------------------------
+STEP 1 -- the UNEARNED rows, read from the ledger table
+------------------------------------------------------------------------------
+    total I-rows in the ledger : 30
+    UNEARNED                   : 14
+    ['I-6', 'I-7', 'I-10', 'I-11', 'I-13', 'I-14', 'I-18', 'I-23', 'I-25', 'I-26', 'I-27', 'I-28', 'I-30', 'I-29']
+
+    baseline file says unearned = 14, rows = ['I-6', 'I-7', 'I-10', 'I-11', 'I-13', 'I-14', 'I-18', 'I-23', 'I-25', 'I-26', 'I-27', 'I-28', 'I-30', 'I-29']
+    ledger table and baseline JSON AGREE (independent surfaces, same answer)
+
+------------------------------------------------------------------------------
+STEP 2 -- B1266's union-find, rerun on the LIVE ledger
+------------------------------------------------------------------------------
+
+    B1266's rule: a row that states IN ITS OWN earning text that paying another
+    UNEARNED row pays it is not an independent source.  Two traps B1266 names and
+    this rerun must also avoid: a reference to an EARNED row is not a debt, and a
+    mutual reference (I-10 <-> I-11) is ONE source, not two.
+
+    reduction edges found in the rows' own text:
+      I-11  reduces to  I-10
+      I-11  reduces to  I-10
+      I-18  reduces to  I-13
+      I-18  reduces to  I-13
+      I-23  reduces to  I-13
+      I-23  reduces to  I-13
+      I-28  reduces to  I-27
+      I-28  reduces to  I-27
+      I-30  reduces to  I-27
+      I-30  reduces to  I-27
+      I-29  reduces to  I-13
+      I-29  reduces to  I-13
+      I-29  reduces to  I-13
+
+    14 unearned rows  ->  8 IRREDUCIBLE SOURCES
+      [1] I-6
+      [1] I-7
+      [2] I-10, I-11
+      [4] I-13, I-18, I-23, I-29
+      [1] I-14
+      [1] I-25
+      [1] I-26
+      [3] I-27, I-28, I-30
+
+------------------------------------------------------------------------------
+STEP 3 -- the axioms, read from the chain census
+------------------------------------------------------------------------------
+    axioms named in docs/THE_END_TO_END_CHAIN.md: ['C3', 'C4', 'C5', 'C18']
+      C3: being is inexhaustible description
+      C4: the geometric carrier
+      C5: orientation
+      C18: (the observer closings, named in the census sentence)
+
+------------------------------------------------------------------------------
+STEP 4 -- the price
+------------------------------------------------------------------------------
+    ROWS OUTSTANDING  : 4 axioms + 14 unearned rows = 18
+    IRREDUCIBLE INPUTS: 4 axioms + 8 sources      = 12
+
+    bought, of the SM's 19 free parameters: 0
+
+------------------------------------------------------------------------------
+STEP 5 -- the verdict doc: stale numbers must be STRUCK, not live
+------------------------------------------------------------------------------
+
+    A stale figure inside a ~~strikethrough~~ is PROVENANCE and must be kept
+    (the addendum-only rule: mark superseded in place, never rewrite history).
+    The same figure OUTSIDE a strikethrough is a LIVE WRONG CLAIM.  This step
+    separates the two, so the check can go green without deleting the record --
+    memo 216's precedent, where the certificates were re-pointed at the STRUCK
+    forms so the historical text is still verified present.
+
+    stale figures KEPT AS PROVENANCE (inside ~~...~~) : 4
+      struck: irreducible 4+7=11
+      struck: 10 rows -> 7 sources
+      struck: 11 = irreducible
+      struck: 14 = rows outstanding
+    stale figures STILL LIVE (outside ~~...~~)        : 0
+
+    and the LIVE figures must be present and must be the computed ones:
+      the irreducible count: '4 + 8 = 12' present = True
+      the row count: '18 ROWS OUTSTANDING' present = True
+
+    The ledger's own baseline records the raises that moved it:
+      2026-09-06  10 -> 11  row I-26  (arc B1259)
+      2026-09-07  10 -> 11  row I-27  (arc B1296)
+      2026-09-08  11 -> 12  row I-28  (arc B1298)
+      2026-09-09  12 -> 13  row I-30  (arc B1321)
+      2026-09-09  13 -> 14  row I-29  (arc B1306 C)
+
+------------------------------------------------------------------------------
+CONTROLS
+------------------------------------------------------------------------------
+    C1 (non-vacuity) -- with the reduction edges IGNORED, the same rows give
+       14 sources, not 8.  The reduction is doing work.
+    C1: PASS
+
+    C2 (B1266's two traps are still live in the data):
+       trap 1, I-25 references the EARNED I-1        : False
+       trap 2, I-10 and I-11 reference each other    : True
+       I-1 is EARNED, so trap 1 contributes no edge  : True
+    C2: PASS
+
+    C3 (the 2-cycle collapses to one source, not two): True
+    C3: PASS
+
+==============================================================================
+ LIVE PRICE: 4 axioms + 8 irreducible sources = 12
+             (18 rows outstanding) vs the SM's 19 free parameters
+ verdict doc: 4 stale figure(s) struck for provenance, 0 still live
+==============================================================================

@@ -1,0 +1,19 @@
+functional equation Lambda_K(s) = Lambda_K(1-s), relative errors: [2.0167259453410145e-31, 1.5837373950987763e-31, 5.044290245849148e-31]
+theta_K(T)/pi - (T/pi)log(T sqrt3/2 pi e) at increasing T: [(50, 0.0002652644286287744), (100, 0.0001326298929375835), (500, 2.652583003801595e-05), (2000, 6.631456058871046e-06), (10000, 1.326291193206131e-06)]
+the Stirling constant  = 0.000000132629119244019782953730691604  -> the constant term VANISHES (decays ~1/T; contrast Riemann 7/8)
+census recomputed: 43 zeta zeros + 65 L(chi_-3) zeros = 108 (banked: 43+65=108)
+
+checkpoint table: T | N_obs | theta_K(T)/pi | remainder S(T)
+     30 |    11 |     10.625 | +0.375
+     50 |    27 |     25.838 | +1.162
+     80 |    55 |     53.310 | +1.690
+    100 |    75 |     73.740 | +1.260
+    130 |   108 |    106.718 | +1.282
+preregistered gate |S(T)| < 2 at all checkpoints: True
+
+C1 CLOSED: the counting law is DERIVED — Lambda_K's verified functional
+equation + the argument principle + Stirling give N(T) = (T/pi) log(T sqrt3/
+(2 pi e)) + const + S(T), and the recomputed 108-zero census tracks it with
+|S(T)| < 2 at every checkpoint.  B1142's density instrument (the 697x-sparse
+falsification) now rests on a derived coefficient, not an asserted one.
+Placement, not value; Gate 5 untouched.

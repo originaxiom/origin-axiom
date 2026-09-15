@@ -1,0 +1,518 @@
+
+------------------------------------------------------------------------------
+ HEADS AND THEIR FRONTIER SIZE
+------------------------------------------------------------------------------
+  origin                                               arcs= 1243   max=B1324
+  origin/audit/b775-braver-questions                   arcs= 1021   max=B1067
+  origin/audit/physical-bridge-2026-09-05              arcs= 1204   max=B1255
+  origin/claude/new-session-qor5up                     arcs= 1019   max=B1054
+  origin/claude/outside-bench                          arcs= 1243   max=B1324
+  origin/claude/paper-verification-ufp0zn              arcs= 1278   max=B1409
+  origin/claude/physics-seat-evaluation-8dkbrl         arcs= 1183   max=B1234
+  origin/claude/standard-model-derivation-0qt6ao       arcs= 1243   max=B1355
+  origin/codex/seat-r001                               arcs= 1092   max=B1143
+  origin/main                                          arcs= 1243   max=B1324
+  origin/paper/structure-genesis-first                 arcs= 1103   max=B8154
+
+  THIS BRANCH (claude/outside-bench): arcs=1243
+
+------------------------------------------------------------------------------
+ THE GAP -- arcs present on SOME head and ABSENT here
+------------------------------------------------------------------------------
+  union over all heads : 1428
+  present here         : 1243
+  ABSENT HERE          : 185
+
+------------------------------------------------------------------------------
+ THE GAP, BY HEAD
+------------------------------------------------------------------------------
+
+  [b775-braver-questions]  (5)
+    B775_braver_questions B783_observer_ground_zero B784_trace_map_intertwining B792_maass_m004_eigenvalues B796_coupling_campaign
+
+  [new-session-qor5up]  (30)
+    B1025_suite_collection_repair B1026_the_one_involution B1027_kappa_two_faces B1028_kappa_absolutely_conserved B1029_seam_class_field B1030_input_typing_audit B1031_generation_rung B1032_across_breakings_route B1033_register_reconciliation B1034_two_kappas B1035_shadow_library B1036_knowledge_room B1037_band_B100_dispositioned B1038_tower_restored B1039_phi_fixed_and_metallic_exponent B1040_isomonodromy_restored B1041_the_red_locks B1042_the_error_ledger B1043_the_band_is_the_wrong_unit B1044_law_siblings_gated B1045_middle_band_mapped B1046_the_arc_graph B1047_the_seam_cluster B1048_the_seam_cluster_closed B1049_the_wrapped_exclusion B1050_the_projective_wall B1051_the_band_closed B1052_the_handoff B1053_the_unread_handoffs B1054_review_one
+
+  [paper-verification-ufp0zn]  (35)
+    B1325_codex_r037_r040_harvest B1326_the_stale_claim_gate B1327_relation_not_observer B1328_extension_over_the_parent B1329_the_vanishing_is_not_formal B1330_the_best_case_object B1331_the_two_images_coincide B1332_the_cup_product_vanishes B1333_the_index_on_several_cusps B1334_the_deformation_proof B1335_the_vanishing_is_not_formal_exhibited B1336_the_surviving_gauge_group B1337_the_scheduled_sweep B1338_the_instrument_is_blind B1339_the_chain_status_adopted B1340_the_joker_priced B1341_the_action_of_the_object B1342_the_unseen_faces B1343_deriving_the_other_faces B1344_chat1_strata_verification B1345_the_jorgensen_number B1346_the_chat1_handoff_intake B1347_the_other_strata B1348_the_listener_map_posed B1349_the_mirror_sector_posed B1400_the_six_sweeps_intaken B1401_the_kappa_lower_bound B1402_the_three_cuts_are_one B1403_the_conductors_domain B1404_the_family_has_a_name B1405_the_word_anchor_repriced B1406_the_mirror_and_the_bulk B1407_l209_was_never_a_choice B1408_the_precision_requirement B1409_the_tower_budget
+
+  [standard-model-derivation-0qt6ao]  (28)
+    B1267_spectrum_law_rebuilt B1268_cusped_net_chirality_bound B1269_transport_computed B1270_e6_from_the_two_faces B1271_the_chain_all_the_way B1272_theta_on_the_two_face_e6 B1273_the_three_fold_closing B1274_the_tower_and_its_doubles B1275_the_cubic_made_explicit B1276_the_relations_the_chain_forces B1277_the_vacuum_manifold_of_the_closing B1278_the_six_fold_closing B1279_the_symmetries_of_the_closing B1280_the_chirality_probe B1281_the_seats_verified B1282_the_siblings_germ B1283_the_sm_closings_vacuum B1300_the_doublet_triplet_lines B1301_the_towers_alphabet B1302_the_one_triplet_vacua B1303_the_two_by_two_criterion B1304_the_two_adic_tower B1350_the_v10_direction B1351_the_index_on_a_three_manifold B1352_the_fixed_vector_locus_along_v10 B1353_the_isolated_enhancement_point B1354_the_maximal_persistence B1355_the_e7_point_made_explicit
+
+  [structure-genesis-first]  (87)
+    B8068_j2t_charge_field B8069_conformal_selection B8070_anomaly_rank_descent B8071_reality_gate B8072_matching_capacity B8073_su5_reality B8074_nilpotent_rank4 B8075_rung_spectrum_audit B8076_paper_closure B8077_compact_home B8078_rung_spectrum_attained B8079_arrangement_exact B8080_assembly_classification B8081_rho_rebuilt B8082_geodir_h1 B8083_positivity_bridge B8084_cold_audit B8085_integral_orbits B8086_wilson_menu B8087_neutrino_selector B8088_row_homogeneity B8089_anomaly_door5 B8090_cold_audit_f1 B8091_first_step_losses B8092_design_audit B8093_L171_clpw B8094_L173_anchors B8095_related_work_armor B8096_relaxed_residue B8097_buried_results B8098_L1_verified B8099_3d_completeness B8100_oneloop_geodesic B8101_scattering_verified B8102_cusped_gap B8103_specialist_revisit B8104_pfaff_formula B8105_r48_phase1 B8106_r48_phase2 B8107_r48_verify B8108_r48_phase3 B8109_r48_close B8110_scale_factorisation B8111_genericity_control B8112_graviton_torsion_dictionary B8113_abscissa_residue B8114_related_work_armor B8115_c5_closed B8116_c2_pathA_tower B8117_l172_anyon_devices B8118_two_theories_differ B8119_3d_closure B8120_scrutiny_triage B8121_m4_closed B8122_constructive_items B8123_scrutiny_closed B8124_phi_law_sharpened B8125_abscissa_not_the_cusp B8126_tone_axis_split B8127_regulator_omission B8128_genericity_on_the_wins B8129_n2_no_breakdown B8130_item5_ruelle_Lchi B8131_brief_triage B8132_spin_count_not_separating B8133_residue2_reframed B8134_codex_branch_stale_claim B8135_paper1_drafted B8136_paper2_drafted B8137_paper3_drafted B8138_paper4_drafted B8139_findings_omission_swept B8140_fastlane_adopted B8141_artifact_dependence B8142_residue2_bridge B8143_anomaly_lane B8144_price_reconciliation B8145_l171_verified B8146_l173_precision B8147_paperIV_refuted B8148_m12_settled B8149_paperII_residue_sharpened B8150_paperIII_fenced B8151_verified_vs_used_sweep B8152_family_definition B8153_b500_accounting B8154_mirror_is_c
+
+------------------------------------------------------------------------------
+ THE GAP, WITH VERDICTS
+------------------------------------------------------------------------------
+  -         B775_braver_questions
+  -         B783_observer_ground_zero
+  -         B784_trace_map_intertwining
+  -         B792_maass_m004_eigenvalues
+  -         B796_coupling_campaign
+  PROVED    B1025_suite_collection_repair
+            THE SUITE DID NOT RUN. On a clone installing exactly requirements.txt (snappy commented out as OPTIONAL), `python3 -m pytest -q` returned `Interrupted
+  PROVED    B1026_the_one_involution
+            ONE INVOLUTION, SIX NAMES, AND ITS FIRST LINK IS AN AXIOM OUTSIDE A1-A6. Reading band B0-B99 of the CONSOLIDATION REFRESH in order, the same map is in
+  PROVED    B1027_kappa_two_faces
+            KAPPA = 2 IS THE FREE CHAIN, and the curated layer carried only one of the founding sentence's three banked meanings. THE_FRAMEWORK's bridge equation 
+  PROVED    B1028_kappa_absolutely_conserved
+            KAPPA = 2 IS ABSOLUTELY CONSERVED, and the information-losing maps land INSIDE it. B497 classifies End(F_2) on the character variety into four strata 
+  PROVED    B1029_seam_class_field
+            THE SEAM IS NOT A THIRD FACE -- ITS HILBERT CLASS FIELD IS THE TWO ENDS. THE CHAIN's C7 banks the object's forced quadratic faces as exactly three, a 
+  PROVED    B1030_input_typing_audit
+            THE COUNTED INPUT LIST, AUDITED: ONE CONTINUOUS DIMENSIONLESS INPUT, NOT ZERO -- AND THE TWO FIVES ARE DIFFERENT FIVES. Occasioned by the owner's ques
+  PROVED    B1031_generation_rung
+            THREE GENERATIONS: STRUCTURAL, COUNT MATCHES -- NOT DERIVED. AND THE LADDER HAD NO RUNG FOR IT. Occasioned by the owner's belief that the programme de
+  PROVED    B1032_across_breakings_route
+            THE ACROSS-BREAKINGS ROUTE: TWO SEALED CELLS B307 DOES NOT TOUCH -- AND B1031's OWN RUNG CORRECTED. THE SWEEP: B800-B1024, the campaign's last unswept
+  PROVED    B1033_register_reconciliation
+            THE SECOND DEBT REGISTER MEETS THE FIRST, AND THE GATED ONE CANNOT SEE TWO-THIRDS OF THE CORPUS. THE OMISSION: docs/consolidation/DEBT_LEDGER.md, this
+  PROVED    B1034_two_kappas
+            KAPPA NAMES TWO QUANTITIES, AND ONE OF THEM IS EXPORTED BY THE CERTIFIED CORE. Found by the code sweep WORKING_RULES section 0 asks for ('grep the COD
+  PROVED    B1035_shadow_library
+            THE SHADOW LIBRARY, THE ORPHANED CORE, AND ONE NON-FINDING. The code sweep's second return, counted over the tree rather than quoted -- distinct files
+  PROVED    B1036_knowledge_room
+            THE KNOWLEDGE ROOM: THE FIREWALL RUNS BACKWARDS IN FIVE PLACES, AND NOTHING COULD SEE IT. The governed-rooms sweep over knowledge/, the textbook layer
+  PROVED    B1037_band_B100_dispositioned
+            THE B100-B199 BAND DISPOSITIONED: 37 ROWS ARE 17 STATEMENTS. The consolidation campaign's STEP 6 executed for the first time -- 'a band is DONE when i
+  PROVED    B1038_tower_restored
+            THE TOWER CLUSTER RESTORED: TWO Sym BANDS, AND THE FIT IS UNIQUE AT n = 4. The first of B1037's seven restorations and the largest -- six debt rows be
+  PROVED    B1039_phi_fixed_and_metallic_exponent
+            TWO MORE CLUSTERS RESTORED -- AND RE-VERIFYING THEM FOUND TWO DEFECTS IN WHAT WAS ABOUT TO BE RESTORED. Restorations 2 and 3 of B1037's seven, under c
+  PROVED    B1040_isomonodromy_restored
+            THE ISOMONODROMY CLUSTER RESTORED, AND THE CLUSTER'S OWN [exact] TAG DOES NOT SURVIVE CONTACT. Restoration 4 of B1037's seven, under campaign step 5 (
+  PROVED    B1041_the_red_locks
+            NAMING A MECHANISM DID NOT GATE IT -- REVIEW 42'S GOVERNING FINDING RECURRED WITHIN TWO DAYS. THE MECHANISM IS NOT THIS ARC'S FINDING: REVIEWS.md:3301
+  PROVED    B1042_the_error_ledger
+            THE CORPUS NAMES ITS LESSONS WHERE IT FINDS THEM, AND THE REGISTER THAT GENERALISES THEM STOPPED 122 ARCS AGO. B1041 found Review 42's governing findi
+  PROVED    B1043_the_band_is_the_wrong_unit
+            THE BAND IS THE WRONG UNIT, AND IT MADE THIS REFRESH RESTORE A SETTLED QUESTION AS OPEN. Occasion: sweeping band B200-B299, the campaign's next unit o
+  PROVED    B1044_law_siblings_gated
+            THE TOPIC SEARCH PER RESTORATION, MADE MECHANICAL. B1043 measured the defect -- a band groups arcs by BANKING DATE while a law is a statement about WH
+  PROVED    B1045_middle_band_mapped
+            THE INSTRUMENT'S FIRST MEASURED MISS, AND WHY THE MIDDLE BAND IS MAPPED AND NOT DISPOSITIONED. Two results, one of each kind. THE POSITIVE IS A MISS: 
+  PROVED    B1046_the_arc_graph
+            THE ARC GRAPH DOES NOT CARRY WHAT THE BODIES KNOW. Occasion: Phase 9 set out to disposition the seam cluster, and reading its bodies found something t
+  PROVED    B1047_the_seam_cluster
+            THE SEAM CLUSTER DISPOSITIONED FROM THE BODIES -- and the dominant finding is not a law, it is that THIS CLUSTER'S CLAIM LINES SYSTEMATICALLY OVERSTAT
+  PROVED    B1048_the_seam_cluster_closed
+            THE SEAM CLUSTER IS CLOSED, AND THE HEADLINE IS NOT THE SEAM: THE SURVIVOR SITTING BESIDE THE CORPUS'S WORST TRAP IS A THEOREM THAT NO CURATED SURFACE
+  PROVED    B1049_the_wrapped_exclusion
+            THE FULL SUITE FOUND FIVE RED LOCKS THAT 94 TARGETED TESTS DID NOT, AND THIS IS THE THIRD INSTANCE OF THE MECHANISM REVIEW 42 NAMED AND B1041 RECORDED
+  PROVED    B1050_the_projective_wall
+            SIX ARCS FOUND THE SAME WALL SEPARATELY AND NO CURATED SURFACE SAID SO. B19, B21, B28, B30, B34 and B35 each establish a different half of one fact --
+  PROVED    B1051_the_band_closed
+            B0-B99 IS CLOSED, AND THE SHARPEST RESULT IS NOT A RESTORATION: TWO OF THE TEN REMAINING ROWS ARE THE SAME LAW AS ROWS ALREADY ON LAW_MAP, AND law-sib
+  PROVED    B1052_the_handoff
+            THE REFRESH EXITS THROUGH A MANUAL, AND THE MANUAL IS CHECKED AGAINST THE CORPUS. 28 arcs, two closed bands, two gates, 27 LAW_MAP rows and two dozen 
+  PROVED    B1053_the_unread_handoffs
+            THE HANDOFFS I WROTE INTO BUT HAD NOT READ. B1052 wrote a handoff into docs/handoffs/ after opening TWENTY-TWO LINES of one of the two files already t
+  PROVED    B1054_review_one
+            REVIEW 1 OF THE CONSOLIDATION SEAT -- the commissioned decadal review of this branch's own window (qB1024-qB1053, thirty arcs), run by the seat that p
+  PROVED    B1267_spectrum_law_rebuilt
+            THE SPECTRUM LAW REBUILT FROM THE REPOSITORY'S OWN 27 AND EXTENDED. B1086's named residual (an own-code rebuild of the dial matrices hv8/hv16) is paid
+  PROVED    B1268_cusped_net_chirality_bound
+            WHERE NET CHIRALITY CANNOT LIVE ON THE CUSPED OBJECT. MAIN_GOAL JOIN 1 q1 in the theta-odd frame. THE LEMMA (Poincare-Lefschetz on the pair, checked e
+  PROVED    B1269_transport_computed
+            THE TRANSPORT COMPUTED. I-26 asks for the compactification in which an h^1 of the object counts 4d chiral generations and for the surviving gauge grou
+  PROVED    B1270_e6_from_the_two_faces
+            E6 FROM THE TWO FACES. The corpus had E8 at the golden end (RL -> Q(sqrt5) -> 2I) and E6 at the Eisenstein end (g = -R L^-1 -> Q(sqrt-3) -> 2T) and sa
+  PROVED    B1271_the_chain_all_the_way
+            THE CHAIN TAKEN ALL THE WAY. Every remaining Standard-Model step the corpus's ingredients supply is computed exactly on B1270's icosian E8 and B1252's
+  PROVED    B1272_theta_on_the_two_face_e6
+            THE OBJECT'S MIRROR ON THE TWO-FACE E6 IS SPLIT. The amphichirality of A = LR is conjugation by P = diag(1,-1) (R -> R^-1, L -> L^-1); mod 5 it is INN
+  PROVED    B1273_the_three_fold_closing
+            THE OBJECT'S OWN THREE-FOLD CLOSING. The 3-fold cyclic branched cover Y_3 of S^3 along the figure-eight knot -- the object's own closing, three copies
+  PROVED    B1274_the_tower_and_its_doubles
+            THE TOWER AND ITS DOUBLES. For all 48 surjections pi_1(m004) -> 2T and every n <= 6: the family 3 of E8 > E6 x SU(3) (the real 3 of 2T) descends to th
+  PROVED    B1275_the_cubic_made_explicit
+            THE CUBIC MADE EXPLICIT. B308's unique E6 cubic invariant d_abc on the 27 is solved exactly from the repository's own 27 (B883's rep27.json): the 45 z
+  PROVED    B1276_the_relations_the_chain_forces
+            THE RELATIONS THE CHAIN FORCES. B1275's explicit E6 cubic read through B1252/B1253's Standard-Model labels of the 27 (Q 6, u^c 3, d^c 3, L 2, e^c 1, n
+  PROVED    B1277_the_vacuum_manifold_of_the_closing
+            THE VACUUM MANIFOLD OF THE CLOSING AND ITS WILSON LINES. The E8 theory on Y_3 (B1273: e6 + u(1)^2, three 27s on the sign characters chi_i, three 27bar
+  PROVED    B1278_the_six_fold_closing
+            THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE. The closings Y_n are the manifold covers of the object's geometric transition (Y_2 the spherical en
+  PROVED    B1279_the_symmetries_of_the_closing
+            THE SYMMETRIES OF THE CLOSING ON ITS STANDARD-MODEL LINES. The eight isometries of the object are found as automorphisms of its own presentation <a, b
+  PROVED    B1280_the_chirality_probe
+            THE CHIRALITY PROBE, COMPLETED AND CLOSED BY TWO THEOREMS. (1) THE ELLIPTIC SL(3) COMPONENTS. On B71's non-self-dual components W1, W2 the A-variety i
+  PROVED    B1281_the_seats_verified
+            THE SEATS VERIFIED (2026-09-07). Fetched origin/main @ 506c591f (main's B1267, B1272-B1277, B1290-B1294), the physics seat @ 659487bb (R56-R72) and co
+  PROVED    B1282_the_siblings_germ
+            THE SIBLING'S GERM. On the two-cusped sibling m202 (pi_1 = <a, b | aabbAbAABBaB>, Sym = D_6, commensurable with the object, Q(sqrt-3), 2T) the twelve 
+  PROVED    B1283_the_sm_closings_vacuum
+            THE SM CLOSING'S TREE-LEVEL VACUUM. On Y_9 with an SM Wilson line (B1278: E6 -> su(3)+su(2)+u(1)_Y+u(1)_beta+u(1)', three 27s and 27bars, six flavons)
+  NEGATIVE  B1300_the_doublet_triplet_lines
+            THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour trip
+  PROVED    B1301_the_towers_alphabet
+            THE TOWER'S ALPHABET. The h^1 support of the closings Y_2 ... Y_12 (the n-fold cyclic branched covers of the object; |H_1| = L_n^2 or 5 F_n^2) compute
+  PROVED    B1302_the_one_triplet_vacua
+            THE ONE-TRIPLET VACUA. On Y_12's 34 752 Standard-Model Wilson lines (B1301; 265 survival patterns of the eleven multiplets over three generations, the
+  PROVED    B1303_the_two_by_two_criterion
+            THE 2x2 CRITERION. The n-fold cyclic branched cover of the object is the fixed quotient of the fibre's monodromy, pi_1(Y_n) = <a, b | phi^n(a) = a, ph
+  PROVED    B1304_the_two_adic_tower
+            THE 2-ADIC TOWER ENDS AT Y_12. Y_24's character group has 10 749 957 120 elements, but its odd support is empty by B1303's law (an even level pulls ba
+  OPEN      B1325_codex_r037_r040_harvest
+            THE CODEX HARVEST GAP: R037 RE-DERIVED AND BANKED, R038-R040 READ AND ROWED OPEN (the arc carries those three as named debts, hence OPEN). B1235 harve
+  PROVED    B1326_the_stale_claim_gate
+            THE STALE-CLAIM GATE, and the sweep that says the class has exactly one member. B1181 was retracted by B1235 on 2026-09-02 ('the family is 38/112 amph
+  OPEN      B1327_relation_not_observer
+            OBSERVER IS THE WRONG TYPE FOR MOST OF THESE ROWS; THE RIGHT ONE IS RELATION. The record's own no-go is that AN INVARIANT SELECTOR CANNOT PICK A POINT
+  PROVED    B1328_extension_over_the_parent
+            THE THREE 'EXTENSION OVER m000 SELECTS' INSTANCES ARE ONE MECHANISM, AND IT IS A RELATION RATHER THAN A CHOICE. Codex R037 (m004's 2T quotient class),
+  OPEN      B1329_the_vanishing_is_not_formal
+            THE INDEX VANISHING IS NOT FORMAL, THE NAIVE PROOF ROUTE IS CLOSED WITH A REASON, AND THE EVIDENCE IS STRONGER AFTER A BIAS IN IT WAS FOUND AND REMOVE
+  NEGATIVE  B1330_the_best_case_object
+            THE BEST-CASE OBJECT FOR THE CHIRALITY INDEX EXISTS, IS NAMED, AND RETURNS ZERO. B1324 concluded that m004's chiral one-cusped covers carry almost no 
+  OPEN      B1331_the_two_images_coincide
+            THE VANISHING THEOREM HAS A SHARP STRUCTURAL FORM, AND THE OBVIOUS MECHANISM FOR IT IS RULED OUT. First, a REDUCTION: since L_V and L_{V*} are mutual 
+  OPEN      B1332_the_cup_product_vanishes
+            THIRD ADDENDUM -- ONE-CUSPED ISOTROPY BROADENED AND NOT BROKEN. B1334's addendum leaves isotropy as the ONLY live route for the one-cusped case, so it
+  PROVED    B1333_the_index_on_several_cusps
+            THE INDEX ON SEVERAL BOUNDARY TORI, DERIVED FROM THE SAME PAIR SEQUENCE AND VERIFIED -- THE BLOCKER THE PAPER'S WALL NAMES IS CLEARED. Section 14 of T
+  PROVED    B1334_the_deformation_proof
+            THE FIRST PROOF OF I = 0 IN THE RECORD, ON A NARROW STATED DOMAIN, AND IT USES NONE OF THE THREE MECHANISMS THIS BENCH PROPOSED AND KILLED. Let S = Ho
+  NEGATIVE  B1335_the_vanishing_is_not_formal_exhibited
+            THE VANISHING IS NOT FORMAL, NOW EXHIBITED -- AND THE FALSIFIER DOES NOT FIRE. Scanning one-cusped census manifolds with honest SL2(F_p) representatio
+  NEGATIVE  B1336_the_surviving_gauge_group
+            I-26'S UNTOUCHED HALF PAID, AND THE ANSWER IS ABELIAN OR NOTHING. The identification ledger records that naming the surviving gauge group -- the centr
+  PROVED    B1337_the_scheduled_sweep
+            THE SCHEDULED SWEEP: 156 OF 277 ARE READABLE HERE, AND THE FIRST HIGH-VALUE ROW READ NEEDS A CORRECTION. docs/HARVEST_LEDGER.md carries 526 rows of wh
+  NEGATIVE  B1338_the_instrument_is_blind
+            THE ANTI-REDISCOVERY INSTRUMENT IS ITSELF BLIND, AND ITS TWO DECLARED BLIND REGIONS ARE STALE. Asked for a brave next step, this bench proposed a no-g
+  PROVED    B1339_the_chain_status_adopted
+            THE CHAIN STATUS ADOPTED, AND MEMO 152'S OWN FIX DISCHARGED. B1338 found four consolidations each ADDED and never ADOPTED, none on main, and a fifth b
+  NEGATIVE  B1340_the_joker_priced
+            THE JOKER PRICED: CHIRALITY COSTS THE Z', AND WHAT IT BUYS IS A FORCED SHAPE. C3 (three chiral generations) is granted as a DECLARED INPUT -- not a di
+  PROVED    B1341_the_action_of_the_object
+            THE OBJECT'S ACTION EXISTS EXACTLY AT ITS MONODROMY, AND FAILS EXACTLY AT THE FORMAL SQUARE ROOT OF THE MONODROMY. An attempt at TOE row 4 (dynamics) 
+  PROVED    B1342_the_unseen_faces
+            IS THERE A FACE WE HAVE NOT SEEN? THREE OF FOUR, AND THE RECORD NAMED THEM IN 2026-07. The owner asked. 'Face' has three senses here and two are CLOSE
+  PROVED    B1343_deriving_the_other_faces
+            DERIVING THE OTHER ADE FACES IS FREE AND THEREFORE EVIDENTIALLY EMPTY; ENRICHMENT HAS A TEST; AND THE ELLIPTIC BRIDGE IS CLOSED BY A THEOREM. The owne
+  PROVED    B1344_chat1_strata_verification
+            VERIFYING chat1's STRATA REPORT: ONE REAL RESULT, ONE REFUTATION, AND A COLLISION IN OUR OWN RECORD. (C1 CONFIRMED, and it is the best thing in the re
+  PROVED    B1345_the_jorgensen_number
+            THE JORGENSEN NUMBER: THE THEOREM IS REAL, THE RECORD ALREADY HAD THE NUMBER, AND TWO READINGS DIE. Verifying a forwarded seat report. CONFIRMED: J(m0
+  PROVED    B1346_the_chat1_handoff_intake
+            THE chat1 HANDOFF INTAKEN: 34/34 REPRODUCED, F1 CORRECTS A BANKED ARC, F5 GENERALISES, AND CHAT-2'S NESTING IS REFUTED. Every number recomputed on thi
+  NEGATIVE  B1347_the_other_strata
+            ENTERING THE OTHER THREE STRATA: THE KAPPA-FLOW MEASURED, THE ARROW NOT FOUND, AND ONE EXACT IDENTITY. B497 classified End(F2) in July and ended 'the 
+  PROVED    B1348_the_listener_map_posed
+            THE LISTENER MAP POSED AND HALF-DECIDED: EXISTENCE YES, UNIQUENESS NO, AND THE FREEDOM IS EXACTLY 12. LISTENER_MAP_SPEC (L166) asks whether a nonempty
+  NEGATIVE  B1349_the_mirror_sector_posed
+            THE MIRROR SECTOR POSED: THE RESIDUAL FREEDOM IS 48, AND R11'S ARITHMETIC SAYS DO NOT SPEND THE LAST ROW. Of KIND_TABLE's four coupling rows, tones, p
+  PROVED    B1350_the_v10_direction
+            THE V10 DIRECTION (L207 = main's L204), DONE: at the subregular sl2 point of the cusped object's E6 holonomy (e6 = V2+V4+V6+V8+V10+V10+V14+V16, 27 = 1
+  PROVED    B1351_the_index_on_a_three_manifold
+            THE INDEX ON A THREE-MANIFOLD (main's Q9): Pantev-Wijnholt's net chiral count of a charged sector is chi(M, d+M; L) = chi(M; L) - chi(d+M; L). On a cl
+  PROVED    B1352_the_fixed_vector_locus_along_v10
+            THE FIXED-VECTOR LOCUS ALONG V10 (L204's other half; B1268's stage (b) completed): from every genuine V10 point of B1350 the augmented Newton (relator
+  PROVED    B1353_the_isolated_enhancement_point
+            THE ISOLATED ENHANCEMENT POINT ON AN E6 LOCUS, MADE FINITE (main's E70 scope of B1259 answered): in a flat G2 orbifold the E6 locus is the fixed 3-pla
+  PROVED    B1354_the_maximal_persistence
+            THE MAXIMAL PERSISTENCE (B1352 section 6's residue): formal branches tangent to the V10 direction that keep all three cusp-fixed vectors of rho_0 exis
+  PROVED    B1355_the_e7_point_made_explicit
+            THE E7 POINT MADE EXPLICIT: the destination's local model is the G2 cone over CP^3/2T -- the Bryant-Salamon cone over the nearly-Kaehler CP^3 divided 
+  PROVED    B1400_the_six_sweeps_intaken
+            THE SIX SWEEPS INTAKEN: THE HEADLINE REPRODUCES TO EVERY DIGIT AND IS AN UNDERSTATEMENT, THE ABSENT-TERM LIST IS RIGHT ON MAIN WHILE EIGHT OF ITS SIXT
+  PROVED    B1401_the_kappa_lower_bound
+            |kappa-2| AS A LOWER BOUND ON J: ALL FIVE RELAYED VALUES CONFIRMED EXACTLY, THE TWO CLAIMS ARE ONE CLAIM, AND THE BOUND IS ATTAINED ON A PARABOLIC MER
+  PROVED    B1402_the_three_cuts_are_one
+            THE THREE CUTS ARE ONE STRUCTURE, AND THE MIRROR SPEAKS EXACTLY WHERE McKAY ACCESS DIES. L208 answered. B996's criterion, recomputed independently her
+  PROVED    B1403_the_conductors_domain
+            L208'S SECOND HALF CLOSED: B1002'S gcd AND gcd(m,15) HAVE DISJOINT DOMAINS, AND DISJOINT EXACTLY WHERE IT MATTERS. L208 asked whether B1002's other gc
+  PROVED    B1404_the_family_has_a_name
+            THE OBJECT'S FAMILY HAS A NAME, A DEFINITION AND A CLASSIFICATION THEOREM, AND THE RECORD HAD EVERY INGREDIENT EXCEPT THE THEOREM. Verified on receipt
+  PROVED    B1405_the_word_anchor_repriced
+            BRANCH A'S WORD ANCHOR IS NOT MIS-SIZED, IT IS MIS-TYPED -- AND RE-PRICED AS WHAT IT ACTUALLY IS, THE LAST LICENSED ROW'S ONLY SURVIVING READING GOES 
+  PROVED    B1406_the_mirror_and_the_bulk
+            THE TWO RIDDLES ANSWERED, AND THEY ARE ONE ANSWER: THE OBJECT IS A BOUNDARY, AND WHAT FEELS MISSING IS WHAT IT IS THE BOUNDARY OF. 26/26 exact checks.
+  NEGATIVE  B1407_l209_was_never_a_choice
+            L209 WAS NEVER A CHOICE: THE ROW'S SPEC SETTLES IT, THE ROW IS DEAD, AND THE BINDING OBSTRUCTION IS POWER RATHER THAN ACCOUNTING. 19/19 checks. THE CO
+  NEGATIVE  B1408_the_precision_requirement
+            L216 CLOSED NEGATIVE BEFORE THE WINDOW WAS SPENT, THE MIRROR SECTOR CLOSED ENTIRE, AND THE OBSTRUCTION QUANTIFIED: THE VALUE CHANNEL NEEDS ~1e-2 TO 1e
+  PROVED    B1409_the_tower_budget
+            THE TOWER'S BUDGET IS REAL, IT IS EXACTLY 20 REAL PARAMETERS, AND EVERY ONE OF THEM IS BOUNDARY DATA. Prereg sealed 5618216a and pushed at 31cfd032 BE
+  PROVED    B8068_j2t_charge_field
+            CELL 1: J^{2T} IS THE CHARGE FIELD -- the fixed Jordan subalgebra of the principal 2T in F4 = Aut(J) is K = Q[x]/(x^3-12x-5), FIELD discriminant exact
+  PROVED    B8069_conformal_selection
+            AFFINE ISOTROPY CUTS B527's SIX-DIMENSIONAL STEIN CONE TO A SINGLE RAY: the isotropy conditions have computed rank 5 of 5 on the 6-dimensional Sym(E_s
+  RETRACTED B8070_anomaly_rank_descent
+            THIS ARC'S OWN HEADLINE IS WITHDRAWN IN FULL: it claimed anomaly cancellation carries su(3)+su(2)+u(1)^3 (Lie rank 6) to su(3)+su(2)+u(1)_Y (Lie rank 
+  PROVED    B8071_reality_gate
+            THE COMPACT RANK-4 ALGEBRA IS REAL IN e6(2) AND SITS ON THE ORBIT NO TESTED ROUTE REACHES: a real form is named by dim k, the dimension of its maximal
+  PROVED    B8072_matching_capacity
+            SEVEN NULLS ARE ONE MEASUREMENT OF AN INSTRUMENT'S NOISE FLOOR, NOT SEVEN RESULTS ABOUT THE OBJECT: with candidate values at local density rho per uni
+  NEGATIVE  B8073_su5_reality
+            ESTABLISHED: the object's su(5) is NOT tau-stable -- B = A ^ tau(A) has Killing rank 3, not 24, at the three completely-split primes 811/991/1093, ove
+  PROVED    B8074_nilpotent_rank4
+            THE RANK CEILING'S HYPOTHESIS IS LOAD-BEARING AND THE NILPOTENT CLASS ESCAPES IT: ad(h) for h in the Cartan is diagonal with eigenvalues alpha(h), and
+  -         B8075_rung_spectrum_audit
+  -         B8076_paper_closure
+  PROVED    B8077_compact_home
+            THE CASCADE'S ENDPOINT HAS A COMPACT HOME IN THE OBJECT'S OWN REAL FORM, exhaustively over the 64 inner characters and exact over Q. A gauge algebra m
+  PROVED    B8078_rung_spectrum_attained
+            THE RUNG SPECTRUM IS ATTAINED AND THE PAPER'S ELEVEN-ELEMENT BOUND IS TIGHT. Theorem thm:rungspec bounds dim z(S) above by {12,14,16,18,20,26,28,30,36
+  PROVED    B8079_arrangement_exact
+            THE RUNG ARRANGEMENT IS EXACT OVER Q -- B8078's residue is CLOSED, and the 64 Levi subsystems are deposited. B8078 proved the paper's eleven-element r
+  NEGATIVE  B8080_assembly_classification
+            THE ASSEMBLY CLASSIFICATION IS FALSE AS STATED: ALL SIX CANDIDATES ADMIT A 27-DIMENSIONAL ASSEMBLY. Scope (assembly) flags Theorem (classify) as owed 
+  PROVED    B8081_rho_rebuilt
+            RHO IS BUILT: Proposition (2880) and the coupling law stop being certificates about a matrix the paper never writes down. Scope (2880) states that 'rh
+  PROVED    B8082_geodir_h1
+            THE GEODIR DIMENSION COUNT IS COMPUTED, AND ONE ADJECTIVE IN IT IS NOT. Scope (geodirscope) says of Proposition (geodir): 'We give neither a proof nor
+  PROVED    B8083_positivity_bridge
+            THE POSITIVITY BRIDGE: A CYCLIC-WORD INVARIANT IS A COMPLETE CONJUGACY INVARIANT ON POSITIVE WORDS. The arithmeticity theorem's proof argues on BLOCK 
+  OPEN      B8084_cold_audit
+            THE COLD AUDIT (owner-routed; this seat had no hand in the audited computations). IN PROGRESS. B1075 AUDITED CLEAN ON BOTH QUESTIONS: its exclusion ar
+  PROVED    B8085_integral_orbits
+            ROUTE A RUN: THE ARITHMETIC OBSTRUCTION B990 PREDICTED IS ABSENT. B990 proved the orbit-to-point gap STRUCTURAL -- an orbit invariant is constant on t
+  NEGATIVE  B8086_wilson_menu
+            THE Z/5 WILSON-LINE MENU CANNOT REACH THE SM: EVERY ROW HAS RANK 6, AND B955 IS RE-DERIVED BY A SECOND, UNRELATED ROUTE. An outside proposal (relayed 
+  PROVED    B8087_neutrino_selector
+            THE NEUTRINO SELECTOR IS A CONDITION, NOT A POINT, AND <nu^c> IS A SECOND FREE SELECTION. B1017's ledger books ONE resource ('VEV direction') against 
+  PROVED    B8088_row_homogeneity
+            THE Z/5 MENU IS HOMOGENEOUS, BUT ARITHMETICALLY: ONE W x GALOIS ORBIT PER ROW, WHILE W ALONE GIVES 25 ORBITS AND SPLITS 8 OF THE 9 ROWS. Tests the own
+  NEGATIVE  B8089_anomaly_door5
+            DOOR 5 IS SHUT STRUCTURALLY: THE ANOMALY LAYER OVER THE OBJECT'S DERIVED CONTENT IS IDENTICALLY ZERO, SO IT CANNOT SUPPLY A RATIO AT ALL. Owner-electe
+  PROVED    B8090_cold_audit_f1
+            COLD AUDIT FINDING 1: B1076's 'new exact character' is MIS-STATED ON EVERY SUMMARY SURFACE, while its internal record has it right. FINDINGS.md, arc_v
+  PROVED    B8091_first_step_losses
+            THE FIRST STEP THROWS AWAY EXACTLY TWO THINGS, AND THE MONODROMY IS THE SQUARE OF THE SUBSTITUTION MATRIX. Answering the owner's question whether the 
+  NEGATIVE  B8092_design_audit
+            THE DESIGN AUDIT: THREE PLACES THE PROMPTS COULD ONLY REMOVE CANDIDATES, AND NO EVIDENCE OF INTENTIONAL BIAS. The owner posed a deliberately ADVERSARI
+  NEGATIVE  B8093_L171_clpw
+            L171 TYPED: THE CLPW CROSSED-PRODUCT BRIDGE IS MOOD, NOT MATCH -- AND THE DISANALOGY IS THE FINDING. Read CLPW arXiv:2206.10780v5 in full at the load-
+  PROVED    B8094_L173_anchors
+            L173: THE EXPERIMENTAL KNOB ALREADY ON THE APPARATUS IS OUR INTERCEPT. Websearch lane 2. The photonic and cold-atom quasicrystal programmes adiabatica
+  PROVED    B8095_related_work_armor
+            THE PAPER'S RELATED-WORK ARMOR: FIVE DIFFERENTIATORS, EACH ENDING IN WHAT WE DO NOT CLAIM. Lane 6 of the owner-routed websearch package. THE ORGANIZIN
+  NEGATIVE  B8096_relaxed_residue
+            THE RESIDUE HUNT RE-RUN WITH THE GUARD RELAXED: OUTCOME B, NO SUPPRESSED CANDIDATE IN THIS FAMILY, AND THE NEGATIVE IS NOW STRONGER. Run at the owner'
+  PROVED    B8097_buried_results
+            THE BURIED-RESULTS HUNT: NINETEEN ITEMS IN TWO CATALOGUES, BOTH ALREADY WRITTEN BY THIS SEAT AND NEITHER ACTED ON. Owner-elected hunt for results the 
+  PROVED    B8098_L1_verified
+            L1 VERIFIED: TWO OF THE FIVE SELECTION CRITERIA PROVABLY CANNOT SEE THE DIFFERENCE BETWEEN THE OBJECT AND ITS SISTER. B8097 found nineteen buried resu
+  PROVED    B8099_3d_completeness
+            THE 2+1 THEORY'S COMPLETENESS AUDIT: SIX OF ELEVEN REQUIREMENTS PRESENT, AND THE QUESTION ITSELF IS AMBIGUOUS BECAUSE THE CORPUS ATTACHES TWO DIFFEREN
+  PROVED    B8100_oneloop_geodesic
+            THE ONE-LOOP GEODESIC FACTOR COMPUTED FROM THE OBJECT'S OWN SPECTRUM, AND THE MISSING CUSP PIECE LOCATED IN B739. First construction rung of the owner
+  PROVED    B8101_scattering_verified
+            B739'S SCATTERING DETERMINANT IS VERIFIED TO BE ONE, phi(1) = -1 IS THE NON-TRIVIAL SIGN, AND FIVE OF SEVEN ONE-LOOP INGREDIENTS ARE IN HAND. Second r
+  PROVED    B8102_cusped_gap
+            THE CUSPED ONE-LOOP PROBLEM IS A LITERATURE GAP -- A BRIDGE, NOT A VOID -- AND THE OBJECT HOLDS THE INPUT THAT IS USUALLY THE OBSTACLE. B8101 ended wi
+  PROVED    B8103_specialist_revisit
+            THE SPECIALIST REGISTER REVISITED: TWO OF SEVEN WERE NEVER SPECIALIST GATES, AND THE HIGHEST-WEIGHT ONE IS NOW SUBSTANTIALLY DISCHARGED. The owner's t
+  PROVED    B8104_pfaff_formula
+            THE CUSPED FORMULA EXISTS EXPLICITLY, AND THIS RETRACTS THIS SEAT'S OWN TWO-HOUR-OLD NEEDS-SPECIALIST LABEL. B8102 labelled the cusped one-loop gap NE
+  PROVED    B8105_r48_phase1
+            R48 PHASE 1, RUN COLD: THE THEOREM REGISTRY HAS BEEN VIOLATING ITS OWN STANDING SAME-PR RULE FOR 179 ARCS, AND NO GATE READS THAT RULE. Full-corpus de
+  PROVED    B8106_r48_phase2
+            R48 PHASE 2: A REQUIREMENTS LEDGER STILL RECORDS AS MISSING A THING THE SAME WINDOW SUPPLIED. Cold review, window frozen at 07e46c7f. VERIFIED FINDING
+  PROVED    B8107_r48_verify
+            R48 VERIFICATION: BOTH FIXES HOLD, AND THE F1 FIX CREATED ONE NEW INSTANCE OF F1'S OWN PATTERN. cc marked R48-F1 and R48-F2 RESOLVED; a cold review do
+  PROVED    B8108_r48_phase3
+            R48 PHASE 3: 13 OF 36 CANDIDATES DISSOLVE ON ONE MECHANICAL TEST, AND THE REMEDY ALREADY EXISTS IN-CORPUS. The discriminator was learned from one manu
+  PROVED    B8109_r48_close
+            R48 CLOSE: FOUR FINDINGS, ZERO NEW IN PHASES 3-4, AND THE LAG SCAN WAS THE WRONG INSTRUMENT. Findings: F1 THEOREM_REGISTRY's own same-PR rule unenforc
+  PROVED    B8110_scale_factorisation
+            THE SCALE-FACTORISATION DOCUMENT RECOVERED AND RESENT WITH A NINE-DAY ADDENDUM, AND THREE OF ITS OWN DECLARED NOT-SEARCHED ITEMS HAVE MOVED. At cc's r
+  PROVED    B8111_genericity_control
+            THE GENERICITY CONTROL BITES -- BUT ON 2 OF 5 TONES, AND THE SEALED PREDICTION WAS WRONG. Phase-0 item 0, commissioned by cc on the owner's D-2 ruling
+  PROVED    B8112_graviton_torsion_dictionary
+            THE DICTIONARY ENTRY IS AN IDENTITY, AND THE ANSWER TO B8104'S QUESTION IS 'NONE OF THEM'. Third rung of the owner-elected finish-the-3d-theory line. 
+  PROVED    B8113_abscissa_residue
+            WHAT-REMAINS ITEM 5 HAS THREE RESIDUES, NOT ONE -- AND B8112 ADDED ONE OF THEM. Answers a direct question from cc before an amendment lands on main: c
+  PROVED    B8114_related_work_armor
+            FIVE VERIFIED DIFFERENTIATORS FOR THE PAPER, AND C5 IS ONE FETCH AWAY RATHER THAN FENCED. Every citation was fetched or searched this date, not recall
+  NEGATIVE  B8115_c5_closed
+            C5 CLOSES AS A NEGATIVE, AND THE NEGATIVE NAMES ITS OWN BOUNDARY. B8114 re-typed C5 NEEDS-READING and said the fetch had not been made; it has now bee
+  PROVED    B8116_c2_pathA_tower
+            THE 4_1 TOWER IS PARTIALLY PROVED AND THE HONEST SPLIT IS NARROW -- AND THIS LANE CORRECTS B8115'S OWN FRAMING. PROVEN (Andersen-Hansen, JKTR 15 (2006
+  NEGATIVE  B8117_l172_anyon_devices
+            L172 ANSWERS NEGATIVELY AND THE NEGATIVE IS DECISIVE: THERE IS NO FIBONACCI-ANYON DEVICE. Every demonstration to date is a DIGITAL SIMULATION of Fibon
+  PROVED    B8118_two_theories_differ
+            THE TWO THEORIES DIFFER, AND THEY DIFFER IN KIND -- SO THE AMBIGUITY WAS A CATEGORY ERROR. (A) T[4_1] attaches at the IDEAL TRIANGULATION and is a QFT
+  PROVED    B8119_3d_closure
+            THE 2+1 THEORY IS COMPLETE AS A DEFINITION AND IS PARAMETER-FREE, THE QUANTUM SIDE IS NOT, AND ONE ROW OF THE ORIGINAL AUDIT WAS NEVER SEARCHED. Re-au
+  PROVED    B8120_scrutiny_triage
+            THE P1 SCRUTINY TRIAGED AGAINST OUR PAPER: 12 OF 13 CLOSED, ONE FIXED HERE, ONE LEFT OPEN AND NAMED. The scrutiny audited an ANCESTOR -- 'THE GOLDEN G
+  PROVED    B8121_m4_closed
+            M4 IS CLOSED, AND IT WAS REAL BUT SMALLER THAN STATED -- THE SCRUTINY'S OBJECTION OVERSHOT AND OUR SENTENCE OVERSTATED. Fetched Bowditch's own abstrac
+  PROVED    B8122_constructive_items
+            THREE OF THE FIVE CONSTRUCTIVE ITEMS VERIFIED AND ADOPTED, ONE DECLINED, ONE LEFT OPEN AND NAMED -- AND THE TRIAGE CAUGHT A FALSE NEGATIVE OF MY OWN. 
+  PROVED    B8123_scrutiny_closed
+            THE P1 SCRUTINY IS FULLY TRIAGED: 35 ITEMS, ONE LIVE DEFECT, NOW FIXED. Across 2 fatal, 11 major, 13 minor, 4 round-2 and 5 constructive findings agai
+  PROVED    B8124_phi_law_sharpened
+            THE PHI-LAW REPRODUCES EXACTLY AND ONE THIRD OF IT IS AN IDENTITY. Rebuilt B1128's instrument independently: the axis triple for RRLL is -phi times th
+  NEGATIVE  B8125_abscissa_not_the_cusp
+            THE n=2 ABSCISSA IS NOT A CUSP PHENOMENON -- REFUTED BY THE WEEKS MANIFOLD. The hypothesis was that B8113's n=2 residue and its cusp-continuous-spectr
+  PROVED    B8126_tone_axis_split
+            THE PAULI COMPONENTS SPLIT AGAINST THE TONE MENU, TRANSVERSELY TO THE LAW. cc's generalized golden-meridian law h(R^2L^2,u) = -phi h(RL,u) - i phi n_y
+  PROVED    B8127_regulator_omission
+            TWO SELF-CORRECTIONS: A BANKED IDENTITY RE-DERIVED WITHOUT CITATION, AND A LEAD WHOSE NOVELTY IS WITHDRAWN. B8119 recomputed Vol(4_1) = (3 sqrt3/2) L(
+  PROVED    B8128_genericity_on_the_wins
+            THE GENERICITY CONTROL, TURNED ON THE WINS: OF SEVEN ELEMENTARY PROPERTIES EXACTLY ONE SEPARATES m004 FROM ITS SHAPE-FIELD FAMILY, AND IT IS H_1 = Z. 
+  PROVED    B8129_n2_no_breakdown
+            THE n=2 FACTOR SHOWS NO BREAKDOWN AT THE ABSCISSA, ON AN INSTRUMENT PROVED ABLE TO SEE ONE. B8113 left the n=2 residue as possibly non-existent. Appro
+  PROVED    B8130_item5_ruelle_Lchi
+            ITEM 5 ANSWERED: THE RUELLE ZETA OF m004 DOES NOT FACTOR THROUGH L(chi_-3) IN ITS EULER PRODUCT, BUT L(chi_-3) ENTERS ITS FUNCTIONAL EQUATION THROUGH 
+  PROVED    B8131_brief_triage
+            THE BRIEF TRIAGED: TWO GENUINE SPECIALIST GATES, ONE TO STRIKE, ONE PARTIALLY DISCHARGED, ONE ANSWERED. Applying B8103's date test with a positive con
+  PROVED    B8132_spin_count_not_separating
+            THE SPIN-STRUCTURE COUNT IS NOT A SEPARATING PROPERTY OF m004 -- FOUR OF FOURTEEN FAMILY MEMBERS SHARE IT. B1141 assigns the last free discrete bit an
+  PROVED    B8133_residue2_reframed
+            RESIDUE 2 IS AN EVALUATION-POINT GAP, NOT AN EXISTENCE GAP -- AND FRIED'S THEOREM DOES NOT CLOSE IT. I expected it would. Fried gives, for acyclic ort
+  PROVED    B8134_codex_branch_stale_claim
+            [CORRECTED 2026-08-26 -- THE CODEX SEAT IS MID-WORK AND RAN OUT OF USAGE; the characterization below is withdrawn and the facts are retained.] THE FAC
+  PROVED    B8135_paper1_drafted
+            Paper I of the series is DRAFTED (7pp, builds clean, 15/15 verified): the period-one locus in GL(2,Z) is exactly det = -1; the primitive GL(2,Z) class
+  PROVED    B8136_paper2_drafted
+            Paper II is DRAFTED (8pp, builds clean): dim z(S) on the infinite subspace lattice of C is the flat-function of 30 hyperplanes in a 4-space, so its im
+  PROVED    B8137_paper3_drafted
+            Paper III is DRAFTED (6pp, builds clean): sigma_k is one-dimensional, so R(k,sigma_k) = prod_gamma (1 - q^k) with q EXACTLY the GMY nome, and the AdS3
+  PROVED    B8138_paper4_drafted
+            Paper IV is DRAFTED (5pp, builds clean), completing the four-paper series. Three failures are shown to be THEOREMS, each with its exact escape: (i) no
+  PROVED    B8139_findings_omission_swept
+            THIS SEAT STOPPED WRITING FINDINGS.md AT B8110 AND THE OMISSION RAN UNBROKEN THROUGH B8134 -- SIXTEEN ARCS -- UNDETECTED FOR FIVE DAYS. The lock that 
+  PROVED    B8140_fastlane_adopted
+            B1152's fast lane REPRODUCED IN-SANDBOX, NOT CITED: it selects 47 files for an arc change -- including all three locks that caught B8139's drift -- an
+  NEGATIVE  B8141_artifact_dependence
+            THE ARTIFACT CLASS, third after B8139's COST and B8140's TWO EMPTIES: two locks depend on SIX gitignored .log files, so they can only pass on a machin
+  PROVED    B8142_residue2_bridge
+            RESIDUE 2 IS REDUCED TWICE, NOT CLOSED. The eigenvalue decomposition of rho(m)=Sym^{2m}C^2 gives the exact identity R_{rho(m)}(s) = prod_{j=-m}^{m} R(
+  PROVED    B8143_anomaly_lane
+            B1160'S CORE THEOREM IS EXACTLY CORRECT AND ITS FENCE IS LOAD-BEARING, WITH A WITNESS. Reproduced the cubic factorisation -18(t-3)(t+3) exactly. TWO S
+  OPEN      B8144_price_reconciliation
+            B1164's observer-freedom census (2 discrete + 1 continuous, ALL ARCHIMEDEAN, claimed as 'the whole program's observer freedom') and the banked final-p
+  PROVED    B8145_l171_verified
+            B8093's L171 TYPING VERIFIED AND EXTENDED. All EIGHT of its factual claims about CLPW confirmed VERBATIM from the source, down to the notation Pi = Th
+  NEGATIVE  B8146_l173_precision
+            L173'S PRECISION COLUMN IS COMPLETED AS A NEGATIVE, AND THE NEGATIVE RESHAPES THE PREREG. The load-bearing anchor (Verbin-Kraus-Zilberberg, arXiv:1403
+  RETRACTED B8147_paperIV_refuted
+            PAPER IV'S BOTH SEPARATOR CLAIMS ARE REFUTED, AND THE CAUSE IS THAT ITS FAMILY WAS BADLY INCOMPLETE -- 14 members against AT LEAST 83. H_1 = Z is NOT 
+  PROVED    B8148_m12_settled
+            PAPER I'S FLAGGED m=12 DISAGREEMENT IS SETTLED AT 3. A from-scratch re-implementation reproduces the banked GL(2,Z) table (1,1,1,1,1,2,1,1,2,2,1) for 
+  PROVED    B8149_paperII_residue_sharpened
+            PAPER II'S Qbar RESIDUE IS ONE-SIDED AND NARROWS TO FIVE VALUES. Mod-p reduction can only ADD dependencies among weights, so more weights vanish, so d
+  PROVED    B8150_paperIII_fenced
+            R011 UPTAKE COMPLETES THE CODEX SET, AND IT FOUND TWO REAL DEFECTS IN MY OWN PAPER. (1) THE MISSING FENCE: the Sym-power identity was VERIFIED on Re(s
+  PROVED    B8151_verified_vs_used_sweep
+            THE VERIFIED-VS-USED CHECK RUN ACROSS ALL FOUR PAPERS. Papers III and IV had already yielded defects by it (the s=0 continuation fence; the enumerated
+  PROVED    B8152_family_definition
+            CELL 2 CLOSED: THE FAMILY IS 111, AND THE TWO CRITERIA ARE NESTED. (A) all tetrahedra regular ideal = 77 members; (B) tetrahedron shape field containe
+  NEGATIVE  B8153_b500_accounting
+            TWO FINDINGS ON B500, ONE USEFUL AND ONE A FAILURE OF MINE. USEFUL: the depth-5 sweep is not merely incomplete, it is UNFINISHED IN TWO DIFFERENT WAYS
+  PROVED    B8154_mirror_is_c
+            THE MIRROR INVOLUTION AND B1200'S GALOIS GENERATOR c ARE THE SAME INVOLUTION, verified exactly in six links: m004's holonomy parameter t satisfies t^2
+
+------------------------------------------------------------------------------
+ TERM SEARCH ACROSS THE GAP  (memo 153: state the terms with the claim)
+------------------------------------------------------------------------------
+  terms: ['acharya', 'isolated', 'enhancement', 'e6 locus', 'cone']
+
+  *** -         B775_braver_questions   [1/5] ['isolated']
+      on origin/audit/b775-braver-questions
+
+  *** -         B783_observer_ground_zero   [1/5] ['cone']
+      on origin/audit/b775-braver-questions
+
+  *** -         B796_coupling_campaign   [3/5] ['isolated', 'enhancement', 'cone']
+      on origin/audit/b775-braver-questions
+
+  *** PROVED    B1029_seam_class_field   [1/5] ['cone']
+      on origin/claude/new-session-qor5up
+      THE SEAM IS NOT A THIRD FACE -- ITS HILBERT CLASS FIELD IS THE TWO ENDS. THE CHAIN's C7 banks the object's forced quadratic faces as exactly three, a Klein four-group: being Q(sqrt-3), hearing Q(sqrt5), meeting Q(sqrt-15
+
+  *** PROVED    B1031_generation_rung   [1/5] ['cone']
+      on origin/claude/new-session-qor5up
+      THREE GENERATIONS: STRUCTURAL, COUNT MATCHES -- NOT DERIVED. AND THE LADDER HAD NO RUNG FOR IT. Occasioned by the owner's belief that the programme derives three generations; the record answers precisely and the answer i
+
+  *** PROVED    B1269_transport_computed   [4/5] ['acharya', 'isolated', 'enhancement', 'e6 locus']
+      on origin/claude/standard-model-derivation-0qt6ao
+      THE TRANSPORT COMPUTED. I-26 asks for the compactification in which an h^1 of the object counts 4d chiral generations and for the surviving gauge group; both are computed here on the rebuilt instrument. (1) In the Achary
+
+  *** PROVED    B1270_e6_from_the_two_faces   [2/5] ['isolated', 'enhancement']
+      on origin/claude/standard-model-derivation-0qt6ao
+      E6 FROM THE TWO FACES. The corpus had E8 at the golden end (RL -> Q(sqrt5) -> 2I) and E6 at the Eisenstein end (g = -R L^-1 -> Q(sqrt-3) -> 2T) and said neither forces the other; here E6 is derived from both at once, exa
+
+  *** PROVED    B1271_the_chain_all_the_way   [1/5] ['acharya']
+      on origin/claude/standard-model-derivation-0qt6ao
+      THE CHAIN TAKEN ALL THE WAY. Every remaining Standard-Model step the corpus's ingredients supply is computed exactly on B1270's icosian E8 and B1252's descent. THREE GENERATIONS: the 162 non-E6, non-A2 roots of E8 fall i
+
+  *** PROVED    B1277_the_vacuum_manifold_of_the_closing   [1/5] ['cone']
+      on origin/claude/standard-model-derivation-0qt6ao
+      THE VACUUM MANIFOLD OF THE CLOSING AND ITS WILSON LINES. The E8 theory on Y_3 (B1273: e6 + u(1)^2, three 27s on the sign characters chi_i, three 27bars, six flavons, one coupling) has 36 neutral fields (N, nu^c, h_u0, h_
+
+  *** PROVED    B1278_the_six_fold_closing   [1/5] ['cone']
+      on origin/claude/standard-model-derivation-0qt6ao
+      THE TOWER'S WILSON LINES, THE THREE FACES AT ONCE. The closings Y_n are the manifold covers of the object's geometric transition (Y_2 the spherical end's, Y_3 the Euclidean point's -- where the quantum face is empty, Vol
+
+  *** PROVED    B1334_the_deformation_proof   [1/5] ['isolated']
+      on origin/claude/paper-verification-ufp0zn
+      THE FIRST PROOF OF I = 0 IN THE RECORD, ON A NARROW STATED DOMAIN, AND IT USES NONE OF THE THREE MECHANISMS THIS BENCH PROPOSED AND KILLED. Let S = Hom(H_1(M)/<peripheral>, C*) be the cusp-trivial characters and S^0 its 
+
+  *** PROVED    B1343_deriving_the_other_faces   [1/5] ['cone']
+      on origin/claude/paper-verification-ufp0zn
+      DERIVING THE OTHER ADE FACES IS FREE AND THEREFORE EVIDENTIALLY EMPTY; ENRICHMENT HAS A TEST; AND THE ELLIPTIC BRIDGE IS CLOSED BY A THEOREM. The owner asked how to derive the remaining ADE faces from the substitution so
+
+  *** PROVED    B1351_the_index_on_a_three_manifold   [1/5] ['enhancement']
+      on origin/claude/standard-model-derivation-0qt6ao
+      THE INDEX ON A THREE-MANIFOLD (main's Q9): Pantev-Wijnholt's net chiral count of a charged sector is chi(M, d+M; L) = chi(M; L) - chi(d+M; L). On a closed closing chi = 0 and every Wilson-line vacuum is vector-like exact
+
+  *** PROVED    B1352_the_fixed_vector_locus_along_v10   [2/5] ['isolated', 'enhancement']
+      on origin/claude/standard-model-derivation-0qt6ao
+      THE FIXED-VECTOR LOCUS ALONG V10 (L204's other half; B1268's stage (b) completed): from every genuine V10 point of B1350 the augmented Newton (relator + mu v = v, lambda v = v, damping 1e-50) converges quadratically to t
+
+  *** PROVED    B1353_the_isolated_enhancement_point   [5/5] ['acharya', 'isolated', 'enhancement', 'e6 locus', 'cone']
+      on origin/claude/standard-model-derivation-0qt6ao
+      THE ISOLATED ENHANCEMENT POINT ON AN E6 LOCUS, MADE FINITE (main's E70 scope of B1259 answered): in a flat G2 orbifold the E6 locus is the fixed 3-plane P of 2T c SU(2)_R, its stabiliser in G2 is SO(4) acting on Im H (+)
+
+  *** PROVED    B1355_the_e7_point_made_explicit   [5/5] ['acharya', 'isolated', 'enhancement', 'e6 locus', 'cone']
+      on origin/claude/standard-model-derivation-0qt6ao
+      THE E7 POINT MADE EXPLICIT: the destination's local model is the G2 cone over CP^3/2T -- the Bryant-Salamon cone over the nearly-Kaehler CP^3 divided by the object's McKay group 2T acting on one quaternionic factor (the 
+
+  *** PROVED    B8069_conformal_selection   [1/5] ['cone']
+      on origin/paper/structure-genesis-first
+      AFFINE ISOTROPY CUTS B527's SIX-DIMENSIONAL STEIN CONE TO A SINGLE RAY: the isotropy conditions have computed rank 5 of 5 on the 6-dimensional Sym(E_s), so the locus is one ray and it IS the S_aff ray -- positive definit
+
+  *** PROVED    B8078_rung_spectrum_attained   [1/5] ['enhancement']
+      on origin/paper/structure-genesis-first
+      THE RUNG SPECTRUM IS ATTAINED AND THE PAPER'S ELEVEN-ELEMENT BOUND IS TIGHT. Theorem thm:rungspec bounds dim z(S) above by {12,14,16,18,20,26,28,30,36,46,78} and Remark rem:spectrumscope withdraws attainment because the 
+
+  *** OPEN      B8084_cold_audit   [1/5] ['cone']
+      on origin/paper/structure-genesis-first
+      THE COLD AUDIT (owner-routed; this seat had no hand in the audited computations). IN PROGRESS. B1075 AUDITED CLEAN ON BOTH QUESTIONS: its exclusion arithmetic is exact from the pinned NuFIT 6.1 boxes -- 1/2 sits 5.08 sig
+
+  *** PROVED    B8087_neutrino_selector   [1/5] ['cone']
+      on origin/paper/structure-genesis-first
+      THE NEUTRINO SELECTOR IS A CONDITION, NOT A POINT, AND <nu^c> IS A SECOND FREE SELECTION. B1017's ledger books ONE resource ('VEV direction') against a rank drop its own text calls two-step: the 6->4 drop is entirely <1>
+
+  *** PROVED    B8090_cold_audit_f1   [1/5] ['cone']
+      on origin/paper/structure-genesis-first
+      COLD AUDIT FINDING 1: B1076's 'new exact character' is MIS-STATED ON EVERY SUMMARY SURFACE, while its internal record has it right. FINDINGS.md, arc_verdict.json and CHANGELOG.md all bank 'sign(lambda^2) is a NEW nontriv
+
+  *** PROVED    B8097_buried_results   [1/5] ['enhancement']
+      on origin/paper/structure-genesis-first
+      THE BURIED-RESULTS HUNT: NINETEEN ITEMS IN TWO CATALOGUES, BOTH ALREADY WRITTEN BY THIS SEAT AND NEITHER ACTED ON. Owner-elected hunt for results the gates diminished. THE META-FINDING MATTERS MORE THAN ANY ROW: the buri
+
+  *** PROVED    B8143_anomaly_lane   [1/5] ['isolated']
+      on origin/paper/structure-genesis-first
+      B1160'S CORE THEOREM IS EXACTLY CORRECT AND ITS FENCE IS LOAD-BEARING, WITH A WITNESS. Reproduced the cubic factorisation -18(t-3)(t+3) exactly. TWO SCOPE FINDINGS: (1) solved WITHOUT B1160's normalisation Yq=1, the syst
+
+  *** ARCS IN THE GAP MATCH THESE TERMS.  READ THEM BEFORE
+      WRITING MISSING/OPEN OR SEALING A CELL ON THIS QUESTION.
+
+------------------------------------------------------------------------------
+ WHAT THIS INSTRUMENT DOES NOT DO
+------------------------------------------------------------------------------
+  It reports PER-ARC PRESENCE, not per-question coverage.  An arc present
+  here may still have been superseded by an addendum on another head, and an
+  absent arc may be irrelevant.  #35's lesson stands beside #34's: read an
+  arc's OWN stated conclusion (FINDINGS + claim_one_line), not a listing and
+  not a summary clause.  Absence from this report is not evidence a question
+  is open.
+

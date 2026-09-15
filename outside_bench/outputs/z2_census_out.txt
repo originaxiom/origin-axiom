@@ -1,0 +1,33 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+ROSTER: SM15 captured (q [9, 11, 13, 23, 24, 26], uc [3, 5, 7], dc [4, 6, 8], l [0, 2], ec [15])
+   other 12: Higgs-candidate doublet states [14, 16, 18, 22], exotic colored [10, 12, 19, 20, 21, 25], vev states [1, 17]
+FACT 1: grading space |16| = 16 (dim 4 over GF(2); map injective on h-space): True
+FACT 2: P_Y (=Y/Yq mod 2, hY in the root lattice: verified) == P_T (=2T3 mod 2)
+   IDENTICALLY on the 27 (odd exactly on the weak doublets — the Z/6-center
+   identity, verified state-by-state; preregistered dim-2 span REFUTED, error
+   filed) => the SM-torus SHADOW subgroup has dim 1 (ONE nontrivial shadow);
+   EXTRA (non-SM) survivors: 14 = 14 exactly (color center Z/3: no Z/2 shadow)
+FACT 3: gradings odd on ALL 15 SM-plet states: 0
+   BRANCH N: NO surviving grading is odd on the whole 15-plet
+   census (odd counts): [SM15 | higgs4 | exotic6] per grading:
+     odd on  8/15 SM, 0/4 higgs, 4/6 exotic  [extra] x3
+     odd on  8/15 SM, 2/4 higgs, 2/6 exotic  [extra] x6
+     odd on  8/15 SM, 2/4 higgs, 6/6 exotic  [extra] x2
+     odd on  8/15 SM, 4/4 higgs, 0/6 exotic  [shadow] x1
+     odd on  8/15 SM, 4/4 higgs, 4/6 exotic  [extra] x3
+FACT 4: constancy on psi-classes (16/10/1): {1: 15} (n classes constant -> count)
+   gradings constant-ODD on the whole psi-10 class: 0
+   (frames misalign — memo 72's filed error — so class-wise constancy is the
+    measured exception, not the rule)
+
+THE SURVIVING Z/2s NAMED: the unique SM chain's discrete remainder is a
+dim-4 GF(2) space — ONE shadow of the unbroken SM torus (P_Y = P_T, the
+Z/6-center identity measured on the 27) and 14 genuinely EXTRA Z/2
+remnants of E6.  The R-parity and dark columns above are the measured
+branches.  Necessary conditions only; no potential, no vacuum, no values;
+Gate 5 untouched.

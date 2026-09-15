@@ -1,0 +1,19 @@
+f = x^3 - 12x + 5, disc(f) = 6237 = disc(K) (B931 round_two, vendored)
+   => Z[theta] IS the maximal order O_K (index 1).
+SAME-FIELD GATE: the banked m_S minpoly (B928) acquires a linear factor
+   over Q(theta) — Q[x]/(f) IS the value field K.  PASS.
+SPLITTING GATE: mod-p shapes {2: [(1, 1), (2, 1)], 3: [(1, 3)], 5: [(1, 1), (2, 1)], 7: [(1, 1), (1, 2)], 11: [(1, 1), (1, 2)], 13: [(3, 1)], 17: [(3, 1)]} —
+   2: 1x2 split; 3: totally ramified; 5: 1x2; 7,11: 1+ramified^2;
+   13,17: INERT — matches B931's banked table point for point.  PASS.
+relation harvest: 565 relations (box 7); lattice rank 7/7; Smith diagonal [1, 1, 1, 1, 1, 1, 1]
+CLASS-GROUP UPPER BOUND from the harvested principal relations: h <= 1
+
+h(K) = 1 CERTIFIED: the harvested principal elements generate the full
+relation lattice with trivial quotient — every small prime ideal class
+is trivial, so Cl(K) = 1.  (Upper bound 1 needs no lower bound.)
+EXHIBIT: alpha = -26 + -1 theta + 2 theta^2 has N(alpha) = 953 —
+   P1(953) is PRINCIPAL WITH AN EXPLICIT GENERATOR: B931's terminal
+   question is answered constructively.  The 953 chain's last named
+   step CLOSES: 953's ideal-theoretic life in K is fully principal —
+   the prime is norm arithmetic all the way down, no class obstruction.
+Gate 5 untouched.

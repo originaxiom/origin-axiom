@@ -1,0 +1,21 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+orthogonal A2 triple found: 3 x 6 = 18 roots, pairwise orthogonal
+27 slot-signature blocks: {(1, 1, 0): 9, (1, 0, 1): 9, (0, 1, 1): 9}
+weight-zero symmetric triples (full-rank Cartan shared): 45
+
+YUKAWA COUNT: dim of trinification-invariant symmetric trilinears on the 27 = 4
+(preregistered: 4 = three slot-determinants + one mixed trace; e6 keeps 1)
+cross-check: adding the other 54 root generators cuts the space to dim = 1 (e6's 1)
+  basis vector 0: 6 nonzero coeffs; touches blocks [(1, 1, 0)]
+  basis vector 1: 6 nonzero coeffs; touches blocks [(1, 0, 1)]
+  basis vector 2: 27 nonzero coeffs; touches blocks [(0, 1, 1), (1, 0, 1), (1, 1, 0)]
+  basis vector 3: 6 nonzero coeffs; touches blocks [(0, 1, 1)]
+
+B2 banked: the closing admits EXACTLY 4 independent Yukawa-shaped
+couplings on one 27 (structure only, Gate 5 untouched); e6 selects the
+single Jordan combination among them (memo 32's C, the beat-covariant one).

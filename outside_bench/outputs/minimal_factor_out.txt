@@ -1,0 +1,31 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+root split: |Delta+|=36, |Delta-|=36 (of 72 total)
+rho cross-check: <rho, alpha_i> = 1 for all 6 simple roots  PASS
+fundamental weights omega_1..omega_6 solved; omega_1 matches stack value  PASS
+dim(0) = 1  (expect 1)  PASS
+dim(omega_1) = 27  (expect 27, the minuscule 27)  PASS
+dim(omega_2) = 78  (expect 78, the adjoint)  PASS
+dominant weight box {sum a_i <= 3}: 84 weights enumerated  (expect 84)  PASS
+minimum nontrivial dim in box = 27, attained exactly at omega_1 and omega_6 (the two minuscule 27 / 27bar fundamentals)  PASS
+ALL 83 nontrivial dominant weights in the box satisfy dim >= 27  PASS
+exactly 2 weights achieve the minimum dim=27: [(0, 0, 0, 0, 0, 1), (1, 0, 0, 0, 0, 0)]  PASS
+
+CITED (not asserted): any dominant weight outside the sum a_i<=3 box dominates
+some weight inside the box by a nonnegative combination of positive roots, and the
+Weyl dimension formula is monotone increasing along that dominance order (standard;
+e.g. Humphreys, Introduction to Lie Algebras and Representation Theory, section 24-25).
+Hence the exact finite-box computation above (84 weights, exhaustive) plus this cited
+monotonicity together give: dim(lambda) >= 27 for every NONTRIVIAL dominant weight of
+e6, with equality exactly at the two minuscule fundamentals 27 and 27bar.
+
+CONCLUSION: in the admissible category {C^2 (x) V : V a nontrivial irreducible e6-module},
+the carrier Psi = C^2 (x) 27 is minimal up to internal duality (27 vs 27bar tie, dim=27).
+The requirement of a nontrivial internal factor V remains a MODELLING CHOICE not forced
+by this computation -- the codex OA-C1087 fence stands, now with the minimality category named.
+
+A5 CERTIFICATE: ALL PREREGISTERED ASSERTS PASSED.

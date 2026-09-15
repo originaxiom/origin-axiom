@@ -1,0 +1,79 @@
+==============================================================================
+H6 -- the 252 / 222 / 2 census
+==============================================================================
+
+The paper's sentence, verbatim (section 4):
+
+  "Over the Standard-Model-visible five-field alphabet there are 252 candidate
+   hypercharge contents. The pure colour condition alone kills 222 of them, and
+   exactly two survive as rigid, chiral and fully anomaly-free."
+
+### STEP 1 -- BLIND: reproduce 252 from that sentence alone.
+
+    5 fields, hypercharge in a 2-element set         = 32
+    5 fields, hypercharge in a 3-element set         = 243
+    5 fields, hypercharge in a 4-element set         = 1024
+    5 fields, hypercharge in a 5-element set         = 3125
+    multisets of size 2 from 5 letters               = 15
+    multisets of size 3 from 5 letters               = 35
+    multisets of size 4 from 5 letters               = 70
+    multisets of size 5 from 5 letters               = 126
+    multisets of size 6 from 5 letters               = 210
+    multisets of size 7 from 5 letters               = 330
+    multisets of size 8 from 5 letters               = 495
+    multisets of size <=5 from 5 letters             = 252
+
+  readings from the paper's own words that give 252: ['multisets of size <=5 from 5 letters']
+
+  Note the one hit is 'multisets of size <=5 from 5 letters' = C(10,5) = 252 --
+  numerically right, STRUCTURALLY WRONG (contents of fewer than five fields are
+  not what is enumerated). A referee cannot distinguish it from a coincidence,
+  because the paper never defines 'content', never gives the alphabet's letters,
+  and never says how many letters a content contains.
+  => STEP 1 VERDICT: NOT REPRODUCIBLE from the paper's text.
+
+### STEP 2 -- consult the corpus and reproduce the real enumeration in own code.
+
+  the corpus enumerates multisets of size 5 from the 6-letter
+  alphabet {A, a, B, b, C, D} = (3,2), conj, (3,1), conj, (1,2), (1,1):
+    C(6+5-1, 5) = C(10,5) = 252
+    matches the paper's 252: True
+
+  *** THE ALPHABET HAS SIX LETTERS, NOT FIVE. ***
+  The paper says "the Standard-Model-visible FIVE-FIELD alphabet". Five is the
+  number of fields IN A CONTENT (the word length), not the size of the alphabet
+  (six). The sentence assigns the number 5 to the wrong object, which is exactly
+  why the count cannot be reproduced from it: with a five-letter alphabet and
+  five-field contents the count is C(9,5) = 126, not 252.
+
+  own-code re-run:  examined = 252   killed by [SU(3)]^3 alone = 222   rigid+chiral+anomaly-free survivors = 2
+  paper says:       examined = 252         killed = 222                      survivors = 2
+  NUMBERS REPRODUCE: True
+    content AbbCD: 2 chiral ray(s) up to scale
+        Y = ['1', '2', '-4', '-3', '6']
+        Y = ['1', '-4', '2', '-3', '6']
+    content aBBCD: 2 chiral ray(s) up to scale
+        Y = ['1', '2', '-4', '-3', '6']
+        Y = ['1', '-4', '2', '-3', '6']
+
+  THE SURVIVORS ARE TWO *CONTENTS*, EACH CARRYING TWO RAYS:
+    AbbCD  = (3,2) + 2x(3bar,1) + (1,2) + (1,1)   -- the SM 15-plet
+    aBBCD  = (3bar,2) + 2x(3,1) + (1,2) + (1,1)   -- its CONJUGATE CONTENT
+  Within one content the two rays differ only by swapping the two identical
+  letters, i.e. u^c <-> d^c. So section 4's "the two solutions are (1,-4,2,-3,6)
+  and (1,2,-4,-3,6)" are the two rays of ONE survivor, NOT the two survivors:
+  the conjugate content never appears in the displayed computation. Total chiral
+  anomaly-free rays over all 252 contents = 4, a number the paper never states.
+
+  TWO CONDITIONS DO THE WORK AND NEITHER APPEARS IN THE PAPER:
+    * the killer of 222/252 is [SU(3)]^3 -- the PURE colour anomaly,
+      which contains no hypercharge at all. Section 4 displays three linear
+      conditions ([SU(3)]^2 Y, [SU(2)]^2 Y, grav^2 Y) and one cubic ([Y]^3), and
+      [SU(3)]^3 IS NOT AMONG THEM. The condition responsible for
+      88% of the elimination is never written down.
+    * the Witten SU(2) global anomaly (an even number of doublets) is applied in
+      the enumeration and is never mentioned in the paper.
+  Both are correct physics. Neither is stated, so section 4's displayed argument
+  is not the argument that produces its headline numbers.
+
+OUTCOME: H6-DIVERGENT  (numbers CONFIRMED against corpus; NOT reproducible from the paper's text)

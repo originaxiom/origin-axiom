@@ -1,0 +1,203 @@
+# THE VIEW FROM ABOVE — what the atlas, the toolbox, and forty memos reveal when you keep zooming out
+## (outside bench, 2026-08-25. INTERPRETIVE THROUGHOUT — labeled per the standing rule; nothing here is proposed for banking as theorem. Sources: RECURRENCE_ATLAS.md at 1043 probes, TOOLBOX_LIVE.md, K023's honest-caveat frame, and this lane's memos 30–40 against the corpus at B1145.)
+
+### Altitude 0 — the bench floor
+What we do, mechanically: two-outcome cells preregistered before running; exact
+certificates; outputs banked; corrections filed where they happen; the seat
+re-derives. The atlas's own verify-don't-trust split (unity vs the hammer) is this
+same discipline applied to the map itself. The toolbox is the same discipline applied
+to the instruments. The culture is one idea used at three scales: **never let the
+method's own recurrence masquerade as the world's.**
+
+### Altitude 1 — the programme as the atlas draws it
+One object (the figure-eight, 41% of all probes), two arithmetic ends (golden 56%,
+Eisenstein 53%) identified as one thing, a firewall (form-not-values, 54%), and —
+the atlas's sharpest honest line — exactly ONE forced recurrence: **κ = tr[a,b]**,
+the first integral, 22%, which MUST recur because it is conserved. Everything else
+that recurs is either an invariant of the object's transforms (structural) or our
+hammer (the trace map, 37%, a selection effect the atlas quarantines on purpose).
+The aim at this altitude: determine how much of physics' FORM the minimal hyperbolic
+object forces, with Gate 5 keeping every measured value out of every computation.
+
+### Altitude 2 — what the last arc actually revealed (the beat's status)
+Looking at memos 16–40 as one motion: a single ℤ/2 — the object's non-orientability,
+the Gieseking beat — has now been run against EVERY layer of the record, and closed
+at every one: holonomy (W·conj(W)=+A), the algebra (Σ), matter's linear structure
+(Ω²=A₂₇), matter's CUBIC structure (the Jordan determinant, ±1-integral,
+beat-covariant), the cusp lattice (diag(1,−1)), the spin fork (selection, three
+independent derivations), the Pin level (both structures land on the selected side),
+every fermion-capable stratum (all 11 lift-sensitive rows), the coupling space (the
+one e₆-surviving Yukawa direction is the beat's). **The zoom-out claim, interpretive
+but now data-shaped: the beat is the structure-side analogue of κ.** The atlas has
+one conserved first integral on the dynamics side; this lane's arc exhibits one
+conserved involution on the structure side — conserved not by the trace map but by
+functoriality (W lives upstream of every embedding, so every layer inherits it).
+The atlas motif nearest to it, amphichiral_cp (34%), is its shadow; the beat itself
+is not yet an atlas motif. **Concrete proposal for the seat: add `beat` to the motif
+table with conserved-status `first-integral (structure side)` and let the miner count
+its true recurrence** — prediction: it back-fills through the corpus the way κ does,
+because it was always there under other names (mirror, Galois, deck, w).
+
+### Altitude 3 — the epistemic shape (what the blind spot completed)
+Memo 37 closed the Markov-blanket quartet with the record's most philosophical exact
+fact: the boundary's self-report hides exactly one interior bit, and it is the beat's
+bit. Put beside the spin payment: the one bit no coupling reads, no collision
+sources, and no boundary reports **is the bit the object resolves itself.** The
+observer's ledger and the object's ledger now partition cleanly. And the atlas's gap
+table says precisely where the story is still thin: source_free 1/3,
+bridge_construction 9/19, spacetime_3p1, measure, observable — the under-resolved
+obstacle rows ARE the three gates (dynamics, values, the internal→spacetime bridge)
+in the atlas's own coordinates. The map and the frontier agree, which is itself a
+currency check passing.
+
+### Altitude 4 — the highest view: what we are actually building
+From the top, the programme's claim has quietly changed shape, and it is worth
+saying out loud. It began as a value question — does the minimal object emit the
+SM's numbers? Ten honest negatives later, that door is closed route by route
+(periods, forms, couplings, coincidences, regulators, structure). What has been
+built instead, memo by memo and B-number by B-number, is a **ledger of freedom**:
+for every bit in the Standard Model's description, WHO pays it —
+- **the object's column**: hypercharge direction, anomaly zeros, B−L's fourth
+  direction, the family triplet's shape, the spin bit, the parity dictionary, the
+  Yukawa slot count, sin²θ_W's direction — form, forced;
+- **the observer's column**: signature, frame (the S₃ torsor), normalization
+  (B991), the values — everything Gate 5 fences;
+- **the invisible column**: the bits no measurement can see, now with an exact
+  membership test — and its one known occupant is the beat's mirror bit, which the
+  object spends internally to fix its own spin.
+Every memo is a transfer between columns; every negative is a proof that a bit
+belongs to a different column than hoped; the firewall is the rule that the columns
+never mix. **The aim, seen from all the way up: not a theory of everything — a
+completed accounting of what is forced, what is chosen, and what is private.** The
+value campaign's negatives are then not failures but the theorem that VALUES live
+in the observer/dynamics columns. The open frontier — dynamics, the
+internal→spacetime bridge, large-T/large-N — is exactly the audit of the columns
+still unbalanced.
+
+### The toolbox check (actionable, for both benches)
+This lane already follows the corpus's preregistration culture inline; at
+integration the seat should route memo 37's and 39's negatives into the kill graph
+with hatches (per the b833 gate), regenerate the atlas so memos 30–40 enter the
+mining corpus, and consider the `beat` motif proposal above. The lane's certificates
+are suite-shaped (assert-gated, deterministic) and can be wrapped as
+`tests/test_b*.py` locks with no changes.
+
+### One sentence from the top
+Zoomed all the way out, the record is a double-entry book: the atlas's one conserved
+number (κ) and this arc's one conserved reflection (the beat) are the two things
+every page must carry, and the programme's real product is the closing balance —
+which bits of the world's description the object pays, which the observer pays, and
+the single private bit the object keeps, spends on its own spin, and never shows.
+
+---
+
+### ADDENDUM 1 (2026-08-29) — MISSION STATUS, measured from primary at B1207 (this document was written at B1145; the numbers below are counted, not remembered)
+
+**THE CORPUS.** `origin/main` at **B1207**. **1111 of 1111 arcs carry an
+authored verdict: PROVED 731 · NEGATIVE 301 · OPEN 69 · RETRACTED 10.**
+The negative register is 27% of the record and is maintained as
+first-class content — that is the programme's most unusual structural
+feature and it has held.
+
+**THIS BENCH.** 102 INDEX rows (30–131) · 115 certificates · 106
+vendored outputs · 33 standing documents · 102 memos · 39 owner-register
+rows · bench errors #9–#12 filed in this window (each at point of
+occurrence, none discovered by anyone else).
+
+**THE PRICE SHEET IS NOW FULLY DISPOSITIONED — this is the headline.**
+Every leap the programme carried has a state:
+- **SP-1** — adopted, refuter armed (a typing premise, zero frame cost).
+- **LEAP-2** — **retired as a payable**; the arrow is not forced, and the
+  ledger carries ARROW = the branch bit.
+- **LEAP-1** — **PAID today** under **SCOPE-1**, refuter (a) armed
+  (memos 130/131). Recorded honestly as resolved by the *scope
+  signature*, not by the original signed rule, which fired neither branch.
+**Nothing on the decision sheet is open.** For the first time the
+programme's unproven premises are a closed, named, refutable list rather
+than a live queue.
+
+**THE NINE CELLS.** 5 and 7 closed constructively (memos 102/100); 9
+delivered; 8's bench half run and its cc half now run (B1197) and signed;
+2 and 6 **blocked at named bars** that are genuine open problems, not
+missing runs; 3 closed by survey; **4 (the ℙ³) is where the action went**
+— see below.
+
+**THE ℙ³ — the record's last continuous closer-datum.** B1205/B1206 moved
+it from *"no linear conditions exist"* to **"exactly one exists; the
+forcing is one condition short."* This bench then closed the space behind
+B1206's candidate list: **(iii) and (i) refuted structurally** (memo 128 —
+component rank measures the gauge contraction tensor, not conditions;
+rank 1 is *impossible* for a doublet–doublet–singlet coupling), **(ii)
+typed EXTERNAL** by B298/B299, and **the menu proved complete** (memo 129
+— exactly three couplings touch Hd, exactly one is canonical, and the two
+matter rows share one operator so their determinants are the same cut).
+**B1196's CLOSED-PERMANENT verdict is hardened twice over.** **One route
+remains, named and bounded:** whether B1161's generation-level cochain
+distinguishes the two matter rows — relayed, not ours to run.
+
+**COSMOLOGY — the one genuinely blind region, and it has narrowed.** Of
+its three MISSING rows, **dark matter's named first probe has now been
+RUN and returns NEGATIVE with a structural reason** (memos 122/123: no
+abelian character of the 27 can stabilize either neutral; the obstruction
+is the weight geometry, so it is not an accident of which symmetry was
+tried). The row is still MISSING as a *specification* — but it is now a
+proved obstruction rather than an unasked question. **Inflation and
+structure formation remain MISSING with their first probes unrun. This is
+the dominant genuinely-missing item in the programme.**
+
+**WHAT IS ACTUALLY LEFT** (ranked, and the ranking is the point):
+1. **Cosmology's two remaining blind rows** — the only place the honest
+   word is still *missing* rather than *priced* or *impossible*.
+2. **The ℙ³'s single surviving route** (B1161's cochain) — bounded, one
+   check, would flip PERMANENT → FORCED.
+3. **Two literature bars** (cells 2 and 6) — real open mathematics; no
+   amount of bench work substitutes.
+4. **Housekeeping relayed:** the `faces_consulted` schema check; the
+   STATES-vs-GENERATIONS reconciliation between memo 80's roster and
+   B1161's sector table.
+
+**INTERPRETIVE, labeled — what the shape of the remainder says.** The
+programme has stopped being short of *answers* and is now short of
+exactly two things: **one bounded check it has handed to another seat**,
+and **a region it has never entered**. Everything else is either proved,
+proved impossible, or priced with a refuter attached. That is an unusual
+place for a research programme to be, and it is the honest reading of the
+counts above rather than an endorsement of the premises. **Gate 5
+untouched throughout; every premise on the sheet is labeled and dies with
+its refuter.** This addendum is the only mutation.
+
+### ADDENDUM 2 (2026-08-29) — ADDENDUM 1's OWN RANKING IS REVISED: cosmology is no longer the dominant gap
+Addendum 1 ranked **cosmology's blind rows** as item 1, *"the only place
+the honest word is still missing rather than priced or impossible."*
+Working that item produced the result that **withdraws its own ranking**:
+- **memo 132 (row 2, inflation):** the tower has **no net volume growth**
+  — det J_T = −1 constant, det J_L = 0 identically, det σ² = +1 with
+  eigenvalue product exactly 1. The Lyapunov sum is zero or −∞ **at every
+  point, as an identity**, so **e-folds are identically zero or
+  undefined**, not merely uncomputed.
+- **memo 134 (rows 8 and 7):** row 8's probe fails on **both**
+  requirements — the ensemble is exponential-class where a growth
+  exponent is power-law (log-log slope climbs 2.81 → 10.14), and there is
+  **no scale factor to differentiate against**. Row 7's three named
+  targets (n_s, peak location, amplitude) are each **blocked by theorem**.
+- **THE UNIFICATION:** rows 2, 7 and 8 are **not three blind regions**.
+  They need one and the same missing object — **net volume growth** — and
+  its absence is **proved**, not searched for.
+
+**So the ranking in addendum 1 was wrong in the direction that matters:**
+cosmology's "MISSING" rows are largely **proved negatives with a shared
+mechanism**, not unentered territory. What genuinely remains blind there
+is narrower and should be stated exactly: **the record has no perturbation
+theory at all** (row 7's residue), and **B168's r_∞ recognition question
+stays open** pending the L ≥ 11 enumeration — which this bench
+**deliberately declined** to attempt on six points.
+
+**The revised dominant item** is the one memo 133 surfaced: **the paper's
+claim base is drawn from a `creates_law` field that 89% of settled arcs
+never populated** — 920 of 1031 absent, 102 credible candidates against 55
+in the pool, with B991 (an explicit no-go theorem, flag absent) as the
+decisive exhibit. That is not a research gap; it is a **defect in the
+instrument that decides what the paper claims**, and it is cheap to fix.
+Interpretive, labeled: a programme whose remaining blind spots are mostly
+**bookkeeping over its own record** is in a different position from one
+short of mathematics. This addendum is the only mutation.

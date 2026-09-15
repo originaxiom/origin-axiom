@@ -1,0 +1,31 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+KEY ARITHMETIC: q(1-q) = 1 exactly => gal(q) = q^{-1}
+CHIRALITY GATE: W != -W as multisets — the 27 is not self-dual at the e6 level
+BALL: 484 reduced words, length <= 5; 396 with irrational trace
+FACT 1: words with chi(w) != chi(w^-1): 0 — the dual character
+   COINCIDES with the character on the whole ball: chirality is
+   character-INVISIBLE on the holonomy image (strong invertibility of 4_1
+   at the 27 level; CITED context, identity computed exactly)
+FACT 2: words with chi^gal(w) != chi(w): 396 of 484 — the
+   orientation bit is character-VISIBLE
+FACT 3 [letters -> inverses]: gal matches the relabeled trace on 88/484 words (rational-trace words: 88)
+FACT 3 [a <-> b swap]: gal matches the relabeled trace on 88/484 words (rational-trace words: 88)
+FACT 3 [b -> b^-1 only]: gal matches the relabeled trace on 68/484 words (rational-trace words: 88)
+   => gal is realized by NO word-level involution — it is irreducibly
+      SEMILINEAR (the beat), as banked
+
+VERDICT (BRANCH TWO-BITS, refined): the chirality bit and the orientation
+bit are NOT one bit, for a structural reason measured above — chirality is
+FREE (the holonomy characters do not register 27 vs 27-bar: the insertion
+is priced at exactly zero by the object) while orientation is ARITHMETIC
+(moves 396/484 characters, realized only semilinearly).  cc's SS-A one-bit
+unification fails in its cleanest carrier-level version; the surviving
+core is sharper: the record's ONE arithmetic Z/2 is the orientation bit,
+whose gravitational face is the CS phase (ME3).  FENCE: character-level,
+radius-5 ball, exact; not an all-words proof; the observer-coupling
+thesis is untouched.  Gate 5 untouched.

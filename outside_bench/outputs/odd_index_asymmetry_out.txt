@@ -1,0 +1,54 @@
+O1 — THE PREMISE, window by window (is the reversal identity closed?):
+    N=  987 even index F16   reversal-defect sites=[]         counts=(7,7)  asym=0
+    N= 1597 odd index F17    reversal-defect sites=[0, 1]     counts=(14,8)  asym=6
+    N= 2584 even index F18   reversal-defect sites=[]         counts=(16,16)  asym=0
+    N= 4181 odd index F19    reversal-defect sites=[0, 1]     counts=(37,29)  asym=8
+
+O2 — THE PATTERN:
+    even index F16: defect [] -> counts (7,7), asymmetry 0  [theorem applies]
+    even index F18: defect [] -> counts (16,16), asymmetry 0  [theorem applies]
+    odd index F17: defect [0, 1] -> counts (14,8), asymmetry 6  [theorem does NOT apply]
+    odd index F19: defect [0, 1] -> counts (37,29), asymmetry 8  [theorem does NOT apply]
+
+O3 — THE CONTROL, AND THE TWO WRONG VERSIONS BEFORE IT:
+  (i)  RANDOM BULK two-site flips on a reversal-closed pair.
+       MIS-SPECIFIED: the Fibonacci defect is at sites {0,1} — AT THE
+       BOUNDARY, where edge states live.  Position-matched flips give
+       asymmetry 3-5 while deep-bulk flips give 0-1, so position is the
+       dominant factor and a bulk control understates the null badly.
+  (ii) POSITION-matched flips on RANDOM WORDS.
+       VACUOUS: a random binary word has NO spectral gaps, so the gap
+       clause selects nothing and BOTH counts are 0.  Verified: edge
+       count on a random word = 0.  Comparing against systems with no
+       edge states at all is no control.
+  (iii) THE VALID CONTROL — OTHER STURMIAN SLOPES at the SAME N with the
+       SAME two-site boundary defect: comparable gap structure, same
+       geometry, only the slope's arithmetic differs.
+
+    matched control at N=1597, defect {0,1} on the mirrored copy:
+      golden (Fibonacci) 2-phi   counts=( 14,  8)  asymmetry=6
+      silver sqrt2-1             counts=( 11, 14)  asymmetry=3
+      bronze (sqrt13-3)/2        counts=( 13, 15)  asymmetry=2
+      e-2                        counts=( 13, 11)  asymmetry=2
+      pi-3                       counts=(  3,  5)  asymmetry=2
+
+    golden asymmetry = 6;  other slopes = [3, 2, 2, 2]
+
+O4 — THE VERDICT (preregistered three-outcome), on the VALID control:
+  AN ASYMMETRY APPEARS AT ODD INDEX FOR EVERY STURMIAN SLOPE TESTED —
+  including the non-metallic ones (e-2, pi-3).  So it is a generic feature
+  of a TWO-SITE BOUNDARY DEFECT ON A QUASIPERIODIC REVERSAL PAIR, not
+  something the golden slope supplies.
+  ==> OUTCOME O-GENERIC.  The theorem's one exception is real, and what
+  lives in it is not distinctive.
+  THE HONEST RESIDUE, NAMED RATHER THAN CLAIMED: the golden case IS the
+  largest observed (6 against 2-3).  FOUR CONTROLS CANNOT ESTABLISH
+  DISTINCTIVENESS, and this cell does not claim it.  A proper control
+  ensemble over many slopes and windows would settle whether the golden
+  excess is real; it is registered here as an open lead, not a finding.
+  CONSEQUENCE FOR L173: its differential reduces to 'the halves are
+  reversals' in all three parts (memos 137, 143), and the one window where
+  that argument fails yields an asymmetry every quasiperiodic slope shares.
+  NOTHING DISTINCTIVE HAS BEEN FOUND ANYWHERE TESTED.
+  FENCE: N = 1597 for the control, four comparison slopes, one detector.
+  Gate 5 untouched.

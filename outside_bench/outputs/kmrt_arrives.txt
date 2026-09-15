@@ -1,0 +1,312 @@
+==============================================================================
+ KMRT ARRIVES -- the trialitarian record verified against the source
+==============================================================================
+
+  source          : Knus M.-A., Merkurjev A., Rost M., Tignol J.-P. The book of involutions (draft book)(588s).pdf
+  sha256          : e3d1e114505a45d8c9288d0827cfa3877123d553a6648eb07c40baee7ddb0a4d
+  extracted chars : 1,825,409
+  draft (cross-references render as '(??)') : True
+
+------------------------------------------------------------------------------
+CONTROL C5 -- the quotation instrument must be able to say ABSENT
+------------------------------------------------------------------------------
+
+    C4 asserts quotations are present.  A substring test that always says FOUND
+    proves nothing, so before any quotation is trusted the instrument is shown
+    rejecting a sentence built to look exactly like the book's prose and to be
+    false about it.  (Memo 164: control passing is not instrument working.)
+
+    decoy (the 3D4/6D4 clauses SWAPPED): ABSENT
+    the true clause, same instrument    : FOUND
+
+  C5: PASS -- the instrument separates the two
+
+------------------------------------------------------------------------------
+CONTROL C3 -- PARI's K reproduces B1093's hand-proved facts
+------------------------------------------------------------------------------
+    disc(K)        = 6237        (B1093: 6237)
+    signature      = [3, 0]      (B1093: [3,0], totally real)
+    #Aut(K/Q)      = 1           (memo 204: 1)
+    x^3-12x-5 irreducible = 1
+    Gal of the closure    = S3
+
+  C3: PASS
+
+------------------------------------------------------------------------------
+CELL 5 -- is the bench's own citation right?
+------------------------------------------------------------------------------
+    running head 'X. TRIALITARIAN CENTRAL SIMPLE ALGEBRAS'  present: True
+    running head 'VIII. COMPOSITION AND TRIALITY' present: True
+
+    section 43   sits in chapter : X
+    section 44.B sits in chapter : X
+    section 36   sits in chapter : VIII
+
+  >>> CELL 5 OUTCOME A: the standing ask says 'Ch. VII SS43 and SS44.B';
+      in this draft SS43 and SS44 are CHAPTER X, and SS36 is CHAPTER VIII.
+
+------------------------------------------------------------------------------
+CELL 1 -- does KMRT's own definition type the object's cubic as 6D4?
+------------------------------------------------------------------------------
+
+  [SS43.C] p. 556 -- FOUND in the supplied text
+      43.C. Trialitarian algebras of type 2D4 . We say that a trialitarian algebra
+      T = (E, L, ∆, σ, αi ) of type 1D4 if L is split, 2D4 if L = F × K for K a quadratic
+      separable field extension over F isomorphic to ∆, 3D4 if L is a cyclic field extension
+      of F and 6D4 if L ⊗ ∆ is a Galois field extension with group S3 over F .
+
+    Now every quantity that sentence tests, computed for K:
+    L = K is a FIELD (not split)           : True
+    so L is not F x F x F  -> NOT 1D4
+    L is cubic, not F x (quadratic)        -> NOT 2D4
+    disc(K) = 6237, squarefree part 77, a square: False
+    => Delta = Q(sqrt(77)) is a FIELD, so K is NOT cyclic
+    #Aut(K/Q) = 1 (cyclic would need 3)  -> NOT 3D4
+
+    K (x) Delta : x^6 - 30*x^4 + 225*x^2 - 308
+        degree over Q      = 6
+        #automorphisms     = 6  (Galois iff = degree)
+        order of the group = 6
+        abelian            = False
+        PARI's degree-6 label = D_6(6) = [3]2
+        -- PARI names S3 ACTING ON 6 POINTS 'D_6(6)': the dihedral group of
+           order 6 IS S3.  The structural test used here is ORDER 6 AND
+           NON-ABELIAN, not the label string.
+        and on the cubic itself PARI returns S3, order 6
+
+  >>> CELL 1 OUTCOME A: K (x) Delta IS a Galois field extension with
+      group S3 over Q -- KMRT's 6D4 clause, literally, and none of the other three.
+
+------------------------------------------------------------------------------
+CELL 2 -- is a cyclic composition available over K?
+------------------------------------------------------------------------------
+
+  [SS36.B] p. 494 -- FOUND in the supplied text
+      36.B. Cyclic compositions. Twisted compositions of dimension 8 over cyclic
+      cubic extensions were introduced in Springer [?]. We first recall Springer’s defini-
+      tion. Let (L/F, ρ) be a cyclic F -algebra of degree 3 with ρ a generator of the
+      group Gal(L/F ) = A3 .
+
+  [SS36.B] p. 494 -- FOUND in the supplied text
+      Observe that the choice of a generator ρ of
+      the group Gal(L/F ) is part of the datum defining a cyclic composition.
+
+  [SS36.C] p. 498 -- FOUND in the supplied text
+      36.C. Twisted Hurwitz compositions. In this section we first extend the
+      construction of a twisted composition C ⊗ L given in Example (??) for L cyclic to
+      an arbitrary cubic étale algebra L and a para-Hurwitz algebra (C, ?, n).
+
+    #Aut(K/Q) = 1.  Gal(K/Q) = A3 requires 3 automorphisms.
+
+  >>> CELL 2 OUTCOME A: the generator rho that SS36.B makes PART OF THE DATUM
+      does not exist over K.  No cyclic composition over K, by the definition.
+      And SS36.C supplies the replacement for arbitrary cubic etale L: True
+
+------------------------------------------------------------------------------
+CELL 3 -- is memo 204's pinned shape KMRT's normal form?
+------------------------------------------------------------------------------
+
+  [Thm 43.8] p. 553 -- FOUND in the supplied text
+      (43.8) Theorem. Let Q be a quaternion algebra over a cubic étale algebra L.
+      Then M4 (Q) admits a trialitarian structure T (Q) if and only if NL/F ([Q]) = 1 in
+      Br(F ).
+
+  [Prop 43.9] p. 553 -- FOUND in the supplied text
+      (43.9) Proposition. Let L/F be a cubic étale algebra and let Q be a quaternion
+      algebra over L. The following conditions are equivalent:
+      (1) NL/F ([Q]) = 1.
+      (2) Q ≃ (a, b)L with b ∈ F × and NL (a) = 1.
+
+  [Prop 43.11] p. 554 -- FOUND in the supplied text
+      (43.11) Proposition. Let K/F be quadratic étale, let L/F be cubic étale and let
+      a ∈ L× be such that NL (a) = 1. Let Q be the quaternion algebra (K ⊗ L/L, a)L
+
+  [Prop 43.14] p. 556 -- FOUND in the supplied text
+      (43.14) Proposition. The following conditions are equivalent:
+      (1) E(a1 ) ≃ E(a2 ) as trialitarian algebras.
+
+  [SS43.B (Albert)] p. 553 -- FOUND in the supplied text
+      over number fields any central simple algebra which admits an involution of the first kind is of the form Mn (Q)
+
+    Memo 204 addendum 4 pinned the object's commutant as a QUATERNION ALGEBRA
+    OVER K CONTAINING K(sqrt 77) AS A MAXIMAL SUBFIELD, with the second slot
+    UNKNOWN -- written there as "(77, b)_K with b unknown".
+
+    KMRT 43.9 fixes which slot is which: the rational element is b IN F^x, and
+    the unknown is a IN L^x with N_{L/F}(a) = 1.  Memo 204's 77 IS the rational
+    slot.  So the object's candidate is
+        Q = (a, 77)_K ,   a in K^x ,   N_{K/Q}(a) = 1 ,
+    and 43.11 says EVERY such a gives a trialitarian algebra E(a) = M_4(Q).
+
+  >>> CELL 3 OUTCOME A: memo 204's pin sits inside KMRT's normal form,
+      with exactly one unknown, and that unknown is norm-one in K.
+
+------------------------------------------------------------------------------
+CONTROL C1 -- nfhilbert must be able to say BOTH things
+------------------------------------------------------------------------------
+    nfhilbert(K,  1, 77) = 1   (a square in the first slot: must split)
+    nfhilbert(K, -1, -1) = -1   (K totally real: (-1,-1) must ramify)
+
+  C1: PASS -- the instrument returns both values in this run
+
+------------------------------------------------------------------------------
+CELL 4 -- does the classification DECIDE memo 204's open E-question?
+------------------------------------------------------------------------------
+
+    THE FAMILY, stated before the search:  for x ranging over
+        x = c0 + c1*t + c2*t^2 ,  t a root of x^3-12x-5 ,  c_i in [-3,3] , x != 0 ,
+    put  a = x^3 / N_{K/Q}(x) .   Then N_{K/Q}(a) = N(x)^3 / N(x)^3 = 1 identically,
+    so every member of the family is admissible for 43.9/43.11 BY CONSTRUCTION.
+    The certificate checks that identity rather than assuming it.
+
+    REAL PLACES, settled in advance and not by search: b = 77 > 0 under all three
+    real embeddings of K, so (a,77)_K is SPLIT AT EVERY REAL PLACE for EVERY a.
+    Memo 204's "unramified at all three real places" is therefore automatic for
+    this shape -- it constrains nothing, and no example needs screening for it.
+    
+    family size searched        : 342
+    members with N(a) != 1      : 0   (must be 0)
+    members with (a,77)_K NOT split : 0 (first six reported)
+
+------------------------------------------------------------------------------
+CONTROL C2 -- KMRT's own consequence, checked on every example found
+------------------------------------------------------------------------------
+
+    43.9 (2)=>(1) is the projection formula: cor_{K/Q}(a,77)_K = (N_{K/Q}(a),77)_Q
+    = (1,77)_Q = 1.  Its arithmetic content is that the ramified primes of K lie
+    over each rational prime in EVEN NUMBER.  That is checked here, not assumed.
+    A quaternion algebra (a,b) can ramify only at primes above 2, at primes where
+    v(b) is odd (here: 7 and 11), and at primes where v(a) is odd -- so factoring
+    a and adjoining 2, 7, 11 gives a PROVABLY COMPLETE candidate set.
+    
+
+  C2: NO EXAMPLES TO CHECK -- 0 kept, 0 discarded
+
+------------------------------------------------------------------------------
+CELL 4 VERDICT
+------------------------------------------------------------------------------
+
+    OUTCOME B.  No member of the searched family of size 342 gave a
+    non-split (a,77)_K.  REPORTED AS A NOT-FOUND OVER A STATED FAMILY, not as a
+    proof that none exists.
+
+------------------------------------------------------------------------------
+CELL 6 -- could (a,77)_K have been non-split at all?  [NOT PREREGISTERED]
+------------------------------------------------------------------------------
+
+    FILED AFTER CELL 4 RETURNED B, under seal ADDENDUM 1 and standing rule
+    R121/memo 213: when a statistic comes out identical across every case, ask
+    whether it COULD have differed BEFORE banking the constancy.  Nothing below
+    is preregistered and the memo says so.
+
+    n_p := the number of primes w of K above p at which 77 is NOT a square in
+    K_w -- i.e. the number of primes above p where a quaternion algebra
+    (77, .)_K is CAPABLE of ramifying at all.
+
+    disc of the sextic M = K(sqrt 77):  [3, 8; 7, 3; 11, 3]
+    -- so M/Q ramifies ONLY at 3, 7, 11: those are the finitely many
+       primes that cannot be reached by a Frobenius-class argument,
+       and each is computed individually below.
+
+    p  | (e,f) of the primes of K | v_w(77)       | n_p
+    ---+--------------------------+---------------+----
+    2  | [[1, 1], [1, 2]]         | [0, 0]        | 1
+    3  | [[3, 1]]                 | [0]           | 1
+    7  | [[1, 1], [2, 1]]         | [1, 2]        | 1
+    11 | [[1, 1], [2, 1]]         | [1, 2]        | 1
+
+    n_p by splitting pattern, over every prime p < 500:
+    f-pattern and e-pattern            | n_p | first p
+    -----------------------------------+-----+--------
+    [1, 2] e[1, 1]                     | 1   | 2
+    [1] e[3]                           | 1   | 3
+    [1, 1] e[1, 2]                     | 1   | 7
+    [3] e[1]                           | 0   | 13
+    [1, 1, 1] e[1, 1, 1]               | 0   | 73
+
+    n_p was CONSTANT on every splitting pattern observed (a NONCONSTANT
+    line above would have failed the run; there is none).
+
+    max n_p over all p < 500 : 1
+
+  CONTROL C7 -- two independent instruments
+    residue-field test vs splitting test, odd p < 500 with 77 a unit:
+    disagreements: 0 
+    (p = 2 was EXCLUDED IN ADVANCE: the residue-field test is invalid in
+     characteristic 2.  It is not excluded because it disagreed.)
+  C7: PASS
+
+  CONTROL C6 -- is 'n_p <= 1' a fact about 77, or about the instrument?
+
+      b   | max n_p over p < 300 | attained at p
+      ----+----------------------+--------------
+      77  | 1                    | 2
+      5   | 3                    | 73
+      13  | 3                    | 73
+      33  | 3                    | 73
+      -1  | 3                    | 139
+      3   | 3                    | 137
+
+    Some b reaches n_p >= 2 : True
+    So the count CAN exceed 1, and 'n_p <= 1' is a property of 77 over K.
+    THE REASON, and it is not a coincidence: 77 is the squarefree part of
+    disc(K), so Q(sqrt 77) is K's QUADRATIC RESOLVENT and K(sqrt 77) is K's
+    GALOIS CLOSURE.  For a generic b, K(sqrt b) is not Galois over Q and the
+    count is unconstrained.
+  C6: PASS
+
+  [Prop 44.16] p. 563 -- FOUND in the supplied text
+      (44.16) Proposition. (1) If T = (E, L, σ, αE ) is a trialitarian algebra such that
+      [E] = 1 ∈ Br(L), then there exists a twisted composition Γ = (V, L, N, β) such that
+      T = End(Γ).
+      (2) Γ, Γ0 are twisted compositions such that End(Γ) ≃ End(Γ0 ) if and only if there
+      exists λ ∈ L× such that Γ0 ≃ Γλ .
+
+  [Prop 43.6] p. 552 -- FOUND in the supplied text
+      (43.6) Proposition. For any trialitarian algebra T = (E, L, σ, αE ) the central
+      simple L-algebra E satisfies NL/F ([E]) = 1 ∈ Br(F ).
+
+  >>> CELL 6 OUTCOME A.  n_p <= 1 for EVERY rational prime p.  Exhaustive because
+      M = K(sqrt 77) ramifies only at 3, 7, 11 -- all three computed above -- and at
+      every unramified p the count depends only on the Frobenius class in S3, of
+      which there are three, each with a computed representative.
+
+      CONSEQUENCE, a deduction and not a search:  let Q be ANY quaternion algebra
+      over K containing K(sqrt 77) as a maximal subfield, with N_{K/Q}([Q]) = 1.
+        * it can ramify at no more than ONE prime above each rational prime (n_p <= 1);
+        * the norm condition forces an EVEN number above each rational prime;
+        * so it ramifies at NO finite place;
+        * and 77 > 0 in all three real embeddings, so at no real place either.
+      A quaternion algebra unramified at every place is SPLIT.
+
+      SO THERE WAS NEVER A NON-SPLIT EXAMPLE TO FIND.  CELL 4's OUTCOME B was the
+      TRUE ANSWER, not a search limit.
+
+      AND THE NORM CONDITION IS NOT AN ASSUMPTION HERE: 43.6, quoted above, gives
+      N_{L/F}([E]) = 1 for EVERY trialitarian algebra.  So the hypothesis is only
+      that the object's E carries the trialitarian structure -- which is what the
+      6D4 typing asserts and CELL 1 verified against the definition.
+
+      WHAT [E] = 1 THEN BUYS, by 44.16(1) quoted above: the object's trialitarian
+      algebra is End(Gamma) for a TWISTED COMPOSITION Gamma over K -- and 44.16(2)
+      classifies those up to Gamma -> Gamma_lambda.  SS36.C constructs them for an
+      arbitrary cubic etale L by descent from L (x) Delta.  The structure memo 203
+      reached for from search summaries is a named, finite, constructible object.
+
+==============================================================================
+ OUTCOMES
+==============================================================================
+   CELL 1 (KMRT types the object 6D4)        : A
+   CELL 2 (no cyclic composition over K)     : A
+   CELL 3 (memo 204's pin is the normal form): A
+   CELL 4 (classification decides E?)        : B
+   CELL 5 (the bench's citation)             : A
+   CELL 6 (could it have differed?) NOT PREREG: A
+   C1 instrument bites   : PASS
+   C2 projection formula : N/A
+   C3 field is B1093's K : PASS
+   C4 quotations located : PASS
+   C5 quote instr. bites : PASS
+   C6 count could differ : PASS
+   C7 two instruments    : PASS
+==============================================================================

@@ -61,6 +61,13 @@ re-litigated: the F_p certificate L2, the commutant/C5 result L5).
 
 Env: pyenv python3, numpy only.  Re-runnable.  ~2 min.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import json
 import sys
 import time
@@ -70,7 +77,7 @@ import numpy as np
 
 OUT = {}
 T0 = time.time()
-CELL = "<repo>/frontier/B775_phase2_wave1/cells/P2W6-B465-r"
+CELL = _R("frontier/B775_phase2_wave1/cells/P2W6-B465-r")
 
 # ------------------------------------------------------------------ shared kit (verbatim
 # conventions of B465's exact_engine / c_family, so the repair speaks about the SAME object)
@@ -361,7 +368,7 @@ def leg3():
     Ts = heis(N, Z, X)
     import importlib.util
     spec = importlib.util.spec_from_file_location(
-        "cf", "<repo>/frontier/B465_monodromy_intake/c_family.py")
+        "cf", _R("frontier/B465_monodromy_intake/c_family.py"))
     cf = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(cf)
     cfam = {}

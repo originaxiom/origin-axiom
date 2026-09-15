@@ -1,0 +1,28 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+weight-zero symmetric triples on the 27: 45
+derivation equations (12 generators): 180
+invariant-cubic solution space: dim = 1  (GREEN requires exactly 1)
+C normalized: 45 nonzero coefficients on 45 triples; |coeffs| in [Fraction(1, 1)]; denominators [1]
+C is RATIONAL in the crystal basis: True
+cross-check: dC = 0 verified for ALL 72 root generators (not just the 12 used)
+
+B1: weight-zero symmetric pairs on the 27: 0
+invariant-bilinear space on the 27 alone: dim = 0  (GREEN requires exactly 0)
+=> NO invariant mass-like bilinear exists on the matter module by itself: THEOREM
+
+computing C(U.,U.,U.) exactly over Q(q) — the beat-transported cubic ...
+C(Omega u, Omega v, Omega w) = gal(C(u,v,w)) for ALL 3654 basis triples: True
+cross-check: C invariant under A27 = Omega^2 (the lifted meridian): True
+
+A1 GREEN + B1 GREEN: the 27 carries a UNIQUE invariant cubic (the Jordan
+determinant), RATIONAL in the crystal basis, invariant under all 72 root
+generators — and the beat preserves it ON THE NOSE: C(Omega.,Omega.,Omega.) =
+gal(C(.,.,.)) exactly, with the meridian cross-check passing.  The matter
+module's cubic — the algebraic seat of any Yukawa-shaped coupling — is
+beat-covariant: C-S2's bridge has its first exact plank.  And the 27 alone
+admits NO invariant bilinear: 'no mass term' is now a theorem of the record.

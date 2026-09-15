@@ -1,0 +1,29 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 1: annihilator of the two vevs = dim 4; the 4 SM generators lie inside it
+   and are independent => the surviving torus IS the SM torus EXACTLY.
+   NO extra u(1) survives the unique chain — not u(1)_psi, not u(1)_chi,
+   not any gauged family direction.
+FACT 2: psi-charges of the vev pair: [1, -2] — both nonzero (broken twice over);
+   gcd(|1|,|-2|) = 1 => the unbroken remnant of u(1)_psi is Z/1 = TRIVIAL
+   cross-check (lattice side, memo 72/76 recomputed): the psi-parity pattern is
+   NOT among the surviving gradings — both ends of the computation agree.
+FACT 3: memo 58's payment theorem (T_dark = -T_16) is conditional on a GAUGED
+   family u(1).  After the unique chain: the family u(1) is broken with TRIVIAL
+   remnant (FACT 2), and memo 76 measured BRANCH N — no surviving Z/2 is odd on
+   the whole 15-plet, none is constant-odd on the psi-10 dark class.  KINEMATIC
+   CONCLUSION: below the chain, NOTHING the root lattice or the surviving gauge
+   group supplies protects the E6 dark candidates of this frame; their stability
+   (if any) is a Gates-2/3 question (potential accidents, global symmetries) —
+   or absent.  ABOVE the breaking, the payment theorem stands unchanged as a
+   consistency condition on the UV spectrum.
+
+NOTHING ABELIAN SURVIVES BUT THE SM: the unique chain's surviving torus is
+the SM torus exactly; the family charge dies with gcd-1 charges (trivial
+remnant), its discrete shadow was already absent from the lattice
+survivors, and the dark block exits the chain unprotected.  Necessary
+conditions only; no potential, no vacuum, no values; Gate 5 untouched.

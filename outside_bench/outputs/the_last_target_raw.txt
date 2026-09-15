@@ -1,0 +1,30 @@
+
+=== s958 === chiral=True
+  relator 'abcaaBBC' -> I
+  relator 'aacBacbbc' -> I
+  RELATORS VALIDATED: True
+  order-3 cusp-trivial characters: 2
+  EXACT in-domain sectors: 16
+  (t0,I): {(1, 0): 4, (2, 0): 6, (3, 0): 4, (4, 0): 2}
+  t0>=2: 12
+  NON-ZERO INDEX: 0
+
+=== t12833 === chiral=True
+  relator 'aaCCbbbacAcb' -> I
+  relator 'aacAcBBcb' -> -I
+  RELATORS VALIDATED: True
+  order-3 cusp-trivial characters: 2
+  EXACT in-domain sectors: 16
+  (t0,I): {(1, 0): 4, (2, 0): 6, (3, 0): 4, (4, 0): 2}
+  t0>=2: 12
+  NON-ZERO INDEX: 0
+
+=== t12835 === chiral=True
+  relator 'aaBcbac' -> -I
+  relator 'aCAbcaCAbcaaaBB' -> -I
+  RELATORS VALIDATED: True
+  order-3 cusp-trivial characters: 2
+  EXACT in-domain sectors: 16
+  (t0,I): {(1, 0): 4, (2, 0): 6, (3, 0): 4, (4, 0): 2}
+  t0>=2: 12
+  NON-ZERO INDEX: 0

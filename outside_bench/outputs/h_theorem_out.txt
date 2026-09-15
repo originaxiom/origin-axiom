@@ -1,0 +1,35 @@
+T(x,y,z) = (z, x, zx-y) preserves kappa = x^2+y^2+z^2-xyz-2: SYMBOLIC
+Jacobian of T^2 at the trivial rep (2,2,2): eigenvalues {1: 1, 7/2 - 3*sqrt(5)/2: 1, 3*sqrt(5)/2 + 7/2: 1}
+   unstable eigenvalue EXACT: 3*sqrt(5)/2 + 7/2 = phi^4; one unstable direction (golden, as banked)
+   unstable eigenvector (exact): [3/2 - sqrt(5)/2, 7/2 - 3*sqrt(5)/2, 1]
+   seed eps=1e-8 sign=+: e_n = [1.9248, 1.9248, 1.9248, 1.9248, 1.9249, 1.9250, 1.9257, 1.9307, 1.9644, 2.1843, 3.3312, 7.1173]
+      monotone-up(after seed step): True   monotone-down: False
+   seed eps=1e-8 sign=-: e_n = [1.9248, 1.9248, 1.9248, 1.9248, 1.9248, 1.9247, 1.9240, 1.9190, 1.8846, 1.6355, 0.6818, 0.5799]
+      monotone-up(after seed step): False   monotone-down: True
+   seed eps=1e-6 sign=+: e_n = [1.9248, 1.9249, 1.9249, 1.9251, 1.9267, 1.9372, 2.0084, 2.4479, 4.3796, 9.9542, 24.5105, 62.6121]
+      monotone-up(after seed step): True   monotone-down: False
+   seed eps=1e-6 sign=-: e_n = [1.9248, 1.9248, 1.9248, 1.9246, 1.9230, 1.9124, 1.8384, 1.2690, 0.6138, 1.2208, 0.7695, 1.0873]
+      monotone-up(after seed step): False   monotone-down: False
+   seed eps=1e-4 sign=+: e_n = [1.9249, 1.9254, 1.9287, 1.9511, 2.0994, 2.9324, 5.9592, 14.0849, 35.3185, 90.9078, 236.4424, 617.4571]
+      monotone-up(after seed step): True   monotone-down: False
+   seed eps=1e-4 sign=-: e_n = [1.9248, 1.9243, 1.9210, 1.8983, 1.7372, 0.5532, 1.4699, 0.6698, 0.9888, 1.1720, 0.7240, 1.2478]
+      monotone-up(after seed step): False   monotone-down: False
+
+OUTCOME (refined, the machine's own shape): S002's H-theorem AS STATED
+— monotone along ALL forward orbits — is REFUTED (the preregistered
+NOT-MONOTONE outcome).  But the violation is not noise; it is a clean
+TWO-BRANCH LAW: on every sampled seed the PLUS branch of the unstable
+manifold is monotone-increasing (accelerating into double-exponential
+growth — the escaping, hyperbolic side), while the MINUS branch falls
+into the bounded character region and its local expansion OSCILLATES
+(no arrow there).  The H-theorem is BRANCH-CONDITIONAL: the running
+entropy grows monotonically if and only if the orbit takes the
+escaping branch — the arrow's EXISTENCE-ON-A-BRANCH is the object's,
+the BRANCH is a bit.  This lands exactly on the record's standing
+split (memo 86: order object-paid, direction free; AR6 leaning SPLIT;
+the census's seed-bit blocker): the instrument does not pay LEAP-2 —
+it prices it to the branch bit, sharply.  B124 stands (spectral level
+two-headed); this is the orbit-level refinement.
+Fences: instrument run (finite seeds/steps, one slice); kappa
+conserved to working precision at every step (integrity gate); B124
+stands regardless.  Gate 5 untouched.

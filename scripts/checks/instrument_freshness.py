@@ -71,6 +71,13 @@ def _all_pass(results_path):
         R = json.loads(pathlib.Path(results_path).read_text(encoding="utf-8"))
     except Exception:
         return None
+    if not isinstance(R, dict):
+        # Some instruments store a LIST at top level (e.g. frontier/B1098_nonabelian_hatch/
+        # b1098_results.json is a list of per-case records).  `key in R` then tests VALUE
+        # membership, and R.get() below raises AttributeError -- the sweep died on that arc
+        # instead of reporting it.  A list carries no self-reported verdict field, which is
+        # exactly the None case: fall back to the instrument's exit code.
+        return None
     for key in ("all_pass", "all_ok"):
         if key in R:
             return bool(R[key])

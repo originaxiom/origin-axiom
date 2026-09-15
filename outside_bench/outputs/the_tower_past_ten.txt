@@ -1,0 +1,63 @@
+==============================================================================
+ THE TOWER PAST DEGREE TEN
+==============================================================================
+
+------------------------------------------------------------------------------
+CONTROL C1 -- ALGEBRAIC NON-VACUITY: can this code return a nonzero at all?
+------------------------------------------------------------------------------
+
+    B1297's own MB12 established non-vacuity on RANDOM presentations.  If the
+    instrument cannot return I != 0 in characteristic zero here, CELL 1 is VOID
+    and its null means nothing.
+    random presentations: 40 evaluated, I != 0 in 40
+  C1: PASS -- the instrument CAN return a nonzero in char 0
+
+------------------------------------------------------------------------------
+CONTROL C2 -- reproduce the record on the census before touching new ground
+------------------------------------------------------------------------------
+    12 census manifolds, 15 in-domain sectors, nonzero: 0
+  C2: PASS -- all-zero on the census, as banked
+
+------------------------------------------------------------------------------
+CELL 1 -- the object's own tower, degrees 11-14, one-cusped, torsion >= 3
+------------------------------------------------------------------------------
+    character cap per manifold (C5): 400
+
+    deg  covers  scanned  sectors  nonzero  +-I discarded  ids discarded
+    11   26      0        0        0        0              0
+    12   62      7        17       0        14             5
+    13   39      0        0        0        0              0
+    14   89      4        1        0        4              7
+    ---                   18       0        18             12
+
+    COVERAGE, stated rather than implied:
+        30  covers REACHED the character loop
+        17  rejected: relator not +-I (rep not PSL-faithful at tolerance)
+
+      Of the 30 that reached it, only those with a cusp-trivial
+      character of order > 2 inside the cap produce ANY sector at all.
+      TOTAL IN-DOMAIN SECTORS EXAMINED ON THE TOWER: 18
+    The preregistered population was 47 one-cusped covers with torsion >= 3.
+    THE NULL COVERS THE SECTORS ABOVE -- NOT ALL 47 COVERS.
+
+  >>> CELL 1 OUTCOME B.
+      Every in-domain sector on the tower past degree 10 returns I = 0.
+
+      AND THE SEAL'S FENCE BINDS HOW THIS IS READ: there is NO live positive
+      control in characteristic zero anywhere in the record -- B1297's own MB12
+      says "live non-vacuity NOT established", and B1335's nonzero index is over
+      F_p with its own title reading "and its refutation in characteristic zero".
+      So this null is WEAK evidence about the tower and STRONG evidence only
+      about the instrument's standing behaviour.  IT IS NOT "THE TOWER IS
+      VECTOR-LIKE".
+
+==============================================================================
+ OUTCOMES
+==============================================================================
+   CELL 1 (nonzero on the tower past 10) : B
+   C1 algebraic non-vacuity : PASS
+   C2 census reproduced     : PASS
+   C3 +-I trap guarded      : 18 odd-power sectors discarded
+   C4 identities            : 12 sectors discarded
+   C5 character cap         : 400 per manifold
+==============================================================================

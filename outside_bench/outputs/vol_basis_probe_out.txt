@@ -1,0 +1,46 @@
+sealed targets: 18  sha256 e93efeaa132bf7c1a6e0a3a9d41a436ff03d2aea5f626a2b404a5ef8a317e101
+Vol(m004) computed from Li_2 = 2.02988321281930725004240510855
+
+=== CONTROL (25-entry basis): 216 cells ===
+  12/216  raw=0  reg=0
+  24/216  raw=0  reg=0
+  36/216  raw=0  reg=0
+  48/216  raw=1  reg=0
+  60/216  raw=11  reg=0
+  72/216  raw=12  reg=0
+  84/216  raw=12  reg=0
+  96/216  raw=12  reg=0
+  108/216  raw=13  reg=0
+  120/216  raw=24  reg=0
+  132/216  raw=35  reg=0
+  144/216  raw=45  reg=0
+  156/216  raw=57  reg=0
+  168/216  raw=69  reg=0
+  180/216  raw=81  reg=0
+  192/216  raw=93  reg=0
+  204/216  raw=105  reg=0
+  216/216  raw=117  reg=0
+RESULT CONTROL (25-entry basis): cells=216 raw=117 involves_V=117 involves_regulator=0 targets_with_regulator=0
+
+=== EXTENDED (28-entry basis, +vol): 216 cells ===
+  12/216  raw=0  reg=0
+  24/216  raw=0  reg=0
+  36/216  raw=0  reg=0
+  48/216  raw=1  reg=0
+  60/216  raw=11  reg=0
+  72/216  raw=12  reg=0
+  84/216  raw=12  reg=0
+  96/216  raw=12  reg=0
+  108/216  raw=13  reg=0
+  120/216  raw=24  reg=0
+  132/216  raw=35  reg=0
+  144/216  raw=38  reg=0
+  156/216  raw=48  reg=0
+  168/216  raw=60  reg=0
+  180/216  raw=72  reg=0
+  192/216  raw=84  reg=0
+  204/216  raw=96  reg=0
+  216/216  raw=108  reg=0
+RESULT EXTENDED (28-entry basis, +vol): cells=216 raw=108 involves_V=108 involves_regulator=0 targets_with_regulator=0
+
+DONE

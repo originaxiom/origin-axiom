@@ -1,0 +1,73 @@
+==============================================================================
+1.  WHAT THE FRESHNESS CHECK CAN SEE
+==============================================================================
+   arcs in frontier/                                : 1169
+   arcs the check selects (verify.py + results.json): 2
+   coverage                                         : 0.2%
+   the arcs it sees                                 : [943, 946]
+
+==============================================================================
+2.  WHAT THE CORPUS ACTUALLY USES
+==============================================================================
+   arc_verdict.json             1125
+   FINDINGS.md                  1124
+   PREREGISTRATION.md            238
+   probe.py                      145
+   README.md                     144
+   results.json                  118
+   verification                   80
+   ARTIFACT_HASHES.txt            76
+   output.txt                     29
+   verdict.py                     23
+   compute.py                     19
+   DRAFT_FINDINGS.md              16
+   verify.py                      11
+   cells                           8
+   ORIGINALS_MANIFEST.txt          7
+   packet                          7
+
+==============================================================================
+3.  THE COVERAGE GAP, MEASURED
+==============================================================================
+   arcs with SOME runnable script            : 303
+   arcs with SOME committed result artefact  : 316
+   arcs with BOTH (a widened selector)       : 72
+   arcs with a verification/ directory       : 80
+   union of 'has both' and 'has verification/': 152
+
+   the check sees 2 of those 152  ->  it is blind to 150 arcs that carry exactly the
+   structure B1054 warned about.
+
+==============================================================================
+4.  THE REPAIR, SPECIFIED (not applied -- this lane does not touch main)
+==============================================================================
+   scripts/checks/instrument_freshness.py selects on the literal pair
+   (verify.py, results.json).  The corpus moved to probe.py (145), verdict.py (23),
+   compute.py (19), per-arc bNNNN_*.py, per-arc *_results.json, and a verification/
+   directory (80).  Widening the selector to the patterns used in section 3 takes the
+   check from 2 arcs to 152.
+
+   TWO THINGS MUST SURVIVE THE WIDENING, both already true of the current file and both
+   easy to lose:
+     * it is NON-MUTATING -- it snapshots every artefact and restores it unconditionally,
+       because running an instrument rewrites its own results and a diagnostic must not
+       edit its subject;
+     * it is wired as a TEST, not a per-push gate, because it costs minutes.
+   A widened sweep will cost proportionally more and should be sampled or sharded rather
+   than run whole on every suite pass.
+
+=============================================================================
+INTERPRETATION (labelled).
+
+This is memo 188's pattern in its purest available form, and the programme gets the credit
+for finding the pattern first: B1054 named it, built a check, and wired it into the suite.
+What happened next is the pattern applied to the check itself.  The corpus renamed its
+instruments; the check kept looking for the old name; it still runs, still passes, and now
+reports on two arcs out of eleven hundred.
+
+A green check with 0.2% coverage is worse than no check, because it answers the question
+"is anything stale?" with silence that reads as no.
+
+Nothing here says the hidden arcs ARE stale -- that is the next measurement, and it needs
+the widened selector plus the non-mutating snapshot discipline the current file already
+has.  What is established is only that nobody can currently see.

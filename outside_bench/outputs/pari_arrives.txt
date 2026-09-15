@@ -1,0 +1,55 @@
+==============================================================================
+PARI/GP ARRIVES -- validated against B1093, a PROVED hand computation
+==============================================================================
+
+  gp at /usr/bin/gp
+    GP/PARI CALCULATOR Version 2.15.4 (released)
+    amd64 running linux (x86-64/GMP-6.3.0 kernel) 64-bit version
+    compiled: Apr  1 2024, gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu3)
+
+  raw gp output:
+    disc     = 6237
+    index    = 1
+    sign     = [3, 0]
+    h        = 1
+    cyc      = []
+    fu       = [Mod(x^2 + 2*x - 4, x^3 - 12*x - 5), Mod(3*x^2 + 6*x + 2, x^3 - 12*x - 5)]
+    narrow   = [1, [], []]
+
+------------------------------------------------------------------------------
+THE FIVE FACTS B1093 PROVED BY HAND, ASKED OF THE NEW TOOL
+------------------------------------------------------------------------------
+
+  [OK ] field discriminant
+         B1093 (hand, PROVED): 6237 = 3^4 * 7 * 11
+         PARI (this run)     : 6237
+
+  [OK ] Z[theta] = O_K  (index 1)
+         B1093 (hand, PROVED): Z[theta] = O_K  (Dedekind's criterion at the sole candidate p = 3)
+         PARI (this run)     : 1
+
+  [OK ] totally real  (r1, r2) = (3, 0)
+         B1093 (hand, PROVED): totally real (the signature map is surjective; sign vectors fill {+-1}^3)
+         PARI (this run)     : [3, 0]
+
+  [OK ] class number
+         B1093 (hand, PROVED): h(K) = 1 PROVED (Minkowski bound (2/9)sqrt(6237) ~ 17.55; all EIGHT prime ideals of norm <= bound exhibited PRINCIPAL)
+         PARI (this run)     : 1
+
+  [OK ] class group trivial
+         B1093 (hand, PROVED): h(K) = 1 PROVED (Minkowski bound (2/9)sqrt(6237) ~ 17.55; all EIGHT prime ideals of norm <= bound exhibited PRINCIPAL)
+         PARI (this run)     : []
+
+  [OK ] the two fundamental units, as elements
+         B1093 (hand, PROVED): N(theta^2 + 2 theta - 4) = +1 and N(3 theta^2 + 6 theta + 2) = -1
+         PARI (this run)     : [Mod(x^2 + 2*x - 4, x^3 - 12*x - 5), Mod(3*x^2 + 6*x + 2, x^3 - 12*x - 5)]
+         theta^2 + 2theta - 4 present: True;  3theta^2 + 6theta + 2 present: True
+
+  [OK ] narrow class number
+         B1093 (hand, PROVED): h+ = h = 1
+         PARI (this run)     : [1, [], []]  (leading 1 = h+ = 1)
+
+==============================================================================
+  7 of 7 checks agree.
+  A tool that reproduces a hand proof is usable; one that does not is not.
+==============================================================================

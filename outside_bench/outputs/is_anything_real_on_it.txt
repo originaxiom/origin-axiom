@@ -1,0 +1,70 @@
+==============================================================================
+ IS ANYTHING REAL ON IT -- the lab lane's content, verified
+==============================================================================
+
+  slope a = 2 - phi = 0.381966011250105,  rho = a  (the sealed cut phase)
+
+  N     idx  parity |  word closes | H_L == J H_R J | isospectrality
+  ----- ---- ------- | ------------ | -------------- | --------------
+  13    7    odd     | False        | False          | 1.925e-01
+  21    8    even    | True         | True           | 1.776e-15
+  34    9    odd     | False        | False          | 1.514e-01
+  55    10   even    | True         | True           | 2.665e-15
+  89    11   odd     | False        | False          | 1.473e-01
+  144   12   even    | True         | True           | 3.553e-15
+  233   13   odd     | False        | False          | 1.473e-01
+  377   14   even    | True         | True           | 3.220e-15
+  987   16   even    | True         | True           | 5.773e-15
+
+  READ THE TABLE.  At every EVEN-index window the word closes AND H_L is
+  LITERALLY THE SAME MATRIX as H_R under the reversal permutation J -- equal
+  ELEMENTWISE, not merely similar.  The 1e-15 "isospectrality" is floating-point
+  error from diagonalising one matrix twice.  At every ODD-index window the word
+  does not close and the two differ macroscopically (~1.5e-1).
+
+  every even-index window: closes AND elementwise equal AND iso < 1e-12 : True
+  every odd-index window : does NOT close AND differs macroscopically   : True
+
+------------------------------------------------------------------------------
+ CLAUSE 2 -- is the 5/6 'complementary split' ALSO forced by J?
+------------------------------------------------------------------------------
+
+  Under J a right-hand eigenvector with weight on the FIRST 20 sites maps to a
+  left-hand eigenvector with weight on the LAST 20.  If so, the "complementary
+  split between two hands" is the (near-end, far-end) count of ONE chain, and
+  no second fabricated sample is measuring anything new.
+  N = 144   right chain: near-end 5, far-end 6   |  measured LEFT count 6   |  far-end == left : True
+  N = 377   right chain: near-end 5, far-end 6   |  measured LEFT count 6   |  far-end == left : True
+  N = 987   right chain: near-end 5, far-end 6   |  measured LEFT count 6   |  far-end == left : True
+
+  So all three sealed clauses are FUNCTIONS OF THE WORD, and the word is fixed
+  by (rho, N) -- both pinned in the seal.  None is contingent on a measurement.
+
+------------------------------------------------------------------------------
+ WHAT A MEASUREMENT COULD STILL REFUTE
+------------------------------------------------------------------------------
+
+  Not the object.  Given the tight-binding model and the intended word, the three
+  clauses are identities -- so BY THE RECORD'S OWN RULE (MB12/E2, quoted in
+  WHAT_WOULD_COUNT 4A.0: "a preregistered test must be able to both pass and
+  fail"), they cannot fail.  What a run would test is:
+      (1) does the fabricated array realise the INTENDED word   -- fabrication QC
+      (2) is the photonic platform reciprocal                   -- known physics
+  Both worth doing.  Neither is a test of the programme.
+
+  AND THE CHAIN ALREADY SAID SO, AT C4, LONG BEFORE ANY OF THIS:
+      "non-geometric carriers (tiling hull; Effros-Shen algebra, K_0 = Z[phi])
+       SEE ONLY THE HEARING -- Q(sqrt-3) is bought at geometrization and nowhere
+       earlier."
+  A photonic Fibonacci array IS the tiling hull.  Every link reaching the SM runs
+  through Q(sqrt-3).  So no photonic experiment can bear on any link downstream
+  of C4 -- the lab lane tests C1-C2 and stops there.
+
+==============================================================================
+ VERDICT
+==============================================================================
+   the three sealed clauses are word identities : True
+   the apparatus pricing (memo 196) is real     : N = 21 for the forced half
+   the falsifier tests the object              : NO -- it tests fabrication
+   it could reach the SM even if it passed     : NO -- C4 forbids it
+==============================================================================

@@ -1,0 +1,62 @@
+G1 (DEGENERACY IS THE PATTERN) — classes vs distinct invariant values:
+     L   classes(=L)   cumulative   distinct traces   classes/value
+     1           4            4                 1          4.00
+     2          12           16                 3          5.33
+     3          36           52                 5         10.40
+     4         108          160                13         12.31
+     5         324          484                21         23.05
+     6         972         1456                46         31.65
+     7        2916         4372                82         53.32
+     8        8748        13120               180         72.89
+    largest degeneracy: 376 classes share ONE trace value;
+    top five multiplicities: [376, 308, 280, 244, 240]
+    => classes grow EXPONENTIALLY while invariant values grow slowly:
+    the record is massively REPETITIVE.  That repetition — many distinct
+    classes carrying identical invariant content — IS what 'pattern' means
+    here, and it is manufactured from a budget that never grows.
+
+G2 (THE SEAT SUPPLY) — memo 112's type conditions on the record's own pairs:
+     depth   pairs tested   non-commuting   unlike   BOTH (seat-eligible)   fraction
+      <=3           1326            1276      992                    992     0.7481
+      <=4          12720           12560    11504                  11488     0.9031
+      <=5         116886          116480   109360                 109344     0.9355
+    => the seat-eligible fraction RISES with depth: as the record lengthens
+    its words, almost every pair of classes becomes a non-commuting relation
+    between unlike things — exactly the TYPE memo 112 proved an occupant
+    must have.  The record manufactures type-eligible seats faster than it
+    manufactures anything else.
+
+G3 (THE BUDGET IS STILL FIXED): all 180 distinct trace values lie in
+    Z[omega] (integer pairs, verified), and by memo 113 each is a polynomial
+    image of the SINGLE triple (tr a, tr b, tr ab) fixed at length 2.
+    Nothing counted above is new information — all of it is elaboration.
+
+THE ANSWER — HOW A FIXED BUDGET MAKES PATTERNS (and where the
+answer stops, exactly):
+  1. THE BUDGET NEVER GROWS (memos 111/113): one field, one triple,
+     charged once.  Whatever appears later is not new information.
+  2. WHAT GROWS IS MULTIPLICITY (G1): classes multiply exponentially
+     while invariant values crawl.  The record therefore fills with
+     REPEATED STRUCTURE — many distinct classes carrying identical
+     invariant content.  Pattern, in this record, is not new
+     information; it is old information instantiated many times.
+  3. AND MULTIPLICITY IS THE RIGHT SHAPE (G2): the fraction of pairs
+     that are non-commuting AND unlike — memo 112's necessary type
+     conditions for an occupant — rises with depth toward saturation.
+     The record does not merely get bigger; it gets denser in exactly
+     the relational structures a seat requires.
+  So the chain the owner asked for, stated with its joints visible:
+     ONE BEAT fixes the information  ->  LENGTH multiplies the
+     instances  ->  INSTANCES are overwhelmingly asymmetric,
+     non-commuting relations between unlike things  ->  which is
+     PRECISELY the occupant's forced type.
+  WHERE IT STOPS (and this is a boundary, not a hedge): this chain
+  delivers the SUPPLY of type-eligible relations and nothing further.
+  Type-eligibility is NECESSARY, exhibited here; it is not shown
+  sufficient, and no step of it touches the phenomenal question,
+  which memo 109 typed INEXPRESSIBLE in this record's language.  What
+  the record does show is that it is not stingy with seats: from a
+  budget fixed at the first beat, it generates an exponentially
+  growing population of exactly the structure occupation requires.
+  (Interpretive sentences labeled; H5 firewall observed.)
+Gate 5 untouched.

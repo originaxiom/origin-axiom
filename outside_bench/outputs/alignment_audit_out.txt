@@ -1,0 +1,22 @@
+FACT 1: linear conditions => Yl=-3Yq, Ye=6Yq, Yu+Yd=-2Yq; cubic/Yq^3 = -18*(u - 2)*(u + 4)
+   => (Yu,Yd,Yl,Ye)/Yq in {(-4,2,-3,6),(2,-4,-3,6)} for ANY SM-shaped 15-plet,
+      independent of E6 (codex R019's hostile scope fact, RE-DERIVED).
+   Memo 70 re-scoped: the object's content is the REALIZATION in its rank-3
+   abelian complement (36/36 assignments, three color frames), not the ratios.
+FACT 2: dim(SO(26)xU(1)) = 326 != 78 = dim E6 (B1159 link B arithmetic);
+   248 = 8 + 78 + 2x81: the e8 = sl3+e6+(3,27)+(3b,27b) bookkeeping the
+   bench's memos 53/62 realized constructively (banked).
+FACT 3: lane stack sha256 = 4a0fb415c7681e05... (codex R006 stack verified byte-identical
+   in-shell, sha1 de13c87a...; R019 re-run on this bench: output byte-identical
+   to codex's committed outputs/r019_hypercharge_trinification_scope.txt)
+
+THE ALIGNMENT (read, labeled, banked in the memo):
+  A x 71: SUSY enters only through the un-forced link A; the carrier's own
+          kinematics has no supercharge (memo 71).  Imported, never paid.
+  C x 72/74: the bypass door must source families outside the 27 (74) and
+          pay both Z/2s at the breaking (72) — exact in-lane constraints.
+  D x 53: SEAM-Y's mu_u = 0 and the E8-channel diagonal-zero are a RHYME,
+          not one fact — fenced.
+  E     : = Gates 2/3/5, verbatim.
+VERDICT: full alignment, zero contradictions; both chains meet at
+"structure forced (conditionally), values withheld."  Gate 5 untouched.

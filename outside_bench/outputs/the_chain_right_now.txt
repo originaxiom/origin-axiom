@@ -1,0 +1,150 @@
+==============================================================================
+ THE CHAIN RIGHT NOW -- read out of the record, not recalled
+==============================================================================
+
+------------------------------------------------------------------------------
+CELL 1 -- the 54 links, by the corpus's OWN checker (memo 154's rule)
+------------------------------------------------------------------------------
+    THE FORCEDNESS CENSUS  (docs/THEOREM_LEDGER.md, 54 links)
+    ----------------------------------------------------
+      THEOREM     34
+      NO-GO        8
+      IDENTITY     6
+      AXIOM        4
+      CENSUS       1
+      COROLLARY    1
+    ----------------------------------------------------
+      FORCED (non-axiom): 50 of 54
+      axioms at: [3, 4, 5, 18]
+      axioms in C6..C17 (the knot -> the algebra): NONE
+    
+    PASS: the census holds; the axiom-free stretch is intact.
+          From the knot (C6) to C17 -- where e6 and the 27 arrive --
+          there is not one declared choice.
+
+    links parsed from the ledger : 53 (C1..C54)
+    parsed-but-missing numbers    : [19]  (format variants, present in the census count)
+
+    THE CHAIN, IN ORDER:
+
+      [1-5] THE ENTRANCE -- description to an oriented space
+        C1   THEOREM    Morse–Hedlund
+        C2   THEOREM    the self-selection, one criterion
+        C3   AXIOM      being is inexhaustible description; PRICED  <<< AXIOM
+        C4   AXIOM      the geometric carrier; PRICED  <<< AXIOM
+        C5   AXIOM      orientation; PRICED, the most expensive  <<< AXIOM
+
+      [6-17] THE AXIOM-FREE STRETCH -- the knot to the algebra
+        C6   THEOREM    Thurston/Riley; banked realization
+        C7   THEOREM    the forced faces
+        C8   CENSUS     the interface-only V₄
+        C9   THEOREM    congruence, conventions named per E23
+        C10  THEOREM    character-rigidity + the voice
+        C11  IDENTITY   the two-column law
+        C12  THEOREM    the chord
+        C13  IDENTITY   the mixing structure
+        C14  IDENTITY   the pure-3 symmetrized series
+        C15  THEOREM    the hearing multiplication law
+        C16  NO-GO      the threefold refusal
+        C17  NO-GO      the SM record
+
+      [18-23] THE OBSERVER -- closings and the measurement torsor
+        C18  AXIOM      the observer's closings; FIRST SUB-STRUCTURE PRICED 2026-07-22  <<< AXIOM
+        C20  IDENTITY   the measurement-torsor rank; R29-5, owner-opened
+        C21  THEOREM    the T1 structure
+        C22  COROLLARY  of C20 — no canonical closing
+        C23  NO-GO      the T1-mover; closes the door C21 opened
+
+      [24-46] THE MEASUREMENTS -- e6, the landing, matter, the walls
+        C24  THEOREM    the First Measurement
+        C25  THEOREM    the Second Measurement
+        C26  THEOREM    the magic-square isomorphism
+        C27  THEOREM    the inter-breaking laws
+        C28  THEOREM    the four-column concordance
+        C29  THEOREM    the signature dichotomy
+        C30  THEOREM    the sign-law mechanism
+        C31  THEOREM    the diagonal cocycle
+        C32  NO-GO      the C-stabilizer
+        C33  THEOREM    the annihilation
+        C34  THEOREM    the one-class + the numerator law + the observer's place
+        C35  THEOREM    the sealed generation-shape
+        C36  THEOREM    the unified ℤ₂ law + the atoms
+        C37  THEOREM    the e₆(2) selection
+        C38  THEOREM    the rational atoms + I = −1
+        C39  THEOREM    the signature split of matter
+        C40  THEOREM    the one-number table
+        C41  THEOREM    the unimodularity + the twist-norm law + the product law
+        C42  IDENTITY   the 3/8 traces
+        C43  NO-GO      the crossing, sealed
+        C44  NO-GO      the fork
+        C45  NO-GO      the anomaly layer is complete
+        C46  THEOREM    the seam is selective for structure, a catalogue for values
+
+      [47-54] THE CHIRALITY CAMPAIGN -- 2026-09
+        C47  THEOREM    the parity of the cusp
+        C48  THEOREM    every fixed locus counts two or nothing
+        C49  THEOREM    the charge-locus parity lock, and the lift fork
+        C50  THEOREM    the one-cusped index, and the cyclic tower is vector-like
+        C51  THEOREM    the tower law and the Standard-Model closings
+        C52  NO-GO      the θ-odd frame is closed on every sl₂ germ
+        C53  THEOREM    the genesis dictionary, the criterion census, and the substrate fork
+        C54  THEOREM    the mirror is swap × arrow, and covers do not inherit amphichirality
+
+------------------------------------------------------------------------------
+CELL 2 -- the 15-row status table, and WHERE IT LIVES
+------------------------------------------------------------------------------
+    docs/THE_CHAIN_STATUS.md
+      on origin/main : False
+      on origin/claude/paper-verification-ufp0zn : True
+
+    the document's own header says 'This one is adopted: it lives on main' : True
+
+    >>> AND IT IS NOT ON MAIN.  The consolidation written to fix
+        "each consolidation was added, never adopted" -- its own words -- is
+        itself not adopted.  Reported as an observation about the record's
+        currency, not as a defect in its contents.
+
+    status rows parsed : 16
+
+    | # | link | verdict |
+      1   minimal description → the object m004                      derived
+      2   object → arithmeticity, trace field ℚ(√−3)                 classical/literature
+      3   ℚ(√−3) → 2T → E₆ (McKay)                                   derived but GENERIC
+      4   E₆ → landing su(3)⊕su(2)⊕u(1)³                             classical/literature
+      5   the chain stops at the SM                                  derived
+      6   global form [SU(3)×SU(2)×U(1)]/ℤ₆                          derived
+      7   the arena: rank-3 abelian sector + SM-shaped 15-plet in th derived
+      8   arena → content: 252 candidates → 2                        derived but GENERIC
+      9   hypercharge direction                                      derived
+      9b  hypercharge normalisation                                  proved UNOBTAINABLE
+      10  three generations                                          ABSENT
+      11  Yukawas, masses, mixings                                   ABSENT
+      12  every measured dimensionless value                         proved UNOBTAINABLE
+      13  scale / anything dimensionful                              proved UNOBTAINABLE
+      14  dynamics — equation of motion, rate, action                ABSENT
+      15  the observer                                               derived
+
+    verdict census over the status rows:
+       6  derived
+       3  proved UNOBTAINABLE
+       3  ABSENT
+       2  classical/literature
+       2  derived but GENERIC
+
+    the document's own one-line reading, present: True
+      "The chain does not thin out and stop — it completes as structure and hits a firewall."
+
+------------------------------------------------------------------------------
+CELL 3 -- what the chain COSTS, live
+------------------------------------------------------------------------------
+    ROWS OUTSTANDING  : 4 axioms + 14 unearned rows = 18
+    the row count: '18 ROWS OUTSTANDING' present = True
+    price certificate exits clean : True
+
+==============================================================================
+ SUMMARY
+==============================================================================
+   54 links, 50 forced, axioms at C3/C4/C5/C18, C6..C17 axiom-free : True
+   the 15-row status table is on a BRANCH, not on main             : True
+   the cost: 4 axioms + 8 irreducible sources = 12, buying 0 of 19
+==============================================================================

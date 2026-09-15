@@ -1,0 +1,45 @@
+arcs with arc_verdict.json      : 1122
+arcs with FINDINGS.md           : 1121
+arcs with machine cell records  : 9
+
+==============================================================================
+ARM A -- SEALED substrate: claim_one_line vs FINDINGS.md
+==============================================================================
+P-1 control
+  positive B1196  : FLAGS (3)
+  negative B990   : FLAGS (5)
+  negative B1202  : FLAGS (12)
+  top positive flag  score=3.8 shared=['founding']  
+    SUMMARY: the q-series map = new mathematics) / 4 LAW FOUND (kappa governs -- the founding invariant) / 5 CLOSED-PERMANENT (the P3 floor) / 6 CLOSED (D2 different, computed) / 7 RESOLVED (the three-regime dichotomy + selector-free bit) / 8 CREATED (the cosmology ledger).
+    CELL   : every cosmological ingredient typed from banked results only (the object's structural gifts: no-beginning B716, the founding fact kappa-2=omega^2, the Sakharov gate B867, own-Lambda=-1 B1088, the accretion arrow B168;
+    from   : FINDINGS.md
+  negative-control substrate present for : ['B990', 'B1202']
+  caught B1220's actual pair (summary 'which is WHY they are anchors' vs cell 'first hypothesis'): NO
+  selectivity on own domain: 434 of 1121 arcs flagged (39%)
+  => P1-USELESS  [the sealed positive PAIR is not caught; negatives fired: ['B990', 'B1202']]
+
+  P-2 NOT RUN on this arm: the seal makes P-1 binding.
+
+==============================================================================
+ARM B -- REPAIRED substrate: claim+FINDINGS vs the arc's own CELL RECORDS
+==============================================================================
+P-1 control
+  positive B1196  : FLAGS (74)
+  negative B990   : no flag
+  negative B1202  : no flag
+  top positive flag  score=13.86 shared=['selector-free', 'bit']  PROVED > PARTIAL
+    SUMMARY: the q-series map = new mathematics) / 4 LAW FOUND (kappa governs -- the founding invariant) / 5 CLOSED-PERMANENT (the P3 floor) / 6 CLOSED (D2 different, computed) / 7 RESOLVED (the three-regime dichotomy + selector-free bit) / 8 CREATED (the cosmology ledger).
+    CELL   : GC-16's own fence stands unmodified: the norm-+1 mechanism is not general (a second norm-+1 partner realizes the bit in torsor form, not eps=-1 form) — the selector-free claim here is scoped to the exhibited pair and its checked conjugates/mirror, matching that same scope, not asserted as universal.
+    from   : batch5b_cells.json:GC-27
+  negative-control substrate present for : NONE
+  *** VACUITY: ['B990', 'B1202'] carry no text on this arm's cell side, so they CANNOT
+      fire at any parameter setting.  Their silence is not discrimination.
+  caught B1220's actual pair (summary 'which is WHY they are anchors' vs cell 'first hypothesis'): NO
+  selectivity on own domain: 9 of 9 arcs flagged (100%)
+  => P1-USELESS  [the sealed positive PAIR is not caught; negative control VACUOUS on this substrate: ['B990', 'B1202']; flags 9 of 9 arcs in its own domain (no negative capacity)]
+
+  P-2 NOT RUN on this arm: the seal makes P-1 binding.
+
+==============================================================================
+ARM A : P1-USELESS | P-2 not run
+ARM B : P1-USELESS | P-2 not run

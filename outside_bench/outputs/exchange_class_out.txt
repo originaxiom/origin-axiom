@@ -1,0 +1,25 @@
+FACT 1: four A2 slots re-anchored (72-root e6 complement, 162 crossing,
+        6 classes x 27); family block = 81 roots over triplet weights [(-1, 1), (0, -1), (1, 0)]
+        internal labels: 27 distinct e6-weights per family block
+FACT 2: zero-sum triples in the family block: 270 = 45 internal
+        weight-zero triples x 6 family assignments; EVERY triple has three
+        DISTINCT families — no same-family triple exists at all
+FACT 3: kappa(r) = tr(ad e_r ad e_-r) = -60 for ALL 81 family roots (exact)
+FACT 1: rebuilt T from family_yukawa.py's construction: |FAM|=81, 270 zero-sum triples, |T|=1620 ordered entries, values in {+--60}.
+FACT 2: |S| = 3240 = 2 * 1620 (live spin pairs (0,1),(1,0) times T's support).
+FACT 3: S symmetric under slot 1<->2 full-label exchange on all 3240 entries: True
+FACT 4a: eps_spin[i][j] = -eps_spin[j][i] for all i,j in {0,1}: verified.
+FACT 4b: T(r2,r1,r3) = -T(r1,r2,r3) on all 1620 entries of T: True
+FACT 4c: local sign product = (-1) * (-1) = 1, matching the directly observed slot 1<->2 exchange sign +1.
+FACT 5 (sample): S((0, (-2, -3, -4, -4, -3, -2, -1, -2)), (1, (0, -1, -2, -1, -1, 0, 0, -1)), (0, (2, 4, 6, 5, 4, 2, 1, 3))) = -60  vs  S((0, (2, 4, 6, 5, 4, 2, 1, 3)), (1, (0, -1, -2, -1, -1, 0, 0, -1)), (0, (-2, -3, -4, -4, -3, -2, -1, -2))) = 60  -> differ: True
+FACT 5 (full support): of 3240 entries, 1<->3 exchange gives SAME value for 0, DIFFERENT value for 1620, and leaves S's index set for 1620 (i3 is pinned, not summed) -- slot 3 is never exchange-symmetric with slots 1,2, in either measured outcome.
+
+RESULT: S = eps_spin (x) T is an explicit dict of 3240 entries.
+  - Exchange of slots 1 and 2 (full labels): symmetric, sign +1 (spin -1 times
+    family/internal -1), verified on all 3240 entries.
+  - Exchange of slots 1 and 3 (full labels): NEVER reproduces the same value,
+    on all 3240 entries -- 1620 flip sign, 1620 exit S's
+    index set entirely (i3 is pinned, not summed) -- slot 3 carries no eps
+    contraction partner.
+Gate 5: no measured physical constant entered any computation above.
+

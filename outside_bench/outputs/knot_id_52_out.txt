@@ -1,0 +1,11 @@
+CANDIDATE  sigma1^2 sigma2^2 sigma1 sigma2^-1  on 3 strands
+   closure is a KNOT (permutation is an 3-cycle): True
+   Jones polynomial shape: (-1, 1, -1, 2, -1, 1)
+   V(5_2) shape          : (-1, 1, -1, 2, -1, 1)   match: True
+   3_1        hbar^2 coefficients n=1..4 ['0', '-3', '-8', '-15']  ->  c22 = -1   (quadratic fit holds: True)
+   4_1        hbar^2 coefficients n=1..4 ['0', '3', '8', '15']  ->  c22 = 1   (quadratic fit holds: True)
+   candidate  hbar^2 coefficients n=1..4 ['0', '-6', '-16', '-30']  ->  c22 = -2   (quadratic fit holds: True)
+
+   reference c22 from 1/Delta(e^u):  3_1 -1   4_1 +1   5_1 -3   5_2 -2
+   CANDIDATE c22 = -2  =>  Alexander polynomial 2t - 3 + 2/t  =>  the knot is 5_2
+   (5_2 is CHIRAL and HYPERBOLIC -- exactly the missing case.)

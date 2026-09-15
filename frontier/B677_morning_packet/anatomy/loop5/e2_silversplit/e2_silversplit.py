@@ -98,6 +98,13 @@ Repo (origin-axiom) READ-ONLY throughout; all writes confined to this cell's
 directory. Exact field arithmetic: K = Q(sqrt(-3)) (Fraction pairs) for golden,
 L = Q(s,i) (Fraction 4-tuples, s^4=8s^2+16) for silver. Zero floats anywhere.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import os
 import sys
 import time
@@ -114,7 +121,7 @@ def log(msg):
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 W1_PORTAL = "<seat-workdir>/invariant_line/w1_portal/w1_portal.py"
-SWAP = "<repo>/frontier/B649_silver_holonomy/b649_stage3b_swap.py"
+SWAP = _R("frontier/B649_silver_holonomy/b649_stage3b_swap.py")
 
 gates = {}
 result = {

@@ -1,0 +1,141 @@
+==============================================================================
+ CELL 9 -- IS ROW 4 AS CLOSED AS THE TABLE SAYS?
+==============================================================================
+
+    seal  outside_bench/seals/REQUIRE_AND_TEST_CELL9_PREREG.md
+    sha256 13619e617eaacff03688114072d1a7ba3559574245cfbe646a98e9cc3ade14ef
+
+------------------------------------------------------------------------------
+ CONTROL R1 -- every quotation asserted present in its named file
+------------------------------------------------------------------------------
+    [ok ] T1 Definition 1 (the clause itself)        frontier/B666_leads_campaign/cellS/PROOF_NOTE.md
+           "A *framework output* is an element of a fixed number field F, carried by a representation of"
+    [ok ] T1 the arc's own Scope admission           frontier/B666_leads_campaign/cellS/PROOF_NOTE.md
+           "the one assembly ingredient this note consumes rather than reproves"
+    [ok ] T1 the named falsifier, never taken up     frontier/B666_leads_campaign/cellS/PROOF_NOTE.md
+           "exhibit a banked output NOT stabilized by a finite/profinite structure"
+    [ok ] T1 the w = 0 exemption                     frontier/B666_leads_campaign/cellS/PROOF_NOTE.md
+           "weight w = 0 is outside its hypothesis"
+    [ok ] T2 what was verified exactly               frontier/B666_leads_campaign/cellS/cellS_output.txt
+           "THE RIGIDITY STEP IS VERIFIED EXACTLY ON ALL BANKED STRUCTURES"
+    [ok ] T3 B1116's quantifier finding              frontier/B1116_asymptotic_channel/FINDINGS.md
+           "Every banked value/scale no-go quantifies over SINGLE-LEVEL invariants"
+    [ok ] T3 B1116's verdict                         frontier/B1116_asymptotic_channel/FINDINGS.md
+           "the archimedean/growth-rate channel is not excluded by any banked no-go"
+    [ok ] T3 the caveat must travel                  docs/GRAND_COMPUTATION_LEDGER.md
+           "must ride with the headline"
+    [ok ] fence: values still not produced           docs/THE_SM_VERDICT.md
+           "no SM number is produced"
+    [ok ] fence: 4A's own non-theorem leg            docs/WHAT_WOULD_COUNT.md
+           "This leg is empirical exhaustion, not theorem"
+    [ok ] 4A is not disappointment                   docs/WHAT_WOULD_COUNT.md
+           "The re-scope is licensed by discipline, not by disappointment"
+    [ok ] T5 B1116's banked date                     docs/CAMPAIGN_STATUS.md
+           "THE BREAKTHROUGH PACKET pt.1 (2026-08-21)"
+    [ok ] T5 that packet names B1116                 docs/CAMPAIGN_STATUS.md
+           "B1116 asymptotic channel (value door not-excluded"
+
+    quotations checked: 13   missing: 0
+    -> PASS
+
+------------------------------------------------------------------------------
+ T1 / T2 -- B666's two halves, graded separately
+------------------------------------------------------------------------------
+
+    THE PROVED HALF.  Hom(G, R_+) = 0, elementary and exactly verified.
+    cellS_output.txt closes:
+      "THE RIGIDITY STEP IS VERIFIED EXACTLY ON ALL BANKED STRUCTURES"
+    and that file is, line for line, a per-group computation of |G|, [G,G],
+    G^ab, exp(G^ab) and the positive-real solutions of x^e = 1.  The
+    STABILIZATION clause is nowhere computed in it.
+
+    THE OTHER HALF.  "every output is stabilized by a finite/profinite
+    structure" is PROOF_NOTE.md's Definition 1 -- a stipulation of what
+    COUNTS as a framework output -- and the arc's own Scope says the factual
+    premise behind it is imported:
+      "the one assembly ingredient this note consumes rather than reproves"
+
+    T1 verdict: DECLARED (Definition 1) + ASSUMED (imported premise)
+    T2 verdict: the Hom vanishing ONLY
+
+    And the arc names its own falsifier:
+      "exhibit a banked output NOT stabilized by a finite/profinite structure"
+    No arc in the corpus has taken it up.
+
+------------------------------------------------------------------------------
+ CONTROL R2 -- the citation search must be shown able to FIND something
+------------------------------------------------------------------------------
+
+    Cell 4's M2 failed because a single probe could not pass.  Before
+    concluding that 4A does NOT cite B1116, the same search is run for terms
+    4A demonstrably DOES contain.
+    section 4A located: 15936 chars   (excluding this bench's own 2435-char addendum, appended by cell 10)
+      probe B1096    present in 4A: True
+      probe B936     present in 4A: True
+      probe B666     present in 4A: True
+    -> PASS (all positive probes must hit)
+
+------------------------------------------------------------------------------
+ T4 -- does section 4A cite B1116 or its channel?
+------------------------------------------------------------------------------
+    B1116          in 4A: False
+    asymptotic     in 4A: False
+    growth rate    in 4A: False
+    growth-rate    in 4A: False
+    T-ASYMPTOTIC   in 4A: False
+    -> 4A AS THE RECORD CARRIED IT DOES NOT CITE B1116 or its channel
+    after this bench's cell-10 addendum: CITES -- by our own insertion, which is the point of the addendum, and is excluded from the measurement above
+
+------------------------------------------------------------------------------
+ T5 -- the dates
+------------------------------------------------------------------------------
+
+    B1116's own FINDINGS header carries NO date, and this branch's git dates
+    are unusable (the history is squashed: B1116 and 4A both show 2026-08-25).
+    So the date is taken from the corpus's own dated packet line, asserted
+    verbatim above:
+      CAMPAIGN_STATUS.md:2815  "THE BREAKTHROUGH PACKET pt.1 (2026-08-21). ...
+      B1116 asymptotic channel (value door not-excluded ...)"
+
+    section 4A : 2026-08-20   (stated in its own heading)
+    B1116      : 2026-08-21   (CAMPAIGN_STATUS.md:2815, asserted above)
+    B1116 is ONE DAY LATER than 4A
+
+    The ordering does NOT carry the outcome, and is reported for the record
+    only: if B1116 were EARLIER, 4A's failure to cite it would be worse, not
+    better.  The outcome rests on T1, T3 and T4 alone.
+
+------------------------------------------------------------------------------
+ THE PREREGISTERED OUTCOME
+------------------------------------------------------------------------------
+    Definition 1 DECLARED/ASSUMED : True
+    B1116 scopes the no-goes      : True
+    4A cites B1116                : False
+
+    -> OUTCOME A
+    ROW 4 MUST BE RESTATED.
+
+      WAS: values -- LACKS; base rate 0 FOR EVERY OBJECT.
+      IS : values -- LACKS; 0 for every object THROUGH THE ROUTES 4A NAMES,
+           and those routes are SINGLE-LEVEL invariants.  The tower
+           growth-rate channel is reached by NO banked no-go (B1116), and 4A
+           predates that audit by one day and does not cite it.
+
+      So row 4 is CLOSED AT SINGLE LEVEL, OPEN AT THE ARCHIMEDEAN ONE.
+
+------------------------------------------------------------------------------
+ WHAT THIS DOES NOT SAY
+------------------------------------------------------------------------------
+    Values are NOT derivable on the strength of this cell.  B1116 opens a
+    CHANNEL, not a number, and THE_SM_VERDICT's own words ride along:
+      "VALUE-matching remains OPEN -- no SM number is produced."
+    4A's coupling leg is exactly what 4A calls it -- "This leg is empirical
+    exhaustion, not theorem" -- now at eight misses, the last B1128
+    INSTRUMENT-NULL.  And B666 is not wrong: its Hom-vanishing half is proved
+    and exactly verified on six groups.  Gate 5 untouched.  No value.
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    OUTCOME A   quotations verified 13/13
+    controls: ALL PASSED

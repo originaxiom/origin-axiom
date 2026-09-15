@@ -1,0 +1,79 @@
+A1 — CORPUS LOADED: 1114 arcs with a parseable verdict file.
+A2 — SETTLED ARCS (PROVED/NEGATIVE): 1031
+     declared creates_law = true : 55
+     not declared                : 976
+
+A3 — THE TWO-SIDED CONTROL (does the criterion discriminate at all?):
+     mean law-word score, DECLARED law arcs   : 2.20
+     mean law-word score, UNDECLARED arcs     : 1.00
+     ratio: 2.20x
+     => the criterion discriminates: declared-law arcs score higher,
+        so law-shaped language does track the declared flag.  Proceed.
+
+A4 — CANDIDATE UNDER-DECLARATIONS (score >= 3, the declared-law mean):
+     raw hits: 118 of 976 undeclared settled arcs (12.1%)
+     MINUS 16 declared instrument = true (process, not content —
+     B1210's pool would not want them however law-shaped the prose)
+     ==> CREDIBLE CANDIDATE SET: 102 (10.5% of undeclared settled arcs)
+     [ 7] B949    PROVED   THE IGNORANCE MAP (owner directive: read the atlas toolset and sweep for what we miss). The atlas expose...
+     [ 6] B1201   PROVED   THE LEE VERIFICATION CORRECTS B1198, AND THE CROSS-SEAT HARVEST CLOSES CLEAN. R52-3, THE READING (full v...
+     [ 6] B1204   PROVED   THE SHAPE OF A FORCING THEOREM, read off the record's own successful forcings. The owner asked whether p...
+     [ 6] B1078   PROVED   THE GAUGE-SELECTION OBSERVATION (the nature-supplies-the-gauge successor's first computation; adversaria...
+     [ 6] B962    PROVED   THE VEV PICTURE SCOUTED (control PASSED: Freudenthal 1951, Tits 1953, Rozenfeld 1954, Jacobson 1968, Spr...
+     [ 6] B879    PROVED   The cc3 selection-cochain harvest (packet sha256 e59df18a, 38 files, preserved verbatim; cc3's own recon...
+     [ 6] B1014   PROVED   THE PROOF-FORM: THE DERIVATION THEOREM CLOSED, THE ANCHOR DOCTRINE LICENSED, THE CLAIM STATED ON ONE PAG...
+     [ 6] B991    PROVED   X11 CLOSED -- THE HYPERCHARGE NORMALISATION IS NOT DERIVABLE IN PRINCIPLE, and that is a THEOREM ABOUT T...
+     [ 6] B976    PROVED   THE CASCADE RECOVERY -- eleven banked arcs the synthesis layer had forgotten. Prompted by the OWNER, who...
+     [ 5] B944    PROVED   THE DYNAMICS & CHIRALITY SWEEP (owner directive: 'we might have all of it, maybe in the other faces, chi...
+     [ 5] B994    PROVED   THE RULE-VARIATION TEST, NEVER ASKED BEFORE (B869 varied the STARTING GROUP, not the rule), RUN HERE -- ...
+     [ 5] B943    PROVED   THE O3 GATE APPLIED RETROACTIVELY -- B922's priority sentence corrected. Review 40 found the asymmetry: ...
+     [ 5] B1194   PROVED   THE EXISTENCE AUDIT (owner-directed: no 'missing' without exhausting the repo; six lenses + twelve adver...
+     [ 5] B951    PROVED   L132 SCOUTED BEFORE COMPUTING (the seal-provenance gate's design-time prior-art grep, run at literature ...
+     [ 5] B952    PROVED   THE GUT REQUIREMENTS LEDGER + THE RANK OBSTRUCTION (theorem-grade). The second missing inventory is writ...
+     [ 5] B1025   PROVED   L155, THE INPUT-DERIVABILITY AUDIT: THREE SURVIVE, TWO NARROW -- AND THE 'LIE-VALUED INPUT' DISSOLVES IN...
+     [ 5] B1036   PROVED   THE MIRROR-DOUBLE (plan Arc 2, sealed a10ae240 pre-compute): THE DOUBLE GAINS CLASSES, NOT THE SYMMETRIC...
+     [ 5] B1010   PROVED   THE CONSOLIDATION-LOSS AUDIT, FIRST PASS: THE OWNER WAS RIGHT, AND THE BIGGEST LOSS IS THE MATTER FACE. ...
+     ... and 84 more
+
+A4b — TWO DISTINCT FAILURE MODES, separated:
+     creates_law ABSENT entirely : 920 settled arcs
+     creates_law declared FALSE  : 56 settled arcs
+     declared TRUE               : 55
+     An ABSENT field is a different bug from a WRONG one: B1211 fixed a
+     mis-declaration (B1196 said false), but the bulk here was never
+     declared at all, so no one ever made the call.  A sweep that reads
+     the field treats both identically — as 'not a law'.
+     of the 102 credible candidates, 81 have the field ABSENT and 21 have it declared FALSE.
+
+A4c — THE DECISIVE EXHIBIT (one arc settles that the class is real):
+     B991  verdict=PROVED  instrument=False  creates_law=None
+     its own claim: "THE HYPERCHARGE NORMALISATION IS NOT DERIVABLE IN
+     PRINCIPLE, and that is a THEOREM ABOUT THE EQUATIONS rather than a
+     limitation of the object."
+     An explicit no-go THEOREM, PROVED, NOT an instrument — and the
+     law flag is ABSENT, so it is invisible to the paper's claim pool.
+     This is not a borderline editorial call; the arc says 'theorem'.
+
+A5 — THE KNOWN INSTANCE: B1196 creates_law = True, corrected-field present: True
+     (B1211's hand-fix; this cell asks whether it was the only one.)
+
+A6 — THE VERDICT (the preregistered fork):
+  candidates found: 102   ==> OUTCOME U-B
+  THE UNDER-DECLARATION IS NOT ISOLATED.  102 settled arcs carry
+  law-shaped language at or above the DECLARED-law arcs' own mean score
+  while not being declared.  B1210's claim pool reads the declared field,
+  so those arcs are INVISIBLE to the paper's claim base — the same way
+  B1196 was, and for the same reason.
+  CONSEQUENCE, stated at the right strength: this does NOT say all 102
+  should be reclassified.  Law-shaped language is evidence, and the call
+  is editorial.  It DOES say that the paper's claim base was assembled by
+  a sweep over a field with a KNOWN, DEMONSTRATED failure mode, and that
+  the base should be rebuilt from a re-audited field BEFORE the
+  disposition column is filled — because filling dispositions over an
+  incomplete pool bakes the omission into the paper.
+  RECOMMENDED, and cheap: run this list past the same editorial call
+  B1211 made for B1196, then regenerate B1210's ledger.
+  FENCE: repository metadata only.  This cell reclassifies nothing, and
+  law-shaped vocabulary is a HEURISTIC — it is deliberately not the
+  declared field, which is the point, but it is not a proof of law-hood
+  either.  Every hit is a candidate for a human call.  Gate 5 untouched.

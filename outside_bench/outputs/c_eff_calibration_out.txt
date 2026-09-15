@@ -1,0 +1,18 @@
+==========================================================================
+CALIBRATION -- the estimator must reproduce values known independently
+==========================================================================
+  eta^-1  (free boson, c = c_eff = 1)      : c_eff -> 0.975   [target 1]
+  Rogers-Ramanujan G (Lee-Yang M(2,5))     : c_eff -> 0.388   [target 2/5 = 0.4]
+     Lee-Yang: c = -22/5, h_min = -1/5, so c_eff = c - 24 h_min = -22/5 + 24/5 = 2/5.
+     A NON-UNITARY case where c_eff != c -- exactly the distinction GC-6's model erases.
+
+==========================================================================
+APPLIED -- the corpus's ONE banked object-side q-series
+==========================================================================
+  B672's doublet, which GC-6 rewrites exactly as  Lee-Yang character x eta^10.
+  first 400 coefficients: 197 positive, 203 NEGATIVE, 0 zero
+  -> the Cardy estimator is UNDEFINED on it (needs positive coefficients).
+  Predicted effective charge if it were formal: c_eff(LeeYang) + 10*c_eff(eta^+1)
+     = 2/5 + 10*(-1) = -48/5 = -9.6  -- NEGATIVE, i.e. no Cardy growth at all.
+  This CONFIRMS B1191/GC-12's finding ('fails the kind-map's non-negativity')
+  and puts a number on it. The banked doublet CANNOT be the boundary character.

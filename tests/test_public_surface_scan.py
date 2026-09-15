@@ -27,7 +27,9 @@ STALE_REFERENCES = [
 
 # The R38 placeholder shape, as STALE_REFERENCES names it: "reviewer-" + digits.
 # NOT a blanket "reviewer-" + anything -- that catches ordinary prose ("reviewer-facing").
-REVIEWER_PLACEHOLDER_RE = re.compile(r"reviewer-\d", re.I)
+# R38: a placeholder is an identifier (reviewer-001, reviewer-A2, reviewer-B), never a prose compound such as
+# "reviewer-facing". Pattern from the outside bench (merged 2026-09-15); the named constant from the paper-verification lane.
+REVIEWER_PLACEHOLDER_RE = re.compile(r"[Rr]eviewer-(?:\w*\d\w*|[A-Z]\b)")   # case-insensitive prefix (the lane's control "Reviewer-7"); the bare-letter branch stays a capital
 
 RAW_TRANSCRIPT_MARKERS = [
     "Claude responded:",

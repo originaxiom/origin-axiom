@@ -1,0 +1,88 @@
+
+==============================================================================
+CELL 1 -- is the sextic irreducible over Q?
+==============================================================================
+       sextic: t**6 - 15095808*t**4 + 56970854793216*t**2 - 23922095638236364800
+          irreducible over Q: True   degree 6
+       cubic (= its square, generating K): irreducible True, degree 3
+  [OK ] C3 -- the sextic's square IS the cubic, checked symbolically
+
+  CELL 1 = B  -- F6 = Q[ad(x8)|48] is a degree-6 FIELD containing K, so sqrt(u) is NOT in K and the 48 does NOT split over K along ad(x8)
+
+==============================================================================
+CELL 2 -- was the mod-p meataxe's proper submodule real, or an artifact?
+==============================================================================
+/usr/local/lib/python3.11/dist-packages/sympy/polys/polytools.py:6282: SymPyDeprecationWarning: 
+
+Ordered comparisons with modular integers are deprecated.
+
+            Use e.g. int(a) < int(b) instead of a < b.
+
+See https://docs.sympy.org/latest/explanation/active-deprecations.html#modularinteger-compare
+for details.
+
+This has been deprecated since SymPy version 1.13. It
+will be removed in a future version of SymPy.
+
+  return sorted(factors, key=key)
+       sextic mod 10007: factor degrees [2, 2, 2]
+       sextic mod 100003: factor degrees [2, 2, 2]
+  [OK ] C2 -- the primes tested are the ones the meataxe used  (10007, 100003)
+
+  CELL 2 = B  -- the sextic FACTORS mod p, so sqrt(u) exists there and the module splits mod p while nothing splits over Q: the '24' was a REDUCTION ARTIFACT
+
+==============================================================================
+CELL 3 -- which degree-6 field is F6?  (C1: two-sided)
+==============================================================================
+       sqrt(  77) lies in F6 : True
+       sqrt( -77) lies in F6 : False
+       sqrt(   3) lies in F6 : False
+       sqrt(   7) lies in F6 : False
+       sqrt(  11) lies in F6 : False
+       sqrt(  33) lies in F6 : False
+       sqrt(  21) lies in F6 : False
+       sqrt(  -3) lies in F6 : False
+       sqrt(   5) lies in F6 : False
+       sqrt(  13) lies in F6 : False
+  [OK ] C1 -- the containment test CAN say no  9 of 10 came back False
+
+  CELL 3 = B  -- sqrt 77 lies in F6 and NONE of the other nine tested quadratics do: F6 = K(sqrt 77), the GALOIS CLOSURE of K
+
+==============================================================================
+VERDICT
+==============================================================================
+  CELL 1 = B   CELL 2 = B   CELL 3 = B   controls: ALL PASS
+
+  Q(sqrt 77) BUYS OFF BOTH OBSTRUCTIONS, AND IT IS CHARGED EXACTLY ONCE.
+
+   1. THE L-OBSTRUCTION.  Over Q, L is a non-cyclic cubic field with Aut = 1: type 6D4, no
+      triality (memo 204).  Over Q(sqrt 77) the discriminant becomes a square, L becomes cyclic,
+      and the type drops to 3D4.  The obstruction from L dies there and nowhere smaller --
+      Q(sqrt 77) is the fixed field of A3 inside the S3 Galois closure.
+
+   2. THE REPRESENTATION.  ad(x8) commutes with the 28 and its minimal polynomial on the 48 is an
+      IRREDUCIBLE SEXTIC, so F6 = Q[ad(x8)|48] is a degree-6 FIELD and the 48 is an EIGHT-
+      DIMENSIONAL F6-VECTOR SPACE on which the 28 acts F6-linearly.  The 8-dimensional
+      representation -- and with it the splitting of the Allen invariant E -- lives over F6.
+
+   3. AND F6 IS THE SAME FIELD.  sqrt 77 lies in F6; none of the other nine quadratics tested do.
+      F6 = K(sqrt 77) = THE GALOIS CLOSURE OF K.
+
+  SO THE OBJECT'S TRIALITY IS DEFINED OVER THE GALOIS CLOSURE OF ITS OWN CHARGE FIELD, AND THAT
+  CLOSURE IS K(sqrt 77).  77 IS NOT ONE PRICE AMONG SEVERAL.  IT APPEARS INDEPENDENTLY IN THE
+  L-OBSTRUCTION AND IN THE E-OBSTRUCTION AND RESOLVES BOTH AT THE SAME EXTENSION.
+
+  AND A NEGATIVE RESULT OF THIS BENCH'S OWN IS CONFIRMED AS AN ARTIFACT.  A mod-p meataxe found a
+  proper submodule of Q-dimension 24 at two primes.  The certificate shows the sextic factors
+  [2,2,2] at exactly those primes, so sqrt(u) exists mod p and the module splits there while
+  nothing splits over Q.  The result was NOT read at the time; CELL 2 is why.
+
+  WHAT THIS DOES NOT DO.  It does not decide whether E is split over K ITSELF.  What is shown is
+  that E is split BY K(sqrt 77), and that the 8-dimensional representation does not appear over K
+  along ad(x8).  Settling E over K needs the algebra type of the commutant (M2(K) versus a
+  quaternion division algebra), which is the one computation that has twice been killed by
+  resource limits and is recorded as outstanding.  It does not change the headline either way.
+
+  No value, ratio or prediction; no measured quantity.  Gate 5 untouched.
+
+Gate 5 untouched.  No measured value is used or named.

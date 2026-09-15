@@ -1,8 +1,16 @@
 """C2 -- cc3 B8082: the geodir dimension count. e6 under the principal sl2 is (+)_e Sym^{2e} over the E6 exponents e in {1,4,5,7,8,11}; with rho_0 the
 geometric representation of m004, h^1(m004; e6) = sum_e h^1(m004; Sym^{2e} rho). Main's own engine (B1297 d2lib, exact over Q(zeta_12)), the lift (-A, B)
 of step3_controls. Targets (B8082 results.json): each exponent contributes h^1 = 1 (h^0 = 0); the non-exponents 2, 3, 6 also give 1; total 6."""
+import os as _os
+# repo root, derived -- walk up from this file to the checkout that holds frontier/.
+# (A literal "<repo>/..." string here is a dead path: the placeholder is a documentation
+#  form, not something Python can open.  This resolver is the executable equivalent.)
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import sys, json, time
-sys.path.insert(0, "<repo>/frontier/B1297_the_spectral_cover_index/verification")
+sys.path.insert(0, _R("frontier/B1297_the_spectral_cover_index/verification"))
 import d2lib as L
 from d2lib import K, OMEGA
 REL = L.word_from_snappy("aaabABBAb"); base = L.Presentation(["a", "b"], [REL])

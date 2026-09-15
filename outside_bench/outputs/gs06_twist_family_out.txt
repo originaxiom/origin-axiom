@@ -1,0 +1,43 @@
+==============================================================================
+C1  p = +2 against Park's PRINTED Chat_{5_2}
+==============================================================================
+   a_2(Q,0) = -Q**3*q**7 + Q**2*q**6
+   a_2(Q,1) = Q**3*q**7 - Q**2*q**5 + Q*q**4 + Q*q**3
+   identical to Park's printed operator : True
+
+==============================================================================
+C2 / C3  the two knots Park prints a_m for in closed form
+==============================================================================
+   p=+1 (3_1^l) : [1, -q**2, q**5, -q**9, q**14]
+   Park prints  : (-1)^m q^{m(m+3)/2}  -> True
+   p=-1 (4_1)   : [1, 1, 1, 1, 1]   Park prints a_m = 1  -> True
+
+==============================================================================
+C4  the recursion must ANNIHILATE this bench's own Habiro coefficients
+==============================================================================
+   6_1   p = -2   relation holds at l = 0..10  (11 checks) : ALL PASS
+   4_1   p = -1   relation holds at l = 0..11  (12 checks) : ALL PASS
+   3_1   p = 1    relation holds at l = 0..11  (12 checks) : ALL PASS
+   5_2   p = 2    relation holds at l = 0..6  (7 checks) : ALL PASS
+   9_2   p = 4    relation holds at l = 0..8  (9 checks) : ALL PASS
+
+==============================================================================
+CONTROLS
+==============================================================================
+   C1  GS06 p=+2 == Park's printed Chat_{5_2}                     PASSED
+   C2  p=+1 gives Park's a_m(3_1) = (-1)^m q^{m(m+3)/2}           PASSED
+   C3  p=-1 gives Park's a_m(4_1) = 1                             PASSED
+   C4  GS06's recursion annihilates our own a_m for all five knots PASSED
+
+WHAT THIS UNLOCKS.  Memo 190 broke the f_6 blocker for m(5_2) using the single quantum
+C-polynomial Park prints.  GS06 gives that operator in closed form for EVERY twist knot,
+and it is now implemented and controlled -- three times against values Park prints, and
+once, at five knots, against Habiro coefficients this bench computed for itself from two
+independent sources (the Garoufalidis-Sun colored Jones tables, and our own R-matrix state
+sum).  The route of memo 190 therefore runs on the whole family, not on one knot.
+
+WHAT IS NOT CLAIMED.  Running it still needs, per knot, the boundary ansatz that fixes
+a_{-1} -- Park solves that with a continued fraction for 5_2 and says "the same type of
+ansatz seems to work for all twist knots", which is his expectation and is NOT tested here.
+And Conjecture 2 remains a conjecture (memo 190 section 6).  What is established here is
+the OPERATOR for every p, not the blocks for every p.

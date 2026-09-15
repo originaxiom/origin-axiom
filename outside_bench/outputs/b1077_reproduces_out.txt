@@ -1,0 +1,63 @@
+
+==============================================================================
+CELL 1 -- does B1077's diagonalization reproduce?
+==============================================================================
+       N(x) = x0*x7 - x1*x4 - x2*x5 - x3*x6
+       Gram built by differentiation (C1): symmetric True, rank 8, det 1/256
+       B1077's stated G entries: G[0,7]=1/2, G[i,i+3]=-1/2 for i=1,2,3
+  [OK ] C1 -- the differentiated Gram matches B1077's stated entries
+  [OK ] C3 -- signature routine on identity 4x4  (4, 0, 0)
+  [OK ] C3 -- signature routine on diag(1,-1,1,-1)  (2, 2, 0)
+
+       signature (exact congruence): (4, 4, 0)
+       B1077 claims diagonal (+1,+1,+1,+1,-1,-1,-1,-1), i.e. (4,4,0)
+  CELL 1 = B
+
+==============================================================================
+CELL 2 -- trivial signed discriminant, split centre, split cubic?
+==============================================================================
+       signed discriminant (-1)^4 * det G = 1/256   a square in Q*: True
+  [OK ] C2 -- Witt index 4 EXHIBITED: span(e0,e1,e2,e3) is totally isotropic
+
+       => the form is HYPERBOLIC; Z(C0) = Q[sqrt(trivial)] = Q x Q; the attached cubic
+          is the SPLIT cubic Q x Q x Q.  B1077 REPRODUCES.
+  CELL 2 = B
+
+==============================================================================
+CELL 3 -- is memo 204 in conflict with B1077?
+==============================================================================
+       B1077's object : the BARE split-octonion norm form, on the 8-dimensional octonion
+                        space.  Hyperbolic, split centre, split cubic.
+       memo 204's     : the cubic indexing THE THREE 16s INSIDE THE OBJECT'S e6, from the
+                        object's FORCED charges.  A different object.
+
+       AND B1077 PREDICTED MEMO 204'S FINDING, in its own words:
+          "the 77 is NOT in the bare algebra; any echo mechanism must come from the
+           measurement-dressing."
+
+  CELL 3 = B
+
+==============================================================================
+VERDICT
+==============================================================================
+  CELL 1 = B   CELL 2 = B   CELL 3 = B   controls: ALL PASS
+
+  B1077 REPRODUCES, AND THE FLAGGED CONFLICT IS NOT A CONFLICT.
+
+  Memo 204 section 6 declined to adjudicate and said the matter was "to be settled by REPRODUCING
+  B1077's, not by preferring the newer one".  Reproduced: the norm form is hyperbolic with
+  signature (4,4), signed discriminant trivial, Witt index 4 exhibited explicitly.  Z(C0) = Q x Q
+  and the attached cubic is split.  Every part of B1077's claim holds.
+
+  THE TWO RESULTS ARE ABOUT DIFFERENT OBJECTS, and B1077 said in advance where the 77 would have to
+  come from.  MEMO 204 IS B1077'S COMPLETION, NOT ITS CONTRADICTION.  The conflict is resolved IN
+  B1077'S FAVOUR.
+
+  AND THE PROCEDURE IS THE POINT.  B1077's own artifact records EXHAUSTIVE associativity on all
+  2,097,152 even-blade triples and the centre checked on all 16,384 ordered even-blade pairs rather
+  than by a generating-set shortcut.  Had this bench adjudicated by assertion -- preferring its own
+  newer computation -- it would have been WRONG ABOUT A CAREFUL ARC.  Flagging rather than deciding
+  was the load-bearing choice, not the cautious one.
+
+  Gate 5 untouched.  No measured value is used or named.
+

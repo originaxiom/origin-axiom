@@ -1,0 +1,46 @@
+K1: THE FLIP IS COMPLEX CONJUGATION — gal(omega) = conj(omega) = 1 - omega,
+    and the pair map is additive AND multiplicative (batch-verified exactly).
+    CONSEQUENCE: every complex length 2 arccosh(tr/2) is conjugated, so
+    REAL LENGTHS ARE FIXED and TORSIONS ARE NEGATED — every class at once,
+    no exceptions, no per-class freedom.  Memo 81's law from one field fact.
+
+K2 (the reach audit, all 13120 reduced words to length 8):
+    MIRROR-FIXED (real trace, torsion-free): 604  (4.60%)
+    MIRROR-FLIPPED (torsion-carrying):       12516  (95.40%)
+    sample fixed classes: ['a', 'b', 'A', 'B', 'aa', 'bb']
+    => the orientation-sensitive part of the record is the overwhelming
+    majority of classes, and ONE bit governs all of them simultaneously.
+
+K3 (datum vs invariant): kappa = 1 + omega FLIPS as a coordinate, but its
+    minimal polynomial X^2 - 3X + 3 is FIXED; the systole trace 2 - omega
+    flips, while its geodesic LENGTH (the real part) does not.  The record's
+    INVARIANT content is mirror-blind; only its coordinates carry the sign.
+
+K4 (THE SM LEDGER): all 14 banked SM-facing magnitudes verified
+    RATIONAL, and the E6 Gram with its 72 roots rebuilt INTEGRAL — rational
+    and integral data is fixed POINTWISE by any Galois flip.  The entire
+    content/magnitude layer lies in THE MIRROR'S KERNEL.
+
+THE ANSWER TO THE OWNER'S SM QUESTION, as the audit supports it:
+THE INDEPENDENCE THEOREM CHANGES NOTHING ON THE SM'S CONTENT AND
+EVERYTHING ABOUT ONE SIGN.  Precisely —
+  * KERNEL (untouched, provably): every banked magnitude — the 27's
+    content, the charge/root integrality, the hierarchy arithmetic
+    (2304, 953), the sum rule, sin^2 theta_W, the ladder counts, the
+    boundary data.  These are rational/integral: no Galois flip can
+    move them, so memo 109's undecidable bit has ZERO reach here.
+    The emergence story's WHAT is entirely in the kernel.
+  * ODD PART (exactly one bit, total reach): the orientation column —
+    the sign of every torsion, and through the banked chain (memo 83,
+    W3) the CP sign and the record's chirality label.  Memo 109 says
+    WHICH setting is actual is undecidable in-record; K1 says the
+    setting is ONE choice for all classes at once, never a per-class
+    freedom.
+  * THE PHYSICAL SHAPE OF THAT (the honest form): the record does not
+    and now PROVABLY CANNOT tell you which handedness is realized —
+    but it forces that the choice is SINGLE and its consequences are
+    LOCKED TOGETHER.  It predicts a CORRELATION, not a sign.  That is
+    a falsifiable shape (find two of these signs independently
+    settable and the record is refuted), and it is exactly what a
+    theory whose object is amphichiral SHOULD say.
+Gate 5 untouched.

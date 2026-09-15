@@ -3,6 +3,13 @@ results to _exact_cache.pkl so the mod-p linear-algebra logic (the expensive,
 iterative part of b1_f4.py) can be developed/re-run without repaying the
 ~110s exact e6-build cost each time. Not one of the deliverables; the final
 b1_f4.py re-derives everything from scratch per the task's SETUP clause."""
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import os, sys, time, json, pickle
 from fractions import Fraction as Fr
 
@@ -12,7 +19,7 @@ def log(msg):
     print(f"[{time.time()-T0:7.1f}s] {msg}", flush=True)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-B575 = "<repo>/frontier/B575_bridge_obstruction/l51_obstruction.py"
+B575 = _R("frontier/B575_bridge_obstruction/l51_obstruction.py")
 W0A_JSON = "<seat-workdir>/invariant_line/w0a_singlet/w0a_v0.json"
 A1_JSON = "<seat-workdir>/anatomy/loop1/a1_jordan/a1_results.json"
 d = 27

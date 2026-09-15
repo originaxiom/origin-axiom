@@ -1,0 +1,22 @@
+LEMMAS G1/G2: exact in Z[zeta_{p^2}] for p in {3,5,7}, all unit coefficients
+EXACT SWEEP p=3: all 81 points match the classifier in Z[zeta]; counts exact
+EXACT SWEEP p=5: all 625 points match the classifier in Z[zeta]; counts exact
+FLOAT SWEEP p=7: all 2401 points match; counts exact
+FLOAT SWEEP p=11: all 14641 points match; counts exact
+FLOAT SWEEP p=13: all 28561 points match; counts exact
+COUNTS: the four formulas are polynomial identities summing to p^4
+RECURSION p=11: 9 of 10 prime-dark classes wholesale dark;
+   the j=2 class recapitulates the {dark, sqrt p, survivor} split — as derived
+
+THE RECURSIVE DARK LAW IS PROVED.  The named open step of B566-S1
+("degenerate Gauss sums at p^2") is paid: three elementary lemmas + the
+double complete-the-square give the classifier
+  v(l)>=1 -> ACTIVE(1);  v(l)=0: v(alpha)=0 -> ACTIVE(1);
+  v(alpha)=1 -> DARK unless p|beta -> sqrt p;
+  v(alpha)=2 -> DARK unless beta=0 -> SURVIVOR(p),
+whose counts are polynomial identities matching the banked table, whose
+spectrum is exactly {0, 1, sqrt p, p}, and whose wholesale/recapitulation
+recursion is a two-line corollary.  Verified exactly in Z[zeta_{p^2}] at
+p = 3, 5 (every point) and at p = 7, 11, 13 (every point, float), lemmas
+exact at 3, 5, 7.  The owner's H123 (2026-07-14) moves from BURIED LIVE
+LAW to PROVED.  The exponent-echo hook stays a hook.  Gate 5 untouched.

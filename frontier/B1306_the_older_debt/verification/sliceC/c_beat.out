@@ -1,0 +1,3 @@
+W conj(W) = Matrix([[1, 1], [0, 1]])
+q + conj(q) = 1 ; |q| = 1
+C10: PASS

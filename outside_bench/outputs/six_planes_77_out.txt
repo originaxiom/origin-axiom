@@ -1,0 +1,157 @@
+
+==============================================================================
+C3 -- the squarefree extractor, validated against B888's three banked discriminants
+==============================================================================
+  [OK ] C3 -- vacuum-weight cubic (F1's b-cubic) -> 77  squarefree part = 77
+  [OK ] C3 -- generic-weight cubic (F2's) -> 77  squarefree part = 77
+  [OK ] C3 -- mu, the charge field K -> 77  squarefree part = 77
+
+==============================================================================
+the object's four superselection charges, exact on the 27
+==============================================================================
+       rho(x8), rho(x14), rho(x16), rho(x22) built exactly   [66.2s]
+       E6 exponents (1,4,5,7,8,11); these four sit at degrees 2*(4,7,8,11)
+
+==============================================================================
+C2 -- every pair must COMMUTE exactly, or the pencil is not defined there
+==============================================================================
+       [x8, x14]  (exponents 4,7)  commute: True
+       [x8, x16]  (exponents 4,8)  commute: True
+       [x8, x22]  (exponents 4,11)  commute: True
+       [x14, x16]  (exponents 7,8)  commute: True
+       [x14, x22]  (exponents 7,11)  commute: True
+       [x16, x22]  (exponents 8,11)  commute: True
+  [OK ] C2 -- all six pairs commute exactly  6 of 6
+
+==============================================================================
+THE SWEEP -- the pencil built at EVERY plane, exactly, and its branch locus read
+==============================================================================
+       plane (x8,x14)  exps (4,7)   shape (deg_x,mult) [(3, 1), (6, 1), (6, 3)]   branch deg [6]   resolvent [-231, -3]   [28.2s]
+       plane (x8,x16)  exps (4,8)   shape (deg_x,mult) [(3, 1), (3, 8)]   branch deg [3]   resolvent [77]   [28.3s]
+       plane (x8,x22)  exps (4,11)   shape (deg_x,mult) [(3, 1), (6, 1), (6, 3)]   branch deg [6]   resolvent [-231, -3]   [28.4s]
+       plane (x14,x16)  exps (7,8)   shape (deg_x,mult) [(3, 1), (6, 1), (6, 3)]   branch deg [6]   resolvent [-231, -3]   [28.0s]
+       plane (x14,x22)  exps (7,11)   shape (deg_x,mult) [(1, 3), (6, 1), (6, 3)]   branch deg [3]   resolvent [77]   [13.5s]
+       plane (x16,x22)  exps (8,11)   shape (deg_x,mult) [(3, 1), (6, 1), (6, 3)]   branch deg [6]   resolvent [-231, -3]   [28.2s]
+
+==============================================================================
+C1 -- B886 must REPRODUCE at its own plane
+==============================================================================
+  [OK ] C1 -- shape at (x8,x16) is F1^1 * F2^8, both cubic in x  [(3, 1), (3, 8)]
+  [OK ] C1 -- the branch locus there is a CUBIC  [3]
+  [OK ] C1 -- its resolvent is 77  [77]
+  [OK ] C1 -- and the branch cubic IS B886's banked mu, coefficient for coefficient
+
+==============================================================================
+CELL 3 -- is the factorization SHAPE special to the measured plane?
+==============================================================================
+       exps (4, 7)   shape [(3, 1), (6, 1), (6, 3)]
+       exps (4, 8)   shape [(3, 1), (3, 8)]  <-- ALL CUBIC (B886's shape)
+       exps (4, 11)   shape [(3, 1), (6, 1), (6, 3)]
+       exps (7, 8)   shape [(3, 1), (6, 1), (6, 3)]
+       exps (7, 11)   shape [(1, 3), (6, 1), (6, 3)]  <-- carries a LINEAR factor: a joint weight RATIONAL over Q
+       exps (8, 11)   shape [(3, 1), (6, 1), (6, 3)]
+
+  distinct shapes across the six planes: 3
+  CELL 3 = B  -- the measured plane is NOT one of six equivalent choices
+
+==============================================================================
+CELL 1 & CELL 2 -- the resolvent at every plane, against B888's echo
+==============================================================================
+       exps     unmeasured   product  resolvent sf     echo holds
+       (4, 7)   (8, 11)      88       [-231, -3]       False
+       (4, 8)   (7, 11)      77       [77]             True
+       (4, 11)  (7, 8)       56       [-231, -3]       False
+       (7, 8)   (4, 11)      44       [-231, -3]       False
+       (7, 11)  (4, 8)       32       [77]             False
+       (8, 11)  (4, 7)       28       [-231, -3]       False
+
+  CELL 1 = B  -- the resolvent VARIES with the plane
+  CELL 2 = B  -- B888's echo holds at 1 of 6 planes
+
+==============================================================================
+WHAT THE VARIATION IS -- the resolvents close into a Klein four-group
+==============================================================================
+       squarefree parts seen across all six planes: [-231, -3, 77]
+       pairwise squarefree products: [-231, -3, 77]
+       -231 = -3 * 77 : True
+  [OK ] the three resolvents are closed under squarefree product -- a V4
+       so the resolvent data of the whole charge system is the Klein four-group
+       { Q(sqrt-3), Q(sqrt77), Q(sqrt-231) } -- and Q(sqrt-3) is the BEING face.
+
+==============================================================================
+THE PARTITION -- which planes give which
+==============================================================================
+       resolvent 77 exactly at: [(4, 8), (7, 11)]
+       resolvent [-231,-3] at : [(4, 7), (4, 11), (7, 8), (8, 11)]
+       -> the four charges split into TWO BLOCKS, {4,8} and {7,11}: a pencil WITHIN a
+          block gives 77; every pencil ACROSS the blocks gives {-3, -231}.
+          The partition is COMPUTED from the object; nothing selected it.
+
+==============================================================================
+THE FIELD TEST -- do the UNMEASURED plane's branch cubics generate K itself?
+==============================================================================
+       distinct cubic FIELDS of resolvent Q(sqrt77) in |a|<=6, |b|,|c|<=30: 3
+         L**3 - 6*L**2 - 14*L + 18          disc {2: 2, 7: 1, 11: 1, 13: 2}   == K: False
+         L**3 - 6*L**2 - 8*L + 2            disc {2: 2, 5: 2, 7: 1, 11: 1}   == K: False
+         L**3 - 6*L**2 + 11                 disc {3: 4, 7: 1, 11: 1}   == K: True
+  [OK ] C5 -- POSITIVE control: mu itself is found isomorphic to K
+  [OK ] C5 -- BITE control: at least one unrelated resolvent-77 cubic is found NOT K
+       C6 -- BASE RATE, stated with the claim: 1 of 3 distinct resolvent-77
+            cubic fields in that window IS K.  K has the SMALLEST discriminant of them
+            (6237 = 3^4*7*11), so conditional on resolvent 77 this landing is not rare.
+
+       (7,11) branch cubic  2771822592000*L**3 + 3033676800*L**2 - 56402640*L - 6859
+         resolvent sf = 77   disc = {2: 28, 3: 10, 5: 6, 7: 3, 11: 1, 19: 12}
+         shares a root with mu over Q: False
+         GENERATES K: True
+
+       (7,11) branch cubic  1686085632000*L**3 - 94043980800*L**2 - 34309440*L + 212629
+         resolvent sf = 77   disc = {2: 32, 3: 12, 5: 6, 7: 1, 11: 3, 19: 12}
+         shares a root with mu over Q: False
+         GENERATES K: True
+
+==============================================================================
+VERDICT
+==============================================================================
+  CELL 1 = B   CELL 2 = B   CELL 3 = B   controls: ALL PASS
+
+  THE MEASURED PLANE IS NOT A CHOICE.  THE OBJECT PARTITIONS ITS OWN FOUR CHARGES.
+
+  1. SHAPE (CELL 3 = B).  Four of the six planes share one generic factorization,
+     (3,1)+(6,1)+(6,3).  The (4,8) plane -- the one the entire 77 story is built on -- is the
+     ONLY one whose pencil factors into CUBICS ALONE.  The (7,11) plane is the only one carrying
+     a LINEAR factor, a joint weight rational over Q.  The two exceptional planes are exactly
+     the two B888 named, and they are exceptional in OPPOSITE directions.
+
+  2. RESOLVENT (CELL 1 = B).  The resolvent is NOT plane-invariant, and the way it varies is the
+     finding: 77 at exactly the two planes {4,8} and {7,11}, and {-3, -231} at all four
+     planes that MIX the two blocks.  -231 = -3 * 77, so the three squarefree parts are CLOSED
+     UNDER PRODUCT: the charge system's resolvent data is a KLEIN FOUR-GROUP
+     { Q(sqrt-3), Q(sqrt77), Q(sqrt-231) } -- and Q(sqrt-3) is the BEING FACE.
+
+  3. B888'S ECHO IS A COINCIDENCE OF ONE PLANE (CELL 2 = B).  "The resolvent remembers the
+     complementary exponent pair" holds at (4,8) -> 7*11 = 77 and FAILS at the other five,
+     including at (7,11), whose complement product is 4*8 = 32 and whose resolvent is 77 again.
+     The echo is withdrawn as a mechanism; what replaces it is stronger and is item 2.
+
+  4. AND THE UNMEASURED PLANE PRODUCES K ITSELF.  The (7,11) pencil -- built from the two charges
+     the measured construction never used -- has branch cubics that are NOT mu (no shared root
+     over Q, different discriminants: 19^12 where mu has 13^12) and that nevertheless GENERATE A
+     FIELD ISOMORPHIC TO K.  Positive and bite controls both fire, so the test can say no.
+
+  WHY THIS MOVES THE DOOR.  B1077's blocker was that the only twist-source is the measured pencil
+  triple, so any 77 it produces is CIRCULAR -- the pencil's branch locus is mu by construction.
+  That argument requires the measured plane to be a free choice.  IT IS NOT: the object's own
+  factorization singles out {4,8} (all-cubic) and {7,11} (rational weight) from the four mixed
+  planes, and BOTH of the distinguished planes carry K.  A datum reached from two disjoint pairs
+  of charges, with the four mixed pencils demonstrably giving different arithmetic, is not an
+  artifact of which pair was picked.
+
+  WHAT THIS DOES NOT DO.  It does not prove B882's conjecture: the remaining half is the 3D4
+  twisting classification, a literature proposition this bench does not close.  It does not
+  produce a value, a ratio or a prediction, and no measured quantity enters.  It does not claim
+  the landing on K is improbable in isolation -- the base rate above is printed precisely so it
+  cannot be read that way; the strength is in the PARTITION, not in one field coincidence.
+  And it does not decide the other two section-4A.3 doors.
+
+Gate 5 untouched.  No measured value is used or named.

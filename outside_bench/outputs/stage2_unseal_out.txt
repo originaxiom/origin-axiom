@@ -1,0 +1,45 @@
+trM minpoly (derived from e1 by x -> 3-2t): [-2048, 6144, -2952, 375]
+INTEGRITY 1: all nine vendored branch decimals annihilate their minpolys.
+INTEGRITY 2: Tr(m_S) + Tr(t_oct) = 151/64 + 553/64 = 11 EXACT (sum rule).
+INTEGRITY 3: t_oct = 2 m_A + 2 trM branch-wise, and the derived branches
+   ['0.958673', '1.141881', '6.540071'] annihilate t_oct's own minpoly.
+
+MEASURED (external, quarantined): CKM sines [0.225, 0.04182, 0.00369];
+   PMNS sines ['0.55045', '0.75631', '0.14843'] (from sin^2 [0.303, 0.572, 0.02203])
+
+PRIMARY READINGS (T1 shape / T2 factor-2 on ratio pair):
+   m_S  x CKM : pattern DESC   vs DESC   -> T1 PASS;  ratio-offs (x4.99, x9.86) -> T2 MISS  [= B929, adjudicated by citation: HIT-SHAPE, T2 MISS, direct ID DEAD]
+   m_A  x CKM : pattern V      vs DESC   -> T1 MISS;  ratio-offs (x4.87, x40.36) -> T2 MISS
+   trM  x CKM : pattern ASC    vs DESC   -> T1 MISS;  ratio-offs (x8.19, x81.84) -> T2 MISS
+   m_S  x PMNS: pattern DESC   vs LAMBDA -> T1 MISS;  ratio-offs (x1.48, x4.43) -> T2 MISS
+   m_A  x PMNS: pattern V      vs LAMBDA -> T1 MISS;  ratio-offs (x1.52, x18.15) -> T2 MISS
+   trM  x PMNS: pattern ASC    vs LAMBDA -> T1 MISS;  ratio-offs (x1.11, x36.80) -> T2 MISS
+   sheet cascade indices: m_S 1.838 (B929: 1.838); CKM 1.443
+
+SECONDARY SCAN (324 pairs; log-uniform null over [1.362e-05, 3.88]):
+   5% window: 11 coincidences vs 2.6 expected by chance
+   1% window: 2 coincidences vs 0.5 expected by chance
+      m_S.1-m.b3 = 0.30364  vs  PMNS.sin2.1 = 0.30300   (0.21%)
+      trM.1-2m.b1 = 0.55581  vs  PMNS.sin.1 = 0.55045   (0.97%)
+   (listed 1%-window items are CHANCE-GRADE by the sealed rule — the count
+    sits at the null expectation; nothing here is promotable.)
+
+VERDICT (per the sealed rules): ALL SIX primary readings MISS Tier 2,
+and the five NEW Tier-1 cells all MISS on shape class (m_A is V-shaped,
+trM ascending, vs CKM's descending cascade and PMNS's LAMBDA — only
+B929's already-adjudicated m_S x CKM cell has the matching shape class,
+and its direct identification is already DEAD at Tier 2).
+THE FULL-SHEET CLOSURE BANKS: the blind B928 shape sheet does NOT read
+measured mixing directly — not m_S (B929), not m_A, not trM, not
+against CKM, not against PMNS, and the derived-value scan sits at its
+chance expectation.  B929's conclusion extends to the whole sheet: IF
+the twist speaks to measured mixing, it is through a nontrivial map
+that no banked structure currently supplies.  The value layer's real
+contact points remain the STRUCTURAL facts (the forced equalities, the
+sum rule 11, the norm laws, the mirror-even hierarchy carrier of memo
+92) — not the raw branch values.  Per the sealed rule and the owner's
+directive: this is NOT a thesis-failure signal — no banked theorem
+ever forced these values onto measured mixing; the priced map stays
+priced, now with its direct-reading option eliminated exhaustively.
+Quarantine: measured values die with this cell; no derivation reads
+this output.  Gate 5 discipline outside this cell: untouched.

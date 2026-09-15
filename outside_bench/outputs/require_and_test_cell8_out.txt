@@ -1,0 +1,154 @@
+==============================================================================
+ CELL 8 -- THE LATENT WITNESS
+==============================================================================
+
+    seal  outside_bench/seals/REQUIRE_AND_TEST_CELL8_PREREG.md
+    sha256 b6e82d601ff44521ddc6a893d8bb53378845f8b6c5a827996acf62e004d94d4c
+
+------------------------------------------------------------------------------
+ THE FENCE, QUOTED BEFORE ANYTHING IS SCORED
+------------------------------------------------------------------------------
+
+    B1321's "none of which keeps the golden face" means the GOLDEN Q(sqrt5)
+    Alexander face t^2 - 3t + 1, NOT the Q(sqrt-3) atom.  B1302 section 3:
+      "'leave the knot, keep the field' keeps Q(sqrt-3) and 2T only."
+    The two faces are different and the distinction decides this cell.  It is
+    quoted here and NOT inferred.
+
+------------------------------------------------------------------------------
+ CONTROL Q3 -- the three artifacts load, and their sizes are asserted
+------------------------------------------------------------------------------
+    frontier/B1186_family_is_112/verification/family_census.json
+      census_size 212641   members_B 112   A_all_regular 77
+    frontier/B1235_two_seat_harvest/verification/chirality_112.json
+      chirality rows 112
+    frontier/B1321_l205_the_siblings_localized_count/verification/b1321_class_search.json
+      three-line members 6: ['m202', 's959', 'v3461', 'v3551', 'o9_40999', 'o9_43931']
+    -> PASS (expect 112 / 112 / 6)
+
+------------------------------------------------------------------------------
+ THE ASSEMBLY -- what the committed record already implies
+------------------------------------------------------------------------------
+    name         P_atom  P_chir  P_3     (from the three artifacts)
+    m202         True    True    True     <-- all three
+    s959         True    True    True     <-- all three
+    v3461        False   ABSENT  True  
+    v3551        True    True    True     <-- all three
+    o9_40999     True    True    True     <-- all three
+    o9_43931     False   ABSENT  True  
+
+    P_chir AND P_atom AND P_3, from the record alone: ['m202', 's959', 'v3551', 'o9_40999']
+    plus B1292's banked 96 surjections for m202 => m202 scores 4 of 4
+    total chiral among the 112 (P_chir AND P_atom): 74
+
+------------------------------------------------------------------------------
+ THE VERIFICATION -- one code path, this cell's own
+------------------------------------------------------------------------------
+    name         chir   atom   2T raw  2T/24  P_3    cusps  |Sym|  det multiset
+    m004         False  True        48      2 False       1      8 {0: 2, 4: 2}
+    m412         True   True         0      0 False       2      8 {0: 4, 4: 4}
+    m202         True   True        96      4 True        2     12 {0: 2, 1: 4, 3: 4, 4: 2}
+    s959         True   True       576     24 True        2     12 {0: 2, 1: 4, 3: 4, 4: 2}
+    v3461        True   False      288     12 True        2     12 {0: 2, 1: 4, 3: 4, 4: 2}
+    v3551        True   True         0      0 True        2     12 {0: 2, 1: 4, 3: 4, 4: 2}
+    o9_40999     True   True         0      0 True        2     12 {0: 2, 1: 4, 3: 4, 4: 2}
+    o9_43931     True   False      288     12 True        2     12 {0: 2, 1: 4, 3: 4, 4: 2}
+
+------------------------------------------------------------------------------
+ CONTROL Q1 -- m004 and m412 must re-score exactly as Phase 1 banked them
+------------------------------------------------------------------------------
+    m004   ok   chir/atom/2T/det = [1, 1, 1, 1]
+    m412   ok   chir/atom/2T/det = [1, 1, 1, 1]
+    -> PASS
+
+------------------------------------------------------------------------------
+ CONTROL Q2 -- m202's 2T count must reproduce B1292's 96
+------------------------------------------------------------------------------
+    m202 here 96   B1292 96     m004 here 48   B1292 48
+    -> PASS
+
+------------------------------------------------------------------------------
+ THE PREREGISTERED OUTCOME -- does the verification confirm the assembly?
+------------------------------------------------------------------------------
+    disagreements between record and this cell's computation: 0
+
+    -> OUTCOME A
+
+    name         P_chir  P_atom  P_2T    P_3      score
+    m004         False   True    True    False    2 of 4
+    m412         True    True    False   False    2 of 4
+    m202         True    True    True    True     4 of 4
+    s959         True    True    True    True     4 of 4
+    v3461        True    False   True    True     3 of 4
+    v3551        True    True    False   True     3 of 4
+    o9_40999     True    True    False   True     3 of 4
+    o9_43931     True    False   True    True     3 of 4
+
+    CONFIRMED.  The committed record already contained a four-predicate
+    witness and no arc said so.  B1292 came closest -- "a witness meeting
+    every clause" -- but chirality was not among its clauses and it predates
+    B1235's chirality correction.
+
+------------------------------------------------------------------------------
+ THE PRICING -- what adopting m202 would cost (score and price, DO NOT ADOPT)
+------------------------------------------------------------------------------
+
+    m004   cusps 1   H1 Z   |Sym| 8
+    m202   cusps 2   H1 Z + Z   |Sym| 12
+
+    THE SORE POINT, stated in the seal before this ran:
+      The genesis chain C1-C5 DERIVES m004 -- two records, one cusp, H1 = Z
+      (B1323's dictionary: the a.B bundle on S_1,1 IS m004).  m202 has TWO
+      cusps and H1 = Z + Z.  So m202 cannot be DERIVED by the existing
+      genesis; it can only be SELECTED.  Adopting it trades a derived object
+      for a chosen one -- which is the very thing the programme's C16 refuses
+      ("the object provides the group, never the choice").
+
+    WHAT SURVIVES on m202, from this cell's own numbers:
+      the atom Q(sqrt-3)     -- yes (B1186 census-certified)
+      the 2T door            -- yes, and MORE of it: 96 surjections vs m004's 48
+      the localized count 3  -- yes, on BOTH cusps (B1321)
+      chirality              -- yes (B1235), which m004 provably cannot have
+
+    WHAT BREAKS:
+      C1-C5, the genesis derivation -- m202 is not the a.B bundle
+      knot-ness (H1 = Z)            -- gone; Reid's uniqueness of the
+                                       arithmetic KNOT does not apply
+      one-cusped instruments        -- the D2 index frame, the
+                                       knot-complement dictionary
+      the golden Q(sqrt5) face      -- B1302/B1321: absent on the whole class
+
+    FENCES CARRIED, the arcs' own words:
+      B1292: m202's commensurability is "argued, not certified" (the invariant
+        trace field needs Sage) -- though B1186's census certifies the SHAPE
+        field exactly, which is stronger than B1292 knew.
+      B1292: "'Keeps E6' is inferred from 2T via the McKay door, not
+        recomputed here."  Phase 1 Cell 2 measured that door at 33.92% of the
+        census, so the inference is weaker than it reads.
+      B1292: "nothing here claims m202 is the object -- m004 is the object by
+        the programme's own axioms and its genesis theorem."
+      I-26 remains UNEARNED.
+
+------------------------------------------------------------------------------
+ TWO LIVE INCONSISTENCIES -- recorded, not silently resolved
+------------------------------------------------------------------------------
+    1. m202's isometry count.  B1321: "6 isometries, none swaps the cusps".
+       B1302/B1292: order 12, 6 swapping (B1302 s0 Q3 blames isomorphisms_to
+       vs symmetry_group).  THIS CELL COMPUTED |Sym| = 12
+       via symmetry_group(), and 4 distinct
+       |det(A-I)| values; both numbers are printed above and neither is
+       adjudicated here.
+    2. A seat's "7 of 72 tetrahedral manifolds to 12 tetrahedra" against
+       B1321's six to NINE tetrahedra.  The 10-12 tetrahedra band is ABSENT
+       from the record.  Named as a gap; not filled here.
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    OUTCOME A   assembled ['m202', 's959', 'v3551', 'o9_40999']
+    controls: ALL PASSED
+
+    NOT CONCLUDED: that m202 should replace m004 -- that is the owner's call.
+    That m202 supplies physics: nothing here touches the SM, and I-26 stays
+    UNEARNED.  That "keeps E6" follows from the 2T door.  That the four
+    predicates are the right four.  No value.

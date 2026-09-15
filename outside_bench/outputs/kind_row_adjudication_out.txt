@@ -1,0 +1,67 @@
+K1 — THE TWO BANKED MAGNITUDE SETS (B1011 C5 / C6):
+    tones  (5): 0, -1/4 + sqrt(5)/4, 1/2, 1/4 + sqrt(5)/4, 1
+    mirror (8): 0, -1/8 + sqrt(5)/8, 1/4, -1/4 + sqrt(5)/4, 1/8 + sqrt(5)/8, 1/2, 1/4 + sqrt(5)/4, 1
+
+K2 — THE 2T FACTOR, from its 2-dimensional character:
+    chi_{V2(2T)} class values : ['2', '-2', '0', '1', '-1', '1', '-1']
+    |chi/2| menu (3): ['0', '1/2', '1']
+
+K3 — THE TENSOR MENU REBUILT (B1032's mechanism, verified not cited):
+    |chi_2T/2| x |chi_2I/2| -> 8 distinct magnitudes:
+      0, -1/8 + sqrt(5)/8, 1/4, -1/4 + sqrt(5)/4, 1/8 + sqrt(5)/8, 1/2, 1/4 + sqrt(5)/4, 1
+    equals B1011 C6's banked eight: True
+    => B1032's tensor claim REPRODUCES EXACTLY on this bench.
+
+K4 — THE CONTAINMENT (the preregistered fork):
+    tone magnitudes ALSO in the mirror set : 5 of 5
+      0, 1/(1 + sqrt(5)), 1/2, 1/4 + sqrt(5)/4, 1
+    mirror magnitudes NOT in the tone set  : 3 of 8
+      1/(2 + 2*sqrt(5)), 1/4, 1/8 + sqrt(5)/8
+    and the 3 extras are exactly TONE MAGNITUDES HALVED: True
+    (mechanism, from K2: the 2T factor contributes exactly {0, 1/2, 1},
+     so the mirror menu IS the tone menu UNION its own half.)
+
+K5 — THE ADJUDICATION: OUTCOME K-B.
+  THE KIND.  The mirror set is typed AMPLITUDE-PART (signed, [-1,1],
+  Q(sqrt5), coupling channel).  The KIND_TABLE's admissible-pairs
+  corollary sends the coupling channel to mixing/moduli/phases, and the
+  SM row for CKM/PMNS moduli |V_ij| names its admissible partner as
+  |tone|-TYPE — a MODULUS.  So a kind-admissible mirror pairing must take
+  ABSOLUTE VALUES, which DISCARDS THE SIGN — and the sign is exactly what
+  makes the row the MIRROR row.  First finding: the only kind-admissible
+  pairing throws away the row's distinguishing structure.
+  THE OVERLAP.  On magnitudes, FIVE of the mirror row's EIGHT values ARE
+  the tone values, and the tones row is CONSUMED — B1066 R-B (MISS,
+  decisive), with its kind-correct moduli pairing already sealed as B1075.
+  So a modulus-kind mirror contact RE-POSES an already-spent comparison
+  across 5/8 of its menu.
+  THE ROW'S INDEPENDENT CONTENT IS EXACTLY THREE VALUES:
+  {1/4, phi/4, 1/(4phi)} — the tone menu halved by the 2T factor.
+  ANSWERING THE LICENSE AGENT'S QUESTION DIRECTLY (which reading?):
+  the KIND-level reading and the ROW-level reading DISAGREE here, and the
+  disagreement is now quantified rather than left open:
+    * ROW-level: the mirror row is UNCONSUMED, so its one shot is fully
+      available.  TRUE as bookkeeping.
+    * KIND-level: 5/8 of what that shot would compare is already spent on
+      a decisive MISS.  ALSO TRUE, and it is the one that bears on
+      whether the shot is worth taking.
+  The honest statement is BOTH, with the 5/8 quoted — not a choice
+  between them.
+
+K6 — THE CONSUMPTION-RULE CORRECTION (against THIS BENCH's memo 135):
+  Memo 135 leaned on I3's word "IRREVERSIBLE" and called firing it
+  "spending an irreversible resource".  THE LEDGER'S OWN GOVERNING NOTE IS
+  WEAKER, and it is the owner's own catch (2026-08-19): "the consumption
+  ledger books CONTACT PAIRINGS UNDER SEALS, NOT ROWS-FOREVER" — with the
+  worked precedent that the tones row, though marked CONSUMED, had its
+  kind-correct moduli pairing seal afterwards as B1075 "with the
+  second-shot status priced".
+  SO: firing the mirror row would spend THAT PAIRING, not the row forever;
+  a kind-correct different pairing would remain available as a new arc
+  under a new seal at second-shot price.  MEMO 135's VERDICT IS UNCHANGED
+  (the shot is still not fireable — u is unpinned), but ITS STATEMENT OF
+  THE STAKES WAS TOO STRONG and is corrected here at the point of
+  discovery.  The cost of a bad shot is a spent pairing plus second-shot
+  pricing on any re-pose — real, but not total.
+  FENCE: no contact row is drawn on by this cell, no measured value is
+  touched, and the ledger is unchanged.  Typing only.  Gate 5 untouched.

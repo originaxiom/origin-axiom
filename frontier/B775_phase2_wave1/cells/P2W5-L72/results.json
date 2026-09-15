@@ -91,7 +91,9 @@
   ],
   "n_F_symbols": 27,
   "n_R_symbols": 9,
-  "closed_form": "F^{abc}=exp(2pi i p a(b+c-[b+c]_3)/9), R^{ab}=exp(2pi i r ab/9)",
+  "associator_class": "TRIVIAL",
+  "closed_form": "F^{abc}=omega_p(a,b,c) with p=0 => all 27 F-symbols = 1; R^{ab}=exp(2pi i r ab/9)",
+  "identified_as": "Z/3 anyons, q(a)=exp(4 pi i a^2/3) = conj(SU(3)_1)",
   "verified": true
  },
  "C_level2": {
@@ -166,7 +168,7 @@
   "snappy": {
    "4_1": {
     "vol": "2.02988321281931",
-    "cs": "8.88178e-16"
+    "cs": "1.33227e-15"
    },
    "m004": {
     "vol": "2.02988321281931",
@@ -177,78 +179,162 @@
   "CS_E6_principal": "0"
  },
  "G_deformation": {
+  "B581_sign_law_reverified": true,
+  "tau_signs": {
+   "1": -1,
+   "4": 1,
+   "5": -1,
+   "7": -1,
+   "8": 1,
+   "11": -1
+  },
+  "theta_parity": {
+   "1": "even",
+   "4": "odd",
+   "5": "even",
+   "7": "even",
+   "8": "odd",
+   "11": "even"
+  },
   "per_exponent": {
    "1": {
     "dim": 3,
-    "rel_ok": false,
+    "rel_ok": true,
     "h0": 0,
-    "h1": 0,
+    "h1": 1,
     "periph_inv": 1,
     "periph_h1": 2,
-    "agree_across_primes": true
+    "agree_across_primes": true,
+    "exact_Qzeta6": {
+     "rel_ok": true,
+     "h0": 0,
+     "h1": 1,
+     "periph_inv": 1
+    },
+    "exact_agrees": true
    },
    "4": {
     "dim": 9,
-    "rel_ok": false,
+    "rel_ok": true,
     "h0": 0,
-    "h1": 0,
+    "h1": 1,
     "periph_inv": 1,
     "periph_h1": 2,
-    "agree_across_primes": true
+    "agree_across_primes": true,
+    "exact_Qzeta6": {
+     "rel_ok": true,
+     "h0": 0,
+     "h1": 1,
+     "periph_inv": 1
+    },
+    "exact_agrees": true
    },
    "5": {
     "dim": 11,
-    "rel_ok": false,
+    "rel_ok": true,
     "h0": 0,
-    "h1": 0,
+    "h1": 1,
     "periph_inv": 1,
     "periph_h1": 2,
-    "agree_across_primes": true
+    "agree_across_primes": true,
+    "exact_Qzeta6": {
+     "rel_ok": true,
+     "h0": 0,
+     "h1": 1,
+     "periph_inv": 1
+    },
+    "exact_agrees": true
    },
    "7": {
     "dim": 15,
-    "rel_ok": false,
+    "rel_ok": true,
     "h0": 0,
-    "h1": 0,
+    "h1": 1,
     "periph_inv": 1,
     "periph_h1": 2,
-    "agree_across_primes": true
+    "agree_across_primes": true,
+    "exact_Qzeta6": {
+     "rel_ok": true,
+     "h0": 0,
+     "h1": 1,
+     "periph_inv": 1
+    },
+    "exact_agrees": true
    },
    "8": {
     "dim": 17,
-    "rel_ok": false,
+    "rel_ok": true,
     "h0": 0,
-    "h1": 0,
+    "h1": 1,
     "periph_inv": 1,
     "periph_h1": 2,
-    "agree_across_primes": true
+    "agree_across_primes": true,
+    "exact_Qzeta6": {
+     "rel_ok": true,
+     "h0": 0,
+     "h1": 1,
+     "periph_inv": 1
+    },
+    "exact_agrees": true
    },
    "11": {
     "dim": 23,
-    "rel_ok": false,
+    "rel_ok": true,
     "h0": 0,
-    "h1": 0,
+    "h1": 1,
     "periph_inv": 1,
     "periph_h1": 2,
-    "agree_across_primes": true
+    "agree_across_primes": true,
+    "exact_Qzeta6": {
+     "rel_ok": true,
+     "h0": 0,
+     "h1": 1,
+     "periph_inv": 1
+    },
+    "exact_agrees": true
    }
   },
-  "total_h1": 0,
+  "total_h1": 6,
   "rank_E6": 6,
   "peripheral_total": 12,
   "theta_odd_exponents": [
    4,
    8
   ],
-  "lagrangian": false,
-  "validated": false
+  "lagrangian": true,
+  "validated": true
  },
  "H_CS_theta_even": {
   "samples": {
-   "error": "The Chern-Simons invariant isn't currently known."
+   "(5,1)": {
+    "vol": "0.981368828892",
+    "cs_SL2": "0.07703818026",
+    "cs_E6_principal_mod1": "0.01795612115"
+   },
+   "(5,2)": {
+    "vol": "1.52947732943",
+    "cs_SL2": "-0.2346223684",
+    "cs_E6_principal_mod1": "0.3989105356"
+   },
+   "(7,1)": {
+    "vol": "1.46377664493",
+    "cs_SL2": "0.06061686635",
+    "cs_E6_principal_mod1": "0.4562311502"
+   },
+   "(6,1)": {
+    "vol": "1.28448530047",
+    "cs_SL2": "0.06793167348",
+    "cs_E6_principal_mod1": "0.5973410629"
+   },
+   "(8,3)": {
+    "vol": "1.8243443222",
+    "cs_SL2": "0.1741945983",
+    "cs_E6_principal_mod1": "0.1743573353"
+   }
   },
-  "computable": false,
-  "relation": "CS_E6principal = index * CS_SL2 = 156 * CS_SL2"
+  "computable": true,
+  "relation": "CS_E6principal = index * CS_SL2 = 156 * CS_SL2",
+  "mod_note": "156 even => 156*CS is well defined mod 1 even for CS mod 1/2"
  },
  "I_wall": {
   "theta_odd_not_SL2_induced": true,
@@ -260,25 +346,26 @@
   "wall_type": "EXTERNAL",
   "computed_obstruction": true
  },
- "verdict": "UNRESOLVED",
+ "verdict": "RESOLVED-A",
  "gates": {
   "modular_data": true,
   "level1_6j": true,
   "level2_6j": true,
   "A2_6j_both_levels": true,
   "A3_CS_theta_odd": false,
-  "W_computed_wall": false,
+  "W_computed_wall": true,
   "index_ok": true,
-  "deformation_ok": false,
-  "theta_odd_directions_exist": false
+  "deformation_ok": true,
+  "theta_odd_directions_exist": true
  },
- "headline": "E6 6j COMPUTED at both levels: level 1 is pointed (Z/3, theta_27 = exp(4 pi i/3)) with a closed-form cocycle associator; level 2 (rank 9, c = 78/7) SPLITS as a Deligne product of its modular Z/3 current subcategory and its Mueger centralizer, which is the even part of SU(2)_5 at q = exp(i pi/7) -- so the level-2 6j are the quantum Racah symbols (pentagon, hexagons, Hopf-link S and twists all verified), and the E6 level-2 invariants of 4_1 are the SU(2)_5 colored Jones at zeta_7. PHASE 3 splits: CS of the E6-principal geometric connection = 156 x 0 = 0 and the deformation space is exactly 6 = rank(E6) (one direction per exponent, a Lagrangian on the boundary), the CS functional is computable along the theta-EVEN m=1 direction, and WALLED (EXTERNAL, 8112-variable PGL(27) Ptolemy) along the theta-ODD m = 4, 8.",
+ "headline": "E6 6j COMPUTED at both levels: level 1 is pointed (Z/3, theta_27 = exp(4 pi i/3)) with TRIVIAL associator (all 27 F-symbols = 1); level 2 (rank 9, c = 78/7) SPLITS as a Deligne product of its modular Z/3 current subcategory and its Mueger centralizer, which is the even part of SU(2)_5 at q = exp(i pi/7) -- so the level-2 6j are the quantum Racah symbols (pentagon, hexagons, Hopf-link S and twists all verified), and the E6 level-2 invariants of 4_1 are the SU(2)_5 colored Jones at zeta_7. PHASE 3 splits: CS of the E6-principal geometric connection = 156 x 0 = 0 and the deformation space is exactly 6 = rank(E6) (one direction per exponent, a Lagrangian on the boundary), the CS functional is computable along the theta-EVEN m=1 direction, and WALLED (EXTERNAL, 8112-variable PGL(27) Ptolemy) along the theta-ODD m = 4, 8.",
  "discriminating_fact": "The Z/3 simple-current subcategory of E6 level 2 is MODULAR (|det S_pointed| = 0.0352828 != 0), so E6_2 = Pointed(Z/3) (x) Centralizer with the centralizer of rank 3 -- and that rank-3 factor's S-matrix and twists match the even part of SU(2)_5 entry-by-entry (errS 4.41e-41, errT 4.46e-41). That is what makes the level-2 6j symbols closed-form instead of an unsolved rank-9 pentagon system.",
  "residuals_external": [
   "an extended-Bloch group / Cheeger-Chern-Simons class for E6 (the theta-odd CS functional)",
   "the E6 A-polynomial of 4_1 (the potential of the computed 6-dim Lagrangian)",
   "a 8112-variable PGL(27,C) Ptolemy solve on the 2-tetrahedron triangulation",
-  "uniqueness-up-to-gauge of the level-2 F-symbols (constructed + verified, not classified)"
+  "the level-2 rank-3 factor is identified with the SU(2)_5 even part by COMPLETE modular data (S and T entrywise, 1e-41); a categorical equivalence -- rather than modular-data equality -- and gauge-uniqueness of the F-symbols are not proved in-cell"
  ],
- "runtime_sec": 4.8
+ "gate5": "structural only: no SM values, nothing to CLAIMS.md, one-number pin untouched; all outputs are named mathematics (modular data, 6j systems, cohomology dims, CS values of hyperbolic 3-manifolds)",
+ "runtime_sec": 31.9
 }

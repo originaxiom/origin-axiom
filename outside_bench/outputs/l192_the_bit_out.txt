@@ -1,0 +1,96 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+CERTIFICATE -- L192: does the object's Z/2 fix the CP-conservation BIT?
+
+PREREGISTERED, sealed BEFORE this file was written:
+  outside_bench/seals/L192_THE_BIT_PREREG.md, sha256 969d8bd1...
+
+THE QUESTION, in the record's own words (docs/OPEN_LEADS.md, L192, *** priority, registered
+2026-08-31 by B1226, NEVER RUN):
+
+    Box D -- beta-odd, dimensionless: theta_QCD, delta_CKM, delta_PMNS -- is the only box where
+    the object has an output at all, and that output is CS, forced 2-torsion by amphichirality
+    (B1224): ONE BIT.  Every probe ever fired into box D demanded a CONTINUOUS VALUE from that
+    bit-valued channel ... 3/3 asked for a value; 0/3 asked the bit.
+
+This asks the bit.  GATE 5 IS ABSOLUTE HERE: the object side is computed and printed first; no
+measured physical quantity is named until the clearly-labelled interpretive section at the end,
+and none is used as an input anywhere.
+
+CELLS (fixed in the seal, two outcomes each)
+  CELL 1  Is the bit non-vacuous -- do amphichiral manifolds occupy BOTH elements of A[2]?
+          A: all on one element (channel carries nothing; L192 closes NEGATIVE)
+          B: both elements occupied
+  CELL 2  Where does the object sit?     A: the non-trivial element    B: the identity
+  CELL 3  Is the element predicted by another banked invariant (volume, cusp count), or is it
+          independent data?              A: predicted                  B: independent
+
+CONTROLS (fixed in the seal)
+  C1  The theorem must BITE: every amphichiral manifold satisfies 2*CS = 0 in R/(1/2)Z.
+  C2  The theorem must be NON-VACUOUS: some amphichiral manifold has CS != 0.
+  C3  The converse must FAIL: some CHIRAL manifold has CS = 0 (B152 banked m208).  Without this
+      the bit would be a chirality detector wearing a different name.
+  C4  ARITHMETIC: the distance to the nearest element of A[2] is PRINTED with a margin, never
+      asserted.
+
+==============================================================================
+snappy 3.3.2
+one-cusped orientable census swept : 203123 manifolds
+   amphichiral : 181      chiral : 202942
+
+C1  every amphichiral manifold lands in A[2] = {0, 1/4}      worst distance 2.609e-15  (tol 1e-09)  -> PASS
+C2  the theorem is NON-VACUOUS: amphichiral with CS != 0       75 of 181  -> PASS
+C3  the CONVERSE FAILS: chiral manifolds sitting at 0          47 found (e.g. m208, s595, s956, v2037)  -> PASS
+    (so 'CS = 0' is NOT a chirality detector -- the bit is its own datum)
+C4  arithmetic margins printed, not asserted                   -> PASS
+
+CELL 1  amphichiral occupancy of A[2]:  element 0 -> 106    element 1/4 -> 75
+        -> B (BOTH elements occupied: the bit is NON-VACUOUS)
+
+CELL 2  THE OBJECT.  m004: amphichiral=True  CS=1.3498693315439662e-16  class=0.0  distance 1.350e-16
+        -> B (the object sits at the IDENTITY of A[2])
+
+CELL 3  volumes carrying BOTH elements among amphichiral manifolds: 59
+        vol 2.029883213 : m003 -> 0.25,  m004 -> 0.0
+        vol 3.663862377 : m135 -> 0.25,  m136 -> 0.0
+        vol 4.059766426 : m206 -> 0.0,  m207 -> 0.25
+        vol 4.813819186 : s463 -> 0.25,  s464 -> 0.0
+        vol 5.238684101 : s725 -> 0.25,  s726 -> 0.0
+        vol 5.573609113 : s881 -> 0.25,  s882 -> 0.0,  t03910 -> 0.0,  t03911 -> 0.25
+        -> B (volume does NOT predict the bit: it is independent data)
+
+THE OBJECT'S OWN ROW, and its sibling:
+   m003   amphichiral=True  vol=2.029883213  CS=0.25000000000000011  class=0.25
+   m004   amphichiral=True  vol=2.029883213  CS=1.3498693315439662e-16  class=0.0
+
+CELL 4  does the ATOM predict the bit?  m003 and m004 are COMMENSURABLE and share
+        volume, invariant trace field Q(sqrt-3) and V4 (B781, B762, B993 -- read from
+        the record, not recomputed here).  Their bits:
+          m003 -> 0.25      m004 -> 0.0
+        -> B (the bit is NOT a commensurability-class invariant: it separates
+             the object from the sister that shares its atom)
+
+ALL CONTROLS PASSED
+VERDICT: CELL 1 = B, CELL 2 = B, CELL 3 = B, CELL 4 = B
+
+==============================================================================
+INTERPRETIVE -- LABELLED AS SUCH, AND WRITTEN ONLY AFTER THE OBJECT SIDE ABOVE
+==============================================================================
+
+Box D of B1226's typing is {theta_QCD, delta_CKM, delta_PMNS} -- the beta-odd dimensionless
+parameters, i.e. the CP-odd ones -- and L192 records that it is the ONLY box in which this object
+has an output at all.  That output is bit-valued.  This certificate asks the bit, which L192 says
+no probe had done: 3/3 asked it for a value and 0/3 asked it for the bit.
+
+WHAT IS ESTABLISHED.  The bit is well defined (C1, worst distance 2.6e-15 over 181 amphichiral
+manifolds), non-vacuous (75 of them carry the other element), not a chirality detector in disguise
+(47 chiral manifolds sit at 0), not predicted by volume (59 volumes carry both elements), and not a
+commensurability-class invariant (m003).  The object sits at the identity.
+
+WHAT IS NOT ESTABLISHED, and is forbidden.  No value of any CP-odd phase follows.  B813 is the
+governing theorem: a fixed PSL(2,C) invariant cannot fill the coefficient slot of exp(i theta W(A)).
+Nothing here fills that slot -- what is compared is A[2] for two different circles -- and NO
+dictionary carrying the object's bit to any measured phase is proposed, because B813 shows the naive
+one does not exist.  A reader who judges that this still re-enters B813's slot should record the
+cell as failed; the seal says so in advance.
+

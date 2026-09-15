@@ -1,0 +1,125 @@
+==============================================================================
+ CELL 5 -- FORK F9 PAST ITS DECLARED DEPTH BOUND
+==============================================================================
+
+    seal  outside_bench/seals/REQUIRE_AND_TEST_CELL5_PREREG.md
+    sha256 3a8103c71d0429e1b6075f8b3770e365652dbda753d5bcbc818c6f99a18344a2
+
+    python-flint 0.9.0 present (installed for the arc's shape_field)
+    instrument: frontier/B1323_the_genesis_upgrades/verification/u1_substrate_count.py (unmodified)
+
+------------------------------------------------------------------------------
+ CONTROL N4 -- can the keeper predicate return True AT ALL?
+------------------------------------------------------------------------------
+
+    F9's verdict is an ABSENCE.  Before reporting one, the predicate
+    all_in_Q(sqrt-3) is run on m004's own shapes, which ARE in Q(sqrt-3).
+    If it cannot fire there, every ROBUST below is vacuous.
+
+    m004 shape_field -> {'min_polys': [[1, -1, 1], [1, -1, 1]], 'all_in_Q(sqrt-3)': True, 'max_degree': 2}
+    -> PASS (the predicate must be able to return True)
+
+------------------------------------------------------------------------------
+ CONTROL N1 / N2 -- reproduce B1323 at its own bound (maxlen 3)
+------------------------------------------------------------------------------
+  S_1_1: 1 words, 1 hyperbolic, 1 classes (0.0 s)
+  S_1_2: 252 words, 36 hyperbolic, 2 classes (2.4 s)
+  S_0_4: 80 words, 28 hyperbolic, 2 classes (0.8 s)
+
+    [maxlen 3 -- B1323's own bound]
+      S_1_1   words      1  hyperbolic     1  classes   1  (0.0s)
+      S_1_2   words    252  hyperbolic    36  classes   2  (2.4s)
+      S_0_4   words     80  hyperbolic    28  classes   2  (0.8s)
+      VERDICT ROBUST   keepers of Q(sqrt-3): NONE
+      S_1_2: got [('abC', 3.663862, 2, 'm129'), ('acB', 5.33349, 2, 's780')]
+           expected [('abC', 3.663862, 2, 'm129'), ('acB', 5.33349, 2, 's780')]
+      S_0_4: got [('aB', 7.327725, 4, 't12047'), ('aaB', 8.929318, 4, 'o9_44206')]
+           expected [('aB', 7.327725, 4, 't12047'), ('aaB', 8.929318, 4, 'o9_44206')]
+    N1 (B1323's four classes and verdict reproduced) -> PASS
+    N2 (S_1_1 control returns m004) -> PASS
+
+------------------------------------------------------------------------------
+ THE EXTENSION -- maxlen 5
+------------------------------------------------------------------------------
+  S_1_1: 1 words, 1 hyperbolic, 1 classes (0.0 s)
+  S_1_2: 9324 words, 1856 hyperbolic, 21 classes (46.0 s)
+  S_0_4: 1360 words, 400 hyperbolic, 14 classes (6.6 s)
+
+    [maxlen 5]
+      S_1_1   words      1  hyperbolic     1  classes   1  (0.0s)
+      S_1_2   words   9324  hyperbolic  1856  classes  21  (46.0s)
+      S_0_4   words   1360  hyperbolic   400  classes  14  (6.6s)
+      VERDICT FRAGILE   keepers of Q(sqrt-3): [('abbC', 5.074708032048269, 2, ['m412(0,0)(0,0)', 'otet05_00001(0,0)(0,0)', 'ocube01_00002(0,0)(0,0)']), ('abAB', 12.179299276915838, 4, ['L12n2208(0,0)(0,0)(0,0)(0,0)', 'otet12_00009(0,0)(0,0)(0,0)(0,0)'])]
+    elapsed 53s (baseline 3s)
+
+------------------------------------------------------------------------------
+ CONTROL N3 -- did the extension actually extend?
+------------------------------------------------------------------------------
+    S_1_2   words    252 ->   9324   hyperbolic    36 ->  1856   classes   2 ->  21
+    S_0_4   words     80 ->   1360   hyperbolic    28 ->   400   classes   2 ->  14
+    -> PASS (population must strictly grow on both carriers)
+
+------------------------------------------------------------------------------
+ THE PREREGISTERED OUTCOME
+------------------------------------------------------------------------------
+    F9 surface verdict at maxlen 5: FRAGILE
+    keepers of Q(sqrt-3): [('abbC', 5.074708032048269, 2, ['m412(0,0)(0,0)', 'otet05_00001(0,0)(0,0)', 'ocube01_00002(0,0)(0,0)']), ('abAB', 12.179299276915838, 4, ['L12n2208(0,0)(0,0)(0,0)(0,0)', 'otet12_00009(0,0)(0,0)(0,0)(0,0)'])]
+
+    -> OUTCOME B
+    F9 IS FRAGILE.  A three-record carrier KEEPS THE ATOM, and B1323's
+    "the atom or the remembered bit, not both" is refuted at depth.
+      keeper: ('abbC', 5.074708032048269, 2, ['m412(0,0)(0,0)', 'otet05_00001(0,0)(0,0)', 'ocube01_00002(0,0)(0,0)'])
+      keeper: ('abAB', 12.179299276915838, 4, ['L12n2208(0,0)(0,0)(0,0)(0,0)', 'otet12_00009(0,0)(0,0)(0,0)(0,0)'])
+
+------------------------------------------------------------------------------
+ WHAT ELSE THE DEEPER ENUMERATION FOUND
+------------------------------------------------------------------------------
+    S_1_2: 19 classes not in B1323's depth-3 table
+      aabC   vol    4.415332  cusps 2  m295           amphichiral=False  |Sym|=4
+      aaaBC  vol    4.751702  cusps 2  s443           amphichiral=False  |Sym|=4
+      abbC   vol    5.074708  cusps 2  m412           amphichiral=False  |Sym|=8
+      aaabC  vol    5.137941  cusps 2  s647           amphichiral=False  |Sym|=4
+      abbbc  vol    5.333490  cusps 2  s774           amphichiral=False  |Sym|=8
+      aabCC  vol    5.333490  cusps 2  s782           amphichiral=False  |Sym|=8
+      abbbC  vol    5.875918  cusps 2  s937           amphichiral=False  |Sym|=8
+      aacB   vol    6.290303  cusps 2  v3127          amphichiral=False  |Sym|=4
+      acBB   vol    6.354587  cusps 2  v3225          amphichiral=False  |Sym|=8
+      aabbC  vol    6.422427  cusps 2  v3292          amphichiral=False  |Sym|=4
+      abCbC  vol    6.637444  cusps 2  v3450          amphichiral=False  |Sym|=4
+      acBBB  vol    6.755195  cusps 2  t09759         amphichiral=False  |Sym|=8
+      aaacB  vol    6.770817  cusps 2  t09857         amphichiral=False  |Sym|=4
+      aBcB   vol    7.327725  cusps 2  t12055         amphichiral=False  |Sym|=8
+      aaccB  vol    7.327725  cusps 2  t12037         amphichiral=False  |Sym|=8
+      aacBB  vol    7.602325  cusps 2  o9_35257       amphichiral=False  |Sym|=4
+      aBcBB  vol    8.087974  cusps 2  o9_40722       amphichiral=False  |Sym|=4
+      acBaB  vol    8.697670  cusps 2  o10_130613     amphichiral=False  |Sym|=4
+      aaBcB  vol    8.778659  cusps 2  o10_133625     amphichiral=False  |Sym|=4
+    S_0_4: 12 classes not in B1323's depth-3 table
+      aaaB   vol    9.491890  cusps 4  o10_148924     amphichiral=False  |Sym|=8
+      aaaaB  vol    9.742366  cusps 4  L14n59351      amphichiral=False  |Sym|=8
+      aabb   vol   10.666979  cusps 4  L12n2205       amphichiral=False  |Sym|=16
+      aaBB   vol   11.147218  cusps 4  L14n62805      amphichiral=True  |Sym|=16
+      aaabb  vol   11.732891  cusps 4  L14n63020      amphichiral=False  |Sym|=8
+      aaaBB  vol   11.916242  cusps 4  ?              amphichiral=False  |Sym|=8
+      abAB   vol   12.179299  cusps 4  L12n2208       amphichiral=True  |Sym|=48
+      aabaB  vol   13.903678  cusps 4  L14n62990      amphichiral=False  |Sym|=8
+      aabAB  vol   14.372279  cusps 4  L14n62998      amphichiral=False  |Sym|=8
+      aBaB   vol   14.655450  cusps 4  L14n62847      amphichiral=True  |Sym|=32
+      aabAb  vol   15.110030  cusps 4  L14n63034      amphichiral=True  |Sym|=16
+      aaBaB  vol   16.309533  cusps 4  ?              amphichiral=False  |Sym|=8
+
+    mirror test at maxlen 5: three-record classes 35, chiral 30, amphichiral 5
+    members of B1321's three-line class found: NONE
+
+    artifact: outside_bench/outputs/require_and_test_cell5_f9_maxlen5.json
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    OUTCOME B   F9 at maxlen 5 = FRAGILE
+    controls: ALL PASSED
+
+    NOT CONCLUDED: that F9 is ROBUST for ALL word lengths, or for carriers
+    other than S_1_2 and S_0_4.  B1323's scope line is kept verbatim with only
+    the number 3 replaced by 5.  The closed genus-2 carrier stays out of
+    frame (A5b).  Nothing about physics.  No value.

@@ -1,0 +1,77 @@
+==============================================================================
+THE CYCLOTOMIC COEFFICIENTS OF FOUR TWIST KNOTS
+==============================================================================
+   source : Garoufalidis-Sun twist.knot.data CJTwist.<p>, J_{K_p,n} n=1..60, J_{p,1}=1
+   ident  : determinant, certificates/cj_table_ingest.py (memo 186)
+
+   6_1   p = -2   min q-valuation of C_m, m = 0..12 :
+            [0, -3, -9, -18, -30, -45, -63, -84, -108, -135, -165, -198, -234]
+   4_1   p = -1   min q-valuation of C_m, m = 0..12 :
+            [0, -1, -3, -6, -10, -15, -21, -28, -36, -45, -55, -66, -78]
+   3_1   p = 1    min q-valuation of C_m, m = 0..12 :
+            [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+   9_2   p = 4    min q-valuation of C_m, m = 0..12 :
+            [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+==============================================================================
+CELL  --  is the convergence of C_K a property of the construction or the knot?
+==============================================================================
+   valuation RISING  (C_K can be a power series) : ['3_1', '9_2'] -> p = [1, 4]
+   valuation FALLING (it cannot)                 : ['6_1', '4_1'] -> p = [-2, -1]
+   CELL -> OUTCOME B
+
+   measured on m = 0..12, exactly:
+      p > 0 :  val C_m = m                              HOLDS for p = [1, 4]
+      p < 0 :  val C_m = -(2|p| - 1) * m(m+1)/2         HOLDS for p = [-2, -1]
+
+==============================================================================
+C4  --  the DIRECT check: what index m contributes to the single monomial x^0 q^0
+==============================================================================
+   6_1   p = -2   contributions : [1, 0, 3, -9, 34, -146, 700, -3498, 18056, -95793, 520147, -2875690, 16136867]
+            partial sums   : [1, 1, 4, -5, 29, -117, 583, -2915, 15141, -80652, 439495, -2436195, 13700672]
+   4_1   p = -1   contributions : [1, 0, 2, -2, 8, -16, 52, -152, 484, -1536, 5064, -16946, 57528]
+            partial sums   : [1, 1, 3, 1, 9, -7, 45, -107, 377, -1159, 3905, -13041, 44487]
+   3_1   p = 1    contributions : [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            partial sums   : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+   9_2   p = 4    contributions : [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            partial sums   : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+==============================================================================
+CONTROLS AND CELLS
+==============================================================================
+   C1  3_1 gives GM eq (24)'s C_m = q^m exactly, m = 0..12                  PASSED
+   C2  4_1 gives C_m = (-1)^m q^{-m(m+1)/2} -- memo 185's independent derivation PASSED
+   C3  ROUND TRIP: the extracted C_m rebuild J_1..J_7 through GM eq (20), 4 knots PASSED
+   CELL resolved -> B : the knot decides, not the construction              PASSED
+   the split is exactly the SIGN of the twist parameter p                   PASSED
+   the two closed forms hold exactly on every m = 0..12                     PASSED
+   C4  6_1   : contributions blow up                                        PASSED
+   C4  4_1   : contributions blow up                                        PASSED
+   C4  3_1   : only finitely many indices contribute                        PASSED
+   C4  9_2   : only finitely many indices contribute                        PASSED
+
+WHAT THIS EXPLAINS.
+
+GM section 7.4 reports that feeding C_K into the surgery formula "gets the right answer
+for the -1 surgery (the case of the Poincare sphere), but not for other surgeries."  The
+Poincare sphere is (-1) surgery ON THE TREFOIL.  The trefoil has p = +1, and p > 0 is
+exactly the half of this family for which C_K is a genuine power series.  The near-miss
+did not happen at a random place: it happened at one of the only places where the object
+being fed into the formula exists at all.  (Memo 185 addendum 1 then showed that even
+there it is off by one additive monomial.)
+
+It also SHARPENS memo 185 CELL A.  That cell resolved to B on 4_1, and the wording could
+be read as "C_K never converges".  It is not that.  Convergence fails for p < 0 and holds
+for p > 0, and when it fails the rate is quantitative: the valuation falls like
+-(2|p| - 1) m(m+1)/2, so it fails FASTER the more the knot is twisted.
+
+WHAT IT DOES NOT SAY.  For p > 0 the naive route is not blocked BY CONVERGENCE.  It is
+still blocked -- memo 185 CELL B showed C_K is not f_K up to any monomial on 3_1 -- but
+that cell has been run on ONE positive knot, because f_K is known there in closed form
+(GM Thm 1.3) and is not known for 9_2.  Stated so it is not overread.
+
+A FALSIFIABLE PREDICTION, BANKED BEFORE THE FILE ARRIVES.  5_2 = K_2 has p = +2.  The
+prediction is  val C_m(5_2) = m  for every m, with C_K(5_2) therefore a genuine power
+series.  6_1 = K_{-2} is its opposite-sign partner and gives -3 m(m+1)/2.  CJTwist.2 is
+the file memo 186 F186-1 asks for and did not receive; when it arrives this is decided in
+one run.  Support for the prediction as it stands: two knots each side, m = 0..12.

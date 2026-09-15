@@ -1,0 +1,117 @@
+
+------------------------------------------------------------------------------
+ CONTROL V-INDEP -- side B must touch NO quaternion (BENCH ERROR #36)
+------------------------------------------------------------------------------
+  side-B CODE scanned (docstrings, string literals and comments stripped)
+  banned tokens ['qmul', 'qinv', 'qconj', 'quaternion', 'modpm', 'sideA']
+  occurrences found: NONE
+  3878 chars of code scanned, of 6871 in the section; the remainder is prose explaining BENCH ERROR #36
+
+------------------------------------------------------------------------------
+ SIDE B, step 1 -- Delta(t) for m004, SOURCED not hardcoded
+------------------------------------------------------------------------------
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+  snappy.Manifold('m004').fundamental_group():
+    generators ['a', 'b']   relators ['aaabABBAb']
+    SnapPy's alexander_polynomial() needs Sage, absent in this
+    container -- so Delta is DERIVED here by Fox calculus on the
+    presentation, and self-validated, rather than cited.
+    exponent sums in the relator: {'a': 1, 'b': 0}
+    => abelianisation weights {'a': 0, 'b': 1}  (the relator maps to 0, which must be 0)
+    dr/da abelianised = [1, -3, 1]   (lowest degree first)
+    dr/db abelianised = []   (lowest degree first)
+    Fox's fundamental formula sum_g (t^wt(g) - 1) dr/dg = 0 is
+    consistent: the generator of weight 0 carries Delta and the
+    other derivative vanishes -- 1 non-zero derivative(s)
+    self-check |Delta(1)| = 1  (must be 1)
+    self-check Delta reciprocal: True  (Alexander reciprocity)
+  Delta(t) DERIVED = [1, -3, 1]   (lowest degree first; t^2 - 3t + 1 is [1, -3, 1])
+
+------------------------------------------------------------------------------
+ SIDE B, step 2 -- H_1(Y_3) = Z[t]/(t^3 - 1, Delta(t)), by Smith form
+------------------------------------------------------------------------------
+  presentation matrix (basis 1, t, t^2): [[1, -3, 1], [1, 1, -3], [-3, 1, 1]]
+  Smith diagonal: [1, 4, 4]  ->  torsion [4, 4], free rank 0
+  B1273: H_1(Y_3) = Z/4 + Z/4
+
+------------------------------------------------------------------------------
+ SIDE B, step 3 -- the deck transformation t is the cyclic shift
+------------------------------------------------------------------------------
+  T = [[0, 0, 1], [1, 0, 0], [0, 1, 0]]
+  T^3 = I: True   T != I: True
+
+------------------------------------------------------------------------------
+ SIDE B, step 4 + THE QUESTION -- the deck's permutation of the THREE ORDER-2 CHARACTERS (B1273's chi_1, chi_2, chi_3)
+------------------------------------------------------------------------------
+  relations mod 2, row-reduced: [(1, 1, 1)]
+  H_1/2H_1 = (Z/2)^3 / <relations> has dimension 2
+  non-zero classes (3): [(0, 0, 1), (0, 1, 0), (0, 1, 1)]
+  deck . (0, 0, 1) = (0, 1, 1)
+  deck . (0, 1, 0) = (0, 0, 1)
+  deck . (0, 1, 1) = (0, 1, 0)
+
+  -> the deck action on the three characters is: 3-CYCLE
+
+------------------------------------------------------------------------------
+ CONTROL V-FIRE -- the routine MUST be able to return TRIVIAL (memo 164: a test that cannot fail is not a test)
+------------------------------------------------------------------------------
+  synthetic module with the SAME relations but the deck replaced by the identity:
+    deck = I  ->  TRIVIAL   (MUST be TRIVIAL)
+    unknot (Delta = 1): 0 non-zero classes, kind = TRIVIAL   (MUST NOT be a 3-cycle)
+
+------------------------------------------------------------------------------
+ CONTROL V-CROSS -- SnapPy's own 3-fold cyclic cover, filled, INDEPENDENTLY of the Alexander route
+------------------------------------------------------------------------------
+  m004.covers(3, cover_type='cyclic') = [m004~cyc~0(0,0)]
+  filled (1,0):  H_1 = Z/4 + Z/4   volume = 2.929e-12
+  volume ~ 0 => FLAT, corroborating B1273's Hantzsche-Wendt identification by a second route
+
+------------------------------------------------------------------------------
+ SIDE A (B1269), and THE COMPARISON STATED HONESTLY
+------------------------------------------------------------------------------
+  Side A -- computed in v1 and NOT recomputed here, precisely so that
+  side B above shares no code path with it: conjugation by w = (1+i+j+k)/2
+  cycles the three imaginary quaternion units of Q_8 as i -> j -> k -> i
+  (outputs/the_two_threes_out.txt).  It is a FREE TRANSITIVE Z/3-set.
+
+  THE HONEST STATEMENT, replacing v1's overstated "equivariance":
+  once BOTH actions are 3-cycles, both triples are the REGULAR Z/3-set, so
+  an equivariant bijection EXISTS AUTOMATICALLY and exhibiting one proves
+  nothing.  What had to be established -- and what v1 did not establish,
+  because its side B was its side A -- is that the DECK action is
+  NON-TRIVIAL.  That is step 4 above, from Delta(t) alone.
+
+------------------------------------------------------------------------------
+ CONTROLS
+------------------------------------------------------------------------------
+  PASS   V-INDEP -- no quaternion in side B CODE
+  PASS   Delta derived by Fox calculus and self-validated
+  PASS   H_1(Y_3) = Z/4 + Z/4
+  PASS   deck has order 3
+  PASS   three order-2 characters exist
+  PASS   V-FIRE -- returns TRIVIAL on a trivial deck
+  PASS   V-CROSS -- SnapPy reproduces H_1 and a flat (vol ~ 0) manifold
+
+------------------------------------------------------------------------------
+ OUTCOME
+------------------------------------------------------------------------------
+  -> OUTCOME A'  (the seal's preregistered A')
+
+  The deck Z/3 permutes the three order-2 characters of H_1(Y_3) in a
+  3-cycle, derived from m004's Alexander polynomial with no quaternion
+  anywhere.  Both triples are therefore free transitive Z/3-sets and are
+  isomorphic as Z/3-sets.  MEMO 233's CONCLUSION STANDS -- and now rests on
+  a computation rather than on a restatement of B1273.
+
+  WHAT IS STILL NOT CLAIMED: that this exhibits a canonical identification.
+  Being isomorphic as Z/3-sets is weaker than a canonical map, and the
+  regular Z/3-set has three such isomorphisms.  The consequence memo 233
+  draws needs only that the Z/3 is the object's own and acts freely on the
+  triple, which is what is shown.
+
+  FENCES, unchanged: X is not constructed, so this is a condition ON a
+  closing and never a property OF one; no b_2 of any 7-manifold is computed
+  or inferred; I-26 is UNEARNED so no generation count is licensed; this is
+  NOT progress toward chirality.
+

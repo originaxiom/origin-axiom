@@ -1,0 +1,46 @@
+==============================================================================
+THE MACHINE AND ITS CONVENTION
+==============================================================================
+   3_1   braid [-1, -1, -1] on 2 strands
+   5_2   braid [-2, -2, -2, -1, 2, -1] on 3 strands
+   C2  3_1 out of this machine, J_2 = +1 q^1 +1 q^3 -1 q^4
+       CJTwist table for K_1, J_2 = +1 q^1 +1 q^3 -1 q^4   (and J_3 also compared)
+   C4  det(5_2) = |J_2(-1)| = 7
+
+==============================================================================
+THE CELL  --  memo 185 addendum 2's prediction:  val C_m(5_2) = m
+==============================================================================
+   measured val C_m(5_2), m = 0..8 : [0, 1, 2, 3, 4, 5, 6, 7, 8]
+   predicted                        : [0, 1, 2, 3, 4, 5, 6, 7, 8]
+   CELL -> OUTCOME A -- the prediction HOLDS
+
+   incidentally, and recorded so it is not banked by someone later:
+      number of nonzero terms in C_m(5_2) : [1, 2, 4, 8, 15, 24, 35, 48, 63]
+      every coefficient equal to +1?       : [True, True, True, True, False, False, False, False, False]
+      The first four counts are 1, 2, 4, 8.  That looks like 2^m and IS NOT:
+      m = 4 gives 15, not 16, and the coefficients stop being all +1 there too.
+      Four terms of a pattern is not a pattern.  Nothing is banked from this.
+
+==============================================================================
+CONTROLS AND CELL
+==============================================================================
+   C2  chirality: this machine's 3_1 == the table's K_1 at J_2 and J_3    PASSED
+   C4  the braid closure has determinant 7, so it is 5_2                  PASSED
+   C1  3_1 gives GM eq (24)'s printed C_m = q^m, m = 0..8                 PASSED
+   C3  ROUND TRIP: the C_m rebuild J_1..J_9, both knots                   PASSED
+   CELL: val C_m(5_2) = m on every m computed                             PASSED
+   the tempting 2^m reading is recorded as FAILING at m = 4               PASSED
+
+WHAT THIS IS WORTH.
+
+The law in addendum 2 was measured on four knots -- 3_1, 9_2 (p > 0) and 4_1, 6_1 (p < 0).
+5_2 is a FIFTH, it was not used to build the law, and its data does not come from the
+same place: the four came from Garoufalidis-Sun's tables, and this one comes from this
+bench's own R-matrix state sum on Park's braid word.  Different source, different machine,
+prediction stated first.
+
+It also settles, for the one knot memos 183 and 184 are about, that C_K(5_2) IS a genuine
+power series in (x,q) -- so whatever blocks the naive cyclotomic route for 5_2, it is NOT
+convergence.  Memo 185 CELL B is the block there, and CELL B has still been run on one
+positive knot only (3_1), because f_K is known in closed form there and is not known for
+5_2 past f_5.  That scope limit is unchanged by this certificate.

@@ -1,0 +1,30 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 1: tr[a,b] = 1+(1)w — exact, != 2: True
+   ab != ba as matrices (SL2): the record is NONABELIAN at the first two letters —
+   time-ORDER structure is object-paid from the start
+   internal level: (A27 B27) != (B27 A27), first differing entry (0, 0)
+FACT 2: ba = a^-1 (ab) a — conjugate: tr(ab) = tr(ba) at BOTH levels (asserted):
+   the object cannot tell ab from ba as a state — only as a local composition
+FACT 3(i): inversion w -> w^-1 invisible on the radius-4 ball: 0 exceptions (memo 79 re-asserted)
+FACT 3(ii): the strong-inversion relabeling sigma (letters -> inverses, order
+   kept): 0 of 160 words change character
+   sigma is character-INVISIBLE too: running every generator backwards costs
+   nothing — the second direction-flip is also free
+FACT 3(iii): N' = A^-1 - I = -A^-1 N exactly => ker N'^k = ker N^k: the tick's
+   depth-3 staircase (memo 50) is the SAME one-way filtration for a and a^-1 —
+   the clock decays down one staircase whichever way the meridian runs
+
+ORDER WITHOUT DIRECTION: the owner's proposal lands as a theorem-shaped
+half.  The very initial a, b DOES lock something — that ORDER EXISTS:
+ab != ba from the first two letters, exactly, at both levels (the record
+is temporal in structure from its first act).  What it does not lock is
+the DIRECTION: ab ~ ba as states, inversion and (as measured above) the
+strong-inversion relabeling are character-free, and the clock's one-way
+staircase is the same either way.  The arrow splits exactly as the
+record's global pattern demands: ORDER object-forced, DIRECTION the
+observer's c-leg (B1168/B1174).  Dossier row AR0.  Gate 5 untouched.

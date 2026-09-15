@@ -1,0 +1,87 @@
+==============================================================================
+L72 PHASE 2 AUDIT -- outside bench
+seal sha256 0daa7ada95b244277c404027c03f0eb34424910fcdd3598c9ab14033dd0545cb
+HEAD = d6921512
+==============================================================================
+
+==============================================================================
+CELL 1 -- do the cell's two committed artifacts agree?
+==============================================================================
+  output.txt   'VERDICT:'          = RESOLVED-A
+  results.json ['verdict']         = UNRESOLVED
+
+  gates printed in output.txt : {'modular-data': True, 'level1-6j': True, 'level2-6j': True, 'A2': True, 'A3': False, 'wall': True, 'index': True, 'deformation': True}
+  gates stored in results.json: {'modular_data': True, 'level1_6j': True, 'level2_6j': True, 'A2_6j_both_levels': True, 'A3_CS_theta_odd': False, 'W_computed_wall': False, 'index_ok': True, 'deformation_ok': False, 'theta_odd_directions_exist': False}
+
+  gate-by-gate:
+    modular-data   output.txt=True    results.json[modular_data]=True     
+    level1-6j      output.txt=True    results.json[level1_6j]=True     
+    level2-6j      output.txt=True    results.json[level2_6j]=True     
+    A2             output.txt=True    results.json[A2_6j_both_levels]=True     
+    A3             output.txt=False   results.json[A3_CS_theta_odd]=False    
+    wall           output.txt=True    results.json[W_computed_wall]=False       <-- DISAGREE
+    index          output.txt=True    results.json[index_ok]=True     
+    deformation    output.txt=True    results.json[deformation_ok]=False       <-- DISAGREE
+  gates present ONLY in results.json: ['theta_odd_directions_exist']
+
+  CELL 1 OUTCOME: B
+    verdict strings agree: False
+    gates disagreeing: 2  [('wall', True, 'W_computed_wall', False), ('deformation', True, 'deformation_ok', False)]
+
+  the cell's OWN fenced residual, quoted from results.json:
+    - an extended-Bloch group / Cheeger-Chern-Simons class for E6 (the theta-odd CS functional)
+    - the E6 A-polynomial of 4_1 (the potential of the computed 6-dim Lagrangian)
+    - a 8112-variable PGL(27,C) Ptolemy solve on the 2-tetrahedron triangulation
+    - uniqueness-up-to-gauge of the level-2 F-symbols (constructed + verified, not classified)
+
+==============================================================================
+C1 -- the E6 level-2 stage, rebuilt here from the Cartan matrix
+==============================================================================
+  |W(E6)| = 51840   rank = 9   c = 11.142857
+  S symmetric 6.86e-15  unitary 5.66e-15  (ST)^3=S^2 7.21e-15
+  Verlinde integral 1.97e-14  min -0
+  C = S^2 IS the E6 diagram flip (gate)
+  qdims = [1.       2.24698  1.801938 1.801938 1.801938 2.24698  1.       2.24698
+ 1.      ]
+  h     = ['(0, 0, 0, 0, 0, 0)', '(0, 0, 0, 0, 0, 1)', '(0, 0, 0, 0, 1, 0)', '(0, 0, 1, 0, 0, 0)', '(0, 1, 0, 0, 0, 0)', '(1, 0, 0, 0, 0, 0)', '(0, 0, 0, 0, 0, 2)', '(1, 0, 0, 0, 0, 1)', '(2, 0, 0, 0, 0, 0)']
+          [0.       0.619048 1.190476 1.190476 0.857143 0.619048 1.333333 1.285714
+ 1.333333]
+
+==============================================================================
+CELL 2 -- the Deligne splitting, rebuilt independently
+==============================================================================
+  objects with qdim 1 (simple currents): [0, 6, 8]  ->  ['000000', '000002', '200000']
+  closed under fusion: True   fusion table (as indices): [[0, 6, 8], [6, 8, 0], [8, 0, 6]]
+  |det S restricted to the currents| = 0.0352828005  -> pointed subcategory MODULAR: True
+  Mueger centraliser = [0, 4, 7]  ->  ['000000', '010000', '100001']   rank 3
+    its qdims = [1.       1.801938 2.24698 ]
+    its h     = [0.       0.857143 1.285714]   (as fractions of 1/21: [ 0. 18. 27.])
+  object bijection (current, centraliser) -> primary is a bijection: True
+  worst |S^E6 - S^pointed (x) S^centraliser| = 6.229e-15
+  worst |T^E6 - T^pointed (x) T^centraliser| = 1.601e-15
+
+  CELL 2 OUTCOME: A
+
+==============================================================================
+CELL 3 -- is the rank-3 factor the unitary SU(2)_5-even, or a Galois conjugate?
+==============================================================================
+  C2 (cross-bench) -- P2W5-L72 printed for its centraliser:  h = 0, 6/7, 9/7 ;  qdim = 1, 1.801938, 2.24698
+     this bench: h mod 1 = [np.float64(0.0), np.float64(0.285714286), np.float64(0.857142857)]   qdim = [1.0, 1.801938, 2.24698]
+     P2W5-L72  : h mod 1 = [0, 0.285714286, 0.857142857]   qdim = [1.0, 1.801938, 2.24698]
+     C2 PASSES: two independent builds agree on the centraliser.
+
+  the Galois sweep over k' in (Z/7)*  [SU(2)_5 even part, spins j = 0,1,2]:
+    k'=1  qdims [1.       1.801938 2.24698 ]   worst|dS| 1.110e-15   worst|dT| 2.734e-16   MATCH
+    k'=2  qdims [-1.24698   0.554958  1.      ]   worst|dS| 7.667e-01   worst|dT| 1.564e+00   reject
+    k'=3  qdims [-0.801938  0.445042  1.      ]   worst|dS| 6.824e-01   worst|dT| 1.564e+00   reject
+    k'=4  qdims [-0.801938  0.445042  1.      ]   worst|dS| 7.667e-01   worst|dT| 1.950e+00   reject
+    k'=5  qdims [-1.24698   0.554958  1.      ]   worst|dS| 8.510e-01   worst|dT| 1.950e+00   reject
+    k'=6  qdims [1.       1.801938 2.24698 ]   worst|dS| 8.427e-02   worst|dT| 8.678e-01   reject
+
+  C3 (MB12 transversality): conjugates REJECTED = [2, 3, 4, 5, 6]  (must be non-empty)
+  matches: [1]
+  CELL 3 OUTCOME: A
+
+==============================================================================
+DONE -- outcomes above; interpretation lives in the memo, not here.
+==============================================================================

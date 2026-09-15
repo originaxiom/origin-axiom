@@ -1,0 +1,17 @@
+ANCHOR baseline vs exact Gaudin: D_zeta=0.0416 (memo 68: 0.0416), D_L=0.0502 (0.0502)
+(B) theta-exact: mean spacings 0.999879 / 0.999952
+(B) vs exact Gaudin: D_zeta=0.0416 p=0.000383;  D_L=0.0502 p=5.49e-07
+(C) local-empirical (w=25): mean spacings 0.999951 / 0.999715
+(C) vs exact Gaudin: D_zeta=0.0406 p=0.00057;  D_L=0.0513 p=2.81e-07
+
+known finite-height scale 1/log(T/2pi) at T=3000: 0.162 (CITED context)
+
+BRANCH II: the residual SURVIVES both the theta-exact and the
+local-empirical unfolding — it is not a surmise artifact (memo 68) and not
+an unfolding artifact (this memo).  It is an intrinsic short-range
+finite-height deviation of the T=3000 spectra from bulk-GUE, of a size
+(D ~ 0.03-0.05) compatible with the known O(1/log T) ~ 0.16-scale
+correction class for zeta-like spectra (CITED context; no object-specific
+claim).  The arc closes as CHARACTERIZED: every controllable artifact has
+been eliminated by exact computation, and what remains is finite-height
+physics of the spectra themselves.  Gate 5 untouched.

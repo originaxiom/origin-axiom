@@ -16,6 +16,13 @@ rho-bar(g) = (rho(g)^-1)^T.
 Every number lives in K = Q(sqrt(-3)) (Fraction pairs). Zero floats anywhere
 in the portal path.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import os
 import sys
 import time
@@ -30,7 +37,7 @@ def log(msg):
     print(f"[{time.time()-T0:7.1f}s] {msg}", flush=True)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-B575 = "<repo>/frontier/B575_bridge_obstruction/l51_obstruction.py"
+B575 = _R("frontier/B575_bridge_obstruction/l51_obstruction.py")
 PKL = "<seat-workdir>/cell3_double/stage1_classes.pkl"
 W0A_JSON = "<seat-workdir>/invariant_line/w0a_singlet/w0a_v0.json"
 LAM = "abABaaBAbA"

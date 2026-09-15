@@ -1,0 +1,54 @@
+==============================================================================
+E-1  THE VERDICT DISTRIBUTION
+==============================================================================
+     arcs with arc_verdict.json : 1122
+         734  PROVED      65.4%
+         300  NEGATIVE    26.7%
+          78  OPEN         7.0%
+          10  RETRACTED    0.9%
+     creates_law = True         : 69
+
+==============================================================================
+E-2  DOES THE CORPUS LOSE ITS OWN RESULTS?
+==============================================================================
+     banked LAWS never cited by any later arc : 6 of 69
+     newest arc in corpus                     : B1220
+     those 6 laws: B1096, B1097, B1099, B1104, B1111, B1123
+     lowest of them: B1096  -> all lie within the last 124 arcs
+     OUTCOME: E2-ORPHANS   (recency, not amnesia: a law banked last week has no later arc to cite it)
+
+==============================================================================
+E-3  TERM CENSUS -- the terms behind memo 168's claims
+==============================================================================
+         0 arcs /   0 docs :: 'lattice VOA'
+         0 arcs /   0 docs :: 'free boson'
+         0 arcs /   0 docs :: 'six cusps'
+         0 arcs /   0 docs :: 'degree 6 cover'
+         0 arcs /   0 docs :: 'congruence cover'
+         3 arcs /   2 docs :: 'cusp count'
+         8 arcs /   3 docs :: 'multi-cusp'
+         5 arcs /   3 docs :: 'Cardy'
+         2 arcs /   2 docs :: 'cusp-boson'
+         1 arcs /   2 docs :: 'six cusp-boson'
+
+==============================================================================
+E-4  SEND-QUEUE COVERAGE
+==============================================================================
+     rows in docs/SPECIALIST_SEND_QUEUE.md : 6  (Q1, Q2, Q3, Q4, Q5, Q6)
+         0  occurrences of 'L154'
+         0  occurrences of 'sigma'
+         0  occurrences of 'σ'
+         0  occurrences of 'Cardy'
+         0  occurrences of 'central charge'
+         0  occurrences of 'six cusp'
+         0  occurrences of 'multi-cusp'
+         0  occurrences of 'boundary CFT'
+         0  occurrences of 'boundary VOA'
+         0  occurrences of 'Brown-Henneaux'
+         0  occurrences of 'E6)_1'
+         0  occurrences of '(E₆)₁'
+     OUTCOME: E4-UNQUEUED
+
+==============================================================================
+SUMMARY: E2-ORPHANS | E4-UNQUEUED
+==============================================================================

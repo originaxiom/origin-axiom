@@ -2012,14 +2012,16 @@
    "slug": "g2 cone",
    "motifs": [
     "monoid",
+    "kappa",
     "eisenstein",
+    "z3_generation",
     "amphichiral_cp",
     "wrt_quantum"
    ],
    "refs": [
     "L79"
    ],
-   "obstacle": "gauge_dict",
+   "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "dead",
    "domain": "dynamics"
@@ -8223,27 +8225,37 @@
    "motifs": [
     "measurement",
     "closing",
+    "naming",
     "eisenstein",
-    "amphichiral_cp"
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
    ],
    "refs": [
     "B287",
     "B599",
+    "B713",
     "B750",
+    "B760",
+    "B860",
     "B861",
     "B862",
     "B870",
+    "B871",
     "B969",
+    "B993",
+    "B994",
     "H5",
     "P1",
     "P2",
     "P3",
+    "P4",
     "P5"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 12,
+   "obstacle_conf": 17,
    "status": "dead",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B141": {
    "slug": "s031 split",
@@ -25825,13 +25837,16 @@
     "coupling",
     "eisenstein",
     "z3_generation",
-    "amphichiral_cp"
+    "amphichiral_cp",
+    "wrt_quantum"
    ],
    "refs": [
     "B593",
     "B599",
     "B859",
     "B860",
+    "B871",
+    "B994",
     "P5"
    ],
    "obstacle": "particle_dict",

@@ -1,0 +1,61 @@
+R1 — DO THE FLAGGED ARCS NAME Q2's SUBJECT AT ALL?
+    B1198: Q2-subject terms present -> NONE
+    B1209: Q2-subject terms present -> NONE
+    => NEITHER arc mentions J3(O), the exceptional domain, the
+       M(O,C) closing, or Tier B.  They are about a 3-MANIFOLD's
+       motive.  ==> OUTCOME F-B: the flag is a KEYWORD COLLISION.
+
+R2 — WAS THE COMPLEX VOLUME ALREADY SWEPT AGAINST SM TARGETS?
+    B1126's sealed period list includes a volume family: True
+    B1126: 16 sealed periods (Kashaev ratios + cross-ratios + bare
+    rational parts + VOLUME/zeta_K(2) FAMILY) x 22 live-fetched SM
+    targets = 352 pairs; 351 below 2 sig figs, consistent with noise.
+    => YES.  The volume is covered as a DIRECT PERIOD.  So B1209's
+       'the complex volume is a Beilinson regulator' does NOT open
+       an untested SM route: that route was already swept and is a
+       banked negative.
+
+R3 — THE ONE GENUINE RESIDUAL (stated at its actual strength):
+    B1137's basis, as listed in its own claim: {L(n,chi-3) n=1..6, zetaK(n) n=2..6 [Q(sqrt-3)], L(n,chi5) n=1..4, zetaF(n) n=2..4 [Q(sqrt5)], pi, sqrt3, sqrt5, logphi, zeta(3)}
+    is the volume (or CS) a member of that basis? NO
+    B1126 tested the volume as a DIRECT RATIO against SM targets.
+    B1137 tested BOUNDED-HEIGHT ALGEBRAIC COMBINATIONS of a basis
+    that does NOT list the volume.  Those are different instruments:
+    a direct-ratio null does not cover the combination sweep.
+    ==> RESIDUAL, small and nameable: the complex volume is covered
+        as a period (B1126) but was NOT a basis element in B1137's
+        combination sweep.  B1209 makes it a legitimate candidate
+        basis member (it is a Beilinson regulator over the object's
+        own field).  Adding it and re-running B1137 is a bounded
+        in-house cell — NOT a specialist question, and NOT a hole in
+        the negative: it is an untested corner of one instrument.
+
+R4 — THE DISPOSITION OF Q2.
+  MEMO 138's STALE FLAG ON Q2 IS CORRECTED: substantially a FALSE
+  POSITIVE of a keyword detector, of exactly the shape B1210 caught on
+  its own first pass.  Q2's ASK STANDS AS WRITTEN — its subject (do
+  exceptional-domain regulators reach the 18 sealed SM targets?) is
+  untouched by anything banked since the queue was built.
+  TWO HONEST ADDITIONS to its status line, both small:
+   (i) cite B1209 as ADJACENT-NOT-CONTRADICTING — an outside published
+       Beilinson regulator over our own field exists, for a different
+       object and a geometric target.  A specialist in this area will
+       know that paper; saying we know it too costs nothing and reads
+       better than silence.
+   (ii) name the B1137 basis corner ourselves, with its size stated: the
+       volume is swept as a period (B1126) but is not a basis element in
+       the combination sweep.  Naming it pre-empts the obvious referee
+       question and costs one clause.
+  AN ERROR CAUGHT INSIDE THIS CELL, recorded because it is this cell's own
+  subject: R3's first version tested `"vol" in claim` and returned TRUE —
+  "vol" being a substring of "inVOLves".  A substring false positive, in
+  the cell written to catch a keyword false positive.  Fixed by extracting
+  the basis and matching on WORDS.  The lesson is the cell's thesis
+  applied to itself: a keyword detector must be spot-checked on its own
+  hits, INCLUDING when the detector is mine and the hit confirms what I
+  expected.
+  MEMO 138's OTHER CALLS ARE UNAFFECTED: Q1's staleness was verified
+  case-by-case in that memo (the Lee reading, the base-point closure, the
+  CS=0 check), not left to the keyword hits — so the Q1 rewrite stands.
+  Q3-Q6 remain READY.
+  FENCE: nothing sent, no external contact.  Gate 5 untouched.

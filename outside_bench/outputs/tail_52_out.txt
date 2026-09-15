@@ -1,0 +1,68 @@
+Park eq (10), n=2: braid relation holds: True
+Park eq (10), n=3: braid relation holds: True
+Park eq (10), n=4: braid relation holds: True
+
+==============================================================================
+C1  J_2(m(5_2)) against the Jones polynomial
+==============================================================================
+   J_2 = q^1 [1, -1, 2, -1, 1, -1]
+   |V(-1)| = 7 ; det(5_2) = 7 -> PASSED
+
+==============================================================================
+C2  4_1: both ends must be (q;q)_inf  (amphichiral, so they coincide)
+==============================================================================
+   n=6 : q^-30 .. q^30
+   n=7 : q^-42 .. q^42
+   bottom : [1, -1, -1, 0, 0, 1]
+   top    : [1, -1, -1, 0, 0, 1]
+   (q;q)_inf: [1, -1, -1, 0, 0, 1, 0, 1]
+   C2: PASSED
+
+==============================================================================
+m(5_2).  c = -1/16 < 0, so its blocks run DOWN and memo 177 addendum 7's
+surviving end-rule selects the BOTTOM end.
+==============================================================================
+   n=6 : q^5 .. q^80
+   n=7 : q^6 .. q^111
+   n=8 : q^7 .. q^147
+   n=9 : q^8 .. q^188
+   bottom end, stabilised : [1, -1, 0, 1, 0, 0, -1, 0]
+   top end,    stabilised : []
+   sum_{k>=0} (-1)^k q^{k(k+1)/2} : [1, -1, 0, 1, 0, 0, -1, 0]
+
+   >>> Phi_{m(5_2)} = sum_{k>=0} (-1)^k q^{k(k+1)/2}   -- a FALSE THETA, not (q;q)_inf
+       matched on 8 stabilised coefficients : YES
+
+------------------------------------------------------------------------------
+   CORROBORATION FROM PARK'S OWN PRINTED BLOCKS (independent of the R-matrix):
+     Park p.15 : f_0^{m(5_2)}(q) = -q^{-1} sum_{j>=0} (-1)^j q^{j(j+1)/2}  =  -q^{-1} Phi
+     Park p.17 : f_1^{m(7_3)}(q) = -q^{-2} +q^{-1} -q +q^4 -q^8 +q^13 -q^19 +q^26 -q^34 +q^43
+                = -q^{-2} Phi exactly, on all ten printed terms : True
+     So the tail IS the first non-zero block of F^+, up to a monomial, for BOTH
+     of Park's printed twist-knot examples.  Stated as an observation on two knots.
+
+==============================================================================
+WHAT THE MECHANISM THEN PREDICTS
+==============================================================================
+   C3 CONTROL first: the bench's own estimator on 1/(q;q)_inf, built additively
+      c_eff(1/(q;q)_inf) on n in [15000,30000] = 0.999984   (must be 1) -> PASSED
+
+   1/Phi_{m(5_2)}, exact integers : [1, 1, 1, 0, -1, -2, -1, 1, 4, 5, 2, -5]
+   growth of |a_n| -- the reciprocal of a FALSE theta has a pole inside |q|<1:
+      n=100    log|a_n| =      24.81   |a_n|^(1/n) = 1.281563
+      n=500    log|a_n| =     125.77   |a_n|^(1/n) = 1.286001
+      n=1500   log|a_n| =     379.04   |a_n|^(1/n) = 1.287486
+      n=3000   log|a_n| =     760.79   |a_n|^(1/n) = 1.288650
+      n=6000   log|a_n| =    1521.77   |a_n|^(1/n) = 1.288693
+   log|a_n| grows LINEARLY in n (|a_n|^(1/n) -> 1.2880), not like sqrt(n).
+   Phi has a complex zero at |q| = 1/1.2880 = 0.7764, and 1/Phi's radius of
+   convergence is that.  Hence, with c_eff = (3/2pi^2) limsup (log|a_n|)^2/n :
+      the same fit3 on n in [  750, 1500] returns     167.24
+      the same fit3 on n in [ 1500, 3000] returns     340.31
+      the same fit3 on n in [ 3000, 6000] returns     681.69
+   -- it DOUBLES when the window doubles, which is the signature of
+      (log|a_n|)^2/n ~ alpha^2 n -> infinity.   c_eff(1/Phi_{m(5_2)}) = INFINITY.
+
+==============================================================================
+CONTROLS: {'C1': 'PASSED', 'C2': 'PASSED', 'identified': 'PASSED', 'C3': 'PASSED'}
+ALL CONTROLS PASSED.

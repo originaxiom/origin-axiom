@@ -1,0 +1,70 @@
+==============================================================================
+Q7 -- ROUTE A: THE ARITHMETIC, THE DIMENSION, THE HYPOTHESES
+==============================================================================
+
+R-1  K = Q[x]/(x^3 - 12x - 5)   [B990's classifying cubic etale algebra]
+     irreducible over Q: True
+     discriminant = 6237   factored = {3: 4, 7: 1, 11: 1}   [B1093: 6237 = 3^4*7*11]
+     roots: 3 real, 0 complex-conjugate pair(s)
+        -3.23319369349 (real)
+        -0.422972692468 (real)
+        3.65616638596 (real)
+     signature (r1, r2) = (3, 0)  =>  K (x) R = R x R x R  (totally real)
+     disc a rational square: False  =>  Galois group = S3
+
+R-2  DIMENSION COUNT along the chain (exact integers, standard Lie dimensions)
+     dim E6 = 78, dim 27 = 27, dim F4 = 52, dim 26 = 26
+     (a) stabilizer in E6 of a rank-3 (nonzero-norm) element of the 27:
+         E6 acts with a 1-dim invariant (the cubic norm), so the generic orbit has
+         dim 27 - 1 = 26;  stabilizer dim = 78 - 26 = 52 = dim F4 = 52   MATCH: True
+     (b) that F4 then acts on the 26 (trace-zero Albert algebra), with 2 invariants
+         (a quadratic and a cubic form), so the generic orbit has dim 26 - 2 = 24;
+         stabilizer dim = 52 - 24 = 28 = dim Spin(8) = 28   MATCH: True
+
+     => the generic stabilizer of a PAIR (x in 27, y in 27bar) has dimension 28,
+        which is dim D4. **EVIDENCE, NOT AN IDENTIFICATION** (seal clause 2).
+
+R-3  STRONG APPROXIMATION (Kneser-Platonov) -- hypotheses, one line each
+
+     THE STATEMENT: if H/Q is semisimple, SIMPLY CONNECTED, Q-SIMPLE and H(R) is
+     NON-COMPACT, then H(Q) is dense in H(A_f) and the CLASS SET is TRIVIAL --
+     i.e. exactly ONE integral orbit inside the rational one.
+
+     [HOLDS-CONDITIONALLY ] simply connected
+        HOLDS *if* the stabilizer is a form of Spin(8): Spin(8) is the simply connected group of type D4,
+        and forms of a simply connected group are simply connected.
+     [HOLDS-CONDITIONALLY ] Q-simple
+        HOLDS *if* the stabilizer is an OUTER (triality) form twisted by the cubic field K: with K a
+        FIELD (R-1: irreducible) the twist does not split the group over Q, so it stays Q-simple.
+     [HOLDS               ] H(R) non-compact
+        HOLDS. B904 constructs L(O_split, C'_split) EXPLICITLY OVER Q with ZORN octonions -- the SPLIT
+        octonion algebra, not a division algebra. Split octonions => split Albert algebra => SPLIT F4
+        and SPLIT Spin(8), whose real points are NON-COMPACT. And K (x) R = R^3 (totally real),
+        the SPLIT etale algebra at R, so the trialitarian twist is inner there and cannot compactify it.
+     [UNVERIFIED-HERE     ] the stabilizer IS a form of Spin(8)
+        UNVERIFIED -- but now with THREE CONVERGING pieces of evidence, none of which is a proof:
+        (i) the dimension count above gives exactly 28 = dim D4;
+        (ii) B904 ALREADY CONSTRUCTED tri(O), dimension 28, AS AN EXACT NULLSPACE OVER Q -- the
+             triality algebra itself is banked, not hypothesised;
+        (iii) R-1 finds K TOTALLY REAL with Galois group S3, which is EXACTLY the trialitarian
+             twisting datum (an S3-torsor is a full triality twist of D4).
+        Convergence is evidence. The stabilizer scheme of the object's OWN pair is still uncomputed.
+     [UNVERIFIED-HERE     ] orbit count = class set of the stabilizer
+        The Borel-Serre / Bhargava-style bijection requires G(Z) class number one and a coherent integral
+        model of the stabilizer. NOT CHECKED HERE.
+
+     hypotheses HOLDING conditionally: 3 | UNVERIFIED-HERE: 2
+
+==============================================================================
+VERDICT: R-ROUTE-NAMED
+
+A standard, checkable route exists that B1099's literature floor did not reach: the
+counter B1093 asked for -- "WHICH Kato-Yukie/Bhargava quantity counts integral orbits" --
+may simply be THE CLASS SET OF THE STABILIZER, and strong approximation may make it
+trivial. 2 of 5 hypotheses are UNVERIFIED HERE and are named exactly.
+
+PER THE SEAL'S BINDING FENCE: this cell does NOT conclude that Route A crosses.
+B990's declared UNFAVOURABLE prior stands unrepudiated. The dimension match is
+EVIDENCE, NOT AN IDENTIFICATION.
+
+==============================================================================

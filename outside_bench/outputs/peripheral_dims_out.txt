@@ -1,0 +1,48 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 1: dim ker(rho_Psi(a) - I) = 27  (preregistered anchor: 27)
+FACT 2: dim ker(rho_Psi(lambda) - I) = 12  (measured; expect >= 12)
+        ker(lambda-I) subset ker(a-I): True  (rank 42 -> 42)
+        => the longitude-alone fixed space COINCIDES with the banked
+           joint (mu,lambda)-fixed space (both dimension 12 )
+FACT 3: dim( rho_Psi(b).ker(a-I) cap ker(a-I) ) = 6  (of 27)
+        ker(rho_Psi(a)-I) invariant under rho_Psi(b): False
+FACT 4a: internal 27 weight-parity split: odd(wt=+-1)=12, even(wt=0)=15
+FACT 4b: lock split of ker(rho_Psi(a)-I): locked=12, unlocked=15
+        => FACT 4a and FACT 4b agree numerically: 12=12, 15=15
+FACT 4'.1: N27^2 = 0 (single-root exponential is order-2 nilpotent): True
+FACT 4'.2: N27 has nonzero entries across the odd/even parity blocks: False
+           (forced: c27 commutes with A27, cf. memo 51 FACT 1)
+FACT 4'.3: N27 vanishes identically on the 15-dim even (wt=0) block: True
+           => the WHOLE even block lifts freely (e1 (x) even-block) into
+              ker(rho_Psi(a)-I): the '15' match is STRUCTURAL/forced.
+FACT 4'.4: on the 12-dim odd block, rank(N27|odd)=6, nullity(N27|odd)=6
+           (rank=nullity=6 is NOT forced by rank-nullity alone -- it is a
+            genuine fact about r0, verified here, not assumed)
+FACT 4'.5: dim ker(N27) = 21, rank(N27) = 6, sum = 27 (= dim of the 27)
+           => dim ker(rho_Psi(a)-I) = dim ker(N27) + rank(N27) = 27 is the
+              rank-nullity theorem for N27 acting on the 27 ITSELF: this holds
+              for ANY single-root-vector meridian, not just r0 -- STRUCTURAL.
+FACT 4'.6: explicit parametrized basis built: 27 vectors (15 free-even + 6 odd-homogeneous + 6 odd-lifted)
+           rank of the explicit basis: 27
+           rank(explicit basis + computed nullspace) = 27 (same span)
+           => every element of ker(rho_Psi(a)-I) IS of the derived shape
+              v = e1(x)x + e2(x)y,  y in ker(N27),  N27 x = -y.
+
+CONCLUSION: dim ker(rho_Psi(a)-I) = 27 (anchor, structural via rank-nullity of the
+internal nilpotent N27 = A27-I on the 27 itself: ANY single-root-vector meridian
+forces this, for any e6-27 bridge root). dim ker(rho_Psi(lambda)-I) = 12, and it
+COINCIDES with (not just contains) the banked joint cusp-fixed space. ker(a-I) is
+NOT rho_Psi(b)-invariant (intersection dimension 6 of 27). The 12/15
+coincidence between the internal 27's weight-parity split and the lock split of
+ker(a-I) is REAL (both computed independently, agree exactly) but has TWO
+different causes: the 15 is forced (N27 kills the whole even/wt=0 block outright,
+so it always contributes its full dimension), while the 12 is a genuine
+(verified) numeric fact that rank(N27|odd) = nullity(N27|odd) = 6 for this
+particular root r0 -- not a general theorem. The kernel's exact parametrized
+shape is derived and checked directly above. Gate 5 untouched: no measured
+physical constants entered any computation.

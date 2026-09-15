@@ -1,0 +1,86 @@
+MMR LINK (checked, not assumed)
+--------------------------------------------------------------------------
+   coefficients of x^{1/2}(1-x)/(x^2-3x+1) equal Xi_k(1) = F(2k-1) to k=29: True
+   (this is MMR: F_K(x,q->1) = (x^{1/2}-x^{-1/2})/Delta_K(x), up to sign)
+   Xi_k(1) verified against the recursion to k=150 by xi_recursion_fast.py
+
+ARM A  --  4_1, p/r = -1/2, the published hyperbolic case
+--------------------------------------------------------------------------
+   lambda = largest root of x^2-3x+1 = 2.618033989 = phi^2
+   law      c_eff = 0.070387265
+   MEASURED c_eff = 0.069423000   (raw slope fit, no correction applied)
+   measured/law = 0.9863
+   the SAME estimator on cases with known answer: measured/true = 0.9834, 0.9803
+   deviation from the law 0.0137  vs  the estimator's own worst bias 0.0197
+   ARM A: PASS  (the series agrees with the law at least as
+           well as the estimator agrees with answers that are known exactly)
+
+ARM B  --  3_1, p/r = -1  (S^3_{-1}(3_1) = Sigma(2,3,7))
+--------------------------------------------------------------------------
+   Delta_{3_1} = t^2 - t + 1 (cyclotomic Phi_6); largest root modulus = 1.000000
+   law    c_eff = 0.000000000
+   memo 174 measured the Prop 4.8 false theta for Sigma(2,3,7): c_eff = 0
+   ARM B: PASS
+   NOTE the law therefore does NOT say 'hyperbolic => c_eff > 0'.  It says
+   c_eff > 0 iff Delta_K has a root off the unit circle.  Torus knots have
+   cyclotomic Delta and give 0; so do the hyperbolic knots with Delta_K = 1.
+
+ARM C  --  can the law ever give c_eff = c((E6)_1) = 6 ?
+--------------------------------------------------------------------------
+   c_eff = 6  <=>  |p/r| (log lambda)^2 = 4 pi^2  <=>  log lambda = 2 pi / sqrt(Q)
+   with Q = |p/r| a positive rational,  <=>  lambda = e^{pi sqrt(4/Q)}.
+   Gelfond: e^{pi sqrt(d)} is transcendental for every positive rational d.
+   lambda is an algebraic integer (a root of the integral polynomial Delta_K).
+   => CONTRADICTION.  c_eff = 6 is reached by NO knot in S^3 and NO rational slope.
+   This is exact, not numerical.  Nearest approaches are dense but never equal:
+      4_1  lambda=phi^2    would need |p/r| = 42.621346   (irrational unless lambda = e^{2pi/sqrt(Q)})
+      6_2-type lambda~2.9  would need |p/r| = 34.825429   (irrational unless lambda = e^{2pi/sqrt(Q)})
+      lambda=e             would need |p/r| = 39.478418   (irrational unless lambda = e^{2pi/sqrt(Q)})
+
+ARM D  --  lambda by Fox calculus from SnapPy presentations
+--------------------------------------------------------------------------
+   knot     Delta_K coefficients                  lambda        vol   c_eff at p/r=-1/2
+   3_1      [1, -1, 1]                          1.000000   0.00000   0.000000000
+   4_1      [1, -3, 1]                          2.618034   2.02988   0.070387265
+   5_1      [1, -1, 1, -1, 1]                   1.000000   0.00000   0.000000000
+   5_2      [2, -3, 2]                          1.000000   2.82812   0.000000000
+   6_1      [2, -5, 2]                          2.000000   3.16396   0.036510051
+   6_2      [1, -3, 3, -3, 1]                   2.153721   4.40083   0.044727596
+   6_3      [1, -3, 5, -3, 1]                   1.722084   5.69302   0.022450016
+   7_1      [1, -1, 1, -1, 1, -1, 1]            1.000000   0.00000   0.000000000
+   7_2      [3, -5, 3]                          1.000000   3.33174   0.000000000
+   7_3      [2, -3, 3, -3, 2]                   1.000000   4.59213   0.000000000
+   7_4      [4, -7, 4]                          1.000000   5.13794   0.000000000
+   8_18     [1, -5, 10, -13, 10, -5, 1]         2.618034  12.35091   0.070387265
+   8_19     [1, -1, 0, 1, 0, -1, 1]             1.000000   0.00000   0.000000000
+   8_20     [1, -2, 3, -2, 1]                   1.000000   4.12490   0.000000000
+   9_42     [1, -2, 1, -2, 1]                   1.883204   4.05686   0.030446242
+   10_132   [1, -1, 1, -1, 1]                   1.000000   4.05686   0.000000000
+   12n242   [1, -1, 0, 1, -1, 1, -1, 1, 0, -1, 1]  1.176281   2.82812   0.002003119
+
+   sanity: 4_1's row must read lambda = phi^2 and c_eff = the arm-A value
+   ARM D self-check: PASS
+
+ASSUMPTION CHECKS (the two places the law could break)
+--------------------------------------------------------------------------
+   S1  every coefficient of Xi_k is >= 0 for k <= 150 : True
+       -> Xi_k(1) is the L^1 norm of the block, so the peak coefficient is
+          between Xi_k(1)/width and Xi_k(1); width is polynomial in k, hence
+          a log correction only, and the exponential rate is lambda^k.
+   S2  blocks overlap and DO cancel in the assembled series (14 exact zeros in q^0..q^39524);
+       the measurement in ARM A is on the assembled series, so this cancellation
+       is already inside the number that agrees with the law.
+
+COROLLARY (arithmetic, not physics)
+--------------------------------------------------------------------------
+   12n242 = the (-2,3,7)-pretzel knot: lambda = 1.176280818
+   That is Lehmer's number, the smallest known Mahler measure > 1.
+   c_eff at p/r = -1/2 is 0.002003119.
+   The law therefore turns LEHMER'S CONJECTURE into a statement about Zhat:
+   a uniform gap for Mahler measures of Alexander polynomials is exactly a
+   SPECTRAL GAP above 0 in c_eff over all knots at a fixed slope.  This is a
+   restatement, not a proof of either side, and it is offered as such.
+
+==========================================================================
+ARMS  A PASS   B PASS   C exact (Gelfond)   D PASS
+==========================================================================

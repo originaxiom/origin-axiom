@@ -23,6 +23,13 @@ Machinery reused/adapted (all read-only, all F4-verified by this seat):
 Every number lives in L = Q(s,i) (Fraction-pairs on a 4x4 basis {1,s,s^2,s^3}
 each real/imaginary part). Zero floats anywhere in the portal path.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import os
 import sys
 import time
@@ -39,7 +46,7 @@ def log(msg):
 
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-B649 = "<repo>/frontier/B649_silver_holonomy"
+B649 = _R("frontier/B649_silver_holonomy")
 SWAP = os.path.join(B649, "b649_stage3b_swap.py")
 
 d = 27

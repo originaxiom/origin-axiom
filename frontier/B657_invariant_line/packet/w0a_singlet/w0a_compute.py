@@ -4,6 +4,13 @@ Spin(10)xU(1) branching 16(1)+10(-2)+1(4); THE DECISIVE NUMBER = h_pr-eigenvalue
 of the GUT-singlet weight; the exact overlap <v0, w_singlet>.
 Exec pattern for the B575 prefix follows d5_triality.py / cell3b_stage1.py exactly.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import os, sys, time, json
 from fractions import Fraction as Fr
 from collections import Counter
@@ -14,7 +21,7 @@ T0 = time.time()
 def log(msg):
     print(f"[{time.time()-T0:7.1f}s] {msg}", flush=True)
 
-B575 = "<repo>/frontier/B575_bridge_obstruction/l51_obstruction.py"
+B575 = _R("frontier/B575_bridge_obstruction/l51_obstruction.py")
 OUT = "<seat-workdir>/invariant_line/w0a_singlet"
 
 src = open(B575).read()

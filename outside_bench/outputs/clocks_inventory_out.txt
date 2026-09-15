@@ -1,0 +1,54 @@
+P1 — THE LAYER FLOW'S GROWTH, exactly (z' = z^2 - kappa):
+
+     n                      |z_n|   log|z_{n+1}| / log|z_n|
+     0              1.73205080757   2.261859507
+     1              3.46410161514   1.853256816
+     2                       10.0   2.164352856
+     3                      146.0   1.921323871
+     4                    14402.0   2.040934412
+     5                306950402.0   1.979943298
+     6          6.36669165148e+16   2.010129937
+     7          5.99860451167e+33   1.994960556
+     8          2.43152009722e+67   2.002526087
+     9         8.74940103399e+134   1.99873855
+    10         5.17289960922e+269   2.000631123
+
+    the ratio converges to 2.0006311232 -> EXACTLY 2:
+    the layer flow is SUPER-EXPONENTIAL (log|z| doubles each level).
+
+P2 — AGAINST THE BANKED RATES:
+    the record's stretching pulse      phi   = 1.61803398875
+    its square (per double-tick)       phi^2 = 2.61803398875
+    the banked entropy rate          2 log phi = 0.962423650119
+    the layer flow's per-level exponent        = 2 (exact)
+    => DIFFERENT GROWTH CLASS.  The pulse is EXPONENTIAL in the tick
+    (phi^n); the layer flow is DOUBLY exponential in the level
+    (log|z| ~ 2^n).  They are not the same clock, and no banked map
+    identifies a LEVEL with a TICK — so they are incommensurable as
+    they stand, not merely unequal.
+
+P3 — THE VERDICT, including a correction to this bench's own memo 118:
+  MEMO 118 SAID the layer flow supplies "the FORM of a dynamics, and
+  the record did not have one."  **That clause is WITHDRAWN.**  The
+  record already had a flow — B721's Anosov suspension, real,
+  hyperbolic, measure-preserving — with a dimensionless rate (phi per
+  tick) and an entropy (2 log phi).  Memo 118's derivation and its
+  closed form stand; its novelty claim does not.
+  WHAT SURVIVES, correctly stated: the layer flow is a THIRD flow,
+  distinct from both banked ones —
+     * the Anosov suspension : tracial type II_1, rate phi, EQUILIBRIUM
+       (no thermal arrow), the object's own time;
+     * the Fricke map T      : kappa-PRESERVING, carries memo 94's
+       two-branch law and its conditional arrow;
+     * the layer flow L      : kappa-BREAKING (memo 119: uniquely so
+       among the banked maps), super-exponential, and non-commuting
+       with T (memo 119).
+  So the object side alone now carries MORE THAN ONE FLOW, which
+  B721's "two clocks" (object vs observer) did not anticipate.  That
+  is the positive finding here, and it is new.
+  AND THE GAP, RESTATED CORRECTLY: what the record lacks is not time
+  but (i) THE SECOND — the dimensionful conversion — and (ii) THE
+  THERMAL ARROW, since the object's own clock is an equilibrium clock
+  with trivial modular flow.  Every future statement of the schedule
+  wall should say those two things and not "no time".
+Gate 5 untouched.

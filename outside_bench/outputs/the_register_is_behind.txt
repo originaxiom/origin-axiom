@@ -1,0 +1,82 @@
+==============================================================================
+THE LEAD REGISTER AGAINST ITS OWN ARCS
+HEAD = 9125c797
+==============================================================================
+
+--- L53: the row says OPEN; the row above it says CLOSED ---
+  [OK ] the duplicate L53 row calls itself open
+         docs/OPEN_LEADS.md:521
+         "OPEN — first in the queue"
+  [OK ] the primary L53 row states it is closed
+         docs/OPEN_LEADS.md:270
+         "L53 CLOSED."
+  [OK ] with the arc that closed it
+         docs/OPEN_LEADS.md:270
+         "THIRD ORDER NOW ALSO EXACT (B578-D1, 2026-07-14)"
+
+--- L72: the row gates phases 2-3 on phase 1; both have run ---
+  [OK ] the row gates 2-3 on phase 1
+         docs/OPEN_LEADS.md:531
+         "Phases 2-3 (E₆ 6j at levels 1-2; the CS functional along the θ-odd deformation) gated on phase 1"
+  [OK ] and calls L72 open
+         docs/OPEN_LEADS.md:531
+         "| MATH | ★★★ | OPEN (B579) |"
+  [OK ] the cell states phase 1 is banked
+         frontier/B775_phase2_wave1/cells/P2W5-L72/compute.py:6
+         "PHASE 1 is banked: B581"
+  [OK ] and that it runs phases 2 and 3
+         frontier/B775_phase2_wave1/cells/P2W5-L72/compute.py:11
+         "THIS CELL RUNS PHASES 2 AND 3."
+  [OK ] and the wave findings carry its row
+         frontier/B775_phase2_wave1/FINDINGS_WAVE5.md:22
+         "**P2W5-L72**"
+
+--- L78: the row says OPEN; the arc says it resolves ---
+  [OK ] the L78 row calls itself open
+         docs/OPEN_LEADS.md:552
+         "OPEN — Round 2 first"
+  [OK ] the arc says L78 resolves
+         frontier/B583_chiral_content/FINDINGS.md:45
+         "L78 resolves"
+  [OK ] with the number it resolved it on
+         frontier/B583_chiral_content/FINDINGS.md:43
+         "Level 2: rank exactly 6 = dim(θ-even) over 719 slopes"
+
+--- L174: the row says C1 first; C1-C4 are all DONE ---
+  [OK ] the L174 campaign row says C1 first
+         docs/OPEN_LEADS.md:1922
+         "OPEN — C1 first"
+  [OK ] C1 is banked
+         docs/OPEN_LEADS.md:1915
+         "**DONE (B1088"
+  [OK ] C2 is banked
+         docs/OPEN_LEADS.md:1916
+         "**DONE (B1090"
+  [OK ] C3 is banked
+         docs/OPEN_LEADS.md:1917
+         "**DONE (B1089"
+  [OK ] C4 is banked
+         docs/OPEN_LEADS.md:1918
+         "**DONE (B1091"
+
+--- what B583's arc directory actually contains (the gap memo 206 filled) ---
+  ['FINDINGS.md', 'READING_RAW.md', 'arc_verdict.json', 'x2r_recompute.py']
+  the arc's lock defines: ['test_x1_witness_is_banked_b572_value', 'test_x3_mechanism_level1']
+  CONFIRMED: the arc's only X3 lock is the LEVEL-1 mechanism; no level-2 code exists in it.
+
+--- the two independent builds of the E6 level-2 stage agree ---
+  h[000000] = 0  = 0.000000   both builds
+  h[000001] = 13/21  = 0.619048   both builds
+  h[000002] = 4/3  = 1.333333   both builds
+  h[000010] = 25/21  = 1.190476   both builds
+  h[001000] = 25/21  = 1.190476   both builds
+  h[010000] = 6/7  = 0.857143   both builds
+  h[100000] = 13/21  = 0.619048   both builds
+  h[100001] = 9/7  = 1.285714   both builds
+  h[200000] = 4/3  = 1.333333   both builds
+  AGREE on all nine conformal weights.  P2W5-L72 reached 3.4e-41 with high precision;
+  memo 206 reached 5.7e-15 in float64 from an independent integer Weyl sum.
+
+==============================================================================
+ALL STRING ASSERTIONS HOLD AT THIS HEAD.
+==============================================================================

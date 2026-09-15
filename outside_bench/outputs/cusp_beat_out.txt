@@ -1,0 +1,15 @@
+relator R(A,B) = +I: True (the chi=+1 lift)
+longitude lambda = bABaaBAb: trace = (Fraction(-2, 1), Fraction(0, 1))  (banked: -2 on this lift)
+peripheral check: [mu, lambda] = 1: True
+beta(mu) = +mu: True
+beta(lambda) among {+-lambda^{+-1}}: ['+lambda^-1']
+
+=> Omega_cusp = [[1,0],[0,-1]] on H1(dM;Z) = Z<mu> (+) Z<lambda>:
+   meridian FIXED (sign +, the spin-selected lift's sign on the nose),
+   longitude REFLECTED (again sign +: chi(lambda)=+1, consistent with
+   lambda in the commutator subgroup - H1(M)=Z kills it).
+   order 2, det -1 - the beat is a REFLECTION of the cusp lattice,
+   against the fiber tick's [[2,1],[1,1]] (trace 3, INFINITE order):
+   ONE BEAT, TWO LATTICES, TWO ORDERS.  VII.1's mirror law (meridian
+   fixed, longitude inverted) is re-derived from the beat itself, with
+   the SL(2) signs exact - no sign anomaly anywhere on the cusp.

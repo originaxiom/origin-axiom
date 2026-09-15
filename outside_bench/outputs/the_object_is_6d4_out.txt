@@ -1,0 +1,107 @@
+
+==============================================================================
+CELL 1 -- is the object's charge field K cyclic?  (C1: two independent models)
+==============================================================================
+       mu, the branch-locus model
+          irreducible/Q True   disc {2: 32, 3: 10, 5: 2, 7: 3, 11: 1, 13: 12}
+          disc a square in Q: False   squarefree part 77
+          P factors over K as [1, 2]  ->  |Aut(K/Q)| = 1
+       x^3 - 12x - 5, the monic model
+          irreducible/Q True   disc {3: 4, 7: 1, 11: 1}
+          disc a square in Q: False   squarefree part 77
+          P factors over K as [1, 2]  ->  |Aut(K/Q)| = 1
+  [OK ] C1 -- both models agree on cyclicity
+
+  CELL 1 = B  -- K is NON-CYCLIC and |Aut(K/Q)| = 1: it has no automorphism of order 3
+
+==============================================================================
+rebuilding the 30, its derived 28, and the 48 -- from the structure constants, here
+==============================================================================
+       centraliser of the dual pair: dim 30   derived: dim 28   complement: dim 48
+
+==============================================================================
+CELL 2 -- the REAL form of the 28, by the Killing signature (C2: exact congruence)
+==============================================================================
+       Killing Gram symmetric: True   rank: 28
+  [OK ] C2 -- signature routine on identity 4x4  (4, 0, 0)
+  [OK ] C2 -- signature routine on diag(1,-1,1,-1)  (2, 2, 0)
+  [OK ] C2 -- signature routine on hyperbolic plane  (1, 1, 0)
+  [OK ] C2 -- signature routine on zero 3x3  (0, 0, 3)
+
+       KILLING SIGNATURE of the 28: (+16, -12, 0:0)  -> so(4,4) = THE SPLIT REAL FORM
+  CELL 2 = B
+
+==============================================================================
+CELL 3 -- is the cubic indexing the three 16s SPLIT, or a FIELD?
+==============================================================================
+
+       ad(x8)^2 on the 48:
+          charpoly = (deg-3 factor)^16   irreducible True
+          disc {2: 66, 3: 22, 5: 2, 7: 9, 11: 1}   square: False   squarefree 77
+          the cubic ANNIHILATES it (C4): True  -> Q[ad(x8)^2] is a degree-3 FIELD
+          commutes with all 28 of the 28 (C3): True   (failures 0/28)
+          GENERATES K: True
+
+       ad(x16)^2 on the 48:
+          charpoly = (deg-3 factor)^16   irreducible True
+          disc {2: 126, 3: 40, 5: 14, 7: 15, 11: 7, 13: 12}   square: False   squarefree 77
+          the cubic ANNIHILATES it (C4): True  -> Q[ad(x16)^2] is a degree-3 FIELD
+          commutes with all 28 of the 28 (C3): True   (failures 0/28)
+          GENERATES K: True
+  [OK ] C3 -- BITE: a member of the 28 itself does NOT commute with all of the 28
+  [OK ] C3 -- BITE: a random 48x48 matrix does NOT commute with all of the 28
+  [OK ] C5 -- the cell is run for BOTH dual-pair charges
+
+  CELL 3 = B
+
+==============================================================================
+VERDICT
+==============================================================================
+  CELL 1 = B   CELL 2 = B   CELL 3 = B   controls: ALL PASS
+
+  THE OBJECT'S D4 IS OF TYPE 6D4, AND IT CARRIES NO TRIALITARIAN AUTOMORPHISM OVER Q.
+
+  THE ARGUMENT, with every premise computed above or quoted from the source:
+
+   1. A degree-3 FIELD lies in the commutant of the 28 acting on the 48.  Verified twice
+      independently -- from ad(x8)^2 and from ad(x16)^2 -- with the annihilation check (C4) so
+      that the algebra really is a degree-3 field, and with both bite controls firing (C3).
+
+   2. IF L WERE SPLIT, the three 16s would be individually Q-rational and the commutant would be
+      Mat2(Q) x Mat2(Q) x Mat2(Q).  A cubic field CANNOT embed there: K is simple, so each
+      projection is 0 or injective, and an injective one would make K a subfield of Mat2(Q),
+      whose subfields have degree at most 2.  3 does not divide 2.
+      => L IS NOT SPLIT.  THE OBJECT IS NOT OF TYPE 1D4.
+
+   3. L is a cubic field with NON-SQUARE discriminant (squarefree part 77), so it is NON-CYCLIC,
+      and |Aut(K/Q)| = 1 -- computed from two independent models of the field (CELL 1).
+      By the type table, L non-cyclic => THE OBJECT IS OF TYPE 6D4.
+
+   4. By Theorem 4.1, a group admitting an outer automorphism phi with phi^3 inner is of type
+      1D4 or 3D4.  THE OBJECT IS NEITHER.  So it admits NO trialitarian automorphism over Q.
+      Independently: a cyclic composition requires an automorphism of L of ORDER 3, and
+      Aut(K/Q) = 1, so K admits NO cyclic composition at all.
+
+  WHAT THIS DOES TO B882.  B882's conjecture is "the arithmetic S3 IS the geometric S3".  The
+  arithmetic cubic IS K -- obtained here from the object's own FORCED charges, with no enhancement
+  triple anywhere, so the circularity B1077 named does not apply.  But the geometric S3 is
+  TRIALITY, and the theorem says a non-cyclic cubic is exactly what makes triality fail to exist
+  over the base field.  THE TWO S3's ARE NOT THE SAME OBJECT; THEY ARE INCOMPATIBLE.  B882's
+  conjecture is refuted in the direction nobody was checking.
+
+  AND IT RESOLVES A TENSION RATHER THAN CREATING ONE: the 28 is SPLIT OVER R (Killing signature
+  (16,12) = so(4,4), CELL 2) while its cubic is a FIELD over Q.  Real-split, arithmetically
+  twisted.  Both hold; neither implies the other.
+
+  A CONFLICT WITH A BANKED CLAIM, FLAGGED AND NOT RESOLVED HERE.  B1077/W4 state that "the
+  UNDRESSED algebra attaches the split cubic Q^3 -- trivial discriminant, no 77".  This
+  certificate computes the cubic from the object's D4 AS IT SITS IN e6 WITH ITS FORCED CHARGES,
+  and gets K.  The two may be consistent (bare versus dressed) or may not.  THIS BENCH DOES NOT
+  ADJUDICATE IT BY ASSERTION; it is recorded as a conflict between two computations, to be settled
+  by reproducing B1077's, not by preferring one.
+
+  WHAT THIS DOES NOT DO.  It does not compute the full commutant (expected dim 12 with centre 3);
+  the argument above deliberately avoids needing it.  It produces no value, ratio or prediction.
+  Gate 5 untouched.
+
+Gate 5 untouched.  No measured value is used or named.

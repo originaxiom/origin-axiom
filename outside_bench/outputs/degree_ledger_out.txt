@@ -1,0 +1,29 @@
+GATE A PASS: 19 ledger rows, degree set [-2, 0, 1, 3] — all integers,
+   generating a RANK-1 lattice: ONE scale suffices for the whole record.
+GATE B PASS: all 8 banked cross-relations are DEGREE-HOMOGENEOUS
+   under L -> lam L (symbolic, identically in lam) — no relation smuggles
+   a second scale.
+   (pure-number anchors re-pinned from memo 91's banked output.)
+GATE C PASS: every tick-schedule row has degree 0 — the schedule IN TICKS
+   is pure object structure (stretch phi, entropy 2 log phi, counts).
+
+THE SCHEDULE WALL, FORMALIZED (all three gates GREEN):
+  * ONE scale: the record's entire dimensionful content lives on a
+    rank-1 degree lattice — every quantity is (pure number) x
+    radius^(integer).  No banked quantity or relation requires a second
+    independent scale.  B1166's C3 (exactly one dilaton) is corroborated
+    at the ledger level; the refutation branch stayed empty.
+  * THE SCHEDULE SPLITS EXACTLY AS THE LAW PREDICTS: in TICK units the
+    schedule is degree-0 object structure (what happens, in what order,
+    with what stretch and entropy per step — all banked, all pure); in
+    SECONDS it needs exactly ONE external datum — the C1 dilaton worn
+    as seconds-per-tick — and the object provably supplies no rate
+    (B716: time is the observer's; B721: the object's clock is tracial).
+  * So the Big Bang's SCHEDULE, as far as the record reaches, is: the
+    dimensionless tick-history (object's) x one unit (the frame's) —
+    the wall is not a wall of ignorance but a rank-1 factorization.
+FENCES: the ledger's completeness is curated from THE_GRAND_TABLE and
+memo 91 (cited), not proven exhaustive — a newly banked dimensionful
+quantity must be added with its degree, and GATE A/B re-run (standing
+maintenance rule); binding energetics and rates remain outside the
+record (the gap list of W4-S2 stands).  Gate 5 untouched.

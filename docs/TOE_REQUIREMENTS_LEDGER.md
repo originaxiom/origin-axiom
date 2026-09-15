@@ -65,3 +65,25 @@ phrasing). Each row names the theory, the choice, and where it is priced.*
 **Reading rule:** a ToE sentence about this record must name the row of §E it stands on. "The Standard Model from m004" stands on rows 4–7
 of this table and on I-26/I-27/I-28; "the SM's gauge algebra and three vector-like generations from one object, with the chirality bit,
 the closing and the values priced as the observer's" stands on none.
+
+---
+
+## ADDENDUM 2026-09-14 — §C row 2's "counts 2" and §D/B1321's "3" ARE DIFFERENT QUANTITIES (outside bench, memo 231 cell 3)
+
+§C row 2 reads *"the object counts 2 at every fixed locus"* with **no frame attached**, and requirement 1
+asks for **three** generations. A reader of this table takes the 2 and the 3 to be the same quantity. **They
+are not**, and the record says so in two different places:
+
+| quantity | on m004 | where the record states it |
+|---|---|---|
+| **\|det(A − I)\|** — the cusp fixed-point count, Pantev–Wijnholt's localized count | **{0, 4}** | `docs/MAIN_GOAL.md`, quoting **B1295 as a banked NEGATIVE**: *"968 isometries, 1 376 cusp-fixing pairs, `\|det(A−I)\| ∈ {0: 882, 4: 494}`"* across all 87 covers to degree 10 |
+| **χ(Fix g) = 1 − s_μ(g)** — the Euler characteristic of the fixed locus in the 3-manifold | **{0, 2}** | `docs/MAIN_GOAL.md`: *"On m004 every isometry has `χ(Fix g) = 1 − s_μ(g) ∈ {0, 2}`"* |
+
+**The "2" of this row is the second quantity. B1321's "3", and requirement 1's three generations, are the
+first.** m004's value in the first frame is **4**, not 2 — and 4 is the generic value: over 4 000 census
+manifolds (all cusp numbers), **89.88 % attain 4**, while **0.050 % attain 3** (two of them, m202 and s959 —
+two of the six B1321 found over 61 911).
+
+**So m004 fails requirement 1's count while carrying the value nine manifolds in ten carry.** This addendum
+adds the frame; **it changes no verdict and strikes nothing.** Certificate:
+`outside_bench/certificates/require_and_test_cell3.py`. Gate 5 untouched; nothing promotes to `CLAIMS.md`.

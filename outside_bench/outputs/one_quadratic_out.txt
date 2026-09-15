@@ -1,0 +1,25 @@
+FACT 1: P(x,z) = -x**2*z + 2*x**2 + z**2 - z - 1
+FACT 2: kappa + tr(ab^-1) mod P = x**2 - 1
+        G(x) = kappa * tr(ab^-1) mod P = x**2 - 1   (z-free: True )
+        conserved-pair quadratic: X^2 - (x^2-1) X + G(x);  disc D(x) = (x - 1)*(x + 1)*(x**2 - 5)
+FACT 3: at x=2 (hyperbolic/Riley): X**2 - 3*X + 3  disc -3
+FACT 4: relator factor at s=i: t**2 - 5*t + 5
+        FULL relator = I verified exactly at s=i, t=(5+sqrt5)/2; z = phi
+        at x=0 (spherical/2I): X**2 + X - 1  disc 5
+        kappa = -1/2 + sqrt(5)/2 = phi-1;  tr(ab^-1) = -sqrt(5)/2 - 1/2 = -phi
+        the pair are the two roots of X^2+X-1: norm -1, a UNIT
+COROLLARY: (kappa-1)(tr(ab^-1)-1) - 1 mod P = 0
+   the shifted pair are mutually inverse UNITS on the whole component;
+   at the Riley point kappa-1 = q (the field generator), inverse 1-q
+
+ONE QUADRATIC, TWO ENDS: on the nonabelian component the conserved pair
+(kappa, tr(ab^-1)) satisfies the single monic quadratic
+    X^2 - (x^2-1) X + G(x),   G(x) = x**2 - 1,   D(x) = (x - 1)*(x + 1)*(x**2 - 5)
+whose hyperbolic specialization (x=2) is the Eisenstein integral X^2-3X+3
+(norm 3 = the ramified prime, disc -3) and whose spherical specialization
+(x=0, the 2I end, relator verified from scratch) is the golden unit
+X^2+X-1 (norm -1, disc 5).  Memo 49's two arithmetic ends are one
+polynomial family read at the two ends of the meridian-trace axis —
+the exact seed under B981/B248's curvature crossover.  The curvature
+reading is INTERPRETIVE and fenced; every displayed identity is computed.
+Gate 5 untouched.

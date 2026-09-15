@@ -1,0 +1,48 @@
+Park eq (10), n=2: braid relation holds: True
+Park eq (10), n=3: braid relation holds: True
+Park eq (10), n=4: braid relation holds: True
+
+==============================================================================
+C1  identify each member of Park's family from its own Jones polynomial
+==============================================================================
+   m=1 : beta = s2^-1  s1^-1 s2 s1^-1   det = 1     J_2 = q^0 [1]
+   m=2 : beta = s2^-3  s1^-1 s2 s1^-1   det = 7     J_2 = q^1 [1, -1, 2, -1, 1, -1]
+   m=3 : beta = s2^-5  s1^-1 s2 s1^-1   det = 13    J_2 = q^2 [1, -1, 2, -2, 3, -2, 1, -1]
+   m=4 : beta = s2^-7  s1^-1 s2 s1^-1   det = 19    J_2 = q^3 [1, -1, 2, -2, 3, -3, 3, -2, 1, -1]
+   determinants 1, 7, 13, 19;  7 = det(5_2) and 13 = det(7_3), which is how Park
+   names the m = 2 and m = 3 braids -> PASSED
+
+==============================================================================
+the stabilising BOTTOM end -- the end memo 177 addendum 7's surviving rule
+selects for these knots, whose blocks run down
+==============================================================================
+   m=1 (UNKNOT) : [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]  -> trivial series 1 : PASSED
+   m=2          : [1, -1, 0, 1, 0, 0, -1]            = Phi on 7 coefficients : True
+   m=3          : [1, -1, 0, 1, 0, 0, -1]            = Phi on 7 coefficients : True
+   m=4          : [1, -1, 0, 1, 0, 0, -1]            = Phi on 7 coefficients : True
+   Phi = sum_{k>=0} (-1)^k q^{k(k+1)/2} = [1, -1, 0, 1, 0, 0, -1, 0, 0, 0]
+
+   >>> all three non-trivial members share the SAME false theta tail : YES
+
+   CONSEQUENCE.  Memo 184 section 3 preregistered two outcomes on whether memo 177
+   addendum 4's mechanism c_edge(K) = c_eff(1/Phi_K) survives a false-theta tail.
+   That cell is not about one knot: 1/Phi has a pole inside the unit disc, so under the
+   mechanism EVERY member of this family has no finite ceiling on c_eff.  Memo 184's
+   declared prior was OUTCOME B, and an infinite family of hyperbolic knots with
+   unbounded c_eff is harder to believe than one, so this pushes the same way.
+
+   FENCES.  (i) The stabilised prefix per knot is the one printed above, and nothing
+   beyond it is used; a series agreeing with 1 - q + q^3 - q^6 in that many coefficients
+   and differing later is not excluded by this alone -- for m(5_2) and m(7_3) the exact coincidence with Park's printed blocks is
+   what makes it more (memo 184 section 2), and for m = 4 nobody prints anything.
+   (ii) Which END is the right one is memo 177 addendum 7's surviving, UNVERIFIED rule;
+   this certificate uses it, as memo 184 did, and does not test it.
+   (iii) Memo 184 section 2's stronger observation -- that the tail IS the first
+   non-zero block -- was NOT confirmed for m = 4 here.  The large color R-matrix on a
+   ten-crossing braid is not converged at the weight cutoffs this bench can reach, and
+   after memo 183 addendum 1 section 5 (a block stable across eight strata and wrong)
+   an unconverged block is not evidence either way.  Recorded as attempted and
+   inconclusive, with the cost named, so it is not cheaply repeated.
+==============================================================================
+CONTROLS: {'C1 family identified': 'PASSED', 'C2 unknot control': 'PASSED', 'C3 tails stable in the colour': 'PASSED', 'shared false theta': 'PASSED'}
+ALL CONTROLS PASSED.

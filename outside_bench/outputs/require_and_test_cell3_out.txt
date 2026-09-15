@@ -1,0 +1,85 @@
+==============================================================================
+ CELL 3 -- REQUIREMENT 1 (MATTER): THE COUNT OF THREE
+==============================================================================
+
+    seal  outside_bench/seals/REQUIRE_AND_TEST_CELL3_PREREG.md
+    sha256 81021b9ed3527292a77f7d7cd896cfccfaab802d0777ef056b3abbe6476ee434
+
+------------------------------------------------------------------------------
+ CONTROLS L1 / L2 -- the object, and a witness the instrument must see
+------------------------------------------------------------------------------
+
+    L1 AS FIRST SEALED WAS MIS-SPECIFIED (seal ADDENDUM 1).  It demanded a 2 in
+    the |det(A-I)| frame, importing a number that lives in the OTHER frame the
+    record uses.  The two counts:
+      |det(A-I)|          the cusp fixed-point count (PW's localized count)
+                          on m004: {0, 4}  -- MAIN_GOAL.md quoting B1295 as a
+                          banked NEGATIVE, "|det(A-I)| in {0: 882, 4: 494}"
+                          over all 87 covers to degree 10
+      chi(Fix g) = 1-s_mu the Euler characteristic of the fixed locus in the
+                          3-manifold; on m004: {0, 2}  -- MAIN_GOAL.md l.87
+    "The object counts 2 at every fixed locus" is the SECOND.  B1321's 3, and
+    requirement 1's three generations, are the FIRST.  TOE_REQUIREMENTS_LEDGER
+    section C row 2 carries the sentence with no frame attached.
+    chi is NOT swept: it is stated in the record FOR m004, and generalising it
+    would repeat the same paraphrase error one level down.
+
+    m004  cusps=1  multiset of |det(A-I)| = {0: 2, 4: 2}   max=4   orientation-reversing rows rejected: 4
+      -> PASS (must contain 4; source: B1295's banked values {0, 4})
+    m202  cusps=2  multiset of |det(A-I)| = {0: 2, 1: 4, 3: 4, 4: 2}   max=4   orientation-reversing rows rejected: 0
+      -> PASS (must contain 3; source: B1321's own witness)
+
+------------------------------------------------------------------------------
+ THE SWEEP -- OrientableCuspedCensus, all cusp numbers, population 4000
+------------------------------------------------------------------------------
+    scanned 1000  with a 3: 1  (0s)
+    scanned 2000  with a 3: 2  (0s)
+    scanned 3000  with a 3: 2  (0s)
+    scanned 4000  with a 3: 2  (0s)
+
+    POPULATION SCANNED (printed before any rate): 4000
+    SKIPPED, isometry group unavailable (NOT counted as 0): 0
+    L3: orientation-REVERSING cusp-fixing rows rejected: 113
+    elapsed: 0s
+
+------------------------------------------------------------------------------
+ THE DISTRIBUTION -- the second question, sealed in advance
+------------------------------------------------------------------------------
+    maximum |det(A-I)| attained, per manifold:
+      max =   0 :   405    10.12 %
+      max =   4 :  3595    89.88 %
+
+    manifolds attaining each value SOMEWHERE (not exclusive):
+      value   0 :  4000   100.00 %
+      value   1 :     2     0.05 %
+      value   2 :     3     0.07 %
+      value   3 :     2     0.05 %
+      value   4 :  3595    89.88 %
+
+------------------------------------------------------------------------------
+ P_3 -- THE PREREGISTERED OUTCOME
+------------------------------------------------------------------------------
+    P_3 holds for 2 of 4000  =  0.0500 %
+      m202         cusps 2  vol 4.059766
+      s959         cusps 2  vol 6.089650
+
+    -> OUTCOME A
+    A = the 3 is RARE (<1%): 'three generations' does real selecting work.
+    B = the 3 is COMMON (>=1%): it selects little, as Cell 2 found for 2T.
+
+------------------------------------------------------------------------------
+ IS 2 DISTINGUISHED, OR MERELY MODAL?
+------------------------------------------------------------------------------
+    modal attained value : 0  (4000 of 4000 = 100.00 %)
+    manifolds attaining 2: 3 of 4000 = 0.07 %
+    -> 2 is NOT modal (modal is 0); m004's 2 is not the default.
+
+------------------------------------------------------------------------------
+ VERDICT
+------------------------------------------------------------------------------
+    OUTCOME = A   P_3 rate 0.0500 %   scanned 4000
+    controls: ALL PASSED
+
+    NOT CONCLUDED: nothing about generations as physics.  h1 <-> 4d generations
+    is I-26, a DECLARED INPUT (TOE_REQUIREMENTS_LEDGER section E row 4, "the
+    dimension gap not exhibited").  This is a fixed-point count on a torus.

@@ -1,0 +1,195 @@
+# THE MSSM DEBT — what both benches are not seeing, and what "parameter-free" can honestly mean
+## (outside bench, 2026-08-26. INTERPRETIVE THROUGHOUT, labeled per the standing rule; every load-bearing claim cites a banked certificate. Written in response to the owner's question against cc's assessment of codex's conditional MSSM witness. No dispute with cc's grading — the witness is conditional, observer-supplied, off-branch, and that grading is correct. This document is about the axis neither bench is measuring.)
+
+### 1. Accepting the grading, questioning the map
+cc's three reasons are proved and stand: the heterotic functor is imported
+(OA-C1002), SEAM-A is uncrossed, the up-Yukawa vanishes irreparably
+(SEAM-Y/B1154). The disagreement is not about the grade. It is about the
+implicit map behind the sentence "what would flip it to a breakthrough:
+cross SEAM-A." Both benches treat SEAM-A as a door that might open. The
+record's own meta-pattern says it is a wall of a known kind.
+
+### 2. First step back: the record already proved what the object does not do
+The value campaign's ten closed negatives, the freedom ledger (memo 42),
+and THE_CORE_QUESTION's boundary all say one thing, computed from many
+directions: **the object pays selections inside a frame; it never pays the
+frame.** Real form, stratum, spin structure, lift, κ's arithmetic — all
+selections. The possibility spaces they live in — Lie theory, trinification,
+the coupling menu — are generic and observer-opened. OA-C1002 ("the object
+does not select the heterotic functor") is not an unfortunate obstacle
+peculiar to strings; it is the same theorem the record has proved about
+every frame it has ever audited. SEAM-A asks the object to do, for the
+largest frame ever imported into the programme, the one thing it has never
+done for any frame. Pattern-prediction (interpretive, falsifiable): SEAM-A
+does not cross. Budgeting the MSSM's promotion on crossing it misprices the
+debt. B1157's finding that the ∞-place reading is "structural rhyme, generic
+to any hyperbolic 3-manifold" is exactly what this prediction expects.
+
+### 3. Second step back: the up-Yukawa zero is route evidence, not neutral mismatch
+SEAM-Y is filed as "two independent walls." From this bench it reads
+sharper. In the object's own channel the coupling story is: the unique
+invariant cubic exists (memo 32), it is THE unique coupling with no shape
+assumption (memo 48: 6615 → 4 → 1), and its support is the
+representation-theoretic MAXIMUM — all seven allowed depth blocks hit,
+none forbidden, no extra vanishing (memo 52). The heterotic import produces
+a coupling structure with an exact extra vanishing (up-Yukawa ≡ 0) that
+bundle deformation cannot repair. Fenced properly (these are different
+mathematical objects — internal cubic vs bundle cohomology — so this is
+tension, not contradiction): **the import kills a coupling class the
+object's own algebra forces to be maximal.** When a route deletes structure
+the object insists on, that is evidence about the route.
+
+### 4. Third step back: the alignment audits — the axis nobody is measuring
+Both benches grade the witness on the rigor axis (conditional vs derived).
+This lane has been measuring a different axis: **does an imported frame
+commute with the object's own invariant operators?** Every audit run so far
+says no: the D5 family frame's matter parity is independent of the lock and
+not mirror-stable (memo 56 + addendum); the bridge and family gradings live
+in non-commuting frames, q(r₀) = −3 (memos 56/57); the standard
+parity-preserving singlet vev breaks the lock — the object's one group-paid
+ℤ/2, the center of the holonomy closure and the longitude's sign (memos
+59/61). **The heterotic witness has never been audited against these
+operators.** Its Wilson-line ℤ/2, its bundle parities, its Higgs directions
+— none has been tested for beat-covariance, lock-alignment, or clock
+compatibility. That audit is cheap, exact, and decisive in both directions:
+misalignment (the pattern's prediction) converts "conditional" into
+"frame-paid in the strong sense, provably"; alignment would be the first
+frame the object ever endorsed and would genuinely re-price SEAM-A. Either
+outcome is a theorem. This is the unpaid debt neither bench has priced.
+
+### 5. What "parameter-free MSSM" can and cannot mean
+- **Cannot (proved):** the continuous parameters. Ten value negatives and
+  Gate 5 are the record's own boundary: the object does not force values.
+  A "parameter-free MSSM" in the numbers sense would refute the record's
+  banked results, not fulfill them.
+- **Also mispriced: the "M".** Supersymmetry enters as cargo of the
+  heterotic import. The object-side pairing that superficially resembles a
+  supermultiplet (the carrier ℂ²⊗27) has never been tested for actual
+  supersymmetry structure — an honest open question, not an assumption in
+  either direction.
+- **Can (and is closer than either bench is saying): the FORM.** Assemble
+  what is already banked in the object's OWN channel, no strings anywhere:
+  no invariant bilinear on the 27 — **no bare mass term, as a theorem**
+  (memo 32); the singlet's only coupling is 10·10·1 — **the singlet-portal
+  μ-mechanism shape, forced** (memo 56); a conserved matter parity (memo
+  56); the dark block as the exact anomaly payment for the visible 16
+  (memo 58); the unique Yukawa with exact selection rules (memos 47/48/52).
+  Read together and fenced as shape-statements: **the object's intrinsic
+  channel is not MSSM-shaped, it is NMSSM-shaped — with the μ-problem
+  solved by theorems**: no bare μ exists (memo 32) and the only μ-source
+  the algebra permits is the forced singlet portal. Neither bench has
+  noticed that this skeleton is already standing, because both are looking
+  at it through the string frame.
+
+### 6. The payable-debt programme (concrete, executable, ranked)
+- **D1 — the alignment audit** (§4): pull the witness's discrete data
+  (Wilson ℤ/2, bundle parities, Higgs directions) once WF-3 lands it on
+  main, and run it against the lock, the beat, the clock, the longitude.
+  Either outcome is a theorem. The cheapest decisive computation on the
+  board.
+- **D2 — L132** (registered corpus-side, still unexecuted): does hypercharge
+  fall out of the object's rank-3 abelian sector as the solution of the
+  anomaly Diophantine system? Integer equations — the firewall permits.
+  This is the discrete-completion keystone: it decides whether the SM
+  embedding step (which the D5 frame fence currently prices to the
+  observer) is actually object-paid. Memo 58 built the frame-level warmup.
+- **D3 — the breaking ledger, continued** (memo 61's fork): classify the
+  full two-U(1)-breaking chains by what survives — the matter parity, the
+  lock, or neither — extending the vev ledger from directions to chains.
+- **D4 — the family index, stated honestly:** three families currently have
+  NO object-paid candidate (the E8 triplet is possibility-space, fenced in
+  memo 53). Either find an object-paid index or bank its absence as a
+  boundary row. Both are results.
+- **D5 — the SUSY question made falsifiable:** define the exact test for
+  supermultiplet structure on the carrier (an odd operator squaring to the
+  meridian would be the natural candidate, given β² = meridian) and run it
+  two-outcome.
+
+### 7. The answer to the question
+Yes — and the debt is not where either bench is digging. cc and codex are
+both waiting at SEAM-A for the object to endorse the string frame; the
+record's own pattern says it never endorses frames, and every alignment it
+has been asked to certify has come back negative. The unpaid debt is (i)
+the alignment audit that would turn the witness's grade from "conditional"
+into a theorem about frames, and (ii) the in-frame discrete completion —
+L132 above all — that finishes the form the object DOES pay. A
+parameter-free MSSM in the values sense is excluded by the record itself.
+A **parameter-free FORM** — the NMSSM-shaped kinematic skeleton with its
+μ-mechanism forced, its parities conserved, its dark block
+anomaly-required, its Yukawa unique, and every remaining discrete choice
+either object-paid or priced to the observer with a certificate — is
+reachable, is mostly banked already, and needs no strings. That is the
+debt worth paying, and most of the instruments to pay it are in this lane.
+
+### ADDENDUM (2026-08-26, post-fetch)
+B1156 sharpened SEAM-A: the a-priori MISMATCH is refuted and the seam is
+now "a precise FLOOR with a named archimedean door." That is the exact
+form §2's prediction takes: the door is now named, and the pattern-read
+here is that it stays shut — a falsifiable disagreement, cleanly posed.
+B1157 + codex R011 (two seats, opposite mechanisms, same k=2 fault line)
+both landed on "structural rhyme," consistent with §2. And B1158 has
+harvested this lane's wave-2 with scope corrections (adopted in memos 55,
+58, 68, 69's addenda) — the alignment-audit debt (§4, D1) and L132 (D2)
+remain unexecuted by any seat.
+
+### ADDENDUM 2 (2026-08-26) — D2 executed: hypercharge falls out
+Memo 70 ran L132 in the trinification frame: 36/36 anomaly-consistent
+solutions carry exactly the SM hypercharge ratios, no alternative exists,
+unique up to scale, frame-covariant. §6's D2 is paid on the positive
+branch: the chain's broken link reduces from "the whole embedding" to
+"the existence of an embedding," with the content forced by integer
+arithmetic. D1 (the witness alignment audit), D3–D5 remain.
+
+### ADDENDUM 3 (2026-08-26) — D3, D4, D5 executed; the ledger closes at 4/5
+- **D5 (memo 71, SUSY_NO_GO):** three definitions of a supercharge on the
+  carrier, three exact negatives — the "M" in MSSM is unsupported by the
+  object's kinematics; the skeleton is a COUPLING structure. Contradicts
+  no observation (superpartners unobserved). Field SUSY behind Gates 2/3.
+- **D3 (memo 72, UNIQUE_CHAIN):** exactly TWO SM-safe vev directions in
+  the 27 (the lepton block's neutral pair) — the standard E6 double-
+  breaking is the only chain; it lands on exactly the SM torus; and it
+  costs BOTH distinguished ℤ/2s (neither ψ-parity nor lock survives —
+  memo 61's fork resolved).
+- **D4 (memo 74, FAMILY_CENSUS):** one 27 carries no family index — the
+  in-frame trinification ℤ/3 (432 automorphisms, 36 cube roots of 1)
+  rotates SECTORS within one generation; three-ness lives only in E8's
+  (3,27), which stays possibility-space.
+- **D1 (the alignment audit): STILL BLOCKED** — final fetch 2026-08-26:
+  main unchanged at c54ae433, WF-3's conditional MSSM witness has not
+  landed; the audit runs when it does.
+- **L132 second frame (B892's own):** assessed. Main's own B948 identifies
+  su(3)⊕su(2)⊕u(1)³ as the A₂+A₁ Levi with "exactly B892's numbers"
+  (dim 14, centre 3) — the SHAPE memo 70's cell already uses (8+3+3) and
+  answers frame-covariantly in-stack. What remains is adjoint-conjugacy
+  of this lane's slot embedding with cc's tower frame z(x₁,y*), which
+  requires vendoring their build's basis correspondence (foreign paths,
+  the exact tower over F = ℚ[ρ]/μ) — a cross-repo audit, LEFT FOR THE
+  SEAT with this justification; not claimed here.
+
+**The verdict of the programme as executed:** the parameter-free chain to
+"MSSM detailed structure" resolves into (i) a forced NMSSM-shaped
+COUPLING skeleton (banked, memos 32/35/47/48/56/70), (ii) a unique
+SM-breaking chain priced in parities (72), (iii) NO kinematic
+supersymmetry (71) and NO intra-27 family index (74). What the record
+supports parameter-free is the FORM — couplings, parities, portal, one
+forced hypercharge — not a supersymmetrized spectrum. The detailed-MSSM
+ambition lands, on this bench's evidence, as "NMSSM-shaped coupling
+skeleton over exactly one generation-kinematics, families supplied only
+at the E8 possibility level."
+
+### ADDENDUM 4 (2026-08-26) — D1 PAID: the ledger closes 5/5
+The witness landed (B1159, WF-3's typed condition ledger A–E, with B1160
+verifying memo 70 and B1161 unifying the bypass door with SEAM-A; codex
+R017 paying provenance debt, R019 auditing memo 70). Memo 75 ran the
+alignment audit: **full alignment, zero contradictions** — cc's top-down
+chain and this bench's bottom-up chain meet at "structure forced
+(conditionally), values withheld"; overlaps agree to the byte (three
+seats now hold the hypercharge computation); the bench's no-gos sharpen
+links A (SUSY imported — memo 71 shows the carrier has no supercharge of
+its own) and C (the bypass spectrum must source families outside the 27 —
+memo 74 — and pay both ℤ/2s — memo 72). Memo 70 re-scoped per R019 (the
+ratios are universal to the anomaly equations; the object supplies the
+realization). **The programme is complete: D1–D5 all executed.** What
+remains open is owned elsewhere: SEAM-A's specialist seal (cc), the
+bypass door's object-intrinsic selector (cc's live cell, now carrying
+this lane's constraints), B892-frame conjugacy (seat, addendum 3).

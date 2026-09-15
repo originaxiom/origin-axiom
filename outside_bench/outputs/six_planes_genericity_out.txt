@@ -1,0 +1,97 @@
+
+==============================================================================
+CELL 1 -- is a 3-dimensional kernel on the 27 GENERIC in the charge space?
+==============================================================================
+       E6 exponents (1,4,5,7,8,11), Coxeter number h = 12, dual pairs (1,11)(4,8)(5,7).
+       The charges sit at {4,7,8,11}: {4,8} is the ONLY complete dual pair (4+8=12=h);
+       7 and 11 are ORPHANS -- their duals 5 and 1 carry no charge.
+
+       dim ker rho(x8)  (exponent  4)  = 0
+       dim ker rho(x14)  (exponent  7)  = 3   <-- ORPHAN
+       dim ker rho(x16)  (exponent  8)  = 0
+       dim ker rho(x22)  (exponent 11)  = 3   <-- ORPHAN
+
+       C3 -- RNG seed 20260911, printed so the sample is reproducible
+       random element {8: 4, 14: 0, 16: -5, 22: 2}:  dim ker = 0
+       random element {8: -4, 14: 5, 16: -3, 22: 3}:  dim ker = 0
+       random element {8: 1, 14: 0, 16: 2, 22: -1}:  dim ker = 0
+       random element {8: -3, 14: 4, 16: -1, 22: 3}:  dim ker = 0
+       random element {8: -4, 14: 1, 16: 1, 22: -4}:  dim ker = 0
+       random element {8: 4, 14: 3, 16: 5, 22: 3}:  dim ker = 0
+
+  CELL 1 = B  -- a 3-dim kernel is NOT generic: it belongs to the two ORPHAN charges and to nothing else in the space (both dual-pair charges 0; 6 of 6 random elements 0)
+
+==============================================================================
+C1 -- the six COORDINATE planes must reproduce memo 201
+==============================================================================
+       (x8,x14)  exps (4,7)  shape [(3, 1), (6, 1), (6, 3)]  resolvents [-231, -3]   [28s]
+       (x8,x16)  exps (4,8)  shape [(3, 1), (3, 8)]  resolvents [77]   [27s]
+       (x8,x22)  exps (4,11)  shape [(3, 1), (6, 1), (6, 3)]  resolvents [-231, -3]   [28s]
+       (x14,x16)  exps (7,8)  shape [(3, 1), (6, 1), (6, 3)]  resolvents [-231, -3]   [27s]
+       (x14,x22)  exps (7,11)  shape [(1, 3), (6, 1), (6, 3)]  resolvents [77]   [14s]
+       (x16,x22)  exps (8,11)  shape [(3, 1), (6, 1), (6, 3)]  resolvents [-231, -3]   [28s]
+  [OK ] C1 -- all six coordinate planes reproduce memo 201's resolvents
+
+==============================================================================
+CELL 2 & 3 -- RANDOM 2-planes in the SAME four-dimensional charge space
+==============================================================================
+       random {8: 3, 14: 4, 16: 1, 22: 3} / {8: -4, 14: 2, 16: -2, 22: 2}
+           shape [(3, 1), (6, 1), (6, 3)]   resolvents [-231, -3, 77]   [115s]
+       random {8: -2, 14: 2, 16: -4, 22: 0} / {8: -4, 14: 4, 16: -1, 22: -2}
+           shape [(3, 1), (6, 1), (6, 3)]   resolvents [-231, -3, 77]   [37s]
+       random {8: -2, 14: -4, 16: 1, 22: -3} / {8: 4, 14: -1, 16: 3, 22: -2}
+           shape [(3, 1), (6, 1), (6, 3)]   resolvents [-231, -3, 77]   [100s]
+       random {8: 4, 14: 4, 16: 3, 22: -2} / {8: -3, 14: 1, 16: 0, 22: -1}
+           shape [(3, 1), (6, 1), (6, 3)]   resolvents [-231, -3, 77]   [105s]
+       random {8: -2, 14: 3, 16: 4, 22: 1} / {8: 1, 14: -1, 16: 3, 22: 1}
+           shape [(3, 1), (6, 1), (6, 3)]   resolvents [-231, -3, 77]   [49s]
+  [OK ] C2 -- every random pair commutes (the charge space is abelian)  5 of 5 usable
+
+       the full resolvent set across the object's charge space: [-231, -3, 77]
+       every random plane sees ALL of it: True
+       every coordinate plane sees a PROPER SUBSET: True
+
+  CELL 2 = B   CELL 3 = B
+
+==============================================================================
+VERDICT -- what survives memo 201, and what is trimmed
+==============================================================================
+  CELL 1 = B   CELL 2 = B   CELL 3 = B   controls: ALL PASS
+
+  TRIMMED, and this bench found it by running the control on its own result:
+
+    Memo 201's reading implied that 77 is tied to measuring WITHIN a block.  It is not.
+    EVERY generic 2-plane in the charge space sees ALL THREE resolvents {-3, 77, -231}.
+    77 is not confined to the coordinate planes; it is everywhere in the space.
+
+  WHAT SURVIVES, and is now on better footing than the version banked:
+
+   1. THE KLEIN FOUR-GROUP IS AN INVARIANT OF THE CHARGE SPACE, not an artifact of a chosen
+      pair.  { Q(sqrt-3), Q(sqrt77), Q(sqrt-231) } is what a generic plane sees, every time,
+      5 of 5.  -231 = -3 * 77.  One leg is the BEING face.
+
+   2. THE SIX COORDINATE PLANES ARE DEGENERATE LOCI.  Each sees a PROPER SUBSET of the generic
+      picture: {77} at the two within-block planes, {-3,-231} at the four cross-block planes.
+      A generic plane sees the whole group; the coordinate planes go partially blind.
+
+   3. AND WHICH HALF GOES BLIND IS COXETER DUALITY.  {4,8} is the unique complete dual pair
+      among the charges (4+8 = 12 = h); 7 and 11 are orphans.  Within-block -> 77 only.
+      Across -> {-3,-231} only.
+
+   4. THE ORPHAN KERNEL IS NOT GENERIC.  dim ker = 3 for BOTH orphan charges and 0 for both
+      dual-pair charges and for 6 of 6 random elements of the same space.  Two charges, one
+      shared 3-dimensional kernel, nothing else in the space annihilating anything.
+
+  AND THE ANTI-CIRCULARITY ARGUMENT IS STRENGTHENED, NOT WEAKENED.  B1077's blocker was that
+  the only twist-source is the MEASURED pencil triple, so any 77 it yields is circular -- the
+  branch locus is mu by construction.  This control shows 77 is not a property of that pencil
+  at all: it is visible from ALMOST EVERY plane of the charge space, and K is reachable with no
+  pencil whatsoever (rho(x8) and rho(x16) restricted to the orphan kernel both generate K).
+  A datum that shows up from almost anywhere is not an artifact of where one looked.
+
+  WHAT IS NOT CLAIMED.  No value, ratio or prediction; Gate 5 untouched.  B882 is not proved --
+  the remaining half is the 3D4 twisting classification, a literature proposition.  And the
+  resolvent V4 is NOT asserted to be B730's face V4; that identification is exactly what B1223
+  killed once on the ACTION and what memo 200 typed by KIND.
+
+Gate 5 untouched.  No measured value is used or named.

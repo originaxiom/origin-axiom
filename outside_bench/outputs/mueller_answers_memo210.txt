@@ -1,0 +1,79 @@
+==============================================================================
+MUELLER ANSWERS MEMO 210 -- and the scope is not what one would hope
+==============================================================================
+
+  B581's six exact torsions reproduced (tau_1 = -3, the B425 anchor).
+  Vol(4_1) = 2.029883212819307250042405     Vol/pi = 0.64613189443890102819
+
+------------------------------------------------------------------------------
+[Mul] Theorem 1.1 / Corollary 1.2, QUOTED (his tau_m = Sym^m, so his m = 2 x our m)
+------------------------------------------------------------------------------
+    "- log tau_X(tau_m) = (vol(X)/4pi) m^2 + O(m)  as m -> infinity"
+  => only O(m) on the subleading term: this does NOT pin the linear coefficient.
+
+------------------------------------------------------------------------------
+[Mul] the SHARP formula, his own eq. at the end of section 8, QUOTED
+      (here his tau_{2m} = Sym^{2m}, so HIS m IS OUR m)
+------------------------------------------------------------------------------
+    "log T_X(tau_{2m}) = log T_X(tau_4) + sum_{k=3}^{m} log |R_{2k}(k)|
+                          - (1/pi) vol(Gamma\H^3) (m(m+1) - 6)."
+  and [MFP] eq. (2) quotes the same, adding that the sum is
+    "uniformly bounded on k".
+
+  >>> THE COMBINATION IS m(m+1), EXACTLY. Memo 210 FITTED that combination
+      (B/(Vol/pi) = 0.9861960956); the closed-manifold theorem makes it 1.
+
+------------------------------------------------------------------------------
+THE SCOPE, and it is the part that matters
+------------------------------------------------------------------------------
+  [Mul] Theorem 1.1: "Let X be a CLOSED, oriented hyperbolic 3-manifold."
+  [MFP] prove the CUSPED case, and their theorem is the LEADING term only:
+    "lim_{k->inf} log|T_{2k+1}(M)| / (2k+1)^2 = - Vol(M) / 4pi"
+  The figure-eight complement is CUSPED. So the m(m+1) refinement is NOT
+  established for it by these two papers.
+
+------------------------------------------------------------------------------
+WHAT THE OBJECT'S OWN SIX EXACT TORSIONS SAY ABOUT THE CUSPED CASE
+------------------------------------------------------------------------------
+    m= 1   R_m = log|tau_m| - (Vol/pi) m(m+1) = -0.19365150021
+    m= 4   R_m = log|tau_m| - (Vol/pi) m(m+1) = -0.451374208632
+    m= 5   R_m = log|tau_m| - (Vol/pi) m(m+1) = -0.461831934135
+    m= 7   R_m = log|tau_m| - (Vol/pi) m(m+1) = -0.463698384356
+    m= 8   R_m = log|tau_m| - (Vol/pi) m(m+1) = -0.4634515141
+    m=11   R_m = log|tau_m| - (Vol/pi) m(m+1) = -0.463653214704
+
+    spread over m in [4, 5, 7, 8, 11]: 0.0123242
+    => the CLOSED-manifold combination m(m+1) holds on a CUSPED manifold to
+       one part in ~80 of the constant, over six exact integers.
+
+------------------------------------------------------------------------------
+AND THE RESIDUAL IS NOT A CONSTANT -- it is the Ruelle tail, converging
+------------------------------------------------------------------------------
+  Transposing [Mul]'s formula (signs opposite: his torsion is the reciprocal
+  normalisation of B581's Delta'(1)), R_m = -c - sum_{k<=m} log|R_{2k}(k)|,
+  so a CONSECUTIVE pair of exponents gives one Ruelle term directly:
+    m=4 -> 5:  R_5 - R_4 = -0.0104577255   => log|R_{10}(5)| = 0.0104577255
+    m=7 -> 8:  R_8 - R_7 = 0.0002468702556   => log|R_{16}(8)| = -0.0002468702556
+
+    |increment at 5| / |increment at 8| = 42.361221  over 3 steps
+    systole of 4_1 (SnapPy): l_0 = 1.087070144995739
+    e^(3 l_0) = 26.081088;  e^(3.5 l_0) = 44.913818
+    => the increments shrink at a rate between e^(-l_0) and e^(-1.3 l_0) per
+       step -- the decay a Ruelle-zeta tail has, NOT a fitted constant.
+    the SIGN also flips (-0.01046 then 0.0002469):
+    the geodesics carry imaginary parts (+-1.7228 at the systole), so the
+    terms oscillate. A constant cannot do that; a Ruelle sum must.
+
+==============================================================================
+MEMO 210'S TWO QUESTIONS, ANSWERED WITH SCOPE
+==============================================================================
+  Q1 'is the linear coefficient exactly Vol/pi?'
+     ANSWERED YES FOR CLOSED hyperbolic 3-manifolds -- [Mul]'s exact m(m+1).
+     For the CUSPED figure-eight it remains UNPROVED; what this bench has is
+     six exact integers obeying it to a spread of 0.01232.
+  Q2 'what is the constant C?'
+     IT IS NOT A CONSTANT. [Mul] identifies it as
+       log T(tau_4) + 6 Vol/pi + sum_k log|R_{2k}(k)|,
+     a bounded, decaying Ruelle sum. The drift memo 210 measured and could
+     not explain (R_4 = -0.4514 vs the tail's -0.4636) IS that sum converging.
+==============================================================================

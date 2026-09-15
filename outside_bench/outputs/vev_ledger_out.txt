@@ -1,0 +1,48 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+FACT 1: P-preserving directions: 11 (classes Counter({'10': 10, '1': 1}));
+        lock-preserving: 15; BOTH: 5 (all class {'10'}, wt {0})
+FACT 2: the E6 singlet has wt = -1: P(+) preserved, lock C(-) BROKEN
+FACT 3: the vev ledger (direction: class, q, wt, P, C, #triples):
+   v00:   1  q=+4  wt=-1  P=+  C=-  triples=5
+   v01:  16  q=+1  wt=-1  P=-  C=-  triples=5
+   v02:  16  q=+1  wt=-1  P=-  C=-  triples=5
+   v03:  16  q=+1  wt=-1  P=-  C=-  triples=5
+   v04:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v05:  16  q=+1  wt=-1  P=-  C=-  triples=5
+   v06:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v07:  16  q=+1  wt=-1  P=-  C=-  triples=5
+   v08:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v09:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v10:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v11:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v12:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v13:  10  q=-2  wt=+0  P=+  C=+  triples=5
+   v14:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v15:  10  q=-2  wt=+0  P=+  C=+  triples=5
+   v16:  16  q=+1  wt=+1  P=-  C=-  triples=5
+   v17:  10  q=-2  wt=+1  P=+  C=-  triples=5
+   v18:  10  q=-2  wt=+1  P=+  C=-  triples=5
+   v19:  10  q=-2  wt=+1  P=+  C=-  triples=5
+   v20:  10  q=-2  wt=+1  P=+  C=-  triples=5
+   v21:  10  q=-2  wt=+1  P=+  C=-  triples=5
+   v22:  10  q=-2  wt=+0  P=+  C=+  triples=5
+   v23:  10  q=-2  wt=+0  P=+  C=+  triples=5
+   v24:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v25:  16  q=+1  wt=+0  P=-  C=+  triples=5
+   v26:  10  q=-2  wt=+0  P=+  C=+  triples=5
+FACT 4: E27 annihilates all 5 both-preserving directions (bridge-singlets): True
+
+WHAT A VEV WOULD BREAK: the record's two Z/2s cannot both survive the
+standard E6 dark-sector vev — the singlet preserves the frame's matter
+parity but breaks the object's lock (the center of the holonomy closure,
+the longitude's sign).  The only directions kinematically neutral under
+BOTH are the five 10-class bridge-singlets, which the meridian's clock
+freezes (depth 1).  So the dark arc closes on a fork: keep the dark parity
+and pay the lock, or keep the lock and confine breaking to the five frozen
+directions.  Necessary conditions only — no potential, no vev, no values;
+Gates 2/3/5 not crossed.

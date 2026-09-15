@@ -1,0 +1,48 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+reused (memos 92/93): 27 lane weights + the banked Klein signs (D2tw flips 11, D flips 12)
+N1a: crystal order matches the lane weight order (cartan_eig == wtZ, 27x6) —
+     and the root-lattice levels come straight from twisted_double's qlat.
+N1b: nodes whose grading splits the 27 as {16, 10, 1}: [0, 5] — the SO(10)xU(1) gradings
+     => N1 = lane index 0, weight (1, 0, 0, 0, 0, 0)  (the SO(10) singlet)
+     => N2 = lane index 16, weight (1, -1, 0, 0, 0, 0)  (the SU(5) singlet in the 16)
+
+S1/S2 — THE STABILITY TEST over the banked gauge 2-torsion:
+       element  |odd set|    N1   N2  odd VISIBLE   stabilizes?
+             I          0     -    -            0   no
+          D2tw         11     -    -           11   no
+             D         12     -  odd           11   no
+        D2tw*D         15     -  odd           14   no
+
+    ANY banked element stabilizes N1 or N2?  NO
+
+THE VERDICT — the cosmology ledger's ROW 4 first probe, ANSWERED:
+  **NO forced discrete symmetry in the object's banked gauge 2-torsion
+  stabilizes either neutral.**  The reason is structural and visible in
+  one column above: the banked characters are AFFINE SIGN CHARACTERS
+  with flip counts 11, 12 and 15 (in-run correction: the product
+  D2tw*D has 15 flips, not 13) — each makes roughly HALF the 27 odd.
+  Stability needs the odd set to sit INSIDE the two-element neutral set
+  {N1, N2}; every banked element instead makes 10+ VISIBLE states odd,
+  so each neutral has open decay channels (odd visible + even visible)
+  under every one of them.
+  WHAT THIS CLOSES: the ledger said stability "has never been checked."
+  It is now checked, and the answer is negative — **the object's forced
+  gauge 2-torsion supplies no dark-matter stabilizer.**  Row 4's first
+  probe returns NEGATIVE rather than remaining unasked.
+  WHAT THIS DOES NOT CLOSE (scope, stated): only the banked gauge
+  2-torsion was tested.  It does NOT rule out (i) a stabilizing
+  symmetry outside that group — the frame bits c, r, gamma5 act on
+  fields rather than as sign characters on the 27 (memo 92's
+  parity x dimension typing), so they are not candidates, but a wider
+  symmetry census on the 27 is a separate, unrun cell; (ii) stability
+  by kinematics rather than symmetry (a mass ordering forbidding the
+  channels), which the record does not supply.
+  THE HONEST CONSEQUENCE for the dominant gap: dark matter's first
+  named probe is spent, negatively.  The structural neutrals N1, N2
+  EXIST but are NOT protected by anything the object forces.
+Gate 5 untouched.

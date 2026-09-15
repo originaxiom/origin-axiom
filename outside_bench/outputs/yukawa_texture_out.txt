@@ -1,0 +1,50 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+C rebuilt in-run: dim 1, 45 triples (memo 47 reproduced)
+ROSTER (labels by measured Y): SM15 q[9, 11, 13, 23, 24, 26] uc[4, 6, 8] dc[3, 5, 7] l[0, 2] ec[15]
+   H(+1/2) [14, 22], H(-1/2) [16, 18], D [10, 12, 25], Dc [19, 20, 21], neutrals [1, 17]
+Y-conservation gate: every nonzero C triple sums to Y=0 on the roster: PASS
+
+SECTOR TRIPLE TABLE (nonzero C entries per multiplet triple; total 45, expect 45):
+   q.q.D           : 6
+   q.uc.Hu         : 6
+   q.dc.Hd         : 6
+   q.l.Dc          : 6
+   uc.dc.Dc        : 6
+   uc.ec.D         : 3
+   dc.D.N2         : 3
+   D.Dc.N1         : 3
+   l.ec.Hd         : 2
+   l.Hu.N2         : 2
+   Hu.Hd.N1        : 2
+
+THE SHAPES (nonzero entries; N = each neutral separately):
+   1 up-type      q.uc.Hu: 6
+   2 down-type    q.dc.Hd: 6
+   3 lepton       l.ec.Hd: 2
+   4 Dirac-nu     l.N.Hu : N1 -> 0, N2 -> 2
+   5 lambda-term  N.Hu.Hd: N1 -> 2, N2 -> 0
+   6 exotic mass  D.Dc.N : N1 -> 3, N2 -> 0
+   7 diquark      q.q.D  : 6
+   8 leptoquark   uc.dc.Dc: 6
+
+NEUTRAL ROLES (by coupling, measured): state 1 is the S (lambda-term
+   Hu.Hd + exotic-mass D.Dc partner); state 17 is the nu^c (Dirac partner).
+   Cross-frame note: their psi-charges are 1 and -2 —
+   the S-COUPLING role is played by the psi-16-class state:
+   coupling roles and psi-frame class labels MISALIGN (memo 72's frame lesson,
+   now measured at the coupling level; roles here are intrinsic, labels are not)
+
+THE SHARP ONE: the record's OWN up-type Yukawa shape has 6 nonzero entries.
+   IT EXISTS: the object's kinematics ALLOWS the up-Yukawa that cc's bundle
+   cohomology FORBIDS (SEAM-Y mu_u = 0).  The two walls are now proven
+   DIFFERENT facts: SEAM-Y is a property of the heterotic dressing, not of
+   the object's coupling structure — memo 75's 'rhyme' sharpened into a
+   mechanism disagreement, exactly where link A's import bites.
+
+All entries are +-1 zero/nonzero facts (dimensionless texture); no value,
+scale, or hierarchy is claimed.  Gate 5 untouched.

@@ -115,8 +115,11 @@ def test_slice_c_own_rederivations_are_pinned():
     j = json.loads((SC / "c_kac_classes.json").read_text(encoding="utf-8")); assert j["ok"] and j["labellings"] == 170 and j["dims"] == {"24": 80, "30": 90} and j["coldims"] == {"24": 40, "30": 45}
     j = json.loads((SC / "c_tits_lift.json").read_text(encoding="utf-8")); assert j["ok"] and j["order3"] and (j["mult_1"], j["mult_omega_pair"]) == (24, 54)
     j = json.loads((SC / "c_unit_dictionary.json").read_text(encoding="utf-8")); assert j["ok"] and j["n"] == 16
-    # `*.out` is gitignored, so a clean clone has neither artifact: regenerate both and assert on the
-    # live output rather than on a file the repository cannot ship.
+    # ADOPTED from the paper-verification seat (8dac820e), which reached this the other way:
+    # it regenerates when the artifact is absent rather than shipping it.  Both halves are kept
+    # deliberately -- the artifacts ARE committed here (with a .gitignore negation), so this takes
+    # the fast path in this repository, and the fallback keeps the lock runnable in any clone that
+    # does not have them, including one predating the negation.
     for script, needle in (("c_beat.py", "C10: PASS"), ("c_e8_types.py", "C5 (w_{A2} half): PASS")):
         shipped = SC / (script[:-3] + ".out")
         text = shipped.read_text(encoding="utf-8") if shipped.is_file() else subprocess.run(
@@ -146,8 +149,9 @@ def test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted(tmp_path):
         if "skipped" in s: continue
         # an item the seat pushed after its pin is the gate's NEW debt, not slice D's: the backlog may only contain such items
         assert set(s["backlog"]) <= set(s["new_unrowed"]) and s["stale_rows"] == [], (k, s["backlog"][:5], s["stale_rows"][:5])
-    # every seat is SKIPPED when its branch is not fetched (a plain clone), and the gate then never
-    # emits a scheduled-row total: the counter is only meaningful where at least one seat was read.
+    # ADOPTED from the paper-verification seat (8dac820e): every seat is SKIPPED when its branch is
+    # not fetched (a plain clone), and the gate then never emits a scheduled-row total, so the
+    # counter is only meaningful where at least one seat was read.
     if all("skipped" in s for s in rep["seats"].values()):
         pytest.skip("no seat branch fetched in this clone; the SCHEDULED counter has nothing to count")
     assert rep["summary"]["scheduled_rows"] > 0 and "SCHEDULED rows" in r.stdout

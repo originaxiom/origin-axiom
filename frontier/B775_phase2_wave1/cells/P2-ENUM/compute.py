@@ -23,6 +23,13 @@ HOUSE METHOD: exact/symbolic preferred + Monte-Carlo corroboration; discriminati
 fact IN-CELL; B772 do-not-force-a-positive; B774 self-test (a 'chord/content'
 object must be genuinely non-abelian, NOT a relabeled symmetric label invariant).
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import itertools
 import json
 import math
@@ -360,8 +367,8 @@ results = dict(
     discriminating_fact=disc_fact,
 )
 json.dump(results, open(
-    "<repo>/frontier/B775_phase2_wave1/cells/P2-ENUM/results.json",
+    _R("frontier/B775_phase2_wave1/cells/P2-ENUM/results.json"),
     "w"), indent=2)
-open("<repo>/frontier/B775_phase2_wave1/cells/P2-ENUM/output.txt",
+open(_R("frontier/B775_phase2_wave1/cells/P2-ENUM/output.txt"),
      "w").write("\n".join(OUT) + "\n")
 log("\nWROTE results.json + output.txt")

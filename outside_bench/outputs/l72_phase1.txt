@@ -1,0 +1,116 @@
+==============================================================================
+L72 PHASE 1 -- outside bench
+seal sha256 962d708047fb5e47f761a41bdb952dd75c0bf8189b0c109771cb1805cd7dcf7e
+==============================================================================
+
+C3 -- structure of the six banked polynomials
+  m= 1  deg= 3  integer coeffs=True  skew-palindromic=True  Delta_m(1)=0
+  m= 4  deg= 9  integer coeffs=True  skew-palindromic=True  Delta_m(1)=0
+  m= 5  deg=11  integer coeffs=True  skew-palindromic=True  Delta_m(1)=0
+  m= 7  deg=15  integer coeffs=True  skew-palindromic=True  Delta_m(1)=0
+  m= 8  deg=17  integer coeffs=True  skew-palindromic=True  Delta_m(1)=0
+  m=11  deg=23  integer coeffs=True  skew-palindromic=True  Delta_m(1)=0
+
+C2 -- the analytic gate B581 required of itself (m = 1)
+  Delta_1(t) = t**3 - 6*t**2 + 6*t - 1  factors as  (t - 1)*(t**2 - 5*t + 1)
+  tau_1 = Delta_1'(1) = -3   (B425's banked value: -3)
+
+C1 -- B581's banked table, recomputed from its own coefficients
+  tau_1  = -3
+          = -3  == banked
+  tau_4  = 260736
+          = 2^7*3*7*97  == banked
+  tau_5  = -165110400
+          = -2^7*3^4*5^2*7^2*13  == banked
+  tau_7  = -3257341296168960
+          = -2^12*3^4*5*7^5*11*13*19*43  == banked
+  tau_8  = 100636318520821923840
+          = 2^14*3^3*5*7^3*11*13*31*607*49297  == banked
+  tau_11 = -6908092175170718629633808125667573760
+          = -2^21*3^7*5*7^6*11^2*13^2*17*19*73*149*151*1471*160453
+  tau_11 ~ -6.90809e+36   (B581 prints -6.9081...e36)
+
+C5 -- the sign law  sign(tau_m) = (-1)^m
+  m= 1  sign(tau_m)=-  (-1)^m=-  theta-even
+  m= 4  sign(tau_m)=+  (-1)^m=+  theta-odd
+  m= 5  sign(tau_m)=-  (-1)^m=-  theta-even
+  m= 7  sign(tau_m)=-  (-1)^m=-  theta-even
+  m= 8  sign(tau_m)=+  (-1)^m=+  theta-odd
+  m=11  sign(tau_m)=-  (-1)^m=-  theta-even
+  sign law holds 6/6
+
+==============================================================================
+CELL 1 -- the E6-principal polynomial
+==============================================================================
+  deg Delta_E6 = 78      sum of block degrees = 78
+  the adjoint tiling: dims Sym^2m = [3, 9, 11, 15, 17, 23], sum = 78  (dim E6 = 78)
+  order of vanishing of Delta_E6 at t = 1 : 6
+  CELL 1 OUTCOME: A
+
+==============================================================================
+CELL 2 -- the two routes to the principal torsion
+==============================================================================
+  route A  Pi tau_m               = 292464267641722408020800672870010244624856583164706793097881029149469734689623244800000
+  route B  Delta_E6^(6)(1) / 6!   = 292464267641722408020800672870010244624856583164706793097881029149469734689623244800000
+  equal exactly as integers: True
+  CELL 2 OUTCOME: A
+
+  tau_E6 = 292464267641722408020800672870010244624856583164706793097881029149469734689623244800000
+         = +2^61*3^20*5^5*7^17*11^4*13^5*17*19^2*31*43*73*97*149*151*607*1471*49297*160453
+         ~ 2.9246427e+86   sign = +   (forced: (-1)^(sum of exponents) = (-1)^36)
+
+==============================================================================
+CELL 3 -- what the six torsions obey
+==============================================================================
+  Vol(4_1) = 2*Cl_2(pi/3) = 2.02988321281930725004240510855
+  Vol/pi                  = 0.646131894438901028187273021448
+
+  m= 1  log|tau_m| =    1.09861228867   R_m = log|tau_m| - (Vol/pi)m(m+1) =  -0.1936515002   [wrong law:   0.4524803942]
+  m= 4  log|tau_m| =    12.4712636801   R_m = log|tau_m| - (Vol/pi)m(m+1) =  -0.4513742086   [wrong law:    2.133153369]
+  m= 5  log|tau_m| =     18.922124899   R_m = log|tau_m| - (Vol/pi)m(m+1) =  -0.4618319341   [wrong law:    2.768827538]
+  m= 7  log|tau_m| =    35.7196877042   R_m = log|tau_m| - (Vol/pi)m(m+1) =  -0.4636983844   [wrong law:    4.059224877]
+  m= 8  log|tau_m| =    46.0580448855   R_m = log|tau_m| - (Vol/pi)m(m+1) =  -0.4634515141   [wrong law:    4.705603641]
+  m=11  log|tau_m| =    84.8257568512   R_m = log|tau_m| - (Vol/pi)m(m+1) =  -0.4636532147   [wrong law:    6.643797624]
+
+  spread of R_m over m in [4, 5, 7, 8, 11] : 0.01232417572
+  m = 1 reported separately        : R_1 = -0.1936515002
+
+  C4 (MB12 transversality) -- the same statistic against the WRONG law m^2:
+     spread = 4.510644255   must be >= 0.05 for CELL 3 to be readable
+     C4 verdict: the statistic DISCRIMINATES = True
+
+  CELL 3 OUTCOME: A   (threshold 0.05, preregistered)
+  the constant the residual settles to: -0.460801851185339
+  for reference only, NOT a claim: Vol/(4pi) = 0.16153297361,  log 2 = 0.69314718056,  Vol/pi = 0.646131894439
+
+------------------------------------------------------------------------------
+POST-HOC DIAGNOSTIC -- NOT PREREGISTERED, reported as such
+------------------------------------------------------------------------------
+  Least-squares fit  log|tau_m| = A*m^2 + B*m + C  on the five tail points,
+  then each coefficient divided by Vol/pi.  The seal's m(m+1) form predicts 1 and 1.
+     A =  0.646636997569   A / (Vol/pi) = 1.000781734
+     B =   0.63721275153   B / (Vol/pi) = 0.9861960956
+     C = -0.426148522974
+
+  Menal-Ferrer--Porti / Mueller give the LEADING term for cusped hyperbolic M:
+     log|tor(Sym^n)| / n^2 -> Vol/(4pi).   With n = 2m that is A -> Vol/pi.
+     Vol/(4pi) = 0.16153297361;  A/4 = 0.161659249392
+
+  Written in the block DIMENSION d_m = 2m+1, the fitted form reads
+     log|tau_m| ~ (Vol/4pi)*(d_m^2 - 1) + C,   since 4*m(m+1) = (2m+1)^2 - 1.
+     m= 1  d= 3  (Vol/4pi)(d^2-1) =   1.29226378888   log|tau_m| - that = -0.1936515002
+     m= 4  d= 9  (Vol/4pi)(d^2-1) =   12.9226378888   log|tau_m| - that = -0.4513742086
+     m= 5  d=11  (Vol/4pi)(d^2-1) =   19.3839568332   log|tau_m| - that = -0.4618319341
+     m= 7  d=15  (Vol/4pi)(d^2-1) =   36.1833860886   log|tau_m| - that = -0.4636983844
+     m= 8  d=17  (Vol/4pi)(d^2-1) =   46.5214963996   log|tau_m| - that = -0.4634515141
+     m=11  d=23  (Vol/4pi)(d^2-1) =   85.2894100659   log|tau_m| - that = -0.4636532147
+
+  THE CONSTANT IS NOT IDENTIFIED, AND NO IDENTIFICATION IS ATTEMPTED.
+     The five tail residuals agree to a spread of 0.0123242 -- about four
+     significant figures. Four figures cannot support an identification, and this
+     bench has a banked precedent for exactly that overreach (B583 X2, a PSLQ-null
+     overclaim). The constant is reported and left open.
+
+==============================================================================
+DONE -- outcomes above; interpretation lives in the memo, not here.
+==============================================================================

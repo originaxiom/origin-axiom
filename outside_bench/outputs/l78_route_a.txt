@@ -1,0 +1,87 @@
+==============================================================================
+L78 ROUTE A -- outside bench
+seal sha256 bff5ed36d85880c5a667c54086aa28f88d0fd182f8ef2a9e517c59a2bf355edf
+==============================================================================
+
+C2 (stage gates) -- |W(E6)| = 51840 EXACT
+    level 1: (ST)^3 = S^2 residual  sign +1 -> 2.692e-14, sign -1 -> 2.000e+00   (taken: +1)
+
+  level 1: 3 primaries, c = 6.000000, h = [0.       0.666667 0.666667]
+  [level 1] gates: symmetric=1.3434230124314764e-14  unitary=2.120525977034049e-14  S2_is_permutation=2.2431360832851453e-14  S2_perm_ok=True  ST3_eq_S2=2.6921434010190232e-14  qdim_min=0.9999999999999738  verlinde_int=3.140911001185955e-14  verlinde_nonneg=-0.0
+    level 2: (ST)^3 = S^2 residual  sign +1 -> 7.205e-15, sign -1 -> 2.000e+00   (taken: +1)
+
+  level 2: 9 primaries, c = 11.142857, h = [0.       0.619048 1.190476 1.190476 0.857143 0.619048 1.333333 1.285714
+ 1.333333]
+  [level 2] gates: symmetric=6.855121490028353e-15  unitary=5.662137425588298e-15  S2_is_permutation=4.240352326853918e-15  S2_perm_ok=True  ST3_eq_S2=7.205360329714177e-15  qdim_min=0.9999999999999981  verlinde_int=1.9743826563158885e-14  verlinde_nonneg=-0.0
+
+  ALL STAGE GATES PASS.
+
+  level 1: dim(theta-even) = 2, dim(theta-odd) = 1  (C = S^2 eigenvalues [-1.  1.  1.])
+
+  level 2: dim(theta-even) = 6, dim(theta-odd) = 3  (C = S^2 eigenvalues [-1. -1. -1.  1.  1.  1.  1.  1.  1.])
+
+==============================================================================
+CELL 1 -- the vacuum-seeded filling span
+==============================================================================
+  level 1  Q= 5  slopes=   39  rank=2  dim(even)=2  max|theta-odd proj|=3.180e-14
+  level 1  Q=15  slopes=  287  rank=2  dim(even)=2  max|theta-odd proj|=9.934e-14
+  level 1  Q=30  slopes= 1111  rank=2  dim(even)=2  max|theta-odd proj|=2.095e-13
+  level 2  Q= 5  slopes=   39  rank=6  dim(even)=6  max|theta-odd proj|=2.259e-15
+  level 2  Q=15  slopes=  287  rank=6  dim(even)=6  max|theta-odd proj|=1.077e-14
+  level 2  Q=30  slopes= 1111  rank=6  dim(even)=6  max|theta-odd proj|=2.142e-14
+
+==============================================================================
+CELL 2 -- is the positive outcome excluded a priori?
+==============================================================================
+  level 1: |e0.C - e0| = 2.243e-14   |[C,S]| = 1.241e-16   |[C,T]| = 2.956e-14   worst |v.C - v| over the sweep = 8.334e-14
+  level 2: |e0.C - e0| = 3.044e-15   |[C,S]| = 1.684e-16   |[C,T]| = 6.630e-15   worst |v.C - v| over the sweep = 8.267e-15
+
+==============================================================================
+C3 (MB12 transversality) and CELL 3 -- the non-vacuum reach, level 2
+==============================================================================
+  36 positive roots confirmed; the nine level-2 primaries, classical dim by Weyl's formula:
+    [0] Dynkin (0, 0, 0, 0, 0, 0)   dim =     1
+    [1] Dynkin (0, 0, 0, 0, 0, 1)   dim =    27
+    [2] Dynkin (0, 0, 0, 0, 1, 0)   dim =   351
+    [3] Dynkin (0, 0, 1, 0, 0, 0)   dim =   351
+    [4] Dynkin (0, 1, 0, 0, 0, 0)   dim =    78
+    [5] Dynkin (1, 0, 0, 0, 0, 0)   dim =    27
+    [6] Dynkin (0, 0, 0, 0, 0, 2)   dim =   351
+    [7] Dynkin (1, 0, 0, 0, 0, 1)   dim =   650
+    [8] Dynkin (2, 0, 0, 0, 0, 0)   dim =   351
+
+  charge conjugation C = S^2 as a permutation: [0, 5, 3, 2, 4, 1, 8, 7, 6]
+  1[000000]->1[000000], 27[000001]->27[100000], 351[000010]->351[001000], 351[001000]->351[000010], 78[010000]->78[010000], 27[100000]->27[000001], 351[000002]->351[200000], 650[100001]->650[100001], 351[200000]->351[000002]
+  the E6 diagram flip as a permutation:     [0, 5, 3, 2, 4, 1, 8, 7, 6]
+  GATE PASSED: C = S^2 IS the diagram flip, computed independently.
+
+  C3 -- seeds placed inside the theta-odd 3-space:
+    odd basis vector 0: span rank 3, theta-odd reach 3, max|proj| 1.000e+00
+    odd basis vector 1: span rank 3, theta-odd reach 3, max|proj| 1.000e+00
+    odd basis vector 2: span rank 3, theta-odd reach 3, max|proj| 1.000e+00
+  C3 verdict: instrument CAN report a non-zero theta-odd reach = True
+
+  CELL 3 -- per-seed reach (nine primary seeds):
+    e[1[000000]]  span rank 6  theta-odd reach 0  max|theta-odd proj| 2.142e-14
+    e[27[000001]]  span rank 9  theta-odd reach 3  max|theta-odd proj| 6.870e-01
+    e[351[000010]]  span rank 9  theta-odd reach 3  max|theta-odd proj| 6.870e-01
+    e[351[001000]]  span rank 9  theta-odd reach 3  max|theta-odd proj| 6.870e-01
+    e[78[010000]]  span rank 6  theta-odd reach 0  max|theta-odd proj| 1.853e-14
+    e[27[100000]]  span rank 9  theta-odd reach 3  max|theta-odd proj| 6.870e-01
+    e[351[000002]]  span rank 9  theta-odd reach 3  max|theta-odd proj| 6.870e-01
+    e[650[100001]]  span rank 6  theta-odd reach 0  max|theta-odd proj| 2.168e-14
+    e[351[200000]]  span rank 9  theta-odd reach 3  max|theta-odd proj| 6.870e-01
+
+  CELL 3 -- C-antisymmetric seeds (e_i - e_C(i))/sqrt2:
+    (e[27[000001]] - e[27[100000]])/sqrt2  span rank 3  theta-odd reach 3  max|proj| 9.716e-01
+    (e[351[000010]] - e[351[001000]])/sqrt2  span rank 3  theta-odd reach 3  max|proj| 9.716e-01
+    (e[351[000002]] - e[351[200000]])/sqrt2  span rank 3  theta-odd reach 3  max|proj| 9.716e-01
+
+  CELL 3 -- the union over all C-antisymmetric seeds:
+    joint theta-odd reach = 3 of 3   singular values [47.138095 47.138095 47.138095]
+    Frobenius^2 of the full span = 6666.000000   captured by theta-odd = 6666.000000   predicted if the span is entirely theta-odd = 6666.000000
+    leakage into theta-even = -9.095e-13
+
+==============================================================================
+DONE -- outcomes above; interpretation lives in the memo, not here.
+==============================================================================

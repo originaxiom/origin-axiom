@@ -1,0 +1,83 @@
+CERTIFICATE -- the exhaustion is exhaustion of a table with no JOINT row in it.
+
+OCCASION (owner, 2026-09-11): "are we making same mistake again by counting only on the object, and
+not its relationships, faces interactions.  the nature emerges wher they meet or elsewhere with all
+faces accounted for"
+
+Aimed at a sentence this bench banked the same day: "the object's numbers are not nature's numbers"
+(memo 195 addendum 2, from the K3 refutation).  The charge is that the sentence generalises from a
+tested population to all populations.  This tests the charge.
+
+CELLS (two outcomes each)
+  CELL 1  Do the seven sealed crossings ever draw on the MEETING face, Q(sqrt-15)?
+          A: at least one does        B: none does
+  CELL 2  Does docs/KIND_TABLE.md -- the admissibility GATE, whose own rule is "a prereg
+          proposing a pair absent from the admissible list does not seal" -- list any
+          object quantity in Q(sqrt-15), or any quantity built from MORE THAN ONE face?
+          A: it lists one             B: every admissible row is single-field, none is meeting
+  CELL 3  Does the meeting face carry anything the other two do not?
+          A: no, it is redundant      B: yes, a non-trivial class group neither other face has
+
+CONTROLS
+  C1  The scan must distinguish the FIELD sqrt-15 from the English word "meeting", which occurs in
+      ordinary prose.  Both counts are printed.
+  C2  Class numbers are COMPUTED by counting reduced primitive forms, not asserted, and the count
+      is validated against two known values (h(-4) = 1, h(-23) = 3).
+  C3  The tally must find the fields that ARE there, or a zero for sqrt-15 means nothing.
+
+==============================================================================
+C2  class-number counter validated: h(-4) = 1 (expect 1), h(-23) = 3 (expect 3)  -> PASS
+
+CELL 3  what each face carries
+    being    Q(sqrt-3)   unit rank 0   units mu_6 (the TRIT)     CLASS NUMBER 1
+    hearing  Q(sqrt5)    unit rank 1   fundamental unit phi      CLASS NUMBER 1  (B1069: h = h+ = 1)
+    meeting  Q(sqrt-15)  unit rank 0   units +-1                 CLASS NUMBER 2
+    -> B  (meeting is the ONLY one of the three with a non-trivial class group -- the genus bit B1276 names as the meeting-leg)
+
+CELL 1  do the seven sealed crossings draw on the meeting FIELD?
+    B915   field sqrt-15:   0      (English word 'meeting':   7  -- C1, kept separate)
+    B925   field sqrt-15:   0      (English word 'meeting':   3  -- C1, kept separate)
+    B929   field sqrt-15:   0      (English word 'meeting':   0  -- C1, kept separate)
+    B1027  field sqrt-15:   0      (English word 'meeting':   0  -- C1, kept separate)
+    B1063  field sqrt-15:   0      (English word 'meeting':   0  -- C1, kept separate)
+    B1066  field sqrt-15:   0      (English word 'meeting':   0  -- C1, kept separate)
+    B1075  field sqrt-15:   0      (English word 'meeting':   0  -- C1, kept separate)
+    -> B  (NOT ONE of the seven touches the meeting field)
+
+CELL 2  the admissibility GATE, docs/KIND_TABLE.md
+    its own rule: 'a prereg proposing a pair absent from the admissible list does not seal.'
+    the FIELD column of every object-side row:
+       2 x  ℚ(√5)
+       2 x  ℚ
+       1 x  **probability**
+       1 x  ℚ(ω)
+       1 x  cubic K
+       1 x  —
+       1 x  h\
+       1 x  **amplitude modulus** [0,1]
+       1 x  **CONSUMED**
+
+    C3  the tally finds the fields that ARE there (Q(sqrt5), Q(omega)): PASS
+    occurrences of the meeting field anywhere in the gate: 0
+    rows built from MORE THAN ONE face: 0
+    -> B  (every admissible object quantity is SINGLE-FIELD; the product face is absent from the gate entirely)
+
+ALL CONTROLS PASSED
+VERDICT: CELL 1 = B, CELL 2 = B, CELL 3 = B
+
+WHAT THIS LICENSES, AND WHAT IT DOES NOT.
+
+  LICENSED: the seven-for-seven is exhaustion of a table whose field column never
+  contained the product face, and whose every admissible row is single-field.  So
+  "the object's numbers are not nature's numbers" OVERREACHES.  The sentence the
+  record supports is: THE OBJECT'S SINGLE-FACE NUMBERS ARE NOT NATURE'S NUMBERS, AND
+  NO MULTI-FACE QUANTITY HAS EVER BEEN ADMISSIBLE.
+
+  NOT LICENSED, and saying it would repeat the error in the other direction: that the
+  meeting face will yield values.  Meeting is imaginary quadratic, unit rank 0 -- by
+  the same Dirichlet argument it carries TORSION, not growth.  What it has that the
+  others do not is a CLASS GROUP of order 2.  A bit is still a bit, not a value.
+
+  The untested population is therefore not "Q(sqrt-15) numbers".  It is ANY QUANTITY
+  BUILT FROM MORE THAN ONE FACE AT ONCE -- and the gate has no such row.
+

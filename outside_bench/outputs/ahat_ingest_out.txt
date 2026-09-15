@@ -1,0 +1,29 @@
+SELF-TEST (no file given).  These must pass before any external file is trusted.
+
+==============================================================================
+T1/T2  Park's printed eq (32)
+==============================================================================
+   identity                   : x^{0+1/2}: 0  |  x^{1+1/2}: 0  |  x^{2+1/2}: 0  |  x^{3+1/2}: q^13 * f_0(q)   <-- exactly memo 183's defect
+   q -> 1/q                   : x^{0+1/2}: non-zero, lowest Q^12, 70 terms  |  x^{1+1/2}: non-zero, lowest Q^10, 269 terms  |  x^{2+1/2}: non-zero, lowest Q^6, 370 terms  |  x^{3+1/2}: non-zero, lowest Q^4, 384 terms
+   x -> 1/x                   : x^{0+1/2}: non-zero, lowest Q^12, 90 terms  |  x^{1+1/2}: non-zero, lowest Q^10, 154 terms  |  x^{2+1/2}: non-zero, lowest Q^6, 192 terms  |  x^{3+1/2}: non-zero, lowest Q^4, 200 terms
+   yhat-degree reversed       : x^{0+1/2}: non-zero, lowest Q^-2, 74 terms  |  x^{1+1/2}: non-zero, lowest Q^-2, 103 terms  |  x^{2+1/2}: non-zero, lowest Q^-2, 160 terms  |  x^{3+1/2}: non-zero, lowest Q^0, 210 terms
+   yhat reversed, q -> 1/q    : x^{0+1/2}: non-zero, lowest Q^8, 74 terms  |  x^{1+1/2}: non-zero, lowest Q^6, 298 terms  |  x^{2+1/2}: non-zero, lowest Q^2, 386 terms  |  x^{3+1/2}: non-zero, lowest Q^0, 402 terms
+   yhat reversed, x -> 1/x    : x^{0+1/2}: non-zero, lowest Q^8, 36 terms  |  x^{1+1/2}: non-zero, lowest Q^6, 102 terms  |  x^{2+1/2}: non-zero, lowest Q^2, 201 terms  |  x^{3+1/2}: non-zero, lowest Q^0, 205 terms
+   q -> 1/q and x -> 1/x      : x^{0+1/2}: non-zero, lowest Q^-2, 98 terms  |  x^{1+1/2}: non-zero, lowest Q^-2, 390 terms  |  x^{2+1/2}: non-zero, lowest Q^-2, 408 terms  |  x^{3+1/2}: non-zero, lowest Q^0, 415 terms
+==============================================================================
+T3  eq (32) + memo 183 addendum 2's c_3 = -q^{25/2} x^3 in a_1
+==============================================================================
+   identity                   : x^{0+1/2}: 0  |  x^{1+1/2}: 0  |  x^{2+1/2}: 0  |  x^{3+1/2}: 0
+        >>> ANNIHILATES Park's blocks in this convention <<<
+   q -> 1/q                   : x^{0+1/2}: non-zero, lowest Q^12, 70 terms  |  x^{1+1/2}: non-zero, lowest Q^10, 269 terms  |  x^{2+1/2}: non-zero, lowest Q^6, 370 terms  |  x^{3+1/2}: non-zero, lowest Q^4, 383 terms
+   x -> 1/x                   : x^{0+1/2}: non-zero, lowest Q^12, 90 terms  |  x^{1+1/2}: non-zero, lowest Q^10, 154 terms  |  x^{2+1/2}: non-zero, lowest Q^6, 192 terms  |  x^{3+1/2}: non-zero, lowest Q^4, 200 terms
+   yhat-degree reversed       : x^{0+1/2}: non-zero, lowest Q^-2, 74 terms  |  x^{1+1/2}: non-zero, lowest Q^-2, 103 terms  |  x^{2+1/2}: non-zero, lowest Q^-2, 160 terms  |  x^{3+1/2}: non-zero, lowest Q^0, 210 terms
+   yhat reversed, q -> 1/q    : x^{0+1/2}: non-zero, lowest Q^8, 74 terms  |  x^{1+1/2}: non-zero, lowest Q^6, 298 terms  |  x^{2+1/2}: non-zero, lowest Q^2, 386 terms  |  x^{3+1/2}: non-zero, lowest Q^0, 403 terms
+   yhat reversed, x -> 1/x    : x^{0+1/2}: non-zero, lowest Q^8, 36 terms  |  x^{1+1/2}: non-zero, lowest Q^6, 102 terms  |  x^{2+1/2}: non-zero, lowest Q^2, 201 terms  |  x^{3+1/2}: non-zero, lowest Q^0, 205 terms
+   q -> 1/q and x -> 1/x      : x^{0+1/2}: non-zero, lowest Q^-2, 98 terms  |  x^{1+1/2}: non-zero, lowest Q^-2, 390 terms  |  x^{2+1/2}: non-zero, lowest Q^-2, 408 terms  |  x^{3+1/2}: non-zero, lowest Q^0, 415 terms
+==============================================================================
+   T1 printed eq (32) reproduces memo 183's defect q^13 f_0 at x^{7/2} : PASSED
+   T2 no convention in the search space rescues it                     : PASSED
+   T3 the diagnostic sees a repair when there is one (x^{7/2} vanishes): PASSED
+
+SELF-TEST PASSED.  Ready for the primary-source file.

@@ -1,0 +1,38 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+=== TEST 1: does filling m004 break CS = 0?  (B432's mechanism, in CS terms)
+  unfilled m004: cusps 1 CS +0.000000
+  m004(1,1): contains flat tetrahedra
+  m004(2,1): contains flat tetrahedra
+  m004(3,1): contains flat tetrahedra
+  m004(4,1): contains degenerate tetrahedra
+  m004(5,1): all tetrahedra positively oriented
+  m004(1,2): all tetrahedra positively oriented
+  m004(3,2): all tetrahedra positively oriented
+  m004(5,2): all tetrahedra positively oriented
+  m004(7,1): all tetrahedra positively oriented
+  m004(5,3): all tetrahedra positively oriented
+  -> CS COMPUTABLE on 0 of 10 closed fillings.
+     SnapPy raises "The Chern-Simons invariant isn't currently known" once the cusp is filled,
+     so this test is INCONCLUSIVE as run. B432's chirality result stands on its own instrument.
+
+=== TEST 2: THE MOVE NOBODY MADE -- partially fill a MULTI-CUSPED cover.
+    keep a cusp (so a boundary theory survives) AND break amphichirality (CS != 0).
+  deg 4 cover, 2 cusps, fill (1, 0) -> 1 cusp(s) left, CS = +0.000000000  [contains flat tetr]
+  deg 5 cover, 2 cusps, fill (2, 1) -> 1 cusp(s) left, CS = +0.157590041  [all tetrahedra pos]  <== CUSPS SURVIVE + CS != 0
+  deg 5 cover, 3 cusps, fill (2, 1) -> 2 cusp(s) left, CS = +0.157590041  [all tetrahedra pos]  <== CUSPS SURVIVE + CS != 0
+  deg 5 cover, 2 cusps, fill (2, 1) -> 1 cusp(s) left, CS = +0.176909499  [all tetrahedra pos]  <== CUSPS SURVIVE + CS != 0
+  deg 6 cover, 2 cusps, fill (1, 0) -> 1 cusp(s) left, CS = -0.058465711  [contains negativel]  <== CUSPS SURVIVE + CS != 0
+  deg 6 cover, 2 cusps, fill (1, 1) -> 1 cusp(s) left, CS = +0.198066693  [contains negativel]  <== CUSPS SURVIVE + CS != 0
+  deg 6 cover, 2 cusps, fill (1, 1) -> 1 cusp(s) left, CS = +0.198066693  [contains negativel]  <== CUSPS SURVIVE + CS != 0
+  deg 6 cover, 2 cusps, fill (2, 1) -> 1 cusp(s) left, CS = +0.194458446  [all tetrahedra pos]  <== CUSPS SURVIVE + CS != 0
+  deg 6 cover, 2 cusps, fill (1, 1) -> 1 cusp(s) left, CS = +0.231670002  [all tetrahedra pos]  <== CUSPS SURVIVE + CS != 0
+  deg 6 cover, 2 cusps, fill (1, 1) -> 1 cusp(s) left, CS = +0.231670002  [all tetrahedra pos]  <== CUSPS SURVIVE + CS != 0
+  deg 6 cover, 2 cusps, fill (1, 0) -> 1 cusp(s) left, CS = +0.058465711  [contains negativel]  <== CUSPS SURVIVE + CS != 0
+  deg 7 cover, 3 cusps, fill (1, 0) -> 2 cusp(s) left, CS = +0.000000000  [contains negativel]
+  deg 7 cover, 3 cusps, fill (1, 0) -> 2 cusp(s) left, CS = +0.041666667  [contains negativel]  <== CUSPS SURVIVE + CS != 0
+  deg 7 cover, 3 cusps, fill (1, 0) -> 2 cusp(s) left, CS = -0.041666667  [contains negativel]  <== CUSPS SURVIVE + CS != 0
+
+  RESULT: 18 of 22 partial fillings keep >=1 cusp AND have CS != 0
+  => the two things the sigma bridge needs -- a cusp and a quantized (CS != 0) sector --
+     are SIMULTANEOUSLY satisfiable. Covers alone give neither; fillings alone kill the cusp.

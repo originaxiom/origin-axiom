@@ -1,0 +1,113 @@
+
+==============================================================================
+C1 & CELL 2 -- the Galois-leg slots, ENUMERATED
+==============================================================================
+       V4 = Gal(Q(sqrt-3, sqrt5)/Q) as sign pairs on (sqrt-3, sqrt5): [(1, 1), (1, -1), (-1, 1), (-1, -1)]
+       |Hom(V4, Z/2)| = 4    non-trivial: 3
+  [OK ] C1 -- Hom(V4, Z/2) enumerated, not asserted
+       being   Q(sqrt-3)  -- c, the mirror/chirality leg (B942/B1168/B1174)
+           flips on: [(-1, 1), (-1, -1)]
+       hearing Q(sqrt5)   -- the value/form-class leg (B957/B1067)
+           flips on: [(1, -1), (-1, -1)]
+       meeting Q(sqrt-15) -- the genus leg, c . (sqrt5-swap) (B1174/B1276/B698)
+           flips on: [(1, -1), (-1, 1)]
+  [OK ] the three NAMED faces are three DISTINCT non-trivial homomorphisms
+
+  CELL 2 = B  -- the three leg slots are FULL.  By COUNTING, not by inspection, no further bit can be a Galois leg of this V4.
+
+==============================================================================
+C2 -- the parity law reproduced (B1276), so the Galois machinery is anchored before use
+==============================================================================
+       being   Q(sqrt-3)  imaginary=True   c acts nontrivially=True    face
+  [OK ] parity law on Q(sqrt-3): c acts <=> imaginary
+       hearing  Q(sqrt+5)  imaginary=False  c acts nontrivially=False   face
+  [OK ] parity law on Q(sqrt+5): c acts <=> imaginary
+       meeting  Q(sqrt-15)  imaginary=True   c acts nontrivially=True    face
+  [OK ] parity law on Q(sqrt-15): c acts <=> imaginary
+       stage    Q(sqrt-7)  imaginary=True   c acts nontrivially=True    OFF-face control (B1276)
+  [OK ] parity law on Q(sqrt-7): c acts <=> imaginary
+       -> hearing is MIRROR-EVEN BY ARITHMETIC; no hearing-side Z/2 can be the orientation.
+
+==============================================================================
+CELL 1 & C3 -- is section 8's invariant two-valued on its own domain?
+==============================================================================
+       M = [[5, 2], [2, 1]]   kappa =     -2   D =     1   DIRECT+1
+       M = [[2, 3], [1, 2]]   kappa =      3   D =    -1   DIRECT-1
+       M = [[8, 21], [3, 8]]  kappa =    263   D =   -29   TORSOR
+       M = [[5, 12], [2, 5]]  kappa =     78   D =   -19   TORSOR
+       M = [[4, 15], [1, 4]]  kappa =    183   D =  -181   TORSOR
+       M = [[3, 5], [1, 2]]   kappa =     18   D =    -1   DIRECT-1
+       M = [[1, 3], [1, 4]]   kappa =    -18   D =     5   TORSOR
+       M = [[7, 2], [3, 1]]   kappa =     -9   D =    11   TORSOR
+       M = [[9, 4], [2, 1]]   kappa =    -18   D =     5   TORSOR
+  [OK ] C3 -- the classifier CAN return a genuine Z/2 (|D| = 1 occurs, both signs)  |D| = 1 values seen: [-1, 1]
+
+       values with |D| = 1 (a genuine bit):      [-1, 1]
+       values with |D| > 1 (NOT a bit, torsor):  [-181, -29, -19, 5, 11]
+  CELL 1 = B  -- section 8's invariant is NOT two-valued: it is Z/2-valued only on the sub-locus |D| = 1, and off it the class is a TORSOR with no distinguished pair of elements
+
+==============================================================================
+CELL 3 & C4 -- is the Chern-Simons bit determined by c?
+==============================================================================
+       m003  amphichiral=True  vol=2.029883213  CS=+0.250000000000  A[2]-class=0.25   distance=1.11e-16
+       m004  amphichiral=True  vol=2.029883213  CS=+0.000000000000  A[2]-class=0.0   distance=1.35e-16
+  [OK ] C4 -- both are amphichiral, so c is PRESENT AND NON-TRIVIAL on both
+  [OK ] C4 -- and they have the SAME volume, so no archimedean invariant separates them either  2.029883213 vs 2.029883213
+
+       banked census (this bench's L192 certificate, 203,122 manifolds):
+         amphichiral manifolds: 181   at A[2] = 0: 106   at A[2] = 1/4: 75
+  [OK ] C4 -- the banked census agrees: BOTH elements are occupied among amphichirals
+
+  CELL 3 = B  -- m003 and m004 are BOTH amphichiral and of EQUAL volume, and their A[2] classes DIFFER (1/4 vs 0).  c is present and non-trivial on both; the bit is not determined by it.
+
+==============================================================================
+VERDICT
+==============================================================================
+  CELL 1 = B   CELL 2 = B   CELL 3 = B   controls: ALL PASS
+
+  THE PROGRAMME'S Z/2 CENSUS HAS ONE KIND IN IT, AND ITS SLOTS ARE FULL.
+
+  B1174, B1276 and B1041 censused the record's Z/2's and organised them correctly -- as LEGS of
+  V4's and DIRECTIONS of (Z/2)^3 cubes.  Every candidate in that census is the same kind of object:
+  THE SIGN OF A NAMED SURD UNDER A FIELD AUTOMORPHISM.  Hom(V4, Z/2) has exactly three non-trivial
+  elements, and B730/B1174 already name all three -- being (c), hearing (the value/form-class leg),
+  meeting (the genus leg, c . hearing).  THE LEG SLOTS OF THAT V4 ARE FULL BY COUNTING.
+
+  SCOPE, stated plainly: "full" is a statement about the MEETING V4 = Gal(Q(sqrt-3, sqrt5)/Q), which
+  is the group B730 proves the object's arithmetic forces.  B1041's (Z/2)^3 cube is a LARGER group
+  with seven non-trivial characters, and this certificate says nothing about how many of those are
+  spoken for.  What it does say is that the two bits below are not legs of ANY such group, because
+  they are not signs of surds under automorphisms at all -- a KIND difference, not a counting one,
+  and the counting argument is offered only for the V4 the record's faces live in.
+
+  Two bits the record books are NOT of that kind, and neither was in the census:
+
+   *  SECTION 8'S RELATIONAL BIT is a square class of a PAIR, and on its own domain it is NOT EVEN
+      TWO-VALUED: B1248's D runs over -181, -29, -19, -1, +1, 5, 11 on a single fixed object
+      relatum.  It is a bit only on the sub-locus |D| = 1; off that locus it is a TORSOR with no
+      distinguished pair of elements.  Calling it "a bit" is exact where |D| = 1 and a contraction
+      everywhere else.
+
+   *  THE CHERN-SIMONS BIT is the 2-torsion of an ARCHIMEDEAN VALUE GROUP, R/(1/2)Z.  It is genuinely
+      two-valued, and it is NOT the c-leg: m003 and m004 are both amphichiral (c present and
+      non-trivial on both) and have the SAME VOLUME, yet sit at different elements of A[2] --
+      1/4 and 0.  Across the banked census, both elements are occupied among amphichirals.
+      AMPHICHIRALITY FORCES MEMBERSHIP IN A[2]; IT DOES NOT FORCE WHICH ELEMENT.
+
+  SO THE RECORD CARRIES AT LEAST THREE KINDS OF Z/2, NOT ONE FAMILY:
+      (a) Galois legs         -- the sign of a surd under an automorphism.  Slots: exactly 3, FULL.
+      (b) square classes of a pair -- section 8's bit.  Two-valued only on a sub-locus.
+      (c) torsion of a value group -- the Chern-Simons bit.  Two-valued, and independent of (a).
+
+  WHY IT MATTERS, and it is the reason B1327 could raise its question at all: A LEDGER THAT BOOKS
+  BITS WITHOUT TYPING THEM BY KIND INVITES EXACTLY THE OVER-COUNT WORRY B1327 RAISED.  Two bits of
+  different KINDS cannot be the same input, and that can be settled by typing before any pair of
+  them is compared.  Memo 199 settled one such pair by computation; this settles the general shape.
+
+  WHAT THIS DOES NOT DO.  It does not move a freedom-ledger row -- that is the ledger owner's call.
+  It does not claim the list of kinds is complete; it claims at least three, exhibited.  It does not
+  weaken B1174, B1276 or B1041: all three are reproduced here as far as they are used, and the
+  finding is that their census was SOUND AND SCOPED -- it answered the question it asked, about
+  legs, and two later bits are not legs.
+
+Gate 5 untouched.  No measured value is used or named.

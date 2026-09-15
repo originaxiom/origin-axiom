@@ -1,0 +1,34 @@
+even-labeled candidates c in {0,2}^6 \ {0}: 63
+of these, H = sum c_j omega_j^vee lies in the COROOT lattice: 23
+  c=(0, 0, 0, 0, 2, 2): <omega_1,H> = m_1 = 4  even: True
+  c=(0, 0, 0, 2, 0, 0): <omega_1,H> = m_1 = 4  even: True
+  c=(0, 0, 0, 2, 2, 2): <omega_1,H> = m_1 = 8  even: True
+  c=(0, 0, 2, 0, 2, 0): <omega_1,H> = m_1 = 6  even: True
+  c=(0, 0, 2, 2, 2, 0): <omega_1,H> = m_1 = 10  even: True
+  c=(0, 2, 0, 0, 0, 0): <omega_1,H> = m_1 = 2  even: True
+  c=(0, 2, 0, 0, 2, 2): <omega_1,H> = m_1 = 6  even: True
+  c=(0, 2, 0, 2, 0, 0): <omega_1,H> = m_1 = 6  even: True
+  c=(0, 2, 0, 2, 2, 2): <omega_1,H> = m_1 = 10  even: True
+  c=(0, 2, 2, 0, 2, 0): <omega_1,H> = m_1 = 8  even: True
+  c=(0, 2, 2, 2, 2, 0): <omega_1,H> = m_1 = 12  even: True
+  c=(2, 0, 0, 0, 0, 2): <omega_1,H> = m_1 = 4  even: True
+  c=(2, 0, 0, 2, 0, 2): <omega_1,H> = m_1 = 8  even: True
+  c=(2, 0, 2, 0, 0, 0): <omega_1,H> = m_1 = 6  even: True
+  c=(2, 0, 2, 0, 2, 2): <omega_1,H> = m_1 = 10  even: True
+  c=(2, 0, 2, 2, 0, 0): <omega_1,H> = m_1 = 10  even: True
+  c=(2, 0, 2, 2, 2, 2): <omega_1,H> = m_1 = 14  even: True
+  c=(2, 2, 0, 0, 0, 2): <omega_1,H> = m_1 = 6  even: True
+  c=(2, 2, 0, 2, 0, 2): <omega_1,H> = m_1 = 10  even: True
+  c=(2, 2, 2, 0, 0, 0): <omega_1,H> = m_1 = 8  even: True
+  c=(2, 2, 2, 0, 2, 2): <omega_1,H> = m_1 = 12  even: True
+  c=(2, 2, 2, 2, 0, 0): <omega_1,H> = m_1 = 12  even: True
+  c=(2, 2, 2, 2, 2, 2): <omega_1,H> = m_1 = 16  even: True
+
+<omega_1,H> even for EVERY even-labeled coroot-lattice element: True
+all 9 banked even characteristics appear among the integral candidates: True
+
+A5 LEMMA (E6): for every even-labeled element of the coroot lattice,
+<omega_1, H> is automatically even — so on the 27 the parity of a stratum is
+decided by the ADJOINT data alone:  PROJECTIVE  <=>  EVEN ORBIT.
+The criterion's second clause is provably redundant; memo 30's dictionary
+(9 projective = the 9 even-labeled rows) is the realized instance.

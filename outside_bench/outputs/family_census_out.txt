@@ -1,0 +1,25 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+frame rebuilt: 3 orthogonal A2 slots; 27 blocks {('3b', '3b', '1'): 9, ('3', '1', '3b'): 9, ('1', '3', '3'): 9} (pairwise DISTINCT types)
+FACT 1: slot-cycling (0->1->2->0) root-system automorphisms: 432 of 1728;
+        with T^3 = 1: 36
+FACT 2: canonical T preserves the 27 weight set: True
+FACT 3: T-orbit sizes on the 27: {3: 9}
+   size-3 orbits within ONE block type: 0; crossing all three: 9
+BRANCH S: every size-3 orbit meets all three DISTINCT 9-blocks — the Z3
+   rotates quark-sector -> lepton-sector -> anti-sector states WITHIN one
+   generation-worth of matter.  The three blocks carry pairwise-distinct
+   slot-type triples (asserted above): they are NOT three copies of the
+   same content.  ONE 27 CARRIES NO FAMILY INDEX.  The record's only true
+   three-copies structure is E8's (3,27) (memo 53, banked): family
+   multiplicity is a possibility-space fact, not an intra-27 one.
+FACT 4: r0 = (-1, -2, -2, -3, -2, -1) (in slot [0]); T(r0) = (-1, 0, -1, 0, 0, 0); fixed: False
+        T preserves the lock grading (-1)^(1+wt): False (reported, not asserted)
+
+FENCE: B950's "generation count structurally" scorecard claim is not audited
+here — it lives at the E8 level (memo 53's lane); flagged for the seat.
+Gate 5 untouched.

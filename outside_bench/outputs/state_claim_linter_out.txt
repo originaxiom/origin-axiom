@@ -1,0 +1,24 @@
+
+==============================================================================
+LANE SWEEP -- 172 markdown files under outside_bench/
+==============================================================================
+FLAGGED state claims (named arc whose directory contradicts them): 0
+
+WARNINGS (state claim naming no arc and stating no searched terms): 41
+    [outside_bench/INDEX.md] level 3 = the automorphisms of this group, stated not run | 1B, banked 2026-08-28 |
+    [outside_bench/INDEX.md] P2 THE SHAPES MIDDLE TERM DOES NOT EXIST — the specs own I2:
+    [outside_bench/INDEX.md] a contact quantity no apparatus choice can move may be a CHEAPER CONTACT than the ledger assumes — named, not claimed, not run | 1B, banked 2026-08-29
+    [outside_bench/INDEX.md] this branch is 94 COMMITS BEHIND MAIN and all five distinct dead targets exist at the pin and simply are not on this branch (already_banked.py, SPECIA
+    [outside_bench/THE_CLOSURE_ROUTES.md] Rows the bench could still run in-sandbox were run **this session** (memos 103, 104) before this document was written — no route is listed as "bench-r
+    [outside_bench/THE_FENCE_THEOREM.md] A self-model that is never executed is a *description*, not an   awareness.
+    [outside_bench/THE_FULL_ACCOUNTING.md] **S1** (E₆ SW curve vs the banked A-polynomial) — the 4d lift's one    named computation, never run.
+    [outside_bench/THE_FULL_ACCOUNTING.md] S4 (the quine) unbuilt.
+    [outside_bench/THE_FULL_ACCOUNTING.md] the quine is BUILT (memo 107, outcome Q1) §2's fenced line read "S4 (the quine) unbuilt." It is now built, under the signed THE_QUINE_SPEC, and it lan
+    [outside_bench/THE_FULL_ACCOUNTING.md] **The rule this document should have followed, adopted now:** no MISSING/OPEN/"never run" claim is admissible until `already_banked.py` has been run o
+    [outside_bench/THE_GATE_OWNERSHIP.md] what remains is **a theorem that does not exist**, whose nearest neighbours have been open since 2004.
+    [outside_bench/THE_GATE_OWNERSHIP.md] **Q9's adjudication is the open bench item this produces** — named, bounded, and not started.
+    ... and 29 more
+
+OUTCOME: L2-CLEAN
+FENCE: a flag means READ THAT ARC'S DIRECTORY before repeating the claim.
+Lexical matching -- a state claim phrased off-list still slips. Reduces, not abolishes.

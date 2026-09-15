@@ -49,12 +49,34 @@ charge side and the gravity side never meet (**a rank obstruction**: D₂ is inn
 E₆(−26) has 𝔨 = f₄ of rank 4 and is outer).
 
 **THE PRICE, MEASURED (B1261, 2026-09-06) — read this before any row below.** The programme
-**SPENDS 4 axioms + 10 UNEARNED identifications = 14 unpriced inputs** and **BUYS 0 of the SM's 19
-free parameters** (26 with Dirac neutrinos). **CORRECTED BY B1266: the 14 OVERCOUNTS.** The rows are
+**SPENDS axioms + UNEARNED identifications** and **BUYS 0 of the SM's 19
+free parameters** (26 with Dirac neutrinos). **CORRECTED BY B1266: the row count OVERCOUNTS.** The rows are
 not independent — I-18 and I-23 say *"i.e. paying I-13"*, and I-11 says *"the same map as I-10"* — so
-**10 rows reduce to 7 irreducible sources** and the theory's actual free-input count is **4 + 7 = 11**.
-Both numbers are real: **14 = rows outstanding** (what the ratchet tracks), **11 = irreducible inputs**
-(what compares against the SM's 19). The trade is still **net negative**. **By parameter count the trade is NET NEGATIVE.** By
+**rows reduce to irreducible sources**, and both numbers are real: **rows outstanding** is what the
+ratchet tracks, **irreducible inputs** is what compares against the SM's 19.
+
+~~**SPENDS 4 axioms + 10 UNEARNED identifications = 14 unpriced inputs** … **10 rows reduce to 7
+irreducible sources** and the theory's actual free-input count is **4 + 7 = 11** … **14 = rows
+outstanding** … **11 = irreducible inputs**~~
+
+> **[NUMBERS SUPERSEDED IN PLACE 2026-09-13 — outside-bench memo 223, certificate
+> `outside_bench/certificates/the_price_is_twelve.py`, which RERUNS B1266's own union-find on the
+> LIVE ledger. The struck figures are kept for provenance, not deleted; B1261's and B1266's METHOD
+> is unchanged and correct — only the counts moved.]**
+>
+> **LIVE: 4 axioms + 14 UNEARNED rows = 18 ROWS OUTSTANDING; 14 rows reduce to 8 IRREDUCIBLE
+> SOURCES, so the free-input count is 4 + 8 = 12.** The ledger was raised five times after this
+> paragraph was written — **I-26** (B1259, 2026-09-06), **I-27** (B1296, 2026-09-07), **I-28**
+> (B1298, 2026-09-08), **I-30** (B1321, 2026-09-09), **I-29** (B1306 C, 2026-09-09) — each raise
+> **by hand and dated**, as `docs/IDENTIFICATION_BASELINE.json`'s ratchet requires. The eight
+> sources are the listener map `u` (I-13, I-18, I-23, I-29), the E₆(−14)/E₆(−26) fork (I-10, I-11),
+> the closer's frame (I-27, I-28, I-30), and the five singletons I-6, I-7, I-14, I-25, I-26.
+>
+> **Four of the five raises are PRE-EXISTING DEBTS NEWLY NAMED, not newly created** — the count
+> rose because the accounting got more honest, not because the theory got worse. **BUYS 0 of 19 is
+> unchanged.**
+
+The trade is still **net negative**. **By parameter count the trade is NET NEGATIVE.** By
 structural content it derives what the SM assumes or cannot state (the ℤ₆ global form, hypercharge
 direction, anomaly cancellation, termination) — **and the two currencies do not convert.** The rate
 moves by exactly two operations: **earn an identification (−1)** or **derive a parameter (+1)**.

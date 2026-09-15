@@ -1,0 +1,54 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+lane weight coordinates ready; beat root r0 shift vector = (0, -1, 0, 0, 0, 0)
+criterion VERIFIED on all 128: beat-even  <=>  <a, shift(r0)> even (matrix = formula)
+flip-count histogram over the 128 affine classes: {0: 1, 11: 27, 12: 36, 15: 36, 16: 27, 27: 1}
+
+11-flip eps=-1 candidates: 27; of these, matching B916's
+flip weight-sum signature {-1 x2, 0 x7, +1 x2}: 15
+   a=(0, 0, 0, 1, 0, 1): beat-EVEN
+   a=(0, 0, 1, 0, 1, 0): beat-EVEN
+   a=(0, 0, 1, 1, 0, 1): beat-EVEN
+   a=(0, 1, 0, 0, 0, 1): beat-BROKEN
+   a=(0, 1, 0, 0, 1, 1): beat-BROKEN
+   a=(1, 0, 0, 0, 0, 1): beat-EVEN
+   a=(1, 0, 0, 0, 1, 1): beat-EVEN
+   a=(1, 0, 0, 1, 0, 0): beat-EVEN
+   a=(1, 0, 0, 1, 1, 0): beat-EVEN
+   a=(1, 0, 1, 0, 0, 1): beat-EVEN
+   a=(1, 0, 1, 0, 1, 1): beat-EVEN
+   a=(1, 1, 0, 0, 0, 0): beat-BROKEN
+   a=(1, 1, 0, 1, 1, 1): beat-BROKEN
+   a=(1, 1, 1, 0, 0, 0): beat-BROKEN
+   a=(1, 1, 1, 1, 0, 1): beat-BROKEN
+
+PART 1 RESULT: the signature class is parity-MIXED — the banked
+signatures alone do not pin D2tw; falling through to PART 2 (the
+explicit flip-vector transport), as preregistered.
+
+PART 2: embeddings of B916's flip set into the lane's weight system: 2
+   distinct transported flip SETS: 1
+   the IDENTITY permutation embeds: cc's B883 weight coordinates and the
+   lane's crystal coordinates AGREE — no dictionary needed.
+   B928's formula VERIFIED in lane coordinates: D2 = -(-1)^<a*,w>,
+   a* = (1, 0, 1, 0, 1, 1) — flip set and formula agree entrywise (27/27).
+   beat parity of THE actual D2tw: EVEN
+
+OUTCOME A — THE HIERARCHY CARRIER IS MIRROR-EVEN.  Omega D2 Omega^-1 =
+D2 exactly (both the commutator criterion and the full unipotent
+conjugation, exact pair arithmetic).  D2tw is dimensionless and mirror-
+even: by the record's own parity x dimension law (B1168) it sits on the
+OBJECT'S side of the boundary.  Census candidate 4 is typed: the
+Hermitian gauge choice is NOT an observer-column bit — the generation
+hierarchy is NOT carried by observer frame data.  What remains of the
+gauge crux is an OBJECT-side question (is the twist forced?), which is
+a different, attackable problem — relayed to cc with this cell.
+Fences: Part 1's class survey shows the two banked signatures alone do
+NOT pin the class (15 candidates, mixed parity) — the decision needed
+B916's explicit flip vectors; that dependence is now a vendored pin.
+The beat is the lane's banked mirror realization (memos 31-33/46,
+B1174's c-leg).  Gate 5 untouched.

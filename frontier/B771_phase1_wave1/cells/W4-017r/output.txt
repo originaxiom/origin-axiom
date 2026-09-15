@@ -65,8 +65,8 @@ Map T(x,y,z)=(2xy-z,x,y); DG-hyperbolic horseshoe. Certifying beyond n=6.
     n= 7: quotient dim (exact count) =  28  primitive orbits = 4  |Lambda| = [np.float64(505.8), np.float64(505.8), np.float64(916.9), np.float64(916.9)]
 
   n=8 boundary:
-    n=8 count M_8 = 48 (mod 32003, 132s)
-    n=8 count M_8 = 48 (mod 32009, 134s)
+    n=8 count M_8 = 48 (mod 32003, 115s)
+    n=8 count M_8 = 48 (mod 32009, 117s)
     n=8 primitive orbits found (seeding) = 4  |Lambda| = [np.float64(1275.7), np.float64(1279.8), np.float64(1425.3), np.float64(2434.9)]
     n=8 primitive orbits certified to exist = 5 (from M_8=48 minus divisor points)
 
@@ -127,4 +127,4 @@ recognizer non-vacuous                 = True
 VERDICT: RESOLVED-A
 REASON: class 10 correctly populated (dimension-reduced batched solve; W3-017 false-empty corrected) -- 1 isolated point(s) on the banked deg-4 quartic [[9, 27, -12, -9, 1]] -- the banked L6a4 fields reproduced at every census degree {2,4,8} from the low-height classes, the genuine-empty class held, the recognizer non-vacuous (incl. deg 8), and the >=0.19 Ruelle spectral gap certified beyond n=6
 
-total runtime 598.6s
+total runtime 474.8s

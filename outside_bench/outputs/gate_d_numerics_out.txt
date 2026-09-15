@@ -1,0 +1,52 @@
+==============================================================================
+GATE D -- FIRST NUMERICS AT THE OBJECT'S OWN KAPPA
+==============================================================================
+
+D-0  kappa = 1+omega = 1.500000000000+0.866025403784j
+     sqrt(3)*e^(i pi/6) = 1.500000000000+0.866025403784j
+     |kappa| = 1.732050807569  arg = 0.523598775598 (pi/6 = 0.523598775598)
+     MATCH: True
+     trace-map invariance of I on 200 random complex points: max err 8.62e-15
+     D-0 PASSES; proceeding.
+
+D-1  POSITIVE CONTROL -- real lambda, the Damanik-Gorodetski regime
+     the approximant spectra sigma_n must be unions of FIBONACCI-many bands with
+     measure shrinking to zero. A control that only checks 'measure is small' is
+     vacuous -- an instrument returning nothing would pass it.
+     lambda = 2.0:
+        n=3  bands=5    (Fibonacci)   measure=1.42695
+        n=4  bands=8    (Fibonacci)   measure=1.07532
+        n=5  bands=13   (Fibonacci)   measure=0.78942
+        n=6  bands=21   (Fibonacci)   measure=0.58701
+        n=7  bands=34   (Fibonacci)   measure=0.43383
+        n=8  bands=55   (Fibonacci)   measure=0.32142
+        n=9  bands=89   (Fibonacci)   measure=0.23814
+     bands are Fibonacci: True | measure shrinks: True | NON-EMPTY: True
+     OUTCOME: D1-REPRODUCES
+
+D-2  THE OBJECT -- lambda forced by kappa = lambda^2 + 2: 0.5000000000+0.8660254038j
+     kappa - 2 = -0.500000000000+0.866025403784j   omega^2 = -0.500000000000+0.866025403784j   match: True
+     => lambda = omega EXACTLY, |lambda| = 1.000000000000 -- a sixth root of unity
+     I at the initial point equals kappa: 0.00e+00
+     n=6: area fraction 0.00285   box-dim 1.247
+     n=8: area fraction 0.00104   box-dim 0.951
+     n=10: area fraction 0.00037   box-dim 0.794
+     n=10 final: fraction 0.00037  interior cells 0  box-dim 0.794
+     OUTCOME: D2-STRUCTURED
+
+D-3  SAME-MODULUS CONTROLS -- kappa = sqrt(3) e^(i theta); the object is theta = pi/6
+     theta = 0 (real)       fraction 0.00076   box-dim 0.962
+     theta = pi/12          fraction 0.00046   box-dim 0.876
+     theta = pi/6 = OBJECT  fraction 0.00034   box-dim 0.669
+     theta = pi/4           fraction 0.00038   box-dim 0.702
+     theta = pi/3           fraction 0.00047   box-dim 0.758
+     theta = pi/2           fraction 0.00108   box-dim 0.834
+     theta = 2pi/3          fraction 0.00344   box-dim 1.205
+     object box-dim 0.669 | control median 0.834 | spread 0.536
+     OUTCOME: D3-GENERIC
+
+==============================================================================
+SUMMARY: D-0 PASS | D1-REPRODUCES | D2-STRUCTURED | D3-GENERIC
+FENCE: a numerical picture is not a theorem. This says whether the object's cocycle
+has the SHAPE a Damanik-Gorodetski result describes, which nobody had looked at.
+==============================================================================

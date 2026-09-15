@@ -1,0 +1,26 @@
+stage 0: e6 loaded, 72 roots, dim 78
+stage 0: principal sl2 + dial slots hv(8), hv(16) embedded
+stage 1: 27 weights built (crystal of omega_1)
+stage 1 VERIFY: rho27 respects ALL 3003 Chevalley brackets: PASS
+stage 2: principal strings: [16, 8, 0] (expect [16,8,0])
+stage 3: relator acts as identity on the 27: PASS
+frame check: det(Cartan of deleted-node subdiagram) = 4 (D5 expects 4)
+FACT 0: full 27 cubic tensor: 56 components, nonzero: 0
+FACT 1: 16-block: pure-D5 components all ZERO (35 checked);
+        nonzero components (all q-touching): ('q', 'q', 'q')=16, ('q', 'm1', 'm1')=8, ('q', 'm1', 'm3')=-4, ('q', 'm2', 'm2')=8, ('q', 'm2', 'm3')=-4, ('q', 'm3', 'm3')=8, ('q', 'm3', 'm4')=-4, ('q', 'm4', 'm4')=8, ('q', 'm4', 'm5')=-4, ('q', 'm5', 'm5')=8
+        linear (grav^2 u(1)) channel: sum q over 16 = 16, over dark = -16
+FACT 2: T_dark = -T_16 in EVERY component — the payment is exact
+        [u(1)]^3: 16 vs -16 (= -16)
+FACT 3: B_16 = 2 * B_10 entry-by-entry (so(10) Dynkin ratio T(16)/T(10) = 2,
+        exact) and B_singlet = 0: the mixed [D5]^2 u(1) cancellation is
+        1*B_16 + (-2)*B_10 = 0 — the index ratio IS the payment mechanism
+
+THE ANOMALY PAYMENT: the object's 27 kills every gauge anomaly at once
+(cubic weight tensor identically zero, reproduced in-stack), but the split
+is not symmetric — the SM-shaped 16 alone is anomalous in exactly the
+u(1)-touching channels, its pure-D5 anomalies already vanishing, and the
+dark block 10 (+) 1 carries the precise opposite tensor: [u(1)]^3 16 vs
+-16, linear 16 vs -16, mixed via the exact Dynkin ratio 2.  If the family
+u(1) is gauged, the dark states are the quantum-consistency payment for
+the visible generation.  Integer identities only; reproduced-not-predicted
+(B950); D5 frame fence carried; Gates 2/3/5 not crossed.

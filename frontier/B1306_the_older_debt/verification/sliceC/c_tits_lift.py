@@ -1,9 +1,17 @@
 """C7 -- fc R66: the Tits lift of w_3 (the seat's word of length 24 in the simple reflections of E6, Bourbaki labels) in main's own exact e6 (B351):
 n_i = exp(ad e_i) exp(ad e_{-i}) exp(ad e_i) as exact 78 x 78 matrices; N = n_6 n_2 n_4 ... ; targets: N^3 = I (order 3) and eigenvalue multiplicities
 (24, 27, 27) for (1, omega, omega-bar)."""
+import os as _os
+# repo root, derived -- walk up from this file to the checkout that holds frontier/.
+# (A literal "<repo>/..." string here is a dead path: the placeholder is a documentation
+#  form, not something Python can open.  This resolver is the executable equivalent.)
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import sys, json, time
 from fractions import Fraction as Fr
-sys.path.insert(0, "<repo>/frontier/B351_exact_e6_chevalley")
+sys.path.insert(0, _R("frontier/B351_exact_e6_chevalley"))
 import exact_e6 as X
 import sympy as sp
 DIM = X.DIM; RIDX = X.RIDX

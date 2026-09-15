@@ -1,0 +1,67 @@
+arcs at pin: 1119
+
+====================================================================================
+MECHANICAL RETRIEVAL -- candidate closures per asserted-open item
+(arcs are split by whether they PREDATE the documents: a hit there means the item was
+ stale ON THE DAY IT WAS WRITTEN, which is a different defect from the corpus moving.)
+====================================================================================
+
+N1  derived dynamics / equation of motion
+    PROVED/NEGATIVE arcs matching: 0   | predating the docs (<=B1194): []   | after: []
+
+N2  S1 -- the E6 Seiberg-Witten curve vs the banked A-polynomial
+    PROVED/NEGATIVE arcs matching: 0   | predating the docs (<=B1194): []   | after: []
+
+N3  L154's E6-lattice boundary construction (the last live route to sigma=1)
+    PROVED/NEGATIVE arcs matching: 14   | predating the docs (<=B1194): ['B1188', 'B1190', 'B1191', 'B1192', 'B1193', 'B1194']   | after: ['B1195']
+      B1194 PROVED: THE EXISTENCE AUDIT (owner-directed: no 'missing' without exhausting the repo; six lenses + twelve adversarial checks, archived verbatim): THE HAVE list is twelve rows deep (arena law, one-generator c
+      B1195 PROVED: CLOSE-LOOP BATCH 5A (the five highest-leverage closes, merged with cloud's routes at their 9915068b): (1) SEAM-A's CS=0 DOOR SHARPENED (lens-scoped) -- the object's b=1 partition function factorizes a
+
+N4  the P^3 adjudication -- reduce or carry permanently
+    PROVED/NEGATIVE arcs matching: 15   | predating the docs (<=B1194): ['B1021', 'B1035', 'B1069', 'B1185', 'B1193', 'B1194']   | after: ['B1195', 'B1196', 'B1205']
+      B1194 PROVED: THE EXISTENCE AUDIT (owner-directed: no 'missing' without exhausting the repo; six lenses + twelve adversarial checks, archived verbatim): THE HAVE list is twelve rows deep (arena law, one-generator c
+      B1195 PROVED: CLOSE-LOOP BATCH 5A (the five highest-leverage closes, merged with cloud's routes at their 9915068b): (1) SEAM-A's CS=0 DOOR SHARPENED (lens-scoped) -- the object's b=1 partition function factorizes a
+
+N5  the 953 class-group step -- disc-6237 cubic field
+    PROVED/NEGATIVE arcs matching: 10   | predating the docs (<=B1194): ['B937', 'B957', 'B969', 'B1004', 'B1067', 'B1093']   | after: []
+      B1093 PROVED: ROUTE A'S ARITHMETIC (L169, own-code exact re-derivation, no PARI): for K = Q[x]/(x^3-12x-5) classifying B990's rational orbit -- disc = 6237 = 3^4*7*11 with Z[theta] = O_K (Dedekind at 3, plus an alt
+
+N6  the 40639 leg of sin^2 theta_W
+    PROVED/NEGATIVE arcs matching: 3   | predating the docs (<=B1194): ['B895', 'B906', 'B919']   | after: []
+      B919 PROVED: THE A1 DEBT DISCHARGED AT ITS HONEST TIER (cc3 loss audit): sin^2(theta_W) = 3/8 at the object's normalization now has a standalone arc + lock -- with the object's own operators (T3 = the weak su(2)-i
+
+N7  the r-supply bridge -- grammar -> disc-48 Gauss-form swap
+    PROVED/NEGATIVE arcs matching: 0   | predating the docs (<=B1194): []   | after: []
+
+N8  the branch->r identification + the (Vol,CS) clock-coherence run
+    PROVED/NEGATIVE arcs matching: 2   | predating the docs (<=B1194): ['B1193']   | after: ['B1197']
+      B1193 PROVED: THE TWO CAMPAIGNS RECONCILED: the owner's grand-computation directive ran through both seats blind and the independent runs CONVERGE where it matters (lambda = THE residue per both seats -- the day's 
+      B1197 PROVED: THE CLOCK-COHERENCE RUN (route B4, the D2 gate; executed the moment 5A returned): SPLIT VERDICT -- the named primary test PASSES and the full census check FAILS, so neither declared outcome fires clea
+
+N9  the selection-theorem assembly for the twist
+    PROVED/NEGATIVE arcs matching: 1   | predating the docs (<=B1194): ['B1112']   | after: []
+      B1112 PROVED: THE PROJECTIVE HATCH (the owner's spin-structure catch + outside-bench computation + this bench's 20-strata completion, three-way convergence): the object's canonical holonomy is PSL(2,C); the SL(2,C)
+
+F1  FENCED: S4 (the quine) UNBUILT
+    PROVED/NEGATIVE arcs matching: 7   | predating the docs (<=B1194): ['B1183', 'B1184', 'B1186']   | after: ['B1200', 'B1201', 'B1202', 'B1203']
+      B1186 PROVED: THE FAMILY-DEFINITION CELL CLOSED (harvests cc3 B8152, verify-don't-trust, with a ONE-MEMBER CORRECTION): the two criteria are STRICTLY NESTED -- (A) all-regular-ideal, |A| = 77, inside (B) shape fiel
+      B1200 PROVED: ONE POLYNOMIAL, THREE FACES -- the saddle, the founding obstruction, and the boundary structure are the SAME Phi3 = u^2+u+1, and the map between them is c. THE CROSS-SEAT EVENT: cloud independently re
+
+A2  cosmology's three blind rows -- zero dedicated arcs
+    PROVED/NEGATIVE arcs matching: 8   | predating the docs (<=B1194): ['B184', 'B551', 'B950', 'B952', 'B1194']   | after: ['B1196', 'B1199', 'B1202']
+      B1194 PROVED: THE EXISTENCE AUDIT (owner-directed: no 'missing' without exhausting the repo; six lenses + twelve adversarial checks, archived verbatim): THE HAVE list is twelve rows deep (arena law, one-generator c
+      B1196 PROVED: CLOSE-LOOP BATCH 5B (the final three of the eight; all survive their lenses): (1) D2 ADJUDICATED DIFFERENT, computed directly -- B891's three foreign-16 eigenspaces spread ~5:6:5 across ALL THREE trin
+
+A3  the E6 boundary bridge -- characters to a record-side q-series
+    PROVED/NEGATIVE arcs matching: 3   | predating the docs (<=B1194): ['B1191']   | after: ['B1195', 'B1196']
+      B1191 PROVED: THE CLOSE-LOOP BATCH 3 -- THE GRAND COMPUTATION v0 LANDS (docs/GRAND_COMPUTATION_v0.md): the universe in the object's own units, six sections (arena+clock in ticks of the one generator A1=RL / the met
+      B1195 PROVED: CLOSE-LOOP BATCH 5A (the five highest-leverage closes, merged with cloud's routes at their 9915068b): (1) SEAM-A's CS=0 DOOR SHARPENED (lens-scoped) -- the object's b=1 partition function factorizes a
+
+A6  S-A, the sufficiency criterion for the observer
+    PROVED/NEGATIVE arcs matching: 1   | predating the docs (<=B1194): ['B935']   | after: []
+      B935 NEGATIVE: THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON (blind; the map question's first well-posed form, answered NO): the closed whitelist of four forced compositions (R-conjugation; the polar/sin
+
+====================================================================================
+This output is a DETECTOR'S OUTPUT, not a result. Every row above is adjudicated by
+reading in memos/GAP_DOCS_CURRENCY.md; rows the reading does not confirm are dropped.
+====================================================================================

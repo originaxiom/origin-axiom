@@ -1,0 +1,65 @@
+==============================================================================
+1.  VOLUME
+==============================================================================
+   banked arcs                : 1125
+   arc-number range           : B6 .. B1220
+   PROVED                     :  734  (65.2%)
+   NEGATIVE                   :  302  (26.8%)
+   OPEN                       :   78  ( 6.9%)
+   RETRACTED                  :   11  ( 1.0%)
+
+==============================================================================
+2.  THE PROMOTION FRONT
+==============================================================================
+   highest arc number CLAIMS.md refers to anywhere : B1082
+   arcs banked after it                            : 138
+   (a reference is not a promotion; this is an UPPER bound on how current the
+    ledger is with respect to the corpus)
+
+==============================================================================
+3.  COMPOUNDING -- does the corpus grow by construction or by addition?
+==============================================================================
+   BEFORE reading anything into the edge count, ask whether the FIELD is kept.
+   depends_on population, and the size of the verdict record, by arc era:
+      B   0- 199 : 186 arcs,   5 declare depends_on (  3%), mean fields 8.0
+      B 200- 399 : 196 arcs,   4 declare depends_on (  2%), mean fields 8.0
+      B 400- 599 : 178 arcs,   3 declare depends_on (  2%), mean fields 8.0
+      B 600- 799 : 175 arcs,   3 declare depends_on (  2%), mean fields 8.1
+      B 800- 999 : 185 arcs, 143 declare depends_on ( 77%), mean fields 8.5
+      B1000-1199 : 184 arcs,  48 declare depends_on ( 26%), mean fields 6.4
+      B1200-1399 :  21 arcs,   0 declare depends_on (  0%), mean fields 5.6
+   => the field is NOT uniformly kept.  It is near-empty before B800, 77% in its
+      best era (B800-999), and has decayed since.  So the raw isolated-arc count below
+      measures RECORDING PRACTICE at least as much as it measures the work.
+      In the one era where the edges WERE recorded, most arcs had them.
+
+   arcs declaring a dependency : 206  (18%)
+   arcs declaring NONE         : 919  (82%)
+   median dependency depth     : 0
+   90th percentile depth       : 29
+   deepest chains              : B1043_triple_assembly(78), B1062_bridge_cell(77), B1060_digest_ledger(77), B1039_v_valued_residual(77), B1044_gamma_ledger(76)
+
+==============================================================================
+4.  METABOLISM -- arcs named for a process rather than a subject
+==============================================================================
+   process-named arcs          : 153  (14%)
+      their verdicts           : [('PROVED', 99), ('NEGATIVE', 36), ('OPEN', 18)]
+   of the 12 most recent arcs, process-named : 7
+      B1215_codex_transcript_harvest   OPEN      PROCESS
+      B1216_parameter_closure_run1     OPEN      subject
+      B1217_seat_integration           OPEN      PROCESS
+      B1218_open_claim_sweep           PROVED    PROCESS
+      B1219_reverse_sweep              PROVED    PROCESS
+      B1220_campaign_premise_audit     PROVED    PROCESS
+
+==============================================================================
+5.  THE OUTSIDE BENCH's FOOTPRINT
+==============================================================================
+   certificates                : 192
+   memos                       : 152
+   occurrences of 'outside_bench' in CLAIMS.md : 0
+
+EVERYTHING ABOVE IS A COUNT.  What any of it MEANS is interpretation and lives in
+memo 188, labelled as such.  Two readings are available for almost every line here -- a
+low promotion rate is either a firewall doing its job or a valve stuck shut, and this
+census cannot tell them apart.  Memo 188 says so and proposes the measurement that could.

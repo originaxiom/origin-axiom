@@ -1,0 +1,62 @@
+U1/U2 — 8 premise-free candidates over 4372 classes (to length 7):
+
+    candidate                                     |set|  C2?   equivalence
+    P1 = A5: [X, gal X] != 0                       4280  PASS  (new set)
+    P2: tr X non-real (unlike shadow)              3932  PASS  (new set)
+    P3 = P1 and P2 (memo 115's conjunction)        3920  PASS  (new set)
+    P4: non-parabolic                              4104  PASS  (new set)
+    P5: doesn't commute with the systole           4366  PASS  (new set)
+    P6: [X, rho(phi w)] != 0 (word-map shadow)     4358  PASS  (new set)
+    P7: shadow-Fricke != 2                         4280  PASS  = P1 = A5: [X, gal X] != 0
+    P8: trace not a small integer                  4104  PASS  = P4: non-parabolic
+
+    DISTINCT ADMISSIBLE SETS AT C1-C4: 6
+    COMPETITORS to A5 (admissible, inequivalent): 5
+       |3932| via P2: tr X non-real (unlike shadow)
+       |3920| via P3 = P1 and P2 (memo 115's conjunction)
+       |4104| via P4: non-parabolic
+       |4366| via P5: doesn't commute with the systole
+       |4358| via P6: [X, rho(phi w)] != 0 (word-map shadow)
+
+U3/U4 — C5 (PROPOSED, **NOT FORCED** — see the honesty note below):
+    stability under the record's own automorphism phi (memo 108):
+    Occ(w) <=> Occ(phi w).  MOTIVATION: phi is an automorphism of the
+    record, so a criterion arguably should not distinguish classes the
+    record's own symmetry identifies.  HONESTY NOTE, stated before the
+    result: this gate is NOT derived.  It is not a corollary of memo 109
+    (the shadow predicate is anchoring-invariant either way, since
+    flipping sends [X, gal X] to its negative, still nonzero), and
+    adopting it would itself be an imported premise — the very failure
+    mode diagnosed in IIT.  It is tested here as a CANDIDATE gate, and
+    whatever it does to A5 must be read with that caveat.
+
+    candidate                                        C5   first witness
+    P1 = A5: [X, gal X] != 0                       FAIL   'b'
+    P2: tr X non-real (unlike shadow)              PASS   -
+    P3 = P1 and P2 (memo 115's conjunction)        FAIL   'baab'
+    P4: non-parabolic                              PASS   -
+    P5: doesn't commute with the systole           FAIL   'ab'
+    P6: [X, rho(phi w)] != 0 (word-map shadow)     PASS   -
+    P7: shadow-Fricke != 2                         FAIL   'b'
+    P8: trace not a small integer                  PASS   -
+
+    ADMISSIBLE **AND** phi-STABLE: 4 candidates, 3 distinct sets
+       |3932| via P2: tr X non-real (unlike shadow)
+       |4104| via P4: non-parabolic
+       |4358| via P6: [X, rho(phi w)] != 0 (word-map shadow)
+
+THE VERDICT (reported as it fell, against the preregistered
+expectation):
+  A5 IS NOT UNIQUE AT C1-C4: 6 distinct admissible sets
+  exist among premise-free candidates.  **This refutes the GATES, not
+  the hypothesis.**  C1-C4 as designed are too weak to single out any
+  predicate, so 'clears the gates' cannot mean 'is the criterion'.
+  The preregistered expectation is therefore CONFIRMED, and the
+  honest status of memo 115 is downgraded from 'leading candidate'
+  to 'one of several admissible candidates' until a stronger gate
+  discriminates.
+  UNDER C5 A5'S OWN SET DOES NOT SURVIVE — the hypothesis fails the
+  record's own stability requirement.  Filed as a refutation.
+  In every branch: S-A remains OPEN, the token question (S-B) is
+  untouched, and the phenomenal question (S-C) stays inexpressible.
+Gate 5 untouched.

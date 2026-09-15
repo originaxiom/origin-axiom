@@ -1,0 +1,26 @@
+CONTROL: assembly vs Gukov-Manolescu Table 10 (and eq (13) at r=2)
+============================================================================
+   r=2   20 published coefficients   all reproduced: True    no spurious term in q^0..q^30: True   horizon q^6359  OK
+   r=3   20 published coefficients   all reproduced: True    no spurious term in q^0..q^42: True   horizon q^10019  OK
+   r=4   20 published coefficients   all reproduced: True    no spurious term in q^0..q^54: True   horizon q^13679  OK
+   r=5   20 published coefficients   all reproduced: True    no spurious term in q^0..q^66: True   horizon q^17339  OK
+   r=6   21 published coefficients   all reproduced: True    no spurious term in q^0..q^78: True   horizon q^20999  OK
+   r=7   20 published coefficients   all reproduced: True    no spurious term in q^0..q^90: True   horizon q^24659  OK
+   r=8   20 published coefficients   all reproduced: True    no spurious term in q^0..q^102: True   horizon q^28319  OK
+   r=9   20 published coefficients   all reproduced: True    no spurious term in q^0..q^114: True   horizon q^31979  OK
+   r=10  18 published coefficients   all reproduced: True    no spurious term in q^0..q^124: True   horizon q^35639  OK
+
+   ALL NINE PUBLISHED SERIES REPRODUCED: True
+   (r=6's isolated late term +q^112 is included and reproduced: True)
+
+============================================================================
+THE PAPER'S THRESHOLD, MADE EXACT
+============================================================================
+   lowest power of q in Xi_k is -floor((k-1)^2/4) for all k <= 60: True
+   Xi_k is the coefficient of x^{m/2} with m = 2k-1, so that lowest power is
+      -floor((m+1)^2/16)  =  -m^2/16 + O(m)     =>   c = -1/16 EXACTLY
+   GM's condition (177) is 4c + r/p > 0, i.e. |p/r| < 4 for p < 0.
+   The paper reaches c = -1/16 'experimentally, by calculating more terms in (174)'
+   (page 73) and states the range as p/r in (-4, 0).  THE RANGE IS THEIRS.
+   What is added here is that c = -1/16 is a closed form, not an extrapolation,
+   given the width law verified above.

@@ -1,0 +1,54 @@
+[*] Loaded 2469 zeta zeros from file
+[PASS] Fact 1: File contains exactly 2469 lines
+[PASS] Fact 2: All 2469 values are strictly increasing with no duplicates
+
+[*] Checking first 10 against mpmath.zetazero...
+  zetazero( 1): mpmath=14.13472514173469463, file=14.13472514173469463, rel_err=0.00e+00
+  zetazero( 2): mpmath=21.02203963877155601, file=21.02203963877155601, rel_err=0.00e+00
+  zetazero( 3): mpmath=25.01085758014568938, file=25.01085758014568938, rel_err=0.00e+00
+  zetazero( 4): mpmath=30.42487612585951240, file=30.42487612585951240, rel_err=0.00e+00
+  zetazero( 5): mpmath=32.93506158773919168, file=32.93506158773919168, rel_err=0.00e+00
+  zetazero( 6): mpmath=37.58617815882567470, file=37.58617815882567470, rel_err=0.00e+00
+  zetazero( 7): mpmath=40.91871901214749840, file=40.91871901214749840, rel_err=0.00e+00
+  zetazero( 8): mpmath=43.32707328091500187, file=43.32707328091500187, rel_err=0.00e+00
+  zetazero( 9): mpmath=48.00515088116716100, file=48.00515088116716100, rel_err=0.00e+00
+  zetazero(10): mpmath=49.77383247767230046, file=49.77383247767230046, rel_err=0.00e+00
+[PASS] Fact 3: First 10 zeros match mpmath to 1e-6
+
+[*] Analyzing last entries...
+  Last (2469th) entry: t = 2999.494492994594566
+[PASS] Fact 5: Last entry 2999.494492994594566 is <= 3000
+
+[*] Comparing with mpmath zetazero(2468) and zetazero(2469)...
+  mpmath.zetazero(2468) = 2998.959301098028845
+  mpmath.zetazero(2469) = 2999.494492994594566
+  file[-2] (2468th)      = 2998.959301098028845
+  file[-1] (2469th)      = 2999.494492994594566
+
+  Error in 2468th entry: 0.00e+00
+  Error in 2469th entry: 0.00e+00
+[PASS] Fact 4: Last two entries match mpmath zetazero(2468) and zetazero(2469)
+
+[*] Riemann-von Mangoldt estimate N(3000):
+  N(T) = T/(2π) * log(T/(2πe)) + 7/8
+  N(3000) = 2468.65
+  File contains 2469 zeros with t <= 2999.49
+[PASS] Fact 6: RvM estimate N(3000)=2468.65 ≈ 2469 actual zeros
+
+======================================================================
+VERDICT:
+======================================================================
+File contains exactly 2469 zeta zeros.
+Last entry t=2999.494492994594566 < 3000.0
+All 2469 values are strictly increasing with no gaps or duplicates.
+First 10 match mpmath.zetazero to high precision (< 1e-6).
+Last 2 entries match mpmath.zetazero(2468) and zetazero(2469).
+
+RESOLUTION:
+  The prose statement '2468 zeta zeros to T=3000' is INCORRECT.
+  The file is CORRECT: there are 2469 zeta zeros with 1 <= n <= 2469
+  and imaginary parts t_n satisfying t_2468 < 3000 and t_2469 < 3000.
+  The discrepancy is: PROSE MISCOUNTED BY ONE, FILE IS AUTHORITATIVE.
+======================================================================
+
+[SUCCESS] All preregistered facts verified. Exit code 0.

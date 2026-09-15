@@ -1,0 +1,77 @@
+==============================================================================
+THE SWEEP'S FALSE POSITIVES
+HEAD = e3689561
+==============================================================================
+
+--- (A) GENUINELY STALE: two status rows in docs/views/THE_SPINE.md ---
+  [OK ] B171 is listed OPEN on the spine   (docs/views/THE_SPINE.md:211)
+         "- **B171** `OPEN`"
+  [OK ] B172 resolves it (Phase 1)   (frontier/B172_combination_gap_resolution/FINDINGS.md:1)
+         "the combination gap, resolved (Phase 1)"
+  [OK ] and names B171 as the question it answers   (frontier/B172_combination_gap_resolution/FINDINGS.md:4)
+         "Answers the question B171"
+  [OK ] B1130 is listed OPEN on the spine   (docs/views/THE_SPINE.md:1240)
+         "- **B1130** `OPEN`"
+  [OK ] B1133 answers the two-ended question   (frontier/B1133_c4_single_end/FINDINGS.md:1)
+         "the tower is SINGLE-END"
+  [OK ] and says so in the word RESOLVED   (frontier/B1133_c4_single_end/FINDINGS.md:5)
+         "RESOLVED single-end"
+
+--- (B) CORRECT: the spine agrees with the arc's own verdict ---
+  [OK ] B1156 is listed OPEN on the spine   (docs/views/THE_SPINE.md:1272)
+         "- **B1156** `OPEN`"
+  [OK ] and B1156's own arc verdict IS open -- the spine is right   (frontier/B1156_seam_a_gate2/FINDINGS.md:3)
+         "Verdict OPEN (seam"
+
+--- (C) EXEMPLARY: docs/OPEN_PROBLEMS.md gate D does the write-back itself ---
+  [OK ] gate D states its own scope   (docs/OPEN_PROBLEMS.md:378)
+         "the non-Hermitian case is open (L19/L20)"
+  [OK ] and carries a dated currency note   (docs/OPEN_PROBLEMS.md:235)
+         "Currency note, Review 47 (2026-08-20)"
+  [OK ] that warns the next reader off the wrong machinery   (docs/OPEN_PROBLEMS.md:385)
+         "tempted to reuse B1085/B1095"
+
+--- (D) TRACKED-PENDING: the I3 row is stale against THIS BENCH's own memo 136 ---
+  [OK ] the ledger still calls the designed crossing never run   (docs/GRAND_COMPUTATION_LEDGER.md:98)
+         "I3. **THE DESIGNED CROSSING, never run**"
+  [OK ] and spec-d-ready   (docs/GRAND_COMPUTATION_LEDGER.md:98)
+         "SPEC'D-READY, off-queue"
+  [OK ] while memo 136 found the shot NOT FIREABLE   (outside_bench/INDEX.md:204)
+         "NOT FIREABLE, THE LAST LICENSED ROW LEFT UNSPENT"
+  [OK ] and the harvest ledger carries it   (docs/HARVEST_LEDGER.md:417)
+         "THE θ-EVEN DESIGNED CROSSING"
+  [OK ] **SCHEDULED**, with a reason and a deadline -- an OWNED write-back   (docs/HARVEST_LEDGER.md:152)
+         "the slice D backlog, read before Review 57"
+
+--- (E) BENIGN: a verdict document citing the arc that produced its verdict ---
+  [OK ] LAW_MAP names its decider in the law row itself   (docs/LAW_MAP.md:48)
+         "THE MEETING IS A PRODUCT, NOT A FUSION (B698 Leg A"
+  [OK ] and again   (docs/LAW_MAP.md:158)
+         "MULTIPLICITY/SCALE IS THE OBSERVER'S (B719)"
+  [OK ] THE_SM_VERDICT states a verdict its arc proved   (docs/THE_SM_VERDICT.md:182)
+         "The VEV *direction* is an input in every framework"
+  These score high on the sweep BECAUSE they are well sourced: the surface and the
+  arc share the rare terms by construction.  A high score here is the HEALTHY state.
+
+------------------------------------------------------------------------------
+THE TRIAGE OF THE 28
+------------------------------------------------------------------------------
+  Examined here, one by one (5 of 28):
+    genuinely stale .......... 2   THE_SPINE: B171, B1130
+    correct as written ....... 1   THE_SPINE: B1156 (the arc's own verdict is OPEN)
+    exemplary write-back ..... 1   OPEN_PROBLEMS gate D (dated currency note)
+    tracked-pending .......... 1   GRAND_COMPUTATION_LEDGER I3 (HARVEST_LEDGER: SCHEDULED)
+
+  Not examined one by one (23 of 28), CLASSIFIED BY CLASS and fenced as such:
+    every remaining hit is a verdict/law/paper surface citing the arc that
+    produced its verdict.  Per-surface totals from the sweep:
+      LAW_MAP 7 - main.tex 3 - THE_SM_VERDICT 3 - THE_SPINE 3 - THE_FRAMEWORK 2
+      PRICED_DOORS 2 - OPEN_PROBLEMS 2 - CROSSING_REQUIREMENTS 2
+      GRAND_COMPUTATION_LEDGER 2 - CLOSED_DOORS 1 - THE_ROAD 1   = 28
+    (THE_SPINE's 3, OPEN_PROBLEMS' 1 and GRAND_COMPUTATION_LEDGER's 1 are the
+     five examined above; 23 remain in the benign class BY CLASSIFICATION, not
+     by individual verification.  Stated as a classification, not a verdict.)
+
+==============================================================================
+ALL ASSERTIONS HOLD AT THIS HEAD.
+==============================================================================

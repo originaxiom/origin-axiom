@@ -1,0 +1,112 @@
+
+==============================================================================
+C1 -- B1327's own computation, re-run as written
+==============================================================================
+  [OK ] B1327's script is retrievable from the record  e829c02c:frontier/B1327_relation_not_observer/verification/three_bits_one_relation.py
+       arrow=-1 swap=-1 mirror=+1  x2
+       arrow=-1 swap=+1 mirror=-1  x2
+       arrow=+1 swap=-1 mirror=-1  x2
+       arrow=+1 swap=+1 mirror=+1  x2
+  [OK ] eight isometries  8
+  [OK ] four of the eight a priori sign triples  4
+  [OK ] zero violations of mirror = arrow x swap  []
+  [OK ] every cusp map is DIAGONAL  -- so 'mirror = arrow x swap' IS det diag(a,d) = a*d; the empirical content of link 54 here is the DIAGONALITY, not the product law
+
+==============================================================================
+C2 -- the kappa convention, PINNED against B1200 and not assumed
+==============================================================================
+       tr[A,B]          = +1.500000000000+0.866025403784j
+       tr[A,B] - 2      = -0.500000000000+0.866025403784j     |.| = 1.000000000000
+       tr[A,B] - 4      = -2.500000000000+0.866025403784j     |.| = 2.645751311065
+       omega            = -0.500000000000+0.866025403784j
+  [OK ] the -2 form reproduces B1200: tr[A,B] - 2 = omega  |diff| = 1.05e-15
+  [OK ] the -2 form reproduces B1200's UNIT obstruction |kappa - 2| = 1  |kappa-2| = 1.000000000000
+  [OK ] the -2 form reproduces B1200's Phi_3(kappa - 2) = 0  Phi_3 = 1.79e-15
+  [OK ] the -4 character-variety form does NOT -- the two conventions are distinguishable here  |diff| = 2.000000
+       (this bench compared the -4 form against B1200 in an earlier pass and reported a
+        contradiction of a PROVED arc.  The contradiction was the convention, not B1200.)
+
+==============================================================================
+C3 -- the corpus's own instrument runs FIRST and must pass (memo 154)
+==============================================================================
+  [OK ] B1248 norm_classification.py SELFTEST passes  SELFTEST: PASS
+       object relatum held fixed by that instrument: A = [[2, 1], [1, 1]]
+
+==============================================================================
+CELL 1 -- is section 8's bit a function of the OBJECT RELATUM ALONE?
+==============================================================================
+  The object relatum A is FIXED at B1248's A_OBJ in every row below.  Only the PARTNER moves.
+       A fixed  |  M = [[5, 2], [2, 1]]   kappa =     -2   D =     1   DIRECT+1
+       A fixed  |  M = [[2, 3], [1, 2]]   kappa =      3   D =    -1   DIRECT-1
+       A fixed  |  M = [[8, 21], [3, 8]]  kappa =    263   D =   -29   TORSOR
+       A fixed  |  M = [[5, 12], [2, 5]]  kappa =     78   D =   -19   TORSOR
+       A fixed  |  M = [[4, 15], [1, 4]]  kappa =    183   D =  -181   TORSOR
+       A fixed  |  M = [[3, 5], [1, 2]]   kappa =     18   D =    -1   DIRECT-1
+       A fixed  |  M = [[5, 3], [3, 2]]   kappa =      2   D =     0   DEGENERATE
+       A fixed  |  M = [[1, 3], [1, 4]]   kappa =    -18   D =     5   TORSOR
+       A fixed  |  M = [[7, 2], [3, 1]]   kappa =     -9   D =    11   TORSOR
+       A fixed  |  M = [[9, 4], [2, 1]]   kappa =    -18   D =     5   TORSOR
+  [OK ] C4 -- all four branches realised, so the instrument CAN report 'same'  ['DEGENERATE', 'DIRECT+1', 'DIRECT-1', 'TORSOR']
+
+  distinct classes with the object relatum NEVER changing: 8  -> [-181, -29, -19, -1, 0, 1, 5, 11]
+  CELL 1 = B  -- the bit is NOT a function of the object alone
+
+==============================================================================
+CELL 2 -- is the manifold's mirror sign a function of the object alone, and non-trivial?
+==============================================================================
+       m004, from its own symmetry group, no partner named:  {-1: 4, 1: 4}
+  CELL 2 = B  -- computed from the object alone, and it SEPARATES 4+4
+
+  C5 -- the detector must be ABLE to come out constant:
+       m015 (chiral): mirror signs = [1]  over 4 isometries
+  [OK ] C5 -- m015 returns a CONSTANT mirror sign
+       m208 (chiral): mirror signs = [1]  over 4 isometries
+  [OK ] C5 -- m208 returns a CONSTANT mirror sign
+
+==============================================================================
+CELL 3 -- on the object itself, do the two agree about PRESENCE?
+==============================================================================
+       Q1 on the object's own canonical (fibre) pair: kappa = -2, 2 - kappa = 4 = 2^2, D = 1
+          D = +1 is the DIRECT+1 branch: the mirror is realised INSIDE SL_2(Z).  NO BIT.
+       Q2 on the same object: mirror sign separates its 8 isometries 4 + 4.  PRESENT.
+  [OK ] B1248's own object line agrees (the corpus, not this bench, computed it)
+
+  Q1 present on the object: False      Q2 present on the object: True
+  CELL 3 = B
+
+==============================================================================
+VERDICT
+==============================================================================
+  CELL 1 = B   CELL 2 = B   CELL 3 = B   controls: ALL PASS
+
+  SECTION 8'S CHIRALITY BIT IS NOT THE MANIFOLD'S MIRROR SIGN.
+
+  Two independent separations, either of which suffices:
+
+   (i)  DOMAIN.  The mirror sign is a function of the object alone -- read off the object's own
+        symmetry group with no partner named anywhere -- and it separates 4 + 4.  Section 8's bit
+        takes EIGHT distinct classes, across all four branches, while the object relatum never
+        changes once; it is a function of
+        the PAIR, exactly as the paper says ("an invariant of neither relatum separately").
+        A function of a pair that moves when only the partner moves is not a function of the object.
+
+   (ii) PRESENCE.  On the object itself the two DISAGREE ABOUT EXISTING.  The mirror sign is
+        present and non-trivial (m004 is amphichiral: 4 orientation-reversing isometries).
+        Section 8's bit is ABSENT: the object's canonical pair sits at kappa = -2, D = +1, the
+        branch where the mirror is realised inside SL_2(Z) -- B1248's own mechanism, the cusp
+        pinning kappa below the wall kappa = 2.  A quantity that is there and a quantity that is
+        not there are not the same quantity.
+
+  THEREFORE B1327'S OVER-COUNT QUESTION RESOLVES **NO**.  The relation mirror = arrow x swap is a
+  relation among three functions on the object's OWN isometry group; it does not reach section 8's
+  bit, so it does not span the two tables and no row is a restatement of another THROUGH THIS
+  RELATION.  B1327's own framing of its finding -- "this is not a claim" -- was the right call.
+
+  WHAT THIS DOES NOT SETTLE, and this bench does not own it:
+   *  whether ARROW and SWAP are independent OF EACH OTHER.  That relation is internal to B1327's
+      triple, it is real, and it is untouched here.  On m004 the mirror sign is determined by the
+      other two -- but all three are object-internal, so if a row moves it is not section 8's.
+   *  which row of the freedom ledger, if any, moves.  That is the section 8 / section 9 owner's
+      call.  This bench reports only that the identity the over-count needed does not hold.
+
+Gate 5 untouched.  No measured value is used or named.

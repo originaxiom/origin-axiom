@@ -1,0 +1,16 @@
+  artifact-pair-gate: ok (83 cells carry a verdict on both sides and agree; 22 carry one on a single side -- a formatting gap, not a contradiction)
+  artifact-pair-gate --selftest
+    must FIRE : text='RESOLVED-A'     json=['UNRESOLVED']  -> True
+    must FIRE : text='UNRESOLVED'     json=['RESOLVED-B']  -> True
+    must FIRE : text='RESOLVED-A'     json=['PENDING_PART_B']  -> True
+    must be QUIET: text='RESOLVED-A'     json=['RESOLVED-A']  -> False
+    must be QUIET: text='HARDENS'        json=['HARDENS', 'something-else']  -> False
+    must be QUIET: text='RESOLVED-A'     json=[]  -> False
+    must be QUIET: text=None             json=['RESOLVED-A']  -> False
+    must be QUIET: text=None             json=[]  -> False
+    extractor : '=== VERDICT ===\nVERDICT: RESOLVED-A'       -> 'RESOLVED-A' (want 'RESOLVED-A')
+    extractor : '[   860.0s]   FINAL VERDICT: RESOLVED-B'    -> 'RESOLVED-B' (want 'RESOLVED-B')
+    extractor : 'VERDICT: UNRESOLVED (=> EXTERNAL).'         -> 'UNRESOLVED' (want 'UNRESOLVED')
+    extractor : 'no verdict anywhere'                        -> None (want None)
+    json keys : nested verdict found=['X'] (a non-'verdict' key is ignored)
+  selftest: PASS

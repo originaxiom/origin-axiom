@@ -1,0 +1,28 @@
+K1: kappa - 2 = omega^2 = omega - 1 EXACTLY (cc's item-4 law, re-derived).
+K2: Phi_3(kappa - 2) = 0 AND Phi_3(conj) = 0 — cc's SADDLE EQUATION
+    u^2 + u + 1 = 0 has roots EXACTLY {kappa - 2, its conjugate}:
+    the partition function's saddle IS the relational obstruction —
+    items 1 and 4 of the disposition are ONE invariant (bench cross-link).
+K3: memo 104's boundary complex structure M = Coxeter^4 satisfies the SAME
+    Phi_3 (M^2 + M + I = 0, rebuilt from scratch) — one polynomial, three
+    faces: saddle / relational obstruction / boundary Eisenstein structure.
+    conjugator [[1, 1], [0, 1]] (det 1): transported realizer det -1 verified; box search (B=10) returns {-1}; (A,A) control keeps both signs
+    conjugator [[0, 1], [1, 0]] (det -1): transported realizer det -1 verified; box search (B=5) returns {-1}; (A,A) control keeps both signs
+    conjugator [[2, 1], [1, 1]] (det 1): transported realizer det -1 verified; realizer entries reach 21: search skipped, exact argument stands; (A,A) control keeps both signs
+    conjugator [[1, 0], [3, 1]] (det 1): transported realizer det -1 verified; realizer entries reach 40: search skipped, exact argument stands; (A,A) control keeps both signs
+    conjugator [[1, 0], [0, -1]] (det -1): transported realizer det -1 verified; box search (B=5) returns {-1}; (A,A) control keeps both signs
+E1: SELECTOR-FREE CONFIRMED — for five conjugators of both det signs:
+    G X0 G^-1 realizes the conjugated pair with det -1, and the complete
+    argument transports (centralizer {+-I} via [P,Q] != 0 + irrational
+    spectrum => realizer set EXACTLY {+-G X0 G^-1}); independent box
+    searches, where tractable, return single-signed {-1}.  epsilon(A, M1)
+    = -1 is a property of the PAIR'S ORBIT, not of any chosen frame —
+    cc's item-7 claim independently verified: the observer's one bit
+    needs no selection act.
+
+VERDICT: B1195's kappa law and B1196's selector-freedom both REPRODUCE
+exactly on this bench, and the bench adds one cross-link the relay did
+not name: the saddle equation, the relational obstruction, and the
+boundary lattice's complex structure are ONE polynomial (Phi_3), whose
+roots are kappa - 2 and its conjugate.  The founding Fricke invariant
+governs all three.  Gate 5 untouched.

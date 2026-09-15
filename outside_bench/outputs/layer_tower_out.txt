@@ -1,0 +1,70 @@
+THE LAYER TOWER  L : (A, B) -> (AB, BA)   [level 0 = the founding (a, b)]
+
+   n      x_n = tr A_n     y_n = tr B_n                    z_n                  kappa_n  noncomm
+   0                 2                2                   2-1w                     1+1w  yes
+   1              2-1w             2-1w                   2-4w                       -2  yes
+   2              2-4w             2-4w                    -10                      -46  yes
+   3               -10              -10                    146                     6914  yes
+   4               146              146                  14402                -99532798  yes
+   5             14402            14402              306950402        30551632773120002  yes
+   6  [entries exceed 9 digits — exact but not printed]      kappa has 34 digits   yes
+   7  [entries exceed 17 digits — exact but not printed]      kappa has 68 digits   yes
+   8  [entries exceed 34 digits — exact but not printed]      kappa has 135 digits   yes
+
+T1: the pair is NON-COMMUTING at every level computed (0..8) —
+    the tower does NOT collapse: layering continues, ab != ba at every
+    level above the one before.  The owner's architecture is REAL.
+
+T2: x_n = y_n for EVERY level >= 1 (verified) — since tr(AB) = tr(BA)
+    always, every layer above the first is trace-HOMOGENEOUS: a layer's
+    two letters always look alike, however different they are as maps.
+    (Structurally: layering never manufactures an UNLIKE pair from a
+    like one — the 'unlikeness' memo 112 requires is NOT produced by
+    stacking; it must already be there at the bottom.)
+
+T3 (THE INFORMATION VERDICT): every x_n, y_n, z_n, kappa_n lies in
+    Z[omega] — verified exactly at every level.  By memo 113's first
+    beat law each is a POLYNOMIAL in the original triple (tr a, tr b,
+    tr ab).  So the tower adds STRUCTURE but provably NO INFORMATION:
+    no level introduces a quantity that the first beat did not already
+    determine.
+
+T4 (the growth law):
+    kappa_0 = 1+1w
+    kappa_1 = -2
+    kappa_2 = -46
+    kappa_3 = 6914
+    kappa_4 = -99532798
+    kappa_5 = 30551632773120002
+    digit-lengths of kappa_n across levels: [1, 1, 2, 4, 8, 17, 34, 68, 135]
+    => the invariants GROW (super-exponentially in digit count); they do
+    not cycle and do not stabilise.  Each layer is a genuinely new
+    quantity — and each is a polynomial image of the same three numbers.
+
+THE VERDICT ON THE OWNER'S LAYERING HYPOTHESIS:
+  ARCHITECTURE — CONFIRMED.  The construction works exactly as
+  proposed: what ab and ba compute at one level become the two letters
+  of the next, the pair stays non-commuting at every level tested, and
+  each level carries its own Fricke measure.  Layers really do stack,
+  and the ab/ba principle really does re-apply above itself.
+  CONTENT — CONSTRAINED, and this is the honest half.  By the first
+  beat law every invariant at every level is a polynomial in the ONE
+  triple fixed at the bottom.  A tower of layers is therefore a tower
+  of RE-EXPRESSIONS, not a ladder of new physics: it can manufacture
+  unlimited STRUCTURE from a budget that never grows — exactly memo
+  114's finding, now with the stacking mechanism exhibited.
+  ONE SHARP STRUCTURAL LIMIT FOUND (T2, and it was not anticipated):
+  from level 1 upward every layer is trace-HOMOGENEOUS, x_n = y_n.
+  Layering cannot manufacture the UNLIKENESS that memo 112 requires of
+  an occupant relation — unlikeness has to be present at the bottom or
+  it is never produced.  So a tower of measurements cannot bootstrap
+  an observer out of a like pair; interpretively (labeled), whatever
+  makes the bottom pair unlike is doing work no amount of stacking can
+  replace.
+  ON "QUANTUM FIELDS LAYING ONE ABOVE ANOTHER" (interpretive, labeled,
+  and offered as a shape rather than an identification): the record
+  supports the picture of a hierarchy of levels over a fixed
+  information budget; it does NOT supply field equations, a Lagrangian,
+  or dynamics at any level — the schedule wall stands, and nothing
+  here derives one.  The honest claim is architectural, not physical.
+Gate 5 untouched.

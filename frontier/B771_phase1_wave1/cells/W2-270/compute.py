@@ -47,6 +47,13 @@ chain, no closed form is known even for the individual slopes, only the
 frozen gap POSITIONS have a closed form (Bellissard)); >=2 seeds with
 conditioning; discriminating fact computed in-cell; UNRESOLVED honest.
 """
+import os as _os
+# repo root, DERIVED: walk up from this file to the checkout that holds frontier/.
+# "<repo>/..." is a documentation placeholder; as a literal in code it is a dead path.
+_REPO = _os.path.dirname(_os.path.abspath(__file__))
+while _REPO != _os.path.dirname(_REPO) and not _os.path.isdir(_os.path.join(_REPO, "frontier")):
+    _REPO = _os.path.dirname(_REPO)
+_R = lambda rel: _os.path.join(_REPO, rel)
 import json
 import sys
 import time
@@ -59,7 +66,7 @@ import sympy as sp
 T0 = time.time()
 OUT = {}
 FAILED = []
-CELL_DIR = "<repo>/frontier/B771_phase1_wave1/cells/W2-270"
+CELL_DIR = _R("frontier/B771_phase1_wave1/cells/W2-270")
 RESULTS = f"{CELL_DIR}/results.json"
 
 

@@ -283,9 +283,31 @@ pre-registered tolerance. **FAIL:** the differential is measured and refuted, or
 collapses to the standard-content counts (an R12 violation, meant to be caught before sealing, not
 after).
 
-**STATUS: SPEC ONLY, OWNER-PENDING** on the aperiodic-design unseal decision (`docs/OPEN_LEADS.md`
+~~**STATUS: SPEC ONLY, OWNER-PENDING** on the aperiodic-design unseal decision (`docs/OPEN_LEADS.md`
 L173) — the theory side is complete (B1085/B1095) and the experimental technique is established
-science; what has not happened is the seal. A structurally similar cousin not yet cast in this
+science; what has not happened is the seal.~~
+**[STATUS SUPERSEDED IN PLACE, 2026-09-12 — outside-bench memo 215, certificate
+`outside_bench/certificates/the_seal_already_happened.py`; the struck sentence above is kept for
+provenance, not deleted.]**
+
+**STATUS: SEALED 2026-08-21 — AWAITING AN EXPERIMENTALIST, NOT A DECISION.** The seal is in
+`docs/SEAL_LEDGER.md` (line dated 2026-08-21, *"THE EDGE SEAL (L173; …)"*), banked by **B1106**
+(*"the program's first outward-facing falsifier is sealed"*) with **the owner's rulings D-2 and D-3
+executed**, and `docs/EDGE_PREREG_SPEC.md`'s own header reads *"Status at landing: SEALED."*
+Amended once by its own rule (`SEAL_LEDGER`, 2026-08-27, B1171 addendum-beside — the sealed spec is
+**not** edited): **R6′, the commissioned observable** — count boundary-capable modes in a *labelled*
+Fibonacci gap on a chain long enough to separate a 5-count from a 6-count, because the anchor
+experiment is *"a demonstration paper, not metrology."* **What is outstanding is an experimental run
+nobody has commissioned** — a collaborator who can count modes in a labelled gap while scanning the
+phason.
+
+**And the price of passing, stated here so the tier is not read as stronger than it is:**
+outside-bench **memo 197** computed that the sealed alternation is the **modal** behaviour of a
+random phase (**19.77%** of 3000 phases; one phase in five reproduces the sealed law exactly over
+nine windows), so **observing it at ρ = α does not identify α**; with memo 196's addenda (at the
+closure windows `H_L` *is* `H_R` read backwards, so the differential is a relabelling; C4 prices the
+tiling hull as seeing only the hearing) **the lab lane's content is slope-specific, not
+phase-specific.** A structurally similar cousin not yet cast in this
 function-shaped form is PD1 (the anyon door, `docs/PRICED_DOORS.md`) — hardware instantiation of a
 modular algebra rather than a differential comparison; it belongs to this tier in spirit, not yet in
 form.
@@ -360,6 +382,40 @@ be measured against.
 pending §4A's own extension. §7 rule 2 below still binds: nothing claims this tier regardless.)*
 
 ---
+
+### ADDENDUM 2026-09-14 — §4A's no-goes are SINGLE-LEVEL, and B1116's scope caveat belongs here (outside bench, memo 231 cell 9)
+
+§4A above closes the value tier on three results. Two of them were **scoped by a later banked theorem that
+this section predates by one day and does not cite.**
+
+**B1116** (`frontier/B1116_asymptotic_channel`, T-ASYMPTOTIC, dated 2026-08-21 by
+`docs/CAMPAIGN_STATUS.md`'s own packet line; §4A is dated 2026-08-20), verbatim:
+
+> **Every banked value/scale no-go quantifies over SINGLE-LEVEL invariants.** A **growth rate of a tower** —
+> a difference of levels, needing no basepoint, no frame, no section — is outside all of them.
+
+checked row by row against **B666 cell S** (*"a rate is an N→∞ asymptotic, not a G-equivariant map"*) and
+**B936** (*"a rate is a basis-free scalar limit"*), with the verdict *"the archimedean/growth-rate channel
+is not excluded by any banked no-go."* `docs/GRAND_COMPUTATION_LEDGER.md` records that this caveat
+**"must ride with the headline."** Searching §4A for `B1116`, `asymptotic`, `growth rate`, `growth-rate`
+and `T-ASYMPTOTIC` returns nothing.
+
+**And B666's load-bearing clause is a definition, not a theorem.** `Hom(G, ℝ₊) = 0` is proved and exactly
+verified on six groups. The clause that makes it bite — *"every output is stabilized by a finite/profinite
+structure"* — is **Definition 1** of `frontier/B666_leads_campaign/cellS/PROOF_NOTE.md`, and that note's own
+Scope calls the premise behind it *"the one assembly ingredient this note consumes rather than reproves."*
+The note names its own falsifier — *"exhibit a banked output NOT stabilized by a finite/profinite
+structure"* — and **no arc has taken it up.**
+
+**The restatement this forces:** §4A's closure is sound **for the routes it names**, and those routes are
+single-level. It is **not** established for the tower-growth-rate channel.
+
+**What this does NOT say:** that values are derivable. B1116 opens a **channel, not a number**, and
+`docs/THE_SM_VERDICT.md`'s own words ride along — *"VALUE-matching remains OPEN — no SM number is
+produced."* §4A's coupling leg remains exactly what §4A calls it, *"empirical exhaustion, not theorem"*,
+now at eight misses (the last, B1128, INSTRUMENT-NULL). B666 is not wrong. **Nothing above is struck or
+edited; this addendum adds the caveat the ledger says must travel.** Certificate:
+`outside_bench/certificates/require_and_test_cell9.py`. Gate 5 untouched.
 
 ## 5. WHAT WOULD DISPROVE IT — the half nobody had written
 

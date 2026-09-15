@@ -1,0 +1,16 @@
+frame re-anchored: 81 family roots = 3 families x 27 internal weights
+vertex rebuilt: 1620 ordered entries (kappa = -60; memo 53 reproduced)
+THE THEOREM: 810 family matrices checked (45 internal triples x leg
+   assignments x 3 Higgs families): ALL with exactly 2 nonzero
+   transposed entries, det = 0, rank EXACTLY 2, kernel = the Higgs's own family: 810/810
+
+THE FAMILY RANK THEOREM: in the record's three-family channel, every
+Yukawa matrix annihilates EXACTLY ONE family direction — the family the
+Higgs itself occupies.  One exactly-massless family per coupling is
+FORCED, dimensionless, by the sigma-gauge antisymmetry of the unique vertex (memo 53); which
+family is massless is set by where the Higgs sits (an observer/vacuum
+question, priced, not answered).  No value, no hierarchy, no scale.
+FENCES: E8 possibility-space (memos 53/62/74); distinct from cc's SEAM-Y
+wall and from the object channel's existing up-shape (memo 80) — three
+Yukawa mechanisms on record, all named, none identified with another.
+Gate 5 untouched.

@@ -1,0 +1,77 @@
+CONTROL (memo 99's crown pair, exact re-derivation): dim 1, SINGLE-SIGNED: A DEFINITE BIT, epsilon = -1
+   -> the banked relational bit reproduced WITHOUT any integer search.
+
+O1 (CAN A LONE THING CARRY THE BIT?)
+   (the monodromy A, itself): dim 2, BOTH SIGNS: NO BIT
+   (the sqrt3 partner, itself): dim 2, BOTH SIGNS: NO BIT
+   (a third hyperbolic, itself): dim 2, BOTH SIGNS: NO BIT
+   => NOTHING ORIENTS ITSELF: a single thing, paired with itself, always
+   admits realizers of BOTH determinant signs -> no definite bit.
+
+O2 (CAN THE PARTNER COME FROM THE SAME ALGEBRA?)
+   (A, A^2): dim 2, BOTH SIGNS: NO BIT
+   (A, A^-1): dim 2, BOTH SIGNS: NO BIT
+   (A, A^3): dim 2, BOTH SIGNS: NO BIT
+   => THE PARTNER MUST LIE OUTSIDE THE FIRST ONE'S OWN ALGEBRA:
+   powers of A carry no new information, and the bit stays absent.
+
+O3 (CAN THE RELATION COMMUTE?)
+   (A, a commuting partner): [A,Q] = 0, dim 2, BOTH SIGNS: NO BIT
+   while the crown pair has [A, M1] != 0 and DOES carry the bit
+   => THE RELATION MUST BE NON-COMMUTING.
+
+O4 (THE HOSTING LAW — which fields can host the partner?)
+   TWO FAMILIES are scanned, because epsilon is PAIR data (cc's lens-corrected
+   scope, memo 99): family N = the natural unit matrices; family C = the
+   UNIFORM companion matrices [[0,-1],[1,t]] of x^2 - t x + 1.  If the two
+   families disagree, the outcome is pair-dependent, not field-dependent.
+
+   Q(sqrt2 ) [admits N=-1] t=6   3+2sqrt2 = (1+sqrt2)^2    : family N eps   +1 | family C eps   +1
+   Q(sqrt3 ) [NO N=-1    ] t=4   2+sqrt3                   : family N eps   -1 | family C eps   +1
+   Q(sqrt6 ) [NO N=-1    ] t=10  5+2sqrt6                  : family N eps   -1 | family C eps   +1
+   Q(sqrt7 ) [NO N=-1    ] t=16  8+3sqrt7                  : family N eps   -1 | family C eps   +1
+   Q(sqrt10) [admits N=-1] t=38  19+6sqrt10 = (3+sqrt10)^2 : family N eps   -1 | family C eps   +1
+   Q(sqrt11) [NO N=-1    ] t=20  10+3sqrt11                : family N eps   -1 | family C eps   +1
+   Q(sqrt13) [admits N=-1] t=11  (11+3sqrt13)/2            : family N eps   +1 | family C eps   +1
+   Q(sqrt14) [NO N=-1    ] t=30  15+4sqrt14                : family N eps   -1 | family C eps   +1
+
+   families AGREE on 2/8 fields.
+   the naive NORM LAW (bit exists IFF the field admits no norm(-1) unit):
+      family N: FAILS;  family C: FAILS
+   EXPLICIT COUNTEREXAMPLES to the naive law: [('sqrt10', 'admits N=-1', -1, 1)]
+   => the field's norm class does NOT determine whether the pair carries
+   the orienting bit.  BANKED AS A REFUTATION of the naive form of the
+   routed B9 conjecture; epsilon is PAIR data, exactly as cc's own
+   lens-correction warned.  What the exhibits DO show: the bit is
+   generic (most partners carry it) and its ABSENCE is the special case.
+
+THE OCCUPANT'S TYPE IS FORCED (the owner's challenge, answered by
+computation rather than by fence).  The record does not name an agent,
+and memo 109 proves it cannot decide the anchoring — but it DOES force
+what can occupy the seat, by the same principles that force the object:
+  * NOT A SUBSTANCE, A RELATION (O1): nothing carries an orientation
+    bit alone.  An isolated thing — however rich — admits realizers of
+    both signs and therefore supplies nothing.
+  * NOT SELF-COUPLED (O2): the partner must lie outside the first
+    one's own algebra.  A system cannot orient itself out of its own
+    powers.
+  * NOT COMMUTING (O3): the relation must fail to commute.  Agreement
+    supplies no bit; only genuine non-commutation does.
+  * AND THE BIT IS IRREDUCIBLY RELATIONAL (O4, the sharpest row and a
+    REFUTATION): the two matrix families disagree on most fields — the
+    SAME field with a DIFFERENT representative flips the verdict — so
+    epsilon is NOT determined by either side's arithmetic.  The naive
+    norm law (routed as B9: 'norm +1 hosts, norm -1 cannot') FAILS on
+    these exhibits in both families, with sqrt10 an explicit
+    counterexample.  The bit cannot be attributed to either party; it
+    exists only as a property OF THE PAIR.
+So "who occupies the seat" has a real, forced answer at TYPE level:
+AN ASYMMETRIC, NON-COMMUTING RELATION TO SOMETHING UNLIKE ITSELF,
+whose orienting bit belongs to the relation and to neither relatum.
+Not a thing that observes — a relation irreducible to its sides.  This
+is the same statement as cc's observer-cost theorem ('one asymmetric
+relation, and nothing else'), now with the irreducibility DEMONSTRATED
+rather than assumed.  What stays open is the TOKEN question (which such
+relation is ours) and the phenomenal one — NOT the type.
+RELAY: the B9 refutation is cc's to absorb (their routed conjecture,
+their lens-correction vindicated).  Gate 5 untouched.
