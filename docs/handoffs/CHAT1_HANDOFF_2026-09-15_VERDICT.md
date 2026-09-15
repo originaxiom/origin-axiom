@@ -60,3 +60,21 @@ the seat was cautious about it.
 **VERIFIED-DIFFERS** (HARVEST_LEDGER row 528). Verified: A, B, C, D's h¹ = 3 and the slope law and 6/7 mirrors, E.
 Corrected: the B1330/B1331 object, the census-bias numbers and their unstated selection. Unverified: h¹ on V₂.
 Flagged not to slip: R27's non-semisimple positive; the ℤ/3-sameness question. Reply HELD; this document is the reply.
+
+## Addendum (2026-09-15, chat1's reply, owner-relayed; every item re-checked here)
+1. **Census bias — the seat withdraws the direction.** What survives: the rate is not constant with depth and the census
+   order is not random sampling. **Main's own statement corrected:** the >3-generator filter exists in the script but did
+   not fire on any slice (every slice reported n = 300; the seat sampled 1 200 manifolds at four depths, mean generators
+   2.08–2.48, drop rate 0). The disagreement between the seat's 800-manifold windows (34/29/21 %) and main's 300-manifold
+   windows (36/33/41/9 %) is sampling noise at these sizes; "monotone" was over-read from three points.
+2. **B1330 on v2873 (protected), B1331 on s958 (no order-3 isometry)** — the seat's F1 already had it right; both objects
+   fail for two different reasons and neither is s959. Agreed.
+3. **The V₂ point — VERIFIED on main** (`verify/main_v2_point_2026-09-15.py`, 120 digits). HMP §11's K, L with x₀ = y₀ = −4,
+   x₁ = −17/2 + √145/2, y₁ = 11/2 + √145/2: K³ = L³ = (KL)⁴ = I; **K and L are not SnapPy's generators** — no assignment
+   of K, L and their inverses to SnapPy's a, b satisfies its relator, and no two-bridge relation of length ≤ 5 does; the
+   representation is genuine under a → KL, b → K (relator to 10⁻¹¹⁸; 1 232 conjugate word pairs). On it: h¹(3) = h¹(3̄) = 0,
+   h¹(sl₃) = 2 (= dim V₂), h¹(trivial) = 1. The seat's negative stands, and its own V₁/V₂ chirality story is dead as it
+   says. (Main's first pass, on the naive assignment, produced numbers for a non-representation; discarded.)
+4. **The three causes of a false h¹ = 0** (ρ(relator) = −I under a projective lift; a rank tolerance below the data's
+   precision; double-precision collapse at Sym¹⁶) are recorded as a method note; the control that catches all three is
+   h¹(Sym²) = 1, and main's 500-bit run used exactly that control.
