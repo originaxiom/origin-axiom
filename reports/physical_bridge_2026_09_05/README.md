@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+**Latest receiving correction, September 16: [the I-26 boundary table](BOUNDARY_TABLE_AUDIT_2026_09_16.md).**
+R24 already gives chi(C)=-3 and chi(E)=-6 after three source tubes are
+excised, so both cusp ends give chi(C,E)=3. Keeping the undrilled bulk
+gives a different pair; three Dirac pairs have net index zero, not six.
+32 unchanged targeted locks pass. The singular three/zero and resolved
+light-pair results remain on their distinct domains. Main's B1413 harvest
+is now confirmed as a record, with independent review only as it states.
+No new physical closure; source/end and anomaly completion remain next.
+
 **Latest intake, September 15--16: [chat1 and the arithmetic parent](CHAT1_ASSEMBLED_AUDIT_2026_09_15.md).**
 Exact regular-tessellation checks give PSL(2,O_3) indices 12,24,36
 for m004,m202,s959; certified canonical symmetries distinguish s959

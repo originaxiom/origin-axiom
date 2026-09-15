@@ -1,0 +1,194 @@
+{
+  "date": "2026-09-16",
+  "selection_seal": "7b8f1fd69582b5df81f29552330b5b47f2eeb893",
+  "own_science_pin": "745e10b8545f80b0f593aa744e16dad2781074c7",
+  "main_intake_pin": "3857877dfcc2ac2d2c8f3d31a90114aeb606004c",
+  "redaction": "Only the machine-specific interpreter command is published as python3.12; raw receipt hashes refer to unredacted receipts. The test output is byte-identical. The provider-named remote family in the presence output is rendered origin/<seat>/; unredacted raw digests are unchanged.",
+  "scope": "Incoming documents personally read; tests re-execute prior source distinctions, not a new spectrum or all-history absence search.",
+  "incoming_sources": [
+    {
+      "path": "docs/handoffs/CC_TO_CODEX_2026-09-15_CONSOLIDATION_YOU_ARE_FREE_TO_WORK.md",
+      "git_blob": "a5bb65bfaea8a69ff6613612d9e93f9b37201983",
+      "bytes": 2889,
+      "sha256": "7a89846d7c987cc3b4b98444d07d2a5711d08d0fb9f9cca656bf368883131a5f"
+    },
+    {
+      "path": "docs/handoffs/CHAT1_I26_DECISION_TABLE_2026-09-15_VERDICT.md",
+      "git_blob": "96f4c4c3136315f72be57c6be9f11c845ce3f20f",
+      "bytes": 2041,
+      "sha256": "2e747d3886f0e14e8eaf199d35785b4889d3820b34d70fdb7f3809d309d1243a"
+    },
+    {
+      "path": "docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md",
+      "git_blob": "2352c4788e24e75c968060591eff02fbc9fe3e7f",
+      "bytes": 4480,
+      "sha256": "4b2ea270026f4fb82e1d46d92b8c11c863e79a3f4301b295dc57a7cce67e8e1c"
+    },
+    {
+      "path": "docs/handoffs/chat1_i26_decision_table_2026-09-15/code/dplus_decision_table.py",
+      "git_blob": "2a35724fc33045c9e57ebcd57f568c29b42144f6",
+      "bytes": 1600,
+      "sha256": "44eb4b24b96bf5eb74607676c1bc8fb16ce5c94bfed8479ef2497f35e43dd406"
+    },
+    {
+      "path": "frontier/B1413_the_audit_lanes_r21_r31/FINDINGS.md",
+      "git_blob": "6a2a58f3077ada3bbe24abd40ce9a7acc34545af",
+      "bytes": 29038,
+      "sha256": "0070217d939ca6e2ec5c6a41ef5a463cb1a6b5f985ab7d22336212d6ed9320f1"
+    },
+    {
+      "path": "docs/handoffs/CHAT1_CLOSURE_2026-09-15_VERDICT.md",
+      "git_blob": "83385615dea84d61d99febfdf34a959cc19f7dd5",
+      "bytes": 4409,
+      "sha256": "c65650f9486a5c25d6f52e0aca7e612151d6d862c8949325348969e286084b1e"
+    }
+  ],
+  "unchanged_science_paths": [
+    {
+      "path": "tests/test_physical_bridge_global_mass_flux.py",
+      "sha256": "2a8bfa80fe59e944d42d636810c2ff98a3e429dbf0f38a889ddb858e222f1629"
+    },
+    {
+      "path": "tests/test_physical_bridge_holonomy_spectrum.py",
+      "sha256": "09d664184d85d00973f7efc8e4083441d40e2fb3ebd1c5c02f2fa810adf7b2c9"
+    },
+    {
+      "path": "tests/test_physical_bridge_resolved_fermion.py",
+      "sha256": "8098ad7479f735168b8666e8637f181c0b7ac75c323d7fa463a2962987f3c658"
+    },
+    {
+      "path": "tests/test_physical_bridge_resolved_fermion_c3_control.py",
+      "sha256": "c89c9d0894a31db2cde888921a12b2f92b4a3976f98a085515c3ea8e3e4c8427"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/global_mass_flux.py",
+      "sha256": "91d70b40528ef06958e20e4733f76fe9221605751073a9583bec8611a2be280e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/global_singular.py",
+      "sha256": "220174476ed41cbd2a7d8af92df88a50707dc1dcfb468a80f70ac02e0aa3ef5d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/boundary_index.py",
+      "sha256": "a2634f647ab95e85ffc948bb10324e9ad76a76abd0d00dc5513f7a3ad0c405b6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_spectrum.py",
+      "sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/resolved_fermion.py",
+      "sha256": "c0ac7558b50d93ede2ed2542d7a78a793a9bea2e0502a1566dca1f3b71def97b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/resolved_fermion_c3_control.py",
+      "sha256": "fe908b99d0760e6b6392c397e58c86e05bae737d9dd3e958dd34bd70b89e9221"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_equivariance_word_control.py",
+      "sha256": "1f1fb29f26940983af65346f38266447bac22db66402c6141f2b01a5d3314f45"
+    }
+  ],
+  "runs": {
+    "oa_boundary_intake_banked_first": {
+      "raw_basename": "oa_boundary_intake_banked_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "python3.12",
+          "scripts/checks/already_banked.py",
+          "relative Euler source cusp drilling annuli"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6784730000654235,
+        "log_bytes": 3642,
+        "log_sha256": "2f065b096cb077e6ff0cb5b619f4670c7d7af71e3240d21b02b977e8d1d7aec3"
+      },
+      "raw_receipt_sha256": "a4f0311c3ac6c2752c998ea2c2acfeea116af70f3ead0d1d7920d683a68cd78e",
+      "output": "already-banked: terms ['relative', 'euler', 'source', 'cusp', 'drilling', 'annuli']\n  219 corpus hits; 0 SETTLED arcs matching >= 3 of 6 terms\n  *** [ 2 terms] PROVED    B1002_conductor_reconciled\n           B997-S OWED CHECK DISCHARGED: THE CONDUCTOR IDENTIFICATION IS RIGHT, AND CONDUCTOR NAMES TWO THINGS. B997 proved the golden is the UNIQUE metallic grammar whose own-conductor shadow group is a McKay group, conditional on\n  *** [ 2 terms] PROVED    B1019_l149_silver_cascade\n           L149 ANSWERED -- THE ENDPOINT DISCRIMINATES AT THE WORD'S OWN CONDUCTOR, AND THE SIBLINGS HAVE NO DOOR. Sealed ce6b0329 with no confident prior (a weak DIVERGES lean, stated as a lean); outcome DIVERGES, AT THE ENTRY MAP\n  *** [ 2 terms] PROVED    B1025_input_derivability\n           L155, THE INPUT-DERIVABILITY AUDIT: THREE SURVIVE, TWO NARROW -- AND THE 'LIE-VALUED INPUT' DISSOLVES INTO UNIQUE LINES. Sealed 8def4962 with per-input priors; the sigma-pattern run against every counted input; every joi\n  *** [ 2 terms] PROVED    B1043_triple_assembly\n           PM2 / L157-4, the triple assembly (sealed 575ad81b pre-compute; the algebraic triangle graph-of-groups -- manifold cyclic welds of one-cusped pieces impossible, stated at seal; rho(t)=1 declared): h1(triple;27) = 10 = 7 \n  *** [ 2 terms] NEGATIVE  B1108_c5_archimedean\n           C5 CLOSED NEGATIVE (harvest of the audit seat's B8115 reading + the banking seat's independent source verification, arXiv:1905.13610: coefficients Z/nZ finite cyclic, compact-support cohomology for real places, zero arch\n  *** [ 2 terms] NEGATIVE  B1142_lane_c_cusp_spectrum\n           LANE C (the value campaign's GUE spectral down-payment, re-derived TWO-BENCH on this bench with own code -- mpmath+scipy, nothing imported): the object's cusp/scattering spectrum is GUE-distributed but GENERIC (it discri\n  *** [ 2 terms] PROVED    B1147_clane_harvest\n           THE C-LANE HARVEST: the cloud seat's memos 30-40 (Campaigns A/B/C continuation, origin/outside-bench dc937010) verified by REPRODUCTION -- all 11 self-contained certificates re-run on this bench's pyenv reproduce their c\n  *** [ 2 terms] PROVED    B1148_carrier_harvest\n           THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduce byte-identical. The batch builds toward the inte\n  *** [ 2 terms] PROVED    B1149_meridian_longitude_harvest\n           THE MERIDIAN & LONGITUDE HARVEST: cloud memos 49-51 (origin/outside-bench 1544989d) verified by REPRODUCTION -- all 3 self-contained stdlib-exact certs re-run on this bench's pyenv exit rc=0 (every claim a preregistered \n  *** [ 2 terms] PROVED    B1153_peripheral_and_superposition\n           THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS: cloud memos 54-55 (origin/outside-bench 0c7f8b5a) verified by REPRODUCTION -- both self-contained certs re-run on this bench's pyenv exit rc=0 (every claim a preregiste\n  *** [ 2 terms] NEGATIVE  B1157_dynamics_null\n           WF-2 (the dynamics; the masterplan's 2nd workflow, 8 agents), sealed DECIDABLE-RESULT, banked as a productive NEGATIVE. THE FIREWALL VERDICT: the object supplies NO parameter-free dynamical law at the archimedean infinit\n      [ 2 terms] OPEN      B1163_w0_attempt\n           The W0 construction ATTEMPT (owner: 'can we specialize ourselves and do the missing archimedean W'; WF W0-construct, 7 agents). SEAL = PARTIAL: no W0 constructed, but all three routes CONVERGE on ONE missing datum -- an \n\n  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).\n"
+    },
+    "oa_boundary_intake_atlas_first": {
+      "raw_basename": "oa_boundary_intake_atlas_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "python3.12",
+          "scripts/atlas/query.py",
+          "card"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.08462700003292412,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "raw_receipt_sha256": "07456e6370e32c60e2d03e3b6387b54ca03f67259157a78cf671c2151d536ebd",
+      "output": "THE RECURRENCE ATLAS -- context card\n  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}\n  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur\n  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)\n  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422\n  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral\n  top meeting-point candidates: B530, B156, B521, B309, B598, B1189\n  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())\n"
+    },
+    "oa_boundary_intake_presence_first": {
+      "raw_basename": "oa_boundary_intake_presence_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "python3.12",
+          "scripts/checks/absence_sweep.py",
+          "I.?26.{0,30}(decision|table)|chi\\(C\\).{0,10}=-?k|χ\\(core\\)|source.{0,35}symmetry.{0,25}cusp|drill.{0,25}Euler|Euler.{0,25}drill",
+          "--regex"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 60.21385399997234,
+        "log_bytes": 1754,
+        "log_sha256": "edf181a97b4f511cd3b80e633234aa151235ac83c0625f584dd30bb8d193a702"
+      },
+      "raw_receipt_sha256": "e6caa5d4fc25fcbd2e4d7d1d08d65b06ece196eb153632d70b8d76a54dbb3da7",
+      "output": "ABSENCE SWEEP for 'I.?26.{0,30}(decision|table)|chi\\\\(C\\\\).{0,10}=-?k|χ\\\\(core\\\\)|source.{0,35}symmetry.{0,25}cusp|drill.{0,25}Euler|Euler.{0,25}drill' -- 12 heads enumerated\n  audit/physical-bridge-2026-09-05                        745e10b8  content:   4  filenames:  0\n      745e10b8:docs/LAW_MAP.md\n      745e10b8:reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX.md\n      745e10b8:reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX_DESIGN.md\n  origin/audit/physical-bridge-2026-09-05                 745e10b8  content:   4  filenames:  0\n      745e10b8:docs/LAW_MAP.md\n      745e10b8:reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX.md\n      745e10b8:reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX_DESIGN.md\n  origin/<seat>/standard-model-derivation-0qt6ao          9bc041c5  content:   1  filenames:  0\n      9bc041c5:frontier/B1351_the_index_on_a_three_manifold/FINDINGS.md\n  origin/main                                             3857877d  content:   7  filenames:  3\n      3857877d:docs/HARVEST_LEDGER.md\n      3857877d:docs/RELAY_LEDGER.md\n      3857877d:docs/handoffs/CHAT1_I26_DECISION_TABLE_2026-09-15_VERDICT.md\n      docs/handoffs/CHAT1_I26_DECISION_TABLE_2026-09-15_VERDICT.md\n      docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md\n      docs/handoffs/chat1_i26_decision_table_2026-09-15/code/dplus_decision_table.py\n  deleted-in-history paths matching: 0\n  working tree (untracked included): 4\n      docs/LAW_MAP.md\n      reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX.md\n      reports/physical_bridge_2026_09_05/GLOBAL_MASS_FLUX_DESIGN.md\n      reports/physical_bridge_2026_09_05/MISSION_STATUS_2026_09_10.md\nVERDICT: PRESENT -- on 4 head(s), working tree. 'We don't have it' may NOT be written.\n"
+    },
+    "oa_boundary_table_frozen_tests_first": {
+      "raw_basename": "oa_boundary_table_frozen_tests_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_global_mass_flux.py::test_general_arc_euler_additivity_keeps_excised_core_distinct",
+          "tests/test_physical_bridge_global_mass_flux.py::test_independent_cellular_pairs_agree_in_both_charge_sectors",
+          "tests/test_physical_bridge_global_mass_flux.py::test_changed_resolution_and_height_preserve_full_cohomology",
+          "tests/test_physical_bridge_global_mass_flux.py::test_corner_crossing_is_transverse_and_tube_to_cap",
+          "tests/test_physical_bridge_global_mass_flux.py::test_reversing_charge_also_reverses_the_incoming_region_boundary",
+          "tests/test_physical_bridge_global_mass_flux.py::test_asymptotic_cap_and_tube_bounds_are_strict_not_fixed_rate_assumptions",
+          "tests/test_physical_bridge_holonomy_spectrum.py::test_three_fox_calculations_and_full_character_identity",
+          "tests/test_physical_bridge_holonomy_spectrum.py::test_trivial_holonomy_retains_four_one_all_degrees",
+          "tests/test_physical_bridge_holonomy_spectrum.py::test_source_component_count_and_zero_arc_control",
+          "tests/test_physical_bridge_holonomy_spectrum.py::test_nontrivial_exceptional_unitary_roots_do_not_remove_the_pair",
+          "tests/test_physical_bridge_holonomy_spectrum.py::test_every_nontrivial_order_two_character_removes_extra_pair",
+          "tests/test_physical_bridge_resolved_fermion.py::test_exact_chain_homotopy_recovers_base_for_nonzero_attachment",
+          "tests/test_physical_bridge_resolved_fermion.py::test_actual_fox_loci_have_distinct_absolute_kernels",
+          "tests/test_physical_bridge_resolved_fermion.py::test_generic_split_three_odd_and_three_even_then_none_at_finite_attachment",
+          "tests/test_physical_bridge_resolved_fermion.py::test_singular_attachment_retains_a_pair_so_gluing_test_can_fail",
+          "tests/test_physical_bridge_resolved_fermion.py::test_even_odd_positive_eigenvalues_pair_in_declared_cochain_metric",
+          "tests/test_physical_bridge_resolved_fermion.py::test_full_transmission_not_just_tangential_pullback",
+          "tests/test_physical_bridge_resolved_fermion_c3_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 6.735130000044592,
+        "log_bytes": 99,
+        "log_sha256": "5afa0b99a40dc67984e9ec29c0fe0efa3ffb28975619df004a137a26f651f77a"
+      },
+      "raw_receipt_sha256": "909624bd5d5ad2a61c2cc03e9481b2152afa0c2cc7c731a5ff2d3e9507808330",
+      "public_path": "reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_TESTS_FIRST.txt"
+    }
+  }
+}

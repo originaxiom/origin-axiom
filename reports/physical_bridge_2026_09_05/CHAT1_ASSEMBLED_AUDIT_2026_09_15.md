@@ -196,6 +196,13 @@ new list of coincidences. It is a plan, not an executed chiral completion.
 
 ## 6. Execution, custody and the consolidation relay
 
+**Later fetch, September 16:** main's B1413 now records the R21--R31
+harvest. Its full findings and corrected relay have been read; this
+updates the pre-fetch main-status sentence below. See the subsequent
+[boundary-table audit](BOUNDARY_TABLE_AUDIT_2026_09_16.md), which also
+corrects a newly received conflation of the source exterior and the
+undrilled core. It does not change any packet/control result above.
+
 Original seal: 5b6391c368a7695fef4b86a7c7bf8bfee7f8a309.
 Original native: exit 1, unsupported otet06_0000 name; original tests:
 eight fixture errors. Those failed runs and source files are preserved.

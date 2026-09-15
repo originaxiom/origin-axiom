@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-09-16 — recover the sourced core before interpreting the I-26 table
+
+Fresh all-remote/tag fetch brings main 3857877d and its B1413 harvest
+of R21--R31; the complete findings and corrected seat relay were read.
+Main distinguishes independent R27 verification from reruns of other
+rounds' own locks. This is not independent acceptance of every proof.
+
+The new I-26 table has valid Euler arithmetic on its specified
+undrilled Q, but identifying its row D with R24/R30 is false.
+R24 already gives chi(C)=-k, chi(E)=-2k after removing k source tubes,
+so chi(C,E)=k with ALL cusp ends; for three arcs it is three, not six.
+A three-pair resolved sector has net index zero, not six. Neither
+claim requires silently selecting one privileged cusp.
+
+Selection/design seal 7b8f1fd6 was pushed before execution. All 32
+unchanged targeted R19/R24/R30 tests pass, including the old wrong-core
+rejector, cellular pairs, exceptional characters and core attachments.
+No science was changed, new B allocated or full suite called green.
+A held sender-branch relay records the correction; no external send.
+Keep the physical source/end, domain and anomaly task on the same path.
+Report: reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_AUDIT_2026_09_16.md.
+
 ## 2026-09-16 — chat1 parent/class audit, with both positives and failed joins retained
 
 The complete supplied document and all 28 scripts were personally read.

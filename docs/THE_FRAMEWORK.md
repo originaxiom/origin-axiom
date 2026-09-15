@@ -1,5 +1,14 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**LATEST RECEIVING CORRECTION, 2026-09-16: the I-26 domain distinction.**
+The new decision table's undrilled bulk is not R24's source exterior:
+chi(C)=-3 and chi(E)=-6 give chi(C,E)=3 with BOTH cusps. Three resolved
+Dirac pairs instead have net index zero, not six. 32 unchanged targeted
+locks pass; this recovers an existing distinction, not new chirality.
+The source/end and anomaly duties remain open. Main's B1413 harvest
+record was read with its independent-versus-own-test grades retained.
+Report: reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_AUDIT_2026_09_16.md.
+
 **LATEST LOCAL AUDIT, 2026-09-15 (R31): actual compact Poisson wells.**
 The authored Green-kernel argument supplies uniform interior logarithmic
 and off-source bounds for R29's fixed compact normalized uniform tubes,

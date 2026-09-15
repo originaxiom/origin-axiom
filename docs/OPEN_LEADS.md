@@ -3002,3 +3002,19 @@ Carried-forward duties, not claims of corpus-wide absence:
 Packet scope, controls, failures and exact receipts:
 reports/physical_bridge_2026_09_05/CHAT1_ASSEMBLED_AUDIT_2026_09_15.md.
 No shared number or new physical rung is allocated.
+
+**Boundary-table receiving correction on PB-BOUNDARY, 2026-09-16.**
+The incoming main I-26 D/E binary is not the sourced-domain choice:
+R24 already has chi(C)=-k and chi(E)=-2k, so ALL cusp ends give k.
+Three resolved Dirac pairs instead have net index zero. The record's
+singular three/zero sector is preserved; choosing a single privileged
+cusp is not a required step in that calculation. 32 frozen selected
+locks pass; the source/end and anomaly-completion lead stays OPEN.
+
+The symmetry-projection proposal is deferred, not closed: first carry
+the actual source exterior, bundle and operator domain through the
+parent action. It cannot start by equating an index with total states.
+Main's R21--R31 harvest is now received at B1413@3857877d, not silently
+treated as independent proof review of the entire analytic chain.
+Report and held sender-branch correction:
+reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_AUDIT_2026_09_16.md.
