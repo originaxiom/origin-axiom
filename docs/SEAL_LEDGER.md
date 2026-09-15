@@ -580,3 +580,19 @@ hash-first status.*
 | 2026-09-15 | R30: declared finite-width fermion action/domain, actual Fox core attachment and conditional logarithmic-well light partners; before first scientific execution | `reports/physical_bridge_2026_09_05/RESOLVED_FERMION_DESIGN.md` | `7af54bf5502a51dd96261b621bf3b28d559788e564d97dddd807ca62cadfc8cf` |
 | 2026-09-15 | R30 separate observed-label control: actual source-C3 fixed torus from the prior word action, original order-three sample rejected; original science and runs unchanged; before first control execution | `reports/physical_bridge_2026_09_05/RESOLVED_FERMION_C3_CONTROL_DESIGN.md` | `8f2b089c18a210556268b8591be29d9bc6d94de1ddbd2def8d26e4406ff94c43` |
 | 2026-09-15 | R31: fixed compact normalized-source global Green remainder, interior logarithmic wells and independent kernel/endpoint controls; before first scientific execution | `reports/physical_bridge_2026_09_05/GLOBAL_POISSON_DESIGN.md` | `fc76ecca13b6dae895f4d98860c0ba165a074fecc1539583ec934ec5de03cf88` |
+
+
+## 2026-09-15 — chat1/class exact controls, before execution
+
+Path-local intake control, not a shared R/B allocation. Exact parent
+matrices, named cover indices and the two 27 representations are kept
+separate from physical chirality. Source/design/tests must be committed
+and pushed before either native or certified-canonical execution.
+Original R31 inputs and results are unchanged. Existing failed gates
+are retained; this seal does not imply main banking or proof acceptance.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CHAT1_CLASS_CONTROL_DESIGN.md` | `87ec7b80316c5f432d9baeb56c9a61f83a43a0be504b66d2011ca0b3df0264ce` |
+| `reports/physical_bridge_2026_09_05/chat1_class_control.py` | `61a4ef5f17f36a80946f6b311b1658a57a43845c12adec3a272f328df9e6411e` |
+| `tests/test_physical_bridge_chat1_class_control.py` | `9026d2491d38eabc06b12b04b3faf9cbb5784c3428e32e47b9cb07fd7ee1dcc3` |
