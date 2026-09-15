@@ -1,0 +1,3 @@
+# B1411 addendum (2026-09-15, from the audit lane's R23 section 4, harvested in B1413)
+
+B1411 verified B1351's CLOSED half (Poincare duality at levels 3, 4, 5). Its cusped half -- "a weight whose cusp holonomy is non-trivial has vanishing torus cohomology, hence no boundary condition and N = 0" -- holds for the whole-torus and annular conventions of the positive boundary (rows A-C of the I-26 decision table) and is refuted by R23 on explicit relative cochains for a DISC partition (H* = (0, k, 0, 0), chi = -k; rows D-F). The convention for the positive boundary is the open I-26 binary, not a theorem either way.

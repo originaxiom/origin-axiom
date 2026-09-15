@@ -1,0 +1,19 @@
+{
+ "id": "B1413",
+ "verdict": "VERIFIED",
+ "instrument": false,
+ "depends_on": [
+  "B1304",
+  "B1297",
+  "B1335",
+  "B1341",
+  "B1411",
+  "B1321"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE AUDIT LANE'S R21-R31 HARVESTED at 5e063851. R27 VERIFIED on main both halves: (a) for V = Sym^m(h) (x) F with h the geometric holonomy and F finite-image, the interior image of H^1 vanishes for V and V* (Menal-Ferrer-Porti Theorem 0.1, read from the source, transferred through the finite cover that kills the twist), so the one-cusped index is a theorem-zero on the whole geometric finite-twist class -- every zero of B1297/B1324/B1330-B1335 is forced, the paper's non-vacuity worry is answered negatively on that class; (b) the exact characteristic-zero positive on m010 recomputed here: Sym^3(rho)(x)chi over Q(u), a1 = 1, r1 = 0, n = 1, dual n = 0, I = +1, semisimplification I = 0, base representation reducible non-split with common eigenvector (1,u) -- outside the reductive domain D; B1335's irreducibility filter tested the wrong predicate (E66 shape) and its domain certificate is withdrawn, its positive stands as non-reductive. Nine rounds re-run green on this bench (R24's single red is its own retained instrument failure); B1341 narrowed to autonomous same-state Lagrangians by R28's counterexample; B1351's cusped half scoped to the whole-torus/annular boundary conventions by R23 section 4. Fifteen documents read. FRESH_EYES Q16 answered with a witness: nonzero index requires extension data."
+}

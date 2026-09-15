@@ -1,0 +1,11 @@
+m010 presentation: ['a', 'b'] aabaBaaBab peripheral ('AbAA', 'babA')   [lane: aabaBaaBab, AbAA, babA]
+det A, det B: 1 1 | relator -> [[1, 0], [0, 1]]
+chi on relator, mu, lambda: 1 1 1
+V = Sym3 (x) chi         a0=0 a1=1 t0=1 t1=2 r1=0 n=a1-r1=1
+V* (dual)                a0=0 a1=2 t0=1 t1=2 r1=2 n=a1-r1=0
+I(V) = n(V) - n(V*) = 1   [lane: +1]
+A v - u v: [[0, 0]]  B v + v: [[0, 0]] -> (1,u) common eigenvector, eigenvalues u and -1: reducible base
+conjugated A, B: [[u, 1], [0, 1 - u]] [[-1, u - 1], [0, -1]]
+V semisimplified         a0=1 a1=4 t0=4 t1=8 r1=4 n=a1-r1=0
+dual of semisimplif.     a0=1 a1=4 t0=4 t1=8 r1=4 n=a1-r1=0
+I(V^ss) = 0   [lane: 0]

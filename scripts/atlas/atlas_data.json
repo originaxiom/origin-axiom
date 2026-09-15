@@ -8301,6 +8301,34 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1413": {
+   "slug": "the audit lanes r21 r31",
+   "motifs": [
+    "closing",
+    "coupling",
+    "action",
+    "feedback",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B766",
+    "H1",
+    "H3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 20,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [
