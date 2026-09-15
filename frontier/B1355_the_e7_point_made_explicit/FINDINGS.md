@@ -98,3 +98,5 @@ Sp(1) is ±1 — the reason AW's U(1) family stops at A-type and the reason the 
   needs b₂ ≥ 2 with the ℤ/3 moving the harmonic forms (H-SUMRULE-TWO-PLUS-ONE, `docs/HINT_LEDGER.md` (16)).
 - The E₆ × SU(2) spectrum at the apex from the A₁ locus over the second pole.
 - A self-dual Einstein orbifold with exactly one 2T point.
+
+*(Currency 2026-09-15: VERIFIED ON MAIN (geometry) / CITED (physics) — B1411 re-derived the geometry exactly over ℚ(i): 2T of order 24 with commutant the scalars, the 2T-fixed locus in CP³ exactly one twistor line with the standard normal action, −1's fixed set two disjoint lines meeting only at the apex, b₂(CP³/2T) = 1. The owner flags this arc as the first local model in the record of the bit the paper says the cusped object withholds; it enters the paper's chirality section as a cited local model with the global closing open (L212).)*

@@ -1,5 +1,11 @@
 # Changelog
 
+## Harvest received from main (B1411): B1351–B1355 verified on main, B1354 run-not-rederived, B1353's headline corrected, the freeze lifted
+
+Currency notes on B1351–B1355; B1353's FINDINGS and claim line now say "the families enumerated, fourteen members computed"; the
+relay row and the alias table carry main's consolidation (fc7c73d1 → 208332f7, next free id B1412, the lanes merged and deleted); the
+letter's eleventh note withdraws this seat's error about sB1300–sB1302. Next arc B1356 = L212.
+
 ## B1355 — the E₇ point made explicit: the destination's local model is the G₂ cone over CP³/2T
 
 Acharya–Witten's twistor family with the object's McKay group: the Bryant–Salamon cone over CP³ divided by 2T on one quaternionic

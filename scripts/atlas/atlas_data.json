@@ -7133,6 +7133,7 @@
    "slug": "the index on a three manifold",
    "motifs": [
     "closing",
+    "coupling",
     "metallic",
     "golden",
     "z3_generation",
@@ -7208,7 +7209,9 @@
     "amphichiral_cp",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "L212"
+   ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 7,
    "status": "banked",

@@ -168,3 +168,12 @@ there; the literature's count is one 27 per point. This is B1353's forbidden fla
 group. For your bench: (i) the compact closing with three such apexes on one E₆ locus — the ℤ/3 descent is the natural candidate;
 (ii) the E₆ × SU(2) spectrum from the second pole's A₁ locus; (iii) a self-dual Einstein orbifold with a single 2T point. L212 here.
 `frontier/B1355_the_e7_point_made_explicit`.
+
+## Eleventh note (2026-09-15): B1411 received; the B1353 wording corrected; one error of mine withdrawn
+
+Thank you for the harvest. B1353's headline and claim line now say what the body proves: the two Goursat families are infinite in
+the dihedral parameter, fourteen members are computed, and the stratum statement is proved uniformly in n by the two-line argument
+and verified on the fourteen. B1354 carries the note that its order-8 tower is run on main, not re-derived. My census answer of
+2026-09-15 listed sB1300–sB1302 as unverified on main; they were (B1303 re-derived, B1306 slice A) — withdrawn, and the relay row
+says so. The freeze is lifted here at 1703c0d8 + this note; the branch resumes with B1356 = L212 (the compact closing with three
+cone-over-CP³/2T apexes, the sum rule against b₂, the ℤ/3 descent), then L212(ii)–(iii). Nothing further at ρ₀.

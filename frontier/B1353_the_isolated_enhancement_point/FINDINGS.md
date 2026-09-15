@@ -1,4 +1,4 @@
-# B1353 — THE ISOLATED ENHANCEMENT POINT ON AN E₆ LOCUS, MADE FINITE: in the flat G₂ orbifold class a point of the E₆ locus can be an isolated fixed point of its stabiliser (B1259's element lemma does not forbid it — main's E70), and all fourteen such local models are enumerated; in every one, every A-type stratum through the apex contains a line of the E₆ plane, so the transversal A₁/E₆ collision that Acharya–Witten's E₇ points need never occurs, while the literature's rule (chiral fermions at an ADE locus through a *non-orbifold* conical point; orbifold points modelled on Calabi–Yau ones) and the orbifold link's b₂ = 0 close the rest. The three E₇ points of the destination's item 1 are not orbifold points: the closing is the curved conical G₂ geometry, as B1259 said, now with the stratum theorem. 0 of 19.
+# B1353 — THE ISOLATED ENHANCEMENT POINT ON AN E₆ LOCUS, MADE FINITE: in the flat G₂ orbifold class a point of the E₆ locus can be an isolated fixed point of its stabiliser (B1259's element lemma does not forbid it — main's E70), and the local models are enumerated by Goursat as two infinite families (R = 2T and R = 2O over the dihedral series) of which fourteen members are computed; in every one computed, every A-type stratum through the apex contains a line of the E₆ plane — and the two-line proof of that statement is uniform in the dihedral parameter, so it holds for the whole families — so the transversal A₁/E₆ collision that Acharya–Witten's E₇ points need never occurs, while the literature's rule (chiral fermions at an ADE locus through a *non-orbifold* conical point; orbifold points modelled on Calabi–Yau ones) and the orbifold link's b₂ = 0 close the rest. The three E₇ points of the destination's item 1 are not orbifold points: the closing is the curved conical G₂ geometry, as B1259 said, now with the stratum theorem. 0 of 19.
 
 **Verdict: PROVED** (the enumeration and the stratum statement: exact finite computation with a two-line proof; the physics: the literature's rule, cited). Depends on B1084 (the flat orbifold and its hatch), B1259 (the element lemma; main's E70 scope), B1352 (the cusp's last place closed, which made this the escape left). Verification: `verification/isolated_point_groups.py` (record `isolated_point_groups_run.txt`, 2 s). Lock: `tests/test_b1353_the_isolated_enhancement_point.py`.
 
@@ -21,7 +21,7 @@ generic stabiliser), and p is an isolated fixed point of Γ_p iff the image H �
 i.e. iff H is non-cyclic: D_n (n ≥ 2), T, O, I. (An SO(3)-subgroup with a fixed vector is cyclic; the dihedral groups'
 flips invert the axis.)
 
-**Goursat.** Γ_p ⊂ SU(2)_L × SU(2)_R (mod the diagonal Z₂) with kernel {(±1, r) : r ∈ 2T} is a fibre product
+**Goursat (the families are infinite in the dihedral parameter n; fourteen members are computed below; the stratum proof of §2 is uniform in n).** Γ_p ⊂ SU(2)_L × SU(2)_R (mod the diagonal Z₂) with kernel {(±1, r) : r ∈ 2T} is a fibre product
 L ×_Q R with R ⊇ 2T ◁ R and L/L_K ≅ R/2T. The finite subgroups of SU(2) containing 2T are 2T, 2O and 2I, and 2T is
 normal in 2T and 2O but not in 2I (checked by quaternion arithmetic; A₅ ⊃ A₄ is not normal). So R ∈ {2T, 2O}:
 - R = 2T: Γ_p = (L × 2T)/Z₂ with L ∈ {D*₂, D*₃, D*₄, D*₆, 2T, 2O, 2I} (any L with non-cyclic image; the dihedral
@@ -48,7 +48,7 @@ normal in 2T and 2O but not in 2I (checked by quaternion arithmetic; A₅ ⊃ A�
 | D*₆, D*₃; 2O | 288 | 182, 105 | yes | 74 | line | 1764 / 937 |
 | 2O, 2T; 2O | 576 | 362, 213 | yes | 122 | line | 4380 / 3001 |
 
-Read: (i) **every one of the fourteen has an isolated fixed point at the apex** (joint fixed dimension 0) — B1084's Ĝ
+Read (the fourteen computed members of the two families; main's B1411 asked that this be said as "the families are enumerated, fourteen members computed", which is the correct statement): (i) **every one of the fourteen has an isolated fixed point at the apex** (joint fixed dimension 0) — B1084's Ĝ
 included: its census {3d: 53, 1d: 42} is reproduced exactly (23 copies of P from 2T, 30 axis ⊕ 2-plane A-planes,
 42 lines), and its apex *is* an isolated fixed point of the group. B1084's "isolation fails" read the elements; the
 group isolates. (ii) **Every A-type plane through the apex meets the E₆ plane P in a line**, in all fourteen groups
@@ -128,3 +128,5 @@ count.
 
 `verification/isolated_point_groups.py` (quaternion groups; Goursat enumeration; the census; the A-plane intersections;
 B1084's group placed), `isolated_point_groups_run.txt`.
+
+*(Currency 2026-09-15, main's B1411: VERIFIED-DIFFERS on wording only — the earlier headline said "all such Γ_p are enumerated, 14 groups"; the families (D*ₙ, ·) are infinite in n, fourteen members are computed, and the stratum statement is verified on those fourteen and proved uniformly in n by §2's two lines. Corrected above; nothing mathematical changes.)*

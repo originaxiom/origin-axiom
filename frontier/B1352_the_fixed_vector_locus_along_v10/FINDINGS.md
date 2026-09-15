@@ -192,3 +192,5 @@ two block-0 locus points, 120 digits), records `fixed_locus_c1_b0_run.txt`, `fix
   order-by-order linear algebra over the keeping classes' freedom; L204's last formal residue on the object.
   *(Currency 2026-09-09: answered by B1354 — such branches exist (the second-order class must drop V₄, V₈, V₁₆ and carry a definite V₆ component) and every one is formally self-dual through order 8: fixed vectors and self-duality are one condition along V₁₀; no carrier.)*
 - Stage B with exact arithmetic (the isometries on the block classes).
+
+*(Currency 2026-09-15: VERIFIED ON MAIN — B1411 read the two banked locus points in this seat's presentation with main's own code: relator residual 10⁻⁵⁴, h¹(27) = h¹(27̄) = 3, N = 0, three cusp-fixed weights at both; the locks re-run green.)*

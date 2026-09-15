@@ -83,3 +83,5 @@ self-duality are one condition along V₁₀.** The θ-odd frame on the object c
 
 `verification/persistence_tower.py` (the tower; Pass A, the completeness check, Pass C), `continuation.py` (the climb),
 `trace_series.py` (the traces and self-duality defects along both branches), records `*_run*.txt`.
+
+*(Currency 2026-09-15: RUN ON MAIN, NOT RE-DERIVED — B1411 ran `persistence_tower.py`, `continuation.py` and `trace_series.py` under this arc's locks on main's bench (both primes, green) and says so; main holds independently only the first-order statement (B1322). The order-8 tower stands on this seat's code alone until a second formal-branch machinery exists.)*

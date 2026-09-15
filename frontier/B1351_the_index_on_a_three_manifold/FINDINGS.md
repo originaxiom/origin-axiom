@@ -59,3 +59,5 @@ B1353) and the non-abelian Higgs data the literature analyses only locally.
   PW 2009 eq. 3.39–3.40 and BCHS 2018 §2.4 as cited in `docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`.
 
 *(Currency 2026-09-09: main's B1320/B1321 computed Pantev–Wijnholt's localized count at the fixed loci of the cyclic descent's isometries — 0 or 4 on C₃, C₄, never 3 — and 3 on both cusps of m202 from its order-3 rotation (I-30, priced). Consistent with this arc: on a closed closing the total count is χ = 0, so localized counts come in pairs (0 or 4); an unpaired 3 needs a cusp that is not filled (the sibling's) or a curved closing (B1353).)*
+
+*(Currency 2026-09-15: VERIFIED ON MAIN — B1411 re-derived the pairing with main's own code at levels 3, 4 and 5 (179 characters, vector-like at every one; the branched-cover slope detected rather than assumed) and re-ran this arc's lock.)*

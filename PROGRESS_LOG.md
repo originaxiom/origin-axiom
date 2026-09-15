@@ -14755,3 +14755,13 @@ under a prescribed source, a pair-free orbit in E₆/Z₃, an enlarged EFT witho
 the wrong chirality) is registered as consistent with and disjoint from B1351–B1354 (a source curves the connection); its E₆/Z₃ finding
 is banked as the global form B1355's 27s must respect — (E₆ × U(1))/Z₃, charges ≡ 1 mod 3, which the sum-rule pattern (1, 1, −2)
 satisfies. The cloud's memos count instruments over main's tree and address nothing here. Relay rows; B1355 §4; hint 16.
+
+### Harvest received from main (2026-09-15, B1411): B1351–B1355 verified on main; the B1353 wording corrected; the freeze lifted
+
+Main re-ran the 21 locks of B1304 and B1350–B1355 green (two hours) and re-derived with its own code B1351 (levels 3–5), B1352 (both
+locus points in this seat's presentation) and B1355's geometry (exact over ℚ(i)); B1354 is run, not re-derived, and says so. B1353's
+headline overstated the body ("all such groups enumerated, 14" → "the families enumerated, fourteen members computed; the stratum proof
+uniform in n"): corrected in FINDINGS and the claim line. sB1300–sB1302 were already verified on main, contrary to this seat's census
+answer — withdrawn in the letter's eleventh note. B1355 is flagged by the owner as the first local model of the bit the paper says the
+object withholds and enters the paper's chirality section as a cited local model. Freeze lifted; range B1350–B1399 stands; main's next
+free id B1412; this branch's next arc B1356 = L212.
