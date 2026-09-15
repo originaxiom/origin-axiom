@@ -14892,3 +14892,36 @@ and producer were read but not rerun. Earlier zero-name counts stay
 historical. The fixed-direction/return-power equivalence is not adopted.
 No new scientific execution, B allocation, main bank or completed TOE.
 Report: reports/physical_bridge_2026_09_05/PUNCTURED_TORUS_GEOMETRY_2026_09_14.md.
+
+
+## 2026-09-15 — R30: resolved fermion domain, core partners and a corrected C3 control
+
+The declared quadratic extension of R29 now has an explicit compact
+absolute domain, deformed scalar Robin condition and whole-form core
+transmission. Bounded Witten conjugacy and actual Fox attachment give
+the ordinary finite-width cohomology, zero at both nontrivial true
+source-C3 characters. R19's conditional singular three/zero result
+is retained on its own domain, not transplanted or retracted.
+Under explicit uniform logarithmic-well hypotheses the shrinking cores
+give at least three light Dirac pairs, not proven heavy mirrors; the
+actual global Poisson estimate and complete cusp limit remain open.
+Constant unbroken D5 currents do not vanish merely with localization.
+
+The first design/test mislabeled an order-three holonomy sample as
+source-C3 fixed. The passing generic-character assertions did not check
+that claim. A separately sealed control rebuilds the actual word action,
+rejects the original sample and exhausts the true fixed torus; both
+nontrivial points have P=-2 and the same zero resolved kernel. Original
+science and runs are frozen. Scientific seal ff6515f0, pre-execution
+ledger correction 91eeff8c and control seal 6e05a009 were pushed before
+their respective first scientific executions.
+
+Original native 18/18 checks, 30 new tests and 110 focused tests pass.
+The corrected control has 5/5 checks; its three tests and combined
+33-test follow-up pass. Broad: 458 pass/16 fail/8 error, exactly R29's
+24 failed/error IDs. All first captures and the failed pre-execution
+metadata check remain. No new B, main bank, independent proof acceptance,
+full-suite green, global chirality no-go or complete physical TOE.
+Next prove the global well estimates, then the complete source/end
+limit and its actual low-energy spectrum, currents and quantum completion.
+Report: reports/physical_bridge_2026_09_05/RESOLVED_FERMION.md.

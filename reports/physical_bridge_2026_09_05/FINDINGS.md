@@ -1,5 +1,19 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
+**Latest local result, R30 (September 15): [fermions through resolved cores](RESOLVED_FERMION.md).**
+The declared quadratic extension of R29 has an explicit absolute compact
+domain and full core transmission. Its finite-width kernel is ordinary
+twisted cohomology: zero for the true nontrivial source-C3 characters.
+The earlier singular three/zero result remains on its different domain.
+Strong shrinking wells imply light left/right pairs under stated uniform
+bounds; those bounds are not yet proved for the actual global Poisson
+solution. No complete cusp limit, interacting mirror removal or full
+quantum completion is claimed. An original C3 sample-label error is
+preserved and corrected by a separately sealed action-derived control.
+New tests: 30 passed; corrected combined run: 33 passed; focused: 110.
+Broad: 458 pass/16 fail/8 error, exactly R29's failed/error IDs.
+The common-model source/end completion remains open; no full TOE or main bank.
+
 **Geometry/source review, September 14:**
 [Minsky, the fibre cover and the physical boundary problem](PUNCTURED_TORUS_GEOMETRY_2026_09_14.md).
 All 68 Minsky pages, all 32 Thurston pages and the complete 1977 Jorgensen
@@ -16,7 +30,7 @@ The geometric positive is retained from the primary source; the later
 two-generator/two-record identification is not adopted. This is a
 literature/reception checkpoint, not a new spectrum or R30 execution.
 
-**Latest local result, R29: [a coupled finite-width source and its gauge limit](DEFECT_GAUGE.md).**
+**Preceding local result, R29: [a coupled finite-width source and its gauge limit](DEFECT_GAUGE.md).**
 Added charge-four fields on contractible tubes dynamically supply the
 source density and admit a zero-residual classical solution on compact
 truncations. Their actual transverse extra-U1 operator has a positive

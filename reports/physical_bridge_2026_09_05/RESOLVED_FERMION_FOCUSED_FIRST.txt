@@ -1,0 +1,9 @@
+........................................................................ [ 65%]
+......................................                                   [100%]
+=============================== warnings summary ===============================
+tests/test_physical_bridge_holonomy_spectrum.py::test_actual_presentation_asphericity_hypotheses_and_power_mutants
+  <python3.12-env>/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+110 passed, 1 warning in 106.47s (0:01:46)

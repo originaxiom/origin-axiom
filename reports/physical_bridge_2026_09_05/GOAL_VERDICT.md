@@ -1,6 +1,20 @@
-# Verdict toward the full physical-theory goal — 2026-09-13, after path-local R29
+# Verdict toward the full physical-theory goal — 2026-09-15, after path-local R30
 
-**Latest local result, R29: [a coupled finite-width source and its gauge limit](DEFECT_GAUGE.md).**
+**Latest local result, R30 (September 15): [fermions through resolved cores](RESOLVED_FERMION.md).**
+The declared quadratic extension of R29 has an explicit absolute compact
+domain and full core transmission. Its finite-width kernel is ordinary
+twisted cohomology: zero for the true nontrivial source-C3 characters.
+The earlier singular three/zero result remains on its different domain.
+Strong shrinking wells imply light left/right pairs under stated uniform
+bounds; those bounds are not yet proved for the actual global Poisson
+solution. No complete cusp limit, interacting mirror removal or full
+quantum completion is claimed. An original C3 sample-label error is
+preserved and corrected by a separately sealed action-derived control.
+New tests: 30 passed; corrected combined run: 33 passed; focused: 110.
+Broad: 458 pass/16 fail/8 error, exactly R29's failed/error IDs.
+The common-model source/end completion remains open; no full TOE or main bank.
+
+**Preceding local result, R29: [a coupled finite-width source and its gauge limit](DEFECT_GAUGE.md).**
 Added charge-four fields on contractible tubes dynamically supply the
 source density and admit a zero-residual classical solution on compact
 truncations. Their actual transverse extra-U1 operator has a positive

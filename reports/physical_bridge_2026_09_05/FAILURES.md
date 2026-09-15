@@ -1,5 +1,41 @@
 # Failures retained, not rewritten as successful runs
 
+## R30: a passing sample did not verify its C3 label (2026-09-15)
+
+The original sample (zeta,1) has order-three holonomy, but is not fixed
+by the source-C3 action. Its original design description and test name
+overstated what their correct generic-character assertions established.
+This was caught by rereading R20 after the first passing runs. The
+original code/tests/design are unchanged. A separate design, producer
+and tests were committed and pushed at 6e05a009 before execution. They
+rebuild the action from actual word maps, reject the original point,
+and exhaust the true fixed torus. Both nontrivial fixed points still
+have zero resolved kernel. See [the result](RESOLVED_FERMION.md) and
+[complete run custody](RESOLVED_FERMION_RUN_RECEIPTS.json).
+
+Original native 18/18 checks and 30 tests pass; focused 110 pass.
+Broad: 458 pass/16 fail/8 error, exactly R29's 24 failed/error IDs.
+The corrected native has 5/5 checks; three new tests and the combined
+33-test follow-up pass. The latter is not a new broad population.
+No original failure, tolerance or scientific assertion was rewritten.
+
+Before scientific execution, the first ad-hoc Ruby checker used an
+unsupported filter_map method. Its captured retry then correctly failed
+because the artifact ledger still held the PRE-append SEAL_LEDGER digest.
+Commit ff6515f0 had already been made, but science had not run or been
+pushed. The new ledger digest was appended in 91eeff8c; the repeated
+check passed (422 artifacts, 94 distinct latest seal paths), and both
+commits were pushed before science. The failed first capture remains.
+The preseal reporting check had 26 passes and four inherited failures;
+none is waived by the science results.
+
+Reporting-only probes also encountered stale/guessed paths, display
+truncation, Ruby string-encoding/slice errors and a JSON conversion
+error on binary-tagged UTF-8 text. Reads were narrowed or explicitly
+decoded; no source artifact or scientific run was changed or restarted.
+The new proof remains an authored argument, not independently reviewed;
+its uniform global well hypothesis is an OPEN duty, not a passed test.
+
 ## R29 first-run success and unchanged prior failures (2026-09-13)
 
 Seal f8bb9fba was pushed before execution. Native 29/29 checks, 24 new

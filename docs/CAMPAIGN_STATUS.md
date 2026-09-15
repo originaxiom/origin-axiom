@@ -1,5 +1,21 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL AUDIT, 2026-09-15 (R30): the resolved fermion/domain test.**
+An added quadratic extension of R29 with positive bulk norm, extending
+flat coefficients and absolute compact data has ordinary twisted
+cohomology at each finite width. The true nontrivial source-C3 points
+have no zero modes; R19's singular three/zero result stays on its own
+domain. Explicit core attachment restores even partners. Under additional
+uniform logarithmic-well bounds at least three light Dirac pairs occur
+for three strong arcs; that bound is not yet instantiated on the actual
+global Poisson solution. The complete cusp limit and physical source/end
+quantum completion remain open, not universally excluded. The initial
+order-three/C3-fixed sample confusion is preserved and corrected by a
+separate exact action control. 33 combined new/control tests and 110
+original focused tests pass; broad 458 pass/16 fail/8 error has exactly
+R29's failed/error IDs. No full green, new B, main bank or completed TOE.
+Report: reports/physical_bridge_2026_09_05/RESOLVED_FERMION.md.
+
 **GEOMETRY/SOURCE REVIEW, 2026-09-14:** Minsky, Thurston and Jorgensen's
 1977 paper have been read completely; the 2003 chapter remains unread.
 The compact orbifold construction keeps the return matrix distinct from
@@ -18,7 +34,7 @@ The geometric positive is retained without declaring an axiom count or
 a physical selection mechanism. The source-resolved fermion/domain task
 continues. Report: reports/physical_bridge_2026_09_05/JORGENSEN_SOURCE_AUDIT_2026_09_13.md.
 
-**LATEST LOCAL AUDIT, 2026-09-13 (R29): a coupled finite-width source and a scoped gauge limit.**
+**PRECEDING LOCAL AUDIT, 2026-09-13 (R29): a coupled finite-width source and a scoped gauge limit.**
 The added charge-four tube fields support a zero-residual stationary
 classical model on compact truncations. The actual transverse extra-U1
 operator has a positive lowest eigenvalue at fixed finite radius, but

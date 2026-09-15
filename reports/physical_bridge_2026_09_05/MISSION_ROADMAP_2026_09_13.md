@@ -1,5 +1,19 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Latest local result, R30 (September 15): [fermions through resolved cores](RESOLVED_FERMION.md).**
+The declared quadratic extension of R29 has an explicit absolute compact
+domain and full core transmission. Its finite-width kernel is ordinary
+twisted cohomology: zero for the true nontrivial source-C3 characters.
+The earlier singular three/zero result remains on its different domain.
+Strong shrinking wells imply light left/right pairs under stated uniform
+bounds; those bounds are not yet proved for the actual global Poisson
+solution. No complete cusp limit, interacting mirror removal or full
+quantum completion is claimed. An original C3 sample-label error is
+preserved and corrected by a separately sealed action-derived control.
+New tests: 30 passed; corrected combined run: 33 passed; focused: 110.
+Broad: 458 pass/16 fail/8 error, exactly R29's failed/error IDs.
+The common-model source/end completion remains open; no full TOE or main bank.
+
 **Geometry/source review, September 14:**
 [Minsky, the fibre cover and the physical boundary problem](PUNCTURED_TORUS_GEOMETRY_2026_09_14.md).
 All 68 Minsky pages, all 32 Thurston pages and the complete 1977 Jorgensen
@@ -53,6 +67,12 @@ result on every branch.
 
 ## 1. Completed assets to retain
 
+- [x] Execute one specified finite-width fermion extension with its compact
+  absolute domain, whole-core transmission, actual Fox attachment and
+  source-C3 control. Its generic finite-width kernel is zero; conditional
+  shrinking-well light partners need a uniform global Poisson estimate.
+  This does not retract the original singular kernel or finish the end
+  theory. [R30](RESOLVED_FERMION.md).
 - [x] Construct an added coupled source on compact truncations and derive
   the full transverse extra-U1 operator. Finite-radius positivity and
   bare shrinking-line gap loss are separate results; the literal positive
@@ -150,6 +170,13 @@ E6/Z3 parent; R21's explicit subgroup map is a narrower, valid tool.
 
 ### B. Derive the source/end sector — ACTIVE, immediate priority
 
+- [x] Derive the domain and finite-width kernel for the DECLARED minimal
+  compact quadratic extension: R30. This is a model test, not physical
+  selection of the outer absolute condition or full source fermions.
+- [ ] Establish R30's uniform global Poisson well bounds on the actual
+  source geometry; then analyze the complete-end limit and interactions.
+  Do not exchange width and cusp limits or infer a heavy mirror from a
+  zero exact finite-width kernel.
 - [x] Verify the prescribed bulk background is stationary: R28.
 - [x] Supply a declared finite-width bosonic source and stationary compact
   construction: R29. The complete end sector and fermionic theory are

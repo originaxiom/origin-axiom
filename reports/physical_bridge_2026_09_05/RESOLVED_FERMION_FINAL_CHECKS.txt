@@ -1,0 +1,105 @@
+R30 resolved-fermion checkpoint: reporting and evidence integrity, 2026-09-15.
+
+Original scientific seal: ff6515f05a9e0e4f0ed5dde0285a426ba441b732.
+Pre-execution ledger metadata correction: 91eeff8c.
+Separate observed-label C3 control seal: 6e05a009057aca7721a97b82ae88936b7a79134d.
+Each scientific seal and its necessary correction was pushed before that
+producer's first execution. The original labeling error is not edited away.
+
+The first staged reporting run ends at exit 1: 26 PASS / 4 FAIL.
+All four failed-detail strings equal the preseal checkpoint byte for byte:
+old attribution, static test-vacuity, literal seal-provenance and
+un-escalated relay debt. The relay is now 24 days old; review is due at
+160 merges. None is waived, moved to a baseline or declared paid here.
+This run preceded the addition of the read-only receipt-check utility
+and this final reporting receipt; follow-on validation is separately recorded.
+
+First integrity run: exit 0. Latest-row artifact manifest: 435 paths;
+95 distinct latest design-seal paths match; all 11 original/control
+scientific and prior paths match their own pre-execution Git blobs.
+Fourteen raw captures match their receipts; all seven public science
+copies match exactly except the declared environment-prefix redactions.
+The broad population is exactly R29's ordered 51 files plus the original
+R30 test file. All 24 failure/error IDs are unchanged. 199 relative
+Markdown links resolve in the staged documents and sealed Markdown inputs.
+This is metadata custody and a fixed-population comparison, not proof
+review, a global PDE solve, full-suite green or independent main banking.
+
+The reusable read-only command is:
+ruby -EUTF-8:UTF-8 reports/physical_bridge_2026_09_05/resolved_fermion_receipt_check.rb <raw-capture-directory>
+
+Authored staged whitespace passes. Five trailing-space lines remain in
+the raw broad output at lines 142, 210, 212, 234 and 236; the raw-only
+whitespace check reports them at exit 2. Those source-output bytes are
+preserved deliberately, not silently formatted into a different run.
+
+First gate capture: oa_r30_reporting_gates_first.log
+Bytes: 1818
+SHA256: 106e0fbb5224d7e1ecd02250c7de8a97973feee39f202712275756a4cc22b08c
+Raw receipt SHA256: 06de3b2e9f564f9067e7bf9202c7ffdf1f4c7ae302fa7f50431e0ead7af8decd
+Elapsed seconds: 14.803675999981351
+Command: env PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 <python3.12-env>/bin/python3.12 scripts/gates/gates.py
+
+First integrity capture: oa_r30_final_integrity_first.log
+Bytes: 318
+SHA256: 119dc7de0f91958c36da04305cdf500af8c992c616b419bfeaee8ddd2ee50398
+Raw receipt SHA256: ab6a8f499944bd4e2487cc4dc5fdc01fe7c859af8bf202af2df5b411744e1962
+Elapsed seconds: 0.7573699998902157
+
+First reporting gate output, unchanged:
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 45 open |   relay-debt: 1 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 24 days (> 21), no ESCALATED marker
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 160 merges since last review (DUE — run the decadal review)
+
+
+Follow-on validation after adding the receipt utility, report pointers and
+this receipt: gates again exit 1, 26 PASS / 4 FAIL. The ENTIRE output is
+byte-identical to the first reporting run. No new failed gate is hidden.
+Raw gate capture: oa_r30_reporting_gates_followup.log
+Bytes: 1818
+SHA256: 106e0fbb5224d7e1ecd02250c7de8a97973feee39f202712275756a4cc22b08c
+Raw receipt SHA256: 669419c6baf8fd73f4aa5f5d206182b5851f1aff8385132299c006257899da89
+Elapsed seconds: 14.54908400005661
+
+Follow-on integrity: exit 0, 436 artifact paths, 95 latest distinct
+seals, 11 unchanged science/prior paths, 14 raw captures, seven public
+outputs, the same 52-file population and 24 failed/error IDs; 201 relative
+Markdown links resolve. Authored staged whitespace again passes.
+Raw integrity capture: oa_r30_final_integrity_followup.log
+Bytes: 318
+SHA256: c12c0611c748f654b2e4dab1a3b933aaa4e8dc35a10f38d290b32ed13ac096db
+Raw receipt SHA256: 82c59455573ea441affddcb079ceb1f084ad1e07972886940ac0f1aed09d2ff6
+Elapsed seconds: 0.7646850000601262
+
+These follow-on receipt lines are appended after those runs and their
+updated artifact hash is checked before commit. They are not represented
+as inputs to the runs they describe. Commit/push synchronization is checked
+at handoff. The broader physical mission remains open.

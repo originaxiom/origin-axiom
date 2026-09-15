@@ -2927,3 +2927,36 @@ and geometry together, not transferring a fermion index from traces.
 These geometric leads are retained, not substituted for PB-BOUNDARY.
 No new spectrum execution is claimed.
 Report: reports/physical_bridge_2026_09_05/PUNCTURED_TORUS_GEOMETRY_2026_09_14.md.
+
+**R30 movement, same PB-BOUNDARY lead (2026-09-15):** the declared
+finite-width quadratic fermion model has an explicit compact absolute
+domain, full transmission and ordinary twisted cohomology. The true
+source-C3 nontrivial points have zero finite-width kernel. R19's
+singular three/zero positive remains; this is not its fixed domain.
+Under the explicit strong uniform log-well hypotheses, at least k
+light left/right pairs occur for k proper arcs. The actual global
+Poisson well estimate has NOT been proved by the local radial control.
+Report: reports/physical_bridge_2026_09_05/RESOLVED_FERMION.md.
+
+The initial order-three/C3-fixed sample confusion is retained in the
+sealed files and corrected by a separate actual-word-action control.
+Original 30 tests, focused 110 and corrected combined 33 pass; broad
+458 pass/16 fail/8 error has exactly R29's failed/error IDs. No B
+allocation, full green, independent bank or complete TOE is claimed.
+
+NEXT, in the same model:
+1. Establish uniform local Green-kernel/Poisson remainder bounds for
+   the actual fixed compact R29 source, including off-source and endpoint
+   control. The norm lower bound needs an interior subsegment, but the
+   cutoff derivative must avoid the WHOLE proper arc. If the estimate
+   fails, retain the reason rather than applying the conditional theorem.
+2. Analyze the actual complete cusp/end domain and ordered limiting
+   procedure; compute the light-sector normalized currents without
+   replacing R29's nonconstant extra-U1 mode by a constant profile.
+3. Derive and test a source/end completion with its allowed fermion
+   interactions, global gauge data and full anomaly. Removing core
+   states changes the Hilbert space and requires a physical mechanism.
+   Arbitrary extra terms are not a selected completion.
+4. Retain the common-model input budget, source/orbit selection and
+   same-theory gravity/empirical duties. The scoped smooth-core result
+   does not close all defect, topological or interacting hatches.

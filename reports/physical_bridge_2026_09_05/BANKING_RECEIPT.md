@@ -1,13 +1,34 @@
 # CC's banking relay read before the next local checkpoint
 
-Latest intake: the owner-requested punctured-torus literature assessment
+Latest local science, September 15: [R30](RESOLVED_FERMION.md) executes
+the declared resolved-core fermion extension. Its seal ff6515f0 and
+metadata correction 91eeff8c were pushed before first execution; the
+separate observed-label C3 control was sealed and pushed at 6e05a009.
+Original tests/source and first captures stay frozen. 30 new tests,
+110 focused tests and the corrected 33-test combined run pass. The
+52-file broad run has 458 pass/16 fail/8 error, exactly R29's failed/error
+IDs. The [receipt](RESOLVED_FERMION_RUN_RECEIPTS.json) preserves the
+pre-execution ledger-digest mismatch, its correction and the inherited
+reporting debts. No B allocation, other-branch write, main bank or
+independent proof acceptance is claimed. Final reporting gates are
+recorded separately; complete physics and full-suite green remain open.
+
+R30 [reporting checks](RESOLVED_FERMION_FINAL_CHECKS.txt): 26 gates pass;
+the same four inherited gates fail, with the same detail strings as the
+preseal run. The initial integrity check verifies 435 artifact paths,
+95 distinct latest seal paths, 11 unchanged science/prior files, 14 raw
+captures and seven public outputs. The failed old tests, labeling error
+and metadata-check correction remain visible. No independent main bank.
+
+Preceding intake: the owner-requested punctured-torus literature assessment
 in [the reading receipt](PUNCTURED_TORUS_READING_2026_09_14.md). No B
 number is used, no main pointer moved, and no new scientific run claimed.
 The supplied 1977 Jorgensen article and Thurston PDF are now completely
 read; the 2003 chapter remains unread. B1404's later report/producer
 have been inspected with explicit reception limits. The Jorgensen
 primary-source audit below is retained as the preceding checkpoint.
-The latest executed science remains R29, committed and pushed as d88d6042;
+At that literature checkpoint the latest executed science was R29,
+committed and pushed as d88d6042;
 its coupled source/gauge result and verification are in [DEFECT_GAUGE.md](DEFECT_GAUGE.md).
 The [literature reporting check](PUNCTURED_TORUS_FINAL_CHECKS_2026_09_14.txt)
 preserves the first path-citation failure and the repaired follow-up:
