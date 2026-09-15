@@ -107,3 +107,68 @@ Exact arithmetic throughout: quaternions as integer 4-tuples in half-units. **No
 - **This is not progress toward chirality.** It sharpens a requirement on an object nobody has built.
 
 **Gate 5 untouched. Nothing promotes to `CLAIMS.md`.**
+
+---
+
+## ADDENDUM 1 (2026-09-15) — **THIS MEMO'S CENTRAL TEST WAS VACUOUS. BENCH ERROR #36.** The conclusion survives, on v2's computation; §1's and §4's claims for v1 do not.
+
+**Nothing above is struck.** The owner asked whether this was done well. It was not.
+
+### The defect
+
+In `certificates/the_two_threes.py`:
+
+```
+side A:   img          = qmul(qmul(W, base), qinv(W))        # conjugation by w on {i,j,k}
+side B:   conj_v(W, n) = modpm(qmul(qmul(W, n), qinv(W)))    # THE SAME conjugation, mod ±1
+```
+
+**Side B was side A relabelled through V₄ = Q₈/{±1}.** `sideB[x] == sideA[x]` by construction, so
+§1's headline — *"the natural map is ℤ/3-EQUIVARIANT"* — **compared an object with itself and
+carried no information.** Y₃ entered the certificate **only** in Z4, which never touches the deck
+action. **So v1 restated B1273; it did not test it**, and §0's *"re-derives it exactly rather than
+citing it"* was **false for the half that mattered.**
+
+**Z3 could not have caught it.** Z3 perturbs the **comparator** (transposing i↔j); the defect is in
+the **derivation of the two inputs**. Filed as **BENCH ERROR #36: a control on the comparison does
+not establish independence of the things compared.** Same class as this bench's earlier V5 error.
+
+**Two lesser faults.** (i) Even with an independent side B, an equivariant bijection **exists
+automatically** once both actions are 3-cycles — both triples are then the regular ℤ/3-set — so the
+"equivariance" framing was the wrong question throughout. (ii) Z1's output lived in `/tmp`, cited as
+a control with no committed artifact (R91).
+
+### v2 — side B from knot theory only (`certificates/the_two_threes_v2.py`, exit 0, seven controls PASS)
+
+| step | result |
+|---|---|
+| **Δ(t) DERIVED, not cited** — SnapPy's `alexander_polynomial()` needs Sage, absent here, so Fox calculus on SnapPy's own `⟨a, b ∣ aaabABBAb⟩` | `dr/da = [1, −3, 1]`, `dr/db = 0` |
+| the abelianisation, fixed by the relator's exponent sums `{a: 1, b: 0}` | weights **a ↦ t⁰, b ↦ t¹** |
+| **self-validation** (not my recollection of which Fox formula applies) | `\|Δ(1)\| = 1` ✓ and **Δ reciprocal** ✓ |
+| `H₁(Y₃) = ℤ[t]/(t³−1, Δ)`, basis (1, t, t²) | matrix `[[1,−3,1],[1,1,−3],[−3,1,1]]`, **Smith [1, 4, 4] ⟹ ℤ/4 ⊕ ℤ/4** |
+| the deck **t = cyclic shift**; mod 2 the relations collapse to (1,1,1) so `H₁/2H₁ = (ℤ/2)²` | `(0,0,1) → (0,1,1) → (0,1,0) → (0,0,1)` |
+| **THE QUESTION** | **the deck action is a 3-CYCLE → OUTCOME A′** |
+
+**A first bug in v2 itself was caught by these checks**, and is recorded rather than hidden: sending
+*both* generators to `t` gave Δ = t²−1 and an H₁ of rank 1 instead of B1273's (ℤ/4)². The exponent
+sums forced the fix.
+
+**Controls:** **V-INDEP** — side-B *code* scanned with docstrings, string literals and comments
+stripped (the prose must name the quaternion side; the code may not): `qmul`, `qinv`, `qconj`,
+`quaternion`, `modpm`, `sideA` → **NONE**, over 3878 chars. **V-FIRE** — the routine returns the
+other answer: deck = I ⟹ TRIVIAL; the unknot (Δ = 1) ⟹ 0 classes, not a 3-cycle. **V-CROSS** —
+SnapPy's 3-fold cyclic cover, filled (1,0), independently gives `H₁ = ℤ/4 + ℤ/4` and **volume
+2.929e-12**, flat, corroborating B1273's Hantzsche–Wendt identification by a second route.
+**V-Z1** — Z1 re-run into `outputs/the_two_threes_z1_out.txt`.
+
+### What now stands, and what does not
+
+- **STANDS:** the ℤ/3 of B1355's sum rule is the object's own, and §3's consequence — the escape
+  clause is forced, not chosen. It now rests on a computation.
+- **WITHDRAWN:** §1's "ℤ/3-equivariant" as a *result*, and §0's "re-derives it exactly". The right
+  statement is that **both triples are free transitive ℤ/3-sets**, hence isomorphic as ℤ/3-sets.
+- **NOT CLAIMED:** a *canonical* identification. The regular ℤ/3-set admits three isomorphisms.
+  §3's consequence needs only that the ℤ/3 is the object's own and acts freely — which is shown.
+
+Fences unchanged: **X is not constructed**; no b₂ of any 7-manifold computed or inferred; **I-26
+UNEARNED**; **not progress toward chirality**. Gate 5 untouched.
