@@ -1,0 +1,12 @@
+{
+ "id": "B1358",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1355", "B1356", "B1357"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE E6 APEX FAMILY: the twistor cones of S^4/(2T x Gamma_R), Gamma_R in {1, Z2, Z3, Z4, Z6, Q8, 2T}, are G2 cones whose first pole carries E6 and whose second pole carries the companion {+-1}.Gamma_R (A1, A1, A5, A3, A5, D4, E6 -- always of even order, never A2), with mixed A-loci over the cone circles of S^4/Gamma whenever Gamma_R shares an eigenvalue with 2T (none, none, 4 A2 orbits, 2 A1, 4 A2, 3 A1, 1 A1 + 4 A2) and no fixed point off the loci. Read against the object's own background (B1357: E6, SO(8), SU(2) on Y3, SU(3) on T3), only Gamma_R = 1 -- B1355's cone -- has a companion the background supplies with nothing else through the apex: the SU(2) copy of Y3; the apex on the knot (Gamma_R = Z3, forced by B1356's lift) has an A5 companion and four A2 branches the background lacks (L213 (ii) negative in the twistor family). At B1355's apex the E6 line maps to its link with degree 1 and the A1 line with degree 12, so Witten's inflow coefficients satisfy A(U(1).E6^2) : A(U(1).SU(2)^2) = 12 : 1 exactly; the doublet count per apex (odd or even, Witten's SU(2) anomaly with three apexes) is the registered consistency condition. 0 of 19."
+}

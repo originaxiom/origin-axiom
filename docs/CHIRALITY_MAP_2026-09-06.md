@@ -237,6 +237,22 @@ resolution — the U(1)² that distinguishes B1356's three generations is not av
 the apexes. Vector-like throughout (B1351). The touching design — the SU(2)-copy of Y₃ brought to the E₆-copy at three deck-related
 points with B1355's cone as the local model — is registered, not constructed (L213 (iv)).
 
+## 6j. The E₆ apex family (B1358, 2026-09-15)
+
+O4's local models, as a family: the twistor cones of S⁴/(2T × Γ_R), Γ_R a finite subgroup of the second Sp(1). Computed for Γ_R ∈ {1,
+Z₂, Z₃, Z₄, Z₆, Q₈, 2T}: the E₆ locus at the first pole always; the companion at the second pole {±1}·Γ_R — of even order because the
+−1 of 2T is there whatever Γ_R is: A₁, A₃, A₅, D₄, E₆, never A₂ (the SU(3) locus of the object's background can never be the companion);
+mixed A-loci over the cone circles of S⁴/Γ whenever Γ_R shares an eigenvalue with 2T (they are ADE by the G₂ argument: the cone over a
+fixed line is an associative 3-plane whose pointwise stabiliser lies in an SU(2)); no fixed point off the loci. Against B1357's
+background only Γ_R = 1 — B1355's cone — fits with nothing else through the apex, and its companion is the SU(2) copy of Y₃ at fibre
+distance ½; the apex on the knot (Γ_R = Z₃, forced by the deck's lift) has an A₅ companion and four A₂ branches the background does not
+have. At B1355's apex the E₆ line maps to its link with degree 1 and the A₁ line with degree 12, so Witten's mixed-anomaly
+coefficients are in the exact ratio E₆ : SU(2) = 12 : 1 — the SU(2) copy receives chiral doublets with charge-weighted count a
+twelfth of the E₆'s. The one consistency condition geometry does not settle: the doublet count per apex, since three apexes with an odd
+count each would give SU(2) Witten's global anomaly. The destination's item 1 is one picture now: the object's own Joyce orbifold with
+its SU(2) copy of Y₃ brought to touch its E₆ copy at three deck-related points (L213 (iv)), each B1355's cone, the 27s told apart by
+the apexes' own U(1)s (B1356).
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

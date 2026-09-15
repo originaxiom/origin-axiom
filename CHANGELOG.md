@@ -1,5 +1,11 @@
 # Changelog
 
+## B1358 — the E₆ apex family: companions of even order only (never A₂), B1355's cone the one that fits the object's own background (SU(2) copy of Y₃), the apex on the knot excluded (A₅), inflow ratio E₆ : SU(2) = 12 : 1
+
+The twistor cones of S⁴/(2T × Γ_R) for Γ_R ∈ {1, Z₂, Z₃, Z₄, Z₆, Q₈, 2T}: E₆ at the first pole, {±1}·Γ_R at the second, mixed A-loci over
+the cone circles whenever Γ_R shares an eigenvalue with 2T, no fixed point off the loci. Against B1357's background only Γ_R = 1 fits with
+nothing else through the apex; L213 (ii) negative in the family; L213 (iv) pinned; the doublet parity registered. Main's B1412 rowed.
+
 ## B1357 — the object's own Joyce orbifold: E₆, SO(8), SU(2) rigid on three copies of Y₃, SU(3) on T³, N = 1, b₂ = 0; the descent folds SO(8) to G₂ and carries two compact A₂ loci through every cone circle; no 2-form carries the deck's irreducible
 
 The E₆ fibre closed by the Hurwitz torus (the unique 2T-invariant lattice up to scale) under the Hantzsche–Wendt group acting as the

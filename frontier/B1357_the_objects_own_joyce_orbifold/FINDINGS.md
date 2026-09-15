@@ -158,3 +158,8 @@ classes and ages (the octonionic complex structure of B1356), the incidence of �
 *M theory, Joyce orbifolds and super Yang–Mills*, hep-th/9812205 (SYM on the loci of Joyce orbifolds). Ito–Reid (ages). Taormina–
 Wendland, JHEP 08 (2013) 125 (the tetrahedral Kummer surface); Fujiki, Publ. RIMS 24 (1988) (finite automorphism groups of
 2-dimensional complex tori). B1273, B1355, B1356 (this branch); B1084 (the linear model).
+
+*(Currency 2026-09-15, B1358: the companion of §5.4 is pinned. Of the twistor cones of S⁴/(2T × Γ_R), only Γ_R = 1 (B1355's cone) has a
+companion this background supplies with nothing else through the apex — the SU(2) copy of Y₃; the SO(8) copy would need three further A₁
+branches at each apex, the self-touching five branches, and the SU(3) locus can never be a companion (the companion's order is even).
+The inflow coefficients at such an apex are E₆ : SU(2) = 12 : 1. `frontier/B1358_the_e6_apex_family`.)*

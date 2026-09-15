@@ -2601,3 +2601,12 @@ the flat background or its resolution distinguishes the generations — the U(1)
 local model); (v) the five-dimensional theories along the four cone circles and the 4d matter they leave; (vi) the K3 alternative
 (T³ × K3)/Γ with Mukai's symplectic 2T. `frontier/B1357_the_objects_own_joyce_orbifold`.
 
+**L213 status 2026-09-15 (B1358): (ii) negative in the twistor family; (iv) pinned.** The twistor cones of S⁴/(2T × Γ_R) for
+Γ_R ∈ {1, Z₂, Z₃, Z₄, Z₆, Q₈, 2T} are computed: the second pole's companion is {±1}·Γ_R — always of even order (A₁, A₃, A₅, D₄, E₆),
+never A₂ — and mixed A-loci run through the apex over the cone circles whenever Γ_R shares an eigenvalue with 2T. Against B1357's
+background only Γ_R = 1 (B1355's cone) fits with nothing else through the apex, its companion the SU(2) copy of Y₃; the apex on the
+knot (Γ_R = Z₃, forced by B1356's lift) has an A₅ companion and four A₂ branches the background lacks; the SO(8) touching needs three
+extra A₁ branches, the self-touching one A₁ and four A₂. At B1355's apex the inflow coefficients are A(U(1)·E₆²) : A(U(1)·SU(2)²) =
+12 : 1 exactly (degrees of the pole lines onto their links). Open: the doublet count per apex (Witten's SU(2) anomaly with three
+apexes), (v); cones outside the product family. `frontier/B1358_the_e6_apex_family`.
+

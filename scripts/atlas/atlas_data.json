@@ -7269,6 +7269,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1358": {
+   "slug": "the e6 apex family",
+   "motifs": [
+    "monoid",
+    "coupling",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L212",
+    "L213"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B135": {
    "slug": "lee yang m specific",
    "motifs": [

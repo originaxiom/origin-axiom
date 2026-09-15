@@ -424,3 +424,11 @@ left it.
 > background or its resolution carries the deck's irreducible: the U(1)² that tells the three generations apart (B1356) must be born
 > with the curved apexes. Vector-like throughout, as B1351 says every closing of the tower is. 0 of 19; price unchanged
 > (`frontier/B1357_the_objects_own_joyce_orbifold`).
+
+> **Currency note (2026-09-15, B1358):** the E₆ apex family. The twistor cones of S⁴/(2T × Γ_R) have an E₆ locus at one pole and a
+> companion {±1}·Γ_R at the other — always of even order, never A₂ — plus mixed A-loci whenever Γ_R shares an eigenvalue with 2T.
+> Only B1355's cone (Γ_R = 1) fits the object's own background with nothing else through the apex, its companion the SU(2) copy of
+> Y₃; the apex on the knot has an A₅ companion the background lacks (L213 (ii) negative in the family). The inflow coefficients at
+> B1355's apex are in the exact ratio E₆ : SU(2) = 12 : 1. The touching design is now one picture: the SU(2) copy of Y₃ meeting the
+> E₆ copy at a deck orbit of three apexes; its one open consistency condition is the doublet parity (Witten's SU(2) anomaly with three
+> apexes). 0 of 19; price unchanged (`frontier/B1358_the_e6_apex_family`).

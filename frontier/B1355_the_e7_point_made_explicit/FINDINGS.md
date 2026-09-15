@@ -113,3 +113,8 @@ locus on two copies of Y₃ at fibre distance ½; the E₇ apex — whose E₆ l
 a closing that brings the SU(2)-copy to touch the E₆-copy at three deck-related points (L213 (iv), a design, not a construction).
 That background carries no C-field U(1) with the deck's irreducible, so the apexes' own b₂(link) = 1 classes, in sum-zero
 combination, are the only source of the U(1)² of B1356.)*
+
+*(Currency 2026-09-15, B1358: the family. This cone is Γ_R = 1 in the twistor cones of S⁴/(2T × Γ_R); the 14 "isolated" points of §2 are
+the enhanced points of the A₁ line (the cone points of its link S²/A₄, degree 12 over the line), the E₆ line maps to its link with degree
+1, so the inflow coefficients at the apex are E₆ : SU(2) = 12 : 1 exactly. Among the seven Γ_R computed this is the only model whose
+companion the object's own background supplies with nothing else through the apex. `frontier/B1358_the_e6_apex_family`.)*

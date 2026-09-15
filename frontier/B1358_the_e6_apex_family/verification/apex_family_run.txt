@@ -1,0 +1,95 @@
+====================================================================================================
+Gamma = 2T x 1: order 24, acting on CP^3 = P(C^2 (+) C^2)
+====================================================================================================
+  scalar elements (acting trivially on CP^3): 1; effective group order 24
+  fixed lines: 2 in 2 Gamma-orbits
+    orbit of 1 line(s), L_b = P(0 + C^2) (over the first pole): pointwise stabiliser of effective order 24, normal type 2T (E6); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 1
+    orbit of 1 line(s), L_a = P(C^2 + 0) (over the second pole): pointwise stabiliser of effective order 2, normal type Z2 (A1); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 12
+  enhanced points on the fixed lines (stabiliser jumps): 14 points, (orbit size, effective stabiliser): [((4, 6), 2), ((6, 4), 1)]
+  isolated fixed points off every locus (codimension-6 lines of the cone): 0 points, (orbit size, effective stabiliser): []
+====================================================================================================
+Gamma = 2T x Z2: order 48, acting on CP^3 = P(C^2 (+) C^2)
+====================================================================================================
+  scalar elements (acting trivially on CP^3): 2; effective group order 24
+  fixed lines: 2 in 2 Gamma-orbits
+    orbit of 1 line(s), L_a = P(C^2 + 0) (over the second pole): pointwise stabiliser of effective order 2, normal type Z2 (A1); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 12
+    orbit of 1 line(s), L_b = P(0 + C^2) (over the first pole): pointwise stabiliser of effective order 24, normal type 2T (E6); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 1
+  enhanced points on the fixed lines (stabiliser jumps): 14 points, (orbit size, effective stabiliser): [((4, 6), 2), ((6, 4), 1)]
+  isolated fixed points off every locus (codimension-6 lines of the cone): 0 points, (orbit size, effective stabiliser): []
+====================================================================================================
+Gamma = 2T x Z3: order 72, acting on CP^3 = P(C^2 (+) C^2)
+====================================================================================================
+  scalar elements (acting trivially on CP^3): 1; effective group order 72
+  fixed lines: 18 in 6 Gamma-orbits
+    orbit of 1 line(s), L_a = P(C^2 + 0) (over the second pole): pointwise stabiliser of effective order 6, normal type Z6 (A5); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 12
+    orbit of 1 line(s), L_b = P(0 + C^2) (over the first pole): pointwise stabiliser of effective order 24, normal type 2T (E6); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 3
+    orbit of 4 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+    orbit of 4 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+    orbit of 4 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+    orbit of 4 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+  enhanced points on the fixed lines (stabiliser jumps): 16 points, (orbit size, effective stabiliser): [((1, 72), 2), ((4, 18), 2), ((6, 12), 1)]
+  isolated fixed points off every locus (codimension-6 lines of the cone): 0 points, (orbit size, effective stabiliser): []
+====================================================================================================
+Gamma = 2T x Z4: order 96, acting on CP^3 = P(C^2 (+) C^2)
+====================================================================================================
+  scalar elements (acting trivially on CP^3): 2; effective group order 48
+  fixed lines: 14 in 4 Gamma-orbits
+    orbit of 1 line(s), L_a = P(C^2 + 0) (over the second pole): pointwise stabiliser of effective order 4, normal type Z4 (A3); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 12
+    orbit of 1 line(s), L_b = P(0 + C^2) (over the first pole): pointwise stabiliser of effective order 24, normal type 2T (E6); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 2
+    orbit of 6 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 2, normal type Z2 (A1); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 4
+    orbit of 6 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 2, normal type Z2 (A1); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 4
+  enhanced points on the fixed lines (stabiliser jumps): 16 points, (orbit size, effective stabiliser): [((1, 48), 2), ((4, 12), 2), ((6, 8), 1)]
+  isolated fixed points off every locus (codimension-6 lines of the cone): 0 points, (orbit size, effective stabiliser): []
+====================================================================================================
+Gamma = 2T x Z6: order 144, acting on CP^3 = P(C^2 (+) C^2)
+====================================================================================================
+  scalar elements (acting trivially on CP^3): 2; effective group order 72
+  fixed lines: 18 in 6 Gamma-orbits
+    orbit of 1 line(s), L_a = P(C^2 + 0) (over the second pole): pointwise stabiliser of effective order 6, normal type Z6 (A5); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 12
+    orbit of 1 line(s), L_b = P(0 + C^2) (over the first pole): pointwise stabiliser of effective order 24, normal type 2T (E6); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 3
+    orbit of 4 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+    orbit of 4 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+    orbit of 4 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+    orbit of 4 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+  enhanced points on the fixed lines (stabiliser jumps): 16 points, (orbit size, effective stabiliser): [((1, 72), 2), ((4, 18), 2), ((6, 12), 1)]
+  isolated fixed points off every locus (codimension-6 lines of the cone): 0 points, (orbit size, effective stabiliser): []
+====================================================================================================
+Gamma = 2T x Q8: order 192, acting on CP^3 = P(C^2 (+) C^2)
+====================================================================================================
+  scalar elements (acting trivially on CP^3): 2; effective group order 96
+  fixed lines: 38 in 5 Gamma-orbits
+    orbit of 1 line(s), L_a = P(C^2 + 0) (over the second pole): pointwise stabiliser of effective order 8, normal type Q8 (D4); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 12
+    orbit of 1 line(s), L_b = P(0 + C^2) (over the first pole): pointwise stabiliser of effective order 24, normal type 2T (E6); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 4
+    orbit of 12 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 2, normal type Z2 (A1); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 4
+    orbit of 12 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 2, normal type Z2 (A1); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 4
+    orbit of 12 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 2, normal type Z2 (A1); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 4
+  enhanced points on the fixed lines (stabiliser jumps): 20 points, (orbit size, effective stabiliser): [((2, 48), 3), ((4, 24), 2), ((6, 16), 1)]
+  isolated fixed points off every locus (codimension-6 lines of the cone): 0 points, (orbit size, effective stabiliser): []
+====================================================================================================
+Gamma = 2T x 2T: order 576, acting on CP^3 = P(C^2 (+) C^2)
+====================================================================================================
+  scalar elements (acting trivially on CP^3): 2; effective group order 288
+  fixed lines: 102 in 7 Gamma-orbits
+    orbit of 1 line(s), L_a = P(C^2 + 0) (over the second pole): pointwise stabiliser of effective order 24, normal type 2T (E6); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 12
+    orbit of 1 line(s), L_b = P(0 + C^2) (over the first pole): pointwise stabiliser of effective order 24, normal type 2T (E6); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 12
+    orbit of 36 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 2, normal type Z2 (A1); normal determinants = 1 in the twistor complex structure: True; degree of the line onto its image in CP^3/Gamma: 4
+    orbit of 16 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+    orbit of 16 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+    orbit of 16 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+    orbit of 16 line(s), mixed (over a cone circle of S^4/Gamma): pointwise stabiliser of effective order 3, normal type Z3 (A2); normal determinants = 1 in the twistor complex structure: False; degree of the line onto its image in CP^3/Gamma: 6
+  enhanced points on the fixed lines (stabiliser jumps): 28 points, (orbit size, effective stabiliser): [((4, 72), 4), ((6, 48), 2)]
+  isolated fixed points off every locus (codimension-6 lines of the cone): 0 points, (orbit size, effective stabiliser): []
+
+====================================================================================================
+SUMMARY: the loci through the apex of the cone over CP^3/(2T x Gamma_R)
+====================================================================================================
+  Gamma_R =  1: first pole 2T (E6) (degree 1); second pole Z2 (A1) (degree 12); mixed loci none; inflow ratio A(U(1).E6^2) : A(U(1).companion^2) = 12 : 1; companion in B1357's background: the SU(2) copy of Y_3
+  Gamma_R = Z2: first pole 2T (E6) (degree 1); second pole Z2 (A1) (degree 12); mixed loci none; inflow ratio A(U(1).E6^2) : A(U(1).companion^2) = 12 : 1; companion in B1357's background: the SU(2) copy of Y_3
+  Gamma_R = Z3: first pole 2T (E6) (degree 3); second pole Z6 (A5) (degree 12); mixed loci [(4, 'Z3 (A2)'), (4, 'Z3 (A2)'), (4, 'Z3 (A2)'), (4, 'Z3 (A2)')]; inflow ratio A(U(1).E6^2) : A(U(1).companion^2) = 4 : 1; companion in B1357's background: no locus of the object's own background has this type
+  Gamma_R = Z4: first pole 2T (E6) (degree 2); second pole Z4 (A3) (degree 12); mixed loci [(6, 'Z2 (A1)'), (6, 'Z2 (A1)')]; inflow ratio A(U(1).E6^2) : A(U(1).companion^2) = 6 : 1; companion in B1357's background: no locus of the object's own background has this type
+  Gamma_R = Z6: first pole 2T (E6) (degree 3); second pole Z6 (A5) (degree 12); mixed loci [(4, 'Z3 (A2)'), (4, 'Z3 (A2)'), (4, 'Z3 (A2)'), (4, 'Z3 (A2)')]; inflow ratio A(U(1).E6^2) : A(U(1).companion^2) = 4 : 1; companion in B1357's background: no locus of the object's own background has this type
+  Gamma_R = Q8: first pole 2T (E6) (degree 4); second pole Q8 (D4) (degree 12); mixed loci [(12, 'Z2 (A1)'), (12, 'Z2 (A1)'), (12, 'Z2 (A1)')]; inflow ratio A(U(1).E6^2) : A(U(1).companion^2) = 3 : 1; companion in B1357's background: the SO(8) copy of Y_3
+  Gamma_R = 2T: first pole 2T (E6) (degree 12); second pole 2T (E6) (degree 12); mixed loci [(36, 'Z2 (A1)'), (16, 'Z3 (A2)'), (16, 'Z3 (A2)'), (16, 'Z3 (A2)'), (16, 'Z3 (A2)')]; inflow ratio A(U(1).E6^2) : A(U(1).companion^2) = 1 : 1; companion in B1357's background: the E6 copy of Y_3 (a self-touching)
+
+  (the inflow coefficient of a locus at the apex is the integral of the harmonic form over the locus's link, the image of the line;
+   pulled back to CP^3 both lines have degree 1, so the coefficients are in the ratio of the degrees of the projections.)

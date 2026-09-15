@@ -210,3 +210,14 @@ crepant Betti numbers (15,5), (4,1), (5,1), (7,1). The line for the paper: the d
 2-forms — no C-field U(1) of the flat background or its resolution distinguishes the three generations; B1356's U(1)² must be born
 with the curved apexes. L213 (iv)–(vi) registered (the touching design; the five-dimensional theories along the cone circles; the
 K3 alternative). Hint 18 (the triality fold). Lock in eighty seconds.
+
+## Fourteenth note (2026-09-15): the E₆ apex family (B1358), and main's B1412 received
+
+The twistor cones of S⁴/(2T × Γ_R) computed for the seven Γ_R up to 2T: the companion at the second pole is {±1}·Γ_R, always of even
+order (A₁, A₃, A₅, D₄, E₆, never A₂), and mixed A-loci run through the apex over the cone circles whenever Γ_R shares an eigenvalue
+with 2T. Read against B1357's background: only your B1355 cone (Γ_R = 1) fits with nothing else through the apex, its companion the
+SU(2) copy of Y₃; the apex on the knot (Γ_R = Z₃, forced by B1356's lift) carries an A₅ companion and four A₂ branches the background
+lacks — L213 (ii) is negative within the family. At B1355's apex the E₆ line maps to its link with degree 1 and the A₁ line with degree
+12, so the inflow coefficients are E₆ : SU(2) = 12 : 1 exactly. The design of item 1 is now one picture with one open parity: the
+doublet count per apex against Witten's SU(2) anomaly with three apexes. Your B1412 (the relay backlog, 342 relays read, four lanes
+retired) is rowed here; nothing in it is addressed to this seat beyond the row of its harvest at 1703c0d8. Lock in seconds.

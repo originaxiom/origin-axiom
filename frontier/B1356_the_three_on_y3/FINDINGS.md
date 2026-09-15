@@ -171,3 +171,7 @@ model's statement. In the compact flat closing (the E₆ fibre closed by the Hur
 the order-6 coset elements fix closed 2-tori, so the two A₂ loci along the knot are compact and carry gauge SU(3)s; they also thread the
 cone circles of the SU(2) and SO(8) loci (Σ₁: E₆–SU(2)–SU(3); Σ₂: E₆–SO(8)–SU(3)). And §2's U(1)²: B1357 shows the flat background and
 its resolution carry no 2-form with the deck's irreducible — the U(1)² must be born with the apexes.)*
+
+*(Currency 2026-09-15, B1358: L213 (ii) — the apex on the knot — is negative within the twistor family: its model is forced to the cone
+over CP³/(2T × Z₃) (the deck's lift of §3), whose E₆ locus is ℝ³/Z₃ as required but whose companion at the antipode is A₅ = {±1}·Z₃ and
+which carries four A₂ branches; neither exists in the object's own background (B1357). `frontier/B1358_the_e6_apex_family` §3.)*

@@ -14799,3 +14799,16 @@ Stage 7: resolved cover b₂ = 2 (deck-trivial), b₃ = 10 (irreducible on 4); d
 2-form carries the deck's irreducible in the flat class; the generation U(1)² must come with the apexes. Lock (80 s). Surfaces:
 L213 status, hints 16/17/18, THE_SM_VERDICT, CHIRALITY_MAP §6i, the destination ledger, the view §5h, the letter's thirteenth note,
 currency notes on B1356, B1273, B1084, B1355. 0 of 19; price unchanged.
+
+### B1358 — the E₆ apex family: the twistor cones of S⁴/(2T × Γ_R), the companion's parity, the mixed loci, the background's companion pinned, the inflow ratio 12 : 1 (2026-09-15)
+
+Census (floats, tolerance 1e-7, groups of order ≤ 576, integer counts) over Γ_R ∈ {1, Z₂, Z₃, Z₄, Z₆, Q₈, 2T}: fixed lines in Γ-orbits
+with effective pointwise stabilisers (first pole E₆ always; second pole {±1}·Γ_R = A₁, A₁, A₅, A₃, A₅, D₄, E₆), mixed loci (none, none,
+4×4 A₂, 2×6 A₁, 4×4 A₂, 3×12 A₁, 1×36 A₁ + 4×16 A₂), enhanced points (14 = B1355's for Γ_R = 1), no fixed point off the loci, and the
+degrees of the pole lines onto their links (E₆: 1, 1, 3, 2, 3, 4, 12; companion: 12 throughout) giving the inflow ratios 12:1, 12:1,
+4:1, 6:1, 4:1, 3:1, 1:1. Companion table against B1357: only Γ_R = 1 fits with nothing extra (the SU(2) copy of Y₃); the apex on the
+knot (Z₃) has an A₅ companion → L213 (ii) negative in the family; SO(8) touching needs three A₁ branches, the self-touching five
+branches. The mixed loci typed ADE by the G₂ argument (associative fixed planes, stabiliser in SU(2)). Registered: the doublet parity
+per apex (Witten's SU(2) anomaly with three apexes). Main's B1412 (6684db67) rowed. Lock (seconds). Surfaces: L213 status,
+THE_SM_VERDICT, CHIRALITY_MAP §6j, the destination ledger, the letter's fourteenth note, relay row, alias table, currency notes on
+B1355, B1356, B1357. 0 of 19; price unchanged.
