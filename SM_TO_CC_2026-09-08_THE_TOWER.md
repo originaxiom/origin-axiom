@@ -273,3 +273,12 @@ a degenerate pair — so the deck must be broken by the vevs or the spurions. An
 exactly) gives m₃ − m₂ − m₁ ≤ 3‖E‖ for the apex-U(1)-violating part E of each mass matrix: at least 0.332 m_t, 0.327 m_b, 0.313 m_τ,
 and the minimum over Takagi frames attains the bound to four digits. So a small-parameter Froggatt–Nielsen structure with the deck's
 charges cannot lift the hollow texture; the breaking sector supplies at least a third of the third generation. Lock in a minute.
+
+## Twentieth note (2026-09-15): the level mismatch, named (L214)
+
+A synthesis observation, not an arc. The deck orbits of the tower have the deck's order, so a triple of apexes exists only on Y₃; but
+Y₃ carries no Standard-Model Wilson line (your B1277 and B1300: the E₈ theory on Y₃ never reaches the Standard Model, with or without
+lines; the alphabet is (ℤ/4)²), while the record's SM lines and one-triplet vacua are Y₉'s and Y₁₂'s (B1283, B1302) — hyperbolic
+levels with no flat background and deck orbits of nine and twelve. So the design's E₆ locus and the SM closings are different levels
+of one tower, and no closing in the record carries both the three chiral 27s and the breaking. L214 registers the three ways out
+(the descent's order-3 characters; a non-Wilson-line breaking on Y₃; a non-deck triple on Y₉). THE_CLOSING §6.7 and the view carry it.

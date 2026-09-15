@@ -2644,3 +2644,15 @@ tree level gives m₃ − m₂ − m₁ ≤ 3‖E‖ for the U(1)²-violating pa
 by the minimum over Takagi frames. A small-parameter Froggatt–Nielsen structure cannot lift the hollow texture; the sector that breaks
 the apex U(1)s must supply at least a third of the third-generation Yukawas. `frontier/B1362_the_hierarchy_is_u1_breaking`.
 
+## L214 — THE LEVEL MISMATCH: THE THREE ON Y₃, THE STANDARD-MODEL LINES ON Y₉ AND Y₁₂ (registered 2026-09-15; the closing's synthesis)
+
+A deck orbit of apexes has the deck's order, so a triple exists only on Y₃ (B1356), the flat level whose Hurwitz-torus Joyce orbifold
+is the design's background (B1357). Y₃'s alphabet is (ℤ/4)² and carries no Standard-Model Wilson line: B1277 proved the E₈ theory on
+Y₃ never reaches the Standard Model with or without Wilson lines, and B1300 states it for Y₃ and Y₆; the record's SM lines and
+one-triplet vacua are Y₉'s and Y₁₂'s (B1283, B1302), hyperbolic levels with no flat background and deck orbits of nine and twelve.
+So no closing in the record carries both the three chiral 27s and the E₆ → SM breaking. **Computation:** (i) the descent's Wilson lines —
+the orbifold group P2₁3 has order-3 characters HW lacks; whether an SM line exists on the object's own closing (one apex, one neutral
+27, B1356); (ii) a breaking of E₆ on Y₃ by something other than a flat connection (the apex U(1)s are C-field U(1)s outside E₆; the
+collision loci carry SU(3)s outside E₆); (iii) whether three apexes on Y₉ or Y₁₂ can be placed as a non-deck-orbit consistent with
+the sum rule and Witten's inflow. `docs/THE_CLOSING_2026-09-15.md` §6.7.
+

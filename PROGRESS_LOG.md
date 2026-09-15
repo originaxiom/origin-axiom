@@ -14861,3 +14861,9 @@ Symbolic: circ(x,y,y) has eigenvalues x+2y, x−y, x−y (the deck must be broke
 (m₃−m₂−m₁)/3 = 57.3 GeV (0.332 m_t), 0.934 GeV (0.327 m_b), 0.557 GeV (0.313 m_τ). Numerical minimisation of max|(UΣUᵀ)_ii| over
 unitaries: 0.3321, 0.3272, 0.3135 m₃ — the bound attained. Lock (a minute). Surfaces: L213 (vii) status, THE_SM_VERDICT, CHIRALITY_MAP
 §6m, THE_CLOSING §6.6, the letter's nineteenth note, alias table, a currency note on B1361. 0 of 19; price unchanged.
+
+### The level mismatch named — L214 (2026-09-15)
+
+Synthesis: the three (a deck orbit of apexes) exist only on Y₃; Y₃ carries no SM Wilson line (B1277, B1300); the SM lines and
+one-triplet vacua are Y₉'s and Y₁₂'s (B1283, B1302). No closing in the record carries both. THE_CLOSING §0/§6.7, the view §5i, the
+letter's twentieth note, L214 (three computations named). No new claim; 0 of 19.

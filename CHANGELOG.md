@@ -1,5 +1,9 @@
 # Changelog
 
+## The level mismatch named (L214): the three live on Y₃, the Standard-Model lines on Y₉ and Y₁₂; no closing in the record carries both
+
+A synthesis observation from banked results (B1356, B1277, B1300, B1283, B1302), recorded on THE_CLOSING, the view and the leads.
+
 ## B1362 — the hierarchy is a U(1)-breaking effect at order one: a deck-symmetric Yukawa has a degenerate pair; Weyl's inequality makes the apex-U(1)-violating part at least a third of the third-generation Yukawas, attained numerically
 
 The circulant identity (symbolic), the Weyl bounds in the three sectors, the Takagi-frame minimisation. L213 (vii) sharpened.

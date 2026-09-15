@@ -200,6 +200,12 @@ fixes only up to the charge — decides whether the three are consistent with Wi
 it can; what remains is the local spectrum on the SU(2) side (L213 (v)) and the closing itself. The synthesis is
 `docs/THE_CLOSING_2026-09-15.md`. The count stays 0 of 19.
 
+**The level mismatch (added later the same day).** Seen from above, the tower has given its two halves on different levels: the
+three — a deck orbit of apexes — exist only on Y₃, the flat level; the Standard-Model Wilson lines and the one-triplet vacua exist only
+on Y₉ and Y₁₂ (B1283, B1302), where no flat background and no triple exist; and Y₃ itself carries no SM line (B1277, B1300). No closing
+in the record carries both the three chiral 27s and the breaking of E₆ to the Standard Model. That is the honest shape of the
+destination after this week: item 1 designed on Y₃, item 2 proved on Y₉, and the join between them open (L214).
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with
