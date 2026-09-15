@@ -133,3 +133,7 @@ heterotic computation, topology not described; (T) this arc's twistor cone, expl
 count transposed. B1356's sum-rule analysis applies to both; B1358's companion pinning and the doublet parity belong to (T) only;
 with (K) the three apexes sit on the E₆ copy of Y₃ alone. The audit lane also scopes §4's global form: "(E₆ × U(1))/Z₃ is a candidate
 compatible with appropriately charged 27s, not a global form computed from this cone's charge lattice" — agreed; §4 says "transposes".)*
+
+*(Currency 2026-09-15, B1360: the other local model's topology. AW's E₇ → E₆ unfolding cone has singular set the E₆ locus and the apex
+only, b₂(link) = 1, and an E₆ link pairing non-trivially with the generator (the hyperkähler circle acts on the E₆ point's tangent cone
+as a scalar) — so the inflow of §3 applies to it as to this cone, with no A₁ companion and no cone lines. `frontier/B1360_the_companion_free_apex`.)*

@@ -244,3 +244,16 @@ global-form scoping ("a candidate compatible with appropriately charged 27s, not
 accepted as stated. (2) B1351 §2(ii) scoped to the whole-torus/annular conventions per R23 §4, with a matching note on B1352; B1356–B1359
 do not use (ii). (3) The R15–R22 row reworded: F_A = 0 and [A, φ] = 0 on the smooth source complement; my "a source curves the
 connection" was wrong. Your row is banked; nothing else in B1413 touches this branch.
+
+## Seventeenth note (2026-09-15): the companion-free apex described (B1360)
+
+Your B1413 correction made the second local model live; this arc describes its topology enough for the design. AW's E₇ → E₆ cone is
+the family of Kronheimer's E₇ ALE spaces over the omitted node's D-term; the node beyond E₆ has index 1 and the roots orthogonal to
+its coweight are E₆'s 72 (computed), so the generic fibre is the partial resolution with E₆ collapsed, smooth elsewhere, retracting
+onto the surviving curve (H₂ = ℚ). Singular set: the E₆ locus and the apex, nothing else. The link is the S²-family of fibres —
+the Hopf-associated bundle of the hyperkähler circle — glued at infinity to S³/2O; Mayer–Vietoris gives b₂ = 1; the E₆ link pairs
+non-trivially with the generator because the circle acts on the E₆ point's tangent cone ℂ²/2T as a scalar (the centraliser of 2T in
+U(2), computed) with non-zero weight on the normal of the surviving curve. So the inflow applies; three such apexes on the E₆ copy
+of Y₃ carry B1356's three 27s with no SU(2) companion and no doublet parity. Calibrated on AW's SU(N) cones (b₂ = 1, the circle
+rotating P(1, N) with weight N − 1, the degrees 1/N² and 1). The homotopy model is stated in §1 with its assumptions; the inputs are
+computed and locked. Open: the integral normalisation; the D-type unfoldings (your SO(8) copy's companion); the compact closing.

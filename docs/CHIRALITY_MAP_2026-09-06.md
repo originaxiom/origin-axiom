@@ -266,6 +266,21 @@ once the origin is required. Since the only companion of B1355's apex that fits 
 carries the three-generation design: it lives on the Hurwitz torus. The K3 background itself stays conditional on a K3 with both
 the symplectic 2T and the Hantzsche–Wendt twist.
 
+## 6l. The companion-free apex (B1360, 2026-09-15)
+
+The second local model of O4, AW's E₇ → E₆ Kronheimer unfolding (their §2.3; the correction of record on B1355), described enough
+for the design. The cone is the total space of Kronheimer's E₇ family over the omitted node's D-term: the node beyond E₆ has index 1
+and the roots orthogonal to its coweight are exactly E₆'s 72 (computed), so the generic fibre is the partial resolution with the E₆
+configuration collapsed, smooth elsewhere, retracting onto the one surviving curve (H₂ = ℚ, computed); the singular set of the cone is
+the E₆ locus and the apex — no companion, no cone lines. The link is the S²-family of fibres (the bundle associated to the Hopf
+fibration by the hyperkähler circle) glued at infinity to S³/2O: Mayer–Vietoris gives b₂ = 1, and the E₆ link's pairing with the
+generator is the Euler number of the normal of the surviving curve at the E₆ point twisted by the circle, which acts on the tangent
+cone ℂ²/2T through the centraliser of 2T in U(2) — the scalars (computed) — hence non-zero. Witten's inflow applies verbatim; the
+argument reproduces the known structure of AW's SU(N) cones (b₂ = 1; the circle rotating the core P(1, N) with weight N − 1, trivial
+exactly when there is no locus; the orbifold degrees 1/N², 1). For the design: three such apexes on the E₆ copy of Y₃, as a deck
+orbit, give B1356's three 27s with the sum-zero U(1)² and the charges 3 × (3̄ weights), with no SU(2) copy touched and no doublet
+parity. Open: the integral normalisation of the generator (the charge against the Z₃ global form), the compact closing.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

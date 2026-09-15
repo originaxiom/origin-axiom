@@ -51,3 +51,17 @@ escalation are the proof).
 - **The `tracked-deps` gate** (`scripts/gates/gates.py`, E57) — a tracked test or script may not
   depend on a path that exists on the bench but not in git; the local suite is blind to this class
   by construction, so the gate runs at push.
+- **B1356–B1360 (2026-09-15, the SM seat)** — five exact instruments, each run on this bench the day it is listed and locked:
+  `frontier/B1356_the_three_on_y3/verification/three_on_y3.py` (the flat model of a Bieberbach group from the International Tables
+  over ℚ — torsion census, fixed circles of an extra isometry, axis orbits; the SO(4) ⊂ G₂ action on Im ℍ ⊕ ℍ with the octonionic
+  Cayley–Dickson product, the convention tested as an automorphism, exact Hurwitz-quaternion group generation, strata and McKay ages
+  of a finite subgroup of SU(3) = Stab_{G₂}(e)); `frontier/B1357_the_objects_own_joyce_orbifold/verification/joyce_orbifold.py`
+  (fixed points of the Hurwitz units on the Hurwitz torus in exact lattice coordinates, orbit/stabiliser census, permutation action of
+  right multiplications, invariant forms on Λ²ℝ⁷ and Λ³ℝ⁷ by exact rank, the local groups along cone circles);
+  `frontier/B1358_the_e6_apex_family/verification/apex_family.py` (fixed-line census of a finite subgroup of Sp(1) × Sp(1) on CP³
+  with effective stabilisers, ADE typing, projection degrees); `frontier/B1359_the_k3_alternative/verification/k3_alternative.py`
+  (the Burnside count of orbit types from per-order fixed-point numbers: fixed cosets of 2T/H on the units, exhaustive integer
+  solutions — reproduces Xiao's two T₂₄ configurations from Nikulin's numbers); `frontier/B1360_the_companion_free_apex/verification/companion_free_apex.py`
+  (a root system from its Cartan matrix by simple reflections, sub-root-systems by coefficient conditions, commutants in gl(2, ℂ)).
+  Reusable beyond their arcs: the Cayley–Dickson G₂ action and the Hurwitz-lattice reduction are the bench's first exact G₂/2T
+  machinery; the Burnside count decides orbit types for any finite group acting with isolated fixed points from its per-element counts.

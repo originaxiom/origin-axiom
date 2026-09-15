@@ -446,3 +446,11 @@ left it.
 > the apex has two local models: AW's E₇ unfolding (companion-free) and B1355's twistor cone (explicit, with the A₁ companion).
 > B1356's sum rule applies to both; B1358's companion pinning and the doublet parity concern the twistor model only; with AW's model
 > the three apexes sit on the E₆ copy of Y₃ alone. B1351 §2(ii) is scoped to the whole-torus/annular conventions (R23 §4). 0 of 19.
+
+> **Currency note (2026-09-15, B1360):** the companion-free apex made usable. AW's E₇ → E₆ unfolding cone — the family of
+> Kronheimer's E₇ ALE spaces over the omitted node's D-term, with the E₆ root subsystem as the generic fibre's singularity (computed)
+> — has singular set the E₆ locus and the apex only, b₂(link) = 1 (Mayer–Vietoris on the S²-family glued to S³/2O), and an E₆ link
+> pairing non-trivially with the generator (the hyperkähler circle acts on the E₆ point's tangent cone as a scalar, the centraliser
+> of 2T in U(2) — computed). So Witten's inflow applies to it exactly as to the twistor cone, and three such apexes on the E₆ copy of
+> Y₃ carry B1356's three 27s with no SU(2) companion and no doublet parity. Calibrated on AW's SU(N) cones. The compact closing and
+> the integral normalisation remain open. 0 of 19; price unchanged (`frontier/B1360_the_companion_free_apex`).

@@ -2618,3 +2618,15 @@ E₆ + D₄ + A₁ + 4A₂ once the origin is required. The three-generation des
 K3 with both the symplectic 2T and the Hantzsche–Wendt twist (if type #38, a background with two E₆ copies of Y₃).
 `frontier/B1359_the_k3_alternative`.
 
+**L212/L213 status 2026-09-15 (B1360): the companion-free apex.** After main's B1413 correction (AW's family reaches E₆ through
+their §2.3 Kronheimer unfolding of E₇), the topology AW left undescribed is described enough for the design: the unfolding cone is the
+family of Kronheimer's E₇ ALE spaces over the omitted node's D-term; the node beyond E₆ has index 1 and the roots orthogonal to its
+coweight are exactly E₆'s 72, so the generic fibre is the partial resolution with E₆ collapsed, smooth elsewhere, retracting onto the
+surviving curve (H₂ = ℚ); the singular set of the cone is the E₆ locus and the apex only. The link is the S²-family of fibres (the
+Hopf-associated bundle of the hyperkähler circle) glued at infinity to S³/2O: Mayer–Vietoris gives b₂ = 1, and the E₆ link pairs
+non-trivially with the generator because the circle acts on the tangent cone ℂ²/2T of the E₆ point through the centraliser of 2T in
+U(2) — the scalars — with non-zero weight on the normal of the surviving curve. Witten's inflow applies; no A₁ companion, no cone
+lines, no doublet parity: three such apexes on the E₆ copy of Y₃ are the cleanest form of the design, with B1356's sum rule and
+charges verbatim. Calibrated on AW's SU(N) cones. Open: the integral normalisation of the generator (the 27's charge against the Z₃
+global form); the D-type unfoldings; the compact closing. `frontier/B1360_the_companion_free_apex`.
+

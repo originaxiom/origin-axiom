@@ -7338,6 +7338,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1360": {
+   "slug": "the companion free apex",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "coupling",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L212",
+    "L213"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B136": {
    "slug": "general amphichirality",
    "motifs": [

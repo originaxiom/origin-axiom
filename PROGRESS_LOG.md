@@ -14835,3 +14835,13 @@ B1355's "A-type only" scoped to the explicit substitution (AW §2.3's E₇ Kronh
 model with undescribed topology; §0, §1, §4, the claim line, THE_SM_VERDICT, CHIRALITY_MAP §6g/§6j, the view §5f, THE_CLOSING §0/§1/§3/§6);
 B1351 §2(ii) scoped to the whole-torus/annular conventions (R23 §4), with a note on B1352; the R15–R22 relay row reworded (F_A = 0,
 [A, φ] = 0 on the smooth source complement). Relay row for B1413; alias table (main @ 3857877d). 0 of 19.
+
+### B1360 — the companion-free apex: the topology of Acharya–Witten's E₇ → E₆ unfolding cone, enough for the design (2026-09-15)
+
+Inputs computed (`companion_free_apex.py`, lock in seconds): the E₇ root system from its Cartan matrix (126 roots; the highest root
+(2,2,3,4,3,2,1), n₇ = 1), the 72 roots with zero α₇-coefficient equal to E₆'s root system, ℤ⁷/ℤ⁶ of rank 1 (H₂ of the generic fibre),
+the centraliser of 2T in gl(2,ℂ) = scalars, the SU(N) calibration (the circle rotates P(1,N) with weight N − 1, degrees 1/N², 1). The
+argument (FINDINGS §1–§3): the cone is the family of Kronheimer fibres over the omitted D-term; the link is the Hopf-associated
+S²-family glued at infinity to S³/2O; Mayer–Vietoris gives b₂ = 1; U · P ≠ 0 with P the family of surviving curves, from the circle's
+scalar action on the E₆ tangent cone; the singular set is the E₆ locus and the apex only. Surfaces: L212/L213 status, THE_SM_VERDICT,
+CHIRALITY_MAP §6l, THE_CLOSING §1/§3/§6, the letter's seventeenth note, alias table. 0 of 19; price unchanged.

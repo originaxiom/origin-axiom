@@ -1,0 +1,12 @@
+{
+ "id": "B1360",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1355", "B1356", "B1357", "B1358"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE COMPANION-FREE APEX: Acharya-Witten's E7 -> E6 unfolding cone X = (H^k///K')/U(1)' is the total space of Kronheimer's E7 family over the omitted node's D-term; the node beyond E6 has index 1 and the roots orthogonal to its coweight are exactly E6's 72 (computed), so the generic fibre is the partial resolution with the E6 configuration collapsed, smooth elsewhere, retracting onto the surviving curve (H_2 = Q, computed); the singular set of X is the E6 locus and the apex only. The link is the S^2-family of fibres (the bundle associated to the Hopf fibration by the hyperkaehler circle) glued at infinity to S^3/2O; Mayer-Vietoris gives b_2 = 1, and the E6 link's pairing with the generator is the Euler number of the normal of the surviving curve at the E6 point twisted by the circle, which acts on the tangent cone C^2/2T through the centraliser of 2T in U(2) = the scalars (computed), hence non-zero: Witten's inflow applies, no A1 companion, no cone lines, no doublet parity. Calibrated on AW's SU(N) cones (b_2 = 1, the circle rotating P(1,N) with weight N-1, the orbifold degrees 1/N^2 and 1). Three such apexes on the E6 copy of Y3 are the cleanest form of the closing's design; the integral normalisation and the compact closing remain open. 0 of 19."
+}

@@ -39,7 +39,8 @@ companion-free and parity-free, with a topology they do not describe. It is not 
 | The apex on the knot has an A₅ companion: excluded in the twistor family | PROVED | B1358 §3 |
 | A symplectic 2T on K3 has one of two fixed-point types (Xiao #37, #38), neither with an A₁ orbit: no K3 fibre carries the companion | PROVED (Burnside count) + CITED (Nikulin, Xiao) | B1359 |
 | The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
-| AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1, topology not described | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
+| AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1 | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
+| Its topology: singular set the E₆ locus and the apex only; b₂(link) = 1; the E₆ link pairs non-trivially with the generator (the inflow applies) | PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones) | B1360 |
 
 ## 2. The background (B1357)
 
@@ -55,8 +56,9 @@ coupling — relations among hidden sectors, not Standard-Model numbers.
 
 Two local models. **(K)** Acharya–Witten's E₇ unfolding: the Kronheimer quotient of the E₇ quiver with the U(1) of the node beyond
 E₆ omitted, X = (ℍ^k///K′)/U(1)′; the generic fibre keeps exactly the E₆ root subsystem, so the E₆ locus is the only codimension-four
-locus through the apex; one chiral 27 of U(1) charge 1 by their heterotic computation; the topology of X, hence b₂ of its link, not
-described. **(T)** B1355's twistor cone, explicit. At each (T)-apex: the cone over CP³/2T; the E₆ line (degree 1 onto its link) and the A₁ line (degree 12 onto its link S²/A₄ with 14 cone
+locus through the apex; one chiral 27 of U(1) charge 1 by their heterotic computation; its topology, undescribed by AW, is now enough for the
+design: singular set the E₆ locus and the apex, b₂(link) = 1, ∫_U w ≠ 0 (B1360) — the inflow applies, with no companion and no cone
+lines. **(T)** B1355's twistor cone, explicit. At each (T)-apex: the cone over CP³/2T; the E₆ line (degree 1 onto its link) and the A₁ line (degree 12 onto its link S²/A₄ with 14 cone
 points); one local U(1) (b₂(link) = 1); the inflow coefficients E₆ : SU(2) = 12 : 1; one 27 of E₆ (cited) and SU(2)-charged chiral
 matter with charge-weighted count a twelfth of the E₆'s. The companion is the SU(2) copy of Y₃ of §2 (at fibre distance ½ from the
 E₆ copy in the flat background). Every other companion type in the family brings extra A-branches through the apex or a group the
@@ -85,7 +87,8 @@ those local models on a circle — vector-like.
 2. **The doublet parity (twistor model only).** The SU(2) copy of Y₃ receives chiral doublets at three apexes with charge-weighted
    count fixed by the inflow but number not; an odd number per apex gives SU(2) an odd total and Witten's global anomaly. The local
    spectrum on the SU(2) side (L213 (v)) decides whether three twistor apexes are consistent; the Kronheimer model has no companion
-   and no such condition, but no described topology (its b₂(link), hence the sum rule's input, is not known).
+   and no such condition, and its b₂(link) = 1 with ∫_U w ≠ 0 is now established (B1360), so the sum rule's input is there; what it
+   lacks is the integral normalisation of the generator (the 27's charge against the Z₃ global form).
 3. **The extension of the apex classes** over the closing (the sum rule is necessary; sufficiency needs the closing).
 4. **The E₆ × SU(2) spectrum at the apex** (L212 (ii)) and the 5d theories along the descent's cone circles (L213 (iii), (v)).
 5. **The U(1)² after Witten's axionic mass** (L213 (i)): what discrete flavour remnant acts on the three.
