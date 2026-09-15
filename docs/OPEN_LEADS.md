@@ -2638,3 +2638,9 @@ refuted by 273, 50, 17 (low scale). With a neutral Higgs no tree-level Yukawa su
 cubics. **(vii) registered:** the U(1)²-breaking sector (Witten's axionic mass, the charged M2-instantons) as the diagonal source — a
 Froggatt–Nielsen-like structure with the deck's charges. `frontier/B1361_the_decks_texture`.
 
+**L213 (vii) status 2026-09-15 (B1362): the breaking is order one.** A deck-symmetric complex symmetric Yukawa is the circulant
+circ(x, y, y) with a degenerate pair of masses (symbolic), so the deck must be broken; and Weyl's inequality applied to the hollow
+tree level gives m₃ − m₂ − m₁ ≤ 3‖E‖ for the U(1)²-violating part E — at least 0.332 m_t, 0.327 m_b, 0.313 m_τ, attained numerically
+by the minimum over Takagi frames. A small-parameter Froggatt–Nielsen structure cannot lift the hollow texture; the sector that breaks
+the apex U(1)s must supply at least a third of the third-generation Yukawas. `frontier/B1362_the_hierarchy_is_u1_breaking`.
+

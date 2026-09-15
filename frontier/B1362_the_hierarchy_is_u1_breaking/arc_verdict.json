@@ -1,0 +1,12 @@
+{
+ "id": "B1362",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1361", "B1356", "B1273"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE HIERARCHY IS A U(1)-BREAKING EFFECT AT ORDER ONE: a deck-symmetric complex symmetric Yukawa is the circulant circ(x,y,y) with eigenvalues x+2y, x-y, x-y (symbolic), so the deck must be broken; and since the design's hollow tree-level texture has sigma_1 = sigma_2 + sigma_3 exactly (B1361), Weyl's inequality gives m_3 - m_2 - m_1 <= 3 ||E||_op for the part E of the mass matrix violating the apex U(1)s: ||E|| >= 0.332 m_t, 0.327 m_b, 0.313 m_tau, and the minimum over Takagi frames attains the bound numerically. The sector that breaks the apex U(1)s supplies at least a third of the third-generation Yukawas; a small-parameter Froggatt-Nielsen structure with the deck's charges cannot lift the hollow texture. 0 of 19."
+}

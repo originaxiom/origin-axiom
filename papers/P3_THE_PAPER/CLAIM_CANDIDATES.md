@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1109 settled arcs — 75%** —
+the field is **absent on 828 of 1110 settled arcs — 75%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (121) = 541 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (121) = 542 arcs.**
 The vocabulary criterion adds **43 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -78,7 +78,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1261` | PROVED | S | | THE PRICE, COMPUTED: FIFTEEN UNPRICED INPUTS BOUGHT ZERO OF NINETEEN NUMBERS. JOIN 2's lead closed NEGATIVE first -- n in kappa = 2 + n^2 is NOT object-determined, n = 1.… |
 | `B1358` | PROVED | S | | THE E6 APEX FAMILY: the twistor cones of S^4/(2T x Gamma_R), Gamma_R in {1, Z2, Z3, Z4, Z6, Q8, 2T}, are G2 cones whose first pole carries E6 and whose second pole carrie… |
 
-## §5 withheld — the value wall and the rank wall (120)
+## §5 withheld — the value wall and the rank wall (121)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -202,6 +202,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1260` | PROVED | S | | WHERE NET CHIRALITY CAN LIVE. MAIN_GOAL JOIN 1 question 1. (1) THE CLOSED WALL IS GENERAL: for ANY closed oriented 3-manifold, PD (h^i(V) = h^(3-i)(V*)) plus chi = 0 plus… |
 | `B1282` | PROVED | S | | THE SIBLING'S GERM. On the two-cusped sibling m202 (pi_1 = <a, b / aabbAbAABBaB>, Sym = D_6, commensurable with the object, Q(sqrt-3), 2T) the twelve isometries are found… |
 | `B1360` | PROVED | S | | THE COMPANION-FREE APEX: Acharya-Witten's E7 -> E6 unfolding cone X = (H^k///K')/U(1)' is the total space of Kronheimer's E7 family over the omitted node's D-term; the no… |
+| `B1362` | PROVED | S | | THE HIERARCHY IS A U(1)-BREAKING EFFECT AT ORDER ONE: a deck-symmetric complex symmetric Yukawa is the circulant circ(x,y,y) with eigenvalues x+2y, x-y, x-y (symbolic), s… |
 
 ## §6 the observer — one bit, priced (145)
 

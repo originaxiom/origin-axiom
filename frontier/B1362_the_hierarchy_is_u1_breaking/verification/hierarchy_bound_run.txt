@@ -1,0 +1,23 @@
+================================================================================================
+(1) deck-symmetric Yukawa: symmetric circulant circ(x, y, y)
+================================================================================================
+  eigenvalues of circ(x,y,y): {x + 2*y: 1, x - y: 2}  -> a degenerate pair x - y (multiplicity 2): True
+  hence two of the three masses coincide for any deck-symmetric symmetric texture: the deck must be broken by the vevs or the spurions.
+
+================================================================================================
+(2) Weyl's bound on the U(1)^2-violating part E = M - M_0, M_0 hollow symmetric
+================================================================================================
+  up: ||E||_op >= (m3 - m2 - m1)/3 = 57.29 GeV = 0.332 m_3
+  down: ||E||_op >= (m3 - m2 - m1)/3 = 0.9341 GeV = 0.327 m_3
+  charged leptons: ||E||_op >= (m3 - m2 - m1)/3 = 0.5569 GeV = 0.313 m_3
+
+================================================================================================
+(3) the minimal violation for the data: min over unitaries U of max_i |(U Sigma U^T)_ii|, Sigma = diag(m1, m2, m3)
+================================================================================================
+  up: minimal max|M_ii| = 57.292 GeV = 0.3321 m_3  (Weyl bound 0.3321 m_3; the attained minimum sits at m_3/3 up to the lighter masses)
+  down: minimal max|M_ii| = 0.93577 GeV = 0.3272 m_3  (Weyl bound 0.3266 m_3; the attained minimum sits at m_3/3 up to the lighter masses)
+  charged leptons: minimal max|M_ii| = 0.55707 GeV = 0.3135 m_3  (Weyl bound 0.3134 m_3; the attained minimum sits at m_3/3 up to the lighter masses)
+
+  so at least a third of the third-generation Yukawa must violate the apex U(1)s: the hierarchy is not a small correction to the hollow texture.
+
+DONE

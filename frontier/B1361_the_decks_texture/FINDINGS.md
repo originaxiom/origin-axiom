@@ -74,3 +74,8 @@ Lock: `tests/test_b1361_the_decks_texture.py`.
 
 **Sources.** B1273 §4 (the texture, the Takagi bound, the general remark on distinct characters); B1356 §2 (the charges); B1276
 (the one cubic); Witten, hep-th/0108165 §3 (the anomalous U(1)s and their mass).
+
+*(Currency 2026-09-15, B1362: §3.2's Froggatt–Nielsen hope quantified — a deck-symmetric Yukawa is a symmetric circulant with a
+degenerate pair, and Weyl's inequality on the hollow tree level gives ‖E‖ ≥ (m₃ − m₂ − m₁)/3 for the U(1)²-violating part: a third of
+the third-generation Yukawa, attained numerically. The breaking sector is a leading effect, not a correction.
+`frontier/B1362_the_hierarchy_is_u1_breaking`.)*

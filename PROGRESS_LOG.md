@@ -14854,3 +14854,10 @@ hence e₁² − 4e₂ = 0 and σ₁ = σ₂ + σ₃ exactly (10⁵ random matri
 (low scale; B1273: 136, 43, 17). Verdict NEGATIVE at tree level; L213 (vii) registered (the U(1)²-breaking sector as the diagonal
 source). Lock (seconds). Surfaces: L213 status, THE_SM_VERDICT, CHIRALITY_MAP §6m, THE_CLOSING §1/§6, the destination ledger, the
 letter's eighteenth note, alias table, a currency note on B1273. 0 of 19; price unchanged.
+
+### B1362 — the hierarchy is a U(1)-breaking effect at order one (2026-09-15)
+
+Symbolic: circ(x,y,y) has eigenvalues x+2y, x−y, x−y (the deck must be broken). Weyl's inequality on the hollow tree level: ‖E‖ ≥
+(m₃−m₂−m₁)/3 = 57.3 GeV (0.332 m_t), 0.934 GeV (0.327 m_b), 0.557 GeV (0.313 m_τ). Numerical minimisation of max|(UΣUᵀ)_ii| over
+unitaries: 0.3321, 0.3272, 0.3135 m₃ — the bound attained. Lock (a minute). Surfaces: L213 (vii) status, THE_SM_VERDICT, CHIRALITY_MAP
+§6m, THE_CLOSING §6.6, the letter's nineteenth note, alias table, a currency note on B1361. 0 of 19; price unchanged.

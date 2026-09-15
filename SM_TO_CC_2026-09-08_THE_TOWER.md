@@ -265,3 +265,11 @@ Small and sharp. B1356's apex charges form an equilateral triangle, so the only 
 complex symmetric 3 × 3 matrix the sum of the principal 2 × 2 minors of MM† equals (tr MM†/2)², symbolically, so m₃ = m₂ + m₁
 exactly; refuted 273, 50, 17 at low scale. With a neutral Higgs no tree-level Yukawa at all; the deck alone would allow four cubics.
 The diagonal source B1273 asked for is, in the design, the U(1)²-breaking sector — registered as L213 (vii). Lock in seconds.
+
+## Nineteenth note (2026-09-15): the breaking is order one (B1362)
+
+Two lines of linear algebra on B1361. A deck-symmetric complex symmetric Yukawa is circ(x, y, y) with eigenvalues x + 2y, x − y, x − y —
+a degenerate pair — so the deck must be broken by the vevs or the spurions. And Weyl's inequality on the hollow tree level (σ₁ = σ₂ + σ₃
+exactly) gives m₃ − m₂ − m₁ ≤ 3‖E‖ for the apex-U(1)-violating part E of each mass matrix: at least 0.332 m_t, 0.327 m_b, 0.313 m_τ,
+and the minimum over Takagi frames attains the bound to four digits. So a small-parameter Froggatt–Nielsen structure with the deck's
+charges cannot lift the hollow texture; the breaking sector supplies at least a third of the third generation. Lock in a minute.

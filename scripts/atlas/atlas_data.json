@@ -7374,8 +7374,25 @@
     "L213"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 17,
+   "obstacle_conf": 21,
    "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1362": {
+   "slug": "the hierarchy is u1 breaking",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L213"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 32,
+   "status": "banked",
    "domain": "arithmetic"
   },
   "B136": {

@@ -95,7 +95,9 @@ those local models on a circle — vector-like.
 5. **The U(1)² after Witten's axionic mass** (L213 (i)): what discrete flavour remnant acts on the three.
 6. **Flavour is not tree level (B1361).** The apex U(1)² allows only 27₁27₂27₃; with the Higgs in the apex 27s the mass matrices
    are hollow and σ₁ = σ₂ + σ₃ exactly (B1273's texture and bound, now an identity), refuted in every charged sector; with a
-   neutral Higgs no tree-level Yukawa. The hierarchy must come from the U(1)²-breaking sector (L213 (vii)).
+   neutral Higgs no tree-level Yukawa. The hierarchy must come from the U(1)²-breaking sector (L213 (vii)) — and at order one: the
+   deck must be broken (a deck-symmetric Yukawa has a degenerate pair) and the U(1)²-violating part of each mass matrix is at least
+   (m₃ − m₂ − m₁)/3, a third of the third-generation Yukawa, by Weyl's inequality (B1362).
 
 ## 7. The three faces, once more
 

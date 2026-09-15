@@ -460,3 +460,8 @@ left it.
 > matrix has σ₁ = σ₂ + σ₃ exactly (B1273's bound made an identity) — refuted in every charged sector; with a neutral Higgs there is
 > no tree-level Yukawa. The generations' hierarchy must come from the sector that breaks the apex U(1)s (L213 (vii)). 0 of 19; price
 > unchanged (`frontier/B1361_the_decks_texture`).
+
+> **Currency note (2026-09-15, B1362):** and the breaking is not small. A deck-symmetric Yukawa has a degenerate pair (the circulant
+> identity), and Weyl's inequality on the hollow tree level gives ‖E‖ ≥ (m₃ − m₂ − m₁)/3 for the apex-U(1)-violating part of each mass
+> matrix — a third of the top, bottom and tau Yukawas, the bound attained numerically. The design's flavour is an order-one effect of the
+> sector that breaks the apex U(1)s. 0 of 19; price unchanged (`frontier/B1362_the_hierarchy_is_u1_breaking`).

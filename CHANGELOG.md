@@ -1,5 +1,9 @@
 # Changelog
 
+## B1362 — the hierarchy is a U(1)-breaking effect at order one: a deck-symmetric Yukawa has a degenerate pair; Weyl's inequality makes the apex-U(1)-violating part at least a third of the third-generation Yukawas, attained numerically
+
+The circulant identity (symbolic), the Weyl bounds in the three sectors, the Takagi-frame minimisation. L213 (vii) sharpened.
+
 ## B1361 — the deck's texture is B1273's: the apex U(1)² allows only 27₁27₂27₃, the hollow mass matrices obey σ₁ = σ₂ + σ₃ exactly (an identity), refuted; flavour needs the U(1)²-breaking sector
 
 The selection rule enumerated, the identity e₂(MM†) = (tr MM†/2)² proved symbolically, the data ratios; L213 (vii) registered.

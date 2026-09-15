@@ -290,7 +290,9 @@ and the bound B1273 proved is an identity: e₂(MM†) = (tr MM†/2)² for ever
 σ₁ = σ₂ + σ₃, m₃ = m₂ + m₁, refuted by factors 273, 50, 17 at low scale (136, 43, 17 at B1273's). With a neutral Higgs no tree-level
 Yukawa survives; the deck alone would allow four cubics — it is the U(1) pair that tells the generations apart which forbids the
 diagonal. So the design says of its own flavour: hierarchy is not tree level; it lives in the sector that breaks the apex U(1)s
-(Witten's axionic mass, the charged instantons), a Froggatt–Nielsen-like structure with the deck's charges (L213 (vii)).
+(Witten's axionic mass, the charged instantons), a Froggatt–Nielsen-like structure with the deck's charges (L213 (vii)). **B1362:** and
+not a small one — a deck-symmetric Yukawa is a symmetric circulant with a degenerate pair, and Weyl's inequality on the hollow tree
+level gives ‖E‖ ≥ (m₃ − m₂ − m₁)/3 for the U(1)²-violating part: a third of the top, bottom and tau Yukawas, attained numerically.
 
 ## 7. Consequence for the destination ledger
 
