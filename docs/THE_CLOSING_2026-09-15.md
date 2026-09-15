@@ -16,8 +16,10 @@ neutral. B1357 built the one compact flat background the ingredients determine: 
 Hantzsche–Wendt group, N = 1, with E₆, SO(8), SU(2) rigid on three copies of Y₃ and SU(3) on T³, b₂ = 0 — so the U(1)² must be born
 with the apexes. B1358 computed the family of apexes and found that only B1355's cone fits this background, with the SU(2) copy of
 Y₃ as companion, and that the inflow coefficients there are E₆ : SU(2) = 12 : 1. B1359 showed no K3 fibre could replace the torus.
-The design is one picture: **the SU(2) copy of Y₃ brought to touch the E₆ copy at a deck orbit of three points, each B1355's cone.**
-It is not constructed, and it carries one consistency condition the geometry does not settle (the doublet parity, §6).
+The design is one picture with two local models for its apex: **the E₆ copy of Y₃ carrying a deck orbit of three apexes** — each
+either B1355's twistor cone, in which case the SU(2) copy of Y₃ is brought to touch the E₆ copy there and the doublet parity of §6
+must be met, or Acharya–Witten's §2.3 Kronheimer unfolding of E₇ (correction of record 2026-09-15: their family reaches E₆ too),
+companion-free and parity-free, with a topology they do not describe. It is not constructed.
 
 ## 1. The ledger
 
@@ -36,7 +38,8 @@ It is not constructed, and it carries one consistency condition the geometry doe
 | The apex family: companions {±1}·Γ_R of even order (never A₂); only Γ_R = 1 fits the background; inflow ratio 12 : 1 | PROVED (census, degrees) | B1358 |
 | The apex on the knot has an A₅ companion: excluded in the twistor family | PROVED | B1358 §3 |
 | A symplectic 2T on K3 has one of two fixed-point types (Xiao #37, #38), neither with an A₁ orbit: no K3 fibre carries the companion | PROVED (Burnside count) + CITED (Nikulin, Xiao) | B1359 |
-| The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points) | DESIGNED | B1357 §5.4, B1358 §5 |
+| The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
+| AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1, topology not described | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
 
 ## 2. The background (B1357)
 
@@ -50,7 +53,10 @@ coupling — relations among hidden sectors, not Standard-Model numbers.
 
 ## 3. The apexes (B1355, B1358)
 
-At each apex: the cone over CP³/2T; the E₆ line (degree 1 onto its link) and the A₁ line (degree 12 onto its link S²/A₄ with 14 cone
+Two local models. **(K)** Acharya–Witten's E₇ unfolding: the Kronheimer quotient of the E₇ quiver with the U(1) of the node beyond
+E₆ omitted, X = (ℍ^k///K′)/U(1)′; the generic fibre keeps exactly the E₆ root subsystem, so the E₆ locus is the only codimension-four
+locus through the apex; one chiral 27 of U(1) charge 1 by their heterotic computation; the topology of X, hence b₂ of its link, not
+described. **(T)** B1355's twistor cone, explicit. At each (T)-apex: the cone over CP³/2T; the E₆ line (degree 1 onto its link) and the A₁ line (degree 12 onto its link S²/A₄ with 14 cone
 points); one local U(1) (b₂(link) = 1); the inflow coefficients E₆ : SU(2) = 12 : 1; one 27 of E₆ (cited) and SU(2)-charged chiral
 matter with charge-weighted count a twelfth of the E₆'s. The companion is the SU(2) copy of Y₃ of §2 (at fibre distance ½ from the
 E₆ copy in the flat background). Every other companion type in the family brings extra A-branches through the apex or a group the
@@ -76,9 +82,10 @@ those local models on a circle — vector-like.
 
 1. **Existence.** No compact G₂ manifold realises the touching; the flat background cannot contain the apex (B1259, B1353), so the
    apexes are curved insertions — a transition, not a deformation.
-2. **The doublet parity.** The SU(2) copy of Y₃ receives chiral doublets at three apexes with charge-weighted count fixed by the
-   inflow but number not; an odd number per apex gives SU(2) an odd total and Witten's global anomaly. The local spectrum on the
-   SU(2) side (L213 (v)) decides whether three apexes are consistent.
+2. **The doublet parity (twistor model only).** The SU(2) copy of Y₃ receives chiral doublets at three apexes with charge-weighted
+   count fixed by the inflow but number not; an odd number per apex gives SU(2) an odd total and Witten's global anomaly. The local
+   spectrum on the SU(2) side (L213 (v)) decides whether three twistor apexes are consistent; the Kronheimer model has no companion
+   and no such condition, but no described topology (its b₂(link), hence the sum rule's input, is not known).
 3. **The extension of the apex classes** over the closing (the sum rule is necessary; sufficiency needs the closing).
 4. **The E₆ × SU(2) spectrum at the apex** (L212 (ii)) and the 5d theories along the descent's cone circles (L213 (iii), (v)).
 5. **The U(1)² after Witten's axionic mass** (L213 (i)): what discrete flavour remnant acts on the three.

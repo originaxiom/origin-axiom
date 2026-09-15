@@ -9,8 +9,9 @@ Every chirality computation since B1268 has been local deformation theory at one
 net count. The destination (`docs/THE_DESTINATION_LEDGER_2026-09-06.md`, item 1) needs an E₆ locus with points where the
 singularity enhances and one chiral 27 appears — and the literature's rule (B1353 §3) says such a point is an isolated conical
 singularity that is not an orbifold, with an ADE locus through it that cannot be slipped away. The question this arc asks is not
-"can the object carry it" but "what is the local geometry", and the answer is in Acharya–Witten's two families of cones, once
-one asks which of them reaches E-type.
+"can the object carry it" but "what is the local geometry", and the answer is in Acharya–Witten's two families of cones: both
+reach E-type — their §2.3 Kronheimer unfolding of E₇ (topology not described) and the twistor family (explicit) — and this arc computes
+the explicit one *(the sentence "once one asks which of them reaches E-type" stood here until 2026-09-15; (correction of record 2026-09-15: the audit lane's reading of Acharya–Witten §2.3, relayed by main's B1413))*.
 
 ## 1. Acharya–Witten's two families, and which one reaches E₆
 
@@ -19,8 +20,12 @@ one asks which of them reaches E-type.
 WCP³_{N,N,1,1} with "a family of SU(N) singularities … and an unbroken U(1) carried by the C-field", and "a massless chiral multiplet
 in the fundamental representation of U(N)". The construction needs a U(1) acting triholomorphically on ℍ/Γ. For Γ = 2T the
 centraliser of 2T in Sp(1) is {±1} (`(v)` of the script: the elements i, j, (1+i+j+k)/2 generate, and only ±1 commutes with all
-three; a one-parameter subgroup commuting with i, j, k is trivial), so **no such U(1) exists for E₆ (or for any non-cyclic Γ)**: family
-(A) is A-type only.
+three; a one-parameter subgroup commuting with i, j, k is trivial), so **no such U(1) exists on ℍ/2T: the explicit substitution
+Γ → 2T in (2.4)–(2.7) fails for every non-cyclic Γ.** *This obstructs that restricted substitution, not AW's family as a whole* (correction of record 2026-09-15: the audit lane's reading of Acharya–Witten §2.3, relayed by main's B1413): their §2.3 ("Generalization") builds the cone for any pair G ⊂ Ĝ with ĝ = g ⊕ u(1) ⊕ r ⊕ r̄ as the Kronheimer hyperkähler
+quotient of the Ĝ quiver with one U(1) omitted — X = (ℍ^k///K′)/U(1)′ — and names E₆ ⊂ E₇ for the 27 explicitly, with a single chiral
+multiplet of charge 1 by the heterotic computation and "a useful way to describe the topology of X … not clear". So the E-type point
+exists in family (A) too, with unknown topology and, by the root-system argument, an E₆ locus and nothing else through the apex;
+the twistor cone below is the explicit alternative. The dichotomy of §0 is corrected accordingly.
 
 **(B) The twistor family** (AW §3): the G₂ cone over the twistor space of a self-dual Einstein 4-orbifold M; the orbifold points of M
 with SU(2)-type stabilisers Γᵢ give ℝ³-loci of type Γᵢ in the cone, all through the apex ("the cone on SU(3)/U(1)² … gives three
@@ -73,7 +78,8 @@ the abstract but a compact G₂ manifold whose E₆ locus carries three such ape
 look for the "three", and that is registered (§6).
 
 **The three faces.** Geometric: the twistor cone of S⁴/2T, the two poles giving the E₆ and the A₁ loci. Arithmetic: 2T's centraliser in
-Sp(1) is ±1 — the reason AW's U(1) family stops at A-type and the reason the E₆ point needs the twistor family. Quantum: b₂ = 1 and
+Sp(1) is ±1 — the reason the explicit (ℍ/Γ × ℍ′)/U(1)′ substitution stops at A-type, so that the E₆ point needs either AW's Kronheimer
+unfolding (§2.3, topology unknown) or the twistor family (this arc) (correction of record 2026-09-15: the audit lane's reading of Acharya–Witten §2.3, relayed by main's B1413). Quantum: b₂ = 1 and
 ∫_U w = 1 — the inflow that forces the count, with the mixed anomaly doing for E₆ what the cubic one does for SU(N).
 
 ## 5. Caveats
@@ -118,3 +124,12 @@ combination, are the only source of the U(1)² of B1356.)*
 the enhanced points of the A₁ line (the cone points of its link S²/A₄, degree 12 over the line), the E₆ line maps to its link with degree
 1, so the inflow coefficients at the apex are E₆ : SU(2) = 12 : 1 exactly. Among the seven Γ_R computed this is the only model whose
 companion the object's own background supplies with nothing else through the apex. `frontier/B1358_the_e6_apex_family`.)*
+
+*(Correction of record 2026-09-15 — main's B1413 relaying the audit lane's reading of Acharya–Witten §2.3: "B1355's finite centraliser on
+ℍ/2T obstructs that restricted substitution, not the entire hyperkähler-U(1) family. Its A-type-only conclusion is too broad." Applied
+above in §0, §1 and §4. What changes downstream: the apex has two local models — (K) AW's E₇ Kronheimer unfolding, companion-free
+(the generic fibre keeps exactly the E₆ root subsystem orthogonal to the omitted node's coweight), count one 27 of charge 1 by their
+heterotic computation, topology not described; (T) this arc's twistor cone, explicit, with the A₁ companion and the 14 cone lines,
+count transposed. B1356's sum-rule analysis applies to both; B1358's companion pinning and the doublet parity belong to (T) only;
+with (K) the three apexes sit on the E₆ copy of Y₃ alone. The audit lane also scopes §4's global form: "(E₆ × U(1))/Z₃ is a candidate
+compatible with appropriately charged 27s, not a global form computed from this cone's charge lattice" — agreed; §4 says "transposes".)*

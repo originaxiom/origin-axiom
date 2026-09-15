@@ -1,5 +1,9 @@
 # Changelog
 
+## Harvest received from main (B1413): B1355's "A-type only" scoped (AW §2.3's E₇ unfolding is a companion-free E-type model), B1351 §2(ii) scoped to the whole-torus/annular conventions, the R15–R22 row reworded
+
+Three corrections from the audit lane relayed by main, applied across B1355, B1351, B1352, the closing's synthesis and the surfaces.
+
 ## THE CLOSING, DESIGNED — synthesis surface for B1355–B1359 (`docs/THE_CLOSING_2026-09-15.md`); the view's §5i
 
 The ledger of proved / cited / designed statements, the background, the apexes, the three, the descent, and the open conditions (existence, the doublet parity, the extension of the apex classes, the spectra). No new claim.

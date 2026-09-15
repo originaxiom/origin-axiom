@@ -438,3 +438,11 @@ left it.
 > T₂₄ (E₆ + D₄ + A₅ + 2A₂, 2E₆ + A₃ + 2A₂), neither with an A₁ orbit, so no K3 fibre carries the SU(2) companion the three-apex design
 > needs; the torus numbers return B1357's census. The three generations, as designed, live on the Hurwitz torus and nowhere else in
 > the record's class of fibres. 0 of 19; price unchanged (`frontier/B1359_the_k3_alternative`).
+
+> **Correction of record (2026-09-15, main B1413 relaying the audit lane):** the B1355 note above says "Acharya–Witten's
+> hyperkähler-U(1) family is A-type only"; that is too broad. The finite centraliser of 2T obstructs the explicit substitution
+> Γ → 2T in AW's (2.4)–(2.7); their §2.3 generalisation — the Kronheimer hyperkähler quotient of the E₇ quiver with one U(1)
+> omitted — reaches E₆ ⊂ E₇ with one chiral 27 of charge 1 by their heterotic computation and a topology they do not describe. So
+> the apex has two local models: AW's E₇ unfolding (companion-free) and B1355's twistor cone (explicit, with the A₁ companion).
+> B1356's sum rule applies to both; B1358's companion pinning and the doublet parity concern the twistor model only; with AW's model
+> the three apexes sit on the E₆ copy of Y₃ alone. B1351 §2(ii) is scoped to the whole-torus/annular conventions (R23 §4). 0 of 19.

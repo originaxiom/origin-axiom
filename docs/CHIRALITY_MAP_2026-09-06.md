@@ -190,8 +190,10 @@ and self-duality are one condition.** O1's residue is void; O4 and O5 stand.
 ## 6g. The E₇ point made explicit (B1355, 2026-09-09)
 
 O4 has a local model. Acharya–Witten's two families of chiral cones, asked which reaches E-type: the hyperkähler-U(1) family
-(the cone on WCP³_{N,N,1,1}) needs a U(1) acting triholomorphically on ℍ/Γ and stops at cyclic Γ (the centraliser of 2T in Sp(1)
-is ±1); the twistor family does not. With M = S⁴/2T the twistor cone is the Bryant–Salamon cone over CP³ divided by 2T acting on
+(the cone on WCP³_{N,N,1,1}) needs a U(1) acting triholomorphically on ℍ/Γ and, in that explicit form, stops at cyclic Γ (the
+centraliser of 2T in Sp(1) is ±1); the twistor family does not. *[Correction of record 2026-09-15 (main B1413, the audit lane): AW's
+§2.3 Kronheimer unfolding of E₇ reaches E₆ with one chiral 27 of charge 1 and an undescribed topology — a companion-free second local
+model; "A-type only" was too broad.]* With M = S⁴/2T the twistor cone is the Bryant–Salamon cone over CP³ divided by 2T acting on
 one quaternionic factor: the twistor line over one pole is fixed by all of 2T with normal action 2T ⊂ SU(2) — the E₆ locus — the
 line over the other pole is fixed by −1 — an A₁ locus — and they meet only at the apex, a conical singularity whose link CP³/2T has
 b₂ = 1 with the E₆ line's class of degree 1. Witten's inflow, the mixed U(1)·E₆² anomaly equal to ∫_U w ≠ 0, forces chiral
@@ -249,9 +251,10 @@ distance ½; the apex on the knot (Γ_R = Z₃, forced by the deck's lift) has a
 have. At B1355's apex the E₆ line maps to its link with degree 1 and the A₁ line with degree 12, so Witten's mixed-anomaly
 coefficients are in the exact ratio E₆ : SU(2) = 12 : 1 — the SU(2) copy receives chiral doublets with charge-weighted count a
 twelfth of the E₆'s. The one consistency condition geometry does not settle: the doublet count per apex, since three apexes with an odd
-count each would give SU(2) Witten's global anomaly. The destination's item 1 is one picture now: the object's own Joyce orbifold with
+count each would give SU(2) Witten's global anomaly. The destination's item 1 is one picture within the twistor family: the object's own Joyce orbifold with
 its SU(2) copy of Y₃ brought to touch its E₆ copy at three deck-related points (L213 (iv)), each B1355's cone, the 27s told apart by
-the apexes' own U(1)s (B1356).
+the apexes' own U(1)s (B1356). *[With AW's §2.3 E₇ unfolding as the local model instead (correction of record 2026-09-15), the three
+apexes sit on the E₆ copy alone, no companion and no doublet parity — at the price of a topology AW do not describe.]*
 
 ## 6k. The K3 alternative, decided (B1359, 2026-09-15)
 

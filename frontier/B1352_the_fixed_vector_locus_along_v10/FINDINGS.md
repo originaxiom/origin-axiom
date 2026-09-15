@@ -194,3 +194,7 @@ two block-0 locus points, 120 digits), records `fixed_locus_c1_b0_run.txt`, `fix
 - Stage B with exact arithmetic (the isometries on the block classes).
 
 *(Currency 2026-09-15: VERIFIED ON MAIN — B1411 read the two banked locus points in this seat's presentation with main's own code: relator residual 10⁻⁵⁴, h¹(27) = h¹(27̄) = 3, N = 0, three cusp-fixed weights at both; the locks re-run green.)*
+
+*(Scoping of record 2026-09-15: where this arc concludes N_q = 0 for weights that are not cusp-fixed by citing B1351 §2(ii), that
+step holds under the whole-torus and annular conventions of ∂⁺M and not under the disc conventions (the audit lane's R23 §4, main's
+B1413); the partitions computed here (the three cusp-fixed weights, annular) are direct.)*

@@ -14828,3 +14828,10 @@ CHIRALITY_MAP §6k, the letter's fifteenth note, relay row, alias table, currenc
 `docs/THE_CLOSING_2026-09-15.md`: the ledger of what is proved, cited and designed across the five arcs, the background, the apexes,
 the three, the descent, the open conditions (existence, the doublet parity, the extension of the apex classes, the spectra), the
 three faces; the view's §5i. No new claim; 0 of 19.
+
+### Harvest received from main (2026-09-15, B1413): three corrections to this seat applied
+
+B1355's "A-type only" scoped to the explicit substitution (AW §2.3's E₇ Kronheimer unfolding recorded as the companion-free E-type
+model with undescribed topology; §0, §1, §4, the claim line, THE_SM_VERDICT, CHIRALITY_MAP §6g/§6j, the view §5f, THE_CLOSING §0/§1/§3/§6);
+B1351 §2(ii) scoped to the whole-torus/annular conventions (R23 §4), with a note on B1352; the R15–R22 relay row reworded (F_A = 0,
+[A, φ] = 0 on the smooth source complement). Relay row for B1413; alias table (main @ 3857877d). 0 of 19.

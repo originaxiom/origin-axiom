@@ -61,3 +61,10 @@ B1353) and the non-abelian Higgs data the literature analyses only locally.
 *(Currency 2026-09-09: main's B1320/B1321 computed Pantev–Wijnholt's localized count at the fixed loci of the cyclic descent's isometries — 0 or 4 on C₃, C₄, never 3 — and 3 on both cusps of m202 from its order-3 rotation (I-30, priced). Consistent with this arc: on a closed closing the total count is χ = 0, so localized counts come in pairs (0 or 4); an unpaired 3 needs a cusp that is not filled (the sibling's) or a curved closing (B1353).)*
 
 *(Currency 2026-09-15: VERIFIED ON MAIN — B1411 re-derived the pairing with main's own code at levels 3, 4 and 5 (179 characters, vector-like at every one; the branched-cover slope detected rather than assumed) and re-ran this arc's lock.)*
+
+*(Scoping of record 2026-09-15 — main's B1413 relaying the audit lane's R23 §4: §2(ii)'s implication "H*(T²; L_q) = 0 ⇒ N_q = 0
+whatever the Morse partition" holds for the whole-torus and annular conventions of ∂⁺M (rows A–C of the I-26 table) and fails for
+the disc conventions (rows D–F): on explicit relative cochains a disc partition per source arc gives H* = (0, k, 0, 0) and χ = −k even
+with the whole torus acyclic. B1411 verified the closed half (i); the cusped half (ii) stands under the whole-torus/annular
+conventions. The bound of §2(ii) and the placement of §2(iii) are read with that scope; B1352's computed partitions are annular
+(fc R71's region-swap instrument, a direct computation), and B1356–B1359 do not use (ii).)*

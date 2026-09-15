@@ -132,8 +132,9 @@ chirality; this is now a theorem with a reason, not a list of cases.
 
 **What we were not seeing.** The destination's item 1 is a *curved* conical G₂ geometry (B1259, B1353), and the question is not
 whether the object carries the count but what the point *is*. Acharya–Witten's two families of chiral cones, asked which reaches
-E-type, answer it (B1355): their hyperkähler-U(1) family stops at cyclic groups (the centraliser of 2T in Sp(1) is ±1), their
-twistor family does not — the G₂ cone over CP³/2T, the twistor cone of S⁴/2T, has the E₆ locus and an A₁ locus meeting only at a
+E-type, answer it (B1355): their hyperkähler-U(1) family in its explicit form stops at cyclic groups (the centraliser of 2T in Sp(1)
+is ±1) *[though their §2.3 Kronheimer unfolding of E₇ does reach E₆, with a topology they do not describe — correction of record
+2026-09-15, main B1413]*, their twistor family does not — the G₂ cone over CP³/2T, the twistor cone of S⁴/2T, has the E₆ locus and an A₁ locus meeting only at a
 curved apex whose link has b₂ = 1, and Witten's inflow (the mixed U(1)·E₆² anomaly, equal to the integral of the harmonic form over
 the E₆ locus's link) forces chiral E₆-charged matter there; the literature's count is one 27 per point. This is exactly the
 configuration the flat class cannot make (B1353), with the object's own group.

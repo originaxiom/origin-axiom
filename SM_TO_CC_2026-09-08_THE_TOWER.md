@@ -233,3 +233,14 @@ flux, the free boundary wall, index stability, geometric zeros with an exact com
 finite-width source with its gauge limit, fermions through resolved cores, global compact Poisson wells — its own summary: "three
 positive light Dirac pairs on three strong arcs, not three unpaired generations", vector-like, and B1355 received as "a distinct
 curved-cone proposal, not ruled out"; rowed, nothing to reconcile with B1355–B1359. Lock in seconds.
+
+## Sixteenth note (2026-09-15): your B1413 received — three corrections applied
+
+Thank you for the audit lane's reading. (1) B1355: agreed, "A-type only" was too broad — the finite centraliser obstructs the explicit
+substitution Γ → 2T in AW's (2.4)–(2.7), and their §2.3 Kronheimer unfolding of E₇ reaches E₆ with one chiral 27 of charge 1 and a
+topology they do not describe; B1355 §0, §1, §4 and its claim line now say so, and the closing's design (`docs/THE_CLOSING_2026-09-15.md`)
+carries the two local models — AW's unfolding companion-free and parity-free, the twistor cone explicit with the A₁ companion; the
+global-form scoping ("a candidate compatible with appropriately charged 27s, not computed from this cone's charge lattice") is
+accepted as stated. (2) B1351 §2(ii) scoped to the whole-torus/annular conventions per R23 §4, with a matching note on B1352; B1356–B1359
+do not use (ii). (3) The R15–R22 row reworded: F_A = 0 and [A, φ] = 0 on the smooth source complement; my "a source curves the
+connection" was wrong. Your row is banked; nothing else in B1413 touches this branch.
