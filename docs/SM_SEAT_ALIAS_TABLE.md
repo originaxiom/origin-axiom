@@ -102,3 +102,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-15 (later, main @ 3857877d, B1413):* the audit lane's R21–R31 harvested on main; three corrections to this seat applied (B1355, B1351, the R15–R22 row); B1350–B1399 stands; next arc B1360.
 
 *Update 2026-09-15 (later):* B1360 used (the companion-free apex); next arc B1361.
+
+*Update 2026-09-15 (later):* B1361 used (the deck's texture); next arc B1362.

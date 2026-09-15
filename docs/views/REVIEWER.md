@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1208** |
-| words of findings prose | **885,088** |
-| test lock files referenced | **722** |
-| arcs carrying an authored verdict | **1208** (100.0 %) |
+| research arcs with findings | **1209** |
+| words of findings prose | **886,243** |
+| test lock files referenced | **723** |
+| arcs carrying an authored verdict | **1209** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 798 |
-| NEGATIVE | 312 |
+| NEGATIVE | 313 |
 | OPEN | 87 |
 | RETRACTED | 11 |
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE COMPANION-FREE APEX: Acharya-Witten's E7 -> E6 unfolding cone X = (H^k///K')/U(1)' is the total space of Kronheimer's E7 family over the omitted node's D-term; the node beyond E6 has index 1 and the roots orthogonal to its coweight are exactly E6's 72 (computed), so the generic fibre is the partial resolution with the E6 configuration collapsed, smooth elsewhere, retracting onto the surviving curve (H_2 = Q, computed); the singular set of X is the E6 locus and the apex only. The link is the S^2-family of fibres (the bundle associated to the Hopf fibration by the hyperkaehler circle) glued at infinity to S^3/2O; Mayer-Vietoris gives b_2 = 1, and the E6 link's pairing with the generator is the Euler number of the normal of the surviving curve at the E6 point twisted by the circle, which acts on the tangent cone C^2/2T through the centraliser of 2T in U(2) = the scalars (computed), hence non-zero: Witten's inflow applies, no A1 companion, no cone lines, no doublet parity. Calibrated on AW's SU(N) cones (b_2 = 1, the circle rotating P(1,N) with weight N-1, the orbifold degrees 1/N^2 and 1). Three such apexes on the E6 copy of Y3 are the cleanest form of the closing's design; the integral normalisation and the compact closing remain open. 0 of 19.  
 `B1360_the_companion_free_apex/FINDINGS.md`
 
-**NEGATIVE — `B1300`** (2600 words, 1 locks)  
-THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while keeping the Higgs doublets: exhaustively, with every component's survival in every generation recorded (B1278's pipeline re-run and re-enumerated), 0 split lines; D is kept in all three generations on every SM line -- indeed on every one of the 3 048 625 candidates -- while Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines. BY THEOREM: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; three generations of Q put psi_Q in the alphabet K3 = {1} u ((C_1 u C_2) minus 1) x V_4 (orders 1, 19, 38), whose squares have odd order and are never family characters -- and the family characters (order 2) are the only characters that project anything (B1278's support theorem: h^1 = 1 exactly on ((C_1 u C_2) x V_4) minus 1). An exact structural model built from the support theorem and the weight table (Q, u^c, L a Z-basis of P/Q_SM; the eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders) reproduces every count of B1278 -- 145-letter alphabet, 758 593 three-generation lines, 737 568 SU(5)-breaking, 706 464 SM vacua, 568 656 full-spectrum -- and every histogram of the pipeline in seventeen seconds with no Fox calculus: B1278 verified by a second method. Consequences: L209(ii)'s Wilson-line option is closed; B1283's light D pair is untouched by the Wilson line as it is by the tree-level VEVs, so whatever gives generation g's Higgs pair its mu gives its D pair a mass through the same E6 Clebsch (a vector-like colour-triplet pair near mu if the instanton sector respects the Clebsch -- a stated assumption, not a banked prediction). Vector-like throughout (B1260); 0 of 19; price unchanged.  
-`B1300_the_doublet_triplet_lines/FINDINGS.md`
+**NEGATIVE — `B1361`** (1070 words, 1 locks)  
+THE DECK'S TEXTURE IS B1273'S: under the two C-field U(1)s born with the apexes (charges (1,-2), (1,1), (-2,1), an equilateral triangle), the only invariant E6 cubic among the three 27s is 27_1 27_2 27_3, so with the Higgs in the apex 27s every tree-level charged-fermion mass matrix is complex symmetric with zero diagonal -- B1273's texture from the flat classes, by a second route -- and with a neutral Higgs there is no tree-level Yukawa at all. B1273's bound is an identity: for every hollow complex symmetric 3x3 matrix e_2(MM^dagger) = (tr MM^dagger / 2)^2 (symbolic), hence sigma_1 = sigma_2 + sigma_3 exactly, refuted by m_3/(m_2+m_1) = 273, 50, 17 (low scale; 136, 43, 17 at B1273's). The diagonal source B1273 named is, in the design, the U(1)^2-breaking sector (Witten's axionic mass, the charged instantons): a Froggatt-Nielsen-like structure with the deck's charges, registered as L213 (vii). 0 of 19.  
+`B1361_the_decks_texture/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

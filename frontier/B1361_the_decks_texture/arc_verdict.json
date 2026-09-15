@@ -1,0 +1,12 @@
+{
+ "id": "B1361",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": ["B1273", "B1356", "B1276"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE DECK'S TEXTURE IS B1273'S: under the two C-field U(1)s born with the apexes (charges (1,-2), (1,1), (-2,1), an equilateral triangle), the only invariant E6 cubic among the three 27s is 27_1 27_2 27_3, so with the Higgs in the apex 27s every tree-level charged-fermion mass matrix is complex symmetric with zero diagonal -- B1273's texture from the flat classes, by a second route -- and with a neutral Higgs there is no tree-level Yukawa at all. B1273's bound is an identity: for every hollow complex symmetric 3x3 matrix e_2(MM^dagger) = (tr MM^dagger / 2)^2 (symbolic), hence sigma_1 = sigma_2 + sigma_3 exactly, refuted by m_3/(m_2+m_1) = 273, 50, 17 (low scale; 136, 43, 17 at B1273's). The diagonal source B1273 named is, in the design, the U(1)^2-breaking sector (Witten's axionic mass, the charged instantons): a Froggatt-Nielsen-like structure with the deck's charges, registered as L213 (vii). 0 of 19."
+}

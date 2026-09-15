@@ -38,6 +38,7 @@ companion-free and parity-free, with a topology they do not describe. It is not 
 | The apex family: companions {±1}·Γ_R of even order (never A₂); only Γ_R = 1 fits the background; inflow ratio 12 : 1 | PROVED (census, degrees) | B1358 |
 | The apex on the knot has an A₅ companion: excluded in the twistor family | PROVED | B1358 §3 |
 | A symplectic 2T on K3 has one of two fixed-point types (Xiao #37, #38), neither with an A₁ orbit: no K3 fibre carries the companion | PROVED (Burnside count) + CITED (Nikulin, Xiao) | B1359 |
+| The design's tree-level texture is hollow (only 27₁27₂27₃ survives the apex U(1)²) and σ₁ = σ₂ + σ₃ exactly: refuted; flavour needs the U(1)²-breaking sector | PROVED (selection rule, identity) + NEGATIVE | B1361 |
 | The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
 | AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1 | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
 | Its topology: singular set the E₆ locus and the apex only; b₂(link) = 1; the E₆ link pairs non-trivially with the generator (the inflow applies) | PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones) | B1360 |
@@ -92,6 +93,9 @@ those local models on a circle — vector-like.
 3. **The extension of the apex classes** over the closing (the sum rule is necessary; sufficiency needs the closing).
 4. **The E₆ × SU(2) spectrum at the apex** (L212 (ii)) and the 5d theories along the descent's cone circles (L213 (iii), (v)).
 5. **The U(1)² after Witten's axionic mass** (L213 (i)): what discrete flavour remnant acts on the three.
+6. **Flavour is not tree level (B1361).** The apex U(1)² allows only 27₁27₂27₃; with the Higgs in the apex 27s the mass matrices
+   are hollow and σ₁ = σ₂ + σ₃ exactly (B1273's texture and bound, now an identity), refuted in every charged sector; with a
+   neutral Higgs no tree-level Yukawa. The hierarchy must come from the U(1)²-breaking sector (L213 (vii)).
 
 ## 7. The three faces, once more
 

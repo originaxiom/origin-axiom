@@ -1,0 +1,27 @@
+================================================================================================
+(1) the selection rule on the E6 cubic 27_i 27_j 27_k under the apex-born U(1)^2
+================================================================================================
+  charge vectors (B1356 sec. 2): {1: (1, -2), 2: (1, 1), 3: (-2, 1)}; pairwise sums: q1+q2=(2, -1), q1+q3=(-1, -1), q2+q3=(-1, 2)
+  symmetric couplings lambda_ijk invariant under both U(1)s: [(1, 2, 3)] (of 10)
+  with a neutral Higgs (27_i 27_j H, q_i + q_j = 0): [] -> no tree-level Yukawa at all: True
+  Z_3 (the deck) alone: 4 invariant cubic combinations: [x1**3 + x2**3 + x3**3, x1**2*x2 + x1*x3**2 + x2**2*x3, x1**2*x3 + x1*x2**2 + x2*x3**2, x1*x2*x3]
+
+================================================================================================
+(2) the identity sigma_1 = sigma_2 + sigma_3 for hollow complex symmetric 3x3 matrices
+================================================================================================
+  tr(M M^dagger) = 2*(a*abar + b*bbar + c*cbar)  (= 2 S: True)
+  e_2(M M^dagger) - S^2 = 0  -> e_1^2 - 4 e_2 = 0
+  hence (s1+s2+s3)... the quartic (sigma1-sigma2-sigma3)(sigma1-sigma2+sigma3)(sigma1+sigma2-sigma3)(sigma1+sigma2+sigma3) = e1^2 - 4e2 = 0:
+  one of sigma_1 = sigma_2 + sigma_3, sigma_2 = sigma_1 + sigma_3, sigma_3 = sigma_1 + sigma_2 holds; with sigma_1 >= sigma_2 >= sigma_3 >= 0
+  the second forces sigma_3 = 0 and sigma_1 = sigma_2 (then the first holds too) and the third forces M = 0: so sigma_1 = sigma_2 + sigma_3 always.
+  numerical check on 1e5 random hollow symmetric complex matrices: max |sigma1 - sigma2 - sigma3|/sigma1 = 1.06e-15; min sigma2/sigma1 = 0.5091 (bound 1/2)
+
+================================================================================================
+(3) the relation m_heaviest = m_middle + m_lightest against the data (masses in GeV, low-scale running values, as B1273)
+================================================================================================
+  up: m_3/(m_2 + m_1) = 273.2  (the hollow texture demands 1)
+  down: m_3/(m_2 + m_1) = 49.5  (the hollow texture demands 1)
+  charged leptons: m_3/(m_2 + m_1) = 16.7  (the hollow texture demands 1)
+  (B1273 refuted its texture by the same relation, factors 17-136 at its scale; the scale changes the factors, not the verdict.)
+
+DONE

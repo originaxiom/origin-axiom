@@ -257,3 +257,11 @@ U(2), computed) with non-zero weight on the normal of the surviving curve. So th
 of Y₃ carry B1356's three 27s with no SU(2) companion and no doublet parity. Calibrated on AW's SU(N) cones (b₂ = 1, the circle
 rotating P(1, N) with weight N − 1, the degrees 1/N² and 1). The homotopy model is stated in §1 with its assumptions; the inputs are
 computed and locked. Open: the integral normalisation; the D-type unfoldings (your SO(8) copy's companion); the compact closing.
+
+## Eighteenth note (2026-09-15): the flavour face of the design (B1361)
+
+Small and sharp. B1356's apex charges form an equilateral triangle, so the only E₆ cubic invariant under both apex U(1)s is
+27₁27₂27₃ — B1273's texture from the flat classes, reached again — and B1273's bound σ₁ ≤ σ₂ + σ₃ is an identity: for every hollow
+complex symmetric 3 × 3 matrix the sum of the principal 2 × 2 minors of MM† equals (tr MM†/2)², symbolically, so m₃ = m₂ + m₁
+exactly; refuted 273, 50, 17 at low scale. With a neutral Higgs no tree-level Yukawa at all; the deck alone would allow four cubics.
+The diagonal source B1273 asked for is, in the design, the U(1)²-breaking sector — registered as L213 (vii). Lock in seconds.

@@ -1,5 +1,9 @@
 # Changelog
 
+## B1361 — the deck's texture is B1273's: the apex U(1)² allows only 27₁27₂27₃, the hollow mass matrices obey σ₁ = σ₂ + σ₃ exactly (an identity), refuted; flavour needs the U(1)²-breaking sector
+
+The selection rule enumerated, the identity e₂(MM†) = (tr MM†/2)² proved symbolically, the data ratios; L213 (vii) registered.
+
 ## B1360 — the companion-free apex: AW's E₇ → E₆ unfolding cone has singular set the E₆ locus and the apex only, b₂(link) = 1, and an E₆ link pairing non-trivially with the generator (the inflow applies; no companion, no parity)
 
 The cone as Kronheimer's E₇ family over the omitted node's D-term (E₆ = the roots orthogonal to the coweight, computed); the link as the Hopf-associated S²-family glued to S³/2O; Mayer–Vietoris; the hyperkähler circle acting on the E₆ tangent cone as a scalar (the centraliser of 2T in U(2), computed). Calibrated on AW's SU(N) cones. Three such apexes on the E₆ copy of Y₃ are the cleanest form of the design.

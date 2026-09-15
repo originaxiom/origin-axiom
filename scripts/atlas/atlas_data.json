@@ -6500,7 +6500,8 @@
    "refs": [
     "B251",
     "B326",
-    "H5"
+    "H5",
+    "L213"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 12,
@@ -7358,6 +7359,23 @@
    "obstacle": "cancellation",
    "obstacle_conf": 3,
    "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1361": {
+   "slug": "the decks texture",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L213"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 17,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B136": {

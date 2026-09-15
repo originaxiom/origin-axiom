@@ -14845,3 +14845,12 @@ argument (FINDINGS §1–§3): the cone is the family of Kronheimer fibres over 
 S²-family glued at infinity to S³/2O; Mayer–Vietoris gives b₂ = 1; U · P ≠ 0 with P the family of surviving curves, from the circle's
 scalar action on the E₆ tangent cone; the singular set is the E₆ locus and the apex only. Surfaces: L212/L213 status, THE_SM_VERDICT,
 CHIRALITY_MAP §6l, THE_CLOSING §1/§3/§6, the letter's seventeenth note, alias table. 0 of 19; price unchanged.
+
+### B1361 — the deck's texture is B1273's: the apex U(1)² selection rule, the hollow identity, the refutation (2026-09-15)
+
+Enumerated: of the ten symmetric cubics only 27₁27₂27₃ is invariant under the apex U(1)² (charges (1,−2), (1,1), (−2,1)); none with a
+neutral Higgs; four under the deck Z₃ alone. Proved symbolically: for hollow complex symmetric 3 × 3 M, e₂(MM†) = S² with S = |a|²+|b|²+|c|²,
+hence e₁² − 4e₂ = 0 and σ₁ = σ₂ + σ₃ exactly (10⁵ random matrices: |σ₁−σ₂−σ₃|/σ₁ ≤ 10⁻¹⁵, σ₂/σ₁ ≥ ½). Data: m₃/(m₂+m₁) = 273, 50, 17
+(low scale; B1273: 136, 43, 17). Verdict NEGATIVE at tree level; L213 (vii) registered (the U(1)²-breaking sector as the diagonal
+source). Lock (seconds). Surfaces: L213 status, THE_SM_VERDICT, CHIRALITY_MAP §6m, THE_CLOSING §1/§6, the destination ledger, the
+letter's eighteenth note, alias table, a currency note on B1273. 0 of 19; price unchanged.

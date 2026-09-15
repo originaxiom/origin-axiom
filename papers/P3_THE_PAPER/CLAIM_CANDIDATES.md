@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1108 settled arcs — 75%** —
+the field is **absent on 828 of 1109 settled arcs — 75%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (121) = 540 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (121) = 541 arcs.**
 The vocabulary criterion adds **43 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -462,7 +462,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1265` | PROVED | S | | THE REAL FORM IS DERIVED, AND THE FORK IS A RANK OBSTRUCTION. MAIN_GOAL JOIN 3. B1140 banked the fork as a brute fact -- 'the two real forms split the world with NOTHING … |
 | `B1351` | PROVED | S | | THE INDEX ON A THREE-MANIFOLD (main's Q9): Pantev-Wijnholt's net chiral count of a charged sector is chi(M, d+M; L) = chi(M; L) - chi(d+M; L). On a closed closing chi = 0… |
 
-## UNASSIGNED — needs an editorial call (120)
+## UNASSIGNED — needs an editorial call (121)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -586,6 +586,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1353` | PROVED | S | | THE ISOLATED ENHANCEMENT POINT ON AN E6 LOCUS, MADE FINITE (main's E70 scope of B1259 answered): in a flat G2 orbifold the E6 locus is the fixed 3-plane P of 2T c SU(2)_R… |
 | `B1354` | PROVED | S | | THE MAXIMAL PERSISTENCE (B1352 section 6's residue): formal branches tangent to the V10 direction that keep all three cusp-fixed vectors of rho_0 exist -- the second-orde… |
 | `B1355` | PROVED | S | | THE E7 POINT MADE EXPLICIT: the destination's local model is the G2 cone over CP^3/2T -- the Bryant-Salamon cone over the nearly-Kaehler CP^3 divided by the object's McKa… |
+| `B1361` | NEGATIVE | S | | THE DECK'S TEXTURE IS B1273'S: under the two C-field U(1)s born with the apexes (charges (1,-2), (1,1), (-2,1), an equilateral triangle), the only invariant E6 cubic amon… |
 
 ## The exhibit that forced the rebuild
 

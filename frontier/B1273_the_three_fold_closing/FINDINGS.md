@@ -112,3 +112,8 @@ to Sp(1), Q₈ and the deck's (1+i+j+k)/2 generate 2T exactly. `frontier/B1356_t
 singular loci over the E₆, D₄ and A₁ points of T⁴/2T are each a copy of the Hantzsche–Wendt manifold (the holonomy stabiliser of
 each orbit is all of V₄), rigid, carrying E₆, SO(8), SU(2) pure super-Yang–Mills; the A₂ locus is T³, the holonomy cover of Y₃.
 `frontier/B1357_the_objects_own_joyce_orbifold` §2.)*
+
+*(Currency 2026-09-15, B1361: §4's texture is reached by a second route — the apex U(1)² of the closing's design (B1356) allows only
+27₁27₂27₃ for the same reason (three distinct characters, one product-trivial triple) — and the theorem's bound is an identity:
+e₂(MM†) = (tr MM†/2)² for every hollow complex symmetric 3 × 3 matrix, so σ₁ = σ₂ + σ₃ exactly (the numerical saturation explained).
+The diagonal source §4 asks for is, in the design, the sector that breaks the apex U(1)s (L213 (vii)). `frontier/B1361_the_decks_texture`.)*

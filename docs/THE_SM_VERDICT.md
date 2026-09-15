@@ -454,3 +454,9 @@ left it.
 > of 2T in U(2) — computed). So Witten's inflow applies to it exactly as to the twistor cone, and three such apexes on the E₆ copy of
 > Y₃ carry B1356's three 27s with no SU(2) companion and no doublet parity. Calibrated on AW's SU(N) cones. The compact closing and
 > the integral normalisation remain open. 0 of 19; price unchanged (`frontier/B1360_the_companion_free_apex`).
+
+> **Currency note (2026-09-15, B1361):** the design's flavour at tree level is B1273's negative. The apex U(1)² charges allow only the
+> totally off-diagonal E₆ cubic; with the Higgs in the apex 27s the mass matrices are hollow and every hollow complex symmetric 3 × 3
+> matrix has σ₁ = σ₂ + σ₃ exactly (B1273's bound made an identity) — refuted in every charged sector; with a neutral Higgs there is
+> no tree-level Yukawa. The generations' hierarchy must come from the sector that breaks the apex U(1)s (L213 (vii)). 0 of 19; price
+> unchanged (`frontier/B1361_the_decks_texture`).

@@ -211,3 +211,9 @@ generations, the numbers.
 *What the chain has bought so far, in this currency: the relations of §3 (eight), the count three, the gauge group,
 its global form, hypercharge, anomaly cancellation, termination, the one coupling, and the exact location of every
 missing number. What it has not bought: any of the 19.*
+
+*(Currency 2026-09-15, B1361 — the Yukawa items read against the closing's design: the apex U(1)² of B1356 allows only the totally
+off-diagonal E₆ cubic, so the design's tree-level mass matrices are hollow and obey m₃ = m₂ + m₁ exactly — B1273's texture and
+bound, the bound now an identity — refuted in every charged sector; with a neutral Higgs no tree-level Yukawa. Whatever fills these
+items comes from the sector that breaks the apex U(1)s (L213 (vii)), not from the E₆ cubic at tree level.
+`frontier/B1361_the_decks_texture`.)*

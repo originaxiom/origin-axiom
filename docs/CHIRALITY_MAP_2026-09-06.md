@@ -281,6 +281,17 @@ exactly when there is no locus; the orbifold degrees 1/N², 1). For the design: 
 orbit, give B1356's three 27s with the sum-zero U(1)² and the charges 3 × (3̄ weights), with no SU(2) copy touched and no doublet
 parity. Open: the integral normalisation of the generator (the charge against the Z₃ global form), the compact closing.
 
+## 6m. The deck's texture (B1361, 2026-09-15)
+
+The flavour face of the design. B1356's apex charges (1, −2), (1, 1), (−2, 1) form an equilateral triangle, so the only E₆ cubic
+invariant under both apex U(1)s is 27₁27₂27₃: with the Higgs in the apex 27s the tree-level mass matrices are complex symmetric with
+zero diagonal — exactly B1273's texture from the three flat classes of Y₃ (three distinct characters, one product-trivial triple) —
+and the bound B1273 proved is an identity: e₂(MM†) = (tr MM†/2)² for every hollow complex symmetric 3 × 3 matrix (symbolic), hence
+σ₁ = σ₂ + σ₃, m₃ = m₂ + m₁, refuted by factors 273, 50, 17 at low scale (136, 43, 17 at B1273's). With a neutral Higgs no tree-level
+Yukawa survives; the deck alone would allow four cubics — it is the U(1) pair that tells the generations apart which forbids the
+diagonal. So the design says of its own flavour: hierarchy is not tree level; it lives in the sector that breaks the apex U(1)s
+(Witten's axionic mass, the charged instantons), a Froggatt–Nielsen-like structure with the deck's charges (L213 (vii)).
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

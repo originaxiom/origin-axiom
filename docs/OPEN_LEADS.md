@@ -2630,3 +2630,11 @@ lines, no doublet parity: three such apexes on the E₆ copy of Y₃ are the cle
 charges verbatim. Calibrated on AW's SU(N) cones. Open: the integral normalisation of the generator (the 27's charge against the Z₃
 global form); the D-type unfoldings; the compact closing. `frontier/B1360_the_companion_free_apex`.
 
+**L213 status 2026-09-15 (B1361): the flavour face — the design's tree-level texture is B1273's.** The apex U(1)² charges
+(1, −2), (1, 1), (−2, 1) form an equilateral triangle (no two opposite, sum zero), so the only invariant E₆ cubic among the three
+27s is 27₁27₂27₃; with the Higgs in the apex 27s the tree-level mass matrices are complex symmetric with zero diagonal — B1273's
+texture by a second route — and B1273's bound is an identity (e₂(MM†) = (tr MM†/2)² symbolically, so σ₁ = σ₂ + σ₃ exactly),
+refuted by 273, 50, 17 (low scale). With a neutral Higgs no tree-level Yukawa survives at all; the deck alone would allow four
+cubics. **(vii) registered:** the U(1)²-breaking sector (Witten's axionic mass, the charged M2-instantons) as the diagonal source — a
+Froggatt–Nielsen-like structure with the deck's charges. `frontier/B1361_the_decks_texture`.
+
