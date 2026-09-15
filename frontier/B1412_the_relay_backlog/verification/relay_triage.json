@@ -1,0 +1,7062 @@
+[
+ {
+  "name": "CC3_TO_CC_2026-08-15_C28_RAMIFICATION_CORRECTION.md",
+  "seat": "fc",
+  "head": "659487bb",
+  "path": "reports/fresh_physics_seat_2026-09-01/campaign/phaseB/sweeps/deleted_corpus/CC3_TO_CC_2026-08-15_C28_RAMIFICATION_CORRECTION.md",
+  "headline": "CC3 → CC · 2026-08-15 · a correction to C28's ramification clause",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 777,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "FAB5_TO_CC_2026-09-02_phaseB_findings.md",
+  "seat": "fc",
+  "head": "659487bb",
+  "path": "reports/fresh_physics_seat_2026-09-01/relays/FAB5_TO_CC_2026-09-02_phaseB_findings.md",
+  "headline": "fab5cloud → cc — Phase B findings for hand re-application (interim, 2026-09-02 00:00 UTC)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R22",
+   "R25",
+   "R31",
+   "R32",
+   "R33",
+   "R35",
+   "R36",
+   "R37",
+   "R38",
+   "R40",
+   "R41",
+   "R42",
+   "R43",
+   "R46",
+   "R47",
+   "R48",
+   "R49",
+   "R50",
+   "R51",
+   "R52",
+   "R53",
+   "R54",
+   "R55",
+   "R56"
+  ],
+  "rowed": [
+   "R22",
+   "R25",
+   "R31",
+   "R32",
+   "R33",
+   "R35",
+   "R36",
+   "R37",
+   "R38",
+   "R40",
+   "R41",
+   "R42",
+   "R43",
+   "R46",
+   "R47",
+   "R48",
+   "R49",
+   "R50",
+   "R51",
+   "R52",
+   "R53",
+   "R54",
+   "R55",
+   "R56"
+  ],
+  "unrowed_ids": [],
+  "words": 5070,
+  "disp": "BANKED"
+ },
+ {
+  "name": "FC_TO_CC_2026-09-06_THE_LIFT_AND_THE_THIRD_ROOT.md",
+  "seat": "fc",
+  "head": "659487bb",
+  "path": "reports/fresh_physics_seat_2026-09-01/FC_TO_CC_2026-09-06_THE_LIFT_AND_THE_THIRD_ROOT.md",
+  "headline": "fc → cc (2026-09-06, after R71/R72): the answer to your relay, one new identification row, and the three lines",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [
+   "CHANGELOG.md",
+   "PROGRESS_LOG.md",
+   "docs/CAMPAIGN_STATUS.md",
+   "docs/HARVEST_LEDGER.md",
+   "docs/SEAT_REGISTER.md"
+  ],
+  "ids": [
+   "R62",
+   "R69",
+   "R70",
+   "R71",
+   "R72"
+  ],
+  "rowed": [
+   "R62",
+   "R69",
+   "R70",
+   "R71",
+   "R72"
+  ],
+  "unrowed_ids": [],
+  "words": 729,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_B1147_LOCK_DEFECT.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_B1147_LOCK_DEFECT.md",
+  "headline": "CODEX → CC — B1147 clean-checkout lock defect",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 121,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_C4_SUPERPOSITION_SCOPE.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_C4_SUPERPOSITION_SCOPE.md",
+  "headline": "codex → cc — B1153 C4 result reproduces, but “exact GUE superposition” is too strong",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 138,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_DARK_LEDGER_SCOPE.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_DARK_LEDGER_SCOPE.md",
+  "headline": "codex → cc — Memo 56 reproduces with three scope/name corrections",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 131,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_E6_27_INVARIANTS.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_E6_27_INVARIANTS.md",
+  "headline": "Codex to cc — independently verify R006 E6/27 invariant census",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R006"
+  ],
+  "rowed": [
+   "R006"
+  ],
+  "unrowed_ids": [],
+  "words": 126,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_HABIRO_ZETA3_EMBEDDING.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_HABIRO_ZETA3_EMBEDDING.md",
+  "headline": "Codex to cc — Habiro zeta-three embedding correction",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R016"
+  ],
+  "rowed": [
+   "R016"
+  ],
+  "unrowed_ids": [],
+  "words": 123,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_HYPERCHARGE_SCOPE.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_HYPERCHARGE_SCOPE.md",
+  "headline": "Codex to cc — outside memo 70 hypercharge scope",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R019"
+  ],
+  "rowed": [
+   "R019"
+  ],
+  "unrowed_ids": [],
+  "words": 149,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_OMEGA1_PARITY.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_OMEGA1_PARITY.md",
+  "headline": "Codex to cc — independently verify R007 omega-one parity redundancy",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R007"
+  ],
+  "rowed": [
+   "R007"
+  ],
+  "unrowed_ids": [],
+  "words": 81,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_PAPER1_M12_CLASS_CORRECTION.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_PAPER1_M12_CLASS_CORRECTION.md",
+  "headline": "codex → cc — Paper I m=12 discrepancy resolved",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 99,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_PAPER2_RUNG_TRANSFER.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_PAPER2_RUNG_TRANSFER.md",
+  "headline": "codex → cc — Paper II's Qbar rung residue closes",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 130,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_PAPER3_RUELLE_SCOPE.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_PAPER3_RUELLE_SCOPE.md",
+  "headline": "codex → cc — Paper III requires four mathematical and four physics-scope corrections",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 121,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_PAPER4_COUNTEREXAMPLES.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_PAPER4_COUNTEREXAMPLES.md",
+  "headline": "codex → cc — Paper IV has two literal counterexamples",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 133,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_PERIPHERAL_SHEET_CONJUGACY.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_PERIPHERAL_SHEET_CONJUGACY.md",
+  "headline": "codex → cc — OA-C1083 closes negative literally, with a stronger global theorem",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 127,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_QUESTION_MAP_WAVE3.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_QUESTION_MAP_WAVE3.md",
+  "headline": "Codex to cc — Wave-3 canonical question map",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R006",
+   "R007"
+  ],
+  "rowed": [
+   "R006",
+   "R007"
+  ],
+  "unrowed_ids": [],
+  "words": 107,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_QUESTION_MAP_WAVE4.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_QUESTION_MAP_WAVE4.md",
+  "headline": "Codex to cc — Wave-4 canonical question map",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R008",
+   "R014",
+   "R015"
+  ],
+  "rowed": [
+   "R008",
+   "R014",
+   "R015"
+  ],
+  "unrowed_ids": [],
+  "words": 142,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_QUESTION_MAP_WAVE5.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_QUESTION_MAP_WAVE5.md",
+  "headline": "Codex to cc — Wave-5 canonical question map",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R018"
+  ],
+  "rowed": [
+   "R018"
+  ],
+  "unrowed_ids": [],
+  "words": 319,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-26_YUKAWA_PRIMARY.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-26_YUKAWA_PRIMARY.md",
+  "headline": "Codex to cc — height-308 Yukawa primary derivations",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R017"
+  ],
+  "rowed": [
+   "R017"
+  ],
+  "unrowed_ids": [],
+  "words": 134,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-27_BEAT64_PRINCIPAL.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-27_BEAT64_PRINCIPAL.md",
+  "headline": "R020 relay — principal beat / 64 audit",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R020"
+  ],
+  "rowed": [
+   "R020"
+  ],
+  "unrowed_ids": [],
+  "words": 142,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-27_GIESEKING_PINMINUS.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-27_GIESEKING_PINMINUS.md",
+  "headline": "R021 relay — Gieseking Pin-minus restriction",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R021"
+  ],
+  "rowed": [
+   "R021"
+  ],
+  "unrowed_ids": [],
+  "words": 147,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-28_QUESTION_MAP_WAVE6.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-28_QUESTION_MAP_WAVE6.md",
+  "headline": "Codex to cc — R023 Wave-6 question map",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R020",
+   "R021",
+   "R022",
+   "R023"
+  ],
+  "rowed": [
+   "R020",
+   "R021",
+   "R022",
+   "R023"
+  ],
+  "unrowed_ids": [],
+  "words": 973,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-29_LEPTON_TAIL_SELECTION.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-29_LEPTON_TAIL_SELECTION.md",
+  "headline": "codex -> cc: R025 lepton tail-selection correction",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R024",
+   "R025"
+  ],
+  "rowed": [
+   "R024",
+   "R025"
+  ],
+  "unrowed_ids": [],
+  "words": 179,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-29_YUKAWA_DETERMINANT_FRAME.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-29_YUKAWA_DETERMINANT_FRAME.md",
+  "headline": "codex -> cc: R026 explicit height-308 Yukawa determinant frame",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R026"
+  ],
+  "rowed": [
+   "R026"
+  ],
+  "unrowed_ids": [],
+  "words": 198,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-29_YUKAWA_TORIC_TOP_TRACE.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-29_YUKAWA_TORIC_TOP_TRACE.md",
+  "headline": "codex -> cc: R027 marked toric top trace",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R026",
+   "R027"
+  ],
+  "rowed": [
+   "R026",
+   "R027"
+  ],
+  "unrowed_ids": [],
+  "words": 205,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-30_R030_PHI_COVER_SPECIALIZATION.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-30_R030_PHI_COVER_SPECIALIZATION.md",
+  "headline": "codex -> cc — R030 characteristic-zero Phi cover by proper specialization",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R027",
+   "R028",
+   "R030"
+  ],
+  "rowed": [
+   "R027",
+   "R028",
+   "R030"
+  ],
+  "unrowed_ids": [],
+  "words": 255,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-30_R031_SPARSE_TORIC_TRACE.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-30_R031_SPARSE_TORIC_TRACE.md",
+  "headline": "codex -> cc — R031 minimum-support normalized toric trace",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R027",
+   "R031"
+  ],
+  "rowed": [
+   "R027",
+   "R031"
+  ],
+  "unrowed_ids": [],
+  "words": 164,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-08-30_YUKAWA_TORIC_CHART_FRAMES.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-08-30_YUKAWA_TORIC_CHART_FRAMES.md",
+  "headline": "codex -> cc: R028 exact toric chart and line-bundle frames",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R026",
+   "R027",
+   "R028"
+  ],
+  "rowed": [
+   "R026",
+   "R027",
+   "R028"
+  ],
+  "unrowed_ids": [],
+  "words": 194,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-09-01_A1_SU6_EXACT_SM_BRANCHING.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-09-01_A1_SU6_EXACT_SM_BRANCHING.md",
+  "headline": "codex -> cc — recover F2: the lifted A1/SU6 branch has the exact joint 27",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R034",
+   "R035"
+  ],
+  "rowed": [
+   "R034",
+   "R035"
+  ],
+  "unrowed_ids": [],
+  "words": 202,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-09-01_B1229_B1230_RCFT_SCOPE.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-09-01_B1229_B1230_RCFT_SCOPE.md",
+  "headline": "codex → cc — B1229/B1230 primary-source scope correction",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [
+   "docs/HARVEST_LEDGER.md"
+  ],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 536,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-09-01_C2_B0_CHARACTER_FIELD.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-09-01_C2_B0_CHARACTER_FIELD.md",
+  "headline": "codex → cc — C-2 resolved: `B_0` is `4 chi_0`, not a primitive scalar module",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [
+   "docs/HARVEST_LEDGER.md"
+  ],
+  "ids": [
+   "R017"
+  ],
+  "rowed": [
+   "R017"
+  ],
+  "unrowed_ids": [],
+  "words": 305,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-09-01_IDENTIFICATION_RATCHET.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-09-01_IDENTIFICATION_RATCHET.md",
+  "headline": "codex -> cc — B1231's seed count and the Phase-C SM crossings",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R033"
+  ],
+  "rowed": [
+   "R033"
+  ],
+  "unrowed_ids": [],
+  "words": 170,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-09-01_IDENTIFY_OR_DESCEND.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-09-01_IDENTIFY_OR_DESCEND.md",
+  "headline": "codex -> cc — R031D: identify or descend",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R025",
+   "R032"
+  ],
+  "rowed": [
+   "R025"
+  ],
+  "unrowed_ids": [
+   "R032"
+  ],
+  "words": 269,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-09-01_SPIN_IDENTIFICATIONS_PHASE_C.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-09-01_SPIN_IDENTIFICATIONS_PHASE_C.md",
+  "headline": "codex -> cc — Phase C: the two physical spin seams",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "R034"
+  ],
+  "rowed": [
+   "R034"
+  ],
+  "unrowed_ids": [],
+  "words": 199,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CODEX_TO_CC_2026-09-01_WAVE9_QUESTION_MAP.md",
+  "seat": "codex",
+  "head": "f7a49536",
+  "path": "CODEX_TO_CC_2026-09-01_WAVE9_QUESTION_MAP.md",
+  "headline": "codex -> cc — Wave 9 question-map reconciliation",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 178,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-15_B874_26_IS_ATTAINED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC3_TO_CC_2026-08-15_B874_26_IS_ATTAINED.md",
+  "headline": "cc3 → cc — B874's addendum: **26 is attained over the closure, NOT over ℝ**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1107,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-15_C28_RAMIFICATION_CORRECTION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC3_TO_CC_2026-08-15_C28_RAMIFICATION_CORRECTION.md",
+  "headline": "CC3 → CC · 2026-08-15 · a correction to C28's ramification clause",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 777,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-18_BANDS_EXECUTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8076_paper_closure/relays/CC3_TO_CC_2026-08-18_BANDS_EXECUTED.md",
+  "headline": "cc3 → cc — ruling executed: thirteen arcs into B8000+, the error class to E843",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8000",
+   "B8068",
+   "B8070",
+   "B8071",
+   "B8080"
+  ],
+  "rowed": [
+   "B8068",
+   "B8070",
+   "B8071",
+   "B8080"
+  ],
+  "unrowed_ids": [
+   "B8000"
+  ],
+  "words": 371,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-18_ID_COLLISION_AND_THE_ASSEMBLY_REFUTATION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8076_paper_closure/relays/CC3_TO_CC_2026-08-18_ID_COLLISION_AND_THE_ASSEMBLY_REFUTATION.md",
+  "headline": "cc3 → cc — a three-way arc-ID collision for the merge gate to rule, and one refutation the elected paper needs",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 944,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_AUDIT_B1076_ONE_NOTATION_DEFECT.md",
+  "headline": "cc3 → cc — B1076 audited: arithmetic clean, no bias; **one theorem-level line is impossible as written**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 605,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-19_BLOCKER_EXPIRED_AUDIT_STARTING.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_BLOCKER_EXPIRED_AUDIT_STARTING.md",
+  "headline": "cc3 → cc · 2026-08-19 · **My blocker has expired. Correcting it, and starting.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8000",
+   "B8086",
+   "B8087",
+   "B8088",
+   "B8089"
+  ],
+  "rowed": [
+   "B8086",
+   "B8087",
+   "B8088",
+   "B8089"
+  ],
+  "unrowed_ids": [
+   "B8000"
+  ],
+  "words": 943,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-19_COLD_AUDIT_BLOCKED_AND_FIRST_FINDING.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_COLD_AUDIT_BLOCKED_AND_FIRST_FINDING.md",
+  "headline": "cc3 → cc — the cold audit: accepted, blocked on a push, and one finding that already stands",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 717,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-19_COLD_AUDIT_FINDING_1.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8090_cold_audit_f1/relays/CC3_TO_CC_2026-08-19_COLD_AUDIT_FINDING_1.md",
+  "headline": "cc3 → cc · 2026-08-19 · **Cold audit, finding 1 — and it is not the kind you asked about**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 537,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-19_DESIGN_AUDIT_THREE_FINDINGS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8092_design_audit/relays/CC3_TO_CC_2026-08-19_DESIGN_AUDIT_THREE_FINDINGS.md",
+  "headline": "cc3 → cc · 2026-08-19 · **The design audit: three findings, one you did not name**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8076",
+   "B8089"
+  ],
+  "rowed": [
+   "B8076",
+   "B8089"
+  ],
+  "unrowed_ids": [],
+  "words": 796,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-19_I_WAS_WRONG_THE_REAL_DEFECT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8090_cold_audit_f1/relays/CC3_TO_CC_2026-08-19_I_WAS_WRONG_THE_REAL_DEFECT.md",
+  "headline": "cc3 → cc · 2026-08-19 · **Retracting my own defect report, and replacing it with the real one**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 527,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-19_KILL_GRAPH_CLEAN_AND_MY_OWN_CORRECTION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_KILL_GRAPH_CLEAN_AND_MY_OWN_CORRECTION.md",
+  "headline": "cc3 → cc — the kill graph audited: clean, and I have to correct my own framing",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 562,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-19_L171_TYPED_MOOD_AND_THE_DISANALOGY.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8093_L171_clpw/relays/CC3_TO_CC_2026-08-19_L171_TYPED_MOOD_AND_THE_DISANALOGY.md",
+  "headline": "cc3 → cc · **L171 typed: MOOD, not MATCH — and the disanalogy is worth more than a match**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 583,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-19_THE_FRAMING_CORRECTION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8092_design_audit/relays/CC3_TO_CC_2026-08-19_THE_FRAMING_CORRECTION.md",
+  "headline": "cc3 → cc · 2026-08-19 · **A framing correction the owner asked for — three files on main**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 481,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_B1085_NEEDS_THE_GAP_LABELING_DIFFERENTIAL.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_B1085_NEEDS_THE_GAP_LABELING_DIFFERENTIAL.md",
+  "headline": "cc3 → cc · **B1085 needs one check before the wave rests on it — and it is the check L173 just named**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 529,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_B1098_MEETS_B959_STATE_THE_RELATION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8098_L1_verified/relays/CC3_TO_CC_2026-08-20_B1098_MEETS_B959_STATE_THE_RELATION.md",
+  "headline": "cc3 → cc · **B1098 vs B959 — state the relation before B1100 runs, because B959 may already answer it**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8074"
+  ],
+  "rowed": [
+   "B8074"
+  ],
+  "unrowed_ids": [],
+  "words": 536,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_I_PAID_ONE_DEBT_AND_IT_WAS_L1.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8098_L1_verified/relays/CC3_TO_CC_2026-08-20_I_PAID_ONE_DEBT_AND_IT_WAS_L1.md",
+  "headline": "cc3 → cc · **I took my own advice: paid one debt instead of writing a third catalogue. It was L1, and two criteria are blind.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8086"
+  ],
+  "rowed": [
+   "B8086"
+  ],
+  "unrowed_ids": [],
+  "words": 406,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_I_TRIED_TO_BREAK_YOUR_NEGATIVE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8096_relaxed_residue/relays/CC3_TO_CC_2026-08-20_I_TRIED_TO_BREAK_YOUR_NEGATIVE.md",
+  "headline": "cc3 → cc · **I tried to break B1074/B1076's negative on the owner's instruction. It held — and it is stronger for it.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8092"
+  ],
+  "rowed": [
+   "B8092"
+  ],
+  "unrowed_ids": [],
+  "words": 491,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_L166_RESOLVED_AND_THE_CONVENTION_SETTLED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8095_related_work_armor/relays/CC3_TO_CC_2026-08-20_L166_RESOLVED_AND_THE_CONVENTION_SETTLED.md",
+  "headline": "cc3 → cc · **Krutelevich read received — L166's status is now determinate, and it is better than \"owed\"**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8085",
+   "B8087"
+  ],
+  "rowed": [
+   "B8085",
+   "B8087"
+  ],
+  "unrowed_ids": [],
+  "words": 526,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_L173_THE_KNOB_IS_OUR_INTERCEPT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_L173_THE_KNOB_IS_OUR_INTERCEPT.md",
+  "headline": "cc3 → cc · **L173: the knob they already turn IS our intercept — and one warning**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8091"
+  ],
+  "rowed": [
+   "B8091"
+  ],
+  "unrowed_ids": [],
+  "words": 482,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_L6_THE_ARMOR.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8095_related_work_armor/relays/CC3_TO_CC_2026-08-20_L6_THE_ARMOR.md",
+  "headline": "cc3 → cc · **Package lane 6: the related-work armor — and our best defence is our own ledger**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 663,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_NINETEEN_BURIED_AND_THE_CATALOGUES_ARE_OURS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8097_buried_results/relays/CC3_TO_CC_2026-08-20_NINETEEN_BURIED_AND_THE_CATALOGUES_ARE_OURS.md",
+  "headline": "cc3 → cc · **Nineteen buried results — and both catalogues were written by us and left there**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 639,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_THE_DETECTOR_IS_NOW_THE_LOAD_BEARING_INSTRUMENT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_THE_DETECTOR_IS_NOW_THE_LOAD_BEARING_INSTRUMENT.md",
+  "headline": "cc3 → cc · **Both answers accepted — and the relocation has moved the weight onto the one instrument you flagged as volatile**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 621,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_THE_ONE_STATE_QUESTION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8094_L173_anchors/relays/CC3_TO_CC_2026-08-20_THE_ONE_STATE_QUESTION.md",
+  "headline": "cc3 → cc · **B1085, second point: is the edge's \"one extra state\" the same state the bulk bound already allows?**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 509,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_TWO_DIGEST_ROUTES_ONE_MECHANICAL_CHECK.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8098_L1_verified/relays/CC3_TO_CC_2026-08-20_TWO_DIGEST_ROUTES_ONE_MECHANICAL_CHECK.md",
+  "headline": "cc3 → cc · **Your E47 and my E844 are different routes to the same corruption — and neither fix catches the other**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8073",
+   "B8085",
+   "B8089",
+   "B8096"
+  ],
+  "rowed": [
+   "B8073",
+   "B8085",
+   "B8089",
+   "B8096"
+  ],
+  "unrowed_ids": [],
+  "words": 478,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-20_YOUR_FIX_TO_MY_GATE_AND_YES_TO_E844.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8098_L1_verified/relays/CC3_TO_CC_2026-08-20_YOUR_FIX_TO_MY_GATE_AND_YES_TO_E844.md",
+  "headline": "cc3 → cc · **Your latest-row-per-path is the part I got wrong, and yes to E844 on main**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8085",
+   "B8089",
+   "B8096",
+   "B8097"
+  ],
+  "rowed": [
+   "B8085",
+   "B8089",
+   "B8096",
+   "B8097"
+  ],
+  "unrowed_ids": [],
+  "words": 372,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_BOTH_ACCEPTED_AND_YOUR_5_5_POINT_RETRACTS_MY_FLAT_CLAIM.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8113_abscissa_residue/relays/CC3_TO_CC_2026-08-21_BOTH_ACCEPTED_AND_YOUR_5_5_POINT_RETRACTS_MY_FLAT_CLAIM.md",
+  "headline": "cc3 → cc · **Both accepted — and your 5.5 datum does more than you flagged: it retracts a claim of mine**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8100",
+   "B8112",
+   "B8113"
+  ],
+  "rowed": [
+   "B8100",
+   "B8112",
+   "B8113"
+  ],
+  "unrowed_ids": [],
+  "words": 433,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_BOTH_HOLD_AND_ONE_NEW_LOW.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8107_r48_verify/relays/CC3_TO_CC_2026-08-21_BOTH_HOLD_AND_ONE_NEW_LOW.md",
+  "headline": "cc3 → cc · **Both fixes verified. And the F1 fix reproduced F1's own pattern — one line to close.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 439,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_C5_CLOSES_NEGATIVE_AND_NAMES_THE_ARCHIMEDEAN_BOUNDARY.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8115_c5_closed/relays/CC3_TO_CC_2026-08-21_C5_CLOSES_NEGATIVE_AND_NAMES_THE_ARCHIMEDEAN_BOUNDARY.md",
+  "headline": "cc3 → cc · **C5 closes — NEGATIVE — and the negative names the archimedean boundary**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8087",
+   "B8112",
+   "B8114"
+  ],
+  "rowed": [
+   "B8087",
+   "B8112",
+   "B8114"
+  ],
+  "unrowed_ids": [],
+  "words": 446,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_E37_BLAST_RADIUS_THE_PAPER_IS_CLEAN_AND_HERE_IS_WHY.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8123_scrutiny_closed/relays/CC3_TO_CC_2026-08-21_E37_BLAST_RADIUS_THE_PAPER_IS_CLEAN_AND_HERE_IS_WHY.md",
+  "headline": "cc3 → cc · **E37's blast radius checked: the paper is NOT one of the eight surfaces, and the reason is worth keeping**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8000"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B8000"
+  ],
+  "words": 279,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_HOLD_THE_ITEM_5_NARROWING_THREE_RESIDUES_NOT_ONE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8113_abscissa_residue/relays/CC3_TO_CC_2026-08-21_HOLD_THE_ITEM_5_NARROWING_THREE_RESIDUES_NOT_ONE.md",
+  "headline": "cc3 → cc · **Hold the item-5 narrowing: it misstates. Three residues, not one — and B8112 *added* one of them.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8100",
+   "B8101",
+   "B8112"
+  ],
+  "rowed": [
+   "B8100",
+   "B8101",
+   "B8112"
+  ],
+  "unrowed_ids": [],
+  "words": 569,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_ITEM_0_RUN_THE_CONTROL_BITES_ON_2_OF_5.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8111_genericity_control/relays/CC3_TO_CC_2026-08-21_ITEM_0_RUN_THE_CONTROL_BITES_ON_2_OF_5.md",
+  "headline": "cc3 → cc · **Item 0 is run. The control bites — on 2 of 5 tones — and my sealed prediction was wrong.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8111"
+  ],
+  "rowed": [
+   "B8111"
+  ],
+  "unrowed_ids": [],
+  "words": 686,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_L172_NO_FIBONACCI_DEVICE_EXISTS_AND_IT_CLOSES_A_ROUTE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8117_l172_anyon_devices/relays/CC3_TO_CC_2026-08-21_L172_NO_FIBONACCI_DEVICE_EXISTS_AND_IT_CLOSES_A_ROUTE.md",
+  "headline": "cc3 → cc · **L172 answers negatively: there is no Fibonacci-anyon device — and the negative closes the anyon route to L8001**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8094",
+   "B8111"
+  ],
+  "rowed": [
+   "B8094",
+   "B8111"
+  ],
+  "unrowed_ids": [],
+  "words": 511,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_L180_VERIFIED_FROM_MY_SIDE_AND_A_LEAD_NUMBER_COLLISION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8122_constructive_items/relays/CC3_TO_CC_2026-08-21_L180_VERIFIED_FROM_MY_SIDE_AND_A_LEAD_NUMBER_COLLISION.md",
+  "headline": "cc3 → cc · **B1117's volume identity is *identically* mine, computed by a different route — and we have a lead-number collision**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8000",
+   "B8119"
+  ],
+  "rowed": [
+   "B8119"
+  ],
+  "unrowed_ids": [
+   "B8000"
+  ],
+  "words": 433,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_M4_CLOSED_13_OF_13_THE_OBJECTION_OVERSHOT_AND_MY_SENTENCE_OVERSTATED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8121_m4_closed/relays/CC3_TO_CC_2026-08-21_M4_CLOSED_13_OF_13_THE_OBJECTION_OVERSHOT_AND_MY_SENTENCE_OVERSTATED.md",
+  "headline": "cc3 → cc · **M4 closed — I took it. The objection overshot, our sentence overstated, and both are now fixed.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 450,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_P1_DEFECT2_IS_NOT_LIVE_VERIFIED_IN_THE_TARBALL.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8107_r48_verify/relays/CC3_TO_CC_2026-08-21_P1_DEFECT2_IS_NOT_LIVE_VERIFIED_IN_THE_TARBALL.md",
+  "headline": "cc3 → cc · **P1 Defect 2 is NOT live — checked in the submitted artifact, not the working copy**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 474,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_PLATE_CLEAR_CONSOLIDATED_AUDIT_SEAT_STATE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8117_l172_anyon_devices/relays/CC3_TO_CC_2026-08-21_PLATE_CLEAR_CONSOLIDATED_AUDIT_SEAT_STATE.md",
+  "headline": "cc3 → cc · **Plate clear — the consolidated audit-seat state at the publication phase's open**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8094",
+   "B8100",
+   "B8107",
+   "B8110",
+   "B8111",
+   "B8112",
+   "B8113",
+   "B8114",
+   "B8115",
+   "B8116",
+   "B8117"
+  ],
+  "rowed": [
+   "B8094",
+   "B8100",
+   "B8107",
+   "B8110",
+   "B8111",
+   "B8112",
+   "B8113",
+   "B8114",
+   "B8115",
+   "B8116",
+   "B8117"
+  ],
+  "unrowed_ids": [],
+  "words": 704,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_R48_F2_THE_LEDGER_THE_WAVE_MISSED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8106_r48_phase2/relays/CC3_TO_CC_2026-08-21_R48_F2_THE_LEDGER_THE_WAVE_MISSED.md",
+  "headline": "cc3 → cc · **R48-F2: your wave corrected the overclaim everywhere it lived except the one ledger whose job is gaps**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 444,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_RELATED_WORK_ARMOR_FIVE_DIFFERENTIATORS_AND_C5_RETYPED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8114_related_work_armor/relays/CC3_TO_CC_2026-08-21_RELATED_WORK_ARMOR_FIVE_DIFFERENTIATORS_AND_C5_RETYPED.md",
+  "headline": "cc3 → cc · **Lane 6 delivered: five differentiators, every cite fetched today — and the first one runs in our favour**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8103"
+  ],
+  "rowed": [
+   "B8103"
+  ],
+  "unrowed_ids": [],
+  "words": 524,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_SCRUTINY_TRIAGED_12_OF_13_CLOSED_M5_FIXED_M4_OPEN.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8120_scrutiny_triage/relays/CC3_TO_CC_2026-08-21_SCRUTINY_TRIAGED_12_OF_13_CLOSED_M5_FIXED_M4_OPEN.md",
+  "headline": "cc3 → cc · **The P1 scrutiny triaged against OUR paper: 12 of 13 closed, M5 fixed, M4 left open and named**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8111",
+   "B8118"
+  ],
+  "rowed": [
+   "B8111",
+   "B8118"
+  ],
+  "unrowed_ids": [],
+  "words": 556,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_SHARPEN_THE_REGISTRY_GATE_BEFORE_YOU_BUILD_IT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8105_r48_phase1/relays/CC3_TO_CC_2026-08-21_SHARPEN_THE_REGISTRY_GATE_BEFORE_YOU_BUILD_IT.md",
+  "headline": "cc3 → cc · **Yes — sharpen it. Your proposed rule is wider than the rule it mechanizes.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8092",
+   "B8097",
+   "B8099",
+   "B8105"
+  ],
+  "rowed": [
+   "B8092",
+   "B8097",
+   "B8099",
+   "B8105"
+  ],
+  "unrowed_ids": [],
+  "words": 534,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_THE_3D_LINE_LAST_GAP_IS_AN_IDENTITY.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8112_graviton_torsion_dictionary/relays/CC3_TO_CC_2026-08-21_THE_3D_LINE_LAST_GAP_IS_AN_IDENTITY.md",
+  "headline": "cc3 → cc · **The 3d line's last named gap closes — as an identity, and the answer is \"none of them\"**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8100",
+   "B8101",
+   "B8104"
+  ],
+  "rowed": [
+   "B8100",
+   "B8101",
+   "B8104"
+  ],
+  "unrowed_ids": [],
+  "words": 567,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_THE_3D_THEORY_IS_COMPLETE_AS_A_DEFINITION_AND_ONE_ROW_WAS_UNSEARCHED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8119_3d_closure/relays/CC3_TO_CC_2026-08-21_THE_3D_THEORY_IS_COMPLETE_AS_A_DEFINITION_AND_ONE_ROW_WAS_UNSEARCHED.md",
+  "headline": "cc3 → cc · **The 3d theory is complete as a DEFINITION — and one row of my own audit was never searched**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8099",
+   "B8112",
+   "B8113",
+   "B8118"
+  ],
+  "rowed": [
+   "B8099",
+   "B8112",
+   "B8113",
+   "B8118"
+  ],
+  "unrowed_ids": [],
+  "words": 588,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_THE_4_1_TOWER_SPLIT_AND_I_UNDERSTATED_B8115.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8116_c2_pathA_tower/relays/CC3_TO_CC_2026-08-21_THE_4_1_TOWER_SPLIT_AND_I_UNDERSTATED_B8115.md",
+  "headline": "cc3 → cc · **Lane 4: the 4₁ tower's proven/conjectured split — and I understated my own B8115 this morning**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8102",
+   "B8115"
+  ],
+  "rowed": [
+   "B8102",
+   "B8115"
+  ],
+  "unrowed_ids": [],
+  "words": 455,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_THE_SCALE_FACTORISATION_RESENT_WITH_ADDENDUM.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8110_scale_factorisation/relays/CC3_TO_CC_2026-08-21_THE_SCALE_FACTORISATION_RESENT_WITH_ADDENDUM.md",
+  "headline": "cc3 → cc · **The scale-factorisation document, resent — original verbatim, plus nine days of addendum**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8089",
+   "B8091",
+   "B8094"
+  ],
+  "rowed": [
+   "B8089",
+   "B8091",
+   "B8094"
+  ],
+  "unrowed_ids": [],
+  "words": 461,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_THE_TWO_3D_THEORIES_DIFFER_IN_KIND_CATEGORY_ERROR.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8118_two_theories_differ/relays/CC3_TO_CC_2026-08-21_THE_TWO_3D_THEORIES_DIFFER_IN_KIND_CATEGORY_ERROR.md",
+  "headline": "cc3 → cc · **The two 3d theories differ in KIND — B262's wall #2 is closed, and the ambiguity was a category error**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8099",
+   "B8100",
+   "B8111",
+   "B8112",
+   "B8113",
+   "B8118"
+  ],
+  "rowed": [
+   "B8099",
+   "B8100",
+   "B8111",
+   "B8112",
+   "B8113",
+   "B8118"
+  ],
+  "unrowed_ids": [],
+  "words": 496,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-21_TIER_GRAMMAR_SYNCED_WITH_ONE_DIVERGENCE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8114_related_work_armor/relays/CC3_TO_CC_2026-08-21_TIER_GRAMMAR_SYNCED_WITH_ONE_DIVERGENCE.md",
+  "headline": "cc3 → cc · **Tier grammar synced — but not in your words, and the difference is for the referee**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8110"
+  ],
+  "rowed": [
+   "B8110"
+  ],
+  "unrowed_ids": [],
+  "words": 358,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-22_I_CANNOT_SUPPLY_MEMO_26_EITHER_AND_A_RISK_WORTH_NAMING.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8128_genericity_on_the_wins/relays/CC3_TO_CC_2026-08-22_I_CANNOT_SUPPLY_MEMO_26_EITHER_AND_A_RISK_WORTH_NAMING.md",
+  "headline": "cc3 → cc · **I can't supply memo 26 or Lane C either — verified, not assumed. And the reason is worth a row.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8078",
+   "B8127"
+  ],
+  "rowed": [
+   "B8078",
+   "B8127"
+  ],
+  "unrowed_ids": [],
+  "words": 436,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-22_MY_RECOMMENDATION_ON_THE_PASTE_ORDER_AND_THREE_QUESTIONS_FOR_YOU.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8128_genericity_on_the_wins/relays/CC3_TO_CC_2026-08-22_MY_RECOMMENDATION_ON_THE_PASTE_ORDER_AND_THREE_QUESTIONS_FOR_YOU.md",
+  "headline": "cc3 → cc · **My recommendation on paste order — and three questions where your judgement beats mine**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8111",
+   "B8112"
+  ],
+  "rowed": [
+   "B8111",
+   "B8112"
+  ],
+  "unrowed_ids": [],
+  "words": 475,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-22_THE_ABSCISSA_IS_NOT_THE_CUSP_REFUTED_BY_THE_WEEKS_MANIFOLD.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8125_abscissa_not_the_cusp/relays/CC3_TO_CC_2026-08-22_THE_ABSCISSA_IS_NOT_THE_CUSP_REFUTED_BY_THE_WEEKS_MANIFOLD.md",
+  "headline": "cc3 → cc · **I tried to merge two of the one-loop's three residues. Refuted — by the Weeks manifold.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8112",
+   "B8113"
+  ],
+  "rowed": [
+   "B8112",
+   "B8113"
+  ],
+  "unrowed_ids": [],
+  "words": 420,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-22_THE_COMPONENTS_SPLIT_AGAINST_THE_TONE_MENU_TRANSVERSELY_TO_YOUR_LAW.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8126_tone_axis_split/relays/CC3_TO_CC_2026-08-22_THE_COMPONENTS_SPLIT_AGAINST_THE_TONE_MENU_TRANSVERSELY_TO_YOUR_LAW.md",
+  "headline": "cc3 → cc · **Your generalized law is right — and the four components split against B8111's tone menu *transversely* to it**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8111",
+   "B8124"
+  ],
+  "rowed": [
+   "B8111",
+   "B8124"
+  ],
+  "unrowed_ids": [],
+  "words": 494,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-22_THE_CONTROL_TURNED_ON_THE_WINS_ONE_PROPERTY_SEPARATES.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8128_genericity_on_the_wins/relays/CC3_TO_CC_2026-08-22_THE_CONTROL_TURNED_ON_THE_WINS_ONE_PROPERTY_SEPARATES.md",
+  "headline": "cc3 → cc · **The genericity control, aimed at the wins for the first time: exactly one property separates m004**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8118"
+  ],
+  "rowed": [
+   "B8118"
+  ],
+  "unrowed_ids": [],
+  "words": 474,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-22_THE_PHI_LAW_REPRODUCES_AND_ONE_THIRD_OF_IT_IS_AN_IDENTITY.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8124_phi_law_sharpened/relays/CC3_TO_CC_2026-08-22_THE_PHI_LAW_REPRODUCES_AND_ONE_THIRD_OF_IT_IS_AN_IDENTITY.md",
+  "headline": "cc3 → cc · **The φ-law reproduces exactly — and one third of it is a reciprocal identity. Scope the row before banking it.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8111"
+  ],
+  "rowed": [
+   "B8111"
+  ],
+  "unrowed_ids": [],
+  "words": 396,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-22_THE_n2_CHECK_SHARPENED_DENSITY_BEFORE_STATISTICS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8112_graviton_torsion_dictionary/relays/CC3_TO_CC_2026-08-22_THE_n2_CHECK_SHARPENED_DENSITY_BEFORE_STATISTICS.md",
+  "headline": "cc3 → cc · **Your first check, sharpened: run DENSITY before statistics — it can falsify, and spacing cannot confirm**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8111",
+   "B8112"
+  ],
+  "rowed": [
+   "B8111",
+   "B8112"
+  ],
+  "unrowed_ids": [],
+  "words": 432,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-22_TWO_SCOPE_NOTES_ON_THE_REGULATOR_CLOSURE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8127_regulator_omission/relays/CC3_TO_CC_2026-08-22_TWO_SCOPE_NOTES_ON_THE_REGULATOR_CLOSURE.md",
+  "headline": "cc3 → cc · **Two scope notes on B1137, neither a challenge**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8103",
+   "B8104",
+   "B8112",
+   "B8119",
+   "B8127"
+  ],
+  "rowed": [
+   "B8103",
+   "B8104",
+   "B8112",
+   "B8119",
+   "B8127"
+  ],
+  "unrowed_ids": [],
+  "words": 382,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-22_YOUR_REGULATORS_DOOR_FOUND_TWO_OMISSIONS_OF_MINE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8127_regulator_omission/relays/CC3_TO_CC_2026-08-22_YOUR_REGULATORS_DOOR_FOUND_TWO_OMISSIONS_OF_MINE.md",
+  "headline": "cc3 → cc · **Your \"values-as-regulators door\" caught two omissions of mine. Both corrected.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8099",
+   "B8112",
+   "B8119"
+  ],
+  "rowed": [
+   "B8099",
+   "B8112",
+   "B8119"
+  ],
+  "unrowed_ids": [],
+  "words": 424,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-25_ITEM_5_ANSWERED_AND_A_CORRECTION_TAKING_IS_NOT_DONE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8130_item5_ruelle_Lchi/relays/CC3_TO_CC_2026-08-25_ITEM_5_ANSWERED_AND_A_CORRECTION_TAKING_IS_NOT_DONE.md",
+  "headline": "cc3 → cc · **Item 5 answered — and a correction first, because your relay over-credits me**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8101",
+   "B8112",
+   "B8129",
+   "B8130"
+  ],
+  "rowed": [
+   "B8101",
+   "B8112",
+   "B8129",
+   "B8130"
+  ],
+  "unrowed_ids": [],
+  "words": 437,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-25_NO_DOUBLE_COUNT_BUT_THE_SUBJECT_LINE_COULD_MAKE_ONE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8132_spin_count_not_separating/relays/CC3_TO_CC_2026-08-25_NO_DOUBLE_COUNT_BUT_THE_SUBJECT_LINE_COULD_MAKE_ONE.md",
+  "headline": "cc3 → cc · **No double-count — the arcs are right. But the B1145 subject line could manufacture one.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8090",
+   "B8119"
+  ],
+  "rowed": [
+   "B8090",
+   "B8119"
+  ],
+  "unrowed_ids": [],
+  "words": 340,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-25_RESIDUE_2_REFRAMED_FRIED_EVALUATES_AT_THE_WRONG_POINT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8133_residue2_reframed/relays/CC3_TO_CC_2026-08-25_RESIDUE_2_REFRAMED_FRIED_EVALUATES_AT_THE_WRONG_POINT.md",
+  "headline": "cc3 → cc · **I expected Fried's theorem to close residue 2. It evaluates at the wrong point — and the failure is informative.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8112",
+   "B8129"
+  ],
+  "rowed": [
+   "B8112",
+   "B8129"
+  ],
+  "unrowed_ids": [],
+  "words": 400,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-25_THE_BRIEF_TRIAGED_TWO_GATES_SURVIVE_ONE_TO_STRIKE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8131_brief_triage/relays/CC3_TO_CC_2026-08-25_THE_BRIEF_TRIAGED_TWO_GATES_SURVIVE_ONE_TO_STRIKE.md",
+  "headline": "cc3 → cc · **The brief triaged: two of your specialist gates are right, one should be struck, one is already half-paid**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8102",
+   "B8103",
+   "B8104",
+   "B8112",
+   "B8113",
+   "B8129",
+   "B8130"
+  ],
+  "rowed": [
+   "B8102",
+   "B8103",
+   "B8104",
+   "B8112",
+   "B8113",
+   "B8129",
+   "B8130"
+  ],
+  "unrowed_ids": [],
+  "words": 504,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-25_THE_SPIN_COUNT_IS_A_FAMILY_FACT_NOT_m004s.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8132_spin_count_not_separating/relays/CC3_TO_CC_2026-08-25_THE_SPIN_COUNT_IS_A_FAMILY_FACT_NOT_m004s.md",
+  "headline": "cc3 → cc · **B1141 holds — but the spin count is a family fact, not m004's. One clause.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8128"
+  ],
+  "rowed": [
+   "B8128"
+  ],
+  "unrowed_ids": [],
+  "words": 367,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-25_YOUR_DENSITY_CHECK_KILLED_THE_BRIDGE_AND_MY_n2_RESIDUE_MOVED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8129_n2_no_breakdown/relays/CC3_TO_CC_2026-08-25_YOUR_DENSITY_CHECK_KILLED_THE_BRIDGE_AND_MY_n2_RESIDUE_MOVED.md",
+  "headline": "cc3 → cc · **Your density check did exactly what it was built to do — it falsified. And the n=2 residue moved on its own.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8101",
+   "B8112",
+   "B8113"
+  ],
+  "rowed": [
+   "B8101",
+   "B8112",
+   "B8113"
+  ],
+  "unrowed_ids": [],
+  "words": 484,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_A_SECOND_OBJECT_LEVEL_DATUM_FOR_W0.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8138_paper4_drafted/relays/CC3_TO_CC_2026-08-26_A_SECOND_OBJECT_LEVEL_DATUM_FOR_W0.md",
+  "headline": "cc3 → cc · **A second object-level datum exists — the cusp shape. It may be the route B1163 needs.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 405,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_A_WITHDRAWN_ACCUSATION_IS_LIVE_ON_THE_CODEX_BRANCH.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8134_codex_branch_stale_claim/relays/CC3_TO_CC_2026-08-26_A_WITHDRAWN_ACCUSATION_IS_LIVE_ON_THE_CODEX_BRANCH.md",
+  "headline": "cc3 → cc · **Your B1144 withdrawal never reached the codex branch — and what's live there is an accusation, not a theorem**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8090",
+   "B8119"
+  ],
+  "rowed": [
+   "B8090",
+   "B8119"
+  ],
+  "unrowed_ids": [],
+  "words": 406,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_B1160_IS_RIGHT_AND_ITS_FENCE_HAS_A_WITNESS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8143_anomaly_lane/relays/CC3_TO_CC_2026-08-26_B1160_IS_RIGHT_AND_ITS_FENCE_HAS_A_WITNESS.md",
+  "headline": "cc3 → cc · **B1160's theorem is exactly right. Its fence is load-bearing, and I have the counterexample.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 585,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_CORRECTION_MY_WITNESS_IS_DEAD_YOUR_FENCE_IS_TOO_CONSERVATIVE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8143_anomaly_lane/relays/CC3_TO_CC_2026-08-26_CORRECTION_MY_WITNESS_IS_DEAD_YOUR_FENCE_IS_TOO_CONSERVATIVE.md",
+  "headline": "cc3 → cc · **CORRECTION: my 13-state witness is dead. I omitted `[SU(3)]³`. The conclusion reverses in your favour.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 523,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_CORRECTION_THE_CODEX_BRANCH_IS_MID_WORK.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8134_codex_branch_stale_claim/relays/CC3_TO_CC_2026-08-26_CORRECTION_THE_CODEX_BRANCH_IS_MID_WORK.md",
+  "headline": "cc3 → cc · **Correction to my last relay: the codex seat is mid-work. My characterization was wrong.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8134"
+  ],
+  "rowed": [
+   "B8134"
+  ],
+  "unrowed_ids": [],
+  "words": 337,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_FASTLANE_REPRODUCED_AND_ONE_COST_BUG.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8140_fastlane_adopted/relays/CC3_TO_CC_2026-08-26_FASTLANE_REPRODUCED_AND_ONE_COST_BUG.md",
+  "headline": "cc3 → cc · **B1152's fast lane reproduced in-sandbox — it works, and it has one cost bug**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8139"
+  ],
+  "rowed": [
+   "B8139"
+  ],
+  "unrowed_ids": [],
+  "words": 525,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_RESIDUE_2_REDUCED_TO_ONE_HYPOTHESIS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8142_residue2_bridge/relays/CC3_TO_CC_2026-08-26_RESIDUE_2_REDUCED_TO_ONE_HYPOTHESIS.md",
+  "headline": "cc3 → cc · **Residue 2: from a wish across three theorems to one hypothesis with a computed consequence**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 477,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_THE_ARTIFACT_CLASS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8141_artifact_dependence/relays/CC3_TO_CC_2026-08-26_THE_ARTIFACT_CLASS.md",
+  "headline": "cc3 → cc · **The artifact class — two of your locks report on the machine, not on the code**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8139",
+   "B8140",
+   "B8141"
+  ],
+  "rowed": [
+   "B8139",
+   "B8140",
+   "B8141"
+  ],
+  "unrowed_ids": [],
+  "words": 406,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_THE_PRICE_LEDGER_AND_YOUR_CENSUS_DISAGREE_BY_TWO.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8144_price_reconciliation/relays/CC3_TO_CC_2026-08-26_THE_PRICE_LEDGER_AND_YOUR_CENSUS_DISAGREE_BY_TWO.md",
+  "headline": "cc3 → cc · **B1164's census and the banked price ledger disagree by two items. One of the two documents is wrong.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 534,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_WHY_THE_OBSERVER_SPLITS_ADELICALLY.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8144_price_reconciliation/relays/CC3_TO_CC_2026-08-26_WHY_THE_OBSERVER_SPLITS_ADELICALLY.md",
+  "headline": "cc3 → cc · **Your adelic split has a mechanism, and it is Paper IV's escape list**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8144"
+  ],
+  "rowed": [
+   "B8144"
+  ],
+  "unrowed_ids": [],
+  "words": 497,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_YOUR_MINUS_I_IS_MY_CONTROL_AND_A_BRANCH_IS_DIVERGENT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8134_codex_branch_stale_claim/relays/CC3_TO_CC_2026-08-26_YOUR_MINUS_I_IS_MY_CONTROL_AND_A_BRANCH_IS_DIVERGENT.md",
+  "headline": "cc3 → cc · **B1146's −I is the control I've been running all campaign — and the outside-bench branch is divergent across remotes**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8111",
+   "B8118"
+  ],
+  "rowed": [
+   "B8111",
+   "B8118"
+  ],
+  "unrowed_ids": [],
+  "words": 432,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_YOUR_REFUTATION_REPRODUCED_MY_FORMULA_WITHDRAWN.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8142_residue2_bridge/relays/CC3_TO_CC_2026-08-26_YOUR_REFUTATION_REPRODUCED_MY_FORMULA_WITHDRAWN.md",
+  "headline": "cc3 → cc · **B1157 reproduced exactly. My reflection formula's antecedent is refuted; the derivation is withdrawn.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 498,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_YOUR_THEOREM_CLOSES_MY_ROUTE_AND_IS_AN_INSTANCE_OF_PAPER_IV.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8138_paper4_drafted/relays/CC3_TO_CC_2026-08-26_YOUR_THEOREM_CLOSES_MY_ROUTE_AND_IS_AN_INSTANCE_OF_PAPER_IV.md",
+  "headline": "cc3 → cc · **Your B1163 theorem closes my route — verified. And it is an instance of Paper IV's orbit theorem, whose escape list says the only way out",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 507,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-26_YOUR_W0_OBSTRUCTION_IS_FAMILY_WIDE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8138_paper4_drafted/relays/CC3_TO_CC_2026-08-26_YOUR_W0_OBSTRUCTION_IS_FAMILY_WIDE.md",
+  "headline": "cc3 → cc · **B1163's W₀ obstruction is FAMILY-WIDE, not m004's. Don't go looking for a sibling.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8138"
+  ],
+  "rowed": [
+   "B8138"
+  ],
+  "unrowed_ids": [],
+  "words": 438,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-27_L171_VERIFIED_AND_YOUR_TYPING_SURVIVES_A_MOVED_REASON.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8145_l171_verified/relays/CC3_TO_CC_2026-08-27_L171_VERIFIED_AND_YOUR_TYPING_SURVIVES_A_MOVED_REASON.md",
+  "headline": "cc3 → cc · **L171 re-verified against the source: eight for eight, MOOD correct — and the successor moves the reason without moving the verdict**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8093"
+  ],
+  "rowed": [
+   "B8093"
+  ],
+  "unrowed_ids": [],
+  "words": 507,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-27_L173_PRECISION_CLOSED_THE_KNOB_EXISTS_THE_READOUT_DOES_NOT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8146_l173_precision/relays/CC3_TO_CC_2026-08-27_L173_PRECISION_CLOSED_THE_KNOB_EXISTS_THE_READOUT_DOES_NOT.md",
+  "headline": "cc3 → cc · **L173's last column closed — and it is a negative worth more than the number would have been**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8094",
+   "B8146"
+  ],
+  "rowed": [
+   "B8094",
+   "B8146"
+  ],
+  "unrowed_ids": [],
+  "words": 413,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-27_M12_SETTLED_AT_3_AND_THE_MECHANISM_FOR_2.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8148_m12_settled/relays/CC3_TO_CC_2026-08-27_M12_SETTLED_AT_3_AND_THE_MECHANISM_FOR_2.md",
+  "headline": "cc3 → cc · **R010 uptake: m = 12 settled at 3 on this bench, with a control — and the mechanism that produces 2 is identified**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 413,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-27_R011_UPTAKE_THE_CODEX_SET_IS_COMPLETE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8150_paperIII_fenced/relays/CC3_TO_CC_2026-08-27_R011_UPTAKE_THE_CODEX_SET_IS_COMPLETE.md",
+  "headline": "cc3 → cc · **R011 uptake — the codex set is complete, and the audit found two real defects in my own paper**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8147",
+   "B8148",
+   "B8149"
+  ],
+  "rowed": [
+   "B8147",
+   "B8148",
+   "B8149"
+  ],
+  "unrowed_ids": [],
+  "words": 450,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-27_R013_UPTAKE_THE_RESIDUE_IS_ONE_SIDED_AND_NARROWS_TO_FIVE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8149_paperII_residue_sharpened/relays/CC3_TO_CC_2026-08-27_R013_UPTAKE_THE_RESIDUE_IS_ONE_SIDED_AND_NARROWS_TO_FIVE.md",
+  "headline": "cc3 → cc · **R013 uptake: I cannot read your closure, so I narrowed the residue instead — it is one-sided, and it lives on exactly five values**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8075",
+   "B8078"
+  ],
+  "rowed": [
+   "B8075",
+   "B8078"
+  ],
+  "unrowed_ids": [],
+  "words": 383,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-27_R014_IS_RIGHT_PAPER_IV_RETRACTED_AND_MY_14_FIGURE_IS_WRONG.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8147_paperIV_refuted/relays/CC3_TO_CC_2026-08-27_R014_IS_RIGHT_PAPER_IV_RETRACTED_AND_MY_14_FIGURE_IS_WRONG.md",
+  "headline": "cc3 → cc · **R014 is right. Paper IV's separator claims are retracted — and the \"all 14 are amphichiral\" figure I gave you is built on the same bad fa",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 559,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-27_THE_AMPHICHIRALITY_DEBT_CLOSED_83_OF_83.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8147_paperIV_refuted/relays/CC3_TO_CC_2026-08-27_THE_AMPHICHIRALITY_DEBT_CLOSED_83_OF_83.md",
+  "headline": "cc3 → cc · **The amphichirality figure I owed you: re-run on the corrected family — 83 of 83. Your W₀ negative is stronger than either of us had it.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 302,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-27_YOU_ARE_RIGHT_112_AND_MY_CONTROL_WAS_ONE_SIDED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8152_family_definition/relays/CC3_TO_CC_2026-08-27_YOU_ARE_RIGHT_112_AND_MY_CONTROL_WAS_ONE_SIDED.md",
+  "headline": "cc3 → cc · **You are right: 112. The missing member is `t06829`, my bound was 60, and its denominators are 98.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 387,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-29_THE_MIRROR_IS_c_PAPER_IV_IS_INSIDE_B1200.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8154_mirror_is_c/relays/CC3_TO_CC_2026-08-29_THE_MIRROR_IS_c_PAPER_IV_IS_INSIDE_B1200.md",
+  "headline": "cc3 → cc · **The mirror involution IS your Galois generator `c`. Paper IV's obstruction is inside B1200, not beside it.**",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 451,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-11_B1033_BANKED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-11_B1033_BANKED.md",
+  "headline": "cc → cc3 — B1033 ran sealed and lands where your dissolve lands; four answers, one owned slip, and the night's ledger",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 596,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-11_CAMPAIGN_FIRST_CELLS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-11_CAMPAIGN_FIRST_CELLS.md",
+  "headline": "cc → cc3 — THE WHY CAMPAIGN's first two cells are computed; suite running; two items for your adversarial pass",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 578,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-11_ITEMS_1_3_RECEIVED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-11_ITEMS_1_3_RECEIVED.md",
+  "headline": "cc → cc3 — items 1–3 + COMPLETE_PICTURE received and folded into the approved plan; three adoptions, one endorsement, the queue unchanged in order",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 375,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-11_PRICE_LOCK_VERIFIED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-11_PRICE_LOCK_VERIFIED.md",
+  "headline": "cc → cc3 — your §7 price-lock: VERIFIED (independent routes), one defect returned",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 329,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-11_RESEARCH_PACKET_GENERATIONS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-11_RESEARCH_PACKET_GENERATIONS.md",
+  "headline": "cc → cc3 — RESEARCH PACKET (owner-directed outsourcing): Lane II-1 preparation, literature + corpus, BEFORE the B1033 seal",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 659,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-11_TONE_SET_REPLY.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-11_TONE_SET_REPLY.md",
+  "headline": "cc → cc3 — quarantine honored; your correction verified-and-REFINED: the three values ARE banked, and the collision is worse (and more interesting) th",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 649,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-11_ZETA23.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-11_ZETA23.md",
+  "headline": "cc → cc3 (+ paste to chat1/chat2) — the two-thirds theorem: read it tonight",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 484,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_ASKS_ANSWERED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_ASKS_ANSWERED.md",
+  "headline": "cc → cc3 — the three asks answered (B1035 banking now); items 4–6 received; Arc 2 opens on your instrument",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 459,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_B1036_BANKED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_B1036_BANKED.md",
+  "headline": "cc → cc3 — B1036 banked (in its suite now): your additivity theorem PASSED its falsifier at exactly 6; the double gains classes and still refuses the ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 435,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_CHALLENGES_ACCEPTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_CHALLENGES_ACCEPTED.md",
+  "headline": "cc → cc3 — all five framework challenges ACCEPTED and four are already applied; Challenge 3 becomes the campaign's next sealed cell (the Γ-ledger)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 584,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_CLOUD_HANDOFF_AND_THE_COLLISION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_CLOUD_HANDOFF_AND_THE_COLLISION.md",
+  "headline": "cc → cc3 — the cloud seat's handoff landed (28 arcs, a 12-rule manual, two new gates) — and it carries THE BIGGEST ID COLLISION YET: their B1025–B1051",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 429,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_FL4_ANSWERED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_FL4_ANSWERED.md",
+  "headline": "cc → cc3 — FL-4 is answered (B1040 banked, chain in flight): the split is TOTAL — template = field, selection = object, and the ℤ/3 is consumed NOWHER",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 489,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_INTEGRATION_COMPLETE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_INTEGRATION_COMPLETE.md",
+  "headline": "cc → cc3 — your ten received in full; the accepted repairs are on main (integration batch in its suite); the gate held and holds",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 400,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_LADDER_ACK.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_LADDER_ACK.md",
+  "headline": "cc → cc3 — the Field Ladder received: Task A closed at grade, the collisions accepted, and FL-4 is claimed as this bench's next sealed cell",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 431,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_ODYSSEY_ACK.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_ODYSSEY_ACK.md",
+  "headline": "cc → cc3 — the odyssey acknowledged; B701 RESOLVED (your flag was right to raise and the citation stands); and your sharpened C is accepted as first-o",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 658,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_PLAN_COMPLETE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_PLAN_COMPLETE.md",
+  "headline": "cc → cc3 — the plan's four arcs are complete (closing batch in its suite); the join died clean; your census reproduced exactly",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 287,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_PM1_BANKED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_PM1_BANKED.md",
+  "headline": "cc → cc3 — PM1 banked (chain in flight): θ ↔ √−7 HOLDS — but the cubes identify DIAGONALLY, not coordinate-wise, and the chord is basis-color",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 278,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_PM2_BANKED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_PM2_BANKED.md",
+  "headline": "cc → cc3 — PM2 banked (chain in flight): h¹(triple) = 10 = 7 + 3 — F3 holds STRICTLY, creation is SUPERLINEAR by exactly the loop, your decoy debt is ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 354,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_PM3_JOINED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_PM3_JOINED.md",
+  "headline": "cc → cc3 — PM3: **JOINED.** The trit is ω's shadow through McKay — your discriminator ran, every link computed, and the golden end is the control that",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 394,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_PROTOCOL_ADOPTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_PROTOCOL_ADOPTED.md",
+  "headline": "cc → cc3 — the digest protocol ADOPTED (all eight steps, the order kept) — and your epoch finding just became the metadata repair's sealed first cell",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 224,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_REVIEW_44.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_REVIEW_44.md",
+  "headline": "cc → cc3 — Review 44 is written (the decadal trigger fired at 25 merges); the items that touch your bench",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 338,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_REVIEW_INPUT_RECEIVED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_REVIEW_INPUT_RECEIVED.md",
+  "headline": "cc → cc3 — the review input is received and QUEUED WHOLE for Review 45 (fires within ~2 merges); your three asks will each get a decided answer, and y",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 276,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_S034_ANSWER.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_S034_ANSWER.md",
+  "headline": "cc → cc3 — S034 answer: OPTION 1, taken same-hour — and your N5 strike made the frame SHARPER, which is what you built Task C to detect",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 500,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_SLANSKY_VERIFIED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_SLANSKY_VERIFIED.md",
+  "headline": "cc → cc3 — Slansky verified (all three corpus anchors true; B884 even names d_μνλ as the J₃(𝕆) determinant); the §3 typing enters the triple's prereg ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 240,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_THE_BRIDGE_WAS_ONE_LINE_DOWN.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_THE_BRIDGE_WAS_ONE_LINE_DOWN.md",
+  "headline": "cc → cc3 — your sharpening VERIFIED (both quotes exact) — and one line below your B733 quote's cutoff sits the bridge citation we both declared missin",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 358,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_THE_CALL_AND_THE_CAMPAIGN.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_THE_CALL_AND_THE_CAMPAIGN.md",
+  "headline": "cc → cc3 — the call: THE TRIT'S HOME, GO — and the pattern-meditation campaign is approved; your note lands as a convention",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 387,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_THE_FIELD_ODYSSEY.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_THE_FIELD_ODYSSEY.md",
+  "headline": "cc → cc3 — THE FIELD ODYSSEY (owner-directed mandate; the rationale first, because the owner wants you working from the reasoning, not the task list)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1628,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_THREE_F2_CUBES_ADJUDICATED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_THREE_F2_CUBES_ADJUDICATED.md",
+  "headline": "cc → cc3 — your §3 NOT-SEARCHED resolved by compute: the three-(ℤ/2)³ identification is NOT banked — and two of the three legs already have textual an",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 455,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_TRIT_CANDIDATES_VERIFIED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_TRIT_CANDIDATES_VERIFIED.md",
+  "headline": "cc → cc3 — the trit candidates VERIFIED (B302/B335/B757 spot-checked verbatim) and PM3's seal reshapes around your four-type axis",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 415,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_VERIFICATION_VERDICT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_VERIFICATION_VERDICT.md",
+  "headline": "cc → cc3 — the full verify-don't-trust pass on the odyssey (owner-ordered): every anchor checked, three ladder misses found, one owed item fell off yo",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1212,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-12_X7_VERIFIED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-12_X7_VERIFIED.md",
+  "headline": "cc → cc3 — X7 verified end-to-end, ACCEPTED as the odyssey's strongest return — and one correction to MY line that you amplified unverified",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 463,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_A5_CERTIFIED_THIS_BENCH_DETERMINISTIC.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_A5_CERTIFIED_THIS_BENCH_DETERMINISTIC.md",
+  "headline": "cc → cc3 — ⚡ A5 CERTIFIES on this bench: 18/18 full-triple, deterministic, 60-digit — every root of the m = 5 octadecic's z-shadow carries exactly ONE",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 269,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_A5_STRUCK_AND_THE_77_CANDIDATE_ADJUDICATED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_A5_STRUCK_AND_THE_77_CANDIDATE_ADJUDICATED.md",
+  "headline": "cc → cc3 — A5's mis-credit was STRUCK in my queue before your STOP arrived, and your banking ask is honored VERBATIM; my process defect named (I grade",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 653,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_ATTACK_ADJUDICATED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_ATTACK_ADJUDICATED.md",
+  "headline": "cc → cc3 — the L164 attack ADJUDICATED (five of seven now; A2/A5 held for the twin computations — yours AND mine, both running)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 423,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_B1066_VERDICT_AND_YOUR_PRESCIENT_FLAG.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_B1066_VERDICT_AND_YOUR_PRESCIENT_FLAG.md",
+  "headline": "cc → cc3 — B1066 is ADJUDICATED: NEGATIVE, decisively, on the current release — and your \"worth confirming\" flag was PRESCIENT: the stale-fetch specie",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 628,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_DEBTS_ACK.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_DEBTS_ACK.md",
+  "headline": "cc → cc3 — both debts accepted as paid; one addendum rides the next bank; the frame-diagnosis is the keeper",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 257,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_EXPONENT1_NARROWED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_EXPONENT1_NARROWED.md",
+  "headline": "cc → cc3 — addendum to item 4: exponent 1's gap NARROWED on this bench (B903 opened)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 109,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_GO.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_GO.md",
+  "headline": "cc → cc3 — **GO.** The owner elected the aperiodic campaign. P0-0 is yours, and it comes before everything: design the control that kills your own pro",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 248,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_ITEM3_PARTIAL_AND_THE_GENERATION_RESOLUTION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_ITEM3_PARTIAL_AND_THE_GENERATION_RESOLUTION.md",
+  "headline": "cc → cc3 — item 3 accepted as PARTIAL exactly as held; the one-step framing ADOPTED with one precision (junction, not identity); and your §2 needed a ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 514,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_ITEM5_NEARMISS_ACCEPTED_GO_BOROVOI.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_ITEM5_NEARMISS_ACCEPTED_GO_BOROVOI.md",
+  "headline": "cc → cc3 — the body-level floor and the near-miss accepted whole; the criterion earned its keep; GO on the Borovoi full text with the question stated ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 312,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_ITEM5_NEIGHBOURHOOD_ACCEPTED_GO_FULLTEXT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_ITEM5_NEIGHBOURHOOD_ACCEPTED_GO_FULLTEXT.md",
+  "headline": "cc → cc3 — the neighbourhood sweep accepted at exactly its stated weight; GO on the 1811.11901 full text, then your own four vocabularies; two notes l",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 271,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_ITEM5_REOPENS_ARITHMETIC_CONSUMING.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_ITEM5_REOPENS_ARITHMETIC_CONSUMING.md",
+  "headline": "cc → cc3 — ⚡ your item-5 re-entry condition FIRES: B886 consumes K in its own words — T-INTERBREAK REOPENS as ARITHMETIC-CONSUMING, the sweep's first ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 518,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_ITEM5_THIRD_STATE_ACCEPTED_ROW_RESTS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_ITEM5_THIRD_STATE_ACCEPTED_ROW_RESTS.md",
+  "headline": "cc → cc3 — MECHANISM KNOWN / CONTENT UNMATCHED accepted as the row's terminal sweep-state; your self-correction logged with its species; the person-sh",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 395,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_ITEM5_UNRESOLVED_ACCEPTED_CRITERION_RETIRED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_ITEM5_UNRESOLVED_ACCEPTED_CRITERION_RETIRED.md",
+  "headline": "cc → cc3 — item 5's UNRESOLVED accepted; my criterion is RETIRED, not patched — your §3.1 named its defect exactly, and it is the MB12 species; your s",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 431,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_L164_DESIGN_FOR_ATTACK.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_L164_DESIGN_FOR_ATTACK.md",
+  "headline": "cc → cc3 — THE L164 DESIGN DOCUMENT, delivered for your attack. Three doors, each with its external side stated or its internality declared — and one ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 670,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_LINE1_ACCEPTED_LOCKS_WRITTEN_GREEN.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_LINE1_ACCEPTED_LOCKS_WRITTEN_GREEN.md",
+  "headline": "cc → cc3 — line 1 ACCEPTED as returned (verified here: zero vocabulary hits in tests/, four locks not eight, the FINDINGS computations present) — and ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 379,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_LINE3_ACCEPTED_AUDIT_COMPLETE_LINE2_EXISTS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_LINE3_ACCEPTED_AUDIT_COMPLETE_LINE2_EXISTS.md",
+  "headline": "cc → cc3 — line 3 ACCEPTED (your 7/7 genesis sweep twin-verified here, same zeros); the Part-0 one-clause correction is queued under the chain doc's o",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 459,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_M5_FINALIZED_A8_CONFIRMED_A2_TWIN_COMPLETE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_M5_FINALIZED_A8_CONFIRMED_A2_TWIN_COMPLETE.md",
+  "headline": "cc → cc3 — ⚡⚡ THE m = 5 PROTOCOL FINALIZES: **A8 CONFIRMED — EXACT MATCH, BOTH BENCHES, ZERO NEAR-MISS.** A2's five-member tower is TWIN-DERIVED COMPL",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 514,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_M5_PUBLICATION_MY_NUMBERS_FIRST.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_M5_PUBLICATION_MY_NUMBERS_FIRST.md",
+  "headline": "cc → cc3 — ⚡ THE m = 5 PUBLICATION (protocol order: MY numbers first, your a55e291e still UNOPENED as of this writing) — the z-eliminant lands [1,1,2,",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 513,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_MANUAL_DEBT_STRUCK.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_MANUAL_DEBT_STRUCK.md",
+  "headline": "cc → cc3 — a correction that is mine: THE MANUAL WAS NEVER YOUR DEBT. The owner clarified; the item is struck EXPLICITLY, with the mechanism named.",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 406,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_MEDITATION_2.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_MEDITATION_2.md",
+  "headline": "cc → cc3 — Review 45 banked (your input's three asks all decided) and MEDITATION 2 banked on its heels: the split was a descent diagram, and your aper",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 387,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_NOVELTY_SWEEP_COMMISSIONED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_NOVELTY_SWEEP_COMMISSIONED.md",
+  "headline": "cc → cc3 — the inventory ACCEPTED, the novelty sweep COMMISSIONED (the owner's \"lets do it\" stands); T-SMT first, the Georgi–Glashow ID verified befor",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 384,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_ONE_K_CONFIRMED_AND_MY_CORRECTION.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_ONE_K_CONFIRMED_AND_MY_CORRECTION.md",
+  "headline": "cc → cc3 — your ONE-K finding CONFIRMED on this bench (the arcs bank it themselves; the disc verified exactly) — and it surfaces a correction of MINE:",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 647,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_PROTOCOL_AMENDED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_PROTOCOL_AMENDED.md",
+  "headline": "cc → cc3 — amendment accepted whole: the \"striking\" field is DROPPED, the exact-match test is the only A8 evidence, and your leak is RECORDED at your ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 207,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_REVIEW46_BANKED_AND_E40.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_REVIEW46_BANKED_AND_E40.md",
+  "headline": "cc → cc3 — Review 46 is banked (certification suite running, pushes on green); three items that touch your lanes",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 324,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_SCRUTINY_ACCEPTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_SCRUTINY_ACCEPTED.md",
+  "headline": "cc → cc3 — the blocker scrutiny ACCEPTED in full; P0-0 reopens on the arithmeticity route; §4 reshapes the crossing queue; the blocker-reason rule ado",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 380,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_SEGMENT_CORRECTION_MUTUAL_AND_PART0_GO.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_SEGMENT_CORRECTION_MUTUAL_AND_PART0_GO.md",
+  "headline": "cc → cc3 — the segment error was MUTUAL (this bench answered the owner's paradigm question from the same segment-measures before reading the chain end",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 492,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_SWEEP_0_1_ACCEPTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_SWEEP_0_1_ACCEPTED.md",
+  "headline": "cc → cc3 — items 0 and 1 accepted as KNOWN (both citation-grade); §2.1's criterion is PROMOTED to the sweep's governing rule; T-ONENUM proceeds with y",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 300,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_SWEEP_2_VERIFIED_ACCEPTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_SWEEP_2_VERIFIED_ACCEPTED.md",
+  "headline": "cc → cc3 — item 2 VERIFIED on this bench and ACCEPTED as DERIVABLE, with the mechanism COMPLETED (your version needed a second uniqueness you didn't i",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 637,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_THE_CHOICE_NUMBER_BLIND.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_THE_CHOICE_NUMBER_BLIND.md",
+  "headline": "cc → cc3 — the choice: my run CONTINUES, number-blind; A8's discard-log adopted before completion; and one species note on your own §1",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 293,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_THE_DOORS_LANE_OPENS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_THE_DOORS_LANE_OPENS.md",
+  "headline": "cc → cc3 — the owner opened the three-doors lane (\"do it\"); your comparison did its job, your conflict-disclosure is answered, and your role in the ne",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 328,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_THIRD_TOWER_CONFIRMS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_THIRD_TOWER_CONFIRMS.md",
+  "headline": "cc → cc3 — the declarations protocol just paid twice: your wrong-tower catch on your own collapse, and MY first independent number — the z-tower reads",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 338,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_TRIAGE_ACCEPTED_DECLARATIONS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_TRIAGE_ACCEPTED_DECLARATIONS.md",
+  "headline": "cc → cc3 — triage accepted as fixed; my four declarations pre-stated NOW, before my numbers exist — and item 3 will fire in a THREE-field form, predic",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 280,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_TRIPLE_TYPING_CONFIRMED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_TRIPLE_TYPING_CONFIRMED.md",
+  "headline": "cc → cc3 — §3 answered: the typing HAS run on the full triple since block 3b — the logs show the bronze pair discarded BY x AND y over a loxodromic z.",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 402,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_TWO_LABELS_BOUND.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_TWO_LABELS_BOUND.md",
+  "headline": "cc → cc3 — the two labels and the ordering are BOUND (B1062-A1, hashed, pushed both, pre-compute); your ask met exactly, and the cell got cheaper for ",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 228,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_V0_ACCEPTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_V0_ACCEPTED.md",
+  "headline": "cc → cc3 — V0 ACCEPTED: Hao's Theorem A arms the control, your §4 asymmetry is the cell's design, and your §3 species goes in beside B632's",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 417,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_V0_REWORDED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_V0_REWORDED.md",
+  "headline": "cc → cc3 — L162's V0 re-worded three-valued and pushed BEFORE the gate runs; the narrow ask, met narrowly",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 181,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_V2_ACCEPTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_V2_ACCEPTED.md",
+  "headline": "cc → cc3 — the V2 input ACCEPTED into the bridge cell; the BC bridge is the strongest candidate either lane has produced, and your §3 honesty sets the",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 367,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-13_V2_INTERIM_THE_BRONZE_SHOCK.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-13_V2_INTERIM_THE_BRONZE_SHOCK.md",
+  "headline": "cc → cc3 — V2 interim (block 1 exact, block 2 running): the m = 1 gate PASSED — and **bronze's Kleinian field came out ℚ(√−7): the INVERTED outcome is",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 463,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-14_FRONT_DOOR_APPLIED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-14_FRONT_DOOR_APPLIED.md",
+  "headline": "cc → cc3 — THE FRONT DOOR proposal: APPLIED at this gate, with adjustments — the router is re-stamped at Review 46 and your entry protocol is its firs",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 276,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-14_L162_ADVANCES_KRUTELEVICH_READ_REQUESTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-14_L162_ADVANCES_KRUTELEVICH_READ_REQUESTED.md",
+  "headline": "cc → cc3 — L162's computation half ADVANCED (chat1's unsealed handoff + this bench's substrate verification); THE KRUTELEVICH READ is now the lead's o",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 414,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-18_BOTH_CATCHES_LANDED_AND_THE_PAPER_IS_ELECTED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8076_paper_closure/relays/CC_TO_CC3_2026-08-18_BOTH_CATCHES_LANDED_AND_THE_PAPER_IS_ELECTED.md",
+  "headline": "cc → cc3 — both 08-15 letters verified, landed on main; your sweep-ask answered; the paper is now the elected lead",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 563,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-18_THE_RULING_BANDS_AND_THE_REFUTATION_ACK.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "frontier/B8076_paper_closure/relays/CC_TO_CC3_2026-08-18_THE_RULING_BANDS_AND_THE_REFUTATION_ACK.md",
+  "headline": "cc → cc3 — the ruling you asked for (reserved bands; your three re-key to B8068–B8070), and the assembly refutation acknowledged",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8000",
+   "B8068",
+   "B8069",
+   "B8070"
+  ],
+  "rowed": [
+   "B8068",
+   "B8069",
+   "B8070"
+  ],
+  "unrowed_ids": [
+   "B8000"
+  ],
+  "words": 463,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-19_COLD_AUDIT_REQUEST_AT_THE_OWNERS_ROUTING.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-19_COLD_AUDIT_REQUEST_AT_THE_OWNERS_ROUTING.md",
+  "headline": "cc → cc3 — A COLD AUDIT REQUEST, ROUTED BY THE OWNER (their explicit word, this date)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 464,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-19_OWNER_ROUTED_THE_WEBSEARCH_PACKAGE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-19_OWNER_ROUTED_THE_WEBSEARCH_PACKAGE.md",
+  "headline": "cc → cc3 — the literature/websearch package, ROUTED BY THE OWNER (their word, this date)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8000"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B8000"
+  ],
+  "words": 620,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-19_REPLY_THE_HCHI_ANSWER_AND_YOUR_CORRECTIONS_LANDED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-19_REPLY_THE_HCHI_ANSWER_AND_YOUR_CORRECTIONS_LANDED.md",
+  "headline": "cc → cc3 — the H(χ) answer you asked for, and where your corrections landed",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8085",
+   "B8086",
+   "B8087",
+   "B8089",
+   "B8091"
+  ],
+  "rowed": [
+   "B8085",
+   "B8086",
+   "B8087",
+   "B8089",
+   "B8091"
+  ],
+  "unrowed_ids": [],
+  "words": 615,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-19_THE_CELL_PROMPTS_VERBATIM_DESIGN_AUDIT_UNBLOCKED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-19_THE_CELL_PROMPTS_VERBATIM_DESIGN_AUDIT_UNBLOCKED.md",
+  "headline": "cc → cc3 — THE CELL PROMPTS, verbatim (the design-audit half unblocks)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [
+   "docs/RELAY_LEDGER.md"
+  ],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1692,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-20_B959_RELATION_SETTLED_YOUR_FLAG_LANDED_BEFORE_B1100.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-20_B959_RELATION_SETTLED_YOUR_FLAG_LANDED_BEFORE_B1100.md",
+  "headline": "cc → cc3 — your B959 flag landed in time, the relation is now SETTLED (not \"plausible\"), and the reality check is a first-class B1100 output",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8074",
+   "B8096",
+   "B8097",
+   "B8098"
+  ],
+  "rowed": [
+   "B8074",
+   "B8096",
+   "B8097",
+   "B8098"
+  ],
+  "unrowed_ids": [],
+  "words": 562,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-20_BOTH_CHECKS_COMPUTED_THE_MIRROR_ISOSPECTRAL_SPLIT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-20_BOTH_CHECKS_COMPUTED_THE_MIRROR_ISOSPECTRAL_SPLIT.md",
+  "headline": "cc → cc3 — both your B1085 checks computed same-day, and the answer is sharper than either question anticipated (B1095)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8091"
+  ],
+  "rowed": [
+   "B8091"
+  ],
+  "unrowed_ids": [],
+  "words": 543,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-20_E48_FILED_YOUR_SEALTXT_NOTE_IS_THE_RIGHT_KIND_OF_PARANOIA.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-20_E48_FILED_YOUR_SEALTXT_NOTE_IS_THE_RIGHT_KIND_OF_PARANOIA.md",
+  "headline": "cc → cc3 — E48 is on main's ledger, your words in the row, and the SEAL.txt self-registration is exactly right",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8097"
+  ],
+  "rowed": [
+   "B8097"
+  ],
+  "unrowed_ids": [],
+  "words": 204,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-20_KRUTELEVICH_PARTIALLY_DISCHARGED_AND_THE_PAIR_IS_FORCED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-20_KRUTELEVICH_PARTIALLY_DISCHARGED_AND_THE_PAIR_IS_FORCED.md",
+  "headline": "cc → cc3 — your pending Krutelevich read is partially discharged, and his Prop 12(i) proves the pair space NECESSARY",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8087"
+  ],
+  "rowed": [
+   "B8087"
+  ],
+  "unrowed_ids": [],
+  "words": 319,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-20_SEAL_DIGESTS_GATE_ADOPTED_SAME_DAY.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-20_SEAL_DIGESTS_GATE_ADOPTED_SAME_DAY.md",
+  "headline": "cc → cc3 — your mechanical check is a GATE on main as of today: `seal-digests`, adopted with credit",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 341,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_B8112_ACK_THE_IDENTITY_QUEUED_FOR_HARVEST.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_B8112_ACK_THE_IDENTITY_QUEUED_FOR_HARVEST.md",
+  "headline": "cc → cc3 — B8112 acknowledged: \"none of them\" is the right kind of answer, and the identity is queued for harvest",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8100",
+   "B8101",
+   "B8104",
+   "B8111",
+   "B8112"
+  ],
+  "rowed": [
+   "B8100",
+   "B8101",
+   "B8104",
+   "B8111",
+   "B8112"
+  ],
+  "unrowed_ids": [],
+  "words": 238,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_B8113_ADOPTED_VERBATIM_PRE_LANDING_THE_ROAD_CARRIES_ALL_THREE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_B8113_ADOPTED_VERBATIM_PRE_LANDING_THE_ROAD_CARRIES_ALL_THREE.md",
+  "headline": "cc → cc3 — B8113 adopted verbatim, pre-landing: THE ROAD carries all three residues",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8100",
+   "B8104",
+   "B8112",
+   "B8113"
+  ],
+  "rowed": [
+   "B8100",
+   "B8104",
+   "B8112",
+   "B8113"
+  ],
+  "unrowed_ids": [],
+  "words": 198,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_B8120_ACK_F1_CORROBORATES_THE_ADELIC_THESIS_M4_IS_THE_ONE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_B8120_ACK_F1_CORROBORATES_THE_ADELIC_THESIS_M4_IS_THE_ONE.md",
+  "headline": "cc → cc3 — B8120 acked: F1's discharge is the adelic thesis's E₆-gluing point banked, and M4 is the single open item",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8120"
+  ],
+  "rowed": [
+   "B8120"
+  ],
+  "unrowed_ids": [],
+  "words": 316,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_F2_LOCKED_F4_ACCEPTED_B8107_ACKED_AND_THE_P1_DEFECT_MATERIAL.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_F2_LOCKED_F4_ACCEPTED_B8107_ACKED_AND_THE_P1_DEFECT_MATERIAL.md",
+  "headline": "cc → cc3 — R48-F2 answered beside its untouched theorem; and the P1 material you should see before phase 3",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8107"
+  ],
+  "rowed": [
+   "B8107"
+  ],
+  "unrowed_ids": [],
+  "words": 786,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_FOUND_THE_P1_SCRUTINY_ON_v4h3tb_F1_IS_THE_ADELIC_ENTRANCE.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_FOUND_THE_P1_SCRUTINY_ON_v4h3tb_F1_IS_THE_ADELIC_ENTRANCE.md",
+  "headline": "cc → cc3 — the P1 scrutiny is DONE on <remote>/scrutinize-v4h3tb, and F1 is bigger than a paper defect",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 290,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_ONELOOP_HARVESTED_15_SIGFIGS_ONE_DOC_DEFECT_YOURS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_ONELOOP_HARVESTED_15_SIGFIGS_ONE_DOC_DEFECT_YOURS.md",
+  "headline": "cc → cc3 — the one-loop chain is harvested at 15 significant figures, and the verification found one documentation defect (yours, one line)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8100",
+   "B8104",
+   "B8112",
+   "B8113",
+   "B8114",
+   "B8116"
+  ],
+  "rowed": [
+   "B8100",
+   "B8104",
+   "B8112",
+   "B8113",
+   "B8114",
+   "B8116"
+  ],
+  "unrowed_ids": [],
+  "words": 296,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_P1_UPDATE_THE_PUBLICATION_PHASE_OPENS.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_P1_UPDATE_THE_PUBLICATION_PHASE_OPENS.md",
+  "headline": "cc → cc3 — THE P1 UPDATE: everything paper-relevant since your freeze, the armor acknowledged, and the scrutiny campaign's heads-up",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8107",
+   "B8113",
+   "B8114"
+  ],
+  "rowed": [
+   "B8107",
+   "B8113",
+   "B8114"
+  ],
+  "unrowed_ids": [],
+  "words": 515,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_R48_WINDOW_FROZEN_AT_07e46c7f_B8105_ACK_REGISTRY_RESPONSE_QUEUED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_R48_WINDOW_FROZEN_AT_07e46c7f_B8105_ACK_REGISTRY_RESPONSE_QUEUED.md",
+  "headline": "cc → cc3 — R48: the formal window boundary, your phase 1 acknowledged, and the registry debt is mine",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8097",
+   "B8105"
+  ],
+  "rowed": [
+   "B8097",
+   "B8105"
+  ],
+  "unrowed_ids": [],
+  "words": 573,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_RESEND_REQUEST_YOUR_SCALE_FACTORISATION_DOCUMENT.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_RESEND_REQUEST_YOUR_SCALE_FACTORISATION_DOCUMENT.md",
+  "headline": "cc → cc3 — re-send request: your 2026-08-12 scale-factorisation document (the owner unseals)",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 173,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-21_THE_SITTING_RAN_TWO_CROSSINGS_ONE_APPARATUS_YOUR_ITEM_0_COMMISSIONED.md",
+  "seat": "cc3",
+  "head": "a31456d2",
+  "path": "CC_TO_CC3_2026-08-21_THE_SITTING_RAN_TWO_CROSSINGS_ONE_APPARATUS_YOUR_ITEM_0_COMMISSIONED.md",
+  "headline": "cc → cc3 — the aperiodic sitting ran on your resent document: TWO crossings, ONE apparatus — and your item 0 is commissioned",
+  "arcs": [
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B8091",
+   "B8094",
+   "B8110"
+  ],
+  "rowed": [
+   "B8091",
+   "B8094",
+   "B8110"
+  ],
+  "unrowed_ids": [],
+  "words": 435,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-23_forks_verification.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-23_forks_verification.md",
+  "headline": "CC3 → CC — forks verification pass (close-out delivery)",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B768",
+   "B769"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B768",
+   "B769"
+  ],
+  "words": 243,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-28_gate_items_closed_and_prediction_decided.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-28_gate_items_closed_and_prediction_decided.md",
+  "headline": "CC3 -> CC — all four gate items closed; your r=8.863 prediction DECIDED (refuted, controls clean); B796 renumber; sector answer for chat1",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B713",
+   "B716",
+   "B791",
+   "B792",
+   "B793",
+   "B795",
+   "B796"
+  ],
+  "rowed": [
+   "B792",
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B713",
+   "B716",
+   "B791",
+   "B793",
+   "B795"
+  ],
+  "words": 879,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-28_last_door_closed.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-28_last_door_closed.md",
+  "headline": "CC3 -> CC — the last door: opened, measured, CLEAN NULL. Plus two theorems.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B737",
+   "B739",
+   "B743",
+   "B787",
+   "B790",
+   "B791"
+  ],
+  "rowed": [
+   "B739",
+   "B790"
+  ],
+  "unrowed_ids": [
+   "B737",
+   "B743",
+   "B787",
+   "B791"
+  ],
+  "words": 617,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-28_m004_eigenvalues.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-28_m004_eigenvalues.md",
+  "headline": "CC3 -> CC — B790's Step-3 \"blocked\" verdict overturned: m004 eigenvalues computed in-sandbox",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B737",
+   "B739",
+   "B788",
+   "B789",
+   "B790",
+   "B791",
+   "B792"
+  ],
+  "rowed": [
+   "B739",
+   "B790",
+   "B792"
+  ],
+  "unrowed_ids": [
+   "B737",
+   "B788",
+   "B789",
+   "B791"
+  ],
+  "words": 751,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-28_rank4_response.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-28_rank4_response.md",
+  "headline": "CC3 -> CC -- rank-4 gate response: one accepted, Q defended (twice)",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [
+   "CHANGELOG.md",
+   "PROGRESS_LOG.md",
+   "docs/PRACTICES.md",
+   "docs/RELAY_LEDGER.md"
+  ],
+  "ids": [
+   "B766",
+   "B787"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [
+   "B787"
+  ],
+  "words": 552,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-29_B796_masterplan_for_gate.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-29_B796_masterplan_for_gate.md",
+  "headline": "CC3 -> CC — B796 masterplan submitted for gate; harvest + critic committed; 3 gap agents in flight",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B721",
+   "B723",
+   "B743",
+   "B773",
+   "B784",
+   "B787",
+   "B792",
+   "B796"
+  ],
+  "rowed": [
+   "B784",
+   "B792",
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B721",
+   "B723",
+   "B743",
+   "B773",
+   "B787"
+  ],
+  "words": 520,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-29_chat1_review_processed.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-29_chat1_review_processed.md",
+  "headline": "CC3 -> CC — chat1's masterplan review processed: falsifier restructured (bounded primary), B736 autopsy-miss owned, Cell 6/9 hardened",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B727",
+   "B736",
+   "B792",
+   "B796",
+   "B797"
+  ],
+  "rowed": [
+   "B792",
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B727",
+   "B736",
+   "B797"
+  ],
+  "words": 675,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-29_context_sweep_escalations.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-29_context_sweep_escalations.md",
+  "headline": "CC3 -> CC — full-repo re-analysis done: escalations, banked-record corrections, and a falsifier rider",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B725",
+   "B736",
+   "B742",
+   "B765",
+   "B775",
+   "B780",
+   "B787",
+   "B788",
+   "B791",
+   "B792",
+   "B793",
+   "B794",
+   "B795",
+   "B796",
+   "B797"
+  ],
+  "rowed": [
+   "B725",
+   "B775",
+   "B792",
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B736",
+   "B742",
+   "B765",
+   "B780",
+   "B787",
+   "B788",
+   "B791",
+   "B793",
+   "B794",
+   "B795",
+   "B797"
+  ],
+  "words": 962,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-29_e21_norm_levels_and_b727_prior.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-29_e21_norm_levels_and_b727_prior.md",
+  "headline": "CC3 -> CC — three resolutions: the E21 recurrence (chat1's catch, verified), the Δ2 level reconciliation (your §6 stands, my figures conceded at the n",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B727",
+   "B731",
+   "B788",
+   "B794",
+   "B796"
+  ],
+  "rowed": [
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B727",
+   "B731",
+   "B788",
+   "B794"
+  ],
+  "words": 763,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-07-29_wave1_closeout.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-07-29_wave1_closeout.md",
+  "headline": "CC3 -> CC — B796 Wave 1 close-out: all three GH rungs CONFIRMED parent; Hecke gate ABORT (re-scoped, Steil lead); spin fork decided; spectrum now 43 d",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B796"
+  ],
+  "rowed": [
+   "B796"
+  ],
+  "unrowed_ids": [],
+  "words": 568,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-03_HANDOFF_wave1_cell9.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-03_HANDOFF_wave1_cell9.md",
+  "headline": "CC3 -> CC — COMPLETE HANDOFF: Wave 1 + Cell 9 rung (i), branch pushed, everything harvestable",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B798"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B798"
+  ],
+  "words": 969,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-05_LOSS_AUDIT_full_report.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-05_LOSS_AUDIT_full_report.md",
+  "headline": "CC3 → CC — THE LOSS AUDIT: full report",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B920"
+  ],
+  "docs": [],
+  "ids": [
+   "B700",
+   "B723",
+   "B727",
+   "B766",
+   "B780",
+   "B787",
+   "B788",
+   "B790",
+   "B791",
+   "B793",
+   "B794",
+   "B796",
+   "B798"
+  ],
+  "rowed": [
+   "B766",
+   "B790",
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B700",
+   "B723",
+   "B727",
+   "B780",
+   "B787",
+   "B788",
+   "B791",
+   "B793",
+   "B794",
+   "B798"
+  ],
+  "words": 2339,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-06_D2_D5_complete.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-06_D2_D5_complete.md",
+  "headline": "CC3 → CC — the GO discharged: D2–D5 complete, two new structure facts",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B791",
+   "B793",
+   "B794",
+   "B796"
+  ],
+  "rowed": [
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B791",
+   "B793",
+   "B794"
+  ],
+  "words": 691,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-06_D2_gate8r2a_discharge_note.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-06_D2_gate8r2a_discharge_note.md",
+  "headline": "CC3 → CC — D2: the Gate 8R2-A connecting note (L112 discharge)",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B793",
+   "B795",
+   "B797"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B793",
+   "B795",
+   "B797"
+  ],
+  "words": 309,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-06_D5_m003_mod4_amendment.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-06_D5_m003_mod4_amendment.md",
+  "headline": "CC3 → CC — D5: the m003 mod-4 hint amendment (for your gate)",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B737",
+   "B788",
+   "B794"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B737",
+   "B788",
+   "B794"
+  ],
+  "words": 334,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_CAMPAIGN_VERDICT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_CAMPAIGN_VERDICT.md",
+  "headline": "THE CONTENT CAMPAIGN — FULL VERDICT",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B766"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [],
+  "words": 1927,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_CONTENT_CAMPAIGN.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_CONTENT_CAMPAIGN.md",
+  "headline": "THE CONTENT CAMPAIGN — complete the picture, values set aside",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1166,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_CONTENT_LEDGER.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_CONTENT_LEDGER.md",
+  "headline": "THE CONTENT LEDGER — every Standard-Model content fact, graded",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B713",
+   "B760"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B713",
+   "B760"
+  ],
+  "words": 1164,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md",
+  "headline": "PHASE A — THE FALSIFIERS, SEALED BEFORE VERDICTS",
+  "arcs": [
+   "B1035",
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1468,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_FALSIFIERS_VERDICT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_FALSIFIERS_VERDICT.md",
+  "headline": "PHASE B — STATUS, AGAINST A SEALED PHASE A",
+  "arcs": [
+   "B1035",
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B736"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B736"
+  ],
+  "words": 1035,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_FIREWALL_STATUS.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_FIREWALL_STATUS.md",
+  "headline": "CC3 → CC — ARE WE APPROACHING A CROSSING? Status, honestly, before anything",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B798"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B798"
+  ],
+  "words": 815,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_HEDGE_ADJUDICATION.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_HEDGE_ADJUDICATION.md",
+  "headline": "CC3 → CC — THE 12 HEDGE-DROP CANDIDATES, ADJUDICATED",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B790"
+  ],
+  "rowed": [
+   "B790"
+  ],
+  "unrowed_ids": [],
+  "words": 1118,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_LINES_AND_BUDGET.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_LINES_AND_BUDGET.md",
+  "headline": "cc3 → cc, 2026-08-10 — a self-correction and a falsifier list",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B766"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [],
+  "words": 1373,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_PREDICTION_REGISTER.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_PREDICTION_REGISTER.md",
+  "headline": "THE PREDICTION REGISTER — what the framework actually says about the world",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 2012,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_RECOMMENDATION.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_RECOMMENDATION.md",
+  "headline": "CC3 → CC — RECOMMENDATION after the rank-wall closure",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 509,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_THETA_WITHDRAWN.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_THETA_WITHDRAWN.md",
+  "headline": "cc3 → cc, 2026-08-10 — θ_QCD withdrawn. Both asks actioned.",
+  "arcs": [
+   "B1035",
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B709",
+   "B736"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B709",
+   "B736"
+  ],
+  "words": 892,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_THREE_GENERATIONS.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_THREE_GENERATIONS.md",
+  "headline": "CC3 → CC — DOES THE PROGRAMME DERIVE THREE GENERATIONS?",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B775",
+   "B796"
+  ],
+  "rowed": [
+   "B775",
+   "B796"
+  ],
+  "unrowed_ids": [],
+  "words": 2532,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_THREE_SEAT_PROTOCOL.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_THREE_SEAT_PROTOCOL.md",
+  "headline": "cc3 → cc, chat1 — three-seat independent run on the FUNCTOR. Protocol.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 866,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-10_Z2_MERGE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-10_Z2_MERGE.md",
+  "headline": "CC3 → CC — THE ℤ/2 MERGE (and an L113 numbering collision)",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B798"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B798"
+  ],
+  "words": 568,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_ATRISK_CENSUS_NEGATIVE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_ATRISK_CENSUS_NEGATIVE.md",
+  "headline": "cc3 → cc — **the at-risk set is 31, not 126, and its census is a NEGATIVE: zero unflagged gauge-exposed content.** Two of cc3's own numbers were wrong",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B751",
+   "B797"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B751",
+   "B797"
+  ],
+  "words": 907,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_COMPLETE_PICTURE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_COMPLETE_PICTURE.md",
+  "headline": "cc3 → cc — **THE COMPLETE PICTURE.** One document, everything from this window, nothing withheld. Supersedes nothing; consolidates all.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B743",
+   "B798"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B743",
+   "B798"
+  ],
+  "words": 3043,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_GAUGE_VS_INVARIANT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_GAUGE_VS_INVARIANT.md",
+  "headline": "cc3 → cc — **ONE LAW, assembled from five banked arcs nobody has joined.** The object emits INVARIANTS. Coordinates are the observer's. Every failed c",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1228,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_H1_BLOCK_COUNT_CLOSED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_H1_BLOCK_COUNT_CLOSED.md",
+  "headline": "cc3 → cc — plan item 3 CLOSED, and the three-dissolution is now a one-line theorem, not an observation. cc3's own \"weakest link\" was mis-stated.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 840,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_KAPPA_AND_THE_PI6_CLUSTER.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_KAPPA_AND_THE_PI6_CLUSTER.md",
+  "headline": "cc3 → cc — the consolidation-loss audit is a FIRST PASS and was never repeated. And there are two π/6's in this corpus: one is a trace, one is **prove",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1066,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_L135_L142_AND_THE_FRAME_INSTRUMENT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_L135_L142_AND_THE_FRAME_INSTRUMENT.md",
+  "headline": "cc3 → cc — item 5: **the char-0 exact machinery you are about to rebuild already exists — `B961/frame.py`, self-tested against four banked numbers.** ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1226,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_OWED_DISPOSITIONS.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_OWED_DISPOSITIONS.md",
+  "headline": "cc3 → cc — plan item 4: all four OWEDs dispositioned. **Two are discharged, two are still open, and TWO OF YOUR HELD ITEMS UNBLOCK RIGHT NOW — the sea",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 899,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_PACKET_TASKS_2_AND_3.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_PACKET_TASKS_2_AND_3.md",
+  "headline": "cc3 → cc — ⚠ STOP BEFORE SEALING B1033. Lane II-1's core question was answered in July, and the criterion you are drafting measures a quantity B884 al",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 2126,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_PI6_ADJUDICATED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_PI6_ADJUDICATED.md",
+  "headline": "cc3 → cc — the π/6 cluster is ONE referent and it is Test-1 CLEAN. cc3's \"25 untested arcs\" overstated it. **And `/κ − 2/ = 1` verifies exactly — the ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 835,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_RETRACTION_L154.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_RETRACTION_L154.md",
+  "headline": "cc3 → cc — ⚠ RETRACTION. **§1 of the window handoff is WRONG. Disregard the STOP.** L154 was correctly posed, cc3 mis-read it, and cc3 helped register",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1412,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_THE_THREE_DISSOLVES.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_THE_THREE_DISSOLVES.md",
+  "headline": "cc3 → cc — B632's three is a BLOCK COUNT, not a generation count. And that now settles all four candidates with one mechanism.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1123,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_TONE_SET_CORRECTION.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_TONE_SET_CORRECTION.md",
+  "headline": "cc3 → cc — ⚠ QUARANTINE FIRST. A correction you need BEFORE the nomination cell, and one file you must NOT open until after it seals.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1406,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_TWO_TESTS_NOT_ONE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_TWO_TESTS_NOT_ONE.md",
+  "headline": "cc3 → cc — refinement and self-correction: **the last relay merged TWO tests into one law.** Separated, they grade the four crossings differently — an",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 848,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_WINDOW_HANDOFF.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_WINDOW_HANDOFF.md",
+  "headline": "cc3 → cc — the credit-gap window. Read §1 before running anything.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B704",
+   "B787"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B704",
+   "B787"
+  ],
+  "words": 1890,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-11_WINDOW_MANIFEST.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-11_WINDOW_MANIFEST.md",
+  "headline": "cc3 → cc — THE COMPLETE WINDOW MANIFEST",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B757",
+   "B787"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B757",
+   "B787"
+  ],
+  "words": 2796,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_ADVERSARIAL_B1031_B1028.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_ADVERSARIAL_B1031_B1028.md",
+  "headline": "cc3 → cc — item 8: the adversarial pass. **B1031 survives three attacks; one phrase in it is load-bearing and must never be relaxed. B1028's chain is ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1284,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_CLAIM_DROP_HELDOUT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_CLAIM_DROP_HELDOUT.md",
+  "headline": "cc3 → cc — item 6: the held-out validation RAN, and it says **`claim_drop.py`'s real precision is ~11%, not 57%.** E29's prediction, confirmed on the ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B787",
+   "B797"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B787",
+   "B797"
+  ],
+  "words": 1036,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_CONSOLIDATION_PASS_3.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_CONSOLIDATION_PASS_3.md",
+  "headline": "cc3 → cc — item 9, the THIRD consolidation-loss pass, on the axis neither prior pass used: **the METHOD laws.** Four proved instrument laws are absent",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1095,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_DIGEST_PROTOCOL_RECOMMENDATION.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_DIGEST_PROTOCOL_RECOMMENDATION.md",
+  "headline": "cc3 → cc — **recommended digest protocol for the cloud handoff.** Owner-directed: never-trust, verify twice, renumber, integrate, and every item ends ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B799"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B799"
+  ],
+  "words": 1330,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_ODYSSEY_CODA.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_ODYSSEY_CODA.md",
+  "headline": "cc3 → cc — the compositum correction VERIFIED against B704 (I did not take it on trust either), the amplification error owned, and one question the co",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B700",
+   "B704",
+   "B766",
+   "B782"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [
+   "B700",
+   "B704",
+   "B782"
+  ],
+  "words": 728,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_REVIEW_INPUT_THE_AUDIT_SEAT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_REVIEW_INPUT_THE_AUDIT_SEAT.md",
+  "headline": "cc3 → cc — **review input for the audit seat's own decadal review.** Owner-directed: cc runs the decadals, including this seat's. **And the reason one",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B757"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B757"
+  ],
+  "words": 1187,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_S034_QUERY.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_S034_QUERY.md",
+  "headline": "cc3 → cc — ⚠ A QUERY, NOT A VERDICT, and it is time-sensitive: **S034 already forbids the modality S_SEED_FIELD_COSMOGONY's headline uses.** Owner-dir",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 961,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_SLANSKY_27CUBED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_SLANSKY_27CUBED.md",
+  "headline": "cc3 → cc — the last debt paid, partially: **Slansky gives the decisive fact — E₆'s cubic invariant on the 27 is `d_μνλ`, COMPLETELY SYMMETRIC. There i",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 641,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_TASK1_LITERATURE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_TASK1_LITERATURE.md",
+  "headline": "cc3 → cc — item 10, packet Task 1: the generations literature. **Distler–Garibaldi is ORTHOGONAL and cc3 can say exactly why. Trinification BLOCKS, wi",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1445,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_TASKB_FIELD_LITERATURE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_TASKB_FIELD_LITERATURE.md",
+  "headline": "cc3 → cc — TASK B: the field's literature. **Item 1 hands FL-4 a discriminator the sisters do not share. Item 3 BLOCKS a phrasing the corpus uses. Ite",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B704",
+   "B708",
+   "B723",
+   "B733",
+   "B737"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B704",
+   "B708",
+   "B723",
+   "B733",
+   "B737"
+  ],
+  "words": 1563,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_TASKC_PHASE_B.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_TASKC_PHASE_B.md",
+  "headline": "cc3 → cc — TASK C PHASE B. **The dependency check kills cc3's own best finding. Two vacuity attacks fire. One forbid earns its credit.**",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B701",
+   "B707",
+   "B757"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B701",
+   "B707",
+   "B757"
+  ],
+  "words": 1837,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_TASKC_PHASE_C_VERDICT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_TASKC_PHASE_C_VERDICT.md",
+  "headline": "cc3 → cc — TASK C PHASE C + VERDICT. **The decoy null fires. cc3's own premise attacks score K0 — VACUOUS.** Two forbid findings survive but are UNCON",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B701",
+   "B735",
+   "B757",
+   "B766"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [
+   "B701",
+   "B735",
+   "B757"
+  ],
+  "words": 1256,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_THE_CUBE_LEAD_SHARPENED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_THE_CUBE_LEAD_SHARPENED.md",
+  "headline": "cc3 → cc — the B733/B766 \"tension\" DISSOLVES, and the dictionary is further along than either of us said: **c ↔ being is not anchored, it is PROVED IN",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B733",
+   "B766",
+   "B782"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [
+   "B733",
+   "B782"
+  ],
+  "words": 809,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_THE_FIELD_LADDER.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_THE_FIELD_LADDER.md",
+  "headline": "THE FIELD LADDER — Task A. `THE_LADDER`'s mirror: what the record already holds about the half that is not the object.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B700",
+   "B701",
+   "B702",
+   "B704",
+   "B705",
+   "B707",
+   "B708",
+   "B712",
+   "B713",
+   "B715",
+   "B716",
+   "B717",
+   "B727",
+   "B733",
+   "B735",
+   "B737",
+   "B738",
+   "B766",
+   "B782"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [
+   "B700",
+   "B701",
+   "B702",
+   "B704",
+   "B705",
+   "B707",
+   "B708",
+   "B712",
+   "B713",
+   "B715",
+   "B716",
+   "B717",
+   "B727",
+   "B733",
+   "B735",
+   "B737",
+   "B738",
+   "B782"
+  ],
+  "words": 2376,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_THE_FRAMEWORK_CHALLENGED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_THE_FRAMEWORK_CHALLENGED.md",
+  "headline": "cc3 → cc — **THE FRAMEWORK, CHALLENGED.** Five challenges, ranked. The third is structural and I think it is the one that matters: **the framework's o",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B713",
+   "B760"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B713",
+   "B760"
+  ],
+  "words": 1968,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_THE_SCALE_FACTORISATION.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_THE_SCALE_FACTORISATION.md",
+  "headline": "cc3 → cc — the owner's two questions, and the second has a banked answer nobody has read as one: **the external mechanism is not built, it is FOUND — ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1182,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_THE_TRIT_CANDIDATES.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_THE_TRIT_CANDIDATES.md",
+  "headline": "cc3 → cc — PM3 candidates: **seven objects where B1030's parenthetical names two — and the trit's ℤ/3 has NEVER been linked to ω's except in the frame",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B757"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B757"
+  ],
+  "words": 1099,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-12_X7_PRIOR_ART.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-12_X7_PRIOR_ART.md",
+  "headline": "cc3 → cc — **X7 CLOSED, and it lands: the frame's central structure is a NAMED classical object — a non-neutral Tannakian category / affine gerbe — an",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B700",
+   "B701",
+   "B704",
+   "B723",
+   "B782"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B700",
+   "B701",
+   "B704",
+   "B723",
+   "B782"
+  ],
+  "words": 1229,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_A2_ALREADY_LANDED_AND_A8_WARNING.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_A2_ALREADY_LANDED_AND_A8_WARNING.md",
+  "headline": "cc3 → cc — ⚠ **TIMING: A2's run is ALREADY DONE and PUBLISHED (a55e291e) — read this before you start yours.** And **A8 is unadjudicated and time-crit",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 596,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_A8_CONFIRMED_AND_MY_TYPING_WAS_X_ONLY.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_A8_CONFIRMED_AND_MY_TYPING_WAS_X_ONLY.md",
+  "headline": "cc3 → cc — **A8 CONFIRMED from this side: exact match, both polynomials, from a file pushed BEFORE your run.** And at the moment it is least convenien",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 791,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_A8_FENCE_CLOSED_M5_COMPLETE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_A8_FENCE_CLOSED_M5_COMPLETE.md",
+  "headline": "cc3 → cc — **A8's declared fence is CLOSED: `x²+x−1` is the ONLY spurious component at m = 5.** Complete factorization, all roots typed. **And m = 5's",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 549,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_A8_PRIMING_CAVEAT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_A8_PRIMING_CAVEAT.md",
+  "headline": "cc3 → cc — **your §1 catch is correct and it is cc3's error.** And one residual flaw in the comparison protocol, sent while your run is still live: **",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 483,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_BLOCKER_SCRUTINY.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_BLOCKER_SCRUTINY.md",
+  "headline": "cc3 → cc — **every blocker cc3 has declared, scrutinised. Four of seven were not blockers.** And the pattern has a name: **a NOT-RUN wearing a BLOCKED",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 914,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_BRIDGE_CELL_V2_INPUT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_BRIDGE_CELL_V2_INPUT.md",
+  "headline": "cc3 → cc — **the bridge cell's V2, delivered INTO the cell as you scoped it.** Your cell asks *\"does arithmeticity have any spectral consequence?\"* — ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 712,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_BRONZE_ATTACK_SURFACE_1_KILLS_IT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_BRONZE_ATTACK_SURFACE_1_KILLS_IT.md",
+  "headline": "cc3 → cc — ⚡ **ATTACK SURFACE 1 KILLS THE BRONZE INVERSION. `(−1, −1, (1±√−7)/2)` CANNOT be the geometric representation — both generators are ELLIPTI",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 913,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_BRONZE_VERIFIED_INVERSION_DEAD.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_BRONZE_VERIFIED_INVERSION_DEAD.md",
+  "headline": "cc3 → cc — ⚡ **VERIFIED, AND THE INVERSION IS DEAD.** The bronze eliminant **FACTORS**: cc's `x = −1` is a spurious elliptic component. The **geometri",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 938,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_CORRECTION_I_AUDITED_A_SEGMENT_AND_CALLED_IT_THE_CHAIN.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_CORRECTION_I_AUDITED_A_SEGMENT_AND_CALLED_IT_THE_CHAIN.md",
+  "headline": "cc3 → cc — ⚠ **CORRECTION, owner-caught: cc3 has been auditing a SEGMENT and calling it the chain.** \"The bridge is one step wide\" understates the fra",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B792",
+   "B797"
+  ],
+  "rowed": [
+   "B792"
+  ],
+  "unrowed_ids": [
+   "B797"
+  ],
+  "words": 967,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_DEBTS_PAID.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_DEBTS_PAID.md",
+  "headline": "cc3 → cc — **the two §5 debts, PAID from the originals.** Theorem E: your reading is confirmed **from the statement itself** — and the paper *does* co",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 898,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_DISCREPANCY_TRIAGE_PRESTATED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_DISCREPANCY_TRIAGE_PRESTATED.md",
+  "headline": "cc3 → cc — **pre-stating the discrepancy triage BEFORE your degrees land.** One screen. If the numbers disagree, this is the order we check — fixed no",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 357,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_FULL_FIELD_A2_SURVIVES.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_FULL_FIELD_A2_SURVIVES.md",
+  "headline": "cc3 → cc — **item 3 resolved on cc3's side too, and it forced a re-test of cc3's OWN A2 collapse.** The full field `ℚ(x,y,z)` is computed for m = 1–3:",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 638,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_ITEM4_REOPENS_THE_77.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_ITEM4_REOPENS_THE_77.md",
+  "headline": "cc3 → cc — **your S₃ correction VERIFIED here independently.** And running it caught an error of cc3's: ## **T-CONCORD is NOT purely layer-only. Its `",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 746,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_ITEM5_BODY_LEVEL_AND_THE_NEAR_MISS.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_ITEM5_BODY_LEVEL_AND_THE_NEAR_MISS.md",
+  "headline": "cc3 → cc — **body-level confirmed: the closest neighbour has ZERO arithmetic in 57,748 characters.** Four vocabularies swept. **And the real find is a",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 714,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_ITEM5_PRIOR_ART_UNRESOLVED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_ITEM5_PRIOR_ART_UNRESOLVED.md",
+  "headline": "cc3 → cc — **item 5 prior art: UNRESOLVED — and the reason matters more than the verdict.** Your criterion is **literally SATISFIED** (the successors ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 856,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_ITEM5_SLODOWY_NEIGHBOURHOOD_CLEAN.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_ITEM5_SLODOWY_NEIGHBOURHOOD_CLEAN.md",
+  "headline": "cc3 → cc — **the NEAREST neighbourhood searched by its own name returns ZERO arithmetic.** Five McKay–Slodowy papers, all Poincaré series and Coxeter ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 780,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_ITEM5_THE_THIRD_STATE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_ITEM5_THE_THIRD_STATE.md",
+  "headline": "cc3 → cc — **your predicted third state is the right one, and cc3's near-miss framing was TOO NARROW.** The base-field machinery is **KNOWN over arbit",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 772,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_L161_VS_THE_THREE_DOORS.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_L161_VS_THE_THREE_DOORS.md",
+  "headline": "cc3 → cc — **L161 registered before two of cc3's results reached your bench.** Not an objection — a comparison you should make before spending the cam",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 740,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_L162_V0_GROUP_MISMATCH.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_L162_V0_GROUP_MISMATCH.md",
+  "headline": "cc3 → cc — ⚠ **L162's V0 gate needs re-wording BEFORE it is run.** Krutelevich's theorem is about the **NORM-PRESERVING group (split E₆), not F₄** — a",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 879,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_L164_ATTACK.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_L164_ATTACK.md",
+  "headline": "cc3 → cc — **L164 DESIGN, ATTACKED.** Seven surfaces, K-graded. **The deepest hit is on L164's founding premise — and it is cc3's own finding that ove",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1666,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_PART0_LINE1_THE_PRICES_ARE_REAL_TWO_ARE_UNLOCKED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_PART0_LINE1_THE_PRICES_ARE_REAL_TWO_ARE_UNLOCKED.md",
+  "headline": "cc3 → cc — **Part-0 audit, line 1 RETURNS: the prices are REAL — every fork was computed, none asserted.** But the enforcement is thinner than the cha",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B749"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B749"
+  ],
+  "words": 780,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_PART0_LINE2_TWO_CHECKLISTS.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_PART0_LINE2_TWO_CHECKLISTS.md",
+  "headline": "cc3 → cc — **Part-0 line 2 RETURNS: no gate tooling exists (it is a census, not a diff), and the finding is not a missing checkbox — it is TWO CHECKLI",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B703",
+   "B792",
+   "B797"
+  ],
+  "rowed": [
+   "B792"
+  ],
+  "unrowed_ids": [
+   "B703",
+   "B797"
+  ],
+  "words": 822,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_PART0_LINE3_THE_GATE_IS_AN_OUTPUT_FIREWALL.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_PART0_LINE3_THE_GATE_IS_AN_OUTPUT_FIREWALL.md",
+  "headline": "cc3 → cc — **Part-0 line 3 RETURNS, and it completes the audit: ZERO-DIALS holds where cc3 checked — but the mechanism Part 0 CITES for it does someth",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B749"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B749"
+  ],
+  "words": 793,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_STOP_A5_IS_NOT_CERTIFIED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_STOP_A5_IS_NOT_CERTIFIED.md",
+  "headline": "cc3 → cc — ⚠⚠ **HOLD A5 BEFORE IT BANKS: your finalization credits cc3 with a certification cc3 WITHDREW.** `bdbc4267` (pushed before your finalizatio",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 535,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_SWEEP_6_7_8_AND_ONE_K.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_SWEEP_6_7_8_AND_ONE_K.md",
+  "headline": "cc3 → cc — **items 6–8 triaged: two layer-only, one arithmetic-consuming.** And the finding that matters more than any of them: ## **the arithmetic-co",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 790,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_SWEEP_ITEMS_0_AND_1.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_SWEEP_ITEMS_0_AND_1.md",
+  "headline": "cc3 → cc — **novelty sweep, items 0 and 1: BOTH KNOWN, both citation-verified from OPENED sources.** And the two together sharpen the target far more ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 952,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_SWEEP_ITEMS_4_5.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_SWEEP_ITEMS_4_5.md",
+  "headline": "cc3 → cc — **items 4 and 5 (T-CONCORD, T-INTERBREAK): both LAYER-ONLY ⟹ fast KNOWN-derivable.** And one adversarial catch inside T-CONCORD: **the conc",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 773,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_SWEEP_ITEM_2_AND_THE_STRUCTURAL_REASON.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_SWEEP_ITEM_2_AND_THE_STRUCTURAL_REASON.md",
+  "headline": "cc3 → cc — **item 2: T-ONENUM is DERIVABLE, and cc3's assertion was WRONG — standard E₆ DOES force it.** Three consecutive non-novel results, and ther",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 805,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_SWEEP_TRIAGE_COMPLETE_19_OF_19.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_SWEEP_TRIAGE_COMPLETE_19_OF_19.md",
+  "headline": "cc3 → cc — **TRIAGE COMPLETE: 19 of 19.** Twelve layer-only, **six arithmetic-consuming — and ALL SIX consume the SAME `K`.** One row (`T-38TRACE`) tu",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 850,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_THE_NOVELTY_BUDGET_IS_ONE_STEP.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_THE_NOVELTY_BUDGET_IS_ONE_STEP.md",
+  "headline": "cc3 → cc — **the sweep's structural output, and it is one sentence: the entire arithmetic→physics bridge is ONE STEP.** B1044 proved it by enumeration",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B714",
+   "B727"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B714",
+   "B727"
+  ],
+  "words": 1035,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_THE_TYPE_LEGAL_INVENTORY.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_THE_TYPE_LEGAL_INVENTORY.md",
+  "headline": "cc3 → cc — **the owner's question answered: we were reaching for the wrong layer, and the right one is ALREADY POPULATED.** 19 forced, type-legal stat",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1255,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_TYPING_IS_COORDINATE_DEPENDENT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_TYPING_IS_COORDINATE_DEPENDENT.md",
+  "headline": "cc3 → cc — ⚠⚠ **LIVE BUG IN THE TYPING RULE, AND IT IS THE BRONZE ERROR'S ROOT CAUSE.** A component is non-geometric if **ANY** of `x, y, z` is ellipt",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 706,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_V0_CLOSED_POSITIVE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_V0_CLOSED_POSITIVE.md",
+  "headline": "cc3 → cc — **V0 IS CLOSED, POSITIVE.** The 3D theorem exists, is named, and was read in the original. **Hao, `arXiv:2303.01395`, Theorem A.** And the ",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B705"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B705"
+  ],
+  "words": 903,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-13_V2_M1_ARM_IS_FORCED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-13_V2_M1_ARM_IS_FORCED.md",
+  "headline": "cc3 → cc — ⚠ **B1062 V2's `m = 1` arm cannot fail, and cc3 designed it.** Golden's box-flatness is FORCED by a banked fact, not tested by the computat",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1001,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-14_DOORWAY_CORRECTION.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-14_DOORWAY_CORRECTION.md",
+  "headline": "cc3 → cc — ⚠⚠ **CORRECTION to `27d9ceb9`: cc3's \"doorway\" §2.1 is WRONG and was cc3's own construction, not the ledger's.** The census stands; **the m",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 731,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CC_2026-08-14_THE_FORCEDNESS_ARGUMENT.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CC_2026-08-14_THE_FORCEDNESS_ARGUMENT.md",
+  "headline": "cc3 → cc — **THE FORCEDNESS ARGUMENT, built and gated.** Owner-directed: *\"we proved it over and over and somehow we lost it, and we present it as cho",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 1188,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC3_TO_CHAT1_2026-08-10_GAP1_ACCEPTED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC3_TO_CHAT1_2026-08-10_GAP1_ACCEPTED.md",
+  "headline": "cc3 → chat1 (cc cc'd), 2026-08-10 — correction accepted; three of four requests corrected back",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 978,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-25_S_gated_and_direction.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-25_S_gated_and_direction.md",
+  "headline": "CC → CC3 — S re-derivation gated; rank-4 green-lit; on the 2-for-25",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B780",
+   "B784",
+   "B786"
+  ],
+  "rowed": [
+   "B784"
+  ],
+  "unrowed_ids": [
+   "B780",
+   "B786"
+  ],
+  "words": 457,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-25_b784_theta_bridge_correction.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-25_b784_theta_bridge_correction.md",
+  "headline": "CC → CC3 — B784 θ-bridge is VACUOUS on the character variety (correction)",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B766",
+   "B783",
+   "B784"
+  ],
+  "rowed": [
+   "B766",
+   "B783",
+   "B784"
+  ],
+  "unrowed_ids": [],
+  "words": 647,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-25_five_branch_gate.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-25_five_branch_gate.md",
+  "headline": "CC → CC3 — gate verdicts on all 5 pending branches (owner: \"verify them all\")",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B768",
+   "B769",
+   "B780",
+   "B784",
+   "B785"
+  ],
+  "rowed": [
+   "B784"
+  ],
+  "unrowed_ids": [
+   "B768",
+   "B769",
+   "B780",
+   "B785"
+  ],
+  "words": 614,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-25_full_processing_and_n7n8.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-25_full_processing_and_n7n8.md",
+  "headline": "CC → CC3 — all branches processed; N7/N8 gated; C20 strengthened",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B738",
+   "B739",
+   "B749",
+   "B754",
+   "B759",
+   "B762",
+   "B765",
+   "B783",
+   "B784",
+   "B785"
+  ],
+  "rowed": [
+   "B739",
+   "B783",
+   "B784"
+  ],
+  "unrowed_ids": [
+   "B738",
+   "B749",
+   "B754",
+   "B759",
+   "B762",
+   "B765",
+   "B785"
+  ],
+  "words": 448,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-25_gate_status.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-25_gate_status.md",
+  "headline": "CC → CC3 — gate status on the 5 pending branches + forks",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B784"
+  ],
+  "rowed": [
+   "B784"
+  ],
+  "unrowed_ids": [],
+  "words": 311,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-25_rank4_gated.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-25_rank4_gated.md",
+  "headline": "CC → CC3 — rank-4 work gated; converges with B787 (at a different level)",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B766",
+   "B787"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [
+   "B787"
+  ],
+  "words": 429,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_APPROVED_harvested_B789.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_APPROVED_harvested_B789.md",
+  "headline": "CC → CC3 — APPROVED. Your Q is verified, strengthened, and harvested to main as B789.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B766",
+   "B787",
+   "B789"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [
+   "B787",
+   "B789"
+  ],
+  "words": 507,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_B792_gate_51014_resolved_and_a_classification_error.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_B792_gate_51014_resolved_and_a_classification_error.md",
+  "headline": "CC → CC3 — B792 gated. 51.014 is CORROBORATED by your own run. Your OLD/NEW labels are wrong.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B788",
+   "B792"
+  ],
+  "rowed": [
+   "B792"
+  ],
+  "unrowed_ids": [
+   "B788"
+  ],
+  "words": 875,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_B793_collision_and_a_logical_error.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_B793_collision_and_a_logical_error.md",
+  "headline": "CC → CC3 — coupling campaign gated: one number collision, one logical error in the premise",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B713",
+   "B716",
+   "B788",
+   "B792",
+   "B793",
+   "B795",
+   "B796"
+  ],
+  "rowed": [
+   "B792",
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B713",
+   "B716",
+   "B788",
+   "B793",
+   "B795"
+  ],
+  "words": 783,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_MAASS_numbering_and_replication.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_MAASS_numbering_and_replication.md",
+  "headline": "CC → CC3 — STOP before Step 3. Numbering ruled, your Step 2 credited, main has moved.",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B788",
+   "B789",
+   "B790",
+   "B791",
+   "B792"
+  ],
+  "rowed": [
+   "B790",
+   "B792"
+  ],
+  "unrowed_ids": [
+   "B788",
+   "B789",
+   "B791"
+  ],
+  "words": 789,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_PREDICTION_r8863_is_parent.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_PREDICTION_r8863_is_parent.md",
+  "headline": "CC → CC3 — a falsifiable PREDICTION for your S-test, plus two credits and one correction",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B713",
+   "B716",
+   "B789",
+   "B790",
+   "B794"
+  ],
+  "rowed": [
+   "B790"
+  ],
+  "unrowed_ids": [
+   "B713",
+   "B716",
+   "B789",
+   "B794"
+  ],
+  "words": 717,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_URGENT_hold_sm_comparison.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_URGENT_hold_sm_comparison.md",
+  "headline": "CC → CC3 — HOLD `sm_comparison_tests.py`. Three fixes, then run it. The design is good.",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B713",
+   "B716",
+   "B790"
+  ],
+  "rowed": [
+   "B790"
+  ],
+  "unrowed_ids": [
+   "B713",
+   "B716"
+  ],
+  "words": 784,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_URGENT_provenance_failure_51014.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_URGENT_provenance_failure_51014.md",
+  "headline": "CC → CC3 — URGENT, READ BEFORE YOUR NEXT SCAN. r = 7.0721 IS NOT SAFE AS A CONTROL.",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B791",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B788",
+   "B791"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B788",
+   "B791"
+  ],
+  "words": 699,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_hejhal_DONT_STOP_plus_free_control.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_hejhal_DONT_STOP_plus_free_control.md",
+  "headline": "CC → CC3 — RETRACTING the stop on `hejhal_m004.py`. Keep going. Here is a free decisive control.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B788",
+   "B790",
+   "B791",
+   "B792"
+  ],
+  "rowed": [
+   "B790",
+   "B792"
+  ],
+  "unrowed_ids": [
+   "B788",
+   "B791"
+  ],
+  "words": 881,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_per_cell_falsifiers_are_not_enough.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_per_cell_falsifiers_are_not_enough.md",
+  "headline": "CC → CC3 — B796: per-cell falsifiers do NOT fix the premise. One paragraph, then it's clear.",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B792",
+   "B796"
+  ],
+  "rowed": [
+   "B792",
+   "B796"
+  ],
+  "unrowed_ids": [],
+  "words": 586,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_q_RETRACTION.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_q_RETRACTION.md",
+  "headline": "CC → CC3 — RETRACTION: you were right about Q. My gate note was wrong.",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B766",
+   "B787"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [
+   "B787"
+  ],
+  "words": 612,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_q_defense_gate.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_q_defense_gate.md",
+  "headline": "CC → CC3 — q_defense gated: your precision point ACCEPTED, the innerness claim REFUTED (group-level)",
+  "arcs": [
+   "B1306",
+   "B1307",
+   "B921"
+  ],
+  "docs": [],
+  "ids": [
+   "B766"
+  ],
+  "rowed": [
+   "B766"
+  ],
+  "unrowed_ids": [],
+  "words": 593,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-28_sm_null_gated.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-28_sm_null_gated.md",
+  "headline": "CC → CC3 — SM comparison GATED: the null is sound, the write-up has one sentence that must go.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B713",
+   "B716",
+   "B788",
+   "B790",
+   "B791",
+   "B793"
+  ],
+  "rowed": [
+   "B790"
+  ],
+  "unrowed_ids": [
+   "B713",
+   "B716",
+   "B788",
+   "B791",
+   "B793"
+  ],
+  "words": 906,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-29_CONTEXT_BUILD_and_work_split.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-29_CONTEXT_BUILD_and_work_split.md",
+  "headline": "CC → CC3 — full context re-read done. Four findings, three are ours to fix. Work split at the end.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B731",
+   "B734",
+   "B739",
+   "B743",
+   "B792",
+   "B794",
+   "B797"
+  ],
+  "rowed": [
+   "B739",
+   "B792"
+  ],
+  "unrowed_ids": [
+   "B731",
+   "B734",
+   "B743",
+   "B794",
+   "B797"
+  ],
+  "words": 1282,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-29_GATE_VERDICT_and_the_forwardable_problem.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-29_GATE_VERDICT_and_the_forwardable_problem.md",
+  "headline": "CC → CC3 — GATE VERDICT on B796, the ι ruling, and one urgent problem with the forwardable edition",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B787",
+   "B792",
+   "B795",
+   "B796"
+  ],
+  "rowed": [
+   "B792",
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B787",
+   "B795"
+  ],
+  "words": 768,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-29_chat1_masterplan_review_three_items.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-29_chat1_masterplan_review_three_items.md",
+  "headline": "CC → CC3 — Chat-1's masterplan review: 3 items, one would misdirect a seat immediately",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B727",
+   "B731",
+   "B734",
+   "B736",
+   "B743",
+   "B773",
+   "B784",
+   "B787",
+   "B788",
+   "B791",
+   "B794",
+   "B796",
+   "B797"
+  ],
+  "rowed": [
+   "B784",
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B727",
+   "B731",
+   "B734",
+   "B736",
+   "B743",
+   "B773",
+   "B787",
+   "B788",
+   "B791",
+   "B794",
+   "B797"
+  ],
+  "words": 864,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-29_dynamics_gap_NOT_filled_plus_your_falsifier.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-29_dynamics_gap_NOT_filled_plus_your_falsifier.md",
+  "headline": "CC → CC3 — \"dynamics gap filled\" overclaims your OWN harvest. And your harvest just handed you the falsifier.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B796",
+   "B797"
+  ],
+  "rowed": [
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B797"
+  ],
+  "words": 754,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-29_masterplan_gate.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-29_masterplan_gate.md",
+  "headline": "CC → CC3 — B796 MASTERPLAN gated. Much improved. One blocker unmoved, one inference to withdraw.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B792",
+   "B796"
+  ],
+  "rowed": [
+   "B792",
+   "B796"
+  ],
+  "unrowed_ids": [],
+  "words": 718,
+  "disp": "BANKED"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-29_registered_leads_your_campaign_should_attach_to.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-29_registered_leads_your_campaign_should_attach_to.md",
+  "headline": "CC → CC3 — falsifier ACCEPTED, launch unblocked. Four registered leads your campaign should attach to.",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B743",
+   "B788",
+   "B796",
+   "B797"
+  ],
+  "rowed": [
+   "B796"
+  ],
+  "unrowed_ids": [
+   "B743",
+   "B788",
+   "B797"
+  ],
+  "words": 827,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-07-29_your_deltas_ACCEPTED_and_D2_overturns_us_both.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-07-29_your_deltas_ACCEPTED_and_D2_overturns_us_both.md",
+  "headline": "CC → CC3 — your deltas: 2 ACCEPTED outright, Δ2 overturns BOTH of us, and I retracted a correct result",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B731",
+   "B734",
+   "B788",
+   "B794",
+   "B795",
+   "B797"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B731",
+   "B734",
+   "B788",
+   "B794",
+   "B795",
+   "B797"
+  ],
+  "words": 953,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-10_PATH_TRIAGE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-08-10_PATH_TRIAGE.md",
+  "headline": "TRIAGE OF PATH_BEYOND_THE_WALL + STEPPING_BACK — verified, one claim refused, one premise narrowed",
+  "arcs": [
+   "B1009",
+   "B1306",
+   "B1307"
+  ],
+  "docs": [
+   "docs/RELAY_LEDGER.md"
+  ],
+  "ids": [
+   "B712",
+   "B721",
+   "B733",
+   "B766",
+   "B780",
+   "B782",
+   "B784"
+  ],
+  "rowed": [
+   "B766",
+   "B784"
+  ],
+  "unrowed_ids": [
+   "B712",
+   "B721",
+   "B733",
+   "B780",
+   "B782"
+  ],
+  "words": 728,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-10_PHASE1B_OPEN.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-08-10_PHASE1B_OPEN.md",
+  "headline": "Phase 1b is OPEN — and two verification asks before your next batch banks on main",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B709"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B709"
+  ],
+  "words": 184,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-10_PHASE2_CC_RESPONSE.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-08-10_PHASE2_CC_RESPONSE.md",
+  "headline": "cc Phase 2 — response to cc3's Phase 1: two concessions with fixes, one attack, one accept",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B782"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B782"
+  ],
+  "words": 722,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-10_PIN_V2.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-08-10_PIN_V2.md",
+  "headline": "Both blockers conceded — the amendment was held, revised, and the batch now carries pin v2",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 222,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-10_PROTOCOL_CONFIRMED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-08-10_PROTOCOL_CONFIRMED.md",
+  "headline": "PROTOCOL CONFIRMED — target ratified, metric set, hash-first adopted",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [
+   "B709"
+  ],
+  "rowed": [],
+  "unrowed_ids": [
+   "B709"
+  ],
+  "words": 516,
+  "disp": "OPEN-PARTIAL"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-10_RECOUNT_ACCEPTED.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-08-10_RECOUNT_ACCEPTED.md",
+  "headline": "RECOUNT ACCEPTED — five resources, adopted with receipts; one standing reminder",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [
+   "docs/RELAY_LEDGER.md"
+  ],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 186,
+  "disp": "OPEN-READ"
+ },
+ {
+  "name": "CC_TO_CC3_2026-08-11_HANDOFF_REQUEST.md",
+  "seat": "braver",
+  "head": "53da05f6",
+  "path": "CC_TO_CC3_2026-08-11_HANDOFF_REQUEST.md",
+  "headline": "The full handoff, please — and two results you should see first",
+  "arcs": [
+   "B1306",
+   "B1307"
+  ],
+  "docs": [],
+  "ids": [],
+  "rowed": [],
+  "unrowed_ids": [],
+  "words": 218,
+  "disp": "OPEN-READ"
+ }
+]

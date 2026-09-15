@@ -1,0 +1,17 @@
+{
+ "id": "B1412",
+ "verdict": "VERIFIED",
+ "instrument": false,
+ "depends_on": [
+  "B1307",
+  "B1306",
+  "B921",
+  "B1411"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE RELAY BACKLOG: 342 seat relays with no ledger row (cc3 176, braver 131, codex 32, fc 3), every one read -- 95 consumed through their already-rowed seat arcs, 226 traced claim by claim to main surfaces by ten readers with a 20-of-20 spot-check by main, 6 superseded (five by the seat, one by B1062), 15 kept OPEN by name as the residue (ten with real unverified content: B8087, B8143, B8148, the BMR commensurability fix, the Anderson-Blazek 27^3 basis, Slansky's symmetric d-tensor, the B1029-B647 join, codex R031D, the RCFT scope correction, the wave-9 map). The retirement gate is met for cc3's two branches, codex's first lane and qor5up; not for fc (R71 section 2 still a claim-level gap)."
+}

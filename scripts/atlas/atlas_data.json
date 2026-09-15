@@ -8280,6 +8280,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1412": {
+   "slug": "the relay backlog",
+   "motifs": [
+    "closing",
+    "choice",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B647",
+    "B81",
+    "B921",
+    "P1"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [
