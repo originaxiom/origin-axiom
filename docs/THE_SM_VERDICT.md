@@ -404,3 +404,13 @@ left it.
 > with b₂(link) = 1, where Witten's inflow forces chiral E₆-charged matter with U(1) charge (one 27 per point by the literature's
 > rule). Acharya–Witten's hyperkähler-U(1) family is A-type only. The compact closing with three such apexes is the open problem
 > (L212). 0 of 19; the closing's local geometry named.
+
+> **Currency note (2026-09-15, B1356):** the "three" of the destination is a cover phenomenon. On the flat Y₃ the deck fixes exactly
+> the lift of the knot, so a deck-symmetric triple of E₇ apexes is a free orbit and the object's own closing (the descent) is the
+> Euclidean orbifold S³(4₁; 2π/3) with holonomy 2T/±1 and one apex. Witten's sum rule under the deck: every invariant C-field U(1)
+> charges the apexes by zero — in the descent too, since the fixed circle is not a singularity of the cover — so the object's own
+> closing carries one 27 neutral under every C-field U(1), and only on Y₃, with the deck acting irreducibly on a summand of H², are
+> the three told apart, by exactly two U(1)s with charges 3 × the weights of the 3̄ of the permutation SU(3). The descent also forces
+> two A₂ loci through the knot (local group 2T × Z₃, the deck acting on the E₆ fibre as the centre of SU(3); crepant Betti numbers
+> 15, 5). On every S⁴/Γ the E₆ point's antipode carries the A₁ companion and CP²/Γ has no E₆ point (L212 (iii) closed for global
+> quotients). No compact closing is constructed. 0 of 19; price unchanged (`frontier/B1356_the_three_on_y3`).

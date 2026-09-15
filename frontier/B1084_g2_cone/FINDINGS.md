@@ -45,3 +45,10 @@ the source bench caught itself).
 **Kill-graph node routed** (the negative half). **Locks:** tests/test_b1084_g2_cone.py
 (census + stabilizer orders + orbit sizes, float pipeline — fast). Full verification
 record: the commissioned rebuild's two scripts archived in the arc dir.
+
+*(Currency 2026-09-15, B1356: the deck's action on the E₆ fibre, computed with the octonionic G₂ form. Along the knot of the
+descent (the ℤ/3 quotient of the Hantzsche–Wendt closing) the deck rotates the locus's normal plane by 2π/3 and is forced by
+det = 1 on the normal ℂ³ to act on the fibre ℂ²/2T as the scalar ω — the centre of SU(3), inner on E₆, unlike Ĝ's holonomy twist
+through 2O/2T; the local group is 2T × Z₃ (order 72) with two A₂ loci through the knot. In the compact flat orbifold over the
+Hantzsche–Wendt manifold the three A₁ families of this cone are absent (the V₄ elements are 2₁ screws without fixed points);
+they are this linear model's, at its apex. `frontier/B1356_the_three_on_y3` §3.)*

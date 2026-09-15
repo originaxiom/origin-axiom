@@ -100,3 +100,10 @@ Sp(1) is ±1 — the reason AW's U(1) family stops at A-type and the reason the 
 - A self-dual Einstein orbifold with exactly one 2T point.
 
 *(Currency 2026-09-15: VERIFIED ON MAIN (geometry) / CITED (physics) — B1411 re-derived the geometry exactly over ℚ(i): 2T of order 24 with commutant the scalars, the 2T-fixed locus in CP³ exactly one twistor line with the standard normal action, −1's fixed set two disjoint lines meeting only at the apex, b₂(CP³/2T) = 1. The owner flags this arc as the first local model in the record of the bit the paper says the cusped object withholds; it enters the paper's chirality section as a cited local model with the global closing open (L212).)*
+
+*(Currency 2026-09-15, B1356: the first and third registered items are answered. The tower's ℤ/3 places the three as a free deck
+orbit on Y₃ (the deck fixes exactly the lift of the knot); the sum rule with the deck gives zero charge under every invariant U(1),
+in the cover and in the descent, so the object's own closing carries one neutral 27 and the three are told apart only by the deck's
+U(1)² with charges 3 × the 3̄ weights; the descent forces two A₂ loci through the knot (local group 2T × Z₃). Caveat 3's wish — a
+self-dual Einstein orbifold with one 2T point and no A-type companion — is impossible among global quotients: on S⁴/Γ the −1 fixes
+the antipode, CP²/Γ has no E₆ point, and Hitchin's theorem leaves no other manifold to divide. `frontier/B1356_the_three_on_y3`.)*

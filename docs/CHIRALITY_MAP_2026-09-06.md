@@ -200,12 +200,32 @@ configuration B1353 proved impossible in the flat class, realised in the curved 
 faces meet in it: 2T (arithmetic), the twistor cone (geometry), the inflow (quantum). What remains is global: a compact closing
 whose E₆ locus carries three such apexes (L212).
 
+## 6h. The three on Y₃ (B1356, 2026-09-15)
+
+The "three" of O4, placed on the tower. On the flat Y₃ (B1273) the deck σ fixes exactly one closed geodesic — the lift of the
+knot — and the descent ⟨Π, σ⟩ = P2₁3 has one cone circle and no 2-fold axes: Y₃/σ is Thurston's Euclidean figure-eight orbifold
+S³(4₁; 2π/3), with holonomy T = 2T/±1 (the deck completes Hantzsche–Wendt's V₄ to the object's McKay group modulo its centre). A
+deck-symmetric triple of E₇ apexes is therefore a free orbit off the knot, and the object's own closing has one apex. Witten's
+sum rule under the deck says what the C-field U(1)s see: an invariant class gives equal charges and 3q = 0; in the descent the
+fixed circle does not compensate, because it is not a singularity of the cover (the harmonic form is smooth across it and the torus
+around the knot integrates to zero). So the object's own closing carries one 27 neutral under every C-field U(1), and the cover's
+three are told apart by the classes on which the deck acts as its two-dimensional irreducible — exactly two U(1)s or none — with
+charge triples in (1, 1, −2) + 3A₂ (the sum rule with the Z₃ global form), the deck orbit of (1, 1, −2) being 3 × the weights of
+the 3̄ of the SU(3) whose Weyl group permutes the apexes. Along the knot the G₂ structure forces the deck to act on the E₆ fibre
+as the centre of SU(3) (det 1 on the normal ℂ³), so the local group is 2T × Z₃ and ℂ³/(2T × Z₃) has the E₆ plane and two A₂
+loci through the knot — a collision E₆ ∩ A₂ ∩ A₂ the cover does not have — with crepant Betti numbers (15, 5): ten non-compact
+divisors (the E₆, A₂, A₂ Cartans) and five compact ones. And in the global-quotient class the A₁ companion of B1355 is unavoidable:
+on S⁴/Γ the −1 of an E₆ point fixes the antipode; CP²/Γ has no E₆ point; Hitchin's theorem makes these all the global quotients of
+manifolds. The three faces: the descent is the one Euclidean member of the figure-eight cone family (geometry); the charge lattice
+is the Eisenstein A₂ with the deck as ω (arithmetic); the deck is the SU(3) centre on the fibre and the inflow sees the generations
+only through the irreducible pair (quantum). The compact closing is still not constructed (L212, L213).
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:
 every closed closing (W-closed), the mirror quotient (W-mirror-quotient), the cusped object's abelian sector
 (W-abelian), its elliptic SL(3) components on every cover (W-W1W2), and its E₆ deformation germ together with the fixed-vector locus along V₁₀ (W-θ-odd; B1350, B1352). It can
-still come from the singular G₂ closing (O4 — the curved cone, not a flat orbifold point: B1353) or be supplied by the observer (O5). **The record's statement is
+still come from the singular G₂ closing (O4 — the curved cone, not a flat orbifold point: B1353; three of them only on the cover Y₃, told apart only by the deck's U(1)², while the object's own closing carries one neutral 27: B1356) or be supplied by the observer (O5). **The record's statement is
 sharpened, not changed: the object is vector-like on every representation it supplies; the Standard Model's
 chirality is the closing's or the observer's.** 0 of 19; price unchanged.
 

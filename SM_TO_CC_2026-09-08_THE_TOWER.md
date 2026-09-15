@@ -177,3 +177,20 @@ and verified on the fourteen. B1354 carries the note that its order-8 tower is r
 2026-09-15 listed sB1300–sB1302 as unverified on main; they were (B1303 re-derived, B1306 slice A) — withdrawn, and the relay row
 says so. The freeze is lifted here at 1703c0d8 + this note; the branch resumes with B1356 = L212 (the compact closing with three
 cone-over-CP³/2T apexes, the sum rule against b₂, the ℤ/3 descent), then L212(ii)–(iii). Nothing further at ρ₀.
+
+## Twelfth note (2026-09-15): L212 (i) decided and (iii) closed for global quotients — the three are a cover phenomenon (B1356)
+
+The first arc after the freeze. On the flat Y₃ the deck fixes exactly one closed geodesic, the lift of the knot (exact: P2₁2₁2₁ and
+P2₁3 from the tables; the descent has one cone circle and its 2-fold elements are all 2₁ screws), so the object's own closing is
+Thurston's Euclidean orbifold S³(4₁; 2π/3) with holonomy 2T/±1, and a deck-symmetric triple of E₇ apexes is a free orbit. Witten's
+sum rule under the deck: invariant classes charge the apexes by zero, in the cover (3q = 0) and in the descent (the fixed circle is
+not a singularity of the cover, so the torus around the knot integrates to zero). The object's own closing carries one 27 neutral
+under every C-field U(1); the cover's three are told apart by exactly two U(1)s or none, with charge triples in (1, 1, −2) + 3A₂
+and the deck orbit of (1, 1, −2) equal to 3 × the weights of the 3̄ of the permutation SU(3) — hint 16 is now a theorem about any
+closing carrying the deck. Along the knot the G₂ structure forces the deck to act on the E₆ fibre as the centre of SU(3) (every
+admissible lift generates the same group 2T × Z₃ of order 72, in SU(3) = Stab(knot direction), computed with the octonionic form),
+so the descent's E₆ locus meets two A₂ loci along the knot: ℂ³/(2T × Z₃) with crepant Betti numbers (15, 5), 15 − 5 = 6 + 2 + 2.
+And your B1355 caveat 3: on every S⁴/Γ the −1 of an E₆ point fixes the antipode, so the A₁ companion is unavoidable; CP²/Γ has no
+E₆ point; by Hitchin these are all the global quotients of manifolds. L213 registered (the deck's U(1)² after its axionic mass; the
+apex-on-the-knot design; the five-dimensional theory along the knot). Lock in a minute. Nothing at ρ₀. Next: L212 (ii) or L213
+(ii), whichever the census decides faster.

@@ -14765,3 +14765,21 @@ uniform in n"): corrected in FINDINGS and the claim line. sB1300–sB1302 were a
 answer — withdrawn in the letter's eleventh note. B1355 is flagged by the owner as the first local model of the bit the paper says the
 object withholds and enters the paper's chirality section as a cited local model. Freeze lifted; range B1350–B1399 stands; main's next
 free id B1412; this branch's next arc B1356 = L212.
+
+### B1356 — the three on Y₃: the deck fixes the knot only, the descent is the Euclidean figure-eight orbifold, the sum rule under the deck, the forced A₂ loci, the antipode (2026-09-15)
+
+L212 (i) decided structurally and (iii) closed for global quotients. Stage A (exact over ℚ): on the Hantzsche–Wendt Y₃ the deck
+(x,y,z) ↦ (z,x,y) normalises P2₁2₁2₁ and fixes exactly one closed geodesic (length √3), the lift of the knot; ⟨Π, σ⟩ = P2₁3 has
+point group T = 2T/±1, its 2-fold elements are 2₁ screws and its 3-fold axes form one orbit: the descent is S³(4₁; 2π/3). Stage C:
+the sum-zero plane has no deck invariants, {sum 0, ≡ 1 mod 3} = (1,1,−2) + 3A₂, the deck orbit of (1,1,−2) is 3 × the 3̄ weights.
+Consequence (theorem for any compact closing carrying the deck): invariant classes charge the apexes by zero in the cover and in
+the descent (the fixed circle is not singular in the cover), the descent's single 27 is neutral, the cover's three are told apart
+by exactly two U(1)s or none. Stage B (exact over the Hurwitz integers with the octonionic G₂ form): the SO(4) ⊂ G₂ convention
+(x,y) ↦ (l x l̄, r y l̄) verified as an automorphism; the deck's lift (l₀, r) needs r ∈ 2O with r³ ∈ 2T, i.e. r ∈ 2T; every choice
+generates the same group of order 72 = 2T × Z₃ with the Z₃ central and acting on the fibre as the scalar ω (the SU(3) centre; inner
+on E₆, no diagram flip); strata: the E₆ plane (2T), eight fibre planes with stabiliser Z₃ in two orbits (two A₂ loci, each ℂ/Z₆ × ℝ),
+the origin; 21 classes with ages 1/15/5, so b₂ = 15, b₄ = 5, 15 − 5 = 6 + 2 + 2; Q₈ and l₀ generate 2T (hint 17). Stage D: the −1
+of an E₆ point on S⁴/Γ fixes the antipode; only ±1 of 2T acts trivially on CP²'s twistor fibre; with Hitchin's theorem (iii) is
+closed for global quotients. Lock `tests/test_b1356_the_three_on_y3.py` (one minute). Surfaces: L212 status, L213, hints 16–17,
+THE_SM_VERDICT, CHIRALITY_MAP §6h, the destination ledger's item 1, the view §5g, the letter's twelfth note, currency notes on
+B1355, B1273, B1084. 0 of 19; price unchanged.

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1203** |
-| words of findings prose | **872,238** |
-| test lock files referenced | **717** |
-| arcs carrying an authored verdict | **1203** (100.0 %) |
+| research arcs with findings | **1204** |
+| words of findings prose | **875,638** |
+| test lock files referenced | **718** |
+| arcs carrying an authored verdict | **1204** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 793 |
+| PROVED | 794 |
 | NEGATIVE | 312 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1355`** (2064 words, 1 locks)  
-THE E7 POINT MADE EXPLICIT: the destination's local model is the G2 cone over CP^3/2T -- the Bryant-Salamon cone over the nearly-Kaehler CP^3 divided by the object's McKay group 2T acting on one quaternionic factor (the twistor cone of the self-dual Einstein orbifold S^4/2T, Acharya-Witten's twistor family). Its E6 locus (the cone over the twistor line fixed by all of 2T, normal action 2T c SU(2)) and an A1 locus (the cone over the line fixed by -1) meet only at a curved non-orbifold apex; the link CP^3/2T has b_2 = 1 and the E6 locus's class pairs non-trivially with the harmonic two-form, so by Witten's inflow (the mixed U(1).E6^2 anomaly equal to the integral of w over the locus's link) the apex must carry chiral E6-charged matter with U(1) charge -- the E6 analogue of Acharya-Witten's U(N) point, the configuration B1353 proved impossible in the flat class. Acharya-Witten's hyperkaehler-U(1) family is A-type only (the centraliser of 2T in Sp(1) is +-1). The count one 27 per point is the literature's rule (E7 > E6 x U(1)); the compact closing with three such apexes is not constructed. Item 1 of the destination has a named local geometry. 0 of 19.  
-`B1355_the_e7_point_made_explicit/FINDINGS.md`
+**PROVED — `B1356`** (3053 words, 1 locks)  
+THE THREE ON Y3: on the flat Hantzsche-Wendt closing Y3 the deck fixes exactly one closed geodesic (the lift of the knot; P2_1 3's torsion is its 3-fold rotations only), so a deck-symmetric triple of E7 apexes is a free orbit and the object's own closing is Thurston's Euclidean orbifold S^3(4_1; 2pi/3) with holonomy T = 2T/{+-1}. In any compact G2 closing carrying the deck, Witten's sum rule gives 3q = 0 for every deck-invariant harmonic class, the fixed circle cannot compensate in the descent (it is not singular in the cover), so the descent's single 27 is neutral under every C-field U(1) and the cover's three are told apart by exactly two U(1)s or none, with charge triples in (1,1,-2) + 3A_2 whose deck orbit is 3 x the weights of the 3-bar of the permutation SU(3). Along the knot the G2 structure forces the deck to act on the E6 fibre as the centre of SU(3): the local group is 2T x Z_3 (order 72, in SU(3) = Stab(knot direction)), whose orbifold C^3/G has the E6 plane and two A_2 loci through the knot and crepant Betti numbers (15, 5) with 15 - 5 = 6 + 2 + 2. On every S^4/Gamma the E6 point's -1 fixes the antipode (the A_1 companion is unavoidable) and CP^2/Gamma has no E6 point: L212 (iii) closed for global quotients (Hitchin). No compact closing is constructed. 0 of 19.  
+`B1356_the_three_on_y3/FINDINGS.md`
 
 **NEGATIVE — `B1300`** (2600 words, 1 locks)  
 THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while keeping the Higgs doublets: exhaustively, with every component's survival in every generation recorded (B1278's pipeline re-run and re-enumerated), 0 split lines; D is kept in all three generations on every SM line -- indeed on every one of the 3 048 625 candidates -- while Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines. BY THEOREM: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; three generations of Q put psi_Q in the alphabet K3 = {1} u ((C_1 u C_2) minus 1) x V_4 (orders 1, 19, 38), whose squares have odd order and are never family characters -- and the family characters (order 2) are the only characters that project anything (B1278's support theorem: h^1 = 1 exactly on ((C_1 u C_2) x V_4) minus 1). An exact structural model built from the support theorem and the weight table (Q, u^c, L a Z-basis of P/Q_SM; the eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders) reproduces every count of B1278 -- 145-letter alphabet, 758 593 three-generation lines, 737 568 SU(5)-breaking, 706 464 SM vacua, 568 656 full-spectrum -- and every histogram of the pipeline in seventeen seconds with no Fox calculus: B1278 verified by a second method. Consequences: L209(ii)'s Wilson-line option is closed; B1283's light D pair is untouched by the Wilson line as it is by the tree-level VEVs, so whatever gives generation g's Higgs pair its mu gives its D pair a mass through the same E6 Clebsch (a vector-like colour-triplet pair near mu if the instanton sector respects the Clebsch -- a stated assumption, not a banked prediction). Vector-like throughout (B1260); 0 of 19; price unchanged.  

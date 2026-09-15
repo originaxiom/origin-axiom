@@ -1,5 +1,14 @@
 # Changelog
 
+## B1356 — the three on Y₃: the deck fixes the knot only; the object's own closing is the Euclidean figure-eight orbifold; the sum rule under the deck; two forced A₂ loci; the antipode
+
+On the flat Y₃ the deck fixes exactly the lift of the knot, so a deck-symmetric triple of E₇ apexes is a free orbit and the descent is
+S³(4₁; 2π/3) with holonomy 2T/±1. Witten's sum rule under the deck: invariant classes charge nothing (cover and descent), the descent's
+single 27 is neutral under every C-field U(1), the cover's three are told apart by exactly two U(1)s or none, charges in (1,1,−2) + 3A₂
+= 3 × the 3̄ weights. The G₂ structure forces the deck to act on the E₆ fibre as the centre of SU(3): local group 2T × Z₃ along the knot,
+two A₂ loci, crepant Betti numbers (15, 5). On every S⁴/Γ the E₆ point's antipode carries the A₁ companion; CP²/Γ has no E₆ point
+(L212 (iii) closed for global quotients). L213 registered; hints 16 refined, 17 added.
+
 ## Harvest received from main (B1411): B1351–B1355 verified on main, B1354 run-not-rederived, B1353's headline corrected, the freeze lifted
 
 Currency notes on B1351–B1355; B1353's FINDINGS and claim line now say "the families enumerated, fourteen members computed"; the

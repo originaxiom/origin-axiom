@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1103 settled arcs — 75%** —
+the field is **absent on 828 of 1104 settled arcs — 75%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (119) = 535 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (119) = 536 arcs.**
 The vocabulary criterion adds **43 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -201,7 +201,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1260` | PROVED | S | | WHERE NET CHIRALITY CAN LIVE. MAIN_GOAL JOIN 1 question 1. (1) THE CLOSED WALL IS GENERAL: for ANY closed oriented 3-manifold, PD (h^i(V) = h^(3-i)(V*)) plus chi = 0 plus… |
 | `B1282` | PROVED | S | | THE SIBLING'S GERM. On the two-cusped sibling m202 (pi_1 = <a, b / aabbAbAABBaB>, Sym = D_6, commensurable with the object, Q(sqrt-3), 2T) the twelve isometries are found… |
 
-## §6 the observer — one bit, priced (142)
+## §6 the observer — one bit, priced (143)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -347,6 +347,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1275` | PROVED | S | | THE CUBIC MADE EXPLICIT. B308's unique E6 cubic invariant d_abc on the 27 is solved exactly from the repository's own 27 (B883's rep27.json): the 45 zero-sum-triple value… |
 | `B1302` | PROVED | S | | THE ONE-TRIPLET VACUA. On Y_12's 34 752 Standard-Model Wilson lines (B1301; 265 survival patterns of the eleven multiplets over three generations, the mirrors following t… |
 | `B1352` | PROVED | S | | THE FIXED-VECTOR LOCUS ALONG V10 (L204's other half; B1268's stage (b) completed): from every genuine V10 point of B1350 the augmented Newton (relator + mu v = v, lambda … |
+| `B1356` | PROVED | S | | THE THREE ON Y3: on the flat Hantzsche-Wendt closing Y3 the deck fixes exactly one closed geodesic (the lift of the knot; P2_1 3's torsion is its 3-fold rotations only), … |
 
 ## §2 the object — arithmetic and geometry (53)
 

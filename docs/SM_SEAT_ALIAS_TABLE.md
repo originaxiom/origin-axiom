@@ -90,3 +90,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-09 (later, main @ abb16e85):* main has used B1320–B1324 (arc 0 of Phase 2, L205's sibling count, L204 verified, the genesis upgrades, arc B and the dictionary); B1350–B1399 remain this branch's, with B1350–B1354 used. Main's B1322 verified sB1350 at its banked points; sB1351–sB1354 await main's harvest.
 
 *Update 2026-09-15 (main @ 208332f7, B1411):* B1350–B1355 harvested and verified on main (B1354 run, not re-derived); B1350–B1399 stands; main's next free id **B1412**; the cloud's and the paper-verification lanes are merged into main and deleted. This branch's next arc is B1356 (L212).
+
+*Update 2026-09-15 (later):* B1356 used (the three on Y₃, L212 (i)/(iii)); next arc B1357.

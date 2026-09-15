@@ -663,3 +663,19 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       that is not the observer; it is a pattern in a construction that does not yet exist
       (L212). The global form (E₆ × U(1))/Z₃ (Witten's U(N) remark transposed; the audit seat's E₆/Z₃)
       requires the 27s' U(1) charges ≡ 1 mod 3 — (1, 1, −2) is. Registered, not designed.
+      **B1356 (2026-09-15): proved for any closing carrying the deck** — the invariant classes
+      charge nothing in the cover (3q = 0) and in the descent (the fixed circle is not a
+      singularity of the cover, so the torus around the knot integrates to zero); the
+      generation-distinguishing U(1)s are exactly two or none (the sum-zero plane is the deck's
+      irreducible); the charge triples lie in (1, 1, −2) + 3A₂ and the deck orbit of (1, 1, −2)
+      is 3 × the weights of the 3̄ of the SU(3) permuting the apexes. Still a pattern in a
+      construction that does not exist; the lattice is now a theorem about it (L213).
+  (17) H-MCKAY-BOTH-FACTORS (type PATTERN, fenced; 2026-09-15, B1356): along the knot of the
+      descent (the object's own closing, S³(4₁; 2π/3)), the SO(4) ⊂ G₂ carries the object's
+      McKay group 2T on both Sp(1) factors — on one as the E₆ fibre's singularity, on the other
+      as the lift of the E₆ locus's own flat holonomy T = 2T/±1 (Q₈ from Hantzsche–Wendt's V₄
+      and the deck's l₀ = (1+i+j+k)/2 generate 2T exactly). And the deck's action on the fibre
+      is the centre of SU(3) = Stab_{G₂}(knot direction), so the local group 2T × Z₃ is the
+      fibre group times the centre. Whether "the same group on both factors" is forced by the
+      object or an accident of n = 3 (the only Euclidean level of the figure-eight cone family)
+      is not decided; the flat descent orbifold's linear group is inside (2T × 2O)/±1.

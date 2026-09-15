@@ -102,3 +102,8 @@ Feeds on: B1263/B1270 (the 48 surjections, the 2T model), B326 (the torsion), B2
 door), B1271 (the named object), B1260 (N = 0 on closed manifolds), B1268 (the bound). Literature: Helling–Kim–
 Mennicke, *A geometric study of Fibonacci groups* (the Fibonacci manifolds as cyclic branched covers of 4₁);
 Hantzsche–Wendt (the flat manifold). Registers no identification change.
+
+*(Currency 2026-09-15, B1356: the deck completes the holonomy. On the flat model ℝ³/P2₁2₁2₁ the deck (x,y,z) ↦ (z,x,y) fixes exactly
+one closed geodesic (length √3, the lift of the knot), ⟨Π, σ⟩ = P2₁3 has point group T = A₄ = 2T/±1 — V₄ is ker(T → ℤ/3), the part
+acting freely — and its singular set is one cone circle of angle 2π/3: Y₃/σ is Thurston's Euclidean figure-eight orbifold. Lifted
+to Sp(1), Q₈ and the deck's (1+i+j+k)/2 generate 2T exactly. `frontier/B1356_the_three_on_y3` §1.)*

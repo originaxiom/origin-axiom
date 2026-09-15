@@ -1,0 +1,12 @@
+{
+ "id": "B1356",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1273", "B1355", "B1353", "B1084"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE THREE ON Y3: on the flat Hantzsche-Wendt closing Y3 the deck fixes exactly one closed geodesic (the lift of the knot; P2_1 3's torsion is its 3-fold rotations only), so a deck-symmetric triple of E7 apexes is a free orbit and the object's own closing is Thurston's Euclidean orbifold S^3(4_1; 2pi/3) with holonomy T = 2T/{+-1}. In any compact G2 closing carrying the deck, Witten's sum rule gives 3q = 0 for every deck-invariant harmonic class, the fixed circle cannot compensate in the descent (it is not singular in the cover), so the descent's single 27 is neutral under every C-field U(1) and the cover's three are told apart by exactly two U(1)s or none, with charge triples in (1,1,-2) + 3A_2 whose deck orbit is 3 x the weights of the 3-bar of the permutation SU(3). Along the knot the G2 structure forces the deck to act on the E6 fibre as the centre of SU(3): the local group is 2T x Z_3 (order 72, in SU(3) = Stab(knot direction)), whose orbifold C^3/G has the E6 plane and two A_2 loci through the knot and crepant Betti numbers (15, 5) with 15 - 5 = 6 + 2 + 2. On every S^4/Gamma the E6 point's -1 fixes the antipode (the A_1 companion is unavoidable) and CP^2/Gamma has no E6 point: L212 (iii) closed for global quotients (Hitchin). No compact closing is constructed. 0 of 19."
+}

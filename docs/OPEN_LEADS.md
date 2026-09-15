@@ -2562,3 +2562,28 @@ against the global b₂ — with b₂ = 1 the three charges sum to zero (2 + 1),
 orbifold with exactly one 2T point (S⁴/2T has two poles; B1353's argument shows a larger Γ ⊂ O(4) enlarges the stabiliser).
 `frontier/B1355_the_e7_point_made_explicit`.
 
+**L212 status 2026-09-15 (B1356): (i) decided structurally, (iii) closed in the global-quotient class, (ii) untouched.** On the
+flat Y₃ the deck fixes exactly one closed geodesic (the lift of the knot; the descent P2₁3 has one cone circle and no 2-fold axes),
+so a deck-symmetric triple is a free orbit and the object's own closing is Thurston's Euclidean orbifold S³(4₁; 2π/3) with holonomy
+2T/±1. In any compact closing carrying the deck: every deck-invariant harmonic class charges the apexes by 0 (3q = 0), the fixed
+circle cannot compensate in the descent (it is not a singularity of the cover, so the torus around the knot integrates to zero),
+hence the descent's single 27 is neutral under every C-field U(1) and the cover's three are told apart by exactly two U(1)s or none
+(the sum-zero plane is the deck's irreducible), with charge triples in (1, 1, −2) + 3A₂ whose deck orbit is 3 × the weights of
+the 3̄ of the permutation SU(3). Along the knot the G₂ structure forces the deck to act on the E₆ fibre as the centre of SU(3): the
+local group is 2T × Z₃ (order 72, in SU(3)), so the descent's E₆ locus meets **two A₂ loci** along the knot, local model
+ℝ × ℂ³/(2T × Z₃) with crepant Betti numbers (15, 5), 15 − 5 = 6 + 2 + 2. (iii): on every S⁴/Γ the −1 of an E₆ point fixes the
+antipode, so the A₁ companion is unavoidable; CP²/Γ has no E₆ point (the twistor-trivial part of U(2) is the scalars); by Hitchin
+these are all global quotients of manifolds. Open: (ii); (iii) for orbifolds that are not global quotients; the compact closing
+itself. `frontier/B1356_the_three_on_y3`.
+
+## L213 — THE DECK'S U(1)² AND THE APEX ON THE KNOT (registered 2026-09-15; B1356)
+
+B1356 leaves three things named. **(i)** The generation-distinguishing U(1)² of the cover (the classes on which the deck acts as
+its two-dimensional irreducible) is anomalous by construction and acquires a mass through Witten's axionic coupling; what discrete
+symmetry survives at low energies to act on the three 27s — the deck as a Z₃ flavour symmetry in the regular representation minus
+the trivial, with charges 3 × (3̄ weights) — is the only flavour structure the tower offers, and it is not computed. **(ii)** The
+alternative design with the apex on the knot, fixed by the deck: its local model is the cone over CP³/(2T × Z₃) with the Z₃ in Sp(2)
+normalising 2T (the deck's action on the E₆ fibre is the SU(3) centre, B1356 §3), a census like B1355's. **(iii)** The
+five-dimensional theory of ℂ³/(2T × Z₃) along the knot (flavour rank 10, gauge rank 5 by the divisor count) and whether a compact
+closing can close the two A₂ loci — which the descent forces but the cover does not have. `frontier/B1356_the_three_on_y3`.
+

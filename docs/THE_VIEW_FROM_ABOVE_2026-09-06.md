@@ -144,6 +144,26 @@ and ∫_U w = 1 — the inflow. What is open is global and single: a compact clo
 the "three" being the tower's ℤ/3 descent if it is anything the object supplies. The count stays 0 of 19; the destination's
 local geometry is no longer abstract.
 
+## 5g. The view after B1356 (added 2026-09-15): the three are a cover phenomenon
+
+**What the tower says about the "three".** The deck of Y₃ fixes exactly the lift of the knot and nothing else; the object's own
+closing — the quotient — is the one Euclidean member of the figure-eight cone family, S³(4₁; 2π/3), and its holonomy is the
+object's McKay group modulo its centre. A deck-symmetric triple of E₇ apexes lives on the cover, off the knot. Witten's sum rule,
+read with the deck, is then blunt: the C-field U(1)s that descend to the object's own closing see no charge at any apex — not in
+the cover (3q = 0) and not in the descent (the fixed circle is smooth in the cover, so the knot's torus integrates to zero). The
+object's own closing carries one 27, neutral. The three exist as three only on the cover, and what tells them apart is exactly the
+pair of U(1)s on which the deck acts as rotation by 2π/3, with charges forming the equilateral triangle 3 × (weights of 3̄) in the
+Eisenstein A₂. So the "three" is not in the object; it is in the cover the object's tower supplies, distinguished by a symmetry the
+quotient cannot see.
+
+**What we were not seeing.** The descent is not a smaller copy of the cover. Rotating the knot's normal disc by 2π/3 while
+preserving the G₂ structure forces the deck to rotate the E₆ fibre by the centre of SU(3), and ω·g has a fixed line for every
+order-3 element g of 2T: two A₂ loci run through the knot in the object's own closing, with the five-dimensional theory of
+ℂ³/(2T × Z₃) along it (flavour rank 10 = E₆ + A₂ + A₂, gauge rank 5). The knot of the figure-eight, in the closing that is the
+object's own, is where E₆ meets two SU(3)s. And the A₁ locus of B1355's apex is not an artefact of S⁴/2T: on every S⁴/Γ the −1 of
+an E₆ point fixes the antipode, and CP²/Γ has no E₆ points — Hitchin's theorem makes these all the global quotients. The E₇ apex
+comes with its SU(2) in every model where anything is known. The count stays 0 of 19.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with
