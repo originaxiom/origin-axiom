@@ -220,6 +220,23 @@ manifolds. The three faces: the descent is the one Euclidean member of the figur
 is the Eisenstein A₂ with the deck as ω (arithmetic); the deck is the SU(3) centre on the fibre and the inflow sees the generations
 only through the irreducible pair (quantum). The compact closing is still not constructed (L212, L213).
 
+## 6i. The object's own Joyce orbifold (B1357, 2026-09-15)
+
+The compact flat background the ingredients determine without a choice: the E₆ fibre ℂ²/2T compactified by the Hurwitz torus (2T's
+unit-group lattice, unique up to scale), the Hantzsche–Wendt group acting on T³ and on the fibre by the lifts of its holonomy (the
+SO(4) ⊂ G₂ of B1356; on the torus the twist is forced into 2T, so there is no E₆ diagram flip), the deck as the tower's. Exact
+census: T⁴/2T has 48 singular points in orbits E₆ + D₄ + A₁ + 4A₂ (χ = 5, resolution a K3, χ = 24); the 7-orbifold has one invariant
+spinor (N = 1) and four disjoint loci — E₆, SO(8), SU(2) on three copies of Y₃ and SU(3) on T³ — with b₂ = 0, b₃ = 4. The three
+Y₃-loci are rigid (the holonomy V₄ fixes no direction of the hyperkähler triple): unbreakable gauge groups, no adjoint matter, pure
+N = 1 super-Yang–Mills; the T³-locus is resolvable (b₂ → 2, b₃ → 10). The descent is the object's own closing: E₆, SO(8), SU(2) on
+S³(4₁; 2π/3) and SU(3) on T³/Z₃, b₂ = 0, b₃ = 2; along each cone circle the deck enlarges the local group — 2T × Z₃ (E₆, inner, kept),
+Z₆(1,2,3) (SU(2)), SL(2,3) (SO(8): triality folds it to G₂), Z₃ × Z₃ (SU(3)) — and its order-6 coset elements fix closed 2-tori: two
+compact A₂ loci, one joining E₆–SU(2)–SU(3), one joining E₆–SO(8)–SU(3) along the cone circles. For the chirality bit the decisive
+line is the C-field: the deck's two-dimensional irreducible occurs on 3-forms only, never on 2-forms, in the background and in its
+resolution — the U(1)² that distinguishes B1356's three generations is not available from the flat closing; it can only be born with
+the apexes. Vector-like throughout (B1351). The touching design — the SU(2)-copy of Y₃ brought to the E₆-copy at three deck-related
+points with B1355's cone as the local model — is registered, not constructed (L213 (iv)).
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

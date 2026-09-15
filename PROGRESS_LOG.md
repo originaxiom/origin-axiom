@@ -14783,3 +14783,19 @@ of an E₆ point on S⁴/Γ fixes the antipode; only ±1 of 2T acts trivially on
 closed for global quotients. Lock `tests/test_b1356_the_three_on_y3.py` (one minute). Surfaces: L212 status, L213, hints 16–17,
 THE_SM_VERDICT, CHIRALITY_MAP §6h, the destination ledger's item 1, the view §5g, the letter's twelfth note, currency notes on
 B1355, B1273, B1084. 0 of 19; price unchanged.
+
+### B1357 — the object's own Joyce orbifold: the Hurwitz-torus compactification of the E₆ fibre, its loci, Betti numbers, rigidity, and the descent's folds and collision loci (2026-09-15)
+
+Exact. Stage 1: 2T's left multiplication preserves the Hurwitz order; fixed points on T⁴ = ℍ/Λ are 16/4/9/1 for orders 2/4/3/6 (=
+N(g−1)²), 48 singular points in orbits E₆ + D₄ + A₁ + 4A₂, χ(T⁴/2T) = 5, resolution χ = 24 (K3). Stage 2: right multiplication by i,
+j, k fixes the E₆, D₄, A₁ orbits and acts on the four A₂ orbits as the regular V₄; l₀ fixes one and cycles three (A₄ on four points);
+the cover's loci are E₆, D₄, A₁ on Hantzsche–Wendt and A₂ on T³ (holonomy trivial, degree 4), monodromies inner. Stage 3: exact
+ranks on Λ²ℝ⁷, Λ³ℝ⁷ — cover b₂ = 0, b₃ = 4, descent b₂ = 0, b₃ = 2, no invariant vectors (one spinor), the deck's eigenvalues 1,1,ω,ω̄
+on the 3-forms. Stage 4: (ℝ³)^{V₄} = 0 → E₆, D₄, A₁ loci rigid; the A₂ locus resolvable (+2, +6). Stage 5: the deck-coset elements
+with order-6 g fix one closed 2-torus each (8 tori), the rest finitely many points. Stage 6: local groups along the descent's cone
+circles — E₆: 72 (2T × Z₃; ages 1/15/5), A₁: Z₆ (1/4/1, weights (1,2,3)), D₄: SL(2,3) (7 classes, 1/5/1: folded to G₂), A₂: Z₃ × Z₃
+(1/7/1); the eight tori in two conjugacy classes: Σ₁ ∋ E₆, all 12 A₁, the 8 deck-fixed A₂ points; Σ₂ ∋ E₆, the 3 D₄, the same 8 A₂.
+Stage 7: resolved cover b₂ = 2 (deck-trivial), b₃ = 10 (irreducible on 4); descent b₂ = 2, b₃ = 4. Conclusion for hint 16: no
+2-form carries the deck's irreducible in the flat class; the generation U(1)² must come with the apexes. Lock (80 s). Surfaces:
+L213 status, hints 16/17/18, THE_SM_VERDICT, CHIRALITY_MAP §6i, the destination ledger, the view §5h, the letter's thirteenth note,
+currency notes on B1356, B1273, B1084, B1355. 0 of 19; price unchanged.

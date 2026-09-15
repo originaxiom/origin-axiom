@@ -52,3 +52,8 @@ det = 1 on the normal ℂ³ to act on the fibre ℂ²/2T as the scalar ω — th
 through 2O/2T; the local group is 2T × Z₃ (order 72) with two A₂ loci through the knot. In the compact flat orbifold over the
 Hantzsche–Wendt manifold the three A₁ families of this cone are absent (the V₄ elements are 2₁ screws without fixed points);
 they are this linear model's, at its apex. `frontier/B1356_the_three_on_y3` §3.)*
+
+*(Currency 2026-09-15, B1357: the compact version. On the Hurwitz torus the 2O twist of Ĝ cannot act (it does not preserve the
+lattice), so the compact flat orbifold over Hantzsche–Wendt has linear group inside (2T × 2T)/±1, no E₆ diagram flip, and its A₁
+locus is not this cone's three families through the apex but a separate copy of Y₃ over the twelve 2-torsion points of stabiliser
+±1 at fibre distance ½ from the E₆ copy; the D₄ points give a third copy with SO(8). `frontier/B1357_the_objects_own_joyce_orbifold`.)*

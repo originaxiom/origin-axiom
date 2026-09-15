@@ -414,3 +414,13 @@ left it.
 > two A₂ loci through the knot (local group 2T × Z₃, the deck acting on the E₆ fibre as the centre of SU(3); crepant Betti numbers
 > 15, 5). On every S⁴/Γ the E₆ point's antipode carries the A₁ companion and CP²/Γ has no E₆ point (L212 (iii) closed for global
 > quotients). No compact closing is constructed. 0 of 19; price unchanged (`frontier/B1356_the_three_on_y3`).
+
+> **Currency note (2026-09-15, B1357):** the flat class has an object-determined compact member. Compactifying the E₆ fibre by the
+> Hurwitz torus (the unique 2T-invariant lattice up to scale) under the Hantzsche–Wendt group acting as the SO(4) ⊂ G₂ dictates
+> gives a compact flat G₂ orbifold with one invariant spinor and four disjoint loci: E₆, SO(8), SU(2) on three copies of Y₃ — rigid,
+> so the three gauge groups are unbreakable and carry no adjoints — and SU(3) on T³; b₂ = 0, b₃ = 4 (the four flat moduli); T⁴/2T is
+> the tetrahedral K3 orbifold. Its ℤ/3 descent, the object's own closing, has b₂ = 0, b₃ = 2, folds SO(8) to G₂ by triality, keeps
+> E₆, and carries two compact A₂ loci threading every cone circle (E₆–SU(2)–SU(3) and E₆–SO(8)–SU(3)). No C-field U(1) of the flat
+> background or its resolution carries the deck's irreducible: the U(1)² that tells the three generations apart (B1356) must be born
+> with the curved apexes. Vector-like throughout, as B1351 says every closing of the tower is. 0 of 19; price unchanged
+> (`frontier/B1357_the_objects_own_joyce_orbifold`).

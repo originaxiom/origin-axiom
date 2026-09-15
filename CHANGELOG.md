@@ -1,5 +1,13 @@
 # Changelog
 
+## B1357 — the object's own Joyce orbifold: E₆, SO(8), SU(2) rigid on three copies of Y₃, SU(3) on T³, N = 1, b₂ = 0; the descent folds SO(8) to G₂ and carries two compact A₂ loci through every cone circle; no 2-form carries the deck's irreducible
+
+The E₆ fibre closed by the Hurwitz torus (the unique 2T-invariant lattice up to scale) under the Hantzsche–Wendt group acting as the
+SO(4) ⊂ G₂ dictates: a compact flat G₂ orbifold with one invariant spinor, four disjoint loci, b₂ = 0, b₃ = 4; T⁴/2T the tetrahedral K3
+orbifold (E₆ + D₄ + A₁ + 4A₂, χ = 5 → 24). The descent (the object's own closing): b₂ = 0, b₃ = 2; local groups along the cone circles
+2T × Z₃, Z₆(1,2,3), SL(2,3) (triality: SO(8) → G₂), Z₃ × Z₃; two compact A₂ loci Σ₁ (E₆–SU(2)–SU(3)) and Σ₂ (E₆–SO(8)–SU(3)). Hint 16
+decided in the flat class: the generation-distinguishing U(1)² must be born with the apexes. L213 (iv)–(vi); hint 18.
+
 ## B1356 — the three on Y₃: the deck fixes the knot only; the object's own closing is the Euclidean figure-eight orbifold; the sum rule under the deck; two forced A₂ loci; the antipode
 
 On the flat Y₃ the deck fixes exactly the lift of the knot, so a deck-symmetric triple of E₇ apexes is a free orbit and the descent is

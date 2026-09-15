@@ -107,3 +107,8 @@ Hantzsche–Wendt (the flat manifold). Registers no identification change.
 one closed geodesic (length √3, the lift of the knot), ⟨Π, σ⟩ = P2₁3 has point group T = A₄ = 2T/±1 — V₄ is ker(T → ℤ/3), the part
 acting freely — and its singular set is one cone circle of angle 2π/3: Y₃/σ is Thurston's Euclidean figure-eight orbifold. Lifted
 to Sp(1), Q₈ and the deck's (1+i+j+k)/2 generate 2T exactly. `frontier/B1356_the_three_on_y3` §1.)*
+
+*(Currency 2026-09-15, B1357: Y₃ three times. In the object's own Joyce orbifold — the E₆ fibre closed by the Hurwitz torus — the
+singular loci over the E₆, D₄ and A₁ points of T⁴/2T are each a copy of the Hantzsche–Wendt manifold (the holonomy stabiliser of
+each orbit is all of V₄), rigid, carrying E₆, SO(8), SU(2) pure super-Yang–Mills; the A₂ locus is T³, the holonomy cover of Y₃.
+`frontier/B1357_the_objects_own_joyce_orbifold` §2.)*

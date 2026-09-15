@@ -670,6 +670,9 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       irreducible); the charge triples lie in (1, 1, −2) + 3A₂ and the deck orbit of (1, 1, −2)
       is 3 × the weights of the 3̄ of the SU(3) permuting the apexes. Still a pattern in a
       construction that does not exist; the lattice is now a theorem about it (L213).
+      **B1357 (2026-09-15): decided in the flat class** — the object's own Joyce orbifold has
+      b₂ = 0 (descent too), its resolvable SU(3) locus adds two deck-invariant 2-forms, and the
+      deck's irreducible sits on 3-forms only; the U(1)² must be born with the curved apexes.
   (17) H-MCKAY-BOTH-FACTORS (type PATTERN, fenced; 2026-09-15, B1356): along the knot of the
       descent (the object's own closing, S³(4₁; 2π/3)), the SO(4) ⊂ G₂ carries the object's
       McKay group 2T on both Sp(1) factors — on one as the E₆ fibre's singularity, on the other
@@ -679,3 +682,15 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       fibre group times the centre. Whether "the same group on both factors" is forced by the
       object or an accident of n = 3 (the only Euclidean level of the figure-eight cone family)
       is not decided; the flat descent orbifold's linear group is inside (2T × 2O)/±1.
+      **B1357:** on the Hurwitz torus the 2O twist is impossible (it does not preserve the
+      lattice), so the compact flat model's linear group is inside (2T × 2T)/±1 exactly: the
+      same group on both factors is forced there, not accidental.
+  (18) H-TRIALITY-FOLD (type PATTERN, fenced; 2026-09-15, B1357): on the object's own closing
+      (the ℤ/3 descent of its Joyce orbifold) the deck's lift at the D₄ points normalises Q₈
+      non-centrally — the local group along the SO(8) locus's cone circle is SL(2,3), seven
+      classes, not Q₈ × Z₃ — so it acts on the D₄ diagram by triality and the descent's gauge
+      group from that locus is G₂ = D₄^{triality} (two non-compact divisors, computed), while E₆
+      is kept (the deck acts on its fibre as the scalar ω, inner). A G₂ gauge group on a
+      G₂-holonomy background produced by the same ℤ/3 that makes the closing Euclidean. Pattern;
+      the 4d consequences (the folded gauge theory on S³(4₁; 3), its matter along the knot) are
+      not computed (L213 (v)).

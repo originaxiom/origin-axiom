@@ -1,0 +1,101 @@
+====================================================================================================
+STAGE 1 — the singular points of T^4/2T, T^4 = H/Lambda (Hurwitz), 2T by left multiplication
+====================================================================================================
+  left and right multiplication by the 24 units preserve Lambda: True
+  fixed points on T^4 of the non-identity elements, by order: order 2: [16] (1 elements), order 3: [9] (8 elements), order 4: [4] (6 elements), order 6: [1] (8 elements)
+  |Fix(g)| = N(g - 1)^2 for every g (Lefschetz): True
+  chi(T^4/2T) = (1/24) sum_g chi(Fix g) = 5
+  singular points of T^4 (non-identity fixed points): 48; 2T-orbits: 7: {'2T (E6)': 1, 'Z2 (A1)': 1, 'Q8 (D4)': 1, 'Z3 (A2)': 4}
+  chi(minimal resolution) = chi(T^4/2T) + sum of ranks = 5 + 19 = 24  (K3: True)
+    representative (0,0,0,0): stabiliser 2T (E6), orbit size 1
+    representative (0,1/2,1/2,0): stabiliser Q8 (D4), orbit size 3
+    representative (1/6,1/2,5/6,1/6): stabiliser Z3 (A2), orbit size 8
+    representative (1/2,1/6,1/6,1/6): stabiliser Z3 (A2), orbit size 8
+    representative (2/3,2/3,1,1/3): stabiliser Z3 (A2), orbit size 8
+    representative (1/3,2/3,1/3,0): stabiliser Z3 (A2), orbit size 8
+    representative (1/4,1/4,1/4,1/4): stabiliser Z2 (A1), orbit size 12
+
+====================================================================================================
+STAGE 2 — the seven-dimensional loci: the Hantzsche-Wendt lifts Q_8 and the deck l0 acting by right multiplication
+====================================================================================================
+  orbits (index: type): [(0, 'E6'), (1, 'A1'), (2, 'D4'), (3, 'A2'), (4, 'A2'), (5, 'A2'), (6, 'A2')]
+  right multiplication by i^ permutes the orbits as (0, 1, 2, 4, 3, 6, 5)
+  right multiplication by j^ permutes the orbits as (0, 1, 2, 6, 5, 4, 3)
+  right multiplication by k^ permutes the orbits as (0, 1, 2, 5, 6, 3, 4)
+  right multiplication by l0^ permutes the orbits as (0, 1, 2, 5, 4, 6, 3)
+
+  THE COVER (T^3 x T^4)/(Pi x| 2T): loci = Pi-orbits of the singular orbits; each locus is T^3 / Pi_[y]
+    type E6: orbit of singular orbits [0] (covering degree 1 over Y_3), holonomy image ['1', 'i', 'j', 'k'] -> locus = Hantzsche-Wendt (holonomy V_4, b_1 = 0)
+    type A1: orbit of singular orbits [1] (covering degree 1 over Y_3), holonomy image ['1', 'i', 'j', 'k'] -> locus = Hantzsche-Wendt (holonomy V_4, b_1 = 0)
+    type D4: orbit of singular orbits [2] (covering degree 1 over Y_3), holonomy image ['1', 'i', 'j', 'k'] -> locus = Hantzsche-Wendt (holonomy V_4, b_1 = 0)
+    type A2: orbit of singular orbits [3, 4, 5, 6] (covering degree 4 over Y_3), holonomy image ['1'] -> locus = T^3 (b_1 = 3)
+
+  THE DESCENT (T^3 x T^4)/(P2_1 3 x| 2T): loci over the singular orbits (the collision loci along the knot are stage 5)
+    type E6: orbit [0] (covering degree 1 over S^3(4_1;3)), point-group image of the stabiliser has order 12 of 12 -> locus = T^3 / (a subgroup of P2_1 3 of index 1)
+    type A1: orbit [1] (covering degree 1 over S^3(4_1;3)), point-group image of the stabiliser has order 12 of 12 -> locus = T^3 / (a subgroup of P2_1 3 of index 1)
+    type D4: orbit [2] (covering degree 1 over S^3(4_1;3)), point-group image of the stabiliser has order 12 of 12 -> locus = T^3 / (a subgroup of P2_1 3 of index 1)
+    type A2: orbit [3, 4, 5, 6] (covering degree 4 over S^3(4_1;3)), point-group image of the stabiliser has order 3 of 12 -> locus = T^3 / (a subgroup of P2_1 3 of index 4)
+
+  fibre monodromy along each cover locus: the g in 2T with y l^ = g y for the l in the holonomy stabiliser
+    type E6 (stabiliser order 24): i: g of orders [1, 2, 3, 4, 6], in Gamma_y.{+-1}: True; j: g of orders [1, 2, 3, 4, 6], in Gamma_y.{+-1}: True; k: g of orders [1, 2, 3, 4, 6], in Gamma_y.{+-1}: True
+    type A1 (stabiliser order 2): i: g of orders [4], in Gamma_y.{+-1}: False; j: g of orders [4], in Gamma_y.{+-1}: False; k: g of orders [4], in Gamma_y.{+-1}: False
+    type D4 (stabiliser order 8): i: g of orders [1, 2, 4], in Gamma_y.{+-1}: True; j: g of orders [1, 2, 4], in Gamma_y.{+-1}: True; k: g of orders [1, 2, 4], in Gamma_y.{+-1}: True
+    type A2 (stabiliser order 3): 
+
+====================================================================================================
+STAGE 3 — the point group on Lambda^2 R^7 and Lambda^3 R^7: b_2, b_3 of the flat orbifolds; invariant vectors
+====================================================================================================
+  cover: invariant 1-forms 0 (invariant spinors = 1 + 0 = 1: N = 1), b_2 = 0, b_3 = 4
+  descent: invariant 1-forms 0 (invariant spinors = 1 + 0 = 1: N = 1), b_2 = 0, b_3 = 2
+  the deck on the 4 invariant 3-forms of the cover: eigenvalues {1: 2, -1/2 - sqrt(3)*I/2: 1, -1/2 + sqrt(3)*I/2: 1} -> invariant part 2 (= b_3 of the descent)
+
+====================================================================================================
+STAGE 4 — rigidity: the resolution parameter of C^2/Gamma along a locus lives in h(Gamma) x (R^3)^{holonomy}
+====================================================================================================
+  locus E6 (holonomy image of order 4): (R^3)^hol has dimension 0 -> RIGID: no resolution or deformation compatible with the monodromy
+  locus A1 (holonomy image of order 4): (R^3)^hol has dimension 0 -> RIGID: no resolution or deformation compatible with the monodromy
+  locus D4 (holonomy image of order 4): (R^3)^hol has dimension 0 -> RIGID: no resolution or deformation compatible with the monodromy
+  locus A2 (holonomy image of order 1): (R^3)^hol has dimension 3 -> resolvable with parameter in h x R^3; Joyce's resolution would add 2 to b_2 and 6 to b_3
+  total a full Joyce resolution could add: b_2 += 2, b_3 += 6
+
+====================================================================================================
+STAGE 5 — the descent's collision loci along the knot: fixed sets on T^4 of y -> g y l0^, g in 2T
+====================================================================================================
+  g of order 1: fixed subspace of the linear part of dimension 0; fixed set on T^4: 1  (1 elements)
+  g of order 2: fixed subspace of the linear part of dimension 0; fixed set on T^4: 9  (1 elements)
+  g of order 3: fixed subspace of the linear part of dimension 0; fixed set on T^4: 4  (8 elements)
+  g of order 4: fixed subspace of the linear part of dimension 0; fixed set on T^4: 1  (6 elements)
+  g of order 6: fixed subspace of the linear part of dimension 2; fixed set on T^4: 1 tori  (8 elements)
+  the elements with a 2-dimensional fixed plane give the two A_2 loci of B1356 along the knot; on the torus they are closed 2-tori, so in the compact descent the A_2 loci along the knot are compact (circle x torus, modulo the group).
+
+====================================================================================================
+STAGE 6 — the descent's cone circles: the local group <Gamma_y, deck> at each deck-fixed singular point, its strata and ages
+====================================================================================================
+  E6 point y = (0,0,0,0): |Gamma_y| = 24, deck lifts (g with g y l0^ = y): 24; local group order 72 (= 3|Gamma_y|: True; the whole deck coset lies in it: True)
+      fixed planes: 9; orbits (size, in Im H?, pointwise stabiliser order): [(1, True, 24), (4, False, 3), (4, False, 3)]
+      conjugacy classes 21, ages {Fraction(0, 1): 1, Fraction(1, 1): 15, Fraction(2, 1): 5} -> crepant b_2 = 15, b_4 = 5, non-compact divisors 10
+  A1 point y = (1/4,1/4,1/4,1/4): |Gamma_y| = 2, deck lifts (g with g y l0^ = y): 2; local group order 6 (= 3|Gamma_y|: True; the whole deck coset lies in it: True)
+      fixed planes: 2; orbits (size, in Im H?, pointwise stabiliser order): [(1, True, 2), (1, False, 3)]
+      conjugacy classes 6, ages {Fraction(0, 1): 1, Fraction(1, 1): 4, Fraction(2, 1): 1} -> crepant b_2 = 4, b_4 = 1, non-compact divisors 3
+  D4 point y = (0,1/2,1/2,0): |Gamma_y| = 8, deck lifts (g with g y l0^ = y): 8; local group order 24 (= 3|Gamma_y|: True; the whole deck coset lies in it: True)
+      fixed planes: 5; orbits (size, in Im H?, pointwise stabiliser order): [(1, True, 8), (4, False, 3)]
+      conjugacy classes 7, ages {Fraction(0, 1): 1, Fraction(1, 1): 5, Fraction(2, 1): 1} -> crepant b_2 = 5, b_4 = 1, non-compact divisors 4
+  A2 point y = (1/2,1/6,1/6,1/6): |Gamma_y| = 3, deck lifts (g with g y l0^ = y): 3; local group order 9 (= 3|Gamma_y|: True; the whole deck coset lies in it: True)
+      fixed planes: 3; orbits (size, in Im H?, pointwise stabiliser order): [(1, True, 3), (1, False, 3), (1, False, 3)]
+      conjugacy classes 9, ages {Fraction(0, 1): 1, Fraction(1, 1): 7, Fraction(2, 1): 1} -> crepant b_2 = 7, b_4 = 1, non-compact divisors 6
+
+  singular points of T^4 fixed by a deck-coset element (g, l0) whose linear part has a 2-dimensional fixed plane:
+      by type: {'E6': 1, 'A1': 12, 'D4': 3, 'A2': 8}  (orbit sizes: E6 1, A1 12, D4 3, A2 8 each)
+
+  the order-6 elements form 2 conjugacy classes of [4, 4]: two compact A_2 loci Sigma_1, Sigma_2
+      Sigma_1 (tori of the class containing (1/2,-1/2,-1/2,1/2)): singular points on it by type {'E6': 1, 'A1': 12, 'A2': 8}
+      Sigma_2 (tori of the class containing (1/2,-1/2,-1/2,-1/2)): singular points on it by type {'E6': 1, 'D4': 3, 'A2': 8}
+
+====================================================================================================
+STAGE 7 — Betti numbers after Joyce's resolution of the untwisted A_2 locus, with the deck
+====================================================================================================
+  cover: b_2 = 0 + 2 = 2 (the A_2 root lattice x H^0(T^3)), b_3 = 4 + 6 = 10 (4 flat moduli: the three T^3 radii and the fibre scale; 6 = A_2 roots x H^1(T^3))
+  deck on the added classes: on b_2 through the A_2 fibre's normaliser (in U(1)_L x Sp(1)_R, connected: trivial), on b_3 through H^1(T^3) = 1 + (2-dim irreducible): invariant 2 x 1 = 2
+  descent (resolvable in R^3^Z_3 = the axis): b_2 = 2, b_3 = 2 + 2 = 4; the deck's two-dimensional irreducible occurs on 3-forms (4 of the cover's 10) and never on 2-forms: no C-field U(1) carries it in the flat background or its resolution
+
+DONE

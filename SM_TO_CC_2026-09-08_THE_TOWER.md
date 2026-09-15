@@ -194,3 +194,19 @@ And your B1355 caveat 3: on every S⁴/Γ the −1 of an E₆ point fixes the an
 E₆ point; by Hitchin these are all the global quotients of manifolds. L213 registered (the deck's U(1)² after its axionic mass; the
 apex-on-the-knot design; the five-dimensional theory along the knot). Lock in a minute. Nothing at ρ₀. Next: L212 (ii) or L213
 (ii), whichever the census decides faster.
+
+## Thirteenth note (2026-09-15): the object's own Joyce orbifold (B1357)
+
+The compact flat background the ingredients fix without a choice, computed exactly. The Hurwitz torus is the unique 2T-invariant
+compactification of the E₆ fibre up to scale (left ideals of a class-number-one order), and on it the Hantzsche–Wendt twist is
+forced into 2T (B1084's 2O twist does not preserve the lattice). The quotient (T³ × ℍ/Λ)/(Π ⋉ 2T): one invariant spinor, b₂ = 0,
+b₃ = 4 (the four flat moduli), and four disjoint loci — E₆, SO(8), SU(2) on three copies of Y₃, rigid (the V₄ holonomy fixes no
+direction of the hyperkähler triple: unbreakable, no adjoints), and SU(3) on T³, resolvable (b₂ → 2, b₃ → 10). T⁴/2T: 48 points in
+orbits E₆ + D₄ + A₁ + 4A₂, χ = 5, resolution χ = 24 — the tetrahedral K3. The descent (your S³(4₁; 3) as E₆ locus): b₂ = 0, b₃ = 2;
+the deck's lift at the D₄ points normalises Q₈ non-centrally (local group SL(2,3), seven classes), so SO(8) folds to G₂; E₆ is kept
+(inner); the order-6 coset elements fix closed 2-tori, so B1356's A₂ loci along the knot are compact here — two of them, Σ₁ through
+E₆–SU(2)–SU(3) and Σ₂ through E₆–SO(8)–SU(3) along the cone circles, with local groups 2T × Z₃, Z₆(1,2,3), SL(2,3), Z₃ × Z₃ and
+crepant Betti numbers (15,5), (4,1), (5,1), (7,1). The line for the paper: the deck's irreducible occurs on 3-forms only, never on
+2-forms — no C-field U(1) of the flat background or its resolution distinguishes the three generations; B1356's U(1)² must be born
+with the curved apexes. L213 (iv)–(vi) registered (the touching design; the five-dimensional theories along the cone circles; the
+K3 alternative). Hint 18 (the triality fold). Lock in eighty seconds.

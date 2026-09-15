@@ -165,3 +165,9 @@ form U(N)). Acharya–Witten, hep-th/0109152 (the twistor family). Thurston, *Th
 cover of 4₁; B1273). Hitchin, *Kählerian twistor spaces*, Proc. LMS 43 (1981) (S⁴ and CP² the only compact positive self-dual
 Einstein 4-manifolds). Ito–Reid, *The McKay correspondence for finite subgroups of SL(3, ℂ)* (ages and the Betti numbers of crepant
 resolutions). International Tables for Crystallography A, space groups 19 and 198.
+
+*(Currency 2026-09-15, B1357: §3's "the A₂ loci are disc bundles over the knot — open — so their SU(3)s are flavour" is the linear
+model's statement. In the compact flat closing (the E₆ fibre closed by the Hurwitz torus, `frontier/B1357_the_objects_own_joyce_orbifold`)
+the order-6 coset elements fix closed 2-tori, so the two A₂ loci along the knot are compact and carry gauge SU(3)s; they also thread the
+cone circles of the SU(2) and SO(8) loci (Σ₁: E₆–SU(2)–SU(3); Σ₂: E₆–SO(8)–SU(3)). And §2's U(1)²: B1357 shows the flat background and
+its resolution carry no 2-form with the deck's irreducible — the U(1)² must be born with the apexes.)*

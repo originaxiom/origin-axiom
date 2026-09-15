@@ -164,6 +164,25 @@ object's own, is where E₆ meets two SU(3)s. And the A₁ locus of B1355's apex
 an E₆ point fixes the antipode, and CP²/Γ has no E₆ points — Hitchin's theorem makes these all the global quotients. The E₇ apex
 comes with its SU(2) in every model where anything is known. The count stays 0 of 19.
 
+## 5h. The view after B1357 (added 2026-09-15): the object's own compact background, and what it cannot supply
+
+**What the ingredients determine without a choice.** The E₆ fibre has one compactification the McKay group allows — the torus of the
+Hurwitz order, 2T's own lattice — and the Hantzsche–Wendt group has one way to act on it that the G₂ structure allows. The quotient is
+a compact flat G₂ orbifold, a Joyce orbifold with the object's groups: one invariant spinor, and four loci that never meet — E₆ on
+Y₃, SO(8) on a second Y₃, SU(2) on a third, SU(3) on T³. The three Y₃-loci are rigid: the flat holonomy rotates the hyperkähler
+triple without a fixed direction, so nothing can resolve or deform them, and the three gauge groups are unbreakable with no adjoint
+matter — pure N = 1 super-Yang–Mills three times over. The fibre's quotient is the tetrahedral K3 orbifold (E₆ + D₄ + A₁ + 4A₂).
+The C-field sees nothing: b₂ = 0.
+
+**What we were not seeing.** The descent — the object's own closing — is richer than the cover, not poorer. The deck folds SO(8) to
+G₂ by triality and leaves E₆ alone; and its order-6 elements fix closed tori in the fibre, so the A₂ loci that B1356 found along
+the knot are compact here and carry gauge SU(3)s — two of them, threading every cone circle, one joining E₆–SU(2)–SU(3), the other
+E₆–SO(8)–SU(3). The object's own closing is a web of gauge loci meeting along the figure-eight's cone circles in four exactly known
+local models. What it cannot supply is the one thing item 1 needs beyond the apexes: the deck's irreducible never appears on a
+2-form — not in the background, not in its resolution, not in the descent — so the U(1)² that tells the three generations apart
+has no source but the apexes themselves. That narrows the design to one picture: the SU(2)-copy of Y₃ brought to touch the
+E₆-copy at three deck-related points, with B1355's cone as the local model (L213 (iv)). Registered, not built. 0 of 19.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with

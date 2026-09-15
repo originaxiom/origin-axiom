@@ -1,0 +1,12 @@
+{
+ "id": "B1357",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1273", "B1356", "B1355", "B1084"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE OBJECT'S OWN JOYCE ORBIFOLD: compactifying the E6 fibre C^2/2T by the Hurwitz torus (the unique 2T-invariant lattice up to scale) and letting the Hantzsche-Wendt group act as the SO(4) c G2 dictates gives a compact flat G2 orbifold with exactly one invariant spinor (N = 1) and four disjoint singular loci: E6, SO(8) and SU(2) on three copies of Y3 (rigid: the holonomy V4 fixes no direction of the hyperkaehler triple, so the three gauge groups are unbreakable and carry no adjoints) and SU(3) on T3 (resolvable, adding 2 to b2 and 6 to b3); b2 = 0, b3 = 4 = the four flat moduli. T^4/2T has 48 singular points in orbits E6 + D4 + A1 + 4A2, chi = 5, resolution K3 (chi = 24). The Z/3 descent (the object's own closing) has E6, SO(8), SU(2) on S^3(4_1; 2pi/3) and SU(3) on T^3/Z3, b2 = 0, b3 = 2; along each cone circle the deck enlarges the local group to 2T x Z3 (E6, inner), Z6(1,2,3) (SU(2)), SL(2,3) (SO(8): triality folds it to G2), Z3 x Z3 (SU(3)), with crepant Betti numbers (15,5), (4,1), (5,1), (7,1); the order-6 coset elements fix closed 2-tori giving two compact A2 loci, one threading E6-SU(2)-SU(3) and one E6-SO(8)-SU(3). The deck's two-dimensional irreducible occurs on 3-forms only, never on 2-forms: no C-field U(1) of the flat background or its resolution distinguishes the three generations; B1356's U(1)^2 must be born with the curved apexes. 0 of 19."
+}

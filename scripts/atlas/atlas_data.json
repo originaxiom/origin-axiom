@@ -2001,6 +2001,7 @@
     "eisenstein",
     "z3_generation",
     "amphichiral_cp",
+    "torsion",
     "wrt_quantum"
    ],
    "refs": [
@@ -2009,7 +2010,7 @@
    "obstacle": "gauge_dict",
    "obstacle_conf": 1,
    "status": "dead",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B1085": {
    "slug": "edge observability",
@@ -7212,7 +7213,8 @@
     "wrt_quantum"
    ],
    "refs": [
-    "L212"
+    "L212",
+    "L213"
    ],
    "obstacle": "gauge_dict",
    "obstacle_conf": 7,
@@ -7240,6 +7242,30 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1357": {
+   "slug": "the objects own joyce orbifold",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "K3",
+    "L212",
+    "L213"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 12,
    "status": "banked",
    "domain": "arithmetic"
   },

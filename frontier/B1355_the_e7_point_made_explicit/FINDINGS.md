@@ -107,3 +107,9 @@ in the cover and in the descent, so the object's own closing carries one neutral
 U(1)² with charges 3 × the 3̄ weights; the descent forces two A₂ loci through the knot (local group 2T × Z₃). Caveat 3's wish — a
 self-dual Einstein orbifold with one 2T point and no A-type companion — is impossible among global quotients: on S⁴/Γ the −1 fixes
 the antipode, CP²/Γ has no E₆ point, and Hitchin's theorem leaves no other manifold to divide. `frontier/B1356_the_three_on_y3`.)*
+
+*(Currency 2026-09-15, B1357: the background this cone would sit in. The object's own Joyce orbifold has the E₆ locus and an SU(2)
+locus on two copies of Y₃ at fibre distance ½; the E₇ apex — whose E₆ line and A₁ line meet only at the apex — is the local model of
+a closing that brings the SU(2)-copy to touch the E₆-copy at three deck-related points (L213 (iv), a design, not a construction).
+That background carries no C-field U(1) with the deck's irreducible, so the apexes' own b₂(link) = 1 classes, in sum-zero
+combination, are the only source of the U(1)² of B1356.)*

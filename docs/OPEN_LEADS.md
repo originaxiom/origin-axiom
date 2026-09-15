@@ -2587,3 +2587,17 @@ normalising 2T (the deck's action on the E₆ fibre is the SU(3) centre, B1356 �
 five-dimensional theory of ℂ³/(2T × Z₃) along the knot (flavour rank 10, gauge rank 5 by the divisor count) and whether a compact
 closing can close the two A₂ loci — which the descent forces but the cover does not have. `frontier/B1356_the_three_on_y3`.
 
+**L213 status 2026-09-15 (B1357): (i) decided in the flat class; (iii) sharpened; (iv)–(vi) registered.** The object's own Joyce
+orbifold exists and is computed: compactifying the E₆ fibre by the Hurwitz torus (the unique 2T-invariant lattice up to scale) and
+letting the Hantzsche–Wendt group act as the SO(4) ⊂ G₂ dictates gives a compact flat G₂ orbifold with one invariant spinor (N = 1),
+four disjoint loci — E₆, SO(8), SU(2) on three copies of Y₃ (rigid, unbreakable, no adjoints) and SU(3) on T³ (resolvable) — and
+b₂ = 0, b₃ = 4; T⁴/2T is the tetrahedral K3 orbifold (E₆ + D₄ + A₁ + 4A₂, χ = 5, resolution χ = 24). Its descent (the object's own
+closing) has b₂ = 0, b₃ = 2, the deck folds SO(8) to G₂ by triality and keeps E₆, and the deck's order-6 coset elements fix closed
+2-tori: **the A₂ loci through the knot are compact** (two of them, Σ₁ joining E₆–SU(2)–SU(3) and Σ₂ joining E₆–SO(8)–SU(3) along
+the cone circles; local groups 2T × Z₃, Z₆(1,2,3), SL(2,3), Z₃ × Z₃ with crepant Betti numbers (15,5), (4,1), (5,1), (7,1)). The
+deck's two-dimensional irreducible occurs on 3-forms only (four of the resolved cover's ten), never on 2-forms: **no C-field U(1) of
+the flat background or its resolution distinguishes the generations — the U(1)² must be born with the curved apexes.** Registered:
+(iv) the touching design (the SU(2)-copy of Y₃ brought to the E₆-copy at three deck-related points with the cone over CP³/2T as
+local model); (v) the five-dimensional theories along the four cone circles and the 4d matter they leave; (vi) the K3 alternative
+(T³ × K3)/Γ with Mukai's symplectic 2T. `frontier/B1357_the_objects_own_joyce_orbifold`.
+
