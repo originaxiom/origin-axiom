@@ -142,3 +142,67 @@ point"* is, in its own words, *"the literature's rule … not re-derived here."*
   output: *per-arc presence is not per-question coverage.*
 
 **Gate 5 untouched. Nothing promotes to `CLAIMS.md`. No value, no generation count, no physics claim.**
+
+---
+
+## ADDENDUM 1 (2026-09-15) — TWO CORRECTIONS TO THIS MEMO, BOTH RAISED BY THE OWNER'S QUESTION *"is it withdrawn or an instrument error?"*
+
+**Nothing above is struck.**
+
+### (a) "WITHDRAWN" is the wrong word. It was an INSTRUMENT ERROR.
+
+§2 and R147 say *"the recommendation is WITHDRAWN."* **This memo's own §1b names route 7's global
+step as the one live item, and route 7 IS the 7d/G₂ axis that was recommended.** The memo argues
+against its own register row. Split into parts:
+
+| part of the recommendation | verdict |
+|---|---|
+| **the axis** (7d/G₂ over 6d) | **RIGHT** — B1355 is on that axis and reached the curved local model |
+| **the reason given** ("B1084's object and code are here, 6d has neither") | true of *this branch*, which was **185 arcs short** |
+| **the specific next step** (A₁–E₆ intersections on B1084's Ĝ) | **redundant** — B1353 did it fourteen ways |
+
+**The bearing was correct; the estimate of how far along that bearing the frontier already sat was
+wrong by two arcs.** "Withdrawn" mislabels a **sighting** error as a wrong **heading**, and a wrong
+heading is what it is not. The accurate statement, replacing it: **the axis stands; the next step
+on it moved, because two arcs advanced it while this bench read a stale tree.**
+
+### (b) §2 NAMES THE WRONG OBJECT — and it is an **I-26-class error by this bench**
+
+§2 and R147 call the live door *"decidable by computation on objects the record already has:
+H²(Y₃) and the ℤ/3 action on it."* **Wrong object.**
+
+- B1355's sum rule runs over *"every harmonic two-form of **the compact closing**"* — a G₂
+  **7-manifold** X.
+- **Y₃ is a 3-manifold** — B1273: *"the flat Hantzsche–Wendt manifold (the didicosm) … H₁ = ℤ/4 ⊕
+  ℤ/4"*, b₁ = 0.
+
+An all-heads sweep (terms: `b_2`, `b2(`, `second Betti`, `harmonic two-form`, `H^2(`, `C-field`,
+across `frontier/*` and `docs/*` on all 10 remote heads) establishes the gap is not merely unbuilt
+but **absent**:
+
+1. **No arc on any head derives H²(X) from H²(Q), or gives any map between them.** The record's own
+   words are that Y₃ is *"the 3-manifold Q it must contain"* — a requirement on an unconstructed X,
+   never an identification.
+2. **The record contains no computed b₂ or H² of any 7-manifold or compact closing.** B1353's
+   `b₂ = 0` and B1355's `b₂ = 1` are facts about the 6-dimensional **links** of two cones, and both
+   are *asserted from standard theory, not run*: B1355's script says so itself — *"The topological
+   facts used in the FINDINGS … are stated there, not computed here."*
+
+So §2 read a **7-manifold's b₂ off a 3-manifold's cohomology** — exactly the **I-26 failure mode**
+this bench has spent the session pricing (*"transports an index theorem across a dimension gap
+nobody has exhibited"*), committed one paragraph after invoking it. **Filed.**
+
+**What survives of §2, stated exactly.** Computing H²(Y₃) and the deck ℤ/3 action on it *is*
+runnable on banked objects and *is* un-run — but it settles the ℤ/3 question **on the 3-manifold**
+only, and **does not decide B1355's sum rule**, because the Q → X bridge does not exist. Any future
+cell must say which of the two it is doing.
+
+### What replaces §2's door
+
+The live question is sharper than §2 stated, and it is a question about **two symmetries, not about
+b₂** — see memo 233. In brief: **B1269** and `docs/THE_ASSEMBLY_2026-09-06.md` §7 say the three E₇
+points are *"the three imaginary quaternion units of **Q₈ ⊂ 2T** permuted by the ℤ/3 = **2T/Q₈**"*,
+while **B1355 §6** attributes its ℤ/3 to the tower's Y₃ descent instead — and **B1355 cites B1269
+zero times and never mentions Q₈**. Whether those are one ℤ/3 is exact, finite, and unasked.
+
+**Gate 5 untouched. Nothing promotes to `CLAIMS.md`.**
