@@ -1,4 +1,4 @@
-# B1264 — THE H5 CENSUS: eight measured instances of "every space, never a point" — and I-14 upgraded by recomputing instead of citing
+# B1264 — THE H5 CENSUS: eight banked (five measured; corrected 2026-09-15, B1410) instances of "every space, never a point" — and I-14 upgraded by recomputing instead of citing
 
 **Date:** 2026-09-06 · **Seat:** cc · **Status:** PROVED (exact; three MB12 controls) · **Price: unchanged at 14**
 

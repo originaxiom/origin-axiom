@@ -2709,6 +2709,24 @@ manifold" to "which boundary data", which is a relocation, not a derivation.
 
 **Precondition, from B1408:** before any of it is taken toward contact, state the bench precision.
 
+> **REFRAMED 2026-09-15 (B1410) — the question above is mis-posed, and the correction is free.**
+> There is **no ambiguity group acting transitively on H¹**: `ρ_geo` is a **canonical point of the
+> character variety, unique by Mostow**, and the 20 real parameters are the tangent space *at* it —
+> deformations **away from** a canonical origin at 0. So B1409's lack is not *"no canonical point
+> exists"* but *"nothing selects a departure"*, which is a different class from B990's orbit case
+> and from B991's cone. **The honest question is: what would justify moving off the one point the
+> object already supplies?** Asked that way it is also cheaper, because the answer *"nothing does"*
+> is the expected one and costs no computation to state.
+>
+> **Two facts found while checking this, both basis-free and cheap** (`snappy.Manifold('L14n63694')`,
+> the chiral 5-cusped ceiling cover): the maximal cusp areas under the **unbiased** normalisation are
+> `2√6 · (1, 1, 1, 2, 1)` — **cusp 3 alone has double area** — and `Isom = (ℤ/2)³` acts on the cusps
+> with orbits `{0,4}, {1,2}, {3}`, so **cusp 3 is also the unique symmetry-fixed cusp.** Two
+> independent concordant criteria, B1274's signature. This selects a **cusp** (discrete), not a
+> **point** in the room, and it is self-referential, so H5 permits it — but it does mean the five
+> cusps are **not interchangeable** and the boundary data is not a homogeneous free choice. The
+> `greedy` policy is order-dependent by construction and disagrees; it is the wrong normalisation.
+
 ## L220 — FINISH THE OPEN-CLAIM SWEEP'S ADJUDICATION (registered 2026-09-14, B1409 audit pass)
 
 `scripts/checks/open_claim_sweep.py` — the instrument built at B1201–B1218 for exactly this failure —

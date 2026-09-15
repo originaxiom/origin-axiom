@@ -1,0 +1,34 @@
+{
+  "what": "The structures the object GENERATES -- the register against which a POINT's target is typed as object-generated or not (B1410; admission rule sealed in frontier/B1410_the_point_ledger/PREREGISTRATION.md section 5).",
+  "admission_rule": "A structure is IN iff a SETTLED arc states the object generates it, that arc's derivation consumes ZERO R11 anchors, and the statement is neither retracted nor superseded. Each entry carries its citation. Entries are adjudicated, not keyword-derived: the rule requires reading a claim, and this arc measured its own matcher at 3/5 recall.",
+  "amendment_policy": "Frozen at seal. Every post-seal addition is dated and NAMES THE CANDIDATE THAT FORCED IT. The amendment count is this arc's headline metric -- one amendment per awkward candidate is H5 losing in slow motion, and it must be visible.",
+  "amendments": [],
+  "in": [
+    {
+      "structure": "Q(sqrt-3) -- the Eisenstein atom, the object's being-field",
+      "citation": "frontier/B926_crossing_anatomy/FINDINGS.md W11",
+      "quote": "the object generates its being (prime 3, ℚ(√−3))",
+      "anchors": 0
+    }
+  ],
+  "out": [
+    {
+      "structure": "Q(sqrt5) -- the hearing field",
+      "citation": "frontier/B926_crossing_anatomy/FINDINGS.md W11",
+      "quote": "provably not its hearing (5, ℚ(√5))",
+      "why": "OUT BY A BANKED THEOREM, not by omission. This is what makes the closure a real boundary rather than a convenience: a target built from Q(sqrt5) cannot be laundered as self-referential."
+    },
+    {
+      "structure": "the central quotients of SU(3)xSU(2)xU(1), i.e. {1, Z2, Z3, Z6}",
+      "citation": "frontier/B862_global_form/FINDINGS.md",
+      "quote": "The SM's own data does not determine its gauge group -- only its algebra.",
+      "why": "The set is defined by the Standard Model (Tong, arXiv:1705.01853), not by the object. The object's cascade lands INSIDE it; it does not generate it."
+    }
+  ],
+  "unresolved": [
+    {
+      "structure": "2T (the binary tetrahedral group), and E6 via McKay from it",
+      "why": "B1274 speaks of 'the object's own 2T' and of E6 as a structure 'the object itself generated', but this arc did not verify a settled arc stating the object GENERATES 2T with zero anchors. Left UNRESOLVED rather than admitted: admitting it on a paraphrase would be exactly the closure inflation the policy above forbids. Rows whose target is 2T or E6 therefore classify UNDECIDED, and say so."
+    }
+  ]
+}

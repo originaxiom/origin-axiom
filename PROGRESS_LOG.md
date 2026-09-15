@@ -15436,3 +15436,57 @@ audit matches on the branch **leaf**, not on `git branch -r`'s full ref — the 
 the two registers deliberately unequal, which is what produced three false gaps in Review 57, all
 withdrawn the same day. **Review 57's action block is now closed: R57-1 withdrawn, R57-1b, R57-2,
 R57-3 and R57-4 all done.**
+
+## 2026-09-15 — B1410: the POINT ledger, and H5's falsifier priced at one owed definition
+
+**Prereg sealed `9ac73d7a…`, pushed at `5dde7b3e` before the first sweep ran.** Zero R11 anchors, no
+measured value, Gate 5 untouched.
+
+**The method error this arc corrects was mine.** H5 asks for a **POINT**; `C16`/`B750`, `B1264`,
+`B1274` and `B1409` are all censuses of **REFUSALS**, which measure the pattern's *reach* and cannot
+contain the falsifier. It lives in the complement — the banked *positive* points — and that ledger
+did not exist. Three efforts swept the wrong side.
+
+**Three adjudicated rows: zero `SELF`, zero `OTHER`, zero `GENERIC`, three `UNDECIDED`, two reasons,
+both findings.**
+
+**The falsifier is priced.** `B862` selects `[SU(3)×SU(2)×U(1)]/ℤ₆` in a 4-element set the *Standard
+Model* defines, not the object. Its derivation consumes what `B861` names: **P5** (*"the cascade's
+single external dependency"*) and one definition *"still owed"*. P5 is **not** external input —
+citing known mathematics is free, and if it counted, every corpus result would have external input
+and H5 would be trivially true. The owed registerability definition **is** — a bridge from an
+observational notion to a mathematical one. So `B862` is `UNDECIDED`, and **discharging B861's own
+carried item 1 turns it into a clean `OTHER`**. That converts "the falsifier has never been hunted"
+into "the falsifier has a price, and here it is."
+
+**H5's exception clause is unsupported by the same standard.** `B1274`'s four MB12 controls each
+test a selector's internal soundness; **none is a control against other objects**. Concordance was
+established, object-specificity never was, so nothing can be typed `SELF`.
+
+**The instrument, reported as measured and not tuned against its own controls:** recall 3/5, 2 of 3
+negative controls wrongly flagged, 172 candidates. Underneath the number: **the corpus's
+`claim_one_line` does not encode whether a result is a selection** — refusals are encoded, which is
+why B750's refusal ledger could be built by hand and a point ledger could not.
+
+**A loophole in my own sealed rule, reported and deliberately not patched:** it blocks `OTHER` on
+I-rows, and **P5 is not an I-row**, so `B862` classifies `OTHER` under the rule as literally sealed.
+Dated, with `B862` named as the forcing candidate. **Closure amendments: 0.**
+
+**The repair owed regardless was 3.5× bigger than I stated.** `B1264`'s verdict file said "EIGHT
+MEASURED INSTANCES" against its own lock's five. I wrote that this touched 4 places; a path-correct
+sweep found **11 live uses across 7 files** — my "4" was itself a join, two greps generalised. All
+11 corrected; append-only history left intact. The replacement lock's first version read three
+hand-listed surfaces and **passed an injected use in an eighth file** (E66, the enforcement narrower
+than its rule); version 2 sweeps the corpus with a use/mention split and is demonstrated failing on
+an injected use and passing on a correction cue.
+
+**One live instance of this window's own class, caught mid-arc:** my sweep used
+`grep -v 'docs/views/'`, and B1264's correction text *mentions* `docs/views/` — so the filter,
+applied to the output line rather than the path, hid the very file I had just corrected.
+
+**Also landed:** `L219` reframed (**ρ_geo is a canonical point, unique by Mostow**; the 20
+parameters are departures from it, so the question is what would justify moving off it); five
+`LAW_MAP` rows discharging the B1406–B1409 propagation debt; and two basis-free facts on the ceiling
+cover `L14n63694` — maximal cusp areas `2√6·(1,1,1,2,1)` under the unbiased normalisation, and
+`Isom = (ℤ/2)³` with cusp orbits `{0,4},{1,2},{3}` — two concordant criteria on one distinguished
+cusp, which is a **cusp** and not a point in the room.

@@ -1,0 +1,66 @@
+{
+  "what": "The POINT ledger -- where the object supplies a distinguished ELEMENT, the complement of B750's refusal ledger. Built at B1410 to hunt H5's falsifier, which asks for a POINT and therefore cannot live in any census of refusals.",
+  "prereg": "frontier/B1410_the_point_ledger/PREREGISTRATION.md (sha256 9ac73d7a..., pushed at 5dde7b3e before any sweep ran)",
+  "rule": "See the prereg section 4. Computed by scripts/checks/point_census.py --classify, never judged.",
+  "status": "FIRST PASS. Adjudicated small and carefully rather than large and loosely: the matcher measured 3/5 recall on the sealed calibration set, so a wide auto-built ledger would be a recollection with a test around it -- the exact failure this arc repairs in B1264.",
+  "rows": [
+    {
+      "id": "P1",
+      "arc": "B862",
+      "point": "Z/6",
+      "target": {
+        "name": "the central quotients {1, Z2, Z3, Z6} of SU(3)xSU(2)xU(1)",
+        "size": 4,
+        "generated_by_object": false,
+        "closure_ref": "out[1]"
+      },
+      "derivation": {
+        "identifications_used": ["registerability -- 'chirality-registering measurement = a B599 pairing datum', recorded by B861 as STILL OWED"],
+        "anchors_T1": 0,
+        "anchors_T2": 0,
+        "cited_mathematics_not_counted_as_input": ["P5 menu completeness (the subalgebra classification)"]
+      },
+      "specificity": {"control_family": "not run", "object_unique": "UNTESTED"},
+      "prereg_of_arc": "none -- B862's FINDINGS says 'Not preregistered'; POST-HOC",
+      "citation": "frontier/B862_global_form/FINDINGS.md",
+      "note": "THE DECISIVE ROW. Other-referential target; the SM cannot fix its own global form and the chain does. Blocked from OTHER by exactly ONE owed bridge."
+    },
+    {
+      "id": "P2",
+      "arc": "B287",
+      "point": "the fiber slope (0,1)",
+      "target": {
+        "name": "the ten exceptional fillings of m004",
+        "size": 10,
+        "generated_by_object": true,
+        "closure_ref": "the object's own filling space"
+      },
+      "derivation": {"identifications_used": [], "anchors_T1": 0, "anchors_T2": 0},
+      "specificity": {"control_family": "not run", "object_unique": "UNTESTED"},
+      "prereg_of_arc": "none -- POST-HOC",
+      "citation": "frontier/B287_distinguished_closing/arc_verdict.json",
+      "note": "A clean selection inside a set the object generates. Cannot be typed SELF until object-specificity is MEASURED (E67); UNTESTED is not true."
+    },
+    {
+      "id": "P3",
+      "arc": "B1345",
+      "point": "m004 (J = 1 exactly)",
+      "target": {
+        "name": "the metallic family, ordered by the Jorgensen number",
+        "size": "infinite (m indexed)",
+        "generated_by_object": true,
+        "closure_ref": "the object's own family"
+      },
+      "derivation": {"identifications_used": [], "anchors_T1": 0, "anchors_T2": 0},
+      "specificity": {"control_family": "not run", "object_unique": "UNTESTED"},
+      "prereg_of_arc": "none -- POST-HOC",
+      "citation": "frontier/B1345_the_jorgensen_number/arc_verdict.json",
+      "note": "One of B1405's five principles, all of which select m = 1. Not recovered by the matcher: the selection is not in the verdict line."
+    }
+  ],
+  "rejected_as_non_points": [
+    {"arc": "B680", "why": "Vol(4_1) = (3sqrt3/2) L(chi_-3, 2) is an IDENTITY. No candidate set exists, so nothing is selected.", "matcher_flagged": false},
+    {"arc": "B1406", "why": "tr(C) = 2 is a COMPUTED index, not a selection.", "matcher_flagged": true},
+    {"arc": "B1409", "why": "dim H^1 = k is a COMPUTED dimension, not a selection.", "matcher_flagged": true}
+  ]
+}

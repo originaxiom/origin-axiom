@@ -8218,6 +8218,33 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1410": {
+   "slug": "the point ledger",
+   "motifs": [
+    "measurement",
+    "closing",
+    "eisenstein",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B287",
+    "B599",
+    "B750",
+    "B861",
+    "B862",
+    "B870",
+    "B969",
+    "H5",
+    "P1",
+    "P2",
+    "P3",
+    "P5"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 12,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [

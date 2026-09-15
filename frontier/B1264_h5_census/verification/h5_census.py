@@ -1,4 +1,4 @@
-"""B1264 -- THE H5 CENSUS: eight measured instances of 'every space, never a point',
+"""B1264 -- THE H5 CENSUS: eight BANKED instances of 'every space, never a point', five MEASURED,
 and I-14's status upgraded by RECOMPUTING instead of citing a 1000-arc-old adjudication.
 
 Owner, mid-audit: "b323 is 1000bs old."  Correct, and the seat had just leaned on B323's

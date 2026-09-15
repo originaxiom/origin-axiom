@@ -47,7 +47,7 @@ twist (reproduced 48/48 in the parent arc). **"The 2T" is canonical.** I-6's **m
 is fully paid** — no residue. **The row remains UNEARNED**: it still needs the map to the transverse
 ALE Γ, which is a *different* debt from *which* 2T.
 
-**And for the H5 census:** this is the first of its eight measured multiplicities to be **collapsed to
+**And for the H5 census:** this is the first of its eight banked (five measured; corrected 2026-09-15, B1410) multiplicities to be **collapsed to
 a point by two concordant selectors**, not merely counted. That is a genuine dent in the pattern, not
 a rephrasing of it.
 

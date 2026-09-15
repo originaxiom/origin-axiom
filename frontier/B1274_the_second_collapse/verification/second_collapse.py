@@ -3,7 +3,7 @@ run through the object's own 2T.
 
 B1273's addendum collapsed I-6's binary by TWO CONCORDANT SELECTORS (the owner's arithmetic
 one -- holonomy mod (1-omega) -- and codex's topological one -- extension over m000).  That
-was the FIRST of the H5 census's eight measured multiplicities to become a point rather than
+was the FIRST of the H5 census's eight banked (five measured; corrected 2026-09-15, B1410) multiplicities to become a point rather than
 a count.  This arc asks whether it was a one-off.  It was not.
 
 I-25 HAS TWO SELECTORS ALREADY IN THE RECORD, AND NOBODY HAD CHECKED THEY AGREE:
@@ -27,7 +27,7 @@ In BOTH, one selector is "the structure that returns the object's own 2T" and th
 compatibility condition.  The object's 2T is doing the selecting.
 
 WHAT THIS DOES TO H5.  OPEN_ITEMS H5 says the object supplies every SPACE and never a POINT.
-Two of the census's eight measured multiplicities are now POINTS, each pinned by two
+Two of the census's eight banked (five measured; corrected 2026-09-15, B1410) multiplicities are now POINTS, each pinned by two
 independent concordant criteria.  That is a genuine counter-pressure on the pattern.
 
 BUT IT IS NOT A FALSIFICATION, and this arc does not claim one.  H5's falsifier asks for an
@@ -97,7 +97,7 @@ def selftest():
     assert dims == [13, 9, 5]
 
     print("\n  => I-25's multiplicity 4 COLLAPSES TO A POINT -- the SECOND of the H5 census's")
-    print("     eight measured multiplicities, after I-6's binary (B1273 addendum).")
+    print("     eight banked (five measured; corrected 2026-09-15, B1410) multiplicities, after I-6's binary (B1273 addendum).")
     print("     In both, one selector returns the object's own 2T and the other is a")
     print("     compatibility condition. The object's 2T is doing the selecting.")
     print("\nSELFTEST: PASS")

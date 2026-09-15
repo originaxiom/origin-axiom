@@ -6,7 +6,7 @@
 
 **B1273's addendum** collapsed **I-6's binary** by two concordant selectors — the owner's **arithmetic**
 one (holonomy mod (1−ω)) and codex's **topological** one (extension over m000). That was the **first**
-of the H5 census's **eight measured multiplicities** to become a **point** rather than a count.
+of the H5 census's **eight banked multiplicities (five of them measured; corrected 2026-09-15, B1410)** to become a **point** rather than a count.
 **Was it a one-off?** No.
 
 ## I-25 already had two selectors, and nobody had checked they agree
@@ -33,7 +33,7 @@ compatibility condition. The object's 2T is doing the selecting.**
 ## What this does to H5 — and what it does not
 
 **OPEN_ITEMS H5** says the object supplies every **space** and never a **point**. **Two** of the
-census's eight measured multiplicities are now **points**, each pinned by **two independent concordant
+census's eight banked multiplicities (five of them measured; corrected 2026-09-15, B1410) are now **points**, each pinned by **two independent concordant
 criteria**. That is genuine counter-pressure on the pattern.
 
 **But it is NOT a falsification, and this arc does not claim one.** H5's falsifier asks for an

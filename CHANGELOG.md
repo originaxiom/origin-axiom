@@ -1,5 +1,63 @@
 # Changelog
 
+## THE POINT LEDGER: H5'S FALSIFIER IS PRICED, AND IT COSTS ONE OWED DEFINITION (B1410)
+
+**Preregistration sealed `9ac73d7a…` and pushed at `5dde7b3e` before the first sweep ran.** Zero R11
+anchors; no measured value; Gate 5 untouched.
+
+**The method correction this arc is built on, and it was this seat's own.** H5 asks for a **POINT**.
+`C16`/`B750`, `B1264`, `B1274` and `B1409` are all censuses of **REFUSALS** — they measure the
+pattern's *reach* and **cannot contain the falsifier**, which lives in the complement. Three efforts
+swept the wrong side of the ledger. This builds the other side.
+
+**The result: three adjudicated rows — zero `SELF`, zero `OTHER`, zero `GENERIC`, three `UNDECIDED`
+for two different reasons, and both reasons are findings.**
+
+**(1) The falsifier is now priced.** `B862` selects **[SU(3)×SU(2)×U(1)]/ℤ₆**, one element of
+{1, ℤ₂, ℤ₃, ℤ₆} — a set the **Standard Model** defines (Tong, arXiv:1705.01853), not the object; its
+own words, *"the first place in the programme where the selected structure outperforms the SM's own
+data."* Its derivation consumes exactly two things `B861` names: **P5** (*"the cascade's single
+external dependency"*) and one definition *"still owed"*. **Adjudicated:** P5 is **not** external
+input — citing known mathematics is free, and if it were not, every corpus result would have
+external input and H5 would be trivially true; but the owed registerability definition **is**
+external input, being a bridge from an observational notion to a mathematical one. So `B862` is
+`UNDECIDED` — **and discharging `B861`'s own carried item 1 turns it into a clean `OTHER` against a
+target the SM defines.** *"Never hunted"* becomes *"priced, and here is the price."*
+
+**(2) H5's exception clause is unsupported by the same standard.** `B1274`'s four MB12 controls are
+each about a selector's internal soundness — discriminating power, uniqueness across all 30 integral
+labellings, set-comparison, recomputation from definitions — and **not one is a control against
+other objects.** Concordance was established; **object-specificity never was**, so no row can be
+typed `SELF`. Neither H5's claim nor its exception rests on a classified row.
+
+**The instrument, measured and deliberately not tuned against its own controls:** recall **3/5**,
+**2/3** of the negative controls wrongly flagged, 172 candidates. The finding underneath the number:
+**the corpus's `claim_one_line` does not encode whether a result is a selection** — which is why the
+refusal ledger could be built by hand and a point ledger could not.
+
+**A loophole in the sealed rule, reported and deliberately not patched.** The rule blocks `OTHER` on
+I-rows; **P5 is not an I-row**, so `B862` classifies `OTHER` under the rule as literally sealed.
+Recorded as a dated defect naming `B862` as the forcing candidate — silently widening a rule to
+absorb an awkward candidate is the closure inflation the seal forbids. **Closure amendments: 0.**
+
+**The repair owed regardless, and it was 3.5× bigger than stated.** `B1264`'s verdict file said
+*"EIGHT MEASURED INSTANCES"* while its own lock asserts `len(CENSUS)==8` **and** `len(measured)==5`.
+This seat wrote that it affected 4 places; a path-correct sweep found **11 live uses across 7
+files** — the "4" was itself a join. All 11 corrected; append-only history left intact on
+`retraction_sweep`'s own principle. The replacement lock's **first** version read three hand-listed
+surfaces and **passed an injected use in an eighth file** (E66); version 2 sweeps the corpus with a
+use/mention split, shown failing on an injected use and passing on a correction cue.
+
+**And one live instance of this window's own class, caught mid-arc:** a verification sweep used
+`grep -v 'docs/views/'`, and `B1264`'s correction text *mentions* `docs/views/` — so the filter,
+applied to the output line rather than the path, **hid the very file just corrected.**
+
+**Also landed:** `L219` reframed — **ρ_geo is a canonical point, unique by Mostow**, so the question
+is not *what selects a point* but *what would justify moving off the one the object already
+supplies*; five `LAW_MAP` rows discharging the B1406–B1409 propagation debt; and two basis-free
+facts on the ceiling cover — maximal cusp areas `2√6·(1,1,1,2,1)` and `Isom = (ℤ/2)³` with cusp
+orbits `{0,4},{1,2},{3}`, concordant on one distinguished cusp.
+
 ## THE SEVEN RETRACTIONS THAT NEVER GOT A ROW, AND THE SWEEP'S LAST SIX CANDIDATES — L143'S GAP, STILL OPEN ON A SECOND SURFACE (B921-9b, R57-3)
 
 **Twelve arcs carry `"verdict": "RETRACTED"`. Five had a row in `docs/RETRACTIONS.md`.** The other
