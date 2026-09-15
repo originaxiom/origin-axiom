@@ -116,3 +116,7 @@ orbits and degrees, the enhanced and isolated points, the summary table with the
 
 **Sources.** B1355 (the cone over CP³/2T; Witten's inflow), B1356 (the deck's lift, the two complex structures), B1357 (the background).
 Witten, hep-th/0108165 §3; Acharya–Witten, hep-th/0109152 §3.
+
+*(Currency 2026-09-15, B1359: the companion table of §3 extended to K3 fibres — a K3 with symplectic 2T has loci E₆, SO(8), SU(6),
+SU(3), SU(3) (Xiao #37) or E₆, E₆, SU(4), SU(3), SU(3) (#38), no A₁: the clean apex has no companion there, the apex on the knot at most
+on #37. The design of §5 needs the Hurwitz torus. `frontier/B1359_the_k3_alternative`.)*

@@ -7276,14 +7276,36 @@
     "coupling",
     "eisenstein",
     "z3_generation",
+    "symplectic",
     "wrt_quantum"
    ],
    "refs": [
+    "K3",
     "L212",
     "L213"
    ],
    "obstacle": null,
    "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1359": {
+   "slug": "the k3 alternative",
+   "motifs": [
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "symplectic",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "K3",
+    "L213"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },

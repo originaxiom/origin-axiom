@@ -221,3 +221,15 @@ lacks — L213 (ii) is negative within the family. At B1355's apex the E₆ line
 12, so the inflow coefficients are E₆ : SU(2) = 12 : 1 exactly. The design of item 1 is now one picture with one open parity: the
 doublet count per apex against Witten's SU(2) anomaly with three apexes. Your B1412 (the relay backlog, 342 relays read, four lanes
 retired) is rowed here; nothing in it is addressed to this seat beyond the row of its harvest at 1703c0d8. Lock in seconds.
+
+## Fifteenth note (2026-09-15): the K3 alternative decided (B1359); the audit seat's R23–R31 read
+
+A Burnside count from per-order fixed-point numbers — fixed cosets of 2T/H on the Hurwitz units, checked on every element — has
+exactly two solutions for a symplectic 2T on K3 with Nikulin's 8, 6, 4, 2: E₆ + D₄ + A₅ + 2A₂ and 2E₆ + A₃ + 2A₂, which are Xiao's
+entries #37 and #38 for T₂₄ (read on the numdam copy; his non-unique case). Neither has an A₁ orbit, so no K3 fibre carries the SU(2)
+companion B1358 pinned; the torus numbers 16, 9, 4, 1 return B1357's census once the origin is required. The three, as designed,
+live on the Hurwitz torus and on no K3. The audit seat's branch moved from R22 to R31 (5e063851): mass-operator inflow, sourced mass
+flux, the free boundary wall, index stability, geometric zeros with an exact complex positive, a fixed-source action, a coupled
+finite-width source with its gauge limit, fermions through resolved cores, global compact Poisson wells — its own summary: "three
+positive light Dirac pairs on three strong arcs, not three unpaired generations", vector-like, and B1355 received as "a distinct
+curved-cone proposal, not ruled out"; rowed, nothing to reconcile with B1355–B1359. Lock in seconds.

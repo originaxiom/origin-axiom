@@ -432,3 +432,9 @@ left it.
 > B1355's apex are in the exact ratio E₆ : SU(2) = 12 : 1. The touching design is now one picture: the SU(2) copy of Y₃ meeting the
 > E₆ copy at a deck orbit of three apexes; its one open consistency condition is the doublet parity (Witten's SU(2) anomaly with three
 > apexes). 0 of 19; price unchanged (`frontier/B1358_the_e6_apex_family`).
+
+> **Currency note (2026-09-15, B1359):** the K3 alternative decided. The orbit types of a 2T action follow from the per-order
+> fixed-point numbers by a Burnside count; Nikulin's numbers for a symplectic 2T on K3 give exactly Xiao's two configurations for
+> T₂₄ (E₆ + D₄ + A₅ + 2A₂, 2E₆ + A₃ + 2A₂), neither with an A₁ orbit, so no K3 fibre carries the SU(2) companion the three-apex design
+> needs; the torus numbers return B1357's census. The three generations, as designed, live on the Hurwitz torus and nowhere else in
+> the record's class of fibres. 0 of 19; price unchanged (`frontier/B1359_the_k3_alternative`).

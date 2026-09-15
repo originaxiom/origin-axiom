@@ -163,3 +163,8 @@ Wendland, JHEP 08 (2013) 125 (the tetrahedral Kummer surface); Fujiki, Publ. RIM
 companion this background supplies with nothing else through the apex — the SU(2) copy of Y₃; the SO(8) copy would need three further A₁
 branches at each apex, the self-touching five branches, and the SU(3) locus can never be a companion (the companion's order is even).
 The inflow coefficients at such an apex are E₆ : SU(2) = 12 : 1. `frontier/B1358_the_e6_apex_family`.)*
+
+*(Currency 2026-09-15, B1359: §7's K3 alternative is decided. A symplectic 2T on K3 has one of two fixed-point configurations,
+E₆ + D₄ + A₅ + 2A₂ or 2E₆ + A₃ + 2A₂ (forced by Nikulin's numbers through a Burnside count; Xiao's #37, #38), neither with an A₁ orbit;
+so the SU(2) copy of Y₃ — the companion B1358 pinned — is the torus's, not any K3's. The same count with this arc's numbers (16, 9, 4, 1)
+returns §2's census once the origin is required. `frontier/B1359_the_k3_alternative`.)*

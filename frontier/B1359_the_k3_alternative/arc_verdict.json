@@ -1,0 +1,12 @@
+{
+ "id": "B1359",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1357", "B1358"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE K3 ALTERNATIVE, DECIDED: the orbit types of a 2T action with isolated fixed points are determined by a Burnside count from the per-order fixed-point numbers (fixed cosets of 2T/H computed exactly on the Hurwitz units). With Nikulin's numbers for a symplectic 2T on K3 (8, 6, 4, 2) the count has exactly two solutions, E6 + D4 + A5 + 2A2 and 2E6 + A3 + 2A2, both of rank 19 with chi 5 -> 24 -- precisely Xiao's entries #37 and #38 for T24, his non-unique case -- and neither has an orbit of stabiliser Z2; with the torus numbers (16, 9, 4, 1) and the origin required 2T-fixed it returns B1357's E6 + D4 + A1 + 4A2. Hence no K3-fibred background carries the A1 locus that is the one companion of B1355's apex (B1358): the three-generation design of B1356-B1358 lives on the Hurwitz torus and on no K3 fibre; type #37 could host at most the deck-fixed apex on the knot, #38 none of the family cleanly. The (T^3 x K3)/Gamma background remains conditional on a K3 with both the symplectic 2T and the Hantzsche-Wendt twist. 0 of 19."
+}

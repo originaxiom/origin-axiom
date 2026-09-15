@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1206** |
-| words of findings prose | **880,984** |
-| test lock files referenced | **720** |
-| arcs carrying an authored verdict | **1206** (100.0 %) |
+| research arcs with findings | **1207** |
+| words of findings prose | **882,500** |
+| test lock files referenced | **721** |
+| arcs carrying an authored verdict | **1207** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 796 |
+| PROVED | 797 |
 | NEGATIVE | 312 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1358`** (1954 words, 1 locks)  
-THE E6 APEX FAMILY: the twistor cones of S^4/(2T x Gamma_R), Gamma_R in {1, Z2, Z3, Z4, Z6, Q8, 2T}, are G2 cones whose first pole carries E6 and whose second pole carries the companion {+-1}.Gamma_R (A1, A1, A5, A3, A5, D4, E6 -- always of even order, never A2), with mixed A-loci over the cone circles of S^4/Gamma whenever Gamma_R shares an eigenvalue with 2T (none, none, 4 A2 orbits, 2 A1, 4 A2, 3 A1, 1 A1 + 4 A2) and no fixed point off the loci. Read against the object's own background (B1357: E6, SO(8), SU(2) on Y3, SU(3) on T3), only Gamma_R = 1 -- B1355's cone -- has a companion the background supplies with nothing else through the apex: the SU(2) copy of Y3; the apex on the knot (Gamma_R = Z3, forced by B1356's lift) has an A5 companion and four A2 branches the background lacks (L213 (ii) negative in the twistor family). At B1355's apex the E6 line maps to its link with degree 1 and the A1 line with degree 12, so Witten's inflow coefficients satisfy A(U(1).E6^2) : A(U(1).SU(2)^2) = 12 : 1 exactly; the doublet count per apex (odd or even, Witten's SU(2) anomaly with three apexes) is the registered consistency condition. 0 of 19.  
-`B1358_the_e6_apex_family/FINDINGS.md`
+**PROVED — `B1359`** (1369 words, 1 locks)  
+THE K3 ALTERNATIVE, DECIDED: the orbit types of a 2T action with isolated fixed points are determined by a Burnside count from the per-order fixed-point numbers (fixed cosets of 2T/H computed exactly on the Hurwitz units). With Nikulin's numbers for a symplectic 2T on K3 (8, 6, 4, 2) the count has exactly two solutions, E6 + D4 + A5 + 2A2 and 2E6 + A3 + 2A2, both of rank 19 with chi 5 -> 24 -- precisely Xiao's entries #37 and #38 for T24, his non-unique case -- and neither has an orbit of stabiliser Z2; with the torus numbers (16, 9, 4, 1) and the origin required 2T-fixed it returns B1357's E6 + D4 + A1 + 4A2. Hence no K3-fibred background carries the A1 locus that is the one companion of B1355's apex (B1358): the three-generation design of B1356-B1358 lives on the Hurwitz torus and on no K3 fibre; type #37 could host at most the deck-fixed apex on the knot, #38 none of the family cleanly. The (T^3 x K3)/Gamma background remains conditional on a K3 with both the symplectic 2T and the Hantzsche-Wendt twist. 0 of 19.  
+`B1359_the_k3_alternative/FINDINGS.md`
 
 **NEGATIVE — `B1300`** (2600 words, 1 locks)  
 THE LINES THAT WOULD SPLIT THE DOUBLETS FROM THE TRIPLETS. Among B1278's 706 464 Standard-Model Wilson lines of Y_9, none projects out the colour triplets D, Dbar while keeping the Higgs doublets: exhaustively, with every component's survival in every generation recorded (B1278's pipeline re-run and re-enumerated), 0 split lines; D is kept in all three generations on every SM line -- indeed on every one of the 3 048 625 candidates -- while Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines. BY THEOREM: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D of the 27; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; three generations of Q put psi_Q in the alphabet K3 = {1} u ((C_1 u C_2) minus 1) x V_4 (orders 1, 19, 38), whose squares have odd order and are never family characters -- and the family characters (order 2) are the only characters that project anything (B1278's support theorem: h^1 = 1 exactly on ((C_1 u C_2) x V_4) minus 1). An exact structural model built from the support theorem and the weight table (Q, u^c, L a Z-basis of P/Q_SM; the eleven cubic couplings as zero-sum triples; the table re-derived from B1278's loaders) reproduces every count of B1278 -- 145-letter alphabet, 758 593 three-generation lines, 737 568 SU(5)-breaking, 706 464 SM vacua, 568 656 full-spectrum -- and every histogram of the pipeline in seventeen seconds with no Fox calculus: B1278 verified by a second method. Consequences: L209(ii)'s Wilson-line option is closed; B1283's light D pair is untouched by the Wilson line as it is by the tree-level VEVs, so whatever gives generation g's Higgs pair its mu gives its D pair a mass through the same E6 Clebsch (a vector-like colour-triplet pair near mu if the instanton sector respects the Clebsch -- a stated assumption, not a banked prediction). Vector-like throughout (B1260); 0 of 19; price unchanged.  

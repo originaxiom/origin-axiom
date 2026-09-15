@@ -253,6 +253,16 @@ count each would give SU(2) Witten's global anomaly. The destination's item 1 is
 its SU(2) copy of Y₃ brought to touch its E₆ copy at three deck-related points (L213 (iv)), each B1355's cone, the 27s told apart by
 the apexes' own U(1)s (B1356).
 
+## 6k. The K3 alternative, decided (B1359, 2026-09-15)
+
+The fibre compactification of the E₆ singularity is the torus of the Hurwitz order or a K3 with a symplectic 2T; the orbit types of
+the 2T action are fixed by the per-order fixed-point numbers through a Burnside count (computed on the Hurwitz units, checked on
+every element). For K3 (Nikulin: 8, 6, 4, 2) exactly two configurations survive — E₆ + D₄ + A₅ + 2A₂ and 2E₆ + A₃ + 2A₂, Xiao's #37
+and #38 for T₂₄ — and neither has a point of stabiliser ±1; for the torus (16, 9, 4, 1) the count returns B1357's E₆ + D₄ + A₁ + 4A₂
+once the origin is required. Since the only companion of B1355's apex that fits (B1358) is an A₁ locus, no K3-fibred background
+carries the three-generation design: it lives on the Hurwitz torus. The K3 background itself stays conditional on a K3 with both
+the symplectic 2T and the Hantzsche–Wendt twist.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

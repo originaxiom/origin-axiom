@@ -14812,3 +14812,13 @@ branches. The mixed loci typed ADE by the G₂ argument (associative fixed plane
 per apex (Witten's SU(2) anomaly with three apexes). Main's B1412 (6684db67) rowed. Lock (seconds). Surfaces: L213 status,
 THE_SM_VERDICT, CHIRALITY_MAP §6j, the destination ledger, the letter's fourteenth note, relay row, alias table, currency notes on
 B1355, B1356, B1357. 0 of 19; price unchanged.
+
+### B1359 — the K3 alternative decided by the fixed-point counts (2026-09-15)
+
+Exact Burnside count on the Hurwitz units: fixed cosets of 2T/H for H ∈ {2T, Q₈, Z₆, Z₄, Z₃, Z₂} and elements of orders 2, 3, 4, 6
+(class functions checked on all 24 elements); exhaustive non-negative integer solutions. Torus numbers (16, 9, 4, 1): two solutions,
+one with a 2T-fixed point = B1357's E₆ + D₄ + A₁ + 4A₂. K3 numbers (Nikulin 8, 6, 4, 2): exactly E₆ + D₄ + A₅ + 2A₂ and 2E₆ + A₃ + 2A₂,
+rank 19, χ 5 → 24 — Xiao's #37 and #38 for T₂₄ (numdam copy read; his non-unique case). Neither has an A₁ orbit → no K3 fibre carries
+the SU(2) companion of B1355's apex (B1358): the three-generation design lives on the Hurwitz torus. Loci table for a hypothetical
+(T³ × K3)/Γ recorded (conditional on the twist). The audit seat's R23–R31 rowed. Lock (seconds). Surfaces: L213 status, THE_SM_VERDICT,
+CHIRALITY_MAP §6k, the letter's fifteenth note, relay row, alias table, currency notes on B1357, B1358. 0 of 19; price unchanged.

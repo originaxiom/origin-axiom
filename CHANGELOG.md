@@ -1,5 +1,11 @@
 # Changelog
 
+## B1359 — the K3 alternative decided: Nikulin's numbers force Xiao's two T₂₄ configurations, neither with an A₁ orbit; the three-generation design lives on the Hurwitz torus
+
+A Burnside count from per-order fixed-point numbers (fixed cosets of 2T/H on the Hurwitz units) returns B1357's torus census once the
+origin is required, and for a symplectic 2T on K3 exactly E₆ + D₄ + A₅ + 2A₂ and 2E₆ + A₃ + 2A₂ (Xiao #37, #38). No A₁ orbit on any K3:
+the SU(2) companion of B1355's apex exists only on the torus. L213 (vi) decided; the audit seat's R23–R31 rowed.
+
 ## B1358 — the E₆ apex family: companions of even order only (never A₂), B1355's cone the one that fits the object's own background (SU(2) copy of Y₃), the apex on the knot excluded (A₅), inflow ratio E₆ : SU(2) = 12 : 1
 
 The twistor cones of S⁴/(2T × Γ_R) for Γ_R ∈ {1, Z₂, Z₃, Z₄, Z₆, Q₈, 2T}: E₆ at the first pole, {±1}·Γ_R at the second, mixed A-loci over

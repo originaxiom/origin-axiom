@@ -2610,3 +2610,11 @@ extra A₁ branches, the self-touching one A₁ and four A₂. At B1355's apex t
 12 : 1 exactly (degrees of the pole lines onto their links). Open: the doublet count per apex (Witten's SU(2) anomaly with three
 apexes), (v); cones outside the product family. `frontier/B1358_the_e6_apex_family`.
 
+**L213 status 2026-09-15 (B1359): (vi) decided — the K3 alternative does not carry the three.** A Burnside count from the per-order
+fixed-point numbers (fixed cosets of 2T/H computed on the Hurwitz units) has exactly two solutions for a symplectic 2T on K3
+(Nikulin's 8, 6, 4, 2): E₆ + D₄ + A₅ + 2A₂ and 2E₆ + A₃ + 2A₂ — Xiao's entries #37, #38 for T₂₄ — and neither has an A₁ orbit, so no
+K3-fibred background carries the SU(2) companion of B1355's apex; with the torus numbers (16, 9, 4, 1) the count returns B1357's
+E₆ + D₄ + A₁ + 4A₂ once the origin is required. The three-generation design lives on the Hurwitz torus and on no K3 fibre. Open: a
+K3 with both the symplectic 2T and the Hantzsche–Wendt twist (if type #38, a background with two E₆ copies of Y₃).
+`frontier/B1359_the_k3_alternative`.
+
