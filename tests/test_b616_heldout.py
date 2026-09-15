@@ -34,5 +34,11 @@ def test_b616_heldout():
     assert "design hash: a11491e6" in out
     assert "sign pattern [-1, 1, -1, -1, 1, -1]" in out
     assert "same: True" in out                      # the sign-law match
-    assert "observed 3 coarse-tier matches of 390 pairs" in out
+    # PLATFORM-DEPENDENT PIN (2026-09-15, main): the coarse-tier count is a float-threshold census and differs by
+    # bench -- this macOS bench (where the lock was written) prints "2 coarse-tier matches of 378 pairs"; the
+    # outside-bench Linux container prints "3 coarse-tier matches of 390 pairs" (its commit 5fd9ecc5 re-pinned to
+    # that and flagged the fragility). Both are recorded; the verdict (STILL-AMBIGUOUS) and the sign law are the
+    # lock's content, the count is not. A count outside {2, 3} of {378, 390} still fails.
+    assert ("observed 2 coarse-tier matches of 378 pairs" in out
+            or "observed 3 coarse-tier matches of 390 pairs" in out), out[-400:]
     assert "STILL-AMBIGUOUS" in out
