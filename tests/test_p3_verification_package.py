@@ -41,12 +41,15 @@ def test_manifest_is_current():
     assert strip(before) == strip(after), "MANIFEST.json is stale: run build_manifest.py"
 
 
-def test_seal_check_passes():
-    r = subprocess.run([sys.executable, str(PKG / "run_package.py"), "--seals"], capture_output=True, text=True, cwd=str(PKG))
+def test_seal_check_passes(tmp_path):
+    # --out: run_package wrote REPORT.md, a TRACKED file, on every run (main's defect report).
+    r = subprocess.run([sys.executable, str(PKG / "run_package.py"), "--seals", "--out", str(tmp_path)],
+                       capture_output=True, text=True, cwd=str(PKG))
     assert r.returncode == 0, r.stdout + r.stderr
 
 
 @pytest.mark.skipif(not os.environ.get("OA_SLOW"), reason="runs every lock the manifest names (a few minutes)")
-def test_lock_run_passes():
-    r = subprocess.run([sys.executable, str(PKG / "run_package.py"), "--locks"], capture_output=True, text=True, cwd=str(PKG), timeout=3600)
+def test_lock_run_passes(tmp_path):
+    r = subprocess.run([sys.executable, str(PKG / "run_package.py"), "--locks", "--out", str(tmp_path)],
+                       capture_output=True, text=True, cwd=str(PKG), timeout=3600)
     assert r.returncode == 0, r.stdout[-2000:] + r.stderr[-2000:]

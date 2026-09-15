@@ -128,8 +128,10 @@ def test_gaps_finds_under_resolved_obstacles():
 
 
 # -- the render regenerates ------------------------------------------------------------------------
-def test_render_regenerates_the_map():
-    out, n = render.render()
+def test_render_regenerates_the_map(tmp_path):
+    # redirected: rendering into the tracked docs/RECURRENCE_ATLAS.md made an ordinary test run
+    # dirty the working tree (main's defect report, 2026-09-16). The render is still exercised.
+    out, n = render.render(out=str(tmp_path / "RECURRENCE_ATLAS.md"))
     assert os.path.exists(out) and n == N
     with open(out, encoding="utf-8") as f:
         head = f.read(4000)

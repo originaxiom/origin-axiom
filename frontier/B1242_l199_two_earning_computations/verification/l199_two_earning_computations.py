@@ -346,6 +346,9 @@ OUT["B_verdict"] = {
 }
 say("\n    VERDICT B: I-15 as '==' REFUTED (78 != 3); '3d gravity = the principal spin-2 sector of E6(C) CS, level ratio 156' is exhibited and acts.")
 
-json.dump(OUT, open(os.path.join(HERE, "l199.json"), "w"), indent=1, default=str)
+# --out <dir> writes the results elsewhere, so a test run leaves no tracked file modified
+# (2026-09-16). Default unchanged: a human running this deliberately updates the record.
+_DEST = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else HERE
+json.dump(OUT, open(os.path.join(_DEST, "l199.json"), "w"), indent=1, default=str)
 say("\nwrote l199.json")
 say("REPRODUCES")

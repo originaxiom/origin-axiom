@@ -23,7 +23,10 @@ def _table(rows, head):
     return "\n".join(out)
 
 
-def render():
+def render(out=None):
+    """out: write elsewhere, so a test run leaves no tracked file modified (2026-09-16).
+    Default unchanged -- a human running this deliberately still updates docs/RECURRENCE_ATLAS.md."""
+    
     g = atlas.mine()
     a = atlas.analyze(g)
     P = g["probes"]
@@ -106,9 +109,10 @@ def render():
              "See `knowledge/K023` for the vision and the honest tool-bias caveat.*")
 
     text = "\n\n".join(S) + "\n"
-    with open(OUT, "w", encoding="utf-8") as f:
+    dest = out or OUT
+    with open(dest, "w", encoding="utf-8") as f:
         f.write(text)
-    return OUT, len(P)
+    return dest, len(P)
 
 
 if __name__ == "__main__":

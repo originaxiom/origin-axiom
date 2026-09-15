@@ -61,8 +61,12 @@ def test_the_ratchet_was_lowered_by_EARNING_not_by_relabelling():
         assert x.get("reason"), f"raise {x['from']}->{x['to']} has no reason"
         assert x.get("row"), f"raise {x['from']}->{x['to']} names no row"
 
-def test_the_arc_reproduces_by_RUNNING_its_script_not_reading_a_string():
-    r = subprocess.run([sys.executable, str(ARC / "verification" / "l199_two_earning_computations.py")],
+def test_the_arc_reproduces_by_RUNNING_its_script_not_reading_a_string(tmp_path):
+    # --out: the script wrote l199.json back into its own TRACKED directory, so an ordinary test
+    # run dirtied the working tree -- and commit fc705e40, a paper-impact note, shipped a
+    # regenerated l199.json because of it (main's defect report, 2026-09-16). The script still RUNS.
+    r = subprocess.run([sys.executable, str(ARC / "verification" / "l199_two_earning_computations.py"),
+                        "--out", str(tmp_path)],
                        capture_output=True, text=True, cwd=str(ARC / "verification"))
     assert r.returncode == 0, r.stdout[-2000:] + r.stderr[-2000:]
     assert r.stdout.rstrip().endswith("REPRODUCES"), r.stdout[-500:]

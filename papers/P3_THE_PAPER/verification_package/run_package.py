@@ -60,7 +60,10 @@ def main(argv):
         report += [f"## Shipped reproduce.sh scripts — {'PASS' if ok else 'FAIL'}", ""] + [f"- `{a}` {s}: rc={rc}" for a, s, rc in rows] + [""]
         print("scripts:", "PASS" if ok else "FAIL", len(rows))
     report.append(f"**Overall: {'PASS' if all_ok else 'FAIL'}.** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.")
-    (HERE / "REPORT.md").write_text("\n".join(report) + "\n", encoding="utf-8")
+    # --out <dir>, the convention build_manifest.py already uses: write the report elsewhere so
+    # a test run leaves no tracked file modified (2026-09-16). Default unchanged.
+    _dest = pathlib.Path(argv[argv.index("--out") + 1]) if "--out" in argv else HERE
+    (_dest / "REPORT.md").write_text("\n".join(report) + "\n", encoding="utf-8")
     return 0 if all_ok else 1
 
 if __name__ == "__main__":

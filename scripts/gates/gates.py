@@ -12,6 +12,7 @@ import base64
 import json
 import glob
 import os
+import pathlib
 import re
 import subprocess
 import sys
@@ -611,21 +612,41 @@ def gate_views_generated():
     missing = [g for g in gens if not os.path.isfile(g)]
     if missing:
         return False, "view generator missing: " + ", ".join(os.path.basename(g) for g in missing)
+    # A CHECK MUST NOT LEAVE ITS OWN WORK BEHIND (2026-09-16, main's defect report): this gate
+    # verified freshness BY REGENERATING IN PLACE and never put the originals back, so an ordinary
+    # `pytest` run -- which reaches here through tests/test_repo_gates.py -> gates.run_all() --
+    # left tracked files modified in the working tree. Snapshot bytes, regenerate, compare,
+    # RESTORE. Strictness is unchanged: the comparison is the same one. Reporting staleness is this
+    # gate's job; FIXING it stays the author's, by running the generators deliberately.
     vdir = os.path.join(ROOT, "docs", "views")
     before = {}
     if os.path.isdir(vdir):
         for f in sorted(os.listdir(vdir)):
             if f.endswith(".md"):
-                before[f] = _read(f"docs/views/{f}")
-    for gen in gens:
-        r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=300)
-        if r.returncode != 0:
-            return False, f"{os.path.basename(gen)} failed: {r.stderr[-200:]}"
-    stale = []
-    for f, old in before.items():
-        if _read(f"docs/views/{f}") != old:
-            stale.append(f)
-    new = [f for f in os.listdir(vdir) if f.endswith(".md") and f not in before]
+                before[f] = (pathlib.Path(vdir) / f).read_bytes()
+
+    def _restore():
+        for name, raw in before.items():
+            q = pathlib.Path(vdir) / name
+            if not q.is_file() or q.read_bytes() != raw:
+                q.write_bytes(raw)
+        for name in os.listdir(vdir):                       # remove anything the run invented
+            if name.endswith(".md") and name not in before:
+                try:
+                    (pathlib.Path(vdir) / name).unlink()
+                except OSError:
+                    pass
+
+    try:
+        for gen in gens:
+            r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=300)
+            if r.returncode != 0:
+                return False, f"{os.path.basename(gen)} failed: {r.stderr[-200:]}"
+        stale = [f for f, raw in before.items()
+                 if (pathlib.Path(vdir) / f).read_bytes() != raw]
+        new = [f for f in os.listdir(vdir) if f.endswith(".md") and f not in before]
+    finally:
+        _restore()
     if stale or new:
         return False, ("generated views out of date (regenerate: python3 scripts/views/generate.py "
                        "AND python3 scripts/views/spine.py): " + ", ".join(stale + new))

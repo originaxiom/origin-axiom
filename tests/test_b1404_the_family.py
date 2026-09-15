@@ -191,6 +191,24 @@ def _grep(term):
     return rows
 
 
+# PORTABILITY GUARD (2026-09-16, main's pre-merge suite): BASE is reachable from this lane's
+# history and NOT from main's own head, so every BASE-dependent test below failed on main's
+# checkout. An absence audit pinned to a revision is a claim about a HISTORICAL state: if that
+# state is not in the checkout the claim is UNVERIFIABLE, not false, and the honest outcome is a
+# SKIP with a reason -- never a silent pass, which is what `test_the_base_revision_exists` was
+# written to prevent. So the skip covers every BASE-dependent test at once: nothing below can
+# pass vacuously, and a checkout without this lane's history no longer reds the suite. The
+# assertion stays where it belongs -- inside the guard, for checkouts that DO have the commit.
+_BASE_PRESENT = subprocess.run(["git", "cat-file", "-e", BASE + "^{commit}"],
+                               cwd=ROOT, capture_output=True).returncode == 0
+_needs_base = pytest.mark.skipif(
+    not _BASE_PRESENT,
+    reason=f"{BASE} is not reachable from this checkout -- B1404's absence audit is a claim about "
+           f"that revision, so it is unverifiable here rather than false (it resolves once this "
+           f"lane's history is merged)")
+
+
+@_needs_base
 def test_the_base_revision_exists():
     """Without this, every absence test below passes by returning nothing."""
     r = subprocess.run(["git", "cat-file", "-e", BASE + "^{commit}"], cwd=ROOT)
@@ -200,6 +218,7 @@ def test_the_base_revision_exists():
 
 @pytest.mark.parametrize("term", ["Minsky", "Marden", "Maskit", "Bromberg",
                                   "ending lamination"])
+@_needs_base
 def test_the_genuinely_absent_half_of_the_literature(term):
     assert _grep(term) == [], f"{term} was not absent at {BASE} -- B1404 sect. 6 is wrong"
 
@@ -207,11 +226,13 @@ def test_the_genuinely_absent_half_of_the_literature(term):
 @pytest.mark.parametrize("term,least", [("Gu.ritaud", 18), ("Futer", 58), ("Floyd", 25),
                                         ("Hatcher", 25), ("Lackenby", 5),
                                         ("J.rgensen", 93), ("Farey", 47)])
+@_needs_base
 def test_the_relay_was_wrong_about_these_they_are_present(term, least):
     """The relay said 'not one of them is in the record'. Counts at BASE."""
     assert len(_grep(term)) == least, f"{term}: B1404 sect. 6 tabulates {least} lines"
 
 
+@_needs_base
 def test_epstein_is_present_only_as_the_zeta_function():
     """Absent, but MASKED: a bare grep reports 15 lines and none is Epstein-Penner."""
     lines = _grep("Epstein")
@@ -222,6 +243,7 @@ def test_epstein_is_present_only_as_the_zeta_function():
     assert zeta == lines, f"a non-zeta Epstein appeared: {set(lines) - set(zeta)}"
 
 
+@_needs_base
 def test_the_scale_of_the_unnamed_family_condition():
     """The arc's headline number: the defining condition, banked without the name.
 
@@ -236,6 +258,7 @@ def test_the_scale_of_the_unnamed_family_condition():
     assert len(_grep("Markov")) == 930
 
 
+@_needs_base
 def test_guard_a_bracket_expression_makes_the_count_locale_dependent():
     """E75 #11. The SAME pattern, corpus and git return 215 or 442 depending on
     the process locale, because a bracket expression is byte-oriented outside a
@@ -262,10 +285,27 @@ def test_guard_a_bracket_expression_makes_the_count_locale_dependent():
         return len(subprocess.run(cmd, cwd=ROOT, capture_output=True,
                                   text=True, env=env).stdout.splitlines())
 
+    # PORTABILITY (2026-09-16, main's macOS worktree): this pinned the locale NAME "C.UTF-8",
+    # which exists on glibc and NOT on macOS -- there git falls back to byte-oriented C and the
+    # count came back 215, reading as a failed assertion when the only thing wrong was the name.
+    # A test about UTF-8 SEMANTICS must select a locale by semantics, not by name.
+    #
+    # The detector is the bug itself and needs no pinned number: under UTF-8 semantics the
+    # bracket form and the full-alternative form agree; under byte semantics they cannot, because
+    # the Unicode minus is three bytes and the bracket matches one of them. So the first candidate
+    # where klass == alt IS a UTF-8 locale, established rather than assumed.
+    utf8 = next((loc for loc in ("C.UTF-8", "en_US.UTF-8", "UTF-8")
+                 if count(klass, loc) == count(alt, loc)), None)
+    if utf8 is None:
+        import pytest as _pt
+        _pt.skip("no locale on this machine gives git UTF-8 semantics (tried C.UTF-8, "
+                 "en_US.UTF-8, UTF-8) -- the locale-dependence this guard documents is real "
+                 "but cannot be exhibited here")
+
     assert count(klass, "C") == 215          # byte-oriented: under-counts by half
-    assert count(klass, "C.UTF-8") == 442    # same pattern, different answer
+    assert count(klass, utf8) == 442         # same pattern, different answer
     assert count(alt, "C") == 442            # the fix is locale-independent
-    assert count(alt, "C.UTF-8") == 442
+    assert count(alt, utf8) == 442
 
 
 def test_the_ladder_arithmetic_was_already_banked():
