@@ -18,12 +18,12 @@ with the debt and cannot close while any seat item lacks a row. The `chat1` (ses
 |---|---|---|---|---|
 | sm | `origin/standard-model-derivation-0qt6ao` | `1703c0d8` | 2026-09-15 | B1411 |
 | fc | `origin/physics-seat-evaluation-8dkbrl` | `659487bb` | 2026-09-08 | B1298 / B1303 |
-| codex | `codex/seat-r001` | `f7a49536` | 2026-09-09 | B1306 A (inventory read) |
-| cc3 | `paper/structure-genesis-first` | `a31456d2` | 2026-09-09 | B1306 A (inventory read) |
+| codex | `codex/seat-r001` — RETIRED 2026-09-15, tag `archive/codex-seat-r001@f7a49536`, branch deleted on both remotes | `f7a49536` | 2026-09-15 | B1412 (relays rowed; arcs 44/44) |
+| cc3 | `paper/structure-genesis-first` — RETIRED 2026-09-15, tag `archive/cc3-paper-lane@a31456d2` (its structure-paper drafts and arxiv folder are kept by the tag), branch deleted on both remotes | `a31456d2` | 2026-09-15 | B1412 (relays rowed; arcs 87/87) |
 | hostile | `golden_gate/paper-hostile-review-alero0` | `6fc86147` | 2026-09-09 | B1306 A (inventory read) |
 | cloud | `origin/outside-bench` | `e51afd6c` | 2026-09-09 | B1322 |
-| braver | `audit/b775-braver-questions` | `53da05f6` | 2026-09-09 | B1306 A (inventory read) |
-| qor5up | `origin/new-session-qor5up` | `3851df2a` | 2026-09-09 | B1306 A (inventory read) |
+| braver | `audit/b775-braver-questions` — RETIRED 2026-09-15, tag `archive/braver-questions@53da05f6`, branch deleted on both remotes | `53da05f6` | 2026-09-15 | B1412 (relays rowed; arcs 6/6) |
+| qor5up | `new-session-qor5up` — RETIRED 2026-09-15, tag `archive/qor5up@3851df2a`, branch deleted on both remotes | `3851df2a` | 2026-09-15 | B1412 (arcs 30/30, no relays) |
 | audit | `audit/physical-bridge-2026-09-05` | `6f862099` | 2026-09-09 | B1304 |
 
 ## The rows
