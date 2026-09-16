@@ -487,3 +487,11 @@ left it.
 > there is no seesaw, and B1276's one coupling puts the neutrinos at the up-quark masses: the three-apex design is excluded as it
 > stands and needs a 27̄ sector (L215). The deck is broken by every combined line (288 of 288 27-characters differ). 0 of 19; price
 > unchanged (`frontier/B1365_the_bulk_of_the_line`).
+
+> **Currency note (2026-09-16): the second exclusion, and two corrections.** The same sign theorem caps ⟨N⟩ at the soft scale, so
+> m_D = λ⟨N⟩ ≲ TeV while B1276 §3 needs 10¹⁵ GeV against dimension-six proton decay through D's diquark and leptoquark couplings:
+> τ_p ~ 10⁻¹² s. No discrete gauge symmetry separates the two classes — the unbroken group is the connected S(U(3) × U(2) × U(1))
+> (C(Q₈) = SU(6); Steinberg) — and the apex U(1)² charge a 27's components alike. The L215 "quartic cap" is corrected (all terms
+> joining apex fields are instantonic; the wall is a hierarchy of cycle actions the object does not fix), and the line cannot supply the
+> up-quark hierarchy (Q, u^c, H_u are β-neutral: phases only; B1361's 273 stands). 0 of 19; the three-apex design with the η line is
+> excluded twice by one sign (`docs/OPEN_LEADS.md` L215; `docs/THE_CLOSING_2026-09-15.md` §6.9–6.10).

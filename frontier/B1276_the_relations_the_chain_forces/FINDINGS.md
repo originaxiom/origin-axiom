@@ -79,3 +79,10 @@ the 16·16·10 of the cubic, so y_ν = y_u; on the three-apex design with B1364'
 and both Standard-Model singlets of the 27 carry the same U(1)_η charge, so no tree-level VEV breaks it above the soft scale: the
 Majorana mass is forbidden, there is no seesaw, and the neutrinos are Dirac at the up-quark masses. The design needs a 27̄ sector
 (L215). `frontier/B1365_the_bulk_of_the_line` §4.)*
+
+*(Currency 2026-09-16, with B1365: §3 becomes decisive on the closing's design — the apex 27s' N and ν^c carry the same U(1)_η
+charge and the line's bulk has no charged singlet, so ⟨S⟩ = ⟨N⟩ cannot exceed the soft scale (the D-term sign theorem); m_D = λ⟨N⟩ ≲ TeV
+and D exchange gives τ_p ~ 10⁻¹² s. No symmetry of the design separates the diquark from the leptoquark couplings (the unbroken
+group is the connected S(U(3) × U(2) × U(1)); the apex U(1)² charge a 27's components alike). §2's forced doublet–triplet tension
+and §5's neutrino statement are the same wall seen from two sides: the three-apex design with the η line is excluded by proton decay
+and by neutrino masses, each through ⟨N⟩. `docs/OPEN_LEADS.md` L215 corollary; `frontier/B1365_the_bulk_of_the_line`.)*

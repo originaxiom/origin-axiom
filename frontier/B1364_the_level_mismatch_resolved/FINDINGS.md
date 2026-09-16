@@ -94,3 +94,9 @@ H¹(Y₃; 78_ρ) is three exactly flat neutral moduli and one vector-like (3,1)_
 elements of exp(u(1)²) square to one triplet-type involution), the (2,20) sector empty. And the design fails at the next step: N and
 ν^c carry the same U(1)_η charge, so nothing breaks U(1)_η above the soft scale, there is no seesaw, and B1276's one coupling puts the
 neutrinos at the up-quark masses — the three-apex design needs a 27̄ sector (L215). `frontier/B1365_the_bulk_of_the_line`.)*
+
+*(Currency 2026-09-16: caveat 1 discharged — the unbroken group is connected. On 27 = (15, 1) ⊕ (6̄, 2) the image of ℂ[Q₈] is
+ℂ ⊕ M₂(ℂ) (Wedderburn: the trivial representation and the 2 are distinct irreducibles), so an element of E₆ commutes with Q₈ iff it
+commutes with SU(2)_β: C(Q₈) = C(SU(2)_β) = SU(6). The order-4 element g lies in SU(6)'s maximal torus, and the centraliser of an
+element of a simply connected group is connected (Steinberg), so C_{E₆}(⟨Q₈, g⟩) = C_{SU(6)}(g) = S(U(3) × U(2) × U(1)): no discrete
+gauge remnant, hence no matter parity from the line (B1276 §3's proton-decay problem has no geometric cure here; L215 corollary).)*

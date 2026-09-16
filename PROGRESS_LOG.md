@@ -14899,3 +14899,14 @@ agree). Three explicit families of flat connections through each Q₈ line. Verd
 at the up-quark masses; no seesaw without 27̄s) + PROVED; L215 registered; surfaces (THE_CLOSING §0/§1/§6.8, the view, THE_SM_VERDICT,
 CHIRALITY_MAP §6o, the SM specification ledger addendum, the letter's twenty-third note, hint 19), currency notes on B1283, B1364,
 B1276, B1300, B1361, B1277. Lock (~20 s). 0 of 19.
+
+### The second exclusion and two corrections (2026-09-16; analysis on banked computations, no new arc)
+
+B1365's sign theorem (⟨N⟩, ⟨ν^c⟩ capped at the soft scale) read against B1276 §3 (m_D = λ⟨N⟩ ≳ 10¹⁵ GeV against D-mediated proton decay):
+m_D ≲ TeV, τ_p ~ 10⁻¹² s — the three-apex design with the η line is excluded by proton decay as well as by neutrinos, and both cures
+ask for ⟨N⟩ at 10¹⁵–10¹⁶ GeV along a direction the design lacks. The unbroken group is connected: C(Q₈) = C(SU(2)_β) = SU(6) (Q₈ spans
+End(2)), C_{SU(6)}(g) connected by Steinberg → S(U(3) × U(2) × U(1)); no discrete remnant, no matter parity (B1364 caveat 1 discharged).
+Correction of the L215 status: the "(27 27̄)²/M cap" is not automatic in M-theory — every term joining apex fields is instantonic; the
+wall is a hierarchy of cycle actions (pairing ≲ soft, quartic ≈ e^{−25}, seesaw operator unsuppressed) against the zero-volume cycles of
+one unresolved E₆ locus. The line cannot supply the up-quark hierarchy (Q, u^c, H_u β-neutral: phases only). THE_CLOSING §6.8 corrected,
+§6.9–6.10 added; currency notes on B1276, B1361, B1364, B1365; the verdict's note. 0 of 19.

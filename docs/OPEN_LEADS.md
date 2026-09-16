@@ -2706,13 +2706,28 @@ do today: (1) the seesaw with y_ν = y_u (B1276) needs M_R ≳ 10¹⁴–10¹⁵
 the superpotential; (2) any membrane-instanton mass 27_A 27̄_C that pairs a 27 apex with an anti-apex is E₆-invariant, so it lifts
 ⟨N_A N̄_C⟩ and ⟨ν^c_A ν̄^c_C⟩ exactly when it makes the pair's quarks heavy — a flat singlet direction and a heavy vector-like
 generation cannot come from the same pairing; (3) an unpaired pair's charged components must then take their masses from
-(27_A 27̄_C)²/M, whose F-term lifts the flat direction to ⟨N⟩ ~ (m_soft M)^{1/2} ~ 10¹⁰–10¹¹ GeV, which gives M_R ≲ 10⁴ GeV from any
-dimension-four or -five operator — two to three orders short for the first generation and ten for the third. The design's
-neutrino wall is therefore not the absence of 27̄s alone: it is that the object's E₆ cubic fixes y_ν = y_u and the apex geometry
-offers no U(1)_η-breaking direction that is both exactly flat and harmless. What would lift it (each an assumption the object does
-not force): a pairing matrix with a kernel restricted by the apex U(1)² (a charged instanton spectrum with the right zeros), a
-U(1)_η-neutral Majorana source outside the 27 (none in E₆'s 27³ or 78), or a non-perturbative flat direction at the GUT scale. The
-arc that would settle (1)–(3) is the instanton pairing spectrum of the apexes on the design's background (the 3-cycles between
-apex orbits and their C-field charges) — not yet an instrument on this bench. Registered here so that the vacuum of nine apexes is
-not computed before its inputs exist.
+(27_A 27̄_C)²/M. *Corrected the same day:* in M-theory on a G₂ manifold every superpotential term joining fields at different
+points is a membrane-instanton term, so neither the pairing mass nor the quartic is automatic — each carries e^{−T} for the action
+T of the 3-cycle that generates it — and the three constraints become inequalities on those actions: the pairing 27_A 27̄_C must
+sit below the soft scale (e^{−T₁} M ≲ m_soft, T₁ ≳ 35) for ⟨N_A N̄_C⟩ to move at all; the quartic must then hold the direction at
+⟨N⟩ ~ (m_soft M)^{1/2} e^{T₂/2} ~ 10¹⁶ GeV (T₂ ≈ 25) while giving the pair's quarks e^{−T₂}⟨N⟩²/M ~ TeV; and the seesaw operator
+ν^c_B ν^c_B ν̄^c_C ν̄^c_C/M joining the chiral orbit to the anti-apexes must be essentially unsuppressed (T₃ ≲ 1) while the pairing
+27_B 27̄_C between the same points is suppressed like T₁. Against this: points on one *unresolved* E₆ locus are joined by
+zero-volume cycles (an arc of Y₃ times the vanishing 2-cycle — this is why the 27³ coupling among the three apexes is order one
+and y_t is large), so an anti-apex on the same E₆ locus pairs with its neighbours at order one unless the apex U(1)² forbids the
+term, and then the same U(1)² forbids the D-flat direction (short of a Fayet–Iliopoulos term from Witten's axionic sector). So the
+wall is a hierarchy of cycle volumes and C-field charges with no source in the object, not a theorem; the arc that would decide it
+is the instanton spectrum of the apexes on the design's background (the 3-cycles between apex orbits, their volumes and their
+C-field charges) — not an instrument on this bench, and not computable before the closing exists. Registered here so that the
+vacuum of nine apexes is not computed before its inputs exist.
+
+**L215 corollary (2026-09-16): the same sign theorem excludes the three-apex design a second time, by proton decay.** B1276 §3:
+both the diquark (D Q Q, D̄ d^c u^c) and the leptoquark (D̄ L Q, D e^c u^c, D d^c ν^c) couplings of the exotic triplet are in the
+E₆ cubic with the one coupling, so D exchange gives dimension-six proton decay and the observed lifetime needs m_D = λ⟨N⟩ ≳ 10¹⁵ GeV.
+B1365's sign theorem caps ⟨N⟩ at the soft scale, so m_D ≲ TeV and τ_p ~ m_D⁴/(λ⁴ m_p⁵) ~ 10⁻¹² s. No symmetry of the design separates
+the two classes: the unbroken group C_{E₆}(⟨Q₈, g⟩) = C_{SU(6)}(g) = S(U(3) × U(2) × U(1)) is connected (Q₈ spans End(2), so
+C(Q₈) = C(SU(2)_β) = SU(6); Steinberg's theorem for the centraliser of an element of the simply connected SU(6)) — no discrete gauge
+remnant — and the apex U(1)² charge every component of a 27 alike, so their discrete remnant after Witten's axionic mass cannot
+tell D Q Q from D̄ L Q. The E₆SSM's Z₂^B or Z₂^L would have to be imposed by hand. Any cure of the neutrino wall through a 27̄ sector
+must also raise ⟨N⟩ to 10¹⁵ GeV for the triplets, which is the same flat direction the wall concerns.
 

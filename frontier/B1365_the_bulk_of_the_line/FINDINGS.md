@@ -164,3 +164,11 @@ centraliser), B1276 (one coupling), B1361–B1362 (the texture and the order-one
 B1278 (the alphabet's h¹ as control), B1356/B1358 (the deck free on apexes). Literature: Langacker, Rev. Mod. Phys. 81 (2009) 1199
 (arXiv:0801.1345) for the η and inert models and their Wilson-line origin (Witten 1985); ATLAS, Phys. Lett. B 796 (2019) 68
 (arXiv:1903.06248) for m_{Z′_η} > 4.5 TeV; the E₆SSM literature for U(1)_N as the ν^c-neutral direction.
+
+*(Currency 2026-09-16, two corrections and one corollary. Correction to the previous note: the "quartic cap at 10¹⁰–10¹¹ GeV" assumed a
+Planck-suppressed (27 27̄)²/M; in M-theory every term joining fields at different points is a membrane-instanton term, so the wall is a
+hierarchy of cycle actions (L215 status, rewritten), with the zero-volume cycles of one unresolved E₆ locus — the reason the three
+apexes' 27³ coupling is order one — working against a suppressed pairing. Corollary: the sign theorem excludes the design a second time
+through B1276 §3 — m_D = λ⟨N⟩ ≲ TeV with both diquark and leptoquark couplings gives τ_p ~ 10⁻¹² s, and the unbroken group is the
+connected S(U(3) × U(2) × U(1)) (C(Q₈) = SU(6); Steinberg), so no discrete remnant separates the two classes. And the line cannot supply
+the up-quark hierarchy: Q, u^c, H_u are β-neutral, so it enters the up-type Yukawa by phases only (B1361's identity stands).)*

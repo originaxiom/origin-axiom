@@ -85,3 +85,10 @@ the third-generation Yukawa, attained numerically. The breaking sector is a lead
 the 27's two Standard-Model singlets carry the same U(1)_η charge, so no tree-level VEV breaks it above the soft scale. Two neutrinos
 at λ⟨H_u⟩ and one massless at tree level; order-one corrections (B1362) change the texture, not the scale. The design needs 27̄s
 (L215). `frontier/B1365_the_bulk_of_the_line` §4.)*
+
+*(Currency 2026-09-16: the Wilson line of B1364 cannot evade this arc in the up sector. Q, u^c and H_u are SU(2)_β-singlets (β = 0,
+B1365's table), so the line's holonomies enter the up-type Yukawa only as U(1)² phases — generation-diagonal unitaries, which leave
+the singular values of the hollow symmetric matrix and the identity σ₁ = σ₂ + σ₃ untouched; 273 stands against every line. In the
+down and lepton sectors the Q₈ holonomies rotate (d^c, D̄), (L, H_d) and (N, ν^c) between apexes, which mixes the fields but does not
+supply a diagonal. The deck-breaking B1362 requires must come from the Higgs VEVs and the instanton actions of the U(1)²-breaking
+terms, both cycle-volume data the object does not fix.)*

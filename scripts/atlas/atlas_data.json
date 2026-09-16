@@ -6564,7 +6564,7 @@
     "L215"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 19,
+   "obstacle_conf": 20,
    "status": "banked",
    "domain": "dynamics"
   },
@@ -7381,7 +7381,7 @@
     "L215"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 23,
+   "obstacle_conf": 25,
    "status": "dead",
    "domain": "arithmetic"
   },
@@ -7460,8 +7460,8 @@
     "L201",
     "L215"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 16,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 17,
    "status": "banked",
    "domain": "arithmetic"
   },

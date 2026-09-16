@@ -136,6 +136,25 @@ those local models on a circle — vector-like.
    makes the pair's quarks heavy; and an unlifted direction is capped by (27 27̄)²/M at 10¹⁰–10¹¹ GeV, giving M_R ≲ 10⁴ GeV against the
    10¹⁴–10¹⁵ GeV that y_ν = y_u demands. The neutrino wall is the cubic's one coupling meeting a geometry with no exactly flat,
    harmless U(1)_η-breaking direction; what would lift it is an assumption the object does not force.
+   makes the pair's quarks heavy; and every term joining apex fields is a membrane-instanton term (corrected 2026-09-16: no
+   Planck-suppressed quartic is automatic), so the seesaw becomes a hierarchy of cycle actions — the pairing suppressed below
+   the soft scale, the quartic holding ⟨N⟩ ~ 10¹⁶ GeV while giving the pair's quarks a TeV, the seesaw operator unsuppressed —
+   with the zero-volume cycles of one unresolved E₆ locus (the reason y_t is large) working against the first. The neutrino wall
+   is the cubic's one coupling meeting a geometry whose cycle volumes the object does not fix (L215).
+9. **The second exclusion: proton decay (B1276 §3 with B1365's theorem; 2026-09-16).** The E₆ cubic carries both the diquark and
+   the leptoquark couplings of the exotic triplet D with the one coupling, so D exchange gives dimension-six proton decay and the
+   lifetime needs m_D = λ⟨N⟩ ≳ 10¹⁵ GeV (B1276). The sign theorem caps ⟨N⟩ at the soft scale: m_D ≲ TeV, τ_p ~ 10⁻¹² s. No symmetry
+   of the design separates the two classes — the unbroken group is the connected S(U(3) × U(2) × U(1)) (Q₈ spans End(2), so
+   C(Q₈) = C(SU(2)_β) = SU(6), and centralisers of elements of the simply connected SU(6) are connected), and the apex U(1)² charge a
+   27's components alike. The three-apex design is excluded twice by one sign, and both cures ask for the same thing: ⟨N⟩ at
+   10¹⁵–10¹⁶ GeV along a direction the design does not have.
+10. **Two structural notes (2026-09-16).** (i) The Wilson line cannot supply the up-quark hierarchy: Q, u^c and H_u are all
+   SU(2)_β-singlets (β = 0 in B1365's table), so the line's holonomy acts on the up-type Yukawa by U(1)² phases alone — diagonal
+   unitaries that leave the singular values of the hollow symmetric matrix and B1361's identity σ₁ = σ₂ + σ₃ (refuted by 273)
+   untouched; the deck-breaking that B1362 needs must sit in the Higgs VEVs and the instanton actions, not in the line. (ii) In
+   the design lepton number is not a symmetry: L and H_d, d^c and D̄, N and ν^c are SU(2)_β-doublets rotated by the Q₈ holonomies
+   between apexes, and no discrete gauge factor survives to name a lepton — the standard E₆ R-parity problem, here without a
+   geometric parity to solve it.
 
 ## 7. The three faces, once more
 
