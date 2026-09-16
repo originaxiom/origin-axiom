@@ -528,3 +528,9 @@ left it.
 > automorphisms; fc R71's lemma with the torus action general), closes 79 of the 83 free cusps. Four cusps on four members remain
 > (o10_150688, o10_150708, o10_150716, o10_150725), each with a unique shortest cusp mode; their partitions are the residual of sL-1.
 > 0 of 19 (`frontier/B1369_the_siblings_in_the_sm_frame`).
+
+> **Currency note (2026-09-16, B1370): the residual narrowed.** On the four open cusps the fixing isometries' affine actions on the
+> torus (translation parts computed from the developed cusp; SnapPy's cusp maps carry none) allow the unique shortest cusp mode for
+> every Higgs class, so the partition is annular and N = 0 unless the harmonic form's coefficients at the first 4, 2, 4, 2 allowed
+> shells all vanish — generic non-vanishing, no symmetry forcing it, no instrument in the record computing it. sL-1's residual is one
+> Fourier coefficient of a harmonic 1-form per cusp. 0 of 19 (`frontier/B1370_the_residuals_leading_mode`).

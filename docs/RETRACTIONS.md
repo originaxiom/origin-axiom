@@ -117,3 +117,24 @@ be right, so nothing red).
 Corrected at source in `frontier/B1192_close_loop_batch4/FINDINGS.md` (Addendum 2, per E53), in
 `frontier/B1248_norm_classification/`, THEOREM_REGISTRY, IDENTIFICATION_LEDGER, CHANGELOG and
 CAMPAIGN_STATUS.
+
+## Currency sweep of the SM seat's range, B1249–B1370 (2026-09-16)
+
+*The register lagged the corpus by 61 arcs (doc-currency). Read against the seat's PROGRESS_LOG entries for B1267–B1370: the
+banked-then-corrected statements of that range, in the table's own format. None is a retraction in full; each is a correction of
+scope, of a prediction, or of a wording that a reader of the original FINDINGS could still act on. Later arcs of the range
+(B1369, B1370) banked no correction of an earlier banked claim — B1369's first run's hard-coded sentence about the one-cusped
+members was corrected before banking and never entered the record.*
+
+| what was asserted | where banked | the correction | where corrected |
+|---|---|---|---|
+| B1267 §1's transport scope (the golden E₈ along Q read wider than the object supports) | B1267 | CORRECTED by addendum (E66) — the transport is the two faces' (ALE Γ = 2I, holonomy = 2T); I-26 note corrected | B1268 |
+| B1270's "θ" named as the outer automorphism of the fork | B1270 | CORRECTED (E69) — the involution is the inversion (conjugation): outer, 2 fixed roots, signature 1/5 | B1272 |
+| B1301's prediction of new odd support at Y₂₀ and Y₂₂ | B1301 | WITHDRAWN — the law corrected: new odd support only at odd levels (Y₂₀: nothing at 41; Y₂₁: 48 947) | B1303 |
+| B1281 §2's "±4" count on the object's cusp, read as a non-zero index | B1281 | SCOPED — the ±4 lives on a non-transverse zero set where χ(∂⁺M) is undefined rather than non-zero; any allowed perturbation returns 0 (verified on main, B1417) | B1281's currency note (2026-09-16), main's B1417 |
+| B1351 §2 (ii)'s "torus acyclic ⇒ N = 0", read as convention-free | B1351 | SCOPED — holds under the whole-torus and annular conventions of ∂⁺M (rows A–C of the I-26 table), not under the disc conventions (rows D–F), where the bridge lane reads a conditional net three (the audit lane's R23) | B1351's currency note (main's B1413 harvest, 2026-09-15) |
+| B1363's "eleven order-4 classes" of the descent's lines | B1363 | CORRECTED in wording — eleven classes, eight of exact order 4 | the harvest of main's B1415 (2026-09-16) |
+| B1365's L215 remedy with a "quartic cap" (a Planck-suppressed term capping ⟨N⟩) | B1365 | CORRECTED — M-theory supplies no such term; every term joining apex fields is instantonic, so the cap is a hierarchy of cycle actions the object does not fix; the remedy itself then excluded by the pincer | B1367 (and the letter's postscript, 2026-09-16) |
+
+*Standing since then: B1368, B1369 and B1370 are negatives and an open narrowing with nothing retracted; fc R71's region-swap
+lemma was generalised (B1369 §3 (ii)), not corrected.*

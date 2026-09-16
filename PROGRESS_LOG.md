@@ -14972,3 +14972,16 @@ o10_150716, o10_150725 (cusp 1), each with a unique shortest cusp mode. Verdict 
 surfaces (OPEN_LEADS sL-1, THE_VERDICT §6, THE_CLOSING §0/§6.13/ledger, THE_SM_VERDICT, CHIRALITY_MAP §6s, the spec ledger, the
 destination ledger, hint 22, the toolbox, the letter's twenty-eighth note, the view, the alias table), currency notes on B1368, B1351,
 B1281, B1282, B1186. Lock (about a minute). 0 of 19.
+
+### B1370 — the residual's leading mode: the four open cusps' allowed Fourier shells (2026-09-16)
+
+The four residual cusp tori developed from the tetrahedra shapes on the members' own geometric triangulations (which realise the full
+isometry groups: |Aut| = |Isom| = 2, 4, 2, 12); the closing-up translations generate lattices whose reduced moduli agree with SnapPy's
+((5√3/2)i, −½ + (3√3/2)i); every fixing isometry's affine action read off — linear part on the lattice and translation modulo it (½, ⅘,
+⅖, ⅚, ⅓, ⅔ of the periods). The constraint F∘σ = εF run shell by shell for every Higgs class (special eigenlines and the generic class on
+o10_150725's two-dimensional free classes): the unique shortest dual vector is allowed on all four cusps for every class; some higher
+shells are killed by half-period translations; the first shell with two directions comes after 4, 2, 4, 2 allowed single-direction
+shells. Consequence: the partitions are annular and N = 0 unless the harmonic form's leading coefficients vanish — the residual of sL-1 is
+one Fourier coefficient of a harmonic 1-form per cusp (numerical, or the members' Bianchi-type forms). Verdict OPEN (narrowed) + PROVED
+(the census); surfaces (OPEN_LEADS, THE_VERDICT, THE_CLOSING, THE_SM_VERDICT, CHIRALITY_MAP, the spec and destination ledgers, the
+toolbox, the letter's twenty-ninth note, the view, the alias table), currency note on B1369. Lock (seconds). 0 of 19.

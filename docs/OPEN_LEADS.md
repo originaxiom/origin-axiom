@@ -2801,3 +2801,12 @@ item (iv). **Residual:** o10_150688, o10_150708 (cusp 0), o10_150716, o10_150725
 by +1 on a free class; each cusp lattice has a unique shortest dual vector, so the partition is annular unless the harmonic form's
 leading coefficient vanishes — the harmonic form's cusp expansion (or the isometries' affine torus action) decides, and neither is in
 the record. `frontier/B1369_the_siblings_in_the_sm_frame`.
+
+**Status (2026-09-16, B1370): the residual narrowed to one analytic number per cusp.** The four residual cusp tori developed from
+the tetrahedra shapes (lattices agreeing with SnapPy's moduli), every fixing isometry's affine action computed — translation parts
+included, which the cusp maps do not carry — and the constraint F∘σ = εF run shell by shell: on all four cusps and for every Higgs
+class the unique shortest dual vector is allowed (higher shells are killed by half-period translations; the first is not), so the
+leading cusp mode is cos(2πk·x + φ) and the partition is annular, N = 0, unless the harmonic form's coefficients at the first 4, 2,
+4, 2 allowed single-direction shells all vanish. **Residual now:** the non-vanishing of a harmonic 1-form's first Fourier coefficient
+at a free cusp, four instances — numerically, or through the members' Bianchi-type forms (every member is arithmetic over ℚ(√−3)).
+Not in the record. `frontier/B1370_the_residuals_leading_mode`.

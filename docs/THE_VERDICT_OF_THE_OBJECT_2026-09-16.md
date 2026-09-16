@@ -91,6 +91,11 @@ parity, run with the isometries' exact action on H₁, closes 79 of the 83 free 
 o10_150708, o10_150716, o10_150725 — each with a unique shortest cusp mode; their partitions are the residual of sL-1
 (`frontier/B1369_the_siblings_in_the_sm_frame`).
 
+**B1370, the same day.** On the four residual cusps every fixing isometry's affine action on the torus (translation parts included)
+allows the unique shortest cusp mode for every Higgs class, so their partitions are annular unless the harmonic form's leading
+coefficients (4, 2, 4, 2 shells deep) all vanish; the residual of sL-1 is one Fourier coefficient of a harmonic 1-form per cusp, an
+instrument the record does not have (`frontier/B1370_the_residuals_leading_mode`).
+
 ## 7. Pointers
 
 `docs/THE_CLOSING_2026-09-15.md` (the design and its exclusions, §6.8–6.12) · `docs/CHIRALITY_MAP_2026-09-06.md` (§6n–6r) ·

@@ -1,0 +1,12 @@
+{
+ "id": "B1370",
+ "verdict": "OPEN",
+ "instrument": true,
+ "depends_on": ["B1369", "B1351", "B1281", "B1368"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE RESIDUAL'S LEADING MODE: on the four free cusps B1369's parity left open (o10_150688 c0, o10_150708 c0, o10_150716 c0, o10_150725 c1), each cusp torus is developed from the tetrahedra shapes (lattice checked against SnapPy's modulus) and every fixing isometry's affine action -- linear part AND translation, which SnapPy's cusp maps do not carry -- is computed; running F o sigma = eps F shell by shell, the unique shortest dual vector is allowed for every Higgs class on all four cusps (higher shells are killed by half-period translations, the first is not), so the leading cusp mode is cos(2 pi k.x + phase), its zero set two parallel geodesics, the partition annular and N = 0 -- unless the harmonic form's coefficients at the first 4, 2, 4, 2 allowed single-direction shells all vanish, which no symmetry forces and which the record cannot compute. The residual of sL-1 is reduced to the non-vanishing of one Fourier coefficient of a harmonic 1-form on each of four cusps (numerically, or through the members' Bianchi-type forms). OPEN, narrowed; 0 of 19."
+}

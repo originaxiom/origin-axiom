@@ -239,3 +239,6 @@ together with a split Higgs sector. `frontier/B1368_the_objects_own_sm_connectio
 free cusp; 77 of the 112 members have none (the two-cusped siblings among them), parity closes 79 of the other 35 members' 83 free cusps,
 and four cusps on four members remain (o10_150688, o10_150708, o10_150716, o10_150725), each with a unique shortest cusp mode. 108 of 112
 members closed. `frontier/B1369_the_siblings_in_the_sm_frame`.*
+
+*Currency 2026-09-16 (B1370): the four remaining cusps — the unique shortest cusp mode allowed by every symmetry for every Higgs class;
+annular unless the harmonic form's leading coefficients vanish; the residual is one Fourier coefficient per cusp. `frontier/B1370_the_residuals_leading_mode`.*

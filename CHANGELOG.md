@@ -1,5 +1,9 @@
 # Changelog
 
+## B1370 — the residual's leading mode: on the four cusps B1369 left open, every fixing isometry's affine action on the torus (translation parts computed from the developed cusp) allows the unique shortest cusp mode for every Higgs class, so the partition is annular unless the harmonic form's first 4, 2, 4, 2 coefficients vanish — sL-1's residual reduced to one Fourier coefficient of a harmonic 1-form per cusp (OPEN, narrowed)
+
+The developed cusp and the affine action of automorphisms as a new instrument; lock in seconds.
+
 ## B1369 — the family in the Standard-Model frame: a chiral generation from bulk matter needs a free cusp (a cusp whose peripheral image has rank below b₁), which 77 of the figure-eight family's 112 members lack — m202 and s959 among them; on the 35 that have one, the region-swap parity with the isometries' exact action on H₁ (a new instrument: the canonical retriangulation's automorphisms) closes 79 of the 83 free cusps; four cusps on four members remain, each with a unique shortest cusp mode — 108 of 112 members closed, the residual of sL-1 named
 
 SnapPy and sympy; the free-cusp theorem by homology, the region-swap lemma in its general form; lock about a minute.

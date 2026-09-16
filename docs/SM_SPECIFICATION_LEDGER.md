@@ -474,3 +474,6 @@ chirality mechanism compatible with the Standard Model in any frame the record h
 Model unbroken needs a free cusp (a cusp whose peripheral image has rank below b₁), which 77 of the 112 members lack (m202 and s959
 among them); on the 35 that have one, parity with the isometries' exact action on H₁ closes 79 of the 83 free cusps; four cusps on
 four members remain. Rows unchanged in count: 0 of 19.
+
+*Addendum (2026-09-16, B1370):* rows A/C — the four remaining cusps' partitions are annular unless a harmonic form's leading Fourier
+coefficient vanishes (no symmetry forces it; 4, 2, 4, 2 shells deep); the residual is that coefficient. Rows unchanged in count: 0 of 19.

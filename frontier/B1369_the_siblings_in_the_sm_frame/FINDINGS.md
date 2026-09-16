@@ -156,3 +156,8 @@ B1366 (c(SM)), B1281 §2D (fc R71's region-swap theorem) and main's B1417 (its v
 its germ), B1186 (the family census `members_B`), B1352 (the partitions computed on m004's deformations); main's B1321 for the order-3
 rotation's count of three on m202 and s959, main's B1418 (DESIGN, the family as the object). Epstein–Penner for the canonical cell
 decomposition; SnapPy's `canonical_retriangulation` and t3mlite's `isomorphisms_to`; Calegari, *Real places and torus bundles* (2006).
+
+*(Currency 2026-09-16, B1370: the four residual cusps' tori developed from the tetrahedra shapes and every fixing isometry's affine
+action computed (translation parts included); the unique shortest dual vector is an allowed mode for every Higgs class on all four,
+so §4.4's conditional is sharpened — annular unless the harmonic form's coefficients at the first 4, 2, 4, 2 allowed single-direction
+shells all vanish; no symmetry forces it. The residual is one Fourier coefficient per cusp. `frontier/B1370_the_residuals_leading_mode`.)*

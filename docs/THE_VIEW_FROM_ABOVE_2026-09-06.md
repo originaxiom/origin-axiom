@@ -255,6 +255,9 @@ chirality in this frame. On the thirty-five that do, the isometries decide by pa
 canonical retriangulation — on seventy-nine of eighty-three free cusps. Four cusps on four members remain, each with a unique shortest
 cusp mode; what decides them is the cusp expansion of a harmonic form, an instrument the record does not have. Seen from above: the
 family behaves as the object did — structure everywhere, chirality nowhere the record can compute — with four cusps left to ask.
+On those four the symmetries were asked once more (B1370): every isometry fixing the cusp, with its translation on the torus,
+allows the shortest cusp mode, so the partition is annular unless a harmonic form's leading Fourier coefficient happens to vanish —
+the residual is that coefficient, four times over.
 
 ## 6. The bootstrap, stated
 

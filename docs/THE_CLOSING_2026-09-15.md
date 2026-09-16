@@ -64,6 +64,7 @@ members remain, the residual of sL-1.
 | With E₆-symmetric couplings among any number of 27s the up-Higgs doublets and the exotic triplets are paired by the same generation matrix (N: H_u–H_d and D–D̄; ν^c: L–H_u and D–d^c), so every vacuum with a light Higgs has a light D (9 300 configurations, no exception) and proton decay; only E₆-breaking on the matter splits them, which point-localised 27s never see: every apex design excluded, L216 the one door | NEGATIVE (the apex route) + PROVED (the identity) | B1367 |
 | Every SM-unbroken flat E₆(ℂ) connection of m004 has its non-abelian part in SL(2)_β; spin-0 sectors carry no index; the 10 and the 5̄ of SU(5) never share a spin (27: 10 spin 0; 78: 5̄ spin 0); for the geometric representation Calegari's −2 kills the spin-½ sectors too; twisted cohomology golden (z² − 3z + 1, z² − 4z + 1), massless charged pairs vector-like; eight λ-parabolic points (dihedral unitary, golden reducible) | NEGATIVE (L216 in the seat's frame) + PROVED (exact) | B1368 |
 | The family in the Standard-Model frame: a chiral generation from bulk matter needs a free cusp (rank P_c < b₁); 77 of 112 members have none (m202, s959 among them); parity with the isometries' exact action on H₁ closes 79 of the 83 free cusps; four cusps on four members remain, each with a unique shortest cusp mode | NEGATIVE on 108 of 112 + PROVED + OPEN on four cusps | B1369 |
+| The residual's leading mode: the four open cusp tori developed, the fixers' affine actions (translations included), the allowed Fourier shells — the unique shortest mode allowed for every Higgs class on all four, the partition annular unless the harmonic form's first 4, 2, 4, 2 coefficients vanish | OPEN (narrowed to one Fourier coefficient per cusp) | B1370 |
 | The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
 | AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1 | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
 | Its topology: singular set the E₆ locus and the apex only; b₂(link) = 1; the E₆ link pairs non-trivially with the generator (the inflow applies) | PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones) | B1360 |
@@ -201,6 +202,9 @@ those local models on a circle — vector-like.
    83 free cusps, four of them by orientation-reversing isometries. Four cusps on four members (o10_150688, o10_150708, o10_150716,
    o10_150725) remain, each with a unique shortest cusp mode: the partition of a harmonic form's leading cusp mode, not in the
    record, decides them. The seat's mandate stands on that residual.
+   *(B1370, the same day: on those four cusps the fixing isometries' affine actions — translation parts included — allow the unique
+   shortest cusp mode for every Higgs class, so the partitions are annular unless the harmonic form's leading coefficients vanish,
+   4, 2, 4, 2 shells deep; the residual is one Fourier coefficient of a harmonic 1-form per cusp.)*
 
 ## 7. The three faces, once more
 

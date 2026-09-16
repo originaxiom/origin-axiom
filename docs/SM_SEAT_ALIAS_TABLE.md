@@ -128,3 +128,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-16 (owner's direction):* the recommendation approved — the capstone `docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md` written; the seat is not retired: its mandate becomes **sL-1, the family in the Standard-Model frame** (the two-cusped siblings first). Next arc B1369.
 
 *Update 2026-09-16 (later):* B1369 used (the family in the Standard-Model frame: the free-cusp theorem on all 112 members, parity on the 83 free cusps, four residual cusps); next arc B1370.
+
+*Update 2026-09-16 (later):* B1370 used (the residual's leading mode: the four open cusps' allowed Fourier shells; OPEN, narrowed to one Fourier coefficient per cusp); next arc B1371.

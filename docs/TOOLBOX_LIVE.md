@@ -88,3 +88,10 @@ escalation are the proof).
   the torus actions against SnapPy's cusp maps. It answers what SnapPy's cusp maps cannot when the peripheral classes do not span
   H₁ (ten of the family's free cusps). `siblings_in_the_sm_frame.py` around it: the free-cusp census of a family and the region-swap
   parity per free cusp.
+- **B1370 (2026-09-16, the SM seat)** — `frontier/B1370_the_residuals_leading_mode/verification/residual_cusp_modes.py`: **the
+  developed cusp torus of a cusped hyperbolic 3-manifold from its tetrahedra shapes** (link triangles placed by a breadth-first
+  walk, closing-up translations generating the lattice, the modulus checked against SnapPy) and **the affine action of every
+  automorphism on it — linear part and translation modulo the lattice**, which SnapPy's cusp maps omit; then the symmetry-allowed
+  Fourier shells for a function on the torus transforming by a sign under the fixers (linear algebra on the coefficient vectors)
+  and the depth to the first shell with two directions. Reusable wherever a cusp's affine symmetry or a symmetry-constrained
+  Fourier expansion on a cusp torus is needed.

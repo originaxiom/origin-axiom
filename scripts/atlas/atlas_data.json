@@ -7592,6 +7592,21 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1370": {
+   "slug": "the residuals leading mode",
+   "motifs": [
+    "closing",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B137": {
    "slug": "s031 sealing m2",
    "motifs": [

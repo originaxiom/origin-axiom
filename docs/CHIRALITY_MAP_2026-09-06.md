@@ -390,6 +390,13 @@ orientation-reversing isometries. Four cusps on four members remain — o10_1506
 the partition is annular unless the harmonic form's leading coefficient vanishes, which only the form's cusp expansion (or the
 isometries' affine torus action) decides. 108 of 112 members closed; the residual is sL-1's. `frontier/B1369_the_siblings_in_the_sm_frame`.
 
+*Addendum (B1370, the same day).* The four residual cusps developed from the tetrahedra shapes and every fixing isometry's affine
+action read off — translation parts included; on all four, for every Higgs class, the unique shortest dual vector is an allowed
+mode (half-period translations kill some higher shells, not the first), so the leading cusp mode is cos(2πk·x + φ) and the
+partition annular unless the harmonic form's coefficients at the first 4, 2, 4, 2 allowed shells all vanish. The residual is one
+Fourier coefficient of a harmonic 1-form per cusp — the cusp expansion of a harmonic form, or the members' Bianchi-type forms.
+`frontier/B1370_the_residuals_leading_mode`.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

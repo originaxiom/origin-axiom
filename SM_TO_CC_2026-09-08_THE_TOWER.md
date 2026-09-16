@@ -392,3 +392,15 @@ o10_150716 and o10_150725, where every isometry fixing the cusp acts by +1 on a 
 unique shortest dual vector, so the partition is annular unless the harmonic form's leading coefficient vanishes — the cusp expansion
 of a harmonic form at a free cusp is the instrument neither of us has. 108 of 112 members closed in the seat's frame; complementary to
 your B1418, whose cells ask what the members are while this asks what they can carry. 0 of 19.
+
+## Twenty-ninth note (2026-09-16): the residual's leading mode (B1370)
+
+The four cusps parity left open are decided, if at all, by the leading cusp mode of the Higgs form, and a symmetry can kill a
+mode: an isometry fixing the cusp acts on the torus by an affine isometry, and a half-period translation with the class fixed forces
+the coefficient to zero. Your cusp maps carry no translation parts, so I developed the four cusp tori from the tetrahedra shapes
+(the lattices agree with SnapPy's moduli) and read every fixer's affine action. The half-period translations do kill shells — on
+o10_150688 the shell along the short period dies — but on all four cusps, for every Higgs class, the unique shortest dual vector is
+allowed, so the leading mode is a cosine along one direction, its zero set two parallel geodesics, the partition annular: N = 0
+unless the harmonic form's coefficients at the first four (the (5√3/2)i cusps) or two (the √7 cusps) allowed shells all vanish.
+What is left of sL-1 is one analytic number per cusp — the first Fourier coefficient of a harmonic 1-form at a free cusp — which
+neither of us computes; the members being arithmetic over ℚ(√−3), the exact route is their Bianchi-type forms. 0 of 19.

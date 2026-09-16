@@ -33,10 +33,12 @@ def _perm_image(p, bits):
 
 
 class FamilyMember:
-    def __init__(self, name):
+    def __init__(self, name, canonical=True):
+        """canonical=True: the canonical retriangulation (every isometry is an automorphism); canonical=False: the manifold's own
+        triangulation (its automorphisms are isometries, possibly not all of them -- compare |Aut| with |Isom|)"""
         self.name = name
         self.M = snappy.Manifold(name)
-        self.T = self.M.canonical_retriangulation()
+        self.T = self.M.canonical_retriangulation() if canonical else self.M
         self.mc = t3mlite.Mcomplex(self.T)
         self.cusp_idx = self.T._get_cusp_indices_and_peripheral_curve_data()[0]     # per tet, per vertex: the cusp index in T
         self.tets = self.mc.Tetrahedra

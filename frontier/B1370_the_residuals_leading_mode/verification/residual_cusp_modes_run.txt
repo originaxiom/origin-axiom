@@ -1,0 +1,107 @@
+=== B1370: the residual free cusps' allowed leading modes ===
+
+o10_150688, cusp 0: b_1 2, ranks [1], free classes on cusp 0: 1, |Aut| = |Isom| = 2
+  developed cusp: 40 triangles, 26 closing-up translations; lattice basis |b1| = 2.000000, |b2| = 8.660254; reduced modulus +0.000000+4.330127i (SnapPy: -0.000000+4.330127i) agree
+    fixer: orientation +, linear part on Lambda [[1, 0], [0, 1]] (det 1), translation (Lambda-coordinates mod 1) (-0.0000, -0.0000), action on the free classes [[1]]
+    fixer: orientation -, linear part on Lambda [[1, 0], [0, -1]] (det -1), translation (Lambda-coordinates mod 1) (0.5000, 0.8000), action on the free classes [[1]]
+  dual shells (|k|^2, vectors): [(0.013333, [(0, -1), (0, 1)]), (0.053333, [(0, -2), (0, 2)]), (0.12, [(0, -3), (0, 3)]), (0.213333, [(0, -4), (0, 4)])]
+  the free class: fixers in the stabiliser 2, their signs [1, 1]
+    shell |k|^2 = 0.013333 [(0, -1), (0, 1)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.053333 [(0, -2), (0, 2)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.120000 [(0, -3), (0, 3)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.213333 [(0, -4), (0, 4)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.250000 [(-1, 0), (1, 0)]: killed by symmetry
+    shell |k|^2 = 0.263333 [(-1, -1), (1, 1), (-1, 1), (1, -1)]: allowed (real dimension 2); directions [(1, -1), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 4 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 4 of them vanish
+
+o10_150708, cusp 0: b_1 2, ranks [1, 1], free classes on cusp 0: 1, |Aut| = |Isom| = 4
+  developed cusp: 24 triangles, 18 closing-up translations; lattice basis |b1| = 2.000000, |b2| = 5.291503; reduced modulus +0.500000+2.598076i (SnapPy: -0.500000+2.598076i) agree
+    fixer: orientation +, linear part on Lambda [[1, 0], [0, 1]] (det 1), translation (Lambda-coordinates mod 1) (-0.0000, -0.0000), action on the free classes [[1]]
+    fixer: orientation +, linear part on Lambda [[-1, 0], [0, -1]] (det 1), translation (Lambda-coordinates mod 1) (0.8333, 0.3333), action on the free classes [[1]]
+    fixer: orientation -, linear part on Lambda [[-1, -1], [0, 1]] (det -1), translation (Lambda-coordinates mod 1) (0.0000, 0.0000), action on the free classes [[1]]
+    fixer: orientation -, linear part on Lambda [[1, 1], [0, -1]] (det -1), translation (Lambda-coordinates mod 1) (0.8333, 0.3333), action on the free classes [[1]]
+  dual shells (|k|^2, vectors): [(0.037037, [(0, -1), (0, 1)]), (0.148148, [(0, -2), (0, 2)]), (0.259259, [(-1, -1), (-1, 0), (1, 0), (1, 1)]), (0.333333, [(0, -3), (0, 3), (-1, 1), (1, -1), (-1, -2), (1, 2)])]
+  the free class: fixers in the stabiliser 4, their signs [1, 1, 1, 1]
+    shell |k|^2 = 0.037037 [(0, -1), (0, 1)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.148148 [(0, -2), (0, 2)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.259259 [(-1, -1), (-1, 0), (1, 0), (1, 1)]: allowed (real dimension 1); directions [(1, 0), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 2 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 2 of them vanish
+
+o10_150716, cusp 0: b_1 2, ranks [1], free classes on cusp 0: 1, |Aut| = |Isom| = 2
+  developed cusp: 40 triangles, 26 closing-up translations; lattice basis |b1| = 2.000000, |b2| = 8.660254; reduced modulus +0.000000+4.330127i (SnapPy: +0.000000+4.330127i) agree
+    fixer: orientation +, linear part on Lambda [[1, 0], [0, 1]] (det 1), translation (Lambda-coordinates mod 1) (-0.0000, -0.0000), action on the free classes [[1]]
+    fixer: orientation -, linear part on Lambda [[1, 0], [0, -1]] (det -1), translation (Lambda-coordinates mod 1) (0.5000, 0.4000), action on the free classes [[1]]
+  dual shells (|k|^2, vectors): [(0.013333, [(0, -1), (0, 1)]), (0.053333, [(0, -2), (0, 2)]), (0.12, [(0, -3), (0, 3)]), (0.213333, [(0, -4), (0, 4)])]
+  the free class: fixers in the stabiliser 2, their signs [1, 1]
+    shell |k|^2 = 0.013333 [(0, -1), (0, 1)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.053333 [(0, -2), (0, 2)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.120000 [(0, -3), (0, 3)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.213333 [(0, -4), (0, 4)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.250000 [(-1, 0), (1, 0)]: killed by symmetry
+    shell |k|^2 = 0.263333 [(-1, 1), (1, -1), (-1, -1), (1, 1)]: allowed (real dimension 2); directions [(1, -1), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 4 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 4 of them vanish
+
+o10_150725, cusp 1: b_1 3, ranks [2, 1, 2], free classes on cusp 1: 2, |Aut| = |Isom| = 12
+  developed cusp: 24 triangles, 18 closing-up translations; lattice basis |b1| = 2.000000, |b2| = 5.291503; reduced modulus +0.500000+2.598076i (SnapPy: -0.500000+2.598076i) agree
+    fixer: orientation +, linear part on Lambda [[1, 0], [0, 1]] (det 1), translation (Lambda-coordinates mod 1) (0.0000, -0.0000), action on the free classes [[1, 0], [0, 1]]
+    fixer: orientation +, linear part on Lambda [[1, 0], [0, 1]] (det 1), translation (Lambda-coordinates mod 1) (0.6667, 0.6667), action on the free classes [[0, 1], [-1, -1]]
+    fixer: orientation +, linear part on Lambda [[1, 0], [0, 1]] (det 1), translation (Lambda-coordinates mod 1) (0.3333, 0.3333), action on the free classes [[-1, -1], [1, 0]]
+    fixer: orientation +, linear part on Lambda [[-1, 0], [0, -1]] (det 1), translation (Lambda-coordinates mod 1) (0.1667, 0.6667), action on the free classes [[-1, 0], [1, 1]]
+    fixer: orientation +, linear part on Lambda [[-1, 0], [0, -1]] (det 1), translation (Lambda-coordinates mod 1) (0.5000, -0.0000), action on the free classes [[1, 1], [0, -1]]
+    fixer: orientation +, linear part on Lambda [[-1, 0], [0, -1]] (det 1), translation (Lambda-coordinates mod 1) (0.8333, 0.3333), action on the free classes [[0, -1], [-1, 0]]
+    fixer: orientation -, linear part on Lambda [[-1, -1], [0, 1]] (det -1), translation (Lambda-coordinates mod 1) (0.5000, -0.0000), action on the free classes [[1, 0], [0, 1]]
+    fixer: orientation -, linear part on Lambda [[-1, -1], [0, 1]] (det -1), translation (Lambda-coordinates mod 1) (0.1667, 0.6667), action on the free classes [[0, 1], [-1, -1]]
+    fixer: orientation -, linear part on Lambda [[-1, -1], [0, 1]] (det -1), translation (Lambda-coordinates mod 1) (0.8333, 0.3333), action on the free classes [[-1, -1], [1, 0]]
+    fixer: orientation -, linear part on Lambda [[1, 1], [0, -1]] (det -1), translation (Lambda-coordinates mod 1) (0.6667, 0.6667), action on the free classes [[-1, 0], [1, 1]]
+    fixer: orientation -, linear part on Lambda [[1, 1], [0, -1]] (det -1), translation (Lambda-coordinates mod 1) (0.0000, -0.0000), action on the free classes [[1, 1], [0, -1]]
+    fixer: orientation -, linear part on Lambda [[1, 1], [0, -1]] (det -1), translation (Lambda-coordinates mod 1) (0.3333, 0.3333), action on the free classes [[0, -1], [-1, 0]]
+  special lines in the free classes (eigenlines of fixers): 6; stabilisers of sizes [4, 4, 4, 4, 4, 4, 2]
+  dual shells (|k|^2, vectors): [(0.037037, [(0, -1), (0, 1)]), (0.148148, [(0, -2), (0, 2)]), (0.259259, [(-1, 0), (1, 0), (-1, -1), (1, 1)]), (0.333333, [(-1, 1), (1, -1), (0, -3), (0, 3), (-1, -2), (1, 2)])]
+  special line [1, 0]: fixers in the stabiliser 4, their signs [1, 1, 1, 1]
+    shell |k|^2 = 0.037037 [(0, -1), (0, 1)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.148148 [(0, -2), (0, 2)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.259259 [(-1, 0), (1, 0), (-1, -1), (1, 1)]: allowed (real dimension 1); directions [(1, 0), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 2 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 2 of them vanish
+  special line [0, 1]: fixers in the stabiliser 4, their signs [1, 1, 1, 1]
+    shell |k|^2 = 0.037037 [(0, -1), (0, 1)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.148148 [(0, -2), (0, 2)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.259259 [(-1, 0), (1, 0), (-1, -1), (1, 1)]: allowed (real dimension 1); directions [(1, 0), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 2 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 2 of them vanish
+  special line [-2, 1]: fixers in the stabiliser 4, their signs [1, -1, 1, -1]
+    shell |k|^2 = 0.037037 [(0, -1), (0, 1)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.148148 [(0, -2), (0, 2)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.259259 [(-1, 0), (1, 0), (-1, -1), (1, 1)]: allowed (real dimension 1); directions [(1, 0), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 2 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 2 of them vanish
+  special line [-1/2, 1]: fixers in the stabiliser 4, their signs [1, -1, 1, -1]
+    shell |k|^2 = 0.037037 [(0, -1), (0, 1)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.148148 [(0, -2), (0, 2)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.259259 [(-1, 0), (1, 0), (-1, -1), (1, 1)]: allowed (real dimension 1); directions [(1, 0), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 2 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 2 of them vanish
+  special line [1, 1]: fixers in the stabiliser 4, their signs [1, -1, 1, -1]
+    shell |k|^2 = 0.037037 [(0, -1), (0, 1)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.148148 [(0, -2), (0, 2)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.259259 [(-1, 0), (1, 0), (-1, -1), (1, 1)]: allowed (real dimension 1); directions [(1, 0), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 2 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 2 of them vanish
+  special line [-1, 1]: fixers in the stabiliser 4, their signs [1, 1, 1, 1]
+    shell |k|^2 = 0.037037 [(0, -1), (0, 1)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.148148 [(0, -2), (0, 2)]: allowed (real dimension 1); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.259259 [(-1, 0), (1, 0), (-1, -1), (1, 1)]: allowed (real dimension 1); directions [(1, 0), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 2 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 2 of them vanish
+  a generic class (stabiliser: the identity alone): fixers in the stabiliser 2, their signs [1, 1]
+    shell |k|^2 = 0.037037 [(0, -1), (0, 1)]: allowed (real dimension 2); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.148148 [(0, -2), (0, 2)]: allowed (real dimension 2); single direction [(0, 1)]: cos(2 pi k.x + phase), zero set two parallel geodesics -> annular partition
+    shell |k|^2 = 0.259259 [(-1, 0), (1, 0), (-1, -1), (1, 1)]: allowed (real dimension 2); directions [(1, 0), (1, 1)]: a combination whose zero set can bound discs -> the partition depends on the coefficients
+    -> the first allowed shell with two directions; 2 allowed single-direction shells precede it: the partition is annular unless the harmonic form's coefficients at all 2 of them vanish
+
+=== (D) the residual's leading allowed modes ===
+  o10_150688 cusp 0, the free class: lowest allowed shell |k|^2 = 0.013333, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 4 allowed shells all vanish
+  o10_150708 cusp 0, the free class: lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish
+  o10_150716 cusp 0, the free class: lowest allowed shell |k|^2 = 0.013333, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 4 allowed shells all vanish
+  o10_150725 cusp 1, special line [1, 0]: lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish
+  o10_150725 cusp 1, special line [0, 1]: lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish
+  o10_150725 cusp 1, special line [-2, 1]: lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish
+  o10_150725 cusp 1, special line [-1/2, 1]: lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish
+  o10_150725 cusp 1, special line [1, 1]: lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish
+  o10_150725 cusp 1, special line [-1, 1]: lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish
+  o10_150725 cusp 1, a generic class (stabiliser: the identity alone): lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 2, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish
+DONE
