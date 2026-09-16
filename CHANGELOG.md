@@ -1,5 +1,27 @@
 # Changelog
 
+## xB004 B6'S RECIPE AT THE OBJECT'S POINT: it transports, and there is NO VACUUM there -- the object's own point is a saddle, because its monodromy is pseudo-Anosov
+
+Owner-directed. **PREREGISTRATION sealed (sha256 `90b65bf0fda9ecc4c5cb41fa3aac9cbd8904aa46aed6a11a47d17662a6c4e945`) and PUSHED at `2f39b91` BEFORE any cell of this arc ran** -- the first design of this seat in the correct order, and the order is checkable from the branch's own history, which is exactly the property xB001 found the record's other seals cannot support.
+
+The question: run B6's own recipe (take `log` of the acting matrix, read its vector field, integrate to a potential) at the **object's** point on the leaf `κ = −2` rather than at the boundary point `τ = φ` where B6 stands, and report what B7/B8/B9 become.
+
+**C1 PASS.** The derivative on the leaf has multipliers `(5±√21)/2`, both positive real, so the principal `log D` exists: the recipe transports.
+
+**C2 PASS.** B6's field is Möbius, hence quadratic in `τ`, and integrates to a **cubic** `V`. At the object's point the field **vanishes at the fixed point**, so its leading term is linear and the potential is **quadratic**. B7/B8/B9's cubic vertex and its `κ/3` coefficient are artefacts of standing on `∂H`.
+
+**C3 -- THE FINDING, and it goes beyond the sealed prior.** `D = exp(J·Hess)` gives `Hess = J⁻¹ log D`, verified symmetric, with `log D` traceless of eigenvalues `±μ`, `μ = log((5+√21)/2) = 1.566799237`. So `det(Hess) = −μ² = −2.454859849 < 0`: the quadratic form is **indefinite** and the object's point is a **SADDLE**. B8's `mass² = V''(φ) = κ√5 = 1.924847 > 0` sits at a **minimum**. **There is no vacuum, and no single mass², at the object's own point.**
+
+**And it is forced, not accidental.** The monodromy is pseudo-Anosov (`|tr| = 3 > 2`), so its fixed point on the character variety is hyperbolic by definition; a stable minimum would require multipliers on the unit circle, i.e. an elliptic mapping class. **The stability of B6's vacuum and the hyperbolicity of the object's monodromy are incompatible** -- one may have either, not both, and B6 obtained stability by standing at the boundary, where the dynamics is not the leaf dynamics.
+
+**C4.** The induced map's order-2 and order-3 terms are both non-zero, and `λ²·λ⁻¹ = λ`, so the monomial `u²v` is **resonant**: the cubic cannot be removed by a normal-form change of variables. A vertex survives -- at next order, and around a saddle rather than a vacuum. This is also the exact content of xB003's fence 1: the obstruction to linearising is this resonance.
+
+**Consequences for the tower.** B7's Fisher--KPP front has no vacuum at the object's point to travel to; B8's `mass²` has no analogue there; B9's vertex does have one, one order up.
+
+**Nothing is withdrawn.** B6 lists its own inserted reading -- "`τ` as a field rather than a coordinate on the upper half-plane `H`" -- and B6--B9 are each correct under it. This arc reports only what the same recipe gives at the point the object occupies.
+
+Dynamics layer on the fibre's character variety, **not** the 4d Lorentzian field action TOE row 4 asks for; that row is untouched. Gate 5 absolute: no measured quantity, no value, no generation count. `μ = log((5+√21)/2)` is reported as computed and is **not** interpreted. Four cells, each asserting its own mathematics.
+
 ## xB003 THE MONODROMY ON THE OBJECT'S OWN LEAF: B1341's double tick is the monodromy (proved), its fixed point is the ramified prime of Q(sqrt-3), and the missing generating function has trace 5
 
 Owner-directed 2026-09-16 (approval to proceed on the leads, with the discipline kept). Seat `xb`, branch `sep16-branch`, citation-only numbering; no main B-number consumed.

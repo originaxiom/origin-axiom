@@ -1,0 +1,12 @@
+{
+ "id": "xB004",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B6", "B7", "B8", "B9", "B13", "B67", "B425", "B1341", "B1347"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "B6'S RECIPE AT THE OBJECT'S POINT: it transports, and there is NO VACUUM there (PREREGISTRATION sealed sha256 90b65bf0... and PUSHED at 2f39b91 BEFORE any cell ran -- the order is checkable from this branch's history, the property xB001 found the record's other seals cannot support). C1 PASS: the derivative on the leaf has multipliers (5+-sqrt21)/2, both positive real, so the principal log D exists and B6's recipe transports. C2 PASS: at the object's point the field VANISHES at the fixed point so its leading term is linear and the potential is QUADRATIC, where B6's -- built from a Mobius (hence quadratic) field at a BOUNDARY point -- is CUBIC; B7/B8/B9's cubic vertex and its kappa/3 coefficient are artefacts of standing on dH. C3, THE FINDING, beyond the sealed prior: Hess = J^-1 log D is symmetric with det(Hess) = -(log lam)^2 = -2.454859849 < 0, so the quadratic form is INDEFINITE and the object's point is a SADDLE, against B8's mass^2 = V''(phi) = kappa*sqrt5 = 1.924847 > 0 at a MINIMUM -- THERE IS NO VACUUM AND NO SINGLE mass^2 AT THE OBJECT'S OWN POINT. And it is FORCED, not accidental: the monodromy is pseudo-Anosov (|tr| = 3 > 2), so its character-variety fixed point is hyperbolic by definition, while a stable minimum would need multipliers on the unit circle, i.e. an elliptic mapping class -- THE STABILITY OF B6'S VACUUM AND THE HYPERBOLICITY OF THE OBJECT'S MONODROMY ARE INCOMPATIBLE, and B6 obtained stability only by standing at the boundary where the dynamics is not the leaf dynamics. C4: the induced map's order-2 AND order-3 terms are both nonzero and lam^2 * lam^-1 = lam, so u^2 v is RESONANT and the cubic cannot be removed by normal-form change of variables -- a vertex survives, at next order and around a saddle rather than a vacuum; this is also the exact content of xB003's fence 1. Consequences for the tower: B7's Fisher-KPP front has no vacuum to travel to, B8's mass^2 has no analogue, B9's vertex does. NOTHING WITHDRAWN -- B6 states its own inserted reading (tau as a field rather than a coordinate on H) and B6-B9 are each correct under it. Dynamics layer, not TOE row 4. Gate 5 untouched; no value, no generation count; mu = log((5+sqrt21)/2) reported as computed and NOT interpreted."
+}
