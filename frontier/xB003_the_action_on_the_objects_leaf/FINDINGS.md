@@ -64,7 +64,10 @@ In exactly B1341's normalisation:
    fixed point of an area-preserving map always carries resonances `λᵃλ^{−b} = λ`, so analytic
    linearisation is **not** automatic and is **not claimed**. What is exact is the derivative and
    hence `S`'s leading term.
-2. **`ℚ(√21)` is UN-INTERPRETED.** The multiplier field has discriminant `21 = 3·7`. It is neither
+2. **`ℚ(√21)` is UN-INTERPRETED.** *(ADDENDUM 1 tests this and reports: the multiplier is **not**
+   a function of `tr(M)` — `LLRR` and `LLLLR` share trace 6 and differ — so the 5 is not a
+   restatement of the 3; and the `21 = 3·7` / `77 = 7·11` resemblance to the record's fields is
+   **declined** as short-catalogue, the `77` firing at m009 rather than at the object.)* The multiplier field has discriminant `21 = 3·7`. It is neither
    `ℚ(√5)` (the genesis) nor `ℚ(√−3)` (the trace field). No reading of it is offered, and none
    should be inferred from its sharing factors with `disc K = 3⁴·7·11` or `ℚ(√77)`. Recorded as a
    computed number awaiting a reason.
