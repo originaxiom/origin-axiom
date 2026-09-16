@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-09-16T14:58:21Z",
+ "built": "2026-09-16T15:45:02Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,7 +9,7 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "63a916be"
+  "git_head": "14835a2d"
  },
  "claims": [
   {
@@ -1237,35 +1237,12 @@
      "primary_locks": [
       "tests/test_b1414_outside_bench_harvest.py"
      ]
-    },
-    {
-     "arc": "B1416",
-     "dir": "frontier/B1416_the_relay_residue_closed",
-     "verdict": "VERIFIED",
-     "claim_one_line": "THE RELAY RESIDUE CLOSED: the fifteen relays B1412 kept OPEN by name, read against their artifacts in three pinned archive tags (cc3 a31456d2, braver 53da05f6, codex f7a49536), the seats' scripts re-run (B8087, B8143's six steps, codex R031D: all rc 0), and rowed -- eleven were already on main under",
-     "seals": [],
-     "reproduce_sh": false,
-     "scripts": [
-      "frontier/B1416_the_relay_residue_closed/verification/class_numbers_m2plus4.py",
-      "frontier/B1416_the_relay_residue_closed/verification/family_2t_door.py"
-     ],
-     "results": [
-      "frontier/B1416_the_relay_residue_closed/verification/class_numbers_m2plus4.out",
-      "frontier/B1416_the_relay_residue_closed/verification/family_2t_door.json",
-      "frontier/B1416_the_relay_residue_closed/verification/family_2t_door.out"
-     ],
-     "locks": [
-      "tests/test_b1416_residue.py"
-     ],
-     "primary_locks": [
-      "tests/test_b1416_residue.py"
-     ]
     }
    ]
   },
   {
    "section": "6",
-   "claim": "the exact half of the closing design: the E7 apex local model's geometry (its count cited), the Z/3 = 2T/Q8 forcing b2 >= 2 for a symmetric triple, the Y3 breaking to SM x U(1)_eta by a Q8 line times an order-4 character (root-system facts), and the algebraic no-seesaw obstruction (equal eta charges on both charged singlets; no eta-neutral Majorana source in 27^3 or 78) -- the design itself and its exclusion are conditional, a design and not a theorem",
+   "claim": "the exact half of the closing design, and only that half: the E7 apex cone's geometry (its count cited), the Z/3 = 2T/Q8 forcing b2 >= 2 for a symmetric triple, the Y3 breaking to SM x U(1)_eta by a Q8 line times an order-4 character (root-system facts), and the algebraic no-seesaw obstruction (equal eta charges on both charged singlets; no eta-neutral Majorana source in 27^3 or 78); the design as a whole is not a claim of this paper",
    "support": "settled",
    "records": [
     {
@@ -1403,6 +1380,330 @@
      ],
      "primary_locks": [
       "tests/test_b1418_family.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "the object's carrier admits no supercharge (no pi_1-equivariant, no gauge-equivariant, the beat squares to the meridian): the closing's supersymmetry is the model's assumption",
+   "support": "computed",
+   "records": [
+    {
+     "arc": "B1162",
+     "dir": "frontier/B1162_mssm_debt_closure",
+     "verdict": "OPEN",
+     "claim_one_line": "The MSSM-debt closure (cloud memos 71-75, D1-D5) + codex's height-308 MSSM witness VERIFIED on our own bench -- finishing WF-3's second half (the witness was single-homed; B1159 relayed it). THE WITNESS (sage-verified on-bench, witness_sage.txt): H0(Y,V)=0 (augmented-kernel dim 6), the Phi-induced C",
+     "seals": [],
+     "reproduce_sh": true,
+     "scripts": [
+      "frontier/B1162_mssm_debt_closure/verification/reproduce.sh"
+     ],
+     "results": [
+      "frontier/B1162_mssm_debt_closure/verification/closure_checks.txt",
+      "frontier/B1162_mssm_debt_closure/verification/witness_sage.txt"
+     ],
+     "locks": [
+      "tests/test_b1162_mssm_debt_closure.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1162_mssm_debt_closure.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "fork F9 is fragile past depth three: the three-record carrier m412 keeps Q(sqrt-3) and is chiral, at the price of the 2T door",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1414",
+     "dir": "frontier/B1414_the_outside_benchs_memos_185_233_harvested",
+     "verdict": "VERIFIED",
+     "claim_one_line": "THE OUTSIDE BENCH'S MEMOS 185-233 HARVESTED at 8262c6ed. Its eight load-bearing items recomputed on main: five reproduced (F9 FRAGILE at depth 5 with B1323's own enumerator, m412 chiral in Q(sqrt-3) with 0 surjections onto SL(2,3); chirality 181 of 203 123; the 2T door 1 696 of 5 000 with B993's own",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/canon_full.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/census_sweep.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/census_sweep_canon.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/covers_and_m412.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/golden_new_members.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/two_threes_own.py"
+     ],
+     "results": [
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/b1330_final_index_t12835.txt",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/canon_full.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/cert_reruns_summary.txt",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/chir_sweep.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/chir_sweep_canon.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/covers_and_m412.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/det_sweep.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/det_sweep_canon.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/golden_new_members.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/sl23_baserate_5000_summary.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/two_threes_own.out",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/u1_substrate_count_maxlen5_summary.json"
+     ],
+     "locks": [
+      "tests/test_b1414_outside_bench_harvest.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1414_outside_bench_harvest.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "the apex design's tree-level flavour: only 27_1 27_2 27_3 survives the apex U(1)^2, the mass matrices are hollow (sigma_1 = sigma_2 + sigma_3, against 273/50/17), the deck must be broken, and the U(1)^2-violating part is at least a third of the top Yukawa",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1415",
+     "dir": "frontier/B1415_the_sm_seats_closing_arcs_harvested",
+     "verdict": "VERIFIED",
+     "claim_one_line": "THE SM SEAT'S CLOSING ARCS HARVESTED at f17dd84e (sm:B1356-B1365, THE CLOSING, sm:L214/L215). All ten seat scripts re-run green in the pinned worktree, nine log-identical (the tenth differs only in a stochastic search). Recomputed on main's own code: the Burnside count for a symplectic 2T on K3 has ",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/burnside_k3.py",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/e6_own.py",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/identities_and_e7.py",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/kac_s3.py",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/torus_order4.py"
+     ],
+     "results": [
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/burnside_k3.out",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/e6_own.out",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/identities_and_e7.out",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/kac_s3.out",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/seat_scripts_rerun_summary.txt",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/torus_order4.out"
+     ],
+     "locks": [
+      "tests/test_b1415_sm_harvest.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1415_sm_harvest.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "Y_12's 768 one-triplet vacua (one vector-like generation, two Higgs doublets, no exotic triplet) and the theorem that none of Y_9's 706 464 SM lines splits the doublet from the triplet (w_D = -2 w_Q)",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1303",
+     "dir": "frontier/B1303_the_sm_closings_z_prime",
+     "verdict": "PROVED",
+     "claim_one_line": "THE SM CLOSING'S Z' (MASTERPLAN v3.1 Phase 1, fourth harvest arc; DESIGN sealed 9f44f4c3; sm:B1283/B1300/B1301 re-run in the pinned worktree 053727f3 with their own selftests AND re-derived here with independent code; B1103, B1140's certificate and chat1's checker re-run). VERIFIED: the tree-level v",
+     "seals": [
+      {
+       "seal_file": "frontier/B1303_the_sm_closings_z_prime/DESIGN.sha256",
+       "sealed_file": "frontier/B1303_the_sm_closings_z_prime/DESIGN.md",
+       "recorded": [
+        "9f44f4c35e80e0820e0229db4b8bcbc370ac88fb573df4e29b58c70ab63a1406  DESIGN.md"
+       ],
+       "current_sha256": "9f44f4c35e80e0820e0229db4b8bcbc370ac88fb573df4e29b58c70ab63a1406",
+       "matches": true
+      }
+     ],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_centraliser.py",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_dt.py",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_fcnc.py",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_tower.py",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_zprime.py",
+      "frontier/B1303_the_sm_closings_z_prime/verification/chat1_check_relay.py"
+     ],
+     "results": [
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_centraliser.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_centraliser.out",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_dt.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_dt.out",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_fcnc.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_fcnc.out",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_tower.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_tower.out",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_zprime.json",
+      "frontier/B1303_the_sm_closings_z_prime/verification/b1303_zprime.out",
+      "frontier/B1303_the_sm_closings_z_prime/verification/chat1_check_relay_rerun.txt",
+      "frontier/B1303_the_sm_closings_z_prime/verification/main_b1103_being_gate_rerun.txt",
+      "frontier/B1303_the_sm_closings_z_prime/verification/main_b1140_spacetime64_rerun.txt",
+      "frontier/B1303_the_sm_closings_z_prime/verification/sm_b1283_sm_closing_vacuum_rerun.txt",
+      "frontier/B1303_the_sm_closings_z_prime/verification/sm_b1300_dt_structure_rerun.txt",
+      "frontier/B1303_the_sm_closings_z_prime/verification/sm_b1301_e6_roots_qul_derive_rerun.txt",
+      "frontier/B1303_the_sm_closings_z_prime/verification/sm_b1301_lines_from_support_Y12_rerun.txt",
+      "frontier/B1303_the_sm_closings_z_prime/verification/sm_b1301_lines_from_support_Y9_rerun.txt",
+      "frontier/B1303_the_sm_closings_z_prime/verification/sm_b1301_tower_alphabet_rerun.txt"
+     ],
+     "locks": [
+      "tests/test_b1303_the_sm_closings_z_prime.py",
+      "tests/test_b1307_the_harvest_gate.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1303_the_sm_closings_z_prime.py"
+     ]
+    },
+    {
+     "arc": "B1306",
+     "dir": "frontier/B1306_the_older_debt",
+     "verdict": "PROVED",
+     "claim_one_line": "THE OLDER DEBT, SLICE A (MASTERPLAN v3.1 Phase 1, seventh harvest arc; DESIGN_A sealed 815f34be; the SM-derivation seat pinned 0dffacd4). The seat's 2x2 criterion for the tower's twisted cohomology (sm:B1303: pi_1(Y_n) = <a, b | phi^n(a) = a, phi^n(b) = b>, h^1 = 1 iff a product of n 2x2 matrices is",
+     "seals": [
+      {
+       "seal_file": "frontier/B1306_the_older_debt/DESIGN_A.sha256",
+       "sealed_file": "frontier/B1306_the_older_debt/DESIGN_A.md",
+       "recorded": [
+        "815f34bef60c5eb5ea6f00e1bbbe0ffd0007ccc08975393111d220eeafd2182f  DESIGN_A.md"
+       ],
+       "current_sha256": "815f34bef60c5eb5ea6f00e1bbbe0ffd0007ccc08975393111d220eeafd2182f",
+       "matches": true
+      },
+      {
+       "seal_file": "frontier/B1306_the_older_debt/DESIGN_B.sha256",
+       "sealed_file": "frontier/B1306_the_older_debt/DESIGN_B.md",
+       "recorded": [
+        "d9d61f4b9904ee38e33b316cc581bb96ff29b1dbea9e299c67596a96a79e4b99  DESIGN_B.md"
+       ],
+       "current_sha256": "d9d61f4b9904ee38e33b316cc581bb96ff29b1dbea9e299c67596a96a79e4b99",
+       "matches": true
+      },
+      {
+       "seal_file": "frontier/B1306_the_older_debt/DESIGN_C.sha256",
+       "sealed_file": "frontier/B1306_the_older_debt/DESIGN_C.md",
+       "recorded": [
+        "1ee3260363be118b2c76275583fc6392b822575e204231ea9111752a153ef1ce  DESIGN_C.md"
+       ],
+       "current_sha256": "1ee3260363be118b2c76275583fc6392b822575e204231ea9111752a153ef1ce",
+       "matches": true
+      }
+     ],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1306_the_older_debt.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1306_the_older_debt.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "the second expectation value lies on the pure-spinor cone of the 16 (stabiliser 34, toral rank 4; a generic spinor is fatal): two selections, booked as two",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1092",
+     "dir": "frontier/B1092_purity_selector",
+     "verdict": "PROVED",
+     "claim_one_line": "THE PURITY SELECTOR (L168, own-code exact re-derivation): on so(10)'s 16 built from verified CAR bilinears (closure 990/990, rank 5 self-centralizing, D5 roots exact, PARITY CONTROL constant -- the single-chiral-half check that catches character-twisted builds), the rank drop 5->4 happens ONLY at pu",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1092_purity_selector.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1092_purity_selector.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "within the in-frame anomaly system the grav^2 Y condition is load-bearing (dropping it: 36 solutions plus solution planes) and the cubic is redundant",
+   "support": "computed",
+   "records": [
+    {
+     "arc": "B1170",
+     "dir": "frontier/B1170_arena_rescope",
+     "verdict": "OPEN",
+     "claim_one_line": "THE ARENA RESCOPE (three-seat reconciliation harvest; the lose-nothing sweep's highest-risk item). cc3's B8143 (4-commit chain with an honest mid-chain CORRECTION -- the omitted [SU(3)]^3 condition killed their own 13-state counter-witness and made B1160 STRONGER) + codex's R019 both post-date the B",
+     "seals": [],
+     "reproduce_sh": true,
+     "scripts": [
+      "frontier/B1170_arena_rescope/verification/independent_enumeration.py",
+      "frontier/B1170_arena_rescope/verification/reproduce.sh"
+     ],
+     "results": [
+      "frontier/B1170_arena_rescope/verification/enumeration_out.txt"
+     ],
+     "locks": [
+      "tests/test_b1165_gravity_terminal.py",
+      "tests/test_b1170_arena_rescope.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1170_arena_rescope.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "the tower's budget: at the chiral 5-cusped degree-10 cover the flat sl_3 deformation space has complex dimension 10 = k(n-1), twenty real parameters, all boundary data",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1409",
+     "dir": "frontier/B1409_the_tower_budget",
+     "verdict": "PROVED",
+     "claim_one_line": "THE TOWER'S BUDGET IS REAL, IT IS EXACTLY 20 REAL PARAMETERS, AND EVERY ONE OF THEM IS BOUNDARY DATA. Prereg sealed 5618216a and pushed at 31cfd032 BEFORE any compute; zero anchors; no measured value anywhere. THE RESULT. At the tower's ceiling -- the chiral 5-cusped degree-10 cover L14n63694 (= ote",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1409_the_tower_budget/verification/b1409_budget.py",
+      "frontier/B1409_the_tower_budget/verification/b1409_ladder.py"
+     ],
+     "results": [
+      "frontier/B1409_the_tower_budget/verification/b1409_budget.json",
+      "frontier/B1409_the_tower_budget/verification/b1409_ktrack.json",
+      "frontier/B1409_the_tower_budget/verification/b1409_ladder.json"
+     ],
+     "locks": [
+      "tests/test_b1409_tower_budget.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1409_tower_budget.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "under the Lorentz double the 27, the 78 and their tensor tower are integer-spin; the record's only half-integer object is the holonomy's C^2",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1148",
+     "dir": "frontier/B1148_carrier_harvest",
+     "verdict": "PROVED",
+     "claim_one_line": "THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduce byte-identical. The batch builds toward the internal->spacetime bridge (the unpaid verb of B1145 + the codex fence): memo 45 THE",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1148_carrier_harvest/verification/reproduce_new.sh"
+     ],
+     "results": [
+      "frontier/B1148_carrier_harvest/verification/VENDORED_FROM.txt",
+      "frontier/B1148_carrier_harvest/verification/our_uniqueness_chain.out"
+     ],
+     "locks": [
+      "tests/test_b1148_carrier_harvest.py",
+      "tests/test_b1235_two_seat_harvest.py",
+      "tests/test_b1240_belt_closure_and_fc_harvest.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1148_carrier_harvest.py"
      ]
     }
    ]
@@ -1909,10 +2210,10 @@
   }
  ],
  "totals": {
-  "claims": 46,
-  "records": 66,
-  "seals": 14,
-  "locks": 105,
-  "records_with_a_primary_lock": 65
+  "claims": 54,
+  "records": 74,
+  "seals": 18,
+  "locks": 110,
+  "records_with_a_primary_lock": 73
  }
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "frontier/B749_genesis_forks/FINDINGS.md, Addendum 2026-09-14 (from outside_bench memo 231 cell 5 / THE_OWNER_REGISTER.md R145 ADDENDUM 3, lines 5319-5356); landed on main at commit 1c062b17 (2026-09-14)",
+    "claim": "Re-running B1323's own substrate-count instrument from word-length 3 to 5 finds a length-4, three-record hyperbolic bundle (m412 = otet05_00001, word abbC; vol = 2.5 x vol(m004), 2 cusps, |Sym|=8) that keeps the invariant trace field Q(sqrt-3) AND is chiral by both methods used elsewhere in the record -- contradicting the paper's own conclusion that on substrates 'the arithmetic and a remembered handedness were not found together'. Main's own verdict: fork F9's verdict at maxlen=5 is FRAGILE, not ROBUST as B1323 (and the paper) state.",
+    "why": "(i) changes the strength/truth of a specific paper sentence; (v) corrects the scope of a claim the paper states without its now-known length-4 counterexample",
+    "paper_location": "Section 'The chirality bit', paragraph 'Where the bit lives: the genesis' (main.tex line ~1005): \"within the monodromy words examined (length at most three), no three-record carrier keeps Q(sqrt-3). On substrates, then, the arithmetic and a remembered handedness were not found together; the object's own covers, below, are where they are.\"",
+    "main_status": "frontier/B749_genesis_forks/FINDINGS.md lines 46-76 (both addenda); frontier/B1414_the_outside_benchs_memos_185_233_harvested/FINDINGS.md section 1 item 4 and section 8 (REPRODUCED, write-back to docs/FRESH_EYES_2026-09.md Q15); fully landed on the main git branch but not propagated into papers/P3_THE_PAPER/main.tex, whose relevant passage was last substantively touched by commit b94ed03a (2026-09-09), five days before the correction (1c062b17, 2026-09-14)",
+    "grade": "MUST"
+  },
+  {
+    "source": "outside_bench/memos/GRAVITY_LOAD_BEARING.md (memo 78); docs/HARVEST_LEDGER.md row 467",
+    "claim": "Deleting the grav^2 Y anomaly condition breaks the forced hypercharge computation (36 -> 18 solutions, with assignments blowing up into solution planes), showing the gravitational anomaly condition is load-bearing and not decorative in the hypercharge-forcing argument.",
+    "why": "(iv) a control bounding/strengthening the paper's forcing claim that three specific linear conditions ([SU(3)]^2Y, [SU(2)]^2Y, grav^2Y) are jointly necessary",
+    "paper_location": "Section 'What is forced -- and by what', paragraph 'The forcing, explicitly' (main.tex ~line 719): \"the three linear conditions --- [SU(3)]^2Y, [SU(2)]^2Y and grav^2Y --- cut the five-dimensional charge space to a plane\"",
+    "main_status": "docs/HARVEST_LEDGER.md row 467: REGISTERED-EARLIER, named on main without a verification verb via frontier/B1170_*; not independently re-verified in this pass",
+    "grade": "SHOULD"
+  },
+  {
+    "source": "outside_bench/memos/THE_BIT_ASKED.md (memo 194); THE_OWNER_REGISTER.md ADDENDUM 105 (R105-3), lines 2592-2595; docs/HARVEST_LEDGER.md row 570",
+    "claim": "Over the 181 one-cusped census manifolds that are amphichiral, the Chern-Simons invariant mod 1/2 (membership in A[2]={0,1/4}) splits 106 at 0 and 75 at 1/4 -- amphichirality forces membership in A[2] but not which element.",
+    "why": "(iv) a base rate that would reinforce (but not change the truth value of) the paper's existing disclaimer that the CS value is not among the data the construction's early steps use",
+    "paper_location": "Section 'What is generic', paragraph 'The sibling is not the knot...' (main.tex ~line 157-164): \"the Chern-Simons invariant, 0 for m004 against 1/4 for m003 --- neither of which is among the data the construction's early steps use\"",
+    "main_status": "docs/HARVEST_LEDGER.md row 570: REPRODUCED here / BANKED by row (B1414, reader r6)",
+    "grade": "SHOULD"
+  }
+]

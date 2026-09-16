@@ -1,0 +1,106 @@
+[
+  {
+    "source": "cc3 paper-lane frontier/B8087_neutrino_selector (arc_verdict.json claim_one_line: \"the neutrino selector: <nu^c> is a CONDITION, not a POINT\"); main's re-derivation frontier/B1092_purity_selector/FINDINGS.md",
+    "claim": "The second VEV <nu^c>, which removes E6's extra B-L-like abelian factor (rank 6 -> rank 5 -> Standard Model rank 4), must lie in the 11-dimensional pure-spinor cone of SO(10)'s 16 (stabilizer dim 34, toral rank 4), on which Spin(10) acts transitively (projectively the 10-dim variety S_10); any generic spinor is fatal, killing all remaining rank (stabilizer dim 29, toral rank 0) -- so the VEV's direction is proved forced, not chosen.",
+    "why": "i, ii -- would strengthen/change two specific sentences: the withheld section's 'removed only by a second expectation value' and the freedom ledger's 'family, VEV, filling' row; main's own docs/THEOREM_LEDGER.md:277-278 already appends 'whose direction is itself forced (B1092)' at the exact spot the paper's parallel sentence omits it.",
+    "paper_location": "Section 'What is withheld', paragraph 'Rank reduction: what the measurement skips and what the vacuum pays' -- quoted sentence: \"the other is B-L-like, anomaly-free over the derived sixteen once nu^c is included, and is removed only by a second expectation value, the one Sec. chirality's supersymmetric vacuum exhibits.\"; also Section 'The freedom ledger', row 'family, VEV, filling'.",
+    "main_status": "frontier/B1092_purity_selector/FINDINGS.md (verdict PROVED, own-code exact Q arithmetic); docs/THEOREM_LEDGER.md:278 (C25 scope note, 'whose direction is itself forced (B1092)'); docs/SM_SPECIFICATION_LEDGER.md:277-285 ('purity-conditioned'); docs/OPEN_LEADS.md L168 CLOSED; re-confirmed today in frontier/B1416_the_relay_residue_closed/FINDINGS.md ('B8087's neutrino_selector.py re-run: rc 0, every check PASS')",
+    "grade": "MUST"
+  },
+  {
+    "source": "chat1 handoff, adjudicated in docs/handoffs/CHAT1_ASSEMBLED_PICTURE_2026-09-13_VERDICT.md:26 and docs/handoffs/CHAT1_HANDOFF_2026-09-15_VERDICT.md",
+    "claim": "Lackenby (2003)'s theorem that the canonical (Epstein-Penner) decomposition of a once-punctured torus bundle IS its monodromy (Floyd-Hatcher) triangulation is the reason the paper's fibre-slope identification is canonical, not merely two programs agreeing; main's own verdict says this citation 'belongs' in the paper and is 'load-bearing at no step, the same status the paper gives arithmeticity'.",
+    "why": "ii -- an input the chain's own argument leans on (the word 'canonical' at the seam paragraph) is asserted without the theorem that licenses it.",
+    "paper_location": "Section 'The middle', paragraph 'The seam: closing is where the breaking lives' (the phrase 'the object re-sees its own genesis at a canonical seam'); also Section 'Recognition' citation list, beside the already-present Minsky and Callahan citations from the same source handoff.",
+    "main_status": "CITATION VERIFIED in docs/handoffs/CHAT1_ASSEMBLED_PICTURE_2026-09-13_VERDICT.md:26 and re-flagged in docs/handoffs/CHAT1_HANDOFF_2026-09-15_VERDICT.md; zero occurrences of 'Lackenby' in papers/P3_THE_PAPER/main.tex even after today's rewrite; independently confirmed by three separate research passes on this sweep.",
+    "grade": "SHOULD"
+  },
+  {
+    "source": "cc3 paper-lane frontier/B8072_matching_capacity ('the matching-capacity floor: seven nulls are one measurement of an instrument')",
+    "claim": "A calibrated Poisson-placement model of scan-hit probability (two independent calibrations agreeing to 1.30x) shows 9 of 12 tested Standard-Model parameters (m_tau/m_mu, sin^2 theta_W, m_W/m_Z, |V_us|, alpha_s, |V_cb|, sin^2 theta_13, sin^2 theta_12, sin^2 theta_23) sit in a 'no-information band' where a null result is statistically guaranteed regardless of whether a real relation exists; only 3 (m_p/m_e, alpha_em^-1, m_mu/m_e) could carry real information (4.3-18.9 bits).",
+    "why": "iv -- a base-rate/control instrument of exactly the kind the paper's own withheld-value section already uses (look-elsewhere probability, pre-commitment, instrument-absence); would bound/strengthen the paper's negative-result claims about its 352-pair and 23-invariant scans, or reveal that some of the sealed 22-target menu is uninformative. Caveat: the seven arcs this is calibrated against (B563/B549/B558/B615/B724/B743/B322) are older and different from the specific scan the paper reports, so the transfer to the paper's own numbers has not itself been verified on main -- reported as an unreconciled methodological gap, not a proven defect.",
+    "paper_location": "Section 'What is withheld', paragraph 'No pre-registered period of the object is a Standard Model ratio' (the 352-pair / 23-invariant scans).",
+    "main_status": "frontier/B8072_matching_capacity/FINDINGS.md -- PROVED on the cc3 branch (own reproducer, controls pass, one self-correction recorded in place); rowed docs/HARVEST_LEDGER.md:281 as SCHEDULED ('no main text names it -- the slice D backlog, read before Review 57') and never subsequently read into a main arc or reconciled against the paper's own scan.",
+    "grade": "SHOULD"
+  },
+  {
+    "source": "cc3 paper-lane frontier/B8143_anomaly_lane",
+    "claim": "The anomaly-forcing package (252 contents, 222 killed by [SU(3)]^3, exactly 2 survivors) is arena-generic with zero object tokens.",
+    "why": "already the paper's own opening claim in 'What is forced'",
+    "paper_location": "Section 'What is forced', paragraph 'The content is arena-generic, and we say so first.'",
+    "main_status": "banked as frontier/B1170_arena_rescope; re-verified again today in frontier/B1416_the_relay_residue_closed/FINDINGS.md",
+    "grade": "NO"
+  },
+  {
+    "source": "cc3 paper-lane frontier/B8068_j2t_charge_field",
+    "claim": "The object's canonical cubic etale algebra J^{2T} equals the charge field K = Q[x]/(x^3-12x-5), field discriminant 6237 = 3^4*7*11, totally real, Galois group S3 -- verified as the same field via three independent routes.",
+    "why": "the headline numbers are already stated exactly, to the digit, in the paper as C28; the arc's additional cross-check (the same field also arises from the Jordan-algebra side) does not change the claim's truth value or strength",
+    "paper_location": "Section 'The middle', paragraph on the measurement calculus (C28: 'disc K = 3^4*7*11', resolvent Q(sqrt77), Galois group S3)",
+    "main_status": "already fully reflected in the paper as C28 / main.tex lines 335 and 597-598",
+    "grade": "NO"
+  },
+  {
+    "source": "cc3 structure_paper (audit/wt-cc3/papers/structure_paper/ABSTRACT_DRAFT.md)",
+    "claim": "The Barton-Sudbery magic-square isomorphism is additionally checked via a Jacobi-identity verification on all 76,076 basis triples, beyond the 3,003 basis-pair isomorphism check.",
+    "why": "a deeper verification pass on an already-stated theorem (C26); does not change its truth value or strength",
+    "paper_location": "Section 'The middle', 'How the algebra arrives, exactly' paragraph (C26)",
+    "main_status": "C26 already settled/locked on main (docs/THEOREM_LEDGER.md C26, B904); the 76,076-triple Jacobi check is cc3's own supplementary rigor, not reconciled to a main arc number",
+    "grade": "NO"
+  },
+  {
+    "source": "cc3 paper-lane frontier/B8148_m12_settled",
+    "claim": "m = 12 gives 3 classes under both SL(2,Z) and GL(2,Z), with a floor(sqrt(D)) mechanism explaining the count.",
+    "why": "refuted by main's own computation; not load-bearing since the refutation itself changes nothing the paper states",
+    "paper_location": "n/a",
+    "main_status": "REFUTED today in frontier/B1416_the_relay_residue_closed/FINDINGS.md: the correct GL(2,Z) count at discriminant 148 is 2, forced by the narrow class group's order (odd order 3, one self-inverse class)",
+    "grade": "NO"
+  },
+  {
+    "source": "cc3 paper-lane frontier/B8097_buried_results (self-audit), item 'L1'",
+    "claim": "m004's selection as THE object was 'banked wider than proved' -- proved only along the metallic diagonal m=1..7, while m004 ties with m003 on volume and arithmeticity is class-invariant.",
+    "why": "a fair criticism of an earlier state of the record, but superseded",
+    "paper_location": "Section 'The observer, priced', paragraph 'Which member.'",
+    "main_status": "superseded by a stronger, later argument: m004 is the unique orientable solution of a Jorgensen-number minimization (Callahan's theorem), a variational selection not resting on the metallic-diagonal extremality B8097 criticized",
+    "grade": "NO"
+  },
+  {
+    "source": "main frontier/B867_sakharov_gate (flagged as buried/unrowed by cc3's in-range B8097 self-audit; still PENDING in docs/REPRESENTATION_TRIAGE.md)",
+    "claim": "All three Sakharov baryogenesis preconditions (B violation, CP violation, departure from equilibrium) are structurally present in the construction, assembled from banked arcs.",
+    "why": "explicitly self-fenced as interpretive/speculative by its own author (no rate, no asymmetry number, no temperature) and conditional on 'the triple being generations', a premise the paper's later chirality campaign shows does not hold as a chiral count",
+    "paper_location": "would touch Section 'The chirality bit' non-claims if it were adopted, but it is not eligible under the paper's own non-claims rule",
+    "main_status": "PENDING in docs/REPRESENTATION_TRIAGE.md; never promoted past its own arc",
+    "grade": "NO"
+  },
+  {
+    "source": "main frontier/B874_measurement_ladder (flagged as buried/unrowed by cc3's in-range B8097 self-audit; still PENDING in docs/REPRESENTATION_TRIAGE.md)",
+    "claim": "The full simultaneous centralizer of the entire 2T-charge torus C is Cent(C) = su(2,1) + C (dim 12 = derived 8 + center 4); 'the full-measurement = SM reading is DEAD'.",
+    "why": "an early (2026-08-03), superseded construction path -- the paper's actual second-measurement theorem (C25) measures at a single algebraic wall point of the torus, a different and later construction, not the full simultaneous centralizer",
+    "paper_location": "n/a (superseded by Section 'The middle', 'The measurement calculus' paragraph)",
+    "main_status": "PENDING in docs/REPRESENTATION_TRIAGE.md as an unrowed early result; its negative conclusion does not apply to the construction the paper actually uses",
+    "grade": "NO"
+  },
+  {
+    "source": "braver-questions frontier/B792_maass_m004_eigenvalues (audit/wt-braver)",
+    "claim": "The first six discrete Maass (Laplacian) eigenvalues of m004 computed in-sandbox to ~8 digits via a Hejhal/Then collocation solver, with a 22x spectral-gap margin over Luo-Rudnick-Sarnak, old/new decomposition confirmed by Bianchi invariance.",
+    "why": "a careful, genuine computation, but touches no claim the paper makes -- the paper's only spectral claim (C10) concerns the continuous spectrum, and the paper explicitly declines any 'quantum face' generation question",
+    "paper_location": "n/a",
+    "main_status": "banked on the braver-questions archive only (frontier/B792_maass_m004_eigenvalues @ 53da05f6); rowed SCHEDULED in docs/HARVEST_LEDGER.md row 492, not yet read into a main arc",
+    "grade": "NO"
+  },
+  {
+    "source": "braver-questions frontier/B784_trace_map_intertwining (audit/wt-braver)",
+    "claim": "theta (word reversal) is trivial on ALL SL(2) traces at ALL ranks; the complement operation C is an inner/gauge automorphism, not the golden Galois involution gamma_5.",
+    "why": "already the paper's central object fact",
+    "paper_location": "Section 'The chirality bit', paragraph 'The frame, and why the obvious one cannot work' ('Every symmetric power of an SL2 representation is self-dual...')",
+    "main_status": "absorbed into the record's standing 'theta is trivial on the character variety' fact well before the paper; rowed SCHEDULED in docs/HARVEST_LEDGER.md row 491 (bookkeeping only, content already elsewhere on main)",
+    "grade": "NO"
+  },
+  {
+    "source": "chat2 handoff, docs/handoffs/CHAT2_HANDOFF_2026-09-15_VERDICT.md",
+    "claim": "Under the subregular sl2 embedding, the 27 gives H^1 = 13+9+5 (three chiral-looking classes with no trivial summand, unlike the principal embedding); registered as the unearned input I-25, an 'escape hatch' chat-2 mistakenly believed closed.",
+    "why": "already consistent with, and superseded in strength by, the paper's own treatment of the same subregular V10 direction",
+    "paper_location": "Section 'The chirality bit', 'The index, and the two conjugations that kill it' paragraph ('the last flat direction the pairing law had left open... the net count of 27's is zero')",
+    "main_status": "I-25 registered OPEN on main (not closed, contra chat-2's original misreading); consistent with the paper's own framing of this direction as an open question with a prior against it",
+    "grade": "NO"
+  }
+]

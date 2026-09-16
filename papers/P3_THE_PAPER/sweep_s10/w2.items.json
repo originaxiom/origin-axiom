@@ -1,0 +1,82 @@
+[
+  {
+    "source": "docs/HARVEST_LEDGER.md row 460 (cloud memo 71); frontier/B1162_mssm_debt_closure/FINDINGS.md:31",
+    "claim": "The object's own carrier admits no supercharge (three exact negatives: no pi1-equivariant Q, no gauge-equivariant Q, the beat is even+semilinear not a supercharge) -- SUSY is provably not something the object can supply.",
+    "why": "i, iii",
+    "paper_location": "abstract ('the construction's own closing is supersymmetric...'); Section 'Recognition' (the SUSY-crossing bullet); Section 'The wall', 'The ledger in three columns', third column",
+    "main_status": "frontier/B1162_mssm_debt_closure/FINDINGS.md:31 (D5, graded CITED -- corroborated against B1147-B1150, not independently re-run end to end); reaffirmed unretracted in docs/views/VERDICT_LEDGER.md:1214 and docs/CAMPAIGN_STATUS.md:551-553",
+    "grade": "MUST"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md row 434 (cloud memo 45); frontier/B1148_carrier_harvest/FINDINGS.md:17",
+    "claim": "Under the Lorentz double the 27 and 78 (and their full tensor tower) are exactly integer-spin (all bi-weights even); the record's only half-integer object anywhere is the geometric holonomy's own C^2, on which the mirror acts semilinearly with square equal to the meridian, not +/-1.",
+    "why": "ii, iii",
+    "paper_location": "Section 'The chirality bit', scopenote 'Counts are counts' (the 'nowhere exhibited' disclaimer about transporting an index theorem to a 3-manifold with boundary); Section 'The wall', third column",
+    "main_status": "frontier/B1148_carrier_harvest/FINDINGS.md:17, b1148_results.json:14; certificate and output still present, no later arc supersedes it",
+    "grade": "SHOULD"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md row 467 (cloud memo 78); frontier/B1170_arena_rescope/FINDINGS.md:44-46",
+    "claim": "Within the in-frame anomaly system on an SM-shaped 15-plet, dropping the grav^2 Y condition degrades the forcing from the unique two-ray solution to 36 solutions plus 27-dimensional solution-planes, while the cubic [Y]^3 condition is redundant in-frame -- grav^2 Y is the load-bearing linear condition.",
+    "why": "iv",
+    "paper_location": "Section 'What is forced -- and by what', paragraph 'The forcing, explicitly' (the three linear conditions [SU(3)]^2 Y, [SU(2)]^2 Y, grav^2 Y)",
+    "main_status": "frontier/B1170_arena_rescope/FINDINGS.md:44 states 'In-derivation (cloud memo 78, STANDS)', explicitly affirmed even after B1170's own rescope of the surrounding claim",
+    "grade": "SHOULD"
+  },
+  {
+    "source": "docs/CAMPAIGN_STATUS.md:2839 (B1117, 'the adelic crossing packet'); docs/THE_SM_VERDICT.md:406",
+    "claim": "Vol(m004) = (3 sqrt3 / 2) L(chi_-3, 2) = 9 sqrt3 zeta_K(2) / pi^2 for K = Q(sqrt-3), verified to 32-50 digits by two independent routes.",
+    "why": "ii, vi",
+    "paper_location": "Section 'What is unique', paragraph 'An outside meeting point' (alongside the Lee mixed-Tate-motive citation)",
+    "main_status": "Banked docs/CAMPAIGN_STATUS.md:2837-2841; its surrounding physical interpretation (that the archimedean gravity sector IS the object's own gravity) was later refuted (docs/CAMPAIGN_STATUS.md:529, '§E identification hypothesis is refuted'), but the bare arithmetic identity is unaffected and stands",
+    "grade": "SHOULD (lower confidence -- possible literature redundancy with known Bianchi-orbifold volume formulas, not checked)"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md row 570 (cloud memo 194, outside_bench/memos/THE_BIT_ASKED.md); arc B1414",
+    "claim": "Amphichirality forces the Chern-Simons-mod-1/2 bit into A[2] = {0, 1/4} but not which element; across the one-cusped amphichiral census the split is 106 vs 75.",
+    "why": "iv",
+    "paper_location": "Section 'What is generic', paragraph 'The sibling is not the knot...' (the CS=0 vs 1/4 sentence) and/or the scopenote 'The three base rates that bound §chirality'",
+    "main_status": "Banked, outside_bench/memos/THE_BIT_ASKED.md, reader r6, B1414; no retraction found",
+    "grade": "SHOULD (weakest of the five)"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md rows 301-327 (cc3 B8128-B8154 block)",
+    "claim": "Various cc3 paper-seat items (genericity on the wins, breakdown counts, paper drafts I-IV, etc.)",
+    "why": "n/a",
+    "paper_location": "n/a",
+    "main_status": "These are bookkeeping about cc3's OWN structure-genesis paper drafts (a different paper), retired to archive/cc3-paper-lane@a31456d2; rows 627/628 explicitly state 'main's paper never carried that theorem -- nothing to port'",
+    "grade": "NO"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md rows 445-446, 452-458 (cloud memos DARK_LEDGER, FAMILY_ESCALATOR, SUPERPOSITION_SPEAKS, GAUDIN_CLOSE)",
+    "claim": "Dark-matter-candidate structure in the visible-sector portal; GUE spectral-statistics deviations survive theta-exact and local-empirical unfolding.",
+    "why": "n/a",
+    "paper_location": "n/a -- outside the paper's declared scope",
+    "main_status": "Banked on cloud/outside_bench; consistent with main's records but the paper makes no cosmological or spectral-statistics claims for these to bound",
+    "grade": "NO"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md row 471 (B1185) and its companion memo 53 (FAMILY_YUKAWA, B1150)",
+    "claim": "Every Yukawa matrix in a 'three-family channel' has rank exactly 2 (massless direction = the Higgs's own family); inside an E8 embedding the family-triplet coupling is epsilon_family tensor the Jordan cubic.",
+    "why": "n/a",
+    "paper_location": "n/a -- explicitly fenced as not about the object",
+    "main_status": "frontier/B1185_yukawa_three_mechanisms/FINDINGS.md INV-3: 'An identification would need the family index to be object-internal -- refuted'; the paper's own C35/C36 already disclaims exactly this reading",
+    "grade": "NO"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md rows 536-545 (audit seat R22-R31)",
+    "claim": "Extended anomaly-inflow / geometric-completion program (mass inflow, global mass flux, boundary wall, index stability, source action, defect gauge, resolved fermion, global Poisson wells; R31: three light Dirac pairs not unpaired generations).",
+    "why": "n/a",
+    "paper_location": "n/a -- already synthesized",
+    "main_status": "The paper's 'the closing that could carry the bit' paragraph already synthesizes this program's conclusion (three-apex design excluded, no eta-neutral Majorana mass, Dirac at up-quark scale) at the fenced level of detail the paper itself calls for ('a design verified step by step, not a theorem'); sub-results are RUN-GREEN/REGISTERED on the seat's own bench, not independently re-derived by main",
+    "grade": "NO"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md row 353 (B1195/B1200, E6_BOUNDARY.md)",
+    "claim": "An E6-lattice boundary CFT candidate is built: content {1, 27, 27bar}, level-1 coefficient 78 = dim(e6), c = 6 = 6 sigma at sigma=1.",
+    "why": "n/a",
+    "paper_location": "n/a -- consistent with existing text",
+    "main_status": "The memo's own fence states 'GC-12's exclusion stands, the bridge needs new mathematics, not retrieval' and 'modular S-matrix not computed' -- i.e. a candidate that was tried and excluded, consistent with the paper's own 'the current candidate set is empty' (sigma row)",
+    "grade": "NO"
+  }
+]

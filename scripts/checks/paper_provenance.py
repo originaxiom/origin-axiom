@@ -107,9 +107,25 @@ CLAIMS = [
  ("6",  "the index is non-zero in characteristic zero on reducible non-split modules of five members of the object's commensurability class and of its degree-4 cyclic cover t12839, and zero on the object's own golden reducible locus (235 modules); the class census (m202, s959, o10_150726 carry all four requirements, none a cover of m004)",
         ["B1418"], "settled"),
  ("6",  "the three base rates: 1696 of 5000 admit the 2T surjection (of the 112 family members 59 admit it, 35 do not, 18 not enumerated), 181 of 203123 one-cusped census manifolds are amphichiral, 20 of 212641 attain the count of three (2 of the first 4000; 3996 of 4000 carry the object's 4); the three-line class to nine tetrahedra has nine members, none keeping the golden face",
-        ["B1414", "B1416"], "settled"),
- ("6",  "the exact half of the closing design: the E7 apex local model's geometry (its count cited), the Z/3 = 2T/Q8 forcing b2 >= 2 for a symmetric triple, the Y3 breaking to SM x U(1)_eta by a Q8 line times an order-4 character (root-system facts), and the algebraic no-seesaw obstruction (equal eta charges on both charged singlets; no eta-neutral Majorana source in 27^3 or 78) -- the design itself and its exclusion are conditional, a design and not a theorem",
+        ["B1414"], "settled"),
+ ("6",  "the exact half of the closing design, and only that half: the E7 apex cone's geometry (its count cited), the Z/3 = 2T/Q8 forcing b2 >= 2 for a symmetric triple, the Y3 breaking to SM x U(1)_eta by a Q8 line times an order-4 character (root-system facts), and the algebraic no-seesaw obstruction (equal eta charges on both charged singlets; no eta-neutral Majorana source in 27^3 or 78); the design as a whole is not a claim of this paper",
         ["B1411", "B1414", "B1415", "B1418"], "settled"),
+ ("6",  "the object's carrier admits no supercharge (no pi_1-equivariant, no gauge-equivariant, the beat squares to the meridian): the closing's supersymmetry is the model's assumption",
+        ["B1162"], "computed"),
+ ("6",  "fork F9 is fragile past depth three: the three-record carrier m412 keeps Q(sqrt-3) and is chiral, at the price of the 2T door",
+        ["B1414"], "settled"),
+ ("6",  "the apex design's tree-level flavour: only 27_1 27_2 27_3 survives the apex U(1)^2, the mass matrices are hollow (sigma_1 = sigma_2 + sigma_3, against 273/50/17), the deck must be broken, and the U(1)^2-violating part is at least a third of the top Yukawa",
+        ["B1415"], "settled"),
+ ("6",  "Y_12's 768 one-triplet vacua (one vector-like generation, two Higgs doublets, no exotic triplet) and the theorem that none of Y_9's 706 464 SM lines splits the doublet from the triplet (w_D = -2 w_Q)",
+        ["B1303", "B1306"], "settled"),
+ ("6",  "the second expectation value lies on the pure-spinor cone of the 16 (stabiliser 34, toral rank 4; a generic spinor is fatal): two selections, booked as two",
+        ["B1092"], "settled"),
+ ("6",  "within the in-frame anomaly system the grav^2 Y condition is load-bearing (dropping it: 36 solutions plus solution planes) and the cubic is redundant",
+        ["B1170"], "computed"),
+ ("6",  "the tower's budget: at the chiral 5-cusped degree-10 cover the flat sl_3 deformation space has complex dimension 10 = k(n-1), twenty real parameters, all boundary data",
+        ["B1409"], "settled"),
+ ("6",  "under the Lorentz double the 27, the 78 and their tensor tower are integer-spin; the record's only half-integer object is the holonomy's C^2",
+        ["B1148"], "settled"),
  ("6",  "the mirror is swap times arrow on every knot complement; 66 of the 87 covers to degree 10 are chiral and keep the arithmetic",
         ["B1324"], "settled"),
  ("4",  "the manifold's intrinsic arithmetic forces exactly three quadratic faces, Q(sqrt-3), Q(sqrt5), Q(sqrt-15), and no closed filling in the |p|,q <= 8 grid keeps any of them",
@@ -258,7 +274,7 @@ Two kinds of backing appear, and we distinguish them rather than letting one pas
 \textbf{Settled} means the establishing result is itself closed --- proved, or a negative --- and
 the claim rides on that. \textbf{Computed} means the establishing work sits inside an enquiry whose
 \emph{own} wider question remains open, while the specific computation the claim uses was
-re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled. ``Settled'' follows the record's own grading, which admits high-precision numerical certificates with stated
+re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled. Two limits of this table are stated rather than left to be found. The locks are the record's own test suite, not a third party's, and the suite has certified a claim later withdrawn: the record's retractions index holds twenty-seven corrected or withdrawn statements against about thirteen hundred banked arcs, one of them a claim of this paper's own earlier draft (the family-wide amphichirality), and the sweep that catches a live citation of any retracted statement runs at every landing and reports zero for this text. And a row marked settled is settled in the record's grading, which a reader can audit only by re-running the named lock; the appendix gives the command, and the package that ships with the paper runs every lock it names. ``Settled'' follows the record's own grading, which admits high-precision numerical certificates with stated
 precision and controls; it is not a claim of formal proof, and the establishing record states which kind it is.
 
 Every row is covered by an automated check that runs with the rest of the test suite, and the table

@@ -1,0 +1,34 @@
+[
+  {
+    "source": "docs/HARVEST_LEDGER.md:111 (row 79); frontier/B1302_the_one_triplet_vacua/FINDINGS.md; docs/OPEN_LEADS.md L203 (2402-2407)",
+    "claim": "On 768 of the twelfth closing Y_12's 34,752 Standard-Model lines, a tree-level flat direction leaves exactly one light colour-triplet pair (the light generation's own d^c) and its three light doublet pairs -- one vector-like generation with two Higgs doublets and no exotic colour triplet at all -- sharper than the generic 'thins to one copy on 31,488 of 34,752 lines' already in the paper.",
+    "why": "(vi) a positive result the paper's chirality section should carry, as a sharpening of a sentence it already states",
+    "paper_location": "Section 'The chirality bit', paragraph 'The closings carry three structural copies of the Standard-Model content, in mirror pairs' -- sentence 'the twelfth is a second such closing, on which the colour triplet thins to one copy on 31,488 of its 34,752 Standard-Model lines'",
+    "main_status": "REGISTERED on L203 (not promoted to settled/re-derived theorem); scripts re-run with receipts (one_triplet_vacua.py, selection_768.py, structure_of_the_768.py); the 34,752/31,488 figures independently re-derived in B1305(A); the 768-line census itself not independently re-derived on main's own bench",
+    "grade": "SHOULD"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md rows 36, 37, 82, 86, 88; docs/PRIOR_ART_DOSSIER_ENTRANCE_AND_EXIT.md Entry 5",
+    "claim": "An independent published 2019 programme (Asselmeyer-Maluga, arXiv:1910.09966) also derives fermion structure from hyperbolic-knot-complement geometry, names the figure-eight complement as its arithmetic example, cites Maclachlan-Reid, and carries its own numerical claims (Omega_Lambda, Higgs mass, neutrino see-saw).",
+    "why": "candidate for a Recognition-section/bibliography citation gap (nearest adjacent published construction)",
+    "paper_location": "Section 'Recognition' or the bibliography, alongside the classical citations already listed",
+    "main_status": "REGISTERED as KNOWN-ADJACENT in docs/PRIOR_ART_DOSSIER_ENTRANCE_AND_EXIT.md; not verified as methodologically overlapping",
+    "grade": "NO"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md row 97",
+    "claim": "The Fricke commutator-trace discriminant kappa(A,M) = tr[A,M]-2 used in 'The observer, priced' is Goldman's Poisson-central function on the character variety, also independently named by Baake-Roberts.",
+    "why": "candidate citation gap -- the bibliography has no Goldman or Baake-Roberts entry for an invariant central to the observer-pricing argument",
+    "paper_location": "Section 'The observer, priced', paragraph 'The criterion is classical, and we decline the coincidence'",
+    "main_status": "no re-derivation on main crediting these specific literature names; the paper already states kappa's genericity in its own words",
+    "grade": "NO"
+  },
+  {
+    "source": "docs/HARVEST_LEDGER.md rows 40, 73; audit PARTIAL_FILLING.md (memo 170)",
+    "claim": "An explicit partially-filled cover (Chern-Simons = +0.157590041, 2 cusps remaining) is a verified, three-bench-confirmed instance pricing the 'family, VEV, filling' freedom-ledger row at three discrete choices on top of I-26.",
+    "why": "candidate concrete witness for a freedom-ledger row's closure",
+    "paper_location": "Section 'The freedom ledger', row 'family, VEV, filling' ('Closed, in the only available form...')",
+    "main_status": "the row is already closed in the paper at the level of generality stated; the witness is supporting computation, not a distinct claim",
+    "grade": "NO"
+  }
+]

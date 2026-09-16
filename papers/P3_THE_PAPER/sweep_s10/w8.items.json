@@ -1,0 +1,114 @@
+[
+  {
+    "source": "frontier/B1409_the_tower_budget/arc_verdict.json (PROVED)",
+    "claim": "At the chiral 5-cusped degree-10 cover L14n63694, dim_C H^1(pi_1,sl_3) = k(n-1) = 10 (20 real parameters), verifying Menal-Ferrer-Porti's dimension formula on the object's own tower for the first time; the restriction map to the boundary is injective (Lagrangian image), so all 20 parameters are cusp/boundary data with zero interior moduli.",
+    "why": "(iv) quantifies/bounds the residue the paper's freedom ledger and observer section discuss only qualitatively; (vi) a positive structural result not stated in the paper.",
+    "paper_location": "sec:observer (\"The observer, priced\") / sec:ledger (\"The freedom ledger\"), near the \"which member\" paragraph and the discrete-ledger discussion of family/VEV/filling as finite menus.",
+    "main_status": "docs/PRICED_DOORS.md:327 -- fenced as an accounting closure, k(n-1) verified at n=2,3,4, entirely boundary data with no selector (L219). Not retracted, not superseded, not yet routed to the paper.",
+    "grade": "SHOULD"
+  },
+  {
+    "source": "frontier/B1341_the_action_of_the_object/arc_verdict.json (PROVED), narrowed by ADDENDUM_2026-09-15_R28_SCOPE.md",
+    "claim": "A discrete Lagrangian preserves an area form, so the genesis's un-squared half-step (det -1) has no autonomous same-state discrete Lagrangian while the squared monodromy (det +1) does -- a third reason the squaring is forced. Addendum: the audit lane's R28 exhibits a time-dependent Lagrangian generating the half-step, so the unscoped ('no action at all') reading is false.",
+    "why": "(i) would bear on the Non-claim 'that any dynamics, rate, or action is supplied' and the orientation-axiom paragraph, if true at the stated generality.",
+    "paper_location": "sec:axioms (the orientation fork) and the Non-claims list.",
+    "main_status": "docs/CAMPAIGN_STATUS.md line 21 and the arc's own addendum: narrowed to autonomous same-state Lagrangians by R28's counterexample; addendum states verbatim 'The paper does not carry the unscoped form.'",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1333_the_index_on_several_cusps/ (PROVED, 38070 sectors, cross-validated against B1332)",
+    "claim": "The index on several boundary tori is derived and evaluated zero on all 54 multi-cusped chiral covers to degree ten.",
+    "why": "Candidate MUST: the paper hedges this exact result as 'a run whose scripts are not yet reproducible from a clean checkout' which looks weaker than the arc's own PROVED verdict.",
+    "paper_location": "sec:chirality, 'The tower does not inherit the amphichirality' paragraph.",
+    "main_status": "docs/ERROR_LEDGER.md class E80 (minted 2026-09-14): 15 verification scripts read an absolute /tmp/sweep path and cannot be re-run from a clean checkout; verification/bootstrap.py's own docstring says it recovers only 30 of 32 covers and does not invoke the fallback needed for the full 54 -- the defect is still live.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1336_the_surviving_gauge_group/arc_verdict.json (NEGATIVE)",
+    "claim": "For any H with 2T <= H <= the principal SL(2), the centraliser Z(H) is abelian of dimension <= 4, so no flat E6 connection on the cusped object can leave the (non-abelian, dim 12) Standard-Model algebra unbroken.",
+    "why": "Could sharpen the chirality-section scopenote that reading h^1 as generations is not earned, with an explicit mechanism.",
+    "paper_location": "sec:chirality, 'Counts are counts' scopenote.",
+    "main_status": "the arc's own scope note: constrains the flat-connection route only; the paper's SM algebra comes from the ninth closing Y_9, a closed manifold, which the arc does not touch.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1329, B1330, B1331, B1332, B1334, B1335 (chirality-index cup-product / isotropy / deformation-proof cluster)",
+    "claim": "Extensive work narrowing why the geometric one-cusped index vanishes: isotropy of L_V, a deformation proof valid only when dim S^0>0, a no-go showing that case never occurs one-cusped, a form-free cup-product reformulation, best-case objects computed to zero.",
+    "why": "Could be read as needing separate citation beyond the paper's 'conjecture that evidence supports' language.",
+    "paper_location": "sec:chirality, 'The index, and the two conjugations that kill it' paragraph.",
+    "main_status": "superseded for the paper's purposes by the general Menal-Ferrer-Porti injectivity theorem (verified as R27, frontier/B1413), already cited in the paper making every geometric-holonomy sector vanish identically; residual open status already stated as a conjecture.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1297_the_spectral_cover_index/ADDENDUM_2026-09-16_live_positive_on_the_class.md and frontier/B1418_the_family_as_the_object/",
+    "claim": "The index fires (I=+-1, semisimplification 0) on five commensurability-class members and on t12839 (m004's degree-4 cyclic cover); zero on m004's own golden reducible locus (235 modules).",
+    "why": "Positive result category (vi).",
+    "paper_location": "sec:chirality, 'The index, and the two conjugations that kill it' paragraph.",
+    "main_status": "already verbatim in the paper, including manifold names, module count, and semisimplification qualifier.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1321_l205_the_siblings_localized_count/ADDENDUM_2026-09-16_nine_members.md",
+    "claim": "The three-line class to nine tetrahedra has nine members, not six (E81); twenty to ten tetrahedra; none keeps the golden face.",
+    "why": "Corrects a number (v).",
+    "paper_location": "sec:chirality, 'What the object counts' paragraph.",
+    "main_status": "already verbatim in the paper.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1291_the_parity_of_the_cusp/ADDENDUM_2026-09-16_region_swap_lemma.md and frontier/B1417_the_region_swap_lemma/",
+    "claim": "The region-swap lemma for theta-odd cusp fields; the product mode's +-4 is an undefined (non-transverse) count.",
+    "why": "Input the chain uses (ii).",
+    "paper_location": "sec:chirality index paragraph and provenance appendix table.",
+    "main_status": "already verbatim in the paper and the appendix table.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1077_intrinsic_split/ADDENDUM_2026-09-16_6D4.md and frontier/B882_magic_square_naming/ADDENDUM_2026-09-16_two_readings.md",
+    "claim": "The trialitarian form is type 6D4 over Q (not 3D4); 3D4 only over Q(sqrt77), since the cubic Q[x]/(x^3-12x-5) has Galois group S3.",
+    "why": "Corrects a number/type (v).",
+    "paper_location": "sec:recognition, Kac/Knus-Tignol bullet.",
+    "main_status": "already verbatim in the paper.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1404_the_family_has_a_name/ (PROVED)",
+    "claim": "Minsky's classification names the object's family (free two-generator Kleinian groups with parabolic commutator); m004's knot group itself does not qualify, the fibre group does.",
+    "why": "Input the chain uses (ii).",
+    "paper_location": "sec:recognition, Minsky bullet.",
+    "main_status": "already cited in the paper with the same qualification.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1348_the_listener_map_posed, B1349_the_mirror_sector_posed, B1400-B1408 (kind-table / mirror-sector / value-crossing campaign)",
+    "claim": "Various coupling-kind pricing, mirror-sector closure, precision-requirement results, all self-fenced as reaching no CLAIMS.md/F2/Gate5 promotion and comparing no value to any measurement.",
+    "why": "Explicitly excluded category per the sweep brief (values numerology).",
+    "paper_location": "n/a",
+    "main_status": "self-fenced negative/inconclusive throughout; consistent with the paper's own withheld-values sections.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1411-B1417 (harvest/verification arcs)",
+    "claim": "Reconciliation of seat branches (SM seat v10 and closing arcs, relay backlog, audit lane R21-R31, outside bench memos, relay residue, region-swap lemma).",
+    "why": "Could carry unintegrated positive content.",
+    "paper_location": "various",
+    "main_status": "positive content already itemised above as already-in-the-paper; residual open items are bookkeeping about other seats.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1325-B1328 (codex harvest gap, stale-claim gate, relation-not-observer, extension-over-the-parent)",
+    "claim": "B1326 widens the retraction-sweep gate to .tex; B1327 proposes retyping ledger rows (observer -> relation), OPEN/speculative; B1328 proves the extension-over-m000 mechanism fixes one central Z/2 in three instances.",
+    "why": "B1328's mechanism could be cited for the spin-lift row.",
+    "paper_location": "sec:ledger, the spin lift row.",
+    "main_status": "B1327's retyping is not adopted (OPEN, candidate only); B1328's mechanism is already reflected in the paper's spin-lift ledger row almost word for word.",
+    "grade": "NO"
+  },
+  {
+    "source": "frontier/B1338-B1340, B1342-B1349 (anti-rediscovery instrument, consolidation adoption, Z' anomaly pricing, ADE-face derivations, kappa-strata dynamics, Jorgensen number, listener/mirror-sector)",
+    "claim": "Mixed process/tooling and a separate research thread (End(F2) monoid strata, ADE-face derivations) plus the Jorgensen-number re-derivation.",
+    "why": "Checked whether any physics-facing content was left out.",
+    "paper_location": "n/a / sec:observer (Jorgensen number already cited)",
+    "main_status": "process arcs carry no paper-facing content; the separate research thread self-reports 'no physics reading is licensed and no claim is promoted'; the Jorgensen-number result is already cited in the paper.",
+    "grade": "NO"
+  }
+]
