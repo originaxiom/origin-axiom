@@ -4208,10 +4208,12 @@
    "slug": "family is 112",
    "motifs": [
     "measurement",
+    "closing",
     "naming",
     "figure_eight",
     "eisenstein",
     "amphichiral_cp",
+    "symplectic",
     "firewall"
    ],
    "refs": [
@@ -4220,7 +4222,7 @@
    "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "dead",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B1187": {
    "slug": "depth closure",
@@ -6748,6 +6750,7 @@
     "trace_map",
     "dickson_tower",
     "eisenstein",
+    "z3_generation",
     "symplectic"
    ],
    "refs": [
@@ -7155,7 +7158,8 @@
     "metallic",
     "golden",
     "z3_generation",
-    "amphichiral_cp"
+    "amphichiral_cp",
+    "symplectic"
    ],
    "refs": [],
    "obstacle": "particle_dict",
@@ -7538,6 +7542,27 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 14,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1369": {
+   "slug": "the siblings in the sm frame",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "symplectic",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 27,
    "status": "banked",
    "domain": "arithmetic"
   },

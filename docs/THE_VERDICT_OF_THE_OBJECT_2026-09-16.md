@@ -83,6 +83,14 @@ class census, the reducible-locus index, the sibling and tower relations, and th
 3. **The verdict of the family**: either a member on which both halves of a generation can be chiral with the Standard Model unbroken —
    the first configuration in the record where the Standard Model and chirality coexist — or the closure of the family in this frame.
 
+**Status (B1369, the same day).** Items 1–3 answered on 108 of the 112 members. The multi-cusp form of B1368's theorem — a chiral
+generation from bulk matter needs a *free cusp*, one whose peripheral image in H₁(M; ℚ) has rank below b₁ — closes 77 members by
+homology alone, the two-cusped siblings among them (both peripheral subgroups of m202 have index 7 in H₁ = ℤ²: every cusp-fixed
+spin-0 sector has χ⁷ = 1, and the spin-½ half is cusp-fixed only unitarily). On the 35 members with a free cusp the region-swap
+parity, run with the isometries' exact action on H₁, closes 79 of the 83 free cusps. Four cusps on four members remain — o10_150688,
+o10_150708, o10_150716, o10_150725 — each with a unique shortest cusp mode; their partitions are the residual of sL-1
+(`frontier/B1369_the_siblings_in_the_sm_frame`).
+
 ## 7. Pointers
 
 `docs/THE_CLOSING_2026-09-15.md` (the design and its exclusions, §6.8–6.12) · `docs/CHIRALITY_MAP_2026-09-06.md` (§6n–6r) ·

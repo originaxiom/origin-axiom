@@ -36,6 +36,10 @@ an SL(2)_β-spin, spin-0 sectors carry no chiral index, and for the geometric re
 sectors as well. The E₆ route from m004 has no chirality mechanism compatible with the Standard Model in any frame the record has.
 The capstone of this route, with the mandate that follows it, is `docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md`.
 
+And the family, asked the same question the same day (B1369, §6.13): a chiral generation from bulk matter needs a free cusp, and 77 of
+the 112 members have none — the two-cusped siblings among them; parity closes 79 of the 83 free cusps of the other 35; four cusps on four
+members remain, the residual of sL-1.
+
 ## 1. The ledger
 
 | statement | status | where |
@@ -59,6 +63,7 @@ The capstone of this route, with the mandate that follows it, is `docs/THE_VERDI
 | The Standard Model embeds in E₆ once up to conjugacy (120 A₂'s in one Weyl orbit; 720 commuting (A₂, A₁) pairs in one orbit; three hypercharges permuted by su(3)_R); in every reading the 27's two SM singlets are an SU(2)_β doublet with equal U(1)′ charge and the 78's are neutral: the sign theorem and both exclusions are E₆'s | PROVED (root system, exact) | B1366 |
 | With E₆-symmetric couplings among any number of 27s the up-Higgs doublets and the exotic triplets are paired by the same generation matrix (N: H_u–H_d and D–D̄; ν^c: L–H_u and D–d^c), so every vacuum with a light Higgs has a light D (9 300 configurations, no exception) and proton decay; only E₆-breaking on the matter splits them, which point-localised 27s never see: every apex design excluded, L216 the one door | NEGATIVE (the apex route) + PROVED (the identity) | B1367 |
 | Every SM-unbroken flat E₆(ℂ) connection of m004 has its non-abelian part in SL(2)_β; spin-0 sectors carry no index; the 10 and the 5̄ of SU(5) never share a spin (27: 10 spin 0; 78: 5̄ spin 0); for the geometric representation Calegari's −2 kills the spin-½ sectors too; twisted cohomology golden (z² − 3z + 1, z² − 4z + 1), massless charged pairs vector-like; eight λ-parabolic points (dihedral unitary, golden reducible) | NEGATIVE (L216 in the seat's frame) + PROVED (exact) | B1368 |
+| The family in the Standard-Model frame: a chiral generation from bulk matter needs a free cusp (rank P_c < b₁); 77 of 112 members have none (m202, s959 among them); parity with the isometries' exact action on H₁ closes 79 of the 83 free cusps; four cusps on four members remain, each with a unique shortest cusp mode | NEGATIVE on 108 of 112 + PROVED + OPEN on four cusps | B1369 |
 | The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
 | AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1 | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
 | Its topology: singular set the E₆ locus and the apex only; b₂(link) = 1; the E₆ link pairs non-trivially with the generator (the inflow applies) | PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones) | B1360 |
@@ -186,6 +191,16 @@ those local models on a circle — vector-like.
    non-unitary roots, vector-like, with a doublet–triplet split available (B1302's mechanism on m004 itself). With B1351 (closed
    closings vector-like) and B1367 (points cannot split), the E₆ route from the object has no chirality mechanism compatible with the
    Standard Model in any frame the record has; the disc-convention question (R23) is the physical-bridge lane's.
+
+13. **The family in the Standard-Model frame (B1369, 2026-09-16): 108 of 112 members closed.** B1368's theorem in its multi-cusp
+   form: a spin-0 sector cusp-fixed on a cusp whose peripheral image has full rank in H₁(M; ℚ) is a character of finite order —
+   unitary, no Higgs field, no index — so a chiral generation from bulk matter with the Standard Model unbroken needs a *free cusp*.
+   77 of B1186's 112 members have none, the two-cusped siblings m202 and s959 among them (index-7 peripheral subgroups; the count
+   of three lives on them, but not as chirality in this frame). On the 35 members with a free cusp the region-swap parity — fc R71's
+   lemma in its general form, with the isometries' exact action on H₁ computed from the canonical retriangulation — closes 79 of the
+   83 free cusps, four of them by orientation-reversing isometries. Four cusps on four members (o10_150688, o10_150708, o10_150716,
+   o10_150725) remain, each with a unique shortest cusp mode: the partition of a harmonic form's leading cusp mode, not in the
+   record, decides them. The seat's mandate stands on that residual.
 
 ## 7. The three faces, once more
 

@@ -2789,3 +2789,15 @@ compensated by the character; (iii) whether a 10 and a 5̄ can both be cusp-fixe
 parity of the partitions from the isometries' action on the cusps (B1291's parity theorem, B1417's region-swap lemma), and the partition
 itself where parity is silent; (v) the same for every two-cusped member of B1186's family. Complementary to main's B1418, not a
 duplicate of its cells. `docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md` §6.
+
+**Status (2026-09-16, B1369): closed on 108 of the 112 members; open on four cusps.** The multi-cusp form of B1368's theorem: a
+spin-0 sector cusp-fixed on a cusp of full peripheral rank has a character of finite order — unitary, no Higgs field, no index — so a
+chiral generation from bulk matter with the Standard Model unbroken needs a **free cusp** (rank P_c < b₁). 77 members have none
+(all 54 one-cusped members with b₁ = 1; 23 multi-cusped members with every peripheral rank equal to b₁, m202 and s959 among them —
+items (i)–(iii) and (v) answered: on the siblings a cusp-fixed sector is of finite order, the spin-½ half is cusp-fixed only unitarily).
+On the 35 members with a free cusp (83 cusps), the region-swap parity with the isometries' exact action on H₁ (the canonical
+retriangulation's automorphisms, a new instrument; fc R71's lemma in its general form, the torus action arbitrary) closes 79 cusps —
+item (iv). **Residual:** o10_150688, o10_150708 (cusp 0), o10_150716, o10_150725 (cusp 1), where every isometry fixing the cusp acts
+by +1 on a free class; each cusp lattice has a unique shortest dual vector, so the partition is annular unless the harmonic form's
+leading coefficient vanishes — the harmonic form's cusp expansion (or the isometries' affine torus action) decides, and neither is in
+the record. `frontier/B1369_the_siblings_in_the_sm_frame`.

@@ -75,3 +75,8 @@ the cusp torus with a transverse zero set, χ(∂⁺M) = χ(∂⁻M) = 0 whichev
 mode sin(4πx)·cos(2πy) giving ±4 — is a non-transverse zero set with eight crossings, where ∂⁺M is not a surface and χ is undefined, not
 non-zero; adding 0.05 of a generic odd mode resolves the crossings and gives 0 and 0. The lemma needs transverse zeros, not a
 fixed-point-free involution. `frontier/B1417_the_region_swap_lemma` on main.)*
+
+*(Currency 2026-09-16, B1369: §2D's region-swap theorem in its general form — the hypothesis σ = −1 on the torus is not needed; any
+isometry fixing the cusp and acting by −1 on the free classes ann(P_c) gives F∘σ = −F for the leading cusp mode and swaps the regions,
+whatever its torus action. Used on the figure-eight family with the isometries' exact action on H₁: 79 of 83 free cusps closed, four of
+them only by orientation-reversing isometries. `frontier/B1369_the_siblings_in_the_sm_frame`.)*

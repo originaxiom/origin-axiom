@@ -469,3 +469,8 @@ proton decay; the rows' owner becomes chiral bulk matter on the cusped object (L
 spin-0 sectors carry no chiral index and the 10 and the 5̄ never share a spin, so no flat connection gives a chiral generation from bulk
 matter; for the geometric representation Calegari's trace −2 closes the spin-½ sectors as well. The E₆ route from the object has no
 chirality mechanism compatible with the Standard Model in any frame the record has. Rows unchanged in count: 0 of 19.
+
+*Addendum (2026-09-16, B1369):* rows A/C — the family asked the same question: a chiral generation from bulk matter with the Standard
+Model unbroken needs a free cusp (a cusp whose peripheral image has rank below b₁), which 77 of the 112 members lack (m202 and s959
+among them); on the 35 that have one, parity with the isometries' exact action on H₁ closes 79 of the 83 free cusps; four cusps on
+four members remain. Rows unchanged in count: 0 of 19.

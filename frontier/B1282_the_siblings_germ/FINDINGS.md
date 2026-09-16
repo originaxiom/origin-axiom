@@ -117,3 +117,8 @@ involutions act with the same eigenvalue. Registered as **E70** in `docs/ERROR_L
 on: B1280 (the theorem and the six signs), B1281 (m202 on this branch; main's B1291/B1292; fc's R72/R72b), B1279 (the
 automorphism search), B1268 (the lemma; its two-cusped form holds by the same Poincaré–Lefschetz argument). Literature:
 Menal-Ferrer–Porti (h¹(M; Sym^{2k}) = the number of cusps); Cartan's linearisation. Registers no identification change.
+
+*(Currency 2026-09-16, B1369: m202 in the Standard-Model frame — both peripheral subgroups have index 7 in H₁ = ℤ² (P₀ + P₁ = H₁), so
+every cusp-fixed spin-0 sector has χ⁷ = 1 and the spin-½ half is cusp-fixed with the Standard Model unbroken only by finite-order
+characters; no free cusp, no chiral generation from bulk matter for any flat connection. The twelve isometries (D₆: six swap the cusps,
+two are the order-3 rotation) are recorded there. `frontier/B1369_the_siblings_in_the_sm_frame`.)*

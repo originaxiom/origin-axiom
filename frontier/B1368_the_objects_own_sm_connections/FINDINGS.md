@@ -105,3 +105,10 @@ decomposition, the unique embedding, the pincer), B1267/B1269 (the presentation,
 transport), B1302 (the line splits on bulk matter). Calegari, *Real places and torus bundles* (2006) for the longitude's trace −2;
 Riley for the normal form; Wada for the twisted Alexander polynomial; Dunfield–Friedl–Jackson for the hyperbolic torsion polynomial of
 4₁ (t² − 4t + 1); Pantev–Wijnholt 2009 and BCHS 2018 as in B1351.
+
+*(Currency 2026-09-16, B1369: the theorems in their multi-cusp form. On a member with several cusps a spin-0 sector cusp-fixed on
+cusp c is a character trivial on P_c, of finite order whenever the peripheral image has full rank in H₁(M; ℚ) — so the condition
+"cusp-fixed only when trivial" becomes "cusp-fixed only with finite order unless the cusp is free (rank P_c < b₁)". The family census:
+77 of 112 members without a free cusp, m202 and s959 among them; parity closes 79 of the other 35 members' 83 free cusps; four cusps
+remain. The spin-½ analysis of §2 (i) reads on a member with a non-null-homologous longitude as a sign character on the peripheral
+subgroup, compensable by χ_w, which forces |χ_w| = 1 on P_c: the same free-cusp condition. `frontier/B1369_the_siblings_in_the_sm_frame`.)*

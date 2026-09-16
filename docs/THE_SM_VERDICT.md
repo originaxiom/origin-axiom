@@ -519,3 +519,12 @@ left it.
 > polynomial of 4₁) and its massless charged pairs are vector-like at those roots. With B1351 and B1367 the E₆ route from m004 has no
 > chirality mechanism compatible with the Standard Model in any frame the record has; the disc conventions (R23) remain the bridge
 > lane's. 0 of 19 (`frontier/B1368_the_objects_own_sm_connections`).
+
+> **Currency note (2026-09-16, B1369): the family in the Standard-Model frame — 108 of 112 members closed.** B1368's theorem in its
+> multi-cusp form: a spin-0 sector cusp-fixed on a cusp of full peripheral rank has a character of finite order, no Higgs field and no
+> index, so a chiral generation from bulk matter with the Standard Model unbroken needs a free cusp (rank P_c < b₁). 77 members have
+> none — all 54 one-cusped members with b₁ = 1 and 23 multi-cusped members with full peripheral ranks, m202 and s959 among them. On
+> the 35 members with a free cusp the region-swap parity, run with the isometries' exact action on H₁ (the canonical retriangulation's
+> automorphisms; fc R71's lemma with the torus action general), closes 79 of the 83 free cusps. Four cusps on four members remain
+> (o10_150688, o10_150708, o10_150716, o10_150725), each with a unique shortest cusp mode; their partitions are the residual of sL-1.
+> 0 of 19 (`frontier/B1369_the_siblings_in_the_sm_frame`).

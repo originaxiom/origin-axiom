@@ -79,3 +79,12 @@ escalation are the proof).
   of flat SU(2) connections). Reusable beyond their arcs: the Fox-calculus instrument computes the bulk zero modes of any flat
   connection on any 3-manifold given by a finite presentation, and the torsion census classifies every finite-order element of a
   named subtorus by the roots it kills.
+- **B1369 (2026-09-16, the SM seat)** — `frontier/B1369_the_siblings_in_the_sm_frame/verification/family_isometries.py`: **the
+  isometries of a cusped hyperbolic 3-manifold with their exact action on H₁(M; ℚ)**, on every cusp's peripheral subspace and its
+  annihilator, and on the cusp tori — SnapPy's canonical retriangulation (Epstein–Penner, an isometry invariant) with t3mlite's
+  combinatorial automorphisms as signed permutations of the dual 2-complex's cells (tetrahedra, faces, edges), the peripheral
+  subspaces from the link graphs' cycle spaces, the cusp tori as those cycle spaces modulo the loops around the link vertices;
+  self-tested by ∂∂ = 0, the chain-map identity, |Aut| = |Isom|, b₁ and the peripheral ranks against SnapPy's fundamental group, and
+  the torus actions against SnapPy's cusp maps. It answers what SnapPy's cusp maps cannot when the peripheral classes do not span
+  H₁ (ten of the family's free cusps). `siblings_in_the_sm_frame.py` around it: the free-cusp census of a family and the region-swap
+  parity per free cusp.

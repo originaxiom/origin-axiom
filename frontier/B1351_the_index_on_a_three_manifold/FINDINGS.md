@@ -70,3 +70,8 @@ conventions. The bound of §2(ii) and the placement of §2(iii) are read with th
 (fc R71's region-swap instrument, a direct computation), and B1356–B1359 do not use (ii).)*
 
 *(Currency 2026-09-16, B1368: the escape of §2(ii), asked for Standard-Model-reaching connections of the object: closed. Such a connection has its non-abelian part in SL(2)_β; spin-0 sectors are cusp-fixed only when trivial; the 10 and the 5̄ of SU(5) never share a spin; and for the geometric representation the longitude's trace −2 (Calegari, computed exactly) leaves no cusp-fixed spin-½ sector — the only cusp-fixed non-trivial sector is the neutral SL(2)_β adjoint. The eight λ-parabolic points (the SU(2) dihedral representations and the golden reducible points) are where half a generation could be cusp-fixed at most. `frontier/B1368_the_objects_own_sm_connections`.)*
+
+*(Currency 2026-09-16, B1369: §2 (ii) on a member of the family with several cusps — a cusp-fixed spin-0 weight on a cusp of full
+peripheral rank has a character of finite order and no Higgs field, so the bound is attained only on a free cusp (rank P_c < b₁);
+77 of the family's 112 members have none, parity closes 79 of the other 83 free cusps, four remain.
+`frontier/B1369_the_siblings_in_the_sm_frame`.)*

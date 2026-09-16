@@ -1,0 +1,383 @@
+=== (A) the family: 112 members (B1186; 77 regular-tetrahedral) ===
+  cusp counts: {1: 60, 2: 38, 3: 10, 4: 3, 5: 1}
+  free cusps -- peripheral image of rank < b_1 in H_1 (x) Q, the only cusps that can host a non-unitary cusp-fixed spin-0 sector: 83 cusps on 35 members
+    m412       cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    m412       cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    t06828     cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z + Z)
+    o10_150684 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/3 + Z + Z)
+    o10_150684 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/3 + Z + Z)
+    o10_150685 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150685 cusp 1: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150685 cusp 2: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150687 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150687 cusp 1: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150687 cusp 2: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150688 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/3 + Z + Z)
+    o10_150689 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/3 + Z + Z)
+    o10_150689 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/3 + Z + Z)
+    o10_150690 cusp 0: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150690 cusp 1: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150690 cusp 2: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150690 cusp 3: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150691 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150691 cusp 1: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150692 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/3 + Z + Z)
+    o10_150692 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/3 + Z + Z)
+    o10_150693 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/4 + Z + Z)
+    o10_150693 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/4 + Z + Z)
+    o10_150702 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150702 cusp 1: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150702 cusp 2: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150704 cusp 0: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150704 cusp 1: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150704 cusp 2: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150704 cusp 3: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150705 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z/2 + Z + Z)
+    o10_150705 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z/2 + Z + Z)
+    o10_150706 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z/2 + Z + Z)
+    o10_150706 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z/2 + Z + Z)
+    o10_150708 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    o10_150708 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    o10_150710 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    o10_150710 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    o10_150711 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    o10_150711 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    o10_150712 cusp 0: peripheral rank 1 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150712 cusp 1: peripheral rank 1 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150713 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z + Z)
+    o10_150714 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z + Z)
+    o10_150715 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    o10_150715 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z + Z)
+    o10_150716 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z + Z)
+    o10_150717 cusp 0: peripheral rank 1 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150717 cusp 1: peripheral rank 1 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150717 cusp 2: peripheral rank 1 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150718 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150718 cusp 1: peripheral rank 1 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150718 cusp 2: peripheral rank 2 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150719 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z/4 + Z + Z)
+    o10_150719 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/2 + Z/4 + Z + Z)
+    o10_150720 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150720 cusp 1: peripheral rank 2 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150720 cusp 2: peripheral rank 1 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150721 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150721 cusp 1: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150721 cusp 2: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150722 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150722 cusp 1: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150722 cusp 2: peripheral rank 2 < b_1 = 3 (H_1 = Z + Z + Z)
+    o10_150723 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/6 + Z + Z)
+    o10_150723 cusp 1: peripheral rank 1 < b_1 = 2 (H_1 = Z/6 + Z + Z)
+    o10_150724 cusp 0: peripheral rank 1 < b_1 = 2 (H_1 = Z/3 + Z + Z)
+    o10_150725 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z/3 + Z + Z + Z)
+    o10_150725 cusp 1: peripheral rank 1 < b_1 = 3 (H_1 = Z/3 + Z + Z + Z)
+    o10_150725 cusp 2: peripheral rank 2 < b_1 = 3 (H_1 = Z/3 + Z + Z + Z)
+    o10_150727 cusp 0: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150727 cusp 1: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150727 cusp 2: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150727 cusp 3: peripheral rank 2 < b_1 = 4 (H_1 = Z + Z + Z + Z)
+    o10_150728 cusp 0: peripheral rank 2 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150728 cusp 1: peripheral rank 2 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150728 cusp 2: peripheral rank 2 < b_1 = 3 (H_1 = Z/2 + Z + Z + Z)
+    o10_150729 cusp 0: peripheral rank 2 < b_1 = 5 (H_1 = Z + Z + Z + Z + Z)
+    o10_150729 cusp 1: peripheral rank 2 < b_1 = 5 (H_1 = Z + Z + Z + Z + Z)
+    o10_150729 cusp 2: peripheral rank 2 < b_1 = 5 (H_1 = Z + Z + Z + Z + Z)
+    o10_150729 cusp 3: peripheral rank 2 < b_1 = 5 (H_1 = Z + Z + Z + Z + Z)
+    o10_150729 cusp 4: peripheral rank 2 < b_1 = 5 (H_1 = Z + Z + Z + Z + Z)
+  candidate members (a free cusp exists): ['m412', 'o10_150684', 'o10_150685', 'o10_150687', 'o10_150688', 'o10_150689', 'o10_150690', 'o10_150691', 'o10_150692', 'o10_150693', 'o10_150702', 'o10_150704', 'o10_150705', 'o10_150706', 'o10_150708', 'o10_150710', 'o10_150711', 'o10_150712', 'o10_150713', 'o10_150714', 'o10_150715', 'o10_150716', 'o10_150717', 'o10_150718', 'o10_150719', 'o10_150720', 'o10_150721', 'o10_150722', 'o10_150723', 'o10_150724', 'o10_150725', 'o10_150727', 'o10_150728', 'o10_150729', 't06828']
+  one-cusped members: 60: 54 have b_1 = 1 = the peripheral rank (no free cusp); 6 have b_1 = 2 with a peripheral image of rank 1 (a free cusp): ['t06828', 'o10_150688', 'o10_150713', 'o10_150714', 'o10_150716', 'o10_150724']
+  multi-cusped members (52): 23 have every peripheral rank equal to b_1 (no free cusp; m202 and s959 among them: [[2, 2], [2, 2]]), 29 have a free cusp
+  members without a free cusp: 77 of 112; with a free cusp: 35
+  multi-cusped members: name, cusps, H_1, b_1, peripheral ranks per cusp:
+    m202       cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    m203       cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    m412       cusps 2 H_1            Z/2 + Z + Z b_1 2 ranks [1, 1]
+    s596       cusps 2 H_1            Z/2 + Z + Z b_1 2 ranks [2, 2]
+    s959       cusps 2 H_1            Z/3 + Z + Z b_1 2 ranks [2, 2]
+    v3551      cusps 2 H_1            Z/2 + Z + Z b_1 2 ranks [2, 2]
+    t06829     cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    t12836     cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    t12840     cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    t12841     cusps 2 H_1            Z/5 + Z + Z b_1 2 ranks [2, 2]
+    t12842     cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    t12843     cusps 2 H_1            Z/3 + Z + Z b_1 2 ranks [2, 2]
+    t12844     cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    t12845     cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    o9_40999   cusps 2 H_1            Z/4 + Z + Z b_1 2 ranks [2, 2]
+    o9_41003   cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    o9_41005   cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    o10_107946 cusps 2 H_1            Z/4 + Z + Z b_1 2 ranks [2, 2]
+    o10_143601 cusps 2 H_1            Z/2 + Z + Z b_1 2 ranks [2, 2]
+    o10_143602 cusps 2 H_1            Z/6 + Z + Z b_1 2 ranks [2, 2]
+    o10_150683 cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    o10_150684 cusps 2 H_1            Z/3 + Z + Z b_1 2 ranks [1, 1]
+    o10_150685 cusps 3 H_1              Z + Z + Z b_1 3 ranks [2, 2, 2]
+    o10_150686 cusps 2 H_1                  Z + Z b_1 2 ranks [2, 2]
+    o10_150687 cusps 3 H_1              Z + Z + Z b_1 3 ranks [2, 2, 2]
+    o10_150689 cusps 2 H_1            Z/3 + Z + Z b_1 2 ranks [1, 1]
+    o10_150690 cusps 4 H_1          Z + Z + Z + Z b_1 4 ranks [2, 2, 2, 2]
+    o10_150691 cusps 2 H_1              Z + Z + Z b_1 3 ranks [2, 2]
+    o10_150692 cusps 2 H_1            Z/3 + Z + Z b_1 2 ranks [1, 1]
+    o10_150693 cusps 2 H_1            Z/4 + Z + Z b_1 2 ranks [1, 1]
+    o10_150702 cusps 3 H_1              Z + Z + Z b_1 3 ranks [2, 2, 2]
+    o10_150703 cusps 2 H_1            Z/2 + Z + Z b_1 2 ranks [2, 2]
+    o10_150704 cusps 4 H_1          Z + Z + Z + Z b_1 4 ranks [2, 2, 2, 2]
+    o10_150705 cusps 2 H_1      Z/2 + Z/2 + Z + Z b_1 2 ranks [1, 1]
+    o10_150706 cusps 2 H_1      Z/2 + Z/2 + Z + Z b_1 2 ranks [1, 1]
+    o10_150708 cusps 2 H_1            Z/2 + Z + Z b_1 2 ranks [1, 1]
+    o10_150710 cusps 2 H_1            Z/2 + Z + Z b_1 2 ranks [1, 1]
+    o10_150711 cusps 2 H_1            Z/2 + Z + Z b_1 2 ranks [1, 1]
+    o10_150712 cusps 2 H_1              Z + Z + Z b_1 3 ranks [1, 1]
+    o10_150715 cusps 2 H_1            Z/2 + Z + Z b_1 2 ranks [1, 1]
+    o10_150717 cusps 3 H_1        Z/2 + Z + Z + Z b_1 3 ranks [1, 1, 1]
+    o10_150718 cusps 3 H_1        Z/2 + Z + Z + Z b_1 3 ranks [2, 1, 2]
+    o10_150719 cusps 2 H_1      Z/2 + Z/4 + Z + Z b_1 2 ranks [1, 1]
+    o10_150720 cusps 3 H_1        Z/2 + Z + Z + Z b_1 3 ranks [2, 2, 1]
+    o10_150721 cusps 3 H_1              Z + Z + Z b_1 3 ranks [2, 2, 2]
+    o10_150722 cusps 3 H_1              Z + Z + Z b_1 3 ranks [2, 2, 2]
+    o10_150723 cusps 2 H_1            Z/6 + Z + Z b_1 2 ranks [1, 1]
+    o10_150725 cusps 3 H_1        Z/3 + Z + Z + Z b_1 3 ranks [2, 1, 2]
+    o10_150726 cusps 2 H_1      Z/2 + Z/2 + Z + Z b_1 2 ranks [2, 2]
+    o10_150727 cusps 4 H_1          Z + Z + Z + Z b_1 4 ranks [2, 2, 2, 2]
+    o10_150728 cusps 3 H_1        Z/2 + Z + Z + Z b_1 3 ranks [2, 2, 2]
+    o10_150729 cusps 5 H_1      Z + Z + Z + Z + Z b_1 5 ranks [2, 2, 2, 2, 2]
+  one-cusped members: SnapPy's longitude rationally null-homologous on 7 (lifted traces {-2.0: 4, 2.0: 3}), of which integrally null-homologous (in the commutator subgroup) on 3 (traces {-2.0: 3}: Calegari's -2 on every one of these); not null-homologous on 53 (traces {2.0: 19, -2.0: 34}) -- on a torsion or non-null class the lift's sign is a choice
+
+=== (B) the two-cusped siblings m202 and s959 ===
+  m202: H_1 = Z + Z, generators ['a', 'b'], relators ['aabbAbAABBaB']
+    cusp 0: mu = bbAbA -> [-2, 3], lambda = bba -> [1, 2]; peripheral rank 2, index of P_0 in H_1 = 7; lift traces (mu, lambda) = (+2.000, +2.000)
+    cusp 1: mu = bbAb -> [-1, 3], lambda = AAbAb -> [-3, 2]; peripheral rank 2, index of P_1 in H_1 = 7; lift traces (mu, lambda) = (+2.000, +2.000)
+    isometries: 12 (D6), cusp-swapping: 6, cusp-fixing with |det(A - I)| = 3 on both cusps (the order-3 rotation of B1321): 2
+  s959: H_1 = Z/3 + Z + Z, generators ['a', 'b', 'c'], relators ['acaccbccabccbcc', 'abAB']
+    cusp 0: mu = cacc -> [1, 0, 3], lambda = bccbccacc -> [1, 2, 6]; peripheral rank 2; lift traces (mu, lambda) = (+2.000, -2.000)
+    cusp 1: mu = aB -> [1, -1, 0], lambda = a -> [1, 0, 0]; peripheral rank 2; lift traces (mu, lambda) = (-2.000, -2.000)
+    isometries: 12 (D6), cusp-swapping: 6, cusp-fixing with |det(A - I)| = 3 on both cusps (the order-3 rotation of B1321): 2
+
+=== (C) m202: the spin-1/2 half on cusp 0, with the Standard Model unbroken ===
+  weights of one 10 of SU(5) in the (2,20) of the 78: 10 (Q-type 6, u^c-type 3, e^c-type 1); their (Y, gamma): [('-2/3', '1'), ('1', '1'), ('1/6', '1')]
+  characters with the whole 10 cusp-fixed on cusp 0 (a grid of 1225 solutions): 266 keep all 22 non-SM roots non-trivial (Standard Model unbroken)
+    example: (s_a, s_b, t_a, t_b) = ['-18/35', '-54/35', '-12/35', '-36/35'] -- rational: the character has finite order (unitary), as the full rank of P_0 forces; the spin-1/2 half can be cusp-fixed on cusp 0 with the SM unbroken
+  P_0 + P_1 = H_1: index of the sum = 1 (1 means the two cusps' peripheral classes generate H_1: a character trivial on both cusps is trivial)
+  spin-0 sectors: cusp-fixed on cusp i <=> chi_w trivial on P_i (index 7) <=> chi_w^7 = 1: a unitary local system, vector-like (h^1(L) = h^1(Lbar)); the 5bar (78-frame) and the 10 (27-frame) are never chiral on m202
+
+=== (E) the candidates: every isometry fixing a free cusp, its action on the cusp torus and on the free classes (canonical retriangulation) ===
+  lemma (fc R71's region-swap, torus action general): an isometry fixing cusp c and acting by -1 on ann(P_c) < H^1(M; Q) maps {F > 0} onto {F < 0}
+  for the leading cusp mode F of every harmonic 1-form with vanishing periods on P_c, so chi(d+) = chi(d-) = 0: N = 0 for every cusp-fixed spin-0 sector on c
+  m412: cusps 2, b_1 2, ranks [1, 1], |Isom| 8 = |Aut(canonical retriangulation)| 8, tetrahedra 12, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150684: cusps 2, b_1 2, ranks [1, 1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 24, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class) (closed only by the general lemma: the closing isometry's torus action is not +-I)
+    free cusp 1 (free classes 1), isometries fixing it 2: [(('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class) (closed only by the general lemma: the closing isometry's torus action is not +-I)
+  o10_150685: cusps 3, b_1 3, ranks [2, 2, 2], |Isom| 8 = |Aut(canonical retriangulation)| 8, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 1), isometries fixing it 8: [(('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('order-2 (det -1)', 'fixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150687: cusps 3, b_1 3, ranks [2, 2, 2], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 12, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150688: cusps 1, b_1 2, ranks [1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 10, peripheral classes span H_1: False
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 0 of 1 -> parity silent on some free class: the partition must be computed
+  o10_150689: cusps 2, b_1 2, ranks [1, 1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 36, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150690: cusps 4, b_1 4, ranks [2, 2, 2, 2], |Isom| 16 = |Aut(canonical retriangulation)| 16, tetrahedra 24, peripheral classes span H_1: True
+    free cusp 0 (free classes 2), isometries fixing it 4: [(('-I', 'mixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 2), isometries fixing it 4: [(('-I', 'mixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 2), isometries fixing it 4: [(('-I', 'mixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 3 (free classes 2), isometries fixing it 4: [(('-I', 'mixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150691: cusps 2, b_1 3, ranks [2, 2], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: False
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150692: cusps 2, b_1 2, ranks [1, 1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150693: cusps 2, b_1 2, ranks [1, 1], |Isom| 8 = |Aut(canonical retriangulation)| 8, tetrahedra 24, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 8: [(('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('order-2 (det -1)', 'fixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 8: [(('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('order-2 (det -1)', 'fixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150702: cusps 3, b_1 3, ranks [2, 2, 2], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 12, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150704: cusps 4, b_1 4, ranks [2, 2, 2, 2], |Isom| 48 = |Aut(canonical retriangulation)| 48, tetrahedra 12, peripheral classes span H_1: True
+    free cusp 0 (free classes 2), isometries fixing it 12: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 6), (('order-3', 'mixed', 'preserving'), 2), (('order-6', 'mixed', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 2), isometries fixing it 12: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 6), (('order-3', 'mixed', 'preserving'), 2), (('order-6', 'mixed', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 2), isometries fixing it 12: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 6), (('order-3', 'mixed', 'preserving'), 2), (('order-6', 'mixed', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 3 (free classes 2), isometries fixing it 12: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 6), (('order-3', 'mixed', 'preserving'), 2), (('order-6', 'mixed', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150705: cusps 2, b_1 2, ranks [1, 1], |Isom| 16 = |Aut(canonical retriangulation)| 16, tetrahedra 24, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 8: [(('-I', 'fixed', 'preserving'), 2), (('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('I', 'negated', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 8: [(('-I', 'fixed', 'preserving'), 2), (('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('I', 'negated', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150706: cusps 2, b_1 2, ranks [1, 1], |Isom| 16 = |Aut(canonical retriangulation)| 16, tetrahedra 24, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 8: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 8: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150708: cusps 2, b_1 2, ranks [1, 1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 0 of 1 -> parity silent on some free class: the partition must be computed
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150710: cusps 2, b_1 2, ranks [1, 1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150711: cusps 2, b_1 2, ranks [1, 1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150712: cusps 2, b_1 3, ranks [1, 1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: False
+    free cusp 0 (free classes 2), isometries fixing it 4: [(('-I', 'mixed', 'preserving'), 2), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 2), isometries fixing it 4: [(('-I', 'mixed', 'preserving'), 2), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150713: cusps 1, b_1 2, ranks [1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 10, peripheral classes span H_1: False
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150714: cusps 1, b_1 2, ranks [1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: False
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150715: cusps 2, b_1 2, ranks [1, 1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150716: cusps 1, b_1 2, ranks [1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 10, peripheral classes span H_1: False
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 0 of 1 -> parity silent on some free class: the partition must be computed
+  o10_150717: cusps 3, b_1 3, ranks [1, 1, 1], |Isom| 16 = |Aut(canonical retriangulation)| 16, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 2), isometries fixing it 8: [(('-I', 'mixed', 'preserving'), 2), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 2), isometries fixing it 16: [(('-I', 'mixed', 'preserving'), 4), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 2), (('I', 'negated', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 6), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 2), isometries fixing it 8: [(('-I', 'mixed', 'preserving'), 2), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150718: cusps 3, b_1 3, ranks [2, 1, 2], |Isom| 16 = |Aut(canonical retriangulation)| 16, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 8: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 2), isometries fixing it 16: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'mixed', 'preserving'), 2), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 2), (('I', 'negated', 'preserving'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 8)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 1), isometries fixing it 8: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150719: cusps 2, b_1 2, ranks [1, 1], |Isom| 16 = |Aut(canonical retriangulation)| 16, tetrahedra 24, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 8: [(('-I', 'fixed', 'preserving'), 2), (('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('I', 'negated', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 8: [(('-I', 'fixed', 'preserving'), 2), (('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('I', 'negated', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150720: cusps 3, b_1 3, ranks [2, 2, 1], |Isom| 8 = |Aut(canonical retriangulation)| 8, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 2), isometries fixing it 8: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'mixed', 'preserving'), 2), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 2), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150721: cusps 3, b_1 3, ranks [2, 2, 2], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 12, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150722: cusps 3, b_1 3, ranks [2, 2, 2], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150723: cusps 2, b_1 2, ranks [1, 1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150724: cusps 1, b_1 2, ranks [1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: False
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150725: cusps 3, b_1 3, ranks [2, 1, 2], |Isom| 12 = |Aut(canonical retriangulation)| 12, tetrahedra 12, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 6: [(('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 3), (('order-3', 'fixed', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class) (closed only by the general lemma: the closing isometry's torus action is not +-I)
+    free cusp 1 (free classes 2), isometries fixing it 12: [(('-I', 'mixed', 'preserving'), 3), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 2), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 5)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 2 -> parity silent on some free class: the partition must be computed
+    free cusp 2 (free classes 1), isometries fixing it 6: [(('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 3), (('order-3', 'fixed', 'preserving'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class) (closed only by the general lemma: the closing isometry's torus action is not +-I)
+  o10_150727: cusps 4, b_1 4, ranks [2, 2, 2, 2], |Isom| 8 = |Aut(canonical retriangulation)| 8, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 2), isometries fixing it 8: [(('-I', 'mixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 2), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 2), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 3 (free classes 2), isometries fixing it 8: [(('-I', 'mixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'mixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150728: cusps 3, b_1 3, ranks [2, 2, 2], |Isom| 16 = |Aut(canonical retriangulation)| 16, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 1), isometries fixing it 16: [(('-I', 'fixed', 'preserving'), 2), (('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('I', 'negated', 'preserving'), 2), (('order-2 (det -1)', 'fixed', 'reversing'), 4), (('order-2 (det -1)', 'negated', 'reversing'), 4)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 1), isometries fixing it 8: [(('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('order-2 (det -1)', 'fixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 1), isometries fixing it 8: [(('-I', 'negated', 'preserving'), 2), (('I', 'fixed', 'preserving'), 2), (('order-2 (det -1)', 'fixed', 'reversing'), 2), (('order-2 (det -1)', 'negated', 'reversing'), 2)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  o10_150729: cusps 5, b_1 5, ranks [2, 2, 2, 2, 2], |Isom| 240 = |Aut(canonical retriangulation)| 240, tetrahedra 10, peripheral classes span H_1: True
+    free cusp 0 (free classes 3), isometries fixing it 48: [(('-I', 'mixed', 'preserving'), 3), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 3), (('order-2 (det -1)', 'mixed', 'reversing'), 24), (('order-3', 'mixed', 'preserving'), 8), (('order-6', 'mixed', 'preserving'), 8)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 3 of 3 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 1 (free classes 3), isometries fixing it 48: [(('-I', 'mixed', 'preserving'), 3), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 3), (('order-2 (det -1)', 'mixed', 'reversing'), 24), (('order-3', 'mixed', 'preserving'), 8), (('order-6', 'mixed', 'preserving'), 8)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 3 of 3 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 2 (free classes 3), isometries fixing it 48: [(('-I', 'mixed', 'preserving'), 3), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 3), (('order-2 (det -1)', 'mixed', 'reversing'), 24), (('order-3', 'mixed', 'preserving'), 8), (('order-6', 'mixed', 'preserving'), 8)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 3 of 3 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 3 (free classes 3), isometries fixing it 48: [(('-I', 'mixed', 'preserving'), 3), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 3), (('order-2 (det -1)', 'mixed', 'reversing'), 24), (('order-3', 'mixed', 'preserving'), 8), (('order-6', 'mixed', 'preserving'), 8)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 3 of 3 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    free cusp 4 (free classes 3), isometries fixing it 48: [(('-I', 'mixed', 'preserving'), 3), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 3), (('order-2 (det -1)', 'mixed', 'reversing'), 24), (('order-3', 'mixed', 'preserving'), 8), (('order-6', 'mixed', 'preserving'), 8)]; cusp-map inference agrees: True
+      largest -1-eigenspace of a fixer on the free classes: 3 of 3 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  t06828: cusps 1, b_1 2, ranks [1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 8, peripheral classes span H_1: False
+    free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
+      largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+  free cusps: 83; closed by parity: 79 (of which 75 already by an isometry acting on the torus by +-I, R71's form; 4 need the general lemma); parity silent: 4: [('o10_150688', 0), ('o10_150708', 0), ('o10_150716', 0), ('o10_150725', 1)]
+  cross-checks of the direct action against the cusp-map inference: 73 cusps, all agree
+
+=== (F) the residual free cusps: the fixers' -1-eigenspaces and the cusp lattices ===
+  o10_150688 cusp 0: free classes 1, a fixer negates a subspace of dimension 0 (the Higgs classes there are closed; the rest open); reduced cusp modulus -0.000000 +4.330127i, |tau| = 4.330127: shortest dual vector unique: True
+  o10_150708 cusp 0: free classes 1, a fixer negates a subspace of dimension 0 (the Higgs classes there are closed; the rest open); reduced cusp modulus -0.500000 +2.598076i, |tau| = 2.645751: shortest dual vector unique: True
+  o10_150716 cusp 0: free classes 1, a fixer negates a subspace of dimension 0 (the Higgs classes there are closed; the rest open); reduced cusp modulus +0.000000 +4.330127i, |tau| = 4.330127: shortest dual vector unique: True
+  o10_150725 cusp 1: free classes 2, a fixer negates a subspace of dimension 1 (the Higgs classes there are closed; the rest open); reduced cusp modulus -0.500000 +2.598076i, |tau| = 2.645751: shortest dual vector unique: True
+  on a cusp whose lattice has a unique shortest dual vector, a harmonic form's leading cusp mode is cos(2 pi k.x + phase) when its coefficient is non-zero: an annular partition, N = 0;
+  whether that coefficient vanishes is the harmonic form's cusp expansion, not computed here -- the residual of sL-1.
+
+=== (D) the family in the Standard-Model frame ===
+  members without a free cusp: 77 of 112 (54 one-cusped with b_1 = 1; 23 multi-cusped with full peripheral ranks, m202 and s959 among them):
+    every cusp-fixed spin-0 sector is unitary, its Higgs field vanishes, N = 0; with the spin split (the 10 and the 5bar never share a spin) no full generation from bulk matter with the Standard Model unbroken, for every flat connection.
+  members with a free cusp: 35, carrying 83 free cusps: parity closes 79 (the exact action of the isometries on H_1); 4 remain: [('o10_150688', 0), ('o10_150708', 0), ('o10_150716', 0), ('o10_150725', 1)] -- the residual of sL-1.
+  members fully closed (no free cusp, or every free cusp closed by parity): 108 of 112; members with an open cusp: ['o10_150688', 'o10_150708', 'o10_150716', 'o10_150725']
+DONE

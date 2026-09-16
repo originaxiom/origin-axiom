@@ -126,3 +126,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-16 (main @ f2f8686c, B1415–B1418):* main harvested sm:B1356–B1365 and THE_CLOSING (every grade stands; four bookkeeping items applied here); **lead labels**: this seat's L212–L216 are seat-local (read on main as sm:L2xx; main's own L213–L215 belong to B1404/B1406); main registers sm:L214 as **L220** and sm:L215 as **L221**; sm:L216 (closed in the seat's frame by B1368) awaits main's label; new leads on this seat will carry the prefix **sL-** until main names a block (the E71 fix). B1350–B1399 stands; next arc B1369.
 
 *Update 2026-09-16 (owner's direction):* the recommendation approved — the capstone `docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md` written; the seat is not retired: its mandate becomes **sL-1, the family in the Standard-Model frame** (the two-cusped siblings first). Next arc B1369.
+
+*Update 2026-09-16 (later):* B1369 used (the family in the Standard-Model frame: the free-cusp theorem on all 112 members, parity on the 83 free cusps, four residual cusps); next arc B1370.

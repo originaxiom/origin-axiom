@@ -234,3 +234,8 @@ comes with a light D and proton decay. The row's owner is chiral bulk matter on 
 cusped object with the Standard Model unbroken is never a chiral generation (the 10 and the 5̄ never share an SL(2)_β spin; spin-0
 sectors carry no index; Calegari's −2 for the geometric representation). With B1351 and B1367, no frame of the record supplies item 1
 together with a split Higgs sector. `frontier/B1368_the_objects_own_sm_connections`.*
+
+*Currency 2026-09-16 (B1369): item 1 (three chiral 27s) — the family in the seat's frame: a chiral generation from bulk matter needs a
+free cusp; 77 of the 112 members have none (the two-cusped siblings among them), parity closes 79 of the other 35 members' 83 free cusps,
+and four cusps on four members remain (o10_150688, o10_150708, o10_150716, o10_150725), each with a unique shortest cusp mode. 108 of 112
+members closed. `frontier/B1369_the_siblings_in_the_sm_frame`.*

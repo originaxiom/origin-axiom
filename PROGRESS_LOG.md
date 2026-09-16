@@ -14957,3 +14957,18 @@ scope (R23's disc conventions; the reducible locus; two cusps), the verdict (str
 has), what the negative teaches (points and lines never meet; on one cusp the two halves never share the chiral spin), and the mandate
 sL-1 — the family in the Standard-Model frame, the two-cusped siblings first. Pointers in THE_CLOSING, the view, the alias table;
 sL-1 registered in OPEN_LEADS.
+
+### B1369 — the family in the Standard-Model frame: the free-cusp theorem, the parity census, four residual cusps (2026-09-16)
+
+sL-1's first arc. The multi-cusp form of B1368's theorem: a spin-0 sector cusp-fixed on a cusp of full peripheral rank has a character of
+finite order (unitary, no Higgs field, no index), so a chiral generation from bulk matter with the Standard Model unbroken needs a free cusp
+(rank P_c < b₁). Census of B1186's 112 members (SnapPy): 83 free cusps on 35 members; 77 members without one — all 54 one-cusped members
+with b₁ = 1 and 23 multi-cusped members with full peripheral ranks, m202 and s959 among them (index-7 peripheral subgroups; m202's spin-½
+half cusp-fixed with the SM unbroken only by finite-order characters, 266 on a grid of 1 225). New instrument: the isometries as the
+canonical retriangulation's combinatorial automorphisms with their exact action on H₁, the peripheral subspaces and the cusp tori
+(|Aut| = |Isom| on every candidate; b₁, ranks and 73 cusp-map cross-checks agree). fc R71's region-swap lemma in its general form (torus
+action arbitrary): 79 of 83 free cusps closed, four only by orientation-reversing isometries. Residual: o10_150688, o10_150708 (cusp 0),
+o10_150716, o10_150725 (cusp 1), each with a unique shortest cusp mode. Verdict NEGATIVE on 108 of 112 + PROVED + OPEN on four cusps;
+surfaces (OPEN_LEADS sL-1, THE_VERDICT §6, THE_CLOSING §0/§6.13/ledger, THE_SM_VERDICT, CHIRALITY_MAP §6s, the spec ledger, the
+destination ledger, hint 22, the toolbox, the letter's twenty-eighth note, the view, the alias table), currency notes on B1368, B1351,
+B1281, B1282, B1186. Lock (about a minute). 0 of 19.

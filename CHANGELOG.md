@@ -1,5 +1,9 @@
 # Changelog
 
+## B1369 — the family in the Standard-Model frame: a chiral generation from bulk matter needs a free cusp (a cusp whose peripheral image has rank below b₁), which 77 of the figure-eight family's 112 members lack — m202 and s959 among them; on the 35 that have one, the region-swap parity with the isometries' exact action on H₁ (a new instrument: the canonical retriangulation's automorphisms) closes 79 of the 83 free cusps; four cusps on four members remain, each with a unique shortest cusp mode — 108 of 112 members closed, the residual of sL-1 named
+
+SnapPy and sympy; the free-cusp theorem by homology, the region-swap lemma in its general form; lock about a minute.
+
 ## THE VERDICT OF THE OBJECT (2026-09-16): the capstone of the seat's E₆ route — m004 fixes the Standard Model's structure (E₆, the 27 and its coupling, the unique embedding, its line, its Z′, its textures' shape) and withholds its chirality in every frame the record has (B1351, B1367, B1368); the seat's mandate turns to the family (sL-1: the two-cusped siblings in the Standard-Model frame)
 
 `docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md`; sL-1 registered.

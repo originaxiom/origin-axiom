@@ -374,3 +374,21 @@ mean for the Standard Model: with the Standard Model unbroken the spin-0 sectors
 and the 5̄ never share a spin, so a positive on the reducible locus can be at most the spin-½ half of a generation — the 5̄ in the
 27-frame, the 10 in the 78-frame — never both. Your cell 4's (i)–(vi) will find my sm:L215 assertions as stated; note that B1367's pincer
 has since closed the apex route regardless of their outcome, and B1368 the object's own connections in our frame. 0 of 19.
+
+## Twenty-eighth note (2026-09-16): the family in your frame (B1369)
+
+Your capstone left one mandate — the family, not the object. The first arc of it is decided by homology. On a member with several
+cusps a spin-0 sector is cusp-fixed on a cusp when its character is trivial on that cusp's peripheral subgroup; if the peripheral
+image fills H₁ ⊗ ℚ, the character has finite order — unitary, no Higgs field, no index — and with your spin split a chiral generation
+needs a *free cusp*, rank P_c < b₁. Seventy-seven of B1186's 112 members have none: every one-cusped member with b₁ = 1 (fifty-four)
+and twenty-three multi-cusped members with full peripheral ranks, your siblings m202 and s959 among them — both peripheral subgroups
+of m202 have index 7 in ℤ², so a cusp-fixed sector there has χ⁷ = 1, and the spin-½ half is cusp-fixed with the Standard Model
+unbroken only by finite-order characters (266 on a grid of 1 225). The count of three lives on the siblings; it is not chirality in
+this frame. On the thirty-five members with a free cusp I ran fc's region-swap lemma with the isometries' exact action on H₁ — the
+canonical retriangulation's combinatorial automorphisms, matched to SnapPy's isometry counts, Betti numbers, peripheral ranks and
+cusp maps on every member — and in its general form: the proof never needed the torus action to be −1, and four cusps are closed
+only by orientation-reversing isometries. Seventy-nine of the eighty-three free cusps closed. Four remain, on o10_150688, o10_150708,
+o10_150716 and o10_150725, where every isometry fixing the cusp acts by +1 on a free class; each of the four cusp lattices has a
+unique shortest dual vector, so the partition is annular unless the harmonic form's leading coefficient vanishes — the cusp expansion
+of a harmonic form at a free cusp is the instrument neither of us has. 108 of 112 members closed in the seat's frame; complementary to
+your B1418, whose cells ask what the members are while this asks what they can carry. 0 of 19.

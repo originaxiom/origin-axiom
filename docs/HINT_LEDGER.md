@@ -727,3 +727,14 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       Standard Model unbroken cannot be a chiral generation on the object; with H-PINCER and
       B1351, the E₆ route from m004 has no chirality mechanism compatible with the Standard
       Model in the record's frames.
+  (22) H-FREE-CUSP (type LAW-SHAPED, proved; 2026-09-16, B1369): on a cusped 3-manifold a
+      spin-0 sector cusp-fixed on a cusp whose peripheral image has full rank in H₁(M; ℚ) is a
+      character of finite order — unitary, no Higgs field, no index — so a chiral generation
+      from bulk matter with the Standard Model unbroken needs a free cusp (rank P_c < b₁), and
+      on a free cusp its spin-0 half needs a disc partition of a free class's leading cusp mode,
+      which an isometry fixing the cusp and negating the free classes forbids (fc R71's
+      region-swap, torus action general). Census: 77 of the figure-eight family's 112 members
+      have no free cusp (m202 and s959 among them), parity closes 79 of the other 35 members'
+      83 free cusps, four cusps on four members remain. Consequence: the family supplies the
+      Standard Model's chirality on none of 108 members in the seat's frame; what would decide
+      the last four is the harmonic form's cusp expansion at the free cusp.

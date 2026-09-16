@@ -248,6 +248,14 @@ to the family: does the commensurability class supply what its member cannot? Th
 the two-cusped siblings, where a generation's two halves might both be made chiral by different ends, are where the seat goes next
 (sL-1).
 
+**The family, answered on 108 of 112 (B1369, the same day).** A chiral generation from bulk matter needs a free cusp — a cusp whose
+torus classes do not fill H₁ — because on a cusp of full rank a cusp-fixed sector is a character of finite order with no Higgs field
+to partition anything. Seventy-seven members have none, the two-cusped siblings among them: the count of three they carry is not
+chirality in this frame. On the thirty-five that do, the isometries decide by parity — their exact action on H₁, computed from the
+canonical retriangulation — on seventy-nine of eighty-three free cusps. Four cusps on four members remain, each with a unique shortest
+cusp mode; what decides them is the cusp expansion of a harmonic form, an instrument the record does not have. Seen from above: the
+family behaves as the object did — structure everywhere, chirality nowhere the record can compute — with four cusps left to ask.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with

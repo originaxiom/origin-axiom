@@ -371,6 +371,25 @@ spin-½ half could be cusp-fixed are eight — the SU(2) dihedral representation
 a generation. L216 closes in the seat's frame; the disc-convention adjudication (R23) is the physical-bridge lane's. With §1's walls,
 B1351 and §6q: the E₆ route from m004 has no chirality mechanism compatible with the Standard Model in any frame the record has.
 
+## 6s. The family in the Standard-Model frame: the free-cusp theorem and the parity census (B1369, 2026-09-16)
+
+The owner's question after the verdict — physics from the family, not the object — in the seat's frame. On a member with several
+cusps a spin-0 sector is cusp-fixed on cusp c iff its character is trivial on the peripheral subgroup P_c; if the image of P_c in
+H₁(M; ℚ) has full rank b₁ the character factors through the finite group H₁/P_c, has finite order, is unitary, has no Higgs field and
+no index. With §6r's spin split, a chiral generation from bulk matter with the Standard Model unbroken needs a *free cusp*, rank
+P_c < b₁ — decided by homology, for every flat connection. Census of B1186's 112 members: 77 have no free cusp (all 54 one-cusped
+members with b₁ = 1; 23 multi-cusped members with every peripheral rank equal to b₁, m202 and s959 among them — both peripheral
+subgroups of m202 have index 7 in ℤ², so a cusp-fixed sector has χ⁷ = 1, and the spin-½ half is cusp-fixed with the Standard Model
+unbroken only by finite-order characters: no Higgs field, no index). The 35 members with a free cusp carry 83; there the region-swap
+lemma (fc R71, §6c–§6d; B1417) is run in its general form — an isometry fixing the cusp and acting by −1 on the free classes ann(P_c)
+maps {F > 0} onto {F < 0} for the leading cusp mode F of every Higgs form, whatever its torus action, so χ(∂⁺) = χ(∂⁻) = 0 — with the
+isometries' exact action on H₁ computed from the canonical retriangulation (the combinatorial automorphisms, a new instrument matched
+against SnapPy's isometry counts, b₁, peripheral ranks and cusp maps). Parity closes 79 of the 83 free cusps, four of them only by
+orientation-reversing isometries. Four cusps on four members remain — o10_150688, o10_150708 (cusp 0), o10_150716, o10_150725
+(cusp 1) — where every isometry fixing the cusp acts by +1 on a free class; each cusp lattice has a unique shortest dual vector, so
+the partition is annular unless the harmonic form's leading coefficient vanishes, which only the form's cusp expansion (or the
+isometries' affine torus action) decides. 108 of 112 members closed; the residual is sL-1's. `frontier/B1369_the_siblings_in_the_sm_frame`.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

@@ -70,3 +70,7 @@ first verifier had a **double-cast precision bug** (212-bit values collapsed to 
 at 1e-25 — it wrongly rejected o9_41001) — caught in-cell by chasing the disagreement with cc3's
 carrier list before trusting my own tool; narrated per MB12 practice. Amphichirality checks use
 SnapPy `is_isometric_to` (canonical-cell based; standard). No firewall crossing; no measured value.
+
+*(Currency 2026-09-16, B1369: the 112 members (`members_B`) swept in the Standard-Model frame — cusps (60/38/10/3/1 by number), b₁,
+peripheral ranks, free cusps (83 on 35 members; 77 members without one) and the isometry groups of the 35 candidates from their
+canonical retriangulations. `frontier/B1369_the_siblings_in_the_sm_frame`.)*
