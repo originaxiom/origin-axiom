@@ -1,0 +1,5 @@
+level (sqrt-3)  |PSL(2,O/I)|=12      |image|=12      index=1     contains Gamma(I) [index 12 needed]: False
+level (2)       |PSL(2,O/I)|=60      |image|=10      index=6     contains Gamma(I) [index 12 needed]: False
+level (3)       |PSL(2,O/I)|=324     |image|=324     index=1     contains Gamma(I) [index 12 needed]: False
+level (4)       |PSL(2,O/I)|=1920    |image|=160     index=12    contains Gamma(I) [index 12 needed]: True
+level (8)       |PSL(2,O/I)|=122880  |image|=10240   index=12    contains Gamma(I) [index 12 needed]: True

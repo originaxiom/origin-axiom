@@ -1,0 +1,7 @@
+# GAP GQuotients on pi_1(m004) = <a,b | aaabABBAb> (SnapPy's presentation), surjections up to Aut(target):
+2T=SL(2,3)             2
+2O=SmallGroup(48,28)   0
+2I=SL(2,5)             0
+A4 1   S4 0   A5 0   PSL(2,7) 4   SL(2,7) 8
+# also: the B1170 content census ablation: no content passing [SU(3)]^3 + Witten has a 1-dim linear solution space;
+# the five survivors of the linear filter have 2-dim solution spaces, so the cubic is what makes a content rigid there.

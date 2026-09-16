@@ -120,7 +120,7 @@ CLAIMS = [
         ["B1303", "B1306"], "settled"),
  ("6",  "the second expectation value lies on the pure-spinor cone of the 16 (stabiliser 34, toral rank 4; a generic spinor is fatal): two selections, booked as two",
         ["B1092"], "settled"),
- ("6",  "within the in-frame anomaly system the grav^2 Y condition is load-bearing (dropping it: 36 solutions plus solution planes) and the cubic is redundant",
+ ("6",  "within the in-frame anomaly system (hypercharges assigned in a fixed colour frame on the 27's states) the grav^2 Y condition is load-bearing (dropping it: 36 solutions plus solution planes) and there the cubic adds nothing to the three linear conditions",
         ["B1170"], "computed"),
  ("6",  "the tower's budget: at the chiral 5-cusped degree-10 cover the flat sl_3 deformation space has complex dimension 10 = k(n-1), twenty real parameters, all boundary data",
         ["B1409"], "settled"),
@@ -130,8 +130,8 @@ CLAIMS = [
         ["B1324"], "settled"),
  ("4",  "the manifold's intrinsic arithmetic forces exactly three quadratic faces, Q(sqrt-3), Q(sqrt5), Q(sqrt-15), and no closed filling in the |p|,q <= 8 grid keeps any of them",
         ["B730", "B288"], "settled"),
- ("4",  "the manifold group is congruence (level 4 in the SL-kernel convention); the continuous spectrum is one channel, phi(s) = Lambda_K(s-1)/Lambda_K(s)",
-        ["B734", "B739"], "settled"),
+ ("4",  "the manifold group is congruence of level (4) in PSL(2,O_K), index 12, not of level (2), (sqrt-3) or (3); the continuous spectrum is one channel, phi(s) = Lambda_K(s-1)/Lambda_K(s)",
+        ["B734", "B739", "B1419"], "settled"),
  ("4",  "the theta-odd block at the monodromy is unitary with eigenphases +-72 degrees and a golden-exact overlap matrix",
         ["B753"], "settled"),
  ("4",  "the constructed algebra is Barton-Sudbery's magic-square algebra M(O,C): a Lie isomorphism on all 3003 unordered basis pairs, zero mismatches",
@@ -146,8 +146,8 @@ CLAIMS = [
         ["B907", "B912", "B908", "B917", "B919"], "settled"),
  ("4",  "the second crossing: the object's centraliser ladder is not Pati-Salam and cannot pose the unification triangle; the third crossing: the register cascade is mixing-shaped, magnitudes off by 5-9x",
         ["B925", "B929"], "settled"),
- ("4",  "the seam: exactly ten exceptional fillings; the fibre slope is the unique torus bundle with monodromy LR; of the grid's 78 closed hyperbolic fillings none keeps Q(sqrt-3) and none is arithmetic (54 in the first census, completed to 78/78)",
-        ["B286", "B287", "B288"], "settled"),
+ ("4",  "the seam: exactly ten exceptional fillings; the fibre slope is the unique torus bundle with monodromy LR; of the grid's 78 closed hyperbolic fillings none keeps Q(sqrt-3) (54 in the first census, completed to 78/78); six are arithmetic by the closed criterion (m004(+-5,1) Meyerhoff, (+-6,1), (+-8,1)) and the other 72 are not",
+        ["B286", "B287", "B288", "B1419"], "settled"),
  ("4",  "tau does double duty: the involution making the 27 complex is the only one that can reduce rank, one resource spent once (an analysis)",
         ["B963"], "settled"),
 ]
@@ -301,7 +301,8 @@ the public repository \url{github.com/originaxiom/origin-axiom} (mirror:
 inside the named record; a ``lock'' is a file under \texttt{tests/} that runs with the suite. The
 verification package \url{papers/P3_THE_PAPER/verification_package/} carries this table as a machine-readable
 manifest (every claim, its records, their seals, scripts and locks) with a one-command runner; its README says
-what it certifies and what it does not. The package is also shipped as this paper's ancillary files
+what it certifies and what it does not. The runner executes inside the deposited snapshot or a clone of the repository,
+not from the ancillary directory alone, which carries the manifest and the runner but not the records. The package is also shipped as this paper's ancillary files
 (\texttt{anc/}), and the manifest records the commit hash of the repository state it was built from; a frozen
 snapshot of that state is deposited with a persistent identifier (DOI to be assigned at deposit) so that the
 records can be re-run without depending on the live repository.

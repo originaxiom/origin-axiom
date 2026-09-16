@@ -23,7 +23,8 @@ CUSPED_RESEES_SQRT_NEG3 = True
 GRID = "|p|<=8, 1<=q<=8, gcd(p,q)=1, hyperbolic"
 N_CLOSED_RESOLVED = 54                                  # closed hyperbolic fillings with computed invariant trace field
 N_RESEEING_SQRT_NEG3 = 0                                # closings re-instantiating Q(sqrt-3)/E6
-N_ARITHMETIC = 0                                        # closings that are imaginary-quadratic (arithmetic)
+N_ARITHMETIC = 0                                        # closings with an IMAGINARY-QUADRATIC invariant trace field. NOT an arithmeticity count:
+                                                        # that is the cusped criterion; by the closed criterion six fillings ARE arithmetic (B1419, E82)
 DEGREES_SEEN = [3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 18, 19]
 N_STRAGGLERS_DEG_GT_20 = 24                             # find_field non-convergent at deg<=20 => even higher degree
 

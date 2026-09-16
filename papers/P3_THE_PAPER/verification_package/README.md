@@ -7,7 +7,7 @@ identifiers; the appendix maps each listed claim to a record, and this package i
 ## What is certified, and what is not
 
 - **For every claim in the manifest:** the establishing record exists in this repository; its verdict is closed
-  (**settled**) — or, for the three rows marked **computed**, the record's own wider question is open while the
+  (**settled**) — or, for the rows marked **computed** (the manifest counts them at each build), the record's own wider question is open while the
   specific computation the claim uses is re-derived and re-runnable inside it; at least one test under `tests/` names
   the record and passes; and where the record carries a seal, the sealed design file still hashes to the recorded value.
 - **What a lock is, exactly.** The manifest lists two kinds. A *primary lock* is a test file named for the record

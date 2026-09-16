@@ -9,7 +9,7 @@ reproducible from the tracked tree in one pass.
 
 | path (inside the bundle) | what it is | built from |
 |---|---|---|
-| `main.tex` | the paper, full author block, `\date{2026-09-16}` | `papers/P3_THE_PAPER/main.tex` with the author/date lines substituted |
+| `main.tex` | the paper, full author block, `\date{2026-09-16}`, every full-line `%` comment stripped (arXiv source is public) | `papers/P3_THE_PAPER/main.tex` with the author/date lines substituted and comment lines removed |
 | `anc/README.md` | what the package certifies and what it does not | `verification_package/README.md` |
 | `anc/MANIFEST.md`, `anc/MANIFEST.json` | every claim → records, seals, scripts, locks; commit hash of the tree it was built from | `verification_package/build_manifest.py` |
 | `anc/REPORT.md` | the last package run (seals, locks) | `verification_package/run_package.py` |

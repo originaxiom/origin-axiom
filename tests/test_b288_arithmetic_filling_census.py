@@ -23,8 +23,8 @@ def test_closed_fillings_do_not_resee_sqrt_neg3():
     assert b288.N_RESEEING_SQRT_NEG3 == 0
 
 
-def test_no_closed_filling_is_arithmetic():
-    assert b288.N_ARITHMETIC == 0                            # none imaginary-quadratic; arithmeticity lost on closing
+def test_no_closed_filling_has_imaginary_quadratic_field():
+    assert b288.N_ARITHMETIC == 0                            # none imaginary-quadratic. NOT arithmeticity: six fillings are arithmetic by the closed criterion (B1419, E82)
 
 
 def test_e6_open_object_property_and_firewall():

@@ -1,7 +1,7 @@
 {
  "id": "B288",
  "verdict": "NEGATIVE",
- "claim_one_line": "No closed hyperbolic Dehn filling of the figure-eight re-sees ℚ(√−3) or is arithmetic, so the E₆-selecting arithmetic is an open-object property destroyed by closing.",
+ "claim_one_line": "No closed hyperbolic Dehn filling of the figure-eight re-sees Q(sqrt-3), so the E6-selecting arithmetic is an open-object property destroyed by closing. [2026-09-16, B1419: the arc's second clause 'or is arithmetic' is RETRACTED — it tested the cusped criterion; six fillings are arithmetic by the closed criterion, Meyerhoff among them.]",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,

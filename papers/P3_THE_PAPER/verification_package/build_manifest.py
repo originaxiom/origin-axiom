@@ -70,7 +70,7 @@ def main(out_dir=None):
                              scripts=sorted(str(f.relative_to(ROOT)) for f in ver.glob("*") if f.suffix in (".py", ".sh")) if ver.exists() else [],
                              results=sorted(str(f.relative_to(ROOT)) for f in ver.glob("*") if f.suffix in (".json", ".out", ".txt")) if ver.exists() else [],
                              locks=locks(aid), primary_locks=primary_locks(aid)))
-        claims.append(dict(section=sec, claim=claim, support=support, records=recs))
+        claims.append(dict(claim=claim, support=support, records=recs))   # no section pointer: the appendix dropped them as unreliable
     manifest = dict(paper="papers/P3_THE_PAPER/main.tex", built=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                     environment=versions(), claims=claims,
                     totals=dict(claims=len(claims), records=sum(len(c["records"]) for c in claims),

@@ -89,6 +89,10 @@ all-slopes theorem). — B288/B740 (two-seat, two-method) + B747 + B748 (with th
 **C9 [THEOREM — congruence, conventions named per E23].** m004 IS congruence: standard
 SL-kernel level (4); mod-center/PSL filtration realizes the geometric index 12 at (8);
 the sisters at (2). — B734 (correcting B731; two-seat). Lock: `tests/test_b734_m004_congruence.py`.
+[2026-09-16, B1419/S12: recomputed in Riley's representation with PSL(2,O/I) := SL(2,O/I)/{±1}: the
+image index is 12 already at (4) (160 in 1920) and 6 at (2), 1 at (√−3) and (3); the level is (4), and
+(8) is a deeper level at which containment also holds. Baker–Reid 2018 state the figure-eight
+complement is a congruence manifold; the "defies Serre" gloss is withdrawn.]
 
 **C10 [THEOREM — character-rigidity + the voice].** The continuous spectrum is ONE
 channel — the pullback Eisenstein series, φ(s) = Λ_K(s−1)/Λ_K(s) exactly, with NO
@@ -134,7 +138,7 @@ the census triple; the gap as objectivity's edge — the gait transmits, the nam
 — B750 (sealed enum + can-fail witnesses). Lock: `tests/test_b750_lack_ledger.py`.
 
 **C17 [NO-GO — the SM record].** The no-SM-value wall stands with a four-mechanism
-spectral column (B754: 17 KILL-EXTENDS, 0 FACE-OPENS); zero of 24 SM parameters reduced
+spectral column (B754: 17 KILL-EXTENDS, 0 FACE-OPENS); zero of the SM's free parameters reduced (B736 counted 24; the standard count is 19, or 26 with Dirac neutrino masses and mixings — S12)
 (banked — the A+B+C campaign, frontier/B736_ABC_campaign/, lock `tests/test_b736_abc.py`); the two live-fire claims adjudicated NOT EARNED / DISSOLVED (B751: the α_s
 composite — three insertions + null base-rate; B752: Op-3 — universal collapse, wrong
 input, repelling point); the two-ℤ/3 identity DISSOLVED (B757: Sylow-forced coincidence);
@@ -407,9 +411,13 @@ polynomial t²−3t+1 = charpoly(A), Twister, Regina — three independent confi
 re-sees its own genesis matrix at a canonical seam. **But the selection is stratified (B294): SELECTIVE
 for the object's own structure, a flat CATALOGUE for Standard-Model values.**
 **AND THE TWO SIDES DO NOT OVERLAP (B288, NEGATIVE):** of 54 closed hyperbolic fillings, **zero**
-re-see ℚ(√−3) and **zero** are arithmetic — *the E₆-selecting arithmetic is an open-object property
-destroyed by closing*. So the open object carries ℚ(√−3) → 2T → E₆ and no closing; the closed object
-carries a canonical forced closing and no E₆. **The two cannot be held at once** — the same shape as
+re-see ℚ(√−3) — *the E₆-selecting arithmetic is an open-object property destroyed by closing*.
+[**Corrected 2026-09-16, B1419:** B288's second clause "zero are arithmetic" tested the cusped criterion
+(imaginary quadratic field) on closed manifolds (E82); by the closed criterion **six** of the 78 fillings
+are arithmetic — m004(±5,1) the Meyerhoff manifold (x⁴−x−1, disc −283, Chinburg 1987), (±6,1) disc −59,
+(±8,1) disc −31 — with arithmetics that are not the object's and reach no exceptional algebra by the McKay door.]
+So the open object carries ℚ(√−3) → 2T → E₆ and no closing; a closed object carries a canonical forced
+closing and, where it is arithmetic, a different arithmetic that selects no E₆. **The two cannot be held at once** — the same shape as
 C44's fork, one level below it. (**No SSB mechanism is available**, B295.)
 — B286, B287, B288, B294, B295. Locks: `tests/test_b286_the_seam.py`,
 `tests/test_b287_distinguished_closing.py`, `tests/test_b288_arithmetic_filling_census.py`,

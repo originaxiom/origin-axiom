@@ -1,0 +1,89 @@
+{"slope": [-8, 1], "hyperbolic": true, "volume": 1.583166660624813, "field": "x^3 + x - 1", "degree": 3, "signature": [1, 1], "disc": -31, "invariant_gens_integral": true, "trace_field": "x^6 - 8*x^4 
+{"slope": [-8, 3], "hyperbolic": true, "volume": 1.8243443222029117, "field": "x^5 - x^4 - 3*x^3 + 2*x^2 + x + 1", "degree": 5, "signature": [3, 1], "disc": -9759, "invariant_gens_integral": true, "tr
+{"slope": [-8, 5], "hyperbolic": true, "volume": 1.9357565416278435, "field": "x^9 - x^8 - 3*x^7 + 6*x^6 - x^5 - 6*x^4 + 4*x^3 + x^2 - 3*x - 1", "degree": 9, "signature": [5, 2], "disc": 4068855253, "
+{"slope": [-8, 7], "hyperbolic": true, "volume": 1.977609277374774, "field": "x^13 - 5*x^12 + 16*x^11 - 44*x^10 + 70*x^9 - 89*x^8 + 129*x^7 - 26*x^6 - 5*x^5 - 234*x^4 - 275*x^3 + 818*x^2 - 196*x - 103
+{"slope": [-7, 1], "hyperbolic": true, "volume": 1.463776644927239, "field": "x^6 - 2*x^4 - 4*x^3 - 4*x^2 - 3*x - 1", "degree": 6, "signature": [2, 2], "disc": 50173, "invariant_gens_integral": true, 
+{"slope": [-7, 2], "hyperbolic": true, "volume": 1.649609715808664, "field": "x^7 - x^6 - x^5 + 4*x^4 - 2*x^3 - 4*x^2 + x + 1", "degree": 7, "signature": [5, 1], "disc": -3685907, "invariant_gens_inte
+{"slope": [-7, 3], "hyperbolic": true, "volume": 1.8058272135731468, "field": "x^11 - 6*x^9 - 5*x^8 + 10*x^7 + 15*x^6 - 7*x^5 - 11*x^4 - 5*x^3 + 15*x^2 - 7*x + 1", "degree": 11, "signature": [7, 2], "
+{"slope": [-7, 4], "hyperbolic": true, "volume": 1.8871018048297308, "field": "x^15 - 7*x^14 + 25*x^13 - 68*x^12 + 134*x^11 - 178*x^10 + 199*x^9 - 166*x^8 - 4*x^7 - 2*x^6 + 133*x^5 + 177*x^4 - 281*x^3
+{"slope": [-7, 5], "hyperbolic": true, "volume": 1.9320606803567115, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-7, 6], "hyperbolic": true, "volume": 1.9590877821525714, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-7, 8], "hyperbolic": true, "volume": 1.9882227097686704, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-6, 1], "hyperbolic": true, "volume": 1.2844853004683536, "field": "x^3 + 2*x - 1", "degree": 3, "signature": [1, 1], "disc": -59, "invariant_gens_integral": true, "trace_field": "x^6 - x^5
+{"slope": [-6, 5], "hyperbolic": true, "volume": 1.9286680638786353, "field": "x^10 - 4*x^9 + 10*x^8 - 23*x^7 + 21*x^6 - 11*x^5 + 36*x^4 + 38*x^3 - 132*x^2 + 17*x + 34", "degree": 10, "signature": [6,
+{"slope": [-6, 7], "hyperbolic": true, "volume": 1.9754226841340286, "field": "x^14 - 2*x^13 - 6*x^12 + 5*x^11 + 21*x^10 + 5*x^9 - 31*x^8 - 27*x^7 + 15*x^6 + 28*x^5 + x^4 - 13*x^3 - 3*x^2 + 5*x - 1", 
+{"slope": [-5, 1], "hyperbolic": true, "volume": 0.9813688288922318, "field": "x^4 - x - 1", "degree": 4, "signature": [2, 1], "disc": -283, "invariant_gens_integral": true, "trace_field": "x^4 - x - 
+{"slope": [-5, 2], "hyperbolic": true, "volume": 1.5294773294300263, "field": "x^7 - 4*x^5 - 2*x^4 + 2*x^3 + 6*x^2 - 5*x + 1", "degree": 7, "signature": [5, 1], "disc": -3998639, "invariant_gens_integ
+{"slope": [-5, 3], "hyperbolic": true, "volume": 1.7714166580947144, "field": "x^11 - x^10 - 6*x^9 + 14*x^7 + 8*x^6 - 13*x^5 - 11*x^4 + 5*x^3 + 9*x^2 - 6*x + 1", "degree": 11, "signature": [7, 2], "di
+{"slope": [-5, 4], "hyperbolic": true, "volume": 1.873481771644897, "field": "x^15 - 2*x^14 - 7*x^13 + 7*x^12 + 27*x^11 - x^10 - 51*x^9 - 26*x^8 + 46*x^7 + 41*x^6 - 22*x^5 - 28*x^4 + 7*x^3 + 13*x^2 - 
+{"slope": [-5, 6], "hyperbolic": true, "volume": 1.9557091461499039, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-5, 7], "hyperbolic": true, "volume": 1.9745200726254437, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-5, 8], "hyperbolic": true, "volume": 1.9870380851996308, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-4, 1], "hyperbolic": false, "solution": "contains degenerate tetrahedra"}
+{"slope": [-4, 3], "hyperbolic": true, "volume": 1.7571260291884516, "field": "x^5 - 6*x^3 - 11*x^2 - 6*x - 1", "degree": 5, "signature": [3, 1], "disc": -4903, "invariant_gens_integral": true, "trace
+{"slope": [-4, 5], "hyperbolic": true, "volume": 1.9230873317343302, "field": "x^9 - 3*x^8 + 7*x^7 - 17*x^6 + 8*x^5 - 9*x^4 + 37*x^3 + 87*x^2 - 165*x + 23", "degree": 9, "signature": [5, 2], "disc": 3
+{"slope": [-4, 7], "hyperbolic": true, "volume": 1.9737624386460146, "field": "x^13 - 4*x^12 + 11*x^11 - 31*x^10 + 37*x^9 - 42*x^8 + 100*x^7 + 52*x^6 - 30*x^5 - 356*x^4 - 1040*x^3 + 2564*x^2 - 976*x -
+{"slope": [-3, 1], "hyperbolic": false, "solution": "contains flat tetrahedra"}
+{"slope": [-3, 2], "hyperbolic": true, "volume": 1.4406990067273648, "field": "x^6 - 4*x^4 - 4*x^3 + x^2 + 3*x - 1", "degree": 6, "signature": [4, 1], "disc": -365263, "invariant_gens_integral": true,
+{"slope": [-3, 4], "hyperbolic": true, "volume": 1.8634426716183472, "field": "x^14 - 3*x^13 + 6*x^12 - 19*x^11 + 13*x^10 - 2*x^9 + 70*x^8 + 55*x^7 - 114*x^6 - 384*x^5 - 170*x^4 + 1184*x^3 - 259*x^2 -
+{"slope": [-3, 5], "hyperbolic": true, "volume": 1.9210269106080746, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-3, 7], "hyperbolic": true, "volume": 1.9731609627060454, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-3, 8], "hyperbolic": true, "volume": 1.986214828698521, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-2, 1], "hyperbolic": false, "solution": "contains flat tetrahedra"}
+{"slope": [-2, 3], "hyperbolic": true, "volume": 1.737123880656371, "field": "x^6 - x^5 - 3*x^4 - x^3 + 2*x^2 + 2*x - 1", "degree": 6, "signature": [4, 1], "disc": -753079, "invariant_gens_integral": 
+{"slope": [-2, 5], "hyperbolic": true, "volume": 1.919520361180291, "field": "x^10 - 3*x^9 + 6*x^8 - 16*x^7 + 6*x^6 + x^5 + 41*x^4 + 151*x^3 - 394*x^2 + 109*x + 103", "degree": 10, "signature": [6, 2]
+{"slope": [-2, 7], "hyperbolic": true, "volume": 1.9727246729087908, "field": "x^14 - 4*x^13 + 10*x^12 - 29*x^11 + 33*x^10 - 25*x^9 + 103*x^8 + 60*x^7 - 142*x^6 - 402*x^5 - 1906*x^4 + 5785*x^3 - 2982*
+{"slope": [-1, 1], "hyperbolic": false, "solution": "contains flat tetrahedra"}
+{"slope": [-1, 2], "hyperbolic": true, "volume": 1.3985088841508064, "field": "x^7 - x^6 - 2*x^5 + 6*x^4 - 11*x^3 + 6*x^2 + 3*x - 1", "degree": 7, "signature": [5, 1], "disc": -7215127, "invariant_gen
+{"slope": [-1, 3], "hyperbolic": true, "volume": 1.7319827787257585, "field": "x^11 - 2*x^10 - 8*x^9 + 16*x^8 + 22*x^7 - 44*x^6 - 25*x^5 + 50*x^4 + 11*x^3 - 22*x^2 - x + 1", "degree": 11, "signature":
+{"slope": [-1, 4], "hyperbolic": true, "volume": 1.8581381571430409, "field": "x^15 - 4*x^14 + 7*x^13 - 22*x^12 + 31*x^11 + 12*x^10 + 83*x^9 - 77*x^8 - 416*x^7 - 444*x^6 + 692*x^5 + 5178*x^4 - 8279*x^
+{"slope": [-1, 5], "hyperbolic": true, "volume": 1.9186023775528376, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-1, 6], "hyperbolic": true, "volume": 1.9520620754134708, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-1, 7], "hyperbolic": true, "volume": 1.9724601973305702, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [-1, 8], "hyperbolic": true, "volume": 1.9857927453640456, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [0, 1], "hyperbolic": false, "solution": "contains flat tetrahedra"}
+{"slope": [1, 1], "hyperbolic": false, "solution": "contains flat tetrahedra"}
+{"slope": [1, 2], "hyperbolic": true, "volume": 1.3985088841508067, "field": "x^7 - x^6 - 2*x^5 + 6*x^4 - 11*x^3 + 6*x^2 + 3*x - 1", "degree": 7, "signature": [5, 1], "disc": -7215127, "invariant_gens
+{"slope": [1, 3], "hyperbolic": true, "volume": 1.7319827787257585, "field": "x^11 - 2*x^10 - 8*x^9 + 16*x^8 + 22*x^7 - 44*x^6 - 25*x^5 + 50*x^4 + 11*x^3 - 22*x^2 - x + 1", "degree": 11, "signature": 
+{"slope": [1, 4], "hyperbolic": true, "volume": 1.8581381571430409, "field": "x^15 - 3*x^14 + 3*x^13 - 18*x^12 + 17*x^11 + 43*x^10 + 130*x^9 - 44*x^8 - 708*x^7 - 820*x^6 - 1382*x^5 + 18281*x^4 - 26716
+{"slope": [1, 5], "hyperbolic": true, "volume": 1.9186023775528376, "field": "x^19 - 2*x^18 - 16*x^17 + 32*x^16 + 106*x^15 - 210*x^14 - 380*x^13 + 730*x^12 + 815*x^11 - 1450*x^10 - 1107*x^9 + 1664*x^8
+{"slope": [1, 6], "hyperbolic": true, "volume": 1.952062075413471, "field": "x^23 - 2*x^22 - 20*x^21 + 40*x^20 + 169*x^19 - 338*x^18 - 784*x^17 + 1568*x^16 + 2165*x^15 - 4330*x^14 - 3580*x^13 + 7160*x
+{"slope": [1, 7], "hyperbolic": true, "volume": 1.97246019733057, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [1, 8], "hyperbolic": true, "volume": 1.9857927453640456, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [2, 1], "hyperbolic": false, "solution": "contains flat tetrahedra"}
+{"slope": [2, 3], "hyperbolic": true, "volume": 1.7371238806563716, "field": "x^6 - x^5 - 3*x^4 - x^3 + 2*x^2 + 2*x - 1", "degree": 6, "signature": [4, 1], "disc": -753079, "invariant_gens_integral": 
+{"slope": [2, 5], "hyperbolic": true, "volume": 1.9195203611802905, "field": "x^10 - 2*x^9 + 3*x^8 - 13*x^7 - 5*x^6 + 16*x^5 - 24*x^4 + 603*x^3 - 1236*x^2 + 485*x + 239", "degree": 10, "signature": [6
+{"slope": [2, 7], "hyperbolic": true, "volume": 1.9727246729087908, "field": "x^14 - 3*x^13 + 6*x^12 - 22*x^11 + 12*x^10 - x^9 + 122*x^8 + 164*x^7 - 374*x^6 + 613*x^5 - 8292*x^4 + 18601*x^3 - 11021*x^
+{"slope": [3, 1], "hyperbolic": false, "solution": "contains flat tetrahedra"}
+{"slope": [3, 2], "hyperbolic": true, "volume": 1.4406990067273646, "field": "x^6 - 4*x^4 - 4*x^3 + x^2 + 3*x - 1", "degree": 6, "signature": [4, 1], "disc": -365263, "invariant_gens_integral": true, 
+{"slope": [3, 4], "hyperbolic": true, "volume": 1.863442671618347, "field": "x^14 - 18*x^11 - 32*x^10 + 4*x^9 + 225*x^8 + 525*x^7 - 308*x^6 + 25*x^5 - 15608*x^4 + 34758*x^3 - 18940*x^2 - 6111*x + 5022
+{"slope": [3, 5], "hyperbolic": true, "volume": 1.921026910608075, "field": "x^18 - x^17 - 17*x^16 + 15*x^15 + 121*x^14 - 91*x^13 - 467*x^12 + 285*x^11 + 1056*x^10 - 486*x^9 - 1407*x^8 + 435*x^7 + 105
+{"slope": [3, 7], "hyperbolic": true, "volume": 1.9731609627060454, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [3, 8], "hyperbolic": true, "volume": 1.986214828698521, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [4, 1], "hyperbolic": false, "solution": "contains degenerate tetrahedra"}
+{"slope": [4, 3], "hyperbolic": true, "volume": 1.7571260291884514, "field": "x^5 - 6*x^3 - 11*x^2 - 6*x - 1", "degree": 5, "signature": [3, 1], "disc": -4903, "invariant_gens_integral": true, "trace_
+{"slope": [4, 5], "hyperbolic": true, "volume": 1.9230873317343302, "field": "x^9 - 4*x^7 - 4*x^6 + 3*x^5 + 7*x^4 + 2*x^3 - 3*x^2 - 2*x + 1", "degree": 9, "signature": [5, 2], "disc": 3435220133, "inv
+{"slope": [4, 7], "hyperbolic": true, "volume": 1.9737624386460146, "field": "x^13 - 2*x^12 + 4*x^11 - 19*x^10 - 4*x^9 - 7*x^8 + 128*x^7 + 330*x^6 - 613*x^5 + 2749*x^4 - 15770*x^3 + 27622*x^2 - 16227*
+{"slope": [5, 1], "hyperbolic": true, "volume": 0.9813688288922322, "field": "x^4 - x - 1", "degree": 4, "signature": [2, 1], "disc": -283, "invariant_gens_integral": true, "trace_field": "x^4 - x - 1
+{"slope": [5, 2], "hyperbolic": true, "volume": 1.5294773294300266, "field": "x^7 - 4*x^5 - 2*x^4 + 2*x^3 + 6*x^2 - 5*x + 1", "degree": 7, "signature": [5, 1], "disc": -3998639, "invariant_gens_integr
+{"slope": [5, 3], "hyperbolic": true, "volume": 1.7714166580947142, "field": "x^11 - x^10 - 6*x^9 + 14*x^7 + 8*x^6 - 13*x^5 - 11*x^4 + 5*x^3 + 9*x^2 - 6*x + 1", "degree": 11, "signature": [7, 2], "dis
+{"slope": [5, 4], "hyperbolic": true, "volume": 1.8734817716448977, "field": "x^15 - x^14 - 2*x^13 - 21*x^12 - 12*x^11 + 85*x^10 + 330*x^9 + 636*x^8 - 4869*x^7 + 17028*x^6 - 87300*x^5 + 241320*x^4 - 3
+{"slope": [5, 6], "hyperbolic": true, "volume": 1.9557091461499039, "field": "x^23 - 2*x^22 - 20*x^21 + 40*x^20 + 172*x^19 - 344*x^18 - 832*x^17 + 1664*x^16 + 2486*x^15 - 4972*x^14 - 4744*x^13 + 9488*
+{"slope": [5, 7], "hyperbolic": true, "volume": 1.9745200726254435, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [5, 8], "hyperbolic": true, "volume": 1.987038085199631, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [6, 1], "hyperbolic": true, "volume": 1.2844853004683539, "field": "x^3 + 2*x - 1", "degree": 3, "signature": [1, 1], "disc": -59, "invariant_gens_integral": true, "trace_field": "x^6 - x^5 
+{"slope": [6, 5], "hyperbolic": true, "volume": 1.9286680638786349, "field": "x^10 - x^9 + x^8 - 13*x^7 - 26*x^6 + 121*x^5 - 532*x^4 + 2374*x^3 - 4023*x^2 + 2025*x + 254", "degree": 10, "signature": [
+{"slope": [6, 7], "hyperbolic": true, "volume": 1.975422684134028, "field": "x^14 - 2*x^13 + 3*x^12 - 19*x^11 - 5*x^10 + 10*x^9 + 151*x^8 + 535*x^7 - 2123*x^6 + 8233*x^5 - 34072*x^4 + 61995*x^3 - 4003
+{"slope": [7, 1], "hyperbolic": true, "volume": 1.4637766449272382, "field": "x^6 - x^5 + x^4 + 2*x^3 - 4*x^2 + 3*x - 1", "degree": 6, "signature": [2, 2], "disc": 50173, "invariant_gens_integral": tr
+{"slope": [7, 2], "hyperbolic": true, "volume": 1.6496097158086633, "field": "x^7 - x^6 - x^5 + 4*x^4 - 2*x^3 - 4*x^2 + x + 1", "degree": 7, "signature": [5, 1], "disc": -3685907, "invariant_gens_inte
+{"slope": [7, 3], "hyperbolic": true, "volume": 1.805827213573147, "field": "x^11 - x^10 - 3*x^9 + 14*x^8 - 244*x^7 - 1677*x^6 - 7691*x^5 - 27851*x^4 - 59654*x^3 - 66066*x^2 - 32136*x - 3689", "degree
+{"slope": [7, 4], "hyperbolic": true, "volume": 1.8871018048297306, "field": "x^15 - 3*x^13 - 26*x^12 - 34*x^11 + 104*x^10 + 148*x^9 + 4745*x^8 - 28903*x^7 + 118417*x^6 - 408621*x^5 + 890740*x^4 - 104
+{"slope": [7, 5], "hyperbolic": true, "volume": 1.932060680356712, "field": "x^19 - 2*x^18 - 9*x^17 + 9*x^16 + 44*x^15 - x^14 - 113*x^13 - 71*x^12 + 143*x^11 + 173*x^10 - 77*x^9 - 191*x^8 - 2*x^7 + 12
+{"slope": [7, 6], "hyperbolic": true, "volume": 1.9590877821525716, "field": "x^23 - 2*x^22 - 20*x^21 + 40*x^20 + 172*x^19 - 344*x^18 - 832*x^17 + 1664*x^16 + 2486*x^15 - 4972*x^14 - 4744*x^13 + 9488*
+{"slope": [7, 8], "hyperbolic": true, "volume": 1.9882227097686707, "field": null, "degree": ">24", "arithmetic": "undetermined"}
+{"slope": [8, 1], "hyperbolic": true, "volume": 1.583166660624813, "field": "x^3 + x - 1", "degree": 3, "signature": [1, 1], "disc": -31, "invariant_gens_integral": true, "trace_field": "x^6 - 8*x^4 +
+{"slope": [8, 3], "hyperbolic": true, "volume": 1.8243443222029117, "field": "x^5 - x^4 - 3*x^3 + 2*x^2 + x + 1", "degree": 5, "signature": [3, 1], "disc": -9759, "invariant_gens_integral": true, "tra
+{"slope": [8, 5], "hyperbolic": true, "volume": 1.9357565416278437, "field": "x^9 + x^7 - 11*x^6 - 66*x^5 + 288*x^4 - 1269*x^3 + 4166*x^2 - 5920*x + 2897", "degree": 9, "signature": [5, 2], "disc": 40
+{"slope": [8, 7], "hyperbolic": true, "volume": 1.977609277374774, "field": "x^13 - x^12 + 2*x^11 - 18*x^10 - 21*x^9 - 8*x^8 + 105*x^7 + 1228*x^6 - 4727*x^5 + 19095*x^4 - 61217*x^3 + 94686*x^2 - 62131
+SUMMARY hyperbolic=78 arithmetic=6 undetermined=20
+EXIT 0

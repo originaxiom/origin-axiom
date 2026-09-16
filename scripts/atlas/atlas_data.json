@@ -8451,6 +8451,30 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1419": {
+   "slug": "the arithmetic fillings corrected",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B288",
+    "B434",
+    "B734",
+    "B740",
+    "B747",
+    "S12"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [
