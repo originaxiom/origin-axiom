@@ -301,7 +301,10 @@ the public repository \url{github.com/originaxiom/origin-axiom} (mirror:
 inside the named record; a ``lock'' is a file under \texttt{tests/} that runs with the suite. The
 verification package \url{papers/P3_THE_PAPER/verification_package/} carries this table as a machine-readable
 manifest (every claim, its records, their seals, scripts and locks) with a one-command runner; its README says
-what it certifies and what it does not.
+what it certifies and what it does not. The package is also shipped as this paper's ancillary files
+(\texttt{anc/}), and the manifest records the commit hash of the repository state it was built from; a frozen
+snapshot of that state is deposited with a persistent identifier (DOI to be assigned at deposit) so that the
+records can be re-run without depending on the live repository.
 """)
         print(r"\begingroup\small\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}")
         print(r"\begin{longtable}{@{}p{9.2cm}p{2.9cm}p{2.0cm}@{}}\toprule")

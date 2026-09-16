@@ -37,6 +37,44 @@
 
 \begin{abstract}
 % Provenance (Review 56, R56-10): all verification reported in this paper is internal to the project's own re-runnable pipelines; no external review or endorsement is claimed.
+We ask what gauge structure can be extracted from one hyperbolic 3-manifold, the figure-eight knot
+complement $m004$, without importing a value. We begin with what is generic: the $E_6$ recurrence is forced
+by one ADE classification, one in three one-cusped census manifolds admits the binary tetrahedral
+surjection, and what survives is the invariant trace field $\Q(\sqrt{-3})$. From it the object supplies an
+\emph{arena} (a rank-3 abelian sector and a fifteen-dimensional piece of the $27$); the \emph{content} is
+forced by the anomaly conditions alone, in a computation containing no token of the object; the object
+forces the termination of the breaking chain and, given two listed inputs, the global form
+$[\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)]/\Z_6$. It withholds values at every bounded-height
+search we ran. We report the misses: $\sin^2\theta_W=3/8$ is Georgi--Quinn--Weinberg reproduced, not
+predicted, and runs to a $35\%$ miss in $\alpha_s$; three Standard-Model copies are exhibited on the
+object's closings, in mirror pairs, and are vector-like. The chirality bit is what the object withholds:
+the cohomological index that stands in for net chirality is zero on every finite twist of the geometric
+holonomy by a theorem, non-zero on five members of the object's commensurability class and on its
+degree-four cyclic cover, and zero on the object's own reducible locus on every module computed; the one
+mechanism by which a closing could supply chiral matter is excluded as it stands. The residue is a freedom
+ledger: one dimensionful unit external by design, two continuous anchors (one external by theorem), a
+projective line of Higgs data, and seven non-continuous rows, one relational and six externally supplied.
+All verification reported here is internal to the project's own re-runnable pipelines; no external
+review or endorsement is claimed.
+\end{abstract}
+
+\medskip
+\noindent\footnotesize
+\textbf{Keywords.} arithmetic hyperbolic 3-manifold; figure-eight knot complement; invariant trace
+field; binary tetrahedral group; McKay correspondence; exceptional Lie algebra $E_6$; anomaly
+cancellation; hypercharge; modular theory; type III factor; chirality; Dehn filling; finite covers.
+
+\smallskip
+\noindent\textbf{MSC 2020.} Primary 57K32 (hyperbolic 3-manifolds); Secondary 11F06 (arithmetic
+groups), 17B25 (exceptional Lie algebras), 81T50 (anomalies in quantum field theory), 46L36
+(classification of factors).
+
+\smallskip
+\noindent\textbf{Suggested arXiv classification.} Primary \texttt{math.GT}; cross-list
+\texttt{hep-th}, \texttt{math.NT}.
+\normalsize
+
+\section*{Summary of results}\label{sec:summary}
 We ask what gauge structure can be extracted from one hyperbolic 3-manifold --- the figure-eight
 knot complement $m004$ --- without importing a value. \textbf{We begin with what is generic.} The
 $E_6$ recurrence that motivates such programmes is forced by a single ADE classification and is
@@ -75,23 +113,6 @@ Finally we list the residue: a freedom ledger with one dimensionful unit that is
 neither relatum and requiring no act of selection, while the other six are externally supplied: an
 antilinear involution, the seed of a binary label, a choice from a finite menu, the colour frame,
 the Standard-Model shaping, and the electromagnetic identification that anchors hypercharge. All verification reported here is internal to the project's own re-runnable pipelines; no external review or endorsement is claimed.
-\end{abstract}
-
-\medskip
-\noindent\footnotesize
-\textbf{Keywords.} arithmetic hyperbolic 3-manifold; figure-eight knot complement; invariant trace
-field; binary tetrahedral group; McKay correspondence; exceptional Lie algebra $E_6$; anomaly
-cancellation; hypercharge; modular theory; type III factor; chirality; Dehn filling; finite covers.
-
-\smallskip
-\noindent\textbf{MSC 2020.} Primary 57K32 (hyperbolic 3-manifolds); Secondary 11F06 (arithmetic
-groups), 17B25 (exceptional Lie algebras), 81T50 (anomalies in quantum field theory), 46L36
-(classification of factors).
-
-\smallskip
-\noindent\textbf{Suggested arXiv classification.} Primary \texttt{math.GT}; cross-list
-\texttt{hep-th}, \texttt{math.NT}.
-\normalsize
 
 \section{Introduction}
 
@@ -1480,7 +1501,10 @@ the public repository \url{github.com/originaxiom/origin-axiom} (mirror:
 inside the named record; a ``lock'' is a file under \texttt{tests/} that runs with the suite. The
 verification package \url{papers/P3_THE_PAPER/verification_package/} carries this table as a machine-readable
 manifest (every claim, its records, their seals, scripts and locks) with a one-command runner; its README says
-what it certifies and what it does not.
+what it certifies and what it does not. The package is also shipped as this paper's ancillary files
+(\texttt{anc/}), and the manifest records the commit hash of the repository state it was built from; a frozen
+snapshot of that state is deposited with a persistent identifier (DOI to be assigned at deposit) so that the
+records can be re-run without depending on the live repository.
 
 \begingroup\small\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
 \begin{longtable}{@{}p{9.2cm}p{2.9cm}p{2.0cm}@{}}\toprule
