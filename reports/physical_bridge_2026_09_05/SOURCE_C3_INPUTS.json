@@ -1,0 +1,99 @@
+{
+  "own_input_pin": "790f2bc9fbbce30858a79ea1ced8ac6059b5e5f9",
+  "main_pin": "3857877dfcc2ac2d2c8f3d31a90114aeb606004c",
+  "grade": "Byte inventory of reused code, tests and prior evidence; not new independent proof or geometry certification.",
+  "frozen_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/HOLONOMY_SPECTRUM.md",
+      "bytes": 18097,
+      "sha256": "0afdf5c8f0dabc5e133790e0e52da42143a3874fd62cdf646cd748c0f28158ac"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_spectrum.py",
+      "bytes": 13365,
+      "sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_equivariance.py",
+      "bytes": 10600,
+      "sha256": "755cf532e118c6f4fdc66e23fdf0596b8280fe130cdd2a05e55dd8305247ee54"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_equivariance_word_control.py",
+      "bytes": 5705,
+      "sha256": "1f1fb29f26940983af65346f38266447bac22db66402c6141f2b01a5d3314f45"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/HOLONOMY_EQUIVARIANCE.md",
+      "bytes": 12560,
+      "sha256": "7b09ebf22bfae2bc469c9b896f186519edfc360944e273b4cf7f288c7c031143"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_equivariance_word_control_first_run.json",
+      "bytes": 45445,
+      "sha256": "93a5ffbd31198ad16821b7b7a21f8f45884658cb949c65f649195b88102f0d8c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/resolved_fermion.py",
+      "bytes": 12442,
+      "sha256": "c0ac7558b50d93ede2ed2542d7a78a793a9bea2e0502a1566dca1f3b71def97b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/resolved_fermion_c3_control.py",
+      "bytes": 2780,
+      "sha256": "fe908b99d0760e6b6392c397e58c86e05bae737d9dd3e958dd34bd70b89e9221"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/RESOLVED_FERMION_PROOF.md",
+      "bytes": 12557,
+      "sha256": "089af58b8cb3d23c4ba70cb1e457ea60ddf6086cdf9faed315d4a2606e3b416d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_PROOF.md",
+      "bytes": 13385,
+      "sha256": "0320fabfc02587888140b2867e24b93d151425f25c817ca1c9458c102dd7e2a5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/global_poisson.py",
+      "bytes": 12621,
+      "sha256": "931aa92abd7d3e5452d936116d51722204bd4c2699c046538867d2fab693ff2e"
+    },
+    {
+      "path": "tests/test_physical_bridge_holonomy_spectrum.py",
+      "bytes": 6108,
+      "sha256": "09d664184d85d00973f7efc8e4083441d40e2fb3ebd1c5c02f2fa810adf7b2c9"
+    },
+    {
+      "path": "tests/test_physical_bridge_holonomy_equivariance_word_control.py",
+      "bytes": 4114,
+      "sha256": "6393fce7932a7677fbd1baa171214ec1a734909f8b09c86028dc985588d72174"
+    },
+    {
+      "path": "tests/test_physical_bridge_resolved_fermion_c3_control.py",
+      "bytes": 1182,
+      "sha256": "c89c9d0894a31db2cde888921a12b2f92b4a3976f98a085515c3ea8e3e4c8427"
+    },
+    {
+      "path": "tests/test_physical_bridge_global_poisson.py",
+      "bytes": 4974,
+      "sha256": "0389cfe1efe80ea5bb542c2eed0ca4a2cead219155b5706a42280ca7835b5b67"
+    },
+    {
+      "path": "frontier/B325_z3_protection_refuted/FINDINGS.md",
+      "bytes": 4038,
+      "sha256": "07003776b4e1243216156f6fe598e7253176685b781d84bf5933e59c7ece5393"
+    },
+    {
+      "path": "frontier/B325_z3_protection_refuted/z3_protection_refuted.py",
+      "bytes": 4901,
+      "sha256": "5159832cb9ccb66b392a92ed514d5f32ebe6ff08bebb52935145ecc918736640"
+    }
+  ],
+  "pytest_focused": [
+    "tests/test_physical_bridge_source_c3.py",
+    "tests/test_physical_bridge_holonomy_spectrum.py",
+    "tests/test_physical_bridge_holonomy_equivariance_word_control.py",
+    "tests/test_physical_bridge_resolved_fermion_c3_control.py",
+    "tests/test_physical_bridge_global_poisson.py"
+  ]
+}

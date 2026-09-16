@@ -623,3 +623,18 @@ no shared number, new source model or physical chiral completion.
 | `reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_CONTROL_DESIGN.md` | `82925fffe28d629b530f161136eaaf1ada739a805e048df48759e7110547d064` |
 | `reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_CONTROL_SELECTION.json` | `f233803003b0cc3edc0f9339fb69ba2ce259945ce868aaab62a399caaa5297a5` |
 | `reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_CONTROL_DESIGN.md` | `f4377472878c198cc5381556ab4d70d7e6609206059f9bcace32c14e930d24de` |
+
+## Path-local R32 source-C3 projection, 2026-09-16 — before execution
+
+Actual invariant line characters, fixed-fibre trace and source/core modules.
+Conditional authored proof plus exact controls, not physical quotient selection.
+All six files below are sealed before the native and test runs.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/SOURCE_C3_DESIGN.md` | `4d75fc937e68a6c8bf39748bde27fbc0394f3e5df9188e010f8ab0a083637245` |
+| `reports/physical_bridge_2026_09_05/SOURCE_C3_PROOF.md` | `f9595fd330f8531623207bddd8a1aae728830aee18b93fbf047c4317b7a232e5` |
+| `reports/physical_bridge_2026_09_05/SOURCE_C3_PRIOR.md` | `cdb31cfe7fee35ab6c475649120cd023166ed05cd323559f63c494c4193ce2d9` |
+| `reports/physical_bridge_2026_09_05/SOURCE_C3_INPUTS.json` | `67574621990ebe420bab8d60297965aa5adfb9871ab8d88565abb10fee0fb0a6` |
+| `reports/physical_bridge_2026_09_05/source_c3.py` | `a4034ebc98f88d214ea6c9d0a8dec89abd4d3df84f064e86ba63c20ff6da9abe` |
+| `tests/test_physical_bridge_source_c3.py` | `2519c3a1659df147283e61dd23896a4fe23ada86e1fac297f33f7f75e8c9b934` |
