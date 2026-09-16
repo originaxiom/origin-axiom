@@ -7562,7 +7562,7 @@
    ],
    "refs": [],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 27,
+   "obstacle_conf": 33,
    "status": "banked",
    "domain": "arithmetic"
   },

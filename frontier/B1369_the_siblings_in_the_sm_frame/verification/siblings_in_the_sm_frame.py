@@ -301,6 +301,28 @@ for name in candidates:
             cross_checks += 1
             note = f"; cusp-map inference agrees: {agree}"
             assert agree, f"{name} cusp {k}: cusp-map inference {sorted(old)} vs direct {mine}"
+        if not spans_all:
+            # a partial cross-check that applies here: the scalar by which each fixer acts on the rank-1 peripheral image, from my action
+            # on H_1 and from SnapPy's cusp map (either of the two conventions, as in cusp_map_method)
+            Pm = FM.cusp[k]['P']; pv = [Pm[:, j] for j in range(Pm.cols) if Pm[:, j] != sp.zeros(FM.b1, 1)][0]
+            mine = []
+            for aut in FM.auts:
+                if FM.cusp_permutation(aut)[k] != k: continue
+                img = FM.action_on_H1(aut) * pv; lam_s = (img.T * pv)[0, 0] / (pv.T * pv)[0, 0]
+                assert img == lam_s * pv; mine.append(lam_s)
+            mu_v, lam_v = P[k]; base = mu_v if mu_v != sp.zeros(mu_v.rows, 1) else lam_v
+            r_mu = (mu_v.T * base)[0, 0] / (base.T * base)[0, 0]; r_lam = (lam_v.T * base)[0, 0] / (base.T * base)[0, 0]
+            theirs = {0: [], 1: []}
+            for iso in isos:
+                if list(iso.cusp_images())[k] != k: continue
+                C = sm2(iso.cusp_maps()[k])
+                for conv in (0, 1):
+                    Cc = C if conv == 0 else C.T
+                    sc = (Cc[0, 0] * r_mu + Cc[1, 0] * r_lam) / r_mu if r_mu != 0 else (Cc[0, 1] * r_mu + Cc[1, 1] * r_lam) / r_lam
+                    theirs[conv].append(sp.nsimplify(sc))
+            agree = sorted(mine) in (sorted(theirs[0]), sorted(theirs[1]))
+            print(f"    peripheral-line cross-check on cusp {k}: the fixers' scalars on the rank-1 peripheral image {sorted(mine)} agree with SnapPy's cusp maps: {agree}")
+            assert agree, f"{name} cusp {k}: peripheral-line scalars disagree"
         # the -1 eigenspace of the fixers on ann(P_c): the sub-family of Higgs classes closed by parity
         ann = FM.cusp[k]['ann']; d = len(ann)
         neg_dims = []

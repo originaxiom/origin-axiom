@@ -49,8 +49,9 @@ triangulations, which realise the full isometry groups of all four members (|Aut
 
 Cross-checks: the developing map closes up with pure translations on every cusp (the mirror convention is rejected automatically),
 the reduced modulus of the developed lattice equals SnapPy's cusp modulus on all four, every affine action is an isometry (|a| = 1)
-with an integral linear part of determinant ±1, and the translation parts come out as simple fractions of the periods (½, ⅘, ⅖, ⅚,
-⅓, ⅔).
+with an integral linear part of determinant ±1, the (trace, det) multiset of the fixers' linear parts equals that of SnapPy's cusp
+maps on every cusp, the lattice modulus equals the one from SnapPy's `cusp_translations`, and the translation parts come out as simple
+fractions of the periods (½, ⅘, ⅖, ⅚, ⅓, ⅔).
 
 ## 3. The statement
 

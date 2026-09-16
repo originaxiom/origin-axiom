@@ -21,6 +21,7 @@ def test_the_family_in_the_sm_frame_needs_a_free_cusp_and_parity_closes_all_but_
     assert "P_0 + P_1 = H_1: index of the sum = 1" in out
     assert "free cusps: 83; closed by parity: 79 (of which 75 already by an isometry acting on the torus by +-I, R71's form; 4 need the general lemma); parity silent: 4: [('o10_150688', 0), ('o10_150708', 0), ('o10_150716', 0), ('o10_150725', 1)]" in out
     assert "cross-checks of the direct action against the cusp-map inference: 73 cusps, all agree" in out
+    assert out.count("agree with SnapPy's cusp maps: True") == 10          # the ten free cusps of members whose peripheral classes do not span H_1
     assert "o10_150725 cusp 1: free classes 2, a fixer negates a subspace of dimension 1" in out
     assert out.count("shortest dual vector unique: True") == 4
     assert "members fully closed (no free cusp, or every free cusp closed by parity): 108 of 112; members with an open cusp: ['o10_150688', 'o10_150708', 'o10_150716', 'o10_150725']" in out
@@ -33,3 +34,10 @@ def test_the_isometry_instrument_matches_snappy_on_m412_and_closes_its_free_cusp
     assert out.count("-> closed (general) True, closed (+-I only) True") == 2
     assert "o10_150684 tets 24 b_1 2 cusps 2 |Aut| 2 |Isom| (SnapPy) 2 ranks [1, 1]" in out
     assert out.count("-> closed (general) True, closed (+-I only) False") == 2
+
+
+def test_the_instrument_reproduces_theory_predicted_ranks_on_the_whitehead_link_and_the_borromean_rings():
+    out = subprocess.run([sys.executable, str(VER / "controls.py")], capture_output=True, text=True, timeout=900).stdout
+    assert "m129  H_1 =        Z + Z: instrument (b_1, ranks) (2, [1, 1]), SnapPy (2, [1, 1]), predicted (2, [1, 1]); |Aut| 8 = |Isom| 8: OK" in out
+    assert "L6a4  H_1 =    Z + Z + Z: instrument (b_1, ranks) (3, [1, 1, 1]), SnapPy (3, [1, 1, 1]), predicted (3, [1, 1, 1]); |Aut| 48 = |Isom| 48: OK" in out
+    assert "CONTROLS PASS" in out

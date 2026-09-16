@@ -60,6 +60,7 @@ lifted traces and the cusp moduli, which are floating-point; record `siblings_in
 | m202 | H₁ = ℤ², ⟨a, b \| aabbAbAABBaB⟩; P₀ = ⟨(−2, 3), (1, 2)⟩ and P₁ = ⟨(−1, 3), (−3, 2)⟩ both of index 7, P₀ + P₁ = H₁; lifted traces (+2, +2) on both cusps; 12 isometries (D₆), 6 swap the cusps, 2 are B1321's order-3 rotation (\|det(A − I)\| = 3 on both cusps); spin-0 cusp-fixed on cusp c ⇔ χ_w⁷ = 1; the spin-½ half (a whole 10 in the (2,20) of the 78) cusp-fixed on cusp 0 with all 22 non-SM roots non-trivial: 266 characters on a grid of 1 225, every one of finite order |
 | s959 | H₁ = ℤ/3 ⊕ ℤ²; ranks [2, 2]; lifted traces (+2, −2) on cusp 0 and (−2, −2) on cusp 1; 12 isometries (D₆), 6 swap the cusps, 2 are the order-3 rotation |
 | the instrument | on every one of the 35 candidates: \|Aut(canonical retriangulation)\| = \|Isom(M)\| (SnapPy), b₁ and the peripheral ranks (link graphs) equal to SnapPy's, ∂∂ = 0, every automorphism a chain map with unimodular action on H₁; on the 73 free cusps of members whose peripheral classes span H₁, the direct action on the free classes and the torus-action types agree with the inference from SnapPy's cusp maps |
+| controls of the instrument (`verification/controls.py`) | on cases it was not built on, with theory-predicted ranks: m004 and m003 (b₁ = 1, rank 1), the Whitehead link complement m129 (linking number 0, so both longitudes null-homologous: b₁ = 2, ranks [1, 1]) and the Borromean rings complement L6a4 (b₁ = 3, ranks [1, 1, 1]) — all reproduced, with \|Aut\| = \|Isom\| (8, 8, 8, 48); and on all 112 members (not only the 35 candidates) b₁, the peripheral ranks and \|Aut\| = \|Isom\| agree with SnapPy (`controls_run.txt`) |
 | parity | **79 of 83 free cusps closed**: 75 by an isometry fixing the cusp, negating every free class and acting on the torus by ±I (R71's form); 4 (o10_150684 both cusps; o10_150725 cusps 0 and 2) only by the general lemma — the closing isometries reverse orientation (determinant −1 on the torus) |
 | the residual | 4 cusps: o10_150688 cusp 0, o10_150708 cusp 0, o10_150716 cusp 0 (one free class each; every fixing isometry acts by +1 on it), o10_150725 cusp 1 (two free classes; the fixers negate one line — the Higgs classes on that line are closed, the rest open). Reduced cusp moduli (5√3/2)i, −½ + (3√3/2)i, (5√3/2)i, −½ + (3√3/2)i (\|τ\| = 4.33, √7, 4.33, √7): a unique shortest dual vector on every one |
 | the verdict | **108 of 112 members closed** (77 by rank, 31 by parity); 4 members with an open cusp |
@@ -99,7 +100,7 @@ four residual cusps are named; there every isometry fixing the cusp acts by +1 o
 2. **What a free cusp is.** Its free classes are the 1-forms with vanishing periods on that torus — on a one-cusped member the image
    of H¹(M, ∂M) in H¹(M), the duals of the closed surfaces of M (half of H₁(∂M) dies, so rank P = 1 and the free classes number
    b₁ − 1). A one-cusped member has a free cusp iff b₁ ≥ 2 — six of the sixty do. The count-carrying siblings have b₁ = 2 with
-   two cusps of full rank: their second Betti number is spent on the cusps.
+   two cusps of full rank: their first Betti number is exhausted by the cusps' classes.
 3. **Parity in its general form matters.** Four cusps are closed only by orientation-reversing isometries (torus action of order 2
    with determinant −1), which R71's statement (σ = −1) did not cover; the proof covers them, and the arc records the general form.
    On o10_150725's rank-1 cusp the fixers negate one of the two free classes: parity closes the sectors whose Higgs class lies on that
@@ -130,7 +131,9 @@ four residual cusps are named; there every isometry fixing the cusp acts by +1 o
    member) and by the torus actions against SnapPy's cusp maps (73 cusps, all agree). The 10 free cusps on members whose peripheral
    classes do not span H₁ (o10_150688, o10_150691, o10_150712, o10_150713, o10_150714, o10_150716, o10_150724, t06828) have no
    cusp-map cross-check; their verdicts rest on the direct instrument and its self-tests (∂∂ = 0, the chain-map identity, |Aut| =
-   |Isom|, b₁ and the ranks). Of these, 8 are closed by parity and 2 (o10_150688, o10_150716) are open.
+   |Isom|, b₁ and the ranks) and on a partial cross-check that does apply there: the scalar by which each fixing isometry acts on the
+   rank-1 peripheral image agrees with SnapPy's cusp map on all 10 (section (E) of the run). Of these, 8 are closed by parity and 2
+   (o10_150688, o10_150716) are open.
 5. The leading-mode observation on the residual (§4.4) is not a closure; it names the quantity that would be.
 6. The longitude census is an aside: Calegari's −2 is checked only where SnapPy's longitude lies in the commutator subgroup; on a
    torsion or non-null class the lift's sign is a choice and the traces +2 there are not counter-examples.
@@ -149,7 +152,7 @@ spin-½ half with the Standard Model unbroken; (E) on every member with a free c
 its action on the free classes, from `verification/family_isometries.py` — the dual 2-complex of SnapPy's canonical retriangulation,
 its H₁, the link graphs' cycle spaces (the peripheral subspaces and the cusp tori), t3mlite's combinatorial automorphisms as signed
 permutations of cells — with the cusp-map inference kept as a cross-check; (F) the residual cusps' eigenspaces and lattices; (D) the
-verdict. Lock: `tests/test_b1369_the_siblings_in_the_sm_frame.py` (the whole script, about a minute, plus the instrument on two members).
+verdict. Lock: `tests/test_b1369_the_siblings_in_the_sm_frame.py` (the whole script, about a minute, the instrument on two members, and the controls).
 
 **Sources.** B1351 (the index on a cusped manifold), B1368 (sectors, cusp-fixedness, the spin split, the golden reducible points),
 B1366 (c(SM)), B1281 §2D (fc R71's region-swap theorem) and main's B1417 (its verification and scoping), B1282 (m202's isometries and

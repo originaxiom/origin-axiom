@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1218** |
-| words of findings prose | **906,072** |
+| words of findings prose | **906,227** |
 | test lock files referenced | **732** |
 | arcs carrying an authored verdict | **1218** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
@@ -69,7 +69,7 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE SIGN IS E6'S: the Standard Model embeds in E6 in one way up to conjugacy -- the 120 A2 root subsystems of E6 form one Weyl orbit, the 720 commuting (A2, A1) pairs form one orbit (every root A1 in the centraliser A2 x A2 gives 27 -> 6x2 + 15x1), and exactly three hypercharges in the 3-dimensional commutant Cartan give the 27 the Standard Model's multiset (one per choice of e^c among the three colour-weak singlets), permuted by the residual su(3)_R. For each, the roots commuting with the SM and Y-neutral are one pair +-beta, the 27's two SM singlets differ by beta (an SU(2)_beta doublet) and carry equal non-zero charge under the remaining U(1)', and the 78's SM singlets are U(1)'-neutral. Hence B1365's D-term sign theorem -- U(1)' unbroken by any tree-level SM-preserving VEV in a theory of 27s and 78s -- and its two exclusions (no seesaw with y_nu = y_u; exotic triplets at the soft scale with diquark and leptoquark couplings) hold for every E6 closing of the object whose matter is in 27s, whatever the line and whatever the reading of hypercharge; B1269's c(SM) = 5 and 13 and B1283's (beta, gamma) table are universal. Only 27-bars change the sign (L215). 0 of 19.  
 `B1366_the_sign_is_e6s/FINDINGS.md`
 
-**NEGATIVE — `B1369`** (3182 words, 1 locks)  
+**NEGATIVE — `B1369`** (3310 words, 1 locks)  
 THE FAMILY IN THE STANDARD-MODEL FRAME (sL-1, first arc): on a member of the figure-eight's commensurability class, a chiral generation from bulk matter with the Standard Model unbroken needs a FREE CUSP -- a cusp whose peripheral image in H_1(M; Q) has rank below b_1 -- because a spin-0 sector cusp-fixed on a cusp of full peripheral rank has a character of finite order, no Higgs field and no index, and the two halves of a generation never share a spin (B1368). 77 of B1186's 112 members have no free cusp (all 54 one-cusped members with b_1 = 1; 23 multi-cusped members with every peripheral rank equal to b_1, the two-cusped siblings m202 and s959 among them): closed for every flat connection. The 35 members with a free cusp carry 83 of them; the region-swap parity, run with the isometries' exact action on H_1 (the combinatorial automorphisms of the canonical retriangulation -- a new instrument, self-tested against SnapPy's isometry counts, b_1, peripheral ranks and cusp maps) and with fc R71's lemma in its general form (the torus action need not be -1: any isometry fixing the cusp and negating every free class swaps the two regions), closes 79 of the 83 (75 by an isometry acting on the torus by +-I, 4 by orientation-reversing isometries). Four cusps on four members remain -- o10_150688, o10_150708 (cusp 0), o10_150716, o10_150725 (cusp 1) -- where every isometry fixing the cusp acts by +1 on some free class and the partition itself must be computed; each has a unique shortest cusp mode. 108 of 112 members closed in the seat's frame; the residual is named as sL-1's remaining work. 0 of 19.  
 `B1369_the_siblings_in_the_sm_frame/FINDINGS.md`
 

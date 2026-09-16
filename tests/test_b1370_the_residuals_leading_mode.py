@@ -17,6 +17,7 @@ def test_the_shortest_cusp_mode_is_allowed_on_every_residual_cusp():
     assert "o10_150708 cusp 0, the free class: lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish" in out
     assert "o10_150716 cusp 0, the free class: lowest allowed shell |k|^2 = 0.013333, vectors [(0, -1), (0, 1)], dimension 1, directions [(0, 1)] -> annular unless the coefficients of the first 4 allowed shells all vanish" in out
     assert "o10_150725 cusp 1, a generic class (stabiliser: the identity alone): lowest allowed shell |k|^2 = 0.037037, vectors [(0, -1), (0, 1)], dimension 2, directions [(0, 1)] -> annular unless the coefficients of the first 2 allowed shells all vanish" in out
+    assert out.count("cross-check: (trace, det) of the fixers' linear parts agree with SnapPy's cusp maps: True; lattice modulus agrees with SnapPy's cusp_translations: True") == 4
     assert "killed by symmetry" in out            # some higher shells are killed: the half-period translations have teeth
     assert "partition depends on the coefficients" not in out.split("=== (D)")[1]
     assert "DONE" in out

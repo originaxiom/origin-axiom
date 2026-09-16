@@ -188,6 +188,7 @@
     free cusp 2 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150688: cusps 1, b_1 2, ranks [1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 10, peripheral classes span H_1: False
+    peripheral-line cross-check on cusp 0: the fixers' scalars on the rank-1 peripheral image [-1, 1] agree with SnapPy's cusp maps: True
     free cusp 0 (free classes 1), isometries fixing it 2: [(('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 0 of 1 -> parity silent on some free class: the partition must be computed
   o10_150689: cusps 2, b_1 2, ranks [1, 1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 36, peripheral classes span H_1: True
@@ -205,8 +206,10 @@
     free cusp 3 (free classes 2), isometries fixing it 4: [(('-I', 'mixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 1)]; cusp-map inference agrees: True
       largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150691: cusps 2, b_1 3, ranks [2, 2], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: False
+    peripheral-line cross-check on cusp 0: the fixers' scalars on the rank-1 peripheral image [-1, -1, 1, 1] agree with SnapPy's cusp maps: True
     free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    peripheral-line cross-check on cusp 1: the fixers' scalars on the rank-1 peripheral image [-1, -1, 1, 1] agree with SnapPy's cusp maps: True
     free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150692: cusps 2, b_1 2, ranks [1, 1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: True
@@ -261,14 +264,18 @@
     free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]; cusp-map inference agrees: True
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150712: cusps 2, b_1 3, ranks [1, 1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: False
+    peripheral-line cross-check on cusp 0: the fixers' scalars on the rank-1 peripheral image [-1, -1, 1, 1] agree with SnapPy's cusp maps: True
     free cusp 0 (free classes 2), isometries fixing it 4: [(('-I', 'mixed', 'preserving'), 2), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
+    peripheral-line cross-check on cusp 1: the fixers' scalars on the rank-1 peripheral image [-1, -1, 1, 1] agree with SnapPy's cusp maps: True
     free cusp 1 (free classes 2), isometries fixing it 4: [(('-I', 'mixed', 'preserving'), 2), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 2 of 2 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150713: cusps 1, b_1 2, ranks [1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 10, peripheral classes span H_1: False
+    peripheral-line cross-check on cusp 0: the fixers' scalars on the rank-1 peripheral image [-1, 1] agree with SnapPy's cusp maps: True
     free cusp 0 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150714: cusps 1, b_1 2, ranks [1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: False
+    peripheral-line cross-check on cusp 0: the fixers' scalars on the rank-1 peripheral image [-1, -1, 1, 1] agree with SnapPy's cusp maps: True
     free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150715: cusps 2, b_1 2, ranks [1, 1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 10, peripheral classes span H_1: True
@@ -277,6 +284,7 @@
     free cusp 1 (free classes 1), isometries fixing it 2: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1)]; cusp-map inference agrees: True
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150716: cusps 1, b_1 2, ranks [1], |Isom| 2 = |Aut(canonical retriangulation)| 2, tetrahedra 10, peripheral classes span H_1: False
+    peripheral-line cross-check on cusp 0: the fixers' scalars on the rank-1 peripheral image [-1, 1] agree with SnapPy's cusp maps: True
     free cusp 0 (free classes 1), isometries fixing it 2: [(('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 0 of 1 -> parity silent on some free class: the partition must be computed
   o10_150717: cusps 3, b_1 3, ranks [1, 1, 1], |Isom| 16 = |Aut(canonical retriangulation)| 16, tetrahedra 10, peripheral classes span H_1: True
@@ -325,6 +333,7 @@
     free cusp 1 (free classes 1), isometries fixing it 4: [(('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('order-2 (det -1)', 'fixed', 'reversing'), 1), (('order-2 (det -1)', 'negated', 'reversing'), 1)]; cusp-map inference agrees: True
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150724: cusps 1, b_1 2, ranks [1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 10, peripheral classes span H_1: False
+    peripheral-line cross-check on cusp 0: the fixers' scalars on the rank-1 peripheral image [-1, -1, 1, 1] agree with SnapPy's cusp maps: True
     free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   o10_150725: cusps 3, b_1 3, ranks [2, 1, 2], |Isom| 12 = |Aut(canonical retriangulation)| 12, tetrahedra 12, peripheral classes span H_1: True
@@ -362,6 +371,7 @@
     free cusp 4 (free classes 3), isometries fixing it 48: [(('-I', 'mixed', 'preserving'), 3), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'mixed', 'preserving'), 3), (('order-2 (det -1)', 'mixed', 'reversing'), 24), (('order-3', 'mixed', 'preserving'), 8), (('order-6', 'mixed', 'preserving'), 8)]; cusp-map inference agrees: True
       largest -1-eigenspace of a fixer on the free classes: 3 of 3 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   t06828: cusps 1, b_1 2, ranks [1], |Isom| 4 = |Aut(canonical retriangulation)| 4, tetrahedra 8, peripheral classes span H_1: False
+    peripheral-line cross-check on cusp 0: the fixers' scalars on the rank-1 peripheral image [-1, -1, 1, 1] agree with SnapPy's cusp maps: True
     free cusp 0 (free classes 1), isometries fixing it 4: [(('-I', 'fixed', 'preserving'), 1), (('-I', 'negated', 'preserving'), 1), (('I', 'fixed', 'preserving'), 1), (('I', 'negated', 'preserving'), 1)]
       largest -1-eigenspace of a fixer on the free classes: 1 of 1 -> N = 0 by parity (an isometry fixes the cusp and negates every free class)
   free cusps: 83; closed by parity: 79 (of which 75 already by an isometry acting on the torus by +-I, R71's form; 4 need the general lemma); parity silent: 4: [('o10_150688', 0), ('o10_150708', 0), ('o10_150716', 0), ('o10_150725', 1)]

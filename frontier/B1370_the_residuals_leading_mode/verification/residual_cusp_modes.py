@@ -250,6 +250,15 @@ for name, c in RESIDUAL:
         orient, A, bc, a, b = affine_action(FM, c, aut, pos, b1, b2)
         acts.append((aut, X, orient, A, bc))
         print(f"    fixer: orientation {'+' if orient == 1 else '-'}, linear part on Lambda {A.tolist()} (det {int(round(np.linalg.det(A)))}), translation (Lambda-coordinates mod 1) ({bc[0]:.4f}, {bc[1]:.4f}), action on the free classes {X.tolist()}")
+    # cross-checks against SnapPy: the (trace, det) multiset of the fixers' linear parts against the cusp maps of the isometries fixing
+    # the cusp, and the developed lattice's modulus against cusp_translations()
+    mine_td = sorted((int(np.trace(x[3])), int(round(np.linalg.det(x[3])))) for x in acts)
+    def _sm2(cm): return sp.Matrix([[int(cm[i, j]) for j in range(2)] for i in range(2)])
+    theirs_td = sorted((int(_sm2(iso.cusp_maps()[c]).trace()), int(_sm2(iso.cusp_maps()[c]).det())) for iso in FM.M.isomorphisms_to(FM.M) if list(iso.cusp_images())[c] == c)
+    trl = FM.M.cusp_translations()[c]; tau_tr = reduce_tau(complex(trl[1]) / complex(trl[0]))
+    ok_td = mine_td == theirs_td; ok_tr = abs(tau_tr - reduce_tau(b2 / b1)) < 1e-6 or abs(tau_tr + reduce_tau(b2 / b1).conjugate()) < 1e-6
+    print(f"  cross-check: (trace, det) of the fixers' linear parts agree with SnapPy's cusp maps: {ok_td}; lattice modulus agrees with SnapPy's cusp_translations: {ok_tr}")
+    assert ok_td and ok_tr, "cross-check against SnapPy failed"
     # the classes: for one free class, every fixer acts by +-1 on it; for two, a class v is constrained only by its stabiliser
     # (the fixers with X v = +-v), so the special lines are the eigenlines of the fixers and every other class sees the identity alone
     Xs = [x[1] for x in acts]

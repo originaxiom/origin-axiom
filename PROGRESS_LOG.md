@@ -14985,3 +14985,15 @@ shells. Consequence: the partitions are annular and N = 0 unless the harmonic fo
 one Fourier coefficient of a harmonic 1-form per cusp (numerical, or the members' Bianchi-type forms). Verdict OPEN (narrowed) + PROVED
 (the census); surfaces (OPEN_LEADS, THE_VERDICT, THE_CLOSING, THE_SM_VERDICT, CHIRALITY_MAP, the spec and destination ledgers, the
 toolbox, the letter's twenty-ninth note, the view, the alias table), currency note on B1369. Lock (seconds). 0 of 19.
+
+### Verification pass on B1369/B1370 (2026-09-16, on the owner's "are you sure?")
+
+The instrument re-tested on cases it was not built on, with theory-predicted answers: m004 and m003 (b₁ = 1, rank 1), the Whitehead link
+complement m129 (linking number 0 ⇒ both longitudes null-homologous: b₁ = 2, ranks [1, 1], both cusps free) and the Borromean rings
+complement L6a4 (b₁ = 3, ranks [1, 1, 1]) — all reproduced, |Aut| = |Isom| (8, 8, 8, 48). The agreement with SnapPy's fundamental group
+(b₁, peripheral ranks) and isometry counts extended from the 35 candidates to all 112 members: no disagreement (`controls.py --all`,
+`controls_run.txt`). The ten free cusps without a cusp-map cross-check now have a partial one — the scalar by which each fixer acts on the
+rank-1 peripheral image agrees with SnapPy's cusp maps on all ten (asserted in section (E)). B1370's affine linear parts agree with SnapPy's
+cusp maps in (trace, det) on all four residual cusps and the developed lattices with `cusp_translations` (asserted). Two wording
+corrections: B1369 §4.2 ("first Betti number exhausted by the cusps' classes", not "second"); the retractions row on B1281's ±4 now
+quotes B1281 §2D's own caveat (the product mode sin(4πx)·cos(2πy)). Locks extended; nothing in the verdicts changed.

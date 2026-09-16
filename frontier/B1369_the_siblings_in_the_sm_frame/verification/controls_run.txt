@@ -1,0 +1,7 @@
+=== controls: theory-predicted peripheral ranks ===
+  m004  H_1 =            Z: instrument (b_1, ranks) (1, [1]), SnapPy (1, [1]), predicted (1, [1]); |Aut| 8 = |Isom| 8: OK
+  m003  H_1 =      Z/5 + Z: instrument (b_1, ranks) (1, [1]), SnapPy (1, [1]), predicted (1, [1]); |Aut| 8 = |Isom| 8: OK
+  m129  H_1 =        Z + Z: instrument (b_1, ranks) (2, [1, 1]), SnapPy (2, [1, 1]), predicted (2, [1, 1]); |Aut| 8 = |Isom| 8: OK
+  L6a4  H_1 =    Z + Z + Z: instrument (b_1, ranks) (3, [1, 1, 1]), SnapPy (3, [1, 1, 1]), predicted (3, [1, 1, 1]); |Aut| 48 = |Isom| 48: OK
+=== all 112 members: b_1, peripheral ranks and |Aut| = |Isom| against SnapPy (244 s): disagreements none ===
+CONTROLS PASS
