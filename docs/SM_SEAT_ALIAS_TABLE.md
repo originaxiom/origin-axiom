@@ -118,3 +118,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-16 (later):* B1366 used (the sign is E₆'s); next arc B1367.
 
 *Update 2026-09-16 (audit lane @ 790f2bc9):* the audit lane's boundary-table correction and chat1 audit read; nothing addressed to this seat (B1362–B1364 noted there as fetched leads); B1350–B1399 stands; next arc B1367.
+
+*Update 2026-09-16 (later):* B1367 used (the doublet–triplet pincer; L215 closed, L216 registered); next arc B1368.

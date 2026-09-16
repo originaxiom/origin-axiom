@@ -224,3 +224,8 @@ the 27 carry the same U(1)_η charge, so no tree-level VEV breaks it above the s
 scale, not only "nowhere in the cubic" (B1271 (d)). With y_ν = y_u (B1276) the neutrinos are Dirac at the up-quark masses: the design
 is excluded by these rows unless it acquires a 27̄ sector (L215), in which case the paired case returns — massless at tree level, with
 ν^c ν^c ν̄^c ν̄^c/M the seesaw's source. `frontier/B1365_the_bulk_of_the_line` §4.*
+
+*Currency 2026-09-16 (B1367): D3's "doublet–triplet splitting — not tree" is now "never, for point-localised matter": the doublet and
+triplet mass blocks share their generation matrix in every E₆-symmetric vacuum (9 300 configurations, zero exceptions), so a light Higgs
+comes with a light D and proton decay. The row's owner is chiral bulk matter on the cusped object (L216), where a line can split (B1302).
+`frontier/B1367_the_doublet_triplet_pincer`.*

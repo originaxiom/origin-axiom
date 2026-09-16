@@ -86,3 +86,5 @@ and D exchange gives τ_p ~ 10⁻¹² s. No symmetry of the design separates the
 group is the connected S(U(3) × U(2) × U(1)); the apex U(1)² charge a 27's components alike). §2's forced doublet–triplet tension
 and §5's neutrino statement are the same wall seen from two sides: the three-apex design with the η line is excluded by proton decay
 and by neutrino masses, each through ⟨N⟩. `docs/OPEN_LEADS.md` L215 corollary; `frontier/B1365_the_bulk_of_the_line`.)*
+
+*(Currency 2026-09-16, B1367: §2 is a theorem — with E₆-symmetric couplings among any number of 27s the doublet and triplet mass blocks share their generation matrix (N: H_u–H_d and D–D̄; ν^c: L–H_u and D–d^c, one invariant each), so light Higgs doublets = light exotic triplets in every vacuum (9 300 configurations, zero exceptions) and §3's bound cannot be met by point-localised matter: every apex design is excluded; the splitting needs a line on bulk matter (B1302), i.e. chiral bulk matter, L216. `frontier/B1367_the_doublet_triplet_pincer`.)*

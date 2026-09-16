@@ -177,3 +177,5 @@ the up-quark hierarchy: Q, u^c, H_u are β-neutral, so it enters the up-type Yuk
 one Weyl orbit; 720 commuting (A₂, A₁) pairs in one orbit; three hypercharges permuted by the residual su(3)_R), and in every reading the
 27's two SM singlets are an SU(2)_β doublet with equal U(1)′ charge while the 78's are neutral. §4's theorem and the two exclusions hold
 for every E₆ closing of the object with matter in 27s. `frontier/B1366_the_sign_is_e6s`.)*
+
+*(Currency 2026-09-16, B1367: the remedy of §4 (a 27̄ sector) would not have sufficed: the doublet and triplet blocks share their generation matrix in every E₆-symmetric vacuum, so a light Higgs brings a light D whatever the singlet VEVs; the apex route is closed by B1367 and L215 with it; the door is L216. `frontier/B1367_the_doublet_triplet_pincer`.)*

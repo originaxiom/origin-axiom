@@ -107,3 +107,5 @@ normalisation of w that fixes the 27's charge against the Z₃ global form.
 not clear"); Kronheimer, J. Diff. Geom. 29 (1989) (the ALE spaces as quiver quotients; singular fibres from the root hyperplanes);
 Witten, hep-th/0108165 §3 (the inflow); Berglund–Brandhuber, hep-th/0205184 (SU(N) and SO(2N) unfoldings; exceptional cases not
 treated). B1355 (corrected), B1356–B1359 (this branch); main's B1413.
+
+*(Currency 2026-09-16, B1367: as for B1355: the companion-free apex is a correct local model for a chiral 27, and every closing built from apexes alone is excluded by the doublet–triplet pincer; L216 moves the question to chiral bulk matter. `frontier/B1367_the_doublet_triplet_pincer`.)*

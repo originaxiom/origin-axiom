@@ -707,3 +707,13 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       orbit of A₂'s and of commuting (A₂, A₁) pairs; three hypercharges permuted by su(3)_R), so
       the sign holds for every reading of hypercharge — the hint's law-shaped part is now a
       theorem of E₆ with 27s; the fence stays on the remedy.
+  (20) H-PINCER (type LAW-SHAPED, proved on E₆; 2026-09-16, B1367): in any E₆ theory whose
+      27s have E₆-symmetric couplings (up to whole-27 holonomy factors), the up-Higgs doublets
+      and the exotic colour triplets are paired by one generation matrix — N pairs H_u with H_d
+      as it pairs D with D̄, ν^c pairs L with H_u as it pairs D with d^c — so light Higgs
+      doublets = light exotic triplets in every vacuum, and the light triplet decays the
+      proton. Splitting requires E₆-breaking acting on the matter: a Wilson line on bulk modes
+      does it (B1302), nothing does it for point-localised matter. Consequence: chirality from
+      points (apexes) and a split Higgs sector are incompatible in E₆; a viable E₆ closing of the
+      object must carry chiral bulk matter, which only the cusped object's ends could supply
+      (B1351's escape; L216).

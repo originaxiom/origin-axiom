@@ -80,3 +80,5 @@ for each, ±β, γ, the singlets' charges, the 78's singlets. Lock: `tests/test_
 **Sources.** B1365 (the sign theorem on the standard chain), B1364 (the line), B1269 (c(SM), the double centraliser), B1283 (the (β, γ)
 table), B1268 (E₆ from the object), B1276 (the 27 and its one coupling). Dynkin's index for the regularity of index-one subalgebras;
 the trinification decomposition 27 = (3, 3̄, 1) ⊕ (3̄, 1, 3) ⊕ (1, 3, 3̄) for the reading of the three singlets as a 3̄ of SU(3)_R.
+
+*(Currency 2026-09-16, B1367: the sign theorem's exclusions are now subsumed by the pincer: point-localised 27s cannot split doublets from triplets at all, so every apex design is excluded regardless of 27̄s; the theorem of this arc remains the reason a 27̄ sector is the only way to break U(1)′, which chiral bulk matter on the cusped object would have to supply as well (L216). `frontier/B1367_the_doublet_triplet_pincer`.)*

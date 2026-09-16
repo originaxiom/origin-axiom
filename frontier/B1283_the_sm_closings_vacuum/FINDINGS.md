@@ -114,3 +114,5 @@ masses (L215). `frontier/B1365_the_bulk_of_the_line`.)*
 *(Currency 2026-09-16, B1366: the (β, γ) table is universal — for every embedding of the Standard Model in E₆ (one up to conjugacy) the
 27's two SM singlets are an SU(2)_β doublet with equal γ; the Z′ = Z_η identification of B1365 and the sign theorem hold in every reading
 of hypercharge. `frontier/B1366_the_sign_is_e6s`.)*
+
+*(Currency 2026-09-16, B1367: §3's 'exactly one light Higgs pair and exactly one light D pair' is the pincer: the two blocks share their generation matrix for any coupling tensor and any VEVs of N and ν^c; on Y₉ (bulk matter) the line could in principle split them and does not (B1300), on Y₁₂ it does (B1302), at apexes nothing can. `frontier/B1367_the_doublet_triplet_pincer`.)*

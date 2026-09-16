@@ -1,5 +1,9 @@
 # Changelog
 
+## B1367 — the doublet–triplet pincer: with E₆-symmetric couplings among any number of 27s the up-Higgs doublets and the exotic triplets are paired by the same generation matrix (one invariant each for N and for ν^c), so every vacuum with a light Higgs has a light D and proton decay — every apex design of the object is excluded, with or without 27̄s and whatever the line; the one door is chiral bulk matter on the cusped object (L216)
+
+The cubic in trinification form, polarised; 9 300 configurations over three, four and six copies and fifteen coupling patterns, zero exceptions; lock in seconds.
+
 ## B1366 — the sign is E₆'s: the Standard Model embeds in E₆ once up to conjugacy (120 A₂'s in one Weyl orbit, 720 commuting (A₂, A₁) pairs in one orbit, three hypercharges permuted by su(3)_R), so in every reading the 27's two singlets are an SU(2)_β doublet with equal U(1)′ charge and B1365's sign theorem with its two exclusions is embedding-independent
 
 Exact on the root system; lock in seconds.

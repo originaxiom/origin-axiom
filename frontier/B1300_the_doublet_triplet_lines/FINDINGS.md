@@ -180,3 +180,5 @@ to the same involution, whose −1 roots are the colour triplets (3,1)_{∓1/3} 
 SM-reaching line carries one vector-like triplet pair and never a doublet, while the doublet-type −1 sets belong to the elements that
 stop at SU(5) × U(1) or SU(3)³-like groups. The triplet's protection again, now as the line's bulk.
 `frontier/B1365_the_bulk_of_the_line` §3.)*
+
+*(Currency 2026-09-16, B1367: the theorem's other side — for point-localised 27s no line acts on the matter at all, and the E₆ cubic then ties the doublet and triplet blocks by one generation matrix: light Higgs = light D in every vacuum, so every apex design is excluded; the splitting a line can give (B1302) requires bulk matter, hence chiral bulk matter for a chiral closing (L216). `frontier/B1367_the_doublet_triplet_pincer`.)*

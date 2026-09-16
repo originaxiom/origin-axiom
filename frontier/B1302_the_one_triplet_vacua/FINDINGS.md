@@ -107,3 +107,5 @@ pairs.
   six patterns with the massless fields identified.
 - Depends on B1301 (Y₁₂'s support and lines), B1283 (the branch rule and the μ-matrix), B1300 (the weight table and
   the couplings), B1278, B1276 (the one-coupling cubic), B1277.
+
+*(Currency 2026-09-16, B1367: this arc's one-triplet vacua are the only splitting mechanism the record has: a Wilson line acting on bulk matter. B1367 shows nothing can split point-localised matter (the doublet and triplet blocks share their generation matrix), so a chiral closing with a split Higgs sector needs chiral bulk matter — the cusped object's ends (L216), where this arc's instrument would be re-run on the twisted cohomology of the knot group. `frontier/B1367_the_doublet_triplet_pincer`.)*

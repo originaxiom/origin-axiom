@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1215** |
-| words of findings prose | **896,996** |
+| words of findings prose | **897,508** |
 | test lock files referenced | **729** |
 | arcs carrying an authored verdict | **1215** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1366`** (1277 words, 1 locks)  
+**PROVED — `B1366`** (1342 words, 1 locks)  
 THE SIGN IS E6'S: the Standard Model embeds in E6 in one way up to conjugacy -- the 120 A2 root subsystems of E6 form one Weyl orbit, the 720 commuting (A2, A1) pairs form one orbit (every root A1 in the centraliser A2 x A2 gives 27 -> 6x2 + 15x1), and exactly three hypercharges in the 3-dimensional commutant Cartan give the 27 the Standard Model's multiset (one per choice of e^c among the three colour-weak singlets), permuted by the residual su(3)_R. For each, the roots commuting with the SM and Y-neutral are one pair +-beta, the 27's two SM singlets differ by beta (an SU(2)_beta doublet) and carry equal non-zero charge under the remaining U(1)', and the 78's SM singlets are U(1)'-neutral. Hence B1365's D-term sign theorem -- U(1)' unbroken by any tree-level SM-preserving VEV in a theory of 27s and 78s -- and its two exclusions (no seesaw with y_nu = y_u; exotic triplets at the soft scale with diquark and leptoquark couplings) hold for every E6 closing of the object whose matter is in 27s, whatever the line and whatever the reading of hypercharge; B1269's c(SM) = 5 and 13 and B1283's (beta, gamma) table are universal. Only 27-bars change the sign (L215). 0 of 19.  
 `B1366_the_sign_is_e6s/FINDINGS.md`
 

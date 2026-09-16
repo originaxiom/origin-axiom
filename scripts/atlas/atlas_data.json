@@ -6561,10 +6561,11 @@
     "wrt_quantum"
    ],
    "refs": [
-    "L215"
+    "L215",
+    "L216"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 20,
+   "obstacle_conf": 22,
    "status": "banked",
    "domain": "dynamics"
   },
@@ -6770,7 +6771,7 @@
     "L215"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 14,
+   "obstacle_conf": 15,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -6861,10 +6862,11 @@
    "refs": [
     "K2",
     "K3",
-    "L209"
+    "L209",
+    "L216"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 41,
+   "obstacle_conf": 42,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -6901,10 +6903,11 @@
     "amphichiral_cp"
    ],
    "refs": [
-    "L210"
+    "L210",
+    "L216"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 42,
+   "obstacle_conf": 43,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7360,7 +7363,8 @@
    ],
    "refs": [
     "L212",
-    "L213"
+    "L213",
+    "L216"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 3,
@@ -7458,10 +7462,11 @@
    ],
    "refs": [
     "L201",
-    "L215"
+    "L215",
+    "L216"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 17,
+   "obstacle_conf": 18,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7475,7 +7480,8 @@
     "wrt_quantum"
    ],
    "refs": [
-    "L215"
+    "L215",
+    "L216"
    ],
    "obstacle": "cancellation",
    "obstacle_conf": 10,

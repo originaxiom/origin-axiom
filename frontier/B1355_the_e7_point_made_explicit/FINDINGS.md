@@ -137,3 +137,5 @@ compatible with appropriately charged 27s, not a global form computed from this 
 *(Currency 2026-09-15, B1360: the other local model's topology. AW's E₇ → E₆ unfolding cone has singular set the E₆ locus and the apex
 only, b₂(link) = 1, and an E₆ link pairing non-trivially with the generator (the hyperkähler circle acts on the E₆ point's tangent cone
 as a scalar) — so the inflow of §3 applies to it as to this cone, with no A₁ companion and no cone lines. `frontier/B1360_the_companion_free_apex`.)*
+
+*(Currency 2026-09-16, B1367: the apex's fate — every design with E₆-charged matter at points is excluded by the doublet–triplet pincer (the E₆ cubic pairs H_u–H_d and D–D̄ by one generation matrix; a light Higgs brings a light D and proton decay; point-localised 27s see no E₆-breaking). The E₇ point remains the correct local model for a chiral 27; it cannot be the whole of a Standard-Model closing. `frontier/B1367_the_doublet_triplet_pincer`.)*

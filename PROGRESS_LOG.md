@@ -14918,3 +14918,14 @@ one unresolved E₆ locus. The line cannot supply the up-quark hierarchy (Q, u^c
 multiset (one per choice of e^c), permuted by the reflections of su(3)_R; for each: ±β, γ, the two singlets β = ±1 with equal non-zero γ
 and difference ±β, the 78's singlets γ = 0. Verdict PROVED; surfaces (OPEN_LEADS L215 status, THE_CLOSING §1/§6.9, THE_SM_VERDICT,
 CHIRALITY_MAP §6p, the spec ledger, the letter's twenty-fourth note, hint 19), currency notes on B1365, B1269, B1283. Lock (seconds). 0 of 19.
+
+### B1367 — the doublet–triplet pincer: light up-Higgs doublets = light exotic triplets for every E₆-symmetric vacuum, so every apex design is excluded; L216 registered (2026-09-16)
+
+The E₆ cubic in trinification form (det L + det Q + det Q^c + Tr(Q L Q^c)) polarised; the pairings on unit slots (N: H_u–H_d ±1/6 and D–D̄
++1/6; ν^c: L–H_u +1/6 and D–d^c +1/6; the cross terms zero); the Hessian blocks for n copies as Kronecker products of the generation
+matrices with the single-27 structure constants; ranks over n = 3, 4, 6 × fifteen coupling patterns (hollow, generic, diagonal, twelve
+random masks) × every VEV support (64 at n = 3, 256 at n = 4, 300 random at n = 6): 9 300 configurations, light H_u ≠ light D never,
+minimum light D with a light H_u = 1, no configuration with a Higgs, no light D and four light Y = −½ doublets. Verdict NEGATIVE (the
+apex route) + PROVED. Surfaces (OPEN_LEADS L215 closed, L216 registered; THE_CLOSING §0/§1/§6.11; THE_SM_VERDICT; CHIRALITY_MAP §6q;
+the spec ledger; the letter's twenty-fifth note; the view; the destination ledger; hint 20), currency notes on B1276, B1283, B1300,
+B1302, B1355, B1360, B1365, B1366. Lock (seconds). 0 of 19.

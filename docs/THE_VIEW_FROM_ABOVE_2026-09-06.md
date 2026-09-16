@@ -222,6 +222,15 @@ and the failure is structural: it needs 27̄s — anti-apexes (nine, the deck be
 which is L215. Seen from above, the two halves of the record are asking to be joined the other way round too: the closed closing's
 vector-like h¹ sector, useless for chirality, is exactly the 27̄ sector the apex design lacks.
 
+**And the pincer, the next morning (B1367).** The join would not have been enough. The E₆ cubic pairs the up-Higgs doublets with the
+down-Higgs doublets by the same generation matrix that pairs the exotic triplets with their partners — one invariant each — so every
+vacuum with a light Higgs has a light D, and the light D decays the proton. The only thing that can split them is E₆-breaking acting on
+the matter: a Wilson line does it to bulk modes (B1302's one-triplet vacua) and nothing does it to fields at points. So chirality from
+apexes and a split Higgs sector are incompatible, and every apex design of the object is excluded, whatever the line and however many
+anti-apexes. Seen from above, the two halves of the record now have to meet in the one place they have not: chiral bulk matter —
+impossible on closed closings (B1351), possible on the cusped object only through its ends, which is where the physical-bridge lane
+has been working from the other side. That is L216.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with

@@ -460,3 +460,7 @@ unchanged in count: 0 of 19; the neutrino rows now carry a design-level obstruct
 *Addendum (2026-09-16, B1366):* the obstruction is embedding-independent — the Standard Model sits in E₆ once up to conjugacy (one Weyl
 orbit of A₂'s, one of commuting (A₂, A₁) pairs, three hypercharges permuted by su(3)_R), and in every reading the 27's two singlets are an
 SU(2)_β doublet with equal U(1)′ charge. Rows A1/C/E and the neutrino rows: the sign theorem is E₆'s. Rows unchanged in count: 0 of 19.
+
+*Addendum (2026-09-16, B1367):* rows C/E — the doublet–triplet splitting is impossible for point-localised matter by theorem (the doublet
+and triplet mass blocks share their generation matrix; 9 300 configurations, zero exceptions), so every apex design is excluded through
+proton decay; the rows' owner becomes chiral bulk matter on the cusped object (L216). Rows unchanged in count: 0 of 19.

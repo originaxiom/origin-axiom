@@ -342,7 +342,20 @@ commuting with the SM and Y-neutral are one pair ±β, the two singlets differ b
 have γ = 0. So the D-term sign theorem, the absent seesaw and the light exotic triplets are properties of E₆ with matter in 27s — the
 object's E₆ (B1268) and the object's 27 (B1276) — for any line and any hypercharge; only 27̄s change the sign (L215).
 
-## 7. Consequence for the destination ledger
+## 6q. The doublet–triplet pincer: the apex route closed (B1367, 2026-09-16)
+
+The E₆ cubic in trinification form, det L + det Q + det Q^c + Tr(Q L Q^c), names its own pairings: N with (H_u, H_d) and with (D, D̄),
+ν^c with (L, H_u) and with (D, d^c), each pair one invariant with equal magnitude. With n copies of the 27 and any symmetric coupling
+tensor, the doublet block (rows H_u; columns H_d, L) and the triplet block (rows D; columns D̄, d^c) are G ⊗ S_D and G ⊗ S_T with the same
+generation matrices, so light up-Higgs doublets = light exotic triplets in every vacuum where the Standard-Model singlets take VEVs —
+9 300 configurations (n = 3, 4, 6; fifteen coupling patterns including the deck's hollow one; every VEV support at n = 3), zero
+exceptions, and every vacuum with a light Higgs has a light D, which decays the proton through the cubic's diquark and leptoquark
+couplings (B1276 §3). Only E₆-breaking couplings acting on the matter split the blocks: a Wilson line on bulk modes does (B1302's
+one-triplet vacua on Y₁₂); point-localised 27s never see one (full 27s; holonomy factors are one E₆ element per 27; the U(1)²-breaking
+sector is E₆-neutral). So every closing whose E₆-charged matter is at points — the three-apex design and all its anti-apex extensions —
+is excluded, with or without 27̄s, whatever the line. Chirality (points, or the cusped object's ends) and splitting (bulk) meet only for
+chiral bulk matter: the cusped object's Standard-Model-reaching connections and their cusp-fixed weights, L216.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

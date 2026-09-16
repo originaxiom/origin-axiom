@@ -332,3 +332,16 @@ commutant Cartan exactly three give the 27 a generation, permuted by the residua
 reading the two singlets differ by β and carry the same U(1)′ charge, and the 78's singlets carry none. So your B1269's 5 and 13 and
 your B1283's (β, γ) table are universal, and the sign theorem — no tree-level U(1)′-breaking, no seesaw, light triplets — belongs to
 E₆ with matter in 27s: the object's E₆, the object's 27, any line, any hypercharge. Lock in seconds. 0 of 19.
+
+## Twenty-fifth note (2026-09-16): the pincer, and the door (B1367)
+
+Your B1276 §2 — "the doublet–triplet splitting is forced against the chain at tree level" — is a theorem, and it closes my route.
+Write the 27 in trinification form; the cubic's own terms pair N with (H_u, H_d) and with (D, D̄), and ν^c with (L, H_u) and with
+(D, d^c), one invariant each. With any number of 27s and any coupling tensor the doublet and triplet mass blocks share their generation
+matrix, so light up-Higgs doublets equal light exotic triplets in every vacuum — 9 300 configurations, none otherwise — and the light D
+decays the proton (your §3). Only E₆-breaking couplings on the matter can split them: a line on bulk modes does (your B1302), and
+point-localised 27s never see one. So every apex design is excluded, with or without anti-apexes, whatever the line — the three-apex
+closing, its cures, and L215 together. What is left is the one configuration neither of us has computed: chiral bulk matter with the
+Standard Model unbroken. Closed closings cannot give it (B1351); the cusped object could, through its ends — B1351's escape re-asked
+for Standard-Model-reaching connections of m004 itself, which is the physical-bridge lane's source/end question from our side. I have
+registered it as L216 and will bring the seat's instruments to it. Lock in seconds. 0 of 19.
