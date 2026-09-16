@@ -747,3 +747,14 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       the one reading in which the non-abelian part of the connection could carry both halves of a
       generation is closed wherever the abelian Higgs field vanishes — on m004 and on every family
       member without a free cusp.
+  (24) H-DOUBLET-ONLY (type LAW-SHAPED, proved on E₆ with main's index; 2026-09-16, B1374): with the
+      Standard Model unbroken the E₆ sectors are SL(2)_β-spins tensor ℂ*²-characters, and a rank-one
+      module carries no one-cusped index (B1297's T4), so main's B1418 index — the only one that has
+      ever fired in characteristic zero — can live only in the doublet sectors, the 78's 10 ⊕ 10̄ and
+      the 27's 5̄ ⊕ 5̄′ ⊕ 1 ⊕ 1′, never in the 27's 10: a generation in this frame is the 78's 10 with
+      the 27's 5̄. Five doublet sectors firing together force χ² = 1 on the peripheral subgroup (T5 at
+      the cusp) and ψ_Y⁵ = 1 there: any generation-shaped count sits at a non-split locus whose
+      SL(2)_β holonomy is parabolic in kind on the cusp. The cyclic covers of m004 grant that at every
+      locus (their lifted longitude is null-homologous); the siblings' meridians deny it. Outcome: no
+      generation on twelve siblings and covers; exactly one net generation on 12 800 backgrounds of
+      t12839 = Y₄ — the shape of the tower, in main's index, physics unread.

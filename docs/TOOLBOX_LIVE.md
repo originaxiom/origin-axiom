@@ -108,3 +108,12 @@ escalation are the proof).
   deterministic fine path (steps of 1/64) that reads the degeneration wall and the growth of the other translation length. Practice
   learned there: **SnapPy's `randomize()` is seeded by the wall clock** — its output differs between runs a second apart, so nothing
   downstream of it belongs under a lock; use the original triangulation or a deterministic retriangulation.
+- **B1374 (2026-09-16, the SM seat)** — `frontier/B1374_the_class_index_in_the_sm_frame/verification/index_lib.py`: **the one-cusped
+  index of main's B1297 (I = n(V) − n(V*), n = a₁ − r₁) over prime fields**, with its own conventions — Fox calculus in the left
+  convention, the cohomology of the group and of the cusp torus, the restriction rank, B1297's identities asserted on every module —
+  plus characters into μ_N, the non-split cocycle at a locus, ρ_χ and Sym^m; `exact_check.py`, the same over ℚ(ζ_N) (own cyclotomic
+  arithmetic, ranks as ℚ-ranks of the regular representation); `torsion_complete.py`, the vectorised pair census of the Standard-Model
+  sectors over Hom(H₁, μ_N)². Ranks over GF(p) never exceed the characteristic-zero ranks, so three primes with the identities detect a
+  drop; against main's exact record 19 253 modules agreed. Practice learned: the locus set (h¹(χ²) > 0) can only grow modulo p, so take
+  the intersection over the primes; a search in μ₁₂ misses the torsion characters of ℤ/5, ℤ/10, ℤ/15, ℤ/16 members — use N = lcm(12,
+  torsion exponent), and larger primes (421, 541, 601 for N = 60) than 61.

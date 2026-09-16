@@ -2832,3 +2832,28 @@ degenerate before the point — ideal points of the real path, 23 within a sixte
 translation length monotone increasing on the approach. No order-4 candidate on the geometric path. **Residual now:** points off the real path or on other
 components of those character varieties — the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds, beyond the record's
 tools. `frontier/B1373_the_order_4_points_on_the_geometric_components`.
+
+**Status (2026-09-16, B1374 — main's B1418 verified and read in this frame; one generation on the tower).** Main's B1418 found the
+one-cusped index I = n(V) − n(V*) (B1297) firing on reducible non-split modules of five siblings and of m004's degree-4 cyclic cover
+t12839. Verified here module by module with own code over three prime fields: all 19 253 modules main ran, identical. In the
+Standard-Model frame the spin-0 sectors (the 27's 10 and 5, the 78's 35) are rank-one modules and carry no index (T4; 21 100
+recomputed, all 0), so the bit lives only in the doublet sectors (the 78's 10 ⊕ 10̄, the 27's 5̄ ⊕ 5̄′ ⊕ 1 ⊕ 1′). On the twelve members
+other than t12839, over every pair of ℂ*²-characters of order dividing 12 and over the groups complete on the torsion of H₁ (two more
+members fire there, o10_150697 and m208, invisible in μ₁₂), the six counts never form a generation and never an anomaly-free non-zero
+spectrum. **On t12839 = Y₄ of this seat's tower, 12 800 backgrounds (64 loci of order 15 and 30; ψ_Y trivial or of order 5; ψ_γ of
+order up to 30) carry exactly one net generation — Q = u^c = e^c = d^c = L = ±1, every other sector 0, anomaly-free — recomputed over
+three primes and, on three backgrounds, exactly over ℚ(ζ₆₀).** Why the tower: five doublet sectors firing at once force χ² = 1 on the
+peripheral subgroup (T5 at the cusp) and ψ_Y⁵ = 1 there; the cyclic covers of m004 have a null-homologous lifted longitude, so the
+condition holds at every locus; the siblings' meridians deny it. Fences: main's index on a non-semisimple background, no physics
+reading, one generation not three. Continued as **sL-2**. `frontier/B1374_the_class_index_in_the_sm_frame`.
+
+## sL-2 — THE TOWER'S GENERATION COUNT (registered 2026-09-16, B1374; sL-1's continuation)
+**The fact.** On Y₄ = t12839 the sector-by-sector one-cusped index of a flat E₆(ℂ) connection in c(SM) with a reducible non-split
+SL(2)_β holonomy at a torsion locus is exactly one Standard-Model generation (B1374 §1 C″, exact). **The questions.** (i) The same
+census on every cyclic cover of m004 in the family (m206, s961 = Y₃: 0 at N = 12; t12840; o10_150685; o10_150696; o10_150703) and on
+the higher levels Y₅–Y₁₂ built by `covers`, with N complete on each level's torsion: does the net count grow with the level, and is
+there a level with three? (ii) At h¹(χ²) = 1 the count is a topological invariant of the pair (level, character data); the tower's
+alphabet (B1301–B1304) may predict which loci fire. (iii) The physics reading of a non-split SL(2)_β holonomy — what background a
+non-unitary reducible flat connection is in the 3d–3d or AW dictionaries — is main's fence and the question that would make the count
+a claim. **Tools:** `frontier/B1374_the_class_index_in_the_sm_frame/verification/index_lib.py` and the census scripts; the exact checker
+for any background named. **What would close it:** a level-by-level table with the counts, or a proof that the count is 1 on every level.

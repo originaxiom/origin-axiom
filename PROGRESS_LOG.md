@@ -15036,3 +15036,21 @@ the real path; SnapPy's `randomize()` is wall-clock seeded, so the draft's rando
 geometric path; the residual is off the real path or on other components (the A-polynomial or full Ptolemy solutions; the Ptolemy database
 does not reach these members). Verdict NEGATIVE (the geometric path) + OPEN; lock seconds; surfaces (OPEN_LEADS, THE_CLOSING, THE_SM_VERDICT,
 CHIRALITY_MAP, the letter's thirty-second note, the alias table), currency note on B1372. 0 of 19.
+
+### B1374 — the class's index in the Standard-Model frame, and one generation on the tower (2026-09-16)
+
+Harvest of main's B1418 (b25da51b) by citation, verified and read. Every module main ran on its reducible non-split loci — 19 253 over
+fourteen manifolds — recomputed with this seat's own Fox calculus over GF(61), GF(181), GF(241): I and (a₀, a₁, t₀, r₁) of V and V*
+identical, no exception; R27's m010 witness reproduced first; t12839 confirmed as the unique degree-4 cyclic cover of m004. In the SM
+frame (c(SM) = SL(2)_β × ℂ*², sectors = spin ⊗ ψ_Y^{6Y} ψ_γ^{3γ}) the spin-0 sectors are characters and carry no index (T4; 21 100
+recomputed, all 0), so the bit lives only in the doublet sectors. The SM-frame census: at μ₁₂ on thirteen members (about a million
+pairs) no generation-shaped and no anomaly-free non-zero pattern; complete on the torsion of H₁ (N = 48, 60) two more members fire
+(o10_150697, m208, bare 10̄'s), still nothing generation-shaped on twelve — and on t12839 = Y₄ (N = 60, 89 loci, 240 300 doublet modules)
+12 800 pairs on 64 loci give Q = u^c = e^c = d^c = L = ±1 with every other sector 0: exactly one net generation, anomaly-free, recomputed
+sector by sector over 421, 541, 601 (0 differences) and exactly over ℚ(ζ₆₀) on three backgrounds. Derived: a generation needs χ² = 1
+on the peripheral subgroup and ψ_Y⁵ = 1 there (T5 at the cusp); the tower's null-homologous lifted longitude grants it at every locus.
+Fences: main's index on a non-semisimple background, no physics reading, one not three. Two-bench correction relayed to main: the web
+seat's Sol-boundary claim is false (explicit irreducible SU(2) representation of m004(0,1)). Verdict PROVED (the verification, the
+count) + NEGATIVE (the siblings); fast lock two minutes, slow lock the full cells and the exact backgrounds; surfaces (OPEN_LEADS sL-1
+and sL-2, THE_SM_VERDICT, THE_CLOSING, CHIRALITY_MAP, the letter's thirty-third note, RELAY_LEDGER rows for main's B1418 and the audit
+lane's R32, TOOLBOX_LIVE, hint 24 H-DOUBLET-ONLY, the alias table). 0 of 19.

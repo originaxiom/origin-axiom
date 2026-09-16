@@ -1,5 +1,9 @@
 # Changelog
 
+## B1374 — the class's index in the Standard-Model frame, and one generation on the tower: main's B1418 (I = ±1 on reducible non-split modules of five siblings and of m004's degree-4 cyclic cover) verified module by module with own code over three primes (19 253 modules, identical); in the SM frame the index lives only in the doublet sectors (the spin-0 sectors are characters: T4); on twelve siblings and covers no generation-shaped or anomaly-free non-zero count over the character groups of order dividing 12 and complete on the torsion (two more members fire there); on t12839 = Y₄ 12 800 backgrounds carry exactly one net generation (Q = u^c = e^c = d^c = L = ±1, all else 0), exact over ℚ(ζ₆₀) on three — main's index, physics unread, one not three; the web seat's Sol-boundary claim, marked TRUE on main, refuted with an explicit witness; sL-2 registered
+
+Own prime-field and cyclotomic index instruments; a generation needs χ² = 1 on the cusp, which the tower grants and the siblings deny.
+
 ## B1373 — the order-4 points on the geometric path: on every free cusp of the family, the cone-manifold continuation to a peripheral eigenvalue ±i reaches the point with the other eigenvalue non-unitary (132 of 166 pairs, Theorem B) or degenerates first (34 ideal points of the real path: 23 near cone angle π, 11 at 2π/3) — no candidate for door 2 along the deformations of the hyperbolic structure; the residual is off the real path or on other components
 
 SnapPy cone-manifold continuation; lock in seconds.

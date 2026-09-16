@@ -1,0 +1,76 @@
+t12839: N = 60, |Hom| = 2700, loci 89, table ready (3 s); non-zero doublet modules 976
+generation-shaped pairs (from the table): 12800
+recomputed sector by sector over (421, 541, 601): differing 0 of 12800
+loci carrying a generation-shaped pair: 64 of 89; sign of the count: {-1: 6400, 1: 6400}; orders of psi_Y: {1: 512, 5: 12288}; orders of psi_gamma: {30: 4608, 10: 1536, 2: 64, 6: 192, 15: 4608, 5: 1536, 1: 64, 3: 192}
+the loci (chi exponents on the generators; chi(mu), chi(lambda) as zeta_N powers; h^1(chi^2)):
+  locus   2: chi = (2, 16, 12) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus   3: chi = (2, 36, 32) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus   4: chi = (2, 56, 52) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus   5: chi = (4, 12, 4) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus   6: chi = (4, 32, 24) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus   7: chi = (4, 52, 44) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus   8: chi = (6, 8, 56) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus   9: chi = (6, 28, 16) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  11: chi = (8, 4, 48) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  12: chi = (8, 24, 8) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  13: chi = (8, 44, 28) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  17: chi = (12, 16, 52) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  19: chi = (12, 56, 32) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  20: chi = (14, 12, 44) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  21: chi = (14, 32, 4) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  22: chi = (14, 52, 24) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  23: chi = (16, 8, 36) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  24: chi = (16, 28, 56) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  25: chi = (16, 48, 16) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  26: chi = (18, 4, 28) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  28: chi = (18, 44, 8) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  32: chi = (22, 16, 32) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  33: chi = (22, 36, 52) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  34: chi = (22, 56, 12) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  36: chi = (24, 32, 44) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  37: chi = (24, 52, 4) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  38: chi = (26, 8, 16) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  39: chi = (26, 28, 36) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  40: chi = (26, 48, 56) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  41: chi = (28, 4, 8) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  42: chi = (28, 24, 28) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  43: chi = (28, 44, 48) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  47: chi = (32, 16, 12) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  48: chi = (32, 36, 32) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  49: chi = (32, 56, 52) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  50: chi = (34, 12, 4) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  51: chi = (34, 32, 24) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  52: chi = (34, 52, 44) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  53: chi = (36, 8, 56) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  54: chi = (36, 28, 16) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  56: chi = (38, 4, 48) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  57: chi = (38, 24, 8) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  58: chi = (38, 44, 28) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  62: chi = (42, 16, 52) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  64: chi = (42, 56, 32) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  65: chi = (44, 12, 44) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  66: chi = (44, 32, 4) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  67: chi = (44, 52, 24) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  68: chi = (46, 8, 36) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  69: chi = (46, 28, 56) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  70: chi = (46, 48, 16) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  71: chi = (48, 4, 28) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  73: chi = (48, 44, 8) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  77: chi = (52, 16, 32) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  78: chi = (52, 36, 52) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  79: chi = (52, 56, 12) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  81: chi = (54, 32, 44) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  82: chi = (54, 52, 4) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  83: chi = (56, 8, 16) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  84: chi = (56, 28, 36) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  85: chi = (56, 48, 56) order 15; chi(mu) = z^0, chi(lambda) = z^0; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  86: chi = (58, 4, 8) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  87: chi = (58, 24, 28) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+  locus  88: chi = (58, 44, 48) order 30; chi(mu) = z^0, chi(lambda) = z^30; h1(chi^2) = 1; generation-shaped pairs 200
+examples (psi_Y, psi_gamma as exponent tuples; the six counts (Q, u^c, e^c, d^c, L, nu^c); semisimplified counts):
+  locus 2: psi_Y = (0, 0, 0) (order 1), psi_gamma = (6, 8, 56) (order 30): counts (-1, -1, -1, -1, -1, 0); semisimplified (0, 0, 0, 0, 0, 0)
+  locus 2: psi_Y = (0, 0, 0) (order 1), psi_gamma = (6, 48, 36) (order 10): counts (-1, -1, -1, -1, -1, 0); semisimplified (0, 0, 0, 0, 0, 0)
+  locus 2: psi_Y = (0, 0, 0) (order 1), psi_gamma = (14, 12, 44) (order 30): counts (1, 1, 1, 1, 1, 0); semisimplified (0, 0, 0, 0, 0, 0)
+  locus 2: psi_Y = (0, 0, 0) (order 1), psi_gamma = (6, 8, 56) (order 30): counts (-1, -1, -1, -1, -1, 0); semisimplified (0, 0, 0, 0, 0, 0)
+  locus 2: psi_Y = (0, 0, 0) (order 1), psi_gamma = (6, 48, 36) (order 10): counts (-1, -1, -1, -1, -1, 0); semisimplified (0, 0, 0, 0, 0, 0)
+DONE

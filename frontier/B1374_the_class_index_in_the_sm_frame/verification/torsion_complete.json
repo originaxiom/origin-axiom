@@ -1,0 +1,470 @@
+{
+ "s958": {
+  "H1": "Z/3 + Z",
+  "N": 12,
+  "hom": 36,
+  "loci": 13,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 2,
+  "cusp_order2": 5,
+  "nonzero": 8,
+  "rechecked": 308,
+  "differing": 0,
+  "nonzero_pairs": 1160,
+  "pairs": 16848,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   4,
+   [
+    3,
+    [
+     6,
+     6,
+     4
+    ],
+    [
+     9,
+     3,
+     2
+    ],
+    [
+     1,
+     -1,
+     0,
+     1,
+     -1,
+     -1
+    ]
+   ]
+  ]
+ },
+ "v2873": {
+  "H1": "Z/6 + Z",
+  "N": 12,
+  "hom": 72,
+  "loci": 31,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 5,
+  "cusp_order2": 23,
+  "nonzero": 16,
+  "rechecked": 316,
+  "differing": 0,
+  "nonzero_pairs": 12000,
+  "pairs": 160704,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   5,
+   [
+    1,
+    [
+     0,
+     0
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     1,
+     1,
+     1,
+     -1,
+     -1,
+     1
+    ]
+   ]
+  ]
+ },
+ "t12833": {
+  "H1": "Z/6 + Z",
+  "N": 12,
+  "hom": 72,
+  "loci": 39,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 5,
+  "cusp_order2": 23,
+  "nonzero": 80,
+  "rechecked": 380,
+  "differing": 0,
+  "nonzero_pairs": 23536,
+  "pairs": 202176,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   4,
+   [
+    0,
+    [
+     0,
+     0,
+     4
+    ],
+    [
+     0,
+     6,
+     2
+    ],
+    [
+     1,
+     -1,
+     0,
+     1,
+     -1,
+     -1
+    ]
+   ]
+  ]
+ },
+ "o10_150697": {
+  "H1": "Z/5 + Z",
+  "N": 60,
+  "hom": 300,
+  "loci": 13,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 4,
+  "cusp_order2": 9,
+  "nonzero": 16,
+  "rechecked": 316,
+  "differing": 0,
+  "nonzero_pairs": 29600,
+  "pairs": 1170000,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   3,
+   [
+    5,
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     12,
+     12,
+     12
+    ],
+    [
+     -1,
+     -1,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ]
+  ]
+ },
+ "o10_150700": {
+  "H1": "Z",
+  "N": 12,
+  "hom": 12,
+  "loci": 5,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 0,
+  "cusp_order2": 1,
+  "nonzero": 0,
+  "rechecked": 60,
+  "differing": 0,
+  "nonzero_pairs": 0,
+  "pairs": 720,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   0,
+   null
+  ]
+ },
+ "o10_150701": {
+  "H1": "Z/16 + Z",
+  "N": 48,
+  "hom": 768,
+  "loci": 119,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 15,
+  "cusp_order2": 31,
+  "nonzero": 416,
+  "rechecked": 716,
+  "differing": 0,
+  "nonzero_pairs": 1915872,
+  "pairs": 70189056,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   5,
+   [
+    0,
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     12,
+     24
+    ],
+    [
+     1,
+     1,
+     1,
+     -1,
+     -1,
+     1
+    ]
+   ]
+  ]
+ },
+ "t12837": {
+  "H1": "Z/4 + Z",
+  "N": 12,
+  "hom": 48,
+  "loci": 7,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 3,
+  "cusp_order2": 7,
+  "nonzero": 0,
+  "rechecked": 300,
+  "differing": 0,
+  "nonzero_pairs": 0,
+  "pairs": 16128,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   0,
+   null
+  ]
+ },
+ "s956": {
+  "H1": "Z/2 + Z/4 + Z",
+  "N": 12,
+  "hom": 96,
+  "loci": 15,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 7,
+  "cusp_order2": 15,
+  "nonzero": 0,
+  "rechecked": 300,
+  "differing": 0,
+  "nonzero_pairs": 0,
+  "pairs": 138240,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   0,
+   null
+  ]
+ },
+ "t11365": {
+  "H1": "Z/2 + Z",
+  "N": 12,
+  "hom": 24,
+  "loci": 3,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 1,
+  "cusp_order2": 3,
+  "nonzero": 0,
+  "rechecked": 72,
+  "differing": 0,
+  "nonzero_pairs": 0,
+  "pairs": 1728,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   0,
+   null
+  ]
+ },
+ "t12835": {
+  "H1": "Z/6 + Z",
+  "N": 12,
+  "hom": 72,
+  "loci": 55,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 5,
+  "cusp_order2": 23,
+  "nonzero": 192,
+  "rechecked": 492,
+  "differing": 0,
+  "nonzero_pairs": 52224,
+  "pairs": 285120,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   4,
+   [
+    7,
+    [
+     4,
+     0,
+     0
+    ],
+    [
+     8,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0,
+     -1,
+     1,
+     1
+    ]
+   ]
+  ]
+ },
+ "m208": {
+  "H1": "Z/10 + Z",
+  "N": 60,
+  "hom": 600,
+  "loci": 39,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 9,
+  "cusp_order2": 39,
+  "nonzero": 64,
+  "rechecked": 364,
+  "differing": 0,
+  "nonzero_pairs": 243200,
+  "pairs": 14040000,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   3,
+   [
+    1,
+    [
+     0,
+     0
+    ],
+    [
+     3,
+     18
+    ],
+    [
+     -1,
+     -1,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ]
+  ]
+ },
+ "s961": {
+  "H1": "Z/4 + Z/4 + Z",
+  "N": 12,
+  "hom": 192,
+  "loci": 31,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 15,
+  "cusp_order2": 31,
+  "nonzero": 0,
+  "rechecked": 300,
+  "differing": 0,
+  "nonzero_pairs": 0,
+  "pairs": 1142784,
+  "generation_shaped": 0,
+  "anomaly_free": 0,
+  "best": [
+   0,
+   null
+  ]
+ },
+ "t12839": {
+  "H1": "Z/3 + Z/15 + Z",
+  "N": 60,
+  "hom": 2700,
+  "loci": 89,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "cusp_trivial": 44,
+  "cusp_order2": 89,
+  "nonzero": 976,
+  "rechecked": 1276,
+  "differing": 0,
+  "nonzero_pairs": 29600800,
+  "pairs": 648810000,
+  "generation_shaped": 12800,
+  "anomaly_free": 12800,
+  "best": [
+   5,
+   [
+    2,
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     36,
+     32
+    ],
+    [
+     -1,
+     -1,
+     -1,
+     1,
+     1,
+     0
+    ]
+   ]
+  ]
+ }
+}

@@ -419,6 +419,16 @@ time (Theorem B), and degenerates before it on the rest (34 ideal points of the 
 deformations of the hyperbolic structure; what remains lies off the real path or on other components of the character varieties.
 `frontier/B1373_the_order_4_points_on_the_geometric_components`.
 
+*Addendum (B1374, the same day).* Main's B1418 — the first characteristic-zero positives of the one-cusped index, on reducible non-split
+modules of five siblings and of m004's degree-4 cyclic cover — verified on this bench (19 253 modules, own code, three primes,
+identical) and read in this map's frame: the index can live only in the doublet sectors of c(SM) (the spin-0 sectors, the 27's 10 among
+them, are characters and carry none, T4), so a generation is the 78's 10 with the 27's 5̄ — door 2's mixed frame (§6t) with a non-split
+SL(2)_β holonomy. On the siblings it never assembles a generation (character groups of order dividing 12 and complete on the torsion).
+**On t12839 = Y₄ of the tower it does: 12 800 backgrounds with exactly one net generation, Q = u^c = e^c = d^c = L = ±1 and every other
+sector 0, exact over ℚ(ζ₆₀) on three.** A generation needs the SL(2)_β holonomy of order ≤ 2 on the cusp — the parabolic kind of §6t's
+Lemma A — and the cyclic covers of m004 grant it at every locus through their null-homologous lifted longitude. Main's index, main's
+fence: no physics reading of a non-semisimple background; one generation, not three. `frontier/B1374_the_class_index_in_the_sm_frame`.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

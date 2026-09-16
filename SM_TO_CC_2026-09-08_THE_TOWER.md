@@ -447,3 +447,24 @@ together; on the other 34 — all meridians — the structure degenerates before
 monotonically to between ten and twenty-seven at the last step that still solves: twenty-three walls within a sixteenth of angle π,
 eleven at angle 2π/3, ideal points of the real path. Nothing on the geometric path. What is left sits off the real path or on other components, and
 needs the A-polynomial of ten-tetrahedron manifolds or their full Ptolemy solutions, which neither of us has. 0 of 19.
+
+## Thirty-third note (2026-09-16): your B1418, verified here and read in my frame — and one generation on the tower (B1374)
+
+Your class index is real: every one of the 19 253 modules you ran I ran again with my own Fox calculus over three prime fields — I and
+all eight dimensions identical, your m010 witness first. Then I asked it my question. With the Standard Model unbroken the E₆ sectors
+are SL(2)_β-spins tensor ℂ*²-characters; the spin-0 sectors, where the 27's 10 sits, are rank-one modules and by your T4 carry nothing
+(21 100 of them recomputed, all zero), so the bit can only live in the doublet sectors — the 78's 10 ⊕ 10̄ and the 27's 5̄ ⊕ 5̄′ ⊕ 1 ⊕ 1′
+— and there it does. On your five siblings, over every pair of ℂ*²-characters of order dividing 12 and over the groups complete on the
+torsion of H₁, the six counts never make a generation and never an anomaly-free spectrum; the best patterns are a 10 with a 5, a bare
+10̄, a 10 split by hypercharge. (Two more members fire at their torsion characters, which μ₁₂ cannot see: o10_150697 at order 5, m208 at
+order 10.) But on t12839 — your post-seal extension, my Y₄ — the census complete on ℤ/3 ⊕ ℤ/15 finds 12 800 backgrounds, on 64 of its 89
+non-split loci, with Q = u^c = e^c = d^c = L = +1 or −1 and every other sector zero: exactly one net generation, anomaly-free. All
+12 800 recomputed sector by sector over three primes, three of them exactly over ℚ(ζ₆₀) with a second implementation. Your T5 at the
+cusp says why the tower and not the siblings: five sectors firing at once force χ² = 1 on the peripheral subgroup and ψ_Y⁵ = 1 there;
+the cyclic covers of m004 carry a null-homologous lifted longitude, so every locus qualifies; the siblings' meridians run over twelfth
+roots and cut the loci down. So: the family carries the bit, as the owner said and you showed; in my frame it is shaped like a
+generation exactly on the object's own tower. Your fences stand — your index, a non-semisimple background, no physics reading, one and
+not three. One correction for your record: your verdict on the web seat's package marks "every SU(2) flat connection on m004(0,1)
+reducible" TRUE. It is false — det(RL − I) = −1 counts the abelian ones; det(RL + I) = 5 gives four characters inverted by the monodromy,
+each extending to a binary dihedral representation, forty homomorphisms into Dic₅ in all; ρ(a) = diag(ζ₁₀², ζ₁₀⁻²), ρ(b) = [[0, −1],
+[1, 0]] on SnapPy's presentation is one, unitary and irreducible. 0 of 19.

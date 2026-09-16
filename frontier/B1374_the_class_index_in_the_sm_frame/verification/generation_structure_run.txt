@@ -1,0 +1,137 @@
+t12839, N = 60: generation-shaped pairs 12800 on 64 loci; signs {'-1': 6400, '1': 6400}; psi_Y orders {'1': 512, '5': 12288}; psi_gamma orders {'30': 4608, '10': 1536, '2': 64, '6': 192, '15': 4608, '5': 1536, '1': 64, '3': 192}
+singlet (nu^c/N) count among the generation-shaped pairs: {0: 12800}
+
+ locus 3 chi = (2, 36, 32) h1(chi^2) = 1; psi_Y = (0, 0, 0), psi_gamma = (26, 8, 16); counts (-1, -1, -1, -1, -1, 0)
+    27: Q (10, spin 0)                 n(V) = 0, n(V*) = 0, I = +0
+    27: u^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: e^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    27: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    27: d^c/Dbar (5b, doublet)         n(V) = 0, n(V*) = 1, I = -1  
+    27: L/H_d (5b, doublet)            n(V) = 0, n(V*) = 1, I = -1  
+    27: nu^c/N (1, doublet)            n(V) = 0, n(V*) = 0, I = +0  
+    78: Q (10, doublet)                n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: u^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: e^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: Qbar (10b, doublet)            n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: u (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: e (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: d^c/Dbar (5b, spin 0)          n(V) = 0, n(V*) = 0, I = +0
+    78: L/H_d (5b, spin 0)             n(V) = 0, n(V*) = 0, I = +0
+    78: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    78: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    78: 24 (spin 0)                    n(V) = 0, n(V*) = 0, I = +0
+    78: SL(2)_beta adjoint (triplet)   n(V) = 0, n(V*) = 0, I = +0
+
+ locus 73 chi = (48, 44, 8) h1(chi^2) = 1; psi_Y = (12, 0, 0), psi_gamma = (32, 28, 36); counts (1, 1, 1, 1, 1, 0)
+    27: Q (10, spin 0)                 n(V) = 0, n(V*) = 0, I = +0
+    27: u^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: e^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    27: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    27: d^c/Dbar (5b, doublet)         n(V) = 1, n(V*) = 0, I = +1  
+    27: L/H_d (5b, doublet)            n(V) = 1, n(V*) = 0, I = +1  
+    27: nu^c/N (1, doublet)            n(V) = 0, n(V*) = 0, I = +0  
+    78: Q (10, doublet)                n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: u^c (10, doublet)              n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: e^c (10, doublet)              n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: Qbar (10b, doublet)            n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: u (10b, doublet)               n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: e (10b, doublet)               n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: d^c/Dbar (5b, spin 0)          n(V) = 0, n(V*) = 0, I = +0
+    78: L/H_d (5b, spin 0)             n(V) = 0, n(V*) = 0, I = +0
+    78: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    78: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    78: 24 (spin 0)                    n(V) = 0, n(V*) = 0, I = +0
+    78: SL(2)_beta adjoint (triplet)   n(V) = 0, n(V*) = 0, I = +0
+
+ locus 50 chi = (34, 12, 4) h1(chi^2) = 1; psi_Y = (24, 24, 48), psi_gamma = (34, 28, 56); counts (-1, -1, -1, -1, -1, 0)
+    27: Q (10, spin 0)                 n(V) = 0, n(V*) = 0, I = +0
+    27: u^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: e^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    27: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    27: d^c/Dbar (5b, doublet)         n(V) = 0, n(V*) = 1, I = -1  
+    27: L/H_d (5b, doublet)            n(V) = 0, n(V*) = 1, I = -1  
+    27: nu^c/N (1, doublet)            n(V) = 0, n(V*) = 0, I = +0  
+    78: Q (10, doublet)                n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: u^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: e^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: Qbar (10b, doublet)            n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: u (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: e (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: d^c/Dbar (5b, spin 0)          n(V) = 0, n(V*) = 0, I = +0
+    78: L/H_d (5b, spin 0)             n(V) = 0, n(V*) = 0, I = +0
+    78: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    78: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    78: 24 (spin 0)                    n(V) = 0, n(V*) = 0, I = +0
+    78: SL(2)_beta adjoint (triplet)   n(V) = 0, n(V*) = 0, I = +0
+
+ locus 68 chi = (46, 8, 36) h1(chi^2) = 1; psi_Y = (36, 0, 0), psi_gamma = (26, 4, 48); counts (-1, -1, -1, -1, -1, 0)
+    27: Q (10, spin 0)                 n(V) = 0, n(V*) = 0, I = +0
+    27: u^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: e^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    27: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    27: d^c/Dbar (5b, doublet)         n(V) = 0, n(V*) = 1, I = -1  
+    27: L/H_d (5b, doublet)            n(V) = 0, n(V*) = 1, I = -1  
+    27: nu^c/N (1, doublet)            n(V) = 0, n(V*) = 0, I = +0  
+    78: Q (10, doublet)                n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: u^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: e^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: Qbar (10b, doublet)            n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: u (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: e (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: d^c/Dbar (5b, spin 0)          n(V) = 0, n(V*) = 0, I = +0
+    78: L/H_d (5b, spin 0)             n(V) = 0, n(V*) = 0, I = +0
+    78: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    78: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    78: 24 (spin 0)                    n(V) = 0, n(V*) = 0, I = +0
+    78: SL(2)_beta adjoint (triplet)   n(V) = 0, n(V*) = 0, I = +0
+
+ locus 78 chi = (52, 36, 52) h1(chi^2) = 1; psi_Y = (0, 12, 24), psi_gamma = (16, 44, 48); counts (-1, -1, -1, -1, -1, 0)
+    27: Q (10, spin 0)                 n(V) = 0, n(V*) = 0, I = +0
+    27: u^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: e^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    27: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    27: d^c/Dbar (5b, doublet)         n(V) = 0, n(V*) = 1, I = -1  
+    27: L/H_d (5b, doublet)            n(V) = 0, n(V*) = 1, I = -1  
+    27: nu^c/N (1, doublet)            n(V) = 0, n(V*) = 0, I = +0  
+    78: Q (10, doublet)                n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: u^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: e^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: Qbar (10b, doublet)            n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: u (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: e (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: d^c/Dbar (5b, spin 0)          n(V) = 0, n(V*) = 0, I = +0
+    78: L/H_d (5b, spin 0)             n(V) = 0, n(V*) = 0, I = +0
+    78: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    78: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    78: 24 (spin 0)                    n(V) = 0, n(V*) = 0, I = +0
+    78: SL(2)_beta adjoint (triplet)   n(V) = 0, n(V*) = 0, I = +0
+
+ locus 58 chi = (38, 44, 28) h1(chi^2) = 1; psi_Y = (48, 36, 12), psi_gamma = (18, 0, 0); counts (-1, -1, -1, -1, -1, 0)
+    27: Q (10, spin 0)                 n(V) = 0, n(V*) = 0, I = +0
+    27: u^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: e^c (10, spin 0)               n(V) = 0, n(V*) = 0, I = +0
+    27: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    27: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    27: d^c/Dbar (5b, doublet)         n(V) = 0, n(V*) = 1, I = -1  
+    27: L/H_d (5b, doublet)            n(V) = 0, n(V*) = 1, I = -1  
+    27: nu^c/N (1, doublet)            n(V) = 0, n(V*) = 0, I = +0  
+    78: Q (10, doublet)                n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: u^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: e^c (10, doublet)              n(V) = 0, n(V*) = 1, I = -1  n(V_R) - n(V_Rbar) = -1
+    78: Qbar (10b, doublet)            n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: u (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: e (10b, doublet)               n(V) = 1, n(V*) = 0, I = +1  n(V_R) - n(V_Rbar) = +1
+    78: d^c/Dbar (5b, spin 0)          n(V) = 0, n(V*) = 0, I = +0
+    78: L/H_d (5b, spin 0)             n(V) = 0, n(V*) = 0, I = +0
+    78: D (5, spin 0)                  n(V) = 0, n(V*) = 0, I = +0
+    78: H_u (5, spin 0)                n(V) = 0, n(V*) = 0, I = +0
+    78: 24 (spin 0)                    n(V) = 0, n(V*) = 0, I = +0
+    78: SL(2)_beta adjoint (triplet)   n(V) = 0, n(V*) = 0, I = +0
+
+h^1(chi^2) over the 64 generation loci: {1: 64}
+DONE

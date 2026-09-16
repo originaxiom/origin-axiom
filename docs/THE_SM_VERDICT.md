@@ -552,3 +552,11 @@ left it.
 > or degenerates first (the other 34: ideal points of the real path, 23 near cone angle π, 11 at 2π/3): no order-4 candidate along the
 > deformations of the hyperbolic structure. The
 > residual is off the real path or on other components. 0 of 19 (`frontier/B1373_the_order_4_points_on_the_geometric_components`).
+
+> **Currency note (2026-09-16, B1374): main's B1418 verified; one generation on the tower in main's index.** The class's index on
+> reducible non-split modules reproduced module by module with own code over three primes (19 253 modules, 0 differences). In this
+> frame it can live only in the doublet sectors (the spin-0 sectors, the 27's 10 among them, are characters: T4). On the twelve
+> siblings and covers other than t12839 no generation-shaped or anomaly-free non-zero count over the character groups of order
+> dividing 12 or complete on the torsion. **On t12839 = Y₄, 12 800 backgrounds carry exactly one net generation, Q = u^c = e^c = d^c =
+> L = ±1 and nothing else, exact over ℚ(ζ₆₀) on three of them.** No verdict of this ledger changes: main's index on a non-semisimple
+> background, whose physics is unestablished; one generation, not three; no value. 0 of 19 (`frontier/B1374_the_class_index_in_the_sm_frame`).

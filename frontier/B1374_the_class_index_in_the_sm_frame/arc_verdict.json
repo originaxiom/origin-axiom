@@ -1,0 +1,19 @@
+{
+ "id": "B1374",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1372",
+  "B1369",
+  "B1368",
+  "B1371",
+  "B1351",
+  "B1301"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE CLASS'S INDEX IN THE STANDARD-MODEL FRAME, AND ONE GENERATION ON THE OBJECT'S OWN TOWER: main's B1418 -- the one-cusped index I = n(V) - n(V*) (B1297) firing on reducible non-split modules Sym^m(rho_chi) (x) psi of s958, v2873, t12833, t12835, o10_150701 and of m004's degree-4 cyclic cover t12839 -- is verified here module by module: all 19 253 modules main ran, recomputed with this seat's own Fox calculus over GF(61), GF(181), GF(241), give the same I and the same (a0, a1, t0, r1) for V and V* (0 differences; R27's m010 witness reproduced first). Read in the seat's frame (holonomy in c(SM) = SL(2)_beta x C*^2, sectors = SL(2)_beta-spin (x) the character psi_Y^{6Y} psi_gamma^{3 gamma} of the weight): the spin-0 sectors -- the 27's 10 and 5, the 78's 35 -- are rank-one modules and carry no index (B1297's T4; 21 100 recomputed, all 0), so the bit lives only in the doublet sectors, the 78's 10 + 10bar and the 27's 5bar + 5bar' + 1 + 1'. On the twelve members other than t12839, over every pair (psi_Y, psi_gamma) of characters of order dividing 12 and over the character groups complete on the torsion of H_1 (N = lcm(12, torsion exponent); two more members fire there, o10_150697 and m208, invisible in mu_12), the six counts (Q, u^c, e^c, d^c, L, nu^c) never form a generation and never an anomaly-free non-zero spectrum. On t12839 -- Y_4 of this seat's tower, H_1 = Z/3 + Z/15 + Z -- at N = 60, 12 800 pairs on 64 of its 89 non-split loci (chi of order 15 or 30; psi_Y trivial or of order 5; psi_gamma of order 30, 15, 10, 5, 6, 3, 2, 1) give Q = u^c = e^c = d^c = L = +1 (6 400) or -1 (6 400) with nu^c = 0 and every spin-0 sector, the singlets and the SL(2)_beta adjoint 0: exactly one net Standard-Model generation or anti-generation, anomaly-free; all 12 800 recomputed sector by sector over three primes (0 differences), three of them exactly over Q(zeta_60) with a second implementation. Why the tower and not the siblings: five doublet sectors firing at once force chi^2 = 1 on the peripheral subgroup (B1297's T5 at the cusp) and psi_Y^5 = 1 there; on the cyclic covers of m004 the lifted longitude is null-homologous and every non-split locus is +-1 on the other curve, so the condition holds at every locus; on the siblings chi(mu) runs over twelfth roots and no surviving pair completes the five counts. Fences: main's index on a non-semisimple background, no physics reading established, no value, one generation not three. Two-bench correction relayed: the web seat's 'every SU(2) flat connection on m004(0,1) reducible', marked TRUE on main, is false -- rho(a) = diag(zeta_10^2, zeta_10^-2), rho(b) = [[0,-1],[1,0]] is an irreducible unitary representation (det(RL + I) = 5). sL-2 registered. 0 of 19."
+}

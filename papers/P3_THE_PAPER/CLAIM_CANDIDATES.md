@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1120 settled arcs — 74%** —
+the field is **absent on 828 of 1121 settled arcs — 74%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 552 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 553 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -208,7 +208,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1372` | NEGATIVE | S | | THE DOUBLET HALVES (door 2): the third reading of a Standard-Model generation -- the 10 from the 78's SL(2)_beta doublets and the 5bar from the 27's, both halves carried … |
 | `B1373` | NEGATIVE | S | | THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free … |
 
-## §6 the observer — one bit, priced (149)
+## §6 the observer — one bit, priced (150)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -361,6 +361,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1368` | NEGATIVE | S | | THE OBJECT'S OWN STANDARD-MODEL CONNECTIONS: a flat E6(C) connection of m004 leaving the Standard Model unbroken has its non-abelian part in SL(2)_beta and a character on… |
 | `B1369` | NEGATIVE | S | | THE FAMILY IN THE STANDARD-MODEL FRAME (sL-1, first arc): on a member of the figure-eight's commensurability class, a chiral generation from bulk matter with the Standard… |
 | `B1371` | PROVED | S | | THE WEB SEAT'S POST-CLOSURE PACKAGE, VERIFIED: chat1's four documents and thirteen scripts of 2026-09-15 (received from the owner) re-derived on this bench with its own i… |
+| `B1374` | PROVED | S | | THE CLASS'S INDEX IN THE STANDARD-MODEL FRAME, AND ONE GENERATION ON THE OBJECT'S OWN TOWER: main's B1418 -- the one-cusped index I = n(V) - n(V*) (B1297) firing on reduc… |
 
 ## §2 the object — arithmetic and geometry (53)
 

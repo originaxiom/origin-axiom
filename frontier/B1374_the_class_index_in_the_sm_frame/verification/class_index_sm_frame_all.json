@@ -1,0 +1,127 @@
+{
+ "A": {
+  "m004": [
+   135,
+   135,
+   0
+  ],
+  "s958": [
+   819,
+   819,
+   0
+  ],
+  "t12839": [
+   2385,
+   2385,
+   0
+  ]
+ },
+ "BC": {
+  "m004": {
+   "H1": "Z",
+   "loci": 1,
+   "cusp_trivial_loci": 0,
+   "m0_total": 12,
+   "m0_nonzero": 0,
+   "m1_nonzero": 0,
+   "m2_nonzero": 0,
+   "nonzero_pairs": 0,
+   "pairs": 144,
+   "generation_shaped": 0,
+   "anomaly_free_nonzero": 0,
+   "best": [
+    0,
+    0,
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "disagreements": 0
+  },
+  "s958": {
+   "H1": "Z/3 + Z",
+   "loci": 13,
+   "cusp_trivial_loci": 2,
+   "m0_total": 468,
+   "m0_nonzero": 0,
+   "m1_nonzero": 8,
+   "m2_nonzero": 8,
+   "nonzero_pairs": 1160,
+   "pairs": 16848,
+   "generation_shaped": 0,
+   "anomaly_free_nonzero": 0,
+   "best": [
+    4,
+    3,
+    [
+     6,
+     6,
+     4
+    ],
+    [
+     9,
+     3,
+     2
+    ],
+    [
+     1,
+     -1,
+     0,
+     1,
+     -1,
+     -1
+    ]
+   ],
+   "disagreements": 0
+  },
+  "t12839": {
+   "H1": "Z/3 + Z/15 + Z",
+   "loci": 17,
+   "cusp_trivial_loci": 8,
+   "m0_total": 1836,
+   "m0_nonzero": 0,
+   "m1_nonzero": 64,
+   "m2_nonzero": 64,
+   "nonzero_pairs": 28928,
+   "pairs": 198288,
+   "generation_shaped": 0,
+   "anomaly_free_nonzero": 0,
+   "best": [
+    4,
+    0,
+    [
+     4,
+     4,
+     8
+    ],
+    [
+     8,
+     8,
+     4
+    ],
+    [
+     -1,
+     1,
+     0,
+     -1,
+     1,
+     1
+    ]
+   ],
+   "disagreements": 0
+  }
+ }
+}

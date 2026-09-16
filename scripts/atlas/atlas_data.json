@@ -7664,6 +7664,28 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1374": {
+   "slug": "the class index in the sm frame",
+   "motifs": [
+    "measurement",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 36,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B137": {
    "slug": "s031 sealing m2",
    "motifs": [

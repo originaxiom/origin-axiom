@@ -134,3 +134,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-16 (later):* B1371 used (the web seat's post-closure package verified; one refutation) and B1372 used (door 2, the doublet halves: the mixed frame closed by charge arithmetic at the cusp); next arc B1373.
 
 *Update 2026-09-16 (later):* B1373 used (the order-4 points on the geometric path: none on any free cusp); next arc B1374.
+
+*Update 2026-09-16 (later):* B1374 used (main's B1418 verified on this bench and read in the SM frame; one generation on t12839 = Y₄ in main's index); next arc B1375.

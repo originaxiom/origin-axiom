@@ -1,0 +1,19 @@
+=== (A) main's B1418 cell 2 recomputed with own code over GF(61), GF(181), GF(241): every module main ran ===
+  m004        H1 = Z                      loci (ours, mu_12)   1: modules compared   135, identical on all three primes   135, differing 0
+  s958        H1 = Z/3 + Z                loci (ours, mu_12)  13: modules compared   819, identical on all three primes   819, differing 0
+  t12839      H1 = Z/3 + Z/15 + Z         loci (ours, mu_12)  17: modules compared  2385, identical on all three primes  2385, differing 0
+
+  TOTAL modules compared: 3339; I and all four dimensions of V and V* identical over the three primes: 3339; differing: 0 (of which agreeing on at least one prime: 0)
+
+=== (B) the rank-one modules (m = 0): the spin-0 sectors of the Standard-Model frame ===
+=== (C) I(Sym^m(rho_chi) (x) psi) for every non-split locus, every psi in Hom(H_1, mu_12), m in {0, 1, 2}; then the SM-frame table ===
+  m004        H1 = Z                      |Hom(H1, mu_12)| =   12, non-split loci in mu_12:   1 (cusp-trivial 0); m = 0 modules 12 with I != 0: 0; doublet modules (m = 1) with I != 0: 0; adjoint (m = 2) with I != 0: 0; prime disagreements 0; 0 s
+      SM frame: pairs (psi_Y, psi_gamma) with some net count non-zero: 0 of 144; generation-shaped (Q = u^c = e^c = d^c = L != 0): 0; anomaly-free with a non-zero charged count: 0
+      largest |net| pattern: locus 0 psi_Y = (0, 0) psi_gamma = (0, 0) -> (Q, u^c, e^c, d^c, L, nu^c) = (0, 0, 0, 0, 0, 0)
+  s958        H1 = Z/3 + Z                |Hom(H1, mu_12)| =   36, non-split loci in mu_12:  13 (cusp-trivial 2); m = 0 modules 468 with I != 0: 0; doublet modules (m = 1) with I != 0: 8; adjoint (m = 2) with I != 0: 8; prime disagreements 0; 6 s
+      SM frame: pairs (psi_Y, psi_gamma) with some net count non-zero: 1160 of 16848; generation-shaped (Q = u^c = e^c = d^c = L != 0): 0; anomaly-free with a non-zero charged count: 0
+      largest |net| pattern: locus 3 psi_Y = (6, 6, 4) psi_gamma = (9, 3, 2) -> (Q, u^c, e^c, d^c, L, nu^c) = (1, -1, 0, 1, -1, -1)
+  t12839      H1 = Z/3 + Z/15 + Z         |Hom(H1, mu_12)| =  108, non-split loci in mu_12:  17 (cusp-trivial 8); m = 0 modules 1836 with I != 0: 0; doublet modules (m = 1) with I != 0: 64; adjoint (m = 2) with I != 0: 64; prime disagreements 0; 35 s
+      SM frame: pairs (psi_Y, psi_gamma) with some net count non-zero: 28928 of 198288; generation-shaped (Q = u^c = e^c = d^c = L != 0): 0; anomaly-free with a non-zero charged count: 0
+      largest |net| pattern: locus 0 psi_Y = (4, 4, 8) psi_gamma = (8, 8, 4) -> (Q, u^c, e^c, d^c, L, nu^c) = (-1, 1, 0, -1, 1, 1)
+DONE
