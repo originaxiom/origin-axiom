@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-09-16 — R32 computes the source-C3 module and retained partners
+
+The actual nontrivial invariant flat characters give a regular C3 module
+in the prescribed singular three/zero kernel. Every honest scalar lift
+has one invariant source mode. The fixed-fibre trace and relative exact
+sequence establish the module, rather than assigning a triplet by count.
+The trivial-line comparator gives projected two/one, one/zero, one/zero.
+
+In R30/R31's distinct compact resolved realization, the same honest
+projection retains positive-energy partners, with at least one light
+pair in the strong shrinking-source invariant sector. A circle-reflection
+control shows why this is not a universal zero-mode/orbifold no-go.
+Source/end action, localized fields and full quantum consistency remain
+physical duties; the unprojected singular three/zero result is preserved.
+
+Seal eeedd0e6 was pushed before execution. Native 8/8 checks, 22 new
+tests and 96 focused tests pass (the 22 are included in 96), one optional
+GUI warning. No new science failure, independent proof acceptance,
+full-suite green, B allocation, main bank or completed TOE is claimed.
+Report: reports/physical_bridge_2026_09_05/SOURCE_C3.md.
+
 ## 2026-09-16 — recover the sourced core before interpreting the I-26 table
 
 Fresh all-remote/tag fetch brings main 3857877d and its B1413 harvest

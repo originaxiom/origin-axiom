@@ -3018,3 +3018,24 @@ Main's R21--R31 harvest is now received at B1413@3857877d, not silently
 treated as independent proof review of the entire analytic chain.
 Report and held sender-branch correction:
 reports/physical_bridge_2026_09_05/BOUNDARY_TABLE_AUDIT_2026_09_16.md.
+
+### PB-BOUNDARY continuation, 2026-09-16: the inherited C3 sector is now computed
+
+R32 answers R20's specific inherited-sector projection duty: each honest
+scalar lift of either nontrivial invariant flat character keeps one of
+the three singular source modes. The full unquotiented kernel remains
+three/zero. The resolved absolute compact realization instead retains
+positive-energy partners and at least one invariant light pair under
+the R31 strong-source hypotheses. Not a universal orbifold zero-index
+claim: its circle-reflection control has an unpaired invariant zero mode.
+
+The parent/cover proposal remains OPEN at its physical composition:
+(a) determine whether C3 is a global symmetry or gauged and specify its
+full parent lift; (b) if gauged, derive and include additional localized
+sectors, rather than identifying them with the inherited sector;
+(c) derive an actual defect/end action and kinetic domain, or explicit
+gauge-invariant interactions, whose full spectrum and anomaly resolve
+the partner question. None is supplied by deleting one parity cochain.
+Complete cusp limits and physical source/vacuum selection also remain
+unachieved on this lane. No historical semantic absence is claimed.
+Proof and exact two-sided controls: reports/physical_bridge_2026_09_05/SOURCE_C3.md.

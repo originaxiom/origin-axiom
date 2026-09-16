@@ -1,5 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
+**Latest local result, R32 (September 16): [the actual C3 source-mode projection](SOURCE_C3.md).**
+For the two nontrivial invariant flat characters, the singular three/zero
+kernel carries the regular C3 module; every honest scalar lift retains
+one invariant mode. The resolved absolute model retains positive-energy
+partners, with at least one light pair after projection in the strong
+compact source regime. A circle-reflection control preserves the fact
+that other projections can leave unpaired ZERO modes. 22 new and 96
+focused tests pass (the 22 are included in 96). Conditional authored
+proof, not independent review, physical quotient selection or a TOE.
+
 **Latest receiving correction, September 16: [the I-26 boundary table](BOUNDARY_TABLE_AUDIT_2026_09_16.md).**
 R24 already gives chi(C)=-3 and chi(E)=-6 after three source tubes are
 excised, so both cusp ends give chi(C,E)=3. Keeping the undrilled bulk

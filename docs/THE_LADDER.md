@@ -1,5 +1,18 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**LATEST LOCAL RESULT, 2026-09-16 (R32): source-C3 spectrum, not just symmetry order.**
+In the prescribed strong singular model, either nontrivial invariant
+flat character gives a regular C3 module of three source modes. Every
+honest scalar lift keeps one invariant mode. In the distinct compact
+resolved realization, an operator/domain-preserving projection keeps
+positive-energy partners; at least one light pair remains for strong
+shrinking sources. Zero modes need not pair under general projections,
+as the circle-reflection control demonstrates. Authored conditional
+proof with 22 new / 96 focused passing tests, not independent proof
+acceptance, physical quotient selection, a universal no-go or a TOE.
+Source/end action, extra localized sectors and full anomaly remain open.
+Report: reports/physical_bridge_2026_09_05/SOURCE_C3.md.
+
 **LATEST RECEIVING CORRECTION, 2026-09-16: the I-26 domain distinction.**
 The new decision table's undrilled bulk is not R24's source exterior:
 chi(C)=-3 and chi(E)=-6 give chi(C,E)=3 with BOTH cusps. Three resolved

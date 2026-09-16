@@ -1,0 +1,155 @@
+{
+  "seal": "eeedd0e6595426550b0592fda24ea72ed6a736b5",
+  "sealed_paths": [
+    "reports/physical_bridge_2026_09_05/SOURCE_C3_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/SOURCE_C3_PROOF.md",
+    "reports/physical_bridge_2026_09_05/SOURCE_C3_PRIOR.md",
+    "reports/physical_bridge_2026_09_05/SOURCE_C3_INPUTS.json",
+    "reports/physical_bridge_2026_09_05/source_c3.py",
+    "tests/test_physical_bridge_source_c3.py"
+  ],
+  "own_input_pin": "790f2bc9fbbce30858a79ea1ced8ac6059b5e5f9",
+  "main_intake_pin": "3857877dfcc2ac2d2c8f3d31a90114aeb606004c",
+  "redactions": "Only Python environment/repository/raw-directory paths and remote-family prefixes are replaced in public copies. Raw log and receipt digests are unchanged.",
+  "runs": [
+    {
+      "raw_basename": "oa_r32_banked_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "equivariant relative cohomology C3 orbifold"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 1.1056470000185072,
+        "log_bytes": 3594,
+        "log_sha256": "5c1dfd1001284dcf367fbade9352575e4dce39f2c6d4e7a93254f1d989e44ac9"
+      },
+      "raw_receipt_sha256": "c2a773010cc54a54eb7651cc6b55fc5d12c95d5ffe2affa071999e37976e5686",
+      "output": "already-banked: terms ['equivariant', 'relative', 'cohomology', 'orbifold']\n  53 corpus hits; 2 SETTLED arcs matching >= 2 of 4 terms\n  *** [ 2 terms] PROVED    B1014_proof_form\n           THE PROOF-FORM: THE DERIVATION THEOREM CLOSED, THE ANCHOR DOCTRINE LICENSED, THE CLAIM STATED ON ONE PAGE -- executing two owner decisions (approved and confirmed). (1) PROOF-AS-DERIVATION IS CLOSED: docs/THE_CLAIM.md se\n      [ 2 terms] OPEN      B1162_mssm_debt_closure\n           The MSSM-debt closure (cloud memos 71-75, D1-D5) + codex's height-308 MSSM witness VERIFIED on our own bench -- finishing WF-3's second half (the witness was single-homed; B1159 relayed it). THE WITNESS (sage-verified on\n  *** [ 2 terms] PROVED    B936_cohomology_reading\n           THE COHOMOLOGY READING -- A SPLIT RESULT, REPORTED VERBATIM (the agent sealed its OWN prereg 2808c8a7 before running, then reported its central criterion FAILED and refused the unification statement -- the discipline pro\n  *** [ 1 terms] PROVED    B1016_l150_junction\n           L150 CLOSED: SEPARATE -- THE VALUE LAYER HAS TWO INDEPENDENT CHANNELS, AND NOW WE KNOW WHICH LAW GOVERNS WHICH. Sealed 59f51572, declared prior SEPARATE, HELD, by two exact obstructions, zero anchors consumed. J1 recompu\n  *** [ 1 terms] PROVED    B1019_l149_silver_cascade\n           L149 ANSWERED -- THE ENDPOINT DISCRIMINATES AT THE WORD'S OWN CONDUCTOR, AND THE SIBLINGS HAVE NO DOOR. Sealed ce6b0329 with no confident prior (a weak DIVERGES lean, stated as a lean); outcome DIVERGES, AT THE ENTRY MAP\n  *** [ 1 terms] PROVED    B1065_amendment_controls\n           O1 — SAME-CONFIRMED AT STATED PRICE (2.6-3.4 bits, both nulls named): C1 the B936 class map is equivariant over all 64 characters (tau-equivariance; all-flip descends +(1,1); THE NODE-EXCHANGE DESCENDS TO THE TARGET SWAP\n  *** [ 1 terms] PROVED    B1068_descent_inventory\n           THE DESCENT INVENTORY (the field-masterplan W2, loop-until-dry, two adversarial lenses per verdict, 12 disputes bench-adjudicated, zero reversals): 31 canonical structures of Q(sqrt-3) tested through the McKay chain 2T -\n  *** [ 1 terms] PROVED    B1072_silver_instrument\n           THE SILVER INSTRUMENT (5 agents, both adversarial lenses HOLD, the build re-derived 41/41 before use): SU(4)_2 built exactly — 10 primaries, kappa = 6, Sigma.Sigma-dagger = 864 I = 4*6^3 (the silver instance of the golde\n  *** [ 1 terms] PROVED    B1082_order_comparison\n           THE ORDER COMPARISON (2 agents; the verifier FAILED the first typing on the missing model-disclosure and PASSED the computational spine — this bank carries the corrected grade): the chain's forcing DAG stands verified ed\n  *** [ 1 terms] PROVED    B1084_g2_cone\n           The flat G2 orbifold (C^2 x R^3)/G-hat (|G-hat| = 96) EXISTS and is fully stratified -- ONE E6 locus (stabilizer exactly 2T) + THREE A1 families (orbits 6/12/12, stabilizers exactly Z2) + three order-48 axis lines + the \n  *** [ 1 terms] PROVED    B1089_matter_card\n           THE MATTER CARD (L174 C3, assembly of banked pieces under the 3d-theory header): the 27-local-system cohomology IS the theory's matter content -- solo h1 = 3 (B662), welded 5, theta-odd 2 (B1086's spectrum law = the mult\n  *** [ 1 terms] PROVED    B1095_mirror_isospectral\n           THE MIRROR-ISOSPECTRAL SPLIT (answers the audit seat's two B1085 checks): at reversal-closed windows (even Fibonacci index: N = 987, 2584) the left hand's word IS the reversed right hand's word letter-for-letter, so J H \n\n  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.\n"
+    },
+    {
+      "raw_basename": "oa_r32_atlas_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/atlas/query.py",
+          "card"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.08751499990466982,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "raw_receipt_sha256": "f773816f1c0fc9df40837fe842619c23660478c046fab1a18d2532dbd780794a",
+      "output": "THE RECURRENCE ATLAS -- context card\n  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}\n  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur\n  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)\n  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422\n  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral\n  top meeting-point candidates: B530, B156, B521, B309, B598, B1189\n  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())\n"
+    },
+    {
+      "raw_basename": "oa_r32_presence_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "equivariant.{0,30}(relative|index|cohomolog)|regular.{0,20}(C3|C_3|C₃|representation)|orbifold.{0,20}(project|source)|source.{0,20}(project|Lefschetz)",
+          "--regex"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 42.631459999945946,
+        "log_bytes": 2913,
+        "log_sha256": "da937046b3062d0a6246215fa945527d75af2d99c1e1b902e1bb3045899633b3"
+      },
+      "raw_receipt_sha256": "b3937d5ca7579dc1e9e10ace49615eaabcb6715f195d369f9e301a766a764bdf",
+      "output": "ABSENCE SWEEP for 'equivariant.{0,30}(relative|index|cohomolog)|regular.{0,20}(C3|C_3|C₃|representation)|orbifold.{0,20}(project|source)|source.{0,20}(project|Lefschetz)' -- 12 heads enumerated\n  audit/physical-bridge-2026-09-05                        790f2bc9  content:  41  filenames:  0\n      790f2bc9:CHANGELOG.md\n      790f2bc9:PROGRESS_LOG.md\n      790f2bc9:docs/GUT_REQUIREMENTS_LEDGER.md\n  main                                                    f06d3405  content:  31  filenames:  0\n      f06d3405:CHANGELOG.md\n      f06d3405:PROGRESS_LOG.md\n      f06d3405:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/audit/b775-braver-questions                      53da05f6  content:  28  filenames:  0\n      53da05f6:CHANGELOG.md\n      53da05f6:PROGRESS_LOG.md\n      53da05f6:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/audit/physical-bridge-2026-09-05                 790f2bc9  content:  41  filenames:  0\n      790f2bc9:CHANGELOG.md\n      790f2bc9:PROGRESS_LOG.md\n      790f2bc9:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/<seat>/new-session-qor5up                        3851df2a  content:  27  filenames:  0\n      3851df2a:CHANGELOG.md\n      3851df2a:PROGRESS_LOG.md\n      3851df2a:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/<seat>/outside-bench                             9f3f561c  content:  32  filenames:  0\n      9f3f561c:CHANGELOG.md\n      9f3f561c:PROGRESS_LOG.md\n      9f3f561c:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/<seat>/paper-verification-ufp0zn                 5dde7b3e  content:  32  filenames:  0\n      5dde7b3e:CHANGELOG.md\n      5dde7b3e:PROGRESS_LOG.md\n      5dde7b3e:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/<seat>/physics-seat-evaluation-8dkbrl            659487bb  content:  44  filenames:  0\n      659487bb:CHANGELOG.md\n      659487bb:PROGRESS_LOG.md\n      659487bb:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/<seat>/standard-model-derivation-0qt6ao          9bc041c5  content:  34  filenames:  0\n      9bc041c5:CHANGELOG.md\n      9bc041c5:PROGRESS_LOG.md\n      9bc041c5:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/codex/seat-r001                                  f7a49536  content:  32  filenames:  0\n      f7a49536:CHANGELOG.md\n      f7a49536:PROGRESS_LOG.md\n      f7a49536:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/main                                             3857877d  content:  32  filenames:  0\n      3857877d:CHANGELOG.md\n      3857877d:PROGRESS_LOG.md\n      3857877d:docs/GUT_REQUIREMENTS_LEDGER.md\n  origin/paper/structure-genesis-first                    a31456d2  content:  33  filenames:  0\n      a31456d2:CHANGELOG.md\n      a31456d2:PROGRESS_LOG.md\n      a31456d2:docs/GUT_REQUIREMENTS_LEDGER.md\n  deleted-in-history paths matching: 0\n  working tree (untracked included): 41\n      CHANGELOG.md\n      PROGRESS_LOG.md\n      docs/GUT_REQUIREMENTS_LEDGER.md\n      docs/LAW_MAP.md\n      docs/OPEN_LEADS.md\nVERDICT: PRESENT -- on 12 head(s), working tree. 'We don't have it' may NOT be written.\n"
+    },
+    {
+      "raw_basename": "oa_r32_native_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/source_c3.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.033804000006057,
+        "log_bytes": 20946,
+        "log_sha256": "2e3cada5bbf01cb29838cf0fc6b99e9b6aa3afacc0375bbb25a1917142864c63"
+      },
+      "raw_receipt_sha256": "07f2475fcab22feae22cd8f07a6de2333753c628e522fafe2e08c01220c755e4",
+      "public_path": "reports/physical_bridge_2026_09_05/SOURCE_C3_NATIVE_FIRST.json"
+    },
+    {
+      "raw_basename": "oa_r32_tests_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "tests/test_physical_bridge_source_c3.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 5.17841400008183,
+        "log_bytes": 99,
+        "log_sha256": "ab316d81c42b6902410da829fa111c68664c906cbf3fb669d80f6482d90b0b20"
+      },
+      "raw_receipt_sha256": "0648e95fdb5ee46ca7fb2c4a25a026de84cf2c949884e8067bd51b3be7e25237",
+      "public_path": "reports/physical_bridge_2026_09_05/SOURCE_C3_TESTS_FIRST.txt"
+    },
+    {
+      "raw_basename": "oa_r32_focused_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "tests/test_physical_bridge_source_c3.py",
+          "tests/test_physical_bridge_holonomy_spectrum.py",
+          "tests/test_physical_bridge_holonomy_equivariance_word_control.py",
+          "tests/test_physical_bridge_resolved_fermion_c3_control.py",
+          "tests/test_physical_bridge_global_poisson.py",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 21.192311999970116,
+        "log_bytes": 692,
+        "log_sha256": "632921d0b01c0571715b83e6dfc510340b7602f8823c052a1fdfaf8540b0733f"
+      },
+      "raw_receipt_sha256": "f40d750bdfa138c861c4126c860383ccdd603e2a79b31ac3405d4d656028bf16",
+      "public_path": "reports/physical_bridge_2026_09_05/SOURCE_C3_FOCUSED_FIRST.txt"
+    }
+  ],
+  "scope": "Byte custody and finite targeted runs, not independent proof review or full-suite certification."
+}
