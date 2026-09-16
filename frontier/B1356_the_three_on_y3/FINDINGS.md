@@ -175,3 +175,10 @@ its resolution carry no 2-form with the deck's irreducible — the U(1)² must b
 *(Currency 2026-09-15, B1358: L213 (ii) — the apex on the knot — is negative within the twistor family: its model is forced to the cone
 over CP³/(2T × Z₃) (the deck's lift of §3), whose E₆ locus is ℝ³/Z₃ as required but whose companion at the antipode is A₅ = {±1}·Z₃ and
 which carries four A₂ branches; neither exists in the object's own background (B1357). `frontier/B1358_the_e6_apex_family` §3.)*
+
+*(Currency 2026-09-16, main's B1414 §4: memo 233's v2 re-derived on main's own code — Q₈ ◁ 2T of index 3 with w = (1+i+j+k)/2 cycling
+i → j → k, Δ = t² − 3t + 1, H₁(Y₃) = ℤ/4 ⊕ ℤ/4 by Smith form, the deck a 3-cycle on the three non-zero classes of H₁/2H₁ — and the
+consequence stated at its strength: a ℤ/3-symmetric triple is uncharged under every deck-invariant class, so "b₂ ≥ 2 with the ℤ/3
+moving the harmonic forms" is a necessary condition on every closing realising item 1. That is §2's first two points, independently
+derived on the other bench; the pair (w, σ*w) with charges 3 × the weights of the 3̄ is this arc's sharper form of it, and B1357's
+b₂ = 0 on the flat background is why the pair must be born with the apexes. `frontier/B1414_the_outside_benchs_memos_185_233_harvested` on main.)*
