@@ -39,9 +39,11 @@ argument stated twice.
 
 | label | count |  | label | count |
 |---|---|---|---|---|
-| THEOREM | 26 |  | NO-GO | 5 |
+| THEOREM | 35 |  | NO-GO | 8 |
 | IDENTITY | 6 |  | COROLLARY | 1 |
-| AXIOM | **4** |  | CENSUS | 1 |
+| AXIOM | **4** |  | CENSUS | 2 |
+
+*(counts as of 2026-09-16, 56 links C1–C56; the table read 26/5/6/1/4/1 at 43 links when Part 0.5 was written, and the gate has re-derived it from the ledger at every landing since)*
 
 **39 of 43 links are FORCED.** The four axioms are **C3, C4, C5** — inexhaustible
 description, the geometric carrier, orientation, **all BEFORE the knot** — and **C18**,

@@ -37,12 +37,12 @@ LEDGER = "docs/THEOREM_LEDGER.md"
 # 2026-09-09: C47-C54 entered (the chirality campaign B1291-B1324, each link locked; SUBMISSION_CAMPAIGN S7):
 # THEOREM 27 -> 34, NO-GO 7 -> 8; the axiom set and the axiom-free stretch unchanged.
 EXPECTED = {
-    "THEOREM": 34,
+    "THEOREM": 35,
     "IDENTITY": 6,
     "NO-GO": 8,
     "AXIOM": 4,
     "COROLLARY": 1,
-    "CENSUS": 1,
+    "CENSUS": 2,
 }
 EXPECTED_AXIOMS = [3, 4, 5, 18]
 STRETCH = (6, 17)  # the knot .. the object's own structure and its two no-gos (C16, C17); the algebra is handed over by McKay and certified at C26, and the measurement links C24-C42 are numbered after C18 by banking order, not dependence (S9, 2026-09-09)

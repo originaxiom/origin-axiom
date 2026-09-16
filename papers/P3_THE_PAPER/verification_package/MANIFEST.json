@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-09-15T17:11:16Z",
+ "built": "2026-09-16T14:49:37Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,7 +9,7 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "80e3ec83"
+  "git_head": "b25da51b"
  },
  "claims": [
   {
@@ -97,7 +97,7 @@
   },
   {
    "section": "3",
-   "claim": "the chain is 54 links, 50 of them forced (39 of 43 when the census instrument was first recorded); axioms only at the two ends",
+   "claim": "the chain is 56 links, 52 of them forced (39 of 43 when the census instrument was first recorded); axioms only at the two ends",
    "support": "settled",
    "records": [
     {
@@ -809,7 +809,7 @@
   },
   {
    "section": "6",
-   "claim": "the one-cusped index vanishes on every sector of the cyclic tower by two theorems (its non-vacuity as an instrument is open)",
+   "claim": "the one-cusped index vanishes on every sector of the cyclic tower by two theorems (its non-vacuity as an instrument, open when this was banked, is now settled on the class and the tower)",
    "support": "settled",
    "records": [
     {
@@ -1085,6 +1085,324 @@
      ],
      "primary_locks": [
       "tests/test_b1323_the_genesis_upgrades.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "the geometric finite-twist index is identically zero on every one-cusped hyperbolic manifold (Menal-Ferrer-Porti injectivity through a finite cover), and an exact non-semisimple module with I = +1 exists on m010",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1413",
+     "dir": "frontier/B1413_the_audit_lanes_r21_r31",
+     "verdict": "VERIFIED",
+     "claim_one_line": "THE AUDIT LANE'S R21-R31 HARVESTED at 5e063851. R27 VERIFIED on main both halves: (a) for V = Sym^m(h) (x) F with h the geometric holonomy and F finite-image, the interior image of H^1 vanishes for V and V* (Menal-Ferrer-Porti Theorem 0.1, read from the source, transferred through the finite cover t",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1413_the_audit_lanes_r21_r31/verification/main_r27_exact_lift.py"
+     ],
+     "results": [
+      "frontier/B1413_the_audit_lanes_r21_r31/verification/main_r27_exact_lift_run.txt"
+     ],
+     "locks": [
+      "tests/test_b1413_audit_harvest.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1413_audit_harvest.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "chi(d+M) = 0 for every theta-odd cusp field with transverse zeros (the region-swap lemma); the product mode's +-4 is a non-transverse zero set",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1417",
+     "dir": "frontier/B1417_the_region_swap_lemma",
+     "verdict": "VERIFIED",
+     "claim_one_line": "THE REGION-SWAP LEMMA (fc R71 section 2) VERIFIED ON MAIN: for an involution sigma of the cusp torus and a sigma-odd field g with a transverse zero set Z, sigma swaps {g > 0} and {g < 0}, so their Euler characteristics agree and sum to chi(T^2) - chi(Z) = 0 -- chi(d+M) = chi(d-M) = 0 for every theta",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1417_the_region_swap_lemma/verification/region_swap.py"
+     ],
+     "results": [
+      "frontier/B1417_the_region_swap_lemma/verification/region_swap.out"
+     ],
+     "locks": [
+      "tests/test_b1417_region_swap.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1417_region_swap.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "the index is non-zero in characteristic zero on reducible non-split modules of five members of the object's commensurability class and of its degree-4 cyclic cover t12839, and zero on the object's own golden reducible locus (235 modules); the class census (m202, s959, o10_150726 carry all four requirements, none a cover of m004)",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1418",
+     "dir": "frontier/B1418_the_family_as_the_object",
+     "verdict": "PROVED",
+     "claim_one_line": "THE FAMILY AS THE OBJECT (DESIGN sealed f2f8686c before any cell ran; outcome B). The one-cusped chirality index I = t_0 - r_1 fires in characteristic zero for the first time on real hyperbolic manifolds, and they are members of the figure-eight's commensurability class, not the figure-eight: on red",
+     "seals": [
+      {
+       "seal_file": "frontier/B1418_the_family_as_the_object/DESIGN.sha256",
+       "sealed_file": "frontier/B1418_the_family_as_the_object/DESIGN.md",
+       "recorded": [
+        "5c6c5db4f11189ade6238d41eb8cd152b4c684c96b6725e3510a923455619efb  DESIGN.md"
+       ],
+       "current_sha256": "5c6c5db4f11189ade6238d41eb8cd152b4c684c96b6725e3510a923455619efb",
+       "matches": true
+      }
+     ],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1418_the_family_as_the_object/verification/c1_class_census.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_aggregate.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_reducible_index.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_run.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_verify_s958.py",
+      "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.py",
+      "frontier/B1418_the_family_as_the_object/verification/c4_27bar_exact.py"
+     ],
+     "results": [
+      "frontier/B1418_the_family_as_the_object/verification/c1_class_census.json",
+      "frontier/B1418_the_family_as_the_object/verification/c1_class_census.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_aggregate.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_class12.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_covers.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_m004.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_m004z12.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_modules_compact.json",
+      "frontier/B1418_the_family_as_the_object/verification/c2_summary.json",
+      "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.json",
+      "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.out",
+      "frontier/B1418_the_family_as_the_object/verification/c4_27bar_exact.out"
+     ],
+     "locks": [
+      "tests/test_b1418_family.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1418_family.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "the three base rates: 1696 of 5000 admit the 2T surjection (of the 112 family members 59 admit it, 35 do not, 18 not enumerated), 181 of 203123 one-cusped census manifolds are amphichiral, 20 of 212641 attain the count of three (2 of the first 4000; 3996 of 4000 carry the object's 4); the three-line class to nine tetrahedra has nine members, none keeping the golden face",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1414",
+     "dir": "frontier/B1414_the_outside_benchs_memos_185_233_harvested",
+     "verdict": "VERIFIED",
+     "claim_one_line": "THE OUTSIDE BENCH'S MEMOS 185-233 HARVESTED at 8262c6ed. Its eight load-bearing items recomputed on main: five reproduced (F9 FRAGILE at depth 5 with B1323's own enumerator, m412 chiral in Q(sqrt-3) with 0 surjections onto SL(2,3); chirality 181 of 203 123; the 2T door 1 696 of 5 000 with B993's own",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/canon_full.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/census_sweep.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/census_sweep_canon.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/covers_and_m412.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/golden_new_members.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/two_threes_own.py"
+     ],
+     "results": [
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/b1330_final_index_t12835.txt",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/canon_full.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/cert_reruns_summary.txt",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/chir_sweep.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/chir_sweep_canon.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/covers_and_m412.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/det_sweep.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/det_sweep_canon.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/golden_new_members.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/sl23_baserate_5000_summary.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/two_threes_own.out",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/u1_substrate_count_maxlen5_summary.json"
+     ],
+     "locks": [
+      "tests/test_b1414_outside_bench_harvest.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1414_outside_bench_harvest.py"
+     ]
+    },
+    {
+     "arc": "B1416",
+     "dir": "frontier/B1416_the_relay_residue_closed",
+     "verdict": "VERIFIED",
+     "claim_one_line": "THE RELAY RESIDUE CLOSED: the fifteen relays B1412 kept OPEN by name, read against their artifacts in three pinned archive tags (cc3 a31456d2, braver 53da05f6, codex f7a49536), the seats' scripts re-run (B8087, B8143's six steps, codex R031D: all rc 0), and rowed -- eleven were already on main under",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1416_the_relay_residue_closed/verification/class_numbers_m2plus4.py",
+      "frontier/B1416_the_relay_residue_closed/verification/family_2t_door.py"
+     ],
+     "results": [
+      "frontier/B1416_the_relay_residue_closed/verification/class_numbers_m2plus4.out",
+      "frontier/B1416_the_relay_residue_closed/verification/family_2t_door.json",
+      "frontier/B1416_the_relay_residue_closed/verification/family_2t_door.out"
+     ],
+     "locks": [
+      "tests/test_b1416_residue.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1416_residue.py"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "claim": "the exact half of the closing design: the E7 apex local model's geometry (its count cited), the Z/3 = 2T/Q8 forcing b2 >= 2 for a symmetric triple, the Y3 breaking to SM x U(1)_eta by a Q8 line times an order-4 character (root-system facts), and the algebraic no-seesaw obstruction (equal eta charges on both charged singlets; no eta-neutral Majorana source in 27^3 or 78) -- the design itself and its exclusion are conditional, a design and not a theorem",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1411",
+     "dir": "frontier/B1411_the_sm_seats_v10_arcs_harvested",
+     "verdict": "VERIFIED",
+     "claim_one_line": "THE SM SEAT'S V10 ARCS HARVESTED (B1351-B1355 at 1703c0d8): the seat's 21 locks re-run green on main's bench in two hours; main re-derived with its own code -- B1351's closings vector-like at every character of levels 3, 4, 5 (179 characters, zero mismatches); B1352's two locus points in the seat's ",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1351_closings.py",
+      "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1352_locus_check.py",
+      "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1355_geometry.py"
+     ],
+     "results": [
+      "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1351_closings_run.txt",
+      "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1352_locus_check_run.txt",
+      "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1355_geometry_run.txt",
+      "frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/sm_locks_rerun_1703c0d8.txt"
+     ],
+     "locks": [
+      "tests/test_b1411_sm_harvest.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1411_sm_harvest.py"
+     ]
+    },
+    {
+     "arc": "B1414",
+     "dir": "frontier/B1414_the_outside_benchs_memos_185_233_harvested",
+     "verdict": "VERIFIED",
+     "claim_one_line": "THE OUTSIDE BENCH'S MEMOS 185-233 HARVESTED at 8262c6ed. Its eight load-bearing items recomputed on main: five reproduced (F9 FRAGILE at depth 5 with B1323's own enumerator, m412 chiral in Q(sqrt-3) with 0 surjections onto SL(2,3); chirality 181 of 203 123; the 2T door 1 696 of 5 000 with B993's own",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/canon_full.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/census_sweep.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/census_sweep_canon.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/covers_and_m412.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/golden_new_members.py",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/two_threes_own.py"
+     ],
+     "results": [
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/b1330_final_index_t12835.txt",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/canon_full.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/cert_reruns_summary.txt",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/chir_sweep.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/chir_sweep_canon.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/covers_and_m412.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/det_sweep.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/det_sweep_canon.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/golden_new_members.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/sl23_baserate_5000_summary.json",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/two_threes_own.out",
+      "frontier/B1414_the_outside_benchs_memos_185_233_harvested/verification/u1_substrate_count_maxlen5_summary.json"
+     ],
+     "locks": [
+      "tests/test_b1414_outside_bench_harvest.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1414_outside_bench_harvest.py"
+     ]
+    },
+    {
+     "arc": "B1415",
+     "dir": "frontier/B1415_the_sm_seats_closing_arcs_harvested",
+     "verdict": "VERIFIED",
+     "claim_one_line": "THE SM SEAT'S CLOSING ARCS HARVESTED at f17dd84e (sm:B1356-B1365, THE CLOSING, sm:L214/L215). All ten seat scripts re-run green in the pinned worktree, nine log-identical (the tenth differs only in a stochastic search). Recomputed on main's own code: the Burnside count for a symplectic 2T on K3 has ",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/burnside_k3.py",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/e6_own.py",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/identities_and_e7.py",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/kac_s3.py",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/torus_order4.py"
+     ],
+     "results": [
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/burnside_k3.out",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/e6_own.out",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/identities_and_e7.out",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/kac_s3.out",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/seat_scripts_rerun_summary.txt",
+      "frontier/B1415_the_sm_seats_closing_arcs_harvested/verification/torus_order4.out"
+     ],
+     "locks": [
+      "tests/test_b1415_sm_harvest.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1415_sm_harvest.py"
+     ]
+    },
+    {
+     "arc": "B1418",
+     "dir": "frontier/B1418_the_family_as_the_object",
+     "verdict": "PROVED",
+     "claim_one_line": "THE FAMILY AS THE OBJECT (DESIGN sealed f2f8686c before any cell ran; outcome B). The one-cusped chirality index I = t_0 - r_1 fires in characteristic zero for the first time on real hyperbolic manifolds, and they are members of the figure-eight's commensurability class, not the figure-eight: on red",
+     "seals": [
+      {
+       "seal_file": "frontier/B1418_the_family_as_the_object/DESIGN.sha256",
+       "sealed_file": "frontier/B1418_the_family_as_the_object/DESIGN.md",
+       "recorded": [
+        "5c6c5db4f11189ade6238d41eb8cd152b4c684c96b6725e3510a923455619efb  DESIGN.md"
+       ],
+       "current_sha256": "5c6c5db4f11189ade6238d41eb8cd152b4c684c96b6725e3510a923455619efb",
+       "matches": true
+      }
+     ],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1418_the_family_as_the_object/verification/c1_class_census.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_aggregate.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_reducible_index.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_run.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_verify_s958.py",
+      "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.py",
+      "frontier/B1418_the_family_as_the_object/verification/c4_27bar_exact.py"
+     ],
+     "results": [
+      "frontier/B1418_the_family_as_the_object/verification/c1_class_census.json",
+      "frontier/B1418_the_family_as_the_object/verification/c1_class_census.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_aggregate.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_class12.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_covers.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_m004.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_m004z12.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_modules_compact.json",
+      "frontier/B1418_the_family_as_the_object/verification/c2_summary.json",
+      "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.json",
+      "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.out",
+      "frontier/B1418_the_family_as_the_object/verification/c4_27bar_exact.out"
+     ],
+     "locks": [
+      "tests/test_b1418_family.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1418_family.py"
      ]
     }
    ]
@@ -1591,10 +1909,10 @@
   }
  ],
  "totals": {
-  "claims": 41,
-  "records": 57,
-  "seals": 12,
-  "locks": 98,
-  "records_with_a_primary_lock": 56
+  "claims": 46,
+  "records": 66,
+  "seals": 14,
+  "locks": 105,
+  "records_with_a_primary_lock": 65
  }
 }

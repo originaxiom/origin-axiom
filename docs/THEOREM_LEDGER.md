@@ -519,6 +519,31 @@ twists barely exist: 2 live sectors (order 3), both I = 0; 4 Galois-protected se
 (a nonzero appears only where the four identities fail). The 54 multi-cusped chiral covers await the multi-cusp
 index. — B1324. Lock: `tests/test_b1324_arc_b_and_the_dictionary.py`.
 
+**C55 [THEOREM — the geometric finite-twist index is identically zero].** For V = Sym^m(h) ⊗ F with h the
+geometric holonomy of any one-cusped hyperbolic 3-manifold and F a finite-image representation, the restriction
+H¹(M; V) → H¹(∂M; V) is injective (Menal-Ferrer–Porti, Theorem 0.1 of arXiv 1001.2242, transferred through the
+finite cover that trivialises F: tr∘p* = d), so the interior image vanishes and the one-cusped index I = t₀ − r₁ of
+C50 is **identically zero** — on m004, on every cover, on every census manifold. Every geometric-holonomy sector of
+C50–C54 vanishes for this reason and the pre-registered cyclic-tower test could not have passed once it was known.
+Read from the audit lane's R27 and verified on main against the published statement; the same lane's exact
+non-semisimple witness on m010 (I = +1, semisimplification 0) shows the theorem's hypothesis is the whole content:
+the index is a formula that fires only off the geometric locus. — B1413. Lock: `tests/test_b1413_audit_harvest.py`.
+
+**C56 [CENSUS — the index fires on the class and the tower, not on the member].** On reducible non-split modules
+Sym^m(ρ_χ) ⊗ ψ built at root-of-unity characters χ with H¹(π; χ²) ≠ 0 (ρ_χ = [[χ, c],[0, χ⁻¹]], c a non-coboundary
+cocycle found by Fox calculus), the index of C50 is non-zero, exactly and in characteristic zero, on five one-cusped
+chiral members of m004's commensurability class — s958 (34 of 819 modules), v2873 (56 of 3 627), t12833 (107 of
+3 021), t12835 (177 of 3 110, |I| up to 2), o10_150701 (64 of 1 395), four of them B1330's targets, on whose
+geometric holonomy the index was zero — and on m004's own degree-4 cyclic cover t12839 (104 of 2 385), at their
+cusp-trivial characters of order three among others; every semisimplification is 0; the s958 positive is re-derived
+on three presentations; the instrument reproduced C55's m010 witness first. **On m004 itself the only reducible locus
+is the golden one** (Δ = t² − 3t + 1, H₁ = ℤ torsion-free), and every module computed there (m ≤ 4, twists of order
+dividing 12, 235 modules over ℚ(φ) and ℚ(φ, ζ₁₂)) is 0. The class census: of the 112 ℚ(√−3)-family manifolds,
+chirality and the count of three vary while the 2T door determines neither; m202, s959, o10_150726 (two-cusped)
+carry all four measured requirements and none is a cover of m004. What fires is non-semisimplicity, not geometry;
+whether such a flat module is an admissible background is not decided. DESIGN sealed before the run (outcome B).
+— B1418. Lock: `tests/test_b1418_family.py`.
+
 *(B909's remaining debts — the six-cubic √77 law, the Compact Measurement Theorem, the
 invisible-12 — enter when their locks land; LAW_MAP §F's pending row governs.)*
 

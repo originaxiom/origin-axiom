@@ -27,7 +27,8 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-SETTLED = {"PROVED", "NEGATIVE", "RESOLVED", "RESOLVED-A", "THEOREM"}
+SETTLED = {"PROVED", "NEGATIVE", "RESOLVED", "RESOLVED-A", "THEOREM",
+           "VERIFIED"}   # VERIFIED: a harvest arc whose result was re-derived on main with its own code and lock (S10, 2026-09-16)
 
 # (paper section, the claim, arcs, support-type)
 #
@@ -47,7 +48,7 @@ CLAIMS = [
         ["B993"], "settled"),
  ("2.1","seven genesis forks: five robust or geometry-necessary, two fragile and named",
         ["B1003"], "settled"),
- ("3",  "the chain is 54 links, 50 of them forced (39 of 43 when the census instrument was first recorded); axioms only at the two ends",
+ ("3",  "the chain is 56 links, 52 of them forced (39 of 43 when the census instrument was first recorded); axioms only at the two ends",
         ["B1123"], "settled"),
  ("3",  "the golden substitution matrix squared is the object's monodromy (M^2 = LR)",
         ["B14"], "settled"),
@@ -91,7 +92,7 @@ CLAIMS = [
         ["B1320"], "settled"),
  ("6",  "a charge locus on the mirror's fixed set is mirror-even: the F4 chamber is vector-like or anomalous, and the object supplies no charge locus; the involution's two lifts",
         ["B1296", "B1298"], "settled"),
- ("6",  "the one-cusped index vanishes on every sector of the cyclic tower by two theorems (its non-vacuity as an instrument is open)",
+ ("6",  "the one-cusped index vanishes on every sector of the cyclic tower by two theorems (its non-vacuity as an instrument, open when this was banked, is now settled on the class and the tower)",
         ["B1297", "B1299"], "settled"),
  ("6",  "the last flat-sector direction carries non-self-dual representations with zero net count",
         ["B1322"], "settled"),
@@ -99,6 +100,16 @@ CLAIMS = [
         ["B1303", "B1306"], "settled"),
  ("6",  "the genesis dictionary, the criterion census and the substrate fork: three records buy the plastic number and the silver world",
         ["B1323"], "settled"),
+ ("6",  "the geometric finite-twist index is identically zero on every one-cusped hyperbolic manifold (Menal-Ferrer-Porti injectivity through a finite cover), and an exact non-semisimple module with I = +1 exists on m010",
+        ["B1413"], "settled"),
+ ("6",  "chi(d+M) = 0 for every theta-odd cusp field with transverse zeros (the region-swap lemma); the product mode's +-4 is a non-transverse zero set",
+        ["B1417"], "settled"),
+ ("6",  "the index is non-zero in characteristic zero on reducible non-split modules of five members of the object's commensurability class and of its degree-4 cyclic cover t12839, and zero on the object's own golden reducible locus (235 modules); the class census (m202, s959, o10_150726 carry all four requirements, none a cover of m004)",
+        ["B1418"], "settled"),
+ ("6",  "the three base rates: 1696 of 5000 admit the 2T surjection (of the 112 family members 59 admit it, 35 do not, 18 not enumerated), 181 of 203123 one-cusped census manifolds are amphichiral, 20 of 212641 attain the count of three (2 of the first 4000; 3996 of 4000 carry the object's 4); the three-line class to nine tetrahedra has nine members, none keeping the golden face",
+        ["B1414", "B1416"], "settled"),
+ ("6",  "the exact half of the closing design: the E7 apex local model's geometry (its count cited), the Z/3 = 2T/Q8 forcing b2 >= 2 for a symmetric triple, the Y3 breaking to SM x U(1)_eta by a Q8 line times an order-4 character (root-system facts), and the algebraic no-seesaw obstruction (equal eta charges on both charged singlets; no eta-neutral Majorana source in 27^3 or 78) -- the design itself and its exclusion are conditional, a design and not a theorem",
+        ["B1411", "B1414", "B1415", "B1418"], "settled"),
  ("6",  "the mirror is swap times arrow on every knot complement; 66 of the 87 covers to degree 10 are chiral and keep the arithmetic",
         ["B1324"], "settled"),
  ("4",  "the manifold's intrinsic arithmetic forces exactly three quadratic faces, Q(sqrt-3), Q(sqrt5), Q(sqrt-15), and no closed filling in the |p|,q <= 8 grid keeps any of them",

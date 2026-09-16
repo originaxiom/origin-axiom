@@ -33,7 +33,7 @@ def test_every_chain_link_appears_with_the_recomputed_tally():
     assert sum(tally.values()) == n, (tally, n)
     assert tally["AXIOM"] == 4 and n - forced == 4, out
     # invariants only: THEOREM grows with the chain, CENSUS/COROLLARY are structural singletons
-    assert tally["THEOREM"] >= 26 and tally["CENSUS"] == 1 and tally["COROLLARY"] == 1, out
+    assert tally["THEOREM"] >= 26 and tally["CENSUS"] == 2 and tally["COROLLARY"] == 1, out
 
 
 def test_the_axiom_free_stretch_is_real():

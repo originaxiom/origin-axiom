@@ -1,8 +1,8 @@
-# THE VERIFICATION PACKAGE — report (2026-09-15T17:11:18Z)
+# THE VERIFICATION PACKAGE — report (2026-09-16T14:38:14Z)
 
-Manifest built 2026-09-15T17:11:16Z at commit `80e3ec83`; {'claims': 41, 'records': 57, 'seals': 12, 'locks': 98, 'records_with_a_primary_lock': 56}.
+Manifest built 2026-09-16T14:38:12Z at commit `b25da51b`; {'claims': 46, 'records': 66, 'seals': 14, 'locks': 105, 'records_with_a_primary_lock': 65}.
 
-## Seals — PASS (12/12 match)
+## Seals — PASS (14/14 match)
 
 - `B1321` frontier/B1321_l205_the_siblings_localized_count/DESIGN.sha256: ok
 - `B1320` frontier/B1320_phase2_arc0_pw_count/DESIGN.sha256: ok
@@ -15,6 +15,8 @@ Manifest built 2026-09-15T17:11:16Z at commit `80e3ec83`; {'claims': 41, 'record
 - `B1306` frontier/B1306_the_older_debt/DESIGN_B.sha256: ok
 - `B1306` frontier/B1306_the_older_debt/DESIGN_C.sha256: ok
 - `B1323` frontier/B1323_the_genesis_upgrades/DESIGN.sha256: ok
+- `B1418` frontier/B1418_the_family_as_the_object/DESIGN.sha256: ok
+- `B1418` frontier/B1418_the_family_as_the_object/DESIGN.sha256: ok
 - `B1324` frontier/B1324_arc_b_and_the_dictionary/DESIGN.sha256: ok
 
 **Overall: PASS.** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.
