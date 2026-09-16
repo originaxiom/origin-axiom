@@ -1,5 +1,23 @@
 # Changelog
 
+## xB003 THE MONODROMY ON THE OBJECT'S OWN LEAF: B1341's double tick is the monodromy (proved), its fixed point is the ramified prime of Q(sqrt-3), and the missing generating function has trace 5
+
+Owner-directed 2026-09-16 (approval to proceed on the leads, with the discipline kept). Seat `xb`, branch `sep16-branch`, citation-only numbering; no main B-number consumed.
+
+B1341 proved the object's half-tick anti-variational and its double tick symplectic, produced the explicit generating function `S(u,U) = u^2/2 - uU + U^2` on the leaf `I = 0` (`kappa = +2`), and recorded -- checked, not assumed -- that **the object is not on that leaf**: it sits at `kappa = -2` (`I = -1`), where the linearisation fails and the explicit `S` does not apply. That was the named gap; this arc attempts it.
+
+**(1) The identification B1341 used and did not prove is now proved.** `T^2 = F_R o F_L` identically, where `F_L`, `F_R` are the trace maps induced by the two Dehn twists `(a,b) -> (a, ab)` and `(a,b) -> (ab, b)`, whose abelianisations are `L = [[1,1],[0,1]]` and `R = [[1,0],[1,1]]`, composing to `RL = [[1,1],[1,2]]` of trace 3 and determinant 1 -- conjugate to m004's monodromy `LR`. Both twists preserve `kappa`, so the leaf structure is theirs. Independently, the fibration's monodromy in its literature presentation `phi(a) = ab, phi(b) = bab` induces, by trace identities re-derived here, exactly `F_L o F_R`, conjugate to `F_R o F_L` by `F_L`. Two derivations, one map.
+
+**(2) The fixed point and its arithmetic.** On the object's leaf `kappa = -2` -- `X^2+Y^2+Z^2 = XYZ`, the Markov surface, an identification already banked at **B1347** and not this arc's -- the monodromy has exactly the node `(0,0,0)`, where the derivative's eigenvalues are the primitive cube roots of unity, and a conjugate pair of regular fixed points **every trace of which has norm 3 and equals `2+omega` or `2+conj(omega)`**. The fixed point of the object's own monodromy, on the object's own leaf, sits on the **ramified prime above 3** of `Q(sqrt-3)` -- its own invariant trace field, discriminant -3. The pair being conjugate is the mirror, consistent with the object's amphichirality exchanging them rather than preferring one. (That a fibre representation is fixed by its monodromy is classical; a fixed point is what "fibred" says in trace coordinates.)
+
+**(3) B1341's theorem exhibited on the object's own leaf.** `D(monodromy)` at the regular fixed point has eigenvalue **1** transverse to the leaf and the pair **`(5 +- sqrt21)/2`** on it, of product exactly 1 -- symplectic, characteristic polynomial `L^2 - 5L + 1`. An action exists there concretely, not only in general.
+
+**(4) The gap filled at the fixed point.** In B1341's own normalisation, where `kappa = +2` gives trace 3 and `S = u^2/2 - uU + U^2` (recursion `c = 3b - a`), the object's leaf `kappa = -2` gives **trace 5** and **`S = u^2/2 - uU + 2U^2`** (recursion `c = 5b - a`).
+
+**Three fences, all load-bearing and all in the arc.** The result is the **leading quadratic part at the fixed point**, not a global linearisation: a hyperbolic fixed point of an area-preserving map always carries resonances `lambda^a lambda^-b = lambda`, so analytic linearisation is not automatic and is not claimed. The multiplier field `Q(sqrt21)`, discriminant `21 = 3*7`, is **UN-INTERPRETED** -- no reading is offered and none should be inferred from its sharing factors with `disc K = 3^4*7*11` or `Q(sqrt77)`. And this is the **trace-map dynamics layer**, not the 4d Lorentzian field action TOE row 4 asks for; that row's status is unchanged, exactly as B1341's own P0 scoped it.
+
+Gate 5 untouched throughout: pure algebra over `Q(sqrt-3)`, no measured quantity, no value, no generation count. Four cells, each asserting its own mathematics and each able to fail on the instance.
+
 ## xB001 + xB002 THE REVIEW SEAT: the package reproduces, the chronology does not, and X15's two ranked scope-correction notes are written
 
 Owner-directed 2026-09-16 ("bank everything we did and keep the discipline"). A new adversarial/review seat `xb` is opened on branch `sep16-branch` (never main), numbering `xB001…` citation-only — a prefix rather than a range, because `CC_TO_ALL_SEATS_2026-09-06` records that renumbering to dodge main has failed twice and the fix must be checkable by a gate. No main B-number is consumed and no reserved range is touched.
