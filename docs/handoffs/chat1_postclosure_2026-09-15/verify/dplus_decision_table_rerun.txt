@@ -1,0 +1,10 @@
+convention                                       m004     m202     s959
+A  truncate, d+M = whole cusp torus                 0        0        0
+B  truncate, d+M = annular subsurface               0        0        0
+C  cylindrical end, d+M empty (L^2 index)           0        0        0
+D  truncate, torus minus order-3 fixed discs        0        6        6
+E  same but ONE distinguished cusp                  0        3        3
+F  d+M = one disc per cusp                         -1       -2       -2
+
+A,B,C are the standard readings and all give ZERO.
+E is the ONLY row giving 3, and it is unmotivated: see README section 3.

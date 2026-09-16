@@ -1,0 +1,5 @@
+m004     det(A-I) from cusp-FIXING maps: [0, 4]
+m003     det(A-I) from cusp-FIXING maps: [0, 4]
+m202     det(A-I) from cusp-FIXING maps: [0, 1, 3, 4]
+s959     det(A-I) from cusp-FIXING maps: [0, 1, 3, 4]
+v3551    det(A-I) from cusp-FIXING maps: [0, 1, 3, 4]

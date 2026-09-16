@@ -1,0 +1,131 @@
+{
+ "siblings": {
+  "m202": {
+   "sym": 12,
+   "chiral": true,
+   "det_values": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "three": true,
+   "cusps": 2,
+   "vol": 4.059766425638616,
+   "H1": "Z + Z",
+   "vol/m004": 2.0,
+   "in_A": true,
+   "covers_of": []
+  },
+  "s959": {
+   "sym": 12,
+   "chiral": true,
+   "det_values": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "three": true,
+   "cusps": 2,
+   "vol": 6.089649638457922,
+   "H1": "Z/3 + Z + Z",
+   "vol/m004": 3.0,
+   "in_A": true,
+   "covers_of": []
+  }
+ },
+ "covers": {
+  "m206": {
+   "sym": 16,
+   "chiral": false,
+   "det_values": [
+    0,
+    4
+   ],
+   "three": false,
+   "cusps": 1,
+   "vol": 4.059766425638615,
+   "H1": "Z/5 + Z",
+   "degree": 2
+  },
+  "s961": {
+   "sym": 24,
+   "chiral": false,
+   "det_values": [
+    0,
+    4
+   ],
+   "three": false,
+   "cusps": 1,
+   "vol": 6.089649638457922,
+   "H1": "Z/4 + Z/4 + Z",
+   "degree": 3
+  },
+  "t12839": {
+   "sym": 32,
+   "chiral": false,
+   "det_values": [
+    0,
+    4
+   ],
+   "three": false,
+   "cusps": 1,
+   "vol": 8.11953285127723,
+   "H1": "Z/3 + Z/15 + Z",
+   "degree": 4
+  },
+  "t12840": {
+   "sym": 8,
+   "chiral": false,
+   "det_values": [
+    0,
+    4
+   ],
+   "three": false,
+   "cusps": 2,
+   "vol": 8.119532851277228,
+   "H1": "Z + Z",
+   "degree": 4
+  },
+  "o10_150685": {
+   "sym": 8,
+   "chiral": false,
+   "det_values": [
+    0,
+    4
+   ],
+   "three": false,
+   "cusps": 3,
+   "vol": 10.149416064096533,
+   "H1": "Z + Z + Z",
+   "degree": 5
+  },
+  "o10_150696": {
+   "sym": 40,
+   "chiral": false,
+   "det_values": [
+    0,
+    4
+   ],
+   "three": false,
+   "cusps": 1,
+   "vol": 10.149416064096535,
+   "H1": "Z/11 + Z/11 + Z",
+   "degree": 5
+  },
+  "o10_150703": {
+   "sym": 4,
+   "chiral": true,
+   "det_values": [
+    0,
+    4
+   ],
+   "three": false,
+   "cusps": 2,
+   "vol": 10.149416064096535,
+   "H1": "Z/2 + Z + Z",
+   "degree": 5
+  }
+ }
+}

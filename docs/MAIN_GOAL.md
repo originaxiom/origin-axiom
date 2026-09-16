@@ -168,3 +168,6 @@ Work **JOIN 1 → JOIN 2 → JOIN 3**. Leave a join only when **earned**, **refu
 named, registered computation**. Every session states which join it advanced and by which
 computation. **Sweep the corpus before proposing a frame — this session re-derived banked material
 seven times and lost four arcs to a frame the corpus had already ruled out.**
+
+**2026-09-16 (B1418, THE FAMILY AS THE OBJECT):** the chirality index fires in characteristic zero on five members of the object's own commensurability class (reducible non-split modules; s958, v2873, t12833, t12835, o10_150701) and on m004's own degree-4 cyclic cover t12839, and not on m004's golden reducible locus; three two-cusped class members (m202, s959, o10_150726) score all four measured requirements and none is a cover of m004. The bit is a property the class supplies and the member does not; whether the chain's object becomes the class (the member as the observer's choice) is registered as L222 for the owner.
+

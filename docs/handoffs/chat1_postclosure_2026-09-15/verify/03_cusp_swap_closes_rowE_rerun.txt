@@ -1,0 +1,8 @@
+m202    Sym D6       cusp perms [(0, 1), (1, 0)]  swap present: True
+        cusp shapes ['0.500000000+0.866025404j', '0.500000000+0.866025404j']
+s959    Sym D6       cusp perms [(0, 1), (1, 0)]  swap present: True
+        cusp shapes ['0.500000000+0.866025404j', '0.500000000+0.866025404j']
+v3551   Sym D6       cusp perms [(0, 1), (1, 0)]  swap present: True
+        cusp shapes ['0.500000000+0.866025404j', '0.500000000+0.866025404j']
+s596    Sym D4       cusp perms [(0, 1), (1, 0)]  swap present: True
+        cusp shapes ['0.500000000+0.866025404j', '0.500000000+0.866025404j']

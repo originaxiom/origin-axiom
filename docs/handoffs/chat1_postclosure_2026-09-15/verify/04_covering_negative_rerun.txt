@@ -1,0 +1,8 @@
+m004 degree-2: 1 cover(s) -> [(1, 4.059766)]
+m004 degree-3: 1 cover(s) -> [(1, 6.08965)]
+   m004 -> m202 (degree 2): is a cover? False
+   m004 -> s959 (degree 3): is a cover? False
+m003 degree-2: 1 cover(s) -> [(1, 4.059766)]
+m003 degree-3: 1 cover(s) -> [(1, 6.08965)]
+   m003 -> m202 (degree 2): is a cover? False
+   m003 -> s959 (degree 3): is a cover? False

@@ -1,0 +1,14 @@
+m004    cusps 1  shapes ['-0.000000000+3.464101615j']
+        lattice: generic (only +-1)
+m003    cusps 1  shapes ['0.500000000+0.866025404j']
+        lattice: hexagonal (order 3,6)
+m202    cusps 2  shapes ['0.500000000+0.866025404j', '0.500000000+0.866025404j']
+        lattice: hexagonal (order 3,6)
+s959    cusps 2  shapes ['0.500000000+0.866025404j', '0.500000000+0.866025404j']
+        lattice: hexagonal (order 3,6)
+v3551   cusps 2  shapes ['0.500000000+0.866025404j', '0.500000000+0.866025404j']
+        lattice: hexagonal (order 3,6)
+s596    cusps 2  shapes ['0.500000000+0.866025404j', '0.500000000+0.866025404j']
+        lattice: hexagonal (order 3,6)
+m125    cusps 2  shapes ['0.000000000+1.000000000j', '-0.000000000+1.000000000j']
+        lattice: square (order 4)

@@ -1,0 +1,2620 @@
+[
+ {
+  "name": "m003",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/5 + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 48,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": [
+   [
+    "t**2 + 3*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other"
+  ]
+ },
+ {
+  "name": "m004",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 48,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": [
+   [
+    "t**2 - 3*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "golden"
+  ]
+ },
+ {
+  "name": "m202",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 12,
+  "chiral": true,
+  "door": 96,
+  "three": true,
+  "det_values": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "gens": 2,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "m203",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "m206",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": true,
+  "H1": "Z/5 + Z",
+  "sym": 16,
+  "chiral": false,
+  "door": 48,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 - 7*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other"
+  ]
+ },
+ {
+  "name": "m207",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z/3 + Z",
+  "sym": 16,
+  "chiral": false,
+  "door": 240,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 + 7*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other"
+  ]
+ },
+ {
+  "name": "m208",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/10 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "2*t**2 + t + 2",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "m410",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [],
+  "root_classes": null
+ },
+ {
+  "name": "m412",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z",
+  "sym": 8,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "s118",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 96,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**4 - 2*t**3 + t**2 - 2*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "s119",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "2*t**2 - 3*t + 2",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "s594",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/4 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    3
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2"
+  ]
+ },
+ {
+  "name": "s595",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**2 - 4*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "s596",
+  "cusps": 2,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "s955",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/20 + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**4 + 2*t**3 + 4*t**2 + 2*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "s956",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/4 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**2 + 1",
+    2
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "roots of unity, order 4"
+  ]
+ },
+ {
+  "name": "s957",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/4 + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**4 - 2*t**3 + 4*t**2 - 2*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "s958",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 96,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 - t + 1",
+    1
+   ],
+   [
+    "t**4 + t**3 - t**2 + t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 6",
+   "other"
+  ]
+ },
+ {
+  "name": "s959",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z + Z",
+  "sym": 12,
+  "chiral": true,
+  "door": 576,
+  "three": true,
+  "det_values": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "s960",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/10 + Z",
+  "sym": 24,
+  "chiral": false,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 + 18*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other"
+  ]
+ },
+ {
+  "name": "s961",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": true,
+  "H1": "Z/4 + Z/4 + Z",
+  "sym": 24,
+  "chiral": false,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 - 18*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other"
+  ]
+ },
+ {
+  "name": "v2873",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/6 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**2 - t + 1",
+    1
+   ],
+   [
+    "t**2 + t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "roots of unity, order 6",
+   "roots of unity, order 3"
+  ]
+ },
+ {
+  "name": "v2874",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t - 2",
+    1
+   ],
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "2*t - 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other",
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "v2875",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/4 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    2
+   ],
+   [
+    "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "v3551",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z",
+  "sym": 12,
+  "chiral": true,
+  "door": 0,
+  "three": true,
+  "det_values": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "t06828",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "t06829",
+  "cusps": 2,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "t11365",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 288,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 - t - 1",
+    1
+   ],
+   [
+    "t**2 + 1",
+    1
+   ],
+   [
+    "t**2 + t - 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other",
+   "roots of unity, order 4",
+   "other"
+  ]
+ },
+ {
+  "name": "t12833",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/6 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**2 + t + 1",
+    1
+   ],
+   [
+    "t**2 - t + 1",
+    2
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "roots of unity, order 3",
+   "roots of unity, order 6"
+  ]
+ },
+ {
+  "name": "t12834",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/4 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 96,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2"
+  ]
+ },
+ {
+  "name": "t12835",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/6 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 288,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2"
+  ]
+ },
+ {
+  "name": "t12836",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 288,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "t12837",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/4 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 96,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**2 + 1",
+    1
+   ],
+   [
+    "t**4 - t**2 + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "roots of unity, order 4",
+   "roots of unity, order 12"
+  ]
+ },
+ {
+  "name": "t12838",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/7 + Z/7 + Z",
+  "sym": 32,
+  "chiral": false,
+  "door": 48,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 + 47*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other"
+  ]
+ },
+ {
+  "name": "t12839",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": true,
+  "H1": "Z/3 + Z/15 + Z",
+  "sym": 32,
+  "chiral": false,
+  "door": 240,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 - 47*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other"
+  ]
+ },
+ {
+  "name": "t12840",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": true,
+  "H1": "Z + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 576,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "t12841",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/5 + Z + Z",
+  "sym": 16,
+  "chiral": false,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "t12842",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "t12843",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 960,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "t12844",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 8,
+  "chiral": true,
+  "door": 480,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "t12845",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 576,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o9_27787",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**8 - 2*t**7 + 4*t**6 - 4*t**5 + 4*t**4 - 4*t**3 + 4*t**2 - 2*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o9_40998",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/10 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "2*t**2 + t + 2",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o9_40999",
+  "cusps": 2,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/4 + Z + Z",
+  "sym": 12,
+  "chiral": true,
+  "door": 0,
+  "three": true,
+  "det_values": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o9_41000",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**8 - t**7 - t**5 + t**4 - t**3 - t + 1",
+    1
+   ],
+   [
+    "t**8 - t**7 + t**5 - t**4 + t**3 - t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other",
+   "roots of unity, order 15"
+  ]
+ },
+ {
+  "name": "o9_41001",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 2,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "2*t**2 - 3*t + 2",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o9_41002",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 8,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "4*t**2 - 7*t + 4",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o9_41003",
+  "cusps": 2,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o9_41004",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**4 - t**3 - t**2 - t + 1",
+    1
+   ],
+   [
+    "t**4 - t**3 + t**2 - t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other",
+   "roots of unity, order 10"
+  ]
+ },
+ {
+  "name": "o9_41005",
+  "cusps": 2,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o9_41006",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/10 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "2*t**2 + t + 2",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o9_41007",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**4 - t**3 - t**2 - t + 1",
+    1
+   ],
+   [
+    "t**4 - t**3 + t**2 - t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other",
+   "roots of unity, order 10"
+  ]
+ },
+ {
+  "name": "o9_41008",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "2*t**2 - 3*t + 2",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o9_41009",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 8,
+  "chiral": true,
+  "door": 288,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**4 + 2*t**3 - 5*t**2 + 2*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o9_44249",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 + 1",
+    1
+   ],
+   [
+    "t**8 + t**7 - 2*t**6 - t**5 + 3*t**4 - t**3 - 2*t**2 + t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 4",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_064767",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "3*t**4 - 6*t**3 + 8*t**2 - 6*t + 3",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_107944",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/4 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**2 + 1",
+    1
+   ],
+   [
+    "t**6 + t**4 - 2*t**3 + t**2 + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "roots of unity, order 4",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_107945",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/4 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**2 + 1",
+    1
+   ],
+   [
+    "t**6 - 2*t**5 + 3*t**4 - 2*t**3 + 3*t**2 - 2*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "roots of unity, order 4",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_107946",
+  "cusps": 2,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/4 + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_107947",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/4 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "t**2 - 4*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_107948",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/10 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "2*t**2 + t + 2",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_107949",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/4 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ],
+   [
+    "3*t**4 - 6*t**3 + 10*t**2 - 6*t + 3",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_143600",
+  "cusps": 1,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 + 1",
+    1
+   ],
+   [
+    "t**8 - t**7 - 2*t**6 + t**5 + 3*t**4 + t**3 - 2*t**2 - t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 4",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_143601",
+  "cusps": 2,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z",
+  "sym": 4,
+  "chiral": false,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_143602",
+  "cusps": 2,
+  "A": false,
+  "cover_of_m004": false,
+  "H1": "Z/6 + Z + Z",
+  "sym": 12,
+  "chiral": false,
+  "door": 0,
+  "three": true,
+  "det_values": [
+   0,
+   3
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150683",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 288,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150684",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z + Z",
+  "sym": 2,
+  "chiral": false,
+  "door": 1056,
+  "three": false,
+  "det_values": [
+   0
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150685",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": true,
+  "H1": "Z + Z + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 2112,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150686",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 1,
+  "chiral": true,
+  "door": 192,
+  "three": false,
+  "det_values": [
+   0
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150687",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 1344,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150688",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z + Z",
+  "sym": 2,
+  "chiral": false,
+  "door": 672,
+  "three": false,
+  "det_values": [
+   0
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150689",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 864,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150690",
+  "cusps": 4,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z + Z",
+  "sym": 16,
+  "chiral": true,
+  "door": 8448,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150691",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 1536,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150692",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 864,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150693",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/4 + Z + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 768,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150694",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/5 + Z/5 + Z",
+  "sym": 10,
+  "chiral": true,
+  "door": 48,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 + 3*t + 1",
+    1
+   ],
+   [
+    "t**4 + t**3 + t**2 + t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other",
+   "roots of unity, order 5"
+  ]
+ },
+ {
+  "name": "o10_150695",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/5 + Z/25 + Z",
+  "sym": 40,
+  "chiral": false,
+  "door": 48,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 + 123*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other"
+  ]
+ },
+ {
+  "name": "o10_150696",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": true,
+  "H1": "Z/11 + Z/11 + Z",
+  "sym": 40,
+  "chiral": false,
+  "door": 48,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 - 123*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "other"
+  ]
+ },
+ {
+  "name": "o10_150697",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/5 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 240,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 - t + 1",
+    1
+   ],
+   [
+    "t**2 + 3*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 6",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_150698",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/8 + Z",
+  "sym": 1,
+  "chiral": true,
+  "door": 96,
+  "three": false,
+  "det_values": [
+   0
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2"
+  ]
+ },
+ {
+  "name": "o10_150699",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/16 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 96,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    2
+   ],
+   [
+    "t**4 - t**3 + 4*t**2 - t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_150700",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 48,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t**2 - t + 1",
+    1
+   ],
+   [
+    "t**12 + 2*t**11 - 3*t**9 - 3*t**8 + t**7 + 5*t**6 + t**5 - 3*t**4 - 3*t**3 + 2*t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 6",
+   "other"
+  ]
+ },
+ {
+  "name": "o10_150701",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/16 + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 96,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": [
+   [
+    "t + 1",
+    4
+   ],
+   [
+    "t**2 - t + 1",
+    1
+   ]
+  ],
+  "root_classes": [
+   "roots of unity, order 2",
+   "roots of unity, order 6"
+  ]
+ },
+ {
+  "name": "o10_150702",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 1728,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150703",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": true,
+  "H1": "Z/2 + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 768,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150704",
+  "cusps": 4,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z + Z",
+  "sym": 48,
+  "chiral": false,
+  "door": 11520,
+  "three": true,
+  "det_values": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150705",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/2 + Z + Z",
+  "sym": 16,
+  "chiral": true,
+  "door": 768,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150706",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/2 + Z + Z",
+  "sym": 16,
+  "chiral": false,
+  "door": 1536,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150707",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/2 + Z",
+  "sym": 4,
+  "chiral": false,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": [],
+  "root_classes": null
+ },
+ {
+  "name": "o10_150708",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z",
+  "sym": 4,
+  "chiral": false,
+  "door": 1152,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150709",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/2 + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 0,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": [],
+  "root_classes": null
+ },
+ {
+  "name": "o10_150710",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z",
+  "sym": 4,
+  "chiral": false,
+  "door": 1536,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150711",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 384,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150712",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 1152,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150713",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 576,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150714",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 576,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150715",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z",
+  "sym": 2,
+  "chiral": true,
+  "door": 768,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150716",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z",
+  "sym": 2,
+  "chiral": false,
+  "door": 384,
+  "three": false,
+  "det_values": [
+   0
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150717",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z + Z",
+  "sym": 16,
+  "chiral": false,
+  "door": 4992,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150718",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z + Z",
+  "sym": 16,
+  "chiral": false,
+  "door": 4224,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150719",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/4 + Z + Z",
+  "sym": 16,
+  "chiral": true,
+  "door": 768,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150720",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z + Z",
+  "sym": 8,
+  "chiral": true,
+  "door": 1920,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150721",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 1344,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150722",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z",
+  "sym": 4,
+  "chiral": false,
+  "door": 2112,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150723",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/6 + Z + Z",
+  "sym": 4,
+  "chiral": false,
+  "door": 1728,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150724",
+  "cusps": 1,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z + Z",
+  "sym": 4,
+  "chiral": true,
+  "door": 1056,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 3,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150725",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/3 + Z + Z + Z",
+  "sym": 12,
+  "chiral": false,
+  "door": 6528,
+  "three": true,
+  "det_values": [
+   0,
+   3,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150726",
+  "cusps": 2,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z/2 + Z + Z",
+  "sym": 48,
+  "chiral": true,
+  "door": 1536,
+  "three": true,
+  "det_values": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150727",
+  "cusps": 4,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z + Z",
+  "sym": 8,
+  "chiral": false,
+  "door": 13056,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150728",
+  "cusps": 3,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z/2 + Z + Z + Z",
+  "sym": 16,
+  "chiral": false,
+  "door": 4224,
+  "three": false,
+  "det_values": [
+   0,
+   4
+  ],
+  "gens": 4,
+  "alexander": null,
+  "root_classes": null
+ },
+ {
+  "name": "o10_150729",
+  "cusps": 5,
+  "A": true,
+  "cover_of_m004": false,
+  "H1": "Z + Z + Z + Z + Z",
+  "sym": 240,
+  "chiral": false,
+  "door": 69888,
+  "three": true,
+  "det_values": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "gens": 5,
+  "alexander": null,
+  "root_classes": null
+ }
+]

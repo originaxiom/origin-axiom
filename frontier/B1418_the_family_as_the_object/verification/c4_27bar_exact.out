@@ -1,0 +1,15 @@
+(i) any 27 weight among the 78 weights? False -> 78 contains no 27, no 27bar: True
+(ii) 56 of E7 by U(1)=w charge: {1.5: 1, -0.5: 27, 0.5: 27, -1.5: 1}
+   charge -1.5: 1 weight(s), E6-projection norm [0.0]
+   charge -0.5: 27 weights, inner products of one with all {1.3333: 1, -0.6667: 10, 0.3333: 16}, closed under negation (self-conjugate)? False
+   charge 0.5: 27 weights, inner products of one with all {1.3333: 1, -0.6667: 10, 0.3333: 16}, closed under negation (self-conjugate)? False
+   charge 1.5: 1 weight(s), E6-projection norm [0.0]
+(iii) roots of E8 orthogonal to E6: 6 (SU(3) has 6)
+   remaining roots: 162 = 2 x 27 x 3 = 162? True
+   (the (27,3)+(27bar,3bar) split: 162 = 81 + 81 by the sign of the U(1) of the SU(3) Cartan is a statement about the weight system; recorded as vector-like under E6 because the 27 and 27bar counts among the 162 are equal: 81 81 )
+(iv) charged SM singlets of the 27 (Y=0, not the E6-singlet-like N?): [(-0.0, -0.9129)]  distinct eta: {-0.9129}
+   all eta values in the 27: [-0.9129, -0.3651, 0.1826, 0.7303]
+   is there a field with eta = -2 x (singlet eta) = 1.8258 ? False -> no eta-neutral cubic nu^c nu^c X exists in 27^3
+(v) nu^c nu^c nubar^c nubar^c eta charge: 0.0 -> neutral; weight sum: True
+(vi) orbit charge sum: [0. 0.] ; net chirality 3(n+ - n-) = 3 -> n+ - n- = 1: (3,0), (6,3), (9,6), ...
+ALL COMPUTED

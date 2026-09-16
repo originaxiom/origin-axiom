@@ -1,0 +1,19 @@
+validity gate on m004(p,1):
+  p=0: contains flat tetrahedra     vol  0.0000000 cs   +0.000000000 VALID=False
+  p=1: contains flat tetrahedra     vol  0.0000000 cs   +0.011904762 VALID=False
+  p=2: contains flat tetrahedra     vol  0.0000000 cs   +0.025000000 VALID=False
+  p=3: contains flat tetrahedra     vol  0.0000000 cs   +0.041666667 VALID=False
+  p=4: contains degenerate tetrahed vol  0.0000858 cs            n/a VALID=False
+  p=5: all tetrahedra positively or vol  0.9813688 cs   +0.077038180 VALID=True
+  p=6: all tetrahedra positively or vol  1.2844853 cs   +0.067931673 VALID=True
+
+B286 slope law, hyperbolic slopes only:
+  (5,1): |sum| mod 1 = 8.33e-17
+  (7,1): |sum| mod 1 = 4.86e-16
+  (7,2): |sum| mod 1 = 1.94e-16
+  (9,1): |sum| mod 1 = 5.83e-16
+  (5,2): |sum| mod 1 = 3.33e-16
+  (8,3): |sum| mod 1 = 3.05e-16
+  (11,2): |sum| mod 1 = 2.78e-17
+  (13,4): |sum| mod 1 = 2.64e-16
+  law holds 8/8

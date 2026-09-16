@@ -1,0 +1,119 @@
+m003         cusps 1 A=True  cover=False chiral=False door=   48 three=False Z/5 + Z          alex=[('t**2 + 3*t + 1', 1)]
+m004         cusps 1 A=True  cover=False chiral=False door=   48 three=False Z                alex=[('t**2 - 3*t + 1', 1)]
+m202         cusps 2 A=True  cover=False chiral=True  door=   96 three=True  Z + Z            alex=None
+m203         cusps 2 A=True  cover=False chiral=False door=  192 three=False Z + Z            alex=None
+m206         cusps 1 A=True  cover=True  chiral=False door=   48 three=False Z/5 + Z          alex=[('t**2 - 7*t + 1', 1)]
+m207         cusps 1 A=True  cover=False chiral=False door=  240 three=False Z/3 + Z/3 + Z    alex=[('t**2 + 7*t + 1', 1)]
+m208         cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/10 + Z         alex=[('t + 1', 1), ('2*t**2 + t + 2', 1)]
+m410         cusps 1 A=True  cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[]
+m412         cusps 2 A=True  cover=False chiral=True  door=    0 three=False Z/2 + Z + Z      alex=None
+s118         cusps 1 A=False cover=False chiral=True  door=   96 three=False Z/2 + Z          alex=[('t + 1', 1), ('t**4 - 2*t**3 + t**2 - 2*t + 1', 1)]
+s119         cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t + 1', 1), ('2*t**2 - 3*t + 2', 1)]
+s594         cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z/4 + Z    alex=[('t + 1', 3)]
+s595         cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z/2 + Z    alex=[('t + 1', 1), ('t**2 - 4*t + 1', 1)]
+s596         cusps 2 A=False cover=False chiral=False door=    0 three=False Z/2 + Z + Z      alex=None
+s955         cusps 1 A=True  cover=False chiral=False door=    0 three=False Z/20 + Z         alex=[('t + 1', 1), ('t**4 + 2*t**3 + 4*t**2 + 2*t + 1', 1)]
+s956         cusps 1 A=True  cover=False chiral=True  door=    0 three=False Z/2 + Z/4 + Z    alex=[('t + 1', 1), ('t**2 + 1', 2)]
+s957         cusps 1 A=True  cover=False chiral=False door=    0 three=False Z/4 + Z          alex=[('t + 1', 1), ('t**4 - 2*t**3 + 4*t**2 - 2*t + 1', 1)]
+s958         cusps 1 A=True  cover=False chiral=True  door=   96 three=False Z/3 + Z          alex=[('t**2 - t + 1', 1), ('t**4 + t**3 - t**2 + t + 1', 1)]
+s959         cusps 2 A=True  cover=False chiral=True  door=  576 three=True  Z/3 + Z + Z      alex=None
+s960         cusps 1 A=True  cover=False chiral=False door=    0 three=False Z/2 + Z/10 + Z   alex=[('t**2 + 18*t + 1', 1)]
+s961         cusps 1 A=True  cover=True  chiral=False door=    0 three=False Z/4 + Z/4 + Z    alex=[('t**2 - 18*t + 1', 1)]
+v2873        cusps 1 A=False cover=False chiral=True  door=  192 three=False Z/6 + Z          alex=[('t + 1', 1), ('t**2 - t + 1', 1), ('t**2 + t + 1', 1)]
+v2874        cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t - 2', 1), ('t + 1', 1), ('2*t - 1', 1)]
+v2875        cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/4 + Z          alex=[('t + 1', 2), ('t**4 - 3*t**3 + 5*t**2 - 3*t + 1', 1)]
+v3551        cusps 2 A=True  cover=False chiral=True  door=    0 three=True  Z/2 + Z + Z      alex=None
+t06828       cusps 1 A=False cover=False chiral=True  door=    0 three=False Z + Z            alex=None
+t06829       cusps 2 A=False cover=False chiral=False door=  192 three=False Z + Z            alex=None
+t11365       cusps 1 A=False cover=False chiral=True  door=  288 three=False Z/2 + Z          alex=[('t**2 - t - 1', 1), ('t**2 + 1', 1), ('t**2 + t - 1', 1)]
+t12833       cusps 1 A=True  cover=False chiral=True  door=  192 three=False Z/6 + Z          alex=[('t + 1', 1), ('t**2 + t + 1', 1), ('t**2 - t + 1', 2)]
+t12834       cusps 1 A=True  cover=False chiral=True  door=   96 three=False Z/4 + Z          alex=[('t + 1', 1)]
+t12835       cusps 1 A=True  cover=False chiral=True  door=  288 three=False Z/6 + Z          alex=[('t + 1', 1)]
+t12836       cusps 2 A=True  cover=False chiral=True  door=  288 three=False Z + Z            alex=None
+t12837       cusps 1 A=True  cover=False chiral=True  door=   96 three=False Z/4 + Z          alex=[('t + 1', 1), ('t**2 + 1', 1), ('t**4 - t**2 + 1', 1)]
+t12838       cusps 1 A=True  cover=False chiral=False door=   48 three=False Z/7 + Z/7 + Z    alex=[('t**2 + 47*t + 1', 1)]
+t12839       cusps 1 A=True  cover=True  chiral=False door=  240 three=False Z/3 + Z/15 + Z   alex=[('t**2 - 47*t + 1', 1)]
+t12840       cusps 2 A=True  cover=True  chiral=False door=  576 three=False Z + Z            alex=None
+t12841       cusps 2 A=True  cover=False chiral=False door=  192 three=False Z/5 + Z + Z      alex=None
+t12842       cusps 2 A=True  cover=False chiral=False door=  192 three=False Z + Z            alex=None
+t12843       cusps 2 A=True  cover=False chiral=True  door=  960 three=False Z/3 + Z + Z      alex=None
+t12844       cusps 2 A=True  cover=False chiral=True  door=  480 three=False Z + Z            alex=None
+t12845       cusps 2 A=True  cover=False chiral=True  door=  576 three=False Z + Z            alex=None
+o9_27787     cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z/2 + Z    alex=[('t + 1', 1), ('t**8 - 2*t**7 + 4*t**6 - 4*t**5 + 4*t**4 - 4*t**3 + 4*t**2 - 2*t + 1', 1)]
+o9_40998     cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/10 + Z         alex=[('t + 1', 1), ('2*t**2 + t + 2', 1)]
+o9_40999     cusps 2 A=False cover=False chiral=True  door=    0 three=True  Z/4 + Z + Z      alex=None
+o9_41000     cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t + 1', 1), ('t**8 - t**7 - t**5 + t**4 - t**3 - t + 1', 1), ('t**8 - t**7 + t**5 - t**4 + t**3 - t + 1', 1)]
+o9_41001     cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t + 1', 1), ('2*t**2 - 3*t + 2', 1)]
+o9_41002     cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t + 1', 1), ('4*t**2 - 7*t + 4', 1)]
+o9_41003     cusps 2 A=False cover=False chiral=True  door=  192 three=False Z + Z            alex=None
+o9_41004     cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t + 1', 1), ('t**4 - t**3 - t**2 - t + 1', 1), ('t**4 - t**3 + t**2 - t + 1', 1)]
+o9_41005     cusps 2 A=False cover=False chiral=True  door=  192 three=False Z + Z            alex=None
+o9_41006     cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/10 + Z         alex=[('t + 1', 1), ('2*t**2 + t + 2', 1)]
+o9_41007     cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t + 1', 1), ('t**4 - t**3 - t**2 - t + 1', 1), ('t**4 - t**3 + t**2 - t + 1', 1)]
+o9_41008     cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t + 1', 1), ('2*t**2 - 3*t + 2', 1)]
+o9_41009     cusps 1 A=False cover=False chiral=True  door=  288 three=False Z/2 + Z          alex=[('t + 1', 1), ('t**4 + 2*t**3 - 5*t**2 + 2*t + 1', 1)]
+o9_44249     cusps 1 A=True  cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t**2 + 1', 1), ('t**8 + t**7 - 2*t**6 - t**5 + 3*t**4 - t**3 - 2*t**2 + t + 1', 1)]
+o10_064767   cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z/2 + Z    alex=[('t + 1', 1), ('3*t**4 - 6*t**3 + 8*t**2 - 6*t + 3', 1)]
+o10_107944   cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z/4 + Z    alex=[('t + 1', 1), ('t**2 + 1', 1), ('t**6 + t**4 - 2*t**3 + t**2 + 1', 1)]
+o10_107945   cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z/4 + Z    alex=[('t + 1', 1), ('t**2 + 1', 1), ('t**6 - 2*t**5 + 3*t**4 - 2*t**3 + 3*t**2 - 2*t + 1', 1)]
+o10_107946   cusps 2 A=False cover=False chiral=True  door=  192 three=False Z/4 + Z + Z      alex=None
+o10_107947   cusps 1 A=False cover=False chiral=True  door=  192 three=False Z/2 + Z/4 + Z    alex=[('t + 1', 1), ('t**2 - 4*t + 1', 1)]
+o10_107948   cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/10 + Z         alex=[('t + 1', 1), ('2*t**2 + t + 2', 1)]
+o10_107949   cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z/4 + Z    alex=[('t + 1', 1), ('3*t**4 - 6*t**3 + 10*t**2 - 6*t + 3', 1)]
+o10_143600   cusps 1 A=False cover=False chiral=True  door=    0 three=False Z/2 + Z          alex=[('t**2 + 1', 1), ('t**8 - t**7 - 2*t**6 + t**5 + 3*t**4 + t**3 - 2*t**2 - t + 1', 1)]
+o10_143601   cusps 2 A=False cover=False chiral=False door=    0 three=False Z/2 + Z + Z      alex=None
+o10_143602   cusps 2 A=False cover=False chiral=False door=    0 three=True  Z/6 + Z + Z      alex=None
+o10_150683   cusps 2 A=True  cover=False chiral=True  door=  288 three=False Z + Z            alex=None
+o10_150684   cusps 2 A=True  cover=False chiral=False door= 1056 three=False Z/3 + Z + Z      alex=None
+o10_150685   cusps 3 A=True  cover=True  chiral=False door= 2112 three=False Z + Z + Z        alex=None
+o10_150686   cusps 2 A=True  cover=False chiral=True  door=  192 three=False Z + Z            alex=None
+o10_150687   cusps 3 A=True  cover=False chiral=True  door= 1344 three=False Z + Z + Z        alex=None
+o10_150688   cusps 1 A=True  cover=False chiral=False door=  672 three=False Z/3 + Z + Z      alex=None
+o10_150689   cusps 2 A=True  cover=False chiral=True  door=  864 three=False Z/3 + Z + Z      alex=None
+o10_150690   cusps 4 A=True  cover=False chiral=True  door= 8448 three=False Z + Z + Z + Z    alex=None
+o10_150691   cusps 2 A=True  cover=False chiral=True  door= 1536 three=False Z + Z + Z        alex=None
+o10_150692   cusps 2 A=True  cover=False chiral=True  door=  864 three=False Z/3 + Z + Z      alex=None
+o10_150693   cusps 2 A=True  cover=False chiral=False door=  768 three=False Z/4 + Z + Z      alex=None
+o10_150694   cusps 1 A=True  cover=False chiral=True  door=   48 three=False Z/5 + Z/5 + Z    alex=[('t**2 + 3*t + 1', 1), ('t**4 + t**3 + t**2 + t + 1', 1)]
+o10_150695   cusps 1 A=True  cover=False chiral=False door=   48 three=False Z/5 + Z/25 + Z   alex=[('t**2 + 123*t + 1', 1)]
+o10_150696   cusps 1 A=True  cover=True  chiral=False door=   48 three=False Z/11 + Z/11 + Z  alex=[('t**2 - 123*t + 1', 1)]
+o10_150697   cusps 1 A=True  cover=False chiral=True  door=  240 three=False Z/5 + Z          alex=[('t**2 - t + 1', 1), ('t**2 + 3*t + 1', 1)]
+o10_150698   cusps 1 A=True  cover=False chiral=True  door=   96 three=False Z/8 + Z          alex=[('t + 1', 1)]
+o10_150699   cusps 1 A=True  cover=False chiral=True  door=   96 three=False Z/16 + Z         alex=[('t + 1', 2), ('t**4 - t**3 + 4*t**2 - t + 1', 1)]
+o10_150700   cusps 1 A=True  cover=False chiral=True  door=   48 three=False Z                alex=[('t**2 - t + 1', 1), ('t**12 + 2*t**11 - 3*t**9 - 3*t**8 + t**7 + 5*t**6 + t**5 - 3*t**4 - 3*t**3 + 2*t + 1', 1)]
+o10_150701   cusps 1 A=True  cover=False chiral=True  door=   96 three=False Z/16 + Z         alex=[('t + 1', 4), ('t**2 - t + 1', 1)]
+o10_150702   cusps 3 A=True  cover=False chiral=True  door= 1728 three=False Z + Z + Z        alex=None
+o10_150703   cusps 2 A=True  cover=True  chiral=True  door=  768 three=False Z/2 + Z + Z      alex=None
+o10_150704   cusps 4 A=True  cover=False chiral=False door=11520 three=True  Z + Z + Z + Z    alex=None
+o10_150705   cusps 2 A=True  cover=False chiral=True  door=  768 three=False Z/2 + Z/2 + Z + Z alex=None
+o10_150706   cusps 2 A=True  cover=False chiral=False door= 1536 three=False Z/2 + Z/2 + Z + Z alex=None
+o10_150707   cusps 1 A=True  cover=False chiral=False door=    0 three=False Z/2 + Z/2 + Z    alex=[]
+o10_150708   cusps 2 A=True  cover=False chiral=False door= 1152 three=False Z/2 + Z + Z      alex=None
+o10_150709   cusps 1 A=True  cover=False chiral=True  door=    0 three=False Z/2 + Z/2 + Z    alex=[]
+o10_150710   cusps 2 A=True  cover=False chiral=False door= 1536 three=False Z/2 + Z + Z      alex=None
+o10_150711   cusps 2 A=True  cover=False chiral=True  door=  384 three=False Z/2 + Z + Z      alex=None
+o10_150712   cusps 2 A=True  cover=False chiral=True  door= 1152 three=False Z + Z + Z        alex=None
+o10_150713   cusps 1 A=True  cover=False chiral=True  door=  576 three=False Z + Z            alex=None
+o10_150714   cusps 1 A=True  cover=False chiral=True  door=  576 three=False Z + Z            alex=None
+o10_150715   cusps 2 A=True  cover=False chiral=True  door=  768 three=False Z/2 + Z + Z      alex=None
+o10_150716   cusps 1 A=True  cover=False chiral=False door=  384 three=False Z + Z            alex=None
+o10_150717   cusps 3 A=True  cover=False chiral=False door= 4992 three=False Z/2 + Z + Z + Z  alex=None
+o10_150718   cusps 3 A=True  cover=False chiral=False door= 4224 three=False Z/2 + Z + Z + Z  alex=None
+o10_150719   cusps 2 A=True  cover=False chiral=True  door=  768 three=False Z/2 + Z/4 + Z + Z alex=None
+o10_150720   cusps 3 A=True  cover=False chiral=True  door= 1920 three=False Z/2 + Z + Z + Z  alex=None
+o10_150721   cusps 3 A=True  cover=False chiral=True  door= 1344 three=False Z + Z + Z        alex=None
+o10_150722   cusps 3 A=True  cover=False chiral=False door= 2112 three=False Z + Z + Z        alex=None
+o10_150723   cusps 2 A=True  cover=False chiral=False door= 1728 three=False Z/6 + Z + Z      alex=None
+o10_150724   cusps 1 A=True  cover=False chiral=True  door= 1056 three=False Z/3 + Z + Z      alex=None
+o10_150725   cusps 3 A=True  cover=False chiral=False door= 6528 three=True  Z/3 + Z + Z + Z  alex=None
+o10_150726   cusps 2 A=True  cover=False chiral=True  door= 1536 three=True  Z/2 + Z/2 + Z + Z alex=None
+o10_150727   cusps 4 A=True  cover=False chiral=False door=13056 three=False Z + Z + Z + Z    alex=None
+o10_150728   cusps 3 A=True  cover=False chiral=False door= 4224 three=False Z/2 + Z + Z + Z  alex=None
+o10_150729   cusps 5 A=True  cover=False chiral=False door=69888 three=True  Z + Z + Z + Z + Z alex=None
+
+Q1.1 one-cusped members with chirality AND the door: ['s118', 's958', 'v2873', 't11365', 't12833', 't12834', 't12835', 't12837', 'o9_41009', 'o10_107947', 'o10_150694', 'o10_150697', 'o10_150698', 'o10_150699', 'o10_150700', 'o10_150701', 'o10_150713', 'o10_150714', 'o10_150724'] ; with the three: []
+Q1.2 members with all four (chiral, atom, door, three): [('m202', 2, True), ('s959', 2, True), ('o10_150726', 2, True)]
+Q1.3 partition of A by (chiral, door>0, three): Counter({(True, True, False): 34, (False, True, False): 26, (True, False, False): 5, (False, False, False): 5, (True, True, True): 3, (False, True, True): 3, (True, False, True): 1})
+    partition of B\A: Counter({(True, False, False): 22, (True, True, False): 8, (False, False, False): 2, (False, True, False): 1, (True, False, True): 1, (False, False, True): 1})
+control m004: False 48 [0, 4] | m202: [0, 1, 3, 4]
+seconds 79

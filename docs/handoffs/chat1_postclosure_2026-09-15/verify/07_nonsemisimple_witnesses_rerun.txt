@@ -1,0 +1,4 @@
+m202: hom phi -> [0, 1]
+   dim 2: non-semisimple h^1 = 2   semisimplified h^1 = 4
+   dim 3: non-semisimple h^1 = 2   semisimplified h^1 = 6
+   dim 4: non-semisimple h^1 = 2   semisimplified h^1 = 8

@@ -8428,6 +8428,29 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1418": {
+   "slug": "the family as the object",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "L215",
+    "L221",
+    "L222"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [
