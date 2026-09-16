@@ -14997,3 +14997,30 @@ rank-1 peripheral image agrees with SnapPy's cusp maps on all ten (asserted in s
 cusp maps in (trace, det) on all four residual cusps and the developed lattices with `cusp_translations` (asserted). Two wording
 corrections: B1369 §4.2 ("first Betti number exhausted by the cusps' classes", not "second"); the retractions row on B1281's ±4 now
 quotes B1281 §2D's own caveat (the product mode sin(4πx)·cos(2πy)). Locks extended; nothing in the verdicts changed.
+
+### B1371 — the web seat's post-closure package verified, negatives included (2026-09-16)
+
+The owner's hand-over of chat1's unbanked work (four documents, thirteen scripts, 2026-09-15). Re-derived with own code: Humbert's
+volume (0.169156934402) and the indices (m004, m003 12; m202 24; s959 36; v3551 42; s596 30; v3461, t10829, t12582 non-integral); class
+membership by the 200-bit shape field (six in, three out; B1186's criterion agrees; s596's purely imaginary shapes needed a zero guard);
+the four-property table (symmetry groups, amphicheirality, order-3 elements, surjections onto SL(2,3): 48, 0, 192, 192, 96, 576; the Weeks
+manifold's 0 onto SL(2,5)); the m + s census (1 263, not 1 400): exactly m202, s776, s784, s959 chiral with a door and an order-3; the
+classic census (4 815): exactly m202, s959, v3461, v3551 with a cusp-fixing order-3 of det 3, all two-cusped, hexagonal 11 → 5 → 4; 2T's
+centre versus the Kac grading; Lefschetz numbers of the siblings' isometries from B1369's instrument extended to H₂ (order-3: (−1, 1, 3));
+Fox witnesses over F₃ and ℚ(ω) (m202 2 vs 4; s959 4 or 5 vs 6, homomorphism-dependent); the decision-table inputs; the covering negative;
+the Chern–Simons gate, the slope law 8/8, the homology ladder; κ − 2 = ω. Refuted: "every SU(2) flat connection on m004(0,1) is reducible"
+— det(A + I) = 5 gives forty homomorphisms with non-abelian image in the binary dihedral group of order 20. Proved: fixed ends come in
+pairs (no one- or three-cusped det = 3). No verdict changed. Verdict PROVED (verification); lock (about a minute); surfaces
+(OPEN_LEADS, THE_VERDICT, THE_CLOSING, THE_SM_VERDICT, CHIRALITY_MAP §6t, the toolbox, the letter's thirtieth note, the view, the alias
+table), currency notes on B1186, B1282, B1281. 0 of 19.
+
+### B1372 — door 2, the doublet halves: the mixed frame closed by charge arithmetic at the cusp (2026-09-16)
+
+The one reading in which the non-abelian part of the connection carries both halves of a generation (the 10 from the 78's SL(2)_β-doublets,
+the 5̄ from the 27's). Exact: the Standard-Model weight table of the 27 and the 78 with β·w and γ (the frame theorem reproduced; the
+both-doublet assignment unique, γ = 1 against ⅓); Theorem B (a non-unitary peripheral eigenvalue never fixes both halves: 0 of 32 sign
+patterns); Theorem C (a unitary one only at fourth roots of unity); Theorem C′ (at θ = ±¼ the four admissible patterns are never uniform:
+opposite chiralities wherever the abelian Higgs field vanishes); Lemmas A and D (parabolic and central holonomy: doublet sectors vector-like);
+m004's four order-4 representations (Riley's form on the meridian presentation, full relator check) all unitary. Closed on m004 and on the
+77 full-rank members; open only at order-4 non-unitary points on the 35 free-cusp members, if any exist. Verdict NEGATIVE + OPEN (narrow);
+lock 8 s; surfaces (as above, hint 23), currency notes on B1368, B1369. 0 of 19.

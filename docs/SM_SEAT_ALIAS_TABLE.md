@@ -130,3 +130,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-16 (later):* B1369 used (the family in the Standard-Model frame: the free-cusp theorem on all 112 members, parity on the 83 free cusps, four residual cusps); next arc B1370.
 
 *Update 2026-09-16 (later):* B1370 used (the residual's leading mode: the four open cusps' allowed Fourier shells; OPEN, narrowed to one Fourier coefficient per cusp); next arc B1371.
+
+*Update 2026-09-16 (later):* B1371 used (the web seat's post-closure package verified; one refutation) and B1372 used (door 2, the doublet halves: the mixed frame closed by charge arithmetic at the cusp); next arc B1373.

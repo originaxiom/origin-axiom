@@ -475,5 +475,9 @@ Model unbroken needs a free cusp (a cusp whose peripheral image has rank below b
 among them); on the 35 that have one, parity with the isometries' exact action on H₁ closes 79 of the 83 free cusps; four cusps on
 four members remain. Rows unchanged in count: 0 of 19.
 
+*Addendum (2026-09-16, B1372):* rows A/C — the mixed frame (both halves of a generation from SL(2)_β-doublets) closed by charge
+arithmetic at the cusp on m004 and on every member without a free cusp; open only at order-4 non-unitary points on free-cusp members.
+Rows unchanged in count: 0 of 19.
+
 *Addendum (2026-09-16, B1370):* rows A/C — the four remaining cusps' partitions are annular unless a harmonic form's leading Fourier
 coefficient vanishes (no symmetry forces it; 4, 2, 4, 2 shells deep); the residual is that coefficient. Rows unchanged in count: 0 of 19.

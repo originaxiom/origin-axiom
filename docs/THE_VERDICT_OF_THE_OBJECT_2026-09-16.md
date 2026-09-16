@@ -96,6 +96,13 @@ allows the unique shortest cusp mode for every Higgs class, so their partitions 
 coefficients (4, 2, 4, 2 shells deep) all vanish; the residual of sL-1 is one Fourier coefficient of a harmonic 1-form per cusp, an
 instrument the record does not have (`frontier/B1370_the_residuals_leading_mode`).
 
+**Door 2 (B1372, the same day).** The one reading in which the non-abelian part of the connection could carry both halves of a
+generation — the 10 from the 78's doublets, the 5̄ from the 27's — is closed by charge arithmetic at the cusp: a non-unitary peripheral
+eigenvalue cannot fix both halves (γ = 1 against γ = ⅓), a unitary one fixes them only at fourth roots of unity and then on opposite
+eigenvectors, so where the abelian Higgs field vanishes their chiralities are opposite; m004's order-4 points are unitary. Closed on the
+object and on every member without a free cusp; open only at order-4 non-unitary points on the 35 free-cusp members, if any exist. The
+web seat's post-closure package, verified the same day (B1371), brings no new door (`frontier/B1372_the_doublet_halves`, `frontier/B1371_the_web_seats_post_closure_package_verified`).
+
 ## 7. Pointers
 
 `docs/THE_CLOSING_2026-09-15.md` (the design and its exclusions, §6.8–6.12) · `docs/CHIRALITY_MAP_2026-09-06.md` (§6n–6r) ·

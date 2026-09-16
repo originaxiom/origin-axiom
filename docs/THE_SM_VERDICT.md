@@ -534,3 +534,15 @@ left it.
 > every Higgs class, so the partition is annular and N = 0 unless the harmonic form's coefficients at the first 4, 2, 4, 2 allowed
 > shells all vanish — generic non-vanishing, no symmetry forcing it, no instrument in the record computing it. sL-1's residual is one
 > Fourier coefficient of a harmonic 1-form per cusp. 0 of 19 (`frontier/B1370_the_residuals_leading_mode`).
+
+> **Currency note (2026-09-16, B1372): door 2 — the doublet halves.** The one reading in which the non-abelian part of the flat
+> connection carries both halves of a generation (the 10 from the 78's SL(2)_β-doublets, the 5̄ from the 27's) is closed by charge
+> arithmetic at the cusp: a non-unitary peripheral eigenvalue never fixes both halves (γ = 1 against γ = ⅓, 0 of 32 sign patterns), a
+> unitary one fixes them only at fourth roots of unity and then on opposite eigenvectors (no uniform choice), so where the abelian
+> Higgs field vanishes their chiralities are opposite; parabolic and central cusp holonomy give vector-like doublet sectors; m004's
+> order-4 points are the four dihedral SU(2) representations. Closed on m004 and on the 77 full-rank members; open only at order-4
+> non-unitary points on free-cusp members, if they exist. 0 of 19 (`frontier/B1372_the_doublet_halves`).
+
+> **Currency note (2026-09-16, B1371): the web seat's post-closure package verified.** Re-derived with own code; all census, index,
+> Lefschetz, Fox, covering and Chern–Simons claims hold; the Sol-boundary claim is refuted (irreducible SU(2) representations of
+> m004(0,1) exist); no verdict of this ledger changes. 0 of 19 (`frontier/B1371_the_web_seats_post_closure_package_verified`).

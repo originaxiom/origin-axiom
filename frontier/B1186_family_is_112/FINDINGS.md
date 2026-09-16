@@ -74,3 +74,7 @@ SnapPy `is_isometric_to` (canonical-cell based; standard). No firewall crossing;
 *(Currency 2026-09-16, B1369: the 112 members (`members_B`) swept in the Standard-Model frame — cusps (60/38/10/3/1 by number), b₁,
 peripheral ranks, free cusps (83 on 35 members; 77 members without one) and the isometry groups of the 35 candidates from their
 canonical retriangulations. `frontier/B1369_the_siblings_in_the_sm_frame`.)*
+
+*(Currency 2026-09-16, B1371: criterion (B) re-checked numerically on the web seat's examples — 200-bit shapes, PSLQ on Re z and Im z/√3:
+m004, m003, m202, s959, v3551 and s596 in (s596's shapes i/√3 and i√3 are purely imaginary; a first pass without a zero guard misread
+them), v3461 (4 of 7 shapes), t10829 (2 of 8), t12582 (5 of 8) out; agrees with this arc's exact criterion. `frontier/B1371_the_web_seats_post_closure_package_verified`.)*

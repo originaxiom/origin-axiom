@@ -259,6 +259,13 @@ On those four the symmetries were asked once more (B1370): every isometry fixing
 allows the shortest cusp mode, so the partition is annular unless a harmonic form's leading Fourier coefficient happens to vanish —
 the residual is that coefficient, four times over.
 
+**Door 2, and a package (B1372, B1371, the same day).** Could the non-abelian part of the connection carry both halves of a generation,
+the 10 from the 78 and the 5̄ from the 27, both as SL(2)_β-doublets? At the cusp the charges decide: a non-unitary eigenvalue cannot fix
+both halves, a unitary one fixes them only at fourth roots of unity and then on opposite eigenvectors, so where no abelian Higgs field
+exists their chiralities are opposite; on the object the order-4 points are unitary. Closed on m004 and on every member without a free
+cusp; open only at order-4 non-unitary points on the free-cusp members, if they exist. The web seat's post-closure package, verified
+with this bench's own code, holds up except for one negative it had over-read, and brings no new door.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with

@@ -94,3 +94,16 @@ in the same commit, with registry and ledger rows where owed:
 
 The 13 PENDING rows above are unchanged and still ride into the register-repair cell; this read adds
 no new PENDING. The short-claim-lane detector fix remains owed.
+
+## Currency read 2026-09-16 (the SM seat's window B1350–B1372)
+
+The `representation-sweep` gate is clean on this window: every substantial banked arc of it is cited on a synthesis surface in the
+commit that banked it. Dispositions, all **SURFACE**:
+
+| arcs | where represented |
+|---|---|
+| **B1350–B1368** (the V₁₀ direction, the fixed-vector locus, the orbifold point, the persistence, the three on Y₃, the Joyce orbifold, the apex family, the K3 alternative, the companion-free apex, the deck's texture, the hierarchy, the descent's lines, the level mismatch, the bulk of the line, the sign, the pincer, the object's own connections) | THE_CLOSING (ledger rows and §6.1–6.12), THE_SM_VERDICT (currency notes), CHIRALITY_MAP (§6n–§6r), the destination and specification ledgers, OPEN_LEADS (sm:L212–L216), the letter's notes twelve to twenty-seven, PROGRESS_LOG, CHANGELOG; the capstone `docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md` |
+| **B1369, B1370** (the family in the Standard-Model frame; the residual's leading mode — instrument arcs, outside the sweep's scope, represented all the same) | THE_CLOSING §0/§6.13 and ledger rows, THE_VERDICT §6, THE_SM_VERDICT, CHIRALITY_MAP §6s, OPEN_LEADS sL-1, hint 22, TOOLBOX_LIVE, the letter's twenty-eighth and twenty-ninth notes, the view |
+| **B1371** (the web seat's package verified), **B1372** (door 2, the doublet halves) | THE_CLOSING ledger rows and §6.13's addendum, THE_VERDICT §6, THE_SM_VERDICT, CHIRALITY_MAP §6t, OPEN_LEADS sL-1, hint 23, TOOLBOX_LIVE, RELAY_LEDGER (the package's row), the letter's thirtieth and thirty-first notes, the view |
+
+No new PENDING; the 13 PENDING rows above are unchanged.

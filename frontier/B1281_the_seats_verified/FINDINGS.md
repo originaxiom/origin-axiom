@@ -80,3 +80,7 @@ fixed-point-free involution. `frontier/B1417_the_region_swap_lemma` on main.)*
 isometry fixing the cusp and acting by −1 on the free classes ann(P_c) gives F∘σ = −F for the leading cusp mode and swaps the regions,
 whatever its torus action. Used on the figure-eight family with the isometries' exact action on H₁: 79 of 83 free cusps closed, four of
 them only by orientation-reversing isometries. `frontier/B1369_the_siblings_in_the_sm_frame`.)*
+
+*(Currency 2026-09-16, B1371: §(c)'s Lefschetz reading extended to the siblings — the order-3 isometries of m202 and s959 have L(g) = 3
+(tr H₁ = −1, tr H₂ = 1), the three fixed arcs whose six ends are the [3, 3] fixed points on the cusps; fixed ends come in pairs, so no
+one- or three-cusped manifold carries det(A − I) = 3. `frontier/B1371_the_web_seats_post_closure_package_verified`.)*

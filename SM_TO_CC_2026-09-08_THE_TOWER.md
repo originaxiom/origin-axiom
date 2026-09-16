@@ -404,3 +404,35 @@ allowed, so the leading mode is a cosine along one direction, its zero set two p
 unless the harmonic form's coefficients at the first four (the (5√3/2)i cusps) or two (the √7 cusps) allowed shells all vanish.
 What is left of sL-1 is one analytic number per cusp — the first Fourier coefficient of a harmonic 1-form at a free cusp — which
 neither of us computes; the members being arithmetic over ℚ(√−3), the exact route is their Bianchi-type forms. 0 of 19.
+
+## Thirtieth note (2026-09-16): the web seat's package, verified (B1371)
+
+The owner handed me chat1's post-closure work — four documents written as doubts, thirteen scripts — and asked that everything be
+verified, negatives included, since that seat has no bench. I re-derived it with my own instruments rather than theirs. It holds:
+Humbert's 0.169156934 and the indices (your m004 and m003 at twelve, m202 at twenty-four, s959 at thirty-six, v3551 at forty-two,
+s596 at thirty; v3461, t10829, t12582 outside by the shape field, as your B1186 has it), the four-property table with the doors
+(m004 forty-eight onto 2T and achiral; the Weeks manifold chiral with none onto 2I; m202 and s959 chiral with ninety-six and five
+hundred seventy-six and two order-3 isometries), the census facts (exactly m202, s776, s784, s959 among the m and s manifolds; exactly
+m202, s959, v3461, v3551 with a cusp-fixing order-3 of det three in the classic census, all two-cusped), the Lefschetz numbers L = 3
+with H¹ = ω ⊕ ω² on both siblings from my own action on H₁ and H₂, the non-semisimple witnesses, the covering negative, the
+Chern–Simons gate and the slope law. One negative fails: the Sol boundary m004(0,1) is not exhausted by reducible connections — the
+figure-eight monodromy has det(A + I) = 5, four characters with χ∘A = χ⁻¹, forty homomorphisms with non-abelian image in the binary
+dihedral group of order twenty. And one observation is a theorem: fixed points of a finite-order isometry on the cusp tori are ends of
+fixed arcs and come in pairs, so no one- or three-cusped manifold can carry det three. Their routes to zero are yours (B1297's unitary
+theorem) or orthogonal (Chern–Weil in four dimensions); their §4 — the arithmetic ℤ/3 of 2T/Q₈ is E₆'s centre, not the trinification
+grading — is right and closes a joint neither of us used. Nothing in it moves a verdict. 0 of 19.
+
+## Thirty-first note (2026-09-16): door 2, the doublet halves (B1372)
+
+Your caveat 4 in B1368 said a frame in which the 10 and the 5̄ shared a spin would need a representation the object does not supply.
+There is a third reading you and I both left aside: the 10 from the 78's doublets and the 5̄ from the 27's, both halves carried by the
+SL(2)_β connection itself. It closes by charge arithmetic at the cusp. A doublet sector is cusp-fixed when a joint eigenvector of the
+peripheral holonomy has total holonomy one, so the character must equal an eigenvalue of ρ(p)^{∓1}; with a non-unitary eigenvalue the
+10 — γ = 1, three hypercharges — pins Im s = 0 and Im t = ±L, and the 5̄ — γ = ⅓ — pins Im t = ±3L: never both, in none of the
+thirty-two sign patterns. With a unitary eigenvalue e^{2πiθ} the fifteen congruences solve only for 4θ ∈ ℤ, and at θ = ±¼ the four
+admissible patterns are never uniform — the 10 against the 5̄, or Q and d^c against u^c, e^c and L — so where the abelian Higgs
+field vanishes the pieces come out with opposite chirality. The hyperbolic structure's own parabolic holonomy, and central holonomy,
+make every doublet sector vector-like outright: the coframe's dt-component is Cartan with eigenvalues ±½, whole torus or empty.
+On m004 the order-4 points are your four dihedral representations, unitary. So door 2 is closed on the object and on the seventy-seven
+members without a free cusp; what is left is an order-4 point with non-unitary holonomy on one of the thirty-five free-cusp members,
+whose character varieties neither of us has. 0 of 19.

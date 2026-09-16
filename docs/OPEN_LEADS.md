@@ -2810,3 +2810,17 @@ leading cusp mode is cos(2πk·x + φ) and the partition is annular, N = 0, unle
 4, 2 allowed single-direction shells all vanish. **Residual now:** the non-vanishing of a harmonic 1-form's first Fourier coefficient
 at a free cusp, four instances — numerically, or through the members' Bianchi-type forms (every member is arithmetic over ℚ(√−3)).
 Not in the record. `frontier/B1370_the_residuals_leading_mode`.
+
+**Status (2026-09-16, B1372 — door 2, the doublet halves).** The third reading of a generation — the 10 from the 78's SL(2)_β-doublets
+and the 5̄ from the 27's, both halves carried by the non-abelian part of the connection — is closed by charge arithmetic at the cusp:
+with a non-unitary peripheral eigenvalue the two halves are never cusp-fixed together (γ(10 ⊂ 78) = 1 against γ(5̄ ⊂ 27) = ⅓; 0 of 32
+sign patterns), with a unitary one only at fourth roots of unity and then on opposite eigenvectors (no uniform choice among the four
+admissible patterns), so wherever the abelian Higgs field vanishes the pieces have opposite chirality; parabolic and central cusp
+holonomy make every doublet sector vector-like; m004's order-4 points are the four SU(2) dihedral representations (unitary). Closed on
+m004 and on the 77 members without a free cusp; on the 35 free-cusp members it survives only at order-4 points with non-unitary global
+holonomy, if any exist — character-variety data the record lacks. `frontier/B1372_the_doublet_halves`.
+
+**The web seat's post-closure package (2026-09-15), verified (B1371).** Received from the owner; every checkable claim re-derived here:
+the Bianchi indices and the class membership, the four-property table, the census scans, the Lefschetz numbers L(g) = 3 of the siblings'
+order-3 isometries, the non-semisimple witnesses, the covering negative, the Chern–Simons gate. One refutation: the Sol boundary
+m004(0,1) has irreducible SU(2) representations (forty binary dihedral ones from det(A + I) = 5). No new door for sL-1. `frontier/B1371_the_web_seats_post_closure_package_verified`.

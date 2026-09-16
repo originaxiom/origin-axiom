@@ -122,3 +122,7 @@ Menal-Ferrer–Porti (h¹(M; Sym^{2k}) = the number of cusps); Cartan's linearis
 every cusp-fixed spin-0 sector has χ⁷ = 1 and the spin-½ half is cusp-fixed with the Standard Model unbroken only by finite-order
 characters; no free cusp, no chiral generation from bulk matter for any flat connection. The twelve isometries (D₆: six swap the cusps,
 two are the order-3 rotation) are recorded there. `frontier/B1369_the_siblings_in_the_sm_frame`.)*
+
+*(Currency 2026-09-16, B1371: the twelve isometries' Lefschetz numbers from their exact action on H₁ and H₂ — the order-3 rotations
+(tr H₁, tr H₂, L) = (−1, 1, 3), the cusp-fixing involution (−2, 1, 4), the six cusp-swapping involutions (0, −1, 0), the order-6 elements
+(1, 1, 1); the same on s959. `frontier/B1371_the_web_seats_post_closure_package_verified`.)*

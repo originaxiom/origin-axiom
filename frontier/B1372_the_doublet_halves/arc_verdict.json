@@ -1,0 +1,12 @@
+{
+ "id": "B1372",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": ["B1368", "B1369", "B1351", "B1365", "B1366", "B1281"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE DOUBLET HALVES (door 2): the third reading of a Standard-Model generation -- the 10 from the 78's SL(2)_beta doublets and the 5bar from the 27's, both halves carried by the non-abelian part of the flat E6(C) connection rather than by a character -- is closed by charge arithmetic at the cusp. A doublet sector is cusp-fixed when a joint eigenvector of the peripheral holonomy has total holonomy 1, so its character must equal an eigenvalue of rho(p)^{-+1}. Theorem B: with a non-unitary peripheral eigenvalue, the 10 of the 78 (gamma = 1, three Y-types) forces Im s = 0 and Im t = +-L while the 5bar of the 27 (gamma = 1/3) forces Im t = +-3L -- never both (0 of 32 sign patterns). Theorem C: with a unitary eigenvalue e^{2 pi i theta} the fifteen congruences have solutions only for theta in (1/4)Z, and at theta = +-1/4 the eigenvector choices are never uniform (Theorem C'): the 10 against the 5bar, or {Q, d^c} against {u^c, e^c, L}, so wherever the abelian Higgs field vanishes the pieces have opposite chirality. Parabolic cusp holonomy (the hyperbolic structure itself, on every member) and central holonomy make every doublet sector vector-like outright (Lemmas A, D). On m004 the order-4 points of the character variety are the four SU(2) dihedral representations (Riley's form, full relator check, an invariant definite Hermitian form): unitary, no Higgs field. Door 2 is closed on m004 and on the 77 members without a free cusp; it survives only at order-4 points with non-unitary global holonomy on the 35 free-cusp members, where the abelian Higgs field could reorder the partitions -- character-variety data the record does not have. The mixed frame itself (the 27 and the 78 both as bulk matter) is a reading the record had not adopted; it is closed regardless. 0 of 19."
+}

@@ -112,3 +112,9 @@ cusp c is a character trivial on P_c, of finite order whenever the peripheral im
 77 of 112 members without a free cusp, m202 and s959 among them; parity closes 79 of the other 35 members' 83 free cusps; four cusps
 remain. The spin-½ analysis of §2 (i) reads on a member with a non-null-homologous longitude as a sign character on the peripheral
 subgroup, compensable by χ_w, which forces |χ_w| = 1 on P_c: the same free-cusp condition. `frontier/B1369_the_siblings_in_the_sm_frame`.)*
+
+*(Currency 2026-09-16, B1372: caveat 4's third reading — the 10 from the 78's doublets with the 5̄ from the 27's, both halves at spin ½ —
+is closed by charge arithmetic at the cusp (Theorems B, C, C′), and §2 (i)'s "no spin-½ sector is cusp-fixed for the geometric
+representation" is sharpened to "no doublet sector carries an index at any parabolic point" (Lemma A: the coframe's dt-component is
+Cartan with eigenvalues ±½, so the partitions are whole or empty). The four dihedral points are re-verified unitary by an invariant
+definite Hermitian form. `frontier/B1372_the_doublet_halves`.)*

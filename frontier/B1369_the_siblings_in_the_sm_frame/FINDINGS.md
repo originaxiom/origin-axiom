@@ -164,3 +164,9 @@ decomposition; SnapPy's `canonical_retriangulation` and t3mlite's `isomorphisms_
 action computed (translation parts included); the unique shortest dual vector is an allowed mode for every Higgs class on all four,
 so §4.4's conditional is sharpened — annular unless the harmonic form's coefficients at the first 4, 2, 4, 2 allowed single-direction
 shells all vanish; no symmetry forces it. The residual is one Fourier coefficient per cusp. `frontier/B1370_the_residuals_leading_mode`.)*
+
+*(Currency 2026-09-16, B1372: the mixed frame — both halves of a generation as SL(2)_β-doublets, outside §1.4's two frames — is closed by
+charge arithmetic at the cusp on the 77 members without a free cusp (the abelian Higgs field vanishes there and the eigenvector choices
+are forced opposite) and on m004; on the 35 free-cusp members it survives only at order-4 points with non-unitary holonomy, if any exist.
+B1371 re-derived the siblings' isometry data (L(g) = 3 for the order-3 rotations) with this arc's instrument. `frontier/B1372_the_doublet_halves`,
+`frontier/B1371_the_web_seats_post_closure_package_verified`.)*

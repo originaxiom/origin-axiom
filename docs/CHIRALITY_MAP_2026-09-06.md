@@ -397,6 +397,22 @@ partition annular unless the harmonic form's coefficients at the first 4, 2, 4, 
 Fourier coefficient of a harmonic 1-form per cusp — the cusp expansion of a harmonic form, or the members' Bianchi-type forms.
 `frontier/B1370_the_residuals_leading_mode`.
 
+## 6t. Door 2 — the doublet halves: the mixed frame closed at the cusp (B1372, 2026-09-16); the web seat's package verified (B1371)
+
+The exclusions of §6r–§6s pass through the spin-0 half of a generation in each matter frame. The one reading that evades it takes both
+halves as SL(2)_β-doublets — the 10 from the 78's (2,20), the 5̄ from the 27's (2,6̄) — so that the non-abelian part of the connection
+carries the Higgs data on both. Charge arithmetic at the cusp closes it: a doublet sector is cusp-fixed when a joint eigenvector of the
+peripheral holonomy has total holonomy 1, so the character must equal an eigenvalue of ρ(p)^{∓1}; with a non-unitary eigenvalue the 10
+(γ = 1, three Y-types) forces Im s = 0 and Im t = ±L while the 5̄ (γ = ⅓) forces Im t = ±3L — never both (0 of 32 sign patterns); with
+a unitary eigenvalue e^{2πiθ} the fifteen congruences have solutions only for 4θ ∈ ℤ, and at θ = ±¼ the eigenvector choices are never
+uniform (the 10 against the 5̄, or {Q, d^c} against {u^c, e^c, L}), so where the abelian Higgs field vanishes the pieces have opposite
+chirality. Parabolic cusp holonomy (the hyperbolic structure on every member) and central holonomy make every doublet sector
+vector-like. On m004 the order-4 points of the character variety are the four SU(2) dihedral representations, unitary. Door 2 is
+closed on m004 and on the 77 members without a free cusp; it survives only at order-4 points with non-unitary holonomy on the 35
+free-cusp members, if such points exist. The web seat's post-closure package (2026-09-15), verified the same day with this bench's own
+code, brings no new door: its routes to zero are the record's or orthogonal to the seven-dimensional frame, and its one negative that
+fails (the Sol boundary m004(0,1) has irreducible SU(2) representations) concerns no route of this map. `frontier/B1372_the_doublet_halves`, `frontier/B1371_the_web_seats_post_closure_package_verified`.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

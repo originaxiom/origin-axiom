@@ -95,3 +95,10 @@ escalation are the proof).
   Fourier shells for a function on the torus transforming by a sign under the fixers (linear algebra on the coefficient vectors)
   and the depth to the first shell with two directions. Reusable wherever a cusp's affine symmetry or a symmetry-constrained
   Fourier expansion on a cusp torus is needed.
+- **B1371 (2026-09-16, the SM seat)** — `frontier/B1371_the_web_seats_post_closure_package_verified/verification/verify_package.py`:
+  the class-membership test by the shape field at 200 bits (PSLQ on Re z and Im z/√d, with a zero guard for purely real or imaginary
+  shapes; agrees with B1186's exact criterion), a surjection counter onto SL(2, p) for finite presentations, Humbert's formula from
+  the Dirichlet L-series, Lefschetz numbers from B1369's instrument extended to H₂ (the dual complex's 2-cycles, with the finite-vertex
+  correction), representations of a filled manifold into the binary dihedral groups, and the Chern–Simons validity gate for fillings.
+  `frontier/B1372_the_doublet_halves/verification/doublet_halves.py`: the Standard-Model typing of every weight of the 27 and the 78 by
+  colour and weak weights and Y, with β·w and γ, and an exact solver for the cusp-fixedness congruences of a set of weights.

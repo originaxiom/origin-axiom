@@ -1,5 +1,13 @@
 # Changelog
 
+## B1372 — door 2, the doublet halves: the mixed frame (the 10 from the 78's SL(2)_β-doublets, the 5̄ from the 27's) closed by charge arithmetic at the cusp — a non-unitary peripheral eigenvalue never fixes both halves (γ = 1 against ⅓), a unitary one only at fourth roots of unity and then on opposite eigenvectors; parabolic and central holonomy vector-like; m004's order-4 points unitary — closed on m004 and on the 77 full-rank members, open only at order-4 non-unitary points on free-cusp members
+
+Exact over ℚ; lock in seconds.
+
+## B1371 — the web seat's post-closure package verified on this bench with own code, negatives included: indices, class membership, the four-property table, the census scans, Lefschetz L(g) = 3 on the siblings, the Fox witnesses, the covering negative, the Chern–Simons gate hold; the Sol-boundary claim refuted (irreducible SU(2) representations of m004(0,1) exist); fixed ends come in pairs — no verdict changed
+
+Lock in about a minute.
+
 ## B1370 — the residual's leading mode: on the four cusps B1369 left open, every fixing isometry's affine action on the torus (translation parts computed from the developed cusp) allows the unique shortest cusp mode for every Higgs class, so the partition is annular unless the harmonic form's first 4, 2, 4, 2 coefficients vanish — sL-1's residual reduced to one Fourier coefficient of a harmonic 1-form per cusp (OPEN, narrowed)
 
 The developed cusp and the affine action of automorphisms as a new instrument; lock in seconds.

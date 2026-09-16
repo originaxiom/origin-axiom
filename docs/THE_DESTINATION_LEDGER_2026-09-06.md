@@ -242,3 +242,6 @@ members closed. `frontier/B1369_the_siblings_in_the_sm_frame`.*
 
 *Currency 2026-09-16 (B1370): the four remaining cusps — the unique shortest cusp mode allowed by every symmetry for every Higgs class;
 annular unless the harmonic form's leading coefficients vanish; the residual is one Fourier coefficient per cusp. `frontier/B1370_the_residuals_leading_mode`.*
+
+*Currency 2026-09-16 (B1372): item 1 — door 2 (the doublet halves, the mixed frame) closed by charge arithmetic at the cusp on m004 and
+on the 77 full-rank members; open only at order-4 non-unitary points on free-cusp members. `frontier/B1372_the_doublet_halves`.*

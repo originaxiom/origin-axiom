@@ -738,3 +738,12 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       83 free cusps, four cusps on four members remain. Consequence: the family supplies the
       Standard Model's chirality on none of 108 members in the seat's frame; what would decide
       the last four is the harmonic form's cusp expansion at the free cusp.
+  (23) H-CHARGE-AT-THE-CUSP (type LAW-SHAPED, proved on E₆; 2026-09-16, B1372): a doublet sector
+      of the flat E₆(ℂ) connection is cusp-fixed only when its (Y, γ)-character equals an eigenvalue
+      of the peripheral holonomy on a joint eigenvector, so the charges of the weights that must be
+      fixed together pin the character's data on the cusp: the 10 of the 78 (γ = 1, three
+      hypercharges) and the 5̄ of the 27 (γ = ⅓, two) can never share a non-unitary eigenvalue, share
+      a unitary one only at fourth roots of unity, and then only on opposite eigenvectors. Consequence:
+      the one reading in which the non-abelian part of the connection could carry both halves of a
+      generation is closed wherever the abelian Higgs field vanishes — on m004 and on every family
+      member without a free cusp.

@@ -134,3 +134,16 @@ frame, B576/B582) is true in the sense of a *complex* 27 and was never a count; 
 double and **B1280 proves it vector-like on the cusped object's whole deformation germ** (the inversion is the E₆ outer
 automorphism there). Readers should take "chiral" in that phrase as *non-self-dual*; `docs/CHIRALITY_MAP_2026-09-06.md`
 §0 keeps the four senses apart. The `retraction-sweep` gate is clean on this window.
+
+## Currency read 2026-09-16 (the SM seat's window B1350–B1372)
+
+The window produced **no new live-claim retractions**; its corrections of record were made same-PR and are rowed in
+`docs/RETRACTIONS.md` (the currency sweep of B1249–B1370: B1267's transport scope, B1270's θ, B1301's odd-level prediction, B1281 §2D's
+product-mode caveat scoped by main's B1417, B1351 §2(ii)'s convention scoping, B1363's wording, B1365's "quartic cap" corrected by B1367).
+Two phrases are **sharpened, not retracted**, and readers should take them in the sharpened sense: "the count of three lives on the
+siblings m202 and s959" is main's B1321's isometry count (the order-3 rotation with three fixed points per cusp; Lefschetz L(g) = 3,
+B1371) and **not** a chiral count — B1369 shows both siblings have no free cusp, so no bulk generation is chiral there; and "chirality
+withheld in every frame the record has" (the capstone) now includes the mixed frame closed by B1372 and excludes only the two named
+residuals (four cusps' leading Fourier coefficients, B1370; order-4 non-unitary points on free-cusp members, B1372). One phrase from
+outside the corpus was refuted on intake and must not be adopted: the web seat's "every SU(2) flat connection on m004(0,1) is
+reducible" (B1371: the binary dihedral representations from det(A + I) = 5 exist). The `retraction-sweep` gate is clean on this window.

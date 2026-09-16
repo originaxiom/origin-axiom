@@ -1,0 +1,109 @@
+=== (1) Humbert's formula and the indices in PSL(2, O_3) ===
+  L(2, chi_-3) = 0.781302412896, zeta_K(2) = 1.28519095548, vol(H^3/PSL(2,O_3)) = |D|^(3/2) zeta_K(2)/(4 pi^2) = 0.169156934402 (the package: 0.169156934)
+  m004    vol 2.029883213  vol/v0 =   12.0000  integral
+  m003    vol 2.029883213  vol/v0 =   12.0000  integral
+  m202    vol 4.059766426  vol/v0 =   24.0000  integral
+  s959    vol 6.089649638  vol/v0 =   36.0000  integral
+  v3551   vol 7.104591245  vol/v0 =   42.0000  integral
+  s596    vol 5.074708032  vol/v0 =   30.0000  integral
+  v3461   vol 6.655154019  vol/v0 =   39.3431  not integral
+  t10829  vol 6.979472051  vol/v0 =   41.2603  not integral
+  t12582  vol 7.581095994  vol/v0 =   44.8169  not integral
+  m129    vol 3.663862377  vol/v0 =   21.6595  not integral
+  m125    vol 3.663862377  vol/v0 =   21.6595  not integral
+  the shape field (= the invariant trace field of a cusped manifold, Neumann-Reid): is every tetrahedron shape in Q(sqrt-3)? (200-bit shapes, PSLQ)
+    m004     2 tetrahedra, shapes in Q(sqrt-3): 2/2 -> the class of m004
+    m003     2 tetrahedra, shapes in Q(sqrt-3): 2/2 -> the class of m004
+    m202     4 tetrahedra, shapes in Q(sqrt-3): 4/4 -> the class of m004
+    s959     6 tetrahedra, shapes in Q(sqrt-3): 6/6 -> the class of m004
+    v3551    7 tetrahedra, shapes in Q(sqrt-3): 7/7 -> the class of m004
+    s596     6 tetrahedra, shapes in Q(sqrt-3): 6/6 -> the class of m004
+    v3461    7 tetrahedra, shapes in Q(sqrt-3): 4/7 -> NOT the class of m004
+    t10829   8 tetrahedra, shapes in Q(sqrt-3): 2/8 -> NOT the class of m004
+    t12582   8 tetrahedra, shapes in Q(sqrt-3): 5/8 -> NOT the class of m004
+    m129     4 tetrahedra, shapes in Q(sqrt-3): 0/4 -> NOT the class of m004
+  in the class: ['m004', 'm003', 'm202', 's959', 'v3551', 's596']; outside: ['v3461', 't10829', 't12582', 'm129'] (the package: v3461, t10829, t12582 outside, 4-5 distinct shape polynomials each; s596 inside)
+  census manifolds of volume 12 v0 = 2 v_tet: ['m003', 'm004'] (the package: exactly m003 and m004)
+  census manifolds of volume 24 v0: 7 ['m202', 'm203', 'm206', 'm207', 'm208', 's118', 's119']; of volume 36 v0: 13 ['o10_030703', 's955', 's956', 's957', 's958', 's959', 's960', 's961', 't06828', 't06829', 'v2873', 'v2874', 'v2875'] (the package: 7 and 12); volume 30 v0: ['m410', 'm412', 'o9_05237', 's594', 's595', 's596']; 42 v0: ['o10_064767', 'o9_27787', 't11365', 'v3551']
+
+=== (2) the four-property table [    39 s] ===
+  m004        H_1              Z |Sym|   8 (  D4) amphicheiral True  order-3 elements 0  surjections onto 2T = SL(2,3): 48
+  m003(-3,1)  H_1      Z/5 + Z/5 |Sym|  12 (  D6) amphicheiral False order-3 elements 2  surjections onto 2T = SL(2,3): 0  onto 2I = SL(2,5): 0
+  m129        H_1          Z + Z |Sym|   8 (  D4) amphicheiral False order-3 elements 0  surjections onto 2T = SL(2,3): 192
+  m125        H_1          Z + Z |Sym|   8 (  D4) amphicheiral False order-3 elements 0  surjections onto 2T = SL(2,3): 192
+  m202        H_1          Z + Z |Sym|  12 (  D6) amphicheiral False order-3 elements 2  surjections onto 2T = SL(2,3): 96
+  s959        H_1    Z/3 + Z + Z |Sym|  12 (  D6) amphicheiral False order-3 elements 2  surjections onto 2T = SL(2,3): 576
+  the package's row: m004 (forced, achiral, 48, 0); Weeks (forced, chiral, 0 onto 2I, 2 order-3); m129/m125 (chiral, 192, 0); m202/s959 (chiral, 96/576, 2)
+
+=== (4) 2T: the linear characters' tensoring action, the order-3 elements of SL(2, F_3), det(Cartan E6) [    39 s] ===
+  3 (x) chi == 3 as characters: True; 2 (x) chi == 2: False (the package: the centre Z/3 fixes the 3-dimensional irrep and cycles the 2-dimensional ones)
+  SL(2, F_3): 8 elements of order 3, traces mod 3 {2} (= -1), all unipotent ((A - I)^2 = 0): True; none of them in Q_8 (the elements of order 1, 2, 4): True
+  det(Cartan E6) = 3
+
+=== (5) Lefschetz numbers of the isometries of m202 and s959 from H_1 and H_2 (this bench's instrument) [    39 s] ===
+  m202: canonical retriangulation with 0 finite vertices; b_1 2, b_2 1; (order, cusp permutation, tr H_1, tr H_2, L(g)) with multiplicity: [((1, (0, 1), 2, 1, 0), 1), ((2, (0, 1), -2, 1, 4), 1), ((2, (1, 0), 0, -1, 0), 6), ((3, (0, 1), -1, 1, 3), 2), ((6, (0, 1), 1, 1, 1), 2)]
+    order-3 isometries: 2; their (tr H_1, tr H_2, L) = [(-1, 1, 3)] (the package: tr_1 = -1 (omega, omega^2), tr_2 = 1, L = 3 = the three fixed arcs)
+  s959: canonical retriangulation with 0 finite vertices; b_1 2, b_2 1; (order, cusp permutation, tr H_1, tr H_2, L(g)) with multiplicity: [((1, (0, 1), 2, 1, 0), 1), ((2, (0, 1), -2, 1, 4), 1), ((2, (1, 0), 0, -1, 0), 6), ((3, (0, 1), -1, 1, 3), 2), ((6, (0, 1), 1, 1, 1), 2)]
+    order-3 isometries: 2; their (tr H_1, tr H_2, L) = [(-1, 1, 3)] (the package: tr_1 = -1 (omega, omega^2), tr_2 = 1, L = 3 = the three fixed arcs)
+
+=== (6) non-semisimple modules by Fox calculus: over F_3 and over Q(omega) [    40 s] ===
+  m202 over F_3: 8 non-trivial homomorphisms pi_1 -> F_3; h^1 of the unipotent module U(t) over them: [2]; semisimplification (trivial 2-dim): 4 = 2 dim H^1(M; F_3) = 4 (the package: m202 2 vs 4, s959 5 vs 6)
+  m202 over Q(omega): phi on the generators = ['0', '1']; (dim, h^1 unipotent, h^1 trivial) = [(2, 2, 4), (3, 2, 6), (4, 2, 8)] (the package: m202 (2, 2, 4), (3, 2, 6), (4, 2, 8); s959 (2, 2, 4))
+  s959 over F_3: 26 non-trivial homomorphisms pi_1 -> F_3; h^1 of the unipotent module U(t) over them: [4, 5]; semisimplification (trivial 2-dim): 6 = 2 dim H^1(M; F_3) = 6 (the package: m202 2 vs 4, s959 5 vs 6)
+  s959 over Q(omega): phi on the generators = ['-1', '1', '0']; (dim, h^1 unipotent, h^1 trivial) = [(2, 2, 4)] (the package: m202 (2, 2, 4), (3, 2, 6), (4, 2, 8); s959 (2, 2, 4))
+
+=== (7) the decision table's inputs: chi(M), fixed points of the order-3 maps, cusp swap, shapes [    41 s] ===
+  m004   chi(M) = 0, |Sym| 8 (D4), cusp-fixing |det(A - I)| by order {1: {(0,)}, 2: {(0,), (4,)}, 4: {(0,)}}, cusp permutations [(0,)], reduced shapes ['-0.0000+3.4641i'] hexagonal False
+  m202   chi(M) = 0, |Sym| 12 (D6), cusp-fixing |det(A - I)| by order {1: {(0, 0)}, 2: {(4, 4)}, 3: {(3, 3)}, 6: {(1, 1)}}, cusp permutations [(0, 1), (1, 0)], reduced shapes ['+0.5000+0.8660i', '+0.5000+0.8660i'] hexagonal True
+  s959   chi(M) = 0, |Sym| 12 (D6), cusp-fixing |det(A - I)| by order {1: {(0, 0)}, 2: {(4, 4)}, 3: {(3, 3)}, 6: {(1, 1)}}, cusp permutations [(0, 1), (1, 0)], reduced shapes ['-0.5000+0.8660i', '-0.5000+0.8660i'] hexagonal True
+  v3551  chi(M) = 0, |Sym| 12 (D6), cusp-fixing |det(A - I)| by order {1: {(0, 0)}, 2: {(4, 4)}, 3: {(3, 3)}, 6: {(1, 1)}}, cusp permutations [(0, 1), (1, 0)], reduced shapes ['-0.5000+0.8660i', '-0.5000+0.8660i'] hexagonal True
+  s596   chi(M) = 0, |Sym| 8 (D4), cusp-fixing |det(A - I)| by order {1: {(0, 0)}, 2: {(4, 4), (0, 0)}}, cusp permutations [(0, 1), (1, 0)], reduced shapes ['-0.5000+0.8660i', '-0.5000+0.8660i'] hexagonal True
+  v3461  chi(M) = 0, |Sym| 12 (D6), cusp-fixing |det(A - I)| by order {1: {(0, 0)}, 2: {(4, 4)}, 3: {(3, 3)}, 6: {(1, 1)}}, cusp permutations [(0, 1), (1, 0)], reduced shapes ['+0.5000+0.8660i', '+0.5000+0.8660i'] hexagonal True
+  rows A-F of the table are then arithmetic: A/B/C 0; D = -(sum of fixed points) (m202, s959: 6); E one cusp (3); F = -(number of cusps)
+
+=== (8) the covering negative: low-degree covers of m004 and m003 [    41 s] ===
+  m004 degree 2: 1 cover(s) [(1, 4.059766, 'Z/5 + Z')]; isometric to a target of that volume: {'m202': False}
+  m004 degree 3: 1 cover(s) [(1, 6.08965, 'Z/4 + Z/4 + Z')]; isometric to a target of that volume: {'s959': False}
+  m003 degree 2: 1 cover(s) [(1, 4.059766, 'Z/5 + Z')]; isometric to a target of that volume: {'m202': False}
+  m003 degree 3: 1 cover(s) [(1, 6.08965, 'Z/2 + Z/10 + Z')]; isometric to a target of that volume: {'s959': False}
+
+=== (9) m004(0,1): SU(2) representations through the binary dihedral groups Dic_n (n = 2..6) [    41 s] ===
+  pi_1(m004(0,1)) = <a, b | aaabABBAb, aBAbABab>, H_1 = Z
+  Dic_2 (order 8): homomorphisms with a non-abelian image 0, with an abelian image 8
+  Dic_3 (order 12): homomorphisms with a non-abelian image 0, with an abelian image 12
+  Dic_4 (order 16): homomorphisms with a non-abelian image 0, with an abelian image 16
+  Dic_5 (order 20): homomorphisms with a non-abelian image 40, with an abelian image 20
+  Dic_6 (order 24): homomorphisms with a non-abelian image 0, with an abelian image 24
+  irreducible SU(2) representations of m004(0,1) found through binary dihedral images: 40 (the package: 'every SU(2) flat connection on m004(0,1) is reducible')
+  monodromy [[2,1],[1,1]]: det(A - I) = -1 (abelian characters: H_1 = Z), det(A + I) = 5 (characters with chi o A = chi^-1: 4 non-trivial -> irreducible binary dihedral representations)
+
+=== (10) m004(p,1): solution types, volumes, Chern-Simons, homology; the slope law [    41 s] ===
+  p = 0: contains flat tetrahedra           vol  0.0000000 cs  +0.000000000 H_1 = Z
+  p = 1: contains flat tetrahedra           vol  0.0000000 cs  +0.011904762 H_1 = 0
+  p = 2: contains flat tetrahedra           vol  0.0000000 cs  +0.025000000 H_1 = Z/2
+  p = 3: contains flat tetrahedra           vol  0.0000000 cs  +0.041666667 H_1 = Z/3
+  p = 4: contains degenerate tetrahedra     vol  0.0000674 cs           n/a H_1 = Z/4
+  p = 5: all tetrahedra positively oriented vol  0.9813688 cs  +0.077038180 H_1 = Z/5
+  p = 6: all tetrahedra positively oriented vol  1.2844853 cs  +0.067931673 H_1 = Z/6
+  slope law CS(p,-q) = -CS(p,q) mod 1 on the hyperbolic slopes: 8/8 (the package: 8/8)
+
+=== (11) kappa = tr[a, b] for m004's generating pair, and Nielsen invariance [    41 s] ===
+  tr[a,b] = 1.500000000+0.866025404j; kappa - 2 = -0.500000000+0.866025404j; omega = -0.500000000+0.866025404j; a cube root of unity: True
+  Nielsen moves preserve it: (b,a) 1.500000+0.866025j, (a^-1, b) 1.500000+0.866025j, (ab, b) 1.500000+0.866025j, (a, ab) 1.500000+0.866025j
+
+=== (3) + (12) census scans [    41 s] ===
+  OrientableCuspedCensus: 212641 manifolds; the classic census (up to 7 tetrahedra) = the first 4815; m + s = the first 1263
+  det(A - I) = 3 for a cusp-fixing order-3 isometry, first 4815: [('m202', 2, 24.0), ('s959', 2, 36.0), ('v3461', 2, 39.343), ('v3551', 2, 42.0)]; by number of cusps {2: 4} (the package: m202, s959, v3461, v3551; none 1- or 3-cusped)
+    m202     cusps 2 vol/v0   24.000 H_1            Z + Z Sym D6
+    s959     cusps 2 vol/v0   36.000 H_1      Z/3 + Z + Z Sym D6
+    v3461    cusps 2 vol/v0   39.343 H_1            Z + Z Sym D6
+    v3551    cusps 2 vol/v0   42.000 H_1      Z/2 + Z + Z Sym D6
+  hexagonal manifolds (every cusp e^(i pi/3)) in the first 4815: 11; two-cusped among them: 5; of those with an order-3 isometry: 4 (the package at 6000: 11, 5, 4)
+  m + s census (1263 manifolds): chiral + order-3 isometry + 2T door: [('m202', 96, [3]), ('s776', 1152, []), ('s784', 336, [0]), ('s959', 576, [3])] (the package: exactly m202, s776, s784, s959; det 3 for m202/s959, 0 for s776/s784)
+    m202: surjections onto 2T 96, |det(A-I)| of cusp-fixing order-3 maps [3], H_1 Z + Z, shape field Q(sqrt-3) (the package: m202/s959 Q(sqrt-3), s776/s784 Q(sqrt-7))
+    s776: surjections onto 2T 1152, |det(A-I)| of cusp-fixing order-3 maps [], H_1 Z + Z + Z, shape field Q(sqrt-7) (the package: m202/s959 Q(sqrt-3), s776/s784 Q(sqrt-7))
+    s784: surjections onto 2T 336, |det(A-I)| of cusp-fixing order-3 maps [0], H_1 Z/3 + Z/3 + Z, shape field Q(sqrt-7) (the package: m202/s959 Q(sqrt-3), s776/s784 Q(sqrt-7))
+    s959: surjections onto 2T 576, |det(A-I)| of cusp-fixing order-3 maps [3], H_1 Z/3 + Z + Z, shape field Q(sqrt-3) (the package: m202/s959 Q(sqrt-3), s776/s784 Q(sqrt-7))
+  parity of fixed ends: an orientation-preserving isometry of finite order fixes a union of geodesics, closed or proper arcs with two ends at cusps, so the total number of fixed points on the cusp tori is even; a single cusp with |det(A - I)| = 3 is impossible, as is [3, 3, 3] on three cusps -- the package's empirical 'no 1- or 3-cusped det = 3' is a theorem.
+
+DONE [    43 s]
