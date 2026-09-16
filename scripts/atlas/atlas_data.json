@@ -7482,6 +7482,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1367": {
+   "slug": "the doublet triplet pincer",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L215",
+    "L216"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B136": {
    "slug": "general amphichirality",
    "motifs": [

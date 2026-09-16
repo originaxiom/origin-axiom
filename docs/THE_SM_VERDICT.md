@@ -502,3 +502,11 @@ left it.
 > singlets are neutral. B1365's sign theorem and its two exclusions therefore hold for every E₆ closing of the object with matter in
 > 27s, whatever the line and whatever the reading of hypercharge; B1269's c(SM) = 5 and 13 and B1283's (β, γ) table are universal. 0
 > of 19 (`frontier/B1366_the_sign_is_e6s`).
+
+> **Currency note (2026-09-16, B1367): the doublet–triplet pincer closes the apex route.** With E₆-symmetric couplings among any number
+> of 27s, N pairs H_u with H_d exactly as it pairs D with D̄ and ν^c pairs L with H_u exactly as it pairs D with d^c (one invariant each),
+> so the doublet and triplet mass blocks share their generation matrix: light up-Higgs doublets = light exotic triplets in every vacuum
+> (9 300 configurations over three, four and six copies, fifteen coupling patterns, every VEV support at three: zero exceptions), and a
+> light D decays the proton (B1276 §3). Only E₆-breaking couplings acting on the matter can split them; point-localised 27s never see
+> any. Every apex design of the object is excluded, with or without 27̄s and whatever the line; B1276 §2 is a theorem; the one door is
+> chiral bulk matter on the cusped object through its ends (L216). 0 of 19 (`frontier/B1367_the_doublet_triplet_pincer`).

@@ -2737,3 +2737,24 @@ su(3)_R), and in every reading the 27's two SM singlets are an SU(2)_β doublet 
 the sign theorem and both exclusions hold for every E₆ closing of the object with matter in 27s, whatever the line and whatever the
 hypercharge; only 27̄s change the sign. `frontier/B1366_the_sign_is_e6s`.
 
+**L215 status 2026-09-16 (B1367): CLOSED — the cure would not have sufficed.** With E₆-symmetric couplings among any number of 27s
+the up-Higgs doublets and the exotic triplets are paired by the same generation matrix (N: H_u–H_d and D–D̄; ν^c: L–H_u and D–d^c,
+each pair one E₆ invariant), so every vacuum with a light Higgs has a light D — 9 300 configurations, zero exceptions — and a light D
+means proton decay (B1276 §3). Only E₆-breaking couplings on the matter split them, and point-localised 27s never see any. Every apex
+design of the object is excluded, with or without anti-apexes, whatever the line. `frontier/B1367_the_doublet_triplet_pincer`.
+
+## L216 — CHIRAL BULK MATTER ON THE CUSPED OBJECT: THE STANDARD-MODEL-REACHING CONNECTIONS OF m004 ITSELF (registered 2026-09-16, B1367; the one door the pincer leaves)
+
+The pincer (B1367) closes every design whose E₆-charged matter is at points; the splitting of doublets from triplets needs a Wilson
+line acting on bulk matter (B1302's one-triplet vacua on Y₁₂), and bulk matter is vector-like on every closed closing (B1351). The two
+requirements meet only where bulk matter is chiral: the cusped object, through its ends — B1351's escape (a cusp-fixed weight with a
+disc-type partition), found empty on the V₁₀ deformations of the geometric representation (B1352) but not yet asked for connections
+that leave the Standard Model unbroken, and the physical-bridge lane's conditional net three from the ends (R24, R30/R31). **Computation:**
+(i) the flat E₆(ℂ) connections of m004 that contain the geometric representation and a commuting unitary part reaching exactly
+SM × U(1)′ — the knot group's finite quotients into SU(2)_β (does π₁(m004) surject onto 2T, or onto the binary dihedral groups its
+double branched cover allows?) with a continuous U(1)² character; (ii) their cusp holonomies weight by weight, the cusp-fixed weights,
+and B1351's partition on the Standard-Model-charged weights; (iii) the index per SM representation from −χ(∂⁺M): whether any such
+connection carries a net three of a generation's worth, and whether the line then splits D from H as on Y₁₂ (B1302's instrument on the
+cusped object's twisted cohomology, the Fox calculus of B1365 on the knot group with the peripheral data). The seat's instruments
+transfer directly; the physical-bridge lane's source/end selection is the same question from the other side.
+

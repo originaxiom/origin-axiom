@@ -28,6 +28,9 @@ line's bulk carries three flat moduli and a vector-like colour-triplet pair, and
 carry the same U(1)_η charge nothing in the design breaks U(1)_η above the soft scale, so the right-handed neutrinos have no
 Majorana mass and B1276's one coupling puts the neutrinos at the up-quark masses: **the three-apex closing needs a 27̄ sector or is
 excluded** (B1365, §6.8; L215).
+And a cure would not have sufficed: the exotic triplets are paired with the Higgs doublets by the same generation matrix in every
+E₆-symmetric vacuum (B1367, §6.11), so every design with its E₆-charged matter at points is excluded — the door that remains is
+chiral bulk matter on the cusped object (L216).
 
 ## 1. The ledger
 
@@ -50,6 +53,7 @@ excluded** (B1365, §6.8; L215).
 | Y₃ carries a flat E₆ connection with unbroken group exactly SM × U(1)′: Q₈ (24 surjections of F(2,6)) in the SM's centraliser SU(2)_β plus an order-4 character; the deck broken by the character; the descent cannot (≥ 17) | PROVED (root system; enumeration) | B1364 |
 | The line's U(1)′ is U(1)_η with B1283's Z′ charges (family-universal); the bulk H¹(Y₃; 78_ρ) is three exactly flat moduli plus one vector-like (3,1)_{−1/3} pair, never a doublet, the (2,20) sector empty; the U(1)_η D-term has one sign on the 27's singlets — no seesaw, neutrinos at the up-quark masses without a 27̄ sector; every combined line breaks the deck (288 of 288) | PROVED (charge table, torsion census, Fox calculus, deck test) + NEGATIVE (the neutrino sector) | B1365 |
 | The Standard Model embeds in E₆ once up to conjugacy (120 A₂'s in one Weyl orbit; 720 commuting (A₂, A₁) pairs in one orbit; three hypercharges permuted by su(3)_R); in every reading the 27's two SM singlets are an SU(2)_β doublet with equal U(1)′ charge and the 78's are neutral: the sign theorem and both exclusions are E₆'s | PROVED (root system, exact) | B1366 |
+| With E₆-symmetric couplings among any number of 27s the up-Higgs doublets and the exotic triplets are paired by the same generation matrix (N: H_u–H_d and D–D̄; ν^c: L–H_u and D–d^c), so every vacuum with a light Higgs has a light D (9 300 configurations, no exception) and proton decay; only E₆-breaking on the matter splits them, which point-localised 27s never see: every apex design excluded, L216 the one door | NEGATIVE (the apex route) + PROVED (the identity) | B1367 |
 | The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
 | AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1 | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
 | Its topology: singular set the E₆ locus and the apex only; b₂(link) = 1; the E₆ link pairs non-trivially with the generator (the inflow applies) | PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones) | B1360 |
@@ -159,6 +163,14 @@ those local models on a circle — vector-like.
    the design lepton number is not a symmetry: L and H_d, d^c and D̄, N and ν^c are SU(2)_β-doublets rotated by the Q₈ holonomies
    between apexes, and no discrete gauge factor survives to name a lepton — the standard E₆ R-parity problem, here without a
    geometric parity to solve it.
+11. **The pincer (B1367, 2026-09-16): the apex route is closed.** In trinification form the E₆ cubic pairs N with (H_u, H_d) and with
+   (D, D̄), and ν^c with (L, H_u) and with (D, d^c), each pair one invariant; with any number of 27s and any coupling tensor the doublet
+   and triplet mass blocks share their generation matrix, so light up-Higgs doublets = light exotic triplets in every vacuum (9 300
+   configurations, zero exceptions), and a light D decays the proton (B1276 §3). Splitting needs E₆-breaking couplings on the matter
+   — a line on bulk modes (B1302) — which point-localised 27s never see. So every closing with its E₆-charged matter at points is
+   excluded, with or without anti-apexes, whatever the line: this closes the design of §1–§5 and L215 together. What remains is the
+   one configuration the record has not computed: chiral bulk matter with the Standard Model unbroken, which closed closings cannot
+   give (B1351) and which the cusped object could give only through its ends — L216.
 
 ## 7. The three faces, once more
 
