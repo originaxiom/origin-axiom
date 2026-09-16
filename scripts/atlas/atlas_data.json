@@ -8415,6 +8415,19 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1417": {
+   "slug": "the region swap lemma",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [

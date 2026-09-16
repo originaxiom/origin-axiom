@@ -1,0 +1,17 @@
+{
+ "id": "B1417",
+ "verdict": "VERIFIED",
+ "instrument": false,
+ "depends_on": [
+  "B1291",
+  "B1290",
+  "B1296",
+  "B1298"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE REGION-SWAP LEMMA (fc R71 section 2) VERIFIED ON MAIN: for an involution sigma of the cusp torus and a sigma-odd field g with a transverse zero set Z, sigma swaps {g > 0} and {g < 0}, so their Euler characteristics agree and sum to chi(T^2) - chi(Z) = 0 -- chi(d+M) = chi(d-M) = 0 for every theta-odd field, whichever Fourier mode leads. On m004 theta is z -> -z on the cusp (four fixed points, the corners, on which every odd field vanishes). Own grid code: 60 random rotation-odd fields give 0/0; the SM seat's +-4 is the exact product mode whose zero set has eight crossings (not a surface; chi undefined), resolved to 0/0 by any generic odd perturbation; a reflection with fixed circles violates the hypothesis and is not the object's theta. Addendum on B1291; harvest row 631; the fc census fully harvested, its retirement gate met, archiving at the owner's word. No value; nothing promotes."
+}

@@ -1,0 +1,7 @@
+theta = rotation (-x,-y): 60 random odd fields -> (chi(g>0), chi(g<0)) values [(0, 0)]
+contrast, reflection (-x, y) with fixed circles: values [(2, 2), (3, 3), (3, 4), (4, 3), (4, 4), (5, 5), (5, 6)] (hypothesis violated; not the object's theta)
+pure product mode (±2,±1): chi(g>0) = 4  chi(g<0) = 4  (four open rectangles each side: +4 as open sets, the cubical count sees the glued closures)
+product mode + 0.05 sin(2 pi (x+y)) (a generic rotation-odd mode): chi(g>0) = 0  chi(g<0) = 0
+product mode + 0.05 sin(2 pi (2x+3y)):                              chi(g>0) = 0  chi(g<0) = 0
+(the SM seat's sin(4 pi x) alone: chi = 0 0 -- two annuli each side)
+PASS -- chi(d+) = chi(d-) = 0 for every transverse theta-odd field; the +-4 belongs to a non-transverse zero set
