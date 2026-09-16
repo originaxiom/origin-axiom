@@ -102,3 +102,9 @@ escalation are the proof).
   correction), representations of a filled manifold into the binary dihedral groups, and the Chern–Simons validity gate for fillings.
   `frontier/B1372_the_doublet_halves/verification/doublet_halves.py`: the Standard-Model typing of every weight of the 27 and the 78 by
   colour and weak weights and Y, with β·w and γ, and an exact solver for the cusp-fixedness congruences of a set of weights.
+- **B1373 (2026-09-16, the SM seat)** — `frontier/B1373_the_order_4_points_on_the_geometric_components/verification/order4_points.py`:
+  the cone-manifold continuation of a cusp along either peripheral curve (real filling coefficients (2p, 0)/(0, 2p) stepped on one
+  manifold object so each solve starts from the last), the classification of the other curve's eigenvalue at the endpoint, and a
+  deterministic fine path (steps of 1/64) that reads the degeneration wall and the growth of the other translation length. Practice
+  learned there: **SnapPy's `randomize()` is seeded by the wall clock** — its output differs between runs a second apart, so nothing
+  downstream of it belongs under a lock; use the original triangulation or a deterministic retriangulation.

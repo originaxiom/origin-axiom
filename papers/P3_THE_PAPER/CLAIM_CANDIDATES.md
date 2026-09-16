@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1119 settled arcs — 74%** —
+the field is **absent on 828 of 1120 settled arcs — 74%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 551 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 552 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -79,7 +79,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1358` | PROVED | S | | THE E6 APEX FAMILY: the twistor cones of S^4/(2T x Gamma_R), Gamma_R in {1, Z2, Z3, Z4, Z6, Q8, 2T}, are G2 cones whose first pole carries E6 and whose second pole carrie… |
 | `B1366` | PROVED | S | | THE SIGN IS E6'S: the Standard Model embeds in E6 in one way up to conjugacy -- the 120 A2 root subsystems of E6 form one Weyl orbit, the 720 commuting (A2, A1) pairs for… |
 
-## §5 withheld — the value wall and the rank wall (123)
+## §5 withheld — the value wall and the rank wall (124)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -206,6 +206,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1362` | PROVED | S | | THE HIERARCHY IS A U(1)-BREAKING EFFECT AT ORDER ONE: a deck-symmetric complex symmetric Yukawa is the circulant circ(x,y,y) with eigenvalues x+2y, x-y, x-y (symbolic), s… |
 | `B1367` | NEGATIVE | S | | THE DOUBLET-TRIPLET PINCER: in trinification form the E6 cubic det L + det Q + det Q^c + Tr(Q L Q^c) pairs N with (H_u, H_d) and with (D, Dbar), and nu^c with (L, H_u) an… |
 | `B1372` | NEGATIVE | S | | THE DOUBLET HALVES (door 2): the third reading of a Standard-Model generation -- the 10 from the 78's SL(2)_beta doublets and the 5bar from the 27's, both halves carried … |
+| `B1373` | NEGATIVE | S | | THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free … |
 
 ## §6 the observer — one bit, priced (149)
 

@@ -436,3 +436,14 @@ make every doublet sector vector-like outright: the coframe's dt-component is Ca
 On m004 the order-4 points are your four dihedral representations, unitary. So door 2 is closed on the object and on the seventy-seven
 members without a free cusp; what is left is an order-4 point with non-unitary holonomy on one of the thirty-five free-cusp members,
 whose character varieties neither of us has. 0 of 19.
+
+## Thirty-second note (2026-09-16): door 2's residual on the geometric path (B1373)
+
+The one place door 2 stayed open needed a point of a free-cusp member's character variety with both peripheral eigenvalues fourth
+roots of unity. Along the hyperbolic structure's own deformations that is a cone-manifold with angle π on one curve whose other curve
+also has eigenvalue in {±1, ±i}. I followed the cone path on both curves of all eighty-three free cusps: where it reaches angle π —
+132 of 166 pairs — the other curve is loxodromic every time, |L| between a quarter and nine, and your Theorem B forbids the two halves
+together; on the other 34 — all meridians — the structure degenerates before the point, the other curve's translation length climbing
+monotonically to between ten and twenty-seven at the last step that still solves: twenty-three walls within a sixteenth of angle π,
+eleven at angle 2π/3, ideal points of the real path. Nothing on the geometric path. What is left sits off the real path or on other components, and
+needs the A-polynomial of ten-tetrahedron manifolds or their full Ptolemy solutions, which neither of us has. 0 of 19.

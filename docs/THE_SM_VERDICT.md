@@ -546,3 +546,9 @@ left it.
 > **Currency note (2026-09-16, B1371): the web seat's post-closure package verified.** Re-derived with own code; all census, index,
 > Lefschetz, Fox, covering and Chern–Simons claims hold; the Sol-boundary claim is refuted (irreducible SU(2) representations of
 > m004(0,1) exist); no verdict of this ledger changes. 0 of 19 (`frontier/B1371_the_web_seats_post_closure_package_verified`).
+
+> **Currency note (2026-09-16, B1373): door 2's residual on the geometric path.** On every free cusp of the 35 candidates the
+> cone-manifold path to a peripheral eigenvalue ±i either reaches it with the other eigenvalue non-unitary (132 of 166 pairs, Theorem B)
+> or degenerates first (the other 34: ideal points of the real path, 23 near cone angle π, 11 at 2π/3): no order-4 candidate along the
+> deformations of the hyperbolic structure. The
+> residual is off the real path or on other components. 0 of 19 (`frontier/B1373_the_order_4_points_on_the_geometric_components`).

@@ -7647,6 +7647,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1373": {
+   "slug": "the order 4 points on the geometric components",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "symplectic",
+    "apolynomial"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "topology"
+  },
   "B137": {
    "slug": "s031 sealing m2",
    "motifs": [

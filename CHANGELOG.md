@@ -1,5 +1,9 @@
 # Changelog
 
+## B1373 — the order-4 points on the geometric path: on every free cusp of the family, the cone-manifold continuation to a peripheral eigenvalue ±i reaches the point with the other eigenvalue non-unitary (132 of 166 pairs, Theorem B) or degenerates first (34 ideal points of the real path: 23 near cone angle π, 11 at 2π/3) — no candidate for door 2 along the deformations of the hyperbolic structure; the residual is off the real path or on other components
+
+SnapPy cone-manifold continuation; lock in seconds.
+
 ## B1372 — door 2, the doublet halves: the mixed frame (the 10 from the 78's SL(2)_β-doublets, the 5̄ from the 27's) closed by charge arithmetic at the cusp — a non-unitary peripheral eigenvalue never fixes both halves (γ = 1 against ⅓), a unitary one only at fourth roots of unity and then on opposite eigenvectors; parabolic and central holonomy vector-like; m004's order-4 points unitary — closed on m004 and on the 77 full-rank members, open only at order-4 non-unitary points on free-cusp members
 
 Exact over ℚ; lock in seconds.

@@ -15024,3 +15024,15 @@ opposite chiralities wherever the abelian Higgs field vanishes); Lemmas A and D 
 m004's four order-4 representations (Riley's form on the meridian presentation, full relator check) all unitary. Closed on m004 and on the
 77 full-rank members; open only at order-4 non-unitary points on the 35 free-cusp members, if any exist. Verdict NEGATIVE + OPEN (narrow);
 lock 8 s; surfaces (as above, hint 23), currency notes on B1368, B1369. 0 of 19.
+
+### B1373 — the order-4 points on the geometric path (2026-09-16)
+
+Door 2's residual (B1372 §6) along the cone-manifold deformations of the hyperbolic structure: fillings (2p, 0) and (0, 2p) with p from 30
+to 1 on each of the 83 free cusps of the 35 candidates (166 pairs), the other cusps complete. Reached on 132 pairs (all 83 longitude
+cases, 49 meridian cases) with the other curve's eigenvalue non-unitary at every one (|L| 0.25–9.0): Theorem B. On 34 meridian pairs the
+coarse path failed; a deterministic fine real path (steps of 1/64, the original triangulation) shows all 34 degenerate before the point with
+the other holonomy's real part monotone increasing to 10–27: the wall within 1/16 of cone angle π on 23, of 2π/3 on 11 (ideal points of
+the real path; SnapPy's `randomize()` is wall-clock seeded, so the draft's randomised 30/4 split was not reproducible and is withdrawn). No order-4 candidate on the
+geometric path; the residual is off the real path or on other components (the A-polynomial or full Ptolemy solutions; the Ptolemy database
+does not reach these members). Verdict NEGATIVE (the geometric path) + OPEN; lock seconds; surfaces (OPEN_LEADS, THE_CLOSING, THE_SM_VERDICT,
+CHIRALITY_MAP, the letter's thirty-second note, the alias table), currency note on B1372. 0 of 19.

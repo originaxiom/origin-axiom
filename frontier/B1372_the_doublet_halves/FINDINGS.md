@@ -123,3 +123,9 @@ relator check, ρ(λ) from the longitude word, unitarity by an invariant Hermiti
 **Sources.** B1368 (the placement in SL(2)_β × ℂ*², the sector census, the λ-parabolic points), B1369 (the free-cusp theorem, the
 parity lemma), B1351 (the index), B1365/B1366 (the charge table and the unique embedding), B1281 §2D (transverse zeros). Riley's normal
 form for two-bridge knot groups; the cusp form of the hyperbolic holonomy (the coframe as the Higgs field, as in BCHS 2018).
+
+*(Currency 2026-09-16, B1373: §6's residual followed along the geometric path — on every free cusp the cone-manifold continuation to
+eigenvalue ±i on either peripheral curve reaches the point with a non-unitary other eigenvalue (132 of 166 pairs; Theorem B) or
+degenerates first (all 34 meridian pairs: ideal points of the real path, 23 near cone angle π and 11 at 2π/3); no order-4 candidate on the
+deformations of the hyperbolic structure.
+`frontier/B1373_the_order_4_points_on_the_geometric_components`.)*

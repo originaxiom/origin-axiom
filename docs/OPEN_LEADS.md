@@ -2824,3 +2824,11 @@ holonomy, if any exist — character-variety data the record lacks. `frontier/B1
 the Bianchi indices and the class membership, the four-property table, the census scans, the Lefschetz numbers L(g) = 3 of the siblings'
 order-3 isometries, the non-semisimple witnesses, the covering negative, the Chern–Simons gate. One refutation: the Sol boundary
 m004(0,1) has irreducible SU(2) representations (forty binary dihedral ones from det(A + I) = 5). No new door for sL-1. `frontier/B1371_the_web_seats_post_closure_package_verified`.
+
+**Status (2026-09-16, B1373 — door 2's residual on the geometric path).** Along the cone-manifold deformations of the hyperbolic
+structure on every free cusp of the 35 candidates (166 cusp–curve pairs), the point where one peripheral curve has eigenvalue ±i is
+reached on 132 pairs and the other curve's eigenvalue is non-unitary at every one (Theorem B); the other 34 pairs (all meridians)
+degenerate before the point — ideal points of the real path, 23 within a sixteenth of cone angle π and 11 at 2π/3, the other curve's
+translation length monotone increasing on the approach. No order-4 candidate on the geometric path. **Residual now:** points off the real path or on other
+components of those character varieties — the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds, beyond the record's
+tools. `frontier/B1373_the_order_4_points_on_the_geometric_components`.

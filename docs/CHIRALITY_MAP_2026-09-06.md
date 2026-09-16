@@ -413,6 +413,12 @@ free-cusp members, if such points exist. The web seat's post-closure package (20
 code, brings no new door: its routes to zero are the record's or orthogonal to the seven-dimensional frame, and its one negative that
 fails (the Sol boundary m004(0,1) has irreducible SU(2) representations) concerns no route of this map. `frontier/B1372_the_doublet_halves`, `frontier/B1371_the_web_seats_post_closure_package_verified`.
 
+*Addendum (B1373, the same day).* Door 2's residual followed along the geometric path: on all 83 free cusps, the cone-manifold
+continuation to a peripheral eigenvalue ±i reaches the point on 132 of 166 cusp–curve pairs with the other eigenvalue non-unitary every
+time (Theorem B), and degenerates before it on the rest (34 ideal points of the real path: 23 near cone angle π, 11 at 2π/3). No order-4 candidate on the
+deformations of the hyperbolic structure; what remains lies off the real path or on other components of the character varieties.
+`frontier/B1373_the_order_4_points_on_the_geometric_components`.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

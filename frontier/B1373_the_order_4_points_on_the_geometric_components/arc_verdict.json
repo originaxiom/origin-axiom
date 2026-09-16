@@ -1,0 +1,16 @@
+{
+ "id": "B1373",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": [
+  "B1372",
+  "B1369",
+  "B1186"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free cusp are fourth roots of unity with non-unitary holonomy. Along the cone-manifold deformation path of the hyperbolic structure -- fillings (2p, 0) or (0, 2p) on the free cusp with p from 30 down to 1, the other cusps complete -- the point where one curve has eigenvalue +-i is reached on 132 of the 166 (cusp, curve) pairs of the 35 candidates, and at every one the other curve's eigenvalue is non-unitary (|L| between 0.25 and 9): Theorem B forbids simultaneous cusp-fixedness of the two halves there. On the other 34 pairs (all meridians) the structure degenerates before the point on a deterministic fine path, the other curve's translation length increasing monotonically to 10-27 at the last non-degenerate step: the wall within a sixteenth of cone angle pi on 23 and of cone angle 2 pi / 3 on 11 -- ideal points of the real path, no representation there. No candidate anywhere on the geometric path. Not covered: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (the Ptolemy database does not reach them). 0 of 19."
+}

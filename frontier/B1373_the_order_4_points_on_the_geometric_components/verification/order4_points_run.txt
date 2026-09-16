@@ -1,0 +1,210 @@
+=== the (2,0) and (0,2) points of the geometric component on every free cusp of the 35 candidates ===
+  m412        cusp 0 lambda of order 4 : all tetrahedra positively orient vol  3.663862  H(other) = -1.762747 +0.000000i  |L| = 0.4142  -> closed by Theorem B: the other eigenvalue is non-unitary
+  m412        cusp 1 lambda of order 4 : all tetrahedra positively orient vol  3.663862  H(other) = -1.762747 +0.000000i  |L| = 0.4142  -> closed by Theorem B: the other eigenvalue is non-unitary
+  t06828      cusp 0 mu of order 4     : contains negatively oriented tet vol  2.786805  H(other) = +4.397146 +0.000000i  |L| = 9.0121  -> closed by Theorem B: the other eigenvalue is non-unitary
+  t06828      cusp 0 lambda of order 4 : contains negatively oriented tet vol  4.322959  H(other) = -2.153681 -0.000000i  |L| = 0.3407  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150684  cusp 0 mu of order 4     : all tetrahedra positively orient vol  7.327725  H(other) = +3.525494 -0.000000i  |L| = 5.8284  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150684  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +0.000000i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150684  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  9.418329  H(other) = -0.955450 +0.000000i  |L| = 0.6202  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150685  cusp 0 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 +1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150685  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 -0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150685  cusp 1 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 -1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150685  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 +0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150685  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  9.437584  H(other) = -0.905203 +0.000000i  |L| = 0.6360  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150687  cusp 0 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 +2.720449i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150687  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.793346  H(other) = -1.768551 +0.269805i  |L| = 0.4130  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150687  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  9.027228  H(other) = -1.417034 -0.266366i  |L| = 0.4924  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150687  cusp 2 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 +1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150687  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 -0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150688  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  9.569587  H(other) = -0.750980 -0.000000i  |L| = 0.6870  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150689  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  9.511702  H(other) = -0.820601 -0.056016i  |L| = 0.6635  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150689  cusp 1 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 +1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150689  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 -0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150690  cusp 0 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 +1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150690  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 -0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150690  cusp 1 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 +1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150690  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 -0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150690  cusp 2 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 +1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150690  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 -0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150690  cusp 3 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 +1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150690  cusp 3 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 -0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150691  cusp 0 mu of order 4     : contains negatively oriented tet vol  6.354587  H(other) = +4.238381 -1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150691  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 +0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150691  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  9.228241  H(other) = -1.175235 +0.303109i  |L| = 0.5556  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150692  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.989792  H(other) = -1.519958 -0.081681i  |L| = 0.4677  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150692  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.989792  H(other) = -1.519958 -0.081681i  |L| = 0.4677  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150693  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  9.437584  H(other) = -0.905203 -0.000000i  |L| = 0.6360  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150693  cusp 1 mu of order 4     : all tetrahedra positively orient vol  7.327725  H(other) = +3.525494 +0.000000i  |L| = 5.8284  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150693  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +0.000000i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150702  cusp 0 mu of order 4     : all tetrahedra positively orient vol  7.447054  H(other) = +3.260833 +0.224379i  |L| = 5.1060  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150702  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.080224  H(other) = -2.570412 -0.060389i  |L| = 0.2766  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150702  cusp 1 mu of order 4     : all tetrahedra positively orient vol  7.517690  H(other) = +3.124599 +0.885162i  |L| = 4.7698  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150702  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.298030  H(other) = -2.203666 +0.570255i  |L| = 0.3323  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150702  cusp 2 mu of order 4     : all tetrahedra positively orient vol  7.447054  H(other) = +3.260833 +0.224379i  |L| = 5.1060  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150702  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.080224  H(other) = -2.570412 -0.060389i  |L| = 0.2766  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150704  cusp 0 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150704  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150704  cusp 1 mu of order 4     : contains negatively oriented tet vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150704  cusp 1 lambda of order 4 : contains negatively oriented tet vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150704  cusp 2 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150704  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150704  cusp 3 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150704  cusp 3 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150705  cusp 0 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150705  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150705  cusp 1 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150705  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150706  cusp 0 mu of order 4     : all tetrahedra positively orient vol  7.327725  H(other) = +3.525494 -0.000000i  |L| = 5.8284  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150706  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +0.000000i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150706  cusp 1 mu of order 4     : all tetrahedra positively orient vol  7.327725  H(other) = +3.525494 -0.000000i  |L| = 5.8284  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150706  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +0.000000i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150708  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  9.195401  H(other) = -1.261232 +0.342713i  |L| = 0.5323  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150708  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 +0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150710  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  9.134474  H(other) = -1.386294 +0.000000i  |L| = 0.5000  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150710  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 -0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150711  cusp 0 mu of order 4     : all tetrahedra positively orient vol  6.354587  H(other) = +4.238381 -1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150711  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 +0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150711  cusp 1 mu of order 4     : all tetrahedra positively orient vol  7.517690  H(other) = +3.124599 +0.885162i  |L| = 4.7698  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150711  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.298030  H(other) = -2.203666 +0.570255i  |L| = 0.3323  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150712  cusp 0 mu of order 4     : all tetrahedra positively orient vol  6.354587  H(other) = +4.238381 -1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150712  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 +0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150712  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  9.228241  H(other) = -1.175235 +0.303109i  |L| = 0.5556  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150713  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  9.578411  H(other) = -0.738004 +0.093859i  |L| = 0.6914  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150714  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  9.578411  H(other) = -0.738004 +0.093859i  |L| = 0.6914  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150715  cusp 0 mu of order 4     : all tetrahedra positively orient vol  6.354587  H(other) = +4.238381 +0.421144i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150715  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.908747  H(other) = -1.494199 +0.469630i  |L| = 0.4737  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150715  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  9.228241  H(other) = -1.175235 +0.303109i  |L| = 0.5556  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150716  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  9.569587  H(other) = -0.750980 -0.000000i  |L| = 0.6870  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150717  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 +0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150717  cusp 1 mu of order 4     : all tetrahedra positively orient vol  7.327725  H(other) = +3.525494 +0.000000i  |L| = 5.8284  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150717  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +0.000000i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150717  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 -0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150718  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 +0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150718  cusp 1 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150718  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150718  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 -0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150719  cusp 0 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150719  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150719  cusp 1 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150719  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150720  cusp 0 mu of order 4     : all tetrahedra positively orient vol  6.354587  H(other) = +4.238381 -1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150720  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 +0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150720  cusp 1 mu of order 4     : all tetrahedra positively orient vol  6.354587  H(other) = +4.238381 -1.149653i  |L| = 8.3244  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150720  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.778659  H(other) = -1.673102 +0.174371i  |L| = 0.4332  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150720  cusp 2 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150720  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150721  cusp 0 mu of order 4     : all tetrahedra positively orient vol  7.327725  H(other) = +3.525494 -0.000000i  |L| = 5.8284  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150721  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +0.000000i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150721  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  9.228241  H(other) = -1.175235 +0.303109i  |L| = 0.5556  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150721  cusp 2 mu of order 4     : all tetrahedra positively orient vol  7.327725  H(other) = +3.525494 +0.000000i  |L| = 5.8284  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150721  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 -0.000000i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150722  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 -0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150722  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.806310  H(other) = -1.734683 +0.697084i  |L| = 0.4201  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150722  cusp 2 mu of order 4     : all tetrahedra positively orient vol  7.327725  H(other) = +3.525494 -0.000000i  |L| = 5.8284  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150722  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +0.000000i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150723  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 +0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150723  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  9.134474  H(other) = -1.386294 +0.000000i  |L| = 0.5000  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150724  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  9.578411  H(other) = -0.738004 +0.093859i  |L| = 0.6914  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150725  cusp 0 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150725  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150725  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  9.195401  H(other) = -1.261232 +0.342713i  |L| = 0.5323  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150725  cusp 2 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150725  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150727  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 +0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150727  cusp 1 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150727  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150727  cusp 2 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150727  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150727  cusp 3 mu of order 4     : all tetrahedra positively orient vol  7.327725  H(other) = +3.525494 -0.000000i  |L| = 5.8284  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150727  cusp 3 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +0.000000i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150728  cusp 0 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150728  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150728  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 -0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150728  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.612415  H(other) = -2.122550 +0.000000i  |L| = 0.3460  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 0 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 0 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 1 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 1 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 2 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 2 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 3 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 3 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 4 mu of order 4     : all tetrahedra positively orient vol  8.000234  H(other) = +2.768659 +1.570796i  |L| = 3.9921  -> closed by Theorem B: the other eigenvalue is non-unitary
+  o10_150729  cusp 4 lambda of order 4 : all tetrahedra positively orient vol  8.000234  H(other) = -2.768659 +1.570796i  |L| = 0.2505  -> closed by Theorem B: the other eigenvalue is non-unitary
+
+  points followed: 132; closed by Theorem B (non-unitary other eigenvalue): 132; closed by Theorem C: 0; survivors: 0 []
+  continuations that did not converge on the coarse path: 34
+    ('m412', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 70.1018+2.1254j)')
+    ('m412', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 72.3796+2.1445j)')
+    ('o10_150684', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0012+2.1958j, 23.9389-1.2652j)')
+    ('o10_150685', 2, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 142.1463+1.2071j)')
+    ('o10_150687', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 75.1274+1.2954j)')
+    ('o10_150688', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0123+2.0862j, 24.8536+0.5537j)')
+    ('o10_150689', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0182+2.1900j, 22.5389+1.2901j)')
+    ('o10_150691', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 102.6698-5.3977j)')
+    ('o10_150692', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 54.9432-3.8417j)')
+    ('o10_150692', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 52.1274-2.8650j)')
+    ('o10_150693', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 137.9857+0.2847j)')
+    ('o10_150708', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+2.2091j, 22.1739+5.1066j)')
+    ('o10_150708', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 77.7248-0.1466j)')
+    ('o10_150710', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0004+2.2040j, 22.2215+1.3641j)')
+    ('o10_150710', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 76.1301-0.0081j)')
+    ('o10_150712', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 102.2157-1.7433j)')
+    ('o10_150713', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0005+2.1086j, 25.5297+1.5966j)')
+    ('o10_150714', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0138+2.2028j, 40.4335-2.9665j)')
+    ('o10_150715', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 102.4999-2.2478j)')
+    ('o10_150716', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0072+2.0643j, 25.5713-0.3276j)')
+    ('o10_150717', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 78.3605+0.3270j)')
+    ('o10_150717', 2, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 75.1971+1.0888j)')
+    ('o10_150718', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 75.8187+0.1448j)')
+    ('o10_150718', 2, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 76.5395+1.4676j)')
+    ('o10_150721', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 102.1308-2.8820j)')
+    ('o10_150722', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0003+3.1188j, 70.4499+0.0228j)')
+    ('o10_150722', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 71.4509+1.6233j)')
+    ('o10_150723', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 139.2371+3.4436j)')
+    ('o10_150723', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0010+2.1515j, 22.1728-3.9444j)')
+    ('o10_150724', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0123+2.0862j, 24.8291+0.4359j)')
+    ('o10_150725', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0010+2.1515j, 22.1728+5.0489j)')
+    ('o10_150727', 0, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 52.4497-0.0404j)')
+    ('o10_150728', 1, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = -0.0000+3.1416j, 72.4514+0.0592j)')
+    ('o10_150728', 2, 'mu of order 4', 'continuation did not converge (contains degenerate tetrahedra; H = 0.0000+3.1416j, 52.4497-0.0392j)')
+
+=== the failures on a fine path: cone angle pi / p with p from 3 to 1 in steps of 1/64 on the original triangulation ===
+  m412        cusp 0 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  10.22, vol 0.2953); |Re H(other)| over the last 8 steps monotone increasing 6.24 -> 10.22; at the wall step 41.2
+  m412        cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  10.22, vol 0.2953); |Re H(other)| over the last 8 steps monotone increasing 6.24 -> 10.22; at the wall step 73.1
+  o10_150684  cusp 1 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5000; last non-degenerate p = 1.5156, |Re H(other)| =  17.07, vol 5.3502); |Re H(other)| over the last 8 steps monotone increasing 10.83 -> 17.07; at the wall step 60.6
+  o10_150685  cusp 2 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  20.44, vol 0.5905); |Re H(other)| over the last 8 steps monotone increasing 12.48 -> 20.44; at the wall step 76.4
+  o10_150687  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0156; last non-degenerate p = 1.0312, |Re H(other)| =  13.90, vol 3.9184); |Re H(other)| over the last 8 steps monotone increasing 8.62 -> 13.90; at the wall step 16.6
+  o10_150688  cusp 0 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5625; last non-degenerate p = 1.5781, |Re H(other)| =  17.82, vol 4.6105); |Re H(other)| over the last 8 steps monotone increasing 13.26 -> 17.82; at the wall step 19.0
+  o10_150689  cusp 0 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5156; last non-degenerate p = 1.5312, |Re H(other)| =  15.33, vol 5.2030); |Re H(other)| over the last 8 steps monotone increasing 10.87 -> 15.33; at the wall step 17.4
+  o10_150691  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0156; last non-degenerate p = 1.0312, |Re H(other)| =  23.07, vol 1.4759); |Re H(other)| over the last 8 steps monotone increasing 12.83 -> 23.07; at the wall step 28.4
+  o10_150692  cusp 0 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0156; last non-degenerate p = 1.0312, |Re H(other)| =  13.90, vol 3.9184); |Re H(other)| over the last 8 steps monotone increasing 8.62 -> 13.90; at the wall step 16.6
+  o10_150692  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0156; last non-degenerate p = 1.0312, |Re H(other)| =  13.90, vol 3.9184); |Re H(other)| over the last 8 steps monotone increasing 8.62 -> 13.90; at the wall step 16.6
+  o10_150693  cusp 0 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  20.44, vol 0.5905); |Re H(other)| over the last 8 steps monotone increasing 12.48 -> 20.44; at the wall step 79.4
+  o10_150708  cusp 0 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5000; last non-degenerate p = 1.5156, |Re H(other)| =  15.22, vol 6.2864); |Re H(other)| over the last 8 steps monotone increasing 9.13 -> 15.22; at the wall step 56.9
+  o10_150708  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  16.32, vol 4.1545); |Re H(other)| over the last 8 steps monotone increasing 8.66 -> 16.32; at the wall step 79.1
+  o10_150710  cusp 0 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5000; last non-degenerate p = 1.5156, |Re H(other)| =  15.22, vol 6.2864); |Re H(other)| over the last 8 steps monotone increasing 9.13 -> 15.22; at the wall step 58.7
+  o10_150710  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  16.32, vol 4.1545); |Re H(other)| over the last 8 steps monotone increasing 8.66 -> 16.32; at the wall step 78.2
+  o10_150712  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0156; last non-degenerate p = 1.0312, |Re H(other)| =  23.07, vol 1.4759); |Re H(other)| over the last 8 steps monotone increasing 12.83 -> 23.07; at the wall step 28.4
+  o10_150713  cusp 0 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5469; last non-degenerate p = 1.5625, |Re H(other)| =  19.05, vol 4.4273); |Re H(other)| over the last 8 steps monotone increasing 13.70 -> 19.05; at the wall step 20.7
+  o10_150714  cusp 0 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5000; last non-degenerate p = 1.5156, |Re H(other)| =  27.00, vol 3.7391); |Re H(other)| over the last 8 steps monotone increasing 15.32 -> 27.00; at the wall step 112.3
+  o10_150715  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0625; last non-degenerate p = 1.0781, |Re H(other)| =  16.49, vol 2.7516); |Re H(other)| over the last 8 steps monotone increasing 11.26 -> 16.49; at the wall step 18.0
+  o10_150716  cusp 0 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5469; last non-degenerate p = 1.5625, |Re H(other)| =  19.05, vol 4.4273); |Re H(other)| over the last 8 steps monotone increasing 13.70 -> 19.05; at the wall step 20.7
+  o10_150717  cusp 0 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  16.32, vol 4.1545); |Re H(other)| over the last 8 steps monotone increasing 8.66 -> 16.32; at the wall step 75.9
+  o10_150717  cusp 2 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  16.32, vol 4.1545); |Re H(other)| over the last 8 steps monotone increasing 8.66 -> 16.32; at the wall step 76.3
+  o10_150718  cusp 0 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  16.32, vol 4.1545); |Re H(other)| over the last 8 steps monotone increasing 8.66 -> 16.32; at the wall step 75.3
+  o10_150718  cusp 2 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0000; last non-degenerate p = 1.0156, |Re H(other)| =  16.32, vol 4.1545); |Re H(other)| over the last 8 steps monotone increasing 8.66 -> 16.32; at the wall step 77.5
+  o10_150721  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0156; last non-degenerate p = 1.0312, |Re H(other)| =  23.07, vol 1.4759); |Re H(other)| over the last 8 steps monotone increasing 12.83 -> 23.07; at the wall step 28.4
+  o10_150722  cusp 0 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0312; last non-degenerate p = 1.0469, |Re H(other)| =  12.13, vol 4.7942); |Re H(other)| over the last 8 steps monotone increasing 7.92 -> 12.13; at the wall step 13.7
+  o10_150722  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0312; last non-degenerate p = 1.0469, |Re H(other)| =  12.13, vol 4.7942); |Re H(other)| over the last 8 steps monotone increasing 7.92 -> 12.13; at the wall step 13.7
+  o10_150723  cusp 0 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0312; last non-degenerate p = 1.0469, |Re H(other)| =  12.13, vol 4.7942); |Re H(other)| over the last 8 steps monotone increasing 7.92 -> 12.13; at the wall step 13.7
+  o10_150723  cusp 1 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5000; last non-degenerate p = 1.5156, |Re H(other)| =  15.22, vol 6.2864); |Re H(other)| over the last 8 steps monotone increasing 9.13 -> 15.22; at the wall step 101.4
+  o10_150724  cusp 0 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5625; last non-degenerate p = 1.5781, |Re H(other)| =  17.82, vol 4.6105); |Re H(other)| over the last 8 steps monotone increasing 13.26 -> 17.82; at the wall step 19.0
+  o10_150725  cusp 1 mu of order 4     : degenerates near cone angle 2pi/3 (wall p = 1.5000; last non-degenerate p = 1.5156, |Re H(other)| =  15.22, vol 6.2864); |Re H(other)| over the last 8 steps monotone increasing 9.13 -> 15.22; at the wall step 56.7
+  o10_150727  cusp 0 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0312; last non-degenerate p = 1.0469, |Re H(other)| =  12.13, vol 4.7942); |Re H(other)| over the last 8 steps monotone increasing 7.92 -> 12.13; at the wall step 13.7
+  o10_150728  cusp 1 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0312; last non-degenerate p = 1.0469, |Re H(other)| =  12.13, vol 4.7942); |Re H(other)| over the last 8 steps monotone increasing 7.92 -> 12.13; at the wall step 13.7
+  o10_150728  cusp 2 mu of order 4     : degenerates near cone angle pi    (wall p = 1.0312; last non-degenerate p = 1.0469, |Re H(other)| =  12.13, vol 4.7942); |Re H(other)| over the last 8 steps monotone increasing 7.92 -> 12.13; at the wall step 13.7
+
+  failures resolved on the fine path: 34 (converged: 0, survivors: 0; degenerate before or at cone angle pi: 34 -- wall within 1/16 of p = 1 (cone angle pi): 23, within 1/16 of p = 3/2 (cone angle 2pi/3): 11, elsewhere: 0); |Re H(other)| monotone increasing on the approach: 34 of 34
+  |Re H(other)| at the last non-degenerate step: from 10.22 to 27.00
+DONE
