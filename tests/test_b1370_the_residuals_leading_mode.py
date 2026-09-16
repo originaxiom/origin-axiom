@@ -9,7 +9,7 @@ VER = ROOT / "frontier" / "B1370_the_residuals_leading_mode" / "verification"
 
 def test_the_shortest_cusp_mode_is_allowed_on_every_residual_cusp():
     out = subprocess.run([sys.executable, str(VER / "residual_cusp_modes.py")], capture_output=True, text=True, timeout=1500).stdout
-    assert out.count("reduced modulus") == 4 and out.count(" agree") == 4 and "DISAGREE" not in out
+    assert out.count("reduced modulus") == 4 and out.count(") agree") == 4 and "DISAGREE" not in out     # the four developed moduli against SnapPy's
     assert "o10_150688, cusp 0: b_1 2, ranks [1], free classes on cusp 0: 1, |Aut| = |Isom| = 2" in out
     assert "o10_150725, cusp 1: b_1 3, ranks [2, 1, 2], free classes on cusp 1: 2, |Aut| = |Isom| = 12" in out
     assert "special lines in the free classes (eigenlines of fixers): 6" in out
