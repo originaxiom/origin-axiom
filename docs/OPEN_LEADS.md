@@ -2857,3 +2857,11 @@ alphabet (B1301–B1304) may predict which loci fire. (iii) The physics reading 
 non-unitary reducible flat connection is in the 3d–3d or AW dictionaries — is main's fence and the question that would make the count
 a claim. **Tools:** `frontier/B1374_the_class_index_in_the_sm_frame/verification/index_lib.py` and the census scripts; the exact checker
 for any background named. **What would close it:** a level-by-level table with the counts, or a proof that the count is 1 on every level.
+
+**Status (2026-09-16, B1375 — the levels two to six).** The levels built by `covers` on their own presentations, complete on each
+level's torsion, T5-restricted: Y₂ = m206 and Y₃ = s961 carry no generation-shaped background; Y₄ = t12839 12 800 (B1374's numbers
+from a different presentation), Y₅ = o10_150696 800, Y₆ 67 200; **on all 80 800 the count is exactly one net generation, never two or
+three** (the firing sectors carry one interior class against none; h¹(χ²) = 1 at every locus); one background per level exact over
+ℚ(ζ_N); the singlet count 0 on Y₄ and Y₅, on Y₆ 0 on 57 600 and ±1 on 9 600 (the singlet carrying the generation's own sign on 9 600  the opposite sign on 0). One generation per background is the tower's law as far as computed;
+the count of three is not this mechanism's on any level up to six. Open: (i) Y₇ and beyond (Y₇ running at the time of writing);
+(ii) the deck-symmetry prediction of the firing loci; (iii) the physics reading. `frontier/B1375_the_towers_generation_count`.

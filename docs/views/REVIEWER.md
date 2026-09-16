@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1222** |
-| words of findings prose | **916,354** |
-| test lock files referenced | **736** |
-| arcs carrying an authored verdict | **1222** (100.0 %) |
+| research arcs with findings | **1223** |
+| words of findings prose | **918,307** |
+| test lock files referenced | **737** |
+| arcs carrying an authored verdict | **1223** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 803 |
+| PROVED | 804 |
 | NEGATIVE | 320 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1374`** (3718 words, 1 locks)  
-THE CLASS'S INDEX IN THE STANDARD-MODEL FRAME, AND ONE GENERATION ON THE OBJECT'S OWN TOWER: main's B1418 -- the one-cusped index I = n(V) - n(V*) (B1297) firing on reducible non-split modules Sym^m(rho_chi) (x) psi of s958, v2873, t12833, t12835, o10_150701 and of m004's degree-4 cyclic cover t12839 -- is verified here module by module: all 19 253 modules main ran, recomputed with this seat's own Fox calculus over GF(61), GF(181), GF(241), give the same I and the same (a0, a1, t0, r1) for V and V* (0 differences; R27's m010 witness reproduced first). Read in the seat's frame (holonomy in c(SM) = SL(2)_beta x C*^2, sectors = SL(2)_beta-spin (x) the character psi_Y^{6Y} psi_gamma^{3 gamma} of the weight): the spin-0 sectors -- the 27's 10 and 5, the 78's 35 -- are rank-one modules and carry no index (B1297's T4; 21 100 recomputed, all 0), so the bit lives only in the doublet sectors, the 78's 10 + 10bar and the 27's 5bar + 5bar' + 1 + 1'. On the twelve members other than t12839, over every pair (psi_Y, psi_gamma) of characters of order dividing 12 and over the character groups complete on the torsion of H_1 (N = lcm(12, torsion exponent); two more members fire there, o10_150697 and m208, invisible in mu_12), the six counts (Q, u^c, e^c, d^c, L, nu^c) never form a generation and never an anomaly-free non-zero spectrum. On t12839 -- Y_4 of this seat's tower, H_1 = Z/3 + Z/15 + Z -- at N = 60, 12 800 pairs on 64 of its 89 non-split loci (chi of order 15 or 30; psi_Y trivial or of order 5; psi_gamma of order 30, 15, 10, 5, 6, 3, 2, 1) give Q = u^c = e^c = d^c = L = +1 (6 400) or -1 (6 400) with nu^c = 0 and every spin-0 sector, the singlets and the SL(2)_beta adjoint 0: exactly one net Standard-Model generation or anti-generation, anomaly-free; all 12 800 recomputed sector by sector over three primes (0 differences), three of them exactly over Q(zeta_60) with a second implementation. Why the tower and not the siblings: five doublet sectors firing at once force chi^2 = 1 on the peripheral subgroup (B1297's T5 at the cusp) and psi_Y^5 = 1 there; on the cyclic covers of m004 the lifted longitude is null-homologous and every non-split locus is +-1 on the other curve, so the condition holds at every locus; on the siblings chi(mu) runs over twelfth roots and no surviving pair completes the five counts. Fences: main's index on a non-semisimple background, no physics reading established, no value, one generation not three. Two-bench correction relayed: the web seat's 'every SU(2) flat connection on m004(0,1) reducible', marked TRUE on main, is false -- rho(a) = diag(zeta_10^2, zeta_10^-2), rho(b) = [[0,-1],[1,0]] is an irreducible unitary representation (det(RL + I) = 5). sL-2 registered. 0 of 19.  
-`B1374_the_class_index_in_the_sm_frame/FINDINGS.md`
+**PROVED — `B1375`** (1953 words, 1 locks)  
+THE TOWER'S GENERATION COUNT: on the cyclic covers Y_n of m004 built on their own presentations, with the character group complete on each level's torsion (N = lcm(12, torsion exponent)) and the search restricted only by B1297's T5 (psi = chi^{-+1} on both peripheral curves; every candidate doublet module computed, every non-zero re-checked over two more primes), the Standard-Model-frame index of B1374 level by level: Y_2 = m206 (9 loci, 16 firing modules) and Y_3 = s961 (31 loci, nothing fires) carry no generation-shaped background; Y_4 = t12839 carries 12 800 on 64 loci (B1374's census reproduced from a different presentation), Y_5 = o10_150696 800 on 200 loci (241 loci, 4 400 firing), Y_6 67 200 on 576 loci (639 loci, 10 816 firing); on every one of the 80 800 backgrounds the count is exactly one net generation, Q = u^c = e^c = d^c = L = +1 or -1 (equally split), never two, never three; one background per level re-derived exactly over Q(zeta_N) (Y_5 over Q(zeta_132): (1, 1, 1, 1, 1, 0)); the firing sectors always have one interior class on one side and none on the other (V = (0,1,1,0), V* = (0,2,1,2)), which bounds |I| by 1 at loci with h^1(chi^2) = 1 -- all loci on these levels. The singlet count is 0 on Y_4 and Y_5 and on Y_6 it is 0 on 57 600 backgrounds and +-1 on 9 600 (9 600 with the generation's own sign: a generation with its right-handed neutrino). One generation per background is the tower's law as far as computed; the count of three is not this mechanism's on any level up to six. Fences as B1374: main's index on a non-semisimple background, no physics reading, no value. Y_7 running. 0 of 19.  
+`B1375_the_towers_generation_count/FINDINGS.md`
 
 **NEGATIVE — `B1373`** (1247 words, 1 locks)  
 THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free cusp are fourth roots of unity with non-unitary holonomy. Along the cone-manifold deformation path of the hyperbolic structure -- fillings (2p, 0) or (0, 2p) on the free cusp with p from 30 down to 1, the other cusps complete -- the point where one curve has eigenvalue +-i is reached on 132 of the 166 (cusp, curve) pairs of the 35 candidates, and at every one the other curve's eigenvalue is non-unitary (|L| between 0.25 and 9): Theorem B forbids simultaneous cusp-fixedness of the two halves there. On the other 34 pairs (all meridians) the structure degenerates before the point on a deterministic fine path, the other curve's translation length increasing monotonically to 10-27 at the last non-degenerate step: the wall within a sixteenth of cone angle pi on 23 and of cone angle 2 pi / 3 on 11 -- ideal points of the real path, no representation there. No candidate anywhere on the geometric path. Not covered: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (the Ptolemy database does not reach them). 0 of 19.  

@@ -1,0 +1,12 @@
+{
+ "id": "B1375",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": ["B1374", "B1372", "B1301", "B1303"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE TOWER'S GENERATION COUNT: on the cyclic covers Y_n of m004 built on their own presentations, with the character group complete on each level's torsion (N = lcm(12, torsion exponent)) and the search restricted only by B1297's T5 (psi = chi^{-+1} on both peripheral curves; every candidate doublet module computed, every non-zero re-checked over two more primes), the Standard-Model-frame index of B1374 level by level: Y_2 = m206 (9 loci, 16 firing modules) and Y_3 = s961 (31 loci, nothing fires) carry no generation-shaped background; Y_4 = t12839 carries 12 800 on 64 loci (B1374's census reproduced from a different presentation), Y_5 = o10_150696 800 on 200 loci (241 loci, 4 400 firing), Y_6 67 200 on 576 loci (639 loci, 10 816 firing); on every one of the 80 800 backgrounds the count is exactly one net generation, Q = u^c = e^c = d^c = L = +1 or -1 (equally split), never two, never three; one background per level re-derived exactly over Q(zeta_N) (Y_5 over Q(zeta_132): (1, 1, 1, 1, 1, 0)); the firing sectors always have one interior class on one side and none on the other (V = (0,1,1,0), V* = (0,2,1,2)), which bounds |I| by 1 at loci with h^1(chi^2) = 1 -- all loci on these levels. The singlet count is 0 on Y_4 and Y_5 and on Y_6 it is 0 on 57 600 backgrounds and +-1 on 9 600 (9 600 with the generation's own sign: a generation with its right-handed neutrino). One generation per background is the tower's law as far as computed; the count of three is not this mechanism's on any level up to six. Fences as B1374: main's index on a non-semisimple background, no physics reading, no value. Y_7 running. 0 of 19."
+}

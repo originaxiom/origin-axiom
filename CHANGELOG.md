@@ -1,5 +1,9 @@
 # Changelog
 
+## B1375 — the tower's generation count: the cyclic covers Y₂–Y₆ of m004 on their own presentations, torsion-complete, T5-restricted — Y₂, Y₃ none; Y₄ 12 800 (B1374 reproduced from another presentation); Y₅ 800; Y₆ 67 200 generation-shaped backgrounds, the count exactly one net generation on all 80 800, never two or three; one background per level exact over ℚ(ζ_N); one generation per background is the tower's law to level six, and three is not this mechanism's
+
+T5 as the search filter (two cosets instead of the whole character group); the exact checker on a cover's own presentation.
+
 ## B1374 — the class's index in the Standard-Model frame, and one generation on the tower: main's B1418 (I = ±1 on reducible non-split modules of five siblings and of m004's degree-4 cyclic cover) verified module by module with own code over three primes (19 253 modules, identical); in the SM frame the index lives only in the doublet sectors (the spin-0 sectors are characters: T4); on twelve siblings and covers no generation-shaped or anomaly-free non-zero count over the character groups of order dividing 12 and complete on the torsion (two more members fire there); on t12839 = Y₄ 12 800 backgrounds carry exactly one net generation (Q = u^c = e^c = d^c = L = ±1, all else 0), exact over ℚ(ζ₆₀) on three — main's index, physics unread, one not three; the web seat's Sol-boundary claim, marked TRUE on main, refuted with an explicit witness; sL-2 registered
 
 Own prime-field and cyclotomic index instruments; a generation needs χ² = 1 on the cusp, which the tower grants and the siblings deny.

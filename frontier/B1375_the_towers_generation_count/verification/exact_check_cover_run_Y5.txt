@@ -1,0 +1,10 @@
+Y_5 = Z/11 + Z/11 + Z, K = Q(zeta_132) of degree 40; gens ['a', 'b', 'c'], rels ['aCCaCaCCBcacaacacaacaab', 'acaacaabccAcAccAcAccABc'], mu aCAc, lambda CACAACACbaC; chi = (0, 6, 120), psi_Y = (0, 0, 0), psi_gamma = (24, 90, 96)
+h^1(pi; chi^2) = 1 exactly; non-split cocycle found: True
+rho_chi is a representation over K (exactly)
+  Q     psi = (72, 6, 24): I = +1  V = (0, 1, 1, 0)  V* = (0, 2, 1, 2)
+  u^c   psi = (72, 6, 24): I = +1  V = (0, 1, 1, 0)  V* = (0, 2, 1, 2)
+  e^c   psi = (72, 6, 24): I = +1  V = (0, 1, 1, 0)  V* = (0, 2, 1, 2)
+  d^c   psi = (24, 90, 96): I = +1  V = (0, 1, 1, 0)  V* = (0, 2, 1, 2)
+  L     psi = (24, 90, 96): I = +1  V = (0, 1, 1, 0)  V* = (0, 2, 1, 2)
+  nu^c  psi = (12, 78, 48): I = +0  V = (0, 1, 1, 1)  V* = (0, 1, 1, 1)
+EXACT counts (Q, u^c, e^c, d^c, L, nu^c) = (1, 1, 1, 1, 1, 0)

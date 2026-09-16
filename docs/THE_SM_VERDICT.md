@@ -560,3 +560,8 @@ left it.
 > dividing 12 or complete on the torsion. **On t12839 = Y₄, 12 800 backgrounds carry exactly one net generation, Q = u^c = e^c = d^c =
 > L = ±1 and nothing else, exact over ℚ(ζ₆₀) on three of them.** No verdict of this ledger changes: main's index on a non-semisimple
 > background, whose physics is unestablished; one generation, not three; no value. 0 of 19 (`frontier/B1374_the_class_index_in_the_sm_frame`).
+
+> **Currency note (2026-09-16, B1375): the tower level by level.** Y₂, Y₃: no generation-shaped background; Y₄: 12 800; Y₅: 800;
+> Y₆: 67 200 — and on all 80 800 the count is exactly one net generation, never two or three (one background per level exact over
+> ℚ(ζ_N)). One generation per background is the tower's law as far as computed; three is not this mechanism's. No verdict of this
+> ledger changes. 0 of 19 (`frontier/B1375_the_towers_generation_count`).

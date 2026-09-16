@@ -15054,3 +15054,16 @@ seat's Sol-boundary claim is false (explicit irreducible SU(2) representation of
 count) + NEGATIVE (the siblings); fast lock two minutes, slow lock the full cells and the exact backgrounds; surfaces (OPEN_LEADS sL-1
 and sL-2, THE_SM_VERDICT, THE_CLOSING, CHIRALITY_MAP, the letter's thirty-third note, RELAY_LEDGER rows for main's B1418 and the audit
 lane's R32, TOOLBOX_LIVE, hint 24 H-DOUBLET-ONLY, the alias table). 0 of 19.
+
+### B1375 — the tower's generation count (2026-09-16)
+
+sL-2. The cyclic covers Y₂–Y₆ of m004 built by `covers` (their own presentations), character groups complete on each level's torsion
+(N = 60, 12, 60, 132, 120), loci as the intersection over three primes, every doublet module T5 allows computed and every non-zero
+re-checked over two more primes, the generation search by ψ_Y⁵ = u/v: Y₂ = m206 9 loci / 16 firing / no generation; Y₃ = s961 31 / 0 / 0;
+Y₄ = t12839 89 / 976 / 12 800 on 64 loci (B1374's numbers from the other presentation); Y₅ = o10_150696 241 / 4 400 / 800 on 200 loci;
+Y₆ 639 / 10 816 / 67 200 on 576 loci. The count is exactly one net generation on all 80 800 backgrounds (signs equally split; the singlet
+0 on Y₄, Y₅, on Y₆ 0 on 57 600 and ±1 on 9 600 (the singlet carrying the generation's own sign on 9 600  the opposite sign on 0)); a Y₅ background exact over ℚ(ζ₁₃₂): (1, 1, 1, 1, 1, 0); the firing sectors always (0, 1, 1, 0)
+against (0, 2, 1, 2). One generation per background is the tower's law to level six; three is not this mechanism's. Y₇ running.
+Verdict PROVED; fast lock a minute (levels 2–4), slow lock levels 5–6 and the exact background; surfaces (OPEN_LEADS sL-2 status,
+THE_SM_VERDICT, THE_CLOSING, CHIRALITY_MAP, the letter's thirty-fourth note, RELAY_LEDGER row for main's S10/S10b, TOOLBOX_LIVE, the
+alias table). 0 of 19.

@@ -7686,6 +7686,25 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1375": {
+   "slug": "the towers generation count",
+   "motifs": [
+    "monoid",
+    "closing",
+    "figure_eight",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 29,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B137": {
    "slug": "s031 sealing m2",
    "motifs": [

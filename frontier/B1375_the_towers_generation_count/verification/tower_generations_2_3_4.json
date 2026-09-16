@@ -1,0 +1,203 @@
+{
+ "2": {
+  "n": 2,
+  "H1": "Z/5 + Z",
+  "N": 60,
+  "primes": [
+   421,
+   541,
+   601
+  ],
+  "hom": 300,
+  "loci": 9,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "mu_null": false,
+  "candidates": 45,
+  "firing": 16,
+  "rechecked": 16,
+  "differing": 0,
+  "generation_backgrounds": 0,
+  "loci_used": 0,
+  "signs": {},
+  "kvals": {},
+  "nu": {},
+  "yord": {},
+  "gord": {},
+  "examples": [],
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCabbcB",
+   "abcAAbC"
+  ],
+  "mu": "aCa",
+  "lam": "AbaB",
+  "joint_sign_singlet": {}
+ },
+ "3": {
+  "n": 3,
+  "H1": "Z/4 + Z/4 + Z",
+  "N": 12,
+  "primes": [
+   409,
+   421,
+   433
+  ],
+  "hom": 192,
+  "loci": 31,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "mu_null": false,
+  "candidates": 496,
+  "firing": 0,
+  "rechecked": 0,
+  "differing": 0,
+  "generation_backgrounds": 0,
+  "loci_used": 0,
+  "signs": {},
+  "kvals": {},
+  "nu": {},
+  "yord": {},
+  "gord": {},
+  "examples": [],
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abCCAbcbbc",
+   "acBccBAbbc"
+  ],
+  "mu": "CBabC",
+  "lam": "CbcB",
+  "joint_sign_singlet": {}
+ },
+ "4": {
+  "n": 4,
+  "H1": "Z/3 + Z/15 + Z",
+  "N": 60,
+  "primes": [
+   421,
+   541,
+   601
+  ],
+  "hom": 2700,
+  "loci": 89,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "mu_null": true,
+  "candidates": 4005,
+  "firing": 976,
+  "rechecked": 976,
+  "differing": 0,
+  "generation_backgrounds": 12800,
+  "loci_used": 64,
+  "signs": {
+   "1": 6400,
+   "-1": 6400
+  },
+  "kvals": {
+   "1": 12800
+  },
+  "nu": {
+   "0": 12800
+  },
+  "yord": {
+   "1": 512,
+   "5": 12288
+  },
+  "gord": {
+   "30": 4608,
+   "6": 192,
+   "10": 1536,
+   "2": 64,
+   "5": 1536,
+   "1": 64,
+   "15": 4608,
+   "3": 192
+  },
+  "examples": [
+   [
+    5,
+    [
+     4,
+     2,
+     28
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     8,
+     14,
+     16
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ]
+   ],
+   [
+    5,
+    [
+     4,
+     2,
+     28
+    ],
+    [
+     0,
+     12,
+     0
+    ],
+    [
+     8,
+     50,
+     16
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ]
+   ]
+  ],
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCCaCaCCBcacaab",
+   "acaacaabcAccABc"
+  ],
+  "mu": "cACa",
+  "lam": "CB",
+  "joint_sign_singlet": {
+   "+1,+0": 6400,
+   "-1,+0": 6400
+  }
+ }
+}

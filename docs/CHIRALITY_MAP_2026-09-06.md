@@ -429,6 +429,12 @@ sector 0, exact over ℚ(ζ₆₀) on three.** A generation needs the SL(2)_β h
 Lemma A — and the cyclic covers of m004 grant it at every locus through their null-homologous lifted longitude. Main's index, main's
 fence: no physics reading of a non-semisimple background; one generation, not three. `frontier/B1374_the_class_index_in_the_sm_frame`.
 
+*Addendum (B1375, the same day).* The tower level by level, on the covers' own presentations, complete on each level's torsion: Y₂ and
+Y₃ carry no generation-shaped background, Y₄ 12 800 (B1374's numbers reproduced), Y₅ 800, Y₆ 67 200 — and the count is exactly one net
+generation on every one of the 80 800, never two or three: at every locus h¹(χ²) = 1 and a firing sector carries one interior class
+against none. One generation per background is the tower's law to level six; the count of three does not come from this mechanism.
+`frontier/B1375_the_towers_generation_count`.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

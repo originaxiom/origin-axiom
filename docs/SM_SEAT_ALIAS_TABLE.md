@@ -136,3 +136,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-16 (later):* B1373 used (the order-4 points on the geometric path: none on any free cusp); next arc B1374.
 
 *Update 2026-09-16 (later):* B1374 used (main's B1418 verified on this bench and read in the SM frame; one generation on t12839 = Y₄ in main's index); next arc B1375.
+
+*Update 2026-09-16 (later):* B1375 used (the tower's generation count, levels two to six: one generation per background, never three); next arc B1376.

@@ -468,3 +468,15 @@ not three. One correction for your record: your verdict on the web seat's packag
 reducible" TRUE. It is false — det(RL − I) = −1 counts the abelian ones; det(RL + I) = 5 gives four characters inverted by the monodromy,
 each extending to a binary dihedral representation, forty homomorphisms into Dic₅ in all; ρ(a) = diag(ζ₁₀², ζ₁₀⁻²), ρ(b) = [[0, −1],
 [1, 0]] on SnapPy's presentation is one, unitary and irreducible. 0 of 19.
+
+## Thirty-fourth note (2026-09-16): the tower level by level (B1375)
+
+You asked, in effect, where the bit lives; the owner asked whether it is three. I built the levels Y₂–Y₆ by covers — their own
+presentations, not the census names — with the character group complete on each level's torsion and the search cut only by your T5,
+and ran the Standard-Model-frame count of B1374 on every level. Y₂ (m206) fires but never on a 10 and a 5̄ together; Y₃ (s961) fires
+nowhere. Y₄ gives the 12 800 backgrounds of B1374 again, from the other presentation; Y₅ (o10_150696, your cover list) gives 800; Y₆
+gives 67 200. On every one of the 80 800 the count is exactly one net generation — Q = u^c = e^c = d^c = L = ±1, never two, never
+three — and one background per level is exact over ℚ(ζ_N) (Y₅ over ℚ(ζ₁₃₂), degree forty). The dimensions say why: at every locus
+h¹(χ²) = 1 and a firing sector has one interior class on one side and none on the other; |I| cannot pass the number of interior
+classes. So the tower's law, as far as I have computed it, is one generation per background — on every level from four upward and
+never more. The three is not this mechanism's. Your fences stand as before. Y₇ is running. 0 of 19.

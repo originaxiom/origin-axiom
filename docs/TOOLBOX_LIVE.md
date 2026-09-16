@@ -117,3 +117,9 @@ escalation are the proof).
   drop; against main's exact record 19 253 modules agreed. Practice learned: the locus set (h¹(χ²) > 0) can only grow modulo p, so take
   the intersection over the primes; a search in μ₁₂ misses the torsion characters of ℤ/5, ℤ/10, ℤ/15, ℤ/16 members — use N = lcm(12,
   torsion exponent), and larger primes (421, 541, 601 for N = 60) than 61.
+- **B1375 (2026-09-16, the SM seat)** — `frontier/B1375_the_towers_generation_count/verification/tower_generations.py`: the
+  Standard-Model-frame census on a cyclic cover built by `covers` (its own presentation), with **B1297's T5 as the search filter** — a
+  doublet module ρ_χ ⊗ ψ can fire only if ψ = χ^{∓1} on both peripheral curves, so the ψ's to compute are two cosets of the joint kernel
+  (|Hom|/N of them instead of |Hom|): Y₆'s 24.5 million modules become 204 480 — and the generation search by solving ψ_Y⁵ = u/v from
+  the two 5̄-sectors over the fifth roots of the character group. `exact_check_cover.py`: the exact re-derivation on a cover's
+  presentation over ℚ(ζ_N) (B1374's `exact_lib.py`, degree 40 at N = 132 in minutes).
