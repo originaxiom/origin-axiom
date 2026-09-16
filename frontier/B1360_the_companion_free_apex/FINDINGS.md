@@ -109,3 +109,7 @@ Witten, hep-th/0108165 §3 (the inflow); Berglund–Brandhuber, hep-th/0205184 (
 treated). B1355 (corrected), B1356–B1359 (this branch); main's B1413.
 
 *(Currency 2026-09-16, B1367: as for B1355: the companion-free apex is a correct local model for a chiral 27, and every closing built from apexes alone is excluded by the doublet–triplet pincer; L216 moves the question to chiral bulk matter. `frontier/B1367_the_doublet_triplet_pincer`.)*
+
+*(Currency 2026-09-16, main's B1415 bookkeeping item 3, applied: b₂(link) = 1 and the non-trivial pairing ∫_U w ≠ 0 are established in
+prose (the Mayer–Vietoris of §1–§3 and the centraliser argument), not scripted; the computed part is E₇'s 126 roots with 72 orthogonal to
+a weight of the 56 (main's `identities_and_e7.py` reproduces it). Read the topology as argued.)*

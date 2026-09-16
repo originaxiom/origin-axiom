@@ -2768,3 +2768,10 @@ SU(2) dihedral representations and the golden reducible points (half a generatio
 m004 has no chirality mechanism compatible with the Standard Model in any frame the record has. The disc-convention adjudication
 (R23) remains the physical-bridge lane's. `frontier/B1368_the_objects_own_sm_connections`.
 
+
+## Lead labels on this seat (2026-09-16, after main's B1415)
+
+This seat's L212–L216 are seat-local labels: on main, L213–L215 belong to B1404/B1406, and main reads this seat's as sm:L212–sm:L216,
+registering the live ones as **L220** (sm:L214, the level mismatch) and **L221** (sm:L215, the 27̄ sector and the seesaw); sm:L216
+(chiral bulk matter on the cusped object, closed in the seat's frame by B1368) awaits main's label. New leads on this seat take the
+prefix **sL-** until main names a block.

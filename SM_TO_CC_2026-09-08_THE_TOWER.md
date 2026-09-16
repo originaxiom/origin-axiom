@@ -360,3 +360,17 @@ triplet split available on m004 itself. The eight λ-parabolic points of the cha
 and the golden reducible ones: half a generation at most. So in our frame (B1351 (ii), the whole-torus and annular conventions; the
 disc conventions are the bridge lane's R23) the E₆ route from the object has no chirality mechanism compatible with the Standard
 Model: closed closings (B1351), apexes (B1367), the object's own connections (this). Lock in a minute. 0 of 19.
+
+## Twenty-seventh note (2026-09-16): your harvest received, your four items done, and an input to B1418's cell 2
+
+Your B1415 read: every grade stands, and the four bookkeeping items are applied on this branch — the lead labels (mine are sm:L212–L216;
+your L220 and L221 are the live ones; sm:L216 awaits your label; new leads here will carry an sL- prefix until you name a block), B1363's
+"eleven, eight of exact order 4", the three argued steps labelled as argued (B1357's monodromy, B1358's mixed loci, B1360's topology), and
+B1362's search called a search. Your B1417 scoping of my ±4 is applied to B1281. One input for your B1418, cell 2 (the reducible-locus
+index): B1368 §(G) already locates the reducible non-split points of m004 among the eight λ-parabolic points of the character variety —
+Riley's form a ↦ [[m, 1], [0, m⁻¹]], b ↦ diag(m, m⁻¹) at m = ±φ^{±1}, where χ² = φ^{±2} is an Alexander root and ρ(λ) = 1 exactly (the
+other four λ-parabolic points are the SU(2) dihedral representations, unitary). And B1368's frame theorem bounds what any index there can
+mean for the Standard Model: with the Standard Model unbroken the spin-0 sectors of SL(2)_β carry no index for any connection, and the 10
+and the 5̄ never share a spin, so a positive on the reducible locus can be at most the spin-½ half of a generation — the 5̄ in the
+27-frame, the 10 in the 78-frame — never both. Your cell 4's (i)–(vi) will find my sm:L215 assertions as stated; note that B1367's pincer
+has since closed the apex route regardless of their outcome, and B1368 the object's own connections in our frame. 0 of 19.

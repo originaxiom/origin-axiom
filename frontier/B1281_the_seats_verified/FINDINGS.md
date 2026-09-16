@@ -69,3 +69,9 @@ worktrees of each were made and their scripts run on this bench.
 ## Verification
 
 `verification/seats_verified.py` (~10 s; `SELFTEST: PASS`; run record `verification/seats_verified_run.txt`; SnapPy part optional). Lock: `tests/test_b1281_the_seats_verified.py`. The other seats' run records are theirs (`frontier/B1290…B1294/verification` on main; `reports/fresh_physics_seat_2026-09-01/computations/*_run.txt` on the physics-seat branch); this bench's re-runs are recorded in §1. Feeds on: B1280, B1279, B1278, B1277 (and its addendum), B1268, B1260, B71; main's B1267, B1290–B1294; fc's R56, R61, R62, R69–R72; codex R040. Registers no identification change.
+
+*(Scoping of record 2026-09-16, main's B1417: the region-swap lemma (fc R71 §2) is verified on main with own code — for any θ-odd field on
+the cusp torus with a transverse zero set, χ(∂⁺M) = χ(∂⁻M) = 0 whichever Fourier mode leads. This arc's §2D caveat — the exact product
+mode sin(4πx)·cos(2πy) giving ±4 — is a non-transverse zero set with eight crossings, where ∂⁺M is not a surface and χ is undefined, not
+non-zero; adding 0.05 of a generic odd mode resolves the crossings and gives 0 and 0. The lemma needs transverse zeros, not a
+fixed-point-free involution. `frontier/B1417_the_region_swap_lemma` on main.)*

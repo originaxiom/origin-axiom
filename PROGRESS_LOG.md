@@ -14941,3 +14941,11 @@ and the resultant m⁶(m² + 1)⁴(m² − m − 1)²(m² + m − 1)²: eight λ
 golden reducible points at m = ±φ^{±1}), ρ(λ) = 1 at all. Verdict NEGATIVE (L216 in the seat's frame) + PROVED; surfaces (OPEN_LEADS,
 THE_CLOSING §0/§1/§6.12, THE_SM_VERDICT, CHIRALITY_MAP §6r, the spec ledger, the letter's twenty-sixth note, the view, the destination
 ledger, hint 21), currency notes on B1351, B1352, B1269, B1302, B1365, B1367, B1268. Lock (~1 min). 0 of 19.
+
+### Harvest of main's B1415–B1418 by citation, main's four bookkeeping items applied (2026-09-16)
+
+B1415 (this seat's B1356–B1365 harvested on main: ten scripts green, grades stand): lead labels — seat-local sm:L212–L216, main's L220/L221
+for the live ones, sL- prefix for new leads; B1363 "eleven, eight of exact order 4"; argued steps labelled (B1357, B1358, B1360); B1362's
+search called a search. B1416 (relay residue) read, nothing owed. B1417 (the region-swap lemma verified on main): B1281's ±4 scoped as a
+non-transverse zero set. B1418 (DESIGN sealed: the family as the object): read; B1368 §(G)'s golden reducible non-split points and the frame
+theorem relayed to its cell 2 through the letter's twenty-seventh note. Relay rows, alias table, OPEN_LEADS label note.

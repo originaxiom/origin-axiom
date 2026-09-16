@@ -54,3 +54,7 @@ hierarchy.
 the three sectors, the minimisation over unitaries. Lock: `tests/test_b1362_the_hierarchy_is_u1_breaking.py`.
 
 **Sources.** Weyl's inequality for singular values (Mirsky's form); B1361, B1273 (the hollow texture); B1356 (the charges).
+
+*(Currency 2026-09-16, main's B1415 bookkeeping item 3, applied: the "attained" figures for ‖E‖ come from a 60-restart local search over
+unitaries in the Takagi frame — a heuristic upper bound on the minimum that happens to meet the Weyl lower bound to the digits shown;
+the bound itself is the theorem. Main verified the circulant eigenvalues and the bound with sympy.)*

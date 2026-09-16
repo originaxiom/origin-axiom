@@ -168,3 +168,7 @@ The inflow coefficients at such an apex are E₆ : SU(2) = 12 : 1. `frontier/B13
 E₆ + D₄ + A₅ + 2A₂ or 2E₆ + A₃ + 2A₂ (forced by Nikulin's numbers through a Burnside count; Xiao's #37, #38), neither with an A₁ orbit;
 so the SU(2) copy of Y₃ — the companion B1358 pinned — is the torus's, not any K3's. The same count with this arc's numbers (16, 9, 4, 1)
 returns §2's census once the origin is required. `frontier/B1359_the_k3_alternative`.)*
+
+*(Currency 2026-09-16, main's B1415 bookkeeping item 3, applied: the A₁-locus monodromy is called "inner" by a route different from the
+group-membership test used for the E₆ and D₄ rows (the run prints False for that literal test) — the statement is argued, not
+computed, and is to be read as such. Main re-ran the script green and log-identical; the census and the Betti numbers stand.)*

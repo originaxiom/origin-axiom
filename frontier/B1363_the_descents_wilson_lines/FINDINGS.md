@@ -52,3 +52,8 @@ B1273, B1277, B1300 (the cover's lines).
 *(Currency 2026-09-15, B1364: the cover does what the descent cannot — its non-abelian lines onto Q₈ in SU(2)_β with an order-4
 character leave exactly SM × U(1)′; the descent's order-3 elements of the U(1)² leave at least 17 (computed there). L214 resolved as
 design on the cover. `frontier/B1364_the_level_mismatch_resolved`.)*
+
+*(Currency 2026-09-16, main's B1415 bookkeeping item 2, applied: "eleven order-4 classes" counts every Kac solution of Σ aᵢsᵢ = 4 modulo the
+S₃ diagram symmetry; eight have exact order 4 and three have order ≤ 2 (main's `kac_s3.py`, reproducing the seat's eleven and its fixed
+types). The sentence should read "eleven Kac solutions, eight of exact order 4"; the conclusion — none is the Standard Model — is
+unchanged. `frontier/B1415_the_sm_seats_closing_arcs_harvested` on main.)*

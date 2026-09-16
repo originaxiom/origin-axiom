@@ -120,3 +120,7 @@ Witten, hep-th/0108165 §3; Acharya–Witten, hep-th/0109152 §3.
 *(Currency 2026-09-15, B1359: the companion table of §3 extended to K3 fibres — a K3 with symplectic 2T has loci E₆, SO(8), SU(6),
 SU(3), SU(3) (Xiao #37) or E₆, E₆, SU(4), SU(3), SU(3) (#38), no A₁: the clean apex has no companion there, the apex on the knot at most
 on #37. The design of §5 needs the Hurwitz torus. `frontier/B1359_the_k3_alternative`.)*
+
+*(Currency 2026-09-16, main's B1415 bookkeeping item 3, applied: the ADE typing of the *mixed* loci rests on the identification of the
+normal bundle of an associative 3-plane (the G₂ argument of §2), argued not computed; the companion list ({±1}·Γ_R, McKay, even order,
+never A₂) and the inflow ratios are the computed part. Main: VERIFIED (companions), the mixed-loci typing REGISTERED as argued.)*
