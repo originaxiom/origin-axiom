@@ -44,10 +44,12 @@ def test_schema(path):
     assert d["verdict"] in VERDICTS, f"{path.parent.name}: verdict {d['verdict']!r}"
     assert isinstance(d["instrument"], bool), (
         f"{path.parent.name}: instrument must be boolean (E45)")
-    m = re.match(r"(B\d+)", path.parent.name)
+    # seat-prefixed ids (sB…, qB…, xB…) are arcs too; this matcher was blind to them, the
+    # same defect repaired in representation_sweep.py the same day (xB001, 2026-09-16).
+    m = re.match(r"([a-z]{0,2}B\d+)", path.parent.name)
     assert m and d["id"] == m.group(1), (
         f"{path.parent.name}: id {d['id']!r} does not match directory")
-    num = int(d["id"][1:])
+    num = int(re.sub(r"^[a-z]*B", "", d["id"]))
     if "creates_law" in d:
         assert isinstance(d["creates_law"], bool), (
             f"{path.parent.name}: creates_law must be boolean")

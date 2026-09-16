@@ -60,7 +60,9 @@ def _triaged():
     import re
     with open(TRIAGE, encoding="utf-8") as fh:
         for line in fh:
-            m = re.match(r"\|\s*`?(B\d{1,4})`?\s*\|", line)
+            # seat-prefixed ids (sB…, qB…, xB…) are arcs too; the row parser was blind to
+            # them while substantial_arcs() reads d["id"] directly and sees them (xB001, 2026-09-16).
+            m = re.match(r"\|\s*`?([a-z]{0,2}B\d{1,4})`?\s*\|", line)
             if m:
                 ids.add(m.group(1))
     return ids

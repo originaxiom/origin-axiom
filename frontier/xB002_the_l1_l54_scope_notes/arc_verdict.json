@@ -1,0 +1,12 @@
+{
+ "id": "xB002",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1136", "B1324", "B1418", "B8097", "B985", "B1222", "B1330"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE TWO OWED SCOPE NOTES, WRITTEN (DESIGN sealed POST-HOC and labelled; seat xb on sep16-branch, citation-only prefix, no main numbering consumed). THE_LADDER X15's notes (1) L1 and (2) L54 - recorded there as 'still unwritten as of B1101' and verified still unwritten at this head, alongside 11/11 OPEN_PROBLEMS 7a rows still PENDING - are delivered as SCOPE_NOTE_L1.md and SCOPE_NOTE_L54.md. L1 corrected: the genesis selects a FAMILY and knot-ness selects the MEMBER - extremality along the metallic diagonal selects a row, volume minimality TIES (vol m003 = vol m004 exactly), arithmeticity is a commensurability-class invariant and cannot discriminate between members at all, and B1136's residue is one property, H_1 = Z. L54 corrected: gate A is sealed for 4_1 and its covers to index 6, not for 'the object' in COMPUTE_THE_PROGRAM's relational sense, because covers ARE the commensurability relation so the index horizon and the class boundary are the same wall - newly computed here, 5 of the 21 shape-field family members (m410, m412, s594, s595, s596) sit at volume ratio 2.5 and are excluded from EVERY cover census at ANY index, with B1418's non-cover class members (m202, s959, o10_150726) corroborating from the other side. NEW: a scope defect inside L1's own evidence arc - B1136 states its family as 'the orientable cusped census manifolds with shape field Q(sqrt-3) - exactly 14' while its scan breaks at census index > 1200; re-scanned by tetrahedron count (<= 6) the family is 21, the seven missed (s955-s961) sitting at indices 1256-1262 immediately past the cutoff, two of them (s958, s959) load-bearing elsewhere in the record. The conclusion SURVIVES and STRENGTHENS: the separator set on the corrected 21-member family is still exactly ['h1_is_Z']. B1136 is confirmed and widened, not withdrawn. The join banked as a join, not a discovery: the unique property that SELECTS m004 (H_1 = Z) is the unique property that SILENCES it on the chirality index (meridian generates => cusp-trivial group trivial => the root-of-unity construction has no input), explicitly NOT B1222's killed symmetry thesis. Gate 5 untouched; no value, no generation count."
+}
