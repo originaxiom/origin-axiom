@@ -1,0 +1,10 @@
+contents examined            : 252
+killed by [SU(3)]^3 alone    : 222   <-- the condition steps 2-3 omitted
+
+RIGID + CHIRAL + fully anomaly-free 5-field contents:
+
+  states  content   charges (up to scale)
+     15   AbbCD     (1/6, -2/3, 1/3, -1/2, 1)   <-- the SM generation
+     15   aBBCD     (1/6, -2/3, 1/3, -1/2, 1)
+
+  total: 2

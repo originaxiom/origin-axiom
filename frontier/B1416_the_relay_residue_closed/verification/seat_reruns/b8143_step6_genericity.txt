@@ -1,0 +1,36 @@
+INPUTS the corrected computation actually consumed:
+   generic    the gauge group SU(3) x SU(2) x U(1)
+   generic    the list of small reps (the alphabet)
+   generic    the five anomaly conditions incl. [SU(3)]^3
+   generic    the Witten global-anomaly parity condition
+   generic    the rigidity threshold n = 5 (a dimension count)
+   generic    a chirality convention (no sterile field)
+
+OBJECT-SPECIFIC tokens appearing in EXECUTABLE code (comments/docstrings stripped):
+    NONE
+
+   appearing only in PROSE (provenance, not input): ['27']
+   -> the 27 is why I NOTICED that (3,1) differs from (3bar,1); it is not a term in any
+      equation. The alphabet itself is the generic small-rep list, and the extended
+      alphabets go BEYOND the 27. Stated rather than swept, because the control fired.
+
+  => The forcing used NOTHING about E6, the 27, m004, the trace field or the object's
+     roots. It is a statement about SU(3)xSU(2)xU(1) representation theory.
+
+     CONSEQUENCE, stated carefully:
+
+       * The CHARGES are forced -- generically. (B1160 says so: "standard GUT model-building".)
+       * The SHAPE is forced too -- also generically. (This arc, corrected.)
+       * What is OBJECT-SPECIFIC is neither: it is that the object supplies a rank-3 abelian
+         sector in which an SM-shaped 15-plet is AVAILABLE at all.
+
+     So the object supplies the ARENA. The anomalies supply the CONTENT. A result that would
+     come out the same for anyone starting from SU(3)xSU(2)xU(1) corroborates the Standard
+     Model, but is not evidence FOR the object -- exactly the B996 lesson ("reaching E6 is
+     generic; specialness lives in the grammar") one level further down.
+
+     NOT A REFUTATION of B1160, which fences this itself. A quantification of it.
+
+NOTE ON NOVELTY: the uniqueness of the SM's anomaly-free chiral content at minimal
+field content is very likely KNOWN in the model-building literature. This arc claims
+no novelty for it -- only for the scoping conclusion above.

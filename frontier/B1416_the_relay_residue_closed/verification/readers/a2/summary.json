@@ -1,0 +1,49 @@
+{
+  "reader": "a2",
+  "harvest": "B1412 §3 relay residue",
+  "main_tree": "<home>/origin-axiom",
+  "cc3_archive": "<home>/origin-axiom/audit/wt-cc3 (tag archive/cc3-paper-lane@a31456d2)",
+  "items": [
+    {
+      "n": 1,
+      "arc": "B8121_m4_closed",
+      "topic": "BMR cyclic-commensurability correction + check_arithmetic_tail.py",
+      "grade": "REGISTER",
+      "on_main": "NOT",
+      "script_location": "audit/wt-cc3/papers/structure_paper/verify/check_arithmetic_tail.py (+ arxiv/verify duplicate)",
+      "notes": "Third independent confirmation of NONE-found (docs/RELAY_LEDGER.md:420, frontier/B1412_the_relay_backlog/FINDINGS.md:30,40, and this reading). Fix confirmed landed in cc3's own structure_paper (App C, arxiv/main.tex:3274-3278). Main's P3_THE_PAPER never had this theorem (BMR/Bowditch/cyclic-commensurability) at all -- unrelated content."
+    },
+    {
+      "n": 2,
+      "arc": "B8107_r48_verify",
+      "topic": "P1 Defect 2 / su(6) branching table fix",
+      "grade": "REGISTER",
+      "on_main": "NOT",
+      "paper_identified": "oa-structure-paper.tar.gz == cc3's structure_paper (same paper as item 1)",
+      "notes": "Defect 2 = su(6) table cell wrongly marked 'no' (dash) for complex fundamental; fixed to 'yes--but see below' plus a Scope block (sc:twogrounds), confirmed live at arxiv/main.tex:1569,1578-1582. Main's P3_THE_PAPER has no su(6) table, no A-type/D-odd/E6 exceptionality-exclusion argument at all -- different paper, different McKay usage. Confirmed absent via docs/RELAY_LEDGER.md:421 and independent grep here."
+    },
+    {
+      "n": 3,
+      "arc": "B8076_paper_closure",
+      "topic": "zero-radical / 27-dim-assembly refutation (actual work in B8080_assembly_classification)",
+      "grade": "REGISTER (split: numbering ruling ALREADY-ON-MAIN, refutation content REGISTER)",
+      "on_main": "PARTIAL -- the numbering/band ruling (B8068-B8080 remap, E843) IS on main (docs/CLOUD_ALIAS_TABLE.md:82-97); the assembly-classification refutation itself is NOT (checked docs/RETRACTIONS.md, docs/ERROR_LEDGER.md for E843, docs/CLOUD_ALIAS_TABLE.md port row for B8080, frontier/B1077*, frontier/B1089* -- none carry it)",
+      "notes": "Refuted theorem (thm:classify, six finite groups A4/S4/2T/2O/A5/2I) belongs entirely to cc3's structure_paper. Main's actual entrance argument (B266's arithmetic chain ℚ(√−3)->ramified3->F3->2T->McKay E6) was never exposed to this defect -- independently confirmed live in P3_THE_PAPER (grep for thm:classify / six-group table: none). Retitled section 'The entrance is arithmetic, not an assignment' confirmed at arxiv/main.tex:1295 (cc3 side only)."
+    },
+    {
+      "n": 4,
+      "arc": "B8123_scrutiny_closed + B8107_r48_verify (two DIFFERENT 'F1's)",
+      "topic": "m13 (Z[t]/mu order phrasing) + R48-F1/F4 (THEOREM_REGISTRY backfill + BANKING_PROTOCOL gap) + the relay's own F1 (adelic entrance-split)",
+      "grade": "SPLIT: m13=REGISTER, R48-F1/F4=ALREADY-ON-MAIN, relay's-own-F1(adelic)=DISPUTED",
+      "on_main": "m13: NOT (cc3's own paper only). R48-F4: YES -- docs/BANKING_PROTOCOL.md:23-25 names 'R48-F4' explicitly and lists creates_law; git log -S creates_law shows commit 6683c0a2 same day (2026-08-21), message 'R48-F4 fixed; R48 closes'. The relay's own F1 (a numbered ℚ(√−3)=>2T theorem with hypotheses): no exact match found, but docs/THEOREM_REGISTRY.md:236 T-ADELIC (B1117) covers closely related ground (finite/archimedean shadow split, Vol=9√3 zeta_K(2)/pi^2) landed the same session -- unclear if it satisfies the specific ask.",
+      "notes": "Flagged a naming collision: B8107's 'F1' = R48-F1 (theorem-registry gate), completely unrelated to the target relay's own 'F1' = the P1 golden-grammar scrutiny's entrance-arithmetic finding. This is the one item with a genuine ALREADY-ON-MAIN positive result (R48-F4) among the four."
+    }
+  ],
+  "disputed": [
+    {
+      "item": 4,
+      "question": "Does T-ADELIC (B1117, docs/THEOREM_REGISTRY.md:236) discharge the target relay's specific request for a numbered 'state ℚ(√−3)⟹2T with hypotheses' Levi-style classification theorem, or is that narrower theorem still owed separately?",
+      "why_unresolved": "B1117 is a broader analytic identity (volume = zeta special value) landed independently on main's own sequence the same session; it was not verified here, against the relay's exact wording, to be the same claim with the same hypotheses. Needs a reader closer to the E6/2T machinery to compare texts directly."
+    }
+  ]
+}

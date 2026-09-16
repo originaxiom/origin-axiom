@@ -1,0 +1,68 @@
+{
+  "reader": "a4",
+  "seat": "residue harvest (B1412 §3), codex first-lane archive @ archive/codex-seat-r001",
+  "worktree": "<home>/origin-axiom/audit/wt-codex",
+  "main": "<home>/origin-axiom",
+  "items": [
+    {
+      "n": 1,
+      "relay": "CODEX_TO_CC_2026-09-01_B1229_B1230_RCFT_SCOPE.md",
+      "grade": "REGISTER",
+      "on_main": "PARTIAL",
+      "adopted_on_main": [
+        "rational-is-not-finite (B1232 Retraction 1, credited to codex)",
+        "level-blindness-is-not-selection (B1232 Retraction 2, 'codex's law, adopted', verbatim)",
+        "the three distinct Z/3s / I-7 UNEARNED (B1230 addendum + B1232 Correction 4)",
+        "MMS-is-scoped, ell=0-only (B1229 FINDINGS 'VERIFIED 2026-09-01' section)"
+      ],
+      "not_on_main": [
+        "the Witten-1991 non-applicability argument itself (infinite-dimensional Hilbert spaces, no established 1+1D CFT for complex/noncompact CS) -- zero hits anywhere outside the codex worktree",
+        "a named open row for 'no finite RCFT boundary receiver for m004' (OA-C1184-equivalent)"
+      ],
+      "flagged": "B1229_the_consistency_turn/FINDINGS.md:60-63 ('the c-bit IS the modular-invariant choice') is un-fenced and rests on the same unearned identification species as the retracted I-7",
+      "certificate_run": false,
+      "reason": "item 1's certificate (r031b_rcft_scope.py) was re-run and its stdout compared to the checked-in output, not timed as a fresh compute -- see item_1.md"
+    },
+    {
+      "n": 2,
+      "relay": "CODEX_TO_CC_2026-09-01_IDENTIFY_OR_DESCEND.md",
+      "grade": "REGISTER",
+      "on_main": "PARTIAL",
+      "certificate_run": true,
+      "certificate_path": "audit/wt-codex/certificates/r031d_observable_quotient/observable_quotient.py",
+      "certificate_rc": 0,
+      "certificate_wall_time_s": 0.33,
+      "certificate_pass_lines": [
+        "PASS beta restricted to wedge^2(C) is zero",
+        "PASS induced C tensor (V/C) observable is well-defined",
+        "PASS all 125 tested tail lifts give the same observable"
+      ],
+      "adopted_on_main": [
+        "special case (linear functional Y kills C => factors through T) independently re-derived and credited to codex in frontier/B1232_.../verify_quotient_lemma.py:1 docstring and FINDINGS.md 'the third column'"
+      ],
+      "not_on_main": [
+        "the general alternating-form / wedge^2(C) construction (strictly more general than the linear-functional case main verified)",
+        "the name 'R031D', the phrase 'identify or descend', and the term 'C tensor T' as an adopted lemma -- confirmed absent by grep outside bookkeeping files"
+      ],
+      "matches_main_own_ledger_grade": "docs/HARVEST_LEDGER.md:269 = SCHEDULED (no main text names it); docs/RELAY_LEDGER.md:523 = OPEN -- both independently confirmed"
+    },
+    {
+      "n": 3,
+      "relay": "CODEX_TO_CC_2026-09-01_WAVE9_QUESTION_MAP.md",
+      "grade": "REGISTER (8 ALREADY-ON-MAIN, 1 REGISTER, 1 DISPUTED)",
+      "rows": [
+        {"id": "OA-C1176", "codex_status": "PROVED", "on_main": "ALREADY-ON-MAIN", "main_arc": "B1221 (ADDENDUM_2026-08-31)"},
+        {"id": "OA-C1177", "codex_status": "REFUTED", "on_main": "ALREADY-ON-MAIN", "main_arc": "B1221 (ADDENDUM_2026-08-31)"},
+        {"id": "OA-C1178", "codex_status": "REFUTED", "on_main": "ALREADY-ON-MAIN", "main_arc": "B1222 + ADDENDUM (softer wording: 'partially supported, not established')"},
+        {"id": "OA-C1179", "codex_status": "REFUTED", "on_main": "ALREADY-ON-MAIN", "main_arc": "B1223"},
+        {"id": "OA-C1180", "codex_status": "PROVED", "on_main": "ALREADY-ON-MAIN", "main_arc": "B1224 + B1227"},
+        {"id": "OA-C1181", "codex_status": "OPEN", "on_main": "DISPUTED", "main_arc": "B1229 FINDINGS:60-63 asserts the join without hedge; no IDENTIFICATION_LEDGER entry exists; codex's OPEN is the better-supported grade"},
+        {"id": "OA-C1182", "codex_status": "OPEN", "on_main": "ALREADY-ON-MAIN", "main_arc": "B1226 cell 3"},
+        {"id": "OA-C1183", "codex_status": "PROVED", "on_main": "ALREADY-ON-MAIN", "main_arc": "B1230 C-2 / B1232 Retraction 3"},
+        {"id": "OA-C1184", "codex_status": "OPEN", "on_main": "NOT ON MAIN", "main_arc": "none named -- same gap as item 1"}
+      ]
+    }
+  ],
+  "no_tracked_files_edited": true,
+  "no_vendor_names_or_absolute_home_paths_in_this_file": true
+}

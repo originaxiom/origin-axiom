@@ -1,0 +1,39 @@
+{
+  "reader": "a1",
+  "source": "B1412 relay residue harvest",
+  "items": [
+    {
+      "item": 1,
+      "relay": "B8084_cold_audit/relays/CC3_TO_CC_2026-08-19_BLOCKER_EXPIRED_AUDIT_STARTING.md",
+      "arc": "B8087_neutrino_selector",
+      "claim": "so(10) on the 16: purity is the unique rank-4 condition on <nu^c> (pure stabiliser dim 34/toral 4 vs generic 29/toral 0); Spin(10) transitive on the 11-dim pure cone -> the selector is a CONDITION not a POINT; <nu^c> is a SECOND free selection beyond <1>, so B1017's single 'VEV direction' row is correct only in the pair space 27+27bar.",
+      "grade_proposal": "ALREADY-ON-MAIN",
+      "needs_computation": false,
+      "on_main": "frontier/B1092_purity_selector/FINDINGS.md (2026-08-20, independent own-code re-derivation, PROVED, sharper -- disentangles literal stabiliser 34 from projective/parabolic 35, 45-35=10=dim S_10); docs/SM_SPECIFICATION_LEDGER.md:213-214 and :277-279 already book TWO selections (chirality sign + rank-reducing VEV, itself two-step); docs/OPEN_LEADS.md:1905 L168 explicitly names B8087 and marks it CLOSED via B1092 (2026-08-20).",
+      "disputed": false,
+      "notes": "B1412's own audit (FINDINGS.md:29) says 'no main arc names B8087' based only on docs/HARVEST_LEDGER.md row 261 (SCHEDULED) -- it missed docs/OPEN_LEADS.md L168, which does name B8087 and closes it. B1092 itself does not cite B8087/cc3 in its own file text (provenance gap, content match is exact). Recommend: add a citation line in B1092 crediting B8087, and reconcile HARVEST_LEDGER row 261 with OPEN_LEADS L168's CLOSED status."
+    },
+    {
+      "item": 2,
+      "relay": "B8143_anomaly_lane/relays/CC3_TO_CC_2026-08-26_CORRECTION_MY_WITNESS_IS_DEAD_YOUR_FENCE_IS_TOO_CONSERVATIVE.md",
+      "arc": "B8143_anomaly_lane",
+      "claim": "CORRECTED result (original 13-state witness retracted, missed [SU(3)]^3): over the SM-visible 5-field alphabet, 252 contents examined, 222 killed by [SU(3)]^3 alone, exactly 2 rigid+chiral+fully-anomaly-free survivors (the SM 15-plet (1/6,-2/3,1/3,-1/2,1) and its conjugate); zero object-specific tokens in any equation; robustness: +adjoints -> 7, +(3,3) -> 14, SM stays smallest; STRENGTHENS B1160's 'shaping is observer-paid' fence to 'shaping is forced up to conjugation at the rigidity threshold n=5'.",
+      "grade_proposal": "ALREADY-ON-MAIN",
+      "needs_computation": false,
+      "on_main": "frontier/B1170_arena_rescope/FINDINGS.md quotes B8143's corrected numbers verbatim and independently re-verifies three ways: (1) own-code independent_enumeration.py confirms 252/222/exactly-2 by Fraction Gaussian elimination, (2) cc3's own steps 4-6 re-run, (3) codex R019 cert re-run byte-identical. Explicitly states 'B1160 -> strengthened (its own fence quantified; cc3's words)' in its Routes section. frontier/B1160_hypercharge_forced/FINDINGS.md:37-44 itself is UNCHANGED (still states the pre-strengthening fence, no forward pointer to B1170).",
+      "disputed": false,
+      "notes": "docs/HARVEST_LEDGER.md row 316 grades this 'named on main without a verification verb' -- this undersells B1170, which literally contains 'Verified on this bench (three legs)'; looks like a keyword-scan miss. The archived arc's own arc_verdict.json (on the cc3 worktree) is stale: it still states the DEAD 13-state witness as verdict PROVED, contradicting the correction banner at the top of the same directory's FINDINGS.md. Recommend a one-line addendum inside B1160's own FINDINGS.md pointing to B1170, and correcting HARVEST_LEDGER row 316's description."
+    },
+    {
+      "item": 3,
+      "relay": "B8148_m12_settled/relays/CC3_TO_CC_2026-08-27_M12_SETTLED_AT_3_AND_THE_MECHANISM_FOR_2.md",
+      "arc": "B8148_m12_settled",
+      "claim": "D=148 (m=12): re-implemented reduction reproduces the banked m=1..11 GL(2,Z) table (1,1,1,1,1,2,1,1,2,2,1) exactly as a control, then returns 3 classes under BOTH SL(2,Z) and GL(2,Z) at m=12; identifies a plausible bug mechanism (b < floor(sqrt(D)) discarding the legitimate b=floor(sqrt(D)) when D is not a perfect square) that would turn a correct method into a count of 2.",
+      "grade_proposal": "DISPUTED -- resolved in favour of main by independent recomputation",
+      "needs_computation": true,
+      "on_main": "frontier/B1240_belt_closure_and_fc_harvest/FINDINGS.md:89 (fc R42, verified 2026-09-02) states 3 SL(2,Z) proper classes / 2 GL(2,Z) improper classes, cross-checked three ways on the main bench (own reduction, PARI qfbclassno(148)=3, independent PARI-rho cycle enumeration: 14 reduced primitive forms, 3 rho-cycles = two 6-cycles + the ambiguous 2-cycle {(-1,12,1),(1,12,-1)}); docs/HARVEST_LEDGER.md row 174 records this exact split as CORRECTED/VERIFIED-EARLIER.",
+      "disputed": true,
+      "notes": "Both sides reproduce the identical m=1..11 control table byte-for-byte, so the disagreement is isolated to the m=12 GL(2,Z) count only. Ran an independent from-scratch computation (qf148_recompute.py in this directory, exact integer arithmetic, no external libraries, <1 second): enumerated the 14 primitive reduced forms of D=148, built the SL(2,Z) reduction cycles (two 6-cycles + one 2-cycle = 3 classes, matching main's cycle structure exactly including the named forms), then tested the b->-b GL(2,Z)-merge map: the two 6-cycles merge into one GL-class, the 2-cycle {(-1,12,1),(1,12,-1)} is self-paired (ambiguous) -- total 2 GL(2,Z) classes. This independently CONFIRMS main's row 174 (3/2) and does NOT reproduce B8148's claim of 3-under-both. B8148's archived directory has no FINDINGS.md and no script (only arc_verdict.json + results.json + relay), so its exact merge-step bug cannot be located from what's on disk. Its self-identified 'floor(sqrt(D))' mechanism does not explain the disagreement since both main's and this recomputation use the strict b<sqrt(D) inequality with no floor. Recommend: relay the cycle structure back to locate cc3's bug; update docs/HARVEST_LEDGER.md row 321 from SCHEDULED to CONTRADICTED-BY-B1240."
+    }
+  ]
+}

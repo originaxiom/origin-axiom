@@ -1,0 +1,20 @@
+A  the SM generation, as a control
+  PASS  SM (1/6,-2/3,1/3,-1/2,1) satisfies all four anomaly conditions   [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+
+B  the 13-state competitor  ABCDD
+  PASS  ABCDD (1/2,-1,-3/2,2,1) satisfies all four anomaly conditions   [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  PASS  it has 13 states, FEWER than the SM's 15   13 vs 15
+  PASS  every field carries NONZERO charge (no sterile field)
+  PASS  Witten global anomaly: doublet count is even   4 doublets
+
+C  is it RIGID -- isolated up to scale, like the SM?
+   isolated branches: ['(0, 0, 0, -1, 1)', '(1/2, -1, -3/2, 2, 1)', '(1/4, -1/2, -3/4, 1/2, 1)']
+  PASS  ABCDD's solution is isolated up to scale (rigid), like the SM's
+
+D  re-run the census with the TIGHTENED chirality test (no sterile fields)
+   states  content   example
+      13   ABCDD    (1/2, -1, -3/2, 2, 1)
+      15   ABBCD    (1/6, -2/3, 1/3, -1/2, 1)   <-- the SM generation
+  PASS  the SM is NOT the minimal rigid chiral content over this alphabet   minimum is ABCDD at 13 states
+
+7/7 checks passed

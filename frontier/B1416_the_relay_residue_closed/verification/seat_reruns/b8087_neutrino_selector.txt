@@ -1,0 +1,40 @@
+CONTROLS
+  [PASS] generator count: 45
+  [PASS] generators linearly independent -> dim so(10): 45
+  [PASS] span closed under bracket (rank unchanged): 45
+  [PASS] Cartan is 5-dimensional -> rank so(10) = 5: 5
+  [PASS] Cartan is abelian: 0
+  [PASS] all 16 basis vectors are weight vectors, weights distinct: 16
+  [PASS] every weight is (+-1)^5  [doubled spinor weights]: True
+  [PASS] the sign-parity is CONSTANT across all 16 weights  [one CHIRAL half, not a mix]: 1
+
+THE PURE SPINOR  <nu^c>  (Fock vacuum)
+  [PASS] stabiliser dim = sl(5) + Lambda^2 = 24 + 10: 34
+  [PASS] orbit dim = 45 - 34: 11
+  [PASS] RANK AFTER BREAKING (toral part): 4
+
+GENERIC SPINOR (negative control -- must differ)
+  generic stabiliser dim = 29, orbit dim = 16, toral dim = 0
+  [PASS] generic is NOT the pure orbit: True
+
+TRANSITIVITY
+  [PASS] orbit dim equals the pure-spinor cone dim (10 projective + 1): 11
+
+  results.json written
+
+==============================================================================
+ALL CHECKS PASS.
+
+READING.
+  <nu^c> must be a PURE spinor: only there does the rank drop 5 -> 4, which is what the SM's
+  rank 4 requires.  That is a REAL reduction -- purity is a closed condition cutting the 16-dim
+  space down to an 11-dim cone.  So a 'neutrino selector' exists as a CONDITION.
+
+  But Spin(10) is TRANSITIVE on that cone (orbit dim 11 = cone dim 11).  So the condition does
+  not produce a POINT.  B990's orbit-to-point gap recurs on the second VEV verbatim -- it is not
+  forced by the first.
+
+  Therefore <1> and <nu^c> are TWO selections, not one.  The ledger's single 'VEV direction' row
+  is only correct if the orbit-point is read as a point in the space of PAIRS (27 + 27) -- which
+  is exactly what Kato-Yukie classify, and exactly B990's object.  Read as one direction in a
+  single 27, it undercounts by one.

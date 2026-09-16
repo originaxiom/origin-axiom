@@ -8394,6 +8394,27 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1416": {
+   "slug": "the relay residue closed",
+   "motifs": [
+    "measurement",
+    "choice",
+    "figure_eight",
+    "eisenstein",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B266",
+    "B647",
+    "B993",
+    "L168",
+    "P1"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [

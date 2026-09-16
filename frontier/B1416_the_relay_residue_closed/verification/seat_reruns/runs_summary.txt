@@ -1,0 +1,8 @@
+b8087 rc=0
+b8143 step1_core rc=0
+b8143 step2_shape rc=0
+b8143 step3_competitor rc=0
+b8143 step4_full rc=0
+b8143 step5_robust rc=0
+b8143 step6_genericity rc=0
+codex r031d rc=0

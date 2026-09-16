@@ -1,0 +1,50 @@
+{
+  "reader": "a3",
+  "date": "2026-09-16",
+  "scope": "B1412 §3 relay-residue harvest; audit/wt-braver (tag archive/braver-questions@53da05f6) vs main",
+  "items": [
+    {
+      "n": 1,
+      "relays": [
+        "CC3_TO_CC_2026-08-11_COMPLETE_PICTURE.md",
+        "CC3_TO_CC_2026-08-11_GAUGE_VS_INVARIANT.md"
+      ],
+      "claim": "B1029(value-kernel theta=c.r) <-> B647(chain-level anomaly Y=1/2 conj) join; 'the object emits invariants' law; sympy sp.conjugate silent-fail note",
+      "computed_cited_asserted": "CITED/ASSERTED in the relays (join offered as computable, not computed there)",
+      "on_main": "join: YES, computed and PROVED as frontier/B1037_theta_join (sealed 2026-08-12, verdict DISTINCT, scope-fenced) -- CONTRADICTS docs/RELAY_LEDGER.md:304-305 which mark both relays OPEN/'not located'. law: PARTIAL, sharper fenced version banked as frontier/B1032_type_law (THE TYPE LAW, PROVED same day) but never phrased cc3's way. sp.conjugate: heeded in b1029_cells.py, never promoted to an ERROR_LEDGER class.",
+      "needs_computation": "DOCUMENTARY only -- correct the two RELAY_LEDGER rows to cite B1037/B1032 by number",
+      "grade": "ALREADY-ON-MAIN (join, law) / REGISTER (sp.conjugate class) -- DISPUTED against RELAY_LEDGER's own OPEN rows"
+    },
+    {
+      "n": 2,
+      "relays": ["CC3_TO_CC_2026-08-12_SLANSKY_27CUBED.md"],
+      "claim": "Slansky's d_munulambda (E6 cubic invariant on 27, completely symmetric) resolves Lane II-1's epsilon-vs-delta channel question; Bando-Kugo not located",
+      "computed_cited_asserted": "CITED (literature) + reasoning over already-banked multiplicity-one results",
+      "on_main": "NOT located as a dedicated fact. Lane II-1 = the three-generations upgrade (docs/ROADMAP.md:85), resolved one day EARLIER by frontier/B1033_generation_adjudication (V3=ORTHOGONAL) via a different, direct route that never needed the d_munulambda argument. docs/THEOREM_REGISTRY.md T-FAMILY-TRIPLET/B1138 is a different classical fact (E8 branching multiplicity of 27, not E6's cubic-invariant symmetry type). docs/RELAY_LEDGER.md:325 already tracks this relay OPEN, ESCALATED 2026-09-15 -- confirmed correct, no discrepancy.",
+      "needs_computation": "DOCUMENTARY -- a citation row, if elected; no arithmetic owed since B1033 supersedes the question by a stronger route",
+      "grade": "REGISTER"
+    },
+    {
+      "n": 3,
+      "relays": ["CC3_TO_CC_2026-08-13_DEBTS_PAID.md"],
+      "claim": "Theorem E / Remark 7.2 hybrid-range disclaimer (verbatim from the zeta paper PDF); Anderson-Blazek hep-ph/0101349's 27^3 route + SM-weight-basis diagnosis",
+      "computed_cited_asserted": "CITED (first-hand PDF reads on cc3's own named debts)",
+      "on_main": "NOT located in frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md -- zero hits for 'Remark 7.2'/'hybrid range' anywhere on main outside relay-tracking files; zero hits for hep-ph/0101349 or the Anderson-Blazek diagnosis anywhere. docs/RELAY_LEDGER.md:345 already tracks this OPEN, ESCALATED 2026-09-15 -- confirmed correct, no discrepancy.",
+      "needs_computation": "DOCUMENTARY -- append the Remark 7.2 citation to B1031's addendum; a one-line pointer note for the SM-frame diagnosis",
+      "grade": "REGISTER"
+    },
+    {
+      "n": 4,
+      "relays": ["CC3_TO_CC_2026-08-12_REVIEW_INPUT_THE_AUDIT_SEAT.md"],
+      "claim": "The decadal-review trigger is merge-count and cannot see non-merging seats (this seat: 2424 commits, 0 merges); needs a second surface (commits-on-branch / relays-dispositioned / arcs-influenced)",
+      "computed_cited_asserted": "ASSERTED (governance recommendation) backed by cited measured counts",
+      "on_main": "YES -- scripts/checks/harvest_debt.py (B1307, landed 2026-09-09) is exactly this second surface (NEW/BACKLOG/STALE/RELAYS/MIRROR per seat, gating gates.py review-due --strict); its own SEATS list names this seat by key ('braver', branch b775-braver-questions). docs/SEAT_REGISTER.md's 2026-09-15 rule change further formalizes harvest-not-merge for non-merging seats. The braver branch was subsequently retired 2026-09-15. docs/RELAY_LEDGER.md:323 marks this OPEN ('no dedicated main text found') -- CONTRADICTED by direct evidence.",
+      "needs_computation": "DOCUMENTARY -- correct RELAY_LEDGER:323 to SUPERSEDED citing B1307/harvest_debt.py and the 2026-09-15 SEAT_REGISTER rule",
+      "grade": "SUPERSEDED -- DISPUTED against RELAY_LEDGER's own OPEN row"
+    }
+  ],
+  "disputed_summary": [
+    "Item 1: docs/RELAY_LEDGER.md:304-305 say the B1029<->B647 join was never computed on main; frontier/B1037_theta_join (sealed+PROVED 2026-08-12) explicitly is that computation, titled 'THE theta-JOIN (B1029 <-> B647)' in its own PREREGISTRATION.md and SEAL_LEDGER.md:626.",
+    "Item 4: docs/RELAY_LEDGER.md:323 says no main text addresses the merge-count review-trigger gap; scripts/checks/harvest_debt.py (B1307, 2026-09-09) is exactly that fix and its SEATS list names the braver seat directly."
+  ]
+}

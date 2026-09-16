@@ -1,0 +1,15 @@
+m= 1 D=   5  SL(2,Z) classes 1  GL(2,Z) classes 1
+m= 2 D=   8  SL(2,Z) classes 1  GL(2,Z) classes 1
+m= 3 D=  13  SL(2,Z) classes 1  GL(2,Z) classes 1
+m= 4 D=  20  SL(2,Z) classes 1  GL(2,Z) classes 1
+m= 5 D=  29  SL(2,Z) classes 1  GL(2,Z) classes 1
+m= 6 D=  40  SL(2,Z) classes 2  GL(2,Z) classes 2
+m= 7 D=  53  SL(2,Z) classes 1  GL(2,Z) classes 1
+m= 8 D=  68  SL(2,Z) classes 1  GL(2,Z) classes 1
+m= 9 D=  85  SL(2,Z) classes 2  GL(2,Z) classes 2
+m=10 D= 104  SL(2,Z) classes 2  GL(2,Z) classes 2
+m=11 D= 125  SL(2,Z) classes 1  GL(2,Z) classes 1
+m=12 D= 148  SL(2,Z) classes 3  GL(2,Z) classes 2
+m=13 D= 173  SL(2,Z) classes 1  GL(2,Z) classes 1
+GL table m=1..11: [1, 1, 1, 1, 1, 2, 1, 1, 2, 2, 1]  banked (1,1,1,1,1,2,1,1,2,2,1)
+m=12: (12, 148, 3, 2)
