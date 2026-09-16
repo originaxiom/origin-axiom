@@ -1,0 +1,6 @@
+hollow complex symmetric 3x3: max |s1-s2-s3| over 2000 random = 2.220446049250313e-15
+circulant circ(x,y,y) eigenvalues: {x + 2*y: 1, x - y: 2}
+U(1)^2-neutral cubic monomials in 27_1,27_2,27_3: [(1, 2, 3)]
+E7 roots 126
+E7 roots orthogonal to a 56 weight: 72 inner products [-1.0, 0.0, 1.0] |w|^2 = 1.5
+ALL PASS

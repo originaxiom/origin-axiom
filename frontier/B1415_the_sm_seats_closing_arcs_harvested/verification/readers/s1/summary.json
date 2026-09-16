@@ -1,0 +1,42 @@
+[
+  {
+    "arc": "B1358_the_e6_apex_family",
+    "verdict": "PROVED",
+    "headline": "THE E6 APEX FAMILY: the twistor cones of S^4/(2T x Gamma_R) are G2 cones whose first pole carries E6 and whose second pole carries the companion {+-1}.Gamma_R, always of even order and never A2, with mixed A-loci over the cone circles whenever Gamma_R shares an eigenvalue with 2T; only Gamma_R=1 has a companion (A1) that the object's own background supplies.",
+    "grade_proposal": "VERIFY-BY-COMPUTATION",
+    "load_bearing": [
+      "the 7-group census (companion type/degree, mixed loci, enhanced points) computed by apex_family.py",
+      "companion-always-even-order lemma (rules out A2 companion)",
+      "the match/no-match table against B1357's background (only Gamma_R=1 fits cleanly)",
+      "the exact 12:1 inflow ratio A(U(1).E6^2):A(U(1).SU(2)^2) at the clean apex"
+    ],
+    "needs_computation": [
+      "re-derive Gamma_R=1 sub-census (E6 degree 1, A1 degree 12, 14 enhanced points, 0 isolated) with exact quaternion arithmetic",
+      "re-derive Gamma_R=Z3 (apex-on-knot) sub-census (A5 companion degree 12, 4 orbits of 4 mixed A2 lines)",
+      "independently re-derive the companion-even-order lemma as a standalone group-theory fact",
+      "spot-check one mixed-loci ADE-typing (Q8 or Z4 case) by recomputing the normal representation directly"
+    ],
+    "disputed": false,
+    "notes": "Not on main at all (zero grep hits for B1358, twistor cone, apex family). Its Gamma_R=1 base case overlaps with B1355, which IS already independently re-derived on main in frontier/B1411_the_sm_seats_v10_arcs_harvested (VERIFIED geometry / CITED physics). Numbering collision (not math contradiction): the seat's L213 differs entirely in content from main's own L213 (docs/OPEN_LEADS.md:2579, B1404, canonicity-of-triangulations) -- same label, unrelated topics, registered a day apart; needs renumbering at harvest."
+  },
+  {
+    "arc": "B1359_the_k3_alternative",
+    "verdict": "PROVED",
+    "headline": "THE K3 ALTERNATIVE, DECIDED: the orbit types of a 2T action with isolated fixed points are determined by a Burnside count from the per-order fixed-point numbers; with Nikulin's K3 numbers the count has exactly two solutions (Xiao's #37, #38 for T24), neither with an A1 orbit, so no K3-fibred background can supply the SU(2) companion B1358 needs -- the three-generation design lives on the Hurwitz torus only.",
+    "grade_proposal": "VERIFY-BY-COMPUTATION (core Burnside count) + VERIFY-BY-READING (the Xiao #37/#38 identification)",
+    "load_bearing": [
+      "the exact fixed-coset table over the 24 Hurwitz units (fixed_cosets function)",
+      "exhaustive integer solve giving exactly 2 solutions for Nikulin's numbers (E6+D4+A5+2A2, 2E6+A3+2A2)",
+      "neither K3 solution has a Z2/A1-stabilised orbit",
+      "identification of the two computed solutions with Xiao's Theorem 3 entries #37/#38"
+    ],
+    "needs_computation": [
+      "recompute the fixed-coset table exactly (24 elements x 6 subgroups, <2 min)",
+      "re-run the exhaustive solve against Nikulin's (8,6,4,2) and confirm exactly 2 solutions, both rank 19",
+      "directly verify the Z2-coefficient is 0 in both solutions",
+      "source-check Xiao Ann. Inst. Fourier 46 (1996) Theorem 3 entries #37/#38 against the claimed ADE configurations (literature check, not computable)"
+    ],
+    "disputed": false,
+    "notes": "Not on main at all (zero grep hits for Nikulin, Xiao, Mukai, K3 alternative, Hurwitz torus, symplectic 2T). Depends on B1357's torus numbers (16,9,4,1), which are also unharvested on main -- so the 'matches B1357' cross-check is currently internal to the seat branch only. Same L213 numbering collision as B1358 (see that arc's notes). The loci table for a hypothetical K3-fibred background (FINDINGS section 2) is explicitly flagged by the arc itself as NOT computed, only speculative by analogy to B1357's method."
+  }
+]

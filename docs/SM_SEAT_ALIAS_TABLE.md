@@ -83,3 +83,8 @@ Both collisions (B1025+, B1267+) happened the same way: **a seat renumbers to do
 banks into the vacated range, and neither side knows until a harvest.** Renumbering is
 reactive. **A reserved range is the only fix that holds**, because it is checkable by a gate
 rather than by attention.
+
+## Addendum 2026-09-16 (B1415) — the seat's second batch and its lead labels
+
+The seat's arcs **sm:B1356–sm:B1365** (in the reserved block, no arc-number collision) are harvested in `frontier/B1415_the_sm_seats_closing_arcs_harvested` (rows 610–622). Its **lead labels L213, L214, L215** collide with main's L213 (B1404), L214 (B1404), L215 (B1406): read them as **sm:L213 (the deck's U(1)² and the apex on the knot), sm:L214 (the level mismatch), sm:L215 (the 27̄ sector and the seesaw)**; main registers the last two as **L220** and **L221**. Its citations sm:B1269, sm:B1273, sm:B1276, sm:B1277, sm:B1283, sm:B1300–sm:B1303 resolve through the table above, never to main's arcs of the same number.
+

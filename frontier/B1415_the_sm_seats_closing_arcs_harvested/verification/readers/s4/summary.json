@@ -1,0 +1,89 @@
+{
+  "reader": "s4",
+  "worktree": "<home>/origin-axiom/audit/wt-sm @ f17dd84e",
+  "documents_read": [
+    "docs/THE_CLOSING_2026-09-15.md (full)",
+    "docs/OPEN_LEADS.md ## L214 (full incl. status notes)",
+    "docs/OPEN_LEADS.md ## L215 (full incl. status notes)",
+    "docs/SM_SEAT_ALIAS_TABLE.md (full)",
+    "git show f17dd84e (harvest of main's B1414)",
+    "git show b661deae (harvest received from main B1413)",
+    "main:frontier/B1413_the_audit_lanes_r21_r31/FINDINGS.md",
+    "main:frontier/B1414_the_outside_benchs_memos_185_233_harvested/FINDINGS.md"
+  ],
+  "closing_ledger": [
+    {"n": 1, "statement": "G2 cone over CP3/2T has E6 and A1 loci meeting only at apex; b2(link)=1; integral w != 0", "status": "PROVED (exact over Q(i) on main too)", "arc": "B1355 S2, B1411"},
+    {"n": 2, "statement": "The inflow forces chiral E6-charged matter at the apex", "status": "CITED (Witten 2001 S3, transposed)", "arc": "B1355 S3"},
+    {"n": 3, "statement": "One 27 per apex", "status": "CITED (E7 ⊃ E6 x U(1); heterotic reading)", "arc": "B1355 S3"},
+    {"n": 4, "statement": "On Y3 the deck fixes exactly the lift of the knot; descent is S3(4_1; 2pi/3) with holonomy 2T/±1", "status": "PROVED (exact, P2_1 2_1 2_1 and P2_1 3)", "arc": "B1356 S1"},
+    {"n": 5, "statement": "Invariant U(1)s charge no apex; exactly two U(1)s or none tell the three apart; charge triples (1,1,-2)+3A2; orbit = 3 x (3bar weights)", "status": "PROVED (conditional on a closing carrying the deck)", "arc": "B1356 S2"},
+    {"n": 6, "statement": "Along the knot the deck acts on the E6 fibre as centre of SU(3): local group 2T x Z3, two A2 loci, ages 15/5", "status": "PROVED (exact, octonionic G2 form)", "arc": "B1356 S3"},
+    {"n": 7, "statement": "On S4/Gamma the E6 point's antipode carries an A-locus; CP2/Gamma has no E6 point", "status": "PROVED", "arc": "B1356 S4"},
+    {"n": 8, "statement": "Object's own Joyce orbifold: N=1, loci E6/SO(8)/SU(2) on Y3 (rigid), SU(3) on T3, b2=0, b3=4", "status": "PROVED (exact)", "arc": "B1357 S2-3"},
+    {"n": 9, "statement": "Descent: b2=0, b3=2; SO(8) folded to G2 by triality; two compact A2 loci threading every cone circle", "status": "PROVED (exact); folding reading CITED", "arc": "B1357 S4"},
+    {"n": 10, "statement": "No 2-form of the flat background or its resolution carries the deck's irreducible", "status": "PROVED (exact ranks)", "arc": "B1357 S3"},
+    {"n": 11, "statement": "Apex family: companions {±1}.Gamma_R of even order (never A2); only Gamma_R=1 fits the background; inflow ratio 12:1", "status": "PROVED (census, degrees)", "arc": "B1358"},
+    {"n": 12, "statement": "Apex on the knot has an A5 companion: excluded in the twistor family", "status": "PROVED", "arc": "B1358 S3"},
+    {"n": 13, "statement": "Symplectic 2T on K3 has one of two fixed-point types, neither with an A1 orbit: no K3 fibre carries the companion", "status": "PROVED (Burnside count) + CITED (Nikulin, Xiao)", "arc": "B1359"},
+    {"n": 14, "statement": "Design's tree-level texture is hollow and sigma1=sigma2+sigma3 exactly: refuted; flavour needs the U(1)^2-breaking sector", "status": "PROVED (selection rule, identity) + NEGATIVE", "arc": "B1361"},
+    {"n": 15, "statement": "Y3 carries a flat E6 connection with unbroken group exactly SM x U(1)'", "status": "PROVED (root system; enumeration)", "arc": "B1364"},
+    {"n": 16, "statement": "Line's U(1)' is U(1)_eta with B1283's Z' charges (family-universal); bulk H1(Y3;78) is 3 flat moduli + 1 vector-like pair; no seesaw; neutrinos at up-quark masses", "status": "PROVED (charge table, torsion census, Fox calculus, deck test) + NEGATIVE (neutrino sector)", "arc": "B1365"},
+    {"n": 17, "statement": "The touching design (SU(2) copy of Y3 meeting E6 copy at three deck-related points; twistor model)", "status": "DESIGNED", "arc": "B1357 S5.4, B1358 S5"},
+    {"n": 18, "statement": "AW's E7 Kronheimer unfolding as the apex: E6 locus alone through apex, one 27 of charge 1", "status": "CITED (AW S2.3; correction of record, main B1413)", "arc": "B1355 (corrected)"},
+    {"n": 19, "statement": "Topology: singular set the E6 locus and apex only; b2(link)=1; E6 link pairs non-trivially with generator (inflow applies)", "status": "PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones)", "arc": "B1360"}
+  ],
+  "not_settled": [
+    "1. Existence: no compact G2 manifold realises the touching; the flat background cannot contain the apex (B1259, B1353) -- the apexes are curved insertions, a transition not a deformation.",
+    "2. The doublet parity (twistor model only): odd number of chiral doublets per apex gives SU(2) a global anomaly; local spectrum (L213 (v)) decides; Kronheimer model's b2(link) now established (B1360) but lacks the generator's integral normalisation.",
+    "3. The extension of the apex classes over the closing (sum rule necessary; sufficiency needs the closing).",
+    "4. The E6 x SU(2) spectrum at the apex (L212 (ii)) and the 5d theories along the descent's cone circles (L213 (iii),(v)).",
+    "5. The U(1)^2 after Witten's axionic mass (L213 (i)): what discrete flavour remnant acts on the three.",
+    "6. Flavour is not tree level (B1361): hollow texture refuted in every charged sector; hierarchy must come from the U(1)^2-breaking sector (L213 (vii)); order-one lower bound via Weyl's inequality (B1362).",
+    "7. The level mismatch, raised and resolved 2026-09-15: Y3 (three apexes) vs Y9/Y12 (record's SM lines) -- dissolved by B1364's non-abelian line; what's still owed: U(1)' charges, 5+5bar masses, doublet-triplet splitting (B1300), the closing's own existence.",
+    "8. The neutrino obstruction (B1365): U(1)' = U(1)_eta computed; no seesaw; neutrinos Dirac at up-quark masses; three-apex design excluded as it stands; remedy is a 27bar sector (L215); the deck broken by every combined line (288 of 288)."
+  ],
+  "physics_claims": [
+    {"claim": "Chirality forced at the apex (inflow)", "grade": "CITED (Witten 2001 S3, transposed)", "fence": "transposed to a geometry not compactly constructed (S6.1 Existence not settled)"},
+    {"claim": "One 27 (one generation) per apex", "grade": "CITED (E7 superset E6 x U(1); heterotic reading)", "fence": "for the Kronheimer model additionally depends on an unverified-here 'heterotic computation'"},
+    {"claim": "Three generations (deck orbit of three apexes)", "grade": "PROVED conditional on a closing carrying the deck", "fence": "no compact closing exists (S6.1); the object's own closing (descent) sees only one neutral apex -- 'the three are a cover phenomenon'"},
+    {"claim": "Flavour hierarchy", "grade": "PROVED negative at tree level (B1361); order-one lower bound only (B1362)", "fence": "hierarchy mechanism itself not computed, only that it must come from the U(1)^2-breaking sector"},
+    {"claim": "Z' identification (U(1)_eta, family-universal, B1283 charges)", "grade": "PROVED (charge table, torsion census, Fox calculus, deck test)", "fence": "mass bound (>4.5 TeV) is CITED to ATLAS, not derived here; this U(1)_eta is on a different locus (Y3) from main's earlier non-universal Z' (B1283/B1303 on Y9) -- not asserted to be the same physical field, which is exactly L214's tension"},
+    {"claim": "No seesaw / neutrinos Dirac at up-quark masses / three-apex design excluded", "grade": "PROVED (D-term sign theorem) + NEGATIVE", "fence": "proved only for the three-apex design as stated; remedy path (L215, 27bar sector) explicitly unresolved, its needed instrument 'not yet on this bench'"}
+  ],
+  "contradictions": [],
+  "contradictions_note": "No contradiction between THE_CLOSING/L214/L215 and main's tracked tree was found. Checked: (1) the two harvest commits apply main's B1413 corrections faithfully -- no residual mismatch vs frontier/B1413.../FINDINGS.md; (2) docs/GUT_REQUIREMENTS_LEDGER.md:23,53 (neutrino mass 'not addressed'/'absent') is consistent with, not contradicted by, B1365; (3) docs/GUT_REQUIREMENTS_LEDGER.md:39 ('Z' bounds from LHC push extra U(1) gauge bosons to >= 4-5 TeV') matches THE_CLOSING S6.8's 4.5 TeV ATLAS citation; (4) arcs B1356-B1365 do not exist yet on main's tree at all (frontier/B1355*, B1356* absent on main) so main has not yet reviewed them -- a currency gap, not a contradiction; (5) the one internal tension the document itself flags (Y3 vs Y9/Y12 SM lines) is self-registered as L214, not a hidden conflict with main.",
+  "leads": {
+    "L214": {
+      "question": "A deck orbit of three apexes exists only on Y3 (deck order 3), but Y3 was believed to carry no SM Wilson line (B1277/B1300) while the record's SM lines live on Y9/Y12 (B1283/B1302) -- no single closing carried both the three chiral 27s and the E6->SM breaking.",
+      "next_computation_named": "(i) descent's Wilson lines (abelian done, non-abelian of P2_1 3 open); (ii) a non-flat-connection breaking of E6 on Y3; (iii) whether three apexes on Y9/Y12 can be placed as a non-deck-orbit consistent with the sum rule and inflow.",
+      "already_done_on_seat_arcs": ["B1363 (abelian lines negative, Kac's 6 classes)", "B1364 (RESOLVED as design: non-abelian Q8 line leaves SM x U(1)')", "B1365 (the resolved line's bulk computed; next-step failure -> L215)"],
+      "false_owner_call_E79_check": "The group-theoretic resolution (B1364: root system, surjection count, which roots the order-4 character kills) and the abelian-line exhaustion (B1363: Kac's 6 classes checked) are fully decided by computation now -- calling either an open judgement would be E79. Genuinely open (not owner-callable either): the non-abelian lines of P2_1 3 beyond B1364, and item (iii) (apexes on Y9/Y12 as non-deck-orbit), neither attempted."
+    },
+    "L215": {
+      "question": "The three-apex closing's only E6-charged SM singlets (N, nu^c) carry the same U(1)_eta charge, so U(1)_eta cannot break above the soft scale, Majorana mass is forbidden, and with the E6 cubic's one coupling (B1276) neutrinos come out Dirac at up-quark masses -- design excluded unless a 27bar sector is added.",
+      "next_computation_named": "(a) anti-apexes: nine-apex sum rule, selection rule, vacuum, whether twistor/Kronheimer models admit opposite-chirality apexes; (b) tower's h1 sector (E7/E8 locus, 133 ⊃ 27+27bar bulk modes) alongside the three chiral apexes; (c) in either case the neutrino sector itself (M_R, light masses, survival of the hollow texture).",
+      "already_done_on_seat_arcs": ["same-day analysis (git 3500f4f7, not a spent arc) closes route (b) by representation theory (78 of E6 has no 27bar; E7/E8 makes apex matter vector-like) -- forces route (a); identifies three numerical constraints on (a), none computed: y_nu=y_u needs M_R >= 1e14-1e15 GeV; any 27.27bar instanton pairing lifts the flat direction exactly when it makes the pair heavy; an unpaired pair's F-term caps the flat direction at ~1e10-1e11 GeV giving M_R <= 1e4 GeV"],
+      "false_owner_call_E79_check": "Route (a) vs (b) is forced by representation theory (78 has no 27bar) -- not an owner judgement call, decidable now. The tension between the required M_R (1e14-1e15 GeV) and the available scale (1e10-1e11 GeV, capped by the F-term) is likewise already computed as a numerical mismatch, not a matter of taste. What is correctly left open (not owner-callable) is only the instanton pairing spectrum (unbuilt instrument) and whether a non-perturbative flat direction outside the record's inputs exists -- both explicitly named as assumptions the object does not force."
+    }
+  },
+  "harvest_responses": [
+    {
+      "commit": "b661deae",
+      "title": "Harvest received from main (B1413)",
+      "items": [
+        {"item": "B1355 'A-type only' scoped to the explicit substitution Gamma->2T; AW S2.3's general Kronheimer construction reaches E6 too (topology undescribed at the time)", "verdict": "RIGHT", "evidence": "diff of frontier/B1355_.../FINDINGS.md S0,S1,S4 and claim line matches main's B1413 wording almost verbatim ('obstructs that restricted substitution, not AW's family as a whole'; heterotic charge-1 27; topology 'not clear'); propagated to THE_SM_VERDICT, THE_CLOSING S0/S1/S3/S6.2"},
+        {"item": "B1351 S2(ii) scoped to whole-torus/annular ∂+M conventions per R23 S4's disc counterexample", "verdict": "RIGHT", "evidence": "frontier/B1351_.../FINDINGS.md note matches main's B1413 statement exactly; seat correctly identifies B1352 (annular, unaffected) and B1356-B1359 ('do not use (ii)') as not exposed"},
+        {"item": "R15-R22 relay row reworded (source is a declared input, not a curvature of the connection)", "verdict": "RIGHT", "evidence": "docs/RELAY_LEDGER.md diff uses main's corrected phrasing verbatim and flags the prior wording as 'this seat's misdescription'"}
+      ],
+      "overall": "all three items owed by main's B1413 applied faithfully, correctly scoped, nothing missed, no overclaim"
+    },
+    {
+      "commit": "f17dd84e",
+      "title": "Harvest of main's B1414 by citation",
+      "items": [
+        {"item": "B1414 S4's re-derivation of memo 233 v2 (H1(Y3)=(Z/4)^2, deck 3-cycle, 'b2>=2 with the Z/3 moving harmonic forms' necessary) -- agreement, nothing owed", "verdict": "RIGHT", "evidence": "seat's added currency note on frontier/B1356_.../FINDINGS.md reproduces main's computation line for line (w=(1+i+j+k)/2 cycling i->j->k, Delta=t^2-3t+1, Smith form [1,4,4]); main's own B1414 text says 'nothing owed to this seat' and 'B1355 lives on the SM seat's branch'; seat's response matches scope exactly (RELAY_LEDGER row + alias-table note + one FINDINGS currency note, no new arc spent, no overclaim of 'proof' where main says 'agreement')"}
+      ],
+      "overall": "correct and appropriately minimal response; matches main's own framing of what was and wasn't owed"
+    }
+  ]
+}

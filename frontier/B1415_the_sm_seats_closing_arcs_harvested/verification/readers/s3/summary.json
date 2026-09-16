@@ -1,0 +1,52 @@
+[
+  {
+    "arc": "B1363_the_descents_wilson_lines",
+    "verdict": "NEGATIVE",
+    "headline": "The descent S^3(4_1; 2pi/3) has H_1 = Z/3, and none of the six Kac classes of order-3 (nor the eleven of order-4) inner automorphisms of E6 has commutant = Standard Model, so the descent's abelian Wilson lines cannot break E6 to the Standard Model (as B1277/B1300 already showed for the cover): L214 (i) negative for abelian lines on both levels of the Z/3.",
+    "grade_proposal": "VERIFY-BY-COMPUTATION",
+    "load_bearing": [
+      "H_1(descent orbifold group) = Z/3 (coinvariants of A4 on Z^3 computed as Z/2 by Smith form; the five-term-sequence 'kill' step is asserted, not computed)",
+      "Kac coordinate enumeration of order-3 inner automorphisms of E6: 6 classes, none with commutant SU(3)xSU(2)xU(1)^2 (computed by descent_lines.py)"
+    ],
+    "needs_computation": [
+      "Independently re-derive the order-3 and order-4 Kac classifications of E6 from the affine Dynkin diagram + marks, cross-checked against a published table (Kac ch.8 / Slansky), not by re-running the seat's own script",
+      "Independently abelianize a standard presentation of pi_1(m004) with the relator mu^3 adjoined, to confirm H_1=Z/3 directly rather than via the asserted five-term-sequence 'kill' step"
+    ],
+    "disputed": true,
+    "notes": "Not disputed on physics/math content. DISPUTED flag is for numbering only: this arc's own lead label 'L214' collides with docs/OPEN_LEADS.md's main L214 (registered 2026-09-14, B1404, 'RE-RUN THE LITERATURE AUDITS WITH A HOMONYM FILTER'), a completely unrelated topic. Also every cited dependency (B1277, B1300, and transitively B1269/1273/1276/1283/1301/1303) exists on main under the same numbers but with unrelated content (main's B1277_leak_closure is about fc's R63/residue synthesis, not Wilson lines) -- a seat-vs-main numbering fork across the whole chain, not a content contradiction."
+  },
+  {
+    "arc": "B1364_the_level_mismatch_resolved",
+    "verdict": "PROVED",
+    "headline": "On the E6 root system (72 roots, SO(10)xU(1) coords) the Standard Model's centraliser is su(2)_beta+u(1)^2 (dim 5, matching B1269's c(s)=5), c(su(2)_beta)=su(6) (30 roots), and an order-4 element of u(1)^2 kills exactly the 8 SM roots among su(6)'s 30, so a Q8-line into SU(2)_beta combined with that character leaves exactly su(3)+su(2)+u(1)_Y+u(1)' = 13 dimensions, B1269's proven minimum -- realized on Y3 via 24 surjections F(2,6)->Q8.",
+    "grade_proposal": "VERIFY-BY-COMPUTATION",
+    "load_bearing": [
+      "Existence of an order-4 element of the u(1)^2 torus killing exactly the 8 SM roots among su(6)'s 30 (found by exact rational grid search in sm_lines_on_y3.py)",
+      "Hom(F(2,6), Q8) with image Q8 has exactly 24 elements, none onto 2T (exact enumeration, but the F(2,6)=pi_1(Y3) presentation itself is cited from B1273/B1303, not derived here)"
+    ],
+    "needs_computation": [
+      "Independently build the 72-root E6 system and recompute c(SM)=5, c(su(2)_beta)=su(6)=35 dim by direct rational linear algebra, cross-checked against a published E6 root table",
+      "Independently re-search for the order-4 torus element and confirm its square kills 14 of 30 roots (cross-check against B1365's own finding, an internal consistency test)",
+      "Independently enumerate Hom(F(2,6),Q8) with image exactly Q8 (24 expected) and separately confirm zero surjections onto the full 2T with image exactly 2T"
+    ],
+    "disputed": false,
+    "notes": "Every cited dependency (B1269, B1273, B1277, B1283, B1300, B1301, B1303) exists on main under the same B-number with unrelated content (numbering fork, not contradiction -- e.g. main has no B1300 directory at all, and main's B1273 is about an unrelated 'seat harvest'). B1364 itself sits in the reserved 1350-1399 block so its own number does not collide. One claim in this arc (the 12 order-4 characters of H_1=(Z/4)^2 are 'permuted by the deck without fixed points') is printed citing B1301/B1303 but is NOT computed inside this arc's own script -- it is verified independently in the companion arc B1365 instead."
+  },
+  {
+    "arc": "B1365_the_bulk_of_the_line",
+    "verdict": "NEGATIVE (design excluded by neutrino sector) + PROVED (the group theory/cohomology)",
+    "headline": "B1364's unbroken U(1)' is the Cartan direction gamma = eta-model U(1)_eta (Witten's rank-5 Wilson-line direction), family-universal, with ATLAS m_{Z'_eta}>4.5 TeV applying directly; the line's bulk H^1(Y3;78) is three flat neutral moduli plus one vector-like colour-triplet pair, never a doublet; both SM singlets of the 27 (N, nu^c) carry the same U(1)_eta charge, so no tree-level VEV breaks U(1)_eta above the soft scale, there is no seesaw, and the three-apex design predicts neutrinos at the up-quark mass and is excluded as it stands (remedy registered as L215: a 27-bar sector).",
+    "grade_proposal": "VERIFY-BY-COMPUTATION (group theory/cohomology core); DISPUTED-pending-construction (the neutrino-exclusion headline)",
+    "load_bearing": [
+      "gamma is proportional to the eta-model Q_eta and both SM singlets N, nu^c carry the same-sign charge gamma=-5/3 (computed charge table, self-consistent, but compared only to a seat-internal B1283 table absent from main)",
+      "The D-term sign theorem (no SM-preserving VEV breaks U(1)_eta) plus the citation 'B1276's one coupling' giving neutrinos the up-quark Dirac mass -- the coupling citation refers to content that does not exist under that number on main (main's B1276 is an unrelated V4/MB12 result)"
+    ],
+    "needs_computation": [
+      "Independently construct the 27's (beta,gamma) charge table and the gamma = (2 sqrt15/3) Q_eta identification directly from E6 representation theory (Slansky / Hewett-Rizzo), without reference to the seat-internal B1283",
+      "Independently recompute H^1(Y3;78_rho) via exact (not floating-point-tolerance) Fox calculus on the Fibonacci presentation, to confirm 3 neutral moduli + 1 triplet pair + zero (2,20) states with exact rank rather than numpy rank at 1e-8 tolerance",
+      "Locate and produce the actual 'apex design' (B1355-B1362) that the whole neutrino argument depends on -- it is not constructed anywhere, on the seat or on main, per the arc's own caveats"
+    ],
+    "disputed": true,
+    "notes": "TWO numbering collisions with main: (1) 'B1276's one coupling' is load-bearing for the exclusion result, but main's frontier/B1276_legs_are_faces/FINDINGS.md is headlined 'B1174's LEGS ARE B730's FACES' -- a totally different V4/MB12 theorem, zero hits for 'one coupling' or Yukawa-related text. (2) this arc registers 'L215' for a 27-bar-sector remedy, but docs/OPEN_LEADS.md already has L215 registered (2026-09-14, B1406) for 'THE CLOSED FORM OF THE GRADED TRACE' in the theta-model campaign -- an unrelated topic. Both need renumbering at harvest. Separately (not a collision, a genuine absence confirmed via the homonym-filter check main's own L214 calls for): 'eta model'/U(1)_eta as an E6 GUT term does NOT appear on main -- the only 'eta model' hits on main are the unrelated theta-model/graded-trace campaign (theta not eta)."
+  }
+]

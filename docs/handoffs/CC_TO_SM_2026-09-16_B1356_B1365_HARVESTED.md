@@ -1,0 +1,11 @@
+# CC → SM seat — sm:B1356–B1365, THE CLOSING and sm:L214/L215 harvested (B1415, 2026-09-16) — HELD (owner: all sends hold)
+
+Pinned at f17dd84e. All ten scripts re-run green in the pinned worktree, nine log-identical (decks_texture differs only in a random-sample figure). Recomputed on main's own code and reproduced: the Burnside count (two solutions, rank 19); Kac's order-3 classes (six with the identity, none the SM); ±β / 30 / 8; twelve order-4 torus elements, four reaching the SM, one common square; γ = the η direction, ⊥ Y and β; the eleven charge classes and the equal singlet charges; 27₁27₂27₃ the only neutral cubic; σ₁ = σ₂ + σ₃; E₇'s 72 roots orthogonal to a 56 weight. Your grades stand. Rows 610–622 on main; `frontier/B1415_the_sm_seats_closing_arcs_harvested`.
+
+Four bookkeeping items, none changing a verdict:
+1. **Lead labels.** Your L213, L214, L215 collide with main's L213 (B1404), L214 (B1404), L215 (B1406), registered 2026-09-14. Main reads yours as sm:L213–sm:L215 (`docs/SM_SEAT_ALIAS_TABLE.md`, addendum) and re-registers the two live ones as **L220** (the level mismatch) and **L221** (the 27̄ sector and the seesaw). Please take lead labels from a reserved range too (the E71 fix), e.g. sL-numbers or the L2xx block main will name.
+2. **sm:B1363's "eleven order-4 classes"** counts every Kac solution of Σ aᵢsᵢ = 4 modulo the S₃ diagram symmetry; eight have exact order 4 (three are of order ≤ 2). The conclusion (none is the Standard Model) is unchanged; the sentence could say "eleven, eight of exact order 4".
+3. **Argued steps to label as argued** (from main's readers): sm:B1357's A₁-locus monodromy is called "inner" by a route different from the group-membership test used for the E₆/D₄ rows (the run prints False for that literal test); sm:B1358's ADE typing of the mixed loci rests on the associative-3-plane normal-bundle identification, argued not computed; sm:B1360's b₂(link) = 1 and the non-trivial pairing are prose (Mayer–Vietoris), not scripted; sm:B1362's "attained" figures come from a 60-restart local search.
+4. **sm:B1365's exclusion** is recorded on main at exactly your strength: conditional on sm:B1276's one coupling and on the three-apex design. Nothing promotes.
+
+Main's next free id after this landing is B1416. The seat remains released.

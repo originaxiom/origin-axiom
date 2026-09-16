@@ -1,0 +1,37 @@
+E6: 72 roots, norms 2, integral inner products OK; roots at +1 from a given root: 20
+su3 roots 6 su2 roots 2
+SM-singlet roots: 2 [[0.5, 0.5, 0.5, 0.5, 0.5, 0.866], [-0.5, -0.5, -0.5, -0.5, -0.5, -0.866]]
+roots orthogonal to beta: 30 (su(6) has 30)
+SM roots among them: 8
+gamma (unit): [ 0.2739  0.2739  0.2739  0.2739  0.2739 -0.7906] rank of SMroots+Y+beta: 5
+order-4 torus elements fixing no non-SM su(6) root (grid samples): 0 []
+27 candidate parity 0 norms/ip ok False closed under roots False
+27 candidate parity 1 norms/ip ok True closed under roots True
+27: (Y, gamma, beta) charge classes and multiplicities:
+   (-0.6667, -0.3651, 0.0) 3
+   (-0.5, 0.1826, -1.0) 2
+   (-0.5, 0.1826, 1.0) 2
+   (-0.3333, 0.7303, 0.0) 3
+   (-0.0, -0.9129, -1.0) 1
+   (0.0, -0.9129, 1.0) 1
+   (0.1667, -0.3651, 0.0) 6
+   (0.3333, 0.1826, -1.0) 3
+   (0.3333, 0.1826, 1.0) 3
+   (0.5, 0.7303, 0.0) 2
+   (1.0, -0.3651, 0.0) 1
+gamma vs eta direction: |cos| = 1.0  gamma.Y= -5.551115123125783e-17  gamma.beta= 3.885780586188048e-16
+Kac order-3 inner classes (Kac coordinates, not yet modulo the diagram Z/2): 6 ['A1+A4+1u(1)', 'A2+A2+A2', 'A5+1u(1)', 'D4+2u(1)', 'D5+1u(1)', 'E6']
+Kac order-4 inner classes (Kac coordinates, not yet modulo the diagram Z/2): 10 ['A1+A1+A3+1u(1)', 'A1+A2+A2+1u(1)', 'A1+A3+2u(1)', 'A1+A4+1u(1)', 'A1+A5', 'A4+2u(1)', 'A5+1u(1)', 'D4+2u(1)', 'D5+1u(1)', 'E6']
+gamma/gamma0 = [ 1.        1.        1.        1.        1.       -2.886751]  g5*sqrt3 = -4.999999999999998
+Smith diag of the charge lattice generators: [1, 20]
+order-4 elements of the torus (acting faithfully on roots+27): 12
+elements fixing NO non-SM root of su(6): 4  (their fixed E6 roots counts: [14, 22] )
+distinct squares among the SM-reaching elements: 1
+  square fixes 32 E6 roots
+Kac order-4 solutions 42 modulo the diagram automorphism 25
+Kac order-3 solutions 20 modulo the diagram automorphism 12
+--- the SM-reaching elements (a,b) with a in units of Y/6-charge, b of the 2<r,gv>-charge, their squares, and inverse pairing:
+  (a,b)=(1/4,3/4) inverse in set: True  square fixes 15 of the 27 weights; square id 7119
+  (a,b)=(1/4,7/8) inverse in set: True  square fixes 15 of the 27 weights; square id 7119
+  (a,b)=(3/4,3/4) inverse in set: True  square fixes 15 of the 27 weights; square id 7119
+  (a,b)=(3/4,7/8) inverse in set: True  square fixes 15 of the 27 weights; square id 7119

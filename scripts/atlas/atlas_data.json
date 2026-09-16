@@ -8368,6 +8368,32 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1415": {
+   "slug": "the sm seats closing arcs harvested",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "K3",
+    "L213",
+    "L214",
+    "L215",
+    "L220",
+    "L221"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B141": {
    "slug": "s031 split",
    "motifs": [

@@ -1,0 +1,42 @@
+[
+  {
+    "arc": "B1356",
+    "verdict": "PROVED",
+    "headline": "on the flat Hantzsche-Wendt closing Y3 the deck fixes exactly one closed geodesic (the lift of the branch knot), so a deck-symmetric triple of E7 apexes is a free orbit and the object's own closing is Thurston's Euclidean orbifold S^3(4_1; 2pi/3) with holonomy T = 2T/{+-1}; along the knot the local group is 2T x Z_3 (order 72) with crepant Betti numbers (15,5), and on every S^4/Gamma the E6 point's antipode carries an A_1 companion (CP^2/Gamma has none), closing L212(iii) for global quotients",
+    "grade_proposal": "VERIFY-BY-COMPUTATION",
+    "load_bearing": [
+      "stage A: Fix(deck) on Y3 = exactly one closed geodesic; object's closing = S^3(4_1; 2pi/3), holonomy 2T/{+-1}",
+      "stage C: Witten sum rule kills deck-invariant charges (3q=0); surviving charges lie only in the deck's 2-dim irrep, lattice coset (1,1,-2)+3A_2 = 3x weights of 3-bar of SU(3)",
+      "stage B: local group along the knot is 2T x Z_3, order 72, in SU(3)=Stab_G2(knot); crepant McKay-ages give b2=15, b4=5, non-compact divisors 10=6+2+2",
+      "stage D + Hitchin: E6 point's -1 fixes the antipode on S^4/Gamma; no E6 point exists on any CP^2/Gamma"
+    ],
+    "needs_computation": [
+      "rebuild ITA space groups P2_1 2_1 2_1 (#19) and P2_1 3 (#198) independently and recompute Fix(sigma): expect 1 closed geodesic length sqrt(3), 1 singular circle at cone angle 2pi/3",
+      "independently enumerate 2O (48 elements), count r with r^3 in 2T (expect 24), generate <fibre 2T,(l0,r)> and confirm |G|=72, McKay ages 1/15/5",
+      "enumerate integer triples summing to 0 with each entry = 1 mod 3 in a small box: expect exactly the 6-vector deck orbit of (1,1,-2)+3A_2",
+      "recompute O(5) fixed set of diag(-1,-1,-1,-1,1) on S^4 (expect the antipode) and 2T cap U(1) inside SU(2) subset U(2) on CP^2's twistor fibre (expect {+-1} only)"
+    ],
+    "disputed": false,
+    "notes": "Not present anywhere under main's frontier/ or docs/ (no SEAT_REGISTER/HARVEST_LEDGER row). Its dependency B1355's core geometry (CP^3/2T, E6/A1 loci, b2=1) was independently re-derived and VERIFIED on main in frontier/B1411_the_sm_seats_v10_arcs_harvested. The Hantzsche-Wendt/Y3 substrate was independently corroborated on main via a different route in frontier/B1414_the_outside_benchs_memos_185_233_harvested (Fox calculus + SnapPy, H1(Y3)=Z/4+Z/4). The arc is explicit and self-limiting about its own conditionality: 'no compact G2 closing with E6 locus Y3 and three apexes is constructed' -- the sum-rule conclusions are theorems about any such closing carrying the deck, not a proof one exists."
+  },
+  {
+    "arc": "B1357",
+    "verdict": "PROVED",
+    "headline": "compactifying the E6 fibre C^2/2T by the Hurwitz torus (the unique 2T-invariant lattice up to scale) and letting the Hantzsche-Wendt group act as the SO(4) subset G2 dictates gives a compact flat G2 orbifold with exactly one invariant spinor (N=1) and four disjoint singular loci: E6, SO(8) and SU(2) on three rigid copies of Y3, and SU(3) on a resolvable T3; b2=0, b3=4; its Z/3 descent folds SO(8) to G2 by triality and threads two compact A2 loci through every cone circle, and no C-field U(1) anywhere in this flat class carries the deck's irreducible, so B1356's generation-distinguishing U(1)^2 must be born with the curved apexes",
+    "grade_proposal": "VERIFY-BY-COMPUTATION",
+    "load_bearing": [
+      "the Hurwitz torus is the unique 2T-invariant lattice up to scale and the base twist is forced/canonical",
+      "T^4/2T singular census: 48 points in orbits E6+D4+A1+4xA2, chi=5, resolution chi=24 (K3); the three ADE loci on copies of Y3 are rigid (holonomy V4 fixes no hyperkaehler direction), SU(3) on T3 resolvable; b2=0, b3=4",
+      "the descent's web: two compact A2 loci Sigma_1, Sigma_2 (fixed tori of order-6 deck-coset elements) threading E6-SU(2)-SU(3) and E6-SO(8)-SU(3); SO(8) locus's local group is SL(2,3) (7 classes, not Q8xZ3's 15), read as triality folding D4 to G2",
+      "the deck's 2-dim irreducible occurs only on 3-forms (4 of the cover's 10), never on 2-forms, in both the flat background and its Joyce resolution"
+    ],
+    "needs_computation": [
+      "verify closure of the Hurwitz order Lambda under multiplication and that all 24 units of 2T preserve it left and right",
+      "recompute the T^4/2T fixed-point census by conjugacy class via |Fix(g)|=N(g-1)^2: expect orbit sizes 1(E6)/3(D4)/12(A1)/8x4(A2), chi=5",
+      "recompute the four local groups' orders and McKay ages along the descent's cone circles: expect 2TxZ3(72)->(15,5); Z6(1,2,3)(6)->(4,1); SL(2,3)(24)->(5,1); Z3xZ3(9)->(7,1)",
+      "independently verify the SO(8) locus's local group order 24 has 7 conjugacy classes (not 15) AND separately check by an explicit D4 root-system computation that this non-central normalising action is literally the triality outer automorphism, rather than inferring it only from the divisor count 4=2+2 -- this is the weakest link in the arc"
+    ],
+    "disputed": false,
+    "notes": "Not present anywhere under main's frontier/ or docs/ (no SEAT_REGISTER/HARVEST_LEDGER row); grep for 'Joyce orbifold', 'Taormina', 'tetrahedral Kummer' on main returns nothing relevant, and main's many 'triality' hits are all unrelated arcs (trinification/E8 contexts). One internal wrinkle noticed in the run log, not a refutation: the printed check 'type A1 ... in Gamma_y.{+-1}: False' for the order-4 fibre monodromy appears to sit alongside the FINDINGS table's claim that A1's monodromy is 'inner' -- the FINDINGS text argues inner-ness by a different route (A1 has no outer automorphism, SO(3) connected) rather than via the literal group-membership test used for the E6/D4 rows, so this is a documentation-clarity flag, not a computational error. The Hurwitz-order class-number-one/unique-lattice claim (claim 2) and the identification of the SO(8)->G2 fold with literal triality (claim 14) are the two places where the arc leans on cited/asserted facts rather than in-script computation."
+  }
+]

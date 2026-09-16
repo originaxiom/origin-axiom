@@ -1,0 +1,60 @@
+[
+  {
+    "arc": "B1360_the_companion_free_apex",
+    "verdict": "PROVED",
+    "headline": "Acharya-Witten's E7->E6 Kronheimer-unfolding cone has singular set = the E6 locus and the apex only (b2(link)=1, E6 link pairs non-trivially with the generator), so Witten's inflow applies with no A1 companion, no cone lines, no doublet parity.",
+    "grade_proposal": "VERIFY-BY-COMPUTATION (partial): root-system/centraliser inputs (E7 has 126 roots, the 72 orthogonal to the omitted node's coweight = E6's, H2=Q, centraliser of 2T in U(2) = scalars) are cleanly computed and cheap to re-check; the topological core (b2=1 via Mayer-Vietoris, non-vanishing intersection U.P) is a hand argument, not itself computed by any script, and is the item most needing independent from-scratch computation.",
+    "load_bearing": [
+      "E7's 72 roots orthogonal to the omitted node's coweight equal E6's root system exactly (computed)",
+      "H2(generic fibre; Q) = Q, one surviving curve (computed)",
+      "centraliser of 2T in U(2) is the scalars, giving non-zero circle weight on the normal (computed input, asserted geometric consequence)",
+      "b2(link)=1 and the E6 link pairs non-trivially with the generator (asserted, Mayer-Vietoris/intersection-theory prose, not scripted)"
+    ],
+    "needs_computation": [
+      "Build an explicit plumbing/toric model of the link and compute b2 directly rather than via prose Mayer-Vietoris",
+      "Compute the equivariant Euler class / weight count for the normal bundle of the E6 locus to certify integral(_U) w != 0",
+      "Recompute the centraliser of 2T in U(2) using the full order-24 group (via SL(2,3)) rather than 3 chosen generators"
+    ],
+    "disputed": false,
+    "notes": "Cited provenance claim 'Main's B1413 corrected B1355' is genuine and traced to frontier/B1413_the_audit_lanes_r21_r31/verification/readers/DOC_CHIRALITY_REFRESH.md:26 on main -- but lives in a reader sub-document, not B1413's own FINDINGS.md headline (main's actual B1413 headline is an unrelated index-theorem harvest). Not on main otherwise (B1356-B1362 all un-harvested seat material). Minor: verification script has a dead/unused code block (an early 'rows=[]' loop) preceding the actual centraliser computation -- cosmetic only."
+  },
+  {
+    "arc": "B1361_the_decks_texture",
+    "verdict": "NEGATIVE",
+    "headline": "Under the two apex-born U(1)s, only the 27_1 27_2 27_3 cubic survives, forcing a hollow (zero-diagonal) complex-symmetric tree-level mass matrix in every charged sector -- B1273's texture reached by a second route -- and B1273's bound sigma_1 <= sigma_2+sigma_3 is in fact an exact identity, refuted by the data (m3/(m2+m1) = 273, 50, 17).",
+    "grade_proposal": "VERIFY-BY-COMPUTATION: the selection-rule enumeration and the sigma_1=sigma_2+sigma_3 identity are cheap, decisive, and I independently spot-confirmed the identity numerically outside the arc's own script (5 random complex triples, e1^2-4e2 = 0 to float precision) -- solid. Flag the B1273/B1276 numbering collisions with main as a documentary hazard for the harvest process.",
+    "load_bearing": [
+      "only 27_1 27_2 27_3 is U(1)^2-invariant among the 10 symmetric cubics (computed)",
+      "with Higgs in apex 27s, resulting matrix is hollow complex symmetric (asserted modeling step)",
+      "sigma_1 = sigma_2 + sigma_3 exactly for any hollow complex symmetric 3x3 matrix (computed symbolically, independently spot-confirmed)",
+      "data ratios m3/(m2+m1) = 273 (up), 50 (down), 17 (leptons), all >> 1 (computed arithmetic on cited mass inputs)"
+    ],
+    "needs_computation": [
+      "Re-run the selection-rule enumeration independently (trivial, seconds)",
+      "Full symbolic expansion (not just numerical spot-check) of e2(MM dagger) - (tr(MM dagger)/2)^2 = 0 as a proof-grade certificate",
+      "Recompute mass ratios against an independently-sourced mass table rather than the arc's own hard-coded data dict"
+    ],
+    "disputed": true,
+    "notes": "DISPUTED/hazard (documentary, not mathematical): the seat's own B1273 (audit/wt-sm/frontier/B1273_the_three_fold_closing, 'the object's own three-fold closing') collides in number with main's completely different frontier/B1273_seat_harvest ('the seat harvest: three independent routes...'), both dated 2026-09-06. Likewise the seat's B1276_the_relations_the_chain_forces collides with main's unrelated frontier/B1276_legs_are_faces. A reader grepping main for B1273 or B1276 to check this arc's dependencies will land on the wrong document; the real dependency content exists only on the seat branch."
+  },
+  {
+    "arc": "B1362_the_hierarchy_is_u1_breaking",
+    "verdict": "PROVED",
+    "headline": "A deck-symmetric complex-symmetric Yukawa is a symmetric circulant with a degenerate eigenvalue pair, so the deck must be broken; Weyl's inequality on B1361's exact hollow identity gives ||E||_op >= (m3-m2-m1)/3 for the U(1)^2-violating part in every charged sector (~1/3 of m_t, m_b, m_tau), numerically attained -- the breaking sector is a leading effect, not a small correction.",
+    "grade_proposal": "VERIFY-BY-COMPUTATION: the circulant degeneracy and Weyl-bound arithmetic are elementary and cheap to re-check; the near-attainment (claim 5) rests on a heuristic stochastic optimizer, not a certified minimum, and should be re-run with a non-heuristic method. Soundness is conditionally inherited from B1361's identity, which I independently confirmed solid.",
+    "load_bearing": [
+      "circ(x,y,y) has eigenvalues x+2y, x-y, x-y (degenerate pair) -- computed symbolically",
+      "Weyl/Mirsky inequality applied to B1361's exact hollow identity gives m3-m2-m1 <= 3||E||_op -- cited theorem, correctly applied",
+      "numeric bounds ||E||_op >= 0.332 m_t, 0.327 m_b, 0.313 m_tau -- computed arithmetic on cited mass data",
+      "numerical near-attainment of the bound via a 60-restart adaptive random search over unitaries -- computed but heuristic, not a certified global optimum"
+    ],
+    "needs_computation": [
+      "Confirm circulant eigenvalue degeneracy by hand/sympy (trivial)",
+      "Reproduce the Weyl-bound numeric values with an independently-sourced mass table",
+      "Re-run the Takagi-frame minimization with a non-heuristic (gradient/manifold-optimization) method to confirm near-attainment is not a search artifact",
+      "Write out the 3-line chain from Mirsky's per-singular-value bound to the summed m3-m2-m1 <= 3||E|| inequality explicitly"
+    ],
+    "disputed": false,
+    "notes": "Not on main (no B1362 hits anywhere in main's frontier/ or docs/); depends on B1361 and B1356 which are also un-harvested seat material and inherit B1361's B1273/B1276 numbering-collision hazard noted in that arc's report. Weyl's inequality itself is standard, correctly invoked."
+  }
+]
