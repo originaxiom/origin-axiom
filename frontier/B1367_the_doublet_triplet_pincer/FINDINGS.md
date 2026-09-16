@@ -87,3 +87,5 @@ products, ranks by SVD over all coupling patterns and VEV supports. Lock: `tests
 **Sources.** B1276 (the operator table, §2 and §3), B1283 §3 (the light D pair on every branch), B1300 (the triplet's protection),
 B1302 (the line splits on bulk matter), B1351 (closed closings vector-like; the escape), B1352 (the escape empty on V₁₀), B1355/B1360
 (apex 27s are full 27s), B1365–B1366 (the sign theorem). The trinification form of the E₆ cubic (the standard 27³ invariant).
+
+*(Currency 2026-09-16, B1368: L216 answered: on the cusped object with the Standard Model unbroken, spin-0 sectors carry no index and the 10 and the 5̄ of SU(5) never share an SL(2)_β spin, so bulk matter is never a chiral generation; for the geometric representation Calegari's trace −2 removes the spin-½ half too. With this arc and B1351, the E₆ route from m004 has no chirality mechanism compatible with the Standard Model in the record's frames. `frontier/B1368_the_objects_own_sm_connections`.)*

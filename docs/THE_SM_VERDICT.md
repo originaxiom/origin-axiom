@@ -510,3 +510,12 @@ left it.
 > light D decays the proton (B1276 §3). Only E₆-breaking couplings acting on the matter can split them; point-localised 27s never see
 > any. Every apex design of the object is excluded, with or without 27̄s and whatever the line; B1276 §2 is a theorem; the one door is
 > chiral bulk matter on the cusped object through its ends (L216). 0 of 19 (`frontier/B1367_the_doublet_triplet_pincer`).
+
+> **Currency note (2026-09-16, B1368): the last door closed in the seat's frame.** Every flat E₆(ℂ) connection of m004 leaving the
+> Standard Model unbroken has its non-abelian part in SL(2)_β; spin-0 sectors are cusp-fixed only when trivial and carry no index; the
+> 10 and the 5̄ of SU(5) never share a spin (27: the 10 is spin 0; 78: the 5̄ is), so one half of every generation is never chiral in
+> either frame; for the geometric representation Calegari's trace −2 of the longitude (computed exactly) kills the spin-½ sectors as
+> well. The object's twisted cohomology is golden (z² − 3z + 1; z² − 4z + 1 for the geometric representation, the hyperbolic torsion
+> polynomial of 4₁) and its massless charged pairs are vector-like at those roots. With B1351 and B1367 the E₆ route from m004 has no
+> chirality mechanism compatible with the Standard Model in any frame the record has; the disc conventions (R23) remain the bridge
+> lane's. 0 of 19 (`frontier/B1368_the_objects_own_sm_connections`).

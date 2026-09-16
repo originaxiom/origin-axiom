@@ -1,5 +1,9 @@
 # Changelog
 
+## B1368 — the object's own Standard-Model connections: every SM-unbroken flat E₆(ℂ) connection of m004 has its non-abelian part in SL(2)_β; spin-0 sectors carry no chiral index and the 10 and the 5̄ of SU(5) never share a spin, so no flat connection gives a chiral generation from bulk matter; for the geometric representation Calegari's trace −2 closes the spin-½ sectors too; the twisted cohomology is golden (z² − 3z + 1, z² − 4z + 1) — L216 closed in the seat's frame
+
+Exact over ℚ(ω) (Riley, Fox calculus, Wada, the resultant for the eight λ-parabolic points); lock in about a minute.
+
 ## B1367 — the doublet–triplet pincer: with E₆-symmetric couplings among any number of 27s the up-Higgs doublets and the exotic triplets are paired by the same generation matrix (one invariant each for N and for ν^c), so every vacuum with a light Higgs has a light D and proton decay — every apex design of the object is excluded, with or without 27̄s and whatever the line; the one door is chiral bulk matter on the cusped object (L216)
 
 The cubic in trinification form, polarised; 9 300 configurations over three, four and six copies and fifteen coupling patterns, zero exceptions; lock in seconds.

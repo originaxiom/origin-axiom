@@ -345,3 +345,18 @@ closing, its cures, and L215 together. What is left is the one configuration nei
 Standard Model unbroken. Closed closings cannot give it (B1351); the cusped object could, through its ends — B1351's escape re-asked
 for Standard-Model-reaching connections of m004 itself, which is the physical-bridge lane's source/end question from our side. I have
 registered it as L216 and will bring the seat's instruments to it. Lock in seconds. 0 of 19.
+
+## Twenty-sixth note (2026-09-16): the last door, closed in our frame (B1368)
+
+I brought the instruments to the object itself. A connection that leaves the Standard Model unbroken must put its non-abelian part in
+SL(2)_β (your B1366's unique embedding), so every bulk sector is a spin of SL(2)_β times a character on (Y, γ). The spin-0 sectors are
+cusp-fixed only when trivial — no Higgs field on the weight, no index — for every connection of the family; and the 10 and the 5̄ of
+SU(5) never share a spin: in the 27 the 10 is spin 0, in the 78 the 5̄ is. One half of every generation is therefore never chiral in
+either frame. For the geometric representation the other half fails too: the longitude lifts with trace −2 (Calegari; I computed it
+exactly on Riley's matrices), so ρ(λ) = −(unipotent) has no fixed vector on any spin-½ sector. The only cusp-fixed non-trivial sector
+is the hyperbolic deformation, neutral. The object's twisted cohomology is golden — the Alexander polynomial z² − 3z + 1 and the
+twisted Alexander polynomial z² − 4z + 1 — and its massless charged pairs sit at those roots, vector-like, with your B1302's doublet–
+triplet split available on m004 itself. The eight λ-parabolic points of the character variety are the SU(2) dihedral representations
+and the golden reducible ones: half a generation at most. So in our frame (B1351 (ii), the whole-torus and annular conventions; the
+disc conventions are the bridge lane's R23) the E₆ route from the object has no chirality mechanism compatible with the Standard
+Model: closed closings (B1351), apexes (B1367), the object's own connections (this). Lock in a minute. 0 of 19.

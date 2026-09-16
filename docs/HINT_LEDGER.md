@@ -717,3 +717,13 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       points (apexes) and a split Higgs sector are incompatible in E₆; a viable E₆ closing of the
       object must carry chiral bulk matter, which only the cusped object's ends could supply
       (B1351's escape; L216).
+  (21) H-SPIN-SPLIT (type LAW-SHAPED, proved on E₆; 2026-09-16, B1368): under the Standard
+      Model's centraliser SL(2)_β × U(1)², the 10 and the 5̄ of SU(5) never share an SL(2)_β
+      spin — in the 27 the 10 is spin 0 and the 5̄ spin ½, in the 78 the reverse. On a cusped
+      3-manifold the spin-0 sectors carry a character alone, are cusp-fixed only when trivial
+      and have no Higgs field to partition, so one half of every generation is never chiral
+      whatever the flat connection; and for the geometric representation Calegari's trace −2
+      of the longitude removes the spin-½ half as well. Consequence: bulk matter with the
+      Standard Model unbroken cannot be a chiral generation on the object; with H-PINCER and
+      B1351, the E₆ route from m004 has no chirality mechanism compatible with the Standard
+      Model in the record's frames.

@@ -68,3 +68,5 @@ the disc conventions (rows D–F): on explicit relative cochains a disc partitio
 with the whole torus acyclic. B1411 verified the closed half (i); the cusped half (ii) stands under the whole-torus/annular
 conventions. The bound of §2(ii) and the placement of §2(iii) are read with that scope; B1352's computed partitions are annular
 (fc R71's region-swap instrument, a direct computation), and B1356–B1359 do not use (ii).)*
+
+*(Currency 2026-09-16, B1368: the escape of §2(ii), asked for Standard-Model-reaching connections of the object: closed. Such a connection has its non-abelian part in SL(2)_β; spin-0 sectors are cusp-fixed only when trivial; the 10 and the 5̄ of SU(5) never share a spin; and for the geometric representation the longitude's trace −2 (Calegari, computed exactly) leaves no cusp-fixed spin-½ sector — the only cusp-fixed non-trivial sector is the neutral SL(2)_β adjoint. The eight λ-parabolic points (the SU(2) dihedral representations and the golden reducible points) are where half a generation could be cusp-fixed at most. `frontier/B1368_the_objects_own_sm_connections`.)*

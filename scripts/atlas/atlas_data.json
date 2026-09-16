@@ -6344,8 +6344,10 @@
    "motifs": [
     "figure_eight",
     "eisenstein",
+    "golden",
     "z3_generation",
     "amphichiral_cp",
+    "torsion",
     "wrt_quantum"
    ],
    "refs": [
@@ -6361,7 +6363,7 @@
    "obstacle": "gauge_dict",
    "obstacle_conf": 13,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B126": {
    "slug": "ladder to physics",
@@ -6897,17 +6899,20 @@
    "motifs": [
     "closing",
     "coupling",
+    "figure_eight",
     "metallic",
     "eisenstein",
+    "golden",
     "z3_generation",
-    "amphichiral_cp"
+    "amphichiral_cp",
+    "torsion"
    ],
    "refs": [
     "L210",
     "L216"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 43,
+   "obstacle_conf": 44,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7154,7 +7159,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 2,
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7163,17 +7168,19 @@
    "motifs": [
     "monoid",
     "eisenstein",
+    "z3_generation",
     "amphichiral_cp",
     "wrt_quantum",
     "lorentzian"
    ],
    "refs": [
-    "L204"
+    "L204",
+    "L216"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 7,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "arithmetic"
   },
   "B1353": {
    "slug": "the isolated enhancement point",
@@ -7449,8 +7456,10 @@
   "B1365": {
    "slug": "the bulk of the line",
    "motifs": [
+    "monoid",
     "closing",
     "coupling",
+    "figure_eight",
     "kappa",
     "metallic",
     "eisenstein",
@@ -7466,7 +7475,7 @@
     "L216"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 18,
+   "obstacle_conf": 19,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7504,9 +7513,33 @@
     "L216"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 11,
+   "obstacle_conf": 12,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1368": {
+   "slug": "the objects own sm connections",
+   "motifs": [
+    "monoid",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "L216"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 14,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B136": {
    "slug": "general amphichirality",

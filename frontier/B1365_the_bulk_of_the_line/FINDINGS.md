@@ -179,3 +179,5 @@ one Weyl orbit; 720 commuting (A₂, A₁) pairs in one orbit; three hypercharge
 for every E₆ closing of the object with matter in 27s. `frontier/B1366_the_sign_is_e6s`.)*
 
 *(Currency 2026-09-16, B1367: the remedy of §4 (a 27̄ sector) would not have sufficed: the doublet and triplet blocks share their generation matrix in every E₆-symmetric vacuum, so a light Higgs brings a light D whatever the singlet VEVs; the apex route is closed by B1367 and L215 with it; the door is L216. `frontier/B1367_the_doublet_triplet_pincer`.)*
+
+*(Currency 2026-09-16, B1368: the object's own version of the bulk spectrum: on m004 the SM-reaching family's charged zero modes appear only at the golden characters (Alexander z² − 3z + 1) for spin-0 sectors and at 2 ± √3 (twisted Alexander z² − 4z + 1) for spin-½ sectors — non-unitary characters, vector-like pairs, doublets separable from triplets; no chiral generation (L216 closed in the seat's frame). `frontier/B1368_the_objects_own_sm_connections`.)*

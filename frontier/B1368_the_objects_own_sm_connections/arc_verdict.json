@@ -1,0 +1,12 @@
+{
+ "id": "B1368",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": ["B1351", "B1352", "B1364", "B1365", "B1366", "B1367", "B1267", "B1269", "B1302"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE OBJECT'S OWN STANDARD-MODEL CONNECTIONS: a flat E6(C) connection of m004 leaving the Standard Model unbroken has its non-abelian part in SL(2)_beta and a character on (Y, gamma); every bulk sector is an SL(2)_beta spin times a character. Spin-0 sectors are cusp-fixed only when trivial and carry no chiral index for any flat connection; the 10 and the 5bar of SU(5) never share a spin (27: the 10 is spin 0, the 5bar spin 1/2; 78: the reverse), so in either matter frame one half of every generation is never chiral -- no chiral generation from bulk matter with the SM unbroken. For the geometric (Riley) representation the longitude lifts with trace -2 (Calegari; computed exactly), so rho(lambda) = -(unipotent) has no fixed vector and no spin-1/2 sector is cusp-fixed either: the only cusp-fixed non-trivial sector is the neutral SL(2)_beta adjoint (h^1 = 1). The object's twisted cohomology is golden: the Alexander polynomial z^2 - 3z + 1 (roots phi^{+-2}) and the geometric representation's twisted Alexander polynomial z^2 - 4z + 1 (roots 2 +- sqrt 3) give the non-unitary characters at which SM-charged bulk pairs become massless, vector-like, with a doublet-triplet split available on the object itself (B1302's mechanism). The lambda-parabolic points of the character variety are eight: the four SU(2) dihedral representations (unitary) and the four golden reducible points, where at most half a generation could be cusp-fixed. L216 closed in the seat's frame (B1351 (ii), whole-torus/annular conventions; the disc-convention adjudication is the bridge lane's): with B1351 and B1367 the E6 route from m004 has no chirality mechanism compatible with the Standard Model in any frame the record has. 0 of 19."
+}

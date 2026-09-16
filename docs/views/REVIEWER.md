@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1215** |
-| words of findings prose | **897,508** |
-| test lock files referenced | **729** |
-| arcs carrying an authored verdict | **1215** (100.0 %) |
+| research arcs with findings | **1216** |
+| words of findings prose | **900,077** |
+| test lock files referenced | **730** |
+| arcs carrying an authored verdict | **1216** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 801 |
-| NEGATIVE | 316 |
+| NEGATIVE | 317 |
 | OPEN | 87 |
 | RETRACTED | 11 |
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE SIGN IS E6'S: the Standard Model embeds in E6 in one way up to conjugacy -- the 120 A2 root subsystems of E6 form one Weyl orbit, the 720 commuting (A2, A1) pairs form one orbit (every root A1 in the centraliser A2 x A2 gives 27 -> 6x2 + 15x1), and exactly three hypercharges in the 3-dimensional commutant Cartan give the 27 the Standard Model's multiset (one per choice of e^c among the three colour-weak singlets), permuted by the residual su(3)_R. For each, the roots commuting with the SM and Y-neutral are one pair +-beta, the 27's two SM singlets differ by beta (an SU(2)_beta doublet) and carry equal non-zero charge under the remaining U(1)', and the 78's SM singlets are U(1)'-neutral. Hence B1365's D-term sign theorem -- U(1)' unbroken by any tree-level SM-preserving VEV in a theory of 27s and 78s -- and its two exclusions (no seesaw with y_nu = y_u; exotic triplets at the soft scale with diquark and leptoquark couplings) hold for every E6 closing of the object whose matter is in 27s, whatever the line and whatever the reading of hypercharge; B1269's c(SM) = 5 and 13 and B1283's (beta, gamma) table are universal. Only 27-bars change the sign (L215). 0 of 19.  
 `B1366_the_sign_is_e6s/FINDINGS.md`
 
-**NEGATIVE — `B1367`** (1487 words, 1 locks)  
-THE DOUBLET-TRIPLET PINCER: in trinification form the E6 cubic det L + det Q + det Q^c + Tr(Q L Q^c) pairs N with (H_u, H_d) and with (D, Dbar), and nu^c with (L, H_u) and with (D, d^c), each pair with equal magnitude (one invariant each); with n copies of the 27 and any symmetric coupling tensor the doublet block (H_u; H_d, L) and the triplet block (D; Dbar, d^c) are G x S_D and G x S_T with the same generation matrices, so light up-Higgs doublets = light exotic triplets in every vacuum where only N and nu^c take VEVs -- checked in 9 300 configurations (n = 3, 4, 6; fifteen coupling patterns including the deck's hollow one; every VEV support at n = 3): zero violations, and every vacuum with a light Higgs has at least one light D. A light D carries the cubic's diquark and leptoquark couplings (B1276 par. 3) and proton decay needs it above 1e15 GeV. Only E6-breaking couplings acting on the matter can split the blocks; point-localised 27s never see them (full 27s; holonomy factors act as one E6 element per 27; the U(1)^2-breaking sector is E6-neutral), so every apex design of the object is excluded, with or without 27-bars and whatever the line. Bulk matter can be split by a line (B1302) but is vector-like on closed closings (B1351): the one door is chiral bulk matter on the cusped object through its ends -- L216. 0 of 19.  
-`B1367_the_doublet_triplet_pincer/FINDINGS.md`
+**NEGATIVE — `B1368`** (2102 words, 1 locks)  
+THE OBJECT'S OWN STANDARD-MODEL CONNECTIONS: a flat E6(C) connection of m004 leaving the Standard Model unbroken has its non-abelian part in SL(2)_beta and a character on (Y, gamma); every bulk sector is an SL(2)_beta spin times a character. Spin-0 sectors are cusp-fixed only when trivial and carry no chiral index for any flat connection; the 10 and the 5bar of SU(5) never share a spin (27: the 10 is spin 0, the 5bar spin 1/2; 78: the reverse), so in either matter frame one half of every generation is never chiral -- no chiral generation from bulk matter with the SM unbroken. For the geometric (Riley) representation the longitude lifts with trace -2 (Calegari; computed exactly), so rho(lambda) = -(unipotent) has no fixed vector and no spin-1/2 sector is cusp-fixed either: the only cusp-fixed non-trivial sector is the neutral SL(2)_beta adjoint (h^1 = 1). The object's twisted cohomology is golden: the Alexander polynomial z^2 - 3z + 1 (roots phi^{+-2}) and the geometric representation's twisted Alexander polynomial z^2 - 4z + 1 (roots 2 +- sqrt 3) give the non-unitary characters at which SM-charged bulk pairs become massless, vector-like, with a doublet-triplet split available on the object itself (B1302's mechanism). The lambda-parabolic points of the character variety are eight: the four SU(2) dihedral representations (unitary) and the four golden reducible points, where at most half a generation could be cusp-fixed. L216 closed in the seat's frame (B1351 (ii), whole-torus/annular conventions; the disc-convention adjudication is the bridge lane's): with B1351 and B1367 the E6 route from m004 has no chirality mechanism compatible with the Standard Model in any frame the record has. 0 of 19.  
+`B1368_the_objects_own_sm_connections/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

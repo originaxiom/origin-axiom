@@ -229,3 +229,8 @@ is excluded by these rows unless it acquires a 27̄ sector (L215), in which case
 triplet mass blocks share their generation matrix in every E₆-symmetric vacuum (9 300 configurations, zero exceptions), so a light Higgs
 comes with a light D and proton decay. The row's owner is chiral bulk matter on the cusped object (L216), where a line can split (B1302).
 `frontier/B1367_the_doublet_triplet_pincer`.*
+
+*Currency 2026-09-16 (B1368): item 1 (three chiral 27s) — the last route in the record closed in the seat's frame: bulk matter on the
+cusped object with the Standard Model unbroken is never a chiral generation (the 10 and the 5̄ never share an SL(2)_β spin; spin-0
+sectors carry no index; Calegari's −2 for the geometric representation). With B1351 and B1367, no frame of the record supplies item 1
+together with a split Higgs sector. `frontier/B1368_the_objects_own_sm_connections`.*

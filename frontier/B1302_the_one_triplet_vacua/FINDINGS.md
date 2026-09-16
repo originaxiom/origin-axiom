@@ -109,3 +109,5 @@ pairs.
   the couplings), B1278, B1276 (the one-coupling cubic), B1277.
 
 *(Currency 2026-09-16, B1367: this arc's one-triplet vacua are the only splitting mechanism the record has: a Wilson line acting on bulk matter. B1367 shows nothing can split point-localised matter (the doublet and triplet blocks share their generation matrix), so a chiral closing with a split Higgs sector needs chiral bulk matter — the cusped object's ends (L216), where this arc's instrument would be re-run on the twisted cohomology of the knot group. `frontier/B1367_the_doublet_triplet_pincer`.)*
+
+*(Currency 2026-09-16, B1368: this arc's mechanism exists on the object itself: with two complex parameters a doublet weight of the SM-reaching family can be brought to the Alexander root φ² while every triplet weight stays off the roots — a doublet–triplet split on m004, vector-like, and without a chiral generation to serve. `frontier/B1368_the_objects_own_sm_connections`.)*

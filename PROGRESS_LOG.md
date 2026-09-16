@@ -14929,3 +14929,15 @@ minimum light D with a light H_u = 1, no configuration with a Higgs, no light D 
 apex route) + PROVED. Surfaces (OPEN_LEADS L215 closed, L216 registered; THE_CLOSING §0/§1/§6.11; THE_SM_VERDICT; CHIRALITY_MAP §6q;
 the spec ledger; the letter's twenty-fifth note; the view; the destination ledger; hint 20), currency notes on B1276, B1283, B1300,
 B1302, B1355, B1360, B1365, B1366. Lock (seconds). 0 of 19.
+
+### B1368 — the object's own Standard-Model connections: L216 closed in the seat's frame (2026-09-16)
+
+Exact over ℚ(ω): the Riley representation on ⟨a, b | a w b⁻¹ w⁻¹⟩ (relator holds), the longitude w w* with trace −2 (Calegari) and
+λ = −(unipotent); the sector census under SL(2)_β × SU(6) (78: 30 + 5 / 40 / 2 + 1; 27: 15 / 12); the SM-reaching condition (six lines
+in ℂ²); Fox calculus with a symbolic character: Alexander polynomial z² − 3z + 1 (roots φ^{±2}; h¹ = 1 there, (1,1) at z = 1), Wada's
+twisted Alexander polynomial z² − 4z + 1 for V₂ ⊗ ℂ_z (roots 2 ± √3; h¹ = 1 there; 0 at z = ±1), h¹(Ad ρ) = 1; cusp-fixed dimensions
+(spin 0: only z = 1; spin ½: never; spin 1: one); the frame theorem (27: 10 spin 0, 5̄ spin ½; 78: 10 spin ½, 5̄ spin 0); Riley's form
+and the resultant m⁶(m² + 1)⁴(m² − m − 1)²(m² + m − 1)²: eight λ-parabolic points (the SU(2) dihedral representations at m = ±i, the
+golden reducible points at m = ±φ^{±1}), ρ(λ) = 1 at all. Verdict NEGATIVE (L216 in the seat's frame) + PROVED; surfaces (OPEN_LEADS,
+THE_CLOSING §0/§1/§6.12, THE_SM_VERDICT, CHIRALITY_MAP §6r, the spec ledger, the letter's twenty-sixth note, the view, the destination
+ledger, hint 21), currency notes on B1351, B1352, B1269, B1302, B1365, B1367, B1268. Lock (~1 min). 0 of 19.

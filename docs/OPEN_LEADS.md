@@ -2758,3 +2758,13 @@ connection carries a net three of a generation's worth, and whether the line the
 cusped object's twisted cohomology, the Fox calculus of B1365 on the knot group with the peripheral data). The seat's instruments
 transfer directly; the physical-bridge lane's source/end selection is the same question from the other side.
 
+**L216 status 2026-09-16 (B1368): CLOSED in the seat's frame.** Every flat E₆(ℂ) connection of m004 leaving the Standard Model
+unbroken has its non-abelian part in SL(2)_β; its bulk sectors are SL(2)_β-spins times characters. Spin-0 sectors are cusp-fixed only
+when trivial and carry no index for any connection; the 10 and the 5̄ of SU(5) never share a spin (27: 10 spin 0, 5̄ spin ½; 78: the
+reverse), so one half of every generation is never chiral in either frame; for the geometric representation Calegari's trace −2 of the
+longitude (computed exactly) kills the spin-½ sectors too. The object's twisted cohomology is golden (Alexander z² − 3z + 1, twisted
+Alexander z² − 4z + 1) and its massless charged pairs sit at those non-unitary roots, vector-like; the eight λ-parabolic points are the
+SU(2) dihedral representations and the golden reducible points (half a generation at most). With B1351 and B1367: the E₆ route from
+m004 has no chirality mechanism compatible with the Standard Model in any frame the record has. The disc-convention adjudication
+(R23) remains the physical-bridge lane's. `frontier/B1368_the_objects_own_sm_connections`.
+

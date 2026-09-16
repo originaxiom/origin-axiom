@@ -31,6 +31,9 @@ excluded** (B1365, §6.8; L215).
 And a cure would not have sufficed: the exotic triplets are paired with the Higgs doublets by the same generation matrix in every
 E₆-symmetric vacuum (B1367, §6.11), so every design with its E₆-charged matter at points is excluded — the door that remains is
 chiral bulk matter on the cusped object (L216).
+And that door is closed too, in the seat's frame (B1368, §6.12): with the Standard Model unbroken the 10 and the 5̄ of SU(5) never share
+an SL(2)_β-spin, spin-0 sectors carry no chiral index, and for the geometric representation Calegari's trace −2 kills the spin-½
+sectors as well. The E₆ route from m004 has no chirality mechanism compatible with the Standard Model in any frame the record has.
 
 ## 1. The ledger
 
@@ -54,6 +57,7 @@ chiral bulk matter on the cusped object (L216).
 | The line's U(1)′ is U(1)_η with B1283's Z′ charges (family-universal); the bulk H¹(Y₃; 78_ρ) is three exactly flat moduli plus one vector-like (3,1)_{−1/3} pair, never a doublet, the (2,20) sector empty; the U(1)_η D-term has one sign on the 27's singlets — no seesaw, neutrinos at the up-quark masses without a 27̄ sector; every combined line breaks the deck (288 of 288) | PROVED (charge table, torsion census, Fox calculus, deck test) + NEGATIVE (the neutrino sector) | B1365 |
 | The Standard Model embeds in E₆ once up to conjugacy (120 A₂'s in one Weyl orbit; 720 commuting (A₂, A₁) pairs in one orbit; three hypercharges permuted by su(3)_R); in every reading the 27's two SM singlets are an SU(2)_β doublet with equal U(1)′ charge and the 78's are neutral: the sign theorem and both exclusions are E₆'s | PROVED (root system, exact) | B1366 |
 | With E₆-symmetric couplings among any number of 27s the up-Higgs doublets and the exotic triplets are paired by the same generation matrix (N: H_u–H_d and D–D̄; ν^c: L–H_u and D–d^c), so every vacuum with a light Higgs has a light D (9 300 configurations, no exception) and proton decay; only E₆-breaking on the matter splits them, which point-localised 27s never see: every apex design excluded, L216 the one door | NEGATIVE (the apex route) + PROVED (the identity) | B1367 |
+| Every SM-unbroken flat E₆(ℂ) connection of m004 has its non-abelian part in SL(2)_β; spin-0 sectors carry no index; the 10 and the 5̄ of SU(5) never share a spin (27: 10 spin 0; 78: 5̄ spin 0); for the geometric representation Calegari's −2 kills the spin-½ sectors too; twisted cohomology golden (z² − 3z + 1, z² − 4z + 1), massless charged pairs vector-like; eight λ-parabolic points (dihedral unitary, golden reducible) | NEGATIVE (L216 in the seat's frame) + PROVED (exact) | B1368 |
 | The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
 | AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1 | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
 | Its topology: singular set the E₆ locus and the apex only; b₂(link) = 1; the E₆ link pairs non-trivially with the generator (the inflow applies) | PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones) | B1360 |
@@ -171,6 +175,16 @@ those local models on a circle — vector-like.
    excluded, with or without anti-apexes, whatever the line: this closes the design of §1–§5 and L215 together. What remains is the
    one configuration the record has not computed: chiral bulk matter with the Standard Model unbroken, which closed closings cannot
    give (B1351) and which the cusped object could give only through its ends — L216.
+12. **The last door (B1368, 2026-09-16): closed in the seat's frame.** A flat E₆(ℂ) connection of m004 that leaves the Standard Model
+   unbroken has its non-abelian part in SL(2)_β and a character on (Y, γ); its bulk sectors are spins times characters. Spin-0
+   sectors are cusp-fixed only when trivial — no Higgs field on the weight, no index — for every connection; and the 10 and the 5̄ of
+   SU(5) never share a spin (in the 27 the 10 is spin 0, in the 78 the 5̄ is), so in either matter frame one half of every generation
+   is never chiral. For the geometric representation the longitude lifts with trace −2 (Calegari, computed exactly), and no spin-½
+   sector is cusp-fixed either; the only cusp-fixed non-trivial sector is the neutral hyperbolic deformation. The object's twisted
+   cohomology is golden — Alexander z² − 3z + 1, twisted Alexander z² − 4z + 1 — and its massless charged pairs sit at those
+   non-unitary roots, vector-like, with a doublet–triplet split available (B1302's mechanism on m004 itself). With B1351 (closed
+   closings vector-like) and B1367 (points cannot split), the E₆ route from the object has no chirality mechanism compatible with the
+   Standard Model in any frame the record has; the disc-convention question (R23) is the physical-bridge lane's.
 
 ## 7. The three faces, once more
 

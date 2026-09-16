@@ -107,3 +107,5 @@ computation**, bounded in advance: **|N| ≤ 1 there.**
   scripts named above.
 - **Registers:** I-26 UNEARNED, unchanged; its cusped reading is now bounded (|N| ≤ 1 near the geometric
   point) and computed (N = 0 at the reachable θ-odd point).
+
+*(Currency 2026-09-16, B1368: the bound applied to the Standard-Model-reaching connections of the object: h⁰(∂M; V) vanishes on every SM-charged spin-½ sector for the geometric representation (Calegari's −2) and on every charged spin-0 sector (non-trivial character), so N = 0 for all SM-charged sectors; the cusp-fixed count is carried by the neutral adjoint alone. `frontier/B1368_the_objects_own_sm_connections`.)*

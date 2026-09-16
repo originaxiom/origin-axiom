@@ -198,3 +198,5 @@ two block-0 locus points, 120 digits), records `fixed_locus_c1_b0_run.txt`, `fix
 *(Scoping of record 2026-09-15: where this arc concludes N_q = 0 for weights that are not cusp-fixed by citing B1351 §2(ii), that
 step holds under the whole-torus and annular conventions of ∂⁺M and not under the disc conventions (the audit lane's R23 §4, main's
 B1413); the partitions computed here (the three cusp-fixed weights, annular) are direct.)*
+
+*(Currency 2026-09-16, B1368: the escape re-asked away from the V₁₀ family, for connections that leave the Standard Model unbroken: no chiral generation — spin-0 sectors carry no index for any flat connection, the 10 and the 5̄ never share a spin, and Calegari's −2 closes the spin-½ sectors for the geometric representation. L216 closed in the seat's frame. `frontier/B1368_the_objects_own_sm_connections`.)*

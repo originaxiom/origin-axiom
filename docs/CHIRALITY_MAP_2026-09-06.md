@@ -356,6 +356,21 @@ sector is E₆-neutral). So every closing whose E₆-charged matter is at points
 is excluded, with or without 27̄s, whatever the line. Chirality (points, or the cusped object's ends) and splitting (bulk) meet only for
 chiral bulk matter: the cusped object's Standard-Model-reaching connections and their cusp-fixed weights, L216.
 
+## 6r. The object's own Standard-Model connections: the last door closed in the seat's frame (B1368, 2026-09-16)
+
+A flat E₆(ℂ) connection of m004 leaving the Standard Model unbroken has its image in c(SM) = SL(2)_β × ℂ*² (B1366): a representation
+of the knot group into SL(2)_β — the geometric one or any point of the character variety — times a character on (Y, γ); the family is
+two-complex-dimensional once the 22 non-SM roots of SU(6) carry non-trivial characters. Its bulk sectors are SL(2)_β-spins times
+characters: 78 = (3,1) ⊕ (1,35) ⊕ (2,20), 27 = (1,15) ⊕ (2,6̄). Exactly over ℚ(ω): the Riley representation satisfies the relator, the
+longitude has trace −2 (Calegari) and acts as −(unipotent); the Alexander polynomial is z² − 3z + 1 (roots φ^{±2}) and the geometric
+representation's twisted Alexander polynomial z² − 4z + 1 (roots 2 ± √3); h¹(Ad) = 1. Cusp-fixedness: spin-0 sectors only at z = 1
+(trivial, no Higgs field, N = 0); spin-½ sectors never for the geometric representation (the longitude's eigenvalue −1 twice); spin 1
+once (the neutral deformation). The frame theorem: the 10 of SU(5) is spin 0 in the 27 and spin ½ in the 78, the 5̄ the other way, so
+in either frame one half of every generation is never chiral for any flat connection of the family. The λ-parabolic points where the
+spin-½ half could be cusp-fixed are eight — the SU(2) dihedral representations (unitary) and the golden reducible points — at most half
+a generation. L216 closes in the seat's frame; the disc-convention adjudication (R23) is the physical-bridge lane's. With §1's walls,
+B1351 and §6q: the E₆ route from m004 has no chirality mechanism compatible with the Standard Model in any frame the record has.
+
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

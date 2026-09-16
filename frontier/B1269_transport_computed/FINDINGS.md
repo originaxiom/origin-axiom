@@ -127,3 +127,5 @@ theorem and the finite-image spectra fast; the 2T centralizer in the slow lane).
 *(Currency 2026-09-16, B1366: this arc's numbers are universal — the Standard Model embeds in E₆ in one way up to conjugacy (one Weyl
 orbit of A₂'s, one of commuting (A₂, A₁) pairs, three hypercharges permuted by su(3)_R), so c(s) = 5, the double centraliser 13 and the
 surviving U(1)′ are properties of E₆, not of the chain used to compute them. `frontier/B1366_the_sign_is_e6s`.)*
+
+*(Currency 2026-09-16, B1368: the transport's Standard-Model-reaching family named and computed on m004 — the geometric representation in SL(2)_β (not the principal SL(2)) times a character on (Y, γ), unbroken group exactly SM × U(1)′ for generic characters; its massless spectrum sits at the Alexander roots φ^{±2} (spin 0) and the twisted Alexander roots 2 ± √3 (spin ½), vector-like; no chiral generation. `frontier/B1368_the_objects_own_sm_connections`.)*

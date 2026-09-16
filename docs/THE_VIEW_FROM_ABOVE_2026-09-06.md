@@ -231,6 +231,17 @@ anti-apexes. Seen from above, the two halves of the record now have to meet in t
 impossible on closed closings (B1351), possible on the cusped object only through its ends, which is where the physical-bridge lane
 has been working from the other side. That is L216.
 
+**And the last door, the same day (B1368).** On the object itself, a connection that leaves the Standard Model unbroken puts its
+non-abelian part in SL(2)_β, and then the two halves of a generation never share a spin: the 10 is spin 0 in the 27, the 5̄ is spin 0
+in the 78, and spin-0 sectors — a character alone, cusp-fixed only when trivial — carry no index for any connection. For the geometric
+representation the longitude's trace −2 (Calegari) takes the other half too. What the object does carry is golden: its Alexander
+polynomial z² − 3z + 1 and its twisted Alexander polynomial z² − 4z + 1 name the non-unitary characters where Standard-Model-charged
+pairs become massless, vector-like, doublets separable from triplets. Seen from above: the object fixes E₆, the 27 and its one
+coupling, the unique embedding of the Standard Model, the Standard Model's own line, U(1)_η and the shape of the textures — and in
+every frame the record has (closed closings, apexes, the object's ends), it withholds a chiral generation that survives the Higgs
+sector. The one question left open is not the seat's: the disc conventions of the boundary term, which the physical-bridge lane is
+adjudicating.
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with
