@@ -123,3 +123,7 @@ theorem and the finite-image spectra fast; the 2T centralizer in the slow lane).
   B952 (rank), B1250 (the D₂ stabiliser).
 - **Registers:** I-26 UNEARNED, price sharpened (both halves computed; the remaining price is the named conical
   object).
+
+*(Currency 2026-09-16, B1366: this arc's numbers are universal — the Standard Model embeds in E₆ in one way up to conjugacy (one Weyl
+orbit of A₂'s, one of commuting (A₂, A₁) pairs, three hypercharges permuted by su(3)_R), so c(s) = 5, the double centraliser 13 and the
+surviving U(1)′ are properties of E₆, not of the chain used to compute them. `frontier/B1366_the_sign_is_e6s`.)*

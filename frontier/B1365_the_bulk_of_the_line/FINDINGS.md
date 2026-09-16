@@ -172,3 +172,8 @@ apexes' 27³ coupling is order one — working against a suppressed pairing. Cor
 through B1276 §3 — m_D = λ⟨N⟩ ≲ TeV with both diquark and leptoquark couplings gives τ_p ~ 10⁻¹² s, and the unbroken group is the
 connected S(U(3) × U(2) × U(1)) (C(Q₈) = SU(6); Steinberg), so no discrete remnant separates the two classes. And the line cannot supply
 the up-quark hierarchy: Q, u^c, H_u are β-neutral, so it enters the up-type Yukawa by phases only (B1361's identity stands).)*
+
+*(Currency 2026-09-16, B1366: the sign theorem is embedding-independent — the Standard Model sits in E₆ once up to conjugacy (120 A₂'s in
+one Weyl orbit; 720 commuting (A₂, A₁) pairs in one orbit; three hypercharges permuted by the residual su(3)_R), and in every reading the
+27's two SM singlets are an SU(2)_β doublet with equal U(1)′ charge while the 78's are neutral. §4's theorem and the two exclusions hold
+for every E₆ closing of the object with matter in 27s. `frontier/B1366_the_sign_is_e6s`.)*

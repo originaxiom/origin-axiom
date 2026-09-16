@@ -703,3 +703,7 @@ level-5 test. The zero is NOT forced by B599's selection rule — mechanism open
       the up-quark masses through the E₆ cubic's one coupling. The law-shaped part is the sign; the
       remedy is structural (27̄s: anti-apexes or the tower's h¹ pairs, L215). Fenced until a 27̄
       sector is computed on the design.
+      B1366: the embedding of the Standard Model in E₆ is unique up to conjugacy (one Weyl
+      orbit of A₂'s and of commuting (A₂, A₁) pairs; three hypercharges permuted by su(3)_R), so
+      the sign holds for every reading of hypercharge — the hint's law-shaped part is now a
+      theorem of E₆ with 27s; the fence stays on the remedy.

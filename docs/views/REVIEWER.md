@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1213** |
-| words of findings prose | **894,036** |
-| test lock files referenced | **727** |
-| arcs carrying an authored verdict | **1213** (100.0 %) |
+| research arcs with findings | **1214** |
+| words of findings prose | **895,509** |
+| test lock files referenced | **728** |
+| arcs carrying an authored verdict | **1214** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 800 |
+| PROVED | 801 |
 | NEGATIVE | 315 |
 | OPEN | 87 |
 | RETRACTED | 11 |
@@ -65,11 +65,11 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1364`** (1816 words, 1 locks)  
-THE LEVEL MISMATCH RESOLVED: on the E6 root system (SO(10) x U(1) coordinates, 72 roots) the Standard Model's centraliser is su(2)_beta + u(1)^2 (beta the SO(10)-singlet weight of the 16; dimension 5 = B1269's c(s)), the centraliser of su(2)_beta is su(6) (30 roots), a Q_8 placed in SU(2)_beta has centraliser SU(6), and an order-4 element of the u(1)^2 kills exactly the eight Standard-Model roots among su(6)'s thirty, so the flat connection (rho_{Q_8} into SU(2)_beta) x (an order-4 character of H_1 = (Z/4)^2) leaves exactly su(3) + su(2) + u(1)_Y + u(1)' -- the 13-dimensional minimum B1269 proved no flat connection can beat. Y_3's Fibonacci group F(2,6) has 24 surjections onto Q_8 (the Hantzsche-Wendt holonomy lifted; none onto 2T), each deck-invariant up to 2T-conjugation, while the 12 order-4 characters are permuted by the deck without fixed points: the combined line breaks the deck as B1362 requires. With the three chiral 27s at the apexes rather than in h^1 (B1355-B1360), B1277's price does not arise: the design's closing carries both the three and the breaking E6 -> SM x U(1)'. The descent cannot: its order-3 characters leave at least 17. The compact closing remains unconstructed; the U(1)'-charges, the 5+5-bar masses and the doublet-triplet splitting are the U(1)^2-breaking sector's. 0 of 19.  
-`B1364_the_level_mismatch_resolved/FINDINGS.md`
+**PROVED — `B1366`** (1277 words, 1 locks)  
+THE SIGN IS E6'S: the Standard Model embeds in E6 in one way up to conjugacy -- the 120 A2 root subsystems of E6 form one Weyl orbit, the 720 commuting (A2, A1) pairs form one orbit (every root A1 in the centraliser A2 x A2 gives 27 -> 6x2 + 15x1), and exactly three hypercharges in the 3-dimensional commutant Cartan give the 27 the Standard Model's multiset (one per choice of e^c among the three colour-weak singlets), permuted by the residual su(3)_R. For each, the roots commuting with the SM and Y-neutral are one pair +-beta, the 27's two SM singlets differ by beta (an SU(2)_beta doublet) and carry equal non-zero charge under the remaining U(1)', and the 78's SM singlets are U(1)'-neutral. Hence B1365's D-term sign theorem -- U(1)' unbroken by any tree-level SM-preserving VEV in a theory of 27s and 78s -- and its two exclusions (no seesaw with y_nu = y_u; exotic triplets at the soft scale with diquark and leptoquark couplings) hold for every E6 closing of the object whose matter is in 27s, whatever the line and whatever the reading of hypercharge; B1269's c(SM) = 5 and 13 and B1283's (beta, gamma) table are universal. Only 27-bars change the sign (L215). 0 of 19.  
+`B1366_the_sign_is_e6s/FINDINGS.md`
 
-**NEGATIVE — `B1365`** (3193 words, 1 locks)  
+**NEGATIVE — `B1365`** (3274 words, 1 locks)  
 THE BULK OF THE LINE: B1364's unbroken U(1)' is the Cartan direction gamma orthogonal to the Standard Model, to Y and to beta; its charges on the eleven field types of the 27 are B1283's (beta, gamma) table exactly and gamma = (2 sqrt 15 / 3) Q_eta -- the eta model, the U(1) of Witten's rank-5 Wilson-line breaking (B1283's Z' was this direction plus a family part; here it is family-universal, with ATLAS's m_{Z'_eta} > 4.5 TeV applying directly). The torus exp(u(1)^2) has twelve order-4 elements, four of which reach exactly the Standard Model, and all four square to one triplet-type involution; by Fox calculus on F(2,6) (controls: b_1 = 0, the three sign characters h^1 = 1, the twelve order-4 characters 0) the bulk H^1(Y_3; 78_rho) of every SM-reaching line is three neutral exactly-flat moduli (Ad rho_{Q_8}, W = kappa phi_1 phi_2 phi_3, three explicit families of flat connections) plus one vector-like colour-triplet pair (3,1)_{-1/3} + conj with no tree-level mass source -- never a doublet, and the (2,20) sector is empty. The D-term sign theorem: the only E6-charged SM singlets are the apex 27s' N and nu^c, both with gamma = -5/3, so no tree-level VEV breaks U(1)_eta above the soft scale; since U(1)_eta charges nu^c (unlike U(1)_N), the Majorana mass is forbidden, there is no seesaw, and B1276's one coupling ties L nu^c H_u to Q u^c H_u: the three-apex design predicts neutrinos at the up-quark masses and is excluded as it stands. Remedy registered as L215 (a 27-bar sector: nine apexes, or the tower's h^1 pairs on an E7/E8 locus). The deck test: all 288 combined lines differ from their deck images in the 27-character (no E6-conjugacy): the deck is broken by the line alone. 0 of 19.  
 `B1365_the_bulk_of_the_line/FINDINGS.md`
 

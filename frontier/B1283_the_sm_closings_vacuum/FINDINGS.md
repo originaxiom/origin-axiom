@@ -110,3 +110,7 @@ the E₆ weights, and β is the inert U(1)_I. On the apex design's Y₃ line (B1
 flavons). This arc's nine paired branches existed because the 27̄s of h¹ supplied N̄, ν̄^c with the opposite γ; the apex design has no
 27̄s, and B1365's sign theorem shows it then has no U(1)_η-breaking direction at all — hence no seesaw and neutrinos at the up-quark
 masses (L215). `frontier/B1365_the_bulk_of_the_line`.)*
+
+*(Currency 2026-09-16, B1366: the (β, γ) table is universal — for every embedding of the Standard Model in E₆ (one up to conjugacy) the
+27's two SM singlets are an SU(2)_β doublet with equal γ; the Z′ = Z_η identification of B1365 and the sign theorem hold in every reading
+of hypercharge. `frontier/B1366_the_sign_is_e6s`.)*

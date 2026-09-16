@@ -2731,3 +2731,9 @@ remnant — and the apex U(1)² charge every component of a 27 alike, so their d
 tell D Q Q from D̄ L Q. The E₆SSM's Z₂^B or Z₂^L would have to be imposed by hand. Any cure of the neutrino wall through a 27̄ sector
 must also raise ⟨N⟩ to 10¹⁵ GeV for the triplets, which is the same flat direction the wall concerns.
 
+**L215 status 2026-09-16 (B1366): the sign is E₆'s.** The Standard Model embeds in E₆ once up to conjugacy (the 120 A₂'s one Weyl
+orbit; the 720 commuting (A₂, A₁) pairs one orbit; exactly three hypercharges give the 27 a generation, permuted by the residual
+su(3)_R), and in every reading the 27's two SM singlets are an SU(2)_β doublet with equal U(1)′ charge while the 78's are neutral. So
+the sign theorem and both exclusions hold for every E₆ closing of the object with matter in 27s, whatever the line and whatever the
+hypercharge; only 27̄s change the sign. `frontier/B1366_the_sign_is_e6s`.
+

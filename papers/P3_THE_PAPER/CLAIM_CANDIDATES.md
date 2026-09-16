@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1113 settled arcs — 74%** —
+the field is **absent on 828 of 1114 settled arcs — 74%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (122) = 545 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (123) = 546 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -17,7 +17,7 @@ discriminates, so it is not noise. Had it not, the rebuild would have reported i
 synthesis surface · **V** reached only by the law-vocabulary criterion (the arcs the old base
 could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an editorial call.
 
-## §3 forced — the chain and its landing (56)
+## §3 forced — the chain and its landing (57)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -77,6 +77,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1253` | PROVED | S | | THE GEOMETRY OF THE FOREIGN 16s IS RIGID -- AND IT IS *NOT* A GENERATION COUNT. THIS ARC'S DRAFT HEADLINE WAS 'the generation count is forced at three' AND IT IS REFUTED,… |
 | `B1261` | PROVED | S | | THE PRICE, COMPUTED: FIFTEEN UNPRICED INPUTS BOUGHT ZERO OF NINETEEN NUMBERS. JOIN 2's lead closed NEGATIVE first -- n in kappa = 2 + n^2 is NOT object-determined, n = 1.… |
 | `B1358` | PROVED | S | | THE E6 APEX FAMILY: the twistor cones of S^4/(2T x Gamma_R), Gamma_R in {1, Z2, Z3, Z4, Z6, Q8, 2T}, are G2 cones whose first pole carries E6 and whose second pole carrie… |
+| `B1366` | PROVED | S | | THE SIGN IS E6'S: the Standard Model embeds in E6 in one way up to conjugacy -- the 120 A2 root subsystems of E6 form one Weyl orbit, the 720 commuting (A2, A1) pairs for… |
 
 ## §5 withheld — the value wall and the rank wall (121)
 

@@ -14910,3 +14910,11 @@ Correction of the L215 status: the "(27 27̄)²/M cap" is not automatic in M-the
 wall is a hierarchy of cycle actions (pairing ≲ soft, quartic ≈ e^{−25}, seesaw operator unsuppressed) against the zero-volume cycles of
 one unresolved E₆ locus. The line cannot supply the up-quark hierarchy (Q, u^c, H_u β-neutral: phases only). THE_CLOSING §6.8 corrected,
 §6.9–6.10 added; currency notes on B1276, B1361, B1364, B1365; the verdict's note. 0 of 19.
+
+### B1366 — the sign is E₆'s: the Standard Model embeds in E₆ once up to conjugacy, so B1365's sign theorem is embedding-independent (2026-09-16)
+
+120 A₂ root subsystems of E₆ in one Weyl orbit (simple reflections); the centraliser of one is A₂ × A₂; all six positive roots of it give
+27 → 6·2 + 15·1; 720 commuting (A₂, A₁) pairs in one orbit; exactly three hypercharges in the 3-dim commutant Cartan give the 27 the SM's
+multiset (one per choice of e^c), permuted by the reflections of su(3)_R; for each: ±β, γ, the two singlets β = ±1 with equal non-zero γ
+and difference ±β, the 78's singlets γ = 0. Verdict PROVED; surfaces (OPEN_LEADS L215 status, THE_CLOSING §1/§6.9, THE_SM_VERDICT,
+CHIRALITY_MAP §6p, the spec ledger, the letter's twenty-fourth note, hint 19), currency notes on B1365, B1269, B1283. Lock (seconds). 0 of 19.

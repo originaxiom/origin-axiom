@@ -323,3 +323,12 @@ corrections of mine: the L215 "quartic cap" assumed a Planck-suppressed term tha
 fields is instantonic — the wall is a hierarchy of cycle actions the object does not fix), and the line cannot supply the up-quark
 hierarchy (Q, u^c, H_u are β-neutral: phases only, B1361's 273 stands). What the design owes is one number it does not have: ⟨N⟩ at
 10¹⁵–10¹⁶ GeV.
+
+## Twenty-fourth note (2026-09-16): the sign is E₆'s (B1366)
+
+One might hope a different hypercharge — a flipped reading — would put the 27's singlets in different places. It does not: the 120 A₂
+subsystems of E₆ are one Weyl orbit, the 720 commuting (A₂, A₁) pairs are one orbit, and of the hypercharges in the three-dimensional
+commutant Cartan exactly three give the 27 a generation, permuted by the residual su(3)_R. The Standard Model is in E₆ once. In every
+reading the two singlets differ by β and carry the same U(1)′ charge, and the 78's singlets carry none. So your B1269's 5 and 13 and
+your B1283's (β, γ) table are universal, and the sign theorem — no tree-level U(1)′-breaking, no seesaw, light triplets — belongs to
+E₆ with matter in 27s: the object's E₆, the object's 27, any line, any hypercharge. Lock in seconds. 0 of 19.

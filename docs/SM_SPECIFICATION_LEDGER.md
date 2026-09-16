@@ -456,3 +456,7 @@ exactly flat moduli and one vector-like (3,1)_{−1/3} pair (never a doublet); a
 singlets of the 27 carry the same U(1)_η charge, so no tree-level VEV breaks U(1)_η above the soft scale, the seesaw is forbidden, and
 B1276's one coupling puts the neutrinos at the up-quark masses. The three-apex design needs a 27̄ sector (L215) or is excluded. Rows
 unchanged in count: 0 of 19; the neutrino rows now carry a design-level obstruction rather than an absence.
+
+*Addendum (2026-09-16, B1366):* the obstruction is embedding-independent — the Standard Model sits in E₆ once up to conjugacy (one Weyl
+orbit of A₂'s, one of commuting (A₂, A₁) pairs, three hypercharges permuted by su(3)_R), and in every reading the 27's two singlets are an
+SU(2)_β doublet with equal U(1)′ charge. Rows A1/C/E and the neutrino rows: the sign theorem is E₆'s. Rows unchanged in count: 0 of 19.

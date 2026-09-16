@@ -495,3 +495,10 @@ left it.
 > joining apex fields are instantonic; the wall is a hierarchy of cycle actions the object does not fix), and the line cannot supply the
 > up-quark hierarchy (Q, u^c, H_u are β-neutral: phases only; B1361's 273 stands). 0 of 19; the three-apex design with the η line is
 > excluded twice by one sign (`docs/OPEN_LEADS.md` L215; `docs/THE_CLOSING_2026-09-15.md` §6.9–6.10).
+
+> **Currency note (2026-09-16, B1366): the sign is E₆'s.** The Standard Model embeds in E₆ in one way up to conjugacy (the 120 A₂
+> subsystems one Weyl orbit; the 720 commuting (A₂, A₁) pairs one orbit; exactly three hypercharges give the 27 a generation, permuted
+> by the residual su(3)_R), and for each the 27's two SM singlets are an SU(2)_β doublet with equal U(1)′ charge while the 78's SM
+> singlets are neutral. B1365's sign theorem and its two exclusions therefore hold for every E₆ closing of the object with matter in
+> 27s, whatever the line and whatever the reading of hypercharge; B1269's c(SM) = 5 and 13 and B1283's (β, γ) table are universal. 0
+> of 19 (`frontier/B1366_the_sign_is_e6s`).

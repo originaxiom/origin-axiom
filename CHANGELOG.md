@@ -1,5 +1,9 @@
 # Changelog
 
+## B1366 — the sign is E₆'s: the Standard Model embeds in E₆ once up to conjugacy (120 A₂'s in one Weyl orbit, 720 commuting (A₂, A₁) pairs in one orbit, three hypercharges permuted by su(3)_R), so in every reading the 27's two singlets are an SU(2)_β doublet with equal U(1)′ charge and B1365's sign theorem with its two exclusions is embedding-independent
+
+Exact on the root system; lock in seconds.
+
 ## The second exclusion (2026-09-16): B1365's sign theorem caps ⟨N⟩ at the soft scale, so the exotic triplets are light and B1276's D-mediated proton decay is at 10⁻¹² s — the three-apex design is excluded twice by one sign; the unbroken group is connected (no matter parity); the L215 "quartic cap" corrected to a hierarchy of instanton actions; the line cannot supply the up-quark hierarchy
 
 Analysis on banked computations (B1276, B1364, B1365); no new arc. THE_CLOSING §6.8–6.10, OPEN_LEADS L215, currency notes.

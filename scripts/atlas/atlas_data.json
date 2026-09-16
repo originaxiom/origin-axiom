@@ -7465,6 +7465,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1366": {
+   "slug": "the sign is e6s",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L215"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B136": {
    "slug": "general amphichirality",
    "motifs": [

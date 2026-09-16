@@ -331,6 +331,18 @@ is a 27̄ sector — anti-apexes (nine apexes, since the deck is free on them) o
 L215. The deck: no combined line is E₆-conjugate to its deck image (the 27-character differs for all 288), so the three apexes are
 made inequivalent by the line alone.
 
+## 6p. The sign is E₆'s (B1366, 2026-09-16)
+
+The last loophole of §6o closed. su(3)_c must be a root A₂ of E₆ (27 → 3·3 + 3·3̄ + 9·1 has embedding index one) and su(2)_L a root A₁
+commuting with it; the 120 A₂'s of E₆ form one Weyl orbit, the centraliser of one is A₂ × A₂, every one of its six positive roots gives
+27 → 6·2 + 15·1, and the 720 commuting pairs form one orbit. Hypercharge lives in the three-dimensional commutant Cartan and must give
+the 27 the Standard Model's multiset; exactly three vectors do — one for each colour-weak singlet chosen as e^c — and the reflections of
+the residual su(3)_R permute them: the Standard Model is in E₆ once, and every "flipped" reading is a renaming. For each, the roots
+commuting with the SM and Y-neutral are one pair ±β, the two singlets differ by β and carry equal non-zero γ, and the 78's SM singlets
+have γ = 0. So the D-term sign theorem, the absent seesaw and the light exotic triplets are properties of E₆ with matter in 27s — the
+object's E₆ (B1268) and the object's 27 (B1276) — for any line and any hypercharge; only 27̄s change the sign (L215).
+
+## 7. Consequence for the destination ledger
 ## 7. Consequence for the destination ledger
 
 The chirality bit (item 1 of `docs/THE_DESTINATION_LEDGER_2026-09-06.md` §5, D3's carrier) is now excluded from:

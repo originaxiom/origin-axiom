@@ -49,6 +49,7 @@ excluded** (B1365, §6.8; L215).
 | The design's tree-level texture is hollow (only 27₁27₂27₃ survives the apex U(1)²) and σ₁ = σ₂ + σ₃ exactly: refuted; flavour needs the U(1)²-breaking sector | PROVED (selection rule, identity) + NEGATIVE | B1361 |
 | Y₃ carries a flat E₆ connection with unbroken group exactly SM × U(1)′: Q₈ (24 surjections of F(2,6)) in the SM's centraliser SU(2)_β plus an order-4 character; the deck broken by the character; the descent cannot (≥ 17) | PROVED (root system; enumeration) | B1364 |
 | The line's U(1)′ is U(1)_η with B1283's Z′ charges (family-universal); the bulk H¹(Y₃; 78_ρ) is three exactly flat moduli plus one vector-like (3,1)_{−1/3} pair, never a doublet, the (2,20) sector empty; the U(1)_η D-term has one sign on the 27's singlets — no seesaw, neutrinos at the up-quark masses without a 27̄ sector; every combined line breaks the deck (288 of 288) | PROVED (charge table, torsion census, Fox calculus, deck test) + NEGATIVE (the neutrino sector) | B1365 |
+| The Standard Model embeds in E₆ once up to conjugacy (120 A₂'s in one Weyl orbit; 720 commuting (A₂, A₁) pairs in one orbit; three hypercharges permuted by su(3)_R); in every reading the 27's two SM singlets are an SU(2)_β doublet with equal U(1)′ charge and the 78's are neutral: the sign theorem and both exclusions are E₆'s | PROVED (root system, exact) | B1366 |
 | The touching design (the SU(2) copy of Y₃ meeting the E₆ copy at three deck-related points; twistor model) | DESIGNED | B1357 §5.4, B1358 §5 |
 | AW's E₇ Kronheimer unfolding as the apex: E₆ locus alone through the apex, one 27 of charge 1 | CITED (AW §2.3; correction of record, main B1413) | B1355 (corrected) |
 | Its topology: singular set the E₆ locus and the apex only; b₂(link) = 1; the E₆ link pairs non-trivially with the generator (the inflow applies) | PROVED (homotopy argument with computed inputs; calibrated on AW's SU(N) cones) | B1360 |
@@ -148,6 +149,9 @@ those local models on a circle — vector-like.
    C(Q₈) = C(SU(2)_β) = SU(6), and centralisers of elements of the simply connected SU(6) are connected), and the apex U(1)² charge a
    27's components alike. The three-apex design is excluded twice by one sign, and both cures ask for the same thing: ⟨N⟩ at
    10¹⁵–10¹⁶ GeV along a direction the design does not have.
+   And the sign is E₆'s, not the design's (B1366): the Standard Model embeds in E₆ once up to conjugacy — one Weyl orbit of A₂'s,
+   one of commuting (A₂, A₁) pairs, three hypercharges permuted by the residual SU(3)_R — so every reading of hypercharge has the
+   same singlet doublet with the same sign; the exclusions hold for every E₆ closing of the object whose matter is in 27s.
 10. **Two structural notes (2026-09-16).** (i) The Wilson line cannot supply the up-quark hierarchy: Q, u^c and H_u are all
    SU(2)_β-singlets (β = 0 in B1365's table), so the line's holonomy acts on the up-type Yukawa by U(1)² phases alone — diagonal
    unitaries that leave the singular values of the hollow symmetric matrix and B1361's identity σ₁ = σ₂ + σ₃ (refuted by 273)

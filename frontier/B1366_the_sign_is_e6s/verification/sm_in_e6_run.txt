@@ -1,0 +1,15 @@
+E6: 72 roots, a base of 6 simple roots found
+(1) A2 root subsystems of E6: 120; Weyl orbits: 1 (sizes [120])
+(2) centraliser of su(3)_c: 12 roots forming 2 A2's (A2 x A2: the other two of the A2^3)
+    positive roots of the centraliser: 6; those with 27 -> 6 x 2 + 15 x 1 (a root su(2)_L): 6 (all of them: True)
+    pairs (A2, A1 commuting): 720; Weyl orbits: 1 -> su(3)_c + su(2)_L sits in E6 in 1 way(s) up to conjugacy
+(3) 27 under su(3)_c + su(2)_L by (colour-charged, weak-charged): {(True, True): 6, (False, False): 3, (True, False): 12, (False, True): 6}  -> (3,2): 6 weights, (3,1)+(3bar,1)x3: 12, (1,2)x3: 6, (1,1)x3: 3
+    hypercharges Y in the 3-dim commutant Cartan with the Standard Model's multiset on the 27: 3 (one per choice of e^c among the three colour-weak singlets)
+    the reflections of su(3)_R (the A2 commuting with su(3)_c + su(2)_L) permute the 3 hypercharges among themselves: True -> one embedding up to conjugacy
+(4) for each hypercharge: the roots commuting with the SM and Y-neutral, gamma, and the singlets' charges
+    e^c = weight ('1/2', '1/2', '1/2', '-1/2', '1/2'), psi 1/3c: +-beta with beta = (-1/2, -1/2, 1/2, -1/2, -1/2; 1c); singlets' beta charges ['-1', '1'], gamma charges ['1', '1'] (equal, non-zero: True); their difference is +-beta (an SU(2)_beta doublet): True; the 78's SM singlets (+-beta) have gamma = ['0']
+    e^c = weight ('1/2', '1/2', '-1/2', '1/2', '1/2'), psi 1/3c: +-beta with beta = (-1/2, -1/2, -1/2, 1/2, -1/2; 1c); singlets' beta charges ['-1', '1'], gamma charges ['1', '1'] (equal, non-zero: True); their difference is +-beta (an SU(2)_beta doublet): True; the 78's SM singlets (+-beta) have gamma = ['0']
+    e^c = weight ('0', '0', '0', '0', '0'), psi 4/3c: +-beta with beta = (0, 0, 1, -1, 0; 0c); singlets' beta charges ['1', '-1'], gamma charges ['5/2', '5/2'] (equal, non-zero: True); their difference is +-beta (an SU(2)_beta doublet): True; the 78's SM singlets (+-beta) have gamma = ['0']
+(5) for every embedding of the Standard Model in E6: the 27's two SM singlets are an SU(2)_beta doublet with equal U(1)' charge and the 78's SM singlets are U(1)'-neutral -> the U(1)' D-term has one sign on all E6-charged SM singlets of 27s and 78s: True
+
+DONE

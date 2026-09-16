@@ -114,3 +114,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-15 (later):* B1365 used (the bulk of the line; L215 registered); next arc B1366.
 
 *Update 2026-09-16 (main @ da25c4f4, B1414):* main's outside-bench harvest read; its §4 (memo 233 v2 re-derived: H₁(Y₃) = (ℤ/4)², the deck a 3-cycle on the sign classes, "b₂ ≥ 2 with the ℤ/3 moving the harmonic forms" necessary) agrees with B1356 §2 and B1357; nothing owed to this seat; B1350–B1399 stands; next arc B1366.
+
+*Update 2026-09-16 (later):* B1366 used (the sign is E₆'s); next arc B1367.
