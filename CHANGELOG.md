@@ -1,5 +1,9 @@
 # Changelog
 
+## The second exclusion (2026-09-16): B1365's sign theorem caps ⟨N⟩ at the soft scale, so the exotic triplets are light and B1276's D-mediated proton decay is at 10⁻¹² s — the three-apex design is excluded twice by one sign; the unbroken group is connected (no matter parity); the L215 "quartic cap" corrected to a hierarchy of instanton actions; the line cannot supply the up-quark hierarchy
+
+Analysis on banked computations (B1276, B1364, B1365); no new arc. THE_CLOSING §6.8–6.10, OPEN_LEADS L215, currency notes.
+
 # Changelog
 
 ## B1365 — the bulk of the line: the unbroken U(1)′ is U(1)_η with B1283's Z′ charges; the bulk H¹(Y₃; 78_ρ) is three flat moduli and one vector-like colour-triplet pair (never a doublet); every combined line breaks the deck; and the three-apex design fails the neutrino test — U(1)_η is unbreakable by its own singlets, so no seesaw and neutrinos at the up-quark masses without a 27̄ sector (L215)

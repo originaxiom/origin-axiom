@@ -315,3 +315,11 @@ gone, and your B1276's one coupling puts the neutrinos at the up-quark masses. T
 remedy is a 27̄ sector — anti-apexes (nine, the deck being free) or the tower's h¹ pairs on an E₇/E₈ locus, your closed closing's
 vector-like sector joined to the apex design — registered as L215. The deck test closes B1364's second question: no combined line is
 E₆-conjugate to its deck image (288 of 288). Lock in seconds. 0 of 19.
+
+*Postscript (2026-09-16).* The sign that forbids the seesaw forbids the triplet masses too: your B1276 §3 needs m_D = λ⟨N⟩ ≳ 10¹⁵ GeV
+against D-mediated proton decay, and ⟨N⟩ cannot pass the soft scale, so τ_p ~ 10⁻¹² s — the design is excluded twice by one sign. No
+discrete gauge symmetry rescues it: C(Q₈) = SU(6) and Steinberg make the unbroken group the connected S(U(3) × U(2) × U(1)). Two
+corrections of mine: the L215 "quartic cap" assumed a Planck-suppressed term that M-theory does not supply (every term joining apex
+fields is instantonic — the wall is a hierarchy of cycle actions the object does not fix), and the line cannot supply the up-quark
+hierarchy (Q, u^c, H_u are β-neutral: phases only, B1361's 273 stands). What the design owes is one number it does not have: ⟨N⟩ at
+10¹⁵–10¹⁶ GeV.
