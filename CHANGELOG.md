@@ -1,5 +1,9 @@
 # Changelog
 
+## THE VERDICT OF THE OBJECT (2026-09-16): the capstone of the seat's E₆ route — m004 fixes the Standard Model's structure (E₆, the 27 and its coupling, the unique embedding, its line, its Z′, its textures' shape) and withholds its chirality in every frame the record has (B1351, B1367, B1368); the seat's mandate turns to the family (sL-1: the two-cusped siblings in the Standard-Model frame)
+
+`docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md`; sL-1 registered.
+
 ## B1368 — the object's own Standard-Model connections: every SM-unbroken flat E₆(ℂ) connection of m004 has its non-abelian part in SL(2)_β; spin-0 sectors carry no chiral index and the 10 and the 5̄ of SU(5) never share a spin, so no flat connection gives a chiral generation from bulk matter; for the geometric representation Calegari's trace −2 closes the spin-½ sectors too; the twisted cohomology is golden (z² − 3z + 1, z² − 4z + 1) — L216 closed in the seat's frame
 
 Exact over ℚ(ω) (Riley, Fox calculus, Wada, the resultant for the eight λ-parabolic points); lock in about a minute.

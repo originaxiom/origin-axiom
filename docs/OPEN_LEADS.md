@@ -2775,3 +2775,17 @@ This seat's L212–L216 are seat-local labels: on main, L213–L215 belong to B1
 registering the live ones as **L220** (sm:L214, the level mismatch) and **L221** (sm:L215, the 27̄ sector and the seesaw); sm:L216
 (chiral bulk matter on the cusped object, closed in the seat's frame by B1368) awaits main's label. New leads on this seat take the
 prefix **sL-** until main names a block.
+
+## sL-1 — THE FAMILY IN THE STANDARD-MODEL FRAME (registered 2026-09-16 on the owner's direction; the seat's mandate after the verdict)
+
+Does the commensurability class of the figure-eight supply what m004 withholds — a chiral generation compatible with the Standard
+Model's Higgs sector? In the seat's frame the one-cusped members are closed by B1368's theorems (the spin split and Calegari's −2 hold
+for every hyperbolic knot complement), so the question lives on the two-cusped members m202 and s959 (the carriers of the count of
+three, B1321) and on the reducible locus (main's B1418 cell 2). **Computation (B1369 onward):** (i) m202 and s959: presentations,
+peripheral classes in H₁ = ℤ², the lifted geometric holonomy's traces on each cusp's peripheral elements; (ii) the Standard-Model-reaching
+family (geometric representation in SL(2)_β × a character of H₁): for each cusp, which spin-0 charged sectors can be cusp-fixed there
+while non-trivial through the other cusp, and which spin-½ sectors can be cusp-fixed when a trace-(+2) peripheral element's sign is
+compensated by the character; (iii) whether a 10 and a 5̄ can both be cusp-fixed on some cusp with the Standard Model unbroken; (iv) the
+parity of the partitions from the isometries' action on the cusps (B1291's parity theorem, B1417's region-swap lemma), and the partition
+itself where parity is silent; (v) the same for every two-cusped member of B1186's family. Complementary to main's B1418, not a
+duplicate of its cells. `docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md` §6.

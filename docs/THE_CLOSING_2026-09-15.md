@@ -34,6 +34,7 @@ chiral bulk matter on the cusped object (L216).
 And that door is closed too, in the seat's frame (B1368, §6.12): with the Standard Model unbroken the 10 and the 5̄ of SU(5) never share
 an SL(2)_β-spin, spin-0 sectors carry no chiral index, and for the geometric representation Calegari's trace −2 kills the spin-½
 sectors as well. The E₆ route from m004 has no chirality mechanism compatible with the Standard Model in any frame the record has.
+The capstone of this route, with the mandate that follows it, is `docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md`.
 
 ## 1. The ledger
 

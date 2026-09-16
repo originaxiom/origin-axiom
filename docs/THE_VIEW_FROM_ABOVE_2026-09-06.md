@@ -242,6 +242,12 @@ every frame the record has (closed closings, apexes, the object's ends), it with
 sector. The one question left open is not the seat's: the disc conventions of the boundary term, which the physical-bridge lane is
 adjudicating.
 
+**The verdict, and the turn (2026-09-16).** The route's capstone is written (`docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md`): m004 fixes
+the Standard Model's structure and withholds its chirality in every frame we have. The owner keeps the seat live and turns the question
+to the family: does the commensurability class supply what its member cannot? The one-cusped members are closed by the same theorems;
+the two-cusped siblings, where a generation's two halves might both be made chiral by different ends, are where the seat goes next
+(sL-1).
+
 ## 6. The bootstrap, stated
 
 The object's consistency conditions fix **structure** at every step taken so far — E₆ from both faces, the 27 with

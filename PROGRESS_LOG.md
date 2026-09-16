@@ -14949,3 +14949,11 @@ for the live ones, sL- prefix for new leads; B1363 "eleven, eight of exact order
 search called a search. B1416 (relay residue) read, nothing owed. B1417 (the region-swap lemma verified on main): B1281's ±4 scoped as a
 non-transverse zero set. B1418 (DESIGN sealed: the family as the object): read; B1368 §(G)'s golden reducible non-split points and the frame
 theorem relayed to its cell 2 through the letter's twenty-seventh note. Relay rows, alias table, OPEN_LEADS label note.
+
+### THE VERDICT OF THE OBJECT written; the seat's mandate turns to the family (2026-09-16, owner's direction)
+
+`docs/THE_VERDICT_OF_THE_OBJECT_2026-09-16.md`: what m004 fixes (eight rows, arcs named), the three theorems (B1351, B1367, B1368), the
+scope (R23's disc conventions; the reducible locus; two cusps), the verdict (structure fixed, chirality withheld in every frame the record
+has), what the negative teaches (points and lines never meet; on one cusp the two halves never share the chiral spin), and the mandate
+sL-1 — the family in the Standard-Model frame, the two-cusped siblings first. Pointers in THE_CLOSING, the view, the alias table;
+sL-1 registered in OPEN_LEADS.
