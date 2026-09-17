@@ -1,5 +1,37 @@
 # Changelog
 
+## xB007 THE LEAD FAILED ITS FIRST TEST, and failing it proved something better: the character variety is STRUCTURALLY BLIND to what separates the object from its sister
+
+Owner-directed. **PREREGISTRATION sealed (sha256 `3c4bd90bf39f2328058897b901a0f8985c9829a63bb2b8d4d8d9b637bb2f8592`) and PUSHED at `0e3cde6` BEFORE any cell ran.**
+
+xB005 Addendum 1 flagged the node's ℤ/3 as *"the first item in this cluster that is not a commensurability invariant … the right **type** of object for the record's open 'which member of the class?' questions"* and priced it as **a lead at 0.58 bits and nothing more**. The seal named the expected outcome and made it inconvenient for this seat: *"if T4 returns B, the handle does not do the job it was flagged for … this arc will say that in its headline, not a footnote."*
+
+> **T4 returned B. The lead failed its first test.** The node's ℤ/3 does not break the m003/m004 tie. But the *reason* is worth more than the lead was: **it cannot, and neither can anything else computed on the character variety.**
+
+**T1 PASS.** `v₀ = vol(H³/PGL(2,O₃))` is **derived, not hardcoded** — `L(χ₋₃,2)` by Hurwitz zeta, cross-checked to 30 digits against a direct partial sum. **A first draft used `mp.nsum` on the period-3 character sum and it silently mis-converged** (0.7725 against the true 0.78130), poisoning `v₀` so that **every** member including m004 failed the integrality filter. It was caught by re-deriving **B680's banked identity** as the control: **`vol(m004) = (3√3/2)·L(χ₋₃,2)`, independently reproduced and holding to 28 digits.** By Maclachlan–Reid the invariant trace field `ℚ(√−3)` **is** the commensurability class here, so the population is the census manifolds (tetrahedra ≤ **6**, the reported cutoff) with that shape field: **21 members**, every volume an integer multiple of `v₀` (24, 48, 60, 72). *The same 21 as xB002's widened B1136 family, `s955`–`s961` included — an independent arrival on the same set.*
+
+**T2 PASS — the control that the diagnosis is about TYPE.** Invariant trace field, arithmeticity, quaternion algebra: **one distinct value each across all 21.** Zero separation power, exactly as the cited theorem requires. The programme's arithmetic handles are not weak — they are **categorically incapable** of pointing at a member.
+
+**T3 — and `H₁` is the only selector.** Volume, cusps, tetrahedra, symmetry-group order, amphichirality and node order all recur elsewhere in the population; **only `H₁ = ℤ` is unique to m004.** **B1136's separator `['h1_is_Z']` is confirmed at the commensurability level** — stronger than the shape-field family it was established on.
+
+**T4 — the decisive cell, and a false positive of this seat's own, caught.** Cao–Meyerhoff: m003 and m004 are *exactly* the two minimum-volume orientable cusped hyperbolic 3-manifolds. They tie on volume, cusps, tetrahedra, symmetry-group **order** (8), amphichirality, monodromy **word** and **node order**; they differ on `H₁`, symmetry-group **type** (`D4` vs `ℤ/2 ⊕ ℤ/4`) and the bundle sign. **A first draft returned OUTCOME A here and it was wrong**: `bundle_words` scanned only the `b++` prefix, so m003 came back `word = None` and T4 read `None ≠ 3` as *"the node breaks the tie"* — an outcome A manufactured by this seat's own incomplete search, **against its own declared prior**. **B995's rule applies and was applied** — *an unexpected positive against a declared negative prior is exactly when to be most suspicious*. All four prefixes scanned: **m003 = `b+-LR`, m004 = `b++LR` — the same monodromy word and the same node order 3.**
+
+**T6, beyond the seal — why nothing on that layer can ever break it.** Added after the false positive was caught, because *"it did not work"* is worth much less than *"it cannot work, and here is why."*
+
+1. **They differ exactly by `−I`**, the elliptic involution: m004's monodromy is `φ = LR = [[2,1],[1,1]]` (trace 3), m003's is `−φ` (trace −3).
+2. **`H₁` sees that sign.** `H₁ = ℤ ⊕ coker(φ_*−I)`: `det(φ_*−I) = −1` gives **ℤ** (m004), `det = 5` gives **ℤ/5 ⊕ ℤ** (m003) — both reproducing SnapPy exactly. **So `H₁ = ℤ` — knot-ness — is precisely `det(φ_*−I) = ±1`: the homological shadow of the monodromy's sign.**
+3. **The character variety does not.** `−I` induces `a ↦ a⁻¹`, `b ↦ b⁻¹`, and `tr(a⁻¹) − tr(a) = tr(b⁻¹) − tr(b) = tr(a⁻¹b⁻¹) − tr(ab) = 0` identically (verified symbolically). **`−I` acts trivially; the trace-map action factors through `PSL(2,ℤ)`.**
+
+> **The character variety quotients by exactly the datum that separates the object from its sister.**
+
+**What it costs.** The handle does not select, and **no character-variety invariant will**. This **scopes xB003, xB004 and xB005 — all three live on that layer.** Whatever selects m004 is not there.
+
+**What it buys, and this is the real result.** xB002's `SCOPE_NOTE_L1` records *"the genesis selects a family; knot-ness selects the member"*, which has always read like an arbitrary extra input smuggled into a minimality story. It is not: **knot-ness is the one homological datum the object's own character-variety layer is blind to.** The selection is not arbitrary and not free — it happens **exactly at the seam** between what the trace-map layer sees and what it quotients away. That is a **mechanism** where the record had a **label**, and a sharper statement of the premise's limit than *"minimality ties"*.
+
+**Not claimed:** that `H₁` is a *derivation* rather than an input. It remains an input; T6 says **which** input and **why nothing on that layer can supply it**. The symmetry-group type also breaks the tie and passes the E33 control (independent of `H₁` across the population), but it is **not a selector** — `D4` recurs on m203, m412, s596.
+
+Census cutoff 6 tetrahedra, stated not hidden; the commensurability class is infinite and the population is a finite sample of it. Gate 5 absolute: no value, no generation count, no physics reading, nothing promoted to `CLAIMS.md`. Six cells, each asserting its own mathematics.
+
 ## xB006 E82 IS A CLASS, BUT A SMALL AND SHALLOW ONE: 3 candidates in 798 kills, and the primary one SURVIVES re-test with its missing link supplied
 
 Owner-directed continuation. **PREREGISTRATION sealed (sha256 `94b1f14c319ef5e325fac569a165ad797ca11f0aaf8cc37dc3bda719483935ce`) and PUSHED at `504d6bd` BEFORE any cell of this arc ran** — before `verification/` existed.
