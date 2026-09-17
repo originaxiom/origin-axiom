@@ -8,13 +8,24 @@ existed. **The order is checkable from this branch's history** — the property 
 record's other seals cannot support. Gate 5 untouched. Lock: `verification/reproduce.sh`, three
 cells, each asserting its own mathematics.
 
+> ### CORRECTION 2026-09-17 — **Q3 below was a FALSE NEGATIVE.** Read
+> **`ADDENDUM_1_2026-09-17_the_seam_was_never_linked.md`** with this file.
+> Q3's links connect `{node, 2T/Q₈, Z(E₆)}` and leave the arithmetic hat `μ₃ ⊂ ℚ(√−3)` joined by
+> **no edge**; the "all four are canonically linked" step is a non sequitur across that seam. The
+> seam is **open**: on the object's own tower `(LR)ⁿ` the trace field is constant `ℚ(√−3)` while the
+> node order is 3, 3, **1**, 3 — `s961`, m004's own 3-fold fibred cover, has `ℚ(√−3)` and node order
+> **1**. So the hats are **two independent facts, not one wearing four**. Q3's *headline* survives
+> for a different reason — the second fact is worth **0.58 bits** (m004's word `LR` is even, so the
+> prior in `A₄` is 8/12) — but its *reason* is withdrawn, as is this arc's claim to extend
+> B727/I-17 to a fourth hat. **Q1, Q2 and I-31 are untouched.**
+
 ## The result against the sealed criteria
 
 | cell | sealed criterion | outcome |
 |---|---|---|
 | **Q1** | monodromy fixes the node and acts there with order exactly 3 | **PASS** — `D³ = I`, `D ≠ I`, spectrum `{1, ω, ω̄}` on the unit circle |
 | **Q2** | is that action the **outer** ℤ/3 of `Q₈`? | **PASS** — a 3-cycle, realised by an automorphism of `Q₈`, and that automorphism is **outer** |
-| **Q3** | §2's linkage test on the programme's ℤ/3 family | **all four canonically linked** — the inconvenient outcome named in the seal |
+| **Q3** | §2's linkage test on the programme's ℤ/3 family | ~~all four canonically linked~~ — **FALSE NEGATIVE, corrected in Addendum 1**: three are linked, the arithmetic hat is **independent** |
 
 The declared prior was Q1 PASS, Q2 PASS (moderate confidence), and — for Q3 — that the node's
 order-3 would be **the one member not obviously linked**. **Q2 confirmed; the Q3 prior is
@@ -84,14 +95,19 @@ is evidence is whether the faces are **canonically linked** or **independent**. 
 | `2T/Q₈` ↔ `Z(E₆)` | McKay: the centre of the simply-connected group is the abelianisation of the binary polyhedral group | **canonically linked** (this is I-1, already EARNED) |
 | the node's ℤ/3 ↔ `2T/Q₈` | Q2 above | **identical**, not merely isomorphic |
 
-> **All four are canonically linked.** By §2's own standard the recurrence is **not evidence**: it
-> is **one fact — the ramification of 3 in `ℚ(√−3)` — wearing four hats.**
+> ~~**All four are canonically linked.**~~ **WRONG — see Addendum 1.** The three edges above
+> connect `{node, 2T/Q₈, Z(E₆)}` only. The arithmetic hat is joined by **none of them**, and testing
+> the missing edge shows it is **open**: `s961 = (LR)³`, m004's own 3-fold fibred cover, has trace
+> field `ℚ(√−3)` and node order **1**, and 31 of 34 order-3 bundles in the census are **not**
+> `ℚ(√−3)`. **Three hats are one fact; the fourth is a second, independent fact.** The recurrence
+> is still not evidence, but because the second fact is **cheap** (0.58 bits), not because it is
+> the same fact.
 
-**This is the same shape as I-17/B727** (*"One E₆, three ADE hats … the recurrence is FORCED, not
-evidence; only the atom `ℚ(√−3)` is object-specific"*), and this arc extends B727's conclusion to
-the fourth hat, which B727 did not have. B727 said the atom is the only object-specific content;
-Q2 shows the node's ℤ/3 is **not a fifth independent witness** to that atom but a fourth
-presentation of it.
+~~**This is the same shape as I-17/B727** … and this arc extends B727's conclusion to the fourth
+hat.~~ **WITHDRAWN 2026-09-17 (Addendum 1).** The fourth hat is **not** another presentation of the
+atom — it is independent of it, and it is not even a commensurability invariant (it dies on m004's
+own 3-fold cover). **B727 itself is untouched**: its three hats are genuinely E₆-internal and its
+conclusion about them stands. What does not stand is this arc's extension of it.
 
 ## What this does and does not change
 
@@ -100,9 +116,13 @@ an order match — the record previously had `2T/Q₈` and the node's elliptic s
 separate facts, and they are now one, with the map written down. The **arithmetic** statement is
 untouched: 3 ramifies in `ℚ(√−3)`, and everything here is downstream of that.
 
-**What it costs.** Any argument of the form *"ℤ/3 shows up here, and here, and here — that is
-evidence"* is now closed on this family, by this arc's own computation. The four are not four
-independent coincidences to be multiplied; their joint content is the content of one.
+**What it costs** *(restated 2026-09-17, Addendum 1)*. Any argument of the form *"ℤ/3 shows up
+here, and here, and here — that is evidence"* is still closed on this family — but by **pricing**,
+not by sameness. Three of the hats are one fact and may not be multiplied. The fourth is genuinely
+independent and is worth **0.58 bits**, which buys no conclusion. **And it is the first item in
+this cluster that is not a commensurability invariant**, so it sees the manifold-with-its-fibration
+where the programme's arithmetic sees only the class — a lead, priced as a lead, that the original
+Q3 would have discarded.
 
 **What stays closed.** The **ℤ/3-sameness question against the trinification grading** remains
 closed **negatively** (chat1 closure handoff §4: *"the arithmetic ℤ/3 = 2T/Q₈ is the CENTRE of E₆,
@@ -116,7 +136,7 @@ centre, and this arc supplies no map to it.
 Character-variety and finite-group theory. No value, no generation count, no physics reading,
 nothing promoted to `CLAIMS.md`. Gate 5 absolute, as sealed.
 
-**Provenance.** `verification/node_z3.py` → `verification/reproduce.sh` (three cells, all
-asserting). Cross-refs B123 (elliptic spectrum at the node), B1347 (the leaf is the Markov
+**Provenance.** `verification/node_z3.py` and `verification/seam_independence.py` →
+`verification/reproduce.sh` (six cells, all asserting). Cross-refs B123 (elliptic spectrum at the node), B1347 (the leaf is the Markov
 surface), xB003 (`F_L ∘ F_R` is m004's monodromy; the ramified prime), xB004 (the regular fixed
 point is a saddle), B727/I-17 (the forced-recurrence template), I-1 (McKay, `2T ↔ E₆`).

@@ -1,5 +1,36 @@
 # Changelog
 
+## xB005 ADDENDUM 1: Q3 WAS A FALSE NEGATIVE — the seam it asserted was never linked
+
+Owner-instructed reverification of a same-day negative ("reverify, maybe is a false negative"). The instruction was right. `PREREGISTRATION.md` untouched (`afb4dc82…`); new cells `Q4a`–`Q4c` in `verification/seam_independence.py`, each asserting its own mathematics. **Q1, Q2 and I-31 are untouched and stand.**
+
+**The defect.** Q3 printed three links — `μ₃ ↔ ℚ(√−3)`, `2T/Q₈ ↔ Z(E₆)` (McKay), `node ↔ 2T/Q₈` (its own Q2) — and concluded "ALL FOUR ARE CANONICALLY LINKED … one fact wearing four hats". But the first line links a group to a **field**; it is not an edge between two of the four ℤ/3s. The edges actually exhibited connect `{node, 2T/Q₈, Z(E₆)}` and leave the **arithmetic** hat joined by **nothing**. The "=>" asserts a connectivity the links do not supply. The sealed criterion would have caught it — Q3's seal said "with the link named", three were named, the fourth was not, and the cell drew the four-way conclusion anyway.
+
+**Q4a — the missing edge tested EXACTLY, on the object's own tower, no census needed.** `(LR)ⁿ` is the `n`-fold cyclic cover of m004 along its fibration, so all are commensurable with m004 and the invariant trace field is **constant**:
+
+| n | word | vol/vol(m004) | shape field | node order | name |
+|---|---|---|---|---|---|
+| 1 | `LR` | 1.000000 | ℚ(√−3) | **3** | m004 |
+| 2 | `LRLR` | 2.000000 | ℚ(√−3) | **3** | m206 |
+| 3 | `LRLRLR` | 3.000000 | ℚ(√−3) | **1** | **s961** |
+| 4 | `LRLRLRLR` | 4.000000 | ℚ(√−3) | **3** | t12839 |
+
+**`s961` is m004's own 3-fold fibred cyclic cover: trace field `ℚ(√−3)`, node order 1.** A quantity constant on a family cannot be the same fact as one that is not.
+
+**Q4b — and in both directions across the reference class.** Over the 77 once-punctured-torus bundles `b++<w>`, `w` cyclically reduced of length ≤ 8: **31 of 34** order-3 bundles have trace field ≠ ℚ(√−3) (e.g. `LLLR` = m023), and **1 of 4** ℚ(√−3) bundles is not order 3 (`s961`). **The hats are TWO INDEPENDENT FACTS, not one wearing four.**
+
+**Q4c — and the survivor is priced DOWN, not celebrated.** The derivative of the mapping-class action at the node generates a group of order **24**, element orders `{1,2,3,4}`, all determinants 1 — **`S₄`, the rotation group of the cube**. So the node order is a **congruence** condition, not an arithmetic one. `DF_L` and `DF_R` are 4-cycles, hence **odd**, so a word of length `n` has sign `(−1)ⁿ`: even words land in `A₄` (8 of 12 elements of order 3), odd words in the odd coset (none). The census matches both priors **exactly** — even-length **34/51 = 0.6667**, odd-length **0/26**. m004's monodromy `LR` is the shortest pseudo-Anosov word, length 2, hence even, so the prior is 8/12 and the coincidence is worth **log₂(3/2) = 0.58 bits — under one bit.**
+
+**The corrected verdict: Q3's HEADLINE survives, Q3's REASON does not.** The ℤ/3 recurrence is still not evidence — but because the second fact is **cheap**, not because it is the same fact. Right answer, wrong proof.
+
+**Withdrawn:** this arc's claim to extend B727/I-17's "the recurrence is FORCED, not evidence" to a fourth hat. The fourth hat is not another presentation of the atom. **B727 itself is untouched** — its three hats are genuinely E₆-internal.
+
+**Why the wrong proof mattered — the harvest.** "One fact wearing four hats" closes the seam permanently; "two independent facts, cheaply agreeing" leaves it open. And Q4a incidentally proves something the original Q3 would have thrown away: **the node's ℤ/3 is NOT a commensurability invariant** — 3 on m004, 1 on m004's own 3-fold cover `s961`. Every arithmetic handle this programme uses (trace field, invariant trace field, arithmeticity, the atom `ℚ(√−3)`, the quaternion algebra) **is** a commensurability-class invariant and therefore **cannot distinguish m004 from `s961`**. The node's ℤ/3 can. It is the first item in this cluster that sees the *manifold-with-its-fibration* rather than the class — the right **type** of object for the record's open "which member of the class?" questions (I-6's *which 2T*, `SCOPE_NOTE_L1`'s *the genesis selects a family, knot-ness selects the member*, L54's cover census). **Priced as a lead and nothing more**: 0.58 bits buys no conclusion, and nothing here shows it answers any of them.
+
+**New error class E82, the ASSUMED-CONNECTED LINKAGE class.** A set of matching structures declared "all canonically linked" — hence one fact, hence not evidence — when the exhibited links form a **proper subgraph**. Standing rule: **a kill needs the same map a promotion needs.** Write the link graph, list your edges, check **connectivity**. Why the class is new: B1231's Identification Rule polices "X here IS Y there" with a gate and a ledger — **on promotions**. The same claim made to **discard** evidence passed unchecked, by the same seat, one cell after it correctly registered I-31 with an exhibited, acting map.
+
+Character-variety, finite-group theory and census computation. Gate 5 absolute: no value, no generation count, no physics reading, nothing promoted to `CLAIMS.md`.
+
 ## xB005 THE NODE'S Z/3 IS 2T/Q8, REALISED DYNAMICALLY -- and that is exactly why the Z/3 recurrence is not evidence
 
 Owner-directed. **PREREGISTRATION sealed (sha256 `afb4dc8284d4e824df46d9e96d6d3a9e041b5e3b68badab4a5d229390b7a8a96`) and PUSHED at `1b047ae` BEFORE any cell of this arc ran** -- before `verification/node_z3.py` existed and before any result existed. The order is checkable from the branch's own history.
