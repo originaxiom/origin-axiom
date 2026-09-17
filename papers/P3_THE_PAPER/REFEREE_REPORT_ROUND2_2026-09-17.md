@@ -361,3 +361,77 @@ It exists in a singular prescribed-source model; the resolved model that was bui
 physical has zero; and the two are not connected by a limit anyone has established. That is a
 cleaner and stronger statement of the programme's central negative than the paper's §7 makes, and
 it belongs in the paper.
+
+---
+
+## 7. Correction: I reviewed a projection of the project, not the project
+
+I treated `main` plus the paper as the work, then added one lane. That was wrong, and it made my
+summary in §6.2 wrong. `main` is **101 commits** — a curated line. The work lives in four lanes of
+~3000 commits each, two of which do not share history with `main` at all. Two results I never saw
+change the picture.
+
+### 7.1 There IS a Standard-Model-shaped chiral generation — on the tower
+
+`claude/standard-model-derivation-0qt6ao`, **B1374/B1375, 2026-09-16** — the day before this draft.
+Not "the index is non-zero": **all five charged sectors (Q, u^c, e^c, d^c, L) firing together at
+±1**, a complete SM-shaped chiral generation, on the object's own cyclic covers:
+
+| level | | generation-shaped backgrounds | count |
+|---|---|---|---|
+| Y₂ = m206 | | 0 | — |
+| Y₃ = s961 | nothing fires | 0 | — |
+| Y₄ = t12839 | | **12 800** | exactly one, ±1 |
+| Y₅ = o10_150696 | | **800** | exactly one, ±1 |
+| Y₆ | | **67 200** | exactly one, ±1 |
+
+**80 800 backgrounds, every one carrying exactly one net generation — never two, never three**, with
+one background per level re-derived exactly over ℚ(ζ₆₀) and ℚ(ζ₁₃₂).
+
+**What I checked myself:** every row of the scaffolding — Y₂ ≅ m206, Y₃ ≅ s961, Y₄ ≅ t12839,
+Y₅ ≅ o10_150696 confirmed by isometry, and all five H₁ groups exact against SnapPy. And the firing
+signature B1375 reports on all 80 800 backgrounds, **(a₀,a₁,t₀,r₁) = (0,1,1,0) against (0,2,1,2)**,
+is *exactly* the signature I independently computed on the m010 witness in §6. The instrument I
+verified is the instrument this runs on.
+
+**What I have not checked:** the 80 800 count, the one-per-background law, the exact ℚ(ζ)
+re-derivations.
+
+**What the paper does with this.** It reduces it to seven words — "on the object's own degree-four
+cyclic cover t12839" — inside a list of ±1 values. `12 800`, `80 800`, "one generation",
+"generation-shaped" appear **nowhere in the manuscript**.
+
+### 7.2 And there is a computed reason why the object itself returns zero
+
+`sep16-branch`, **xB021, 2026-09-17** — this draft's own date. The three bits act on CS ∈ ℝ/½ℤ:
+A5 (knot-ness) `x ↦ x + ¼`; A6 (orientation/the squaring) and A7 (the LR/RL order) both `x ↦ −x`.
+Then |⟨A5,A6,A7⟩| = 4, the orbit of the object's value 0 is {0, ¼}, and **the stabiliser of 0 is
+exactly {A6, A7}** — orbit–stabiliser, 4 = 2 × 2.
+
+So the two bits the paper calls *withheld* and *relational* are precisely **the object's own
+stabiliser**, and a fixed point cannot report on its own stabiliser. 9 of 12 banked negatives are
+instances of this; the 3 misses are named and are all arithmetic. Preregistered with a binding kill
+condition that did not fire.
+
+That is a structural account of §7's central negative, and the manuscript does not contain it.
+
+### 7.3 What this does to my verdicts
+
+- **§6.2's "seven routes, all negative" was wrong.** The tower route is *positive*. I listed
+  "non-semisimple class modules: +1" without knowing it was a complete generation on 80 800
+  backgrounds.
+- **"Nothing new about the Standard Model"** — true of the *paper*, and it stays true, because the
+  paper does not carry these. False of the *project*.
+- **"The three is not the limit of anything built"** — still true, and now better: the mechanism that
+  *does* produce chirality produces **one**, never three. The count of three is not merely unreached;
+  it is answered in the negative by a mechanism that works.
+
+What does **not** change: these fire on **non-semisimple** backgrounds, exactly the admissibility
+question the paper itself flags and grades with a prior against, and B1375 fences itself the same way
+("no physics reading, no value, no three"). xB021 says of itself "a diagnosis, not a door." So this
+is not derived physics. It is an exactly-computed Standard-Model-shaped chiral structure with a clean
+law, plus a computed explanation of the object's silence — and **the paper is a lossy projection that
+drops both.**
+
+The strongest recommendation of this whole review is therefore not any of §2's fixes. It is: **the
+paper is not reporting the project's two best results.** One is a parenthetical, the other is absent.
