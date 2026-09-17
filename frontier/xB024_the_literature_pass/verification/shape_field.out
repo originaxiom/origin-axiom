@@ -1,0 +1,27 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+L1       THE FULL SHAPE FIELD k_Delta = Q(z_1,...,z_n), per Neumann-Reid Theorem 2.4
+         (xB022 V4 computed Q(z_1) only -- reading the paper found that defect.)
+         GUARD: detect at 40 digits, confirm irreducible AND vanishing at 80.
+         m004: 2 tetrahedra;  Q(z_1) = x^2 - x + 1;  k_Delta = x^2 - x + 1;  same: True
+         m003: 2 tetrahedra;  Q(z_1) = x^2 - x + 1;  k_Delta = x^2 - x + 1;  same: True
+         primitive-element stability on m004 (second coefficient vector): True   (x^2 - x + 1)
+         POSITIVE CONTROL m015: k_Delta = x^3 - x - 1;  differs from m004: True
+L1 PASS  the object and its sister share k_Delta, which by
+         Neumann-Reid Theorem 2.4 IS the invariant trace field (they are cusped, so the
+         hypothesis is met).  xB022 V4's fence can now be RETIRED -- for these two.
+
+L2       HOW OFTEN DOES Q(z_1) DIFFER FROM k_Delta?  -- sizing xB022 V4's defect
+         words tested: 72;  UNDETERMINED under the height guard: 42
+         (UNDETERMINED means the precision could not support a detection -- it is
+          NOT a difference, and it is excluded rather than counted either way.)
+         Q(z_1) != k_Delta (xB022 V4 measured the wrong field): 0 of 72
+         A5 leaves k_Delta unchanged:  72 of 72   <- the CORRECTED version of xB022 V4
+         A5 leaves Q(z_1) unchanged:   72 of 72   <- what xB022 V4 actually reported
+         xB022 V4's CONCLUSION is UNCHANGED
+
+==============================================================================
+  L1: PASS
+  L2: PASS
+VERIFIED

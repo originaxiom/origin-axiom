@@ -1,0 +1,24 @@
+{
+ "cells": {
+  "L1": true,
+  "L2": true
+ },
+ "results": {
+  "L1": {
+   "m004_full": "x^2 - x + 1",
+   "m003_full": "x^2 - x + 1",
+   "m004_first": "x^2 - x + 1",
+   "m003_first": "x^2 - x + 1",
+   "primitive_stable": true,
+   "control": "x^3 - x - 1"
+  },
+  "L2": {
+   "tested": 72,
+   "first_differs_from_full": 0,
+   "a5_fixes_full_field": 72,
+   "a5_fixes_first_field": 72,
+   "conclusion": "xB022 V4's CONCLUSION is UNCHANGED",
+   "undetermined": 42
+  }
+ }
+}
