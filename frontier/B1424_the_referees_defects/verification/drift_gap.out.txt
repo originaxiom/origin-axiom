@@ -1,0 +1,8 @@
+control: m004 surjects -> True
+one-cusped  depth 0      33.00%  (n=800, skipped 0)
+one-cusped  depth 20000  33.92%  (n=799, skipped 1)
+one-cusped  depth 80000  31.38%  (n=800, skipped 0)
+full        depth 0      34.25%  (n=800, skipped 0)
+full        depth 20000  29.38%  (n=800, skipped 0)
+full        depth 80000  21.12%  (n=800, skipped 0)
+EXIT 0

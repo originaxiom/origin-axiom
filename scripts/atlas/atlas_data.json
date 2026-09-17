@@ -8603,6 +8603,21 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1424": {
+   "slug": "the referees defects",
+   "motifs": [
+    "figure_eight",
+    "eisenstein"
+   ],
+   "refs": [
+    "B14",
+    "L211"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B142": {
    "slug": "klein4 and magic cartography",
    "motifs": [

@@ -123,7 +123,7 @@ PAPER_TITLES = {
  40: "the six normalisation-free colourless couplings are one number",
  41: "the coupling normalisation is 1 in the charge-equivariant gauge; v_1 v_2 v_3 = 3^{3/2} times its square; structure primes inert, value primes split",
  42: "Tr(T_3^2) = 3, Tr(Y^2) = 5, Tr(T_3 Y) = 0 on the 27: the 3/8 trace ratio, as structure -- the same ratio on the 5, 5bar, 10 and 16, so it discriminates nothing",
- 43: "the sealed one-input crossing to measured values misses as single-step non-supersymmetric unification is known to (alpha_s by 35%, sin^2 theta_W by 0.9%); the desert is dead as a mechanism",
+ 43: "the sealed one-input crossing to measured values misses as single-step non-supersymmetric unification is known to (alpha_s by 35%, sin^2 theta_W by 0.8%); the desert is dead as a mechanism",
  44: "the fork: the joint centraliser of spacetime, colour and hypercharge is zero -- any two, never three",
  45: "every anomaly channel vanishes identically over the derived 16 with nu^c: anomaly matching constrains nothing further",
  46: "closing is constitutive: ten exceptional fillings, the fibre slope the unique torus bundle with monodromy LR, and no closed filling keeps Q(sqrt-3)",

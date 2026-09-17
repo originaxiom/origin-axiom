@@ -1,0 +1,48 @@
+{
+ "full orientable cusped": [
+  {
+   "lo": 0,
+   "n": 800,
+   "hit": 274,
+   "skipped": 0,
+   "rate": 34.25
+  },
+  {
+   "lo": 20000,
+   "n": 800,
+   "hit": 235,
+   "skipped": 0,
+   "rate": 29.38
+  },
+  {
+   "lo": 80000,
+   "n": 800,
+   "hit": 169,
+   "skipped": 0,
+   "rate": 21.12
+  }
+ ],
+ "one-cusped only": [
+  {
+   "lo": 0,
+   "n": 800,
+   "hit": 264,
+   "skipped": 0,
+   "rate": 33.0
+  },
+  {
+   "lo": 20000,
+   "n": 800,
+   "hit": 271,
+   "skipped": 0,
+   "rate": 33.88
+  },
+  {
+   "lo": 80000,
+   "n": 800,
+   "hit": 251,
+   "skipped": 0,
+   "rate": 31.38
+  }
+ ]
+}

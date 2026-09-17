@@ -5,7 +5,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 V = os.path.join(ROOT, "frontier", "B1411_the_sm_seats_v10_arcs_harvested", "verification")
 
 def test_b1355_geometry_is_exact():
-    r = subprocess.run([sys.executable, os.path.join(V, "main_b1355_geometry.py")], capture_output=True, text=True, timeout=600)
+    # timeout raised 600 -> 1800 on 2026-09-17 (B1424): this lock passes in isolation and failed once
+    # inside the full 146-file package run, i.e. under load. An outside referee saw the same class of
+    # run-to-run difference and could not tell it from a real failure. A subprocess lock whose timeout is
+    # tuned to an idle machine reports load as breakage.
+    r = subprocess.run([sys.executable, os.path.join(V, "main_b1355_geometry.py")], capture_output=True, text=True, timeout=1800)
     assert r.returncode == 0 and "VERIFIED" in r.stdout and "|2T| = 24" in r.stdout, r.stdout[-800:] + r.stderr[-800:]
 
 def test_b1352_run_carries_both_points():
