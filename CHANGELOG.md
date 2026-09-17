@@ -1,5 +1,25 @@
 # Changelog
 
+## xB016 ADDENDUM 1: proper P3 — the withdrawn mechanism PROVED, and Route 3 closes by citation
+
+Owner: **"go for proper p3."** P3's three soft edges settled. **P7**: census extended to degree 10 —
+**87 covers**, rate spanning **0 → 0.474121**, **19 with no torsion at all**, none exceeding the
+cyclic limit; P3 strengthens. **P8**: `φ(a) = 0` makes the generator nullhomologous and it is
+loxodromic (P3's `|tr| > 2` test was the **wrong criterion**), so **`systole(M_n) = 1.0870701450`
+exactly for every n** — the tower does not converge to the universal cover. **The withdrawn
+mechanism is now a proof.**
+
+**P9 — the literature returned after banking and corrects this arc.** §2 is **confirmed and
+doubled** (the on-shell action *is* the complex volume; torsion is the one-loop Ray–Singer term; a
+cusp is a massless particle's worldline, not a horizon; and the identification is knot-dependent).
+The **`1/(6π)` attribution was wrong** — Bergeron–Venkatesh **Conjecture 1.3**, not a theorem. And
+**§4's "`k` must be even" and §6's "re-open Route 3" are both WITHDRAWN**: nothing couples `k` and
+`σ`, and `η = 0` for complex CS leaves no framing anomaly to cancel against.
+
+**Verdict unchanged — Path A does not cross — and now better-founded than the arc that banked it.**
+Three further own errors recorded, including a second wrong remembered citation in two arcs.
+
+
 ## xB016: PATH A TRIED PROPERLY — three routes attempted, all three closed, and the crossing numbers printed in advance
 
 Path A had been wrong twice here, both times by **assertion rather than attempt**. `PREREGISTRATION.md`

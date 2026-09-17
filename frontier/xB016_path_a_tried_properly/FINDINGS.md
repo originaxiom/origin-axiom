@@ -1,3 +1,17 @@
+> **ADDENDUM 1, 2026-09-17 — READ IT BEFORE THIS FILE.** The owner said *"go for proper p3"*, and
+> P3's three soft edges were settled. **Two settle in this arc's favour, the third against two of
+> its own cells.** **P7**: the census extended to degree 10 — **87 covers, 19 with no torsion at
+> all, none exceeding the cyclic limit** — P3 strengthens. **P8**: the mechanism §3 withdrew is now
+> **PROVED** — `φ(a) = 0`, `a` is loxodromic (§3's `|tr| > 2` test was the **wrong criterion**),
+> and `systole(M_n) = 1.0870701450` **exactly, for every n**, so the tower does not converge to the
+> universal cover. **P9**: the literature returned **after** banking and **confirms §2 (doubly),
+> corrects the `1/(6π)` attribution (it is Bergeron–Venkatesh *Conjecture* 1.3, not a theorem), and
+> WITHDRAWS both §4's *"`k` must be even"* and §6's recommendation to re-open Route 3** — nothing
+> couples `k` and `σ`, and `η = 0` for complex Chern–Simons leaves no framing anomaly to cancel
+> against. **The verdict is unchanged — Path A does not cross — and Route 3 is now closed by
+> citation (Witten arXiv:1001.2933 eq. 2.2) rather than left open.** Where this file and the
+> addendum disagree, **the addendum is right.**
+
 # xB016 — PATH A, TRIED PROPERLY: three routes attempted, all three closed, and the one worth re-opening is blocked by missing bookkeeping rather than by a theorem
 
 **Seat `xb`, `sep16-branch`, 2026-09-17. PREREGISTRATION sealed `56447437…` and PUSHED at `89cdf7d`

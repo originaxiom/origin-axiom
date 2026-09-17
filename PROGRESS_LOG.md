@@ -16130,3 +16130,61 @@ bare `except` turned a failure into a data point. **Measurement void, mechanism 
 claim withdrawn.** P3's conclusion never depended on it.
 
 **Gate 5 absolute: no value, no generation count, no physics reading, nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-17 — xB016 ADDENDUM 1: proper P3, the withdrawn mechanism proved, and Route 3 closes
+
+The owner: **"go for proper p3."** P3 had banked with three soft edges, all named in its own text.
+All three are settled. **Two settle in the arc's favour; the third overturns two of the arc's own
+cells.** `PREREGISTRATION.md` untouched (`56447437…`); new cells P7–P9.
+
+**P7 — the census extended.** Degrees 2–10, **87 covers of m004**: the rate still spans
+**0.000000 → 0.474121**, **19 of 87 have no torsion at all**, the median **falls** to 0.090203 as
+degree grows, and **not one cover exceeds the cyclic tower's limit.** P3 strengthens on over twice
+the evidence.
+
+**P8 — the mechanism P3 withdrew, now PROVED.** The relator gives `φ(a) = 0`, so **the generator `a`
+is nullhomologous**. `tr(a) = −1.5 + 0.866i` has modulus `√3 < 2`, and P3's first draft therefore
+called it elliptic — **the wrong criterion**: in `SL(2,ℂ)` loxodromic means the trace is not in the
+**real** interval `[−2,2]`, and a hyperbolic 3-manifold group has no elliptics at all. Corrected,
+`a` is loxodromic of length **1.087070144996 — m004's systole**, matching SnapPy's
+`length_spectrum` to **12 digits** on an independent instrument. Two-sided: `a` lifts to every
+cyclic cover (class 0 in `ℤ/n` for all n) giving `≤`; every geodesic of `M_n` projects to one of
+m004 giving `≥`. **So `systole(M_n) = 1.0870701450` exactly, for every n — the injectivity radius
+does not grow and the tower does not converge to the universal cover.**
+
+**P9 — the literature returned after banking, and it corrects this arc.**
+**(a) §2 CONFIRMED and doubled**: the on-shell action of complex CS **is** the complex volume
+(DGLZ arXiv:0903.2472 eq. 4.6) and torsion is the **one-loop** Ray–Singer term (eqs. 2.1–2.3), so
+entropy-equals-action double-counts one `ħ`-expansion at two orders; a cusp is a **massless
+particle's worldline**, not a horizon (Gukov hep-th/0306165 §1.2); and two kills §2 lacked — the
+identification is **knot-dependent** (trefoil: `M(Δ) = 1`, `σ = 0`) and `1/(6π)` would give
+`c = 1/π ≈ 0.318`, deep quantum, where semiclassics is meaningless.
+**(b) The `1/(6π)` attribution was wrong, and mine** — it is Bergeron–Venkatesh **Conjecture 1.3**,
+not a theorem; their Thm 1.4 needs **strongly acyclic** coefficients and a **cocompact** lattice and
+does not apply here at all; the only `ℤ`-coefficient theorem is **Lê's upper bound** under
+**exhaustive** towers, with **no known example** where the limit is even positive.
+**(c) The factor 8.9 is explained, and exactly as P8 explains it**: `log M(Δ)` is the L²-torsion of
+the **ℤ-cover**, `vol/6π` that of the **universal cover** — two different invariants — and the
+failing hypothesis is that `⋂ker(π₁→ℤ/n) = [π₁,π₁] ≠ 1`, which is what P8's constant systole
+witnesses geometrically. **Also corrected: dividing by volume was my own step; every theorem in the
+area divides by cover degree.**
+**(d) §4's "`k` must be even" is WITHDRAWN as unsupported** — Witten (arXiv:1001.2933 eq. 2.2): the
+**only** condition is `k` integral; Gukov: *"the other parameter, s, is not quantized"*; **nothing
+couples `k` and `σ`**; and `η = 0` for complex CS, so there is no framing anomaly to cancel against.
+The mod-½ ambiguity is resolved by **lifting**, not by constraining `k`. **§4's own flag was right
+and was the whole story.**
+**(e) §6's recommendation to re-open Route 3 is WITHDRAWN** — there is no framing equation to find.
+
+> **All three routes are closed, and the third is now closed by citation rather than by guess.
+> `σ` is a free continuous parameter of complex Chern–Simons theory — the theory's own statement,
+> not an accident of this object — so no invariant of m004 or of its family can fix it by this
+> route.** The verdict is unchanged: **Path A does not cross.** It is now better-founded than the
+> arc that banked it.
+
+**Three further errors of this seat, recorded:** the `|tr| > 2` loxodromy test · the `1/(6π)`
+attribution (**the second wrong remembered citation in two arcs**) · dividing by volume where the
+theorems divide by cover degree.
+
+**Gate 5 absolute: no value, no generation count, no physics reading, nothing to `CLAIMS.md`.**

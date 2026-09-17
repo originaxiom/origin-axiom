@@ -1,0 +1,33 @@
+{
+ "P7": {
+  "dmax": 10,
+  "n_covers": 87,
+  "min": 0.0,
+  "max": 0.4741210835244119,
+  "median": 0.09020324270628413,
+  "trivial": 19,
+  "exceeding_cyclic_limit": 0,
+  "cyclic_limit": 0.4741275971155482
+ },
+ "P8": {
+  "phi_a": 0,
+  "tr_a": "(-1.5+0.8660254037844386j)",
+  "ell_a": 1.0870701449957392,
+  "snappy_systole": 1.0870701449957394,
+  "instruments_agree": true,
+  "systole_constant_along_tower": true
+ },
+ "P9": {
+  "P2_confirmed": true,
+  "one_over_6pi_is_BV_Conjecture_1_3_not_a_theorem": true,
+  "only_Z_coefficient_theorem_is_Le_upper_bound": true,
+  "per_degree_not_per_volume": true,
+  "two_different_L2_torsions": [
+   "Z-cover: log M(Delta)",
+   "universal cover: vol/(6 pi)"
+  ],
+  "P4_k_even_withdrawn": true,
+  "P6_reopen_route_3_withdrawn": true,
+  "route_3_closed_by": "Witten arXiv:1001.2933 eq. 2.2; Gukov hep-th/0306165 sec 1.1; eta = 0 (Gukov eq. 3.36)"
+ }
+}
