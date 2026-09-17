@@ -1,5 +1,28 @@
 # Changelog
 
+## xB017 — PATH B: the torsion is every Bianchi group's, the deck frame is refuted, and d = 3's distinction is axiom A6
+
+Sealed `82134f36…`, pushed at `451a0ee` before `verification/` existed; N5(a) disclosed as **derived**
+in advance, N3 and N5(b) declared as the cells this seat could not call.
+
+**xB012's own V5 booked the debt** — *"whether that is object-specific or generic is not settled
+here."* **Settled: generic.** **N2**: orders `{2,3}` occur in **every** Bianchi group and no other
+order occurs in any — **zero distinguishing bits**. **N3** (blind): exactly `SL(2,𝔽₃) = 2T` and
+`SL(2,𝔽₅) = 2I` are McKay groups, identified **by order spectrum**, and **24.6 %** of imaginary
+quadratic fields reach 2T by the same ramified reduction — **the spine's mechanism is generic**.
+**N4**: `d = 3` is the unique field ramified only at 3 *and* has the smallest `|D|` — **one fact, and
+it is minimality, i.e. axiom A6 restated**. **N5** (blind): `Γ` **surjects** mod `(√−3)` (a level
+B731/B734 never tested), and is **not even normal** — `Isom⁺(m004)` has order 4 and `12 ∤ 4`, so the
+cover is **irregular with no deck group at all**. **The path's framing is refuted by its own kill
+condition**, and the `12 = |PSL(2,𝔽₃)|` coincidence dissolves under B757's standard.
+
+**Unexpected, recorded, not spent:** the smallest field reaching **both** McKay groups is **ℚ(√−15)**
+— **B336's field, reached from a completely different direction.** Corroboration, not identification.
+
+**Own correction inside the cell:** a draft headline said "one in three" against its own measured
+24.6 %. **Paths A and B are now closed; C is the only one not yet run.**
+
+
 ## The banking pass — and the audit found the action card's headline wrong by one
 
 Owner: **"bank it all so we dont redo. and make sure we missed nothing."**

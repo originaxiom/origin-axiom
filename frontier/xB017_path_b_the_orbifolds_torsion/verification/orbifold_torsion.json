@@ -1,0 +1,87 @@
+{
+ "N1": {
+  "ring_map_failures": 0,
+  "sl2f3_order": 24,
+  "surjective": true,
+  "order_spectrum": {
+   "4": 6,
+   "6": 8,
+   "3": 8,
+   "1": 1,
+   "2": 1
+  }
+ },
+ "N2": {
+  "fields_checked": 37,
+  "O_d_cap_R_is_Z": true,
+  "both_orders_present_for_every_d": true,
+  "torsion_is_generic": true
+ },
+ "N3": {
+  "mckay_primes": {
+   "3": "2T (binary tetrahedral, E6)",
+   "5": "2I (binary icosahedral, E8)"
+  },
+  "fields": 122,
+  "reach_2T": 30,
+  "reach_2I": 21,
+  "reach_both": 5,
+  "rate_2T": 0.2459016393442623,
+  "reach_2T_examples": [
+   3,
+   6,
+   15,
+   21,
+   30,
+   33,
+   39,
+   42,
+   51,
+   57,
+   66,
+   69,
+   78,
+   87,
+   93,
+   102,
+   105,
+   111,
+   114,
+   123
+  ],
+  "both_examples": [
+   15,
+   30,
+   105,
+   165,
+   195
+  ]
+ },
+ "N4": {
+  "ramified_only_at_3": [
+   [
+    3,
+    -3
+   ]
+  ],
+  "smallest_absD": 3,
+  "smallest_at_d": 3,
+  "distinction_is_minimality": true
+ },
+ "N5": {
+  "rep_pinned_against_banked_kappa": true,
+  "index_at_sqrt_minus_3": 1,
+  "surjects": true,
+  "covolume_index": 12.0,
+  "isom_order": 8,
+  "isom_plus_order": 4,
+  "normal": false,
+  "frame_refuted": true
+ },
+ "N6": {
+  "torsion_generic": true,
+  "frame_refuted": true,
+  "spine_mechanism_generic": true,
+  "d3_distinction_is_A6_minimality": true
+ }
+}

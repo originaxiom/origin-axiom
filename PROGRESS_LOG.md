@@ -16257,3 +16257,76 @@ started) · the seven `VERIFIED` verdicts in B1411–B1417, still non-schema (re
 land `linkage-kills` and `rederivation` on main.
 
 **Gates 35/35. Gate 5 absolute throughout.**
+
+---
+
+## 2026-09-17 — xB017: Path B pays xB012's debt, and the deck frame is refuted
+
+Owner: **"lets continue path B, but again… proper properly."** `PREREGISTRATION.md` sealed
+`82134f36…`, pushed at `451a0ee` before `verification/` existed, with **N5(a) disclosed as derived
+in advance** and **N3 and N5(b) declared as the two cells this seat could not call**.
+
+**The debt, booked by xB012 against itself in its own V5:** *"every Bianchi group `PSL(2,O_d)` has
+torsion and a reduction map … whether that is object-specific or generic is **not** settled here."*
+**It is settled. It is generic.**
+
+**N1.** xB012's V3/V4 reproduce: torsion `{2,3}`, the ring map `O₃/(√−3) ≅ 𝔽₃` with **0 failures over
+28 561 pairs**, `SL(2,O₃) ↠ SL(2,𝔽₃)` of order 24, and the order spectrum identifying **2T by
+computation rather than by citation**.
+
+**N2 — half the premise dissolves.** Orders `{2,3}` occur in **every** Bianchi group and **no other
+order occurs in any**: an elliptic element has **real** trace in `(−2,2)`, and `O_d ∩ ℝ = ℤ` for every
+`d` (checked for all 37 squarefree `d ≤ 60`, both shapes of the ring of integers), so the trace is in
+`{−1,0,1}`; and both orders are present for every `d` because the witnesses have **integer** entries.
+**The orbifold's ℤ/2 and ℤ/3 carry zero bits distinguishing `d = 3`.**
+
+**N3 — the blind cell, and the programme's exposure.** Which `SL(2,𝔽_p)` **is** binary polyhedral,
+computed by **order spectrum**: exactly `p = 3` (**2T**, the E₆ end) and `p = 5` (**2I**, the E₈ end).
+Across the **122** imaginary quadratic fields with `d ≤ 200`: **30 (24.6 %) reach 2T**, 21 (17.2 %)
+reach 2I, 5 reach both. **The `ℚ(√−3) → 2T → E₆` spine is not `d = 3`'s property as a mechanism —
+about one field in four reaches 2T the same way.** *A self-correction inside the cell:* a first draft
+of that headline said **"one in three"** against its own measured **24.6 %**. **Overstating your own
+number is the same failure as mis-citing someone else's.**
+
+**And an observation the cell did not go looking for.** The smallest field reaching **both** McKay
+groups is **ℚ(√−15)**, ramified exactly at `{3,5}` — **the field B336 reached from a completely
+different direction**, calling it *"the abstract compositum / class-field of the two ends."* **Two
+independent routes to one field.** Recorded as **corroboration of B336**, explicitly **not** an
+identification (I-10/E82, priced 0.58 bits by xB005); B336's own closure is untouched.
+
+**N4 — d = 3 is distinguished, and the distinction is an axiom.** It is the **unique** imaginary
+quadratic field ramified **only** at 3, and it attains the **smallest `|D|`**. **Those are one fact**:
+`|D| = 3` is minimal *because* 3 is the only ramified prime and the smallest odd prime. **So the
+distinction is minimality — axiom A6 restated, not an independent arithmetic selector. The arithmetic
+did not pick `d = 3`; the minimality axiom did, and the arithmetic followed.** Same shape as xB013
+Add. 1 and xB015: **every finite step is an axiom.**
+
+**N5 — the frame is refuted by its own preregistered kill.** The representation is **pinned against a
+banked value** (xB013 X1's `κ`, `κ−2 = ω²`, forcing `x = ±ω`) rather than assumed.
+**(a)** `Γ = π₁(m004)` is **not** the principal congruence subgroup at level `(√−3)`: image **24 of
+24** in `SL(2,𝔽₃)`, **12 of 12** in `PSL(2,𝔽₃)` — **index 1, it surjects.** Derived and disclosed in
+the seal from `(3) = (√−3)²` plus B734's level-`(3)` index of 1 — **a level B731/B734 never tested,
+because they indexed levels by rational integers and the ramified prime is not one.**
+**(b)** `Γ` is **not even normal.** Covolume index **12**; a regular cover's deck group acts freely by
+isometries inside `Isom⁺(m004)`, **of order 4** — `12 ∤ 4`, and `12 > 8` (the full isometry group), so
+the conclusion is independent of the orientation bookkeeping. **`m004 → H³/PSL(2,O₃)` is an IRREGULAR
+cover with NO DECK GROUP AT ALL.** *"The orbifold's torsion as covering/deck data"* **is the wrong
+frame for this object.**
+
+**And the coincidence dissolves under B757's own standard.** `[PSL(2,O₃):Γ] = 12 = |PSL(2,𝔽₃)|` — but
+`Γ` **surjects** rather than being the kernel, so the two 12s are not the same 12. B757 dissolved the
+"two ℤ/3s" for exactly this reason. **Worth zero bits, and this arc does not spend it.**
+
+**This arc cites nothing load-bearing, by design.** After the session's finding that **four of five**
+remembered citations were wrong, every fact here is computed or argued in-cell. A commissioned
+literature sweep had **not returned** at banking; **if it corrects anything, the arc owes an
+addendum**, and its cells re-run in about two minutes.
+
+> **Path B returns a paid debt and a refuted frame, not a mechanism** — exactly what the seal
+> predicted.
+
+**Where the three approved paths stand:** **A** closed (xB014/xB016). **B** closed here. **C** — *are
+the A5 bit (m003 vs m004) and the A7 bit (LR vs RL) the same ℤ/2?* — **the only one not yet run**, and
+sharper than when it was approved, since xB015 showed A5 is the bit the k-coupling sees.
+
+**Gates 35/35. Gate 5 absolute.**
