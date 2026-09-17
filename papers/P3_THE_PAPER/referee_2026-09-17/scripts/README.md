@@ -60,3 +60,14 @@ relation at *every* degree, with coefficients of size 10^40 and residuals as sma
 residual threshold alone will therefore accept a wrong answer. `minpoly()` here bounds the
 coefficients as well, and the open object is carried through as a positive control
 (`x^2 - x + 1`, disc −3).
+
+## Round 2 (the S18/S19 revision)
+
+| script | what it checks | result at `21c47a51` |
+|---|---|---|
+| `r2_chain_table_drift.py` | every generated chain-table row against the paper, not the 9 the shipped gate samples | **1 of 57 stale** (link 43: generator 0.8 %, paper 0.9 %) |
+| `r2_lock_data_tracked.py` | whether any of the 147 manifest locks reads a present-but-untracked data file — the regression check for round 1's worst defect | **0** — the S19 sweep holds |
+
+Both run from the repository root and exit non-zero on a finding. Each documents its own method and
+its limit in the docstring; `r2_lock_data_tracked.py` in particular is evidence and not proof, since
+a lock building its path dynamically would escape a literal-string scan.
