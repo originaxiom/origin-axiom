@@ -15899,3 +15899,36 @@ Owner's redirect (*"what if we don't need to select m004… maybe selectivity is
 That is what *"maybe selectivity is the mistake"* resolves to under computation: **not that selection was wrong, but that A5 is a fork with a priced bill on both sides.**
 
 **Not claimed**, as the seal required in advance: **no physics follows**; the orbifold's ℤ/3 is **not** identified with the trinification ℤ/3, `2T/Q₈` or `Z(E₆)` (an I-10/E82-class claim — xB005 priced that family at **0.58 bits** with three of four hats one fact); and the **base rate against generic Bianchi orbifolds is owed and unmeasured** — every `PSL(2,O_d)` has torsion and a reduction map, and what is specific to `d = 3` is that the ramified prime has norm 3 and `SL(2,𝔽₃) = 2T`. **No axiom is amended** — A5 is the record's and changing it is the owner's call. Gate 5 absolute. Five cells, each asserting its own mathematics.
+
+## 2026-09-17 — xB013 THE PRODUCT OF BOTH FACES SUPPLIES 3.39 BITS AND STOPS AT A PAIR: the object of the two faces is m004 *and its sign-twin*, and the last bit is A5's
+
+Owner: *"physics might be the product of both faces."* **PREREGISTRATION sealed (sha256 `fd3568c38fbdec91e2749464be7e24e3c93d6fddad1ce0368e1384e65d1bc171`) and PUSHED at `063e19f` BEFORE any cell ran.**
+
+**The thesis is not a slogan, and it does not reach a manifold. It decomposes the selection.**
+
+**X1 — κ re-derived, not cited.** B309/B518/B1010's κ-unification reproduces exactly at `ρ_geo`: `κ = tr[a,b] = 3/2 − (√3/2)i`, **`κ − 2 = ω²` exactly**, `|κ − 2| = 1` — the **unit obstruction** — and `κ = 2` ⟺ the cancellation completes ⟺ nothing. So **κ already IS the product of both faces**: `2 + λ²` is the golden/Fricke–Vogt side, `κ − 2 = ω²` the Eisenstein side. This arc does not re-claim it; it asks whether it **selects**.
+
+**The faces, defined operationally before computing.** **Eisenstein** = invariant trace field `ℚ(√−3)`, i.e. xB007's 21-member commensurability class. **Golden** = fibres as a once-punctured-torus bundle with monodromy `|trace| = 3`, eigenvalues `φ^{±2}`.
+
+| step | survivors |
+|---|---|
+| Eisenstein face alone | **21** |
+| + fibres as a o-p-t bundle | **6** |
+| + **GOLDEN** (`|trace| = 3`) | **2** — `m003`, `m004` |
+| + **A5** (torsion-free, `H₁ = ℤ`) | **1** — `m004` |
+
+> **The product of the two faces cuts 21 → 2: 3.39 bits.** The golden face is **thin** — 2 of 21, and 2 of the 6 that fibre at all.
+
+**X4 — and it stops one bit short.** Both survivors have **identical volume** `2.0298832128`, so the product of the faces returns a **PAIR**, not a member — this seat's sealed prior, and the reason is exact: **`m003 = b+-LR` and `m004 = b++LR` carry the SAME monodromy word**, differing only by the sign `−I`.
+
+> **The residue is exactly ONE BIT, and it is not a new bit.** It is precisely xB007's knot-ness, `det(φ_*−I) = ±1` — and precisely the bit xB007 proved the **character variety cannot see**, since the trace map factors through `PSL(2,ℤ)`.
+
+**A correction this arc made to itself before shipping.** A first draft of X5 asserted *"the intersection is a TOWER, not a point."* **The table contradicts it**: `(LR)ⁿ` for `n ≥ 2` has `|trace|` **7, 18** — Lucas `L₄, L₆` — **not 3**, so `m206` and `s961` are **not** golden. The tower is golden only at its first step. Replaced by a measurement before anything was banked.
+
+**What this establishes.** (1) **κ really is the product of both faces**, re-derived exactly. (2) **The product is a strong selector**: `21 → 2`, **3.39 bits**, and the golden face is genuinely thin rather than a tower. (3) **It does not close** — the last bit is the monodromy sign, which is **A5's**, and the two faces together do not take that step.
+
+> **The object of the two faces is the PAIR `{m003, m004}` — a manifold and its sign-twin — not either one alone.**
+
+That is the owner's thesis sharpened by measurement: **not** that selection was wrong, and **not** that the faces select — but that **the faces supply 3.39 bits and the axiom supplies the last one.**
+
+**Not claimed**: no physics; that the faces "multiply" in any physical sense is not asserted, no identification is made and no link graph claimed (**E82**). Base rates **reported, not assumed**: golden is 2/21 in the class and 2/6 among those that fibre. The bundle search reaches all four `b±±` prefixes at word length ≤ 9, so **6/21 is a lower bound**. **No axiom amended** — A5 is the record's. Gate 5 absolute. Five cells, each asserting its own mathematics.
