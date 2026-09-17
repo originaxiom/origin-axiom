@@ -1244,9 +1244,46 @@ def gate_linkage_kills():
     return True, f"ok ({len(hits)} frozen, 0 new)"
 
 
+def gate_rederivation():
+    """xB010, from the owner's instruction of 2026-09-17: sweep the repo before planning work,
+    and WHEN THE SWEEP FINDS SOMETHING, REDO IT ANYWAY -- a banked negative may be misinformed,
+    bugged or wrongly done.
+
+    B1202 and the absence-sweep rule both govern ABSENCE. Neither says what to do when the sweep
+    FINDS something, so a hit read as "already settled, move on". A banked result was treated as
+    an ANSWER; it is a HYPOTHESIS. The asymmetry: a wrong POSITIVE gets re-tested downstream
+    because people build on it; A WRONG NEGATIVE IS NEVER RE-TESTED, BECAUSE IT STOPPED EVERYONE.
+
+    COMPLETENESS, NEVER JUDGMENT: the gate cannot tell whether a re-derivation was real, only
+    that the question was answered where a reader can find it. AN HONEST NOT_RERUN WITH A REASON
+    PASSES -- a rule that forbids saying "I did not re-run this" produces false declarations, not
+    re-derivation (the B1222 shape turned on ourselves). Silent omission is what is impossible.
+
+    Bound by a FROZEN ROSTER, not a numeric cutoff: seat-prefixed ids parse small (xB009 -> 9),
+    so a cutoff could never bind the seat that wrote the rule."""
+    import importlib.util as _ilu
+    path = os.path.join(ROOT, "scripts", "checks", "rederivation.py")
+    if not os.path.exists(path):
+        return False, "scripts/checks/rederivation.py missing (xB010)"
+    spec = _ilu.spec_from_file_location("_rederivation", path)
+    mod = _ilu.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    fails = mod.selftest_quiet()
+    if fails:
+        return False, [f"SELFTEST FAILED ({fails}) -- the instrument is void until it passes"]
+    problems, bound = mod.check()
+    if problems:
+        return False, problems[:5] + [
+            "declare `rederived` in arc_verdict.json: for each banked result this arc leans on, "
+            "{arc, outcome: CONFIRMED|CORRECTED|SCOPED|NOT_RERUN, what/why}. An honest NOT_RERUN "
+            "with a reason is ACCEPTED -- silence is not."]
+    return True, f"ok ({len(bound)} arc(s) bound, all declared)"
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "linkage-kills": gate_linkage_kills,
+    "rederivation": gate_rederivation,
     "framing": gate_framing,
     "claims": gate_claims,
     "firewall-oneway": gate_firewall_oneway,

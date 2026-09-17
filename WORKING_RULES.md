@@ -217,6 +217,37 @@ survived). A statistics claim carries its resolution: an N-seed null only speaks
 larger than its own std (B189's 30-seed "indistinguishable" reversed at 100 seeds per level).
 
 
+**THE RE-DERIVATION RULE — a banked result is a HYPOTHESIS, not an answer (xB010, the owner's
+instruction of 2026-09-17: *"if it does exist, redo it anyway, because if it's negative it might be
+misinformed, bugged or wrongly done — verify verify"*).** Sweep first, always. **When the sweep
+FINDS something the planned work touches or leans on, RE-DERIVE it before accepting it** — own code
+where feasible, the discriminating fact computed in-sandbox (this extends **E4**, *compute the
+discriminating fact*, and **E3**, the stale-checkout false negative). **Priority: banked NEGATIVES
+that would stop the work.** Then **declare** it: `rederived: [{arc, outcome, what|why}]` in
+`arc_verdict.json`, outcome one of **CONFIRMED · CORRECTED · SCOPED · NOT_RERUN**, read by
+`gate_rederivation`.
+
+**CITE ≠ RE-DERIVE.** Reading an arc's conclusion and using it is *citing*. Re-deriving is computing
+the discriminating fact again and comparing. B1202 and the absence-sweep rule both govern
+**absence**; neither says what to do when the sweep **finds** something, and in practice a hit read
+as *"already settled, move on"* — `already_banked.py`'s own output says **read** it, not
+**re-derive** it.
+
+**Why the priority is on negatives.** A wrong **positive** gets re-tested downstream, because people
+build on it. **A wrong negative is never re-tested, because it stopped everyone.** A bad kill is
+silent and permanent. Measured: **B742 revived 2 of 33** re-adjudicated kills; **xB005's own Q3 was
+a wrong kill**, caught only because the owner said *reverify*; **B146's justification was wrong**
+though its kill survived; and the one unverified acceptance in that session (*"the verification
+package FAILS"*) **was itself wrong** — the seat's own missing dependencies.
+
+**An honest `NOT_RERUN` with a stated reason PASSES, deliberately.** A rule that forbids saying
+*"I did not re-run this"* does not produce re-derivation, it produces **false declarations** — the
+B1222 shape turned on ourselves. Silent omission is what the gate makes impossible, not honesty.
+**Scope, narrowed in xB010's seal rather than silently:** *redo everything the planned work touches
+or leans on, and declare anything you did not redo and why* — "redo all 1248 arcs" is not a rule
+anyone can follow, and a rule nobody can follow is not read.
+
+
 **Run the already-banked check before claiming anything is missing (B1202).** No MISSING / OPEN /
 "never run" / "no successor" claim is admissible until `scripts/checks/already_banked.py` has been
 run on its terms, and the searched terms are stated alongside the claim. The class this closes cost

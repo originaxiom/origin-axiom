@@ -1,0 +1,43 @@
+{
+ "id": "xB010",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B742",
+  "B1202",
+  "B1222",
+  "B1226",
+  "B1231",
+  "xB005",
+  "xB006",
+  "xB009"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B742_negatives_hunt_p1",
+   "outcome": "CONFIRMED",
+   "what": "the two numbers this rule ARGUES FROM, re-derived from B742's own artifacts rather than its prose headline: recompute/ holds exactly 32 target directories (its stated '32 sealed targets recomputed'), and tallying the verdict column of its own table gives REVIVED = 2. Also verified B146 is among the recomputed targets -- B742 recomputed it in July, xB006 re-tested it today and found its kill sound but its JUSTIFICATION wrong: two passes, two different defects, which is the case for this rule."
+  },
+  {
+   "arc": "B742_negatives_hunt_p1",
+   "outcome": "SCOPED",
+   "what": "B742's stated '30 RECONFIRMED' is NOT independently confirmed here: this arc's row-parser tallies only 8, because the table carries row formats the regex does not match. Declared SCOPED rather than CONFIRMED. The claim is not disputed -- it is UNVERIFIED BY THIS ARC, which is exactly the distinction the rule exists to make visible."
+  },
+  {
+   "arc": "B1202",
+   "outcome": "CONFIRMED",
+   "what": "re-read already_banked.py's own output text to verify the gap this rule fills: it prints 'SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. Read it BEFORE writing MISSING/OPEN' -- READ, not RE-DERIVE. B1202 governs ABSENCE claims only, so it does not cover the case where the sweep FINDS something. The gap is real."
+  },
+  {
+   "arc": "B1231",
+   "outcome": "CONFIRMED",
+   "what": "re-read gate_identification_register and confirmed the ratchet reasoning this arc copies (a hard block makes the fastest path to green relabelling rather than earning), and that it reads a declaration rather than judging content -- the 'completeness, never judgment' pattern reused here."
+  }
+ ],
+ "claim_one_line": "THE RE-DERIVATION RULE: A BANKED RESULT IS A HYPOTHESIS, NOT AN ANSWER -- written, gated, and eaten by its own author (PREREGISTRATION sealed sha256 5ec6f8c5... and PUSHED at b5ac068 BEFORE any code existed). Owner instruction 2026-09-17: always sweep the repo before planning work, and if what you planned already exists, REDO IT ANYWAY, because a negative may be misinformed, bugged or wrongly done. THE GAP IS REAL AND WAS VERIFIED, NOT ASSUMED: B1202 and the absence-sweep rule both govern ABSENCE, and already_banked.py's own output says 'READ it BEFORE writing MISSING/OPEN' -- read, not re-derive -- so nothing covered the case where the sweep FINDS something, and a hit read as 'already settled, move on'. THE ASYMMETRY THAT MAKES IT URGENT: a wrong POSITIVE gets re-tested downstream because people build on it; A WRONG NEGATIVE IS NEVER RE-TESTED, BECAUSE IT STOPPED EVERYONE -- a bad kill is silent and permanent. R1 PASS: the rule is in WORKING_RULES.md and registered in docs/PRACTICES.md, carrying the CITE != RE-DERIVE distinction (citing is using an arc's conclusion; re-deriving is computing the discriminating fact again in your own sandbox and comparing -- extending E4 and E3). R2 PASS: bound by a FROZEN ROSTER of the 1257 pre-existing arcs, NOT a numeric cutoff, and the reason is demonstrated rather than asserted -- seat-prefixed ids parse small (xB009 -> 9), so any cutoff would have EXEMPTED THIS SEAT'S OWN ARCS FOREVER; xB010 is not on the roster, so the rule binds its own author. R3 PASS: 34/34 became 35/35, 0 FAIL -- and the suite's own tracked-deps and practices-register gates red first, demanding the new files be tracked and the new gate registered, the instrumentation working on its author for the second time today. R4 PASS, THE CELL THAT COULD GO WRONG BY DESIGN: an honest NOT_RERUN with a stated reason is ACCEPTED, a bare one is not, and CONFIRMED with nothing recomputed is not -- because a rule that forbade saying 'I did not re-run this' would not produce re-derivation, it would produce FALSE DECLARATIONS (the B1222 shape, turned on ourselves, and the reason identification-register is a ratchet). SILENCE is what is made impossible, not honesty. R5 PASS, THE AUTHOR EATS IT FIRST: the statistic this rule is argued FROM was re-derived rather than cited -- B742's recompute/ holds exactly 32 target directories and its own table tallies REVIVED = 2, both confirmed from artifacts; and B146 is among them, recomputed by B742 in July and re-tested by xB006 today, which found its kill sound but its JUSTIFICATION wrong -- two passes, two different defects, exactly the case for this rule. AND THE HONEST LIMIT IS DECLARED RATHER THAN GLOSSED: B742's stated '30 RECONFIRMED' is NOT independently confirmed here (this arc's row-parser tallies 8; the table carries formats the regex misses), so it is declared SCOPED, not CONFIRMED -- not disputed, UNVERIFIED BY THIS ARC, which is the distinction the rule exists to make visible. SCOPE, NARROWED IN THE SEAL RATHER THAN SILENTLY: 'redo everything' cannot mean all 1248 arcs; the executable form is REDO EVERYTHING THE PLANNED WORK TOUCHES OR LEANS ON, AND DECLARE ANYTHING YOU DID NOT REDO AND WHY -- a rule nobody can follow is not read. Mechanism: `rederived` in arc_verdict.json {arc, outcome in CONFIRMED|CORRECTED|SCOPED|NOT_RERUN, what|why}, scripts/checks/rederivation.py, gate_rederivation, docs/REDERIVATION_ROSTER.json, and tests/test_xb010_rederivation.py (8 assertions). Completeness, never judgment: the gate cannot tell whether a re-derivation was real, only that the question was answered where a reader can find it. This seat proposes it on its own branch; landing it on main is cc's call. Instrument; creates_law false; Gate 5 absolute."
+}

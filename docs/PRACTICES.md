@@ -840,6 +840,35 @@ window candidate.
   **bounded and inherited** (the B806 trade, measured): a kill phrased without one of
   the lexicon's constructs is invisible. It **reduces** the class; it does not close
   it.
+- **THE RE-DERIVATION RULE: `rederived` + the `rederivation` gate, bound by a frozen
+  roster (2026-09-17; xB010, the owner's instruction).** *"Always sweep the repo to see if
+  what you plan to do doesn't already exist. If it does, **redo it anyway**, because if it's
+  negative it might be misinformed, bugged or wrongly done — verify verify."* **B1202 and the
+  absence-sweep rule both govern ABSENCE**; neither says what to do when the sweep **finds**
+  something, and in practice a hit read as *"already settled, move on"* —
+  `already_banked.py`'s own output says **read** it, not **re-derive** it. **A banked result
+  was treated as an ANSWER; it is a HYPOTHESIS.** **The asymmetry that makes this urgent:** a
+  wrong **positive** gets re-tested downstream because people build on it; **a wrong negative
+  is never re-tested, because it stopped everyone** — a bad kill is silent and permanent.
+  Measured in one session: **B742 revived 2 of 33** re-adjudicated kills; **xB005's own Q3 was
+  a wrong kill**, caught only because the owner said *reverify*; **B146's justification was
+  wrong** though its kill survived; and that session's single unverified acceptance (*"the
+  verification package FAILS"*) **was itself wrong**, the seat's own missing dependencies.
+  **CITE ≠ RE-DERIVE**: citing is using an arc's conclusion, re-deriving is computing the
+  discriminating fact again in your own sandbox and comparing — extending **E4** and **E3**.
+  Mechanism: `rederived: [{arc, outcome, what|why}]` in `arc_verdict.json`, outcome in
+  **CONFIRMED · CORRECTED · SCOPED · NOT_RERUN**, read by `gate_rederivation`
+  (`scripts/checks/rederivation.py`), enforcing **completeness, never judgment** — it cannot
+  tell whether a re-derivation was real, only that the question was answered where a reader
+  can find it. **An honest `NOT_RERUN` with a stated reason PASSES, deliberately:** a rule that
+  forbids saying *"I did not re-run this"* does not produce re-derivation, it produces **false
+  declarations** (the B1222 shape, turned on ourselves); **silent omission** is what is made
+  impossible, not honesty. **Bound by a FROZEN ROSTER, not a numeric cutoff** —
+  `docs/REDERIVATION_ROSTER.json` exempts the 1257 arcs that existed when the rule landed,
+  because seat-prefixed ids parse small (`xB009 → 9`) and a cutoff **could never bind the seat
+  that wrote the rule**. **Scope, narrowed in the seal rather than silently:** *redo everything
+  the planned work touches or leans on, and declare anything you did not redo and why* — "redo
+  all 1248 arcs" is not a rule anyone can follow, and a rule nobody can follow is not read.
 - **The `creates_law` declaration + `theorem-registry` gate (2026-08-21; R48-F1's
   response, the audit seat's sharpening adopted verbatim).** THEOREM_REGISTRY's
   standing same-PR rule went unenforced for 179 arcs because no gate read it. The

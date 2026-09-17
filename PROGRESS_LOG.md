@@ -15806,3 +15806,31 @@ Owner-directed, under the owner's instruction of this date that **the goal is th
 **One correction of this seat's own, made before anything shipped.** A first draft of O4 printed *"THE ODD SECTOR IS GENUINELY NEW INFORMATION"* on the strength of separation alone. **Overstated** — separation says the odd sector sees something the even cannot, not that the something is large. O4 now **measures** it and reports one bit.
 
 **Not claimed**, and the seal fenced it in advance: *odd sector = spin = 4d spinor = matter* is an I-10-class identification, is **not** made here, and is now moot — there is nothing in the odd sector to carry across. Reuses B425's validated machinery **unchanged**; nothing in B425 modified. Gate 5 absolute: no value, no generation count, no physics reading, nothing promoted to `CLAIMS.md`.
+
+## 2026-09-17 — xB010 THE RE-DERIVATION RULE: a banked result is a HYPOTHESIS, not an answer — written, gated, and eaten by its own author
+
+Owner instruction, 2026-09-17: *"always sweep the repo to see if what you plan to do doesn't already exist. if it does, **redo it anyway**, because if it's negative it might be misinformed, bugged or wrongly done — verify verify."* **PREREGISTRATION sealed (sha256 `5ec6f8c5da5c5e6abbe206952bb93983d24d6e3f0481b9972f819c9b51e3abfe`) and PUSHED at `b5ac068` BEFORE any code existed.**
+
+**The gap was verified, not assumed.** **B1202** requires `already_banked.py` before any MISSING/OPEN claim, and the absence-sweep rule requires a complete sweep before an absence is even a finding. **Both govern ABSENCE.** Re-read here: `already_banked.py`'s own output says *"SETTLED OR SCHEDULED MATERIAL EXISTS FOR THESE TERMS. **Read it** BEFORE writing MISSING/OPEN"* — **read**, not **re-derive**. Nothing covered the case where the sweep **finds** something, and in practice a hit read as *"already settled, move on"*.
+
+> **A banked result was treated as an ANSWER. It is a HYPOTHESIS.**
+
+**The asymmetry that makes it urgent.** A wrong **positive** gets re-tested downstream, because people build on it. **A wrong negative is never re-tested, because it stopped everyone.** A bad kill is silent and permanent. Measured in one session: **B742 revived 2 of 33** re-adjudicated kills; this seat's own **xB005 Q3 was a wrong kill**, caught only because the owner said *reverify*; **B146's justification was wrong** though its kill survived; and this seat's single unverified acceptance — *"the verification package FAILS"* — **was itself wrong**, its own missing dependencies.
+
+**The rule.** Sweep first, always. When the sweep **finds** something the planned work touches or leans on, **re-derive it before accepting it** — own code where feasible, the discriminating fact computed in-sandbox (extending **E4**, *compute the discriminating fact*, and **E3**, the stale-checkout false negative). **Priority: banked NEGATIVES that would stop the work.** Then declare it. **CITE ≠ RE-DERIVE**: citing is using an arc's conclusion; re-deriving is computing the discriminating fact again and comparing.
+
+**R1 PASS** — the rule is in `WORKING_RULES.md` and registered in `docs/PRACTICES.md`, both carrying the CITE ≠ RE-DERIVE distinction and the `NOT_RERUN` escape.
+
+**R2 PASS — and why a roster, not a cutoff, is demonstrated rather than asserted.** Seat-prefixed ids parse small: **`xB009 → 9`**. Any numeric cutoff would have **exempted this seat's own arcs forever** — the author would have written a rule that could never bind him. `docs/REDERIVATION_ROSTER.json` freezes the **1257** pre-existing arcs and binds by identity; **xB010 is not on it**.
+
+**R3 PASS** — 34/34 became **35/35**, 0 FAIL. On the first run the suite's own `tracked-deps` and `practices-register` gates red, demanding the new files be tracked and the new gate registered — **the second time today the instrumentation caught its own author.**
+
+**R4 PASS — the cell that could go wrong by design.** An **honest `NOT_RERUN` with a stated reason PASSES**; a bare one does not; and `CONFIRMED` with nothing recomputed does not, because citing is not re-deriving. A rule that forbade saying *"I did not re-run this"* would not produce re-derivation — it would produce **false declarations**, the B1222 shape turned on ourselves, and the exact reason `identification-register` is a ratchet. **Silence is what is made impossible, not honesty.**
+
+**R5 PASS — the author eats it first.** The statistic this rule *argues from* was **re-derived from B742's artifacts, not its prose**: `recompute/` holds exactly **32** target directories, and tallying the verdict column of its own table gives **REVIVED = 2**. Both confirmed. And **B146 is among them** — B742 recomputed it in July; **xB006 re-tested it today and found its kill sound but its justification wrong**. Two passes, two different defects: the case for this rule, made by its own subject matter.
+
+**And the honest limit is declared rather than glossed.** B742's stated **30 RECONFIRMED** is **not** independently confirmed here — this arc's row-parser tallies 8, because the table carries formats the regex misses. Declared **SCOPED**, not CONFIRMED. **Not disputed — unverified by this arc**, which is exactly the distinction the rule exists to make visible.
+
+**Scope, narrowed in the seal rather than silently:** *redo everything the planned work touches or leans on, and declare anything you did not redo and why.* "Redo all 1248 arcs" is not a rule anyone can follow, and a rule nobody can follow is not read.
+
+**Mechanism.** `rederived: [{arc, outcome, what|why}]` in `arc_verdict.json`, outcome in **CONFIRMED · CORRECTED · SCOPED · NOT_RERUN**, read by `gate_rederivation` (`scripts/checks/rederivation.py`), bound by `docs/REDERIVATION_ROSTER.json`, locked by `tests/test_xb010_rederivation.py` (8 assertions). **Completeness, never judgment.** This seat proposes it on its own branch; landing it on `main` is `cc`'s call. Instrument; `creates_law` false; Gate 5 absolute.
