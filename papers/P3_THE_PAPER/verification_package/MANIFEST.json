@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-09-16T17:10:54Z",
+ "built": "2026-09-17T07:44:55Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,7 +9,7 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "c052c857"
+  "git_head": "27abaeb2"
  },
  "claims": [
   {
@@ -1157,7 +1157,8 @@
       "frontier/B1418_the_family_as_the_object/verification/c4_27bar_exact.out"
      ],
      "locks": [
-      "tests/test_b1418_family.py"
+      "tests/test_b1418_family.py",
+      "tests/test_b1420_referee_upgrades.py"
      ],
      "primary_locks": [
       "tests/test_b1418_family.py"
@@ -1342,7 +1343,8 @@
       "frontier/B1418_the_family_as_the_object/verification/c4_27bar_exact.out"
      ],
      "locks": [
-      "tests/test_b1418_family.py"
+      "tests/test_b1418_family.py",
+      "tests/test_b1420_referee_upgrades.py"
      ],
      "primary_locks": [
       "tests/test_b1418_family.py"
@@ -1718,6 +1720,116 @@
    ]
   },
   {
+   "claim": "of the 87 covers to degree 10, fourteen carry a hexagonal cusp (16 of 201 cusps) -- the only flat torus admitting an order-three automorphism -- and none realises an order-three cusp rotation, on canonical triangulations",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1420",
+     "dir": "frontier/B1420_the_referees_upgrades",
+     "verdict": "PROVED",
+     "claim_one_line": "The referee's upgrades verified: 14 of m004's 87 covers to degree 10 carry a hexagonal cusp and none realises an order-3 cusp rotation (the census is not vacuous); rho has det 1 so Sym^m(rho) is symplectically self-dual and the index can fire only through a twist with psi^2 != 1 (0 of 542 firing mod",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1420_the_referees_upgrades/verification/firing_twists.py",
+      "frontier/B1420_the_referees_upgrades/verification/hexagonal_cusps.py",
+      "frontier/B1420_the_referees_upgrades/verification/selfduality_lemma.py"
+     ],
+     "results": [
+      "frontier/B1420_the_referees_upgrades/verification/firing_twists.out.txt",
+      "frontier/B1420_the_referees_upgrades/verification/hexagonal_cusps.json",
+      "frontier/B1420_the_referees_upgrades/verification/hexagonal_cusps.out.txt",
+      "frontier/B1420_the_referees_upgrades/verification/selfduality_lemma.out.txt"
+     ],
+     "locks": [
+      "tests/test_b1420_referee_upgrades.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1420_referee_upgrades.py"
+     ]
+    }
+   ]
+  },
+  {
+   "claim": "the reducible index can fire only through the twist: rho has det 1, so Sym^m(rho) is symplectically self-dual and I(V) = 0 whenever psi^2 = 1 (verified on the witness and on all 542 firing modules of the record)",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1420",
+     "dir": "frontier/B1420_the_referees_upgrades",
+     "verdict": "PROVED",
+     "claim_one_line": "The referee's upgrades verified: 14 of m004's 87 covers to degree 10 carry a hexagonal cusp and none realises an order-3 cusp rotation (the census is not vacuous); rho has det 1 so Sym^m(rho) is symplectically self-dual and the index can fire only through a twist with psi^2 != 1 (0 of 542 firing mod",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1420_the_referees_upgrades/verification/firing_twists.py",
+      "frontier/B1420_the_referees_upgrades/verification/hexagonal_cusps.py",
+      "frontier/B1420_the_referees_upgrades/verification/selfduality_lemma.py"
+     ],
+     "results": [
+      "frontier/B1420_the_referees_upgrades/verification/firing_twists.out.txt",
+      "frontier/B1420_the_referees_upgrades/verification/hexagonal_cusps.json",
+      "frontier/B1420_the_referees_upgrades/verification/hexagonal_cusps.out.txt",
+      "frontier/B1420_the_referees_upgrades/verification/selfduality_lemma.out.txt"
+     ],
+     "locks": [
+      "tests/test_b1420_referee_upgrades.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1420_referee_upgrades.py"
+     ]
+    },
+    {
+     "arc": "B1418",
+     "dir": "frontier/B1418_the_family_as_the_object",
+     "verdict": "PROVED",
+     "claim_one_line": "THE FAMILY AS THE OBJECT (DESIGN sealed f2f8686c before any cell ran; outcome B). The one-cusped chirality index I = t_0 - r_1 fires in characteristic zero for the first time on real hyperbolic manifolds, and they are members of the figure-eight's commensurability class, not the figure-eight: on red",
+     "seals": [
+      {
+       "seal_file": "frontier/B1418_the_family_as_the_object/DESIGN.sha256",
+       "sealed_file": "frontier/B1418_the_family_as_the_object/DESIGN.md",
+       "recorded": [
+        "5c6c5db4f11189ade6238d41eb8cd152b4c684c96b6725e3510a923455619efb  DESIGN.md"
+       ],
+       "current_sha256": "5c6c5db4f11189ade6238d41eb8cd152b4c684c96b6725e3510a923455619efb",
+       "matches": true
+      }
+     ],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1418_the_family_as_the_object/verification/c1_class_census.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_aggregate.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_reducible_index.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_run.py",
+      "frontier/B1418_the_family_as_the_object/verification/c2_verify_s958.py",
+      "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.py",
+      "frontier/B1418_the_family_as_the_object/verification/c4_27bar_exact.py"
+     ],
+     "results": [
+      "frontier/B1418_the_family_as_the_object/verification/c1_class_census.json",
+      "frontier/B1418_the_family_as_the_object/verification/c1_class_census.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_aggregate.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_class12.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_covers.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_m004.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_m004z12.out",
+      "frontier/B1418_the_family_as_the_object/verification/c2_modules_compact.json",
+      "frontier/B1418_the_family_as_the_object/verification/c2_summary.json",
+      "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.json",
+      "frontier/B1418_the_family_as_the_object/verification/c3_sibling_and_tower.out",
+      "frontier/B1418_the_family_as_the_object/verification/c4_27bar_exact.out"
+     ],
+     "locks": [
+      "tests/test_b1418_family.py",
+      "tests/test_b1420_referee_upgrades.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1418_family.py"
+     ]
+    }
+   ]
+  },
+  {
    "claim": "the manifold's intrinsic arithmetic forces exactly three quadratic faces, Q(sqrt-3), Q(sqrt5), Q(sqrt-15), and no closed filling in the |p|,q <= 8 grid keeps any of them",
    "support": "settled",
    "records": [
@@ -1816,7 +1928,6 @@
       "frontier/B1419_the_arithmetic_fillings_corrected/verification/stragglers_recheck.py"
      ],
      "results": [
-      "frontier/B1419_the_arithmetic_fillings_corrected/verification/arithmetic_census_closed.err.txt",
       "frontier/B1419_the_arithmetic_fillings_corrected/verification/arithmetic_census_closed.out.txt",
       "frontier/B1419_the_arithmetic_fillings_corrected/verification/congruence_levels.out.txt",
       "frontier/B1419_the_arithmetic_fillings_corrected/verification/deep_stragglers.json",
@@ -2177,7 +2288,6 @@
       "frontier/B1419_the_arithmetic_fillings_corrected/verification/stragglers_recheck.py"
      ],
      "results": [
-      "frontier/B1419_the_arithmetic_fillings_corrected/verification/arithmetic_census_closed.err.txt",
       "frontier/B1419_the_arithmetic_fillings_corrected/verification/arithmetic_census_closed.out.txt",
       "frontier/B1419_the_arithmetic_fillings_corrected/verification/congruence_levels.out.txt",
       "frontier/B1419_the_arithmetic_fillings_corrected/verification/deep_stragglers.json",
@@ -2220,10 +2330,10 @@
   }
  ],
  "totals": {
-  "claims": 54,
-  "records": 76,
-  "seals": 18,
-  "locks": 111,
-  "records_with_a_primary_lock": 75
+  "claims": 56,
+  "records": 79,
+  "seals": 19,
+  "locks": 112,
+  "records_with_a_primary_lock": 78
  }
 }

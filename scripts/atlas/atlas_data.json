@@ -8507,6 +8507,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1420": {
+   "slug": "the referees upgrades",
+   "motifs": [
+    "action",
+    "figure_eight",
+    "dickson_tower",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [
+    "S12"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B142": {
    "slug": "klein4 and magic cartography",
    "motifs": [

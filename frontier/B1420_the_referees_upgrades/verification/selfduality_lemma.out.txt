@@ -1,0 +1,25 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+(1) symplectic self-duality of the record's own non-split rho, exactly over K
+   generator a: J rho J^-1 == (rho^-1)^T : True
+   generator b: J rho J^-1 == (rho^-1)^T : True
+   => Sym^m(rho) is self-dual for every m, non-split or not: True
+(2) the m010 witness: the index fires only through the twist
+   chi^3 on generators: ['(Fraction(-1, 1), Fraction(0, 1))', '(Fraction(-1, 1), Fraction(0, 1))']  (psi^2 = 1: True )
+  untwisted (psi = 1) V              a0=0 a1=1 t0=1 r1=1 n=a1-r1=0
+  untwisted (psi = 1) V*             a0=0 a1=1 t0=1 r1=1 n=a1-r1=0
+  untwisted (psi = 1) V^ss           a0=0 a1=4 t0=4 r1=4 n=a1-r1=0
+  untwisted (psi = 1) V^ss*          a0=0 a1=4 t0=4 r1=4 n=a1-r1=0
+==> m010 untwisted (psi = 1): I(V) = 0   I(V^ss) = 0
+  twisted by chi (order 6) V         a0=0 a1=1 t0=1 r1=0 n=a1-r1=1
+  twisted by chi (order 6) V*        a0=0 a1=2 t0=1 r1=2 n=a1-r1=0
+  twisted by chi (order 6) V^ss      a0=1 a1=4 t0=4 r1=4 n=a1-r1=0
+  twisted by chi (order 6) V^ss*     a0=1 a1=4 t0=4 r1=4 n=a1-r1=0
+==> m010 twisted by chi (order 6): I(V) = 1   I(V^ss) = 0
+  twisted by chi^3 (order 2) V       a0=1 a1=2 t0=1 r1=1 n=a1-r1=1
+  twisted by chi^3 (order 2) V*      a0=1 a1=2 t0=1 r1=1 n=a1-r1=1
+  twisted by chi^3 (order 2) V^ss    a0=2 a1=4 t0=4 r1=4 n=a1-r1=0
+  twisted by chi^3 (order 2) V^ss*   a0=2 a1=4 t0=4 r1=4 n=a1-r1=0
+==> m010 twisted by chi^3 (order 2): I(V) = 0   I(V^ss) = 0
+RESULT {'untwisted (psi = 1)': 0, 'twisted by chi (order 6)': 1, 'twisted by chi^3 (order 2)': 0}
+PREDICTION HOLDS: True

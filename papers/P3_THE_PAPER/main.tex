@@ -253,7 +253,13 @@ needs and states the derivation as a \textbf{chain}, in order, with each link ca
 We do this because the interesting fact about the chain is not its length but \emph{where its cost
 sits}, and that is invisible until the links are laid out.
 
-There are \textbf{fifty-six links}. Their types are: thirty-five theorems, six identities, eight no-go results, two censuses, one corollary --- and \textbf{four axioms}. So fifty-two of fifty-six links are forced, in the precise sense that they are not declared choices. The tally is a count of the table's rows under this typing and moves with the table's granularity; it is not an invariant of the derivation, and ``forced'' does not mean ``theorem'': the thirty-five theorems are the theorems, and a census or a no-go result is forced only in the stated sense that no declared choice enters it.
+\textbf{The invariant is four}: the derivation rests on \emph{four undischarged inputs}, three before the object and
+one after, and that count does not move with how finely the chain is cut. The table as we cut it has \textbf{fifty-six
+links} --- thirty-five theorems, six identities, eight no-go results, two censuses, one corollary, and those four axioms ---
+so fifty-two of fifty-six are forced, in the precise sense that they are not declared choices. \emph{That ratio is not
+the invariant and we do not ask it to be}: it counts rows under this typing and moves with the table's granularity, and
+``forced'' does not mean ``theorem'' --- the thirty-five theorems are the theorems, and a census or a no-go result is
+forced only in the stated sense that no declared choice enters it.
 
 \paragraph{Where the four axioms are, which is the point.} In the table's order they sit at the two ends (and the
 order, we repeat, is a banking order):
@@ -425,7 +431,8 @@ manifold. \textbf{The golden substitution matrix, squared, is the object's monod
 is not cosmetic: it \emph{is} the orientation axiom. The un-squared matrix gives a non-orientable
 manifold of exactly half the volume --- and that manifold is not a distant alternative but the one
 our object double-covers. This is why we grade the orientation axiom the most expensive: its
-discarded sibling is the nearest possible neighbour.
+discarded sibling is the nearest possible neighbour --- and, as \S\ref{sec:chirality} says where it costs us most, a square
+is self-mirroring, so the amphichirality that withholds the chirality bit is downstream of this axiom.
 
 \paragraph{The exit from the arithmetic, and a limit we must state.} The combinatorial layer
 delivers the golden field and \emph{only} the golden field. Four independent routes were
@@ -931,7 +938,7 @@ inherit the object's amphichirality, though the spectral wall has held on every 
 Every number in this section is a count of fixed points or of twisted cohomology classes. Reading such a number
 as a number of four-dimensional generations is an identification that the record registers and does \emph{not}
 earn: the index theorem that would license it lives on a Calabi--Yau threefold or a $G_2$ manifold, and its
-transport to a real 3-manifold with boundary is nowhere exhibited --- and the obstruction is sharper than an absence: under the Lorentz double the $27$, the $78$ and their whole tensor tower are integer-spin, and the record's only half-integer object is the holonomy's own $\mathbb{C}^2$. Below, ``generation'' means a complete copy of
+transport to a real 3-manifold with boundary is nowhere exhibited --- and the obstruction is sharper than an absence, in two ways. Under the Lorentz double the $27$, the $78$ and their whole tensor tower are integer-spin, and the record's only half-integer object is the holonomy's own $\mathbb{C}^2$. And for flat data the transport cannot produce chirality at all: a flat bundle has zero curvature, so by Chern--Weil its rational Chern classes vanish and its Chern character is its rank, and the Atiyah--Singer index~\cite{atiyahsinger} of a Dirac operator twisted by it on a closed spin four-manifold is $\mathrm{rk}(V)\cdot(-\sigma/8)$ --- blind to which representation $V$ is. The $27$ and the $\overline{27}$ have the same rank, so \emph{any} route ending in a four-dimensional Dirac index with flat gauge data returns the same number for both, before the object is consulted. We state the two directions this cuts in. It converts the missing transport from a gap into an obstruction; and it applies equally to the non-zero values reported below, which are therefore counts of twisted classes and not four-dimensional indices. Chirality in this frame would need what the object does not supply --- curvature, flux, or a singular locus --- which is also why the one closing mechanism we follow to its obstruction is a conical one. Below, ``generation'' means a complete copy of
 the $27$'s Standard-Model content in the structural sense of \S\ref{sec:forced}, never a proved four-dimensional
 multiplet, and every count is stated as the count it is.
 \end{scopenote}
@@ -955,7 +962,10 @@ rational-homology-sphere closing $\chi(\mathrm{Fix}\,g) = 1 - \deg g \in \{0, 2\
 orientation-reversing isometry}: on a closed closing one may have the two or the breaking of the mirror, not
 both ($360$ symmetries of the first nine closings, all in $\{0,2\}$; a $b_1 = 1$ control fires $\{0,4\}$). The one
 coefficient this rested on --- that the leading mirror-odd mode of the cusp does not vanish --- is computed, and
-it does not. The localized count of Pantev--Wijnholt~\cite{pw}, the signed zero count of a Higgs eigenform, is $0$ or $4$ on the cyclic descent --- and for every $\theta$-odd field with a transverse zero set it is zero whichever mode leads, since $\theta$ exchanges the positive and negative regions of the cusp torus and their Euler characteristics sum to $\chi(T^2) - \chi(Z) = 0$; the ``$\pm 4$'' of a product mode is a zero set with crossings, where the count is undefined rather than non-zero --- and across the $87$ covers of the object to degree $10$ no isometry rotates a cusp by order three. \textbf{Three appears only through the $\Z/3$ descent}, and the descent, we show next, is
+it does not. The localized count of Pantev--Wijnholt~\cite{pw}, the signed zero count of a Higgs eigenform, is $0$ or $4$ on the cyclic descent --- and for every $\theta$-odd field with a transverse zero set it is zero whichever mode leads, since $\theta$ exchanges the positive and negative regions of the cusp torus and their Euler characteristics sum to $\chi(T^2) - \chi(Z) = 0$; the ``$\pm 4$'' of a product mode is a zero set with crossings, where the count is undefined rather than non-zero --- and across the $87$ covers of the object to degree $10$ no isometry rotates a cusp by order three --- a
+census that is not vacuous, and we say why: fourteen of those covers do carry a hexagonal cusp ($16$ of the $201$ cusps),
+the only flat torus admitting an order-three automorphism, so fourteen pass the necessary condition and none realises the
+rotation; the isometries are read from canonical triangulations, not from the triangulation as given. \textbf{Three appears only through the $\Z/3$ descent}, and the descent, we show next, is
 vector-like. A two-cusped sibling of the object does count three, at prices we can name: which of its two cusps, and which
 manifold within its class, are choices --- an identification the record prices and does not earn --- and it loses the
 golden face, since no fibration of it, nor of the other eight members of its class to nine tetrahedra (an earlier count of six rested on an isometry list read off the triangulation as given; the canonical list finds nine to nine tetrahedra and twenty in the census to ten, none keeping the golden face where tested), carries $t^2 - 3t + 1$.
@@ -987,7 +997,17 @@ $F = (a_0 - a_0^*) + r_1 - t_0$, $a_0 - a_1 + a_2 = 0$, with $a_i$, $t_i$ the co
 $r_1$ the restriction rank, starred quantities those of the dual system); formula and domain were pre-registered before
 evaluation. The
 published twisted-duality theorems~\cite{fkk} require a representation conjugate to its dual, and the twists
-in question are outside every such class, so $I$ is computed rather than cited. Two theorems make it vanish on
+in question are outside every such class, so $I$ is computed rather than cited. One lemma organises everything that follows. By definition $I(V) = n(V) - n(V^*)$, so
+\textbf{$I$ vanishes on any self-dual local system}, and the useful half of that is structural: the reducible
+representations used here take values in $\mathrm{SL}(2)$, where the standard module is symplectically self-dual
+($J\rho J^{-1} = (\rho^{-1})^{\mathsf T}$ for $J = \left(\begin{smallmatrix}0&1\\-1&0\end{smallmatrix}\right)$, an identity
+equivalent to $\det\rho = 1$ and therefore indifferent to whether $\rho$ splits). Hence
+$\mathrm{Sym}^m(\rho) \cong \mathrm{Sym}^m(\rho)^*$ for every $m$, and $V = \mathrm{Sym}^m(\rho)\otimes\psi$ has
+$V^* \cong \mathrm{Sym}^m(\rho)\otimes\psi^{-1}$: \textbf{the index can fire only through a twist that is not its own
+inverse, never through the non-split structure alone}. The witness obeys it --- untwisted and order-two twists of the same
+module give $0$, the order-six twist gives $+1$ --- and across the record's $542$ firing modules not one has
+$\psi^2 = 1$. The two theorems below are the lemma's instances, and they are why the escape route is where it is:
+non-self-duality is exactly what a unitary or finite-order-symmetric background cannot have. Two theorems make it vanish on
 the whole cyclic tower. First, for a twist of order $n$ prime to three, the coefficient field is the compositum $\Q(\zeta_3, \zeta_n)$, and it has an
 automorphism fixing the object's field $\Q(\sqrt{-3}) = \Q(\zeta_3)$ and inverting $\zeta_n$ (this is where $3 \nmid n$ is
 used: $\Q(\zeta_3) \cap \Q(\zeta_n)$ must be real); it carries the twist to its dual and preserves every rank in
@@ -1001,7 +1021,13 @@ non-self-dual $E_6$ representations, and at each of four points certified to a h
 $27$'s is zero. \textbf{On the one direction the pairing law leaves open, the net count vanishes at each of four points certified to a
 hundred digits; the pairing law covers every other direction.} The universal form --- no net count on any
 $\mathfrak{sl}_2$ germ --- is the conjecture that evidence supports, and we state it as such; what lies outside
-that frame --- the higher-rank components of the character variety, the singular closing --- is untouched. Two further facts fix the index's standing, and they pull in opposite directions. First, a theorem: for $V = \mathrm{Sym}^m(h) \otimes F$ with $h$ the geometric holonomy of \emph{any} one-cusped hyperbolic 3-manifold and $F$ of finite image, the restriction $H^1(M;V) \to H^1(\partial M;V)$ is injective~\cite{mfp}, transferred through the finite cover that trivialises $F$; so the interior image vanishes and $I(V) = 0$ identically --- on the object, on every cover, on every census manifold. Every geometric-holonomy sector above vanishes for this reason, and the pre-registered test on the cyclic tower could not have passed once it was known. Second, the index is nonetheless a demonstrated instrument: it is non-zero, exactly and in characteristic zero, on \emph{reducible non-split} modules $\mathrm{Sym}^m(\rho_\chi) \otimes \psi$ built at root-of-unity characters $\chi$ with $H^1(\pi;\chi^2) \neq 0$ --- first on the census manifold $m010$ ($I = +1$, semisimplification $0$), then, with the same instrument validated on that witness before any new number was read, on five one-cusped chiral members of the object's own commensurability class ($s958$, $v2873$, $t12833$, $t12835$, $o10\_150701$: $I = \pm 1$, once $\pm 2$, every semisimplification $0$, the $s958$ value re-derived on three presentations) and on the object's own degree-four cyclic cover $t12839$, at their cusp-trivial characters of order three among others. Four of the five are exactly the manifolds an earlier search had chosen for their cusp-trivial characters and found zero on the geometric holonomy. On the object itself the only reducible locus is the golden one ($\Delta = t^2 - 3t + 1$; $H_1 = \Z$ has no torsion), and every module computed there --- $m \le 4$, twists of order dividing twelve, $235$ modules --- returns zero. What fires is non-semisimplicity, a unipotent Wilson line rather than the geometric structure. Such a module is not a background of a compact gauge group, whose flat holonomies are semisimple; it could arise only in the complexified theory, whose boundary theory is exactly what \S\ref{sec:recognition} records as not established --- so its admissibility is an open question with a prior against it, and we grade it so. The rule that separates the five members that fire from the six examined that do not ($o10\_150697$, $o10\_150700$, $t12837$, $s956$, $t11365$, $m208$; and the degree-three cover $s961$) is not known.
+that frame --- the higher-rank components of the character variety, the singular closing --- is untouched. Two further facts fix the index's standing, and they pull in opposite directions. First, a theorem: for $V = \mathrm{Sym}^m(h) \otimes F$ with $h$ the geometric holonomy of \emph{any} one-cusped hyperbolic 3-manifold and $F$ of finite image, the restriction $H^1(M;V) \to H^1(\partial M;V)$ is injective~\cite{mfp}. The cited theorem is
+about the geometric holonomy, so we say how it descends rather than leaving the step to the reader. On the finite cover
+$\pi: \widetilde M \to M$ of degree $d$ that trivialises $F$ the pullback $\pi^*V$ is a direct sum of copies of
+$\mathrm{Sym}^m(\widetilde h)$, where the theorem applies as stated; a class in $H^1(M;V)$ killed by restriction to
+$\partial M$ pulls back to a class killed by restriction to $\partial\widetilde M$ and so vanishes upstairs; and $\pi^*$
+is itself injective because transfer composed with it is multiplication by $d$. That last step is where the
+\emph{characteristic-zero} hypothesis is spent, and we state it rather than assume it. So the interior image vanishes and $I(V) = 0$ identically --- on the object, on every cover, on every census manifold. Every geometric-holonomy sector above vanishes for this reason, and the pre-registered test on the cyclic tower could not have passed once it was known. Second, the index is nonetheless a demonstrated instrument: it is non-zero, exactly and in characteristic zero, on \emph{reducible non-split} modules $\mathrm{Sym}^m(\rho_\chi) \otimes \psi$ built at root-of-unity characters $\chi$ with $H^1(\pi;\chi^2) \neq 0$ --- first on the census manifold $m010$ ($I = +1$, semisimplification $0$), then, with the same instrument validated on that witness before any new number was read, on five one-cusped chiral members of the object's own commensurability class ($s958$, $v2873$, $t12833$, $t12835$, $o10\_150701$: $I = \pm 1$, once $\pm 2$, every semisimplification $0$, the $s958$ value re-derived on three presentations) and on the object's own degree-four cyclic cover $t12839$, at their cusp-trivial characters of order three among others. Four of the five are exactly the manifolds an earlier search had chosen for their cusp-trivial characters and found zero on the geometric holonomy. On the object itself the only reducible locus is the golden one ($\Delta = t^2 - 3t + 1$; $H_1 = \Z$ has no torsion), and every module computed there --- $m \le 4$, twists of order dividing twelve, $235$ modules --- returns zero. What fires is non-semisimplicity, a unipotent Wilson line rather than the geometric structure. Such a module is not a background of a compact gauge group, whose flat holonomies are semisimple; it could arise only in the complexified theory, whose boundary theory is exactly what \S\ref{sec:recognition} records as not established --- so its admissibility is an open question with a prior against it, and we grade it so. The rule that separates the five members that fire from the six examined that do not ($o10\_150697$, $o10\_150700$, $t12837$, $s956$, $t11365$, $m208$; and the degree-three cover $s961$) is not known.
 
 \paragraph{The closings carry three structural copies of the Standard-Model content, in mirror pairs.} Two operations
 are both called closing in this paper and they must be kept apart: Dehn filling of the cusp (\S\ref{sec:middle}'s seam,
@@ -1058,8 +1084,23 @@ patterns twice each; no symmetry flips exactly one of the three (forced by the i
 bits: the fibre's reflection is the swap, the flow's reversal is the arrow, the manifold's mirror is their
 product. Of $2804$ one-cusped census manifolds with $H_1 = \Z$ to seven tetrahedra, $2794$ realise only the inversion, seven realise
 nothing, and three --- the object among them --- realise the full set. \textbf{The bit the construction withholds
-is a relation}: fix which letter is the charge and which way the record grows, and the hand follows. That this
+is a relation}: fix which letter is the charge and which way the record grows, and the hand follows. \textbf{And we say
+the uncomfortable thing first, because it is true}: the orientation axiom of \S\ref{sec:unique} (link $5$) bought
+orientability by squaring the genesis matrix, and a square is self-mirroring by construction. The object's
+amphichirality --- the property that withholds the bit --- is downstream of the one axiom this paper already prices as its
+most expensive. A reader who wants to read this section's central negative as a consequence of that axiom is reading it as
+we do; what the section adds is that the negative survives every route we could find around it, including the covers that
+\emph{are} chiral. That this
 is the discrete shape of a familiar physical pattern is a resonance we note in the non-claims and do not use.
+
+\paragraph{The sharpest form in which the question stays open.} A relative index formula of the kind used for
+boundary problems writes a net chirality as $\chi(M, \partial^+M)$ for a distinguished part $\partial^+M$ of the boundary.
+We cite that shape rather than derive it, and note what it says here: for any compact $3$-manifold with torus boundary
+$\chi(M) = 0$ and $\chi(T^2) = 0$, so the whole content sits in $\chi(\partial^+M)$ --- zero identically if $\partial^+M$
+is assembled from annuli or tori, $-1$ for a disc, $+1$ for a pair of pants. \textbf{What $\partial^+M$ is, we have not
+identified}, and every decomposition our record has produced is annular, which returns zero with no representation theory
+entering. We state it as the open question because it is the sharpest form of this section's subject: on a manifold with
+torus boundary, where could a non-zero net count come from at all?
 
 \paragraph{The tower does not inherit the amphichirality.} An orientation-reversing symmetry descends to a cover exactly
 when it carries the subgroup to a conjugate. Of the object's $87$ covers to degree $10$, the nine cyclic and the
@@ -1366,6 +1407,7 @@ on the covers.}
 \item \textbf{Jørgensen's inequality and Callahan's uniqueness}~\cite{jorgensen,callahan}: that the figure-eight knot group is the only torsion-free Jørgensen group --- the only one attaining Jørgensen number one --- is Callahan's theorem; what we add is only that the record's founding selection is thereby variational rather than descriptive, which selects the manifold and nothing downstream of it.
 \item \textbf{Minsky's classification of punctured-torus groups}~\cite{minsky} names the object's family --- free two-generator Kleinian groups with parabolic commutator --- and the record had every ingredient of that definition except the theorem itself.
 \item \textbf{Kac's classification of finite-order automorphisms}~\cite{kac} is the classical input behind the involution count of \S\ref{sec:middle} and the order-three Wilson lines of \S\ref{sec:chirality}'s closing paragraph; used as stated, not re-derived.
+\item \textbf{Chern--Weil theory and the Atiyah--Singer index theorem}~\cite{atiyahsinger} give the flat-bundle obstruction quoted in \S\ref{sec:chirality}'s scope note --- a twisted Dirac index on flat data is a function of the rank alone; we add nothing to them and use the consequence in both directions.
 \item \textbf{Complex Chern--Simons theory}~\cite{witten91} has infinite-dimensional Hilbert spaces and no established boundary conformal field theory; this is why the quantum face of the object is asked no generation question in this paper.
 \item \textbf{The plastic number as the least Pisot number} is Siegel~\cite{siegel}; the generators of the Sturmian
 monoid are Mignosi--S\'e\'ebold~\cite{ms,lothaire}; the second Lagrange value is Markov~\cite{markov}. \emph{Reproduced;
@@ -1582,6 +1624,8 @@ within the in-frame anomaly system (hypercharges assigned in a fixed colour fram
 the tower's budget: at the chiral 5-cusped degree-10 cover the flat sl\_3 deformation space has complex dimension 10 = k(n-1), twenty real parameters, all boundary data & settled & lock \\
 under the Lorentz double the 27, the 78 and their tensor tower are integer-spin; the record's only half-integer object is the holonomy's C\^{}2 & settled & lock \\
 the mirror is swap times arrow on every knot complement; 66 of the 87 covers to degree 10 are chiral and keep the arithmetic & settled & lock \\
+of the 87 covers to degree 10, fourteen carry a hexagonal cusp (16 of 201 cusps) -- the only flat torus admitting an order-three automorphism -- and none realises an order-three cusp rotation, on canonical triangulations & settled & lock \\
+the reducible index can fire only through the twist: rho has det 1, so Sym\^{}m(rho) is symplectically self-dual and I(V) = 0 whenever psi\^{}2 = 1 (verified on the witness and on all 542 firing modules of the record) & settled & lock \\
 the manifold's intrinsic arithmetic forces exactly three quadratic faces, Q(sqrt-3), Q(sqrt5), Q(sqrt-15), and no closed filling in the |p|,q <= 8 grid keeps any of them & settled & lock \\
 the manifold group is congruence of level (4) in PSL(2,O\_K), index 12, not of level (2), (sqrt-3) or (3); the continuous spectrum is one channel, phi(s) = Lambda\_K(s-1)/Lambda\_K(s) & settled & lock \\
 the theta-odd block at the monodromy is unitary with eigenphases +-72 degrees and a golden-exact overlap matrix & settled & lock \\
@@ -1595,7 +1639,7 @@ the seam: exactly ten exceptional fillings; the fibre slope is the unique torus 
 tau does double duty: the involution making the 27 complex is the only one that can reduce rank, one resource spent once (an analysis) & settled & lock \\
 \end{longtable}\endgroup
 
-\noindent\footnotesize All 54 claims below (over 76 claim--record pairs) carry a test lock; 6 additionally
+\noindent\footnotesize All 56 claims below (over 79 claim--record pairs) carry a test lock; 6 additionally
 ship a standalone re-running script. Nothing in this table is asserted by the appendix itself: each
 row's status is read from the record at generation time, and a row whose backing failed any check
 would appear as a defect rather than as a row.
@@ -1616,6 +1660,8 @@ hyperbolic space forms}, Publ.\ Math.\ IH\'ES \textbf{34} (1968), 53--104.
 Math.\ \textbf{37} (1980), 183--186.
 \bibitem{thurston} W.~P.~Thurston, \emph{The Geometry and Topology of Three-Manifolds}, Princeton
 lecture notes, 1978--80.
+\bibitem{atiyahsinger} M.~F.~Atiyah and I.~M.~Singer, \emph{The index of elliptic operators III}, Ann.\ of Math.\
+\textbf{87} (1968), 546--604.
 \bibitem{riley} R.~Riley, \emph{A quadratic parabolic group}, Math.\ Proc.\ Cambridge Philos.\ Soc.\ \textbf{77}
 (1975), 281--288.
 \bibitem{chinburg} T.~Chinburg, \emph{A small arithmetic hyperbolic three-manifold}, Proc.\ Amer.\ Math.\ Soc.\

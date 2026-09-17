@@ -1,0 +1,1706 @@
+[
+ {
+  "name": "m004~cyc~0",
+  "degree": 2,
+  "cusps": 1,
+  "shapes": [
+   [
+    9.992007221626429e-16,
+    1.732050807568879
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 16",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~cyc~0",
+  "degree": 3,
+  "cusps": 1,
+  "shapes": [
+   [
+    -1.2304971856262123e-15,
+    1.1547005383792501
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 24",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~cyc~0",
+  "degree": 4,
+  "cusps": 1,
+  "shapes": [
+   [
+    1.5543122344752194e-15,
+    1.154700538379253
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 32",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~1",
+  "degree": 4,
+  "cusps": 2,
+  "shapes": [
+   [
+    -1.2304971856262123e-15,
+    1.1547005383792501
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "D4",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~cyc~0",
+  "degree": 5,
+  "cusps": 1,
+  "shapes": [
+   [
+    9.251858538542995e-16,
+    1.4433756729740663
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 40",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~1",
+  "degree": 5,
+  "cusps": 2,
+  "shapes": [
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    -0.33333333333333365,
+    1.1547005383792535
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~2",
+  "degree": 5,
+  "cusps": 3,
+  "shapes": [
+   [
+    9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    -1.1102230246251591e-15,
+    1.732050807568879
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "D4",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~3",
+  "degree": 5,
+  "cusps": 2,
+  "shapes": [
+   [
+    0.33333333333333276,
+    1.1547005383792528
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~0",
+  "degree": 6,
+  "cusps": 2,
+  "shapes": [
+   [
+    1.5543122344752194e-15,
+    1.154700538379253
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~cyc~1",
+  "degree": 6,
+  "cusps": 1,
+  "shapes": [
+   [
+    6.661338147750963e-16,
+    1.7320508075688803
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 48",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~2",
+  "degree": 6,
+  "cusps": 2,
+  "shapes": [
+   [
+    -0.375000000000002,
+    1.0825317547305497
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~3",
+  "degree": 6,
+  "cusps": 2,
+  "shapes": [
+   [
+    -0.375000000000002,
+    1.0825317547305497
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~4",
+  "degree": 6,
+  "cusps": 1,
+  "shapes": [
+   [
+    -0.25000000000000205,
+    1.2990381056766616
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~5",
+  "degree": 6,
+  "cusps": 2,
+  "shapes": [
+   [
+    -9.868649107779182e-16,
+    1.1547005383792528
+   ],
+   [
+    -1.2304971856262123e-15,
+    1.1547005383792501
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 x D4",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~6",
+  "degree": 6,
+  "cusps": 1,
+  "shapes": [
+   [
+    6.661338147750963e-16,
+    1.7320508075688803
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 16",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~7",
+  "degree": 6,
+  "cusps": 2,
+  "shapes": [
+   [
+    0.3749999999999993,
+    1.082531754730547
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~8",
+  "degree": 6,
+  "cusps": 2,
+  "shapes": [
+   [
+    0.3749999999999993,
+    1.082531754730547
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~9",
+  "degree": 6,
+  "cusps": 1,
+  "shapes": [
+   [
+    0.2499999999999992,
+    1.2990381056766567
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~10",
+  "degree": 6,
+  "cusps": 2,
+  "shapes": [
+   [
+    -1.3322676295501878e-15,
+    1.1547005383792521
+   ],
+   [
+    9.992007221626429e-16,
+    1.732050807568879
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~0",
+  "degree": 7,
+  "cusps": 1,
+  "shapes": [
+   [
+    -6.476300976980068e-17,
+    1.1547005383792497
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~1",
+  "degree": 7,
+  "cusps": 1,
+  "shapes": [
+   [
+    -6.476300976980068e-17,
+    1.1547005383792497
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~cyc~2",
+  "degree": 7,
+  "cusps": 1,
+  "shapes": [
+   [
+    -9.06682136777216e-16,
+    2.0207259421636956
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 56",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~3",
+  "degree": 7,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.5000000000000004,
+    1.7320508075688799
+   ],
+   [
+    -0.3076923076923088,
+    1.0658774200423846
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~4",
+  "degree": 7,
+  "cusps": 1,
+  "shapes": [
+   [
+    -2.4609943712524285e-15,
+    1.1547005383792528
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~5",
+  "degree": 7,
+  "cusps": 3,
+  "shapes": [
+   [
+    -0.30769230769230693,
+    1.0658774200423875
+   ],
+   [
+    0.5000000000000007,
+    1.732050807568878
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~6",
+  "degree": 7,
+  "cusps": 1,
+  "shapes": [
+   [
+    -2.4609943712524285e-15,
+    1.1547005383792528
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~7",
+  "degree": 7,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.3076923076923078,
+    1.0658774200423844
+   ],
+   [
+    0.5000000000000007,
+    1.732050807568878
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~8",
+  "degree": 7,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.3076923076923078,
+    1.0658774200423844
+   ],
+   [
+    0.5000000000000007,
+    1.732050807568878
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~0",
+  "degree": 8,
+  "cusps": 1,
+  "shapes": [
+   [
+    0.14285714285714454,
+    0.9897433186107891
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~cyc~1",
+  "degree": 8,
+  "cusps": 1,
+  "shapes": [
+   [
+    4.736951571734035e-15,
+    2.3094010767585114
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 64",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~2",
+  "degree": 8,
+  "cusps": 1,
+  "shapes": [
+   [
+    0.14285714285714454,
+    0.9897433186107891
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~3",
+  "degree": 8,
+  "cusps": 2,
+  "shapes": [
+   [
+    0.3076923076923078,
+    1.0658774200423844
+   ],
+   [
+    0.3076923076923063,
+    1.0658774200423844
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~4",
+  "degree": 8,
+  "cusps": 2,
+  "shapes": [
+   [
+    -6.476300976980068e-17,
+    1.1547005383792497
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~5",
+  "degree": 8,
+  "cusps": 2,
+  "shapes": [
+   [
+    6.661338147750963e-16,
+    1.7320508075688803
+   ],
+   [
+    6.661338147750927e-16,
+    1.7320508075688759
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 32",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~6",
+  "degree": 8,
+  "cusps": 2,
+  "shapes": [
+   [
+    -2.4609943712524285e-15,
+    1.1547005383792528
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~7",
+  "degree": 8,
+  "cusps": 2,
+  "shapes": [
+   [
+    -0.3076923076923088,
+    1.0658774200423846
+   ],
+   [
+    -0.30769230769230693,
+    1.0658774200423875
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~8",
+  "degree": 8,
+  "cusps": 2,
+  "shapes": [
+   [
+    0.1428571428571436,
+    0.9897433186107848
+   ],
+   [
+    0.49999999999999967,
+    1.7320508075688756
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 16",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~9",
+  "degree": 8,
+  "cusps": 2,
+  "shapes": [
+   [
+    1.7763568394002544e-15,
+    2.3094010767585056
+   ],
+   [
+    -1.2434497875801753e-14,
+    6.9282032302755105
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "D8",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~cyc~0",
+  "degree": 9,
+  "cusps": 1,
+  "shapes": [
+   [
+    2.2482016248659653e-15,
+    2.5980762113533293
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 72",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~1",
+  "degree": 9,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.5000000000000004,
+    1.7320508075688799
+   ],
+   [
+    0.1428571428571436,
+    0.9897433186107848
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~2",
+  "degree": 9,
+  "cusps": 1,
+  "shapes": [
+   [
+    7.993605777301195e-15,
+    3.4641016151377695
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "D4",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~3",
+  "degree": 9,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.14285714285714243,
+    0.9897433186107886
+   ],
+   [
+    0.5000000000000007,
+    1.732050807568878
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~4",
+  "degree": 9,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.1428571428571436,
+    0.9897433186107848
+   ],
+   [
+    0.5000000000000004,
+    1.7320508075688799
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~5",
+  "degree": 9,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.1428571428571436,
+    0.9897433186107848
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ],
+   [
+    0.5000000000000004,
+    1.7320508075688799
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~6",
+  "degree": 9,
+  "cusps": 1,
+  "shapes": [
+   [
+    -0.30769230769231765,
+    2.3982241950953895
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~7",
+  "degree": 9,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.3846153846153809,
+    1.3323467750529847
+   ],
+   [
+    0.3333333333333324,
+    1.1547005383792521
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~8",
+  "degree": 9,
+  "cusps": 3,
+  "shapes": [
+   [
+    1.5543122344752194e-15,
+    1.154700538379253
+   ],
+   [
+    -1.3322676295501878e-15,
+    1.1547005383792521
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "D4",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~9",
+  "degree": 9,
+  "cusps": 3,
+  "shapes": [
+   [
+    -0.3846153846153861,
+    1.3323467750529847
+   ],
+   [
+    -0.3333333333333326,
+    1.154700538379253
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~10",
+  "degree": 9,
+  "cusps": 1,
+  "shapes": [
+   [
+    0.30769230769228895,
+    2.3982241950953775
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~0",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    -0.3846153846153861,
+    1.3323467750529847
+   ],
+   [
+    -1.3322676295501878e-15,
+    1.1547005383792521
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~1",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.2499999999999992,
+    1.2990381056766567
+   ],
+   [
+    -0.3333333333333326,
+    1.154700538379253
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~cyc~2",
+  "degree": 10,
+  "cusps": 1,
+  "shapes": [
+   [
+    2.775557561562927e-15,
+    2.8867513459481473
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 80",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~3",
+  "degree": 10,
+  "cusps": 4,
+  "shapes": [
+   [
+    0.5000000000000004,
+    1.7320508075688799
+   ],
+   [
+    0.3749999999999993,
+    1.082531754730547
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ],
+   [
+    0.5000000000000004,
+    1.7320508075688799
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~4",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    0.2499999999999992,
+    1.2990381056766567
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~5",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    0.24999999999999897,
+    1.2990381056766604
+   ],
+   [
+    0.5000000000000014,
+    0.8660254037844383
+   ]
+  ],
+  "hexagonal_cusps": [
+   1
+  ],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~6",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    -0.3333333333333327,
+    1.154700538379253
+   ],
+   [
+    0.5000000000000014,
+    0.8660254037844383
+   ],
+   [
+    -0.3333333333333326,
+    1.154700538379253
+   ]
+  ],
+  "hexagonal_cusps": [
+   1
+  ],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~7",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    0.37500000000000006,
+    1.0825317547305502
+   ],
+   [
+    0.3749999999999993,
+    1.082531754730547
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~8",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    8.035899987763027e-16,
+    1.1547005383792512
+   ],
+   [
+    -1.2304971856262123e-15,
+    1.1547005383792501
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~9",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    -9.868649107779182e-16,
+    1.1547005383792528
+   ],
+   [
+    -2.4609943712524285e-15,
+    1.1547005383792528
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~10",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.49999999999999967,
+    0.8660254037844377
+   ],
+   [
+    -0.33333333333333365,
+    1.1547005383792535
+   ],
+   [
+    -0.3333333333333326,
+    1.154700538379253
+   ]
+  ],
+  "hexagonal_cusps": [
+   0
+  ],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~11",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    0.49999999999999967,
+    0.8660254037844377
+   ],
+   [
+    0.2499999999999992,
+    1.2990381056766567
+   ]
+  ],
+  "hexagonal_cusps": [
+   0
+  ],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~12",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    -1.4432899320127003e-15,
+    1.7320508075688756
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    0.2499999999999992,
+    1.2990381056766567
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~13",
+  "degree": 10,
+  "cusps": 4,
+  "shapes": [
+   [
+    -1.4432899320127003e-15,
+    1.7320508075688756
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    -0.33333333333333365,
+    1.1547005383792535
+   ],
+   [
+    -0.33333333333333437,
+    1.1547005383792506
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~14",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    -6.476300976980068e-17,
+    1.1547005383792497
+   ],
+   [
+    -1.2304971856262123e-15,
+    1.1547005383792501
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~15",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    -6.476300976980068e-17,
+    1.1547005383792497
+   ],
+   [
+    -9.868649107779182e-16,
+    1.1547005383792528
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~16",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    1.5543122344752194e-15,
+    1.154700538379253
+   ],
+   [
+    0.384615384615385,
+    1.3323467750529805
+   ],
+   [
+    3.996802888650568e-15,
+    3.4641016151377566
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~17",
+  "degree": 10,
+  "cusps": 5,
+  "shapes": [
+   [
+    9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    0.49999999999999967,
+    0.8660254037844377
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ],
+   [
+    -1.1102230246251591e-15,
+    1.732050807568879
+   ]
+  ],
+  "hexagonal_cusps": [
+   1
+  ],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~18",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    -0.375000000000002,
+    1.0825317547305497
+   ],
+   [
+    -0.37499999999999944,
+    1.0825317547305475
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~19",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    -0.25000000000000205,
+    1.2990381056766616
+   ],
+   [
+    0.49999999999999967,
+    0.8660254037844377
+   ]
+  ],
+  "hexagonal_cusps": [
+   1
+  ],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~20",
+  "degree": 10,
+  "cusps": 2,
+  "shapes": [
+   [
+    -0.25000000000000205,
+    1.2990381056766616
+   ],
+   [
+    0.49999999999999967,
+    0.8660254037844377
+   ]
+  ],
+  "hexagonal_cusps": [
+   1
+  ],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~21",
+  "degree": 10,
+  "cusps": 4,
+  "shapes": [
+   [
+    0.33333333333333276,
+    1.1547005383792528
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    0.3333333333333324,
+    1.1547005383792521
+   ],
+   [
+    6.661338147750927e-16,
+    1.7320508075688759
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~22",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    -0.25000000000000205,
+    1.2990381056766616
+   ],
+   [
+    0.5000000000000004,
+    1.7320508075688799
+   ],
+   [
+    0.49999999999999967,
+    1.7320508075688756
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~23",
+  "degree": 10,
+  "cusps": 4,
+  "shapes": [
+   [
+    0.5000000000000014,
+    0.8660254037844383
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    -1.1102230246251591e-15,
+    1.732050807568879
+   ],
+   [
+    6.661338147750927e-16,
+    1.7320508075688759
+   ]
+  ],
+  "hexagonal_cusps": [
+   0
+  ],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~24",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.5000000000000014,
+    0.8660254037844383
+   ],
+   [
+    0.49999999999999967,
+    0.8660254037844377
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ]
+  ],
+  "hexagonal_cusps": [
+   0,
+   1
+  ],
+  "symmetry_group": "nonabelian group of order 16",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~25",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.2499999999999992,
+    1.2990381056766567
+   ],
+   [
+    0.5000000000000004,
+    1.7320508075688799
+   ],
+   [
+    0.49999999999999967,
+    1.7320508075688756
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~26",
+  "degree": 10,
+  "cusps": 4,
+  "shapes": [
+   [
+    1.3322676295501886e-15,
+    3.4641016151377557
+   ],
+   [
+    0.5000000000000014,
+    0.8660254037844383
+   ],
+   [
+    0.49999999999999967,
+    0.8660254037844377
+   ],
+   [
+    -3.9968028886505635e-15,
+    3.4641016151377557
+   ]
+  ],
+  "hexagonal_cusps": [
+   1,
+   2
+  ],
+  "symmetry_group": "nonabelian group of order 32",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~27",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    1.3322676295501886e-15,
+    3.4641016151377557
+   ],
+   [
+    0.33333333333333276,
+    1.1547005383792528
+   ],
+   [
+    -0.24999999999999922,
+    1.299038105676657
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~28",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.5000000000000014,
+    0.8660254037844383
+   ],
+   [
+    0.33333333333333276,
+    1.1547005383792528
+   ],
+   [
+    0.3333333333333324,
+    1.1547005383792521
+   ]
+  ],
+  "hexagonal_cusps": [
+   0
+  ],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~29",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    0.33333333333333276,
+    1.1547005383792528
+   ],
+   [
+    0.5000000000000014,
+    0.8660254037844383
+   ],
+   [
+    0.3333333333333324,
+    1.1547005383792521
+   ]
+  ],
+  "hexagonal_cusps": [
+   1
+  ],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~30",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    -1.4432899320127003e-15,
+    1.7320508075688756
+   ],
+   [
+    -0.25000000000000205,
+    1.2990381056766616
+   ],
+   [
+    6.661338147750927e-16,
+    1.7320508075688759
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~31",
+  "degree": 10,
+  "cusps": 4,
+  "shapes": [
+   [
+    -1.4432899320127003e-15,
+    1.7320508075688756
+   ],
+   [
+    0.5000000000000014,
+    0.8660254037844383
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    6.661338147750927e-16,
+    1.7320508075688759
+   ]
+  ],
+  "hexagonal_cusps": [
+   1
+  ],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~32",
+  "degree": 10,
+  "cusps": 5,
+  "shapes": [
+   [
+    -1.4432899320127003e-15,
+    1.7320508075688756
+   ],
+   [
+    0.49999999999999967,
+    0.8660254037844377
+   ],
+   [
+    1.3322676295501886e-15,
+    3.4641016151377557
+   ],
+   [
+    3.996802888650568e-15,
+    3.4641016151377566
+   ],
+   [
+    9.992007221626429e-16,
+    1.732050807568879
+   ]
+  ],
+  "hexagonal_cusps": [
+   1
+  ],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~33",
+  "degree": 10,
+  "cusps": 4,
+  "shapes": [
+   [
+    0.5000000000000012,
+    1.732050807568875
+   ],
+   [
+    -0.375000000000002,
+    1.0825317547305497
+   ],
+   [
+    1.3322676295501886e-15,
+    3.4641016151377557
+   ],
+   [
+    0.5000000000000007,
+    1.732050807568878
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~reg~34",
+  "degree": 10,
+  "cusps": 5,
+  "shapes": [
+   [
+    -1.4432899320127003e-15,
+    1.7320508075688756
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    6.661338147750927e-16,
+    1.7320508075688759
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "nonabelian group of order 80",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~35",
+  "degree": 10,
+  "cusps": 3,
+  "shapes": [
+   [
+    -0.25000000000000205,
+    1.2990381056766616
+   ],
+   [
+    -9.992007221626429e-16,
+    1.732050807568879
+   ],
+   [
+    -1.1102230246251591e-15,
+    1.732050807568879
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "Z/2 + Z/2 + Z/2",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~36",
+  "degree": 10,
+  "cusps": 1,
+  "shapes": [
+   [
+    2.775557561562927e-15,
+    2.8867513459481473
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "D10",
+  "order3_cusp_rotations": []
+ },
+ {
+  "name": "m004~irr~37",
+  "degree": 10,
+  "cusps": 1,
+  "shapes": [
+   [
+    2.775557561562927e-15,
+    2.8867513459481473
+   ]
+  ],
+  "hexagonal_cusps": [],
+  "symmetry_group": "D10",
+  "order3_cusp_rotations": []
+ }
+]
