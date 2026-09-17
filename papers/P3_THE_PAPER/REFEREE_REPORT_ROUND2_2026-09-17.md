@@ -17,7 +17,7 @@ edits are the census-drift paragraph, two percentages, and one added hypothesis,
 | # | request | status |
 |---|---|---|
 | 1 | fix `.gitignore` so the B1419 census ships; runner names failing tests | **done** |
-| 2 | regenerate or drop `anc/REPORT.md` | **not done** — regenerated but still certifies PASS without running the locks (§2.1) |
+| 2 | regenerate or drop `anc/REPORT.md` | **half done** — regenerated with correct counts, but certifies PASS on a seals-only run, discarding a green the locks would have given (§2.1) |
 | 3 | rebuild the manifest so `git_head` matches its contents | **not done** — the recorded commit still does not resolve (§2.2) |
 | 4 | fix the census-drift population | **done, well** |
 | 5 | Figure 1 caption; sin²θ_W; MFP hypothesis; manifest wording | **3 of 4** — one of three sin²θ_W sites survives (§2.3); manifest wording unchanged |
@@ -40,6 +40,18 @@ edits are the census-drift paragraph, two percentages, and one added hypothesis,
   gap in its percentage test (§2.4) the more conspicuous.
 - **`run_package.py`** now passes `-rf --durations=5 --color=no` and strips ANSI before parsing, so a
   failing run names its failures. Exactly the fix needed.
+- **The lock suite now passes end to end**, which is better than the revision claims for itself. On a
+  fresh worktree of `21c47a51` I ran `run_package.py --seals --locks` to completion:
+
+  ```
+  seals: PASS 21/21
+  locks: PASS 147 lock files: 727 passed, 14 skipped in 847.93s (0:14:07)
+  ```
+
+  **Zero failures.** The changelog's "the package's remaining failures are named rather than
+  mysterious" undersells the state: the harvest lock's six rows were evidently rowed, and the flaky
+  subprocess lock passed here. Against round 1 (10, then 9, then 5 failures) this is a clean green,
+  and it is the first run of this package I have seen pass.
 - **The census-drift paragraph** is rewritten to carry both triples, name which population each is
   taken over, and say that an earlier version had it wrong. The numbers are right: I had measured
   33.00 → 33.88 → 31.38 on the one-cusped census and 34.25 → 29.38 → 21.12 on the full one, and both
@@ -79,13 +91,22 @@ the changelog for this very revision says in its own words that locks still fail
 > whose timeout was tuned to an idle machine.*
 
 A reader opening `anc/` sees "Overall: PASS" beside a manifest of 147 locks, with nothing indicating
-that the locks were not run and that some of them fail.
+which steps produced that verdict.
 
 The mechanism is visible in `run_package.py`: `all_ok` is initialised to `True` and is only `&=`-ed
 against steps that actually ran, so any subset of steps that passes yields `Overall: PASS`. A run
-with `--seals` alone therefore cannot fail. Either run the locks before shipping the report, or have
-the runner qualify its verdict by what it ran — "Overall: PASS (seals only; locks not run)" — which
-is three lines and cannot be forgotten at submission time the way running the right command can.
+with `--seals` alone therefore cannot fail.
+
+**The sting here is not that the verdict is wrong — it is that you gave up a green you had earned.**
+As §1 records, I ran the full package on this revision and it passes: 147 lock files, 727 passed,
+14 skipped, **zero failures**. A `--seals --locks` run would have produced a genuine "Overall: PASS"
+backed by a `## Test locks — PASS` section. Instead the shipped certificate asserts the same verdict
+on evidence that does not reach it, in the one artefact whose entire purpose is that a reader need
+not take an assertion on trust. This is the paper's own standard applied to the paper's own report.
+
+Two fixes, and I would take both: run the locks before shipping, and have the runner qualify its
+verdict by what it ran — "Overall: PASS (seals only; locks not run)". The second is three lines and,
+unlike remembering a command at submission time, cannot be skipped.
 
 ### 2.2 The manifest's `git_head` still does not resolve
 
@@ -191,10 +212,15 @@ package refuses to print PASS for a step it did not run, the manifest refuses a 
 justify, and the chain-table gate reads all 57 rows, the verification story will be as strong as the
 paper says it is.
 
-I will say plainly what this round showed: the one defect that could have invalidated a claim — the
-census evidence excluded from every clone — was fixed properly, generalised to a sweep for other
-instances, and locked. The three that remain are the machinery reporting on itself more favourably
-than it has earned, which is exactly the failure mode a paper like this one has to be hardest on.
+I will say plainly what this round showed, in both directions. The one defect that could have
+invalidated a claim — the census evidence excluded from every clone — was fixed properly,
+generalised to a sweep for other instances, and locked; and the package now passes end to end on a
+clean checkout, 727 tests and no failures, which is the first time I have seen it do so. What remains
+is a gap between what the machinery **asserts** and what it **evidences**: twice it states a verdict
+broader than the run behind it, and once it ships a table row its own generator contradicts. None of
+the three changes a mathematical claim, and the first of them is now understating a real result
+rather than overstating an unreal one — but for a paper whose thesis is that a reader need not take
+an assertion on trust, closing that gap is worth more than the three-line diffs suggest.
 
 ---
 
