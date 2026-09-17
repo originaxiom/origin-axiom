@@ -1,0 +1,41 @@
+{
+ "id": "xB019",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1234",
+  "B1083",
+  "B979",
+  "B993",
+  "xB012",
+  "xB018"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B1234_the_walls_trace_to_A6",
+   "outcome": "CONFIRMED",
+   "what": "its cells 2 and 3 re-derived independently and its LIVE QUESTION ANSWERED. Cell 2: m000's orientation cover IS isometric to m004, volume ratio exactly 2.0000000000. Cell 3: an independent surjection count over all 24^2 pairs in SL(2,F_3) against each relator returns 48 for Gieseking and 48 for m004 -- B1234's figure reproduced. ITS OWN UNCLAIMED CLAUSE IS CARRIED, NOT DROPPED: surjecting onto 2T is generic (~1/3, B993/B996), so the equal counts are NOT evidence of distinction. AND ITS DECLARED LIVE QUESTION -- does dropping A6 BREAK THE TOOLS rather than open a door? -- IS ANSWERED PER TOOL: volume, H_1, pi_1, the symmetry group and the 2T route SURVIVE, while Chern-Simons and the complex volume BREAK, with the literal error 'Manifold is not oriented'. They break BY DEFINITION, not by difficulty. Since SEVEN of B1234's EIGHT walls are statements about CS or about the mirror, on the one-tick object those walls become UNSTATEABLE rather than false -- so 'drop A6 to escape the walls' is ILL-POSED, not merely hard. This is a NEGATIVE FOR THE ESCAPE ROUTE AND A CLARIFICATION OF THE QUESTION; it is not a new wall and not evidence FOR A6."
+  },
+  {
+   "arc": "B1083_origin_torsor_typed",
+   "outcome": "CONFIRMED",
+   "what": "its statement that 'on the one-tick object chirality cannot be POSED (non-orientable); the second tick buys orientability and pays amphichirality' is REACHED INDEPENDENTLY HERE, from the tool audit rather than from the torsor: A7 acts by CS-negation (xB018 C5) and CS does not exist on m000, so the A7 bit cannot be posed at tick one. Its Breath pulse is also exhibited exactly: M = [[1,1],[1,0]], det = -1, M^2 = RL -- the Fibonacci matrix, whose eigenvalue is phi itself."
+  },
+  {
+   "arc": "B979_L131_A7",
+   "outcome": "CONFIRMED",
+   "what": "a pre-seal guess of THIS seat's was killed against it: I expected LR and RL to be conjugate in GL(2,Z) but NOT in SL(2,Z), which would have made A7 'the det bit'. THEY ARE CONJUGATE IN SL(2,Z) -- conjugator (-5,-8,-3,-5), det = 1, found by search. B979's 'same conjugacy class' is an SL statement and is correct. The guess died before the seal was written."
+  },
+  {
+   "arc": "xB018_path_c_the_two_bits",
+   "outcome": "CONFIRMED",
+   "what": "its characterisation of the two bits by their data (A5(c) = H_1 torsion-freeness, A7 = action by CS-negation) is USED as the instrument here and yields a new fact neither arc had alone: THE TWO BITS SPLIT ACROSS THE SQUARING. H_1(m000) = Z, so A5's datum survives the drop AND IS ALREADY SATISFIED at tick one; CS does not exist on m000, so A7's datum is CREATED BY THE SQUARING. A7 is not a free choice made at tick one -- it does not exist until the object is orientable. xB018's own fixed axes (SL(2,Z), b++/b+-, length <= 8, A5 reading (c)) are INHERITED here and not re-opened."
+  }
+ ],
+ "claim_one_line": "B1234's OWN DECLARED LIVE QUESTION IS ANSWERED, AND THE TWO BITS SPLIT ACROSS THE SQUARING. PREREGISTRATION sealed e20e39f9... and PUSHED at 55b984d before verification/ existed, with the CONFIGURATION AXES DECLARED. xB018 named GL(2,Z) as the axis it held fixed; the sweep found B1234 already on that axis with a question left open on purpose: 'a non-orientable object may not support the machinery at all ... so dropping A6 may BREAK THE TOOLS rather than open a door. That is now the live, sharp question.' AND ONE GUESS OF MINE DIED BEFORE THE SEAL: I expected LR and RL to be conjugate in GL(2,Z) but not SL(2,Z), making A7 'the det bit' -- THEY ARE CONJUGATE IN SL(2,Z), conjugator (-5,-8,-3,-5) with det 1, so B979 is correct as stated. (The Breath pulse is exhibited in the same check: M = [[1,1],[1,0]], det -1, M^2 = RL -- the FIBONACCI matrix, whose eigenvalue is phi itself.) G1: B1234's cells 2 and 3 reproduce -- m000's orientation cover IS m004 at volume ratio exactly 2, and an independent count over all 24^2 pairs in SL(2,F_3) gives 48 surjections either way; B1234's unclaimed clause that 2T-surjection is GENERIC (~1/3) is carried, not dropped. G2, THE TOOL AUDIT THAT ANSWERS THE QUESTION: volume, H_1, pi_1, the symmetry group and the 2T count SURVIVE on the non-orientable one-tick object; CHERN-SIMONS AND THE COMPLEX VOLUME BREAK, with the literal error 'Manifold is not oriented' -- THEY BREAK BY DEFINITION, NOT BY DIFFICULTY. G3, THE BLIND CELL: applying xB018's characterisation of the bits by their data, H_1(m000) = Z so A5's datum SURVIVES THE DROP AND IS ALREADY ON, while A7 acts by CS-negation and CS does not exist, so A7 CANNOT BE POSED AT TICK ONE -- matching B1083 exactly, reached from a different direction. THE TWO BITS SPLIT ACROSS THE SQUARING: A5's datum survives, A7's is CREATED by it, and A7 is not a choice made at tick one because it does not exist until tick two. G4: SEVEN of B1234's EIGHT walls are statements about CS or the mirror, and on the one-tick object there is no CS and no orientation to mirror, so THOSE WALLS BECOME UNSTATEABLE RATHER THAN FALSE -- 'DROP A6 TO ESCAPE THE WALLS' IS ILL-POSED, NOT MERELY HARD, and the escape route is closed for a reason stronger than difficulty. Per the seal's own rule this is a NEGATIVE FOR THE ESCAPE ROUTE AND A CLARIFICATION OF THE QUESTION -- NOT a new wall and NOT evidence FOR A6. G5: the squaring BUYS orientability, the CS and complex-volume tools, amphichirality (100%-forced, against a 3.0% base rate) and THE A7 BIT ITSELF; it DOES NOT BUY the trace field, the 2T route or the A5 bit. ITS PURCHASE IS EXACTLY ORIENTATION AND EVERYTHING DOWNSTREAM OF IT, AND NOTHING ARITHMETIC -- which sharpens B1234's headline by saying which side each item falls on and by adding A7 to the bought column, something B1234 could not have had because xB018 had not yet characterised the bit. AXES HELD FIXED AND NAMED: m000 ONLY (the wider non-orientable census is not swept and B1234's 40-of-40 is cited, not re-derived); xB018's own fixed axes inherited and not re-opened; PGL(2,C) vs PSL(2,C) named as the MECHANISM but NOT computed. NOT CLAIMED: that Gieseking is distinguished (2T surjection is generic), that dropping A6 makes any value derivable, or that the tools' breaking is evidence FOR A6. Gate 5 absolute; nothing to CLAIMS.md."
+}

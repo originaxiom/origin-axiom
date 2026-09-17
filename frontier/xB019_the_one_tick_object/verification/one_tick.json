@@ -1,0 +1,112 @@
+{
+ "G1": {
+  "cover_isometric": true,
+  "ratio": 1.9999999999999996,
+  "surj_gieseking": 48,
+  "surj_m004": 48
+ },
+ "G2": {
+  "breaks": [
+   "chern_simons",
+   "complex_volume"
+  ],
+  "rows": {
+   "m000": {
+    "volume": [
+     "EXISTS",
+     "1.01494160641"
+    ],
+    "homology": [
+     "EXISTS",
+     "Z"
+    ],
+    "fundamental_group": [
+     "EXISTS",
+     "Generators:    a,b Relators:    aabbAB"
+    ],
+    "chern_simons": [
+     "BREAKS",
+     "ValueError: b'Manifold is not oriented'"
+    ],
+    "complex_volume": [
+     "BREAKS",
+     "ValueError: b'Manifold is not oriented'"
+    ],
+    "symmetry_group": [
+     "EXISTS",
+     "Z/2"
+    ]
+   },
+   "m004": {
+    "volume": [
+     "EXISTS",
+     "2.0298832128"
+    ],
+    "homology": [
+     "EXISTS",
+     "Z"
+    ],
+    "fundamental_group": [
+     "EXISTS",
+     "Generators:    a,b Relators:    aaabAB"
+    ],
+    "chern_simons": [
+     "EXISTS",
+     "1.3498693 E-16"
+    ],
+    "complex_volume": [
+     "EXISTS",
+     "2.029883213 + 2.66453526 E-15*I"
+    ],
+    "symmetry_group": [
+     "EXISTS",
+     "D4"
+    ]
+   }
+  }
+ },
+ "G3": {
+  "H1_m000": "Z",
+  "H1_m004": "Z",
+  "A5_posable_and_on": true,
+  "A7_posable": false,
+  "sym_m000": 2,
+  "sym_m004": 8
+ },
+ "G4": {
+  "survives": [
+   "volume",
+   "H_1",
+   "pi_1",
+   "symmetry group",
+   "trace field",
+   "2T route"
+  ],
+  "breaks": [
+   "Chern-Simons",
+   "complex volume"
+  ],
+  "verdict": "the escape route is ill-posed, not merely hard"
+ },
+ "G5": {
+  "buys": [
+   "orientability",
+   "CS/complex-volume tools",
+   "amphichirality",
+   "the A7 bit"
+  ],
+  "does_not_buy": [
+   "trace field",
+   "2T route",
+   "the A5 bit"
+  ]
+ },
+ "G6": {
+  "answered": "B1234's live question",
+  "axes_fixed": [
+   "m000 only",
+   "xB018's constraints inherited",
+   "PGL/PSL not computed"
+  ]
+ }
+}

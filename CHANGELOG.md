@@ -1,5 +1,23 @@
 # Changelog
 
+## xB019 — the one-tick object: B1234's live question answered, and the two bits split across the squaring
+
+xB018 named `GL(2,ℤ)` as its held-fixed axis; **B1234 was already there with a question left open on
+purpose.** Answered per tool: on the non-orientable one-tick object **volume, `H₁`, `π₁`, the symmetry
+group and the 2T route survive; Chern–Simons and the complex volume BREAK** — literally
+`Manifold is not oriented`, **by definition, not by difficulty**.
+
+**Seven of B1234's eight walls are statements about `CS` or the mirror**, so on the one-tick object
+they become **unstateable rather than false**: **"drop A6 to escape the walls" is ILL-POSED.**
+
+**And the new structural fact:** `H₁(m000) = ℤ`, so **A5's datum survives the drop and is already on**,
+while `CS` does not exist, so **A7 cannot be posed**. **The two bits split across the squaring — A7 is
+created by it.** The squaring buys **orientation and everything downstream, and nothing arithmetic**.
+
+**A guess died before the seal:** `LR` and `RL` **are** conjugate in `SL(2,ℤ)`, so A7 is not "the det
+bit". The same check exhibits the Breath pulse `M = [[1,1],[1,0]]` — the Fibonacci matrix, eigenvalue φ.
+
+
 ## xB018 — PATH C: the two bits are not the same ℤ/2, and each is invisible to the layer the other lives on
 
 Sealed `0c9b1086…` with its **configuration axes declared**. **All three approved paths are now run.**

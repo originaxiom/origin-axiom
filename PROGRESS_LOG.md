@@ -16577,3 +16577,51 @@ though B1083 puts the Breath pulse there (`det M = −1`, `M² = RL`); **`b++`/`
 **≤ 8**; **reading (c) of A5 only**. **The `GL(2,ℤ)` axis is the one a next arc should vary.**
 
 **Gates 35/35. Gate 5 absolute.**
+
+---
+
+## 2026-09-17 — xB019: the one-tick object — B1234's live question answered, and the two bits split across the squaring
+
+xB018 named `GL(2,ℤ)` as the axis it held fixed. **The sweep found B1234 already on that axis, with a
+question left open on purpose for 16 days:** *"a non-orientable object may not support the machinery
+at all … so dropping A6 may **break the tools** rather than open a door. **That is now the live,
+sharp question.**"* Sealed `e20e39f9…`, pushed at `55b984d`, axes declared.
+
+**A guess of mine died before the seal was written.** I expected `LR` and `RL` to be conjugate in
+`GL(2,ℤ)` but **not** in `SL(2,ℤ)` — which would have made A7 "the det bit". **They are conjugate in
+`SL(2,ℤ)`**, conjugator `(−5,−8,−3,−5)`. B979 is correct as stated. *(The same check exhibits the
+Breath pulse: `M = [[1,1],[1,0]]`, `det = −1`, `M² = RL` — **the Fibonacci matrix, whose eigenvalue is
+φ itself**.)*
+
+**G1.** B1234's cells 2 and 3 reproduce: m000's orientation cover **is** m004 at volume ratio exactly
+**2**, and an independent count over all `24²` pairs in `SL(2,𝔽₃)` gives **48 surjections either
+way**. B1234's own unclaimed clause — 2T-surjection is **generic (~⅓)** — is carried, not dropped.
+
+**G2 — the tool audit that answers the question.** On the non-orientable one-tick object: **volume,
+`H₁`, `π₁`, symmetry group and the 2T count SURVIVE. Chern–Simons and the complex volume BREAK**, with
+the literal error `Manifold is not oriented`. **They break by definition, not by difficulty.**
+
+**G3 — the blind cell.** Using xB018's characterisation of each bit by its datum: **`H₁(m000) = ℤ`**,
+so **A5's datum survives the drop and is already ON**; **`CS` does not exist**, so **A7 cannot be
+posed at tick one**. Matching B1083 exactly — *"chirality cannot be posed on the one-tick object"* —
+**reached from a different direction.**
+
+> **The two bits split across the squaring. A5's datum survives it; A7's datum is CREATED by it.
+> A7 is not a choice the construction makes at tick one — it does not exist until tick two.**
+
+**G4.** **Seven of B1234's eight walls are statements about `CS` or the mirror**, and on the one-tick
+object there is neither. **So those walls do not become false — they become UNSTATEABLE. "Drop A6 to
+escape the walls" is ILL-POSED, not merely hard.** Per the seal's own rule: a **negative for the
+escape route and a clarification of the question** — not a new wall, and **not evidence for A6**.
+
+**G5 — what the squaring buys.** **Buys:** orientability, the `CS`/complex-volume tools,
+amphichirality (100 %-forced against a 3.0 % base rate), **and the A7 bit itself**. **Does not buy:**
+the trace field, the 2T route, **or the A5 bit**. **Its purchase is exactly orientation and everything
+downstream of it — and nothing arithmetic.** That sharpens B1234's headline by saying which side each
+item falls on, and adds A7 to the bought column, which B1234 could not have had.
+
+**Axes held fixed:** `m000` only (the wider non-orientable census not swept; B1234's 40-of-40 cited,
+not re-derived) · xB018's own fixed axes inherited · `PGL(2,ℂ)` vs `PSL(2,ℂ)` named as the mechanism
+but **not computed**.
+
+**Gates 35/35. Gate 5 absolute.**

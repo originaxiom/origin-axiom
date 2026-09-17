@@ -1,0 +1,108 @@
+G1       B1234's CELLS 2 AND 3, RE-DERIVED
+         m000 orientable: False   m004 orientable: True
+         m000's ORIENTATION COVER isometric to m004: True   volume ratio: 2.0000000000
+         relators: m000 'aabbAB'   m004 'aaabABBAb'
+         surjections pi_1 -> 2T = SL(2,F_3):  Gieseking 48   m004 48   equal: True
+         B1234's 48 = 48 reproduced by an independent count.
+         AND B1234's OWN UNCLAIMED CLAUSE IS CARRIED, NOT DROPPED: surjecting onto 2T
+         is GENERIC (~1/3, B993/B996), so the equal counts are NOT evidence of
+         distinction.  The point is only that A6 was not needed for the arithmetic.
+G1 PASS  B1234 reproduces exactly.
+
+G2       THE TOOL AUDIT -- the cell that answers B1234
+         tool                 m000 (one tick, non-orientable)            m004 (two ticks)
+         volume               EXISTS: 1.01494160641                      EXISTS
+         homology             EXISTS: Z                                  EXISTS
+         fundamental_group    EXISTS: Generators:    a,b Relators:    aabbAB EXISTS
+         chern_simons         BREAKS: ValueError: b'Manifold is not oriented' EXISTS
+         complex_volume       BREAKS: ValueError: b'Manifold is not oriented' EXISTS
+         symmetry_group       EXISTS: Z/2                                EXISTS
+
+         BREAKS on the one-tick object: ['chern_simons', 'complex_volume']
+         and the error is literal: ValueError: b'Manifold is not oriented'
+         => THEY BREAK BY DEFINITION, NOT BY DIFFICULTY.  Chern-Simons and the
+            complex volume are defined for ORIENTED manifolds; there is no harder
+            computation to attempt.
+         SURVIVES: volume, H_1, pi_1, the symmetry group -- and the 2T count (G1).
+G2 PASS  exactly the two orientation-dependent tools break.
+
+G3       WHICH OF THE TWO BITS EXISTS AT TICK ONE?  (the blind cell)
+         xB018 characterised the bits by their data:
+           A5(c) = KNOT-NESS = H_1 torsion-free.  H_1(m000) = Z, H_1(m004) = Z
+           -> H_1 exists at tick one AND IS TORSION-FREE: True
+              SO THE A5 BIT IS POSABLE AT TICK ONE, AND IT IS ALREADY 'ON'.
+           A7 acts by CS-NEGATION (xB018 C5), and CS does not exist on m000 (G2).
+           -> THE A7 BIT CANNOT BE POSED AT TICK ONE.
+         and the symmetry groups: m000 order 2, m004 order 8
+         which matches B1083 exactly: 'on the one-tick object chirality cannot be
+         POSED (non-orientable); the second tick buys orientability and pays
+         amphichirality.'  Reached here from a different direction -- the tool
+         audit -- and agreeing.
+G3 PASS  THE TWO BITS SPLIT ACROSS THE SQUARING:
+         A5's datum SURVIVES the drop and is already satisfied; A7's datum IS
+         CREATED BY THE SQUARING.  A7 is not a free choice made at tick one --
+         IT DOES NOT EXIST UNTIL THE OBJECT IS ORIENTABLE.
+
+G4       THE ANSWER TO B1234's LIVE QUESTION
+         B1234 asked: does dropping A6 BREAK THE TOOLS rather than open a door?
+         ANSWER, PER TOOL: BOTH, AND THE SPLIT IS EXACTLY ALONG ORIENTATION.
+           survives: volume, H_1, pi_1, symmetry group, the trace field and the 2T
+             route (B1234 cell 3) -- so THE ARITHMETIC SIDE IS INTACT.
+           breaks:   Chern-Simons and the complex volume -- BY DEFINITION.
+         AND THE CONSEQUENCE IS SHARPER THAN 'HARD':
+           SEVEN of B1234's EIGHT walls are statements ABOUT CS or about the mirror
+           (CS = 0; blind to k; amphichirality; the CP sign even in CS; mirror-even
+           canonicity; mirror-odd bits; the mirror pair theta).  ON THE ONE-TICK
+           OBJECT THERE IS NO CS AND NO ORIENTATION TO MIRROR, so those walls do not
+           become FALSE there -- THEY BECOME UNSTATEABLE.
+         => 'DROP A6 TO ESCAPE THE WALLS' IS ILL-POSED, NOT MERELY HARD.  There is no
+            CS on the one-tick object that could be non-zero.  The escape route is
+            CLOSED, and closed for a reason stronger than difficulty.
+         REPORTING RULE FROM THE SEAL, APPLIED: this is a NEGATIVE FOR THE ESCAPE
+         ROUTE AND A CLARIFICATION OF THE QUESTION -- it is NOT a new wall, and it is
+         NOT evidence FOR A6.
+
+G5       WHAT THE SQUARING BUYS, ITEMISED
+         BUYS:  orientability · the Chern-Simons and complex-volume TOOLS ·
+                amphichirality (100%-forced for an orientation double cover, B1234
+                cell 1, against a 3.0% base rate) · AND THE A7 BIT ITSELF (G3).
+         DOES NOT BUY (B1234 cell 3, re-derived in G1): the invariant trace field,
+                the 2T route, McKay-E_6 -- 48 surjections either way.
+         DOES NOT BUY (G3): the A5 bit, which is already posable and already ON at
+                tick one, H_1(m000) = Z.
+         SO THE SQUARING'S PURCHASE IS EXACTLY: ORIENTATION, AND EVERYTHING DOWNSTREAM
+         OF ORIENTATION -- the CS tool, the mirror, amphichirality, the eight walls,
+         and A7.  IT BUYS NOTHING ARITHMETIC.
+         That sharpens B1234's own headline ('the squaring buys orientability and
+         costs every value') by saying WHICH SIDE each item falls on, and by adding
+         A7 to the bought column -- which B1234 did not have, because xB018 had not
+         yet characterised the bit.
+
+G6       THE VERDICT
+         B1234's live question is ANSWERED: dropping A6 breaks EXACTLY the two
+         orientation-dependent tools, and leaves the arithmetic intact.  Because
+         seven of the eight walls are statements about CS or the mirror, they become
+         UNSTATEABLE rather than false -- so the escape route is ILL-POSED.
+         AND THE NEW STRUCTURAL FACT, from xB018's machinery: THE TWO BITS SPLIT
+         ACROSS THE SQUARING.  A5's datum (H_1) survives and is already on; A7's
+         datum (CS) is CREATED by it.  A7 is not a choice the construction makes at
+         tick one -- it does not exist until tick two.
+
+         AXES HELD FIXED, NAMED AS THE RULE REQUIRES:
+           - m000 ONLY.  The wider non-orientable census is NOT swept; B1234's 40-of-40
+             is cited for the amphichirality rate and NOT re-derived here.
+           - the two-bit characterisation is xB018's, which held SL(2,Z), b++/b+-,
+             word length <= 8 and A5 reading (c) fixed -- those constraints are
+             INHERITED by this arc and not re-opened.
+           - PGL(2,C) vs PSL(2,C): named as the MECHANISM (a non-orientable manifold's
+             holonomy lands in PGL(2,C), outside the SL(2,C) theory) but NOT computed
+             here.
+
+==============================================================================
+  G1: PASS
+  G2: PASS
+  G3: PASS
+  G4: PASS
+  G5: PASS
+  G6: PASS
+VERIFIED
