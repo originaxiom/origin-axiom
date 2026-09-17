@@ -318,3 +318,46 @@ the programme's real result. It also sharpens my §3 framing point rather than s
 document whose accumulated content is *this object does not deliver chiral matter, and here are
 seven independent ways of seeing it* is not well titled "Standard-Model structure from the
 figure-eight knot complement".
+
+### 6.3 R30's finite-width vanishing — checked, and it holds
+
+This was the load-bearing analytic step in the strongest negative anywhere in the programme, and I
+said it needed reading rather than running. Having read it, most of it *is* checkable
+(`referee_2026-09-17/scripts/r4_r30_check.py`), and all four pillars hold.
+
+**(A) The conjugation.** The argument turns on `d_q = exp(−qF) d_A exp(qF)` for `d_q = d_A + q dF∧`.
+This is right: `d(exp(qF)) = q exp(qF) dF` and A is central, so the multiplier is bounded and
+invertible and gives a **chain isomorphism** — hence H*(d_q) is ordinary flat cohomology at every
+fixed finite width. The document's own caveat is also right and important: the multiplier is *not*
+unitary on the unchanged L², so this transports **cohomology, not the operator's spectrum**.
+
+**(B) The complex.** For the frozen m202 core, `f · v = 0` — so it is a complex.
+
+**(C) The Betti table**, all three rows, recomputed from the ranks:
+
+| character | (H⁰,H¹,H²,H³) |
+|---|---|
+| trivial | (1,2,1,0) |
+| nontrivial, P = 0 | (0,1,1,0) |
+| nontrivial, P ≠ 0 | (0,0,0,0) |
+
+**And the decisive part: P ≠ 0 at all eight nontrivial order-3 characters** (values −2 and
+−½ ± i√3⁄2). "Source-C3" lives exactly there, so every nontrivial order-3 character lands in the
+bottom row: **no zero modes at finite width.** R30's headline is verified, not merely reported.
+
+**(D) The §3 chain homotopy.** Verified in every degree: `p∘i = id`, and `id − i∘p = dH + Hd` with
+the document's explicit `i`, `p`, `H`. So for non-zero attachment `t` the resolved complex retracts
+onto the **base** complex, not the relative one — at k = 3 that is the three relative odd classes
+cancelling against three even core partners, six states gone.
+
+**The gap, which the lane states itself and I confirm is real.** The conjugation is at *fixed* finite
+width. As width → 0 the multiplier `exp(−qF)` need not stay bounded, and there is no uniform-domain
+argument — so the singular three of R19 is not contradicted, it simply lives on a different domain
+that the resolved theory does not converge to. §4's "light partners in shrinking wells" is explicitly
+conditional on uniform bounds *not yet proved for the actual global Poisson solution*.
+
+**What that adds up to.** The three is not the limit of anything physical that has been constructed.
+It exists in a singular prescribed-source model; the resolved model that was built to make it
+physical has zero; and the two are not connected by a limit anyone has established. That is a
+cleaner and stronger statement of the programme's central negative than the paper's §7 makes, and
+it belongs in the paper.
