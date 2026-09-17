@@ -1,0 +1,48 @@
+{
+ "id": "xB012",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B197",
+  "B266",
+  "B302",
+  "B680",
+  "B1234",
+  "xB005",
+  "xB007",
+  "xB010"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B197_figure_eight_volume_torsionfree",
+   "outcome": "CONFIRMED",
+   "what": "re-derived its tie-break directly: H_1(m003) = Z/5 + Z versus H_1(m004) = Z, so the m003/m004 volume tie IS broken by torsion. This locates the tie-break in AXIOM A5 ('the first mixed closure is torsion-free') and agrees with xB007's independent finding that H_1 is the only selector."
+  },
+  {
+   "arc": "B1234_a6_built_the_walls",
+   "outcome": "CONFIRMED",
+   "what": "re-derived its cover claim from snappy: m000 (Gieseking) is non-orientable and its orientation double cover IS m004 (is_isometric_to True, volume ratio exactly 2.0). Its wall analysis is not disputed. What this arc adds is the route B1234 did NOT take: it dropped ORIENTABILITY and hit its own objection (the tools need orientation); dropping A5 instead lands on an ORIENTABLE orbifold where that objection does not apply."
+  },
+  {
+   "arc": "B302_multiplicity_hidden_z3",
+   "outcome": "CONFIRMED",
+   "what": "re-derived the torsion claim by enumerating finite-order elements of PSL(2,O_3) over small Eisenstein entries: orders {2, 3} both present and exhibited. The order-3 symmetry B302 calls 'absent from the torsion-free knot group' is indeed present one level below A5. Also re-derived B302's index: its 12 is over PSL(2,O_3); the MINIMAL orbifold is the PGL one, half the volume, so m004 covers it with index 24."
+  },
+  {
+   "arc": "B266_ramified_prime_selects_e6",
+   "outcome": "SCOPED",
+   "what": "re-derived the 2T surjection at the level BELOW the knot: O_3/(sqrt-3) = F_3 (ring map verified on 2000/2000 random products) and SL(2,O_3) -> SL(2,F_3) is ONTO, image order exactly 24 = |2T|. B266's result is confirmed and SCOPED: pi_1(4_1) surjecting onto 2T is the RESTRICTION of the Bianchi group's own reduction map to an index-24 subgroup, so the spine needs no knot, no cover and no choice."
+  },
+  {
+   "arc": "B680",
+   "outcome": "CONFIRMED",
+   "what": "vol(m004) = (3 sqrt3 / 2) L(chi_-3, 2) re-derived to 25 digits as the control on v0, which is computed from L rather than hardcoded."
+  }
+ ],
+ "claim_one_line": "THE OBJECT BELOW THE AXIOMS: A5 EXCLUDES SOMETHING 24x SMALLER, UNIQUE, ORIENTABLE, AND CARRYING THE TORSION THE PROGRAMME HUNTS -- AND THE TWO CORNERSTONE FIELDS SIT ON OPPOSITE SIDES OF THAT AXIOM (PREREGISTRATION sealed sha256 a8db856d... and PUSHED at eb08a0c BEFORE any cell ran). THE OWNER REQUIRED THE FOUNDATIONS BE READ FIRST SO THIS SEAT WOULD NOT PRODUCE ANOTHER FALSE KILL, AND IT WORKED -- IT KILLED A CLAIM THIS SEAT WAS ABOUT TO MAKE: the manifold restriction is NOT smuggled, it is AXIOM A5 ('the first mixed closure is torsion-free'), declared in THE_FRAMEWORK's Layer 0; the 'hidden assumption' framing is WITHDRAWN before it was banked. Also established by the reading: the git history does NOT reach the beginning (135 commits, earliest 2026-09-08 -- xB001 re-confirmed); B197 already names the tie-breaker ('the m003 volume tie is broken by torsion'); and B1234 already ran most of this experiment, tracing eight walls to amphichirality, showing it is FORCED BY THE CONSTRUCTION, and showing m004 IS the orientation double cover of Gieseking. THE GAP, AND WHY THIS IS NOT B1234 REPEATED: B1234 ended on the question it could not answer -- dropping orientability 'may BREAK THE TOOLS rather than open a door, since Chern-Simons, the complex volume and SL(2,C) representation theory all USE orientation'. B1234 dropped ORIENTABILITY and landed on a NON-orientable manifold where its own objection bites. NO ARC HAD TRIED DROPPING A5, and that lands on an orbifold that is STILL ORIENTABLE. V1 PASS: the tower is 1 : 12 : 24 exactly -- H3/PGL(2,O_3) (minimal cusped ORIENTABLE ORBIFOLD, Meyerhoff, UNIQUE), m000 Gieseking (minimal cusped MANIFOLD of any orientability, Adams, UNIQUE), m004 (minimal cusped ORIENTABLE manifold, Cao-Meyerhoff, TIED with m003) -- with v0 DERIVED from L(chi_-3,2) and B680's identity holding to 25 digits, and B197 re-derived (H_1(m003) = Z/5 + Z against H_1(m004) = Z), so A5, AN AXIOM, IS WHAT BREAKS THE TIE. V2 OUTCOME A, THE CELL THAT DECIDES THE ROUTE: PGL(2,C) = PSL(2,C), so PGL(2,O_3) sits inside Isom+(H^3) and the quotient is an ORIENTABLE orbifold -- discrete, finite covolume, trace field Q(sqrt-3) by construction. B1234'S OBJECTION, WHICH KILLED THE GIESEKING ROUTE, DOES NOT APPLY HERE. V3 PASS: finite orders in PSL(2,O_3) are {2, 3}, both exhibited -- the orbifold carries exactly the torsion A5 removes, re-deriving B302's reading. V4 PASS, AND IT IS THE STRUCTURAL RESULT: the ramified prime above 3 is (1+2w) of norm 3, O_3/(sqrt-3) = F_3 via a+bw -> a+b (verified a ring map on 2000/2000 random products), and SL(2,O_3) -> SL(2,F_3) is ONTO with image order exactly 24 = |2T| -- SO THE Q(sqrt-3) -> 2T -> McKAY -> E6 SPINE IS THE BIANCHI GROUP'S OWN REDUCTION MOD ITS RAMIFIED PRIME, needing no knot, no cover and no choice, and B266's surjection from pi_1(4_1) is the RESTRICTION of that map to an index-24 subgroup. B1234 showed the spine survives one level down; it survives TWO. V5, THE BILL, WHICH IS THE ACTUAL FINDING: taking the orbifold as the object would cost the ENTIRE knot-theoretic layer (Alexander, A-polynomial, colored Jones, WRT, B425's torsion, xB009/xB011), the ENTIRE fibration layer (monodromy LR, the trace map, xB003/xB004/xB005 -- an orbifold does not fibre with a once-punctured-torus fibre), and A7's one bit and hence THE ORIGIN OF phi, which THE_FRAMEWORK itself calls 'the smallest piece of inserted structure in the whole construction'. What survives is the arithmetic spine. SO: A5 BUYS THE GOLDEN/DYNAMICAL FACE AND COSTS THE TORSION; DROPPING IT BUYS THE TORSION AND COSTS THE GOLDEN FACE -- THE PROGRAMME'S TWO CORNERSTONE FIELDS, Q(sqrt5) AND Q(sqrt-3), SIT ON OPPOSITE SIDES OF ONE AXIOM, and only one side has ever been walked. That is what 'maybe selectivity is the mistake' resolves to under computation: not that selection was wrong, but that A5 is a FORK WITH A PRICED BILL ON BOTH SIDES. NOT CLAIMED, as the seal required in advance: no physics follows; the orbifold's Z/3 is NOT identified with the trinification Z/3, 2T/Q8 or Z(E6) (an I-10/E82-class claim, and xB005 priced that family at 0.58 bits with three of four hats one fact); and the BASE RATE against generic Bianchi orbifolds is OWED AND UNMEASURED -- every PSL(2,O_d) has torsion and a reduction map, and what is specific to d = 3 is that the ramified prime has norm 3 and SL(2,F_3) = 2T. NO AXIOM IS AMENDED -- A5 is the record's and changing it is the owner's call; this arc reports what is below it. Gate 5 absolute; no value, no generation count, nothing promotes to CLAIMS.md."
+}

@@ -1,5 +1,39 @@
 # Changelog
 
+## xB012 THE OBJECT BELOW THE AXIOMS: A5 excludes something 24× smaller, unique, orientable, carrying the torsion the programme hunts — and the two cornerstone fields sit on opposite sides of that axiom
+
+Owner's redirect (*"what if we don't need to select m004… maybe selectivity is the mistake"*), with the instruction to read the foundations first *"so you don't end up with another false kill."* **PREREGISTRATION sealed (sha256 `a8db856d08579a66d0bffa7acc0ae851d785a46dd3566415dca84fa7cc767acc`) and PUSHED at `eb08a0c` BEFORE any cell ran.**
+
+**The reading worked: it killed a claim this seat was about to make.** The manifold restriction is **not** smuggled — it is **axiom A5**, *"the first mixed closure is torsion-free"* (`THE_FRAMEWORK.md` Layer 0). The "hidden assumption" framing is **withdrawn before it was banked**. Also established: the **git history does not reach the beginning** (135 commits, earliest 2026-09-08; the corpus arrived in one import — xB001 re-confirmed); **B197** already names the tie-breaker (*"the m003 volume tie is broken by torsion"*); and **B1234** already ran most of this experiment, tracing eight walls to amphichirality, showing it is **forced by the construction**, and showing m004 **is** the orientation double cover of Gieseking.
+
+**The gap, and why this is not B1234 repeated.** B1234 ended on the question it could not answer: *"dropping orientability may **BREAK THE TOOLS** rather than open a door — Chern–Simons, the complex volume and SL(2,ℂ) representation theory all USE orientation."* **B1234 dropped ORIENTABILITY and landed on a NON-orientable manifold, where its own objection bites. No arc had tried dropping A5 — and that lands on an orbifold that is STILL ORIENTABLE.**
+
+**V1 PASS — the tower, every ratio exact.**
+
+| object | volume | status |
+|---|---|---|
+| `H³/PGL(2,O₃)` | `1 × v₀` | minimal cusped orientable **orbifold** (Meyerhoff) — **UNIQUE** |
+| m000 Gieseking | `12 × v₀` | minimal cusped 3-**manifold**, any orientability (Adams) — **UNIQUE** |
+| m004 = `4₁` | `24 × v₀` | minimal cusped **orientable** manifold (Cao–Meyerhoff) — **TIED with m003** |
+
+`v₀` derived from `L(χ₋₃,2)`, not hardcoded; B680's identity holds to 25 digits. **B197 re-derived**: `H₁(m003) = ℤ/5 ⊕ ℤ` against `H₁(m004) = ℤ` — **A5, an axiom, is what breaks the tie.**
+
+**V2 — OUTCOME A, the cell that decides the route.** `PGL(2,ℂ) ≅ PSL(2,ℂ)`, so `PGL(2,O₃) < Isom⁺(H³)`: the quotient is an **orientable** orbifold — discrete, finite covolume, trace field `ℚ(√−3)` by construction. **B1234's objection, which killed the Gieseking route, does not apply here.** The door B1234 declared blocked is open by a different door.
+
+**V3 PASS — the torsion A5 removes.** Finite orders in `PSL(2,O₃)`: **{2, 3}**, both exhibited. **B302 re-derived**: the order-3 symmetry *"absent from the torsion-free knot group"* is present one level below A5. (B302's index 12 is over PSL; the **minimal** orbifold is the PGL one, half the volume, so m004 covers it with index **24**.)
+
+**V4 PASS — and the arithmetic does not need the cover.** The ramified prime above 3 is `(1+2ω)`, norm 3; `O₃/(√−3) ≅ 𝔽₃` via `a+bω ↦ a+b` (verified a ring map on 2000/2000 random products); and `SL(2,O₃) → SL(2,𝔽₃)` is **onto**, image order exactly **24 = |2T|**.
+
+> **The `ℚ(√−3) → 2T → McKay → E₆` spine is the Bianchi group's OWN reduction mod its ramified prime — no knot, no cover, no choice.** B266's surjection from `π₁(4₁)` is the **restriction** of that map to an index-24 subgroup. B1234 showed the spine survives one level down; it survives **two**.
+
+**V5 — the bill, which is the actual finding.** Taking the orbifold as the object would cost the **entire knot-theoretic layer** (Alexander, A-polynomial, colored Jones, WRT, B425's torsion, xB009/xB011), the **entire fibration layer** (monodromy `LR`, the trace map, xB003/xB004/xB005 — an orbifold does not fibre with a once-punctured-torus fibre), and **A7's one bit, hence the origin of φ**, which `THE_FRAMEWORK.md` itself calls *"the smallest piece of inserted structure in the whole construction."* What survives is the arithmetic spine.
+
+> **A5 buys the golden/dynamical face and costs the torsion. Dropping it buys the torsion and costs the golden face. The programme's two cornerstone fields — `ℚ(√5)` and `ℚ(√−3)` — sit on OPPOSITE SIDES OF ONE AXIOM, and only one side has ever been walked.**
+
+That is what *"maybe selectivity is the mistake"* resolves to under computation: **not that selection was wrong, but that A5 is a fork with a priced bill on both sides.**
+
+**Not claimed**, as the seal required in advance: **no physics follows**; the orbifold's ℤ/3 is **not** identified with the trinification ℤ/3, `2T/Q₈` or `Z(E₆)` (an I-10/E82-class claim — xB005 priced that family at **0.58 bits** with three of four hats one fact); and the **base rate against generic Bianchi orbifolds is owed and unmeasured** — every `PSL(2,O_d)` has torsion and a reduction map, and what is specific to `d = 3` is that the ramified prime has norm 3 and `SL(2,𝔽₃) = 2T`. **No axiom is amended** — A5 is the record's and changing it is the owner's call. Gate 5 absolute. Five cells, each asserting its own mathematics.
+
 ## xB011 THE OWNER'S CATCH WAS RIGHT: B425's "√−3 cancels" is an AMPHICHIRALITY ARTEFACT, and xB009 tested the one object where the question is degenerate
 
 Owner's catch: *"have you checked the odd sector only for m004 or for the whole family of objects?"* **Answer: m004 only.** xB009's O2 ran B425's Fox calculus on the figure-eight relator **alone** and O3/O4 compared **two** manifolds, yet its headline claimed the **sector** — the **E70** shape. **PREREGISTRATION sealed (sha256 `642ccf4ec840523d57684102d72548b1d5da3836fcac13859ae59ccf7d2b2484`) and PUSHED at `4b16b19` BEFORE any cell ran.**
