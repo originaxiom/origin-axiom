@@ -53,7 +53,7 @@ def selection_table():
         "scale ladder (B290)":
             ("ell_C=2pi*i/n+...; n != k", "ladder math / n=k NEGATIVE", "math / HELD (G*Lambda)"),
         "scale-extremal (B291)":
-            ("(5,1)=m003(-2,3) min volume; non-arithmetic", "selective (different axis)", "math"),
+            ("(5,1)=m003(-2,3) min volume; ARITHMETIC (Meyerhoff, B1419) but keeps none of Q(sqrt-3)", "selective (different axis)", "math"),
         "multiplicity (B292)":
             ("only fiber Sigma_{1,1} a 2-manifold; chiral datum absent", "tripartite; chiral ABSENT", "math / stop-gate"),
         "clock (B293)":

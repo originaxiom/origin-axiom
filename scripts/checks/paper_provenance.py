@@ -146,6 +146,8 @@ CLAIMS = [
         ["B1117", "B1120", "B1124"], "settled"),
  ("4",  "the fork is a rank obstruction: the branch carrying Lorentz signature and compact colour has maximal compact f4 of rank four, which no torus element of e6 reaches -- crossing needs an outer automorphism",
         ["B1265"], "settled"),
+ ("3",  "a conditional uniqueness theorem for the genesis matrix, machine-checked: six motivated axioms of a minimal record-transfer system force the persistent sector to LR (144 candidates to one), leaving exactly one inserted bit -- the LR vs RL order, which is what selects the golden polynomial; the axioms are NOT derived from anything weaker and the result is labelled conditional",
+        ["B1323"], "settled"),
  ("8",  "the pair class 2 - kappa mod squares is mirror-EVEN, so it cannot be the orientation bit; the earlier identification is refuted and what survives is a relational Z/2 datum with the object supplying its own partner",
         ["B1192", "B1248"], "settled"),
  ("6",  "the reducible index can fire only through the twist: rho has det 1, so Sym^m(rho) is symplectically self-dual and I(V) = 0 whenever psi^2 = 1 (verified on the witness and on all 542 firing modules of the record)",

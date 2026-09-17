@@ -8550,6 +8550,40 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1422": {
+   "slug": "the foundations reread",
+   "motifs": [
+    "measurement",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "apolynomial"
+   ],
+   "refs": [
+    "B123",
+    "B145",
+    "B147",
+    "B16",
+    "B266",
+    "B291",
+    "B294",
+    "B296",
+    "B82",
+    "P1",
+    "P16",
+    "S032",
+    "V65"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B142": {
    "slug": "klein4 and magic cartography",
    "motifs": [

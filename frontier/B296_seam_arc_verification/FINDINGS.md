@@ -10,7 +10,7 @@ firewall-leak / counterexample / convention-artifact / triangulation-dependence)
 refutations; 0 firewall leaks; nothing wrongly promoted to `CLAIMS.md`.** Two results were *strengthened* —
 - **B287**: uniqueness is **homology-forced** (a torus bundle needs `b₁≥1`; every non-zero exceptional filling has
   finite `H₁` or is `S³`), independent of Regina's recognizer;
-- **B288**: extended to `|p|,|q|≤12` (**174 closings, still 0 arithmetic**), consistent with Garoufalidis–Jeon
+- **B288**: extended to `|p|,|q|≤12` (**174 closings, 0 with an **imaginary quadratic** invariant trace field — the arithmeticity reading is RETRACTED, see the addendum**), consistent with Garoufalidis–Jeon
   finiteness;
 - **B291**: min-volume `(5,1)` confirmed stable over the larger grid —
 

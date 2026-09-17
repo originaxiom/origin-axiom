@@ -137,7 +137,7 @@ det(M) = −1 — every substitution tick reverses orientation, every second tic
 it; the Breath Campaign's banked sentence ("the program IS the residue (orientation
 ℤ/2) + its oscillation") is the rule's own pulse, and the arrow is its direction of
 ticking *(and B1083 adds: the tick's matrix squares to the figure-eight monodromy
-exactly — M² = RL, det M = −1 — the one-tick object is the Gieseking manifold
+exactly — M² = LR, det M = −1 — the one-tick object is the Gieseking manifold *(label corrected 2026-09-17, S15: with the project's own convention L = [[1,1],[0,1]], R = [[1,0],[1,1]] the product [[2,1],[1,1]] is **LR**, not RL; B1083 wrote the right matrix under the wrong name and the name propagated. Every matrix in the affected statements is unchanged.)*
 (non-orientable, CITED) and the object is the double tick: orientability and
 amphichirality arrive in the same purchase, at tick two)*. The two selection-kinds separate at tick one: the rule is a perfect selector
 of SUCCESSORS (forced dynamics) and no selector of INSTANCES (the hull point — the

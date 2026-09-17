@@ -16,12 +16,21 @@ def test_min_volume_closing_exists_and_stable():
 
 
 def test_min_volume_closing_is_not_arithmetic():
-    assert b291.min_volume_is_arithmetic() is False              # x^4-x-1 non-arithmetic (re-checked in pyenv)
+    # CORRECTED 2026-09-17 (S15): the old assertion read "the min-volume closing is not arithmetic", which E82/B1419
+    # retracted -- m004(5,1) is the Meyerhoff manifold and IS arithmetic. What the computation actually decides is
+    # whether that closing keeps the OBJECT's field, and it does not.
+    assert b291.min_volume_keeps_the_objects_field() is False
+    assert b291.SCALE_AXIS_COINCIDES_WITH_ARITHMETIC is True      # the corrected reading: min-volume IS arithmetic
+    assert b291.SCALE_AXIS_KEEPS_THE_OBJECTS_FIELD is False
 
 
 def test_selection_is_axis_stratified():
     assert b291.SCALE_AXIS_COINCIDES_WITH_FIBER is False         # B287 (0,1) non-hyperbolic
-    assert b291.SCALE_AXIS_COINCIDES_WITH_ARITHMETIC is False    # B288 none arithmetic
+    # CORRECTED 2026-09-17 (S15): this line asserted "no closing is arithmetic" (B288), retracted by E82/B1419.
+    # The min-volume closing IS arithmetic -- the scale and arithmetic axes coincide at that slope -- and what
+    # remains stratified is that it keeps none of the object's own field and is not the dynamical closing.
+    assert b291.SCALE_AXIS_COINCIDES_WITH_ARITHMETIC is True
+    assert b291.SCALE_AXIS_KEEPS_THE_OBJECTS_FIELD is False
     assert b291.AXIS_STRATIFIED
 
 

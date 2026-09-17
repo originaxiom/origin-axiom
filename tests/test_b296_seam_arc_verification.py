@@ -16,7 +16,10 @@ def test_redteam_all_survive_no_leaks():
 
 
 def test_extended_adversarial_checks():
-    assert b296.EXTENDED_CHECKS["B288_arithmetic_up_to_12"] == 0        # 174 closings, still 0 arithmetic
+    # CORRECTED 2026-09-17 (S15): the key was "B288_arithmetic_up_to_12" and this line read "still 0 arithmetic".
+    # E82/B1419 retracted that reading -- the criterion cannot fail on closed manifolds, so the red-team pass
+    # amplified a vacuous zero. The count is of imaginary-quadratic invariant trace fields, and it stands.
+    assert b296.EXTENDED_CHECKS["B288_imaginary_quadratic_up_to_12"] == 0
     assert b296.EXTENDED_CHECKS["B291_min_volume_slope"] == (5, 1)      # min-vol stable over larger grid
 
 

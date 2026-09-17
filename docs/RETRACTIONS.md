@@ -164,3 +164,23 @@ grandfathered B58 collision). **16 of 16 verbatim.**
 ## Currency note — 2026-09-15, through B1410 (the consolidation merge)
 
 Read at the merge of the two cloud lanes (B1325–B1410; outside-bench memos 185–233) into main; each item from its own record, not from a summary. **Retractions and corrections in the window:** B1410 Addendum 1 (the lane's own headline withdrawn: B871 had already paid the owed definition; the arc's P1 verdict stands, the blocker is now a proved impossibility, B713/B760); B1346 §6 (a document seat's "drill(M(A₁)) = M(A₂)" refuted: the drilled manifold is the two-cusped m129, re-checked on main); B1345 addendum (its F6 refutation WITHDRAWN, E58); B1332 addenda 2–3 (the isotropy reduction needs both V and V*, with a counterexample); B1264's verdict file ("EIGHT measured instances") corrected to its lock's five across 11 live uses; B1401 addendum 1 ("attained in all five" corrected to four of five); B1349 addendum 5 ("four of six" withdrawn to "one of four"). **On main's own side this session:** the paper's family-wide amphichirality sentence (B1181, retracted by B1235) removed from the paper, E53 #30; the "16σ" framing of the crossing withdrawn (B915 addendum); the outside bench's item 2 framing the TOE ledger's "counts 2" against B1321's "3" as different quantities. Nothing here reverses a banked verdict; every item narrows a headline to what its record proves.
+
+## 2026-09-17 (S15, B1422) — "THE PHYSICS CHAPTER IS CLOSED" was never scoped, and the repo held it against itself
+
+**What was carried:** B82/V65 (2026-06-05) banked *"there is no physics here … the physics-probing chapter is
+**closed**; future runs should not re-litigate these kills without genuinely new evidence"*, reinforced the next day
+by B96. The verdict's own scope is the SL(n)-tower bridges (anyons, quasicrystals, j = 1728, higher-spin, quantum
+groups). It was stated **unscoped** on `ROADMAP.md` and `ARCHITECTURE.md` as a standing governance gate and echoed on
+about eight further surfaces, with `arc_verdict.json` carrying `superseded_by: null` and this registry carrying no row.
+
+**What happened instead:** the programme ran a different route entirely — E₆ via the McKay door and the 27 — and
+`GOVERNANCE.md` §2 was amended with the owner's approval on 2026-08-25 (`b72d87f2`) to *"derives the form of
+Standard-Model structure"*. A 51-page paper now rests on that route. **For fifteen months the repository asserted a
+no-re-litigation gate and simultaneously litigated past it, and neither surface knew about the other.**
+
+**The correction (not a retraction of B82):** B82's kills stand on B82's routes. The gate is scoped to them, in place,
+at both top-level surfaces. Nothing in B82 tested the E₆/27 route, so nothing in B82 licenses or forbids it.
+
+**The lesson, filed:** a verdict that closes a *chapter* must name the routes it closes. An unscoped closure is
+unfalsifiable by later work — it cannot be superseded, only ignored, which is what happened.
+

@@ -15,7 +15,7 @@ verified. Nothing to `CLAIMS.md`.** Phase VI. Answers B286's load-bearing questi
 | **CP-sign law** (B289) | `CS(p,−q)=−CS(p,q)`, all 78 chiral; sign = ℚ(√−3) Galois | LAW forced / sign **free** | math / HELD |
 | **SSB–gauge mechanism** (B295) | sign external; Curie refuted, SSB potential absent, τ-gauged gated | **OPEN** | math / stop-gate |
 | **scale ladder** (B290) | `ℓ_ℂ=2πi/n+(π/√3)/n²`; `n≠k` | ladder math / `n=k` NEGATIVE | math / HELD (G·Λ) |
-| **scale-extremal** (B291) | `(5,1)=m003(−2,3)` min volume; non-arithmetic | selective (different axis) | math |
+| **scale-extremal** (B291) | `(5,1)=m003(−2,3)` min volume; **arithmetic** (the Meyerhoff manifold — label corrected 2026-09-17, E82/B1419; it keeps none of ℚ(√−3), which is the fact this row uses) | selective (different axis) | math |
 | **multiplicity** (B292) | only fiber `Σ_{1,1}` a 2-manifold; chiral datum absent | tripartite; chiral ABSENT | math / stop-gate |
 | **clock** (B293) | peripheral symplectic conjugate pair (Goldman = NZ) | STRUCTURE math / trajectory gated | math / stop-gate |
 

@@ -72,8 +72,17 @@ chirally-asymmetric input, not more seeds; `../docs/OPEN_LEADS.md` Campaign 1′
 
 **And that input cannot be forced (B145/`K017`).** Canonicity (minimal volume / arithmeticity / simplest substitution /
 palindromic period) **coincides with the self-mirror (amphichiral) condition** — the canonical o-p-t family *is* the
-metallic `RᵐLᵐ` (self-mirror) family; no arithmetic chiral o-p-t bundle exists (catalog n=39). So **preferred
-handedness (parity) is irreducibly contingent**: *forced ⟹ self-mirror ⟹ no parity*. This closes the chirality axis —
+metallic `RᵐLᵐ` (self-mirror) family; ~~no arithmetic chiral o-p-t bundle exists (catalog n=39)~~. So **preferred
+handedness (parity) is irreducibly contingent**: ~~*forced ⟹ self-mirror ⟹ no parity*~~. This closes the chirality axis
+
+> **REFUTED IN PART, 2026-06-10 (B147); this document was never swept — corrected 2026-09-17, S15.** Arithmetic
+> **chiral** once-punctured-torus bundles **do exist**: the mirror pair `RRL/RLL` over ℚ(√−7), arithmetic by both
+> Maclachlan–Reid conditions and cross-checked by the Humbert volume ratio. So **"arithmetic ⟹ amphichiral" is FALSE**
+> (`knowledge/K017` carries the correction; this file did not). What survives, in B146's own words, is the weaker and
+> still-useful statement: chirality is forced and generic, but a canonical *single* is always self-mirror and a
+> composite is mirror-paired, so **no handedness is ever preferred** — and the surviving "no single canonical object is
+> chiral" rests on the volume-minimality and palindromic-period arms, **not** on arithmeticity. The chirality axis is
+> not closed by this argument —
 parity lives strictly on the contingent side, the deepest statement of the firewall. See `../frontier/B145_forced_chirality/`.
 
 ## Why this matters (the framing it sharpens)

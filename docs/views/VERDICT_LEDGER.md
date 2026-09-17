@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1250 of 1250 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1251 of 1251 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (818)
+## PROVED (819)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -830,6 +830,7 @@
 | `B1419` | Six of the 78 closed hyperbolic fillings of m004 in the |p|,q<=8 grid are arithmetic by the closed criterion (m004(+-5,1) = Meyerhoff, x^4-x-1 disc -283; (+-6,1) disc -59; (+-8,1) disc -31), the other 72 are not; B288's 'zero arithmetic' tested the cusped criterion (E82); 'zero keep Q(sqrt-3)' stands. |  | 1 |
 | `B1420` | The referee's upgrades verified: 14 of m004's 87 covers to degree 10 carry a hexagonal cusp and none realises an order-3 cusp rotation (the census is not vacuous); rho has det 1 so Sym^m(rho) is symplectically self-dual and the index can fire only through a twist with psi^2 != 1 (0 of 542 firing modules violate it; witness 0/0/+1); the flat-bundle twisted Dirac index is rank-blind by Chern-Weil + Atiyah-Singer, which fences the paper's positives as well as strengthening its negative. |  | 1 |
 | `B1421` | The completeness sweep: the paper's four-input headline is a lower bound (the identification ledger's 14 unearned rows reduce to 8 irreducible sources, so 12 free inputs for a physical reading, cross-checked against an independent recount); a refuted claim (the pair class is mirror-EVEN and cannot be the orientation bit) was load-bearing in the freedom ledger and is re-grounded on mirror = swap x arrow; seven chain rows contradicted the paper or themselves; six results the record held (Menal-Ferrer-Porti's wider hypothesis making the multi-cusp zeros forced, the surviving-gauge-group negative, the rank obstruction, the reproducing arithmetic, the cyclic-cubic family no-go, the unique trilinear with the E8 family mechanism) are now stated in the paper; 524 of 1144 strong-verdict arcs are propagated to no live surface though all remain in the generated views. |  | 2 |
+| `B1422` | The foundations re-read: the shipped verification package carried two GREEN tests asserting the retracted 'no filling is arithmetic' claim, and they were locks for the very row that states the correction (E82's defect, uncaught because the retraction was never registered as a phrase); the repository held B82's unscoped 'the physics chapter is CLOSED' no-re-litigation gate live on ~10 surfaces against its own paper, resolved by scoping with a dated registry row; the day-nine genesis theorem (A1-A6 => A = LR, machine-checked 144->1) was uncited by the paper and the chain and is now in both with its over-determination, its imported positivity, its order bit acting on the BASED polynomial only, its refusal to derive its own axioms, and the non-independence of the two routes; B1083 wrote the right matrix under the wrong name (RL for LR) and the label propagated to two surfaces, corrected; the axioms are not what survived a search (25 routes: 1 dead, 4 stalled, 3 narrow, 18 untouched); arithmeticity does not force amphichirality (B147's chiral arithmetic pair over Q(sqrt-7)), with the capstone and two unbannered arcs corrected; the record swap is an added axiom; ARCHITECTURE called three open results 'proven mathematics'. |  | 3 |
 
 ## NEGATIVE (322)
 

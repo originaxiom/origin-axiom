@@ -227,6 +227,17 @@ the value-firewall empirically (the value-hunt null test). Ledger through `V238`
 material); speculative *physics* may not. All physics readings stay quarantined in
 `speculations/` + `philosophy/`; the physics chapter is CLOSED (`knowledge/K006`).
 
+> **SCOPED AND SUPERSEDED IN PART (2026-09-17, S15).** B82/V65's verdict *"there is no physics here … the
+> physics-probing chapter is closed; future runs should not re-litigate these kills without genuinely new
+> evidence"* (2026-06-05) **stands for the routes it tested** — the SL(n)-tower bridges: anyons, quasicrystals,
+> j = 1728, higher-spin, quantum groups, where the recurring kernel is invariant theory of sl(n) and never a
+> 3+1d crossing. It was stated here without that scope, and read as a repo-wide gate. It is **not** the state of
+> the programme: `GOVERNANCE.md` §2 was amended with the owner's approval on 2026-08-25 (`b72d87f2`) to
+> *"derives the form of Standard-Model structure … not a theory of the physical contents"*, and the E₆/27
+> structure route of `papers/P3_THE_PAPER/` is a different object from anything B82 tested. The honest reading:
+> **the chapter B82 closed is still closed; the programme walked through a different door, and this line should
+> never have been written unscoped.**
+
 ---
 
 ## Phase C — Exhaustive survey of emergence-paths · **in progress**

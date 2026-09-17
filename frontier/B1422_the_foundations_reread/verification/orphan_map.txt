@@ -1,0 +1,123 @@
+arcs with a verdict file: 1247
+STRONG-verdict arcs cited in NONE of: paper, provenance, theorem ledger, open leads, main goal, chain doc, ToE ledger: 524
+
+B1416    VERIFIED  THE RELAY RESIDUE CLOSED: the fifteen relays B1412 kept OPEN by name, read against their artifacts in three pinned archive tags (cc3 a31456d2, braver 53da05f6, codex f7a49536), the seats' scripts re-run (B8087, B8143's s
+         frontier/B1416_the_relay_residue_closed
+B1412    VERIFIED  THE RELAY BACKLOG: 342 seat relays with no ledger row (cc3 176, braver 131, codex 32, fc 3), every one read -- 95 consumed through their already-rowed seat arcs, 226 traced claim by claim to main surfaces by ten readers 
+         frontier/B1412_the_relay_backlog
+B1348    PROVED    THE LISTENER MAP POSED AND HALF-DECIDED: EXISTENCE YES, UNIQUENESS NO, AND THE FREEDOM IS EXACTLY 12. LISTENER_MAP_SPEC (L166) asks whether a nonempty non-vacuous Lambda exists -- a rule in domain data alone excluding at
+         frontier/B1348_the_listener_map_posed
+B1347    NEGATIVE  ENTERING THE OTHER THREE STRATA: THE KAPPA-FLOW MEASURED, THE ARROW NOT FOUND, AND ONE EXACT IDENTITY. B497 classified End(F2) in July and ended 'the program to date = stratum 1 of 4'; B1342 derived why (kappa is conserv
+         frontier/B1347_the_other_strata
+B1346    PROVED    THE chat1 HANDOFF INTAKEN: 34/34 REPRODUCED, F1 CORRECTS A BANKED ARC, F5 GENERALISES, AND CHAT-2'S NESTING IS REFUTED. Every number recomputed on this bench, not read from the handoff. (1) The seat's own verification re
+         frontier/B1346_the_chat1_handoff_intake
+B1345    PROVED    THE JORGENSEN NUMBER: THE THEOREM IS REAL, THE RECORD ALREADY HAD THE NUMBER, AND TWO READINGS DIE. Verifying a forwarded seat report. CONFIRMED: J(m004) = 1.000000000000000 exactly, computed independently by minimising 
+         frontier/B1345_the_jorgensen_number
+B1344    PROVED    VERIFYING chat1's STRATA REPORT: ONE REAL RESULT, ONE REFUTATION, AND A COLLISION IN OUR OWN RECORD. (C1 CONFIRMED, and it is the best thing in the report) stratum 1 IS the chi = 0 stratum: chi is multiplicative in fibra
+         frontier/B1344_chat1_strata_verification
+B1343    PROVED    DERIVING THE OTHER ADE FACES IS FREE AND THEREFORE EVIDENTIALLY EMPTY; ENRICHMENT HAS A TEST; AND THE ELLIPTIC BRIDGE IS CLOSED BY A THEOREM. The owner asked how to derive the remaining ADE faces from the substitution so
+         frontier/B1343_deriving_the_other_faces
+B1342    PROVED    IS THERE A FACE WE HAVE NOT SEEN? THREE OF FOUR, AND THE RECORD NAMED THEM IN 2026-07. The owner asked. 'Face' has three senses here and two are CLOSED WITH THEOREMS: the ARITHMETIC faces close at exactly three (B730, th
+         frontier/B1342_the_unseen_faces
+B1339    PROVED    THE CHAIN STATUS ADOPTED, AND MEMO 152'S OWN FIX DISCHARGED. B1338 found four consolidations each ADDED and never ADOPTED, none on main, and a fifth being drafted; this closes the loop by adopting one and demoting the re
+         frontier/B1339_the_chain_status_adopted
+B1338    NEGATIVE  THE ANTI-REDISCOVERY INSTRUMENT IS ITSELF BLIND, AND ITS TWO DECLARED BLIND REGIONS ARE STALE. Asked for a brave next step, this bench proposed a no-go consolidation; it had already been written thirteen days earlier as 
+         frontier/B1338_the_instrument_is_blind
+B1337    PROVED    THE SCHEDULED SWEEP: 156 OF 277 ARE READABLE HERE, AND THE FIRST HIGH-VALUE ROW READ NEEDS A CORRECTION. docs/HARVEST_LEDGER.md carries 526 rows of which 277 are SCHEDULED -- more than half the ledger is harvested work n
+         frontier/B1337_the_scheduled_sweep
+B1336    NEGATIVE  I-26'S UNTOUCHED HALF PAID, AND THE ANSWER IS ABELIAN OR NOTHING. The identification ledger records that naming the surviving gauge group -- the centralizer of rho(pi_1) -- remains part of I-26's price and is UNTOUCHED, 
+         frontier/B1336_the_surviving_gauge_group
+B1328    PROVED    THE THREE 'EXTENSION OVER m000 SELECTS' INSTANCES ARE ONE MECHANISM, AND IT IS A RELATION RATHER THAN A CHOICE. Codex R037 (m004's 2T quotient class), codex R039 (the A4-to-2T lift) and the paper's own spin-lift row each
+         frontier/B1328_extension_over_the_parent
+B1326    PROVED    THE STALE-CLAIM GATE, and the sweep that says the class has exactly one member. B1181 was retracted by B1235 on 2026-09-02 ('the family is 38/112 amphichiral, not 83/83') and THE PAPER carried the retracted sentence for 
+         frontier/B1326_the_stale_claim_gate
+B1275    PROVED    THE E8 FAMILY MECHANISM, VERIFIED ON MAIN -- and the one step that is not. Owner: 'lets integrate three generations derivation in main, verify whats remains unverified.' E8 is REBUILT FROM ITS OWN DEFINITION here, nothin
+         frontier/B1275_e8_family_verified
+B1273    PROVED    THE SEAT HARVEST: THREE INDEPENDENT ROUTES SEPARATE THE SAME BINARY, and codex's central twist is reproduced on main's data. Owner: 'lets integrate/digest verify work from all other seats'. Harvested NOT merged, per the 
+         frontier/B1273_seat_harvest
+B1272    PROVED    B1263'S 'GENUINE BINARY' IS THE GEOMETRIC vs NON-GEOMETRIC CHARACTER -- owner-supplied (Round 11), verified here on main's own data, and it CORRECTS B1263. B1263 found 48 surjections pi_1(m004) ->> 2T in 2 Aut(2T)-orbits
+         frontier/B1272_the_binary_is_geometric
+B1266    PROVED    THE SOURCE OF INPUT: THE 14 OVERCOUNTS, THE IRREDUCIBLE NUMBER IS 11. On the owner's question 'should we find the source of input'. B1261 measured the trade as 4 axioms + 10 UNEARNED identifications = 14 unpriced inputs 
+         frontier/B1266_the_source_of_input
+B1264    PROVED    THE H5 CENSUS: EIGHT BANKED INSTANCES OF 'EVERY SPACE, NEVER A POINT', OF WHICH FIVE ARE MEASURED [HEADLINE CORRECTED 2026-09-15, B1410: this row said EIGHT MEASURED while this arc's own lock asserts len(CENSUS)==8 AND l
+         frontier/B1264_h5_census
+B1263    PROVED    I-6's SIDE A VERIFIED, ITS MULTIPLICITY MEASURED AT TWO, AND A TEMPTING READING REFUTED. B1261 made the identification ledger the scoreboard and B1262 moved it 15 -> 14 by running a discriminator a row carried unrun; thi
+         frontier/B1263_i6_side_a_verified
+B1262    NEGATIVE  I-9 REFUTED: THERE IS NO 'GENUS V4' FOR DISCRIMINANT -15, and the row had carried its own discriminator UNRUN. B1261 measured the trade at 15 unpriced inputs : 0 of the SM's 19 numbers and named two moves -- earn an iden
+         frontier/B1262_i9_refuted
+B1260    PROVED    WHERE NET CHIRALITY CAN LIVE. MAIN_GOAL JOIN 1 question 1. (1) THE CLOSED WALL IS GENERAL: for ANY closed oriented 3-manifold, PD (h^i(V) = h^(3-i)(V*)) plus chi = 0 plus h0(V) = h0(V*) = 0 for irreducible V forces h1(V)
+         frontier/B1260_where_chirality_can_live
+B1258    NEGATIVE  2T CANNOT SELECT THE EMBEDDING, AND NEITHER CAN THE SO(10) GRADING -- two object-internal tests, both blind, one by a theorem. B1257 named a canonical selector (Brieskorn-Slodowy picks the subregular uniquely, and it is 
+         frontier/B1258_2T_is_blind
+B1254    PROVED    THE ORIENTATION CLASS HAS A DYNAMICS AND IT MOVES IN EXACTLY ONE STRATUM -- joining two things the repo already held and which had never met: B1248's det X = 2 - kappa in K*/(K*)^2 (so the orientation class is eps = squa
+         frontier/B1254_class_dynamics
+B1252    PROVED    THE CARTAN METRIC ON THE B854 BASIS, AND THE DESCENT TO ONE SM GENERATION. THE INSTRUMENT THE REPO LACKED: the B854 coordinates are NOT orthonormal and no metric for them was banked; a naive dot product gives SEVEN disti
+         frontier/B1252_metric_and_descent
+B1251    PROVED    FOUR RESULTS THAT WOULD OTHERWISE HAVE BEEN LOST, from the 2026-09-05 session. (1) HIER IS S3 AND B307 FORBIDS C3, SO THERE IS NO CONFLICT: B923's hierarchy cubic is irreducible over Q with squarefree discriminant 77 = 7
+         frontier/B1251_five_gates
+B1250    PROVED    THE D2 DECODE: THE TWIST IS THE SO(10) GRADING OF E6 -- answering POSITIVE the stage-(a) question B926 marks explicitly UNAFFECTED BY THE OWNER GATE on M1, 'the strongest positive structure' on its surviving-shapes menu.
+         frontier/B1250_d2_decode
+B1246    PROVED    I-18 SHARPENED BY A DOWNSTREAM SEAT'S FLAG, VERIFIED HERE: the type dictionary reaches theta, not theta-bar. B1243 registered the identification 'the object's CS 2-torsion = the SM's strong phase' with theta-bar -- the p
+         frontier/B1246_theta_vs_thetabar
+B1233    PROVED    THE Z-AI AUDIT: 15 CLAIMS CONFIRMED ON THIS BENCH, 7 REFUTED, ONE REAL DEFECT FOUND IN OUR OWN RECORD, AND ONE HEADLINE IDENTIFICATION REFUTED BY GALOIS THEORY. Owner: 'take every letter seriously / verify never trust / 
+         frontier/B1233_zai_audit
+B1232    PROVED    CODEX R031A/R031B VERIFIED ON THIS BENCH, THREE OF MY CLAIMS RETRACTED, AND A THIRD COLUMN THE PROGRAMME DID NOT HAVE. Owner: 'verify everything, trust nothing' -- so codex's certs were RE-RUN here (their seat is on this
+         frontier/B1232_codex_r031_verified_and_three_columns
+B1231    PROVED    THE IDENTIFICATION DISCIPLINE -- the programme's dominant error mode, named, instrumented, ratcheted, and applied FIRST to this bench's own two failures. Owner-approved plan. THE DIAGNOSIS: this programme SUCCEEDS WHEN I
+         frontier/B1231_identification_discipline
+B1222    NEGATIVE  'THE SELECTION IS THE OBSTRUCTION' -- a unifying thesis for the programme's ~65 proved vanishings, proposed with three kill conditions named IN ADVANCE, and killed by them. THE THESIS: every vanishing (CS=0, Delta=I, dS/
+         frontier/B1222_symmetry_vanishing_thesis
+B1221    PROVED    THE GLOBAL FORM IS PATH-INDEPENDENT, AND THAT IS WHY IT IS NOT NEW (the crux cell the prior-art dossier isolated; owner-directed; never asked before -- already_banked returns no settled arc on its terms). THE QUESTION: B
+         frontier/B1221_global_form_path_independence
+B1220    PROVED    THE CAMPAIGN'S PREMISE AUDIT (Cells 1-3 of the publication campaign, NOT RUN AS DESIGNED because none needed to be): ALL THREE MATH CELLS WERE ALREADY ANSWERED, and in EVERY case the banked record is STRONGER than the ce
+         frontier/B1220_campaign_premise_audit
+B1219    PROVED    CELL 0 OF THE PUBLICATION CAMPAIGN, THE REVERSE SWEEP (arcs -> surfaces), discharging R53-3's first half and GATING Cells 1-3. open_claim_sweep.py runs surfaces -> arcs and structurally CANNOT see a banked result that no
+         frontier/B1219_reverse_sweep
+B1209    NEGATIVE  THE LEE VERIFICATION (R52-3 discharged; the E37 CITED/UNVERIFIED grade B1198 carried is paid -- the paper was OBTAINED AND READ on this bench, not cited from an abstract). THREE QUESTIONS ANSWERED FROM THE SOURCE. (Q1) T
+         frontier/B1209_lee_verification
+B1205    NEGATIVE  THE CUBIC CELL RUN -- the cubic exists and is failable, but it cuts ONE dimension of THREE, and the missing ingredient is the LINEAR cuts, whose absence the record has already PROVED. WHAT RAN: B1204 prescribed a failabl
+         frontier/B1205_the_dimension_ledger
+B1204    PROVED    THE SHAPE OF A FORCING THEOREM, read off the record's own successful forcings. The owner asked whether prior symmetry BREAKINGS supply the insight/mechanism/principle for the value arm's missing forcing theorem; they do,
+         frontier/B1204_forcing_shape
+B1203    NEGATIVE  TWO PROBES, BOTH NEGATIVE FOR THE PROPOSER. PROBE 1 -- c-EQUIVARIANCE AS A FORCING FILTER, REFUTED WITH A CUT OF EXACTLY ZERO: my own proposal (that requiring c-equivariance could cut MENU-1's 11,720-value menu before lo
+         frontier/B1203_two_probes
+B1202    PROVED    THE ALREADY-BANKED CHECK -- the finished-but-forgotten class gets an INSTRUMENT, not a promise. THE FAILURE, FOUR TIMES, ALWAYS THE SAME SHAPE: a REGISTER row said open while the CORPUS already held the proof -- 'QP-1 (t
+         frontier/B1202_already_banked_check
+B1197    PROVED    THE CLOCK-COHERENCE RUN (route B4, the D2 gate; executed the moment 5A returned): SPLIT VERDICT -- the named primary test PASSES and the full census check FAILS, so neither declared outcome fires cleanly and D2 sharpens 
+         frontier/B1197_clock_coherence
+B1195    PROVED    CLOSE-LOOP BATCH 5A (the five highest-leverage closes, merged with cloud's routes at their 9915068b): (1) SEAM-A's CS=0 DOOR SHARPENED (lens-scoped) -- the object's b=1 partition function factorizes as Z = (omega/sqrt-3)
+         frontier/B1195_close_loop_batch5a
+B1193    PROVED    THE TWO CAMPAIGNS RECONCILED: the owner's grand-computation directive ran through both seats blind and the independent runs CONVERGE where it matters (lambda = THE residue per both seats -- the day's strongest cross-seat
+         frontier/B1193_two_campaigns_reconciled
+B1191    PROVED    THE CLOSE-LOOP BATCH 3 -- THE GRAND COMPUTATION v0 LANDS (docs/GRAND_COMPUTATION_v0.md): the universe in the object's own units, six sections (arena+clock in ticks of the one generator A1=RL / the meter with the whole 11
+         frontier/B1191_close_loop_batch3
+B1186    PROVED    THE FAMILY-DEFINITION CELL CLOSED (harvests cc3 B8152, verify-don't-trust, with a ONE-MEMBER CORRECTION): the two criteria are STRICTLY NESTED -- (A) all-regular-ideal, |A| = 77, inside (B) shape field in Q(sqrt-3) -- an
+         frontier/B1186_family_is_112
+B1184    PROVED    THE QUINE SYNTHESIS -- SELF-NAMING WITHOUT SELF-SIGNING (the S4 rung dispositioned; the observer layer's four-rung table closes). THE CORRECTION FIRST: the register carried 'QP-1 (the quine) open' -- STALE: QP-1 was RUN 
+         frontier/B1184_quine_synthesis
+B1183    PROVED    THE ONE-CLASS THEOREM (cell 2 of the remaining-math queue; B1174's hatch 1; B1169's S1 last rung). THE THEOREM: the QP-4 no-self-closure obstruction (B760: no object-native operation canonically signs the chord/theta-odd
+         frontier/B1183_one_class_theorem
+B1165    NEGATIVE  THE TERMINAL GRAVITY PROBE (sec-E), owner-directed to a typed close. THE FIREWALL VERDICT = GENERIC-RHYME: the observer's archimedean closing is CO-LOCATED with the object's gravitational sector at the infinity-place, NO
+         frontier/B1165_gravity_terminal
+B1153    PROVED    THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS: cloud memos 54-55 (origin/outside-bench 0c7f8b5a) verified by REPRODUCTION -- both self-contained certs re-run on this bench's pyenv exit rc=0 (every claim a preregiste
+         frontier/B1153_peripheral_and_superposition
+B1151    NEGATIVE  THE LARGE-T GUE TEST (C4, the cloud's preregistered cell c4_gue_larget.py run on our i9 at T=3000, 5459 merged zeros): the preregistered single-GUE gate is NOT MET -- GUE-consistent required p_GUE>0.01 but KS vs the GUE 
+         frontier/B1151_gue_larget_superposition
+B1150    PROVED    THE YUKAWA READS THE CLOCK + THE THREE-FAMILY YUKAWA: cloud memos 52-53 (origin/outside-bench 981f4c33) verified by REPRODUCTION -- both self-contained stdlib-exact certs re-run on this bench's pyenv exit rc=0 (every cla
+         frontier/B1150_yukawa_clock_and_family
+B1149    PROVED    THE MERIDIAN & LONGITUDE HARVEST: cloud memos 49-51 (origin/outside-bench 1544989d) verified by REPRODUCTION -- all 3 self-contained stdlib-exact certs re-run on this bench's pyenv exit rc=0 (every claim a preregistered 
+         frontier/B1149_meridian_longitude_harvest
+B1142    NEGATIVE  LANE C (the value campaign's GUE spectral down-payment, re-derived TWO-BENCH on this bench with own code -- mpmath+scipy, nothing imported): the object's cusp/scattering spectrum is GUE-distributed but GENERIC (it discri
+         frontier/B1142_lane_c_cusp_spectrum
+B1139    PROVED    THE SYMMETRY-POINT TABLE (cloud memos 23 WEINBERG_POINT + 24 SM_TABLE, golden_gate 577712f; verified TWO-BENCH, own code, no discrepancy) -- the value-completing campaign's Lane A, honestly typed. (1) THE EW TABLE = ONE 
+         frontier/B1139_symmetry_point_table
+B1136    PROVED    THE GENERICITY CONTROL TURNED ON THE OBJECT'S OWN WINS (cc3's B8128, owner-elected; verified TWO-BENCH via an independent SnapPy census on this bench): over the shape-field family = the 14 orientable cusped census manifo
+         frontier/B1136_genericity_on_the_wins
+B1129    PROVED    P-NATURALVALUES (value-probing wave, the 'all-around' cell; sealed prereg): are the object's OWN natural invariants physical, or disjoint from the SM too? NATURAL-VALUES-DISJOINT. 22 of 23 object-invariants (Vol, Mahler/
+         frontier/B1129_natural_values_disjoint
+B1125    PROVED    V-2 COMPACT COLOR (value-campaign cell, answering C-AR1): does any sign-lift give COMPACT su(3) color? NO over the LINEAR torsor, and the negative names its own successor. Exhaustive over 48 verified elements (2 Chevalle
+         frontier/B1125_compact_color
+B1122    PROVED    L179 THE LIFT-BIT METER (a thesis cell, clean NEGATIVE): does the t-meter mechanism (free-of-one = forced-of-pair, B1113) extend to the spin lift bit (B1112)? PAIR-INVISIBLE -- NO. The lift's entire content is the sign o
+         frontier/B1122_liftbit_meter
+B1119    PROVED    THE ANOMALY RESOLVED (ANOMALY_RESOLVED.md, 8th memo; paired with B1118): B1118's first real-form run gave an impossible character -10 (no E6 real form carries it); root cause = a FAKE INVARIANT FORM (the +1 form is tau-i
+         frontier/B1119_anomaly_resolved

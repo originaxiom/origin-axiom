@@ -22,7 +22,11 @@ REDTEAM_VERDICTS = {
 N_REFUTED = 0
 N_FIREWALL_LEAKS = 0
 EXTENDED_CHECKS = {
-    "B288_arithmetic_up_to_12": 0,      # imaginary-quadratic closings in 174 hyperbolic fillings |p|,|q|<=12
+    # RENAMED 2026-09-17 (S15, B1422). This key was "B288_arithmetic_up_to_12" and its zero was read as
+    # "still 0 arithmetic at grid 12". RETRACTED (E82/B1419): the test is the CUSPED criterion, which cannot
+    # fail on a closed manifold, so extending the grid amplified a vacuous zero rather than confirming anything.
+    # What the number correctly counts is imaginary-quadratic invariant trace fields, of which there are none.
+    "B288_imaginary_quadratic_up_to_12": 0,   # 174 hyperbolic fillings |p|,|q|<=12; NOT an arithmeticity count
     "B291_min_volume_slope": (5, 1),    # global min over |p|,|q|<=12 (unchanged from the |p|,|q|<=8 grid)
 }
 CAVEATS_FOLDED = ["B287 homology-forced uniqueness", "B290 m004-specific real coefficient",
@@ -47,7 +51,7 @@ DERIVES_SM_VALUES = False                              # firewall
 def verdict():
     redteam_ok = (all(v == "SURVIVES" for v in REDTEAM_VERDICTS.values())
                   and N_REFUTED == 0 and N_FIREWALL_LEAKS == 0
-                  and EXTENDED_CHECKS["B288_arithmetic_up_to_12"] == 0
+                  and EXTENDED_CHECKS["B288_imaginary_quadratic_up_to_12"] == 0
                   and EXTENDED_CHECKS["B291_min_volume_slope"] == (5, 1))
     novelty_ok = (NOVELTY["claim1_distinguished_closing"] == "KNOWN"
                   and NOVELTY["claim2_arithmeticity_lost"] == "KNOWN"

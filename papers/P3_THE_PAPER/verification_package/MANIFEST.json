@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-09-17T08:34:37Z",
+ "built": "2026-09-17T09:15:46Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,7 +9,7 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "dcd53824"
+  "git_head": "8d9fc19f"
  },
  "claims": [
   {
@@ -2027,6 +2027,50 @@
    ]
   },
   {
+   "claim": "a conditional uniqueness theorem for the genesis matrix, machine-checked: six motivated axioms of a minimal record-transfer system force the persistent sector to LR (144 candidates to one), leaving exactly one inserted bit -- the LR vs RL order, which is what selects the golden polynomial; the axioms are NOT derived from anything weaker and the result is labelled conditional",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1323",
+     "dir": "frontier/B1323_the_genesis_upgrades",
+     "verdict": "PROVED",
+     "claim_one_line": "THE GENESIS UPGRADES (DESIGN sealed 3e8282a2 before any computation). FORK F9, the substrate count, ROBUST on both carriers: on the toral carrier every T^3-bundle has chi = 0 and no finite-volume hyperbolic 4-manifold does (Gauss-Bonnet-Chern), and the minimal-trace mixed closure E12.E31.E23 (trace ",
+     "seals": [
+      {
+       "seal_file": "frontier/B1323_the_genesis_upgrades/DESIGN.sha256",
+       "sealed_file": "frontier/B1323_the_genesis_upgrades/DESIGN.md",
+       "recorded": [
+        "3e8282a20ef2bd4d2af35f3d392ab3010e53287479a8d94ca57bfc1cf9749850  DESIGN.md"
+       ],
+       "current_sha256": "3e8282a20ef2bd4d2af35f3d392ab3010e53287479a8d94ca57bfc1cf9749850",
+       "matches": true
+      }
+     ],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1323_the_genesis_upgrades/verification/u1_substrate_count.py",
+      "frontier/B1323_the_genesis_upgrades/verification/u2_criterion_census.py",
+      "frontier/B1323_the_genesis_upgrades/verification/u3_dictionary.py"
+     ],
+     "results": [
+      "frontier/B1323_the_genesis_upgrades/verification/rule_lines.txt",
+      "frontier/B1323_the_genesis_upgrades/verification/u1_substrate_count.json",
+      "frontier/B1323_the_genesis_upgrades/verification/u1_substrate_count.out",
+      "frontier/B1323_the_genesis_upgrades/verification/u2_criterion_census.json",
+      "frontier/B1323_the_genesis_upgrades/verification/u2_criterion_census.out",
+      "frontier/B1323_the_genesis_upgrades/verification/u3_dictionary.json",
+      "frontier/B1323_the_genesis_upgrades/verification/u3_dictionary.out"
+     ],
+     "locks": [
+      "tests/test_b1323_the_genesis_upgrades.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1323_the_genesis_upgrades.py"
+     ]
+    }
+   ]
+  },
+  {
    "claim": "the pair class 2 - kappa mod squares is mirror-EVEN, so it cannot be the orientation bit; the earlier identification is refuted and what survives is a relational Z/2 datum with the object supplying its own partner",
    "support": "settled",
    "records": [
@@ -2264,7 +2308,9 @@
      ],
      "locks": [
       "tests/test_b1419_arithmetic_fillings.py",
-      "tests/test_b288_arithmetic_filling_census.py"
+      "tests/test_b288_arithmetic_filling_census.py",
+      "tests/test_b291_scale_extremal.py",
+      "tests/test_b296_seam_arc_verification.py"
      ],
      "primary_locks": [
       "tests/test_b1419_arithmetic_fillings.py"
@@ -2624,7 +2670,9 @@
      ],
      "locks": [
       "tests/test_b1419_arithmetic_fillings.py",
-      "tests/test_b288_arithmetic_filling_census.py"
+      "tests/test_b288_arithmetic_filling_census.py",
+      "tests/test_b291_scale_extremal.py",
+      "tests/test_b296_seam_arc_verification.py"
      ],
      "primary_locks": [
       "tests/test_b1419_arithmetic_fillings.py"
@@ -2656,10 +2704,10 @@
   }
  ],
  "totals": {
-  "claims": 65,
-  "records": 92,
-  "seals": 20,
+  "claims": 66,
+  "records": 93,
+  "seals": 21,
   "locks": 133,
-  "records_with_a_primary_lock": 91
+  "records_with_a_primary_lock": 92
  }
 }

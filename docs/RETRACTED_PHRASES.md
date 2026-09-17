@@ -148,3 +148,16 @@ the θ-even Cartan** with gauge group its E₆-centralizer (which is not inside 
 | 11 | `all 83 members` (also registered by main on 2026-09-09 as the paper's instance, E53 #30: the paper's `.tex` sat outside the sweep; folded here at the 2026-09-15 merge) | **B1235** | Same retraction, as the paper actually worded it (`all $83$ members ... are amphichiral`). Registered separately because the sweep matches phrases, and the paper's wording is not the record's. |
 
 **Currency (verified 2026-09-15, through B1410, at the consolidation merge).** The window B1325–B1410 (the paper-verification lane) and memos 185–233 (the outside bench) merged into main. Retractions in it, read from their own records: **B1410 Addendum 1** withdrew its own headline ("H5's falsifier costs one owed definition" — B871 had paid it six weeks earlier; the P1 verdict is unchanged, only the blocker's name moved); **B1346 §6** refuted a document seat's "nesting theorem" (never banked on main, no phrase owed); **B1345's F6 refutation was WITHDRAWN** (E58: graded from a paraphrase); **B1332's** "I = 0 follows from isotropy alone" was corrected in its own addenda (isotropy of both V and V* is needed); the document seats' withdrawals (chat1's seven; chat-2's P10 rows) were never banked. No new live-claim phrase is owed a row beyond row 11. The sweep reads every tracked `.tex` since B1326 and is clean over the merged corpus.
+
+## 2026-09-17 (S15/B1422) — E82: the arithmeticity of the object's Dehn fillings
+
+The retraction landed in B1419 (2026-09-16) and corrected B288, B740, the theorem ledger and the paper, but was never
+registered here — so `scripts/checks/retraction_sweep.py`, which reads only this file, could not fire on the four
+surfaces that still carried it. Registered now.
+
+| retracted phrase | why | the current statement |
+|---|---|---|
+| "no closed hyperbolic filling of m004 is arithmetic" | tested the **cusped** criterion (imaginary quadratic invariant trace field) on **closed** manifolds, where it cannot fail (E82) | six of the 78 fillings in the grid are arithmetic: m004(±5,1) (the Meyerhoff manifold, x⁴−x−1, disc −283), m004(±6,1), m004(±8,1) |
+| "the min-volume closing is non-arithmetic" | same defect, B291/B294/B296 | the min-volume closing **is** arithmetic; what it does not do is keep ℚ(√−3) |
+| "174 closings, still 0 arithmetic" | B296 extended the unfailable test to a larger grid and read the guaranteed zero as confirmation | 0 of 174 have an **imaginary quadratic** invariant trace field, which is a different and true statement |
+

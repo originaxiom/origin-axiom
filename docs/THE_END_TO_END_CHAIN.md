@@ -87,6 +87,16 @@ census makes only the first.)
 ---
 
 ## PART I — THE GENESIS: FROM "NOTHING" TO A KNOT
+
+> **The second axiomatisation, which this document did not cite until 2026-09-17 (S15).** `docs/UNIQUENESS_THEOREM.md`
+> (banked 2026-05-28, nine days into the repo; lock `tests/test_uniqueness_theorem.py`, 9 green) proves
+> **A1–A6 ⟹ A = LR = [[2,1],[1,1]]**, machine-checked 144 → 1, leaving exactly **one** inserted bit: the order
+> `LR` vs `RL` (A7), which is what selects the golden polynomial. B1323's dictionary lemma (`u3_dictionary.py`, PASS)
+> machine-checks that **C1–C5 below and A1–A6 are one construction**. Its own §6 limit stands verbatim: it does **not**
+> derive A1–A7 from anything weaker — the attempt to derive even L, R from a count-substrate stalled, "the substrate,
+> positivity, primitivity, and order remained inserted" — and the two routes are **not independent**, since A1's ℤ² is
+> the punctured torus's H₁. State it as agreement, never as two independent derivations. The paper carries this
+> (§What is unique); this document now does too.
 *(THE CHAIN C1–C6; locks `tests/test_b749_genesis_forks.py`, `test_b285_*`)*
 
 **The first constraint.** *Nothing has no description.* Not a state, not a

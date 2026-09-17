@@ -43,7 +43,16 @@ notes, the `V`-ledger, `src/` — **never cites the other direction.** If a moti
 
 The proven mathematics (the tower, degree=rank, the plethysm, P1–P16) stands **without a word** of `philosophy/`,
 `speculations/`, or `story/`. The **ρ_n catalog proof** is the central math target. The **physics chapter is
-CLOSED**. The two lines never crossed: **numerology** and **tower-eigenvalues = masses**. Bravery is preserved —
+CLOSED**.
+
+> **Two corrections to the sentences above (2026-09-17, S15).** *(i)* Three of the four items named "proven" are
+> narrower than the label: **degree=rank** was **REFUTED** at SL(5) (B90, `docs/RETRACTIONS.md`; it holds at n = 3, 4),
+> the **plethysm** is open for non-metallic N at n ≥ 3 (B94), and the **tower**'s all-n form is a *conjecture*
+> (B89T: "the module-iso derivation is open — the Procesi problem"; n ≤ 4 proved, n ≥ 5 structural). **P1–P16 stands.**
+> *(ii)* **"The physics chapter is CLOSED"** is B82/V65's verdict and is scoped to the routes B82 tested (the
+> SL(n)-tower bridges), not to the repository. `GOVERNANCE.md` §2 was amended with the owner's approval on
+> 2026-08-25 to "derives the form of Standard-Model structure", and `papers/P3_THE_PAPER/` runs a different route.
+> See the dated row in `docs/RETRACTIONS.md`. The two lines never crossed: **numerology** and **tower-eigenvalues = masses**. Bravery is preserved —
 it lives in a labeled, versioned room (`speculations/`) with an honest door.
 
 See: `speculations/GOVERNANCE.md`, `philosophy/GOVERNANCE.md`, `story/GOVERNANCE.md`, `GOVERNANCE.md` (root).
