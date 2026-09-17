@@ -3,6 +3,7 @@
 \usepackage{amsmath,amssymb,amsthm,mathtools}
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
+\usepackage{array}
 \usepackage{booktabs}
 \usepackage{enumitem}
 \usepackage{longtable}
@@ -323,28 +324,25 @@ wants to know how hard each was pushed should take the forks.
   \draw[black!45] (5.5,-2.6) rectangle (17.5,2.6);
   % the chain
   \draw[thick] (0.6,0) -- (57.4,0);
-  \foreach \i in {1,...,56} \draw[black!55] (\i,-1.15) -- (\i,1.15);
+  \foreach \i in {1,...,57} \draw[black!55] (\i,-1.15) -- (\i,1.15);
   % the four axioms
   \foreach \i in {3,4,5,18} {
     \draw[very thick] (\i,-2.15) -- (\i,2.15);
     \fill (\i,0) circle (0.62mm);
   }
-  \node[font=\scriptsize] at (4,5.4) {axioms 1--3};
-  \node[font=\scriptsize] at (4,3.6) {\emph{before the object}};
-  \node[font=\scriptsize] at (18,5.4) {axiom 4};
-  \node[font=\scriptsize] at (19.5,3.6) {\emph{the observer}};
-  \node[font=\scriptsize] at (11.5,-6.6) {\textbf{twelve links, no declared choice}};
-  \node[font=\scriptsize] at (11.5,-8.6) {object $\longrightarrow$ algebra};
+  \node[font=\scriptsize,align=center] at (4,5.6) {axioms 1--3\\ \emph{before the object}};
+  \node[font=\scriptsize,align=center] at (19,5.6) {axiom 4\\ \emph{the observer}};
+  \node[font=\scriptsize,align=center] at (11.5,-7.4) {\textbf{twelve links, no declared choice}\\ object $\longrightarrow$ algebra};
   \node[font=\scriptsize] at (0.6,-3.6) {$C_1$};
   \node[font=\scriptsize] at (57.4,-3.6) {$C_{57}$};
-  \node[font=\scriptsize,align=center] at (41,5.0) {the Standard-Model-facing structure,\\ the crossing's no-go, and the chirality bit (\S\ref{sec:chirality})};
+  \node[font=\scriptsize,align=center] at (41,5.6) {the Standard-Model-facing structure,\\ the crossing's no-go, and the chirality bit (\S\ref{sec:chirality})};
 \end{tikzpicture}
 \caption{\small The chain's fifty-seven links in the table's order, with each of the four axioms marked. The order is the
 record's banking order and not a dependency order, so the \emph{position} of an axiom is not a claim about the derivation; what
 is order-independent is the count --- four undischarged inputs --- and the typing of each link, and in particular that the
 shaded stretch, links $6$--$17$ --- the manifold's own structure --- contains no declared choice at all; the algebra is
 handed over by McKay, and the measurement links follow the observer's axiom in numbering, not in dependence.
-Fifty-two links are forced. The crossing's no-go sits where it fell, and the chain now runs past it to the
+Fifty-three links are forced. The crossing's no-go sits where it fell, and the chain now runs past it to the
 chirality bit.}
 \label{fig:chain}
 \end{figure}
@@ -1390,10 +1388,9 @@ assumptions made
 our own accounting grades fragile. A reader who accepts nothing else should be able to audit these
 two tables together.
 
-\begingroup\small
+\begingroup\footnotesize
 \setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
-\begin{longtable}{@{}
-llp{7.4cm}@{}}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.2cm}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{8.4cm}@{}}
 \toprule
 \textbf{Input} & \textbf{Type} & \textbf{Status} \\
 \midrule
