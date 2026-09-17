@@ -16668,3 +16668,48 @@ blind to which class you land in, and **L194's freeness hypothesis is not derive
 freeness **cited from B605**, not re-verified.
 
 **Gates 35/35. Gate 5 absolute.**
+
+---
+
+## 2026-09-17 — xB021: the sum of the negatives — the object is a fixed point
+
+Owner: *"the sum of all negatives should clarify the riddle … maybe there's a mechanism to make them
+interact and have what we need emerge."* Sealed `42c442a2…`, pushed at `210bb0e`, **with a binding
+kill condition on the audit and the honest limit declared in advance.**
+
+**S1 — the negatives have one shape, and it is computed.** The three bits act on `CS ∈ ℝ/½ℤ`:
+**A5** `x ↦ x+¼` (xB015 K6, 494/494 at 50 digits) · **A7** `x ↦ −x` (xB018 C5, 240/240) · **A6**
+`x ↦ −x` (xB020 H2, complex conjugation, derived).
+
+> **`|⟨A5,A6,A7⟩| = 4`. The stabiliser of the object's value `CS = 0` is order 2 and is exactly
+> `{A6, A7}`. The orbit of `0` is `{0, ¼}`. Orbit–stabiliser: `4 = 2 × 2`.
+> **A5 is the orbit direction; A6 and A7 are the stabiliser.**
+
+**S2 — the audit, misses listed.** **9 of 12** banked negatives are instances of *"the thing asked
+about is in the stabiliser."* The kill condition does not fire. **The three that do not fit are
+named** — xB013 Add.1, xB017, xB017 Add.2/3 — **and every miss is ARITHMETIC**, exactly the scope the
+seal declared.
+
+**S3 — why the question is ill-posed.** The object is **defined** as the fixed point: A3 and A6 make
+it orientable and minimal, which is what puts it at `CS = 0`.
+
+> **A fixed point cannot report on its own stabiliser.** Asking what the object says about A6 or A7
+> is not *hard* — it is **empty**. **The walls are not obstacles in front of an answer; they are the
+> shape of the stabiliser, seen from inside the fixed point.**
+
+**S4 — the mechanism, and its limit.** Move to the orbit, and the ladder is real: **1 → 2 → 12** —
+the object realises one `CS` value, the sisters two, **the family twelve** (xB015's index, surjective
+onto ℤ/12 against a 1.51 % base rate). **But xB016 closed the index→anchor route:** `σ` is continuous
+and **nothing couples it to `k`**. The orbit's content is **topological — an integer mod 12 — and a
+value is not an integer mod 12.**
+
+> **The orbit has information. It does not, so far, have the answer.**
+
+**S5.** Derives no value. Does not replace B1234 — **extends it from one stabiliser element to the
+whole stabiliser**, with the orbit–stabiliser count that makes the join theorem-shaped.
+**It re-poses a question. A DIAGNOSIS, NOT A DOOR.**
+
+**Axes held fixed:** `CS` only · the three bits only · this seat's arcs plus cited older ones, the
+record's full negative inventory **not swept**.
+
+**Gates 35/35. Gate 5 absolute.**

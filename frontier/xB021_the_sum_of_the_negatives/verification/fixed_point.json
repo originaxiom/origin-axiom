@@ -1,0 +1,50 @@
+{
+ "S1": {
+  "order": 4,
+  "stabiliser": [
+   "(-1, Fraction(0, 1))",
+   "(1, Fraction(0, 1))"
+  ],
+  "orbit": [
+   "0",
+   "1/4"
+  ]
+ },
+ "S2": {
+  "total": 12,
+  "fits": 9,
+  "does_not_fit": [
+   "xB013 Add.1",
+   "xB017",
+   "xB017 Add.2/3"
+  ],
+  "fraction": 0.75
+ },
+ "S3": {
+  "claim": "a fixed point cannot report on its stabiliser",
+  "covers": "CS-facing questions",
+  "does_not_cover": "arithmetic and non-CS invariants"
+ },
+ "S4": {
+  "ladder": [
+   1,
+   2,
+   12
+  ],
+  "orbit_carries_information": true,
+  "orbit_supplies_sigma": false,
+  "limit": "an index is topological; xB016 closed the index->anchor route"
+ },
+ "S5": {
+  "derives_value": false,
+  "replaces_B1234": false,
+  "re_poses": true
+ },
+ "S6": {
+  "axes_fixed": [
+   "CS only",
+   "three bits only",
+   "this seat's arcs + cited"
+  ]
+ }
+}

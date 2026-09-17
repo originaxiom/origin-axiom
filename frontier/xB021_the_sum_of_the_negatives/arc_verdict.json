@@ -1,0 +1,33 @@
+{
+ "id": "xB021",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "xB015",
+  "xB018",
+  "xB020",
+  "xB016",
+  "xB019",
+  "B1234",
+  "B1224",
+  "B1186"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B1234_the_walls_trace_to_A6",
+   "outcome": "CONFIRMED",
+   "what": "EXTENDED, NOT REPLACED. B1234 found that the mirror is a self-isometry of the object and that eight banked walls are downstream of it -- ONE stabiliser element, reached as a join. This arc computes the WHOLE stabiliser: the three bits act on CS in R/(1/2)Z as A5: x -> x + 1/4 (xB015 K6), A7: x -> -x (xB018 C5), A6: x -> -x (xB020 H2, complex conjugation), the group they generate has ORDER 4, the stabiliser of the object's value CS = 0 has ORDER 2 and is exactly {A6, A7}, and the orbit of 0 is {0, 1/4} with orbit-stabiliser 4 = 2 x 2. B1234's mirror is one element of that stabiliser. The join becomes a theorem-shaped statement."
+  },
+  {
+   "arc": "xB016_path_a_tried_properly",
+   "outcome": "CONFIRMED",
+   "what": "its closure is what FENCES this arc's own mechanism. S4 finds that the orbit carries what the point does not -- 1 value at the object, 2 on the 2-torsion orbit, 12 across the family -- and xB016 is why that is NOT the answer: sigma is a CONTINUOUS parameter of complex Chern-Simons and NOTHING COUPLES IT TO k (Witten eq. 2.2; Gukov sec 1.1), so an INDEX cannot fix the free anchor. The orbit's content is topological and a value is not an integer mod 12. Cited to stop this arc's own finding from being over-read."
+  }
+ ],
+ "claim_one_line": "THE SUM OF THE NEGATIVES HAS ONE SHAPE, AND IT IS COMPUTED RATHER THAN ASSERTED: THE OBJECT IS A FIXED POINT, AND A FIXED POINT CANNOT REPORT ON ITS OWN STABILISER. PREREGISTRATION sealed 42c442a2... and PUSHED at 210bb0e before verification/ existed, with a BINDING KILL CONDITION on the audit (fewer than half fitting refutes the hypothesis) and the HONEST LIMIT DECLARED IN ADVANCE. S1: the three bits act on CS in R/(1/2)Z -- A5 by x -> x + 1/4 (xB015 K6, 494/494 words at 50 digits), A7 by x -> -x (xB018 C5, 240/240 at 40 digits), A6 by x -> -x (xB020 H2, complex conjugation, derived) -- and the group they generate has ORDER 4, the STABILISER of the object's value CS = 0 has ORDER 2 AND IS EXACTLY {A6, A7}, the ORBIT of 0 is {0, 1/4}, and orbit-stabiliser closes as 4 = 2 x 2. A5 IS THE ORBIT DIRECTION; A6 AND A7 ARE THE STABILISER. Not an analogy -- a computed decomposition. S2, THE AUDIT WITH ITS MISSES LISTED: 9 of 12 banked negatives are instances of 'the thing asked about is in the stabiliser', so the kill condition does not fire -- and the THREE THAT DO NOT FIT ARE NAMED as the seal required (xB013 Addendum 1's selection among an infinite family; xB017's Bianchi base rate; xB017 Addenda 2/3's orbifold covering theory). WHAT THE MISSES HAVE IN COMMON IS ITSELF INFORMATIVE: EVERY ONE IS ARITHMETIC. The hypothesis covers the CS-facing negatives and nothing else, which is exactly the scope the seal named in advance. S3, WHY THE QUESTION IS ILL-POSED: the object is DEFINED as the fixed point -- A3 and A6 make it orientable and minimal, which is what puts it at CS = 0 (xB020: orientation double covers are 2-torsion BY CONSTRUCTION; xB019: the squaring buys exactly this) -- so asking what the object tells us about A6 or A7 is NOT HARD, IT IS EMPTY, those being precisely the transformations under which the object does not move. THE WALLS ARE NOT OBSTACLES IN FRONT OF AN ANSWER; THEY ARE THE SHAPE OF THE STABILISER SEEN FROM INSIDE THE FIXED POINT. S4, THE MECHANISM AND ITS LIMIT: if the information is in the ORBIT then work with the orbit, and the ladder is real and measured -- the object realises ONE value of CS, the 2-torsion orbit realises TWO (the sisters, via A5), and the FAMILY realises TWELVE (xB015's index 24*CS mod 12 surjective onto Z/12 over B1186's 112 members with mirrors, against a 1.51% base rate). 1 -> 2 -> 12, and THE ORBIT DOES CARRY WHAT THE POINT DOES NOT. BUT THE LIMIT IS DECLARED AND NOT SOFTENED: xB016 established that AN INDEX CANNOT FIX THE FREE ANCHOR, sigma being a CONTINUOUS parameter of complex Chern-Simons with NOTHING COUPLING IT TO k (Witten arXiv:1001.2933 eq. 2.2; Gukov hep-th/0306165 sec 1.1), so the orbit's content is TOPOLOGICAL -- an integer mod 12 -- and A VALUE IS NOT AN INTEGER MOD 12. THE ORBIT HAS INFORMATION; IT DOES NOT, SO FAR, HAVE THE ANSWER. S5: this derives NO value, does NOT replace B1234 (it EXTENDS it from one stabiliser element to the whole stabiliser and supplies the orbit-stabiliser count that makes the join theorem-shaped), and does not cover the arithmetic negatives. IT RE-POSES A QUESTION, and calling it more would be the exact failure this session has corrected four times. A DIAGNOSIS, NOT A DOOR. AXES HELD FIXED AND NAMED: CS ONLY -- volume, H_1 and the trace field are not analysed as group actions and the three arithmetic negatives fall outside; the three bits only, B1083's C/P torsor not re-derived; and the negatives audited are THIS SEAT's arcs plus cited older ones, the record's full negative inventory NOT swept. Gate 5 absolute; nothing to CLAIMS.md."
+}

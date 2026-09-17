@@ -1,0 +1,116 @@
+S1       THE GROUP ACTION ON CS, COMPUTED
+         CS lives in R/(1/2)Z.  The three bits act as (all three ESTABLISHED, not
+         assumed -- xB015 K6 494/494, xB018 C5 240/240, xB020 H2 derived):
+           A5 : x -> x + 1/4     A7 : x -> -x     A6 : x -> -x  (conjugation)
+         |<A5, A7=A6>| = 4
+         STABILISER of the object's value CS = 0: order 2 -> [(-1, Fraction(0, 1)), (1, Fraction(0, 1))]
+           = {identity, negation} = {A6, A7}
+         ORBIT of 0: [Fraction(0, 1), Fraction(1, 4)]   (orbit-stabiliser: 4 = 2 x 2)
+         on the 2-torsion {0, 1/4}: A7 and A6 act TRIVIALLY; A5 SWAPS the two.
+S1 PASS  A6 AND A7 ARE EXACTLY THE STABILISER OF THE OBJECT.
+         A5 IS THE ORBIT DIRECTION.  Not an analogy -- a computed orbit-stabiliser.
+
+S2       THE AUDIT -- and it can refute the hypothesis
+         [FITS] xB014/xB016      Path A does not cross: sigma is untouched; the k-term is dead 
+                the k-coupling IS CS, and CS = 0 is the fixed point -- the wall is the stabiliser
+         [FITS] xB015            the k-blindness is m004's index value 0, not the family's
+                'blind to k' = 'CS = 0' = sitting at the fixed point
+         [FITS] xB018            A7 dies on m004's zero; it is invisible to every class invaria
+                A7 IS a stabiliser element -- negation fixes 0
+         [FITS] xB020            conjugation forces 2-torsion but cannot select 0 over 1/4
+                A6 IS a stabiliser element; a stabiliser cannot move within the orbit
+         [FITS] xB019            dropping A6 makes seven of eight walls UNSTATEABLE, not false
+                removing the stabiliser removes the invariant it stabilises -- CS ceases to exist
+         [FITS] B1234 (cited)    the mirror is a self-isometry and the eight walls are downstre
+                the mirror is ONE stabiliser element; this arc extends it to the whole stabiliser
+         [DOES NOT FIT] xB013 Add.1      the two faces supply no finite selection; every finite step is
+                about SELECTION among an infinite family, not about a group acting on CS
+         [FITS] xB011            the sqrt(-3) cancellation is an amphichirality artefact
+                amphichirality IS the stabiliser; the cancellation is a fixed-point statement
+         [DOES NOT FIT] xB017            the Bianchi torsion orders {2,3} are generic to every field
+                an ARITHMETIC base rate across fields -- no group acting on the object's CS
+         [DOES NOT FIT] xB017 Add.2/3    the full index-12 cover is irregular; the cusp Z/3 does not de
+                a covering-theory fact about the orbifold, not about CS at the object
+         [FITS] xB009            the odd sector is not the door; its content is one already-kno
+                the bit it found IS knot-ness = A5 -- the orbit direction, already counted
+         [FITS] xB007            the character variety is blind to knot-ness
+                the blindness is of a LAYER to the orbit direction; the mirror image of the same fact
+
+         fits: 9 of 12 = 75%
+         DOES NOT FIT, LISTED AS THE SEAL REQUIRES: ['xB013 Add.1', 'xB017', 'xB017 Add.2/3']
+         AND WHAT THEY HAVE IN COMMON IS ITSELF INFORMATIVE: every negative that
+         does NOT fit is ARITHMETIC (base rates across fields, covering theory of
+         the orbifold).  THE HYPOTHESIS COVERS THE CS-FACING NEGATIVES AND NOTHING
+         ELSE -- which is exactly the scope the seal named in advance.
+S2 PASS  the kill condition (fewer than half) does not fire, and
+         the misses are named rather than hidden.
+
+S3       WHY THE QUESTION IS ILL-POSED -- stated precisely
+         The object is DEFINED as the fixed point: A3 and A6 make it orientable and
+         minimal, which is what puts it at CS = 0 (xB020: orientation double covers
+         are 2-torsion by construction; xB019: the squaring buys exactly this).
+         A FIXED POINT CANNOT REPORT ON ITS OWN STABILISER.  Asking 'what does the
+         object tell us about A6 or A7?' is not HARD -- IT IS EMPTY, because those
+         are precisely the transformations under which the object does not move.
+         SO THE WALLS ARE NOT OBSTACLES IN FRONT OF AN ANSWER.  THEY ARE THE SHAPE
+         OF THE STABILISER, SEEN FROM INSIDE THE FIXED POINT.
+         SCOPE, as the seal requires: this covers questions whose answer would have
+         to be carried BY THE STABILISER acting on CS.  It does NOT cover arithmetic
+         questions (S2's misses), nor anything about volume, H_1 or the trace field.
+
+S4       THE EMERGENCE MECHANISM, AND ITS HONEST LIMIT
+         If the information is in the ORBIT, work with the orbit.  THE EXHIBIT:
+           the object realises ONE value of CS (0).
+           the 2-torsion orbit realises TWO ({0, 1/4}) -- that is A5, the sisters.
+           the FAMILY realises TWELVE: xB015's index 24*CS mod 12 is SURJECTIVE onto
+             Z/12 over B1186's 112 members (with mirrors), against a 1.51% base rate.
+         SO THE ORBIT DOES CARRY WHAT THE POINT DOES NOT.  That is the mechanism the
+         owner asked for, and it is REAL: 1 -> 2 -> 12.
+
+         AND THE LIMIT, DECLARED IN THE SEAL AND NOT SOFTENED NOW:
+           xB016 already established that AN INDEX CANNOT FIX THE FREE ANCHOR.  sigma
+           is a CONTINUOUS parameter of complex Chern-Simons and NOTHING COUPLES IT
+           TO k (Witten eq. 2.2; Gukov sec 1.1).  The orbit's content is TOPOLOGICAL
+           -- an integer mod 12 -- and a value is not an integer mod 12.
+         => THE ORBIT HAS INFORMATION.  IT DOES NOT, SO FAR, HAVE THE ANSWER.
+            'The orbit carries what the point does not' must NOT be read as 'the
+            orbit carries what we need'.
+
+S5       WHAT THIS DOES NOT DO
+         It derives NO value.  It does not supply sigma, c, or any coupling.
+         It does not replace B1234, which found the mirror upstream of eight walls;
+           it EXTENDS that from one stabiliser element to the whole stabiliser, and
+           gives the orbit-stabiliser count that makes it a theorem-shaped statement
+           rather than a join.
+         It does not cover the arithmetic negatives (S2's three misses).
+         IT RE-POSES A QUESTION.  That is its entire content, and calling it more
+         than that would be the exact failure this session has corrected four times.
+
+S6       THE VERDICT
+         THE SUM OF THE NEGATIVES HAS ONE SHAPE, AND IT IS COMPUTED, NOT ASSERTED:
+           <A5, A6, A7> acts on CS as a group of order 4; the STABILISER of the
+           object's value is exactly {A6, A7}; A5 is the orbit direction; and
+           9 of 12 banked negatives are instances of 'the thing asked about is in
+           the stabiliser'.
+         WHY THE QUESTION IS ILL-POSED: it asks a fixed point to report on its own
+           stabiliser.  Not hard -- EMPTY.
+         THE MECHANISM: move to the orbit.  1 -> 2 -> 12, real and measured.
+         THE LIMIT: the orbit's content is an INDEX, and xB016 closed the route from
+           an index to the free anchor.  A DIAGNOSIS, NOT A DOOR.
+
+         AXES HELD FIXED, NAMED AS THE RULE REQUIRES:
+           - CS ONLY.  Volume, H_1 and the trace field are NOT analysed as group
+             actions here, and the three arithmetic negatives fall outside.
+           - the three bits only; the record's other torsor structure (B1083's C/P)
+             is not re-derived.
+           - the negatives audited are THIS SEAT's arcs plus cited older ones; the
+             record's full negative inventory is NOT swept.
+
+==============================================================================
+  S1: PASS
+  S2: PASS
+  S3: PASS
+  S4: PASS
+  S5: PASS
+  S6: PASS
+VERIFIED

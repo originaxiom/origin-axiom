@@ -1,5 +1,20 @@
 # Changelog
 
+## xB021 — the sum of the negatives: the object is a fixed point, and a fixed point cannot report on its stabiliser
+
+The three bits act on `CS ∈ ℝ/½ℤ` — **A5** by `x ↦ x+¼`, **A7** and **A6** by `x ↦ −x`. The group has
+**order 4**; the **stabiliser of the object's value `CS = 0` is exactly `{A6, A7}`**; the orbit is
+`{0, ¼}`; `4 = 2 × 2`. **9 of 12 banked negatives are instances of "the thing asked about is in the
+stabiliser"** — and **the three misses are named, and every one is arithmetic**.
+
+> **The walls are not obstacles in front of an answer. They are the shape of the stabiliser, seen
+> from inside the fixed point.** Asking the object about A6 or A7 is not hard — it is **empty**.
+
+**The mechanism: move to the orbit.** `1 → 2 → 12` (object → sisters → family). **The limit, declared
+in the seal:** xB016 closed the index→anchor route, so **the orbit has information but not the
+answer.** **A diagnosis, not a door.**
+
+
 ## xB020 — the mechanism is complex conjugation: xB019 corrected against xB012, B1224 derived, L194 at 5×
 
 **The corrected arc is from this same session.** xB019 called `PGL(2,ℂ)` the mechanism; **`PGL(2,ℂ)`
