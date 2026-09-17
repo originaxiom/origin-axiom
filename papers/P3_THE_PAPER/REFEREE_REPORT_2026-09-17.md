@@ -124,9 +124,13 @@ no zero hypercharge.
   isometry m004(p,q) ≅ m004(−p,q) holds for every coprime pair in the grid (re-verified, not assumed);
   and **none of the 78** keeps ℚ(√−3) — nor ℚ(√5) nor ℚ(√−15) — with the open object as a positive
   control. ✔
-- m004(±5,1) is the Meyerhoff manifold (volume 0.981368828892), its invariant trace field is
-  x⁴ − x − 1, and PARI gives **disc = −283**; that quartic has no proper subfield, so it cannot
-  contain ℚ(√−3). The discriminants −59 and −31 attach to (±6,1) and (±8,1) exactly as stated. ✔
+- m004(±5,1) has volume **0.981368828892** — the Meyerhoff manifold's — and the mirror isometry
+  m004(5,1) ≅ m004(−5,1) holds. Of the field data I verified the *arithmetic* directly: PARI gives
+  **disc(x⁴ − x − 1) = −283**, and that quartic has **no proper subfield**, so it cannot contain
+  ℚ(√−3). The *attachment* of x⁴ − x − 1 to this slope, and of the cubics of discriminant −59 and
+  −31 to (±6,1) and (±8,1), I read from the record's tracked census log rather than recomputing
+  (§4.1); my own independent shape-field computation for these three slopes did not finish, and I
+  flag that rather than let the row read as fully re-derived.
 - The symplectic self-duality lemma — `JρJ⁻¹ = (ρ⁻¹)ᵀ` iff `det ρ = 1` — verified symbolically. ✔
 - The "hollow texture" no-go: a 3 × 3 complex symmetric matrix with zero diagonal has
   `σ₁ = σ₂ + σ₃` **exactly**. Verified to machine precision on 20 000 random matrices. This is a
