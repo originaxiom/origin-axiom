@@ -17,7 +17,7 @@
   "I-30",
   "I-29"
  ],
- "total_rows": 30,
+ "total_rows": 31,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -134,6 +134,12 @@
    "row": "I-22",
    "arc": "B1250",
    "reason": "D2 <-> the SO(10) grading of E6. The stabiliser subalgebra of the character is EXHIBITED (40 even roots + 6 Cartan = 46 = so(10)+u(1); complement 32 = 16+16bar) and ACTS -- its orbits on the 27 are computed and give [1,10,16], with the flips exactly the 1+10 and the 16 untouched. Not a dimension match. UNEARNED unchanged by this row."
+  },
+  {
+   "date": "2026-09-17",
+   "row": "I-31",
+   "arc": "xB005",
+   "reason": "the monodromy's order-3 action at the node of the object's leaf kappa = -2 IS 2T/Q8, the outer Z/3 of Q8. The map is exhibited -- the node is the quaternion character rho(a)=i, rho(b)=j, rho(ab)=k and phi(a)=ab, phi(b)=bab sends (i,j,k) -> (k,i,j), a 3-cycle with no sign correction -- and it ACTS: verified an automorphism of Q8 on all 64 products, of order 3, and OUTER (no element of Q8 conjugates i to k), hence the generator of the unique Z/3 in Out(Q8) = S3. Not an order match. UNEARNED unchanged (14); total_rows 30 -> 31. Recorded with its cost: the same arc's Q3 shows mu_3 in Q(sqrt-3), Z(E6), 2T/Q8 and this Z/3 are ALL canonically linked, so the programme's Z/3 recurrence is one fact -- the ramification of 3 -- wearing four hats, and is NOT evidence by section 2's standard. I-17/B727's template extended to a fourth hat. Does not touch I-14: the trinification GRADING is a different side of E6 from its centre, and that Z/3-sameness stays closed negatively. PREREGISTRATION sealed sha256 afb4dc82... and pushed at 1b047ae before any cell ran; the seal named this inconvenient Q3 outcome and its verdict in advance."
   }
  ],
  "_baseline_lowerings": [

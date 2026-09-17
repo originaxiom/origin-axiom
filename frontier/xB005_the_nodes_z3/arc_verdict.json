@@ -1,0 +1,27 @@
+{
+ "id": "xB005",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B123",
+  "B266",
+  "B305",
+  "B727",
+  "B1231",
+  "B1347",
+  "xB003",
+  "xB004"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-31",
+   "status": "EARNED",
+   "note": "the monodromy's order-3 action at the node of the object's leaf IS 2T/Q8, the outer Z/3 of Q8. Map exhibited: phi(a)=ab, phi(b)=bab sends the quaternion character (a,b,ab)=(i,j,k) to (k,i,j). It ACTS: verified an automorphism of Q8 on all 64 products, of order 3, and OUTER (no element of Q8 conjugates i to k). Not an order match -- the same group acting the same way. Out(Q8) = S3 contains exactly one Z/3, so the subgroup is fixed uniquely; which generator is realised is an orientation convention, an ambiguity INSIDE the identified Z/3."
+  }
+ ],
+ "claim_one_line": "THE NODE'S Z/3 IS 2T/Q8, REALISED DYNAMICALLY -- AND THAT IS EXACTLY WHY THE Z/3 RECURRENCE IS NOT EVIDENCE (PREREGISTRATION sealed sha256 afb4dc82... and PUSHED at 1b047ae BEFORE any cell ran; the order is checkable from this branch's history). Q1 PASS: F = F_L o F_R fixes the node (0,0,0) on the leaf kappa = -2, D = [[0,0,1],[-1,0,0],[0,-1,0]] with D^3 = I, D != I and spectrum {1, omega, omega-bar} on the unit circle -- an ELLIPTIC finite-order point, the exact complement of xB004's hyperbolic saddle at the regular fixed point, and not in tension with it since dkappa vanishes at the node. Q2 PASS, the identification (registered EARNED as I-31): the node is the quaternion character rho(a)=i, rho(b)=j, rho(ab)=k with tr[i,j] = -2, and the monodromy phi(a)=ab, phi(b)=bab sends (i,j,k) -> (k,i,j) -- a 3-cycle with no sign correction, VERIFIED to be an automorphism of Q8 on all 64 products and VERIFIED OUTER, so it is the generator of 2T/Q8 = the unique Z/3 in Out(Q8) = S3. Not a group of the same order: the same group acting the same way, realised dynamically on the character variety. Q3, THE FINDING, and it OVERRULES this seat's own sealed prior: the sealed prior expected the node's Z/3 to be the one member NOT canonically linked to the rest of the programme's Z/3 family, and it is linked -- mu_3 <-> Q(sqrt-3) is Q(zeta_3) = Q(sqrt-3), the SAME object; 2T/Q8 <-> Z(E6) is McKay (= I-1, EARNED), with |Z(E6)| = det(Cartan E6) = 3 verified; node's Z/3 <-> 2T/Q8 is Q2, IDENTICAL. ALL FOUR ARE CANONICALLY LINKED, so by section 2's own standard the recurrence is NOT evidence: it is ONE FACT -- the ramification of 3 in Q(sqrt-3) -- WEARING FOUR HATS. The seal named this inconvenient outcome and its verdict in advance, so the conclusion was committed to before the computation. This is B727/I-17's template ('one E6, three ADE hats -- the recurrence is FORCED, not evidence; only the atom Q(sqrt-3) is object-specific') extended to a fourth hat B727 did not have: the node's Z/3 is not a fifth independent witness to the atom but a fourth presentation of it. NOTHING WITHDRAWN and the arithmetic untouched. The closed negative STANDS: the arithmetic Z/3 = 2T/Q8 is the CENTRE of E6, not the trinification grading, and this arc never compared the node with the grading; I-14 is untouched and stays UNEARNED. Character-variety and finite-group theory only. Gate 5 absolute; no value, no generation count, no physics reading, nothing promotes to CLAIMS.md."
+}
