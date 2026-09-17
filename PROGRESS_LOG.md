@@ -16783,3 +16783,78 @@ this session's work, and the `test_no_hardcoded_paths` offender is **cc's**
 one** of the 22.
 
 **Gates 35/35. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-17 — xB023: L194's SELECTION HALF (seat `xb`, `sep16-branch`)
+
+**PREREGISTRATION sealed `277542e74fa92bb4…` and PUSHED at `cbfeec0` before `verification/`
+existed**, with **two binding kill conditions — one of which fired.** **Verdict PROVED
+(ESTABLISHED / UNSETTLED).** Seven cells PASS.
+
+**ESTABLISHED — the full census, zero errors.** 203 123 one-cusped orientable census manifolds,
+181 amphichiral:
+
+| | `CS = 0` | `CS = ¼` |
+|---|---|---|
+| **orientation double cover** | **78** | **0** |
+| **not** | 28 | 75 |
+
+**Base rate for zero among amphichiral non-covers 27.2 %; among covers 100 %.** Plus **1260 of 1260**
+cusped orientation double covers at class zero. B1239's bucket B was 6 zero / 5 quarter on a
+3000-window; this is the entire census. **The kill condition — a single quarter-class cover — did
+not fire.**
+
+> **m004 sits at `0` BECAUSE it carries a free orientation-reversing involution. m003 does not.**
+
+**UNSETTLED — this arc's own sealed prediction died.** Square `|Tor H₁|` forcing the selection is
+**REFUTED, 670 of 1260, 590 counterexamples**; the seal said drop it entirely rather than weaken it,
+so **it is dropped** and W3's chain is **withdrawn**. xB022's `+4` law and the 50 %-vs-16 % torsion
+correlation remain **true and unexplanatory**.
+
+**W1 — L194's instrument gap PROVED, not relayed.** `Isometry` exposes no translation; and for
+`A² = I`, `det A = −1`, the eigenbasis gives `(x,y) ↦ (x+b₁, −y+b₂)`, so a fixed point exists **iff
+`b₁ ≡ 0`** — freeness depends **only** on the translation. **Exhibited:** two involutions with
+identical linear part, one with 24 fixed points, one free.
+
+### Kawauchi 1981 READ AT SOURCE — and this seat's own critique withdrawn
+
+B1239 supports its torsion step by citing **Kawauchi, J. Math. Soc. Japan 33 (1981) 571–589**. The
+paper is now **read**, and quoted from its own text: **Theorem I** (`Tor H₁ ≅ A⊕A` or `A⊕A⊕ℤ₂`), on
+**pairs (M,α) with M CLOSED and oriented**; **Theorem III** with **Definition 1.2** making `σ(α,M)`
+the count of **discrete fixed points mod 2**.
+
+**MY FIRST CRITIQUE WAS WRONG AND IS WITHDRAWN.** On Theorem I alone I claimed the paraphrase
+*"invents the freeness hypothesis and drops the ℤ₂ case"*. **Both false** — Theorem III gives
+`Fix = ∅ ⇒ σ = 0 ⇒` a **strict** double. **Reading the paper caught this seat's own overclaim,
+which is the entire point of reading it.**
+
+**The real defect is single: Kawauchi's pairs are CLOSED; B1239 applies them to CUSPED manifolds.**
+**K1:** 46 manifolds **built** to satisfy the hypotheses → **46/46**, with a negative control from
+the paper's own `L(p,q)` example. **K2:** same predicate on 1260 cusped covers → **670**, so the
+closed hypothesis is **load-bearing**. **K3:** damage **contained** — B1239's main closed conclusion
+rests on **APS with `τ` an integer**, not on Kawauchi, which enters only at the `0`-vs-`½` step
+B1239 itself calls invisible to SnapPy.
+
+**K1's FIRST VERSION WAS VOID AND IS RECORDED VOID.** It filtered the closed census by
+`is_amphicheiral()` — an orientation-reversing **isometry of any order** — while Kawauchi's `α` is an
+**involution**. It therefore tested nothing and "refuted" a published theorem on 29 of 36 cases.
+**A census check overturning a 1981 theorem is essentially never the right reading.** This is
+**E58's shape one level up: a MISMATCHED HYPOTHESIS, not a misquoted theorem** — and it is the more
+dangerous kind, because the quotation is correct.
+
+### New instrument — `docs/LITERATURE_READ_REGISTER.md`
+
+At the owner's direction, a register separating **READ-AT-SOURCE** / **CITED-UNREAD** /
+**UNREACHABLE** for **external** theorems (`THEOREM_REGISTRY.md` covers the programme's own).
+**Standing rule: a CITED-UNREAD theorem may motivate a computation but may NOT be the sole support
+for a banked conclusion; where it would be, measure the statement instead and grade it as measured.**
+Seven rows opened. **Kawauchi → READ-AT-SOURCE. Neumann–Yang Theorem A → READ-AT-SOURCE** (and the
+record's existing statement **confirmed**, not corrected — xB015 had already fixed it, Enseign. Math.
+not Duke). **Meyerhoff–Ouyang → UNREACHABLE** (Cambridge paywall, no preprint), and it is cited
+**nowhere** in this arc. **CGHN → CITED-UNREAD and named the highest-priority next read**, being the
+load-bearing unread citation in the whole L194 chain.
+
+**L194 REMAINS OPEN, narrowed at the object** — declared in the seal before any cell ran.
+
+**Gates 35/35. Gate 5 absolute. Nothing to `CLAIMS.md`.**

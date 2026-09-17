@@ -1,0 +1,54 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+K1       THEOREM I + III ON MANIFOLDS BUILT TO SATISFY THEIR HYPOTHESES
+         (the first version of this cell was VOID -- is_amphicheiral() does not mean
+          'admits an orientation-reversing INVOLUTION'; see the docstring.  It
+          'refuted' a 1981 published theorem, which is how it was caught.)
+         NonorientableClosedCensus: 17 distinct covers
+         CubicalNonorientableClosedCensus: 23 distinct covers
+         DodecahedralNonorientableClosedCensus: 5 distinct covers
+         IcosahedralNonorientableClosedCensus: 1 distinct covers
+         closed orientable manifolds with a FREE orientation-reversing involution: 46
+         |Tor H_1| a STRICT direct double (Theorem I + III predict ALL): 46 of 46
+         errors: 0
+         NEGATIVE CONTROL, from the paper's own example: L(p,q) with p > 2 admits NO
+         orientation-reversing involution, so |Tor| = p need not be a square -- and
+         for p = 3, 5, 7 it is not.  The theorem is not vacuous and not universal.
+K1 PASS  on manifolds that actually satisfy the hypotheses,
+         Theorem I + Theorem III hold exactly as read.
+
+K2       THE SAME PREDICATE ON CUSPED MANIFOLDS -- where B1239 applied it
+         Kawauchi's pairs are CLOSED.  The 1260 orientation double covers of W2 are
+         CUSPED, so they are not pairs (M, alpha) and the theorem says NOTHING about
+         them.  This cell MEASURES how badly the borrowed statement fails there.
+         cusped orientation double covers: 1260
+         |Tor| a direct double (the paraphrase's claim):      670 of 1260   (53.2%)
+         |Tor| a double OR double+Z_2 (Theorem I's full form): 836 of 1260   (66.3%)
+         FAILURES of the paraphrase on cusped manifolds: 590
+         A FREE involution would force the STRICT double by Theorem III -- and these
+         covers all carry a free deck involution by construction.  So the gap is not
+         the dropped Z_2 alternative: IT IS THE CLOSED HYPOTHESIS, and it is load-bearing.
+
+K3       THE CORRECTION OWED TO B1239, STATED AT ITS EXACT SIZE
+         WRONG (this seat's first reading, before Theorem III was read):
+           'the paraphrase invents the freeness hypothesis and drops the A+A+Z_2 case'.
+           Both are FALSE.  Theorem III makes freeness do real work (Fix empty =>
+           sigma(alpha,M) = 0 => sigma(M) = 0 => STRICT direct double), so the
+           paraphrase's 'free =>' is justified and the Z_2 alternative is correctly
+           excluded in the free case.  READING THE PAPER CAUGHT THIS SEAT'S OWN
+           OVERCLAIM, which is the entire point of reading it.
+         RIGHT, and it is a SINGLE error:
+           Kawauchi's pairs (M, alpha) are CLOSED.  B1239 applies the consequence to
+           CUSPED manifolds.  That is the whole of the defect, and K2 measures it.
+         SCOPE OF THE DAMAGE, stated so it is not inflated:
+           B1239's MAIN conclusion for closed manifolds (cs in {0, 1/2} mod 1) rests
+           on APS with tau an INTEGER, NOT on Kawauchi.  Kawauchi enters only for the
+           finer 0-versus-1/2 distinction, which B1239 itself records as invisible to
+           SnapPy's mod-1/2 readout.  So the error is REAL, LOCATED, and CONTAINED.
+
+==============================================================================
+  K1: PASS
+  K2: PASS
+  K3: PASS
+VERIFIED

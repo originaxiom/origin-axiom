@@ -1,5 +1,46 @@
 # Changelog
 
+## xB023 — L194's selection half: the selection is explained, my mechanism for it is refuted, and Kawauchi is READ
+
+**ESTABLISHED, on the full 203 123-manifold one-cusped orientable census (0 errors):**
+
+| | `CS = 0` | `CS = ¼` |
+|---|---|---|
+| **is an orientation double cover** | **78** | **0** |
+| **is not** | 28 | 75 |
+
+Base rate for `CS = 0` among amphichiral non-covers **27.2 %**; among covers **100 %**. And
+**1260 of 1260** cusped orientation double covers at class zero. **The kill condition — one
+quarter-class cover — did not fire.**
+
+> **m004 sits at `0` because it carries a free orientation-reversing involution (it is the
+> orientation double cover of the Gieseking manifold m000). m003 does not, and sits at `¼`.**
+
+**UNSETTLED — and it is this arc's own sealed prediction that died.** "Square `|Tor H₁|` forces the
+selection" is **REFUTED, 670 of 1260**. Per the seal it is **dropped entirely, not weakened**.
+
+**W1 proves L194's instrument gap** instead of relaying it: freeness depends only on the translation
+along the `+1`-eigenvector, exhibited by two involutions with identical linear part — one with 24
+fixed points, one free. `cusp_maps()` provably cannot decide it.
+
+### Kawauchi 1981 read at source — and my own critique withdrawn
+B1239 cites Kawauchi for the torsion step. The paper is now read and quoted from its own text.
+**My first critique of that citation was wrong and is withdrawn**: Theorem III makes freeness do
+real work, so *"free ⇒ Tor = A⊕A"* **is** sound. **The single real defect: Kawauchi's pairs are
+CLOSED; B1239 applies them to CUSPED manifolds.** Tested on 46 manifolds built to satisfy the
+hypotheses: **46/46**. Same predicate on cusped: **670/1260**. The closed hypothesis is
+load-bearing. Damage **contained** — B1239's main conclusion rests on APS, not Kawauchi.
+
+**K1's first version was VOID and is recorded void**: it filtered by `is_amphicheiral()`, which
+means an orientation-reversing *isometry of any order*, not an *involution*, and duly "refuted" a
+published theorem on 29 of 36 cases. **E58 one level up — a mismatched hypothesis, not a misquote.**
+
+### New instrument: `docs/LITERATURE_READ_REGISTER.md`
+Separates **READ-AT-SOURCE** from **CITED-UNREAD** from **UNREACHABLE**, with the standing rule that
+a CITED-UNREAD theorem may not be the sole support for a banked conclusion. Names the next targets:
+**CGHN** (the load-bearing unread citation in the L194 chain) and **Meyerhoff–Ouyang** (paywalled,
+L194's blocker, cited nowhere in this arc).
+
 ## xB022 — the other invariants: the invariants split into TWO species, not four
 
 xB021 held `CS` only and named that as its limitation. Removing it makes the picture **simpler**:

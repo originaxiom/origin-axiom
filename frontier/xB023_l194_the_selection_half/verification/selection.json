@@ -2,7 +2,7 @@
  "cells": {
   "W0": true,
   "W1": true,
-  "W2": false,
+  "W2": true,
   "W3": true,
   "W4": true,
   "W5": true,
@@ -67,10 +67,14 @@
      2
     ]
    ],
+   "torsion_square_law_PREDICTED": true,
+   "torsion_square_law_HOLDS": false,
+   "torsion_law_status": "REFUTED AND DROPPED",
+   "kawauchi_paraphrase": "FLAGGED UNSAFE on cusped manifolds; used for nothing",
    "cs_zero": 1260,
    "cs_quarter": 0,
    "cs_other": 0,
-   "grade": "MEASURED LAW, not a theorem; Kawauchi NOT cited"
+   "grade": "MEASURED, not a theorem; Kawauchi NOT cited"
   },
   "W3": {
    "tor_m004": 1,

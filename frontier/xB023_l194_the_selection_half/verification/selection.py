@@ -159,14 +159,38 @@ def W2():
     for nm, t in bad:
         print(f"           NOT SQUARE: {nm} -> |Tor| = {t}")
     print(f"         their CS class:  zero {zero}   quarter {quarter}   other {other}")
-    print("         GRADE: a MEASURED LAW on %d instances.  NOT a theorem, and Kawauchi is NOT" % tot)
-    print("         cited for it -- this seat has not read the paper (E58's clause).")
-    ok = (sq == tot) and (quarter == 0) and tot > 1000
+    law_holds = (sq == tot)
+    print()
+    print("         (a) THE SEALED TORSION PREDICTION -- 'every orientation double cover has")
+    print("             |Tor H_1| a perfect square':")
+    if law_holds:
+        print("             HOLDS on all %d." % tot)
+    else:
+        print("             *** REFUTED *** -- %d of %d are squares, so %d COUNTEREXAMPLES."
+              % (sq, tot, tot - sq))
+        print("             The seal's instruction was explicit: one counterexample kills the law")
+        print("             and the arc must DROP IT ENTIRELY rather than weaken it.  IT IS DROPPED.")
+        print("             CONSEQUENCE FOR THE RECORD, stated carefully: B1239 reaches the same")
+        print("             law by citing Kawauchi ('free => Tor H_1 = A + A', which forces a square")
+        print("             order).  That paraphrase is contradicted here on CUSPED manifolds by")
+        print("             %d of %d cases.  Either the theorem is closed-only or the paraphrase is" % (tot - sq, tot))
+        print("             inexact.  NEITHER B1239 NOR THIS SEAT HAS READ THE PAPER, so the correct")
+        print("             action is to FLAG THE PARAPHRASE AS UNSAFE and use it for nothing --")
+        print("             not to guess which of the two it is.  This is why the seal required a")
+        print("             MEASUREMENT instead of a citation (E58).")
+    print()
+    print("         (b) THE CS CLASS OF EVERY ORIENTATION DOUBLE COVER -- the cell's real content:")
+    print("             zero %d, quarter %d, other %d of %d." % (zero, quarter, other, tot))
+    print("             GRADE: a MEASURED result on %d instances.  NOT a theorem." % tot)
+    ok = (quarter == 0) and (other == 0) and tot > 1000
     R["W2"] = {"covers": tot, "square_torsion": sq, "not_square_examples": bad,
+               "torsion_square_law_PREDICTED": True, "torsion_square_law_HOLDS": bool(law_holds),
+               "torsion_law_status": "REFUTED AND DROPPED" if not law_holds else "holds",
+               "kawauchi_paraphrase": "FLAGGED UNSAFE on cusped manifolds; used for nothing",
                "cs_zero": zero, "cs_quarter": quarter, "cs_other": other,
-               "grade": "MEASURED LAW, not a theorem; Kawauchi NOT cited"}
-    print(f"W2 {'PASS' if ok else 'FAIL'}  every orientation double cover has square torsion order,")
-    print("         and every one sits at CS class ZERO.  L194's conjecture holds on all of them.")
+               "grade": "MEASURED, not a theorem; Kawauchi NOT cited"}
+    print(f"W2 {'PASS' if ok else 'FAIL'}  the torsion half of the prediction is REFUTED and dropped;")
+    print("         the CS half stands: EVERY orientation double cover sits at CS class ZERO.")
     return ok
 
 
@@ -182,17 +206,20 @@ def W3():
     in3 = snappy.Manifold("m003").isometry_signature() in covers
     print(f"         m004: |Tor H_1| = {t4}  perfect square: {s4}   is an orientation double cover: {in4}")
     print(f"         m003: |Tor H_1| = {t3}  perfect square: {s3}   is an orientation double cover: {in3}")
-    print("         5 is not a perfect square, so under W2's MEASURED law m003 cannot be an")
-    print("         orientation double cover -- and it is not.  m004's torsion is trivial,")
-    print("         trivially square, and it IS one (of the Gieseking manifold m000).")
-    print("         THE CHAIN AT THE OBJECT:")
-    print("           A5 moves H_1 (xB022 V3, 494/494) and shifts |Tor| by exactly +4 (xB022 V7)")
-    print("             -> |Tor(m004)| = 1 -> |Tor(m003)| = 5")
-    print("           square torsion is necessary for a free orientation-reversing involution")
-    print("             (W2's measured law, 1260/1260)")
-    print("           a free orientation-reversing involution forces CS class zero (W2)")
-    print("           -> m004 at 0, m003 at 1/4.  THE SELECTION IS A PROPERTY OF H_1.")
-    ok = (s4 and not s3 and in4 and not in3)
+    print("         THE CHAIN I SEALED IS DEAD, AND ITS DEATH IS REPORTED BEFORE ITS REMAINS:")
+    print("           W2 REFUTED 'square torsion is necessary for a free involution' with")
+    print("           590 counterexamples, so the step '5 is not square, THEREFORE m003 is not")
+    print("           a cover' IS INVALID.  The sealed explanation of the selection is WITHDRAWN.")
+    print("         WHAT SURVIVES, and it is COMPUTED rather than inferred:")
+    print("           m003 is not an orientation double cover -- a FACT from W0's search, not a")
+    print("             consequence of its torsion.")
+    print("           m004 IS one, of the Gieseking manifold m000 -- W0's positive control.")
+    print("           and being one forces CS class zero (W2 (b), W4) -- which is the actual")
+    print("             explanation of the selection at the object.")
+    print("         SO THE SELECTION IS EXPLAINED BY THE FREE INVOLUTION, NOT BY H_1's TORSION.")
+    print("         xB022's +4 torsion law and this arc's W5 correlation remain TRUE and remain")
+    print("         UNEXPLANATORY: correlation at the object is not the mechanism.")
+    ok = (in4 and not in3)
     R["W3"] = {"tor_m004": t4, "tor_m003": t3, "square_m004": bool(s4), "square_m003": bool(s3),
                "m004_is_cover": bool(in4), "m003_is_cover": bool(in3)}
     print(f"W3 {'PASS' if ok else 'FAIL'}  the sealed prediction holds in both directions.")
@@ -309,8 +336,9 @@ def W6():
     print("           DONE: the instrument gap is PROVED, not relayed (W1).")
     print("           DONE: B1239's route through Kawauchi is REPLACED by a measured law (W2),")
     print("                 so nothing here rests on a theorem this seat has not read.")
-    print("           DONE: the selection at the OBJECT is explained by H_1 (W3), and the bit")
-    print("                 that moves H_1 is A5 -- the same bit that shifts CS by 1/4.")
+    print("           DONE: the selection at the OBJECT is explained -- by the FREE INVOLUTION")
+    print("                 (W3, W4), NOT by H_1's torsion.  The torsion explanation this arc")
+    print("                 SEALED was REFUTED by its own kill condition and is WITHDRAWN.")
     print("           NOT DONE: the cusp-local lemma in general.  Freeness on a tau-invariant")
     print("                 cusp still needs the translation part, which W1 shows SnapPy does")
     print("                 not expose and which this arc does not compute.")

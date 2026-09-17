@@ -1,0 +1,54 @@
+{
+ "id": "xB023",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "xB020",
+  "xB022",
+  "xB021",
+  "B1239",
+  "B1235",
+  "B1234",
+  "B1224",
+  "B605",
+  "B152"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B1239_quarter_class_is_cusp_local",
+   "outcome": "CORRECTED",
+   "what": "Its cusped bucket result is CONFIRMED and enormously strengthened -- B1239 reported bucket B at 6 zero / 5 quarter on a 3000-window; this arc runs the FULL 203123-manifold one-cusped orientable census with 0 errors and finds 78 of 78 orientation double covers at CS class zero against a 27.2 percent base rate among amphichiral non-covers, plus 1260 of 1260 cusped covers at zero. CORRECTED on one point: B1239 supports its torsion step by citing Kawauchi (J. Math. Soc. Japan 33 (1981) 571-589). The paper is READ here. Kawauchi's pairs (M, alpha) are CLOSED; B1239 applies the consequence to CUSPED manifolds, where it fails on 590 of 1260 cases measured here. The paraphrase itself is otherwise SOUND -- Theorem III makes freeness do real work -- and the damage is CONTAINED, since B1239's main closed conclusion rests on APS with tau an integer, not on Kawauchi, and Kawauchi enters only at the 0-vs-1/2 step B1239 itself records as invisible to SnapPy."
+  },
+  {
+   "arc": "B1235_two_seat_harvest",
+   "outcome": "CONFIRMED",
+   "what": "its bite control (no quarter-class member of the 112-family is an orientation double cover) is re-derived and widened: the search here is over ALL 1260 non-orientable census manifolds by isometry signature (1117 distinct covers) and over the whole one-cusped orientable census rather than the 13 quarter-class family members, with the same result and with B1235's own positive control (m000 -> m004) re-run and passing."
+  },
+  {
+   "arc": "xB020_the_mechanism_is_conjugation",
+   "outcome": "CONFIRMED",
+   "what": "its H3 cell tested 200 orientation double covers, all at zero. That is re-derived here at 1260 of 1260 on the full non-orientable census, and its H4 statement -- that conjugation explains the 2-torsion but NOT the selection of 0 over 1/4 -- is exactly the gap this arc closes at the object."
+  },
+  {
+   "arc": "xB022_the_other_invariants",
+   "outcome": "SCOPED",
+   "what": "xB022's +4 torsion law and its 70-versus-80 square-ness caution are used as INPUT, and this arc SCOPES them: they are true and they are NOT the mechanism. The sealed hypothesis that square torsion forces the selection is REFUTED here (670 of 1260), so xB022's torsion observations remain correct descriptions with no explanatory role."
+  },
+  {
+   "arc": "B1234_the_walls_trace_to_A6",
+   "outcome": "NOT_RERUN",
+   "why": "B1234's eight-wall table is the context for why the selection matters, but no cell of B1234 was re-run here and no count of it is restated. Named rather than left silent, as the rule requires."
+  },
+  {
+   "arc": "B605_free_involutions",
+   "outcome": "NOT_RERUN",
+   "why": "xB020 flagged B605's freeness result as CITED, not re-verified, and this arc does not re-verify it either -- it never needs to, because freeness is established constructively here (a manifold that IS an orientation double cover carries a free deck involution by construction) rather than quoted."
+  }
+ ],
+ "claim_one_line": "L194's SELECTION HALF: THE SELECTION AT THE OBJECT IS EXPLAINED, AND THE MECHANISM THIS ARC SEALED FOR IT IS REFUTED BY ITS OWN KILL CONDITION. PREREGISTRATION sealed 277542e74fa92bb4 and PUSHED at cbfeec0 before verification/ existed, with two binding kill conditions, ONE OF WHICH FIRED. ESTABLISHED: over the FULL 203123-manifold one-cusped orientable census with ZERO errors, 181 amphichiral manifolds split as -- orientation double covers 78 at CS = 0 and 0 at CS = 1/4; non-covers 28 at 0 and 75 at 1/4. Base rate for zero among amphichiral non-covers 27.2 percent, among covers 100 percent, 78 of 78; and 1260 of 1260 cusped orientation double covers at class zero. The kill condition (one quarter-class cover) did NOT fire. m004 sits at 0 BECAUSE it carries a free orientation-reversing involution, being the orientation double cover of the Gieseking manifold m000; m003 does not and sits at 1/4. UNSETTLED, AND IT IS THIS ARC'S OWN PREDICTION THAT DIED: the sealed explanation -- that square |Tor H_1| forces the selection -- is REFUTED, 670 of 1260, 590 counterexamples, and per the seal's explicit instruction it is DROPPED ENTIRELY rather than weakened, with W3's chain through it WITHDRAWN. W1 PROVES L194's instrument gap rather than relaying it: SnapPy's Isometry exposes no translation, and the algebra shows freeness depends ONLY on the translation along the +1-eigenvector, exhibited by two involutions with IDENTICAL linear part, one with 24 fixed points and one free -- so cusp_maps() provably cannot decide the question. ADDENDUM, KAWAUCHI READ: B1239 cites Kawauchi J. Math. Soc. Japan 33 (1981) 571-589 for the torsion step; the paper is now READ and quoted from its own text. THIS SEAT'S FIRST CRITIQUE OF THAT CITATION WAS ITSELF WRONG AND IS WITHDRAWN -- Theorem III (sigma(alpha,M) = the number of discrete fixed points mod 2) makes freeness do real work, so 'free =>' is justified and the A+A+Z_2 alternative is correctly excluded in the free case. The REAL defect is single and located: Kawauchi's pairs are CLOSED and B1239 applies them to CUSPED manifolds. K1 tests the theorem on 46 manifolds BUILT to satisfy its hypotheses (orientation double covers of closed non-orientable manifolds, which carry free orientation-reversing deck involutions): 46 of 46 strict direct doubles, 0 errors, with a negative control from the paper's own L(p,q) example. K1'S FIRST VERSION WAS VOID AND IS RECORDED VOID: it filtered by is_amphicheiral(), which means an orientation-reversing ISOMETRY of any order, not an INVOLUTION, so it tested nothing and duly 'refuted' a 1981 published theorem on 29 of 36 cases -- E58's shape one level up, a MISMATCHED HYPOTHESIS rather than a misquoted theorem. K2 measures the borrowed statement on cusped manifolds at 670 of 1260, proving the closed hypothesis LOAD-BEARING. K3 states the damage at its exact size and contains it: B1239's main closed conclusion rests on APS with tau an integer, not on Kawauchi. This arc does NOT close L194 -- declared in the seal before any cell ran -- and Meyerhoff-Ouyang, its other named tool, is PAYWALLED and remains UNREAD and uncited here. Supplies no value. Gate 5 absolute; nothing to CLAIMS.md."
+}

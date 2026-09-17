@@ -1,0 +1,31 @@
+{
+ "cells": {
+  "K1": true,
+  "K2": true,
+  "K3": true
+ },
+ "results": {
+  "K1": {
+   "pairs_tested": 46,
+   "strict_double": 46,
+   "violations": [],
+   "errors": 0,
+   "first_version": "VOID -- is_amphicheiral() is not 'has an orientation-reversing INVOLUTION'"
+  },
+  "K2": {
+   "covers": 1260,
+   "direct_double": 670,
+   "double_or_plus_z2": 836,
+   "paraphrase_failures": 590
+  },
+  "K3": {
+   "b1239_error": "applies a CLOSED-manifold theorem to CUSPED manifolds",
+   "not_an_error": [
+    "the freeness hypothesis (justified by Theorem III)",
+    "excluding A+A+Z_2 in the free case (correct)"
+   ],
+   "damage_scope": "the finer 0-vs-1/2 step only; the main closed conclusion is APS, not Kawauchi",
+   "self_correction": "this seat's first critique was itself wrong and is withdrawn here"
+  }
+ }
+}

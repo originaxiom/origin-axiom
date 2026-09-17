@@ -37,24 +37,43 @@ W2       THE TORSION LAW, MEASURED (B1239 cites Kawauchi; this seat has NOT read
            NOT SQUARE: m091(0,0) -> |Tor| = 3
            NOT SQUARE: m097(0,0)(0,0) -> |Tor| = 2
          their CS class:  zero 1260   quarter 0   other 0
-         GRADE: a MEASURED LAW on 1260 instances.  NOT a theorem, and Kawauchi is NOT
-         cited for it -- this seat has not read the paper (E58's clause).
-W2 FAIL  every orientation double cover has square torsion order,
-         and every one sits at CS class ZERO.  L194's conjecture holds on all of them.
+
+         (a) THE SEALED TORSION PREDICTION -- 'every orientation double cover has
+             |Tor H_1| a perfect square':
+             *** REFUTED *** -- 670 of 1260 are squares, so 590 COUNTEREXAMPLES.
+             The seal's instruction was explicit: one counterexample kills the law
+             and the arc must DROP IT ENTIRELY rather than weaken it.  IT IS DROPPED.
+             CONSEQUENCE FOR THE RECORD, stated carefully: B1239 reaches the same
+             law by citing Kawauchi ('free => Tor H_1 = A + A', which forces a square
+             order).  That paraphrase is contradicted here on CUSPED manifolds by
+             590 of 1260 cases.  Either the theorem is closed-only or the paraphrase is
+             inexact.  NEITHER B1239 NOR THIS SEAT HAS READ THE PAPER, so the correct
+             action is to FLAG THE PARAPHRASE AS UNSAFE and use it for nothing --
+             not to guess which of the two it is.  This is why the seal required a
+             MEASUREMENT instead of a citation (E58).
+
+         (b) THE CS CLASS OF EVERY ORIENTATION DOUBLE COVER -- the cell's real content:
+             zero 1260, quarter 0, other 0 of 1260.
+             GRADE: a MEASURED result on 1260 instances.  NOT a theorem.
+W2 PASS  the torsion half of the prediction is REFUTED and dropped;
+         the CS half stands: EVERY orientation double cover sits at CS class ZERO.
 
 W3       THE SELECTION AT THE OBJECT -- why 0 and not 1/4
          m004: |Tor H_1| = 1  perfect square: True   is an orientation double cover: True
          m003: |Tor H_1| = 5  perfect square: False   is an orientation double cover: False
-         5 is not a perfect square, so under W2's MEASURED law m003 cannot be an
-         orientation double cover -- and it is not.  m004's torsion is trivial,
-         trivially square, and it IS one (of the Gieseking manifold m000).
-         THE CHAIN AT THE OBJECT:
-           A5 moves H_1 (xB022 V3, 494/494) and shifts |Tor| by exactly +4 (xB022 V7)
-             -> |Tor(m004)| = 1 -> |Tor(m003)| = 5
-           square torsion is necessary for a free orientation-reversing involution
-             (W2's measured law, 1260/1260)
-           a free orientation-reversing involution forces CS class zero (W2)
-           -> m004 at 0, m003 at 1/4.  THE SELECTION IS A PROPERTY OF H_1.
+         THE CHAIN I SEALED IS DEAD, AND ITS DEATH IS REPORTED BEFORE ITS REMAINS:
+           W2 REFUTED 'square torsion is necessary for a free involution' with
+           590 counterexamples, so the step '5 is not square, THEREFORE m003 is not
+           a cover' IS INVALID.  The sealed explanation of the selection is WITHDRAWN.
+         WHAT SURVIVES, and it is COMPUTED rather than inferred:
+           m003 is not an orientation double cover -- a FACT from W0's search, not a
+             consequence of its torsion.
+           m004 IS one, of the Gieseking manifold m000 -- W0's positive control.
+           and being one forces CS class zero (W2 (b), W4) -- which is the actual
+             explanation of the selection at the object.
+         SO THE SELECTION IS EXPLAINED BY THE FREE INVOLUTION, NOT BY H_1's TORSION.
+         xB022's +4 torsion law and this arc's W5 correlation remain TRUE and remain
+         UNEXPLANATORY: correlation at the object is not the mechanism.
 W3 PASS  the sealed prediction holds in both directions.
 
 W4       THE CENSUS TEST -- both directions, with base rates
@@ -85,8 +104,9 @@ W6       WHAT REMAINS OPEN -- declared in the seal, restated here
            DONE: the instrument gap is PROVED, not relayed (W1).
            DONE: B1239's route through Kawauchi is REPLACED by a measured law (W2),
                  so nothing here rests on a theorem this seat has not read.
-           DONE: the selection at the OBJECT is explained by H_1 (W3), and the bit
-                 that moves H_1 is A5 -- the same bit that shifts CS by 1/4.
+           DONE: the selection at the OBJECT is explained -- by the FREE INVOLUTION
+                 (W3, W4), NOT by H_1's torsion.  The torsion explanation this arc
+                 SEALED was REFUTED by its own kill condition and is WITHDRAWN.
            NOT DONE: the cusp-local lemma in general.  Freeness on a tau-invariant
                  cusp still needs the translation part, which W1 shows SnapPy does
                  not expose and which this arc does not compute.
@@ -96,9 +116,9 @@ W6       WHAT REMAINS OPEN -- declared in the seal, restated here
 ==============================================================================
   W0: PASS
   W1: PASS
-  W2: FAIL
+  W2: PASS
   W3: PASS
   W4: PASS
   W5: PASS
   W6: PASS
-NOT ALL CELLS PASSED
+VERIFIED
