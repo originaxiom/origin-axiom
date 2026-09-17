@@ -1,5 +1,27 @@
 # Changelog
 
+## xB009 THE ODD SECTOR IS NOT THE DOOR: √−3 cancels there too, and its whole content is one already-known bit
+
+Owner-directed, under the owner's instruction of this date that **the goal is the TOE itself, not an adjudication of whether it is reachable**, and that **a negative is not a deliverable**. **PREREGISTRATION sealed (sha256 `5d8ea291aba92cd9d92d1a0878095a26c4a9d41f6a42775b562656ce312c8159`) and PUSHED at `ba60fac` BEFORE any cell ran.** This entry is **short by that instruction and by the seal's own commitment** to one paragraph if the probe came back empty. It came back empty.
+
+**The gap was real.** xB007 proved the object's selection datum is the sign of its monodromy, `−I`. `Sym^odd` sees that sign; `Sym^even` does not; **E₆ = ⊕Sym^{2mᵢ}** has powers {2, 8, 10, 14, 16, 22}, **all even**, and B1242 separately found all `sl₂` weights on the **27** and the **78** even too. So the entire computed record lives in the even sector, and **`Sym^odd` at `ρ_geo` had never been computed** — B425's own machinery is general in the exponent and was only ever *called* with even arguments.
+
+**C0 PASS.** B425's validations reproduce on this port: the relator forces `u²+u+1` (as a factor of `u⁴+u²+1`), the trivial rep gives the ordinary Alexander polynomial `t²−3t+1`, the adjoint regularises to **−3**, and even-sector Galois invariance holds.
+
+**O1 PASS.** `ρ_geo` is already `SL(2,ℂ)`-valued, so `Sym^n` is defined for **all** `n` with no choice to make; `H¹(M;ℤ/2) = ℤ/2` gives **exactly two lifts**, differing by the sign character `ε`.
+
+**O2 — the headline, and this seat's prior was WRONG.** B425 found `√−3` present in the Fox matrix and cancelling in every **even** determinant; this seat predicted the cancellation would **fail** for odd `n`, since even/odd is a Galois/duality split. **It does not fail.** By B425's own rigorous test (`det` at `ω` = `det` at `ω²`), the Fox determinant is **Galois-invariant at every `n` from 0 to 7**, odd and even alike. **The odd sector carries no new field.**
+
+**O3.** Odd `n` **does** separate m003 from m004; even `n` does not — as designed.
+
+**O4, which measures that rather than celebrating it.** The **entire** difference between m003 and m004 in odd `Sym^n` is the substitution **`t → −t`** and nothing else (verified at `n = 1, 3, 5`). That is the sign character `ε` of O1: **exactly one bit, and the same bit xB007 already identified as knot-ness, `det(φ_*−I) = ±1`.** The trace numbers that appear — `3, 7, 18, 47, 123, 322` — are **Lucas `L₂, L₄, …, L₁₂`**, golden **by construction** (this is the homological monodromy, B423's *dynamical* side, not `ρ_geo`), so no new arithmetic there either.
+
+> **The odd sector sees the sign, as designed, and carries nothing beyond it. This seat's reading of xB007 was over-optimistic, exactly as the seal named in advance. The direction is closed.**
+
+**One correction of this seat's own, made before anything shipped.** A first draft of O4 printed *"THE ODD SECTOR IS GENUINELY NEW INFORMATION"* on the strength of separation alone. **Overstated** — separation says the odd sector sees something the even cannot, not that the something is large. O4 now **measures** it and reports one bit.
+
+**Not claimed**, and the seal fenced it in advance: *odd sector = spin = 4d spinor = matter* is an I-10-class identification, is **not** made here, and is now moot — there is nothing in the odd sector to carry across. Reuses B425's validated machinery **unchanged**; nothing in B425 modified. Gate 5 absolute: no value, no generation count, no physics reading, nothing promoted to `CLAIMS.md`.
+
 ## xB008 THE IDENTIFICATION DISCIPLINE, EXTENDED FROM PROMOTIONS TO KILLS: a gate that catches this seat's own error
 
 Owner-directed. **PREREGISTRATION sealed (sha256 `30bb937bf26c6d02390f794a757d40a1144769bc495761389062e52814af92c6`) and PUSHED at `91c9b94` BEFORE the gate was written.**

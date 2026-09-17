@@ -1,0 +1,17 @@
+{
+ "id": "xB009",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": [
+  "B423",
+  "B425",
+  "B1242",
+  "xB007"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE ODD SECTOR IS NOT THE DOOR: sqrt(-3) CANCELS THERE TOO, AND ITS WHOLE CONTENT IS ONE ALREADY-KNOWN BIT (PREREGISTRATION sealed sha256 5d8ea291... and PUSHED at ba60fac BEFORE any cell ran; SHORT by owner instruction that a negative is not a deliverable, and by the seal's own commitment to one paragraph if empty). THE GAP WAS REAL: xB007 proved the object's selection datum is the monodromy sign -I; Sym^odd sees it and Sym^even does not; E6 = sum Sym^{2m_i} has powers {2,8,10,14,16,22}, ALL EVEN, and B1242 found all sl2 weights on the 27 and 78 even too -- so the entire computed record lives in the even sector and Sym^odd at rho_geo had never been computed. C0 PASS: B425's own validations reproduce on this port (relator forces u^2+u+1 as a factor of u^4+u^2+1; trivial rep gives the ordinary Alexander polynomial t^2-3t+1; adjoint regularises to -3; even-sector Galois invariance holds), so the port is sound. O1 PASS: rho_geo is already SL(2,C)-valued so Sym^n is defined for all n with no choice to make, and H^1(M; Z/2) = Z/2 gives EXACTLY TWO lifts differing by the sign character eps. O2, THE HEADLINE, AND THIS SEAT'S PRIOR WAS WRONG: B425 found sqrt(-3) present in the Fox matrix and cancelling in every EVEN determinant, and this seat predicted the cancellation would FAIL for odd n since even/odd is a Galois/duality split. IT DOES NOT FAIL -- the Fox determinant is Galois-invariant (det at omega == det at omega^2, B425's own rigorous test) at every n from 0 to 7, odd and even alike. THE ODD SECTOR CARRIES NO NEW FIELD. O3: odd n DOES separate m003 from m004 and even n does not, as designed. O4, which measures rather than celebrates that: the ENTIRE difference is the substitution t -> -t and nothing else (verified n = 1, 3, 5), which is the sign character eps of O1 -- EXACTLY ONE BIT, and the SAME bit xB007 already identified as knot-ness, det(phi_* - I) = +-1. The trace numbers 3, 7, 18, 47, 123, 322 are Lucas L_2, L_4, ..., L_12, golden BY CONSTRUCTION (this is the homological monodromy, B423's dynamical side, not rho_geo) -- no new arithmetic there either. SO THE ODD SECTOR SEES THE SIGN, AS DESIGNED, AND CARRIES NOTHING BEYOND IT; this seat's reading of xB007 was over-optimistic, exactly as the seal named in advance, and the direction is CLOSED. ONE CORRECTION OF THIS SEAT'S OWN, MADE BEFORE ANYTHING SHIPPED: a first draft of O4 printed 'THE ODD SECTOR IS GENUINELY NEW INFORMATION' on the strength of separation alone, which was overstated -- separation says the odd sector sees something the even cannot, not that the something is large; O4 now MEASURES it (one bit) and says so. NOT CLAIMED, and the seal fenced it in advance: the temptation 'odd sector = spin = 4d spinor = matter' is an I-10-class identification, is NOT made here, and is now moot since there is nothing in the odd sector to carry across. Reuses B425's validated machinery UNCHANGED (general in the exponent, only ever CALLED with even arguments); nothing in B425 modified. Gate 5 absolute; no value, no generation count, no physics reading, nothing promotes to CLAIMS.md."
+}
