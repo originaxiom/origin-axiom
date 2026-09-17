@@ -1,0 +1,50 @@
+{
+ "C1": {
+  "a_is_bit": false,
+  "b_is_bit": false,
+  "c_is_bit": true,
+  "m004_H1": "Z",
+  "m003_H1": "Z/5 + Z"
+ },
+ "C2": {
+  "isometric": true,
+  "conjugate_via_P": true
+ },
+ "C3": {
+  "same_volume": true,
+  "isometric": false
+ },
+ "C4": {
+  "equal_as_maps": false,
+  "conjugate": false,
+  "same_action": false
+ },
+ "C5": {
+  "tested": 240,
+  "a7_negates_cs": 240,
+  "a5_shifts_quarter": 240
+ },
+ "C6": {
+  "agree_on_LR": true,
+  "agree": 30,
+  "differ": 464,
+  "first_difference": [
+   "RRL",
+   "LLR",
+   "LRR"
+  ]
+ },
+ "C7": {
+  "group": "Z/2 x Z/2",
+  "orbit_size": 4
+ },
+ "C8": {
+  "same_Z2": false,
+  "axes_held_fixed": [
+   "SL(2,Z) not GL(2,Z)",
+   "b++/b+- only",
+   "word length <= 8",
+   "A5 reading (c) only"
+  ]
+ }
+}

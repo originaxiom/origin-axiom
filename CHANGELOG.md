@@ -1,5 +1,26 @@
 # Changelog
 
+## xB018 — PATH C: the two bits are not the same ℤ/2, and each is invisible to the layer the other lives on
+
+Sealed `0c9b1086…` with its **configuration axes declared**. **All three approved paths are now run.**
+
+**The hazard first:** the record uses **"A5" for three things**, and only **H₁-torsion-freeness** is a
+ℤ/2 — xB012's *"manifold restriction"* cannot distinguish the sisters, since **both are manifolds**.
+
+**A7 fixes the object** (`b++LR` ≅ `b++RL`); **A5(c) changes it** (same volume, different manifold).
+**Not the same ℤ/2 under all four sealed criteria** — and not conjugate, since A7 fixes every bundle
+and A5(c) fixes none. **The sharp form:** over 240 words at 40 digits, **A7 negates `CS` (240/240)**
+and **A5(c) translates it by ¼ (240/240)** — **on m004's zero, negation is the identity and
+translation is not.**
+
+**The blind cell found why A7 is "one bit":** B1083's torsor `K₄ = ⟨C, P⟩` has **`C(LR) = P(LR) = RL`**
+— the two torsor bits **coincide on the minimal word**, agreeing on only **30 of 494**, first
+separating at `RRL`. **The K₄ collapses exactly at the object A6 selects. A6's minimality does that.**
+
+**Axes held fixed and named:** `SL(2,ℤ)` not `GL(2,ℤ)` (where B1083 puts the Breath pulse — the axis
+a next arc should vary), `b++`/`b+-` only, length ≤ 8, A5 reading (c) only.
+
+
 ## xB017 ADDENDUM 4 — the configuration audit: three axes never varied, two move the answer
 
 The owner's definition of *verify* — *"whether you're properly informed for the task, and all the

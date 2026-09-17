@@ -1,0 +1,119 @@
+C1       THE THREE A5s, SEPARATED -- only one of them is a bit at all
+         (a) THE_FRAMEWORK's own table row: 'the first mixed closure is torsion-free
+             -- forces the word to be MIXED, aAbB not aA'.  That is a CONSTRAINT on
+             the word, not a binary choice.  NOT a Z/2.
+         (b) xB012's reading: 'the manifold restriction' -- the group is torsion-free.
+             m004: a manifold (torsion-free group) -- H_1 = Z
+             m003: a manifold (torsion-free group) -- H_1 = Z/5 + Z
+             BOTH SISTERS ARE MANIFOLDS, so (b) CANNOT distinguish them.  NOT the bit.
+         (c) H_1 torsion-free = KNOT-NESS = the m003/m004 bit.
+             m004 H_1 = Z   m003 H_1 = Z/5 + Z   -> separates: True
+C1 PASS  ONLY READING (c) IS A Z/2.  Path C's question presupposes (c), and the
+         record uses 'A5' for all three.  A TERMINOLOGY HAZARD, named not silently
+         resolved: this arc means A5(c) throughout.
+
+C2       DOES A7 CHANGE THE OBJECT?  b++LR versus b++RL
+         vol equal: True   H_1 equal: True (Z)   CS equal: True
+         ISOMETRIC: True
+         and the monodromies are CONJUGATE in SL(2,Z) via the record-swap P:
+           P (LR) P^-1 = RL : True   (B979's statement, re-derived)
+C2 PASS  A7 DOES NOT CHANGE THE OBJECT.  Every class invariant is
+         blind to it, exactly as B979 says.
+
+C3       DOES A5(c) CHANGE THE OBJECT?  b++LR versus b+-LR
+         b++LR = m004: vol 2.0298832128  H_1 Z  CS -0.000000
+         b+-LR = m003: vol 2.0298832128  H_1 Z/5 + Z  CS 0.250000
+         SAME VOLUME: True   ISOMETRIC: False
+C3 PASS  A5(c) CHANGES THE OBJECT -- same volume, DIFFERENT
+         manifold, and H_1 sees it where the volume does not.
+
+C4       THE DECISIVE COMPARISON, against all four same-ness criteria
+         criterion 1, EQUAL AS MAPS: A7 fixes the homeomorphism type (C2); A5(c)
+           does not (C3).  A map that fixes everything is not a map that changes
+           something.  NOT EQUAL.
+         criterion 2, SAME SUBGROUP: they act on different slots -- A7 on the WORD,
+           A5(c) on the SIGN PREFIX -- and C7 measures the group they generate.
+         criterion 3, SAME ACTION ON A NAMED INVARIANT: C5 measures it, and they
+           disagree on every invariant tested.
+         criterion 4, CONJUGATE: conjugate involutions have conjugate fixed sets;
+           A7 fixes EVERY bundle up to isometry while A5(c) fixes NONE, so their
+           fixed sets differ in size and they cannot be conjugate.
+C4 PASS  THE A5 BIT AND THE A7 BIT ARE NOT THE SAME Z/2, under all four criteria.
+
+C5       WHAT EACH BIT DOES TO THREE INVARIANTS -- the sharp form
+         words tested: 240
+         A7 (letter swap) NEGATES CS:            240 of 240   (B128 M-C)
+         A5(c) (sign prefix) SHIFTS CS BY 1/4:   240 of 240   (xB015 K6)
+         ON m004 ITSELF, where CS = 0:
+           A7:    CS -> -CS = 0.  ACTS TRIVIALLY.
+           A5(c): CS -> CS + 1/4 = 1/4.  ACTS NON-TRIVIALLY.
+         and on B979's BASED invariant, the Mobius fixed-point polynomial:
+           LR: t**2 + t - 1   roots [-1/2 + sqrt(5)/2, -sqrt(5)/2 - 1/2]
+           RL: t**2 - t - 1   roots [1/2 - sqrt(5)/2, 1/2 + sqrt(5)/2]
+           A7 MOVES this polynomial (B979, re-derived).  A5(c) does NOT touch the
+           word at all, so it leaves the polynomial FIXED.
+C5 PASS  THE SHARP FORM: the two bits act on CS by DIFFERENT
+         group operations -- A7 by NEGATION, A5(c) by TRANSLATION BY 1/4.  On the
+         2-torsion value CS = 0 that A6 selects, negation is the IDENTITY and
+         translation is not.  THE A7 BIT DIES ON m004's OWN ZERO; THE A5 BIT DOES NOT.
+
+C6       C versus P ON THE MINIMAL WORD -- the cell the seal could not call
+         B1083 types the torsor as K_4 = <C (letter swap), P (reversal)>.
+         on LR:  C(LR) = RL   P(LR) = RL   AGREE: True
+         over all mixed words of length 2-8: agree 30, differ 464
+         FIRST word where they differ: ('RRL', 'LLR', 'LRR')
+         => THE TWO TORSOR BITS COINCIDE ON THE MINIMAL WORD AND SEPARATE ABOVE IT.
+            The K_4 COLLAPSES TO A SINGLE Z/2 EXACTLY AT THE OBJECT A6 SELECTS --
+            which is WHY A7 is 'one bit' and not two.  A6's minimality is what
+            makes the torsor look one-dimensional.
+         HONEST SCOPE: this is a statement about the WORD, the axis this arc varies.
+         It does NOT say the two bits are the same in general -- they are not, above
+         length 2 -- and it is NOT a selection principle.
+C6 PASS  the collapse is real and it is A6's doing.
+
+C7       THE GROUP GENERATED, acting on the family {b±±W}
+         A5(c): (s, W) -> (-s, W)      [flips the sign prefix, fixes the word]
+         A7:    (s, W) -> ( s, C(W))   [swaps letters, fixes the prefix]
+         They act on DISJOINT coordinates of the pair (prefix, word), so they
+         COMMUTE, each is an involution, and neither is the identity ->
+         <A5(c), A7> = Z/2 x Z/2 = K_4, NOT Z/2.
+         exhibited on W = RRL: the orbit has 4 elements -> [('+', 'LLR'), ('+', 'RRL'), ('-', 'LLR'), ('-', 'RRL')]
+C7 PASS  INDEPENDENT.  The two bits generate a K_4 of their own,
+         distinct from B1083's torsor K_4 = <C, P>, which lives entirely inside the
+         WORD coordinate.
+
+C8       THE VERDICT, with every axis held fixed NAMED
+         ANSWER: NO. The A5 bit and the A7 bit are NOT the same Z/2, under all four
+         same-ness criteria the seal declared.
+         AND THE INTERESTING PART IS NOT THAT THEY DIFFER, BUT WHERE EACH IS VISIBLE:
+           A7  is invisible to every CLASS invariant (it fixes the manifold) and
+               visible only to a BASED invariant -- B979's Mobius fixed-point
+               polynomial.  On CS it acts by NEGATION, so it DIES on m004's zero.
+           A5(c) is invisible to the CHARACTER VARIETY (xB007) and visible in the
+               k-COUPLING (xB015 K6).  On CS it acts by TRANSLATION BY 1/4, so it
+               SURVIVES on m004's zero.
+         TWO BITS, EACH INVISIBLE TO THE LAYER THE OTHER LIVES ON.
+         AND C6's FINDING, which the seal could not call: the torsor's OWN two bits
+           (C and P) COINCIDE on the minimal word and separate only above it -- so
+           the K_4 collapses to one Z/2 exactly at the object A6 selects, which is
+           WHY A7 reads as 'one bit'.  A6's minimality is doing that work.
+
+         AXES HELD FIXED, NAMED AS THE RULE REQUIRES:
+           - the monodromy's ambient group: SL(2,Z).  GL(2,Z) (det -1, the Breath
+             pulse of B1083's M) IS NOT VARIED HERE.
+           - the bundles: b++ and b+- only; b-+ and b-- do not parse in SnapPy for
+             these words and were NOT tested.
+           - word length <= 8 for C5/C6.
+           - only ONE reading of A5 is carried through (c); (a) and (b) are named in
+             C1 and then set aside, WITH the reason.
+
+==============================================================================
+  C1: PASS
+  C2: PASS
+  C3: PASS
+  C4: PASS
+  C5: PASS
+  C6: PASS
+  C7: PASS
+  C8: PASS
+VERIFIED

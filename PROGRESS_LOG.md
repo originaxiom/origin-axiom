@@ -16526,3 +16526,54 @@ right ambient group. Negative only that the full cover is regular. Fences unchan
 > in the verdict.*
 
 **Gates 35/35.**
+
+---
+
+## 2026-09-17 — xB018: PATH C — the two bits are not the same ℤ/2, and each is invisible to the layer the other lives on
+
+Sealed `0c9b1086…`, pushed at `3e63250` before `verification/` existed — **with its configuration
+axes declared**, under the rule xB017 Addendum 4 earned. **All three approved paths are now run.**
+
+**C1 — the hazard sitting in front of the question.** The record uses **"A5" for three different
+things**: (a) `THE_FRAMEWORK`'s own table row (*"forces the word to be mixed"* — a **constraint**,
+not a bit); (b) xB012's *"manifold restriction"* — which **cannot** distinguish the sisters, since
+**both are manifolds**; (c) **H₁-torsion-freeness = knot-ness** (`ℤ` vs `ℤ/5 ⊕ ℤ`) — **the only one
+that is a ℤ/2**, and the one the question presupposes. Named, not silently resolved.
+
+**C2/C3 — they do opposite things.** `b++LR` is **isometric** to `b++RL` (same volume, `H₁`, `CS` at
+40 digits; and `P·LR·P⁻¹ = RL`, B979 re-derived) — **A7 fixes the object.** `b++LR` vs `b+-LR` is the
+**same volume but not isometric** — **A5(c) changes it.**
+
+**C4 — not the same ℤ/2, under all four sealed criteria.** Not equal as maps · not the same subgroup
+(word slot vs sign-prefix slot) · not the same action on any invariant · **not conjugate** —
+conjugate involutions have conjugate fixed sets, and **A7 fixes every bundle up to isometry while
+A5(c) fixes none.**
+
+**C5 — the sharp form.** Over 240 mixed words at 40 digits: **A7 negates `CS`, 240/240** (B128's M-C)
+· **A5(c) translates `CS` by ¼, 240/240** (xB015's K6). **Two different group operations — and on
+m004's own zero, negation is the identity and translation is not. The A7 bit dies there; the A5 bit
+survives.** On B979's **based** polynomial, A7 moves it and A5(c) leaves it fixed. *(This bench's
+polynomials come out transposed relative to B979's document — exactly the transposition B979 flagged,
+whose own reading is that the dependence on naming **is** the inserted bit. Reproduced, not
+disputed.)*
+
+**C6 — the blind cell, and it found why A7 is "one bit".** B1083 types the torsor as
+**`K₄ = ⟨C, P⟩`**. On the minimal word, **`C(LR) = P(LR) = RL`** — they **coincide**. Over mixed
+words of length 2–8 they agree on only **30 of 494**, first separating at **`RRL`**.
+
+> **The K₄ collapses to a single ℤ/2 exactly at the object A6 selects — which is why A7 reads as one
+> bit rather than two. A6's minimality is doing that work.**
+
+**C7.** `⟨A5(c), A7⟩ = ℤ/2 × ℤ/2` — disjoint coordinates, independent, and a **different** K₄ from
+B1083's torsor, which lives entirely inside the word.
+
+**C8 — the verdict.** **No, they are not the same bit** — and the content is **where each is
+visible**: **A7** is invisible to every **class** invariant and visible only to a **based** one,
+dying on m004's zero; **A5(c)** is invisible to the **character variety** (xB007) and visible in the
+**k-coupling** (xB015), surviving there. **Two bits, each invisible to the layer the other lives on.**
+
+**Axes held fixed, named as the rule requires:** monodromy in **`SL(2,ℤ)`** — **`GL(2,ℤ)` not varied**,
+though B1083 puts the Breath pulse there (`det M = −1`, `M² = RL`); **`b++`/`b+-` only**; word length
+**≤ 8**; **reading (c) of A5 only**. **The `GL(2,ℤ)` axis is the one a next arc should vary.**
+
+**Gates 35/35. Gate 5 absolute.**

@@ -1,0 +1,49 @@
+{
+ "id": "xB018",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B979",
+  "B1083",
+  "B128",
+  "B197",
+  "xB007",
+  "xB012",
+  "xB013",
+  "xB015",
+  "xB017"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B979_L131_A7",
+   "outcome": "CONFIRMED",
+   "what": "its two load-bearing facts re-derived independently: LR and RL ARE conjugate in SL(2,Z) via the record-swap P = [[0,1],[1,0]] (verified symbolically), so every CLASS invariant is blind to A7 -- and b++LR is ISOMETRIC to b++RL, same volume, same H_1, same CS at 40 digits, confirming it manifold-side; while the BASED Mobius fixed-point polynomial DOES move, LR giving t^2+t-1 and RL giving t^2-t-1. THE CONVENTION TRANSPOSITION B979 FLAGGED IS REPRODUCED: this bench's polynomials are transposed relative to B979's document, which is exactly what B979 says the bit IS -- the dependence on naming. Not disputed; reproduced."
+  },
+  {
+   "arc": "B1083_origin_torsor_typed",
+   "outcome": "CONFIRMED",
+   "what": "its typing of the founding torsor as K_4 = <C (letter swap, chirality), P (reversal, parity)> is used as the frame for C6, and C6 adds a fact B1083 did not state: THE TWO TORSOR BITS COINCIDE ON THE MINIMAL WORD. C(LR) = P(LR) = RL, and over all mixed words of length 2-8 they agree on only 30 of 494, first separating at RRL (C -> LLR, P -> LRR). So the K_4 collapses to a single Z/2 exactly at the object A6 selects, which is WHY A7 reads as 'one bit' rather than two."
+  },
+  {
+   "arc": "B128_symmetry_breaking_chirality",
+   "outcome": "CONFIRMED",
+   "what": "its M-C (the R<->L swap negates CS exactly) re-derived at 40 digits over 240 mixed words of length 2-7: 240 of 240."
+  },
+  {
+   "arc": "xB015_the_k_coupling_is_the_axiom_bit",
+   "outcome": "CONFIRMED",
+   "what": "its K6 (CS(b+-W) - CS(b++W) = 1/4) re-derived independently here over the same 240 words: 240 of 240. The two re-derivations together give C5's sharp form."
+  },
+  {
+   "arc": "xB012_the_object_below",
+   "outcome": "SCOPED",
+   "what": "its reading of A5 as 'the manifold restriction' is CORRECT but CANNOT BE THE m003/m004 BIT: both sisters are manifolds (torsion-free groups), verified here. The record uses 'A5' for three distinct things -- the table row's 'the word must be mixed', xB012's manifold restriction, and H_1-torsion-freeness (knot-ness) -- and only the third is a Z/2. Named as a terminology hazard rather than silently resolved."
+  }
+ ],
+ "claim_one_line": "PATH C: NO -- THE A5 BIT AND THE A7 BIT ARE NOT THE SAME Z/2, AND EACH IS INVISIBLE TO THE LAYER THE OTHER LIVES ON. PREREGISTRATION sealed 0c9b1086... and PUSHED at 3e63250 before verification/ existed, WITH ITS CONFIGURATION AXES DECLARED under the rule xB017 Addendum 4 earned. C1, THE HAZARD IN FRONT OF THE QUESTION: the record uses 'A5' for THREE different things -- (a) THE_FRAMEWORK's own table row, 'the first mixed closure is torsion-free, forces the word to be MIXED', which is a CONSTRAINT not a bit; (b) xB012's 'manifold restriction', which CANNOT distinguish the sisters since BOTH are manifolds; and (c) H_1-torsion-freeness = knot-ness, H_1(m004) = Z versus H_1(m003) = Z/5 + Z, which IS a Z/2. Only (c) is a bit, the question presupposes it, and this arc names all three rather than silently picking one. C2: A7 FIXES THE OBJECT -- b++LR is ISOMETRIC to b++RL (same volume, H_1, CS at 40 digits) and the monodromies are conjugate via the record-swap P, B979 re-derived. C3: A5(c) CHANGES THE OBJECT -- same volume, NOT isometric, H_1 separating them. C4: NOT THE SAME Z/2 UNDER ALL FOUR SEALED CRITERIA -- not equal as maps (one fixes the type, the other does not), not the same subgroup (they act on different slots, word versus sign prefix), not the same action on any invariant tested, and not conjugate (conjugate involutions have conjugate fixed sets, and A7 fixes EVERY bundle up to isometry while A5(c) fixes NONE). C5, THE SHARP FORM: over 240 mixed words at 40 digits, A7 NEGATES CS 240 of 240 (B128 M-C) and A5(c) TRANSLATES CS BY 1/4 240 of 240 (xB015 K6) -- TWO DIFFERENT GROUP OPERATIONS, and ON m004's OWN ZERO NEGATION IS THE IDENTITY AND TRANSLATION IS NOT, so THE A7 BIT DIES THERE AND THE A5 BIT SURVIVES. On B979's BASED fixed-point polynomial, A7 moves it (LR gives t^2+t-1, RL gives t^2-t-1, the convention transposition B979 flagged reproduced exactly) and A5(c) leaves it fixed, never touching the word. C6, THE BLIND CELL, AND IT FOUND WHY A7 IS 'ONE BIT': B1083 types the founding torsor as K_4 = <C, P>, and on the MINIMAL word C(LR) = P(LR) = RL -- the two torsor bits COINCIDE there, agreeing on only 30 of 494 mixed words of length 2-8 and first separating at RRL (C to LLR, P to LRR). THE K_4 COLLAPSES TO A SINGLE Z/2 EXACTLY AT THE OBJECT A6 SELECTS, which is why A7 reads as one bit rather than two -- A6's MINIMALITY IS DOING THAT WORK. C7: <A5(c), A7> = Z/2 x Z/2, acting on disjoint coordinates of the pair (prefix, word), a DIFFERENT K_4 from B1083's torsor which lives entirely inside the word coordinate. C8, THE VERDICT: the bits differ, and the content is WHERE each is visible -- A7 is invisible to every CLASS invariant and visible only to a BASED one, dying on m004's zero; A5(c) is invisible to the CHARACTER VARIETY (xB007) and visible in the k-COUPLING (xB015), surviving there. TWO BITS, EACH INVISIBLE TO THE LAYER THE OTHER LIVES ON. AXES HELD FIXED AND NAMED AS THE RULE REQUIRES: the monodromy's ambient group is SL(2,Z) and GL(2,Z) IS NOT VARIED (B1083 puts the Breath pulse there, det M = -1 with M^2 = RL, and this arc could not reach it -- the axis a next arc should vary); bundles b++ and b+- only, b-+ and b-- not parsing for these words and NOT tested; word length <= 8; and only reading (c) of A5 carried through. Gate 5 absolute; nothing to CLAIMS.md."
+}
