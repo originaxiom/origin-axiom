@@ -83,3 +83,30 @@ reported as a sweep that only confirmed things.**
 **The standing target list is now:** **CGHN first** (unchanged — it carries the most unread weight),
 then **Meyerhoff–Ouyang** via the two new leads, then **Floyd–Hatcher / Guéritaud** if the family's
 roots are ever load-bearing.
+
+---
+
+## AMENDMENT 2 — CGHN OBTAINED; the UNREACHABLE grade was this seat's error (2026-09-17, xB024 Addendum 1)
+
+| source | grade change | what the source actually says |
+|---|---|---|
+| **CGHN**, *Computing Arithmetic Invariants of 3-Manifolds*, Experiment. Math. **9** (2000) 127–152 | **UNREACHABLE → READ-AT-SOURCE** | **§5A:** *"If M is closed the Chern–Simons invariant is well defined modulo 1, but Snap and SnapPea still only compute modulo 1/2."* **§5B:** *"The relation of η(M) to cs(M) for a **compact** 3-manifold M is `3η(M) ≡ 2cs(M) + τ (mod 2)` (see [Atiyah et al. 1975]), where τ is the number of 2-primary summands of H₁(M;ℤ)."* **Both of B1239's quotations are EXACT and correctly attributed.** |
+| **Meyerhoff–Ouyang** | **UNREACHABLE, with its CONTENT now known secondhand** | CGHN §5B: *"Meyerhoff and Ouyang [1997] extended the definition of η(M) to cusped M **for which one has chosen a basis of homology at each cusp**."* **GRADE: SECONDARY** — CGHN describing MO. **MO itself is still unread and still cited for nothing.** This confirms L194's long-standing guess about a "cusp-basis correction". |
+| **Atiyah–Patodi–Singer**, *Spectral asymmetry and Riemannian geometry, II*, Math. Proc. Cambridge Philos. Soc. **78**:3 (1975) 405–432 | **new row, CITED-UNREAD** | The source of the `3η ≡ 2cs + τ` relation, as CGHN attributes it. **Read CGHN's statement, not APS's.** |
+
+### THE PROCESS LESSON, which is the point of this amendment
+
+**The UNREACHABLE grade was wrong, and it was wrong in the direction that costs most: it declared a
+door shut that was open.** CGHN was freely available on **Project Euclid's open archive** and as
+**`snappaper3.pdf` on Neumann's Columbia preprints page** — the same page that had already supplied
+Neumann–Reid. The failure was that WebFetch's reader could not parse the PDF binary, and that was
+read as "no access" rather than "wrong tool".
+
+> **A grade of UNREACHABLE now requires, and this register enforces it going forward:**
+> **(1) the author's own page checked; (2) the journal's own archive checked; (3) the bytes fetched
+> and parsed locally before concluding.** *"UNREACHABLE" must describe the source, never the search.*
+
+**Consequence for xB024's banked headline.** The arc reported *"NO new insight"* — reached while
+CGHN was wrongly believed out of reach. **That headline stands for the six targets it covered and
+NOT for T1**, where CGHN yields B1239's confirmation, MO's actual requirement, and a closed-case
+chain whose every substantive link is now read at source.

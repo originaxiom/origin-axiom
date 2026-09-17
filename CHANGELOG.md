@@ -1,5 +1,36 @@
 # Changelog
 
+## xB024 Addendum 1 — CGHN obtained: the UNREACHABLE grade was our error, and the closed case closes
+
+**The correction first.** xB024 banked **CGHN as UNREACHABLE**. It was **freely available
+throughout** — Project Euclid's open archive, and `snappaper3.pdf` on Neumann's own Columbia page,
+*the same page that supplied Neumann–Reid*. WebFetch couldn't parse the PDF binary and that was read
+as "no access" instead of "wrong tool".
+
+> **"UNREACHABLE" described the search, not the source.** The register now requires three checks
+> before that grade may be used: the author's page, the journal's archive, and the bytes parsed
+> locally.
+
+**xB024's "no new insight" headline therefore stands for its six other targets and NOT for T1.**
+
+**B1239's two quotations are EXACT** — CGHN §5A's mod-½ statement and §5B's
+`3η ≡ 2cs + τ (mod 2)`, `τ` = # 2-primary summands of `H₁`, credited to Atiyah–Patodi–Singer 1975.
+*(An intermediate pass of ours reported "Atiyah: 0 hits" and was about to doubt the attribution —
+a text-extraction artifact, caught before use. Second time in two arcs a "defect in the record"
+dissolved on closer reading.)*
+
+**What Meyerhoff–Ouyang actually requires**, per CGHN §5B: cusped `η` needs **a chosen basis of
+homology at each cusp** — confirming L194's guess since 2026-09-02. Graded **SECONDARY**; MO is
+still unread and still cited for nothing.
+
+**The closed-case chain, every substantive link read at source:** `3η ≡ 2cs + τ` [CGHN] · `η = 0`
+for closed amphichiral [the one unsourced link, named] · `τ` even from Kawauchi I+III [xB023] ⇒
+**`cs ≡ 0 mod 1`**, not merely mod ½.
+
+**A vacuous pass of ours, caught and removed.** C1 first gated on `zero + errors == total` — which
+passes when *every* measurement fails. `τ` even is measured **46/46**; the `cs` half is **UNTESTED**
+because SnapPy cannot compute `cs` for these manifolds at all — which **CGHN §5B itself predicts**.
+
 ## xB024 — the literature pass: five read at source, one defect in our own work, and NO new insight
 
 **The seal named the risk and the risk is the headline:** *"reporting a literature sweep as

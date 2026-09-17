@@ -1,0 +1,67 @@
+{
+ "cells": {
+  "C1": true,
+  "C2": true
+ },
+ "results": {
+  "C1": {
+   "manifolds": 46,
+   "tau_even": 46,
+   "cs_zero": 0,
+   "cs_tested": 0,
+   "not_zero": [],
+   "cs_unavailable": 46,
+   "why": [
+    [
+     "m018(1,0)",
+     "ValueError: The Chern-Simons invariant isn't currently known."
+    ],
+    [
+     "m177(1,0)",
+     "ValueError: The Chern-Simons invariant isn't currently known."
+    ],
+    [
+     "m153(1,0)",
+     "ValueError: The Chern-Simons invariant isn't currently known."
+    ]
+   ],
+   "cs_half": "UNTESTED -- instrument cannot compute cs for these manifolds",
+   "fence": "SnapPy reads cs mod 1/2; the mod-1 conclusion is DERIVED, not measured"
+  },
+  "C2": {
+   "rows": [
+    [
+     "APS relation 3eta = 2cs + tau (mod 2)",
+     "CGHN 5B",
+     "READ-AT-SOURCE"
+    ],
+    [
+     "cs mod 1/2 is SnapPy's readout limit",
+     "CGHN 5A",
+     "READ-AT-SOURCE"
+    ],
+    [
+     "free involution => Tor H_1 = A+A => tau even",
+     "Kawauchi I + III",
+     "READ-AT-SOURCE (xB023)"
+    ],
+    [
+     "eta is odd under orientation reversal",
+     "standard",
+     "NOT SOURCED HERE -- the one unsourced link"
+    ],
+    [
+     "cusped eta needs a chosen homology basis at each cusp",
+     "CGHN 5B on Meyerhoff-Ouyang",
+     "SECONDARY"
+    ],
+    [
+     "the cusped eta formula itself",
+     "Meyerhoff-Ouyang 1997",
+     "STILL UNREAD -- cited for nothing"
+    ]
+   ],
+   "l194_closed": false
+  }
+ }
+}

@@ -1,0 +1,30 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+C1       THE CLOSED-CASE CHAIN, tested where its hypotheses hold
+         Prediction from the chain: a CLOSED hyperbolic 3-manifold with a FREE
+         orientation-reversing involution has cs = 0 mod 1, hence certainly mod 1/2,
+         and its tau (number of 2-primary summands of H_1) is EVEN.
+         closed manifolds with a free orientation-reversing involution: 46
+         tau EVEN (Kawauchi step, read at source):        46 of 46
+         cs class ZERO (the chain's conclusion, mod 1/2): 0 of 46
+         errors / cs unavailable: 46
+         FENCE, stated: SnapPy reads cs mod 1/2 (CGHN 5A), so this run CANNOT see the
+         chain's sharper mod-1 conclusion.  It tests the chain where the instrument can
+         see, and the mod-1 half stays a READ-AT-SOURCE DERIVATION, not a measurement.
+C1 PASS  every link the instrument can check holds.
+
+C2       WHAT THE CHAIN DOES NOT REACH -- and the grade each source carries
+           READ-AT-SOURCE                     APS relation 3eta = 2cs + tau (mod 2)   [CGHN 5B]
+           READ-AT-SOURCE                     cs mod 1/2 is SnapPy's readout limit   [CGHN 5A]
+           READ-AT-SOURCE (xB023)             free involution => Tor H_1 = A+A => tau even   [Kawauchi I + III]
+           NOT SOURCED HERE -- the one unsourced link eta is odd under orientation reversal   [standard]
+           SECONDARY                          cusped eta needs a chosen homology basis at each cusp   [CGHN 5B on Meyerhoff-Ouyang]
+           STILL UNREAD -- cited for nothing  the cusped eta formula itself   [Meyerhoff-Ouyang 1997]
+         L194's OPEN HALF IS CUSPED.  The chain above is CLOSED-case only, so it does
+         NOT close L194 -- exactly as xB023's seal declared before any cell ran.
+
+==============================================================================
+  C1: PASS
+  C2: PASS
+VERIFIED

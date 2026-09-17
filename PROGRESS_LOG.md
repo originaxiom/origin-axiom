@@ -16928,3 +16928,78 @@ and `NOVELTY_AUDIT.md` exists for that.
 `docs/LITERATURE_READ_REGISTER.md` **amended (append-only)** with every grade change.
 
 **Gates 35/35. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-17 — xB024 ADDENDUM 1: CGHN OBTAINED, and the UNREACHABLE grade was this seat's error
+
+**Beyond the seal** (`PREREGISTRATION.md` untouched, `9880dc01…`). Cells `C1`–`C2`,
+`verification/cghn_chain.py`, run after the arc was banked, at the owner's *"go for it"*.
+
+### The process correction first, because it is the most useful thing here
+
+xB024 graded **CGHN UNREACHABLE** after two failed routes and **banked that verdict. It was wrong.**
+The paper was **freely available throughout** — on **Project Euclid's open Experimental Mathematics
+archive**, and as **`snappaper3.pdf` on Neumann's Columbia preprints page**, *the same page that had
+already supplied Neumann–Reid one cell earlier*. The first attempt failed only because WebFetch's
+reader could not parse the PDF binary, and **that was read as "no access" rather than "wrong
+tool"**. Extracting locally with `pypdf` worked immediately, exactly as it had for Kawauchi.
+
+> **"UNREACHABLE" described the SEARCH, not the source.** A negative access result needs the same
+> controls as a negative measurement. **The register now requires three before the grade may be
+> used: the author's own page, the journal's own archive, and the bytes parsed locally.**
+
+**And it amends the arc's banked headline.** xB024 reported *"NO new insight"* — reached **while
+CGHN was wrongly believed out of reach.** That headline **stands for the six targets it covered and
+NOT for T1.**
+
+### What CGHN gives
+
+**§5A, verbatim:** *"If M is closed the Chern–Simons invariant is well defined modulo 1, but Snap
+and SnapPea still only compute modulo 1/2."*
+**§5B, verbatim:** *"The relation of `η(M)` to `cs(M)` for a **compact** 3-manifold M is
+`3η(M) ≡ 2cs(M) + τ (mod 2)` (see [Atiyah et al. 1975]), where `τ` is the number of 2-primary
+summands of `H₁(M;ℤ)`."*
+
+> **Both of B1239's quotations are EXACT and correctly attributed. T1's sealed prediction CONFIRMED.**
+
+**A false alarm of this seat's, recorded:** an intermediate pass reported *"Atiyah: 0 hits"* and
+began to treat the attribution as suspect. **Text-extraction artifact** — the PDF renders it
+`A tiy ah, P ato di and Singer`. **Caught before use. Second time in two arcs that a "defect in the
+record" dissolved on closer reading**, and the first (Kawauchi) cost a withdrawn critique.
+
+**And what Meyerhoff–Ouyang actually requires**, from a source we CAN read — CGHN §5B: *"Meyerhoff
+and Ouyang [1997] extended the definition of `η(M)` to cusped M **for which one has chosen a basis
+of homology at each cusp**."* **GRADE SECONDARY; MO itself is still unread and still cited for
+nothing.** But **L194's "cusp-basis correction", a guess in the register since 2026-09-02, is
+CONFIRMED as the real content.**
+
+### The chain that now closes in the CLOSED case
+
+`3η ≡ 2cs + τ (mod 2)` **[CGHN §5B, read]** · `η` odd under orientation reversal ⇒ `η = 0` for
+closed amphichiral **[standard — THE ONE UNSOURCED LINK, and it is named]** · so `2cs + τ ≡ 0` ·
+free orientation-reversing involution ⇒ `Tor H₁ ≅ A⊕A` ⇒ **`τ` even** **[Kawauchi I+III, read,
+xB023]** ⇒ **`cs ≡ 0 (mod 1)`**.
+
+> **A closed hyperbolic 3-manifold with a free orientation-reversing involution has `cs ≡ 0` mod 1
+> — not merely mod ½.** Both substantive ingredients read at source.
+
+### C1 — and a vacuous pass of this seat's, caught and removed
+
+On the 46 constructed closed manifolds: **`τ` EVEN 46 of 46** (measured);
+**`cs` UNAVAILABLE 46 of 46** — `ValueError: The Chern-Simons invariant isn't currently known.`
+
+**The first version of this cell PASSED on that**, gating on `zero + errors == total` — **a
+condition that passes when every measurement fails.** This record's own **test-vacuity** class,
+written by the seat that spent the session catching it elsewhere. The condition now gates only on
+the measured half and **the `cs` half is reported UNTESTED**.
+
+**The cause is in CGHN itself (§5B):** Snap obtains these invariants only by bootstrapping along
+chains of hyperbolic drillings and fillings, and for a manifold not so linked it *"cannot compute"*
+them. **The literature predicted the instrument failure.**
+
+**FENCE:** SnapPy reads `cs` mod ½ (§5A), so the mod-1 conclusion is a **read-at-source derivation,
+not a measurement**, and is not claimed as one. **L194 is still not closed** — its open half is
+cusped and needs MO's cusped `η`.
+
+**Gates 35/35. Gate 5 absolute. Nothing to `CLAIMS.md`.**
