@@ -1,0 +1,11 @@
+A  = LR = ((2, 1), (1, 1))  det 1
+F  = LP = ((1, 1), (1, 0))  det -1  tr 1
+(1) F^2 == A : True  and F is orientation-reversing : True
+(2) integer square roots of A with |entries| <= 6 : [((-1, -1), (-1, 0)), ((1, 1), (1, 0))]
+    they are exactly {F, -F} : True
+    none is orientation-preserving : True
+(3) a == b has an orientation-reversing root : [(1, True), (2, True), (3, True), (4, True)]
+    and (L_k P)^2 == B(k,k) : True
+(4) CONTROL a != b has none : True  over 12 pairs
+    CONTROL A has no orientation-preserving square root : True
+B14 VERIFIED: True

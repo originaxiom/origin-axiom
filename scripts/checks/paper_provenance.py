@@ -50,7 +50,7 @@ CLAIMS = [
         ["B1003"], "settled"),
  ("3",  "the chain is 57 links, 53 of them forced (39 of 43 when the census instrument was first recorded); axioms only at the two ends",
         ["B1123"], "settled"),
- ("3",  "the golden substitution matrix squared is the object's monodromy (M^2 = LR)",
+ ("3",  "the golden substitution matrix squared is the object's monodromy (M^2 = LR), and that square root is UNIQUE up to sign in GL(2,Z) and is orientation-REVERSING; L_a R_b admits such a root iff a = b (Cayley-Hamilton, with enumeration and two controls)",
         ["B14"], "settled"),
  ("3",  "the combinatorial carrier reaches only Q(sqrt5); Q(sqrt-3) is bought at geometrization",
         ["B1003"], "settled"),

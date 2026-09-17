@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-09-17T10:52:32Z",
+ "built": "2026-09-17T12:42:22Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,7 +9,7 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "4a40e038"
+  "git_head": "2c06d7a9"
  },
  "claims": [
   {
@@ -115,7 +115,7 @@
    ]
   },
   {
-   "claim": "the golden substitution matrix squared is the object's monodromy (M^2 = LR)",
+   "claim": "the golden substitution matrix squared is the object's monodromy (M^2 = LR), and that square root is UNIQUE up to sign in GL(2,Z) and is orientation-REVERSING; L_a R_b admits such a root iff a = b (Cayley-Hamilton, with enumeration and two controls)",
    "support": "settled",
    "records": [
     {
@@ -124,13 +124,21 @@
      "verdict": "PROVED",
      "claim_one_line": "F=LP is the unique GL(2,Z) square root of A up to sign, and L_aR_b has an orientation-reversing integer square root iff a=b.",
      "seals": [],
-     "reproduce_sh": false,
-     "scripts": [],
-     "results": [],
-     "locks": [
-      "tests/test_b1003_f2_f8_locks.py"
+     "reproduce_sh": true,
+     "scripts": [
+      "frontier/B14_half_step_square_root_selector/verification/reproduce.sh",
+      "frontier/B14_half_step_square_root_selector/verification/square_root.py"
      ],
-     "primary_locks": []
+     "results": [
+      "frontier/B14_half_step_square_root_selector/verification/square_root.out.txt"
+     ],
+     "locks": [
+      "tests/test_b1003_f2_f8_locks.py",
+      "tests/test_b14_square_root_selector.py"
+     ],
+     "primary_locks": [
+      "tests/test_b14_square_root_selector.py"
+     ]
     }
    ]
   },
@@ -2761,7 +2769,7 @@
   "claims": 67,
   "records": 95,
   "seals": 21,
-  "locks": 145,
-  "records_with_a_primary_lock": 94
+  "locks": 146,
+  "records_with_a_primary_lock": 95
  }
 }
