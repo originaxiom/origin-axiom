@@ -1,5 +1,43 @@
 # Changelog
 
+## xB006 E82 IS A CLASS, BUT A SMALL AND SHALLOW ONE: 3 candidates in 798 kills, and the primary one SURVIVES re-test with its missing link supplied
+
+Owner-directed continuation. **PREREGISTRATION sealed (sha256 `94b1f14c319ef5e325fac569a165ad797ca11f0aaf8cc37dc3bda719483935ce`) and PUSHED at `504d6bd` BEFORE any cell of this arc ran** — before `verification/` existed.
+
+**Why the arc exists.** E82 (*the assumed-connected linkage class*) entered `docs/ERROR_LEDGER.md` the same day, from **this seat's own** correction of xB005's Q3. **A seat that mints an error class from a single self-inflicted error and never checks whether it recurs has committed the same over-reach it is auditing.** The seal named the inconvenient outcome in advance: *"if |C| = 0, E82 is not a class — it is this seat's own error generalised without warrant, itself an instance of E11 and E33 — and this arc will downgrade the ledger entry."*
+
+**The stratum was genuinely unswept.** B742 (2026-07-21) hunted banked negatives on the discriminator *"a kill never EARNED by computation"* — 213 triaged, 33 P1, 32 recomputed, **2 revived**. An E82 kill **is** earned by computation and its computation is **correct**; what fails is the step from the computed links to the conclusion. **B742 would have passed xB005's Q3.**
+
+**S1 PASS — the instrument is calibrated both ways before any count is reported.** The lexicon fires on a planted E82 kill, and does **not** class **B727** — the record's own sound form of the same pattern (*"forced by one ADE classification, so the recurrence is generic not evidence"*) — as a candidate. Had B727 landed in the candidate bucket the instrument would have been void and S2's count with it.
+
+**S2 — 30 raw candidates of 798 kills. And two self-corrections before any number was reported.**
+
+**(1) The lexicon was not the one I sealed.** A first draft added `by construction` while coding. It is not in the sealed list, it is descriptive prose (B425's *"golden BY CONSTRUCTION"*), and **it drove 27 of an initial 46 candidates on its own.** Removing it restores the sealed lexicon and gives 30. The withdrawal is recorded in the source above the regex.
+
+**(2) Thirty is not the answer.** **Reporting 30 as "wrong kills" would have been the exact over-reach this arc audits.** Every raw candidate was read and adjudicated, with its reason recorded and asserted to cover the sweep's output exactly: `BASE_RATE` **10** (a base-rate / look-elsewhere argument **with the rate computed**), `LINK_NAMED` **8** (the link **is** supplied — a definition, a named theorem, a named fact — and the 600-char window missed it), `PROSE` **5**, `MODEL` **3**, `NOT_A_KILL` **1**, **`E82` 3**.
+
+**S2b PASS — |C| = 3, inside the sealed prior's range 1–8.** Outcome A: E82 is a class, the inconvenient outcome did not occur, and the ledger entry stands. **But the honest headline is the size: 3 in 798.**
+
+**And the adjudication says something this seat did not expect to report.** Against a standing expectation that the record is full of bad kills: **on this axis it is not, and the sweep's own output proves it.** Ten kills carry a *computed* base rate. Eight name the theorem or definition that does the work. Three arcs are the **model** of the behaviour E82 asks for — **B1223** states the discriminator itself (*"the difference is one computation: check whether the action matches"*), **B772** formed a linkage hypothesis, tested it and **refuted its own** (*"my hypothesis was wrong: 12/14 negatives are object-native and genuinely seam-independent"*), and **B995** computed the dependence it suspected, `(1−r)⁵`, and **voided its own instrument** with it.
+
+**S3 — the primary candidate re-tested, and it SURVIVES.** B146 writes that B145's surviving arms are *"near-tautological … (**one fact**: short word ≈ low volume ≈ palindromic period)"* — three properties chained by `≈` with no map, and the *"near-tautological"* is the evidential downgrade, so the line is load-bearing. Tested on 135 once-punctured-torus bundles `b++<w>`, `w` cyclically reduced of length ≤ 9:
+
+* **"short word ≈ low volume" is FALSE** — **1095** pairs where the shorter word has the larger volume (`LLRR`, length 4, vol 3.6639 > `LLLLR`, length 5, vol 3.1773);
+* **word length barely carries volume information** — at fixed length the spread reaches **2.54×** (length 9: 3.4762 … 8.8240);
+* **"low volume ≈ palindromic" is FALSE** — **912** pairs where a non-palindromic bundle has lower volume than a palindromic one (`LLRLRR` 5.6254 < `LRLRLR` 6.0896).
+
+**The three are not one fact; the chain as written is false.** **And the other half, which the headline must carry:** at the *bottom* of the volume spectrum the coupling is real **and structural** — lowest palindromic volume **2.0299** against lowest non-palindromic **5.6254**, all 12 lowest-volume bundles palindromic, and **at every word length the volume minimiser is the monotone word `Lⁿ⁻¹R`** (verified, lengths 2–9), whose reverse `R Lⁿ⁻¹` is a rotation of itself — **cyclically palindromic by inspection**.
+
+> **That is the map B146 never wrote.** Volume-minimality **does** force palindromicity in the extremal regime where B146 applies it — via an explicit family, not via an `≈`.
+
+**B146's kill SURVIVES; what is corrected is its justification. A scoping note, not a revival** — exactly as the sealed S3 prior predicted (*"a kill wrong in the E82 way is still usually right by accident"*), except that here it is right for a **reason**, now written down.
+
+**Two secondaries reported, not re-tested.** **B142** — *"the `κ₁₂=κ₂₃=κ₁₃` equality is the S₃ cusp symmetry restated (automatic), not independent evidence"*: `S₃` is named, the restatement is not exhibited; **low leverage**, since B142's decisive arm is elsewhere (the trace field is `ℚ(√−7)` or `ℚ(i)`, not `ℚ(√−3)`). **B1096** — *"completeness of content and emptiness of layer are the same fact"*: a reason is offered, no map between the two statements.
+
+**What this arc does not claim.** No arc is re-verdicted; **none is retracted**. B146 and the two secondaries go to `cc` as proposals with the computation attached. **Recall is not measured, only calibrated on planted controls**: a kill phrased without one of the sealed constructs is invisible to the sweep — the deliberate B806 trade, since a checker that cries wolf is ignored — and **the true class may be larger than 3.**
+
+Corpus audit and census computation. Gate 5 absolute: no value, no generation count, no physics reading, nothing promoted to `CLAIMS.md`. Four cells, each asserting its own mathematics.
+
 ## xB005 ADDENDUM 1: Q3 WAS A FALSE NEGATIVE — the seam it asserted was never linked
 
 Owner-instructed reverification of a same-day negative ("reverify, maybe is a false negative"). The instruction was right. `PREREGISTRATION.md` untouched (`afb4dc82…`); new cells `Q4a`–`Q4c` in `verification/seam_independence.py`, each asserting its own mathematics. **Q1, Q2 and I-31 are untouched and stand.**
