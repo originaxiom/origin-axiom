@@ -1,0 +1,76 @@
+H1       THE CORRECTION -- xB019 contradicts xB012, and xB012 is right
+         xB019 wrote: 'a non-orientable manifold's holonomy lands in PGL(2,C),
+         outside the SL(2,C) theory.'  xB012's V2 banked: 'PGL(2,C) = PSL(2,C)'.
+         THE ISOMORPHISM, verified: over an algebraically closed field every
+         element has a square root, so any A in GL(2,C) is scaled to det 1 by
+         1/sqrt(det A) -- hence SL(2,C) -> PGL(2,C) is ONTO and
+         PGL(2,C) = SL(2,C)/{+-I} = PSL(2,C).
+           worked instance: det(diag(a,1)/sqrt(det)) = 1  -> 1 for every a != 0
+         (It FAILS over R or F_q, where not every element is a square -- which is
+          exactly why PGL(2,O_3) != PSL(2,O_3) in xB017 but PGL(2,C) = PSL(2,C) here.)
+         SO PGL(2,C) IS NOT A LARGER GROUP AND CANNOT BE THE MECHANISM.
+         THE REAL MECHANISM: Isom(H^3) = PSL(2,C) rtimes Z/2, the extra factor being
+         COMPLEX CONJUGATION -- ANTI-holomorphic, and in no PGL at all.
+H1 PASS  xB019's mechanism sentence is WITHDRAWN.  The mechanism is
+         conjugation, and this arc's own session had the fact banked two arcs earlier.
+
+H2       B1224 DERIVED FROM THE MECHANISM, not observed
+         Orientation reversal acts on the holonomy by COMPLEX CONJUGATION, and the
+         complex volume Vol + i*CS is conjugated: Vol - i*CS.  Volume is unchanged
+         (it is positive), so CS |-> -CS.
+         If M is AMPHICHIRAL it admits an orientation-reversing SELF-isometry, so
+           CS = -CS  =>  2*CS = 0  =>  CS in {0, 1/4} mod 1/2.
+         THAT IS B1224, DERIVED.  B1224 banked it as a census observation (6 of 6).
+         Now the check that nothing escapes:
+         amphichiral manifolds in census[:400]: 6;  OUTSIDE {0,1/4}: 0
+         classes: {'m003': '1/4', 'm004': '0', 'm135': '1/4', 'm136': '0', 'm206': '0', 'm207': '1/4'}
+H2 PASS  no escapees.  The law is now a CONSEQUENCE of the
+         mechanism rather than a pattern in a table.
+
+H3       L194 AT FIVE TIMES B1235's SLICE (the blind cell)
+         B1235 cell 2: orientation double covers of the first 40 non-orientable
+         census manifolds are 40 at CS = 0, 0 at 1/4, against a 36% quarter-rate
+         among amphichiral manifolds generally.  Registered L194, 'Data, not theorem'.
+         orientation double covers tested: 200  (errors 0)
+           CS = 0    : 200
+           CS = 1/4  : 0
+           other     : 0
+         B1235 had 40/40; this is 200 tested, 200 at zero.
+H3 PASS  the slice is enlarged 5.0x and the result is UNCHANGED -- still 100% at zero.
+
+H4       WHAT THE MECHANISM EXPLAINS, AND WHAT IT DOES NOT
+         EXPLAINS: the 2-TORSION.  Conjugation gives CS = -CS for any manifold with
+           an orientation-reversing self-isometry, hence CS in {0, 1/4}.  Derived in
+           H2, and an orientation DOUBLE COVER always has such an isometry -- its
+           deck transformation -- so its CS is 2-torsion BY CONSTRUCTION.  That is
+           B1234's cell 1 (40 of 40 amphichiral) with a reason under it.
+         DOES NOT EXPLAIN: the SELECTION OF 0 OVER 1/4.  Conjugation is blind to
+           which of the two 2-torsion classes you land in.  L194's hypothesis is
+           that FREENESS of the deck involution does the selecting -- and NOTHING IN
+           THIS ARC DERIVES THAT.  H3 is data, at a larger slice; it is not a proof,
+           and this arc does not let the data imply the theorem.
+         SO THE HONEST STATE: B1224 is upgraded from OBSERVED to DERIVED; L194 is
+           SHARPENED -- the 2-torsion half is now explained, and exactly the
+           selection half remains open, with the evidence for it strengthened.
+
+H5       VERDICT
+         (1) xB019's mechanism sentence is WITHDRAWN: PGL(2,C) = PSL(2,C), and this
+             session had that banked in xB012 two arcs earlier.  The mechanism is
+             COMPLEX CONJUGATION.
+         (2) B1224 is DERIVED from it rather than observed, with no census escapees.
+         (3) L194's data is strengthened at a larger slice, and its OPEN half is
+             named precisely: conjugation forces the 2-torsion, NOT the selection.
+
+         AXES HELD FIXED, NAMED AS THE RULE REQUIRES:
+           - CUSPED manifolds only; the closed case is not touched.
+           - SnapPy's cs normalisation (mod 1/2) throughout.
+           - the non-orientable census slice is a PREFIX, not a random sample.
+           - freeness of the deck involution is CITED from B605, not re-verified.
+
+==============================================================================
+  H1: PASS
+  H2: PASS
+  H3: PASS
+  H4: PASS
+  H5: PASS
+VERIFIED

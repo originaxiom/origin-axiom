@@ -1,0 +1,41 @@
+{
+ "id": "xB020",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "xB012",
+  "xB019",
+  "B1224",
+  "B1234",
+  "B1235",
+  "B605"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "xB019_the_one_tick_object",
+   "outcome": "CORRECTED",
+   "what": "its named MECHANISM is wrong and is withdrawn. xB019 wrote that 'a non-orientable manifold's holonomy lands in PGL(2,C), outside the SL(2,C) theory'. PGL(2,C) IS PSL(2,C): over an algebraically closed field every element has a square root, so any A in GL(2,C) is scaled to det 1 by 1/sqrt(det A), making SL(2,C) -> PGL(2,C) onto. Verified symbolically here. THIS SESSION HAD THE FACT BANKED TWO ARCS EARLIER, in xB012's V2, so xB019 contradicted xB012 within the same session. THE REAL MECHANISM IS COMPLEX CONJUGATION: Isom(H^3) = PSL(2,C) semidirect Z/2, the extra factor being ANTI-HOLOMORPHIC and in no PGL at all. Everything else in xB019 -- the tool audit, the two bits splitting across the squaring, the ill-posedness of the escape route -- is UNAFFECTED, since none of it used the PGL sentence; the sentence was labelled 'the mechanism, not computed here' and is now computed and replaced."
+  },
+  {
+   "arc": "B1224_amphichiral_cs_torsion",
+   "outcome": "CONFIRMED",
+   "what": "UPGRADED FROM OBSERVED TO DERIVED. B1224 banked 'amphichirality forces CS to be 2-torsion' as a census observation, 6 of 6. Here it is a CONSEQUENCE of the mechanism: orientation reversal acts on the holonomy by complex conjugation, conjugating the complex volume Vol + i CS to Vol - i CS; the volume is unchanged because it is positive, so CS maps to -CS; an amphichiral manifold has an orientation-reversing SELF-isometry, so CS = -CS and 2 CS = 0, giving CS in {0, 1/4} mod 1/2. The check found no escapees over OrientableCuspedCensus[:400] -- 6 amphichiral, 0 outside {0,1/4}, with m004/m136/m206 at 0 and m003/m135/m207 at 1/4."
+  },
+  {
+   "arc": "B1235_two_seat_harvest",
+   "outcome": "CONFIRMED",
+   "what": "its cell 2 datum for L194 is EXTENDED FIVEFOLD. B1235 tested the orientation double covers of the first 40 non-orientable census manifolds and found 40 at CS = 0 and 0 at 1/4, against a 36% quarter-rate among amphichiral manifolds generally, marking the row 'Data, not theorem'. At 200 covers the result is UNCHANGED: 200 at zero, 0 at a quarter, 0 other, 0 errors -- P about 0.64^200 = 1.7e-39 against the quarter-rate. STILL DATA, NOT THEOREM, and this arc does not let the data imply it."
+  },
+  {
+   "arc": "B1234_the_walls_trace_to_A6",
+   "outcome": "CONFIRMED",
+   "what": "its cell 1 (orientation double covers are 40 of 40 amphichiral against a 3.0% base rate) now has a REASON under it rather than a rate: an orientation double cover always carries an orientation-reversing deck transformation, which acts by complex conjugation, so its CS is 2-torsion BY CONSTRUCTION."
+  }
+ ],
+ "claim_one_line": "THE MECHANISM IS COMPLEX CONJUGATION, NOT PGL -- AND THE ARC IT CORRECTS IS FROM THIS SAME SESSION. PREREGISTRATION sealed 1ece78f6... and PUSHED at 8583810 before verification/ existed, axes declared. H1, THE CORRECTION: xB019 named the mechanism as 'a non-orientable manifold's holonomy lands in PGL(2,C), outside the SL(2,C) theory'. PGL(2,C) IS PSL(2,C) -- over an algebraically closed field every element has a square root, so any A in GL(2,C) is scaled to det 1 by 1/sqrt(det A) and SL(2,C) surjects onto PGL(2,C). Verified symbolically. xB012's V2 BANKED THIS TWO ARCS EARLIER, so xB019 contradicted xB012 WITHIN THE SAME SESSION. The same computation shows why the two arcs differ: the isomorphism FAILS over R and over F_q, which is exactly why PGL(2,O_3) != PSL(2,O_3) in xB017 but PGL(2,C) = PSL(2,C) here -- THE SAME SYMBOL, TWO DIFFERENT FACTS, ONE ARC APART. THE REAL MECHANISM: Isom(H^3) = PSL(2,C) semidirect Z/2, the extra factor being COMPLEX CONJUGATION, anti-holomorphic and in no PGL. xB019's sentence is WITHDRAWN and the rest of xB019 is unaffected, since nothing else used it. H2, B1224 DERIVED RATHER THAN OBSERVED: orientation reversal acts by complex conjugation, so Vol + i CS goes to Vol - i CS; the volume is unchanged because positive, so CS maps to -CS; an amphichiral manifold has an orientation-reversing SELF-isometry, so CS = -CS, 2 CS = 0, and CS lies in {0, 1/4} mod 1/2 -- WHICH IS B1224, banked there as a census observation of 6 of 6 and here a CONSEQUENCE. Checked over census[:400]: 6 amphichiral, ZERO escapees. H3, THE BLIND CELL, L194 AT FIVE TIMES B1235's SLICE: B1235 tested 40 orientation double covers and found 40 at CS = 0 against a 36% quarter-rate, marking the row 'Data, not theorem'. AT 200 COVERS THE RESULT IS UNCHANGED -- 200 AT ZERO, 0 AT A QUARTER, 0 OTHER, 0 ERRORS, P about 1.7e-39 against the quarter-rate. H4, WHAT THE MECHANISM EXPLAINS AND WHAT IT DOES NOT: it EXPLAINS the 2-TORSION, since an orientation double cover always carries an orientation-reversing deck transformation and therefore has 2-torsion CS BY CONSTRUCTION -- which puts a reason under B1234's cell 1 -- but it DOES NOT EXPLAIN THE SELECTION OF 0 OVER 1/4, because conjugation is blind to which 2-torsion class you land in. L194's hypothesis is that FREENESS of the deck involution does the selecting, and NOTHING HERE DERIVES THAT. H3 IS DATA AT A LARGER SLICE, NOT A PROOF, AND THIS ARC DOES NOT LET THE DATA IMPLY THE THEOREM. VERDICT: xB019's mechanism withdrawn; B1224 upgraded OBSERVED to DERIVED; L194 SHARPENED NOT CLOSED, its 2-torsion half explained and exactly its selection half still open with the evidence strengthened from 40 to 200. AXES HELD FIXED AND NAMED: cusped manifolds only, the closed case untouched; SnapPy's cs normalisation mod 1/2; the non-orientable census slice is a PREFIX, not a random sample; and freeness of the deck involution is CITED from B605, not re-verified. Gate 5 absolute; nothing to CLAIMS.md."
+}

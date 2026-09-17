@@ -1,5 +1,19 @@
 # Changelog
 
+## xB020 — the mechanism is complex conjugation: xB019 corrected against xB012, B1224 derived, L194 at 5×
+
+**The corrected arc is from this same session.** xB019 called `PGL(2,ℂ)` the mechanism; **`PGL(2,ℂ)`
+IS `PSL(2,ℂ)`**, and **xB012 banked that two arcs earlier**. The real mechanism is **complex
+conjugation** — `Isom(H³) = PSL(2,ℂ) ⋊ ℤ/2`, anti-holomorphic, in no `PGL`. *(The same symbol means
+two different things one arc apart: the isomorphism fails over `𝔽_q`, which is why
+`PGL(2,O₃) ≠ PSL(2,O₃)` in xB017.)*
+
+**B1224 upgraded OBSERVED → DERIVED:** conjugation sends `CS ↦ −CS`, so an amphichiral manifold has
+`2·CS = 0`. **0 escapees over `census[:400]`.** **L194 at 200 covers: 200 at zero, 0 at ¼** —
+`P ≈ 1.7×10⁻³⁹`. **Still data, not theorem** — the mechanism explains the 2-torsion and **not** the
+selection of `0` over `¼`, and the arc says so.
+
+
 ## xB019 — the one-tick object: B1234's live question answered, and the two bits split across the squaring
 
 xB018 named `GL(2,ℤ)` as its held-fixed axis; **B1234 was already there with a question left open on

@@ -16625,3 +16625,46 @@ not re-derived) · xB018's own fixed axes inherited · `PGL(2,ℂ)` vs `PSL(2,�
 but **not computed**.
 
 **Gates 35/35. Gate 5 absolute.**
+
+---
+
+## 2026-09-17 — xB020: the mechanism is complex conjugation — correcting xB019 against xB012, and B1224 derived
+
+Sealed `1ece78f6…`, pushed at `8583810`, axes declared.
+
+**H1 — the correction, and it is to an arc from this same session.** xB019 named the mechanism as
+*"a non-orientable manifold's holonomy lands in `PGL(2,ℂ)`, outside the `SL(2,ℂ)` theory."*
+**`PGL(2,ℂ) IS `PSL(2,ℂ)`** — over an algebraically closed field every element has a square root, so
+`SL(2,ℂ) ↠ PGL(2,ℂ)`. **xB012's V2 banked that two arcs earlier. xB019 contradicted xB012 within the
+session.** And the same computation shows exactly why the two arcs differ: the isomorphism **fails**
+over `ℝ` and `𝔽_q` — which is why `PGL(2,O₃) ≠ PSL(2,O₃)` in xB017 but `PGL(2,ℂ) = PSL(2,ℂ)` here.
+**The same symbol, two different facts, one arc apart.**
+
+> **The real mechanism: `Isom(H³) = PSL(2,ℂ) ⋊ ℤ/2` — the extra factor anti-holomorphic, in no
+> `PGL`.** xB019's sentence is withdrawn; **the rest of xB019 is untouched**, since nothing else used
+> it (the arc had labelled it *"not computed here"*).
+
+**H2 — B1224 derived, not observed.** Orientation reversal acts by conjugation, so
+`Vol + i·CS ↦ Vol − i·CS`; volume is positive and unchanged, so **`CS ↦ −CS`**. An amphichiral
+manifold has an orientation-reversing *self*-isometry, so **`CS = −CS` ⟹ `2·CS = 0` ⟹
+`CS ∈ {0, ¼}`.** **That is B1224** — which banked it as a census observation. Checked over
+`census[:400]`: **6 amphichiral, 0 escapees.**
+
+**H3 — the blind cell: L194 at 5× the slice.** B1235 tested 40 orientation double covers, all at
+`CS = 0`, and marked the row *"Data, not theorem."* **At 200: 200 at zero, 0 at ¼, 0 other, 0
+errors** — `P ≈ 1.7 × 10⁻³⁹` against the 36 % quarter-rate.
+
+**H4 — and the line I will not cross.** The mechanism **explains the 2-torsion** (an orientation
+double cover always carries that deck transformation, so its `CS` is 2-torsion **by construction** —
+a reason under B1234's cell 1). It **does not explain the selection of `0` over `¼`**: conjugation is
+blind to which class you land in, and **L194's freeness hypothesis is not derived here.**
+
+> **H3 is data at a larger slice. It is not a proof, and this arc does not let the data imply the
+> theorem.**
+
+**Net: xB019's mechanism withdrawn · B1224 upgraded OBSERVED → DERIVED · L194 sharpened, not closed.**
+
+**Axes held fixed:** cusped only · SnapPy `cs` mod ½ · census **prefix**, not a random sample ·
+freeness **cited from B605**, not re-verified.
+
+**Gates 35/35. Gate 5 absolute.**

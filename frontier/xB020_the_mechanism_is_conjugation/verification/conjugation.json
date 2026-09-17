@@ -1,0 +1,41 @@
+{
+ "H1": {
+  "pgl_eq_psl": true,
+  "xB019_sentence_withdrawn": true,
+  "mechanism": "complex conjugation; Isom(H^3) = PSL(2,C) semidirect Z/2"
+ },
+ "H2": {
+  "amphichiral": 6,
+  "escapees": 0,
+  "values": {
+   "m003": "1/4",
+   "m004": "0",
+   "m135": "1/4",
+   "m136": "0",
+   "m206": "0",
+   "m207": "1/4"
+  }
+ },
+ "H3": {
+  "tested": 200,
+  "zero": 200,
+  "quarter": 0,
+  "other": 0,
+  "errors": 0,
+  "counterexamples": []
+ },
+ "H4": {
+  "explains": "2-torsion via conjugation",
+  "does_not_explain": "selection of 0 over 1/4 (L194's freeness hypothesis)",
+  "B1224": "observed -> derived",
+  "L194": "open, sharpened, better data"
+ },
+ "H5": {
+  "axes_fixed": [
+   "cusped only",
+   "SnapPy cs mod 1/2",
+   "census prefix not random sample",
+   "B605 freeness cited"
+  ]
+ }
+}

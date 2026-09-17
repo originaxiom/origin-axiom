@@ -1,3 +1,12 @@
+> **CORRECTION 2026-09-17 (xB020).** §6's named mechanism — *"a non-orientable manifold's holonomy
+> lands in `PGL(2,ℂ)`, outside the `SL(2,ℂ)` theory"* — is **WRONG and is withdrawn.**
+> **`PGL(2,ℂ) ≅ PSL(2,ℂ)`** (over an algebraically closed field every element has a square root), a
+> fact **this same session banked two arcs earlier in xB012's V2** — so this arc contradicted xB012
+> within the session. **The real mechanism is COMPLEX CONJUGATION:** `Isom(H³) = PSL(2,ℂ) ⋊ ℤ/2`,
+> the extra factor anti-holomorphic and in no `PGL`. **Everything else here is unaffected** — the
+> tool audit, the two bits splitting across the squaring, and the ill-posedness of the escape route
+> never used that sentence, which was explicitly labelled *"not computed here."*
+
 # xB019 — THE ONE-TICK OBJECT: B1234's live question answered, and the two bits split across the squaring
 
 **Seat `xb`, `sep16-branch`, 2026-09-17. PREREGISTRATION sealed `e20e39f9…` and PUSHED at `55b984d`
