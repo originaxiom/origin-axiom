@@ -13,7 +13,7 @@ algebra su(3) (+) su(2) (+) u(1) (dim 12, rank 4).
 
 Everything reuses B854's exact E6 Chevalley algebra over Q, re-verified here before use.
 """
-import sys, io, contextlib
+import sys, io, contextlib, pathlib   # pathlib was used below but never imported (fixed 2026-09-17, S14: the script could not run as committed)
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / 'B854_centralizer_exact'))
 from fractions import Fraction as F
 buf=io.StringIO()

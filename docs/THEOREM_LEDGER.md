@@ -41,19 +41,19 @@ statement appears below; SM-facing content enters only as NO-GO links.*
 
 **C1 [THEOREM — Morse–Hedlund].** Every aperiodic sequence has factor complexity
 p(n) ≥ n+1; Sturmian words achieve equality. — P019 T3; control fork B749/F7 (with the
-quadratic≠metallic erratum sealed in-arc). Lock: `tests/test_b749_genesis_forks.py`.
+quadratic≠metallic erratum sealed in-arc). Lock: `tests/test_b1003_f2_f8_locks.py` for F2/F8, `tests/test_b749_genesis_forks.py` for F4–F7 (pointer corrected 2026-09-17, S14: C3's and C4's prices are F2 and F8, which live in the first file).
 
 **C2 [THEOREM — the self-selection, one criterion].** Hurwitz extremality at the golden
 slope IS the all-1s continued fraction (the bottom of the Lagrange spectrum): the
 minimal-description principle applied to its own parameter has a unique fixed point.
-— P019 T4 (v2, the unified form). Lock: `tests/test_b749_genesis_forks.py` — **CORRECTED 2026-08-09 (B998): that file tests F4, F5, F6, F7 only. There is NO F3 test.** The F7 control is present; **F3 is a citation to a test that does not exist.** *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
+— P019 T4 (v2, the unified form). Lock: `tests/test_b1003_f2_f8_locks.py` for F2/F8, `tests/test_b749_genesis_forks.py` for F4–F7 (pointer corrected 2026-09-17, S14: C3's and C4's prices are F2 and F8, which live in the first file) — **CORRECTED 2026-08-09 (B998): that file tests F4, F5, F6, F7 only. There is NO F3 test.** The F7 control is present; **F3 is a citation to a test that does not exist.** *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
 
 > *Addendum 2026-09-09 (B1323, DESIGN sealed `3e8282a2`).* **(1) The lock sentence above is stale (E53 instance #29):** `tests/test_b1003_f2_f8_locks.py` (B1003, 2026-08-30) asserts all seven fork verdicts including F3's; F3's computation and verdict (ROBUST — silver = m136, arithmetic over ℚ(i), every banked face ABSENT) have been locked since then. **(2) C2 is two links wearing one label, and is now read as such:** *C2a [THEOREM — self-similarity]* a Sturmian word fixed by a substitution has a quadratic slope (B749/F7a; Lagrange); *C2b [CRITERION — minimality]* among the self-similar slopes, minimality selects φ — and C2b is where the price lives: F3's silver is a real arithmetic world that this criterion discards. **(3) The criterion census (`frontier/B1323_the_genesis_upgrades/verification/u2_criterion_census.py`, PASS):** seven formalisations of "the parameter minimally describes itself" agree on φ with a unique minimiser — K1 the Lagrange value (min √5, uniquely at [1;1,…]; the second value 2√2 at the silver), K2 the least constant partial quotient, K3 the first hyperbolic trace 3 with class number h⁺(5) = 1 (one class, [[2,1],[1,1]]), K4 the torsion-free first mixed closure ((1,1) alone on the 12 × 12 grid), K5 the Markov tree's root (1,1,1) ↔ the Fricke triple (3,3,3), K6 the smallest real quadratic discriminant 5, K7 the smallest quadratic Pisot number x² − x − 1 — **and one natural criterion does not: K8, the smallest Pisot number of any degree, is the plastic number ρ = 1.3247… (x³ − x − 1; Siegel 1944), below φ.** So "one criterion, one fixed point" is true of the seven and false of the eighth: C2b's criterion is invariant across the self-application formalisations and is NOT the same as "minimal algebraic growth". Lock: `tests/test_b1323_the_genesis_upgrades.py`.*
 
 **C3 [AXIOM — being is inexhaustible description; PRICED].** The one deep metaphysical
 commitment (P019's A0+A2 under the honest recount). Price computed: the periodic sibling
 degenerates (B749/F2 ROBUST); the shadow-rule variants degenerate or conjugate away
-(B749/F4 ROBUST). — `frontier/B749_genesis_forks/`. Lock: `tests/test_b749_genesis_forks.py`.
+(B749/F4 ROBUST). — `frontier/B749_genesis_forks/`. Lock: `tests/test_b1003_f2_f8_locks.py` for F2/F8, `tests/test_b749_genesis_forks.py` for F4–F7 (pointer corrected 2026-09-17, S14: C3's and C4's prices are F2 and F8, which live in the first file).
 
 **C4 [AXIOM — the geometric carrier; PRICED].** The word is realized on the once-punctured
 torus. Price computed (B749/F8, GEOMETRY-NECESSARY): the word's non-geometric canonical
@@ -322,7 +322,7 @@ algebra; certificates on the ζ₆-line. — B902. Lock: `tests/test_b902_kp.py`
 own prime; den(V) = 𝔭₁(953)⁴ exactly. — B910, B918. Locks: `tests/test_b910_kappa.py`,
 `tests/test_b918_v.py`.
 
-**C35 [THEOREM — the sealed generation-shape].** G₂₀'s su(3)′ replicates fixed
+**C35 [THEOREM — the sealed REPLICATION shape; the 'generation/flavour' NAME was refuted by B1033 (trinification structure, orthogonal to generation structure) and is not used].** G₂₀'s su(3)′ replicates fixed
 color⊗su(2)′ types into flavor triplets; the lepton 3+6 split; Casimirs 4/9, 4/9, 3/8;
 mechanism-hood fenced. — B897. Lock: `tests/test_b897_g20.py`.
 
@@ -360,7 +360,7 @@ uncommitted `cw.py`; the three integers recompute from B1236's committed multipl
 `tests/test_b1237_physics_seat_harvest.py` (a different derivation of the same numbers, not a second prime).
 
 **C43 [NO-GO — the crossing, sealed].** One input (α_em) + the object's boundary + pure
-desert MISSES at 16σ, α_s-dominated; the failure triangle banked; the desert is dead as a
+desert MISSES [**the "16σ" framing was withdrawn 2026-09-09 (B915 addendum): its denominator was a loop-truncation band, not a variance. Report the discrepancies — α_s by 35 %, sin²θ_W by 0.9 % — and 49σ against experimental error alone**], α_s-dominated; the failure triangle banked; the desert is dead as a
 mechanism. — B915. Lock: `tests/test_b915_crossing.py`.
 **AND THE MISS IS GROUP-INDEPENDENT — BY CONSTRUCTION (added 2026-09-03, B1245).** This is a fact
 about the **desert configuration**, not about the object and not about E₆. B915's own
@@ -467,7 +467,7 @@ I = t₀ − r₁ (T-ONE-CUSP-INDEX; formula and domain sealed before evaluation
 the whole cyclic tower: **T-GALOIS-SELF-DUALITY** — for k = ℚ(√−3) = ℚ(ζ₃) every twist of order prime to 3 is
 vector-like by arithmetic alone, on every cover — and **T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE** — the
 period-2 symmetry P: a ↦ a⁻¹, b ↦ a³b acts as −1 on ℤ[t^±]/(t² − 3t + 1), hence on Tors H₁(C_n), so
-ψ∘P = ψ⁻¹ and every (2+1)-reducible spectral cover on the cyclic tower is vector-like: 16/16 (C₃), 45/45 (C₄),
+ψ∘P = ψ⁻¹ and every (2+1)-reducible spectral cover on the cyclic tower is vector-like **on twists of the GEOMETRIC holonomy** [fence restated 2026-09-17: B1418 fires in characteristic zero on t12839, the C₄ cover itself, on *reducible non-split* modules — outside this row's domain]: 16/16 (C₃), 45/45 (C₄),
 61 sectors, and 60 census manifolds with torsion ≥ 3 (12 non-self-dual sectors) all zero. W1/W2 are vector-like
 on every cusped cyclic cover (V ≅ τ*V* on the branch locus K; the SM seat's Theorem 1 verified), correcting
 "rigid" off K. Reported FORCED, not FAIL: the pre-registered test could not have passed. — B1297, B1299.
@@ -489,7 +489,7 @@ VEV'd, a few TeV if the third — which family it is, is a value the record does
 (the SM-derivation seat's sm:B1278–B1304 and sm:B1350, every number re-run or re-derived on main).
 Locks: `tests/test_b1303_the_sm_closings_z_prime.py`, `tests/test_b1306_the_older_debt.py`.
 
-**C52 [NO-GO — the θ-odd frame is closed on every sl₂ germ].** B1280's pairing law pairs every deformation
+**C52 [NO-GO — the θ-odd frame is closed on every sl₂ germ TESTED; the universal form is a supported conjecture, as the paper states it].** B1280's pairing law pairs every deformation
 of the E₆ holonomy at every sl₂ germ except one direction — the V₁₀ of the 42 at the subregular point (L204).
 Along it genuine non-self-dual E₆ representations exist (relator residuals 1e−61…1e−68 at 110 digits;
 self-duality defect ~1e−10), and at each of the four banked 100-digit points **h¹(27) = h¹(27̄) = 0, no
@@ -510,7 +510,7 @@ smallest Pisot number of any degree is the plastic number ρ = 1.3247… — the
 **Fork F9 (A1's "not one, not three") ROBUST twice:** one record has no mixed closure; three records on T³ give
 E₁₂·E₃₁·E₂₃ with dilatation ρ³ and χ = 0 — no hyperbolic carrier (Gauss–Bonnet–Chern); three records on the
 surfaces with H₁ = ℤ³ give the Whitehead link complement m129 (ℚ(i), 4G, chiral), s780 (ℚ(√−7)), t12047
-(ℚ(i), 8G, amphichiral) — none keeps ℚ(√−3): the price of a third record is the atom. — B1323.
+(ℚ(i), 8G, amphichiral) — none keeps ℚ(√−3) **at that depth**. — B1323. [**CORRECTED 2026-09-17 (B1414/S14, reproducing B1323's own enumerator unmodified at maxlen 5, and B749's addendum of 2026-09-14): the fork is FRAGILE past depth three. At length four the two-cusped m412 keeps ℚ(√−3) and is chiral; what it lacks is the 2T door. 'The price of a third record is the atom' is NOT the price, and the paper says so.**]
 Lock: `tests/test_b1323_the_genesis_upgrades.py`.
 
 **C54 [THEOREM — the mirror is swap × arrow, and covers do not inherit amphichirality].** On every

@@ -22,8 +22,14 @@ whole picture blurs:
    could have gone another way. The chain has **THREE** (C3, C4, C5), all
    PRICED: the forks were computed and their consequences banked.
 3. **Structural inputs still undetermined** — places where the object has not
-   yet spoken. Currently **TWO** (the two hierarchy ratios, §LXV), with named
-   arithmetic guardians (17, 1129), plus the entire dynamical layer (Gate 5).
+   yet spoken. This line read **TWO** (the two hierarchy ratios, §LXV) when it was
+   written in 2026-08; **that count is STALE and is corrected here (2026-09-17, S14)**.
+   The same document's §VI.2 addendum (2026-08-22) supersedes it — the object's
+   arithmetic *reproduces but is disjoint from* the Standard Model's dimensionless
+   numbers — and the current statement of the trade is the one in
+   `docs/THE_STATE_2026-09-06.md`: **zero of nineteen parameters reduced**, against
+   4 axioms + 8 irreducible identifications = **12 irreducible inputs** (recomputed
+   on today's identification ledger, S14). Plus the entire dynamical layer (Gate 5).
 
 So: parameter-free in sense (1) — completely, and verifiably. In sense (2) —
 three priced axioms, disclosed. In sense (3) — two numbers and one firewall.

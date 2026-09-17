@@ -1,0 +1,14 @@
+identification rows: 30 {'EARNED': 8, 'REFUTED': 8, 'UNEARNED': 14}
+UNEARNED rows: ['I-6', 'I-7', 'I-10', 'I-11', 'I-13', 'I-14', 'I-18', 'I-23', 'I-25', 'I-26', 'I-27', 'I-28', 'I-29', 'I-30']
+irreducible sources among UNEARNED rows: 8
+    ['I-6'] -> π₁(m004) ↠ 2T ≡ the 6d type's ALE Γ | a quotient of the 3-manifold's π₁ | the orbifold gr
+    ['I-7'] -> the object's ℤ/3 ≡ the boundary CFT's module group | trinification ℤ/3 · trace field ℚ(ζ₃
+    ['I-10', 'I-11'] -> the beat-selected internal A₁ lift ≡ physical 4d Lorentz spin | the odd-A₁ / beat lift in
+    ['I-14'] -> B305's grading ℤ/3 ≡ the commensurator's Eisenstein-unit ℤ/3 | L3: the trinification/gaug
+    ['I-25'] -> **the object's SL(2) holonomy embeds in E₆ via the PRINCIPAL sl₂** (the choice every h¹ t
+    ['I-26'] -> **a twisted-cohomology dimension of the object ≡ the number of 4d chiral generations** (`
+    ['I-13', 'I-18', 'I-23', 'I-29'] -> **structural analogue ≡ physical quantity — THE LISTENER MAP u** (the programme's master
+    ['I-27', 'I-28', 'I-30'] -> **the chiral vacuum ≡ an abelian Higgs `φ = ω ⊗ u` whose charge locus is `Fix(θ)` with EQ
+
+B1266 (2026-09-06) computed: 10 unearned rows -> 7 irreducible sources; total free inputs = 4 axioms + 7 = 11
+NOW: 14 unearned rows -> 8 irreducible sources; total = 4 axioms + 8 = 12

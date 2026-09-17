@@ -1,0 +1,7 @@
+arcs with a verdict file: 1247
+STRONG-verdict arcs cited in NONE of: paper, provenance, theorem ledger, open leads, main goal, chain doc, ToE ledger: 524
+
+arcs total 1247 | strong verdict 1144 | cited on a live surface 620 | orphaned 524
+orphans by century: {0: 54, 100: 38, 200: 39, 300: 54, 400: 47, 500: 49, 600: 48, 700: 31, 800: 45, 900: 23, 1000: 28, 1100: 27, 1200: 26, 1300: 13, 1400: 2}
+of those, absent from the generated views as well: 0
+(live surfaces = the paper, its provenance list, THEOREM_LEDGER, OPEN_LEADS, MAIN_GOAL, THE_END_TO_END_CHAIN, TOE_REQUIREMENTS_LEDGER)

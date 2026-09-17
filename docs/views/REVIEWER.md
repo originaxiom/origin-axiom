@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1249** |
-| words of findings prose | **935,598** |
-| test lock files referenced | **727** |
-| arcs carrying an authored verdict | **1249** (100.0 %) |
+| research arcs with findings | **1250** |
+| words of findings prose | **937,092** |
+| test lock files referenced | **729** |
+| arcs carrying an authored verdict | **1250** (100.0 %) |
 | recorded closures | **798** (631 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 817 |
+| PROVED | 818 |
 | NEGATIVE | 322 |
 | OPEN | 92 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1420`** (1133 words, 1 locks)  
-The referee's upgrades verified: 14 of m004's 87 covers to degree 10 carry a hexagonal cusp and none realises an order-3 cusp rotation (the census is not vacuous); rho has det 1 so Sym^m(rho) is symplectically self-dual and the index can fire only through a twist with psi^2 != 1 (0 of 542 firing modules violate it; witness 0/0/+1); the flat-bundle twisted Dirac index is rank-blind by Chern-Weil + Atiyah-Singer, which fences the paper's positives as well as strengthening its negative.  
-`B1420_the_referees_upgrades/FINDINGS.md`
+**PROVED — `B1421`** (1494 words, 2 locks)  
+The completeness sweep: the paper's four-input headline is a lower bound (the identification ledger's 14 unearned rows reduce to 8 irreducible sources, so 12 free inputs for a physical reading, cross-checked against an independent recount); a refuted claim (the pair class is mirror-EVEN and cannot be the orientation bit) was load-bearing in the freedom ledger and is re-grounded on mirror = swap x arrow; seven chain rows contradicted the paper or themselves; six results the record held (Menal-Ferrer-Porti's wider hypothesis making the multi-cusp zeros forced, the surviving-gauge-group negative, the rank obstruction, the reproducing arithmetic, the cyclic-cubic family no-go, the unique trilinear with the E8 family mechanism) are now stated in the paper; 524 of 1144 strong-verdict arcs are propagated to no live surface though all remain in the generated views.  
+`B1421_the_completeness_sweep/FINDINGS.md`
 
 **NEGATIVE — `B1408`** (1052 words, 1 locks)  
 L216 CLOSED NEGATIVE BEFORE THE WINDOW WAS SPENT, THE MIRROR SECTOR CLOSED ENTIRE, AND THE OBSTRUCTION QUANTIFIED: THE VALUE CHANNEL NEEDS ~1e-2 TO 1e-3 RELATIVE PRECISION, AN INDEX CHANNEL NEEDS ~1e-1, AND ~1e-1 IS WHAT WAS AVAILABLE. 12/12 checks. THE ODD SECTOR CARRIES EXACTLY ONE NUMBER. Computed at B1349's exactness on the 2-dimensional theta-odd sector over the complete period: EAR-INDEPENDENT FOR ALL 15 WORDS (unlike the even sector, where only the 7 non-units are), so it has zero ear anchor by construction at every word; dim_R span{Q_m} = 1 of an ambient 3, singular values [6.3705, 0, 0], so the sector carries ONE NUMBER, SCALED, and its output ceiling is 1 and never 4; and its whole value set over the period is three numbers, {-1, -1/2, +1/(2phi)}. AND AT THE OBJECT'S OWN WORD IT IS THE ALREADY-BENCHED VALUE: at m = 1 the odd readout is (sqrt5-1)/4 = 1/(2 phi) = 0.309016994375, which KIND_TABLE records as 'the 1/(2phi) that B856 already took to a bench and could not discriminate'. AND THE TWO HALVES OF THE MIRROR AGREE: for the ten words with 3 not dividing m -- precisely those where B1406 found the even sector's graded trace vanishes -- the odd ear-independent readout and B1406's normalised graded trace are THE SAME NUMBER, verified exactly. So the mirror sector's reading at the object's own word is ONE number reached by two independent routes, and the sector is now closed entire. L216 needed no window: the odd row would have delivered the value already known to fail. AND THIS ARC CORRECTS ITS OWN AUTHOR'S HYPOTHESIS. Going in, the working hypothesis was that the crowding is a property of the FIELD -- that Q(sqrt5) values of small height are dense enough in any window that no such reading could ever discriminate, which would have been a structural no-go for the whole coupling channel. MEASURED, IT IS FALSE. Counting height-bounded (p+q sqrt5)/r in a window of relative half-width eps around each of C6's values (height <= 20, 28001 candidates, a strict LOWER bound since it excludes pi, e and everything outside Q(sqrt5)): at eps = 1e-1 every window is crowded -- 198 candidates at 1/(2phi), 633 at 1, and at height <= 12 the count at 1/(2phi) is 43, which REPRODUCES B856's '>= 17 natural candidates' AS A GENERIC FACT ABOUT THAT PRECISION rather than a fact about that value, so B856 was not unlucky; but at eps = 1e-3 the windows are essentially unique (one candidate, at most four even at height 20), and at eps = 1e-4 exactly one everywhere. SO THE VALUE CHANNEL IS NOT DEAD IN PRINCIPLE -- IT IS DEAD AT THE PRECISION THAT WAS AVAILABLE. The field-forbids-discrimination hypothesis is WITHDRAWN; what the arithmetic says is a REQUIREMENT. THE REQUIREMENT, AND THE CHEAPER CHANNEL. A value reading in Q(sqrt5) must beat the height-bounded candidates in its window: eps ~ 1e-2 conservative, 1e-3 generous. An integer observable n must beat only the next integer, at distance 1/|n|: eps ~ 1e-1 for |n| <= 2. B856's bench had eps ~ 1e-1. An integer of size 1 or 2 needs 50 to 100 percent precision to be confusable, and the programme already has such quantities -- B1406's graded index tr(C) = 2, and B1335's I = +/-1. AT THE PRECISION THE PROGRAMME CAN REACH, ONLY DISCRETE OBSERVABLES CAN DISCRIMINATE: two to three orders of magnitude of slack, and that is where a contact row has to be built. This is NOT a claim that any particular index IS a physical observable -- it is a statement about what a contact row must be made of if it is to survive a bench at achievable precision. WHAT THIS SETTLES: L216 closed negative with no window spent, which is the whole point of posing discrimination first (B1407's rule, applied immediately); the mirror sector closed entire, both halves, one value; and B856's failure shown to be STRUCTURAL rather than unlucky, as was the even row's -- three windows of accounting work were spent on a channel whose binding constraint was a factor of 100 in precision. WHAT IT DOES NOT SETTLE: whether any specific discrete quantity of this object is a physical observable, which is exactly the gate B856 lost on and nothing here touches it; and whether some higher-precision measurement exists for a quantity of this kind, the table giving the threshold rather than a survey of benches. FENCES: no value is compared to any measurement -- eps is a PARAMETER and B856's outcome is CITED from KIND_TABLE as already recorded. The candidate count is a strict lower bound, so a more generous candidate set makes the value channel's requirement STRICTER and never looser, and the conclusion is robust in the safe direction. The odd-sector computation is exact in Q(zeta_60) with the rank taken over R (E73). Nothing reaches CLAIMS.md, F2 or Gate 5.  

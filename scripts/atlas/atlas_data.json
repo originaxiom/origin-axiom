@@ -8524,6 +8524,32 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1421": {
+   "slug": "the completeness sweep",
+   "motifs": [
+    "monoid",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B307",
+    "S12"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B142": {
    "slug": "klein4 and magic cartography",
    "motifs": [

@@ -2811,7 +2811,7 @@ since the day it was banked. It is now split; only the RETRACTIONS condition sur
 correction *was* propagated, into `HINT_LEDGER` at H72/H80). The staleness that exists is in **leads
 and ledgers, not walls**, and it is days old rather than months.
 
-## L220 — THE LEVEL MISMATCH, harvested (registered on main 2026-09-16, B1415; the SM seat's sm:L214, registered there 2026-09-15)
+## L223 — THE LEVEL MISMATCH, harvested [renumbered 2026-09-17, S14: registered as a second L220, colliding with the open-claim sweep's L220; an E71 instance] (registered on main 2026-09-16, B1415; the SM seat's sm:L214, registered there 2026-09-15)
 A deck orbit of apexes has the deck's order, so a triple of chiral 27s exists only on Y₃ (sm:B1356), and Y₃ was believed to carry no Standard-Model Wilson line (sm:B1277, sm:B1300) while the record's SM lines live on Y₉ and Y₁₂ (sm:B1283, sm:B1302). **The seat's own status, verified on main:** (i) the descent's abelian lines are negative — H₁(S³(4₁; 2π/3)) = ℤ/3 and none of Kac's order-3 inner classes of E₆ (five of exact order 3 plus the identity; recomputed here with the full S₃ diagram symmetry) has the Standard Model as fixed algebra (sm:B1363); (ii) RESOLVED AS DESIGN — the Standard Model's centraliser in E₆ is su(2)_β ⊕ u(1)² (the SM-singlet roots are exactly ±β; 30 roots orthogonal to β; 8 of them SM), a Q₈ ⊂ SU(2)_β (one of the 24 surjections F(2,6) ↠ Q₈) times an order-4 character of H₁ = (ℤ/4)² (12 order-4 torus elements, exactly 4 leaving only the SM roots of su(6), all squaring to one involution — recomputed on main's own E₆ root system) leaves SU(3) × SU(2) × U(1)_Y × U(1)′ (sm:B1364); (iii) the line's bulk: three neutral flat moduli and one vector-like (3,1)_{−1/3} pair, never a doublet (sm:B1365, its script re-run here). **What it still owes** (the seat's words): the 5 + 5̄ masses, the doublet–triplet splitting, and the closing's own existence. Items (ii)/(iii) of the seat's original list (a non-flat breaking; three apexes on Y₉/Y₁₂ as a non-deck orbit) are superseded by the resolution. Harvest arc `frontier/B1415_the_sm_seats_closing_arcs_harvested`.
 
 ## L221 — THE 27̄ SECTOR AND THE SEESAW (registered on main 2026-09-16, B1415; the SM seat's sm:L215, registered there 2026-09-15 by sm:B1365)
@@ -2819,4 +2819,19 @@ The U(1)′ left by the Y₃ line is the Cartan direction γ ⊥ (SM, Y, β) —
 
 ## L222 — THE FAMILY AS THE OBJECT: the class carries the chirality index where the member does not (registered 2026-09-16, B1418; the owner's direction "maybe it's about the family, not just the object")
 **The facts (B1418, DESIGN sealed f2f8686c).** The one-cusped index I = t₀ − r₁ (B1297) fires in characteristic zero on reducible non-split modules of five members of the figure-eight's commensurability class — s958, v2873, t12833, t12835, o10_150701 (I = ±1, t12835 ±2; semisimplification 0 always; four of the five are B1330's targets, on whose geometric holonomy the index was zero) — and (post-seal, labelled) on m004's own degree-4 cyclic cover t12839 (104 nonzero of 2 385; the degree-3 cover s961 gives 0) — and gives 0 on m004's only reducible locus (the golden one) in 235 modules. The class census: chirality and the count of three vary within the class and the door determines neither; m202, s959, o10_150726 (two-cusped, not covers of m004) score all four measured requirements. **The questions this registers:** (i) the rule — which members fire and why (torsion in H₁ and cusp-trivial characters are present on the firing members, but o10_150697 and s956 have loci that never fire); (ii) whether a non-semisimple flat SL(2)-module (a unipotent Wilson line in the E₆ language) is an admissible background in the closing's M-theory reading, and what I counts there (I-26 is UNEARNED); (iii) the unrun modules (t12833, t12835 at larger m) and the members not in the run (the other one-cusped members with torsion, the two-cusped members with the three — m202, s959 — whose index needs B1333's several-cusp form); (iv) **the programme-level decision, the owner's:** whether the object of the chain is the commensurability class (the arithmetic face is a class invariant, B803) with the member as the observer's choice — the chirality bit would then be a choice of member, priced like a closing. **What would settle (i):** the same run on all 60 one-cusped members and the two-cusped ones with B1333's index; **(ii)** is a physics reading and needs the closing (L221).
+
+## L224 — THE HARVEST GATE IS BLIND TO THE LARGER HALF OF ITS OWN DEBT (registered 2026-09-17, B1421/S14)
+
+`docs/HARVEST_LEDGER.md` carries **283 SCHEDULED rows**; `scripts/checks/harvest_debt.py` reports **3**. The gate walks
+the seats' live branches and SKIPs a seat whose remote is not configured or whose ref is not fetched — and codex, cc3,
+cloud, braver and qor5up were retired or merged on 2026-09-15, so roughly **196 SCHEDULED rows can never trip it again**.
+The gate is green over the part of the debt that no longer has an owner, which is exactly the part most likely to rot.
+
+**The computation:** count SCHEDULED rows from the ledger file itself, independent of any remote; report the count and
+its by-seat split; fail `--strict` on a threshold. Roughly 30 lines in the existing checker. **What a positive changes:**
+the 274-row slice-D backlog (100 cloud memos, 57 fc, 41 cc3, 30 qor5up, 19 codex) becomes visible to the gate again, and
+the seat-retirement rule gets its missing clause: *retiring a seat must not silently retire its debt.*
+
+**Related:** the same sweep found 77 `REGISTERED-EARLIER` rows — seat claims main cites without having computed — and one
+relay with no ledger row at all. Those are ledger hygiene, not gate blindness, and are not part of this lead.
 

@@ -1,0 +1,10 @@
+{
+ "id": "B1421",
+ "verdict": "PROVED",
+ "claim_one_line": "The completeness sweep: the paper's four-input headline is a lower bound (the identification ledger's 14 unearned rows reduce to 8 irreducible sources, so 12 free inputs for a physical reading, cross-checked against an independent recount); a refuted claim (the pair class is mirror-EVEN and cannot be the orientation bit) was load-bearing in the freedom ledger and is re-grounded on mirror = swap x arrow; seven chain rows contradicted the paper or themselves; six results the record held (Menal-Ferrer-Porti's wider hypothesis making the multi-cusp zeros forced, the surviving-gauge-group negative, the rank obstruction, the reproducing arithmetic, the cyclic-cubic family no-go, the unique trilinear with the E8 family mechanism) are now stated in the paper; 524 of 1144 strong-verdict arcs are propagated to no live surface though all remain in the generated views.",
+ "instrument": false,
+ "depends_on": ["B1266", "B1192", "B1248", "B1336", "B1265", "B307", "B1161", "B1148", "B1275", "B1117"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc"
+}

@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-09-17T07:44:55Z",
+ "built": "2026-09-17T08:34:37Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,7 +9,7 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "27abaeb2"
+  "git_head": "dcd53824"
  },
  "claims": [
   {
@@ -1751,6 +1751,332 @@
    ]
   },
   {
+   "claim": "no flat connection whose holonomy contains 2T in the principal sl2 leaves the Standard-Model algebra unbroken: every such centraliser is abelian of dimension at most 4, the SM algebra is non-abelian of dimension 12",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1336",
+     "dir": "frontier/B1336_the_surviving_gauge_group",
+     "verdict": "NEGATIVE",
+     "claim_one_line": "I-26'S UNTOUCHED HALF PAID, AND THE ANSWER IS ABELIAN OR NOTHING. The identification ledger records that naming the surviving gauge group -- the centralizer of rho(pi_1) -- remains part of I-26's price and is UNTOUCHED, its other half having been paid at B1295. The corpus has not drawn the decisive ",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1336_the_surviving_gauge_group/verification/i26.py",
+      "frontier/B1336_the_surviving_gauge_group/verification/i26b.py"
+     ],
+     "results": [],
+     "locks": [
+      "tests/test_b1336_surviving_gauge_group.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1336_surviving_gauge_group.py"
+     ]
+    }
+   ]
+  },
+  {
+   "claim": "three interchangeable generations would need a cyclic cubic trace field and no hyperbolic knot has one: a cyclic cubic field is totally real while a hyperbolic invariant trace field has a complex place",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B307",
+     "dir": "frontier/B307_totally_real_obstruction",
+     "verdict": "PROVED",
+     "claim_one_line": "Proved no hyperbolic knot can have a cyclic-cubic trace field (totally-real obstruction), closing the single-knot route to three symmetric generations; 32/32 census-confirmed.",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1251_five_gates.py",
+      "tests/test_b307_totally_real_obstruction.py",
+      "tests/test_b308_yukawa_last_redoubt.py",
+      "tests/test_b324_omega_circulant_verified.py"
+     ],
+     "primary_locks": [
+      "tests/test_b307_totally_real_obstruction.py"
+     ]
+    }
+   ]
+  },
+  {
+   "claim": "the object's quadratic trace field permits multiplicities 1 and 2 and never 3, so the object cannot carry a family index",
+   "support": "computed",
+   "records": [
+    {
+     "arc": "B1161",
+     "dir": "frontier/B1161_frontier_sweep",
+     "verdict": "OPEN",
+     "claim_one_line": "THE FRONTIER SWEEP (compute-all-we-can, owner-directed before the review; WF 7 agents, 6 cells each typed, load-bearing ones own-verified reproduce.sh -> REPRODUCES). HEADLINE UNIFICATION: the bypass door IS SEAM-A. The crown cell -- force C's P1/P2 branch selection object-intrinsically to derive th",
+     "seals": [],
+     "reproduce_sh": true,
+     "scripts": [
+      "frontier/B1161_frontier_sweep/verification/reproduce.sh"
+     ],
+     "results": [
+      "frontier/B1161_frontier_sweep/verification/frontier_checks.txt",
+      "frontier/B1161_frontier_sweep/verification/frontier_map.txt"
+     ],
+     "locks": [
+      "tests/test_b1161_frontier_sweep.py",
+      "tests/test_b1162_mssm_debt_closure.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1161_frontier_sweep.py"
+     ]
+    }
+   ]
+  },
+  {
+   "claim": "the coupling on the constructed carrier is unique: pi_1 alone leaves 6615 invariant trilinears, the gauge condition cuts to 4, full e6 to exactly 1, by direct nullspace with no shape assumed",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1148",
+     "dir": "frontier/B1148_carrier_harvest",
+     "verdict": "PROVED",
+     "claim_one_line": "THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduce byte-identical. The batch builds toward the internal->spacetime bridge (the unpaid verb of B1145 + the codex fence): memo 45 THE",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1148_carrier_harvest/verification/reproduce_new.sh"
+     ],
+     "results": [
+      "frontier/B1148_carrier_harvest/verification/VENDORED_FROM.txt",
+      "frontier/B1148_carrier_harvest/verification/our_uniqueness_chain.out"
+     ],
+     "locks": [
+      "tests/test_b1148_carrier_harvest.py",
+      "tests/test_b1235_two_seat_harvest.py",
+      "tests/test_b1240_belt_closure_and_fc_harvest.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1148_carrier_harvest.py"
+     ]
+    }
+   ]
+  },
+  {
+   "claim": "the E8 family mechanism verified from E8's own definition (248 = 78 + 8 + (27,3) + (27bar,3bar); an order-3 element cycles six classes in two orbits of three) -- and nothing in it mentions the object: the object-specific step is unchecked",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1275",
+     "dir": "frontier/B1275_e8_family_verified",
+     "verdict": "PROVED",
+     "claim_one_line": "THE E8 FAMILY MECHANISM, VERIFIED ON MAIN -- and the one step that is not. Owner: 'lets integrate three generations derivation in main, verify whats remains unverified.' E8 is REBUILT FROM ITS OWN DEFINITION here, nothing imported and nothing taken on the source seat's word. VERIFIED: 240 roots; an ",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1275_e8_family_verified/verification/e8_family.py"
+     ],
+     "results": [],
+     "locks": [
+      "tests/test_b1275_e8_family.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1275_e8_family.py"
+     ]
+    }
+   ]
+  },
+  {
+   "claim": "the crossing to measured values, sealed: alpha_s 0.077 against 0.118 and sin^2 theta_W 0.2293 against 0.2312 under single-step non-supersymmetric running; the 16-sigma framing withdrawn, the corrected solver moves the distance negligibly",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B915",
+     "dir": "frontier/B915_the_crossing",
+     "verdict": "NEGATIVE",
+     "claim_one_line": "THE CROSSING (R4, owner-authorized, prereg 7a423aed committed 4c4531a6 BEFORE data contact): with the single input alpha_em(M_Z) and the object's banked gauge boundary (E6 unification, sin2thetaW = 3/8 from the exact traces), the two-loop SM-desert curve's nearest approach to the measured pair (sin2",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1032_type_law.py",
+      "tests/test_b1164_cc_masterplan.py",
+      "tests/test_b1304_the_audit_seats_4d_model.py",
+      "tests/test_b915_crossing.py",
+      "tests/test_b926_anatomy.py",
+      "tests/test_end_to_end_chain.py"
+     ],
+     "primary_locks": [
+      "tests/test_b915_crossing.py"
+     ]
+    },
+    {
+     "arc": "B1304",
+     "dir": "frontier/B1304_the_audit_seats_4d_model",
+     "verdict": "PROVED",
+     "claim_one_line": "THE AUDIT SEAT'S 4d MODEL, PRICED (MASTERPLAN v3.1 Phase 1, sixth harvest arc; DESIGN sealed 866bd71e; seat pinned 6f862099, its 33 physical-bridge test files re-run there: 235 pass / 13 fail / 8 error = exactly its own preserved set). VERIFIED with main's data: R20's C3-compatible character locus i",
+     "seals": [
+      {
+       "seal_file": "frontier/B1304_the_audit_seats_4d_model/DESIGN.sha256",
+       "sealed_file": "frontier/B1304_the_audit_seats_4d_model/DESIGN.md",
+       "recorded": [
+        "866bd71e92625ae272dfe72b545c4bc4820e275483870c4e9ba6594c5434981a  DESIGN.md"
+       ],
+       "current_sha256": "866bd71e92625ae272dfe72b545c4bc4820e275483870c4e9ba6594c5434981a",
+       "matches": true
+      }
+     ],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1304_the_audit_seats_4d_model/verification/b1304_b915_residual.py",
+      "frontier/B1304_the_audit_seats_4d_model/verification/b1304_c3_locus.py",
+      "frontier/B1304_the_audit_seats_4d_model/verification/b1304_g2_strata.py"
+     ],
+     "results": [
+      "frontier/B1304_the_audit_seats_4d_model/verification/audit_focused_suite_rerun.txt",
+      "frontier/B1304_the_audit_seats_4d_model/verification/b1304_b915_residual.json",
+      "frontier/B1304_the_audit_seats_4d_model/verification/b1304_b915_residual.out",
+      "frontier/B1304_the_audit_seats_4d_model/verification/b1304_c3_locus.json",
+      "frontier/B1304_the_audit_seats_4d_model/verification/b1304_c3_locus.out",
+      "frontier/B1304_the_audit_seats_4d_model/verification/b1304_g2_strata.json",
+      "frontier/B1304_the_audit_seats_4d_model/verification/b1304_g2_strata.out"
+     ],
+     "locks": [
+      "tests/test_b1304_the_audit_seats_4d_model.py",
+      "tests/test_b1307_the_harvest_gate.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1304_the_audit_seats_4d_model.py"
+     ]
+    }
+   ]
+  },
+  {
+   "claim": "Vol(m004) = 9 sqrt3 zeta_K(2)/pi^2 to 32 decimal places, reproduced by a second independent route; the reality-parity law of the quantum invariant's expansion confirmed at five consecutive orders (detection, not derivation)",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1117",
+     "dir": "frontier/B1117_adelic_object",
+     "verdict": "PROVED",
+     "claim_one_line": "THE ADELIC OBJECT (the OWNER'S frame, verified: ADELIC_OBJECT.md, the 7th memo, cloud seat + this bench): the object is adelic (Reid arithmeticity the license; Gamma in PSL(2,Z[omega]), K=Q(sqrt-3)) -- finite shadow = structure (E6 entrance = reduction mod(sqrt-3) at the unique ramified prime -> SL(",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1117_adelic.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1117_adelic.py"
+     ]
+    },
+    {
+     "arc": "B1120",
+     "dir": "frontier/B1120_L180_makeorbreak",
+     "verdict": "PROVED",
+     "claim_one_line": "L180 THE MAKE-OR-BREAK (the global-object thesis's decisive cell; two-bench): are the Kashaev tower J_N(4_1)'s sub-leading coefficients arithmetic over the trace field Q(sqrt-3)? EULER-STRUCTURE-CONFIRMED at TWO orders. C1 = (11/108)*sqrt3*pi*C0 (odd k -> rational x sqrt3; ~9e-33) AND C2 = (697/7776",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1120_L180.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1120_L180.py"
+     ]
+    },
+    {
+     "arc": "B1124",
+     "dir": "frontier/B1124_allorders_arithmetic",
+     "verdict": "PROVED",
+     "claim_one_line": "V-1 ALL-ORDERS ARITHMETIC (value-campaign cell; extends B1120/L180): does the Kashaev tower's trace-field arithmetic continue past C2? THE PARITY LAW EXTENDS TO C3 -- C3 = (724351/12597120)*sqrt3*pi^3*C0, odd k -> rational x sqrt3 EXACTLY as the reality-parity law predicts, recognized to 36 digits w",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b1124_allorders.py",
+      "tests/test_b1133_c4.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1124_allorders.py"
+     ]
+    }
+   ]
+  },
+  {
+   "claim": "the fork is a rank obstruction: the branch carrying Lorentz signature and compact colour has maximal compact f4 of rank four, which no torus element of e6 reaches -- crossing needs an outer automorphism",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1265",
+     "dir": "frontier/B1265_the_fork_is_inner_vs_outer",
+     "verdict": "PROVED",
+     "claim_one_line": "THE REAL FORM IS DERIVED, AND THE FORK IS A RANK OBSTRUCTION. MAIN_GOAL JOIN 3. B1140 banked the fork as a brute fact -- 'the two real forms split the world with NOTHING SHARED, E6(-14) took the charges, E6(-26) took the geometry (Lorentz, compact colour, the graviton)' -- no arc crosses it, and B12",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1265_the_fork_is_inner_vs_outer/verification/fork_inner_outer.py"
+     ],
+     "results": [],
+     "locks": [
+      "tests/test_b1265_fork_inner_outer.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1265_fork_inner_outer.py"
+     ]
+    }
+   ]
+  },
+  {
+   "claim": "the pair class 2 - kappa mod squares is mirror-EVEN, so it cannot be the orientation bit; the earlier identification is refuted and what survives is a relational Z/2 datum with the object supplying its own partner",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B1192",
+     "dir": "frontier/B1192_close_loop_batch4",
+     "verdict": "PROVED",
+     "claim_one_line": "THE CLOSE-LOOP BATCH 4 -- THE RELATIONAL BIT EXISTS (the campaign's crown positive, lens-scoped): for the heterogeneous pair (A, M1) = (the object [[2,1],[1,1]], the sqrt3-side partner [[2,3],[1,2]] -- disc 12, the k11-fixed field), the simultaneous mirror (A,M)->(A^-1,M^-1) is realizable in GL2(Z) ",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1192_close_loop_batch4/verification/gc16_hetero_coupling.py"
+     ],
+     "results": [
+      "frontier/B1192_close_loop_batch4/verification/batch4_cells.json",
+      "frontier/B1192_close_loop_batch4/verification/gc16_results.json"
+     ],
+     "locks": [
+      "tests/test_b1192_close_loop_batch4.py",
+      "tests/test_b1211_declaration_gap.py",
+      "tests/test_b1248_norm_classification.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1192_close_loop_batch4.py"
+     ]
+    },
+    {
+     "arc": "B1248",
+     "dir": "frontier/B1248_norm_classification",
+     "verdict": "PROVED",
+     "claim_one_line": "EPSILON IS THE FRICKE INVARIANT READ MODULO SQUARES -- closing the refinement cell B1192 named and left open ('the general norm-classification'), carried since 2026-08-27 as checklist item I1. THE LAW, symbolic and general: for A,M in SL2 with cq-br != 0 the simultaneous-mirror realizer (XAX^-1 = A^",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1248_norm_classification/verification/norm_classification.py"
+     ],
+     "results": [],
+     "locks": [
+      "tests/test_b1247_coverage_candidates.py",
+      "tests/test_b1248_norm_classification.py",
+      "tests/test_b1341_least_action.py",
+      "tests/test_b1344_kappa_collision.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1248_norm_classification.py"
+     ]
+    }
+   ]
+  },
+  {
    "claim": "the reducible index can fire only through the twist: rho has det 1, so Sym^m(rho) is symplectically self-dual and I(V) = 0 whenever psi^2 = 1 (verified on the witness and on all 542 firing modules of the record)",
    "support": "settled",
    "records": [
@@ -2330,10 +2656,10 @@
   }
  ],
  "totals": {
-  "claims": 56,
-  "records": 79,
-  "seals": 19,
-  "locks": 112,
-  "records_with_a_primary_lock": 78
+  "claims": 65,
+  "records": 92,
+  "seals": 20,
+  "locks": 133,
+  "records_with_a_primary_lock": 91
  }
 }
