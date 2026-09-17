@@ -1,5 +1,35 @@
 # Changelog
 
+## xB008 THE IDENTIFICATION DISCIPLINE, EXTENDED FROM PROMOTIONS TO KILLS: a gate that catches this seat's own error
+
+Owner-directed. **PREREGISTRATION sealed (sha256 `30bb937bf26c6d02390f794a757d40a1144769bc495761389062e52814af92c6`) and PUSHED at `91c9b94` BEFORE the gate was written.**
+
+**The hole.** B1231's Identification Rule is enforced on **promotions only**: `gate_identification_register` reads `arc_verdict.json`'s `identifications`, a field an arc declares when it **CLAIMS** a sameness and never when it **USES** one to **DISCARD** evidence. xB005's Q3 asserted four ℤ/3s were *"all canonically linked"* on links that connected only three of them, and **nothing in this repository caught it**. Nor could B742's negatives hunt: its discriminator was *"a kill never EARNED by computation"*, and an E82 kill **is** earned, with a **correct** computation — only the step from the links to the conclusion fails.
+
+> **The discipline was applied to what the record claims and not to what it throws away.**
+
+**The standing rule the gate enforces: A KILL NEEDS THE SAME MAP A PROMOTION NEEDS.** Write the link graph, list the edges you exhibited, check **connectivity** before writing *"all N are linked"*; an unlinked member is an **independent** hat and keeps its weight.
+
+**G1 PASS — the cell that mattered.** xB005's Q3 **as it originally stood** is classed `C`: the gate **reds on the single error it was designed from**. The seal required that, failing this, the arc call the gate theatre and **not ship it**.
+
+**G2 PASS — the cell that makes G1 mean something.** The **corrected** Q3 is classed `R` and **passes**. A gate that red-flagged the *repair* as well as the defect would punish the correction and train seats to stop writing *"not evidence"* rather than to check their links.
+
+**G3 PASS.** **33/33 became 34/34**, 0 FAIL. On the first run the suite's own `tracked-deps` and `practices-register` gates red — correctly, demanding the new files be tracked and the new gate registered. That is the instrumentation working on its own author.
+
+**G4 PASS.** The two-way selftest catches a planted E82 kill, clears a named-theorem kill and a computed-base-rate kill, and clears **B727** — the record's own sound form of the same pattern.
+
+**G5 PASS.** Unfreezing one baseline entry reds the gate; restoring returns it to green.
+
+**Completeness, never judgment** (B1231's own wording). The gate cannot tell whether a link is *true*; it requires only that, where a kill discards evidence by asserting a sameness, the link is named where a reader can find it — **a map, a named theorem or definition, or a computed base rate**. That last class matters: **10 of xB006's 30 raw hits** were base-rate or look-elsewhere arguments **with the rate computed**, a sound and different kind of argument that must never be flagged.
+
+**A RATCHET, not a blocker**, for B1231's own stated reason: a hard block on what is already present would make the fastest path to green **relabelling existing kills as sound**, pressuring exactly the judgment the gate protects. A **new** unexhibited linkage kill reds **at creation**, which is when Q3 would have been caught.
+
+**The baseline is honest about itself.** `docs/LINKAGE_BASELINE.json` freezes **15** entries, each carrying **xB006's hand adjudication** rather than just a name — because the regex alone cannot tell them apart and **publishing a raw count as "wrong kills" would be the same over-reach the instrument audits**. Of the 15: **2 genuine E82 candidates** (`B146`, `B1096`; `B142` no longer appears, the base-rate clause clears it), four with the link **supplied** (B333, B1276, B1346, B559), three ordinary **prose**, one doing no kill work, and **two are the MODELS of the behaviour the gate asks for** — **B1223**, which states the discriminator itself, and **B772**, which formed a linkage hypothesis, tested it and **refuted its own**.
+
+**Recall is bounded and stated, not buried.** The lexicon is narrow on purpose (the B806 trade — xB001 measured 272 candidates from a bare emphatic *"IS the"*, overwhelmingly false). A kill phrased without one of these constructs is **invisible** to the checker: it **reduces** the class, it does not close it. A lock asserts that `by construction` stays **out** — descriptive prose (B425's *"golden BY CONSTRUCTION"*), never in xB006's sealed lexicon, and it drove **27 of an initial 46** candidates on its own.
+
+**This seat proposes the gate on its own branch.** Landing it on `main` is `cc`'s call, and the relay says so. No arc re-verdicted, none retracted. Instrument; `creates_law` false. Gate 5 absolute: no value, no generation count, nothing promoted to `CLAIMS.md`. Five cells plus a ten-assertion lock.
+
 ## xB007 THE LEAD FAILED ITS FIRST TEST, and failing it proved something better: the character variety is STRUCTURALLY BLIND to what separates the object from its sister
 
 Owner-directed. **PREREGISTRATION sealed (sha256 `3c4bd90bf39f2328058897b901a0f8985c9829a63bb2b8d4d8d9b637bb2f8592`) and PUSHED at `0e3cde6` BEFORE any cell ran.**

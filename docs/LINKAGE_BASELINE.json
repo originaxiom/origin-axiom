@@ -1,0 +1,86 @@
+{
+ "_note": "xB008 ratchet. The linkage-kill checker enforces COMPLETENESS, NEVER JUDGMENT (B1231's own wording): where an arc discards evidence by asserting a sameness, the link must be named where a reader can find it. A RATCHET, not a blocker, for B1231's own stated reason -- a hard block on what is already here would make the fastest path to green RELABELLING EXISTING KILLS AS SOUND, pressuring exactly the judgment the gate protects. These entries are FROZEN, not forgiven. Each carries xB006's HAND adjudication, because the regex alone cannot tell them apart and reporting the raw count as 'wrong kills' would be the same over-reach the instrument audits: of the 15 below, xB006 read every one and found THREE genuine E82 candidates (B146, B142, B1096) -- and B142 does not appear here because the base-rate clause now clears it. The rest are arcs whose link IS supplied (B333's compositum definition, B1276's two named derivations, B1346's B1297 theorem), ordinary prose (B572, B986, B1035), arcs where the phrase does no kill work (B1146), or the MODELS of the behaviour this gate asks for (B1223 states the discriminator itself, B772 tested its own linkage hypothesis and refuted it). A NEW unexhibited linkage kill reds the suite AT CREATION, which is when xB005's Q3 would have been caught.",
+ "_standing_rule": "A KILL NEEDS THE SAME MAP A PROMOTION NEEDS.",
+ "_recall": "BOUNDED AND INHERITED (the B806 trade, measured in xB006): the lexicon is narrow on purpose -- a wide net flags every sentence in this caps-heavy corpus and gets ignored. A kill phrased without one of these constructs is INVISIBLE to the checker. It REDUCES the class; it does not close it.",
+ "_source": "xB006 (the sweep and the adjudication), xB008 (the gate). E82.",
+ "_frozen_on": "2026-09-17",
+ "frozen": [
+  "B1035_receipts_and_register",
+  "B1096_anomaly_layer",
+  "B1146_seam_b",
+  "B1222_symmetry_vanishing_thesis",
+  "B1223_triality_correspondence",
+  "B1276_legs_are_faces",
+  "B1340_the_joker_priced",
+  "B1346_the_chat1_handoff_intake",
+  "B146_b145_calibration",
+  "B333_compositum_seam",
+  "B414_generation_structure",
+  "B559_blackhole_probes",
+  "B572_eleven_clauses",
+  "B772_negatives_adequacy",
+  "B986_b500_stragglers"
+ ],
+ "adjudication": {
+  "B1035_receipts_and_register": {
+   "xB006_class": "PROSE",
+   "why": "'massive neutrinos are not evidence for nu_R' -- a physics clause in the falsifier register, no sameness claimed"
+  },
+  "B1096_anomaly_layer": {
+   "xB006_class": "E82",
+   "why": "'completeness of content and emptiness of layer are THE SAME FACT' -- a reason is offered ('a layer that vanishes identically cannot supply a ratio') but no map between the two statements; SECONDARY candidate"
+  },
+  "B1146_seam_b": {
+   "xB006_class": "NOT_A_KILL",
+   "why": "'SEAM-B is the same fact seen head-on' -- a cross-bench convergence note in a PROVED arc"
+  },
+  "B1222_symmetry_vanishing_thesis": {
+   "xB006_class": "BASE_RATE",
+   "why": "'65 vanishings are a real pattern; they are not evidence for the first story that explains them' -- a methodological point, and the arc declared its kill conditions in advance and met them"
+  },
+  "B1223_triality_correspondence": {
+   "xB006_class": "MODEL",
+   "why": "'the value of a small-group coincidence is not zero, but it is not evidence, and the difference is one computation: check whether the action matches' -- this IS the discriminator E82 restates"
+  },
+  "B1276_legs_are_faces": {
+   "xB006_class": "LINK_NAMED",
+   "why": "'two derivations of one fact, from arithmetic and from representation theory' -- BOTH derivations are named and given"
+  },
+  "B1340_the_joker_priced": {
+   "xB006_class": "BASE_RATE",
+   "why": "'anomaly-free on the 19624 vacua is not evidence; the check cannot fail' -- a VACUITY finding, computed (all six coefficients vanish identically as polynomials)"
+  },
+  "B1346_the_chat1_handoff_intake": {
+   "xB006_class": "LINK_NAMED",
+   "why": "'predicted by B1297's own theorem -- a confirmation, not evidence' -- the theorem is named"
+  },
+  "B146_b145_calibration": {
+   "xB006_class": "E82",
+   "why": "'the near-tautological volume-minimality / palindromic-period arms (ONE FACT: short word ~ low volume ~ palindromic period)' -- three properties chained by '~' with no map, and the 'near-tautological' is the evidential downgrade. PRIMARY candidate: re-tested in S3"
+  },
+  "B333_compositum_seam": {
+   "xB006_class": "LINK_NAMED",
+   "why": "'tautological (it is WHY sqrt-15 is the compositum's third subfield; it carries no new information)' -- the link is the definition of the compositum"
+  },
+  "B414_generation_structure": {
+   "xB006_class": "BASE_RATE",
+   "why": "'every nontrivial object has small cyclic subgroups; a 3-2 presence is a HOOK, not evidence'"
+  },
+  "B559_blackhole_probes": {
+   "xB006_class": "LINK_NAMED",
+   "why": "'CS = 0 for the figure-eight IS its amphichirality' -- a theorem, and the section is flagged HINT and firewalled"
+  },
+  "B572_eleven_clauses": {
+   "xB006_class": "PROSE",
+   "why": "'the SnapPy-generator convention of the same fact' -- a convention restatement, named as such"
+  },
+  "B772_negatives_adequacy": {
+   "xB006_class": "MODEL",
+   "why": "'we are NOT re-confirming one fact many times (MY HYPOTHESIS WAS WRONG: 12/14 negatives are object-native and genuinely seam-independent)' -- the arc TESTED its own linkage hypothesis and refuted it"
+  },
+  "B986_b500_stragglers": {
+   "xB006_class": "PROSE",
+   "why": "'(a proof, not evidence)' -- the arc is saying its argument IS a proof"
+  }
+ }
+}

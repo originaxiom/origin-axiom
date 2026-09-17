@@ -809,6 +809,37 @@ window candidate.
   design and asserted as such in its own selftest**: it finds explicit correspondence
   claims, *not* bare assertions, so it would NOT have caught the very error it was
   built for. Declaration is the mechanism; detection is a lossy net.
+- **The `linkage-kills` gate — the identification discipline extended from PROMOTIONS
+  to KILLS, a RATCHET (2026-09-17; xB008, from E82, which this seat found in its own
+  xB005 Q3 one day earlier).** The entry above is enforced **on promotions only**:
+  `identifications` is a field an arc declares when it **CLAIMS** a sameness, and
+  never when it **USES** one to **DISCARD** evidence. xB005's Q3 asserted four ℤ/3s
+  were *"all canonically linked"* — hence one fact, hence not evidence — on links
+  that connected only three of them, and **nothing in this repository caught it**,
+  because the discipline was applied to what the record claims and not to what it
+  throws away. B742's negatives hunt could not have caught it either: its
+  discriminator was *"a kill never EARNED by computation"*, and an E82 kill **is**
+  earned, with a **correct** computation — only the step from the links to the
+  conclusion fails. The standing rule: **A KILL NEEDS THE SAME MAP A PROMOTION
+  NEEDS.** Write the link graph, list the edges you exhibited, check **connectivity**
+  before writing "all N are linked"; an unlinked member is an **independent** hat and
+  keeps its weight. Mechanism: `scripts/checks/linkage_kills.py` (xB006's calibrated
+  lexicon) + `gate_linkage_kills`, enforcing **completeness, never judgment** — where
+  a kill asserts a sameness, the link must be named where a reader can find it: a map,
+  a named theorem, or a **computed base rate** (a different and sound argument, 10 of
+  xB006's 30 raw hits). **Deliberately a ratchet**, for B1231's own stated reason: a
+  hard block on what is already present would make the fastest path to green
+  *relabelling existing kills as sound*, pressuring the very judgment the gate
+  protects. `docs/LINKAGE_BASELINE.json` freezes 15 entries, **each carrying xB006's
+  HAND adjudication** — because the regex alone cannot tell them apart, and reporting
+  a raw count as "wrong kills" would be the same over-reach the instrument audits (30
+  raw → **3** genuine after reading every one). **Efficacy is proved, not asserted:**
+  the gate's own selftest presents xB005's Q3 **as it originally stood** and requires
+  a RED, and presents the **corrected** Q3 and requires a PASS — so it catches the one
+  error it was designed from and can still tell a defect from its repair. Recall is
+  **bounded and inherited** (the B806 trade, measured): a kill phrased without one of
+  the lexicon's constructs is invisible. It **reduces** the class; it does not close
+  it.
 - **The `creates_law` declaration + `theorem-registry` gate (2026-08-21; R48-F1's
   response, the audit seat's sharpening adopted verbatim).** THEOREM_REGISTRY's
   standing same-PR rule went unenforced for 179 arcs because no gate read it. The

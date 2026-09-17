@@ -1204,8 +1204,49 @@ def gate_supersession_backlinks():
     return ok, ("ok" if ok else silent[:5])
 
 
+def gate_linkage_kills():
+    """xB008 (from E82, found by xB005's own Addendum 1). B1231's Identification Rule polices
+    "X here IS Y there" -- and it is gated and ledgered ON PROMOTIONS ONLY: an arc declares
+    `identifications` when it CLAIMS a sameness, never when it USES one to DISCARD evidence.
+    xB005's Q3 asserted four things were "all canonically linked" on links connecting three of
+    them, and NOTHING HERE CAUGHT IT. The standing rule this gate enforces:
+
+        A KILL NEEDS THE SAME MAP A PROMOTION NEEDS.
+
+    COMPLETENESS, NEVER JUDGMENT (B1231's wording): it cannot tell whether a link is true, only
+    that the question was answered where a reader can find it -- a map, a named theorem, or a
+    computed base rate (a different and sound kind of argument, 10 of xB006's 30).
+
+    A RATCHET, not a blocker, for B1231's own reason: a hard block on what is already present
+    would make the fastest path to green RELABELLING EXISTING KILLS AS SOUND, pressuring exactly
+    the judgment the gate protects. docs/LINKAGE_BASELINE.json freezes xB006's HAND adjudication;
+    a NEW unexhibited linkage kill reds AT CREATION.
+
+    Recall is bounded and inherited (the B806 trade, measured): a kill phrased without one of the
+    lexicon's constructs is invisible. This REDUCES the class; it does not close it."""
+    import importlib.util as _ilu
+    path = os.path.join(ROOT, "scripts", "checks", "linkage_kills.py")
+    if not os.path.exists(path):
+        return False, "scripts/checks/linkage_kills.py missing (xB008)"
+    spec = _ilu.spec_from_file_location("_linkage_kills", path)
+    mod = _ilu.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    fails = mod.selftest_quiet() if hasattr(mod, "selftest_quiet") else []
+    if fails:
+        return False, [f"SELFTEST FAILED ({fails}) -- the instrument is miscalibrated; "
+                       f"its findings are void until it passes"]
+    novel, hits, frozen = mod.check()
+    if novel:
+        return False, [f"{n}: {w}" for n, w in novel[:5]] + [
+            "a kill asserts a sameness with no map, no named theorem and no computed base "
+            "rate. Name the link, or say what would earn it and freeze it DELIBERATELY in "
+            "docs/LINKAGE_BASELINE.json with a dated reason."]
+    return True, f"ok ({len(hits)} frozen, 0 new)"
+
+
 GATES = {
     "identification-register": gate_identification_register,
+    "linkage-kills": gate_linkage_kills,
     "framing": gate_framing,
     "claims": gate_claims,
     "firewall-oneway": gate_firewall_oneway,

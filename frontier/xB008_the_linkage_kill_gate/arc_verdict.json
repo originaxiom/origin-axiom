@@ -1,0 +1,21 @@
+{
+ "id": "xB008",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B727",
+  "B742",
+  "B772",
+  "B806",
+  "B1223",
+  "B1231",
+  "xB005",
+  "xB006"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE IDENTIFICATION DISCIPLINE, EXTENDED FROM PROMOTIONS TO KILLS: A GATE THAT CATCHES THIS SEAT'S OWN ERROR (PREREGISTRATION sealed sha256 30bb937b... and PUSHED at 91c9b94 BEFORE the gate was written). THE HOLE: B1231's Identification Rule is enforced on PROMOTIONS ONLY -- gate_identification_register reads arc_verdict.json's `identifications`, a field an arc declares when it CLAIMS a sameness and never when it USES one to DISCARD evidence. xB005's Q3 asserted four Z/3s were 'all canonically linked' on links connecting only three, and NOTHING IN THE REPOSITORY CAUGHT IT; nor could B742's negatives hunt, whose discriminator was 'a kill never EARNED by computation' -- an E82 kill IS earned with a CORRECT computation, and only the step from the links to the conclusion fails. The discipline was applied to what the record claims and not to what it throws away. THE STANDING RULE ENFORCED: A KILL NEEDS THE SAME MAP A PROMOTION NEEDS -- write the link graph, list the edges you exhibited, check CONNECTIVITY before writing 'all N are linked'; an unlinked member is an INDEPENDENT hat and keeps its weight. G1 PASS, THE CELL THAT MATTERED: xB005's Q3 AS IT ORIGINALLY STOOD is classed C, so the gate REDS on the single error it was designed from -- the seal required that if it could not, the arc would call it theatre and NOT SHIP IT. G2 PASS, the cell that makes G1 mean something: the CORRECTED Q3 is classed R and PASSES, so the gate can tell a defect from its repair and does not train seats to stop writing 'not evidence' rather than to check their links. G3 PASS: 33/33 became 34/34 with 0 FAIL, nothing retroactively red -- and the suite's own tracked-deps and practices-register gates caught the new files and the unregistered gate first, which is the instrumentation working. G4 PASS: two-way selftest catches a planted E82 kill, clears a named-theorem kill and a computed-base-rate kill, and clears B727, the record's own sound form. G5 PASS: unfreezing one baseline entry reds the gate and restoring returns it to green. COMPLETENESS, NEVER JUDGMENT (B1231's wording): the gate cannot tell whether a link is TRUE, only that where a kill discards evidence by asserting a sameness the link is named where a reader can find it -- a map, a named theorem or definition, or a COMPUTED BASE RATE, that last class being 10 of xB006's 30 raw hits and a different and sound kind of argument that must never be flagged. A RATCHET, NOT A BLOCKER, for B1231's own stated reason: a hard block on what is already present would make the fastest path to green RELABELLING EXISTING KILLS AS SOUND, pressuring exactly the judgment the gate protects. THE BASELINE IS HONEST ABOUT ITSELF: docs/LINKAGE_BASELINE.json freezes 15 entries each carrying xB006's HAND adjudication rather than just a name, because the regex cannot tell them apart and publishing a raw count as 'wrong kills' would be the same over-reach the instrument audits -- of the 15, TWO are genuine E82 candidates (B146, B1096; B142 no longer appears because the base-rate clause clears it), four have the link supplied, three are ordinary prose, one does no kill work, and TWO ARE THE MODELS of the behaviour the gate asks for (B1223 states the discriminator itself; B772 tested its own linkage hypothesis and REFUTED IT). RECALL IS BOUNDED AND STATED, NOT BURIED: the lexicon is narrow on purpose (the B806 trade -- xB001 measured 272 candidates from a bare emphatic 'IS the', overwhelmingly false), so a kill phrased without one of these constructs is INVISIBLE; it REDUCES the class and does not close it, and a lock asserts that 'by construction' stays OUT of the lexicon since it is descriptive prose (B425's 'golden BY CONSTRUCTION') and drove 27 of an initial 46 candidates alone. THIS SEAT PROPOSES THE GATE ON ITS OWN BRANCH -- landing it on main is cc's call and the relay says so. No arc re-verdicted, none retracted. Instrument; creates_law false; Gate 5 absolute, no value, no generation count, nothing promotes to CLAIMS.md."
+}
