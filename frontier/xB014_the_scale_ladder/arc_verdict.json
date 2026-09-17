@@ -1,0 +1,30 @@
+{
+ "id": "xB014",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": [
+  "B207",
+  "B1012",
+  "B1088",
+  "xB012",
+  "xB013"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B207_golden_breaking_and_scale",
+   "outcome": "SCOPED",
+   "what": "re-derived its scale finding directly: B207 varies m (the metallic family R^m L^m) and its volumes ARE bounded (2.0299 -> 6.3914 at m=6, ratio 3.1) with log lambda_m logarithmic -- reproduced. Its negative 'the family carries no intrinsic exponential hierarchy' is CONFIRMED FOR THAT FAMILY and SCOPED: it does not cover the cyclic tower (LR)^n over one object, whose volumes are linear-unbounded and whose torsion is exponential. B207 is not disputed; it tested a different family, and it itself names the entropy/volume ratio as where a hierarchy would enter."
+  },
+  {
+   "arc": "B1012_branch_verifications",
+   "outcome": "CONFIRMED",
+   "what": "re-read its wall statement ('blind-to-k iff CS = 0 iff the object equals its mirror') and used it to locate this path: the no-scale wall IS amphichirality, joining B1234 (amphichirality is construction-forced) and xB011 (amphichirality is what makes sqrt(-3) cancel). Not re-computed here; used as the framing this arc tests around, and the arc's own conclusion does not depend on it."
+  }
+ ],
+ "claim_one_line": "PATH A DIES: THE LADDER IS REAL AND GENERIC, AND m004 IS RANK 38 OF 40 ON THE BOTH-FACES RATIO (PREREGISTRATION sealed sha256 bc8a71ed... and PUSHED at 63fc1f1 BEFORE any cell ran; SHORT by the owner's rule and by the seal's own commitment to one paragraph if the base rate came back unremarkable). Z1 PASS, B207 SCOPED NOT DISPUTED: its banked negative 'no intrinsic exponential hierarchy' was RE-DERIVED and tested the m-FAMILY R^m L^m, whose volumes ARE bounded (2.0299 -> 6.3914, ratio 3.1) with log lambda_m logarithmic -- reproduced exactly; this arc's n-TOWER (LR)^n is a different family with volumes linear-unbounded and torsion exponential, so B207's negative does not cover this path, and B207 itself names the entropy/volume ratio as where a hierarchy would enter. Z2 PASS: the tower's homology torsion is EXACTLY L_n^2 (n odd) and 5 F_n^2 (n even), rate converging to log(phi^2) = 0.9624236501, reproducing Silver-Williams' Mahler-measure theorem, VERIFIED not assumed (M(t^2-3t+1) = phi^2) -- BUT THAT GROWTH IS GENERIC TO EVERY FIBRED KNOT, so the ladder's EXISTENCE is not news and only the RATE is m004's, the rate being just its Alexander polynomial, already banked. Z3: the both-faces ratio log lambda / vol = 0.47412759711555, CONSTANT along the tower (verified n = 1..5), combining the GOLDEN numerator with the EISENSTEIN denominator (vol = 24 v0, v0 proportional to L(chi_-3,2)) -- exactly the quantity B207 named. Z4, THE DECISIVE CELL, AND THE BASE RATE KILLS IT: against Kojima-McShane's bound 1/(3pi) = 0.1061, across 40 once-punctured-torus bundles (cyclically reduced words of length 2-8), m004 RANKS 38 OF 40, the maximum being t00000 at 0.636080 against m004's 0.474128. m004 IS NEAR THE BOTTOM, NOT EXTREMAL. PATH A DIES, as the seal's declared weak prior expected. ONE CORRECTION MADE BEFORE ANY VERDICT: a first draft of Z1 asserted a MAGNITUDE (torsion_6 > 100 torsion_2) which failed at 320 < 500 -- a badly chosen test, not a failed fact -- replaced by the property that matters, the RATE converging to log(phi^2). NOT CLAIMED: that a dimensionless ladder is a SCALE in the physical sense or that it crosses B1012's wall, which concerns a DIMENSIONFUL quantity while a ladder supplies a dimensionless INDEX; no identification (E82), no physics reading. Census cutoff (word length <= 8, 40 bundles) REPORTED; m004's position at 38/40 is not marginal. Gate 5 absolute; no value, no generation count, nothing promotes to CLAIMS.md."
+}

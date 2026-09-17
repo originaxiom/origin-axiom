@@ -15961,3 +15961,21 @@ class ........................ INFINITE
 **This strengthens the owner's original thesis rather than weakening it.** *"Maybe we don't need to select m004 — maybe reality isn't derivable from m004 alone"*: taken seriously and symmetrically, **the two faces determine a family and never a member**, and the selection to one manifold was always the axioms' work, not the mathematics'.
 
 Gate 5 absolute: no value, no generation count, no physics reading, nothing promoted to `CLAIMS.md`.
+
+## 2026-09-17 — xB014 PATH A DIES: the ladder is real and generic, and m004 is rank 38 of 40 on the both-faces ratio
+
+Path A of the three the owner approved, run under his principle (*verify all load-bearing steps, search repo AND literature first, verify again*). **PREREGISTRATION sealed (sha256 `bc8a71ede6107f3f9e271bed29e7f919b7c49e72ea8bddfac38a8980f765f2f2`) and PUSHED at `63fc1f1` BEFORE any cell ran.** **Short by the owner's rule and by the seal's own commitment to one paragraph if the base rate came back unremarkable. It did.**
+
+**Z1 PASS — B207 is SCOPED, not disputed.** Its banked negative — *"the family carries no intrinsic exponential hierarchy"* — was **re-derived rather than cited**, and it tested the **m-family** `RᵐLᵐ`: volumes **bounded** (2.0299 → 6.3914 at m = 6, ratio 3.1) with `log λ_m` **logarithmic**, reproduced exactly. This arc's **n-tower** `(LR)ⁿ` is a different family — volumes **linear and unbounded**, torsion **exponential** — so **B207's negative does not cover this path**, and B207 itself names the **entropy/volume** ratio as where a hierarchy would enter.
+
+**Z2 PASS.** The tower's homology torsion is **exactly** `L_n²` (n odd) and `5F_n²` (n even), with rate converging to `log φ² = 0.9624236501`, reproducing **Silver–Williams**' Mahler-measure theorem, **verified not assumed** (`M(t²−3t+1) = φ²`). **But that growth is generic to every fibred knot** — so the ladder's *existence* is not news, and only the **rate** is m004's, which is just its Alexander polynomial, already banked.
+
+**Z3.** The both-faces ratio `log λ / vol = 0.47412759711555`, **constant along the tower** (verified n = 1…5), combining the **golden** numerator with the **Eisenstein** denominator (`vol = 24·v₀`, `v₀ ∝ L(χ₋₃,2)`) — exactly the quantity B207 named.
+
+**Z4 — the decisive cell, and the base rate kills it.** Against **Kojima–McShane**'s bound `1/(3π) = 0.1061`, across **40** once-punctured-torus bundles (cyclically reduced words of length 2–8) ranked by `log λ / vol`: **m004 ranks 38 of 40.** The maximum is `t00000` at **0.636080** against m004's **0.474128**.
+
+> **m004 is near the bottom, not extremal. PATH A DIES**, exactly as the seal's declared weak prior expected.
+
+**One correction made before any verdict.** A first draft of Z1 asserted a **magnitude** (`torsion₆ > 100·torsion₂`) and it failed at 320 < 500 — a badly chosen test, not a failed fact. Replaced by the property that matters: the **rate** converges to `log φ²`.
+
+**Not claimed:** that a dimensionless ladder is a **scale** in the physical sense, or that it crosses B1012's wall — that wall concerns a **dimensionful** quantity while a ladder supplies a dimensionless **index**. No identification (E82), no physics reading. Census cutoff (word length ≤ 8) **reported**; m004's 38/40 is not marginal.
