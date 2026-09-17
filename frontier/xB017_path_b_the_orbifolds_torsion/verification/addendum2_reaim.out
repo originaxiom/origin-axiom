@@ -1,0 +1,95 @@
+C1       N4 IS CORRECTED: the distinction is NOT A6 alone
+         N4 concluded: 'd = 3 is the unique field ramified only at 3 AND has the
+         smallest |D| -- those are ONE fact, and it is MINIMALITY, i.e. A6 restated.'
+         THE 'ONE FACT' STEP DOES NOT FOLLOW, and it is this seat's overreach.
+         fields with a PRIME discriminant (ramified at ONE prime): d = [1, 2, 3, 7, 11, 19, 23, 31, 43, 47]
+           -> 'ramified at a single prime' is a property MANY fields have;
+              'ramified only at 3' picks one, and 'minimal |D|' picks one, and
+              THEY ARE DIFFERENT PROPERTIES THAT HAPPEN TO COINCIDE AT d = 3.
+           -> |D| = 3 is minimal because a fundamental discriminant is 0 or 1 mod 4,
+              so -1 and -2 are excluded and -3 is the first -- a CONGRUENCE fact,
+              NOT a consequence of '3 is the only ramified prime'.
+
+         THE HONEST DECOMPOSITION, which ADDENDUM 1's A4 makes visible:
+           fields with |O^x| > 2: d = [1, 3]  -- and those are EXACTLY the two
+           imaginary quadratic fields that are CYCLOTOMIC: Q(zeta_4) and Q(zeta_3).
+           Being cyclotomic is what supplies mu_6, hence the cusp's Z/3 (A4).
+           It leaves TWO candidates; MINIMALITY (A6) picks Q(zeta_3) between them.
+         => d = 3 IS SELECTED BY: CYCLOTOMIC (an arithmetic fact A6 does NOT supply)
+            PLUS A6.  N4 said 'A6 restated'.  THAT WAS TOO STRONG: one bit of the
+            selection is genuinely arithmetic, and xB017 gave it away.
+C1 PASS  N4 CORRECTED.  d = 3 is MORE distinguished than xB017 said,
+         not less -- and the arc under-claimed against itself.
+
+C2       PATH B's COVERING HALF HAS A POSITIVE ANSWER, AND xB017 FILED IT AS A MISS
+         The owner's Path B: 'the base orbifold's Z/2 and Z/3 torsion as
+         COVERING/DECK data.'  xB017's headline was 'the framing is REFUTED'.
+         THAT OVERSTATED THE KILL.  It refuted the DECK half only.
+         the cusp rotation E = diag(zeta_6, zeta_6^-1): det = 1, trace = -(-1)**(2/3) + (-1)**(1/3), E^3 = -I: True
+           -> ORDER 3 IN PSL.  The cusp's Z/3 IS 3-torsion of PSL(2,O_3), and its
+              trace -(-1)**(2/3) + (-1)**(1/3) lies in {-1,0,1} exactly as N2's argument requires.
+           -> the cusp cross-section is T^2/(O^x)^2: S^2(3,3,3) for d = 3,
+              S^2(2,2,2,2) for d = 1, and T^2 for EVERY other field.
+           -> that IS covering data: it is how the cover's cusp torus sits over the
+              orbifold's cusp.
+
+         SO PATH B's QUESTION HAS A POSITIVE ANSWER:
+           the orbifold's Z/3 sits AT THE CUSP, is genuine 3-torsion, and is
+           d = 3's ALONE among all imaginary quadratic fields.
+
+         AND WHAT IS NEW IN IT, MEASURED AGAINST THE RECORD:
+           B302 ALREADY banked the FACT -- 'the object has no order-3; PGL(2,O_-3)
+           has order-3 elements; these are HIDDEN symmetries; the figure-eight
+           covers the order-3 orbifold, index 12'.  B302 did NOT measure whether
+           that hidden Z/3 is generic.  ADDENDUM 1's A4 does: IT IS NOT.
+           => THE NEW RESULT IS: B302's HIDDEN Z/3 IS d = 3's ALONE.
+           xB017 shipped this as 'the invariant this arc missed' and wrote that the
+           exception 'is not the one the path was built on'.  IT IS EXACTLY THE ONE
+           THE PATH WAS BUILT ON.  A POSITIVE WAS FILED UNDER A NEGATIVE HEADLINE --
+           the same shape as xB014's kill, and caught the same way, by the owner.
+C2 PASS  the covering half is POSITIVE; only the deck half is refuted.
+
+C3       THE KILL THIS SEAT NEARLY WALKED INTO -- B486, the 11th kill
+         The tempting next step: 'the orbifold's cusp Z/3 descends to m004 as a
+         HEXAGONAL cusp symmetry.'  THE RECORD ALREADY KILLED IT.
+         m004's cusp modulus tau = -0.0000000000+3.4641016151j  -> Re(tau) = -1.11e-15, purely imaginary
+         B486 (banked, the 11th kill): tau = 2*sqrt(-3), a RECTANGULAR lattice, the
+         CM point of discriminant -48 -- NOT the hexagonal point exp(2 pi i/3) of
+         discriminant -3.  B486's named error: conflating 'the cusp modulus lies in
+         Q(sqrt-3)' with 'the cusp IS the hexagonal torus C/Z[omega]'.
+         AND m004's symmetry group has order 8, NOT divisible by 3: False
+           -> m004 has NO order-3 symmetry, so the orbifold's Z/3 is NOT inherited
+              by the cover.  B302 said exactly this: the order-3 is HIDDEN, present
+              in the commensurator and absent from the knot group.
+C3 PASS  THE Z/3 STAYS IN THE ORBIFOLD.  It is d = 3-specific
+         (C2) and it does NOT descend (B486, B302).  Both halves matter: the
+         positive is real AND it is fenced.
+
+C4       THE RE-AIMED VERDICT ON PATH B
+         WHAT xB017 GOT RIGHT AND STANDS:
+           - N2: the torsion ORDERS {2,3} are generic to every Bianchi group.
+           - N3: the ramified-prime route to 2T is generic (24.6% of fields).
+           - N5(b): Gamma is NOT normal, the cover is IRREGULAR, THERE IS NO DECK
+             GROUP -- confirmed twice over (isometry count here; N(Gamma)/Gamma =
+             Z/2 in the literature sweep).  THE DECK HALF IS DEAD.
+         WHAT xB017 GOT WRONG:
+           - N4 called the d = 3 distinction 'A6 restated'.  IT IS CYCLOTOMIC + A6,
+             and the cyclotomic bit is arithmetic, not axiomatic (C1).
+           - THE HEADLINE said 'Path B's framing is REFUTED'.  Only the DECK half
+             is.  THE COVERING HALF HAS A POSITIVE ANSWER (C2), which the arc
+             shipped as a miss.
+         THE CORRECTED VERDICT:
+           PATH B SPLITS.  Deck data: REFUTED.  Covering data: POSITIVE --
+           the orbifold's Z/3 lives at the cusp, is genuine 3-torsion, is d = 3's
+           ALONE (new: B302 had the fact, not the base rate), comes from the field
+           being CYCLOTOMIC, and DOES NOT DESCEND to m004 (B486, B302).
+         WHAT IT IS NOT: a mechanism, a physics reading, or a new identification.
+           The Z/3 that distinguishes d = 3 is precisely the one the object CANNOT
+           SEE -- which is B302's banked point, now with a base rate under it.
+
+==============================================================================
+  C1: PASS
+  C2: PASS
+  C3: PASS
+  C4: PASS
+VERIFIED -- PATH B SPLITS: DECK REFUTED, COVERING POSITIVE

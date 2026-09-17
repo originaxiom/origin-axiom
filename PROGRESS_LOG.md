@@ -16388,3 +16388,55 @@ base-rate finding gains a genuine exception — **and the exception is not the o
 on.**
 
 **Gates 35/35. Gate 5 absolute.**
+
+---
+
+## 2026-09-17 — xB017 ADDENDUM 2: "are u sure about b" — I was not. Path B SPLITS.
+
+Four words, the same four that overturned xB014's kill. **He is right again, in two places, and both
+are this arc's own headline claims.**
+
+**C1 — N4 overreached.** N4 said *"ramified only at 3"* and *"minimal `|D|`"* are **one fact**, so the
+distinction is **A6 restated**. The step does not follow: prime discriminants are common
+(`d = 1,2,3,7,11,19,23,31,43,47,…`), and `|D| = 3` is minimal because a fundamental discriminant is
+`≡ 0,1 (mod 4)` — a **congruence** fact, not a consequence of the ramification. **The honest
+decomposition, which Addendum 1 made visible and the arc failed to draw:** `|O_d^×| > 2` for exactly
+`d = 1, 3`, **which are exactly the two CYCLOTOMIC imaginary quadratic fields**; being cyclotomic
+supplies `μ₆`, hence the cusp's ℤ/3, and leaves **two** candidates between which **A6** picks
+`ℚ(ζ₃)`. **So `d = 3` is selected by CYCLOTOMIC + A6 — one bit of it genuinely arithmetic. The arc
+under-claimed against itself.**
+
+**C2 — the headline overstated the kill.** Path B was *"the orbifold's ℤ/2 and ℤ/3 torsion as
+**covering/deck** data."* xB017 said *"the framing is refuted."* **It refutes the DECK half only.**
+The cusp rotation `diag(ζ₆, ζ₆⁻¹)` cubes to `−I`, so it is **genuine order-3 torsion of
+`PSL(2,O₃)`**, trace `1 ∈ {−1,0,1}` exactly as N2 requires; and the cusp cross-section `T²/(O^×)²` is
+**`S²(3,3,3)` for `d = 3`**, `S²(2,2,2,2)` for `d = 1`, and **`T²` for every other field** — which
+**is** covering data.
+
+> **Path B's question has a POSITIVE answer: the orbifold's ℤ/3 sits at the cusp, is genuine
+> 3-torsion, and is `d = 3`'s alone.**
+
+Measured against the record: **B302 already banked the fact** (the order-3 is **hidden** — in the
+commensurator, absent from the knot group) but **never measured whether it is generic**. So **the new
+result is that B302's hidden ℤ/3 is `d = 3`'s alone.** The arc shipped that as *"the invariant this
+arc missed"* and wrote that the exception *"is not the one the path was built on."* **It is exactly
+the one the path was built on. A positive was filed under a negative headline.**
+
+**C3 — and the kill I nearly walked into.** The tempting next step — *the cusp ℤ/3 descends to m004 as
+a hexagonal cusp symmetry* — is **B486's 11th kill**. m004's cusp modulus is `2√−3`, **rectangular**,
+the CM point of discriminant **−48**, not the hexagonal point of discriminant −3 (`Re(τ) = −1.1×10⁻¹⁵`
+verified here); and m004's symmetry group has order **8** with no order-3 element. **The ℤ/3 does not
+descend** — exactly B302's point. The positive is real **and** it is fenced.
+
+**C4 — the corrected verdict.** **PATH B SPLITS. Deck data: REFUTED** (N5(b) stands, confirmed twice
+over — the isometry count here, and `N(Γ)/Γ ≅ ℤ/2` in the literature sweep). **Covering data:
+POSITIVE**, fenced, and **not a mechanism**: the ℤ/3 that distinguishes `d = 3` is precisely the one
+**the object cannot see**. N2, N3 and N5(b) stand unchanged.
+
+> **Standing lesson, and this is the second instance.** *"u sure about extremality"* overturned
+> xB014's kill; *"are u sure about b"* has re-aimed this one. **Both times the failure was the same:
+> a kill aimed at one half of a two-clause question, reported as a kill of the whole.** The rule this
+> earns: **when a path has two clauses, a kill must say WHICH clause it kills, and check the other
+> before the headline is written.**
+
+**Gates 35/35. Gate 5 absolute.**

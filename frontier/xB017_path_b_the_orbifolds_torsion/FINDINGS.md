@@ -1,3 +1,15 @@
+> **ADDENDUM 2, 2026-09-17 — THIS FILE'S HEADLINE AND ITS N4 ARE BOTH CORRECTED. READ IT FIRST.**
+> The owner asked *"are u sure about b"*. **I was not.** **(i)** N4's *"those are one fact … A6
+> restated"* **overreached**: "ramified only at 3" and "minimal `|D|`" are different properties that
+> coincide at `d = 3`. The honest decomposition is **CYCLOTOMIC + A6** — `|O_d^×| > 2` exactly for
+> `d = 1, 3`, which are exactly the two **cyclotomic** imaginary quadratic fields, and A6 picks
+> `ℚ(ζ₃)` between them. **One bit of the selection is genuinely arithmetic, and this arc gave it
+> away.** **(ii)** The headline *"Path B's framing is REFUTED"* **overstated the kill — it refutes
+> the DECK half only.** The **covering** half is **POSITIVE**: the orbifold's ℤ/3 sits at the cusp,
+> is genuine 3-torsion, and is **`d = 3`'s alone** — which is exactly what Path B asked, and which
+> §6 shipped as *"the invariant this arc missed."* **A positive was filed under a negative headline.**
+> **N2, N3 and N5(b) stand unchanged.**
+
 > **ADDENDUM 1, 2026-09-17 — READ IT BEFORE THIS FILE.** The commissioned literature sweep returned
 > after this arc banked. It **confirms N1–N5 and supplies citations** for what the arc computed — and
 > it does two more things. **(i) It challenged B734's congruence level; adjudicated BY COMPUTATION on

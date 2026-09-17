@@ -1,5 +1,27 @@
 # Changelog
 
+## xB017 ADDENDUM 2 — "are u sure about b": I was not. Path B SPLITS.
+
+**Two errors, both in this arc's own headline claims.** **(1)** N4 called the `d = 3` distinction
+*"A6 restated"* by identifying "ramified only at 3" with "minimal `|D|`" as **one fact**. They are
+different properties that coincide. **The honest decomposition is CYCLOTOMIC + A6** — `|O_d^×| > 2`
+exactly for `d = 1, 3`, the two **cyclotomic** imaginary quadratic fields, with A6 picking `ℚ(ζ₃)`
+between them. **One bit of the selection is genuinely arithmetic; the arc under-claimed against
+itself.** **(2)** *"Path B's framing is REFUTED"* **overstated the kill — the DECK half only.** The
+cusp rotation is genuine order-3 torsion, and the cusp cross-section is `S²(3,3,3)` for `d = 3`
+against `T²` for every field but `d = 1`. **Path B's covering question has a POSITIVE answer: the
+orbifold's ℤ/3 is `d = 3`'s alone** — new relative to **B302**, which banked the fact but never
+measured whether it was generic. **The arc filed a positive under a negative headline.**
+
+**And the kill nearly walked into:** m004's cusp is **rectangular** (`2√−3`, disc −48), not hexagonal
+— **B486's 11th kill** — and m004 has no order-3 symmetry, so the ℤ/3 **does not descend**.
+
+**Deck data refuted; covering data positive and fenced.** N2, N3, N5(b) unchanged.
+
+> **Second instance of the same failure:** a kill aimed at one half of a two-clause question,
+> reported as a kill of the whole.
+
+
 ## xB017 ADDENDUM 1 — a banked result defended by computation, and the invariant Path B missed
 
 The commissioned sweep returned after xB017 banked. **A1:** it challenged **B734**'s congruence

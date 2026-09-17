@@ -1,0 +1,29 @@
+{
+ "C1": {
+  "extra_unit_fields": [
+   1,
+   3
+  ],
+  "both_cyclotomic": true,
+  "N4_overreach": "the 'one fact' identification of ramified-only-at-3 with minimal |D|",
+  "corrected_selection": "cyclotomic (independent) + A6 (minimality)"
+ },
+ "C2": {
+  "cusp_rotation_is_3_torsion": true,
+  "new_result": "B302's hidden Z/3 is d=3-specific (base rate, A4)",
+  "xB017_headline_overstated": true
+ },
+ "C3": {
+  "cusp_modulus": "(-1.1102230246251571e-15+3.464101615137756j)",
+  "rectangular": true,
+  "symmetry_order": 8,
+  "has_order_3_symmetry": false,
+  "B486_kill_respected": true
+ },
+ "C4": {
+  "deck_half": "REFUTED",
+  "covering_half": "POSITIVE",
+  "headline_corrected": true,
+  "N4_corrected": "cyclotomic + A6, not A6 alone"
+ }
+}
