@@ -228,3 +228,46 @@ an assertion on trust, closing that gap is worth more than the three-line diffs 
 worktree at `21c47a51` with the package run end to end; `git cat-file`/`rev-parse` on the recorded
 manifest commit; a row-by-row comparison of the generator's 57 rows against both `main.tex` copies;
 and the Menal-Ferrer–Porti convention read from the source PDF.*
+
+
+---
+
+## 6. Addendum — §7's witness, now verified independently
+
+Both rounds listed the index computations of §7 among the things I had **not** checked. One of them
+I have now checked, from the definitions, over exact ℚ(u) with u² − u + 1 = 0 — my own field
+arithmetic, Fox calculus, cohomology and restriction map, reading nothing from the project's scripts
+(`referee_2026-09-17/scripts/r3_m010_index.py`).
+
+Base data all confirms: det A = det B = 1; the relator `aabaBaaBab` evaluates to the identity;
+(1, u) is a common eigenvector with eigenvalues u and −1, so ρ really is reducible and non-split;
+and χ(a) = u, χ(b) = −1 is trivial on the relator and on both peripheral words `AbAA`, `babA`.
+
+| | a₀ | a₁ | t₀ | t₁ | r₁ | n | claimed |
+|---|---|---|---|---|---|---|---|
+| V = Sym³(ρ)⊗χ | 0 | 1 | 1 | 2 | 0 | 1 | matches |
+| V* | 0 | 2 | 1 | 2 | 2 | 0 | matches |
+| ss = Sym³(ρ_ss)⊗χ | 1 | 4 | 4 | 8 | 4 | 0 | matches |
+| ss* | 1 | 4 | 4 | 8 | 4 | 0 | matches |
+
+**I(V) = n(V) − n(V*) = +1**, and the paper's stated form t₀ − r₁ gives +1 as well.
+**I(ss) = 0.** And ρ and ρ_ss have the **same trace on all 400 random words tested** — as they must,
+the invariant flag making the trace blind to the extension.
+
+So §7's escape from the vanishing theorem is real and exact: a characteristic-zero, non-semisimple
+local system carrying a non-zero index, invisible to every trace. That also explains why a
+same-eigenvalue "irreducibility filter" is the wrong instrument here — an invariant line with
+*different* eigenvalues passes it — which is the correction the audit lane's R27(c) hands back to the
+main record.
+
+**Provenance, which the paper does not state.** This witness is the audit lane's **R27**
+(`audit/physical-bridge-2026-09-05`), harvested onto main as `B1413` on 2026-09-15 and verified
+there before the paper's 09-17 draft. §1 lists it under "what is new"; §1 also describes the work as
+"a single author with AI-assisted verification passes". That is not false — the lane is an AI seat —
+but "verification" understates a lane that *originated* the result. I would name the lane.
+
+One further thing the lane holds that the paper does not carry: on its own physical route the same
+count runs the other way. Its R15/R19 obtain a net **three** on a *prescribed singular source*
+ansatz — declared modelling data, explicitly "NOT an identification with the principal Riley local
+system" — and its **R30 finds no zero modes at finite width** once those cores are resolved, on
+m202. A stronger negative than §7 states, and it is on the branch rather than in the paper.
