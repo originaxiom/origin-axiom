@@ -1,5 +1,27 @@
 # Changelog
 
+## xB014 ADDENDUM 1: Z4's KILL IS WITHDRAWN — m004 is extremal three ways, and the error was mine twice over
+
+The owner asked four words: **"u sure about extremality"**. **He was right.** `PREREGISTRATION.md` untouched (`bc8a71ed…`); new cells `Z6`–`Z7`.
+
+**The two errors in Z4.** **(1) I tested the wrong direction.** Kojima–McShane is a **lower** bound (`log λ / vol ≥ 1/(3π)`), so "extremal" means the **smallest** ratio — closest to the bound. **Z4 ranked for the maximum.** **(2) I mis-read my own rank.** Z4 sorted **descending** and reported the index as a rank; *"m004's rank: 38 of 40"* was the **descending** index. **Ascending, m004 is rank 3** — and the two above it are **m206 and s961, m004's own covers**, carrying the **identical** ratio by construction (Z3 proved it constant along the tower). m004 was never near the bottom; it was **at the minimum, tied only with itself**. **And Z4 never tested the components at all**, which is where the extremality lives.
+
+**What is true**, over 40 once-punctured-torus bundles ranked ascending:
+
+| quantity | m004's rank |
+|---|---|
+| **dilatation** `log λ` | **1 of 40** |
+| **volume** | **1 of 40** |
+| **ratio** `log λ / vol` | **minimum** — 0 strictly below, tied only with `m206`, `s961`, `t12839` (its own tower) |
+
+**m004 is extremal three ways**, and the dilatation minimum is **forced**: trace 3 is the smallest possible for a pseudo-Anosov in `SL(2,ℤ)`, so `λ = φ²` is the floor, not a coincidence.
+
+> **Z4's verdict is WITHDRAWN. Path A is NOT killed by the base rate.** Verdict moved **NEGATIVE → OPEN**.
+
+**But the honest scope, which Z4 reached for the wrong reason.** Minimal dilatation on the once-punctured torus is a **known theorem**; minimal volume is **Cao–Meyerhoff**, already banked; **B207 already said it** (*"golden has the smallest regulator (log φ) → the least-hierarchical / extremal point"*); and the ratio's minimality **follows from** the components', so it is a consequence, not an independent fact. **The extremality is real, the kill was wrong, and the extremality is also already in the record.** Path A is **reopened but un-advanced** — it still does not cross B1012's wall, which concerns a **dimensionful** quantity while a ladder supplies a dimensionless **index**.
+
+**The standing lesson.** This is the **second time in one session** that a **sort order or rank convention produced a false verdict** (the first was xB007's `b++`-only search, caught by a declared prior). **A kill that rests on a ranking must state the direction and show the head of the list, not an index.** The head of the list is now in Z6/Z7 where a reader can check it.
+
 ## xB014 PATH A DIES: the ladder is real and generic, and m004 is rank 38 of 40 on the both-faces ratio
 
 Path A of the three the owner approved, run under his principle (*verify all load-bearing steps, search repo AND literature first, verify again*). **PREREGISTRATION sealed (sha256 `bc8a71ede6107f3f9e271bed29e7f919b7c49e72ea8bddfac38a8980f765f2f2`) and PUSHED at `63fc1f1` BEFORE any cell ran.** **Short by the owner's rule and by the seal's own commitment to one paragraph if the base rate came back unremarkable. It did.**

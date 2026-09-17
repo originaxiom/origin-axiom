@@ -6,6 +6,19 @@
 **Short by the owner's rule and by the seal's own commitment to one paragraph if the base rate
 came back unremarkable. It did.** Gate 5 untouched.
 
+> ### CORRECTION 2026-09-17 — **Z4's KILL IS WITHDRAWN.** Read
+> **`ADDENDUM_1_2026-09-17_z4_was_wrong.md`** with this file. The owner asked *"u sure about
+> extremality"* and he was right. **Two errors, both mine.** (1) Kojima–McShane is a **lower** bound,
+> so extremal means the **smallest** ratio — **Z4 ranked for the maximum**. (2) Z4 sorted **descending**
+> and reported the index as a rank: *"38 of 40"* was the descending index; **ascending m004 is rank 3**,
+> and the two above it are `m206`/`s961` — **its own covers at the identical ratio**. m004 **attains the
+> minimum**, 0 strictly below. And Z4 **never tested the components**: m004 is **rank 1 of 40 for
+> dilatation** and **rank 1 of 40 for volume**, the dilatation minimum being **forced** (trace 3 is the
+> smallest pseudo-Anosov trace in `SL(2,ℤ)`). **m004 is extremal three ways and PATH A IS NOT KILLED BY
+> THE BASE RATE.** What survives of the scope: the extremality is **already in the record** (B207,
+> Cao–Meyerhoff, the minimal-dilatation theorem) and the ratio's minimality **follows from** the
+> components', so Path A is **reopened but un-advanced**.
+
 ## The one paragraph
 
 **Z1 PASS — B207 is SCOPED, not disputed.** Its banked negative (*"no intrinsic exponential
