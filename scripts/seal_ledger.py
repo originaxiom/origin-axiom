@@ -26,7 +26,15 @@ def git(*args):
 
 def main():
     sealed = []
-    for d in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", ""))):
+    # Seat-prefixed arcs (sB..., qB..., xB...) are arcs too: a bare "B*" glob left every
+    # seat seal UNRECORDED here while the seal-provenance gate stayed green, which is the
+    # same blindness repaired in representation_sweep.py, tests/test_arc_verdict_schema.py
+    # and tests/test_b1400_six_sweeps.py.  This view now sees strictly more, never less.
+    pats = [os.path.join(ROOT, "frontier", "B*", ""),
+            os.path.join(ROOT, "frontier", "[a-z]B*", ""),
+            os.path.join(ROOT, "frontier", "[a-z][a-z]B*", "")]
+    dirs = sorted({d for pat in pats for d in glob.glob(pat)})
+    for d in dirs:
         for pat in ("PREREG*", "*DESIGN*.md", "SEALED*.md"):
             sealed.extend(sorted(glob.glob(os.path.join(d, pat))))
     sealed = sorted(set(sealed))

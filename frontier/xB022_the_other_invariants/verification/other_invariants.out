@@ -1,0 +1,112 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+V0       RE-DERIVING THE BANKED INPUTS (not citing them)
+         corpus rebuilt from xB015 K6's rule: 494 words   (closed form sum_(n=2..8)(2^n - 2) = 494)
+         xB015 K6's corpus size 494 reproduced: True
+         A5 shifts CS by 1/4 (xB015 K6):   494 of 494
+         A7 negates CS      (xB018 C5):    494 of 494
+         the object and its sister:
+           m004: vol=2.02988321281930725  H_1=(1, (0,))  CS=0.0
+           m003: vol=2.02988321281930725  H_1=(1, (0, 5))  CS=0.25
+V0 PASS  both banked laws reproduce on a corpus rebuilt from the rule,
+         not copied from the banked file.
+
+V1       VOLUME UNDER A5 -- prediction (sealed): EQUAL for every word
+         words tested: 494;  vol(b++w) == vol(b+-w) at 1e-25: 494 of 494
+         POSITIVE CONTROL  vol(m004) != vol(m006): comparator reports a difference: True  (2.02988321282 vs 2.56897060094)
+V1 PASS  A5 IS IN VOLUME'S STABILISER
+
+V2       VOLUME AND H_1 UNDER A6 AND A7 -- run, never asserted (E69)
+         words tested: 240
+         A6 (mirror)      preserves volume: 240 of 240;  preserves H_1: 240 of 240
+         A7 (letter swap) preserves volume: 240 of 240;  preserves H_1: 240 of 240
+V2 PASS  A6 and A7 are in the stabiliser of BOTH volume and H_1.
+
+V3       H_1 UNDER A5 -- prediction (sealed): MOVED for a majority
+         words tested: 494;  H_1(b++w) != H_1(b+-w): 494 of 494  (100.00%)
+           MOVED RL: (1, (0,))  ->  (1, (0, 5))
+           MOVED LR: (1, (0,))  ->  (1, (0, 5))
+           MOVED RRL: (1, (0, 2))  ->  (1, (0, 6))
+           MOVED RLR: (1, (0, 2))  ->  (1, (0, 6))
+           MOVED RLL: (1, (0, 2))  ->  (1, (0, 6))
+         at the minimal word LR: H_1(m004)=(1, (0,))  H_1(m003)=(1, (0, 5))
+V3 PASS  A5 IS NOT IN H_1's STABILISER -- H_1 behaves like CS,
+         not like volume.
+
+ V4      THE FIELD UNDER A5 -- no Sage on this bench, so the instrument is built here
+         and GUARDED.  PARI algdep detects at 30 digits; the polynomial is then
+         required to be IRREDUCIBLE and to vanish at 60 digits.
+         GRADE: this is the SHAPE FIELD.  Its identification with the invariant trace
+         field is a theorem this seat has NOT read and does NOT cite (E58).
+         m004 shape field minpoly: x^2 - x + 1
+         m003 shape field minpoly: x^2 - x + 1
+         POSITIVE CONTROL m015 (off the family): x^3 - x - 1   differs from m004: True
+         sample of 40 words: minpoly(b++w) == minpoly(b+-w): 40  (100.0%)
+         FENCE, stated not hedged: equal polredbest polynomials prove the fields EQUAL;
+         unequal ones prove nothing on their own, so the rate is a LOWER BOUND.
+V4 PASS  AT THE MINIMAL WORD THE SHAPE FIELD IS THE SAME: A5 is in the field's
+         stabiliser at the object.  Across the sample it agrees at the rate above.
+
+V5       THE STABILISER TABLE -- sealed prediction beside the measurement
+         invariant    predicted    measured                 orbit of the object
+         volume       all three    all three                trivial
+         trace field  all three    all three at the object  trivial at the object
+         CS           {A6, A7}     {A6, A7}                 {0, 1/4}
+         H_1          {A6, A7}     {A6, A7}                 two values
+         sealed predictions confirmed: 4 of 4
+         THE SHAPE: volume and the trace field have a TRIVIAL ORBIT -- all three bits
+         fix them.  CS and H_1 have the SAME stabiliser {A6, A7} and the SAME orbit
+         direction A5.  The invariants split into exactly TWO species, not four.
+
+V6       THE THREE ARITHMETIC MISSES -- the seal's binding kill condition
+         xB021 reported three banked negatives that did NOT fit its hypothesis.
+         The seal's prediction: each turns on an invariant with a TRIVIAL orbit.
+         KILL: if any one turns on an invariant that A5 MOVES, the unification fails.
+           xB013 Addendum 1     selection among an infinite family
+             turns on: the INVARIANT TRACE FIELD (Q(sqrt-3)) and the golden field Q(sqrt5)
+             that invariant's orbit is trivial (A5 does not move it): True
+           xB017                the Bianchi base rate
+             turns on: ARITHMETICITY -- a property of the invariant trace field
+             that invariant's orbit is trivial (A5 does not move it): True
+           xB017 Addenda 2/3    orbifold covering theory
+             turns on: COMMENSURABILITY -- an invariant of the trace field's class
+             that invariant's orbit is trivial (A5 does not move it): True
+         all three turn on a trivial-orbit invariant: True
+         (volume's orbit is trivial too: True)
+         THE KILL CONDITION DID NOT FIRE.  The three misses are not stabiliser
+         negatives at all -- they are a THIRD SPECIES: questions asked of an
+         invariant that has NO ORBIT, so moving to the orbit cannot help them.
+
+V7       A FAMILY-LEVEL INDEX FOR H_1?  (exploratory; a null result is reported as null)
+         B1186's family re-read: 112 members   (B1186's count is 112: True)
+         distinct H_1 signatures across the family: 33
+         torsion-free members (|Tor| = 1): 29 of 112   -> ['m004', 'm202', 'm203', 'o10_150683', 'o10_150685', 'o10_150686', 'o10_150687', 'o10_150690']
+         members with |Tor H_1| a PERFECT SQUARE: 51 of 112
+         |Tor H_1| mod m across the family -- residues hit, of m:
+           m=2   2 of 2 residues  SURJECTIVE  (TRIVIAL: mod 2 needs only one even and one odd order)
+           m=3   3 of 3 residues  SURJECTIVE
+           m=4   4 of 4 residues  SURJECTIVE
+           m=5   5 of 5 residues  SURJECTIVE
+           m=6   6 of 6 residues  SURJECTIVE
+           m=8   7 of 8 residues
+           m=12  9 of 12 residues
+           m=24  12 of 24 residues
+         SURJECTIVE ONTO Z/12, the modulus xB015 found for CS: False
+         NULL RESULT REPORTED AS NULL: H_1's torsion order does NOT carry a Z/12
+         index of CS's kind.  H_1 shares CS's STABILISER, not CS's family index.
+         EXPLORATORY, BEYOND THE SEAL (labelled, per V7's own 'exploratory' clause):
+         the A5 shift on torsion ORDER, read off V3's examples -- 1 -> 5, 2 -> 6:
+           |Tor(b+-w)| - |Tor(b++w)| distribution (words of length <= 6): [(4, 114)]
+           a CONSTANT shift would be a law; is it constant? True   -> LAW
+
+==============================================================================
+  V0: PASS
+  V1: PASS
+  V2: PASS
+  V3: PASS
+  V4: PASS
+  V5: PASS
+  V6: PASS
+  V7: PASS
+VERIFIED

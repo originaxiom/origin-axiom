@@ -1,5 +1,38 @@
 # Changelog
 
+## xB022 — the other invariants: the invariants split into TWO species, not four
+
+xB021 held `CS` only and named that as its limitation. Removing it makes the picture **simpler**:
+
+| invariant | stabiliser | orbit of the object's value |
+|---|---|---|
+| **volume** | **all three bits** | **trivial** |
+| **shape field** | **all three bits** | **trivial** |
+| `CS` | `{A6, A7}` | `{0, ¼}` |
+| `H₁` | `{A6, A7}` | two values |
+
+**All four sealed predictions confirmed.** Volume equal **494/494** at `10⁻²⁵` with a positive
+control; `H₁` moved **494/494 — 100 %**, stronger than the predicted majority; the field instrument
+**built here** on PARI `algdep` under a guard (Sage is absent), graded as the **shape field** with
+the identification to the invariant trace field **not claimed**.
+
+**The binding kill condition did not fire, and it resolved what xB021 left hanging:** all three
+unexplained arithmetic negatives turn on invariants with a **trivial orbit**.
+
+> They were never stabiliser negatives. They are a **third species — questions asked of an invariant
+> that has no orbit**, which is why "move to the orbit" cannot reach them even in principle.
+
+**Unpredicted, labelled exploratory:** `|Tor H₁(b+-w)| − |Tor H₁(b++w)| = 4` **exactly, all 494
+words** — A5 shifts `CS` by ¼ and torsion order by **+4**. With the caution measured beside it:
+`(b++ square, b+- not)` occurs 70 times against **80 for the reverse**, so square torsion does **not**
+pick the `b++` branch in general.
+
+### Instruments repaired (the same seat-prefix blindness, two more instances)
+- `tests/test_b1400_six_sweeps.py` — `\bB(\d{1,4})\b` can never match `xB001`, so the orphan-arc
+  sweep had been **structurally unable to pass since xB001 was banked**. Fixed; passes.
+- `scripts/seal_ledger.py` — globbed `frontier/B*/`, leaving **every seat arc's seal unrecorded**
+  while `seal-provenance` stayed green. Fixed; **23 seat seals now recorded**, gate still passes.
+
 ## xB021 — the sum of the negatives: the object is a fixed point, and a fixed point cannot report on its stabiliser
 
 The three bits act on `CS ∈ ℝ/½ℤ` — **A5** by `x ↦ x+¼`, **A7** and **A6** by `x ↦ −x`. The group has

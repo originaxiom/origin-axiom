@@ -1,0 +1,104 @@
+{
+ "cells": {
+  "V0": true,
+  "V1": true,
+  "V2": true,
+  "V3": true,
+  "V4": true,
+  "V5": true,
+  "V6": true,
+  "V7": true
+ },
+ "results": {
+  "V0": {
+   "corpus": 494,
+   "tested": 494,
+   "a5_quarter_shift": 494,
+   "a7_negates": 494
+  },
+  "V1": {
+   "tested": 494,
+   "equal": 494,
+   "control_sees_difference": true
+  },
+  "V2": {
+   "tested": 240,
+   "a6_vol": 240,
+   "a6_h1": 240,
+   "a7_vol": 240,
+   "a7_h1": 240
+  },
+  "V3": {
+   "tested": 494,
+   "moved": 494,
+   "rate": 1.0
+  },
+  "V4": {
+   "m004_minpoly": "x^2 - x + 1",
+   "m003_minpoly": "x^2 - x + 1",
+   "sample": 40,
+   "same": 40,
+   "rate": 1.0,
+   "control_differs": true,
+   "grade": "SHAPE FIELD; identification with the invariant trace field NOT claimed"
+  },
+  "V5": {
+   "rows": [
+    [
+     "volume",
+     "all three",
+     "all three",
+     "trivial"
+    ],
+    [
+     "trace field",
+     "all three",
+     "all three at the object",
+     "trivial at the object"
+    ],
+    [
+     "CS",
+     "{A6, A7}",
+     "{A6, A7}",
+     "{0, 1/4}"
+    ],
+    [
+     "H_1",
+     "{A6, A7}",
+     "{A6, A7}",
+     "two values"
+    ]
+   ],
+   "predictions_confirmed": 4
+  },
+  "V6": {
+   "all_trivial_orbit": true,
+   "field_orbit_trivial": true,
+   "volume_orbit_trivial": true
+  },
+  "V7": {
+   "members": 112,
+   "distinct_signatures": 33,
+   "torsion_free": 29,
+   "perfect_square_torsion": 51,
+   "surjectivity_by_modulus": {
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "8": false,
+    "12": false,
+    "24": false
+   },
+   "surjective_onto_Z12": false,
+   "exploratory_torsion_shift": [
+    [
+     4,
+     114
+    ]
+   ],
+   "shift_is_constant": true
+  }
+ }
+}

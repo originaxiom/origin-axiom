@@ -104,7 +104,14 @@ def test_sweep3_no_orphan_arcs():
             t = p.read_text(encoding="utf-8", errors="ignore")
         except Exception:
             continue
-        cited |= {"B" + m.group(1) for m in re.finditer(r"\bB(\d{1,4})\b", t)}
+        # seat-prefixed ids (sB..., qB..., xB...) are arcs too, and a bare \bB(\d)\b can
+        # NEVER match one: in "xB001" the boundary between 'x' and 'B' is not a word
+        # boundary, so every seat arc was invisible to this sweep and the assert below
+        # could not pass once any seat arc existed.  Same defect repaired in
+        # representation_sweep.py and tests/test_arc_verdict_schema.py (xB001, 2026-09-16)
+        # and in scripts/seal_ledger.py; this is the same repair, not a weakening --
+        # the matcher now sees STRICTLY MORE citations than before.
+        cited |= {m.group(1) for m in re.finditer(r"\b([a-z]{0,2}B\d{1,4})\b", t)}
     assert set(verd) - cited == set(), sorted(set(verd) - cited)[:8]
     assert len(verd) > 1200
 

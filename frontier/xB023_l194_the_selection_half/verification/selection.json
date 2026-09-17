@@ -1,0 +1,109 @@
+{
+ "cells": {
+  "W0": true,
+  "W1": true,
+  "W2": false,
+  "W3": true,
+  "W4": true,
+  "W5": true,
+  "W6": true
+ },
+ "results": {
+  "W0": {
+   "cs_m004": "zero",
+   "cs_m003": "quarter",
+   "tor_m004": 1,
+   "tor_m003": 5,
+   "positive_control_m000_to_m004": true,
+   "m003_is_orientation_double_cover": false,
+   "cover_isosigs": 1117
+  },
+  "W1": {
+   "isometry_attrs": [
+    "cusp_images",
+    "cusp_maps",
+    "extends_to_link",
+    "num_cusps"
+   ],
+   "has_translation_accessor": false,
+   "exhibit": [
+    [
+     "(Fraction(0, 1), Fraction(0, 1))",
+     24
+    ],
+    [
+     "(Fraction(1, 2), Fraction(0, 1))",
+     0
+    ]
+   ],
+   "linear_part_cannot_decide": true
+  },
+  "W2": {
+   "covers": 1260,
+   "square_torsion": 670,
+   "not_square_examples": [
+    [
+     "m012(0,0)",
+     3
+    ],
+    [
+     "m013(0,0)(0,0)",
+     2
+    ],
+    [
+     "m051(0,0)(0,0)",
+     2
+    ],
+    [
+     "m065(0,0)(0,0)",
+     2
+    ],
+    [
+     "m091(0,0)",
+     3
+    ],
+    [
+     "m097(0,0)(0,0)",
+     2
+    ]
+   ],
+   "cs_zero": 1260,
+   "cs_quarter": 0,
+   "cs_other": 0,
+   "grade": "MEASURED LAW, not a theorem; Kawauchi NOT cited"
+  },
+  "W3": {
+   "tor_m004": 1,
+   "tor_m003": 5,
+   "square_m004": true,
+   "square_m003": false,
+   "m004_is_cover": true,
+   "m003_is_cover": false
+  },
+  "W4": {
+   "window": 203123,
+   "amphichiral": 181,
+   "errors": {},
+   "crosstab": {
+    "False|quarter": 75,
+    "True|zero": 78,
+    "False|zero": 28
+   },
+   "base_rate_zero_among_noncovers": 0.27184466019417475,
+   "zero_rate_among_covers": 1.0,
+   "quarter_class_covers": []
+  },
+  "W5": {
+   "zero_n": 106,
+   "zero_square": 53,
+   "zero_rate": 0.5,
+   "quarter_n": 75,
+   "quarter_square": 12,
+   "quarter_rate": 0.16,
+   "materially_separating": true
+  },
+  "W6": {
+   "l194_closed": false
+  }
+ }
+}

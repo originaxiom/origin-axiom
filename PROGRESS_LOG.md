@@ -16713,3 +16713,73 @@ whole stabiliser**, with the orbit–stabiliser count that makes the join theore
 record's full negative inventory **not swept**.
 
 **Gates 35/35. Gate 5 absolute.**
+
+---
+
+## 2026-09-17 — xB022: THE OTHER INVARIANTS (seat `xb`, `sep16-branch`)
+
+**PREREGISTRATION sealed `f153f67dcb0a27e8…` and PUSHED at `cbfeec0` before `verification/`
+existed**, with the predicted stabiliser table written down in advance and a binding kill condition
+on V6. **Verdict PROVED. All eight cells PASS. All four sealed predictions confirmed.**
+
+xB021 computed the stabiliser of the object's `CS` and held **`CS` only**, naming that as its
+principal limitation. This arc removes it — and the answer is **simpler** than predicted.
+
+| invariant | stabiliser (measured) | orbit of the object's value | species |
+|---|---|---|---|
+| **volume** | **all three bits** | **trivial** | no orbit |
+| **shape field** | **all three bits** | **trivial** | no orbit |
+| `CS` | `{A6, A7}` | `{0, ¼}` | has an orbit |
+| `H₁` | `{A6, A7}` | two values | has an orbit |
+
+**V0 — nothing cited.** The 494-word corpus was **rebuilt from xB015 K6's rule** and checked against
+the closed form `Σ(2ⁿ−2) = 494`; on it, **A5 shifts `CS` by ¼ 494/494** and **A7 negates `CS`
+494/494**, both banked laws reproducing on a corpus that was not copied.
+
+**V1 — volume:** equal **494/494** at `10⁻²⁵`, with a **positive control** (`m004` vs `m006`) proving
+the comparator is not blind. **V2 — A6/A7:** run, never asserted (E69), 240/240 on both volume and
+`H₁`. **V3 — `H₁`:** moved **494/494, 100 %** — stronger than the seal's predicted majority.
+**V4 — the field:** `invariant_trace_field_gens` needs Sage, absent here, so the instrument was
+**built on PARI `algdep` under a guard** (detect at 30 digits, then require irreducibility *and*
+vanishing at 60). Both sisters give `x²−x+1` = ℚ(√−3); control `m015` gives `x³−x−1`. **Graded as the
+SHAPE field; the identification with the invariant trace field is NOT claimed and Neumann–Reid is
+NOT cited** (E58).
+
+**V6 — the binding kill condition DID NOT FIRE, and it closed xB021's loose end.** Each of the three
+arithmetic negatives xB021 could not place turns on an invariant whose orbit is **trivial**.
+
+> **They were never stabiliser negatives. They are a THIRD SPECIES — questions asked of an invariant
+> that has NO ORBIT — which is exactly why xB021's "move to the orbit" cannot reach them.**
+
+**V7 — the null, reported as a null:** `|Tor H₁|` is **not** surjective onto ℤ/12 (9 of 12 residues),
+so `H₁` shares `CS`'s stabiliser but **not** `CS`'s family index. Every modulus printed rather than
+the first hit, because a hit at `m = 2` is trivial and printing it beside a "null result" line would
+itself be E69.
+
+**Unpredicted, labelled EXPLORATORY:** `|Tor H₁(b+-w)| − |Tor H₁(b++w)| = 4` **exactly, for all 494
+words.** A5 shifts `CS` by ¼ **and** torsion order by **+4**. **The caution is measured in the same
+cell and carried forward rather than left for a reader:** `(b++ square, b+- not)` occurs **70** times
+against **80** for the reverse, so square torsion does **not** pick the `b++` branch in general.
+
+### Two instruments repaired — the same seat-prefix blindness, now four instances
+
+- **`tests/test_b1400_six_sweeps.py`** — its citation matcher `\bB(\d{1,4})\b` **can never match
+  `xB001`** (no word boundary between `x` and `B`), so `test_sweep3_no_orphan_arcs` has been
+  **structurally incapable of passing since xB001 was banked on 2026-09-16**. Repaired to
+  `[a-z]{0,2}B\d{1,4}`; the matcher now sees **strictly more**, never less. Test passes.
+- **`scripts/seal_ledger.py`** — globbed `frontier/B*/` only, so **every seat arc's seal was
+  unrecorded** while the `seal-provenance` gate stayed green. Repaired; **23 seat seals now
+  appear that were invisible before** (336 rows, up from 312) and the gate still passes.
+
+Both are the defect class already documented in `tests/test_arc_verdict_schema.py`'s own comment
+(*"the same defect repaired in representation_sweep.py the same day"*).
+
+### Suite baseline established
+The full serial lock suite ran **53:05 — 22 failed, 6664 passed, 59 skipped**. **Every failure was
+verified pre-existing at `b4a53a6`** by running the failing files in a clean worktree at that commit:
+7 are cc's out-of-vocabulary `VERIFIED` verdicts (`B1411`–`B1417`, relay item 10), the rest predate
+this session's work, and the `test_no_hardcoded_paths` offender is **cc's**
+`B1411/verification/main_b1355_geometry_run.txt`, not this seat's. The sweep3 repair above **removes
+one** of the 22.
+
+**Gates 35/35. Gate 5 absolute. Nothing to `CLAIMS.md`.**

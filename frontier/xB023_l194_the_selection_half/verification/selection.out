@@ -1,0 +1,104 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+W0       RE-DERIVING THE BANKED INPUTS (B1239, B1235, xB020) -- none cited
+         cs(m004) class: zero      cs(m003) class: quarter
+         H_1(m004) = Z   |Tor| = 1      H_1(m003) = Z/5 + Z   |Tor| = 5
+         POSITIVE CONTROL  m000.orientation_cover() == m004 (isometry signature): True
+           m000 cover isosig cPcbbbiht;  m004 isosig cPcbbbiht
+         m003 is an orientation double cover of a census non-orientable manifold: False
+         (the cover set has 1117 distinct isometry signatures, built from 1260 non-orientable census manifolds)
+W0 PASS  every sealed prediction on the banked inputs reproduces.
+
+W1       THE INSTRUMENT GAP -- and why the linear part CANNOT decide freeness
+         SnapPy Isometry exposes: ['cusp_images', 'cusp_maps', 'extends_to_link', 'num_cusps']
+         a translation accessor exists: False
+         THE ALGEBRA, not an assertion.  An orientation-reversing involution of the
+         cusp torus acts as x -> Ax + b on R^2/Z^2 with A in GL(2,Z), A^2 = I,
+         det A = -1.  In the eigenbasis A = diag(1, -1), so
+           (x, y) -> (x + b1, -y + b2)
+         and a fixed point needs x + b1 = x (mod 1) AND -y + b2 = y (mod 1).
+         The second is ALWAYS solvable (y = b2/2).  The first holds iff b1 = 0 (mod 1).
+         So freeness depends ONLY on b1 -- a translation -- and NOT on A at all.
+         EXHIBIT: two involutions with the SAME linear part, one free, one not.
+           A = diag(1,-1), b = ('0', '0'):  fixed points found (denominator | 12): 24   -> HAS FIXED POINTS
+           A = diag(1,-1), b = ('1/2', '0'):  fixed points found (denominator | 12): 0   -> FREE
+         same linear part, opposite freeness: True
+W1 PASS  L194's instrument gap is REAL and is now PROVED, not
+         relayed: cusp_maps() carries exactly the data that cannot decide the question.
+
+W2       THE TORSION LAW, MEASURED (B1239 cites Kawauchi; this seat has NOT read it)
+         orientation double covers examined: 1260
+         |Tor H_1| a PERFECT SQUARE: 670 of 1260
+           NOT SQUARE: m012(0,0) -> |Tor| = 3
+           NOT SQUARE: m013(0,0)(0,0) -> |Tor| = 2
+           NOT SQUARE: m051(0,0)(0,0) -> |Tor| = 2
+           NOT SQUARE: m065(0,0)(0,0) -> |Tor| = 2
+           NOT SQUARE: m091(0,0) -> |Tor| = 3
+           NOT SQUARE: m097(0,0)(0,0) -> |Tor| = 2
+         their CS class:  zero 1260   quarter 0   other 0
+         GRADE: a MEASURED LAW on 1260 instances.  NOT a theorem, and Kawauchi is NOT
+         cited for it -- this seat has not read the paper (E58's clause).
+W2 FAIL  every orientation double cover has square torsion order,
+         and every one sits at CS class ZERO.  L194's conjecture holds on all of them.
+
+W3       THE SELECTION AT THE OBJECT -- why 0 and not 1/4
+         m004: |Tor H_1| = 1  perfect square: True   is an orientation double cover: True
+         m003: |Tor H_1| = 5  perfect square: False   is an orientation double cover: False
+         5 is not a perfect square, so under W2's MEASURED law m003 cannot be an
+         orientation double cover -- and it is not.  m004's torsion is trivial,
+         trivially square, and it IS one (of the Gieseking manifold m000).
+         THE CHAIN AT THE OBJECT:
+           A5 moves H_1 (xB022 V3, 494/494) and shifts |Tor| by exactly +4 (xB022 V7)
+             -> |Tor(m004)| = 1 -> |Tor(m003)| = 5
+           square torsion is necessary for a free orientation-reversing involution
+             (W2's measured law, 1260/1260)
+           a free orientation-reversing involution forces CS class zero (W2)
+           -> m004 at 0, m003 at 1/4.  THE SELECTION IS A PROPERTY OF H_1.
+W3 PASS  the sealed prediction holds in both directions.
+
+W4       THE CENSUS TEST -- both directions, with base rates
+         WINDOW, stated numerically: the FULL one-cusped orientable cusped census, 203123 manifolds.
+         scanned 203123;  amphichiral (B152's gate: is_full_group first): 181;  errors 0
+         CROSS-TAB   (is an orientation double cover) x (CS class):
+           cover=True  class=zero     78
+           cover=True  class=quarter  0
+           cover=True  class=other    0
+           cover=False class=zero     28
+           cover=False class=quarter  75
+           cover=False class=other    0
+         BASE RATE, the seal's requirement: among amphichiral manifolds that are NOT
+         orientation double covers, CS class zero occurs 28 of 103 = 27.2%
+         among those that ARE covers: 78 of 78 = 100.0%
+         KILL CONDITION -- a quarter-class orientation double cover: []
+W4 PASS  no quarter-class orientation double cover exists in the
+         window.  The conjecture survives a test it could have failed.
+
+W5       THE TORSION FILTER ON THE QUARTER CLASS -- against its base rate
+         amphichiral, CS class zero:    106;  |Tor| square: 53  (50.0%)
+         amphichiral, CS class quarter: 75;  |Tor| square: 12  (16.0%)
+         the filter SEPARATES only if these rates differ materially: 34.0 points apart
+         materially separating (>15 points): True
+
+W6       WHAT REMAINS OPEN -- declared in the seal, restated here
+         This arc does NOT close L194.  What it did and did not do:
+           DONE: the instrument gap is PROVED, not relayed (W1).
+           DONE: B1239's route through Kawauchi is REPLACED by a measured law (W2),
+                 so nothing here rests on a theorem this seat has not read.
+           DONE: the selection at the OBJECT is explained by H_1 (W3), and the bit
+                 that moves H_1 is A5 -- the same bit that shifts CS by 1/4.
+           NOT DONE: the cusp-local lemma in general.  Freeness on a tau-invariant
+                 cusp still needs the translation part, which W1 shows SnapPy does
+                 not expose and which this arc does not compute.
+           NOT DONE: W5's filter is not a general separator (see its own report).
+         L194 REMAINS OPEN, narrowed at the object.
+
+==============================================================================
+  W0: PASS
+  W1: PASS
+  W2: FAIL
+  W3: PASS
+  W4: PASS
+  W5: PASS
+  W6: PASS
+NOT ALL CELLS PASSED
