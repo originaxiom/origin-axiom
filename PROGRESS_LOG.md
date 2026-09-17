@@ -16188,3 +16188,72 @@ attribution (**the second wrong remembered citation in two arcs**) · dividing b
 theorems divide by cover degree.
 
 **Gate 5 absolute: no value, no generation count, no physics reading, nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-17 — the banking pass, and the audit found a headline wrong by one
+
+Owner: **"bank it all so we dont redo. and make sure we missed nothing."** Both done. The audit
+turned up **one substantive error that neither xB015 nor xB016 had noticed**, on a paper-facing
+headline.
+
+### Registered so nothing is redone
+
+* **`RETRACTED_PHRASES` row 12** — `2.8447655827` (and `σ = 0.4741275971`): xB016 P2's **refuted
+  candidate**, printed by its seal in advance. **Never a prediction of this programme.**
+* **`RETRACTED_PHRASES` row 13** — *"`k` must be even"*: withdrawn as unsupported.
+* **`RETRACTED_PHRASES` row 14** — *"zero free dimensionless constants"*: **off by one** (below).
+* **`OPEN_LEADS` L223** — the k-coupling's normalisation is unpinned: the one genuinely open item
+  this pair of arcs produced, **with the closed routes recorded in the same row so they are not
+  re-run**.
+* **`ERROR_LEDGER` E58, new clause** — *a citation given from memory is a hypothesis about the
+  literature, not a citation.* The rate is the argument: across xB015/xB016 this seat produced five
+  load-bearing citations from memory and a sweep found **four of five wrong**. The one that held was
+  the argument reasoned from structure, not recalled. **Reasoning survived; recall did not.**
+* **xB015 ADDENDUM 1** — its one forward-pointing lead (the two 24s: the family's `(1/24)ℤ` CS
+  lattice vs the framing anomaly `exp(2πi c/24)`) is **CLOSED**: for complex Chern–Simons the
+  **eta-invariant vanishes**, so there is no framing term to connect to. Everything xB015 banked is
+  untouched; only the pointer is withdrawn. **There is no next cell there.**
+
+### The audit's find: the action card's count was wrong by one
+
+`B1088` and `THE_FRAMEWORK` both state **"the action has zero free dimensionless constants"**, on the
+ground that *"the single scale σ … is the same one dimensionful unit already priced into the input
+ledger."* **σ is not dimensionful.** `σ = ℓ/(4G)` and in 3d `[G] = length`, so σ is a ratio of
+lengths — and **B1015's own sealed declaration already says so**: *"A2 (dimensionless frame): c …
+equivalently σ = c/6"*, with **A1 = ℓ** the dimensionful unit. The claim collapses A1 into A2, which
+the declaration forbids.
+
+> **Correctly counted, the action has EXACTLY ONE free dimensionless constant — `A2 = c = 6σ` —
+> which is precisely what B1015 declares and prices.** And complex Chern–Simons confirms it is
+> genuinely free: *"the other parameter, s, is not quantized"* (Gukov §1.1; Witten eq. 2.2 quantizes
+> only `k`; Dimofte §2.1), with **nothing coupling it to `k`**.
+
+**Everything else on the action card stands:** `Λ = −1` forced, the volume, `CS = 0` exact, `c = 6σ`
+derived twice, `S = −Vol·σ` — one term. **Only the word "zero" was wrong.**
+
+**And this is the error that produced my own.** The record held σ as dimensionful on one surface and
+dimensionless on another; the sentence the owner refused three turns ago — *"the wall is about a
+dimensionful quantity"* — was that contradiction, repeated.
+
+**Propagated to TEN surfaces**, nine of which the register found rather than a grep: B1088 FINDINGS
+(banner + the claim line) · `THE_FRAMEWORK` §Layer-6 · `THE_LADDER` X34 (and X21's owed
+normalisation check, now pointed at L223) · `OPEN_LEADS` C1 · `GRAND_COMPUTATION_LEDGER` ·
+`GRAND_COMPUTATION_v0` ×2 · `LAW_MAP` · `OPEN_PROBLEMS` · **and two OUTBOUND drafts**,
+`outside_bench/THE_GATE_SENDS.md` and `outside_bench/memos/THE_ESSENCE.md`. The first of those said
+*"exactly one continuous dimensionless number, σ"* and *"zero free dimensionless constants"* **two
+sentences apart** — the conflation in its clearest form, in a page drafted **to be sent**. Caught
+before any send.
+
+**One instrument change, declared because it makes my own failure pass:** `retraction_sweep.py` now
+exempts `PREREGISTRATION.md`. The reason is structural, not convenient — a sealed preregistration's
+sha256 is published in a commit pushed **before** the work ran and is enforced by the `seal-digests`
+gate, so editing one to add a mention cue would **falsify a seal**; and a preregistration cannot
+carry a live claim, since it states what *will* be tested and is always superseded by its own
+FINDINGS.
+
+**Still open, and not mine to close silently:** Paths **B** and **C** (owner-approved, never
+started) · the seven `VERIFIED` verdicts in B1411–B1417, still non-schema (relay item 10) · `cc` to
+land `linkage-kills` and `rederivation` on main.
+
+**Gates 35/35. Gate 5 absolute throughout.**

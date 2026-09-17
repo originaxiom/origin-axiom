@@ -1,3 +1,5 @@
+> **SCOPE NOTE 2026-09-17 (xB015 K1 + xB016 ADDENDUM 1): THE COUNT IS WRONG BY ONE.** `σ = ℓ/(4G)` is **DIMENSIONLESS** — in 3d `[G] = length`, so σ is a ratio of lengths, and B1015's own sealed declaration says so: *"A2 (dimensionless frame): c — the central charge, equivalently σ = c/6"*, with **A1 = ℓ** the dimensionful unit. Calling σ *"the one dimensionful unit"* collapses A1 into A2, which the declaration forbids. **Correctly counted, the action has EXACTLY ONE free dimensionless constant — A2 = c = 6σ — which is precisely what B1015 declares and prices.** And the literature confirms it is genuinely free: in complex Chern–Simons *"the other parameter, s, is not quantized"* (Gukov hep-th/0306165 §1.1; Witten arXiv:1001.2933 eq. 2.2 quantizes only `k`; Dimofte arXiv:1409.0857 §2.1), and **nothing couples it to `k`**. **What SURVIVES, untouched:** `Λ = −1` forced, the volume, `CS = 0` exact, `c = 6σ` derived twice, and `S = −Vol·σ` — one term. **Only the word "zero" is wrong; it is one.**
+
 # B1088 — THE PARAMETER-FREE ACTION CARD (C1 of L174, the 3d completion's first cell)
 
 **Date:** 2026-08-19 · **Verdict: PROVED (assembly + verification; every constant derived)**
@@ -16,7 +18,7 @@
 
 ## THE CLAIM, MADE PRECISE
 
-**The action has ZERO free dimensionless constants.** Its single scale σ is not new
+~~**The action has ZERO free dimensionless constants.**~~ *(**CORRECTED 2026-09-17, xB015 K1 + xB016 ADDENDUM 1: the count is ONE, not zero** — σ = ℓ/4G is DIMENSIONLESS and is B1015's A2; RETRACTED_PHRASES row 14.)* Its single scale σ is not new
 freedom: it is the input ledger's one unit (the ℝ₊ closing, B1015/B1017 — priced there,
 and B1015's no-dimensionless-number-flows theorem plus the ray's non-normalisability
 (B1079's addendum) fence what it can ever leak). "Parameter-free" = no free dimensionless

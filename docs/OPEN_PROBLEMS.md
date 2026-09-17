@@ -36,7 +36,7 @@
 > empty at count level**, on any closed assembly (B1086 — one of four independent proofs of
 > the same fact, `docs/THE_LADDER.md` X33, "the four-language wall"). The 3d completion
 > campaign's first pass closed at C1–C4 (B1088–B1091): a parameter-free 2+1d gravity+matter
-> theory — S = −Vol·σ, zero free dimensionless constants, the quantum partition function's
+> theory — S = −Vol·σ, ~~zero free dimensionless constants~~ *(**CORRECTED 2026-09-17, xB015 K1 + xB016 ADDENDUM 1: the count is ONE, not zero** — σ = ℓ/4G is DIMENSIONLESS and is B1015's A2, the declaration's own continuous dimensionless anchor; RETRACTED_PHRASES row 14. The action card's constants are untouched.)*, the quantum partition function's
 > steepest-descent saddle is exactly u²+u+1=0 (the founding field generator ω, reappearing
 > as a critical point) — with C5 (arithmetic Chern–Simons) sharpened, not solved.
 > `docs/OPEN_LEADS.md` L166 (the listener) also resolved this window in the sense that

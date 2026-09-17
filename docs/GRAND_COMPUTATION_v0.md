@@ -15,7 +15,7 @@ says so and types the reason (input slot or theorem-wall) — that typing is the
 
 **The one-sentence claim.** In its own units the program today states: a causal arena with a
 proved locality law; a clock that is one generator read three ways; a meter in which the whole
-family is integers and the action is one term with zero free dimensionless constants; a forced
+family is integers and the action is one term with ~~zero free dimensionless constants~~ *(**CORRECTED 2026-09-17, xB015 K1 + xB016 ADDENDUM 1: the count is ONE, not zero** — σ = ℓ/4G is DIMENSIONLESS and is B1015's A2, the declaration's own continuous dimensionless anchor; RETRACTED_PHRASES row 14. The action card's constants are untouched.)*; a forced
 E₆→SM content chain with one generation per 27; three dimensionless coupling shapes (6-component
 up, 3×3×4 down with an exact skew zero, rank-2 family law); and an input list of exactly one
 external unit, two ℤ/2 bits, one continuous anchor with a named deletion route, and finite labels
@@ -120,7 +120,9 @@ object sits at CS = 0, the symmetric origin — B1025 I1).
 **Own-unit consequence:** within the family, "choice of scale" is a **finite menu (an integer)**,
 not a continuum. The ℝ⁺ continuum residue lives only in the anchors (§5).
 
-### 2.3 The action (B1088, PROVED — zero free dimensionless constants)
+### 2.3 The action (B1088, PROVED — ~~zero free dimensionless constants~~ **one**: `c = 6σ`)
+
+> *(**CORRECTED 2026-09-17, xB015 K1 + xB016 ADDENDUM 1: the count is ONE, not zero** — σ = ℓ/4G is DIMENSIONLESS and is B1015's A2, the declaration's own continuous dimensionless anchor; RETRACTED_PHRASES row 14. The action card's constants are untouched.)*
 
 | constant | value | status |
 |---|---|---|

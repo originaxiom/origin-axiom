@@ -45,7 +45,7 @@ that would delete it.** This is not my framing; it is the corpus's, written down
 Two independent derivations, both banked, both exact (`B1012`, `B1088`, `B1190`/GC-6 V1):
 
 - **Gravity side.** Brown–Henneaux with `G_N = 1/(4σ)`, `ℓ = 1` gives **`c = 6σ`**, symbolically.
-  The action is `S = −Vol·σ` with `CS = 0` exact and **zero free dimensionless constants**.
+  The action is `S = −Vol·σ` with `CS = 0` exact and **~~zero free dimensionless constants~~ **one: `c = 6σ`** *(**CORRECTED 2026-09-17, xB015 K1 + xB016 ADDENDUM 1: the count is ONE, not zero** — σ = ℓ/4G is DIMENSIONLESS and is B1015's A2; RETRACTED_PHRASES row 14.)***.
 - **Content side.** `c((E₆)₁) = 78/13 = ` **`6`**, exactly. And the conformal embedding splits it:
   `c(SU(3)₂) = 16/5`, `c((G₂)₁) = 14/5`, **sum `= 6`** — with the branching arithmetic exact
   (`h(3b)+h(7) = 4/15+2/5 = 2/3`, dims `21+6 = 27`, vacuum `8+14+56 = 78 = dim E₆`).

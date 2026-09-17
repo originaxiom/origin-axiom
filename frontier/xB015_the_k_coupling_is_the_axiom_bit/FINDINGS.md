@@ -1,3 +1,14 @@
+> **ADDENDUM 1, 2026-09-17 — §5's FORWARD-POINTING LEAD IS CLOSED.** §5 ended by asking whether the
+> family's `(1/24)ℤ` CS lattice and the framing anomaly's `exp(2πi c/24)` are the same lattice. **They
+> are not, because for COMPLEX Chern–Simons the eta-invariant VANISHES** (Gukov hep-th/0306165
+> eq. 3.36; Witten arXiv:1001.2933 §5.1.2) — there is no framing term to connect to; the 24th root of
+> unity that does appear for the figure-eight is *"absorbed in the framing ambiguity"*, a convention
+> (Collier–Eberhardt–Mühlmann–Zhang arXiv:2401.13900 §4.5). **And §5's "65 of 112 members see `k`"
+> cannot reach `σ` either: nothing couples `k` and `σ`** — Witten eq. (2.2) makes `k` integral and
+> leaves `σ` free; Gukov §1.1: *"the other parameter, s, is not quantized."* **Everything this arc
+> BANKED is unchanged** (the ℤ/12 index, its forcing by m004's zero, the ¼-shift law, the A5
+> reframing). **Only the forward pointer is withdrawn: there is no next cell there.**
+
 # xB015 — THE k-COUPLING IS THE AXIOM BIT: my sentence about B1012's wall was wrong on both halves, the family carries a ℤ/12 CS index, and B1186's family is not one commensurability class
 
 **Seat `xb`, `sep16-branch`, 2026-09-17. PREREGISTRATION sealed `5d489878…` and PUSHED at

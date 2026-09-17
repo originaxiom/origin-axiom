@@ -292,8 +292,12 @@ answer removes the last continuous dimensionless freedom from the framework, in 
 The framework's audited input list (`B1025`, carried in `GRAND_COMPUTATION_v0` §5) is: **one
 dimensionful unit ℓ** (external by design — nobody derives the metre), **two ℤ/2 bits**, **finite
 label menus**, and **exactly one continuous dimensionless number, σ**. The action is `S = −Vol·σ`
-with **zero free dimensionless constants**. If σ is fixed, the framework has **no continuous freedom
-left at all**.
+with ~~**zero free dimensionless constants**~~ **exactly that one, `c = 6σ`**. If σ is fixed, the
+framework has **no continuous freedom left at all**.
+
+> *(**CORRECTED 2026-09-17, xB015 K1 + xB016 ADDENDUM 1: the count is ONE, not zero** — σ = ℓ/4G is DIMENSIONLESS and is B1015's A2; RETRACTED_PHRASES row 14.)* **This page formerly said both "exactly one continuous
+> dimensionless number, σ" and, two sentences later, the formerly-claimed "zero free dimensionless constants" — the
+> conflation in its clearest form, in a document drafted to be SENT. Caught before any send.**
 
 ### The arithmetic that makes σ = 1 a candidate — all exact, all banked
 

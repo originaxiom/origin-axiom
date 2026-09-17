@@ -27,7 +27,17 @@ EXEMPT_FILES = {
 }
 EXEMPT_BASENAMES = ("PRIOR_ART_HYPERCHARGE.md", "PRIOR_ART_MAASS.md",
                     "PRIOR_ART_VEV.md", "PRIOR_ART_RANK_REDUCTION.md",
-                    "O3_PRIOR_ART.md", "DRAFT_FINDINGS.md")
+                    "O3_PRIOR_ART.md", "DRAFT_FINDINGS.md",
+                    # added 2026-09-17 (xB015/xB016 bank): a SEALED PREREGISTRATION cannot be
+                    # edited to add a mention cue -- its sha256 is published in ARTIFACT_HASHES.txt
+                    # and in a commit pushed BEFORE the work ran, and the `seal-digests` gate
+                    # enforces it, so editing one to satisfy this sweep would falsify a seal.
+                    # A preregistration is also structurally incapable of carrying a live claim:
+                    # it states what WILL be tested and is always superseded by its own FINDINGS.
+                    # (Instance: xB015's seal quotes B1088's "zero free dimensionless constants"
+                    # in its sweep section -- a record of the record at seal time, which is
+                    # exactly the state the arc then corrected.)
+                    "PREREGISTRATION.md")
 # frontier/B967_ is the sweep's OWN arc -- a record ABOUT retractions, so mentions
 # there are correct by the same principle as docs/RETRACTIONS.md.
 EXEMPT_PREFIXES = ("frontier/B967_", "frontier/B964_", "frontier/B963_", "frontier/B965_", "frontier/B943_",

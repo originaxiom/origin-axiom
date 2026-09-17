@@ -1935,7 +1935,7 @@ fresh (B1084's cone). The cells:
 
 | cell | content | grade of the step |
 |---|---|---|
-| **C1 — the parameter-free action card** | **DONE (B1088, 2026-08-19):** S = −Vol·σ locked; CS = 0 exact (one lattice unit precisely: 2R(e^{iπ/3}) = π²/6 + i·Vol); c = 6σ derived twice; zero free dimensionless constants, σ = the ledger's priced unit | **BANKED** |
+| **C1 — the parameter-free action card** | **DONE (B1088, 2026-08-19):** S = −Vol·σ locked; CS = 0 exact (one lattice unit precisely: 2R(e^{iπ/3}) = π²/6 + i·Vol); c = 6σ derived twice; σ = the ledger's priced unit | **BANKED, with a 2026-09-17 SCOPE NOTE:** this row formerly read "zero free dimensionless constants" — **it is ONE** (σ is dimensionless and is B1015's A2; xB015 K1 + xB016 ADDENDUM 1). The action card's constants are untouched; only the count was wrong. |
 | **C2 — the partition-function bridge** | **DONE (B1090, 2026-08-20):** the ω-saddle exact (u²+u+1=0); saddle value π²/6 − i·Vol = the classical card's conjugate; AK Thm 5 makes C1 the proven classical limit; GK's b=1 closed form reproduced at 7.6×10⁻⁸ | **BANKED** |
 | **C3 — the matter-sector assembly** | **DONE (B1089, 2026-08-20):** the matter sector is INTERFACE-RESIDENT row by row; vector-like closed by theorem; multiplicity-not-generations fence carried | **BANKED** |
 | **C4 — the boundary/observer card** | **DONE (B1091, 2026-08-20):** the full card + the negative half by theorem; the observer IS the cut | **BANKED** |
@@ -2819,4 +2819,25 @@ The U(1)′ left by the Y₃ line is the Cartan direction γ ⊥ (SM, Y, β) —
 
 ## L222 — THE FAMILY AS THE OBJECT: the class carries the chirality index where the member does not (registered 2026-09-16, B1418; the owner's direction "maybe it's about the family, not just the object")
 **The facts (B1418, DESIGN sealed f2f8686c).** The one-cusped index I = t₀ − r₁ (B1297) fires in characteristic zero on reducible non-split modules of five members of the figure-eight's commensurability class — s958, v2873, t12833, t12835, o10_150701 (I = ±1, t12835 ±2; semisimplification 0 always; four of the five are B1330's targets, on whose geometric holonomy the index was zero) — and (post-seal, labelled) on m004's own degree-4 cyclic cover t12839 (104 nonzero of 2 385; the degree-3 cover s961 gives 0) — and gives 0 on m004's only reducible locus (the golden one) in 235 modules. The class census: chirality and the count of three vary within the class and the door determines neither; m202, s959, o10_150726 (two-cusped, not covers of m004) score all four measured requirements. **The questions this registers:** (i) the rule — which members fire and why (torsion in H₁ and cusp-trivial characters are present on the firing members, but o10_150697 and s956 have loci that never fire); (ii) whether a non-semisimple flat SL(2)-module (a unipotent Wilson line in the E₆ language) is an admissible background in the closing's M-theory reading, and what I counts there (I-26 is UNEARNED); (iii) the unrun modules (t12833, t12835 at larger m) and the members not in the run (the other one-cusped members with torsion, the two-cusped members with the three — m202, s959 — whose index needs B1333's several-cusp form); (iv) **the programme-level decision, the owner's:** whether the object of the chain is the commensurability class (the arithmetic face is a class invariant, B803) with the member as the observer's choice — the chirality bit would then be a choice of member, priced like a closing. **What would settle (i):** the same run on all 60 one-cusped members and the two-cusped ones with B1333's index; **(ii)** is a physics reading and needs the closing (L221).
+
+## L223 — THE k-COUPLING'S NORMALISATION IS UNPINNED (registered 2026-09-17, xB016 P4 + ADDENDUM 1)
+**The gap.** B1012's `b1012_verify.py` carries `CS` as a **bare sympy symbol**. Its algebra —
+`S = −CS·k − Vol·σ`, `∂S/∂k = −CS` — is therefore **normalisation-free**, and **no arc in the record
+pins which `CS` enters the k-coupling**: SnapPy's `cs` (well defined mod ½ for cusped manifolds),
+Neumann's `CS = 2π²·cs` (mod `π²`), or a level-normalised `CS/2π`. They differ by factors of `2π²`.
+**Why it matters, demonstrated rather than asserted:** xB016 P4 derived *"`k` must be even"* from the
+mod-½ ambiguity, and ADDENDUM 1 **withdrew it** — the derivation holds in one normalisation and the
+literature supports it in none (RETRACTED_PHRASES row 13). **An unpinned normalisation is what let a
+wrong constraint look derivable.**
+**What is NOT open, so nobody re-opens it.** `σ` is a **free continuous parameter** of complex
+Chern–Simons and **nothing couples it to `k`** (Witten arXiv:1001.2933 eq. 2.2; Gukov hep-th/0306165
+§1.1; Dimofte arXiv:1409.0857 §2.1); the eta-invariant **vanishes** for complex CS (Gukov eq. 3.36),
+so there is **no framing anomaly** to relate `c` to a level (this closes xB015 §5's lead, see its
+ADDENDUM 1). **Pinning the normalisation is bookkeeping the record owes — it is NOT a crossing
+candidate**, and xB016's P6 recommendation that it was one is withdrawn.
+**What would settle it:** a single arc that fixes the convention for the `−CS·k` term against a named
+source (Witten's field-theory normalisation is the natural choice) and propagates it to B1012, B1088
+and the anchor declaration. **Closed routes, recorded here so they are not re-run:** the rate/entropy
+route (xB016 P2, P3, P7 — refuted on licensing *and* on genericity) and the quantization route
+(xB016 P4 + ADDENDUM 1 — closed by citation).
 

@@ -1,5 +1,32 @@
 # Changelog
 
+## The banking pass — and the audit found the action card's headline wrong by one
+
+Owner: **"bank it all so we dont redo. and make sure we missed nothing."**
+
+**Registered so nothing is redone:** `RETRACTED_PHRASES` rows **12** (xB016's refuted candidate
+`c = 2.8447655827`, printed by its seal in advance), **13** (*"`k` must be even"*, withdrawn) and
+**14** (below) · **`OPEN_LEADS` L223**, the unpinned k-coupling normalisation, with the closed routes
+recorded in the same row · an **`ERROR_LEDGER` E58 clause** — *a citation from memory is a hypothesis
+about the literature* (**four of five wrong** across xB015/xB016) · and **xB015 ADDENDUM 1**, closing
+its one forward-pointing lead: for complex Chern–Simons the **eta-invariant vanishes**, so the two
+24s never meet.
+
+**The find.** B1088 and `THE_FRAMEWORK` state **"the action has zero free dimensionless constants"**
+because *"σ … is the one dimensionful unit."* **σ is dimensionless** (`σ = ℓ/4G`, `[G] = length` in
+3d) — and **B1015's sealed declaration already says so**, naming `A2 = c = 6σ` the *dimensionless*
+anchor and `A1 = ℓ` the dimensionful one. **The action has exactly ONE free dimensionless constant.**
+Everything else on the card stands. **This contradiction inside the record is what produced my own
+"the wall is dimensionful" error three turns ago.**
+
+Propagated to **ten surfaces**, nine found by the register rather than by grep — including **two
+outbound drafts**, one of which said *"exactly one continuous dimensionless number, σ"* and *"zero
+free dimensionless constants"* two sentences apart. Caught before any send.
+
+**Still open:** Paths B and C (approved, never started) · B1411–B1417's seven non-schema `VERIFIED`
+verdicts · `cc` to land `linkage-kills` and `rederivation` on main.
+
+
 ## xB016 ADDENDUM 1: proper P3 — the withdrawn mechanism PROVED, and Route 3 closes by citation
 
 Owner: **"go for proper p3."** P3's three soft edges settled. **P7**: census extended to degree 10 —

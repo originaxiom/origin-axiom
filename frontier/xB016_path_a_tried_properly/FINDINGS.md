@@ -71,7 +71,8 @@ With `CS_n = 0`, the action along the tower is `S_n = −n·Vol·σ` — **linea
 
 **So an identification of `log|H₁ tors|` with `−S` — entropy equals action — would fix**
 
-> **`σ = 0.4741275971155`  and  `c = 6σ = 2.8447655827`**
+> **`σ = 0.4741275971155`  and  `c = 6σ = 2.8447655827`** — **REFUTED below; never a live claim**
+> *(registered in `RETRACTED_PHRASES.md` row 12, so it can never be re-derived as a discovery)*
 
 **The seal printed both numbers in advance, precisely so they could never be presented as a
 discovery.** They are a candidate, and the cell's job was to find whether the identification is

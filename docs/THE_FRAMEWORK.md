@@ -600,16 +600,20 @@ a mathematical fact about this one construction, not a claim, anywhere in this s
 about the physical gravity of our universe. The framing lock, `GOVERNANCE.md` §2, governs
 this section exactly as it governs every other.)*
 
-**The action (C1, B1088) has zero free dimensionless constants.** With `Λ = −1` forced
+> **SCOPE NOTE 2026-09-17 (xB015 K1 + xB016 ADDENDUM 1): THE COUNT IS WRONG BY ONE.** `σ = ℓ/(4G)` is **DIMENSIONLESS** — in 3d `[G] = length`, so σ is a ratio of lengths, and B1015's own sealed declaration says so: *"A2 (dimensionless frame): c — the central charge, equivalently σ = c/6"*, with **A1 = ℓ** the dimensionful unit. Calling σ *"the one dimensionful unit"* collapses A1 into A2, which the declaration forbids. **Correctly counted, the action has EXACTLY ONE free dimensionless constant — A2 = c = 6σ — which is precisely what B1015 declares and prices.** And the literature confirms it is genuinely free: in complex Chern–Simons *"the other parameter, s, is not quantized"* (Gukov hep-th/0306165 §1.1; Witten arXiv:1001.2933 eq. 2.2 quantizes only `k`; Dimofte arXiv:1409.0857 §2.1), and **nothing couples it to `k`**. **What SURVIVES, untouched:** `Λ = −1` forced, the volume, `CS = 0` exact, `c = 6σ` derived twice, and `S = −Vol·σ` — one term. **Only the word "zero" is wrong; it is one.**
+
+**The action (C1, B1088) has zero free dimensionless constants.** *(Corrected above: it has **one**, `c = 6σ`.)* With `Λ = −1` forced
 (B259) and `ℓ = 1` following from it, the object's own volume is recomputed here from
 first principles (28-digit match to the banked figure), and the Chern–Simons term is not
 merely small but **exactly zero** — proved as a theorem from the object's own
 amphichirality, and independently verified to 50 digits via the exact identity
 `2·R(e^{iπ/3}) = π²/6 + i·Vol` (one lattice unit precisely). The boundary central charge
 `c = 6σ` is derived twice over (a three-entry closure and, independently, the standard
-Brown–Henneaux relation). **The result: `S = −Vol·σ`, one term.** The single scale σ is
+Brown–Henneaux relation). **The result: `S = −Vol·σ`, one term.** ~~The single scale σ is
 not new freedom — it is the same one dimensionful unit already priced into the input
-ledger (Layer 4).
+ledger (Layer 4).~~ **CORRECTED 2026-09-17:** σ is **dimensionless**, and it is **A2**, the input
+ledger's one continuous **dimensionless** anchor — not A1, the dimensionful unit ℓ. It *is* priced,
+and it is *not* zero.
 
 **The quantum theory exists, and its own saddle point is the programme's own founding
 constant (C2, B1090).** Andersen–Kashaev's TQFT evaluates the figure-eight complement's

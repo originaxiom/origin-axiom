@@ -362,7 +362,7 @@ dimension-grammar rows (B662's 3/5/1, B1036's 5) as their completing law; L79 cl
 **THE CHARGE COMPLEMENTARITY** (B1087) — the AW-U(1) exists (1+8+9+8+1) and commutes
 with neither cusp holonomy: no charge readout on any closed assembly; the wall's fourth
 language. **THE ACTION CARD** (B1088) — S = −Vol·σ with CS = 0 exact; c = 6σ
-twice-derived; zero free dimensionless constants (the B1012 row's completion).
+twice-derived; ~~zero free dimensionless constants~~ *(**CORRECTED 2026-09-17, xB015 K1 + xB016 ADDENDUM 1: the count is ONE, not zero** — σ = ℓ/4G is DIMENSIONLESS and is B1015's A2, the declaration's own continuous dimensionless anchor; RETRACTED_PHRASES row 14. The action card's constants are untouched.)* (the B1012 row's completion).
 **THE TWO-ROUTE WALL** (B1094) — B955's row upgrades: structural + exhaustive census
 (B1079), no shared step; scope ABELIAN holonomy; hatch non-abelian, routed. **THE
 PURITY SELECTOR** (B1092) — the second VEV is a condition (34/4 vs 29/0, transitive
