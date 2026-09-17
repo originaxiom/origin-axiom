@@ -1,3 +1,14 @@
+> **ADDENDUM 4, 2026-09-17 — THE CONFIGURATION AUDIT.** The owner defined *verify* as *"whether you're
+> properly informed for the task, and all the configurations around it."* Three axes were never varied
+> here, and **two move the answer**. **Ambient group:** the programme's base is `PGL(2,O₃)`, not `PSL`
+> — and there `|N(Γ)/Γ| = 4 = |Isom⁺(m004)|`, so **Addendum 3's ℤ/2 was itself under-stated** (a first
+> test of mine checked one coset representative instead of the coset, and is recorded). **Torsion
+> order:** the PGL cusp rotation has **order 6**, so N2's `{2,3}` is **PSL-scoped**, and 6 is the
+> largest torsion order of any Bianchi PGL group. **The object:** m003 and m004 are **identical** on
+> every invariant this arc used; only `H₁` and the **congruence level** separate them — which is
+> Path C's handle. **Three of this arc's four errors were unvaried configurations, not wrong
+> arithmetic.**
+
 > **ADDENDUM 3, 2026-09-17 — §5's N5(b) IS CORRECTED TOO. NEITHER TORSION ORDER IS NEGATIVE.**
 > N5(b) said *"there is no deck group at all."* **Too strong.** True of the **full** index-12 cover;
 > **false** of the maximal regular intermediate cover `m004 → H³/N(Γ)`, whose deck group is **ℤ/2**

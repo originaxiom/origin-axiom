@@ -1,0 +1,73 @@
+E1       AXIS 1 -- THE AMBIENT GROUP.  xB017 worked in PSL(2,O_3).
+         But the programme's own tower uses PGL(2,O_3) as the BASE (v_0 = covol PGL,
+         the 1:12:24 tower).  ADDENDUM 3 found the deck group Z/2 IN PSL.  What is
+         it in PGL?
+         A FIRST TEST HERE WAS INCONCLUSIVE AND IS RECORDED: it conjugated by the
+         single element diag(zeta_6,1) and found it does NOT normalise Gamma --
+         but that is ONE REPRESENTATIVE of the coset, not the coset.  Corrected:
+         coset classes tested: 12;  NORMALISING: 2 -> [8, 9]
+         full check on the first hit, all 20480 elements: True
+         => |N_PGL(Gamma)/Gamma| = 2 (PSL) + 2 (coset) = 4 = |Isom+(m004)| = 4
+         AND THE THEOREM CONFIRMS IT INDEPENDENTLY: for an ARITHMETIC manifold
+         Isom+(M) = N_{Comm(Gamma)}(Gamma)/Gamma, and the commensurator is the
+         maximal group of the class -- PGL(2,O_3), since h = 1.
+E1 PASS  ADDENDUM 3's Z/2 WAS ITSELF UNDER-STATED.  In the ambient
+         group the programme actually uses, the deck group is Z/4 -- ALL of m004's
+         orientation-preserving symmetry.
+
+E2       AXIS 2 -- THE TORSION ORDER.  xB017 tested {2,3}: a PSL statement.
+         in PGL, diag(zeta_6,1) acts as z -> zeta_6*z, of order 6.
+         PSL sees the same cusp rotation as order 3 (it quotients by the units'
+         squares); PGL sees ORDER 6.
+           d =   1: |O^x| = 4  -> PGL cusp rotation of order 4   <- EXTRA
+           d =   2: |O^x| = 2  -> PGL cusp rotation of order 2
+           d =   3: |O^x| = 6  -> PGL cusp rotation of order 6   <- EXTRA
+           d =   5: |O^x| = 2  -> PGL cusp rotation of order 2
+           d =   7: |O^x| = 2  -> PGL cusp rotation of order 2
+           d =  11: |O^x| = 2  -> PGL cusp rotation of order 2
+           d =  15: |O^x| = 2  -> PGL cusp rotation of order 2
+           d = 163: |O^x| = 2  -> PGL cusp rotation of order 2
+         => only d = 1 (order 4) and d = 3 (order 6) carry extra PGL torsion, and
+            ORDER 6 IS THE LARGEST TORSION ORDER OF ANY BIANCHI PGL GROUP.
+E2 PASS  N2's 'orders {2,3}' is CORRECT AND PSL-SCOPED.  The
+         programme's base orbifold is the PGL one, whose cusp torsion is Z/6 --
+         a sharper d = 3 selector than anything xB017 measured.
+
+E3       AXIS 3 -- THE OBJECT.  xB017 tested m004 only.  m003 IS THE A5 BIT.
+         m004: PSL-index 12.0  |Isom| 8  |Isom+| 4  amphichiral True  H_1 Z
+         m003: PSL-index 12.0  |Isom| 8  |Isom+| 4  amphichiral True  H_1 Z/5 + Z
+         IDENTICAL on every invariant this arc used -- index, isometry group,
+         amphichirality.  THEY DIFFER IN H_1 AND IN CONGRUENCE LEVEL: m003 at
+         (2)^1 with quotient A_5, m004 at (2)^3 = (8)  (B734).
+E3 PASS   Path B's machinery does NOT separate the sisters; the congruence LEVEL
+         does.  That is the handle Path C needs, and it was sitting in this arc's
+         own dependency (B734) unused.
+
+E4       WHAT THE AUDIT CHANGES
+         AXES xB017 VARIED: the field d (base rate), the torsion order within PSL,
+           the cover level, the cover (full vs intermediate, via ADDENDUM 3).
+         AXES IT DID NOT VARY, and what happened when this cell varied them:
+           ambient group  -> deck group is Z/4 in PGL, not Z/2 (E1).  ADDENDUM 3
+                             UNDER-STATED ITS OWN POSITIVE.
+           torsion order  -> the base orbifold's cusp torsion is Z/6, not Z/3 (E2),
+                             and 6 is the largest of any Bianchi PGL group.
+           the object     -> m003 and m004 are indistinguishable by everything this
+                             arc used; only H_1 and the congruence level separate
+                             them (E3).
+         PATH B's STANDING: BOTH torsion orders POSITIVE, now stronger -- the Z/2
+           part is really Z/4 in the right ambient group, and the Z/3 part is
+           really Z/6 there.  NEGATIVE only that the FULL index-24 (PGL) cover is
+           regular.  The fences are unchanged: the cusp rotation does not descend
+           to m004 (no order-3 or order-6 symmetry; |Isom+| = 4).
+         AND THE METHOD LESSON, which is the owner's own definition of 'verify':
+           THREE OF THIS ARC'S FOUR ERRORS WERE UNVARIED CONFIGURATIONS, NOT WRONG
+           ARITHMETIC.  A negative is only as wide as the configuration space that
+           was actually swept, and the sweep must be written down BEFORE the
+           headline -- not the cells alone, but the AXES.
+
+==============================================================================
+  E1: PASS
+  E2: PASS
+  E3: PASS
+  E4: PASS
+VERIFIED -- TWO UNVARIED AXES MOVED THE ANSWER

@@ -1,0 +1,45 @@
+{
+ "E1": {
+  "psl_deck": 2,
+  "pgl_deck": 4,
+  "isom_plus": 4,
+  "single_rep_test_was_inconclusive": true
+ },
+ "E2": {
+  "pgl_cusp_order": 6,
+  "extra_only_for": [
+   1,
+   3
+  ],
+  "N2_is_PSL_scoped": true
+ },
+ "E3": {
+  "rows": [
+   [
+    "m004",
+    12.0,
+    8,
+    4,
+    true,
+    "Z"
+   ],
+   [
+    "m003",
+    12.0,
+    8,
+    4,
+    true,
+    "Z/5 + Z"
+   ]
+  ],
+  "separated_by": "congruence level and H_1, not by index/isometry"
+ },
+ "E4": {
+  "unvaried_axes": [
+   "ambient group",
+   "torsion order beyond PSL",
+   "the object"
+  ],
+  "two_moved_the_answer": true
+ }
+}

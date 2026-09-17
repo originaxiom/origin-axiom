@@ -217,6 +217,26 @@ survived). A statistics claim carries its resolution: an N-seed null only speaks
 larger than its own std (B189's 30-seed "indistinguishable" reversed at 100 seeds per level).
 
 
+**THE CONFIGURATION-AXIS RULE — a negative is only as wide as the space you swept (xB017 Addendum 4,
+the owner's definition of "verify": *"to see whether you're properly informed for the task, and all
+the configurations around it"*).**
+
+A preregistration **declares its CONFIGURATION AXES** — the dimensions along which the question could
+be posed differently — and, for each, **which values it will vary and which it will hold fixed**. A
+negative is then reported as **scoped to the swept region**, and **every unvaried axis is named in the
+verdict**.
+
+*Why this is a rule and not advice:* `xB017` produced four corrections in one day. **Three of them
+were unvaried configurations, not wrong arithmetic** — the ambient group (`PSL` where the programme's
+own base is `PGL`, which turned a ℤ/2 into a ℤ/4), the torsion order (`{2,3}` in PSL where the base
+orbifold carries a ℤ/6), and the object (m004 where the sister m003 was the actual question). Two
+further instances the same week: `xB014`'s kill turned on an unvaried **sort direction**, and
+`xB016`'s on an unvaried **level**. **The cells were right every time; the axis list was missing.**
+
+*The operational test, applied before the headline:* for each clause of the question, ask **"at what
+level, in which ambient object, for which member, in which direction?"** — and if any of those was
+fixed without being declared, the negative is **scoped, not general**.
+
 **THE RE-DERIVATION RULE — a banked result is a HYPOTHESIS, not an answer (xB010, the owner's
 instruction of 2026-09-17: *"if it does exist, redo it anyway, because if it's negative it might be
 misinformed, bugged or wrongly done — verify verify"*).** Sweep first, always. **When the sweep

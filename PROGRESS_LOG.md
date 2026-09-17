@@ -16491,3 +16491,38 @@ Extending Addendum 2's rule:
 > intermediate cover, and what is ITS deck group?"**
 
 **Gates 35/35. Gate 5 absolute.**
+
+---
+
+## 2026-09-17 — xB017 ADDENDUM 4: the configuration audit, and a new standing rule
+
+The owner defined **verify**: *"to see whether you're properly informed for the task, and all the
+configurations around it."* That reframes this arc's corrections — **each was a negative given while
+under-informed about one configuration**, not a computational error. So: enumerate Path B's
+configuration **axes** and vary the ones never varied. **Three were unvaried; two move the answer.**
+
+**E1 — ambient group.** The programme's tower uses **`PGL(2,O₃)`** as base, not `PSL`. *A first test
+here checked the single element `diag(ζ₆,1)`, found it doesn't normalise `Γ`, and would have
+concluded "PGL adds nothing" — that is one representative of a coset, not the coset.* Corrected over
+all 12 classes: **2 normalise**, first one verified over all 20 480 elements, so
+**`|N_PGL(Γ)/Γ| = 4 = |Isom⁺(m004)|`** — confirmed independently by
+`Isom⁺(M) = N_{Comm(Γ)}(Γ)/Γ` for arithmetic manifolds. **Addendum 3's ℤ/2 was itself under-stated.**
+
+**E2 — torsion order.** The PGL cusp rotation has **order 6**. N2's `{2,3}` is **PSL-scoped**; the
+programme's base orbifold is the PGL one, and **6 is the largest torsion order of any Bianchi PGL
+group** — a sharper `d = 3` selector than anything xB017 measured.
+
+**E3 — the object.** m003 and m004 are **identical** on PSL-index, `|Isom|`, `|Isom⁺|` and
+amphichirality. Only **H₁** and the **congruence level** separate them (m003 at `(2)¹`, quotient
+`A₅`; m004 at `(2)³`). **Path B's machinery does not separate the sisters; the congruence level does
+— and that is Path C's handle, sitting unused in this arc's own dependency.**
+
+**Path B strengthened:** both torsion orders positive — ℤ/2 really **ℤ/4**, ℤ/3 really **ℤ/6** in the
+right ambient group. Negative only that the full cover is regular. Fences unchanged.
+
+> **Three of this arc's four errors were unvaried configurations, not wrong arithmetic.**
+> **NEW STANDING RULE:** *a preregistration declares its CONFIGURATION AXES and which values of each
+> it will vary; a negative is reported as scoped to the swept region, and any unvaried axis is named
+> in the verdict.*
+
+**Gates 35/35.**

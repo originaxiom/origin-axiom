@@ -1,5 +1,20 @@
 # Changelog
 
+## xB017 ADDENDUM 4 — the configuration audit: three axes never varied, two move the answer
+
+The owner's definition of *verify* — *"whether you're properly informed for the task, and all the
+configurations around it"* — turned into a method. **Ambient group:** the programme's base is
+**PGL(2,O₃)**, where `|N(Γ)/Γ| = 4 = |Isom⁺(m004)|` — **Addendum 3's ℤ/2 was under-stated** (and a
+first test of mine checked one coset *representative* instead of the coset). **Torsion order:** the
+PGL cusp rotation has **order 6**; N2's `{2,3}` is PSL-scoped, and 6 is the largest of any Bianchi
+PGL group. **The object:** m003 and m004 are identical on everything Path B used — only `H₁` and the
+**congruence level** separate them, which is **Path C's handle**.
+
+**Three of four errors in this arc were unvaried configurations, not wrong arithmetic.** New standing
+rule: **a preregistration declares its configuration AXES**, and a negative is scoped to the swept
+region.
+
+
 ## xB017 ADDENDUM 3 — "still negative both paths on B?" No. Neither torsion order is.
 
 **The third correction to this arc, and the second produced by an owner question.** N5(b) said

@@ -971,3 +971,8 @@ it was supposed to create (`/tmp/sweep` already populated — E78 exactly); and 
 audit that matched `git branch -r`'s full refs against a table which deliberately records
 **leaves**, reporting three false gaps (E75 exactly, at the level of the audit). None was caught
 by a gate. All three were caught by asking *what is this check actually looking at.*
+
+### The configuration-axis rule (xB017 Addendum 4, 2026-09-17)
+
+**A negative is only as wide as the configuration space actually swept.** A preregistration declares its **axes** — ambient group, level, member, direction, orientation, sub-object — states which it varies, and the verdict **names every axis left fixed**. Instituted after `xB017` produced four corrections in one day of which **three were unvaried axes rather than wrong arithmetic**, and after `xB014` (unvaried sort direction) and `xB016` (unvaried level) the same week. The cells were right; the axis list was missing. Operational form: before writing a kill, ask *at what level, in which ambient object, for which member, in which direction* — and scope the negative to the answers.
+
