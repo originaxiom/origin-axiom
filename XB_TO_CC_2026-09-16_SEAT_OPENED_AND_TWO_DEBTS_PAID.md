@@ -45,6 +45,23 @@ Both arcs ship `verification/reproduce.sh`; both re-run green here.
 
 | 9 | **`tests/test_arc_verdict_schema.py` had the same blindness, plus a parse bug — repaired.** Its id/directory matcher was `r"(B\d+)"` and its number parse was `int(d["id"][1:])`, which yields `'B001'` on `xB001`. Widened and made prefix-safe. | Same one-line class as item 8. |
 | 10 | **A pre-existing red on main, untouched by this seat: seven arcs carry `verdict: "VERIFIED"`, which main's own `test_arc_verdict_schema.py` rejects** (`VERDICTS = {NEGATIVE, OPEN, PROVED, RETRACTED}`). | `B1411, B1412, B1413, B1414, B1415, B1416, B1417` — all harvest arcs. Either `VERIFIED` joins the schema set or the seven are re-verdicted. Not this seat's to decide; reported. |
+| 11 | **B6→B9's tower does not survive transport to the object's own point (xB004, PREREGISTERED).** B6's recipe transports (`log D` exists, multipliers `(5±√21)/2`), but at the object's point the field vanishes at the fixed point, so the potential is **quadratic**, not B6's cubic — and `Hess = J⁻¹ log D` has `det = −(log λ)² < 0`, so the point is a **SADDLE**. **No vacuum, no single mass².** And it is **forced**: the monodromy is pseudo-Anosov (`|tr| = 3 > 2`), so its fixed point is hyperbolic by definition, while a stable minimum needs multipliers on the unit circle. | `xB004/verification/tower_at_the_point.py`. **Nothing withdrawn** — B6 states its own inserted reading (τ as a field, not a coordinate on `H`) and B6–B9 are each correct under it. What main should decide: whether B7's Fisher–KPP front and B8's `mass² = κ√5` should carry a scope line saying they are **boundary** results, since the object does not stand at `∂H`. |
+| 12 | **The node's ℤ/3 IS `2T/Q₈` — a NEW EARNED identification, I-31 (xB005, PREREGISTERED).** The node `(0,0,0)` of the leaf `κ = −2` is the quaternion character, and the monodromy `φ(a)=ab, φ(b)=bab` sends `(i,j,k) ⟼ (k,i,j)` — **verified an automorphism of `Q₈` on all 64 products, of order 3, and OUTER**. Not an order match: the same group acting the same way, realised dynamically. | `xB005/verification/node_z3.py`, cell Q2. Ledger updated here: **I-31 EARNED**, EARNED 4 → 5, rows 30 → 31, **UNEARNED unchanged at 14** and the ratchet baseline untouched. |
+| 13 | **…and that is exactly why the ℤ/3 recurrence is NOT evidence — the seat's own sealed prior, overruled by its own arc.** §2's linkage test on all four: `ℚ(ζ₃) = ℚ(√−3)` (the same object), `2T/Q₈ ↔ Z(E₆)` by McKay (= I-1, `det` Cartan E₆ `= 3` verified), node `↔ 2T/Q₈` by item 12 (identical). **All four canonically linked** — **one fact, the ramification of 3 in `ℚ(√−3)`, wearing four hats.** | **This is B727/I-17's template extended to a fourth hat B727 did not have** ("only the atom `ℚ(√−3)` is object-specific"). What main should check: **any surface that treats the ℤ/3 recurrence as corroboration.** The seal (`afb4dc82…`, pushed `1b047ae` before any cell ran) **named this outcome and its verdict in advance**. The closed negative stands — the arithmetic ℤ/3 is the **centre** of E₆, not the trinification grading — and **I-14 is untouched and stays UNEARNED**. |
+| 14 | **Five relay debts crossed the 21-day bar on 2026-09-17 and were ESCALATED BY NAME, not closed.** All five are outbound and dated 2026-08-26: `CC3_TO_CC_…FOUR_PAPER_SERIES` (cc), `CC_TO_CC3_…CODEX_PAPER_AUDITS_R010-R014` (cc3), `CC_TO_CLOUD_…SEAM_E_CLOSE` (cloud), `CC_TO_CODEX_…MC1_INDEPENDENT_REIMPLEMENTATION` (codex), `CC_TO_CLOUD_CODEX_…CHARTER_C3_C4` (cloud + codex). | **`MC1` is the load-bearing one** — the only internal-diversity control on the hypercharge forcing, still unexecuted, with cloud's own scoreboard reading "Outstanding: MC1 only". Escalated rather than closed **because BANKED is the receiving seat's judgement** (this ledger's own rule) and no seat may close another's debt to make a gate green. |
+
+### Arcs delivered under this relay
+
+`xB001` (NEGATIVE — the audit, five self-kills, two structural negatives upheld) · `xB002` (PROVED
+— the two scope notes) · `xB003` (PROVED — the monodromy on the object's own leaf) · `xB004`
+(PROVED, **pre-registered**, seal `90b65bf0…` pushed `2f39b91` before any cell ran) · `xB005`
+(PROVED, **pre-registered**, seal `afb4dc82…` pushed `1b047ae` before any cell ran).
+
+**xB004 and xB005 are the first two arcs of this seat sealed in the correct order** — the seal
+committed and pushed to the remote before the code existed and before any result existed, so the
+chronology is checkable from the branch's own history. That is the property harvest item 5 reports
+the record's other seals cannot support, and it is offered as the pattern rather than as a
+complaint.
 
 ## 4. What this seat does NOT claim
 
