@@ -271,3 +271,50 @@ count runs the other way. Its R15/R19 obtain a net **three** on a *prescribed si
 ansatz — declared modelling data, explicitly "NOT an identification with the principal Riley local
 system" — and its **R30 finds no zero modes at finite width** once those cores are resolved, on
 m202. A stronger negative than §7 states, and it is on the branch rather than in the paper.
+
+### 6.1 The lane's held correction is right, and it is unmerged
+
+`CODEX_TO_CC_2026-09-16_..._HELD.md` reports that main's I-26 decision table conflates the undrilled
+core with the drilled exterior. I checked the Euler arithmetic
+(`referee_2026-09-17/scripts/r3_i26_euler.py`); every row of the lane's table reproduces for
+k = 1, 2, 3, 5, 7:
+
+| | χ |
+|---|---:|
+| Q (compact core, torus boundary) | 0 |
+| N (k contractible solid arc tubes) | k |
+| T (k lateral annuli) | 0 |
+| C = Q \ N (drilled exterior) | −k |
+| E (exterior tori minus 2k endpoint discs) | −2k |
+| (C, E) | **+k** |
+| (Q, E) | **+2k** |
+
+At k = 3 both numbers are correct arithmetic — **for different pairs**. χ(C,E) = 3 is R24's model;
+χ(Q,E) = 6 uses the *undrilled* Q. The table took the second where the model requires the first. And
+the lane's second point is elementary and also right: n Dirac pairs carry 2n Weyl components with net
+index 0 for every n, so a six-state count is not an index of six — a state sum is not an index
+difference.
+
+**So the largest chirality count anywhere in this programme is a bookkeeping conflation, the
+correction has been computed, and it is sitting unsent on a branch.** It should be merged.
+
+### 6.2 What the accumulated negatives now look like
+
+Set the lane beside the paper and every route to a non-zero chirality count in this construction has
+been closed or reduced to zero:
+
+| route | outcome |
+|---|---|
+| geometric finite twists | zero **by theorem** (Menal-Ferrer–Porti + transfer) |
+| the cyclic tower | zero, by two conjugations |
+| the object's own reducible locus | zero on all 235 modules computed |
+| non-semisimple modules on the class | **+1 — verified exactly here** — but a count of twisted classes, provably not a 4-D index, admissibility open with a prior against |
+| prescribed *singular* source (lane R15/R19) | three — on declared modelling data, not the object's own representation |
+| the same source *resolved* to finite width (R30) | **zero** |
+| the I-26 "six" | a conflation of two pairs; and three Dirac pairs are net zero anyway |
+
+That is a strikingly consistent body of negative evidence, obtained by independent routes, and it is
+the programme's real result. It also sharpens my §3 framing point rather than softening it: a
+document whose accumulated content is *this object does not deliver chiral matter, and here are
+seven independent ways of seeing it* is not well titled "Standard-Model structure from the
+figure-eight knot complement".
