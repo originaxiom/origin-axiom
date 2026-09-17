@@ -1,5 +1,24 @@
 # Changelog
 
+## xB016: PATH A TRIED PROPERLY — three routes attempted, all three closed, and the crossing numbers printed in advance
+
+Path A had been wrong twice here, both times by **assertion rather than attempt**. `PREREGISTRATION.md`
+sealed `56447437…` and pushed at `89cdf7d` before `verification/` existed, with **crossing defined in
+the seal** and the candidate numbers stated up front.
+
+**Route 1 (the rate route)** — with `CS_n = 0` along the tower the action and the log-torsion are
+both linear in `n`, the `n` cancels, and an entropy-equals-action identification **would** fix
+`σ = 0.4741275971`, `c = 2.8447655827`. **Banked as a REFUTED CANDIDATE.** **Route 2** — over every
+cover of m004 to degree 8 the torsion rate runs **0 → 0.474072**, 7 of 38 with no torsion at all, and
+the five near the limit are **verified by isometry** to be the cyclic tower: **the rate is the
+tower's, not the object's.** **Route 3** — the mod-½ indeterminacy forces **`k` even**, which is not
+a crossing, and exposes that **no arc in the record pins the normalisation of the k-coupling**.
+
+**Verdict: Path A does not cross.** The route to re-open is **Route 3**, blocked by missing
+bookkeeping rather than a theorem. **Own error caught mid-cell:** a systole measurement read a
+swallowed `RuntimeError` as data; measurement void, claim withdrawn.
+
+
 ## xB015: THE k-COUPLING IS THE AXIOM BIT — my "dimensionful" sentence was wrong, and the family carries a ℤ/12 index
 
 The owner refused a clause of mine in xB014 and asked for it to be checked. **It is wrong on both

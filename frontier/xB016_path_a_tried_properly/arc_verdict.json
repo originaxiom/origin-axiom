@@ -1,0 +1,38 @@
+{
+ "id": "xB016",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B290",
+  "B259",
+  "B291",
+  "B1012",
+  "B1015",
+  "B1088",
+  "xB014",
+  "xB015"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "xB014_the_scale_ladder",
+   "outcome": "CONFIRMED",
+   "what": "the tower was rebuilt from scratch rather than carried across: torsion = L_n^2 (n odd) / 5F_n^2 (n even) 8 of 8, vol = n*vol(m004) 8 of 8, limit rate log(phi^2)/vol(m004) = 0.474127597116. xB014 reproduces exactly. ONE COLUMN xB014 NEVER COMPUTED IS ADDED: CS_n = 0 at every rung, forced by xB015's K4 since the tower is covers of a CS = 0 base -- and that zero is what makes P2's arithmetic possible at all. xB014's CONCLUSION (the ladder does not cross) is confirmed; what this arc supplies is the ATTEMPT xB014 never made."
+  },
+  {
+   "arc": "B290_core_scale_ladder",
+   "outcome": "CONFIRMED",
+   "what": "its banked negative -- 'the filling n is NOT the level k', independent axes, a formal substitution and not an identity -- was re-derived in this arc's own variables and it BINDS. S(M; k, sigma) = -CS(M) k - Vol(M) sigma is LINEAR in both levels with the object supplying only the coefficients: dS/dk = -CS(M) and dS/dsigma = -Vol(M) are invariants of M, d2S/dk2 = 0. An invariant of M can determine the COEFFICIENT of a level; it cannot determine the LEVEL, because the level is not a function of M. That kills identifying the tower index n with k AND identifying xB015's Z/12 CS index with k. B290's ladder is a DIFFERENT ladder (Dehn filling (1,n), not cyclic covers) so it did not settle this path, but its negative covers this arc's own temptation and was already banked for over a year."
+  },
+  {
+   "arc": "B1012_branch_verifications",
+   "outcome": "SCOPED",
+   "what": "its algebra is re-derived and CONFIRMED, and a GAP IN IT is named: b1012_verify.py carries CS as a BARE SYMPY SYMBOL, so S = -CS*k - Vol*sigma and dS/dk = -CS are NORMALISATION-FREE, and no arc in the record pins WHICH CS enters the k-coupling (SnapPy's cs mod 1/2, Neumann's CS = 2 pi^2 cs mod pi^2, or a level-normalised CS/2pi -- they differ by factors of 2 pi^2). The quantization statement P4 derives (k must be even) holds in ONE of those normalisations; in Neumann's the same shift gives exp(-i pi^2 k), not a root of unity for any k != 0, so that normalisation cannot be the one the exponentiated weight uses -- a constraint the record has never written down. B1012 is not disputed; it is SCOPED as normalisation-agnostic algebra, and pinning the normalisation is named as owed work."
+  }
+ ],
+ "claim_one_line": "PATH A DOES NOT CROSS -- and this time that is the result of THREE ATTEMPTS WITH KILL CONDITIONS, not an assertion. The owner asked for Path A to be verified once more 'so were sure we dine it priperly ... and we tried right way', because it had been wrong twice in this seat's hands: xB014 killed it on a SORT-ORDER error (withdrawn by its own Addendum 1) and xB015 showed xB014's stated REASON for non-crossing ('the wall is dimensionful') was ALSO wrong. NEITHER ARC EVER RAN A CROSSING ATTEMPT. PREREGISTRATION sealed 56447437... and PUSHED at 89cdf7d before verification/ existed, with CROSSING DEFINED IN THE SEAL (a numerical value for c or sigma from the object's own data with no new input; constraining k is NOT crossing) and THE CANDIDATE NUMBERS PRINTED IN ADVANCE so they could never be presented as a discovery. P1: the tower re-derived from scratch -- torsion L_n^2 / 5F_n^2 8 of 8, vol = n vol(m004) 8 of 8, rate -> 0.474127597116, xB014 reproducing exactly, PLUS the column xB014 never computed: CS_n = 0 at EVERY rung, forced by xB015's K4. P2, ROUTE 1, THE ATTEMPT PATH A HAD NEVER MADE: with CS_n = 0 the action is S_n = -n Vol sigma, LINEAR, and log|H1 tors_n| ~ n log(phi^2), ALSO LINEAR, so the n CANCELS and log|tors|/(-S) = 0.474127597/sigma -- meaning an ENTROPY-EQUALS-ACTION identification WOULD FIX sigma = 0.4741275971 and c = 6 sigma = 2.8447655827. IT IS NOT LICENSED: torsion enters a complex-CS partition function as RAY-SINGER torsion AT ONE LOOP, in the fluctuation determinant and not the on-shell action, and a cusped hyperbolic manifold HAS NO HORIZON, so there is no Bekenstein-Hawking area to count and no Cardy regime; reading a HOMOLOGY count as a STATE count is a CATEGORY ERROR, not a missing theorem. Those two numbers are banked as a REFUTED CANDIDATE and must never be cited as a prediction. P3, THE BLIND CELL THE SEAL SAID THIS SEAT COULD NOT CALL, AND THE ONE THAT DECIDES IT: over EVERY cover of m004 to degree 8, log|H1 tors|/vol runs from 0.000000 to 0.474072 with median 0.135305, and SEVEN OF THIRTY-EIGHT HAVE NO TORSION AT ALL; the five within 0.01 of the cyclic limit were VERIFIED BY ISOMETRY, not assumed, to be exactly the cyclic-tower members b++(LR)^n at n = 4,5,6,7,8. SO 0.4741275971 IS NOT A NUMBER m004 HAS -- IT IS A NUMBER ONE TOWER OVER m004 HAS, and Route 1 dies a second time without needing the licensing argument at all. AND THE SHARPER READING: cyclic covers of a fibred knot keep the fibre and do not converge to the universal cover, so they are not the towers whose rate the literature calls the object's -- that rate is 1/(6 pi) = 0.053052, DIFFERENT BY A FACTOR OF ABOUT 8.9. PATH A PICKED THE TOWER THAT GIVES THE BIGGEST NUMBER, WHICH IS WHAT A SELECTION EFFECT LOOKS LIKE, and neither xB014 nor xB015 had checked it. P4, ROUTE 3: for cusped manifolds cs is well defined only mod 1/2 and the indeterminacy is ESSENTIAL (Neumann), so S shifts by -k/2 and exp(2 pi i S) picks up (-1)^k -- in the level normalisation, WELL-DEFINEDNESS FORCES k EVEN. BY THIS ARC'S OWN SEALED DEFINITION THAT IS NOT A CROSSING (it constrains k, not the free anchor) and it is not dressed as one. But the cell found what the seal did not anticipate: B1012's script carries CS as a BARE SYMBOL, its algebra is NORMALISATION-FREE, and NO ARC PINS WHICH CS ENTERS THE k-COUPLING -- so NO QUANTIZATION CLAIM CAN BE READ OFF THE RECORD AS IT STANDS, and pinning it is a PREREQUISITE for any future attempt through this route. P5: B290's 'the filling n is NOT the level k' re-derived in this arc's variables -- S is LINEAR in both levels with M supplying only the coefficients, so an invariant of M can determine dS/dk but never k -- which kills identifying the tower index AND xB015's Z/12 CS index with k. This arc makes NEITHER identification. P6: PATH A DOES NOT CROSS; sigma is untouched. THE ROUTE A FUTURE SEAT SHOULD RE-OPEN IS ROUTE 3 -- the only one that produced a real constraint rather than a coincidence, and it is blocked by MISSING BOOKKEEPING rather than by a theorem: pin the normalisation and the well-definedness of exp(2 pi i S) becomes a genuine equation relating the level to the framing anomaly exp(2 pi i c/24), THE ONLY PLACE IN THIS STRUCTURE WHERE c APPEARS IN AN EQUATION RATHER THAN AS A FREE ANCHOR. Routes 1 and 2 are CLOSED and should not be re-run. HONEST SCOPE: the cover range is degree <= 8, so 'no cover exceeds 0.474128' is a MEASUREMENT over that range and not a supremum theorem. Gate 5 absolute; no value, no generation count, nothing to CLAIMS.md."
+}

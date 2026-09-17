@@ -16074,3 +16074,59 @@ index is not an artefact — the same instrument returns irrational CS for m015 
 
 **Gate 5 absolute throughout: no value, no generation count, no physics reading, nothing to
 `CLAIMS.md`.**
+
+---
+
+## 2026-09-17 — xB016: Path A tried properly — three routes, all closed, and the one to re-open
+
+The owner: **"lets verify parh A once more, so were sure we dine it priperly and were sure it doesnt
+cross, and we tried right way."** Path A had been wrong twice in this seat's hands, and both times
+the same way: **the conclusion was asserted, not attempted.** `PREREGISTRATION.md` sealed
+`56447437…`, pushed at `89cdf7d` before `verification/` existed, with **crossing defined in the
+seal** (a numerical value for `c` or `σ` from the object's own data; constraining `k` is *not*
+crossing) and **the candidate numbers printed in advance**.
+
+**P1.** The tower rebuilt from scratch reproduces xB014 exactly — torsion `L_n²`/`5F_n²` 8/8, volume
+`n·vol(m004)` 8/8, rate → `0.474127597116` — **plus the column xB014 never computed: `CS_n = 0` at
+every rung**, forced by xB015's K4.
+
+**P2 — the attempt Path A had never made.** With `CS_n = 0` the action is `S_n = −n·Vol·σ`, linear;
+`log|H₁ tors_n| ≈ n·log φ²`, also linear. **The `n` cancels**, so an entropy-equals-action
+identification would fix **`σ = 0.4741275971`, `c = 2.8447655827`**. The seal printed both numbers
+before the run so they could never be presented as a discovery. **Not licensed** — torsion enters a
+complex-CS partition function as Ray–Singer torsion *at one loop*, and a cusped manifold has no
+horizon. **Banked as a REFUTED CANDIDATE**, with the honesty flag that this argument is the seat's
+own reasoning and a literature check was still in flight at banking.
+
+**P3 — the blind cell, and it decides it.** Over **every** cover of m004 to degree 8,
+`log|H₁ tors|/vol` runs **0.000000 → 0.474072**, median `0.135305`, and **7 of 38 have no torsion at
+all**. The five within 0.01 of the cyclic limit were **verified by isometry** to be exactly the
+cyclic-tower members `b++(LR)ⁿ`. **So `0.4741275971` is not a number m004 has — it is a number one
+tower over m004 has.** Route 1 dies a second time, without the licensing argument.
+
+**P4 — Route 3.** For cusped manifolds `cs` is well defined only mod ½, so `S` shifts by `−k/2` and
+`exp(2πiS)` picks up `(−1)^k`: **`k` must be even.** By the seal's own definition **that is not a
+crossing** and is not dressed as one. **But the cell found a gap the seal did not anticipate:**
+B1012's script carries `CS` as a **bare symbol**, its algebra is normalisation-free, and **no arc
+pins which CS enters the k-coupling.** No quantization claim can be read off the record as it
+stands.
+
+**P5.** B290's banked **"the filling `n` is NOT the level `k`"** re-derived in this arc's variables:
+`S` is **linear in both levels** with the object supplying only the coefficients, so an invariant of
+M fixes `∂S/∂k` and never `k`. That kills identifying the tower index **and** xB015's ℤ/12 index
+with `k`. This arc makes neither.
+
+**Verdict: Path A does not cross; `σ` is untouched.** **The route to re-open is Route 3** — blocked
+by **missing bookkeeping rather than a theorem**: pin the normalisation and `exp(2πiS)`'s
+well-definedness becomes a real equation tying the level to the framing anomaly `exp(2πi c/24)`,
+**the only place in this structure where `c` appears in an equation rather than as a free anchor.**
+Routes 1 and 2 are closed.
+
+**One more error of this seat's own, caught mid-cell.** To support a claim that the cyclic tower
+does not converge to the universal cover, the systole was measured along it; SnapPy returned nothing
+past n = 4 and a first draft read that as *"the systole grows"*. **It was a swallowed exception** —
+`length_spectrum` raises `RuntimeError("The Dirichlet construction failed")` on those covers and a
+bare `except` turned a failure into a data point. **Measurement void, mechanism not established,
+claim withdrawn.** P3's conclusion never depended on it.
+
+**Gate 5 absolute: no value, no generation count, no physics reading, nothing to `CLAIMS.md`.**

@@ -1,0 +1,170 @@
+P1       THE TOWER, RE-DERIVED FROM SCRATCH (not carried across from xB014)
+          n  vol/vol(m004)         CS     |tors|  predicted  log|t|/vol
+          1       1.000000  -0.000000          1          1    0.000000
+          2       2.000000  -0.000000          5          5    0.396436
+          3       3.000000  -0.000000         16         16    0.455295
+          4       4.000000  -0.000000         45         45    0.468828
+          5       5.000000  -0.000000        121        121    0.472519
+          6       6.000000   0.000000        320        320    0.473617
+          7       7.000000   0.000000        841        841    0.473961
+          8       8.000000   0.000000       2205       2205    0.474072
+         torsion = L_n^2 (n odd) / 5F_n^2 (n even): True   vol = n*vol(m004): True
+         CS = 0 at EVERY rung: True   <- forced by xB015's K4 (covers of a CS=0 base)
+         limit rate log(phi^2)/vol(m004) = 0.474127597116
+P1 PASS  xB014's tower reproduces exactly, and the CS column -- which xB014
+         never computed -- is ZERO all the way up.
+
+P2       ROUTE 1 -- THE RATE ROUTE: the crossing attempt Path A had never made
+         S_n = -Vol*n*sigma   (CS_n = 0 by P1)
+         log|tors_n| ~ n log(phi^2)
+         log|tors| / (-S) = 2*log(phi)/(Vol*sigma)   -- the n CANCELS: a pure number over sigma
+         SO: IF log|H_1 tors| = -S (an entropy-equals-action statement), THEN
+           sigma = log(phi^2)/vol(m004) = 0.4741275971155
+           c = 6 sigma                  = 2.8447655826933
+         THE SEAL PRINTED THESE TWO NUMBERS IN ADVANCE, so they cannot be
+         presented as a discovery.  They are a CANDIDATE, and the cell's job
+         is to find whether the identification that produces them is licensed.
+         WHAT THE LICENCE WOULD HAVE TO BE, stated so it is checkable:
+           a named result letting log|H_1(M_n)_tors| be read as the entropy of
+           the gravitational theory on M_n, equal to minus its on-shell action.
+         WHY IT IS NOT LICENSED -- and this is THIS SEAT'S ARGUMENT FROM THE
+         STRUCTURE OF THE THEORY, not a citation.  A literature check is in flight
+         at the time of banking and is NOT reflected here; if it returns a licence,
+         this cell is wrong and the arc owes an addendum.  Flagged, not hidden:
+           torsion enters a complex-CS partition function as RAY-SINGER torsion at
+           ONE LOOP (Cheeger-Muller; Witten; Dimofte-Gukov-Lenells-Zagier), i.e. in
+           the FLUCTUATION determinant, NOT in the on-shell action; and a cusped
+           hyperbolic manifold has NO HORIZON, so there is no Bekenstein-Hawking
+           area to count and no Cardy regime to sit in.  Reading a HOMOLOGY count
+           as a STATE count is a category error, not a missing theorem.
+         licence found: False
+P2 NEGATIVE  ROUTE 1 FAILS ON LICENSING.  sigma = 0.4741275971 and c = 2.8447655827
+         are recorded as a REFUTED CANDIDATE, never as a prediction.  And P3 kills
+         the same route a second time, independently of any licence.
+
+P3       ROUTE 2 (THE BLIND CELL) -- is the rate the OBJECT's or the TOWER's?
+          deg  #covers   min rate   max rate     median  #tors=1
+            2        1   0.396436   0.396436   0.396436        0
+            3        1   0.455295   0.455295   0.455295        0
+            4        2   0.000000   0.468828   0.234414        1
+            5        4   0.000000   0.472519   0.068294        1
+            6       11   0.090203   0.473617   0.132145        0
+            7        9   0.000000   0.473961   0.185729        4
+            8       10   0.000000   0.474072   0.135305        1
+
+         across all 38 covers of m004 of degree 2-8:
+           min 0.000000   max 0.474072   median 0.135305
+           the cyclic tower's limit is 0.474128
+           covers within 0.01 of it: 5 of 38
+           and each one VERIFIED by isometry to be a cyclic-tower member:
+             degree 4: rate 0.468828  isometric to b++(LR)^n, n = [4]
+             degree 5: rate 0.472519  isometric to b++(LR)^n, n = [5]
+             degree 6: rate 0.473617  isometric to b++(LR)^n, n = [6]
+             degree 7: rate 0.473961  isometric to b++(LR)^n, n = [7]
+             degree 8: rate 0.474072  isometric to b++(LR)^n, n = [8]
+           covers with TRIVIAL torsion, rate exactly 0: 7 of 38
+           1/(6 pi) = 0.053052, the congruence-tower constant, for scale
+P3 PASS  THE RATE IS THE TOWER'S, NOT THE OBJECT'S.
+         The same manifold m004 carries covers whose torsion rate is ANYTHING from
+         0 to 0.474072 -- 7 of 38 have NO torsion at all.  So
+         0.4741275971 is not a number m004 has; it is a number ONE TOWER over m004
+         has.  NO COVER IN THE SEARCHED RANGE EXCEEDS IT -- stated as a measurement,
+         not as a supremum, since the range is degree <= 8.  MY DECLARED PRIOR WAS
+         RIGHT, and this kills Route 1 a second time WITHOUT needing the licensing
+         argument at all.
+         AND THE COMPARISON THAT PUTS IT IN SCALE: the asymptotic torsion-growth
+         rate associated with a hyperbolic 3-manifold in the literature is
+         1/(6 pi) = 0.053052 -- QUOTED FROM MEMORY AND NOT YET VERIFIED
+         AGAINST A SOURCE, so it is a scale marker here and nothing is concluded
+         FROM it.  The cyclic tower gives 0.474128 -- DIFFERENT
+         BY A FACTOR OF ABOUT 8.9.  Path A picked the tower that gives the biggest
+         number, which is what a selection effect looks like.
+
+         A MECHANISM CLAIM THIS CELL TRIED TO MAKE AND WITHDREW.  A first draft said
+         the cyclic tower fails to converge to the universal cover because it keeps
+         the fibre.  To support it this seat measured the systole along the tower;
+         SnapPy returned nothing beyond n = 4 and the draft read that as 'systole
+         grows'.  IT WAS A SWALLOWED EXCEPTION -- length_spectrum raises
+         RuntimeError('The Dirichlet construction failed') on these covers, and the
+         loop's bare except turned a failure into a data point.  The measurement is
+         VOID, the mechanism is NOT established here, and the claim is WITHDRAWN.
+         P3's conclusion does not depend on it: the measured spread above is what
+         proves tower-dependence, and that stands on its own.
+
+P4       ROUTE 3 -- what the mod-1/2 indeterminacy forces, and the GAP it exposes
+         For a CUSPED manifold cs is well defined only modulo 1/2, and the
+         indeterminacy is ESSENTIAL (Neumann, arXiv:1108.0062 Thm 2.14: there is no
+         consistent definition well defined modulo 2 pi^2 for cusped manifolds).
+         Under cs -> cs + 1/2 the action S = -cs*k - Vol*sigma shifts by -k/2, so
+         exp(2 pi i S) picks up exp(-i pi k) = (-1)^k.
+           phase = (-1)**k  -> equals 1 exactly when k is EVEN
+         SO, IN THE LEVEL NORMALISATION (weight exp(2 pi i k cs)): k must be EVEN.
+         BY THIS ARC'S OWN SEALED DEFINITION THIS IS NOT A CROSSING -- it constrains
+         k, and k is not the free anchor.  It is reported as what it is.
+
+         AND THE CELL FOUND SOMETHING THE SEAL DID NOT ANTICIPATE, WHICH IS A GAP
+         IN THE RECORD RATHER THAN A RESULT:
+           B1012's b1012_verify.py carries CS as a BARE SYMPY SYMBOL.  Its algebra
+           -- S = -CS*k - Vol*sigma, dS/dk = -CS -- is NORMALISATION-FREE, and NO ARC
+           IN THE RECORD PINS WHICH CS ENTERS THE k-COUPLING: SnapPy's cs (mod 1/2),
+           Neumann's CS = 2 pi^2 cs (mod pi^2), or a level-normalised CS/2pi.  The
+           three differ by factors of 2 pi^2, and the quantization statement above
+           holds in ONE of them.  In Neumann's normalisation the same shift gives
+           exp(-i pi^2 k), which is not a root of unity for any k != 0 -- so that
+           normalisation cannot be the one the exponentiated weight uses, which is
+           itself a constraint the record has never written down.
+         CONSEQUENCE, STATED PLAINLY: no quantization claim can be read off the
+         record as it stands.  Pinning the normalisation of the k-coupling is a
+         PREREQUISITE for any future crossing attempt through this route, and it is
+         owed work, not a result of this arc.
+
+P5       B290's PRECEDENT, RE-DERIVED AND TURNED ON THIS ARC'S OWN TEMPTATION
+         B290 (banked): 'the filling n is NOT the level k' -- the filling coefficient
+         is a topological Dehn-surgery integer, the level is a quantum root-of-unity
+         parameter q = exp(2 pi i/(k+2)); INDEPENDENT AXES, so n = k is a formal
+         substitution and not an identity.
+         RE-DERIVED HERE as the statement that actually bites, in this arc's own
+         variables: for ANY fixed manifold M the action is
+           S(M; k, sigma) = -CS(M)*k - Vol(M)*sigma,
+         so the OBJECT supplies CS(M) and Vol(M) -- the COEFFICIENTS -- and k and
+         sigma are the coordinates they multiply.  A topological invariant of M can
+         determine dS/dk; it cannot determine k, because k is not a function of M.
+           dS/dk      = -CS   (an invariant of M)
+           dS/dsigma  = -Vol   (an invariant of M)
+           d^2S/dk^2  = 0   (the action is LINEAR in both levels)
+         Because S is linear in k and in sigma with M-determined coefficients, NO
+         invariant of M can fix either level.  This is the same negative B290 banked,
+         in the form that covers this arc: it kills identifying the tower index n
+         with k, AND it kills identifying xB015's Z/12 CS index with k.
+P5 PASS   B290 reproduces and it binds.  Both identifications are dead on arrival,
+         and this arc does not make either.
+
+P6       THE VERDICT
+         TRIED:  Route 1 (the rate route)        -> FAILS TWICE: unlicensed (P2) and
+                                                    tower-dependent (P3).
+                 Route 2 (genericity of the rate) -> the rate is the TOWER's; m004's
+                                                    covers span 0 to 0.474072, seven
+                                                    of thirty-eight with no torsion.
+                 Route 3 (quantization)           -> constrains k (even), not sigma,
+                                                    and exposes an UNPINNED
+                                                    NORMALISATION in the record.
+         PATH A DOES NOT CROSS.  sigma is untouched by everything here.
+
+         WHICH ROUTE A FUTURE SEAT SHOULD RE-OPEN, and what it needs:
+           ROUTE 3.  It is the only one that produced a real constraint rather than
+           a coincidence, and it is blocked by a piece of MISSING BOOKKEEPING rather
+           than by a theorem: the record never pinned the normalisation of the
+           k-coupling.  Pin it, and the well-definedness of exp(2 pi i S) becomes a
+           genuine equation relating the level to the framing anomaly exp(2 pi i c/24)
+           -- which is the only place in this whole structure where c appears in an
+           EQUATION rather than as a free anchor.  That is a crossing CANDIDATE.
+           Routes 1 and 2 are closed and should not be re-run.
+
+==============================================================================
+  P1: PASS
+  P2: NEGATIVE (preregistered)
+  P3: PASS
+  P4: PASS
+  P5: PASS
+  P6: PASS
+VERIFIED -- PATH A DOES NOT CROSS
