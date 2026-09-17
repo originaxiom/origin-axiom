@@ -2,11 +2,57 @@
  "id": "xB022",
  "verdict": "PROVED",
  "instrument": false,
- "depends_on": ["xB021", "xB015", "xB018", "xB020", "xB013", "xB017", "B1186", "B1136"],
+ "depends_on": [
+  "xB021",
+  "xB015",
+  "xB018",
+  "xB020",
+  "xB013",
+  "xB017",
+  "B1186",
+  "B1136"
+ ],
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "xb",
  "creates_law": false,
  "identifications": [],
- "claim_one_line": "THE OBJECT IS A FIXED POINT OF MORE THAN xB021 COULD SEE, AND THE INVARIANTS SPLIT INTO EXACTLY TWO SPECIES RATHER THAN FOUR. PREREGISTRATION sealed f153f67dcb0a27e8 and PUSHED at cbfeec0 before verification/ existed, with the predicted stabiliser table written in advance. V0: the 494-word corpus REBUILT from xB015 K6's rule (checked against the closed form sum(2^n - 2) = 494), and on it both banked laws reproduce -- A5 shifts CS by 1/4 494/494, A7 negates CS 494/494. V1: vol(b++w) = vol(b+-w) at 1e-25 for 494 of 494, with a positive control proving the comparator can see a difference, so A5 IS IN VOLUME'S STABILISER. V2: the mirror and the letter swap each preserve volume 240/240 and H_1 240/240 -- RUN, not asserted, because an assertion beside a number that does not test it is E69. V3: H_1(b++w) != H_1(b+-w) for 494 of 494, 100 percent, STRONGER than the seal's predicted majority; H_1 behaves like CS, not like volume. V4: no Sage on this bench, so the field instrument was BUILT here on PARI algdep under a guard (detect at 30 digits, then require irreducibility and vanishing at 60); m004 and m003 both give x^2 - x + 1 = Q(sqrt-3), 40/40 sampled pairs agree, control m015 gives x^3 - x - 1; GRADED as the SHAPE FIELD, its identification with the invariant trace field NOT claimed and Neumann-Reid NOT cited (E58). V5: all four sealed predictions confirmed. V6, THE BINDING KILL CONDITION, WHICH DID NOT FIRE: each of xB021's three unexplained arithmetic negatives turns on an invariant whose orbit is TRIVIAL, so they were never stabiliser negatives -- they are a THIRD SPECIES, questions asked of an invariant with NO ORBIT, which is why xB021's 'move to the orbit' cannot reach them even in principle. V7: |Tor H_1| is NOT surjective onto Z/12 (9 of 12 residues) so H_1 shares CS's stabiliser but NOT CS's family index, reported as the null it is, with every modulus printed rather than the first hit because a hit at m = 2 is trivial and would itself be E69. EXPLORATORY AND LABELLED: |Tor H_1(b+-w)| - |Tor H_1(b++w)| = 4 EXACTLY for all 494 words -- A5 shifts CS by 1/4 and torsion order by +4 -- together with the caution measured in the same cell, that (b++ square, b+- not) occurs 70 times against 80 for the reverse, so square torsion does NOT pick the b++ branch in general and that limit is carried into xB023 rather than left for a reader to find. Supplies no value; xB016's closure is untouched. Axes held fixed and named. Gate 5 absolute; nothing to CLAIMS.md."
+ "claim_one_line": "THE OBJECT IS A FIXED POINT OF MORE THAN xB021 COULD SEE, AND THE INVARIANTS SPLIT INTO EXACTLY TWO SPECIES RATHER THAN FOUR. PREREGISTRATION sealed f153f67dcb0a27e8 and PUSHED at cbfeec0 before verification/ existed, with the predicted stabiliser table written in advance. V0: the 494-word corpus REBUILT from xB015 K6's rule (checked against the closed form sum(2^n - 2) = 494), and on it both banked laws reproduce -- A5 shifts CS by 1/4 494/494, A7 negates CS 494/494. V1: vol(b++w) = vol(b+-w) at 1e-25 for 494 of 494, with a positive control proving the comparator can see a difference, so A5 IS IN VOLUME'S STABILISER. V2: the mirror and the letter swap each preserve volume 240/240 and H_1 240/240 -- RUN, not asserted, because an assertion beside a number that does not test it is E69. V3: H_1(b++w) != H_1(b+-w) for 494 of 494, 100 percent, STRONGER than the seal's predicted majority; H_1 behaves like CS, not like volume. V4: no Sage on this bench, so the field instrument was BUILT here on PARI algdep under a guard (detect at 30 digits, then require irreducibility and vanishing at 60); m004 and m003 both give x^2 - x + 1 = Q(sqrt-3), 40/40 sampled pairs agree, control m015 gives x^3 - x - 1; GRADED as the SHAPE FIELD, its identification with the invariant trace field NOT claimed and Neumann-Reid NOT cited (E58). V5: all four sealed predictions confirmed. V6, THE BINDING KILL CONDITION, WHICH DID NOT FIRE: each of xB021's three unexplained arithmetic negatives turns on an invariant whose orbit is TRIVIAL, so they were never stabiliser negatives -- they are a THIRD SPECIES, questions asked of an invariant with NO ORBIT, which is why xB021's 'move to the orbit' cannot reach them even in principle. V7: |Tor H_1| is NOT surjective onto Z/12 (9 of 12 residues) so H_1 shares CS's stabiliser but NOT CS's family index, reported as the null it is, with every modulus printed rather than the first hit because a hit at m = 2 is trivial and would itself be E69. EXPLORATORY AND LABELLED: |Tor H_1(b+-w)| - |Tor H_1(b++w)| = 4 EXACTLY for all 494 words -- A5 shifts CS by 1/4 and torsion order by +4 -- together with the caution measured in the same cell, that (b++ square, b+- not) occurs 70 times against 80 for the reverse, so square torsion does NOT pick the b++ branch in general and that limit is carried into xB023 rather than left for a reader to find. Supplies no value; xB016's closure is untouched. Axes held fixed and named. Gate 5 absolute; nothing to CLAIMS.md.",
+ "rederived": [
+  {
+   "arc": "xB015_the_k_coupling_is_the_axiom_bit",
+   "outcome": "CONFIRMED",
+   "what": "K6's 1/4-shift law RE-DERIVED, not cited: the 494-word corpus was REBUILT from K6's stated rule (words over {R,L} of length 2-8 containing both letters) and independently checked against the closed form sum_(n=2..8)(2^n - 2) = 494, then the law re-run on it. A5 shifts CS by 1/4 in 494 of 494 at 50 digits. K6's own count and law both reproduce from the rule rather than from its banked output."
+  },
+  {
+   "arc": "xB018_path_c_the_two_bits",
+   "outcome": "CONFIRMED",
+   "what": "C5's negation law RE-DERIVED on the same rebuilt corpus, using C5's own definition of A7 as the letter swap R<->L: A7 negates CS in 494 of 494. C5 reported 240 of 240 on words of length <= 7; this arc extends the same law to length 8 and finds no exception."
+  },
+  {
+   "arc": "xB021_the_sum_of_the_negatives",
+   "outcome": "SCOPED",
+   "what": "EXTENDED AT EXACTLY THE LIMITATION IT DECLARED. xB021 held CS only and named volume, H_1 and the trace field as unanalysed, with its three unfitted negatives falling outside. This arc analyses all three and finds the picture SIMPLER than xB021's framing implied: the invariants split into TWO species, not four. xB021's stabiliser {A6, A7} for CS is confirmed and is now shown to be shared by H_1; volume and the shape field have a TRIVIAL orbit. xB021's 'move to the orbit' remedy is SCOPED: it cannot reach an invariant with no orbit, which is precisely why its three misses did not fit."
+  },
+  {
+   "arc": "B1186_family_is_112",
+   "outcome": "CONFIRMED",
+   "what": "the family census re-read from its own artifact and the count re-checked: 112 members, matching B1186's headline. Used for V7's family-level index cell."
+  },
+  {
+   "arc": "B1136_genericity_on_the_wins",
+   "outcome": "NOT_RERUN",
+   "why": "B1136's headline (H_1 = Z is the only separator) is adjacent to V3's finding that A5 moves H_1, but this arc did not re-run B1136's genericity computation and makes no claim about it. Named here rather than left silent, as the rule requires."
+  },
+  {
+   "arc": "xB013_the_product_of_both_faces",
+   "outcome": "CONFIRMED",
+   "what": "Addendum 1's finding that both faces are INFINITE and the bit-count void is used as-is in V6's classification, and its dependence on the FIELD (Q(sqrt-3) vs Q(sqrt5)) re-read from the addendum itself. The field's orbit is measured here as trivial, which is what places this negative in the third species. The addendum's own tower computation was NOT re-run."
+  },
+  {
+   "arc": "xB017_path_b_the_orbifolds_torsion",
+   "outcome": "NOT_RERUN",
+   "why": "xB017's Bianchi base rate and its Addenda 2/3 orbifold covering results are used only for V6's CLASSIFICATION of which invariant each turns on (arithmeticity and commensurability, both properties of the field). Neither computation was re-run here, and no numerical claim of xB017 is restated."
+  }
+ ]
 }
