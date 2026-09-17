@@ -1,0 +1,172 @@
+K1       THE TYPE OF THE WALL -- re-derived, not cited
+         S = -CS*k - Vol*sigma
+         S == -CS*k - Vol*sigma : True
+         dS/dk = -CS   == -CS : True
+         Brown-Henneaux + sigma = ell/4G  =>  c = 6*sigma   == 6 sigma : True
+         [sigma] = [ell/4G] = 1/4 x (length)^0  -> length drops out: True
+         [c] = [6 sigma] -> dimensionless: True; [k] integer level -> dimensionless
+         B1015's DECLARATION names A2 = c = 6 sigma 'the one continuous
+         DIMENSIONLESS external coupling', and A1 = ell as the one from which
+         NO DIMENSIONLESS NUMBER FLOWS.  The wall is therefore about a
+         DIMENSIONLESS quantity.
+K1 PASS  THE SEAT'S OWN SENTENCE IS WRONG: it gave the wall's type
+         as dimensionful.  Both of the action's couplings are dimensionless, and
+         the anchor that stays free (A2 = c = 6 sigma) is the dimensionless one.
+
+K2       THE FAMILY'S CS INDEX over B1186's 112
+         rational with 24*CS integral : 112 of 112   (guard D=240, tau=1e-09, 1/D^2=1.7e-05)
+         spectrum of CS mod 1/2 : {'-5/24': 2, '-1/6': 7, '-1/8': 2, '-1/12': 5, '-1/24': 1, '0': 47, '1/12': 5, '1/8': 1, '1/6': 11, '5/24': 2, '1/4': 29}
+         index 24*CS mod 12 realised AS THE CENSUS LISTS THEM : [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+         surjective onto Z/12 from the listing alone : False
+         CONTROL: SnapPy's mirror negates CS (m410): True
+         index realised ONCE MIRRORS ARE COUNTED : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]   surjective: True
+         REPORTED, NOT HIDDEN: the listing alone realises 11 of 12 -- the one
+         missing value is +1/24, the mirror of the single member at -1/24.
+K2 PASS  the family carries a Z/12-valued dimensionless CS index,
+         every value realised, and m004 sits at 0.
+
+K3       THE BASE RATE -- the same test off the family
+         census[:3000] minus the family: 2979 scanned, 45 with 24*CS integral = 1.51%
+         and they CLUMP BY VOLUME (i.e. by commensurability class): {3.663862: 8, 4.116969: 2, 4.813819: 2, 5.012776: 1, 5.238684: 2, 5.33349: 20, 5.573609: 4, 5.625378: 2, 5.693021: 2, 5.693746: 1, 5.907963: 1}
+K3 PASS  the index is NOT generic (1.51% off the family vs 100% on it).
+
+K4       THE MECHANISM -- CS multiplicativity, with a NON-VACUOUS control
+         m004   CS=               0.0  rational: 0
+         m003   CS=              0.25  rational: 1/4
+         m202   CS=   0.0833333333333  rational: 1/12
+         m015   CS=   -0.153204133297  rational: NO (control)
+         covers tested: 12;  CS(cover) == deg*CS(base) mod 1/2 and vol multiplicative: 12 of 12
+         CONTROL m015 (chiral, off the family): CS rational? NO  <- the instrument does NOT rationalise everything
+K4 PASS  multiplicativity holds.  THE DERIVATION IT LICENSES:
+         if M and N share a finite cover C, of degrees a over M and b over N,
+         then a*CS(M) = CS(C) = b*CS(N) mod 1/2.  With CS(m004) = 0 this forces
+         b*CS(N) = 0 mod 1/2 for every N commensurable with m004 -- CS(N) is
+         TORSION, hence rational with denominator dividing 2b.  The family's
+         rationality is not an observation; it is FORCED BY m004's OWN ZERO.
+
+K5       THE LOAD-BEARING COMMENSURABILITY STEP
+         L(chi_-3,2) = 0.781302412896486297   (Hurwitz zeta, not nsum)
+         vol(m004) from the identity = 2.02988321281930725
+         SnapPy's vol(m004)          = 2.0298832128193074   match: True
+         v0 = vol(m004)/24 = 0.0845784672008044688
+         vol/v0 integral: 112 of 112;  failures []
+         index spectrum vol/v0: {24: 2, 48: 7, 60: 5, 72: 12, 84: 4, 96: 31, 108: 4, 120: 47}
+         every volume index a multiple of 12: True
+         INTEGRAL-TRACE CERTIFICATE on Gamma^(2) (Maclachlan-Reid Thm 8.3.2),
+         with the non-arithmetic control m015:
+           family: 99 of 112 have tr(Gamma^(2)) in O_3
+           13 MEMBERS FAIL THE CERTIFICATE -- reported in full:
+             v2875        non-integral 46/80  trace denominators [3, 9, 27]  CS=   1/4
+             t06828       non-integral 73/80  trace denominators [3, 9, 27, 81, 243]  CS=     0
+             t06829       non-integral 54/80  trace denominators [3, 9, 27, 81]  CS=     0
+             t11365       non-integral 70/80  trace denominators [2, 4, 8, 16, 32, 64]  CS=   1/6
+             o9_41000     non-integral 67/80  trace denominators [3, 9, 27, 81]  CS=  -1/6
+             o9_41003     non-integral 32/80  trace denominators [3, 9]  CS=  -1/6
+             o9_41004     non-integral 71/80  trace denominators [7, 49, 343, 2401, 16807, 90947]  CS=     0
+             o9_41005     non-integral 65/80  trace denominators [7, 49, 343, 2401, 13516, 16807]  CS=     0
+             o9_41006     non-integral 58/80  trace denominators [7, 49, 343, 2401, 16807, 117649]  CS=     0
+             o9_41008     non-integral 68/80  trace denominators [3, 9, 27, 81]  CS=  -1/6
+             o10_143600   non-integral 34/80  trace denominators [2, 4, 8, 16, 128]  CS= -5/24
+             o10_143601   non-integral 36/80  trace denominators [2, 4, 8]  CS=     0
+             o10_143602   non-integral 51/80  trace denominators [2, 4, 8, 16, 32, 64]  CS=     0
+           the denominators are powers of a SINGLE prime per manifold; the
+           primes that occur are [2, 3, 7] -- clean small fractions on traces of
+           modulus ~1, so these are genuine non-integral traces, not noise.
+           By Bass's theorem a non-integral trace forces a splitting, i.e. a
+           closed essential surface; such a manifold is NOT arithmetic and NOT
+           commensurable with m004.
+           CONTROL m015: 68 of 80 traces OUTSIDE O_3 -> NOT arithmetic,
+           so the certificate is not one that passes everything.
+         EXPLICIT COMMON COVERS WITH m004 (a stronger, constructive witness):
+           m206   chiral=False  common cover: deg 2 over m004 = deg 1 over m206, vol 4.05976643
+           m003   chiral=False  common cover: deg 2 over m004 = deg 2 over m003, vol 4.05976643
+           m202   chiral=True   no common cover found IN THE SEARCHED RANGE
+           m410   chiral=True   no common cover found IN THE SEARCHED RANGE
+K5 PARTIAL -- and the partiality is the finding.  99 of 112 members are
+         arithmetic, hence commensurable with PSL(2,O_3) and with m004, and K4's
+         derivation is LICENSED on those 99.  THE OTHER 13 ARE NOT
+         COMMENSURABLE WITH m004: B1186's 112-family, defined by the SHAPE FIELD, is
+         NOT a single commensurability class.  An imaginary-quadratic invariant trace
+         field does not imply arithmeticity -- integral traces are a second condition,
+         and 13 members fail it.  THIS CORRECTS A READING THE RECORD RELIES ON.
+         AND THE ANOMALY IS REPORTED, NOT HIDDEN: all 13 non-arithmetic members
+         STILL have 24*CS integral, which K4's mechanism does NOT explain.  The
+         explanation that does cover them is the one this arc CITES and does not
+         re-derive: B(Q(sqrt(-3))) tensor Q has rank r_2 = 1, so every member's Bloch
+         invariant is a RATIONAL multiple of one generator's, forcing rational CS from
+         the SHAPE FIELD alone (Neumann-Yang, Bloch invariants of hyperbolic
+         3-manifolds).  K4's commensurability route is then a special case.  FLAGGED
+         AS CITED, NOT VERIFIED HERE.
+         ALSO REPORTED per the seal's own rule: explicit common covers were found for
+         2 of 4 probed members and NOT for the chiral ones at degree <= 6 over
+         m004, so the licence rests on the certificate, not on a constructed cover.
+
+K6       THE BIT: does the b++/b+- sign shift CS by exactly 1/4?
+         words tested: 494;  shift == 1/4 mod 1/2 at 50 dps: 494 of 494;  mismatches: 0
+         RE-KILLING B128's M-B (CS proportional to #R-#L), so this arc
+         cannot be read as reviving a claim the record already killed:
+           RRL        #R-#L=+1  CS=+0.020833333333  psi/48=+0.020833333333  equal: True
+           RRRL       #R-#L=+2  CS=+0.036893133190  psi/48=+0.041666666667  equal: False
+           RRLRRLLL   #R-#L=+0  CS=+0.001215878658  psi/48=+0.000000000000  equal: False
+           RLRLRLRL   #R-#L=+0  CS=+0.000000000000  psi/48=+0.000000000000  equal: True
+         B128's M-B re-killed (a counterexample exists): True
+K6 PASS  THE LAW HOLDS: CS(b+-W) - CS(b++W) = 1/4 mod 1/2 for EVERY
+         once-punctured-torus word tested.  The b++/b+- sign is the -I bit -- the
+         SAME Z/2 that separates m004 from m003, and the same one xB007 found the
+         character variety blind to.  Through dS/dk = -CS it shifts the action by
+         exactly -k/4: a quantized Z/4 phase in the level.
+
+K7       DOES ANY OF THIS CROSS THE WALL?  (blind cell; declared prior: NO)
+         What would count, per the seal: a numerical value for c or sigma derived
+         from the family's own data with no new input.
+         The attempt, stated so it can be checked:
+           S = -CS*k - Vol*sigma, CS in (1/24)Z on the family, Vol in 12*v0*Z.
+           The CS index is an INTEGER mod 12; sigma is a CONTINUOUS positive real.
+           No equation in the family's data relates them: the index constrains the
+           k-term only, and k is a free integer.  Setting the index to any value
+           leaves sigma completely undetermined.
+         crossing exhibited: False
+K7 NEGATIVE  THE WALL STANDS FOR sigma.  What DOES change is its GROUND:
+         B1015 prices A2 on 'the object is provably blind to the quantized level k'.
+         K2/K6 show that blindness is m004's INDEX VALUE 0, not a property of the
+         object's family -- 65 of the 112 members have CS != 0 and DO see k.  The
+         wall's justification is an AXIOM (A5, which picks the branch), not a
+         derivation.  That is a REFRAMING, and by the seal's own rule it is a LEAD,
+         not an upgrade.
+
+K8       THE CORRECTION OWED TO B1136
+         m003   amphichiral=True
+         m004   amphichiral=True
+         m202   amphichiral=False
+         m203   amphichiral=True
+         m206   amphichiral=True
+         m207   amphichiral=True
+         m208   amphichiral=False
+         m410   amphichiral=False
+         m412   amphichiral=False
+         s118   amphichiral=False
+         s119   amphichiral=False
+         s594   amphichiral=False
+         s595   amphichiral=False
+         s596   amphichiral=True
+         chiral: 8 of 14 -> ['m202', 'm208', 'm410', 'm412', 's118', 's119', 's594', 's595']
+         PREREGISTERED PREDICTION: 7 chiral.  COMPUTED: 8.  The predicted COUNT was wrong by one (s595);
+         the seal's kill condition (all 14 amphichiral) did NOT fire.
+K8 PASS  B1136's table row -- amphichirality 'shared with ALL
+         thirteen others' -- is WRONG under B152's own gate.  Half the shape-field
+         family is chiral.  B1136's HEADLINE (H1 = Z is the only separator) is
+         UNAFFECTED, since m003 is amphichiral too; what falls is its reading that
+         amphichirality is the FAMILY's property.  B1235 cell 1 already reported
+         38/74 over the 112 and named m202 and s118 chiral -- the correction was
+         available in the record and was never propagated back to B1136.
+
+==============================================================================
+  K1: PASS
+  K2: PASS
+  K3: PASS
+  K4: PASS
+  K5: PARTIAL
+  K6: PASS
+  K7: NEGATIVE (preregistered)
+  K8: PASS
+VERIFIED

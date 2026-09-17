@@ -1,3 +1,15 @@
+> **SCOPE NOTE 2026-09-17 (xB015 K5).** This arc's count of **112** is confirmed independently
+> (two builds). What must not be read from it: **the 112 are NOT a single commensurability class.**
+> The family is defined by the *shape field*, and an imaginary-quadratic invariant trace field does
+> **not** imply arithmeticity — integral traces on Γ⁽²⁾ are a second, independent condition
+> (Maclachlan–Reid). Running that certificate over all 112, with m015 as the non-arithmetic control:
+> **99 are arithmetic; 13 are not** — v2875, t06828, t06829, t11365, o9_41000, o9_41003, o9_41004,
+> o9_41005, o9_41006, o9_41008, o10_143600, o10_143601, o10_143602 — with non-integral traces whose
+> denominators are powers of one prime per manifold, the primes being **2, 3 and 7**. By Bass's
+> theorem those carry closed essential surfaces and are **not commensurable with m004**. The
+> shape-field family and the commensurability class are different objects, and any argument that
+> moves between them needs this step.
+
 # B1186 — the family-definition cell CLOSED: |𝓕| = 112 (not 111), the criteria are nested, and the cell's own lesson applied recursively to its own count
 
 **Status: banked (frontier). Verdict PROVED** (census- and bound-scoped counts, with the corrective

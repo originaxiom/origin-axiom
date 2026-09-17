@@ -1,5 +1,36 @@
 # Changelog
 
+## xB015: THE k-COUPLING IS THE AXIOM BIT — my "dimensionful" sentence was wrong, and the family carries a ℤ/12 index
+
+The owner refused a clause of mine in xB014 and asked for it to be checked. **It is wrong on both
+halves.** B1012's wall is about **c = 6σ, a *dimensionless* central charge** — B1015's sealed
+declaration says so in its own words — so a dimensionless index is exactly the right kind of object
+for it. `PREREGISTRATION.md` sealed `5d489878…` and pushed at `54c8d80` before `verification/`
+existed, with the pre-seal exploration **disclosed** and K7 preregistered as a negative.
+
+**The index.** Over B1186's 112-member ℚ(√−3) family, `24·CS ∈ ℤ` for **112 of 112**, surjective
+onto **ℤ/12** once mirrors are counted, against a **1.51 %** base rate off the family — and it is
+**forced by m004's own zero** through CS-multiplicativity under covers.
+
+**The bit.** `CS(b+-W) − CS(b++W) = ¼` mod ½ **exactly, 494 of 494 words at 50 digits.** That sign
+is the `−I` bit — m004 vs m003, the ℤ/2 **xB007 found the character variety blind to**, and **axiom
+A5's bit** — and it shifts the action by exactly `−k/4`. **The bit invisible to the character
+variety is visible in the k-coupling and nowhere else in the action.**
+
+**It does not cross the wall** (K7, preregistered NEGATIVE and delivered as one): the index is an
+integer mod 12, σ is a continuous real. **What changes is the wall's ground** — B1015 prices its one
+continuous dimensionless anchor on *"the object is provably blind to k"*, and that blindness is
+**m004's index value 0, one of twelve**; 65 of 112 members see `k`. The ground is **A5 restated in
+the coupling**, not a derived property.
+
+**Corrections:** B1186's family is **not** a single commensurability class (13 of 112 non-arithmetic,
+non-integral traces at the primes 2, 3, 7) · B1136's *"amphichirality shared with all thirteen
+others"* is wrong (8 of 14 chiral; headline unaffected) · xB014's "dimensionful" clause withdrawn.
+**Own errors:** `Γ` tested for `Γ⁽²⁾`; a `limit_denominator(1e5)` rationality screen that called
+96.5 % of the census rational (**new E56 instance**); a predicted count off by one; and three of four
+remembered citations overturned by an actual literature check.
+
+
 ## xB014 ADDENDUM 1: Z4's KILL IS WITHDRAWN — m004 is extremal three ways, and the error was mine twice over
 
 The owner asked four words: **"u sure about extremality"**. **He was right.** `PREREGISTRATION.md` untouched (`bc8a71ed…`); new cells `Z6`–`Z7`.

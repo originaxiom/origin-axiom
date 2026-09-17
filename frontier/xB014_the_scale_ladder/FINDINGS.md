@@ -1,3 +1,13 @@
+> **CORRECTION 2026-09-17 (xB015).** This arc's closing clause — *"still does not cross B1012's
+> wall, which concerns a DIMENSIONFUL quantity while a ladder supplies a dimensionless INDEX"* — is
+> **WRONG and is withdrawn.** B1012's wall is about **c = 6σ, a dimensionless central charge**:
+> B1015's sealed `DECLARATION.md` names A2 = c = 6σ *"the one continuous **dimensionless** external
+> coupling"* and A1 = ℓ the anchor from which *"no dimensionless number flows"*, and B1088 states the
+> claim as *"zero free **dimensionless** constants."* **A dimensionless index is exactly the right
+> kind of object for that wall.** xB014's conclusion — that the ladder does not cross — **survives**,
+> but for the reason given in xB015's K7 (the index is an integer mod 12, σ is a continuous real, and
+> nothing relates them), not for the reason stated here. Found because the owner refused the sentence.
+
 # xB014 — PATH A DIES: the ladder is real and generic, and m004 is rank 38 of 40 on the both-faces ratio
 
 **Status: banked (frontier, `sep16-branch`). Verdict NEGATIVE.** Seat `xb`.

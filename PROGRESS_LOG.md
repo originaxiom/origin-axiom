@@ -16001,3 +16001,76 @@ The owner asked four words: **"u sure about extremality"**. **He was right.** `P
 **But the honest scope, which Z4 reached for the wrong reason.** Minimal dilatation on the once-punctured torus is a **known theorem**; minimal volume is **Cao–Meyerhoff**, already banked; **B207 already said it** (*"golden has the smallest regulator (log φ) → the least-hierarchical / extremal point"*); and the ratio's minimality **follows from** the components', so it is a consequence, not an independent fact. **The extremality is real, the kill was wrong, and the extremality is also already in the record.** Path A is **reopened but un-advanced** — it still does not cross B1012's wall, which concerns a **dimensionful** quantity while a ladder supplies a dimensionless **index**.
 
 **The standing lesson.** This is the **second time in one session** that a **sort order or rank convention produced a false verdict** (the first was xB007's `b++`-only search, caught by a declared prior). **A kill that rests on a ranking must state the direction and show the head of the list, not an index.** The head of the list is now in Z6/Z7 where a reader can check it.
+
+---
+
+## 2026-09-17 — xB015: the k-coupling is the axiom bit (and my "dimensionful" sentence was wrong)
+
+The owner read the closing clause of xB014 — *"it still doesn't cross B1012's wall, which is about a
+dimensionful quantity while a ladder gives a dimensionless index"* — and said: **"lets verify it for
+mistakes, and investigate it priperly so we squeze the real lead out of it."**
+
+**The sentence was wrong on both halves.** `PREREGISTRATION.md` sealed `5d489878…`, pushed at
+`54c8d80` before `verification/` existed, with the pre-seal exploration **disclosed in the seal**
+and K7 preregistered as a negative.
+
+**K1 — the type of the wall, re-derived and not cited.** `S = (t/2)ĉ + (t̄/2)ĉ̄ = −CS·k − Vol·σ`
+exactly, `∂S/∂k = −CS` identically, `c = 6σ` from Brown–Henneaux — all in sympy. **Both couplings
+are dimensionless**: `σ = ℓ/(4G)` is a ratio of lengths, `k` is an integer level. B1015's sealed
+`DECLARATION.md` names **A2 = c = 6σ "the one continuous *dimensionless* external coupling"** and
+A1 = ℓ the one from which *"no dimensionless number flows"*; B1088 says *"zero free **dimensionless**
+constants."* **I named the wrong anchor.** A dimensionless index is exactly the right kind of object
+for that wall.
+
+**K2/K3 — the family carries a ℤ/12 CS index.** Over B1186's 112: `24·CS ∈ ℤ` for **112 of 112**,
+spectrum `{0, ±1/24, ±1/12, ±1/8, ±1/6, ±5/24, ¼}`, **surjective onto ℤ/12** once mirrors are
+counted (11 of 12 from the listing alone — the missing `+1/24` is the mirror of the one `−1/24`
+member, reported not hidden). Base rate off the family: **45 of 2979 = 1.51 %**, and those 45
+**clump by volume**, i.e. by commensurability class. m004 sits at **0**.
+
+**K4 — and the index is forced by m004's own zero.** CS is multiplicative under covers (12 of 12 at
+50 digits, with m015's *irrational* CS as the non-vacuous control). A common cover gives
+`a·CS(M) ≡ CS(C) ≡ b·CS(N)`, so `CS(m004) = 0` makes every commensurable member's CS **torsion**.
+
+**K6 — THE BIT.** `CS(b+-W) − CS(b++W) = ¼` mod ½, **exactly, 494 of 494 once-punctured-torus words
+of length 2–8, at 50 decimal digits**, for irrational CS as well as rational. The `b++`/`b+-` sign
+is the `−I` bit: the ℤ/2 separating **m004 from m003**, the ℤ/2 **xB007 found the character variety
+blind to**, and **axiom A5's bit** — and through `∂S/∂k = −CS` it shifts the action by exactly
+**`−k/4`**, a quantized ℤ/4 phase in the level. **The bit invisible to the character variety is
+visible in the k-coupling and nowhere else in the action.** (B128's M-B, `CS ∝ #R−#L`, is re-run and
+re-killed in the same cell so this cannot be misread as reviving it.)
+
+**K7 — the preregistered negative, delivered.** It does **not** cross the wall: the index is an
+integer mod 12, `σ` is a continuous real, nothing relates them, `σ` stays undetermined. **What
+changes is the wall's ground.** B1015 prices A2 on *"the object is provably blind to the quantized
+level k"* — and that blindness is **m004's index value 0, one of twelve**. 65 of the 112 members
+have `CS ≠ 0` and **do see `k`**, and the 0-versus-¼ choice **is A5**. The ground of the framework's
+one continuous dimensionless anchor is **an axiom restated in the coupling**, not a derived property
+of the object. A **LEAD** by the seal's own rule, not an upgrade.
+
+**Three corrections landed.** (a) **B1186's 112-family is not one commensurability class** — the
+Maclachlan–Reid certificate (integral traces on `Γ⁽²⁾`, m015 as control) passes 99 and **fails 13**,
+non-integral at the primes **2, 3, 7**, hence carrying closed essential surfaces by Bass and not
+commensurable with m004; those 13 still have `24·CS ∈ ℤ`, which K4 does not explain, and the theorem
+that does (**Neumann–Yang, Theorem A**: CM-embedded invariant trace field ⟹ rational CS) is cited
+and logged as a debt. (b) **B1136's amphichirality row is wrong** — 8 of its 14 are chiral; its
+headline (H₁ = ℤ the only separator) is unaffected. (c) **xB014's "dimensionful" clause is
+withdrawn** by banner, its conclusion surviving for the correct reason.
+
+**Four errors of my own, recorded.** The arithmeticity run first tested `Γ` instead of `Γ⁽²⁾` and
+falsely failed four members · a rationality screen with `limit_denominator(1e5)` at tolerance `1e-9`
+returned *"96.5 % of the census has rational CS"*, an artefact caught before it was reported (**a
+new instance of E56** — the rationality form of the unbounded-height integer-relation trap; the
+guard `1/D² ≫ τ` is now declared in the seal and enforced in code) · the seal predicted 7 chiral in
+B1136's 14 where the answer is **8** (the kill condition did not fire; conclusion unaffected) · and
+**a literature sweep overturned three of the four references I would have cited from memory** —
+the rationality theorem is **not** in Neumann–Reid (that paper contains the string "Chern" zero
+times) and is Neumann–Yang's Enseign. Math. Theorem A, not the Duke paper's.
+
+**A terminology hazard registered:** Snap's CS algorithm carries an ambiguity constant that is
+always an integer multiple of **1/24** (Coulson–Goodman–Hodgson–Neumann). **That 1/24 has nothing to
+do with this index**, and conflating them would manufacture the result out of the instrument. The
+index is not an artefact — the same instrument returns irrational CS for m015 and for `b±±RRRL`.
+
+**Gate 5 absolute throughout: no value, no generation count, no physics reading, nothing to
+`CLAIMS.md`.**

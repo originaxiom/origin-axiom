@@ -1,3 +1,13 @@
+> **CORRECTION 2026-09-17 (xB015 K8).** The property table below records amphichirality as
+> *"shared with **ALL thirteen others**"* and reads from it that *"the object's celebrated arithmetic
+> — … amphichirality — is the property of the 14-manifold ℚ(√−3) family."* **That row is wrong.**
+> Under B152's own gate (`is_amphicheiral` read only when `is_full_group()` is True), **8 of the 14
+> are CHIRAL**: m202, m208, m410, m412, s118, s119, s594, s595. **Amphichirality is not the family's
+> property** — half the family lacks it. **This arc's HEADLINE is unaffected:** H₁ = ℤ remains the
+> only separator, because m003 is amphichiral too and amphichirality never separated m004. B1235
+> cell 1 had already reported 38 amphichiral / 74 chiral over the 112-member family and named m202
+> and s118 chiral; the correction existed in the record and was never propagated back here (E53).
+
 # B1136 — THE GENERICITY CONTROL, TURNED ON THE OBJECT'S OWN WINS: exactly one property separates m004 (H₁ = ℤ); the rest is the family's
 
 **Status: banked (frontier). Verdict PROVED (a verified genericity control — a red-team pass

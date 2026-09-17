@@ -1,0 +1,73 @@
+{
+ "id": "xB015",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "B1012",
+  "B1015",
+  "B1088",
+  "B303",
+  "B1224",
+  "B1235",
+  "B1136",
+  "B1186",
+  "B152",
+  "B128",
+  "B145",
+  "xB007",
+  "xB014"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B1012_branch_verifications",
+   "outcome": "CONFIRMED",
+   "what": "re-derived S = (t/2)chat + (tbar/2)chatbar = -CS*k - Vol*sigma symbolically from Gukov's split at t = k + i sigma with chat = i(Vol + i CS), and dS/dk = -CS identically; and re-derived the Brown-Henneaux closure c = 3l/2G with sigma = l/4G giving G = l/(4 sigma) and c = 6 sigma. Both exact in sympy. B1012 is CONFIRMED. What this arc adds is the TYPE: both couplings in S are dimensionless, so B1012's wall is about a dimensionless quantity -- which is what THIS SEAT'S OWN SENTENCE in xB014 got backwards."
+  },
+  {
+   "arc": "B1015_anchor_declaration",
+   "outcome": "SCOPED",
+   "what": "read DECLARATION.md rather than citing it. A2 = c = 6 sigma is declared there as 'the one continuous DIMENSIONLESS external coupling', A1 = ell as the one from which 'no dimensionless number flows'. Its PRICING RATIONALE -- 'the object is provably blind to the quantized level k' -- is SCOPED by this arc: that blindness is m004's CS index value 0, one of twelve, and 65 of the 112 family members have CS != 0 and do see k. The declaration is not disputed; its stated ground is shown to be axiom A5 restated, not a derived property of the object."
+  },
+  {
+   "arc": "B1224_amphichiral_cs_torsion",
+   "outcome": "CONFIRMED",
+   "what": "its one-way law (amphichiral => CS 2-torsion, i.e. CS in {0,1/4} mod 1/2) is reproduced across the 112-family: every amphichiral member sits at 0 or 1/4, no violations. This arc's K6 sharpens the m003/m004 instance into an exact law over 494 words."
+  },
+  {
+   "arc": "B1136_genericity_on_the_wins",
+   "outcome": "CORRECTED",
+   "what": "its table row 'amphichirality ... shared with ALL thirteen others' is WRONG under B152's own gate: 8 of the 14 shape-field manifolds are CHIRAL (m202, m208, m410, m412, s118, s119, s594, s595). Its HEADLINE (H1 = Z is the only separator) is UNAFFECTED, since m003 is amphichiral too and amphichirality never separated m004; what falls is its reading that amphichirality is the FAMILY's property. B1235 cell 1 had already reported 38/74 over the 112 and named m202 and s118 chiral -- the correction existed in the record and was never propagated back. Banner landed."
+  },
+  {
+   "arc": "B1186_family_is_112",
+   "outcome": "CORRECTED",
+   "what": "its 112-member count is CONFIRMED, but the family it defines (shape field subset Q(sqrt-3)) is NOT a single commensurability class. Running the Maclachlan-Reid arithmeticity certificate (integral traces on Gamma^(2)) over all 112 with m015 as the non-arithmetic control: 99 are arithmetic, THIRTEEN ARE NOT -- v2875, t06828, t06829, t11365, o9_41000, o9_41003, o9_41004, o9_41005, o9_41006, o9_41008, o10_143600, o10_143601, o10_143602 -- with non-integral traces whose denominators are powers of a single prime per manifold, the primes being 2, 3 and 7. By Bass's theorem those carry closed essential surfaces and are not commensurable with m004. An imaginary-quadratic invariant trace field does not imply arithmeticity; integral traces are a second condition."
+  },
+  {
+   "arc": "B128_symmetry_breaking_chirality",
+   "outcome": "CONFIRMED",
+   "what": "its M-B ('the order parameter is the ordering, not the count' -- CS is NOT proportional to #R-#L) is RE-RUN AND RE-KILLED here deliberately, so that K6's quarter-shift law cannot be misread as reviving it: RRL happens to land at psi/48 but RRRL (psi = 2) does not, and RRLRRLLL is balanced with CS != 0. K6's law is about the b++/b+- PREFIX, not the word."
+  },
+  {
+   "arc": "B152_cs_amphichirality_census",
+   "outcome": "CONFIRMED",
+   "what": "its method gate (is_amphicheiral read only when is_full_group is True) is adopted and is what makes K8's correction of B1136 possible; its calibration (m004 CS = 0 amphichiral, m003 CS = 1/4 amphichiral) is reproduced at 50 digits."
+  },
+  {
+   "arc": "xB014_the_scale_ladder",
+   "outcome": "CORRECTED",
+   "what": "the clause 'still does not cross B1012's wall, which concerns a DIMENSIONFUL quantity while a ladder supplies a dimensionless INDEX', which appears twice in xB014's arc_verdict.json and once in its addendum, is WRONG and is withdrawn. B1012's wall is about c = 6 sigma, a DIMENSIONLESS central charge -- B1015's own declaration says so, and B1088 states the claim as 'zero free DIMENSIONLESS constants'. A dimensionless index is exactly the right kind of object for that wall. xB014's conclusion (the ladder does not cross) SURVIVES, but for a different and correct reason, given in this arc's K7. Banner landed on xB014."
+  },
+  {
+   "arc": "LITERATURE",
+   "outcome": "CORRECTED",
+   "what": "a dedicated literature sweep was run for this arc and OVERTURNED THREE OF THE FOUR references this seat would have cited from memory. (1) The CS rationality theorem is NOT in Neumann-Reid 'Arithmetic of hyperbolic manifolds' -- that paper contains the string 'Chern' ZERO times -- and is not proved in the Duke 1999 Bloch-invariants paper either; it is NEUMANN-YANG, THEOREM A, 'Rationality problems for K-theory and Chern-Simons invariants of hyperbolic 3-manifolds', Enseign. Math. 41 (1995) 281-296, arXiv:math/9712225: CS(M) is rational if the invariant trace field is CM-embedded. Imaginary quadratic implies CM, so the family's DEFINING property gives rationality and arithmeticity is not needed -- which is why the 13 non-arithmetic members are rational too. (2) 'arithmetic implies rational CS' is FALSE and Neumann-Yang say so (the Weeks manifold is their counterexample-in-progress); this arc does not claim it. (3) Normalisation confirmed verbatim: SnapPy prints cs = CS/2pi^2, well defined mod 1/2 (Neumann, Geom. Topol. 8 (2004) sec 12; Zickert, Duke 150 (2009)), so cs in (1/24)Z is CS in (pi^2/12)Z. (4) A FALSE 24 exists in this literature and is registered as a terminology hazard: Snap's CS algorithm carries an ambiguity constant always an integer multiple of 1/24 (Coulson-Goodman-Hodgson-Neumann, Experiment. Math. 9 (2000) 127-152), unrelated to this index. (5) NO published theorem bounds the CS denominator for any field, and 24 is NOT universal -- closed arithmetic manifolds with invariant trace field Q(i) reach 11/48 and 7/48 -- so the (1/24)Z statement is scoped to this class and empirical. (6) The chiral members m208, s118, s119, s594, s595 are commensurable with m004 BY A PUBLISHED RESULT (Fominykh-Garoufalidis-Goerner-Tarkaev-Vesnin, Experiment. Math. 25 (2016) 466-481, arXiv:1502.00383, Lemma 5.1 and sec 5.2), which closes the licence K5 could not construct. (7) 'amphichiral implies cs in {0,1/4}' (B1224's law) and 'cs(deg-n cover) = n cs' are both CONFIRMED as facts but NO NUMBERED THEOREM was found for either -- recorded as folklore with its nearest anchors, not upgraded."
+  }
+ ],
+ "claim_one_line": "THE OWNER REFUSED A SENTENCE OF MINE AND HE WAS RIGHT: 'it still doesn't cross B1012's wall, which is about a dimensionful quantity while a ladder gives a dimensionless index' IS WRONG ON BOTH HALVES. K1 (re-derived, not cited): S = -CS*k - Vol*sigma exactly, dS/dk = -CS identically, c = 6 sigma from Brown-Henneaux -- and BOTH couplings are DIMENSIONLESS (sigma = ell/4G is a ratio of lengths, k is an integer level), with B1015's sealed DECLARATION naming A2 = c = 6 sigma 'the one continuous DIMENSIONLESS external coupling' and A1 = ell the one from which 'no dimensionless number flows'. So the wall is about a dimensionless quantity, and a dimensionless index is exactly the right KIND of object for it. K2: over B1186's 112-family, 24*CS is an INTEGER for 112 of 112, spectrum {0, +-1/24, +-1/12, +-1/8, +-1/6, +-5/24, 1/4}, and the index 24*CS mod 12 is SURJECTIVE ONTO Z/12 once mirrors are counted (11 of 12 from the listing alone, the missing +1/24 being the mirror of the single -1/24 member -- reported, not hidden). m004 sits at 0. K3 base rate: 45 of 2979 = 1.51% off the family, and those 45 CLUMP BY VOLUME, i.e. by commensurability class. K4: CS is multiplicative under covers (12 of 12, 50 digits, with m015's IRRATIONAL CS as the non-vacuous control), which FORCES the index -- a common cover gives a*CS(M) = CS(C) = b*CS(N), and CS(m004) = 0 makes every commensurable member's CS torsion. THE FAMILY'S RATIONALITY IS FORCED BY THE OBJECT'S OWN ZERO. K6, THE BIT: CS(b+-W) - CS(b++W) = 1/4 mod 1/2 EXACTLY, for 494 of 494 once-punctured-torus words of length 2-8 at 50 decimal digits, rational and irrational CS alike. The b++/b+- sign is the -I bit: the Z/2 separating m004 from m003, the Z/2 xB007 found the CHARACTER VARIETY BLIND TO, and axiom A5's bit -- and through dS/dk = -CS it shifts the action by exactly -k/4, a quantized Z/4 phase in the level. THE BIT INVISIBLE TO THE CHARACTER VARIETY IS VISIBLE IN THE k-COUPLING AND NOWHERE ELSE IN THE ACTION. K7, PREREGISTERED AND DELIVERED AS A NEGATIVE: this does NOT cross the wall -- the index is an integer mod 12, sigma is a continuous real, and no equation in the family's data relates them, so sigma stays undetermined. WHAT CHANGES IS THE WALL'S GROUND: B1015 prices A2 on 'the object is provably blind to the quantized level k', and that blindness is m004's INDEX VALUE 0, not a property of its family -- 65 of 112 members have CS != 0 and DO see k, and the 0-versus-1/4 choice IS A5. The ground of the framework's one continuous dimensionless anchor is AN AXIOM RESTATED IN THE COUPLING, not a derived property. That is a LEAD by the seal's own rule, not an upgrade. THREE CORRECTIONS LANDED: (a) B1186's 112-family is NOT one commensurability class -- the Maclachlan-Reid certificate (integral traces on Gamma^(2), with m015 as control) passes 99 and FAILS 13 (v2875, t06828, t06829, t11365, o9_41000, o9_41003, o9_41004, o9_41005, o9_41006, o9_41008, o10_143600/1/2), non-integral at the primes 2, 3 and 7, hence carrying closed essential surfaces by Bass and NOT commensurable with m004; those 13 still have 24*CS integral, which K4's mechanism does NOT explain, and the explanation that does (rank-1 Bloch group of Q(sqrt-3), Neumann-Yang) is CITED AND LOGGED AS A DEBT, not claimed; (b) B1136's row 'amphichirality shared with ALL thirteen others' is WRONG -- 8 of the 14 are chiral under B152's own gate, so amphichirality is NOT the family's property, though B1136's headline (H1 = Z is the only separator) is unaffected; (c) xB014's 'dimensionful' clause is withdrawn by banner, its conclusion surviving for the correct reason. THREE ERRORS OF MY OWN, RECORDED: the first arithmeticity run tested Gamma instead of Gamma^(2) and falsely failed four members; a first rationality screen used limit_denominator(1e5) with tolerance 1e-9 and returned '96.5% of the census has rational CS', an artefact caught before it was reported (the guard 1/D^2 >> tau is now declared in the seal and enforced in code); and the seal predicted 7 chiral in B1136's 14 where the answer is 8 (s595 miscounted pre-seal) -- the kill condition did not fire and the conclusion is unaffected. NOT CLAIMED: that the index is a physical scale, anything about k's value, that CS is proportional to #R-#L (B128's M-B, re-killed in K6), or that volume-index integrality proves arithmeticity. Gate 5 absolute; no value, no generation count, nothing to CLAIMS.md."
+}
