@@ -1,0 +1,7 @@
+(1) Q(sqrt-3): disc -3; 3 = (sqrt-3)^2 with 1 prime above it; residue field order 3
+(2) pi_1(m004) ->> SL(2,3) up to Aut: 2   | ->> SL(2,5): 0
+(3) McKay(2T): nodes 7, edges 6, valencies [1, 1, 1, 2, 2, 2, 3], marks [1, 1, 1, 2, 2, 2, 3]
+    is the affine E6 diagram: True
+(4) CONTROL McKay(Q8): nodes 5, edges 4, valencies [1, 1, 1, 1, 4] -> affine D4 (5 nodes): True
+    CONTROL no 2I quotient: True
+DOOR VERIFIED: True

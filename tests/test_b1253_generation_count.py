@@ -1,4 +1,13 @@
-"""B1253 — the generation count is forced at three, and each 16 is a complete SM generation.
+"""B1253 — the geometry of the foreign 16s is RIGID, and it is NOT a generation count.
+
+TITLE CORRECTED 2026-09-17 (B1423, S16). This docstring previously read "the generation count is
+forced at three, and each 16 is a complete SM generation" -- the arc's DRAFT headline, which the arc
+itself refutes and which `test_the_draft_headline_is_refuted` below exists to keep refuted. The title
+was the E53 shape: a correction that changes what a claim says must reach every title that repeats it,
+and here the refuted headline survived at the top of the very file that refutes it. The arc's actual
+verdict: the pairwise geometry is rigid and two-valued, and all fifteen 16-blocks lie in a single Weyl
+orbit, so the three 16s of any triple are conjugates sharing one character -- a multiplicity, not a
+generation count.
 
 The CONTROL lives in this lock, not only in prose: if the rigid two-valued pairwise geometry
 or the max-family-of-three ever stops holding, the suite goes red.

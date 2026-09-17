@@ -8584,6 +8584,25 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1423": {
+   "slug": "the door and the gates",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "apolynomial"
+   ],
+   "refs": [
+    "L224",
+    "S15"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B142": {
    "slug": "klein4 and magic cartography",
    "motifs": [

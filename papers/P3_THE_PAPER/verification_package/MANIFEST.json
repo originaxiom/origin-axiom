@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-09-17T09:15:46Z",
+ "built": "2026-09-17T10:52:32Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,7 +9,7 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "8d9fc19f"
+  "git_head": "4a40e038"
  },
  "claims": [
   {
@@ -93,7 +93,7 @@
    ]
   },
   {
-   "claim": "the chain is 56 links, 52 of them forced (39 of 43 when the census instrument was first recorded); axioms only at the two ends",
+   "claim": "the chain is 57 links, 53 of them forced (39 of 43 when the census instrument was first recorded); axioms only at the two ends",
    "support": "settled",
    "records": [
     {
@@ -2027,6 +2027,60 @@
    ]
   },
   {
+   "claim": "the door, verified end to end: Q(sqrt-3) ramifies only at 3 with residue field F_3, SL(2,O/(sqrt-3)) = SL(2,3) = 2T, pi_1(m004) surjects onto 2T in exactly two classes up to automorphism, and the McKay graph of 2T at its faithful 2-dimensional representation IS the affine E6 diagram (7 nodes, 6 edges, marks 1,1,1,2,2,2,3); controls fire -- Q8 gives affine D4 and there is no surjection onto SL(2,5) = 2I, so the door does not open onto E8",
+   "support": "settled",
+   "records": [
+    {
+     "arc": "B266",
+     "dir": "frontier/B266_arithmetic_selects_e6",
+     "verdict": "PROVED",
+     "claim_one_line": "The trace field's unique ramified prime canonically selects E6: \u03c0\u2081(4\u2081) surjects onto SL(2,\ud835\udd3d\u2083)=2T with McKay E6, and E7 is homeless since 2O is no SL(2,q).",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [],
+     "results": [],
+     "locks": [
+      "tests/test_b266_arithmetic_selects_e6.py",
+      "tests/test_b266_surjection_asymmetry.py",
+      "tests/test_b267_e6_coherence.py",
+      "tests/test_b268_e6_bridge_consolidation.py",
+      "tests/test_b269_t41_rungs_2_3.py",
+      "tests/test_b272_verification_and_gaps.py",
+      "tests/test_b276_zeta3_probe.py",
+      "tests/test_b288_arithmetic_filling_census.py",
+      "tests/test_b304_gauge_dynamics_skeleton.py",
+      "tests/test_b305_eisenstein_trinification_grading.py",
+      "tests/test_b312_face_iv_houses_the_form.py"
+     ],
+     "primary_locks": [
+      "tests/test_b266_arithmetic_selects_e6.py",
+      "tests/test_b266_surjection_asymmetry.py"
+     ]
+    },
+    {
+     "arc": "B1423",
+     "dir": "frontier/B1423_the_door_and_the_gates",
+     "verdict": "PROVED",
+     "claim_one_line": "The door made a link and the two blind gates repaired. THE DOOR: Q(sqrt-3) has discriminant -3 so 3 is its unique ramified prime with (3) = (sqrt-3)^2 and residue field F_3; SL(2, O/(sqrt-3)) = SL(2,3) = 2T; pi_1(m004) surjects onto 2T in exactly two classes up to automorphism; and the McKay graph o",
+     "seals": [],
+     "reproduce_sh": false,
+     "scripts": [
+      "frontier/B1423_the_door_and_the_gates/verification/mckay_door.py"
+     ],
+     "results": [
+      "frontier/B1423_the_door_and_the_gates/verification/mckay_door.out.txt"
+     ],
+     "locks": [
+      "tests/test_b1253_generation_count.py",
+      "tests/test_b1423_the_door.py"
+     ],
+     "primary_locks": [
+      "tests/test_b1423_the_door.py"
+     ]
+    }
+   ]
+  },
+  {
    "claim": "a conditional uniqueness theorem for the genesis matrix, machine-checked: six motivated axioms of a minimal record-transfer system force the persistent sector to LR (144 candidates to one), leaving exactly one inserted bit -- the LR vs RL order, which is what selects the golden polynomial; the axioms are NOT derived from anything weaker and the result is labelled conditional",
    "support": "settled",
    "records": [
@@ -2704,10 +2758,10 @@
   }
  ],
  "totals": {
-  "claims": 66,
-  "records": 93,
+  "claims": 67,
+  "records": 95,
   "seals": 21,
-  "locks": 133,
-  "records_with_a_primary_lock": 92
+  "locks": 145,
+  "records_with_a_primary_lock": 94
  }
 }

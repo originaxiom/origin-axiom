@@ -563,3 +563,18 @@ until repaired; the chain is regenerable from the bank and never a source of aut
 over it (GOVERNANCE: views don't outrank arcs).*
 
 > **LOCK AUDIT, B998 (2026-08-09).** `tests/test_b749_genesis_forks.py` tests **F4, F5, F6, F7**. It contains **no F3 test** (cited above), **no F2 test** — C3's only real price — and **no F8 test** — C4's entire price. **So C1, C2 and C4 carry no in-repo lock, and C3 is locked only by a fork pricing a different axiom. — **SUPERSEDED 2026-08-30 (Cell 5's record read): B1003 subsequently wrote the missing locks. `tests/test_b1003_f2_f8_locks.py` exists and passes (5 tests), asserting all seven fork verdicts, F2's pA-count-0 and falsifiability note, and F8's four failing witnesses including the x²+3 irreducibility and the ℤ[φ] order. C4's price IS locked, and C3's real price (F2) is locked. This audit note asserted a gap its own remedy had closed — the E53 class, inside the ledger that records it.**** The claims are not thereby false: **C1 (Morse–Hedlund) and C2 (Hurwitz/Lagrange extremality) are classical, cited not re-proved.** What was false is this ledger's assertion that they are locked *here*. **CORRECTED 2026-08-09 (B1003): F2 and F8 were COMPUTED all along** — B749 has `compute.py`, `output.txt` and a verdict for all seven forks. **What was missing was the LOCKS**, now written (`tests/test_b1003_f2_f8_locks.py`). **F2 = ROBUST** (pA count 0 for the whole periodic family — A2 selects the destination); **F8 = GEOMETRY-NECESSARY** (four witnesses fail; **x²+3 irreducible over ℚ(√5)** — ℚ(√−3) is bought at geometrization). **The chain's price is exactly two FRAGILE forks: F5 orientation and F6 the puncture.**
+
+
+**C57 [THEOREM — the door: the object's arithmetic hands over the exceptional algebra].** The step the
+chain carried as prose for fifteen months and the paper narrated without a link. The invariant trace field
+ℚ(√−3) has discriminant −3, so **3 is its unique ramified prime**, with `(3) = (√−3)²` and residue field
+𝔽₃; `SL(2, O_K/(√−3)) = SL(2,𝔽₃) = 2T`, the binary tetrahedral group; **π₁(m004) surjects onto 2T, in
+exactly two classes up to automorphism**; and the **McKay graph of 2T at its faithful two-dimensional
+representation is the affine E₆ diagram** — 7 nodes, 6 edges, valencies and marks {1,1,1,2,2,2,3}. So the
+exceptional algebra is handed over by the object's own arithmetic, and no step of it is a choice.
+**Both controls fire** (the criterion can fail): the same construction on Q₈ returns affine D₄ (5 nodes),
+and π₁(m004) has **no** surjection onto SL(2,5) = 2I, so the door does not open onto E₈.
+**SCOPE, stated with the link:** the surjection is *generic* — about one one-cusped census manifold in
+three admits it (§What is generic) — so this link carries the object's arithmetic to the algebra and
+carries **no** claim that the object is distinguished by doing so. — B266, verified end to end on this
+bench 2026-09-17 (B1423). Lock: `tests/test_b1423_the_door.py`.

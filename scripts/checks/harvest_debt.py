@@ -42,6 +42,13 @@ import time
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 LEDGER = ROOT / "docs" / "HARVEST_LEDGER.md"
+
+# The SCHEDULED ratchet (added 2026-09-17, B1423, closing L224). The ledger-wide count below is
+# remote-independent, so retiring a seat can no longer hide its debt. Failing --strict on the whole
+# backlog would block every landing until 282 rows are read, which is not a gate but a stop; failing
+# on GROWTH is the instrument that fits: the backlog may shrink freely and may not grow silently.
+# Lower this number when rows are discharged. Never raise it without an owner's decision recorded.
+SCHEDULED_BASELINE = 282
 RELAY_LEDGER = ROOT / "docs" / "RELAY_LEDGER.md"
 STALE_DAYS = 21
 MAIN_REF = "origin/main"
@@ -443,6 +450,19 @@ def run(fetch=False, strict=False):
         report["integrity"].append("HARVEST_LEDGER has no `## Pins` table")
         return report
     rows = read_rows(ltext)
+    # LEDGER-SIDE SCHEDULED COUNT (added 2026-09-17, B1423, closing L224).
+    # The per-seat count below is computed only for seats whose remote is configured and whose ref is
+    # fetched; a seat that is retired or merged is SKIPPED, and its SCHEDULED rows are then invisible.
+    # On 2026-09-17 the ledger carried 283 SCHEDULED rows and this gate reported 3, because codex, cc3,
+    # cloud, braver and qor5up had been retired or merged two days earlier -- the gate was green over the
+    # larger half of its own debt, and over exactly the half that had lost its owner. This count reads the
+    # ledger file and nothing else, so retiring a seat can no longer retire its debt.
+    report["ledger_scheduled_total"] = sum(1 for r in rows if "SCHEDULED" in r["disp"])
+    report["ledger_scheduled_by_seat"] = {}
+    for r in rows:
+        if "SCHEDULED" in r["disp"]:
+            k = (r["seat"] or "?").strip().lower()[:24]
+            report["ledger_scheduled_by_seat"][k] = report["ledger_scheduled_by_seat"].get(k, 0) + 1
     rnames = relay_ledger_names(RELAY_LEDGER.read_text(encoding="utf-8", errors="ignore")) if RELAY_LEDGER.is_file() else set()
     remotes = _remotes()
     overrides = dict(kv.split("=", 1) for kv in os.environ.get("OA_HARVEST_PIN_OVERRIDE", "").split(",") if "=" in kv)
@@ -541,7 +561,8 @@ def run(fetch=False, strict=False):
 def print_report(rep, verbose=True):
     print(f"  harvest-debt ({rep['today']}): {rep['summary'].get('index', 0)} seat-index ids across {len(rep['seats'])} seats; "
           f"NEW unrowed {rep['summary'].get('new_unrowed', 0)}, BACKLOG {rep['summary'].get('backlog', 0)}, STALE rows {rep['summary'].get('stale_rows', 0)}, "
-          f"relays without a row {rep['summary'].get('relays_unrowed', 0)}, SCHEDULED rows {rep['summary'].get('scheduled_rows', 0)}, aged past {STALE_DAYS}d {rep['summary'].get('aged', 0)}, mirror lag {rep['summary'].get('mirror_lag', 0)}"
+          f"relays without a row {rep['summary'].get('relays_unrowed', 0)}, SCHEDULED rows {rep['summary'].get('scheduled_rows', 0)}"
+          f" (ledger-wide, remote-independent: {rep.get('ledger_scheduled_total', 0)}), aged past {STALE_DAYS}d {rep['summary'].get('aged', 0)}, mirror lag {rep['summary'].get('mirror_lag', 0)}"
           f"{'; skipped ' + str(rep['summary'].get('skipped')) if rep['summary'].get('skipped') else ''} [{rep.get('seconds', '?')}s]")
     for k, s in rep["seats"].items():
         if "skipped" in s:
@@ -589,8 +610,15 @@ def main():
     if rep["integrity"]:
         return 1
     t = rep["summary"]
-    if a.strict and (t["new_unrowed"] or t["backlog"] or t["stale_rows"] or t["relays_unrowed"] or t.get("scheduled_rows")):
+    grown = rep.get("ledger_scheduled_total", 0) > SCHEDULED_BASELINE
+    if grown:
+        print(f"  harvest-debt: SCHEDULED ratchet BROKEN — ledger-wide {rep['ledger_scheduled_total']} > baseline "
+              f"{SCHEDULED_BASELINE}. The backlog may shrink; it may not grow silently (L224).")
+    if a.strict and (t["new_unrowed"] or t["backlog"] or t["stale_rows"] or t["relays_unrowed"]
+                     or t.get("scheduled_rows") or grown):
         print(f"  harvest-debt --strict: DEBT OPEN — a review cannot close with unread seat results")
+        return 1
+    if grown:
         return 1
     if t["aged"]:
         print(f"  harvest-debt: {t['aged']} unrowed seat item(s) older than {STALE_DAYS} days — read the branch or row the item")

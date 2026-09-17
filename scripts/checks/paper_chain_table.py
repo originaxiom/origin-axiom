@@ -96,6 +96,7 @@ PAPER_TITLES = {
  14: "the symmetrised Kashaev series has pure-3 denominators through fifth order",
  15: "the mod-5 generating function is multiplicative exactly on a quadratic-residue condition",
  16: "every refusal to close falls into three classes: no point, no width, no name",
+ 57: "the door: Q(sqrt-3) ramifies only at 3, its residue field is F_3, pi_1 surjects onto SL(2,3) = 2T in two classes, and McKay(2T) at the faithful 2-dim rep IS the affine E6 diagram (controls: Q8 gives affine D4; no 2I quotient)",
  17: "zero of the Standard Model's free parameters (nineteen, plus the neutrino sector) is reduced by the spectral route; two live claims dissolved",
  18: "the observer's closings (chirality, values, time, the spatial manifold) are choices; four forks priced",
  19: "the theta-off-block norm at the geometric representation equals the geometric pair's separation",

@@ -24,6 +24,16 @@ EXEMPT_FILES = {
     "CHANGELOG.md",
     "PROGRESS_LOG.md",
     "docs/progress/REVIEWS.md",
+    # Added 2026-09-17 (B1423) with the widening to .py: the sweep itself, and the locks whose PURPOSE
+    # is to keep a retracted phrase refuted. Pinning the string is how they work; a lock that may not
+    # name the claim it refutes cannot refute it. Same principle as RETRACTED_PHRASES.md above.
+    "scripts/checks/retraction_sweep.py",
+    "tests/test_b1326_retracted_claims_do_not_speak.py",
+    "tests/test_b1422_foundations_reread.py",
+    "tests/test_b1181_amphichirality_closure.py",
+    "tests/test_review55_instrument_repairs.py",
+    "tests/test_b962_vev.py",
+    "tests/test_b963_tau.py",
 }
 EXEMPT_BASENAMES = ("PRIOR_ART_HYPERCHARGE.md", "PRIOR_ART_MAASS.md",
                     "PRIOR_ART_VEV.md", "PRIOR_ART_RANK_REDUCTION.md",
@@ -45,6 +55,10 @@ MENTION_CUES = re.compile(
     r"scope error|banner|struck|do not bank|must not|never claim|~~|obsolete|\bfalse\b|"
     r"registry|registered here|the phrase|as a general claim|amend|originally|"
     r"27-only|scoped by|partially retracted|read before quoting|"
+    # added 2026-09-17 (B1423, with the widening to .py): an executable that REFUTES a phrase names it in
+    # the past tense -- "a draft claimed", "this arc's draft headline", "previously read". Those are
+    # mentions, not live claims, and a lock that may not quote what it refutes cannot refute it.
+    r"a draft claimed|draft headline|previously read|used to say|once said|refuted|"
     # added 2026-09-06 (Review 55): B1188's correction banner reads "... as \"<phrase>.\" **Wrong direction**",
     # a mention the cue list did not recognise once the sweep could finally see the phrase.
     r"wrong direction|described .{0,40} as|"
@@ -101,14 +115,24 @@ def _phrases():
 
 
 def _tracked_md():
-    """Every tracked prose surface -- .md AND .tex.
+    """Every tracked surface a claim can live on -- .md, .tex AND .py.
 
     Widened 2026-09-10 (B1326). B1181's retracted "83 of 83" survived in THE PAPER for a week,
     and this sweep could not have caught it even had the phrase been registered: main.tex is
     .tex, and the glob was "*.md" only. A sweep that cannot see the project's flagship document
     is a sweep with a hole the size of the thing it most needs to guard.
+
+    Widened again 2026-09-17 (B1423, S16), and this time the hole was worse than prose. E82's
+    retraction ("no closed filling of m004 is arithmetic") survived in two *tests* -- 
+    `tests/test_b291_scale_extremal.py` and `tests/test_b296_seam_arc_verification.py` -- which
+    PASSED while asserting it, and which the paper's verification package lists as locks for the
+    very claim row that states the correction. A reviewer running the shipped package would have
+    obtained green tests contradicting the sentence they were meant to verify. Prose that
+    contradicts the record is embarrassing; an executable that does it is evidence. So the sweep
+    now reads the executables too: every tracked .py, which is where assertions and the comments
+    that justify them live.
     """
-    r = subprocess.run(["git", "ls-files", "*.md", "*.tex"], cwd=ROOT,
+    r = subprocess.run(["git", "ls-files", "*.md", "*.tex", "*.py"], cwd=ROOT,
                        capture_output=True, text=True)
     return sorted(set(p for p in r.stdout.split("\n") if p.strip()))
 
@@ -142,21 +166,32 @@ def sweep():
         path = os.path.join(ROOT, rel)
         try:
             with open(path, encoding="utf-8", errors="ignore") as fh:
-                for n, line in enumerate(fh, 1):
-                    flat = _flatten(line)
-                    mention = MENTION_CUES.search(line) or MENTION_CUES.search(flat)
-                    for phrase, rx in phrases:
-                        if rx.search(flat) and not mention:
-                            violations.append((rel, n, phrase))
+                body = fh.read()
         except OSError:
             continue
+        # Fast reject (added 2026-09-17, B1423, with the widening to .py): flatten the WHOLE file once
+        # and keep only the phrases whose text appears in it at all. Before this the sweep ran every
+        # phrase's regex against every line of every tracked file and took minutes once the executables
+        # were included -- and a gate slow enough to skip is a gate that gets skipped.
+        flat_body = _flatten(body).lower()
+        live = [(phrase, rx) for phrase, rx in phrases if phrase.lower() in flat_body]
+        if not live:
+            continue
+        for n, line in enumerate(body.split("\n"), 1):
+            flat = _flatten(line)
+            mention = MENTION_CUES.search(line) or MENTION_CUES.search(flat)
+            if mention:
+                continue
+            for phrase, rx in live:
+                if rx.search(flat):
+                    violations.append((rel, n, phrase))
     return violations
 
 
 if __name__ == "__main__":
     v = sweep()
     print(f"registered retracted phrases: {len(_phrases())}")
-    print(f"tracked .md/.tex files swept: {len(_tracked_md())}")
+    print(f"tracked .md/.tex/.py files swept: {len(_tracked_md())}")
     print(f"live-claim violations: {len(v)}")
     for rel, n, p in v[:25]:
         print(f"  {rel}:{n}  ->  {p!r}")

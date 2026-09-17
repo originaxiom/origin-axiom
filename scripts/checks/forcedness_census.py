@@ -37,7 +37,7 @@ LEDGER = "docs/THEOREM_LEDGER.md"
 # 2026-09-09: C47-C54 entered (the chirality campaign B1291-B1324, each link locked; SUBMISSION_CAMPAIGN S7):
 # THEOREM 27 -> 34, NO-GO 7 -> 8; the axiom set and the axiom-free stretch unchanged.
 EXPECTED = {
-    "THEOREM": 35,
+    "THEOREM": 36,   # +1 on 2026-09-17 (B1423): C57, the McKay door, minted as a link after fifteen months as prose
     "IDENTITY": 6,
     "NO-GO": 8,
     "AXIOM": 4,
