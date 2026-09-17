@@ -97,6 +97,12 @@ conversations.json
 data-*-batch-*/
 *.jsonl
 !frontier/*/stageA/journals/*.jsonl
+# Added 2026-09-17 (B1424), found by an outside referee running the shipped package on a clean
+# checkout: `tests/test_b1419_arithmetic_fillings.py` reads this census row-by-row, so the blanket
+# rule above made all four of its locks fail on any fresh clone -- and they are the locks for the one
+# row of this paper that had to be withdrawn and corrected. Evidence a committed lock reads by name
+# is not build noise.
+!frontier/B1419_the_arithmetic_fillings_corrected/verification/*.jsonl
 # the PSLQ grids B1137's aggregate lock re-derives from (a negation must follow the
 # rule it undoes, so this one lives here rather than with the other artifact rules)
 !frontier/B1137_regulator_probe/results/*.jsonl

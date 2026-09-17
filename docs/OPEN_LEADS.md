@@ -2544,7 +2544,7 @@ file that is simply **absent** is invisible to it.
 depend on an untracked artifact) or vendor the artifact, as E57's instances #2–#6 were fixed. **Do
 not** make the tests skip when the file is missing — that converts a lock into a no-op.
 
-## L211 — THE STRATUM LAW: does the 2-generator/3-generator split survive more than three census slices? (registered 2026-09-13, B1400)
+## L211 — THE STRATUM LAW: does the 2-generator/3-generator split survive more than three census slices? (registered 2026-09-13, B1400) — **POPULATION NAMED 2026-09-17 (B1424): the decline is on the FULL orientable cusped census; on the one-cusped census the same blocks give 33.00 / 33.88 / 31.38, i.e. flat. Recomputed two ways; the paper is corrected.**
 
 B1400 refines a forwarded census-bias finding: the depth decline in the `π₁ ↠ SL(2,3)` rate lives
 **entirely in the 2-generator stratum** (`34.23 → 15.36 %`, `z = +7.56`) while 3-generator groups are

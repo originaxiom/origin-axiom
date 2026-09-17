@@ -9,7 +9,7 @@
 Writes REPORT.md beside this file. Exit code 0 only if every step that ran passed. Run from anywhere inside a clone of the
 repository; the manifest must be current (python3 build_manifest.py) or the report says so.
 """
-import datetime, hashlib, json, pathlib, subprocess, sys
+import datetime, hashlib, json, pathlib, re, subprocess, sys
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 
@@ -27,9 +27,25 @@ def check_seals(man):
 def run_locks(man):
     tests = sorted({l for c in man["claims"] for r in c["records"] for l in r.get("locks", [])})
     if not tests: return False, ["no locks in the manifest"]
-    r = subprocess.run([sys.executable, "-m", "pytest", "-q", *tests], capture_output=True, text=True, cwd=ROOT)
-    tail = r.stdout.strip().splitlines()[-1] if r.stdout.strip() else r.stderr[-500:]
-    return r.returncode == 0, [f"{len(tests)} lock files: {tail}"]
+    # -rf makes pytest print a short summary naming every failure. Added 2026-09-17 (B1424) after an
+    # outside referee ran this package, got "FAIL", and could not tell from the report WHICH lock failed
+    # -- a report that says a check failed without naming it cannot be acted on, which defeats the point
+    # of shipping the package at all. --durations surfaces the slow subprocess locks whose timeouts are
+    # the usual cause of a run-to-run difference.
+    r = subprocess.run([sys.executable, "-m", "pytest", "-q", "-rf", "--durations=5", "--color=no", *tests],
+                       capture_output=True, text=True, cwd=ROOT)
+    # pytest colours its summary, so the markers do not start the line as written; strip them before
+    # parsing (2026-09-17: the first version of this patch matched nothing for exactly this reason).
+    out = [re.sub(r"\x1b\[[0-9;]*m", "", l) for l in r.stdout.strip().splitlines()]
+    tail = out[-1] if out else r.stderr[-500:]
+    named = [l.strip() for l in out if l.strip().startswith("FAILED")]
+    slow = [l.strip() for l in out if " call " in l and l.strip().endswith(("s call", "s"))][:5]
+    rows = [f"{len(tests)} lock files: {tail}"]
+    if named:
+        rows += ["", "**Failures, named:**"] + [f"  - `{x}`" for x in named]
+    if slow:
+        rows += ["", "**Slowest locks (a timeout here is the usual cause of a run-to-run difference):**"] + [f"  - {x}" for x in slow]
+    return r.returncode == 0, rows
 
 def run_scripts(man):
     rows = []; ok = True

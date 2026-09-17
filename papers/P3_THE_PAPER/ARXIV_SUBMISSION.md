@@ -26,6 +26,14 @@ is the unnumbered **Summary of results** section that follows the front matter, 
    (writes `audit/paper_submission/origin-axiom-<commit>.tar.gz` + its sha256).
 2. **Deposit the snapshot** (Zenodo or equivalent; the repository's mirrors are not persistent identifiers).
    Record the DOI.
+2b. **Rebuild the package AFTER the commit, then amend.** `build_manifest.py` records the repository's
+   HEAD *at build time*. If it is run before the landing commit, the manifest names a commit that does not
+   contain the artefacts it lists, and `REPORT.md` keeps whatever counts the last run produced. An outside
+   referee found both on 2026-09-17: a manifest stamped with the previous commit while listing that
+   commit's successor's lock, and a `REPORT.md` two days stale certifying 54 claims against the manifest's 67.
+   **The rule: commit, then run `build_manifest.py` and `run_package.py`, then `git commit --amend`** — the
+   same shape as the views-generated rule. The bundle must be built from the amended tree.
+
 3. **Write the DOI into the paper**: the appendix intro in `scripts/checks/paper_provenance.py` carries
    "DOI to be assigned at deposit" — replace with the identifier, regenerate the appendix block
    (`python3 scripts/checks/paper_provenance.py --tex`, splice between the GENERATED markers), rebuild
