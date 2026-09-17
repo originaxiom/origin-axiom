@@ -1,5 +1,34 @@
 # Changelog
 
+## xB013 ADDENDUM 1: the owner's re-test — the PAIR does not hold, the bit-count is a census artefact, and the two faces supply NO finite selection
+
+Owner: *"verify first, verify negatives within, verify if the two element set isn't sufficient at the end and whether it still needs the whole family at some point."* **It is not sufficient.** Two defects, both this seat's, both found by asking that question. `PREREGISTRATION.md` untouched (`fd3568c3…`); new cells `Y1`–`Y3`.
+
+**Y1 — the two faces were defined ASYMMETRICALLY.** xB013 defined **Eisenstein as a FIELD** (invariant trace field `ℚ(√−3)`) but **golden as a SINGLE TRACE** (`|t| = 3`). Field against trace is not a fair pairing, and the asymmetry is what produced the pair. The monodromy traces of `(LR)ⁿ` are `3, 7, 18, 47, …` and `t²−4 = 5, 45, 320, 2205, …` — every one of them `F²·5`, by the Lucas identity **`L₂ₙ² − 4 = 5F₂ₙ²`** (verified n = 1…10). **Under field-vs-field the WHOLE tower is golden.**
+
+> And this reverses a "correction" I made: xB013's **first** draft of X5 said *"the intersection is a TOWER"* and I overrode it to a pair. **The first draft was right and my override was wrong.**
+
+**Y2 — both sets are INFINITE, so the bit-count is void.** Every `(LR)ⁿ` is a cyclic cover of m004 — commensurable, hence in the class — and golden by Y1. Verified n = 1…6 with volumes exactly `24n·v₀`: m004, m206, s961, t12839, `o10_150696`, `otet12_00013`. And the finite ratio is **cut-off dependent**: class/golden = **2.25** (≤5 tetrahedra), **3.50** (≤6), **4.17** (≤7). **It does not converge — it grows.** So xB013's *"21 → 2, 3.39 bits"* measures the **census window**, not the mathematics. **WITHDRAWN.**
+
+**Y3 — what actually selects.**
+
+```
+class ........................ INFINITE
+  --[ both faces ]---------->  golden tower (LR)ⁿ ... INFINITE
+  --[ A6 minimality ]------->  pair {m003, m004}
+  --[ A5 torsion-free ]----->  m004
+```
+
+> **The two faces supply structure but NO finite selection.** They carry an infinite class to an infinite tower. **Every finite step is an axiom** — A6 reaches the pair, A5 reaches the member.
+
+**Answering the owner directly.** *"Is the two-element set sufficient at the end?"* — **No**, and it is not even what the faces give; the pair is the faces **plus minimality**. *"Does it still need the whole family at some point?"* — **Yes, and precisely: the intersection of the two faces IS an infinite family**, the cyclic tower over m004 along its own fibration. The family is not a fallback for a failed selection; **it is what the faces actually determine**.
+
+**Survives:** κ (X1) really is the product of both faces, re-derived exactly; and the intersection is **not** the whole class — the faces do carve out a **distinguished infinite sub-family**. **Withdrawn:** that the product **selects**, the **3.39-bit** figure, and that the minimal both-faces object is a **pair**.
+
+**This strengthens the owner's original thesis rather than weakening it.** *"Maybe we don't need to select m004 — maybe reality isn't derivable from m004 alone"*: taken seriously and symmetrically, **the two faces determine a family and never a member**, and the selection to one manifold was always the axioms' work, not the mathematics'.
+
+Gate 5 absolute: no value, no generation count, no physics reading, nothing promoted to `CLAIMS.md`.
+
 ## xB013 THE PRODUCT OF BOTH FACES SUPPLIES 3.39 BITS AND STOPS AT A PAIR: the object of the two faces is m004 *and its sign-twin*, and the last bit is A5's
 
 Owner: *"physics might be the product of both faces."* **PREREGISTRATION sealed (sha256 `fd3568c38fbdec91e2749464be7e24e3c93d6fddad1ce0368e1384e65d1bc171`) and PUSHED at `063e19f` BEFORE any cell ran.**

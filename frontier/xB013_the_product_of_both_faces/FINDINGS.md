@@ -5,6 +5,18 @@
 `fd3568c38fbdec91e2749464be7e24e3c93d6fddad1ce0368e1384e65d1bc171`, commit `063e19f`.
 Gate 5 untouched. Lock: `verification/reproduce.sh`, five cells.
 
+> ### CORRECTION 2026-09-17 — **the PAIR does not hold and the bit-count is WITHDRAWN.**
+> Read **`ADDENDUM_1_2026-09-17_the_pair_does_not_hold.md`** with this file. At the owner's
+> instruction to re-test, two defects of this seat's own were found. **(1)** The faces were defined
+> **asymmetrically** — Eisenstein as a *field*, golden as a *single trace* — and under field-vs-field
+> the **whole tower is golden** (`L₂ₙ²−4 = 5F₂ₙ²`). **(2)** Both sets are **infinite** (every `(LR)ⁿ`
+> is a cyclic cover of m004, volumes `24n·v₀`), and the finite ratio **grows with the census cutoff**
+> (2.25 → 3.50 → 4.17), so **"21 → 2, 3.39 bits" measures the census window, not the mathematics**.
+> **The two faces supply NO finite selection**: class (infinite) → tower (infinite) → [A6] → pair →
+> [A5] → m004. κ as the product of both faces **stands**; that the product **selects** does not.
+> Note: X5's *first* draft said "the intersection is a TOWER" and this seat overrode it — **the
+> first draft was right and the override was wrong.**
+
 ## The thesis, and what it resolves to
 
 > *"physics might be the product of both faces."* — the owner
