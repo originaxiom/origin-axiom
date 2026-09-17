@@ -16440,3 +16440,54 @@ POSITIVE**, fenced, and **not a mechanism**: the ℤ/3 that distinguishes `d = 3
 > before the headline is written.**
 
 **Gates 35/35. Gate 5 absolute.**
+
+---
+
+## 2026-09-17 — xB017 ADDENDUM 3: "still negative both paths on B?" — No. Neither torsion order is.
+
+A status question. **Checking instead of answering turned up a third correction to this arc.**
+
+**N5(b) said *"there is no deck group at all."* Too strong.** True of the **full** index-12 cover;
+**false** of the maximal regular intermediate cover `m004 → H³/N(Γ)`, whose deck group is **ℤ/2** —
+and **its nontrivial class is represented by genuine 2-torsion of the Bianchi orbifold.**
+
+**The evidence.** Enumerating **exact** order-2 elements of `PSL(2,O₃)` (trace 0, `det = 1` in
+`ℤ[ω]`) with entries in `[−6,6]²`: **1738 found, 590 normalise `Γ` and lie outside it**, and — the
+control — **0 of the 1738 lie inside `Γ`**, as required for a torsion-free knot group. The first
+witness verified four ways: full conjugation over all **20 480** elements (not just the generators) ·
+exact over `ℤ[ω]` with `det = 1`, `trace = 0`, `g² = −I` (**order 2 in PSL**) · **all 590 in one
+coset**, consistent with `N(Γ)/Γ ≅ ℤ/2` **with the nontrivial class carried by 2-torsion** ·
+and `Isom⁺(m004) = ℤ/4` has a unique order-2 element, exactly what the deck ℤ/2 must be.
+
+**Two bugs of mine, caught inside the cell before any verdict.** (1) A first test ran **mod 4** — but
+`Γ` contains `Γ(8)`, not `Γ(4)` (PSL-index 6 at level 4), so it was at the wrong level and **void**.
+(2) A first hunt accepted `det ≡ 1 mod 8` instead of `det = 1` **exactly** — admitting matrices that
+are not in the Bianchi group at all and producing **1260 spurious witnesses**, an 18 % hit rate
+against a 0.7 % chance expectation, which is what exposed it.
+
+**Path B, fully re-aimed:**
+
+| | role | verdict |
+|---|---|---|
+| the orbifold's **ℤ/3** | **covering** data — cusp `S²(3,3,3)`, `d = 3`'s alone | **POSITIVE** |
+| the orbifold's **ℤ/2** | **deck** data — the intermediate cover's deck involution | **POSITIVE** |
+| the **full** index-12 cover | regular? | **NEGATIVE** |
+
+> **Neither torsion order is negative. What was negative was my framing — three times over.**
+
+**And the fences stay, which is where the content is.** The ℤ/3 does **not** descend to m004 (B486's
+rectangular cusp; no order-3 symmetry), while the ℤ/2 **does** act on it. **The ℤ/2 acts on the
+object and the ℤ/3 does not** — that asymmetry is the finding. No mechanism, no physics reading, no
+identification (E82/I-10; xB005 priced that family at 0.58 bits).
+
+**The pattern, now threefold.** *"u sure about extremality"* overturned xB014's kill · *"are u sure
+about b"* re-aimed this arc's headline · *"still negative both paths on B?"* has corrected its N5(b).
+**Three times the same shape: a negative stated more broadly than what was actually tested.**
+Extending Addendum 2's rule:
+
+> **A kill must also say at which LEVEL it holds.** *"No deck group"* was true of the full cover and
+> false of the intermediate one, and the arc never distinguished them. **When a cover is irregular,
+> the next question is not "so there is no deck data" — it is "what is the maximal regular
+> intermediate cover, and what is ITS deck group?"**
+
+**Gates 35/35. Gate 5 absolute.**

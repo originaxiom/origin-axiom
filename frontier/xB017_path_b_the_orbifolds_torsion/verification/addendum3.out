@@ -1,0 +1,62 @@
+D1       THE LEVEL, AND THE FIRST BUG THIS CELL CAUGHT ON ITSELF
+         |Gamma mod 8| = 20480;  |SL(2,O_3/8)| = 245760;  PSL-index = 12
+         B734's geometric index is 12, so Gamma contains Gamma(8) and a
+         normalisation test is valid AT LEVEL 8.
+         BUG 1, CAUGHT: a first version of this test worked MOD 4.  Gamma does NOT
+         contain Gamma(4) -- the PSL-index at level 4 is 6, not 12 -- so that test
+         was at the wrong level and its answer (N/H = 1) was VOID.
+D1 PASS  the test is run at the level Gamma actually reaches.
+
+D2       THE HUNT, AND THE SECOND BUG -- exact det, not det mod 8
+         BUG 2, CAUGHT: a first hunt accepted det = 1 MOD 8.  Such matrices live in
+         SL(2,O_3/8) and NOT in the Bianchi group, and they produced 1260 spurious
+         'witnesses'.  The corrected hunt requires det = 1 EXACTLY in Z[omega].
+         EXACT order-2 elements of PSL(2,O_3) enumerated (entries in [-6,6]^2): 1738
+         CONTROL -- how many lie INSIDE Gamma: 0   (must be 0: Gamma is
+           torsion-free, being a knot group.  A nonzero count would mean the
+           reduction or the membership test is broken.)
+         OUTSIDE Gamma and NORMALISING it: 590
+D2 PASS  orbifold 2-torsion normalises Gamma.
+
+D3       THE WITNESS, VERIFIED FOUR WAYS
+         (i) FULL conjugation over all 20480 elements, not just generators: g H g^-1 = H is True
+         (ii) EXACT over Z[omega]: det = 1, trace = 0, g^2 = -I is True
+              -> order 2 in PSL, i.e. GENUINE ORBIFOLD 2-TORSION (trace 0).
+         (iii) all witnesses in ONE coset of Gamma: 590 of 590 -> True
+              -> consistent with N(Gamma)/Gamma = Z/2: a single nontrivial class,
+                 and it is REPRESENTED BY 2-TORSION.
+         (iv) geometric: |Isom(m004)| = 8, orientation-preserving part = 4 = Z/4,
+              which has a UNIQUE element of order 2 -- exactly what the deck Z/2
+              must be.  Consistent.
+D3 PASS  four independent checks agree.
+
+D4       WHAT THIS DOES TO PATH B
+         N5(b) said: 'Gamma is not normal, the cover is IRREGULAR, THERE IS NO DECK
+         GROUP AT ALL.'  THE LAST CLAUSE IS TOO STRONG.
+         What is true: the FULL index-12 cover m004 -> H^3/PSL(2,O_3) is irregular,
+         so the orbifold's torsion is not the deck group OF THAT COVER.
+         What is ALSO true, and this arc never looked: the MAXIMAL REGULAR
+         intermediate cover m004 -> H^3/N(Gamma) HAS deck group Z/2, and its
+         nontrivial class IS REPRESENTED BY GENUINE ORBIFOLD 2-TORSION.
+
+         SO PATH B, FULLY RE-AIMED:
+           the orbifold's Z/3  -> POSITIVE as COVERING data (the cusp cross-section
+             S^2(3,3,3), d = 3's alone among all imaginary quadratic fields).
+           the orbifold's Z/2  -> POSITIVE as DECK data (it realises the deck
+             involution of the maximal regular intermediate cover).
+           NEGATIVE only: the FULL index-12 cover is not regular.
+
+         NEITHER TORSION ORDER IS NEGATIVE.  What was negative was this seat's
+         framing, three times over.
+         FENCES THAT STAY: the Z/3 does NOT descend to m004 (B486's rectangular
+           cusp; m004 has no order-3 symmetry) -- so the two orders behave
+           DIFFERENTLY, and that asymmetry is the actual content: THE Z/2 ACTS ON
+           THE OBJECT AND THE Z/3 DOES NOT.  No mechanism, no physics reading, no
+           identification (E82/I-10; xB005 priced that family at 0.58 bits).
+
+==============================================================================
+  D1: PASS
+  D2: PASS
+  D3: PASS
+  D4: PASS
+VERIFIED -- THE ORBIFOLD'S Z/2 IS DECK DATA; NEITHER TORSION ORDER IS NEGATIVE

@@ -1,5 +1,23 @@
 # Changelog
 
+## xB017 ADDENDUM 3 — "still negative both paths on B?" No. Neither torsion order is.
+
+**The third correction to this arc, and the second produced by an owner question.** N5(b) said
+*"there is no deck group at all"* — true of the **full** index-12 cover, **false** of the maximal
+regular intermediate cover `m004 → H³/N(Γ)`, whose deck group is **ℤ/2** with its nontrivial class
+**represented by genuine orbifold 2-torsion**. 1738 exact order-2 elements of `PSL(2,O₃)` enumerated;
+**590 normalise `Γ` and lie outside it; 0 lie inside** (the control). One witness verified four ways.
+
+**Two bugs caught before the verdict:** a test run **mod 4** when `Γ` contains `Γ(8)` (void), and a
+hunt accepting `det ≡ 1 mod 8` instead of exactly (1260 spurious witnesses, 18 % vs 0.7 % expected).
+
+**Path B re-aimed: ℤ/3 POSITIVE (covering), ℤ/2 POSITIVE (deck), negative only that the full cover is
+regular.** The fences stay and are the content: **the ℤ/2 acts on m004 and the ℤ/3 does not.**
+
+> Threefold now: a negative stated more broadly than what was tested. **A kill must say at which
+> LEVEL it holds.**
+
+
 ## xB017 ADDENDUM 2 — "are u sure about b": I was not. Path B SPLITS.
 
 **Two errors, both in this arc's own headline claims.** **(1)** N4 called the `d = 3` distinction

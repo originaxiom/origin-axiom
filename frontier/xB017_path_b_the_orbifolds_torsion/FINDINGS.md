@@ -1,3 +1,12 @@
+> **ADDENDUM 3, 2026-09-17 — §5's N5(b) IS CORRECTED TOO. NEITHER TORSION ORDER IS NEGATIVE.**
+> N5(b) said *"there is no deck group at all."* **Too strong.** True of the **full** index-12 cover;
+> **false** of the maximal regular intermediate cover `m004 → H³/N(Γ)`, whose deck group is **ℤ/2**
+> — and **its nontrivial class is represented by genuine orbifold 2-torsion** (590 exact order-2
+> elements of `PSL(2,O₃)` normalise `Γ` and lie outside it; one verified four ways, with **0 of 1738
+> inside `Γ`** as the control). **So the ℤ/3 is positive as covering data and the ℤ/2 is positive as
+> deck data; only "the full cover is regular" is negative.** The fences stay: **the ℤ/2 acts on m004
+> and the ℤ/3 does not** — that asymmetry is the content.
+
 > **ADDENDUM 2, 2026-09-17 — THIS FILE'S HEADLINE AND ITS N4 ARE BOTH CORRECTED. READ IT FIRST.**
 > The owner asked *"are u sure about b"*. **I was not.** **(i)** N4's *"those are one fact … A6
 > restated"* **overreached**: "ramified only at 3" and "minimal `|D|`" are different properties that

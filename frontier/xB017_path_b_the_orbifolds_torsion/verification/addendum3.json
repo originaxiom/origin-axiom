@@ -1,0 +1,25 @@
+{
+ "D1": {
+  "image_mod8": 20480,
+  "psl_index": 12
+ },
+ "D2": {
+  "exact_order2_found": 1738,
+  "inside_gamma": 0,
+  "witnesses": 590
+ },
+ "D3": {
+  "full_conjugation": true,
+  "det": "1",
+  "trace": "0",
+  "g2_is_minus_I": true,
+  "single_coset": true,
+  "isom_order": 8
+ },
+ "D4": {
+  "z3": "POSITIVE (covering)",
+  "z2": "POSITIVE (deck, intermediate)",
+  "negative": "only that the full index-12 cover is regular",
+  "asymmetry": "Z/2 acts on m004; Z/3 does not"
+ }
+}
