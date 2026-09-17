@@ -121,16 +121,33 @@ no zero hypercharge.
   realising nothing, 3 realising the full set** — m004, s726, s912 — with **no residual category**.
   Exactly the manuscript's three numbers. ✔
 - **Ten** exceptional fillings; **78** closed hyperbolic fillings in the |p|,q ≤ 8 grid; the mirror
-  isometry m004(p,q) ≅ m004(−p,q) holds for every coprime pair in the grid (re-verified, not assumed);
-  and **none of the 78** keeps ℚ(√−3) — nor ℚ(√5) nor ℚ(√−15) — with the open object as a positive
-  control. ✔
-- m004(±5,1) has volume **0.981368828892** — the Meyerhoff manifold's — and the mirror isometry
-  m004(5,1) ≅ m004(−5,1) holds. Of the field data I verified the *arithmetic* directly: PARI gives
-  **disc(x⁴ − x − 1) = −283**, and that quartic has **no proper subfield**, so it cannot contain
-  ℚ(√−3). The *attachment* of x⁴ − x − 1 to this slope, and of the cubics of discriminant −59 and
-  −31 to (±6,1) and (±8,1), I read from the record's tracked census log rather than recomputing
-  (§4.1); my own independent shape-field computation for these three slopes did not finish, and I
-  flag that rather than let the row read as fully re-derived.
+  isometry m004(p,q) ≅ m004(−p,q) holds for every coprime pair in the grid (re-verified, not
+  assumed). ✔
+- **"No closed filling keeps ℚ(√−3)" — verified in the weak sense for all 78, in the strong sense
+  for 10.** Two different tests, and the difference matters, so I give both. (i) *Does any of the 78
+  have all its tetrahedron shapes in ℚ(√−3)?* **No** — nor in ℚ(√5) or ℚ(√−15) — with the open
+  object as a positive control. That rules out the shape field *equalling* ℚ(√−3). (ii) *Does any of
+  the 78 have ℚ(√−3) as a **subfield** of its shape field?* This is the test the claim actually needs,
+  since the invariant trace field sits inside the shape field. **No** — but I could only pin the
+  shape field for **10 of the 78** at SnapPy's quad-double precision; the other 68 have fields of
+  degree up to 31 and need the 800–2000-bit Sage computation the record itself used. So for those 68
+  I confirm the record's accounting (§4.1) rather than the field computation. I flag this rather than
+  let one ✔ cover two different strengths of evidence.
+- **The three arithmetic slopes, re-derived.** For a *filled* manifold the shape field is generally
+  strictly larger than the invariant trace field, which sits inside it — so the field must be found
+  as a **subfield**, not as the shape field itself. Doing that (minimal polynomials pinned with a
+  coefficient bound, then `nfsubfields`, with the open object as a control returning
+  `x² − x + 1`, disc −3):
+
+  | slope | shape field | its proper subfield | claimed |
+  |---|---|---|---|
+  | m004(5,1), vol 0.981368828892 | degree 8, disc 2 963 293 | degree 4, **disc −283**, isomorphic to **x⁴ − x − 1** | x⁴ − x − 1, −283 ✔ |
+  | m004(6,1) | degree 6, disc −55 696 | degree 3, **disc −59**, isomorphic to **x³ + 2x − 1** | −59 ✔ |
+  | m004(8,1) | degree 6, disc −10 571 | degree 3, **disc −31**, isomorphic to **x³ + x − 1** | −31 ✔ |
+
+  In each case the claimed field is the *unique* proper subfield, so the attachment is forced. The
+  volume of (±5,1) is the Meyerhoff manifold's, and the mirror isometry m004(5,1) ≅ m004(−5,1)
+  holds. ✔
 - The symplectic self-duality lemma — `JρJ⁻¹ = (ρ⁻¹)ᵀ` iff `det ρ = 1` — verified symbolically. ✔
 - The "hollow texture" no-go: a 3 × 3 complex symmetric matrix with zero diagonal has
   `σ₁ = σ₂ + σ₃` **exactly**. Verified to machine precision on 20 000 random matrices. This is a

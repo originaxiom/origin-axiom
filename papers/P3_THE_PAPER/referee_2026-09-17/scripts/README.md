@@ -43,3 +43,20 @@ orientation-blind and reports all 87 covers as amphichiral. `v5_chirality.py` us
 tests — `SymmetryGroup.is_amphicheiral()`, and the existence of an isometry to the mirror all of whose
 cusp maps have determinant +1 — checks they agree on all 87, and validates them against classical
 controls (m004 and 4₁ amphichiral; m015, m006, 5₂ chiral).
+
+## A late addition
+
+`v28_subfields.py` was added after a first attempt at the arithmetic fillings failed. The lesson is
+worth recording because it is the same one B1419 records (E82): **the instrument has to match the
+domain.** For an ideally triangulated *cusped* manifold the invariant trace field IS the shape field
+(Neumann–Reid), so `algdep` on the shapes settles it. For a *Dehn-filled* manifold it is not — the
+shape field is strictly larger and the invariant trace field is a **subfield** of it. Testing the
+filled slopes as though they were cusped returns degree 8 and degree 6 fields and an apparent
+mismatch with the paper; testing them as subfields returns the claimed quartic and cubics exactly,
+as the unique proper subfield in each case.
+
+A second caution in the same script: at SnapPy's ~60-digit precision `algdep` returns a spurious
+relation at *every* degree, with coefficients of size 10^40 and residuals as small as 1e-21. A
+residual threshold alone will therefore accept a wrong answer. `minpoly()` here bounds the
+coefficients as well, and the open object is carried through as a positive control
+(`x^2 - x + 1`, disc −3).
