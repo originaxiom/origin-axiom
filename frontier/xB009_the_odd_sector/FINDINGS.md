@@ -6,6 +6,13 @@
 **Short by instruction:** the owner has ruled that a negative is not a deliverable, and the seal
 committed this arc to one paragraph if it came back empty. It came back empty. Gate 5 untouched.
 
+> ### CORRECTION 2026-09-17 — **the headline over-reached; see `xB011`.** The owner asked whether
+> the odd sector had been checked on the **family** or on **m004 alone**. It was m004 alone. xB011 ran
+> the whole `ℚ(√−3)` commensurability class: **every chiral member keeps `√−3`, at even n as well as
+> odd** (8/8, plus 8/8 chiral knot complements). **The m004 result below STANDS** — xB011 reproduced it
+> independently — but *"the odd sector is not the door"* is false as a statement about the sector, and
+> the odd/even axis was never the operative one: **chirality is.** The E70 shape, caught by the owner.
+
 ## The result against the sealed criteria
 
 | cell | sealed criterion | outcome |

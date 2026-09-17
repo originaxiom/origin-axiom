@@ -3,6 +3,14 @@
 **Status: banked — an exact result + an honest correction of a merged overclaim. The cross-chat
 catch was RIGHT. Firewalled: named mathematics, no physics; the emergence bar is NOT cleared.**
 
+> ### SCOPE NOTE 2026-09-17 (xB011) — **the cancellation is an AMPHICHIRALITY artefact.**
+> B425's computations are **reproduced exactly** by an independent instrument (generic Fox calculus on
+> SnapPy's presentation, Wada-normalised), **including at odd exponents B425 never ran** — nothing here
+> is disputed. What is **scoped** is the generality of *"√−3 cancels in every determinant"*: it holds at
+> `ρ_geo` of `4₁` **because `4₁` is amphichiral**. Across m004's `ℚ(√−3)` commensurability class **all 8
+> chiral members keep `√−3` at every exponent**, as do all 8 chiral knot complements tested. Amphichirality
+> does **not** imply cancellation either (5 amphichiral members are complex). See `frontier/xB011_the_family_odd_sector/`.
+
 ## The catch (verified)
 
 B423 computed τ_m = det(I − Sym^{2m}(A)) with **A = [[2,1],[1,1]]** — the figure-eight's

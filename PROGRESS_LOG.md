@@ -15834,3 +15834,34 @@ Owner instruction, 2026-09-17: *"always sweep the repo to see if what you plan t
 **Scope, narrowed in the seal rather than silently:** *redo everything the planned work touches or leans on, and declare anything you did not redo and why.* "Redo all 1248 arcs" is not a rule anyone can follow, and a rule nobody can follow is not read.
 
 **Mechanism.** `rederived: [{arc, outcome, what|why}]` in `arc_verdict.json`, outcome in **CONFIRMED · CORRECTED · SCOPED · NOT_RERUN**, read by `gate_rederivation` (`scripts/checks/rederivation.py`), bound by `docs/REDERIVATION_ROSTER.json`, locked by `tests/test_xb010_rederivation.py` (8 assertions). **Completeness, never judgment.** This seat proposes it on its own branch; landing it on `main` is `cc`'s call. Instrument; `creates_law` false; Gate 5 absolute.
+
+## 2026-09-17 — xB011 THE OWNER'S CATCH WAS RIGHT: B425's "√−3 cancels" is an AMPHICHIRALITY ARTEFACT, and xB009 tested the one object where the question is degenerate
+
+Owner's catch: *"have you checked the odd sector only for m004 or for the whole family of objects?"* **Answer: m004 only.** xB009's O2 ran B425's Fox calculus on the figure-eight relator **alone** and O3/O4 compared **two** manifolds, yet its headline claimed the **sector** — the **E70** shape. **PREREGISTRATION sealed (sha256 `642ccf4ec840523d57684102d72548b1d5da3836fcac13859ae59ccf7d2b2484`) and PUSHED at `4b16b19` BEFORE any cell ran.**
+
+**Three defects of this seat's own, caught by F1's controls before any verdict.** (1) The **un-normalised Fox determinant is not an invariant** — B425's own guard section says so; Wada normalisation added. (2) The **abelianisation is not the total exponent sum**: SnapPy's m004 relator `aaabABBAb` has exponent vector `(a:1, b:0)`, so `α` must send **a↦0, b↦1**; computed from the relator kernel now. (3) **SnapPy's `SL2C` lift sends the m004 relator to `−I`, not `+I`**, so `Sym^odd ∘ ρ` **is not a representation** for that lift and every odd-n number from it is **void** — repaired over `𝔽₂`. This is xB009's O1 ℤ/2 biting in practice, and it is why a first numerical pass appeared to contradict B425. **B425 was right; the instrument was wrong.**
+
+**F1 PASS.** The repaired instrument reproduces B425's **exact** values at `n = 0,1,2,3` up to the unit `−1` — **including at odd n, which B425 never ran** — so **xB009's m004 finding is independently CONFIRMED**.
+
+**F2.** The `ℚ(√−3)` commensurability class: **16 usable of 21** (5 excluded for `H₁` rank 2, i.e. two cusps — **reported, not dropped**).
+
+**F3 — one way, and only one way.**
+
+| | at n = 1…4 |
+|---|---|
+| **chiral (8)** | `√−3` **survives**, all of them, **no exception** |
+| **amphichiral (8)** | real at **all** n: `m004` · real at **even only**: `m003`, `s955` · **complex everywhere**: `m206`, `m207`, `s957`, `s960`, `s961` |
+
+> **CHIRAL ⟹ `√−3` SURVIVES.** The converse is **false** — amphichirality does **not** imply cancellation.
+
+**So B425's *"√−3 cancels in every determinant"* is an AMPHICHIRALITY ARTEFACT, not a general fact, and xB009's headline was the over-reach the owner suspected: correct for m004, false as a statement about the sector.** On chiral members the Eisenstein content survives **at even n as well as odd** — so the odd/even axis xB009 was testing was **never** the operative one. **Chirality is.**
+
+**F4 PASS — the lift control.** For odd n the invariant depends on which of the two lifts is used; realness is **stable** under exchanging them, so it is a property of the manifold, not of the choice.
+
+**F5 PASS — and it closes the hope this arc raised.** F2 showed m004 as the **unique** member real at every n (1 of 16), which looked like a **second selector** — arithmetic, where xB007's only one (`H₁`) is homological. But m004 is also the only `H₁ = ℤ` member of its class, so realness might merely track knot-ness. Testing other knot complements: **`6₃` is also amphichiral and also real at every n**, exactly like m004, while every chiral knot tested is complex. **Realness tracks AMPHICHIRALITY ∧ KNOT-NESS — both already in the record. m004 is not unique, this is not a new selector, and xB007's "`H₁` is the only selector" STANDS.**
+
+**A first draft of F3 printed *"chirality controls it"*** on the strength of the chiral column alone. The table does not support that — five amphichiral members are complex everywhere — and the claim was **narrowed to the direction the data shows**.
+
+**Corrections landed elsewhere**, as the seal required: **B425 SCOPED** (its computations reproduced **exactly** and **not** disputed; only the generality of its cancellation claim is scoped to amphichiral) and **xB009 CORRECTED** (m004 result stands; sector claim does not) — dated banners on both.
+
+Census cutoff 6 tetrahedra; the class is infinite and this is a finite sample. The base rate outside the class is measured only on the 10 knot complements of F5 — a pattern without exception in 16 + 10 cases, **not** established as a theorem. Gate 5 absolute: no value, no generation count, nothing promoted to `CLAIMS.md`. Five cells, each asserting its own mathematics.
