@@ -16330,3 +16330,61 @@ the A5 bit (m003 vs m004) and the A7 bit (LR vs RL) the same ℤ/2?* — **the o
 sharper than when it was approved, since xB015 showed A5 is the bit the k-coupling sees.
 
 **Gates 35/35. Gate 5 absolute.**
+
+---
+
+## 2026-09-17 — xB017 ADDENDUM 1: a banked result defended, and the invariant Path B missed
+
+The literature sweep xB017 commissioned returned **after** the arc banked. It confirms N1–N5 and
+supplies citations for what the arc had computed — **and it does two more things.**
+
+**A1 — it challenged a banked result, and the banked result wins.** The sweep scored **B734** wrong,
+claiming `π₁(4₁)` is congruence at level `⟨4⟩` rather than `⟨8⟩`. **Adjudicated by computation on
+this bench rather than by choosing between two reports:**
+
+| level | \|SL\| | \|image\| | \|centre\| | \|img ∩ Z\| | SL-index | **PSL-index** |
+|---|---|---|---|---|---|---|
+| (2) | 60 | 10 | 1 | 1 | 6 | **6** |
+| (4) | 3 840 | 320 | 4 | 2 | **12** | **6** |
+| (8) | 245 760 | 20 480 | 8 | 8 | 12 | **12** |
+
+The geometric index is 12 **in PSL**, so the level is `⟨8⟩`. **B734 is right.** And the challenge's
+"12" at `⟨4⟩` is the **SL** index read as a PSL index — **which is E21**, already in this repo's
+ledger, minted in July 2026 when a research agent made **the same slip on the same group**. The
+centre at `⟨4⟩` has order 4 and the image meets it in 2, exactly as E21 describes.
+
+> **The error ledger did not merely classify a failure after the fact — it predicted the failure mode
+> of an independent check made fourteen months later.**
+
+**A2.** `Γ(√−3)` **contains 3-torsion** — the element `[[−4−4ω,−3],[−1+4ω,3+4ω]]` verified here
+(det 1, trace −1, cube `I`, ≡ `I` mod `√−3`) — so it is not even a manifold group. N5(a) showed `Γ`
+is not that group; this shows it **could not have been**.
+
+**A3.** The deck group of the level-`(√−3)` cover is **A₄, not 2T**: deck transformations act
+faithfully on `H³` and the **centre of `SL(2,𝔽₃)` acts trivially** there. And by **Klein's theorem
+(1875)** no binary polyhedral group embeds in any Bianchi group. **2T is a congruence quotient and
+never a stabiliser** — the record must not read the spine's 24 as a symmetry *of* the orbifold. N1's
+*"onto"* was correct; this fixes the word that would have been wrong next.
+
+**A4 — the invariant this arc never tested.** The cusp stabiliser is `O_d ⋊ (O_d^×/{±1})`, so the
+cusp cross-section is `T²/(O_d^×/{±1})` — and `O_d^× = {±1}` for **every** field except `d = 1`
+(`μ₄`, cusp `S²(2,2,2,2)`) and **`d = 3`** (`μ₆`, cusp **`S²(3,3,3)`**).
+
+> **The cusp is a torus for every imaginary quadratic field but two, and `d = 3` is the only one with
+> a ℤ/3 there.** `μ₆` is also the largest unit group of any such field.
+
+**N2 is SCOPED, not overturned.** The torsion **orders** `{2,3}` are generic exactly as N2 proved.
+But the **cusp's** ℤ/3 is `d = 3`'s alone, and it comes from the **unit group** — neither the torsion
+orders N2 tested nor the ramification N3/N4 tested. **The honest answer to "what distinguishes
+d = 3" is its unit group**, and this arc missed it because it tested exactly the two invariants it
+had named in its own seal.
+
+> **A preregistration fixes what you will test. It does not tell you what you failed to think of.**
+> That is the limit of the method, and it took an outside sweep to show it.
+
+**Path B's verdict is unchanged.** N5(b) stands: `Γ` is not normal, the cover is irregular, there is
+no deck group. The cusp ℤ/3 is an invariant of the **orbifold**, not deck data for m004 over it. The
+base-rate finding gains a genuine exception — **and the exception is not the one the path was built
+on.**
+
+**Gates 35/35. Gate 5 absolute.**

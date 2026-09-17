@@ -1,3 +1,15 @@
+> **ADDENDUM 1, 2026-09-17 — READ IT BEFORE THIS FILE.** The commissioned literature sweep returned
+> after this arc banked. It **confirms N1–N5 and supplies citations** for what the arc computed — and
+> it does two more things. **(i) It challenged B734's congruence level; adjudicated BY COMPUTATION on
+> this bench, B734 is RIGHT and the challenge is an E21 instance** (an SL index read as a PSL index —
+> the same slip the ledger recorded on the same group in July 2026). **(ii) It named an invariant
+> this arc never tested: the UNIT GROUP.** `O_d^× = {±1}` for every `d` but two, and `d = 3`'s `μ₆`
+> gives the Bianchi orbifold a cusp cross-section `S²(3,3,3)` where every other field but `d = 1` has
+> a torus. **§2's N2 is SCOPED, not overturned** — the torsion *orders* are generic as proved, but
+> **the cusp's ℤ/3 is d = 3's alone**, and it is neither the torsion orders nor the ramification this
+> arc tested. **Path B's verdict is unchanged** (N5(b) stands: no deck group), but the honest answer
+> to *"what distinguishes d = 3"* is its **unit group**, and this arc missed it.
+
 # xB017 — PATH B: the torsion is every Bianchi group's, the deck frame is refuted, and d = 3's distinction is axiom A6 restated
 
 **Seat `xb`, `sep16-branch`, 2026-09-17. PREREGISTRATION sealed `82134f36…` and PUSHED at `451a0ee`

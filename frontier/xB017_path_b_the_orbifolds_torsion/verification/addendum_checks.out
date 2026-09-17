@@ -1,0 +1,74 @@
+A1       ADJUDICATING A CHALLENGE TO A BANKED RESULT, BY COMPUTATION
+         B734 (two-seat, banked): congruence level (2)^3 = (8); PSL-index 6 at (4).
+         The sweep: congruence level exactly (4); 'index 12' at (4).
+           level (2): |SL| =     60  |image| =    10  |centre| = 1  |img n Z| = 1  SL-index =  6  PSL-index =  6
+           level (4): |SL| =   3840  |image| =   320  |centre| = 4  |img n Z| = 2  SL-index = 12  PSL-index =  6
+           level (8): |SL| = 245760  |image| = 20480  |centre| = 8  |img n Z| = 8  SL-index = 12  PSL-index = 12
+
+         THE GEOMETRIC INDEX IS 12 IN PSL, so the congruence level is the smallest
+         ideal whose PSL-index reaches 12 -- which is (8), NOT (4).
+         B734 IS RIGHT AND THE CHALLENGE IS WRONG: True
+         AND THE CHALLENGE'S '12' AT LEVEL (4) IS THE **SL** INDEX (12), read as a
+         PSL index.  THAT IS E21, ALREADY IN THIS REPO'S ERROR LEDGER -- minted in
+         July 2026 when a research agent made the SAME slip on the SAME group:
+         'a congruence/index conclusion over PSL(2,.) must quotient by the FULL
+         centre of SL(2,O/I), not read the SL image index.'  The centre at level (4)
+         has order 4 and the image meets it in 2, exactly as E21 says.
+A1 PASS  a banked result DEFENDED against an outside check, by the repo's own
+         bookkeeping rule, recomputed here rather than adjudicated between reports.
+
+A2       Gamma(sqrt-3) IS NOT EVEN A MANIFOLD GROUP (strengthens N5a)
+         M = [[-4-4w, -3], [-1+4w, 3+4w]]:  det = 1, trace = -1, M^3 = I: True
+         M mod (sqrt-3) = [[1, 0], [0, 1]]  == I: True
+A2 PASS  Gamma(sqrt-3) CONTAINS AN ORDER-3 ELEMENT, so it is not
+         torsion-free and H^3/Gamma(sqrt-3) is an ORBIFOLD, not a manifold.  N5(a)
+         showed Gamma is not that group; this shows it COULD NOT HAVE BEEN.
+         (The sweep also computes 4 cusps for it -- not re-verified here, flagged.)
+
+A3       2T IS A CONGRUENCE QUOTIENT, NEVER A STABILISER -- a sharpening
+         |SL(2,F_3)| = 24 = |2T|;  |PSL(2,F_3)| = 12 = |A_4|
+         The deck group of H^3/Gamma(sqrt-3) -> H^3/PSL(2,O_3) acts FAITHFULLY on H^3,
+         and the CENTRE of SL(2,F_3) acts TRIVIALLY there -- so the deck group is
+         PSL(2,F_3) = A_4 of order 12, NOT SL(2,F_3) = 2T of order 24.
+         AND BY KLEIN'S THEOREM (1875) no binary polyhedral group embeds in
+         PSL(2,O_d) at all: the finite subgroups are 1, Z/2, Z/3, D_2, D_3, A_4.
+         So 2T occurs as a CONGRUENCE QUOTIENT and never as an isotropy group.
+A3 PASS  the record should not read the spine's 24 as a symmetry OF the orbifold;
+         it is the order of a quotient.  xB017's N1 said 'onto', which is correct;
+         this fixes the WORD that would have been wrong next.
+
+A4       THE INVARIANT xB017 DID NOT TEST -- AND IT DOES SINGLE OUT d = 3
+           d =   1  |O_d^x| = 4   O^x/{+-1} = Z/2   cusp cross-section = S^2(2,2,2,2)
+           d =   2  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =   3  |O_d^x| = 6   O^x/{+-1} = Z/3   cusp cross-section = S^2(3,3,3)
+           d =   5  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =   6  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =   7  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =  11  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =  15  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =  19  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =  23  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =  31  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =  43  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d =  67  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+           d = 163  |O_d^x| = 2   O^x/{+-1} = Z/1   cusp cross-section = T^2
+
+         The cusp stabiliser in PSL(2,O_d) is O_d rtimes (O_d^x/{+-1}), so the cusp
+         cross-section is T^2 / (O_d^x/{+-1}).  O_d^x = {+-1} for EVERY d except
+         d = 1 (mu_4) and d = 3 (mu_6).
+         => the cusp is a TORUS for every field but two, and d = 3 is the ONLY one
+            with a Z/3 there.  mu_6 is also the LARGEST unit group of any
+            imaginary quadratic field.
+A4 PASS  xB017's N2 IS SCOPED, NOT OVERTURNED.  The torsion ORDERS {2,3} are
+         generic, exactly as N2 proved.  But THE CUSP'S Z/3 IS NOT: it is d = 3's
+         alone, and it comes from the UNIT GROUP, which is neither the torsion
+         orders N2 tested nor the ramification N3/N4 tested.  THE HONEST ANSWER TO
+         'WHAT DISTINGUISHES d = 3' IS ITS UNIT GROUP mu_6 -- and xB017 missed it
+         because it tested the two invariants it had named in its own seal.
+
+==============================================================================
+  A1: PASS
+  A2: PASS
+  A3: PASS
+  A4: PASS
+VERIFIED -- B734 DEFENDED, N5(a) STRENGTHENED, N2 SCOPED

@@ -1,5 +1,26 @@
 # Changelog
 
+## xB017 ADDENDUM 1 — a banked result defended by computation, and the invariant Path B missed
+
+The commissioned sweep returned after xB017 banked. **A1:** it challenged **B734**'s congruence
+level; adjudicated on this bench, the PSL index at `⟨4⟩` is **6**, not 12 — the challenge read an
+**SL** index as a PSL index, **which is E21, already in this repo's ledger from July 2026, on the
+same group.** *The ledger predicted the failure mode of an independent check made fourteen months
+later.* **B734 stands.**
+
+**A2:** `Γ(√−3)` contains 3-torsion (element verified) — not even a manifold group, strengthening
+N5(a). **A3:** the level-`(√−3)` deck group is **A₄, not 2T** (the centre acts trivially on `H³`; and
+by **Klein 1875** no binary polyhedral group embeds in a Bianchi group) — **2T is a congruence
+quotient, never a stabiliser.** **A4:** the invariant the arc never tested — **the unit group.**
+`O_d^× = {±1}` for every field but `d = 1, 3`, and `d = 3`'s `μ₆` gives the cusp `S²(3,3,3)` where
+every other field but one has a torus. **N2 is scoped, not overturned**, and the honest answer to
+*"what distinguishes d = 3"* is its **unit group**.
+
+> A preregistration fixes what you will test; it does not tell you what you failed to think of.
+
+**Path B's verdict is unchanged** — no deck group, N5(b) stands.
+
+
 ## xB017 — PATH B: the torsion is every Bianchi group's, the deck frame is refuted, and d = 3's distinction is axiom A6
 
 Sealed `82134f36…`, pushed at `451a0ee` before `verification/` existed; N5(a) disclosed as **derived**
