@@ -5667,3 +5667,58 @@ before its `verification/` directory existed, with the pushing commit named in t
 - [>] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26 (owner: the owner) (carried from R57)
 
 **anchor-commit: pending**
+
+---
+
+## CORRECTION TO REVIEW 58 (2026-09-18, same day, seat `xb`) — appended, not edited, per append-only
+
+**R58-4 commissioned an audit of the window's unread arcs. The audit's first finding is that
+Review 58's own §2 counts are WRONG, and wrong in the direction that UNDERSTATED its coverage.**
+
+| Review 58 §2 said | the truth |
+|---|---|
+| *"71 new arc directories"* | **37.** The 71 counts directories that gained **any added file** — including **34 pre-existing arcs** that received addenda or harvest edits. Only 37 had an `arc_verdict.json` newly added. |
+| *"12 read in full"* | **28.** All of `xB001`–`xB028` were banked in this window, not just `xB017`–`xB028`; the earlier sixteen are this seat's own and were read as they were written. |
+| *"59 not read"* | **9** — exactly `B1410`–`B1418`. |
+
+**And a worry this seat raised and then disproved rather than reported:** whether the declared window
+spanned a branch divergence. It does not — `efa5fd46` **is** an ancestor of `HEAD`, verified. The
+older *author dates* on some in-window verdicts are cherry-pick/harvest artefacts, not evidence of a
+dirty window. **Recorded because a disproved worry is worth as much as a confirmed one.**
+
+**R58-4 IS NOW CLOSED, by reading rather than by re-measuring.** Of the nine, `B1411`–`B1417` were
+already read at verdict level this window (the `VERIFIED`-vocabulary defect) and `B1413`'s findings
+in depth (R27). The two genuinely unopened — **`B1410`** and **`B1418`** — are read here.
+
+**What reading them produced — a SCOPE QUALIFICATION this seat owes its own xB027.**
+
+> **B1418** reports, on `t12835`: *"177 of 3110; **|I| up to 2**"*.
+
+xB027 found the generation count fixed at **one** on both towers, bounded by `h¹(χ²) = 1` at **every**
+locus of both. **`t12835` is a commensurability-class member, not a tower level** — and there the
+index reaches **2**. So:
+
+- **The `|I| ≤ 1` bound is a TOWER property, not a family property.** xB027's headline is correct as
+  stated (it was explicitly about the two towers) and its **reach is narrower than a reader might
+  take it**: on the wider family the index does exceed one.
+- **This does NOT say the generation count exceeds one anywhere.** `|I|` is the index of a *single
+  doublet module*; the generation count requires **five sectors firing together**. B1418 reports no
+  generation-shaped background for `t12835`. **Conflating the two would be exactly the
+  identification error this record names most often, and it is not made here.**
+- It is **consistent** with the paper lane's own draft `B1377`, which bounds `|I| ≤ 2` on the tower;
+  `h¹(χ²) = 1` makes `≤ 1` the tower's sharper fact.
+
+**A second finding, and the correction is again to this seat.** Auditing `authored_by` across all
+arcs: **126 well-formed seat ids, 956 prose, 194 empty or missing.** This seat first read the prose
+values as malformed — **that was wrong, and it is precisely the "mismatched hypothesis" class
+proposed in §4**: prose is the corpus's **actual convention** (956 of 1276), and an enum was being
+imposed that the record never used. **The real finding is the 194 empty ones** — arcs with **no
+provenance recorded at all** — and the reason nothing catches them is that
+`tests/test_arc_verdict_schema.py`'s `REQUIRED` set is `{id, verdict, claim_one_line, instrument}`:
+**`authored_by` is not checked.**
+
+### Action items (Correction to Review 58)
+
+- [x] R58-4 (done 2026-09-18, same day, by reading): the window's unread arcs are **9**, not 59; `B1410` and `B1418` read here, the rest already read this window (owner: xb; source: Review 58 §2)
+- [ ] R58-5: record on `xB027` that its `|I| ≤ 1` result is a **tower** property — `B1418` finds `|I|` up to **2** on `t12835`, a family member — **without** conflating a single module's index with the five-sector generation count (owner: xb; source: this correction)
+- [ ] R58-6: **194 arcs carry an empty or missing `authored_by`** and the schema gate does not check the field. Either require it from a stated arc number on (as `creates_law` and `identifications` already are) or declare the field advisory (owner: unassigned; source: this correction)

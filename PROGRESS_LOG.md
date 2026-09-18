@@ -17352,3 +17352,52 @@ twice, for **silently dropping seven carried keys** (`ex-R54-1`, `ex-R54-2`, `ex
 honest** — which is the best evidence in this review that the machinery works.
 
 **Nothing to `CLAIMS.md`. Gate 5 absolute.**
+
+---
+
+## 2026-09-18 — R58-4's AUDIT: the review's own counts were wrong, and reading two arcs qualified xB027
+
+**Review 58 commissioned R58-4 (the window's unread arcs). The audit's first finding was against the
+review that commissioned it.** Corrected **by append** in `docs/progress/REVIEWS.md`, per append-only.
+
+| Review 58 §2 said | the truth |
+|---|---|
+| 71 new arcs | **37** — the 71 counted directories that gained **any** added file, including **34 pre-existing arcs** that received addenda |
+| 12 read in full | **28** — all of `xB001`–`xB028` were banked in this window |
+| **59 not read** | **9** — exactly `B1410`–`B1418` |
+
+**The review understated its own coverage by a factor of six.** And a worry this seat raised and then
+**disproved rather than reported**: the window does **not** span a branch divergence — `efa5fd46`
+**is** an ancestor of `HEAD`. The older author dates are cherry-pick artefacts. **Recorded, because a
+disproved worry is worth as much as a confirmed one.**
+
+**R58-4 CLOSED by reading, not by re-measuring.** `B1411`–`B1417` were already read this window;
+**`B1410` and `B1418`** are read here.
+
+### And reading B1418 qualified xB027 — filed as R58-5, addendum banked
+
+> **B1418, on `t12835`: *"177 of 3110; |I| up to 2"*.**
+
+`t12835` is a **commensurability-class member, not a tower level**. So **the `|I| ≤ 1` bound xB027
+identified is a TOWER property, not a family property** — on the wider family the index **does**
+exceed one. xB027's scope line already said "levels 2–4 on both towers", so nothing is refuted; what
+is corrected is **the reach a reader would give the headline**.
+
+**And the converse over-reading is refused in the same breath:** `|I|` is a **single module's**
+index; the generation count needs **five sectors firing together**; **B1418 reports no
+generation-shaped background on `t12835`**. Concluding "the family has a count above one" from
+`|I| = 2` would be the identification error this record names most often. **Not drawn.**
+
+Consistent with the lane's draft **B1377** (`|I| ≤ 2` on the tower): `h¹(χ²) = 1` makes **≤ 1 the
+tower's sharper fact**, and B1418 shows **2 is not slack in general**.
+
+### A second finding, and the correction is again to this seat
+
+Auditing `authored_by` corpus-wide: **126 well-formed, 956 prose, 194 empty or missing.** This seat
+first read the prose as malformed — **wrong, and precisely the "mismatched hypothesis" class it had
+just proposed**: prose is the corpus's **actual convention** (956 of 1276) and an enum was being
+imposed that the record never used. **The real finding is the 194 empty ones**, and nothing catches
+them because `REQUIRED = {id, verdict, claim_one_line, instrument}` — **`authored_by` is not
+checked.** Filed **R58-6**.
+
+**Gates 35/35. Nothing to `CLAIMS.md`.**
