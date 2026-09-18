@@ -1,0 +1,71 @@
+
+------------------------------------------------------------------------------
+ THE QUESTION -- are memo 233's derived condition and B1357's computed one the SAME statement?
+------------------------------------------------------------------------------
+  memo 233 (derived, from the sum rule + rep theory of Z/3 on R^{b_2}):
+    a Z/3 that PERMUTES the apexes and FIXES w gives equal charges, so
+    3q = 0, q = 0, NO INFLOW.  Escape needs b_2 >= 2 AND the Z/3 moving
+    the harmonic forms.
+
+  B1357 (computed, on the object's own compact flat G_2 orbifold):
+    "left (a b_2 >= 2 with the deck acting irreducibly) is decided in the
+     flat class: the irreducible occurs only on 3-forms"
+    with cover b_2 = 2, b_3 = 10; descent b_2 = 2, b_3 = 4; and
+    "the deck's irreducible occurs on four of the cover's ten 3-forms and
+     ON NO 2-FORM".
+
+  Same condition, two routes, neither citing the other.
+
+------------------------------------------------------------------------------
+ THE ELEMENTARY FACT BEHIND THE CURVED CASE (B1356/B1357's, reproduced here)
+------------------------------------------------------------------------------
+  THREE apexes permuted FREELY by Z/3 carry the permutation
+  representation of Z/3 on R^3.  Its character is chi = (3, 0, 0).
+    character of the free 3-orbit: (3, 0, 0)
+    multiplicity of the TRIVIAL rep: 1
+    remaining dimension (the SUM-ZERO subspace): 2
+    -> R^3 = (trivial) (+) (2-dimensional irreducible), and the
+       SUM-ZERO part IS the irreducible: the deck acts on it by rotation.
+    So a FREE 3-orbit of apexes supplies, by construction, exactly the
+    thing the flat class was computed NOT to have.
+
+------------------------------------------------------------------------------
+ CONTROL -- the routine MUST be able to report NO irreducible (memo 164)
+------------------------------------------------------------------------------
+  a Z/3 acting TRIVIALLY on three points (three fixed orbits of
+  size 1) must come back as 3 x trivial, carrying NO irrep:
+    character: (3, 3, 3)   trivial multiplicity: 3   irrep dimension: 0
+  and a single fixed point must be 1 x trivial:
+    character: (1, 1, 1)   trivial multiplicity: 1   irrep dimension: 0
+
+------------------------------------------------------------------------------
+ CONTROLS
+------------------------------------------------------------------------------
+  PASS   free 3-orbit: R^3 = trivial (+) 2-dim irrep
+  PASS   CONTROL -- trivial action reports NO irrep
+
+------------------------------------------------------------------------------
+ A6, RETAGGED
+------------------------------------------------------------------------------
+  WAS (memo 235):  GENUINELY OPEN -- "not computable: it lives on an
+                   object nobody has built".   WRONG.
+
+  IS:   FLAT CLASS + ITS JOYCE RESOLUTION -- COMPUTED, AND FAILING.
+          b_2 = 2 after resolution, so the FIRST clause is satisfied; but
+          the deck acts TRIVIALLY on both added 2-forms, so the SECOND
+          clause fails.  B1357, stage 7.
+        CURVED CLASS -- OPEN, with the mechanism named: the U(1)^2 "must be
+          born with the curved apexes", the local b_2(link) = 1 class at
+          each cone over CP^3/2T (B1355), extended in the sum-zero
+          combinations -- which the fact above shows carries the deck's
+          irreducible automatically, BECAUSE the three apexes form a free
+          Z/3-orbit.
+
+  WHAT HAS NOT CHANGED: the compact curved closing is STILL NOT BUILT.
+  A6 moved from "not computable" to "computed where it can be, failing
+  there, and reduced to compactness alone in the curved case".  That is a
+  SHARPER STATEMENT, NOT A SOLVED PROBLEM.
+
+  NO PRIORITY IS CLAIMED: the construction, the computation and the
+  sum-zero observation are B1356's and B1357's.  I-26 remains UNEARNED.
+
