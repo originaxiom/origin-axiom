@@ -1,5 +1,27 @@
 # Changelog
 
+## xB024 Addendum 3 — Meyerhoff–Neumann obtained: L194's machinery in hand, their example at our volume
+
+**UNREAD → READ-AT-SOURCE** (Comment. Math. Helv. **67** (1992) 28–46). The free ETH copy sits behind
+a **bot challenge, not a paywall**; this seat **declined to automate past it** and the owner supplied
+the PDF. **The register's three-route rule is amended:** a fourth outcome now has a name —
+**REACHABLE-BUT-GATED**, which is *not* an access failure but **a request to make of a human**.
+
+**Theorem 1's hypothesis:** the cusp basis chosen so that `l` is a **longitude — null-homologous in
+M**. The identity carries an **explicit integer `I(p,q)` from the Hirzebruch defect**, with
+recurrences from **Dedekind-sum reciprocity**.
+
+**A convergence flagged and not identified:** that hypothesis is the condition **B1375's census
+prints per level** and **B1374 calls the structural reason generations fire**. No map exhibited, so
+no identification made.
+
+**Their own remark is L194's step:** *"one expects rational eta invariant … (some cover has an
+orientation reversing self-homeomorphism)"*. And **their worked example sits at `vol(m000)` =
+`vol(m004)/2`** — verified here to 40 digits — **over `ℚ(√−3)`, with `η = 0`.**
+
+**L194 still open:** the transformation law of `η` under the cusp isometry is Meyerhoff–Ouyang's,
+still unread. The route it opens — a functional equation in `I(p,q)` — is named and not taken.
+
 ## Review 58 (2026-09-18) — the decadal review, 95 merges overdue
 
 Ran the full REQUIRED core. **R55-14 PAID:** `SEAL_LEDGER.md` regenerated **and the cause found** —

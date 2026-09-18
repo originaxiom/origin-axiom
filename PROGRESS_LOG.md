@@ -17401,3 +17401,55 @@ them because `REQUIRED = {id, verdict, claim_one_line, instrument}` — **`autho
 checked.** Filed **R58-6**.
 
 **Gates 35/35. Nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-18 — xB024 ADDENDUM 3: MEYERHOFF–NEUMANN OBTAINED, and their example is at the object's volume
+
+**L194's machinery is in hand.** R. Meyerhoff and W. D. Neumann, *An asymptotic formula for the eta
+invariants of hyperbolic 3-manifolds*, **Comment. Math. Helv. 67 (1992) 28–46**, DOI
+`10.5169/seals-51082`. **UNREAD → READ-AT-SOURCE.**
+
+**How, and why it matters to the register's own rule.** The free ETH E-Periodica copy sits behind a
+**proof-of-work bot challenge — not a paywall**. This seat **declined to automate past it**: a
+browser check is the operator's expressed intent, and having Playwright is not a licence. **The owner
+opened it and supplied the PDF**, parsed locally with `pypdf` as with Kawauchi and CGHN.
+
+> **Amendment 2's three-route rule is amended by this case.** *Author's page, journal archive, bytes
+> parsed locally* was necessary and **not sufficient**. A fourth outcome now has a name:
+> **REACHABLE-BUT-GATED** — the content is free, the route is known, and taking it would override a
+> deliberate operator control. **That is not an access failure and must not be logged as one. It is
+> a request to make of a human.**
+
+**THEOREM 1's hypothesis, quoted exactly:** *"the basis `m, l` at the cusp is chosen so that `l` is a
+**longitude**, that is, it is **null-homologous in M**"*. The identity gives `−(2/π)Vol + 3η` of the
+filling from Thurston's parameter, the core geodesic's complex length, **and an explicit INTEGER
+`I(p,q)` from the Hirzebruch defect**, with recurrences from **Dedekind-sum reciprocity**.
+**Fenced:** the scan's OCR mangles the coefficients; the hypothesis, ingredients and integrality are
+quoted with confidence, **the numbers are not, and nothing rests on them**.
+
+**A convergence, flagged and NOT identified.** Theorem 1 turns on a **null-homologous peripheral
+curve** — and **B1375's census prints `mu null-homologous` per level** while **B1374 names *"the
+tower's null-homologous lifted longitude"* as the structural reason generations fire**. The same
+condition governs both. **No map is exhibited, so no identification is made** — two conditions
+sharing a name is exactly what B1223 forbids as evidence.
+
+**The paper's own remark is L194's missing step**, in the cusped setting: *"one expects rational eta
+invariant for geometric reasons (**some cover has an orientation reversing self-homeomorphism**), and
+the computation bears this out."* A remark, graded as one — and the first literature support the
+record has for that direction.
+
+**And their worked example is at our object's volume.** `N = W(3,−2;6,−1)`, with
+`Vol(N) = 1.014941606409653625021203` — **verified here to 40 digits as exactly `vol(m000)` and
+exactly `vol(m004)/2`** — which they place **over `ℚ(√−3)`**, and whose printed value has **zero
+imaginary part, so `η(N) = 0`**. **A volume coincidence is not an identification**; `N` is not
+claimed to be m000 or any cover of it. **What is verified is the number.**
+
+**L194 is still not closed.** Its open half needs the **transformation law of `η` under the
+orientation-reversing isometry on the invariant cusp** — **Meyerhoff–Ouyang 1997**, still unread and
+cited for nothing. **The route now visible and deliberately not taken:** `τ` acts on the cusp by
+`A ∈ GL(2,ℤ)`, `det A = −1`, carrying `M(p,q)` to `M(A(p,q))`; Theorem 1 on both, with `η` odd under
+orientation reversal, gives a **functional equation in the explicit integer `I(p,q)`** — a
+Dedekind-sum object whose `GL(2,ℤ)` behaviour is classical **and computable on this bench**.
+
+**Gates 35/35. No value. Gate 5 absolute. Nothing to `CLAIMS.md`.**

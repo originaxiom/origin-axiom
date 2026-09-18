@@ -134,3 +134,26 @@ claimed** — matching small integers in different places is this record's most-
 **The access lesson, completing Amendment 2's:** a grade of UNREACHABLE/UNREAD is reportable only
 with **the routes named**. Amendment 2 was wrong because one failed fetch was read as a closed door;
 this row is right because six routes were tried and are listed.
+
+---
+
+## AMENDMENT 4 — Meyerhoff–Neumann obtained (2026-09-18, xB024 Addendum 3)
+
+| source | grade change | what it says |
+|---|---|---|
+| **R. Meyerhoff and W. D. Neumann**, *An asymptotic formula for the eta invariants of hyperbolic 3-manifolds*, **Comment. Math. Helv. 67 (1992) 28–46**, DOI `10.5169/seals-51082` | **UNREAD → READ-AT-SOURCE** | **Theorem 1** holds for a one-cusped M *"with the basis `m, l` at the cusp chosen so that `l` is a **longitude**, that is, it is **null-homologous in M**"*, and expresses `−(2/π)Vol + 3η` of the filling via Thurston's parameter, the core geodesic's complex length, **and an explicit INTEGER `I(p,q)` from the Hirzebruch defect**, with recurrences from **Dedekind-sum reciprocity**. Their numerical remark: *"one expects rational eta invariant for geometric reasons (**some cover has an orientation reversing self-homeomorphism**)"*. **Their worked example `N = W(3,−2;6,−1)` has `Vol(N)` equal to the Gieseking volume — verified here to 40 digits as exactly `vol(m004)/2` — is placed over `ℚ(√−3)`, and has `η(N) = 0`.** |
+| **Meyerhoff–Ouyang**, Canad. Math. Bull. **40**:2 (1997) 204–213 | **still UNREAD** | **Remains L194's blocker**, and is cited for nothing. What is still missing is the **transformation law of η under an orientation-reversing isometry acting on the invariant cusp** — how the chosen basis is carried, and what that does to `I(p,q)`. |
+
+**How it was obtained, recorded because the register's own rule turns on it.** The free ETH
+E-Periodica copy is behind a **proof-of-work bot challenge**, not a paywall. This seat **declined to
+automate past it** — a browser check is the operator's expressed intent, and Playwright being
+available is not a licence. **The owner opened it and supplied the PDF.** Parsed locally with
+`pypdf`, as with Kawauchi and CGHN.
+
+> **The three-route rule from Amendment 2 is amended by this case.** *"Author's page, journal
+> archive, bytes parsed locally"* was necessary and **not sufficient**: here the journal's own free
+> archive was found and the bytes still could not be had, for a reason that is **neither paywall nor
+> absence**. A fourth outcome now exists and must be named when it occurs: **REACHABLE-BUT-GATED —
+> the content is free, the route is known, and taking it would override an operator's deliberate
+> control.** That is not an access failure and must not be logged as one; **it is a request to make
+> of a human.**
