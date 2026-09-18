@@ -464,3 +464,83 @@ second one is not silently inherited.
 cannot be actioned from this container: `WebFetch` is EGRESS_BLOCKED on every academic host.
 
 **Gate 5 untouched. Nothing promotes to `CLAIMS.md`. No value, no generation count, no physics claim.**
+
+---
+
+## ADDENDUM 4 (2026-09-18) — **THE G₂-MSSM, READ.** Our bottleneck is the field's starting assumption.
+
+*`0801.0478` — Acharya, Bobkov, Kane, Shao, Kumar, **The G₂-MSSM: An M Theory motivated model of
+Particle Physics**, 42 pp. Supplied by the owner; the top download ask for three rounds. Read via
+`pdftotext`. Preregistered outcomes from round 1 stand: CONFIRMS / SHARPENS / **PRE-EMPTS** /
+**CONTRADICTS**.*
+
+### FIRST — a correction to what I told the owner in round 2 (#37, again)
+
+In round 2 I reported this paper as *"a claimed route to **values**, our 0-of-19."* **That came from
+a search summary. Reading it shows the characterisation is much too broad.** The G₂-MSSM **does not
+derive the 19**: it takes the Yukawa couplings from the Standard Model. Its genuine outputs are the
+**soft SUSY-breaking spectrum** and a Higgs mass, conditional on an assumption stack plus tuning.
+**Same failure mode as #37 — a search summary read as though it were the paper** — and the reason
+this memo's `EXISTS-UNREAD` fence exists.
+
+### THE VERDICT
+
+**It does not pre-empt us. It does not solve our bottleneck. It assumes past exactly where we are
+stuck** — and says so itself, plainly, four times.
+
+### The assumption stack, verbatim
+
+> *"very little is known in general about the set of all compact G₂ manifolds … Unfortunately, there
+> do not **curently** [sic] exist any concrete ideas about that space either! In our work, we have
+> **assumed effectively** that the space of G₂ manifolds scans P_eff finely enough such that vacua
+> exist with values of the cosmological constant as observed."* — §I.A
+
+> *"The observable sector three-manifold is **assumed to contain conical singularities at which
+> chiral matter is supported**."* — §I.B
+
+> *"we will **assume** a GUT gauge group in the visible sector which is broken to the SM gauge group,
+> **with at least an MSSM chiral spectrum**, by background gauge fields (Wilson lines)."* — §I.B
+
+> *"in our analysis we have **not attempted to explain the origin of Yukawa couplings** and have
+> **assumed that the Yukawa couplings are the same as that in the Standard-Model**."*
+
+And its own tuning admissions, which must travel with any quotation of its Higgs number:
+*"Electroweak symmetry breaking is present but **fine-tuned**"* (abstract) · *"The value of m_Z is
+**fine-tuned**, however, implying the existence of the Little-hierarchy [problem]"* · *"we choose
+Q − P = 3 and **tune the cosmological constant** to obtain P_eff = 83."*
+
+### What this establishes — the campaign's most useful result, and it is about the field, not us
+
+**Assumption 2 is B1355's open problem, assumed.** The field's leading values programme *begins* by
+granting a compact G₂ closing whose observable three-manifold carries **conical singularities
+supporting chiral matter** — precisely what `LITERATURE_SWEEP_2026-09-06` calls *"the field's open
+problem, not a gap in the record."*
+
+**So our bottleneck is not ours alone: it is the assumption the values programme makes in order to
+start.** Two consequences — the second stated as a possibility, not a claim:
+
+1. **The G₂-MSSM cannot supply what we lack.** It presupposes it.
+2. **If B1355's construction succeeded, it would supply the G₂-MSSM's missing foundation.** Whether
+   that is the same object in the same sense needs someone who reads both; it is not established here.
+
+### Row 3 specifically — what it does and does not give
+
+| | |
+|---|---|
+| **derives** | the soft SUSY-breaking spectrum (gaugino/scalar masses, trilinears, phases); a Higgs mass; *"the moduli can be stabilized and a TeV scale generated, with the Planck scale as the only dimensionful input"* |
+| **assumes** | compact G₂ manifolds with the needed properties exist · conical singularities with chiral matter · a GUT breaking to the SM with an MSSM spectrum via Wilson lines · **the SM Yukawas** |
+| **tunes** | the cosmological constant; m_Z fine-tuned |
+
+**So most of the 19 — the fermion masses and mixings — enter as inputs.** The ≈120 GeV Higgs
+prediction of 2008, before the 2012 discovery at 125, remains a genuine *ex-ante* number, but it is a
+prediction about the **superpartner/Higgs sector given an assumed spectrum**, not a derivation of SM
+parameters. Quoted without the stack above it would mislead.
+
+### Fences
+
+- **This is ONE paper of a programme (2008).** Later work — the moduli papers, the Higgs review
+  `1211.2231` — is **unread here** and nothing above characterises it.
+- **No criticism is implied.** The authors state every assumption plainly; their honesty is the only
+  reason this reading was possible. The finding is about **where the field's frontier actually sits**.
+- Nothing here is a value, a generation count, or a physics claim of ours. **Gate 5 untouched;
+  nothing promotes to `CLAIMS.md`.**
