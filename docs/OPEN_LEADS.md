@@ -2544,6 +2544,33 @@ file that is simply **absent** is invisible to it.
 depend on an untracked artifact) or vendor the artifact, as E57's instances #2–#6 were fixed. **Do
 not** make the tests skip when the file is missing — that converts a lock into a no-op.
 
+## L225 — THE 3D INDEX UNDER DEHN FILLING, ON THE GRID WE ALREADY HAVE (registered 2026-09-18, B1428)
+
+B1428 computed the object's 3D index and matched the published series exactly, so the instrument is here and
+verified. Three pieces of the surrounding literature turn out to be **absent from this record entirely** —
+checked, not assumed: Garoufalidis–Kashaev's meromorphic extension (arXiv:1706.08132), Garoufalidis–Hodgson–
+Rubinstein–Segerman's **1-efficiency** theorem, which is what makes the index a *topological* invariant of a
+cusped hyperbolic 3-manifold rather than a triangulation artefact (Geom. Topol. **19** (2015) 2619–2689), and
+Celoria–Hodgson–Rubinstein's **rigorous proof of the Gang–Yonekura Dehn-filling formula** (arXiv:2509.09886,
+2025/2026). The record does carry Gang–Yonekura and DGG; these three it does not.
+
+**The crossing this opens is concrete and computable.** This programme has a grid of **78 Dehn fillings of m004**,
+six of them arithmetic (B1419), and a proven transformation law for the 3D index under exactly that operation.
+Nothing has been run. The questions, in the order they can be answered:
+
+1. Does the filled index separate the six arithmetic fillings from the rest? (The programme's own arithmeticity
+   test is the closed criterion; this would be an independent invariant on the same grid.)
+2. B1428 found the `(0,0)` class **does not separate m004 from m003**, proved from the threefold symmetry. Does any
+   other boundary class? That is a bounded computation and it decides whether the index can see the object's
+   chirality at all.
+3. The 1-efficiency condition is a hypothesis this bench has **not** checked on its own triangulations, for want of
+   Regina. Until it is, the invariance claim is imported rather than verified here.
+
+**The honest fence.** The theory T[M] is 3d N = 2 **supersymmetric**, and the paper's own computed negative is that
+the object's carrier **admits no supercharge** — none π₁-equivariant, none gauge-equivariant, and the one candidate
+involution squares to the meridian. So the 3d-3d dictionary is not a bridge to this construction's physics; it is a
+source of **invariants on the same manifolds**. Treat it as the second, not the first.
+
 ## L223 — THE SILENT RECEIPTS: 15 tracked run logs record a failure their arc never mentions (registered 2026-09-18, B1425)
 
 B1411 shipped `main_b1355_geometry_run.txt` as its verification receipt. The file's last three lines are a

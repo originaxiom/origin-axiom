@@ -1,0 +1,53 @@
+==============================================================================
+CONVENTION: x = q^{1/2}.  I_Delta(m,e) = sum_n (-1)^n q^{n(n+1)/2-(n+m/2)e}/((q)_n (q)_{n+m})
+            term exponent in x is E(n) = n(n+1) - (2n+m)e.   1/(q)_n := 0 for n<0.
+==============================================================================
+
+--- I_Delta(0,0) ---
+  in q : +1 -1*q -2*q^2 -2*q^3 -2*q^4 +1*q^6 +5*q^7 +7*q^8 +11*q^9 +13*q^10 +16*q^11 +14*q^12
+
+--- a few small (m,e) ---
+  I( 0, 1) = -1*q -1*q^2 +1*q^4 +3*q^5 +4*q^6
+  I( 1, 0) = +1 -1*q^2 -2*q^3 -3*q^4 -3*q^5 -3*q^6
+  I( 1, 1) = -1*q^(3/2) -1*q^(5/2) -1*q^(7/2) +1*q^(11/2)
+  I( 0, 2) = +1*q^3 +1*q^4 +2*q^5 +1*q^6
+  I( 2, 0) = +1 -1*q^3 -2*q^4 -3*q^5 -4*q^6
+  I( 2, 2) = +1*q^5 +1*q^6
+  I( 1,-1) = +1*q^(1/2) +1*q^(3/2) -1*q^(7/2) -3*q^(9/2) -4*q^(11/2)
+  I(-1, 1) = -1*q^(1/2) +1*q^(5/2) +2*q^(7/2) +3*q^(9/2) +3*q^(11/2)
+  I(-1,-1) = -1*q^(3/2) -1*q^(5/2) -1*q^(7/2) +1*q^(11/2)
+  I( 0,-1) = +1 -1*q^2 -2*q^3 -3*q^4 -3*q^5 -3*q^6
+  I(-1, 0) = -1*q -1*q^2 +1*q^4 +3*q^5 +4*q^6
+  I( 1, 2) = +1*q^4 +1*q^5 +2*q^6
+  I( 2, 1) = -1*q^2 -1*q^3 -1*q^4 -1*q^5
+  I(-2, 1) = +1*q^2 +1*q^3 +1*q^4 -1*q^6
+
+--- CONTROL A: lowest exponent >= 0 (i.e. no negative powers of q)? ---
+   pairs tested: 117   with a negative exponent: 0
+
+--- CONTROL B: which symmetries actually hold? ---
+   I(m,e) == I(e,m)                        FAILS at (m,e)=(-5, -1) vs (-1, -5)
+   I(m,e) == I(-e,-m)                      HOLDS
+   I(m,e) == I(-m,-e)                      FAILS at (m,e)=(-5, -1) vs (5, 1)
+   I(m,e) == I(-e-m, m)   [triality]       FAILS at (m,e)=(-5, 3) vs (2, -5)
+   I(m,e) == I(e, -m-e)   [triality^-1]    FAILS at (m,e)=(-5, 3) vs (3, 2)
+   I(m,e) == I(e+m, -e)                    FAILS at (m,e)=(-5, 3) vs (-2, -3)
+   I(m,e) == I(-e, m+e)                    FAILS at (m,e)=(-5, -1) vs (1, -6)
+
+--- CONTROL B2: I(m,e) == (-1)^? q^{?} I(e,m)  (search a monomial prefactor) ---
+   monomial relation I(m,e)=c*x^s*I(e,m) found for 46/83 pairs
+      NO -> 37 pairs
+      shift x^0 scal 1 -> 7 pairs
+      shift x^10 scal -1 -> 4 pairs
+      shift x^0 scal -1 -> 4 pairs
+      shift x^-10 scal -1 -> 4 pairs
+      shift x^4 scal 1 -> 4 pairs
+      shift x^6 scal -1 -> 4 pairs
+      shift x^12 scal 1 -> 3 pairs
+   (detail dumped to controls_sym.json)
+
+--- CONTROL C: the DGG recursion  I(m,e) = q^{e/2} I(m+1,e) + q^{-m/2 ... } ? ---
+   (skipped: tested below as the linear q-difference identity)
+
+--- CONTROL D: I_Delta(m,e) is a power series in q (integer powers) iff m*e even? ---
+   pairs where 'has half-integer q powers' != 'm*e odd': 0

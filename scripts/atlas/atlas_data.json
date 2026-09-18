@@ -8628,7 +8628,7 @@
     "L223"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 7,
+   "obstacle_conf": 8,
    "status": "dead",
    "domain": "dynamics"
   },
@@ -8666,6 +8666,22 @@
    "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1428": {
+   "slug": "the 3d index computed",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [],
+   "obstacle": "numerology",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
   },
   "B142": {
    "slug": "klein4 and magic cartography",

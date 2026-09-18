@@ -1,0 +1,41 @@
+==============================================================================
+STEP 2: controls on the tetrahedron index
+==============================================================================
+
+[C1] Against printed values in the AMSI/VRS report of E. McQuire (Monash),
+     'Knots & Combinatorics', Example 3.2 (Garoufalidis convention):
+   I^G(0,0): MATCH   (compared through x^22 = q^11.0)
+      mine     : +1 -1*q -2*q^2 -2*q^3 -2*q^4 +1*q^6 +5*q^7 +7*q^8 +11*q^9 +13*q^10 +16*q^11
+   I^G(1,-1): MATCH   (compared through x^23 = q^11.5)
+      mine     : -1*q^(1/2) +1*q^(5/2) +2*q^(7/2) +3*q^(9/2) +3*q^(11/2) +3*q^(13/2) +1*q^(15/2) -1*q^(17/2) -5*q^(19/2) -9*q^(21/2) -15*q^(23/2)
+   I^G(2,2): MATCH   (compared through x^32 = q^16.0)
+      mine     : +1*q^5 +1*q^6 +2*q^7 +2*q^8 +3*q^9 +2*q^10 +2*q^11 -2*q^13 -6*q^14 -10*q^15 -16*q^16
+   => published tetrahedron-index values reproduced: True
+
+[C2] Garoufalidis eq. (3.2) threefold symmetry:
+     I(m,e) = (-q^{1/2})^{-e} I(e,-e-m) = (-q^{1/2})^{m} I(-e-m,m)
+   pairs tested 169;  failures of 1st identity: 0;  of 2nd: 0
+
+[C3] In the PROMPT convention the same identity reads
+     I^P(m,e) = (-q^{1/2})^{-m} I^P(-m-e, m) = (-q^{1/2})^{e} I^P(e, -m-e)
+   failures: 0 and 0
+   plus the plain (no-prefactor) symmetry I(m,e)=I(-e,-m) verified in step 1.
+
+[C4] Lemma 3.6 (minimal degree) against the computed series:
+   pairs checked 172; disagreements with Lemma 3.6: 0
+
+[C5] Special pentagon (Remark 3.8):  I(0,0)^2 = sum_{e in Z} I(0,e)^3 q^e
+   LHS = +1 -2*q -3*q^2 +4*q^4 +12*q^5 +14*q^6 +16*q^7 +4*q^8 -16*q^9 -48*q^10 -86*q^11 -127*q^12
+   RHS = +1 -2*q -3*q^2 +4*q^4 +12*q^5 +14*q^6 +16*q^7 +4*q^8 -16*q^9 -48*q^10 -86*q^11 -127*q^12
+   EQUAL through q^12 : True
+
+[C6] Full pentagon (3.5) at a few (m1,m2,e1,e2):
+   (m1,m2,e1,e2)=(0,0,0,0): equal through q^10 -> True
+   (m1,m2,e1,e2)=(1,0,0,1): equal through q^10 -> True
+   (m1,m2,e1,e2)=(1,-1,2,0): equal through q^10 -> True
+   (m1,m2,e1,e2)=(2,1,-1,1): equal through q^10 -> True
+   (m1,m2,e1,e2)=(-1,2,1,-2): equal through q^10 -> True
+
+[C7] Defining recursions (3.1a),(3.1b):
+     q^{e/2} f(m+1,e) + q^{-m/2} f(m,e+1) - f(m,e) = 0   and the (m-1,e-1) version
+   failures: (3.1a) 0, (3.1b) 0
