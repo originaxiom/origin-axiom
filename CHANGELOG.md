@@ -1,5 +1,32 @@
 # Changelog
 
+## xB030 — the four buried results dug up, and the one route to three generations that is still open
+
+**U1.** `α = (3+√5)/2 = φ²` is at once the **Alexander root** of the figure-eight, **B1418's golden
+locus** (where `H¹ ≠ 0` and the chirality index can fire), and **exp(xB029's tower torsion growth
+constant)**. Five edges exhibited before the sentence, per E82. **A renaming, ledgered as nothing.**
+
+**U2.** `h¹ ∈ {0,1}` on **506 informative closed hyperbolic rational homology spheres** (11 031
+scanned → 1 979 candidates), **zero exceptions, zero divisibility violations**, on a population
+selected to break it. **The sealed kill was the outcome the programme wants and it did not fire.**
+**But the cap binds only `m = 1`:** B1418's own table already has **`|I| = 2` on `t12835` at
+`m = 3`** — so the abelian route to three is closed as a property of the class, and the higher-`Sym`
+reducible-non-split route is the only one left, with **3 325 modules unrun** exactly where that
+`|I| = 2` lives. **L222(iii) promoted to first with that reason.**
+
+**U3.** Diophantine in shape — the condition is on `‖Gλ/k‖`, and `k ≥ ~317` is needed at all — **but
+the sealed `O(1/k)` density is REFUTED by the cell's own counts**; it is ≈ 0.6 % and growing. **v1
+was also defective at the degenerate residue, where FW's formula is undefined and its headline
+numbers were floating-point artefacts.**
+
+**U4.** The literature takes chirality from **conical singularities** and requires the three-cycle to
+have **no zero modes**; the record takes chirality from `h¹` **of** the three-cycle. **Opposite
+demands on one quantity.**
+
+**Also withdrawn, in the seal, before any cell ran:** this seat's proposed Wilson-line selection rule
+`H¹(Q;ω) = 0` — **the negation of the record's own mechanism**, asserted from memory without
+checking. **Gate 5 absolute.**
+
 ## xB029 Addendum 1 — Friedmann–Witten read at source; half of L225 retracted the day it was registered
 
 **hep-th/0211269 §3, verbatim: *"we assume that that there is a nontrivial **FINITE fundamental group

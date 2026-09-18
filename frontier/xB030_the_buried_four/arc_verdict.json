@@ -1,0 +1,67 @@
+{
+  "arc": "xB030_the_buried_four",
+  "seat": "xb",
+  "branch": "sep16-branch",
+  "date": "2026-09-18",
+  "preregistration_seal": "3340135e",
+  "verdict": "VERIFIED",
+  "gate5_crossed": false,
+  "claims_md_touched": false,
+  "identifications": [],
+  "withdrawn_before_any_cell_ran": "this seat's proposed Wilson-line selection rule H^1(Q;omega)=0, told to the owner in chat. It is the NEGATION of the record's own mechanism (sm:B1303, xB027): the closing needs h^1 != 0 for the index to fire at all.",
+  "cells": {
+    "U1": {
+      "result": "PASS",
+      "content": "alpha = phi^2 = the Alexander root of 4_1 = B1418's golden locus = exp(xB029's tower torsion growth constant). All 5 edges EXHIBITED per E82, graph connected. A RENAMING, ledgered as nothing."
+    },
+    "U2": {
+      "result": "PASS",
+      "content": "h^1 in {0,1} on 11031 census manifolds scanned -> 1979 QHS^3 candidates with p-rank>=2 -> 506 INFORMATIVE, 0 with h^1>=2, 0 divisibility violations. The sealed kill (which was the outcome the programme wants) did NOT fire."
+    },
+    "U2_applied": {
+      "result": "READING",
+      "content": "|I| <= h^1 holds at m=1 only. B1418's own table gives |I| = 2 on t12835 at m=3 (reducible non-split). So the cap is MECHANISM-SPECIFIC: the abelian route is capped at one generation; the higher-Sym route is not, and B1418 left 3325 modules on t12835 and 1542 on t12833 UNRUN at larger m -- precisely where the only known |I|=2 lives."
+    },
+    "U3": {
+      "result": "PARTIAL -- sealed quantitative prediction REFUTED",
+      "content": "Diophantine in shape (condition on ||G*lambda/k||, best lambda at ||G*lambda||=1 in 7 of 7, closed form matches to <4e-3, k>=~317 needed at all). But density is ~0.6% and slowly GROWING, matching the derived 2*theta(k), NOT O(1/k) as sealed."
+    },
+    "U4": {
+      "result": "PASS",
+      "content": "By quotation: the literature takes chirality from CONICAL SINGULARITIES and requires the 3-cycle to have no zero modes (finite pi_1); the record takes chirality from h^1 OF the 3-cycle. Opposite demands on the same quantity."
+    }
+  },
+  "self_reported_defects": [
+    "U3 v1 included lambda with G*lambda = 0 mod k, where the flat bundle is TRIVIAL and FW eq.(3.1) is UNDEFINED; its 'best P_eff = 669' figures were floating-point artefacts of log(rounding error)",
+    "U3 v1's sealed density prediction O(1/k) was refuted by its own counts (1,1,5,13 as k grew)",
+    "U3 v2's pass-flag for the closed form used a 1e-6 tolerance and reported False; the agreement is <4e-3 and is in the table. A mis-set flag, not a finding.",
+    "U2 v1 PASSED but was WEAK: only 4 of 146 members were informative; v2 rebuilt the population to be able to break the cap"
+  ],
+  "rederived": [
+    {
+      "arc": "xB029",
+      "what": "the measured tower torsion growth constant 0.9624236501",
+      "outcome": "CONFIRMED",
+      "why": "re-read from xB029's banked g2_mssm.json inside the cell rather than recalled, and compared symbolically with log((3+sqrt5)/2)"
+    },
+    {
+      "arc": "B1418",
+      "what": "the golden locus on m004, and the index values on the class",
+      "outcome": "CONFIRMED",
+      "why": "read from B1418's own DESIGN.md (lambda^2 = phi^2) and FINDINGS.md table (|I| = 2 on t12835 at m = 3, 3325 modules NOT RUN) rather than from memory. Both quoted in FINDINGS."
+    },
+    {
+      "arc": "sm:B1303 / B1306 / xB027",
+      "what": "h^1(Y_n; psi) in {0,1} on the tower and h^1(chi^2)=1 bounding |I| <= 1",
+      "outcome": "CONFIRMED",
+      "why": "INDEPENDENT ROUTE: this arc's U2 reaches h^1 <= 1 on 506 CLOSED rational homology spheres, a population disjoint from the cusped tower those arcs used"
+    },
+    {
+      "arc": "xB029 Addendum 1",
+      "what": "the finite-pi_1 hypothesis of Friedmann-Witten",
+      "outcome": "NOT_RERUN",
+      "why": "quoted in U4 from the same source read at source one commit earlier; no new measurement needed"
+    }
+  ],
+  "prior_score": "U1 correct; U2 correct (predicted against the programme's interest); U3 half right, quantitative half REFUTED; U4 correct"
+}

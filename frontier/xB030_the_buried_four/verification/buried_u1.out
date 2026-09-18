@@ -1,0 +1,28 @@
+
+U1       THE IDENTIFICATION -- and E82 binds: every edge EXHIBITED, then connectivity
+  E1  alpha = (3+sqrt5)/2  ==  phi^2 : True   (phi^2 = sqrt(5)/2 + 3/2)
+  E2  roots of Delta_4_1(t) = t^2-3t+1 are phi^(+-2) : True   roots = [3/2 - sqrt(5)/2, sqrt(5)/2 + 3/2]
+  E3  xB029's MEASURED tower growth (re-read from g2_mssm.json) = 0.9624236501
+      log alpha = 0.9624236501   equal to 1e-9 : True
+  E4  B1418's own words: - **(a) The object.** m004 at the golden locus: χ(μ) = λ with λ² = φ² (K = ℚ(√5), primitive element φ), i.e. λ ∈ {φ, −φ, φ⁻¹, −φ⁻¹} (the four sign/inv
+      it defines the golden locus by lambda^2 = phi^2 : True
+  E5  Delta(phi^2) = 0  -> the golden locus IS a root of the Alexander polynomial : True
+      (bridge: Burde / de Rham -- a reducible non-abelian rep at chi(mu)^2 = z exists
+       iff Delta(z) = 0.  CITED-UNREAD; it is NOT load-bearing here because B1418
+       states H^1 != 0 at this locus as VERIFIED on its own bench.)
+
+         THE LINK GRAPH (E82 requires this BEFORE the sentence):
+           EXHIBITED  E1 alpha = phi^2
+           EXHIBITED  E2 Delta roots = phi^{+-2}
+           EXHIBITED  E3 growth constant = log alpha
+           EXHIBITED  E4 B1418 golden locus is lambda^2 = phi^2
+           EXHIBITED  E5 golden locus is an Alexander root
+         all five edges exhibited, graph connected: True
+         *** ONE NUMBER, FIVE NAMES:  alpha = phi^2 = the Alexander root of 4_1
+         = B1418's golden locus = exp(xB029's tower torsion growth constant).
+         FENCE: this is a RENAMING, not a discovery.  And it is an IDENTIFICATION,
+         so E82/I-10 apply: nothing is promoted without the ledger.
+U1 PASS
+
+==============================================================================
+ALL CELLS RAN

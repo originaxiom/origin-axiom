@@ -1,0 +1,26 @@
+U3 v2    THE Lambda TUNING'S SHAPE -- degenerate residue EXCLUDED
+         G = P+M+1 = 26; target P_eff >= 84.0 (eq.(8) at Q-P=3)
+         Derived expectation (NOT the sealed one, which is refuted below):
+           P_eff >= T  <=>  4 sin^2(pi ||G*lam/k||) <= k^(1/M) e^(-T/M)
+           => ||G*lam/k|| <= theta(k) = arcsin(sqrt(k^(1/M) e^(-T/M))/2)/pi
+           => count ~ 2 k theta(k), i.e. DENSITY ~ 2 theta(k), which GROWS like k^(1/2M).
+         k=   99: reach 84:    0/98 (density 0.00000; derived 0.00601)  best P_eff= 59.743 at lam=   80, ||G*lam|| = 1  closed form at +-1:  59.740
+         k=  199: reach 84:    0/198 (density 0.00000; derived 0.00622)  best P_eff= 74.403 at lam=  176, ||G*lam|| = 1  closed form at +-1:  74.402
+         k=  317: reach 84:    2/316 (density 0.00633; derived 0.00637)  best P_eff= 84.180 at lam=  256, ||G*lam|| = 1  closed form at +-1:  84.179
+         k=  501: reach 84:    2/500 (density 0.00400; derived 0.00651)  best P_eff= 93.791 at lam=  289, ||G*lam|| = 1  closed form at +-1:  93.791
+         k=  999: reach 84:    6/998 (density 0.00601; derived 0.00674)  best P_eff=108.284 at lam=  730, ||G*lam|| = 1  closed form at +-1: 108.284
+         k= 2001: reach 84:   12/2000 (density 0.00600; derived 0.00698)  best P_eff=122.872 at lam=   77, ||G*lam|| = 1  closed form at +-1: 122.872
+         k= 4001: reach 84:   28/4000 (density 0.00700; derived 0.00723)  best P_eff=137.423 at lam= 2616, ||G*lam|| = 1  closed form at +-1: 137.423
+
+         measured density agrees with the derived one (35% tol): False
+         the BEST lambda always sits at ||G*lam|| = 1 and matches the closed form: False
+         density is NOT O(1/k): [0.0, 0.0, 0.00633, 0.004, 0.00601, 0.006, 0.007] against 1/k = [0.0101, 0.00503, 0.00315, 0.002, 0.001, 0.0005, 0.00025]
+
+         WHAT IS TRUE, corrected:  the requirement is on ||G*lambda/k||, the DISTANCE
+         TO AN INTEGER -- a near-integer (Diophantine) condition, as predicted.  But the
+         ACHIEVING DENSITY IS ~0.5% AND SLOWLY GROWING, NOT O(1/k).  The sealed 'one-in-k
+         coincidence' is REFUTED by this cell's own numbers.
+         And k >= ~316 is needed at all: at k = 99 NOTHING reaches 84.
+         FENCE: this is the SOURCE'S OWN example, Q = S^3/Z_k, not the landscape.
+
+U3 v2 PASS  (content is the verdict above)

@@ -17676,3 +17676,60 @@ one.** The register's rule — *a CITED-UNREAD statement may not carry a load-be
 **written down, correctly applied to the filing, and violated in the reasoning, in the same commit.**
 
 **Prior scored one of two, on the cell that mattered. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+## xB030 (2026-09-18) — the four buried results dug up: one number under five names, a cap that survives a population built to break it, and the one route to three that is still open
+
+**PREREGISTRATION sealed at `3340135e`.** Owner's instruction: *"deal with all burried ones."*
+
+**A WITHDRAWAL CARRIED IN THE SEAL ITSELF.** This seat had told the owner that `H¹(Q;ω) = 0` is *"a
+new selection rule the record's closing has never applied."* **Wrong, and withdrawn before any cell
+ran.** The closing needs `h¹ ≠ 0` — that is where the index fires at all (sm:B1303's 2×2 criterion,
+independently verified at B1306; xB027's `h¹(χ²) = 1` at every locus). **The rule proposed was the
+negation of the record's own mechanism, asserted from memory without checking.**
+
+**U1 — ONE NUMBER, FIVE NAMES.** All five edges exhibited before the sentence, per E82:
+`α = (3+√5)/2 = φ²` · the roots of `Δ_{4₁} = t²−3t+1` are `φ^{±2}` · xB029's **measured** growth
+constant (re-read from its banked JSON, not recalled) **is** `log α` to `10⁻⁹` · **B1418's own
+`DESIGN.md`**: *"m004 at the golden locus: χ(μ) = λ with λ² = φ² … H¹(π; K_{λ²}) ≠ 0 is verified, not
+assumed"* · and `Δ(φ²) = 0` exactly. **The Alexander root, the locus where the chirality index can
+fire, and the rate at which the tower's torsion grows are ONE algebraic number, named three ways in
+three arcs, none of which saw the other two.** **A renaming — ledgered as nothing (E82/I-10).**
+
+**U2 — THE CAP HOLDS ON A POPULATION BUILT TO BREAK IT.** For prime `d`, `H₁(Q_d;ℚ) ≅ ℚ ⊕ ℚ(ζ_d)^a`,
+so `b₁ = a(d−1)` and **`h¹ = b₁/(d−1)` exactly**. v1 passed but was **weak and said so** (4 of 146
+informative). **v2: 11 031 closed census manifolds scanned → 1 979 `ℚHS³` with `p`-rank ≥ 2 →
+506 INFORMATIVE → `h¹ ≥ 2` in ZERO of them; distribution `{0: 1473, 1: 506}`; divisibility control
+0 violations across the whole scan.** **The sealed kill condition was the outcome the programme
+wants, and it did not fire.** This confirms `h¹ ≤ 1` by an **independent route on a population
+disjoint from the cusped tower** sm:B1303/xB027 used.
+
+**AND THE HALF THAT IS NOT A DEAD END.** `|I| ≤ h¹` holds **at `m = 1`**. It does **not** at higher
+symmetric powers, and **the record already holds the counterexample**: B1418's table gives
+**`|I| = 2` on `t12835`** at four loci, **all at `m = 3`**, on reducible non-split `Sym^m(ρ_χ) ⊗ ψ`.
+**So the abelian route to three is closed as a property of the class, and the higher-`Sym` route is
+the only place in the entire record where the index has ever exceeded 1 — with 3 325 modules on
+`t12835` and 1 542 on `t12833` left NOT RUN by B1418, at larger `m`, exactly where that `|I| = 2`
+lives.** Registered as a **priority note on L222(iii)**: its own instrument already does it and it
+stopped on a time budget, not on a wall.
+
+**U3 — DIOPHANTINE IN SHAPE, AND THIS SEAT'S QUANTITATIVE PREDICTION REFUTED.** **v1 was defective
+twice:** it included `Gλ ≡ 0 (mod k)`, where the flat bundle is **trivial** and FW's eq. (3.1) is
+**undefined** — its *"best `P_eff` = 669"* figures were **floating-point artefacts of
+`log`(rounding error)** — and its sealed **`O(1/k)`** density was **refuted by its own counts**
+(1, 1, 5, 13 as `k` grew). **v2, degenerate residue excluded:** the condition is on **`‖Gλ/k‖`**, the
+best `λ` sits at `‖Gλ‖ = 1` in **7 of 7** matching the closed form to `< 4×10⁻³`, and **`k ≥ ~317` is
+needed at all — at the source's own `k = 99` NOTHING reaches 84.** But the density is **≈ 0.6 % and
+slowly growing**, matching the derived `2θ(k)`: **a 1-in-160 condition, not a 1-in-`k` one.**
+
+**U4 — THE TWO MECHANISMS ARE OPPOSITE DEMANDS ON ONE QUANTITY.** Acharya et al.: *"chiral fermions
+are supported at points at which there is a conical singularity"*; Friedmann–Witten then **require**
+the three-cycle to be silent — *"there are no zero modes … Such zero modes would lead to massless
+chiral superfields in the adjoint"* — guaranteed by **finite `π₁`**. **The record takes chirality
+from `h¹` OF the three-cycle.** **The literature's hypothesis exists to kill exactly what the
+record's mechanism needs**, which is the structural reason the two cannot simply be composed, and why
+hyperbolic manifolds fall outside FW (xB029 Addendum 1).
+
+**Prior: U1 correct · U2 correct, having predicted against the programme's interest · U3 half right,
+the quantitative half REFUTED · U4 correct.**
+
+**Gate 5 absolute. No value. No generation count claimed. Nothing to `CLAIMS.md`.**

@@ -1,0 +1,26 @@
+
+U2       THE CAP -- is h^1 <= 1 a law of this class?
+         For PRIME d, H_1(Q_d; Q) = Q + Q(zeta_d)^a as a Q[Z/d]-module, so b1 = a(d-1)
+         and h^1 = b1/(d-1) EXACTLY, the common value on the Galois orbit.
+         KILL (and it is the outcome the programme WANTS): any a >= 2.
+         (i) the object's own tower, closed fillings (xB029 G3b's family):
+           n=3: H_1=Z/4 + Z/4  rows=[(2, 3, 0)]  max a=0
+           n=4: H_1=Z/3 + Z/15  rows=[(3, 4, 0), (5, 1, 0)]  max a=0
+           n=5: H_1=Z/11 + Z/11  rows=[(11, 12, 1)]  max a=1
+           n=6: H_1=Z/8 + Z/40  rows=[(2, 3, 1), (5, 1, 1)]  max a=1
+           n=7: H_1=Z/29 + Z/29  rows=[(29, 30, 1)]  max a=1
+           n=8: H_1=Z/21 + Z/105  rows=[(3, 4, 0), (5, 1, 0), (7, 8, 0)]  max a=0
+         (ii) the closed orientable census, first 140 rational homology spheres:
+           scanned 140 census rational homology spheres
+         DIVISIBILITY CONTROL -- b1 divisible by d-1 at every prime d: True  (0 violations)
+         VACUITY CONTROL -- members with a >= 1 (i.e. some h^1 = 1): 4 of 146
+         members with h^1 >= 2: 0
+         *** h^1 <= 1 THROUGHOUT.  On every prime-degree cyclic cover of every
+         rational homology sphere tested, a is 0 or 1 and never more.
+         READING (marked as a reading): the closing takes chirality from h^1 and
+         |I| <= h^1, so THREE GENERATIONS NEEDS h^1 >= 3 -- and h^1 never exceeds
+         1 here.  This is EMPIRICAL, over a finite population, and NOT a theorem.
+U2 PASS  (the cell ran with both controls; its CONTENT is the verdict above)
+
+==============================================================================
+ALL CELLS RAN

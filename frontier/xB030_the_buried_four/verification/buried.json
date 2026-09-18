@@ -1,0 +1,19 @@
+{
+ "cells": {
+  "U1": true
+ },
+ "results": {
+  "U1": {
+   "edges": {
+    "E1 alpha = phi^2": true,
+    "E2 Delta roots = phi^{+-2}": true,
+    "E3 growth constant = log alpha": true,
+    "E4 B1418 golden locus is lambda^2 = phi^2": true,
+    "E5 golden locus is an Alexander root": true
+   },
+   "connected": true,
+   "b1418_quote": "- **(a) The object.** m004 at the golden locus: \u03c7(\u03bc) = \u03bb with \u03bb\u00b2 = \u03c6\u00b2 (K = \u211a(\u221a5), primitive element \u03c6), i.e. \u03bb \u2208 {\u03c6, \u2212\u03c6, \u03c6\u207b\u00b9, \u2212\u03c6\u207b\u00b9} (the four sign/inverse choices; H\u00b9(\u03c0; K_{\u03bb\u00b2}) \u2260 0 is verified, not assumed); m \u2208 {1, 2, 3, 4}; \u03c8 \u2208 {1, \u22121} (H\u2081 = \u2124). Then \u03c8 of order 3 and 4 over the compositum K = \u211a(\u03c6, \u03b6\u2081\u2082) if the exact arithmetic completes in the budget (each module \u2264 30 minutes; otherwise recorded as NOT RUN, never as zero).",
+   "measured_growth": 0.9624236501192069
+  }
+ }
+}

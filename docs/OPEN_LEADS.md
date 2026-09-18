@@ -2934,3 +2934,37 @@ which is untouched.
 load-bearing step alone.* **xB029 recorded Friedmann–Witten as CITED-UNREAD in the same commit in
 which it leaned on them.** The hypothesis was in the **cited** paper, not the citing one, and reading
 only the citing paper is what hid it.
+
+
+### L222 — PRIORITY NOTE (2026-09-18, xB030): item (iii) should be FIRST, and here is the reason
+
+L222 registers, third in its list, *"the unrun modules (t12833, t12835 at larger `m`)"*. **xB030 gives
+that item a reason to be first.**
+
+**The cap, measured.** `h¹ ∈ {0,1}` on **506 informative closed hyperbolic rational homology spheres**
+(from 1 979 candidates with `p`-rank ≥ 2, out of 11 031 census manifolds scanned), **zero exceptions,
+zero divisibility violations** — a population selected precisely because it was the one that could
+break the cap. For prime `d` the measurement is exact, not statistical: `b₁ = a(d−1)` forces
+`h¹ = b₁/(d−1)`. **This confirms sm:B1303/B1306/xB027's `h¹ ≤ 1` by an INDEPENDENT route, on a
+population disjoint from the cusped tower those arcs used.**
+
+**What it caps, and what it does not.** `|I| ≤ h¹` holds at **`m = 1`**. **It does not hold at higher
+symmetric powers** — and the counterexample is already in the record: **B1418's own table gives
+`|I| = 2` on `t12835`**, at four loci of orders `(3,12,1), (3,12,2), (3,4,1), (3,4,2)`, **all at
+`m = 3`**, on `V = Sym^m(ρ_χ) ⊗ ψ` with `ρ_χ` reducible non-split.
+
+> **So the abelian / `m = 1` route to three generations is closed as a property of the class, not as
+> an accident of two towers — and the higher-`Sym` reducible-non-split route is the ONLY place in
+> the entire record where the chirality index has ever exceeded 1.** B1418 left **3 325 modules on
+> `t12835` and 1 542 on `t12833` NOT RUN** — its own words: *"a fourth state, never folded into
+> zero"* — **all at later loci and larger `m`, which is exactly where that `|I| = 2` lives.**
+
+**What would settle it:** run them. `|I| = 3` at some locus would be the first time the record's own
+machinery produced the count of three; `|I| ≤ 2` throughout would close the last route this class
+has. **Either is a result, and neither requires a new instrument** — B1418's `c2_reducible_index.py`
+already does it and stopped on a 1 800-second-per-member budget, not on a wall.
+
+**Fence, carried from B1418 and B1413 unchanged:** the index is defined on a **non-semisimple** flat
+`SL(2)`-module, not the geometric holonomy; Menal-Ferrer–Porti Theorem 0.1 (via B1413 R27) makes it a
+**theorem-zero** on the geometric finite-twist class. **Nothing here is a physics claim and `I^ss = 0`
+everywhere in B1418's table.**
