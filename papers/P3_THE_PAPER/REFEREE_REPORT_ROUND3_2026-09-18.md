@@ -529,3 +529,98 @@ Little, and it should be said plainly:
 The correct referee's finding is not that the programme missed the riddle. It is that the programme
 stated the riddle, priced it, sealed the pricing before computing, and closed both of the routes I
 proposed — and that none of this is in the paper.
+
+---
+
+## 10. The 3d-3d relay, checked against the primary sources and against the record
+
+A relay arrived claiming the Dimofte–Gaiotto–Gukov 3d-3d correspondence is "a different community
+solving exactly your problem", that it gives "chirality from a triangulation, by construction", and
+that the record "has never entered" this literature — **"Zero across the board."** I read the sources
+and swept the repository. The physics is right, with two corrections. The claim about the record is
+false. The one genuine gap is real, and it is now closed.
+
+### 10.1 The physics, verified from the primary sources
+
+| relay claim | primary source | verdict |
+|---|---|---|
+| T_Δ for one ideal tetrahedron is a single chiral multiplet coupled to a background U(1) with a CS term at level **½**, cancelling the gauge anomaly | DGG 1108.4389 §3.3: *"a chiral field of charge 1, coupled to a background field with an extra Chern–Simons interaction at level **−1/2**"* | **right, but the level is −½** — a sign, on the term whose whole job is cancelling an anomaly |
+| the figure-eight is the canonical worked example | DGG 1108.4389 §2.4 works 4₁ at length and derives *"the well known A-polynomial of the figure-eight knot"* as the Lagrangian | **confirmed** |
+| T[M] is 3d N=2 | DGG §1: *"𝒩 = 2 field theory in three dimensions"* from twisted compactification of the 6d theory | **confirmed** |
+| there is a 3D index for cusped 3-manifolds whose building block is the tetrahedron index | Garoufalidis 1208.1663 eq (1.2), with convergence iff the triangulation supports an index structure | **confirmed** |
+| Gang–Yonekura prove a **Dehn-filling transformation law for the index** | 1803.04009 proposes *"the gauge theory counterpart of Dehn filling"* and proves SU(3) enhancement for all hyperbolic twist knots; the abstract states **no index transformation law** | **overstated** |
+
+And one caveat the relay omitted, from DGG's own index paper (1112.5179 §4.1): *"the theory of the
+figure-eight knot complement built from two tetrahedra **suffered from this problem**"* — the
+canonical two-tetrahedron triangulation needed refinement.
+
+**The category point, which matters more than any of the above.** The relay sets its index against
+the programme's: *"Your programme computes I = t₀ − r₁ and proves it vanishes identically. This is a
+different index on the same objects, and it is not trivial."* These are not rival computations of one
+quantity. DGG's 3d index is an element of ℤ((q^{1/2})) — a **q-series**, Tr_{ℋ_m}(−1)^F q^{R/2+j₃}ζ^e,
+a weighted count of BPS states of T[M] on S². The programme's index is an **integer**, a difference of
+twisted-cohomology dimensions on M itself. A non-zero 3d index neither supplies a generation count
+nor bears on I = 0. And DGG's chirality is 3d N=2 chiral *multiplets*, not 4d Weyl fermions — which
+the relay does concede.
+
+### 10.2 "Zero across the board" is false
+
+Repository-wide, counting files that mention each term:
+
+```
+Dimofte 103   Gaiotto 50   Gukov 136   3d-3d 176   M5 252
+A-polynomial 358   Garoufalidis 144   Ptolemy 141   Neumann-Zagier 54
+```
+
+**B528** ran a 99-agent adversarial deep research on these primary sources and quotes DGG verbatim
+(*"the IR fixed point of an **abelian** Chern–Simons–matter theory"*), settling an abelian-vs-nonabelian
+dispute against its own prior. **B488** computed the DGG data of the figure-eight and the twist-knot
+family from the Neumann–Zagier datum — `T[4₁] = U(1) + 2 chirals`, gauge rank N − c — together with
+Gang–Yonekura's SU(3) enhancement, and **firewalled it**: every symmetry there is a *flavour* symmetry
+of a 3d N=2 theory, not a gauge symmetry (B487). **B253** already holds the "where can chiral matter
+come from" question in the form of complex-representation capability, with E₆ capable and E₈/E₇ not.
+
+What *is* true is narrower and worth stating precisely: **the paper** mentions none of it —
+Dimofte 0, Gaiotto 0, Gukov 0, 3d-3d 0, 3D index 0, chiral multiplet 0, A-polynomial 0. But even for
+the paper the relay's "not Chern–Simons" is wrong: 8 mentions.
+
+### 10.3 The one real gap, now closed (`r11_3d_index.py`)
+
+Three documents in the repository mention the 3D index, and the record concedes the gap itself:
+*"the 3d index of T[m004] was **NOT computed**"* — registered as speculation **S026** in
+`speculations/PHYSICS_BRIDGE_MAP.md` with its cost named. So it was priced and deferred, not missed.
+It is also cheap enough to close, so I closed it.
+
+Implemented from the definitions, exactly, in integer q^{1/2}-series arithmetic with no floats:
+Garoufalidis's tetrahedron index (1208.1663 eq 1.2) and the figure-eight state sum from its
+two-tetrahedron triangulation (Garoufalidis–Gu–Mariño 2301.00098 eq 29), which at (0,0) collapses to
+**Σ_{a,b∈ℤ} I_Δ(a,b) I_Δ(b,a)**.
+
+```
+I_D(0,0) = 1 - q - 2q^2 - 2q^3 - 2q^4 + q^6 + 5q^7 + 7q^8      (matches a hand check)
+
+I_{4_1}(0,0) = 1 - 8q - 9q^2 + 18q^3 + 46q^4 + 90q^5 + 62q^6 + 10q^7 - 170q^8
+               stable from |a|,|b| <= 4 through |a|,|b| <= 12
+```
+
+**Controls, both of which earned their keep.**
+
+1. *The triality control fired, and was right to.* I asserted the bare cyclic symmetry
+   I_Δ(m,e) = I_Δ(−m−e, m); it **fails on 38 of 49 pairs**. The relation holds up to a unit —
+   **I_Δ(m,e) = (−q^{1/2})^m I_Δ(−m−e, m)** — which I read off this implementation's own output and
+   then tested globally: it holds on **all 49** pairs with |m|,|e| ≤ 3, and the three exponents
+   around the cycle are m, −m−e, e, summing to zero, so the relation closes. A wrong unit would not.
+2. *Getting the right published target mattered.* Two figure-eight series are in print and they are
+   **different objects**: the un-rotated DGG index I_T(0) = 1 − 2q − 3q² + 2q³ + 8q⁴ + … , and the
+   **rotated** index matrix's (0,0) entry, which is what eq (29) computes. My first comparison used
+   the wrong one and reported a mismatch. Against the right one — Garoufalidis–Gu–Mariño §4.3,
+   *1 − 8q − 9q² + 18q³ + 46q⁴ + 90q⁵ + 62q⁶ + 10q⁷ + …* — **every printed coefficient agrees**, and
+   the computation continues one term further (q⁸ = −170).
+
+**So: the 3d index of m004 is computed, matched against the literature, and manifestly non-trivial.**
+That is a real addition to the record, and it is the relay's one substantive contribution — not
+"a different community solving your problem", but a priced gap that turned out to cost an afternoon.
+
+**What it does not do.** It is not a generation count, it does not bear on I = t₀ − r₁ = 0, and by
+B488's firewall the symmetries in this lane are flavour, not gauge. The relay's framing — a rival
+non-trivial index on the same objects — does not survive reading either source.
