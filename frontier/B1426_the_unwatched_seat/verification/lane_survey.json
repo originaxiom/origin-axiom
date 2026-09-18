@@ -1,4 +1,5 @@
 {
+ "measured_at_main_head": "46021ecd",
  "main_root": "517783f2",
  "lanes": [
   {
@@ -14,10 +15,22 @@
    "other_repository": false
   },
   {
+   "ref": "codeberg/<v>/outside-bench",
+   "branch": "outside-bench",
+   "commits_total": 3463,
+   "commits_unique_vs_main": 3,
+   "merge_base": "9d1bb4c6",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
    "ref": "codeberg/<v>/paper-review-verification-kaz3f5",
    "branch": "paper-review-verification-kaz3f5",
-   "commits_total": 3472,
-   "commits_unique_vs_main": 15,
+   "commits_total": 3475,
+   "commits_unique_vs_main": 18,
    "merge_base": "21c47a51",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -52,8 +65,8 @@
   {
    "ref": "codeberg/sep16-branch",
    "branch": "sep16-branch",
-   "commits_total": 3509,
-   "commits_unique_vs_main": 60,
+   "commits_total": 3517,
+   "commits_unique_vs_main": 68,
    "merge_base": "c052c857",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -146,10 +159,22 @@
    "other_repository": false
   },
   {
+   "ref": "origin/<v>/outside-bench",
+   "branch": "outside-bench",
+   "commits_total": 3463,
+   "commits_unique_vs_main": 3,
+   "merge_base": "9d1bb4c6",
+   "shares_main_root": true,
+   "watched_by_the_gate": true,
+   "has_a_harvest_pin": true,
+   "is_dependabot": false,
+   "other_repository": false
+  },
+  {
    "ref": "origin/<v>/paper-review-verification-kaz3f5",
    "branch": "paper-review-verification-kaz3f5",
-   "commits_total": 3472,
-   "commits_unique_vs_main": 15,
+   "commits_total": 3475,
+   "commits_unique_vs_main": 18,
    "merge_base": "21c47a51",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -184,8 +209,8 @@
   {
    "ref": "origin/sep16-branch",
    "branch": "sep16-branch",
-   "commits_total": 3509,
-   "commits_unique_vs_main": 60,
+   "commits_total": 3517,
+   "commits_unique_vs_main": 68,
    "merge_base": "c052c857",
    "shares_main_root": true,
    "watched_by_the_gate": true,
@@ -194,9 +219,9 @@
    "other_repository": false
   }
  ],
- "lanes_with_unique_work": 11,
- "total_unique_commits_across_lanes": 960,
- "same_repository_lanes": 10,
+ "lanes_with_unique_work": 13,
+ "total_unique_commits_across_lanes": 988,
+ "same_repository_lanes": 12,
  "every_same_repo_lane_shares_mains_root": true,
  "every_same_repo_lane_has_a_merge_base": true,
  "other_repository_lanes": [

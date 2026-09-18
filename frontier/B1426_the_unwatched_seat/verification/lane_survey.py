@@ -73,7 +73,11 @@ def main():
     # artefact carrying it is dirty again the moment it is committed -- the same drift-sensitive-literal
     # class this session spent its time removing from locks. The count is a live measurement; the lock
     # reads it from git. What IS stored is the structural finding: roots, merge bases, watched status.
+    # the per-lane commit counts are a SNAPSHOT -- lanes advance, so this file legitimately changes
+    # when re-run. It is stamped with the head it was measured at, so a reader can tell a stale snapshot
+    # from a claim. (main's own count is still not stored: that one changed on every landing of our own.)
     res = {
+        "measured_at_main_head": git("rev-parse", "--short", "origin/main"),
         "main_root": main_root[:8],
         "lanes": lanes,
         "lanes_with_unique_work": len(live),
