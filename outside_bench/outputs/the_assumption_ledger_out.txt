@@ -1,0 +1,81 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+------------------------------------------------------------------------------
+ CONTROL K1 -- the banked value must reproduce on the rebuilt environment
+------------------------------------------------------------------------------
+  Y_3 = filled 3-fold cyclic cover of m004
+    H_1 = Z/4 + Z/4   b_1 = 0   volume = 2.929e-12
+    banked (three independent routes: Smith form on F(2,6); the
+    Alexander module; SnapPy's filled cover): H_1 = Z/4 + Z/4, b_1 = 0
+
+------------------------------------------------------------------------------
+ CONTROL K2 -- the routine must be able to RETURN b_1 > 0 (memo 164)
+------------------------------------------------------------------------------
+    m003: b_1 = 1   H_1 = Z/5 + Z
+    m125: b_1 = 2   H_1 = Z + Z
+    m129: b_1 = 2   H_1 = Z + Z
+
+------------------------------------------------------------------------------
+ CONTROL K4 -- POPULATION, printed before any verdict
+------------------------------------------------------------------------------
+  candidates: 7, named individually:
+    m004     cusps=1  vol=2.029883  H_1=Z   [the object]
+    m003     cusps=1  vol=2.029883  H_1=Z/5 + Z   [the sister]
+    m202     cusps=2  vol=4.059766  H_1=Z + Z   [cell 8: scores 4/4]
+    s959     cusps=2  vol=6.089650  H_1=Z/3 + Z + Z   [cell 8: scores 4/4]
+    v2873    cusps=1  vol=6.089650  H_1=Z/6 + Z   [B1330 best-case]
+    t12833   cusps=1  vol=8.119533  H_1=Z/6 + Z   [B1330 best-case]
+    t12835   cusps=1  vol=8.119533  H_1=Z/6 + Z   [B1330 best-case]
+
+------------------------------------------------------------------------------
+ A4 + A8 -- b_1(Q) and the deck-Z/3 structure, per candidate
+------------------------------------------------------------------------------
+  A4: Joyce-Karigiannis resolution needs a nowhere-vanishing harmonic
+      1-form on the singular locus, i.e. b_1(Q) > 0.
+  FRAME: the construction needs a KNOT COMPLEMENT IN S^3 (H_1 = Z)
+      -- see the note in the source; testing only the cusp count
+      produced an artifact on the first run.
+  A8: the deck Z/3 of the branched cover -- its fixed set is the
+      preimage of the branch locus, hence NOT free where that is
+      nonempty; reported, not assumed.
+
+  m004    COMPUTED               H_1=Z/4 + Z/4                b_1=0                              vol=2.929e-12
+  m003    FRAME-DOES-NOT-REACH   H_1=Z/5 + Z                  not a knot complement in S^3; (1,0) is not the lifted meridian -
+  m202    FRAME-DOES-NOT-REACH   H_1=Z + Z                    not a knot complement in S^3; (1,0) is not the lifted meridian -
+  s959    FRAME-DOES-NOT-REACH   H_1=Z/3 + Z + Z              not a knot complement in S^3; (1,0) is not the lifted meridian -
+  v2873   FRAME-DOES-NOT-REACH   H_1=Z/6 + Z                  not a knot complement in S^3; (1,0) is not the lifted meridian -
+  t12833  FRAME-DOES-NOT-REACH   H_1=Z/6 + Z                  not a knot complement in S^3; (1,0) is not the lifted meridian -
+  t12835  FRAME-DOES-NOT-REACH   H_1=Z/6 + Z                  not a knot complement in S^3; (1,0) is not the lifted meridian -
+
+  frame REACHES 1 of 7; does NOT reach 6
+
+------------------------------------------------------------------------------
+ CONTROLS
+------------------------------------------------------------------------------
+  PASS   K1 -- b_1(Y_3) = 0 reproduces
+  PASS   K2 -- routine returns b_1 > 0 somewhere
+  PASS   K4 -- population printed first
+  PASS   A4 -- at least one candidate reached
+
+------------------------------------------------------------------------------
+ THE OUTCOME
+------------------------------------------------------------------------------
+  A4 (b_1(Q) > 0) HOLDS for: NONE
+  A4 FAILS  (b_1(Q) = 0) for: ['m004']
+  frame does not reach:      ['m003', 'm202', 's959', 'v2873', 't12833', 't12835']
+
+  -> OUTCOME B
+
+  THE FENCE, and it governs how every line above may be read:
+  A FAILED NECESSARY CONDITION CLOSES THE ROUTE FOR THAT OBJECT, NEVER THE
+  ROUTE ITSELF.  b_1(Q) = 0 says JOYCE-KARIGIANNIS CANNOT RESOLVE THAT
+  LOCUS.  It says nothing about whether some other construction can, and
+  nothing about the G2 route as such.
+
+  A6 -- the sum rule's b_2(X) >= 2 with the Z/3 moving the harmonic forms --
+  IS NOT COMPUTED HERE AND CANNOT BE: it lives on X, which is not
+  constructed.  That is the honest residue of the decomposition.
+
+  I-26 remains UNEARNED; no generation count is licensed.  No value.
+
