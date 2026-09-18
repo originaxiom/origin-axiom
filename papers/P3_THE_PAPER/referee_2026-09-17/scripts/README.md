@@ -71,3 +71,22 @@ coefficients as well, and the open object is carried through as a positive contr
 Both run from the repository root and exit non-zero on a finding. Each documents its own method and
 its limit in the docstring; `r2_lock_data_tracked.py` in particular is evidence and not proof, since
 a lock building its path dynamically would escape a literal-string scan.
+
+## Round 3 (the project, not the projection)
+
+These check the branch-only lanes — the record the paper is a projection of — rather than the
+manuscript. They use SnapPy for presentations only; characters, Fox calculus, cohomology, ranks and
+all field arithmetic are the scripts' own.
+
+| script | what it checks | result |
+|---|---|---|
+| `r3_i26_euler.py` | I-26's Euler-characteristic correction | reproduces |
+| `r3_m010_index.py` | R27's m010 witness: exact ℚ(u) arithmetic, Sym^m, Fox calculus, H¹ | **I = +1** on V=(0,1,1,0) / V*=(0,2,1,2); semisimplification gives 0; same trace on 400 random words |
+| `r4_r30_check.py` | R30's finite-width vanishing: conjugation identity, f·v=0, the Betti table, the §3 chain homotopy, P at all eight non-trivial order-3 characters | every pillar reproduces; **P ≠ 0 at all eight** |
+| `r5_tower_loci.py` | the mechanism behind "one generation, never three" on Y2/Y3/Y4 | **h¹(χ²) = 1 at every non-split locus**, across three prime fields |
+| `r6_h1_three.py` | is h¹(χ²) = 3 reachable at all — every cover of m004 to degree 8 plus the named family | **0 genuine loci at h¹ = 3**; {1: 20904, 2: 456}, the twos only on multi-cusped manifolds |
+| `r7_corank_bound.py` | *why*: Δ(m004) from its own Fox Jacobian, and cusps → max h¹ | Δ = t²−3t+1, discriminant 5, **separable**, roots off the unit circle; **no one-cusped manifold in the scan carries h¹ ≥ 2** (1056 loci) |
+
+A trap `r6` documents rather than hides: a raw scan reports 32 loci at h¹ = 3 on the degree-7
+covers. Those χ have order 2, so χ² is trivial and h¹(χ²) = b₁ = 3 for free on a three-cusped
+cover. Filtering to χ² non-trivial — the genuine extension loci — removes all 32.

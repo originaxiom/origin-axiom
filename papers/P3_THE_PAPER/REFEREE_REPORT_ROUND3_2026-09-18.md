@@ -263,3 +263,63 @@ degree 8 and the whole named family, and it says *why*: h¹ is 1, and where it g
 class, at any degree, with a genuine extension locus at h¹(χ²) = 3? I found none to degree 8. If the
 answer is none, that is a no-go theorem for three generations from this construction, and it would be
 the cleanest negative the programme has.
+
+---
+
+## 7. Why it is out of reach: the count is a corank, and the object has one cusp
+
+§6 established the fact. This is the reason, and it is checkable
+(`referee_2026-09-17/scripts/r7_corank_bound.py`).
+
+**The count is a corank.** At a non-trivial character, h¹(χ) = (g − rank J(χ)) − 1, where J is the
+Fox Jacobian. So "h¹ = k" is not a quantity the construction chooses; it is the statement that a
+matrix drops rank by k. The generation count the tower produces is the corank of a Jacobian at a
+point of the character variety.
+
+**m004's own Alexander polynomial says the drop is one.** Computed from the same Fox Jacobian, no
+Sage, own arithmetic:
+
+```
+presentation   <a,b | aaabABBAb>      phi:  a -> t^0,  b -> t^1
+d r/d a  =  -(t^2 - 3t + 1)/t         d r/d b  =  0
+Delta(t) =  t^2 - 3t + 1              discriminant 5  ->  SEPARABLE
+roots    =  (3 +- sqrt 5)/2           |roots| = 0.381966, 2.618034   -> not on the unit circle
+```
+
+Two consequences, both of them structural rather than incidental:
+
+1. No root of Δ is a root of unity, so **h¹(χ) = 0 at every non-trivial finite-order character of
+   m004 itself.** The extension loci cannot exist downstairs; they only appear on covers. That is
+   exactly what r5 and r6 found, and it is now explained rather than observed.
+2. Δ is **separable**. Where a rank drop does occur it occurs at a simple root, so the drop is 1.
+   h¹ = 1 is not a small-sample artefact of the levels scanned — it is a root multiplicity.
+
+**The cusp count is the ceiling.** Rerunning the r6 scan with the number of cusps recorded, over
+every cover of m004 to degree 8 and the named family (42 manifolds profiled):
+
+| cusps (= b₁) | genuine-locus h¹(χ²) distribution | max h¹ |
+|---|---|---|
+| 1 | {1: 1056} | **1** |
+| 2 | {1: 3736, 2: 112} | 2 |
+| 3 | {1: 16112, 2: 344} | 2 |
+
+**One-cusped manifolds carrying h¹ ≥ 2: none.** Not one, in 1056 loci.
+
+The naive determinantal count (corank k has codimension k², so h¹ = k wants b₁ ≥ k²) is too crude —
+it predicts max 1 at b₁ = 2 and 3, and the scan finds 2. The observed bound is the weaker
+**max h¹ ≤ b₁**, and it is not saturated: at three cusps the maximum is still 2.
+
+**The pincer.** Three generations by this mechanism need h¹ = 3, which needs b₁ ≥ 3, which needs at
+least three cusps. But the single variational fact in the whole construction — Jørgensen/Callahan
+minimality, which is what selects m004 in the first place and which §1 of the paper leans on
+entirely — is a statement about **one-cusped** manifolds. The fact that picks the object is the same
+fact that caps its b₁ at 1, and b₁ = 1 is the fact that caps the count at 1. Going multi-cusped to
+raise the count forfeits the reason for choosing the object, and in everything scanned it does not
+even reach 3.
+
+So the honest form of the negative is not "three was not found up to level six". It is: **the count
+this construction computes is a corank bounded by b₁, the object's b₁ is 1 because it is the minimal
+one-cusped manifold, and one is therefore the only answer the machine can give.** Whether that is a
+theorem — no manifold in the commensurability class, at any degree, with a genuine locus at
+h¹(χ²) = 3 — remains open; everything scanned to degree 8 is consistent with it, and the Alexander
+separability above is the shape a proof would take.
