@@ -69,8 +69,11 @@ def main():
     live = [l for l in lanes if l["commits_unique_vs_main"] > 0 and not l["is_dependabot"]]
     same_repo = [l for l in live if not l["other_repository"]]
     unwatched = [l for l in live if not l["watched_by_the_gate"]]
+    # NOTE: main's commit COUNT is deliberately not stored here. It changes with every landing, so an
+    # artefact carrying it is dirty again the moment it is committed -- the same drift-sensitive-literal
+    # class this session spent its time removing from locks. The count is a live measurement; the lock
+    # reads it from git. What IS stored is the structural finding: roots, merge bases, watched status.
     res = {
-        "main_commits": int(git("rev-list", "--count", "origin/main")),
         "main_root": main_root[:8],
         "lanes": lanes,
         "lanes_with_unique_work": len(live),
@@ -82,7 +85,8 @@ def main():
         "unwatched_lanes": [l["ref"] for l in unwatched],
     }
     OUT.write_text(json.dumps(res, indent=1) + "\n")
-    print("main: %d commits, root %s" % (res["main_commits"], res["main_root"]))
+    print("main: %s commits (live, not stored), root %s"
+          % (git("rev-list", "--count", "origin/main"), res["main_root"]))
     print("lanes with unique work: %d, carrying %d unique commits in total"
           % (res["lanes_with_unique_work"], res["total_unique_commits_across_lanes"]))
     print("same-repository lanes: %d | all share main's root: %s | all have a merge base: %s"

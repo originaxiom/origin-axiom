@@ -47,7 +47,11 @@ def test_the_seat_opening_relay_has_a_row():
 def test_the_survey_measures_shared_history_rather_than_totals():
     """the outside claim was drawn from commit TOTALS; the discriminating facts are root and merge base"""
     res = json.loads((SURVEY.parent / "lane_survey.json").read_text())
-    assert res["main_commits"] > 3000
+    # the count is read live, not from the artefact: storing it made the evidence file dirty after
+    # every landing (2026-09-18, the same drift class this session removed from four other locks)
+    live = int(subprocess.run(["git", "rev-list", "--count", "origin/main"], cwd=ROOT,
+                              capture_output=True, text=True).stdout.strip() or 0)
+    assert live > 3000, "main has %d commits" % live
     assert res["every_same_repo_lane_shares_mains_root"] is True
     assert res["every_same_repo_lane_has_a_merge_base"] is True
     assert res["other_repository_lanes"], "the survey no longer separates the other repository's lane"
