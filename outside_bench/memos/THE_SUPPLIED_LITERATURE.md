@@ -312,3 +312,89 @@ Of §1–§7, the findings that survive unchanged are **§2** (Dekimpe–Petrosy
 ℤ₄²`, plus the exceptional-dimension sharpening), **§4** (B1355 not pre-empted; AW quotients CP³ only
 by Zₙ ⊂ U(1); the A-type template; the frozen-E₆ numerology trap refused), **§6** (the census) and
 **§7** (#37). The pre-emption claims of §1(a) and §5 do not.
+
+---
+
+## ADDENDUM 2 (2026-09-18) — A SECOND ROUND, ON THE BOTTLENECKS. **SEARCH-ONLY: every item here is `EXISTS-UNREAD`.**
+
+*No PDF was supplied for anything below. These are search results — they establish that a paper
+**exists** and what it is **titled**, never what it **contains**. The distinction is the one #37 was
+filed for.*
+
+### 1. The destination bottleneck is ALREADY SWEPT — and I had missed the sweep
+
+`docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md` (**SM head only; 0 files on
+main**) covers the modern frame: Pantev–Wijnholt, Braun–Cizel–Hübner–Schäfer-Nameki (1812.06072),
+Barbosa et al. (1906.02212), Acharya–Braun–Svanes–Valandro (1812.04008),
+Acharya–Foscolo–Najjar–Svanes (2011.06998), King–Moretti–Nevzorov (2002.02788). Its verdict on
+B1355's open problem, verbatim:
+
+> *"**The compact chiral G₂ closing does not exist in the literature either.** BCHS (2019): **TCS is
+> non-chiral**, chirality needs a non-TCS singular transition, **none constructed**;
+> **Joyce–Karigiannis resolutions need a nowhere-vanishing harmonic 1-form on the singular locus
+> (b₁ > 0 — not Y₃)**. The corpus's 'named object' is **the field's open problem, not a gap in the
+> record**."*
+
+**Two things follow.** (i) We are not behind the field here — we are at its edge. (ii) The
+Joyce–Karigiannis obstruction lands exactly on §2 of this memo: **Y₃ has b₁ = 0**, now independently
+sourced via Dekimpe–Petrosyan, so that route is closed **for our object specifically**.
+
+**This sweep should be relayed to main** — it is on the SM head only.
+
+### 2. The one bottleneck with a programme we do not cite: **VALUES**
+
+| cluster | main | SM |
+|---|---|---|
+| **G₂-MSSM** (Acharya–Bobkov–Kane–Kumar; `0801.0478`) | **0** | **0** |
+| Bobkov · Kuflik · "Piyush Kumar" | **0** | **0** |
+| Reidegeld, *G₂-orbifolds with ADE-singularities* (habilitation) | **0** | **0** |
+| *Coulomb and Higgs Phases of G₂-manifolds* (2309.12869, 2024) | **0** | **0** |
+
+Search reports the G₂-MSSM stabilises moduli and generates a TeV scale *"with the Planck scale as
+the only dimensionful input"* — a claimed route to **row 3**, our 0-of-19.
+
+**Its track record, which is the decision-relevant part and cuts both ways:** it predicted a Higgs
+mass **≈ 120 GeV in 2008, before the 2012 discovery at 125** — a genuine *ex-ante* number on a value,
+which is precisely what **requirement 7** asks for and no arc of ours has produced. Its **wino-LSP**
+prediction is now in **significant tension** with LHC disappearing-track and long-lived-particle
+searches and with direct detection. So: an existence proof that this frame can yield a testable
+number, **not** a clean success, and **not** a result this bench has read.
+
+### 3. **A GENUINE, NOVEL GAP: our own closing is a candidate cosmic topology**
+
+**The Hantzsche–Wendt manifold — our Y₃ — is `E₆` in the cosmic-topology classification** of
+orientable Euclidean 3-manifolds, and is an active observational candidate for the spatial topology
+of the universe. There is a dedicated paper (**Aurich & Lustig, *The Hantzsche–Wendt Manifold in
+Cosmic Topology*, arXiv:1403.2190**) and a systematic modern programme (the COMPACT collaboration's
+*Cosmic Topology* series: 2211.02603, 2306.17112, 2409.02226, 2503.08671, 2404.01236) which computes
+**eigenmodes and correlation matrices on these manifolds**.
+
+**The #38 check, done properly this time — the fact under ANY name, not just the author I found:**
+
+| probe | result |
+|---|---|
+| `Lustig` · `1403.2190` · `circles in the sky` | **0 / 0 / 0** |
+| files containing `hantzsche`, `didicosm`, `flat 3-manifold` or `spatial topology` **AND** any of `cosmic topology` / `matched circle` / `CMB` | **0 in every case** |
+| B1273's FINDINGS mentioning `cosmic` / `CMB` / `universe` | **0** |
+| `Aurich` | **13 files — but a DIFFERENT context**: Aurich–Steiner–Then on **hyperbolic Maass waveforms** (gr-qc/0404020), used for eigenvalue data. Those files contain **0** mentions of Hantzsche–Wendt |
+
+**So the same author the record already cites for hyperbolic Maass data wrote the paper on our own
+closing as a cosmic topology, and we do not cite it.**
+
+**Fenced, because this is where it would be easy to overreach:**
+- Cosmic topology treats Y₃ as the **spatial slice of the universe**; the record treats it as a
+  **compactification closing**. **Different roles. This is not a direct import** and licenses nothing.
+- **A NOTATION COINCIDENCE, NAMED AS A TRAP:** the HW manifold is labelled **`E₆`** in cosmic
+  topology, and our gauge group is **E₆**. **These are unrelated.** One is the sixth entry in a list
+  of orientable Euclidean 3-manifolds; the other is a Lie group. This memo names it so that no later
+  reader mistakes it for a finding — the same service performed for AW's *"frozen E₆ has t = 3"* in §4.
+- What the literature does have that we might one day want: **worked eigenmodes and correlation
+  matrices on Y₃**. B1273 computes twisted `H¹` there — adjacent, not identical.
+
+### 4. Confirmed COVERED, checked before being named a gap
+
+The **3d-3d correspondence for the figure-eight** (`T[4₁]`, Dimofte–Gukov, Terashima–Yamazaki) is
+cited — B262, B277. **Pantev–Wijnholt**, the source under I-26, is well cited (main 36/37, SM 28/30).
+Neither is a gap.
+
+**Gate 5 untouched. Nothing promotes to `CLAIMS.md`. No value, no generation count, no physics claim.**
