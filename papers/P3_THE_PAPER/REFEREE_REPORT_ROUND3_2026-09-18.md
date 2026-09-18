@@ -624,3 +624,36 @@ That is a real addition to the record, and it is the relay's one substantive con
 **What it does not do.** It is not a generation count, it does not bear on I = t₀ − r₁ = 0, and by
 B488's firewall the symmetries in this lane are flavour, not gauge. The relay's framing — a rival
 non-trivial index on the same objects — does not survive reading either source.
+
+---
+
+## 11. Erratum, and supersession
+
+**This report is superseded by `REFEREE_REPORT_CONSOLIDATED_2026-09-18.md`**, which applies every
+correction in place rather than appending it. Rounds 1–3 remain as the working record.
+
+**One correction not yet made above.** §9.4 states that B307 + B1161 already hold §6's conclusion
+"by a stronger route". **That is wrong, and it was asserted from a CHANGELOG summary rather than
+checked against the records.**
+
+B307's theorem is: *no hyperbolic **knot** can have a cyclic-cubic (C₃) trace field* — because a C₃
+field is Galois, hence totally real, while a hyperbolic manifold's invariant trace field always has
+a complex place. That is a statement about the **Galois multiplicity of a trace field**, not about
+the **corank of a Fox Jacobian at an extension locus**. The two are different quantities, and it is
+a coincidence of small numbers that both take values in {1, 2} — which is very likely why I
+conflated them. Most manifolds in §6's scan are multi-cusped covers, not knot complements, so
+B307's hypothesis does not even apply to them.
+
+And B307 says so itself, explicitly routing the surviving possibility elsewhere: *"three generations,
+if arithmetic, come **only from multiplicity**: the commensurator's hidden ℤ/3, which is the
+arithmetic of the whole **commensurability class**, not a single object's trace field."*
+
+**§6's scan probes exactly that route.** So the relationship is the opposite of subsumption: B307
+closes the single-object trace-field route and names the commensurability class as what remains;
+§6's scan is evidence on what remains, and finds nothing at h¹ = 3 to degree 8. The question stays
+**open**, and §6's value goes up rather than down.
+
+This is the same error class as §9 itself catalogues, running in the other direction: §9 was so
+concerned to credit the record that it credited it with something it had not claimed. The rule that
+would have caught it is the one this review keeps rediscovering — read the record, not a summary of
+the record.
