@@ -398,3 +398,69 @@ cited — B262, B277. **Pantev–Wijnholt**, the source under I-26, is well cite
 Neither is a gap.
 
 **Gate 5 untouched. Nothing promotes to `CLAIMS.md`. No value, no generation count, no physics claim.**
+
+---
+
+## ADDENDUM 3 (2026-09-18) — ROUND 3: THE REMAINING LEDGER ROWS. **SEARCH-ONLY; every item `EXISTS-UNREAD`.**
+
+Rows 4–7 of `TOE_REQUIREMENTS_LEDGER` §A had not been dug. This round covers them, with the **#38
+discipline applied to every item**: census the repo for the FACT under every plausible name, and
+**verify that a numeric hit is a citation and not digits inside data** — a check that changed two of
+the four verdicts below.
+
+### The two genuine gaps, both verified against digit-noise
+
+| paper | row | census | verdict |
+|---|---|---|---|
+| **hep-th/0606285**, *Four-dimensional Effective M-theory on a Singular G₂ Manifold* | **4, dynamics** | grep returns 1 file on each head — **it is digits inside a numerical array, not a citation** | **UNCITED** |
+| **hep-th/0303243**, *Anomalies in M-theory on singular G₂-manifolds* | **6, quantum consistency** | same: 1 file each head, **digit noise in data** | **UNCITED** |
+
+Row 4 in our ledger reads *"the audit seat's conditional 4d compact-E₆ theory … **main has no derived
+action**"*. The first paper's title is, on its face, that derivation in our own frame. **It has not
+been read here** and no claim is made about its contents.
+
+### A structural point about row 5 that may matter more than a citation
+
+**The KK route to 4d gravity is essentially absent from the record:** `11-dimensional supergravity`
+**0**, `eleven-dimensional` **0**, `Kaluza-Klein` **1 file — and that is a toy-matrix truncation
+test**, `11d supergravity` **1 file — and that is cosmological billiards / E₁₀**, a different topic.
+
+Our row 5 reads *"a **spin-2 slot** in the E₆(−26) branch's 64 (B1140); no propagator, no coupling"*,
+graded *"containment, not a theory"*. **That is a slot in a Lie-algebra representation.** The
+standard route in this frame is different: **Kaluza–Klein reduction of 11-dimensional supergravity on
+a compact G₂ manifold yields 4d N=1 supergravity, graviton included** — textbook M-theory, stated
+here as such and not as a claim about either uncited paper.
+
+**The consequence, offered as a reframing and not a result:** if B1355's **compact** G₂ closing
+existed, **4d gravity would follow by standard KK reduction — it is not a separate thing to derive.**
+On that reading **row 5 is downstream of the compactness problem, not parallel to it**, and the
+ledger's seven rows contain fewer independent bottlenecks than the table's shape suggests. **This
+should be checked by someone who reads the two papers before it is relied on.**
+
+### Checked and NOT a gap — B1265's territory is thoroughly covered
+
+Before calling the E₆ real-form fork under-read, the census (the rule that has caught me twice):
+
+| | main | SM |
+|---|---|---|
+| `Jordan algebra` · `exceptional Jordan` | **32 · 27** | 31 · 26 |
+| `Baez` · `Boyle` · `Todorov` · `Dubois-Violette` · `Furey` | **33 · 35 · 20 · 15 · 12** | 33 · 34 · 18 · 15 · 12 |
+| `1806.09450` (Todorov–Dubois-Violette) · `Albert algebra` · `U-duality` · `octonion` | **4 · 11 · 4 · 71** | 4 · 4 · 4 · 57 |
+
+**Well cited. Not a gap.** Recorded because the negative result is as much a finding as the positives
+— and because two rounds of this session were spent correcting gaps I declared without this check.
+
+### Housekeeping — a lost check, recorded rather than assumed clean
+
+The Explore agent dispatched in round 1 to census the per-object literature (including the
+`Helling / Kim / Mennicke` probe) **never returned its result, and none arrived on re-check.** It is
+recorded here as **lost**, not as clean. This is the same failure #38 named as aggravating — *"a
+check you launch and do not read is worse than one you never ran"* — and it is written down so a
+second one is not silently inherited.
+
+### Still the top download ask
+
+**`0801.0478` (G₂-MSSM)** — row 3, values, the one bottleneck with a programme we have never read. It
+cannot be actioned from this container: `WebFetch` is EGRESS_BLOCKED on every academic host.
+
+**Gate 5 untouched. Nothing promotes to `CLAIMS.md`. No value, no generation count, no physics claim.**
