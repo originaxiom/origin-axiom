@@ -157,3 +157,31 @@ available is not a licence. **The owner opened it and supplied the PDF.** Parsed
 > the content is free, the route is known, and taking it would override an operator's deliberate
 > control.** That is not an access failure and must not be logged as one; **it is a request to make
 > of a human.**
+
+---
+
+## AMENDMENT 5 — Meyerhoff–Ouyang obtained; the blocker is retired (2026-09-18, xB023 Addendum 1)
+
+| source | grade change | what it says |
+|---|---|---|
+| **R. Meyerhoff and M. Ouyang**, *The η-invariants of cusped hyperbolic 3-manifolds*, **Canad. Math. Bull. 40(2) (1997) 204–213** | **UNREAD → READ-AT-SOURCE** | **Def. 2.1** defines `η(M)` for cusped M **after fixing a meridian–longitude pair at each cusp**. **Prop. 2.2:** *"η(M) differs only by **one-third of an integer** when different choices of the meridian-longitude pairs are made."* **Prop. 2.4:** `η(L*) = −η(L)`. **Cor. 2.5:** *"If L is an amphicheiral hyperbolic knot or link, then η(L) = 0"* — **hypothesis: `L ⊂ S³`**. |
+
+**L194's named blocker is retired.** The register listed MO as the one source whose absence held the
+lead's open half; it is now read, and what it gives is recorded above.
+
+**What it settles:** the **"cusp-basis correction"** the register has carried as a **conjecture since
+2026-09-02** is **`(1/3)ℤ`**. And **`η(m004) = 0` is now a theorem** (Cor. 2.5 on an amphichiral knot
+in S³), while **m003 lies outside the corollary's hypothesis** — S³ complements have torsion-free
+`H₁` and `H₁(m003) = ℤ ⊕ ℤ/5`.
+
+**What it does NOT settle, and a sealed prediction of this seat's that died proving it.** xB023
+Addendum 1 §3 predicted that no quarter-class amphichiral manifold would have `H₁ ≅ ℤ`; the full
+census gives **14 of 106** (zero class) against **1 of 75** (quarter class, `o10_143849`), the
+vacuity control passed, and **the prediction is refuted**. **Cor. 2.5 gives `η = 0`, not `cs = 0`** —
+and **Prop. 2.2's `(1/3)ℤ` slack is exactly what blocks that step in the cusped case**, since `3η` is
+then well-defined only mod `ℤ`. **The addendum's own §4 said this before §3 was tested.**
+
+> **The lesson for this register, and it is not the obvious one.** Obtaining a blocker does not
+> close what the blocker was blocking. **MO's arrival retired the ACCESS problem and left the
+> MATHEMATICAL one standing** — `L194`'s general cusp-local lemma is **still open**. A source moved
+> from UNREAD to READ-AT-SOURCE **and the lead did not move with it.**

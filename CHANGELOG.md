@@ -1,5 +1,21 @@
 # Changelog
 
+## xB023 Addendum 1 — Meyerhoff–Ouyang read; a sealed prediction of ours refuted
+
+**L194's named blocker is retired.** **Prop. 2.2** quantifies the cusp-basis correction the register
+has conjectured since 2026-09-02: **`(1/3)ℤ`**. **Cor. 2.5** (`L ⊂ S³`) makes **`η(m004) = 0` a
+theorem**, and **m003 lies outside its hypothesis** — S³ complements have torsion-free `H₁`, and
+`H₁(m003) = ℤ ⊕ ℤ/5`.
+
+**Our sealed prediction died.** We predicted no quarter-class amphichiral manifold has `H₁ ≅ ℤ`; the
+census gives **14/106** (zero) against **1/75** (quarter, `o10_143849`). Vacuity control passed, so
+the refutation is real: **Cor. 2.5 does not govern the 0-vs-¼ split.** Why — **Cor. 2.5 gives
+`η = 0`, not `cs = 0`**, and Prop. 2.2's slack blocks that step. **§4 of the addendum said so before
+§3 was tested; §3 took the blocked step anyway.**
+
+> **Obtaining a blocker does not close what the blocker was blocking.** The access problem retired;
+> the mathematical one stands. **L194 is still open.**
+
 ## xB024 Addendum 3 — Meyerhoff–Neumann obtained: L194's machinery in hand, their example at our volume
 
 **UNREAD → READ-AT-SOURCE** (Comment. Math. Helv. **67** (1992) 28–46). The free ETH copy sits behind

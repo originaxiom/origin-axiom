@@ -17453,3 +17453,58 @@ orientation reversal, gives a **functional equation in the explicit integer `I(p
 Dedekind-sum object whose `GL(2,ℤ)` behaviour is classical **and computable on this bench**.
 
 **Gates 35/35. No value. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-18 — xB023 ADDENDUM 1: MEYERHOFF–OUYANG READ; A SEALED PREDICTION OF THIS SEAT'S REFUTED
+
+**The owner supplied the PDF.** R. Meyerhoff and M. Ouyang, *The η-invariants of cusped hyperbolic
+3-manifolds*, **Canad. Math. Bull. 40(2) (1997) 204–213**. **UNREAD → READ-AT-SOURCE.**
+**L194's named blocker is retired.** Gates 35/35.
+
+### What the paper settles
+
+> **PROPOSITION 2.2.** *"η(M) differs only by **one-third of an integer** when different choices of
+> the meridian-longitude pairs are made."*
+
+**The "cusp-basis correction" the register has carried as a conjecture since 2026-09-02 is
+`(1/3)ℤ`.** CGHN could say only *"a chosen basis of homology at each cusp"*; this is the number.
+
+> **COROLLARY 2.5.** *"If `L` is an amphicheiral hyperbolic knot or link, then `η(L) = 0`"* —
+> **hypothesis: `L ⊂ S³`.**
+
+**`η(m004) = 0` is now a theorem** (m004 = S³∖4₁, and 4₁ is amphichiral). **m003 lies outside the
+hypothesis**, checkably: S³ knot and link complements have **torsion-free `H₁`**, and
+`H₁(m003) = ℤ ⊕ ℤ/5`. **The corollary is silent on the sister, so its `¼` contradicts nothing.**
+
+### And a sealed prediction of this seat's died proving it
+
+§3 predicted, sealed at `44463e70` before the cell existed: **no quarter-class amphichiral manifold
+has `H₁ ≅ ℤ`.** Full one-cusped census, 0 errors:
+
+| | amphichiral | with `H₁ ≅ ℤ` |
+|---|---|---|
+| **zero** class | 106 | **14** |
+| **quarter** class | 75 | **1** — `o10_143849` |
+
+**The vacuity control passed** (the predicate discriminates), so this is a **real refutation**:
+**Corollary 2.5 does NOT govern the `0`-vs-`¼` split.** The asymmetry is large — **13.2 % against
+1.3 %** — but **that is a measured rate, not the claim that was made**, and it is not promoted.
+
+**Why it failed, and §4 said so before §3 was tested.** **Cor. 2.5 gives `η = 0`, not `cs = 0`.**
+Prop. 2.2's `(1/3)ℤ` slack is exactly what blocks that step in the cusped case: `3η` is then
+well-defined only mod `ℤ`, so a cusped `3η ≡ 2cs + τ (mod 2)` pins `cs` only mod `½` — **the
+resolution SnapPy already has. The prediction took the blocked step anyway.**
+
+**Residue, one line and no more:** `o10_143849`'s `H₁ ≅ ℤ` is **necessary, not sufficient** for being
+an S³ knot complement; whether it is one is **unchecked**. If it is not, the refutation is of this
+seat's inference rather than of any reading of the paper — **and either way the prediction is dead
+as stated.**
+
+### The lesson, and it is not the obvious one
+
+> **Obtaining a blocker does not close what the blocker was blocking.** MO's arrival retired the
+> **access** problem and left the **mathematical** one standing. **A source moved from UNREAD to
+> READ-AT-SOURCE and the lead did not move with it. L194 is still open.**
+
+**No physics result here, and none is claimed. Gate 5 absolute. Nothing to `CLAIMS.md`.**

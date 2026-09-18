@@ -71,3 +71,50 @@ cusped analogue of APS's `3η ≡ 2cs + τ (mod 2)` would pin `2cs + τ` only **
 **mod ½**. **That is exactly the resolution SnapPy already has**, so the `0`-vs-`½` refinement stays
 invisible and **L194's general cusp-local lemma is NOT closed by this reading.** What *is* closed is
 the **object's own case**, twice over.
+
+
+---
+
+## 5. THE RESULT: THE KILL CONDITION FIRED. THE PREDICTION IN §3 IS REFUTED.
+
+`verification/mo_corollary.py`, full one-cusped orientable census, **0 errors**:
+
+| | amphichiral | with `H₁ ≅ ℤ` exactly |
+|---|---|---|
+| CS class **zero** | 106 | **14** (m004, s726, s912, t07734, t12071, t12587, …) |
+| CS class **quarter** | 75 | **1** — **`o10_143849`** |
+
+**§3 predicted NONE in the quarter class. There is one. The prediction is REFUTED and
+Corollary 2.5 does NOT govern the `0`-vs-`¼` split.**
+
+**The vacuity control passed** — 14 of the zero class do carry `H₁ ≅ ℤ`, so the predicate
+discriminates and this is a real refutation, not a hollow one.
+
+**The asymmetry is nonetheless real and large:** **13.2 %** of the zero class against **1.3 %** of
+the quarter class. **That is a measured rate difference and NOT the claim that was made**, and it is
+not promoted to one here.
+
+### Why it failed — and §4 said so before the cell ran
+
+**Corollary 2.5 gives `η = 0`, not `cs = 0`.** The step from `η` to `cs` in the **cusped** case is
+exactly what **Proposition 2.2's `(1/3)ℤ` slack blocks**: `3η` is well-defined only mod `ℤ`, so a
+cusped analogue of `3η ≡ 2cs + τ (mod 2)` pins `cs` only mod `½` — **the resolution SnapPy already
+has.** §4 of this addendum stated that **before** the prediction was tested, and §3's prediction
+**took the blocked step anyway.** The seal recorded both, so the failure is visible rather than
+reconstructable.
+
+**A residue worth one line, and not more:** `o10_143849` has `H₁ ≅ ℤ` — **necessary, not sufficient**
+for being a knot complement in S³. Whether it actually is one is **unchecked**, and if it is not,
+Corollary 2.5 never applied to it and the refutation is of this seat's inference rather than of any
+reading of the paper. **Either way §3's prediction is dead as stated.**
+
+### What survives, unaffected
+
+- **`η(m004) = 0`**, by Corollary 2.5 applied to an amphichiral knot in S³ — **a theorem, read at
+  source**.
+- **m003 is not a knot or link complement in S³** (`H₁ = ℤ ⊕ ℤ/5` has torsion; S³ complements are
+  torsion-free), so Corollary 2.5 is **silent** on it.
+- **The cusp-basis correction is `(1/3)ℤ`** (Prop 2.2), retiring a conjecture the register carried
+  since 2026-09-02.
+
+**None of these is a physics result, and none is presented as one. L194 remains open.**

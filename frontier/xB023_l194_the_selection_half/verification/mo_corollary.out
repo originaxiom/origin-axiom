@@ -2,3 +2,22 @@
 M1       MO COROLLARY 2.5 AGAINST THE 0-vs-1/4 SPLIT
          Cor 2.5 needs L in S^3.  A knot complement has H_1 = Z, a link complement Z^h;
          both TORSION-FREE.  So torsion-free H_1 is NECESSARY, not sufficient.
+         amphichiral one-cusped: zero 106, quarter 75, other 0; errors 0
+         with H_1 = Z exactly --  ZERO class: 14 of 106
+                                  QUARTER class: 1 of 75
+         zero-class examples with H_1 = Z: ['m004(0,0)', 's726(0,0)', 's912(0,0)', 't07734(0,0)', 't12071(0,0)', 't12587(0,0)']
+         quarter-class examples with H_1 = Z: ['o10_143849(0,0)']
+         CONTROL -- is the test vacuous (neither class has any)? False
+         *** THE KILL CONDITION FIRED: a quarter-class amphichiral manifold has
+         H_1 = Z.  Either it is not an S^3 knot complement despite the homology, or
+         the cusped eta-cs relation carries slack the closed one does not.
+         THE OBJECT AND ITS SISTER:
+           m004: H_1 = Z  torsion-free: True  CS class zero
+           m003: H_1 = Z/5 + Z  torsion-free: False  CS class quarter
+         m004 IS S^3 minus the figure-eight knot and the knot IS amphichiral, so
+         Cor 2.5 gives eta(m004) = 0 outright.  m003's H_1 HAS TORSION, so it is not a
+         knot or link complement in S^3 and Cor 2.5 is SILENT on it.
+M1 FAIL  (the cell ran correctly; its CONTENT is the verdict above)
+
+==============================================================================
+NOT ALL CELLS PASSED

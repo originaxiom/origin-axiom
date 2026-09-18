@@ -1,0 +1,28 @@
+{
+ "cells": {
+  "M1": false
+ },
+ "results": {
+  "M1": {
+   "zero_n": 106,
+   "quarter_n": 75,
+   "other_n": 0,
+   "errors": 0,
+   "zero_with_H1_Z": 14,
+   "quarter_with_H1_Z": 1,
+   "zero_examples": [
+    "m004(0,0)",
+    "s726(0,0)",
+    "s912(0,0)",
+    "t07734(0,0)",
+    "t12071(0,0)",
+    "t12587(0,0)"
+   ],
+   "quarter_examples": [
+    "o10_143849(0,0)"
+   ],
+   "vacuous": false,
+   "prediction_holds": false
+  }
+ }
+}
