@@ -1,0 +1,42 @@
+{
+ "id": "xB027",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "depends_on": [
+  "xB026",
+  "xB022",
+  "xB021",
+  "B1374",
+  "B1375",
+  "B1413",
+  "xB025"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B1375_the_towers_generation_count",
+   "outcome": "CONFIRMED",
+   "what": "REPRODUCED EXACTLY as the binding control C1, from its own machinery re-pointed at the bundle names: Y_2 N=60 primes [421,541,601] |Hom|=300 loci 9 firing 16 backgrounds 0; Y_3 N=12 primes [409,421,433] |Hom|=192 loci 31 firing 0 backgrounds 0; Y_4 N=60 |Hom|=2700 loci 89 firing 976 backgrounds 12 800 on 64 loci with signs {-1: 6400, 1: 6400} and |count| {1: 12800}. Spurious locus counts [0,0,0] and h^1(chi^2) = 1 at every locus also reproduce. One difference noted and explained: cusp exponent pairs read (0,30) where B1375 reads (30,0) and mu null-homologous flips -- a meridian/longitude RELABELLING between the bundle and cover presentations, which cannot affect the census because T5 conditions on BOTH peripheral curves and is invariant under the swap."
+  },
+  {
+   "arc": "B1374_the_class_index_in_the_sm_frame",
+   "outcome": "NOT_RERUN",
+   "why": "its SM frame, its index_lib and its census algorithm are USED here, borrowed with a provenance header and byte-identical for index_lib.py, not re-derived. This arc verifies nothing of B1374's own nineteen-thousand-module recomputation and restates none of it; it only runs B1374's frame on a different manifold."
+  },
+  {
+   "arc": "xB026_the_generation_count_orbit",
+   "outcome": "CONFIRMED",
+   "what": "its G2/G3 finding that A5 moves H_1 and the modulus N is confirmed in the census's own arithmetic: the sister's Y_2/Y_3/Y_4 run at N = 12, 60, 84 against the object's 60, 12, 60, with 17/39/97 loci against 9/31/89. Its G5 fence -- that a moved locus may not be read as a moved count -- is now DISCHARGED by measurement rather than left open: the loci moved and the count did not."
+  },
+  {
+   "arc": "B1413_the_audit_lanes_r21_r31",
+   "outcome": "CONFIRMED",
+   "what": "its R27 is what makes this arc's fence a theorem rather than a caution: Menal-Ferrer-Porti Theorem 0.1 makes the one-cusped index a theorem-zero on the geometric finite-twist class, so every firing counted here necessarily lives outside that class, on non-semisimple backgrounds, exactly as B1374/B1375 fence themselves."
+  }
+ ],
+ "claim_one_line": "THE GENERATION COUNT IS STABILISER-FIXED: ONE IS THE INVARIANT AND THE BACKGROUNDS ARE THE ORBIT. PREREGISTRATION sealed 21f5b2fac12bb5d2 and PUSHED at 61331ec3 before verification/ existed, with C1 a BINDING CONTROL and a BINDING KILL CONDITION on any |count| != 1. xB026 showed A5 moves the census's inputs at 6 of 6 levels but could not compute the count; this arc computes it, using the SM-derivation lane's own machinery BORROWED WITH PROVENANCE (index_lib.py byte-identical by diff; tower_generations.py adapted at exactly two lines, both documented). C1 PASSED EXACTLY on all three levels of the object's own tower against B1375's published output, including 12 800 generation-shaped backgrounds on 64 loci with signs {-1: 6400, 1: 6400} at Y_4, so sister numbers became reportable. THE RESULT: on the A5 image b+-(LR)^n, Y_2 and Y_3 give 0 backgrounds as on the object's tower, and Y_4 gives 384 backgrounds on 96 loci, signs {1: 192, -1: 192}, |count| {1: 384}, nu^c = 0 on all 384. BOTH SEALED PREDICTIONS HOLD AND THE KILL CONDITION DID NOT FIRE: the NUMBER of backgrounds differs (384 against 12 800), as the moved loci, moved H_1 and moved N required, and the COUNT IS EXACTLY ONE ON BOTH TOWERS -- never two, never three. AND THE MECHANISM TRANSFERS: h^1(chi^2) = 1 at every locus on every level of the sister's tower too (17 of 17, 39 of 39, 97 of 97), which is precisely what bounds |I| <= 1, so the count cannot exceed one on either tower for a structural reason rather than a numerical accident. THE CONSEQUENCE: the generation count belongs with VOLUME AND THE TRACE FIELD, the invariants with a trivial orbit, and not with CS and H_1. A5 moves the backgrounds and does not move the count. 'Three generations is not derivable from this object' therefore stops being a vague absence and becomes THEOREM-SHAPED ON THIS MECHANISM. A mathematical trap avoided and recorded: the published driver builds m004.covers(n, cyclic)[0], and pointing that at m003 would have SILENTLY CENSUSED THE WRONG MANIFOLDS -- m004 has H_1 = Z so its cyclic cover is unique and IS b++(LR)^n, while m003 has Z/5 + Z, its degree-2 cyclic cover has H_1 = Z/5 + Z where the bundle has Z + (Z/3)^2, and at degree 5 there are SIX of them, tripping the original's uniqueness assert. Claims no generation count for physics and promotes nothing, inheriting B1374/B1375's fence verbatim -- main's index on a non-semisimple background -- which B1413's R27 makes a theorem rather than a caution. Does not re-derive the SM frame; uses the lane's. Supplies no value. Gate 5 absolute; nothing to CLAIMS.md."
+}

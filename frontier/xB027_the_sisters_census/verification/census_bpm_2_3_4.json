@@ -1,0 +1,196 @@
+{
+ "2": {
+  "n": 2,
+  "H1": "Z/3 + Z/3 + Z",
+  "N": 12,
+  "primes": [
+   409,
+   421,
+   433
+  ],
+  "hom": 108,
+  "loci": 17,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "mu_null": true,
+  "candidates": 153,
+  "firing": 64,
+  "rechecked": 64,
+  "differing": 0,
+  "generation_backgrounds": 0,
+  "loci_used": 0,
+  "signs": {},
+  "kvals": {},
+  "nu": {},
+  "yord": {},
+  "gord": {},
+  "joint_sign_singlet": {},
+  "examples": [],
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aaCBacb",
+   "accbcAB"
+  ],
+  "mu": "CAbAcAB",
+  "lam": "CAbA"
+ },
+ "3": {
+  "n": 3,
+  "H1": "Z/2 + Z/10 + Z",
+  "N": 60,
+  "primes": [
+   421,
+   541,
+   601
+  ],
+  "hom": 1200,
+  "loci": 39,
+  "spurious": [
+   0,
+   16,
+   0
+  ],
+  "mu_null": true,
+  "candidates": 780,
+  "firing": 64,
+  "rechecked": 64,
+  "differing": 0,
+  "generation_backgrounds": 0,
+  "loci_used": 0,
+  "signs": {},
+  "kvals": {},
+  "nu": {},
+  "yord": {},
+  "gord": {},
+  "joint_sign_singlet": {},
+  "examples": [],
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aababCbbAc",
+   "aBaBBcaabC"
+  ],
+  "mu": "BabA",
+  "lam": "BcBAA"
+ },
+ "4": {
+  "n": 4,
+  "H1": "Z/7 + Z/7 + Z",
+  "N": 84,
+  "primes": [
+   421,
+   673,
+   757
+  ],
+  "hom": 4116,
+  "loci": 97,
+  "spurious": [
+   4,
+   0,
+   0
+  ],
+  "mu_null": true,
+  "candidates": 4753,
+  "firing": 1344,
+  "rechecked": 1344,
+  "differing": 0,
+  "generation_backgrounds": 384,
+  "loci_used": 96,
+  "signs": {
+   "1": 192,
+   "-1": 192
+  },
+  "kvals": {
+   "1": 384
+  },
+  "nu": {
+   "0": 384
+  },
+  "yord": {
+   "1": 384
+  },
+  "gord": {
+   "7": 192,
+   "14": 192
+  },
+  "joint_sign_singlet": {
+   "+1,+0": 192,
+   "-1,+0": 192
+  },
+  "examples": [
+   [
+    0,
+    [
+     0,
+     12,
+     36
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     24,
+     0,
+     48
+    ],
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ]
+   ],
+   [
+    0,
+    [
+     0,
+     12,
+     36
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     24,
+     36,
+     72
+    ],
+    [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     0
+    ]
+   ]
+  ],
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abcbccbccAcBcBB",
+   "abcbccAbbCbbCbC"
+  ],
+  "mu": "bcBC",
+  "lam": "aCCBCBC"
+ }
+}

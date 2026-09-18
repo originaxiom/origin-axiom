@@ -17198,3 +17198,59 @@ presentation. **Reported as not landing** rather than quietly dropped.
 
 **Claims no generation count; promotes nothing to physics; inherits B1374/B1375's own fence.
 Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-18 — xB027: THE GENERATION COUNT IS STABILISER-FIXED (seat `xb`, `sep16-branch`)
+
+**PREREGISTRATION sealed `21f5b2fac12bb5d2…` and PUSHED at `61331ec3` before `verification/`
+existed**, with **C1 a binding control** and a **binding kill condition** on any `|count| ≠ 1`.
+**Verdict NEGATIVE — a theorem-shaped one. Gates 35/35.**
+
+xB026 named the bounded step; **this arc ran it**, with the SM-derivation lane's machinery
+**borrowed with provenance** (`index_lib.py` byte-identical by `diff`; the driver adapted at exactly
+two lines). **The algorithm is seat `cc`'s and is not this seat's work.**
+
+### C1 — the binding control, passed exactly
+
+All three levels of the object's own tower reproduce B1375's published output to the digit,
+including **Y₄: 12 800 backgrounds on 64 loci, signs `{−1: 6400, 1: 6400}`, `|count| {1: 12800}`**.
+**One difference noted rather than papered over:** cusp exponents read `(0,30)` where B1375 reads
+`(30,0)` — a **meridian/longitude relabelling** between bundle and cover presentations, invariant
+for T5 (which conditions on **both** curves), consistent with every downstream number matching.
+
+### The result
+
+| level | `b++(LR)ⁿ` (object) | `b+-(LR)ⁿ` (A5 image) |
+|---|---|---|
+| Y₂ | 9 loci, 16 firing → **0** | 17 loci, 64 firing → **0** |
+| Y₃ | 31 loci, 0 firing → **0** | 39 loci, 64 firing → **0** |
+| Y₄ | 89 loci, 976 firing → **12 800 on 64 loci** | 97 loci, 1344 firing → **384 on 96 loci** |
+
+**Both sealed predictions hold; the kill condition did not fire.** The **number** differs — 384
+against 12 800 — and **the count is exactly one on both towers.** Signs split evenly on both;
+`ν^c = 0` on all 384.
+
+**And the mechanism transfers:** `h¹(χ²) = 1` at **every** locus on **every** level of the sister's
+tower (17/17, 39/39, 97/97). That is what bounds `|I| ≤ 1`, and it is **not special to m004**.
+
+> **THE GENERATION COUNT IS STABILISER-FIXED.** It belongs with **volume and the trace field**, not
+> with `CS` and `H₁`. **A5 moves the backgrounds; it does not move the count. One is the invariant.**
+>
+> *"Three generations is not derivable from this object"* stops being a vague absence and becomes
+> **theorem-shaped on this mechanism.**
+
+### The trap that was avoided, recorded so nobody walks into it
+
+The published driver builds `m004.covers(n, cyclic)[0]`. **Pointing that at `m003` would have
+silently censused the wrong manifolds.** m004 has `H₁ = ℤ`, so its cyclic cover is unique and **is**
+`b++(LR)ⁿ`. m003 has `ℤ⊕ℤ/5`: its degree-2 cyclic cover has `H₁ = ℤ⊕ℤ/5` where the bundle has
+`ℤ⊕(ℤ/3)²`, and **at degree 5 there are six of them**, tripping the original's uniqueness assert.
+The driver is pointed at the **bundle name**, and C1 proves the substitution exact where the answer
+was already published.
+
+**Fence inherited verbatim from B1374/B1375** — main's index on a **non-semisimple** background —
+which **B1413's R27 makes a theorem**: the index is a theorem-zero on the geometric finite-twist
+class, so every firing counted here lives outside it **by necessity**.
+
+**No value. Gate 5 absolute. Nothing to `CLAIMS.md`.**

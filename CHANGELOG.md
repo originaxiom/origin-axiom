@@ -1,5 +1,26 @@
 # Changelog
 
+## xB027 — the generation count is stabiliser-fixed: one is the invariant, the backgrounds are the orbit
+
+Ran B1374's census on the sister's tower with the lane's own machinery, **borrowed with provenance**
+(`index_lib.py` byte-identical; driver adapted at two documented lines). **C1, the binding control,
+passed exactly** — all three levels of the object's tower reproduce B1375's published output,
+including **12 800 backgrounds on 64 loci** at Y₄.
+
+**Result:** on `b+-(LR)ⁿ`, Y₂ and Y₃ give **0**, and Y₄ gives **384 backgrounds on 96 loci, signs
+`{1:192, −1:192}`, `|count| {1: 384}`**. The **number** differs (384 vs 12 800); **the count is
+exactly one on both towers — never two, never three.** The kill condition did not fire.
+
+**The mechanism transfers:** `h¹(χ²) = 1` at every locus on every level of the sister's tower too,
+which is what bounds `|I| ≤ 1`. Not special to m004.
+
+> **The generation count belongs with volume and the trace field — trivial orbit.** A5 moves the
+> backgrounds, not the count. *"Three is not derivable from this object"* becomes **theorem-shaped
+> on this mechanism**.
+
+**A trap recorded:** pointing the driver at `m003.covers(n)` would have silently censused the wrong
+manifolds — m003's cyclic covers are not the bundle tower, and at degree 5 there are six of them.
+
 ## xB026 — does A5 move the generation count? The inputs move; the count is now sharply open
 
 **DECIDED:** `H₁` of the object's tower `b++(LR)ⁿ` and of its A5 image `b+-(LR)ⁿ` **differ at 6 of 6
