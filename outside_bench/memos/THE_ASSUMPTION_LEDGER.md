@@ -153,7 +153,9 @@ quotation below checked against the file before this addendum was written, #26):
 | `b₂(X) ≥ 2` | `b₂ = 0` — fails | **`b₂ = 2`** (cover **and** descent) | **SATISFIED** |
 | the ℤ/3 **moves** the harmonic 2-forms | vacuous | deck acts **trivially** on both added 2-forms | **FAILS** |
 
-**That is exactly memo 233's no-inflow case.** Memo 233 derived, from the B1355 charge sum rule plus
+**That is exactly memo 233's no-inflow case.** *(The "neither cites the other" clause below is
+withdrawn in ADDENDUM 2 §2: independent at derivation, but main's B1414 harvested memo 233 and
+sm:B1356's currency note cites B1414.)* Memo 233 derived, from the B1355 charge sum rule plus
 the representation theory of ℤ/3 on ℝ^{b₂}, that a ℤ/3 which **permutes the apexes and fixes `w`**
 gives equal charges, hence `3q = 0`, hence `q = 0` and **no inflow** — and that escape requires
 `b₂ ≥ 2` **with the ℤ/3 moving the harmonic forms**. B1357 computed, on the object's own compact flat
@@ -186,6 +188,10 @@ of size 1) must come back as `3 × trivial`, character `(3, 3, 3)`, **irrep dime
 Both controls PASS; `certificates/the_a6_retag.py` exits 0.
 
 ### 4. **A6's honest status**
+
+> **PARTLY SUPERSEDED BY ADDENDUM 2 §3 (same session).** *"reduced to compactness alone"* is
+> **WITHDRAWN**: the three-apex design carries computed negatives independent of compactness
+> (sm:B1361, sm:B1365 — *"excluded as it stands"*). The retag itself stands.
 
 > **COMPUTED AND FAILING** in the flat class and its Joyce resolution (B1357, stage 7).
 > **OPEN** in the curved class, with the mechanism named and the obstruction reduced to
@@ -223,6 +229,10 @@ exists.** Main needs it. This joins the standing relay items: `LITERATURE_SWEEP_
 SM-head-only, and B1273 / B1271 / B1353 / B1355 are 0 files on main.
 
 ### 7. **THE OPEN CLAIM, CHECKED ON ITS OWN TERMS (memo 153), AND WHAT THE CHECK TURNED UP**
+
+> **ITS RELAY IS VOID — SEE ADDENDUM 2 §1 (same session).** `main` harvested all ten arcs on
+> **2026-09-16** as `B1415`, which was in this working tree while §7 was being written. The
+> all-heads diff counts **directory names**, and main harvests under its **own** arc numbers.
 
 The one OPEN claim this addendum makes — *the compact curved closing is not built* — was run through
 `scripts/checks/already_banked.py --wide` before it was written. **Searched terms, stated with the
@@ -262,3 +272,80 @@ run beside it. That is now two instruments for one rule.
 all** — records the SM seat's last arc as **B1355**, while that head carries **B1359**. The coupon
 register is four arcs stale on the lane that holds the object's own compact G₂ orbifold, which is
 also why the SM head's arcs keep arriving here as surprises.
+
+---
+
+## ADDENDUM 2 (2026-09-18) — **ADDENDUM 1's RELAY IS VOID AND ITS A6 STATUS WAS TOO GENEROUS. MAIN HARVESTED ALL TEN ARCS TWO DAYS AGO, AND THE CURVED DESIGN CARRIES COMPUTED NEGATIVES.**
+
+Written the same session as ADDENDUM 1, against it.
+
+### 1. The relay is void — **`main` has the content; it does not have the directory names**
+
+ADDENDUM 1 §7 said *"`main` has 0 files of B1350–B1359 … Main needs it."* The file count is true and
+**the inference from it is false.** `frontier/B1415_the_sm_seats_closing_arcs_harvested` — **on `main`
+and sitting in this working tree the whole time** — is dated **2026-09-16** and reads:
+
+> *"THE SM SEAT'S CLOSING ARCS HARVESTED (sm:B1356–B1365, THE CLOSING, sm:L214/L215): **ten scripts
+> re-run green and log-identical**, the load-bearing numbers recomputed on main's own code … **Verdict:
+> VERIFIED** (ten arcs: the seat's grades stand; nothing raised, nothing lowered without a computation)"*
+
+Every arc ADDENDUM 1 relayed is there with its own recomputation, including sm:B1357 (*"the T⁴/2T orbit
+census reproduced by the same Burnside machinery"*), sm:B1358 (*"VERIFIED (companions); the mixed-loci
+typing REGISTERED as argued"*) and sm:B1359 (*"`burnside_k3.py` … exactly the two solutions, both of
+rank 19"*). Main also logged the **bookkeeping back to the seat** — including that sm:B1358's mixed-loci
+typing and sm:B1360's `b₂(link) = 1` are **argued, not computed**.
+
+**The instrument lesson, and it is a sharpening of #34 rather than a repeat of it.** The all-heads diff
+I built counts **directory names**. Main **harvests content under its own arc numbers** — `B1416`
+states it outright: *"eleven were already on main under other arc numbers"*. So:
+
+> **#34, sharpened (#39): A DIRECTORY-NAME DIFF MEASURES NAMES, NOT CONTENT. Before relaying "main does
+> not have X", grep main for X's OWN LOAD-BEARING STRINGS, not for X's arc number.**
+
+**BENCH ERROR, fourth instance of the class.** ADDENDUM 1 §7 presented the diff as the repair for
+`already_banked.py`'s blindness — and the diff had the same blindness in a different coordinate.
+
+### 2. The independence claim, corrected
+
+ADDENDUM 1 §2 said memo 233 and B1357 are *"two independent routes, neither citing the other."*
+**Independent at derivation: yes** — and that is the part worth keeping. **"Neither cites the other":
+no longer true.** `frontier/B1414_the_outside_benchs_memos_185_233_harvested` (main, 2026-09-16)
+harvested memo 233 — *"memo 233's forced escape clause re-derived and its v1 vacuity confirmed"*,
+graded **REPRODUCED** — and sm:B1356's currency note **cites B1414 by name**. The convergence stands;
+the "neither cites" clause does not, and is withdrawn.
+
+*(Recorded because it is a check on this bench and not a compliment: main's re-run of
+`the_two_threes_v2.py` reports six of seven controls PASS, with **V-CROSS failing on the bench's volume
+tolerance only** — the (1,0)-filled 3-cover prints 1e−6 at working precision while H₁ = ℤ/4 ⊕ ℤ/4
+matches; main's own check passes at 1e−4.)*
+
+### 3. **A6's status, corrected in the direction that costs us something**
+
+ADDENDUM 1 §4 said the curved class is *"OPEN … with the obstruction reduced to compactness alone."*
+**That last word is wrong, and the guard in this cell's own plan named exactly this failure mode.**
+The three-apex curved design is not merely unbuilt. **It already carries computed negatives that have
+nothing to do with compactness**, each at the strength its arc gives it:
+
+| arc | grade | what it computes about the three-apex design |
+|---|---|---|
+| **sm:B1361** THE DECK'S TEXTURE | **NEGATIVE** | under the two apex U(1)s the only invariant E₆ cubic is `27₁27₂27₃`, so Higgs in the apex 27s makes **every tree-level charged-fermion mass matrix complex symmetric with zero diagonal**, forcing `σ₁ = σ₂ + σ₃` exactly — **refuted in every charged sector**. Main recomputed it: `σ₁ − σ₂ − σ₃ = 0 to 2e−15` over 2 000 random hollow complex symmetric 3 × 3 |
+| **sm:B1362** | PROVED | the deck-symmetric Yukawa is `circ(x, y, y)`, eigenvalues `x + 2y, x − y, x − y` — **the deck must be broken** to get a hierarchy |
+| **sm:B1365** THE BULK OF THE LINE | NEGATIVE | both E₆-charged SM singlets carry `γ = −5/3`, so `U(1)_η` is exact above the soft scale, **the Majorana mass is forbidden**, and the neutrinos are **Dirac at the up-quark masses**: *"**the three-apex design is excluded as it stands**"* |
+
+Main's own summary of the status, which this bench adopts verbatim rather than restating in its own
+words: *"The design's status is the seat's own: **a DESIGN with a computed obstruction (no seesaw) — no
+theorem, no prediction**"*, the exclusion *"recorded at its stated strength, **conditional on a cited
+coupling**"*, with a registered remedy (**a 27̄ sector**, sm:L215 = main's **L221**).
+
+**So A6, finally:**
+
+> **FLAT CLASS + JOYCE RESOLUTION — COMPUTED AND FAILING** (ADDENDUM 1 §2; unchanged).
+> **CURVED CLASS — the mechanism is named (the free ℤ/3-orbit's sum-zero irreducible) and the
+> compact closing is unbuilt, AND the design that mechanism belongs to is ALREADY EXCLUDED AS IT
+> STANDS on independent grounds (no seesaw), conditional on a cited coupling, with its remedy
+> registered and not yet run.**
+
+**A6 is therefore not the last obstruction and never was.** ADDENDUM 1's *"reduced to compactness
+alone"* is withdrawn. What survives ADDENDUM 1 unchanged: the retag itself (A6 is **computed**, not
+uncomputable), the flat-class failure, the convergence with memo 233, the free-orbit mechanism and its
+control. **I-26 UNEARNED. No value. Gate 5 untouched.**
