@@ -349,3 +349,83 @@ coupling**"*, with a registered remedy (**a 27̄ sector**, sm:L215 = main's **L2
 alone"* is withdrawn. What survives ADDENDUM 1 unchanged: the retag itself (A6 is **computed**, not
 uncomputable), the flat-class failure, the convergence with memo 233, the free-orbit mechanism and its
 control. **I-26 UNEARNED. No value. Gate 5 untouched.**
+
+---
+
+## ADDENDUM 3 (2026-09-18) — **VERIFIED, MECHANICALLY; AND THE VERIFICATION FOUND A THIRD THING: THE OTHER GENERATION MECHANISM WAS DECIDED ON MAIN TODAY, AND IT DOES NOT GIVE THREE EITHER**
+
+**Occasioned by the owner: *"always verify."*** ADDENDA 1 and 2 were written from quotations, and
+ADDENDUM 2 had to be written against ADDENDUM 1 the same session — exactly the artifact whose claims
+must be re-derived from their sources rather than re-read from the memo.
+
+### 1. The instrument
+
+`certificates/the_a6_retag_verified.py` re-derives **every** claim of both addenda as a
+`(ref, path, needle)` triple, testing **verbatim containment** at a **named ref** — never paraphrase.
+**40 claims, all PASS; 3 controls, all PASS**, at
+`SM head 23532539 · main 987c0c8f · this branch 1cbba298`.
+
+The controls are the part that makes it evidence:
+
+| control | what it does |
+|---|---|
+| **C1** | a needle this bench **invented** must come back **ABSENT** from the same file — it does |
+| **C2** | a **true** needle looked up in the **wrong file** must come back **ABSENT** — it does |
+| **C3** | **#39 reproduced**: main's file count under `frontier/B1350–B1359/` is **0**, *and* a content grep finds **5/5** of those arcs inside `B1415`. **A name diff is not a content diff** — printed side by side so the claim cannot be made from one number |
+
+**The instrument caught two of my own transcriptions on its first run** (A3-2, A3-4): needles that
+spanned a markdown emphasis marker and one that changed a capital. Both were **my** errors, not the
+sources'; both were fixed against the source text. That is the argument for exact containment over
+paraphrase, made by the thing failing.
+
+Re-running `certificates/the_a6_retag.py` reproduces its banked output **log-identically**.
+
+### 2. What the verification turned up — `B1427`, on `main`, dated **today**
+
+> *"**THE TOWER'S GENERATION COUNT, VERIFIED ON MAIN WITH INDEPENDENT CODE: one chiral generation per
+> background on 80 800 backgrounds, never two, never three** — and the mechanism holds one level
+> further than the record computed"* — `frontier/B1427_the_towers_generation_count_verified`, **cc,
+> 2026-09-18**, own Fox calculus, own `GF(p)` algebra, own cyclotomics, **primes deliberately
+> different from the lane's**.
+
+Its vacuity guards run **in both directions**, which is what makes "1" a measurement:
+
+> *"**The same code returns h¹ = 2** at the three order-2 characters of the Whitehead link complement
+> m129"* … *"the same index code returns **|I| = 2** on t12835"*.
+
+And main did not merely agree — it **found a gap the lane's wording half-declares** (the μ_N scan
+misses two loci per level, on Y₄ the reciprocal pair `((3+√5)/2)^{±4}` — **m004's own golden locus
+lifted to the cover**, not roots of unity, hence unreachable by any finite-order character; *"They
+also have h¹ = 1, so the claim survives"*) and **narrowed the lane's own bound**: *"**'h¹(χ²) = 1
+bounds |I| ≤ 1' is not a proof as stated**"*.
+
+### 3. **What this does and does not say about three — and the distinction is the whole content**
+
+**These are two different mechanisms and two different quantities. This is not a tally, and no
+independence between them is claimed** (#36: a control on the comparison does not establish
+independence of the things compared).
+
+| mechanism | what it counts | what it gives |
+|---|---|---|
+| **the cyclic tower** (B1374/B1375, verified `B1427`) | the chiral index on backgrounds over the covers `Y_n` of **m004** | **ONE per background**, on **80 800** backgrounds, **never two, never three**, to **level 7** — *"the count of three is not this mechanism's on any level up to seven"* |
+| **the three-apex design** (sm:B1356–B1365) | the three apexes of a compact curved closing | **three BY CONSTRUCTION** — the apexes are a **free ℤ/3-orbit**, which is precisely the mechanism ADDENDUM 1 §3 reproduces — and the design is **excluded as it stands** (no seesaw, sm:B1365) |
+
+> **So the record now has two routes to a generation count, and NEITHER DERIVES THREE.** The one that
+> is **measured** returns **one**. The one that would return **three** returns it **because three
+> apexes were put in**, and carries a computed obstruction besides.
+
+**I-26 remains UNEARNED, and this addendum sharpens the reason rather than changing the verdict:** not
+*"three is not yet computed"* but ***"where it is computed it is one, and where it is three it is
+assumed."***
+
+### 4. Fences, both lanes' own, carried unweakened
+
+`B1427`: *"these fire on **non-semisimple** backgrounds — the admissibility question the paper grades
+with a prior against — and there is **no physics reading, no value, and no three**. … Nothing here is
+derived physics."* `B1415` on the apex design: *"a DESIGN with a computed obstruction (no seesaw) — no
+theorem, no prediction."*
+
+**This addendum computes nothing new. It verifies that this memo says what its sources say, and it
+reads two lanes against each other that do not cite one another on this point.** Whether the tower's
+mechanism and the apex design's are related at all is **not addressed here and is not assumed either
+way**. **I-26 UNEARNED. No value. Gate 5 untouched.**

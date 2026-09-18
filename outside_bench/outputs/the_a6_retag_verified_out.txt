@@ -1,0 +1,69 @@
+==============================================================================
+ THE A6 RETAG, VERIFIED -- every claim re-derived from its source
+==============================================================================
+  SM head      origin/claude/standard-model-derivation-0qt6ao = 23532539
+  main         origin/main = 987c0c8f
+  this branch  origin/claude/outside-bench = 1cbba298
+
+  [PASS] A1-1   B1357_the_objects_own_joyce_orbifo the compact flat G2 orbifold exists and has N = 1
+  [PASS] A1-2   B1357_the_objects_own_joyce_orbifo b_2 = 0 for the flat background
+  [PASS] A1-3   B1357_the_objects_own_joyce_orbifo A6 stated in this bench's own words and decided
+  [PASS] A1-4   B1357_the_objects_own_joyce_orbifo A6's FIRST clause is satisfied after the Joyce resolution
+  [PASS] A1-5   B1357_the_objects_own_joyce_orbifo A6's SECOND clause fails -- the deck acts trivially on H^2
+  [PASS] A1-6   B1357_the_objects_own_joyce_orbifo why only the T^3 locus contributes to b_2
+  [PASS] A1-7   B1357_the_objects_own_joyce_orbifo the location where A6 can still be met
+  [PASS] A1-8   B1358_the_e6_apex_family           the LOCAL class at an apex (never A6's compact b_2 -- the R147 distinction)
+  [PASS] A1-9   B1358_the_e6_apex_family           the sum-zero mechanism, B1356's, carried through the apex family
+  [PASS] A1-10  B1359_the_k3_alternative           B1359 pins the ambient: the residue is narrower, not smaller
+  [PASS] A2-1   B1415_the_sm_seats_closing_arcs_ha main HARVESTED sm:B1356-B1365 -- the relay 'main needs it' is void
+  [PASS] A2-2   B1415_the_sm_seats_closing_arcs_ha main's verdict on those ten arcs
+  [PASS] A2-3   B1415_the_sm_seats_closing_arcs_ha the harvest predates this memo by two days
+  [PASS] A2-4   B1416_the_relay_residue_closed     #39: main harvests under its OWN arc numbers, so a name diff is not a content diff
+  [PASS] A2-5   B1415_the_sm_seats_closing_arcs_ha main's bookkeeping BACK to the seat: argued steps to state as argued
+  [PASS] A2-6   B1414_the_outside_benchs_memos_185 main harvested memo 233 -- so 'neither cites the other' had to be withdrawn
+  [PASS] A2-7   B1414_the_outside_benchs_memos_185 main's re-run of the bench's own certificate, reported against the bench
+  [PASS] A2-8   B1356_the_three_on_y3              sm:B1356's CURRENCY NOTE cites B1414 s4 by name -- the link that voids 'neither cites'
+  [PASS] A2-8b  B1356_the_three_on_y3              and by directory, so the citation is not a coincidence of the three digits
+  [PASS] A2-9   B1415_the_sm_seats_closing_arcs_ha sm:B1361's mechanism
+  [PASS] A2-10  B1415_the_sm_seats_closing_arcs_ha sm:B1361 NEGATIVE -- a computed negative independent of compactness
+  [PASS] A2-11  B1415_the_sm_seats_closing_arcs_ha sm:B1365 -- the design is excluded AS IT STANDS
+  [PASS] A2-12  B1415_the_sm_seats_closing_arcs_ha the ground of that exclusion: no seesaw
+  [PASS] A2-13  B1415_the_sm_seats_closing_arcs_ha main's own status line, adopted verbatim by the memo
+  [PASS] A2-14  B1415_the_sm_seats_closing_arcs_ha the remedy (a 27-bar sector) is REGISTERED, not run
+  [PASS] A2-15  B1415_the_sm_seats_closing_arcs_ha sm:B1362 -- the deck-symmetric Yukawa cannot carry a hierarchy
+  [PASS] A3-1   B1427_the_towers_generation_count_ the tower's count, verified on main with independent code
+  [PASS] A3-2   B1427_the_towers_generation_count_ the tower does not supply three -- main's own words
+  [PASS] A3-3   B1427_the_towers_generation_count_ the fence main keeps on it
+  [PASS] A3-4   B1427_the_towers_generation_count_ vacuity guarded UPWARD: the code CAN return 2
+  [PASS] A3-5   B1427_the_towers_generation_count_ vacuity guarded on the INDEX too: |I| = 1 is a measurement
+  [PASS] A3-6   B1427_the_towers_generation_count_ main found a real gap in the lane's scan and says so
+  [PASS] A3-7   B1427_the_towers_generation_count_ and narrowed the lane's own statement
+  [PASS] A3-8   B1427_the_towers_generation_count_ dated TODAY -- newer than ADDENDUM 1 and 2 both
+  [PASS] P-1    memos                              ADDENDUM 1 s4 marked superseded IN PLACE
+  [PASS] P-2    memos                              ADDENDUM 1 s7 marked superseded IN PLACE
+  [PASS] P-3    memos                              the original A6 tag marked superseded IN PLACE
+  [PASS] P-4    INDEX.md                           INDEX row 235 carries the correction
+  [PASS] P-5    THE_OWNER_REGISTER.md              register row R153 carries it
+  [PASS] P-6    THE_OWNER_REGISTER.md              the owner's question got its row the same session
+
+------------------------------------------------------------------------------
+ CONTROLS -- each MUST report ABSENT
+------------------------------------------------------------------------------
+  [PASS] C1  an INVENTED needle must come back ABSENT
+  [PASS] C2  a TRUE needle in the WRONG file must come back ABSENT
+
+------------------------------------------------------------------------------
+ C3 -- #39 REPRODUCED: the arc-NAME count against a CONTENT grep
+------------------------------------------------------------------------------
+  files on main under frontier/B1350-B1359/ : 0
+  those arcs' CONTENT on main, inside B1415  : 5/5 present  ['sm:B1357', 'sm:B1358', 'sm:B1359', 'sm:B1361', 'sm:B1365']
+  [PASS] C3  zero directories AND full content -- a name diff is NOT a content diff
+
+==============================================================================
+ 40/40 claims verified; 3/3 controls PASS
+==============================================================================
+ WHAT THIS DOES NOT VERIFY: that the mathematics of B1356-B1359 is correct.
+ It verifies that the memo says what its sources say. Main's own re-runs
+ (B1415: ten scripts green and log-identical) are the check on the
+ mathematics, and they are MAIN's, not this bench's.
+ I-26 UNEARNED. No value. Gate 5 untouched.
