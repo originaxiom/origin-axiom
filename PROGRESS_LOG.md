@@ -17135,3 +17135,66 @@ may close another's debt to make a gate green (this ledger's own rule).
 
 **This arc does NOT assess the paper — this seat has not read it.** Supplies no value.
 **Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-18 — xB026: DOES A5 MOVE THE GENERATION COUNT? (seat `xb`, `sep16-branch`)
+
+**PREREGISTRATION sealed `4ae71e2987b073a8…` and PUSHED at `7d97a302` before `verification/`
+existed**, with a **binding kill condition** on G2 and **G5's fence written before the data**.
+**Verdict PROVED. Six cells PASS. Gates 35/35.**
+
+**The question, and why it was worth running:** xB021/xB022 split the object's invariants into two
+species — `CS` and `H₁` have an orbit under **A5**, volume and the trace field do not. B1375 finds
+**one net generation on every one of 80 800 backgrounds** of the object's tower, **never three**.
+**Which species does the generation count belong to?**
+
+### DECIDED — the census's own inputs are not stabiliser-fixed
+
+| n | `b++(LR)ⁿ` | `b+-(LR)ⁿ` | `N` |
+|---|---|---|---|
+| 1 | `ℤ` | `ℤ ⊕ ℤ/5` | 12 → 60 |
+| 2 | `ℤ ⊕ ℤ/5` | `ℤ ⊕ (ℤ/3)²` | 60 → 12 |
+| 3 | `ℤ ⊕ (ℤ/4)²` | `ℤ ⊕ ℤ/2 ⊕ ℤ/10` | 12 → 60 |
+| 4 | `ℤ ⊕ ℤ/3 ⊕ ℤ/15` | `ℤ ⊕ (ℤ/7)²` | 60 → 84 |
+| 5 | `ℤ ⊕ (ℤ/11)²` | `ℤ ⊕ ℤ/5 ⊕ ℤ/25` | 132 → 300 |
+| 6 | `ℤ ⊕ ℤ/8 ⊕ ℤ/40` | `ℤ ⊕ (ℤ/18)²` | 120 → 36 |
+
+**6 of 6 on both. The kill condition did not fire.** B1374's census on the sister's tower is built
+from **different loci and different character groups** — it is not the same census.
+
+**G1** identified the tower **by isometry signature, not volume** — a volume coincidence is exactly
+how this record's sister pair arose — reproducing B1375's `Y₂…Y₅` and xB013's Y2 independently, 5/5.
+
+**G4 was declared in the seal as an attempt that might not land, and it did not.** This branch's
+index instrument is **2-generator / 1-relator over ℚ(u)**; every cover here has a **(3,2)**
+presentation. **Reported as not landing** rather than quietly dropped.
+
+### NOT DECIDED — and the seal said so before the data
+
+> *"One per background"* could survive on different loci, which would make **one** the invariant and
+> the backgrounds merely the orbit. **This arc does not read a moved locus as a moved count.**
+
+### G6 — beyond the seal, labelled: three cross-checks, run rather than asserted
+
+`|Tor H₁|`: `b++` → **1, 5, 16, 45, 121, 320** · `b+-` → **5, 9, 20, 49, 125, 324**
+
+1. **xB022's `+4` law EXTENDS to the tower** — shifts `[4,4,4,4,4,4]`. xB022 measured words of
+   length ≤ 8; `(LR)⁶` is length **12**.
+2. **`THEOREM_REGISTRY`'s `T-PERIOD-2` cyclic-cover torsion `5, 16, 45, 121, 320` (n = 2…6) is
+   reproduced exactly** — from SnapPy homology alone, **no Fox calculus**.
+3. **B1374's `N = 60` (Y₄) and B1375's ℚ(ζ₁₃₂) (Y₅) are both reproduced independently** from this
+   branch. Two confirmations of the lane's arithmetic that do not go through the lane.
+4. **An observation, explicitly not a claim:** square `|Tor|` at levels **1,3,5** on the object's
+   tower and **2,4,6** on its A5 image — **they alternate**. **No inference drawn**: square torsion
+   is necessary for a free orientation-reversing involution on **closed** manifolds, and these
+   covers are **cusped**, where xB023 **measured** that predicate failing **590 of 1260** times.
+
+### The deliverable is a sharp bounded question
+
+> **Run B1374's SM-frame census on `b+-(LR)ⁿ`.** If it also gives one per background, **one** is the
+> invariant and the count is **stabiliser-fixed — a theorem-shaped negative**. If not, the count is
+> **orbit-structured** like `CS` and `H₁`, and **the family, not the object, is where to look.**
+
+**Claims no generation count; promotes nothing to physics; inherits B1374/B1375's own fence.
+Gate 5 absolute. Nothing to `CLAIMS.md`.**

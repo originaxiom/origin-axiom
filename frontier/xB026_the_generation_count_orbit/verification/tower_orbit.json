@@ -1,0 +1,222 @@
+{
+ "cells": {
+  "G1": true,
+  "G2": true,
+  "G3": true,
+  "G4": true,
+  "G5": true,
+  "G6": true
+ },
+ "results": {
+  "G1": {
+   "rows": [
+    [
+     1,
+     "b++LR",
+     "cPcbbbiht",
+     "m004",
+     true
+    ],
+    [
+     2,
+     "b++LRLR",
+     "eLMkbcdddhxqdu",
+     "m206",
+     true
+    ],
+    [
+     3,
+     "b++LRLRLR",
+     "gLMzQbcdefffhxqqxha",
+     "s961",
+     true
+    ],
+    [
+     4,
+     "b++LRLRLRLR",
+     "iLMzMPcbcdefghhhhxqqxhhep",
+     "t12839",
+     true
+    ],
+    [
+     5,
+     "b++LRLRLRLRLR",
+     "kLMzMzMkbcdefghijjjhxqqxhhxqlm",
+     "o10_150696",
+     true
+    ],
+    [
+     6,
+     "b++LRLRLRLRLRLR",
+     "mLMzMzMzQbcdefghijklllhxqqxhhxqqxxq",
+     null,
+     null
+    ]
+   ]
+  },
+  "G2": {
+   "tested": 6,
+   "differ": 6,
+   "agree": 0,
+   "errors": 0,
+   "rows": [
+    [
+     1,
+     "(1, ())",
+     "(1, (5,))",
+     true
+    ],
+    [
+     2,
+     "(1, (5,))",
+     "(1, (3, 3))",
+     true
+    ],
+    [
+     3,
+     "(1, (4, 4))",
+     "(1, (2, 10))",
+     true
+    ],
+    [
+     4,
+     "(1, (3, 15))",
+     "(1, (7, 7))",
+     true
+    ],
+    [
+     5,
+     "(1, (11, 11))",
+     "(1, (5, 25))",
+     true
+    ],
+    [
+     6,
+     "(1, (8, 40))",
+     "(1, (18, 18))",
+     true
+    ]
+   ],
+   "control_sees_difference": true,
+   "kill_fired": false
+  },
+  "G3": {
+   "tested": 6,
+   "moved": 6,
+   "rows": [
+    [
+     1,
+     1,
+     5,
+     12,
+     60,
+     true
+    ],
+    [
+     2,
+     5,
+     3,
+     60,
+     12,
+     true
+    ],
+    [
+     3,
+     4,
+     10,
+     12,
+     60,
+     true
+    ],
+    [
+     4,
+     15,
+     7,
+     60,
+     84,
+     true
+    ],
+    [
+     5,
+     11,
+     25,
+     132,
+     300,
+     true
+    ],
+    [
+     6,
+     40,
+     18,
+     120,
+     36,
+     true
+    ]
+   ]
+  },
+  "G4": {
+   "presentations": {
+    "b++LR": "(2, 1)",
+    "b+-LR": "(2, 1)",
+    "b++LRLR": "(3, 2)",
+    "b+-LRLR": "(3, 2)",
+    "b++LRLRLR": "(3, 2)",
+    "b+-LRLRLR": "(3, 2)",
+    "b++LRLRLRLR": "(3, 2)",
+    "b+-LRLRLRLR": "(3, 2)"
+   },
+   "landed": false,
+   "why": "the branch's index instrument is 2-generator/1-relator over Q(u); the covers are not"
+  },
+  "G5": {
+   "inputs_move": true,
+   "count_decided": false,
+   "next": "run B1374's SM-frame census on the sister tower b+-(LR)^n"
+  },
+  "G6": {
+   "tor_orders": {
+    "b++": [
+     1,
+     5,
+     16,
+     45,
+     121,
+     320
+    ],
+    "b+-": [
+     5,
+     9,
+     20,
+     49,
+     125,
+     324
+    ]
+   },
+   "shifts": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "plus4_on_tower": true,
+   "theorem_registry_match": true,
+   "N_Y4": 60,
+   "N_Y5": 132,
+   "square_levels": {
+    "b++": [
+     1,
+     3,
+     5
+    ],
+    "b+-": [
+     2,
+     4,
+     6
+    ]
+   },
+   "note": "square-torsion alternation recorded as an OBSERVATION, no inference drawn"
+  }
+ }
+}

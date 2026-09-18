@@ -1,0 +1,101 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+G1       THE SCAFFOLDING -- the tower rebuilt and identified BY ISOMETRY SIGNATURE
+         (not by volume: a volume coincidence is exactly how this record's sister pair arose)
+         n=1: b++LR            isosig cPcbbbiht                expect m004           match=True
+         n=2: b++LRLR          isosig eLMkbcdddhxqdu           expect m206           match=True
+         n=3: b++LRLRLR        isosig gLMzQbcdefffhxqqxha      expect s961           match=True
+         n=4: b++LRLRLRLR      isosig iLMzMPcbcdefghhhhxqqxh   expect t12839         match=True
+         n=5: b++LRLRLRLRLR    isosig kLMzMzMkbcdefghijjjhxq   expect o10_150696     match=True
+         n=6: b++LRLRLRLRLRLR  isosig mLMzMzMzQbcdefghijklll   expect None           match=None
+G1 PASS  the tower is B1375's Y_2..Y_5 and xB013's Y2, reproduced
+         independently by isometry signature.
+
+G2       H_1 ON BOTH TOWERS -- the cell that decides, with the kill condition
+         PREDICTION (sealed): they DIFFER at every level.
+         KILL (sealed): if they AGREE at every level, A5 is in the stabiliser of the
+         tower's homology, the census inputs do not move, and the orbit hypothesis for
+         the generation count is DEAD AT THE INPUT LEVEL and must be reported dead.
+         n=1: b++ H_1=(1, ())                    b+- H_1=(1, (5,))                  DIFFER=True
+         n=2: b++ H_1=(1, (5,))                  b+- H_1=(1, (3, 3))                DIFFER=True
+         n=3: b++ H_1=(1, (4, 4))                b+- H_1=(1, (2, 10))               DIFFER=True
+         n=4: b++ H_1=(1, (3, 15))               b+- H_1=(1, (7, 7))                DIFFER=True
+         n=5: b++ H_1=(1, (11, 11))              b+- H_1=(1, (5, 25))               DIFFER=True
+         n=6: b++ H_1=(1, (8, 40))               b+- H_1=(1, (18, 18))              DIFFER=True
+         POSITIVE CONTROL  H_1(m004) != H_1(m003): True   ((1, ()) vs (1, (5,)))
+         levels tested: 6;  DIFFER: 6;  AGREE: 0;  errors: 0
+         The kill condition did NOT fire: A5 moves the tower's homology.
+G2 PASS  (the cell ran correctly; its CONTENT is the verdict above)
+
+G3       THE CENSUS INPUTS -- B1374 builds characters at N = lcm(12, torsion exponent)
+         n=1: exponent      1 vs      5   N =     12 vs     60   DIFFER=True
+         n=2: exponent      5 vs      3   N =     60 vs     12   DIFFER=True
+         n=3: exponent      4 vs     10   N =     12 vs     60   DIFFER=True
+         n=4: exponent     15 vs      7   N =     60 vs     84   DIFFER=True
+         n=5: exponent     11 vs     25   N =    132 vs    300   DIFFER=True
+         n=6: exponent     40 vs     18   N =    120 vs     36   DIFFER=True
+         levels where B1374's character modulus N MOVES under A5: 6 of 6
+         Where N differs the character group differs, so B1374's census is not
+         literally the same object on the sister's tower.
+
+G4       ATTEMPT (declared in the seal as one that may not land): the index instrument
+         on a cover's presentation.
+           b++LR          (generators, relators) = (2, 1)
+           b+-LR          (generators, relators) = (2, 1)
+           b++LRLR        (generators, relators) = (3, 2)
+           b+-LRLR        (generators, relators) = (3, 2)
+           b++LRLRLR      (generators, relators) = (3, 2)
+           b+-LRLRLR      (generators, relators) = (3, 2)
+           b++LRLRLRLR    (generators, relators) = (3, 2)
+           b+-LRLRLRLR    (generators, relators) = (3, 2)
+         presentations with the 2-generator/1-relator shape the branch's instrument
+         (main_r27_exact_lift.py) accepts: ['b++LR', 'b+-LR']
+         VERDICT ON THE ATTEMPT, stated plainly: the instrument on this branch is
+         written for 2 generators and 1 relator over Q(u).  The covers above are not
+         of that shape, so computing the index here needs a GENERALISED instrument
+         (arbitrary presentation, arbitrary cyclotomic field) that this arc does NOT
+         build.  G4 DOES NOT LAND, and is reported as not landing.  G2 and G3 stand
+         alone, and what they decide is stated in G5.
+
+G5       WHAT THIS DOES AND DOES NOT DECIDE  (written in the seal, before the data)
+         A5 moves the tower's H_1: True
+         A5 moves B1374's character modulus N: 6 levels
+         DECIDED: the generation census's own INPUTS are NOT stabiliser-fixed.  The
+           loci, the character groups and the modulus all move under A5, so B1374's
+           census on the sister's tower is a DIFFERENT census, not the same one.
+         NOT DECIDED, and the seal said so in advance: whether the COUNT moves.
+           'One per background' could survive on different loci -- which would make
+           ONE the invariant and the backgrounds merely the orbit.  THIS ARC DOES NOT
+           READ A MOVED LOCUS AS A MOVED COUNT, and G4 did not land, so the count on
+           the sister's tower REMAINS UNCOMPUTED.
+         The question is now SHARP and bounded: run B1374's census on b+-(LR)^n.
+
+G6       BEYOND THE SEAL, LABELLED -- three cross-checks, RUN not asserted
+         |Tor H_1| on b++(LR)^n: [1, 5, 16, 45, 121, 320]
+         |Tor H_1| on b+-(LR)^n: [5, 9, 20, 49, 125, 324]
+         (a) xB022's +4 law on the tower: shifts [4, 4, 4, 4, 4, 4]  -> constant +4: True
+             xB022 measured this on words of length <= 8; (LR)^6 has length 12, so
+             this EXTENDS the law rather than repeating it.
+         (b) THEOREM_REGISTRY's T-PERIOD-2 cyclic-cover torsion for n=2..6: [5, 16, 45, 121, 320]
+             this arc's b++ tower:                                        [5, 16, 45, 121, 320]   match: True
+         (c) B1374 runs Y_4 = t12839 at N = 60; this arc computes N = 60  match: True
+             B1375 re-derives Y_5 over Q(zeta_132); this arc computes N = 132  match: True
+         (d) levels with SQUARE |Tor|:  b++ [1, 3, 5]   b+- [2, 4, 6]
+             The two towers alternate.  RECORDED AS AN OBSERVATION, NOT A CLAIM:
+             square torsion is necessary for a free orientation-reversing involution
+             on CLOSED manifolds (xB023's reading of Kawauchi I+III) and these covers
+             are CUSPED, where xB023 MEASURED that the same predicate fails 590 of
+             1260 times.  No inference is drawn, and none may be.
+G6 PASS  the +4 law extends to the tower; the record's own
+         Alexander torsion numbers and B1374/B1375's own moduli are reproduced here
+         independently.
+
+==============================================================================
+  G1: PASS
+  G2: PASS
+  G3: PASS
+  G4: PASS
+  G5: PASS
+  G6: PASS
+VERIFIED

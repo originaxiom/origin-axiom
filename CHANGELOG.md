@@ -1,5 +1,25 @@
 # Changelog
 
+## xB026 — does A5 move the generation count? The inputs move; the count is now sharply open
+
+**DECIDED:** `H₁` of the object's tower `b++(LR)ⁿ` and of its A5 image `b+-(LR)ⁿ` **differ at 6 of 6
+levels**, so B1374's character modulus `N = lcm(12, exponent)` moves at **6 of 6** — the census on
+the sister's tower is built from **different loci and different character groups**. The sealed kill
+condition did **not** fire.
+
+**NOT DECIDED, and the seal said so before the data:** *"one per background"* could survive on
+different loci, making **one** the invariant and the backgrounds merely the orbit. **A moved locus is
+not read as a moved count.** G4 (the index itself) was declared as an attempt that might not land,
+**and it did not** — this branch's instrument is 2-generator/1-relator, the covers are (3,2).
+
+**Three cross-checks beyond the seal:** xB022's **+4 torsion law extends** from length-8 words to the
+length-12 tower; `THEOREM_REGISTRY`'s Alexander torsion **5, 16, 45, 121, 320** is reproduced from
+homology alone; and **B1374's `N = 60` and B1375's ℚ(ζ₁₃₂) are both reproduced independently**.
+
+**The deliverable is a bounded question:** run B1374's census on `b+-(LR)ⁿ`. One per background ⇒ the
+count is stabiliser-fixed, a theorem-shaped negative. Otherwise ⇒ orbit-structured, and the family is
+where to look.
+
 ## xB025 — the referee relay verified at source: the arithmetic holds, two inferences overreach
 
 **Checked against the source branch, not its summary.** Every relayed figure exact — **80 800**
