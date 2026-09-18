@@ -101,9 +101,18 @@ def main(argv):
             report.append("> **WARNING — " + _msg + "**")
     except Exception:
         pass
+    # The verdict names its coverage (2026-09-17 round 2; CORRECTED 2026-09-18). all_ok starts True and is
+    # only &=-ed against the steps that RAN, so `--seals` alone once printed a bare "Overall: PASS". The
+    # first repair called anything short of three steps "partial" -- but the DEFAULT set is seals+locks
+    # (scripts are slow and opt-in), so every ordinary run then read as deficient. Both errors are the same
+    # one: a verdict that does not say what it covers. It now always says, and reserves "partial" for a run
+    # narrower than the default.
     _ran = [n for n, f in (("seals", "--seals"), ("locks", "--locks"), ("scripts", "--scripts")) if f in do]
-    _complete = len(_ran) == 3
-    _verdict = ("PASS" if all_ok else "FAIL") + ("" if _complete else " (partial: only %s ran)" % ", ".join(_ran))
+    _verdict = ("PASS" if all_ok else "FAIL") + " (" + ", ".join(_ran) + ")"
+    if len(_ran) < 2:
+        _verdict = ("PASS" if all_ok else "FAIL") + " (partial: only %s ran)" % ", ".join(_ran)
+    elif "scripts" not in _ran:
+        _verdict += "; the scripts step was not run -- pass --scripts for it"
     report.append(f"**Overall: {_verdict}.** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.")
     # --out <dir>, the convention build_manifest.py already uses: write the report elsewhere so
     # a test run leaves no tracked file modified (2026-09-16). Default unchanged.
