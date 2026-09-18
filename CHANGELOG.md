@@ -1,5 +1,27 @@
 # Changelog
 
+## xB029 Addendum 1 — Friedmann–Witten read at source; half of L225 retracted the day it was registered
+
+**hep-th/0211269 §3, verbatim: *"we assume that that there is a nontrivial **FINITE fundamental group
+`π₁(Q)`**"*, and §3.1: *"**For a three-manifold `Q` with finite fundamental group** … there are no zero
+modes."*** **Every hyperbolic 3-manifold has infinite `π₁`.** xB029 measured **compactness** and never
+looked at `π₁`, because it read the citing paper's formula and not the cited paper's hypotheses.
+
+**And the violation is not benign.** `b₁ > 0` in a cyclic cover **is** a zero mode, and **three of six
+closed hyperbolic tower members carry them** (`n=5`: degree 11, `b₁=10`; `n=6`: degrees 2,4,8,10,20;
+`n=7`: degree 29, `b₁=28`) against a finite-`π₁` calibration with none. **The sealed prediction that
+the conclusion would survive is REFUTED.**
+
+**RETRACTED:** L225's physics-facing half — carrying the G₂ threshold framework to a hyperbolic
+three-cycle — and with it `T_λ`, which on those characters is **not even defined** by FW's eq. (3.1).
+**SURVIVES, as mathematics:** `T_O = −log|Tor H₁(Q)|` for every `ℚHS³` (FW's own recipe, calibrated on
+their `log(1/q)`, 400/400 on random boundary maps, `π₁` nowhere in it) and xB029's exact tower
+arithmetic.
+
+**Also reported against ourselves:** this addendum's own first pass returned a **false negative** —
+it scored `n=5` and `n=7` clean when their only cover degrees (11, 29) were above its search bound.
+**Third firing of the mismatched-hypothesis class in three days; R58-1's evidence updated.**
+
 ## xB029 — the G₂-MSSM read at source: the arithmetic reproduces, the visible sector is assumed, a named gap is half-closed
 
 **arXiv:0801.0478 (Acharya–Bobkov–Kane–Kumar–Shao) enters the record — it had never been cited here.**

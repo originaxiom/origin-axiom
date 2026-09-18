@@ -1,0 +1,44 @@
+
+F2       WHAT SURVIVES -- is T_O = -log|Tor H_1| independent of pi_1?
+         FW Appendix A's recipe is CHAIN-LEVEL ALGEBRA: remove the free homology,
+         alternating sum of logs of the boundary maps.  For a rational homology
+         3-sphere what survives is Z^m --d--> Z^m with det d != 0 and H_1 = coker d.
+         CAL  q=   2  det=   2  |coker|=   2  T_O= -0.69315   equals FW's -log q: True
+         CAL  q=   3  det=   3  |coker|=   3  T_O= -1.09861   equals FW's -log q: True
+         CAL  q=   5  det=   5  |coker|=   5  T_O= -1.60944   equals FW's -log q: True
+         CAL  q=   7  det=   7  |coker|=   7  T_O= -1.94591   equals FW's -log q: True
+         CAL  q=  99  det=  99  |coker|=  99  T_O= -4.59512   equals FW's -log q: True
+         CAL  q= 316  det= 316  |coker|= 316  T_O= -5.75574   equals FW's -log q: True
+         calibration reproduces FW's T_O(S^3/Z_q) = log(1/q): True
+         random square boundary maps, m = 1..6: |det d| = |coker d| on 400 of 400; mismatches 0
+         => T_O = -log|det d| = -log|Tor H_1(Q)| for EVERY rational homology
+            3-sphere.  NOTHING IN THIS ARGUMENT MENTIONS pi_1.
+         T_O for the record's closed tower members (from |Tor H_1| = L_2n - 2):
+           n=2:-1.609  n=3:-2.773  n=4:-3.807  n=5:-4.796  n=6:-5.768  n=7:-6.735 ...
+F2 PASS
+
+F3       *** SUPERSEDED AND DEFECTIVE -- see this file's docstring and fw_f3.py.
+         It scores n=5 and n=7 CLEAN although their only cover degrees (11, 29) are
+         ABOVE its search bound of 8.  Those rows are UNMEASURED, not negative.
+         KEPT ONLY SO THE DEFECT STAYS ON THE RECORD.  Do not read what follows as a result.
+
+F3       DOES THE FINITE-pi_1 HYPOTHESIS BITE?  b1 > 0 in a cyclic cover IS a zero mode.
+         FENCE, sealed: this tests ONLY ABELIAN characters.  FW's statement covers
+         EVERY non-trivial irreducible rep, so a pass here is STRICTLY WEAKER.
+         CALIBRATION (finite pi_1): the lens space L(5,2) = 2-fold branched cover of 4_1
+           Sigma_2: H_1 = Z/5  (must be Z/5)
+           cyclic covers, (degree, #covers, max b1): [(5, 1, 0)]
+         calibration: finite-pi_1 example has b1 = 0 throughout: True
+         THE HYPERBOLIC MEMBERS (infinite pi_1), closed, b1 = 0, |H_1| = L_2n - 2:
+           n=3: slope (1, 1)  |H_1|=16  vol=non-hyp  covers [(2, 3, 0), (4, 6, 2)]  max b1=2
+           n=4: slope (0, 1)  |H_1|=45  vol=non-hyp  covers [(3, 4, 0), (5, 1, 0)]  max b1=0
+           n=5: slope (0, 1)  |H_1|=121  vol=4.68603  covers []  max b1=0
+           n=6: slope (0, 1)  |H_1|=320  vol=7.32772  covers [(2, 3, 1), (4, 6, 1), (5, 1, 0), (8, 12, 5)]  max b1=5
+           n=7: slope (0, 1)  |H_1|=841  vol=9.88228  covers []  max b1=0
+         cyclic covers with b1 > 0 (a ZERO MODE): 2
+         *** THE KILL CONDITION FIRED: zero modes are REAL on the hyperbolic side.
+         FW's simple torsion formula needs the K_i correction there, and L225 DIES.
+F3 PASS  (the cell ran and calibrated; its CONTENT is the verdict above)
+
+==============================================================================
+ALL CELLS RAN

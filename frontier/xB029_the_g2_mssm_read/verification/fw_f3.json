@@ -1,0 +1,279 @@
+{
+ "calibration": {
+  "label": "Sigma_2 = L(5,2), FINITE pi_1",
+  "H1": "Z/5",
+  "admissible_degrees": [
+   5
+  ],
+  "measured": [
+   [
+    5,
+    1,
+    0
+   ]
+  ],
+  "unmeasured": [],
+  "zero_mode_hits": []
+ },
+ "calibration_ok": true,
+ "rows": [
+  {
+   "label": "n=3",
+   "H1": "Z/4 + Z/4",
+   "admissible_degrees": [
+    2,
+    4
+   ],
+   "measured": [
+    [
+     2,
+     3,
+     0
+    ],
+    [
+     4,
+     6,
+     0
+    ]
+   ],
+   "unmeasured": [],
+   "zero_mode_hits": [],
+   "slope": [
+    1,
+    2
+   ],
+   "tor": 16,
+   "vol": 4.322097020182095,
+   "soltype": "all tetrahedra positively oriented",
+   "hyperbolic": true
+  },
+  {
+   "label": "n=4",
+   "H1": "Z/3 + Z/15",
+   "admissible_degrees": [
+    3,
+    5,
+    15
+   ],
+   "measured": [
+    [
+     3,
+     4,
+     0
+    ],
+    [
+     5,
+     1,
+     0
+    ],
+    [
+     15,
+     4,
+     0
+    ]
+   ],
+   "unmeasured": [],
+   "zero_mode_hits": [],
+   "slope": [
+    3,
+    1
+   ],
+   "tor": 45,
+   "vol": 7.028504116753808,
+   "soltype": "all tetrahedra positively oriented",
+   "hyperbolic": true
+  },
+  {
+   "label": "n=5",
+   "H1": "Z/11 + Z/11",
+   "admissible_degrees": [
+    11
+   ],
+   "measured": [
+    [
+     11,
+     12,
+     10
+    ]
+   ],
+   "unmeasured": [],
+   "zero_mode_hits": [
+    [
+     11,
+     10
+    ]
+   ],
+   "slope": [
+    0,
+    1
+   ],
+   "tor": 121,
+   "vol": 4.6860342738026155,
+   "soltype": "all tetrahedra positively oriented",
+   "hyperbolic": true
+  },
+  {
+   "label": "n=6",
+   "H1": "Z/8 + Z/40",
+   "admissible_degrees": [
+    2,
+    4,
+    5,
+    8,
+    10,
+    20,
+    40
+   ],
+   "measured": [
+    [
+     2,
+     3,
+     1
+    ],
+    [
+     4,
+     6,
+     1
+    ],
+    [
+     5,
+     1,
+     0
+    ],
+    [
+     8,
+     12,
+     5
+    ],
+    [
+     10,
+     3,
+     1
+    ],
+    [
+     20,
+     6,
+     1
+    ]
+   ],
+   "unmeasured": [
+    40
+   ],
+   "zero_mode_hits": [
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     8,
+     5
+    ],
+    [
+     10,
+     1
+    ],
+    [
+     20,
+     1
+    ]
+   ],
+   "slope": [
+    0,
+    1
+   ],
+   "tor": 320,
+   "vol": 7.327724753417754,
+   "soltype": "all tetrahedra positively oriented",
+   "hyperbolic": true
+  },
+  {
+   "label": "n=7",
+   "H1": "Z/29 + Z/29",
+   "admissible_degrees": [
+    29
+   ],
+   "measured": [
+    [
+     29,
+     30,
+     28
+    ]
+   ],
+   "unmeasured": [],
+   "zero_mode_hits": [
+    [
+     29,
+     28
+    ]
+   ],
+   "slope": [
+    0,
+    1
+   ],
+   "tor": 841,
+   "vol": 9.882282573510407,
+   "soltype": "all tetrahedra positively oriented",
+   "hyperbolic": true
+  },
+  {
+   "label": "n=8",
+   "H1": "Z/21 + Z/105",
+   "admissible_degrees": [
+    3,
+    5,
+    7,
+    15,
+    21,
+    35,
+    105
+   ],
+   "measured": [
+    [
+     3,
+     4,
+     0
+    ],
+    [
+     5,
+     1,
+     0
+    ],
+    [
+     7,
+     8,
+     0
+    ],
+    [
+     15,
+     4,
+     0
+    ],
+    [
+     21,
+     32,
+     0
+    ]
+   ],
+   "unmeasured": [
+    35,
+    105
+   ],
+   "zero_mode_hits": [],
+   "slope": [
+    0,
+    1
+   ],
+   "tor": 2205,
+   "vol": 12.350906209158193,
+   "soltype": "all tetrahedra positively oriented",
+   "hyperbolic": true
+  }
+ ],
+ "hyperbolic_examined": 6,
+ "hyperbolic_with_zero_modes": 3,
+ "maxdeg": 33
+}

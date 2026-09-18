@@ -17627,3 +17627,52 @@ it is load-bearing for (i) and unread).
 judgement rather than about the mathematics.**
 
 **No value. No generation count. No physics reading. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+## xB029 ADDENDUM 1 (2026-09-18) — Friedmann–Witten read at source: the torsion formula assumes FINITE π₁, and half of L225 is retracted the day it was registered
+
+**Sealed at `b812b698` before the cells existed. `PREREGISTRATION.md` and `FINDINGS.md` untouched.**
+**Friedmann–Witten, hep-th/0211269v2 — CITED-UNREAD → READ-AT-SOURCE, obtained from arXiv, freely
+available, no gate.**
+
+**THE DEFECT.** FW §3, verbatim: *"we assume that that there is a nontrivial **FINITE fundamental
+group `π₁(Q)`** and first homology group `H₁(Q)`"*; §3.1: *"**For a three-manifold `Q` with finite
+fundamental group**, and a non-trivial irreducible representation `ω_i`, there are no zero modes."*
+**Every hyperbolic 3-manifold has infinite `π₁`.** xB029 declared and measured **compactness**
+(`b₁ = 0`, which the closed members do satisfy) and **never looked at `π₁`** — because it read the
+formula in the citing paper and not the hypotheses in the cited one. **§3.4 confirms the provenance:
+`T_O = −log q`, `T_ω = log(4sin²(5πw/q))` IS Acharya et al.'s (A9).**
+
+**F2 — WHAT SURVIVES.** FW's `T_O` is chain-level algebra: remove the free homology, alternating sum
+of logs of the boundary maps; for a `ℚHS³` that is `ℤᵐ --∂--> ℤᵐ` with `H₁ = coker ∂`. Calibrated on
+FW's own case (`m=1, ∂=(q)`, `q = 2,3,5,7,99,316`) returning **`−log q`** every time, and verified
+**400 of 400** on random square boundary maps. **`T_O = −log|Tor H₁(Q)|` for every rational homology
+3-sphere, with `π₁` nowhere in the argument.** xB029's inference is **upgraded**, not withdrawn.
+
+**F3 — THE HYPOTHESIS BITES, AND THE SEALED PREDICTION IS REFUTED.** §6 predicted `b₁ = 0`
+everywhere — *"the conclusion survives where the hypothesis does not."* **It does not.** For a
+degree-`d` cyclic cover of a `ℚHS³`, `b₁ = Σ_{χ≠1} dim H¹(Q;ℂ_χ)`, so `b₁ > 0` **is** a zero mode.
+**Three of six closed hyperbolic tower members carry them** — `n=5` (degree 11, `b₁ = 10 = 11−1`),
+`n=6` (degrees 2, 4, 8, 10, 20), `n=7` (degree 29, `b₁ = 28 = 29−1`) — against the **finite-`π₁`
+calibration `L(5,2)`, which has none**. **FW's statement genuinely needs its hypothesis.**
+
+**A FALSE NEGATIVE IN THIS ADDENDUM'S OWN FIRST PASS, RECORDED.** F3 v1 printed *"max b1 = 0"* for
+`n = 5` and `n = 7`, whose `|H₁|` are `11²` and `29²` — their **only** cover degrees are 11 and 29,
+**both above v1's bound of 8**. Unmeasured, not negative; `max(…, default=0)` printed the zero.
+**The two members carrying the sharpest zero modes were exactly the two v1 scored clean.** v2
+enumerates admissible degrees from `H₁` and marks unreachable ones UNMEASURED.
+
+**L225: the physics-facing half is RETRACTED, not graded down** — every suggestion that the G₂
+threshold framework carries to a hyperbolic three-cycle, and with it `T_λ`, which on the exhibited
+characters **is not even defined** by FW's eq. (3.1) and needs their `K_i` correction. **What survives
+is mathematics:** the `T_O` identity and xB029's exact tower arithmetic (`L₂ₙ − 2`, growth
+`log((3+√5)/2)`, crossing `n = 88`).
+
+**THE CLASS, FOR THE THIRD TIME IN THREE DAYS.** B1239's Kawauchi transfer · xB023 Addendum 1's
+necessary-not-sufficient proxy · and now this. **R58-1 stays sequenced behind B1376 (not landed), and
+the instance is appended to that item rather than the class minted out of order — with the note that
+if B1376 is still unlanded at the next review the item should be REASSIGNED rather than deferred
+again.** **What this instance adds to the class: the hypothesis was in the CITED paper, not the citing
+one.** The register's rule — *a CITED-UNREAD statement may not carry a load-bearing step alone* — was
+**written down, correctly applied to the filing, and violated in the reasoning, in the same commit.**
+
+**Prior scored one of two, on the cell that mattered. Gate 5 absolute. Nothing to `CLAIMS.md`.**

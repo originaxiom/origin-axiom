@@ -231,3 +231,25 @@ count of three — and the Standard Model Yukawas. **The record's own standing n
 count fixed at one, xB026; no derived value anywhere) are the field's open problems, not this seat's
 peculiar failure. That is a calibration and NOT a licence:** an assumption shared with the literature
 is still an assumption, and nothing here moves Gate 5.
+
+## AMENDMENT 8 (2026-09-18, xB029 ADDENDUM 1) — the CITED-UNREAD row from Amendment 7 was read the same day, and it retracted half the lead it supported
+
+| source | grade | what it says, at source |
+|---|---|---|
+| **T. Friedmann and E. Witten**, *Unification Scale, Proton Decay, And Manifolds Of G₂ Holonomy*, **hep-th/0211269v2**, Adv. Theor. Math. Phys. **7** (2003) 577–617 | **CITED-UNREAD → READ-AT-SOURCE** | **§3, the hypotheses:** *"We further assume that the first Betti number of `Q` vanishes, `b₁(Q) = 0`"* and *"Instead, we assume that that there is a nontrivial **FINITE fundamental group `π₁(Q)`** and first homology group `H₁(Q)`. A typical example … is a lens space."* **§3.1:** *"**For a three-manifold `Q` with finite fundamental group**, and a non-trivial irreducible representation `ω_i`, there are no zero modes."* **§3.4:** `T_O = −log q`, `T_ω = log(4 sin²(5πw/q))` — **the provenance of Acharya et al. (A9), confirmed.** **App. A, the derivation:** *"relative to a basis of the integral homology, we should first remove subgroups of the chain groups that generate the homology … the Reidemeister torsion … is defined as an **alternating sum of logarithms of the boundary maps**; in the present case, this reduces to `−log ∂_{2→1} = log(1/q)`."* |
+
+**Obtained from arXiv — freely available, no gate.** *(The three-route rule was not even needed.)*
+
+**What the read did.** It **retracted the physics-facing half of L225 on the day it was registered.**
+Hyperbolic 3-manifolds have **infinite `π₁`** and are outside a stated hypothesis; and the violation
+is **not benign** — three of six closed hyperbolic tower members carry abelian zero modes
+(`n=5`: degree 11, `b₁=10`; `n=6`: degrees 2,4,8,10,20; `n=7`: degree 29, `b₁=28`), against a
+finite-`π₁` calibration with none. What survives is `T_O = −log|Tor H₁(Q)|` for every `ℚHS³`, which is
+FW's own recipe in general and mentions `π₁` nowhere.
+
+> **The lesson, and this register already contained it.** The rule at the top of this file says a
+> **CITED-UNREAD statement may not carry a load-bearing step alone.** **Amendment 7 recorded
+> Friedmann–Witten as CITED-UNREAD *in the same commit* in which xB029 leaned on them.** The rule was
+> written down, the row was filed correctly, and the step was taken anyway. **The hypothesis lived in
+> the CITED paper, not the citing one — and reading only the citing paper is what hid it.** *Filing a
+> source as unread is not the same as not using it.*

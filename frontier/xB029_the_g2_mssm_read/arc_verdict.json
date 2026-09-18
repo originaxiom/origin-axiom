@@ -77,6 +77,26 @@
       "what": "the proxy-for-predicate error class",
       "outcome": "NOT_RERUN",
       "why": "invoked as a methodological warning against this arc's own T_O generalisation, not as a result."
+    },
+    {
+      "arc": "xB029 FINDINGS (this arc, one day earlier)",
+      "what": "the inference T_O = -log|Tor H_1(Q)|, flagged there as 'this seat's inference from one worked example'",
+      "outcome": "CORRECTED",
+      "why": "read at source. The T_O identity is UPGRADED (FW's own chain-level recipe, verified). But the arc's unflagged assumption -- that the framework applies to a hyperbolic Q at all -- is REFUTED: FW assume finite pi_1."
     }
+  ],
+  "addenda": {
+    "ADDENDUM_1_2026-09-18_friedmann_witten_read.md": {
+      "seal": "b812b698",
+      "source": "Friedmann-Witten hep-th/0211269v2",
+      "grade": "CITED-UNREAD -> READ-AT-SOURCE",
+      "F2": "PASS -- T_O = -log|Tor H_1(Q)| for every QHS^3; calibrated on FW's own log(1/q); 400/400 random; pi_1 nowhere in the argument",
+      "F3": "THE SEALED PREDICTION IS REFUTED. Zero modes on 3 of 6 closed hyperbolic tower members (n=5 deg 11 b1=10; n=6 deg 2,4,8,10,20; n=7 deg 29 b1=28); finite-pi_1 calibration L(5,2) has none",
+      "defect_in_this_addendum": "F3 v1 returned a FALSE NEGATIVE: it scored n=5 and n=7 clean when their only cover degrees (11, 29) exceeded its search bound of 8",
+      "consequence": "L225's physics-facing half RETRACTED (not graded down). The T_O algebra and the tower arithmetic survive as mathematics."
+    }
+  },
+  "retractions": [
+    "L225 physics-facing half: carrying the G2 threshold framework to a hyperbolic three-cycle. Friedmann-Witten assume FINITE pi_1 (sec 3) and hyperbolic 3-manifolds violate it; the violation is measured to be non-benign."
   ]
 }

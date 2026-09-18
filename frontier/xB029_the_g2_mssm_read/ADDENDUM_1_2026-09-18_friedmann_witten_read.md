@@ -104,3 +104,92 @@ author's stated assumption. **Gate 5 absolute. Nothing to `CLAIMS.md`.**
 F2 holds · **F3 passes, and the honest reading is "the conclusion survives where the hypothesis does
 not", which is WEAKER than "the hypothesis was unnecessary"** · and **the headline of this addendum is
 the defect in §3, not whatever F2 and F3 return.**
+
+---
+
+## 7. THE RESULT — `verification/fw_read.py`, `verification/fw_f3.py`
+
+### F2 — what survives: `T_O = −log|Tor H₁(Q)|`, and `π₁` never enters
+
+FW's recipe is chain-level algebra. For a rational homology 3-sphere, after removing the free
+homology, what survives is `ℤᵐ --∂--> ℤᵐ` with `det ∂ ≠ 0` and `H₁ = coker ∂`.
+
+- **Calibration on FW's own case** (`m = 1`, `∂ = (q)`), `q = 2, 3, 5, 7, 99, 316`: returns
+  **`−log q`** every time — **exactly `T_O(S³/Z_q) = log(1/q)`**.
+- **400 random square integer boundary maps, `m = 1…6`: `|det ∂| = |coker ∂|` on 400 of 400**, zero
+  mismatches.
+
+> **`T_O = −log|Tor H₁(Q)|` holds for every rational homology 3-sphere. Nothing in the argument
+> mentions `π₁`.** xB029's inference is **upgraded**: it is not a guess from one example, it is FW's
+> own definition evaluated in general. **For the record's closed tower members
+> `T_O = −log(L₂ₙ − 2)`.**
+
+### F3 — the hypothesis BITES, and this seat's sealed prediction is REFUTED
+
+§6 predicted **`b₁ = 0` everywhere — "the conclusion survives where the hypothesis does not."**
+**It does not survive.**
+
+For a degree-`d` cyclic cover of a `ℚHS³`, `b₁ = Σ_{χ ≠ 1, χᵈ = 1} dim H¹(Q; ℂ_χ)`, so **`b₁ > 0` IS a
+zero mode.** Every admissible degree `≤ 33` measured; the rest marked **UNMEASURED and not scored**.
+
+| member | `\|H₁\|` | hyperbolic | zero modes found (degree, `b₁`) |
+|---|---|---|---|
+| **calibration** `Σ₂ = L(5,2)`, **finite `π₁`** | 5 | no (lens) | **none** — degree 5 measured ✓ |
+| `n=3` | 16 | yes, vol 4.32210 | none; degrees 2, 4 **all measured** |
+| `n=4` | 45 | yes, vol 7.02850 | none; degrees 3, 5, 15 **all measured** |
+| **`n=5`** | 121 | **yes, vol 4.68603** | **(11, `b₁`=10)** — all measured |
+| **`n=6`** | 320 | **yes, vol 7.32772** | **(2,1) (4,1) (8,5) (10,1) (20,1)**; degree 40 unmeasured |
+| **`n=7`** | 841 | **yes, vol 9.88228** | **(29, `b₁`=28)** — all measured |
+| `n=8` | 2205 | yes, vol 12.35091 | none in degrees 3,5,7,15,21; **35, 105 unmeasured** |
+
+**Three of six hyperbolic members carry abelian zero modes.** At `n=5` and `n=7` the effect is total —
+`b₁ = 10 = 11−1` and `b₁ = 28 = 29−1`, i.e. **every** non-trivial character of that quotient has
+`dim H¹ = 1`.
+
+> **FW's sentence — *"For a three-manifold `Q` with finite fundamental group, and a non-trivial
+> irreducible representation `ω_i`, there are no zero modes"* — genuinely NEEDS its hypothesis.
+> Drop finite `π₁` and the statement is FALSE, demonstrably, on manifolds in this record's own
+> tower.** This does not refute Friedmann–Witten, whose statement carries the hypothesis. **It
+> refutes the transfer of their framework to a hyperbolic `Q` — which is what xB029 did.**
+
+### A defect in this addendum's own first pass, recorded rather than overwritten
+
+**F3 v1 reported a FALSE NEGATIVE.** It printed *"max b1 = 0"* for `n = 5` and `n = 7`, whose `|H₁|`
+are `11²` and `29²` — so their **only** cyclic-cover degrees are 11 and 29, **both above v1's search
+bound of 8**. Those rows were **unmeasured, not negative**, and `max(…, default=0)` printed a zero for
+them. **The two members that carry the sharpest zero modes are exactly the two v1 scored as clean.**
+v2 enumerates admissible degrees from `H₁` itself and marks the unreachable ones UNMEASURED.
+
+---
+
+## 8. THE VERDICT, AND WHAT L225 IS NOW
+
+| | |
+|---|---|
+| **`T_O = −log\|Tor H₁(Q)\|`** | **SURVIVES** — chain-level algebra, `π₁`-independent, calibrated against FW's own answer (F2) |
+| **the exact tower arithmetic** (`L₂ₙ − 2`, growth `log α`, crossing `n = 88`) | **UNTOUCHED** — it is mathematics and xB029's `FINDINGS.md` stands |
+| **carrying the G₂ threshold framework to a hyperbolic `Q`** | **DEAD.** FW assume **finite `π₁`**; hyperbolic manifolds violate it; and the violation is **not benign** — zero modes are exhibited on three members (F3) |
+| **L225's physics-facing half** | **RETRACTED.** Not graded down — **retracted** |
+
+**The `T_λ` term, which xB029 already flagged as uncomputed, is now known to be worse than
+uncomputed on this class: for the characters exhibited in F3 it is not even DEFINED by FW's eq. (3.1),
+which requires no zero modes. It needs their `K_i` correction (3.3)–(3.5), and that is a different
+computation from the one xB029 gestured at.**
+
+**Gate 5 absolute. Nothing to `CLAIMS.md`. No value, no generation count, no physics reading.**
+
+## 9. SCORING, AND THE CLASS THIS MAKES THREE OF
+
+§6 predicted: F2 holds **(correct)** · **F3 passes — WRONG, it fired** · "the headline is the defect in
+§3, not whatever F2 and F3 return" **(held, and the cells made the defect worse rather than milder)**.
+**One of two, on the cell that mattered.**
+
+**This is the MISMATCHED HYPOTHESIS class for the third time in three days** — B1239 applying
+Kawauchi's *closed*-manifold theorem to cusped manifolds; xB023 Addendum 1's necessary-not-sufficient
+proxy; and now xB029 carrying Friedmann–Witten's *finite-`π₁`* framework to hyperbolic manifolds.
+**R58-1 (minting the class) remains sequenced behind B1376, which has not landed.** The instance is
+appended to that item rather than the class being minted out of order. **What distinguishes this
+instance: the hypothesis was in the CITED paper, not the citing one, and reading only the citing paper
+is what hid it. The register's own rule — a CITED-UNREAD statement may not carry a load-bearing step
+alone — would have caught it, and xB029 recorded Friedmann–Witten as CITED-UNREAD in the same commit
+in which it leaned on them.**

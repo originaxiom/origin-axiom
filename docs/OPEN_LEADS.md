@@ -2867,7 +2867,7 @@ and not in general), or one amphichiral hyperbolic knot in S³ with `cs = ¼`.
 (13/14 on the zero side, 0/1 on the quarter side; `t12071` and `o10_143849` are the misses), which is
 what killed Addendum 1's version. Source: `frontier/xB023_l194_the_selection_half/ADDENDUM_2_2026-09-18_is_the_counterexample_a_knot.md`.
 
-## L225 — THE RAY–SINGER TORSION TERM OF `P_eff`, FOR THREE-MANIFOLDS THAT ARE NOT LENS SPACES (registered 2026-09-18, xB029; source: arXiv:0801.0478 Appendix A, read at source)
+## L225 — THE RAY–SINGER TORSION TERM OF `P_eff`, FOR THREE-MANIFOLDS THAT ARE NOT LENS SPACES (registered 2026-09-18, xB029; source: arXiv:0801.0478 Appendix A, read at source) — **PHYSICS-FACING HALF RETRACTED SAME DAY (xB029 ADDENDUM 1): Friedmann–Witten assume FINITE `π₁`, hyperbolic manifolds violate it, and the violation is NOT benign. See the retraction note appended below. The `T_O` algebra survives.**
 **The gap, in the source's own words.** M theory on a G₂ manifold puts the hidden-sector gauge theory
 on a compact three-cycle `Q̂`; the KK threshold correction is `S = S′ + 2N_c log(Vol(Q̂)Λ³)` with
 *"`S′` … expressed in terms of certain topological invariants of `Q̂`, known as the **Ray-Singer
@@ -2899,3 +2899,38 @@ own rule, and the exact error class that killed xB023 Addendum 1.
 **Also open, and not answered from memory:** the post-2008 experimental status of the paper's
 predictions (light gauginos, sub-TeV gluinos, wino LSP). Source:
 `frontier/xB029_the_g2_mssm_read/`.
+
+
+### L225 — RETRACTION NOTE (2026-09-18, xB029 ADDENDUM 1, same day as registration)
+
+**Friedmann–Witten hep-th/0211269 — the source of the threshold formula, listed as CITED-UNREAD when
+L225 was registered — has been READ AT SOURCE, and it states hypotheses L225 never checked.** §3,
+verbatim: *"we assume that that there is a nontrivial **FINITE fundamental group `π₁(Q)`** and first
+homology group `H₁(Q)`"*, and §3.1: *"**For a three-manifold `Q` with finite fundamental group**, and a
+non-trivial irreducible representation `ω_i`, there are no zero modes."*
+
+**Every hyperbolic 3-manifold has infinite `π₁`.** xB029 declared and measured **compactness**
+(`b₁ = 0`, which the closed members do satisfy) and **never looked at `π₁`**, because it read the
+formula in the citing paper (Acharya et al.) and not the hypotheses in the cited one.
+
+**And the violation is not benign — it was measured.** For a degree-`d` cyclic cover of a `ℚHS³`,
+`b₁ = Σ_{χ≠1} dim H¹(Q; ℂ_χ)`, so `b₁ > 0` **is** a zero mode. **Three of six closed hyperbolic tower
+members carry them**: `n=5` (degree 11, `b₁ = 10`), `n=6` (degrees 2, 4, 8, 10, 20), `n=7` (degree 29,
+`b₁ = 28`) — while the **finite-`π₁` calibration `L(5,2)` has none**. **FW's no-zero-mode statement
+genuinely needs its hypothesis; dropping it makes the statement false on this record's own manifolds.**
+
+**WHAT IS RETRACTED:** every suggestion that the G₂ threshold framework can be carried to a hyperbolic
+three-cycle, and with it the `T_λ` half — on the characters exhibited, `T_λ` is **not even defined** by
+FW's eq. (3.1), which requires no zero modes; it needs their `K_i` correction (3.3)–(3.5), a different
+computation from the one L225 gestured at.
+
+**WHAT SURVIVES, as mathematics and not as physics:** `T_O = −log|Tor H₁(Q)|` for **every** rational
+homology 3-sphere — FW's own chain-level recipe, calibrated against their `T_O(S³/Z_q) = log(1/q)` and
+verified on 400 of 400 random square boundary maps, **with `π₁` nowhere in the argument** — and
+xB029's exact tower arithmetic (`|Tor H₁| = L₂ₙ − 2`, growth `log((3+√5)/2)`, crossing at `n = 88`),
+which is untouched.
+
+**The lesson, and it is the register's own rule:** *a CITED-UNREAD statement may not carry a
+load-bearing step alone.* **xB029 recorded Friedmann–Witten as CITED-UNREAD in the same commit in
+which it leaned on them.** The hypothesis was in the **cited** paper, not the citing one, and reading
+only the citing paper is what hid it.

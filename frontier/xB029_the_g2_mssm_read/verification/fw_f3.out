@@ -1,0 +1,43 @@
+F3 v2    DOES THE FINITE-pi_1 HYPOTHESIS BITE?  b1 > 0 in a cyclic cover IS a zero mode:
+         for a degree-d cyclic cover of a QHS^3, b1 = sum over the nontrivial characters
+         chi with chi^d = 1 of dim H^1(Q; C_chi).
+         Search bound: every admissible degree <= 33; the rest are UNMEASURED.
+         FENCE, sealed: ABELIAN characters only.  FW's statement covers EVERY non-trivial
+         irreducible rep, so a pass here would be STRICTLY WEAKER than their hypothesis.
+
+         CALIBRATION Sigma_2 = L(5,2), FINITE pi_1: H_1 = Z/5, degrees [5]
+           measured [(5, 1, 0)]; zero-mode hits []
+         finite-pi_1 calibration gives b1 = 0 throughout: True
+
+         THE CLOSED TOWER MEMBERS:
+           n=3 slope=(1, 2) |H_1|=16 HYPERBOLIC vol=4.32210
+             admissible degrees [2, 4]; measured [(2, 3, 0), (4, 6, 0)]; UNMEASURED []
+             ZERO MODES (degree, b1): none found
+           n=4 slope=(3, 1) |H_1|=45 HYPERBOLIC vol=7.02850
+             admissible degrees [3, 5, 15]; measured [(3, 4, 0), (5, 1, 0), (15, 4, 0)]; UNMEASURED []
+             ZERO MODES (degree, b1): none found
+           n=5 slope=(0, 1) |H_1|=121 HYPERBOLIC vol=4.68603
+             admissible degrees [11]; measured [(11, 12, 10)]; UNMEASURED []
+             ZERO MODES (degree, b1): [(11, 10)]
+           n=6 slope=(0, 1) |H_1|=320 HYPERBOLIC vol=7.32772
+             admissible degrees [2, 4, 5, 8, 10, 20, 40]; measured [(2, 3, 1), (4, 6, 1), (5, 1, 0), (8, 12, 5), (10, 3, 1), (20, 6, 1)]; UNMEASURED [40]
+             ZERO MODES (degree, b1): [(2, 1), (4, 1), (8, 5), (10, 1), (20, 1)]
+           n=7 slope=(0, 1) |H_1|=841 HYPERBOLIC vol=9.88228
+             admissible degrees [29]; measured [(29, 30, 28)]; UNMEASURED []
+             ZERO MODES (degree, b1): [(29, 28)]
+           n=8 slope=(0, 1) |H_1|=2205 HYPERBOLIC vol=12.35091
+             admissible degrees [3, 5, 7, 15, 21, 35, 105]; measured [(3, 4, 0), (5, 1, 0), (7, 8, 0), (15, 4, 0), (21, 32, 0)]; UNMEASURED [35, 105]
+             ZERO MODES (degree, b1): none found
+
+         hyperbolic members examined: 6; of those, with a zero mode: 3  (['n=5', 'n=6', 'n=7'])
+         members whose admissible degrees were ALL measured: 4 of 6
+         members with UNMEASURED degrees (not scored either way): [('n=6', [40]), ('n=8', [35, 105])]
+
+         *** THE KILL CONDITION FIRED, ON A HYPERBOLIC MEMBER.
+         A closed hyperbolic rational homology 3-sphere in the record's own tower has
+         abelian characters with H^1 != 0.  Zero modes are REAL once pi_1 is infinite.
+         FW's no-zero-mode statement genuinely NEEDS its finite-pi_1 hypothesis, and
+         the simple torsion formula does NOT carry over to the hyperbolic side.
+         L225's physics-facing half DIES.  Its T_O algebra (F2) is untouched.
+
+F3 v2 PASS  (calibrated; content is the verdict above)
