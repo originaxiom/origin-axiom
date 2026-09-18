@@ -8683,6 +8683,18 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1429": {
+   "slug": "the stabiliser verified",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B142": {
    "slug": "klein4 and magic cartography",
    "motifs": [

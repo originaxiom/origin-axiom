@@ -1,0 +1,11 @@
+integral 12*CS: 104 of 112
+as a representative mod 12 : [0, 1, 2, 3, 4, 5, 6]   (7 of 12)
+as a CLASS in Z/6 (=CS mod 1/2 in twelfths): [0, 1, 2, 3, 4, 5]   -> SURJECTIVE: True
+counts in Z/6: {0: 47, 1: 5, 2: 11, 3: 29, 4: 7, 5: 5}
+
+the orientation/order bit acts as r -> -r; on Z/6 it fixes exactly [0, 3]
+so of the 6 classes the family realises, 4 are MOVED by it
+and on the 2-element sister orbit {0, 1/4} = classes {0, 3} it fixes BOTH -- those are precisely
+the fixed points, so the two bits are invisible there and visible on the wider family.
+
+control: 2 of 600 non-family one-cusped census manifolds have CS in twelfths (0.33%); classes [0, 3]

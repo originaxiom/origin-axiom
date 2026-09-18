@@ -365,6 +365,12 @@ def row_ids(seat, row, idx):
             out.add(f"R{m.group(1)}{m.group(2)}")
             if m.group(3):
                 out |= {f"R{n:03d}" for n in _expand(m.group(1), m.group(3))}
+    elif k == "sep16":
+        # this lane's ids are xBnnn; a row may name several, and ranges are written xB001-xB004
+        for m in re.finditer(r"\bxB(\d{3})\b(?:\s*[\u2013\u2014-]\s*xB?(\d{3})\b)?", t):
+            out.add("xB%s" % m.group(1))
+            if m.group(2):
+                out |= {"xB%03d" % n for n in range(int(m.group(1)), int(m.group(2)) + 1)}
     elif k == "cc3":
         out |= {f"B{n}" for n in _nums(t, r"\bB(8\d{3})\b", r"8\d{3}")}
     elif k == "hostile":
