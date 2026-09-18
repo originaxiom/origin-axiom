@@ -220,3 +220,46 @@ brought level with the work it comes from.
 *Reproductions for this round: `referee_2026-09-17/scripts/r5_tower_loci.py` (loci, h¹, orders,
 cusp condition), plus the round-2 scripts. SnapPy is used for presentations and isometries only;
 all characters, Fox calculus, ranks, cohomology and group theory are this referee's own code.*
+
+
+---
+
+## 6. A new result, following from the verified mechanism: three is out of reach
+
+Round 3 verified that the tower's count is one **because** h¹(χ²) = 1 at every non-split locus. That
+makes the three-generation question sharp and finite: **by this mechanism, three generations require
+a genuine extension locus with h¹(χ²) = 3.** So I went looking for one
+(`referee_2026-09-17/scripts/r6_h1_three.py`) — every cover of m004 to degree 8, plus the named
+members of the family, over the full character group of order dividing 60.
+
+**A trap first, which I fell into and report rather than hide.** A raw scan finds 32 loci with
+h¹(χ²) = 3 on the degree-7 covers. They are spurious: those χ have order 2, so χ² is *trivial* and
+h¹(χ²) = b₁, which is 3 for free on a three-cusped cover. Filtering to χ² non-trivial — the genuine
+extension loci, the ones that actually carry a non-split ρ_χ — the picture is:
+
+| h¹(χ²) | genuine loci found |
+|---|---|
+| 1 | 20 904 |
+| 2 | 456 |
+| **3** | **0** |
+
+And the 456 twos are **never on a one-cusped manifold**. They occur only on covers with 2 or 3
+cusps, and on s959 (two-cusped).
+
+**What that means.** The count this mechanism produces is bounded by h¹ at the locus. On everything
+one-cusped — where the index instrument is defined and where the generation actually fires — it is
+**1, everywhere, without exception**. Raising it requires going multi-cusped, which (a) tops out at
+**2**, never 3, in everything scanned, and (b) leaves the domain of the one-cusped instrument, whose
+several-cusp form the record itself grades as not reproducible from a clean checkout.
+
+So: **three generations are not reachable by the tower mechanism in anything within reach of m004,**
+and the obstruction is not subtle — it is the dimension of a first cohomology group, and it is one.
+
+This is a stronger and more specific statement than the paper's "the count of three is not produced
+by this mechanism on any level up to six", because it is not about levels. It is about every cover to
+degree 8 and the whole named family, and it says *why*: h¹ is 1, and where it grows it grows to 2.
+
+**The remaining question, well-posed and finite:** is there any manifold in m004's commensurability
+class, at any degree, with a genuine extension locus at h¹(χ²) = 3? I found none to degree 8. If the
+answer is none, that is a no-go theorem for three generations from this construction, and it would be
+the cleanest negative the programme has.
