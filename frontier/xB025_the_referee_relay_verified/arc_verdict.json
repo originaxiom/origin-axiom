@@ -1,0 +1,64 @@
+{
+ "id": "xB025",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "xB021",
+  "xB023",
+  "B1413",
+  "B1415",
+  "B1374",
+  "B1375",
+  "B1366"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [
+  {
+   "row": "I-32"
+  },
+  {
+   "row": "I-33"
+  }
+ ],
+ "rederived": [
+  {
+   "arc": "B1374_the_class_index_in_the_sm_frame",
+   "outcome": "CONFIRMED",
+   "what": "read directly from the source branch the SM-derivation lane at 23532539 rather than from the relay's summary. Every relayed figure is exact: 12 800 on 64 loci at Y_4, the signature V = (0,1,1,0) and V* = (0,2,1,2), nu^c = 0 on t12839, anomaly-free. Its own self-grading instrument: true, and its statement that it fires on REDUCIBLE NON-SPLIT modules having reproduced R27's m010 witness first, were both omitted by the relay and are restored here."
+  },
+  {
+   "arc": "B1375_the_towers_generation_count",
+   "outcome": "CONFIRMED",
+   "what": "read from the source branch. 12 800 + 800 + 67 200 = 80 800 exact; one net generation on every background, never two, never three; Y_2 and Y_3 carry none. instrument: true. FINDINGS section 5 adds what the relay omitted: on Y_6, 57 600 of 67 200 carry no net singlet and 9 600 carry one with the generation's own sign, so 'exactly one net generation' is uniform in five slots and not six. Y_7 still running."
+  },
+  {
+   "arc": "B1413_the_audit_lanes_r21_r31",
+   "outcome": "CONFIRMED",
+   "what": "its R27(a) supplies the theorem that reframes the relay's central caveat: Menal-Ferrer-Porti Theorem 0.1, read at source on main, makes the one-cusped index a THEOREM-ZERO on the whole geometric finite-twist class, so a nonzero index REQUIRES leaving that class. B1374 knows this and reproduces R27's m010 witness as its first control. B1413's exact Q(u) recomputation gives a_0=0, a_1=1, t_0=1, r_1=0 for V and a_1=2, r_1=2 for V* -- the relayed signature to the digit. B1413 and B1374/B1375 are the same fact from two sides, not in tension."
+  },
+  {
+   "arc": "B1415_the_sm_seats_closing_arcs_harvested",
+   "outcome": "CONFIRMED",
+   "what": "its 72-root count for E_6 is reproduced independently here, and two of its findings bear on the relay's E_6 claim: the SU(2)/U(1) placement is its own computation (of the 12 order-4 elements of exp(u(1)_Y + u(1)_gamma), exactly 4 leave only the SM roots of su(6)), and 'Kac's order-3 inner classes of E_6 are six ... and NONE IS THE STANDARD MODEL'. A claim of a unique SM embedding must exhibit its reconciliation with that."
+  },
+  {
+   "arc": "xB021_the_sum_of_the_negatives",
+   "outcome": "SCOPED",
+   "what": "the relay's structural reading of it is CORRECT (group of order 4, orbit {0, 1/4}, stabiliser exactly {A6, A7}, 4 = 2 x 2), and its reading that the orbit is {CS(m004), CS(m003)} is also correct -- xB023 W0 re-derived both classes today. SCOPED on two counts: xB021 carries identifications: [] and made NO identification with the paper's vocabulary (routed to I-32), and xB022 has since EXPLAINED the three arithmetic misses as a third species of invariant with a trivial orbit, so the relay's '9 of 12 with 3 named misses' understates the current state."
+  },
+  {
+   "arc": "xB023_l194_the_selection_half",
+   "outcome": "CONFIRMED",
+   "what": "supplies the mechanism the relay treats as a closed loop: m004 sits at CS = 0 because it is the orientation double cover of the Gieseking manifold, 78 of 78 such covers at class zero against a 27.2 percent base rate on the full 203 123-manifold one-cusped census."
+  },
+  {
+   "arc": "B1366",
+   "outcome": "NOT_RERUN",
+   "why": "B1366 itself lives on a lane this arc did not fetch; only the ONE CHECKABLE INGREDIENT of the claim attributed to it ('120 A_2's, all one orbit') was verified here, exactly. Its actual text was not read, and no statement of B1366 beyond that ingredient is confirmed or denied by this arc."
+  }
+ ],
+ "claim_one_line": "THE REFEREE RELAY VERIFIED AT SOURCE: THE ARITHMETIC HOLDS EXACTLY, AND TWO INFERENCES OVERREACH AND ARE ROUTED AS DEBTS. This is a RELAY VERIFICATION and NOT a sealed prediction; PREREGISTRATION.md declares in full that the checks were run as the relay was read, and no kill condition is claimed. (1) The source branch was FETCHED (the SM-derivation lane at 23532539) and B1374/B1375 read from FETCH_HEAD rather than from the relay's summary: every figure is EXACT -- 12 800 on 64 loci at Y_4, 800 on 200 at Y_5, 67 200 on 576 at Y_6, 80 800 total, one net generation on every background and never two or three, Y_2 and Y_3 carrying none, signature V = (0,1,1,0) against V* = (0,2,1,2). That signature matches B1413's independent exact Q(u) recomputation TO THE DIGIT, so the relay's claim that the verified instrument is the instrument in use is correct. THREE THINGS THE RELAY UNDERSTATED, all from the source: both arcs self-declare instrument: true; the non-semisimple fence is FORCED BY A THEOREM and B1374 knows it (Menal-Ferrer-Porti Theorem 0.1 via B1413 R27(a) makes the index a theorem-zero on the geometric finite-twist class, so nonzero REQUIRES leaving it, and B1374 reproduces R27's witness first -- the two are the same fact from two sides, not in tension); and the right-handed neutrino is NOT uniform, B1375 section 5 giving 9 600 of 67 200 backgrounds on Y_6 with a net singlet of the generation's own sign, so 'exactly one net generation' is uniform in five slots and not six, with Y_7 still running. (2) B1366's INGREDIENT VERIFIED EXACTLY by integer arithmetic in the simple-root basis with no Lie-theory library: E_6 has 72 roots, 120 A_2 subsystems, and a SINGLE Weyl orbit of size 120 -- and the decisive control is that the same orbit walk returns TWO orbits of sizes [1, 3] on the disconnected system A_1 + A_2, where the Weyl group cannot mix components, so a single-orbit verdict is a result and not an artefact of code that could only ever return one. Root counts A_3 12, D_4 24, E_6 72, E_7 126, E_8 240 as positive controls. (3) TWO OVERREACHES, ROUTED AS UNEARNED DEBTS RATHER THAN CALLED DEFECTS. I-33: the verified ingredient does NOT establish 'the SM embeds in E_6 uniquely up to conjugacy' -- root subsystems are not all subalgebras (Dynkin's regular versus special, invisible to the orbit walk), A_2 is colour and not the Standard Model (B1415: of 12 order-4 torus elements exactly 4 leave only the SM roots of su(6)), and the claim does not say conjugacy in WHICH group (W(E_6), the adjoint group, or Aut(E_6) with the diagram automorphism relating 27 and 27bar); and main's B1415 separately records that NONE of Kac's six order-3 inner classes of E_6 is the Standard Model, which a uniqueness claim must reconcile with rather than pass by. I-32: the relay states the stabiliser IS 'the two the paper calls withheld and relational', but xB021 carries identifications: [] and made no such identification -- the structural half is verified and the bridge to the paper's vocabulary is not. (4) ONE RELAY READING IS RIGHT AND TIGHTER THAN IT KNOWS: the orbit {0, 1/4} is indeed {CS(m004), CS(m003)}, re-derived in xB023 W0, and xB023 supplies the MECHANISM -- m004 is the orientation double cover of the Gieseking manifold and 78 of 78 such covers sit at class zero against a 27.2 percent base rate. The relay's own best control, an independent single-prime run over 661 reproducing the record's FOUR SPURIOUS LOCI, is agreement including on artefacts and is stronger than agreement on clean numbers. THIS ARC DOES NOT assess the paper -- this seat has not read it -- and does not ratify either routed inference. Supplies no value; Gate 5 absolute; nothing to CLAIMS.md."
+}

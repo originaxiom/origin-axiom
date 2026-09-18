@@ -17060,3 +17060,78 @@ Exact citations recorded from CGHN's own bibliography, including **Ouyang, Topol
 411–421**, which CGHN names as the **global** proof of the `η(M(p,q))` formula.
 
 **L194 unchanged and still open. No value, no new mechanism, no crossing. Gates 35/35.**
+
+---
+
+## 2026-09-18 — xB025: THE REFEREE RELAY, VERIFIED AT SOURCE (seat `xb`, `sep16-branch`)
+
+**A relay verification, not a sealed prediction.** `PREREGISTRATION.md` declares in full that the
+checks were run as the relay was read; **no kill condition is claimed.** **Verdict PROVED
+(VERIFIED-DIFFERS in substance).** Four cells PASS. **Gates 35/35.**
+
+### The arithmetic — checked against the source, not the summary
+
+The SM-derivation lane fetched at `23532539`; `B1374`/`B1375` read from `FETCH_HEAD`.
+**Every relayed figure is exact:** 12 800 on 64 loci at Y₄, 800 on 200 at Y₅, 67 200 on 576 at Y₆,
+**80 800** total, **one net generation on every background — never two, never three**, Y₂ and Y₃
+carrying none, signature `V = (0,1,1,0)` against `V* = (0,2,1,2)`.
+
+**Independent cross-check:** that signature matches **B1413**'s exact ℚ(u) recomputation on this
+branch **to the digit**.
+
+**Three understatements corrected from the source:**
+1. **`B1374` and `B1375` both self-declare `instrument: true`.**
+2. **The non-semisimple fence is forced by a theorem, and B1374 knows it.** Menal-Ferrer–Porti
+   **Theorem 0.1** (B1413 R27(a)) makes the index a **theorem-zero on the geometric finite-twist
+   class**, so nonzero **requires** leaving it; B1374 fires *"on reducible non-split modules"* having
+   *"reproduced R27's m010 witness first"*. **B1413 and B1374/B1375 are the same fact from two
+   sides, not in tension.**
+3. **The right-handed neutrino is not uniform.** B1375 §5: on Y₆, **9 600 of 67 200** carry a net
+   singlet **of the generation's own sign**. So "one net generation" is uniform in **five** slots,
+   not six. **Y₇ still running.**
+
+### B1366's ingredient — verified exactly, with the control that matters
+
+`verification/e6_a2_orbit.py`, integer arithmetic in the simple-root basis, **no Lie-theory
+library**: E₆ has **72 roots**, **120 A₂ subsystems**, **one Weyl orbit of size 120**.
+
+> **The decisive control is the negative one:** the same walk returns **two** orbits `[1,3]` on the
+> **disconnected** A₁ ⊕ A₂, where the Weyl group cannot mix components. **A single-orbit verdict
+> from code that could only ever return one would be worthless.**
+
+Positive controls: **A₃ 12, D₄ 24, E₆ 72, E₇ 126, E₈ 240** roots.
+
+### Two overreaches, routed as debts rather than called defects
+
+**Baseline raised 14 → 16 by hand, dated, with what would earn each written in** — the ratchet
+working as designed.
+
+- **I-33** — the verified ingredient does **not** give *"the SM embeds in E₆ uniquely up to
+  conjugacy"*: root subsystems aren't all subalgebras (Dynkin regular vs special, invisible to the
+  walk) · A₂ is **colour**, not the SM (B1415: of 12 order-4 torus elements, **exactly 4** leave
+  only the SM roots of su(6)) · conjugacy in **which** group (`W(E₆)`, adjoint, or `Aut(E₆)` with
+  the automorphism relating **27**/**27̄**). **And B1415 records that none of Kac's six order-3
+  inner classes of E₆ is the Standard Model** — to be reconciled, not passed by.
+- **I-32** — the relay states the stabiliser **is** *"the two the paper calls withheld and
+  relational"*. **xB021 carries `identifications: []` and made no such identification.** The
+  structural half is verified; the bridge to the manuscript's vocabulary is not.
+
+### One relay reading that is right, and tighter than it knows
+
+`{0, ¼}` **is** `{CS(m004), CS(m003)}` — re-derived in xB023 W0 — and **xB023 supplies the
+mechanism**: m004 sits at 0 **because it is the orientation double cover of the Gieseking
+manifold**, **78 of 78** such covers at class zero against a **27.2 %** base rate on the full
+203 123-manifold census. Also owed: **xB022 has since explained the three arithmetic "misses"** as a
+third species (invariants with a trivial orbit), so *"9 of 12 with 3 named misses"* understates it.
+
+**Credit:** the relay's best control is one it barely mentions — an independent single-prime run
+over 661 reproducing the record's **four spurious loci**. **Agreement including on artefacts is
+stronger than agreement on clean numbers.**
+
+### Housekeeping the date rollover forced
+Nine relay debts crossed the 21-day bar when the date became 2026-09-18 — **not by any action of
+this seat**. **Escalated by name, not closed**: BANKED is the receiving seat's judgement and no seat
+may close another's debt to make a gate green (this ledger's own rule).
+
+**This arc does NOT assess the paper — this seat has not read it.** Supplies no value.
+**Gate 5 absolute. Nothing to `CLAIMS.md`.**

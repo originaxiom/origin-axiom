@@ -1,5 +1,27 @@
 # Changelog
 
+## xB025 — the referee relay verified at source: the arithmetic holds, two inferences overreach
+
+**Checked against the source branch, not its summary.** Every relayed figure exact — **80 800**
+backgrounds, one net generation each, never two or three; the `(0,1,1,0)`/`(0,2,1,2)` signature
+matches **B1413**'s exact ℚ(u) recomputation **to the digit**.
+
+**Three understatements corrected:** both arcs self-declare `instrument: true`; the non-semisimple
+fence is **forced by a theorem** (Menal-Ferrer–Porti Thm 0.1 — nonzero index *requires* leaving the
+geometric finite-twist class, and B1374 reproduces R27's witness first, so the two are **the same
+fact from two sides**); the right-handed neutrino is **not uniform** (9 600 of 67 200 on Y₆).
+
+**B1366's ingredient verified exactly:** E₆ has **72 roots, 120 A₂ subsystems, one Weyl orbit of
+size 120** — with a **negative control** (two orbits on the disconnected A₁ ⊕ A₂) proving the walk
+can see more than one, so the verdict isn't an artefact.
+
+**Two overreaches routed as UNEARNED debts** (baseline raised 14 → 16 by hand, dated): **I-33**, the
+ingredient ⇏ a unique SM embedding (three gaps named, plus B1415's *"none is the Standard Model"* to
+reconcile); **I-32**, the stabiliser ≡ the paper's "withheld"/"relational" — **xB021 carries
+`identifications: []`**.
+
+Nine relay debts crossed the 21-day bar on the date rollover; **escalated by name, not closed**.
+
 ## xB024 Addendum 2 — Neumann's CS paper read: L223's literature half closes, L194's blocker priced
 
 **Read at source:** Neumann, *Combinatorics of Triangulations and the Chern–Simons Invariant*,

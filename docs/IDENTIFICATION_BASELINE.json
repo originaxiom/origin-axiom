@@ -1,6 +1,6 @@
 {
  "_note": "B1231 ratchet. The UNEARNED count may not INCREASE. A hard block on UNEARNED would make the fastest path to green MARKING THINGS EARNED -- pressuring the very judgment the gate protects (the B1222 shape, aimed at ourselves). UNEARNED is the correct resting state for honest open work; ~300 NEGATIVE arcs red nothing. New unearned identifications red the suite at CREATION, which is when 2026-08-31's two would have been caught.",
- "unearned": 14,
+ "unearned": 16,
  "rows": [
   "I-6",
   "I-7",
@@ -15,9 +15,11 @@
   "I-27",
   "I-28",
   "I-30",
-  "I-29"
+  "I-29",
+  "I-32",
+  "I-33"
  ],
- "total_rows": 31,
+ "total_rows": 33,
  "_baseline_raises": [
   {
    "date": "2026-09-01",
@@ -102,6 +104,14 @@
    "reason": "the codex seat's R033 (2026-09-01): B1231 admitted the listener map is an unpriced identification and its ledger had no row; registering the admitted debt is the deliberate, dated raise the ratchet's own note calls for. Not a promotion; the count now says what B1231 said.",
    "from": 13,
    "to": 14
+  },
+  {
+   "date": "2026-09-18",
+   "arc": "xB025",
+   "from": 14,
+   "to": 16,
+   "row": "I-32, I-33",
+   "reason": "TWO INFERENCES FROM AN INCOMING RELAY, REGISTERED AT CREATION RATHER THAN ABSORBED -- which is exactly what the ratchet exists to force. A round-3 referee report (on the paper lane, 33691f81) asserts (a) that the stabiliser xB021 computed IS 'the two bits the paper calls withheld and relational', and (b) that '120 A_2 subsystems in one Weyl orbit' gives a UNIQUE Standard-Model embedding in E_6 up to conjugacy. xB025 VERIFIED the checkable ingredient of (b) exactly -- E_6 has 72 roots, 120 A_2 subsystems, a single Weyl orbit of size 120, with a negative control (two orbits [1,3] on the disconnected A_1 + A_2) proving the walk can see more than one -- and that is precisely why the row is UNEARNED rather than EARNED: the INGREDIENT is verified and the INFERENCE is not. Three gaps are named in the row (root subsystems are not all subalgebras; A_2 is colour, not the SM; conjugacy in WHICH group), plus main's own B1415 recording that NONE of Kac's six order-3 inner classes of E_6 is the Standard Model. For (a), xB021's own arc_verdict.json carries identifications: [] -- it made no such identification, and this seat declines to absorb one made downstream of it. Raised by hand, dated, with what would earn each row written into it; nothing absorbed, and neither row is this seat's claim."
   }
  ],
  "_earned_additions": [
