@@ -1,0 +1,60 @@
+==============================================================================
+ THE PAPER ALREADY HAD IT?  --  memo 235's NOVELTY, measured
+==============================================================================
+  source: papers/P3_THE_PAPER/main.tex   (2006 lines)
+
+------------------------------------------------------------------------------
+ PART 1 -- the three conclusions the addenda reported
+------------------------------------------------------------------------------
+  [PRESENT] K1  A6 -- the b_2 >= 2 condition for a symmetric triple
+              main.tex:1839
+  [PRESENT] K2  the no-seesaw exclusion of the apex design
+              main.tex:116
+  [PRESENT] K3  the hollow texture, sigma_1 = sigma_2 + sigma_3
+              main.tex:1842
+  [PRESENT] K4  where three comes from, in the paper's own sentence
+              main.tex:107 (spans lines)
+
+------------------------------------------------------------------------------
+ PART 2 -- B1427's census, banked on MAIN TODAY (2026-09-18)
+------------------------------------------------------------------------------
+  [ABSENT ] 80 800 backgrounds                         tried: ['80\\,800', '80800', '80 800']
+  [ABSENT ] 12 800 generation-shaped backgrounds       tried: ['12\\,800', '12800', '12 800']
+  [ABSENT ] 240 300 modules scanned                    tried: ['240\\,300', '240300', '240 300']
+  [ABSENT ] 89 non-split loci on Y_4                   tried: ['89 non-split', '89 loci']
+  [ABSENT ] 639 loci on Y_6                            tried: ['639 loci', '639 non-split']
+  [ABSENT ] the level-7 reach                          tried: ['level 7', 'level seven']
+  [ABSENT ] 'never two, never three'                   tried: ['never two, never three']
+
+------------------------------------------------------------------------------
+ PART 3 -- WHY THIS BENCH KEPT MISSING IT: the surfaces the pre-flight reads
+------------------------------------------------------------------------------
+  scripts/checks/already_banked.py reads, by its own source:
+      docs/*.md
+      frontier/*/**/FINDINGS.md
+      frontier/*/arc_verdict.json
+      frontier/B1337_the_scheduled_sweep/verification/readable_scheduled.json
+  [CONFIRMED] the pre-flight NEVER READS papers/ -- so the programme's most consolidated
+              statement is invisible to the instrument that exists to stop this bench
+              from calling a thing missing. That is an INSTRUMENT GAP, not a lapse of
+              attention, and it is computed here from the script's own source.
+
+------------------------------------------------------------------------------
+ CONTROLS
+------------------------------------------------------------------------------
+  [PASS] C1 POSITIVE -- a phrase the paper certainly has is FOUND (main.tex:1107)
+  [PASS] C2 NEGATIVE -- an invented phrase is ABSENT
+  C3 DISAMBIGUATION -- 1 line(s) contain '976':
+      main.tex:1983  \bibitem{jorgensen} T.~J\o rgensen, \emph{On discrete groups of M\"obius transformations}, Amer.
+  [PASS] C3 -- every '976' is a BIBLIOGRAPHY YEAR, not B1427's count of firing modules
+
+==============================================================================
+ OUTCOME A
+ The paper ALREADY STATES all of memo 235's reported conclusions, in its own
+ words, and does NOT carry B1427's census. So the addenda were NEW TO THIS
+ BENCH, NOT TO THE RECORD -- and the single relay is the dated count.
+ CONTROLS: 3/3 PASS
+==============================================================================
+ FENCE (sealed before the run): this measures WHAT THE PAPER SAYS, never
+ whether it is right. No claim about the mathematics. No value.
+ I-26 UNEARNED. Gate 5 untouched.
