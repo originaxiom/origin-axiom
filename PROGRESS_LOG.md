@@ -17508,3 +17508,59 @@ as stated.**
 > READ-AT-SOURCE and the lead did not move with it. L194 is still open.**
 
 **No physics result here, and none is claimed. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+## xB023 ADDENDUM 2 (2026-09-18) — the counterexample is not a knot: the refutation was of this seat's PROXY, and the corrected prediction holds 13 of 13
+
+**Sealed at `8be6f04f` before `verification/knot_or_not.py` existed.** Addendum 1 is untouched and its
+refutation stands; this closes the one line it left open and named as decisive for what the
+refutation was *of*.
+
+**Why it became decidable.** SnapPy's `CensusKnots` is documented as **complete** — *"the knot
+exteriors which can be triangulated by at most 10 ideal tetrahedra"*, 3116 of them,
+`{2:1, 3:2, 4:4, 5:22, 6:43, 7:129, 8:301, 9:765, 10:1849}`. **`o10_143849` has 10.** Membership
+therefore **decides**, in both directions — modulo that published tabulation, which is an external
+dependence and is named as one.
+
+| cell | result |
+|---|---|
+| **N1** banked datum re-derived | **exact agreement** on all six fields — 1 cusp, 10 tet, `H₁ = ℤ`, `ℤ/4` full and amphicheiral, class **quarter** |
+| **N2** THE DECISION | **`o10_143849` is NOT a knot complement in S³.** Calibration passed both ways (`m004 → K2_1`; `m003 → False`) |
+| **N2** control | **13 of 14** zero-class `H₁ ≅ ℤ` members **are** knot complements (predicted ≥ 8); the fourteenth, **`t12071`, is not either** |
+| **N3** 6-theorem slope search | no S³ filling; calibrated on m004's own; **its certificate cell FAILED** (no proper cover ≤ deg 10 — the same silence S³ gives) |
+| **N4** the corrected prediction | **13 of 13 amphicheiral census knots at class ZERO, none at quarter.** Not underpowered |
+
+**Two honest downgrades of N3, one of them unanticipated by the seal.** Its finite-cover certificate
+found `m004(1,1)`'s covers (degree 7, `H₁ = ℤ/2+ℤ/2`; degree 8, `ℤ/12`) and **found none for the
+target**, so **N3 does not prove its own negative**. And *"has an S³ filling"* **is** *"is a knot
+complement in S³"* — so N3 was never independent of N2 but **downstream** of it. Its real value is
+narrower and is stated at that width: a consistency check on the tabulation N2 depends on, which
+could have exposed an error and did not.
+
+**A control nobody designed.** Amphicheirality forces `cs ∈ {0, ¼}`. Addendum 1's scan recorded
+**`other = 0` across all 181** amphicheiral one-cusped census manifolds — **181/181 agreement with a
+theorem**, validating the amphicheirality test and the CS-class function jointly. And N4's 13 are the
+**identical set** N2's control reached from the opposite enumeration direction: **symmetric
+difference empty.**
+
+**Post hoc, labelled:** base rate of class zero among the 181 is `106/181 = 0.586`; 13 draws expect
+**7.6**, observed **13**; Fisher one-sided `p = C(106,13)/C(181,13) = 6.9 × 10⁻⁴`. **Computed after
+seeing N4, on non-independent draws — weaker than a sealed statistic.**
+
+**What it changes.** §3's prediction is **still dead as stated** — it named `H₁ ≅ ℤ` and `H₁ ≅ ℤ`
+produced a counterexample. What moves is **where the failure sits**: in this seat's **proxy**, not in
+Meyerhoff–Ouyang. In its place stands a well-posed conjecture, **L224**: *an amphichiral hyperbolic
+knot in S³ has `cs ≡ 0` (mod ½)* — **not a theorem**, because Cor. 2.5 gives `η = 0` and Prop. 2.2's
+`(1/3)ℤ` slack blocks the step to `cs`. **The gap is one quantified slack and it is named.**
+
+**The object's selection now has three accounts of unequal status:** `η(m004) = 0` (**theorem**, Cor.
+2.5) · the free involution, 78/78 vs a 27.2 % base rate (**empirical**) · being an amphichiral knot
+in S³, 13/13 (**empirical, post hoc**). **m004 satisfies all three; m003 satisfies none** — and
+`o10_143849` is now known not to be an S³ knot complement, which is why it was never a witness
+against the third.
+
+**The seat's sealed prior scored five for five** — and §4 had said the **better** outcome for the
+mathematics was the one it predicted against (N2's kill, which would have given an explicit witness
+that cusped `η = 0` coexists with `cs = ¼`). **That outcome did not occur. The seat got the tidier
+result and the weaker one.**
+
+**L194 remains OPEN. No physics result. Gate 5 absolute. Nothing to `CLAIMS.md`.**

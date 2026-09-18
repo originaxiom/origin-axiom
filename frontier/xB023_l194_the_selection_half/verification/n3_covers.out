@@ -1,0 +1,10 @@
+m004           (1, 0)   covers up to degree 7: []   CALIBRATION +ve  (S^3: must find none)
+m004           (1, 1)   covers up to degree 7: [(7, 2, 'Z/2 + Z/2')]   CALIBRATION -ve  (Sigma(2,3,7): must find one)
+o10_143849     (1, 0)   covers up to degree 7: []   
+o10_143849     (-1, 0)  covers up to degree 7: []   
+o10_143849     (0, 1)   covers up to degree 7: []   
+o10_143849     (0, -1)  covers up to degree 7: []   
+
+CALIBRATION: S^3 -> none (correct);  Sigma(2,3,7) -> [(7, 2, 'Z/2 + Z/2')]
+calibration valid: True
+every one of the target's four homology-sphere slopes has a proper finite cover: False

@@ -1,5 +1,22 @@
 # Changelog
 
+## xB023 Addendum 2 — the counterexample is not a knot; the refuted prediction was refuted through a proxy
+
+**`CensusKnots` is a complete tabulation at ≤ 10 ideal tetrahedra and `o10_143849` has 10**, so its
+absence from it **decides**: it is **not a knot complement in S³**, and **Cor. 2.5 never applied to
+it**. Addendum 1's prediction had been tested through `H₁ ≅ ℤ` — **necessary, not sufficient** — and
+that proxy misses on both sides (`t12071` too).
+
+**Re-run with the exact predicate, the prediction holds: 13 of 13 amphicheiral knot complements in S³
+at CS class zero, none at quarter**, reached identically from both enumeration directions. Registered
+as **L224**, as a **conjecture**: Cor. 2.5 gives `η = 0`, and **Prop. 2.2's `(1/3)ℤ` slack** is the
+single named gap to `cs`.
+
+**Reported against ourselves:** N3's finite-cover certificate **failed** — it found the calibration's
+covers and none for the target, so it does not prove its own negative; and N3 turned out to be
+**downstream** of N2 rather than independent of it. **Addendum 1 stands unedited; §3's prediction is
+dead as stated either way.** Post-hoc `p = 6.9 × 10⁻⁴`, **labelled post hoc**. **L194 still open.**
+
 ## xB023 Addendum 1 — Meyerhoff–Ouyang read; a sealed prediction of ours refuted
 
 **L194's named blocker is retired.** **Prop. 2.2** quantifies the cusp-basis correction the register

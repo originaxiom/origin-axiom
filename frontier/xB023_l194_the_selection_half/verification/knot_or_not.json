@@ -1,0 +1,203 @@
+{
+ "cells": {
+  "N1": true,
+  "N3": true,
+  "N4": true,
+  "N2": true
+ },
+ "results": {
+  "N1": {
+   "measured": {
+    "num_cusps": 1,
+    "num_tetrahedra": 10,
+    "orientable": true,
+    "solution_type": "all tetrahedra positively oriented",
+    "volume": 9.146160309759706,
+    "homology": "Z",
+    "h1sig": [
+     1,
+     []
+    ],
+    "amphicheiral": true,
+    "symmetry_group": "Z/4",
+    "cs_class": "quarter"
+   },
+   "expected": {
+    "num_cusps": 1,
+    "num_tetrahedra": 10,
+    "orientable": true,
+    "h1sig": [
+     1,
+     []
+    ],
+    "amphicheiral": true,
+    "cs_class": "quarter"
+   },
+   "disagreements": {}
+  },
+  "N3": {
+   "calibration_m004": {
+    "slopes_le_Lmax": 20,
+    "cusp_area": 3.4641016151377535,
+    "merid_len": 0.9999999999999997,
+    "long_len": 3.464101615137755,
+    "homology_sphere_slopes": 6,
+    "hits": [
+     [
+      -1,
+      0,
+      0.9999999999999997,
+      "TRIVIAL pi_1 -> S^3 (Perelman)"
+     ],
+     [
+      1,
+      0,
+      0.9999999999999997,
+      "TRIVIAL pi_1 -> S^3 (Perelman)"
+     ],
+     [
+      -1,
+      -1,
+      3.605551275463989,
+      "non-hyperbolic, pi_1 has 2 generators - undecided"
+     ],
+     [
+      1,
+      1,
+      3.605551275463989,
+      "non-hyperbolic, pi_1 has 2 generators - undecided"
+     ],
+     [
+      -1,
+      1,
+      3.60555127546399,
+      "non-hyperbolic, pi_1 has 2 generators - undecided"
+     ],
+     [
+      1,
+      -1,
+      3.60555127546399,
+      "non-hyperbolic, pi_1 has 2 generators - undecided"
+     ]
+    ]
+   },
+   "target": {
+    "slopes_le_Lmax": 8,
+    "cusp_area": 11.697729947807199,
+    "merid_len": 3.4791681105514534,
+    "long_len": 3.479168110551457,
+    "homology_sphere_slopes": 4,
+    "hits": [
+     [
+      -1,
+      0,
+      3.4791681105514534,
+      "non-hyperbolic, pi_1 has 2 generators - undecided"
+     ],
+     [
+      1,
+      0,
+      3.4791681105514534,
+      "non-hyperbolic, pi_1 has 2 generators - undecided"
+     ],
+     [
+      0,
+      -1,
+      3.479168110551457,
+      "non-hyperbolic, pi_1 has 2 generators - undecided"
+     ],
+     [
+      0,
+      1,
+      3.479168110551457,
+      "non-hyperbolic, pi_1 has 2 generators - undecided"
+     ]
+    ]
+   },
+   "calibration_ok": true,
+   "target_has_S3_filling": false
+  },
+  "N4": {
+   "census_knots_scanned": 3116,
+   "amphicheiral": 13,
+   "errors": 0,
+   "counts": {
+    "zero": 13,
+    "quarter": 0,
+    "other": 0
+   },
+   "members": {
+    "zero": [
+     "K2_1(0,0)",
+     "K6_34(0,0)",
+     "K6_43(0,0)",
+     "K8_151(0,0)",
+     "K8_291(0,0)",
+     "K10_409(0,0)",
+     "K10_1324(0,0)",
+     "K10_1526(0,0)",
+     "K10_1584(0,0)",
+     "K10_1643(0,0)",
+     "K10_1685(0,0)",
+     "K10_1686(0,0)",
+     "K10_1846(0,0)"
+    ],
+    "quarter": [],
+    "other": []
+   },
+   "underpowered": false,
+   "corrected_prediction_holds": true
+  },
+  "N2": {
+   "completeness_sentence": true,
+   "calibration": {
+    "m004": "K2_1(0,0)",
+    "m003": "False"
+   },
+   "calibration_ok": true,
+   "target": "o10_143849",
+   "target_censusknots": "False",
+   "target_identify": [
+    "o10_143849(0,0)"
+   ],
+   "target_is_S3_knot": false,
+   "zero_members": [
+    "m004(0,0)",
+    "s726(0,0)",
+    "s912(0,0)",
+    "t07734(0,0)",
+    "t12071(0,0)",
+    "t12587(0,0)",
+    "o10_054391(0,0)",
+    "o10_124310(0,0)",
+    "o10_136013(0,0)",
+    "o10_138649(0,0)",
+    "o10_141596(0,0)",
+    "o10_143319(0,0)",
+    "o10_143320(0,0)",
+    "o10_150404(0,0)"
+   ],
+   "quarter_members": [
+    "o10_143849(0,0)"
+   ],
+   "zero_member_knots": {
+    "m004(0,0)": "K2_1(0,0)",
+    "s726(0,0)": "K6_34(0,0)",
+    "s912(0,0)": "K6_43(0,0)",
+    "t07734(0,0)": "K8_151(0,0)",
+    "t12071(0,0)": "False",
+    "t12587(0,0)": "K8_291(0,0)",
+    "o10_054391(0,0)": "K10_409(0,0)",
+    "o10_124310(0,0)": "K10_1324(0,0)",
+    "o10_136013(0,0)": "K10_1526(0,0)",
+    "o10_138649(0,0)": "K10_1584(0,0)",
+    "o10_141596(0,0)": "K10_1643(0,0)",
+    "o10_143319(0,0)": "K10_1685(0,0)",
+    "o10_143320(0,0)": "K10_1686(0,0)",
+    "o10_150404(0,0)": "K10_1846(0,0)"
+   },
+   "n_zero_knots": 13,
+   "errors": 0
+  }
+ }
+}

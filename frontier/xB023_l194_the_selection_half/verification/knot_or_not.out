@@ -1,0 +1,92 @@
+
+N1       THE BANKED DATUM, RE-DERIVED FROM SCRATCH (not recalled)
+         num_cusps          1
+         num_tetrahedra     10
+         orientable         True
+         solution_type      all tetrahedra positively oriented
+         volume             9.146160309759706
+         homology           Z
+         h1sig              (1, ())
+         amphicheiral       True
+         symmetry_group     Z/4
+         cs_class           quarter
+         EXACT AGREEMENT with Addendum 1 on all six checked fields.
+N1 PASS
+
+N2       THE DECISION -- CensusKnots is complete to 10 ideal tetrahedra
+         completeness sentence present in CensusKnots docstring: True
+         |CensusKnots| = 3116
+         CALIBRATION  m004 (= S^3 minus 4_1, a knot complement): K2_1(0,0)
+         CALIBRATION  m003 (H_1 has torsion, provably NOT one):  False
+         calibration passes (positive found, negative rejected): True
+         TARGET o10_143849:  CensusKnots.identify -> False
+         TARGET o10_143849:  identify() all censuses -> ['o10_143849(0,0)']
+         CONTROL -- recomputing the zero-class H_1 = Z members and testing each
+         amphicheiral + H_1 = Z:  zero class 14, quarter class 1, errors 0
+         zero class:    ['m004(0,0)', 's726(0,0)', 's912(0,0)', 't07734(0,0)', 't12071(0,0)', 't12587(0,0)', 'o10_054391(0,0)', 'o10_124310(0,0)', 'o10_136013(0,0)', 'o10_138649(0,0)', 'o10_141596(0,0)', 'o10_143319(0,0)', 'o10_143320(0,0)', 'o10_150404(0,0)']
+         quarter class: ['o10_143849(0,0)']
+           m004(0,0)      -> K2_1(0,0)
+           o10_054391(0,0) -> K10_409(0,0)
+           o10_124310(0,0) -> K10_1324(0,0)
+           o10_136013(0,0) -> K10_1526(0,0)
+           o10_138649(0,0) -> K10_1584(0,0)
+           o10_141596(0,0) -> K10_1643(0,0)
+           o10_143319(0,0) -> K10_1685(0,0)
+           o10_143320(0,0) -> K10_1686(0,0)
+           o10_150404(0,0) -> K10_1846(0,0)
+           s726(0,0)      -> K6_34(0,0)
+           s912(0,0)      -> K6_43(0,0)
+           t07734(0,0)    -> K8_151(0,0)
+           t12071(0,0)    -> False
+           t12587(0,0)    -> K8_291(0,0)
+         of the 14 zero-class members, 13 ARE knot complements in S^3
+         TARGET is a knot complement in S^3: False
+         *** The target is NOT a knot complement in S^3 (decisive: it has 10
+         tetrahedra and the tabulation is complete at 10).  MO Cor 2.5 NEVER
+         APPLIED TO IT, so Addendum 1's refutation is of this seat's PROXY.
+N2 PASS  (the cell ran and calibrated; its CONTENT is the verdict above)
+
+N3       SECOND INSTRUMENT -- 6-theorem slope search for an S^3 filling
+         Every slope of length > 6 on the maximal cusp fills hyperbolically
+         (Agol, Lackenby), hence not to S^3.  So the search below is FINITE.
+         CALIBRATION m004 = S^3 minus 4_1 -- it MUST find the S^3 filling
+           cusp area 3.464102  |m| 1.000000  |l| 3.464102
+           slopes of length <= 6: 20; of those with trivial H_1: 6
+           HIT  (-1,0)  len 1.0000  TRIVIAL pi_1 -> S^3 (Perelman)
+           HIT  (1,0)  len 1.0000  TRIVIAL pi_1 -> S^3 (Perelman)
+           HIT  (-1,-1)  len 3.6056  non-hyperbolic, pi_1 has 2 generators - undecided
+           HIT  (1,1)  len 3.6056  non-hyperbolic, pi_1 has 2 generators - undecided
+           HIT  (-1,1)  len 3.6056  non-hyperbolic, pi_1 has 2 generators - undecided
+           HIT  (1,-1)  len 3.6056  non-hyperbolic, pi_1 has 2 generators - undecided
+         calibration passes (m004's S^3 filling found): True
+         TARGET o10_143849
+           cusp area 11.697730  |m| 3.479168  |l| 3.479168
+           slopes of length <= 6: 8; of those with trivial H_1: 4
+           HIT  (-1,0)  len 3.4792  non-hyperbolic, pi_1 has 2 generators - undecided
+           HIT  (1,0)  len 3.4792  non-hyperbolic, pi_1 has 2 generators - undecided
+           HIT  (0,-1)  len 3.4792  non-hyperbolic, pi_1 has 2 generators - undecided
+           HIT  (0,1)  len 3.4792  non-hyperbolic, pi_1 has 2 generators - undecided
+         an S^3 filling of o10_143849 was found: False
+         FENCE, declared in the seal: SnapPy's cusp translations are UNVERIFIED
+         floating point and the 6-theorem needs the MAXIMAL EMBEDDED cusp.  N3 is
+         CORROBORATION BY A SECOND INSTRUMENT, NOT AN INDEPENDENT PROOF.
+N3 PASS  (calibrated; its CONTENT is the verdict above)
+
+N4       SECTION 3's PREDICTION, RE-RUN WITH THE REAL PREDICATE
+         Addendum 1 used H_1 = Z (NECESSARY only).  Here: in CensusKnots (EXACT for
+         this census).  Among AMPHICHEIRAL knot complements in S^3, how do CS classes
+         split?
+         census knots scanned 3116; amphicheiral 13; errors 0
+         CS class of the amphicheiral census knots: {'zero': 13, 'quarter': 0, 'other': 0}
+           zero       13  ['K2_1(0,0)', 'K6_34(0,0)', 'K6_43(0,0)', 'K8_151(0,0)', 'K8_291(0,0)', 'K10_409(0,0)', 'K10_1324(0,0)', 'K10_1526(0,0)', 'K10_1584(0,0)', 'K10_1643(0,0)', 'K10_1685(0,0)', 'K10_1686(0,0)', 'K10_1846(0,0)']
+           quarter     0  []
+           other       0  []
+         *** THE CORRECTED PREDICTION HOLDS: every amphicheiral knot complement
+         in S^3 in this census sits at CS class ZERO, none at quarter.
+         FENCE: this is an EMPIRICAL REGULARITY OVER A FINITE CENSUS, not a
+         theorem.  The eta -> cs step stays blocked by MO Prop 2.2's (1/3)Z slack.
+N4 PASS  (the cell ran; its CONTENT is the verdict above)
+
+==============================================================================
+ALL CELLS RAN
+DONE_ALL

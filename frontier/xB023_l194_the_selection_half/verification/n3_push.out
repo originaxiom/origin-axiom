@@ -1,0 +1,21 @@
+N3-RESIDUE   pushing the undecided homology-sphere fillings, 60 randomisations each
+manifold       slope    solution type                            best (gens,rels)       closed-census id
+m004           (1, 0)   contains negatively oriented tetrahedra  (0, 0)                 False
+               CALIBRATION +ve: this IS S^3
+m004           (1, 1)   contains flat tetrahedra                 (2, 2)                 False
+               CALIBRATION -ve: +1 surgery on 4_1, a non-trivial homology sphere
+               relators: ['aBAbaabAB', 'aBAbABabb']
+o10_143849     (1, 0)   unrecognized solution type               (2, 2)                 False
+               relators: ['abbbbbbbbbbbaBB', 'aabbAbb']
+o10_143849     (-1, 0)  unrecognized solution type               (2, 2)                 False
+               relators: ['aBBabbbbbbbbbbb', 'aabbAbb']
+o10_143849     (0, 1)   unrecognized solution type               (2, 2)                 False
+               relators: ['aaaaaabAbaaaaabAb', 'abbaB']
+o10_143849     (0, -1)  unrecognized solution type               (2, 2)                 False
+               relators: ['aaaaabAbaaaaaabAb', 'abbaB']
+
+CALIBRATION READ:
+  S^3 collapses to (0, 0) ; the non-trivial homology sphere stalls at (2, 2)
+  calibration valid (S^3 collapses, non-S^3 does not): True
+  target's four slopes: [(2, 2), (2, 2), (2, 2), (2, 2)]
+  any target slope collapsed to the trivial group: False

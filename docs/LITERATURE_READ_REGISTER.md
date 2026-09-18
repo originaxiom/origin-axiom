@@ -185,3 +185,25 @@ then well-defined only mod `ℤ`. **The addendum's own §4 said this before §3 
 > close what the blocker was blocking. **MO's arrival retired the ACCESS problem and left the
 > MATHEMATICAL one standing** — `L194`'s general cusp-local lemma is **still open**. A source moved
 > from UNREAD to READ-AT-SOURCE **and the lead did not move with it.**
+
+## AMENDMENT 6 (2026-09-18) — the refuted prediction was refuted through a PROXY, and the proxy was the thing that failed
+
+Amendment 5 recorded that xB023 Addendum 1's sealed prediction died. **ADDENDUM 2 establishes what it
+died of, and it is not Meyerhoff–Ouyang.**
+
+The counterexample `o10_143849` **is not a knot complement in S³** — decisively, because it has
+**10 ideal tetrahedra** and SnapPy's `CensusKnots` is a **complete** tabulation of S³ knot exteriors
+at **≤ 10**, and it is absent from it. **So Corollary 2.5 never applied to it.** The prediction had
+tested `H₁ ≅ ℤ`, which is **necessary and not sufficient**, and the proxy misses on **both** sides:
+`t12071` also has `H₁ ≅ ℤ` and is also not an S³ knot complement.
+
+Re-run with the **exact** predicate, the prediction **holds**: **13 of 13** amphicheiral knot
+complements in S³ sit at CS class zero, none at quarter. Registered as **L224** — as a **conjecture**,
+because Cor. 2.5 still gives `η = 0` and not `cs = 0`.
+
+> **The lesson for this register.** *A source is not the only thing that can be misread — so can the
+> **predicate** a prediction is tested with.* Amendment 5's lesson was that obtaining a blocker does
+> not close what it blocked. **This one is narrower and sharper: a refutation is only as good as the
+> proxy it was run on, and a proxy that is "necessary, not sufficient" was labelled as such in the
+> seal and used anyway.** The fence was written and then not honoured — **naming a limitation is not
+> the same as respecting it.**

@@ -2841,3 +2841,28 @@ and the anchor declaration. **Closed routes, recorded here so they are not re-ru
 route (xB016 P2, P3, P7 — refuted on licensing *and* on genericity) and the quantization route
 (xB016 P4 + ADDENDUM 1 — closed by citation).
 
+
+## L224 — DOES AN AMPHICHIRAL HYPERBOLIC KNOT IN S³ HAVE `cs ≡ 0` (mod ½)? (registered 2026-09-18, xB023 ADDENDUM 2; source: the corrected form of a prediction of this seat's that Addendum 1 refuted)
+**The statement.** For a hyperbolic knot `K ⊂ S³` whose complement admits an orientation-reversing
+self-homeomorphism, is the Chern–Simons invariant of `S³ ∖ K` always `0` rather than `¼` in `ℝ/½ℤ`?
+**The evidence.** **13 of 13**, over the **complete** ≤10-ideal-tetrahedron tabulation of S³ knot
+exteriors (`CensusKnots`, 3116 manifolds, Callahan–Dean–Weeks / Champanerkar–Kofman–Patterson /
+Dunfield / Li): `K2_1` (= m004 = S³ ∖ 4₁), `K6_34`, `K6_43`, `K8_151`, `K8_291`, `K10_409`,
+`K10_1324`, `K10_1526`, `K10_1584`, `K10_1643`, `K10_1685`, `K10_1686`, `K10_1846` — **every one at
+class zero, none at quarter**. Reached independently from the census side and the knot side with
+**empty symmetric difference**. Post-hoc Fisher one-sided `p = 6.9 × 10⁻⁴` against the 106/181
+base rate of class zero among amphicheiral one-cusped census manifolds — **labelled post hoc in the
+source and weaker than a sealed statistic.**
+**Why it is only a conjecture, and the gap is one named quantity.** Amphicheirality forces
+`cs ≡ −cs (mod ½)`, hence `cs ∈ {0, ¼}` — that much is a theorem and the census confirms it
+**181/181**. Meyerhoff–Ouyang **Cor. 2.5** then gives **`η(K) = 0`** outright. **The step from `η` to
+`cs` is what is missing**, and **Prop. 2.2** says why: `η` is well defined only mod `(1/3)ℤ`, so `3η`
+is well defined mod `ℤ` and a cusped analogue of APS's `3η ≡ 2cs + τ (mod 2)` pins `cs` only mod
+`½` — **exactly the resolution SnapPy already has**. **L224 is L194's general lemma restricted to the
+S³-knot class, where the conjecture is sharp and the missing step is a single quantified slack.**
+**What would settle it:** a cusped `η`–`cs` relation whose indeterminacy is finer than `½` on the
+S³-knot class (the canonical meridian–longitude pair of Prop. 2.3 is the reason to expect one there
+and not in general), or one amphichiral hyperbolic knot in S³ with `cs = ¼`.
+**Do not re-run these:** `H₁ ≅ ℤ` as a proxy for "knot complement in S³" — it fails on both sides
+(13/14 on the zero side, 0/1 on the quarter side; `t12071` and `o10_143849` are the misses), which is
+what killed Addendum 1's version. Source: `frontier/xB023_l194_the_selection_half/ADDENDUM_2_2026-09-18_is_the_counterexample_a_knot.md`.
