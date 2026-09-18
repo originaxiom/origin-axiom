@@ -226,3 +226,89 @@ fence. Caught only by reading the paper.
 
 **Gate 5 untouched. Nothing promotes to `CLAIMS.md`. No value, no generation count, no physics
 claim is made here — this memo reports what other people published.**
+
+---
+
+## ADDENDUM 1 (2026-09-18) — **§1(a) IS WRONG. B1273 CITED THE LITERATURE ALL ALONG. BENCH ERROR #38.**
+
+**Nothing above is struck; §1(a) is superseded here.**
+
+§1(a) reports Zimmermann 1990 as **PRE-EMPTING** *"B1273's headline identification"*, as though B1273
+claimed the 3-fold-branched-cover ↔ Hantzsche–Wendt identification as its own. **It did not.**
+`frontier/B1273_the_three_fold_closing/FINDINGS.md`, line 12, verbatim:
+
+> *"**Y_n are the Fibonacci manifolds** (**Helling–Kim–Mennicke**: π₁(Y_n) = F(2,2n); F(2,4) = ℤ/5),
+> and **Y₃ is the flat Hantzsche–Wendt manifold** (the didicosm…)"*
+
+and its closing line reads *"Literature: Helling–Kim–Mennicke…"*. The record also carries the same
+attribution in `docs/LITERATURE_SWEEP_2026-09-06_higgs_bundles_and_the_destination.md`, whose
+Sources list ends: *"Helling, Kim, Mennicke, A geometric study of Fibonacci groups … (**the Fibonacci
+manifolds as the cyclic branched covers of the figure-eight knot; Y₃ the Hantzsche–Wendt
+manifold**)."* Counts: `Helling` main 2 / SM 11; `Mennicke` main 12 / SM 21.
+
+**So the identification was never an uncited rediscovery.** What stands, narrowed:
+
+| §1 item | corrected status |
+|---|---|
+| (a) the identification | **NOT a pre-emption.** B1273 cites Helling–Kim–Mennicke for it. Zimmermann is an *additional, earlier* source, uncited — a citation improvement, not a correction |
+| (b) memo 233 v2's ℤ/3 | **stands** as far as checked: Zimmermann's Theorem p. 322 has it, and `zimmermann` is 0 files. **But I have not checked whether HKM or another cited source also carries the deck action** — so this is "Zimmermann has it", not "only Zimmermann has it" |
+| (c) D₄ = Sym(4₁) | **stands** as far as checked: the record's own statement is *"own-verified, SnapPy"* with no source at that point. Same caveat as (b) |
+
+### The error, named
+
+**BENCH ERROR #38: I declared a pre-emption by grepping for the AUTHOR I had found, not for the FACT.**
+`zimmermann` → 0 files was true and irrelevant; the fact was sourced under *Helling / Mennicke /
+Fibonacci*. This is the standing rule — **exhaust the repo before ranking a gap** — failed at the
+last step.
+
+**And the aggravating detail, which is the real lesson:** I *commissioned* exactly this check. The
+Explore agent dispatched earlier was asked, in these words, to report presence/absence for
+*"Helling", "Kim", "Mennicke"*. **Its result never arrived, and I banked as though it had come back
+clean.** A check you launch and do not read is not a check — it is worse than one you never ran,
+because it buys false confidence.
+
+### What this does not change
+
+§2 (Dekimpe–Petrosyan confirming `H₁(Y₃) = ℤ₄²`), §4 (Atiyah–Witten; B1355 not pre-empted), §5
+(Bourjaily pre-empting B1271's mechanism and vindicating B1031's grading), §6 (the census) and §7
+(**#37**) are unaffected — each was checked against the arcs' own text, not by author-grep alone.
+**§5's pre-emption should still be verified the same way before it is relied on**: B1271 may cite a
+source for the E₈ ⊃ E₆ × SU(3) branching that I did not look for.
+
+Gate 5 untouched; nothing promotes to `CLAIMS.md`.
+
+### ADDENDUM 1, part 2 — **§5 IS TOO STRONG IN THE SAME WAY. #38 HAPPENED TWICE IN ONE MEMO.**
+
+Checked, as this addendum's own table instructed. **B1271 never claims the E₈ ⊃ E₆ × SU(3) branching
+as its own.** It writes the branching as the textbook decomposition it is —
+
+> *"whose E₆ × SU(3) content **248 = (78,1) + (1,8) + (27,3) + (27̄,3̄)** *is* the three 27s and their
+> mirror"*
+
+— and states its actual contribution one line earlier:
+
+> *"**The three generations are the three weights of the Eisenstein 3: three copies of the whole 27,
+> permuted by the object's own order-3 element**"*
+
+i.e. the identification of that order-3 element with the object's **founding ratio g = −RL⁻¹** on
+B1270's icosian E₈ — answering B302/B308/B632's multiplicity question — together with the honest
+negatives it reports in its own title and status line: *"the Yukawa E₈ forces on the triplet is
+antisymmetric in the generations — hence zero"*, and **N = 0**.
+
+**So Bourjaily pre-empts the branching, which B1271 does not claim, not B1271's contribution.**
+Corrected status: **SHARPENS / CONTEXT, not PRE-EMPTS.** What remains true and useful is that
+Bourjaily is uncited (0 files both heads), that he calls the three *"a general consequence of group
+theory"* — corroborating **B1031**'s *"structural, count matches — NOT derived"* — and that he names
+the step B1271 lacks: chirality from **unfolding into separated codimension-7 points**, priced at
+*"only four complex structure moduli"*, against B1271's `N = 0`.
+
+**#38 occurred twice in one memo, and the shape is one sentence:** I mistook *"the record states X"*
+for *"the record claims X as its own"*. The difference is whether the arc cites — and in both cases
+it did, in its own FINDINGS, in text I had already read. **The corrected rule: before writing
+PRE-EMPTS, read the arc's own citation line, not a grep for the author the search happened to
+surface.**
+
+Of §1–§7, the findings that survive unchanged are **§2** (Dekimpe–Petrosyan confirming `H₁(Y₃) =
+ℤ₄²`, plus the exceptional-dimension sharpening), **§4** (B1355 not pre-empted; AW quotients CP³ only
+by Zₙ ⊂ U(1); the A-type template; the frozen-E₆ numerology trap refused), **§6** (the census) and
+**§7** (#37). The pre-emption claims of §1(a) and §5 do not.
