@@ -1,5 +1,21 @@
 # Changelog
 
+## xB028 — the arithmetic closings verified from a second bench; B288's lock diagnosed, not repaired
+
+**m004(6,1) → cubic disc −59** and **m004(8,1) → cubic disc −31** confirmed independently, with the
+**Weeks manifold reproducing its textbook −23** as a positive control. m004(5,1) and m004(7,1) are
+**UNDETERMINED** at quad-double precision and reported as such — xB024's height guard working.
+
+**The load-bearing half survives, confirmed without computing arithmeticity:** every determined field
+is excluded from containing `ℚ(√−3)` twice over (a cubic has no quadratic subfield; a real embedding
+forbids `√−3`). So *"no closing carries the selecting field"* stands and only the arithmeticity
+clause of main's sentence is false.
+
+**B288's lock asserts a falsehood.** `test_no_closed_filling_is_arithmetic` checks
+*imaginary-quadraticity* — the **cusped** criterion — on **closed** fillings. Its name is false; what
+it checks is true. **Flagged as a live defect, deliberately not repaired:** B1376 is that seat's
+active repair and duplicating it is the B1267 collision. No shared ledger touched.
+
 ## xB027 — the generation count is stabiliser-fixed: one is the invariant, the backgrounds are the orbit
 
 Ran B1374's census on the sister's tower with the lane's own machinery, **borrowed with provenance**

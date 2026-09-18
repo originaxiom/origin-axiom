@@ -17254,3 +17254,43 @@ which **B1413's R27 makes a theorem**: the index is a theorem-zero on the geomet
 class, so every firing counted here lives outside it **by necessity**.
 
 **No value. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-18 — xB028: THE ARITHMETIC CLOSINGS, VERIFIED FROM A SECOND BENCH (seat `xb`)
+
+**A second-bench verification, not a sealed prediction** — the seal declares the order honestly.
+**Verdict PROVED. Three cells PASS. Gates 35/35.**
+
+A paper-lane seat reported main's sentence *"zero keep `ℚ(√−3)` and zero are arithmetic"* false in
+its second half, and stopped mid-repair (**B1376**) at its usage limit.
+
+| manifold | this bench | relayed |
+|---|---|---|
+| **m003(−3,1)** Weeks | **cubic, disc −23** | **positive control — textbook, PASSED** |
+| **m004(6,1)** | **cubic, disc −59**, (1 real, 1 complex) | ✓ |
+| **m004(8,1)** | **cubic, disc −31**, (1 real, 1 complex) | ✓ |
+| m004(5,1), m004(7,1) | **UNDETERMINED** | quartic −283 / sextic |
+
+**Two of three confirmed with exact discriminants**, plus the Weeks control. **The precision ceiling
+is stated:** quad-double here against the lane's 1000-bit polished holonomy, so two targets are
+**undetermined and not guessed** — xB024's height guard doing exactly the job it was minted for.
+
+**A2 — the load-bearing half, confirmed without computing arithmeticity at all.** Every determined
+field is excluded from containing `ℚ(√−3)` **twice over**: a cubic cannot contain a quadratic (2 ∤ 3),
+and a field with a real embedding cannot contain `√−3` at all. **So *"no closing carries the
+selecting field"* stands; only the arithmeticity clause is false.**
+
+**A3 — B288's lock, diagnosed and deliberately not repaired.**
+`test_no_closed_filling_is_arithmetic` asserts `N_ARITHMETIC == 0` with the comment *"none
+imaginary-quadratic"* — **the comment contains the bug**. That is the **cusped** criterion; a closed
+filling needs the **cocompact** one. **The test's name asserts a falsehood; what it checks is true.**
+
+> **A test that certifies a falsehood is worse than no test.** Recorded as a live defect — and
+> **not taken**, because B1376 is that seat's active repair and duplicating it is the B1267
+> collision. **No shared ledger touched: no error class minted, no lead registered, no lock edited.**
+
+**This arc does not establish arithmeticity on its own authority** — that needs the cocompact
+criterion, which it does not compute. It verifies **trace fields**, a necessary ingredient only.
+
+**No value. Gate 5 absolute. Nothing to `CLAIMS.md`.**

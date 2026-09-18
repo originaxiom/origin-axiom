@@ -1,0 +1,39 @@
+{
+ "id": "xB028",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": [
+  "xB024",
+  "B288",
+  "B718",
+  "B740"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "xb",
+ "creates_law": false,
+ "identifications": [],
+ "rederived": [
+  {
+   "arc": "B718",
+   "outcome": "CONFIRMED",
+   "what": "its July finding that closed fillings of m004 can be arithmetic -- which never propagated to B288's lock or to main's sentence -- is corroborated from a second bench for two of the three: m004(6,1) has invariant trace field the cubic of discriminant -59 and m004(8,1) the cubic of discriminant -31, both with one real embedding and one complex place. The third, m004(5,1), is UNDETERMINED at this bench's precision and is not claimed."
+  },
+  {
+   "arc": "B288_arithmetic_filling_census",
+   "outcome": "CORRECTED",
+   "what": "its lock tests/test_b288_*.py::test_no_closed_filling_is_arithmetic asserts N_ARITHMETIC == 0 with the comment 'none imaginary-quadratic'. THE COMMENT CONTAINS THE BUG: imaginary-quadraticity is the criterion for a CUSPED group, while a CLOSED filling needs the cocompact criterion (Maclachlan-Reid 8.3.2). The test's NAME asserts something false; what it actually verifies -- that no closed filling has an imaginary-quadratic invariant trace field -- is TRUE and is the load-bearing half. Diagnosed here and DELIBERATELY NOT REPAIRED: B1376 on the paper lane is that seat's active repair and duplicating it would be a collision of the B1267 kind."
+  },
+  {
+   "arc": "xB024_the_literature_pass",
+   "outcome": "CONFIRMED",
+   "what": "its height guard (dps > 2 d log10 H) is the instrument that makes this arc's UNDETERMINED verdicts honest rather than absent: m004(5,1) and m004(7,1) fail the guard at quad-double precision and are reported undetermined instead of being read off a spurious high-degree relation, which is exactly the E56 shape xB024 minted the guard for."
+  },
+  {
+   "arc": "B740",
+   "outcome": "NOT_RERUN",
+   "why": "B740 recomputed only the Q(sqrt-3) half across the 78 slopes and its verdict says only that; the relay reports that main's paper row merged B288's arithmeticity clause back in. This arc did not re-run B740 and makes no statement about it beyond repeating the relay's description, which is unverified here."
+  }
+ ],
+ "claim_one_line": "THE ARITHMETIC CLOSINGS VERIFIED FROM A SECOND BENCH, AND B288's LOCK DIAGNOSED AND LEFT FOR ITS OWNER. A second-bench verification and NOT a sealed prediction: PREREGISTRATION.md declares in full that the checks were run as the incoming correction was read, and no kill condition is claimed. A paper-lane seat reported that main's sentence 'of the grid's 78 closed hyperbolic fillings, zero keep Q(sqrt-3) and zero are arithmetic' is FALSE IN ITS SECOND HALF, that B718 found three arithmetic fillings in July by the cocompact criterion, and that the correction never propagated; that seat stopped mid-repair (B1376). A1, invariant trace fields computed here under xB024's height guard: m003(-3,1), the Weeks manifold, gives the cubic of discriminant -23, ITS TEXTBOOK VALUE, as a POSITIVE CONTROL that PASSED; m004(6,1) gives the cubic of discriminant -59 and m004(8,1) the cubic of discriminant -31, both with one real embedding and one complex place, MATCHING THE RELAY EXACTLY; m004(5,1) and m004(7,1) fall outside the guard at this bench's quad-double precision and are reported UNDETERMINED, NEVER GUESSED, with the ceiling stated -- the lane's 1000-bit polished holonomy is not available here. A2, THE LOAD-BEARING HALF CONFIRMED WITHOUT COMPUTING ARITHMETICITY AT ALL: every field determined here is excluded from containing Q(sqrt-3) TWICE OVER, because a field containing a quadratic field has even degree over Q and a cubic cannot (2 does not divide 3), and because a real embedding sigma would make sigma(sqrt-3) a real number squaring to -3, which is impossible, and all three determined fields have a real embedding. So the relayed conclusion 'no closing carries the selecting field' is CONFIRMED where it could be checked and confirmed INDEPENDENTLY OF ARITHMETICITY: the load-bearing half of main's sentence survives and only its arithmeticity clause is false. A3, B288's LOCK: test_no_closed_filling_is_arithmetic asserts N_ARITHMETIC == 0 with the comment 'none imaginary-quadratic', and THE COMMENT CONTAINS THE BUG -- imaginary-quadraticity is the CUSPED criterion while a CLOSED filling needs the COCOMPACT one (Maclachlan-Reid 8.3.2). The test's NAME asserts something FALSE while what it actually verifies is TRUE and is the load-bearing half. A test that certifies a falsehood is worse than no test, so this is recorded as a LIVE DEFECT -- and DELIBERATELY NOT REPAIRED, because B1376 is that seat's active repair and duplicating it would be the collision this record was already bitten by at B1267. For the same reason this arc touches NO SHARED LEDGER: no error class minted, no lead registered, no lock edited. This arc does NOT establish the three fillings arithmetic on its own authority -- arithmeticity needs the cocompact criterion, which it does NOT compute; it verifies TRACE FIELDS, a necessary ingredient and not the whole criterion. Supplies no value; Gate 5 absolute; nothing to CLAIMS.md."
+}

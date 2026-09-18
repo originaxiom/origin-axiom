@@ -1,0 +1,74 @@
+{
+ "cells": {
+  "A1": true,
+  "A2": true,
+  "A3": true
+ },
+ "results": {
+  "A1": {
+   "rows": {
+    "m003(-3,1)": {
+     "degree": 3,
+     "poly": "x^3 - x - 1",
+     "disc": "-23",
+     "real_roots": 1,
+     "complex_places": 1,
+     "relayed": "POSITIVE CONTROL -- the Weeks manifold, textbook cubic disc -23"
+    },
+    "m004(6,1)": {
+     "degree": 3,
+     "poly": "x^3 + 2*x - 1",
+     "disc": "-59",
+     "real_roots": 1,
+     "complex_places": 1,
+     "relayed": "relayed: cubic, (1,1), disc -59"
+    },
+    "m004(8,1)": {
+     "degree": 3,
+     "poly": "x^3 + x - 1",
+     "disc": "-31",
+     "real_roots": 1,
+     "complex_places": 1,
+     "relayed": "relayed: cubic, (1,1), disc -31"
+    },
+    "m004(5,1)": {
+     "status": "UNDETERMINED",
+     "why": "guard not met at this precision",
+     "relayed": "relayed: quartic, (2,1), disc -283 (Meyerhoff; Chinburg 1987)"
+    },
+    "m004(7,1)": {
+     "status": "UNDETERMINED",
+     "why": "guard not met at this precision",
+     "relayed": "relayed: sextic, (2,2) -- NOT arithmetic"
+    }
+   },
+   "control_ok": true
+  },
+  "A2": {
+   "m003(-3,1)": {
+    "odd_degree": true,
+    "has_real_embedding": true,
+    "can_contain_Qsqrt-3": false
+   },
+   "m004(6,1)": {
+    "odd_degree": true,
+    "has_real_embedding": true,
+    "can_contain_Qsqrt-3": false
+   },
+   "m004(8,1)": {
+    "odd_degree": true,
+    "has_real_embedding": true,
+    "can_contain_Qsqrt-3": false
+   },
+   "m004(5,1)": "UNDETERMINED",
+   "m004(7,1)": "UNDETERMINED"
+  },
+  "A3": {
+   "lock": "tests/test_b288_*.py::test_no_closed_filling_is_arithmetic",
+   "defect": "name and assertion state arithmeticity; the check is imaginary-quadraticity",
+   "criterion_error": "cusped criterion applied to closed fillings (Maclachlan-Reid 8.3.2 needed)",
+   "true_content": "no closed filling has imaginary-quadratic invariant trace field",
+   "repair_owner": "B1376 on the paper lane -- NOT taken by this arc"
+  }
+ }
+}
