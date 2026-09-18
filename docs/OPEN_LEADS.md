@@ -2866,3 +2866,36 @@ and not in general), or one amphichiral hyperbolic knot in S³ with `cs = ¼`.
 **Do not re-run these:** `H₁ ≅ ℤ` as a proxy for "knot complement in S³" — it fails on both sides
 (13/14 on the zero side, 0/1 on the quarter side; `t12071` and `o10_143849` are the misses), which is
 what killed Addendum 1's version. Source: `frontier/xB023_l194_the_selection_half/ADDENDUM_2_2026-09-18_is_the_counterexample_a_knot.md`.
+
+## L225 — THE RAY–SINGER TORSION TERM OF `P_eff`, FOR THREE-MANIFOLDS THAT ARE NOT LENS SPACES (registered 2026-09-18, xB029; source: arXiv:0801.0478 Appendix A, read at source)
+**The gap, in the source's own words.** M theory on a G₂ manifold puts the hidden-sector gauge theory
+on a compact three-cycle `Q̂`; the KK threshold correction is `S = S′ + 2N_c log(Vol(Q̂)Λ³)` with
+*"`S′` … expressed in terms of certain topological invariants of `Q̂`, known as the **Ray-Singer
+analytic torsion**"* (eq. A3), and `P_eff = −T_O − M·T_λ` (A12) must reach **84** — eq. (8),
+`28(Q−P)/(3(Q−P)−8)` at `Q−P=3` — for the vacuum energy to be tunable. **Computed there for lens
+spaces only** (`T_O = −log k`, `T_λ = log(4sin²(Gπλ/k))`), where it needs `k ≈ 316` **and** a
+one-in-`k` tuning `Gλ ≡ ±1 (mod k)` — **92.3 % of their own example's `P_eff` comes from that tuning,
+not from `k`**. Their limitation, verbatim: *"at present **it is not known how to compute the torsion
+for other three-manifolds**."*
+**What xB029 established.** Reading `T_O` at its natural generality as `−log|Tor H₁(Q̂)|`, the term is
+**exactly computable** on the record's own tower: `|Tor H₁(b++(LR)ⁿ)| = L₂ₙ − 2` exactly (120 of 120,
+`L` = Lucas), growth `log((3+√5)/2) = 0.9624237` per degree (the Mahler measure of the figure-eight's
+Alexander polynomial, **not** a volume law — the Bergeron–Venkatesh closed rate `1/(6π)` would need
+`8.86×` the volume), first crossing of 84 at **`n = 88`**, and **compactness is no obstruction**:
+closed fillings with exactly that `|H₁|`, hyperbolic, at volumes **below** the cusped ones, exist for
+every `n` in `2…18`.
+**What it did NOT establish, and none of it may be skipped.** (i) `T_O = −log|Tor H₁|` is **xB029's
+inference from one worked example, not the source's statement**; (ii) the **`T_λ` term — Ray–Singer
+torsion of a non-trivial flat bundle on a hyperbolic 3-manifold — is NOT computed**, so the source's
+gap is **half**-closed; (iii) `P_eff` is computed for **nothing** (it needs `C₁/C₂`, both hidden
+sectors, their volumes, a cutoff); (iv) **the trade is not shown favourable** — `k ≈ 316` with a
+tuning versus `|H₁| ≈ 3×10³⁶` without one is **a different largeness, not the absence of one**;
+(v) **`P_eff` is a HIDDEN-sector quantity and the closing puts the object in the VISIBLE sector**
+(L220/L221), so a number on the object's tower is about **a different three-cycle**.
+**What would move it:** read **Friedmann–Witten** (the source's ref. [7]) and settle whether `T_O` for
+a general rational homology sphere is `−log|Tor H₁|`; then compute `T_λ` for a flat bundle on a
+hyperbolic 3-manifold. **Until (i) is settled at source this lead supports nothing** — the register's
+own rule, and the exact error class that killed xB023 Addendum 1.
+**Also open, and not answered from memory:** the post-2008 experimental status of the paper's
+predictions (light gauginos, sub-TeV gluinos, wino LSP). Source:
+`frontier/xB029_the_g2_mssm_read/`.

@@ -1,0 +1,82 @@
+{
+  "arc": "xB029_the_g2_mssm_read",
+  "seat": "xb",
+  "branch": "sep16-branch",
+  "date": "2026-09-18",
+  "preregistration_seal": "9150fe94",
+  "verdict": "VERIFIED",
+  "gate5_crossed": false,
+  "claims_md_touched": false,
+  "source": "Acharya, Bobkov, Kane, Kumar, Shao, arXiv:0801.0478v2, The G2-MSSM",
+  "source_grade": "UNCITED -> READ-AT-SOURCE",
+  "cells": {
+    "G1": {
+      "result": "PASS",
+      "content": "eq.(8) gives 84 and 28 exactly; Appendix A example gives 59.74 vs stated 58; 92.3% of their P_eff comes from the tuned flat connection, not from k"
+    },
+    "G2": {
+      "result": "PASS",
+      "content": "GUT group, Wilson-line breaking, MSSM chiral spectrum and Yukawas all ASSUMED in the source's own words; none derived"
+    },
+    "G3": {
+      "result": "PASS",
+      "content": "|Tor H_1(X_n)| = L_2n - 2 on 120/120; growth 0.962423650 = log((3+sqrt5)/2) to machine precision; first n with log >= 84 is 88, as sealed"
+    },
+    "G3b": {
+      "result": "PASS",
+      "content": "FENCE 2 does not bite: closed fillings with |H_1| = L_2n - 2 exist for every n in 2..18, hyperbolic from n=3, volumes below the cusped ones. THE SEAT'S SEALED PRIOR ON THIS POINT WAS WRONG."
+    }
+  },
+  "self_reported_defects": [
+    "G3b v1 VOID: filled the meridian before covering, giving S^3, which has no covers; measured nothing while printing a result shape",
+    "G3b v2 VOID: filled (1,0) after covering; for n >= 4 that is the homological longitude, b1 stayed 1, and the reported '19 of 19' was the cusped torsion reprinted"
+  ],
+  "not_established": [
+    "T_O = -log|Tor H_1| is THIS SEAT'S inference from one worked example, not a statement the source makes",
+    "the T_lambda term (Ray-Singer torsion of a non-trivial flat bundle) is NOT computed; the source's gap is HALF-closed",
+    "P_eff itself is computed for nothing; it needs C_1/C_2, both hidden sectors, volumes and a cutoff",
+    "the trade is not shown favourable: k ~ 316 plus a one-in-k tuning versus |H_1| ~ 3e36 with no tuning is a different largeness, not the absence of one",
+    "SECTOR: P_eff is hidden-sector; the closing puts the object in the visible sector",
+    "post-2008 experimental status of the paper's predictions is OPEN, not answered here"
+  ],
+  "lead_registered": "L225",
+  "prior_score": "4 of 5; the miss was FENCE 2, the one prediction about this seat's own judgement rather than about the mathematics",
+  "rederived": [
+    {
+      "arc": "xB027 / B1375",
+      "what": "the identification of the tower b++(LR)^n with m004's n-fold CYCLIC COVERS (B1375's Y_2...Y_6)",
+      "outcome": "CONFIRMED",
+      "why": "G3 measured |Tor H_1| on b++(LR)^n and G3b measured it on snappy.Manifold('4_1').covers(n, cover_type='cyclic') -- two independent constructions, identical values on n = 2..18 (5, 16, 45, 121, 320, 841, 2205, 5776, 15125, 39601, 103680, 271441, 710645, 1860496, 4870845, 12752041, 33385280). The banked identification is re-derived here, not assumed."
+    },
+    {
+      "arc": "this arc, internal",
+      "what": "Vol(m004) = 2.029883...",
+      "outcome": "CONFIRMED",
+      "why": "recomputed in-cell from SnapPy rather than carried as a constant"
+    },
+    {
+      "arc": "Bergeron-Venkatesh 1/(6pi) (literature register: CITED-UNREAD, and CORRECTED earlier to a CONJECTURE, not a theorem)",
+      "what": "the closed-tower torsion growth rate used as the comparison baseline",
+      "outcome": "NOT_RERUN",
+      "why": "used ONLY as a stated comparison number (84*6pi = 1583.4) and not as an input to any measured quantity. It remains a CONJECTURE per the register's earlier correction, and nothing in this arc depends on it being true."
+    },
+    {
+      "arc": "xB026",
+      "what": "the generation count is stabiliser-fixed at one on both towers",
+      "outcome": "NOT_RERUN",
+      "why": "cited in G2's calibration sentence from its banked verdict. It is a comparison to the literature's assumptions, not an input to any cell here."
+    },
+    {
+      "arc": "L220 / L221 (B1415)",
+      "what": "the closing places the object in the VISIBLE sector (E6 + Wilson lines)",
+      "outcome": "NOT_RERUN",
+      "why": "cited to state the SECTOR fence, which is a limitation ON this arc's result rather than a support for it. Re-deriving it would not change the fence."
+    },
+    {
+      "arc": "xB023 Addendum 1 / Addendum 2",
+      "what": "the proxy-for-predicate error class",
+      "outcome": "NOT_RERUN",
+      "why": "invoked as a methodological warning against this arc's own T_O generalisation, not as a result."
+    }
+  ]
+}

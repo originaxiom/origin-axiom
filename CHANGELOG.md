@@ -1,5 +1,28 @@
 # Changelog
 
+## xB029 — the G₂-MSSM read at source: the arithmetic reproduces, the visible sector is assumed, a named gap is half-closed
+
+**arXiv:0801.0478 (Acharya–Bobkov–Kane–Kumar–Shao) enters the record — it had never been cited here.**
+Eq. (8) `P_eff = 28(Q−P)/(3(Q−P)−8)` reproduces **84** and **28** exactly; their Appendix A example
+gives **59.74** against a stated **58** — and **92.3 % of it comes from a tuned flat connection**
+(`Gλ ≡ 1 mod k`), not from `k`.
+
+**The visible sector is assumed, in the source's own words:** the GUT group, the Wilson-line breaking,
+the MSSM chiral spectrum — **hence the count of three** — and the Standard Model Yukawas. **A
+calibration for this record's own negatives, and NOT a licence.**
+
+**The lead.** Appendix A routes the threshold through the **Ray–Singer analytic torsion of the
+three-cycle**, computes it for **lens spaces only**, and states that it *"is not known how to compute
+the torsion for other three-manifolds"*. On the record's tower: **`|Tor H₁(b++(LR)ⁿ)| = L₂ₙ − 2`
+exactly, 120 of 120**, growth `log((3+√5)/2)` to machine precision, **84 first reached at `n = 88`**
+as sealed — and **compactness does not obstruct it**. Registered **L225**.
+
+**Reported against ourselves:** the generalisation `T_O = −log|Tor H₁|` is **this seat's inference
+from one worked example, not the source's statement** — the proxy-for-predicate class again, flagged
+**with** the result. The **`T_λ` term is not computed**, so the gap is **half**-closed. **Two cells of
+this arc were VOID** (filled before covering; then filled the homological longitude) and both are on
+the record. **The sealed prior that the compactness fence would bite was WRONG. Gate 5 absolute.**
+
 ## xB023 Addendum 2 — the counterexample is not a knot; the refuted prediction was refuted through a proxy
 
 **`CensusKnots` is a complete tabulation at ≤ 10 ideal tetrahedra and `o10_143849` has 10**, so its

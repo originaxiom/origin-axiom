@@ -1,0 +1,67 @@
+
+G1       THE SOURCE'S OWN ARITHMETIC, RECOMPUTED
+  (a) eq.(8) P_eff = 28(Q-P)/(3(Q-P)-8)
+      Q-P = 3 -> 84.0   source's text: 84
+      Q-P = 4 -> 28.0   source's text: 28
+      reproduces BOTH numbers the source states: True
+      the whole family: {3: 84.0, 4: 28.0, 5: 20.0, 6: 16.8, 7: 15.076923076923077, 8: 14.0}
+      monotone decreasing in Q-P (the source's sentence): True
+  (b) worked example P=15 Q=18 M=10 lambda=80 k=99, G=P+M+1=26
+      T_O   = -log k            = -4.595120
+      T_lam = log(4 sin^2(G pi lambda / k)) = -5.514821
+      P_eff = -T_O - M T_lam    = 59.7433     source's text: 58
+      reproduces the source's 58 (tol 2): True
+      note where the size comes from: log k contributes 4.595,
+      the tuned flat connection contributes 55.148 (92.3% of the total)
+      the tuning, made explicit: G*lambda/k = 21.010101, fractional part 0.010101 -- it must sit close to an INTEGER for 4 sin^2 to be small
+  (c) N < 14Q/((3(Q-P)-8)pi), at Q=18: {3: 80.21, 4: 20.05, 5: 11.46, 6: 8.02}
+      shrinks as Q-P grows -- the source's reason for discarding Q-P>3: True
+G1 PASS
+
+G3       THE TORSION LEAD -- |Tor H_1| on the object's tower
+         Appendix A: P_eff = -T_O - M T_lambda, with T_O = -log k = -log|H_1(S^3/Z_k)|.
+         Read at natural generality: the FIRST term is log|Tor H_1(Qhat)| and needs
+         NO tuned flat connection.  Measured here on b++(LR)^n, xB027's driver.
+         sealed constants: alpha = (3+sqrt5)/2 = 2.61803398875, log alpha = 0.9624236501
+           n=  1  |Tor H_1| = 1                                   L_2-2 = 1                                   match True
+           n=  2  |Tor H_1| = 5                                   L_4-2 = 5                                   match True
+           n=  3  |Tor H_1| = 16                                  L_6-2 = 16                                  match True
+           n=  4  |Tor H_1| = 45                                  L_8-2 = 45                                  match True
+           n=  5  |Tor H_1| = 121                                 L_10-2 = 121                                 match True
+           n=  6  |Tor H_1| = 320                                 L_12-2 = 320                                 match True
+           n=  7  |Tor H_1| = 841                                 L_14-2 = 841                                 match True
+           n=  8  |Tor H_1| = 2205                                L_16-2 = 2205                                match True
+           n= 20  |Tor H_1| = 228826125                           L_40-2 = 228826125                           match True
+           n= 40  |Tor H_1| = 52361396397820125                   L_80-2 = 52361396397820125                   match True
+           n= 60  |Tor H_1| = 11981655542024930675232000          L_120-2 = 11981655542024930675232000          match True
+           n= 80  |Tor H_1| = 2741715832729650571495437446296125  L_160-2 = 2741715832729650571495437446296125  match True
+           n=100  |Tor H_1| = 6273762153381057663569820069817825  L_200-2 = 6273762153381057663569820069817825  match True
+           n=120  |Tor H_1| = 1435600695277367352901192593366776  L_240-2 = 1435600695277367352901192593366776  match True
+         ran n = 1..120; closed-form mismatches: 0  []
+         VACUITY CONTROL -- torsion actually grows: True; n=1 torsion-free (H_1(m004) = Z): True
+         measured growth: log|Tor|/n at n=120 is 0.962423650
+         sealed prediction log alpha = 0.962423650; relative deviation 0.000e+00  (<1% required: True)
+         FIRST n with log|Tor H_1| >= 84: 88   (sealed prediction: 88)
+           n=87: log|Tor| = 83.7309   n=88: log|Tor| = 84.6933
+           cusped volume there = 88 x 2.029883 = 178.63
+         under the Bergeron-Venkatesh closed rate 1/(6pi) the same 84 would need
+           volume 1583.4 -- a factor 8.86 more
+         FENCE 2, MEASURED -- Qhat must be COMPACT and the tower is CUSPED.
+         The closed counterpart is the n-fold cyclic BRANCHED cover: fill the
+         knot's meridian first, then take the cyclic cover.
+           branched n=2: ('no cover',)
+           branched n=3: ('no cover',)
+           branched n=4: ('no cover',)
+           branched n=5: ('no cover',)
+           branched n=6: ('no cover',)
+           branched n=7: ('no cover',)
+           branched n=8: ('no cover',)
+           branched n=9: ('no cover',)
+           branched n=10: ('no cover',)
+           branched n=11: ('no cover',)
+           branched n=12: ('no cover',)
+         closed side matches L_2n - 2 on 0 of 0 computed
+G3 PASS  (all four sealed conditions; content is the verdict above)
+
+==============================================================================
+ALL SEALED CONDITIONS MET

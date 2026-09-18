@@ -207,3 +207,27 @@ because Cor. 2.5 still gives `η = 0` and not `cs = 0`.
 > proxy it was run on, and a proxy that is "necessary, not sufficient" was labelled as such in the
 > seal and used anyway.** The fence was written and then not honoured — **naming a limitation is not
 > the same as respecting it.**
+
+## AMENDMENT 7 (2026-09-18, xB029) — the physics side of the chain enters this register for the first time
+
+Every row so far is 3-manifold mathematics. **The owner supplied the M-theory source the record's
+closing actually sits on**, and it had never been cited here at all.
+
+| source | grade | what it says, at source |
+|---|---|---|
+| **B. S. Acharya, K. Bobkov, G. L. Kane, P. Kumar, J. Shao**, *The G₂-MSSM — An M Theory motivated model of Particle Physics*, **arXiv:0801.0478v2** (MCTP-07-43, UCB-PTH-08/01) | **UNCITED → READ-AT-SOURCE** (xB029) | **Eq. (8):** `P_eff = 28(Q−P)/(3(Q−P)−8)`, giving **84** at `Q−P=3` and **28** at `Q−P=4` — **both recomputed exactly**. **§I.B, verbatim:** *"we will **assume** a GUT gauge group in the visible sector which is broken to the SM gauge group, with at least an MSSM chiral spectrum, by background gauge fields (Wilson lines)"* and *"we will **assume** that the (normalized) Yukawa couplings are the same as those of the Standard Model."* **App. A, eq. (A3), verbatim:** *"`S′` can be expressed in terms of certain topological invariants of `Q̂`, known as the **"Ray-Singer analytic torsion"**"* — computed there **for lens spaces only**, with the source's own limitation: *"at present **it is not known how to compute the torsion for other three-manifolds**."* |
+| **Friedmann–Witten**, *Unification scale, proton decay, and manifolds of G₂ holonomy* (the source's ref. [7], where the threshold formula (A2)/(A3) comes from) | **new row, CITED-UNREAD** | The origin of the KK threshold correction the torsion enters. **It is load-bearing for xB029's reading of `T_O` and has NOT been read.** |
+
+> **The lesson this amendment adds, and it repeats Amendment 6's at one remove.** xB029 generalises
+> the source's `T_O = −log k` (lens spaces) to `T_O = −log|Tor H₁(Q̂)|` (any rational homology
+> sphere). **That generalisation is the seat's inference from ONE worked example, not a statement the
+> source makes** — the same proxy-for-predicate move that killed xB023 Addendum 1 two days' work
+> earlier. **It is flagged in the arc's own verdict alongside the result rather than after it fails.**
+> **A source read at source can still be over-read.**
+
+**And the calibration this register should carry.** The leading M-theory-on-G₂ phenomenology
+programme **assumes** the GUT group, the Wilson-line breaking, the MSSM chiral spectrum — hence the
+count of three — and the Standard Model Yukawas. **The record's own standing negatives (a generation
+count fixed at one, xB026; no derived value anywhere) are the field's open problems, not this seat's
+peculiar failure. That is a calibration and NOT a licence:** an assumption shared with the literature
+is still an assumption, and nothing here moves Gate 5.

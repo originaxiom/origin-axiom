@@ -17564,3 +17564,66 @@ that cusped `η = 0` coexists with `cs = ¼`). **That outcome did not occur. The
 result and the weaker one.**
 
 **L194 remains OPEN. No physics result. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+## xB029 (2026-09-18) — the G₂-MSSM read at source: the arithmetic reproduces, the visible sector is assumed, and a gap the source names is HALF-closed
+
+**PREREGISTRATION sealed at `9150fe94` before any cell existed.** **The owner supplied the PDF.**
+**Acharya–Bobkov–Kane–Kumar–Shao, arXiv:0801.0478v2.** The record cites Acharya–Witten and Acharya
+hep-th/0212294; **it had never cited this paper at all.**
+
+**G1 — the source's arithmetic, recomputed, not summarised.** Eq. (8)
+`P_eff = 28(Q−P)/(3(Q−P)−8)` gives **84** at `Q−P=3` and **28** at `Q−P=4`, both stated in their text,
+both exact. Their Appendix A example (`P=15, Q=18, M=10, λ=80, k=99`) gives **59.74** against their
+stated **58**. **And one thing their prose does not say: `log k` supplies only 7.7 % of it. 92.3 %
+comes from the tuned flat connection** — `G·λ = 2080 ≡ 1 (mod 99)` puts `4sin²` at its smallest
+non-zero value. Their *"large `k`"* is really *"`k` large AND `λ` tuned"*, a one-in-`k` coincidence;
+solving their formula for 84 gives `k ≈ 316`.
+
+**G2 — assumed vs derived, by quotation.** *"we will **assume** a GUT gauge group in the visible
+sector which is broken to the SM gauge group, with at least an MSSM chiral spectrum, by background
+gauge fields (Wilson lines)"* · *"we will **assume** that the (normalized) Yukawa couplings are the
+same as those of the Standard Model"* · *"The observable sector three-manifold is **assumed** to
+contain conical singularities"* · *"there do not currently exist any concrete ideas about that space
+either!"*. **All four of the GUT group, the Wilson-line breaking, the MSSM chiral spectrum — hence the
+count of three — and the Yukawas are ASSUMED. None is derived.** **The calibration: this seat's
+standing negatives (generation count fixed at one, xB026; no derived value) are the field's open
+problems, not this seat's peculiar failure — and that is a calibration, NOT a licence.**
+
+**G3 — the torsion lead, all four sealed conditions met exactly.** Appendix A expresses the threshold
+through the **Ray–Singer analytic torsion of `Q̂`**, computes it **for lens spaces only**, and says
+*"at present **it is not known how to compute the torsion for other three-manifolds**."* Measured on
+the record's own tower `b++(LR)ⁿ`, `n = 1…120`: **`|Tor H₁(Xₙ)| = L₂ₙ − 2` exactly, 120 of 120**;
+growth **`0.962423650` = `log((3+√5)/2)` to machine precision** — the Mahler measure of `t²−3t+1`,
+**not** a volume law; **first crossing of 84 at `n = 88`**, exactly as sealed, at cusped volume
+`178.63` against `1583.4` if the Bergeron–Venkatesh rate governed.
+
+**G3b — the compactness fence, measured — AND THE SEAT'S SEALED PRIOR ON IT IS WRONG.** The seal said
+*"this seat expects FENCE 2 to be the one that bites."* **It does not.** For every `n` in `2…18` a
+closed filling exists with `|H₁|` **exactly** `L₂ₙ − 2`, hyperbolic from `n = 3`, at volumes **below**
+the cusped ones. Calibrated in front: `n=2 → 5` (the lens space `L(5,2)`), `n=3 → 16`.
+
+**TWO OF THIS ARC'S OWN CELLS WERE VOID, AND BOTH ARE RECORDED RATHER THAN OVERWRITTEN.** **v1**
+filled the meridian **before** covering — that gives `S³`, which has no covers, so it printed *"no
+cover"* eleven times **while reporting a result shape**. **v2** filled `(1,0)` after covering; at
+`n ≥ 4` that is the **homological longitude**, `b₁` stayed 1, and the *"19 of 19"* it reported was the
+**cusped torsion reprinted**. **The `b₁` column caught it, and only because the cell happened to print
+it.**
+
+**WHAT IS NOT ESTABLISHED, and every item is load-bearing.** (i) **`T_O = −log k ⟶ −log|Tor H₁(Q̂)|`
+is THIS SEAT'S INFERENCE FROM ONE WORKED EXAMPLE, not a statement the source makes** — the same
+proxy-for-predicate move that killed xB023 Addendum 1 three commits earlier, flagged here **with** the
+result rather than after it fails; (ii) the **`T_λ` term is NOT computed**, so the gap is **half**-
+closed; (iii) **`P_eff` is computed for nothing** — it needs `C₁/C₂`, both hidden sectors, volumes, a
+cutoff; (iv) **the trade is not shown favourable**: `k ≈ 316` **with** a tuning versus `|H₁| ≈ 3×10³⁶`
+**without** one is **a different largeness, not the absence of one**; (v) **`P_eff` is a HIDDEN-sector
+quantity and the closing puts the object in the VISIBLE sector** — a number on the object's tower is
+about **a different three-cycle**; (vi) the paper's **post-2008 experimental status is OPEN**, not
+answered from memory.
+
+**Registered as L225. Literature register Amendment 7** (and Friedmann–Witten added as CITED-UNREAD —
+it is load-bearing for (i) and unread).
+
+**Prior scored 4 of 5. The miss was FENCE 2 — the one prediction that was about this seat's own
+judgement rather than about the mathematics.**
+
+**No value. No generation count. No physics reading. Gate 5 absolute. Nothing to `CLAIMS.md`.**
