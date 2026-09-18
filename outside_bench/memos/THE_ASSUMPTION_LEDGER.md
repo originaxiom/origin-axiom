@@ -42,13 +42,19 @@ The assumed package — G₂-MSSM §I.B + `THE_DESTINATION_LEDGER` item 1 + B135
 | A3 | the flat/orbifold class cannot supply A2 | X | SETTLED | B1259, B1353 |
 | **A4** | **Joyce–Karigiannis needs `b₁(Q) > 0`** | Q | **COMPUTABLE** | **computed below** |
 | A5 | TCS is non-chiral | X | LITERATURE | BCHS 2019 |
-| **A6** | sum rule: `b₂(X) ≥ 2` with the ℤ/3 moving harmonic forms | **X** | **GENUINELY OPEN** | **not computable — X is not constructed** |
+| **A6** | sum rule: `b₂(X) ≥ 2` with the ℤ/3 moving harmonic forms | **X** | ~~GENUINELY OPEN~~ **SUPERSEDED — see ADDENDUM 1** | ~~not computable — X is not constructed~~ **WRONG: B1357 computed it; it FAILS in the flat class** |
 | A7 | the permuting ℤ/3 is the object's own, 2T/Q₈ | Q | SETTLED HERE | memo 233 v2 |
 | A8 | the ℤ/3's fixed-point structure on Q | Q | COMPUTABLE | reported, not assumed |
 | A9 | on a **closed** Q, H¹-based net chirality vanishes ⟹ chirality can come **only** from A2's points | Q | SETTLED | B1260, B1267, B1351 |
 
 **A6 is the honest residue.** It is the condition that would decide the matter, and it lives on an
 object nobody has built. The ledger's value depends on that tag staying honest.
+
+> **SUPERSEDED BY ADDENDUM 1 (2026-09-18).** The tag was wrong and the paragraph above is left in
+> place as the error. **The object had already been built and A6 already computed on it** —
+> `frontier/B1357_the_objects_own_joyce_orbifold`. A6's first clause is **satisfied** (`b₂ = 2`
+> after resolution) and its second clause **fails** (the deck acts trivially on both added 2-forms).
+> See ADDENDUM 1.
 
 ---
 
@@ -104,3 +110,155 @@ route is closed"* is forbidden output of this cell.
 is a condition *on* a closing, never a property *of* one. No value.
 
 **Gate 5 untouched. Nothing promotes to `CLAIMS.md`.**
+
+---
+
+## ADDENDUM 1 (2026-09-18) — **A6 WAS MIS-TAGGED. IT IS COMPUTED, AND IN THE FLAT CLASS IT FAILS.**
+
+**Occasioned by the owner:** *"A6 — the sum rule's b₂(X) ≥ 2 — is the condition that would decide the
+matter, and it is not computable: it lives on an object nobody has built. — lets build it, lets not
+be discouraged before we even understand it properly."*
+
+**The push was right and §1's tag was wrong.** Before building anything, the record was checked — the
+standing rule — and the record had **already built the object and already computed A6 on it**.
+
+### 1. What the record has: `frontier/B1357_the_objects_own_joyce_orbifold`
+
+Present on the SM head only; **absent from `main` and absent from this branch** (relay item, §5).
+It compactifies the E₆ fibre ℂ²/2T by the **Hurwitz torus** and lets the Hantzsche–Wendt holonomy act
+as the SO(4) ⊂ G₂ of B1356, giving a **compact flat G₂ orbifold** `(T³ × ℍ/Λ)/(Π ⋉ 2T)` with **exactly
+one invariant spinor (N = 1)** and four disjoint singular loci — E₆ on Y₃ (the object's own closing,
+B1273), SO(8) on a second copy of Y₃, SU(2) on a third, SU(3) on T³.
+
+**It states A6 in this bench's own words and decides it.** Verbatim, from its FINDINGS (every
+quotation below checked against the file before this addendum was written, #26):
+
+> *"b₂ = 0: the flat background carries no C-field U(1) at all."*
+
+> *"The question hint 16 left (**a b₂ ≥ 2 with the deck acting irreducibly**) is decided in the flat
+> class: the irreducible occurs only on 3-forms; the U(1)² that tells the three generations apart can
+> only come with the apexes themselves."*
+
+> *"(ℝ³)^{V₄} = 0, so the E₆, SO(8) and SU(2) loci are rigid — no Joyce resolution and no deformation
+> … (ℝ³)^{1} = ℝ³ on the T³ locus, resolvable, adding 2 to b₂ (A₂ ⊗ H⁰) and 6 to b₃ (A₂ ⊗ H¹(T³)).
+> After that resolution: cover b₂ = 2, b₃ = 10; descent … b₂ = 2, b₃ = 4. The deck acts trivially on
+> the two added 2-forms … **So the deck's irreducible occurs on four of the cover's ten 3-forms and
+> on no 2-form**: the flat background and its resolution contain no C-field U(1) that tells the three
+> generations apart."*
+
+### 2. A6, retagged — **the first clause is satisfied, the second fails**
+
+| clause of A6 | flat background | after Joyce resolution of the T³ locus | verdict |
+|---|---|---|---|
+| `b₂(X) ≥ 2` | `b₂ = 0` — fails | **`b₂ = 2`** (cover **and** descent) | **SATISFIED** |
+| the ℤ/3 **moves** the harmonic 2-forms | vacuous | deck acts **trivially** on both added 2-forms | **FAILS** |
+
+**That is exactly memo 233's no-inflow case.** Memo 233 derived, from the B1355 charge sum rule plus
+the representation theory of ℤ/3 on ℝ^{b₂}, that a ℤ/3 which **permutes the apexes and fixes `w`**
+gives equal charges, hence `3q = 0`, hence `q = 0` and **no inflow** — and that escape requires
+`b₂ ≥ 2` **with the ℤ/3 moving the harmonic forms**. B1357 computed, on the object's own compact flat
+orbifold, that the deck acts **trivially on H²**. **Same condition, two independent routes, and
+neither cites the other** — B1357 is on the SM head, memo 233 is this bench's. Recording the
+convergence is the point; it is not a second result.
+
+### 3. Where A6 is actually open, and why the curved case is where it can be met
+
+B1357 does not end in a wall. It ends in a **location**:
+
+> *"The generation-distinguishing U(1)² (the sum-zero pair on which the deck acts as rotation) is not
+> in the flat background, not in its resolution, and not in the descent: **it must be born with the
+> curved apexes** — the local b₂(link) = 1 class at each cone over CP³/2T (B1355), extended over the
+> closing in the sum-zero combinations. Every other C-field U(1) the record could offer is
+> deck-invariant and sees no generation."*
+
+And the reason that route can supply what the flat class provably cannot is **elementary, and it is
+B1356's and B1357's, not this bench's** — reproduced in `certificates/the_a6_retag.py` only so that
+memo 233's derived condition and B1357's computed one are *checked* to be the same statement:
+
+**Three apexes permuted freely by ℤ/3 carry the permutation representation of ℤ/3 on ℝ³.** Its
+character is `χ = (3, 0, 0)`; the multiplicity of the trivial representation is `⟨χ, 1⟩ = 1`; the
+remaining **sum-zero** subspace has dimension **2** and **is** the two-dimensional irreducible, on
+which the deck acts by rotation. So a **free** 3-orbit of apexes supplies the deck-moved `H²` classes
+**by construction** — not by luck, but *because the three apexes form a free ℤ/3-orbit.*
+
+**Control that can fail (memo 164):** a ℤ/3 acting **trivially** on three points (three fixed orbits
+of size 1) must come back as `3 × trivial`, character `(3, 3, 3)`, **irrep dimension 0**. It does.
+Both controls PASS; `certificates/the_a6_retag.py` exits 0.
+
+### 4. **A6's honest status**
+
+> **COMPUTED AND FAILING** in the flat class and its Joyce resolution (B1357, stage 7).
+> **OPEN** in the curved class, with the mechanism named and the obstruction reduced to
+> **compactness alone**.
+
+**WHAT HAS NOT CHANGED, and this governs every sentence above:** *the compact curved closing is still
+not built.* B1357's own closing sentence puts the U(1)² at the apexes of a closing nobody has
+constructed. **Any sentence of the form "the bridge is open" is forbidden output of this addendum.**
+What changed is that A6 moved from *"not computable"* to *"computed where it can be, failing there,
+and reduced to compactness alone in the curved case"* — **a sharper statement, not a solved problem.**
+
+**No priority is claimed.** The construction, the computation, and the sum-zero observation are
+B1356's and B1357's. **I-26 remains UNEARNED. No value. Gate 5 untouched.**
+
+### 5. **BENCH ERROR #38, third instance — filed at the point of occurrence**
+
+§1 tagged A6 *"not computable — X is not constructed"* **without checking the record**. The record had
+the object. That is the #38 class exactly: *"the record states X" ≠ "the record claims X as its own"*,
+here in its other direction — **"I cannot compute X" asserted without asking whether the record
+already had.** Third instance.
+
+**The mitigating fact, stated plainly rather than as an excuse:** the standing rule — *exhaust the
+repo before saying we don't have X, before building, before ranking a gap* — **caught it before
+anything was built**. The owner's push was what invoked the rule; the rule then did its work in one
+step. That is the discipline working, not failing. The tag stood for the length of one memo and is
+corrected in the memo, the INDEX row and the register together — a correction that lives in one place
+is not a correction.
+
+### 6. **RELAY — `main` does not have B1357**
+
+`frontier/B1357_the_objects_own_joyce_orbifold` is on the **standard-model head only** (4 files);
+`main` has 0 files of it, and so does this branch. **It decides a condition this bench had been
+carrying as open, and it is the only place in the record where the object's own compact G₂ orbifold
+exists.** Main needs it. This joins the standing relay items: `LITERATURE_SWEEP_2026-09-06` is
+SM-head-only, and B1273 / B1271 / B1353 / B1355 are 0 files on main.
+
+### 7. **THE OPEN CLAIM, CHECKED ON ITS OWN TERMS (memo 153), AND WHAT THE CHECK TURNED UP**
+
+The one OPEN claim this addendum makes — *the compact curved closing is not built* — was run through
+`scripts/checks/already_banked.py --wide` before it was written. **Searched terms, stated with the
+claim:** `compact curved G2 closing apexes constructed`; `b2 deck irreducible 2-form generation
+U(1)`. Nothing in this branch's corpus builds it; the settled hits are B1259 (no flat G₂ orbifold can
+supply Acharya–Witten isolation) and B1084's census, both of which the ledger already carries.
+
+**But the instrument searched THIS BRANCH's corpus, and the material lives on a head this branch does
+not have.** Diffing the heads directly (#34) shows the SM head carries **ten arcs B1350–B1359** of
+which **`main` has ZERO FILES**, and two of them go past B1357 on exactly this question:
+
+- **B1358 — THE E₆ APEX FAMILY.** The curved apexes are now a *census*, not a single example: the
+  twistor cones of S⁴/(2T × Γ_R), with *"b₂(CP³/Γ; ℚ) = 1 throughout"*, only Γ_R = 1 (B1355's cone)
+  having a companion the object's own background supplies, and inflow coefficients at the apex in the
+  exact ratio **12 : 1**. Its §5 states the assembled picture: *"the three 27s told apart by the
+  apexes' own U(1)s in sum-zero combination (B1356)"* — **the same sum-zero mechanism this addendum
+  reproduces in §3**, now carried through a family rather than one cone. It also closes a door:
+  *"What is excluded: the apex on the knot (A₅) …"*.
+- **B1359 — THE K3 ALTERNATIVE, DECIDED.** *"a K3-fibred background cannot supply the SU(2) companion
+  of B1355's apex: among the fibre compactifications of the E₆ singularity in the record, the
+  three-generation design of B1356–B1358 lives on the Hurwitz torus and nowhere else"*. That does not
+  build the compact closing — it **pins the ambient**, which makes the residue narrower, not smaller.
+
+**The distinction that must not be lost, and it is the one this bench got wrong once already (R147):**
+`b₂(link) = 1` is the **local** class at an apex. **A6's `b₂` is the COMPACT X's.** B1358 supplies the
+local data across a family; **no arc extends it over a compact closing, because no compact curved
+closing exists.** §4's status is therefore unchanged by B1358 and B1359 — they sharpen the *mechanism*
+and the *ambient*, and leave **compactness** exactly where it was.
+
+**Instrument note, and it is a finding about the instrument:** `already_banked.py` reads the corpus
+**at the checkout**, so on this branch it is structurally blind to B1350–B1359. A memo-153 clean run
+is therefore **not** sufficient when the question touches the G₂ lane; the all-heads diff (#34) has to
+run beside it. That is now two instruments for one rule.
+
+**Relay, extended:** `main` is missing **all ten** of B1350–B1359, not only B1357. And
+`docs/SEAT_REGISTER.md` — **on `main` and on this branch; the SM head does not carry that file at
+all** — records the SM seat's last arc as **B1355**, while that head carries **B1359**. The coupon
+register is four arcs stale on the lane that holds the object's own compact G₂ orbifold, which is
+also why the SM head's arcs keep arriving here as surprises.
