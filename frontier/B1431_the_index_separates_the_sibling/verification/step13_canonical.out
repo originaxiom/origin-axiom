@@ -1,0 +1,27 @@
+m004: H1=Z  homological longitude (in snappy's (mu,lam) basis) = n/a: Sorry, this feature requires using SnapPy inside Sage.
+     filling (1, 0): H1 = 0     filling (0, 1): H1 = Z     filling (1, 1): H1 = 0     filling (2, -1): H1 = Z/2     filling (1, -2): H1 = 0     filling (5, 1): H1 = Z/5     filling (1, 5): H1 = 0
+m003: H1=Z/5 + Z  homological longitude (in snappy's (mu,lam) basis) = n/a: Sorry, this feature requires using SnapPy inside Sage.
+     filling (1, 0): H1 = Z/10     filling (0, 1): H1 = Z/5     filling (1, 1): H1 = Z/15     filling (2, -1): H1 = Z/15     filling (1, -2): H1 = Z/5 + Z     filling (5, 1): H1 = Z/55     filling (1, 5): H1 = Z/35
+m015: H1=Z  homological longitude (in snappy's (mu,lam) basis) = n/a: Sorry, this feature requires using SnapPy inside Sage.
+     filling (1, 0): H1 = 0     filling (0, 1): H1 = Z/2     filling (1, 1): H1 = Z/3     filling (2, -1): H1 = Z     filling (1, -2): H1 = Z/3     filling (5, 1): H1 = Z/7     filling (1, 5): H1 = Z/11
+
+--- A in saturated coordinates: (c,d)_m003 -> (a,b)_m004 = (-c-d, -d)
+    m003 class (c,d) means (c/2)mu3 + d lam3 ;  m004 class (a,b) means a mu4 + (b/2) lam4
+    m004's homological longitude lam4 = (a,b)=(0,2)  <-- m003's (c,d)=(2, -2)  = 1*mu3 + -2*lam3
+    m003's homological longitude lam3 = (c,d)=(0,1)  --> m004's (a,b)=(-1, -1)  = -1*mu4 + -1/2*lam4
+
+--- THE CANONICALLY MARKED COMPARISON: the index on the homological longitude ---
+  I_m004(lambda_hom) = +1*q^3 +2*q^4 +5*q^5 +2*q^6 -3*q^7 -16*q^8 -32*q^9 -52*q^10 -67*q^11 -64*q^12 -39*q^13 +32*q^14 +145*q^15 +322*q^16 +531*q^17 +782*q^18 +997*q^19 +1154*q^20
+  I_m003(lambda_hom) = -1*q -1*q^2 +2*q^3 +7*q^4 +11*q^5 +11*q^6 +3*q^7 -17*q^8 -49*q^9 -88*q^10 -126*q^11 -148*q^12 -132*q^13 -57*q^14 +96*q^15 +344*q^16 +686*q^17 +1099*q^18 +1537*q^19 +1921*q^20
+  EQUAL through q^32: False
+  first difference at x^2 = q^1:  m003 -1 vs m004 0
+
+  and the class of m003 that A sends to lambda_4, mu3-2lam3 = (x,y)=(1,-2):
+  I_m003(mu-2lam)    = +1*q^3 +2*q^4 +5*q^5 +2*q^6 -3*q^7 -16*q^8 -32*q^9 -52*q^10 -67*q^11 -64*q^12 -39*q^13 +32*q^14 +145*q^15 +322*q^16 +531*q^17 +782*q^18 +997*q^19 +1154*q^20
+  equals I_m004(lambda_hom) through q^32: True
+
+--- is gamma -> -gamma a symmetry?  (needed for 'canonical up to sign' to be enough) ---
+   m004 (Fraction(1, 1), Fraction(1, 1)): I(g)==I(-g): True
+   m004 (Fraction(2, 1), Fraction(1, 2)): I(g)==I(-g): True
+   m003 (Fraction(1, 1), Fraction(-2, 1)): I(g)==I(-g): True
+   m003 (Fraction(1, 2), Fraction(1, 1)): I(g)==I(-g): True

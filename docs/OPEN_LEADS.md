@@ -2560,9 +2560,10 @@ Nothing has been run. The questions, in the order they can be answered:
 
 1. Does the filled index separate the six arithmetic fillings from the rest? (The programme's own arithmeticity
    test is the closed criterion; this would be an independent invariant on the same grid.)
-2. B1428 found the `(0,0)` class **does not separate m004 from m003**, proved from the threefold symmetry. Does any
-   other boundary class? That is a bounded computation and it decides whether the index can see the object's
-   chirality at all.
+2. ~~Does any other boundary class separate m004 from m003?~~ **ANSWERED 2026-09-18 (B1431): YES.** m004's published
+   meridian series occurs at no class of m003 and vice versa, both differing at `q¹`; the `(0,0)` collapse is an
+   exact identity on an index-2 sublattice that happens to contain `(0,0)`. The collection is also strictly sharper
+   than `(0,0)`, separating four census pairs that `(0,0)` merges.
 3. The 1-efficiency condition is a hypothesis this bench has **not** checked on its own triangulations, for want of
    Regina. Until it is, the invariance claim is imported rather than verified here.
 

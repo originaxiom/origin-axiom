@@ -1,0 +1,35 @@
+==============================================================================
+STEP 11 (d): the SATURATED lattice of admissible classes
+==============================================================================
+  m004: Mr=[1, 0, 0, 0, -1, 0]  Ln=[0, 0, 0, 0, -2, 2]
+      half-classes (x,y) in (1/2)Z^2 with |.|<=1 that are ADMISSIBLE: [(Fraction(0, 1), Fraction(1, 2)), (Fraction(0, 1), Fraction(1, 1)), (Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(1, 2)), (Fraction(1, 1), Fraction(1, 1))]
+  m003: Mr=[0, -2, 0, 2, 0, 0]  Ln=[0, -1, 0, 2, -1, 0]
+      half-classes (x,y) in (1/2)Z^2 with |.|<=1 that are ADMISSIBLE: [(Fraction(0, 1), Fraction(1, 1)), (Fraction(1, 2), Fraction(0, 1)), (Fraction(1, 2), Fraction(1, 1)), (Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(1, 1))]
+  m015: Mr=[0, 1, 0, 0, -1, 0, 0, 0, 0]  Ln=[3, 0, 0, 0, 0, -1, -1, 0, 0]
+      half-classes (x,y) in (1/2)Z^2 with |.|<=1 that are ADMISSIBLE: [(Fraction(0, 1), Fraction(1, 1)), (Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(1, 1))]
+
+==============================================================================
+STEP 11 (a)(b): gauge + orientation independence on non-trivial classes
+==============================================================================
+
+  m004 (2 tets):
+    (1,0): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (0,1): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (1,1): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (2,1): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (-1,2): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (3,-2): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+
+  m003 (2 tets):
+    (1,0): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (0,1): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (1,1): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (2,1): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (-1,2): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+    (3,-2): gauge-independent over 2 choices: True;  odd-permutation(=mirror) equals it: True
+
+==============================================================================
+STEP 11 (c): random retriangulation, SAME peripheral curves
+==============================================================================
+  m004: 32 agreements, 0 disagreements; anomalies: []
+  m003: 32 agreements, 0 disagreements; anomalies: []

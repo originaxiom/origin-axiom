@@ -8742,6 +8742,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1431": {
+   "slug": "the index separates the sibling",
+   "motifs": [
+    "measurement",
+    "coupling",
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B143": {
    "slug": "interaction feasibility",
    "motifs": [

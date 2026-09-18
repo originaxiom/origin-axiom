@@ -1,0 +1,17 @@
+(a) min of minD over the rim |(x,y)| = R  (must exceed 8 for R beyond the enumeration box)
+   m004: [(4, 2), (8, 4), (12, 6), (16, 8), (20, 10), (30, 44), (40, 20), (60, 30), (80, 40)]
+   m003: [(4, 4), (8, 8), (12, 8), (16, 16), (20, 20), (30, 20), (40, 40), (60, 40), (80, 80)]
+
+(b) BRUTE FORCE: is m004's meridian series attained anywhere on m003 with |x|,|y| <= 14, and vice versa?
+   m004 meridian  I(mu)   = -2*q -2*q^2 +2*q^3 +8*q^4 +16*q^5 +16*q^6 +10*q^7 -14*q^8 -52*q^9 -102*q^10 -154*q^11 -192*q^12
+   m003 longitude I(lam)  = -1*q -1*q^2 +2*q^3 +7*q^4 +11*q^5 +11*q^6 +3*q^7 -17*q^8 -49*q^9 -88*q^10 -126*q^11 -148*q^12
+   m004's meridian series found on m003 at: NOWHERE (841 integer classes scanned)
+   m003's longitude series found on m004 at: NOWHERE (841 integer classes scanned)
+
+(c) the exact identity on the shared sublattices:  y even  =>  I_m003(x,y) = I_m004(-(2x+y), -y/2)
+   91 identities hold, 0 fail   (image = {a even} c H_1(bdry m004))
+
+   and on the complementary cosets (y odd) the image is a HALF class of m004:
+     m003(0, 1) = m004(-1mu -1/2lam):  -1*q -1*q^2 +2*q^3 +7*q^4 +11*q^5 +11*q^6 +3*q^7 -17*q^8 -49*q^9
+     m003(1, 1) = m004(-3mu -1/2lam):  +1*q^2 +2*q^3 +3*q^4 +3*q^5 -8*q^7 -21*q^8 -37*q^9
+     m003(0, -1) = m004(1mu 1/2lam):  -1*q -1*q^2 +2*q^3 +7*q^4 +11*q^5 +11*q^6 +3*q^7 -17*q^8 -49*q^9

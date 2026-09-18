@@ -31,7 +31,7 @@ surfaces*, Illinois J. Math. **60** (2016) 289–352, pp. 297–298: **every pub
 series is carried 25 orders further here. All **eight** published boundary classes of m004 reproduce exactly,
 including the half-integer-power ones. A second manifold, m009, reproduces GHRS §11.5 exactly.
 
-## 3. THE FINDING THE RELAY DOES NOT CONTAIN: THE INDEX IS BLIND TO THE SIBLING
+## 3. THE FINDING THE RELAY DOES NOT CONTAIN: THE INDEX IS BLIND TO THE SIBLING — **ON THE `(0,0)` CLASS ONLY; see `ADDENDUM_2026-09-18_THE_FULL_COLLECTION_SEPARATES.md`, which runs the open question below and finds that the FULL COLLECTION DOES SEPARATE THEM**
 
 | manifold | volume | H₁ | I(0,0) |
 |---|---|---|---|
