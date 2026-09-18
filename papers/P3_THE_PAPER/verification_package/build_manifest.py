@@ -49,8 +49,37 @@ def versions():
             m = __import__(mod); out[mod] = getattr(m, "__version__", "?")
         except Exception as e:
             out[mod] = f"not importable ({type(e).__name__})"
-    try: out["git_head"] = subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True, text=True, cwd=ROOT).stdout.strip()
-    except Exception: out["git_head"] = "?"
+    # The recorded commit must be one a READER can resolve (2026-09-17, round 2 of an outside review).
+    # This recorded `git rev-parse HEAD` unconditionally, and a manifest built before a commit that was
+    # later amended ended up naming a hash that exists only in the author's local object store: the
+    # referee could not resolve it after fetching every ref, and the author's own check "passed" because
+    # it was made against that dangling object. So: record the head, and record whether it is published
+    # (contained in a remote-tracking branch) and whether the tree was clean, rather than a bare hash
+    # that carries no evidence of either.
+    try:
+        head = subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True, text=True, cwd=ROOT).stdout.strip()
+        out["git_head"] = head or "?"
+        dirty = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, cwd=ROOT).stdout.strip()
+        out["git_tree_clean"] = not bool([l for l in dirty.split("\n") if l and not l.startswith("??")])
+        remotes = subprocess.run(["git", "branch", "-r", "--contains", head], capture_output=True, text=True, cwd=ROOT).stdout.strip()
+        out["git_head_published"] = bool(remotes)
+        if not remotes:
+            print("  NOTE: HEAD %s is not yet on any remote-tracking branch -- the manifest records it as"
+                  " unpublished. Push, then rebuild, so a reader can resolve what this manifest names." % head)
+        # THE HISTORY'S LENGTH, so a TRUNCATED CLONE ANNOUNCES ITSELF (2026-09-18, B1425).
+        # An outside reader reported this record as a 101-commit repository and drew structural conclusions
+        # from it. The published history is complete on both mirrors; their clone was depth-limited, and
+        # nothing in the package let them notice. A reader whose `git rev-list --count HEAD` is below the
+        # number recorded here is reading a truncated view, and the runner says so.
+        out["git_commits"] = int(subprocess.run(["git", "rev-list", "--count", "HEAD"],
+                                                capture_output=True, text=True, cwd=ROOT).stdout.strip() or 0)
+        out["git_shallow"] = subprocess.run(["git", "rev-parse", "--is-shallow-repository"],
+                                            capture_output=True, text=True, cwd=ROOT).stdout.strip() == "true"
+        if out["git_shallow"]:
+            print("  NOTE: this is a SHALLOW clone -- the recorded commit count is a floor, not the history.")
+    except Exception:
+        out["git_head"] = "?"; out["git_tree_clean"] = None; out["git_head_published"] = None
+        out["git_commits"] = None; out["git_shallow"] = None
     return out
 
 def main(out_dir=None):

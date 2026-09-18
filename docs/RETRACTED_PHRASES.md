@@ -161,3 +161,16 @@ surfaces that still carried it. Registered now.
 | "the min-volume closing is non-arithmetic" | same defect, B291/B294/B296 | the min-volume closing **is** arithmetic; what it does not do is keep ℚ(√−3) |
 | "174 closings, still 0 arithmetic" | B296 extended the unfailable test to a larger grid and read the guaranteed zero as confirmation | 0 of 174 have an **imaginary quadratic** invariant trace field, which is a different and true statement |
 
+
+## 2026-09-18 (B1425) — E83: a lock's failure blamed on load
+
+The failure of `test_b1355_geometry_is_exact` was diagnosed on 2026-09-17 as a timeout under load and "fixed" by
+raising the timeout. The measurement says otherwise: the script was hash-order dependent, so it failed on a
+**reproducible** set of `PYTHONHASHSEED` values at any load. Registered here because the wrong diagnosis was banked
+in B1424's FINDINGS and verdict, and because the distinguishing test — run the lock under several seeds — is cheap
+and was not run.
+
+| retracted phrase | why | the current statement |
+|---|---|---|
+| "whose timeout was tuned to an idle machine" (of `test_b1355_geometry_is_exact`) | the lock is not load-sensitive; it solved for the commutant with a **set** as the list of unknowns, so sympy's normalisation moved with the hash seed (E83) | pre-fix: passes on seeds 4 and 7 of 0–7, fails reproducibly on the other six. Post-fix: passes on all eight. The timeout is kept because it is harmless, not because it was the cause |
+| "failed once under the load of a 146-file run" | the same defect read as load, because the run that failed and the run that passed differed in seed, not in load | the failing set is reproducible per seed and independent of what else is running |

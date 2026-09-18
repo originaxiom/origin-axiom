@@ -129,17 +129,47 @@ def _nfiles(term, ref):
 def test_sweep5_hyphen_flag_correction_and_the_absent_list():
     """-ilw returns 0 for hyphenated terms; their -il was the right flag. And the absent
     list is right on main while eight terms are already present on this branch."""
-    assert _nfiles("L-space", "origin/main") == 16, "their -il count"
+    # REWRITTEN 2026-09-18 (B1425): this asserted the literal count 16, which grows as the record does
+    # (it is 18 today). The FINDING is the flag comparison -- -il matches a hyphenated term and -ilw does
+    # not -- and that is what is pinned now. A lock on a corpus statistic that is expected to grow reports
+    # growth as breakage.
+    assert _nfiles("L-space", "origin/main") >= 16, "their -il count"
     w = subprocess.run(["git", "grep", "-ilw", "L-space", "origin/main", "--", "*.md"],
                        cwd=ROOT, capture_output=True, text=True).stdout
-    assert len([l for l in w.splitlines() if l.strip()]) == 0, "-w fails on hyphens: the correction"
+    nw = len([l for l in w.splitlines() if l.strip()])
+    # REWRITTEN 2026-09-18 (B1425). This asserted -ilw returns EXACTLY 0, which held only because every
+    # occurrence then was the plural "L-spaces": the trailing s is a word character, so -w could not match.
+    # Today two files write the singular with punctuation after it and -w matches them. The finding that
+    # survives is the one the sweep was for -- on a hyphenated term the two flags DISAGREE, so -w silently
+    # under-reports and -il is the right flag -- and a count that depends on how the corpus happens to
+    # inflect a noun is not a fact about the flags.
+    assert nw < _nfiles("L-space", "origin/main"), (
+        "-w no longer under-reports on a hyphenated term: %d vs %d" % (nw, _nfiles("L-space", "origin/main")))
+    # REWRITTEN 2026-09-18 (B1425). B1400's "absent list" was a true measurement of what the record did
+    # NOT contain on 2026-09-13. Asserting the absence CONTINUES is asserting the record never grows in
+    # those directions, which is the wrong thing to lock -- and four of the seven have since entered, by
+    # way of a handoff intake and the paper's later citations. What is kept: the terms still absent are
+    # still absent, and any that entered must be NAMED here, so the drift is recorded instead of silent.
+    ENTERED_SINCE = {            # term -> where it first appears now (checked 2026-09-18)
+        "Gabriel's theorem": "docs/handoffs/",
+        "cluster algebra": "docs/handoffs/",
+        "exceptional divisor": "docs/handoffs/",
+        "Jorgensen inequality": "docs/views/",
+        "Heegaard Floer": "docs/handoffs/",
+    }
     for t in ("Milnor fibration", "Gabriel's theorem", "cluster algebra", "exceptional divisor",
               "simple singularity", "Jorgensen inequality", "Heegaard Floer"):
-        assert _nfiles(t, "origin/main") == 0, t
-    entered = [t for t in ("Kronheimer", "ADHM", "Nakajima", "quiver variety", "elliptic surface",
-                           "minimal resolution", "waist size")
-               if _nfiles(t, "origin/main") == 0 and _nfiles(t, "HEAD") > 0]
-    assert len(entered) == 7, entered
+        n = _nfiles(t, "origin/main")
+        if t in ENTERED_SINCE:
+            continue             # named above; its entry is recorded, not asserted away
+        assert n == 0, "%s entered the record and is not named in ENTERED_SINCE" % t
+    # Also rewritten: this compared HEAD against origin/main to show eight terms had "entered on this
+    # branch". Once the branch merged, the comparison became degenerate -- and it goes red the moment the
+    # work is pushed, i.e. exactly when it has succeeded. The durable fact is that the terms are in the
+    # record at HEAD.
+    for term in ("Kronheimer", "ADHM", "Nakajima", "quiver variety", "elliptic surface",
+                 "minimal resolution", "waist size"):
+        assert _nfiles(term, "HEAD") > 0, "%s left the record" % term
 
 
 def test_the_jorgensen_diacritic_is_a_different_person():
@@ -152,9 +182,16 @@ def test_the_jorgensen_diacritic_is_a_different_person():
                          cwd=ROOT, capture_output=True, text=True).stdout
     lines = [l for l in out.splitlines() if oslash.lower() in l.lower()]
     assert lines, "must find the context lines"
-    # every occurrence is the Andersen-Jorgensen pair, never a bare Kleinian-group citation
-    bare = [l for l in lines if not re.search(r"Andersen[-–—]\s*" + oslash, l, re.I)]
-    assert not bare, f"an occurrence that is NOT Andersen-Jorgensen: {bare[:2]}"
+    # REWRITTEN 2026-09-18 (B1425). This asserted that EVERY occurrence is the Andersen-Jorgensen pair,
+    # i.e. that Troels Jorgensen of the Kleinian-group inequality is absent from the record. That was true
+    # when B1400 measured it and is deliberately false now: the paper's later upgrades cite his work
+    # directly. The finding was that the two are DIFFERENT PEOPLE and must not be conflated, so what is
+    # pinned is that both kinds occur and are distinguishable -- not that one of them is missing.
+    pair = [l for l in lines if re.search(r"Andersen[-–—]\s*" + oslash, l, re.I)]
+    assert pair, "the Andersen-Jorgensen (TQFT) occurrences have gone"
+    other = [l for l in lines if l not in pair]
+    assert other, ("no occurrence outside the Andersen-Jorgensen pair: if the Kleinian-group citations "
+                   "have left the record, this lock's premise has changed again")
 
 
 def test_the_retracted_statistic_never_entered_our_record():

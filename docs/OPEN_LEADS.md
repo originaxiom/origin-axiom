@@ -2544,6 +2544,49 @@ file that is simply **absent** is invisible to it.
 depend on an untracked artifact) or vendor the artifact, as E57's instances #2–#6 were fixed. **Do
 not** make the tests skip when the file is missing — that converts a lock into a no-op.
 
+## L223 — THE SILENT RECEIPTS: 15 tracked run logs record a failure their arc never mentions (registered 2026-09-18, B1425)
+
+B1411 shipped `main_b1355_geometry_run.txt` as its verification receipt. The file's last three lines are a
+`Traceback` and an `AssertionError`, and the arc's own claim line says its locks "re-run green on main's bench".
+**The failure was on disk, committed, readable, for three days, and nobody opened it.** It is the same defect
+E83 describes, seen from the other side: the hash-order failure was not only undiagnosed, it was *published as
+evidence*.
+
+Swept over all **1 458** tracked `.txt`, `.out` and `.log` receipts: **47** carry a failure marker. That number
+alone is not a defect, because this record deliberately preserves failed runs and names them so (`FAILED_RUN_1.txt`
+is the model). Separating the two: a receipt is **silent** when neither its filename nor its arc's FINDINGS mentions
+any failure. **15 are silent**, one of which was B1411's and is repaired here.
+
+**The work is to open the other 14**, decide for each whether the failure is incidental (a first attempt kept
+beside a later success) or load-bearing (a receipt contradicting its arc's claim), and either annotate or correct.
+The list is in `frontier/B1425_the_flaky_lock_and_the_hollow_green/verification/receipt_failure_sweep.json`.
+Five sit in one cell family (`B771_phase1_wave1/cells/`) and are likely one cause.
+
+**Why this is not a documentation chore:** an arc's receipt is what a reader re-runs against. A receipt that
+records a failure the arc does not acknowledge either means the claim is wrong or the receipt is stale, and from
+outside you cannot tell which. Both are bad in a record whose whole argument is re-runnability.
+
+## L222 — THE E83 RESIDUE: 24 order-sensitive sites in banked verification scripts, outside the locks (registered 2026-09-18, B1425)
+
+B1425 minted **E83**: a verification script that hands a *set* where order matters returns a differently
+normalised answer per `PYTHONHASHSEED`, so an equality test against one normalisation passes on some runs and
+fails on others. The instance found (B1411's geometry script) passed on two seeds of eight and failed
+reproducibly on six, and was misdiagnosed as load.
+
+The sweep over all 3 872 tracked `.py` files found **34 order-sensitive sites, 30 unsorted at the point of
+use**. Five shipped locks are among them and were cleared: run together under five seeds, 28 tests green on
+every one, stable because each indexes a single symbol. That leaves **24 sites in banked verification scripts
+that no lock re-runs** — `list(set(...))`, iteration over `free_symbols`, `list(free_symbols)` as solver
+unknowns — across 16 files, mostly in the B1087–B1112 hypercharge block and the B675/B904 certifications.
+
+**The open question is not whether they are order-sensitive — they are — but whether any of them feeds a
+banked NUMBER.** Most iterate to build a display or a substitution dictionary, where order is cosmetic. The
+cost of finding out is one re-run per script under two seeds with the outputs diffed, which is a bounded arc.
+Until that is run, **no banked value whose only evidence is one of these scripts should be treated as
+re-derived**, and the sweep's JSON (`frontier/B1425_the_flaky_lock_and_the_hollow_green/verification/`) is the
+work list.
+
+
 ## L211 — THE STRATUM LAW: does the 2-generator/3-generator split survive more than three census slices? (registered 2026-09-13, B1400) — **POPULATION NAMED 2026-09-17 (B1424): the decline is on the FULL orientable cusped census; on the one-cusped census the same blocks give 33.00 / 33.88 / 31.38, i.e. flat. Recomputed two ways; the paper is corrected.**
 
 B1400 refines a forwarded census-bias finding: the depth decline in the `π₁ ↠ SL(2,3)` rate lives

@@ -1,12 +1,19 @@
 {
  "id": "B1411",
- "verdict": "VERIFIED",
+ "verdict": "PROVED",
  "instrument": false,
- "depends_on": ["B1322", "B1303", "B1306", "B1297", "B1321"],
+ "depends_on": [
+  "B1322",
+  "B1303",
+  "B1306",
+  "B1297",
+  "B1321"
+ ],
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
  "creates_law": false,
  "identifications": [],
- "claim_one_line": "THE SM SEAT'S V10 ARCS HARVESTED (B1351-B1355 at 1703c0d8): the seat's 21 locks re-run green on main's bench in two hours; main re-derived with its own code -- B1351's closings vector-like at every character of levels 3, 4, 5 (179 characters, zero mismatches); B1352's two locus points in the seat's own presentation: relator residual 1e-54, h1(27) = h1(27bar) = 3, N = 0, three cusp-fixed weights; B1355's geometry exact over Q(i) (2T of order 24, irreducible, one 2T-fixed twistor line, the -1-fixed line disjoint, b2 = 1), the inflow cited; B1354's order-8 tower RUN NOT RE-DERIVED and said so; B1353 VERIFIED-DIFFERS on wording only (its families are infinite, fourteen members computed, not 'all enumerated'). sB1300-sB1302 were already verified on main (B1303, B1306). The seat is released; B1355 is flagged as the first local model of the withheld chirality bit, to enter the paper as a cited local model."
+ "claim_one_line": "THE SM SEAT'S V10 ARCS HARVESTED (B1351-B1355 at 1703c0d8): the seat's 21 locks re-run green on main's bench in two hours; main re-derived with its own code -- B1351's closings vector-like at every character of levels 3, 4, 5 (179 characters, zero mismatches); B1352's two locus points in the seat's own presentation: relator residual 1e-54, h1(27) = h1(27bar) = 3, N = 0, three cusp-fixed weights; B1355's geometry exact over Q(i) (2T of order 24, irreducible, one 2T-fixed twistor line, the -1-fixed line disjoint, b2 = 1), the inflow cited; B1354's order-8 tower RUN NOT RE-DERIVED and said so; B1353 VERIFIED-DIFFERS on wording only (its families are infinite, fourteen members computed, not 'all enumerated'). sB1300-sB1302 were already verified on main (B1303, B1306). The seat is released; B1355 is flagged as the first local model of the withheld chirality bit, to enter the paper as a cited local model.",
+ "verdict_note": "verdict normalised VERIFIED -> PROVED on 2026-09-18 (B1425). VERIFIED is not in the schema's closed enum {NEGATIVE, OPEN, PROVED, RETRACTED} and is defined by no governance document, so these seven arcs had been failing tests/test_arc_verdict_schema.py since they landed on 2026-09-15/16. The word meant 'the seat's result was re-run and held on main', which is what PROVED means for an audit arc here; nothing about the finding changes."
 }

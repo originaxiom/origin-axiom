@@ -1,0 +1,76 @@
+=== Y_4, torsion exponent 15 ===
+{
+ "n": 4,
+ "H1": "Z/3 + Z/15 + Z",
+ "gens": [
+  "a",
+  "b",
+  "c"
+ ],
+ "rels": [
+  "aCCaCaCCBcacaab",
+  "acaacaabcAccABc"
+ ],
+ "free_gen": "b",
+ "e_torsion": 15,
+ "n_torsion_chars": 45,
+ "total_roots_of_minor_gcd_over_all_of_C*": 46,
+ "components_where_all_six_Fox_entries_share_a_root (h^1 = 2)": []
+}
+=== Y_2, torsion exponent 5 ===
+{
+ "n": 2,
+ "H1": "Z/5 + Z",
+ "gens": [
+  "a",
+  "b",
+  "c"
+ ],
+ "rels": [
+  "aCabbcB",
+  "abcAAbC"
+ ],
+ "free_gen": "c",
+ "e_torsion": 5,
+ "n_torsion_chars": 5,
+ "total_roots_of_minor_gcd_over_all_of_C*": 6,
+ "components_where_all_six_Fox_entries_share_a_root (h^1 = 2)": []
+}
+=== Y_3, torsion exponent 4 ===
+{
+ "n": 3,
+ "H1": "Z/4 + Z/4 + Z",
+ "gens": [
+  "a",
+  "b",
+  "c"
+ ],
+ "rels": [
+  "abCCAbcbbc",
+  "acBccBAbbc"
+ ],
+ "free_gen": "a",
+ "e_torsion": 4,
+ "n_torsion_chars": 16,
+ "total_roots_of_minor_gcd_over_all_of_C*": 17,
+ "components_where_all_six_Fox_entries_share_a_root (h^1 = 2)": []
+}
+=== Y_5, torsion exponent 11 ===
+{
+ "n": 5,
+ "H1": "Z/11 + Z/11 + Z",
+ "gens": [
+  "a",
+  "b",
+  "c"
+ ],
+ "rels": [
+  "aCCaCaCCBcacaacacaacaab",
+  "acaacaabccAcAccAcAccABc"
+ ],
+ "free_gen": "b",
+ "e_torsion": 11,
+ "n_torsion_chars": 121,
+ "total_roots_of_minor_gcd_over_all_of_C*": 122,
+ "components_where_all_six_Fox_entries_share_a_root (h^1 = 2)": []
+}

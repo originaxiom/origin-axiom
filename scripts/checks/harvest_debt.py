@@ -77,6 +77,18 @@ SEATS = [
          remotes=("origin", "codeberg"), cell=("qor5up", "consolidation")),
     dict(key="audit", label="audit seat", branch="physical-bridge-2026-09-05",
          remotes=("origin", "codeberg"), cell=("audit seat", "audit:")),
+    # ADDED 2026-09-18 (B1425). This lane carried 60 commits and 24 xB-numbered arcs, with sealed
+    # preregistrations pushed before their verification directories existed, and it was in NO seat list,
+    # NO harvest pin and NO gate -- so nothing in this repository was watching it at all. Every other
+    # entry above was watched and merely unread; this one was invisible. Pinned at its merge base so the
+    # whole lane reads as debt until a harvest arc reads it.
+    dict(key="sep16", label="sep16 seat (xB arcs)", branch="sep16-branch",
+         remotes=("origin", "codeberg"), cell=("sep16", "xB")),
+    # ADDED 2026-09-18 (B1426). The referee lane: it carries the outside review reports the paper is being
+    # revised against, and it was watched by nothing. A review seat is still a seat -- its reports are items
+    # main must read, and three of them arrived before anyone noticed the branch was unregistered.
+    dict(key="review", label="paper-review seat", branch="paper-review-verification-kaz3f5",
+         remotes=("origin", "codeberg"), cell=("review seat", "referee")),
 ]
 
 
@@ -213,6 +225,12 @@ def seat_index(seat, head, main_frontier, main_docs):
         for f in _ls(head, "docs/"):
             if f.endswith(".md") and f not in main_docs:
                 idx[pathlib.Path(f).stem] = f
+    elif k == "sep16":
+        # this lane numbers its arcs xBnnn and keeps them under frontier/, same shape as the sm seat
+        for d in _ls(head, "frontier/"):
+            m = re.match(r"frontier/(xB\d{3})_", d)
+            if m and d not in main_frontier:
+                idx[m.group(1)] = d
     elif k == "fc":
         for m in re.finditer(r"^\|\s*\*\*R(\d+)\*\*", _show(head, f"{FC_DIR}/INDEX_R56-R72.md"), re.M):
             idx[f"R{int(m.group(1))}"] = f"{FC_DIR}/INDEX_R56-R72.md"
@@ -270,6 +288,10 @@ def path_ids(seat, path, idx):
             out.add(f"sm:B{m.group(1)}")
         if path.startswith("docs/") and pathlib.Path(path).stem in idx:
             out.add(pathlib.Path(path).stem)
+    elif k == "sep16":
+        m = re.match(r"frontier/(xB\d{3})_", path)
+        if m and m.group(1) in idx:
+            out.add(m.group(1))
     elif k == "fc":
         for pat in (rf"{re.escape(FC_DIR)}/R(\d+)_", rf"{re.escape(FC_DIR)}/computations/r(\d+)[a-z]?_",
                     rf"{re.escape(FC_DIR)}/recompute/R(\d+)_"):

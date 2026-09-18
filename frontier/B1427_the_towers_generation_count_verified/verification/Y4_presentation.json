@@ -1,0 +1,14 @@
+{
+ "gens": [
+  "a",
+  "b",
+  "c"
+ ],
+ "rels": [
+  "aCCaCaCCBcacaab",
+  "acaacaabcAccABc"
+ ],
+ "mu": "cACa",
+ "lam": "CB",
+ "H1": "Z/3 + Z/15 + Z"
+}

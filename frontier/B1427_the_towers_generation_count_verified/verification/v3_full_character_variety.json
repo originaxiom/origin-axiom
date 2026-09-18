@@ -1,0 +1,1765 @@
+{
+ "4": {
+  "n": 4,
+  "H1": "Z/3 + Z/15 + Z",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCCaCaCCBcacaab",
+   "acaacaabcAccABc"
+  ],
+  "free_gen": "b",
+  "e_torsion": 15,
+  "n_torsion_chars": 45,
+  "total_roots_of_minor_gcd_over_all_of_C*": 46,
+  "components_where_all_six_Fox_entries_share_a_root (h^1 = 2)": [],
+  "per_component": [
+   {
+    "k": [
+     0,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 2,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     12
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     14
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     11
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     13
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     12
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     14
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     11
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     13
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     11,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     11,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     11,
+     0,
+     12
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     12,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     12,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     12,
+     0,
+     14
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     13,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     13,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     13,
+     0,
+     11
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     14,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     14,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     14,
+     0,
+     13
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   }
+  ]
+ },
+ "2": {
+  "n": 2,
+  "H1": "Z/5 + Z",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCabbcB",
+   "abcAAbC"
+  ],
+  "free_gen": "c",
+  "e_torsion": 5,
+  "n_torsion_chars": 5,
+  "total_roots_of_minor_gcd_over_all_of_C*": 6,
+  "components_where_all_six_Fox_entries_share_a_root (h^1 = 2)": [],
+  "per_component": [
+   {
+    "k": [
+     0,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 2,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     3,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     1,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     4,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     2,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   }
+  ]
+ },
+ "3": {
+  "n": 3,
+  "H1": "Z/4 + Z/4 + Z",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abCCAbcbbc",
+   "acBccBAbbc"
+  ],
+  "free_gen": "a",
+  "e_torsion": 4,
+  "n_torsion_chars": 16,
+  "total_roots_of_minor_gcd_over_all_of_C*": 17,
+  "components_where_all_six_Fox_entries_share_a_root (h^1 = 2)": [],
+  "per_component": [
+   {
+    "k": [
+     0,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 2,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     1,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     1,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     1,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     1,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     2,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     2,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     2,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     2,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     3,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     3,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     3,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     3,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   }
+  ]
+ },
+ "5": {
+  "n": 5,
+  "H1": "Z/11 + Z/11 + Z",
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "aCCaCaCCBcacaacacaacaab",
+   "acaacaabccAcAccAcAccABc"
+  ],
+  "free_gen": "b",
+  "e_torsion": 11,
+  "n_torsion_chars": 121,
+  "total_roots_of_minor_gcd_over_all_of_C*": 122,
+  "components_where_all_six_Fox_entries_share_a_root (h^1 = 2)": [],
+  "per_component": [
+   {
+    "k": [
+     0,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 2,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     0,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     1,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     2,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     3,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     4,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     5,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     6,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     7,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     8,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     9,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     0
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     1
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     2
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     3
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     4
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     5
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     6
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     7
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     8
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     9
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   },
+   {
+    "k": [
+     10,
+     0,
+     10
+    ],
+    "deg_gcd_minors": 1,
+    "deg_gcd_entries": 0
+   }
+  ]
+ }
+}

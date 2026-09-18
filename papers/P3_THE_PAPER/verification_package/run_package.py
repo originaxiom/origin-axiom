@@ -75,7 +75,36 @@ def main(argv):
         ok, rows = run_scripts(man); all_ok &= ok
         report += [f"## Shipped reproduce.sh scripts — {'PASS' if ok else 'FAIL'}", ""] + [f"- `{a}` {s}: rc={rc}" for a, s, rc in rows] + [""]
         print("scripts:", "PASS" if ok else "FAIL", len(rows))
-    report.append(f"**Overall: {'PASS' if all_ok else 'FAIL'}.** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.")
+    # The verdict must name what it covers (2026-09-17, round 2 of an outside review). `all_ok` starts
+    # True and is only &=-ed against the steps that RAN, so `--seals` alone printed a bare "Overall:
+    # PASS" -- a report whose entire purpose is that a reader need not take an assertion on trust,
+    # asserting something it did not run. It now says which steps ran, and refuses the unqualified word
+    # unless all three did.
+    # A TRUNCATED CLONE ANNOUNCES ITSELF (2026-09-18, B1425). An outside reader reported this record as a
+    # 101-commit repository and reasoned structurally from that. The history is complete on both mirrors;
+    # their clone was depth-limited and nothing here let them notice. The manifest records the length; if
+    # the reader's clone is shorter, say so before any verdict, because every "is this commit published"
+    # check silently gives the wrong answer on a shallow clone.
+    try:
+        _env = json.loads((HERE / "MANIFEST.json").read_text()).get("environment", {})
+        _want = _env.get("git_commits")
+        _have = int(subprocess.run(["git", "rev-list", "--count", "HEAD"], capture_output=True,
+                                   text=True, cwd=ROOT).stdout.strip() or 0)
+        _shallow = subprocess.run(["git", "rev-parse", "--is-shallow-repository"], capture_output=True,
+                                  text=True, cwd=ROOT).stdout.strip() == "true"
+        if _want and (_shallow or _have < _want):
+            _msg = ("CLONE IS TRUNCATED: this checkout has %d commits; the manifest was built on a history of %d%s. "
+                    "Re-clone without --depth (or run `git fetch --unshallow`) before drawing conclusions about "
+                    "this record's size or about which commits are published." % (_have, _want, " (shallow)" if _shallow else ""))
+            print("  WARNING: " + _msg)
+            report.append("")
+            report.append("> **WARNING — " + _msg + "**")
+    except Exception:
+        pass
+    _ran = [n for n, f in (("seals", "--seals"), ("locks", "--locks"), ("scripts", "--scripts")) if f in do]
+    _complete = len(_ran) == 3
+    _verdict = ("PASS" if all_ok else "FAIL") + ("" if _complete else " (partial: only %s ran)" % ", ".join(_ran))
+    report.append(f"**Overall: {_verdict}.** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.")
     # --out <dir>, the convention build_manifest.py already uses: write the report elsewhere so
     # a test run leaves no tracked file modified (2026-09-16). Default unchanged.
     _dest = pathlib.Path(argv[argv.index("--out") + 1]) if "--out" in argv else HERE

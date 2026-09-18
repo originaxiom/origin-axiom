@@ -1,6 +1,6 @@
 {
  "id": "B1417",
- "verdict": "VERIFIED",
+ "verdict": "PROVED",
  "instrument": false,
  "depends_on": [
   "B1291",
@@ -13,5 +13,6 @@
  "authored_by": "cc",
  "creates_law": false,
  "identifications": [],
- "claim_one_line": "THE REGION-SWAP LEMMA (fc R71 section 2) VERIFIED ON MAIN: for an involution sigma of the cusp torus and a sigma-odd field g with a transverse zero set Z, sigma swaps {g > 0} and {g < 0}, so their Euler characteristics agree and sum to chi(T^2) - chi(Z) = 0 -- chi(d+M) = chi(d-M) = 0 for every theta-odd field, whichever Fourier mode leads. On m004 theta is z -> -z on the cusp (four fixed points, the corners, on which every odd field vanishes). Own grid code: 60 random rotation-odd fields give 0/0; the SM seat's +-4 is the exact product mode whose zero set has eight crossings (not a surface; chi undefined), resolved to 0/0 by any generic odd perturbation; a reflection with fixed circles violates the hypothesis and is not the object's theta. Addendum on B1291; harvest row 631; the fc census fully harvested, its retirement gate met, archiving at the owner's word. No value; nothing promotes."
+ "claim_one_line": "THE REGION-SWAP LEMMA (fc R71 section 2) VERIFIED ON MAIN: for an involution sigma of the cusp torus and a sigma-odd field g with a transverse zero set Z, sigma swaps {g > 0} and {g < 0}, so their Euler characteristics agree and sum to chi(T^2) - chi(Z) = 0 -- chi(d+M) = chi(d-M) = 0 for every theta-odd field, whichever Fourier mode leads. On m004 theta is z -> -z on the cusp (four fixed points, the corners, on which every odd field vanishes). Own grid code: 60 random rotation-odd fields give 0/0; the SM seat's +-4 is the exact product mode whose zero set has eight crossings (not a surface; chi undefined), resolved to 0/0 by any generic odd perturbation; a reflection with fixed circles violates the hypothesis and is not the object's theta. Addendum on B1291; harvest row 631; the fc census fully harvested, its retirement gate met, archiving at the owner's word. No value; nothing promotes.",
+ "verdict_note": "verdict normalised VERIFIED -> PROVED on 2026-09-18 (B1425). VERIFIED is not in the schema's closed enum {NEGATIVE, OPEN, PROVED, RETRACTED} and is defined by no governance document, so these seven arcs had been failing tests/test_arc_verdict_schema.py since they landed on 2026-09-15/16. The word meant 'the seat's result was re-run and held on main', which is what PROVED means for an audit arc here; nothing about the finding changes."
 }

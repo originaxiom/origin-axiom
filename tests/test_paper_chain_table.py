@@ -57,5 +57,9 @@ def test_paper_carries_the_generated_table_not_a_stale_copy():
     gen = _run("--tex").stdout
     rows = [l for l in gen.splitlines() if re.match(r"^\d+ & ", l)]
     assert len(rows) >= 46, len(rows)   # invariant, not a snapshot: the chain may grow
-    for row in rows[:6] + rows[-3:]:
+    # EVERY row, not a sample. Until 2026-09-17 this read `rows[:6] + rows[-3:]` -- 9 of 57 -- and an
+    # outside referee found a stale row sitting in the 48 it never looked at: the generator emitted
+    # 0.8% for link 43 while the paper carried 0.9%, because a generator change had not been re-spliced.
+    # A drift gate that samples cannot see drift; it can only see drift at the ends.
+    for row in rows:
         assert row in tex, f"chain table is stale, regenerate: {row[:60]}"

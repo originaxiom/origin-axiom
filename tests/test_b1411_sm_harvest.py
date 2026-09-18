@@ -5,10 +5,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 V = os.path.join(ROOT, "frontier", "B1411_the_sm_seats_v10_arcs_harvested", "verification")
 
 def test_b1355_geometry_is_exact():
-    # timeout raised 600 -> 1800 on 2026-09-17 (B1424): this lock passes in isolation and failed once
-    # inside the full 146-file package run, i.e. under load. An outside referee saw the same class of
-    # run-to-run difference and could not tell it from a real failure. A subprocess lock whose timeout is
-    # tuned to an idle machine reports load as breakage.
+    # DIAGNOSIS CORRECTED 2026-09-18 (B1425). On 2026-09-17 this was called a timeout under load and the
+    # timeout was raised from 600 to 1800 s. That was WRONG. The script was hash-order dependent -- it
+    # solved for the commutant's unknowns in the order a SET happened to iterate -- so it passed on about
+    # one PYTHONHASHSEED in five, independently of load. Measured over eight seeds: PASS on 4 and 7 only, and the failing set is reproducible. Both an
+    # outside referee's "it passes for me" and this bench's "it passes in isolation" were luck. The script
+    # is now deterministic and asserts the mathematics rather than one normalisation of sympy's answer;
+    # the generous timeout is kept because it costs nothing.
     r = subprocess.run([sys.executable, os.path.join(V, "main_b1355_geometry.py")], capture_output=True, text=True, timeout=1800)
     assert r.returncode == 0 and "VERIFIED" in r.stdout and "|2T| = 24" in r.stdout, r.stdout[-800:] + r.stderr[-800:]
 

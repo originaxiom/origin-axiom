@@ -13,14 +13,27 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-BR = "origin/audit/b775-braver-questions"
+# The seat was RETIRED on 2026-09-15 under the rule "tag, then delete": the branch is gone from both
+# remotes and its bytes live in the archive tag. This lock read the branch by name and had been failing
+# ever since, silently, because the landing ritual runs the gates and not the full suite (B1425 S7).
+# Resolve the branch if it still exists, else the tag -- a retirement must not break a receipt.
+BR_CANDIDATES = ("origin/audit/b775-braver-questions", "archive/braver-questions@53da05f6")
 H_A = "f0f336ce6828a2beea91e4ea31ee7e5dd35c227abb76e98c63ed96214c0977d8"
 H_TH = "7ea68d34a68e0d922d5e58b6df83b653995c6d312b4138863a667ffac70e2e4b"
 
 
+def _source():
+    for ref in BR_CANDIDATES:
+        if subprocess.run(["git", "rev-parse", "--verify", "--quiet", ref],
+                          capture_output=True, cwd=ROOT).returncode == 0:
+            return ref
+    raise AssertionError("none of %s resolves: the retired seat's bytes are unreachable" % (BR_CANDIDATES,))
+
+
 def _show(path):
-    r = subprocess.run(["git", "show", f"{BR}:{path}"], capture_output=True, cwd=ROOT)
-    assert r.returncode == 0, f"cannot read {path} from {BR}"
+    ref = _source()
+    r = subprocess.run(["git", "show", f"{ref}:{path}"], capture_output=True, cwd=ROOT)
+    assert r.returncode == 0, f"cannot read {path} from {ref}"
     return r.stdout
 
 

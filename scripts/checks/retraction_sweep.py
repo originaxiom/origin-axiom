@@ -34,6 +34,10 @@ EXEMPT_FILES = {
     "tests/test_review55_instrument_repairs.py",
     "tests/test_b962_vev.py",
     "tests/test_b963_tau.py",
+    # Added 2026-09-18 (B1425): an ADDENDUM whose entire purpose is to retract a phrase must quote it,
+    # exactly like RETRACTED_PHRASES.md above. Same principle: a record that may not name the claim it
+    # withdraws cannot withdraw it.
+    "frontier/B1424_the_referees_defects/ADDENDUM_2026-09-18_THE_DIAGNOSIS_WAS_WRONG.md",
 }
 EXEMPT_BASENAMES = ("PRIOR_ART_HYPERCHARGE.md", "PRIOR_ART_MAASS.md",
                     "PRIOR_ART_VEV.md", "PRIOR_ART_RANK_REDUCTION.md",

@@ -1,0 +1,16 @@
+{
+ "id": "B1427",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1426",
+  "B1418",
+  "B1297"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "claim_one_line": "THE SM LANE'S TOWER GENERATION COUNT, VERIFIED ON MAIN WITH CODE WRITTEN FROM SCRATCH HERE and primes chosen different from the lane's (1021/1201/1321 against 421/541/601), plus exact arithmetic in Q(zeta_m): the cyclic covers of m004 of degree 2,3,4,5 ARE m206, s961, t12839, o10_150696 by oriented isometry corroborated against each mirror and by complex volume; on Y_4 at N=60 there are 89 non-split loci identical at all three primes with h^1(chi^2) = 1 at EVERY one, confirmed exactly over Q(zeta_m), and the same holds at Y_2 (9), Y_3 (31), Y_5 (241) and Y_6 (639); the Y_4 census re-run with a STRONGER scan than the lane's, every doublet module over the whole character group with no T5 restriction, gives 240300 modules, 976 firing, 12800 generation-shaped backgrounds on 64 loci with |I| = 1 on all of them, 6400 at +1 and 6400 at -1 and the singlet zero, and Y_5 gives 4400 firing and 800 backgrounds on 200 loci -- every number identical to the lane's. Every firing doublet has signature (0,1,1,0) against (0,2,1,2) and no other. VACUITY GUARDED BOTH WAYS: the same code returns h^1 = 2 at the order-2 characters of m129 and m125, and |I| = 2 on t12835 with Sym^3, so 1 is measured and not forced. BEYOND THE LANE: solving h^1 >= 1 and h^1 = 2 exactly over all of Hom(H_1, C*) for n = 2..7 shows h^1 = 2 on NO component of any level, one beyond the lane's range -- and finds a real completeness gap, that the mu_N scan misses exactly two loci per level, on Y_4 the numbers ((3+sqrt5)/2)^{+-4}, m004's own golden locus lifted, which no finite-order character reaches; they also have h^1 = 1 so the claim survives, but 'complete on the torsion' must not be read as 'complete'. TWO FURTHER SCOPINGS: 'h^1 = 1 bounds |I| <= 1' is not a proof as stated, since what bounds the index is the interior-class count a_1 <= 2 and t12835 shows a_1 = 3 giving |I| = 2 in the same code, so the verified statement is the narrower one about this tower's signature; and Y_5's scan used the cusp filter, which is a proved consequence of t_0 != 0 rather than an assumption. THE FENCE STANDS: non-semisimple backgrounds, no physics reading, no value, and the count of three is NOT this mechanism's on any level up to seven."
+}

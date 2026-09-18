@@ -3,8 +3,14 @@
  "verdict": "PROVED",
  "claim_one_line": "The referee's upgrades verified: 14 of m004's 87 covers to degree 10 carry a hexagonal cusp and none realises an order-3 cusp rotation (the census is not vacuous); rho has det 1 so Sym^m(rho) is symplectically self-dual and the index can fire only through a twist with psi^2 != 1 (0 of 542 firing modules violate it; witness 0/0/+1); the flat-bundle twisted Dirac index is rank-blind by Chern-Weil + Atiyah-Singer, which fences the paper's positives as well as strengthening its negative.",
  "instrument": false,
- "depends_on": ["B1418", "B1324", "B1290"],
+ "depends_on": [
+  "B1418",
+  "B1324",
+  "B1290"
+ ],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "cc"
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": []
 }

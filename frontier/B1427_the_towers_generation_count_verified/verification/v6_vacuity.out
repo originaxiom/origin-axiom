@@ -1,0 +1,8 @@
+{'control': 'm129', 'H1': 'Z + Z', 'num_cusps': 2, 'h1_trivial_module': 2, 'note': 'equals b_1; shows the routine returns values != 1'}
+{'control': 'm125', 'H1': 'Z + Z', 'num_cusps': 2, 'h1_trivial_module': 2, 'note': 'equals b_1; shows the routine returns values != 1'}
+{'control': 't12067', 'H1': 'Z + Z + Z', 'num_cusps': 3, 'h1_trivial_module': 3, 'note': 'equals b_1; shows the routine returns values != 1'}
+{'control': 'm003', 'H1': 'Z/5 + Z', 'num_cusps': 1, 'h1_trivial_module': 1, 'note': 'equals b_1; shows the routine returns values != 1'}
+{"label": "m129 (Whitehead link, 2 cusps), N=12", "H1": "Z + Z", "gens": 2, "rels": 1, "N": 12, "primes": [1009, 1021, 1033], "n_chars": 144, "h1_multiset_over_nontrivial_chi": {"0": 100, "2": 3, "1": 40}, "loci": 43, "examples_h1_ge_2": [[[0, 6], 2], [[6, 0], 2], [[6, 6], 2]]}
+{"label": "m125 (2 cusps), N=12", "H1": "Z + Z", "gens": 2, "rels": 1, "N": 12, "primes": [1009, 1021, 1033], "n_chars": 144, "h1_multiset_over_nontrivial_chi": {"0": 124, "2": 3, "1": 16}, "loci": 19, "examples_h1_ge_2": [[[0, 6], 2], [[6, 0], 2], [[6, 6], 2]]}
+{"label": "Y_6 cyclic cover of m004, N=120", "H1": "Z/8 + Z/40 + Z", "gens": 3, "rels": 2, "N": 120, "primes": [1201, 1321, 1801], "n_chars": 38400, "h1_multiset_over_nontrivial_chi": {"1": 639, "0": 37760}, "loci": 639, "examples_h1_ge_2": []}
+{"label": "Y_8 cyclic cover of m004, N=420", "skipped": "N^g too big", "N": 420, "gens": 3}

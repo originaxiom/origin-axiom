@@ -1,0 +1,8 @@
+|2T| = 24 orders [1, 2, 3, 4, 6] | commutant on C^2: [{x0: x3, x1: 0, x2: 0}] (scalars => irreducible; 2T-fixed locus = P(C^2_triv))
+(-1) on C^4: [-1, -1, 1, 1] => fixed set P(C^2_std) u P(C^2_triv), complementary subspaces, disjoint in CP^3
+Traceback (most recent call last):
+  File "<repo>/frontier/B1411_the_sm_seats_v10_arcs_harvested/verification/main_b1355_geometry.py", line 23, in <module>
+    assert len(G) == 24 and orders == [1,2,3,4,6] and comm == [{sp.Symbol('x1'): 0, sp.Symbol('x2'): 0, sp.Symbol('x3'): sp.Symbol('x0')}]
+AssertionError
+
+# (path prefix replaced by <repo> on 2026-09-18; the run's output is otherwise byte-identical)

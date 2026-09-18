@@ -3,8 +3,13 @@
  "verdict": "PROVED",
  "claim_one_line": "Six of the 78 closed hyperbolic fillings of m004 in the |p|,q<=8 grid are arithmetic by the closed criterion (m004(+-5,1) = Meyerhoff, x^4-x-1 disc -283; (+-6,1) disc -59; (+-8,1) disc -31), the other 72 are not; B288's 'zero arithmetic' tested the cusped criterion (E82); 'zero keep Q(sqrt-3)' stands.",
  "instrument": false,
- "depends_on": ["B288", "B740"],
+ "depends_on": [
+  "B288",
+  "B740"
+ ],
  "supersedes": null,
  "superseded_by": null,
- "authored_by": "cc"
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": []
 }

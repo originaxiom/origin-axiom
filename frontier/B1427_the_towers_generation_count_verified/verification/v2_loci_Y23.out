@@ -1,0 +1,113 @@
+{
+ "n": 2,
+ "N": 60,
+ "H1": "Z/5 + Z",
+ "gens": [
+  "a",
+  "b",
+  "c"
+ ],
+ "rels": [
+  "aCabbcB",
+  "abcAAbC"
+ ],
+ "mu": "aCa",
+ "lam": "AbaB",
+ "ab_mu": [
+  2,
+  0,
+  -1
+ ],
+ "ab_lam": [
+  0,
+  0,
+  0
+ ],
+ "primes": [
+  1021,
+  1201,
+  1321
+ ],
+ "n_chars": 300,
+ "loci_per_prime": [
+  9,
+  9,
+  9
+ ],
+ "loci_union": 9,
+ "loci_inter": 9,
+ "exact_h1_multiset_on_union": {
+  "1": 9
+ },
+ "loci_exact": 9,
+ "exact_h1_multiset_on_loci": {
+  "1": 9
+ },
+ "max_h1": 1,
+ "cusp_exponents": {
+  "(0, 0)": 4,
+  "(30, 0)": 5
+ },
+ "order_of_chi": {
+  "2": 1,
+  "5": 4,
+  "10": 4
+ },
+ "seconds": 0.4
+}
+{
+ "n": 3,
+ "N": 12,
+ "H1": "Z/4 + Z/4 + Z",
+ "gens": [
+  "a",
+  "b",
+  "c"
+ ],
+ "rels": [
+  "abCCAbcbbc",
+  "acBccBAbbc"
+ ],
+ "mu": "CBabC",
+ "lam": "CbcB",
+ "ab_mu": [
+  1,
+  0,
+  -2
+ ],
+ "ab_lam": [
+  0,
+  0,
+  0
+ ],
+ "primes": [
+  1009,
+  1021,
+  1033
+ ],
+ "n_chars": 192,
+ "loci_per_prime": [
+  31,
+  31,
+  31
+ ],
+ "loci_union": 31,
+ "loci_inter": 31,
+ "exact_h1_multiset_on_union": {
+  "1": 31
+ },
+ "loci_exact": 31,
+ "exact_h1_multiset_on_loci": {
+  "1": 31
+ },
+ "max_h1": 1,
+ "cusp_exponents": {
+  "(0, 0)": 15,
+  "(6, 0)": 16
+ },
+ "order_of_chi": {
+  "4": 24,
+  "2": 7
+ },
+ "seconds": 0.0
+}

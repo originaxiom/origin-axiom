@@ -1,6 +1,6 @@
-# THE VERIFICATION PACKAGE — report (2026-09-17T17:39:49Z)
+# THE VERIFICATION PACKAGE — report (2026-09-17T21:57:06Z)
 
-Manifest built 2026-09-17T17:39:48Z at commit `ddff9c63`; {'claims': 67, 'records': 95, 'seals': 21, 'locks': 147, 'records_with_a_primary_lock': 95}.
+Manifest built 2026-09-17T21:55:45Z at commit `21c47a51`; {'claims': 67, 'records': 95, 'seals': 21, 'locks': 147, 'records_with_a_primary_lock': 95}.
 
 ## Seals — PASS (21/21 match)
 
@@ -26,4 +26,11 @@ Manifest built 2026-09-17T17:39:48Z at commit `ddff9c63`; {'claims': 67, 'record
 - `B1323` frontier/B1323_the_genesis_upgrades/DESIGN.sha256: ok
 - `B1418` frontier/B1418_the_family_as_the_object/DESIGN.sha256: ok
 
-**Overall: PASS.** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.
+## Test locks — FAIL
+
+- 147 lock files: 1 failed, 728 passed, 13 skipped in 929.96s (0:15:29)
+- 
+- **Failures, named:**
+-   - `FAILED tests/test_b1411_sm_harvest.py::test_b1355_geometry_is_exact - Asserti...`
+
+**Overall: FAIL (partial: only seals, locks ran).** All verification is internal to the repository's own re-runnable pipelines; no external review is claimed.
