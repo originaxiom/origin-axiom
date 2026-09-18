@@ -1,5 +1,29 @@
 # Changelog
 
+## Review 58 (2026-09-18) — the decadal review, 95 merges overdue
+
+Ran the full REQUIRED core. **R55-14 PAID:** `SEAL_LEDGER.md` regenerated **and the cause found** —
+`seal_ledger.py` globbed `frontier/B*/`, blind to every seat-prefixed arc, so **no seat seal had ever
+been recorded** while `seal-provenance` stayed green over the blind spot. 597 rows now, 23 seat seals
+newly visible.
+
+**Declared modulus, stated as the template demands:** 156 commits, 71 new arcs; **12 read in full,
+59 not read — this review certifies nothing about them** (filed as R58-4).
+
+**Error-class recurrence, and most of it is this seat's own:** E56 (a degree-12 relation at 80
+digits), E58 (**twice** — B1239's Kawauchi use *and* this seat's first critique of it), E69 (drafted
+twice, caught before banking), test-vacuity (a pass condition satisfied when every measurement
+fails). **Two new classes PROPOSED, not minted** — *the mismatched hypothesis* and *"UNREACHABLE
+described the search"* — deliberately deferred so as not to collide with B1376's concurrent
+`ERROR_LEDGER` edit.
+
+**Protocol integrity: every seal in the window verifies against its banked line**, hash-first order
+honoured in every case.
+
+**The `review-actions` gate caught this review's own first draft** silently dropping seven carried
+keys (`ex-R54-*`, R55-8/10/12). Restated. **Zero laws created this window — a fourth consecutive
+zero-advancement window for LAW_MAP.**
+
 ## xB028 — the arithmetic closings verified from a second bench; B288's lock diagnosed, not repaired
 
 **m004(6,1) → cubic disc −59** and **m004(8,1) → cubic disc −31** confirmed independently, with the

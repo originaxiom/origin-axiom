@@ -17294,3 +17294,61 @@ filling needs the **cocompact** one. **The test's name asserts a falsehood; what
 criterion, which it does not compute. It verifies **trace fields**, a necessary ingredient only.
 
 **No value. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-18 — REVIEW 58 (the decadal review; seat `xb`)
+
+Run at **95 merges** since Review 57's anchor `efa5fd46` — the cadence is ~20. Full REQUIRED core
+per `docs/progress/REVIEW_TEMPLATE.md`. Banked in `docs/progress/REVIEWS.md`. **Gates 35/35.**
+
+**§1 — R55-14 PAID.** *"Regenerate `SEAL_LEDGER.md` and put it under a currency gate."* xB022
+regenerated it **and found why it was stale**: `scripts/seal_ledger.py` globbed `frontier/B*/`,
+**blind to every seat-prefixed arc**, so **no seat seal had ever been recorded** while
+`seal-provenance` stayed green over the blind spot. **597 rows, 23 seat seals newly visible.** The
+currency half was already satisfied. **R56-1's gates are green** but it is a judgement debt and stays
+carried — no seat closes another's.
+
+**§1b — branch inventory, all four refs classified, no blocker.** The two unregistered ones
+(`sep16-branch`, the referee lane) are **LIVE**, and unregistered **by design**: the registry records
+harvested/frozen pins, not active seat branches.
+
+**§2 — the declared modulus, stated rather than assumed.** 156 commits, 71 new arcs. **Twelve read in
+full; 59 NOT read — this review certifies nothing about them** (R58-4). The full pytest suite ran
+**once** to completion (22 failures, all verified pre-existing in a clean worktree); later banks are
+certified **by the gates only**.
+
+**§3 — zero laws created: 0 of 12 arcs carry `creates_law: true`. A fourth consecutive
+zero-advancement window** for LAW_MAP (R56-2 carried for that reason). What moved is **strength of
+explanation**: the stabiliser computed, the invariants split into two species with the arithmetic
+negatives placed in a third, the `0`-vs-`¼` selection explained, and the generation count closed on
+its mechanism. **`σ` is the longest stuck**, and this window only read its closure at source.
+
+**§4 — error-class recurrence, and most of it is this seat's own.** **E56** (a degree-12 relation
+with 10¹⁸ coefficients confirmed at 80 digits where ≈216 are needed). **E58 twice** — B1239's
+Kawauchi use, **and this seat's first critique of it**, judged from Theorem I before Theorem III was
+read. **E69 drafted twice**, caught before banking. **test-vacuity** — a pass condition satisfied
+when every measurement failed, and every one did.
+
+**Two new classes PROPOSED AND NOT MINTED:** *the mismatched hypothesis* (a theorem quoted
+**correctly** and applied outside its hypotheses — more dangerous than E58 because the quotation is
+right) and *"UNREACHABLE described the search, not the source"*. **Deferred to avoid a concurrent
+`ERROR_LEDGER` edit with B1376** — the B1267 collision shape. Filed as R58-1/R58-2.
+
+**§5 — provenance sweep green**, no external-verification pretense. A new register opened
+(`LITERATURE_READ_REGISTER.md`), six sources moved to READ-AT-SOURCE. **One live defect flagged and
+not repaired:** B288's lock asserts a falsehood; **left to B1376** (R58-3).
+
+**§6 — no promotion candidates.** All twelve arcs `creates_law: false`, nothing to `CLAIMS.md`,
+**Gate 5 absolute**. Two identifications registered **UNEARNED** with the baseline raised **14 → 16
+by hand, dated** — the ratchet working rather than being evaded.
+
+**§7 — every seal in the window verifies against its banked line**, hash-first order honoured in
+every case. One cosmetic note: xB021 quotes its seal at 8 hex characters where the others use 16.
+
+**THE REVIEW CAUGHT ITSELF.** The `review-actions` gate failed this review's **own first draft**
+twice, for **silently dropping seven carried keys** (`ex-R54-1`, `ex-R54-2`, `ex-R54-3`, `ex-R54-4`,
+`R55-8`, `R55-10`, `R55-12`). Restated. **The loop's own gate is the thing that kept the loop
+honest** — which is the best evidence in this review that the machinery works.
+
+**Nothing to `CLAIMS.md`. Gate 5 absolute.**

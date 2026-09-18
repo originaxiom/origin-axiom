@@ -5514,3 +5514,156 @@ grew by nine classes, and the programme's distance to a value is now stated as a
 - [>] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26 (owner: the owner)
 
 **anchor-commit: `efa5fd46`**
+
+---
+
+# Review 58 (2026-09-18) — the window the object became a fixed point, and the count stopped moving
+
+## 1. The loop (Review 57's block, closed or carried)
+
+Review 57's own five items are `[x]`. Its carried items are re-examined here.
+
+**R55-14 — PAID IN PART, AND THE REASON IT WAS STALE IS NOW KNOWN.** The item read *"regenerate
+`SEAL_LEDGER.md` (~530 arcs stale) and put it under a currency gate"*. **xB022 regenerated it**, and
+found **why** it had gone stale: `scripts/seal_ledger.py` globbed `frontier/B*/`, which is **blind to
+every seat-prefixed arc** (`xB`, `sB`, `qB`) — so **no seat seal had ever been recorded**, while the
+`seal-provenance` gate stayed green over the blind spot. Repaired; the view now carries **597 rows**,
+including **23 seat seals that were invisible before**. **The currency half is already satisfied**:
+`gates.py` reads `docs/SEAL_LEDGER.md` at two points (`seal-provenance`, `seal-digests`), both green.
+**R55-14 closes.**
+
+**R55-16 carried unmeasured.** The item's tally (*"20 of 31 gates have no test, 25 have no planted
+violation"*) was not re-measured this window — there are now **35** gates and no `tests/test_gate*`
+file, but the original tally's method is not recorded and **this review declines to re-measure it
+badly**. Carried with that stated.
+
+**R56-1 (harvest debt), R56-2 (LAW_MAP living-or-frozen), R56-3 (CLAIMS/THEOREM_LEDGER lag)** carried.
+**R56-1's gate is now green** (`harvest-debt: ok`, as are `relay-debt` and `retraction-debt`), but the
+item is a *judgement* debt, not a gate debt, and no seat may close another's. **Carried.**
+
+**R55-5** (the outside seat's Papers I–IV, owner-gated since 2026-08-26) carried, unmoved, **owner**.
+
+**One housekeeping action taken this window and recorded here:** nine relay debts crossed the 21-day
+bar **on the date rollover to 2026-09-18**, not by any seat's action. **Escalated by name in xB025,
+not closed** — BANKED is the receiving seat's judgement (this ledger's own rule).
+
+## 1b. The branch inventory (B763 rule, leaf-matched per R57-1b)
+
+`git branch -r --no-merged main`, four refs, **all classified, no blocker**:
+
+| ref | classification |
+|---|---|
+| `<remote>/main` | the trunk |
+| `<remote>/standard-model-derivation-0qt6ao` | **registered** in `HARVEST_LEDGER` (leaf match), pin `f17dd84e` |
+| `<remote>/sep16-branch` | **LIVE** — this seat, 12 arcs this window |
+| `<remote>/paper-opponent-review-3bcflw` | **LIVE** — the referee seat, round-3 report at `33691f81` |
+
+**Neither live branch is a blocker and neither is stale.** Noted for the rule's sake: the registry
+records **harvested/frozen pins**, so an *active* seat branch is correctly absent from it — the two
+unregistered refs are unregistered **by design**, not by omission.
+
+## 2. The declared modulus — what this review can and cannot certify
+
+**Window:** Review 57's anchor `efa5fd46` → `HEAD`. **156 commits, 71 new arc directories.**
+
+- **Read in full:** this seat's own twelve — **xB017–xB028**.
+- **NOT read in full:** the other **59** arc directories in the window. **This review certifies
+  nothing about them.**
+- **Locks:** the **35 gates** re-run green at every bank. The **full pytest lock suite** was run
+  **once, serially, to completion** (53:05 — 22 failed, 6664 passed, 59 skipped) and **every failure
+  verified pre-existing at `b4a53a6` in a clean worktree**; it has **not** been re-run since, so
+  later banks are certified by the gates only.
+- **Other lanes:** the SM-derivation lane was **read** (B1374/B1375 verdicts, `tower_generations.py`
+  and its published run) and its machinery **borrowed and run** in xB027; **its own arcs were not
+  re-derived.** The paper lane's round-3 report was **read**, not re-run; **the paper itself has not
+  been read by this seat.**
+
+## 3. Advancement
+
+**No law was created this window by this seat: 0 of 12 arcs carry `creates_law: true`.** `LAW_MAP.md`
+moved by 8 lines (citation/scope edits, not new rows). **On R56-2's count this is a fourth
+consecutive zero-advancement window**, and the item stays carried for that reason.
+
+What *did* move is **strength of explanation, not class**:
+- **PLACEMENT → MECHANISM** in substance: xB021 computed the stabiliser of the object's `CS`
+  (`|⟨A5,A6,A7⟩| = 4`, stabiliser exactly `{A6,A7}`, orbit `{0,¼}`); xB022 split the invariants into
+  **two species** and identified xB021's three unexplained negatives as a **third species — invariants
+  with no orbit at all**; xB023 explained the **selection** of `0` over `¼` (the free involution,
+  78/78 against a 27.2 % base rate on the full 203 123-manifold census).
+- **A WALL MADE THEOREM-SHAPED:** xB026 + xB027 close the generation question *on its mechanism* —
+  the count is **stabiliser-fixed at one** on both towers, with `h¹(χ²) = 1` at every locus of both.
+- **Longest stuck:** `σ`. xB016 closed the index→anchor route, and this window **read that closure at
+  source** (Witten eq. 2.2; Gukov §1.1). It has not moved and nothing here moves it.
+
+## 4. Error-class recurrence — the richest section this window, and most of it is this seat's
+
+| class | recurred as | caught by |
+|---|---|---|
+| **E56** (a detection its precision cannot support) | xB024's first `algdep` run read a **degree-12 polynomial with 10¹⁸-scale coefficients confirmed at 80 digits**, where ≈216 are needed | a **height guard** (`dps > 2·d·log₁₀H`) added mid-cell; the "difference" vanished and **42 of 114** words became honestly UNDETERMINED |
+| **E58** (a theorem taken from a summary) | **twice**: B1239's use of Kawauchi, and then **this seat's first critique of it**, judged from Theorem I before Theorem III was read | reading the paper — which **withdrew this seat's own critique** |
+| **E69** (a verdict string beside a number that does not test it) | drafted **twice** in this seat's own cells (xB022 V7's modulus print, xB023 W2's `FAIL` line) | caught **before banking**, both rewritten |
+| **test-vacuity** | xB024 C1 first gated on `zero + errors == total` — **a condition that passes when every measurement fails**, and every measurement did | caught on reading the output; condition narrowed to the measured half |
+
+**Two NEW class candidates, PROPOSED AND DELIBERATELY NOT MINTED:**
+
+- **The mismatched hypothesis.** A theorem quoted **correctly** and applied to objects **outside its
+  hypotheses**. Instance: xB023's first K1 filtered by `is_amphicheiral()` — an orientation-reversing
+  *isometry of any order* — while Kawauchi's `α` is an **involution**; it "refuted" a 1981 published
+  theorem on 29 of 36 cases. **More dangerous than E58 because the quotation is right.**
+- **"UNREACHABLE" describing the search, not the source.** Instance: xB024 graded CGHN unreachable
+  after two failed routes and **banked that verdict**; the paper was freely available on the
+  journal's open archive **and on the author's own page** — the same page that had supplied
+  Neumann–Reid one cell earlier.
+
+**Not minted here because `docs/ERROR_LEDGER.md` is a shared surface and B1376 on the paper lane is
+about to mint a class on it** (the cusped-criterion error). Concurrent minting is the **B1267
+collision** shape. Filed as action items instead.
+
+## 5. The provenance spot-sweep
+
+`framing`, `claims`, `firewall-oneway`, `citation-status`, `identification-register`, `linkage-kills`
+and `rederivation` all **green**. **No external-verification pretense** found in the window's
+public-facing files. **A new register was opened** — `docs/LITERATURE_READ_REGISTER.md`, separating
+**READ-AT-SOURCE / CITED-UNREAD / UNREACHABLE** for *external* theorems, with the standing rule that
+**a CITED-UNREAD theorem may not be the sole support for a banked conclusion**. Five sources moved to
+READ-AT-SOURCE this window (Kawauchi, Neumann–Yang, Neumann–Reid, Witten, Gukov, CGHN).
+
+**One live defect flagged and NOT repaired:** `tests/test_b288_*.py::test_no_closed_filling_is_arithmetic`
+asserts a **falsehood** — it applies the **cusped** arithmeticity criterion to **closed** fillings.
+Diagnosed in xB028; **left to B1376**, whose seat is mid-repair.
+
+## 6. The §5.1 promotion sweep
+
+**No candidates.** All twelve arcs are `creates_law: false`, none touches `CLAIMS.md`, **Gate 5
+absolute throughout**. Two identifications were **registered UNEARNED** (I-32, I-33) with the
+baseline raised **14 → 16 by hand, dated, with what would earn each written in** — the ratchet
+working as designed rather than evaded.
+
+## 7. Protocol integrity
+
+**Every seal in the window verifies against its banked line.** Live `sha256` prefixes re-computed
+and matched to the hash quoted in each arc's own `FINDINGS.md`:
+
+`xB021 42c442a2` · `xB022 f153f67dcb0a27e8` · `xB023 277542e74fa92bb4` · `xB024 9880dc0189734102` ·
+`xB026 4ae71e2987b073a8` · `xB027 21f5b2fac12bb5d2`
+
+**Hash-first order honoured in every case** — each `PREREGISTRATION.md` was committed **and pushed**
+before its `verification/` directory existed, with the pushing commit named in the findings.
+**One cosmetic inconsistency:** xB021 quotes its seal at **8** hex characters where the others use
+**16**. Not a defect; noted so the next sweep does not read it as a miss.
+
+### Action items (Review 58)
+
+- [x] R55-14 (done 2026-09-18, xB022): `SEAL_LEDGER.md` regenerated (597 rows, 23 seat seals newly visible) **and the cause repaired** — `scripts/seal_ledger.py` globbed `frontier/B*/`, blind to every seat-prefixed arc; the currency half was already satisfied by `seal-provenance` + `seal-digests` (owner: xb; source: R55-14)
+- [ ] R58-1: mint the **mismatched-hypothesis** error class (a theorem quoted correctly, applied outside its hypotheses; instance xB023 K1's first version) — **after B1376 lands**, to avoid a concurrent `ERROR_LEDGER` collision (owner: unassigned; source: Review 58 §4)
+- [ ] R58-2: mint the **"UNREACHABLE described the search"** error class, with the three-route rule already written into `LITERATURE_READ_REGISTER.md` Amendment 2 (author's page, journal archive, bytes parsed locally) — same sequencing (owner: unassigned; source: Review 58 §4)
+- [ ] R58-3: repair `tests/test_b288_*.py::test_no_closed_filling_is_arithmetic`, which asserts a falsehood (cusped criterion on closed fillings) — **owned by B1376 on the paper lane**; if that seat stays blocked, reassign (owner: the paper lane; source: xB028 A3)
+- [ ] R58-4: **59 of the window's 71 arcs were not read.** The declared modulus (§2) certifies nothing about them; a follow-up review or a harvest pass should sample them (owner: unassigned; source: Review 58 §2)
+- [>] R56-1: THE HARVEST DEBT, carried — its **gates are green** (`harvest-debt`, `relay-debt`, `retraction-debt` all ok) but the item is a judgement debt and no seat may close another's (carried from R57)
+- [>] R56-2: LAW_MAP living-or-frozen, carried — **fourth** zero-advancement window (carried from R57)
+- [>] R56-3: CLAIMS.md / THEOREM_LEDGER lag, carried (carried from R57)
+- [>] R55-16: gate test coverage, carried **unmeasured** — 35 gates now, no `tests/test_gate*`, and the original tally's method is unrecorded; this review declines to re-measure it badly (carried from R57)
+- [>] R55-1 (ex-R54-1), R55-2 (ex-R54-2), R55-3 (ex-R54-3), R55-4 (ex-R54-4), R55-6, R55-7, R55-9, R55-11, R55-13, R55-15 carried unchanged, **aliases restated so the loop does not drop them** (the `review-actions` gate caught this review's own first draft dropping the `ex-R54-*` keys); no evidence moved this window. **Also carried, restated by key so the loop does not drop them: R55-8, R55-10, R55-12** (R55-16 has its own line above). **R55-14 is NOT in this bundle — it is `[x]` above, PAID.** (carried from R57)
+- [>] R55-5 (carried from R54-6 / R53-1 / R53-2 / R53-4 / R52-5 / R51-5 / R50-6): the outside seat's Papers I–IV, owner-gated since 2026-08-26 (owner: the owner) (carried from R57)
+
+**anchor-commit: pending**
