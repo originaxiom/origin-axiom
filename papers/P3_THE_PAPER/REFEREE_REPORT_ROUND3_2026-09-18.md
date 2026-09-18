@@ -323,3 +323,92 @@ one-cusped manifold, and one is therefore the only answer the machine can give.*
 theorem — no manifold in the commensurability class, at any degree, with a genuine locus at
 h¹(χ²) = 3 — remains open; everything scanned to degree 8 is consistent with it, and the Alexander
 separability above is the shape a proof would take.
+
+---
+
+## 8. Enriching the first step: what it would have to supply, and what it actually supplies
+
+The construction is one variational step (Jørgensen/Callahan minimality selects m004) followed by
+pure invariant extraction, and an equivariant machine cannot emit a non-invariant number. So the
+only way to reach parameters is to **enrich the first step** — make it range over a space that
+contains the parameters as coordinates. Two scripts price that
+(`r8_enrichment_budget.py`, `r9_enrich_coefficients.py`).
+
+### 8.1 The parameter budget
+
+m004: volume 2.0298832128, **1 cusp**, H₁ = ℤ, symmetry group **D4 of order 8**, amphichiral.
+
+| enrichment | complex dim | **real dim** | vs the 19 needed |
+|---|---|---|---|
+| bare object (complete structure, Mostow) | 0 | 0 | short by 19 |
+| its own moduli (Dehn surgery space; Thurston: dim = cusps) | 1 | **2** | short by 17 |
+| flat SU(2) connections (rank 1) | 1 | 2 | short by 17 |
+| flat SU(3)×SU(2)×U(1) — *the SM's own group*, rank 4 | 4 | **8** | short by 11 |
+| flat SO(10) (rank 5) | 5 | 10 | short by 9 |
+| flat E₆ (rank 6) | 6 | 12 | short by 7 |
+| flat E₈ (rank 8) | 8 | 16 | short by 3 |
+| flat E₈×E₈ (rank 16) | 16 | 32 | enough |
+
+With one cusp the character variety of a rank-r group has r complex dimensions, so **no group of
+rank ≤ 9 has room for 19 real numbers.** The SM's own gauge group supplies eight real coordinates,
+and they are all gauge-sector — the nine Yukawas are not in that space at all.
+
+### 8.2 The hierarchy, and why it is the wrong place to start
+
+The only known geometric mechanism producing a Yukawa hierarchy is exponentially suppressed overlap,
+and hyperbolic geometry supplies exponential decay for free. Necessary condition: does the object's
+own length spectrum span the range? Computed:
+
+```
+L <= 2.0: N =   6      L <= 4.0: N =  50        fit  N(L) ~ 0.729 * exp(1.046 L)
+L <= 3.0: N =  16      L <= 5.0: N = 134
+systole = 1.087070145     exp(-systole) = 0.337
+top / electron = 337945   ->  needs a length gap dL = 12.7306
+```
+
+The range exists — the spectrum is infinite, so that condition passes and kills nothing. But
+extrapolating the fit, the window L ≤ systole + 12.73 holds **on the order of 1.4 million
+geodesics**, to fit **nine** Yukawas. An enrichment that supplies more freedom than the data
+constrains can fit the parameters; it cannot predict them. That is the criterion any enrichment must
+meet, and it is the criterion minimality meets perfectly: **zero choices in, one object out.**
+
+### 8.3 The enrichment that keeps the aesthetic — and fails
+
+The one enrichment that costs nothing is to keep the object and make the **bundle** bigger: replace
+rank-one characters by Sym^m of the geometric representation, which is the coefficient system the
+record's index instrument already uses. If dim H¹ climbs with m, §7's corank bound is a statement
+about rank-one coefficients only and the cap is an artefact of the instrument.
+
+`r9_enrich_coefficients.py` builds the figure-eight's parabolic representation from scratch over
+ℚ(u), u² − u + 1 = 0 — found by search, not assumed, and *filtered by its Alexander polynomial*
+(the search also returns ω = −1, which satisfies the relator but gives the **trefoil**, Δ = t² − t + 1;
+the figure-eight solution is ω = u, relator `aBAbaBabAB`, Δ = t² − 3t + 1, cross-checked):
+
+| m | dim Sym^m | dim H⁰ | **dim H¹** |
+|---|---|---|---|
+| 1, 3, 5, 7, 9, 11, 13 | 2 … 14 | 0 | **0** |
+| 2, 4, 6, 8, 10, 12, 14 | 3 … 15 | 0 | **1** |
+
+**dim H¹ ∈ {0, 1} for every m from 1 to 14. It never reaches 2, let alone 3.**
+
+So the cap survives the enrichment. The bound is about the object, not the instrument — and the
+obvious free enrichment does not move it.
+
+### 8.4 What this leaves
+
+- **The count cannot be rescued by enriching the first step.** The corank is bounded by b₁ = 1, the
+  bundle enrichment does not lift it, and raising b₁ means abandoning the one-cusped minimality that
+  selects the object. Three generations and the 19 parameters are two different problems; enriching
+  the selection addresses at most the second.
+- **The realistic target is 3 of 19, not 19 of 19.** Flat connections for a rank-4 group carry eight
+  real coordinates with a natural functional (Chern–Simons) whose critical points are the flat
+  connections. Three gauge couplings is the kind of quantity that space can hold. Going from 0 to 3
+  would change the programme's standing entirely.
+- **The gate is whether the group is forced.** The programme's claim is "no input beyond the minimal
+  object". An enrichment that *chooses* G pays more bits than it earns. The object hands over D4
+  (finite — no continuous moduli), ℚ(√−3), and the covering tower. **None of those supplies a
+  continuous group of rank ≥ 3.** Finding a forced G, or proving there is none, is the highest-value
+  open problem for this direction — higher than any further computation on the existing lanes.
+- **Yukawas last, not first.** 1.4 million candidate lengths against nine numbers is the Koide
+  failure mode at scale. The xB021 discipline — sealed pre-registration with a binding kill
+  condition — should be applied to the *enrichment's bit budget* before any such computation is run.
