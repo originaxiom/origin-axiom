@@ -1,5 +1,23 @@
 # Changelog
 
+## xB024 Addendum 2 — Neumann's CS paper read: L223's literature half closes, L194's blocker priced
+
+**Read at source:** Neumann, *Combinatorics of Triangulations and the Chern–Simons Invariant*,
+Topology '90 — **the paper Snap/SnapPy's CS formula comes from**, which nobody here had opened.
+
+**L223's literature half CLOSES.** §1: compact `CS` mod `2π²`, **non-compact `CS` mod `π²`**, and
+`V(M) = Vol(M) + i·CS(M)`; with CGHN §5A's `cs = CS/(2π²)`. **The record's statement of Neumann's
+normalisation is exactly right.** What remains in L223 is record-internal bookkeeping, never a
+literature question, and still not a crossing candidate.
+
+**A question opened and explicitly NOT an identification:** Theorem 2's constant has a conjectural
+**six-fold** ambiguity; xB015 found a **ℤ/12** index. **No map exhibited, none claimed** — matching
+small integers in different places is this record's most-repeated error class.
+
+**L194's blocker priced.** Meyerhoff–Ouyang still unread after **six named routes**, and the
+empirical substitute is closed too: **SnapPy has no `eta` accessor.** Completing Addendum 1's lesson
+from the other side — **a grade of UNREAD is reportable only with the routes named.**
+
 ## xB024 Addendum 1 — CGHN obtained: the UNREACHABLE grade was our error, and the closed case closes
 
 **The correction first.** xB024 banked **CGHN as UNREACHABLE**. It was **freely available

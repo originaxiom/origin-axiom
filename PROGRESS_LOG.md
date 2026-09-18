@@ -17003,3 +17003,60 @@ not a measurement**, and is not claimed as one. **L194 is still not closed** —
 cusped and needs MO's cusped `η`.
 
 **Gates 35/35. Gate 5 absolute. Nothing to `CLAIMS.md`.**
+
+---
+
+## 2026-09-17 — xB024 ADDENDUM 2: Neumann's CS paper read; L223's literature half CLOSES; L194's blocker priced
+
+**Beyond the seal** (`9880dc01…` untouched). Continues Addendum 1.
+
+**Read at source:** W. D. Neumann, *Combinatorics of Triangulations and the Chern–Simons Invariant
+for Hyperbolic 3-Manifolds*, Topology '90, de Gruyter (1992) 243–271 — free as `cspaper.pdf` on
+Neumann's Columbia page. **This is the paper Snap/SnapPy's CS formula comes from**, so every `CS`
+number this programme has computed rests on it, and **nobody here had opened it.**
+
+### L223's literature half CLOSES
+
+**Neumann §1, verbatim:** *"If M is a complete hyperbolic 3-manifold which is compact, then its
+Chern–Simons invariant `CS(M)` is well-defined modulo `2π²`. If M is non-compact then Bob Meyerhoff
+has shown in [M] that there is still a natural definition of `CS(M)` which is well-defined modulo
+`π²`. Let `V(M) = Vol(M) + i·CS(M)`…"*
+**CGHN §5A, verbatim:** *"two commonly used normalizations … related by `cs(M) = (1/2π²)·CS(M)`."*
+
+L223 named three candidates and quoted *"Neumann's `CS = 2π²·cs` (mod `π²`)"*.
+
+> **The record's statement is EXACTLY RIGHT, now read at source from both ends.** `cs = CS/(2π²)`
+> and cusped `CS` mod `π²` are the same statement as SnapPy's `cs ∈ ℝ/(½)ℤ`.
+
+**What remains in L223 is record-internal bookkeeping** — which normalisation enters B1012's
+`k`-coupling, whose script carries `CS` as a bare sympy symbol. **That was never a literature
+question**, and it stays **not a crossing candidate**. Also confirmed: `Vol + i·CS` is **Neumann's
+own definition** of complex volume.
+
+### A question opened, and explicitly NOT an identification
+
+**Neumann §1:** Theorem 2's constant is *"conjecturally in `(iπ²/6)ℤ` and is thus determined up to a
+**six-fold ambiguity**."* xB015 found a **ℤ/12** index on B1186's family.
+
+> **6 and 12 are NOT claimed to be related.** Two structures whose labels are both small integers,
+> in different places, with **no map exhibited**, is this record's most-repeated error class
+> (B813; B1223's *"direct is not semidirect"*; two instances this session). The narrower checkable
+> question — *does Theorem 2's six-fold ambiguity interact with the ℤ/12 index at all?* — is
+> **unanswered here** and left as such.
+
+### L194's blocker, priced
+
+**Meyerhoff–Ouyang remains UNREAD** after six named routes: Cambridge (paywall) · arXiv (absent) ·
+Neumann's page (**no eta paper**) · EuDML (interface unfetchable) · Springer for the companion
+**Meyerhoff–Neumann, Comment. Math. Helv. 67:1 (1992) 28–46** (paywall) · and the **empirical
+substitute is CLOSED**: **SnapPy exposes only `chern_simons`; there is no `eta` accessor** — `η`
+lives in Snap, the separate PARI program.
+
+> **Completing Addendum 1's lesson from the other side: a grade of UNREAD is reportable only WITH
+> THE ROUTES NAMED.** Addendum 1 was wrong because one failed fetch was read as a closed door; this
+> is right because six were tried and are listed.
+
+Exact citations recorded from CGHN's own bibliography, including **Ouyang, Topology 36:2 (1997)
+411–421**, which CGHN names as the **global** proof of the `η(M(p,q))` formula.
+
+**L194 unchanged and still open. No value, no new mechanism, no crossing. Gates 35/35.**

@@ -110,3 +110,27 @@ read as "no access" rather than "wrong tool".
 CGHN was wrongly believed out of reach. **That headline stands for the six targets it covered and
 NOT for T1**, where CGHN yields B1239's confirmation, MO's actual requirement, and a closed-case
 chain whose every substantive link is now read at source.
+
+---
+
+## AMENDMENT 3 — Neumann's CS paper read; MO priced (2026-09-17, xB024 Addendum 2)
+
+| source | grade | what it says |
+|---|---|---|
+| **W. D. Neumann**, *Combinatorics of Triangulations and the Chern–Simons Invariant for Hyperbolic 3-Manifolds*, Topology '90, de Gruyter (1992) 243–271 (`cspaper.pdf`, Columbia) | **new row, READ-AT-SOURCE** | **The paper Snap/SnapPy's CS formula comes from** — every `CS` number in this record rests on it. §1: *"If M is … compact, then its Chern–Simons invariant CS(M) is well-defined modulo 2π². If M is non-compact then Bob Meyerhoff has shown in [M] that there is still a natural definition of CS(M) which is well-defined modulo π². Let V(M) = Vol(M) + i·CS(M)…"* Theorem 2's constant is *"conjecturally in (iπ²/6)ℤ … a six-fold ambiguity."* |
+| **CGHN §5A** (already READ-AT-SOURCE) | — | *"two commonly used normalizations … related by `cs(M) = (1/2π²)·CS(M)`."* |
+| **Meyerhoff–Ouyang**, Canad. Math. Bull. **40**:2 (1997) 204–213 | **UNREAD — priced, six routes named** | Cambridge (paywall) · arXiv (absent) · Neumann's page (no eta paper) · EuDML (interface unfetchable) · Springer for the companion Meyerhoff–Neumann, **Comment. Math. Helv. 67**:1 (1992) 28–46 (paywall) · **empirical substitute CLOSED: SnapPy exposes only `chern_simons`, there is no `eta` accessor.** |
+| **M. Ouyang**, *A simplicial formula for the η-invariant of hyperbolic 3-manifolds*, **Topology 36**:2 (1997) 411–421 | **new row, UNREAD** | CGHN names it as the **global** proof of the `η(M(p,q))` formula; Meyerhoff–Neumann 1992 proved it locally. Elsevier paywall. |
+
+**L223's LITERATURE half CLOSES.** L223 named three candidate normalisations and the record's
+reading of Neumann's — `CS = 2π²·cs` mod `π²` — **is exactly right**, now read at source from both
+ends. What remains in L223 is record-internal bookkeeping (which normalisation enters B1012's
+`k`-coupling), **which was never a literature question.**
+
+**A question opened and explicitly NOT an identification:** Neumann's Theorem 2 has a conjectural
+**six-fold** ambiguity; xB015 found a **ℤ/12** index. **No map between them is exhibited and none is
+claimed** — matching small integers in different places is this record's most-repeated error class.
+
+**The access lesson, completing Amendment 2's:** a grade of UNREACHABLE/UNREAD is reportable only
+with **the routes named**. Amendment 2 was wrong because one failed fetch was read as a closed door;
+this row is right because six routes were tried and are listed.
