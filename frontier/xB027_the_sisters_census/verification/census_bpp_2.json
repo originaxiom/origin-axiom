@@ -1,0 +1,44 @@
+{
+ "2": {
+  "n": 2,
+  "H1": "Z/5 + Z",
+  "N": 60,
+  "primes": [
+   421,
+   541,
+   601
+  ],
+  "hom": 300,
+  "loci": 9,
+  "spurious": [
+   0,
+   0,
+   0
+  ],
+  "mu_null": true,
+  "candidates": 45,
+  "firing": 16,
+  "rechecked": 16,
+  "differing": 0,
+  "generation_backgrounds": 0,
+  "loci_used": 0,
+  "signs": {},
+  "kvals": {},
+  "nu": {},
+  "yord": {},
+  "gord": {},
+  "joint_sign_singlet": {},
+  "examples": [],
+  "gens": [
+   "a",
+   "b",
+   "c"
+  ],
+  "rels": [
+   "abcAAbC",
+   "abbcBaC"
+  ],
+  "mu": "AcaBaCB",
+  "lam": "AcaBAB"
+ }
+}
