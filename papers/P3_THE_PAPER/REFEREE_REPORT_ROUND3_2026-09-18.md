@@ -412,3 +412,120 @@ obvious free enrichment does not move it.
 - **Yukawas last, not first.** 1.4 million candidate lengths against nine numbers is the Koide
   failure mode at scale. The xB021 discipline — sealed pre-registration with a binding kill
   condition — should be applied to the *enrichment's bit budget* before any such computation is run.
+
+---
+
+## 9. CORRECTION: §§7–8 are largely re-derivations, one of their conclusions is wrong, and the premise behind them is false
+
+Directed to verify the load-bearing math and to sweep the repository for already-banked solutions. Both
+were done. The controls pass; the sweep does not go my way.
+
+### 9.1 The premise was false
+
+I wrote that the programme "fails to identify the riddle about 0 of 19". **It does not.** The record
+states it as a result, with a scoreboard:
+
+- **B1261 — THE PRICE.** *"the programme SPENDS 4 axioms + unearned identifications and BUYS 0 of the
+  SM's 19 numbers; by parameter count the trade is net negative, by structural content it derives
+  what the SM assumes, and the two do not convert (the selftest enforces it). The identification
+  ledger is the scoreboard."*
+- **L217** (registered 2026-09-14, B1406), a *programme-level filter*: *"a description that must
+  account for ~19 numbers needs k(n−1) ≈ 10 — many cusps, high rank, or both — and a rigid point
+  supplies zero, which no invariant extracted from it can change."*
+- **OPEN_ITEMS H5** — *"the object supplies every SPACE and never a POINT"* — eight banked instances,
+  five measured. That is my "structure plus a point in moduli space", already a census.
+- **I-13**, the listener map, carried as *the* programme debt, with its price measured (B1348/B1349:
+  freedom 12, then 48, Galois-cut to 8) and the recommendation *do not spend the row*.
+
+My §8 presented this as something fresh eyes could see that the programme could not. That is wrong,
+and it is the third time in this review I have mistaken a projection for the project.
+
+### 9.2 One conclusion of §8 is wrong
+
+§8.1 concluded that with one cusp there is **no room for 19**. **B1409 (2026-09-14, prereg sealed
+`5618216a` and pushed before compute) found the room and then killed it better.** At the tower's
+ceiling — the chiral 5-cusped degree-10 cover **L14n63694**:
+
+```
+SL(2,C):  dim_C H^1(pi_1, sl_2) =  5 = k
+SL(3,C):  dim_C H^1(pi_1, sl_3) = 10 = k(n-1)   ->  20 REAL PARAMETERS
+```
+
+— *"the first count in the corpus that clears the ~19 a Standard Model needs"*, and Menal-Ferrer–Porti's
+`k(n−1)` verified where the programme needs it, **with m004 as the `k = 1` positive control**. And
+then the part the prereg did not anticipate: the restriction H¹(M) → H¹(∂M) is **injective in every
+case**, dim H¹(∂M) = 2·dim H¹(M) exactly. **Every one of the 20 real parameters is cusp data; there
+are zero interior moduli** (L219).
+
+So the correct statement is not "the object is too small". It is: **the room exists, it is big
+enough, and it is made entirely of the thing the programme already knows it cannot select.** That is
+a sharper negative than mine, it is pre-registered, and it is two days older than my report.
+
+### 9.3 Both of my recommendations are already closed, negatively
+
+- **"3 of 19 via flat connections"** (§8.4) is closed by **B1336**: for any H with 2T ≤ H ≤ SL(2)
+  principal, Z(H) is a subalgebra of an abelian algebra, so **abelian of dimension ≤ 4**, while the
+  Standard-Model algebra is non-abelian of dimension 12. *No flat connection of this kind leaves it
+  unbroken, whatever the holonomy.* The centraliser of the geometric (Zariski-dense) holonomy is
+  **dim 0**.
+- **"Enrich the coefficients with Sym^m"** (§8.3) is closed at the root by **E65 / B1260**: generation
+  counting needs net chirality h¹(V) ≠ h¹(V*), and **every Sym^n of SL(2) is self-dual**, so net
+  chirality is *identically zero for every such coefficient system*. E65 cost the programme four
+  arcs. My computation found dim H¹ ∈ {0,1}; the record has the theorem that says the whole family
+  was never a candidate.
+
+### 9.4 What §7 reproduces rather than discovers
+
+**B1260** already has my §7 Alexander computation, symbolically verified, and takes it further:
+*"the Fox derivatives of m004's relator in the 1-dim rep are ±Δ(t)/t with Δ = t² − 3t + 1 whose roots
+are φ² and φ^−2 … Δ is RECIPROCAL … so h¹(C_t) = h¹(C_{1/t}) at every value including the Alexander
+root where h¹ jumps."* Reciprocity — which I did not use — is what makes the abelian sector carry no
+net chirality for *every* knot.
+
+**B307 + B1161** already have §6's conclusion by a stronger route: three interchangeable generations
+need a cyclic cubic invariant trace field, no hyperbolic knot has one, and the object's quadratic
+field *"permits multiplicities 1 and 2 and never 3."* That is a theorem where mine is a scan to
+degree 8.
+
+**B850** already has the representation r9 builds (A = [[1,1],[0,1]], B = [[1,0],[−ω,1]], relator
+wa = bw, *"VERIFIED SYMBOLICALLY rather than cited"*) and the length spectrum, with systole
+1.08707014499574 — agreeing with §8.2's 1.087070145 to every digit printed.
+
+**The CHANGELOG** already banks h¹(Sym^even) = 1 and h¹(Sym^odd) = 0 for n = 0…16 over two
+independent primes; r9 reproduces it for m = 1…14.
+
+### 9.5 The load-bearing math, now controlled (`r10_controls.py`)
+
+Three things §§7–8 asserted are now derived rather than cited:
+
+| asserted | control | result |
+|---|---|---|
+| h¹ = 0 at every finite-order character of m004 is a fact about the object, not a blind instrument | run the same code on the **trefoil**, whose Δ = t² − t + 1 *does* have roots of unity | trefoil fires at **exactly the two order-6 characters**, h¹ = 1; m004 fires at **none**. Instrument confirmed live |
+| b₁ = number of cusps (the whole content of "the corank is capped at 1") | checked on all **57** manifolds the §7 scan used | **no exceptions** |
+| dim H¹(m004; Sym^m) and the cusp restriction | longitude found by search (`bABaaBAb`, ρ(λ) parabolic), t₁ computed | a₁ = 1, t₁ = 2 = 2a₁ at m = 2, 4, 6 — **independently reproducing B1409's m004 control rows, injectivity included** |
+
+Also itemised so the target is checkable rather than a slogan: 3 couplings + 9 charged-fermion
+masses + 4 CKM + 2 Higgs + 1 θ_QCD = **19**.
+
+One defect of my own, caught by the control and recorded: the first longitude search required *both*
+exponent sums to vanish, when both generators are meridians and only their **sum** must vanish. It
+returned "no longitude" — a silent false negative that would have left §9.5's third row unchecked.
+
+### 9.6 What survives as this referee's own
+
+Little, and it should be said plainly:
+
+- the **trefoil positive control** for the h¹ instrument (§9.5) — a control, not a result;
+- the **cusps → max h¹ stratification** over an explicit 42-manifold population, and the count of
+  **zero** genuine loci at h¹ = 3 — an independent empirical confirmation of B1161's theorem, not a
+  new fact;
+- the **order-2 trap** (a raw scan reports 32 false h¹ = 3 loci on degree-7 covers) — a methodological
+  warning worth keeping;
+- the **fitting-freedom count** for the hierarchy route: ~1.4 × 10⁶ geodesics in the window against
+  nine Yukawas. The *principle* is banked (B995: rarity implies separation; the R11 bit-accounting);
+  the number for this route I did not find in the record.
+
+**Everything else in §§7–8 is a re-derivation, and in four places the banked version is stronger.**
+The correct referee's finding is not that the programme missed the riddle. It is that the programme
+stated the riddle, priced it, sealed the pricing before computing, and closed both of the routes I
+proposed — and that none of this is in the paper.
