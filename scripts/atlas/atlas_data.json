@@ -8728,6 +8728,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1430": {
+   "slug": "the embedding verified",
+   "motifs": [
+    "closing",
+    "trace_map",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B143": {
    "slug": "interaction feasibility",
    "motifs": [

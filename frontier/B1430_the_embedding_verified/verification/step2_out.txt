@@ -1,0 +1,27 @@
+=== A2 SUBSYSTEMS OF E6 ===
+roots: 72  |W|: 51840
+
+CONVENTION A (the one I use): an A2 subsystem is a SET of 6 roots
+  {+-a,+-b,+-(a+b)}, closed under negation and under addition inside
+  E6, of rank 2, all six of equal length.  Two different generating
+  pairs that span the same 6-element set are ONE subsystem.
+  COUNT = 120
+
+CONVENTION B: ORDERED pairs (a,b) of roots at 120 degrees whose sum
+  is a root (i.e. ordered bases of an A2).  COUNT = 1440
+  ratio to convention A: 12 (= 12 = #ordered bases of one A2)
+CONVENTION C: unordered such pairs {a,b}. COUNT = 720
+CONVENTION D: sets of 3 POSITIVE roots (A2 up to sign) -- same objects
+  as convention A, so COUNT = 120
+
+number of A2 subsystems through each root (should be constant): [10]
+
+=== STEP 3: W(E6)-ORBITS ON THE A2 SUBSYSTEMS ===
+number of orbits: 1
+orbit sizes: [120]
+sum of orbit sizes: 120 == total count: True
+SINGLE ORBIT: True
+setwise stabiliser of one A2 in W has order: 432
+orbit-stabiliser: |W|/|stab| = 120  matches orbit size: True
+roots orthogonal to a fixed A2: 12 rank of their span: 4
+wrote e6_a2_subsystems.json
