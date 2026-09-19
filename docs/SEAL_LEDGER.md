@@ -700,3 +700,14 @@ wrong-coefficient/domain rejectors, not an erased failure or a quantum gap.
 | `reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_DESIGN.md` | `e6268d0e62481512c618d9c72272599801815afe1928b5c646410acdf3a1271a` |
 | `reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control.py` | `5d50041ed10ee850745de6f67a4ce627fd4b0abf3c4f385511706a3ad0d8b765` |
 | `tests/test_physical_bridge_mirror_quartic_normal_form_control.py` | `ccfa8351cf91ba7a6a2a68cd93ce1aa1cc6ad4ac8d0d7faf76651a3015b70937` |
+
+## Path-local R34 normal-form v2, 2026-09-19 — before execution
+
+Validate each input before subtraction can erase its floating-point type.
+V1 source, failed guard and all original comparisons remain unchanged.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_V2_DESIGN.md` | `4e5982e989668dfaef5db52d21d35139e37cc0564317e78f117f87f6c7748cfb` |
+| `reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control_v2.py` | `7e7fe0cf5b84f1f7bd8a45ff8afd80eb4f12b1e52395577711a2312ec6fdcd2c` |
+| `tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py` | `d20b4d9b5bdcdd7bfdd2207d44d57065420367a05621aff973d8b10650c9012f` |
