@@ -653,3 +653,14 @@ All six files are sealed before their first native or test execution.
 | `reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_INPUTS.json` | `be7821c9163e8140591cae37a20be43277b12f6a3802b9702602bcb1c032869f` |
 | `reports/physical_bridge_2026_09_05/mirror_interaction.py` | `6430dc84022050fea50d3dd5edb4ee08a8c2c80cde6b5674f385812ac04ff6e1` |
 | `tests/test_physical_bridge_mirror_interaction.py` | `0e1b3874f523fe89a6cc70eb5d0235d42803b4af71b36f35733faa70f293a8af` |
+
+## Path-local R33 exact normal-form control, 2026-09-19 — before execution
+
+Original two failed assertions are retained. Exact residual, symbolic
+collinear family and altered-mass/null-vector rejecting controls.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NORMAL_FORM_DESIGN.md` | `f28ca5a6ad97eff702f837cee9d521f887a27bd12800381a0d88e3cfc4eea049` |
+| `reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py` | `6015a433194ff9dc5ca234c75095fee29ab28e7e3c6256bc854e20ac59c59874` |
+| `tests/test_physical_bridge_mirror_interaction_normal_form_control.py` | `a5cb9690011fe3a990d9b9576122f6cca7395d0152da7e0175e79f9496a5d82e` |
