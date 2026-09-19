@@ -1,5 +1,16 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**LATEST INTAKE, 2026-09-19 (R35): source scope, not a new physical closure.**
+Seven advertised GitHub heads fetched, five older tracking refs retained;
+17 selected repository bodies and two full primary papers read directly.
+A failed acyclic threshold shortcut does not exclude every hyperbolic
+threshold calculation. Local nilpotent T-brane Higgs fields do not
+establish admissibility of globally nonsemisimple flat monodromy.
+R34 remains the latest local science. Normalized source-derived
+couplings, a physical operator/domain and the interacting phase remain
+open; no new spectrum, earned identification, main bank or TOE.
+Report: reports/physical_bridge_2026_09_05/LITERATURE_AND_SEATS_2026_09_19.md.
+
 **LATEST LOCAL RESULT, 2026-09-19 (R34): a nonzero number-changing interaction.**
 Exact Grassmann algebra gives a nonzero Spin(10)/Lorentz invariant
 four-fermion operator, while the commuting-spinor comparator vanishes.

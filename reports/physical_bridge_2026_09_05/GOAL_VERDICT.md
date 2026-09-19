@@ -1,4 +1,31 @@
-# Verdict toward the full physical-theory goal — 2026-09-15, after path-local R30
+# Verdict toward the full physical-theory goal — 2026-09-19, R35 intake / R34 science
+
+**Latest intake, R35 (September 19): [cross-seat and primary-literature audit](LITERATURE_AND_SEATS_2026_09_19.md).**
+All seven advertised GitHub heads were fetched; five older tracking
+refs were preserved. Seventeen selected repository bodies and two
+complete primary papers were read personally. The acyclic threshold
+shortcut fails more narrowly than the whole threshold framework;
+local T-brane Higgs nilpotence does not certify global nonsemisimple
+monodromy. No incoming census or new spectrum was rerun.
+R34 remains the latest executed science. Source-derived normalized
+couplings, physical background/domain and the interacting phase remain
+next. [Reading/custody](LITERATURE_READING_2026_09_19.md).
+No chirality closure, earned physics identification or completed TOE.
+
+**Current scientific state through R34 (September 19).**
+[R31](GLOBAL_POISSON.md) supplies the uniform compact Poisson bounds
+left open in the dated R30 text below: the resolved model has at least
+three positive light pairs in the stated regime, not three unpaired
+generations. [R32](SOURCE_C3.md) computes the actual C3 projection;
+[R33](MIRROR_INTERACTION.md) and [R34](MIRROR_QUARTIC.md) supply genuine
+charged local interactions. The allowed ordinary coupling and the
+quantum phase still need computation in the same source/end model.
+R19's conditional singular three/zero kernel is not retracted.
+R34's final focused run is 143 pass / four preserved failures;
+no full green or independently accepted main bank is claimed.
+
+The following older checkpoint entries are historical, not a statement
+that R30 is still the latest result.
 
 **Latest local result, R30 (September 15): [fermions through resolved cores](RESOLVED_FERMION.md).**
 The declared quadratic extension of R29 has an explicit absolute compact

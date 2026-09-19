@@ -1,5 +1,17 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Latest intake, R35 (September 19): [cross-seat and primary-literature audit](LITERATURE_AND_SEATS_2026_09_19.md).**
+All seven advertised GitHub heads were fetched; five older tracking
+refs were preserved. Seventeen selected repository bodies and two
+complete primary papers were read personally. The acyclic threshold
+shortcut fails more narrowly than the whole threshold framework;
+local T-brane Higgs nilpotence does not certify global nonsemisimple
+monodromy. No incoming census or new spectrum was rerun.
+R34 remains the latest executed science. Source-derived normalized
+couplings, physical background/domain and the interacting phase remain
+next. [Reading/custody](LITERATURE_READING_2026_09_19.md).
+No chirality closure, earned physics identification or completed TOE.
+
 **Latest local result, R34 (September 19): [induced four-fermion interactions](MIRROR_QUARTIC.md).**
 The actual Grassmann operator is nonzero and invariant; its commuting-
 spinor comparator vanishes. Charged-scalar elimination supplies a

@@ -110,3 +110,16 @@ a mass gap or three physical generations. The commuting-spinor
 polynomial is explicitly a different tensor symmetry type.
 No shared I-number or physical status is reassigned.
 Report reports/physical_bridge_2026_09_05/MIRROR_QUARTIC.md.
+
+### R35 reception scope, 2026-09-19: distinguish the indices before joining them
+
+The cross-seat/literature intake does not earn a new identification:
+geometric CS, a coefficient-system index, the DGG protected 3D index,
+the singular R19 kernel and the resolved R31 light-pair spectrum keep
+their different domains and physical meanings. A local T-brane
+construction is not a map from every nonsemisimple module to a
+physical vacuum; a torsion threshold is not a selected measured
+coupling. Actual source-derived normalized interactions and the
+global physical action remain the required maps. No shared I-number
+or prior row's status changes. Report:
+reports/physical_bridge_2026_09_05/LITERATURE_AND_SEATS_2026_09_19.md.

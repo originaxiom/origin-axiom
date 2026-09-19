@@ -3083,3 +3083,29 @@ The stable auxiliary calculation is tree-level matching, not a quantum
 completion, for a propagating self-interacting scalar. Its pole is a
 light scalar to retain, not evidence of strong mirror gapping.
 No unearned global closure or all-history absence claim follows.
+
+### PB-BOUNDARY / PB-ACTION, 2026-09-19: R35 source and literature intake
+
+R33/R34's remaining source-derived normalized overlap and interacting
+phase duties stay first. Read both F- and D-term conditions when
+testing a noncommuting PW core; a local nilpotent Higgs field does not
+by itself validate a globally nonsemisimple monodromy. The physical
+H-subgroup, positive metric, source matching and end domain must agree.
+No sub-duty is marked closed by this literature review.
+
+Secondary, separately typed duties:
+(a) after choosing an admissible compact Q and physical flat bundle,
+compute primed spectral determinants with the actual massless sector
+and harmonic-cohomology normalization; non-acyclicity kills the
+shortcut, not the entire framework;
+(b) read the relative 3D-index filling proof in full and test a fixed
+partial-filling witness with its lattice and triangulation hypotheses;
+(c) examine integral K3/ALE-fibration descent and the torsion-free or
+explicitly sourced equations over the arithmetic base. A positive or
+closed G2 structure is not yet the required metric.
+
+The queue is not evidence those transfers work. Incoming censuses
+remain attributed, not independently rerun; no universal negative or
+new physical identification is introduced. Report and reading grades:
+reports/physical_bridge_2026_09_05/LITERATURE_AND_SEATS_2026_09_19.md
+and reports/physical_bridge_2026_09_05/LITERATURE_READING_2026_09_19.md.

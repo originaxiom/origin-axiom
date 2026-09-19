@@ -15077,3 +15077,28 @@ nine tests pass. Final nine-file focused: 143 pass / all four prior
 failures retained. No full green, independent acceptance, main bank,
 shared B number, physical chirality closure or completed TOE.
 Report: reports/physical_bridge_2026_09_05/MIRROR_QUARTIC.md.
+
+## 2026-09-19 — R35 checks cross-seat literature transfers without a new spectrum
+
+All seven advertised GitHub heads were fetched; five older tracking
+refs were retained. Seventeen selected repository bodies were read,
+including a threshold producer inspected but not run. Two primary
+papers were read completely and personally: Friedmann-Witten v3 and
+T-Branes and G2 Backgrounds v2. Selected v2 threshold and hyperbolic
+K3-fibration passages were read with explicit coverage boundaries.
+
+The threshold shortcut and its blanket framework-wide exclusion
+are different claims: extra zero modes require an actual massless
+sector and nonzero-spectrum calculation, not automatic rejection
+of every hyperbolic background. The incoming addendum already knew
+about the primed determinant. Local Higgs nilpotence likewise does
+not establish global monodromy admissibility. Neither qualification
+restores a physical prediction or supplies our global source/end theory.
+
+R34 remains the latest executed science. Source-derived normalized
+couplings and an interacting phase remain next; a relative-index
+Dehn-filling paper is a typed 3D-observable lead, not 4D chirality.
+The stale R30-leading FINDINGS/GOAL_VERDICT/BANKING_RECEIPT entry
+points are repaired without erasing historical receipts. No new
+census, full-suite run, shared B, independent main bank or TOE.
+Report: reports/physical_bridge_2026_09_05/LITERATURE_AND_SEATS_2026_09_19.md.

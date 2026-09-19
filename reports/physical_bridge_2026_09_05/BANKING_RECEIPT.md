@@ -1,5 +1,19 @@
 # CC's banking relay read before the next local checkpoint
 
+R35, September 19, is a path-local literature/reception checkpoint:
+[assessment](LITERATURE_AND_SEATS_2026_09_19.md),
+[reading and custody](LITERATURE_READING_2026_09_19.md).
+No B number, new science producer, incoming census rerun or independent
+bank is claimed. R34 at c445ba8f remains the latest executed science;
+its native and focused outcomes, retained failures and seals are in
+[MIRROR_QUARTIC_FINAL_CHECKS.txt](MIRROR_QUARTIC_FINAL_CHECKS.txt).
+The updated FINDINGS and GOAL_VERDICT now expose R31--R34 as well.
+Source reviews narrow transfer claims without editing other seats'
+artifacts or marking physical identifications earned. New reporting
+checks are recorded in [the R35 check](LITERATURE_FINAL_CHECKS_2026_09_19.txt).
+Full-suite green and independent main banking remain unpaid.
+The following earlier entries are preserved as historical receipts.
+
 Latest local science, September 15: [R30](RESOLVED_FERMION.md) executes
 the declared resolved-core fermion extension. Its seal ff6515f0 and
 metadata correction 91eeff8c were pushed before first execution; the

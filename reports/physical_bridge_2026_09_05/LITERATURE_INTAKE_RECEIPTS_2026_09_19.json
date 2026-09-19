@@ -1,0 +1,288 @@
+{
+  "scope": "R35 reception/source custody only. No incoming science rerun; no semantic-absence or physical-completion certificate.",
+  "own_starting_head": "c445ba8ff0fc7611ba6438c4f21efcaa92c5516c",
+  "advertised_heads": {
+    "audit": "c445ba8ff0fc7611ba6438c4f21efcaa92c5516c",
+    "main": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+    "SM": "235325396b2db79c78df303531af6878931b00f2",
+    "physics": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+    "review": "cf12bd6ed25eacf5954ff69c8c4a5b4e92b495fc",
+    "outside": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "September16": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6"
+  },
+  "retained_not_advertised": [
+    "53da05f6c545edf62ba7ff6d7d001aa1c2642320",
+    "3851df2aa683b67ba3f5c4976f4371c3bd22716e",
+    "5dde7b3efe59ca2055de6b84395416d173b2e290",
+    "f7a49536bc45bebc1557d3d081b6b3664a7c2199",
+    "a31456d2d5e4f08723aa9cfabb7a8573cc2c13d4"
+  ],
+  "server_snapshots_identical": true,
+  "retrievals": [
+    {
+      "raw_basename": "oa_r35_fetch_first",
+      "receipt_sha256": "26aeaa9c5b1e710720bf1ff88e52ff56267648e7d08cc1aff3f28911a4a73134",
+      "exit_code": 0,
+      "log_bytes": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "raw_basename": "oa_r35_heads_after",
+      "receipt_sha256": "824067a09297e427cb514f815e7c20cee810c8e7e42e366d0b5896d1229cb40e",
+      "exit_code": 0,
+      "log_bytes": 2647,
+      "log_sha256": "1ffd320746913adb166724a2151f6283679157d7901dd082907a0beeabbe4fea"
+    },
+    {
+      "raw_basename": "oa_r35_server_heads",
+      "receipt_sha256": "70ff8c5acba57753d751d5a9b79385eed54866e677aaf774b318ffd32655151b",
+      "exit_code": 0,
+      "log_bytes": 554,
+      "log_sha256": "1f631b83e2a043567f06256aafd04ab5ef1efc8042082b66a68f4eb3999c511c"
+    },
+    {
+      "raw_basename": "oa_r35_fetch_resume",
+      "receipt_sha256": "bb62ee42cee5a06d2cfdfee81bcbafa475bc96032b307bdfd12470dbf2652ace",
+      "exit_code": 0,
+      "log_bytes": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "raw_basename": "oa_r35_heads_resume",
+      "receipt_sha256": "9d0fcc3230b9f88ec4ade67951b24c75cbed962277517b7c0a03f0867558f212",
+      "exit_code": 0,
+      "log_bytes": 554,
+      "log_sha256": "1f631b83e2a043567f06256aafd04ab5ef1efc8042082b66a68f4eb3999c511c"
+    }
+  ],
+  "personally_read_repository_bodies": [
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "docs/SEAT_REGISTER.md",
+      "blob": "dc855682dd45933da783879b8753f4fc8c61a0d9",
+      "bytes": 19716,
+      "sha256": "6af2ef4193524a62e9d89d209101e28b703949224bd98a5e0c4a339708b8f9f6"
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1427_the_towers_generation_count_verified/FINDINGS.md",
+      "blob": "8fd039c61df198f600a77c1e05df8e401316fb6e",
+      "bytes": 6153,
+      "sha256": "d1b342d431b350a4508d33061322dfeca97f9901e19623eb574e17413490ec97"
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1430_the_embedding_verified/FINDINGS.md",
+      "blob": "3f6847cd2611c147dd1fe353083497f9743915e7",
+      "bytes": 4996,
+      "sha256": "cf78f8ecc2984b7b1228729113376f6056469a9a8ba0e9f8520f542cb6f5d7e3"
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1431_the_index_separates_the_sibling/FINDINGS.md",
+      "blob": "68b0b3169a9ebc3ee1879a0da2897d94983b58e6",
+      "bytes": 6317,
+      "sha256": "5ef66a01b3adde96f74a7a4f42b369a1cb7f416353f4c65531b4f8b858f7e168"
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1277_leak_closure/FINDINGS.md",
+      "blob": "20a960847a8cc0d7b91c8a449be1c279e3d8fdec",
+      "bytes": 4577,
+      "sha256": "f71d76a90ca380f3ca45b8897bf15dd986be38b5d59ac7f2d3d7d4be32806131"
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B488_dgg_family/FINDINGS.md",
+      "blob": "ce66d335d84a79916efdb50bbe32dab5bca1bc48",
+      "bytes": 2884,
+      "sha256": "a7781cf62496d21a91f7bb694d765e1236b4e5504f1cbdb6dc780db485d43e04"
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B528_dgg_gauge_resolved/FINDINGS.md",
+      "blob": "02055b148d4a9f30dcfc23602dc3106427c7652f",
+      "bytes": 4674,
+      "sha256": "a97b73eca1ca21f34b30ff8219b57caec88479f51670088865a162b2fa738348"
+    },
+    {
+      "seat": "SM",
+      "pin": "235325396b2db79c78df303531af6878931b00f2",
+      "path": "frontier/B1374_the_class_index_in_the_sm_frame/FINDINGS.md",
+      "blob": "2d6528052d4012a7a2b0e92b65cb0811a2c9825a",
+      "bytes": 21949,
+      "sha256": "0ca538fb98aad8f4f55edd018c43d13be17d9b1d556f1136edefc6ca1824294d"
+    },
+    {
+      "seat": "SM",
+      "pin": "235325396b2db79c78df303531af6878931b00f2",
+      "path": "frontier/B1375_the_towers_generation_count/FINDINGS.md",
+      "blob": "8deaa27dd1f95e2dd5b87ff52ddb77edce16e484",
+      "bytes": 10987,
+      "sha256": "6cb41c2f52f5a65b55051601cffd3703ec6ef19146a350678b6351f96724566e"
+    },
+    {
+      "seat": "physics",
+      "pin": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+      "path": "reports/fresh_physics_seat_2026-09-01/R72_THREE_FROM_THE_THIRD_ROOT.md",
+      "blob": "fa1d8fa16043c2f3cf54abefdf6f11c1895cafe6",
+      "bytes": 20374,
+      "sha256": "a00cf34259658f5fd2ccb9b1c007b855c350560952d4609ca39910f2b0e15894"
+    },
+    {
+      "seat": "review",
+      "pin": "cf12bd6ed25eacf5954ff69c8c4a5b4e92b495fc",
+      "path": "papers/P3_THE_PAPER/REFEREE_REPORT_CONSOLIDATED_2026-09-18.md",
+      "blob": "00d7757d941e79c178a710d6c1b19ba756396675",
+      "bytes": 17608,
+      "sha256": "f0bd8933a07d7f8845c4e1914d6a550c8198baa01775a2b10efcfee52a6164d6"
+    },
+    {
+      "seat": "outside",
+      "pin": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "path": "outside_bench/memos/THE_PAPER_ALREADY_HAD_IT.md",
+      "blob": "90ccb4a66955685bf9291725eb28f5e9efe584d1",
+      "bytes": 5149,
+      "sha256": "ac06358c45c8b1d25e020fb810c629decea794541428272a88120702f2e48709"
+    },
+    {
+      "seat": "September16",
+      "pin": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6",
+      "path": "frontier/xB029_the_g2_mssm_read/FINDINGS.md",
+      "blob": "ab0c986f39b8e5d01e9cd56ce035affa83c3027e",
+      "bytes": 9941,
+      "sha256": "db93d76488d0c48faa2705b6d7a3f2e71cfbdf20681ff05a122bd60143066386"
+    },
+    {
+      "seat": "September16",
+      "pin": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6",
+      "path": "frontier/xB029_the_g2_mssm_read/ADDENDUM_1_2026-09-18_friedmann_witten_read.md",
+      "blob": "af9f3e2f45a33dc5c5363f49497a7afdd752ca7f",
+      "bytes": 12361,
+      "sha256": "236da0f2498ef2ceda9f979da90c692c043c6015fe51d185424f255689105d49"
+    },
+    {
+      "seat": "September16",
+      "pin": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6",
+      "path": "frontier/xB029_the_g2_mssm_read/verification/fw_f3.py",
+      "blob": "dc742290700a7e21005c9b1929fc022657388115",
+      "bytes": 6049,
+      "sha256": "7678c0d3c82fe3973892a41d909e0ccf90e2e78d779cb707495cbeac4851b891"
+    },
+    {
+      "seat": "September16",
+      "pin": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6",
+      "path": "frontier/xB030_the_buried_four/FINDINGS.md",
+      "blob": "c6c4031a7996f755f2bba529c69b5579fb4594b9",
+      "bytes": 10090,
+      "sha256": "7450cc5df4916748865182b3457d0d756cec1f82ffdd39c47ad04bf826ecc078"
+    },
+    {
+      "seat": "September16",
+      "pin": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6",
+      "path": "frontier/xB031_the_unrun_modules/verification/README_RUN_IN_PROGRESS.md",
+      "blob": "7ffb29424d5656f56f9092746730ebf1d2724713",
+      "bytes": 1526,
+      "sha256": "2bde361f4f1c22f02b6373b05adef501c407ef5fcd8aca77d84a09e77f656e58"
+    }
+  ],
+  "source_copies": [
+    {
+      "url": "https://arxiv.org/pdf/hep-th/0211269v3",
+      "declared_reading_boundary": "full text; all sections, appendices and references",
+      "files": [
+        {
+          "basename": "fw_v3.pdf",
+          "bytes": 379222,
+          "sha256": "6c4d3f06fb39a8628bd283ca8ccf2ba5bea136fb969851934758ed3002ed683f"
+        },
+        {
+          "basename": "fw_v3.txt",
+          "bytes": 113453,
+          "sha256": "c989f6d0f9c835fedd867bf806b5c81f7eb067e7bccdb9b7a265e91cea6ca3cf"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/pdf/hep-th/0211269v2",
+      "declared_reading_boundary": "selected sections 3.1, opening 3.3 and Appendix B; not full v2",
+      "files": [
+        {
+          "basename": "fw_v2.pdf",
+          "bytes": 319618,
+          "sha256": "8f8c4aca55b5c8174fc2c737f75dbc3a11a3efe858dbe8bb43bd36c258c2e271"
+        },
+        {
+          "basename": "fw_v2.txt",
+          "bytes": 120401,
+          "sha256": "8eb9b588729dea11d4c231f5d829bbb22d898b12a1280bc2880cab123c541465"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/pdf/1906.02212v2",
+      "declared_reading_boundary": "full text and all three figures; equations on printed page 24 inspected visually",
+      "files": [
+        {
+          "basename": "tbranes_v2.pdf",
+          "bytes": 924459,
+          "sha256": "2244fe0a9c345c2a1e758fb3b51395ac145dfaa7601f3337dc7b98b4e9808050"
+        },
+        {
+          "basename": "tbranes_v2.txt",
+          "bytes": 138228,
+          "sha256": "d2f4e0dd8115d0ebf8afb9585070ec55d37490df75eddfa1116a32526bad87fe"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/pdf/hep-th/0203217v1",
+      "declared_reading_boundary": "selected introduction passage and all of section 3; not the full paper",
+      "files": [
+        {
+          "basename": "gyz.pdf",
+          "bytes": 424728,
+          "sha256": "2b5f8f2d120d6ed48ec73f13c6f769cbed43d1153a9916fe011c4dab948d216e"
+        },
+        {
+          "basename": "gyz.txt",
+          "bytes": 109565,
+          "sha256": "6d5cc0621cef311b11eb8754e231406ff2c6c655d9304b4b434147901010f83c"
+        }
+      ]
+    }
+  ],
+  "visually_inspected_pages": [
+    {
+      "basename": "tbranes_page_5.png",
+      "pdf_page_one_based": 5,
+      "bytes": 283573,
+      "sha256": "8084d9b880f96179711ee11a360fc502a94767913b6ab80685f7e371dd075367"
+    },
+    {
+      "basename": "tbranes_page_6.png",
+      "pdf_page_one_based": 6,
+      "bytes": 314216,
+      "sha256": "fb0a43b351d225b133fd06bda4eaf641a135ec4289e14a8138b2547902a3a6b3"
+    },
+    {
+      "basename": "tbranes_page_25.png",
+      "pdf_page_one_based": 25,
+      "bytes": 182714,
+      "sha256": "b8c9c4989d240520b910beecc04d1b0baf3a9a6d7bba060dca37d489635ca3a1"
+    },
+    {
+      "basename": "tbranes_page_34.png",
+      "pdf_page_one_based": 34,
+      "bytes": 225880,
+      "sha256": "eab98086da9ea39d8f5c8446e47e7cf568d191c7c84ae1a6f42d4fe7a45fe910"
+    }
+  ]
+}

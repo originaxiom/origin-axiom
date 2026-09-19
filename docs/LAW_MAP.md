@@ -1,5 +1,13 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+R35 source-intake note, 2026-09-19: the review in
+reports/physical_bridge_2026_09_05/LITERATURE_AND_SEATS_2026_09_19.md
+adds no object-derived law. It distinguishes an acyclic threshold
+shortcut from a general primed-spectrum calculation and local Higgs
+nilpotence from global monodromy admissibility. These are scoped
+primary-source transfer checks, not new earned physical identifications.
+The latest executed local algebraic results remain the R34 rows below.
+
 > **ENFORCEMENT POSTURE (decided at Review 33, R33-4 — read this before citing a row).**
 > This file is an **UNENFORCED INDEX with traceable provenance**, *not* a checked ledger. Measured
 > 2026-07-29: **113 rows, 5 cite a test lock (4 %)**, and no gate verified the file at all.
