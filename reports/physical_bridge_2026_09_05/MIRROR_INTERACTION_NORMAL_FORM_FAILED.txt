@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<repo>/reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py", line 44, in <module>
+    result = run()
+             ^^^^^
+  File "<repo>/reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py", line 36, in run
+    rows = [check(sign) for sign in (1, -1)]
+            ^^^^^^^^^^^
+  File "<repo>/reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py", line 21, in check
+    mutant[0, 0] += 1
+    ~~~~~~^^^^^^
+  File "<python3.12-env>/lib/python3.12/site-packages/sympy/matrices/immutable.py", line 69, in __setitem__
+    raise TypeError("Cannot set values of {}".format(self.__class__))
+TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>

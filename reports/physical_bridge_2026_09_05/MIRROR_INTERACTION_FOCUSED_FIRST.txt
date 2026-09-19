@@ -1,0 +1,19 @@
+..........FF............................................................ [ 67%]
+..................................                                       [100%]
+=================================== FAILURES ===================================
+_______ test_real_rotated_and_collinear_complex_vectors_are_full_rank[1] _______
+tests/test_physical_bridge_mirror_interaction.py:97: in test_real_rotated_and_collinear_complex_vectors_are_full_rank
+    assert mi.clean(m.H*m) == (s.H*s)[0]*sp.eye(16)
+E   assert Matrix([\n[10,...  0,  0, 10]]) == Matrix([\n[(1 ...)*(2 + 2*I)]])
+E     
+E     Use -v to get more diff
+______ test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1] _______
+tests/test_physical_bridge_mirror_interaction.py:97: in test_real_rotated_and_collinear_complex_vectors_are_full_rank
+    assert mi.clean(m.H*m) == (s.H*s)[0]*sp.eye(16)
+E   assert Matrix([\n[10,...  0,  0, 10]]) == Matrix([\n[(1 ...)*(2 + 2*I)]])
+E     
+E     Use -v to get more diff
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[1]
+FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1]
+2 failed, 104 passed in 13.49s

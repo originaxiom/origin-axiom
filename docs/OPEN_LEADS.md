@@ -3039,3 +3039,27 @@ the partner question. None is supplied by deleting one parity cochain.
 Complete cusp limits and physical source/vacuum selection also remain
 unachieved on this lane. No historical semantic absence is claimed.
 Proof and exact two-sided controls: reports/physical_bridge_2026_09_05/SOURCE_C3.md.
+
+### PB-BOUNDARY / PB-ACTION, 2026-09-19: charged interacting route
+
+R33 supplies a genuine H-subgroup mirror Yukawa and a charge-four
+phase-locking mechanism, with the actual root weights matched to
+the Spin(10) Clifford action. The resulting real vector has a full
+pointwise gap; a general nonzero complex vector need not. This is
+an ADDED interaction, not a geometrically derived scalar or a
+symmetric quantum phase. Both ordinary and mirror Yukawas are
+allowed by gauge symmetry. Ordered-condensate mixing is not chiral.
+
+Retain these explicit duties, none silently declined:
+(a) derive local source/form couplings and normalized overlaps for
+BOTH partners, including the allowed ordinary coupling;
+(b) compute the charged scalar's induced interactions and mirror
+fermion-number breaking with the actual Phi field;
+(c) establish or refute a symmetry-preserving gapped mirror phase
+using fermion/boson and cross-correlators, composite channels,
+current response and cutoff/volume controls;
+(d) redo the coupled source/end solution, quantum matching and C3
+treatment, including possible symmetry-breaking or flavour lifts.
+R19 singular, R31 resolved and the newly received nonsemisimple
+class/tower indices remain distinct. No whole-program absence claim
+or universal no-go follows. Report: reports/physical_bridge_2026_09_05/MIRROR_INTERACTION.md.

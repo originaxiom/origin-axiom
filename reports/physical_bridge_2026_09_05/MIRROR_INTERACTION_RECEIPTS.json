@@ -1,0 +1,380 @@
+{
+  "grade": "Exact added-interaction algebra and preserved failed controls; no quantum phase or full-suite certification.",
+  "seals": [
+    {
+      "pin": "c75647aa5a02401b635f340f0db9d37d7f8ee5a0",
+      "paths": [
+        "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_DESIGN.md",
+        "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_PROOF.md",
+        "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_PRIOR.md",
+        "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_INPUTS.json",
+        "reports/physical_bridge_2026_09_05/mirror_interaction.py",
+        "tests/test_physical_bridge_mirror_interaction.py"
+      ]
+    },
+    {
+      "pin": "878f6866e799d48b22d919eb93855b48bf4ff99d",
+      "paths": [
+        "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NORMAL_FORM_DESIGN.md",
+        "reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py",
+        "tests/test_physical_bridge_mirror_interaction_normal_form_control.py"
+      ]
+    },
+    {
+      "pin": "a2d5216205a7ac85934aa1287ca2edfe42971f69",
+      "paths": [
+        "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NORMAL_FORM_V2_DESIGN.md",
+        "reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control_v2.py",
+        "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "raw_basename": "oa_r33_banked_first",
+      "raw_receipt_sha256": "59250152a7f62f315feb7eab59e4239f0856c0bd298cd2e8b2aa80a538308c4c",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "symmetric",
+          "mass",
+          "generation",
+          "Spin10",
+          "mirror",
+          "fermion"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 1.049261000007391,
+        "log_bytes": 3604,
+        "log_sha256": "429162f8c27dee152cfd0da06737d03d7d25aa4e05ee39947299d948d879424c"
+      },
+      "output": "already-banked: terms ['symmetric', 'mass', 'generation', 'spin10', 'mirror', 'fermion']\n  213 corpus hits; 8 SETTLED arcs matching >= 3 of 6 terms\n  *** [ 4 terms] PROVED    B1036_mirror_double\n           THE MIRROR-DOUBLE (plan Arc 2, sealed a10ae240 pre-compute): THE DOUBLE GAINS CLASSES, NOT THE SYMMETRIC PAIRING. V2 + cross-gate: h1(dbl; 27) = 5 = 2+2+1 against the solo 3, by TWO INDEPENDENT ROUTES agreeing blockwise \n  *** [ 3 terms] PROVED    B1039_v_valued_residual\n           THE V-VALUED RESIDUAL (L157-1, sealed 874d9eee pre-compute): EXISTENCE NO, PRIOR HELD -- all fifteen symmetric pairs of the double's five classes, on both sides and in the MV difference, are EXACTLY ZERO under the functi\n  *** [ 3 terms] PROVED    B1138_structural_completion\n           THE STRUCTURAL COMPLETION (cloud seat's phase-III structural memos 11 FORK_THEOREM, 14 AMBIENT_LADDER, 13 Y_SELECTION, 15 FAMILY_TRIPLET; golden_gate 577712f; verified TWO-BENCH, own code, no discrepancy) -- what the rea\n  *** [ 3 terms] PROVED    B1148_carrier_harvest\n           THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduce byte-identical. The batch builds toward the inte\n  *** [ 3 terms] PROVED    B1220_campaign_premise_audit\n           THE CAMPAIGN'S PREMISE AUDIT (Cells 1-3 of the publication campaign, NOT RUN AS DESIGNED because none needed to be): ALL THREE MATH CELLS WERE ALREADY ANSWERED, and in EVERY case the banked record is STRONGER than the ce\n  *** [ 3 terms] PROVED    B950_sm_spec_ledger\n           THE SM SPECIFICATION LEDGER (owner directive: we do not yet fully understand the SM as today's science understands it, in order to know what our side should provide). PRIOR-ART GREP FIRST, per the new seal-provenance dis\n  *** [ 3 terms] PROVED    B952_gut_ledger_rank\n           THE GUT REQUIREMENTS LEDGER + THE RANK OBSTRUCTION (theorem-grade). The second missing inventory is written: docs/GUT_REQUIREMENTS_LEDGER.md states the eleven rows any grand unified theory must satisfy -- embedding and r\n  *** [ 3 terms] PROVED    B978_phaseA_bank\n           PHASE A BANKED -- four leads closed, one new mechanism, and the same failure a third time. DISPOSITIONS: L134 CLOSED, not an independent gap, since <S> != 0 IS E6 -> SO(10), the same input at the same step as L133 and L1\n  *** [ 2 terms] PROVED    B1014_proof_form\n           THE PROOF-FORM: THE DERIVATION THEOREM CLOSED, THE ANCHOR DOCTRINE LICENSED, THE CLAIM STATED ON ONE PAGE -- executing two owner decisions (approved and confirmed). (1) PROOF-AS-DERIVATION IS CLOSED: docs/THE_CLAIM.md se\n  *** [ 2 terms] PROVED    B1020_kind_rg_ledgers\n           THE TWO ADMISSIBILITY LEDGERS -- what a crossing MAY compare, settled before any value is looked at: docs/KIND_TABLE.md (living), Part 1 the KIND TABLE (R5's table), Part 2 the RG TAXONOMY (R2's). Every object-side row t\n  *** [ 2 terms] PROVED    B1025_input_derivability\n           L155, THE INPUT-DERIVABILITY AUDIT: THREE SURVIVE, TWO NARROW -- AND THE 'LIE-VALUED INPUT' DISSOLVES INTO UNIQUE LINES. Sealed 8def4962 with per-input priors; the sigma-pattern run against every counted input; every joi\n  *** [ 2 terms] PROVED    B1028_freedom_ledger\n           THE GLOBAL FREEDOM LEDGER (Lane I-1, sealed e13d09a5 before compute): the retroactive look-elsewhere audit over the WHOLE chain -- A1-A7 -> object -> kappa -> Q(sqrt-3) -> 2T -> E6 -> cascade -> SM skeleton -- lands COMP\n\n  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.\n"
+    },
+    {
+      "raw_basename": "oa_r33_atlas_first",
+      "raw_receipt_sha256": "ea591b16c9b308dbe1c972a97e72f1a38e00eebd5d108a06cf2dde300c6acb57",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/atlas/query.py",
+          "card",
+          "symmetric mass generation mirror defect"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.08573699998669326,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "output": "THE RECURRENCE ATLAS -- context card\n  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}\n  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur\n  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)\n  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422\n  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral\n  top meeting-point candidates: B530, B156, B521, B309, B598, B1189\n  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())\n"
+    },
+    {
+      "raw_basename": "oa_r33_presence_first",
+      "raw_receipt_sha256": "4a09474d65fff883d1ed09848388d3c8fba5ccd4da46e6937f95beb9d5dda6bc",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "symmetric.mass.generation|Kitaev.{0,12}Wen|mirror.{0,20}(gapp|decoupl)|Spin.?\\(?10\\)?.{0,25}(four.fermion|disorder)|Fidkowski"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 6.0894619999453425,
+        "log_bytes": 437,
+        "log_sha256": "b6a29d63e1b95982d1f4d62cfa6756d533da3c1273e38732fa53e015a40135fd"
+      },
+      "output": "ABSENCE SWEEP for 'symmetric.mass.generation|Kitaev.{0,12}Wen|mirror.{0,20}(gapp|decoupl)|Spin.?\\\\(?10\\\\)?.{0,25}(four.fermion|disorder)|Fidkowski' -- 12 heads enumerated\n  deleted-in-history paths matching: 0\n  working tree (untracked included): 0\nVERDICT: ABSENT on every enumerated head, in deleted history, and in the working tree. This line is the citation the sentence needs. (Fetched all remotes first? If not, this is a sample.)\n"
+    },
+    {
+      "raw_basename": "oa_r33_resume_20260919_banked",
+      "raw_receipt_sha256": "baef9f8fca5d0c44598957a0ff8bb7e91a3cc5f9810ab9c9f6f724981337c2b9",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "symmetric",
+          "mass",
+          "generation",
+          "Spin10",
+          "mirror",
+          "fermion"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.7466919999569654,
+        "log_bytes": 3604,
+        "log_sha256": "429162f8c27dee152cfd0da06737d03d7d25aa4e05ee39947299d948d879424c"
+      },
+      "output": "already-banked: terms ['symmetric', 'mass', 'generation', 'spin10', 'mirror', 'fermion']\n  213 corpus hits; 8 SETTLED arcs matching >= 3 of 6 terms\n  *** [ 4 terms] PROVED    B1036_mirror_double\n           THE MIRROR-DOUBLE (plan Arc 2, sealed a10ae240 pre-compute): THE DOUBLE GAINS CLASSES, NOT THE SYMMETRIC PAIRING. V2 + cross-gate: h1(dbl; 27) = 5 = 2+2+1 against the solo 3, by TWO INDEPENDENT ROUTES agreeing blockwise \n  *** [ 3 terms] PROVED    B1039_v_valued_residual\n           THE V-VALUED RESIDUAL (L157-1, sealed 874d9eee pre-compute): EXISTENCE NO, PRIOR HELD -- all fifteen symmetric pairs of the double's five classes, on both sides and in the MV difference, are EXACTLY ZERO under the functi\n  *** [ 3 terms] PROVED    B1138_structural_completion\n           THE STRUCTURAL COMPLETION (cloud seat's phase-III structural memos 11 FORK_THEOREM, 14 AMBIENT_LADDER, 13 Y_SELECTION, 15 FAMILY_TRIPLET; golden_gate 577712f; verified TWO-BENCH, own code, no discrepancy) -- what the rea\n  *** [ 3 terms] PROVED    B1148_carrier_harvest\n           THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduce byte-identical. The batch builds toward the inte\n  *** [ 3 terms] PROVED    B1220_campaign_premise_audit\n           THE CAMPAIGN'S PREMISE AUDIT (Cells 1-3 of the publication campaign, NOT RUN AS DESIGNED because none needed to be): ALL THREE MATH CELLS WERE ALREADY ANSWERED, and in EVERY case the banked record is STRONGER than the ce\n  *** [ 3 terms] PROVED    B950_sm_spec_ledger\n           THE SM SPECIFICATION LEDGER (owner directive: we do not yet fully understand the SM as today's science understands it, in order to know what our side should provide). PRIOR-ART GREP FIRST, per the new seal-provenance dis\n  *** [ 3 terms] PROVED    B952_gut_ledger_rank\n           THE GUT REQUIREMENTS LEDGER + THE RANK OBSTRUCTION (theorem-grade). The second missing inventory is written: docs/GUT_REQUIREMENTS_LEDGER.md states the eleven rows any grand unified theory must satisfy -- embedding and r\n  *** [ 3 terms] PROVED    B978_phaseA_bank\n           PHASE A BANKED -- four leads closed, one new mechanism, and the same failure a third time. DISPOSITIONS: L134 CLOSED, not an independent gap, since <S> != 0 IS E6 -> SO(10), the same input at the same step as L133 and L1\n  *** [ 2 terms] PROVED    B1014_proof_form\n           THE PROOF-FORM: THE DERIVATION THEOREM CLOSED, THE ANCHOR DOCTRINE LICENSED, THE CLAIM STATED ON ONE PAGE -- executing two owner decisions (approved and confirmed). (1) PROOF-AS-DERIVATION IS CLOSED: docs/THE_CLAIM.md se\n  *** [ 2 terms] PROVED    B1020_kind_rg_ledgers\n           THE TWO ADMISSIBILITY LEDGERS -- what a crossing MAY compare, settled before any value is looked at: docs/KIND_TABLE.md (living), Part 1 the KIND TABLE (R5's table), Part 2 the RG TAXONOMY (R2's). Every object-side row t\n  *** [ 2 terms] PROVED    B1025_input_derivability\n           L155, THE INPUT-DERIVABILITY AUDIT: THREE SURVIVE, TWO NARROW -- AND THE 'LIE-VALUED INPUT' DISSOLVES INTO UNIQUE LINES. Sealed 8def4962 with per-input priors; the sigma-pattern run against every counted input; every joi\n  *** [ 2 terms] PROVED    B1028_freedom_ledger\n           THE GLOBAL FREEDOM LEDGER (Lane I-1, sealed e13d09a5 before compute): the retroactive look-elsewhere audit over the WHOLE chain -- A1-A7 -> object -> kappa -> Q(sqrt-3) -> 2T -> E6 -> cascade -> SM skeleton -- lands COMP\n\n  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.\n"
+    },
+    {
+      "raw_basename": "oa_r33_resume_20260919_atlas",
+      "raw_receipt_sha256": "7c7a3bcd6b19288299ebfd0f7e6083baa5357532201d5f756efb8e67d94b5e0e",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/atlas/query.py",
+          "card",
+          "symmetric mass generation"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.07559600006788969,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "output": "THE RECURRENCE ATLAS -- context card\n  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}\n  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur\n  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)\n  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422\n  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral\n  top meeting-point candidates: B530, B156, B521, B309, B598, B1189\n  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())\n"
+    },
+    {
+      "raw_basename": "oa_r33_resume_20260919_presence",
+      "raw_receipt_sha256": "e0f94a92607a996107ea08696ee2819c17c5d05d99b98f802d237372632a7d31",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "symmetric.mass.generation|Kitaev.{0,12}Wen|mirror.{0,20}(gapp|decoupl)|Spin.?\\(?10\\)?.{0,25}(four.fermion|disorder)|Fidkowski",
+          "--regex"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 46.566650999942794,
+        "log_bytes": 437,
+        "log_sha256": "16c52e87c7b1c340730f0ad5f383752fe335c9c26d6be96f3cb23c827df278ba"
+      },
+      "output": "ABSENCE SWEEP for 'symmetric.mass.generation|Kitaev.{0,12}Wen|mirror.{0,20}(gapp|decoupl)|Spin.?\\\\(?10\\\\)?.{0,25}(four.fermion|disorder)|Fidkowski' -- 14 heads enumerated\n  deleted-in-history paths matching: 0\n  working tree (untracked included): 0\nVERDICT: ABSENT on every enumerated head, in deleted history, and in the working tree. This line is the citation the sentence needs. (Fetched all remotes first? If not, this is a sample.)\n"
+    },
+    {
+      "raw_basename": "oa_r33_resume_20260919_presence_simple",
+      "raw_receipt_sha256": "b118e0e5731ba45c81e0c9454747a2e79f9143f74f8c5fcd0a5ffa6caa42583a",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "symmetric.mass.generation|Kitaev|Fidkowski|mirror.{0,40}(gap|decoupl)|Spin.{0,3}10.{0,25}(four.fermion|disorder)",
+          "--regex"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 47.07921300001908,
+        "log_bytes": 4485,
+        "log_sha256": "32481c90558904d729773044238ac1e1e3f59a5819c3b1f754759e1ec36e51c7"
+      },
+      "output": "ABSENCE SWEEP for 'symmetric.mass.generation|Kitaev|Fidkowski|mirror.{0,40}(gap|decoupl)|Spin.{0,3}10.{0,25}(four.fermion|disorder)' -- 14 heads enumerated\n  audit/physical-bridge-2026-09-05                        8c5edc33  content:  12  filenames:  0\n      8c5edc33:docs/views/VERDICT_LEDGER.md\n      8c5edc33:frontier/B1174_z2_identification/arc_verdict.json\n      8c5edc33:frontier/B1174_z2_identification/b1174_results.json\n  main                                                    f06d3405  content:  11  filenames:  0\n      f06d3405:docs/views/VERDICT_LEDGER.md\n      f06d3405:frontier/B1174_z2_identification/arc_verdict.json\n      f06d3405:frontier/B1174_z2_identification/b1174_results.json\n  origin/audit/b775-braver-questions                      53da05f6  content:   8  filenames:  0\n      53da05f6:frontier/B218_metallic_anyon_selection/FINDINGS.md\n      53da05f6:frontier/B218_metallic_anyon_selection/jones_selection.py\n      53da05f6:frontier/B220_golden_chain_cft/FINDINGS.md\n  origin/audit/physical-bridge-2026-09-05                 8c5edc33  content:  12  filenames:  0\n      8c5edc33:docs/views/VERDICT_LEDGER.md\n      8c5edc33:frontier/B1174_z2_identification/arc_verdict.json\n      8c5edc33:frontier/B1174_z2_identification/b1174_results.json\n  origin/<seat>/new-session-qor5up                        3851df2a  content:   8  filenames:  0\n      3851df2a:frontier/B218_metallic_anyon_selection/FINDINGS.md\n      3851df2a:frontier/B218_metallic_anyon_selection/jones_selection.py\n      3851df2a:frontier/B220_golden_chain_cft/FINDINGS.md\n  origin/<seat>/outside-bench                             13d2c5b6  content:  11  filenames:  0\n      13d2c5b6:docs/views/VERDICT_LEDGER.md\n      13d2c5b6:frontier/B1174_z2_identification/arc_verdict.json\n      13d2c5b6:frontier/B1174_z2_identification/b1174_results.json\n  origin/<seat>/paper-review-verification-kaz3f5          cf12bd6e  content:  11  filenames:  0\n      cf12bd6e:docs/views/VERDICT_LEDGER.md\n      cf12bd6e:frontier/B1174_z2_identification/arc_verdict.json\n      cf12bd6e:frontier/B1174_z2_identification/b1174_results.json\n  origin/<seat>/paper-verification-ufp0zn                 5dde7b3e  content:  11  filenames:  0\n      5dde7b3e:docs/views/VERDICT_LEDGER.md\n      5dde7b3e:frontier/B1174_z2_identification/arc_verdict.json\n      5dde7b3e:frontier/B1174_z2_identification/b1174_results.json\n  origin/<seat>/physics-seat-evaluation-8dkbrl            659487bb  content:  14  filenames:  0\n      659487bb:docs/views/VERDICT_LEDGER.md\n      659487bb:frontier/B1174_z2_identification/arc_verdict.json\n      659487bb:frontier/B1174_z2_identification/b1174_results.json\n  origin/<seat>/standard-model-derivation-0qt6ao          23532539  content:  11  filenames:  0\n      23532539:docs/views/VERDICT_LEDGER.md\n      23532539:frontier/B1174_z2_identification/arc_verdict.json\n      23532539:frontier/B1174_z2_identification/b1174_results.json\n  origin/codex/seat-r001                                  f7a49536  content:   8  filenames:  0\n      f7a49536:frontier/B218_metallic_anyon_selection/FINDINGS.md\n      f7a49536:frontier/B218_metallic_anyon_selection/jones_selection.py\n      f7a49536:frontier/B220_golden_chain_cft/FINDINGS.md\n  origin/main                                             987c0c8f  content:  11  filenames:  0\n      987c0c8f:docs/views/VERDICT_LEDGER.md\n      987c0c8f:frontier/B1174_z2_identification/arc_verdict.json\n      987c0c8f:frontier/B1174_z2_identification/b1174_results.json\n  origin/paper/structure-genesis-first                    a31456d2  content:   8  filenames:  0\n      a31456d2:frontier/B218_metallic_anyon_selection/FINDINGS.md\n      a31456d2:frontier/B218_metallic_anyon_selection/jones_selection.py\n      a31456d2:frontier/B220_golden_chain_cft/FINDINGS.md\n  origin/sep16-branch                                     2795e46c  content:  11  filenames:  0\n      2795e46c:docs/views/VERDICT_LEDGER.md\n      2795e46c:frontier/B1174_z2_identification/arc_verdict.json\n      2795e46c:frontier/B1174_z2_identification/b1174_results.json\n  deleted-in-history paths matching: 0\n  working tree (untracked included): 12\n      docs/views/VERDICT_LEDGER.md\n      frontier/B1174_z2_identification/arc_verdict.json\n      frontier/B1174_z2_identification/b1174_results.json\n      frontier/B218_metallic_anyon_selection/FINDINGS.md\n      frontier/B218_metallic_anyon_selection/jones_selection.py\nVERDICT: PRESENT -- on 14 head(s), working tree. 'We don't have it' may NOT be written.\n"
+    },
+    {
+      "raw_basename": "oa_r33_native_first",
+      "raw_receipt_sha256": "bae9c8246e983c946d3959de2121725084459c995caae77d032733736ef321f4",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/mirror_interaction.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.628318000002764,
+        "log_bytes": 19493,
+        "log_sha256": "7319f030a555ba371c2230ea3afb7ec2859eb98a9af41baa40a53234b42a3d49"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NATIVE_FIRST.json"
+    },
+    {
+      "raw_basename": "oa_r33_tests_first",
+      "raw_receipt_sha256": "c54f64b81ae47611691b9119a1d2a97c11b5f1569568bee4f0fd6dd37a35dc70",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_interaction.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 5.767696000053547,
+        "log_bytes": 1248,
+        "log_sha256": "dfc342a256b3e8c18120c1e614d16071941842e7ca90d60fadd083b10569ff9e"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_TESTS_FIRST.txt"
+    },
+    {
+      "raw_basename": "oa_r33_focused_first",
+      "raw_receipt_sha256": "59a23c3d0787158586bf5db386a2ca6101edec19e1c13f049ab8c71bc1e32b07",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_interaction.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_source_c3.py",
+          "tests/test_physical_bridge_global_poisson.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 14.281862000003457,
+        "log_bytes": 1330,
+        "log_sha256": "b250992e0a651126ff5544dd80782eae7cccf55deec443c7bb7f8552b7579f2d"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_FOCUSED_FIRST.txt"
+    },
+    {
+      "raw_basename": "oa_r33_normal_form_native_first",
+      "raw_receipt_sha256": "007b732bd86446cfe11994211e129c7701c2428830342cef2256404550b024e5",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.7718190000159666,
+        "log_bytes": 939,
+        "log_sha256": "ab7fb97db97e5c075546f6a6d754c30afe7ea4425e71bb099e28f48da91b1fde"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NORMAL_FORM_FAILED.txt"
+    },
+    {
+      "raw_basename": "oa_r33_normal_form_v2_native_first",
+      "raw_receipt_sha256": "022f9cb3e73432288eb91ae8f243e3ceaac13cb07d33427f2c9696765dd31b04",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control_v2.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.8813000000081956,
+        "log_bytes": 842,
+        "log_sha256": "93aeca287271e972fa26bb035bc27ea5585c9bdbc47b37405b59ae7eb3cb4e32"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NORMAL_FORM_V2_FIRST.json"
+    },
+    {
+      "raw_basename": "oa_r33_normal_form_v2_tests_first",
+      "raw_receipt_sha256": "ef3ce4c09a0d5e9db71a6aacd3d7ac14e616f41f4c22591d7039e37b1bc18e2c",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.672383000026457,
+        "log_bytes": 98,
+        "log_sha256": "609c5f7496c9a43bbf924e6da6ea0a7a93582d21142b13476d8cece179f8d3d9"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NORMAL_FORM_V2_TESTS.txt"
+    },
+    {
+      "raw_basename": "oa_r33_focused_v2_first",
+      "raw_receipt_sha256": "27f920d81993157290600d3775ebc700d3dedb1b41af85aec8b31fd400af6a11",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_interaction.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_source_c3.py",
+          "tests/test_physical_bridge_global_poisson.py",
+          "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 14.902536000008695,
+        "log_bytes": 1330,
+        "log_sha256": "3848c0167e32395ab3b18db4c55d770ea4a35dcae0c00d94b494a173023d543e"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_FOCUSED_V2.txt"
+    }
+  ],
+  "focused_v2_population": [
+    "tests/test_physical_bridge_mirror_interaction.py",
+    "tests/test_physical_bridge_anomaly_completion.py",
+    "tests/test_physical_bridge_anomaly_action_control.py",
+    "tests/test_physical_bridge_source_c3.py",
+    "tests/test_physical_bridge_global_poisson.py",
+    "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py"
+  ],
+  "not_run": [
+    {
+      "population": "original normal-form-control six tests and expanded run",
+      "reason": "v1 native stopped on immutable negative-fixture mutation before a scientific verdict; separately sealed v2 supersedes execution, original files remain."
+    },
+    {
+      "population": "full repository / R31 broad 54-file population",
+      "reason": "not executed in R33; previous historical outcomes remain."
+    }
+  ]
+}

@@ -1,5 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
+**Latest local result, R33 (September 19): [charged mirror interactions](MIRROR_INTERACTION.md).**
+The actual subgroup admits a mirror Yukawa and a charge-four phase
+locking to a real Spin(10) vector. Exact full-generator and lattice
+checks pass; a nonzero complex vector alone need not gap every mode.
+The ordinary fermion coupling is also allowed, so selectivity and a
+symmetric quantum phase remain to be proved in the same source model.
+Native 9/9; expanded focused 110 pass / 2 retained comparison failures,
+diagnosed by a separately sealed six-test exact-residual control.
+No physical chirality closure, independent review, full green or TOE.
+
 **Latest local result, R32 (September 16): [the actual C3 source-mode projection](SOURCE_C3.md).**
 For the two nontrivial invariant flat characters, the singular three/zero
 kernel carries the regular C3 module; every honest scalar lift retains

@@ -1,0 +1,29 @@
+{
+  "all_checks_pass": true,
+  "rows": [
+    {
+      "changed_mass_rejected": true,
+      "exact_residual_zero": true,
+      "expanded_norm": 10,
+      "noncollinear_counterexample": true,
+      "original_structural_equality": false,
+      "rank": 16,
+      "raw_norm": "(1 - I)*(1 + I) + (2 - 2*I)*(2 + 2*I)",
+      "sign": 1,
+      "symbolic_collinear": true
+    },
+    {
+      "changed_mass_rejected": true,
+      "exact_residual_zero": true,
+      "expanded_norm": 10,
+      "noncollinear_counterexample": true,
+      "original_structural_equality": false,
+      "rank": 16,
+      "raw_norm": "(1 - I)*(1 + I) + (2 - 2*I)*(2 + 2*I)",
+      "sign": -1,
+      "symbolic_collinear": true
+    }
+  ],
+  "scope": "Exact residual and two-sided controls; original test expression and failed outputs are unchanged.",
+  "sympy_version": "1.14.0"
+}

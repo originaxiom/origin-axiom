@@ -1,0 +1,158 @@
+R33 reporting checkpoint, 2026-09-19.
+
+Original scientific seal c75647aa was pushed and remote-confirmed before
+execution. Native nine groups pass. Original tests 18 pass / 2 fail;
+fixed five-file run 104 pass / the same 2 fail. The two failures are
+structural symbolic-equality comparisons, diagnosed by a separately
+sealed exact residual and a symbolic two-parameter family.
+
+Control seal 878f6866 halted at native execution on mutation of an
+immutable negative fixture; its six-test and expanded runs were NOT RUN.
+V2 seal a2d52162 changes only the deliberate wrong-mass fixture to a
+mutable matrix. V2 native and six tests pass; expanded six-file run
+110 pass / the same 2 original fail. All originals remain unchanged.
+No test was deselected from the declared v2 population to hide a failure.
+
+No whole-repository/broad science run, independent proof review, quantum
+gap, numerical physical prediction, main banking or complete TOE claim.
+All old R31 failure/error IDs remain; unexecuted v1 tests would add debt
+to a full repository run. The literature inputs are personally read,
+not numerically reproduced or treated as a certificate for this model.
+
+A reporting assembly initially failed because an in-memory orchestration
+key was unavailable after continuation. It had made no file edits.
+The assembly was repeated from authoritative files; no science reran.
+Two attempted inspection paths did not exist; no missing science was
+inferred from those filename guesses.
+
+Reporting gates and byte-custody results follow after execution.
+
+First reporting outcomes: R33 custody PASSES (12 sealed files, 13 frozen
+inputs, 14 raw captures); cumulative prior custody PASSES (513 artifact
+paths, 122 distinct seals, the original 24 broad failed/error IDs intact).
+
+The first governance run is 25 PASS / 5 FAIL. One new failure is missing
+B-arc context in the five new LAW_MAP rows; those rows now explicitly
+cite actual parent/source prior, labelled as context rather than as
+the producer of the new R33 theorem. The other four categories persist:
+attribution, test-vacuity, old seal-provenance and relay debt. Relay debt
+has AGED from one to sixteen un-escalated stale rows, not stayed byte-
+identical to R32. Review is due at 173 merges. No baseline is waived,
+no foreign relay is closed by this seat, and none is called green.
+
+First captures:
+[
+  {
+    "raw_basename": "oa_r33_gates_first",
+    "receipt": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "<python3.12-env>/bin/python3.12",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 12.9389309999533,
+      "log_bytes": 2261,
+      "log_sha256": "af2ac12a9a3d046ac3470a568b4efeaa0cbd9e64d1c5a9e98f25bc11b62a8735"
+    },
+    "raw_receipt_sha256": "e08b943ea680da8ca99d4b728e2817a8436fc4e88cf6ffec82f7ace17f44515d",
+    "output": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 16 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 28 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 24 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  FAIL  law-map-provenance: LAW_MAP provenance -- 5 row(s) cite no arc: Actual H spinors admit a globally allowe; Real and complex vector Yukawa gaps have; Charge-four phase gives a covariant real\n  PASS  atlas-lexicon-current: ok\n  review-due: 173 merges since last review (DUE — run the decadal review)\n"
+  },
+  {
+    "raw_basename": "oa_r33_custody_first",
+    "receipt": {
+      "command": [
+        "ruby",
+        "-EUTF-8:UTF-8",
+        "reports/physical_bridge_2026_09_05/mirror_interaction_receipt_check.rb",
+        "<raw-directory>"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.0864610000280663,
+      "log_bytes": 392,
+      "log_sha256": "9de139497dd97e55fb3cb5084851c6cc1038fcc88953285c8b8b4459eacb378d"
+    },
+    "raw_receipt_sha256": "de4cde259dc339badd3ead82b32e59978d4192df5428568c7a78db56ce75ba68",
+    "output": "{\"sealed_science_paths\":12,\"frozen_inputs\":13,\"raw_captures\":14,\"native_groups\":9,\"original_tests\":\"18 pass / 2 fail\",\"first_focused\":\"104 pass / 2 fail\",\"correction_tests\":\"6 pass\",\"expanded_focused\":\"110 pass / same 2 fail\",\"halted_control\":\"v1 immutable fixture preserved; its tests NOT RUN\",\"scope\":\"Byte custody and fixed populations, not independent proof, quantum gap or full green.\"}\n"
+  },
+  {
+    "raw_basename": "oa_r33_prior_custody_first",
+    "receipt": {
+      "command": [
+        "ruby",
+        "-EUTF-8:UTF-8",
+        "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+        "<raw-directory>"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.012644000002183,
+      "log_bytes": 616,
+      "log_sha256": "1a2a74fe321537ad11bf4eaa92e48f030d6474fbd6f48d62f9d97cf23cc0af3c"
+    },
+    "raw_receipt_sha256": "4a3ef6e8db37ab2c38468cb5040ea29c55ae1f37353d5cd35ccafecb427dfc2e",
+    "output": "{\"old_custody\":{\"artifacts\":513,\"latest_distinct_seals\":122,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":116,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+  }
+]
+
+Follow-up governance: 26 PASS / 4 FAIL. The new law-map provenance
+failure is repaired; the four reported categories remain, including
+the aged sixteen-row relay debt. The separate identification audit
+returns exit zero, 24 parsed shared rows, nine UNEARNED and baseline
+nine. The path-local representation-map note does not reassign an
+I-number or upgrade a physical identification. This metadata check
+was run at reporting, not before the R33 algebra; that timing is a
+protocol debt, not a reason to imply independent pre-compute review.
+
+[
+  {
+    "raw_basename": "oa_r33_gates_followup",
+    "receipt": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "<python3.12-env>/bin/python3.12",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 12.598930999985896,
+      "log_bytes": 2095,
+      "log_sha256": "4b6cec8dc94a9a64c4cef13b51e3fee23c33832cc943c155c6455cbc08b05af1"
+    },
+    "raw_receipt_sha256": "818948df5c0c8b277da7d812328f701a46f20e9a37cdd2bbdc2ded1ba0256717",
+    "output": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 16 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 28 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 24 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 173 merges since last review (DUE — run the decadal review)\n"
+  },
+  {
+    "raw_basename": "oa_r33_identification_audit_first",
+    "receipt": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "<python3.12-env>/bin/python3.12",
+        "scripts/checks/identification_audit.py"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.05597299989312887,
+      "log_bytes": 442,
+      "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+    },
+    "raw_receipt_sha256": "bea091abab1e0742e6e52fd9a6fce42d9aa12e9db7cfa951fdae8abaf2516d86",
+    "output": "identification ledger: 24 rows -- docs/IDENTIFICATION_LEDGER.md\n  EARNED      8   I-1 I-2 I-3 I-12 I-19 I-20 I-21 I-22\n  REFUTED     7   I-4 I-5 I-8 I-15 I-16 I-17 I-24\n  UNEARNED    9   I-6 I-7 I-9 I-10 I-11 I-13 I-14 I-18 I-23\n\n  UNEARNED = 9   <- these are UNPRICED OBSERVER INPUTS (B1225: the object cannot identify)\n  the input ledger's parameter count is a LOWER BOUND while any row is UNEARNED.\n  ratchet baseline: 9   current: 9   OK\n"
+  }
+]
+
+Final read-only custody repeats PASS for R33, R31 and R32. The strict
+staged whitespace check flags six pytest-generated trailing-space lines
+in the three original failed-test transcripts. These byte-faithful
+captures are deliberately preserved, not reformatted. The separate
+non-capture-path whitespace check excludes only those three transcripts;
+its scope is not represented as a clean unqualified whitespace check.

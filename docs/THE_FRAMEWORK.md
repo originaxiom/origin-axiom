@@ -1,5 +1,18 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**LATEST LOCAL RESULT, 2026-09-19 (R33): an interacting candidate.**
+The actual quotient-parent subgroup admits S=10_2 and Phi=1_4 with
+a mirror Yukawa and gauge-covariant phase locking to a real vector.
+Exact weights and full generators are checked. The symmetry also
+allows the ordinary-sector coupling; an ordered vector breaks
+Spin(10), and complex norm alone is not a full-rank mass criterion.
+Quantum gap, selective overlaps, source backreaction and anomaly
+matching remain OPEN, not disproved. Native 9/9; focused successor
+110 pass / 2 original comparison failures, with a separately sealed
+exact-residual diagnosis and six passing corrective tests.
+No full green, independent acceptance, main bank or completed TOE.
+Report: reports/physical_bridge_2026_09_05/MIRROR_INTERACTION.md.
+
 **LATEST LOCAL RESULT, 2026-09-16 (R32): source-C3 spectrum, not just symmetry order.**
 In the prescribed strong singular model, either nontrivial invariant
 flat character gives a regular C3 module of three source modes. Every

@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-09-19 — R33 supplies a charged mirror-interaction candidate, not a quantum gap
+
+The actual H-subgroup weights admit S=10_2, Phi=1_4 and the mirror
+Yukawa S chi chi. An explicit D5 map and 900 generator identities
+check the representation identification; phase locking supplies a
+gauge-covariant real vector bundle with full pointwise Yukawa rank.
+A complex nonzero vector alone can instead have rank eight.
+
+The same symmetry permits the ordinary-sector coupling. An ordered
+scalar breaks Spin(10), and a fixed Majorana-plus-Dirac control leaves
+no unpaired zero mode. Quantum disorder, selective normalized
+overlaps, source backreaction and full anomaly matching remain open.
+This advances the interacting completion duty beyond R32's linear
+projection without declaring chirality solved or killing the route.
+
+Original seal c75647aa: native 9/9, original tests 18 pass / 2 fail,
+focused 104 pass / same 2 fail. A separately sealed exact-residual
+control diagnoses symbolic structural-equality failures; its first
+immutable-fixture error is preserved. V2's six tests pass; expanded
+focused run 110 pass / same 2 fail. No full green, independent proof
+review, shared B, main bank or completed TOE. Four primary papers
+were personally read and new branch positives retained with scopes.
+Report: reports/physical_bridge_2026_09_05/MIRROR_INTERACTION.md.
+
 ## 2026-09-16 — R32 computes the source-C3 module and retained partners
 
 The actual nontrivial invariant flat characters give a regular C3 module

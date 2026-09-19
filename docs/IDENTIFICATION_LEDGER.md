@@ -83,3 +83,16 @@ does. Every other UNEARNED row is a local debt. This one is the programme's.
 was presented as the *restriction-free recovery* from I-6's family of error, and it replaced a
 **stated** restriction (two-character) with an **unstated** identification — worse, because the
 restriction was visible.
+
+## Path-local R33 representation identification, 2026-09-19
+
+No shared I-number or physical status is reassigned. The following
+scoped algebraic map is explicitly supplied, not inferred by dimension.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| R19 actual charged E6 adjoint weights / canonical D5 chiral-spinor weights | w maps to B^-1(Cw)[1:], with B rows e4+e5,e4-e5,e3-e4,e2-e3,e1-e2 | B B^t equals the D5 Cartan matrix, both complete chiral weight sets match, H lattice membership and 900 Yukawa generator equations hold | EARNED as an algebraic representation map on the declared H subgroup only; not a physical Weyl field, a quantum mass gap, or an object-selected source |
+
+Report reports/physical_bridge_2026_09_05/MIRROR_INTERACTION.md and its proof sections 1--2. This does not earn
+I-10, I-13 or the boundary-count-to-physical-chirality identification.
+R21's global subgroup map remains the prerequisite.
