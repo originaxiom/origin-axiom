@@ -689,3 +689,14 @@ Not a quantum phase, source-selected coupling or chirality certificate.
 | `reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_INPUTS.json` | `1480e41577c3c90c801dbf57aab85dba26b1e5d4a7a846a36d41f37b0d9ec1b6` |
 | `reports/physical_bridge_2026_09_05/mirror_quartic.py` | `34db1bc23a5a534879605f2a58e0e7ce4989192611abefca2d6f3b4b72cfac3b` |
 | `tests/test_physical_bridge_mirror_quartic.py` | `eda62f6d417e4d66fcf80025776b12794ca4d2c892c32451c031bf1a3d4445c8` |
+
+## Path-local R34 rational normal-form control, 2026-09-19 — before execution
+
+Original failed comparison and files retained. Exact residuals and
+wrong-coefficient/domain rejectors, not an erased failure or a quantum gap.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_DESIGN.md` | `e6268d0e62481512c618d9c72272599801815afe1928b5c646410acdf3a1271a` |
+| `reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control.py` | `5d50041ed10ee850745de6f67a4ce627fd4b0abf3c4f385511706a3ad0d8b765` |
+| `tests/test_physical_bridge_mirror_quartic_normal_form_control.py` | `ccfa8351cf91ba7a6a2a68cd93ce1aa1cc6ad4ac8d0d7faf76651a3015b70937` |
