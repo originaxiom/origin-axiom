@@ -1,0 +1,250 @@
+{
+  "scope": "Exact auxiliary Gaussian matching and local algebra; not a quantum mass gap or chirality.",
+  "checks": {
+    "nonzero_Grassmann_both": true,
+    "independent_coefficients": true,
+    "gauge_and_Lorentz": true,
+    "fermion_and_omission_controls": true,
+    "Gaussian_matching": true,
+    "all_allowed_channels": true,
+    "stable_and_unstable": true,
+    "measure_retained": true,
+    "continuous_phase_accounting": true
+  },
+  "all_checks_pass": true,
+  "exterior": {
+    "1": {
+      "nonzero": true,
+      "monomials": 240,
+      "all_coefficients_match_minors": true,
+      "witness": {
+        "indices": [
+          0,
+          1,
+          30,
+          31
+        ],
+        "coefficient": -32,
+        "permutation_coefficient": -32
+      },
+      "ward_count": 45,
+      "ward_all": true,
+      "lorentz_all": true,
+      "two_up_two_down": true,
+      "commuting_single_spinor_zero": true,
+      "omitted_components_rejected": true
+    },
+    "-1": {
+      "nonzero": true,
+      "monomials": 240,
+      "all_coefficients_match_minors": true,
+      "witness": {
+        "indices": [
+          0,
+          1,
+          30,
+          31
+        ],
+        "coefficient": -32,
+        "permutation_coefficient": -32
+      },
+      "ward_count": 45,
+      "ward_all": true,
+      "lorentz_all": true,
+      "two_up_two_down": true,
+      "commuting_single_spinor_zero": true,
+      "omitted_components_rejected": true
+    }
+  },
+  "gaussian": {
+    "symbols": {
+      "r": "r",
+      "kappa": "kappa",
+      "Phi": "Phi",
+      "Phi_bar": "Phi_bar",
+      "J": "J",
+      "J_bar": "J_bar",
+      "f": "f",
+      "B_m": "B_m",
+      "B_m_bar": "B_m_bar",
+      "B_p": "B_p",
+      "B_p_bar": "B_p_bar",
+      "y_m": "y_m",
+      "y_m_bar": "y_m_bar",
+      "y_p": "y_p",
+      "y_p_bar": "y_p_bar"
+    },
+    "determinant": "-4*Phi*Phi_bar*kappa**2 + r**2",
+    "effective": "(-J**2*Phi*kappa - J*J_bar*r - J_bar**2*Phi_bar*kappa)/(-4*Phi*Phi_bar*kappa**2 + r**2)",
+    "numerator": "-4*B_m**2*Phi**2*Phi_bar*kappa**3*y_m**2/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_m**2*Phi*kappa*r**2*y_m**2/(-4*Phi*Phi_bar*kappa**2 + r**2) - 4*B_m*B_m_bar*Phi*Phi_bar*kappa**2*r*y_m*y_m_bar/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_m*B_m_bar*r**3*y_m*y_m_bar/(-4*Phi*Phi_bar*kappa**2 + r**2) - 4*B_m*B_p*Phi*Phi_bar*kappa**2*r*y_m*y_p/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_m*B_p*r**3*y_m*y_p/(-4*Phi*Phi_bar*kappa**2 + r**2) - 8*B_m*B_p_bar*Phi**2*Phi_bar*kappa**3*y_m*y_p_bar/(-4*Phi*Phi_bar*kappa**2 + r**2) + 2*B_m*B_p_bar*Phi*kappa*r**2*y_m*y_p_bar/(-4*Phi*Phi_bar*kappa**2 + r**2) - 4*B_m_bar**2*Phi*Phi_bar**2*kappa**3*y_m_bar**2/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_m_bar**2*Phi_bar*kappa*r**2*y_m_bar**2/(-4*Phi*Phi_bar*kappa**2 + r**2) - 8*B_m_bar*B_p*Phi*Phi_bar**2*kappa**3*y_m_bar*y_p/(-4*Phi*Phi_bar*kappa**2 + r**2) + 2*B_m_bar*B_p*Phi_bar*kappa*r**2*y_m_bar*y_p/(-4*Phi*Phi_bar*kappa**2 + r**2) - 4*B_m_bar*B_p_bar*Phi*Phi_bar*kappa**2*r*y_m_bar*y_p_bar/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_m_bar*B_p_bar*r**3*y_m_bar*y_p_bar/(-4*Phi*Phi_bar*kappa**2 + r**2) - 4*B_p**2*Phi*Phi_bar**2*kappa**3*y_p**2/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_p**2*Phi_bar*kappa*r**2*y_p**2/(-4*Phi*Phi_bar*kappa**2 + r**2) - 4*B_p*B_p_bar*Phi*Phi_bar*kappa**2*r*y_p*y_p_bar/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_p*B_p_bar*r**3*y_p*y_p_bar/(-4*Phi*Phi_bar*kappa**2 + r**2) - 4*B_p_bar**2*Phi**2*Phi_bar*kappa**3*y_p_bar**2/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_p_bar**2*Phi*kappa*r**2*y_p_bar**2/(-4*Phi*Phi_bar*kappa**2 + r**2)",
+    "stationary_residuals": [
+      0,
+      0
+    ],
+    "stationary_value_matches": true,
+    "inverse_matches": true,
+    "hessian_determinant_matches": true,
+    "gaussian_log_coefficient": 5,
+    "monomials": [
+      {
+        "powers": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "Phi*kappa*y_m**2"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "r*y_m*y_m_bar"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "r*y_m*y_p"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "2*Phi*kappa*y_m*y_p_bar"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "coefficient": "Phi_bar*kappa*y_m_bar**2"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": "2*Phi_bar*kappa*y_m_bar*y_p"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "coefficient": "r*y_m_bar*y_p_bar"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "coefficient": "Phi_bar*kappa*y_p**2"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "coefficient": "r*y_p*y_p_bar"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "coefficient": "Phi*kappa*y_p_bar**2"
+      }
+    ],
+    "full_H_charge_residual": 0,
+    "wrong_Phi_conjugation_rejected": true,
+    "stable_control_eigenvalues": [
+      1,
+      5
+    ],
+    "unstable_control_eigenvalues": [
+      -1,
+      3
+    ],
+    "singular_control": 0
+  },
+  "phases": {
+    "matrix": [
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        -1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        -1
+      ]
+    ],
+    "rank": 3,
+    "kernel": [
+      [
+        [
+          "1/4"
+        ],
+        [
+          "-1/4"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          1
+        ]
+      ]
+    ],
+    "gauge_phase_annihilated": true,
+    "without_ordinary_yukawa_rank": 3,
+    "without_locking_rank": 2,
+    "without_ordinary_and_mixing_rank": 2,
+    "bare_mirror_quartic_charge": -4,
+    "Phi_completed_quartic_charge": 0,
+    "mirror_phase_degree": 4,
+    "bilinear_dimension": 3,
+    "quartic_dimension": 6,
+    "Phi_quartic_dimension": 7,
+    "conserving_coefficient_dimension": -2,
+    "breaking_coefficient_dimension": -3
+  },
+  "elapsed_seconds": 4.37504903099034
+}

@@ -3063,3 +3063,23 @@ treatment, including possible symmetry-breaking or flavour lifts.
 R19 singular, R31 resolved and the newly received nonsemisimple
 class/tower indices remain distinct. No whole-program absence claim
 or universal no-go follows. Report: reports/physical_bridge_2026_09_05/MIRROR_INTERACTION.md.
+
+### PB-BOUNDARY / PB-ACTION, 2026-09-19: R34 local interaction matching
+
+R33 duty (b) is now answered in the declared ADDED Gaussian scalar
+model: the actual Grassmann Q is nonzero and invariant, and Phi Q
+gives a mirror-number-changing operator. The commuting-spinor
+cancellation does not carry over. The same integration generates
+ordinary-sector terms when the allowed coupling is present.
+Closing sentence, scoped to that sub-duty only: "This answers
+R33's local induced-operator question positively." Report:
+reports/physical_bridge_2026_09_05/MIRROR_QUARTIC.md.
+
+Retain (a) source/form origin and normalized overlaps of BOTH partners,
+(c) symmetry-preserving quantum phase with composite/current and
+volume/cutoff controls, and (d) source/end backreaction, anomaly and C3
+completion. In particular R31's cutoff trials are NOT exact eigenstates.
+The stable auxiliary calculation is tree-level matching, not a quantum
+completion, for a propagating self-interacting scalar. Its pole is a
+light scalar to retain, not evidence of strong mirror gapping.
+No unearned global closure or all-history absence claim follows.

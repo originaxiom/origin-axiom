@@ -15051,3 +15051,29 @@ focused run 110 pass / same 2 fail. No full green, independent proof
 review, shared B, main bank or completed TOE. Four primary papers
 were personally read and new branch positives retained with scopes.
 Report: reports/physical_bridge_2026_09_05/MIRROR_INTERACTION.md.
+
+## 2026-09-19 — R34 computes a genuine induced fermion interaction, not mirror removal
+
+The proposed charged scalar produces a nonzero Spin(10)- and Lorentz-
+invariant four-fermion operator with mirror phase degree four; Phi
+supplies the missing gauge charge. Every Grassmann coefficient is
+checked independently, and all generators act trivially. The commuting
+single-spinor polynomial instead vanishes: its Fierz cancellation
+cannot kill the fermion operator. No physical count comes from the
+240 basis monomials or the convention-dependent coefficient -32.
+
+Exact auxiliary Gaussian elimination gives the interaction, all ten
+bilinear-channel coefficients and its field-dependent determinant.
+For a propagating scalar this is only leading tree-level matching.
+The same symmetry permits ordinary-sector terms; a diverging coefficient
+at a massless-scalar threshold is not controlled evidence of a gap.
+Normalized geometric selectivity and a fully interacting phase remain next.
+
+Seal 77fdcc15: native nine groups pass, original tests 16 pass / 1 fail,
+focused 126 pass / 3 fail. Exact-residual control fce21ad7 diagnoses the
+uncancelled rational expression but its tests expose an input-type guard
+bug (8 pass / 1 fail). V2 c1c5cf77 validates operands before subtraction;
+nine tests pass. Final nine-file focused: 143 pass / all four prior
+failures retained. No full green, independent acceptance, main bank,
+shared B number, physical chirality closure or completed TOE.
+Report: reports/physical_bridge_2026_09_05/MIRROR_QUARTIC.md.

@@ -1,5 +1,17 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**LATEST LOCAL RESULT, 2026-09-19 (R34): a nonzero number-changing interaction.**
+Exact Grassmann algebra gives a nonzero Spin(10)/Lorentz invariant
+four-fermion operator, while the commuting-spinor comparator vanishes.
+Integrating the added charged scalar generates Phi times that operator;
+ordinary and mixed couplings remain allowed. Exact auxiliary Gaussian
+matching, only tree-level quartic matching for a propagating scalar:
+not mirror-selective gapping, a quantum phase or physical chirality.
+Native nine groups pass; final focused 143 pass / four retained failures,
+with separately sealed exact-residual and input-guard controls.
+No full green, independent acceptance, main bank or completed TOE.
+Report: reports/physical_bridge_2026_09_05/MIRROR_QUARTIC.md.
+
 **LATEST LOCAL RESULT, 2026-09-19 (R33): an interacting candidate.**
 The actual quotient-parent subgroup admits S=10_2 and Phi=1_4 with
 a mirror Yukawa and gauge-covariant phase locking to a real vector.

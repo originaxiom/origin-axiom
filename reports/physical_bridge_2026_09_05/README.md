@@ -1,5 +1,15 @@
 # Physical bridge audit — 2026-09-05
 
+**Latest local result, R34 (September 19): [induced four-fermion interactions](MIRROR_QUARTIC.md).**
+The actual Grassmann operator is nonzero and invariant; its commuting-
+spinor comparator vanishes. Charged-scalar elimination supplies a
+mirror-number-changing term, but also permits ordinary-sector coupling.
+This completes local operator matching, not selective quantum gapping.
+Native nine groups pass; final focused 143 pass / four preserved failures;
+separately sealed residual and input-guard diagnostics establish their
+scope. Source-derived normalized overlaps and the interacting phase
+remain next. No full green, independent bank, physical chirality or TOE.
+
 **Latest local result, R33 (September 19): [charged mirror interactions](MIRROR_INTERACTION.md).**
 The actual subgroup admits a mirror Yukawa and a charge-four phase
 locking to a real Spin(10) vector. Exact full-generator and lattice

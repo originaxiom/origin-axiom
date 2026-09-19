@@ -96,3 +96,17 @@ scoped algebraic map is explicitly supplied, not inferred by dimension.
 Report reports/physical_bridge_2026_09_05/MIRROR_INTERACTION.md and its proof sections 1--2. This does not earn
 I-10, I-13 or the boundary-count-to-physical-chirality identification.
 R21's global subgroup map remains the prerequisite.
+
+## Path-local R34 exterior-algebra continuation, 2026-09-19
+
+R33's explicit H/D5 map is reused, not reidentified by a dimension.
+The proposed invariant line maps into the actual 32-generator
+Grassmann algebra by 1 -> Q=sum_a(theta^t(epsilon tensor Y_a)theta)^2.
+Every coefficient is cross-checked by an independent minors formula;
+a nonzero coefficient proves that this one-dimensional map is
+nonzero/injective. All 45 D5 and three Lorentz generators annihilate Q.
+This earns the local algebraic invariant, not its identification as
+a mass gap or three physical generations. The commuting-spinor
+polynomial is explicitly a different tensor symmetry type.
+No shared I-number or physical status is reassigned.
+Report reports/physical_bridge_2026_09_05/MIRROR_QUARTIC.md.

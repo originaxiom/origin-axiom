@@ -1,0 +1,98 @@
+R34 reporting checkpoint, 2026-09-19.
+
+Original seal 77fdcc15; separately sealed diagnostics fce21ad7 and
+c1c5cf77. All were pushed and remote-confirmed before execution.
+Original nine native groups pass. Original tests 16 pass / 1 fail;
+seven-file focused 126 pass / 3 fail. V1 exact residuals pass, but
+tests 8 pass / 1 fail on a guard applied after type-erasing subtraction.
+Its eight-file focused run was started before this failure was read,
+and gives 134 pass / 4 fail. That scheduling deviation is disclosed.
+
+V2 changes only operand validation timing. Native controls and nine
+tests pass. Final nine-file focused run gives 143 pass / exactly the
+same four failed IDs. No original test was deselected or overwritten.
+R33's halted v1 test file remains outside the declared population;
+no new broad/full-suite or independent proof acceptance is claimed.
+
+One raw-receipt assembly failed from shell quoting before any disk edit.
+It was corrected by reading the existing authoritative raw files;
+no science was rerun. A guessed roadmap filename in retrieval did not
+exist; the actual dated roadmap was located. No absence was inferred.
+
+Reporting checks and cumulative byte-custody outcomes follow below.
+
+Reporting checks PASS for R34 byte custody: 12 sealed paths, 16 frozen
+inputs, 12 raw captures, all four focused failures retained. Cumulative
+prior custody PASSES: 538 artifact paths, 134 distinct seals, the old
+R30/R31 science and all 24 historical broad failed/error IDs unchanged.
+
+Governance: 26 PASS / 4 FAIL, the same categories as R33: attribution,
+two old test-vacuity entries, old seal-provenance debt and sixteen
+un-escalated stale relays. The review counter has advanced to 177,
+not remained at 173. No gate baseline is waived or foreign relay closed.
+
+Strict staged whitespace check flags six pytest-generated trailing-space
+lines in the three R34 focused transcripts. They remain byte-faithful.
+The separate check excluding exactly MIRROR_QUARTIC_FOCUSED_FIRST.txt,
+MIRROR_QUARTIC_FOCUSED_CONTROL_FIRST.txt and
+MIRROR_QUARTIC_FOCUSED_CONTROL_V2.txt passes. No unqualified clean
+whitespace or whole-repository certificate is claimed.
+
+[
+  {
+    "raw_basename": "oa_r34_custody_first",
+    "receipt": {
+      "command": [
+        "ruby",
+        "-EUTF-8:UTF-8",
+        "reports/physical_bridge_2026_09_05/mirror_quartic_receipt_check.rb",
+        "<raw-directory>"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.17757000005804,
+      "log_bytes": 340,
+      "log_sha256": "476cc96c51bae67700f22e3d2b8cdad5fd8c609e8f93dc181185d60c4e992609"
+    },
+    "raw_receipt_sha256": "a9ce48b7ac624c33d70f58ae1cde88d1a57b222a49432e6ddb5eb5aece213796",
+    "output": "{\"sealed_paths\":12,\"frozen_inputs\":16,\"raw_captures\":12,\"native_groups\":9,\"new_tests\":\"16 pass / 1 fail\",\"control_v1\":\"8 pass / 1 fail\",\"control_v2\":\"9 pass\",\"final_focused\":\"143 pass / all 4 previous failures retained\",\"focused_files\":9,\"scope\":\"Byte custody and fixed outcomes, not independent proof, a quantum mass gap, or full green.\"}\n"
+  },
+  {
+    "raw_basename": "oa_r34_gates_first",
+    "receipt": {
+      "command": [
+        "env",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "<python3.12-env>/bin/python3.12",
+        "scripts/gates/gates.py"
+      ],
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 13.842564000049606,
+      "log_bytes": 2095,
+      "log_sha256": "549af1784b85bb574b4cfa6a95b8335e151cb3590b5c5539284cc95e4914b94e"
+    },
+    "raw_receipt_sha256": "1919c4da4c83c98eaaebac28a5915e289d4856fcb9fd015b75301297f8e6fb6d",
+    "output": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 16 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 28 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 24 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 177 merges since last review (DUE — run the decadal review)\n"
+  },
+  {
+    "raw_basename": "oa_r34_prior_custody_first",
+    "receipt": {
+      "command": [
+        "ruby",
+        "-EUTF-8:UTF-8",
+        "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+        "<raw-directory>"
+      ],
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 1.1432349999668077,
+      "log_bytes": 616,
+      "log_sha256": "4a821651ac7d91a009690f3f9190468261257fb03098ca61aa5e3539f2fdc730"
+    },
+    "raw_receipt_sha256": "f0b327ffaa4c58c1765846838b0c9e5715e103cb1c96dd7662a9816dbb3acf1b",
+    "output": "{\"old_custody\":{\"artifacts\":538,\"latest_distinct_seals\":134,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":121,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+  }
+]

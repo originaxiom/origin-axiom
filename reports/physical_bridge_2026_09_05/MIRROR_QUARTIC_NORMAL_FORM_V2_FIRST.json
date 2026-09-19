@@ -1,0 +1,21 @@
+{
+  "all_checks_pass": true,
+  "row": {
+    "original_structural_equality": false,
+    "exact_mirror_residual": 0,
+    "full_numerator_residual": 0,
+    "zero_kappa_residual": 0,
+    "zero_Phi_residual": 0,
+    "changed_coefficient_rejected": true,
+    "stable_inverse_values": [
+      "1/5",
+      "1/9",
+      1
+    ],
+    "singular_and_unstable_rejected": true,
+    "normalized_numerator": "B_m**2*Phi*kappa*y_m**2 + B_m*B_m_bar*r*y_m*y_m_bar + B_m*B_p*r*y_m*y_p + 2*B_m*B_p_bar*Phi*kappa*y_m*y_p_bar + B_m_bar**2*Phi_bar*kappa*y_m_bar**2 + 2*B_m_bar*B_p*Phi_bar*kappa*y_m_bar*y_p + B_m_bar*B_p_bar*r*y_m_bar*y_p_bar + B_p**2*Phi_bar*kappa*y_p**2 + B_p*B_p_bar*r*y_p*y_p_bar + B_p_bar**2*Phi*kappa*y_p_bar**2",
+    "domain": "Rational identities at D != 0; convergent scalar elimination only for r > 2 abs(kappa Phi)."
+  },
+  "sympy_version": "1.14.0",
+  "scope": "Exact rational-expression diagnostic, not a new interaction or quantum result."
+}

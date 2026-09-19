@@ -1,0 +1,352 @@
+{
+  "scope": "Byte custody, exact populations and preserved failures, not independent proof or a quantum phase.",
+  "seals": [
+    {
+      "pin": "77fdcc15c3fdbe9962d7d970b780f6d8ea9e5dfd",
+      "paths": [
+        "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_DESIGN.md",
+        "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_PROOF.md",
+        "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_PRIOR.md",
+        "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_INPUTS.json",
+        "reports/physical_bridge_2026_09_05/mirror_quartic.py",
+        "tests/test_physical_bridge_mirror_quartic.py"
+      ]
+    },
+    {
+      "pin": "fce21ad79597d80188ee1e0aec022250a461a049",
+      "paths": [
+        "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_DESIGN.md",
+        "reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control.py",
+        "tests/test_physical_bridge_mirror_quartic_normal_form_control.py"
+      ]
+    },
+    {
+      "pin": "c1c5cf77ebad8e1e3c6d17ae8d41c3885c6b1daf",
+      "paths": [
+        "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_V2_DESIGN.md",
+        "reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control_v2.py",
+        "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "raw_basename": "oa_r34_banked_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "quartic",
+          "Grassmann",
+          "Fierz",
+          "mirror",
+          "fermion"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.43705999990925193,
+        "log_bytes": 3601,
+        "log_sha256": "6483c81338f83dfd0b61bf5d277fd7092e0483e952d70b64318454721ff68d04"
+      },
+      "raw_receipt_sha256": "5ab7830aa07aa41e695594a46f80f2bed70e124fa610ecfcd41a9be486b14f88",
+      "output": "already-banked: terms ['quartic', 'grassmann', 'fierz', 'mirror', 'fermion']\n  102 corpus hits; 0 SETTLED arcs matching >= 3 of 5 terms\n  *** [ 2 terms] PROVED    B1148_carrier_harvest\n           THE CARRIER HARVEST: cloud memos 41-48 (origin/outside-bench d3c99640) verified by REPRODUCTION -- all 8 self-contained certificates re-run on this bench's pyenv reproduce byte-identical. The batch builds toward the inte\n  *** [ 1 terms] PROVED    B1011_mckay_tensor\n           THE HEARING DATA IS McKAY TENSOR McKAY: rho_6 = (chi x V2(2I)) + (V2(2T) x V2(2I)) EXACTLY -- sealed fc807f11, declared prior OUTCOME A, HELD AT EVERY CELL, no verdict line resting on a float. An incoming chat1 derivatio\n  *** [ 1 terms] PROVED    B1012_branch_verifications\n           TWO BRANCH RESULTS VERIFIED EXACTLY (integrate-don't-merge, cc3 branch at 59d9f26f, 66 commits past B921's harvest head), AND THE HARVEST REGISTERED SO NOTHING GOES SILENT. (1) K-BLINDNESS VERIFIED WITH A SHARPENING: Guk\n  *** [ 1 terms] PROVED    B1020_kind_rg_ledgers\n           THE TWO ADMISSIBILITY LEDGERS -- what a crossing MAY compare, settled before any value is looked at: docs/KIND_TABLE.md (living), Part 1 the KIND TABLE (R5's table), Part 2 the RG TAXONOMY (R2's). Every object-side row t\n  *** [ 1 terms] PROVED    B1025_input_derivability\n           L155, THE INPUT-DERIVABILITY AUDIT: THREE SURVIVE, TWO NARROW -- AND THE 'LIE-VALUED INPUT' DISSOLVES INTO UNIQUE LINES. Sealed 8def4962 with per-input priors; the sigma-pattern run against every counted input; every joi\n  *** [ 1 terms] NEGATIVE  B1027_fourth_crossing\n           THE FOURTH CROSSING -- ALL-MISS, POWERED IN BOTH SECTORS, AND THE LEPTONIC MARGIN IS ONE DEGREE. Sealed c58c8a88 BEFORE any data contact, pushed at 55b9bf9b; declared prior MISS -- HELD; zero anchors consumed; 2 bits pri\n  *** [ 1 terms] PROVED    B1029_invariant_ring\n           THE INVARIANT RING OF THE FRAME ACTION (Lane III-1, sealed 9a46975f before compute): on the banked value family h = chi(A) * (1/2) tr V2(B), REVERSAL ACTS IDENTICALLY TO CONJUGATION (unitary characters conjugate under in\n  *** [ 1 terms] PROVED    B1032_type_law\n           THE TYPE LAW (the construction seat's Phase-1b resolution bound VERIFIED AS AMENDED against the entire banked dimensionless coupling inventory, from 2T/2I character tables computed in-arc): the five tones ARE bare normal\n  *** [ 1 terms] PROVED    B1036_mirror_double\n           THE MIRROR-DOUBLE (plan Arc 2, sealed a10ae240 pre-compute): THE DOUBLE GAINS CLASSES, NOT THE SYMMETRIC PAIRING. V2 + cross-gate: h1(dbl; 27) = 5 = 2+2+1 against the solo 3, by TWO INDEPENDENT ROUTES agreeing blockwise \n  *** [ 1 terms] PROVED    B1039_v_valued_residual\n           THE V-VALUED RESIDUAL (L157-1, sealed 874d9eee pre-compute): EXISTENCE NO, PRIOR HELD -- all fifteen symmetric pairs of the double's five classes, on both sides and in the MV difference, are EXACTLY ZERO under the functi\n  *** [ 1 terms] PROVED    B1043_triple_assembly\n           PM2 / L157-4, the triple assembly (sealed 575ad81b pre-compute; the algebraic triangle graph-of-groups -- manifold cyclic welds of one-cusped pieces impossible, stated at seal; rho(t)=1 declared): h1(triple;27) = 10 = 7 \n  *** [ 1 terms] NEGATIVE  B1063_refresh_verdict\n           THE B1027 REFRESH EXECUTES (the pre-committed re-run, zero freedom, against NuFIT 6.0 Table 1 read from the PDF on this bench): MISS in ALL FOUR variants against BOTH targets (240: 44/17/2/9 degrees outside the 1-sigma i\n\n  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).\n"
+    },
+    {
+      "raw_basename": "oa_r34_atlas_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/atlas/query.py",
+          "card",
+          "quartic mirror fermions"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.06994899990968406,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "raw_receipt_sha256": "2204c858ad32a232610437ef00e5b90e30fc0addb2431fe846347ee1d0cee386",
+      "output": "THE RECURRENCE ATLAS -- context card\n  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}\n  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur\n  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)\n  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422\n  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral\n  top meeting-point candidates: B530, B156, B521, B309, B598, B1189\n  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())\n"
+    },
+    {
+      "raw_basename": "oa_r34_identification_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/identification_audit.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.05157000001054257,
+        "log_bytes": 442,
+        "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+      },
+      "raw_receipt_sha256": "c3868a377adeb2ea8e124b935bdad90e4733362e08e8876f354c1e17c2e17af4",
+      "output": "identification ledger: 24 rows -- docs/IDENTIFICATION_LEDGER.md\n  EARNED      8   I-1 I-2 I-3 I-12 I-19 I-20 I-21 I-22\n  REFUTED     7   I-4 I-5 I-8 I-15 I-16 I-17 I-24\n  UNEARNED    9   I-6 I-7 I-9 I-10 I-11 I-13 I-14 I-18 I-23\n\n  UNEARNED = 9   <- these are UNPRICED OBSERVER INPUTS (B1225: the object cannot identify)\n  the input ledger's parameter count is a LOWER BOUND while any row is UNEARNED.\n  ratchet baseline: 9   current: 9   OK\n"
+    },
+    {
+      "raw_basename": "oa_r34_native_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/mirror_quartic.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 5.593442999990657,
+        "log_bytes": 6359,
+        "log_sha256": "0a60e626a305332f04ba3763bb84a11ab2e56f6c237aaf105a389ded720f7774"
+      },
+      "raw_receipt_sha256": "6b29e595e6e617ec7811ab689288f9162ddbded52bd459a5d7591d4da4a66678",
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NATIVE_FIRST.json"
+    },
+    {
+      "raw_basename": "oa_r34_tests_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_quartic.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 6.081279000034556,
+        "log_bytes": 1335,
+        "log_sha256": "aaf6fecad8c0744366f3f4b6a9d0f26f06ba134bdc458508f9b262eb325ceecb"
+      },
+      "raw_receipt_sha256": "a0554d020126c87abd38583acdb2dfeea594980ac6bad1d9b3a317c8e3c1bce2",
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_TESTS_FIRST.txt"
+    },
+    {
+      "raw_basename": "oa_r34_focused_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_quartic.py",
+          "tests/test_physical_bridge_mirror_interaction.py",
+          "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_source_c3.py",
+          "tests/test_physical_bridge_global_poisson.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 18.809150999994017,
+        "log_bytes": 2394,
+        "log_sha256": "813e4c6013d07fc5b270db8459901225e6e285c3276bef3ddb37fcda8f7ff3ad"
+      },
+      "raw_receipt_sha256": "6f3eaaeb86dfb24139967ffff1960451b16ce131fa94614d6b7b6dfd3c00c2ba",
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_FOCUSED_FIRST.txt"
+    },
+    {
+      "raw_basename": "oa_r34_normal_form_native_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.7481720000505447,
+        "log_bytes": 950,
+        "log_sha256": "63d991a598468a1e22f37c55914bcde2fa533e7d88eb99e401ac4fc88f184ea3"
+      },
+      "raw_receipt_sha256": "bdce184d547e0372fd1a757958feb4af623fceea166991d3531726fa94fe7430",
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_FIRST.json"
+    },
+    {
+      "raw_basename": "oa_r34_normal_form_tests_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 2.5403930000029504,
+        "log_bytes": 671,
+        "log_sha256": "6283ba4f3520d7ded1c4a4a3de147a073525eea10649922ec5d14679f41c17f3"
+      },
+      "raw_receipt_sha256": "40bca60c02009f5f3e889d43346b259737a77ada56341e11690d88261fb1ffe6",
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_TESTS_FIRST.txt"
+    },
+    {
+      "raw_basename": "oa_r34_focused_control_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_quartic.py",
+          "tests/test_physical_bridge_mirror_interaction.py",
+          "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_source_c3.py",
+          "tests/test_physical_bridge_global_poisson.py",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 18.751487000030465,
+        "log_bytes": 2795,
+        "log_sha256": "70467547415235b889bee6e488c4b8d62681f3126c191537a9f58fa9e123f1b2"
+      },
+      "raw_receipt_sha256": "e284e68b31e44cf415e0d338c2712824b634cd0c1d6d9187e79d8adc8daeb161",
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_FOCUSED_CONTROL_FIRST.txt"
+    },
+    {
+      "raw_basename": "oa_r34_normal_form_v2_native_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control_v2.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.7690009999787435,
+        "log_bytes": 950,
+        "log_sha256": "63d991a598468a1e22f37c55914bcde2fa533e7d88eb99e401ac4fc88f184ea3"
+      },
+      "raw_receipt_sha256": "736c3fa94971ceadbaf922176e4a97c5094173138572fe4dcdeb7eb510ebd356",
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_V2_FIRST.json"
+    },
+    {
+      "raw_basename": "oa_r34_normal_form_v2_tests_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.496199999935925,
+        "log_bytes": 98,
+        "log_sha256": "91f122e7d3e3457abf2d66bb923c15ec8a31af3414fa1bab7a07fad1c7e01eff"
+      },
+      "raw_receipt_sha256": "227d75e54d93da8f546be945c33122cb587fa1f6184ae0cf0feed71dffc2f144",
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_V2_TESTS.txt"
+    },
+    {
+      "raw_basename": "oa_r34_focused_control_v2_first",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_quartic.py",
+          "tests/test_physical_bridge_mirror_interaction.py",
+          "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_source_c3.py",
+          "tests/test_physical_bridge_global_poisson.py",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 19.478318999987096,
+        "log_bytes": 2875,
+        "log_sha256": "26e2b832228ae8abe6a3b9527cb95617d056cb86f1a603b998fbe457a3bd143f"
+      },
+      "raw_receipt_sha256": "7071c01ddd3b0b7f61ced6d41dcf854fc1e7a87ebffbdf26a44473eb6e8c8cf5",
+      "public_path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_FOCUSED_CONTROL_V2.txt"
+    }
+  ],
+  "focused_control_additions": [
+    "tests/test_physical_bridge_mirror_quartic_normal_form_control.py"
+  ],
+  "focused_v2_additions": [
+    "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+    "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py"
+  ],
+  "not_run": "R33 halted v1 test file remains outside the declared population; no whole-repository run."
+}
