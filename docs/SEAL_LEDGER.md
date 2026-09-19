@@ -638,3 +638,18 @@ All six files below are sealed before the native and test runs.
 | `reports/physical_bridge_2026_09_05/SOURCE_C3_INPUTS.json` | `67574621990ebe420bab8d60297965aa5adfb9871ab8d88565abb10fee0fb0a6` |
 | `reports/physical_bridge_2026_09_05/source_c3.py` | `a4034ebc98f88d214ea6c9d0a8dec89abd4d3df84f064e86ba63c20ff6da9abe` |
 | `tests/test_physical_bridge_source_c3.py` | `2519c3a1659df147283e61dd23896a4fe23ada86e1fac297f33f7f75e8c9b934` |
+
+## Path-local R33 charged mirror interaction, 2026-09-19 — before execution
+
+Actual H weights, Spin(10) intertwiners, complex-vector gap controls and
+charged phase locking. No quantum SMG, source selection or TOE claim.
+All six files are sealed before their first native or test execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_DESIGN.md` | `434a3dfebcce494b3f5e08b8f12b6119e9d24a51c09411e84902a0ea044e199b` |
+| `reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_PROOF.md` | `58a3f4eeaae94d52e1b20cd992b979a0a86ab746ca15d101cb53fe8cbb3ecba7` |
+| `reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_PRIOR.md` | `77dc14519c7194d9ceaca2e4217034ac218689c79c8947ce9232a1c13959fd41` |
+| `reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_INPUTS.json` | `be7821c9163e8140591cae37a20be43277b12f6a3802b9702602bcb1c032869f` |
+| `reports/physical_bridge_2026_09_05/mirror_interaction.py` | `6430dc84022050fea50d3dd5edb4ee08a8c2c80cde6b5674f385812ac04ff6e1` |
+| `tests/test_physical_bridge_mirror_interaction.py` | `0e1b3874f523fe89a6cc70eb5d0235d42803b4af71b36f35733faa70f293a8af` |

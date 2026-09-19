@@ -1,0 +1,154 @@
+{
+  "own_input_pin": "8c5edc33d44da3541b87dc8506b91ecdcefc8b07",
+  "main_pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+  "sm_reading_pin": "235325396b2db79c78df303531af6878931b00f2",
+  "grade": "Reused science custody and a personally read literature inventory; no independent quantum certificate",
+  "frozen_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_spectrum.py",
+      "bytes": 13365,
+      "sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/anomaly_completion.py",
+      "bytes": 10368,
+      "sha256": "2ffc445e9e06da918a67273f6874f7e525e053e65c58c19827f68389e054f133"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/anomaly_action_control.py",
+      "bytes": 4013,
+      "sha256": "2ad4e2b9f75ef87fce4c8e3308a378543e9eae8e10b9dfbdb8861268d31b6b1e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/ANOMALY_COMPLETION.md",
+      "bytes": 13646,
+      "sha256": "9647d976c2069ac22a1a51f10343785aaf2cae8a4474eac0ba0b9e7b50337fbb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/DEFECT_GAUGE_PROOF.md",
+      "bytes": 14858,
+      "sha256": "c0b8a00fab779a194e1b12af2ee026da29ae50d198871dc3a0c50d8e01e9e374"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/RESOLVED_FERMION_PROOF.md",
+      "bytes": 12557,
+      "sha256": "089af58b8cb3d23c4ba70cb1e457ea60ddf6086cdf9faed315d4a2606e3b416d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_PROOF.md",
+      "bytes": 13385,
+      "sha256": "0320fabfc02587888140b2867e24b93d151425f25c817ca1c9458c102dd7e2a5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_C3_PROOF.md",
+      "bytes": 11181,
+      "sha256": "f9595fd330f8531623207bddd8a1aae728830aee18b93fbf047c4317b7a232e5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/source_c3.py",
+      "bytes": 8233,
+      "sha256": "a4034ebc98f88d214ea6c9d0a8dec89abd4d3df84f064e86ba63c20ff6da9abe"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_completion.py",
+      "bytes": 4662,
+      "sha256": "ed27cc6ada6f2be2b9b2e81fc11ae7a83fb3761cce2aef9e5b030250784e83c7"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_action_control.py",
+      "bytes": 2043,
+      "sha256": "d8b2042e6702d5be705425c0d121fba68ee4cdc958151a042c35d893739d3ce3"
+    },
+    {
+      "path": "tests/test_physical_bridge_source_c3.py",
+      "bytes": 5403,
+      "sha256": "2519c3a1659df147283e61dd23896a4fe23ada86e1fac297f33f7f75e8c9b934"
+    },
+    {
+      "path": "tests/test_physical_bridge_global_poisson.py",
+      "bytes": 4974,
+      "sha256": "0389cfe1efe80ea5bb542c2eed0ca4a2cead219155b5706a42280ca7835b5b67"
+    }
+  ],
+  "pytest_focused": [
+    "tests/test_physical_bridge_mirror_interaction.py",
+    "tests/test_physical_bridge_anomaly_completion.py",
+    "tests/test_physical_bridge_anomaly_action_control.py",
+    "tests/test_physical_bridge_source_c3.py",
+    "tests/test_physical_bridge_global_poisson.py"
+  ],
+  "primary_reading": [
+    {
+      "version": "1305.1045v4",
+      "pages": 7,
+      "url": "https://arxiv.org/pdf/1305.1045v4",
+      "reading": "Complete extracted text, appendices and references, personally read",
+      "files": [
+        {
+          "name": "1305.1045v4.pdf",
+          "bytes": 379111,
+          "sha256": "3eff182f52e65046c29a08072cc63589687fb5a9aedf1a79f11e8ae83e824af3"
+        },
+        {
+          "name": "1305.1045v4.txt",
+          "bytes": 55577,
+          "sha256": "42688b4b576ca71a137f3d29e1dd24678242a8c0ae3a90f86cdc20e7412b21b5"
+        }
+      ]
+    },
+    {
+      "version": "1402.4151v2",
+      "pages": 5,
+      "url": "https://arxiv.org/pdf/1402.4151v2",
+      "reading": "Complete extracted text, appendices and references, personally read",
+      "files": [
+        {
+          "name": "1402.4151v2.pdf",
+          "bytes": 219506,
+          "sha256": "46dcaec28806582f2ec3f55edac8cc4facfe985bb6600a30e54fc25d2a245f7a"
+        },
+        {
+          "name": "1402.4151v2.txt",
+          "bytes": 34785,
+          "sha256": "e4e9eda51375ac6135691d30cf512032c4c18b1536aeabe8eea63289b1b39731"
+        }
+      ]
+    },
+    {
+      "version": "2603.15985v1",
+      "pages": 8,
+      "url": "https://arxiv.org/pdf/2603.15985v1",
+      "reading": "Complete extracted text, appendices and references, personally read",
+      "files": [
+        {
+          "name": "2603.15985v1.pdf",
+          "bytes": 183662,
+          "sha256": "aac7a53a86899f7d6bdb955c728d9619bdb256b9e823dbf001bd4f9221dcf88c"
+        },
+        {
+          "name": "2603.15985v1.txt",
+          "bytes": 24187,
+          "sha256": "b6e76833365ddd587a3d9f2814db40bae828d5d5beeba30b31e81b145e2c67a4"
+        }
+      ]
+    },
+    {
+      "version": "2608.29963v1",
+      "pages": 21,
+      "url": "https://arxiv.org/pdf/2608.29963v1",
+      "reading": "Complete extracted text, appendices and references, personally read",
+      "files": [
+        {
+          "name": "2608.29963v1.pdf",
+          "bytes": 686709,
+          "sha256": "a7c51b3a9b5802ad6f5873d16949113f7bdbdb38f8f031668d69e5b885fa1828"
+        },
+        {
+          "name": "2608.29963v1.txt",
+          "bytes": 53939,
+          "sha256": "42a5f4825361d18d94e3c09789b610b8f16f2a2df6f8a37828713d12d7958207"
+        }
+      ]
+    }
+  ]
+}
