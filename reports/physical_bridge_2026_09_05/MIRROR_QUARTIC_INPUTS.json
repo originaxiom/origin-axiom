@@ -1,0 +1,97 @@
+{
+  "own_input_pin": "3794df94db3feffd781ebe047462bfc6c86fbc4e",
+  "main_pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+  "frozen_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/mirror_interaction.py",
+      "bytes": 12614,
+      "sha256": "6430dc84022050fea50d3dd5edb4ee08a8c2c80cde6b5674f385812ac04ff6e1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/charged_domain.py",
+      "bytes": 12200,
+      "sha256": "0b66fc227ebc94d25077e01d621d190e8f64d6749ac72f26e7d470cff122df5c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/anomaly_completion.py",
+      "bytes": 10368,
+      "sha256": "2ffc445e9e06da918a67273f6874f7e525e053e65c58c19827f68389e054f133"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_spectrum.py",
+      "bytes": 13365,
+      "sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_PROOF.md",
+      "bytes": 9570,
+      "sha256": "58a3f4eeaae94d52e1b20cd992b979a0a86ab746ca15d101cb53fe8cbb3ecba7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_PROOF.md",
+      "bytes": 13385,
+      "sha256": "0320fabfc02587888140b2867e24b93d151425f25c817ca1c9458c102dd7e2a5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_C3_PROOF.md",
+      "bytes": 11181,
+      "sha256": "f9595fd330f8531623207bddd8a1aae728830aee18b93fbf047c4317b7a232e5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/RESOLVED_FERMION_PROOF.md",
+      "bytes": 12557,
+      "sha256": "089af58b8cb3d23c4ba70cb1e457ea60ddf6086cdf9faed315d4a2606e3b416d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_INPUTS.json",
+      "bytes": 5379,
+      "sha256": "be7821c9163e8140591cae37a20be43277b12f6a3802b9702602bcb1c032869f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control_v2.py",
+      "bytes": 2042,
+      "sha256": "d7f4eed65db71bed66f8b1200b1bfbd36f2a613fd703bd4315c334bfb8a07de2"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_interaction.py",
+      "bytes": 6450,
+      "sha256": "0e1b3874f523fe89a6cc70eb5d0235d42803b4af71b36f35733faa70f293a8af"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+      "bytes": 1139,
+      "sha256": "a88a70d26d3410dd54045e0a244e5311bdca2106bb1d055980db7a240a08587c"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_completion.py",
+      "bytes": 4662,
+      "sha256": "ed27cc6ada6f2be2b9b2e81fc11ae7a83fb3761cce2aef9e5b030250784e83c7"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_action_control.py",
+      "bytes": 2043,
+      "sha256": "d8b2042e6702d5be705425c0d121fba68ee4cdc958151a042c35d893739d3ce3"
+    },
+    {
+      "path": "tests/test_physical_bridge_source_c3.py",
+      "bytes": 5403,
+      "sha256": "2519c3a1659df147283e61dd23896a4fe23ada86e1fac297f33f7f75e8c9b934"
+    },
+    {
+      "path": "tests/test_physical_bridge_global_poisson.py",
+      "bytes": 4974,
+      "sha256": "0389cfe1efe80ea5bb542c2eed0ca4a2cead219155b5706a42280ca7835b5b67"
+    }
+  ],
+  "pytest_focused": [
+    "tests/test_physical_bridge_mirror_quartic.py",
+    "tests/test_physical_bridge_mirror_interaction.py",
+    "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+    "tests/test_physical_bridge_anomaly_completion.py",
+    "tests/test_physical_bridge_anomaly_action_control.py",
+    "tests/test_physical_bridge_source_c3.py",
+    "tests/test_physical_bridge_global_poisson.py"
+  ],
+  "not_run_halted_prior": "tests/test_physical_bridge_mirror_interaction_normal_form_control.py",
+  "scope": "Local algebra and exact auxiliary Gaussian matching, not a quantum phase or independent banking"
+}

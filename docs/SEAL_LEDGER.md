@@ -675,3 +675,17 @@ TypeError, original failed assertions and every sealed file remain.
 | `reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NORMAL_FORM_V2_DESIGN.md` | `017217c51f2e63ade2372ae2eecd099f00757cf8b842c563ac7d2cf54d7efa3a` |
 | `reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control_v2.py` | `d7f4eed65db71bed66f8b1200b1bfbd36f2a613fd703bd4315c334bfb8a07de2` |
 | `tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py` | `a88a70d26d3410dd54045e0a244e5311bdca2106bb1d055980db7a240a08587c` |
+
+## Path-local R34 induced Grassmann interaction, 2026-09-19 — before execution
+
+Exact auxiliary Gaussian matching and exterior-algebra controls only.
+Not a quantum phase, source-selected coupling or chirality certificate.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_DESIGN.md` | `afce080958941bbe01c9c70a7128d303437ed63643cba1eeb288930abafbe0de` |
+| `reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_PROOF.md` | `a66da7ac8dc05012bf3d78b8e2db62661ba16cf45e19b9471db709447097ae87` |
+| `reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_PRIOR.md` | `3d50e26a79d7f894de1dbca16a6bbdf6781b259121fd1ef3672a4c125cc5c7ba` |
+| `reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_INPUTS.json` | `1480e41577c3c90c801dbf57aab85dba26b1e5d4a7a846a36d41f37b0d9ec1b6` |
+| `reports/physical_bridge_2026_09_05/mirror_quartic.py` | `34db1bc23a5a534879605f2a58e0e7ce4989192611abefca2d6f3b4b72cfac3b` |
+| `tests/test_physical_bridge_mirror_quartic.py` | `eda62f6d417e4d66fcf80025776b12794ca4d2c892c32451c031bf1a3d4445c8` |
