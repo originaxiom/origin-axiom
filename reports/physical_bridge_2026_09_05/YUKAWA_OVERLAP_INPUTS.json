@@ -1,0 +1,241 @@
+{
+  "own_input_pin": "febedec014e45cb384627fdb6bf1e830e001113d",
+  "main_pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+  "frozen_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/mirror_interaction.py",
+      "bytes": 12614,
+      "sha256": "6430dc84022050fea50d3dd5edb4ee08a8c2c80cde6b5674f385812ac04ff6e1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/charged_domain.py",
+      "bytes": 12200,
+      "sha256": "0b66fc227ebc94d25077e01d621d190e8f64d6749ac72f26e7d470cff122df5c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/anomaly_completion.py",
+      "bytes": 10368,
+      "sha256": "2ffc445e9e06da918a67273f6874f7e525e053e65c58c19827f68389e054f133"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_spectrum.py",
+      "bytes": 13365,
+      "sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_PROOF.md",
+      "bytes": 9570,
+      "sha256": "58a3f4eeaae94d52e1b20cd992b979a0a86ab746ca15d101cb53fe8cbb3ecba7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/GLOBAL_POISSON_PROOF.md",
+      "bytes": 13385,
+      "sha256": "0320fabfc02587888140b2867e24b93d151425f25c817ca1c9458c102dd7e2a5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_C3_PROOF.md",
+      "bytes": 11181,
+      "sha256": "f9595fd330f8531623207bddd8a1aae728830aee18b93fbf047c4317b7a232e5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/RESOLVED_FERMION_PROOF.md",
+      "bytes": 12557,
+      "sha256": "089af58b8cb3d23c4ba70cb1e457ea60ddf6086cdf9faed315d4a2606e3b416d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_INPUTS.json",
+      "bytes": 5379,
+      "sha256": "be7821c9163e8140591cae37a20be43277b12f6a3802b9702602bcb1c032869f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control_v2.py",
+      "bytes": 2042,
+      "sha256": "d7f4eed65db71bed66f8b1200b1bfbd36f2a613fd703bd4315c334bfb8a07de2"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_interaction.py",
+      "bytes": 6450,
+      "sha256": "0e1b3874f523fe89a6cc70eb5d0235d42803b4af71b36f35733faa70f293a8af"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+      "bytes": 1139,
+      "sha256": "a88a70d26d3410dd54045e0a244e5311bdca2106bb1d055980db7a240a08587c"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_completion.py",
+      "bytes": 4662,
+      "sha256": "ed27cc6ada6f2be2b9b2e81fc11ae7a83fb3761cce2aef9e5b030250784e83c7"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_action_control.py",
+      "bytes": 2043,
+      "sha256": "d8b2042e6702d5be705425c0d121fba68ee4cdc958151a042c35d893739d3ce3"
+    },
+    {
+      "path": "tests/test_physical_bridge_source_c3.py",
+      "bytes": 5403,
+      "sha256": "2519c3a1659df147283e61dd23896a4fe23ada86e1fac297f33f7f75e8c9b934"
+    },
+    {
+      "path": "tests/test_physical_bridge_global_poisson.py",
+      "bytes": 4974,
+      "sha256": "0389cfe1efe80ea5bb542c2eed0ca4a2cead219155b5706a42280ca7835b5b67"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_DESIGN.md",
+      "bytes": 4601,
+      "sha256": "afce080958941bbe01c9c70a7128d303437ed63643cba1eeb288930abafbe0de"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_PROOF.md",
+      "bytes": 6192,
+      "sha256": "a66da7ac8dc05012bf3d78b8e2db62661ba16cf45e19b9471db709447097ae87"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_PRIOR.md",
+      "bytes": 2728,
+      "sha256": "3d50e26a79d7f894de1dbca16a6bbdf6781b259121fd1ef3672a4c125cc5c7ba"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_INPUTS.json",
+      "bytes": 3849,
+      "sha256": "1480e41577c3c90c801dbf57aab85dba26b1e5d4a7a846a36d41f37b0d9ec1b6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mirror_quartic.py",
+      "bytes": 11427,
+      "sha256": "34db1bc23a5a534879605f2a58e0e7ce4989192611abefca2d6f3b4b72cfac3b"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_quartic.py",
+      "bytes": 6003,
+      "sha256": "eda62f6d417e4d66fcf80025776b12794ca4d2c892c32451c031bf1a3d4445c8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_DESIGN.md",
+      "bytes": 1710,
+      "sha256": "e6268d0e62481512c618d9c72272599801815afe1928b5c646410acdf3a1271a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control.py",
+      "bytes": 3461,
+      "sha256": "5d50041ed10ee850745de6f67a4ce627fd4b0abf3c4f385511706a3ad0d8b765"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+      "bytes": 1802,
+      "sha256": "ccfa8351cf91ba7a6a2a68cd93ce1aa1cc6ad4ac8d0d7faf76651a3015b70937"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_V2_DESIGN.md",
+      "bytes": 1407,
+      "sha256": "4e5982e989668dfaef5db52d21d35139e37cc0564317e78f117f87f6c7748cfb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control_v2.py",
+      "bytes": 3489,
+      "sha256": "7e7fe0cf5b84f1f7bd8a45ff8afd80eb4f12b1e52395577711a2312ec6fdcd2c"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+      "bytes": 1808,
+      "sha256": "d20b4d9b5bdcdd7bfdd2207d44d57065420367a05621aff973d8b10650c9012f"
+    },
+    {
+      "path": "frontier/B1154_seam_y/FINDINGS.md",
+      "bytes": 4840,
+      "sha256": "b63f3f913f59f9c46e2eb945c3307b6d1aafe04632f036c80ed91f6cc45f6432"
+    },
+    {
+      "path": "frontier/B1232_codex_r031_verified_and_three_columns/FINDINGS.md",
+      "bytes": 5256,
+      "sha256": "a2251a50b389c009046e6bebd50e810c9494836a1cebcb15297751cd713a7148"
+    },
+    {
+      "path": "frontier/B1007_arb_maass/FINDINGS.md",
+      "bytes": 5935,
+      "sha256": "507e2d72069527072a638d2c420fa70f41df6de82309891ffe733ed247478a30"
+    },
+    {
+      "path": "frontier/B1148_carrier_harvest/FINDINGS.md",
+      "bytes": 8312,
+      "sha256": "906962ee41e9fc3b1a49becb9d255e5fcc4023ff9c67e8da7836548d808a7525"
+    },
+    {
+      "path": "frontier/B1150_yukawa_clock_and_family/FINDINGS.md",
+      "bytes": 5858,
+      "sha256": "69c79f8f87170874c94bd1484ce51b76a7a829af52b973c1083871f907f529f3"
+    },
+    {
+      "path": "frontier/B1185_yukawa_three_mechanisms/FINDINGS.md",
+      "bytes": 5870,
+      "sha256": "56aadd0669371b8c58d3c9de684d0e1228c0764815d80465d5469ca64b6fe4ec"
+    },
+    {
+      "path": "frontier/B1253_generation_count/FINDINGS.md",
+      "bytes": 4860,
+      "sha256": "1e6d6d00d965d26e8bf3aac40f3c8d5ee87d2d51f1ad3be093c9826c5a2aeffc"
+    },
+    {
+      "path": "frontier/B912_norm_cell/FINDINGS.md",
+      "bytes": 3357,
+      "sha256": "2ba359373d062916202089e0b186a9ac8ca7fea81b17f04bf717a9dfbdbca9e2"
+    },
+    {
+      "path": "frontier/B931_why_953/FINDINGS.md",
+      "bytes": 13289,
+      "sha256": "9dc4b9e10bbd38f208b6213b8fad3a978a6de74227f3d6ae29ca37ca3d700ca7"
+    },
+    {
+      "path": "frontier/B946_solo_handoff6/FINDINGS.md",
+      "bytes": 10691,
+      "sha256": "848bf0bea143b12cb90b4b3b6e2b2e520bed753184b61506dc62825256fd71b1"
+    },
+    {
+      "path": "frontier/B947_thinning_law/FINDINGS.md",
+      "bytes": 4486,
+      "sha256": "652527a09fc675c84cfbb045cee000564496f5aba4d1739d34cce82af60c1f3d"
+    },
+    {
+      "path": "frontier/B978_phaseA_bank/FINDINGS.md",
+      "bytes": 4865,
+      "sha256": "c8ba33ed69a8e694612c2b552d8134c2f90c84262192f30f780b88521728e35d"
+    },
+    {
+      "path": "frontier/B987_X8_higgs_doublet/FINDINGS.md",
+      "bytes": 4395,
+      "sha256": "753a9561373a168efa27bfe8c4f3a43f79a688b971a472055807a0eab74265cf"
+    },
+    {
+      "path": "frontier/B1036_mirror_double/FINDINGS.md",
+      "bytes": 4399,
+      "sha256": "d08d32470258b3a55d0de2edaff5485087f9a1ebcf355a14255c64b93fb21378"
+    },
+    {
+      "path": "frontier/B1039_v_valued_residual/FINDINGS.md",
+      "bytes": 2780,
+      "sha256": "af2dc6aefe764d0a2c50cf8ad27fb6862394a03dbff024faa289651bde86e25f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_WORKING_2026_09_19.md",
+      "bytes": 9187,
+      "sha256": "14b45914b95bc080f6796deb3e0780926a3e600afb6ef7e7130bb10d3b96515e"
+    }
+  ],
+  "pytest_focused": [
+    "tests/test_physical_bridge_mirror_quartic.py",
+    "tests/test_physical_bridge_mirror_interaction.py",
+    "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+    "tests/test_physical_bridge_anomaly_completion.py",
+    "tests/test_physical_bridge_anomaly_action_control.py",
+    "tests/test_physical_bridge_source_c3.py",
+    "tests/test_physical_bridge_global_poisson.py",
+    "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+    "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+    "tests/test_physical_bridge_yukawa_overlap.py"
+  ],
+  "not_run_halted_prior": "tests/test_physical_bridge_mirror_interaction_normal_form_control.py",
+  "expected_native_groups": 11,
+  "scope": "Declared charged overlaps and comparators; no source-selected profile, actual global spectrum or mirror gap"
+}

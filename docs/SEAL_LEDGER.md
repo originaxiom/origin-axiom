@@ -711,3 +711,18 @@ V1 source, failed guard and all original comparisons remain unchanged.
 | `reports/physical_bridge_2026_09_05/MIRROR_QUARTIC_NORMAL_FORM_V2_DESIGN.md` | `4e5982e989668dfaef5db52d21d35139e37cc0564317e78f117f87f6c7748cfb` |
 | `reports/physical_bridge_2026_09_05/mirror_quartic_normal_form_control_v2.py` | `7e7fe0cf5b84f1f7bd8a45ff8afd80eb4f12b1e52395577711a2312ec6fdcd2c` |
 | `tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py` | `d20b4d9b5bdcdd7bfdd2207d44d57065420367a05621aff973d8b10650c9012f` |
+
+## Path-local R36, 2026-09-19 — charged overlaps, before execution
+
+The preceding working derivation is disclosed prior, not a blind result.
+Keep the charged coefficient, normalization and actual end term together.
+No source-selected scalar, global eigenproblem or quantum gap is certified.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_DESIGN.md` | `133d509223ad360ce2a63363bb2980cb4e4184e563e409b3f46ba546b3f858a3` |
+| `reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_PROOF.md` | `62a82da9e95f0b66fd2340f4779a8ae8cb087e7918f1d189f1c52205ebac50f7` |
+| `reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_PRIOR.md` | `6c8adf95df9f068c3f8462a20a20f02238d98ffac478c9afd86109e0798471d5` |
+| `reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_INPUTS.json` | `649532fe6763aff4f1649862b37d62dca22b71936a6818919e45b5148d772956` |
+| `reports/physical_bridge_2026_09_05/yukawa_overlap.py` | `b732ec968368bc2cae1060d2e2bc47ba60c71ce2465c9c7f9f93bc9af3b1d56a` |
+| `tests/test_physical_bridge_yukawa_overlap.py` | `bf2ec34ed3f2690ff631f671c060ea39607af9d8d37767c4fc88892a05109f6b` |
