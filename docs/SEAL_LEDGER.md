@@ -664,3 +664,14 @@ collinear family and altered-mass/null-vector rejecting controls.
 | `reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NORMAL_FORM_DESIGN.md` | `f28ca5a6ad97eff702f837cee9d521f887a27bd12800381a0d88e3cfc4eea049` |
 | `reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control.py` | `6015a433194ff9dc5ca234c75095fee29ab28e7e3c6256bc854e20ac59c59874` |
 | `tests/test_physical_bridge_mirror_interaction_normal_form_control.py` | `a5cb9690011fe3a990d9b9576122f6cca7395d0152da7e0175e79f9496a5d82e` |
+
+## Path-local R33 normal-form v2, 2026-09-19 — before execution
+
+Only the deliberate wrong-mass fixture becomes mutable. The v1 native
+TypeError, original failed assertions and every sealed file remain.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/MIRROR_INTERACTION_NORMAL_FORM_V2_DESIGN.md` | `017217c51f2e63ade2372ae2eecd099f00757cf8b842c563ac7d2cf54d7efa3a` |
+| `reports/physical_bridge_2026_09_05/mirror_interaction_normal_form_control_v2.py` | `d7f4eed65db71bed66f8b1200b1bfbd36f2a613fd703bd4315c334bfb8a07de2` |
+| `tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py` | `a88a70d26d3410dd54045e0a244e5311bdca2106bb1d055980db7a240a08587c` |
