@@ -1,5 +1,11 @@
 # Physical bridge audit — 2026-09-05
 
+**Unexecuted continuation after R35:**
+[charged Yukawa-overlap working note](YUKAWA_OVERLAP_WORKING_2026_09_19.md).
+It preserves an analytic candidate with its boundary term and two
+opposite controls. Prior-art completion and a scientific seal are still
+due; no new verified spectrum, selectivity or gap is claimed.
+
 **Latest intake, R35 (September 19): [cross-seat and primary-literature audit](LITERATURE_AND_SEATS_2026_09_19.md).**
 All seven advertised GitHub heads were fetched; five older tracking
 refs were preserved. Seventeen selected repository bodies and two

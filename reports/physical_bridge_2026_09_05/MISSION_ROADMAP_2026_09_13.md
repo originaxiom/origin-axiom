@@ -1,5 +1,11 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Next-step preparation, not an executed result:** the
+[charged overlap working note](YUKAWA_OVERLAP_WORKING_2026_09_19.md)
+keeps bilinear Yukawas distinct from density/gauge overlaps, retains
+the end term, and requires absolute coupling scales as well as ratios.
+Its proposed controls and remaining prior-art/seal duties are explicit.
+
 **Latest intake, R35 (September 19): [cross-seat and primary-literature audit](LITERATURE_AND_SEATS_2026_09_19.md).**
 All seven advertised GitHub heads were fetched; five older tracking
 refs were preserved. Seventeen selected repository bodies and two
