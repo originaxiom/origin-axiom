@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-09-20 — R39 earns a complete classical parent background, not chirality
+
+The specified noncommuting hyperbolic connection solves all candidate-
+parent equations with finite positive Higgs norm. Every E8 joint weight
+and the parent trace normalization are checked. Dropping neutral fields
+leaves a zero central residual but fails the full equations. The complete
+unbroken algebra is so(11); an explicit unitary operator map pairs the
+16 and conjugate-16 coefficient sectors on matched domains. The old
+charge lines are not separate sectors of the full positive operator.
+
+This is conditional classical physics within an input E8 action and
+supplied spacetime, not an object-selected parent, chiral vacuum or
+torsion-free G2/gravity completion. Keep the sourced route: an identity
+source is not the embedded H-central generator. A global compensating
+source or admissible non-SL2 deformation must now pass these full checks.
+
+Seal ce48016a was pushed and server-confirmed before execution; all six
+scientific files remain unchanged. Native 14/14, new tests 16 pass,
+thirteen-file focused 206 pass / the same four prior failed IDs.
+The corrected historical reader completed 59,279 reachable objects,
+31,411 blobs, 15 pinned head trees and 16,022 historical names. Its byte
+receipt and failed predecessor are retained. Retrieval is not semantic
+absence, full reading or proof of novelty. No shared B, main bank or TOE.
+Report: reports/physical_bridge_2026_09_05/PARENT_BACKGROUND.md.
+
 ## 2026-09-20 — Reproduce the fork's admissibility result; prepare the full-parent test
 
 Pinned fork be669308's unchanged F01 producer and seven tests reproduce.

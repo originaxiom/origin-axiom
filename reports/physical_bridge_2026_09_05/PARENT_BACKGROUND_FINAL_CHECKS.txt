@@ -1,0 +1,88 @@
+R39 reporting checks, September 20, 2026
+
+Scientific seal ce48016a5b592f625cf71babc4f65cb3bb51543a was pushed
+and server-confirmed before first execution. The six scientific files
+are unchanged. Native 14 groups pass; sixteen new tests pass. The fixed
+thirteen-file run has 206 passes and exactly R38's four failed IDs.
+No full-suite green, independent mathematical acceptance or TOE closure.
+
+Preseal governance: 26 PASS / the same four historical FAIL details,
+review counter 190. Cumulative custody: 606 latest artifact paths,
+158 latest distinct seals and 201 local links in that staged/prior
+population, not all repository links. The old partial reconciliation
+custody still passes unchanged; it does not include the later history.
+
+The new v2 reader completed 59,279 objects / 31,411 blobs, and its
+2,299,408-byte archive is preserved exactly. Independent object/type/
+size, historical-name and head-hit inventories agree. The first
+history-custody checker failed because Ruby compared UTF-8 and binary
+strings by encoding-sensitive equality. Its source and failed capture
+remain unchanged. The separately named binary-safe checker succeeds.
+An inline Unicode-literal control also failed to parse under US-ASCII;
+that tool-record failure was not a captured scientific run. The later
+ASCII-constructed codepoint control passes byte equality and rejects
+a changed-byte mutant. No scientific source, criterion, result or
+retrieval archive was modified by these metadata corrections.
+
+Current R39 custody passes: six sealed files, 52 fixed inputs, four
+paper artifacts, six preseal/scientific captures, exact output copies
+and the unchanged four focused failures. Actual per-run exits follow.
+
+oa_r39_native_first
+{"raw_receipt_sha256":"d8529eb27f48924bf2f805e17ec4509d6c58126105bd69fb3866fc3e5d655c49","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":1.7231769999925746,"log_bytes":11190,"log_sha256":"a3088bf7f075188c1dcbce17acacbadbb0b454828f709e8624e62030e601b4b8"}}
+
+oa_r39_tests_first
+{"raw_receipt_sha256":"9856f3c2bd2f033e94b829958f5159801a9ebcff7e4097934b7f8e19febc673f","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":2.5148970000009285,"log_bytes":99,"log_sha256":"4ee2546703a8840a21d5aa9047ac49fa438ff78671427bcc03466ab787f466f8"}}
+
+oa_r39_focused_first
+{"raw_receipt_sha256":"a45d9022529bfd6bb8992c1b3d356142f2cacbd41373a5d2d1dfd67733bb4caf","receipt":{"exit_code":1,"signal":null,"elapsed_seconds":53.92010400000436,"log_bytes":2875,"log_sha256":"031d21da0fc4973e96dc000d4a1e6c078f68afcbbc1edca18ce1fb68a06143f1"}}
+
+oa_r39_seal_gates_first
+{"raw_receipt_sha256":"61253473869cf890f3952488e732246ec164d1a6ddc16a405a2b77a9e515609d","receipt":{"exit_code":1,"signal":null,"elapsed_seconds":14.385872999991989,"log_bytes":2095,"log_sha256":"01848177746da63421f859430aadb9c2bd134c9da63945f6ab191c372ee26f07"}}
+
+oa_r39_seal_cumulative_first
+{"raw_receipt_sha256":"9dce407b892612b35f97503a14a40b9dc30a33e427873b4a166ca64658450a74","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":1.189977000001818,"log_bytes":616,"log_sha256":"eb1d42cb277a8f041ff3d62953fa0bb2c0f4260b4ea94434db819b66b37d85a7"}}
+
+oa_r39_seal_prior_custody_first
+{"raw_receipt_sha256":"f42855b5ad7ec029bd8c920043dbf2660ba3c7818113e12027a90b68376d1761","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":3.338770000002114,"log_bytes":362,"log_sha256":"56db02b96d66c4b3ecb13f07103e2df32a00330e640faaf38d5f0a9016c59119"}}
+
+oa_r39_swipe_history_v2_20260920
+{"raw_receipt_sha256":"e78b0cef02eb10018442c936c2f377fa4feb328f35e1200ab67c763f4b5aa3a4","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":1542.7462099999975,"log_bytes":1446,"log_sha256":"8410c5800bd873cf486b1460a11a7bd05a284fa3dcc6f1edb33a0cb3b9e948f8"}}
+
+oa_r39_history_v2_custody_create
+{"raw_receipt_sha256":"9eec2e27968b848adcb03309841bf372130f28dcdded2ee684c86983fedd0b09","receipt":{"exit_code":1,"signal":null,"elapsed_seconds":3.6839080000063404,"log_bytes":29,"log_sha256":"e0ac9741936e5925422260786452bff99029e98f7d8234655bfa7d553e8af7c1"}}
+
+oa_r39_history_v2_custody_binary_create
+{"raw_receipt_sha256":"0f84de601d855f052eb88daf33f2b471e85c690b844c952f24783ba43f54f357","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":3.8929429999989225,"log_bytes":366,"log_sha256":"5f842c47a766be0bf85fc02785f5e6b5d4e74a5b347e3eb81ecbf7ae643ff626"}}
+
+oa_r39_history_encoding_control
+{"raw_receipt_sha256":"217b017c11c09774614b4634403db880e46745eadc19cb34de9479d48169c377","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":0.12051100000098813,"log_bytes":351,"log_sha256":"8c2dd9ccb8238353b7e2a615937baf63c0c4d4fa1e5fc0f01feb5bb1fe68a630"}}
+
+oa_r39_history_v2_custody_recheck
+{"raw_receipt_sha256":"c3584fcaf019712ce3d2e06a9cc6129aab64ab2b435daa8850e12aa520283a1e","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":4.0478690000018105,"log_bytes":366,"log_sha256":"5f842c47a766be0bf85fc02785f5e6b5d4e74a5b347e3eb81ecbf7ae643ff626"}}
+
+oa_r39_report_custody_first
+{"raw_receipt_sha256":"5aa9740e62f1d291b1dfda2c69a4636ad1ffbf03b3db4081299427f6a0dac7f0","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":0.3736030000000028,"log_bytes":304,"log_sha256":"60272fb332a2505ccf91f7ecb0b55d533cadfbbf37ebe44ea06031fb11dc3055"}}
+
+
+First staged reporting checks:
+Governance: 26 PASS / four FAIL, with every failure detail identical
+to the preseal run; review counter 191. No new failure or waiver.
+Cumulative custody: 617 latest artifact paths, 158 latest distinct
+seals and 297 local links in the staged/prior population. Original
+R30/R31 failed/error inventories remain; that tool's historical flag
+refers to R31, not the separately checked September 20 retrieval.
+Strict staged whitespace reports only the two literal pytest trailing
+spaces on lines 15 and 21 of PARENT_BACKGROUND_FOCUSED_FIRST.txt.
+Excluding exactly that captured-output file passes. Raw output bytes
+are retained. This receipt addendum and its manifest digest are checked
+again before commit; no sealed scientific file is edited.
+
+oa_r39_report_gates_first
+{"raw_receipt_sha256":"05285f1abd825815d59966d547d6949143049e186dedc6b940fa4b15f722e3be","receipt":{"exit_code":1,"signal":null,"elapsed_seconds":14.187125999989803,"log_bytes":2095,"log_sha256":"165335faab714199bf824d13d6e8e96db050bd42a198f838c0f72254f5488bd3"}}
+
+oa_r39_report_cumulative_first
+{"raw_receipt_sha256":"887cd0e6e52267f04a912473f79a6249425fc1ff59d6000e7d97bc7598959f0a","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":1.2257399999944028,"log_bytes":616,"log_sha256":"25b872fd0b1d81106bf8d21578270a3fe1808ca98df6beb7fe04ab3749317c5f"}}
+
+oa_r39_report_clean_diff_first
+{"raw_receipt_sha256":"e60328b468d9363fac143d233da74a735f2543123adb08ce4a576d9eed9c2f9b","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":0.07194300000264775,"log_bytes":0,"log_sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}}

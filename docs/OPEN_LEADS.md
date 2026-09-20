@@ -3206,3 +3206,23 @@ R39's planned full-matrix equations, norm, complete unbroken gauge algebra
 and positive-operator/domain map are the next common-model origin test.
 No new census or general chirality exclusion is inferred. Source:
 reports/physical_bridge_2026_09_05/FORK_F01_RECEPTION_2026_09_20.md.
+
+### PB-BOUNDARY / PB-ACTION, 2026-09-20: R39 full background, bounded pairing
+
+Closing sentence for this sub-duty only: the specified geometric Sym3
+connection solves the complete candidate-parent equations with finite
+positive norm, has full unbroken algebra so(11), and unitarily pairs the
+16/conjugate-16 coefficient operators on matched domains. Dropping the
+neutral fields leaves a false central-only solution. Source:
+reports/physical_bridge_2026_09_05/PARENT_BACKGROUND.md.
+
+The full origin gate remains OPEN. Next map a source/end completion or
+admissible non-SL2 deformation into the SAME parent, action, positive
+norm and operator domain. For a reused coefficient witness check its
+global monodromy, determinant/central character and invariant subbundle;
+equal rank does not earn that map. A source must satisfy the F01 projector
+balance with the R39 sign and all noncentral equations. Then derive the
+whole spectrum, interactions and anomaly/end matching. The R19 singular
+positive, R29 stationary added action and nonsplit indices remain on
+their original specifications. No repeated raw-index census or universal
+chirality kill is licensed.

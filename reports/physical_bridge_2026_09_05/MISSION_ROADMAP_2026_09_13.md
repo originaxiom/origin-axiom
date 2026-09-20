@@ -1,5 +1,16 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**R39 completed, September 20:** the specified geometric background solves
+all candidate-parent equations with finite norm, but has so(11) gauge
+content and unitary matter/dual pairing. The full origin milestone is
+NOT complete. Next map a concrete source/end completion or admissible
+non-SL2 deformation into one action, positive norm and physical domain,
+including determinant/central character and all extra fields. Spectrum,
+quantum phase/anomaly, gravity and empirical gates remain.
+[Result](PARENT_BACKGROUND.md); [ordered duties](COMMON_MODEL_AUDIT_2026_09_20.md).
+Native 14/14, new tests 16 pass, focused 206 pass/four prior failures.
+Earlier draft and checkpoint statements below are historical.
+
 **Prior-work reconciliation, September 20:**
 [reuse map](CORPUS_RECONCILIATION_2026_09_20.md) and
 [principal smoothness audit](SMOOTHNESS_RECONCILIATION_2026_09_20.md).

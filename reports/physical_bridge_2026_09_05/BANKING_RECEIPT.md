@@ -1,5 +1,17 @@
 # CC's banking relay read before the next local checkpoint
 
+September 20 R39: [full parent background](PARENT_BACKGROUND.md).
+Seal ce48016a was pushed and server-confirmed before first execution.
+Six scientific files remain unchanged. Native 14 groups and 16 new tests
+pass; thirteen-file focused run is 206 pass / four unchanged failed IDs.
+The receipt checks 52 fixed inputs, four source PDF/text artifacts and
+all six preseal/scientific captures. Global proofs remain authored;
+no shared B, independent main bank, full green or completed TOE.
+The history reader also finished; its compressed hit index, population
+receipt and earlier failed export/checker captures are retained.
+[Reporting checks](PARENT_BACKGROUND_FINAL_CHECKS.txt).
+Earlier dated preparation statements below are historical.
+
 September 20 prior-result checkpoint: the corpus reconciliation restores
 existing mathematical results, reruns selected unchanged exact producers
 and preserves the R39 drafts explicitly UNSEALED and UNEXECUTED.

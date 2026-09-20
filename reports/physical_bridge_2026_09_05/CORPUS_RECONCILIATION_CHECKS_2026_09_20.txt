@@ -124,3 +124,15 @@ The native producer and seven F01 tests pass unchanged; no independent
 implementation or seventeen-test population rerun. The reader-v2
 checkpoint gates have 26 PASS / the same four historical FAIL details,
 review counter 189. That is not a new scientific failure or waiver.
+
+The v2 historical retrieval later COMPLETED, exit 0, 1542.746210 s.
+Raw log SHA256 8410c5800bd873cf486b1460a11a7bd05a284fa3dcc6f1edb33a0cb3b9e948f8.
+The full gzip (2,299,408 bytes) and its verified population receipt are
+published as CORPUS_RECONCILIATION_HISTORY_V2_2026_09_20.json.gz and
+CORPUS_RECONCILIATION_HISTORY_V2_CUSTODY_2026_09_20.json. This does not
+overwrite the old partial custody or failed original history export.
+The first metadata comparison's false reader-change result and binary
+correction are retained in PARENT_BACKGROUND_FINAL_CHECKS.txt; both
+checker source versions remain. The corrected create/recheck outputs
+match, SHA256 5f842c47a766be0bf85fc02785f5e6b5d4e74a5b347e3eb81ecbf7ae643ff626.
+No semantic absence or full reading is certified by the population.

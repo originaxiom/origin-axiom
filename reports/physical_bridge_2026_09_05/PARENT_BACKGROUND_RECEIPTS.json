@@ -1,0 +1,187 @@
+{
+  "scope": "Exact R39 execution and byte custody; global arguments remain authored. Not independent acceptance, full-suite green, physical chirality or TOE.",
+  "seal_pin": "ce48016a5b592f625cf71babc4f65cb3bb51543a",
+  "pre_execution_server_confirmation": "Push succeeded and ls-remote returned this pin in the tool record before the first native invocation; no separate raw capture was made of that confirmation.",
+  "sealed_paths": [
+    "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+    "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PRIOR.md",
+    "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_INPUTS.json",
+    "reports/physical_bridge_2026_09_05/parent_background.py",
+    "tests/test_physical_bridge_parent_background.py"
+  ],
+  "runs": {
+    "native_first": {
+      "raw_basename": "oa_r39_native_first",
+      "raw_receipt_sha256": "d8529eb27f48924bf2f805e17ec4509d6c58126105bd69fb3866fc3e5d655c49",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/parent_background.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.7231769999925746,
+        "log_bytes": 11190,
+        "log_sha256": "a3088bf7f075188c1dcbce17acacbadbb0b454828f709e8624e62030e601b4b8"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_NATIVE_FIRST.json",
+      "public_sha256": "a3088bf7f075188c1dcbce17acacbadbb0b454828f709e8624e62030e601b4b8",
+      "redacted": false
+    },
+    "tests_first": {
+      "raw_basename": "oa_r39_tests_first",
+      "raw_receipt_sha256": "9856f3c2bd2f033e94b829958f5159801a9ebcff7e4097934b7f8e19febc673f",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_parent_background.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.5148970000009285,
+        "log_bytes": 99,
+        "log_sha256": "4ee2546703a8840a21d5aa9047ac49fa438ff78671427bcc03466ab787f466f8"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_TESTS_FIRST.txt",
+      "public_sha256": "4ee2546703a8840a21d5aa9047ac49fa438ff78671427bcc03466ab787f466f8",
+      "redacted": false
+    },
+    "focused_first": {
+      "raw_basename": "oa_r39_focused_first",
+      "raw_receipt_sha256": "a45d9022529bfd6bb8992c1b3d356142f2cacbd41373a5d2d1dfd67733bb4caf",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_quartic.py",
+          "tests/test_physical_bridge_mirror_interaction.py",
+          "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_source_c3.py",
+          "tests/test_physical_bridge_global_poisson.py",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+          "tests/test_physical_bridge_yukawa_overlap.py",
+          "tests/test_physical_bridge_source_scalar.py",
+          "tests/test_physical_bridge_parent_vertex.py",
+          "tests/test_physical_bridge_parent_background.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 53.92010400000436,
+        "log_bytes": 2875,
+        "log_sha256": "031d21da0fc4973e96dc000d4a1e6c078f68afcbbc1edca18ce1fb68a06143f1"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_FOCUSED_FIRST.txt",
+      "public_sha256": "031d21da0fc4973e96dc000d4a1e6c078f68afcbbc1edca18ce1fb68a06143f1",
+      "redacted": false
+    }
+  },
+  "audit_runs": [
+    {
+      "raw_basename": "oa_r39_seal_gates_first",
+      "raw_receipt_sha256": "61253473869cf890f3952488e732246ec164d1a6ddc16a405a2b77a9e515609d",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 14.385872999991989,
+        "log_bytes": 2095,
+        "log_sha256": "01848177746da63421f859430aadb9c2bd134c9da63945f6ab191c372ee26f07"
+      },
+      "public_log": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 21 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 29 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 25 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 190 merges since last review (DUE — run the decadal review)\n"
+    },
+    {
+      "raw_basename": "oa_r39_seal_cumulative_first",
+      "raw_receipt_sha256": "9dce407b892612b35f97503a14a40b9dc30a33e427873b4a166ca64658450a74",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<raw-directory>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.189977000001818,
+        "log_bytes": 616,
+        "log_sha256": "eb1d42cb277a8f041ff3d62953fa0bb2c0f4260b4ea94434db819b66b37d85a7"
+      },
+      "public_log": "{\"old_custody\":{\"artifacts\":606,\"latest_distinct_seals\":158,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":201,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    {
+      "raw_basename": "oa_r39_seal_prior_custody_first",
+      "raw_receipt_sha256": "f42855b5ad7ec029bd8c920043dbf2660ba3c7818113e12027a90b68376d1761",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/corpus_reconciliation_custody.rb",
+          "<raw-directory>",
+          "<raw-directory>/oa-smoothness-literature.SOWzPj",
+          "<raw-directory>/oa-reconciliation-producers.Tn9ZNK",
+          "--partial-check"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.338770000002114,
+        "log_bytes": 362,
+        "log_sha256": "56db02b96d66c4b3ecb13f07103e2df32a00330e640faaf38d5f0a9016c59119"
+      },
+      "public_log": "{\"runs\":15,\"sources\":42,\"unchanged_producers\":3,\"paper_pairs\":4,\"history\":null,\"receipt\":{\"path\":\"reports/physical_bridge_2026_09_05/CORPUS_RECONCILIATION_PARTIAL_CUSTODY_2026_09_20.json\",\"bytes\":37362,\"sha256\":\"28ad4d7b63542952a789876ecb7490a95fe3c659d3c885cb7520c261321bc3b4\"},\"scope\":\"Custody only. Original scientific probe remains R38; R39 is unexecuted.\"}\n"
+    }
+  ],
+  "prior_failed_ids": [
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1]",
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[1]",
+    "FAILED tests/test_physical_bridge_mirror_quartic.py::test_mirror_only_limit_and_breaking_requires_locking",
+    "FAILED tests/test_physical_bridge_mirror_quartic_normal_form_control.py::test_normal_form_instrument_can_pass_and_fail"
+  ],
+  "current_failed_ids": [
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1]",
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[1]",
+    "FAILED tests/test_physical_bridge_mirror_quartic.py::test_mirror_only_limit_and_breaking_requires_locking",
+    "FAILED tests/test_physical_bridge_mirror_quartic_normal_form_control.py::test_normal_form_instrument_can_pass_and_fail"
+  ],
+  "native_groups": 14,
+  "new_tests": 16,
+  "focused_files": 13,
+  "focused_pass": 206,
+  "focused_fail": 4
+}

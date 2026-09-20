@@ -1,5 +1,16 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**Latest original local result, R39 (September 20): complete parent equations.**
+The noncommuting geometric background solves all candidate-parent
+residuals with finite positive norm. Its full surviving algebra is so(11),
+with unitary matter/dual pairing on matched domains. A central-only
+source balance fails the full-equation control. Source/end completions
+and non-SL2 deformations are not excluded; no physical chirality or TOE.
+Native 14/14; new tests 16 pass; thirteen-file focused 206 pass / four
+unchanged prior failures. Report:
+reports/physical_bridge_2026_09_05/PARENT_BACKGROUND.md.
+Earlier dated checkpoints below are historical.
+
 **September 20 F01 reception / R39 pre-execution checkpoint.**
 The pinned fork's unchanged producer and seven tests reproduce. Its
 smooth, source-free, complete finite-volume, finite-energy obstruction

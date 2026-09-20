@@ -207,3 +207,24 @@ inside the candidate parent are not the same matrix. R39 must check
 their actual map and signs, all residual components, the positive metric
 and the whole operator. No source is manufactured by this distinction.
 R39 is prepared for sealing and remains unexecuted at this checkpoint.
+
+## 8. R39 completes the bounded full-equation subtest
+
+- [x] Check the complete geometric candidate-parent equations, positive
+  norm and trace conversion.
+- [x] Compute the whole surviving gauge algebra and matched-domain
+  matter/dual map. The baseline has so(11) and pairing, not a chiral SM.
+- [x] Test the central-only lift and distinguish H-center from Id4.
+- [ ] Complete the physical origin gate. Map a concrete banked coefficient
+  system, including monodromy, determinant/central character and invariant
+  subbundle, into the actual parent; construct a sourced action/end
+  completion or admissible non-SL2 deformation. Equal rank is not a map.
+- [ ] Derive the full physical spectrum, interactions and anomaly/end
+  completion there. Keep quantum phase, gravity and empirical
+  discrimination as requirements of the full mission.
+
+[Result](PARENT_BACKGROUND.md): 14 native groups and 16 new tests pass;
+thirteen-file focused run is 206 pass/four unchanged failures. Global
+arguments remain authored. R29's added stationary solution and the
+nonsplit indices retain their own hypotheses. The geometric construction
+is generic across hyperbolic quotients, not an arithmetic-row selector.

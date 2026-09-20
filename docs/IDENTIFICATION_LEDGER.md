@@ -164,3 +164,19 @@ operation. The conditional algebra does not identify an internal
 scalar profile with a propagating parent one-form mode or an auxiliary.
 The full physical origin and I-10/I-13 remain unpaid. Report:
 reports/physical_bridge_2026_09_05/PARENT_VERTEX.md.
+
+### R39 parent-background maps, September 20 (path-local supplement)
+
+No shared I-number or existing physical status is reassigned. Like the
+R38 supplement, these rows are not counted by the I-number parser.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Actual D5-centralizer / SL4 defining weights | Four explicit weights; their differences give all twelve centralizer roots; U maps to diag(3,-1,-1,-1) | Every joint E8 weight, actual D5 spinor assignment and defining-four center character | Conditional algebra/group map, not object-selected E8 or a physical source |
+| Whole geometric invariant algebra / B5 | D5 Cartan plus computed exterior-square invariant | Complete common kernels, fifty nonzero roots and rank-five Cartan matrix | Conditional compact Lie algebra, not a global group quotient or the observed gauge group |
+| Matter coefficient bundle / dual | Explicit antisymmetric unitary J | Connection and positive adjoint checked; matched-domain transport is authored | Pairing for this baseline/domain, not all defects or non-SL2 deformations |
+| Identity source / H-central source in the parent | Actual matrices in the same coefficient four | Projector pairings 0 versus 12 and conversion I=-2 d_A^*phi | Their equality fails; a compensating global source is not constructed |
+
+Report: reports/physical_bridge_2026_09_05/PARENT_BACKGROUND.md.
+Locks: tests/test_physical_bridge_parent_background.py. I-10/I-13,
+physical chirality and full field-theory origin remain unpaid.

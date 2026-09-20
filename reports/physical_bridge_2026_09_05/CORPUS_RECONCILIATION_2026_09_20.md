@@ -27,7 +27,25 @@ control invocation also failed on Ruby 2.6's absent filter_map; the
 map/compact correction passes all 12 controls. No old reader is changed.
 Working drafts and these outgoing reconciliation notes are NOT prior
 independent discoveries. Ref trees are sampled at scan start; worktree
-bytes are sampled at its end. The v2 rerun has not yet completed.
+bytes are sampled at its end. The v2 rerun subsequently completed:
+59,279 objects, including 31,411 blobs totaling 3,704,874,119 bytes,
+15 pinned head trees, 22 tags and 16,022 historical names. Independent
+Git type/size and inventory checks agree. There are 14,247 matching
+blob versions and 1,923 worktree hits across the 13 declared patterns;
+these are retrieval counts, not numbers of scientific results.
+The [completed receipt](CORPUS_RECONCILIATION_HISTORY_V2_CUSTODY_2026_09_20.json)
+and its unchanged compressed archive preserve the full hit index.
+Its own-start pin is 3450f704 and the newly included fork is be669308;
+the worktree snapshot also contains outgoing R39 work, not independent
+prior evidence. The older partial receipt remains valid and unchanged.
+
+A first custody comparison falsely reported changed reader bytes by
+comparing UTF-8 and binary-encoded Ruby strings. Its failed checker
+and capture are retained; a separately named binary-safe comparison
+passes. A Unicode literal also failed in an inline metadata-control
+command under the shell locale; the ASCII-encoded codepoint control
+then demonstrated both byte equality and a changed-byte failure.
+No scan, scientific producer or acceptance criterion was altered.
 
 The older absence instrument's deleted lane checks filenames, not
 deleted contents, and its CLI abbreviates the examples. The

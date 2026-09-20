@@ -1,5 +1,18 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
+**Latest original result, R39 (September 20): [full parent background](PARENT_BACKGROUND.md).**
+The noncommuting geometric connection solves every candidate-parent
+equation with finite positive norm. Its full unbroken algebra is so(11),
+and its matter/dual operators are unitarily paired on matched domains.
+Dropping neutral fields produces a false central-only solution.
+Native 14/14; new tests 16 pass; thirteen-file focused 206 pass / the
+same four prior failures. A source completion or admissible non-SL2
+deformation remains next; physical chirality and the full TOE are not
+claimed. F01 and prior coefficient positives remain scoped inputs.
+The completed [history receipt](CORPUS_RECONCILIATION_HISTORY_V2_CUSTODY_2026_09_20.json)
+certifies a retrieval population, not semantic absence or novelty.
+Earlier dated seal/draft statements below are historical.
+
 **September 20 F01 reception and R39 pre-execution checkpoint.**
 The pinned fork's unchanged producer and seven tests reproduce. Its
 source-free finite-energy obstruction is scoped to the stated global

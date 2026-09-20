@@ -1,0 +1,67 @@
+{
+  "scope": "Completed literal/regex retrieval custody, independently checked object/name/head populations. Not semantic absence, full reading, novelty or mathematical verification.",
+  "raw_basename": "oa_r39_swipe_history_v2_20260920",
+  "raw_receipt_sha256": "e78b0cef02eb10018442c936c2f377fa4feb328f35e1200ab67c763f4b5aa3a4",
+  "receipt": {
+    "command": [
+      "ruby",
+      "-EUTF-8:UTF-8",
+      "reports/physical_bridge_2026_09_05/corpus_reconciliation_scan_v2.rb",
+      "<raw-directory>/oa_r39_swipe_history_v2_20260920.json.gz"
+    ],
+    "exit_code": 0,
+    "signal": null,
+    "elapsed_seconds": 1542.7462099999975,
+    "log_bytes": 1446,
+    "log_sha256": "8410c5800bd873cf486b1460a11a7bd05a284fa3dcc6f1edb33a0cb3b9e948f8"
+  },
+  "public_log": "{\"kind\":\"progress\",\"objects\":5000,\"total_objects\":59279,\"blob_bytes\":8838320}\n{\"kind\":\"progress\",\"objects\":10000,\"total_objects\":59279,\"blob_bytes\":39839734}\n{\"kind\":\"progress\",\"objects\":15000,\"total_objects\":59279,\"blob_bytes\":115117796}\n{\"kind\":\"progress\",\"objects\":20000,\"total_objects\":59279,\"blob_bytes\":278318420}\n{\"kind\":\"progress\",\"objects\":25000,\"total_objects\":59279,\"blob_bytes\":906380413}\n{\"kind\":\"progress\",\"objects\":30000,\"total_objects\":59279,\"blob_bytes\":1578910926}\n{\"kind\":\"progress\",\"objects\":35000,\"total_objects\":59279,\"blob_bytes\":1925166700}\n{\"kind\":\"progress\",\"objects\":40000,\"total_objects\":59279,\"blob_bytes\":2433877222}\n{\"kind\":\"progress\",\"objects\":45000,\"total_objects\":59279,\"blob_bytes\":2917041584}\n{\"kind\":\"progress\",\"objects\":50000,\"total_objects\":59279,\"blob_bytes\":3341632984}\n{\"kind\":\"progress\",\"objects\":55000,\"total_objects\":59279,\"blob_bytes\":3551746789}\n{\"kind\":\"complete\",\"counts\":{\"commit\":4667,\"tag\":16,\"tree\":23185,\"blob\":31411},\"blob_bytes\":3704874119,\"matched_blobs\":14247,\"term_blob_counts\":{\"pw_higgs\":4600,\"harmonic_metric\":1338,\"moment_map\":5329,\"centralizer_a3\":7646,\"self_dual\":7219,\"nonabelian_holonomy\":2721,\"source_action\":3211,\"chirality_domain\":6585,\"mirror_interaction\":1853,\"parent_action\":6277,\"geometry_class\":8806,\"gravity_dynamics\":5230,\"threshold_values\":3729},\"head_count\":15,\"worktree_hits\":1923,\"receipt_sha256\":\"91abf81a5fec30f1eb5c1e29b7418123ee8747566b036c1df8deb692f444bc96\"}\n",
+  "reader_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/corpus_reconciliation_scan.rb",
+      "bytes": 11030,
+      "sha256": "36ac65a3633b13ebde9101f642608c7397d3f87f3723a29442f288b97500269a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/corpus_reconciliation_scan_v2.rb",
+      "bytes": 5952,
+      "sha256": "fe4f682196fbc257be03753d110ba48f59e1625259ab3af4af8659dae33cfdda"
+    }
+  ],
+  "archive": {
+    "path": "reports/physical_bridge_2026_09_05/CORPUS_RECONCILIATION_HISTORY_V2_2026_09_20.json.gz",
+    "bytes": 2299408,
+    "sha256": "91abf81a5fec30f1eb5c1e29b7418123ee8747566b036c1df8deb692f444bc96"
+  },
+  "object_inventory_sha256": "f4ec5a7164744081f41652d808b2249a73e738f3021fa71941e936b7a90b8446",
+  "counts": {
+    "commit": 4667,
+    "tag": 16,
+    "tree": 23185,
+    "blob": 31411
+  },
+  "blob_bytes": 3704874119,
+  "current_head_trees_at_start": 15,
+  "historical_names": 16022,
+  "tag_refs": 22,
+  "extra_tip_count": 2,
+  "matched_blobs": 14247,
+  "term_blob_counts": {
+    "pw_higgs": 4600,
+    "harmonic_metric": 1338,
+    "moment_map": 5329,
+    "centralizer_a3": 7646,
+    "self_dual": 7219,
+    "nonabelian_holonomy": 2721,
+    "source_action": 3211,
+    "chirality_domain": 6585,
+    "mirror_interaction": 1853,
+    "parent_action": 6277,
+    "geometry_class": 8806,
+    "gravity_dynamics": 5230,
+    "threshold_values": 3729
+  },
+  "working_tree_hits_at_end": 1923,
+  "sampling_boundary": "Refs and reachable Git bytes are pinned at start; nonignored worktree is sampled later. Outgoing drafts/results are not independent prior work. Compressed document contents are not decoded.",
+  "prior_failure_retained": "oa_r39_swipe_history_20260920 exited 1 during export; original empty gzip and failed capture are not overwritten."
+}
