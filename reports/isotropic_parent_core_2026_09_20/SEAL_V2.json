@@ -1,0 +1,9 @@
+{
+  "scope": "F06 post-failure expectation correction, sealed before corrected execution; original producer and first failure retained",
+  "sha256": {
+    "CORRECTION_DESIGN.md": "db3c9886a0d871fd29d74b7ea065f95144cb2a5aef90bc8050ce1b3a9003382f",
+    "PROOF_V2_ADDENDUM.md": "9123130c4cc8c327a5c8f881d05d19eb432f166a661fae343e2bd7334f521199",
+    "test_verify_v2.py": "8841b6069c05237c6731bdc9fb89a6d3585872e88447e70964f81c1c2dedd244",
+    "verify.py": "306af32f146b42748014e0f9e9db5fd9f73c5af6d1f72da5c04ed749b3dd8cd9"
+  }
+}
