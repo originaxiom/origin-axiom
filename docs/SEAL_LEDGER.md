@@ -741,3 +741,19 @@ No physical source origin, hyperbolic selectivity or quantum gap follows.
 | `reports/physical_bridge_2026_09_05/SOURCE_SCALAR_INPUTS.json` | `79861f27e994271ab765c88bd21996114e0b7e6f12a6bc2249718ea4d2aca91a` |
 | `reports/physical_bridge_2026_09_05/source_scalar.py` | `64e05682671fa8a79e1bdf0669accac9f079d90e22fc53cfcd13ad270dc77ade` |
 | `tests/test_physical_bridge_source_scalar.py` | `20311262eccef6c18ce3ea103559f7fc410549bb96f59d1fe4de4bfa6817d27b` |
+
+## Path-local R38, 2026-09-20 — parent embedding and actual vertices, before execution
+
+The expected outcomes are disclosed in the authored proof. Verify the
+actual H lattice and the entire E8 roster, then keep classical field
+statistics and form degrees in the action. Preserve the added EFT and
+localized/composite hatches; no universal parent or chirality exclusion.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/PARENT_VERTEX_DESIGN.md` | `c2793a0b3b389e05629468aa75efa3a918634bf70f063b28f57301e06d24b715` |
+| `reports/physical_bridge_2026_09_05/PARENT_VERTEX_PROOF.md` | `aa5065f40de6053bcbc5a3b08b2c6a31041c86bc4945609e492a5abee37c9fd7` |
+| `reports/physical_bridge_2026_09_05/PARENT_VERTEX_PRIOR.md` | `4349faf028e64e5866a6465a2942303e5a910ce4852e0ce8247f9d2bd35c51c5` |
+| `reports/physical_bridge_2026_09_05/PARENT_VERTEX_INPUTS.json` | `76e9188afc504be11991bd4870d4706c10f88fe2e90a95a2321fca1e38d577ab` |
+| `reports/physical_bridge_2026_09_05/parent_vertex.py` | `8b308b0d783c3d04bfef8e3339c2b884bef7fe4da3c73a205651a08d2f243793` |
+| `tests/test_physical_bridge_parent_vertex.py` | `e50567bfb83c2c80a895fe5967594024811ff16247628f130b4ae5cb9c1dfe79` |
