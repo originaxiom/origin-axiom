@@ -93,3 +93,21 @@ Ruby syntax and staged/unstaged whitespace checks pass. This final
 receipt addendum and its latest manifest digest are checked before
 commit; no scientific files are changed. Historical retrieval remains
 pending at this PARTIAL checkpoint and licenses no absence assertion.
+
+Subsequent terminal retrieval failure, after cc0484ea:
+oa_r39_swipe_history_20260920
+  exit 1; elapsed 3585.980521 seconds; stdout/stderr bytes 623
+  SHA256 c2be81a1f101dc7c67b3a0b4d200ed3fee3218b8df7726cea6bfc1ae1c0285de
+  Gzip export attempted binary-to-UTF8 transcoding. Empty output retained.
+  No complete history receipt exists for this original invocation.
+oa_r39_swipe_controls_v2_20260920
+  exit 1; SHA256 dda5df0a908df8f57a4492ec0cd206531119321a032badc7a4ff2d9648820591
+  New reader's filter_map is unsupported by Ruby 2.6. Correction uses
+  map/compact; the original failure capture remains unchanged.
+oa_r39_swipe_controls_v2_retry_20260920
+  exit 0; bytes 643
+  SHA256 a776c1380b17350f40fadf5b0210a963cd3d18b45503432b88409e2b422e3efb
+  12 controls pass, including old retrieval controls, all 13 original
+  patterns on 76 byte fixtures, unusual-regex fallback, gzip roundtrip,
+  deterministic header and overwrite refusal. This is an instrument
+  check, not completed corpus coverage or mathematical verification.

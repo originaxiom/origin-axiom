@@ -16,12 +16,18 @@ and separately records current head trees, historical filenames and
 the nonignored worktree. Its eight synthetic controls pass; the
 existing absence instrument's five controls also pass.
 
-The full historical run is still in progress while this report is
-drafted. Its receipt and exact population will be inserted only
-after successful completion. An unfinished search licenses no
-absence claim. Working drafts and these outgoing reconciliation
-notes are explicitly NOT independent prior discoveries. Ref trees
-are sampled at scan start; worktree bytes are sampled at its end.
+At the cc0484ea partial checkpoint the historical run was in progress.
+It subsequently FAILED during gzip export: Ruby attempted to transcode
+compressed bytes through a text-mode file. The 3,585.98-second run has
+no usable receipt; its empty output and failed capture are retained.
+No completed-coverage or absence claim follows. A separate v2 reader
+uses binary export, checks roundtrip/exclusive creation, and tests its
+faster line finder against the old method on 76 fixtures. Its first
+control invocation also failed on Ruby 2.6's absent filter_map; the
+map/compact correction passes all 12 controls. No old reader is changed.
+Working drafts and these outgoing reconciliation notes are NOT prior
+independent discoveries. Ref trees are sampled at scan start; worktree
+bytes are sampled at its end. The v2 rerun has not yet completed.
 
 The older absence instrument's deleted lane checks filenames, not
 deleted contents, and its CLI abbreviates the examples. The
@@ -121,8 +127,11 @@ This receipt intentionally excludes the STILL RUNNING historical
 scan; it is not mislabeled a completed all-history receipt.
 
 An additional local audit/fork-2026-09-20 ref was observed during the
-read window, pointing to the same 12fe9ac7 checkpoint. It was not
-created or edited by this work and adds no new reachable objects.
+original read window, then pointing to the same 12fe9ac7 checkpoint.
+On the later read it advanced independently to be669308, with a new
+F01 nonsplit-admissibility result. Its producer/proof are now being
+verified separately; it is not yet a verified input to this report.
+That fork was not created or edited by this work.
 Only audit/physical-bridge-2026-09-05 is used for our commits/pushes.
 The scan's start-ref snapshot and later worktree snapshot are not
 claimed simultaneous; reporting drafts are excluded from prior evidence.
