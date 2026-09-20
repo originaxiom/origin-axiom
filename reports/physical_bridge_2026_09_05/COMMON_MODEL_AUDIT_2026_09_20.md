@@ -22,6 +22,8 @@ mathematically because their operator domains differ.
 | R30/R31: resolved fermions and light pairs | Bulk positive norm, extending flat line, finite core, absolute outer domain, actual compact Poisson family | Exact finite-width kernel and at least three light positive pairs under the strong-source hypotheses; not three unpaired generations |
 | R33/R34: invariant interactions | Added S=10_2, Phi=1_4, two allowed Yukawas; explicit H intertwiners | Nonzero Grassmann quartic and conditional matching; not a selected scalar or a selective quantum gap |
 | R36: normalized charged overlaps | Exact positive scalar/one-form pairs, declared form contraction, smooth bulk scalar coefficient | Covariant overlap identity with boundary term; not a tube-local scalar with a different measure/domain |
+| R37: source scalar and complete flat control | Added weighted tube S sector, transmitting bulk fermions, full four-mode comparator | Stationarity, normalization and interface identity; selected-pair preference is not whole-sector selectivity |
+| R38: actual-H parent candidate | Explicit changed compact E8 embedding and classical pure-SYM field dictionary | Faithful group/weight map; NOT automatic transfer of the added zero-form Yukawa or source dynamics |
 
 Sources, including their limitations: [R19](HOLONOMY_SPECTRUM.md),
 [R21](ANOMALY_COMPLETION.md), [R22](GEOMETRIC_COMPLETION.md),
@@ -119,6 +121,11 @@ the question is what non-input consequences survive after fixing them.
   Test elementary, localized and composite/auxiliary possibilities
   separately. Absence from one adjoint decomposition would exclude only
   that elementary route, not a composite or higher representation.
+  R38 completes the bounded group/vertex subtest: the actual H embeds
+  faithfully into E8, with required and additional fields; the tested
+  pure-SYM action does not directly supply the proposed two-zero-form
+  Yukawa. The H-EFT interaction survives. The full origin gate is NOT
+  marked complete by representation supply or a bare-vertex zero.
 - [ ] Actual-mode gate: for that fixed action, derive or bound the WHOLE
   relevant low-energy overlap operators, including degenerate neighbors,
   extra modes and source/end currents. Trial functions are not exact
@@ -152,9 +159,29 @@ analytic arguments retain their authored-versus-independent-review
 grades. R37 is now executed and reported; its narrower scalar and flat
 control results do not complete benchmark C's physical interpretation.
 An all-head fetch succeeded on September 20 without ref updates; no
-new incoming census or paper was verified in this audit. This audit is
-not a semantic absence sweep and does not close other seats' leads.
+new incoming census was verified in this audit. R38 additionally
+checks exact H/E8 tensors and personally reads selected primary SYM
+sections, with explicit reading grades in PARENT_VERTEX_PRIOR.md and
+the post-seal reading note in PARENT_VERTEX.md. This is not a semantic
+absence sweep and does not close other seats' leads.
 
 Previous focused failures and governance debts remain visible. Local
 research preservation on the audit branch is not a fully green main
 bank, independent acceptance, physical chirality closure or a TOE.
+
+## 6. R38 sharpens the next origin test
+
+[The parent-action audit](PARENT_VERTEX.md) leaves a concrete candidate:
+test the E8 charge-four adjoint ONE-FORM fields in the full complex-
+flatness and moment-map equations. Check noncentral components and
+the charge-three sector's couplings, not just an assumed central
+Poisson source. This may connect the sourced and noncommuting paths;
+no solution is asserted by the group embedding. E8 remains an input.
+
+Do not identify an added propagating internal scalar with a parent
+one-form component or algebraic auxiliary without a mode/action map.
+Likewise, the zero-form fermion's parent gaugino label calls for the
+whole gauge/boson/source spectrum; it does not alone prove extra light
+vectors in the existing non-supersymmetric EFT. Localized/composite
+matching remains separate. Only a common action can decide which
+of the previously computed spectrum and overlap results transfer.

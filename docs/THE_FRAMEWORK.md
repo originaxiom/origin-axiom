@@ -1,5 +1,18 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**LATEST LOCAL RESULT, R38 (September 20): the parent map and the action are different gates.**
+An explicit integral, saturated H-to-E8 map supplies the actual Q/S
+weights, with every extra sector counted. The specified classical
+pure-SYM action does not directly supply the two-zero-form mirror
+Yukawa; positive one-form and added H-EFT controls survive. This is
+not a universal chirality kill or an object-selected E8 theory.
+Native 13/13; new tests 15 pass; twelve-file focused 190 pass / four
+unchanged prior failures. Next test the candidate's charge-four
+one-form sources under the full parent equations and retain the
+charge-three fields, source/end, whole-spectrum and quantum duties.
+Report: reports/physical_bridge_2026_09_05/PARENT_VERTEX.md.
+All earlier dated checkpoints below are historical.
+
 **LATEST LOCAL RESULT, R37 (September 20): source scalar and whole-mode control.**
 The added tube scalar preserves the stationary source point and has a
 weighted normalized mode with derived real mass branches. A separate

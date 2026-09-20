@@ -15155,3 +15155,31 @@ are retained. No shared B, full-suite green, independent main bank,
 empirical prediction or completed TOE.
 Report: reports/physical_bridge_2026_09_05/SOURCE_SCALAR.md.
 Audit: reports/physical_bridge_2026_09_05/COMMON_MODEL_AUDIT_2026_09_20.md.
+
+## 2026-09-20 — R38 earns a parent-group map and tests the actual field vertex
+
+The actual compact H embeds faithfully into a candidate compact E8:
+its cocharacter map is integral and saturated, and the complete 248
+weight roster supplies Q=1_4 and S=10_2 alongside extra sectors.
+The familiar three 27s are prior B1138/B1150 algebra, not a new
+physical generation count. This embedding changes the parent; it
+does not extend the original E6 root map or select E8 from the object.
+
+The specified classical partially twisted pure-SYM action does not
+directly supply the proposed two-zero-form mirror Yukawa. Complete
+internal invariant-tensor and Grassmann tests retain positive one-form
+vertices and ALL ten added H-EFT symmetric couplings. The parent's
+wedge operation is not the R36/R37 metric overlap. Localized/composite
+and matched effective interactions are not excluded by a bare zero.
+
+Next test the existing charge-four adjoint one-forms against the full
+parent equations, including noncentral moment maps and charge-three
+fields. This is proposed work, not a stationary physical source.
+The approved common-model order, sourced path and bounded noncommuting
+alternative remain; no chirality, quantum phase or TOE closure.
+
+Seal 4168ad94 was pushed and remote-confirmed before execution.
+Native 13/13, new tests 15 pass; twelve-file focused 190 pass / the
+same four prior failed IDs. Raw exits, original files and known
+governance debts are retained; no shared B or independent main bank.
+Report: reports/physical_bridge_2026_09_05/PARENT_VERTEX.md.

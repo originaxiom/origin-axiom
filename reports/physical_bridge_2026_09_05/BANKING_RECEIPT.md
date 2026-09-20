@@ -1,5 +1,19 @@
 # CC's banking relay read before the next local checkpoint
 
+R38, September 20: [parent embedding and actual vertices](PARENT_VERTEX.md).
+Seal 4168ad94 was committed, pushed and server-confirmed before
+execution. Native 13/13, new tests 15 pass; twelve-file focused
+190 pass / the same four failed IDs. Six unchanged scientific files,
+43 frozen inputs, two paper artifacts, two prior queries and seven
+preseal/scientific captures are checked by
+[the custody tool](parent_vertex_receipt_check.rb).
+The E8 weight supply does not earn the full parent-action join.
+Next test the actual charge-four one-form fields under the full
+parent equations, retaining charge-three and source/end sectors.
+No shared B, full-suite green, independent main bank or physics closure.
+Reporting checks: [PARENT_VERTEX_FINAL_CHECKS.txt](PARENT_VERTEX_FINAL_CHECKS.txt).
+All dated entries below are historical receipts.
+
 R37, September 20: [source scalar and whole-mode control](SOURCE_SCALAR.md).
 The f987ef16 seal was pushed and remote-confirmed before execution.
 Native 13/13, whole new file 17 pass, eleven-file focused 175 pass /

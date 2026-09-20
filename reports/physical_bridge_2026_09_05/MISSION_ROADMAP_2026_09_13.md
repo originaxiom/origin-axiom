@@ -1,5 +1,20 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Latest local result, R38 (September 20): [parent embedding and actual vertices](PARENT_VERTEX.md).**
+The actual compact H embeds faithfully into E8 with the desired Q/S
+weights and additional sectors kept in the census. The tested classical
+SYM action does not directly yield the proposed two-zero-form mirror
+Yukawa; its internal one-form vertices differ from the added EFT.
+All 13 native groups and 15 new tests pass; twelve-file focused:
+190 pass / the same four prior failures. The valid H-EFT interactions
+and localized/composite routes survive. Parent source dynamics,
+physical mode identification and selective quantum chirality remain
+open. Next test the existing charge-four one-forms against the full
+parent equations, including the extra charge-three sector.
+
+R38 is the latest executed science. Dated checkpoint entries below
+retain their historical scope; no full physical theory is claimed.
+
 **Latest local result, R37 (September 20): [source scalar and whole-mode control](SOURCE_SCALAR.md).**
 The specified added tube-scalar action preserves the stationary source
 point and determines its weighted normalized mode and real mass split.

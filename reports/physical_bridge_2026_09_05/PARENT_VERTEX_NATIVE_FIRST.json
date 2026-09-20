@@ -1,0 +1,700 @@
+{
+  "embedding": {
+    "e8_root_count": 240,
+    "e8_basis": [
+      [
+        "1/2",
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        "-1/2",
+        1,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        "-1/2",
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        "-1/2",
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      [
+        "-1/2",
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0
+      ],
+      [
+        "-1/2",
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1
+      ],
+      [
+        "-1/2",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        "1/2",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "e8_gram": [
+      [
+        2,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        2,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        2
+      ]
+    ],
+    "e8_basis_det": -1,
+    "e8_gram_det": 1,
+    "roots_norm_two": true,
+    "reflection_complete": true,
+    "e8_roots_integral": true,
+    "H_map": [
+      [
+        "-1/2",
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        "-1/2",
+        0,
+        0,
+        0,
+        1,
+        -1
+      ],
+      [
+        "-1/2",
+        0,
+        0,
+        1,
+        -1,
+        0
+      ],
+      [
+        "-1/2",
+        1,
+        1,
+        -1,
+        0,
+        0
+      ],
+      [
+        "1/2",
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        "-3/2",
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        "3/2",
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        "3/2",
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "cocharacter_map": [
+      [
+        4,
+        3,
+        5,
+        6,
+        4,
+        2
+      ],
+      [
+        5,
+        5,
+        7,
+        9,
+        6,
+        3
+      ],
+      [
+        7,
+        6,
+        9,
+        11,
+        7,
+        3
+      ],
+      [
+        10,
+        9,
+        13,
+        16,
+        10,
+        5
+      ],
+      [
+        8,
+        7,
+        10,
+        12,
+        8,
+        4
+      ],
+      [
+        6,
+        5,
+        7,
+        9,
+        6,
+        3
+      ],
+      [
+        4,
+        3,
+        5,
+        6,
+        4,
+        2
+      ],
+      [
+        4,
+        3,
+        5,
+        6,
+        4,
+        2
+      ]
+    ],
+    "cocharacter_rank": 6,
+    "cocharacter_integral": true,
+    "maximal_minors": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "saturation_index": 1,
+    "central_direction": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        -2
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "d5_gram": [
+      [
+        2,
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        -1,
+        0,
+        0
+      ],
+      [
+        -1,
+        -1,
+        2,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        -1,
+        2
+      ]
+    ],
+    "d5_metric_correct": true,
+    "d5_roots_preserved": true,
+    "all_restricted_weights_integral": true,
+    "total_dimension": 248,
+    "charge_dimensions": {
+      "-4": 3,
+      "-3": 16,
+      "-2": 30,
+      "-1": 48,
+      "0": 54,
+      "1": 48,
+      "2": 30,
+      "3": 16,
+      "4": 3
+    },
+    "full_weight_multiset_matches": true,
+    "same_actual_spinor": true,
+    "same_actual_vector": true,
+    "same_actual_Q": true,
+    "same_euclidean_spinor": true,
+    "wrong_spinor_same_dimension": true,
+    "wrong_spinor_different": true,
+    "original_adjoint_charge_dims": {
+      "-1": 16,
+      "0": 46,
+      "1": 16
+    },
+    "old_simple_image": [
+      [
+        "-1/2"
+      ],
+      [
+        "-1/2"
+      ],
+      [
+        "-1/2"
+      ],
+      [
+        "-1/2"
+      ],
+      [
+        "1/2"
+      ],
+      [
+        "-3/2"
+      ],
+      [
+        "3/2"
+      ],
+      [
+        "3/2"
+      ]
+    ],
+    "old_simple_image_norm": 8,
+    "old_simple_image_not_root": true,
+    "central_division_mutant_integral": false,
+    "central_division_mutant": [
+      [
+        "4/3",
+        1,
+        "5/3",
+        2,
+        "4/3",
+        "2/3"
+      ],
+      [
+        "5/3",
+        "5/2",
+        "17/6",
+        4,
+        "8/3",
+        "4/3"
+      ],
+      [
+        "7/3",
+        "5/2",
+        "19/6",
+        4,
+        "7/3",
+        "2/3"
+      ],
+      [
+        "10/3",
+        4,
+        "14/3",
+        6,
+        "10/3",
+        "5/3"
+      ],
+      [
+        "8/3",
+        3,
+        "10/3",
+        4,
+        "8/3",
+        "4/3"
+      ],
+      [
+        2,
+        2,
+        2,
+        3,
+        2,
+        1
+      ],
+      [
+        "4/3",
+        1,
+        "5/3",
+        2,
+        "4/3",
+        "2/3"
+      ],
+      [
+        "4/3",
+        1,
+        "5/3",
+        2,
+        "4/3",
+        "2/3"
+      ]
+    ]
+  },
+  "family": {
+    "family_blocks": {
+      "(-1, 1)": 27,
+      "(0, -1)": 27,
+      "(1, 0)": 27
+    },
+    "each_full_H_27": true,
+    "family_roots": 81,
+    "zero_sum_triples": 270,
+    "all_distinct_families": true,
+    "internal_triples": 45,
+    "family_assignment_multiplicities": [
+      6
+    ],
+    "family_invariant_dimension": 1,
+    "epsilon_invariant": true,
+    "family_zero_roots": 72,
+    "charged_root_witness": [
+      [
+        [
+          "-1/2"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "-1/2"
+        ]
+      ],
+      [
+        [
+          "-1/2"
+        ],
+        [
+          "-1/2"
+        ],
+        [
+          "-1/2"
+        ],
+        [
+          "-1/2"
+        ],
+        [
+          "-1/2"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "-1/2"
+        ],
+        [
+          "1/2"
+        ]
+      ],
+      [
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          -1
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    ],
+    "witness_all_roots": true,
+    "witness_charges": [
+      -1,
+      -1,
+      2
+    ],
+    "witness_nonzero_bracket_root": true,
+    "witness_actual_fields": true
+  },
+  "internal": {
+    "invariant_dimensions": {
+      "1": 0,
+      "2": 1,
+      "3": 1
+    },
+    "delta_invariant": true,
+    "epsilon_invariant": true,
+    "fixed_vector_not_invariant": true,
+    "delta_not_alternating": true,
+    "epsilon_not_symmetric": true
+  },
+  "statistics": {
+    "color_antisymmetric": true,
+    "zero_form_matrix_symmetric": true,
+    "zero_form_coefficients": 0,
+    "one_form_matrix_antisymmetric": true,
+    "one_form_coefficients": 4,
+    "mixed_species_coefficients": 4,
+    "family_matrix_antisymmetric": true,
+    "all_ten_Y_symmetric": true,
+    "added_EFT_coefficients": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16
+    ],
+    "parent_family_zero_form_coefficients": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "contractions": {
+    "equal_dot": 1,
+    "equal_wedge": 0,
+    "orthogonal_dot": 0,
+    "orthogonal_wedge": -1
+  },
+  "checks": {
+    "complete_e8_lattice": true,
+    "faithful_H_map": true,
+    "complete_weight_roster": true,
+    "actual_fields": true,
+    "original_parent_scope": true,
+    "map_mutants_discriminate": true,
+    "family_recovery": true,
+    "nonzero_root_channel": true,
+    "internal_tensor_census": true,
+    "zero_form_statistics": true,
+    "positive_parent_vertices": true,
+    "added_EFT_not_retracted": true,
+    "overlap_operations_distinct": true
+  },
+  "all_checks_pass": true,
+  "scope": "Exact candidate compact H embedding and classical local tensors; no parent/source selection, global matching, quantum gap or TOE.",
+  "elapsed_seconds": 1.513892825008952
+}

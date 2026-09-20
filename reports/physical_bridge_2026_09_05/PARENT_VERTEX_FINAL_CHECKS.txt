@@ -1,0 +1,113 @@
+R38 reporting checks, 2026-09-20
+
+Scientific seal 4168ad9444a18451abd34ed8f36317cc060734ac was pushed
+and server-confirmed before execution. Native 13 groups pass; new
+tests 15 pass; twelve-file focused 190 pass / four unchanged prior
+failed IDs. All six scientific files remain unchanged. No broad or
+full-repository green, independent proof acceptance or physics closure.
+
+First/final preseal governance outputs are byte-identical: 26 PASS,
+the same four historical FAIL details, review counter 185. Both
+preseal cumulative custody runs pass. Seven raw captures, three
+scientific public copies and exact exits are in PARENT_VERTEX_RECEIPTS.
+The two prior queries and hashed primary PDF/text are also retained.
+
+A metadata-only comparison initially used Ruby's default US-ASCII
+and failed on Unicode log text. It was rerun with explicit UTF-8
+before the seal push and confirmed all four FAIL lines identical to
+R37. No scientific file, result or gate debt changed. The first
+failed comparison was not represented as a successful check.
+
+Final staged reporting checks will be recorded below, retaining
+their actual exits and hashes. The existing attribution, vacuity,
+seal-provenance and relay debts are not waived by this report.
+
+Procedural limitation: the standalone identification_audit.py was
+run only AFTER computation (oa_r38_identification_postcompute), not
+as an identification preflight. It exits 0 and reports 24 ledger
+rows: 8 EARNED, 7 REFUTED, 9 UNEARNED (baseline 9). That is a ledger
+state check, not independent validation of the group map. The exact
+lattice, root, weight and parent-action tests themselves were sealed
+before execution. This late check does not retroactively satisfy a
+preflight requirement, and no such compliance is claimed.
+
+
+First staged reporting checks
+
+Governance: 26 PASS / the exact four preseal FAIL details unchanged;
+review counter 186. Existing attribution, vacuity, seal-provenance
+and 21 stale relay debts remain. The postcompute identification check
+above is not promoted to preflight compliance.
+Cumulative custody: 587 artifact paths, 152 latest distinct seals,
+271 relative links in this staged/prior population. R38 and prior
+R37 custody both pass. These are byte/preservation checks, not an
+independent proof review or fresh full-suite science execution.
+Strict staged whitespace exits 2 only for the literal pytest trailing
+spaces on lines 15 and 21 of PARENT_VERTEX_FOCUSED_FIRST.txt. The
+check excluding exactly that captured-output file exits 0.
+
+oa_r38_report_gates_first
+{"exit_code":1,"signal":null,"elapsed_seconds":14.502779000002192,"log_bytes":2095,"log_sha256":"c7164313484bf32c2e05442bdf8747e77a0ed17ac528c8fef82bcbdab225f1e0"}
+raw receipt SHA256 1213e1376e6fe86ce464fa2c609c0155a530062a0e66f01f9b1d2b9eae44c3eb
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 21 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 29 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 25 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 186 merges since last review (DUE — run the decadal review)
+
+oa_r38_report_custody_first
+{"exit_code":0,"signal":null,"elapsed_seconds":1.9850790000054985,"log_bytes":336,"log_sha256":"4a326edc6b92f2937a4ed9f827c63e38f7ff09fa49acbdb83d2bb3e07720b0b7"}
+raw receipt SHA256 388ae11af9e4c4b33caf4235cf3eeb86b6cac58f2ddbc0703fc5b6ef3bab35b0
+{"sealed_paths":6,"frozen_inputs":43,"paper_artifacts":2,"prior_captures":2,"raw_captures":7,"public_science_copies":3,"native_groups":13,"new_tests":15,"focused_files":12,"focused_pass":190,"unchanged_focused_failures":4,"scope":"Byte custody and fixed populations, not independent proof, full green or a physical parent completion."}
+
+oa_r38_report_cumulative_first
+{"exit_code":0,"signal":null,"elapsed_seconds":1.2550950000004377,"log_bytes":616,"log_sha256":"bdb56e728fbb81fff3d51aa81b04b5f1137b20b3227d372de0948c47f05ae73d"}
+raw receipt SHA256 6471d80fbeb9566d5ee1985bd26efed035bdf2c996c9bc61d8be995ed76f47ac
+{"old_custody":{"artifacts":587,"latest_distinct_seals":152,"unchanged_science_paths":11,"raw_captures":14,"public_science_copies":7,"broad_test_files":52,"unchanged_failed_error_ids":24,"relative_markdown_links":271,"scope":"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green."},"unchanged_r31_science_paths":8,"r31_raw_captures":9,"r31_public_copies":4,"r31_broad_test_files":54,"unchanged_failed_error_ids":24,"history_population_verified":true,"scope":"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green."}
+
+oa_r38_report_r37_custody_first
+{"exit_code":0,"signal":null,"elapsed_seconds":1.4902399999991758,"log_bytes":289,"log_sha256":"d86026efacf87cc976a94731d9651294079e776b6d6acd5aa0d6292009ddc25b"}
+raw receipt SHA256 7f6e38927510a6ebd69ef40baa3b78bb4f5b4307fb7f07bfce9e14963d8fe51b
+{"sealed_paths":6,"frozen_inputs":28,"raw_captures":6,"public_science_copies":3,"native_groups":13,"new_tests":17,"focused_files":11,"focused_pass":175,"unchanged_focused_failures":4,"scope":"Byte custody and fixed-population outcomes, not independent proof, full green or a mirror gap."}
+
+oa_r38_identification_postcompute
+{"exit_code":0,"signal":null,"elapsed_seconds":0.07078600001113955,"log_bytes":442,"log_sha256":"b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"}
+raw receipt SHA256 a445afaf1835b32a1bac36600d4a1f7ac97bac5f45457c8766126efebbc8c25a
+identification ledger: 24 rows -- docs/IDENTIFICATION_LEDGER.md
+  EARNED      8   I-1 I-2 I-3 I-12 I-19 I-20 I-21 I-22
+  REFUTED     7   I-4 I-5 I-8 I-15 I-16 I-17 I-24
+  UNEARNED    9   I-6 I-7 I-9 I-10 I-11 I-13 I-14 I-18 I-23
+
+  UNEARNED = 9   <- these are UNPRICED OBSERVER INPUTS (B1225: the object cannot identify)
+  the input ledger's parameter count is a LOWER BOUND while any row is UNEARNED.
+  ratchet baseline: 9   current: 9   OK
+
+After recording these receipts and updating hashes, repeat the final
+staged governance, cumulative and R38 custody checks before committing.
+No sealed scientific file is changed by this reporting pass.

@@ -3154,3 +3154,25 @@ Do not infer an object-wide absence from one parent representation,
 or a physical mechanism from an allowed H interaction. The new priority
 reduces load-bearing inputs before another rescue-field scan. Audit:
 reports/physical_bridge_2026_09_05/COMMON_MODEL_AUDIT_2026_09_20.md.
+
+### PB-BOUNDARY / PB-ACTION, 2026-09-20: R38 tests the actual parent join
+
+Closing sentence for the bounded algebra/vertex sub-duty only: the
+actual compact H has an explicit faithful E8 embedding with Q/S and
+additional fields, but the specified classical pure-SYM action does
+not directly yield the proposed two-zero-form mirror Yukawa. The
+added symmetric H-EFT interaction and positive one-form parent
+vertices survive. Source: reports/physical_bridge_2026_09_05/PARENT_VERTEX.md.
+This is not a universal chirality closure or a rejection of composite,
+localized, higher-operator or mixed-mode mechanisms.
+
+Next test the existing charge-four E8 adjoint ONE-FORM fields under
+the complete complex-flatness and moment-map equations, including
+all noncentral equations and charge-three-sector couplings. Determine
+whether an actual source background and its full physical fluctuation
+action exist before transferring R29/R37's scalar profiles. This is a
+PROPOSED test, not an established source solution or selection of E8.
+It is a possible join with the bounded noncommuting PW route, not
+abandonment of the sourced path. Localized/composite matching remains
+separate; auxiliary algebra alone is not positive kinetic dynamics.
+The full origin, mode, phase/anomaly/end and discrimination gates stay open.

@@ -149,3 +149,18 @@ elementary, localized and composite origins distinguished. No I-number
 or existing identification status changes. Reports:
 reports/physical_bridge_2026_09_05/COMMON_MODEL_AUDIT_2026_09_20.md and
 reports/physical_bridge_2026_09_05/SOURCE_SCALAR.md.
+
+### R38 parent-action scope, 2026-09-20: an earned algebra map is not an earned field theory
+
+No shared I-number or existing physical status is reassigned.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Actual compact H cocharacters / candidate compact E8 cocharacters | Explicit 8-by-6 T, with integral rank-six saturated lattice matrix A^-1 T C^-1 | Every D5 root and the full 248-weight roster, including the actual 16_1, 10_2 and 1_4, are checked; global torus kernel is trivial | EARNED as a conditional compact-group embedding only; not object-forced E8 or an extension of the original E6 embedding |
+| R33/R37 added mirror coupling / bare partially twisted pure-SYM vertex | Contemplated zero-form gaugino and one-form field dictionary | Parent bracket/Grassmann and internal tensor tests reject the direct two-zero-form vertex while preserving the added symmetric H-EFT term | Direct bare-vertex transfer fails in this parent action only; physical source/mode matching remains open |
+
+The R36/R37 metric overlap is not the parent's one-form wedge
+operation. The conditional algebra does not identify an internal
+scalar profile with a propagating parent one-form mode or an auxiliary.
+The full physical origin and I-10/I-13 remain unpaid. Report:
+reports/physical_bridge_2026_09_05/PARENT_VERTEX.md.
