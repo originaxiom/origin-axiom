@@ -1,5 +1,15 @@
 # Verdict toward the full physical-theory goal — R38 science, report updated 2026-09-20
 
+**September 20 F01 reception and R39 pre-execution checkpoint.**
+The pinned fork's unchanged producer and seven tests reproduce. Its
+source-free finite-energy obstruction is scoped to the stated global
+bundle/metric hypotheses; its local harmonic cusp is a retained positive.
+Identity-valued and H-central sources are not silently identified.
+[Reception](FORK_F01_RECEPTION_2026_09_20.md).
+R39 is prepared for a six-file pre-execution seal, not yet run;
+R38 remains the latest original science at this checkpoint. The prior
+draft-state entries below are historical, not execution receipts.
+
 **Prior-work reconciliation, September 20:**
 [reuse map](CORPUS_RECONCILIATION_2026_09_20.md) and
 [principal smoothness audit](SMOOTHNESS_RECONCILIATION_2026_09_20.md).

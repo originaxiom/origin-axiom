@@ -129,8 +129,11 @@ scan; it is not mislabeled a completed all-history receipt.
 An additional local audit/fork-2026-09-20 ref was observed during the
 original read window, then pointing to the same 12fe9ac7 checkpoint.
 On the later read it advanced independently to be669308, with a new
-F01 nonsplit-admissibility result. Its producer/proof are now being
-verified separately; it is not yet a verified input to this report.
+F01 nonsplit-admissibility result. Its unchanged producer and seven
+tests now reproduce; the complete cutoff argument was read directly.
+The [separate reception](FORK_F01_RECEPTION_2026_09_20.md) preserves
+both its scoped obstruction and positive local cusp, without treating
+the smaller subgroup's central source as a scalar in the full parent.
 That fork was not created or edited by this work.
 Only audit/physical-bridge-2026-09-05 is used for our commits/pushes.
 The scan's start-ref snapshot and later worktree snapshot are not

@@ -1,7 +1,7 @@
 # R39 authored argument: a native background and the fields it requires
 
-2026-09-20. UNSEALED, UNEXECUTED working argument. The specified exact
-finite checks are PLANNED, not yet implemented or run. Global descent,
+2026-09-20. Authored argument frozen before execution. Exact finite
+checks are implemented but have not been run at this seal. Global descent,
 functional-domain and stationarity
 statements remain authored mathematics, not independent acceptance.
 E8, its action, the embedding and supplied four-dimensional spacetime
@@ -80,6 +80,14 @@ d eta=0 and div eta-8 df.eta=0. No arbitrary tube density is allowed.
 The beta-only ansatz has the opposite central sign. This must be
 matched, not silently identified with R29's added source convention.
 
+For the F01 comparison use A=(C-Cdag)/2 and Psi=phi. Then the same
+divergence and bracket conventions give d_A^*Psi=-I/2. Consequently
+a source written I=S corresponds to F01's J=-S/2, not J=S. The
+rank-(1,3) projector xi=U obeys tr(xi)=0 and tr(xi U)=12, and the
+extension contraction is <Psi,d_A xi>=-2|alpha|^2. The identity
+source is orthogonal to xi; the H-central source is not. This is a
+type/sign comparison, not a constructed global compensating source.
+
 ## 3. A noncommuting geometric positive control in the actual parent
 
 On hyperbolic upper half-space z>0, g=z^-2 I, let E,F,H be the
@@ -108,6 +116,12 @@ This is a normalization in curvature-length units, not a measured
 constant or derived physical scale. The positive Higgs L2 norm is
 15 Vol(M); a cusp of coordinate torus area A above z=Z contributes
 15 A/(2 Z^2). The source-free STATIC residual potential is zero.
+The entire E8 adjoint weight trace restricted to this sl4 is sixty
+times the defining-four trace: on diag(t0,t1,t2,-t0-t1-t2), summing
+all E8 weight squares gives 60 times the sum of those four squares.
+In the unrescaled adjoint trace the corresponding Higgs norm is
+900 Vol(M). Either is a declared action normalization, not a measured
+physical scale; the computation must not silently switch the trace.
 Finite background norm is not a proof of a modulus, a mass gap,
 quantum stability, or a complete finite gravitational action.
 
@@ -191,6 +205,15 @@ bar4 mix through the charged fields. Even where a triangular local
 connection happens to preserve a flag, its positive adjoint need
 not preserve it, and the full physical operator does not split into
 the old independent charge lines. They must be kept together.
+More explicitly, for P=diag(1,0,0,0), all (1-P) C_i P vanish locally,
+but their adjoints do not preserve P. For the positive scalar
+Laplacian d_C^*d_C with the same metric and bundle norm,
+
+    (1-P) d_C^*d_C (x e0) = sqrt(3) z e1.
+
+This directly tests the differential operator rather than inferring
+mixing solely from one connection coefficient. The displayed section
+is a local operator test, not a global normalizable eigenmode.
 
 ## 6. Meaning for the mission
 

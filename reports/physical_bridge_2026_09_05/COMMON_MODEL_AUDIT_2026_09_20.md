@@ -191,3 +191,19 @@ whole gauge/boson/source spectrum; it does not alone prove extra light
 vectors in the existing non-supersymmetric EFT. Localized/composite
 matching remains separate. Only a common action can decide which
 of the previously computed spectrum and overlap results transfer.
+
+## 7. Incoming F01: preserve the positive, sharpen the global source duty
+
+The [pinned fork reception](FORK_F01_RECEPTION_2026_09_20.md) reproduces
+the unchanged producer and seven tests and assesses its full cutoff
+proof directly. The marked nonsplit coefficient system cannot satisfy
+all the complete, smooth, source-free, finite-volume, finite-energy
+hypotheses. Its algebraic index and local harmonic cusp remain positive.
+A local cusp's inner flux is not a global source-free completion.
+
+The sourced path is not replaced by that exclusion. In particular the
+identity source of a flat coefficient bundle and H's central generator
+inside the candidate parent are not the same matrix. R39 must check
+their actual map and signs, all residual components, the positive metric
+and the whole operator. No source is manufactured by this distinction.
+R39 is prepared for sealing and remains unexecuted at this checkpoint.

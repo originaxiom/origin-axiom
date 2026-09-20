@@ -1,0 +1,139 @@
+{
+  "scope": "Pinned-source custody and execution of the unchanged F01 producer/seven tests; not an independent implementation, a rerun of its 17-test population, or physical chirality.",
+  "fork_pin": "be669308089aa47e632e330bda58129a3184b8c5",
+  "own_input_pin": "3450f704cd57dff90ea8502cf6e81485d238a2bd",
+  "sources": [
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/FINDINGS.md",
+      "bytes": 8838,
+      "sha256": "0fd9cbfbc1dd596c745c8d464854280f8aa2701ba4a3786d23d93b63c7b3c54b",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/DESIGN.md",
+      "bytes": 5773,
+      "sha256": "e313c63cbd8b77c938f95e6b6261076b3b48b4b13401c001b9ef8998494096e6",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/PROOF.md",
+      "bytes": 8128,
+      "sha256": "fb44477a8cb09df70e95b13ebf99b40c3c86ec2d818c504f9d1818ff2ed75792",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/verify.py",
+      "bytes": 9459,
+      "sha256": "77aa5cb5c91e83884a51e67ed866243807b54509f94e398fc567908cd45cac23",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/test_verify.py",
+      "bytes": 1494,
+      "sha256": "22b121c89be9a1be5a740c2d9de05449107f1900811c3f461506ae0a25cd39ea",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/verify_v2.py",
+      "bytes": 9479,
+      "sha256": "7971b9ad51527d68429440bb025201c15087a0d2f55779fd080feca2be0b50da",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/test_verify_v2.py",
+      "bytes": 1497,
+      "sha256": "8affad7d07f6e5a039492a46bfcb4ebe776f5d176334ef924b2557ed51a98ea7",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/SEAL_V2.json",
+      "bytes": 767,
+      "sha256": "faf87e702a969a596cc7051669021b610b9ade1dc6fdfa5d7ea24b8060341d2b",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/CORRECTION_V2.md",
+      "bytes": 1155,
+      "sha256": "1a9acea77e55d0070611fe563a351362bd7f472bb9b50ca0a108936164c32b6c",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/EXECUTION_RECEIPT.json",
+      "bytes": 2058,
+      "sha256": "d00382d86a65a2a07f5f0de97509a560a27bf22af3157f2fd9c97c068cd68fca",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/nonsplit_admissibility_2026_09_20/results_v2.json",
+      "bytes": 1696,
+      "sha256": "e90844225de1c1efdb3268cdc613577b25f88d39ac6e3d39dec8ec9359ab59be",
+      "unchanged_copy_verified": true
+    },
+    {
+      "path": "reports/whole_picture_audit_2026_09_20/AUDIT.md",
+      "bytes": 35689,
+      "sha256": "be223dc781a1e7d1f2a2d8a8c95850f4bb05179d5e17e7473737bc2af0c07bdc",
+      "unchanged_copy_verified": null
+    },
+    {
+      "path": "reports/whole_picture_audit_2026_09_20/scan.py",
+      "bytes": 6215,
+      "sha256": "b916bad16e22cd1a2ef52f71a3238451a6632eb5451328c2374180e181d98bb0",
+      "unchanged_copy_verified": null
+    }
+  ],
+  "runs": [
+    {
+      "stem": "oa_f01_reuse_native_20260920",
+      "raw_receipt_sha256": "de61d406a0588829c85a3234efac9981c50c1d53d4ca872c70b7796e80db49c9",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python-env>/bin/python3.12",
+          "<unchanged-fork-copy>/reports/nonsplit_admissibility_2026_09_20/verify_v2.py",
+          "<raw-directory>/oa_f01_reuse_result_20260920.json"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.033060999994632,
+        "log_bytes": 1696,
+        "log_sha256": "e90844225de1c1efdb3268cdc613577b25f88d39ac6e3d39dec8ec9359ab59be"
+      },
+      "public_output": "{\n  \"scope\": \"exact identities supporting authored finite-volume cutoff proof; not a global PDE solution\",\n  \"python\": \"3.12.1\",\n  \"sympy\": \"1.14.0\",\n  \"algebra\": {\n    \"field\": \"Q(sqrt(-3))\",\n    \"peripheral_mu\": \"Matrix([[1, -1], [0, 1]])\",\n    \"peripheral_longitude\": \"Matrix([[1, 1], [0, 1]])\",\n    \"V_b_unipotent_power_ranks\": [\n      3,\n      2,\n      1,\n      0\n    ],\n    \"base_projection_ranks\": [\n      1,\n      2\n    ],\n    \"V_projection_ranks\": [\n      2,\n      3\n    ],\n    \"split_projection_ranks\": [\n      2,\n      2\n    ],\n    \"base_invariant_Hermitian_forms\": \"{(0, 0, 0, h22)}\"\n  },\n  \"projector\": [\n    {\n      \"r\": 1,\n      \"s\": 1,\n      \"contraction\": \"-c0**2 - d0**2\",\n      \"xi_norm_squared\": 2\n    },\n    {\n      \"r\": 1,\n      \"s\": 3,\n      \"contraction\": \"-2*c0**2 - 2*c1**2 - 2*c2**2 - 2*d0**2 - 2*d1**2 - 2*d2**2\",\n      \"xi_norm_squared\": 12\n    }\n  ],\n  \"busemann\": {\n    \"hessian\": \"Matrix([[y**(-2), 0, 0], [0, y**(-2), 0], [0, 0, 0]])\",\n    \"dilation_control_shift\": \"-2*log(2)\"\n  },\n  \"cusp\": {\n    \"full_tension\": [\n      \"0\",\n      \"0\",\n      \"(-2*h11*h22*exp(2*c) + h11 + 2*h12**2*exp(2*c) + 2*h12 + h22)*exp(-2*c)/(h11*h22 - h12**2)\"\n    ],\n    \"K\": \"(h11 + 2*h12 + h22)/(h11*h22 - h12**2)\",\n    \"wrong_normalization_radial_tension\": \"-3/2\",\n    \"energy\": \"3*A0/4\",\n    \"inner_flux\": \"A0\",\n    \"outer_flux\": \"-A0*exp(-2*R)\",\n    \"bulk_q\": \"A0 - A0*exp(-2*R)\",\n    \"global_energy_lower_bound\": \"Q0**2*exp(2*R)/(4*A0) - Q0**2*exp(2*r0)/(4*A0)\"\n  },\n  \"all_assertions_passed\": true,\n  \"not_established\": [\n    \"global sourced completion\",\n    \"physical fermion spectrum\",\n    \"full TOE\",\n    \"independent proof review\",\n    \"full repository certification\"\n  ]\n}\n",
+      "public_sha256": "e90844225de1c1efdb3268cdc613577b25f88d39ac6e3d39dec8ec9359ab59be",
+      "redacted": false
+    },
+    {
+      "stem": "oa_f01_reuse_tests_20260920",
+      "raw_receipt_sha256": "36a1a37cb5484fed4d35e5d26f74c80615a575afb54d74eef71da424c1ffbc66",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "<unchanged-fork-copy>/reports/nonsplit_admissibility_2026_09_20/test_verify_v2.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.759615000002668,
+        "log_bytes": 98,
+        "log_sha256": "398f5a66cabd11a1c2ad4683dc1e576b3fb252491fe16e8e384f645d60c08495"
+      },
+      "public_output": ".......                                                                  [100%]\n7 passed in 4.09s\n",
+      "public_sha256": "398f5a66cabd11a1c2ad4683dc1e576b3fb252491fe16e8e384f645d60c08495",
+      "redacted": false
+    }
+  ],
+  "reading": "F01 FINDINGS, DESIGN, PROOF, corrected producer, corrected tests, correction seal/receipt and entire whole-picture AUDIT read personally; no new complete Corlette-paper reading claimed.",
+  "proof_review": "Authored cutoff argument reviewed directly against its hypotheses; finite controls do not prove the infinite-domain theorem.",
+  "next_duty": "Full parent action, noncentral source equations, positive metric and actual fermion domain; R39 still unsealed/unexecuted."
+}

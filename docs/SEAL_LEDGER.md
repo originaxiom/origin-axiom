@@ -757,3 +757,20 @@ localized/composite hatches; no universal parent or chirality exclusion.
 | `reports/physical_bridge_2026_09_05/PARENT_VERTEX_INPUTS.json` | `76e9188afc504be11991bd4870d4706c10f88fe2e90a95a2321fca1e38d577ab` |
 | `reports/physical_bridge_2026_09_05/parent_vertex.py` | `8b308b0d783c3d04bfef8e3339c2b884bef7fe4da3c73a205651a08d2f243793` |
 | `tests/test_physical_bridge_parent_vertex.py` | `e50567bfb83c2c80a895fe5967594024811ff16247628f130b4ae5cb9c1dfe79` |
+
+
+## Path-local R39, 2026-09-20 — full parent background and operator, before execution
+
+The authored expectations include a positive noncommuting background,
+its full gauge/matter costs, and two-sided metric/source controls.
+Reuse prior self-duality and nonsplit/cusp results; no global source,
+parent selection, chiral phase or TOE follows from the finite checks.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_DESIGN.md` | `b0aff09e2c3f0375932cbc2ffb55bc90eb51695d29fb0ef9d477ed5dcf34d0a6` |
+| `reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md` | `2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866` |
+| `reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PRIOR.md` | `bccee64f32cfc184b95f03234a8d541d922dd2999bb83b2dcae6673e858701c6` |
+| `reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_INPUTS.json` | `32056f5d399f1002df65a3de3c98e66609934c07ac9d210cc074e9ebc1fb8281` |
+| `reports/physical_bridge_2026_09_05/parent_background.py` | `91945d36932be2d7ea40ea14a990376661fee91f0efe66968da19803dc20f127` |
+| `tests/test_physical_bridge_parent_background.py` | `dd1df37105904e883d43e6edd1e4a770b8107f77e42e9f8ed729f4a4d9e6027f` |

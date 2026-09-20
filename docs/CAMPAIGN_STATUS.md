@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**September 20 F01 reception / R39 pre-execution checkpoint.**
+The pinned fork's unchanged producer and seven tests reproduce. Its
+smooth, source-free, complete finite-volume, finite-energy obstruction
+does not retract the algebraic index or the verified local harmonic
+cusp. Scalar and smaller-subgroup central sources remain distinct.
+R39's full-parent test is prepared for sealing, not yet executed.
+R38 remains the latest original science at this checkpoint.
+Reception: reports/physical_bridge_2026_09_05/FORK_F01_RECEPTION_2026_09_20.md.
+Earlier dated draft-state entries below are historical.
+
 **September 20 prior-result reconciliation (no new B or physical closure).**
 B574/B1420 pairing, B1418/B1427 nonsplit index positives and B274's
 principal E6 smooth germ are to be REUSED, not treated as missing.

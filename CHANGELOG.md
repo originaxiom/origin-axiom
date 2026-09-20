@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-09-20 — Reproduce the fork's admissibility result; prepare the full-parent test
+
+Pinned fork be669308's unchanged F01 producer and seven tests reproduce.
+Its complete finite-volume, smooth, source-free, finite-energy cutoff
+argument excludes the specified nonsplit bundle under those hypotheses.
+The algebraic index remains valid; the positive local harmonic cusp
+also reproduces. This is reuse, not our original theorem or a full
+repetition of the fork's seventeen-test population.
+
+A scalar identity source is not the actual H-central generator in a
+larger parent. That source-type/sign distinction must be checked with
+all equations, not used to claim a compensating source already exists.
+R39 now has a pre-execution design, authored proof, code, tests and
+fixed inputs. It remains unexecuted at this checkpoint. The history
+reader is still running; the original export failure is retained.
+No physical chirality, shared B number, full green or main bank.
+Reception: reports/physical_bridge_2026_09_05/FORK_F01_RECEPTION_2026_09_20.md.
+Design: reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_DESIGN.md.
+
 ## 2026-09-20 — Reconcile the prior bank before the parent-background probe
 
 All advertised GitHub heads fetched with no external-seat update; retained

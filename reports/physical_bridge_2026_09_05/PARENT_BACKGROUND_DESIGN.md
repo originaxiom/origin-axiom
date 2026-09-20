@@ -1,7 +1,9 @@
 # R39: complete parent equations, not a central projection
 
-2026-09-20. UNSEALED, UNEXECUTED working design; no shared B allocation.
-No code/test/input-manifest seal or execution is claimed by this draft.
+2026-09-20. Pre-execution design; no shared B allocation.
+This file is frozen with code, tests, proof, prior and inputs in the
+path-local R39 entry of docs/SEAL_LEDGER.md before first execution.
+The later execution receipt, not this design, records actual outcomes.
 
 Reconciliation disposition: B574/B1420 already supply the SL2 pairing
 and twist escape; B274 supplies the principal E6 smooth germ. Do not
@@ -55,7 +57,12 @@ against a negative prior. Any failed identity stops its claimed join.
    traceless Gram matrix G_ab=sum_i conjugate(alpha_ia) alpha_ib.
    Rank-one and rank-two examples must fail a central-only criterion;
    an isotropic full-rank Gram matrix must pass that algebraic test.
-   This latter test is pointwise, not a background solution.
+   This latter test is pointwise, not a background solution. After
+   the F01 reception, also check the rank-(1,3) invariant-projector
+   pairing against both Id4 and the actual U generator. A scalar
+   endomorphism is not the smaller subgroup's central generator.
+   Also verify I=-2 d_A^*phi in the common Hermitian convention.
+   This is a source-type/sign control, not a constructed compensating J.
 4. In upper half-space g=z^-2(dx^2+dy^2+dz^2), use the normalized
    four-dimensional sl2 representation H=diag(3,1,-1,-3),
    E superdiagonal (sqrt(3),2,sqrt(3)), F=Edag. Test
@@ -65,7 +72,10 @@ against a negative prior. Any failed identity stops its claimed join.
    Omitting commutators, using the flat metric, or dropping B must
    fail. The B-dropped example must retain zero CENTRAL moment map
    while failing the full equations: the precise false-positive control.
-5. Check the invariant norm of phi and the cusp tail integral. Global
+5. Check the invariant norm of phi and the cusp tail integral, including
+   the expected factor 60 from trace in the four to trace in the E8
+   adjoint. Verify that factor on the whole symbolic Cartan, not a
+   fitted single value. Global
    descent and full-action stationarity are authored arguments, not
    a numerical solution of the quotient or a theorem invoked beyond
    its boundary hypotheses. No compactness-only Corlette shortcut.
@@ -78,7 +88,8 @@ against a negative prior. Any failed identity stops its claimed join.
    Its complete invariance kernel must be one-dimensional; adjoining
    U must kill that kernel (an algebra control, not a chiral solution).
    Show the original charge-three singlet and charge-one triplet do
-   not form separately closed sectors of the full positive operator.
+   not form separately closed sectors of the full positive operator:
+   apply d_C^*d_C to x e0 and retain its complementary component.
 
 Seal the design, proof, prior, inputs, native code and tests; commit,
 push and server-confirm before first import/execution. Run native,

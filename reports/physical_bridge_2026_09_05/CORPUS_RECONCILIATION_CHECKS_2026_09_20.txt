@@ -111,3 +111,16 @@ oa_r39_swipe_controls_v2_retry_20260920
   patterns on 76 byte fixtures, unusual-regex fallback, gzip roundtrip,
   deterministic header and overwrite refusal. This is an instrument
   check, not completed corpus coverage or mathematical verification.
+
+
+F01 pinned-fork reuse and preserved reader gate capture:
+oa_f01_reuse_native_20260920
+{"exit_code":0,"signal":null,"elapsed_seconds":4.033060999994632,"log_bytes":1696,"log_sha256":"e90844225de1c1efdb3268cdc613577b25f88d39ac6e3d39dec8ec9359ab59be"}
+oa_f01_reuse_tests_20260920
+{"exit_code":0,"signal":null,"elapsed_seconds":4.759615000002668,"log_bytes":98,"log_sha256":"398f5a66cabd11a1c2ad4683dc1e576b3fb252491fe16e8e384f645d60c08495"}
+oa_r39_reader_v2_gates_20260920
+{"exit_code":1,"signal":null,"elapsed_seconds":15.808909999992466,"log_bytes":2095,"log_sha256":"9295f3cebc8731f6c96778eba0b4b5af78f1a9b92ca5e7724b89c36130bc8e4e"}
+The native producer and seven F01 tests pass unchanged; no independent
+implementation or seventeen-test population rerun. The reader-v2
+checkpoint gates have 26 PASS / the same four historical FAIL details,
+review counter 189. That is not a new scientific failure or waiver.

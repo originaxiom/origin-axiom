@@ -3191,3 +3191,18 @@ or source/end matching must pass those same gates. The existing t12835
 coefficient witness is a concrete input to assess, not a completed
 physical background. No broad replacement census is commissioned.
 Source: reports/physical_bridge_2026_09_05/CORPUS_RECONCILIATION_2026_09_20.md.
+
+### PB-BOUNDARY / PB-ACTION, 2026-09-20: F01 reused without a source-type conflation
+
+The independently advancing fork's pinned F01 producer and seven tests
+reproduce. Its complete, smooth, finite-volume, source-free, finite-energy
+splitting argument narrows the admissible nonsplit route; its local
+harmonic cusp and exact coefficient index remain. A scalar endomorphism
+source is not the H-central generator embedded in a larger parent.
+The source must have the correct projector pairing, sign, full-parent
+variations and global field map. None is supplied by this reception.
+
+R39's planned full-matrix equations, norm, complete unbroken gauge algebra
+and positive-operator/domain map are the next common-model origin test.
+No new census or general chirality exclusion is inferred. Source:
+reports/physical_bridge_2026_09_05/FORK_F01_RECEPTION_2026_09_20.md.

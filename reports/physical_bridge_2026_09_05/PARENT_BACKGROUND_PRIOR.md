@@ -1,7 +1,7 @@
 # R39 prior and reading receipt
 
-UNSEALED, UNEXECUTED working draft. No R39 scientific producer has
-been run. The later owner-requested reconciliation is recorded in
+Pre-execution prior, frozen with the R39 design. No R39 scientific
+producer has been run at this seal. The reconciliation is recorded in
 [the reuse map](CORPUS_RECONCILIATION_2026_09_20.md), including explicit
 reruns of OLD unchanged producers, not this proposed new probe.
 
@@ -83,3 +83,14 @@ Pre-run hand derivation predicts all native identities will pass,
 including a positive background and its restricted negative controls.
 The convenient outcome would be an automatically chiral three-family
 source theory; it is neither assumed nor established by this design.
+
+## Later fork input, before any R39 execution
+
+The independently advancing audit/fork-2026-09-20 reached be669308.
+Its F01 source-free finite-energy admissibility proof and positive
+local cusp were read personally; its unchanged producer and seven
+tests reproduce here. See FORK_F01_RECEPTION_2026_09_20.md and its
+source/run receipt. This is prior to R39, not our original result.
+The cutoff proof is reused, not a reason for another nonsplit census.
+Its scalar-source exclusion must not be silently transferred to
+the non-scalar image of H's central generator in the larger parent.
