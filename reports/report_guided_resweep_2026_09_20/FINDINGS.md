@@ -346,6 +346,21 @@ source possibilities. F04's 20 exact controls and 42 unchanged antecedent
 checks pass. This is a scoped background constraint, not a physical chiral
 realization or a revision of the exact algebraic index.
 
+[F05](../parent_twist_gap_2026_09_20/FINDINGS.md) receives R39's now-sealed
+geometric background at available local Git pin `8d2cced2` and reruns its
+16 tests unchanged. It constructs a global order-four central twist in
+the same classical parent, retaining the local BPS equations and reducing
+so(11) to so(10). Crucially, removal of the displayed global self-duality
+does not restore charged matter: the actual coefficient Laplacian has an
+explicit positive lower bound, so neither spinor sector has an ordinary-L2
+zero mode in this background. Twenty-four new and 62 unchanged antecedent
+checks pass. This quantitatively joins the existing geometric vanishing
+mechanism to a physical operator; it is not a new universal no-go or a
+result about the distinct nonsplit m010 bundle. The next discriminator is
+a full-parent source or nongeometric background that changes the operator
+enough to close its gap. Fresh fetches failed, so the received local pin
+is not claimed to be the current head of every other seat.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

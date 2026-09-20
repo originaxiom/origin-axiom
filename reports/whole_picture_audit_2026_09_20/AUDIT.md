@@ -72,6 +72,21 @@ and 42 unchanged antecedent checks pass. Rapidly angle-varying metrics and
 coupled source equations remain unresolved; the algebraic index is retained.
 This is a scoped background constraint, not a physical chirality solution.
 
+[F05](../parent_twist_gap_2026_09_20/FINDINGS.md) joins the now-sealed R39
+geometric parent background to the already-known geometric positivity
+mechanism and F02's domain. A global order-four central Wilson twist keeps
+the full local equations and finite Higgs norm while reducing the unbroken
+compact gauge algebra from so(11) to so(10). The defining-four coefficient
+bundle is no longer self-dual, but its actual positive-metric operator still
+obeys Delta>=9/4 in curvature-length-one units: both charged spinor kernels
+are empty. This is a constructive gauge result and a quantified matter
+obstruction for this particular background, not a universal chirality no-go.
+Twenty-four new, 62 unchanged antecedent and 16 pinned R39 checks pass.
+R39 was received from available local Git pin `8d2cced2`; a fresh network
+fetch failed, so this follow-through does not extend the remote-coverage
+claim below. The next task is a compatible gap-changing background/current,
+not merely a symmetry-breaking twist or a repeated cohomology census.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted
