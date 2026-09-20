@@ -1,0 +1,124 @@
+{
+  "scope": "Pinned source and unchanged-test custody, no other-seat edits/merge or independent implementation",
+  "entries": [
+    {
+      "label": "F02",
+      "source_pin": "297e1dd7ebdfa0c9fc37c3e35d4fac2e82b501d0",
+      "execution_snapshot_basename": "oa-f02-f04-reuse.NvQKCT",
+      "scientific_sources": [
+        {
+          "path": "reports/complete_domain_2026_09_20/DESIGN.md",
+          "bytes": 4869,
+          "sha256": "4bc4cfef8eb8ad09da5717f04a8b5b3901b8d23082f79d530337b8fd322f96db"
+        },
+        {
+          "path": "reports/complete_domain_2026_09_20/PROOF.md",
+          "bytes": 9672,
+          "sha256": "bf4e414902ce2699484db67e720ffc155791559d5ff3e476330f7e1b9796c720"
+        },
+        {
+          "path": "reports/complete_domain_2026_09_20/verify.py",
+          "bytes": 1124,
+          "sha256": "da95f2d0293f01fd62163dd35e4886da4703ea0107ea87947b900a51b5d66672"
+        },
+        {
+          "path": "reports/complete_domain_2026_09_20/test_verify.py",
+          "bytes": 4295,
+          "sha256": "bc6ba2ea94de22a4e9a65c8d086094f799260bb1f53dcb25ceca6fb4881371e4"
+        }
+      ],
+      "reading": "entire design/proof/producer/tests personally read",
+      "grade": "unchanged producer re-executed; authored analytic proof assessed, not independently expert-certified"
+    },
+    {
+      "label": "F03",
+      "source_pin": "297e1dd7ebdfa0c9fc37c3e35d4fac2e82b501d0",
+      "execution_snapshot_basename": "oa-f02-f04-reuse.NvQKCT",
+      "scientific_sources": [
+        {
+          "path": "reports/nonsplit_cusp_growth_2026_09_20/DESIGN.md",
+          "bytes": 5588,
+          "sha256": "7b57272291897454f0aaf7bf8fa4effabd2b4c0482cab53965117befd47472af"
+        },
+        {
+          "path": "reports/nonsplit_cusp_growth_2026_09_20/PROOF.md",
+          "bytes": 8170,
+          "sha256": "9b2e19e7cba4b75c8bc2cc3e4740afa84fa2e1ba1ff789336f011917c7b99b28"
+        },
+        {
+          "path": "reports/nonsplit_cusp_growth_2026_09_20/verify.py",
+          "bytes": 847,
+          "sha256": "be842e58dca75934b5286e0546c80cceaf709f4c681f1e1ed3148ee86d255efb"
+        },
+        {
+          "path": "reports/nonsplit_cusp_growth_2026_09_20/test_verify.py",
+          "bytes": 6926,
+          "sha256": "e32e93cf4deacd5d89348d1989732421aa8f284bd0faff8acff92e788701c19a"
+        }
+      ],
+      "reading": "entire design/proof/producer/tests personally read",
+      "grade": "unchanged producer re-executed; authored analytic proof assessed, not independently expert-certified"
+    },
+    {
+      "label": "F04",
+      "source_pin": "297e1dd7ebdfa0c9fc37c3e35d4fac2e82b501d0",
+      "execution_snapshot_basename": "oa-f02-f04-reuse.NvQKCT",
+      "scientific_sources": [
+        {
+          "path": "reports/full_flag_growth_2026_09_20/DESIGN.md",
+          "bytes": 6153,
+          "sha256": "35cfcb2dd04622a0a8766cdb1499c6a3ef54c8235561d39299eb1996341d3b53"
+        },
+        {
+          "path": "reports/full_flag_growth_2026_09_20/PROOF.md",
+          "bytes": 10624,
+          "sha256": "f217c533d0489f960ebba64647a94ad40901a82785114df526cb3bf018fcdeea"
+        },
+        {
+          "path": "reports/full_flag_growth_2026_09_20/verify.py",
+          "bytes": 2928,
+          "sha256": "9abcc676e72b7bd216144bc1fa0061f4cb9858918ef191d951a84178ad055876"
+        },
+        {
+          "path": "reports/full_flag_growth_2026_09_20/test_verify.py",
+          "bytes": 10089,
+          "sha256": "cf63ba99cddd11c3677ef739ab7ca8c81690df7ab6c6ad69c68d1123edf648d8"
+        }
+      ],
+      "reading": "entire design/proof/producer/tests personally read",
+      "grade": "unchanged producer re-executed; authored analytic proof assessed, not independently expert-certified"
+    },
+    {
+      "label": "F05",
+      "source_pin": "28c87f5ae7a092da2afc250e4872f7b8070abf34",
+      "execution_snapshot_basename": "oa-f05-reuse.nksW1V",
+      "scientific_sources": [
+        {
+          "path": "reports/parent_twist_gap_2026_09_20/DESIGN.md",
+          "bytes": 6593,
+          "sha256": "c1418483ae4ef42f258091449a18aa93e9e335c115fb94fe4587d0e9fbc7a2b9"
+        },
+        {
+          "path": "reports/parent_twist_gap_2026_09_20/PROOF.md",
+          "bytes": 11091,
+          "sha256": "63e672371a99512c96c8039770c1f2c004eaae209c5a1682488119c0ebf635fa"
+        },
+        {
+          "path": "reports/parent_twist_gap_2026_09_20/verify.py",
+          "bytes": 6153,
+          "sha256": "cc00073a813b7e7e2cff1f2669c0681fa52d32b13260c3523cb5c72fb66bd4ed"
+        },
+        {
+          "path": "reports/parent_twist_gap_2026_09_20/test_verify.py",
+          "bytes": 8825,
+          "sha256": "4072199cf85e2189268b2584d8d56a1c35de9b54f882237a6090e936a3d3d53d"
+        }
+      ],
+      "reading": "entire design/proof/producer/tests personally read",
+      "grade": "unchanged producer re-executed; authored analytic proof assessed, not independently expert-certified"
+    }
+  ],
+  "combined_F02_F04_pass": 55,
+  "F05_pass": 24,
+  "raw_capture_receipts": "COEFFICIENT_PARENT_RECEIPTS.json"
+}

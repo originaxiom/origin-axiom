@@ -770,3 +770,33 @@ JORGENSEN_SOURCE_AUDIT_FINAL_CHECKS_2026_09_14.txt preserves the full
 gate output and raw digests, with after-run receipt/hash checks kept
 distinct. Local reporting completed September 14, still September 13 UTC.
 The goal and the independent/main/full-green duties remain open.
+
+## R40 local research preservation, September 20
+
+Six scientific files fixed in pushed/server-confirmed pre-execution
+snapshot 9e2d43ec. An encoding failure in the ledger-generation command
+was mistakenly inserted as text; the first custody check rejected it.
+The error and rejection remain, and ledger rows are explicitly a
+POST-EXECUTION correction. No source, test or expectation was changed.
+This is not retroactive compliance with the seal-ledger-entry rule.
+
+Native computation passed; 20 new tests passed. The fifteen-file focused
+run has 236 passes and the exact four prior failed IDs, all preserved.
+Pinned unchanged F02--F05 reuse gives 55+24 passes; finite controls do not
+certify all authored analytic quantifiers. The full spectrum, positive
+global background/source action, physical anomaly matching and TOE are
+not derived. No new B, main merge, PR, independent review or full-suite
+certificate. Reader surfaces, law rows, open duties and artifact receipts
+are updated together; final read-only checks accompany the report.
+
+The first R40 staged reporting gate run retained an additional law-map
+antecedent-citation failure. The corrected rows explicitly distinguish
+their genuine B1335/B1138 lineage from the new path-local evidence.
+Rechecking gives 26 PASS / the exact four previous FAIL details, review
+due at 193 merges. The first cumulative custody check verifies 636 latest
+artifact paths, 164 seals and 296 scoped local links. These are custody
+counts, not mathematical or physical certification. Strict whitespace
+fails only on two byte-preserved pytest trailing spaces; exclusion of
+that exact captured file passes. COEFFICIENT_PARENT_FINAL_CHECKS.txt
+preserves actual exits and full failed/corrected gate outputs. Final
+report/hash additions are checked again before committing this checkpoint.

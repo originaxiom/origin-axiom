@@ -228,3 +228,33 @@ thirteen-file focused run is 206 pass/four unchanged failures. Global
 arguments remain authored. R29's added stationary solution and the
 nonsplit indices retain their own hypotheses. The geometric construction
 is generic across hyperbolic quotients, not an arithmetic-row selector.
+
+## 9. R40 supplies the actual coefficient map, not the missing vacuum
+
+- [x] Map R27's actual nonsplit coefficient including its determinant.
+  The literal SL4 identification fails; the injective GL4-to-SL5
+  determinant-line enlargement preserves it as an unchanged summand.
+- [x] Compute all accompanying E8 sectors in this A4 x A4 embedding.
+  The interior indices for W and exterior-square W are both +1; the
+  formal SU5 cubic anomaly cancels, but the block-U1 anomalies do not.
+- [x] Exhibit the positive-metric and full representation-valued current
+  maps, without claiming they solve the harmonic/source equations.
+- [ ] Build a compatible global positive background and source/end
+  action. F01--F04's scoped restrictions still apply. F05's geometric
+  so(10) improvement retains a spinor gap and is a different coefficient.
+- [ ] Derive normalizable modes of all relevant form degrees, the
+  actual gauge group and source/end spectrum in that ONE background.
+  Only then assess complete anomaly matching and the physical generations.
+
+This is a second structure-group embedding inside the supplied E8
+candidate, not an identification of R29's existing H/tube fields with
+the new roster. Their sourced stationary solution and singular/resolved
+spectral results remain on their own specifications. A charged-singlet
+Higgs mass by itself would not cure an anomalous U1. No rescue-field
+scan or physical-index reinterpretation is authorized by this result.
+
+[R40 result](COEFFICIENT_PARENT.md): native pass, 20 new tests pass,
+fifteen-file focused 236 pass/four unchanged failures. The pinned incoming
+F02--F05 implementations also reproduce (55+24 tests); analytic scopes
+are in [the reception](FORK_F02_F05_RECEPTION_2026_09_20.md).
+Quantum phase, source selection, gravity and empirical gates stay open.

@@ -777,3 +777,24 @@ parent selection, chiral phase or TOE follows from the finite checks.
 -e:1: invalid multibyte char (US-ASCII)
 -e:1: invalid multibyte char (US-ASCII)
 -e:1: invalid multibyte char (US-ASCII)
+
+## Path-local R40, 2026-09-20 - POST-EXECUTION seal-ledger repair
+
+The three error lines immediately above were accidentally inserted by a
+failed inline text-generation command in pre-execution commit 9e2d43ec.
+They were not valid seal rows. The six scientific files themselves were
+committed, pushed and server-confirmed before first execution, and their
+full SHA256 values had been printed in the pre-execution tool record.
+Their bytes are unchanged. This repairs the ledger AFTER execution;
+it does not retroactively satisfy the pre-execution ledger-entry rule.
+The original error and first custody rejection are preserved in the
+R40 report/receipts. No scientific source or expectation was changed.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_DESIGN.md` | `ba5539e107e75348ebd699ea5c570726110887184f729750e19db14ea4813749` |
+| `reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md` | `082ad3c3a92481c1a1be46d2a1502832c44d01da6bdd12c3d072e167bfd9aa9b` |
+| `reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PRIOR.md` | `364d29b5fcb59104fb34287fef0c6a56b71d0cd63f97f00de889285122c890dc` |
+| `reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_INPUTS.json` | `090b00ac9252d94d1bb825f55814cec9d98ac30059fbde31c4b8ef34907f9cb8` |
+| `reports/physical_bridge_2026_09_05/coefficient_parent.py` | `0973a55c71fdaf65e0bb09fd2cf1caac54e4e832c85937556068f0e0609786fe` |
+| `tests/test_physical_bridge_coefficient_parent.py` | `ab49c44f64b7dff998eda26b9014c38eae9ac62bd56b3e7acf6a18a84f7a3252` |

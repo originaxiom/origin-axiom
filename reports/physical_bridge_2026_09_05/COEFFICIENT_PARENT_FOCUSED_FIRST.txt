@@ -1,0 +1,33 @@
+.............F.............FF........................................... [ 30%]
+..........................................................F............. [ 60%]
+........................................................................ [ 90%]
+........................                                                 [100%]
+=================================== FAILURES ===================================
+_____________ test_mirror_only_limit_and_breaking_requires_locking _____________
+tests/test_physical_bridge_mirror_quartic.py:111: in test_mirror_only_limit_and_breaking_requires_locking
+    assert only == sp.expand(r*ym*ymb*a*b+k*P*ym**2*a**2+k*Pb*ymb**2*b**2)
+E   assert -4*B_m**2*Phi**2*Phi_bar*kappa**3*y_m**2/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_m**2*Phi*kappa*r**2*y_m**2/(-4*Phi*Phi_b...y_m_bar**2/(-4*Phi*Phi_bar*kappa**2 + r**2) + B_m_bar**2*Phi_bar*kappa*r**2*y_m_bar**2/(-4*Phi*Phi_bar*kappa**2 + r**2) == B_m**2*Phi*kappa*y_m**2 + B_m*B_m_bar*r*y_m*y_m_bar + B_m_bar**2*Phi_bar*kappa*y_m_bar**2
+E    +  where B_m**2*Phi*kappa*y_m**2 + B_m*B_m_bar*r*y_m*y_m_bar + B_m_bar**2*Phi_bar*kappa*y_m_bar**2 = <function expand at 0x108442200>(((((((r * y_m) * y_m_bar) * B_m) * B_m_bar) + (((kappa * Phi) * (y_m ** 2)) * (B_m ** 2))) + (((kappa * Phi_bar) * (y_m_bar ** 2)) * (B_m_bar ** 2))))
+E    +    where <function expand at 0x108442200> = sp.expand
+_______ test_real_rotated_and_collinear_complex_vectors_are_full_rank[1] _______
+tests/test_physical_bridge_mirror_interaction.py:97: in test_real_rotated_and_collinear_complex_vectors_are_full_rank
+    assert mi.clean(m.H*m) == (s.H*s)[0]*sp.eye(16)
+E   assert Matrix([\n[10,...  0,  0, 10]]) == Matrix([\n[(1 ...)*(2 + 2*I)]])
+E     
+E     Use -v to get more diff
+______ test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1] _______
+tests/test_physical_bridge_mirror_interaction.py:97: in test_real_rotated_and_collinear_complex_vectors_are_full_rank
+    assert mi.clean(m.H*m) == (s.H*s)[0]*sp.eye(16)
+E   assert Matrix([\n[10,...  0,  0, 10]]) == Matrix([\n[(1 ...)*(2 + 2*I)]])
+E     
+E     Use -v to get more diff
+________________ test_normal_form_instrument_can_pass_and_fail _________________
+tests/test_physical_bridge_mirror_quartic_normal_form_control.py:26: in test_normal_form_instrument_can_pass_and_fail
+    with pytest.raises(ValueError):
+E   Failed: DID NOT RAISE <class 'ValueError'>
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_mirror_quartic.py::test_mirror_only_limit_and_breaking_requires_locking
+FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[1]
+FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1]
+FAILED tests/test_physical_bridge_mirror_quartic_normal_form_control.py::test_normal_form_instrument_can_pass_and_fail
+4 failed, 236 passed in 80.17s (0:01:20)

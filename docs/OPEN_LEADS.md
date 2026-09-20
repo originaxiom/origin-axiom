@@ -3226,3 +3226,23 @@ whole spectrum, interactions and anomaly/end matching. The R19 singular
 positive, R29 stationary added action and nonsplit indices remain on
 their original specifications. No repeated raw-index census or universal
 chirality kill is licensed.
+
+### PB-BOUNDARY / PB-ACTION, September 20: R40 maps the coefficient, not the vacuum
+
+Closing sentence for the bounded algebra duty only: the original nonsplit
+rank-four coefficient embeds faithfully as an unchanged summand of the
+specified rank-five structure bundle in E8; its +1 interior index and
+that of the accompanying exterior square are verified. Source:
+reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT.md.
+
+The full physical origin/mode gate stays OPEN. Construct a compatible
+positive global background and representation-valued source/end action;
+check all residuals and source variations. Compute its entire physical
+form/gauge/source/end spectrum before interpreting the algebraic counts.
+If the block U1 survives, resolve its nonzero conditional anomaly vector
+(5,15,-75) in that same action; Higgsing alone is not cancellation. Any
+block-breaking deformation requires recomputing the coefficient data.
+The R19/R29 source model is not silently transferred to this different
+structure-group embedding. F02--F05's rechecked domain/growth/geometric-gap
+statements keep their exact hypotheses. Quantum phase, gravity, physical
+scale and empirical discrimination remain duties of the full goal.

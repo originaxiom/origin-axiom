@@ -180,3 +180,16 @@ R38 supplement, these rows are not counted by the I-number parser.
 Report: reports/physical_bridge_2026_09_05/PARENT_BACKGROUND.md.
 Locks: tests/test_physical_bridge_parent_background.py. I-10/I-13,
 physical chirality and full field-theory origin remain unpaid.
+
+### R40 coefficient-parent scope, September 20 (path-local supplement)
+
+No shared I-number or existing physical status is reassigned. As in
+R38/R39 these scoped supplements are not counted by the I-number parser.
+
+| sides | map | action checked | scope |
+|---|---|---|---|
+| Original nonsplit rank-four coefficient / candidate E8 structure bundle | X -> diag(X,det X^-1), then the explicit structure A4 inside E8 | All marked monodromy, peripheral, determinant and nonsplit-block checks; entire parent weight roster and center kernel | EARNED as a faithful conditional algebraic embedding, not selected E8 or physical chirality |
+| Interior restriction H1 difference / physical Weyl multiplicity | Only a proposed dictionary | Formal SU5 anomaly cancels; block-U1 anomalies do not; no actual positive global background or L2 mode map supplied | NOT EARNED physically; full source/action/domain/spectrum required, no I-13 discharge |
+| Positive rank-four metric/current / determinant-one rank-five data | H4 -> diag(H4,det H4^-1), J4 -> diag(J4,-tr J4) | Equivariance, positivity, bracket/adjoint preservation and whole-Cartan trace normalization | Conditional map, not a source action or harmonic-metric existence proof |
+
+Report: reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT.md.

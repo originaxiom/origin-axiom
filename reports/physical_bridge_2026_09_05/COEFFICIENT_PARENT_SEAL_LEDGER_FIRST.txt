@@ -1,0 +1,3 @@
+-e:1: invalid multibyte char (US-ASCII)
+-e:1: invalid multibyte char (US-ASCII)
+-e:1: invalid multibyte char (US-ASCII)

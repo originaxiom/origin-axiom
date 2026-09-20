@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-09-20 - R40 preserves the nonsplit coefficient inside a candidate parent
+
+The actual R27 rank-four coefficient has a nontrivial determinant; all
+eight scalar determinant repairs have zero interior index. Adding its
+inverse determinant line instead embeds it faithfully into SL5 and the
+specified E8 A4 x A4 subgroup. Every parent sector is counted. W and its
+exterior square both have index +1, yielding a formal SU5-anomaly-free
+10+bar5 difference, with pairs and singlets retained. The block-U1
+conditional anomalies are (5,15,-75), not zero. These are not L2 particle
+counts, selected gauge symmetry or a physical vacuum. Source/background,
+full spectrum/anomaly, quantum, gravity and empirical duties remain.
+
+Snapshot 9e2d43ec was pushed/server-confirmed before science. The intended
+seal-ledger insertion instead recorded a Ruby encoding error; custody
+caught it and the rows were repaired explicitly POST-execution. Original
+error, failure and unchanged scientific bytes are preserved. No retroactive
+claim of compliance with the ledger-entry rule. Native pass, 20 new tests
+pass, focused 236 pass/four unchanged failures. Incoming F02--F05's pinned
+unchanged tests also pass (55+24); analytic scopes are retained. No shared
+B, independent/main-bank acceptance or TOE completion.
+Report: reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT.md.
+
 ## 2026-09-20 — R39 earns a complete classical parent background, not chirality
 
 The specified noncommuting hyperbolic connection solves all candidate-

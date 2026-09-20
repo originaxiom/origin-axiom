@@ -1,5 +1,20 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**Latest original local result, R40 (September 20): actual nonsplit parent map.**
+The original +1 coefficient is retained in a faithful determinant-one
+rank-five enlargement inside the supplied E8 candidate. Its complete
+exterior-square sector also has +1: the formal SU5 cubic anomaly cancels,
+but the block-U1 diagnostic is (5,15,-75). These are interior restriction
+indices, NOT derived normalizable particle counts. A compatible positive
+background, source/end action, complete spectrum and anomaly matching
+remain next; physical chirality and the full TOE are not claimed.
+Native pass; 20 new tests; fifteen-file focused 236 pass/four unchanged
+failures. Incoming F02--F05 reuse: 55+24 pass. The pre-execution Git
+snapshot is verified; a failed seal-ledger insertion was caught and
+explicitly repaired POST-execution without changing scientific files.
+Report: reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT.md.
+Earlier dated checkpoints below are historical.
+
 **Latest original local result, R39 (September 20): complete parent equations.**
 The noncommuting geometric background solves all candidate-parent
 residuals with finite positive norm. Its full surviving algebra is so(11),

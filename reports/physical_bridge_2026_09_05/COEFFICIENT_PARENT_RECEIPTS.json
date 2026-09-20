@@ -1,0 +1,262 @@
+{
+  "scope": "R40 exact execution and byte custody; not independent mathematics, global physical spectrum, full-suite green or TOE",
+  "seal_pin": "9e2d43ec8a6710ece4906b0b8468b58fdb84c0a5",
+  "pre_execution_remote_confirmation": "Captured push and ls-remote both completed before first scientific invocation",
+  "sealed_paths": [
+    "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PROOF.md",
+    "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_PRIOR.md",
+    "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_INPUTS.json",
+    "reports/physical_bridge_2026_09_05/coefficient_parent.py",
+    "tests/test_physical_bridge_coefficient_parent.py"
+  ],
+  "runs": {
+    "native_first": {
+      "raw_basename": "oa_r40_native_first",
+      "raw_receipt_sha256": "6e121321f06db3e20681c8febbf6b22f0935018a32bc8c1b0d38b9f2e44d6c63",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<sage>",
+          "-python",
+          "-u",
+          "reports/physical_bridge_2026_09_05/coefficient_parent.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 20.943421000003582,
+        "log_bytes": 16386,
+        "log_sha256": "12171ed3ccc88e9d99737a059fe09d738aaf83c2375527287463e13a4c9211e8"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_NATIVE_FIRST.jsonl",
+      "public_sha256": "12171ed3ccc88e9d99737a059fe09d738aaf83c2375527287463e13a4c9211e8",
+      "redacted": false
+    },
+    "tests_first": {
+      "raw_basename": "oa_r40_tests_first",
+      "raw_receipt_sha256": "5dafd789c358a06f1486f9c978d12c75393c053248d3c6311e88ca0572879133",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_coefficient_parent.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 19.556171000003815,
+        "log_bytes": 100,
+        "log_sha256": "7b50e67608a7a840e7894ab7d6d1c46de78e7b218a40d6834cde6918f8e19ff1"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_TESTS_FIRST.txt",
+      "public_sha256": "7b50e67608a7a840e7894ab7d6d1c46de78e7b218a40d6834cde6918f8e19ff1",
+      "redacted": false
+    },
+    "focused_first": {
+      "raw_basename": "oa_r40_focused_first",
+      "raw_receipt_sha256": "b0fe99ad26f31fc19722fcadeb428b641ed551face33e3554fe9fdc101c924bd",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_quartic.py",
+          "tests/test_physical_bridge_mirror_interaction.py",
+          "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_source_c3.py",
+          "tests/test_physical_bridge_global_poisson.py",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+          "tests/test_physical_bridge_yukawa_overlap.py",
+          "tests/test_physical_bridge_source_scalar.py",
+          "tests/test_physical_bridge_parent_vertex.py",
+          "tests/test_physical_bridge_parent_background.py",
+          "tests/test_physical_bridge_finite_twist_reductivity.py",
+          "tests/test_physical_bridge_coefficient_parent.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 81.28834300000744,
+        "log_bytes": 2965,
+        "log_sha256": "e3c6d499a384fe7fbcb5c3fd0cd03fb897364802397f84f064ee1595ac3fcb98"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_FOCUSED_FIRST.txt",
+      "public_sha256": "e3c6d499a384fe7fbcb5c3fd0cd03fb897364802397f84f064ee1595ac3fcb98",
+      "redacted": false
+    },
+    "f02_f04_tests_first": {
+      "raw_basename": "oa_r40_f02_f04_tests_first",
+      "raw_receipt_sha256": "de7c5dd313bfe81578060445e1b3fd018a882227a8286f7c81386431d9f618cb",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--import-mode=importlib",
+          "--tb=short",
+          "reports/complete_domain_2026_09_20/test_verify.py",
+          "reports/nonsplit_cusp_growth_2026_09_20/test_verify.py",
+          "reports/full_flag_growth_2026_09_20/test_verify.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 19.241445999999996,
+        "log_bytes": 583,
+        "log_sha256": "20133fc3c2f736d5754395912022c08fb0c773886cdd6f442eb9026c4286c1ab"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/FORK_F02_F04_REUSE_TESTS_2026_09_20.txt",
+      "public_sha256": "7d8c9ce085ea5a47609b9f2cb897db9a830dc1fc5ec808f2c6399bfd94a7d1ed",
+      "redacted": true
+    },
+    "f05_tests_first": {
+      "raw_basename": "oa_r40_f05_tests_first",
+      "raw_receipt_sha256": "1ee3a74804890c6788d0f935b1cd7b66acd9b98f5f9a934ccc385e52d9b6b260",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--import-mode=importlib",
+          "--tb=short",
+          "reports/parent_twist_gap_2026_09_20/test_verify.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 4.406759000004968,
+        "log_bytes": 99,
+        "log_sha256": "94af46544ca9d43f00e8386f00b2184142923646fd32ffb417d0288ece088b28"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/FORK_F05_REUSE_TESTS_2026_09_20.txt",
+      "public_sha256": "94af46544ca9d43f00e8386f00b2184142923646fd32ffb417d0288ece088b28",
+      "redacted": false
+    },
+    "seal_push_first": {
+      "raw_basename": "oa_r40_seal_push_first",
+      "raw_receipt_sha256": "62d785de26d5c8ff0aef45cddfba9a96720e119b790beff7fd12f23a6894395c",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "push",
+          "origin",
+          "HEAD:refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.275427000000491,
+        "log_bytes": 115,
+        "log_sha256": "c732e8659f5808f3c4fd55739f3635c23c157067fa0544f93b907109594b9371"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_SEAL_PUSH_FIRST.txt",
+      "public_sha256": "c732e8659f5808f3c4fd55739f3635c23c157067fa0544f93b907109594b9371",
+      "redacted": false
+    },
+    "seal_remote_first": {
+      "raw_basename": "oa_r40_seal_remote_first",
+      "raw_receipt_sha256": "6b4cc1a094d9bdbdb8d407950160eaf67a1f70fc992430953148c23546bd4c3d",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "ls-remote",
+          "origin",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6628720000007888,
+        "log_bytes": 85,
+        "log_sha256": "75be65febc2913f563fd5bd1589ca99d0199e6f031e4ce1cf1b8fc1ce97a5aa1"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_SEAL_REMOTE_FIRST.txt",
+      "public_sha256": "75be65febc2913f563fd5bd1589ca99d0199e6f031e4ce1cf1b8fc1ce97a5aa1",
+      "redacted": false
+    }
+  },
+  "current_failed_ids": [
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1]",
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[1]",
+    "FAILED tests/test_physical_bridge_mirror_quartic.py::test_mirror_only_limit_and_breaking_requires_locking",
+    "FAILED tests/test_physical_bridge_mirror_quartic_normal_form_control.py::test_normal_form_instrument_can_pass_and_fail"
+  ],
+  "seal_ledger_grade": "POST-EXECUTION correction: the pre-execution Git snapshot and printed scientific SHA256 values are real, but the intended committed seal-ledger rows failed generation. No retrospective compliance claim.",
+  "ledger_generation_error_preserved_in": [
+    "9e2d43ec:docs/SEAL_LEDGER.md",
+    "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_SEAL_LEDGER_FIRST.txt"
+  ],
+  "custody_checks": [
+    {
+      "raw_basename": "oa_r40_custody_first",
+      "raw_receipt_sha256": "84ab1b9b4523a4b05f10da57ec72d2c2aa24299cc10c57a6b6034627c5f77175",
+      "exit_code": 1,
+      "signal": null,
+      "elapsed_seconds": 0.1684220000024652,
+      "log_bytes": 89,
+      "log_sha256": "f9223d3d87a697f7bb529498d2f2bb9e295d634e987bb3f831cae14a2b12b14f",
+      "public_log": "Missing scientific seal: reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_DESIGN.md\n"
+    },
+    {
+      "raw_basename": "oa_r40_custody_after_ledger_repair",
+      "raw_receipt_sha256": "4b6ea410791f127fd68187f2d640a82af4a18bc22902fda5ed26ec28d200f9cd",
+      "exit_code": 0,
+      "signal": null,
+      "elapsed_seconds": 0.8912200000049779,
+      "log_bytes": 338,
+      "log_sha256": "82856b3af2d114015f3f9a44523004c145e23d19cb96fcc5a4225b572876fd61",
+      "public_log": "{\"sealed_science\":6,\"frozen_inputs\":24,\"prior_captures\":8,\"captured_runs\":7,\"incoming_sealed_sources\":16,\"coefficient_systems\":11,\"new_tests\":20,\"focused_files\":15,\"focused_pass\":236,\"unchanged_failed_ids\":4,\"incoming_tests\":79,\"scope\":\"Read-only artifact custody, not independent mathematics, all-green banking or physical completion.\"}\n"
+    }
+  ]
+}

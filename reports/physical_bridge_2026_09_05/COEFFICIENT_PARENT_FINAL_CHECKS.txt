@@ -1,0 +1,182 @@
+R40 reporting checks, September 20, 2026
+
+Scope: local research preservation on audit/physical-bridge-2026-09-05,
+not full-suite/main acceptance, independent mathematics or physical TOE.
+The intervening mobile diagnosis did not advance the physics goal.
+This continuation completed report/receipt custody without rerunning the
+same scientific implementation and calling it independent confirmation.
+
+All six scientific files remain byte-identical to the pushed and
+server-confirmed pre-execution snapshot
+9e2d43ec8a6710ece4906b0b8468b58fdb84c0a5.
+The seal-ledger rows were NOT successfully inserted before execution.
+The three original parser errors and first custody rejection remain.
+The actual rows are openly labeled POST-EXECUTION correction; no
+hypothesis, source, expected value or assertion was changed.
+
+Native exact output: exit zero, eleven paired coefficient systems,
+eight scalar repairs and complete parent/metric/anomaly controls.
+Twenty new tests pass; the fixed fifteen-file population gives
+236 passes and exactly the same four failed IDs as R39.
+Incoming pinned F02--F04 reuse gives 55 passes and one optional GUI
+warning; F05 gives 24 passes. This is unchanged-author-code reuse.
+The public native JSONL was explicitly added despite the repository's
+general *.jsonl ignore rule; it matches the raw capture byte-for-byte.
+
+The first staged governance run gave 25 PASS / 5 FAIL. The extra
+law-map-provenance failure concerned three rows lacking B-number
+antecedent citations, not missing local locks. The repair names the
+genuine B1335 coefficient and B1138 parent lineage explicitly as prior
+work, NOT as proofs of the new R40 statements. No number was allocated,
+no scientific file changed, and the failed gate output is preserved.
+
+The corrected staged run gives 26 PASS / 4 historical FAIL details,
+each byte-equal to the corresponding R39 failed-detail line.
+Review is due at 193 merges. No baseline, gate or old failing test
+was relaxed. A first inline failure-comparison formatter itself raised
+Encoding::InvalidByteSequenceError when JSON-encoding the UTF-8 review
+line under US-ASCII; the comparison had already succeeded. The explicit
+UTF-8 rerun returned the four unchanged details and 26-pass count.
+That console failure was not a captured scientific invocation.
+
+First cumulative custody: 636 latest artifact paths, 164 distinct
+latest seals, 296 relative Markdown links in its staged/prior population.
+This does not check every repository link or prove scientific claims.
+The new custody checker covers six scientific files, 24 frozen inputs,
+eight prior captures, seven execution/public copies, sixteen incoming
+scientific files and the exact focused population/failed IDs.
+The separate failed/corrected custody metadata [exit 1, exit 0] also
+matches both original raw logs and receipts.
+
+Strict whitespace checking reports only two literal pytest trailing
+spaces on lines 16 and 22 of COEFFICIENT_PARENT_FOCUSED_FIRST.txt.
+Excluding exactly that raw-output file passes; the evidence bytes are
+not reformatted. The report/manifest addendum below is separately
+staged and checked before commit. No all-green certificate follows.
+
+All-head/tag fetch succeeded with no remote changes. A later read-only
+inspection found local fork 2b80fe09dd1bc52583877cb053bf03ed4823294b,
+with F06--F08 beyond the F02--F05 pins certified here. Their incoming
+F07/F08 findings and F08 proof were read, not yet independently executed
+or adopted by this R40 receipt. They do not silently replace these pins.
+
+Captured runs (commands and scientific run details are in the dedicated
+receipts; raw files remain retained separately):
+
+oa_r40_native_first
+{"raw_receipt_sha256":"6e121321f06db3e20681c8febbf6b22f0935018a32bc8c1b0d38b9f2e44d6c63","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":20.943421000003582,"log_bytes":16386,"log_sha256":"12171ed3ccc88e9d99737a059fe09d738aaf83c2375527287463e13a4c9211e8"}}
+
+oa_r40_tests_first
+{"raw_receipt_sha256":"5dafd789c358a06f1486f9c978d12c75393c053248d3c6311e88ca0572879133","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":19.556171000003815,"log_bytes":100,"log_sha256":"7b50e67608a7a840e7894ab7d6d1c46de78e7b218a40d6834cde6918f8e19ff1"}}
+
+oa_r40_focused_first
+{"raw_receipt_sha256":"b0fe99ad26f31fc19722fcadeb428b641ed551face33e3554fe9fdc101c924bd","receipt":{"exit_code":1,"signal":null,"elapsed_seconds":81.28834300000744,"log_bytes":2965,"log_sha256":"e3c6d499a384fe7fbcb5c3fd0cd03fb897364802397f84f064ee1595ac3fcb98"}}
+
+oa_r40_f02_f04_tests_first
+{"raw_receipt_sha256":"de7c5dd313bfe81578060445e1b3fd018a882227a8286f7c81386431d9f618cb","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":19.241445999999996,"log_bytes":583,"log_sha256":"20133fc3c2f736d5754395912022c08fb0c773886cdd6f442eb9026c4286c1ab"}}
+
+oa_r40_f05_tests_first
+{"raw_receipt_sha256":"1ee3a74804890c6788d0f935b1cd7b66acd9b98f5f9a934ccc385e52d9b6b260","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":4.406759000004968,"log_bytes":99,"log_sha256":"94af46544ca9d43f00e8386f00b2184142923646fd32ffb417d0288ece088b28"}}
+
+oa_r40_custody_first
+{"raw_receipt_sha256":"84ab1b9b4523a4b05f10da57ec72d2c2aa24299cc10c57a6b6034627c5f77175","receipt":{"exit_code":1,"signal":null,"elapsed_seconds":0.1684220000024652,"log_bytes":89,"log_sha256":"f9223d3d87a697f7bb529498d2f2bb9e295d634e987bb3f831cae14a2b12b14f"}}
+
+oa_r40_custody_after_ledger_repair
+{"raw_receipt_sha256":"4b6ea410791f127fd68187f2d640a82af4a18bc22902fda5ed26ec28d200f9cd","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":0.8912200000049779,"log_bytes":338,"log_sha256":"82856b3af2d114015f3f9a44523004c145e23d19cb96fcc5a4225b572876fd61"}}
+
+oa_r40_report_custody_resume
+{"raw_receipt_sha256":"ef185c48da161e9cb3e1abbcdf310269f32292408f3431146e3fcfdaa39cb7ea","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":0.9611719999957131,"log_bytes":338,"log_sha256":"82856b3af2d114015f3f9a44523004c145e23d19cb96fcc5a4225b572876fd61"}}
+
+oa_r40_fetch_final_resume
+{"raw_receipt_sha256":"c3447baa5e4c9324db26627a8c4c5bb7d786f72e661fa180f3a60bf67a3683ff","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":0.6368439999932889,"log_bytes":0,"log_sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}}
+
+oa_r40_report_gates_first
+{"raw_receipt_sha256":"b481713350abea671955b12a581b4f79924d84754e88e361a089f744520d9105","receipt":{"exit_code":1,"signal":null,"elapsed_seconds":13.985430000000633,"log_bytes":2261,"log_sha256":"4699db744adaa9c5d20791dcbd084a98d6830601223dec1fea187917f11c8897"}}
+
+oa_r40_report_gates_after_lineage
+{"raw_receipt_sha256":"918c643b88a566d5407fda5728ca454672c818e65f5db1429321d3aa04cb21d0","receipt":{"exit_code":1,"signal":null,"elapsed_seconds":13.723912999994354,"log_bytes":2095,"log_sha256":"174ec2786b10a47383e2eaf79493521e4b3f4ae4bf6f938e80fcc73050f67981"}}
+
+oa_r40_report_cumulative_first
+{"raw_receipt_sha256":"7d4bc01602445176cc9bf5131bcecaac155e55a82e2f4b427035e1f5dfd45df7","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":1.1988450000062585,"log_bytes":616,"log_sha256":"12686bc9fc6d40bf64f40091bb4aabe130cc322ad78787bf90f9dbd0ca3a9b08"}}
+
+oa_r40_report_whitespace_first
+{"raw_receipt_sha256":"894c6c446cf6e9e333a5544abf4ca3df5f44a5a9ee3329fd6fdc701031577718","receipt":{"exit_code":2,"signal":null,"elapsed_seconds":0.07537600000796374,"log_bytes":210,"log_sha256":"07e3913edd8d1f12d93688ee230f6efae8c34e7406c9431809c17d947db2f1bc"}}
+
+oa_r40_report_clean_diff_first
+{"raw_receipt_sha256":"dd18a8e2da41b6d7961c075bb45246b5f4743c38ad278881e7805a4c868743f3","receipt":{"exit_code":0,"signal":null,"elapsed_seconds":0.07984900000155903,"log_bytes":0,"log_sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}}
+
+Full output: oa_r40_report_gates_first
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 21 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 29 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 25 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  FAIL  law-map-provenance: LAW_MAP provenance -- 3 row(s) cite no arc: Determinant-one enlargement can retain t; The full parent roster preserves a forma; The determinant-line metric map does not
+  PASS  atlas-lexicon-current: ok
+  review-due: 193 merges since last review (DUE — run the decadal review)
+
+Full output: oa_r40_report_gates_after_lineage
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 21 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 29 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 25 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 193 merges since last review (DUE — run the decadal review)
+
+Full output: oa_r40_report_cumulative_first
+{"old_custody":{"artifacts":636,"latest_distinct_seals":164,"unchanged_science_paths":11,"raw_captures":14,"public_science_copies":7,"broad_test_files":52,"unchanged_failed_error_ids":24,"relative_markdown_links":296,"scope":"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green."},"unchanged_r31_science_paths":8,"r31_raw_captures":9,"r31_public_copies":4,"r31_broad_test_files":54,"unchanged_failed_error_ids":24,"history_population_verified":true,"scope":"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green."}
+
+JSON-escaped full output: oa_r40_report_whitespace_first
+"reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_FOCUSED_FIRST.txt:16: trailing whitespace.\n+E     \nreports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_FOCUSED_FIRST.txt:22: trailing whitespace.\n+E     \n"
+
+The first final-checks transcription copied that whitespace diagnostic
+literally and itself triggered a whitespace warning. Its diagnostic is
+now JSON-escaped; the original raw diagnostic and pytest bytes are unchanged.
