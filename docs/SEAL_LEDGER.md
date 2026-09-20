@@ -771,3 +771,14 @@ not a global physical no-go, full-bank certificate, or new empirical claim.
 | `reports/nonsplit_admissibility_2026_09_20/PROOF.md` | `fb44477a8cb09df70e95b13ebf99b40c3c86ec2d818c504f9d1818ff2ed75792` |
 | `reports/nonsplit_admissibility_2026_09_20/verify.py` | `77aa5cb5c91e83884a51e67ed866243807b54509f94e398fc567908cd45cac23` |
 | `reports/nonsplit_admissibility_2026_09_20/test_verify.py` | `22b121c89be9a1be5a740c2d9de05449107f1900811c3f461506ae0a25cd39ea` |
+
+### F01 v2 implementation-only correction, before rerun
+
+First producer stopped at a complex-linear simplification error; its source
+and failed output are preserved. Mathematical criteria and proof unchanged.
+
+| Path | SHA256 |
+|---|---|
+| `reports/nonsplit_admissibility_2026_09_20/verify_v2.py` | `7971b9ad51527d68429440bb025201c15087a0d2f55779fd080feca2be0b50da` |
+| `reports/nonsplit_admissibility_2026_09_20/test_verify_v2.py` | `8affad7d07f6e5a039492a46bfcb4ebe776f5d176334ef924b2557ed51a98ea7` |
+| `reports/nonsplit_admissibility_2026_09_20/CORRECTION_V2.md` | `1a9acea77e55d0070611fe563a351362bd7f472bb9b50ca0a108936164c32b6c` |

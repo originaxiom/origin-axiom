@@ -1,0 +1,12 @@
+{
+  "scope": "F01 post-first-run implementation correction, sealed before second execution; original source and output preserved",
+  "sha256": {
+    "DESIGN.md": "e313c63cbd8b77c938f95e6b6261076b3b48b4b13401c001b9ef8998494096e6",
+    "PROOF.md": "fb44477a8cb09df70e95b13ebf99b40c3c86ec2d818c504f9d1818ff2ed75792",
+    "verify.py": "77aa5cb5c91e83884a51e67ed866243807b54509f94e398fc567908cd45cac23",
+    "test_verify.py": "22b121c89be9a1be5a740c2d9de05449107f1900811c3f461506ae0a25cd39ea",
+    "verify_v2.py": "7971b9ad51527d68429440bb025201c15087a0d2f55779fd080feca2be0b50da",
+    "test_verify_v2.py": "8affad7d07f6e5a039492a46bfcb4ebe776f5d176334ef924b2557ed51a98ea7",
+    "CORRECTION_V2.md": "1a9acea77e55d0070611fe563a351362bd7f472bb9b50ca0a108936164c32b6c"
+  }
+}
