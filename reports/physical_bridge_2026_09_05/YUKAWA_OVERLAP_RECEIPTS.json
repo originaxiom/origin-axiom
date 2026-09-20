@@ -1,0 +1,177 @@
+{
+  "seal_pin": "a42b7118837ff8cdd3f5118e5cc523e971154d92",
+  "runs": [
+    {
+      "raw_basename": "oa_r36_native_first",
+      "raw_receipt_sha256": "37d51a3d79b104b88f526a1f30a5ec78ba7ddfc6e61a565dd6992497dcc05924",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "reports/physical_bridge_2026_09_05/yukawa_overlap.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 8.280868000001647,
+        "log_bytes": 3013,
+        "log_sha256": "9dec63d159d2ae922e1853e286b1b270d0b8889ce465a375dd7bb4a19eb2b4da"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_NATIVE_FIRST.json"
+    },
+    {
+      "raw_basename": "oa_r36_tests_first",
+      "raw_receipt_sha256": "f9b532bd01f09c0b5b3021ffd712938759bad329e012e9e081dd726f5680ee1c",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_yukawa_overlap.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 8.947531000001618,
+        "log_bytes": 99,
+        "log_sha256": "7fc244e6fd49a94047063a1f94f49ed817fb4c6c1a3624f22fb06b5d3ebb481a"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_TESTS_FIRST.txt"
+    },
+    {
+      "raw_basename": "oa_r36_focused_first",
+      "raw_receipt_sha256": "291d7af6a9eeb6e74c498d4a3702f34d10cb89a9f2fdb6135f992de4226954fc",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--tb=short",
+          "tests/test_physical_bridge_mirror_quartic.py",
+          "tests/test_physical_bridge_mirror_interaction.py",
+          "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+          "tests/test_physical_bridge_anomaly_completion.py",
+          "tests/test_physical_bridge_anomaly_action_control.py",
+          "tests/test_physical_bridge_source_c3.py",
+          "tests/test_physical_bridge_global_poisson.py",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+          "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+          "tests/test_physical_bridge_yukawa_overlap.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 28.25778999999966,
+        "log_bytes": 2875,
+        "log_sha256": "9306801a05614d3405444e906395b006b4aeb6ba1b064f75790c852a692fdad1"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_FOCUSED_FIRST.txt"
+    },
+    {
+      "raw_basename": "oa_r36_preseal_gates_first",
+      "raw_receipt_sha256": "5810140518bffd46896e090dae5712858934ac1a6050e70f9084f9afe6ae1e85",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 12.927777999999307,
+        "log_bytes": 2095,
+        "log_sha256": "c057e5e6ed9be56b130084a6109ebadcd82f4a6d4bd9cbd181f8ac2d1aeba0f6"
+      },
+      "public_path": null,
+      "output": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 16 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 28 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 24 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 180 merges since last review (DUE — run the decadal review)\n"
+    },
+    {
+      "raw_basename": "oa_r36_preseal_custody_first",
+      "raw_receipt_sha256": "224aa68c50901d0f01a55f1303578c282538fc2f58909c66e38c4928377ed36c",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<raw-directory>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.0765289999999368,
+        "log_bytes": 614,
+        "log_sha256": "fd2a5f4afe3b31d8cd72c63f7e3134ba9ce4547cbb5a0cc8e5a54f30134fe3b8"
+      },
+      "public_path": null,
+      "output": "{\"old_custody\":{\"artifacts\":550,\"latest_distinct_seals\":140,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":2,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    {
+      "raw_basename": "oa_r36_remote_seal_first",
+      "raw_receipt_sha256": "b0257773f6c4c6725704ea32fbef5c744310fd30c0a9214c83a83424e30205e6",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "ls-remote",
+          "--heads",
+          "origin",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6128509999998641,
+        "log_bytes": 85,
+        "log_sha256": "6aee771e0dc33b672e542cd0b6d4b7fc31e6c2d97fb33d97823a5e75703fa4c8"
+      },
+      "public_path": null,
+      "output": "a42b7118837ff8cdd3f5118e5cc523e971154d92\trefs/heads/audit/physical-bridge-2026-09-05\n"
+    }
+  ],
+  "old_failed_ids": [
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1]",
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[1]",
+    "FAILED tests/test_physical_bridge_mirror_quartic.py::test_mirror_only_limit_and_breaking_requires_locking",
+    "FAILED tests/test_physical_bridge_mirror_quartic_normal_form_control.py::test_normal_form_instrument_can_pass_and_fail"
+  ],
+  "new_failed_ids": [
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[-1]",
+    "FAILED tests/test_physical_bridge_mirror_interaction.py::test_real_rotated_and_collinear_complex_vectors_are_full_rank[1]",
+    "FAILED tests/test_physical_bridge_mirror_quartic.py::test_mirror_only_limit_and_breaking_requires_locking",
+    "FAILED tests/test_physical_bridge_mirror_quartic_normal_form_control.py::test_normal_form_instrument_can_pass_and_fail"
+  ],
+  "scope": "Frozen source, capture custody and exact declared population; not independent proof, full-suite green or a mirror gap.",
+  "sealed_paths": [
+    "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_DESIGN.md",
+    "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_PROOF.md",
+    "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_PRIOR.md",
+    "reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_INPUTS.json",
+    "reports/physical_bridge_2026_09_05/yukawa_overlap.py",
+    "tests/test_physical_bridge_yukawa_overlap.py"
+  ]
+}

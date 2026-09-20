@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-09-19 — R36 computes charged overlap and boundary controls, not a physical gap
+
+The actual positive scalar/one-form pair of the added compact source
+model has a charged bilinear Yukawa identity, distinct from its
+Hermitian gauge-current normalization. The covariant product/Green
+calculation retains a scalar-profile boundary term after the fermion
+Robin condition. Omitting the drift, conjugation or end term fails
+the respective controls. The general compact-domain argument is
+authored, not independently reviewed or certified by finite tests.
+
+A flat order-three-line control has equal overlap singular spectra
+for any scalar profile in its stated mode sector. A normalized
+localized interval control has a diverging coupling ratio but BOTH
+absolute couplings vanish, with growing scalar gradient cost. These
+are opposite discriminators, not the sourced hyperbolic manifold's
+eigenfunctions or a selected physical scalar. The true source/tube
+interface and scalar variation remain next, followed by the full
+interacting, anomaly/end and empirical completion duties.
+
+Seal a42b7118 was pushed and server-confirmed before execution.
+Native 11 groups pass, new whole file 15 pass, ten-file focused
+158 pass / exactly the same four R34 failed IDs. No scientific
+repair, hidden deselection, full-suite green, shared B, independent
+main bank, chirality closure or completed TOE is claimed.
+Report: reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP.md.
+
+
 ## 2026-09-19 — R35 checks cross-seat literature transfers without a new spectrum
 
 All seven advertised GitHub heads were fetched; five older tracking

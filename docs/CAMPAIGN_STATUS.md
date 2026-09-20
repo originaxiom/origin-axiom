@@ -1,5 +1,21 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**LATEST LOCAL RESULT, R36 (September 19; reporting September 20): charged overlap controls.**
+The added compact source model has a charged product/Green identity
+with a surviving scalar-profile boundary term. Equal normalized
+gauge currents do not imply equal Yukawa bilinears. Opposite controls
+give equal overlap spectra or a growing ratio with both couplings
+vanishing. Native 11/11; new tests 15 pass; ten-file focused
+158 pass / the same four R34 failures. Source-selected scalar dynamics,
+actual tube-interface couplings and the interacting mirror phase
+remain open. No global eigenproblem, physical chirality closure,
+independent main bank or completed TOE is claimed.
+Report: reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP.md.
+
+The earlier checkpoint entries below are historical, not the current
+latest-science designation.
+
+
 **LATEST INTAKE, 2026-09-19 (R35): source scope, not a new physical closure.**
 Seven advertised GitHub heads fetched, five older tracking refs retained;
 17 selected repository bodies and two full primary papers read directly.

@@ -1,10 +1,26 @@
 # Physical bridge audit — 2026-09-05
 
-**Unexecuted continuation after R35:**
+**Latest local result, R36 (September 19): [charged normalized overlaps](YUKAWA_OVERLAP.md).**
+The exact product/Green relation retains a scalar-profile boundary
+term despite fermion Robin data. Yukawa bilinears are not Hermitian
+gauge-current densities. One control has equal overlap spectra;
+another has a diverging ratio while both couplings vanish.
+All 11 native groups and 15 new tests pass; ten-file focused:
+158 pass / the same four R34 failures. No new global spectrum,
+source-selected scalar or quantum mirror gap is claimed.
+Next derive the scalar's source action, normalized mode and tube
+interface couplings, retaining the end/anomaly and phase duties.
+
+The dated checkpoint entries below are historical; R36 is the latest
+executed science, and R35 remains the latest cross-seat intake.
+
+
+**Historical preparation before R36:**
 [charged Yukawa-overlap working note](YUKAWA_OVERLAP_WORKING_2026_09_19.md).
 It preserves an analytic candidate with its boundary term and two
-opposite controls. Prior-art completion and a scientific seal are still
-due; no new verified spectrum, selectivity or gap is claimed.
+opposite controls. R36 subsequently sealed and tested that candidate;
+the frozen note is prior, not a blind forecast. The actual scalar
+profile and physical gap remain unproved.
 
 **Latest intake, R35 (September 19): [cross-seat and primary-literature audit](LITERATURE_AND_SEATS_2026_09_19.md).**
 All seven advertised GitHub heads were fetched; five older tracking

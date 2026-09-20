@@ -1,4 +1,19 @@
-# Verdict toward the full physical-theory goal — 2026-09-19, R35 intake / R34 science
+# Verdict toward the full physical-theory goal — R36 science, report updated 2026-09-20
+
+**Latest local result, R36 (September 19): [charged normalized overlaps](YUKAWA_OVERLAP.md).**
+The exact product/Green relation retains a scalar-profile boundary
+term despite fermion Robin data. Yukawa bilinears are not Hermitian
+gauge-current densities. One control has equal overlap spectra;
+another has a diverging ratio while both couplings vanish.
+All 11 native groups and 15 new tests pass; ten-file focused:
+158 pass / the same four R34 failures. No new global spectrum,
+source-selected scalar or quantum mirror gap is claimed.
+Next derive the scalar's source action, normalized mode and tube
+interface couplings, retaining the end/anomaly and phase duties.
+
+The dated checkpoint entries below are historical; R36 is the latest
+executed science, and R35 remains the latest cross-seat intake.
+
 
 **Latest intake, R35 (September 19): [cross-seat and primary-literature audit](LITERATURE_AND_SEATS_2026_09_19.md).**
 All seven advertised GitHub heads were fetched; five older tracking

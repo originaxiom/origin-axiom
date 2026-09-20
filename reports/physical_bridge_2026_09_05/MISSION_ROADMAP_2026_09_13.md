@@ -1,10 +1,26 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
-**Next-step preparation, not an executed result:** the
+**Latest local result, R36 (September 19): [charged normalized overlaps](YUKAWA_OVERLAP.md).**
+The exact product/Green relation retains a scalar-profile boundary
+term despite fermion Robin data. Yukawa bilinears are not Hermitian
+gauge-current densities. One control has equal overlap spectra;
+another has a diverging ratio while both couplings vanish.
+All 11 native groups and 15 new tests pass; ten-file focused:
+158 pass / the same four R34 failures. No new global spectrum,
+source-selected scalar or quantum mirror gap is claimed.
+Next derive the scalar's source action, normalized mode and tube
+interface couplings, retaining the end/anomaly and phase duties.
+
+The dated checkpoint entries below are historical; R36 is the latest
+executed science, and R35 remains the latest cross-seat intake.
+
+
+**Historical preparation, subsequently tested by R36:** the
 [charged overlap working note](YUKAWA_OVERLAP_WORKING_2026_09_19.md)
 keeps bilinear Yukawas distinct from density/gauge overlaps, retains
 the end term, and requires absolute coupling scales as well as ratios.
-Its proposed controls and remaining prior-art/seal duties are explicit.
+Its original prior-art/seal duties have been executed; deriving the
+actual source scalar and its tube-interface couplings remains next.
 
 **Latest intake, R35 (September 19): [cross-seat and primary-literature audit](LITERATURE_AND_SEATS_2026_09_19.md).**
 All seven advertised GitHub heads were fetched; five older tracking

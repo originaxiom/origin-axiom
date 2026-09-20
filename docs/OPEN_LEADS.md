@@ -3109,3 +3109,22 @@ remain attributed, not independently rerun; no universal negative or
 new physical identification is introduced. Report and reading grades:
 reports/physical_bridge_2026_09_05/LITERATURE_AND_SEATS_2026_09_19.md
 and reports/physical_bridge_2026_09_05/LITERATURE_READING_2026_09_19.md.
+
+### PB-BOUNDARY / PB-ACTION, 2026-09-19: R36 charged overlap relation
+
+Closing sentence for the instrument sub-duty only: the declared
+positive scalar/one-form pair obeys the charged bilinear product/Green
+identity including its end term, with exact opposite controls.
+Source: reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP.md and
+YUKAWA_OVERLAP_PROOF.md in the same directory. This does NOT close
+source-derived selectivity, the interacting phase or PB-BOUNDARY.
+
+Next vary an S sector on R29's actual weighted tubes, derive its
+canonical mode, mass and feedback on Phi, and retain full interface
+fluxes: transmitting fermions do not acquire artificial Robin data
+at a tube cut. Compute actual normalized overlap scales, not only a
+ratio. R31's cutoff trials are not exact eigenstates; R36's prescribed
+interval profile is not a stationary scalar. Keep both allowed
+Yukawas, Dirac mixing, source/end and anomaly completion, plus the
+finite-volume/cutoff quantum-phase diagnostics. Neither equal-Yukawa
+universality nor physical mirror removal follows from the controls.

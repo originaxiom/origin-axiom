@@ -1,5 +1,18 @@
 # CC's banking relay read before the next local checkpoint
 
+R36 reporting, September 20; science executed September 19:
+[charged overlaps](YUKAWA_OVERLAP.md). Seal a42b7118 was committed,
+pushed and server-confirmed before execution. Native 11/11, new tests
+15 pass, ten-file focused 158 pass / exactly the four R34 failures.
+The read-only receipt check verifies six unchanged sealed files,
+44 frozen inputs and all six captured preseal/scientific runs.
+No shared B allocation, scientific repair, full-suite green or
+independent main bank is claimed. Scalar-source dynamics and tube
+interfaces remain next; no physical chirality or TOE closure.
+[Reporting checks](YUKAWA_OVERLAP_FINAL_CHECKS.txt) retain governance
+debts. The dated R35 and earlier receipts below are historical.
+
+
 R35, September 19, is a path-local literature/reception checkpoint:
 [assessment](LITERATURE_AND_SEATS_2026_09_19.md),
 [reading and custody](LITERATURE_READING_2026_09_19.md).

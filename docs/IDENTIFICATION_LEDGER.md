@@ -123,3 +123,16 @@ coupling. Actual source-derived normalized interactions and the
 global physical action remain the required maps. No shared I-number
 or prior row's status changes. Report:
 reports/physical_bridge_2026_09_05/LITERATURE_AND_SEATS_2026_09_19.md.
+
+### R36 overlap scope, 2026-09-19: bilinear interaction is not a current norm
+
+The declared internal contraction maps exact positive scalar/one-form
+partners and a normalized charge-two scalar to charged bilinear
+overlap matrices M and P. Its covariant Green identity is checked;
+this contraction is ADDED, not derived from the PW/source action.
+Hermitian gauge-current normalization is not the same map. Neither
+a relative overlap ratio nor a nonzero local invariant is identified
+with a finite symmetric mirror gap. Derive the scalar's own domain,
+action and absolute coupling scales next. No shared I-number or
+physical identification status is reassigned. Report:
+reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP.md.

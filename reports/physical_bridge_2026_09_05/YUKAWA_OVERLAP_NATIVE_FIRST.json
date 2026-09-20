@@ -1,0 +1,107 @@
+{
+  "checks": {
+    "charged_product_green": true,
+    "dual_product_green": true,
+    "drift_mutants_fail": true,
+    "gauge_covariance": true,
+    "interval_normalized": true,
+    "boundary_required": true,
+    "ratio_and_absolute_scale": true,
+    "constant_profile_current": true,
+    "robin_and_drift": true,
+    "circle_no_selectivity": true,
+    "bilinear_not_density": true
+  },
+  "all_checks_pass": true,
+  "charged": {
+    "product": "0",
+    "green": "0",
+    "missing_drift": "q*(2*I*A(x)*b(x) - Derivative(b(x), x))*u(x)*v(x)*Derivative(F(x), x)"
+  },
+  "dual": {
+    "product": "0",
+    "green": "0",
+    "missing_drift": "-q*u(x)*v(x)*Derivative(F(x), x)*Derivative(b(x), x)"
+  },
+  "gauge": {
+    "first": "0",
+    "scalar": "0",
+    "coefficient": "0",
+    "mirror_charge": 0,
+    "ordinary_charge": 0,
+    "wrong_unconjugated_charge": 4
+  },
+  "interval": {
+    "u_norm": "0",
+    "v_norm": "0",
+    "s_norm": "0",
+    "eigen": "0",
+    "partner": "0",
+    "endpoints": [
+      "0",
+      "0"
+    ],
+    "M": "2*sqrt(2)*(t**2*exp(pi*t) - t**2 + 2*exp(pi*t) - 2)*sqrt(1/(exp(2*pi*t) - 1))/(pi*sqrt(t)*(t**2 + 4))",
+    "P": "4*sqrt(2)*(exp(pi*t) - 1)*sqrt(1/(exp(2*pi*t) - 1))/(pi*sqrt(t)*(t**2 + 4))",
+    "M_formula": "0",
+    "P_formula": "0",
+    "identity": "0",
+    "omitted_boundary_at_two": "4*(1 - exp(2*pi))/(pi*sqrt(-1 + exp(4*pi)))",
+    "boundary_at_two": "4*(1 - exp(2*pi))/(pi*sqrt(-1 + exp(4*pi)))",
+    "ratio": "t**2/2 + 1",
+    "gradient": "0",
+    "M_limit": "2*sqrt(2)/pi",
+    "P_limit": "4*sqrt(2)/pi",
+    "M_zero_limit": "1/sqrt(pi)",
+    "P_zero_limit": "1/sqrt(pi)"
+  },
+  "robin": {
+    "eigen": "0",
+    "partner": "0",
+    "u_norm": "0",
+    "v_norm": "0",
+    "robin": [
+      "0",
+      "0"
+    ],
+    "undeformed_neumann": [
+      "-2*sqrt(10)/(5*sqrt(pi))",
+      "2*sqrt(10)/(5*sqrt(pi))"
+    ],
+    "identity": "0",
+    "boundary": "-2/5",
+    "volume": "-2*pi - 3/5",
+    "wrong_no_drift": "-2*pi - 8/5"
+  },
+  "circle": {
+    "scalar_norm": "0",
+    "fermion_norms": [
+      "0",
+      "0",
+      "0"
+    ],
+    "partner_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "eigenvalues": [
+      "4/9",
+      "1/9",
+      "16/9"
+    ],
+    "coefficient_residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+    "congruence": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+    "same_singular_polynomial": "0",
+    "basis_spectrum": "0",
+    "M_scaled": "Matrix([[sqrt(2)/4, sqrt(2)*I/4, sqrt(2)/2], [sqrt(2)*I/4, sqrt(2)/2, sqrt(2)*I*(1 - I)/4], [sqrt(2)/2, sqrt(2)*I*(1 - I)/4, 0]])",
+    "P_scaled": "Matrix([[-sqrt(2)/4, -sqrt(2)*I/4, sqrt(2)/2], [-sqrt(2)*I/4, -sqrt(2)/2, sqrt(2)*(-1 + I)/4], [sqrt(2)/2, sqrt(2)*(-1 + I)/4, 0]])",
+    "squared_holonomy": "-1/2 - sqrt(3)*I/2",
+    "squared_holonomy_nontrivial": true
+  },
+  "tensor_type": {
+    "bilinear": "0",
+    "hermitian": "1"
+  },
+  "scope": "Exact identities and explicit comparators in the ADDED coupling model; no actual sourced eigenfunctions, selected scalar, or quantum mirror gap."
+}
