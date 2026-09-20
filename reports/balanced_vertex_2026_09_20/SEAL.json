@@ -1,0 +1,15 @@
+{
+  "scope": "F09 balanced parent exterior sector and actual one-form vertex; sealed before first execution",
+  "base_commit": "2b80fe09",
+  "sha256": {
+    "DESIGN.md": "65370b53baac624984861e92e5e2d58b60f38a1629276d85bfdbec4ba2b44305",
+    "PROOF.md": "b928633014506238457b20bf3d6d8145d11bda77b503fd7beaa822ab2bc7fdc2",
+    "verify.py": "b0e986c917d3280c2602dfaba2124a431a06d4d4829c15c285960ac7d3be1bc8",
+    "test_verify.py": "c6dc63ba366a3d42dc915c93bfee99ca4133c79d63927715190513269c7046b5"
+  },
+  "reused_transitive_producer_sha256": {
+    "../balanced_parent_2026_09_20/verify.py": "86acbef5b4821896eb5df172207f8a2e6ec8249671b382cc47a2856053159eed",
+    "../parent_twist_gap_2026_09_20/verify.py": "cc00073a813b7e7e2cff1f2669c0681fa52d32b13260c3523cb5c72fb66bd4ed",
+    "../isotropic_parent_core_2026_09_20/verify.py": "306af32f146b42748014e0f9e9db5fd9f73c5af6d1f72da5c04ed749b3dd8cd9"
+  }
+}
