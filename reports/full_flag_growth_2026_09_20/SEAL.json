@@ -1,0 +1,9 @@
+{
+  "scope": "F04 pre-first-execution seal: full rank-four flag growth with explicit angular restriction; not unrestricted physical exclusion",
+  "sha256": {
+    "DESIGN.md": "35cfcb2dd04622a0a8766cdb1499c6a3ef54c8235561d39299eb1996341d3b53",
+    "PROOF.md": "f217c533d0489f960ebba64647a94ad40901a82785114df526cb3bf018fcdeea",
+    "verify.py": "9abcc676e72b7bd216144bc1fa0061f4cb9858918ef191d951a84178ad055876",
+    "test_verify.py": "cf63ba99cddd11c3677ef739ab7ca8c81690df7ab6c6ad69c68d1123edf648d8"
+  }
+}
