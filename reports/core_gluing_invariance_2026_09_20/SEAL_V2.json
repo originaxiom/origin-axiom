@@ -1,0 +1,9 @@
+{
+  "scope": "F07 exact-comparison repair sealed after first failure and diagnostic, before corrected test execution; all original scientific sources retained",
+  "original_science_commit": "e4bd5190",
+  "sha256": {
+    "CORRECTION_DESIGN.md": "200f0ec57f5dc76248bc8b334417f011fd1efe425c65c7ae7a852f168e00cdf4",
+    "test_verify_v2.py": "325547c94cc9713c891b08fdb6761e35c430c6d5836d531f582155eae151153a",
+    "verify.py": "570b84a6cef01300638e48805d08ca84a267a282e15d5668f39e7ba99165fd4d"
+  }
+}
