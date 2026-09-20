@@ -101,6 +101,20 @@ checks unchanged. A pointwise algebraic kernel is not a physical zero mode.
 The next discriminator is global metric/field matching with the correct
 parent action, before assigning particle or chirality content to this core.
 
+[F07's follow-through](../core_gluing_invariance_2026_09_20/FINDINGS.md)
+now sharpens that priority using the repository's existing bounded-complex
+arguments. Regular compact ball replacement that preserves the exterior
+flat holonomy and ordinary-L2 class cannot produce exact charged zero modes
+from F05's gapped complex, even for a large deformation. The new estimate is
+Delta_new >= (9/4)m/M for uniformly equivalent positive norms. Thus F06's
+pointwise kernel does not justify prioritizing that unchanged-data gluing
+as a matter mechanism. Changed holonomy, end/domain data, added fields and
+nonflat operators remain separate tests; degenerating families can still
+have light positive pairs. Eighteen corrected exact controls and 105
+unchanged antecedent checks pass. An initial symbolic-expression comparison
+failure is retained with its repair. This is a scoped global compatibility
+argument, not a universal chirality exclusion or a completed physical model.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

@@ -374,6 +374,20 @@ antecedent checks pass. The new physical question is whether a justified
 global geometry and full fields can contain such a core, not whether its
 pointwise tensor kernel can be renamed particles.
 
+[F07](../core_gluing_invariance_2026_09_20/FINDINGS.md) then joins F06's
+matching proposal to F05's global complex and the already-banked R18/R30
+bounded-homotopy mechanism. It changes the priority again: regular compact
+ball replacements preserving exterior flat holonomy and equivalent positive
+L2 norms cannot create exact matter zeros, irrespective of their fixed
+size. The quantitative bound Delta_new >= (9/4)m/M does not transfer the
+old pointwise Higgs bound; it uses the global contraction and the actual new
+adjoint. Classical matching remains a geometry question, but not an exact
+matter mechanism within those hypotheses. Changed end/domain/holonomy or
+field data and light-mode degenerations retain their own tests. The first
+symbolic comparison failure is preserved; 18 corrected controls and 105
+unchanged antecedent checks pass. This is an authored analytic application,
+not an independently certified global model or a fresh all-head sweep.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

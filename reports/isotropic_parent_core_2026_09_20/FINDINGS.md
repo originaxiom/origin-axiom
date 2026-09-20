@@ -170,6 +170,19 @@ examples discharges those gates.
 
 ## Evidence and custody
 
+**Dated follow-through, F07 (2026-09-20):** the preceding matching priority
+now needs a stronger preliminary filter. The [global comparison](../core_gluing_invariance_2026_09_20/FINDINGS.md)
+shows that smooth replacement inside regular balls, preserving F05's
+exterior flat holonomy and equivalent complete L2 norms, cannot create
+exact charged zero modes even if this local pointwise bound has vanished.
+The global complex still has a bounded contraction. Thus such matching
+can remain a geometry benchmark but should not be pursued as a massless-
+matter mechanism without changing one of those hypotheses. Different global
+holonomy, end/domain data, additional fields and nonflat operators are not
+excluded; very light positive modes in degenerating families remain possible.
+No F06 scientific source, positive local identity or original failure is
+changed by this follow-through.
+
 - Initial seal `5ff91aff`: **16 passed, 1 failed**, retained verbatim as a
   transcribed tool result in [FIRST_RUN.md](FIRST_RUN.md).
 - Correction seal `a06e9423`: **19 passed**, with unchanged producer and
