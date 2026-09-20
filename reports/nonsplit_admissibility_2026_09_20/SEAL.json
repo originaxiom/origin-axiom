@@ -1,0 +1,10 @@
+{
+  "scope": "Fork F01 research preregistration; authored expected outcomes disclosed before first scientific execution",
+  "base_head": "12fe9ac779ce2ff74cc9b53ab4fc1599b08c6f54",
+  "sha256": {
+    "DESIGN.md": "e313c63cbd8b77c938f95e6b6261076b3b48b4b13401c001b9ef8998494096e6",
+    "PROOF.md": "fb44477a8cb09df70e95b13ebf99b40c3c86ec2d818c504f9d1818ff2ed75792",
+    "verify.py": "77aa5cb5c91e83884a51e67ed866243807b54509f94e398fc567908cd45cac23",
+    "test_verify.py": "22b121c89be9a1be5a740c2d9de05449107f1900811c3f461506ae0a25cd39ea"
+  }
+}

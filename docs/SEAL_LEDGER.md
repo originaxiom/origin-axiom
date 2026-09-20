@@ -757,3 +757,17 @@ localized/composite hatches; no universal parent or chirality exclusion.
 | `reports/physical_bridge_2026_09_05/PARENT_VERTEX_INPUTS.json` | `76e9188afc504be11991bd4870d4706c10f88fe2e90a95a2321fca1e38d577ab` |
 | `reports/physical_bridge_2026_09_05/parent_vertex.py` | `8b308b0d783c3d04bfef8e3339c2b884bef7fe4da3c73a205651a08d2f243793` |
 | `tests/test_physical_bridge_parent_vertex.py` | `e50567bfb83c2c80a895fe5967594024811ff16247628f130b4ae5cb9c1dfe79` |
+
+## Fork-local F01, 2026-09-20 - finite-energy harmonic admissibility
+
+New fork, no shared B allocation and no inherited R39 execution. Expected
+outcomes are disclosed before execution: a source-free finite-volume
+obstruction and an isolated-cusp positive control. Mathematical scope only;
+not a global physical no-go, full-bank certificate, or new empirical claim.
+
+| Path | SHA256 |
+|---|---|
+| `reports/nonsplit_admissibility_2026_09_20/DESIGN.md` | `e313c63cbd8b77c938f95e6b6261076b3b48b4b13401c001b9ef8998494096e6` |
+| `reports/nonsplit_admissibility_2026_09_20/PROOF.md` | `fb44477a8cb09df70e95b13ebf99b40c3c86ec2d818c504f9d1818ff2ed75792` |
+| `reports/nonsplit_admissibility_2026_09_20/verify.py` | `77aa5cb5c91e83884a51e67ed866243807b54509f94e398fc567908cd45cac23` |
+| `reports/nonsplit_admissibility_2026_09_20/test_verify.py` | `22b121c89be9a1be5a740c2d9de05449107f1900811c3f461506ae0a25cd39ea` |
