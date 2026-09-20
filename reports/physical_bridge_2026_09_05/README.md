@@ -1,5 +1,14 @@
 # Physical bridge audit — 2026-09-05
 
+**Approved strategy in execution, September 20:**
+[one-model compatibility and input audit](COMMON_MODEL_AUDIT_2026_09_20.md)
+separates the singular kernel, added anomaly completion and resolved
+pairs by their actual action/domain. Benchmark C is fixed explicitly.
+The next bounded R37 test is [sealed by this design](SOURCE_SCALAR_DESIGN.md):
+coupled scalar variations and whole-eigenspace interface overlaps.
+After it, the field/action-origin gate precedes another profile scan.
+This is not a physical chirality closure; R36 is still the last executed science.
+
 **Unexecuted continuation after R36:**
 [weighted source scalar and whole-mode-space working note](SOURCE_SCALAR_WORKING_2026_09_20.md).
 It derives a candidate scalar variation and interface relation by hand,

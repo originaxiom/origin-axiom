@@ -726,3 +726,18 @@ No source-selected scalar, global eigenproblem or quantum gap is certified.
 | `reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP_INPUTS.json` | `649532fe6763aff4f1649862b37d62dca22b71936a6818919e45b5148d772956` |
 | `reports/physical_bridge_2026_09_05/yukawa_overlap.py` | `b732ec968368bc2cae1060d2e2bc47ba60c71ce2465c9c7f9f93bc9af3b1d56a` |
 | `tests/test_physical_bridge_yukawa_overlap.py` | `bf2ec34ed3f2690ff631f671c060ea39607af9d8d37767c4fc88892a05109f6b` |
+
+## Path-local R37, 2026-09-20 — weighted scalar and whole eigenspace, before execution
+
+Analytic answers are disclosed in the a770e53c working note. Test the
+coupled action and full interface/eigenspace, not a selected-mode ratio.
+No physical source origin, hyperbolic selectivity or quantum gap follows.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/SOURCE_SCALAR_DESIGN.md` | `a75a2f3983d01b69d4ced70e7590c08742168e58c9dd1e20fc52bb7f103a23d5` |
+| `reports/physical_bridge_2026_09_05/SOURCE_SCALAR_PROOF.md` | `0091019aa10da119545a31cbbcc3d458a9517f5289ba52e917e8ea616d57f383` |
+| `reports/physical_bridge_2026_09_05/SOURCE_SCALAR_PRIOR.md` | `981e6030e5b782b6cce0c006ef9d24bf6427002d353f6e3966b60f59edb7919d` |
+| `reports/physical_bridge_2026_09_05/SOURCE_SCALAR_INPUTS.json` | `79861f27e994271ab765c88bd21996114e0b7e6f12a6bc2249718ea4d2aca91a` |
+| `reports/physical_bridge_2026_09_05/source_scalar.py` | `64e05682671fa8a79e1bdf0669accac9f079d90e22fc53cfcd13ad270dc77ade` |
+| `tests/test_physical_bridge_source_scalar.py` | `20311262eccef6c18ce3ea103559f7fc410549bb96f59d1fe4de4bfa6817d27b` |

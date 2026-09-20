@@ -1,5 +1,14 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Execution priority approved September 20:**
+[common-model audit and decision gates](COMMON_MODEL_AUDIT_2026_09_20.md).
+The cited results are now mapped by action, domain and input type,
+and finite-width benchmark C is specified. This does not mark the
+physical common-model milestone complete. Finish the bounded R37
+scalar/interface control, then test parent field/action origin before
+another rescue-field or profile scan. Preserve the separate singular
+route and the bounded noncommuting PW alternative.
+
 **Immediate unexecuted preparation after R36:**
 [the source-scalar working note](SOURCE_SCALAR_WORKING_2026_09_20.md)
 prices the added action/interaction measure, derives the proposed
