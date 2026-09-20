@@ -55,6 +55,14 @@ a global nonsplit background nor implies Fredholmness or a chiral spectrum.
 It separates a complete cusp from a finite-distance singular source, where
 domain completion remains material.
 
+[F03](../nonsplit_cusp_growth_2026_09_20/FINDINGS.md) further tests the rank-two
+infinite-energy alternative: the global positive flux and actual peripheral
+translation rule out radial or slowly angle-varying cusp height, without
+assuming finite total energy. A hypothetical solution must have large
+angular oscillation; an explicit weighted-energy countercontrol prevents
+extending this to a universal negative. Nineteen exact controls pass. An
+independent rank-four metric and coupled source equations are not excluded.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

@@ -82,3 +82,13 @@ evaluation remained unevaluated in SymPy 1.14. An independently differentiated
 primitive verifies the capacity identity, including a deliberately wrong
 primitive control. The original failure is preserved and is not counted
 as a passing old test. No R16 scientific source or assertion was changed.
+
+## Subsequent background test
+
+[F03](../nonsplit_cusp_growth_2026_09_20/FINDINGS.md) now sharpens the rank-two
+background question without changing this domain theorem. Positive global
+flux cannot be carried by a radially controlled harmonic cusp: it forces
+finite-distance blow-up unless the angular Busemann oscillation becomes
+large. Nineteen exact controls pass, including a smooth counterexample to
+an invalid averaging shortcut. The general angle-dependent and independent
+rank-four problems remain unresolved, as does their physical interpretation.
