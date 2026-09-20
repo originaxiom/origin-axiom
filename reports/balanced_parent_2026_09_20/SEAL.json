@@ -1,0 +1,14 @@
+{
+  "scope": "F08 balanced full-parent background, Codazzi dictionary, cusp controls and exact dual maps; sealed before first execution",
+  "base_commit": "054bebb3",
+  "sha256": {
+    "DESIGN.md": "a8245e1a254066619ce520af2c151c8c287dd931e850c04465f8a7c9c2fdad8b",
+    "PROOF.md": "400a258b6dd9a3249d8eea5a115668170e8e46405b387278b7d7bc247785c124",
+    "verify.py": "86acbef5b4821896eb5df172207f8a2e6ec8249671b382cc47a2856053159eed",
+    "test_verify.py": "bad22bbb0f2ddca9bff30eded8eaa34ee48b034d4207f47ebe9e22ed5681a873"
+  },
+  "reused_producer_sha256": {
+    "../parent_twist_gap_2026_09_20/verify.py": "cc00073a813b7e7e2cff1f2669c0681fa52d32b13260c3523cb5c72fb66bd4ed",
+    "../isotropic_parent_core_2026_09_20/verify.py": "306af32f146b42748014e0f9e9db5fd9f73c5af6d1f72da5c04ed749b3dd8cd9"
+  }
+}
