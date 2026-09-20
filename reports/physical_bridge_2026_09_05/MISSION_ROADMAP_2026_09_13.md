@@ -1,5 +1,13 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Immediate unexecuted preparation after R36:**
+[the source-scalar working note](SOURCE_SCALAR_WORKING_2026_09_20.md)
+prices the added action/interaction measure, derives the proposed
+weighted scalar mode and retains the full tube interface flux.
+The next control compares whole equal-energy overlap spectra; a
+single selective mode is insufficient. Preflight, seal and tests are
+still due. R36 remains the latest executed science.
+
 **Latest local result, R36 (September 19): [charged normalized overlaps](YUKAWA_OVERLAP.md).**
 The exact product/Green relation retains a scalar-profile boundary
 term despite fermion Robin data. Yukawa bilinears are not Hermitian

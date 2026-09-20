@@ -1,5 +1,12 @@
 # Physical bridge audit — 2026-09-05
 
+**Unexecuted continuation after R36:**
+[weighted source scalar and whole-mode-space working note](SOURCE_SCALAR_WORKING_2026_09_20.md).
+It derives a candidate scalar variation and interface relation by hand,
+retaining the interaction measure as input. Its proposed control keeps
+all four equal-energy modes, not just the apparently selective pair.
+These formulas are preparation for a seal, not new executed physics.
+
 **Latest local result, R36 (September 19): [charged normalized overlaps](YUKAWA_OVERLAP.md).**
 The exact product/Green relation retains a scalar-profile boundary
 term despite fermion Robin data. Yukawa bilinears are not Hermitian
