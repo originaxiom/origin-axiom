@@ -92,3 +92,10 @@ finite-distance blow-up unless the angular Busemann oscillation becomes
 large. Nineteen exact controls pass, including a smooth counterexample to
 an invalid averaging shortcut. The general angle-dependent and independent
 rank-four problems remain unresolved, as does their physical interpretation.
+
+[F04](../full_flag_growth_2026_09_20/FINDINGS.md) subsequently removes the
+induced-rank-two restriction using full rank-four flag equations. It excludes
+controlled angular root-height growth, not all full-bundle metrics. The
+rapidly angle-dependent and source-coupled problems remain open. F02's
+operator-domain result is unchanged; this is another existence/asymptotics
+constraint, not a normalizable chiral spectrum.

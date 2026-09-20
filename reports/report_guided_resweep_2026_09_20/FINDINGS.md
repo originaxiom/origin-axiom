@@ -336,6 +336,16 @@ flux construction supplies the zero-static-potential/non-L2-background
 control. No new nonsplit background is claimed. The B739 scalar-scattering
 recovery above is an additional correction to this report itself.
 
+[F03](../nonsplit_cusp_growth_2026_09_20/FINDINGS.md) and then
+[F04](../full_flag_growth_2026_09_20/FINDINGS.md) pursue the infinite-energy
+background question without silently reinstating finite energy. F03 tests
+the rank-two construction; F04 uses the actual full rank-four invariant
+flag, including metrics not induced from rank two. Both exclude controlled
+angular-growth classes, while retaining rapidly angle-varying and coupled
+source possibilities. F04's 20 exact controls and 42 unchanged antecedent
+checks pass. This is a scoped background constraint, not a physical chiral
+realization or a revision of the exact algebraic index.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

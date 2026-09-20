@@ -99,3 +99,13 @@ No complete field theory, physical generation spectrum, empirical prediction
 or gravitational completion was obtained. What improved is the precision
 and difficulty estimate of the next physical-admissibility test, with the
 unresolved possibilities explicitly preserved.
+
+## Subsequent direct rank-four test
+
+[F04](../full_flag_growth_2026_09_20/FINDINGS.md) now executes alternative 2
+above with the full metric's invariant flag, not an induced-metric assumption.
+All six complex mixing coordinates are included. It derives a related
+controlled-angular-growth obstruction directly for V, with 20 exact controls
+passing. This does not change F03's sealed rank-two claim or close arbitrary
+angle-dependent existence and coupled-source routes. The exact algebraic
+index and the positive local cusp remain intact.

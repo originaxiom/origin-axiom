@@ -63,6 +63,15 @@ angular oscillation; an explicit weighted-energy countercontrol prevents
 extending this to a universal negative. Nineteen exact controls pass. An
 independent rank-four metric and coupled source equations are not excluded.
 
+[F04](../full_flag_growth_2026_09_20/FINDINGS.md) now addresses arbitrary
+rank-four metrics directly, using all metric degrees of freedom in the
+representation's invariant flag. It removes F03's induced-rank-two
+restriction: controlled angular root-height growth is also excluded for
+the full bundle, without assuming finite energy. Twenty new exact checks
+and 42 unchanged antecedent checks pass. Rapidly angle-varying metrics and
+coupled source equations remain unresolved; the algebraic index is retained.
+This is a scoped background constraint, not a physical chirality solution.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted
