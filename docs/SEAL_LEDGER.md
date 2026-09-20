@@ -774,3 +774,6 @@ parent selection, chiral phase or TOE follows from the finite checks.
 | `reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_INPUTS.json` | `32056f5d399f1002df65a3de3c98e66609934c07ac9d210cc074e9ebc1fb8281` |
 | `reports/physical_bridge_2026_09_05/parent_background.py` | `91945d36932be2d7ea40ea14a990376661fee91f0efe66968da19803dc20f127` |
 | `tests/test_physical_bridge_parent_background.py` | `dd1df37105904e883d43e6edd1e4a770b8107f77e42e9f8ed729f4a4d9e6027f` |
+-e:1: invalid multibyte char (US-ASCII)
+-e:1: invalid multibyte char (US-ASCII)
+-e:1: invalid multibyte char (US-ASCII)

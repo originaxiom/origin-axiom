@@ -1,0 +1,211 @@
+{
+  "scope": "Frozen pre-execution R40 inputs; reuse is not independent proof; not physical spectrum or whole-repository certificate",
+  "own_input_pin": "8d2cced21cc63772828458fb842e0280513b2f29",
+  "incoming_test_pin": "297e1dd7ebdfa0c9fc37c3e35d4fac2e82b501d0",
+  "incoming_F05_read_pin": "28c87f5ae7a092da2afc250e4872f7b8070abf34",
+  "frozen_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/finite_twist_reductivity.py",
+      "bytes": 11229,
+      "sha256": "b643eda1077dd590eb8567a072da3e27b3cc82bf45be5d5f170f008ff7c7695a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_vertex.py",
+      "bytes": 14969,
+      "sha256": "8b308b0d783c3d04bfef8e3339c2b884bef7fe4da3c73a205651a08d2f243793"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mirror_interaction.py",
+      "bytes": 12614,
+      "sha256": "6430dc84022050fea50d3dd5edb4ee08a8c2c80cde6b5674f385812ac04ff6e1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/anomaly_completion.py",
+      "bytes": 10368,
+      "sha256": "2ffc445e9e06da918a67273f6874f7e525e053e65c58c19827f68389e054f133"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_spectrum.py",
+      "bytes": 13365,
+      "sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_background.py",
+      "bytes": 17578,
+      "sha256": "91945d36932be2d7ea40ea14a990376661fee91f0efe66968da19803dc20f127"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FINITE_TWIST.md",
+      "bytes": 15459,
+      "sha256": "cf66e870bd8c598bde965b6cdfb79c7254b0bb50fda2c6a85f99aa6cadda7202"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND.md",
+      "bytes": 7880,
+      "sha256": "fd460f1360f6d6e55c9d78ccb37074bf4572b6c42e1400e6b660df84528a529e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+      "bytes": 11372,
+      "sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/FORK_F01_RECEPTION_2026_09_20.md",
+      "bytes": 5602,
+      "sha256": "0bba94548717a8077369fa7eb1638de34be2f18d66c7cc4ba979195ff8902643"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_quartic.py",
+      "bytes": 6003,
+      "sha256": "eda62f6d417e4d66fcf80025776b12794ca4d2c892c32451c031bf1a3d4445c8"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_interaction.py",
+      "bytes": 6450,
+      "sha256": "0e1b3874f523fe89a6cc70eb5d0235d42803b4af71b36f35733faa70f293a8af"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+      "bytes": 1139,
+      "sha256": "a88a70d26d3410dd54045e0a244e5311bdca2106bb1d055980db7a240a08587c"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_completion.py",
+      "bytes": 4662,
+      "sha256": "ed27cc6ada6f2be2b9b2e81fc11ae7a83fb3761cce2aef9e5b030250784e83c7"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_action_control.py",
+      "bytes": 2043,
+      "sha256": "d8b2042e6702d5be705425c0d121fba68ee4cdc958151a042c35d893739d3ce3"
+    },
+    {
+      "path": "tests/test_physical_bridge_source_c3.py",
+      "bytes": 5403,
+      "sha256": "2519c3a1659df147283e61dd23896a4fe23ada86e1fac297f33f7f75e8c9b934"
+    },
+    {
+      "path": "tests/test_physical_bridge_global_poisson.py",
+      "bytes": 4974,
+      "sha256": "0389cfe1efe80ea5bb542c2eed0ca4a2cead219155b5706a42280ca7835b5b67"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+      "bytes": 1802,
+      "sha256": "ccfa8351cf91ba7a6a2a68cd93ce1aa1cc6ad4ac8d0d7faf76651a3015b70937"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+      "bytes": 1808,
+      "sha256": "d20b4d9b5bdcdd7bfdd2207d44d57065420367a05621aff973d8b10650c9012f"
+    },
+    {
+      "path": "tests/test_physical_bridge_yukawa_overlap.py",
+      "bytes": 4026,
+      "sha256": "bf2ec34ed3f2690ff631f671c060ea39607af9d8d37767c4fc88892a05109f6b"
+    },
+    {
+      "path": "tests/test_physical_bridge_source_scalar.py",
+      "bytes": 4265,
+      "sha256": "20311262eccef6c18ce3ea103559f7fc410549bb96f59d1fe4de4bfa6817d27b"
+    },
+    {
+      "path": "tests/test_physical_bridge_parent_vertex.py",
+      "bytes": 4557,
+      "sha256": "e50567bfb83c2c80a895fe5967594024811ff16247628f130b4ae5cb9c1dfe79"
+    },
+    {
+      "path": "tests/test_physical_bridge_parent_background.py",
+      "bytes": 5868,
+      "sha256": "dd1df37105904e883d43e6edd1e4a770b8107f77e42e9f8ed729f4a4d9e6027f"
+    },
+    {
+      "path": "tests/test_physical_bridge_finite_twist_reductivity.py",
+      "bytes": 3005,
+      "sha256": "d1fd767ed256898387edc3fa30ae28ffff24d29ca97787c023538d9105b29892"
+    }
+  ],
+  "pytest_focused": [
+    "tests/test_physical_bridge_mirror_quartic.py",
+    "tests/test_physical_bridge_mirror_interaction.py",
+    "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+    "tests/test_physical_bridge_anomaly_completion.py",
+    "tests/test_physical_bridge_anomaly_action_control.py",
+    "tests/test_physical_bridge_source_c3.py",
+    "tests/test_physical_bridge_global_poisson.py",
+    "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+    "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+    "tests/test_physical_bridge_yukawa_overlap.py",
+    "tests/test_physical_bridge_source_scalar.py",
+    "tests/test_physical_bridge_parent_vertex.py",
+    "tests/test_physical_bridge_parent_background.py",
+    "tests/test_physical_bridge_finite_twist_reductivity.py",
+    "tests/test_physical_bridge_coefficient_parent.py"
+  ],
+  "prior_captures": [
+    {
+      "raw_basename": "oa_r40_fetch_first",
+      "raw_receipt_sha256": "11229fa3df737811c97d9c6c190571c88d49a8b1b60780714f7f8e017dbf1069",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "raw_basename": "oa_r40_fetch_after_mobile_20260920",
+      "raw_receipt_sha256": "cbd62cd052b62ae83d1436cd2e36480410f54748a6de68588f15e14163b8d6f0",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "raw_basename": "oa_r40_fetch_resume2",
+      "raw_receipt_sha256": "c0e5735cedeef4298239a36ec9448ee5b8d38847b7c3fdb8fe578517633965cf",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "raw_basename": "oa_r40_parent_prior_first",
+      "raw_receipt_sha256": "c8b51e017a0861be5e89db6a1b2832ee6db4532a6b8f44bb7946ce1f65fc0909",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 3144,
+      "log_sha256": "01ad12d33a7d954000e7c977e861e1706846cd3d76cf92e1b11947e2309a273e"
+    },
+    {
+      "raw_basename": "oa_r40_banked_first",
+      "raw_receipt_sha256": "4b698b35a89cbf153635fd07439d1707466c46a48af4107e049311dd75deb6cf",
+      "exit_code": 1,
+      "signal": null,
+      "log_bytes": 3560,
+      "log_sha256": "e2a3dad4061999db18580e8da0bd1c2c52ce08ac58ea25366382e72cedd2a390"
+    },
+    {
+      "raw_basename": "oa_r40_identification_first",
+      "raw_receipt_sha256": "ad5fc1c3b7c2bc5b2adf525d1ae9a05d969479a44f1f0d65250c157cd30a0548",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 442,
+      "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+    },
+    {
+      "raw_basename": "oa_r40_atlas_first",
+      "raw_receipt_sha256": "6c08045003497641657b6ba9824f50a94daa3d81e6c4a56d31b4be6ad2fd18dd",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 735,
+      "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+    },
+    {
+      "raw_basename": "oa_r40_f02_f04_tests_first",
+      "raw_receipt_sha256": "de7c5dd313bfe81578060445e1b3fd018a882227a8286f7c81386431d9f618cb",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 583,
+      "log_sha256": "20133fc3c2f736d5754395912022c08fb0c773886cdd6f442eb9026c4286c1ab"
+    }
+  ]
+}
