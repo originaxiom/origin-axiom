@@ -183,6 +183,15 @@ excluded; very light positive modes in degenerating families remain possible.
 No F06 scientific source, positive local identity or original failure is
 changed by this follow-through.
 
+**Further follow-through, F08 (2026-09-20):** the [balanced global parent](../balanced_parent_2026_09_20/FINDINGS.md)
+provides an explicit interpretation of the corrected five-dimensional
+kernel: its algebraic operator is four times this core's center operator,
+while its complete-space zero equation is the trace-free Codazzi equation.
+That construction changes the global coefficient to h tensor conjugate(h);
+it is not a successful fixed-holonomy gluing of this core. It preserves
+dual-sector spectral pairing and has not supplied a global matter count.
+This credits the local algebraic positive without promoting it to particles.
+
 - Initial seal `5ff91aff`: **16 passed, 1 failed**, retained verbatim as a
   transcribed tool result in [FIRST_RUN.md](FIRST_RUN.md).
 - Correction seal `a06e9423`: **19 passed**, with unchanged producer and

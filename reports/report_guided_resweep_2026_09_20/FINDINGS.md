@@ -388,6 +388,18 @@ symbolic comparison failure is preserved; 18 corrected controls and 105
 unchanged antecedent checks pass. This is an authored analytic application,
 not an independently certified global model or a fresh all-head sweep.
 
+[F08](../balanced_parent_2026_09_20/FINDINGS.md) pursues a different global
+coefficient, h tensor conjugate(h), rather than a fixed-holonomy core patch.
+The complete full-parent solution has finite positive Higgs norm and
+exactly so(10) gauge algebra. It makes F06's local tensor kernel part of a
+global Codazzi operator dictionary, connecting to a concrete literature
+problem without importing closed-base conclusions to cusps. Its constant
+cusp sector fails L2 and its dual charged sectors remain paired, including
+an antiunitary map after fourth-root twists. Thus the recovered connection
+is useful mathematical physics, not a counted or chiral matter vacuum.
+Nineteen new and 123 unchanged checks pass; no new all-head snapshot or
+independent proof acceptance is claimed.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

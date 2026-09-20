@@ -115,6 +115,20 @@ unchanged antecedent checks pass. An initial symbolic-expression comparison
 failure is retained with its repair. This is a scoped global compatibility
 argument, not a universal chirality exclusion or a completed physical model.
 
+[F08](../balanced_parent_2026_09_20/FINDINGS.md) then changes the global
+coefficient itself to h tensor conjugate(h). It supplies another complete,
+finite-norm full-parent hyperbolic background with exactly compact so(10),
+without F05's extra central twist. The pointwise tensor operator is exactly
+four times F06's corrected one, but now its full L2 zero-mode equation is
+the trace-free Codazzi equation. The entire constant cusp sector is
+non-normalizable; other Fourier modes and global multiplicities are not
+counted. An explicit linear, or after a unitary scalar twist antiunitary,
+map still pairs the spinor sectors. This is a constructive background and
+an operator-level literature connection, not a chiral theory or a derived
+spacetime metric. Nineteen new checks and 123 unchanged antecedents pass.
+The next chirality candidate must change the actual surviving pairing,
+not merely the trace character or one pointwise positivity bound.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted
