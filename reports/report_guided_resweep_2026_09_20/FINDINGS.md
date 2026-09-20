@@ -236,7 +236,7 @@ population, including secondary results missed by headline summaries. Its
 524-orphan figure is its historical inventory, not a fresh count certified
 by this second pass. The findings and stored inventory were read. [B1421][completeness].
 
-### G. A scattering functional equation is a compatibility check, not an identity certificate
+### G. Recover the scalar identity before asking for the spin-2 extension
 
 Reading B8101 in full makes the gap precise: its tests check a proposed
 function's required three-dimensional functional equation and critical-line
@@ -247,12 +247,20 @@ unit modulus on Re(s)=1; these properties alone cannot fix the function.
 This elementary observation is a scope check, not a computed alternative
 scattering determinant.
 
-B8130's broader m004 identification and B8133's evaluation-point placement
-must retain that upstream identity duty. The first report's entry 20 already
-required the quotient/bundle/operator match; this rereading confirms why it
-must precede assembling the determinant. The existing discrete products and
-corrected B8142 factorization are not discarded. No new scattering calculation
-was executed.
+**Follow-through correction, same date:** the paragraph above assesses B8101's
+tests correctly, but the original version of this section failed to credit
+its explicit antecedent, **B739**. B739 already contains a function-level
+one-cusp pullback argument, not just those necessary conditions. Its full
+findings and proof block were read, and its three unchanged locks pass. The
+scalar identity must not be put back on the missing-work list merely because
+a later check is weaker. [Detailed recovery and reading limits](SCATTERING_RECOVERY.md).
+
+The remaining task in entry 20 is to identify the **spin-2/ghost/twisted**
+operators and their scattering data, and assemble all terms in a common
+regularization. B739 explicitly excludes forms and vector-valued bundles.
+Neither it nor the three rerun locks complete that physical calculation.
+B8133's evaluation-point question and B8142's acyclicity correction also
+remain separate. No new scattering determinant was computed here.
 
 ## 3. Disposition of all 22 recommendations
 
@@ -282,7 +290,7 @@ grades remain in the original report.
 | 17 | Physical quantum state space | Retain existing state-integral positives and the separate inner-product/gluing/time duties. |
 | 18 | Thresholds with zero modes | Retain non-acyclic torsion machinery; do not revive the acyclic shortcut. |
 | 19 | Physical tower scale | Retain need for a coarse-graining/observable map, not a relabeling of degree. |
-| 20 | Cusped one-loop determinant | **Sharpen first step:** identify actual scattering data, not only its functional equation. |
+| 20 | Cusped one-loop determinant | **Reuse B739:** scalar function-level transfer exists; derive the spin-2/ghost/twisted extension, not the scalar identity again. |
 | 21 | Index mechanism classification | Reuse the other branch's exact higher-index recovery; avoid a duplicate unfinished census. |
 | 22 | Laboratory discriminator | Retain the isospectral/localization distinction and readout duty; no experiment performed. |
 

@@ -427,13 +427,18 @@ dimensional analysis nor generates an absolute unit from a bare shape.
 
 **Asset:** the old one-loop lane explicitly distinguishes a discrete geodesic
 product from the missing continuous contribution and points to scattering data.
+B739 already supplies the function-level **scalar weight-zero** scattering
+transfer from the arithmetic parent to m004 in a common height convention;
+the second pass's [recovery](../report_guided_resweep_2026_09_20/SCATTERING_RECOVERY.md)
+restores that stronger antecedent. Do not redo it as though B8101's later
+functional-equation checks were the entire evidence.
 The corrected B8142 retains a Sym-power factorization but withdraws its
 reflection formula because the acyclicity hypothesis fails. The next use of
 torsion must include cohomology and the appropriate leading Laurent coefficient,
 not quietly substitute the withdrawn value-at-zero formula.
-**Next discriminator:** first prove which scattering matrix belongs to the
-actual quotient, bundle and operator—an arithmetic-parent scalar determinant
-need not be the cover's gravitational determinant. Then include continuous,
+**Next discriminator:** prove which scattering matrices belong to the actual
+spin-2/ghost/twisted operators. The known scalar determinant on the cover is
+not automatically its gravitational determinant. Then include continuous,
 zero-mode, ghost and boundary contributions in one regularization.
 **Success:** a complete determinant on the specified cusped background.
 **Stop:** only the discrete product or a determinant for a different quotient
