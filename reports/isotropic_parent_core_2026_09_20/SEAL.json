@@ -1,0 +1,9 @@
+{
+  "scope": "F06 pre-first-execution seal: local full-parent core on a supplied metric, not global physics or a chiral spectrum",
+  "sha256": {
+    "DESIGN.md": "fcbb1c2485f0b762a5b2c3893e907fa300007b3770c1dc31296d8db55cdaaceb",
+    "PROOF.md": "91a54345458fad5f5d7d124f7fbc7cffeb26eeef46cece693d0a16ef1a63681c",
+    "verify.py": "306af32f146b42748014e0f9e9db5fd9f73c5af6d1f72da5c04ed749b3dd8cd9",
+    "test_verify.py": "5f3caf9a978afb986ed0d669f2836d9962363e81ba48d0b36b2983c5c2d7d054"
+  }
+}
