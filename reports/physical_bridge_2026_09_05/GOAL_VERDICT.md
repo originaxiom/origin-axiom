@@ -1,5 +1,17 @@
 # Verdict toward the full physical-theory goal — R38 science, report updated 2026-09-20
 
+**Prior-work reconciliation, September 20:**
+[reuse map](CORPUS_RECONCILIATION_2026_09_20.md) and
+[principal smoothness audit](SMOOTHNESS_RECONCILIATION_2026_09_20.md).
+Existing m010/s958 positives and the higher-Sym3 magnitude-two witness
+were reproduced through unchanged exact producers. The principal E6
+all-orders smoothness result is retained with explicit theorem hypotheses;
+it does not make its deformation parameters normalizable particle modes.
+R39 remains UNSEALED and UNEXECUTED. Next test the full parent equations,
+positive norm and whole operator/domain, reusing the already-known pairing.
+R38 below remains the latest original scientific probe; no physical closure.
+
+
 **Latest local result, R38 (September 20): [parent embedding and actual vertices](PARENT_VERTEX.md).**
 The actual compact H embeds faithfully into E8 with the desired Q/S
 weights and additional sectors kept in the census. The tested classical

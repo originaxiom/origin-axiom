@@ -1,0 +1,815 @@
+{
+  "scope": "Retrieval, original-byte custody, selected source provenance and unchanged-producer reuse. NOT semantic absence, independent algorithm/proof verification, a complete paper read or a physics result.",
+  "pins": {
+    "audit_input": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+    "retrieval_checkpoint": "12fe9ac779ce2ff74cc9b53ab4fc1599b08c6f54",
+    "main": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+    "SM": "235325396b2db79c78df303531af6878931b00f2",
+    "physics": "659487bbd93c7990c4686a8b86985b6b66efedc4",
+    "review": "cf12bd6ed25eacf5954ff69c8c4a5b4e92b495fc",
+    "outside": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "September16": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6"
+  },
+  "advertised_heads": 7,
+  "retained_not_advertised": 5,
+  "checkpoint_note": "Own audit head advanced from f59d0d6e to 12fe9ac7 for the retrieval instrument. A local audit/fork-2026-09-20 alias was observed later at the same checkpoint; it adds no objects to this scan. No other branch was edited.",
+  "history_status": "NOT INCLUDED: unfinished historical scan; no absence inference",
+  "history": null,
+  "historical_names": null,
+  "retrieval_controls": 8,
+  "original_absence_controls": 5,
+  "history_copy": null,
+  "run_copy": {
+    "path": "reports/physical_bridge_2026_09_05/CORPUS_RECONCILIATION_PARTIAL_RUNS_2026_09_20.json.gz",
+    "bytes": 12723,
+    "sha256": "4792cb79074cf60d2c5225682d5cc3e226253ca4f402e1ab394ac67f30d4bbb4"
+  },
+  "runs": [
+    {
+      "stem": "oa_r39_swipe_fetch_20260920",
+      "raw_receipt_sha256": "042cd60479d3c66cfbba4e21a84adff544e4241853b5a69d7821c4936063e2ff",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "fetch",
+          "origin",
+          "+refs/heads/*:refs/remotes/origin/*",
+          "--tags"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7755250000045635,
+        "log_bytes": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_remote_heads_20260920",
+      "raw_receipt_sha256": "279deec2e43bdb4a3a8326eabf5c0fea2b02872fcf22b7cedf98a35350db1d11",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "ls-remote",
+          "--heads",
+          "origin"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.8467039999959525,
+        "log_bytes": 554,
+        "log_sha256": "149df44b616f30399ceb6f57db10925dee553fb8e4d0fa2156ae266f67702164"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "149df44b616f30399ceb6f57db10925dee553fb8e4d0fa2156ae266f67702164",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_refs_20260920",
+      "raw_receipt_sha256": "76ad2ee56202f08612b5b3f821737ec2206ab6bf220c0e3ee571d449acd005c0",
+      "receipt": {
+        "command": [
+          "git",
+          "for-each-ref",
+          "--format=%(refname) %(objectname)",
+          "refs/heads",
+          "refs/remotes",
+          "refs/tags"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.036675000010291114,
+        "log_bytes": 3057,
+        "log_sha256": "4886f9816e683362483f8f6d9e0609710d06d8f6996491537d94eabcf6856c85"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "4886f9816e683362483f8f6d9e0609710d06d8f6996491537d94eabcf6856c85",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_banked_20260920",
+      "raw_receipt_sha256": "fd16d65f695ff50726d2aea99d83893af5960f070be55cbcd56d878ccc5e91cb",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "Pantev Wijnholt T-brane harmonic metric nonabelian Higgs chirality"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6672340000077384,
+        "log_bytes": 3652,
+        "log_sha256": "c75f0373cd027ebce0ed4b51507f65caaed31eb916a716f078083639cf802c34"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "c75f0373cd027ebce0ed4b51507f65caaed31eb916a716f078083639cf802c34",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_controls_20260920",
+      "raw_receipt_sha256": "463c4b951208f692279909e83c663d39ed6a45d0c89df55f5c3966d34e2e9a14",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/corpus_reconciliation_scan.rb",
+          "--selftest"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.8466259999986505,
+        "log_bytes": 403,
+        "log_sha256": "90fb0523b2ac75df69c4ba199a91a5ccd744d5296f44628c9f16b8615dec7e4b"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "90fb0523b2ac75df69c4ba199a91a5ccd744d5296f44628c9f16b8615dec7e4b",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_absence_controls_20260920",
+      "raw_receipt_sha256": "ae180e8e8d0656bffaec056b0a42d0561113e19dc91fe2bea597e754e92d69f9",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "--selftest"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 22.288203999996767,
+        "log_bytes": 231,
+        "log_sha256": "7e2abee09fec9e03248da72bbdc758793017fdd96c0bcf89119669f23b24e13b"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "7e2abee09fec9e03248da72bbdc758793017fdd96c0bcf89119669f23b24e13b",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_absence_parent_20260920",
+      "raw_receipt_sha256": "834799168f0196f84fdfbc5b75fab175238456b0d1524e55873a457a5ad5e7e7",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python-env>/bin/python3.12",
+          "scripts/checks/absence_sweep.py",
+          "Pantev|Wijnholt|T.?brane|harmonic.?metric|Corlette|Maurer|self.?dual|Spin.?11|SO.?11|SU.?4",
+          "--regex"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 98.08468600000197,
+        "log_bytes": 4089,
+        "log_sha256": "203fdaf65a45b286ba6b01ff063c36452467bab9db8dca7359c4b640307cca3b"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "203fdaf65a45b286ba6b01ff063c36452467bab9db8dca7359c4b640307cca3b",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_banked_selfdual_20260920",
+      "raw_receipt_sha256": "efa9e41759808f54ecc24bd587366b08af6203ea7d0eba41262d36222121a6c1",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "self dual"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.7257649999955902,
+        "log_bytes": 3612,
+        "log_sha256": "5d99c84264bbee0649a3bfad2276604aba7825da826f6f4269732a0dd2bd0778"
+      },
+      "exit_meaning": "Expected settled-match warning, not an execution error",
+      "public_log_sha256": "5d99c84264bbee0649a3bfad2276604aba7825da826f6f4269732a0dd2bd0778",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_banked_harmonic_20260920",
+      "raw_receipt_sha256": "422145f7f76802d5a36e20807be65af2ee79ef3352a5e6634739fcd9aaf1b841",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "harmonic metric"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 0.6231790000019828,
+        "log_bytes": 3357,
+        "log_sha256": "ad0a3ac902d97c7052f1f2a630f0219a3a3735ae31f0662f85b8e568083cf695"
+      },
+      "exit_meaning": "Expected settled-match warning, not an execution error",
+      "public_log_sha256": "ad0a3ac902d97c7052f1f2a630f0219a3a3735ae31f0662f85b8e568083cf695",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_banked_pantev_20260920",
+      "raw_receipt_sha256": "4c74276ac446cc245809cf6f35fe84a1d1f5fbe6db11069e61420417fc19170d",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "Pantev"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6398090000002412,
+        "log_bytes": 186,
+        "log_sha256": "373a131680fe7d474a33481b52af50f2f7671ed4eb2b6f54e72f179b9d368d91"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "373a131680fe7d474a33481b52af50f2f7671ed4eb2b6f54e72f179b9d368d91",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_swipe_atlas_20260920",
+      "raw_receipt_sha256": "ce4f850fedaebeaad78e1a9c1d3caa91873e4b6c3041aac9aebb9758ba172381",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python-env>/bin/python3.12",
+          "scripts/atlas/query.py",
+          "card",
+          "chirality"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.09851299998990726,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e",
+      "redacted": false
+    },
+    {
+      "stem": "oa_r39_reuse_b1420_20260920",
+      "raw_receipt_sha256": "25a41954500c8a89a1e9822b70a588b718b1810ea16094d696654aac02a4bf7b",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python-env>/bin/python3.12",
+          "<producer-copy>/frontier/B1420_the_referees_upgrades/verification/selfduality_lemma.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.1249879999959376,
+        "log_bytes": 1744,
+        "log_sha256": "d8bfa18d7e58a14657108cdcc23b7f50213a63ee04f6ab312b4caac6d78ed3e7"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "89d4bb0e0441dc64747f42a1fdfb67ca7fdcc1b2ea07555dcc790973dcf7b88f",
+      "redacted": true
+    },
+    {
+      "stem": "oa_r39_reuse_b1418_s958_20260920",
+      "raw_receipt_sha256": "fa068dfa5382bdb8f4f54d62e7f630142c08c8f8e791c72c2d9c90cff6842eff",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python-env>/bin/python3.12",
+          "<producer-copy>/frontier/B1418_the_family_as_the_object/verification/c2_verify_s958.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 9.114955000011832,
+        "log_bytes": 6643,
+        "log_sha256": "ad347be936194935c3548b108eb6a460e609d35800eb2cae076920820763829d"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "0de062267a576e0d90cd24c77e3b6a73336534e2bd41b8c835e8148697ab66f7",
+      "redacted": true
+    },
+    {
+      "stem": "oa_r39_reuse_asserted_repeat_20260920",
+      "raw_receipt_sha256": "1e47dbedcf30338b6bcbf95ebd00bd1cd253e1374688c94998a27a898b6dc957",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python-env>/bin/python3.12",
+          "-c",
+          "import runpy; from pathlib import Path; p=Path(\"<producer-copy>/frontier\"); a=runpy.run_path(str(p/\"B1420_the_referees_upgrades/verification/selfduality_lemma.py\")); assert a[\"ok_sympl\"]; assert a[\"res\"]=={\"untwisted (psi = 1)\":0,\"twisted by chi (order 6)\":1,\"twisted by chi^3 (order 2)\":0}; b=runpy.run_path(str(p/\"B1418_the_family_as_the_object/verification/c2_verify_s958.py\")); assert {r[0] for r in b[\"res\"]}=={0,1,2}; assert all(r[1:]==(1,0) for r in b[\"res\"]); assert len(b[\"res\"])==6; print(\"ASSERTED REUSE PASS: m010 twist triple; six s958 modules on three presentations\")"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 10.900834000000032,
+        "log_bytes": 8243,
+        "log_sha256": "747f390a1c480a58fd4c8eb5042586a4b5d3bd96cca50c79d3a3216c8edf3cba"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "205b0b029c435b13bb438dca6b64bf9f02306a69ce20281b148ef12963bd3662",
+      "redacted": true
+    },
+    {
+      "stem": "oa_r39_reuse_t12835_exact_20260920",
+      "raw_receipt_sha256": "04cf7329038f28cccd25fa63d353fd9048c3acb041ab46f4dbe4a4419639c55a",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python-env>/bin/python3.12",
+          "-c",
+          "import runpy; m=runpy.run_path(\"<producer-copy>/frontier/B1418_the_family_as_the_object/verification/c2_reducible_index.py\"); assert m[\"control_m010\"](); K=m[\"NF\"]([1,0,-1,0,1]); z=K.alpha(); M,g,r,mu,lam=m[\"presentation\"](\"t12835\"); print(\"FROZEN WITNESS INPUT\",g,r,mu,lam,\"chi exponents\",[4,1,0],\"psi exponents\",[0,3,0],\"m\",3); assert g==[\"a\",\"b\",\"c\"]; chi={a:K.pw(z,e) for a,e in zip(g,[4,1,0])}; psi={a:K.pw(z,e) for a,e in zip(g,[0,3,0])}; c,h=m[\"nonsplit_cocycle\"](K,g,r,{a:K.mul(chi[a],chi[a]) for a in g}); assert c is not None and h==1; v=m[\"run_module\"](K,\"t12835\",g,r,mu,lam,chi,c,3,psi,\"banked B1427 first Sym3 witness\"); assert v[\"I\"]==-2 and v[\"I_ss\"]==0; assert v[\"V\"]==(0,3,1,2) and v[\"V*\"]==(1,3,1,0); print(\"EXACT BANKED WITNESS REPRODUCED\",v)"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 26.363834000003408,
+        "log_bytes": 2036,
+        "log_sha256": "ea5b31c3d8020abec0242bb148982671c58b56260d27ce4a7ca8e12c1a50dc3a"
+      },
+      "exit_meaning": "Completed normally",
+      "public_log_sha256": "a4fa1d021456dd1ad47081b12a94c6aeb722f5ac6a70bd7250e1b6940ad45fe1",
+      "redacted": true
+    }
+  ],
+  "selected_sources": [
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B264_e6_character_variety/NOVELTY.md",
+      "blob": "2fed3c819bf04254017596dd2a010fc460847ef6",
+      "bytes": 6572,
+      "sha256": "5cec945a56e435bcd3ab30d232f37d08318b49929f7a9a88593654c76d2af5b2",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B265_e6_integrability/FINDINGS.md",
+      "blob": "836d0ba8f0133c879bcaa382e5fc437bf198deb2",
+      "bytes": 7174,
+      "sha256": "1fcf95385ec6eb02533c51cdffe1e9ef72a2e4b42d35abf385882e2cf2c98fc3",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B265_e6_integrability/e6_integrability.py",
+      "blob": "a5bee6cbe7eb56ff2f599ff96da46e9bf66ea1a2",
+      "bytes": 6945,
+      "sha256": "fad24e6480baa76155e9a67f3f2f8b4b7a6b18db2c208a5ff855bf791a63cb41",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B270_integrability_cup_product/integrability_cup_product.py",
+      "blob": "045d39e917622dcd65f41681dab1a0f90b66c8ac",
+      "bytes": 6964,
+      "sha256": "6731db7e9a6f419abe4d0902ef35b23ab7c2594dab6c5bb51dd09306053438f7",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B274_all_orders_smoothness/FINDINGS.md",
+      "blob": "52e832176d1dfb3f2b934f49020899978ce704e2",
+      "bytes": 4122,
+      "sha256": "bc61a2c0e15abfb5c4714b51754fa38f2c40b8cd71d0c8594b8144c14225d862",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B274_all_orders_smoothness/b274_smoothness.py",
+      "blob": "52dbaea61b7448cbb7dddfab1b82fd680d52ecfd",
+      "bytes": 3013,
+      "sha256": "9593fbdfbc16dfe80b4a1f0c43e3df5efd29c30d86a45b9c8911449c47cc2b62",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B574_offprincipal/FINDINGS.md",
+      "blob": "3755897c3206bab924c24f1fdbd73d8a15f5be9f",
+      "bytes": 3950,
+      "sha256": "dc43254412743ab53ee793b783d335fa5d8edc5fe85c59f0a0c6979f1c0f74f6",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "tests/test_b574_offprincipal.py",
+      "blob": "d0450e951b1c19eff9b6dc72382a321129df45a1",
+      "bytes": 1606,
+      "sha256": "eafcf0e0dd67806c781582ea5af7ac1b858b3fda8867c9db4bcbc6579f0ae2a2",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B576_deformed_closure/FINDINGS.md",
+      "blob": "33b5711891cb37fdaf24a10f70f446b1457bdf24",
+      "bytes": 5191,
+      "sha256": "8c78e0f781251d333b97a6add5ef0bcae7b0e1cb479a3fdfa191925a0d2d9c5c",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B576_deformed_closure/l59_closure.py",
+      "blob": "6ac5f03ad9888541738b746254f185f63275631c",
+      "bytes": 4720,
+      "sha256": "f2c90316fe38523c58cb91027a94a02ca1108b23af4bf881bc33d5cba00b0cdc",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B577_reconciliation/FINDINGS.md",
+      "blob": "d24d7156495fd5e4fa060730bcc04194b414c935",
+      "bytes": 4578,
+      "sha256": "52cfd1cfe0f3b092e310d5a15115394100db24f27a423865ac6799ab283f3ca7",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B578_debt_clearing/RESULTS.md",
+      "blob": "6e43c1474bd2f2d0b22d1392f074638deade648e",
+      "bytes": 5667,
+      "sha256": "4017a561b69b90f66552f9afcaef76a83a8f78cef1c204459953740087e9908d",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/B582_chiral_play/FINDINGS.md",
+      "blob": "dd9987b39b0a9d961509f9a2d0aeca5141e09cc5",
+      "bytes": 3241,
+      "sha256": "c90f146944351dfe731aad8881e3349e0ddd6d433239839ae2e698bb9c3b6ae0",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "frontier/literature_search.md",
+      "blob": "45de113501096167b220af5ce4ab5f02906a077b",
+      "bytes": 12230,
+      "sha256": "8a9f56075e62e5fd947300159a565f02fdd4fe2bba155e02539b817f4bee4603",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "docs/OPEN_LEADS.md",
+      "blob": "5bf859f0bac24c511725d8e8603015ee85c6d54f",
+      "bytes": 386203,
+      "sha256": "50f4217d3fc862b535a24d93ae5b6eb6c04dc37276db8ce95a2beba612902f80",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "audit_input",
+      "pin": "f59d0d6ee74fc0f961b85fcb505fce85437ba112",
+      "path": "docs/NOVELTY_AUDIT.md",
+      "blob": "9f2a6f1213ceb937c7dbded40bbc422aace6b43a",
+      "bytes": 26531,
+      "sha256": "653aa63f21fe1c4b5ed23612c15e4b5edf4014ad0820ad19d01c3a047f8bd796",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1320_phase2_arc0_pw_count/FINDINGS.md",
+      "blob": "dc8afd6e2e484281de2d626f5fdd33f20e9672b2",
+      "bytes": 3772,
+      "sha256": "4b0d40f8411d97d444939549e8a0117dacb518b93931c87361336185d7699cbd",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1320_phase2_arc0_pw_count/verification/b1320_arc0_pw_count.py",
+      "blob": "ef784d6c991ea68369a3d8b8302ad18d44b6b62a",
+      "bytes": 4004,
+      "sha256": "4e66ee3a4a24d6a2ff4f230e4056c66acec1733f3abbb57ef0a0d789efeb1675",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1321_l205_the_siblings_localized_count/FINDINGS.md",
+      "blob": "634c229db59dfdee79e493567ce9c92170733100",
+      "bytes": 4216,
+      "sha256": "d7ad566aced87a17408109a379fed920cfd7cc1a95c2ce12addaaa6a3221defc",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1322_l204_verified/FINDINGS.md",
+      "blob": "fd26d78524ed1cee42f542b8f4f71cb4abaeadd7",
+      "bytes": 5402,
+      "sha256": "4c8dbb5748e8e8c8f2b3f673665199ed651478f0b1538826011587f6128a956f",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1322_l204_verified/verification/b1322_l204_verify.py",
+      "blob": "4069ea6515272db727357e859cf47472ffafd80d",
+      "bytes": 6946,
+      "sha256": "1045a8f7c367f00d1459f9407147ec25385a0a5096db1a21c2468931c1ead1fc",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1418_the_family_as_the_object/FINDINGS.md",
+      "blob": "e6fc30dc95182166c362e233dca8a68a19e0dfb4",
+      "bytes": 11804,
+      "sha256": "77d8e5705d60693ff73c2d8b688f32eaafd5b9819e63d2bab01b763002780165",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1418_the_family_as_the_object/verification/c2_reducible_index.py",
+      "blob": "af71d0fdf3b6243a4e09cbc47523713a9cb5c81d",
+      "bytes": 11656,
+      "sha256": "d4468ef15b33f820a424ac5a0b1e66d4698bf5c983ffc062e5587dceb78bf9cc",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1418_the_family_as_the_object/verification/c2_verify_s958.py",
+      "blob": "b9ea3e4bb49123bb707ee1c6375d324468a7d120",
+      "bytes": 1990,
+      "sha256": "8078d13e3c3883165283599ed6c01cceee4b77c7f0df23df7f452911c749e070",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1418_the_family_as_the_object/verification/c4_27bar_exact.py",
+      "blob": "d33bceeff951ae5629339d477d7c570851dec563",
+      "bytes": 5842,
+      "sha256": "5021c8beb7ed4165d194cbedfd46cc040b5aee948faacaf6fefb4af158062419",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1420_the_referees_upgrades/FINDINGS.md",
+      "blob": "aa3c8a21e07379b04f8df446187c2b7a0ad516fa",
+      "bytes": 6898,
+      "sha256": "028e6ac81eee3163bc8312a55c5b766297475e909391ce72fd061ebbe412bb0d",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1420_the_referees_upgrades/verification/selfduality_lemma.py",
+      "blob": "02eb143ab0d7a447a576c41dde80f31546fc36bf",
+      "bytes": 3268,
+      "sha256": "aabeb6d6a3677d629ee6053d02f80e2db2694ca59aeb18ccff1480c606ae9ea5",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1427_the_towers_generation_count_verified/FINDINGS.md",
+      "blob": "8fd039c61df198f600a77c1e05df8e401316fb6e",
+      "bytes": 6153,
+      "sha256": "d1b342d431b350a4508d33061322dfeca97f9901e19623eb574e17413490ec97",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1427_the_towers_generation_count_verified/verification/v10_index_vacuity.py",
+      "blob": "1e3f7e6a9f86c4357d8dd0c97085485fb28c8d10",
+      "bytes": 3285,
+      "sha256": "56b409687344d7b36ef56ede11ca26f759a1c2a3158942b88ad6d9e46e8ac27f",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1427_the_towers_generation_count_verified/verification/v10b.py",
+      "blob": "797ffa8616bf022a7db8ca20e12449bfa052bdd6",
+      "bytes": 3287,
+      "sha256": "e8366a3f28a8da5c8f4ca0983c766e98224743528adf8eee9efd20f916f67908",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1427_the_towers_generation_count_verified/verification/v9_exact_index.py",
+      "blob": "31d9648f5e8fd9ef547ccd289c58d0e8d789dbb9",
+      "bytes": 7170,
+      "sha256": "458daf9bc8f397b73602f5208114c8f59662dc1e097e51f7bdb5c8875764e8dc",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1427_the_towers_generation_count_verified/verification/v10_index_vacuity_t12835.json",
+      "blob": "bc30ef50eb55b6eb9336d7b3a06efb9f6cdc75e2",
+      "bytes": 1461,
+      "sha256": "6d96290f5313f71d6b38355e6758a79e2882e977f222429975fadf3379ce108f",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1430_the_embedding_verified/FINDINGS.md",
+      "blob": "3f6847cd2611c147dd1fe353083497f9743915e7",
+      "bytes": 4996,
+      "sha256": "cf78f8ecc2984b7b1228729113376f6056469a9a8ba0e9f8520f542cb6f5d7e3",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "frontier/B1431_the_index_separates_the_sibling/FINDINGS.md",
+      "blob": "68b0b3169a9ebc3ee1879a0da2897d94983b58e6",
+      "bytes": 6317,
+      "sha256": "5ef66a01b3adde96f74a7a4f42b369a1cb7f416353f4c65531b4f8b858f7e168",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "main",
+      "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+      "path": "papers/P3_THE_PAPER/main.tex",
+      "blob": "5ae71a99e37b466d2915af9c2ba89b08ffd8551a",
+      "bytes": 209939,
+      "sha256": "5c9a81b391b5a26c9433f858c6c5f8d652c4ac6d705ce6e5971e82d8d0323023",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "review",
+      "pin": "cf12bd6ed25eacf5954ff69c8c4a5b4e92b495fc",
+      "path": "papers/P3_THE_PAPER/REFEREE_REPORT_CONSOLIDATED_2026-09-18.md",
+      "blob": "00d7757d941e79c178a710d6c1b19ba756396675",
+      "bytes": 17608,
+      "sha256": "f0bd8933a07d7f8845c4e1914d6a550c8198baa01775a2b10efcfee52a6164d6",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "review",
+      "pin": "cf12bd6ed25eacf5954ff69c8c4a5b4e92b495fc",
+      "path": "papers/P3_THE_PAPER/main.tex",
+      "blob": "6daa38c3ce3868d00aa09943728c239d6ce2783f",
+      "bytes": 209647,
+      "sha256": "87c9cba6de0888631cd4ee58a361ee387e87c6f52a1b73872672583665dddcce",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "outside",
+      "pin": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "path": "outside_bench/memos/REQUIRE_AND_TEST.md",
+      "blob": "7950f086777a4054a5a9a07e2adeb8f1dd9a1480",
+      "bytes": 36940,
+      "sha256": "e074dfb787e9552ebbcdbadb729007ba3a474c31b41693479f1b71029d551cfe",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "outside",
+      "pin": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "path": "outside_bench/memos/THE_PAPER_ALREADY_HAD_IT.md",
+      "blob": "90ccb4a66955685bf9291725eb28f5e9efe584d1",
+      "bytes": 5149,
+      "sha256": "ac06358c45c8b1d25e020fb810c629decea794541428272a88120702f2e48709",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "September16",
+      "pin": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6",
+      "path": "frontier/xB029_the_g2_mssm_read/ADDENDUM_1_2026-09-18_friedmann_witten_read.md",
+      "blob": "af9f3e2f45a33dc5c5363f49497a7afdd752ca7f",
+      "bytes": 12361,
+      "sha256": "236da0f2498ef2ceda9f979da90c692c043c6015fe51d185424f255689105d49",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "September16",
+      "pin": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6",
+      "path": "frontier/xB030_the_buried_four/FINDINGS.md",
+      "blob": "c6c4031a7996f755f2bba529c69b5579fb4594b9",
+      "bytes": 10090,
+      "sha256": "7450cc5df4916748865182b3457d0d756cec1f82ffdd39c47ad04bf826ecc078",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    },
+    {
+      "seat": "September16",
+      "pin": "2795e46cc992d9d4720dd5446adc3bb7ce5906a6",
+      "path": "frontier/xB031_the_unrun_modules/verification/README_RUN_IN_PROGRESS.md",
+      "blob": "7ffb29424d5656f56f9092746730ebf1d2724713",
+      "bytes": 1526,
+      "sha256": "2bde361f4f1c22f02b6373b05adef501c407ef5fcd8aca77d84a09e77f656e58",
+      "reading_scope": "Selected evidence: full-body versus passage-level reading is declared in the reports, not certified by this hash."
+    }
+  ],
+  "unchanged_extracted_producers": [
+    "frontier/B1418_the_family_as_the_object/verification/c2_reducible_index.py",
+    "frontier/B1418_the_family_as_the_object/verification/c2_verify_s958.py",
+    "frontier/B1420_the_referees_upgrades/verification/selfduality_lemma.py"
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1510.00567v1",
+      "reading_boundary": "All 12 pages; theorem hypotheses and full proof read personally.",
+      "files": [
+        {
+          "basename": "1510.00567v1.pdf",
+          "bytes": 354281,
+          "sha256": "e7f86e569ce1288eed068d88c30a4aa4f8a595ab70b70a521d901c5e91109c63"
+        },
+        {
+          "basename": "1510.00567v1.txt",
+          "bytes": 32298,
+          "sha256": "d925fd059419c2dab4b45349152e89d97ac79d6d25662d6a2bbbeff1f380db1d"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/pdf/1001.2242v2",
+      "reading_boundary": "Selected: introduction, Theorem 0.1 proof and all Section 4; not full paper.",
+      "files": [
+        {
+          "basename": "1001.2242v2.pdf",
+          "bytes": 280296,
+          "sha256": "0c60de2a3428a8324b4f456719f16600520211268df8cde3d6ca0369243da4db"
+        },
+        {
+          "basename": "1001.2242v2.txt",
+          "bytes": 75292,
+          "sha256": "240c6d4d9e3c294bc25af95879ca5472e0c8325180f777bee5f8be1e3c738111"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/pdf/2603.00816v2",
+      "reading_boundary": "Selected: introduction, Section 4.3 and all Section 5; not full paper.",
+      "files": [
+        {
+          "basename": "2603.00816v2.pdf",
+          "bytes": 722145,
+          "sha256": "610bed73c1f33e63139bcdda492757fd5fb33c186ddab4b4a42d4c882cbeaec6"
+        },
+        {
+          "basename": "2603.00816v2.txt",
+          "bytes": 171567,
+          "sha256": "64c771d25f0dca739b7c12fa61c8270db85cd435544fd5726a986f85c3316b88"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/pdf/0902.2589v3",
+      "reading_boundary": "Selected Sections 3--4 and 13, cited statements and proofs; not full paper.",
+      "files": [
+        {
+          "basename": "0902.2589v3.pdf",
+          "bytes": 470759,
+          "sha256": "db4f2de2daf6a5c6b6b0747f3e3f659870b292add5f4fa4a50ebafe172a76cc9"
+        },
+        {
+          "basename": "0902.2589v3.txt",
+          "bytes": 115901,
+          "sha256": "d36cdb3776dfa7a91c49ebd948d490d08f2110ffdf39f6bdec49573ff010f51d"
+        }
+      ]
+    }
+  ],
+  "reuse_scope": "m010 0/+1/0; six s958 modules on three presentations +1 with semisimplification 0; frozen t12835 Sym3 I=-2 with semisimplification 0. Existing inputs and engines, not a census or physical spectrum."
+}

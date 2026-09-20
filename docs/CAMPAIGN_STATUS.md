@@ -1,5 +1,15 @@
 # CAMPAIGN STATUS — the live board (Thermodynamic Campaign)
 
+**September 20 prior-result reconciliation (no new B or physical closure).**
+B574/B1420 pairing, B1418/B1427 nonsplit index positives and B274's
+principal E6 smooth germ are to be REUSED, not treated as missing.
+Selected exact witnesses reproduce; the principal smoothness application
+is sourced separately from physical normalizability. R39 is still an
+unexecuted full-parent/action/domain test, not a new chiral solution.
+Report: reports/physical_bridge_2026_09_05/CORPUS_RECONCILIATION_2026_09_20.md.
+The original scientific baseline remains R38 below.
+
+
 **LATEST LOCAL RESULT, R38 (September 20): the parent map and the action are different gates.**
 An explicit integral, saturated H-to-E8 map supplies the actual Q/S
 weights, with every extra sector counted. The specified classical

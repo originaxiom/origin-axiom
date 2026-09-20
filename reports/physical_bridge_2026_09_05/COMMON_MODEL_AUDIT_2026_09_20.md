@@ -105,6 +105,12 @@ the question is what non-input consequences survive after fixing them.
 
 ## 4. Ordered decision gates and stopping rules
 
+- [x] Prior-result reconciliation before R39: the selected exact
+  nonsplit witnesses reproduce and principal E6 smoothness is retained
+  with primary-source hypotheses. These do not discharge physical
+  background/norm/domain duties. See the
+  [reuse map](CORPUS_RECONCILIATION_2026_09_20.md); its history receipt
+  records retrieval coverage separately from mathematical verification.
 - [x] Separate the cited successes by action, bundle, domain and limit.
 - [x] Specify benchmark C and its input types. This does not complete
   roadmap A's requirement of an observationally viable common model.

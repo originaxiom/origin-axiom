@@ -1,5 +1,15 @@
 # CC's banking relay read before the next local checkpoint
 
+September 20 prior-result checkpoint: the corpus reconciliation restores
+existing mathematical results, reruns selected unchanged exact producers
+and preserves the R39 drafts explicitly UNSEALED and UNEXECUTED.
+No shared B allocation, new original R39 science, full-suite green or
+independent main-bank acceptance. Original raw runs remain unchanged;
+only declared machine-path redactions enter public copies. See
+[the reuse map](CORPUS_RECONCILIATION_2026_09_20.md) and
+[the checks, including the first metadata failure](CORPUS_RECONCILIATION_CHECKS_2026_09_20.txt).
+This is not a waiver of the historical governance/test debts below.
+
 R38, September 20: [parent embedding and actual vertices](PARENT_VERTEX.md).
 Seal 4168ad94 was committed, pushed and server-confirmed before
 execution. Native 13/13, new tests 15 pass; twelve-file focused

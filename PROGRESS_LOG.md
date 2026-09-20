@@ -15183,3 +15183,24 @@ Native 13/13, new tests 15 pass; twelve-file focused 190 pass / the
 same four prior failed IDs. Raw exits, original files and known
 governance debts are retained; no shared B or independent main bank.
 Report: reports/physical_bridge_2026_09_05/PARENT_VERTEX.md.
+
+## 2026-09-20 — Reconcile the prior bank before the parent-background probe
+
+All advertised GitHub heads fetched with no external-seat update; retained
+tracking history remains available. Selected unchanged exact producers
+reproduce m010's 0/+1/0 twist triple, six s958 modules on three presentations,
+and B1427's t12835 Sym3 index -2 with semisimplification zero. These are
+existing mathematical positives, not a new census or physical spectrum.
+
+The primary-source application restores B274's all-orders principal E6
+smoothness against a stale L53 residual. Its mathematical deformation
+parameters are not automatically normalizable particle modes. The
+doublet at-most-one bound is not extended to all higher representations;
+paper content is not declared absent from a verdict-only search.
+
+The next R39 files are preserved as UNSEALED, UNEXECUTED working drafts.
+Its remaining duty is the full parent equations, positive metric, whole
+unbroken algebra and operator/domain. Reuse the old pairing and keep the
+source/end and nonsplit alternatives distinct. No shared B, changed
+scientific seal, physical chirality, full-suite green or main bank.
+Report: reports/physical_bridge_2026_09_05/CORPUS_RECONCILIATION_2026_09_20.md.

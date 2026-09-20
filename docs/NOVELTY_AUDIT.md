@@ -257,7 +257,13 @@ and added:
 - **CLAIM 1** — precise prior art: Menal-Ferrer–Porti **arXiv:1001.2242** (Thm 0.4 smoothness; Thm 0.3
   `dim H¹=l(n−1)`), **arXiv:1111.4338** (Thm 3.1), **arXiv:1110.3718** (composed-holonomy torsion). A 2026
   exceptional-group generalization (arXiv:2603.00816) was *flagged but is post-cutoff and unverified* — a lead that,
-  if genuine, pushes CLAIM 1 fully to KNOWN.
+  if genuine, pushes CLAIM 1 fully to KNOWN. **2026-09-20 reconciliation:** the
+  paper was already cited and its existence confirmed in the June 3 intake.
+  Its v2 Section 5 is now read against the actual hypotheses (adjoint,
+  centerless target for the principal embedding). Together with the
+  Falbel--Guilloux dimension bound and the good-point tangent theorem it
+  supports the existing B274 smoothness result. No new theorem or physical
+  mode count is claimed; see `reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md`.
 - **CLAIM 2** — a **verified asymmetry**: Stuebner 2025 (arXiv:2502.06488) shows `pi_1(4_1)` does not surject onto
   `A_5`; **re-verified in-sandbox** (GAP `GQuotients`: `2T`→2, `A_5`→0, `2I`→0). The E₆ end is a genuine figure-eight
   *group* surjection (`4_1↠2T`); the E₈ end (`det=5`, `ℚ(√5)`) is **field-level only** — the two ramified-prime

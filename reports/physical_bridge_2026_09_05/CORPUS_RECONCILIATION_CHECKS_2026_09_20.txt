@@ -1,0 +1,95 @@
+September 20 reconciliation checkpoint; no new R39 science.
+
+Completed old-producer reuse:
+  m010 twist indices 0/+1/0, including explicit symplectic checks.
+  s958 six modules on three presentations: I=+1, semisimplification 0.
+  t12835 frozen Sym3 witness over Q(zeta12): I=-2, semisimplification 0.
+These are independent executions of unchanged existing code, not an
+independent implementation, a whole census or physical chirality.
+
+The separate all-history byte scan is STILL RUNNING at this partial
+checkpoint. No absence or completed-population claim is inferred.
+Partial public custody is deliberately distinct from its future
+completed history receipt. Working reports/drafts are not prior results.
+
+Eight supplemental retrieval controls pass; the existing absence
+instrument's five controls pass. Ruby syntax checks pass. First staged
+whitespace check passes without exclusions. PROGRESS_LOG is append-only
+relative to HEAD. New science code/tests were not written or executed;
+the three PARENT_BACKGROUND documents are unsealed working drafts.
+
+oa_r39_reconcile_partial_custody_20260920
+  exit 0; 15 raw captures, 42 selected blobs, 3 unchanged extracted
+  producers and 4 paper PDF/text pairs checked.
+  stdout bytes 362
+  stdout SHA256 56db02b96d66c4b3ecb13f07103e2df32a00330e640faaf38d5f0a9016c59119
+  public partial custody bytes 37362
+  public SHA256 28ad4d7b63542952a789876ecb7490a95fe3c659d3c885cb7520c261321bc3b4
+
+oa_r39_reconcile_r38_custody_20260920
+  exit 0; unchanged R38 seal, frozen inputs and captured outcomes.
+  stdout SHA256 4a326edc6b92f2937a4ed9f827c63e38f7ff09fa49acbdb83d2bb3e07720b0b7
+  This is preservation, not a fresh focused or full-suite execution.
+
+oa_r39_reconcile_gates_first_20260920
+  exit 1; 26 PASS / 4 FAIL; exact old failure-detail lines unchanged.
+  Attribution: three old paths. Test vacuity: two old test IDs.
+  Seal provenance: five displayed old paths. Relay debt: 21 stale.
+  Review due at 188 merges. No failure is waived or hidden.
+  stdout bytes 2095
+  stdout SHA256 c2f9e547ac73ff73dd81b9d8ed99183f4423eef3464985744238e45bbe3bfd02
+
+Final custody, staged governance, cumulative hashes and whitespace are
+checked again after this receipt is recorded. Their results follow in
+an addendum; this sentence is not a claim that an unrun check passed.
+
+First partial-custody recheck FAILED (exit 1), preserved as
+oa_r39_reconcile_partial_recheck_20260920:
+  stdout SHA256 14b9b0c8c92a08aeaf5c0c074922d5c079da62f07966d98770a5c36814fb09a1
+Diagnosis: this Ruby interprets GzipWriter.mtime=0 as current time;
+recompressing identical payload bytes changes the gzip header at byte 4.
+The original public archive and its digest are NOT overwritten. The
+checker now compares exact decompressed bytes, preserves the original
+compressed bytes and checks their digest against the fixed receipt.
+Future created gzip artifacts use fixed mtime=1. This is a metadata
+repair, not a changed producer, scientific output or passing threshold.
+The all-history scanner is not edited while running; its eventual raw
+gzip header will be preserved, not promised byte-deterministic across runs.
+
+Corrected partial-custody recheck:
+oa_r39_reconcile_partial_recheck_v2_20260920
+  exit 0; stdout bytes 362
+  stdout SHA256 56db02b96d66c4b3ecb13f07103e2df32a00330e640faaf38d5f0a9016c59119
+  Identical custody output to the successful original creation; original
+  public archive and receipt bytes retained. The first failure above stands.
+
+oa_r39_reconcile_cumulative_20260920
+  exit 0; stdout bytes 616
+  stdout SHA256 fb66078a98bd50706f5e7350449acb728b5a222e40ae9a932af12372cd98f80f
+  599 latest artifact paths; 152 distinct latest seals; 275 local links.
+  Older R30/R31 receipts, inputs and 24 historical failed/error IDs retained.
+  This checks prior captured outcomes, not a new test-suite execution.
+  Its history-population assertion belongs to the OLD R31 receipt and
+  does not assert completion of the still-running September 20 scan.
+
+oa_r39_reconcile_gates_final_20260920
+  exit 1; stdout bytes 2095
+  stdout SHA256 c2f9e547ac73ff73dd81b9d8ed99183f4423eef3464985744238e45bbe3bfd02
+  Byte-identical to the first reporting gates: 26 PASS / the same 4 FAIL.
+  This run preceded the custody gzip-metadata repair and this addendum;
+  the final staged check is repeated after those reporting edits.
+
+Final staged checks after the metadata repair:
+oa_r39_reconcile_partial_final_20260920
+  exit 0; stdout SHA256 56db02b96d66c4b3ecb13f07103e2df32a00330e640faaf38d5f0a9016c59119
+oa_r39_reconcile_cumulative_final_20260920
+  exit 0; stdout SHA256 308dd67ea9d31bbadf4ff529a0900e0d0a6e43f363480280872929b7b6f35606
+  Same custody counts; local relative links now 276 after adding the
+  banking receipt's link to this checks file. No new science execution.
+oa_r39_reconcile_gates_staged_20260920
+  exit 1; stdout SHA256 c2f9e547ac73ff73dd81b9d8ed99183f4423eef3464985744238e45bbe3bfd02
+  Again byte-identical 26 PASS / 4 FAIL, no new failure or waiver.
+Ruby syntax and staged/unstaged whitespace checks pass. This final
+receipt addendum and its latest manifest digest are checked before
+commit; no scientific files are changed. Historical retrieval remains
+pending at this PARTIAL checkpoint and licenses no absence assertion.

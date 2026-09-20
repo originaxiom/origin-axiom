@@ -1,5 +1,17 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+September 20 prior-result reconciliation: B274's principal E6 smoothness
+is retained as a KNOWN-framework application, not a new object-derived
+law. For complete finite-volume orientable hyperbolic cores with t torus
+cusps, the principal complex adjoint-E6 character germ is smooth of
+dimension 6t. The strong-irreducibility, regularity and goodness checks,
+source theorems, and distinction from square-integrable physical modes
+are in reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md.
+This repairs a stale L53 residual without claiming independent proof
+acceptance or any physical identification. Selected B1418/B1420/B1427
+positives are reused in the companion CORPUS_RECONCILIATION report,
+not minted as new laws or extrapolated to an entire census.
+
 R35 source-intake note, 2026-09-19: the review in
 reports/physical_bridge_2026_09_05/LITERATURE_AND_SEATS_2026_09_19.md
 adds no object-derived law. It distinguishes an acyclic threshold
