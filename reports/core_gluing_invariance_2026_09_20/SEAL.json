@@ -1,0 +1,10 @@
+{
+  "scope": "F07 pre-execution fixed-complex norm comparison and regular-ball gluing application; finite controls are not independent analytic certification",
+  "base_commit": "81980ab2",
+  "sha256": {
+    "DESIGN.md": "c6d2f08ebbbbada168ca11b0611af472262e7f63d5ec7c0cfa103b4e4841caf3",
+    "PROOF.md": "3dbadab415d5ad40f377727f97eaf27b2c1e7af9c736fae8f51ec8fc8b6c8c62",
+    "verify.py": "570b84a6cef01300638e48805d08ca84a267a282e15d5668f39e7ba99165fd4d",
+    "test_verify.py": "6fd8aacade039967c160d33ebc24e63bd36aae6fec702c6bceda6352c776f044"
+  }
+}
