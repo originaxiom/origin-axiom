@@ -70,8 +70,8 @@ Use this as a calculational benchmark, NOT a selected physical vacuum:
   Neumann data for tube scalars. A scalar defined only on a tube is not
   a smooth whole-space field after zero extension.
 - Background: solve the coupled stationary equations with S=0,
-  parallel Q on each tube, flat A and h=dF. R37 must check the added
-  variations, rather than assuming R29's stationary point survives.
+  parallel Q on each tube, flat A and h=dF. R37 now checks the added
+  variations and preserves this stationary point in the specified EFT.
 - Limits: first a calculation at fixed positive width and cutoff.
   Width, complete-cusp, quantum/UV and low-energy limits are separate
   duties; none may be exchanged without uniform estimates.
@@ -106,11 +106,14 @@ the question is what non-input consequences survive after fixing them.
 - [x] Separate the cited successes by action, bundle, domain and limit.
 - [x] Specify benchmark C and its input types. This does not complete
   roadmap A's requirement of an observationally viable common model.
-- [ ] R37: finish the already bounded source-scalar consistency test,
+- [x] R37: finish the already bounded source-scalar consistency test,
   including coupled variations, normalization, full interface flux,
   complete equal-energy space and alternative interaction measure.
   Seal before execution; preserve any failure. A flat control cannot
-  establish actual hyperbolic selectivity, on either outcome.
+  establish actual hyperbolic selectivity, on either outcome. Completed:
+  [R37 report](SOURCE_SCALAR.md), 13 native groups and 17 new tests pass.
+  The full eigenspace control prevents the selected-pair overclaim;
+  parent origin and actual hyperbolic overlaps remain separate duties.
 - [ ] Origin gate, before adding more rescue fields: identify a parent
   action and its physical field dictionary for Q, S and the fermions.
   Test elementary, localized and composite/auxiliary possibilities
@@ -146,7 +149,8 @@ actually decides which construction carries the required physics.
 The repository sources are primary evidence for what this audit lane
 proved or assumed; this document adds no empirical facts. Existing
 analytic arguments retain their authored-versus-independent-review
-grades. R36 remains the last executed scientific result until R37 runs.
+grades. R37 is now executed and reported; its narrower scalar and flat
+control results do not complete benchmark C's physical interpretation.
 An all-head fetch succeeded on September 20 without ref updates; no
 new incoming census or paper was verified in this audit. This audit is
 not a semantic absence sweep and does not close other seats' leads.

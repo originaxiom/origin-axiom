@@ -1,5 +1,21 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
+**Latest local result, R37 (September 20): [source scalar and whole-mode control](SOURCE_SCALAR.md).**
+The specified added tube-scalar action preserves the stationary source
+point and determines its weighted normalized mode and real mass split.
+In the separate flat comparator, one pair's divergent overlap ratio
+becomes a finite whole-eigenspace norm ratio of 2; neighboring modes
+retain ordinary couplings. The interaction measure changes the absolute
+limit. Native 13/13, new tests 17 pass; eleven-file focused 175 pass /
+the same four prior failures. No actual hyperbolic selectivity or quantum
+gap is claimed. [Common-model audit](COMMON_MODEL_AUDIT_2026_09_20.md):
+the next priority is parent field/action origin, then actual whole-mode
+overlaps and phase/anomaly/end completion. No physical chirality or TOE.
+
+Earlier dated entries below are historical; R37 is the latest executed
+science. R35 remains the latest substantive literature/cross-seat intake.
+
+
 **Latest local result, R36 (September 19): [charged normalized overlaps](YUKAWA_OVERLAP.md).**
 The exact product/Green relation retains a scalar-profile boundary
 term despite fermion Robin data. Yukawa bilinears are not Hermitian
@@ -11,8 +27,8 @@ source-selected scalar or quantum mirror gap is claimed.
 Next derive the scalar's source action, normalized mode and tube
 interface couplings, retaining the end/anomaly and phase duties.
 
-The dated checkpoint entries below are historical; R36 is the latest
-executed science, and R35 remains the latest cross-seat intake.
+This R36 checkpoint and the older entries below are historical;
+the R37 result at the top supersedes the latest-science designation.
 
 
 **Latest intake, R35 (September 19): [cross-seat and primary-literature audit](LITERATURE_AND_SEATS_2026_09_19.md).**

@@ -1,5 +1,18 @@
 # CC's banking relay read before the next local checkpoint
 
+R37, September 20: [source scalar and whole-mode control](SOURCE_SCALAR.md).
+The f987ef16 seal was pushed and remote-confirmed before execution.
+Native 13/13, whole new file 17 pass, eleven-file focused 175 pass /
+the same four prior failed IDs. Six sealed files and 28 frozen inputs
+are checked by [the receipt checker](source_scalar_receipt_check.rb).
+The first preseal custody failure (missing new SEAL_LEDGER artifact
+digest) and corrected pass are both preserved. No science was edited.
+The [common-model audit](COMMON_MODEL_AUDIT_2026_09_20.md) registers
+parent field/action origin as the next gate. No shared B, full-suite
+green, independent bank, physical chirality closure or TOE is claimed.
+Final reporting checks: [SOURCE_SCALAR_FINAL_CHECKS.txt](SOURCE_SCALAR_FINAL_CHECKS.txt).
+Earlier entries below are historical receipts.
+
 R36 reporting, September 20; science executed September 19:
 [charged overlaps](YUKAWA_OVERLAP.md). Seal a42b7118 was committed,
 pushed and server-confirmed before execution. Native 11/11, new tests

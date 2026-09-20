@@ -1,5 +1,19 @@
 # THE FRAMEWORK — the whole thing, put together
 
+**LATEST LOCAL RESULT, R37 (September 20): source scalar and whole-mode control.**
+The added tube scalar preserves the stationary source point and has a
+weighted normalized mode with derived real mass branches. A separate
+flat control has a divergent selected-pair ratio but whole-eigenspace
+norm ratio tending to 2; the interaction measure changes absolute
+limits. Native 13/13; new 17 pass; eleven-file focused 175 pass / the
+same four prior failures. Not actual hyperbolic selectivity, a quantum
+phase or physical chirality. The common-model audit prioritizes parent
+field/action origin before further profile/extra-field scans.
+Report: reports/physical_bridge_2026_09_05/SOURCE_SCALAR.md;
+audit: reports/physical_bridge_2026_09_05/COMMON_MODEL_AUDIT_2026_09_20.md.
+Older dated entries are historical, not the latest-science designation.
+
+
 **LATEST LOCAL RESULT, R36 (September 19; reporting September 20): charged overlap controls.**
 The added compact source model has a charged product/Green identity
 with a surviving scalar-profile boundary term. Equal normalized

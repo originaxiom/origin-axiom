@@ -3128,3 +3128,29 @@ interval profile is not a stationary scalar. Keep both allowed
 Yukawas, Dirac mixing, source/end and anomaly completion, plus the
 finite-volume/cutoff quantum-phase diagnostics. Neither equal-Yukawa
 universality nor physical mirror removal follows from the controls.
+
+### PB-BOUNDARY / PB-ACTION, 2026-09-20: R37 completes the bounded scalar/interface check
+
+Closing sentence for this sub-duty ONLY: the specified added tube
+scalar preserves the coupled stationary source point, has its derived
+weighted normalized lowest mode, and obeys the full interface overlap
+identity; the whole flat equal-energy control rejects a selected-pair
+overclaim. Source: reports/physical_bridge_2026_09_05/SOURCE_SCALAR.md.
+The singular R19 and resolved R30/R31 domains are not conflated.
+PB-BOUNDARY, physical chirality and the interacting phase remain open.
+
+Next, in the approved common-model order:
+(1) identify the parent/source-field and fermion dictionary, including
+the action's required couplings and the origin of Q/S localization;
+test elementary, localized and composite/auxiliary options separately;
+(2) obtain the complete actual low-energy overlap operators and absolute
+scales on that fixed background, not one mode or an arbitrary profile;
+(3) test the quantum phase, remaining anomaly and end sector together;
+(4) compare in-class and out-of-class controls under one fixed physical
+prescription, without retuning per geometry. The noncommuting PW route
+remains a bounded alternative, not a transfer from local nilpotence.
+
+Do not infer an object-wide absence from one parent representation,
+or a physical mechanism from an allowed H interaction. The new priority
+reduces load-bearing inputs before another rescue-field scan. Audit:
+reports/physical_bridge_2026_09_05/COMMON_MODEL_AUDIT_2026_09_20.md.

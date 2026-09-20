@@ -136,3 +136,16 @@ with a finite symmetric mirror gap. Derive the scalar's own domain,
 action and absolute coupling scales next. No shared I-number or
 physical identification status is reassigned. Report:
 reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP.md.
+
+### R37 common-model scope, 2026-09-20: action and full mode space both matter
+
+The new scalar's natural domain and normalization follow from the
+specified added tube action, not from its H representation alone.
+A selected overlap entry is not identified with sector-wide selectivity:
+a full equal-energy control retains ordinary couplings and depends on
+the Yukawa measure. These tests earn no map to a physical chiral phase.
+The parent/source-field dictionary is now the explicit next gate, with
+elementary, localized and composite origins distinguished. No I-number
+or existing identification status changes. Reports:
+reports/physical_bridge_2026_09_05/COMMON_MODEL_AUDIT_2026_09_20.md and
+reports/physical_bridge_2026_09_05/SOURCE_SCALAR.md.

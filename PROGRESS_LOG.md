@@ -15128,3 +15128,30 @@ Native 11 groups pass, new whole file 15 pass, ten-file focused
 repair, hidden deselection, full-suite green, shared B, independent
 main bank, chirality closure or completed TOE is claimed.
 Report: reports/physical_bridge_2026_09_05/YUKAWA_OVERLAP.md.
+
+## 2026-09-20 — R37 source scalar and whole-mode control; common-model-first execution
+
+The specified added H tube-scalar action preserves the resolved source
+stationary point, including all source feedback and gauge variations.
+Its weighted lowest mode, real scalar mass branches and canonical
+coefficients follow from that action. Full tube-interface flux is
+retained for transmitting fermions. A separate flat whole-eigenspace
+control has a selected-pair ratio diverging as 3/epsilon^2 but a full
+operator-norm ratio tending to 2; neighboring ordinary couplings survive.
+Changing only the Yukawa measure changes both absolute limits.
+Not a hyperbolic selectivity theorem, quantum gap or physical chirality.
+
+The approved common-model audit separates R19's singular domain,
+R21's added anomaly completion and R30/R31's resolved light pairs.
+Next priority is parent field/action origin before further profile or
+rescue-field scans, then actual full-mode overlaps and phase/anomaly/end
+completion. The sourced route and bounded noncommuting alternative remain.
+
+Seal f987ef16 was pushed and remote-confirmed before execution.
+Native 13 groups pass; new file 17 pass; eleven-file focused
+175 pass / the same four R36/R34 failures. Original tests and raw exits
+are preserved. A preseal metadata custody failure and its correction
+are retained. No shared B, full-suite green, independent main bank,
+empirical prediction or completed TOE.
+Report: reports/physical_bridge_2026_09_05/SOURCE_SCALAR.md.
+Audit: reports/physical_bridge_2026_09_05/COMMON_MODEL_AUDIT_2026_09_20.md.
