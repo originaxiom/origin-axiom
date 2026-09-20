@@ -1,0 +1,28 @@
+{
+  "scope": "Pinned already-sealed sources and repeat execution; no independent implementation or current remote-head certificate",
+  "pin": "8d2cced21cc63772828458fb842e0280513b2f29",
+  "scientific_seal": "ce48016a5b592f625cf71babc4f65cb3bb51543a",
+  "six_scientific_files_unchanged_since_seal": true,
+  "extracted_bytes_compared_to_git": 10,
+  "repeat_test_result": {
+    "process": 7600,
+    "final_chunk": "65ed80",
+    "exit_code": 0,
+    "passed": 16,
+    "seconds": 2.08,
+    "capture_type": "transcribed command-tool result, not durable raw terminal capture",
+    "extraction_warning": "tar reported inability to set the default locale; all extracted bytes subsequently matched the pinned Git objects"
+  },
+  "sha256": {
+    "reports/physical_bridge_2026_09_05/parent_background.py": "91945d36932be2d7ea40ea14a990376661fee91f0efe66968da19803dc20f127",
+    "reports/physical_bridge_2026_09_05/parent_vertex.py": "8b308b0d783c3d04bfef8e3339c2b884bef7fe4da3c73a205651a08d2f243793",
+    "reports/physical_bridge_2026_09_05/mirror_interaction.py": "6430dc84022050fea50d3dd5edb4ee08a8c2c80cde6b5674f385812ac04ff6e1",
+    "reports/physical_bridge_2026_09_05/anomaly_completion.py": "2ffc445e9e06da918a67273f6874f7e525e053e65c58c19827f68389e054f133",
+    "reports/physical_bridge_2026_09_05/holonomy_spectrum.py": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f",
+    "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_DESIGN.md": "b0aff09e2c3f0375932cbc2ffb55bc90eb51695d29fb0ef9d477ed5dcf34d0a6",
+    "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866",
+    "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PRIOR.md": "bccee64f32cfc184b95f03234a8d541d922dd2999bb83b2dcae6673e858701c6",
+    "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_INPUTS.json": "32056f5d399f1002df65a3de3c98e66609934c07ac9d210cc074e9ebc1fb8281",
+    "tests/test_physical_bridge_parent_background.py": "dd1df37105904e883d43e6edd1e4a770b8107f77e42e9f8ed729f4a4d9e6027f"
+  }
+}

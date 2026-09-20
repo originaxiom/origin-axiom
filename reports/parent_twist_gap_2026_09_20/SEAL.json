@@ -1,0 +1,9 @@
+{
+  "scope": "F05 pre-first-execution seal; candidate-parent central twist and explicit operator lower bound, not a chiral theory or empirical mass",
+  "sha256": {
+    "DESIGN.md": "c1418483ae4ef42f258091449a18aa93e9e335c115fb94fe4587d0e9fbc7a2b9",
+    "PROOF.md": "63e672371a99512c96c8039770c1f2c004eaae209c5a1682488119c0ebf635fa",
+    "verify.py": "cc00073a813b7e7e2cff1f2669c0681fa52d32b13260c3523cb5c72fb66bd4ed",
+    "test_verify.py": "4072199cf85e2189268b2584d8d56a1c35de9b54f882237a6090e936a3d3d53d"
+  }
+}
