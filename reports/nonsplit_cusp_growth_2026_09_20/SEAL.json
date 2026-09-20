@@ -1,0 +1,9 @@
+{
+  "scope": "F03 pre-first-execution seal; conditional rank-two growth obstruction, not unrestricted physical exclusion",
+  "sha256": {
+    "DESIGN.md": "7b57272291897454f0aaf7bf8fa4effabd2b4c0482cab53965117befd47472af",
+    "PROOF.md": "9b2e19e7cba4b75c8bc2cc3e4740afa84fa2e1ba1ff789336f011917c7b99b28",
+    "verify.py": "be842e58dca75934b5286e0546c80cceaf709f4c681f1e1ed3148ee86d255efb",
+    "test_verify.py": "e32e93cf4deacd5d89348d1989732421aa8f284bd0faff8acff92e788701c19a"
+  }
+}
