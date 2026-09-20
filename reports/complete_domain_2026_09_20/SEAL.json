@@ -1,0 +1,9 @@
+{
+  "scope": "F02 pre-first-execution exact-control seal; authored analytic proof not independently reviewed",
+  "sha256": {
+    "DESIGN.md": "4bc4cfef8eb8ad09da5717f04a8b5b3901b8d23082f79d530337b8fd322f96db",
+    "PROOF.md": "bf4e414902ce2699484db67e720ffc155791559d5ff3e476330f7e1b9796c720",
+    "verify.py": "da95f2d0293f01fd62163dd35e4886da4703ea0107ea87947b900a51b5d66672",
+    "test_verify.py": "bc6ba2ea94de22a4e9a65c8d086094f799260bb1f53dcb25ceca6fb4881371e4"
+  }
+}
