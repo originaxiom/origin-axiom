@@ -361,6 +361,19 @@ a full-parent source or nongeometric background that changes the operator
 enough to close its gap. Fresh fetches failed, so the received local pin
 is not claimed to be the current head of every other seat.
 
+[F06](../isotropic_parent_core_2026_09_20/FINDINGS.md) then solves R39's
+isotropic-current differential equations in an explicit local conformal
+metric, using parent one-form fields rather than importing the scalar
+source action. This positive does not complete the hyperbolic problem:
+its curvature is positive, its maximal extension is singular and no global
+matching or chiral spectrum is established. The separately priced auxiliary
+Einstein--harmonic-map identity is not derived four-dimensional gravity.
+An incorrect initial pointwise-spectrum expectation is preserved along
+with its post-failure correction; 19 corrected checks and 86 unchanged
+antecedent checks pass. The new physical question is whether a justified
+global geometry and full fields can contain such a core, not whether its
+pointwise tensor kernel can be renamed particles.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

@@ -87,6 +87,20 @@ fetch failed, so this follow-through does not extend the remote-coverage
 claim below. The next task is a compatible gap-changing background/current,
 not merely a symmetry-breaking twist or a repeated cohomology census.
 
+[F06](../isotropic_parent_core_2026_09_20/FINDINGS.md) supplies a constructive
+local response to R39's isotropic-current hatch: three parent one-form
+components solve the full flatness and moment equations for a specified
+conformal metric governed by a Poisson equation. No added scalar source is
+needed in this local construction. Its price is explicit: positive scalar
+curvature, a singular finite-distance maximal boundary and no matching to
+the object's hyperbolic exterior. A separately declared three-dimensional
+Einstein--harmonic-map comparison also holds; its action is not derived
+physical gravity. One initial local-spectrum expectation failed and is
+preserved; the post-failure correction passes 19 checks, with 86 antecedent
+checks unchanged. A pointwise algebraic kernel is not a physical zero mode.
+The next discriminator is global metric/field matching with the correct
+parent action, before assigning particle or chirality content to this core.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted
