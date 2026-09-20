@@ -400,6 +400,17 @@ is useful mathematical physics, not a counted or chiral matter vacuum.
 Nineteen new and 123 unchanged checks pass; no new all-head snapshot or
 independent proof acceptance is claimed.
 
+[F09](../balanced_vertex_2026_09_20/FINDINGS.md) joins that balanced
+background to R38's actual one-form vertex rather than importing the
+added-field scalar overlap. Its local tensor source is a cofactor matrix,
+nonzero for every nonzero real symmetric trace-free profile; the six
+coefficient sector has Delta>=1 in the stated units and complete domain.
+The full paired wedge tensors still have equal normalized strengths.
+This gives an interaction-level discriminator, not a mirror-gapped phase
+or a global matter census. Nineteen new and 157 unchanged checks pass.
+Actual symmetry-breaking dynamics and complete action matching remain
+separate duties; no universal chirality exclusion is inferred.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

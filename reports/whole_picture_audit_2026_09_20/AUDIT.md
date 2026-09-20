@@ -129,6 +129,18 @@ spacetime metric. Nineteen new checks and 123 unchanged antecedents pass.
 The next chirality candidate must change the actual surviving pairing,
 not merely the trace character or one pointwise positivity bound.
 
+[F09](../balanced_vertex_2026_09_20/FINDINGS.md) tests that requirement
+at the actual parent interaction: the tensor profiles have a concrete
+nonzero wedge-vertex source, expressed by their cofactor matrix, and the
+exterior-square coefficient operator has a strict complete-space gap.
+Yet the full paired normalized coupling tensors remain conjugate up to
+the declared sign. Selecting a favorable mediator alone would hide this
+equality. Nineteen new and 157 unchanged checks pass. The calculation
+does not select a quantum phase, compute global matter multiplicities or
+replace full source/end and bosonic matching with a Hodge-propagator label.
+It narrows the next interaction question to an actual change of the
+surviving intertwining data while preserving the rest of the theory.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

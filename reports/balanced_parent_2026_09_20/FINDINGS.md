@@ -126,6 +126,15 @@ No physical parameter prediction, complete vacuum, global G2 geometry,
 quantum anomaly completion or four-dimensional gravity follows. The full
 TOE goal remains active and unachieved.
 
+**Follow-through F09:** the [actual parent one-form vertex](../balanced_vertex_2026_09_20/FINDINGS.md)
+now has an explicit cofactor map on these tensor profiles, with nonzero
+and vanishing controls. The exterior-square coefficient has a strict
+complete-L2 gap. The antiunitary pairing also relates the full normalized
+wedge coupling tensors, so a selected-mediator asymmetry is not yet a
+derived mirror hierarchy. This extends the interaction dictionary without
+counting global modes or proving an interacting phase. The scientific
+files and original F08 proof remain unchanged.
+
 ## Verification and custody
 
 - Four scientific files and both reused producers hashed before execution;
