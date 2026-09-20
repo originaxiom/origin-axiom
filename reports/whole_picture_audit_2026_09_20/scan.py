@@ -44,7 +44,7 @@ def git(*args):
     return subprocess.check_output(["git", *args])
 
 
-def main(output):
+def main(output, *, topic_patterns=None, text_extensions=TEXT, max_bytes=5_000_000):
     refs = git("for-each-ref", "--format=%(refname)", "refs/heads", "refs/remotes", "refs/tags").decode().splitlines()
     tips, tip_blobs = [], set()
     known = {}
@@ -67,9 +67,11 @@ def main(output):
     for line in git("rev-list", "--objects", "--all").decode(errors="replace").splitlines():
         sha, _, name = line.partition(" ")
         known.setdefault(sha, name)
-    eligible = {sha: name for sha, name in known.items() if pathlib.PurePosixPath(name).suffix.lower() in TEXT}
+    eligible = {sha: name for sha, name in known.items() if name and
+                (text_extensions is None or pathlib.PurePosixPath(name).suffix.lower() in text_extensions)}
     cat = subprocess.Popen(["git", "cat-file", "--batch"], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-    patterns = {key: [term.encode() for term in value.split("|")] for key, value in PATTERNS.items()}
+    selected_patterns = PATTERNS if topic_patterns is None else topic_patterns
+    patterns = {key: [term.encode() for term in value.split("|")] for key, value in selected_patterns.items()}
     hits = {key: [] for key in patterns}
     stats = collections.Counter()
     skips = []
@@ -80,6 +82,17 @@ def main(output):
             raise RuntimeError(header)
         _, kind, size = header
         size = int(size)
+        if size > max_bytes:
+            remaining = size
+            while remaining:
+                chunk = cat.stdout.read(min(remaining, 1024*1024))
+                if not chunk:
+                    raise RuntimeError("short oversized git object")
+                remaining -= len(chunk)
+            if cat.stdout.read(1) != b"\n":
+                raise RuntimeError("missing object separator")
+            skips.append({"blob": sha, "path": name, "bytes": size, "reason": "size limit"})
+            continue
         data = cat.stdout.read(size)
         if len(data) != size or cat.stdout.read(1) != b"\n":
             raise RuntimeError("short git object")
@@ -87,8 +100,8 @@ def main(output):
             stats["non_blob_candidates"] += 1
             continue
         stats["eligible_text_blobs"] += 1
-        if size > 5_000_000 or b"\0" in data:
-            skips.append({"blob": sha, "path": name, "bytes": size, "reason": "size>5MB or binary"})
+        if b"\0" in data:
+            skips.append({"blob": sha, "path": name, "bytes": size, "reason": "NUL-containing binary"})
             continue
         stats["scanned_blobs"] += 1
         stats["scanned_bytes"] += size
@@ -107,7 +120,8 @@ def main(output):
     result = {"purpose": "lexical discovery only; not exhaustive semantic reading, absence proof, or result verification",
               "head": git("rev-parse", "HEAD").decode().strip(), "refs": tips,
               "reachable_commits": int(git("rev-list", "--all", "--count")),
-              "unique_tip_blobs": len(tip_blobs), "patterns": PATTERNS,
+              "unique_tip_blobs": len(tip_blobs), "patterns": selected_patterns,
+              "max_bytes": max_bytes, "text_extensions": None if text_extensions is None else sorted(text_extensions),
               "stats": dict(stats), "skipped": skips, "hits": hits}
     encoded = (json.dumps(result, indent=2) + "\n").encode()
     pathlib.Path(output).write_bytes(gzip.compress(encoded, mtime=0) if str(output).endswith('.gz') else encoded)

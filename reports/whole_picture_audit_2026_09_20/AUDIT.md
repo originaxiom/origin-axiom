@@ -37,8 +37,15 @@ does admit an explicit finite-energy harmonic **local cusp**. The distinction
 is the missing global source/boundary balance. Seventeen focused checks pass;
 the infinite-domain argument is an authored proof, not an independent review.
 No chirality index was retracted and no physical chiral theory was established.
-The next action is a source derived from an action with the required noncentral
-projection, not another census of these same unsourced coefficient systems.
+The [report-guided second pass](../report_guided_resweep_2026_09_20/FINDINGS.md)
+qualifies the next action: first derive the physical norm and allowed end data
+from the chosen action. R28 already distinguishes harmonic/background norm,
+static residual potential and fluctuation kinetic norm. If F01's finite-energy
+class is physically required, a source/boundary balance with the appropriate
+representation-valued projection is necessary; if not, the actual asymptotic
+class needs its own existence and fluctuation analysis. No solution in that
+alternative class is claimed. Another census of the same coefficients would
+not answer either question.
 
 ## 1. What was actually audited and checked
 
@@ -492,7 +499,9 @@ Hamiltonian does not by itself show that fundamental nature uses this framework.
 
 Do not launch twenty-two projects. Start with three bounded deliverables:
 
-1. **Physical bridge:** entry 1 on one exact positive witness. In parallel
+1. **Physical bridge:** entry 1 on one exact positive witness, beginning with
+   an action-derived admissibility/end-domain specification as clarified by
+   the second pass above. In parallel
    conceptually, assess entry 2's parent equations only if that remains the
    chosen route. Spend effort on an admissibility/compatibility verdict, not
    on a new large bank of candidate integers.

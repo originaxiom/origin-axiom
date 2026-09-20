@@ -1,4 +1,4 @@
-# F01: nonsplit chirality needs a global source balance, not a cusp verdict
+# F01: a scoped global harmonic obstruction and a positive local cusp
 
 2026-09-20. New fork audit/fork-2026-09-20. Path-local research checkpoint;
 no shared B number and no claimed main-bank certification. Full TOE goal active,
@@ -28,8 +28,28 @@ the literature is claimed.
 The strategic change is specific: do not repeat finite-character or census
 searches hoping this particular nonsplit flat bundle becomes an unsourced
 finite-energy harmonic vacuum. Do not discard the nonsplit index or its cusp.
-Instead, derive the missing noncentral source/boundary term from an action,
-then recompute the physical operator and spectrum in that same completion.
+First derive the physical admissibility condition from the chosen action.
+If it requires this finite-energy class, derive the missing noncentral
+source/boundary term and recompute the physical operator in that completion.
+The second-pass clarification below explains why a source is not yet proved
+the only possible physical continuation.
+
+### Same-day report-guided scope clarification
+
+The [second pass](../report_guided_resweep_2026_09_20/FINDINGS.md) recovered
+R28's distinction between harmonic/background norm, static residual potential
+and fluctuation kinetic norm. The theorem here assumes integral |Psi|^2 finite;
+it does not derive that condition from a physical parent action. An infinite
+harmonic-map-energy background with fixed end data, acceptable physical action
+and normalizable fluctuations is not excluded by this theorem alone. Its
+existence for the nonsplit witness has NOT been established. R28's commuting
+source-complement example is not such a global nonsplit construction.
+
+The mathematical obstruction and cusp solution are unchanged. The correction
+is to their physical use and the ordering of the next task. Also, a source
+`J=j Id` is scalar on this coefficient bundle; not every abelian or Cartan
+gauge source acts that way. Check its actual representation before applying
+the trace-free projector test. Frozen proofs, instruments and seals are intact.
 
 ## What establishes the obstruction
 
@@ -107,11 +127,13 @@ A candidate source must couple to the invariant splitting, or a physical
 boundary must provide the corresponding flux. The equation is covariant;
 it is not a license to choose a compensating current by hand.
 
-**Next bounded task:** inspect the available parent/source actions for an
-actual noncentral moment-map contribution with this sign, representation and
-boundary behavior. If it exists, solve its regularized background and test
-the fermion domain again. If it does not in that specified action, change the
-physical construction explicitly rather than relabeling the old cohomology.
+**Next bounded task (clarified by the second pass):** derive admissibility and
+end variations from the available parent/source action. If that selects the
+finite-energy class, inspect its actual source contribution for the required
+sign, representation and boundary behavior. Then solve its regularized
+background and test the fermion domain. If different fixed asymptotics are
+admitted, test existence and normalizable fluctuations there explicitly.
+Neither route is supplied by relabeling the old cohomology.
 
 ## Verification and failure custody
 
