@@ -1,0 +1,106 @@
+{
+  "kind": "bounded upstream-algorithm reproduction plus elementary identity checks",
+  "pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+  "source_sha256": {
+    "frontier/B1418_the_family_as_the_object/verification/c2_reducible_index.py": "d4468ef15b33f820a424ac5a0b1e66d4698bf5c983ffc062e5587dceb78bf9cc",
+    "frontier/B1431_the_index_separates_the_sibling/verification/tet_index.py": "e7488e768fc0d622b07f289346e515a7f9676b7e8ef25525384c801758faf416",
+    "frontier/B1431_the_index_separates_the_sibling/verification/idx.py": "070e1b6a1e88cd6430af4988a2d29bfb6d98fea973f168b240b63c760ec5de48"
+  },
+  "versions": {
+    "python": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "snappy": "3.3.2",
+    "sympy": "1.14.0"
+  },
+  "m010": {
+    "untwisted": {
+      "name": "m010",
+      "label": "untwisted",
+      "I": 0,
+      "I_ss": 0,
+      "V": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "V*": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "order_six": {
+      "name": "m010",
+      "label": "order_six",
+      "I": 1,
+      "I_ss": 0,
+      "V": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "V*": [
+        0,
+        2,
+        1,
+        2
+      ]
+    },
+    "order_two": {
+      "name": "m010",
+      "label": "order_two",
+      "I": 0,
+      "I_ss": 0,
+      "V": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "V*": [
+        1,
+        2,
+        1,
+        1
+      ]
+    }
+  },
+  "m010_log": "  untwisted V                        a0=0 a1=1 t0=1 r1=1 n=a1-r1=0\n  untwisted V*                       a0=0 a1=1 t0=1 r1=1 n=a1-r1=0\n  untwisted V^ss                     a0=0 a1=4 t0=4 r1=4 n=a1-r1=0\n  untwisted V^ss*                    a0=0 a1=4 t0=4 r1=4 n=a1-r1=0\n==> m010 untwisted: I(V) = 0   I(V^ss) = 0\n  order_six V                        a0=0 a1=1 t0=1 r1=0 n=a1-r1=1\n  order_six V*                       a0=0 a1=2 t0=1 r1=2 n=a1-r1=0\n  order_six V^ss                     a0=1 a1=4 t0=4 r1=4 n=a1-r1=0\n  order_six V^ss*                    a0=1 a1=4 t0=4 r1=4 n=a1-r1=0\n==> m010 order_six: I(V) = 1   I(V^ss) = 0\n  order_two V                        a0=1 a1=2 t0=1 r1=1 n=a1-r1=1\n  order_two V*                       a0=1 a1=2 t0=1 r1=1 n=a1-r1=1\n  order_two V^ss                     a0=2 a1=4 t0=4 r1=4 n=a1-r1=0\n  order_two V^ss*                    a0=2 a1=4 t0=4 r1=4 n=a1-r1=0\n==> m010 order_two: I(V) = 0   I(V^ss) = 0\n",
+  "index_witnesses_in_sqrt_q": {
+    "m004": {
+      "12": 16,
+      "14": 10,
+      "16": -14,
+      "2": -2,
+      "6": 2,
+      "8": 8,
+      "10": 16,
+      "4": -2
+    },
+    "m003": {
+      "6": 2,
+      "8": 7,
+      "12": 11,
+      "14": 3,
+      "16": -17,
+      "10": 11,
+      "2": -1,
+      "4": -1
+    }
+  },
+  "index_mapping_checks_through_q8": 25,
+  "cs_inversion_fixed_classes_mod_half": [
+    "0",
+    "1/4"
+  ],
+  "not_verified": [
+    "all-class index-series exclusion",
+    "all parameter or module censuses",
+    "physical admissibility",
+    "physical chirality",
+    "full repository test suite"
+  ],
+  "all_explicit_assertions_passed": true
+}

@@ -1,0 +1,62 @@
+{
+  "research_checkpoint": "fork F01",
+  "full_goal": "full TOE",
+  "full_goal_achieved": false,
+  "initial_seal_commit": "0c271c08",
+  "correction_seal_commit": "4480bd44",
+  "runs": [
+    {
+      "name": "first sealed producer",
+      "exit_code": 1,
+      "classification": "implementation error in complex-linear simplification; no completed result",
+      "raw_local_file": "RUN_FIRST.txt",
+      "raw_sha256": "f5516f52bfe43b1e06db61b850db10323dce561cbfc4fe9c8cbd01c5b21f1a90",
+      "public_transcript": "RUN_FIRST_REDACTED.txt"
+    },
+    {
+      "name": "corrected sealed producer",
+      "exit_code": 0,
+      "all_explicit_assertions_passed": true,
+      "result": "results_v2.json",
+      "transcript": "RUN_V2.txt"
+    },
+    {
+      "name": "focused tests first attempt",
+      "exit_code": 1,
+      "passed": 7,
+      "setup_errors": 10,
+      "seconds": 5.55,
+      "classification": "Sage runtime cache permission; all ten dependent tests failed to start",
+      "raw_local_file": "TESTS_V2.txt",
+      "raw_sha256": "fc085dbd42a1fff5ab77ac3333984c115bc3ff76b552d5a1d7364f1eec733763",
+      "public_transcript": "TESTS_V2_REDACTED.txt"
+    },
+    {
+      "name": "unchanged focused tests with runtime cache access",
+      "exit_code": 0,
+      "passed": 17,
+      "seconds": 20.70,
+      "transcript": "TESTS_V2_RUNTIME_RETRY.txt"
+    },
+    {
+      "name": "repository gates checkpoint",
+      "exit_code": 1,
+      "passed": 26,
+      "failed": 4,
+      "failure_names": ["attribution", "test-vacuity", "seal-provenance", "relay-debt"],
+      "transcript": "GATES_CHECKPOINT.txt",
+      "full_green_certificate": false
+    }
+  ],
+  "test_files": [
+    "reports/nonsplit_admissibility_2026_09_20/test_verify_v2.py",
+    "tests/test_physical_bridge_finite_twist_reductivity.py"
+  ],
+  "not_certified": [
+    "independent review of the authored analytic proof",
+    "full repository test suite or main-bank protocol",
+    "a global sourced physical background",
+    "the physical chiral spectrum of that background",
+    "complete TOE"
+  ]
+}

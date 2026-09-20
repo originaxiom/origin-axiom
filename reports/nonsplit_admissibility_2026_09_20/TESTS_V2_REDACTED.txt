@@ -1,0 +1,194 @@
+.......EEEEEEEEEE                                                        [100%]
+==================================== ERRORS ====================================
+_ ERROR at setup of test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[F13] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[Q(u)] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[F13] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[Q(u)] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+___ ERROR at setup of test_a_nonzero_intertwiner_is_not_an_isomorphism[F13] ____
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+___ ERROR at setup of test_a_nonzero_intertwiner_is_not_an_isomorphism[Q(u)] ___
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_semisimplification_is_a_different_coefficient_system_with_zero_index[F13] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_semisimplification_is_a_different_coefficient_system_with_zero_index[Q(u)] _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_received_irreducibility_filter_misses_different_generator_eigenvalues _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+_ ERROR at setup of test_instrument_recovers_irreducible_and_reducible_semisimple_controls _
+
+    @pytest.fixture(scope='module')
+    def data():
+        sage = shutil.which('sage')
+        if sage is None:
+            pytest.skip('Sage exact number-field runtime is required')
+        result = subprocess.run([sage, '-python', '-u', str(SOURCE)], cwd=ROOT,
+                                text=True, capture_output=True, timeout=180, check=False)
+>       assert result.returncode == 0, result.stdout+'\n'+result.stderr
+E       AssertionError:
+E         error    libmamba Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E         critical libmamba 'mamba run' failed to lock (<USER>/.cache/mamba/proc) or lockfile was not properly deleted - error: invocation failed : `ZN5mamba12_GLOBAL__N_119LockedFilesRegistry12acquire_lockERKNS_2fs6u8pathENSt3__16chrono8durationIxNS6_5ratioILl1ELl1EEEEEEUlvE_` threw exception `N5mamba11mamba_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'
+E
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['<USER>/.local/bin/sage', '-python', '-u', '<USER>/oa-audit-seat/aud1t/chatgpt6/origin-...a_errorE` : LockFile acquisition failed, aborting: Could not open lockfile '<USER>/.cache/mamba/proc/proc.lock'\n").returncode
+
+tests/test_physical_bridge_finite_twist_reductivity.py:20: AssertionError
+=========================== short test summary info ============================
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[F13]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_exact_positive_survives_both_fields_without_claiming_geometric_holonomy[Q(u)]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[F13]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_invariant_flag_and_unsplittable_line_refute_complete_reducibility[Q(u)]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_a_nonzero_intertwiner_is_not_an_isomorphism[F13]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_a_nonzero_intertwiner_is_not_an_isomorphism[Q(u)]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_semisimplification_is_a_different_coefficient_system_with_zero_index[F13]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_semisimplification_is_a_different_coefficient_system_with_zero_index[Q(u)]
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_received_irreducibility_filter_misses_different_generator_eigenvalues
+ERROR tests/test_physical_bridge_finite_twist_reductivity.py::test_instrument_recovers_irreducible_and_reducible_semisimple_controls
+7 passed, 10 errors in 5.55s

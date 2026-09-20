@@ -1,0 +1,69 @@
+{
+  "scope": "exact identities supporting authored finite-volume cutoff proof; not a global PDE solution",
+  "python": "3.12.1",
+  "sympy": "1.14.0",
+  "algebra": {
+    "field": "Q(sqrt(-3))",
+    "peripheral_mu": "Matrix([[1, -1], [0, 1]])",
+    "peripheral_longitude": "Matrix([[1, 1], [0, 1]])",
+    "V_b_unipotent_power_ranks": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "base_projection_ranks": [
+      1,
+      2
+    ],
+    "V_projection_ranks": [
+      2,
+      3
+    ],
+    "split_projection_ranks": [
+      2,
+      2
+    ],
+    "base_invariant_Hermitian_forms": "{(0, 0, 0, h22)}"
+  },
+  "projector": [
+    {
+      "r": 1,
+      "s": 1,
+      "contraction": "-c0**2 - d0**2",
+      "xi_norm_squared": 2
+    },
+    {
+      "r": 1,
+      "s": 3,
+      "contraction": "-2*c0**2 - 2*c1**2 - 2*c2**2 - 2*d0**2 - 2*d1**2 - 2*d2**2",
+      "xi_norm_squared": 12
+    }
+  ],
+  "busemann": {
+    "hessian": "Matrix([[y**(-2), 0, 0], [0, y**(-2), 0], [0, 0, 0]])",
+    "dilation_control_shift": "-2*log(2)"
+  },
+  "cusp": {
+    "full_tension": [
+      "0",
+      "0",
+      "(-2*h11*h22*exp(2*c) + h11 + 2*h12**2*exp(2*c) + 2*h12 + h22)*exp(-2*c)/(h11*h22 - h12**2)"
+    ],
+    "K": "(h11 + 2*h12 + h22)/(h11*h22 - h12**2)",
+    "wrong_normalization_radial_tension": "-3/2",
+    "energy": "3*A0/4",
+    "inner_flux": "A0",
+    "outer_flux": "-A0*exp(-2*R)",
+    "bulk_q": "A0 - A0*exp(-2*R)",
+    "global_energy_lower_bound": "Q0**2*exp(2*R)/(4*A0) - Q0**2*exp(2*r0)/(4*A0)"
+  },
+  "all_assertions_passed": true,
+  "not_established": [
+    "global sourced completion",
+    "physical fermion spectrum",
+    "full TOE",
+    "independent proof review",
+    "full repository certification"
+  ]
+}

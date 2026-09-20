@@ -1,0 +1,4 @@
+# Byte-faithful local failures contain workstation paths. Sanitized copies
+# and raw SHA-256 receipts are versioned; these originals remain in place.
+RUN_FIRST.txt
+TESTS_V2.txt

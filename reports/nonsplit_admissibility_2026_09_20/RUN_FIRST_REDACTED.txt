@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/solvers/solveset.py", line 2881, in linear_eq_to_matrix
+    eq, c = _linear_eq_to_dict(equations, symbols)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/polys/matrices/linsolve.py", line 171, in _linear_eq_to_dict
+    c, d = _lin_eq2dict(e, symset)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/polys/matrices/linsolve.py", line 199, in _lin_eq2dict
+    ci, ti = _lin_eq2dict(ai, symset)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/polys/matrices/linsolve.py", line 210, in _lin_eq2dict
+    ci, ti = _lin_eq2dict(ai, symset)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/polys/matrices/linsolve.py", line 230, in _lin_eq2dict
+    raise PolyNonlinearError('nonlinear term: %s' % a)
+sympy.polys.solvers.PolyNonlinearError: nonlinear term: im(p1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<WORKTREE>/reports/nonsplit_admissibility_2026_09_20/verify.py", line 225, in <module>
+    main(sys.argv[1])
+  File "<WORKTREE>/reports/nonsplit_admissibility_2026_09_20/verify.py", line 216, in main
+    'algebra': algebra(), 'projector': [projection_variation(1, 1), projection_variation(1, 3)],
+               ^^^^^^^^^
+  File "<WORKTREE>/reports/nonsplit_admissibility_2026_09_20/verify.py", line 78, in algebra
+    base_projection = projection_ranks([ap, bp])
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKTREE>/reports/nonsplit_admissibility_2026_09_20/verify.py", line 52, in projection_ranks
+    lhs, rhs = s.linear_eq_to_matrix(equations, unknowns)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_ENV>/lib/python3.12/site-packages/sympy/solvers/solveset.py", line 2883, in linear_eq_to_matrix
+    raise NonlinearError(str(err))
+sympy.solvers.solveset.NonlinearError: nonlinear term: im(p1)
