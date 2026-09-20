@@ -273,7 +273,7 @@ grades remain in the original report.
 |---|---|---|
 | 1 | Nonsplit physical admissibility | **Reorder:** derive physical norm/end class first; keep F01's conditional theorem. |
 | 2 | Parent/source origin | **Reuse:** R29 source construction and R38 proposal exist; test the actual representation-valued current and whole action. |
-| 3 | Physical operator domain | **Retain, sharpen:** R28/R29 and the boundary-table correction forbid silent changes of core or limit. |
+| 3 | Physical operator domain | **Advance, scoped:** F02 gives the unique ordinary-L2 closure for smooth complete backgrounds; singular-source domains and the actual spectrum still require their own analysis. |
 | 4 | Interacting mirror gap | Retain common-model/R38 form-degree and full-coupling requirements; no new phase calculation. |
 | 5 | Full anomaly including ends | Retain; a classical source solution does not discharge the quantum gate. |
 | 6 | Usable 4D limit | Retain; separate allowed backgrounds, normalizable fluctuations and neutral spectral weight. |
@@ -325,6 +325,16 @@ grades remain in the original report.
 No new PDE solution, parent background, census, quantum gap or prediction was
 produced. No full-suite/gate rerun or independent banking pass is claimed.
 This is a local research checkpoint; the full physical goal remains open.
+
+### Follow-through from this sweep
+
+[F02](../complete_domain_2026_09_20/FINDINGS.md) records and checks the standard
+complete-space fermion-domain argument under the adopted Hilbert metric.
+Sixteen exact controls pass; unique self-adjoint closure is kept separate
+from Fredholmness and chirality. R15's already-existing homogeneous through-
+flux construction supplies the zero-static-potential/non-L2-background
+control. No new nonsplit background is claimed. The B739 scalar-scattering
+recovery above is an additional correction to this report itself.
 
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md

@@ -47,6 +47,14 @@ class needs its own existence and fluctuation analysis. No solution in that
 alternative class is claimed. Another census of the same coefficients would
 not answer either question.
 
+[F02's follow-through](../complete_domain_2026_09_20/FINDINGS.md) now records
+the unique ordinary-L2 fermion closure for smooth complete backgrounds,
+without requiring the Higgs field itself to be L2. Sixteen exact controls
+pass; the general argument is standard cutoff analysis. This neither gives
+a global nonsplit background nor implies Fredholmness or a chiral spectrum.
+It separates a complete cusp from a finite-distance singular source, where
+domain completion remains material.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

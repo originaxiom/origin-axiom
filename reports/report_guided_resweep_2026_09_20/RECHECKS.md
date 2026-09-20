@@ -112,3 +112,16 @@ relative file links in the new and amended reports, one disposition for every
 entry 1--22, and no tracked changes to F01's frozen scientific files.
 `git diff --check` passed. This is report QA, not additional scientific tests
 or a full banking-gate certificate.
+
+## Follow-through after the original second-pass checkpoint
+
+The [B739 recovery](SCATTERING_RECOVERY.md) corrects section G's incomplete
+credit to the earlier scalar function-level proof. Three unchanged locks
+passed in 1.30 s. This recovery is not a new scattering determinant.
+
+The [F02 receipt](../complete_domain_2026_09_20/RECHECKS.md) records 16 passing
+new domain controls and a separate antecedent recheck with **23 passes and
+one failure**. The latter is preserved: R16's capacity integral remained
+unevaluated, while an independent exact primitive diagnostic passed.
+Neither this diagnostic nor F02 was part of the earlier 44-test run above.
+The complete-space domain conclusion is not a Fredholm or chirality theorem.
