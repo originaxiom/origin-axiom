@@ -844,3 +844,18 @@ Six new scientific files below are unexecuted. Incoming F10's unchanged
 | `reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_INPUTS.json` | `6e1a51a8a5df814c6ff3970343b7ebc7342b56ccefd8a99dd89fa160ea21b885` |
 | `reports/physical_bridge_2026_09_05/affine_background.py` | `8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932` |
 | `tests/test_physical_bridge_affine_background.py` | `8fbcc4bd40a65cff218e316bfea3b7a44e2fcf96f4df4a5d5bf3c16804a181ef` |
+
+
+## Path-local R42-V2, 2026-09-21 - Ricci comparison diagnostic, before its execution
+
+Written after R42's first preserved failure. No original file, residual,
+expectation or test is changed. The proposed cause is structural versus
+polynomial matrix equality; altered curvature/cubic signs must still fail.
+The four successor files below are unexecuted at this separate seal.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/AFFINE_RICCI_CONTROL_V2_DESIGN.md` | `48449e39d1cf489045f8f7a11afd0af486436033b298dec13770952cc489ba9b` |
+| `reports/physical_bridge_2026_09_05/AFFINE_RICCI_CONTROL_V2_INPUTS.json` | `f344251faff4b87e9c64d24551c48f69f87c081e05a2a6330ee9810e31a9f19b` |
+| `reports/physical_bridge_2026_09_05/affine_ricci_control_v2.py` | `3849593f5507eddd4a6babec163506f4bcb4f9d925c5146b5877bc15bea61254` |
+| `tests/test_physical_bridge_affine_ricci_control_v2.py` | `06756e368ea082fd4bb9c53d413db7d2b5aafbb19e4b439e36bfadf13ca73369` |

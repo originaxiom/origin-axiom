@@ -1,0 +1,81 @@
+{
+  "original_seal_pin": "ecd6e70eaaa5012e0b1879892909da3e6ebc30b1",
+  "original_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_DESIGN.md",
+      "bytes": 4807,
+      "sha256": "d1ab7c403edddff8e09a4a513ad2f9f9fbf61a27e0da2e1d8c356165ebdcf9c5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md",
+      "bytes": 9385,
+      "sha256": "487e69d9db5d1f44303890f14fb958a49f207971cdd1350450f3622fcb026c33"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PRIOR.md",
+      "bytes": 7285,
+      "sha256": "c766aee52b8c209b39775586c5f204feb89e9f76ff7c4815d51dea5b558a1ff3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_INPUTS.json",
+      "bytes": 15613,
+      "sha256": "6e1a51a8a5df814c6ff3970343b7ebc7342b56ccefd8a99dd89fa160ea21b885"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_background.py",
+      "bytes": 7880,
+      "sha256": "8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932"
+    },
+    {
+      "path": "tests/test_physical_bridge_affine_background.py",
+      "bytes": 4388,
+      "sha256": "8fbcc4bd40a65cff218e316bfea3b7a44e2fcf96f4df4a5d5bf3c16804a181ef"
+    }
+  ],
+  "first_runs": [
+    {
+      "raw_basename": "oa_r42_native_first",
+      "raw_receipt_sha256": "73997a15ff61b96e21cc36d20bd4092f00a11e2592021b202c597f939d6921cc",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 1034,
+      "log_sha256": "2b3f7b0c46845551647196944bc2654df2f916a71e9e65d7543c2a2ca0e49af4"
+    },
+    {
+      "raw_basename": "oa_r42_tests_first",
+      "raw_receipt_sha256": "436442896aa0f30b0202bb2b6c7a5cc6e0853c89fbb1fbfca3dfbcfbeeca2639",
+      "exit_code": 1,
+      "signal": null,
+      "log_bytes": 582,
+      "log_sha256": "680c2a9cb67dc758458669a7e08b98ec47715e1b023b8ac3b99ead4146425483"
+    },
+    {
+      "raw_basename": "oa_r42_focused_first",
+      "raw_receipt_sha256": "84026ecf080ce3a67e4b3ec34c83f4142da055c6bdd59d0934cd7d39080ddeb8",
+      "exit_code": 1,
+      "signal": null,
+      "log_bytes": 3276,
+      "log_sha256": "bdecbe6958f61d522ab24434f16549cdbee092f3618e495cea815fc16f4bc284"
+    }
+  ],
+  "pytest_focused": [
+    "tests/test_physical_bridge_mirror_quartic.py",
+    "tests/test_physical_bridge_mirror_interaction.py",
+    "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+    "tests/test_physical_bridge_anomaly_completion.py",
+    "tests/test_physical_bridge_anomaly_action_control.py",
+    "tests/test_physical_bridge_source_c3.py",
+    "tests/test_physical_bridge_global_poisson.py",
+    "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+    "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+    "tests/test_physical_bridge_yukawa_overlap.py",
+    "tests/test_physical_bridge_source_scalar.py",
+    "tests/test_physical_bridge_parent_vertex.py",
+    "tests/test_physical_bridge_parent_background.py",
+    "tests/test_physical_bridge_finite_twist_reductivity.py",
+    "tests/test_physical_bridge_coefficient_parent.py",
+    "tests/test_physical_bridge_current_balance.py",
+    "tests/test_physical_bridge_affine_background.py",
+    "tests/test_physical_bridge_affine_ricci_control_v2.py"
+  ]
+}
