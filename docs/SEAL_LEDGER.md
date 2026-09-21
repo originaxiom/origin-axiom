@@ -798,3 +798,30 @@ R40 report/receipts. No scientific source or expectation was changed.
 | `reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT_INPUTS.json` | `090b00ac9252d94d1bb825f55814cec9d98ac30059fbde31c4b8ef34907f9cb8` |
 | `reports/physical_bridge_2026_09_05/coefficient_parent.py` | `0973a55c71fdaf65e0bb09fd2cf1caac54e4e832c85937556068f0e0609786fe` |
 | `tests/test_physical_bridge_coefficient_parent.py` | `ab49c44f64b7dff998eda26b9014c38eae9ac62bd56b3e7acf6a18a84f7a3252` |
+
+## Path-local R41, 2026-09-21 - actual flag/source balance, before execution
+
+Specialization of F01/R39 to R40's actual coefficient; no new general
+splitting theorem or source action. Boundary flux, both source signs,
+all three flags and the changed-coefficient warning remain explicit.
+The six files below are unexecuted at this seal. Same-algorithm incoming
+F08 reuse is separately graded; physical chirality is not established.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CURRENT_BALANCE_DESIGN.md` | `0f6422620480c688d283a1c74e16a7960a49c4902328221eb325e51d81e3415f` |
+| `reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PROOF.md` | `335865ab38098489a496283111606bf5d237e4c44376d93f6ca09b8edc4973d2` |
+| `reports/physical_bridge_2026_09_05/CURRENT_BALANCE_PRIOR.md` | `2bb80911be1898dd0aabd79bf0d545e9fff36afecf1b24b2640f148becdf9372` |
+| `reports/physical_bridge_2026_09_05/CURRENT_BALANCE_INPUTS.json` | `4d55e8e5543c7804f75e0f2b0a379f4f4bf7862a7b2fad29af5263838c01a335` |
+| `reports/physical_bridge_2026_09_05/current_balance.py` | `57a2bb654dfb8991460f81521f6ec1dd3b570bcf70c58c7241281916844f68dc` |
+| `tests/test_physical_bridge_current_balance.py` | `56769c620622fd22a59751cb64a4c23aa3c7de135e100c5b7e3f0b93475b5f1c` |
+
+R41 pre-execution metadata revision: the attribution gate caught received
+branch names in the unexecuted input manifest. Exact names and the first
+manifest are preserved locally with digests; the public manifest retains
+their exact commit IDs. No equation, input byte, test population or
+expected outcome changed. This replacement is still before first run.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CURRENT_BALANCE_INPUTS.json` | `3ca93632f922a69355631c9e9903c1dc3e831b8c5739f709091b413e5917db40` |
