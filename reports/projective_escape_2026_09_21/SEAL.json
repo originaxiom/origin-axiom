@@ -1,0 +1,15 @@
+{
+  "scope": "F10 real projective holonomy escape and exact deformed-cusp solution; sealed before first execution",
+  "base_commit": "9c0d1c67",
+  "sha256": {
+    "DESIGN.md": "019d55d23c4c2bea222eae528ec80c1b9166c7eea2c0dbb8a1f9b34f32a7c892",
+    "PROOF.md": "ec9c8f61eeedc985e811391d069c2fb65ab7e04f3af7d50c5fa14f23ac28f3c3",
+    "verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18",
+    "test_verify.py": "f0b49a7cf13ae808f0cc0c131f352d7b18020de3f05d4c9ae7071c992f5a2111"
+  },
+  "reused_transitive_producer_sha256": {
+    "../balanced_parent_2026_09_20/verify.py": "86acbef5b4821896eb5df172207f8a2e6ec8249671b382cc47a2856053159eed",
+    "../parent_twist_gap_2026_09_20/verify.py": "cc00073a813b7e7e2cff1f2669c0681fa52d32b13260c3523cb5c72fb66bd4ed",
+    "../isotropic_parent_core_2026_09_20/verify.py": "306af32f146b42748014e0f9e9db5fd9f73c5af6d1f72da5c04ed749b3dd8cd9"
+  }
+}
