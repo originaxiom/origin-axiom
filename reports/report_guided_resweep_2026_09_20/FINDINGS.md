@@ -423,6 +423,18 @@ L2 identification and global gauge vacuum are not established. Twenty
 new and 176 unchanged checks pass. This is a scoped constructive lead
 and compatibility test, not a chiral completion or a new all-head sweep.
 
+[F11](../projective_cusp_spectrum_2026_09_21/FINDINGS.md) then proves
+the ordinary-L2 comparison for that explicit cusp norm class, with all
+Fourier modes and the radial differential retained. It rescues discrete
+mode-bearing parameters that its own generic-vanishing expectation missed:
+at the nontrivial twists, exact quadratic loci give one coefficient
+one-form in each dual sector. All-parameter minors and exact cocycle
+certificates replace a sampled-rank inference. The failed expectation
+remains visible (27 pass/3 fail); the sealed corrected suite has 40 pass,
+and 196 antecedent checks pass unchanged. The targets are vector-like
+and global harmonic-metric existence is not yet supplied. This is
+progress toward a common model, not a completed chiral vacuum or TOE.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

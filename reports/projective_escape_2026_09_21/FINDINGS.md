@@ -178,6 +178,18 @@ already hidden in the displayed matrices. There is still no derived
 four-dimensional gravity, selected physical deformation, measured
 coupling prediction or complete TOE at this checkpoint.
 
+**Follow-through F11:** the [full cusp L2 calculation](../projective_cusp_spectrum_2026_09_21/FINDINGS.md)
+has now established the proposed cohomology comparison for smooth complete
+realizations with these exact or uniformly equivalent end norms. An explicit
+bounded contraction includes the radial direction and implies compact
+resolvent. Dual zero-mode multiplicities agree, but need not vanish: a
+full-parameter Fox calculation found discrete nongeometric exceptions at
+the nontrivial central twists, contrary to its initial expectation. At
+q=17 +/- 12 sqrt(2) for chi=-1 and q=7 +/- 4 sqrt(3) for chi=+/-i,
+there is one normalizable coefficient one-form in each dual sector.
+Global harmonic-metric existence in this class remains a distinct duty;
+these are not yet physical chiral vacua. F10's frozen science is unchanged.
+
 ## Verification and custody
 
 Science was hashed and committed before execution at **ee0d62ea**.

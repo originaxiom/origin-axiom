@@ -157,6 +157,21 @@ remaining tests; there is no chiral vacuum or derived gravity here.
 This is an application of known geometry, not a new family or an
 absent-from-the-record claim. Scientific predecessors remain unchanged.
 
+[F11](../projective_cusp_spectrum_2026_09_21/FINDINGS.md) resolves that
+L2 comparison in the exact F10 end class and uniformly equivalent norms,
+using a full radial-compatible cusp contraction and compact resolvent.
+It also finds a positive the initial prior missed: nontrivial central
+twists have exceptional positive deformation parameters with one
+normalizable coefficient one-form in each dual sector. Complete maximal-
+minor polynomials, exact quadratic-field ranks and non-coboundary witnesses
+verify the loci. The original 27-pass/3-fail run is preserved; 40 corrected
+controls and 196 unchanged antecedents pass. This is a concrete target
+where the old flat pairing is absent and modes exist, not net chirality.
+Global parent-equation completion with these ends is now the sharper
+next existence test; the distant parameters are not covered by the
+paper's nearby convex-geometry theorem. No physical vacuum selection,
+measured value, complete interaction or gravitational theory follows.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

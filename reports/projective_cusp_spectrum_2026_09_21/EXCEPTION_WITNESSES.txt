@@ -1,0 +1,54 @@
+phase -1 dual False {'B_rank': 4, 'J_rank': 3, 'H1': 1, 'cocycle': Matrix([
+[ 5*q/48 - 1/48],
+[3*q/16 - 15/16],
+[    q/8 + 11/8],
+[             1],
+[             0],
+[             0],
+[             0],
+[             0]]), 'minor_rows': (0, 1, 2), 'minor_cols': (0, 1, 2), 'minor': 24*(q**2 + 2*q + 5)/q, 'cocycle_closed': True, 'not_boundary': True}
+phase -1 dual True {'B_rank': 4, 'J_rank': 3, 'H1': 1, 'cocycle': Matrix([
+[  147/46 - 3*q/46],
+[19*q/138 - 11/138],
+[  -5*q/46 - 31/46],
+[                1],
+[                0],
+[                0],
+[                0],
+[                0]]), 'minor_rows': (0, 1, 2), 'minor_cols': (0, 1, 2), 'minor': -6*(q**2 - 46*q + 5)/q, 'cocycle_closed': True, 'not_boundary': True}
+phase I dual False {'B_rank': 4, 'J_rank': 3, 'H1': 1, 'cocycle': Matrix([
+[    -q*(-3/32 + 5*I/32) - 1/32 - I/32],
+[-q*(-7/32 + 5*I/32) - 13/32 - 33*I/32],
+[   -q*(-1/8 + 3*I/16) + 11/8 - 3*I/16],
+[                                    1],
+[                                    0],
+[                                    0],
+[                                    0],
+[                                    0]]), 'minor_rows': (0, 1, 2), 'minor_cols': (0, 1, 2), 'minor': (-2 + 2*I)*(q**2*(1 - 2*I) + q*(-3 + I) - 8 - I)/q, 'cocycle_closed': True, 'not_boundary': True}
+phase I dual True {'B_rank': 4, 'J_rank': 3, 'H1': 1, 'cocycle': Matrix([
+[-q*(107/2920 - 261*I/2920) + 2857/2920 - 4431*I/2920],
+[      -q*(-1/584 + 27*I/584) - 199/2920 + 117*I/2920],
+[        -q*(-3/730 - 57*I/1460) - 499/730 + 9*I/1460],
+[                                                   1],
+[                                                   0],
+[                                                   0],
+[                                                   0],
+[                                                   0]]), 'minor_rows': (0, 1, 2), 'minor_cols': (0, 1, 2), 'minor': (-1 + I)*(q**2*(3 - 2*I) + q*(-25 - 21*I) + 9*I)/q, 'cocycle_closed': True, 'not_boundary': True}
+phase -I dual False {'B_rank': 4, 'J_rank': 3, 'H1': 1, 'cocycle': Matrix([
+[    -q*(-3/32 - 5*I/32) - 1/32 + I/32],
+[-q*(-7/32 - 5*I/32) - 13/32 + 33*I/32],
+[   -q*(-1/8 - 3*I/16) + 11/8 + 3*I/16],
+[                                    1],
+[                                    0],
+[                                    0],
+[                                    0],
+[                                    0]]), 'minor_rows': (0, 1, 2), 'minor_cols': (0, 1, 2), 'minor': (2 - 2*I)*(q**2*(2 - I) + q*(-1 + 3*I) + 1 + 8*I)/q, 'cocycle_closed': True, 'not_boundary': True}
+phase -I dual True {'B_rank': 4, 'J_rank': 3, 'H1': 1, 'cocycle': Matrix([
+[-q*(107/2920 + 261*I/2920) + 2857/2920 + 4431*I/2920],
+[      -q*(-1/584 - 27*I/584) - 199/2920 - 117*I/2920],
+[        -q*(-3/730 + 57*I/1460) - 499/730 - 9*I/1460],
+[                                                   1],
+[                                                   0],
+[                                                   0],
+[                                                   0],
+[                                                   0]]), 'minor_rows': (0, 1, 2), 'minor_cols': (0, 1, 2), 'minor': (1 - I)*(q**2*(2 - 3*I) + q*(21 + 25*I) - 9)/q, 'cocycle_closed': True, 'not_boundary': True}
