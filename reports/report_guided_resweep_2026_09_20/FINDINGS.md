@@ -411,6 +411,18 @@ or a global matter census. Nineteen new and 157 unchanged checks pass.
 Actual symmetry-breaking dynamics and complete action matching remain
 separate duties; no universal chirality exclusion is inferred.
 
+[F10](../projective_escape_2026_09_21/FINDINGS.md) uses a known
+real-projective representation family, already credited in an older
+repository paper, to escape F08/F09's invertible flat bundle pairings.
+It simultaneously constructs an exact noncommuting solution on the
+actual changed cusp tail. This makes the sweep's three-norm distinction
+concrete again: zero residual potential coexists with unavoidable
+infinite background Higgs norm. The whole boundary local system is
+acyclic and ordinary dual-sector H1 dimensions agree, but the physical
+L2 identification and global gauge vacuum are not established. Twenty
+new and 176 unchanged checks pass. This is a scoped constructive lead
+and compatibility test, not a chiral completion or a new all-head sweep.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

@@ -141,6 +141,22 @@ replace full source/end and bosonic matching with a Hodge-propagator label.
 It narrows the next interaction question to an actual change of the
 surviving intertwining data while preserving the rest of the theory.
 
+[F10](../projective_escape_2026_09_21/FINDINGS.md) now exhibits such a
+change using Ballas' known real-projective figure-eight family, already
+named in the repository. An exact intertwiner identifies its geometric
+point with F08; away from it, a longitude trace witness excludes both
+invertible flat linear and antilinear coefficient-to-dual maps, also on
+finite-cover pullbacks. The actual changed cusp admits an explicit full
+noncommuting gauge-equation tail solution. Its residual potential is zero,
+but every positive metric on that flat cusp has infinite Higgs norm in
+the fixed hyperbolic base. Ordinary whole-core H1 dimensions in the dual
+sectors still agree. Neither fact by itself decides physical L2 matter.
+Twenty new and 176 unchanged checks pass. Global matching, physical end
+admissibility and the L2-to-ordinary-cohomology comparison are separate
+remaining tests; there is no chiral vacuum or derived gravity here.
+This is an application of known geometry, not a new family or an
+absent-from-the-record claim. Scientific predecessors remain unchanged.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

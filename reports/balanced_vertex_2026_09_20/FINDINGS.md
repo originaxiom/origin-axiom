@@ -100,6 +100,16 @@ field positives retain their own scope. Global mode multiplicity,
 selected chiral vacuum, complete SM interactions, dynamical gravity
 and measured predictions remain unachieved by this checkpoint.
 
+**Follow-through F10:** the [real-projective family test](../projective_escape_2026_09_21/FINDINGS.md)
+now gives an actual global holonomy change that removes F08's flat dual
+isomorphisms, with an exact compatible local cusp solution. It does not
+yet supply asymmetric physical coupling tensors: the complete vacuum,
+normalizable spectrum and all end/action conditions remain to be
+established, and ordinary dual-sector H1 dimensions still agree. The
+new infinite-background-norm/zero-residual-potential example reinforces
+the need to test those conditions separately. F09's fixed-background
+interaction result and sealed science are unchanged.
+
 ## Verification and custody
 
 Science sealed before first execution at **a077d5fc**. **19 new checks

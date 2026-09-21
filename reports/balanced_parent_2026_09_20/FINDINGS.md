@@ -135,6 +135,17 @@ derived mirror hierarchy. This extends the interaction dictionary without
 counting global modes or proving an interacting phase. The scientific
 files and original F08 proof remain unchanged.
 
+**Follow-through F10:** the [real-projective deformation calculation](../projective_escape_2026_09_21/FINDINGS.md)
+identifies the geometric point of Ballas' known family with this balanced
+coefficient by an actual simultaneous intertwiner. Away from that point,
+the longitude forbids both invertible flat linear and antilinear dual
+bundle maps, including on finite-cover pullbacks. Its changed cusp has
+an explicit full-equation tail solution but necessarily infinite Higgs
+norm in the fixed hyperbolic metric. Whole-core ordinary H1 dimensions
+still agree; physical L2 multiplicities and a global vacuum are not
+computed. This qualifies the candidate change, not F08's proved pairing
+in its unchanged background. Frozen F08 science remains untouched.
+
 ## Verification and custody
 
 - Four scientific files and both reused producers hashed before execution;
