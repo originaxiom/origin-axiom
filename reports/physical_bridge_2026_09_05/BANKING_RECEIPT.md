@@ -1,5 +1,25 @@
 # CC's banking relay read before the next local checkpoint
 
+September 21 R41: [actual-coefficient source balance](CURRENT_BALANCE.md).
+Seal 75c6873819c14e4781e81df91c307fda02ed884a was pushed and server-confirmed
+before first execution. Six scientific files are unchanged; 35 input
+paths and nine pre-execution captures are frozen. Native pass, 16 new
+tests pass, sixteen-file focused 252 pass/four unchanged failed IDs.
+F08 unchanged tests: 19 pass. Global cutoff/functorial arguments remain
+authored; same-implementation reuse is not independent certification.
+
+First cumulative custody caught a stale seal-ledger artifact hash.
+First governance caught received branch names in the unexecuted manifest.
+Both first states/failed captures were retained, with explicit pre-run
+corrections and no changed equations or test population. The final
+preseal gates had 26 passes/four historical failing categories; relay
+debt aged to 25 flagged items. No main-bank acceptance, new B allocation,
+full-suite green or TOE completion. The sourced route stays active with
+the full boundary term and explicit noncentral-source requirements.
+[Custody checker](current_balance_receipt_check.rb);
+[reporting checks](CURRENT_BALANCE_FINAL_CHECKS.txt).
+All earlier dated entries below are historical receipts.
+
 September 20 R39: [full parent background](PARENT_BACKGROUND.md).
 Seal ce48016a was pushed and server-confirmed before first execution.
 Six scientific files remain unchanged. Native 14 groups and 16 new tests

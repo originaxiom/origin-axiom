@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-09-21 - R41 specifies the actual coefficient's source balances
+
+The existing finite-energy projector argument, specialized to the actual
+nonsplit coefficient, requires positive projections on all three proper
+flag subbundles. The surviving block-U1 source has zero projections in
+the declared block-metric model. Noncentral controls of the required
+sign and the full boundary flux are retained; this is not a general
+source or chirality exclusion. An upper source-free extension preserves
+the obstruction; a lower map changes the coefficient problem. Reusing
+R40's unequal interior counts also excludes invertible same-base
+conjugate-linear flat dual maps, not every possible spectral pairing.
+
+Scientific seal 75c68738 was pushed and remote-confirmed before execution.
+Native checks pass; 16 new tests pass; fixed sixteen-file regression
+252 pass/four unchanged failures. Incoming F08 reuse: 19 tests pass on
+a different coefficient. First metadata/custody failures are preserved;
+no scientific result was changed after execution. Global arguments remain
+authored. The next duty is a source/boundary action and full positive
+fluctuation domain in one model, not another index census or rescue-field
+scan. No shared B, all-green main bank, physical chirality or TOE closure.
+Report: reports/physical_bridge_2026_09_05/CURRENT_BALANCE.md.
+
 ## 2026-09-20 - R40 preserves the nonsplit coefficient inside a candidate parent
 
 The actual R27 rank-four coefficient has a nontrivial determinant; all

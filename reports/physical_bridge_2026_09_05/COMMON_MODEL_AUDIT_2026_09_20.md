@@ -258,3 +258,30 @@ fifteen-file focused 236 pass/four unchanged failures. The pinned incoming
 F02--F05 implementations also reproduce (55+24 tests); analytic scopes
 are in [the reception](FORK_F02_F05_RECEPTION_2026_09_20.md).
 Quantum phase, source selection, gravity and empirical gates stay open.
+
+## 10. R41 prices the source direction without abandoning the source route
+
+- [x] Specialize the existing F01/R39 projector argument to all three
+  flag subbundles of the actual R40 coefficient. Under its smooth,
+  complete finite-energy block-metric hypotheses, the surviving block
+  T source gives zero instead of the necessary positive projections.
+- [x] Keep noncentral directions of the correct sign and the actual
+  boundary flux. Parent commutators are not an external source for free;
+  an upper-block source-free extension retains the old obstruction.
+- [x] Reuse the unequal interior counts to exclude same-base invertible
+  conjugate-linear flat dual maps. This is not a normalizable spectrum.
+- [ ] Derive the allowed noncentral source or boundary variation law
+  from the same action, then solve every residual. A prescribed current
+  or dropped flux does not pay this duty.
+- [ ] If changing coefficient, energy class or ends, recompute its
+  actual holonomy, domain and complete physical spectrum. Do not import
+  R40's index by a rank/name match. Background Higgs norm and static
+  residual potential remain distinct by R28.
+
+[R41 result](CURRENT_BALANCE.md): native pass; 16 new tests; fixed
+sixteen-file run 252 pass/four unchanged failures. All six scientific
+files were sealed and pushed before first execution. Incoming F08's
+19 tests reproduce unchanged, on a different coefficient. F09 and the
+new F10 have only FINDINGS-level reception here; their full proofs and
+calculations require checking before becoming premises. No physical
+chirality, quantum phase, gravity or full-TOE requirement is marked done.

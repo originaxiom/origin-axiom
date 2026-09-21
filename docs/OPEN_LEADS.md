@@ -3246,3 +3246,28 @@ The R19/R29 source model is not silently transferred to this different
 structure-group embedding. F02--F05's rechecked domain/growth/geometric-gap
 statements keep their exact hypotheses. Quantum phase, gravity, physical
 scale and empirical discrimination remain duties of the full goal.
+
+### PB-BOUNDARY / PB-ACTION, September 21: R41 source projections and open boundary law
+
+Closing sentence for the scalar-source sub-duty only: a source along
+the surviving block T cannot support the retained nonsplit four under
+the complete finite-energy block-compatible hypotheses, because its
+three traceless flag projections vanish. Positive noncentral directions
+and the explicit boundary flux are retained. This is not a general
+source exclusion. Source and proof: reports/physical_bridge_2026_09_05/CURRENT_BALANCE.md.
+
+The NEXT duty is to derive a noncentral source or allowed boundary
+variation law in the SAME parent/action, retain all terms and then solve
+the full equations. An arbitrary current, or counting a bulk commutator
+again as a source, is not completion. For a changed coefficient or
+non-finite background norm, restate the end and fluctuation-domain
+assumptions and recalculate the spectrum. R40's retained unequal counts
+exclude invertible same-base linear/anti-linear flat dual maps, not all
+possible spectral pairings and not the whole physical mode problem.
+The exact indices, R19/R29 positives and verified local cusp survive.
+
+Post-run F10 at 5dc9b73017bb10bbed4b293f0271518a2c9e6c0b has only
+FINDINGS-level reception here. Check its full proof, exact cusp producer
+and tests before adopting the proposed projective escape. This intake
+does not displace the fixed-coefficient source/boundary duty or solve
+quantum anomalies, gravity, parameter selection or empirical comparison.

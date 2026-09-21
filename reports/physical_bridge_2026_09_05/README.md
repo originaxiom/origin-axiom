@@ -1,5 +1,19 @@
 # Physical bridge audit — 2026-09-05
 
+**Latest local result, R41 (September 21): actual-coefficient source balance.**
+All three flag projections are tested. The surviving block-U1 source
+pairs to zero and cannot support the nonsplit four in the specified
+complete finite-energy block-metric model. Noncentral positive controls
+and the boundary flux remain; no general source or chirality kill.
+The retained R40 counts also exclude same-base invertible anti-linear
+flat dual maps, without claiming a physical spectrum. Next derive the
+noncentral source/boundary action and complete fluctuation domain.
+Native pass; 16 new tests; sixteen-file focused 252 pass/four unchanged
+failures. F08 unchanged reuse: 19 pass, on a different coefficient.
+All six scientific files were sealed/pushed before execution. Report:
+reports/physical_bridge_2026_09_05/CURRENT_BALANCE.md.
+Earlier dated checkpoints below are historical, not current verdicts.
+
 **Latest original local result, R40 (September 20): actual nonsplit parent map.**
 The original +1 coefficient is retained in a faithful determinant-one
 rank-five enlargement inside the supplied E8 candidate. Its complete
