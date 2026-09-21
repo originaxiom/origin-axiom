@@ -1,0 +1,13 @@
+{
+  "scope": "F11 full cusp L2 homotopy and exact coefficient cohomology; sealed before first execution",
+  "base_commit": "5dc9b730",
+  "sha256": {
+    "DESIGN.md": "17356ace180584961954c4045025f7c2430d09826f5f49006a04d05c3f155824",
+    "PROOF.md": "8c61d69af86a55ae5269ab86991ee5c722697abb5e23e3fced7aab90c13d3303",
+    "verify.py": "d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926",
+    "test_verify.py": "acc2926798919ba91306b71df98b5fbd185aefef6e0311c73bd558cccba2d391"
+  },
+  "reused_producer_sha256": {
+    "../projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18"
+  }
+}
