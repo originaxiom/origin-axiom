@@ -1,0 +1,16 @@
+{
+  "scope": "Post-failure F11 expectation correction, exact exceptional classes; sealed before follow-up execution",
+  "original_science_commit": "85454725",
+  "original_outcome": "27 passed, 3 failed; missed nongeometric roots for all three nontrivial characters",
+  "sha256": {
+    "EXCEPTION_ADDENDUM.md": "a72c99d6bd5f859e1646f077288fadcad43278209775d3c49bda9c160c7476b0",
+    "exception_verify.py": "63283c0c44897a295e0622aba5cd79d25c50b1dea3b4719f9d3a6a2183afd8a7",
+    "test_verify_v2.py": "4008b4bdce748d6e761efe08d4f2172f3613d48032415bfec2e80f5d279b02c2",
+    "FIRST_RUN_TRANSCRIPT.txt": "79434f30e0fd7cf3eba3066060ae47bccf88f94869f7a74a7672b33041191dad",
+    "MINOR_LOCUS_OUTPUT.txt": "2408444ad94a98ea2c9514c6609477abccb7858f3cac9d7e12a083f40e44c84b"
+  },
+  "original_unchanged_sha256": {
+    "verify.py": "d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926",
+    "test_verify.py": "acc2926798919ba91306b71df98b5fbd185aefef6e0311c73bd558cccba2d391"
+  }
+}

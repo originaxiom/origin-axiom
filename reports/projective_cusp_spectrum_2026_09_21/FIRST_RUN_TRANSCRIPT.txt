@@ -1,0 +1,56 @@
+F11 first execution; transcription of tool outputs, not a separately captured raw log.
+Command: python3.12 -m pytest -q reports/projective_cusp_spectrum_2026_09_21/test_verify.py
+Science seal: 85454725. Session 90549. Initial 1a1ae8 had no output.
+f9ea8e output:
+.....................FF
+dabca7 had no new output.
+e7641e output (exit code 1):
+F......                                           [100%]
+=================================== FAILURES ===================================
+___________ test_every_positive_rank_exception_is_geometric[phase1] ____________
+
+phase = -1
+
+    @pytest.mark.parametrize('phase',v.PHASES)
+    def test_every_positive_rank_exception_is_geometric(phase):
+        b,j=v.certificates(phase)
+        assert b['minors']==j['minors']==70
+        assert b['q_only_denominators'] and j['q_only_denominators']
+        assert b['positive_roots']==0
+>       assert j['positive_roots'] in (0,1)
+E       assert 2 in (0, 1)
+
+reports/projective_cusp_spectrum_2026_09_21/test_verify.py:114: AssertionError
+___________ test_every_positive_rank_exception_is_geometric[phase2] ____________
+
+phase = I
+
+    @pytest.mark.parametrize('phase',v.PHASES)
+    def test_every_positive_rank_exception_is_geometric(phase):
+        b,j=v.certificates(phase)
+        assert b['minors']==j['minors']==70
+        assert b['q_only_denominators'] and j['q_only_denominators']
+        assert b['positive_roots']==0
+>       assert j['positive_roots'] in (0,1)
+E       assert 2 in (0, 1)
+
+reports/projective_cusp_spectrum_2026_09_21/test_verify.py:114: AssertionError
+___________ test_every_positive_rank_exception_is_geometric[phase3] ____________
+
+phase = -I
+
+    @pytest.mark.parametrize('phase',v.PHASES)
+    def test_every_positive_rank_exception_is_geometric(phase):
+        b,j=v.certificates(phase)
+        assert b['minors']==j['minors']==70
+        assert b['q_only_denominators'] and j['q_only_denominators']
+        assert b['positive_roots']==0
+>       assert j['positive_roots'] in (0,1)
+E       assert 2 in (0, 1)
+
+reports/projective_cusp_spectrum_2026_09_21/test_verify.py:114: AssertionError
+=========================== short test summary info ============================
+FAILED reports/projective_cusp_spectrum_2026_09_21/test_verify.py::test_every_positive_rank_exception_is_geometric[phase1]
+FAILED reports/projective_cusp_spectrum_2026_09_21/test_verify.py::test_every_positive_rank_exception_is_geometric[phase2]
+FAILED reports/projective_cusp_spectrum_2026_09_21/test_verify.py::test_every_positive_rank_exception_is_geometric[phase3]
+3 failed, 27 passed in 64.87s (0:01:04)

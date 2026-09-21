@@ -1,0 +1,8 @@
+phase 1 B {'gcd': 1, 'positive_roots': 0, 'minors': 70, 'q_only_denominators': True} J {'gcd': (q - 1)**2, 'positive_roots': 1, 'minors': 70, 'q_only_denominators': True}
+ordinary H0,H1 at q=1: (0, 1)
+phase -1 B {'gcd': 1, 'positive_roots': 0, 'minors': 70, 'q_only_denominators': True} J {'gcd': q**2 - 34*q + 1, 'positive_roots': 2, 'minors': 70, 'q_only_denominators': True}
+ordinary H0,H1 at q=1: (0, 0)
+phase I B {'gcd': 1, 'positive_roots': 0, 'minors': 70, 'q_only_denominators': True} J {'gcd': q**2 - 14*q + 1, 'positive_roots': 2, 'minors': 70, 'q_only_denominators': True}
+ordinary H0,H1 at q=1: (0, 0)
+phase -I B {'gcd': 1, 'positive_roots': 0, 'minors': 70, 'q_only_denominators': True} J {'gcd': q**2 - 14*q + 1, 'positive_roots': 2, 'minors': 70, 'q_only_denominators': True}
+ordinary H0,H1 at q=1: (0, 0)
