@@ -825,3 +825,22 @@ expected outcome changed. This replacement is still before first run.
 | Path | SHA256 |
 |---|---|
 | `reports/physical_bridge_2026_09_05/CURRENT_BALANCE_INPUTS.json` | `3ca93632f922a69355631c9e9903c1dc3e831b8c5739f709091b413e5917db40` |
+
+
+## Path-local R42, 2026-09-21 - affine-sphere background, before execution
+
+The chosen projective structure's complete Blaschke base metric is an
+explicitly changed assumption, not a gauge repair on the fixed hyperbolic
+base. All-n harmonicity is credited to prior literature; finite-energy
+comparison and the actual linear lift are proved with explicit hypotheses.
+Six new scientific files below are unexecuted. Incoming F10's unchanged
+20-test reuse is separately graded. No physical chirality or gravity claim.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_DESIGN.md` | `d1ab7c403edddff8e09a4a513ad2f9f9fbf61a27e0da2e1d8c356165ebdcf9c5` |
+| `reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md` | `487e69d9db5d1f44303890f14fb958a49f207971cdd1350450f3622fcb026c33` |
+| `reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PRIOR.md` | `c766aee52b8c209b39775586c5f204feb89e9f76ff7c4815d51dea5b558a1ff3` |
+| `reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_INPUTS.json` | `6e1a51a8a5df814c6ff3970343b7ebc7342b56ccefd8a99dd89fa160ea21b885` |
+| `reports/physical_bridge_2026_09_05/affine_background.py` | `8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932` |
+| `tests/test_physical_bridge_affine_background.py` | `8fbcc4bd40a65cff218e316bfea3b7a44e2fcf96f4df4a5d5bf3c16804a181ef` |
