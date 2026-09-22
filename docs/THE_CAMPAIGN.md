@@ -16,6 +16,16 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+Physical-bridge lane, September 22 (path-local R42, not a shared rung
+closure): the complete canonical projective-metric background addresses
+the previously registered admissibility duty. The metric changes from
+the fixed hyperbolic benchmark, so the next bounded test is its actual
+physical-mode/domain problem, with the source/nonsplit route preserved
+separately. No new correspondence or parameter scan takes priority over
+that join. See reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND.md
+and COMMON_MODEL_AUDIT_2026_09_20.md in the same report directory.
+This does not change the main-bank wave grades or claim a physical TOE.
+
 Not by interest. By **what a failure teaches**, cheapest-informative first:
 
 1. **BROKEN before BLIND.** A wrong claim actively misleads every downstream reader; a missing one

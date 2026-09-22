@@ -1,6 +1,23 @@
-# Verdict toward the full physical-theory goal - R41 science, report updated 2026-09-21
+# Verdict toward the full physical-theory goal - R42 science, report updated 2026-09-22
 
-**Latest local result, R41 (September 21): actual-coefficient source balance.**
+**Latest local result, R42 (September 21; report September 22): canonical projective background.**
+The chosen properly convex structure supplies a complete Blaschke base
+metric and a positive coefficient metric solving the full harmonic-flat
+gauge equations, with finite Higgs norm under finite Hilbert volume.
+This uses a DIFFERENT base metric from F10's fixed hyperbolic model;
+its infinite-norm obstruction and ordinary cohomology equality survive.
+It is not R40's nonsplit coefficient or a physical chirality result.
+External all-dimensional geometry is credited; the global application
+remains authored. Original tests: 24 pass/one preserved Ricci-comparison
+failure. A separately sealed polynomial diagnostic passes all five tests.
+Expanded regression: 281 pass/five retained failed IDs, not all green.
+Both scientific seals were pushed and remote-confirmed before execution.
+Next: full physical-mode/domain test on THIS metric, with base dynamics
+and selection inputs explicit; keep R40/R41's source/end route separate.
+Report: reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND.md.
+Earlier dated checkpoints below are historical, not current verdicts.
+
+**Previous local result, R41 (September 21): actual-coefficient source balance.**
 All three flag projections are tested. The surviving block-U1 source
 pairs to zero and cannot support the nonsplit four in the specified
 complete finite-energy block-metric model. Noncentral positive controls

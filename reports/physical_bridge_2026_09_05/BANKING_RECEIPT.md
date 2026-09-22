@@ -820,3 +820,31 @@ fails only on two byte-preserved pytest trailing spaces; exclusion of
 that exact captured file passes. COEFFICIENT_PARENT_FINAL_CHECKS.txt
 preserves actual exits and full failed/corrected gate outputs. Final
 report/hash additions are checked again before committing this checkpoint.
+
+
+## R42 local research preservation, September 22
+
+Original six-file science seal ecd6e70e and four-file post-failure
+diagnostic seal 8b256763 were each pushed/server-confirmed before their
+own first executions. The first native process returned zero but
+ricci=false; that is not a scientific pass. First new tests 24 pass/one
+failure; first focused 276 pass/five failures. Separately sealed
+canonical polynomial and wrong-sign controls pass all five successor
+tests. Expanded focused run: 281 pass and the same five failed IDs.
+Original sources, tests, failed flag and failed runs remain unchanged.
+
+The correction adjudicates a symbolic-expression comparison bug; no
+global theorem or physical spectrum is certified by that finite test.
+F10's unchanged seven-source snapshot reproduces 20 tests. The five
+primary PDFs, their reading scopes, exact source bytes and global proof
+hypotheses are pinned. R42 changes the base metric, preserves F10's
+scoped obstruction, and does not transplant R40's nonsplit index.
+
+Reader surfaces, the law harvest and open source/domain/selection duties
+are updated together. Custody is checked by affine_background_receipt_check.rb.
+No full suite, independent review, shared B, PR or main-bank acceptance
+is claimed. The existing governance debt is retained. Final check
+outputs and exits are preserved in AFFINE_BACKGROUND_FINAL_CHECKS.txt.
+The September 22 check reports 26 PASS/four FAIL categories, with relay
+stale items now 29 rather than 25 due to aging. The larger debt inventory
+is not hidden behind the unchanged number of failing categories.

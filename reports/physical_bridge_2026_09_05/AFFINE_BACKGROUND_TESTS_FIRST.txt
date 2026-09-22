@@ -1,0 +1,9 @@
+....F....................                                                [100%]
+=================================== FAILURES ===================================
+_____________________ test_generic_tensor_identity[ricci] ______________________
+tests/test_physical_bridge_affine_background.py:18: in test_generic_tensor_identity
+    assert m.generic_controls()[key]
+E   assert False
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_affine_background.py::test_generic_tensor_identity[ricci]
+1 failed, 24 passed in 2.81s

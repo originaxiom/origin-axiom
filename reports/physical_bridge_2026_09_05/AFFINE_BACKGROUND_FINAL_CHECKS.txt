@@ -1,0 +1,121 @@
+R42 report checks, September 22, 2026. Not an all-green certificate.
+
+Governance: 26 PASS/four prior FAIL categories; relay stale items age
+from 25 to 29, so the debt inventory is NOT unchanged.
+Strict whitespace: four byte-preserved pytest trailing spaces fail;
+excluding only the two captured stdout files passes. No raw log was trimmed.
+The whitespace diagnostic below is JSON-escaped to preserve its bytes
+without introducing additional literal trailing spaces in this report.
+
+## oa_r42_report_custody_first
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/affine_background_receipt_check.rb",
+    "<raw-directory>"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.8127699999895412,
+  "log_bytes": 398,
+  "log_sha256": "845e4a06516f66d73aeb4c1b5d1328f775e375dfc425f44978fdc338474327af"
+}
+{"sealed_paths":10,"frozen_inputs":45,"primary_pdfs":5,"incoming_sources":7,"prior_captures":8,"captured_runs":11,"audit_runs":5,"original_new_tests":{"passed":24,"failed":1},"successor_new_tests":5,"focused_files":18,"focused_pass":281,"retained_failed_ids":5,"incoming_reuse_tests":20,"scope":"Read-only byte custody and fixed-population results, not independent analysis or all-green banking."}
+
+## oa_r42_report_cumulative_first
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+    "<raw-directory>"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 1.2082510000036564,
+  "log_bytes": 616,
+  "log_sha256": "4511818f8210ade39ac8531f8fde6e7fd0b5d97092a6e97131e0b9f83cd8b2e6"
+}
+{"old_custody":{"artifacts":679,"latest_distinct_seals":180,"unchanged_science_paths":11,"raw_captures":14,"public_science_copies":7,"broad_test_files":52,"unchanged_failed_error_ids":24,"relative_markdown_links":301,"scope":"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green."},"unchanged_r31_science_paths":8,"r31_raw_captures":9,"r31_public_copies":4,"r31_broad_test_files":54,"unchanged_failed_error_ids":24,"history_population_verified":true,"scope":"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green."}
+
+## oa_r42_report_gates_first
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "<python3.12-env>/bin/python3.12",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 13.6862770000007,
+  "log_bytes": 2095,
+  "log_sha256": "3abc4b4d0538c1b40b32adf36c2c6e2ad492549dfe1e3bd4d61fd8db55c36a75"
+}
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 29 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 31 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 27 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 198 merges since last review (DUE — run the decadal review)
+
+## oa_r42_report_whitespace_first
+{
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "exit_code": 2,
+  "signal": null,
+  "elapsed_seconds": 0.07384900000761263,
+  "log_bytes": 428,
+  "log_sha256": "e95d0c3b1b2938027efa9afb10f34a017e7bec6f8fbf1badeadc380d78084e11"
+}
+"reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_FOCUSED_FIRST.txt:16: trailing whitespace.\n+E     \nreports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_FOCUSED_FIRST.txt:22: trailing whitespace.\n+E     \nreports/physical_bridge_2026_09_05/AFFINE_RICCI_CONTROL_V2_FOCUSED_FIRST.txt:16: trailing whitespace.\n+E     \nreports/physical_bridge_2026_09_05/AFFINE_RICCI_CONTROL_V2_FOCUSED_FIRST.txt:22: trailing whitespace.\n+E     \n"
+
+## oa_r42_report_whitespace_authored
+{
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":(exclude)reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_FOCUSED_FIRST.txt",
+    ":(exclude)reports/physical_bridge_2026_09_05/AFFINE_RICCI_CONTROL_V2_FOCUSED_FIRST.txt"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.06498399999691173,
+  "log_bytes": 0,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

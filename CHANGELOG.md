@@ -1,5 +1,31 @@
 # Changelog
 
+## 2026-09-22 - R42 records a canonical projective background, with its metric change
+
+For the chosen finite-volume proper convex projective structure, the
+affine-sphere construction supplies a complete positive background on
+the actual cone-holonomy bundle satisfying all harmonic-flat equations.
+A general-dimensional compactness/jet/volume argument gives finite
+positive Higgs norm. External harmonicity is credited; global application
+remains authored. The BASE METRIC changes to the Blaschke metric.
+F10's fixed-hyperbolic-base obstruction and ordinary cohomology equality
+are retained. Neither R40's index nor a physical chiral spectrum is
+imported onto this different coefficient.
+
+Original seal ecd6e70e and separate diagnostic seal 8b256763 were pushed
+and remote-confirmed before their executions. First new tests: 24 pass,
+one Ricci structural-comparison failure. The separate polynomial and
+altered-sign controls give five passes and diagnose that verifier bug;
+original science and failed test stay unchanged. Eighteen-file regression:
+281 pass, five retained failed IDs. Incoming F10 unchanged reuse: 20 pass.
+No all-green suite, independent main banking or physical closure.
+
+Next: derive or bound the full relevant physical modes and domains on
+this actual metric, while making base dynamics and selection explicit.
+Keep the nonsplit source/end route separate. More geometry without
+reducing one common model's physical duties is not the priority.
+Report: reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND.md.
+
 ## 2026-09-21 - R41 specifies the actual coefficient's source balances
 
 The existing finite-energy projector argument, specialized to the actual

@@ -3266,8 +3266,37 @@ exclude invertible same-base linear/anti-linear flat dual maps, not all
 possible spectral pairings and not the whole physical mode problem.
 The exact indices, R19/R29 positives and verified local cusp survive.
 
-Post-run F10 at 5dc9b73017bb10bbed4b293f0271518a2c9e6c0b has only
-FINDINGS-level reception here. Check its full proof, exact cusp producer
-and tests before adopting the proposed projective escape. This intake
-does not displace the fixed-coefficient source/boundary duty or solve
-quantum anomalies, gravity, parameter selection or empirical comparison.
+R42 update, September 22: F10 at
+5dc9b73017bb10bbed4b293f0271518a2c9e6c0b now has full scientific-packet
+reading and unchanged 20-test reproduction, separately graded from
+independent analytic proof. Its fixed-hyperbolic-base divergence and
+ordinary cohomology equality remain. This intake does not displace the
+fixed-coefficient source/boundary duty or solve quantum anomalies,
+gravity, parameter selection or empirical comparison.
+
+### PB-DOMAIN / PB-ACTION, September 22: R42's changed-metric bridge
+
+Conditional positive: a finite-Hilbert-volume oriented properly convex
+projective structure supplies a complete finite-energy harmonic-flat
+background on its own Blaschke base metric and actual cone-holonomy
+bundle. External existence/harmonicity is credited, the global
+finite-energy application is authored, and finite exact controls pass
+with the original comparison failure separately preserved/adjudicated.
+Source: reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND.md.
+
+NEXT: derive or bound all relevant physical L2 modes on THIS metric,
+with every form degree, gauge condition, adjoint and domain fixed.
+Ordinary cohomology equality is not silently a physical-spectrum
+calculation; a fixed-hyperbolic-base theorem is not its Blaschke proof.
+Register separately the action/variation selecting the base and the
+projective parameter. The general affine-sphere theorem supplies no
+object discrimination by itself. R40/R41's source/end route and index
+positive remain separate. No physical chirality or gravity closure.
+
+Incoming lead only: F11 FINDINGS at
+08ff88e0ed841b25274c46ec2490a410729639c2 reports exceptional twisted
+paired modes outside the nearby projective-existence guarantee.
+Verify its exact packet and analytic end hypotheses before using it;
+global background existence and the Blaschke/fixed-base distinction
+remain separate. Received at FINDINGS level on September 22, not
+reproduced or banked as an independent result by this lane.

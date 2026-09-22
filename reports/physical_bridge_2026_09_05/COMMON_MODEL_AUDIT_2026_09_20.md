@@ -285,3 +285,45 @@ files were sealed and pushed before first execution. Incoming F08's
 new F10 have only FINDINGS-level reception here; their full proofs and
 calculations require checking before becoming premises. No physical
 chirality, quantum phase, gravity or full-TOE requirement is marked done.
+
+## 11. R42: canonical geometry pays a background duty, not the physical joins
+
+- [x] On the chosen finite-volume proper convex projective structure,
+  construct the complete Blaschke base metric and canonical positive
+  determinant-one metric on the ACTUAL cone-holonomy bundle. The
+  all-n harmonicity theorem is external prior, not a new discovery.
+- [x] Give the authored finite-energy argument from pointed-domain
+  compactness, jet continuity and volume comparison; verify the local
+  full matrix equations, actual linear lift, and two geometric controls.
+- [x] Preserve the first Ricci-comparison failure. A separately sealed
+  polynomial control adjudicates it without changing the original code.
+- [ ] Derive or bound the complete relevant L2 spectrum on THIS base,
+  with form degrees, gauge constraints, adjoints and domains specified.
+  F10's ordinary cohomology equality remains; F11's fixed-hyperbolic-base
+  design cannot be imported as its Blaschke analogue.
+- [ ] Specify the physical base action/variation and selection of the
+  projective structure. A canonical metric conditional on that choice
+  does not select the choice, spacetime, scale or measured physics.
+
+This is a changed-metric, different-coefficient benchmark, not a merger
+of R40's interior index with an unrelated finite-energy background.
+F10's full scientific packet is now personally read and its unchanged
+20-test snapshot reproduces; this updates the earlier reception grade.
+F11 was received at DESIGN level at R42's scientific seal. At report
+completion its FINDINGS at 08ff88e0ed841b25274c46ec2490a410729639c2
+were read, but the newer packet is not yet reproduced here. It reports
+exceptional twisted paired modes on the fixed hyperbolic base, not
+global harmonicity or proper convex geometry at those parameters.
+That is a next-duty lead, not an adopted R42 hypothesis or spectrum.
+
+Strategy: close this bounded mode/domain test before seeking another
+geometric correspondence. If a justified pairing/acyclicity result
+applies, retain its exact assumptions and redirect effort to the
+already registered nonsplit source/end route. No universal kill and
+no automatic rescue-field scan. The project's next success must reduce
+the obligations of one common model, not merely enlarge its analogy list.
+
+[R42 report](AFFINE_BACKGROUND.md): 24 original passes/one retained
+comparison failure; separately sealed successor five passes; eighteen-
+file regression 281 passes/five retained IDs. Global analytic proof is
+authored; no physical chirality or main-bank certification.
