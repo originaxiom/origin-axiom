@@ -1,0 +1,129 @@
+R43 reporting checks, September 23, 2026. Not an all-green certificate.
+
+Incoming reuse: original 27 pass/3 expectation failures; corrected 40 pass.
+Same-implementation reuse, not independent analytic certification.
+
+First staged governance: 26 PASS/four prior FAIL categories. Relay aging
+increases stale items from 29 to 30. Other failing categories retain
+their printed inventories; no debt is waived. Review is due at 199
+merges before this report commit. Strict staged whitespace passes.
+
+These are the first report-pass captures. The subsequently added
+unexecuted cusp working note is a research proposal, not new science.
+Final read-only checks follow assembly; no whole-suite or main-bank
+acceptance is claimed. Raw logs/receipts are retained outside Git;
+only the listed environment prefixes are redacted from copies below.
+
+## oa_r43_custody_first
+raw_receipt_sha256: c4d4233cb33dc2dc8d5529083392fcc11e813ed24c7c0d5b51a127aede2bd8ba
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/projective_mode_reception_check.rb",
+    "<raw-directory>"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 1.8941450000274926,
+  "log_bytes": 327,
+  "log_sha256": "d5e6f20414e682a976f691e67615e55b916b25754856169f93f2a25fadb0d934"
+}
+{"incoming_seal_entries":12,"incoming_distinct_paths":10,"read_source_paths":12,"frozen_own_inputs":8,"primary_artifacts":2,"raw_runs":6,"original":{"passed":27,"failed":3},"corrected":{"passed":40,"failed":0},"scope":"Byte custody and same-implementation reuse, not independent analytic certification or physical chirality."}
+
+## oa_r43_previous_r42_custody_first
+raw_receipt_sha256: a2252040cf8930cb5affc656e7c169b0873487e8dea5cb488d0bfb4b2bfa66aa
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/affine_background_receipt_check.rb",
+    "<raw-directory>"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.8703719999757595,
+  "log_bytes": 399,
+  "log_sha256": "1ef756e8a2d122fa40742c14bb3412bfac5bf91021e177ef3873cd05921e6e57"
+}
+{"sealed_paths":10,"frozen_inputs":45,"primary_pdfs":5,"incoming_sources":7,"prior_captures":8,"captured_runs":11,"audit_runs":10,"original_new_tests":{"passed":24,"failed":1},"successor_new_tests":5,"focused_files":18,"focused_pass":281,"retained_failed_ids":5,"incoming_reuse_tests":20,"scope":"Read-only byte custody and fixed-population results, not independent analysis or all-green banking."}
+
+## oa_r43_report_cumulative_first
+raw_receipt_sha256: f93f329ecf3b230c244ad24c1b4d2e9f5da1b98efb29fb4a5905ce0c0fe7b734
+{
+  "command": [
+    "ruby",
+    "-EUTF-8:UTF-8",
+    "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+    "<raw-directory>"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 1.3207369999727234,
+  "log_bytes": 616,
+  "log_sha256": "721fd1567030155f70152b25a93d30a956a3889fa27f9b38bb604e234e230602"
+}
+{"old_custody":{"artifacts":686,"latest_distinct_seals":180,"unchanged_science_paths":11,"raw_captures":14,"public_science_copies":7,"broad_test_files":52,"unchanged_failed_error_ids":24,"relative_markdown_links":302,"scope":"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green."},"unchanged_r31_science_paths":8,"r31_raw_captures":9,"r31_public_copies":4,"r31_broad_test_files":54,"unchanged_failed_error_ids":24,"history_population_verified":true,"scope":"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green."}
+
+## oa_r43_report_gates_first
+raw_receipt_sha256: 4e111b91993e25157e4710f046f0c3054d9ea040859a44a96b99b00c70d30166
+{
+  "command": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "<python3.12-env>/bin/python3.12",
+    "scripts/gates/gates.py"
+  ],
+  "exit_code": 1,
+  "signal": null,
+  "elapsed_seconds": 14.181335999979638,
+  "log_bytes": 2095,
+  "log_sha256": "f54db9796de02535a78b2cd06c6c550bf29c53979b9c4a91780abb48258ab148"
+}
+  PASS  identification-register: ok
+  PASS  framing: ok
+  PASS  claims: ok
+  PASS  firewall-oneway: ok
+  PASS  append-only: ok
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 30 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 32 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 28 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  review-due: 199 merges since last review (DUE — run the decadal review)
+
+## oa_r43_report_whitespace_first
+raw_receipt_sha256: a6cb179a3ba9c48d6330c8c87f8c97abff928829267cd4cfc8e501588238a50e
+{
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "exit_code": 0,
+  "signal": null,
+  "elapsed_seconds": 0.07680799998342991,
+  "log_bytes": 0,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,6 +1,20 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest local result, R42 (September 21; report September 22): canonical projective background.**
+**Latest reception, R43 (September 23): exceptional modes retained.**
+The pinned F11 original rerun reproduces 27 passes/three failed
+expectations; its separately sealed correction gives 40 passes.
+The exceptional one/one dual-sector counts are retained in F11's
+fixed-hyperbolic-base norm class, not imported onto R42's Blaschke base.
+Ballas-Long's published all-positive proper-convexity result extends
+the previously cited parameter range; finite-volume/end control and
+the actual canonical-metric L2 comparison remain separate duties.
+This is unchanged-implementation reuse and personal source review,
+not independent analytic certification or derived physical chirality.
+Next: test that SAME-background mode/domain join; preserve R40/R41.
+Report: reports/physical_bridge_2026_09_05/PROJECTIVE_MODE_RECEPTION.md.
+R42 below remains the latest original scientific execution.
+
+**Previous original result, R42 (September 21; report September 22): canonical projective background.**
 The chosen properly convex structure supplies a complete Blaschke base
 metric and a positive coefficient metric solving the full harmonic-flat
 gauge equations, with finite Higgs norm under finite Hilbert volume.

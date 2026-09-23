@@ -327,3 +327,36 @@ the obligations of one common model, not merely enlarge its analogy list.
 comparison failure; separately sealed successor five passes; eighteen-
 file regression 281 passes/five retained IDs. Global analytic proof is
 authored; no physical chirality or main-bank certification.
+
+## 12. R43 retains exceptional modes and separates the two remaining joins
+
+- [x] Read F11's complete analytic proof, original producer/tests and
+  correction; hash-check the incoming seals and rerun both unchanged.
+  Original: 27 passes/three expectation failures; corrected: 40 passes.
+- [x] Retain the exceptional one/one dual-sector cohomology classes and
+  their authored L2 interpretation in the specified hyperbolic-base
+  norm class. This is not independent analytic certification.
+- [x] Read Ballas-Long's full 2015 paper and literal appendix matrices.
+  Their published Theorem 3.3 extends proper convexity/discrete
+  faithfulness to every positive q, not only a nearby interval.
+- [ ] Discharge the exact marked-end and finite-volume hypotheses for
+  the chosen projective quotient at the exceptional parameters.
+- [ ] Specify the actual centrally twisted positive coefficient metrics
+  and prove the canonical-metric L2 domain/comparison theorem. Test the
+  longitude contraction in these norms; do not insert F11's old L/z
+  estimate or identify closed range with compact resolvent.
+- [ ] Derive the full physical spectrum, gauge constraints, interactions
+  and selection in that same background. Geometry and zero modes from
+  different norm classes cannot be joined by collecting their counts.
+
+The earlier DESIGN-only and FINDINGS-only reception grades above are
+historical, now superseded by [this checked intake](PROJECTIVE_MODE_RECEPTION.md).
+The published theorem supplies the underlying real proper-convex
+representation, not selection of the complex scalar character or
+automatically finite background norm at every parameter. No new
+original scientific calculation or chiral physical completion is claimed.
+If the actual-metric spectrum is paired, keep its positive modes and
+return the chirality work to the registered noncentral source/end route.
+The proposed concrete next comparison is recorded in
+[the unsealed working note](CONVEX_CUSP_MODE_WORKING_2026_09_23.md).
+No proof, producer or test has been executed for that proposal.

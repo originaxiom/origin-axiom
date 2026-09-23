@@ -1,5 +1,20 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+September 23, path-local R43: the exceptional central-twist one/one
+counts reproduce, including the original failed vanishing expectation.
+The published all-positive proper-convexity theorem is received with
+the literal parameter map. The next duties are SEPARATE: establish the
+chosen marked quotient's finite-volume ends at those parameters, then
+prove the canonical-metric positive-domain and L2 comparison. Test the
+longitude homotopy's actual norm; a bounded contraction, a decaying
+contraction and compact resolvent are not interchangeable claims.
+The projective character/base action and physical selection remain
+inputs. No closure of the sourced nonsplit route or the chirality goal.
+See reports/physical_bridge_2026_09_05/PROJECTIVE_MODE_RECEPTION.md.
+The unsealed, unexecuted proposed cusp-limit controls are registered in
+reports/physical_bridge_2026_09_05/CONVEX_CUSP_MODE_WORKING_2026_09_23.md;
+they are working hypotheses, not an extra banked outcome.
+
 > **Review 53 (2026-08-30, anchor `c0e9a4a0`).** L175 **CLOSED** (B1110) and L57 **ANSWERED-AND-REPOSED** (B364), both found by `scripts/checks/open_claim_sweep.py` rather than by anyone suspecting them. Carried open: R53-2's cross-seat waits (codex R023/MC1/R018; cloud C6), R53-3's unswept remainder (~973 arcs outside every screen), R53-5 (**λ's acceptance gate** — the ledger's weakest row).
 
 > **Review 52 currency (2026-08-28, anchor 8aa71f07):** the grand-computation campaign — L188 CLOSED (B1199); **L190's direction corrected** (reach DEFICIT, B1188); the eight-item existence-audit list dispositioned (B1194–B1196); the Φ₃ unification (B1200). Next lead: **L192**.

@@ -15318,3 +15318,23 @@ this actual metric, while making base dynamics and selection explicit.
 Keep the nonsplit source/end route separate. More geometry without
 reducing one common model's physical duties is not the priority.
 Report: reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND.md.
+
+## 2026-09-23 - R43 retains exceptional modes and sharpens the same-background test
+
+The pinned F11 implementation reproduces its original 27 passes/three
+failed expectations and the separately sealed correction's 40 passes.
+Exceptional central twists have one H1 class in each dual sector;
+their L2 interpretation retains F11's complete hyperbolic-base norms.
+This is same-implementation reuse plus personal analytic review, not
+independent global certification or a four-dimensional chiral spectrum.
+
+Ballas-Long's full 2015 paper was personally read. Theorem 3.3 extends
+proper convexity and discrete faithfulness to every positive parameter;
+the appendix supplies the literal v=2t=q map to the real matrices.
+This extends the received geometric range, but is not by itself a
+finite-volume assertion or a transfer to R42's canonical-metric modes.
+Next: exact marked-end/volume hypotheses and the full norm/domain
+comparison, including boundedness of the longitude contraction.
+R40/R41's source route and all earlier positives stay separate.
+No new original science, shared B, main-bank acceptance or TOE closure.
+Report: reports/physical_bridge_2026_09_05/PROJECTIVE_MODE_RECEPTION.md.

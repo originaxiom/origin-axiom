@@ -1,0 +1,380 @@
+{
+  "report": "R43 incoming F11 and Ballas-Long reception, September 23 2026",
+  "own_input_pin": "a3a8dfcd3d7daccba6e41464874eab3241ad9e32",
+  "scientific_grade": "Unchanged implementation reuse; personally read analytic arguments; no new original scientific execution or independent PDE certification",
+  "incoming": {
+    "source_pin": "08ff88e0ed841b25274c46ec2490a410729639c2",
+    "execution_snapshot_basename": "oa-f11-reuse.OE2Rdu",
+    "verified_seal_entries": [
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/DESIGN.md",
+        "bytes": 4794,
+        "sha256": "17356ace180584961954c4045025f7c2430d09826f5f49006a04d05c3f155824",
+        "seal_pin": "8545472529a1df7c16dd6a511b6a7b421a200b62"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/PROOF.md",
+        "bytes": 8463,
+        "sha256": "8c61d69af86a55ae5269ab86991ee5c722697abb5e23e3fced7aab90c13d3303",
+        "seal_pin": "8545472529a1df7c16dd6a511b6a7b421a200b62"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/verify.py",
+        "bytes": 5279,
+        "sha256": "d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926",
+        "seal_pin": "8545472529a1df7c16dd6a511b6a7b421a200b62"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/test_verify.py",
+        "bytes": 4976,
+        "sha256": "acc2926798919ba91306b71df98b5fbd185aefef6e0311c73bd558cccba2d391",
+        "seal_pin": "8545472529a1df7c16dd6a511b6a7b421a200b62"
+      },
+      {
+        "path": "reports/projective_escape_2026_09_21/verify.py",
+        "bytes": 3360,
+        "sha256": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18",
+        "seal_pin": "8545472529a1df7c16dd6a511b6a7b421a200b62"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/EXCEPTION_ADDENDUM.md",
+        "bytes": 3736,
+        "sha256": "a72c99d6bd5f859e1646f077288fadcad43278209775d3c49bda9c160c7476b0",
+        "seal_pin": "15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/exception_verify.py",
+        "bytes": 3149,
+        "sha256": "63283c0c44897a295e0622aba5cd79d25c50b1dea3b4719f9d3a6a2183afd8a7",
+        "seal_pin": "15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/test_verify_v2.py",
+        "bytes": 2775,
+        "sha256": "4008b4bdce748d6e761efe08d4f2172f3613d48032415bfec2e80f5d279b02c2",
+        "seal_pin": "15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/FIRST_RUN_TRANSCRIPT.txt",
+        "bytes": 2592,
+        "sha256": "79434f30e0fd7cf3eba3066060ae47bccf88f94869f7a74a7672b33041191dad",
+        "seal_pin": "15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/MINOR_LOCUS_OUTPUT.txt",
+        "bytes": 821,
+        "sha256": "2408444ad94a98ea2c9514c6609477abccb7858f3cac9d7e12a083f40e44c84b",
+        "seal_pin": "15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/verify.py",
+        "bytes": 5279,
+        "sha256": "d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926",
+        "seal_pin": "15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd"
+      },
+      {
+        "path": "reports/projective_cusp_spectrum_2026_09_21/test_verify.py",
+        "bytes": 4976,
+        "sha256": "acc2926798919ba91306b71df98b5fbd185aefef6e0311c73bd558cccba2d391",
+        "seal_pin": "15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd"
+      }
+    ],
+    "scope": "Unchanged incoming source custody before reuse, not independent proof"
+  },
+  "incoming_read_sources": [
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/DESIGN.md",
+      "bytes": 4794,
+      "sha256": "17356ace180584961954c4045025f7c2430d09826f5f49006a04d05c3f155824"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/PROOF.md",
+      "bytes": 8463,
+      "sha256": "8c61d69af86a55ae5269ab86991ee5c722697abb5e23e3fced7aab90c13d3303"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/verify.py",
+      "bytes": 5279,
+      "sha256": "d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/test_verify.py",
+      "bytes": 4976,
+      "sha256": "acc2926798919ba91306b71df98b5fbd185aefef6e0311c73bd558cccba2d391"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/EXCEPTION_ADDENDUM.md",
+      "bytes": 3736,
+      "sha256": "a72c99d6bd5f859e1646f077288fadcad43278209775d3c49bda9c160c7476b0"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/exception_verify.py",
+      "bytes": 3149,
+      "sha256": "63283c0c44897a295e0622aba5cd79d25c50b1dea3b4719f9d3a6a2183afd8a7"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/test_verify_v2.py",
+      "bytes": 2775,
+      "sha256": "4008b4bdce748d6e761efe08d4f2172f3613d48032415bfec2e80f5d279b02c2"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/SEAL.json",
+      "bytes": 649,
+      "sha256": "caa2a01814f73667f43d7c4922a62957f0e317f5296f52214cd1ee3c8f7569b0"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/CORRECTION_SEAL.json",
+      "bytes": 981,
+      "sha256": "73fa9089a121a882aa5ffc2de48881ebb0d68de006c2c02937d212736663c280"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/FINDINGS.md",
+      "bytes": 10064,
+      "sha256": "5df3e351dd6e614ce53f67159c110ff13cad859a21ae9f914e9c242e26e93fa4"
+    },
+    {
+      "path": "reports/complete_domain_2026_09_20/PROOF.md",
+      "bytes": 9672,
+      "sha256": "bf4e414902ce2699484db67e720ffc155791559d5ff3e476330f7e1b9796c720"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/RECHECKS.md",
+      "bytes": 7261,
+      "sha256": "faffd485762e96337e66d44ec139cee581de8a8ff1d24aff89008f4ad820f46f"
+    }
+  ],
+  "frozen_own_inputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND.md",
+      "bytes": 9836,
+      "sha256": "baf005262531e1dab42aa19389353e5ae7ae23e6bc3bbe393883e88d119b8a92"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md",
+      "bytes": 9385,
+      "sha256": "487e69d9db5d1f44303890f14fb958a49f207971cdd1350450f3622fcb026c33"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_INPUTS.json",
+      "bytes": 15613,
+      "sha256": "6e1a51a8a5df814c6ff3970343b7ebc7342b56ccefd8a99dd89fa160ea21b885"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_background.py",
+      "bytes": 7880,
+      "sha256": "8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_RECEIPTS.json",
+      "bytes": 30071,
+      "sha256": "14befd6fd8f13e875c3f8093ee8e49a8300df9228c0dc1340ece26cbdeb2a0fe"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_RICCI_CONTROL_V2_INPUTS.json",
+      "bytes": 3279,
+      "sha256": "f344251faff4b87e9c64d24551c48f69f87c081e05a2a6330ee9810e31a9f19b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CURRENT_BALANCE.md",
+      "bytes": 8245,
+      "sha256": "6aad8844f5bfab7a0cf8848e47629a21945c622efe60a8dafc1fb22b4951cf41"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/COEFFICIENT_PARENT.md",
+      "bytes": 9603,
+      "sha256": "7244639eeba9cb8b2fcd5891b7ef1f8312d8047e8a062160b5536e7b4aa069c8"
+    }
+  ],
+  "primary_artifacts": [
+    {
+      "local_container_basename": "oa-r43-primary.j5GTwj",
+      "basename": "ballas_long_2015.pdf",
+      "bytes": 3589403,
+      "sha256": "57a8daa16eed49954d889bf3c5914ba7e18d1b4deadd8c014954ec76a7cf9b08"
+    },
+    {
+      "local_container_basename": "oa-r43-primary.j5GTwj",
+      "basename": "ballas_long_2015.txt",
+      "bytes": 33940,
+      "sha256": "26e405dc1a2f11b3924948cbe892ce36ec05ca2e5a00c373a9819fdd0a263b7a"
+    }
+  ],
+  "primary_reading": {
+    "Ballas_Long_2015": {
+      "url": "https://msp.org/agt/2015/15-5/agt-v15-n5-p16-s.pdf",
+      "scope": "All 14 pages of extracted text, including appendix and references; rendered printed pages 3014, 3015, 3020 inspected directly",
+      "received_theorem": "Theorem 3.3 and the positive-parameter conclusion; Appendix literal matrices with v=2t=q",
+      "not_received": "No independently certified all-parameter finite-volume quotient or transfer of F11 L2 modes to the Blaschke metric"
+    },
+    "Arnold_Falk_Winther_2009": {
+      "url": "https://arxiv.org/html/0906.4325v3#S3.SS1.SSS3",
+      "scope": "Sections 3.1.1-3.1.3 and start of 3.2 through Theorem 3.1; not full paper",
+      "role": "Closed Hilbert complexes and Hodge theory framework, not certification of F11 cusp estimates"
+    }
+  },
+  "runs": {
+    "incoming_hashes": {
+      "raw_basename": "oa_r43_f11_hashes_first",
+      "raw_receipt_sha256": "c4418f44cdb766265a213328019156a845a722408d5c88aae6c4e18a9f11357b",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "-rjson",
+          "-rdigest",
+          "-ropen3",
+          "-e",
+          "pin=\"08ff88e0ed841b25274c46ec2490a410729639c2\"; base=\"reports/projective_cusp_spectrum_2026_09_21/\"; snapshot=\"<raw-directory>/oa-f11-reuse.OE2Rdu\"; one=JSON.parse(File.read(File.join(snapshot,base,\"SEAL.json\"))); two=JSON.parse(File.read(File.join(snapshot,base,\"CORRECTION_SEAL.json\"))); groups=[[\"8545472529a1df7c16dd6a511b6a7b421a200b62\",one.fetch(\"sha256\")],[\"8545472529a1df7c16dd6a511b6a7b421a200b62\",one.fetch(\"reused_producer_sha256\")],[\"15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd\",two.fetch(\"sha256\")],[\"15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd\",two.fetch(\"original_unchanged_sha256\")]]; rows=[]; groups.each{|seal,values|values.each{|name,expected|path=File.expand_path(base+name,Dir.pwd).delete_prefix(Dir.pwd+\"/\"); bytes=File.binread(File.join(snapshot,path));abort(\"Snapshot hash mismatch \"+path) unless Digest::SHA256.hexdigest(bytes)==expected;[seal,pin].each{|ref|g,e,status=Open3.capture3(\"git\",\"show\",ref+\":\"+path);abort(e) unless status.success?;abort(\"Git bytes mismatch \"+path) unless g.b==bytes};rows << {path:path,bytes:bytes.bytesize,sha256:expected,seal_pin:seal}}}; puts JSON.pretty_generate({source_pin:pin,execution_snapshot_basename:File.basename(snapshot),verified_seal_entries:rows,scope:\"Unchanged incoming source custody before reuse, not independent proof\"})"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.7539340000366792,
+        "log_bytes": 3295,
+        "log_sha256": "c4258baaadfdb8c23f0f2a3c1948bed05bbef9f539003932cb958b7a80f14b4f"
+      },
+      "raw_log_with_environment_redaction": "{\n  \"source_pin\": \"08ff88e0ed841b25274c46ec2490a410729639c2\",\n  \"execution_snapshot_basename\": \"oa-f11-reuse.OE2Rdu\",\n  \"verified_seal_entries\": [\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/DESIGN.md\",\n      \"bytes\": 4794,\n      \"sha256\": \"17356ace180584961954c4045025f7c2430d09826f5f49006a04d05c3f155824\",\n      \"seal_pin\": \"8545472529a1df7c16dd6a511b6a7b421a200b62\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/PROOF.md\",\n      \"bytes\": 8463,\n      \"sha256\": \"8c61d69af86a55ae5269ab86991ee5c722697abb5e23e3fced7aab90c13d3303\",\n      \"seal_pin\": \"8545472529a1df7c16dd6a511b6a7b421a200b62\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/verify.py\",\n      \"bytes\": 5279,\n      \"sha256\": \"d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926\",\n      \"seal_pin\": \"8545472529a1df7c16dd6a511b6a7b421a200b62\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/test_verify.py\",\n      \"bytes\": 4976,\n      \"sha256\": \"acc2926798919ba91306b71df98b5fbd185aefef6e0311c73bd558cccba2d391\",\n      \"seal_pin\": \"8545472529a1df7c16dd6a511b6a7b421a200b62\"\n    },\n    {\n      \"path\": \"reports/projective_escape_2026_09_21/verify.py\",\n      \"bytes\": 3360,\n      \"sha256\": \"603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18\",\n      \"seal_pin\": \"8545472529a1df7c16dd6a511b6a7b421a200b62\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/EXCEPTION_ADDENDUM.md\",\n      \"bytes\": 3736,\n      \"sha256\": \"a72c99d6bd5f859e1646f077288fadcad43278209775d3c49bda9c160c7476b0\",\n      \"seal_pin\": \"15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/exception_verify.py\",\n      \"bytes\": 3149,\n      \"sha256\": \"63283c0c44897a295e0622aba5cd79d25c50b1dea3b4719f9d3a6a2183afd8a7\",\n      \"seal_pin\": \"15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/test_verify_v2.py\",\n      \"bytes\": 2775,\n      \"sha256\": \"4008b4bdce748d6e761efe08d4f2172f3613d48032415bfec2e80f5d279b02c2\",\n      \"seal_pin\": \"15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/FIRST_RUN_TRANSCRIPT.txt\",\n      \"bytes\": 2592,\n      \"sha256\": \"79434f30e0fd7cf3eba3066060ae47bccf88f94869f7a74a7672b33041191dad\",\n      \"seal_pin\": \"15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/MINOR_LOCUS_OUTPUT.txt\",\n      \"bytes\": 821,\n      \"sha256\": \"2408444ad94a98ea2c9514c6609477abccb7858f3cac9d7e12a083f40e44c84b\",\n      \"seal_pin\": \"15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/verify.py\",\n      \"bytes\": 5279,\n      \"sha256\": \"d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926\",\n      \"seal_pin\": \"15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd\"\n    },\n    {\n      \"path\": \"reports/projective_cusp_spectrum_2026_09_21/test_verify.py\",\n      \"bytes\": 4976,\n      \"sha256\": \"acc2926798919ba91306b71df98b5fbd185aefef6e0311c73bd558cccba2d391\",\n      \"seal_pin\": \"15c32b3c4e6dcdd7c56ac45ba4ac437cedac6dfd\"\n    }\n  ],\n  \"scope\": \"Unchanged incoming source custody before reuse, not independent proof\"\n}\n"
+    },
+    "original_tests": {
+      "raw_basename": "oa_r43_f11_original_first",
+      "raw_receipt_sha256": "83eea846dfd08f287174a77724d93087f9b162e0f4b35776c4efc2c73e9262c9",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--import-mode=importlib",
+          "--tb=short",
+          "reports/projective_cusp_spectrum_2026_09_21/test_verify.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 116.50303699995857,
+        "log_bytes": 1429,
+        "log_sha256": "8bc95e8992030a932c0a4f915d1752b7cc61d043eec841b9c1735ad1a3001409"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/FORK_F11_ORIGINAL_REUSE_2026_09_22.txt",
+      "public_sha256": "8bc95e8992030a932c0a4f915d1752b7cc61d043eec841b9c1735ad1a3001409"
+    },
+    "corrected_tests": {
+      "raw_basename": "oa_r43_f11_corrected_first",
+      "raw_receipt_sha256": "41d8b77282c697923a7e147e7c64bdbdd6c0bebe12408ac2f5f5bfb3b99c82d6",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "OPENBLAS_NUM_THREADS=1",
+          "OMP_NUM_THREADS=1",
+          "<python3.12-env>/bin/python3.12",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:randomly",
+          "-p",
+          "no:cacheprovider",
+          "--import-mode=importlib",
+          "--tb=short",
+          "reports/projective_cusp_spectrum_2026_09_21/test_verify_v2.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 425.00777100003324,
+        "log_bytes": 111,
+        "log_sha256": "e746547a419bde9c963b4757b756b8d3fb4afb3dd58ed01402e6bb5f05d779cf"
+      },
+      "public_path": "reports/physical_bridge_2026_09_05/FORK_F11_CORRECTED_REUSE_2026_09_22.txt",
+      "public_sha256": "e746547a419bde9c963b4757b756b8d3fb4afb3dd58ed01402e6bb5f05d779cf"
+    },
+    "broad_prior": {
+      "raw_basename": "oa_r43_ballas_long_prior_first",
+      "raw_receipt_sha256": "07e44c506753bcbd5b6b3af3ce1fc6146ea02cc38e5cde0f31e3904b5fe8d668",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "Ballas Long thin convex"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 1.3618160000187345,
+        "log_bytes": 3585,
+        "log_sha256": "deae61fbd2c7467b5a537a5872dac2456221630326b23804a9976a8f38434d36"
+      },
+      "raw_log_with_environment_redaction": "already-banked: terms ['ballas', 'long', 'thin', 'convex']\n  247 corpus hits; 43 SETTLED arcs matching >= 2 of 4 terms\n  *** [ 2 terms] PROVED    B1000_input_count\n           THE EXTERNAL INPUTS CLOSE ON B717-S FOUR SECTORS, BUT CHARGE NEEDS TWO CLOSINGS. Prereg 7e920329 sealed AND PUSHED before compute with the declared prior OUTCOME B, specifically greater than four, i.e. this cell was EXPE\n  *** [ 2 terms] PROVED    B1002_conductor_reconciled\n           B997-S OWED CHECK DISCHARGED: THE CONDUCTOR IDENTIFICATION IS RIGHT, AND CONDUCTOR NAMES TWO THINGS. B997 proved the golden is the UNIQUE metallic grammar whose own-conductor shadow group is a McKay group, conditional on\n  *** [ 2 terms] PROVED    B1004_ssb_leak\n           THE RETRACTED SSB CLAUSE WAS STILL LIVE IN FIVE PLACES, AND THE GATE THAT SHOULD HAVE CAUGHT IT WAS TOLD NOT TO. Found by the B500-B800 sweep (the owner-s instruction: that band had never been examined). THE BAND MEASURE\n  *** [ 2 terms] PROVED    B1009_verification_pass\n           THE VERIFICATION PASS: 4 OF 5 CONFIRMED, 1 SCOPE OVERREACH WITHDRAWN FROM FIVE READER-FACING DOCS, 1 INCOMING cc3 CLAIM REFUSED. A fresh seat audited the seat that banked B1007/B1008 and Review 42, under verify-don-t-tru\n  *** [ 2 terms] PROVED    B1010_consolidation_loss\n           THE CONSOLIDATION-LOSS AUDIT, FIRST PASS: THE OWNER WAS RIGHT, AND THE BIGGEST LOSS IS THE MATTER FACE. The owner's suspicion -- 'I think we lost one of the most important laws we got, exactly regarding matter' -- is CON\n  *** [ 2 terms] PROVED    B1025_input_derivability\n           L155, THE INPUT-DERIVABILITY AUDIT: THREE SURVIVE, TWO NARROW -- AND THE 'LIE-VALUED INPUT' DISSOLVES INTO UNIQUE LINES. Sealed 8def4962 with per-input priors; the sigma-pattern run against every counted input; every joi\n  *** [ 2 terms] PROVED    B1035_receipts_and_register\n           THE TWO HELD RECEIPTS UNBLOCKED AND VERIFIED (a day's hold on evidence that was pushed, byte-stable, on both remotes the whole time -- the point-of-use retrieval defect at its most expensive; located by the audit seat's \n  *** [ 2 terms] PROVED    B1039_v_valued_residual\n           THE V-VALUED RESIDUAL (L157-1, sealed 874d9eee pre-compute): EXISTENCE NO, PRIOR HELD -- all fifteen symmetric pairs of the double's five classes, on both sides and in the MV difference, are EXACTLY ZERO under the functi\n  *** [ 2 terms] PROVED    B1062_bridge_cell\n           CORRECTED 2026-09-02 (B1237): silver is ARITHMETIC (invariant trace field ℚ(i)); the V2 axis separates {golden, silver} from {bronze}; the degree statement survives. ORIGINAL CLAIM AS ASSERTED: THE BRIDGE CELL (sealed ad\n  *** [ 2 terms] PROVED    B1077_intrinsic_split\n           THE INTRINSIC LAYER IS SPLIT (the physics-first probe pair; both cells' adversarial verifiers HOLD on full independent rebuilds): from B904's bare norm form alone — Witt index 4 confirmed by exact diagonalization — the e\n  *** [ 2 terms] PROVED    B1081_hydrogen_audit\n           THE HYDROGEN AUDIT (the inverse chain run as computation; verifier HOLDS after its own deep rebuild from the E6 roots, grading the cell's shallower pass honestly): hydrogen's structural skeleton sits fully inside forced-\n  *** [ 2 terms] NEGATIVE  B1140_the_64_organized\n           THE 64 ORGANIZED (cloud seat's twenty-seventh memo, the finale of its loop; golden_gate head 449ece8, on no shared remote; verified TWO-BENCH, own code, slot-independent, no discrepancy). B1134's relay -- 'the 64 fixed d\n\n  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.\n"
+    },
+    "specific_prior": {
+      "raw_basename": "oa_r43_ballas_specific_prior_first",
+      "raw_receipt_sha256": "e6eab16338a7072d731259eecdcab0a0a11761928e3fb98a3864b1a85a26aaf3",
+      "receipt": {
+        "command": [
+          "env",
+          "PYTHONDONTWRITEBYTECODE=1",
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "Ballas Thistlethwaite projective"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.338311999978032,
+        "log_bytes": 3365,
+        "log_sha256": "e6f17c4d687c7429d44a631c977339879d7cbbec99a01a7b012afb127e108ad3"
+      },
+      "raw_log_with_environment_redaction": "already-banked: terms ['ballas', 'thistlethwaite', 'projective']\n  20 corpus hits; 0 SETTLED arcs matching >= 2 of 3 terms\n      [ 2 terms] FINDINGS  frontier/B199_metallic_exponent_law/FINDINGS.md\n           # B199 — the metallic exponent: no closed-form law; the clean exponent is a *sublocus*; SL(5) exact-symbolic exhausted \n  *** [ 1 terms] PROVED    B1070_listener_derivation\n           THE LISTENER DERIVATION (Track A of L166; 3 compute + 3 adversarial verifiers, every attack failed): the banked listener pair u3/u6 is DERIVED, not conventional -- on CP^1_odd the projective action of the instrument is t\n  *** [ 1 terms] PROVED    B1071_sealed_listener\n           THE SEALED LISTENER (sealed 2026-08-19 pre-compute; three independent re-implementations, no code reuse from the exploration cell, 0 errors): ALL THREE CLAIMS HOLD — C1 the orbit backbone (projective image exactly 60 wit\n  *** [ 1 terms] PROVED    B1072_silver_instrument\n           THE SILVER INSTRUMENT (5 agents, both adversarial lenses HOLD, the build re-derived 41/41 before use): SU(4)_2 built exactly — 10 primaries, kappa = 6, Sigma.Sigma-dagger = 864 I = 4*6^3 (the silver instance of the golde\n  *** [ 1 terms] PROVED    B1092_purity_selector\n           THE PURITY SELECTOR (L168, own-code exact re-derivation): on so(10)'s 16 built from verified CAR bilinears (closure 990/990, rank 5 self-centralizing, D5 roots exact, PARITY CONTROL constant -- the single-chiral-half che\n  *** [ 1 terms] PROVED    B1112_projective_hatch\n           THE PROJECTIVE HATCH (the owner's spin-structure catch + outside-bench computation + this bench's 20-strata completion, three-way convergence): the object's canonical holonomy is PSL(2,C); the SL(2,C) lift is a spin-stru\n  *** [ 1 terms] PROVED    B1115_spending_order\n           THE SPENDING ORDER (SPENDING_ORDER.md harvest; synthesis of banked facts + B1114's two verified computations): the free-bit spendings carry a FORCED definitional-dependency DAG -- D0 rule (B1083) -> D1 double-tick/orient\n  *** [ 1 terms] PROVED    B1122_liftbit_meter\n           L179 THE LIFT-BIT METER (a thesis cell, clean NEGATIVE): does the t-meter mechanism (free-of-one = forced-of-pair, B1113) extend to the spin lift bit (B1112)? PAIR-INVISIBLE -- NO. The lift's entire content is the sign o\n  *** [ 1 terms] PROVED    B1146_seam_b\n           SEAM-B (own-bench, exact; first of the three sealed seams, THREE_SEAMS_PREREG sha256 e699ebc79c06a823): the 2T-vs-A4 distinction is the object's own -I (the 2T center), visible on BOTH the 27 and the 78 for the object's \n  *** [ 1 terms] PROVED    B1147_clane_harvest\n           THE C-LANE HARVEST: the cloud seat's memos 30-40 (Campaigns A/B/C continuation, origin/outside-bench dc937010) verified by REPRODUCTION -- all 11 self-contained certificates re-run on this bench's pyenv reproduce their c\n      [ 1 terms] OPEN      B29_hierarchy_normalization_controls\n           The Lucas hierarchy and its normalization are exact; the projective half-return selector itself remains underived.\n  *** [ 1 terms] NEGATIVE  B31_primitive_projective_return_selector\n           Projective period-3 return holds for every c, so primitive return alone selects no invariant surface without the extra A-sector matching rule.\n\n  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).\n"
+    },
+    "fetch_all": {
+      "raw_basename": "oa_r43_fetch_all_20260923_first",
+      "raw_receipt_sha256": "7df4e5d1989c16b767a05d6ccf1a10c2e2f3d38b945bf052695b1f0043aa668a",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "fetch",
+          "origin",
+          "+refs/heads/*:refs/remotes/origin/*",
+          "--tags"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6671889999997802,
+        "log_bytes": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "raw_log_with_environment_redaction": ""
+    }
+  },
+  "failed_ids": [
+    "FAILED reports/projective_cusp_spectrum_2026_09_21/test_verify.py::test_every_positive_rank_exception_is_geometric[phase1]",
+    "FAILED reports/projective_cusp_spectrum_2026_09_21/test_verify.py::test_every_positive_rank_exception_is_geometric[phase2]",
+    "FAILED reports/projective_cusp_spectrum_2026_09_21/test_verify.py::test_every_positive_rank_exception_is_geometric[phase3]"
+  ],
+  "original": {
+    "passed": 27,
+    "failed": 3
+  },
+  "corrected": {
+    "passed": 40,
+    "failed": 0
+  },
+  "redactions": "Only machine-local runtime/raw/repository path prefixes; raw files and their hashes remain unchanged",
+  "administrative_notes": [
+    "Initial shasum invocation failed before output because the inherited C.UTF-8 locale is unavailable; LC_ALL=C successor succeeded. No science or bytes changed.",
+    "A broad keyword query returns incidental long/thin matches; neither query licenses a whole-corpus absence or novelty claim.",
+    "Initial report assembly used the workspace parent instead of the repository root. The subsequent surface patch failed before changing tracked files. Only the five newly authored, unexecuted report/receipt files were relocated into the repository with apply_patch; no sealed science or pre-existing user file changed."
+  ]
+}

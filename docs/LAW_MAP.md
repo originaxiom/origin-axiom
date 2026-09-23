@@ -1,5 +1,14 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+R43 reception note, September 23: the exceptional F11 cohomology
+classes reproduce under unchanged code; the original false expectation
+also reproduces. Ballas-Long's Theorem 3.3 is external all-positive
+proper-convexity prior, with appendix parameter v=2t=q, not a new
+object-derived law. Neither that theorem nor F11's hyperbolic-base
+L2 argument establishes the canonical-metric spectrum. Reading,
+custody and exact scopes:
+reports/physical_bridge_2026_09_05/PROJECTIVE_MODE_RECEPTION.md.
+
 September 20 prior-result reconciliation: B274's principal E6 smoothness
 is retained as a KNOWN-framework application, not a new object-derived
 law. For complete finite-volume orientable hyperbolic cores with t torus

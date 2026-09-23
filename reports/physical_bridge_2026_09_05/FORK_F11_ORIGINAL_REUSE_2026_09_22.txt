@@ -1,0 +1,19 @@
+.....................FFF......                                           [100%]
+=================================== FAILURES ===================================
+___________ test_every_positive_rank_exception_is_geometric[phase1] ____________
+reports/projective_cusp_spectrum_2026_09_21/test_verify.py:114: in test_every_positive_rank_exception_is_geometric
+    assert j['positive_roots'] in (0,1)
+E   assert 2 in (0, 1)
+___________ test_every_positive_rank_exception_is_geometric[phase2] ____________
+reports/projective_cusp_spectrum_2026_09_21/test_verify.py:114: in test_every_positive_rank_exception_is_geometric
+    assert j['positive_roots'] in (0,1)
+E   assert 2 in (0, 1)
+___________ test_every_positive_rank_exception_is_geometric[phase3] ____________
+reports/projective_cusp_spectrum_2026_09_21/test_verify.py:114: in test_every_positive_rank_exception_is_geometric
+    assert j['positive_roots'] in (0,1)
+E   assert 2 in (0, 1)
+=========================== short test summary info ============================
+FAILED reports/projective_cusp_spectrum_2026_09_21/test_verify.py::test_every_positive_rank_exception_is_geometric[phase1]
+FAILED reports/projective_cusp_spectrum_2026_09_21/test_verify.py::test_every_positive_rank_exception_is_geometric[phase2]
+FAILED reports/projective_cusp_spectrum_2026_09_21/test_verify.py::test_every_positive_rank_exception_is_geometric[phase3]
+3 failed, 27 passed in 114.95s (0:01:54)

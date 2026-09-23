@@ -16,6 +16,14 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 23 R43 sharpens, rather than replaces, the R42 priority:
+exceptional paired modes reproduce on the old hyperbolic base, while
+published proper convexity covers their parameter range. Next certify
+the marked finite-volume end and the mode/domain comparison on the
+actual canonical base, keeping these as two separate duties. No new
+profile scan, universal vanishing claim or physical chirality follows.
+See reports/physical_bridge_2026_09_05/PROJECTIVE_MODE_RECEPTION.md.
+
 Physical-bridge lane, September 22 (path-local R42, not a shared rung
 closure): the complete canonical projective-metric background addresses
 the previously registered admissibility duty. The metric changes from

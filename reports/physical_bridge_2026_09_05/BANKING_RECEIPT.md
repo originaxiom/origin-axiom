@@ -1,5 +1,20 @@
 # CC's banking relay read before the next local checkpoint
 
+September 23 R43: [projective-mode reception](PROJECTIVE_MODE_RECEPTION.md).
+The pinned unchanged F11 original and corrected tests give 27 pass/
+three expected-prior failures and 40 pass, respectively. Twelve incoming
+seal entries were matched against source commits and the execution
+snapshot BEFORE reuse. The full original analytic argument was read;
+the computational grade remains same-implementation reuse, not an
+independent global proof. The Ballas-Long all-positive result is received
+with its literal parameter map, not invented as a new object-derived law.
+Finite-volume/end control and the canonical-metric mode/domain join
+remain registered. R42 is still the latest original scientific execution.
+No new science seal, B allocation, main merge or full-suite-green claim.
+Current custody and governance outcomes are recorded separately in
+[the reporting checks](PROJECTIVE_MODE_RECEPTION_FINAL_CHECKS.txt).
+Earlier dated entries below are historical receipts.
+
 September 21 R41: [actual-coefficient source balance](CURRENT_BALANCE.md).
 Seal 75c6873819c14e4781e81df91c307fda02ed884a was pushed and server-confirmed
 before first execution. Six scientific files are unchanged; 35 input
