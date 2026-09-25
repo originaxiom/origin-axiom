@@ -16,6 +16,17 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 25 R44 supplies the canonical-metric defining-sector join at
+authored-proof grade: finite-energy background and exceptional paired
+H1 modes now share one positive complete specification. Next test the
+FULL parent roster and zero-weight end operator/domain; the defining-
+four contraction does not cover neutral sectors. Reassess q kinetics
+on this metric, without transferring F11's old-base divergence. Only
+then spend these modes on normalized same-action interactions and a
+physical chirality mechanism. Preserve the distinct R40/R41 source route.
+See reports/physical_bridge_2026_09_05/CANONICAL_CUSP.md. The earlier
+ordering checkpoints below retain their dates and are not current gaps.
+
 September 23 R43 sharpens, rather than replaces, the R42 priority:
 exceptional paired modes reproduce on the old hyperbolic base, while
 published proper convexity covers their parameter range. Next certify

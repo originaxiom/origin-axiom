@@ -1,5 +1,18 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+September 25, path-local R44: the same-background defining/dual mode
+join is supplied by an authored proof with explicit external topology
+and geometry inputs; 17 new finite controls pass, not an independent
+analytic certificate. The next PB-DOMAIN duty is the FULL chosen
+parent, particularly zero longitude weights and gauge/neutral modes.
+PB-ACTION keeps base/parameter selection and the q-deformation's actual
+canonical-metric kinetic norm separate. Paired H1 is not net chirality;
+same-action interactions, source/end completion and quantum consistency
+remain. Do not rerun the exceptional rank census or import a fixed-
+hyperbolic-base norm conclusion. R40/R41's separate route is retained.
+See reports/physical_bridge_2026_09_05/CANONICAL_CUSP.md. The R43
+preparation duties below are historical and are advanced by that result.
+
 September 23, path-local R43: the exceptional central-twist one/one
 counts reproduce, including the original failed vanishing expectation.
 The published all-positive proper-convexity theorem is received with
@@ -3315,3 +3328,24 @@ Verify its exact packet and analytic end hypotheses before using it;
 global background existence and the Blaschke/fixed-base distinction
 remain separate. Received at FINDINGS level on September 22, not
 reproduced or banked as an independent result by this lane.
+
+
+### PB-DOMAIN / PB-ACTION, September 25: after R44's same-background join
+
+Disposition of the September 22--23 duties: the canonical defining/dual
+end, finite volume and complete H1 comparison are supplied at authored-
+proof grade in reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md.
+The published/cited theorem inputs and the absence of independent proof
+review remain explicit. Seventeen finite tests pass; that is not a
+certificate for the global argument.
+
+NEXT, in order: inventory/reuse the full chosen parent decomposition;
+identify every zero longitude weight and derive its actual end operator
+and domain; derive the unbroken gauge algebra and full relevant modes.
+Do not apply the defining-four inverse to a zero-weight subspace.
+Separately check q-deformation and base variations in THIS kinetic
+norm, then compute normalized whole-mode vertices from the SAME action.
+The fixed-hyperbolic-base q divergence is not imported as an answer.
+No parameter or central-character selection, physical chirality,
+source/end quantum completion, gravity or TOE closure. The separate
+R40/R41 noncentral-source duty survives unchanged.

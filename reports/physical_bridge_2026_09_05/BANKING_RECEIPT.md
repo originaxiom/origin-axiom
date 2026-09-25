@@ -1,5 +1,17 @@
 # CC's banking relay read before the next local checkpoint
 
+September 25 R44: [canonical cusp and mode join](CANONICAL_CUSP.md).
+Six scientific files were sealed in f52629a8, pushed and server-confirmed
+before execution; none changed afterward. Native controls pass, 17 new
+tests pass, three-file focused run gives 46 pass/one unchanged R42 failed
+ID. Proof grade is authored with explicit external topology/geometry
+inputs, not independent analytic acceptance or physical chirality.
+No shared B/I allocation, main merge or full-suite-green claim. Initial
+governance gives 26 passes/four historical failing categories, including
+41 aged relay debts. The failed first SSH fetch and successful HTTPS
+retry are both preserved. [Receipt checker](canonical_cusp_receipt_check.rb).
+The R43 next-duty status below is historical and is advanced by R44.
+
 September 23 R43: [projective-mode reception](PROJECTIVE_MODE_RECEPTION.md).
 The pinned unchanged F11 original and corrected tests give 27 pass/
 three expected-prior failures and 40 pass, respectively. Twelve incoming

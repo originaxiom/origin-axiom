@@ -1,0 +1,56 @@
+R44 reporting checks, September 25, 2026.
+Path-local reporting, not independent main-bank acceptance or full-suite green.
+
+Scientific seal: f52629a87046e1e206d84ce438c4b36df4dd70b7.
+All six scientific paths remain byte-identical to their pre-execution seal.
+New science: 17 passed. Preregistered three-file regression: 46 passed,
+one retained R42 structural-comparison failure. Its separately sealed V2
+controls pass again. No additional science execution during this report pass.
+
+The full first-run records are in CANONICAL_CUSP_RECEIPTS.json and the
+linked byte-faithful public transcripts. The raw captures named below
+are retained with their paired JSON receipts in the existing raw directory.
+
+oa_r44_report_custody_final
+exit: 0
+log_sha256: 4c3d8636cdbb2fae769854bf625d407596e01a45e8f31c9661bb19bdd27a7d48
+6 sealed science paths, 10 frozen inputs, 3 incoming source paths,
+7 primary artifacts, 6 prior captures, 8 runs and 4 report-audit runs agree.
+
+oa_r44_previous_custody_final
+exit: 0
+log_sha256: d5e6f20414e682a976f691e67615e55b916b25754856169f93f2a25fadb0d934
+Prior R43 custody remains intact: original incoming 27 pass/3 failures,
+corrected incoming 40 pass. No incoming failure transcript was overwritten.
+
+oa_r44_report_cumulative_first
+exit: 1
+log_sha256: a776302b632ee85e1c4f816f3e2e60898d39fec8440f813f268cbc0b2bc6fdbe
+Artifact differs: reports/physical_bridge_2026_09_05/GOAL_VERDICT.md
+Cause: duplicate-anchor patch placed new hashes before older rows; the
+latest-row rule correctly continued to use the old hash. This failed run
+is retained. Correction appended the current metadata hashes at EOF;
+no old hash row, scientific file, test, or transcript was rewritten.
+
+oa_r44_report_cumulative_corrected
+exit: 0
+log_sha256: 8e0ab256a7968ec77a8c9f57438dae05804702a848422ea2a781e74ac2e17495
+700 artifact paths, 186 latest distinct seals, 308 relative Markdown
+links agree before addition of this reporting note. Older failure
+populations, capture custody and history population remain unchanged.
+
+oa_r44_report_gates_first
+exit: 1
+log_sha256: 9378430e638bd6012f5576148a31f579d49a75952d1b89814cf92885fb5a8c2d
+26 PASS; four pre-existing failing categories: attribution, test-vacuity,
+seal-provenance, relay-debt. Relay debt has aged to 41 stale items;
+review is due at 201 merges. Printed inventories are preserved in the
+receipts. No failing category was waived or represented as green.
+
+oa_r44_report_whitespace_first
+exit: 0
+log_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+Fresh read-only cumulative, governance and staged-whitespace checks
+follow this reporting-only addition. They are custody checks, not
+independent proof review or a second scientific run.

@@ -1,6 +1,22 @@
 # Physical bridge audit — 2026-09-05
 
-**Latest reception, R43 (September 23): exceptional modes retained.**
+**Latest local result, R44 (September 25): the same-background mode join.**
+The authored cusp/core/metric argument puts the received exceptional
+one/one H1 modes on R42's SAME complete finite-energy canonical
+background. The actual end has a shrinking meridian and nonshrinking
+longitude; the full-complex homotopy is bounded, not decaying.
+All 17 new controls pass. Three-file focused regression: 46 pass/one
+unchanged R42 Ricci-comparison failure. Six scientific files were
+sealed, pushed and server-confirmed before execution.
+External global/core/continuity inputs remain explicit; finite tests
+are not independent proof acceptance. No compact-resolvent, full-parent
+spectrum, net chirality or physical TOE claim.
+Next: the full parent roster and zero-weight end/domain analysis;
+check parameter kinetics on this metric, not the old hyperbolic one.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_CUSP.md.
+Earlier dated entries below are historical checkpoints.
+
+**Previous reception, R43 (September 23): exceptional modes retained.**
 The pinned F11 original rerun reproduces 27 passes/three failed
 expectations; its separately sealed correction gives 40 passes.
 The exceptional one/one dual-sector counts are retained in F11's
@@ -12,7 +28,7 @@ This is unchanged-implementation reuse and personal source review,
 not independent analytic certification or derived physical chirality.
 Next: test that SAME-background mode/domain join; preserve R40/R41.
 Report: reports/physical_bridge_2026_09_05/PROJECTIVE_MODE_RECEPTION.md.
-R42 below remains the latest original scientific execution.
+At that checkpoint R42 was the latest original scientific execution.
 
 **Previous original result, R42 (September 21; report September 22): canonical projective background.**
 The chosen properly convex structure supplies a complete Blaschke base

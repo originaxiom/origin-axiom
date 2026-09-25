@@ -6,6 +6,11 @@ This is a compatibility/input audit of the cited models, not a new
 index theorem, a census of every repository branch, or a claim that
 the entire programme lacks a construction. No shared B is allocated.
 
+Latest extension September 25: section 13 records R44's authored
+same-background defining-sector join. Earlier dated unchecked duties
+are historical where that section explicitly discharges them; the
+full physical common-model conjunction remains incomplete.
+
 ## 1. Keep the successes, test the joins
 
 The current conjunction is NOT established merely by collecting the
@@ -360,3 +365,33 @@ return the chirality work to the registered noncentral source/end route.
 The proposed concrete next comparison is recorded in
 [the unsealed working note](CONVEX_CUSP_MODE_WORKING_2026_09_23.md).
 No proof, producer or test has been executed for that proposal.
+
+## 13. R44 joins the defining modes to the canonical background
+
+- [x] Supply an all-q!=1 two-sided cusp bound from the actual matrices,
+  an embedded proper end and an authored relative-core compactness
+  argument, using the explicit standard external theorem inputs.
+- [x] Compare both canonical base and coefficient norms by the actual
+  product-cone limit; establish finite volume and reuse R42's finite
+  Higgs norm on the same global specification.
+- [x] Bound the full radially compatible homotopy and complete domains;
+  identify defining/dual L2 with compactly supported and ordinary
+  cohomology. Receive the already checked exceptional one/one ranks.
+- [ ] Independently audit that global argument, especially the core
+  reduction and norm/domain comparisons. Finite tests are not this audit.
+- [ ] Derive the FULL selected parent roster's gauge algebra and modes
+  on this same background. The zero-longitude-weight sector lies outside
+  this inverse estimate and cannot be omitted.
+- [ ] Check the actual q-variation's coupled field/base kinetic norm and
+  selection law. The old hyperbolic norm divergence is not its answer;
+  finite end volume alone is not a modulus theorem either.
+- [ ] Evaluate normalized vertices from the SAME action and whole mode
+  spaces before invoking selective mirror removal. Keep the noncentral
+  source/end alternative, anomalies and quantum phase duties explicit.
+
+[R44 report](CANONICAL_CUSP.md): all 17 new finite tests pass; the
+three-file direct-dependency regression gives 46 pass/one unchanged
+R42 Ricci comparison failure. Six scientific files were sealed and
+server-confirmed before execution. No compact-resolvent claim, full
+parent census, physical chirality, gravity or completed TOE is made.
+The old nonsplit/source model is not merged into this different family.

@@ -15338,3 +15338,27 @@ comparison, including boundedness of the longitude contraction.
 R40/R41's source route and all earlier positives stay separate.
 No new original science, shared B, main-bank acceptance or TOE closure.
 Report: reports/physical_bridge_2026_09_05/PROJECTIVE_MODE_RECEPTION.md.
+
+## 2026-09-25 - R44 joins exceptional paired modes to the canonical background
+
+An authored all-q!=1 cusp/core/norm argument puts the already received
+exceptional defining/dual H1 classes on R42's SAME complete positive
+finite-energy background. The meridian shrinks, the longitude does not;
+a bounded full-complex homotopy gives the L2/compact/ordinary comparison
+without claiming compact resolvent. External proper-convexity, Margulis,
+jet-continuity and relative-core inputs remain explicit; the original
+McCullough proof was inaccessible and is not claimed personally verified.
+
+Six scientific files were sealed in f52629a8, pushed and server-confirmed
+before execution. Native controls and all 17 new tests pass. Three-file
+focused regression: 46 pass/one unchanged R42 Ricci-comparison failure;
+its separately sealed correction passes again. No changed scientific
+file, new shared B, independent main-bank acceptance or full green.
+Both the failed SSH fetch and successful HTTPS retry are retained.
+
+This is progress in SAME-MODEL compatibility, not net chirality.
+Next: full-parent/zero-weight gauge and mode domains, q kinetics on the
+actual canonical metric, and normalized same-action interactions.
+R40/R41's distinct nonsplit/source route, quantum anomalies, gravity
+and empirical obligations remain. No complete physical TOE is claimed.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_CUSP.md.

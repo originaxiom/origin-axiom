@@ -1,5 +1,12 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+R44, September 25: the canonical type-one cusp/core/domain application
+is registered at the end of this file with its actual locks and explicit
+external inputs. It places the received exceptional paired modes on the
+same finite-energy background at AUTHORED-proof grade. No independently
+accepted main-bank law, full-parent spectrum or physical chirality.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_CUSP.md.
+
 R43 reception note, September 23: the exceptional F11 cohomology
 classes reproduce under unchanged code; the original false expectation
 also reproduces. Ballas-Long's Theorem 3.3 is external all-positive
@@ -606,3 +613,17 @@ controls do not independently certify the all-dimensional analytic proof.
 | Finite volume pays the defining Higgs norm on the Blaschke base | Under the same proper convex hypotheses, norm(Psi)^2=2n+norm(C)^2. Pointed-domain compactness plus all-jet continuity bounds the cubic norm; Hilbert/Blaschke volume comparison makes the total norm finite. No sharp numeric bound, fixed-hyperbolic-base rescue, physical scale or residual-action identification. | B1138 parent context only; credited Benoist-Hulin inputs and authored argument in reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md section 3; tests/test_physical_bridge_affine_background.py::test_simplex_explicit_immersion_volume_and_nonzero_cubic; the global compactness argument is not certified by finite tests |
 | Internal affine curvature is not yet four-dimensional gravity | With the declared curvature/cubic signs, Ric_h=tr(Psi_X Psi_Y)-(n+1)h. The original structural Ricci comparison failed; separately sealed canonical-polynomial and wrong-sign controls establish its exact n=3 identity without altering that failed test. No Lorentzian Einstein equation or cosmological value derived. | B1138 supplied model context only; reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md section 5; tests/test_physical_bridge_affine_ricci_control_v2.py::test_same_generic_ricci_identity_as_canonical_and_polynomial_zero; tests/test_physical_bridge_affine_ricci_control_v2.py::test_wrong_constant_curvature_sign_is_detected |
 | The finite-energy escape changes the metric class at the end | For the actual nearby Ballas q!=1 structures, F10's every-coefficient-metric divergence on fixed hyperbolic g0 coexists with finite energy on h_q. Uniform global equivalence of h_q and g0 would contradict norm/volume comparison, so is excluded under these hypotheses. Ordinary cohomology equality remains; physical L2 spectrum is a new domain problem. | B1138/B1420 prior model/pairing context, not this metric theorem; F10's personally read fixed-base proof and authored comparison in reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md section 5; tests/test_physical_bridge_affine_background.py::test_actual_longitude_pairing_and_torus_formulas controls holonomy, not the analytic comparison |
+
+### R44 canonical cusp/domain consequences, September 25
+
+Path-local authored theorem applications, not a new shared B, empirical
+prediction or independently accepted main-bank law. The proof cites
+Ballas--Long, Ballas, Benoist--Hulin and the relative compact-core theorem.
+Finite controls do not certify the infinite-domain/topological steps.
+
+| law | scoped result | source and check |
+|---|---|---|
+| Actual type-one peripheral dynamics control the global end | For the positive real Ballas--Long family at q!=1, any invariant proper convex domain is between two model epigraphs. The authored Margulis/relative-core argument gives a compact complement and finite volume; it uses the figure-eight group and external core theorem, not all convex quotients. | B1138 supplied parent context only, not this geometry; reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md sections 1--4; tests/test_physical_bridge_canonical_cusp.py::test_literal_peripheral_conjugacy_and_projector; the global/core steps are authored, not finite-test certified |
+| Canonical type-one norms have a product-cone limit | Actual domain sandwich plus determinant-one scaling and external all-jet continuity gives h asymp dR^2/R^2+dx^2/R+dt^2, volume density asymp R^(-3/2), and bounded positive coefficient norms in the stated moving frame. No uniform q->1 claim. | B1138 supplied model context only; reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md section 4; tests/test_physical_bridge_canonical_cusp.py::test_product_affine_sphere_MA_and_positivity; tests/test_physical_bridge_canonical_cusp.py::test_base_scales_volume_and_nonshrinking_longitude |
+| Bounded full-end contraction is enough for the defining-sector Hodge join | At fixed q!=1, defining/dual bundles with unitary scalar twists have an all-frequency longitudinal inverse, radial commutation and bounded whole-complex homotopy. Authored complete-domain argument gives finite kernel, closed ranges and H_L2=H_c=H. Zero semisimple weights are not covered; compact resolvent is not asserted. | B1420 pairing antecedent only; R43 received F11 rank data, not this metric proof; reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md sections 5--6; tests/test_physical_bridge_canonical_cusp.py::test_fourier_inverse_both_sides_and_radial_commutator; tests/test_physical_bridge_canonical_cusp.py::test_whole_exterior_cartan_not_torus_only |
+| The received exceptional paired classes share the finite-energy background | Combining the above authored comparison with R42 and R43's unchanged exact F11 reproduction gives one/one H1 at q=17+/-12 sqrt(2), chi=-1, and q=7+/-4 sqrt(3), chi=+/-i. This is received cohomology plus a new norm join, not a new rank census, physical selection or chiral generations. | B1420 coefficient/pairing context only; reports/physical_bridge_2026_09_05/CANONICAL_CUSP.md; exact prior custody in PROJECTIVE_MODE_RECEPTION_RECEIPTS.json in that directory; finite locks above do not independently certify the analytic application |
