@@ -1,5 +1,13 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
+**Literature note, September 25:** a personal, explicitly partial reading of
+The God Particle is cross-checked against Wu, PDG and the two-component
+spinor review. It sharpens existing physical-model duties, corrects a
+printed electron/positron error, and credits R22's prior CPT safeguard.
+No new scientific result or chirality resolution is claimed. F18/F19's
+committed findings are received for coordination, not independently audited.
+[Reading and mission implications](GOD_PARTICLE_READING_2026_09_25.md).
+
 **Latest local result, R48 (September 25): canonical geometric pairing.**
 The conormal construction now supplies an actual self-isometry and a
 unitary complete-domain matter/dual map on the SAME canonical background,

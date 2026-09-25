@@ -1,0 +1,150 @@
+{
+  "kind": "Personal literature-reading receipt; not a scientific execution or new banked result",
+  "date": "2026-09-25",
+  "branch": "audit/physical-bridge-2026-09-05",
+  "own_scientific_report_commit": "bcc529b1e89f804d3233d6e7834421420480fb69",
+  "source_files": [
+    {
+      "id": "lederman_teresi",
+      "filename": "the-god-particle-if-the-universe-is-the-answer-what-is-the-question-illustrated-9780618711680-0618711686-2006009243_compress.pdf",
+      "source": "User-supplied local PDF; source and extracted text are not redistributed",
+      "bibliographic_version": "First Mariner edition 2006; main text copyright 1993, new preface copyright 2006; copyright page visually checked",
+      "bytes": 23066268,
+      "sha256": "f27e9e73da1dcc1bd1fb0a3986d150eb5c31de9ddf94b2daa68f34b86f453639",
+      "physical_pdf_pages": 451,
+      "complete_personal_text_reading": [
+        {
+          "section": "2006 preface",
+          "printed_pages": "ix-xi",
+          "pdf_pages_one_based": [
+            10,
+            12
+          ]
+        },
+        {
+          "section": "Chapter 1: The Invisible Soccer Ball",
+          "printed_pages": "1-24",
+          "pdf_pages_one_based": [
+            16,
+            39
+          ]
+        },
+        {
+          "section": "Interlude C: How We Violated Parity in a Weekend ... and Discovered God",
+          "printed_pages": "256-273",
+          "pdf_pages_one_based": [
+            271,
+            288
+          ]
+        },
+        {
+          "section": "Chapter 8: The God Particle at Last",
+          "printed_pages": "342-381",
+          "pdf_pages_one_based": [
+            357,
+            396
+          ]
+        }
+      ],
+      "identification_reading": "Title, copyright, contents and Dramatis Personae",
+      "selected_visual_inspection_pdf_pages_one_based": [
+        5,
+        273,
+        275,
+        276,
+        277,
+        359,
+        360,
+        386,
+        388,
+        389
+      ],
+      "scope_limit": "82 numbered main-text pages plus preface/front matter. Not the entire book; extraction is not reading. No complete visual inspection of all 82 pages is claimed."
+    },
+    {
+      "id": "wu_1957",
+      "filename": "wu_1957_aps.pdf",
+      "url": "https://journals.aps.org/pr/pdf/10.1103/PhysRev.105.1413",
+      "bibliographic_version": "C. S. Wu et al., Physical Review 105, 1413 (1957)",
+      "bytes": 276939,
+      "sha256": "9c60475c26871854c4a22cf81ff22c92dc68b62c07b5a547727b5d9825cb1fef",
+      "physical_pdf_pages": 3,
+      "reading": "Complete Wu article through final footnote on printed 1415; all three physical PDF pages visually inspected",
+      "scope_limit": "Neighboring articles in the scan not certified as fully read; no raw-data or statistical reanalysis"
+    },
+    {
+      "id": "pdg_higgs_2025",
+      "filename": "pdg_higgs_2025.pdf",
+      "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-higgs-boson.pdf",
+      "bibliographic_version": "Status of Higgs Boson Physics, revised August 2025",
+      "bytes": 5284508,
+      "sha256": "7a94228faa2bd277199de57428528d0ae280609320d4fe997d04876d77cf3407",
+      "physical_pdf_pages": 94,
+      "complete_personal_text_and_visual_reading_pdf_pages_one_based": [
+        4,
+        7
+      ],
+      "additional_reading": "Discovery discussion on page 3 in web text",
+      "scope_limit": "Not the complete review or a current global phenomenological fit"
+    },
+    {
+      "id": "dreiner_haber_martin",
+      "filename": "dreiner_haber_martin_0812_1594.pdf",
+      "url": "https://arxiv.org/pdf/0812.1594v6",
+      "bibliographic_version": "arXiv:0812.1594v6, May 24, 2022",
+      "bytes": 3021117,
+      "sha256": "53713b5328d1a4220576c2e3b7a916445c9f9855b8a461ca0e5c962881ba2f8b",
+      "physical_pdf_pages": 313,
+      "complete_personal_text_and_visual_reading_pdf_page_ranges_one_based": [
+        [
+          9,
+          11
+        ],
+        [
+          73,
+          74
+        ]
+      ],
+      "scope_limit": "Selected complete pages only; Table 5.1's massless-neutrino convention is stated, not imported as empirical truth"
+    }
+  ],
+  "incoming_seat_reading": {
+    "branch": "audit/fork-2026-09-20",
+    "commit": "a1bea7999d7b5d0a36ed60fc912655cd5141bf52",
+    "evidence_grade": "Complete committed FINDINGS read personally for coordination; new code, proofs and tests not independently audited or rerun here",
+    "pushed_status": "Not asserted",
+    "files": [
+      {
+        "path": "reports/projective_cyclic_pairing_2026_09_25/FINDINGS.md",
+        "bytes": 7802,
+        "sha256": "6a2fc5078f53bc654fbaf91e65a5a3492891fb9968a08eec281359545c685587"
+      },
+      {
+        "path": "reports/projective_full_parameter_2026_09_25/FINDINGS.md",
+        "bytes": 8360,
+        "sha256": "4a1bab5fcd1e93738a644944faf607b90ac1a7870ac8bdcbac2402b43376143d"
+      }
+    ],
+    "excluded": "Uncommitted parent_mirror_matching directory not treated as a completed result or modified"
+  },
+  "prior_own_work_recovered": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/GEOMETRIC_COMPLETION.md",
+      "scope": "R22 section 1's degree-two CPT counting safeguard"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/COMMON_MODEL_AUDIT_2026_09_20.md",
+      "scope": "Declared physical dictionary and input ledger"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md",
+      "scope": "R47 complete proof reread for next-task selection; no new execution"
+    }
+  ],
+  "epistemic_limits": [
+    "Book correction and methodological reading do not establish a repository chirality error or a new physical mechanism.",
+    "No sealed scientific files were edited and no new scientific computation was run for this note.",
+    "No shared B/I identifier, main-bank certification, full-suite green, independent proof review or TOE closure is asserted.",
+    "Other-seat fixed-hyperbolic metric claims are not silently transferred to the canonical metric."
+  ]
+}

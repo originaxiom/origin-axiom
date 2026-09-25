@@ -15491,3 +15491,28 @@ an earned symmetry hypothesis or supplies a consistent asymmetric phase.
 Keep R40/R41 and other coefficient/end/source routes. No all-class chirality
 closure, physical CP identification, measured constant, gravity or TOE claim.
 Report: reports/physical_bridge_2026_09_05/CANONICAL_DUALITY.md.
+
+## 2026-09-25 - The God Particle: personal reading and task coordination
+
+Own R48 report bcc529b1 was pushed and server-confirmed before this note.
+Personally read the complete 2006 preface, chapter 1, parity interlude C
+and chapter 8: 82 numbered main-text pages, not the complete 451-page PDF.
+Selected complete pages were visually checked. Wu's complete original
+article verifies a printed positron/electron error; selected complete
+PDG and spinor-review pages check the field/action/state distinctions.
+The source PDFs and extracted text are not redistributed.
+
+This is methodological reading, not a new chirality mechanism. R22 already
+owns the CPT-counting safeguard and the common-model ledger already prices
+the physical dictionary. No supposed duplicate discovery is banked.
+The other seat's complete F18/F19 FINDINGS at a1bea799 were read personally;
+their new proofs/code/tests were not independently audited or rerun here.
+Their fixed-hyperbolic-base results are not transferred to our canonical
+metric, and their uncommitted parent-matching work is not treated as a result.
+
+The division remains: actual parent-interaction matching there; canonical
+neutral regularity, nonlinear integration and selection here, with existing
+global review duties intact. No new science execution, amended executed
+source, B/I allocation, law, physical prediction or TOE claim. Reading
+ranges, hashes, incoming commit and remaining duties are recorded at
+reports/physical_bridge_2026_09_05/GOD_PARTICLE_READING_2026_09_25.md.

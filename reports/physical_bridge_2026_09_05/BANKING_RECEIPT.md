@@ -961,3 +961,18 @@ open-duty dispositions are updated. Source/end/phase alternatives remain.
 No shared B/I, main or codeberg push, other-seat edit, observed constant,
 physical CP/chirality or TOE closure. Historical governance failures and
 relay debts remain declared; the branch report is not a full banking pass.
+
+## September 25 - literature reading, no new scientific arc
+
+The God Particle note records a personal partial reading (82 numbered
+main-text pages plus preface/front matter), primary/technical cross-checks,
+source hashes and the exact committed F18/F19 findings read for coordination.
+It credits R22's existing CPT safeguard and does not upgrade the incoming
+reports to independently verified premises. Book/PDF/text copies remain
+outside the public repository. No executed scientific file is changed.
+
+README/FINDINGS point to the note and PROGRESS_LOG records the session.
+No new law, B/I number, negative verdict or physics claim is allocated;
+there is consequently no new scientific seal, test population or rung
+promotion. R48 remains the latest own result. This is a literature custody
+update, not a banking pass, full suite or independent scientific review.
