@@ -1,0 +1,110 @@
+{
+  "seal": "bd2a533e7f4e974fde88c5dbce13f475aa5854f9",
+  "parent": "6d7416375f38acb0d4a552a5f8e28b85418c6998",
+  "source_read_only_until_all_final_exits": true,
+  "runs": {
+    "F19_tests": {
+      "command": "python3.12 -m pytest -q reports/projective_full_parameter_2026_09_25/test_verify.py",
+      "output_file": "TEST_OUTPUT.txt",
+      "chunks": [
+        {
+          "chunk_id": "53a847",
+          "wall_time_seconds": 1.001997801,
+          "session_id": 46642,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "f006f4",
+          "wall_time_seconds": 0.000015036,
+          "exit_code": 0,
+          "original_token_count": 25
+        }
+      ]
+    },
+    "F19_witness": {
+      "command": "python3.12 -u reports/projective_full_parameter_2026_09_25/verify.py",
+      "output_file": "EXACT_WITNESSES.json",
+      "chunks": [
+        {
+          "chunk_id": "77d1ed",
+          "wall_time_seconds": 1.001752301,
+          "session_id": 48165,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "b1bbff",
+          "wall_time_seconds": 0.000014527,
+          "exit_code": 0,
+          "original_token_count": 597
+        }
+      ]
+    },
+    "F19_antecedents": {
+      "command": "python3.12 -m pytest -q reports/projective_global_metric_2026_09_21/test_verify.py reports/projective_cyclic_pairing_2026_09_25/test_verify.py",
+      "output_file": "ANTECEDENT_COLLECTION_ERROR.txt",
+      "chunks": [
+        {
+          "chunk_id": "17b1d3",
+          "wall_time_seconds": 1.002011879,
+          "session_id": 33331,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "fc8d9f",
+          "wall_time_seconds": 0.000011707,
+          "exit_code": 2,
+          "original_token_count": 226
+        }
+      ]
+    },
+    "F19_antecedent_F12": {
+      "command": "python3.12 -m pytest -q reports/projective_global_metric_2026_09_21/test_verify.py",
+      "output_file": "ANTECEDENT_F12_OUTPUT.txt",
+      "chunks": [
+        {
+          "chunk_id": "32c059",
+          "wall_time_seconds": 1.001698034,
+          "session_id": 35700,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "5cbb54",
+          "wall_time_seconds": 5.002165256,
+          "session_id": 35700,
+          "original_token_count": 1
+        },
+        {
+          "chunk_id": "6eef59",
+          "wall_time_seconds": 5.001839636,
+          "session_id": 35700,
+          "original_token_count": 1
+        },
+        {
+          "chunk_id": "99d892",
+          "wall_time_seconds": 0.000017331,
+          "exit_code": 0,
+          "original_token_count": 27
+        }
+      ]
+    },
+    "F19_antecedent_F18": {
+      "command": "python3.12 -m pytest -q reports/projective_cyclic_pairing_2026_09_25/test_verify.py",
+      "output_file": "ANTECEDENT_F18_OUTPUT.txt",
+      "chunks": [
+        {
+          "chunk_id": "ec959b",
+          "wall_time_seconds": 1.00195124,
+          "session_id": 31648,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "316e93",
+          "wall_time_seconds": 0.000019244,
+          "exit_code": 0,
+          "original_token_count": 25
+        }
+      ]
+    }
+  },
+  "regression_invocation_correction": "The combined F12/F18 command hit a duplicate-module-name collection error (exit 2). Both unchanged files were then run in separate processes; no scientific source correction or cache deletion."
+}

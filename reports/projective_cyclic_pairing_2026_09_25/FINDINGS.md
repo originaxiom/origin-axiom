@@ -136,3 +136,16 @@ then choose the next physical calculation by which actual hypothesis
 it changes. Object-selected inputs, chiral quantum dynamics, empirical
 predictions and gravity remain unachieved. No completed TOE, main bank,
 shared B number, push or external publication.
+
+## Follow-through: the parameter restriction is now addressed
+
+[F19](../projective_full_parameter_2026_09_25/FINDINGS.md) supplies the
+generic thetaT witness AND exact no-positive-zero/pole certificates
+for both maps, full word algebra and peripheral frame. With the authored
+analytic extension, the result above now holds for every real q>0,
+q!=1, at every cyclic degree and every mu4 character. This is a later
+extension, not a retroactive claim that F18 computed it. New all-q mode
+counts, mediator acyclicity, uniform limits and quantum phases remain
+outside that conclusion. F19's next physical check concerns deriving
+the actual low-energy interaction from the SAME parent, not repeating
+the now-structural cyclic/central-twist search.

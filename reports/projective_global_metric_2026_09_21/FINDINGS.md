@@ -180,3 +180,16 @@ attribution, not claimed new.
 [antecedent tests](ANTECEDENT_TEST_OUTPUT_REDACTED.txt), [receipt](RECHECKS.md).
 No scientific file changed after sealing. No subagents, main edit,
 shared B allocation, push, new all-head sweep or full-suite certificate.
+
+## Follow-through: full positive-parameter existence
+
+[F19](../projective_full_parameter_2026_09_25/FINDINGS.md) now verifies
+the fixed word-algebra determinant and finite peripheral frame for
+every real q>0, q!=1. The analytic proof here uses neither exceptional
+quadratic equation beyond that algebraic input. It therefore extends
+pointwise to this full domain, with F13 uniqueness in the specified end
+class. This is a later authored extension, not a new numerical PDE
+solution or a claim that every q supports the exceptional matter modes.
+The infinite hyperbolic Higgs norm, supplied physical inputs and q=1
+exclusion remain. F19 also carries the geometric pairing across this
+full family and all cyclic central-character covers.

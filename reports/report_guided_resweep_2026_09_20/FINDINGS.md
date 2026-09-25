@@ -529,6 +529,23 @@ are paired; a zero-momentum inverse has separate obligations. The next
 scope check is the generic-q inversion witness before excluding other
 parameters or deciding which different physical mechanism to pursue.
 
+[F19](../projective_full_parameter_2026_09_25/FINDINGS.md), September 25,
+completes that scope check for every real q>0, q!=1. Both polynomial
+inversion intertwiners and the full sixteen-word determinant are
+nonvanishing throughout the domain; the cusp frame's entry poles are
+checked separately from its determinant. The earlier authored harmonic
+completion/uniqueness proof now extends pointwise to the whole family,
+and F18 gives its pairing for all cyclic degrees and central mu4
+characters. Seven new and 24 unchanged tests pass; the original combined
+regression collection error is preserved. This does not count all-q
+matter or assume all mediator kernels vanish. It retains infinite
+Higgs norm on the fixed hyperbolic base and supplies no quantum phase.
+Next audit whether the adopted parent itself generates the phase-locking
+and number-changing interaction of the already known R33/R34 added-field
+model, before interpreting a scalar-block response as that effective
+operator or inventing a new mirror-selective coupling. No new all-head
+absence claim, independent analytic review or completed TOE follows.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

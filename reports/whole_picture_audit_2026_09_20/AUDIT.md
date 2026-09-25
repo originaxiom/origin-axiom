@@ -270,6 +270,23 @@ Other q values, noncyclic/noncentral data, sources and quantum phases
 are not excluded. Next check the generic-q witness before broadening
 the family claim, then prioritize an actual changed physical hypothesis.
 
+[F19](../projective_full_parameter_2026_09_25/FINDINGS.md), September 25,
+now supplies that full-parameter certificate: both inversion matrices,
+the full sixteen-word algebra and the actual peripheral frame have no
+zero or pole at any real q>0, q!=1. F12/F13's authored existence and
+uniqueness argument therefore extends pointwise to this entire family;
+F18's all-cyclic-degree/all-mu4-character pairing extends with it. This
+is a positive family of completed gauge backgrounds and a constraint
+on that particular proposed asymmetry, not a physical chirality theorem.
+Seven new and 24 unchanged tests pass; an initial duplicate-test-name
+collection error is retained, with successful separate invocations.
+No new matter census, uniform-q estimate, mediator acyclicity, finite
+Higgs norm or quantum-phase conclusion is asserted. The next physical
+audit is whether the SAME parent actually supplies the number-changing
+interaction/phase locking used in the existing R33/R34 added-field
+model, with both paired sectors and full contact/exchange accounting.
+Another q/cyclic/central-twist census cannot answer that question.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted
