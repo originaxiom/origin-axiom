@@ -932,3 +932,22 @@ precedes all execution; no full-suite or independent proof certificate.
 | `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/TEST_OUTPUT.txt` | `560d06e7ca3f9a2d6f04a6f7edf908ca58ccf004c741af9a94d6929309902910` |
 | `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/test_verify.py` | `51df31a0978c499b6afdbc7348494c19163e09671414ec063741aa60f38763ce` |
 | `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/verify.py` | `bdf1bac226afeed1df20eca1545e72d731f07ccd546f54d05b12475784fd7db5` |
+
+## R47 neutral tangent, September 25, 2026
+
+Own input 920d51d9; read-only F14 source pin 46f42302.
+Fixed-canonical-base harmonic projection, not a nonlinear physical modulus.
+Push and remote confirmation precede every scientific execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_DESIGN.md` | `4338665c2dbc9e940fbd96ed25f7e9347d0f3ef6bee59ac7d17dfef668292737` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md` | `f5d04fc41d9c3d6010cfe51a97b67fae87e2e7c8a3f51eb9fab61a3a76efea61` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PRIOR.md` | `0bd78fa9d787829d761cf142d1e3ca06f71ad3f51685c94e86256a3184ead204` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_INPUTS.json` | `3b7e8fe0b27d74a86afeeef591c8c5a30b5517cf26e2f83a3a52ae7cefc98b22` |
+| `reports/physical_bridge_2026_09_05/neutral_tangent.py` | `346f6239ad0c6530d384c6036399d9877c6c49ea17807dfc2127c32784626a88` |
+| `tests/test_physical_bridge_neutral_tangent.py` | `84bb254c9007499b9177c8cd019101d2f8864e5b21196547f42e034543f5093f` |
+| `reports/physical_bridge_2026_09_05/received_r47/F14_DESIGN.txt` | `83ff5af70201f0eaa08cebc94956e8d985b07efd62bff307ff775afa84411bee` |
+| `reports/physical_bridge_2026_09_05/received_r47/F14_PROOF.txt` | `a2cfaf4692c60b320d4b2dd300b232b9515ffd3672ca4a4d7ed204921aca3169` |
+| `reports/physical_bridge_2026_09_05/received_r47/F14_FINDINGS.txt` | `5d83f4f8459ab37506f6141400eb55c4b61a3125abffb4f9b7b973a4810865dd` |
+| `reports/physical_bridge_2026_09_05/received_r47/F14_CORRECTION.txt` | `6bc93b7516238800f6b1853ce4f2a3679d04c0eb806e6dd86fc5a33cc01cbb31` |
