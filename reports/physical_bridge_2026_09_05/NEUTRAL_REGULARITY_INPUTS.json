@@ -1,0 +1,359 @@
+{
+  "scope": "Pre-execution input custody for R49 actual canonical adjoint regularity; no new physics or independent global proof certificate",
+  "own_input_pin": "81ae3441a9d8995d72a15d6dbcbd607422213e8f",
+  "incoming_reading_pin": "a1bea7999d7b5d0a36ed60fc912655cd5141bf52",
+  "incoming_evidence_grade": "FINDINGS-level coordination only; no new incoming theorem used",
+  "frozen_paths": [
+    {
+      "path": "frontier/B1138_structural_completion/verification/memo15_family_triplet.py",
+      "bytes": 11579,
+      "sha256": "7c7b10afd3ba325377358ba01e53ee264eef3e2d7b68375739ad7d880a953fe6"
+    },
+    {
+      "path": "frontier/B1150_yukawa_clock_and_family/verification/certificates/family_yukawa.py",
+      "bytes": 14259,
+      "sha256": "333f74f0d4f3b76f77d53a235544bc3ee236612c68516705e38248c164dbaef5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md",
+      "bytes": 9385,
+      "sha256": "487e69d9db5d1f44303890f14fb958a49f207971cdd1350450f3622fcb026c33"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_CUSP_INPUTS.json",
+      "bytes": 6926,
+      "sha256": "8756970eac263c8d9717f42d2d13c6b18c00fc09cb6ac5a9d654007f235f20c2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md",
+      "bytes": 17847,
+      "sha256": "93836bfe7ca0be900caa37d2f9dee45435a881c29fff2b461458bc37bd8982a7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_CUSP_RECEIPTS.json",
+      "bytes": 16225,
+      "sha256": "c7f4b1538376462d775397f62fed387fdaf977c2f26bd81196f2dfe7b57c11b6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PROOF.md",
+      "bytes": 11195,
+      "sha256": "29d200ebb4fe8ca6ff01629341bae3d5fc4f09e58744785218d0a97b7571bd35"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION.md",
+      "bytes": 4857,
+      "sha256": "a94044e64b34653ffafa85fae0574ed3731f78a5b95ac0c6f17ba7c09a41b241"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_INPUTS.json",
+      "bytes": 17011,
+      "sha256": "e006c0e08ac26f3b932a13379b65c992c84871dbaada312413059a0f497718c5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_PROOF.md",
+      "bytes": 9725,
+      "sha256": "bdc2f85f720b353ff5babf0eaafd1c4acb70057a4dc3774a21975ed6b8b5654d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT.md",
+      "bytes": 5980,
+      "sha256": "ee350f09dfac465f22ba6d6d42c72c364d8e289391884e9953b8b1acd626cf75"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_INPUTS.json",
+      "bytes": 12389,
+      "sha256": "3b7e8fe0b27d74a86afeeef591c8c5a30b5517cf26e2f83a3a52ae7cefc98b22"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md",
+      "bytes": 8534,
+      "sha256": "f5d04fc41d9c3d6010cfe51a97b67fae87e2e7c8a3f51eb9fab61a3a76efea61"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_RECEIPTS.json",
+      "bytes": 32982,
+      "sha256": "d8aeefb84fb7d7722c9afac98a43c6f6bdfa0aeecda8bfcc59ed283c76426e87"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_INPUTS.json",
+      "bytes": 13534,
+      "sha256": "32056f5d399f1002df65a3de3c98e66609934c07ac9d210cc074e9ebc1fb8281"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_PROOF.md",
+      "bytes": 11372,
+      "sha256": "2b6f262e87ac8f31321b77225ffc7eb88b546226484beba3abb8e0a32323f866"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_BACKGROUND_RECEIPTS.json",
+      "bytes": 10983,
+      "sha256": "94c1c75c8b03eaff8206809467a5bb665dbb663ff68e06341f42bf190bb93f69"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_CUSP.md",
+      "bytes": 5309,
+      "sha256": "766f30380270b3a98e530636d709aa5d3dcc2e447ecec404dbae71a663758f24"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_CUSP_INPUTS.json",
+      "bytes": 8821,
+      "sha256": "2e8254a33f06d9fd788314a9c602c3588a7e71ce5474891ed770e649d6a14efd"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md",
+      "bytes": 7996,
+      "sha256": "fcca2f930bea13d4e5aeaba283d64b15e39bc7826a9e5901232a679a1b12d6ab"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_background.py",
+      "bytes": 7880,
+      "sha256": "8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/anomaly_completion.py",
+      "bytes": 10368,
+      "sha256": "2ffc445e9e06da918a67273f6874f7e525e053e65c58c19827f68389e054f133"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/canonical_cusp.py",
+      "bytes": 4884,
+      "sha256": "a8e5dd6a8d71dfe534c97f48812b91afc67c5946ccc404e7b8540c567105dd70"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/canonical_interaction.py",
+      "bytes": 4660,
+      "sha256": "000d1ecaa179b8abbb027da1eee16818a974be3f7cb99411ac72739bcdad59c9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/capture_checked_run.rb",
+      "bytes": 1224,
+      "sha256": "54973dda238951ff15249cc54068f3ab6919049f73c947fb3d12cdbf67b6c602"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/defect_gauge.py",
+      "bytes": 14820,
+      "sha256": "ba10eb2fc549d1e74029ba9ff3f4e2da5a18f0028ee42a3a9385c1bc7845f2de"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/holonomy_spectrum.py",
+      "bytes": 13365,
+      "sha256": "2c80399b5613c26e098fb47035758528fd5f61f64bcf164b4538c7ea38b6663f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/mirror_interaction.py",
+      "bytes": 12614,
+      "sha256": "6430dc84022050fea50d3dd5edb4ee08a8c2c80cde6b5674f385812ac04ff6e1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_pairing_diagnostic.py",
+      "bytes": 2974,
+      "sha256": "c045aab0bb2e3bb815a8817a4e29ae12a4d1951aa2ecbd97f5271ea007e27e55"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_tangent.py",
+      "bytes": 4842,
+      "sha256": "346f6239ad0c6530d384c6036399d9877c6c49ea17807dfc2127c32784626a88"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_background.py",
+      "bytes": 17578,
+      "sha256": "91945d36932be2d7ea40ea14a990376661fee91f0efe66968da19803dc20f127"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_cusp.py",
+      "bytes": 7898,
+      "sha256": "27c5455959b13ac0112f7cb668b37843355fe08b4a367d897a2132df87f88c1c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/parent_vertex.py",
+      "bytes": 14969,
+      "sha256": "8b308b0d783c3d04bfef8e3339c2b884bef7fe4da3c73a205651a08d2f243793"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/source_scalar.py",
+      "bytes": 11956,
+      "sha256": "64e05682671fa8a79e1bdf0669accac9f079d90e22fc53cfcd13ad270dc77ade"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/yukawa_overlap.py",
+      "bytes": 10742,
+      "sha256": "b732ec968368bc2cae1060d2e2bc47ba60c71ce2465c9c7f9f93bc9af3b1d56a"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_action_control.py",
+      "bytes": 2043,
+      "sha256": "d8b2042e6702d5be705425c0d121fba68ee4cdc958151a042c35d893739d3ce3"
+    },
+    {
+      "path": "tests/test_physical_bridge_anomaly_completion.py",
+      "bytes": 4662,
+      "sha256": "ed27cc6ada6f2be2b9b2e81fc11ae7a83fb3761cce2aef9e5b030250784e83c7"
+    },
+    {
+      "path": "tests/test_physical_bridge_canonical_cusp.py",
+      "bytes": 4597,
+      "sha256": "26c27221424b83ef66c6c447457b56b883de13b6ba3e5b741d0606a0988e409d"
+    },
+    {
+      "path": "tests/test_physical_bridge_canonical_interaction.py",
+      "bytes": 3653,
+      "sha256": "37d81a07bb390e70ffd0ba239875f86521405f593aa339efc417b0a2b3533d0a"
+    },
+    {
+      "path": "tests/test_physical_bridge_global_poisson.py",
+      "bytes": 4974,
+      "sha256": "0389cfe1efe80ea5bb542c2eed0ca4a2cead219155b5706a42280ca7835b5b67"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_interaction.py",
+      "bytes": 6450,
+      "sha256": "0e1b3874f523fe89a6cc70eb5d0235d42803b4af71b36f35733faa70f293a8af"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_interaction_normal_form_control_v2.py",
+      "bytes": 1139,
+      "sha256": "a88a70d26d3410dd54045e0a244e5311bdca2106bb1d055980db7a240a08587c"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_quartic.py",
+      "bytes": 6003,
+      "sha256": "eda62f6d417e4d66fcf80025776b12794ca4d2c892c32451c031bf1a3d4445c8"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_quartic_normal_form_control.py",
+      "bytes": 1802,
+      "sha256": "ccfa8351cf91ba7a6a2a68cd93ce1aa1cc6ad4ac8d0d7faf76651a3015b70937"
+    },
+    {
+      "path": "tests/test_physical_bridge_mirror_quartic_normal_form_control_v2.py",
+      "bytes": 1808,
+      "sha256": "d20b4d9b5bdcdd7bfdd2207d44d57065420367a05621aff973d8b10650c9012f"
+    },
+    {
+      "path": "tests/test_physical_bridge_neutral_pairing_diagnostic.py",
+      "bytes": 1227,
+      "sha256": "0f81f65b0b0001944fc45213890a8fc81f37b101a0ce609ef930dee200f81637"
+    },
+    {
+      "path": "tests/test_physical_bridge_neutral_tangent.py",
+      "bytes": 4614,
+      "sha256": "84bb254c9007499b9177c8cd019101d2f8864e5b21196547f42e034543f5093f"
+    },
+    {
+      "path": "tests/test_physical_bridge_parent_background.py",
+      "bytes": 5868,
+      "sha256": "dd1df37105904e883d43e6edd1e4a770b8107f77e42e9f8ed729f4a4d9e6027f"
+    },
+    {
+      "path": "tests/test_physical_bridge_parent_cusp.py",
+      "bytes": 3779,
+      "sha256": "73e0ccfd176f120feaafc7adfbabc70a3138007042c3a7ade2510d2d0fed750f"
+    },
+    {
+      "path": "tests/test_physical_bridge_parent_vertex.py",
+      "bytes": 4557,
+      "sha256": "e50567bfb83c2c80a895fe5967594024811ff16247628f130b4ae5cb9c1dfe79"
+    },
+    {
+      "path": "tests/test_physical_bridge_source_c3.py",
+      "bytes": 5403,
+      "sha256": "2519c3a1659df147283e61dd23896a4fe23ada86e1fac297f33f7f75e8c9b934"
+    },
+    {
+      "path": "tests/test_physical_bridge_source_scalar.py",
+      "bytes": 4265,
+      "sha256": "20311262eccef6c18ce3ea103559f7fc410549bb96f59d1fe4de4bfa6817d27b"
+    },
+    {
+      "path": "tests/test_physical_bridge_yukawa_overlap.py",
+      "bytes": 4026,
+      "sha256": "bf2ec34ed3f2690ff631f671c060ea39607af9d8d37767c4fc88892a05109f6b"
+    }
+  ],
+  "preflight_runs": [
+    {
+      "raw_basename": "oa_r49_fetch_first",
+      "raw_receipt_sha256": "7652350e60904c347d1a2a30f8bace6b118155c9d4eccdb8cbd53cb1b9824603",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "fetch",
+          "origin",
+          "+refs/heads/*:refs/remotes/origin/*",
+          "--tags"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7168869999986782,
+        "log_bytes": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "raw_basename": "oa_r49_banked_first",
+      "raw_receipt_sha256": "19b375ea7400e67c578b78d68aea06d49d9da2a290598b13c954df2dc17bc13c",
+      "receipt": {
+        "command": [
+          "python3",
+          "scripts/checks/already_banked.py",
+          "neutral indicial radial regularity nonlinear"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6420219999999972,
+        "log_bytes": 3482,
+        "log_sha256": "589be4eddaae1840af3c719d61f4a3d50ca54fce975d3cc22e0c7bb3a5e69605"
+      }
+    },
+    {
+      "raw_basename": "oa_r49_atlas_first",
+      "raw_receipt_sha256": "9ceb31b24dfffffac2f36a4fc34c0d03aef703ed4722f831d3554eec9e044c3d",
+      "receipt": {
+        "command": [
+          "python3",
+          "scripts/atlas/query.py",
+          "card",
+          "neutral indicial radial regularity nonlinear"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.10454599999866332,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      }
+    },
+    {
+      "raw_basename": "oa_r49_prior_custody_first",
+      "raw_receipt_sha256": "49abcb69c4666cfbf5f0356197b2d9d8f128e261e25653e8e98209ec55f602dd",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<private-raw-parent>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.059212000000116,
+        "log_bytes": 614,
+        "log_sha256": "d82ea171bf6d42e9b2c521f6fdd6a21434c75aaac406ce6f744927f34561d216"
+      }
+    }
+  ],
+  "scientific_population": [
+    "tests/test_physical_bridge_canonical_cusp.py",
+    "tests/test_physical_bridge_parent_cusp.py",
+    "tests/test_physical_bridge_canonical_interaction.py",
+    "tests/test_physical_bridge_neutral_tangent.py",
+    "tests/test_physical_bridge_neutral_pairing_diagnostic.py",
+    "tests/test_physical_bridge_neutral_regularity.py"
+  ],
+  "expected_retained_failure": "tests/test_physical_bridge_neutral_tangent.py::test_received_generic_pairing_and_dual_inverse_identity",
+  "interpretation": "Finite controls verify exact limiting-operator inputs. Actual all-jet transfer, global gap and Lp regularity remain authored analytic applications under R44's inherited hypotheses."
+}

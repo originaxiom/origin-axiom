@@ -976,3 +976,20 @@ Commit/push/server confirmation precedes every scientific execution.
 | `reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_INPUTS.json` | `9348bbcb4ebe9e4f35e77cbaf0972267db2296e6811ca4021d66f72be2f66d24` |
 | `reports/physical_bridge_2026_09_05/canonical_duality.py` | `d5c7332f6d18af54a763957705d1fb97668363a2d18b7c28c75263ba9975f23e` |
 | `tests/test_physical_bridge_canonical_duality.py` | `8eda7d7ba3e3a336078e6f9682fda12444e659772d46d75bb694f516f0ff1d76` |
+
+
+## R49 canonical adjoint regularity, September 25, 2026
+
+Pre-execution seal on the own audit branch. Finite controls certify the
+limiting operator, not independent acceptance of the inherited global
+geometry or new analytic argument. Commit/push/server confirmation
+precedes import/execution. No physical modulus or selection claim.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_DESIGN.md` | `d92f05f3b9b6118335b894af29ed1df18124ed04b95eb8244ddb5dd6ac051a5e` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_PROOF.md` | `02b0abf8b4fe16092931504feadd1a4eac665e232f34d20ba2e247eb261c80b1` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_PRIOR.md` | `6ca7ebe742df877d7c456ad2ad50dc025766cf35468122fa04540bbd22d01bdf` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_INPUTS.json` | `47be3d950d7fe0055f60c74a58a2f4bdb2c112d0a5cbd13df5bf22b985e5eefb` |
+| `reports/physical_bridge_2026_09_05/neutral_regularity.py` | `45b41bb5b7fb47a2ab409266c59a7acbe94b6243c5b663af6d4588846a02cdda` |
+| `tests/test_physical_bridge_neutral_regularity.py` | `dec473dcb0bd96eb2baa92e431d4cca5226c425b81f5e9d6f872667ed9715cb6` |
