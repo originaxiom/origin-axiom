@@ -1,0 +1,17 @@
+{
+  "purpose": "F18 pre-execution scientific seal, not a result",
+  "parent": "af8fdb34",
+  "algorithm": "sha256",
+  "files": {
+    "reports/projective_cyclic_pairing_2026_09_25/DESIGN.md": "506ab638bb7c51ff7205074ced1903d104a3995150fe46a68665c6a99b37695f",
+    "reports/projective_cyclic_pairing_2026_09_25/PROOF.md": "b14d7128a119e1b1b69f8ec5cefd21ab59521ebf18388cddf55e846c95079a01",
+    "reports/projective_cyclic_pairing_2026_09_25/verify.py": "aee987f22ece2f7fb8849744b2a7f8d08a3b959ea1ca1a41d86eb8a45f53c0f2",
+    "reports/projective_cyclic_pairing_2026_09_25/test_verify.py": "32079cf91ade57402d6e29e1de64e3b41f2fb1c450b9121a5989b76be6bd71ea",
+    "reports/projective_cover_characters_2026_09_25/verify.py": "531f5474bdd089bd6dc3c3c04f76a95dbcf1fd224f17753678fb2e711693f353",
+    "reports/projective_deformation_tangent_2026_09_25/verify_v2.py": "226834120941e3c6d041e93794d366a020dd10ab3a563d2b67ce2615398a34ec",
+    "reports/projective_deformation_tangent_2026_09_25/verify.py": "0a1b1b2a198d4e8c6083b679fea7d70be74ffb95678925b56c6a5a2f02560805",
+    "reports/projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18"
+  },
+  "scientific_import_chain": "F18 -> F17 -> corrected F15 adapter -> original F15 -> F10",
+  "execution_rule": "Local commit before any scientific run; tree sources read-only until all actual final exits; preserve failures and separately seal corrections."
+}
