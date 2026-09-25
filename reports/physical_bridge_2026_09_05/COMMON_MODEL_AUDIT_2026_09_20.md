@@ -432,3 +432,26 @@ All 15 new, 36 received and 52 focused tests pass in their declared,
 overlapping populations. This is NOT 103 distinct tests or independent
 PDE acceptance. The earlier failures stay preserved. R40/R41 remains
 a separate route. [R46 report](CANONICAL_INTERACTION.md).
+
+## September 25 - R47 detects a global neutral harmonic direction
+
+- [x] Construct the q-flat tangent on a fixed canonical base with an
+  L2/L4 representative, using the inherited end and global geometry.
+- [x] Detect a nonzero reduced harmonic projection with a compact dual
+  form, excluding even the L2 closure of complete-domain gauge directions.
+  These are authored arguments, not independently accepted PDE theorems.
+- [x] Recheck the incoming generic character-level pairing and its
+  derivative, including the compensating derivative of S(q).
+- [ ] Compute the full neutral space and harmonic profile; prove nonlinear
+  regularity and solvability before claiming a physical modulus.
+- [ ] Construct the actual canonical geometric pairing or a valid
+  obstruction, before inferring unequal whole-mode interactions.
+- [ ] Compute normalized sources/response tensors and coupled base/field
+  kinetics; keep selection, anomalies, physical chirality and gravity open.
+
+The original dedicated/focused suites each retain a symbolic-comparison
+failure. A separately sealed exact-field diagnostic resolves its cause
+without changing the failed records; four diagnostic tests pass. All
+eight twisted inverse identities hold. No full-suite green, independent
+global proof certificate or nonlinear q-modulus is asserted.
+[R47 report](NEUTRAL_TANGENT.md). The R40/R41 alternative remains separate.

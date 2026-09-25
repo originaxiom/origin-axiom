@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-09-25 - R47 detects a nonzero normalizable neutral direction
+
+At every fixed q>0, q!=1 on the canonical background, the global flat
+q tangent has an L2/L4 representative and a compact dual detector of
+value 12. The detector kills the closure of exact complete-domain
+directions, so Hilbert projection gives a nonzero neutral harmonic
+form with finite positive norm without a closed-range assumption.
+This is an authored lower bound conditional on inherited global inputs,
+not a full neutral count, nonlinear modulus or coupled gravity kinetic
+calculation. The old hyperbolic-base divergence remains true there.
+
+F14 at local fork 46f42302 supplies a generic pairing witness, independently
+checked here: the q curve stays fixed by inversion plus duality at the
+character level. Its canonical geometric realization remains to be earned.
+The full incoming census and old-base metric theorem are not relabeled
+as reproduced canonical results. All-head/tag fetch and prior receipts
+are retained; no universal absence or new shared B/I number is claimed.
+
+Original native controls 13 pass; dedicated 10 pass/1 fail; focused four
+files 62 pass/1 fail. A separate pre-execution-sealed exact-field diagnostic
+checks all eight identities and seven two-sided controls; four new tests
+pass. It diagnoses unevaluated zero-times-I structural comparison, without
+editing original tests or converting their failed runs into green ones.
+Both scientific seals were pushed/server-confirmed before their executions.
+No full-suite, independent proof acceptance, physical chirality or TOE.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT.md.
+
 ## 2026-09-25 - R46 joins charged modes to an admissible canonical interaction channel
 
 The local fork had advanced beyond the fetched remote inventory. Receive

@@ -1,6 +1,25 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**Latest local result, R46 (September 25): canonical interaction admissibility.**
+**Latest local result, R47 (September 25): a nonzero neutral harmonic direction.**
+On each fixed q>0, q!=1 canonical background, a compact dual detector
+pairs nontrivially with the global L2 q tangent and annihilates the
+closure of gauge directions. The authored Hilbert-space argument gives
+at least one finite-positive-norm neutral harmonic projection without
+assuming a zero-sector gap. This is not the full neutral spectrum,
+a nonlinear physical modulus or coupled gravitational q kinetics.
+Incoming F14's explicit generic witness is checked: the q curve stays
+paired at the character level; canonical geometric pairing is still owed.
+Original native 13 pass; new tests 10 pass/1 fail; focused 62 pass/1 fail.
+A separately sealed exact-field diagnostic proves the retained failure
+is structural zero comparison: all eight identities and four tests pass.
+Both seals were pushed/server-confirmed before their own executions.
+No independent global proof acceptance, full-suite green or TOE claim.
+Next: full neutral/nonlinear analysis, canonical geometric duality and
+actual normalized interactions; keep the distinct R40/R41 source route.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT.md.
+Earlier dated entries are historical checkpoints.
+
+**Previous local result, R46 (September 25): canonical interaction admissibility.**
 The exceptional charged modes have a decaying MERIDIAN homotopy on
 the actual canonical cusp, giving L4 profiles at authored-proof grade.
 Incoming F13's exact six H1=0 reproduces unchanged; R45's canonical

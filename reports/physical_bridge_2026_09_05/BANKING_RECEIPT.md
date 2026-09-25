@@ -916,3 +916,28 @@ full-suite green is claimed. Governance retains four historical failure
 categories and 41 stale relay debts; prior scientific failures outside
 the declared run population are not silently erased. No chiral physical
 vacuum, parent/parameter selection, gravity or complete TOE is asserted.
+
+## September 25 - R47 path-local neutral projection, original failure retained
+
+Original science seal 8f493e68 (ten files) and separate post-failure
+diagnostic seal 20a5c718 (three files) were each pushed and server-confirmed
+before their own executions. Tree read-only during every run envelope.
+Original native 13 checks pass; dedicated 10 pass/1 fail; fixed four-file
+regression 62 pass/1 fail. Diagnostic exact-field identities 8/8, seven
+two-sided controls and four tests pass. The original failure is retained,
+not edited away; the tested cause is structural comparison of 0*I.
+
+Forty-three predecessor paths, four pinned F14 reading sources and four
+preflight captures are checked. F14's generic witness is credited and
+independently recomputed, not its full census or old-base metric theorem.
+The global neutral projection is an authored analytic lower bound, not
+independent acceptance, a nonlinear modulus or a physical particle count.
+Reader surfaces, law/sublemma rows, historical progress and explicit
+remaining duties are updated together. No shared B/I number is used.
+
+No independent banking reviewer, PR/main merge or full-suite green is
+claimed. Governance's four historical failure categories and 41 stale
+relay debts remain visible. Local custody checker and reporting receipts
+preserve exact outputs and declared redactions. Source/end alternatives,
+coupled q kinetics, canonical geometric pairing, physical chirality,
+selection, gravity and the overall TOE goal remain unfinished.

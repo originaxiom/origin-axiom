@@ -1,0 +1,55 @@
+R47 report checks, September 25, 2026.
+
+Original science seal 8f493e683e3269ffecf125c357e8bed2287b3683.
+Diagnostic seal 20a5c718eec9adfd2f048e37da546cc8b6064540.
+Both pushed/server-confirmed before their own first executions.
+The diagnostic design is post-failure, not retroactively preregistered.
+All original science files, tests and first-run outputs remain unchanged.
+
+Original native 13 controls pass. Dedicated 10 pass/1 fail; fixed
+R44/R45/R46/R47 regression 62 pass/the same 1 fail. Exact-field diagnostic
+8 identities, 7 two-sided controls and 4 tests pass. Four inverse-twist
+residues have structural 0*I entries but zero Gaussian-rational numerators.
+No tolerance, original-test rewrite or independent global proof claim.
+
+First custody exit 0: 13 sealed paths, 43 predecessor inputs, four
+incoming reading texts, four preflight captures, 11 science/seal runs.
+log_sha256 0c4de7fedc281d0f591e2fcddc5e20d8c70f843449f299424886952e820d7683
+Prior R46 custody exit 0; its declared counts remain unchanged.
+log_sha256 3cba70e13056301ae523fd99bbfeae7acb8ad2a50193245a1ecce88b8f572c3a
+
+Cumulative first exit 0, but before staging it covers only two relative
+links; do not call that a full changed-document link check.
+log_sha256 f134c392bf1c7bca48eaec4c93f98d6580e9af16e1aaa053ae92eb9dca20acca
+Cumulative STAGED check exit 0: 781 artifact paths, 234 latest distinct
+seals and 306 scoped local links; the 24 older failed/error IDs retained.
+log_sha256 5bfa207cd31a1af0f5b2e722535791c5cc57418a73b8b7ddf508f0f8d6c1fff4
+
+Before-report and staged-report governance return identical output:
+26 PASS/four historical FAIL categories: attribution, test-vacuity,
+seal-provenance, relay-debt. Forty-one stale relay debts remain and
+review is due at 208 merges. No new failure category or full green.
+both log_sha256 6ff98369c9b4ff3c16296c74266853d6dddd4b32f571e7963c71b0f94987bfda
+
+Strict staged whitespace exits 2 solely for the two byte-preserved
+original pytest captures, NEUTRAL_TANGENT_TESTS_FIRST.txt and
+NEUTRAL_TANGENT_FOCUSED_FIRST.txt, line 7 in each.
+log_sha256 0419646ba4eeae99bedd43a99b776e48669a8f5c914e28175d0d84870d8ad67c
+The check excluding EXACTLY those captured files exits 0.
+log_sha256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+This preserves the raw failure bytes rather than silently formatting them.
+
+This note and the expanded audit receipt get fresh metadata hashes,
+then final custody/cumulative/governance/source-whitespace checks.
+No executed scientific source is changed. The neutral result remains
+an authored fixed-background harmonic lower bound, not independent
+acceptance, a nonlinear modulus, physical chirality or a complete TOE.
+
+Ready checks completed: custody exit 0, staged cumulative exit 0,
+source/document whitespace exit 0 with the same two raw-capture exclusions.
+Governance output remains byte-identical to the pre-report baseline.
+Custody ready log_sha256 b9575b672628853d2b1de46fea1622e62e7c42008c2524eb85c0332576d80d8c
+Cumulative ready log_sha256 779b8d2a9ddfa6b48a2ecd768bd74ade6e9f72e7ecbb063b55f544803656aba0
+Governance ready log_sha256 6ff98369c9b4ff3c16296c74266853d6dddd4b32f571e7963c71b0f94987bfda
+Only this outcome note and its append-only artifact hash change afterward;
+the final byte-custody/link/whitespace checks precede the report commit.

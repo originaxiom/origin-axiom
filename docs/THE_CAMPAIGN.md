@@ -16,6 +16,16 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 25 R47 earns a fixed-canonical-base neutral harmonic LOWER
+BOUND by a compact detector, without assuming a neutral spectral gap.
+The generic q curve remains algebraically paired under inversion plus
+duality. Prioritize the actual canonical geometric map and the full
+neutral/nonlinear problem before treating q as a physical modulus or
+as a source of unequal mirror responses. Then compute normalized
+same-action sources/tensors; preserve end/cover/phase alternatives and
+the R40/R41 noncentral-source route. Independent analytic review remains.
+See reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT.md.
+
 September 25 R46 receives the newer local F13 global-six calculation and
 earns the bounded nonlinear join on the canonical background at authored-
 proof grade. This addresses two queued duties without repeating ranks.

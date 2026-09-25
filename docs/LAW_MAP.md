@@ -1,6 +1,13 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
-Latest path-local R46: charged canonical-cusp confinement, the received
+Latest path-local R47: the canonical q tangent has a nonzero complete
+neutral harmonic projection at authored-proof grade, by a compact
+detector that kills the closure of gauge directions. The incoming
+generic character-level pairing is verified, not promoted to a metric
+symmetry. See the dated laws at the end and
+reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT.md.
+
+Previous path-local R46: charged canonical-cusp confinement, the received
 six's canonical gap, and admissible parent scalar response are recorded
 in the dated entries at the end. Authored analysis plus finite controls,
 not a nonzero coupling, independent acceptance or physical chirality.
@@ -661,3 +668,11 @@ main-bank certificate. External density and R44 global inputs remain explicit.
 All R46 report names above are in reports/physical_bridge_2026_09_05/.
 These are authored applications with explicit inputs, not independently
 accepted main-bank theorems or new empirical matches.
+
+### Path-local R47, September 25: neutral tangent and compact detector
+
+| law | scope | source / lock |
+|---|---|---|
+| The flat q tangent has a finite canonical representative | At each fixed positive q!=1, identify the smooth flat-bundle family on a FIXED canonical base with the prescribed peripheral frame. Its derivative is globally closed and has tail (D+dot(beta)P/R)dt in L2 and L4. Actual metric comparison gives finiteness, not the reference integral as a physical kinetic coefficient. No coupled base variation or q=1 limit. | B1138 conditional parent context only, not the source of this analysis; reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md section 1; tests/test_physical_bridge_neutral_tangent.py::test_global_relator_and_composed_adjoint_tangent; test_covariantly_closed_tail_and_radial_omission; test_canonical_integrals_and_different_old_metric |
+| A compact detector gives a nonzero reduced neutral harmonic class | The compact dual form D f(R)dR wedge dx pairs to 12 with that tangent and to zero with the closure of complete-domain gauge directions. Orthogonal projection yields a neutral harmonic form alpha with 0<12/norm(h)<=norm(alpha)<=norm(c)<infinity, without assuming closed range. Authored global argument, lower bound only, not a nonlinear modulus or a particle count. | B1138 conditional parent context only; reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md sections 2--3; tests/test_physical_bridge_neutral_tangent.py::test_compact_dual_detector_and_covariant_closure; test_pure_gauge_detector_and_nonperiodic_primitive_control; finite projection control is not independent proof certification |
+| The projective q curve preserves the supplied algebraic pairing | Incoming F14's explicit S(q), determinant -q(q^2+q+1)^3/[16(q+1)^4], obeys the two literal generator identities and inverse/dual identities for fixed fourth-root characters; its differentiated identity requires dot(S). This is character-level inversion plus duality, not a canonical base isometry, metric response equality or a universal chirality obstruction. | B1138 conditional parent context only; received local F14 46f42302 witness; reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md section 4; original test failure retained; separately sealed tests/test_physical_bridge_neutral_pairing_diagnostic.py verifies all eight exact-field cases and wrong-witness/phase controls |

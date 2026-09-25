@@ -15418,3 +15418,40 @@ Neutral/adjoint global H1, actual q kinetics, normalized sources and
 base-isometry/duality constraints remain next; preserve R40/R41.
 No parent selection, SM vacuum, scales, gravity or full TOE closure.
 Report: reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION.md.
+
+## 2026-09-25 - R47 neutral harmonic lower bound and pairing diagnostic
+
+Original seal 8f493e683e3269ffecf125c357e8bed2287b3683 and post-failure
+diagnostic seal 20a5c718eec9adfd2f048e37da546cc8b6064540 were each pushed
+and server-confirmed before their own executions. Original scientific
+files, expectations and failed runs are preserved. Forty-three own
+inputs and four exact F14 reading texts at local pin 46f42302 are fixed.
+
+The q tangent on the fixed canonical base is closed and L2/L4; a compact
+dual detector with value 12 annihilates the closure of gauge directions.
+Hilbert projection therefore gives a nonzero complete neutral harmonic
+direction of finite positive norm without a neutral spectral-gap claim.
+This is authored analysis conditional on inherited topology/metric/domain
+inputs, not independent global acceptance or a full neutral-mode count.
+In the supplied scalar Hessian it is a quadratic zero, not yet a nonlinear
+physical modulus or a coupled field/base gravitational kinetic term.
+
+F14's explicit generic S(q) is directly verified on the literal matrices,
+including the differentiated identity with its compensator. The q curve
+remains paired at character level. Its actual canonical geometric and
+whole-response symmetry remains a separate duty; no universal kill.
+
+Native 13 checks pass. Original new tests 10 pass/1 fail; fixed R44--R47
+regression 62 pass/the same 1 fail. The separate exact QQ(i)(q) diagnostic
+finds all eight identities zero, with four structural comparison failures
+from unevaluated 0*I. Seven two-sided controls and four tests pass.
+No numerical tolerance, original source rewrite or hidden test exclusion.
+Pre-report governance: 26 PASS/four historical FAIL categories, 41 stale
+relay debts and review due at 208 merges. No full-suite green is claimed.
+
+Next: full neutral/nonlinear analysis and canonical geometric pairing,
+then actual normalized interaction tensors and verified symmetry-breaking
+directions if required. Preserve R40/R41's distinct noncentral-source
+route and end/cover/phase alternatives. Selection, physical chirality,
+anomalies, observed scales, quantum stability and gravity remain duties.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT.md.

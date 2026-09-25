@@ -1,6 +1,13 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-Latest path-local R46: the exceptional six and canonical nonlinear
+Latest path-local R47: the q-tangent has a nonzero finite-norm neutral
+harmonic projection on each fixed canonical background, at authored-
+proof grade. The full neutral count, nonlinear modulus, coupled metric
+kinetics and canonical geometric duality remain distinct duties; the
+dated disposition below retains them and the R40/R41 source alternative.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT.md.
+
+Previous path-local R46: the exceptional six and canonical nonlinear
 integrability duties are addressed, not the neutral global or q-kinetic
 problem. Actual nonzero/selective interactions and base-isometry/duality
 remain to be tested; see the full dated duty entry at the end and
@@ -3415,3 +3422,42 @@ NEXT (retained rather than replaced):
 No member-level result closes a class-level chirality route. No physical
 chiral spectrum, observed coupling, dynamically selected parent or TOE
 completion is banked here.
+
+### PB-DOMAIN / PB-ACTION, September 25: R47 neutral direction, not full modulus
+
+Partial disposition of the neutral/q duty: the fixed-canonical-base flat
+q tangent now has a nonzero complete neutral harmonic projection, at
+authored-proof grade. The compact detector kills the closure of gauge
+directions, so no neutral closed-range assumption is smuggled in. Source:
+reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT_PROOF.md sections 1--3.
+This earns a lower bound and finite positive quadratic norm, NOT the
+full neutral dimension, harmonic profile, nonlinear branch or coupled
+metric/gravity kinetic term. The global analytic chain still needs
+independent specialist review.
+
+F14 intake disposition: its explicit all-q S(q) witness is independently
+checked, including inverse phases and the differentiated compensator.
+Its failed original census run and corrected source are preserved as
+reading copies, not presented as newly rerun here. This q curve alone
+does not break the algebraic pairing. Full incoming fixed-hyperbolic-base
+metric/response equality is not automatically a canonical-base theorem.
+
+NEXT, with distinct completion tests:
+
+- Construct or obstruct an actual canonical-base isometry plus compatible
+  positive bundle map, allowing legitimate coordinate/frame changes.
+  Failure of one end-coordinate ansatz is not an obstruction theorem.
+- Determine the full neutral H1 space and the harmonic tangent's nonlinear
+  domain, obstruction/integrability and actual normalized kinetic tensor.
+  Treat coupled base-metric dynamics and q selection separately.
+- Compute nonzero normalized whole-mode sources/response tensors on the
+  same action and domain. If symmetry enforces equality, test a verified
+  symmetry-breaking deformation, end/cover/source choice or phase.
+- Retain the supplied parent, twist, SM breaking, end/anomaly, quantum
+  stability and gravity duties, and R40/R41's noncentral-source route.
+- Independently audit R42/R44/R45/R46/R47 global topology, norms, Hilbert
+  domains and decay. Exact finite controls are not this acceptance.
+
+The old hyperbolic q-tail divergence is preserved on its own metric;
+neither that result nor the new algebraic pairing closes class-level
+chirality. No nonlinear physical modulus or completed TOE is claimed.
