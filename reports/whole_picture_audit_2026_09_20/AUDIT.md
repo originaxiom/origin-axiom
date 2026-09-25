@@ -217,6 +217,20 @@ integrability, not another profile comparison along the paired curve.
 Cover/character/end changes and spontaneous asymmetric phases retain
 their own duties. The analytic global bridge still needs independent review.
 
+[F15](../projective_deformation_tangent_2026_09_25/FINDINGS.md), September 25,
+now tests the FULL SL4 tangent at all four exceptional points, not just
+the q curve. The three complex deformation classes are all even under
+F14's combined operation; every odd cocycle is gauge. Both existing
+matter classes have proportional nonzero first-order continuation
+obstructions, leaving a common two-complex-dimensional tangent kernel,
+not an integrated family. Sixteen corrected tests and 76 unchanged
+antecedents pass; the original field-zero adapter failure is preserved.
+The new content is the full tangent grading and continuation map, not
+rediscovery of F11's equal-count result. All-orders rigidity, physical
+normalizability of these deformations and nonlinear mode retention remain
+unearned. Next decide the formal/analytic local symmetry question before
+claiming a deformation escape; no all-class chirality no-go follows.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

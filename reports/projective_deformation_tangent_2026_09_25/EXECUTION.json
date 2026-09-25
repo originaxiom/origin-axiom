@@ -1,0 +1,89 @@
+{
+  "correction_commit": "c3384646",
+  "runs": {
+    "CORRECTED_TEST_OUTPUT.txt": [
+      {
+        "chunk_id": "c81e65",
+        "wall_time_seconds": 1.002290163,
+        "session_id": 17926,
+        "original_token_count": 1
+      },
+      {
+        "chunk_id": "bd7f4e",
+        "wall_time_seconds": 1.02711655,
+        "exit_code": 0,
+        "original_token_count": 25
+      }
+    ],
+    "EXACT_WITNESSES.jsonl": [
+      {
+        "chunk_id": "137680",
+        "wall_time_seconds": 1.001787268,
+        "session_id": 18196,
+        "original_token_count": 0
+      },
+      {
+        "chunk_id": "08ade9",
+        "wall_time_seconds": 0.000020939,
+        "exit_code": 0,
+        "original_token_count": 2783
+      }
+    ],
+    "ANTECEDENT_OUTPUT.txt": [
+      {
+        "chunk_id": "3bd627",
+        "wall_time_seconds": 1.000653776,
+        "session_id": 89664,
+        "original_token_count": 0
+      },
+      {
+        "chunk_id": "4b6512",
+        "wall_time_seconds": 5.00263273,
+        "session_id": 89664,
+        "original_token_count": 5
+      },
+      {
+        "chunk_id": "37f6e8",
+        "wall_time_seconds": 5.094634064,
+        "session_id": 89664,
+        "original_token_count": 1
+      },
+      {
+        "chunk_id": "806ed8",
+        "wall_time_seconds": 5.001068518,
+        "session_id": 89664,
+        "original_token_count": 1
+      },
+      {
+        "chunk_id": "02bedb",
+        "wall_time_seconds": 5.002338386,
+        "session_id": 89664,
+        "original_token_count": 4
+      },
+      {
+        "chunk_id": "d6e62e",
+        "wall_time_seconds": 5.001806055,
+        "session_id": 89664,
+        "original_token_count": 1
+      },
+      {
+        "chunk_id": "56d157",
+        "wall_time_seconds": 5.001451472,
+        "session_id": 89664,
+        "original_token_count": 1
+      },
+      {
+        "chunk_id": "1400bd",
+        "wall_time_seconds": 50.001126465,
+        "session_id": 89664,
+        "original_token_count": 6
+      },
+      {
+        "chunk_id": "822d80",
+        "wall_time_seconds": 0.000014262,
+        "exit_code": 0,
+        "original_token_count": 32
+      }
+    ]
+  }
+}

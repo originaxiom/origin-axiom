@@ -476,6 +476,19 @@ actual symmetry-breaking directions from motion along this paired
 family, and still earn integrability, end data and retained modes.
 No all-cover exclusion, quantum no-go, new all-head absence or TOE claim.
 
+[F15](../projective_deformation_tangent_2026_09_25/FINDINGS.md), September 25,
+finds three complex classes in the FULL adjoint deformation tangent at
+each exceptional point, all even under the restored pairing. Odd
+cocycles are entirely gauge; the known q curve does not exhaust the
+tangent, but its additional directions do not break the symmetry at
+first order either. The paired matter-continuation rows have common
+rank one, leaving a two-dimensional complex tangent kernel, not a
+nonlinear physical family. Sixteen corrected checks and 76 unchanged
+antecedents pass; the original arithmetic-adapter failure is retained.
+This adds a tangent-level constraint beyond F14, not a universal no-go
+or a new equal-count theorem. The next question is formal/analytic
+extension of the symmetry, with higher-order/end/phase duties explicit.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

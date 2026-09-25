@@ -175,3 +175,16 @@ TOE objective is not achieved, and no universal chirality kill is made.
 See [PROOF.md](PROOF.md) for the complete conditional analytic bridge,
 [CORRECTION.md](CORRECTION.md) for the preserved implementation failure,
 and [RECHECKS.md](RECHECKS.md) for seal and execution custody.
+
+### Successor, F15 (September 25)
+
+[The full SL4 tangent test](../projective_deformation_tangent_2026_09_25/FINDINGS.md)
+answers the first-order part of next discriminator 1: dimension three
+over C, all even under this combined pairing, at every exceptional
+point. No odd class survives conjugation. The common matter-retention
+tangent kernel has complex dimension two, but neither its nonlinear
+integrability nor end admissibility is established. Thus the additional
+directions outside the q curve do not supply a first-order escape.
+All-orders formal/analytic symmetry, other components/covers/end data
+and interacting symmetry breaking remain distinct questions. F14's
+positive constructions and its explicitly scoped constraints stand.
