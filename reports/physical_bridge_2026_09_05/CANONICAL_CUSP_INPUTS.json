@@ -1,0 +1,180 @@
+{
+  "scope": "Pre-execution R44 input custody; authored same-background comparison, not physical certification",
+  "own_input_pin": "ae60e08846ab8151fee6d962604f1f995c384497",
+  "frozen_paths": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_background.py",
+      "bytes": 7880,
+      "sha256": "8d7ceb61726751f340b074fc0b1313ce6ec4e528f0fc23311858eada88ca7932"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_PROOF.md",
+      "bytes": 9385,
+      "sha256": "487e69d9db5d1f44303890f14fb958a49f207971cdd1350450f3622fcb026c33"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_INPUTS.json",
+      "bytes": 15613,
+      "sha256": "6e1a51a8a5df814c6ff3970343b7ebc7342b56ccefd8a99dd89fa160ea21b885"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/AFFINE_BACKGROUND_RECEIPTS.json",
+      "bytes": 30071,
+      "sha256": "14befd6fd8f13e875c3f8093ee8e49a8300df9228c0dc1340ece26cbdeb2a0fe"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PROJECTIVE_MODE_RECEPTION.md",
+      "bytes": 11614,
+      "sha256": "172702f86ca4eb2b4a009ea0bc36a2586ff5e3ab071469c304fe59968cf3b000"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PROJECTIVE_MODE_RECEPTION_RECEIPTS.json",
+      "bytes": 27173,
+      "sha256": "0e9d668af89d5361be08226e320ec495be3087206fa112c894e8a662dc70e3ee"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/CONVEX_CUSP_MODE_WORKING_2026_09_23.md",
+      "bytes": 5464,
+      "sha256": "ca99675bbfbe3d39dbad2a63ab12aecf0dc734f0692d433ddc877b78b722eba1"
+    },
+    {
+      "path": "tests/test_physical_bridge_affine_background.py",
+      "bytes": 4388,
+      "sha256": "8fbcc4bd40a65cff218e316bfea3b7a44e2fcf96f4df4a5d5bf3c16804a181ef"
+    },
+    {
+      "path": "tests/test_physical_bridge_affine_ricci_control_v2.py",
+      "bytes": 1893,
+      "sha256": "06756e368ea082fd4bb9c53d413db7d2b5aafbb19e4b439e36bfadf13ca73369"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/affine_ricci_control_v2.py",
+      "bytes": 2185,
+      "sha256": "3849593f5507eddd4a6babec163506f4bcb4f9d925c5146b5877bc15bea61254"
+    }
+  ],
+  "incoming_pin": "08ff88e0ed841b25274c46ec2490a410729639c2",
+  "incoming_read_sources": [
+    {
+      "path": "reports/projective_escape_2026_09_21/PROOF.md",
+      "bytes": 7839,
+      "sha256": "ec9c8f61eeedc985e811391d069c2fb65ab7e04f3af7d50c5fa14f23ac28f3c3"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/PROOF.md",
+      "bytes": 8463,
+      "sha256": "8c61d69af86a55ae5269ab86991ee5c722697abb5e23e3fced7aab90c13d3303"
+    },
+    {
+      "path": "reports/projective_cusp_spectrum_2026_09_21/EXCEPTION_ADDENDUM.md",
+      "bytes": 3736,
+      "sha256": "a72c99d6bd5f859e1646f077288fadcad43278209775d3c49bda9c160c7476b0"
+    }
+  ],
+  "prior_captures": [
+    {
+      "raw_basename": "oa_r44_fetch_all_first",
+      "raw_receipt_sha256": "7a1abe4df6b355065aff173ceeccde24fad042fe7ac3f70e551c65d1834cae82",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "raw_basename": "oa_r44_cusp_prior_first",
+      "raw_receipt_sha256": "12f3141ad2f51fe3b42731d76b4d69d80f27ecd284eddee6762405c4cb76b71c",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 3301,
+      "log_sha256": "a11476134cc522fe14e05039f1ff0f3cc0797b8bca575a03cbf5742525a59a4e"
+    },
+    {
+      "raw_basename": "oa_r44_fetch_all_20260925_first",
+      "raw_receipt_sha256": "c517f94c0d55274d4671e41ef4f4fd6a5b79442cae7b48c4b05cca98e71f178f",
+      "exit_code": 128,
+      "signal": null,
+      "log_bytes": 174,
+      "log_sha256": "cec2649e6cb8db7b056111a36363ad16acb581d948d3dc4012a1d12873b683db"
+    },
+    {
+      "raw_basename": "oa_r44_fetch_all_20260925_https",
+      "raw_receipt_sha256": "408f8d1ee68ab1fff2f6809a914b64fce434061bc32f9038d91fa0139d7bff7d",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "raw_basename": "oa_r44_atlas_20260925",
+      "raw_receipt_sha256": "70b47fe6a5cb2351d560f8205785f36daff70ccf735684c506457e683443eff4",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 735,
+      "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+    },
+    {
+      "raw_basename": "oa_r44_identification_20260925",
+      "raw_receipt_sha256": "c6593526608c9aa8bfdb447eec93d34cbd7974bbebbae50be9f4ce846576bc49",
+      "exit_code": 0,
+      "signal": null,
+      "log_bytes": 442,
+      "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+    }
+  ],
+  "papers": [
+    {
+      "basename": "cooper_long_tillmann_2018.pdf",
+      "local_container_basename": "oa-r44-primary.GKcaFm",
+      "url": "https://msp.org/gt/2018/22-3/gt-v22-n3-p02-s.pdf",
+      "bytes": 674394,
+      "sha256": "34c16391e65b8a895a55bdca75c4c13547acbbdeb66211ef04e7f6be7f48c397"
+    },
+    {
+      "basename": "cooper_long_tillmann_2018.txt",
+      "local_container_basename": "oa-r44-primary.GKcaFm",
+      "url": null,
+      "bytes": 143768,
+      "sha256": "030d333c40e89026c09bece47c874a910fccf0cc16c491ee09902a02a23aeb2f"
+    },
+    {
+      "basename": "harris_scott_1996.pdf",
+      "local_container_basename": "oa-r44-primary.GKcaFm",
+      "url": "https://msp.org/pjm/1996/172-1/pjm-v172-n1-p07-s.pdf",
+      "bytes": 1485157,
+      "sha256": "c6086e0b245dcbbf2563ccff4605d0a2f4d9e0914b72a563a940c51bde347034"
+    },
+    {
+      "basename": "harris_scott_1996.txt",
+      "local_container_basename": "oa-r44-primary.GKcaFm",
+      "url": null,
+      "bytes": 33494,
+      "sha256": "b129f700744b69abe6504b5a9de242a99b336322822a22cc12c6463e65e6fb62"
+    },
+    {
+      "basename": "ballas_long_2015.pdf",
+      "local_container_basename": "oa-r43-primary.j5GTwj",
+      "url": "https://msp.org/agt/2015/15-5/agt-v15-n5-p16-s.pdf",
+      "bytes": 3589403,
+      "sha256": "57a8daa16eed49954d889bf3c5914ba7e18d1b4deadd8c014954ec76a7cf9b08"
+    },
+    {
+      "basename": "ballas_propconvfig8.pdf",
+      "local_container_basename": "oa-r42-primary.rvmn8B",
+      "url": "https://web.math.ucsb.edu/~sballas/research/documents/propconvfig8.pdf",
+      "bytes": 728526,
+      "sha256": "cdb095d17aba2f228ede3bfc52731afd66caa569c02bbf32ed97ed621d874468"
+    },
+    {
+      "basename": "benoist_hulin_2013.pdf",
+      "local_container_basename": "oa-r42-primary.rvmn8B",
+      "url": "https://msp.org/gt/2013/17-1/gt-v17-n1-p16-s.pdf",
+      "bytes": 350684,
+      "sha256": "df3bf945f872353cb02334b6963b62bb5b77b1f01dc6fc4a8b4cf17a384f43c7"
+    }
+  ],
+  "pytest_focused": [
+    "tests/test_physical_bridge_affine_background.py",
+    "tests/test_physical_bridge_affine_ricci_control_v2.py",
+    "tests/test_physical_bridge_canonical_cusp.py"
+  ]
+}

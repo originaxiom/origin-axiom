@@ -859,3 +859,22 @@ The four successor files below are unexecuted at this separate seal.
 | `reports/physical_bridge_2026_09_05/AFFINE_RICCI_CONTROL_V2_INPUTS.json` | `f344251faff4b87e9c64d24551c48f69f87c081e05a2a6330ee9810e31a9f19b` |
 | `reports/physical_bridge_2026_09_05/affine_ricci_control_v2.py` | `3849593f5507eddd4a6babec163506f4bcb4f9d925c5146b5877bc15bea61254` |
 | `tests/test_physical_bridge_affine_ricci_control_v2.py` | `06756e368ea082fd4bb9c53d413db7d2b5aafbb19e4b439e36bfadf13ca73369` |
+
+
+## Path-local R44, 2026-09-25 - canonical cusp and complete mode complex, before execution
+
+Six new scientific files below are unexecuted. The authored proof joins
+actual convex end geometry, the canonical coefficient norm and the full
+closed complex. It credits external proper-convexity, jet-continuity,
+Margulis and relative-core inputs; finite controls do not certify them.
+Paired H1 survival is the positive prior, not physical chirality or a TOE.
+No shared B/I allocation and no changes to preceding scientific files.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CANONICAL_CUSP_DESIGN.md` | `d46c71ad48c19f87b54a92bf634387a6097f16f0f0615f9eefc1a3c6bc9730ed` |
+| `reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md` | `93836bfe7ca0be900caa37d2f9dee45435a881c29fff2b461458bc37bd8982a7` |
+| `reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PRIOR.md` | `32b6d753a36ad0488c798d16517a396f69ed0d33963c44d53d56fdf04ba3543a` |
+| `reports/physical_bridge_2026_09_05/CANONICAL_CUSP_INPUTS.json` | `8756970eac263c8d9717f42d2d13c6b18c00fc09cb6ac5a9d654007f235f20c2` |
+| `reports/physical_bridge_2026_09_05/canonical_cusp.py` | `a8e5dd6a8d71dfe534c97f48812b91afc67c5946ccc404e7b8540c567105dd70` |
+| `tests/test_physical_bridge_canonical_cusp.py` | `26c27221424b83ef66c6c447457b56b883de13b6ba3e5b741d0606a0988e409d` |
