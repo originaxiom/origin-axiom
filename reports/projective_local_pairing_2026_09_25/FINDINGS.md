@@ -150,3 +150,14 @@ The complete argument is in [PROOF.md](PROOF.md); hypotheses, prior-art
 scope and preregistration in [DESIGN.md](DESIGN.md); execution custody
 in [RECHECKS.md](RECHECKS.md). No shared B allocation, main edit, push,
 PR, new all-head absence claim or external publication.
+
+## Follow-through: the first cover/character test
+
+[F17](../projective_cover_characters_2026_09_25/FINDINGS.md) now tests the
+unfilled three-fold cover with every scalar mu4 character. All 64 retain
+a linear inversion/deck-lift pairing, and only the known base-character
+restrictions carry matter at the exceptional points. The 60 additional
+characters do not add a mode. This is a scoped tested extension, not an
+all-cover consequence of F16. Its explicit restriction-irreducibility
+check and explicit cusp/metric join pay the duties needed here; arbitrary
+nearby representations still retain the qualifications above.

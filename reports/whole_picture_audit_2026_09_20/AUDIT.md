@@ -244,6 +244,19 @@ arithmetic-class or quantum no-go is asserted. The next discriminator
 is actual cover/character or admissible end/source data that changes a
 pairing hypothesis, before any new coupling-profile calculation.
 
+[F17](../projective_cover_characters_2026_09_25/FINDINGS.md), September 25,
+now tests the unfilled three-fold cyclic cover with ALL 64 scalar mu4
+characters. Every row retains a linear geometric pairing through one of
+the inversion/deck lifts; checking the original inversion alone would
+have falsely left 48 candidates. Only the known base-character restrictions
+carry exceptional matter, one mode in each dual sector; the other 60
+characters add none. Thirteen new and 52 unchanged checks pass. The
+authored metric/whole-interaction join uses the pulled-back hyperbolic
+background, not the other seat's different canonical base metric.
+This closes this central-character escape, not all covers or quantum
+phases. Next test whether cyclic monodromy forces an all-degree version,
+using existing torsion/action results before another census.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

@@ -1,0 +1,113 @@
+{
+  "seal": "1b89cdc30e250729ccdc5fc32c9a930c1cacbae6",
+  "source_read_only_through_final_exit": true,
+  "runtime": {
+    "python": "3.12.1",
+    "sympy": "1.14.0",
+    "pytest": "9.0.3"
+  },
+  "runs": {
+    "F17_tests": {
+      "command": "python3.12 -m pytest -q reports/projective_cover_characters_2026_09_25/test_verify.py",
+      "output_file": "TEST_OUTPUT.txt",
+      "chunks": [
+        {
+          "chunk_id": "5deeb2",
+          "wall_time_seconds": 1.000719679,
+          "session_id": 7232,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "f66dd6",
+          "wall_time_seconds": 5.001565577,
+          "session_id": 7232,
+          "original_token_count": 2
+        },
+        {
+          "chunk_id": "aea3b6",
+          "wall_time_seconds": 5.001653657,
+          "session_id": 7232,
+          "original_token_count": 1
+        },
+        {
+          "chunk_id": "06a43d",
+          "wall_time_seconds": 0.000021929,
+          "exit_code": 0,
+          "original_token_count": 26
+        }
+      ]
+    },
+    "F17_witness": {
+      "command": "python3.12 -u reports/projective_cover_characters_2026_09_25/verify.py",
+      "output_file": "EXACT_WITNESSES.jsonl",
+      "chunks": [
+        {
+          "chunk_id": "fb6c18",
+          "wall_time_seconds": 1.002647031,
+          "session_id": 51076,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "e24d9b",
+          "wall_time_seconds": 5.001629979,
+          "session_id": 51076,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "e53fb1",
+          "wall_time_seconds": 5.001944666,
+          "session_id": 51076,
+          "original_token_count": 5497
+        },
+        {
+          "chunk_id": "ae96f4",
+          "wall_time_seconds": 0.000022558,
+          "exit_code": 0,
+          "original_token_count": 5497
+        }
+      ]
+    },
+    "F17_antecedents": {
+      "command": "python3.12 -m pytest -q --import-mode=importlib reports/projective_geometric_pairing_2026_09_25/test_verify_v2.py reports/projective_local_pairing_2026_09_25/test_verify.py",
+      "output_file": "ANTECEDENT_OUTPUT.txt",
+      "chunks": [
+        {
+          "chunk_id": "0c5bf3",
+          "wall_time_seconds": 1.000571892,
+          "session_id": 23915,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "9c4244",
+          "wall_time_seconds": 5.001323968,
+          "session_id": 23915,
+          "original_token_count": 5
+        },
+        {
+          "chunk_id": "5b7405",
+          "wall_time_seconds": 5.002595339,
+          "session_id": 23915,
+          "original_token_count": 2
+        },
+        {
+          "chunk_id": "c8dcb9",
+          "wall_time_seconds": 5.001656464,
+          "session_id": 23915,
+          "original_token_count": 2
+        },
+        {
+          "chunk_id": "fc3103",
+          "wall_time_seconds": 5.00109134,
+          "session_id": 23915,
+          "original_token_count": 4
+        },
+        {
+          "chunk_id": "cb489b",
+          "wall_time_seconds": 0.0000152,
+          "exit_code": 0,
+          "original_token_count": 17
+        }
+      ]
+    }
+  }
+}

@@ -501,6 +501,20 @@ and completed-operator pairing are still separate hypotheses for new
 backgrounds. Cover/character compatibility is the next specified test;
 no fresh all-head absence claim or completed TOE follows.
 
+[F17](../projective_cover_characters_2026_09_25/FINDINGS.md), September 25,
+performs that cover/character test on the unfilled three-fold cover,
+not B1279's branched closing. All 64 central fourth-root characters
+retain a linear inversion/deck-lift pairing. Only restrictions of the
+known base characters carry the exceptional modes; all 60 additional
+characters are acyclic there. A one-map check would wrongly label 48
+characters as escaping the pairing. Thirteen new and 52 unchanged
+tests pass with exact witnesses and an authored metric/interaction join.
+Fresh advertised remote heads were checked, but no new all-history
+absence claim is made. Next use the existing monodromy/torsion work
+to test a structural all-degree statement; degree three alone does not
+prove it. Source/end data, noncentral holonomies and quantum phases
+remain separate routes. No physical chirality or completed TOE follows.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md
