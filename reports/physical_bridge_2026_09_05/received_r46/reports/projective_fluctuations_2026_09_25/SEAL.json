@@ -1,0 +1,18 @@
+{
+  "arc": "F13",
+  "date": "2026-09-25",
+  "starting_commit": "686705fc",
+  "status": "pre-execution scientific sources and direct imports",
+  "hash_tool_receipt": "0d410d",
+  "sha256": {
+    "reports/projective_fluctuations_2026_09_25/DESIGN.md": "0c2c141b5cf52b2c8905c46cf9b037b2bfd426f2fb8d191e45a6e7f1a41520a1",
+    "reports/projective_fluctuations_2026_09_25/PROOF.md": "78cad2ebdfcd9e3b065dfaaf3eb7c545dd9348b7e7a6bcc3846ae17a23b34cd0",
+    "reports/projective_fluctuations_2026_09_25/verify.py": "1654da39f5be1803502fee3afc86c2faa949e7480638151898c88662fe3a101b",
+    "reports/projective_fluctuations_2026_09_25/test_verify.py": "659553176130461d2d4adc4ddcad4eb6a9f5eba1a893ec435e37cafe77330471",
+    "reports/projective_global_metric_2026_09_21/verify.py": "bdf1bac226afeed1df20eca1545e72d731f07ccd546f54d05b12475784fd7db5",
+    "reports/projective_cusp_spectrum_2026_09_21/exception_verify.py": "63283c0c44897a295e0622aba5cd79d25c50b1dea3b4719f9d3a6a2183afd8a7",
+    "reports/projective_cusp_spectrum_2026_09_21/verify.py": "d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926",
+    "reports/projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18",
+    "reports/parent_twist_gap_2026_09_20/verify.py": "cc00073a813b7e7e2cff1f2669c0681fa52d32b13260c3523cb5c72fb66bd4ed"
+  }
+}

@@ -894,3 +894,41 @@ Commit, push and server-confirm before first execution.
 | `reports/physical_bridge_2026_09_05/PARENT_CUSP_INPUTS.json` | `2e8254a33f06d9fd788314a9c602c3588a7e71ce5474891ed770e649d6a14efd` |
 | `reports/physical_bridge_2026_09_05/parent_cusp.py` | `27c5455959b13ac0112f7cb668b37843355fe08b4a367d897a2132df87f88c1c` |
 | `tests/test_physical_bridge_parent_cusp.py` | `73e0ccfd176f120feaafc7adfbabc70a3138007042c3a7ade2510d2d0fed750f` |
+
+## R46 canonical interaction join, September 25, 2026
+
+Pre-execution design/proof/instrument and unchanged F12/F13 reception.
+Own input 77a094c9; incoming local fork 0ab31a59. Push/remote confirmation
+precedes all execution; no full-suite or independent proof certificate.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_DESIGN.md` | `b62a7fdc6472894fdb3dc11a5187ec9995ce8382d101d543bb74a024537eca6b` |
+| `reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_PROOF.md` | `bdc2f85f720b353ff5babf0eaafd1c4acb70057a4dc3774a21975ed6b8b5654d` |
+| `reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_PRIOR.md` | `0b59bdb09de1ffcd28f058c48c7fca2ae5172b818c4c6e22d7296efa78f1c168` |
+| `reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_INPUTS.json` | `e006c0e08ac26f3b932a13379b65c992c84871dbaada312413059a0f497718c5` |
+| `reports/physical_bridge_2026_09_05/canonical_interaction.py` | `000d1ecaa179b8abbb027da1eee16818a974be3f7cb99411ac72739bcdad59c9` |
+| `tests/test_physical_bridge_canonical_interaction.py` | `37d81a07bb390e70ffd0ba239875f86521405f593aa339efc417b0a2b3533d0a` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/parent_twist_gap_2026_09_20/verify.py` | `cc00073a813b7e7e2cff1f2669c0681fa52d32b13260c3523cb5c72fb66bd4ed` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_cusp_spectrum_2026_09_21/exception_verify.py` | `63283c0c44897a295e0622aba5cd79d25c50b1dea3b4719f9d3a6a2183afd8a7` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_cusp_spectrum_2026_09_21/verify.py` | `d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_escape_2026_09_21/verify.py` | `603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/DESIGN.md` | `0c2c141b5cf52b2c8905c46cf9b037b2bfd426f2fb8d191e45a6e7f1a41520a1` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/EXACT_WITNESSES.txt` | `1614f0d6763baf4af4f46287397b47d69ac995ebd4b3712307f7d4ad5d0efcb5` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/EXECUTION.json` | `9a26e1217749c4fb8e438df48724329eca01c4e431cccb3913c1b2f5988dcb67` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/FINDINGS.md` | `e1a8b16ba619ecb7ed26a9bf5cc106a13f810f4478b326d1521c510ec918b051` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/PROOF.md` | `78cad2ebdfcd9e3b065dfaaf3eb7c545dd9348b7e7a6bcc3846ae17a23b34cd0` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/RECHECKS.md` | `3fa6c39ec324cacaf9b194bf99b0b2ea144a3c4eed26d2e86406c478a9c87e4b` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/SEAL.json` | `6e9c3d6589c0170fef90d5c96a32b12b995715e2b83d19382fea91387222a4f7` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/test_verify.py` | `659553176130461d2d4adc4ddcad4eb6a9f5eba1a893ec435e37cafe77330471` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_fluctuations_2026_09_25/verify.py` | `1654da39f5be1803502fee3afc86c2faa949e7480638151898c88662fe3a101b` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/ANTECEDENT_TEST_OUTPUT_REDACTED.txt` | `2e5ab2e83d4580def9281b757eb23a66de667875d2c43230bc1dd5340c24cbf1` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/DESIGN.md` | `bc8194b86081545b76f57cfbc7907b4140721c10b8a73367dfb21b3fe9da9652` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/EXACT_WITNESSES.txt` | `8a84adff6d40c92cc48396f02f53fb836e601f770ae1da1db6fd1ecfd8c7b803` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/FINDINGS.md` | `250440766765f9306b4f82d7d2b7ec3daf519fd78b91b0cab3ddbb71952a65b4` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/PROOF.md` | `10de1c74db67a18b1bbbc2a7c6c2fc20229185db3faffbc63d6f7a5fcac37e8d` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/RECHECKS.md` | `91651791002574b1067f0fb612c906a2d952420020f3f4c3e2279d2eaebeed2d` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/SEAL.json` | `e5738e080950699d0a9a00e83b1578821fa78026e3c0de32923b5e0a1111a555` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/TEST_OUTPUT.txt` | `560d06e7ca3f9a2d6f04a6f7edf908ca58ccf004c741af9a94d6929309902910` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/test_verify.py` | `51df31a0978c499b6afdbc7348494c19163e09671414ec063741aa60f38763ce` |
+| `reports/physical_bridge_2026_09_05/received_r46/reports/projective_global_metric_2026_09_21/verify.py` | `bdf1bac226afeed1df20eca1545e72d731f07ccd546f54d05b12475784fd7db5` |

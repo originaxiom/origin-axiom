@@ -1,0 +1,14 @@
+{
+  "scope": "F12 global harmonic-metric completion; sealed before first execution",
+  "date": "2026-09-25",
+  "base_commit": "08ff88e0",
+  "sha256": {
+    "reports/projective_global_metric_2026_09_21/DESIGN.md": "bc8194b86081545b76f57cfbc7907b4140721c10b8a73367dfb21b3fe9da9652",
+    "reports/projective_global_metric_2026_09_21/PROOF.md": "10de1c74db67a18b1bbbc2a7c6c2fc20229185db3faffbc63d6f7a5fcac37e8d",
+    "reports/projective_global_metric_2026_09_21/verify.py": "bdf1bac226afeed1df20eca1545e72d731f07ccd546f54d05b12475784fd7db5",
+    "reports/projective_global_metric_2026_09_21/test_verify.py": "51df31a0978c499b6afdbc7348494c19163e09671414ec063741aa60f38763ce",
+    "reports/projective_cusp_spectrum_2026_09_21/exception_verify.py": "63283c0c44897a295e0622aba5cd79d25c50b1dea3b4719f9d3a6a2183afd8a7",
+    "reports/projective_cusp_spectrum_2026_09_21/verify.py": "d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926",
+    "reports/projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18"
+  }
+}
