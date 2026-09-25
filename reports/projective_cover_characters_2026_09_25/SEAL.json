@@ -1,0 +1,21 @@
+{
+  "purpose": "F17 scientific pre-execution seal; no run result yet",
+  "parent": "f45e8c39",
+  "algorithm": "sha256",
+  "files": {
+    "reports/projective_cover_characters_2026_09_25/DESIGN.md": "180ed389f3c2b40ec6c30abbe68420c66e222bada9e982b6e5f71bcf17f6c77f",
+    "reports/projective_cover_characters_2026_09_25/PROOF.md": "d23b4f9342b561714646104921d07899e712a5bcc6d2f4fc724051129cdf3627",
+    "reports/projective_cover_characters_2026_09_25/verify.py": "531f5474bdd089bd6dc3c3c04f76a95dbcf1fd224f17753678fb2e711693f353",
+    "reports/projective_cover_characters_2026_09_25/test_verify.py": "2ef1085ac8215cba07cf2b65955b88597d59e37fca85e534b3c11352530f2a0c",
+    "reports/projective_deformation_tangent_2026_09_25/verify_v2.py": "226834120941e3c6d041e93794d366a020dd10ab3a563d2b67ce2615398a34ec",
+    "reports/projective_deformation_tangent_2026_09_25/verify.py": "0a1b1b2a198d4e8c6083b679fea7d70be74ffb95678925b56c6a5a2f02560805",
+    "reports/projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18"
+  },
+  "scientific_import_chain": ["F17 -> corrected F15 adapter -> original F15 -> F10"],
+  "other_inputs": {
+    "B1274_B1278_B1279": "6f077ef2",
+    "other_seat_latest_advertised": "20a5c718eec9adfd2f048e37da546cc8b6064540",
+    "F14_geometric_maps": "46f42302"
+  },
+  "execution_rule": "Commit before first scientific run; source read-only through every final exit; preserve failures."
+}
