@@ -172,6 +172,20 @@ next existence test; the distant parameters are not covered by the
 paper's nearby convex-geometry theorem. No physical vacuum selection,
 measured value, complete interaction or gravitational theory follows.
 
+[F12](../projective_global_metric_2026_09_21/FINDINGS.md), September 25,
+addresses that global existence duty. A sharp determinant-one cusp
+energy floor leaves integrable reference excess; exact full matrix
+algebra certificates at both exceptional quadratics prevent target
+escape. Compact-domain minimizers have a smooth global harmonic limit,
+and a maximum principle keeps it in F11's actual end norm class. This
+is an authored analytic proof with 15 passing new algebraic controls
+and 236 passing unchanged checks, not a numerical PDE solution or
+independent acceptance. The counted modes now belong to a globally
+solved bulk gauge background, still one in each dual sector. Physical
+end variations, uniqueness, normalized nonlinear interactions and any
+mirror-selective phase are the next tests; no full vacuum or TOE is
+claimed. Scientific predecessors and failed versions remain preserved.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

@@ -1,0 +1,13 @@
+Runtime user-home prefix below replaced by <USER_HOME>; remaining tool-returned stdout unchanged.
+
+........................................................................ [ 30%]
+........................................................................ [ 61%]
+........................................................................ [ 91%]
+....................                                                     [100%]
+=============================== warnings summary ===============================
+reports/nonsplit_cusp_growth_2026_09_20/test_verify.py::test_marked_base_has_one_cusp
+  <USER_HOME>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+236 passed, 1 warning in 228.52s (0:03:48)

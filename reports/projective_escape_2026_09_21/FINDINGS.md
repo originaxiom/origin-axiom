@@ -2,6 +2,14 @@
 
 September 21, 2026. Local branch `audit/fork-2026-09-20`.
 
+**September 25 follow-through:** [F12](../projective_global_metric_2026_09_21/FINDINGS.md)
+constructs, by an authored analytic existence argument with exact
+algebraic checks, global harmonic completions at F11's mode-bearing
+exceptional parameters. The changed end is included in the norm-class
+control. This advances the global matching duty; it does not supply
+the physical end prescription, chiral dynamics or gravity. The original
+F10 science and the historical checkpoint below are unchanged.
+
 ## Verdict
 
 There is an explicit global representation curve through F08's balanced

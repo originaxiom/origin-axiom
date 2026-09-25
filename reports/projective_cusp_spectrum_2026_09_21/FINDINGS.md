@@ -2,6 +2,15 @@
 
 September 21, 2026. Local fork `audit/fork-2026-09-20`.
 
+**September 25 follow-through:** [F12](../projective_global_metric_2026_09_21/FINDINGS.md)
+supplies an authored global harmonic-metric existence proof at the
+exceptional parameters, controlling the actual end norm class. Fifteen
+new checks and 236 unchanged antecedents pass. The global-existence
+duty named below is addressed in this model; physical end/action,
+interaction and chirality duties remain. Original F11 science and its
+failed expectation are unchanged. The body below records F11's own
+September 21 checkpoint.
+
 ## Verdict: the initial vanishing expectation was wrong
 
 F10 supplied an exact holonomy curve breaking the previous invertible

@@ -435,6 +435,18 @@ and 196 antecedent checks pass unchanged. The targets are vector-like
 and global harmonic-metric existence is not yet supplied. This is
 progress toward a common model, not a completed chiral vacuum or TOE.
 
+[F12](../projective_global_metric_2026_09_21/FINDINGS.md), September 25,
+supplies the missing-in-F11 global harmonic completion argument for
+those exceptional parameters. Sharp end energy, exact full word algebra,
+local compactness and a cusp maximum principle keep the global solution
+in the norm class where the modes were counted. Fifteen new exact
+checks and 236 unchanged antecedents pass. The existence proof is
+authored analysis, not a numerical global solve or independent review.
+This joins the mathematical modes to an actual adopted bulk background;
+it does not supply physical end/action selection or net chirality.
+The next tests concern end variations, uniqueness, product domains and
+normalized parent interactions. No new all-head sweep or absence claim.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md
