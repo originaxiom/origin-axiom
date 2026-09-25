@@ -878,3 +878,19 @@ No shared B/I allocation and no changes to preceding scientific files.
 | `reports/physical_bridge_2026_09_05/CANONICAL_CUSP_INPUTS.json` | `8756970eac263c8d9717f42d2d13c6b18c00fc09cb6ac5a9d654007f235f20c2` |
 | `reports/physical_bridge_2026_09_05/canonical_cusp.py` | `a8e5dd6a8d71dfe534c97f48812b91afc67c5946ccc404e7b8540c567105dd70` |
 | `tests/test_physical_bridge_canonical_cusp.py` | `26c27221424b83ef66c6c447457b56b883de13b6ba3e5b741d0606a0988e409d` |
+
+## R45 parent cusp pre-execution seal, 2026-09-25
+
+Supplied E8 parent, actual canonical projective four; zero-weight end
+sectors retained. External density and R44 global inputs are explicit.
+Finite controls do not certify the global/domain proof or physical TOE.
+Commit, push and server-confirm before first execution.
+
+| Path | SHA256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/PARENT_CUSP_DESIGN.md` | `a3775b8a75032b41458a407c62d82f941f25a18b49c5d24e98a97c9ddbc0c164` |
+| `reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md` | `fcca2f930bea13d4e5aeaba283d64b15e39bc7826a9e5901232a679a1b12d6ab` |
+| `reports/physical_bridge_2026_09_05/PARENT_CUSP_PRIOR.md` | `16c7e280be894cb1b8f9aca6abf89ae6036ec2c33632ba27fa098bf52c171a56` |
+| `reports/physical_bridge_2026_09_05/PARENT_CUSP_INPUTS.json` | `2e8254a33f06d9fd788314a9c602c3588a7e71ce5474891ed770e649d6a14efd` |
+| `reports/physical_bridge_2026_09_05/parent_cusp.py` | `27c5455959b13ac0112f7cb668b37843355fe08b4a367d897a2132df87f88c1c` |
+| `tests/test_physical_bridge_parent_cusp.py` | `73e0ccfd176f120feaafc7adfbabc70a3138007042c3a7ade2510d2d0fed750f` |
