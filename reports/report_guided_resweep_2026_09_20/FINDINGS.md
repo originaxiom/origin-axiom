@@ -447,6 +447,20 @@ it does not supply physical end/action selection or net chirality.
 The next tests concern end variations, uniqueness, product domains and
 normalized parent interactions. No new all-head sweep or absence claim.
 
+[F13](../projective_fluctuations_2026_09_25/FINDINGS.md), September 25,
+earns uniqueness in that bounded-distance end class and a sufficient
+fixed-end nonlinear domain containing the actual charged harmonic modes.
+Their analytic exponential cusp decay supplies L4 product integrability.
+Exact field cohomology makes the actual parent six sector acyclic, and
+its own complete cusp analysis gives a qualitative positive gap. The
+gauge-fixed scalar Hessian is matched to the published noncommuting
+parent action, not inferred from a representation label. Twenty-one
+new checks and 149 unchanged checks pass. These analytic applications
+remain authored, not independently reviewed. The next test is whether
+base isometries restore a full matter--mirror pairing despite F10's
+fiberwise obstruction, before spending effort on normalized coupling
+sizes. No nonzero coupling, selective phase, chirality or TOE is claimed.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

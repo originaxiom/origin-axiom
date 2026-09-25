@@ -134,6 +134,15 @@ residuals do not decide the physical end laws.
 
 ## 5. Next tests, not accomplished results
 
+**Update, September 25: [F13](../projective_fluctuations_2026_09_25/FINDINGS.md)**
+addresses the fixed-end-domain, uniqueness and product-integrability
+questions below, with authored analytic proofs and 21 new finite checks.
+It also computes the actual six sector's acyclicity and derives the
+parent's gauge-fixed scalar Hessian. The historical list is retained to
+show precisely which obligations F12 itself had not discharged.
+Normalized numerical profiles, nonzero/selective couplings, physical
+end selection and a quantum phase are not supplied by F13.
+
 1. Specify and test fixed-end variations in the actual parent action,
    including boundary terms and the nonlinear field domain. Fixed q is
    not already a dynamical four-dimensional scalar. R28's commuting

@@ -1,0 +1,96 @@
+{
+  "scientific_seal": "3237af91",
+  "date": "2026-09-25",
+  "source_changed_during_runs": false,
+  "new_tests": {
+    "session": 69850,
+    "exit_code": 0,
+    "chunks": [
+      {
+        "id": "eea42a",
+        "output": ""
+      },
+      {
+        "id": "a5340e",
+        "output": "..."
+      },
+      {
+        "id": "7ab94e",
+        "output": ".........."
+      },
+      {
+        "id": "d6ad41",
+        "output": "........                                                    [100%]\n21 passed in 60.97s (0:01:00)\n"
+      }
+    ]
+  },
+  "antecedent_tests": {
+    "session": 78842,
+    "exit_code": 0,
+    "chunks": [
+      {
+        "id": "17b282",
+        "output": ""
+      },
+      {
+        "id": "4185fa",
+        "output": "........................................................................ [ 48%]\n................................."
+      },
+      {
+        "id": "5179c7",
+        "output": ".."
+      },
+      {
+        "id": "e7f401",
+        "output": "."
+      },
+      {
+        "id": "39a286",
+        "output": ".."
+      },
+      {
+        "id": "35fe75",
+        "output": "..."
+      },
+      {
+        "id": "496e14",
+        "output": "."
+      },
+      {
+        "id": "cc7996",
+        "output": ""
+      },
+      {
+        "id": "921a5b",
+        "output": ".."
+      },
+      {
+        "id": "398543",
+        "output": "...."
+      },
+      {
+        "id": "d3663d",
+        "output": ".."
+      },
+      {
+        "id": "269fa6",
+        "output": "."
+      },
+      {
+        "id": "674a0e",
+        "output": "..................... [ 96%]\n.....                                                                    [100%]\n149 passed in 258.05s (0:04:18)\n"
+      }
+    ]
+  },
+  "witness_run": {
+    "session": 76086,
+    "exit_code": 0,
+    "chunks": [
+      "a76a8f",
+      "025f1b",
+      "d305bd",
+      "6af5df"
+    ]
+  },
+  "note": "Test stdout retained chunkwise. Exact witness stdout is in EXACT_WITNESSES.txt. No scientific failure or post-result correction."
+}

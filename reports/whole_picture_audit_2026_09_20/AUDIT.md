@@ -186,6 +186,21 @@ end variations, uniqueness, normalized nonlinear interactions and any
 mirror-selective phase are the next tests; no full vacuum or TOE is
 claimed. Scientific predecessors and failed versions remain preserved.
 
+[F13](../projective_fluctuations_2026_09_25/FINDINGS.md), September 25,
+addresses uniqueness and classical interaction admissibility on those
+same exceptional backgrounds. Finite-volume distance analysis and F12's
+irreducibility remove the arbitrary compact-core reference choice. Exact
+six-coefficient cohomology, its full cusp homotopy and the complete domain
+give a positive mediator gap, without importing F09's numerical bound.
+The actual parent Hessian is derived with its gauge fixing and relative
+normalizations, and an authored decay argument puts the counted charged
+modes in L4, making their bilinear sources L2. Twenty-one new checks and
+149 unchanged checks pass; analytic proof acceptance remains separate.
+This earns a defined classical interaction channel, not a nonzero or
+mirror-selective coupling. The next discriminator is the full set of
+base-isometry-plus-bundle pairings: F10's fiberwise obstruction never
+excluded them. Free matter is still vector-like; no TOE claim follows.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted
