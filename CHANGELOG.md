@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-09-25 - R46 joins charged modes to an admissible canonical interaction channel
+
+The local fork had advanced beyond the fetched remote inventory. Receive
+F12/F13 at 0ab31a59 unchanged: 36 tests pass, and the actual six's four
+exact witness lines reproduce byte-for-byte. Both exceptional loci have
+H1=0 in that coefficient, with its required central twist. Credit the
+incoming producer; do not repeat or rename its rank computation.
+
+New canonical analysis uses the shrinking meridian and the exceptional
+nontrivial phases to obtain a decaying full-complex homotopy, coercivity,
+Agmon decay and L4 charged modes. Together with R45's longitude comparison,
+the six is gapped on the SAME finite-Higgs-energy background. The supplied
+parent scalar response is finite. It is not proved nonzero or selective;
+the neutral untwisted sector is explicitly outside the meridian inverse.
+
+15 new tests, 13 native checks and the fixed three-file 52-test regression
+pass. Seal ab9f072a was pushed/server-confirmed before execution. Sources
+and raw transcripts are unchanged; analytic proof is authored, not
+independently accepted. Older failed populations and four historical
+governance categories remain. No whole-parent compact-resolvent, physical
+chirality, parent/parameter selection, gravity or complete TOE claim.
+Neutral global H1, q kinetics, actual normalized interactions, base-isometry
+plus duality, and R40/R41's noncentral-source route remain registered.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION.md.
+
 ## 2026-09-25 - R45 identifies the canonical parent's gauge and cusp sectors
 
 The whole supplied E8 parent is retained on R44's canonical background.

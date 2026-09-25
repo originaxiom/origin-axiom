@@ -892,3 +892,27 @@ outputs and exits are preserved in AFFINE_BACKGROUND_FINAL_CHECKS.txt.
 The September 22 check reports 26 PASS/four FAIL categories, with relay
 stale items now 29 rather than 25 due to aging. The larger debt inventory
 is not hidden behind the unchanged number of failing categories.
+
+## September 25 - R46 path-local reception and canonical join
+
+Seal ab9f072a: six own scientific files and 23 unchanged incoming files,
+committed, pushed and server-confirmed before all executions. The tree
+remained read-only until final exits. First dedicated tests 15 pass;
+incoming F12/F13 36 pass; fixed R44/R45/R46 52 pass; native 13 checks.
+The F13 witness producer is byte-identical to its incoming output.
+Thirty-eight predecessor paths and four preflight runs are pinned.
+
+Report, laws/sublemmas, progress/changelog/campaign and reader surfaces
+are updated together. Incoming duties are explicitly registered, notably
+base-isometry plus duality and the still-open neutral/q-kinetic problem.
+Three original reading-link context files were copied after execution,
+not misrepresented as presealed scientific inputs. Custody checks are
+metadata-only; the proofs retain authored, non-independent status.
+The preflight manifest's three local executable-path spellings and a
+resolved Ruby encoding false alarm are recorded in the receipts.
+
+No shared B/I number, main merge, independent banking reviewer or
+full-suite green is claimed. Governance retains four historical failure
+categories and 41 stale relay debts; prior scientific failures outside
+the declared run population are not silently erased. No chiral physical
+vacuum, parent/parameter selection, gravity or complete TOE is asserted.

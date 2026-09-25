@@ -1,0 +1,54 @@
+R46 reporting checks, September 25, 2026.
+
+Science seal ab9f072aacb7a2e341e45a53258116db8880e0d4.
+All six own and 23 received sealed files unchanged. The full tree was
+read-only until every scientific session returned its final exit.
+Native 13 checks; new 15 tests; unchanged F12/F13 36 tests;
+fixed R44/R45/R46 52 tests. All pass, with no scientific correction.
+F13 witness bytes identical. No full-suite or independent PDE claim.
+
+First R46 custody and contextual-file extension check: exit 0.
+29 sealed paths, 38 predecessor inputs, 23 received files, four prior
+runs and eight science/seal runs checked. Context check adds three
+post-run reading-only files, not presealed scientific imports.
+log_sha256 d53c4473c81a87a0295e3f9b96ee111dff54f4ab699f191b839d378e49a5c217
+
+Prior R45 custody: exit 0; all its original populations unchanged.
+log_sha256 362b738df076990026636b033d5c76503280657bf538acb6ab47145335e8da4b
+
+First cumulative check: exit 1, omitted current seal-ledger metadata
+digest. EOF-appended digest correction, no scientific source change.
+Failure log_sha256 42679e4513a3d14ace06956e543f992e871fd8ec9e86a18f17f6cdc26ce8ba14
+Retry exit 0: 757 artifact paths, 221 latest distinct seals, 305
+relative links and older failed populations preserved before this note.
+Retry log_sha256 8a04827fe5bf1c300c2dcb6206689d9d750d69c8c026b563b10dd3e0429e052a
+
+Pre-report governance: 26 PASS/four historical failure categories.
+First report governance: 25 PASS/five FAIL, adding LAW_MAP provenance.
+The R46 table header and explicit parent-context lineage citations
+were corrected, without changing the R46 proof/locks or weakening a gate.
+First report log_sha256 5a382ead9c96a8badffa1764628a30c3d7222929545613e1a514c3a4f789a56f
+Forty-one stale relay debts and review due at 205 merges remain visible.
+
+Strict staged whitespace: exit 0, empty output.
+log_sha256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+The first post-run inline byte comparison's Ruby encoding false alarm
+was resolved by binary comparison with equal hashes. Its tool evidence
+and the preflight manifest's three executable-path spellings remain
+documented. Newly published receipt commands redact environment paths.
+
+Fresh custody/cumulative/governance/whitespace checks follow this note
+and the append-only metadata hash refresh. They must pass their declared
+checks; governance is expected to retain only its four old categories.
+No independent main-bank acceptance, observed coupling, physical chiral
+spectrum, parameter selection, gravity or complete TOE is claimed.
+
+Ready checks completed: custody exit 0, cumulative exit 0, strict
+whitespace exit 0. Governance returned exactly its pre-report output:
+26 PASS/four historical FAIL categories; LAW_MAP provenance now passes.
+Custody ready log_sha256 3cba70e13056301ae523fd99bbfeae7acb8ad2a50193245a1ecce88b8f572c3a
+Cumulative ready log_sha256 e82f9d0afc81080502be5405cae0837bf7dcf520fd90ddaaf1720082e40ade5e
+Governance ready log_sha256 3c684113b3c013e46feeb03512fbd94371bfb28b257f398ad3cc214795ebdac3
+Only this metadata note and its artifact hash are appended afterward;
+the scientific tree and all declared outcomes remain unchanged.

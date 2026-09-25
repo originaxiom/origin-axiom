@@ -412,3 +412,23 @@ R42 Ricci comparison failure. Six scientific files were sealed and
 server-confirmed before execution. No compact-resolvent claim, full
 parent census, physical chirality, gravity or completed TOE is made.
 The old nonsplit/source model is not merged into this different family.
+
+## September 25 - R46 receives the mediator and earns nonlinear admissibility
+
+This dated checklist advances only the same canonical specification:
+
+- [x] Receive unchanged F13 exact six H1=0 at the exceptional loci and
+  use the already earned canonical longitude comparison for its gap.
+- [x] Derive charged nontrivial-meridian decay on the actual canonical
+  metric; show the paired harmonic modes belong to Dom(Q) intersect L4.
+- [x] Join these to a finite response in the supplied scalar Hessian.
+- [ ] Compute actual nonzero normalized sources and response tensors.
+- [ ] Test base-isometry plus duality before claiming unequal mirrors.
+- [ ] Complete neutral/adjoint global H1 and q/base variation kinetics.
+- [ ] Independently review the global analytic chain; complete the
+  parent gauge/end/anomaly/quantum and gravitational duties.
+
+All 15 new, 36 received and 52 focused tests pass in their declared,
+overlapping populations. This is NOT 103 distinct tests or independent
+PDE acceptance. The earlier failures stay preserved. R40/R41 remains
+a separate route. [R46 report](CANONICAL_INTERACTION.md).

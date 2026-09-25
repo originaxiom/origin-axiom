@@ -15391,3 +15391,30 @@ kinetics, the exterior-square global groups, and normalized interactions
 with source/end/anomaly consistency. The R40/R41 route remains separate;
 three generations, selection, gravity and empirical predictions remain.
 Report: reports/physical_bridge_2026_09_05/PARENT_CUSP.md.
+
+## 2026-09-25 - R46 canonical interaction admissibility
+
+Own science seal ab9f072aacb7a2e341e45a53258116db8880e0d4 was pushed
+and server-confirmed before execution. All GitHub heads were fetched;
+the newer LOCAL fork at 0ab31a59 supplied F12/F13. Twenty-three unchanged
+presealed source files, original receipts and exact algebra were received.
+F12/F13: 36 tests pass; F13 mediator witnesses reproduce byte-for-byte.
+
+The new authored canonical-metric argument uses nontrivial meridian
+phases and the shrinking cycle to give a decaying full-complex homotopy.
+Coercivity, an Agmon bound and all-jet/local elliptic control give L4
+charged modes; finite volume alone would not suffice. At the exceptional
+loci the actual six has H1=0, so R45's canonical longitude comparison
+gives a positive gap. The adopted parent's scalar response is finite
+on this SAME finite-Higgs-energy background. No numerical gap, nonzero
+source, unequal dual response or physical chirality is inferred.
+
+13 native checks, 15 new tests, fixed R44/R45/R46 regression 52 pass.
+All science remained read-only through final exits. Finite tests are
+not independent global proof acceptance. Earlier failures and four
+governance categories remain, including 41 stale relay debts. Metadata
+encoding and path-redaction warts are explicitly retained in receipts.
+Neutral/adjoint global H1, actual q kinetics, normalized sources and
+base-isometry/duality constraints remain next; preserve R40/R41.
+No parent selection, SM vacuum, scales, gravity or full TOE closure.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION.md.

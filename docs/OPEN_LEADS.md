@@ -1,6 +1,12 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-Latest path-local R45: the supplied canonical parent has so(10) gauge
+Latest path-local R46: the exceptional six and canonical nonlinear
+integrability duties are addressed, not the neutral global or q-kinetic
+problem. Actual nonzero/selective interactions and base-isometry/duality
+remain to be tested; see the full dated duty entry at the end and
+reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION.md.
+
+Previous path-local R45: the supplied canonical parent has so(10) gauge
 zero modes, while zero-weight cusp channels retain a separate global
 H1 duty. See reports/physical_bridge_2026_09_05/PARENT_CUSP.md and the
 dated R45 entries below. Peripheral groups are not particle counts.
@@ -3374,3 +3380,38 @@ No old-base nonnormalizability, local torus dimension or Euler zero is
 imported as the answer. Do not repeat R43's exceptional defining ranks.
 Independent review of R44/R45 global arguments remains a named duty.
 No parameter selection, physical chirality, gravity or TOE closure.
+
+### PB-DOMAIN / PB-ACTION, September 25: R46 same-model interaction join
+
+Disposition of R45's exterior-square duty: F13 at LOCAL fork 0ab31a59
+already computed the actual six H1=0 at the exceptional loci. Its
+unchanged code and witnesses reproduce here. R45's canonical comparison
+turns this into a positive mediator one-form gap. This is NOT a new
+global rank computation or a conclusion on every parameter/cover.
+
+Disposition of nonlinear integrability: R46's canonical meridian
+homotopy, Agmon and local regularity argument gives exceptional charged
+L4 modes and a finite scalar response in the supplied action. Proof:
+reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION_PROOF.md.
+Its trivial-meridian failure control and rank-one zero-source control
+forbid universal confinement and automatic nonzero interaction claims.
+
+NEXT (retained rather than replaced):
+- Solve the neutral/adjoint zero-weight radial and global H1 problem,
+  and the actual coupled q/base variation's kinetic norm on THIS metric.
+- Compute the actual normalized charged source and full response tensors;
+  prove nonzero where claimed, then test mirror selectivity.
+- Receive/test F13's carried-forward BASE-ISOMETRY PLUS BUNDLE-DUALITY
+  route: failure of a fiberwise dual map alone does not imply unequal
+  interactions. A geometric symmetry may enforce equality of whole
+  response tensors. This is registered, not asserted as an outcome.
+- Complete gauge-vector/ghost/Ward, end/anomaly and quantum-phase duties;
+  do not identify a scalar Hessian inverse with the full physical theory.
+- Preserve R40/R41's separate noncentral-source route, parameter/twist
+  selection, SM breaking and gravitational completion.
+- Obtain independent specialist review of R42/R44/R45/R46 global
+  topology, metric, domain and decay arguments; finite tests do not pay it.
+
+No member-level result closes a class-level chirality route. No physical
+chiral spectrum, observed coupling, dynamically selected parent or TOE
+completion is banked here.

@@ -1,6 +1,23 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
-**Latest local result, R45 (September 25): parent gauge and cusp sectors.**
+**Latest local result, R46 (September 25): canonical interaction admissibility.**
+The exceptional charged modes have a decaying MERIDIAN homotopy on
+the actual canonical cusp, giving L4 profiles at authored-proof grade.
+Incoming F13's exact six H1=0 reproduces unchanged; R45's canonical
+longitude comparison gives a positive mediator gap on the SAME
+finite-Higgs-energy background. The supplied parent scalar response
+is finite, not proved nonzero, mirror-selective or physically chiral.
+All 15 new tests, 36 unchanged F12/F13 tests and the fixed R44/R45/R46
+52-test regression pass; exact mediator witnesses are byte-identical.
+Seal ab9f072a was pushed/server-confirmed before all science runs.
+Old failures and four governance debt categories remain; no independent
+global proof acceptance, full-parent gap, physical vacuum or TOE claim.
+Next: neutral/adjoint global H1 and q kinetics, actual normalized source
+and response, and base-isometry/duality constraints. Preserve R40/R41.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION.md.
+Earlier dated entries are historical checkpoints.
+
+**Previous local result, R45 (September 25): parent gauge and cusp sectors.**
 The actual canonical projective four in the supplied E8 parent has
 so(10) as its 45-dimensional normalizable compact gauge zero algebra.
 The authored application uses the published all-q!=1 density theorem

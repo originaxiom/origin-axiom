@@ -1,6 +1,12 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
-Latest path-local R45: the supplied canonical parent has so(10) gauge
+Latest path-local R46: charged canonical-cusp confinement, the received
+six's canonical gap, and admissible parent scalar response are recorded
+in the dated entries at the end. Authored analysis plus finite controls,
+not a nonzero coupling, independent acceptance or physical chirality.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION.md.
+
+Previous path-local R45: the supplied canonical parent has so(10) gauge
 zero modes, while zero-weight cusp channels retain a separate global
 H1 duty. See reports/physical_bridge_2026_09_05/PARENT_CUSP.md and the
 dated R45 entries below. Peripheral groups are not particle counts.
@@ -643,3 +649,15 @@ main-bank certificate. External density and R44 global inputs remain explicit.
 | The actual canonical four retains exactly the supplied D5 gauge algebra | For q>0, q!=1 and the four mu4 twists in the specified SU4-in-E8 parent, published density removes flat invariants in 4, dual4, 6 and 15. The authored positive-vector-form and finite-volume cutoff argument leaves exactly the compact so(10) algebra. No global disconnected group, SM breaking or chiral vacuum is derived. | B1138 parent context only; reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md sections 1--2; tests/test_physical_bridge_parent_cusp.py::test_actual_lie_invariants_not_dimension_matching; tests/test_physical_bridge_parent_cusp.py::test_complete_actual_parent_weights_and_wrong_bar_control; external density and domain proof are not certified by finite tests |
 | Full parent end separates 194 nonzero and 54 zero longitudinal directions | R44's actual induced connection has a bounded finite-series Fourier inverse on every nonzero weight block, with radial flatness retained. The zero space is 45 trivial plus nine adjoint directions. These are end subbundles, not independently selected global fields; the full parent is not contracted. | B1138 context only; reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md section 3; tests/test_physical_bridge_parent_cusp.py::test_entire_radial_connection_and_two_sided_inverse; tests/test_physical_bridge_parent_cusp.py::test_zero_weight_cannot_use_the_defining_inverse |
 | Peripheral invariant groups are not global gauge or matter counts | The zero-adjoint torus complex has dimensions (3,6,3), giving whole-parent (48,96,48) after adding the trivial 45. D, R^-1/2 N and R^-1 P are cusp-parallel L2 sections on the tail but have no global adjoint-flat extension for q!=1. No global neutral H1 count is supplied. | B1420 coefficient/cohomology context only; reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md section 4; tests/test_physical_bridge_parent_cusp.py::test_zero_sector_log_and_actual_holonomy_complexes; tests/test_physical_bridge_parent_cusp.py::test_peripheral_invariants_are_radially_parallel_and_L2_on_tail |
+
+### Path-local R46, September 25: canonical charged interaction domain
+
+| law | scope | source / lock |
+|---|---|---|
+| Nontrivial meridian phases confine the canonical charged coefficient | On R44's canonical cusp, E_chi and its dual for chi=-1,+i,-i have K_x=contraction_x T_x^-1 of norm O(R^-1/2), with full radial compatibility. Complete-domain coercivity and authored Agmon/local regularity yield compact resolvent in THESE sectors and Lp harmonic modes for all p>=2. Trivial-character zero frequency is excluded; no whole-parent claim. | B1138 conditional parent context, not a source for this new analysis; R46 CANONICAL_INTERACTION_PROOF.md sections 1--2; tests/test_physical_bridge_canonical_interaction.py::test_complete_exterior_Cartan_identity_and_missing_derivative_control; test_zero_frequency_is_a_real_failure_not_a_small_gap; external R44 all-jet inputs, not certified by these finite controls |
+| The actual exceptional six has a positive canonical one-form gap | Incoming F13's exact H1=0 at both roots of p14 with six character -1 and p34 with character +1 reproduces unchanged. R45's canonical closed-range/ordinary comparison gives delta_W>0, not a measured value. The p34 case does NOT inherit meridian compactness from its matter fields. | B1138 conditional parent context, not a source for this new analysis; Received 0ab31a59 F13 verify.py, tests and exact witnesses; R46 CANONICAL_INTERACTION_PROOF.md section 3 and CANONICAL_INTERACTION_RECEIVED_WITNESS_FIRST.txt; R45 PARENT_CUSP_PROOF.md |
+| A same-background scalar interaction response is well-defined | The supplied parent's gauge-fixed scalar block is 2 Delta in its stated kinetic convention; charged L4 modes give J in L2 and finite positive Euclidean response bounded by norm(J)^2/(p^2+2 delta_W). This is not proof J is nonzero, a complete propagator, mirror asymmetry or physical chirality. | B1138 conditional parent context, not a source for this new analysis; R46 CANONICAL_INTERACTION_PROOF.md section 4; unchanged received F13 action/jet controls; test_nonzero_profile_need_not_generate_source; source Braun et al. 1812.06072v2 |
+
+All R46 report names above are in reports/physical_bridge_2026_09_05/.
+These are authored applications with explicit inputs, not independently
+accepted main-bank theorems or new empirical matches.

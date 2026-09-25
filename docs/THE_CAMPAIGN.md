@@ -16,6 +16,15 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 25 R46 receives the newer local F13 global-six calculation and
+earns the bounded nonlinear join on the canonical background at authored-
+proof grade. This addresses two queued duties without repeating ranks.
+Next retain the neutral/adjoint global and q-kinetic analysis, then compute
+actual normalized source/response tensors and their base-isometry/duality
+constraint. A finite response need not be nonzero or remove a mirror.
+The supplied parent/end and R40/R41 alternative remain explicit.
+See reports/physical_bridge_2026_09_05/CANONICAL_INTERACTION.md.
+
 September 25 R45 identifies the full supplied parent's so(10) vector
 kernel and distinguishes its nonzero/zero longitudinal-weight channels.
 R44's defining inverse is not a universal parent inverse. Next solve
