@@ -198,6 +198,18 @@ there is one normalizable coefficient one-form in each dual sector.
 Global harmonic-metric existence in this class remains a distinct duty;
 these are not yet physical chiral vacua. F10's frozen science is unchanged.
 
+**Follow-through F12--F14, September 25:**
+[F12](../projective_global_metric_2026_09_21/FINDINGS.md) earns global
+harmonic completion at those exceptional points; [F13](../projective_fluctuations_2026_09_25/FINDINGS.md)
+earns uniqueness in its end class and a defined parent fluctuation/
+interaction problem. [F14](../projective_geometric_pairing_2026_09_25/FINDINGS.md)
+then exhibits a geometric duality that F10 expressly left unexcluded:
+generator inversion plus an invertible bundle map preserves the actual
+metrics, complete operators and whole parent response tensors. F10's
+flat FIBERWISE obstruction stands unchanged, but is insufficient for
+asymmetric matter--mirror coupling on these backgrounds. The constructive
+positives are not retracted; no universal or all-cover chirality kill.
+
 ## Verification and custody
 
 Science was hashed and committed before execution at **ee0d62ea**.

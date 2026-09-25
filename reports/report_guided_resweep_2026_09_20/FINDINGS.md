@@ -461,6 +461,21 @@ base isometries restore a full matter--mirror pairing despite F10's
 fiberwise obstruction, before spending effort on normalized coupling
 sizes. No nonzero coupling, selective phase, chirality or TOE is claimed.
 
+[F14](../projective_geometric_pairing_2026_09_25/FINDINGS.md), September 25,
+answers that next test positively for a restored pairing: inversion of
+both generators, combined with an explicit dual-bundle map, preserves
+the complete background and whole normalized parent response channel.
+The map is algebraically invertible at every positive q; the analytic
+conclusion uses F12/F13's earned exceptional backgrounds. This explains
+why breaking a fiberwise pairing need not yield a physical asymmetry.
+The completed backgrounds, localized paired modes and admissible
+interactions survive. Forty corrected checks and 75 unchanged checks
+pass; an interrupted initial adapter failure is preserved, not counted
+as a physical negative. The next representation probe must distinguish
+actual symmetry-breaking directions from motion along this paired
+family, and still earn integrability, end data and retained modes.
+No all-cover exclusion, quantum no-go, new all-head absence or TOE claim.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

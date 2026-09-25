@@ -201,6 +201,22 @@ mirror-selective coupling. The next discriminator is the full set of
 base-isometry-plus-bundle pairings: F10's fiberwise obstruction never
 excluded them. Free matter is still vector-like; no TOE claim follows.
 
+[F14](../projective_geometric_pairing_2026_09_25/FINDINGS.md), September 25,
+finds that geometric pairing. Generator inversion has an explicit
+invertible map to the dual representation for every positive q; the
+global metric/operator/interaction consequence is earned at F12's
+exceptional backgrounds. Exact cusp compatibility and F13 uniqueness
+make it unitary, preserving whole normalized parent responses. Thus
+F10's fiberwise escape is real but insufficient for the intended
+asymmetric coupling. All constructive positives survive; no universal
+chirality kill follows. The original adapter run (18 failures, 9 passed,
+interrupted) is preserved, and the separately sealed implementation
+correction passes all 40 checks; 75 unchanged antecedents pass. Next
+test genuinely symmetry-breaking representation deformations and their
+integrability, not another profile comparison along the paired curve.
+Cover/character/end changes and spontaneous asymmetric phases retain
+their own duties. The analytic global bridge still needs independent review.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

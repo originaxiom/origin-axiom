@@ -1,0 +1,54 @@
+{
+  "correction_seal": "5fbf33bd",
+  "new_tests": [
+    {
+      "chunk_id": "ef4199",
+      "session_id": 82251,
+      "original_token_count": 1
+    },
+    {
+      "chunk_id": "e7d363",
+      "session_id": 82251,
+      "original_token_count": 5
+    },
+    {
+      "chunk_id": "b44f86",
+      "session_id": 82251,
+      "original_token_count": 1
+    },
+    {
+      "chunk_id": "e0f6ee",
+      "session_id": 82251,
+      "original_token_count": 22
+    },
+    {
+      "chunk_id": "a0a9f1",
+      "exit_code": 0,
+      "original_token_count": 0
+    }
+  ],
+  "witnesses": [
+    {
+      "chunk_id": "f24813",
+      "session_id": 47108,
+      "original_token_count": 183
+    },
+    {
+      "chunk_id": "ceb77d",
+      "session_id": 47108,
+      "original_token_count": 769
+    },
+    {
+      "chunk_id": "5b4c45",
+      "session_id": 47108,
+      "original_token_count": 273
+    },
+    {
+      "chunk_id": "bc59fa",
+      "exit_code": 0,
+      "original_token_count": 370
+    }
+  ],
+  "final_source_hash_check": "02b786",
+  "note": "40 corrected tests passed. Every original test retained; two new adapter controls. Sources stayed unchanged until both corrected processes terminated."
+}

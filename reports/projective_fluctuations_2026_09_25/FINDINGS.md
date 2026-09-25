@@ -136,6 +136,14 @@ prevents importing that conclusion by name.
 
 ## 5. The next discriminating questions
 
+**Update, September 25: [F14](../projective_geometric_pairing_2026_09_25/FINDINGS.md)**
+has completed item 1 below. An explicit generator-inversion/dual-bundle
+pairing survives on the actual background and preserves whole parent
+responses. Thus item 2's conditional absence premise is false here:
+computing selected unequal overlaps would not establish an asymmetric
+whole channel. F13's uniqueness, spectrum and admissibility results
+remain intact; symmetry-breaking deformations or phases need new tests.
+
 1. **Before computing coupling sizes, test all relevant base-isometry
    plus bundle-duality pairings.** F10 excludes flat fiberwise pairings,
    not these nonlocal ones. If an isometry preserves the background
