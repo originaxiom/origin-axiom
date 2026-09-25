@@ -961,3 +961,18 @@ Post-failure design, sealed before its own execution. Original failures retained
 | `reports/physical_bridge_2026_09_05/NEUTRAL_PAIRING_DIAGNOSTIC_DESIGN.md` | `a5789b62a12b94e70ea3b4e3e83f4588d3bc50bc66b99c3739b3d68c1de83ab2` |
 | `reports/physical_bridge_2026_09_05/neutral_pairing_diagnostic.py` | `c045aab0bb2e3bb815a8817a4e29ae12a4d1951aa2ecbd97f5271ea007e27e55` |
 | `tests/test_physical_bridge_neutral_pairing_diagnostic.py` | `0f81f65b0b0001944fc45213890a8fc81f37b101a0ce609ef930dee200f81637` |
+
+## R48 canonical geometric duality, September 25, 2026
+
+Pre-execution seal on the own audit branch. Global applications are authored;
+finite controls do not independently certify the external geometric inputs.
+Commit/push/server confirmation precedes every scientific execution.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_DESIGN.md` | `09edeed92159a2963cfe7b2839b01ddf1343cc6727641755a5b1a3ad676ba23a` |
+| `reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PROOF.md` | `29d200ebb4fe8ca6ff01629341bae3d5fc4f09e58744785218d0a97b7571bd35` |
+| `reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PRIOR.md` | `62debfc3370183e9c175d896524ecf87ebeea64f30f8d39173d9b5a8c9f6b8cc` |
+| `reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_INPUTS.json` | `9348bbcb4ebe9e4f35e77cbaf0972267db2296e6811ca4021d66f72be2f66d24` |
+| `reports/physical_bridge_2026_09_05/canonical_duality.py` | `d5c7332f6d18af54a763957705d1fb97668363a2d18b7c28c75263ba9975f23e` |
+| `tests/test_physical_bridge_canonical_duality.py` | `8eda7d7ba3e3a336078e6f9682fda12444e659772d46d75bb694f516f0ff1d76` |
