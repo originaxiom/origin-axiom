@@ -1,0 +1,53 @@
+{
+  "scientific_seal_commit": "515df2a4",
+  "runs": {
+    "TEST_OUTPUT.txt": [
+      {
+        "chunk_id": "5d1f8b",
+        "wall_time_seconds": 1.002314257,
+        "session_id": 65720,
+        "original_token_count": 1
+      },
+      {
+        "chunk_id": "897d89",
+        "wall_time_seconds": 1.181884876,
+        "exit_code": 0,
+        "original_token_count": 25
+      }
+    ],
+    "EXACT_WITNESSES.jsonl": [
+      {
+        "chunk_id": "46aee7",
+        "wall_time_seconds": 1.001879911,
+        "session_id": 42191,
+        "original_token_count": 0
+      },
+      {
+        "chunk_id": "94af3f",
+        "wall_time_seconds": 0.000013117,
+        "exit_code": 0,
+        "original_token_count": 4304
+      }
+    ],
+    "ANTECEDENT_OUTPUT.txt": [
+      {
+        "chunk_id": "52e605",
+        "wall_time_seconds": 1.001779255,
+        "session_id": 14749,
+        "original_token_count": 1
+      },
+      {
+        "chunk_id": "0b9f26",
+        "wall_time_seconds": 5.002273794,
+        "session_id": 14749,
+        "original_token_count": 10
+      },
+      {
+        "chunk_id": "28cc5f",
+        "wall_time_seconds": 0.497424289,
+        "exit_code": 0,
+        "original_token_count": 18
+      }
+    ]
+  }
+}

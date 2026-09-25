@@ -231,6 +231,19 @@ normalizability of these deformations and nonlinear mode retention remain
 unearned. Next decide the formal/analytic local symmetry question before
 claiming a deformation escape; no all-class chirality no-go follows.
 
+[F16](../projective_local_pairing_2026_09_25/FINDINGS.md), September 25,
+now answers that local analytic question. Explicit convergent matrix
+coordinates and checked implicit-function hypotheses show that every
+sufficiently nearby representation retains a variable geometric duality
+intertwiner, without assuming the germ is smooth or every tangent
+integrates. Twelve new and 56 unchanged tests pass; the analytic proof
+remains authored, not independently reviewed. Thus small holonomy changes
+alone do not remove this algebraic pairing. The physical unitary/domain
+conclusion still requires compatible end norms; no global component,
+arithmetic-class or quantum no-go is asserted. The next discriminator
+is actual cover/character or admissible end/source data that changes a
+pairing hypothesis, before any new coupling-profile calculation.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

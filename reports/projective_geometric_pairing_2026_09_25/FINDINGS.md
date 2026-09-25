@@ -188,3 +188,11 @@ directions outside the q curve do not supply a first-order escape.
 All-orders formal/analytic symmetry, other components/covers/end data
 and interacting symmetry breaking remain distinct questions. F14's
 positive constructions and its explicitly scoped constraints stand.
+
+[F16](../projective_local_pairing_2026_09_25/FINDINGS.md) subsequently
+upgrades that tangent restriction to an actual analytic neighborhood:
+every nearby SL4 representation has the combined geometric pairing,
+with a representation-dependent symmetric form. The proof does not
+assume smoothness/integrability of the whole germ. This is algebraic
+bundle pairing, not an automatic extension of F14's unitary norm/domain
+comparison to arbitrary changed cusp data. That separate gate remains.

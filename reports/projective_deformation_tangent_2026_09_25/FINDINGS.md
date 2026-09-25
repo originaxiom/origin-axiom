@@ -132,3 +132,16 @@ The constructive global backgrounds, localized paired matter, positive
 six-sector gap and admissible classical interactions from F12--F14
 survive. No object-selected action/end, quantum chiral phase, observed
 SM phenomenology, gravity or completed TOE is supplied by this result.
+
+### F16 successor: the local nonlinear pairing question is answered
+
+[F16](../projective_local_pairing_2026_09_25/FINDINGS.md), September 25,
+supplies the analytic argument requested in item 1. Exact invariant
+complements and nonzero gauge/odd-residual determinants allow two
+ordinary implicit-function applications. Every sufficiently nearby
+representation has a variable symmetric geometric duality intertwiner,
+without assuming a smooth or unobstructed representation germ. This
+goes beyond finite Taylor orders, but not beyond the local base-member
+representation scope. No numerical neighborhood radius or arbitrary-
+end unitary pairing is proved. Item 2's constructive matter-locus/end
+obligations and item 3's changed-data/phase routes remain open.

@@ -489,6 +489,18 @@ This adds a tangent-level constraint beyond F14, not a universal no-go
 or a new equal-count theorem. The next question is formal/analytic
 extension of the symmetry, with higher-order/end/phase duties explicit.
 
+[F16](../projective_local_pairing_2026_09_25/FINDINGS.md), September 25,
+extends the representation pairing to a genuine local analytic
+neighborhood. An exact exponential chart, a rank-30 gauge-coordinate
+matrix and an invertible three-variable odd residual block replace a
+finite-jet extrapolation. No smoothness of the representation germ is
+assumed. Twelve new and 56 unchanged checks pass, alongside the authored
+analytic argument. This eliminates a small-flat-holonomy-only escape,
+not all physical end/source or quantum mechanisms. The harmonic norm
+and completed-operator pairing are still separate hypotheses for new
+backgrounds. Cover/character compatibility is the next specified test;
+no fresh all-head absence claim or completed TOE follows.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md
