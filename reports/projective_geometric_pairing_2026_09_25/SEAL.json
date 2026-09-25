@@ -1,0 +1,18 @@
+{
+  "arc": "F14",
+  "date": "2026-09-25",
+  "starting_commit": "0ab31a59",
+  "status": "pre-execution scientific source and direct imports",
+  "hash_tool_receipt": "111b61",
+  "sha256": {
+    "reports/projective_geometric_pairing_2026_09_25/DESIGN.md": "83ff5af70201f0eaa08cebc94956e8d985b07efd62bff307ff775afa84411bee",
+    "reports/projective_geometric_pairing_2026_09_25/PROOF.md": "a2cfaf4692c60b320d4b2dd300b232b9515ffd3672ca4a4d7ed204921aca3169",
+    "reports/projective_geometric_pairing_2026_09_25/verify.py": "1faa95611326a8e7d7bab7eeaf716f429f24cc10940eada2b9cae2b4d384cb76",
+    "reports/projective_geometric_pairing_2026_09_25/test_verify.py": "4835f275b10151760fdf9b800741a13eabca420145f797a8964e0f244354ea2f",
+    "reports/projective_global_metric_2026_09_21/verify.py": "bdf1bac226afeed1df20eca1545e72d731f07ccd546f54d05b12475784fd7db5",
+    "reports/projective_cusp_spectrum_2026_09_21/exception_verify.py": "63283c0c44897a295e0622aba5cd79d25c50b1dea3b4719f9d3a6a2183afd8a7",
+    "reports/projective_cusp_spectrum_2026_09_21/verify.py": "d1a98cc6226ea9cf3a935475d12a0fc5bcd6f64e431aa1efa08b489a00361926",
+    "reports/projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18",
+    "reports/parent_twist_gap_2026_09_20/verify.py": "cc00073a813b7e7e2cff1f2669c0681fa52d32b13260c3523cb5c72fb66bd4ed"
+  }
+}
