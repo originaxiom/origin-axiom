@@ -515,6 +515,20 @@ to test a structural all-degree statement; degree three alone does not
 prove it. Source/end data, noncentral holonomies and quantum phases
 remain separate routes. No physical chirality or completed TOE follows.
 
+[F18](../projective_cyclic_pairing_2026_09_25/FINDINGS.md), September 25,
+extends that pairing to all cyclic degrees at the same four exceptional
+points, using the marked monodromy modulo four and a complete finite
+inversion certificate. It includes free phases that do not extend to
+the base, so is not merely a pullback-only argument. Nine new and
+thirteen unchanged checks pass with the authored all-degree proof.
+The underlying torsion/order-three arithmetic is credited to B326/B350;
+B326's stronger simple-module reading is explicitly rejected by its
+invariant 2-torsion submodule. No all-q theorem, new matter census or
+inherited mediator acyclicity is asserted. Positive-momentum responses
+are paired; a zero-momentum inverse has separate obligations. The next
+scope check is the generic-q inversion witness before excluding other
+parameters or deciding which different physical mechanism to pursue.
+
 [smoothness]: https://github.com/originaxiom/origin-axiom/blob/cc0484ea07d34e9ffdb680814842afe1270ef2a0/reports/physical_bridge_2026_09_05/SMOOTHNESS_RECONCILIATION_2026_09_20.md
 [texture]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1361_the_decks_texture/FINDINGS.md
 [hierarchy]: https://github.com/originaxiom/origin-axiom/blob/235325396b2db79c78df303531af6878931b00f2/frontier/B1362_the_hierarchy_is_u1_breaking/FINDINGS.md

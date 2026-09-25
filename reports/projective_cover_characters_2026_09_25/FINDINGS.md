@@ -131,3 +131,17 @@ correct all-degree statement if possible; do not launch another arbitrary
 degree-by-degree census or promote this degree-three result to one.
 Noncyclic covers, genuinely different holonomies, admissible end/source
 data and asymmetric quantum phases retain separate obligations.
+
+## Follow-through: all cyclic degrees, with a response qualification
+
+[F18](../projective_cyclic_pairing_2026_09_25/FINDINGS.md) now proves the
+pairing for every cyclic degree and every central mu4 character at the
+same four exceptional backgrounds. It derives the marked monodromy
+and handles free characters that do not extend to the base. This is
+not an extrapolation of F17's degree-three table or an all-q result.
+
+Neither result assumes that F13's acyclic mediator stays acyclic on
+every cover. The full operator and its positive-p^2 resolvents are
+paired; p=0 response claims require their inverse/source-domain
+hypotheses. A new cover's finite zero-momentum coupling is not supplied
+by this symmetry argument alone.

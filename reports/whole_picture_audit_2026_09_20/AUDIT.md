@@ -257,6 +257,19 @@ This closes this central-character escape, not all covers or quantum
 phases. Next test whether cyclic monodromy forces an all-degree version,
 using existing torsion/action results before another census.
 
+[F18](../projective_cyclic_pairing_2026_09_25/FINDINGS.md), September 25,
+now supplies that all-degree statement: at the same four exceptional
+backgrounds, every central mu4 character on every finite cyclic cover
+retains a linear geometric pairing. A marked free-by-cyclic presentation,
+the already-banked mod-four monodromy and sixteen inversion witnesses
+replace a degree census. Free characters not extending to the base are
+included. Nine new and thirteen unchanged tests pass; the analytic
+application remains authored. Pairing does not imply that a cover's
+mediator remains acyclic or has an invertible zero-momentum response.
+Other q values, noncyclic/noncentral data, sources and quantum phases
+are not excluded. Next check the generic-q witness before broadening
+the family claim, then prioritize an actual changed physical hypothesis.
+
 ## 1. What was actually audited and checked
 
 All remote heads and tags were fetched successfully after a network-restricted

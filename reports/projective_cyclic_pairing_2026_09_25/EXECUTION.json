@@ -1,0 +1,61 @@
+{
+  "seal": "b9a201cf",
+  "parent": "af8fdb34",
+  "source_read_only_until_all_final_exits": true,
+  "runs": {
+    "F18_tests": {
+      "command": "python3.12 -m pytest -q reports/projective_cyclic_pairing_2026_09_25/test_verify.py",
+      "output_file": "TEST_OUTPUT.txt",
+      "chunks": [
+        {
+          "chunk_id": "932913",
+          "wall_time_seconds": 1.001086972,
+          "session_id": 57880,
+          "original_token_count": 0
+        },
+        {
+          "chunk_id": "dff96b",
+          "wall_time_seconds": 1.3127615000000001,
+          "exit_code": 0,
+          "original_token_count": 25
+        }
+      ]
+    },
+    "F18_witness": {
+      "command": "python3.12 -u reports/projective_cyclic_pairing_2026_09_25/verify.py",
+      "output_file": "EXACT_WITNESSES.json",
+      "chunks": [
+        {
+          "chunk_id": "04e6e2",
+          "wall_time_seconds": 0.999327205,
+          "exit_code": 0,
+          "original_token_count": 766
+        }
+      ]
+    },
+    "F18_antecedents": {
+      "command": "python3.12 -m pytest -q reports/projective_cover_characters_2026_09_25/test_verify.py",
+      "output_file": "ANTECEDENT_OUTPUT.txt",
+      "chunks": [
+        {
+          "chunk_id": "b5a500",
+          "wall_time_seconds": 1.002599122,
+          "session_id": 58139,
+          "original_token_count": 1
+        },
+        {
+          "chunk_id": "bc58e4",
+          "wall_time_seconds": 5.001237596,
+          "session_id": 58139,
+          "original_token_count": 1
+        },
+        {
+          "chunk_id": "30b7d0",
+          "wall_time_seconds": 0.00001261,
+          "exit_code": 0,
+          "original_token_count": 24
+        }
+      ]
+    }
+  }
+}
