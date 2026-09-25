@@ -1,0 +1,22 @@
+{
+  "purpose": "F19 pre-execution scientific seal, not a result",
+  "parent": "6d7416375f38acb0d4a552a5f8e28b85418c6998",
+  "algorithm": "sha256",
+  "files": {
+    "reports/projective_full_parameter_2026_09_25/DESIGN.md": "fb9bdb57a81e8237f9a97bf3dc501b89f0b370b4ddfd99c942061a8ee042be1c",
+    "reports/projective_full_parameter_2026_09_25/PROOF.md": "990fbb46d88d0d6953ed9167a563bbc62f1d6a1798e3a630936036c3d58fccd1",
+    "reports/projective_full_parameter_2026_09_25/verify.py": "87f1481f6e2df46fe4959d9336dc0bc051f59c4eb84a1a359137bd606e1b9e63",
+    "reports/projective_full_parameter_2026_09_25/test_verify.py": "432391c139ed3208b35005b244d8f49a3046bc868846618f60de401e0a1dd045",
+    "reports/projective_cover_characters_2026_09_25/verify.py": "531f5474bdd089bd6dc3c3c04f76a95dbcf1fd224f17753678fb2e711693f353",
+    "reports/projective_deformation_tangent_2026_09_25/verify_v2.py": "226834120941e3c6d041e93794d366a020dd10ab3a563d2b67ce2615398a34ec",
+    "reports/projective_deformation_tangent_2026_09_25/verify.py": "0a1b1b2a198d4e8c6083b679fea7d70be74ffb95678925b56c6a5a2f02560805",
+    "reports/projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18",
+    "reports/projective_escape_2026_09_21/PROOF.md": "ec9c8f61eeedc985e811391d069c2fb65ab7e04f3af7d50c5fa14f23ac28f3c3",
+    "reports/projective_global_metric_2026_09_21/PROOF.md": "10de1c74db67a18b1bbbc2a7c6c2fc20229185db3faffbc63d6f7a5fcac37e8d",
+    "reports/projective_fluctuations_2026_09_25/PROOF.md": "78cad2ebdfcd9e3b065dfaaf3eb7c545dd9348b7e7a6bcc3846ae17a23b34cd0",
+    "reports/projective_cyclic_pairing_2026_09_25/PROOF.md": "b14d7128a119e1b1b69f8ec5cefd21ab59521ebf18388cddf55e846c95079a01"
+  },
+  "scientific_import_chain": "F19 -> F17 -> corrected F15 adapter -> original F15 -> F10",
+  "additional_analytic_inputs": "F10 cusp proof, F12 global metric proof, F13 fluctuation and uniqueness proof, F18 all-degree proof",
+  "execution_rule": "Commit seal before scientific execution; sources read-only until every actual terminal exit; preserve failures and separately seal corrections."
+}
