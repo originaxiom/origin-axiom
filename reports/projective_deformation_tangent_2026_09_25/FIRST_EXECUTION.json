@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_id": "6b4858",
+    "wall_time_seconds": 1.003098513,
+    "session_id": 84962,
+    "original_token_count": 1
+  },
+  {
+    "chunk_id": "12915e",
+    "wall_time_seconds": 0.000015461,
+    "exit_code": 1,
+    "original_token_count": 6130
+  }
+]

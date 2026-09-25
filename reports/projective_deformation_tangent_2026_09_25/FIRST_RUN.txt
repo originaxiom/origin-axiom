@@ -1,0 +1,448 @@
+F.FFFFFFFFFFFF                                                           [100%]
+=================================== FAILURES ===================================
+____________________ test_field_and_linear_algebra_controls ____________________
+
+    def test_field_and_linear_algebra_controls():
+        k=s.QQ.algebraic_field(s.sqrt(3),s.I)
+        a=v.dm([[1,s.sqrt(3)],[0,0]],k); z=v.kernel(a)
+        assert a.rank()==1 and z.shape==(2,1) and (a*z).is_zero_matrix
+        assert v.zero(2,2,k).rank()==0 and v.eye(2,k).rank()==2
+        assert (v.dm([[s.sqrt(3)]],k)**2-v.dm([[3]],k)).is_zero_matrix
+>       for b in v.basis(k): assert (v.uncoords(v.coords(b))-b).is_zero_matrix
+                                                ^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -4, 0, 16], QQ), ANP([1], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([]...([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ)]], (4, 4), QQ<sqrt(3) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+____________ test_representation_and_independent_differential[14-1] ____________
+
+middle = 14, embedding = 1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_representation_and_independent_differential(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; rho=a['rho']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([],...0, -4, 0, 16], QQ), ANP([1/15], [1, 0, -4, 0, 16], QQ), ANP([14/15], [1, 0, -4, 0, 16], QQ)]], (4, 4), QQ<sqrt(3) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+___________ test_representation_and_independent_differential[14--1] ____________
+
+middle = 14, embedding = -1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_representation_and_independent_differential(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; rho=a['rho']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([],...0, -4, 0, 16], QQ), ANP([1/15], [1, 0, -4, 0, 16], QQ), ANP([14/15], [1, 0, -4, 0, 16], QQ)]], (4, 4), QQ<sqrt(3) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+____________ test_representation_and_independent_differential[34-1] ____________
+
+middle = 34, embedding = 1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_representation_and_independent_differential(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; rho=a['rho']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1...1, 0, -2, 0, 9], QQ), ANP([1/35], [1, 0, -2, 0, 9], QQ), ANP([34/35], [1, 0, -2, 0, 9], QQ)]], (4, 4), QQ<sqrt(2) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+___________ test_representation_and_independent_differential[34--1] ____________
+
+middle = 34, embedding = -1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_representation_and_independent_differential(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; rho=a['rho']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1...1, 0, -2, 0, 9], QQ), ANP([1/35], [1, 0, -2, 0, 9], QQ), ANP([34/35], [1, 0, -2, 0, 9], QQ)]], (4, 4), QQ<sqrt(2) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+_________________ test_involution_and_complete_quotient[14-1] __________________
+
+middle = 14, embedding = 1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_involution_and_complete_quotient(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; t,b,r=a['T'],a['B'],a['R']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([],...0, -4, 0, 16], QQ), ANP([1/15], [1, 0, -4, 0, 16], QQ), ANP([14/15], [1, 0, -4, 0, 16], QQ)]], (4, 4), QQ<sqrt(3) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+_________________ test_involution_and_complete_quotient[14--1] _________________
+
+middle = 14, embedding = -1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_involution_and_complete_quotient(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; t,b,r=a['T'],a['B'],a['R']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([],...0, -4, 0, 16], QQ), ANP([1/15], [1, 0, -4, 0, 16], QQ), ANP([14/15], [1, 0, -4, 0, 16], QQ)]], (4, 4), QQ<sqrt(3) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+_________________ test_involution_and_complete_quotient[34-1] __________________
+
+middle = 34, embedding = 1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_involution_and_complete_quotient(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; t,b,r=a['T'],a['B'],a['R']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1...1, 0, -2, 0, 9], QQ), ANP([1/35], [1, 0, -2, 0, 9], QQ), ANP([34/35], [1, 0, -2, 0, 9], QQ)]], (4, 4), QQ<sqrt(2) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+_________________ test_involution_and_complete_quotient[34--1] _________________
+
+middle = 34, embedding = -1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_involution_and_complete_quotient(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; t,b,r=a['T'],a['B'],a['R']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1...1, 0, -2, 0, 9], QQ), ANP([1/35], [1, 0, -2, 0, 9], QQ), ANP([34/35], [1, 0, -2, 0, 9], QQ)]], (4, 4), QQ<sqrt(2) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+______________ test_matter_obstructions_descend_to_quotient[14-1] ______________
+
+middle = 14, embedding = 1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_matter_obstructions_descend_to_quotient(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; phase=s.I if middle==14 else -s.Integer(1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:69: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([],...0, -4, 0, 16], QQ), ANP([1/15], [1, 0, -4, 0, 16], QQ), ANP([14/15], [1, 0, -4, 0, 16], QQ)]], (4, 4), QQ<sqrt(3) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+_____________ test_matter_obstructions_descend_to_quotient[14--1] ______________
+
+middle = 14, embedding = -1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_matter_obstructions_descend_to_quotient(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; phase=s.I if middle==14 else -s.Integer(1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:69: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([], [1, 0, -4, 0, 16], QQ), ANP([],...0, -4, 0, 16], QQ), ANP([1/15], [1, 0, -4, 0, 16], QQ), ANP([14/15], [1, 0, -4, 0, 16], QQ)]], (4, 4), QQ<sqrt(3) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+______________ test_matter_obstructions_descend_to_quotient[34-1] ______________
+
+middle = 34, embedding = 1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_matter_obstructions_descend_to_quotient(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; phase=s.I if middle==14 else -s.Integer(1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:69: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1...1, 0, -2, 0, 9], QQ), ANP([1/35], [1, 0, -2, 0, 9], QQ), ANP([34/35], [1, 0, -2, 0, 9], QQ)]], (4, 4), QQ<sqrt(2) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+_____________ test_matter_obstructions_descend_to_quotient[34--1] ______________
+
+middle = 34, embedding = -1
+
+    @pytest.mark.parametrize('middle,embedding',CASES)
+    def test_matter_obstructions_descend_to_quotient(middle,embedding):
+>       a=v.actual(middle,embedding); k=a['K']; phase=s.I if middle==14 else -s.Integer(1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_deformation_tangent_2026_09_25/test_verify.py:69: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_deformation_tangent_2026_09_25/verify.py:148: in actual
+    a=tangent_data(rho,j)
+      ^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:131: in tangent_data
+    c=linear_map(lambda x:ji*x.transpose()*j,k)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in linear_map
+    return cat(*(coords(action(a)) for a in basis(k)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_deformation_tangent_2026_09_25/verify.py:78: in <genexpr>
+    return cat(*(coords(action(a)) for a in basis(k)))
+                 ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = DomainMatrix([[ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1, 0, -2, 0, 9], QQ), ANP([], [1...1, 0, -2, 0, 9], QQ), ANP([1/35], [1, 0, -2, 0, 9], QQ), ANP([34/35], [1, 0, -2, 0, 9], QQ)]], (4, 4), QQ<sqrt(2) + I>)
+
+    def coords(a):
+        rows=a.to_list(); k=a.domain
+        if sum((rows[i][i] for i in range(4)),k.zero)!=0:
+>           raise ValueError('matrix is not tracefree')
+E           ValueError: matrix is not tracefree
+
+reports/projective_deformation_tangent_2026_09_25/verify.py:67: ValueError
+=========================== short test summary info ============================
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_field_and_linear_algebra_controls
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_representation_and_independent_differential[14-1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_representation_and_independent_differential[14--1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_representation_and_independent_differential[34-1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_representation_and_independent_differential[34--1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_involution_and_complete_quotient[14-1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_involution_and_complete_quotient[14--1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_involution_and_complete_quotient[34-1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_involution_and_complete_quotient[34--1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_matter_obstructions_descend_to_quotient[14-1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_matter_obstructions_descend_to_quotient[14--1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_matter_obstructions_descend_to_quotient[34-1]
+FAILED reports/projective_deformation_tangent_2026_09_25/test_verify.py::test_matter_obstructions_descend_to_quotient[34--1]
+13 failed, 1 passed in 2.83s
