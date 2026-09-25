@@ -1,5 +1,10 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+Latest path-local R45: the supplied canonical parent has so(10) gauge
+zero modes, while zero-weight cusp channels retain a separate global
+H1 duty. See reports/physical_bridge_2026_09_05/PARENT_CUSP.md and the
+dated R45 entries below. Peripheral groups are not particle counts.
+
 R44, September 25: the canonical type-one cusp/core/domain application
 is registered at the end of this file with its actual locks and explicit
 external inputs. It places the received exceptional paired modes on the
@@ -627,3 +632,14 @@ Finite controls do not certify the infinite-domain/topological steps.
 | Canonical type-one norms have a product-cone limit | Actual domain sandwich plus determinant-one scaling and external all-jet continuity gives h asymp dR^2/R^2+dx^2/R+dt^2, volume density asymp R^(-3/2), and bounded positive coefficient norms in the stated moving frame. No uniform q->1 claim. | B1138 supplied model context only; reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md section 4; tests/test_physical_bridge_canonical_cusp.py::test_product_affine_sphere_MA_and_positivity; tests/test_physical_bridge_canonical_cusp.py::test_base_scales_volume_and_nonshrinking_longitude |
 | Bounded full-end contraction is enough for the defining-sector Hodge join | At fixed q!=1, defining/dual bundles with unitary scalar twists have an all-frequency longitudinal inverse, radial commutation and bounded whole-complex homotopy. Authored complete-domain argument gives finite kernel, closed ranges and H_L2=H_c=H. Zero semisimple weights are not covered; compact resolvent is not asserted. | B1420 pairing antecedent only; R43 received F11 rank data, not this metric proof; reports/physical_bridge_2026_09_05/CANONICAL_CUSP_PROOF.md sections 5--6; tests/test_physical_bridge_canonical_cusp.py::test_fourier_inverse_both_sides_and_radial_commutator; tests/test_physical_bridge_canonical_cusp.py::test_whole_exterior_cartan_not_torus_only |
 | The received exceptional paired classes share the finite-energy background | Combining the above authored comparison with R42 and R43's unchanged exact F11 reproduction gives one/one H1 at q=17+/-12 sqrt(2), chi=-1, and q=7+/-4 sqrt(3), chi=+/-i. This is received cohomology plus a new norm join, not a new rank census, physical selection or chiral generations. | B1420 coefficient/pairing context only; reports/physical_bridge_2026_09_05/CANONICAL_CUSP.md; exact prior custody in PROJECTIVE_MODE_RECEPTION_RECEIPTS.json in that directory; finite locks above do not independently certify the analytic application |
+
+## R45 parent/cusp laws, September 25, 2026
+
+Path-local authored application; no new shared B allocation or independent
+main-bank certificate. External density and R44 global inputs remain explicit.
+
+| law | scoped result | source and check |
+|---|---|---|
+| The actual canonical four retains exactly the supplied D5 gauge algebra | For q>0, q!=1 and the four mu4 twists in the specified SU4-in-E8 parent, published density removes flat invariants in 4, dual4, 6 and 15. The authored positive-vector-form and finite-volume cutoff argument leaves exactly the compact so(10) algebra. No global disconnected group, SM breaking or chiral vacuum is derived. | B1138 parent context only; reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md sections 1--2; tests/test_physical_bridge_parent_cusp.py::test_actual_lie_invariants_not_dimension_matching; tests/test_physical_bridge_parent_cusp.py::test_complete_actual_parent_weights_and_wrong_bar_control; external density and domain proof are not certified by finite tests |
+| Full parent end separates 194 nonzero and 54 zero longitudinal directions | R44's actual induced connection has a bounded finite-series Fourier inverse on every nonzero weight block, with radial flatness retained. The zero space is 45 trivial plus nine adjoint directions. These are end subbundles, not independently selected global fields; the full parent is not contracted. | B1138 context only; reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md section 3; tests/test_physical_bridge_parent_cusp.py::test_entire_radial_connection_and_two_sided_inverse; tests/test_physical_bridge_parent_cusp.py::test_zero_weight_cannot_use_the_defining_inverse |
+| Peripheral invariant groups are not global gauge or matter counts | The zero-adjoint torus complex has dimensions (3,6,3), giving whole-parent (48,96,48) after adding the trivial 45. D, R^-1/2 N and R^-1 P are cusp-parallel L2 sections on the tail but have no global adjoint-flat extension for q!=1. No global neutral H1 count is supplied. | B1420 coefficient/cohomology context only; reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md section 4; tests/test_physical_bridge_parent_cusp.py::test_zero_sector_log_and_actual_holonomy_complexes; tests/test_physical_bridge_parent_cusp.py::test_peripheral_invariants_are_radially_parallel_and_L2_on_tail |

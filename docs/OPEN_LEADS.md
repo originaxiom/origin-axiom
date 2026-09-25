@@ -1,5 +1,10 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+Latest path-local R45: the supplied canonical parent has so(10) gauge
+zero modes, while zero-weight cusp channels retain a separate global
+H1 duty. See reports/physical_bridge_2026_09_05/PARENT_CUSP.md and the
+dated R45 entries below. Peripheral groups are not particle counts.
+
 September 25, path-local R44: the same-background defining/dual mode
 join is supplied by an authored proof with explicit external topology
 and geometry inputs; 17 new finite controls pass, not an independent
@@ -3349,3 +3354,23 @@ The fixed-hyperbolic-base q divergence is not imported as an answer.
 No parameter or central-character selection, physical chirality,
 source/end quantum completion, gravity or TOE closure. The separate
 R40/R41 noncentral-source duty survives unchanged.
+
+### PB-DOMAIN / PB-ACTION, September 25: R45 whole-parent end split
+
+R45's reports/physical_bridge_2026_09_05/PARENT_CUSP_PROOF.md addresses
+the requested whole-parent roster, natural complete domain and unbroken
+vector algebra at authored-proof grade: so(10), not an automatic SM.
+The complete parent cusp complex has nonzero-weight contraction and a
+concrete zero-weight remainder. Torus dimensions (48,96,48) are not
+global gauge/matter multiplicities. The full global H1 duty remains.
+
+NEXT: derive the zero-weight indicial/radial operator and its complete
+global matching; determine the neutral/adjoint modes and q-deformation
+kinetic norm on this actual metric. Calculate the global exterior-square
+groups using their available nonzero-weight comparison. Then compute
+normalized same-action vertices and test an admissible selective mirror
+mechanism with source/end/anomaly consistency. Preserve R40/R41.
+No old-base nonnormalizability, local torus dimension or Euler zero is
+imported as the answer. Do not repeat R43's exceptional defining ranks.
+Independent review of R44/R45 global arguments remains a named duty.
+No parameter selection, physical chirality, gravity or TOE closure.

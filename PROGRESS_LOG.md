@@ -15362,3 +15362,32 @@ actual canonical metric, and normalized same-action interactions.
 R40/R41's distinct nonsplit/source route, quantum anomalies, gravity
 and empirical obligations remain. No complete physical TOE is claimed.
 Report: reports/physical_bridge_2026_09_05/CANONICAL_CUSP.md.
+
+## 2026-09-25 - R45 identifies the canonical parent's gauge and cusp sectors
+
+The whole supplied E8 parent is retained on R44's canonical background.
+Published all-q!=1 density, the actual R39 branching and the authored
+positive-domain argument give so(10), dimension 45, as the normalizable
+compact gauge zero algebra. This is not a parent selection, SM breaking,
+global matter census or physical chirality. R39's so(11) uses a DIFFERENT
+Sym3 coefficient, not this projective four; its result is preserved.
+
+The full 248 has 194 nonzero and 54 zero longitudinal weights. The
+nonzero blocks inherit the full bounded cusp contraction; the adjoint
+zero block has torus cohomology (3,6,3), and the whole parent (48,96,48).
+These are peripheral groups, not particle counts. Explicit radially
+transported cusp-flat sections are L2 locally but not global flat modes.
+
+Six scientific files were sealed in 18995d52, pushed and remote-confirmed
+before first execution. All 12 native checks, 20 dedicated tests and
+the preregistered R39/R44/R45 53-test regression pass. This population
+does not include or repair R42's preserved failure. Four historical
+governance categories remain; no full-suite or independent-bank claim.
+The failed restricted-network push and successful full-permission retry
+are both retained. No executed scientific file or prior test was edited.
+
+Next: the actual zero-weight radial/global H1 problem, q-deformation
+kinetics, the exterior-square global groups, and normalized interactions
+with source/end/anomaly consistency. The R40/R41 route remains separate;
+three generations, selection, gravity and empirical predictions remain.
+Report: reports/physical_bridge_2026_09_05/PARENT_CUSP.md.

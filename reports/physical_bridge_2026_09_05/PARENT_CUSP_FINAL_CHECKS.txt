@@ -1,0 +1,39 @@
+R45 final reporting checks, September 25, 2026.
+
+Scientific seal: 18995d5291a8319f9e50641306cecfa9536650dc.
+All six scientific files unchanged; no second science run in reporting.
+Native: 12 checks pass. Dedicated: 20 pass. Fixed R39/R44/R45: 53 pass.
+The old R42 failed assertion is outside this preregistered population,
+not repaired. Full repository and independent main banking are not green.
+
+First report custody: exit 0; six seals, 33 frozen inputs, two primary
+artifacts, four prior captures and nine runs agree.
+log_sha256: 123d71634781eeb2fec92d3edeb584f156ca858ba2b292fbd7091dea5e5165cc
+
+Prior R44 custody: exit 0; original 17 new passes and the focused
+46 pass/one retained failure remain byte-identical.
+log_sha256: 4c3d8636cdbb2fae769854bf625d407596e01a45e8f31c9661bb19bdd27a7d48
+
+First report cumulative: exit 0; 714 artifact paths and 192 latest
+distinct seals agree before adding this note; 308 relative Markdown
+links checked; older fixed failure populations and history retained.
+log_sha256: cdcb0befebb5960ca85f35cb5657e5fad46d9522000af433f5b760666c031bf3
+
+First report governance: exit 1; 26 PASS/four historical FAIL categories
+(attribution, test-vacuity, seal-provenance, relay-debt). Forty-one
+stale relay debts; review due at 203 merges. No debt waiver.
+log_sha256: cf35d4a572db56f046bd1b2b4c11c22fb233fd4ba3edb8d8a6a535e5d588e9c7
+
+Strict staged whitespace: exit 0, empty output.
+log_sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+The receipts preserve the failed restricted-network push, successful
+full-permission retry and exact pre-run server confirmation. A report-
+assembly encoding error was corrected before any output write; no
+scientific file or raw transcript changed.
+
+Fresh read-only custody/cumulative/governance/whitespace checks follow
+this note and the inclusion of those first audit receipts. No finite
+test certifies the external density theorem, R44 global topology/PDE,
+or the authored positive-form/domain application. No physical chirality,
+neutral/global H1 count, selected parent or complete TOE is asserted.

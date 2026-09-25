@@ -16,6 +16,15 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 25 R45 identifies the full supplied parent's so(10) vector
+kernel and distinguishes its nonzero/zero longitudinal-weight channels.
+R44's defining inverse is not a universal parent inverse. Next solve
+the actual zero-weight radial/global H1 and q-kinetic problem and the
+exterior-square global groups, before normalized whole-mode interactions.
+No peripheral dimension is a particle count; R40/R41 stays registered.
+See reports/physical_bridge_2026_09_05/PARENT_CUSP.md. Earlier ordering
+entries below retain their historical dates.
+
 September 25 R44 supplies the canonical-metric defining-sector join at
 authored-proof grade: finite-energy background and exceptional paired
 H1 modes now share one positive complete specification. Next test the

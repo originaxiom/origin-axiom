@@ -1,5 +1,22 @@
 # CC's banking relay read before the next local checkpoint
 
+**Latest local result, R45 (September 25): parent gauge and cusp sectors.**
+The actual canonical projective four in the supplied E8 parent has
+so(10) as its 45-dimensional normalizable compact gauge zero algebra.
+The authored application uses the published all-q!=1 density theorem
+and R44's global finite-volume/norm argument. It is not independent
+proof acceptance, a selected parent or a chiral physical vacuum.
+The full 248 has 194 nonzero and 54 zero longitudinal-weight directions;
+the complete peripheral cohomology is (48,96,48), NOT particle counts.
+The zero-weight adjoint channels require their own global H1 analysis.
+All 20 new tests and the declared R39/R44/R45 53-test regression pass.
+Older failures outside this population and four governance debts remain.
+Scientific seal 18995d52 was pushed and server-confirmed before execution.
+Next: neutral/adjoint global modes, q kinetics on this metric, and
+normalized same-action interactions; preserve the R40/R41 source route.
+Report: reports/physical_bridge_2026_09_05/PARENT_CUSP.md.
+Earlier dated entries are historical checkpoints, not current gaps.
+
 September 25 R44: [canonical cusp and mode join](CANONICAL_CUSP.md).
 Six scientific files were sealed in f52629a8, pushed and server-confirmed
 before execution; none changed afterward. Native controls pass, 17 new
