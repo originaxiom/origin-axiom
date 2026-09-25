@@ -1,0 +1,16 @@
+{
+  "arc": "F16",
+  "date": "2026-09-25",
+  "starting_commit": "35f57fee",
+  "status": "pre-execution scientific files and actual transitive imports",
+  "hash_receipt": "b1aaca",
+  "sha256": {
+    "reports/projective_local_pairing_2026_09_25/DESIGN.md": "d5a3b9985f2cd8fbb92cc8b823277dedfd7f3b039e66a5f0c4d5b0b062164888",
+    "reports/projective_local_pairing_2026_09_25/PROOF.md": "6074146b8288cace8cd3732858abe26d7205c4429a72308a0326aedc49bd1fac",
+    "reports/projective_local_pairing_2026_09_25/verify.py": "6ee2f5674232e4cab0ab8c6636a5398dc50252f52ce606ec1475a4249dbd99f6",
+    "reports/projective_local_pairing_2026_09_25/test_verify.py": "3f2d12239f53fa0894ef10f0ea86dc91cc91953e8e71b0a9b1e76b4612a04d3a",
+    "reports/projective_deformation_tangent_2026_09_25/verify_v2.py": "226834120941e3c6d041e93794d366a020dd10ab3a563d2b67ce2615398a34ec",
+    "reports/projective_deformation_tangent_2026_09_25/verify.py": "0a1b1b2a198d4e8c6083b679fea7d70be74ffb95678925b56c6a5a2f02560805",
+    "reports/projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18"
+  }
+}
