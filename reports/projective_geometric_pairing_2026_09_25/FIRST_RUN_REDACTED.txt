@@ -1,0 +1,690 @@
+# Runtime path redaction only: repository prefix -> <REPO>; user-home prefix -> <USER_HOME>.
+.........FFFFFFFFFFFFFFFFFF
+=================================== FAILURES ===================================
+_______________ test_theta_restores_geometric_duality_prior[14] ________________
+
+middle = 14
+
+    @pytest.mark.parametrize('middle',(14,34))
+    def test_theta_restores_geometric_duality_prior(middle):
+>       cert=v.candidate_certificate(middle,'theta')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[   0,        0,         0,        0,        0,        0,         0,        0,          0,          0,       ...     0,         0,        0,          0,          0,          0,          0,        0,        0,         0,        0]])
+p = q**2 - 14*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+_______________ test_theta_restores_geometric_duality_prior[34] ________________
+
+middle = 34
+
+    @pytest.mark.parametrize('middle',(14,34))
+    def test_theta_restores_geometric_duality_prior(middle):
+>       cert=v.candidate_certificate(middle,'theta')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[   0,        0,         0,        0,        0,        0,         0,        0,          0,          0,       ...     0,         0,        0,          0,          0,          0,          0,        0,        0,         0,        0]])
+p = q**2 - 34*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[id-14] ___________
+
+middle = 14, name = 'id'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[      0,        0,          0,   0,        0,        0,          0,        0,          0,          0,       ...   0,          0,        0,          0,          0,          0,          0,        0,        0,          0,        0]])
+p = q**2 - 14*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[id-34] ___________
+
+middle = 34, name = 'id'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[      0,        0,          0,   0,        0,        0,          0,        0,          0,          0,       ...   0,          0,        0,          0,          0,          0,          0,        0,        0,          0,        0]])
+p = q**2 - 34*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+___________ test_entire_candidate_table_witnesses_or_full_rank[T-14] ___________
+
+middle = 14, name = 'T'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[      0, 2*q - 30,         -2,  -1,        0,        0,          0,        0,          0,          0,       ...   0,          0,        0,          0,          0,          0,          0,  1 - q/2,     -q/2, -q/2 - 1/2,        0]])
+p = q**2 - 14*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+___________ test_entire_candidate_table_witnesses_or_full_rank[T-34] ___________
+
+middle = 34, name = 'T'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[      0, 2*q - 70,         -2,  -1,        0,        0,          0,        0,          0,          0,       ...   0,          0,        0,          0,          0,          0,          0,  1 - q/2,     -q/2, -q/2 - 1/2,        0]])
+p = q**2 - 34*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+_________ test_entire_candidate_table_witnesses_or_full_rank[theta-14] _________
+
+middle = 14, name = 'theta'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[   0,        0,         0,        0,        0,        0,         0,        0,          0,          0,       ...     0,         0,        0,          0,          0,          0,          0,        0,        0,         0,        0]])
+p = q**2 - 14*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+_________ test_entire_candidate_table_witnesses_or_full_rank[theta-34] _________
+
+middle = 34, name = 'theta'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[   0,        0,         0,        0,        0,        0,         0,        0,          0,          0,       ...     0,         0,        0,          0,          0,          0,          0,        0,        0,         0,        0]])
+p = q**2 - 34*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+________ test_entire_candidate_table_witnesses_or_full_rank[thetaT-14] _________
+
+middle = 14, name = 'thetaT'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[   0, 30 - 2*q,  2*q - 28, 2*q - 29,        0,        0,         0,        0,          0,          0,       ...     0,         0,        0,          0,          0,          0,          0,     -3/2,     -1/2, q/2 + 1/2,        0]])
+p = q**2 - 14*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+________ test_entire_candidate_table_witnesses_or_full_rank[thetaT-34] _________
+
+middle = 34, name = 'thetaT'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[   0, 70 - 2*q,  2*q - 68, 2*q - 69,        0,        0,         0,        0,          0,          0,       ...     0,         0,        0,          0,          0,          0,          0,     -3/2,     -1/2, q/2 + 1/2,        0]])
+p = q**2 - 34*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[R+-14] ___________
+
+middle = 14, name = 'R+'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[       0,            0,         0,   0,        0,            0,         0,        0,          0,            ...,         0,        0,          0,            0,          0,          0,     -3/2,   3*q - 91/2,   q/2 - 3,       -2]])
+p = q**2 - 14*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[R+-34] ___________
+
+middle = 34, name = 'R+'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[       0,             0,         0,   0,        0,             0,         0,        0,          0,          ...        0,        0,          0,             0,          0,          0,     -3/2,   3*q - 211/2,   q/2 - 3,       -2]])
+p = q**2 - 34*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[R--14] ___________
+
+middle = 14, name = 'R-'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[   0,          0,          0,        0,        0,          0,          0,        0,          0,          0, ... 0,          0,        0,          0,          0,          0,          0,     -3/2, 89/2 - 3*q, 7*q/2 - 41, 3*q - 43]])
+p = q**2 - 14*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[R--34] ___________
+
+middle = 34, name = 'R-'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[   0,           0,           0,         0,        0,           0,           0,         0,          0,       ...       0,         0,          0,           0,           0,          0,     -3/2, 209/2 - 3*q, 7*q/2 - 101, 3*q - 103]])
+p = q**2 - 34*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[G+-14] ___________
+
+middle = 14, name = 'G+'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[      0,          0,          0,      0,        0,          0,          0,        0,          0,          0,... 0,          0,        0,          0,          0,          0,          0,  1 - q/2, 29 - 7*q/2,  3/2 - 2*q,    1 - q]])
+p = q**2 - 14*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[G+-34] ___________
+
+middle = 34, name = 'G+'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[      0,          0,          0,      0,        0,          0,          0,        0,          0,          0,... 0,          0,        0,          0,          0,          0,          0,  1 - q/2, 69 - 7*q/2,  3/2 - 2*q,    1 - q]])
+p = q**2 - 34*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[G--14] ___________
+
+middle = 14, name = 'G-'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[       0,          0,          0,        0,        0,          0,          0,        0,          0,         ... 0,          0,        0,          0,          0,          0,          0,  1 - q/2, 5*q/2 - 29, 53/2 - 2*q, 28 - 2*q]])
+p = q**2 - 14*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+__________ test_entire_candidate_table_witnesses_or_full_rank[G--34] ___________
+
+middle = 34, name = 'G-'
+
+    @pytest.mark.parametrize('middle',(14,34))
+    @pytest.mark.parametrize('name',tuple(v.CANDIDATES))
+    def test_entire_candidate_table_witnesses_or_full_rank(middle,name):
+>       cert=v.candidate_certificate(middle,name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+reports/projective_geometric_pairing_2026_09_25/test_verify.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+reports/projective_geometric_pairing_2026_09_25/verify.py:126: in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:58: in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+a = Matrix([
+[       0,          0,           0,        0,        0,          0,           0,        0,          0,       ...           0,        0,          0,          0,           0,          0,  1 - q/2, 5*q/2 - 69, 133/2 - 2*q, 68 - 2*q]])
+p = q**2 - 34*q + 1
+
+    def rref(a,p):
+        a=reduce_matrix(a,p)
+        row=0
+        pivots=[]
+        for col in range(a.cols):
+            pivot=next((i for i in range(row,a.rows) if a[i,col]!=0),None)
+            if pivot is None:
+                continue
+>           a.row_swap(row,pivot)
+            ^^^^^^^^^^
+E           AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'
+
+reports/projective_cusp_spectrum_2026_09_21/exception_verify.py:40: AttributeError
+=========================== short test summary info ============================
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_theta_restores_geometric_duality_prior[14]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_theta_restores_geometric_duality_prior[34]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[id-14]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[id-34]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[T-14]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[T-34]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[theta-14]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[theta-34]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[thetaT-14]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[thetaT-34]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[R+-14]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[R+-34]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[R--14]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[R--34]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[G+-14]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[G+-34]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[G--14]
+FAILED reports/projective_geometric_pairing_2026_09_25/test_verify.py::test_entire_candidate_table_witnesses_or_full_rank[G--34]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KeyboardInterrupt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<USER_HOME>/.pyenv/versions/3.12.1/lib/python3.12/site-packages/sympy/core/assumptions.py:481: KeyboardInterrupt
+(to show a full traceback on KeyboardInterrupt use --full-trace)
+18 failed, 9 passed in 248.08s (0:04:08)

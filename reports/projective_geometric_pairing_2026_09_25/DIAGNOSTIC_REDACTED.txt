@@ -1,0 +1,13 @@
+# Runtime path redaction only: repository prefix -> <REPO>; user-home prefix -> <USER_HOME>.
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "<REPO>/reports/projective_geometric_pairing_2026_09_25/verify.py", line 126, in candidate_certificate
+    null=field.kernel(equations,p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO>/reports/projective_cusp_spectrum_2026_09_21/exception_verify.py", line 58, in kernel
+    rr,pivots=rref(a,p)
+              ^^^^^^^^^
+  File "<REPO>/reports/projective_cusp_spectrum_2026_09_21/exception_verify.py", line 40, in rref
+    a.row_swap(row,pivot)
+    ^^^^^^^^^^
+AttributeError: 'ImmutableDenseMatrix' object has no attribute 'row_swap'

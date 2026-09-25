@@ -1,0 +1,106 @@
+{
+  "scientific_seal": "32864821",
+  "first_run": [
+    {
+      "chunk_id": "969cce",
+      "session_id": 12515,
+      "wall_time_seconds": 1.002579281,
+      "original_token_count": 0
+    },
+    {
+      "chunk_id": "77c5b4",
+      "session_id": 12515,
+      "wall_time_seconds": 5.001030076,
+      "original_token_count": 7
+    },
+    {
+      "chunk_id": "2d5f13",
+      "session_id": 12515,
+      "wall_time_seconds": 5.002749994,
+      "original_token_count": 0
+    },
+    {
+      "chunk_id": "a4e5c8",
+      "session_id": 12515,
+      "wall_time_seconds": 5.003441583,
+      "original_token_count": 0
+    },
+    {
+      "chunk_id": "c5655b",
+      "session_id": 12515,
+      "wall_time_seconds": 5.002005086,
+      "original_token_count": 0
+    },
+    {
+      "chunk_id": "29abc2",
+      "session_id": 12515,
+      "wall_time_seconds": 5.003805844,
+      "original_token_count": 0
+    },
+    {
+      "chunk_id": "29036d",
+      "session_id": 12515,
+      "wall_time_seconds": 5.001519149,
+      "original_token_count": 0
+    },
+    {
+      "chunk_id": "a5e585",
+      "session_id": 12515,
+      "wall_time_seconds": 5.002318114,
+      "original_token_count": 0
+    },
+    {
+      "chunk_id": "74463e",
+      "session_id": 12515,
+      "wall_time_seconds": 5.001972115,
+      "original_token_count": 0
+    },
+    {
+      "chunk_id": "cf1275",
+      "exit_code": 2,
+      "wall_time_seconds": 0.000018979,
+      "original_token_count": 8030
+    }
+  ],
+  "antecedent_run": [
+    {
+      "chunk_id": "97e29a",
+      "session_id": 24170
+    },
+    {
+      "chunk_id": "9d05b9",
+      "session_id": 24170
+    },
+    {
+      "chunk_id": "2f3f85",
+      "session_id": 24170
+    },
+    {
+      "chunk_id": "5b5844",
+      "session_id": 24170
+    },
+    {
+      "chunk_id": "997f87",
+      "exit_code": 0
+    }
+  ],
+  "diagnostic": [
+    {
+      "chunk_id": "85fdc6",
+      "session_id": 10195
+    },
+    {
+      "chunk_id": "c038a7",
+      "exit_code": 1
+    }
+  ],
+  "interruption": {
+    "verified_pid": 4663,
+    "verified_command": "python3.12 -m pytest -q reports/projective_geometric_pairing_2026_09_25/test_verify.py",
+    "sigint_receipt": "0c26da",
+    "recheck_receipt": "12be35",
+    "subsequent_sigterm_attempt": "7c39ef: no such process; no signal delivered",
+    "terminal": "cf1275: exit 2, KeyboardInterrupt; 18 failed, 9 passed, incomplete suite"
+  },
+  "note": "Full first-run and diagnostic output preserved with explicitly marked path-only redactions. All scientific source remained unchanged until all sessions were terminal."
+}
