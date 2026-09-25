@@ -1,0 +1,23 @@
+............................................................F........... [ 91%]
+.......                                                                  [100%]
+=================================== FAILURES ===================================
+___________ test_received_generic_pairing_and_dual_inverse_identity ____________
+
+    def test_received_generic_pairing_and_dual_inverse_identity():
+        witness = v.pairing_witness()
+        det = -q*(q*q+q+1)**3/(16*(q+1)**4)
+        assert v.cc.clean(witness.det()-det) == 0
+        for a in v.cc.prior.generators(q):
+            assert v.cc.clean(a.T*witness-witness*a) == s.zeros(4)
+            assert v.cc.clean(a.inv().T*witness-witness*a.inv()) == s.zeros(4)
+            for phase in (1,-1,s.I,-s.I):
+                twisted = phase*a
+>               assert v.cc.clean(twisted.inv().T*witness-witness*twisted.inv()) == s.zeros(4)
+E               assert Matrix([\n[0, ...0, 0*I,   0]]) == Matrix([\n[0, ...[0, 0, 0, 0]])
+E                 
+E                 Use -v to get more diff
+
+tests/test_physical_bridge_neutral_tangent.py:105: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_neutral_tangent.py::test_received_generic_pairing_and_dual_inverse_identity
+1 failed, 78 passed in 26.24s

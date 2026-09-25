@@ -15455,3 +15455,39 @@ directions if required. Preserve R40/R41's distinct noncentral-source
 route and end/cover/phase alternatives. Selection, physical chirality,
 anomalies, observed scales, quantum stability and gravity remain duties.
 Report: reports/physical_bridge_2026_09_05/NEUTRAL_TANGENT.md.
+
+## 2026-09-25 - R48: canonical geometric duality and whole response
+
+Own input d6bbec1b; scientific seal afa983ae pushed/server-confirmed
+before any import/run. Fresh preflight and local fork reading were retained;
+F15/F16/F17 are received reading, not independently rerun premises here.
+No shared B/I, main merge, other-seat change or fork push.
+
+The actual q>0, q!=1 canonical affine-sphere background now has an authored
+self-isometry and a unitary positive-coefficient/complete-operator duality.
+The new join uses R44's any-domain type-one cusp/core result, the stated
+Cooper--Tillmann Theorem 3.5 density/minimality input, a Baire argument on
+its two-dimensional boundary, and credited conormal metric duality.
+This is explicit external-to-authored analysis, not independent theorem
+acceptance. The preprint was personally read in full; its density statement
+and R44 topology remain named specialist-review dependencies.
+
+The result transfers the inherited F14 algebraic pairing to THIS canonical
+metric without importing its old-base uniqueness argument. At the exceptional
+points, R46's admissibility/gap then gives paired WHOLE scalar responses.
+The actual coupling value and source nonvanishing are not computed.
+A non-self-dual ellipsoid rejects the algebra-to-domain shortcut; the
+product-cone shear rejects a false kill based on the naive torus flip.
+
+Native 30 pass, dedicated 12 pass, six-file regression 78 pass/one unchanged
+R47 structural-zero failure. The R47 exact-field diagnostic passes in the
+same population. All six new scientific files and 55 fixed inputs remain
+byte-checked. Governance retains four historical failing categories and
+41 stale relay debts; no full-suite green or main-bank acceptance.
+
+Next: independent global review, full neutral/nonlinear and selection
+analysis, actual normalized interactions, and a mechanism which changes
+an earned symmetry hypothesis or supplies a consistent asymmetric phase.
+Keep R40/R41 and other coefficient/end/source routes. No all-class chirality
+closure, physical CP identification, measured constant, gravity or TOE claim.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_DUALITY.md.

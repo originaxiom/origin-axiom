@@ -1,5 +1,14 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+Latest path-local R48 advances the actual canonical geometric-duality duty
+to an authored global argument, with 30 native/12 dedicated controls passing.
+Independent review of its stated boundary-density and R44 cusp/core inputs
+remains explicit. Full neutral/nonlinear and selection duties remain, while
+classical paired responses are now constrained on this q curve. Changed
+source/end/coefficient data and quantum phases are not excluded; R40/R41
+is retained. See the dated disposition below and
+reports/physical_bridge_2026_09_05/CANONICAL_DUALITY.md.
+
 Latest path-local R47: the q-tangent has a nonzero finite-norm neutral
 harmonic projection on each fixed canonical background, at authored-
 proof grade. The full neutral count, nonlinear modulus, coupled metric
@@ -3461,3 +3470,29 @@ NEXT, with distinct completion tests:
 The old hyperbolic q-tail divergence is preserved on its own metric;
 neither that result nor the new algebraic pairing closes class-level
 chirality. No nonlinear physical modulus or completed TOE is claimed.
+
+### 2026-09-25 R48 duty disposition (path-local, no shared B allocation)
+
+The registered canonical geometric-map duty advances to an authored
+conditional proof for the literal q curve and mu4 twists: the complete
+operators and R46 classical scalar response are paired. Closing sentence:
+"Changing from the old hyperbolic base to the canonical finite-energy
+background retains the constructive modes AND the classical pairing."
+Source: reports/physical_bridge_2026_09_05/CANONICAL_DUALITY.md.
+This names a specified member/model and is NOT a class-wide closure.
+
+- PB-REVIEW: obtain independent scrutiny of R44's any-domain end/core
+  argument and the exact Cooper--Tillmann density/minimality application.
+  Matrix controls cannot settle these external analytic/topological inputs.
+- PB-NEUTRAL: R47 remains a nonzero harmonic lower bound. Determine the
+  full neutral kernel, nonlinear regularity/integrability and any actual
+  background-selection dynamics; do not identify the q tangent as a
+  selected physical modulus or coupled gravitational kinetic term.
+- PB-INTERACTION: compute normalized global sources/tensors and observables.
+  R48 constrains the paired classical response, not its nonzero value.
+- PB-CHIRAL: an escape must change a stated end/source/coefficient/domain
+  hypothesis or realize an asymmetric interacting phase with full spectrum
+  and anomaly matching. Preserve R40/R41 and noncyclic/other-component
+  alternatives; F17's local cover result is not an all-cover no-go.
+- PB-PHYSICS: parent/action/parameter selection, observed SM breaking,
+  generations, quantum consistency and gravity remain full-mission duties.

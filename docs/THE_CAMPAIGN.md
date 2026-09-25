@@ -16,6 +16,17 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 25 R48 supplies the canonical self-isometry, positive coefficient
+map and complete operator/response pairing for the literal q curve, at
+authored-proof grade with explicit boundary-density and cusp/core inputs.
+Do not keep seeking unequal classical responses merely by changing q or
+switching from the old hyperbolic base to this canonical metric. Prioritize
+independent global review and the full neutral/nonlinear/selection problem;
+a changed source/end/coefficient or interacting phase must name and pay its
+different hypotheses. R40/R41 remains separate. Normalized quantitative
+interactions and gravity remain duties, not consequences of this symmetry.
+See reports/physical_bridge_2026_09_05/CANONICAL_DUALITY.md.
+
 September 25 R47 earns a fixed-canonical-base neutral harmonic LOWER
 BOUND by a compact detector, without assuming a neutral spectral gap.
 The generic q curve remains algebraically paired under inversion plus

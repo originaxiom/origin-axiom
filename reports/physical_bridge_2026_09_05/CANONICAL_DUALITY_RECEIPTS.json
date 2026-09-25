@@ -1,0 +1,443 @@
+{
+  "scope": "R48 same-canonical-background duality; authored global application, finite exact controls; not a physical chirality or TOE certificate",
+  "seal": {
+    "pin": "afa983aeecf42ff6b8fdffcc3aea34c1d73ea9de",
+    "paths": [
+      "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_DESIGN.md",
+      "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PROOF.md",
+      "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PRIOR.md",
+      "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_INPUTS.json",
+      "reports/physical_bridge_2026_09_05/canonical_duality.py",
+      "tests/test_physical_bridge_canonical_duality.py"
+    ],
+    "remote_public_path": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_SEAL_REMOTE_FIRST.txt"
+  },
+  "preflight_runs": {
+    "fetch_all": {
+      "raw_basename": "oa_r48_fetch_all_first",
+      "raw_receipt_sha256": "a014221514d710ccf00be89b1567d44ee0be61d8de793576136fbd03f1d0c83c",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "fetch",
+          "origin",
+          "+refs/heads/*:refs/remotes/origin/*",
+          "--tags"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.6977179999998953,
+        "log_bytes": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": ""
+    },
+    "prior": {
+      "raw_basename": "oa_r48_prior_first",
+      "raw_receipt_sha256": "0916e93d11ae562b6c56b0da2e8e6d2cf3539d49401468af294b30ee89da746b",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/already_banked.py",
+          "canonical",
+          "geometric",
+          "duality"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 1.4442830000002687,
+        "log_bytes": 3132,
+        "log_sha256": "0d49b99fec09a040d6f0bd7db5b9805a7516038bf0aa12349d2a7a5e4be600fd"
+      },
+      "expected_exit": 1,
+      "raw_log_with_environment_redaction": "already-banked: terms ['canonical', 'geometric', 'duality']\n  233 corpus hits; 3 SETTLED arcs matching >= 2 of 3 terms\n      [ 3 terms] FINDINGS  frontier/B226_two_susy_bridge_L43/FINDINGS.md\n           # B226 / L43 — the two-SUSY bridge resolved: two faces, separated by the hyperbolic / non-hyperbolic divide \n      [ 3 terms] FINDINGS  frontier/B348_bloch_class_galois/FINDINGS.md\n           # B348 — gate A extension: the Bloch class is a self-symmetrized Galois orbit (conditional) \n      [ 3 terms] FINDINGS  frontier/B598_l85_campaign/FINDINGS.md\n           # B598 — the L85 campaign opened; P0 (the C1 baseline) computed \n  *** [ 2 terms] PROVED    B1041_theta_leg\n           PM1 / L160's theta-leg (sealed 165d8ef5 pre-compute): the three (Z/2)^3 cubes -- Galois (B704), operations (B766), closings (B782) -- are ONE cube at direction level, EXHIBITED: the coordinate-permutation dictionary is I\n      [ 2 terms] OPEN      B1163_w0_attempt\n           The W0 construction ATTEMPT (owner: 'can we specialize ourselves and do the missing archimedean W'; WF W0-construct, 7 agents). SEAL = PARTIAL: no W0 constructed, but all three routes CONVERGE on ONE missing datum -- an \n      [ 2 terms] OPEN      B1168_c5_investigation\n           The C5 investigation (owner-directed: 'C5 is not just a choice, investigate further'). RESULT: the object/observer boundary at the archimedean (infinity) place is NOT a definitional choice -- it is a MIRROR-PARITY x DIME\n      [ 2 terms] OPEN      B1169_qualia_parity_synthesis\n           The qualia/parity SYNTHESIS (owner-directed; all seats to verify). This week's four arcs (B1165-B1168) fold back into the observer-closure spine. SOLID CORE (own-verified + banked-cited): (1) the parity facts (B1168) -- \n      [ 2 terms] OPEN      B1198_lee_motives_retrieval\n           THE SPECIALIST BAR'S LITERATURE HALF RETRIEVED (WebSearch returned to this bench today; on the first search against SEAM-A, B707's THIRD named-but-never-run bridge test -- 'Lee x B680/B683' -- turned out to have its obje\n      [ 2 terms] OPEN      B1208_cross_seat_harvest\n           THE CROSS-SEAT HARVEST (R52-2's head; seven results from three seats verified on this bench FROM MAIN'S OWN DATA, two of their derivations corrected, one of my own candidates convicted of vacuity). (1) MEMO 128, the lamb\n  *** [ 2 terms] PROVED    B277_4d_lift_obstruction\n           The figure-eight has a canonical class-S lift — fiber Σ_{1,1} giving 4d N=2* SU(2) with monodromy φ=RL as an S-duality element — and a chiral 4d SM is blocked by two named inputs.\n  *** [ 2 terms] PROVED    B917_value_arc_verification\n           THE VALUE ARC (handoff 7) VERIFIED at the firm layer: their suite reproduces end-to-end on this bench (the tau-intertwiner exact-tier PASS; the six-fold democracy at 45 digits; CCC = 3!*lambda; the P8 equivariance machin\n      [ 2 terms] FINDINGS  frontier/B1009_verification_pass/FINDINGS.md\n           # B1009 — the verification pass: 4 of 5 confirmed, 1 scope overreach withdrawn, 1 cc3 claim killed \n\n  *** SETTLED ARCS EXIST FOR THESE TERMS. Read them BEFORE writing MISSING/OPEN.\n"
+    },
+    "atlas": {
+      "raw_basename": "oa_r48_atlas_first",
+      "raw_receipt_sha256": "0ccdbcfd794272a634fcffd8e72bd7870bd26b846547bc2af3ac3758016b6b9f",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/atlas/query.py",
+          "card",
+          "duality"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.18101100000012593,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "THE RECURRENCE ATLAS -- context card\n  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}\n  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur\n  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)\n  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422\n  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral\n  top meeting-point candidates: B530, B156, B521, B309, B598, B1189\n  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())\n"
+    },
+    "identification": {
+      "raw_basename": "oa_r48_identification_first",
+      "raw_receipt_sha256": "96744d7895c431173b8494f3039c2412860ba62a2d76c923f0d42c9ab984fbe5",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/checks/identification_audit.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.09967499999993379,
+        "log_bytes": 442,
+        "log_sha256": "b540510f3b20a997e14b8842a48fca2f286db42b48975acfed33a3989e593215"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "identification ledger: 24 rows -- docs/IDENTIFICATION_LEDGER.md\n  EARNED      8   I-1 I-2 I-3 I-12 I-19 I-20 I-21 I-22\n  REFUTED     7   I-4 I-5 I-8 I-15 I-16 I-17 I-24\n  UNEARNED    9   I-6 I-7 I-9 I-10 I-11 I-13 I-14 I-18 I-23\n\n  UNEARNED = 9   <- these are UNPRICED OBSERVER INPUTS (B1225: the object cannot identify)\n  the input ledger's parameter count is a LOWER BOUND while any row is UNEARNED.\n  ratchet baseline: 9   current: 9   OK\n"
+    }
+  },
+  "runs": {
+    "seal_commit_first": {
+      "raw_basename": "oa_r48_seal_commit_first",
+      "raw_receipt_sha256": "6bad82525adc4f46415fe6bcada68796a6cb6c831073bad8e60a5a6ec39d3644",
+      "receipt": {
+        "command": [
+          "git",
+          "-c",
+          "user.name=originaxiom",
+          "-c",
+          "user.email=originaxiom@users.noreply.github.com",
+          "commit",
+          "-m",
+          "Seal canonical conormal duality and same-background response test"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.08992799999941781,
+        "log_bytes": 623,
+        "log_sha256": "1a7f71fd2973c03dd54a1775debd9edbcc3860ef527030f5de570761ec85eb5b"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "[audit/physical-bridge-2026-09-05 afa983ae] Seal canonical conormal duality and same-background response test\n 8 files changed, 1070 insertions(+)\n create mode 100644 reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_DESIGN.md\n create mode 100644 reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_INPUTS.json\n create mode 100644 reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PRIOR.md\n create mode 100644 reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_PROOF.md\n create mode 100644 reports/physical_bridge_2026_09_05/canonical_duality.py\n create mode 100644 tests/test_physical_bridge_canonical_duality.py\n"
+    },
+    "seal_push_first": {
+      "raw_basename": "oa_r48_seal_push_first",
+      "raw_receipt_sha256": "85adc983fec0e3cb60ca19938c2d395a1286ab5a77cb4522b6e6fb8484c91f54",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "push",
+          "origin",
+          "HEAD:refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.770183999999972,
+        "log_bytes": 115,
+        "log_sha256": "ff72525240b6330e8d4ade5bd0790ef9395050ef4e0160e535c130bb7d3c7e7f"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "To https://github.com/originaxiom/origin-axiom.git\n   d6bbec1b..afa983ae  HEAD -> audit/physical-bridge-2026-09-05\n"
+    },
+    "seal_remote_first": {
+      "raw_basename": "oa_r48_seal_remote_first",
+      "raw_receipt_sha256": "5164a4fc30b56412d48ee2fffe09938eae2a4a6624cbf478106e4369e70c6eb7",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "ls-remote",
+          "origin",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.4739810000000944,
+        "log_bytes": 85,
+        "log_sha256": "1fb6b777b36da875c37d4ac6e17a33feba7e2ebfcbc02f60cd6a276141918563"
+      },
+      "expected_exit": 0,
+      "public_path": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_SEAL_REMOTE_FIRST.txt"
+    },
+    "native_first": {
+      "raw_basename": "oa_r48_native_first",
+      "raw_receipt_sha256": "2217a91fe059d34371d936aa62c5755bb0897fb23b9935f1fb6bbdd691951629",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/canonical_duality.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 11.714680999999473,
+        "log_bytes": 1177,
+        "log_sha256": "6c8a413be4763d2de72eeb44642519f9ec61d5d8a7056c70b134297f0a08a697"
+      },
+      "expected_exit": 0,
+      "public_path": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_NATIVE_FIRST.json"
+    },
+    "tests_first": {
+      "raw_basename": "oa_r48_tests_first",
+      "raw_receipt_sha256": "9ae108b43e87f4168d97d3478571333713ca689c62990120eba332cd760331ea",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "tests/test_physical_bridge_canonical_duality.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 12.67550300000039,
+        "log_bytes": 100,
+        "log_sha256": "d26f7a0e71cccced81559916d307ba5e2e8eeb2eac82d6c93f450df4edf2c5e1"
+      },
+      "expected_exit": 0,
+      "public_path": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_TESTS_FIRST.txt"
+    },
+    "focused_first": {
+      "raw_basename": "oa_r48_focused_first",
+      "raw_receipt_sha256": "e681880e9231474f4c2ca06517af65930f055332b47af2f108707002f26ae3b3",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "tests/test_physical_bridge_canonical_cusp.py",
+          "tests/test_physical_bridge_parent_cusp.py",
+          "tests/test_physical_bridge_canonical_interaction.py",
+          "tests/test_physical_bridge_neutral_tangent.py",
+          "tests/test_physical_bridge_neutral_pairing_diagnostic.py",
+          "tests/test_physical_bridge_canonical_duality.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 27.10359900000003,
+        "log_bytes": 1321,
+        "log_sha256": "33adf00adcea8eb318125d67cc7dff342a753a78c9ec43fa32c900303fdaa9fb"
+      },
+      "expected_exit": 1,
+      "public_path": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_FOCUSED_FIRST.txt"
+    }
+  },
+  "audit_runs": {
+    "staged_preseal": {
+      "raw_basename": "oa_r48_staged_preseal_first",
+      "raw_receipt_sha256": "9e2c5276eb606c9f4a60c965b4467c375718d714e7cebf1916f047b9338a89cc",
+      "receipt": {
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--check"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.04653099999995902,
+        "log_bytes": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": ""
+    },
+    "prior_custody": {
+      "raw_basename": "oa_r48_prior_custody_first",
+      "raw_receipt_sha256": "46aff103182d262750b4a1096f65ce34b44ce054a737546074a6b26beaea59e3",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<primary-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.2072939999998198,
+        "log_bytes": 614,
+        "log_sha256": "2bb383adf58169d55e3dddbc33e527e1196b8e5e9b20877f0093e101d24855db"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "{\"old_custody\":{\"artifacts\":788,\"latest_distinct_seals\":240,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":2,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    "r47_custody": {
+      "raw_basename": "oa_r48_r47_custody_first",
+      "raw_receipt_sha256": "42facfb52fc165b37e940521c7b72b5ee1d58084f9ed034ced55abe35fd4c1e7",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/neutral_tangent_receipt_check.rb",
+          "<workspace>/oa-r47-raw.wCNXZj"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.3978409999999712,
+        "log_bytes": 475,
+        "log_sha256": "b9575b672628853d2b1de46fea1622e62e7c42008c2524eb85c0332576d80d8c"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "{\"sealed_paths\":13,\"frozen_inputs\":43,\"received_reading_files\":4,\"prior_runs\":4,\"runs\":11,\"audit_runs\":8,\"native_checks\":13,\"original_tests\":{\"passed\":10,\"failed\":1},\"focused_tests\":{\"passed\":62,\"failed\":1},\"diagnostic_tests\":4,\"exact_pairing_cases\":8,\"retained_failed_id\":\"tests/test_physical_bridge_neutral_tangent.py::test_received_generic_pairing_and_dual_inverse_identity\",\"scope\":\"Custody and declared outcomes; not independent global proof acceptance or full green.\"}\n"
+    },
+    "governance_preseal": {
+      "raw_basename": "oa_r48_governance_preseal_first",
+      "raw_receipt_sha256": "010d6fd31b3d3b23158ef9abb93cb50270799b62d5a060fffd08e2deb70451bd",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 14.534340000000157,
+        "log_bytes": 2095,
+        "log_sha256": "532ebf821b51b278fbbb0a9e44cfce3cd667ee0235a87e67275a564a728b6251"
+      },
+      "expected_exit": 1,
+      "raw_log_with_environment_redaction": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 34 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 30 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 209 merges since last review (DUE — run the decadal review)\n"
+    },
+    "receipt_check_first": {
+      "raw_basename": "oa_r48_receipt_check_first",
+      "raw_receipt_sha256": "3a74ba54955ae6699b5e3c9ff4ce026e699e04413afb320736563917d5d4af83",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/canonical_duality_receipt_check.rb",
+          "<r48-raw>",
+          "<primary-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.5660250000000815,
+        "log_bytes": 426,
+        "log_sha256": "a7ddc5ee1aa3201a90c75ffb30ddf9959493f3e6c5021d39e1b5335c1932a19f"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "{\"sealed_paths\":6,\"frozen_inputs\":55,\"primary_sources\":2,\"preflight_runs\":4,\"runs\":6,\"audit_runs\":4,\"native_controls\":30,\"dedicated_tests\":12,\"focused\":{\"passed\":78,\"failed\":1},\"retained_failed_id\":\"tests/test_physical_bridge_neutral_tangent.py::test_received_generic_pairing_and_dual_inverse_identity\",\"scope\":\"Byte custody and declared outcomes; global geometric inputs and physical interpretation are not certified here.\"}\n"
+    },
+    "receipt_check_staged_first": {
+      "raw_basename": "oa_r48_receipt_check_staged_first",
+      "raw_receipt_sha256": "04a5f2107822662e3a85d6cb6f7af9381f0decad2c4c966fbdebedbbec04dd83",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/canonical_duality_receipt_check.rb",
+          "<r48-raw>",
+          "<primary-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.5589230000005045,
+        "log_bytes": 426,
+        "log_sha256": "a7ddc5ee1aa3201a90c75ffb30ddf9959493f3e6c5021d39e1b5335c1932a19f"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "{\"sealed_paths\":6,\"frozen_inputs\":55,\"primary_sources\":2,\"preflight_runs\":4,\"runs\":6,\"audit_runs\":4,\"native_controls\":30,\"dedicated_tests\":12,\"focused\":{\"passed\":78,\"failed\":1},\"retained_failed_id\":\"tests/test_physical_bridge_neutral_tangent.py::test_received_generic_pairing_and_dual_inverse_identity\",\"scope\":\"Byte custody and declared outcomes; global geometric inputs and physical interpretation are not certified here.\"}\n"
+    },
+    "prior_custody_staged_first": {
+      "raw_basename": "oa_r48_prior_custody_staged_first",
+      "raw_receipt_sha256": "625990733d6ede953f72812c91695e42287d5b97f897348f41847c3a45607ceb",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<primary-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.3029349999997066,
+        "log_bytes": 616,
+        "log_sha256": "87eac43f18307eba74fccf5c9293463e7a56b9d25d8f0872a49bdf5efd392074"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "{\"old_custody\":{\"artifacts\":795,\"latest_distinct_seals\":240,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":306,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    "governance_staged_first": {
+      "raw_basename": "oa_r48_governance_staged_first",
+      "raw_receipt_sha256": "5b4c1f960174354e680f2e7a87c784ad18af6cc1656c18ac01b704a4d1ae1b7f",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 18.678390000000036,
+        "log_bytes": 2095,
+        "log_sha256": "ff2207931a88df6257a7814a7f0de50ae68744095d9ab7d9d1795a3d222d160f"
+      },
+      "expected_exit": 1,
+      "raw_log_with_environment_redaction": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 34 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 30 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 210 merges since last review (DUE — run the decadal review)\n"
+    },
+    "whitespace_staged_first": {
+      "raw_basename": "oa_r48_whitespace_staged_first",
+      "raw_receipt_sha256": "4773e7d1a9c1a391f6e5c4316a376a23943271dd93fae1f11fdcbd0b137536e3",
+      "receipt": {
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--check"
+        ],
+        "exit_code": 2,
+        "signal": null,
+        "elapsed_seconds": 0.0846319999991465,
+        "log_bytes": 116,
+        "log_sha256": "bff8ffad5915f8e13283ad99f045f4ed046c5c2e829298abe31287eb946caca3"
+      },
+      "expected_exit": 2,
+      "raw_log_with_environment_redaction": "reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_FOCUSED_FIRST.txt:17: trailing whitespace.\n+E                 \n"
+    },
+    "source_whitespace_staged_first": {
+      "raw_basename": "oa_r48_source_whitespace_staged_first",
+      "raw_receipt_sha256": "b3eee672bf2f90cfcbdd9bc9c57ac29dc4dfed8318c96ae32ba5e6be1ec0737b",
+      "receipt": {
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--check",
+          "--",
+          ".",
+          ":(exclude)reports/physical_bridge_2026_09_05/CANONICAL_DUALITY_FOCUSED_FIRST.txt"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.0797389999997904,
+        "log_bytes": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": ""
+    }
+  },
+  "qualifications": [
+    "All scientific executions began after the pushed seal was server-confirmed.",
+    "All six scientific files and 55 predecessor/input paths are immutable during this receipt population.",
+    "The R47 structural-zero failure is retained in the six-file focused regression; the separately sealed exact-field diagnostic passes.",
+    "The global domain-density and R44 core/end applications require independent analytic review; finite tests do not certify them.",
+    "No new R48 science failure or post-execution correction occurred. No full-suite green or main-bank acceptance.",
+    "The strict staged whitespace check exits 2 solely for a trailing-space line in the byte-preserved original R47 failure reproduced in CANONICAL_DUALITY_FOCUSED_FIRST.txt. Excluding exactly that capture gives a clean source/document check.",
+    "The staged cumulative receipt check covers 795 artifact paths, 240 latest distinct seals and 306 relative links before the final metadata-summary file is added. It retains all 24 historical failed IDs.",
+    "Staged governance remains 26 PASS/four historical FAIL categories, 41 stale relay debts, and review due at 210.",
+    "A report-append orchestration attempt had a JavaScript parse error before any tool call/write; a corrected builder succeeded. An initial PDF hash command hit a locale error; C-locale hashing succeeded. Neither is a scientific run or post-hoc science correction."
+  ]
+}

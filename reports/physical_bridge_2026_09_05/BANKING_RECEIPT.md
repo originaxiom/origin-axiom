@@ -941,3 +941,23 @@ relay debts remain visible. Local custody checker and reporting receipts
 preserve exact outputs and declared redactions. Source/end alternatives,
 coupled q kinetics, canonical geometric pairing, physical chirality,
 selection, gravity and the overall TOE goal remain unfinished.
+
+## R48 - canonical geometric duality, September 25, 2026
+
+Scientific seal afa983aeecf42ff6b8fdffcc3aea34c1d73ea9de was pushed and
+server-confirmed before all science. Six immutable scientific files,
+55 frozen predecessor/input paths and two primary PDF hashes are recorded.
+The global conormal/domain argument is authored with explicit external
+review dependencies; no independent specialist or main-bank certificate.
+
+Native 30 pass; dedicated 12 pass; fixed six-file regression 78 pass and
+one unchanged R47 structural-zero test failure. The earlier exact-field
+diagnostic passes; no new science failure/correction. Raw/public custody
+is checked by canonical_duality_receipt_check.rb against
+CANONICAL_DUALITY_RECEIPTS.json. First failures remain byte-preserved.
+
+Reader fronts, campaign ordering, progress/changelog, law sublemmas and
+open-duty dispositions are updated. Source/end/phase alternatives remain.
+No shared B/I, main or codeberg push, other-seat edit, observed constant,
+physical CP/chirality or TOE closure. Historical governance failures and
+relay debts remain declared; the branch report is not a full banking pass.

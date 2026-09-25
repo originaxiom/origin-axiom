@@ -1,0 +1,29 @@
+R48 report-stage checks, September 25, 2026
+
+Science, sealed at afa983ae before execution:
+  native exact controls: 30 pass
+  dedicated tests: 12 pass
+  fixed six-file regression: 78 pass, one unchanged R47 structural-zero failure
+  no R48 science failure, source rewrite, or scientific correction
+
+Read-only metadata verification:
+  six scientific paths match their pre-execution commit and seal ledger
+  55 predecessor/input paths match d6bbec1b and their sealed hashes
+  two primary PDF byte sizes and hashes match
+  four preflight captures match the sealed input manifest
+  six science/seal execution captures retain exact exits and public copies
+  staged custody additionally checks 795 artifact paths, 240 latest distinct
+    seals and 306 relative Markdown links before this summary is added
+  24 historical failed IDs remain unchanged
+  staged governance: 26 PASS; four historical FAIL categories
+    attribution, test-vacuity, seal-provenance, relay-debt
+  41 stale relay debts; review due at 210
+  strict staged whitespace: exit 2 only for the byte-preserved failed-test
+    transcript at CANONICAL_DUALITY_FOCUSED_FIRST.txt line 17
+  source/document check excluding exactly that transcript: exit 0
+
+Actual commands, output bytes/hashes and durations are in
+CANONICAL_DUALITY_RECEIPTS.json. This summary is not a replacement for raw
+captures and is not independent analytic proof review or full-suite green.
+The final metadata additions receive another read-only custody check before
+report commit. They do not alter the six sealed scientific files.

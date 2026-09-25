@@ -1,5 +1,23 @@
 # One-model audit: which positive results actually compose?
 
+**Latest local result, R48 (September 25): canonical geometric pairing.**
+The conormal construction now supplies an actual self-isometry and a
+unitary complete-domain matter/dual map on the SAME canonical background,
+for the literal q>0, q!=1 curve and its mu4 twists. R46's whole classical
+scalar response is consequently paired at the exceptional points.
+This is an authored application of explicit external geometry, including
+the Cooper--Tillmann boundary-density theorem and R44's any-domain cusp/
+core argument, not independent proof acceptance or physical CP/chirality.
+All 30 native controls and 12 new tests pass; fixed six-file regression:
+78 pass and the same preserved R47 structural-zero comparison failure.
+The six scientific files were sealed, pushed and server-confirmed at
+**afa983ae** before execution. No original science was edited afterward.
+Next: independent global review, full neutral/nonlinear and selection
+analysis, actual normalized interactions and an earned changed-hypothesis
+or quantum-phase route. Preserve R40/R41; no all-class chirality closure.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_DUALITY.md.
+Earlier dated entries below retain their historical scope.
+
 **Latest local result, R45 (September 25): parent gauge and cusp sectors.**
 The actual canonical projective four in the supplied E8 parent has
 so(10) as its 45-dimensional normalizable compact gauge zero algebra.
@@ -455,3 +473,22 @@ without changing the failed records; four diagnostic tests pass. All
 eight twisted inverse identities hold. No full-suite green, independent
 global proof certificate or nonlinear q-modulus is asserted.
 [R47 report](NEUTRAL_TANGENT.md). The R40/R41 alternative remains separate.
+
+## R48 extension, September 25: the same canonical model remains paired
+
+R48 supplies the canonical geometric map requested by R47, under explicit
+external boundary-density and inherited cusp/core hypotheses. The conormal
+map returns to the same minimal domain and directly transports positive
+coefficient metrics. Hence the complete spectra and R46's whole scalar
+responses are paired on this actual finite-energy background, not imported
+from the old fixed-hyperbolic model. The analytic application is authored;
+30 finite controls and 12 dedicated tests do not provide independent proof
+acceptance. The focused six-file population is 78 pass/one retained R47
+comparison failure; the exact-field diagnostic passes unchanged.
+
+This adds compatibility, not a chiral vacuum. The canonical metric change
+alone is not the asymmetric classical mechanism on this curve. Keep the
+neutral/nonlinear and selection task, actual normalized observables, and
+changed-source/end/coefficient or quantum-phase duties. R40/R41 remains a
+different construction, not a casualty of this model's pairing.
+Source: [R48 report](CANONICAL_DUALITY.md).

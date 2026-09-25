@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-09-25 - R48 pairs the actual canonical geometry and responses
+
+For the literal q>0, q!=1 projective curve and its four scalar twists,
+the conormal map and an explicit domain-minimality application give an
+orientation-preserving canonical base self-isometry. The positive
+coefficient metric is transported directly, yielding unitary complete
+differential/Laplacian domains and paired whole classical scalar responses
+at the exceptional points. This is no longer only an algebraic pairing
+or an old-fixed-hyperbolic-metric theorem.
+
+The global application remains authored: Cooper--Tillmann Theorem 3.5's
+stated boundary density and R44's any-domain cusp/core argument are
+explicit external/inherited review dependencies, not finite-test outputs.
+The countercontrols reject equal-holonomy/equal-domain identification,
+the unsheared cusp-coordinate guess, wrong scalar twists, omitted volume
+normalization and an untransformed mediator. The existing F14 matrix,
+parent Weyl lift and prior conormal geometry are credited reuse.
+
+Seal afa983ae was pushed/server-confirmed before the three runs. Native
+30 pass; dedicated 12 pass; six-file regression 78 pass/one unchanged
+R47 structural-zero failure. Six scientific files and 55 inputs remain
+byte-checked. No new failed run, source repair, shared B/I or main merge.
+No physical CP, chiral vacuum, parameter selection, quantum phase or TOE.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_DUALITY.md.
+
 ## 2026-09-25 - R47 detects a nonzero normalizable neutral direction
 
 At every fixed q>0, q!=1 on the canonical background, the global flat

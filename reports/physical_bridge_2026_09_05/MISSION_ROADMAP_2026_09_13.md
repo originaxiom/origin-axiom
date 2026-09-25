@@ -1,5 +1,23 @@
 # Mission roadmap: one physical theory, not a union of successful pieces
 
+**Latest local result, R48 (September 25): canonical geometric pairing.**
+The conormal construction now supplies an actual self-isometry and a
+unitary complete-domain matter/dual map on the SAME canonical background,
+for the literal q>0, q!=1 curve and its mu4 twists. R46's whole classical
+scalar response is consequently paired at the exceptional points.
+This is an authored application of explicit external geometry, including
+the Cooper--Tillmann boundary-density theorem and R44's any-domain cusp/
+core argument, not independent proof acceptance or physical CP/chirality.
+All 30 native controls and 12 new tests pass; fixed six-file regression:
+78 pass and the same preserved R47 structural-zero comparison failure.
+The six scientific files were sealed, pushed and server-confirmed at
+**afa983ae** before execution. No original science was edited afterward.
+Next: independent global review, full neutral/nonlinear and selection
+analysis, actual normalized interactions and an earned changed-hypothesis
+or quantum-phase route. Preserve R40/R41; no all-class chirality closure.
+Report: reports/physical_bridge_2026_09_05/CANONICAL_DUALITY.md.
+Earlier dated entries below retain their historical scope.
+
 **Latest local result, R47 (September 25): a nonzero neutral harmonic direction.**
 On each fixed q>0, q!=1 canonical background, a compact dual detector
 pairs nontrivially with the global L2 q tangent and annihilates the
