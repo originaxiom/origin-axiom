@@ -76,15 +76,15 @@ def run_level(n):
     for i, psi in enumerate(psis):
         k = (sum(mu_ab[g] * psi[g] for g in gens) % N, sum(lam_ab[g] * psi[g] for g in gens) % N); by_lam.setdefault(k, []).append(i)
     # the firing set per locus
-    nz = {}; total = 0; cusp = Counter(); h1s = Counter()
+    nz = {}; total = 0; cusp = Counter(); h1s = Counter(); dims = Counter()
     for j in range(nloci):
         chi = dict(zip(gens, common[j])); kl = sum(lam_ab[g] * chi[g] for g in gens) % N; km = sum(mu_ab[g] * chi[g] for g in gens) % N
         cusp[(km, kl)] += 1; h1s[L0.loci[li_of[0][j]][1]] += 1
         cand = sorted(set(by_lam.get(((-km) % N, (-kl) % N), []) + by_lam.get((km % N, kl % N), [])))
         total += len(cand); fire = {}
         for i in cand:
-            I = L0.I(li_of[0][j], psis[i])[0]
-            if I != 0: fire[i] = I
+            I, dV, dVd = L0.I(li_of[0][j], psis[i])
+            if I != 0: fire[i] = I; dims[(dV[1], dV[3], dVd[1], dVd[3])] += 1
         nz[j] = fire
     nfire = sum(len(f) for f in nz.values())
     # re-check every non-zero over the two other primes, and a sample of zeros
@@ -119,10 +119,11 @@ def run_level(n):
     print(f"Y_{n:<2d} = {H1:26s} N = {N:3d} primes {P}: |Hom| = {nH:6d}, non-split loci {nloci:4d} (spurious {spurious}; h1(chi^2) {dict(h1s)}); mu null-homologous: {mu_null}; "
           f"(chi(mu), chi(lambda)) exponents: {dict(cusp) if len(cusp) <= 6 else str(len(cusp)) + ' values'}; T5-candidate doublet modules {total}, firing {nfire} (re-checked {checked}, differing {bad}); "
           f"GENERATION-SHAPED backgrounds {len(uniq)} on {len(loci_used)} loci, signs {dict(signs)}, |count| {dict(kvals)}, nu^c count {dict(nu)}, psi_Y orders {dict(yord)}, psi_gamma orders {dict(gord)}; "
+          f"firing modules' (a_1, r_1, a_1*, r_1*): {dict(dims)}; "
           f"examples {[(j, tuple(psis[a][g] for g in gens), tuple(psis[b][g] for g in gens), c) for (j, a, b, c) in ex]}; {time.time() - t0:.0f} s", flush=True)
     return dict(n=n, H1=H1, N=N, primes=P, hom=nH, loci=nloci, spurious=spurious, mu_null=mu_null, candidates=total, firing=nfire, rechecked=checked, differing=bad,
                 generation_backgrounds=len(uniq), loci_used=len(loci_used), signs=dict(signs), kvals=dict(kvals), nu=dict(nu), yord=dict(yord), gord=dict(gord),
-                joint_sign_singlet={f"{c[0]:+d},{c[5]:+d}": v for (c0, c5), v in Counter((c[0], c[5]) for (j, a, b, c) in gens_found).items() for c in [(c0, 0, 0, 0, 0, c5)]},
+                firing_dims={str(k): v for k, v in dims.items()}, joint_sign_singlet={f"{c[0]:+d},{c[5]:+d}": v for (c0, c5), v in Counter((c[0], c[5]) for (j, a, b, c) in gens_found).items() for c in [(c0, 0, 0, 0, 0, c5)]},
                 examples=[(j, list(common[j]), tuple(psis[a][g] for g in gens), tuple(psis[b][g] for g in gens), c) for (j, a, b, c) in ex], gens=gens, rels=L0.rels, mu=L0.mu, lam=L0.lam)
 
 if __name__ == '__main__':

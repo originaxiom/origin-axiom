@@ -1,0 +1,24 @@
+=== Sec. 1: three primes, six sectors, member and orbit-sum indices ===
+p=601: members [[-1, -1, -1, -1, -1, -1], [-1, -1, -1, -1, -1, -1], [-1, -1, -1, -1, -1, -1]]  orbit-sum I per sector [-3, -3, -3, -3, -3, -3]
+p=1201: members [[-1, -1, -1, -1, -1, -1], [-1, -1, -1, -1, -1, -1], [-1, -1, -1, -1, -1, -1]]  orbit-sum I per sector [-3, -3, -3, -3, -3, -3]
+p=1321: members [[-1, -1, -1, -1, -1, -1], [-1, -1, -1, -1, -1, -1], [-1, -1, -1, -1, -1, -1]]  orbit-sum I per sector [-3, -3, -3, -3, -3, -3]
+
+=== Sec. 1b: exact over Q(zeta_8) ===
+members [[-1, -1, -1, -1, -1, -1], [-1, -1, -1, -1, -1, -1], [-1, -1, -1, -1, -1, -1]]
+  sector Q: I = -3, V dims (a0,a1,t0,r1) = (0, 6, 3, 6), V* dims = (0, 3, 3, 0)
+  sector u^c: I = -3, V dims (a0,a1,t0,r1) = (0, 6, 3, 6), V* dims = (0, 3, 3, 0)
+  sector e^c: I = -3, V dims (a0,a1,t0,r1) = (0, 6, 3, 6), V* dims = (0, 3, 3, 0)
+  sector d^c: I = -3, V dims (a0,a1,t0,r1) = (0, 6, 3, 6), V* dims = (0, 3, 3, 0)
+  sector L: I = -3, V dims (a0,a1,t0,r1) = (0, 6, 3, 6), V* dims = (0, 3, 3, 0)
+  sector nu^c: I = -3, V dims (a0,a1,t0,r1) = (0, 6, 3, 6), V* dims = (0, 3, 3, 0)
+
+=== Sec. 2: deck() is the abelian pullback by TAU on this arc's characters (chi(z) = 0) ===
+cross-check passed: True
+
+=== Sec. 3: the genuineness argument (word-map-free) ===
+h^1(pi; chi_j^2) = [1, 1, 1] at all three members (all 1) -- genuineness argument's inputs verified
+
+=== Sec. 4: semisimplification control ===
+index with the cocycle set to 0 (all six sectors): [0, 0, 0, 0, 0, 0]
+
+DONE

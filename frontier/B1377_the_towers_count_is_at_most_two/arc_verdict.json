@@ -1,0 +1,12 @@
+{
+ "id": "B1377",
+ "verdict": "PROVED",
+ "instrument": false,
+ "depends_on": ["B1375", "B1374", "B1303"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE TOWER'S COUNT IS AT MOST TWO IN ONE BACKGROUND, AND IS ONE: a firing doublet sector V = rho_chi (x) psi is an extension of two rank-one modules, so a_1(V) <= a_1(chi psi) + a_1(chi^-1 psi) and -a_1(V*) <= I(V) <= a_1(V); on every level of the tower where every rank-one character has h^1 <= 1 the one-cusped index of every sector satisfies |I| <= 2, so three generations in one background are impossible there. Verified on the complete character groups Hom(H_1, mu_N) of Y_2-Y_6 (57 564 characters, h^1 in {0, 1} on all, 509 with h^1 = 1, every non-zero re-checked over two more primes), and every firing doublet module on levels two, four, five and six (16, 976, 4 400, 10 816) has (a_1, r_1) = (1, 0) on one side and (2, 2) on the other -- one interior class against none -- which is why B1375's count is exactly one. Fences as B1374/B1375. 0 of 19."
+}

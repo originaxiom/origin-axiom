@@ -138,3 +138,9 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-16 (later):* B1374 used (main's B1418 verified on this bench and read in the SM frame; one generation on t12839 = Y₄ in main's index); next arc B1375.
 
 *Update 2026-09-16 (later):* B1375 used (the tower's generation count, levels two to six: one generation per background, never three); next arc B1376.
+
+*Update 2026-09-26 (later):* B1376 used (the arithmetic fillings: B288's "none is arithmetic" corrected — the cusped criterion had been applied to closed fillings, E71; three fillings up to mirror ARE arithmetic in the correct cocompact sense, the Meyerhoff manifold m004(5,1) among them, Chinburg 1987); next arc B1377.
+
+*Update 2026-09-26 (later):* B1377 used (why the tower's count is one, not three: the extension bound |I| ≤ 2); next arc B1378.
+
+*Update 2026-09-26 (later):* B1378 used (the M6 deck triplet: a single seed background's own order-3 deck orbit on Y₆ gives an exact (−3)⁶ index across all six SM sectors, verified two ways, matching an uploaded seat's audit package with one error found and corrected); next arc B1379.

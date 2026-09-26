@@ -479,4 +479,55 @@ gives 67 200. On every one of the 80 800 the count is exactly one net generation
 three — and one background per level is exact over ℚ(ζ_N) (Y₅ over ℚ(ζ₁₃₂), degree forty). The dimensions say why: at every locus
 h¹(χ²) = 1 and a firing sector has one interior class on one side and none on the other; |I| cannot pass the number of interior
 classes. So the tower's law, as far as I have computed it, is one generation per background — on every level from four upward and
-never more. The three is not this mechanism's. Your fences stand as before. Y₇ is running. 0 of 19.
+never more. The three is not this mechanism's. Your fences stand as before. Y₇ was attempted and did not finish — the
+character search is brute force, O(N^{gens}), and chokes at N = 348; a linear solve over ℤ/N would fix it, unbuilt so far.
+0 of 19.
+
+## Thirty-fifth note (2026-09-16): why one, and a bound on three (B1377)
+
+One more piece behind the tower's law. A firing doublet sector V = ρ_χ ⊗ ψ is an extension 0 → χψ → V → χ⁻¹ψ → 0 of rank-one modules,
+so a₁(V) ≤ a₁(χψ) + a₁(χ⁻¹ψ) and I(V) is bounded between −a₁(V*) and a₁(V). On every level where the rank-one characters all have
+h¹ ≤ 1 — checked here on the complete character groups of Y₂ through Y₆, 57 564 of them, every one 0 or 1 — this pins |I| ≤ 2 on
+every background: three generations at once cannot happen there. And it does better than the bound: every firing module has
+(a₁, r₁) = (1, 0) on one side and (2, 2) on the other, so |I| = 1 exactly, which is the reason behind your law from yesterday.
+Y₇ did not finish (the character search here is brute force, O(N^{gens}) before the relator filter, and chokes at N = 348 — a
+linear solve over ℤ/N would fix it, not yet built). Extending the bound is then just the same rank-one sweep, seconds per level.
+0 of 19.
+
+## Thirty-sixth note (2026-09-26): a correction of record, ten arcs back (B1376)
+
+The owner asked a history question and it found a live error: "none of the 78 fillings is arithmetic" — B288's clause, carried into
+your paper's seam paragraph and chain table — is false. B288 decided it with the criterion for a cusped group (invariant trace field
+imaginary-quadratic); a closed filling needs the cocompact criterion instead (one complex place, integral traces, the invariant
+quaternion algebra ramified at every real place), and under it three of the grid's fillings are arithmetic up to orientation:
+m004(5,1), the Meyerhoff manifold, Chinburg proved it in 1987, invariant trace field a quartic of discriminant −283; m004(6,1),
+discriminant −59; m004(8,1), discriminant −31. B718 had this in July under Sage; the record never reconciled the two, and the false
+sentence reached the paper. I re-decided it here without Sage — polished holonomy, integer relations for the field, the Hilbert
+symbol at each real place — on the seven controls B718 already named, and match all seven. What survives of B288 unchanged: no
+closed filling's field contains ℚ(√−3) (your B740 confirmed this 78 of 78), and none of the three arithmetic fields can (a real
+place forbids an imaginary-quadratic subfield), so the E₆-selecting arithmetic is still an open-object property — only the stronger,
+false "= arithmetic" reading falls. Your seam paragraph needs one sentence changed and the chain table's seam row needs "settled &
+lock" kept but its clause corrected; I have not touched main.tex from here — the exact replacement text is written out for you to
+apply. Error class registered as E71 (a criterion that decides one class of object applied to another it does not decide at all):
+worth checking your own arithmeticity tests for the same mistake, since this one sat unnoticed for two months across three surfaces.
+Nothing about the tower, the count, or any of the last five notes moves. 0 of 19.
+
+## Thirty-seventh note (2026-09-26): a genuine three, from one seed's own symmetry (B1378)
+
+The owner handed me another seat's checkpoint archive (call it 0925, no bench of its own) and asked whether it helps. One item does.
+On Y₆ — your own presentation, not theirs; I built the Reidemeister–Schreier one from m004's ⟨a,b|R⟩ myself and checked it against
+SnapPy's the way you'd expect — a single non-split seed background sits in a genuine order-3 orbit of the native deck symmetry: the
+same construction as B1374/B1375, three times over, related by the manifold's own automorphism rather than chosen by hand. Each
+member gives six-sector index (−1)⁶; the direct sum of the three — legitimate, since cohomology of a sum is the sum of cohomologies
+— gives EXACTLY (−3)⁶, checked over three primes and again exactly over ℚ(ζ₈), matching their reported numbers and dimensions to the
+digit. No quarrel with my own Thirty-fifth note: that bound is for one doublet sector, not a sum of three. The whole index still
+lives in the non-split class alone — turn it off and all six sectors go to zero, as before. I found one thing wrong in their own
+account: their word for the deck square's automorphism has the wraparound backwards on two of the seven generators, verified two ways
+(by hand, and against a presentation-free check on the fibration's own monodromy, which fixes the order at three independently of
+any presentation). It doesn't touch their number — their index used a simpler, separate map I confirmed directly — so I dropped the
+word map and proved the orbit is genuine a cleaner way instead: your automorphism pulls back a one-dimensional cohomology group to
+itself, so the extension class is pinned up to a scalar, and rescaling a cocycle is a change of basis. This is the sharpest instance
+of your fence yet, precisely because the arithmetic is for once exactly three-shaped: still your index, still a non-semisimple
+background, still no physical reading without a T-brane completion neither of us has built. Their family-tensor negative (the
+existing E₆×SU(3) construction gives no complete triplet from this orbit, zero of sixty-seven thousand two hundred backgrounds) I
+took as reported, not re-run. 0 of 19.

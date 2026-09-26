@@ -21,7 +21,10 @@ never 2 or 3; the singlet count is 0 on every background of Y₄ and Y₅ and 0 
 over ℚ(ζ₁₃₂) (Y₅, degree 40) and ℚ(ζ₆₀) (Y₄, B1374): (1, 1, 1, 1, 1, 0). The firing sectors always have (a₀, a₁, t₀, r₁) = (0, 1, 1, 0) on
 one side and (0, 2, 1, 2) on the other: one interior class against none. So the tower's law, as far as computed, is **one generation per
 background**: the mechanism does not produce three on any level up to six. What it produces it produces on every level from four
-upward. Y₇ (N = 348, 841 torsion) is running as this is written and is recorded in an addendum if it completes.
+upward. Y₇ (N = 348, torsion ℤ/29 ⊕ ℤ/29) was attempted and did not complete: the character enumeration as written is
+O(N^{#gens}) before the relator filter (348³ ≈ 4.2 × 10⁷ candidates checked one at a time in Python), and the process left no
+output before the container recycled it. Not a negative — an instrument limit, named in B1377 §3.3 as the concrete next step
+(solve the relator system over ℤ/N directly instead of enumerating).
 
 ## 1. Computed
 
@@ -74,7 +77,8 @@ gift to a generation, B1374 §2.3.)
 3. The generation search solves ψ_Y⁵ = u/v over all fifth roots in the character group and reads the 10-sectors; a background is
    generation-shaped iff all five charged counts are equal and non-zero. Anomaly-free patterns with some zero counts are not enumerated
    at these sizes (B1374 did so at μ₁₂ and found none on any member).
-4. Levels beyond six: Y₇ (torsion ℤ/29 ⊕ ℤ/29, N = 348) is feasible in hours and running; Y₈ (ℤ/21 ⊕ ℤ/105, N = 420) and beyond
+4. Levels beyond six: Y₇ (torsion ℤ/29 ⊕ ℤ/29, N = 348) did not complete with the brute-force character enumeration this arc
+   uses (§0); Y₈ (ℤ/21 ⊕ ℤ/105, N = 420) and beyond
    need either more time or the deck-symmetry reduction (B1301's eigencharacters) that this arc does not build.
 
 ## 4. Registered

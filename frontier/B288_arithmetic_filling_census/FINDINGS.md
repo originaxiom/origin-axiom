@@ -1,5 +1,21 @@
 # B288 — The arithmetic filling census: E₆ is an open-object property, lost on closing
 
+> **CORRECTION OF RECORD (B1376, 2026-09-26; error class E71).** This arc's clause "0 are arithmetic (none is
+> imaginary-quadratic, degree 2)" is **withdrawn as read**. It tested arithmeticity with the criterion for a
+> **cusped** Kleinian group (Maclachlan–Reid 8.2.3: invariant trace field imaginary-quadratic, integral traces) —
+> that criterion decides nothing for a **closed** manifold, which a Dehn filling is. Under the correct cocompact
+> criterion (Theorem 8.3.2: exactly one complex place, integral traces, the invariant quaternion algebra ramified at
+> every real place), **three of the grid's fillings are arithmetic up to orientation**: `m004(5,1)` — the
+> **Meyerhoff manifold**, arithmetic by Chinburg's 1987 theorem, invariant trace field a quartic of discriminant
+> `−283` — `m004(6,1)` (`−59`) and `m004(8,1)` (`−31`). This matches B718's own 2026-07 computation exactly; the two
+> results sat unreconciled for two months, and the false sentence reached main's paper. **What survives unchanged:**
+> none of the fields is imaginary-quadratic (true, and now named `N_IMAGINARY_QUADRATIC`), and no closed filling's
+> field contains `ℚ(√−3)` (B740, 78/78) — none of the three arithmetic fields can, since a field with a real
+> embedding has no imaginary-quadratic subfield. So **the E₆-selecting arithmetic is still an open-object property**;
+> only the stronger, false "= arithmetic" reading falls. `verdict.py` repaired in place
+> (`N_ARITHMETIC_COCOMPACT = 3`, `ARITHMETIC_SLOPES`); the lock repaired. See `frontier/B1376_the_arithmetic_fillings/`
+> for the full re-derivation (own code, no Sage) and `docs/ERROR_LEDGER.md` E71.
+
 **Status: banked. Math (arithmetic of trace fields) verified two methods; nothing to `CLAIMS.md`.** The CRUX —
 *input-E₆ = output-E₆* — re-examined **through the seam**. B281 showed the cusped character variety does not
 geometrically distinguish E₆. New question: when we **close** the object (Dehn filling), does the closed manifold
@@ -10,9 +26,15 @@ an **open-object** property destroyed by closing?
 - The **cusped (open)** figure-eight has invariant trace field **`ℚ(√−3)`** (`x²−x+1`, disc `−3`) — the E₆ atom.
 - Of the **54 closed hyperbolic fillings** resolved over the grid `|p|,|q| ≤ 8`, `gcd(p,q)=1`:
   - **0** re-see `ℚ(√−3)` (none contains `√−3` even as a subfield);
-  - **0** are arithmetic (none is imaginary-quadratic, degree 2);
+  - **0** are imaginary-quadratic, degree 2 — ***corrected 2026-09-26 (B1376, E71): this is NOT the same statement as
+    "0 are arithmetic."*** Under the criterion that actually decides arithmeticity for a closed manifold (the
+    cocompact criterion, Maclachlan–Reid 8.3.2), **3 of the 78 ARE arithmetic up to orientation** — `m004(5,1)` (the
+    Meyerhoff manifold, Chinburg 1987), `m004(6,1)`, `m004(8,1)`, discriminants `−283, −59, −31` — matching B718's
+    July census. None of the three is imaginary-quadratic, so this bullet's original count (0) was always correct;
+    only its old gloss "(arithmetic)" was wrong;
   - all have **higher-degree** invariant trace fields (degrees `3,4,5,6,7,9,10,11,13,14,15,18,19`; plus 24 stragglers
-    of degree `>20`).
+    of degree `>20`) — degree here is the invariant trace field's degree, not a bar to arithmeticity (the Meyerhoff
+    manifold's is degree 4).
 
 **So the E₆ arithmetic atom is an OPEN-object property, DESTROYED by closing.** The arithmetic that selects E₆ lives
 in the cusp — the interface with the nothing — not in any closing.

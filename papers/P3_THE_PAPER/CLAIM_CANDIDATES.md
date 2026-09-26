@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1122 settled arcs — 74%** —
+the field is **absent on 828 of 1125 settled arcs — 74%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 554 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 559 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.97** on the corpus's own law vocabulary against
-**1.17** for the rest — **2.55×**. The criterion
+**1.17** for the rest — **2.54×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -79,7 +79,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1358` | PROVED | S | | THE E6 APEX FAMILY: the twistor cones of S^4/(2T x Gamma_R), Gamma_R in {1, Z2, Z3, Z4, Z6, Q8, 2T}, are G2 cones whose first pole carries E6 and whose second pole carrie… |
 | `B1366` | PROVED | S | | THE SIGN IS E6'S: the Standard Model embeds in E6 in one way up to conjugacy -- the 120 A2 root subsystems of E6 form one Weyl orbit, the 720 commuting (A2, A1) pairs for… |
 
-## §5 withheld — the value wall and the rank wall (125)
+## §5 withheld — the value wall and the rank wall (126)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -208,8 +208,9 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1372` | NEGATIVE | S | | THE DOUBLET HALVES (door 2): the third reading of a Standard-Model generation -- the 10 from the 78's SL(2)_beta doublets and the 5bar from the 27's, both halves carried … |
 | `B1373` | NEGATIVE | S | | THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free … |
 | `B1375` | PROVED | S | | THE TOWER'S GENERATION COUNT: on the cyclic covers Y_n of m004 built on their own presentations, with the character group complete on each level's torsion (N = lcm(12, to… |
+| `B1378` | PROVED | S | | THE M6 DECK TRIPLET: on Y6 (the degree-6 cyclic cover of m004), a single seed non-split B1374/B1375 background sits in a genuine order-3 orbit of the native deck group --… |
 
-## §6 the observer — one bit, priced (150)
+## §6 the observer — one bit, priced (151)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -363,8 +364,9 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1369` | NEGATIVE | S | | THE FAMILY IN THE STANDARD-MODEL FRAME (sL-1, first arc): on a member of the figure-eight's commensurability class, a chiral generation from bulk matter with the Standard… |
 | `B1371` | PROVED | S | | THE WEB SEAT'S POST-CLOSURE PACKAGE, VERIFIED: chat1's four documents and thirteen scripts of 2026-09-15 (received from the owner) re-derived on this bench with its own i… |
 | `B1374` | PROVED | S | | THE CLASS'S INDEX IN THE STANDARD-MODEL FRAME, AND ONE GENERATION ON THE OBJECT'S OWN TOWER: main's B1418 -- the one-cusped index I = n(V) - n(V*) (B1297) firing on reduc… |
+| `B1376` | PROVED | S | | THE ARITHMETIC FILLINGS (a correction of record): B288's clause 'none of the 78 closed hyperbolic fillings of m004 is arithmetic', carried into main's paper, is false and… |
 
-## §2 the object — arithmetic and geometry (53)
+## §2 the object — arithmetic and geometry (54)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -387,6 +389,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B257` | PROVED | S | | Characterized the Euclidean transition point as the character-variety discriminant branch point with order-3 Eisenstein meridian and vanishing complex volume.… |
 | `B258` | PROVED | S | | Resolved H27: the trace field ℚ(√−3) is figure-eight-specific and the discriminant field ℚ(√(m²+4)) metallic, coinciding only at m=1; the quantum face splits into the sam… |
 | `B266` | PROVED | S | | The trace field's unique ramified prime canonically selects E6: π₁(4₁) surjects onto SL(2,𝔽₃)=2T with McKay E6, and E7 is homeless since 2O is no SL(2,q).… |
+| `B288` | NEGATIVE | S | | No closed hyperbolic Dehn filling of the figure-eight re-sees ℚ(√−3) or is arithmetic, so the E₆-selecting arithmetic is an open-object property destroyed by closing.… |
 | `B298` | NEGATIVE | S | | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3.… |
 | `B307` | PROVED | S | | Proved no hyperbolic knot can have a cyclic-cubic trace field (totally-real obstruction), closing the single-knot route to three symmetric generations; 32/32 census-confi… |
 | `B332` | PROVED | S | | The two arithmetic ends are the product and the ratio of the founding substitution's two letters: R*L has disc 5 (Q(sqrt5), E8) and -R*L^-1 = g has disc -3 (Q(sqrt-3), E6… |
@@ -474,7 +477,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1351` | PROVED | S | | THE INDEX ON A THREE-MANIFOLD (main's Q9): Pantev-Wijnholt's net chiral count of a charged sector is chi(M, d+M; L) = chi(M; L) - chi(d+M; L). On a closed closing chi = 0… |
 | `B1364` | PROVED | S | | THE LEVEL MISMATCH RESOLVED: on the E6 root system (SO(10) x U(1) coordinates, 72 roots) the Standard Model's centraliser is su(2)_beta + u(1)^2 (beta the SO(10)-singlet … |
 
-## UNASSIGNED — needs an editorial call (122)
+## UNASSIGNED — needs an editorial call (124)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -574,6 +577,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B732` | PROVED | S | | The observer's conjugation is realized as the outer automorphism of A5 (the F4-Frobenius) at the sister m003's level-(2) congruence quotient.… |
 | `B735` | NEGATIVE | S | | The emittance face is real but generic to every cusped hyperbolic manifold, and its flagship cusp-scattering-equals-observer-coupling claim was retracted.… |
 | `B736` | NEGATIVE | S | | All three tracks negative: the object-level observer is obstructed (finite level, non-Hermitian H^3) and zero of 24 SM parameters are reduced.… |
+| `B740` | NEGATIVE | S | | Recomputed across all 78 hyperbolic fillings by two seats and two methods: no closed filling of m004 re-sees sqrt(-3), upgrading B288's kill from asserted to earned.… |
 | `B753` | PROVED | S | | The θ-odd block of the twisted weld is exactly unitary with eigenphases ±72°, and the kind-correct mixing object is unistochastic with /B₀₀/²=1/(φ√5), refuting the disput… |
 | `B759` | PROVED | S | | The theta-odd and theta-even sectors couple at SL(3)=Sym^2 but not at SL(2), with off-block norm sqrt3 = sqrt/disc Q(sqrt-3)/.… |
 | `B760` | NEGATIVE | S | | No object-native operation (Galois, MCG powers, C, τ, coupling sign) canonically signs the theta-odd chord sector: the object cannot close itself.… |
@@ -600,6 +604,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1355` | PROVED | S | | THE E7 POINT MADE EXPLICIT: the destination's local model is the G2 cone over CP^3/2T -- the Bryant-Salamon cone over the nearly-Kaehler CP^3 divided by the object's McKa… |
 | `B1361` | NEGATIVE | S | | THE DECK'S TEXTURE IS B1273'S: under the two C-field U(1)s born with the apexes (charges (1,-2), (1,1), (-2,1), an equilateral triangle), the only invariant E6 cubic amon… |
 | `B1363` | NEGATIVE | S | | THE DESCENT'S WILSON LINES: the object's own closing S^3(4_1; 2pi/3) has H_1 = Z/3 (pi_1^orb = pi_1(m004)/<<mu^3>>; the crystallographic five-term sequence with coinvaria… |
+| `B1377` | PROVED | S | | THE TOWER'S COUNT IS AT MOST TWO IN ONE BACKGROUND, AND IS ONE: a firing doublet sector V = rho_chi (x) psi is an extension of two rank-one modules, so a_1(V) <= a_1(chi … |
 
 ## The exhibit that forced the rebuild
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## B1378 — the M6 deck triplet: on Y₆ (m004's degree-6 cyclic cover), a single seed non-split B1374/B1375 background sits in a genuine order-3 orbit of the native deck group (own Reidemeister-Schreier presentation, cross-checked against SnapPy's own Y₆ and against the classical fibration-monodromy computation); each of the three orbit members has six-Standard-Model-sector index (−1)⁶, and their rank-6 direct sum has EXACT index (−3)⁶, confirmed over three primes and exactly over ℚ(ζ₈) — the first exact three-generation-shaped index from an internally generated three-cycle, matching a construction reported by an uploaded seat-checkpoint archive's audit package
+
+No tension with B1377 (a direct sum of three individually |I| = 1 pieces, not one doublet sector); the mechanism is the non-split extension class alone (semisimplifying gives index 0 on all six sectors); one error found and corrected in the source's own account of the deck automorphism's word map, shown not to touch the index, which uses a separate, simpler, independently-confirmed character-rotation map; fences unchanged (non-semisimple background, no physics reading, index ≠ physical generation count).
+
+## B1376 — the arithmetic fillings: B288's "none of the closed fillings is arithmetic" corrected — it applied the cusped criterion (invariant trace field imaginary-quadratic) to closed manifolds, where it decides nothing; under the correct cocompact criterion (Maclachlan–Reid 8.3.2), three fillings are arithmetic up to orientation, the Meyerhoff manifold m004(5,1) (Chinburg 1987, disc −283), m004(6,1) (−59), m004(8,1) (−31), matching B718's own July census; re-verified here with an independent, Sage-free instrument (polished holonomy, PARI algdep/lindep, the Hilbert-symbol ramification test) on the seven controls; B288's other clause (no closing re-sees ℚ(√−3)) stands unchanged
+
+Error class E71 (a criterion valid for one class of objects applied to another where it decides nothing); B288's verdict.py, FINDINGS.md and lock repaired in place; the correction relayed to main (the seam paragraph and chain-table row).
+
+## B1377 — why the tower's count is one, not three: a firing doublet sector is an extension of two rank-one modules, so |I| ≤ a₁(χψ) + a₁(χ⁻¹ψ); on Y₂–Y₆, whose complete character groups (57 564 characters) have h¹ ≤ 1 on every rank-one character, this bounds |I| ≤ 2 on every background, and every firing module realises (a₁,r₁) = (1,0) against (2,2), so |I| = 1 exactly — the mechanism behind B1375's one-generation law; Y₇ named as an instrument limit (brute-force character enumeration, O(N^gens)), not a negative
+
+The extension sequence, not a new computation on the SM side; B1375's Y₇ claim corrected from "running" to "did not complete."
+
 ## B1375 — the tower's generation count: the cyclic covers Y₂–Y₆ of m004 on their own presentations, torsion-complete, T5-restricted — Y₂, Y₃ none; Y₄ 12 800 (B1374 reproduced from another presentation); Y₅ 800; Y₆ 67 200 generation-shaped backgrounds, the count exactly one net generation on all 80 800, never two or three; one background per level exact over ℚ(ζ_N); one generation per background is the tower's law to level six, and three is not this mechanism's
 
 T5 as the search filter (two cosets instead of the whole character group); the exact checker on a cover's own presentation.

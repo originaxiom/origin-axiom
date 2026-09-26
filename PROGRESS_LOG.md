@@ -15067,3 +15067,64 @@ against (0, 2, 1, 2). One generation per background is the tower's law to level 
 Verdict PROVED; fast lock a minute (levels 2–4), slow lock levels 5–6 and the exact background; surfaces (OPEN_LEADS sL-2 status,
 THE_SM_VERDICT, THE_CLOSING, CHIRALITY_MAP, the letter's thirty-fourth note, RELAY_LEDGER row for main's S10/S10b, TOOLBOX_LIVE, the
 alias table). 0 of 19.
+
+### B1377 — why the tower's count is one, and a bound on three (2026-09-16)
+
+sL-2(ii). A firing doublet sector is an extension of two rank-one modules, 0 → χψ → V → χ⁻¹ψ → 0, so a₁(V) ≤ a₁(χψ) + a₁(χ⁻¹ψ) and
+−a₁(V*) ≤ I(V) ≤ a₁(V). On a level where every rank-one character has h¹ ≤ 1, every doublet sector has |I| ≤ 2: three generations in
+one background is impossible there. Verified on the complete character groups of Y₂–Y₆ (57 564 characters, h¹ ∈ {0, 1} on all, 509
+with h¹ = 1, every non-zero re-checked over two more primes). Every firing doublet module on Y₂, Y₄, Y₅, Y₆ realises (a₁, r₁) =
+(1, 0) against (2, 2) — one interior class against none — so |I| = 1 exactly, which is why B1375's count is exactly one. Y₇ was
+attempted for B1375 and did not complete (the character enumeration is brute force, O(N^{gens}), infeasible at N = 348); named
+here as the concrete next step (a linear solve over ℤ/N instead of enumeration). Verdict PROVED; fast lock seconds (Y₂–Y₄), slow
+lock Y₅–Y₆; surfaces (OPEN_LEADS sL-2(ii), THE_SM_VERDICT, the letter's thirty-fifth note, the alias table); B1375's own FINDINGS,
+OPEN_LEADS and letter corrected in place (Y₇ was claimed "running"; it had already died). 0 of 19.
+
+### B1376 — the arithmetic fillings: a correction of record (2026-09-26)
+
+Occasioned by the owner's question: "'none of the 78 fillings is arithmetic' is wrong — m004(5,1) is the Meyerhoff manifold, proven
+arithmetic by Chinburg in 1987, no?" It is wrong. B288's clause lived in three places — its own FINDINGS ("0 are arithmetic (none is
+imaginary-quadratic, degree 2)"), its lock (`N_ARITHMETIC == 0`), and main's paper (the seam paragraph and the chain table's seam
+row) — and all three used the criterion for a CUSPED Kleinian group (Maclachlan–Reid 8.2.3: arithmetic iff the invariant trace field
+is imaginary-quadratic with integral traces), which decides arithmeticity for nothing closed. A Dehn filling is closed; the cocompact
+criterion (8.3.2) is different — exactly one complex place, integral traces, the invariant quaternion algebra ramified at every real
+place — and B718 had already computed under it in July: three fillings arithmetic up to orientation, m004(5,1) [the Meyerhoff
+manifold, Chinburg 1987, disc −283], m004(6,1) [−59], m004(8,1) [−31]. The record never reconciled the two. Re-decided here with an
+instrument of this seat's own, no Sage — SnapPy's polished holonomy at 1 000–4 000 bits, PARI `algdep`/`lindep` for exact field
+recognition, the Hilbert symbol at each real place — on the seven controls: the Weeks manifold and B718's three positives ARITHMETIC,
+B718's three negatives NON-ARITHMETIC, each for its stated reason, all seven matching B718 exactly. The exhaustive |p|≤8,1≤q≤8 grid
+re-check was attempted and abandoned (46 of 87 slopes reproduced cleanly in minutes, then a high-degree non-integral field the
+algdep/lindep route cannot resolve without Sage in reasonable time); the exhaustive claim is B718's own (dual-method), cited rather
+than re-derived. B288's other clause is untouched: no closed filling's field contains ℚ(√−3) (B740, 78/78), and none of the three
+arithmetic fields can (a real place forbids an imaginary-quadratic subfield) — so the E₆-selecting arithmetic remains an open-object
+property; only the false "= arithmetic" reading is withdrawn. Error class E71 (a criterion valid for one class of objects, cusped
+groups, applied to another, closed manifolds, where it decides nothing). B288's `verdict.py` repaired in place (`N_ARITHMETIC` split
+into `N_IMAGINARY_QUADRATIC = 0` and `N_ARITHMETIC_COCOMPACT = 3` with `ARITHMETIC_SLOPES`), its FINDINGS given a correction-of-record
+block, its lock repaired. Verdict CORRECTION OF RECORD + PROVED (the three positives, own code); fast lock under a minute (the seven
+controls); surfaces (ERROR_LEDGER E71, RETRACTIONS, RETRACTED_PHRASES, THE_SM_VERDICT, the letter's thirty-sixth note, the alias
+table); the exact replacement text for main's paper is in B1376's own FINDINGS §3, relayed rather than edited directly (main.tex is
+not this branch's file to change). 0 of 19.
+
+### B1378 — the M6 deck triplet (2026-09-26)
+
+Occasioned by the owner's upload of two seat-checkpoint archives with the instruction to check whether they help the project. One
+item does: seat "0925"'s audit of a native order-3 deck orbit on Y₆ (m004's degree-6 cyclic cover), reported to give an exact
+three-generation-shaped index. Independently reproduced here with own code, not the source's script: a Reidemeister-Schreier
+presentation of π₁(Y₆) built from scratch (`rs_presentation.py`, own `rewrite()`, following B1368's ⟨a,b|R⟩ conventions), fed into
+this branch's own `index_lib.py`/`exact_lib.py` (B1374). H₁(Y₆) = ℤ/8 ⊕ ℤ/40 ⊕ ℤ, matching both SnapPy's own `covers(6,'cyclic')`
+(B1375) and an independent classical cross-check (m004 fibers over S¹ with monodromy M = RL = [[2,1],[1,1]]; coker(M⁶−I) has
+invariant factors [8,40] and M acts on it with order exactly 6). The seed background χ = (0,0,15,45,0,75,105) mod 120 generates a
+3-orbit under two steps of the deck transformation at a time; each member has six-SM-sector index (−1,−1,−1,−1,−1,−1) (three primes:
+601, 1201, 1321), and the rank-6 block-diagonal direct sum has EXACT index (−3,−3,−3,−3,−3,−3), reproduced exactly over ℚ(ζ₈) with
+matching cohomology dimensions (0,6,3,6)/(0,3,3,0) — both matching the source's report to the digit. Semisimplification control
+independently re-checked: turning off the cocycle gives index 0 on all six sectors. One error was found in the source's own account
+of the deck-square automorphism (a word-level map used only for an "intertwiner" genuineness check, not for the index): two
+independent hand re-derivations both give the correct order (3) on H₁ but neither is confirmed at the full non-abelian
+representation level; disclosed as an instrument limit rather than resolved by further guessing, and replaced with a clean,
+word-map-free cohomological argument for genuineness (the deck square is a topological automorphism; its character action is
+confirmed exact; h¹ = 1 at every member pins the extension class up to a scalar). Fences unchanged from B1374/B1375/B1377: main's
+B1297 index on a non-semisimple background, physical admissibility OPEN, index ≠ physical generation count; no tension with B1377
+(a direct sum of three individually |I| = 1 pieces, not one doublet sector). Not independently re-run: the source's own exhaustive
+family-tensor scan (67 200 backgrounds, zero complete triplets under the existing E₆ × SU(3)_family mechanism) — cited, not
+recomputed. Verdict PROVED (the index, two methods); fast lock under thirty seconds; surfaces (THE_CLOSING, THE_SM_VERDICT, the
+letter's thirty-seventh note, the alias table). 0 of 19.

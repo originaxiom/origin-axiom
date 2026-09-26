@@ -565,3 +565,32 @@ left it.
 > Y₆: 67 200 — and on all 80 800 the count is exactly one net generation, never two or three (one background per level exact over
 > ℚ(ζ_N)). One generation per background is the tower's law as far as computed; three is not this mechanism's. No verdict of this
 > ledger changes. 0 of 19 (`frontier/B1375_the_towers_generation_count`).
+
+> **Currency note (2026-09-16, B1377): why one, and a bound on three.** A firing doublet sector is an extension of two rank-one
+> modules, so |I| ≤ a₁(χψ) + a₁(χ⁻¹ψ); on Y₂–Y₆, whose complete character groups have h¹ ≤ 1 on every rank-one character (57 564
+> checked), this gives |I| ≤ 2 on every background — three generations at once is impossible there — and the firing modules
+> realise (a₁,r₁) = (1,0) against (2,2), so |I| = 1 exactly, the mechanism behind B1375's law. No verdict changes.
+> 0 of 19 (`frontier/B1377_the_towers_count_is_at_most_two`).
+
+> **Currency note (2026-09-26, B1376): a correction of record — closed fillings CAN be arithmetic.** B288's clause "none of the
+> closed hyperbolic fillings of m004 is arithmetic" is withdrawn: it decided arithmeticity with the criterion for a CUSPED group
+> (invariant trace field imaginary-quadratic), which decides nothing for a closed one. Under the correct cocompact criterion
+> (Maclachlan–Reid 8.3.2), three fillings are arithmetic up to orientation — the Meyerhoff manifold m004(5,1) (Chinburg 1987,
+> disc −283), m004(6,1) (−59), m004(8,1) (−31) — matching B718's own 2026-07 census exactly, re-verified here with an independent,
+> Sage-free instrument on the seven controls. What B288 got right stands: no closed filling's field contains ℚ(√−3) (B740, 78/78),
+> and none of the three arithmetic fields can (a real place forbids an imaginary-quadratic subfield) — so the E₆-selecting
+> arithmetic is still an open-object property; only the stronger, false "= arithmetic" reading is corrected. Error class E71
+> (a cusped criterion applied to a closed object). No verdict of this ledger changes; no value. 0 of 19
+> (`frontier/B1376_the_arithmetic_fillings`).
+
+> **Currency note (2026-09-26, B1378): the M6 deck triplet — the first exact three-generation-shaped index.** On Y₆, a
+> single seed non-split B1374/B1375 background sits in a genuine order-3 orbit of the native deck group (own
+> Reidemeister-Schreier presentation, cross-checked against SnapPy's Y₆ and the classical fibration-monodromy
+> computation): each of the three orbit members has six-Standard-Model-sector index (−1)⁶, and their rank-6 direct sum
+> has EXACT index (−3)⁶ — confirmed over three primes and exactly over ℚ(ζ₈), matching a construction reported by an
+> uploaded seat-checkpoint archive's audit package (harvested per the owner's request; one error found and corrected in
+> its own account of the deck automorphism, not touching the index). No tension with B1377: this is a direct sum of
+> three individually |I| = 1 pieces, not one doublet sector. The mechanism is the non-split extension class alone
+> (semisimplifying gives index 0 on all six sectors) — main's B1297 index on a non-semisimple background, physical
+> admissibility OPEN per Corlette–Donaldson, index ≠ physical generation count. No verdict of this ledger changes; no
+> value. 0 of 19 (`frontier/B1378_the_m6_deck_triplet`).

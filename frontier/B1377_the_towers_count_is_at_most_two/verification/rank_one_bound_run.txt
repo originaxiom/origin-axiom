@@ -1,0 +1,6 @@
+Y_2: H1 = Z/5 + Z, N = 60, primes [421, 541, 601]: rank-one characters 300, a_1 = h^1 distribution {0: 295, 1: 5}; non-zero re-checked over two more primes: 5, differing 0; max a_1 = 1; 0 s
+Y_3: H1 = Z/4 + Z/4 + Z, N = 12, primes [409, 421, 433]: rank-one characters 192, a_1 = h^1 distribution {0: 176, 1: 16}; non-zero re-checked over two more primes: 16, differing 0; max a_1 = 1; 0 s
+Y_4: H1 = Z/3 + Z/15 + Z, N = 60, primes [421, 541, 601]: rank-one characters 2700, a_1 = h^1 distribution {0: 2655, 1: 45}; non-zero re-checked over two more primes: 45, differing 0; max a_1 = 1; 1 s
+Y_5: H1 = Z/11 + Z/11 + Z, N = 132, primes [661, 1321, 1453]: rank-one characters 15972, a_1 = h^1 distribution {0: 15849, 1: 123}; non-zero re-checked over two more primes: 123, differing 4; max a_1 = 1; 11 s
+Y_6: H1 = Z/8 + Z/40 + Z, N = 120, primes [601, 1201, 1321]: rank-one characters 38400, a_1 = h^1 distribution {0: 38080, 1: 320}; non-zero re-checked over two more primes: 320, differing 0; max a_1 = 1; 31 s
+DONE

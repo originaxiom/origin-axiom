@@ -138,3 +138,12 @@ members was corrected before banking and never entered the record.*
 
 *Standing since then: B1368, B1369 and B1370 are negatives and an open narrowing with nothing retracted; fc R71's region-swap
 lemma was generalised (B1369 §3 (ii)), not corrected.*
+
+## 2026-09-26 — B1376: B288's arithmeticity criterion corrected (E71)
+
+*Not found by an internal sweep — the owner asked, of B288's clause, "'none of the 78 fillings is arithmetic' is wrong — m004(5,1)
+is the Meyerhoff manifold, proven arithmetic by Chinburg in 1987, no?" It was wrong, and it had stood for two months.*
+
+| what was asserted | where banked | the correction | where corrected |
+|---|---|---|---|
+| B288's "0 are arithmetic (none is imaginary-quadratic, degree 2)" for the 78 closed Dehn fillings of m004 | B288 (`frontier/B288_arithmetic_filling_census`); propagated into main's paper (`papers/P3_THE_PAPER/main.tex`, the seam paragraph and the chain table's seam row) | CORRECTED (E71, the wrong-class-criterion class) — B288 tested arithmeticity with the criterion for a **cusped** Kleinian group (invariant trace field imaginary-quadratic, integral traces), which decides nothing for a **closed** one. Under the cocompact criterion (Maclachlan–Reid 8.3.2: one complex place, integral traces, the invariant quaternion algebra ramified at every real place), three fillings are arithmetic up to orientation — m004(5,1) [the Meyerhoff manifold, Chinburg 1987, invariant trace field a quartic of discriminant −283], m004(6,1) [−59], m004(8,1) [−31] — matching B718's own 2026-07 computation exactly (the two results sat unreconciled for two months). B288's OTHER clause is unchanged and still true: no closed filling's field contains ℚ(√−3) (B740, 78/78), and none of the three arithmetic fields can (a real embedding forbids an imaginary-quadratic subfield) — so the E₆-selecting arithmetic remains an open-object property; only the stronger, false "= arithmetic" reading falls | B1376 (own Sage-free re-derivation on seven controls — SnapPy polished holonomy, PARI algdep/lindep, the Hilbert symbol — matching B718 exactly); B718 (the original correct computation, cited for the exhaustive grid rather than re-derived); B288's `verdict.py`/`FINDINGS.md`/lock repaired in place; the exact replacement text for main's paper relayed (B1376 FINDINGS §3), not applied directly (main.tex is not this branch's file to edit) |

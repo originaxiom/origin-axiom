@@ -7705,6 +7705,60 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1376": {
+   "slug": "the arithmetic fillings",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B288",
+    "B434",
+    "B437",
+    "B718",
+    "B740",
+    "B944"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1377": {
+   "slug": "the towers count is at most two",
+   "motifs": [
+    "metallic",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 14,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1378": {
+   "slug": "the m6 deck triplet",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "z3_generation",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B137": {
    "slug": "s031 sealing m2",
    "motifs": [
@@ -12200,6 +12254,7 @@
     "B286",
     "B287",
     "B294",
+    "B718",
     "B740",
     "P1"
    ],

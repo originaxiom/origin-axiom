@@ -1,0 +1,4 @@
+H1(Y6) by Reidemeister-Schreier: torsion [8, 40], free rank 1  (expect Z/8 (+) Z/40 (+) Z)
+TAU2 on H1(Y6): (TAU2)^3 = I: True; TAU2 != I: True  (expect True, True -- order exactly 3)
+classical check (monodromy M = [[2, 1], [1, 1]], no presentation): coker(M^6 - I) invariant factors [8, 40], order of M on it: 6  (expect [8, 40], 6 -- tau^2 = M^2 has order 3)
+ALL STRUCTURAL CHECKS PASSED

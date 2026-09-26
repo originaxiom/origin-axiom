@@ -2863,5 +2863,13 @@ level's torsion, T5-restricted: Y₂ = m206 and Y₃ = s961 carry no generation-
 from a different presentation), Y₅ = o10_150696 800, Y₆ 67 200; **on all 80 800 the count is exactly one net generation, never two or
 three** (the firing sectors carry one interior class against none; h¹(χ²) = 1 at every locus); one background per level exact over
 ℚ(ζ_N); the singlet count 0 on Y₄ and Y₅, on Y₆ 0 on 57 600 and ±1 on 9 600 (the singlet carrying the generation's own sign on 9 600  the opposite sign on 0). One generation per background is the tower's law as far as computed;
-the count of three is not this mechanism's on any level up to six. Open: (i) Y₇ and beyond (Y₇ running at the time of writing);
+the count of three is not this mechanism's on any level up to six. Open: (i) Y₇ and beyond (Y₇ attempted, did not complete —
+the brute-force character enumeration is O(N^{#gens}), infeasible at N = 348; B1377 names the fix);
 (ii) the deck-symmetry prediction of the firing loci; (iii) the physics reading. `frontier/B1375_the_towers_generation_count`.
+
+**sL-2 (ii), 2026-09-16, B1377 — why one, and the bound on three.** A firing doublet sector is an extension of two rank-one modules
+(0 → χψ → V → χ⁻¹ψ → 0), so a₁(V) ≤ a₁(χψ) + a₁(χ⁻¹ψ) and −a₁(V*) ≤ I(V) ≤ a₁(V): on a level where every rank-one character has
+h¹ ≤ 1, every doublet sector has |I| ≤ 2, and three generations in one background is impossible there. Verified on the complete
+character groups of Y₂–Y₆ (57 564 characters, h¹ ∈ {0,1} on all); every firing doublet module realises (a₁,r₁) = (1,0) against
+(2,2), so |I| = 1 exactly, which is why B1375's law holds. Extending the bound past Y₆ needs the same rank-one sweep at higher N —
+tractable in seconds once B1375's character-enumeration bottleneck (named above) is fixed. `frontier/B1377_the_towers_count_is_at_most_two`.

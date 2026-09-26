@@ -27,6 +27,11 @@
   "nu": {},
   "yord": {},
   "gord": {},
+  "firing_dims": {
+   "(1, 0, 2, 2)": 8,
+   "(2, 2, 1, 0)": 8
+  },
+  "joint_sign_singlet": {},
   "examples": [],
   "gens": [
    "a",
@@ -38,8 +43,7 @@
    "abcAAbC"
   ],
   "mu": "aCa",
-  "lam": "AbaB",
-  "joint_sign_singlet": {}
+  "lam": "AbaB"
  },
  "3": {
   "n": 3,
@@ -69,6 +73,8 @@
   "nu": {},
   "yord": {},
   "gord": {},
+  "firing_dims": {},
+  "joint_sign_singlet": {},
   "examples": [],
   "gens": [
    "a",
@@ -80,8 +86,7 @@
    "acBccBAbbc"
   ],
   "mu": "CBabC",
-  "lam": "CbcB",
-  "joint_sign_singlet": {}
+  "lam": "CbcB"
  },
  "4": {
   "n": 4,
@@ -129,6 +134,14 @@
    "1": 64,
    "15": 4608,
    "3": 192
+  },
+  "firing_dims": {
+   "(1, 0, 2, 2)": 488,
+   "(2, 2, 1, 0)": 488
+  },
+  "joint_sign_singlet": {
+   "+1,+0": 6400,
+   "-1,+0": 6400
   },
   "examples": [
    [
@@ -194,10 +207,6 @@
    "acaacaabcAccABc"
   ],
   "mu": "cACa",
-  "lam": "CB",
-  "joint_sign_singlet": {
-   "+1,+0": 6400,
-   "-1,+0": 6400
-  }
+  "lam": "CB"
  }
 }

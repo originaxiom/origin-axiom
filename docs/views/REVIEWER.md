@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1223** |
-| words of findings prose | **918,307** |
-| test lock files referenced | **737** |
-| arcs carrying an authored verdict | **1223** (100.0 %) |
+| research arcs with findings | **1226** |
+| words of findings prose | **923,421** |
+| test lock files referenced | **740** |
+| arcs carrying an authored verdict | **1226** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 804 |
+| PROVED | 807 |
 | NEGATIVE | 320 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1375`** (1953 words, 1 locks)  
-THE TOWER'S GENERATION COUNT: on the cyclic covers Y_n of m004 built on their own presentations, with the character group complete on each level's torsion (N = lcm(12, torsion exponent)) and the search restricted only by B1297's T5 (psi = chi^{-+1} on both peripheral curves; every candidate doublet module computed, every non-zero re-checked over two more primes), the Standard-Model-frame index of B1374 level by level: Y_2 = m206 (9 loci, 16 firing modules) and Y_3 = s961 (31 loci, nothing fires) carry no generation-shaped background; Y_4 = t12839 carries 12 800 on 64 loci (B1374's census reproduced from a different presentation), Y_5 = o10_150696 800 on 200 loci (241 loci, 4 400 firing), Y_6 67 200 on 576 loci (639 loci, 10 816 firing); on every one of the 80 800 backgrounds the count is exactly one net generation, Q = u^c = e^c = d^c = L = +1 or -1 (equally split), never two, never three; one background per level re-derived exactly over Q(zeta_N) (Y_5 over Q(zeta_132): (1, 1, 1, 1, 1, 0)); the firing sectors always have one interior class on one side and none on the other (V = (0,1,1,0), V* = (0,2,1,2)), which bounds |I| by 1 at loci with h^1(chi^2) = 1 -- all loci on these levels. The singlet count is 0 on Y_4 and Y_5 and on Y_6 it is 0 on 57 600 backgrounds and +-1 on 9 600 (9 600 with the generation's own sign: a generation with its right-handed neutrino). One generation per background is the tower's law as far as computed; the count of three is not this mechanism's on any level up to six. Fences as B1374: main's index on a non-semisimple background, no physics reading, no value. Y_7 running. 0 of 19.  
-`B1375_the_towers_generation_count/FINDINGS.md`
+**PROVED — `B1378`** (1757 words, 1 locks)  
+THE M6 DECK TRIPLET: on Y6 (the degree-6 cyclic cover of m004), a single seed non-split B1374/B1375 background sits in a genuine order-3 orbit of the native deck group -- verified via an own-code Reidemeister-Schreier presentation of pi_1(Y6) (own rewrite() from m004's ambient presentation, matching B1368's a,b,R,w,w* conventions), fed into this branch's own index_lib.py/exact_lib.py (B1374): each of the three orbit members has six-Standard-Model-sector index (-1,-1,-1,-1,-1,-1), and their rank-6 direct sum has EXACT index (-3,-3,-3,-3,-3,-3), confirmed over three prime fields (601, 1201, 1321) and exactly over Q(zeta_8), the cohomology dimensions (a0,a1,t0,r1) = (0,6,3,6) for V and (0,3,3,0) for V* matching the source report exactly. Y6's identity with the source's 'M6' is confirmed by matching H1 = Z/8 (+) Z/40 (+) Z against SnapPy's own covers(6,'cyclic') (B1375), independently cross-checked by the classical fibration-monodromy computation (M = RL = [[2,1],[1,1]], coker(M^6-I) invariant factors [8,40], order of M on it exactly 6). The semisimplification control is independently reproduced (turning off the cocycle gives index 0 on all six sectors: the entire index lives in the non-split extension class). The 'genuine orbit' claim (the three members are literally one automorphism orbit, not three characters with coincidentally matching index) is established by a clean, word-map-free cohomological argument (the deck square is a topological automorphism; its action on characters is confirmed exact; h^1 = 1 at every member forces the pulled-back cocycle to be a scalar multiple of the next member's own) after finding that the source's own explicit word-level formula for the automorphism (and two of this seat's own attempted corrections) fails a full non-abelian representation-level check, though all agree at the abelianized (H_1) level with the independent classical computation -- disclosed as a found error and an instrument limit, not resolved by further guessing, and not needed for the index result, which never used that word map. Not independently re-run here: the source's own exhaustive family-tensor scan (67 200 backgrounds, zero complete triplets under the existing E6 x SU(3)_family mechanism), cited as reported. Fences as B1374/B1375/B1377: main's B1297 index on a non-semisimple (non-reductive) background, physical admissibility OPEN per Corlette-Donaldson, index is not a licensed physical generation count, no value. First exact three-generation-shaped index from an internally generated three-cycle rather than three hand-inserted copies; no tension with B1377 (direct-sum additivity of three individually |I|=1 pieces, not a single doublet sector). 0 of 19.  
+`B1378_the_m6_deck_triplet/FINDINGS.md`
 
 **NEGATIVE — `B1373`** (1247 words, 1 locks)  
 THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free cusp are fourth roots of unity with non-unitary holonomy. Along the cone-manifold deformation path of the hyperbolic structure -- fillings (2p, 0) or (0, 2p) on the free cusp with p from 30 down to 1, the other cusps complete -- the point where one curve has eigenvalue +-i is reached on 132 of the 166 (cusp, curve) pairs of the 35 candidates, and at every one the other curve's eigenvalue is non-unitary (|L| between 0.25 and 9): Theorem B forbids simultaneous cusp-fixedness of the two halves there. On the other 34 pairs (all meridians) the structure degenerates before the point on a deterministic fine path, the other curve's translation length increasing monotonically to 10-27 at the last non-degenerate step: the wall within a sixteenth of cone angle pi on 23 and of cone angle 2 pi / 3 on 11 -- ideal points of the real path, no representation there. No candidate anywhere on the geometric path. Not covered: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (the Ptolemy database does not reach them). 0 of 19.  

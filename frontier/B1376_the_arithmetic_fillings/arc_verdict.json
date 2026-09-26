@@ -1,0 +1,12 @@
+{
+ "id": "B1376",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": ["B288", "B740", "B718"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE ARITHMETIC FILLINGS (a correction of record): B288's clause 'none of the 78 closed hyperbolic fillings of m004 is arithmetic', carried into main's paper, is false and withdrawn -- B288 used the imaginary-quadratic criterion, which decides arithmeticity only for cusped groups; under the cocompact criterion (Maclachlan-Reid 8.3.2: one complex place, integral traces, the invariant quaternion algebra ramified at every real place) exactly three fillings of the grid are arithmetic up to orientation, m004(5,1) the Meyerhoff manifold (Chinburg 1987; quartic invariant trace field of signature (2,1) and discriminant -283), m004(6,1) (cubic, -59) and m004(8,1) (cubic, -31), six of the 78 slopes with their mirrors, as B718 had computed under Sage in July without the record propagating it; re-decided here with an instrument of this seat's own, without Sage (polished holonomy at 1 000-4 000 bits, the invariant trace field by integer relations, the Hilbert symbol at each real place): the seven controls reproduce B718's verdicts and the grid gives the seven controls, own code, reproducing B718's verdicts exactly (the Meyerhoff manifold and two more arithmetic, three non-arithmetic controls each with its correct reason); an attempted full re-verification of the 78-slope grid was abandoned after it stalled for over twenty minutes on one high-degree non-integral field past the 46th of 87 cases -- the exhaustive claim is B718's own dual-method census (cited, not re-derived): exactly 3 arithmetic fillings up to orientation in its scanned box, all integral, slopes {5,6,8}. B288's other clause stands and is now proved for the three: no filling's field contains Q(sqrt-3), a field with a real place having no imaginary quadratic subfield. The E6-selecting arithmetic remains an open-object property; what changes is the sentence, B288's lock (repaired), and the inference 'no closing is arithmetic' -- a closing can be arithmetic without carrying the selecting field, and the Child Program's forced child is exactly such a closing. E71 registered; the paper's two places relayed to main with the replacement sentences. 0 of 19."
+}
