@@ -1,0 +1,23 @@
+S1  Cl(n, eps), n <= 7, explicit: (e_1...e_n)^2 = (-1)^(n(n-1)/2) eps^n for all 16 cases, e.g. {0: (1, 1), 1: (1, -1), 2: (-1, -1), 3: (-1, 1), 4: (1, 1), 5: (1, -1), 6: (-1, -1), 7: (-1, 1)}
+S2  RP^2 control, k = 0: total space of 0L is unorientable; lift of (antipode, -1) an involution in Cl(3+k,+) False, in Cl(3+k,-) True -- as w1, w2 predict
+S2  RP^2 control, k = 1: total space of 1L is orientable; lift of (antipode, -1) an involution in Cl(3+k,+) True, in Cl(3+k,-) True -- as w1, w2 predict
+S2  RP^2 control, k = 2: total space of 2L is unorientable; lift of (antipode, -1) an involution in Cl(3+k,+) True, in Cl(3+k,-) False -- as w1, w2 predict
+S2  RP^2 control, k = 3: total space of 3L is orientable; lift of (antipode, -1) an involution in Cl(3+k,+) False, in Cl(3+k,-) False -- as w1, w2 predict
+S2  RP^2 control, k = 4: total space of 4L is unorientable; lift of (antipode, -1) an involution in Cl(3+k,+) False, in Cl(3+k,-) True -- as w1, w2 predict
+S3  G_eps (x) Cl(k, eps) associative on 64 triples per eps; at the fixed point j it is Cl(1+k, eps), k = 0..4: True
+S4  k = 0: q(eps, sigma) = {(1, 1): 1, (1, -1): -1, (-1, 1): -1, (-1, -1): 1}  | total unorientable: descends in Pin^eps iff q = +1
+S4  k = 1: q(eps, sigma) = {(1, 1): -1, (1, -1): 1, (-1, 1): -1, (-1, -1): 1}  | type seen by the k-dim factor eps_k = {1: -1, -1: 1} (= -sigma)
+S4  k = 2: q(eps, sigma) = {(1, 1): -1, (1, -1): 1, (-1, 1): 1, (-1, -1): -1}  | total unorientable: descends in Pin^eps iff q = +1
+S4  k = 3: q(eps, sigma) = {(1, 1): 1, (1, -1): -1, (-1, 1): 1, (-1, -1): -1}  | type seen by the k-dim factor eps_k = {1: -1, -1: 1} (= -sigma)
+S4  k = 4: q(eps, sigma) = {(1, 1): 1, (1, -1): -1, (-1, 1): -1, (-1, -1): 1}  | total unorientable: descends in Pin^eps iff q = +1
+S5  mapping torus M_tau: H_1 invariant factors [1, 0, 0] -> Z^2; all 8 (eps, sigma, lam) lifts extend; double tick z~ = {(1, 1): 1, (1, -1): -1, (-1, 1): -1, (-1, -1): 1} (= eps*sigma)
+S6  generation parity: {'odd n admits X conj(X) = -1': False, 'even n admits it': True, 'U(1) supplies -1': False}
+S7  (a) parent as space / deck gauged (k = 0)                            -> ["rho_1 (B1141's)"]
+S7  (b) B1104's mapping torus, double tick periodic (Ramond)             -> ["rho_1 (B1141's)"]
+S7  (b) B1104's mapping torus, double tick antiperiodic (NS, thermal)    -> ['rho_2 (the other)']
+S7  (c) deck inside the 4d CP/T/R, reflection type Pin+ (k = 1)          -> ['rho_2 (the other)']
+S7  (c) deck inside the 4d parity, reflection type Pin+ (k = 3)          -> ['rho_2 (the other)']
+S7  (c') deck with a 4d pi-rotation (k = 2), total Pin+                  -> ['rho_2 (the other)']
+S7  (c') deck with the 4d inversion (k = 4), total Pin+                  -> ["rho_1 (B1141's)"]
+S8  B940's Dirac operator: J = s2 K commutes with D and with the SU(2) twist, J^2 = -1: True -> every eigenvalue doubled on either spin structure (main's O1), no deck involved
+DONE

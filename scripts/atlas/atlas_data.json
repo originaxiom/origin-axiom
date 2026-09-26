@@ -3196,6 +3196,7 @@
     "z3_generation",
     "amphichiral_cp",
     "torsion",
+    "wrt_quantum",
     "firewall"
    ],
    "refs": [],
@@ -7894,6 +7895,7 @@
    "motifs": [
     "choice",
     "figure_eight",
+    "trace_map",
     "eisenstein",
     "z3_generation",
     "wrt_quantum"
@@ -7911,6 +7913,35 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1383": {
+   "slug": "the spin bit is the square of the deck",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B391",
+    "B933",
+    "B940",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "topology"
   },
   "B138": {
    "slug": "s031 principal lemma",

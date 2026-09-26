@@ -218,7 +218,10 @@ CHIRALITY itself (B994's honest limit: registerability presupposes it).
 > the mirror (the plain swap fuses 0). The old row was therefore a **straight double-count**
 > of a bit already listed in the same census.
 > **(3) The spin lift, priced 1 bit → 0** *(re-graded 2026-09-26, B1382: back to **1 bit, relocated** — the beat selects a lift
-> only given the Gieseking parent's Pin type, so the bit is now the parent's Pin type; Pin⁺ ↔ T² = (−1)^F, flagged)*. B1141 (THE SPIN PAYMENT) is PROVED and
+> only given the Gieseking parent's Pin type, so the bit is now the parent's Pin type; Pin⁺ ↔ T² = (−1)^F, flagged)* *(B1383, same day: physics fixes the
+> Pin type — Pin⁺, from M-theory, from T² = (−1)^F theories and from the Standard Model's own CP, which three generations force —
+> and the bit moves to the role the deck plays: gauged (the parent a background) → B1141's lift; the SM's CP on the oriented
+> carrier → the other lift; B1104's tick → the double tick's periodicity. Still 1 bit.)*. B1141 (THE SPIN PAYMENT) is PROVED and
 > **hostile-verified two-bench on three independent engines** (own relator search, own exact
 > intertwiner rank, own norm-form and χ-parity proofs): the object's own beat selects the spin
 > structure, so the lift is **assigned, not free**. B1145 (SP-2) then closes the beat exactly

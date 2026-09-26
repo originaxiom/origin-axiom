@@ -1,0 +1,18 @@
+{
+ "id": "B1383",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1382",
+  "B1141",
+  "B1104",
+  "B1145",
+  "B1175"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE SPIN BIT IS THE SQUARE OF THE DECK: on m004's spinors with spin structure sigma the lifted Gieseking deck squares to eps*sigma (eps = the Pin convention; B1382's (lam W, c)^2 = (eps A, 0)), and paired with k further reversed directions to q = eps^(k+1) (-1)^(k(k+1)/2) sigma (exact; the Clifford half checked against Stiefel-Whitney classes on S^2 -> RP^2 with k extra directions; the graded product against Cl(1+k) at a fixed point); on the mapping torus of the deck (B1104's one-level-up Gieseking analog, H_1 = Z^2) every (eps, sigma) extends and the double tick lifts to eps*sigma. Physics fixes eps = + three ways (verified quotes: Freed-Hopkins 1908.09916 -- M-theory is Pin+ with no internal symmetry to shift T^2; Witten 1508.04715 -- T^2 = (-1)^F <-> Pin+, and Pin+ structures on Y-hat/tau from a tau acting with square 1; Yonekura 2602.11475 -- the SM's CP, when a symmetry, is Pin+ x| G, and three generations force it: X conj(X) = -1 is impossible on the lepton singlet's C^3). Then the spin bit is the deck's square on fermions and is decided by the deck's role: gauged (the parent itself a background) -> rho_1, B1141's lift; the SM's CP on the oriented carrier (odd-k pairing; the effective reflection type is -sigma) -> rho_2, the other lift (rho_1 would force even generation numbers); B1104's tick -> sigma = the double tick's periodicity (Ramond rho_1, NS rho_2). B1382 section 4 qualified (E1: the role fixed implicitly; 'T^2 = (-1)^F, the Standard Model's' corrected -- the SM has no T, J != 0). The freedom ledger's spin bit stays 1, relocated from the Pin type (now bought) to the deck's role -- which is the orientation axiom A6 in physical form. Side result relayed: main's B933/B940 O1 Dirac doubling is the 3d quaternionic structure (J = sigma_2 K commutes with their D and twist, J^2 = -1; Witten eq. 2.60), on either spin structure. 0 of 19."
+}

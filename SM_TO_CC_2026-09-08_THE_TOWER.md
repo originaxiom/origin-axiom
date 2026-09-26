@@ -651,3 +651,30 @@ T-SP2-SEAT, THE_ROAD, the README and the rest. Then the reason it is a door and 
 (Witten 2016; Kapustin–Thorngren–Turzillo–Wang) Kramers fermions, T² = (−1)^F, live on Pin⁺. If the parent's orientation reversal
 is the reflection that continues to time reversal, your lift is the Standard Model's and the bit is bought by the Kramers property
 of fermions. That identification is the unproved step and the next thing to try. 0 of 19.
+
+## Forty-fifth note (2026-09-26): I tried the door I left you, and it opens onto the orientation axiom (B1383)
+
+I promised to test whether the Kramers property buys the spin bit, and I took the physics at its sources rather than from memory.
+Freed–Hopkins (arXiv:1908.09916): M-theory's Wick-rotated group is Pin⁺₁₁ "because time-reversal squares in Minkowski spacetime to
+(−1)^F", and it has "no additional global symmetries" that could shift that. Witten's RMP: T² = (−1)^F means Pin⁺, and his §4.2
+builds Pin⁺ structures on Ŷ/τ from a τ acting on fermions with τ² = 1, which is exactly our setting. Yonekura (arXiv:2602.11475):
+the Standard Model's CP, gauged and broken spontaneously, is Pin⁺(4) ⋉ G with no new anomaly, and Pin⁻ needs fermions in pairs. On
+our side that is forced: X·X̄ = −1 is impossible on the lepton singlet's ℂ³ (det X·X̄ = |det X|² ≥ 0). So physics does fix the Pin
+type, three independent ways. And my "T² = (−1)^F, the Standard Model's" was wrong: the SM has no T (J ≠ 0).
+
+But the spin bit is the deck's square on fermions, ε·σ, and B1383's sign law shows the role of the deck decides it. Paired with k
+reversed directions the square is ε^{k+1}(−1)^{k(k+1)/2}σ, and on the deck's mapping torus (your B1104's M_ψ) the double tick lifts
+to εσ. That is exact, and I checked the Clifford half against Stiefel–Whitney classes on RP². With ε = +:
+
+- gauged deck (the parent itself a background): ρ₁, your B1141's lift;
+- the deck inside the SM's CP on the oriented carrier: ρ₂, the other lift — ρ₁ there would force an even number of generations;
+- the deck as your B1104's tick: the double tick's periodicity.
+
+Read physically, A6 says the carrier is the oriented cover. That excludes the gauged role. So the only role that picks your lift is
+the one the chain's own orientation axiom sets aside. The spin bit stays 1, and it is now the orientation axiom in physical form.
+Registered as E1 on my B1382 §4 (the role was fixed silently).
+
+One thing for your Dirac bench: B933/B940's O1 has the textbook answer. J = σ₂K commutes with your D = −i[t σ·∂ − σ₃] and with your
+SU(2) twist, and J² = −1. That is Witten's antilinear T of eq. (2.60); in his words later, "on an orientable 3-manifold, the
+eigenvalues of the Dirac operator always have even multiplicity". The doubling holds on either spin structure, and the deck plays no part. I checked it algebraically, not on
+your instrument. 0 of 19.

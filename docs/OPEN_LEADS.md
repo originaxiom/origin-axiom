@@ -2934,3 +2934,16 @@ child cannot see is the **Pin type**, and it is exactly the child's spin structu
 (T² = (−1)^F) on Pin⁺ — decide whether the parent's orientation reversal can be identified, on the object's own terms, with the
 reflection that continues to time reversal; if it can, the spin bit is bought by the Kramers property of fermions, and B1141's
 lift is the Standard Model's. Pieces (i), (iii), (iv) unchanged. `frontier/B1382_the_spin_bit_is_the_parents_pin_type`.
+
+**sL-3, 2026-09-26, B1383 — the door tested: physics buys the Pin type, and the spin bit moves to the deck's role.** The sign
+that decides everything is the deck's square on fermions, ε·σ (ε = the Pin convention, σ the spin structure). Paired with k
+reversed directions it is ε^{k+1}(−1)^{k(k+1)/2}σ; on the deck's mapping torus the double tick lifts to εσ (exact; checked
+against Stiefel–Whitney classes on RP²). Physics fixes ε = + three ways (verified quotes): M-theory (Freed–Hopkins — no
+internal symmetry to shift T²), every T² = (−1)^F theory (Witten 2016), and the Standard Model's own CP whenever it is a
+symmetry (Yonekura 2026; three generations force Pin⁺, since X·X̄ = −1 is impossible on ℂ³). The SM itself has no T (J ≠ 0),
+so B1382's "the Standard Model's T²" is corrected. With ε = +, the spin bit is decided by the deck's role: gauged (the parent
+itself a background) → ρ₁, B1141's lift; the deck inside the SM's CP on the oriented carrier → ρ₂, the other lift (ρ₁ would force
+an even number of generations); B1104's tick → the double tick's periodicity. Read physically, A6 excludes the gauged role, so
+the spin bit and the orientation axiom are one question. **Next piece:** does anything in the record fix the deck's role? The
+candidates are the deck as CP (SP-2's beat, B1145), the deck as the tick (B1104), and the deck as the genesis parent (C5).
+Pieces (i), (iii), (iv) unchanged. `frontier/B1383_the_spin_bit_is_the_square_of_the_deck`.

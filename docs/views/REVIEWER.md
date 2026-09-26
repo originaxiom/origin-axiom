@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1230** |
-| words of findings prose | **931,935** |
-| test lock files referenced | **744** |
-| arcs carrying an authored verdict | **1230** (100.0 %) |
+| research arcs with findings | **1231** |
+| words of findings prose | **934,965** |
+| test lock files referenced | **745** |
+| arcs carrying an authored verdict | **1231** (100.0 %) |
 | recorded closures | **792** (617 classified, 175 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 811 |
+| PROVED | 812 |
 | NEGATIVE | 320 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1382`** (1602 words, 1 locks)  
-THE SPIN BIT IS THE PARENT'S PIN TYPE: m004's two spin structures are exactly the pullbacks of the Gieseking manifold's Pin+ and Pin- structures, one each. Exact over Q(w): with the two double covers G_eps of Isom(H^3) (a reflection through a point lifts with square eps, so G_eps restricts to Pin^eps(3) on a point stabiliser -- the tangent-frame reading B1175 queued), the Gieseking group <pi_1(m004), t | t g t^-1 = beat(g), t^2 = a> lifts with t -> (+-W, c), W = [[1,-w],[0,1]] the unique intertwiner (W conj(W) = +A): B1141's lift (a -> +A; cusp traces (2,-2), rho_1) extends into Pin+ only, the other (a -> -A; (-2,-2), rho_2) into Pin- only -- the conjugation relations hold in all four cases and only t^2 = a discriminates (eps A = sigma A). Both types exist (H2(N;Z/2) = 0), two each. So B1141's 'the beat extends over exactly one spin structure' is true inside the Pin+ type its W conj(W) = +A silently fixes, and codex R021's 'one spin structure does not extend (as Pin-)' is B1141's own lift: T-SPIN-PAYMENT's 'assigned, not free' is re-graded (E1) -- the object identifies the spin bit with its parent's Pin type rather than assigning it; the freedom ledger's spin bit goes back from 0 to 1, relocated. Flagged reading (cited, not derived): Pin+ is the type Kramers fermions (T^2 = (-1)^F) require, so B1141's lift is the Standard Model's if the parent's orientation reversal is the Euclidean reflection continuing to time reversal. 0 of 19.  
-`B1382_the_spin_bit_is_the_parents_pin_type/FINDINGS.md`
+**PROVED — `B1383`** (2827 words, 1 locks)  
+THE SPIN BIT IS THE SQUARE OF THE DECK: on m004's spinors with spin structure sigma the lifted Gieseking deck squares to eps*sigma (eps = the Pin convention; B1382's (lam W, c)^2 = (eps A, 0)), and paired with k further reversed directions to q = eps^(k+1) (-1)^(k(k+1)/2) sigma (exact; the Clifford half checked against Stiefel-Whitney classes on S^2 -> RP^2 with k extra directions; the graded product against Cl(1+k) at a fixed point); on the mapping torus of the deck (B1104's one-level-up Gieseking analog, H_1 = Z^2) every (eps, sigma) extends and the double tick lifts to eps*sigma. Physics fixes eps = + three ways (verified quotes: Freed-Hopkins 1908.09916 -- M-theory is Pin+ with no internal symmetry to shift T^2; Witten 1508.04715 -- T^2 = (-1)^F <-> Pin+, and Pin+ structures on Y-hat/tau from a tau acting with square 1; Yonekura 2602.11475 -- the SM's CP, when a symmetry, is Pin+ x| G, and three generations force it: X conj(X) = -1 is impossible on the lepton singlet's C^3). Then the spin bit is the deck's square on fermions and is decided by the deck's role: gauged (the parent itself a background) -> rho_1, B1141's lift; the SM's CP on the oriented carrier (odd-k pairing; the effective reflection type is -sigma) -> rho_2, the other lift (rho_1 would force even generation numbers); B1104's tick -> sigma = the double tick's periodicity (Ramond rho_1, NS rho_2). B1382 section 4 qualified (E1: the role fixed implicitly; 'T^2 = (-1)^F, the Standard Model's' corrected -- the SM has no T, J != 0). The freedom ledger's spin bit stays 1, relocated from the Pin type (now bought) to the deck's role -- which is the orientation axiom A6 in physical form. Side result relayed: main's B933/B940 O1 Dirac doubling is the 3d quaternionic structure (J = sigma_2 K commutes with their D and twist, J^2 = -1; Witten eq. 2.60), on either spin structure. 0 of 19.  
+`B1383_the_spin_bit_is_the_square_of_the_deck/FINDINGS.md`
 
 **NEGATIVE — `B1373`** (1247 words, 1 locks)  
 THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free cusp are fourth roots of unity with non-unitary holonomy. Along the cone-manifold deformation path of the hyperbolic structure -- fillings (2p, 0) or (0, 2p) on the free cusp with p from 30 down to 1, the other cusps complete -- the point where one curve has eigenvalue +-i is reached on 132 of the 166 (cusp, curve) pairs of the 35 candidates, and at every one the other curve's eigenvalue is non-unitary (|L| between 0.25 and 9): Theorem B forbids simultaneous cusp-fixedness of the two halves there. On the other 34 pairs (all meridians) the structure degenerates before the point on a deterministic fine path, the other curve's translation length increasing monotonically to 10-27 at the last non-degenerate step: the wall within a sixteenth of cone angle pi on 23 and of cone angle 2 pi / 3 on 11 -- ideal points of the real path, no representation there. No candidate anywhere on the geometric path. Not covered: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (the Ptolemy database does not reach them). 0 of 19.  

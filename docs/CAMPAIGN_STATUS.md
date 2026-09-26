@@ -811,7 +811,8 @@ graviton is two faces, the finale independent. Routed to the kill-graph. Lock
 test_b1142_lane_c_cusp_spectrum.py.
 
 *(Re-graded 2026-09-26, B1382: the assignment below holds only given the Gieseking parent's Pin⁺ type; with Pin⁻ the other lift
-extends — the bit is traded for the Pin type, not assigned.)* **LATEST (2026-08-25, B1141)**: THE SPIN PAYMENT — the object's own beat
+extends — the bit is traded for the Pin type, not assigned. B1383: the Pin type is physics' (Pin⁺); the bit now sits in the
+deck's role — gauged gives this lift, the Standard Model's CP the other.)* **LATEST (2026-08-25, B1141)**: THE SPIN PAYMENT — the object's own beat
 selects the spin structure, so the freedom ledger's **last free discrete bit is
 assigned, not free.** Cloud memo 28, HOSTILE-verified two-bench (own relator search,
 own exact intertwiner rank, three engines — SnapPy + exact-symbolic + 50-digit).

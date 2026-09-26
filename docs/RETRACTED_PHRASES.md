@@ -165,3 +165,9 @@ The `retraction-sweep` gate stays clean: registered informally (this section), a
 | "the last free discrete bit is assigned, not free" / "the object's own beat selects the spin structure" / "the spin lift, priced 1 bit → 0" | B1141, B1145, THE_ROAD (2026-08-25) | E1: true only given the Gieseking parent's Pin⁺ type; with Pin⁻ the other lift is selected — the bit is traded for the parent's Pin type, not assigned. Use: "the beat identifies the spin bit with the parent's Pin type". |
 
 The `retraction-sweep` gate stays clean: registered informally (this section), as for B1376 and B1379 above.
+
+## Currency addition 2026-09-26 (B1383 — the Pin reading's role)
+
+| "T² = (−1)^F, the Standard Model's" / "B1141's lift is the one Kramers fermions would require" / "the spin bit is bought by the Kramers property of fermions" | B1382 §4, THE_SM_VERDICT, OPEN_LEADS sL-3 (2026-09-26) | the SM has no T (J ≠ 0); Pin⁺ selects B1141's lift only when the deck is gauged (the parent itself a background), and selects the other lift when the deck is part of the SM's CP on the oriented carrier. Use: "the SM's CP, when a symmetry, is Pin⁺; the spin bit is decided by the deck's role". |
+
+The `retraction-sweep` gate stays clean: registered informally (this section), as for B1376, B1379 and B1382 above.

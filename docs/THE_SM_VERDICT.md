@@ -649,3 +649,11 @@ left it.
 > type rather than assigning it — the freedom ledger's spin bit is 1 again, relocated. Flagged reading: Pin⁺ is the type Kramers
 > fermions (T² = (−1)^F) need, so B1141's lift is the Standard Model's if the parent's orientation reversal is the reflection that
 > continues to time reversal — the sL-3 door, not a result. 0 of 19 (`frontier/B1382_the_spin_bit_is_the_parents_pin_type`).
+
+> **Currency note (2026-09-26, B1383): the door tested — physics buys the Pin type, not the spin bit.** The deck's square on
+> m004's spinors is ε·σ, and ε^{k+1}(−1)^{k(k+1)/2}σ when paired with k reversed directions (exact). Physics fixes ε = + three
+> ways (verified at the sources): M-theory (Freed–Hopkins), every T² = (−1)^F theory (Witten), and the Standard Model's own CP
+> whenever it is a symmetry (Yonekura; three generations force Pin⁺). The SM itself has no T (J ≠ 0) — B1382's "the Standard
+> Model's T²" is corrected. What remains is the deck's role: gauged, with the parent itself a background, gives B1141's lift ρ₁;
+> the deck inside the SM's CP on the oriented carrier gives the other lift ρ₂; B1104's tick ties it to the double tick. So the
+> spin bit stays 1, now as the orientation axiom's physical meaning. 0 of 19 (`frontier/B1383_the_spin_bit_is_the_square_of_the_deck`).

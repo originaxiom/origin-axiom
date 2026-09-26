@@ -171,3 +171,9 @@ that checkpoint as "not directly actionable", a reading the owner corrected the 
 | what was asserted | where banked | the correction | where corrected |
 |---|---|---|---|
 | "the object's own beat selects the spin structure, so the freedom ledger's last free discrete bit is assigned, not free" | B1141 (T-SPIN-PAYMENT), B1145 (T-SP2-SEAT: "the last discrete spin-lift bit is assigned"); THE_ROAD ("priced 1 bit → 0"), README, WORKING_RULES, CAMPAIGN_STATUS, THE_LADDER, THE_END_TO_END_CHAIN | RE-GRADED (E1) — the beat selects a lift only once the Gieseking parent's Pin type is fixed: B1141's lift extends only as Pin⁺ (its W·W̄ = +A is that choice), the other only as Pin⁻ (codex R021's image). The object trades the spin bit for the parent's Pin type; the bit is 1 again, relocated. B1141's computations stand. | B1382; dated notes at each surface |
+
+## 2026-09-26 — B1383: B1382's physics reading qualified (E1)
+
+| what was asserted | where banked | the correction | where corrected |
+|---|---|---|---|
+| "the lift B1141 selected is the one Kramers fermions — T² = (−1)^F, the Standard Model's — would require, if the Gieseking manifold's orientation reversal is read as the Euclidean reflection that continues to time reversal" (flagged reading) | B1382 FINDINGS §4, THE_SM_VERDICT, OPEN_LEADS sL-3, the letter's 44th note | QUALIFIED — true only when the deck is gauged (the parent itself a background). With the deck inside the 4d CP/T on the oriented carrier, Pin⁺ selects the other lift ρ₂. And the SM has no T (J ≠ 0): its CP, when a symmetry, is Pin⁺, forced by three generations. Physics buys the Pin type; the spin bit moves to the deck's role. | B1383; dated notes at each surface |

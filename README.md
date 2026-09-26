@@ -296,7 +296,8 @@ emitted value. The structure is the object's; the values are the observer's.
 > exhibited in E₈ but **not forced**; whose rank obstruction has a first non-abelian hatch at
 > exactly the Standard Model's rank, priced and fenced; whose last free discrete bit — the spin
 > structure — is *identified with its parent's Pin type* by the object's own beat (B1141; re-graded 2026-09-26, B1382:
-> the beat selects a spin structure only once the Gieseking parent's Pin type is fixed, so the bit is traded, not assigned);
+> the beat selects a spin structure only once the Gieseking parent's Pin type is fixed, so the bit is traded, not assigned;
+> B1383: physics fixes that type — Pin⁺ — and the bit now sits in the role the deck plays);
 > and whose **values remain closed disjoint from every route tested — ten honest negatives** — a
 > wall this programme itself now explains, rather than merely reports.
 

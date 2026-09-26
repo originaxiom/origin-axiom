@@ -6,7 +6,7 @@
 > the ten value-negatives stand guard. The SM's **discrete kinematic skeleton is complete** up to
 > torsor basepoints, one exhibit (the family count *three* — EXHIBITS-NOT-FORCES, the object does
 > not force E₈; B1033/B1138), and the spin bit — **traded by the object's own beat for its parent's Pin type** (B1141 THE SPIN PAYMENT,
-> hostile-verified two-bench; re-graded 2026-09-26, B1382: "assigned" held only given the Pin⁺ type). The **fork** (B1138) splits the observer's closing
+> hostile-verified two-bench; re-graded 2026-09-26, B1382: "assigned" held only given the Pin⁺ type; B1383: Pin⁺ is physics' type, and the bit now sits in the deck's role). The **fork** (B1138) splits the observer's closing
 > into two mutually-exclusive real branches — E₆(−14) the charges, E₆(−26) the geometry + a graviton
 > slot (B1140 THE 64 ORGANIZED). Lane C (B1142) placed the object's cusp spectrum (ζ_K = ζ·L(χ₋₃),
 > GUE-generic). Structure is the object's, values the observer's; SP-2 (the fermion-capability of the

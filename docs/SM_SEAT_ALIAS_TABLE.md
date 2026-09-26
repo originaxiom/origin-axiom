@@ -156,3 +156,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-26 (later):* B1381 used (the rank-one bound on every level: no cyclic cover Mₙ of m004 has a rank-one character with h¹ = 2, for any n — main's B1427 observation to n = 7 made a theorem; B1377's |I| ≤ 2 on every level); next arc B1382.
 
 *Update 2026-09-26 (later):* B1382 used (the spin bit is the parent's Pin type: m004's two spin structures are the pullbacks of the Gieseking manifold's Pin⁺ and Pin⁻ structures, one each; T-SPIN-PAYMENT re-graded, E1; B1175's queued R021 residual closed); next arc B1383.
+
+*Update 2026-09-26 (later):* B1383 used (the spin bit is the square of the deck: physics fixes the Pin type — Pin⁺, from M-theory, T² = (−1)^F theories and the SM's own CP — and the bit moves to the deck's role; B1382 §4 qualified, E1; main's B933/B940 O1 answered by the 3d quaternionic structure, relayed); next arc B1384.

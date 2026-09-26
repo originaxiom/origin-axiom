@@ -15302,3 +15302,52 @@ owner's rule entered WORKING_RULES (the binding file, beside THE ABSENCE RULE). 
 seconds; surfaces (THEOREM_REGISTRY T-SPIN-PAYMENT/T-SP2-SEAT; B1141, B1145, B1175 notes; README, WORKING_RULES, THE_ROAD,
 THE_LADDER, CAMPAIGN_STATUS, THE_END_TO_END_CHAIN; THE_SM_VERDICT; ERROR_LEDGER E1 instance; RETRACTIONS; RETRACTED_PHRASES;
 OPEN_LEADS sL-3; the letter's forty-fourth note; the alias table). 0 of 19.
+
+### B1383 — the spin bit is the square of the deck (2026-09-26)
+
+The owner's "go next" on sL-3: test B1382's flagged door (Kramers fermions, T² = (−1)^F, live on Pin⁺; if the parent's
+orientation reversal continues to time reversal, B1141's lift is the Standard Model's).
+
+**Swept first (E54, both records).** No prior treatment of Freed–Hopkins, Witten's 1508.04715/1605.02391, Pin⁺ physics,
+unorientable M-theory or CP-as-gauge-symmetry on either branch. Main's B933/B940 "Kramers-type doubling" was read, is a different
+matter (below), and is still open there as O1.
+
+**The physics, verified at the sources (PDFs extracted and read, quotes in FINDINGS §1).**
+- Freed–Hopkins (arXiv:1908.09916 §2): M-theory is Pin⁺₁₁ because T² = (−1)^F, with no internal symmetry to shift it; their
+  convention is B1382's (RP⁴ is pin⁺, obstruction w₂).
+- Witten (arXiv:1508.04715): T² = (−1)^F ⟺ Pin⁺. His §4.2 builds Pin⁺ on Ŷ/τ from a τ acting on fermions with τ² = 1 — our
+  setting. His footnote 1 puts everything in Euclidean terms.
+- Yonekura (arXiv:2602.11475): the SM's CP, gauged and broken spontaneously, is Pin⁺(4) ⋉ G with no new anomaly; Pin⁻ needs
+  fermions in pairs.
+- Dine–Leigh–MacIntire and Choi–Kaplan–Nelson for CP as a gauge symmetry; J ≠ 0 from the PDG CKM review.
+
+**Computed (`deck_square.py`, under a second, imports B1382's exact ℚ(ω) machinery).**
+- Explicit Clifford algebras to n = 7, and an RP² control where Stiefel–Whitney classes decide: the lift of (antipode, −1 on ℝᵏ)
+  squares exactly as w₁, w₂ of T RP² ⊕ kL predict.
+- The graded product G_ε ⊗̂ Cl(k, ε).
+- **The sign law:** the deck paired with k reversed directions squares to ε^{k+1}(−1)^{k(k+1)/2}σ. For odd k the factor sees
+  type −σ.
+- The deck's mapping torus (B1104's M_ψ, H₁ = ℤ²): every (ε, σ) extends, and the double tick lifts to εσ.
+- **The generation-parity lemma:** X·X̄ = −1 is impossible on ℂⁿ for odd n, and hypercharge cannot supply the −1. So on three
+  generations of the lepton singlet no Pin⁻ CP exists: the SM's CP, whenever it is a symmetry, is Pin⁺.
+
+**Result: physics buys the Pin type (Pin⁺, three independent ways), not the spin bit.** The bit is the deck's square on fermions,
+decided by the deck's role:
+- gauged (the parent itself a background): ρ₁, B1141's lift;
+- inside the SM's CP on the oriented carrier: ρ₂, the other lift (ρ₁ would force even generation numbers);
+- B1104's tick: the double tick's periodicity.
+
+Read physically, A6 excludes the gauged role, so the spin bit and the orientation axiom are one question.
+
+**Corrections.** B1382 §4 qualified as an E1 instance: the role had been fixed silently, and "T² = (−1)^F, the Standard Model's"
+asserted a T the SM does not have. Side result, relayed not applied: main's O1 doubling is the 3d quaternionic structure — J = σ₂K
+commutes with their D and SU(2) twist and J² = −1 (Witten eq. (2.60)), on either spin structure, with no deck.
+
+**Banked.** Verdict PROVED (the sign law) with a conditional realization table. Lock: five tests, seconds.
+
+**Surfaces.**
+- THEOREM_REGISTRY: new row T-DECK-SQUARE; T-SPIN-PAYMENT extended.
+- Dated notes on B1141 and B1382; README, WORKING_RULES, THE_ROAD, THE_LADDER, CAMPAIGN_STATUS, THE_END_TO_END_CHAIN.
+- THE_SM_VERDICT, OPEN_LEADS sL-3, ERROR_LEDGER, RETRACTIONS, RETRACTED_PHRASES, the letter's forty-fifth note, the alias table.
+
+0 of 19.

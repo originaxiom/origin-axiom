@@ -5,6 +5,8 @@
 > Gieseking parent. In the other double cover (ĉ² = −1, **Pin⁻**) the twisted lift extends and this one does not. So the beat does
 > not assign the spin bit; it identifies it with the parent's Pin type (B1141's lift = Pin⁺, tr μ = +2; the other = Pin⁻, R021's
 > image). `frontier/B1382_the_spin_bit_is_the_parents_pin_type`.
+>
+> **Further 2026-09-26 (B1383).** Physics fixes the Pin type: Pin⁺ (M-theory, Freed–Hopkins; T² = (−1)^F theories, Witten; the Standard Model's own CP, Yonekura — forced by three generations). The spin bit is then the deck's square on fermions (ε·σ), decided by the role the deck plays: gauged — the parent itself a background — gives this lift; the deck inside the Standard Model's CP on the oriented carrier gives the other one. `frontier/B1383_the_spin_bit_is_the_square_of_the_deck`.
 
 **Status: banked (frontier). Verdict PROVED (the three load-bearing claims independently
 confirmed, hostilely, by two engines). Harvest arc — the cloud seat's twenty-eighth memo

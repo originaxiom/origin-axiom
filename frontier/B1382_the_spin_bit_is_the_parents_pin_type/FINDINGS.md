@@ -71,6 +71,8 @@ between communities (here: Pin⁺ = reflections lift to involutions, the convent
 say, if it holds: the spin bit is not free and not the object's — it is **bought by the physical fact that fermions are
 Kramers**, through the parent. That is the sL-3 door this arc opens, not a result it claims.
 
+> **Qualified 2026-09-26 (B1383; E1).** The reading above holds in one role of the deck only — the parent itself a background ("N × ℝ inherits the Pin type of N" fixed that role silently). Where the deck is instead part of the 4d CP/T on the oriented carrier, the same dictionary selects the *other* lift ρ₂; on B1104's mapping torus the lift is tied to the double tick's periodicity. And "T² = (−1)^F, the Standard Model's" asserted a T the SM does not have (J ≠ 0): the correct statement is that the SM's CP, whenever it is a (gauged, spontaneously broken) symmetry, is Pin⁺ — forced by three generations. The Pin type is thereby bought by physics; the spin bit now sits in the deck's role. `frontier/B1383_the_spin_bit_is_the_square_of_the_deck`.
+
 ## 5. For main (relayed, not applied)
 
 B1141, T-SPIN-PAYMENT, T-SP2-SEAT and the freedom-ledger count (THE_ROAD's "1 bit → 0") need the qualifier "given the Pin⁺
