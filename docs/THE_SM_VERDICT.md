@@ -618,3 +618,11 @@ left it.
 > **On the words route the entrance now costs one fragile axiom, orientation** (σ and σ² are both realized: Gieseking
 > against m004); the uniqueness theorem's ℤ² route still declares the puncture. Genesis mathematics only; no verdict of
 > this ledger changes; no value. 0 of 19 (`frontier/B1380_the_puncture_is_the_words`).
+
+> **Currency note (2026-09-26, after fetching main @ `987c0c8f`): two of this branch's same-day notes corrected for novelty
+> (E54).** B1376's correction had been made on main ten days earlier (B1419, 2026-09-16: six arithmetic slopes, (±5,1),
+> (±6,1), (±8,1) — the same three up to orientation — error class E82; this branch's E71 is the same class). In B1379's note,
+> the C2 lock was main's first (B1323, 2026-09-09), A7's based-only content is B979's, m003's sisterhood B803's, and the
+> plastic-number point P019's L1 with B1323's F9; what B1379 adds is the m010 ladder and E72. B1380's puncture derivation was
+> checked against main and is not there (main's B1323 keeps A5b as an axiom; main's paper prices two fragile forks). No verdict
+> of this ledger changes. 0 of 19.

@@ -1,5 +1,19 @@
 # B1379 — THE GENESIS AND m004 LINKS, AUDITED: an external web seat's genesis architecture checked link by link against this chain with own code — it closes the m004→index gap (m010 is generated from m004's own shears by the founding ratio g = −RL⁻¹, the first member of an exact ladder able to carry a cubic character, and the coefficient chain δ → unique nonsplit ρ → Sym³ holds with no hand choice), demotes A7 from "which object exists" to based data, and turns m003 from a coincidence into m004's sign partner; it does NOT remove the two fragile forks (the puncture is invisible even to the uniqueness theorem's torsion axiom); C2 gets the lock it never had and is shown shielded by C1 (the plastic-number alternative needs three letters); and it exposes a real error in this record — Yₙ names both the closed branched tower and the cusped covers, and none of the cusped covers' index backgrounds descends to the closed tower
 
+> **Correction of record (2026-09-26, the same day, after fetching main @ `987c0c8f`; E54 — absence asserted without a sweep,
+> four instances).** Four of the "what it fixes" items below were already in the record when this arc banked them, three of
+> them on this very branch. **(1) A7 at the unbased level** is B979's own finding ("LR and RL *are* conjugate … A7 is
+> based-level"). **(2) m003** is m004's commensurable sister (B803; THE_LADDER X13 — its torsion 5 is what separates it), and m206
+> is already listed among the sisters in docs/COMPUTE_THE_PROGRAM.md; the common double cover is a concrete witness of that
+> commensurability, not a new explanation. **(3) C2's lock:** main's B1323 (2026-09-09, three days after this branch forked
+> from main) locked C2 with a seven-criterion census (its lock is a test file on main only) and caught the ledger's "no F3
+> test" sentence as stale (main's E53 #29); this arc's lock is an independent re-derivation on this branch, not the first.
+> **(4) The plastic-number point** is P019's L1 (the binary alphabet) together with B1323's F9 ("three records buy the plastic
+> number as two buy the golden"). **What this arc does add:** the founding-ratio ladder Lⁿg with m010 as its first
+> cubic-capable member and the coefficient chain forced there (in neither record; the ratio −RL⁻¹ itself is old — THEOREM_REGISTRY,
+> HARVEST_LEDGER R11/R64), and the Yₙ/Mₙ correction (seat label sm:E72; an instance of main's E72 class,
+> ONE-SYMBOL-TWO-QUANTITIES). Every computation below stands.
+
 **Date:** 2026-09-26 · **Seat:** cc (the SM-derivation branch) · **Occasion:** the owner's correction — *"we have weak spots on
 our chain, genesis and m004, that work is supposed to fix that"* — of this seat's first reading of the 2026-09-26 checkpoint as
 "not directly actionable" · **Status:** PROVED (every computable claim below, own code) · CORRECTION OF RECORD (the Yₙ

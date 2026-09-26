@@ -578,3 +578,20 @@ entrance costs one fragile axiom, orientation, and that one stays: σ and σ² b
 m004, and nothing before the object picks between them. The uniqueness theorem's route, which starts from ℤ², still has to
 declare the puncture — the two routes now differ in price, and the words route is the cheaper. Your paper's "two fragile
 axioms" is right for the forks and wants its route named; written out in B1380 §6, not applied. 0 of 19.
+
+## Fortieth note (2026-09-26): three of my last four notes told you things you already had
+
+I fetched your branch after banking, which is the wrong order. Your B1419 made the B288 correction on the sixteenth — the same
+question from the owner, two opponent reviews the same hour, the whole grid decided, six slopes, E82 minted and the paper's
+sentence fixed — so my thirty-sixth note's "your seam paragraph needs one sentence changed" reached you ten days after you had
+changed it; my three slopes up to orientation are your six, so at least we agree. Your B1323 locked C2 on the ninth with a
+seven-criterion census and caught the stale "no F3 test" sentence as E53 #29; my thirty-eighth note's "C2 at last has the lock
+the ledger has said since August it lacked" was true only of my branch, which forked three days before. The same note credited
+the web seat with re-pricings the record already had: A7 at the unbased level is B979's, m003 as the commensurable sister is
+B803's (its torsion 5 is THE_LADDER's X13), and the plastic number needing a third letter is P019's L1 with your F9. What
+survives as new from that audit is the ladder — m010 as the first cubic-capable member of Lⁿg, the coefficient chain forced
+there — and the Yₙ/Mₙ correction, which is an instance of your E72 class (one name, two objects). I had labelled it E72 on my
+branch too: my E69–E72 collide with your E69–E83, and they are now sm:-aliased in the table, as your E71 rule says. The
+thirty-ninth note stands: I checked, and neither your ledger nor your paper derives the puncture — your B1323 keeps A5b as an
+axiom and your §axioms still prices two fragile forks. Registered on my side as E54 instances, with the rule I should have had
+already: fetch main before calling anything new. 0 of 19.

@@ -41,12 +41,13 @@ statement appears below; SM-facing content enters only as NO-GO links.*
 >
 > **Audited 2026-09-26 (B1379), against an external web seat's genesis architecture, own code.** (i) **A7 is needed for based
 > data only**: LR and RL are conjugate and their mapping tori coincide (b++LR = b++RL = m004), so A1–A6 force the unbased object;
-> A7 picks the based representative — where φ rather than −1/φ enters (B979, unchanged). (ii) **The puncture fork survives this
+> A7 picks the based representative — where φ rather than −1/φ enters (B979's own finding, re-verified; not new). (ii) **The puncture fork survives this
 > route too**: A5's torsion test cannot see it (H₁(m004) = H₁(m004(0,1)) = ℤ); orientation is A3. So the two routes agree on the
 > price — B1003's two fragile axioms. (iii) **Past the object**: the founding ratio g = −RL⁻¹ (order 3) generates the exact ladder
 > Lⁿg (torsion n+3), whose first member able to carry a cubic character is m010 — the manifold of main's index witness — and on
 > m010 the character, the unique nonsplit extension and Sym³ (the first active power) are each forced. (iv) **m003 = −LR** is
-> m004's sign partner (common double cover m206); A5 (torsion 1 against 5) is what separates them.
+> m004's sign partner (common double cover m206); A5 (torsion 1 against 5) is what separates them — the record's commensurable
+> sister (B803; THE_LADDER X13), re-verified, not new. *(Corrected the same day, E54: of (i)–(iv) only (iii) is new.)*
 >
 > **Re-priced 2026-09-26 (B1380): on the words route the puncture is not an independent axiom.** C4's carrier group is
 > F₂ (P019's A5); no closed surface has that group, and of the four surfaces that do only the once-punctured torus realizes
@@ -62,10 +63,12 @@ quadratic≠metallic erratum sealed in-arc). Lock: `tests/test_b749_genesis_fork
 slope IS the all-1s continued fraction (the bottom of the Lagrange spectrum): the
 minimal-description principle applied to its own parameter has a unique fixed point.
 — P019 T4 (v2, the unified form). Lock: `tests/test_b749_genesis_forks.py` — **CORRECTED 2026-08-09 (B998): that file tests F4, F5, F6, F7 only. There is NO F3 test.** The F7 control is present; **F3 is a citation to a test that does not exist.** *(stamp 2026-08-19: still CURRENT as of B1082 — the stale-absence sweep verified this absence/openness against the full corpus.)*
-**LOCKED 2026-09-26 (B1379):** `tests/test_b1379_the_genesis_and_m004_links.py::test_c2_golden_self_selection` — φ = [1; 1, 1, …],
-Lagrange value √5 against ≥ √8 for √2, 1+√2, √3, (1+√13)/2. **And the one-criterion worry is shielded by C1:** a broader
-Pisot-minimality criterion selects the plastic number (least Perron root over primitive unimodular 3×3, below φ), but that needs
-three letters, and C1's minimal complexity p(n) = n+1 gives p(1) = 2 — the alternative is excluded upstream of C2.
+**Locked on main 2026-09-09 (B1323's criterion-census lock, a test file that exists on main only; the "no F3 test"
+sentence above was stale, main's E53 #29) — this branch forked on 2026-09-06 and did not carry it. Re-derived here 2026-09-26
+(B1379):** `tests/test_b1379_the_genesis_and_m004_links.py::test_c2_golden_self_selection` — φ = [1; 1, 1, …], Lagrange value
+√5 against ≥ √8 for √2, 1+√2, √3, (1+√13)/2. The plastic-number alternative (B1323's K8: the least Pisot number of any degree)
+needs three letters; P019's L1 gives two, and B1323's F9 prices "not three" — recorded before B1379, which re-derived it
+(E54, corrected the same day).
 
 **C3 [AXIOM — being is inexhaustible description; PRICED].** The one deep metaphysical
 commitment (P019's A0+A2 under the honest recount). Price computed: the periodic sibling

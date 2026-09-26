@@ -15192,3 +15192,22 @@ edited; the re-pricing is recorded in THEOREM_LEDGER (C4 "PUNCTURE IMPLIED", C5 
 audit paragraph), dated notes on B1003 and B1379, LAW_MAP's B1003 row, COSMOLOGY_LEDGER's genesis row. The paper's "two fragile
 axioms" is relayed with its route named (B1380 §6), not edited. Verdict PROVED + RE-PRICED; lock five tests, under two seconds;
 surfaces (THE_SM_VERDICT, the letter's thirty-ninth note, the alias table). 0 of 19.
+
+### Main fetched after banking — five same-day claims corrected (E54), labels aliased (2026-09-26)
+
+Occasioned by closing out the session's test report: the fresh-clone failures found by the stopped full run (B1062, B1063, B1137)
+led to main's fix 872babe4 (2026-09-13, the gitignored artifacts committed with .gitignore exceptions) — on main, not in this
+branch's history (forked 2026-09-06), cited here and not ported. Fetching main (@ 987c0c8f, 2026-09-18) then showed that this
+seat had banked claims of absence or novelty without sweeping main, the owner's E54 rule broken five times in one day. (1) B1376:
+main's B1419 (2026-09-16, the owner's same question, two opponent reviews the same hour) had already corrected B288 over the whole
+grid — six slopes, (±5,1), (±6,1), (±8,1), the same three up to orientation — minted E82 and fixed the paper; B1376 is an
+independent agreement and its relay was moot. (2) B1379's "C2 receives the test lock it never had": main's B1323 locked C2 on
+2026-09-09 (the seven-criterion census; the "no F3 test" sentence caught as E53 #29). (3) B1379's A7 "demotion" is B979's own
+finding. (4) m003 as m004's commensurable sister is B803 (torsion 5: THE_LADDER X13). (5) The plastic number needing a third letter
+is P019's L1 with B1323's F9. What survives as new: B1379's m010 ladder (in neither record) and its Yₙ/Mₙ correction; B1380's
+puncture derivation (checked: main's B1323 keeps A5b as an axiom, main's paper prices two fragile forks). The error-class labels
+collide as well — this branch's E69–E72 against main's E69–E83 (main's E71 BRANCH-LOCAL-NUMBERING, extended to error labels):
+sm:E71 ≡ main's E82, sm:E72 an instance of main's E72; aliased in the table, sm:B1376 ≡ main's B1419. Dated notes on B1376 and
+B1379; THEOREM_LEDGER C2 and Part I amended; ERROR_LEDGER row (E54 instances, with the standing rule: fetch main and sweep both
+trees before any claim of absence or novelty); RETRACTIONS section; THE_SM_VERDICT currency note; THE_CLOSING's B1379 row; the
+letter's fortieth note; B1380 now cites main's B1323 dictionary lemma. No computation changes. 0 of 19.

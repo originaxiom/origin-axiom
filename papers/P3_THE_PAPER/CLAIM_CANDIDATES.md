@@ -6,7 +6,7 @@ so a sweep reading it treats *declared false* and *never declared* identically. 
 wrong flags; this rebuild stops the base depending on the flag at all.
 
 **POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 561 arcs.**
-The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
+The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.97** on the corpus's own law vocabulary against
@@ -33,7 +33,6 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1271` | PROVED | L | | THE CHAIN TAKEN ALL THE WAY. Every remaining Standard-Model step the corpus's ingredients supply is computed exactly on B1270's icosian E8 and B1252's descent. THREE GENE… |
 | `B935` | NEGATIVE | V | | THE COMPOSITION HUNT -- RIGIDITY WITH A STRUCTURAL REASON (blind; the map question's first well-posed form, answered NO): the closed whitelist of four forced compositions… |
 | `B968` | PROVED | V | | THE SM VERDICT CRYSTALLISED (owner directive, before the programme turns to cosmology, gravity and other unexplained phenomena). docs/THE_SM_VERDICT.md supersedes every s… |
-| `B979` | NEGATIVE | V | | L131 -- IS A7 DISCHARGE-ABLE? NO: A7 IS LOAD-BEARING, and the answer was already banked in section 5 of the SAME DOCUMENT whose section 4 B949 was reading when it registe… |
 | `B1014` | PROVED | V | | THE PROOF-FORM: THE DERIVATION THEOREM CLOSED, THE ANCHOR DOCTRINE LICENSED, THE CLAIM STATED ON ONE PAGE -- executing two owner decisions (approved and confirmed). (1) P… |
 | `B1035` | PROVED | V | | THE TWO HELD RECEIPTS UNBLOCKED AND VERIFIED (a day's hold on evidence that was pushed, byte-stable, on both remotes the whole time -- the point-of-use retrieval defect a… |
 | `B1081` | PROVED | V | | THE HYDROGEN AUDIT (the inverse chain run as computation; verifier HOLDS after its own deep rebuild from the E6 roots, grading the cell's shallower pass honestly): hydrog… |
@@ -61,6 +60,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B970` | PROVED | S | | L134 WORKER CELL (banked in B978): the twelve exotic states per generation (27 = 16+10+1) given their quantum numbers under the cascade's Levi, plus the cascade's resolvi… |
 | `B976` | PROVED | S | | THE CASCADE RECOVERY -- eleven banked arcs the synthesis layer had forgotten. Prompted by the OWNER, who reported that work around B862 felt like the SM was almost clarif… |
 | `B978` | PROVED | S | | PHASE A BANKED -- four leads closed, one new mechanism, and the same failure a third time. DISPOSITIONS: L134 CLOSED, not an independent gap, since <S> != 0 IS E6 -> SO(1… |
+| `B979` | NEGATIVE | S | | L131 -- IS A7 DISCHARGE-ABLE? NO: A7 IS LOAD-BEARING, and the answer was already banked in section 5 of the SAME DOCUMENT whose section 4 B949 was reading when it registe… |
 | `B992` | PROVED | S | | X12 SETTLED AFFIRMATIVELY. Computed here: z_e6(su(3)+su(2)) INTERSECT Cartan is EXACTLY 3-DIMENSIONAL, and it is the Levi's centre u(1)^3 (the Levi contains the Cartan, s… |
 | `B993` | PROVED | S | | THE CORNERSTONE VERIFIED ON THIS BENCH: THE OBJECT-SPECIFIC ATOM IS GENERIC AT ROUGHLY 1 IN 3. cc3-s cornerstone synthesis returns NOT YET -- and not for want of theorems… |
 | `B994` | PROVED | S | | THE RULE-VARIATION TEST, NEVER ASKED BEFORE (B869 varied the STARTING GROUP, not the rule), RUN HERE -- AND THE ENDPOINT IS RULE-INDEPENDENT WHILE THE PATH IS NOT. Regist… |

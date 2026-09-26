@@ -157,3 +157,11 @@ that checkpoint as "not directly actionable", a reading the owner corrected the 
 |---|---|---|---|
 | "on t12839 = Y₄ **of the tower** 12 800 backgrounds carry exactly one net generation" | B1374 (FINDINGS, THE_CLOSING row, THE_SM_VERDICT currency note, the letter's thirty-third note) | CORRECTED (E72) — t12839 is the **cusped** 4-fold cyclic cover of m004 (now M₄); "the tower" in this record is B1301's **closed** cyclic branched covers Yₙ. The count stands on M₄; it is **not** a statement about the closed Y₄: none of M₄'s 89 non-split loci is trivial on the filled meridian, so no background descends | B1379 (`verification/descent_check.py`); dated notes in B1374's FINDINGS |
 | the cusped covers of m004 written Y₂–Y₆ (and Y₇) | B1375, B1377, B1378 (FINDINGS; the letter's thirty-fourth, thirty-fifth, thirty-seventh notes; OPEN_LEADS sL-2) | RENAMED Mₙ (E72) — the same symbol already denoted the closed branched covers (B1278's "six-fold closing" is the closed Y₆, not B1378's). Every number stands on the cusped Mₙ. **B1378's triplet is a statement about M₆ only**: ρ(z) is a nontrivial unipotent on the filled meridian for all three members | B1379; dated notes in B1375, B1377, B1378 |
+
+## 2026-09-26 — the same day's novelty claims, after fetching main @ `987c0c8f` (E54)
+
+| what was asserted | where banked | the correction | where corrected |
+|---|---|---|---|
+| "C2 receives the test lock it never had" / "LOCKED 2026-09-26 (B1379)" | B1379 (FINDINGS, THEOREM_LEDGER C2, THE_SM_VERDICT, THE_CLOSING, the letter's thirty-eighth note, CHANGELOG) | CORRECTED (E54) — main's B1323 locked C2 on 2026-09-09 (the criterion census); B1379's lock is an independent re-derivation on this branch | B1379 dated note; THEOREM_LEDGER C2; the letter's fortieth note |
+| the web seat's work "demotes A7", "explains m003", "shields C2 by C1" as new | B1379 | CORRECTED (E54) — B979 (A7 based-level), B803 with THE_LADDER X13 (m003), P019 L1 with main's B1323 F9 (the plastic number) had them; new in B1379: the m010 ladder and E72 | B1379 dated note; THEOREM_LEDGER Part I |
+| B1376's relay "your seam paragraph needs one sentence changed" | B1376 §3; the letter's thirty-sixth note | SUPERSEDED — main's B1419 (2026-09-16) had corrected the paper and minted E82 | B1376 dated note; the letter's fortieth note |

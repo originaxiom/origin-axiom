@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1228** |
-| words of findings prose | **928,023** |
+| words of findings prose | **928,469** |
 | test lock files referenced | **742** |
 | arcs carrying an authored verdict | **1228** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1380`** (1927 words, 1 locks)  
+**PROVED — `B1380`** (1989 words, 1 locks)  
 THE PUNCTURE IS THE WORD'S: the chain's puncture (P019's A5b, B749's fork F6, one of B1003's two FRAGILE axioms) is implied by the carrier axiom as P019 states it (A5: the description realized as a mapping class of a carrier whose fundamental group is the rank-2 free group). Theorem, own code: no closed surface has fundamental group F2 (orientable: trivial, Z^2 or H1 rank >= 4; non-orientable: 2-torsion in H1); the surfaces with pi1 = F2 are exactly S(1,1), S(0,3), N(1,2), N(2,1) (chi = -1); a homeomorphism realizing the golden substitution sigma (a -> ab, b -> a) or sigma^2 must kill every peripheral class in H1, since no power of [[1,1],[1,0]] has an eigenvalue +-1, which excludes all but the once-punctured torus, where sigma sends [a,b] to a conjugate of [a,b]^-1 and sigma^2 to a conjugate of [a,b] (Nielsen; 300 seeded automorphisms as instrument control) and both are realized (Dehn-Nielsen-Baer). So F6's sibling, the closed torus bundle m004(0,1) (Sol), does not drop the puncture: it abelianizes the carrier's group, replacing the word by its letter counts -- the Fibonacci word's n+1 factors of each length fall to 2 images (n <= 60), ab = ba, only the frequency 1/phi (the hearing) survives, which is B749's own F6 verdict with its reason. Orientation is untouched (sigma and sigma^2 both realized; b-+L = m000 Gieseking, b++LR = m004) and is now the chain's one independent fragile axiom on the words route; the matrix route (the uniqueness theorem's Z^2 substrate) still pays the puncture as an axiom. 0 of 19.  
 `B1380_the_puncture_is_the_words/FINDINGS.md`
 

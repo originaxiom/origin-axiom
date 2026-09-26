@@ -77,6 +77,11 @@ counts, which C3 (being is inexhaustible description) does not allow.
 | **words** (THE CHAIN, C1–C5; P019) | C3 (the one metaphysical commitment), C4 = A5 (the geometric carrier; priced GEOMETRY-NECESSARY by F8, and now carrying the puncture), C5 = A6 (orientation) | **one: orientation** (sibling the Gieseking manifold, m000) |
 | **matrix** (docs/UNIQUENESS_THEOREM.md, A1–A6) | the ℤ² substrate (A1) is exactly the abelianized description; its A5 computes torsion on "the mapping torus M_B of B acting on the 2-torus" — the closed bundle — and cannot see the puncture (B1379 S6: equal H₁), so the puncture must be declared | two: orientation and the puncture |
 
+Checked against main (@ `987c0c8f`): B1323's dictionary lemma (2026-09-09, machine-checked) identifies C4 with A1 through
+"the carrier's H₁ = ℤ²" — consistent with this arc, since that ℤ² is exactly the abelianized description — and keeps A5b as
+an axiom ("the closed genus-2 surface has no puncture (A5b)"); main's paper still prices two fragile forks. The derivation
+above is in neither record.
+
 F6's computation is unchanged and remains a true statement about the abelianized carrier; what changes is its reading. The two
 routes to the object now differ in price, and the words route is the cheaper: one fragile axiom against two.
 
