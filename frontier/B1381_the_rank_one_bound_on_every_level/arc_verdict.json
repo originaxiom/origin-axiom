@@ -1,0 +1,12 @@
+{
+ "id": "B1381",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": ["B1377", "B1375", "B1379", "B1380"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE RANK-ONE BOUND ON EVERY LEVEL: no cyclic cover M_n of m004 has a rank-one character with h^1 = 2, for any n. pi_1(M_n) = <a, b, t | t a t^-1 = phi^n(a), t b t^-1 = phi^n(b)> has 3 generators and 2 relators, so for chi != 1, h^1 = 2 - rank J and h^1 = 2 iff the Fox Jacobian J vanishes; its t-column is (1 - chi(a), 1 - chi(b)), forcing chi trivial on the fibre, and there the remaining block is s*I - (M^n)^T with M = [[2,1],[1,1]], never zero because M^n (distinct eigenvalues phi^(+-2n); off-diagonal F(2n) != 0) is never scalar. Checked symbolically to n = 8 with own Fox calculus, the Fibonacci form to n = 40, an instrument control that fires (the hyperelliptic involution, abelianization -I: h^1 = 2 at the non-trivial character (1,1,-1)), and main's golden loci s = phi^(+-2n) reproduced with h^1 = 1. So main's B1427 observation (h^1 = 2 nowhere, n <= 7) is a theorem for all n, and B1377's bound |I| <= 2 in one doublet sector holds on every level of the cusped tower; |I| = 1 exactly stays empirical; the closed tower and physics untouched. 0 of 19."
+}

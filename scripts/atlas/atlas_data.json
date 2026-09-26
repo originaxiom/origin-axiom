@@ -7734,12 +7734,13 @@
    "motifs": [
     "figure_eight",
     "metallic",
+    "golden",
     "z3_generation",
     "torsion"
    ],
    "refs": [],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 15,
+   "obstacle_conf": 17,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7865,6 +7866,28 @@
    "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1381": {
+   "slug": "the rank one bound on every level",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 16,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B138": {
    "slug": "s031 principal lemma",

@@ -633,3 +633,10 @@ left it.
 > qualifications adopted here: "complete on the torsion" is not "complete" (two golden loci per level, h¹ = 1 there too); the
 > |I| bound is B1377's extension bound, not h¹(χ²) = 1; the M₅ cusp filter is proved. Fences unchanged: non-semisimple
 > backgrounds, no physics reading, no value, no three. 0 of 19.
+
+> **Currency note (2026-09-26, B1381): the rank-one bound on every level.** No cyclic cover of m004 has a rank-one character
+> with h¹ = 2, for any n — the Fox Jacobian's t-column forces a killing character to be trivial on the fibre, and there the
+> block s·I − (Mⁿ)ᵀ is never zero because Mⁿ is never scalar — so main's B1427 observation (n ≤ 7) is a theorem, and B1377's
+> |I| ≤ 2 in one doublet sector holds on every level of the cusped tower: three generations in one sector of one background
+> are impossible there at any level. |I| = 1 exactly stays empirical; fences unchanged. 0 of 19
+> (`frontier/B1381_the_rank_one_bound_on_every_level`).

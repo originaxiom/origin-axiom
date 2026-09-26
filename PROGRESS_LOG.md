@@ -15251,3 +15251,18 @@ the |I| bound is B1377's extension bound, not h¹(χ²) = 1; the M₅ cusp filte
 (does the common double cover m206 lie behind B1431's identity of state sums?) — not a claim. B1426 concerns another seat.
 Cited, not re-derived. Surfaces: B1375, B1377 dated notes; OPEN_LEADS sL-2; THE_SM_VERDICT; the alias table; the letter's
 forty-first note. 0 of 19.
+
+### B1381 — the rank-one bound on every level (2026-09-26)
+
+Occasioned by the harvest of main's B1427, which solved the rank-one twisted cohomology of the cusped covers exactly through level
+seven (h¹ = 2 nowhere) and named the mechanism without a proof for every level (OPEN_LEADS sL-2 (i′); both records swept first — no
+all-n statement anywhere). Theorem: for every n and every character χ of π₁(Mₙ) = ⟨a, b, t | t a t⁻¹ = φⁿ(a), t b t⁻¹ = φⁿ(b)⟩,
+h¹ ≤ 1. With three generators and two relators h¹ = 2 − rank J for χ ≠ 1, so h¹ = 2 needs J = 0; the t-column is (1 − χ(a),
+1 − χ(b)), forcing χ trivial on the fibre, and there the block is s·I − (Mⁿ)ᵀ, never zero because Mⁿ (eigenvalues φ^(±2n)) is
+never scalar. Own code (`rank_one_bound.py`, own Fox calculus): the t-column and the block symbolically to n = 8 (words to 4 181
+letters); Mⁿ = [[F(2n+1), F(2n)], [F(2n), F(2n−1)]] to n = 40; an instrument control that fires (the hyperelliptic involution,
+abelianization −I, J = 0 and h¹ = 2 at (1, 1, −1)); h¹ at sample characters to n = 6, main's golden loci s = φ^(±2n) with h¹ = 1
+reproduced independently. Corollary: B1377's |I| ≤ 2 in one doublet sector on every level of the cusped tower. Holds for the
+cyclic covers of every once-punctured-torus bundle with hyperbolic monodromy. Not proved: |I| = 1 exactly beyond level seven;
+nothing about the closed tower (E72) or physics. Verdict PROVED; lock four tests, seconds; surfaces (B1377 note, OPEN_LEADS sL-2,
+THE_SM_VERDICT, the letter's forty-second note, the alias table). 0 of 19.

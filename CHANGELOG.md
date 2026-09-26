@@ -1,5 +1,9 @@
 # Changelog
 
+## B1381 — the rank-one bound on every level: no cyclic cover Mₙ of m004 has a rank-one character with h¹ = 2, for any n — the Fox Jacobian's t-column (1 − χ(a), 1 − χ(b)) forces a character that kills it to be trivial on the fibre, and there the block s·I − (Mⁿ)ᵀ is never zero because Mⁿ is never scalar; main's B1427 observation (n ≤ 7) becomes a theorem, and B1377's |I| ≤ 2 in one doublet sector holds on every level of the cusped tower
+
+Own Fox calculus to n = 8, the Fibonacci form to n = 40, a control that fires (the hyperelliptic involution: h¹ = 2 at (1,1,−1)), main's golden loci reproduced with h¹ = 1. |I| = 1 exactly stays empirical. Lock: `tests/test_b1381_the_rank_one_bound_on_every_level.py` (four tests). 0 of 19.
+
 ## Harvest of main @ 987c0c8f (B1414–B1431): main's B1427 verified B1374/B1375 with independent code and carried B1377's bound to level seven exactly over the whole character group (h¹ = 2 nowhere, n ≤ 7), closing sL-2 (i) through M₇; its three qualifications adopted on B1375/B1377 (complete on the torsion is not complete — two golden loci per level, h¹ = 1 there; the |I| bound is B1377's; the M₅ cusp filter is proved); E72 relayed for B1427's own Yₙ; B1428/B1431 noted against B1379 with a question, not a claim
 
 Cited, not re-derived. Surfaces: B1375, B1377, OPEN_LEADS sL-2, THE_SM_VERDICT, the alias table, the letter's forty-first note. 0 of 19.

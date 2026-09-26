@@ -2890,3 +2890,8 @@ n = 2…7: h¹ = 2 nowhere, so B1377's bound holds through M₇ on every rank-on
 (m004's golden locus lifted, missed by μ_N scans, h¹ = 1 there) included; the count of three is not this mechanism's on any level
 up to seven. Still open: (i′) levels beyond seven and a proof for all n; (ii) the deck-symmetry prediction of the firing loci;
 (iii) the physics reading. Cited, not re-derived. `frontier/B1375_the_towers_generation_count` (dated note).
+
+**sL-2, 2026-09-26, B1381 — (i′) closed for the rank-one bound.** No cyclic cover Mₙ of m004 has a rank-one character with
+h¹ = 2, for any n (the Fox Jacobian's t-column forces fibre-triviality; there the block s·I − (Mⁿ)ᵀ is never zero), so B1377's
+|I| ≤ 2 in one doublet sector holds on every level. Still open: |I| = 1 exactly beyond level seven (the firing signature),
+(ii) the deck-symmetry prediction of the firing loci, (iii) the physics reading. `frontier/B1381_the_rank_one_bound_on_every_level`.

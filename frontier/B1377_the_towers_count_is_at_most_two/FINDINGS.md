@@ -1,5 +1,10 @@
 # B1377 — THE TOWER'S COUNT IS AT MOST TWO IN ONE BACKGROUND, AND IS ONE: on every level of the tower where every rank-one character has h¹ ≤ 1 — verified here on the complete character groups of Y₂–Y₆ (57 564 characters, h¹ ∈ {0, 1} on all, 509 with h¹ = 1) — the extension sequence bounds the doublet module's a₁ by 2 and the one-cusped index by |I| ≤ 2, so three generations in one background are impossible there; and every firing doublet module on levels two, four, five and six (16, 976, 4 400, 10 816 of them) has (a₁, r₁) = (1, 0) on one side and (2, 2) on the other, which is why B1375's count is exactly one
 
+> **Extended to every level (2026-09-26, B1381).** The rank-one hypothesis of this arc's bound holds on every cyclic cover Mₙ:
+> h¹ = 2 would need the whole Fox Jacobian of ⟨a, b, t | t a t⁻¹ = φⁿ(a), t b t⁻¹ = φⁿ(b)⟩ to vanish; its t-column (1 − χ(a),
+> 1 − χ(b)) forces χ trivial on the fibre, and there the block s·I − (Mⁿ)ᵀ is never zero (Mⁿ is never scalar). So |I| ≤ 2 in one
+> doublet sector on every level, all characters, all n. `frontier/B1381_the_rank_one_bound_on_every_level`.
+
 > **Harvested from main (2026-09-26, main @ `987c0c8f`): the instrument limit below is closed on main.** Main's B1427 (2026-09-18)
 > solved h¹ ≥ 1 and h¹ = 2 exactly over the whole of Hom(H₁, ℂ*) — gcd of the Fox Jacobian's 2×2 minors and entries over ℚ(ζ_e) —
 > for n = 2…7: **h¹ = 2 occurs on no component of any level, including M₇**, and not only on finite-order characters. So this

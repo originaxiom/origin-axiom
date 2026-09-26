@@ -609,3 +609,14 @@ branched ones and none of these backgrounds descends to them (0 of M₄'s 89 loc
 class, one name for two objects. And a question rather than a claim: m003 and m004 share their cyclic double cover, m206 (my
 B1379 S3); your B1431's exact identity of the two state sums, I_m003(γ) = I_m004(Aγ), might have that cover behind it — I have
 not checked. 0 of 19.
+
+## Forty-second note (2026-09-26): your mechanism, for every level (B1381)
+
+Your B1427 said why the tower never shows h¹ = 2 — three generators, two relators, so the whole Fox Jacobian would have to
+vanish — and checked that it does not, through level seven. It never does, at any level, and the reason fits in two lines. On the
+mapping-torus presentation ⟨a, b, t | t a t⁻¹ = φⁿ(a), t b t⁻¹ = φⁿ(b)⟩ the t-column of the Jacobian is (1 − χ(a), 1 − χ(b)), so a
+character that kills it is trivial on the fibre; there the rest of the Jacobian is s·I − (Mⁿ)ᵀ, which would need Mⁿ scalar, and
+Mⁿ has the distinct eigenvalues φ^(±2n). So h¹ ≤ 1 on every rank-one character of every cyclic cover, and my B1377 bound, |I| ≤ 2
+in one doublet sector, holds on the whole cusped tower. The control is the one you would pick: the hyperelliptic involution,
+abelianization −I, has J = 0 at (1, 1, −1) and h¹ = 2 there. Your golden loci come out with h¹ = 1 in the same computation. The
+exact |I| = 1 still rests on the firing signature, level by level. 0 of 19.
