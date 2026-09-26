@@ -15279,3 +15279,26 @@ spot with no registered attack is an unfinished arc. Swept first (both records):
 as the door**, with four computable pieces (τ-odd against τ-even data under the free orientation-reversing deck; the Gieseking
 manifold's Pin± structures and what the parent carries that the child cannot see; L194 as the sharpest single test; the minimality
 tension as a question). No computation; 0 of 19.
+
+### B1382 — the spin bit is the parent's Pin type (2026-09-26)
+
+The owner's rule, recorded an hour earlier, applied: dig at the entrance's last fragile axiom, orientation, through its parent
+(OPEN_LEADS sL-3, piece (ii): what does the Gieseking manifold carry that m004 cannot see?). Swept first (E54): B1141
+(T-SPIN-PAYMENT, 2026-08-25: the beat extends over exactly one spin structure, "the last free discrete bit is assigned, not free"),
+B1145 (SP-2), and codex R021 harvested in B1175 (the Gieseking's Pin⁻ structures restrict to one spin structure; "does not yet
+identify the constant image with B1141's beat-selected sign lift — needs a tangent-frame Pin⁻ lift + the holonomy-convention
+comparison", queued, never run on either branch). Run here, exact over ℚ(ω) (`pin_types.py`, two seconds; a first sympy version
+was abandoned after ten silent minutes and rewritten on a small exact ℚ(ω) class): B1141's setup reproduced (W = [[1, −ω], [0, 1]],
+det 1, W·W̄ = +A); the two double covers G_ε of Isom(H³) (reflections through a point lift with square ε, so G_ε restricts to
+Pin^ε(3) on a point stabiliser — the tangent-frame reading); the table: B1141's lift (a ↦ +A, cusp traces (2, −2) = B921-6's ρ₁)
+extends only into Pin⁺, the other (a ↦ −A, (−2, −2) = ρ₂) only into Pin⁻, the conjugation relations holding in all four cases and
+only t² = a discriminating; the Gieseking has two Pin⁺ and two Pin⁻ structures (H₂(N; ℤ/2) = 0) and p* = 0 on H¹(−; ℤ/2). So
+T-SPIN-PAYMENT is re-graded (E1: W·W̄ = +A is the implicit choice of the Pin⁺ type): the object trades the spin bit for its
+parent's Pin type rather than assigning it; R021's "one spin structure does not extend" is B1141's own lift, not extending as
+Pin⁻; the freedom ledger's spin bit (THE_ROAD's "1 bit → 0") is 1 again, relocated. Flagged, cited, not derived: Kramers fermions
+(T² = (−1)^F) live on Pin⁺ (Witten 2016; Kapustin–Thorngren–Turzillo–Wang 2015), so B1141's lift is the Standard Model's if the
+parent's orientation reversal is the reflection that continues to time reversal — registered as sL-3's next piece. Also: the
+owner's rule entered WORKING_RULES (the binding file, beside THE ABSENCE RULE). Verdict PROVED + re-grading; lock four tests,
+seconds; surfaces (THEOREM_REGISTRY T-SPIN-PAYMENT/T-SP2-SEAT; B1141, B1145, B1175 notes; README, WORKING_RULES, THE_ROAD,
+THE_LADDER, CAMPAIGN_STATUS, THE_END_TO_END_CHAIN; THE_SM_VERDICT; ERROR_LEDGER E1 instance; RETRACTIONS; RETRACTED_PHRASES;
+OPEN_LEADS sL-3; the letter's forty-fourth note; the alias table). 0 of 19.

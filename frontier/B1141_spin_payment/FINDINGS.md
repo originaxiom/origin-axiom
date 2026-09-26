@@ -1,5 +1,11 @@
 # B1141 — THE SPIN PAYMENT: the object's own beat selects the spin structure; the last free discrete bit is assigned, not free (cloud memo 28, hostile-verified two-bench)
 
+> **Re-graded 2026-09-26 (B1382; E1).** Every computation below stands (exactly reproduced: W₀ = [[1, −ω], [0, 1]], W₀·W̄₀ = +A).
+> The reading does not: requiring W·W̄ = +(lift of t²) is the choice ĉ² = +1 for the antilinear deck — the **Pin⁺** type on the
+> Gieseking parent. In the other double cover (ĉ² = −1, **Pin⁻**) the twisted lift extends and this one does not. So the beat does
+> not assign the spin bit; it identifies it with the parent's Pin type (B1141's lift = Pin⁺, tr μ = +2; the other = Pin⁻, R021's
+> image). `frontier/B1382_the_spin_bit_is_the_parents_pin_type`.
+
 **Status: banked (frontier). Verdict PROVED (the three load-bearing claims independently
 confirmed, hostilely, by two engines). Harvest arc — the cloud seat's twenty-eighth memo
 (THE SPIN PAYMENT), re-derived on THIS bench with own code (own relator search, own exact

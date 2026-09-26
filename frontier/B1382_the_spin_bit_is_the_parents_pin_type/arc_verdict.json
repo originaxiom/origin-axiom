@@ -1,0 +1,12 @@
+{
+ "id": "B1382",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": ["B1141", "B1145", "B1175", "B1234", "B1380"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE SPIN BIT IS THE PARENT'S PIN TYPE: m004's two spin structures are exactly the pullbacks of the Gieseking manifold's Pin+ and Pin- structures, one each. Exact over Q(w): with the two double covers G_eps of Isom(H^3) (a reflection through a point lifts with square eps, so G_eps restricts to Pin^eps(3) on a point stabiliser -- the tangent-frame reading B1175 queued), the Gieseking group <pi_1(m004), t | t g t^-1 = beat(g), t^2 = a> lifts with t -> (+-W, c), W = [[1,-w],[0,1]] the unique intertwiner (W conj(W) = +A): B1141's lift (a -> +A; cusp traces (2,-2), rho_1) extends into Pin+ only, the other (a -> -A; (-2,-2), rho_2) into Pin- only -- the conjugation relations hold in all four cases and only t^2 = a discriminates (eps A = sigma A). Both types exist (H2(N;Z/2) = 0), two each. So B1141's 'the beat extends over exactly one spin structure' is true inside the Pin+ type its W conj(W) = +A silently fixes, and codex R021's 'one spin structure does not extend (as Pin-)' is B1141's own lift: T-SPIN-PAYMENT's 'assigned, not free' is re-graded (E1) -- the object identifies the spin bit with its parent's Pin type rather than assigning it; the freedom ledger's spin bit goes back from 0 to 1, relocated. Flagged reading (cited, not derived): Pin+ is the type Kramers fermions (T^2 = (-1)^F) require, so B1141's lift is the Standard Model's if the parent's orientation reversal is the Euclidean reflection continuing to time reversal. 0 of 19."
+}

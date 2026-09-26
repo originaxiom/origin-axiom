@@ -159,3 +159,9 @@ The `retraction-sweep` gate stays clean: this phrase is registered informally (t
 | "on t12839 = Y₄ of the tower …" / "one generation on the tower" / "the tower's law to level six" (where Yₙ is a cusped cyclic cover of m004) | B1374, B1375, B1377, B1378 (2026-09-16 to 2026-09-26); caught 2026-09-26 by an uploaded web seat's audit, verified on this bench | E72 (the same-symbol-two-spaces class): the cusped covers are **Mₙ** from B1379 on; the closed cyclic branched tower keeps **Yₙ** (B1301/B1303). The counts stand on Mₙ; none of the backgrounds descends to the closed tower (M₄: 0 of 89 non-split loci; the M₆ triplet: none), so no statement of those arcs is about the closed Yₙ. |
 
 The `retraction-sweep` gate stays clean: registered informally (this section), as for B1376 above.
+
+## Currency addition 2026-09-26 (B1382 — the spin payment's hidden Pin type)
+
+| "the last free discrete bit is assigned, not free" / "the object's own beat selects the spin structure" / "the spin lift, priced 1 bit → 0" | B1141, B1145, THE_ROAD (2026-08-25) | E1: true only given the Gieseking parent's Pin⁺ type; with Pin⁻ the other lift is selected — the bit is traded for the parent's Pin type, not assigned. Use: "the beat identifies the spin bit with the parent's Pin type". |
+
+The `retraction-sweep` gate stays clean: registered informally (this section), as for B1376 and B1379 above.

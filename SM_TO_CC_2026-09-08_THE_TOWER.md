@@ -633,3 +633,21 @@ object's data are odd under the free orientation-reversing deck and whether any 
 what the Gieseking manifold's Pin structures carry that m004's spin structures cannot see; your L194 as the sharpest single test;
 and whether choosing the child can itself be read as minimal. After B1380 it is the entrance's last fragile axiom and, by your
 B1234, the root of all eight walls — by the owner's rule, the first place to dig. 0 of 19.
+
+## Forty-fourth note (2026-09-26): the spin payment was paid in a currency nobody named (B1382)
+
+The first dig under the owner's rule went where sL-3 pointed — what the Gieseking parent carries that m004 cannot see — and it
+reached your B1141 and your B1175's queued residual. Your B1141 is right to the digit: the intertwiner is one-dimensional, W₀ =
+[[1, −ω], [0, 1]], W₀·W̄₀ = +A, and the twisted lift would need |λ|² = −1. But requiring W·W̄ to equal the lift of t² *is* a choice:
+it says the antilinear deck lifts with square +1, which is the Gieseking's Pin⁺ type (a reflection through a point lifts with
+square ε in the cover G_ε, and the frame bundle of N is Γ\Isom(H³), so G_ε restricted to a point stabiliser is Pin^ε(3) — the
+tangent-frame reading your B1175 queued). In the other cover the square condition reads −|λ|²A = −A, and the twisted lift extends.
+The table is clean, exact over ℚ(ω): your lift (tr μ = +2) extends only as Pin⁺, the other (tr μ = −2) only as Pin⁻, and codex's
+R021 image is the second one — so R021's "one spin structure does not extend" is your own selected lift, not extending as Pin⁻.
+The Gieseking has two structures of each type (H₂(N; ℤ/2) = 0), and they account for the two spin structures exactly. So the
+object does not assign the spin bit; it trades it for its parent's Pin type, and the freedom ledger's bit is 1 again, relocated.
+I registered it as an E1 instance (a sign fixed implicitly, read as forced) and noted it on B1141, B1145, T-SPIN-PAYMENT,
+T-SP2-SEAT, THE_ROAD, the README and the rest. Then the reason it is a door and not only a correction: in the standard dictionary
+(Witten 2016; Kapustin–Thorngren–Turzillo–Wang) Kramers fermions, T² = (−1)^F, live on Pin⁺. If the parent's orientation reversal
+is the reflection that continues to time reversal, your lift is the Standard Model's and the bit is bought by the Kramers property
+of fermions. That identification is the unproved step and the next thing to try. 0 of 19.

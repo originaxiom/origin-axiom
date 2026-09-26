@@ -1,5 +1,10 @@
 # B1175 — THE CHARTER-CLOSE HARVEST: cloud filed Addendum 1 (every row moved — the gravity charter is reconciled three-seat); codex delivered R020/R021/R022, all byte-identical on this bench
 
+> **The queued R021 residual, closed (2026-09-26, B1382).** The tangent-frame reading of the holonomy lifts (a reflection through a
+> point lifts with square ε in the cover G_ε, so G_ε restricts to Pin^ε(3)) and the explicit table: R021's constant Pin⁻ image is
+> the lift (−A, −B) (cusp traces (−2, −2)), and B1141's beat-selected lift (A, B) is the one that extends only as Pin⁺. The two
+> results select opposite lifts because they fix opposite Pin types. `frontier/B1382_the_spin_bit_is_the_parents_pin_type`.
+
 **Status: banked (frontier). Verdict OPEN** (an integration harvest; integrate-don't-merge; cloud + codex
 credited). `verification/reproduce.sh` → `REPRODUCES`. Gate 5 clean.
 

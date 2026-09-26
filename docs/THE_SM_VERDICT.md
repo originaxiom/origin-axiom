@@ -640,3 +640,12 @@ left it.
 > |I| ≤ 2 in one doublet sector holds on every level of the cusped tower: three generations in one sector of one background
 > are impossible there at any level. |I| = 1 exactly stays empirical; fences unchanged. 0 of 19
 > (`frontier/B1381_the_rank_one_bound_on_every_level`).
+
+> **Currency note (2026-09-26, B1382): the spin bit is the parent's Pin type — the spin payment re-graded.** m004's two spin
+> structures are exactly the pullbacks of the Gieseking manifold's Pin⁺ and Pin⁻ structures, one each (exact over ℚ(ω): a
+> reflection lifts with square ε in the cover G_ε = Pin^ε; B1141's lift extends only as Pin⁺, the other only as Pin⁻). B1141's
+> "the beat assigns the last free discrete bit" held only because W·W̄ = +A silently fixed the Pin⁺ type (E1); codex R021's
+> "one spin structure does not extend (as Pin⁻)" is B1141's own lift. So the object trades the spin bit for its parent's Pin
+> type rather than assigning it — the freedom ledger's spin bit is 1 again, relocated. Flagged reading: Pin⁺ is the type Kramers
+> fermions (T² = (−1)^F) need, so B1141's lift is the Standard Model's if the parent's orientation reversal is the reflection that
+> continues to time reversal — the sL-3 door, not a result. 0 of 19 (`frontier/B1382_the_spin_bit_is_the_parents_pin_type`).

@@ -1,16 +1,16 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1128 settled arcs — 73%** —
+the field is **absent on 828 of 1129 settled arcs — 73%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 562 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 563 arcs.**
 The vocabulary criterion adds **41 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
 **2.97** on the corpus's own law vocabulary against
-**1.17** for the rest — **2.53×**. The criterion
+**1.18** for the rest — **2.52×**. The criterion
 discriminates, so it is not noise. Had it not, the rebuild would have reported itself void.
 
 **Tier** tells an editor why an arc is here: **L** declared law-creating · **S** carried on a
@@ -212,7 +212,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1380` | PROVED | S | | THE PUNCTURE IS THE WORD'S: the chain's puncture (P019's A5b, B749's fork F6, one of B1003's two FRAGILE axioms) is implied by the carrier axiom as P019 states it (A5: th… |
 | `B1381` | PROVED | S | | THE RANK-ONE BOUND ON EVERY LEVEL: no cyclic cover M_n of m004 has a rank-one character with h^1 = 2, for any n. pi_1(M_n) = <a, b, t / t a t^-1 = phi^n(a), t b t^-1 = ph… |
 
-## §6 the observer — one bit, priced (152)
+## §6 the observer — one bit, priced (153)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -368,6 +368,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1374` | PROVED | S | | THE CLASS'S INDEX IN THE STANDARD-MODEL FRAME, AND ONE GENERATION ON THE OBJECT'S OWN TOWER: main's B1418 -- the one-cusped index I = n(V) - n(V*) (B1297) firing on reduc… |
 | `B1376` | PROVED | S | | THE ARITHMETIC FILLINGS (a correction of record): B288's clause 'none of the 78 closed hyperbolic fillings of m004 is arithmetic', carried into main's paper, is false and… |
 | `B1379` | PROVED | S | | THE GENESIS AND m004 LINKS, AUDITED: an external web seat's genesis architecture (the owner's uploaded checkpoints of 2026-09-25/26) checked against this chain with own c… |
+| `B1382` | PROVED | S | | THE SPIN BIT IS THE PARENT'S PIN TYPE: m004's two spin structures are exactly the pullbacks of the Gieseking manifold's Pin+ and Pin- structures, one each. Exact over Q(w… |
 
 ## §2 the object — arithmetic and geometry (54)
 

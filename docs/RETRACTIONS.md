@@ -165,3 +165,9 @@ that checkpoint as "not directly actionable", a reading the owner corrected the 
 | "C2 receives the test lock it never had" / "LOCKED 2026-09-26 (B1379)" | B1379 (FINDINGS, THEOREM_LEDGER C2, THE_SM_VERDICT, THE_CLOSING, the letter's thirty-eighth note, CHANGELOG) | CORRECTED (E54) — main's B1323 locked C2 on 2026-09-09 (the criterion census); B1379's lock is an independent re-derivation on this branch | B1379 dated note; THEOREM_LEDGER C2; the letter's fortieth note |
 | the web seat's work "demotes A7", "explains m003", "shields C2 by C1" as new | B1379 | CORRECTED (E54) — B979 (A7 based-level), B803 with THE_LADDER X13 (m003), P019 L1 with main's B1323 F9 (the plastic number) had them; new in B1379: the m010 ladder and E72 | B1379 dated note; THEOREM_LEDGER Part I |
 | B1376's relay "your seam paragraph needs one sentence changed" | B1376 §3; the letter's thirty-sixth note | SUPERSEDED — main's B1419 (2026-09-16) had corrected the paper and minted E82 | B1376 dated note; the letter's fortieth note |
+
+## 2026-09-26 — B1382: the spin payment re-graded (E1)
+
+| what was asserted | where banked | the correction | where corrected |
+|---|---|---|---|
+| "the object's own beat selects the spin structure, so the freedom ledger's last free discrete bit is assigned, not free" | B1141 (T-SPIN-PAYMENT), B1145 (T-SP2-SEAT: "the last discrete spin-lift bit is assigned"); THE_ROAD ("priced 1 bit → 0"), README, WORKING_RULES, CAMPAIGN_STATUS, THE_LADDER, THE_END_TO_END_CHAIN | RE-GRADED (E1) — the beat selects a lift only once the Gieseking parent's Pin type is fixed: B1141's lift extends only as Pin⁺ (its W·W̄ = +A is that choice), the other only as Pin⁻ (codex R021's image). The object trades the spin bit for the parent's Pin type; the bit is 1 again, relocated. B1141's computations stand. | B1382; dated notes at each surface |

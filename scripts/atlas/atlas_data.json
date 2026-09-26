@@ -7889,6 +7889,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1382": {
+   "slug": "the spin bit is the parents pin type",
+   "motifs": [
+    "choice",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B921",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B138": {
    "slug": "s031 principal lemma",
    "motifs": [

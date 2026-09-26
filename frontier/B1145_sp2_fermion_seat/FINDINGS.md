@@ -1,5 +1,8 @@
 # B1145 — SP-2: the beat closes on the fermion-capable stratum's 27 over the selected lift (exact) — the last spin-lift bit is assigned; the physical-generation reading is thesis-level, not a theorem
 
+> **Qualified 2026-09-26 (B1382).** "The selected lift" below is B1141's, which is selected given the Gieseking parent's Pin⁺
+> type; with Pin⁻ the other lift is selected. The SP-2 computation is unaffected. `frontier/B1382_the_spin_bit_is_the_parents_pin_type`.
+
 **Status: banked (frontier). Verdict PROVED (every identity EXACT over ℚ(√−3), verified THREE
 independent ways). The single live frontier cell after the phase-III digest, sealed as a prereg
 (sha256 `c384dd3e069e6963`) BEFORE the answer was known and BEFORE the cloud's memo-29 result was

@@ -770,7 +770,7 @@ theorem (memo 32), the spin selection's third derivation (memo 36), B1140's glui
 Ohtsuki germ (memo 40). C3 large-ladder → NOT-RECOGNIZED at N≤4000 (honest negative); C4 still
 grinding. Locks test_b1146_seam_b.py + test_b1147_clane_harvest.py.
 
-**LATEST (2026-08-25, B1145)**: SP-2 — **the beat closes EXACTLY on the fermion-capable
+*(Qualified 2026-09-26, B1382: "the beat-selected lift" is selected given the parent's Pin⁺ type.)* **LATEST (2026-08-25, B1145)**: SP-2 — **the beat closes EXACTLY on the fermion-capable
 odd A1/su(6) stratum's 27 over the beat-selected lift; the last discrete spin-lift bit is
 assigned.** (Minuscule → 6 fundamental-2 doublets + 15 singlets inherit B1141's lift; every
 identity exact over ℚ(√−3), verified three independent ways — this bench blind + the cloud's
@@ -810,7 +810,8 @@ discriminates nothing. The **graviton bridge stays dead** (cc3 B8129/B8130): the
 graviton is two faces, the finale independent. Routed to the kill-graph. Lock
 test_b1142_lane_c_cusp_spectrum.py.
 
-**LATEST (2026-08-25, B1141)**: THE SPIN PAYMENT — the object's own beat
+*(Re-graded 2026-09-26, B1382: the assignment below holds only given the Gieseking parent's Pin⁺ type; with Pin⁻ the other lift
+extends — the bit is traded for the Pin type, not assigned.)* **LATEST (2026-08-25, B1141)**: THE SPIN PAYMENT — the object's own beat
 selects the spin structure, so the freedom ledger's **last free discrete bit is
 assigned, not free.** Cloud memo 28, HOSTILE-verified two-bench (own relator search,
 own exact intertwiner rank, three engines — SnapPy + exact-symbolic + 50-digit).

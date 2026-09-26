@@ -2925,3 +2925,12 @@ pullback's blindness — the first crack in a wall at its root — or a proof th
 turn "the walls are A6's" (B1234) into "the walls are exactly the price of orientation" and make C5 the programme's one
 irreducible physical input. **Tools:** SnapPy (m000, m004, `orientation_cover`, isometries), B605/B1234/B921 instruments, B1380's
 F₂ machinery for σ against σ². ★★★ (the owner's rule places it first).
+
+**sL-3, 2026-09-26, B1382 — piece (ii) answered: the parent's Pin type is the child's spin structure.** The Gieseking manifold
+carries two Pin⁺ and two Pin⁻ structures; the Pin⁺ ones pull back to B1141's lift ρ₁ (tr μ = +2), the Pin⁻ ones to ρ₂
+(tr μ = −2) — exact, with the tangent-frame identification of the holonomy covers. So the datum the parent carries that the
+child cannot see is the **Pin type**, and it is exactly the child's spin structure; T-SPIN-PAYMENT's "assigned" is re-graded
+(the bit is traded, not assigned). **The door this opens (the next piece):** the standard dictionary puts Kramers fermions
+(T² = (−1)^F) on Pin⁺ — decide whether the parent's orientation reversal can be identified, on the object's own terms, with the
+reflection that continues to time reversal; if it can, the spin bit is bought by the Kramers property of fermions, and B1141's
+lift is the Standard Model's. Pieces (i), (iii), (iv) unchanged. `frontier/B1382_the_spin_bit_is_the_parents_pin_type`.

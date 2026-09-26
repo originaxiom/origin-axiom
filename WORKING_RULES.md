@@ -5,8 +5,8 @@
 > B1140's spacetime-branch 64 *by structure*); no SM dimensionless value is emitted, and Gate 5 +
 > the ten value-negatives stand guard. The SM's **discrete kinematic skeleton is complete** up to
 > torsor basepoints, one exhibit (the family count *three* — EXHIBITS-NOT-FORCES, the object does
-> not force E₈; B1033/B1138), and the spin bit — now **assigned by the object's own beat** (B1141
-> THE SPIN PAYMENT, hostile-verified two-bench). The **fork** (B1138) splits the observer's closing
+> not force E₈; B1033/B1138), and the spin bit — **traded by the object's own beat for its parent's Pin type** (B1141 THE SPIN PAYMENT,
+> hostile-verified two-bench; re-graded 2026-09-26, B1382: "assigned" held only given the Pin⁺ type). The **fork** (B1138) splits the observer's closing
 > into two mutually-exclusive real branches — E₆(−14) the charges, E₆(−26) the geometry + a graviton
 > slot (B1140 THE 64 ORGANIZED). Lane C (B1142) placed the object's cusp spectrum (ζ_K = ζ·L(χ₋₃),
 > GUE-generic). Structure is the object's, values the observer's; SP-2 (the fermion-capability of the
@@ -286,3 +286,21 @@ run. PRACTICES' "no match is not a finding until a second source agrees" (B1001)
 requires a complete *sweep*. `already_banked.py` (B1202) is the sweep for "is this already banked?"; this is the
 sweep for "is this anywhere at all?".
 
+
+## Rule (2026-09-26, the owner's instruction — adopted): THE WEAKEST SPOT IS THE CORNERSTONE
+
+The owner, verbatim: **"remwmber this, our weakest spots are the cornerstone of next big breakthroughs, thats our program si ce
+day 0"** — the same stance as 2026-09-01 (B1234's occasion): *"maybe at some point we followed a wrong sub-branch on our math,
+that built the walls around us".*
+
+**A fragile link, a declared axiom, a wall, an unexplained coincidence is the first place to dig, not only a price to record.**
+The arc that finds or prices a weak spot also names the attack on it and registers it as a lead, ranked above work on strong
+links; a weak spot with no registered attack is an unfinished arc (docs/PRACTICES.md, first judgement practice).
+
+**Its first two applications, the same evening.** B1380 took the puncture (one of B1003's two fragile axioms) and found it was
+never a separate choice. B1382 took the last one, orientation, through its parent the Gieseking manifold (OPEN_LEADS sL-3) — and
+found that a banked "assignment" (T-SPIN-PAYMENT: the object's beat selects the spin structure) had silently fixed the parent's
+Pin type: the object does not assign the spin bit, it trades it for the Pin type (Pin⁺ ↔ T² = (−1)^F in the standard dictionary,
+flagged). **How it composes with the standing rules:** digging at a weak spot is still subject to the absence rule (sweep both
+records first — E54 was broken four times the day this rule was given), the identification rule, and 0 of 19 staying 0 unless
+earned.

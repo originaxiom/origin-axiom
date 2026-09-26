@@ -506,7 +506,8 @@ regulators (above) alike. Families: three is **exhibited** in E₈, not **forced
 object does not force E₈ (B1033/B1138); Part V's Galois-branches theorem explains the three
 *given* E₈, not that it must be three. The spin bit (the cloud seat's twenty-eighth memo,
 THE SPIN PAYMENT — the beat selects the spin structure): **ONE-BENCH**, pending hostile
-verification — pending, not banked. Gate 5 — no scale, no time, no dynamics — untouched
+verification — pending, not banked. *(Since: PROVED as computation (B1141), and re-graded 2026-09-26 (B1382) — the beat
+selects a spin structure only once the Gieseking parent's Pin type is fixed; the bit is traded, not assigned.)* Gate 5 — no scale, no time, no dynamics — untouched
 throughout, and now the chain's honest edge: everything discrete and kinematic this method
 can be made to say, it has said; what remains is a **specialist handoff**
 (unification-scale dynamics, phenomenology) the program was never built to price.

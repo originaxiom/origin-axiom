@@ -1,5 +1,9 @@
 # Changelog
 
+## B1382 — the spin bit is the parent's Pin type: m004's two spin structures are exactly the pullbacks of the Gieseking manifold's Pin⁺ and Pin⁻ structures, one each (exact over ℚ(ω): in the double cover G_ε of Isom(H³) a reflection lifts with square ε, so G_ε is Pin^ε on a point stabiliser; B1141's lift (tr μ = +2) extends only as Pin⁺, the other (tr μ = −2) only as Pin⁻); T-SPIN-PAYMENT's "the last free discrete bit is assigned, not free" re-graded (E1 — W·W̄ = +A silently fixed the Pin⁺ type): the object trades the spin bit for its parent's Pin type; codex R021's image is the other lift, and B1175's queued residual is closed; flagged reading: Pin⁺ is where Kramers fermions (T² = (−1)^F) live
+
+Own exact ℚ(ω) arithmetic, two seconds; the owner's rule also entered WORKING_RULES. Surfaces re-graded at every live instance (README, WORKING_RULES, THE_ROAD, THE_LADDER, CAMPAIGN_STATUS, THE_END_TO_END_CHAIN, the registry rows, B1141/B1145/B1175). Lock: `tests/test_b1382_the_spin_bit_is_the_parents_pin_type.py`. 0 of 19.
+
 ## The owner's rule recorded — "our weakest spots are the cornerstone of next big breakthroughs, thats our program since day 0" — as the first judgement practice in docs/PRACTICES.md, with its operational form (an arc that finds or prices a weak spot names the attack and registers it as a lead, ranked above work on strong links); applied at once: B1234's open question becomes OPEN_LEADS sL-3, the weakest link as the door (orientation, A6/C5: what it buys, what it costs)
 
 Swept first: practised since P019/B1234/B1380, written nowhere as a rule. No computation. 0 of 19.

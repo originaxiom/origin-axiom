@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1229** |
-| words of findings prose | **930,118** |
-| test lock files referenced | **743** |
-| arcs carrying an authored verdict | **1229** (100.0 %) |
+| research arcs with findings | **1230** |
+| words of findings prose | **931,935** |
+| test lock files referenced | **744** |
+| arcs carrying an authored verdict | **1230** (100.0 %) |
 | recorded closures | **792** (617 classified, 175 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 810 |
+| PROVED | 811 |
 | NEGATIVE | 320 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1381`** (1002 words, 1 locks)  
-THE RANK-ONE BOUND ON EVERY LEVEL: no cyclic cover M_n of m004 has a rank-one character with h^1 = 2, for any n. pi_1(M_n) = <a, b, t | t a t^-1 = phi^n(a), t b t^-1 = phi^n(b)> has 3 generators and 2 relators, so for chi != 1, h^1 = 2 - rank J and h^1 = 2 iff the Fox Jacobian J vanishes; its t-column is (1 - chi(a), 1 - chi(b)), forcing chi trivial on the fibre, and there the remaining block is s*I - (M^n)^T with M = [[2,1],[1,1]], never zero because M^n (distinct eigenvalues phi^(+-2n); off-diagonal F(2n) != 0) is never scalar. Checked symbolically to n = 8 with own Fox calculus, the Fibonacci form to n = 40, an instrument control that fires (the hyperelliptic involution, abelianization -I: h^1 = 2 at the non-trivial character (1,1,-1)), and main's golden loci s = phi^(+-2n) reproduced with h^1 = 1. So main's B1427 observation (h^1 = 2 nowhere, n <= 7) is a theorem for all n, and B1377's bound |I| <= 2 in one doublet sector holds on every level of the cusped tower; |I| = 1 exactly stays empirical; the closed tower and physics untouched. 0 of 19.  
-`B1381_the_rank_one_bound_on_every_level/FINDINGS.md`
+**PROVED — `B1382`** (1602 words, 1 locks)  
+THE SPIN BIT IS THE PARENT'S PIN TYPE: m004's two spin structures are exactly the pullbacks of the Gieseking manifold's Pin+ and Pin- structures, one each. Exact over Q(w): with the two double covers G_eps of Isom(H^3) (a reflection through a point lifts with square eps, so G_eps restricts to Pin^eps(3) on a point stabiliser -- the tangent-frame reading B1175 queued), the Gieseking group <pi_1(m004), t | t g t^-1 = beat(g), t^2 = a> lifts with t -> (+-W, c), W = [[1,-w],[0,1]] the unique intertwiner (W conj(W) = +A): B1141's lift (a -> +A; cusp traces (2,-2), rho_1) extends into Pin+ only, the other (a -> -A; (-2,-2), rho_2) into Pin- only -- the conjugation relations hold in all four cases and only t^2 = a discriminates (eps A = sigma A). Both types exist (H2(N;Z/2) = 0), two each. So B1141's 'the beat extends over exactly one spin structure' is true inside the Pin+ type its W conj(W) = +A silently fixes, and codex R021's 'one spin structure does not extend (as Pin-)' is B1141's own lift: T-SPIN-PAYMENT's 'assigned, not free' is re-graded (E1) -- the object identifies the spin bit with its parent's Pin type rather than assigning it; the freedom ledger's spin bit goes back from 0 to 1, relocated. Flagged reading (cited, not derived): Pin+ is the type Kramers fermions (T^2 = (-1)^F) require, so B1141's lift is the Standard Model's if the parent's orientation reversal is the Euclidean reflection continuing to time reversal. 0 of 19.  
+`B1382_the_spin_bit_is_the_parents_pin_type/FINDINGS.md`
 
 **NEGATIVE — `B1373`** (1247 words, 1 locks)  
 THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free cusp are fourth roots of unity with non-unitary holonomy. Along the cone-manifold deformation path of the hyperbolic structure -- fillings (2p, 0) or (0, 2p) on the free cusp with p from 30 down to 1, the other cusps complete -- the point where one curve has eigenvalue +-i is reached on 132 of the 166 (cusp, curve) pairs of the 35 candidates, and at every one the other curve's eigenvalue is non-unitary (|L| between 0.25 and 9): Theorem B forbids simultaneous cusp-fixedness of the two halves there. On the other 34 pairs (all meridians) the structure degenerates before the point on a deterministic fine path, the other curve's translation length increasing monotonically to 10-27 at the last non-degenerate step: the wall within a sixteenth of cone angle pi on 23 and of cone angle 2 pi / 3 on 11 -- ideal points of the real path, no representation there. No candidate anywhere on the geometric path. Not covered: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (the Ptolemy database does not reach them). 0 of 19.  

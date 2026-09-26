@@ -112,7 +112,8 @@ B1101"** rather than asserted as timeless facts, per the owner's standing episte
 > side — a density check killed the bridge (108 zeros against ≈75,000 at t=130). **Fences
 > unmoved:** the family count three stays E₈'s exhibit, not a forced count (B1033/B1138);
 > hypercharge's direction stays forced, its normalisation a convention (X11, unchanged).
-> **One further claim, named but not graded here:** memo 28, THE SPIN PAYMENT (the Breath
+> **One further claim, named but not graded here** *(graded since: PROVED as computation by B1141, and re-graded 2026-09-26 by
+> B1382 — the beat identifies the spin bit with the parent's Pin type rather than assigning it)*: memo 28, THE SPIN PAYMENT (the Breath
 > tick selects the spin structure) is ONE-BENCH only, pending hostile verification —
 > PENDING, not a rung movement until it is.
 

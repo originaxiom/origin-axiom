@@ -1,0 +1,10 @@
+S1  relator census R(+-A, +-B): {(1, 1): '+I', (1, -1): '-I', (-1, 1): '-I', (-1, -1): '+I'} | the beat respects the relator; beat^2 = conjugation by a; word-length parity preserved
+S2  intertwiner space exactly 1-dimensional over Q(w): W = ((1, (0-1*w)), (0, 1)) | det W = 1 | W conj(W) = 1 * A, mu^2 = |det W|^2 -> W0 conj(W0) = +1 A (B1141: +A)
+S3  G_eps associative, -I central; reflections through j: {1: ('Pin+', 'reflection lifts square to +1'), -1: ('Pin-', 'reflection lifts square to -1')}
+S4  spin lift untwisted, B1141's (a -> +A) into G_+ (Pin+): EXTENDS   [t a t^-1 = a, t b t^-1 = beat(b), relator, t^2 = a: (True, True, True, True)]
+S4  spin lift untwisted, B1141's (a -> +A) into G_- (Pin-): does not extend   [t a t^-1 = a, t b t^-1 = beat(b), relator, t^2 = a: (True, True, True, False)]
+S4  spin lift twisted, the other (a -> -A) into G_+ (Pin+): does not extend   [t a t^-1 = a, t b t^-1 = beat(b), relator, t^2 = a: (True, True, True, False)]
+S4  spin lift twisted, the other (a -> -A) into G_- (Pin-): EXTENDS   [t a t^-1 = a, t b t^-1 = beat(b), relator, t^2 = a: (True, True, True, True)]
+S5  H1(Gieseking) = Z, H1(m004) = Z; dim H2(N;Z/2) = 0 => w2 = w1^2 = 0: two Pin+ and two Pin- structures; p* = 0 on H^1(-;Z/2) (a = b = 2t, R021)
+S6  meridian a, longitude bABaaBAb; (tr mu, tr lambda): untwisted (2, -2), twisted (-2, -2) (B921-6's rho_1, rho_2)
+DONE
