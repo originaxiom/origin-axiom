@@ -1,5 +1,9 @@
 # Changelog
 
+## The owner's rule recorded — "our weakest spots are the cornerstone of next big breakthroughs, thats our program since day 0" — as the first judgement practice in docs/PRACTICES.md, with its operational form (an arc that finds or prices a weak spot names the attack and registers it as a lead, ranked above work on strong links); applied at once: B1234's open question becomes OPEN_LEADS sL-3, the weakest link as the door (orientation, A6/C5: what it buys, what it costs)
+
+Swept first: practised since P019/B1234/B1380, written nowhere as a rule. No computation. 0 of 19.
+
 ## B1381 — the rank-one bound on every level: no cyclic cover Mₙ of m004 has a rank-one character with h¹ = 2, for any n — the Fox Jacobian's t-column (1 − χ(a), 1 − χ(b)) forces a character that kills it to be trivial on the fibre, and there the block s·I − (Mⁿ)ᵀ is never zero because Mⁿ is never scalar; main's B1427 observation (n ≤ 7) becomes a theorem, and B1377's |I| ≤ 2 in one doublet sector holds on every level of the cusped tower
 
 Own Fox calculus to n = 8, the Fibonacci form to n = 40, a control that fires (the hyperelliptic involution: h¹ = 2 at (1,1,−1)), main's golden loci reproduced with h¹ = 1. |I| = 1 exactly stays empirical. Lock: `tests/test_b1381_the_rank_one_bound_on_every_level.py` (four tests). 0 of 19.

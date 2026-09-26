@@ -15266,3 +15266,16 @@ reproduced independently. Corollary: B1377's |I| ≤ 2 in one doublet sector on 
 cyclic covers of every once-punctured-torus bundle with hyperbolic monodromy. Not proved: |I| = 1 exactly beyond level seven;
 nothing about the closed tower (E72) or physics. Verdict PROVED; lock four tests, seconds; surfaces (B1377 note, OPEN_LEADS sL-2,
 THE_SM_VERDICT, the letter's forty-second note, the alias table). 0 of 19.
+
+### The owner's rule recorded: the weakest spot is the cornerstone of the next breakthrough (2026-09-26)
+
+The owner, after B1381: *"remember this, our weakest spots are the cornerstone of next big breakthroughs, thats our program
+since day 0."* A seat's container is ephemeral, so "remember" means the record: the rule is now the first judgement practice in
+docs/PRACTICES.md (verbatim, dated, with the same stance from B1234's occasion on 2026-09-01), with its operational form — the arc
+that finds or prices a weak spot also names the attack on it and registers it as a lead ranked above work on strong links; a weak
+spot with no registered attack is an unfinished arc. Swept first (both records): the principle was the programme's practice
+(P019's "a FRAGILE fork prices the chain", B1234, B1380) but was written nowhere as a rule. Applied at once: B1234's open question
+("does dropping A6 break the tools or open a door?") had never been registered as its own lead; it is now **sL-3 — the weakest link
+as the door**, with four computable pieces (τ-odd against τ-even data under the free orientation-reversing deck; the Gieseking
+manifold's Pin± structures and what the parent carries that the child cannot see; L194 as the sharpest single test; the minimality
+tension as a question). No computation; 0 of 19.

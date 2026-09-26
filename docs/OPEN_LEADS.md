@@ -2895,3 +2895,33 @@ up to seven. Still open: (i′) levels beyond seven and a proof for all n; (ii) 
 h¹ = 2, for any n (the Fox Jacobian's t-column forces fibre-triviality; there the block s·I − (Mⁿ)ᵀ is never zero), so B1377's
 |I| ≤ 2 in one doublet sector holds on every level. Still open: |I| = 1 exactly beyond level seven (the firing signature),
 (ii) the deck-symmetry prediction of the firing loci, (iii) the physics reading. `frontier/B1381_the_rank_one_bound_on_every_level`.
+
+## sL-3 — THE WEAKEST LINK AS THE DOOR: WHAT DOES ORIENTATION (A6/C5) BUY, AND WHAT DOES IT COST? (registered 2026-09-26, the owner's rule; B1234, B1380)
+
+**Why this is a lead, not a wall.** The owner, 2026-09-26: *"our weakest spots are the cornerstone of next big breakthroughs,
+thats our program since day 0"* (docs/PRACTICES.md, first judgement practice). After B1380 the words route's entrance has exactly
+one fragile axiom left, orientation — and B1234 showed it is the axiom all eight banked walls pass through (the orientable choice
+is an orientation double cover, hence amphichiral: 40 of 40 in the census against a 3 % base rate), while B1380's addendum showed
+it overrides the chain's own minimality (σ is the shorter substitution, the Gieseking manifold the least-volume cusped hyperbolic
+3-manifold, Adams 1987). The weakest link and the central obstruction are one place. B1234 left the sharp question open: *does
+dropping A6 break the tools or open a door?* — Chern–Simons, the complex volume and SL(2, ℂ) representation theory all use
+orientation, and on the Gieseking manifold chirality is undefined.
+
+**The attack, in computable pieces.** (i) **The deck, not the drop.** m004 → Gieseking is the quotient by a free
+orientation-reversing involution τ (B605: the involutions are free). Every wall is a statement that τ-odd data is not supplied by
+the object. Decide, invariant by invariant, which of the object's banked data are τ-odd and which τ-even, and whether *any* τ-odd
+datum is computable from the object with an orientation fixed only up to τ — the precise form of "the observer's bit" (C18).
+(ii) **What the parent carries that the child does not see.** The Gieseking manifold has Pin structures where m004 has spin
+structures; compute its Pin± structures, their count and how they pull back to m004's two spin structures (B921-6: the two are
+distinguished by cusp data), and any discrete invariant of the parent (η-type, ℤ/2- or ℤ/4-valued) that is invisible after
+pulling back — a candidate datum the walls do not forbid because it never lived on the child. (iii) **L194** (does a free
+orientation-reversing deck force CS ≡ 0 mod ½?) is the sharpest single test inside (i); its bite control is already named there.
+(iv) **The minimality tension** as a question, not a verdict: is there a formulation of C1–C2's minimality under which choosing
+the child is itself minimal (e.g. minimal among carriers that admit a complex structure on their character variety), or is
+orientation a genuine second commitment after C3?
+
+**What would close it.** Either a datum of the parent (or of τ) that is computable, not supplied by the reader, and survives the
+pullback's blindness — the first crack in a wall at its root — or a proof that every τ-odd datum is reader-supplied, which would
+turn "the walls are A6's" (B1234) into "the walls are exactly the price of orientation" and make C5 the programme's one
+irreducible physical input. **Tools:** SnapPy (m000, m004, `orientation_cover`, isometries), B605/B1234/B921 instruments, B1380's
+F₂ machinery for σ against σ². ★★★ (the owner's rule places it first).

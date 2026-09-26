@@ -620,3 +620,16 @@ Mⁿ has the distinct eigenvalues φ^(±2n). So h¹ ≤ 1 on every rank-one char
 in one doublet sector, holds on the whole cusped tower. The control is the one you would pick: the hyperelliptic involution,
 abelianization −I, has J = 0 at (1, 1, −1) and h¹ = 2 there. Your golden loci come out with h¹ = 1 in the same computation. The
 exact |I| = 1 still rests on the firing signature, level by level. 0 of 19.
+
+## Forty-third note (2026-09-26): the owner's rule, written down
+
+The owner said it to me tonight and asked that it be remembered: *"our weakest spots are the cornerstone of next big
+breakthroughs, thats our program since day 0."* It was the practice — P019's fragile forks priced rather than hidden, your B1234
+tracing every wall to A6 — but it was written nowhere as a rule, so it is now the first judgement practice in PRACTICES.md, with
+an operational form you may want on main as well: whoever finds or prices a weak spot also names the attack and registers it as a
+lead, ranked above work on strong links. I applied it at once to the question your B1234 left open — does dropping A6 break the
+tools or open a door? — which had never become a lead of its own. It is sL-3 on my side, in four computable pieces: which of the
+object's data are odd under the free orientation-reversing deck and whether any odd datum is computable rather than supplied;
+what the Gieseking manifold's Pin structures carry that m004's spin structures cannot see; your L194 as the sharpest single test;
+and whether choosing the child can itself be read as minimal. After B1380 it is the entrance's last fragile axiom and, by your
+B1234, the root of all eight walls — by the owner's rule, the first place to dig. 0 of 19.

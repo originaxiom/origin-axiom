@@ -150,6 +150,22 @@ These are real and they are the most valuable, but **no gate can check them**. P
 is worse than admitting it, because a gate that cannot fail is exactly the defect `test-vacuity`
 exists to catch.
 
+- **The weakest spot is the cornerstone of the next breakthrough — the programme's rule since day 0
+  (the owner, 2026-09-26, verbatim: *"our weakest spots are the cornerstone of next big breakthroughs,
+  thats our program since day 0"*; the same stance as 2026-09-01, B1234: *"maybe at some point we
+  followed a wrong sub-branch on our math, that built the walls around us"*).** A fragile link, a
+  declared axiom, a wall, an unexplained coincidence is not only a price to record — it is the first
+  place to dig. **Pricing a weak spot is where the work starts, not where it ends.** Operationally:
+  the arc that finds or prices a weak spot also names the attack on it (what would turn it into a
+  theorem, or what breaks through it) and registers that attack as a lead, ranked above work on
+  strong links; a weak spot with no registered attack is an unfinished arc. The record's own
+  instances: B1003 priced the entrance at two fragile axioms (orientation, the puncture); B1380 then
+  attacked the puncture and found it was never a separate choice — the carrier's group F₂ forces it;
+  B1234 traced all eight walls to the other one, orientation (A6/C5), and B1380's addendum found that
+  this last fragile axiom also overrides the chain's own minimality — so the chain's weakest entrance
+  link and the programme's central obstruction are one place (OPEN_LEADS sL-3). And the record's
+  standing counter-discipline still applies to every attack: sweep before claiming (E54), verify in
+  both directions, 0 of 19 stays 0 unless earned.
 - **Compute the discriminating fact.** A negative is only as sound as the in-sandbox computation of
   the fact that discriminates it — never asserted, cited, or proxied.
 - **Verify in both directions.** A refutation gets the same scrutiny as a claim. (Error class E33
