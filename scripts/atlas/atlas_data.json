@@ -258,7 +258,7 @@
    ],
    "obstacle": "observable",
    "obstacle_conf": 2,
-   "status": "banked",
+   "status": "open",
    "domain": "arithmetic"
   },
   "B1004": {
@@ -7829,6 +7829,36 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1380": {
+   "slug": "the puncture is the words",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "torsion",
+    "symplectic",
+    "lorentzian"
+   ],
+   "refs": [
+    "B749",
+    "P019",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 5,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B138": {
    "slug": "s031 principal lemma",

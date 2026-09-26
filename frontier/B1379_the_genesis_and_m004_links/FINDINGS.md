@@ -74,7 +74,9 @@ be computed is computed below.
    priced". Checked: the uniqueness theorem's torsion test cannot see the puncture (S6: the punctured and the closed torus bundle
    of LR have the same H₁), so that route inherits the puncture fork rather than discharging it; orientation remains A3/C5, its
    discarded sibling still the Gieseking manifold (B14: F² = LR). **The chain's entrance price stays exactly B1003's: two fragile
-   axioms.**
+   axioms.** *(Update, the same day, B1380: on the words route the puncture turns out to be implied by C4's own carrier group —
+   F₂ admits no closed surface, and only the once-punctured torus realizes σ — so that route's fragile price is one axiom,
+   orientation; the verdict above stands for the source's work and for the uniqueness theorem's route.)*
 6. **"No unforced collapse" — a theorem, not a new axiom.** A selector natural under the data's automorphisms lies in the
    fixed-point set, so a free orbit cannot be collapsed (the paper's own §"What is permanent" sentence, applied at genesis); and
    supplied moves plus composition force a unique smallest reachable family (S9 is its census). This adds no axiom to the chain;

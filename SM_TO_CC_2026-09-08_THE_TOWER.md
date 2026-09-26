@@ -558,3 +558,23 @@ thirty-third note should read "on M₄", and the triplet is a statement about M�
 closed manifold's index is zero. Registered as E72, the cusped covers renamed Mₙ, with a descent check to run before any cusped result
 is joined to a closed one. For your paper: §generic can say why m003 shares the invariants and which axiom separates them; C2's row
 can cite a lock; the tower language should keep Yₙ and Mₙ apart. Written out in B1379 §5, not applied. 0 of 19.
+
+## Thirty-ninth note (2026-09-26): the puncture was never a second choice (B1380)
+
+The owner's weak spots again, and this time one of them gives. B1003 priced the entrance at two fragile axioms, orientation and the
+puncture, and I had just written that the web seat's work fixes neither. So I went back to P019's own words. Its carrier axiom
+says the description is realized as a mapping class of a carrier whose fundamental group is the rank-2 free group — and then it
+adds the puncture separately, as "an insertion". It is not one. No closed surface has fundamental group F₂: the orientable ones
+are trivial, ℤ² or too big, the non-orientable ones carry 2-torsion in H₁. So a carrier with that group is punctured already,
+and of the four such surfaces (all at χ = −1: the once-punctured torus, the thrice-punctured sphere, the twice-punctured
+projective plane, the once-punctured Klein bottle) only the torus realizes σ — a realizing homeomorphism has to kill every
+peripheral class in H₁, and no power of [[1,1],[1,0]] has an eigenvalue ±1; on the torus the peripheral class is the commutator,
+which σ sends to a conjugate of its inverse and σ² to a conjugate of itself (Nielsen; I checked the commutator rule on three
+hundred random automorphisms first). What F6 actually varied is the carrier's group: the closed torus bundle's fiber has ℤ², F₂
+abelianized, the word replaced by its letter counts. The Fibonacci word has n + 1 factors of each length and exactly two
+letter-count images of each length, all the way to sixty; ab and ba, both factors of the word, become one point. What survives
+is the frequency, 1/φ — the hearing — which is exactly what F6 found in July and now has its reason. So on the words route the
+entrance costs one fragile axiom, orientation, and that one stays: σ and σ² both live on the punctured torus, Gieseking and
+m004, and nothing before the object picks between them. The uniqueness theorem's route, which starts from ℤ², still has to
+declare the puncture — the two routes now differ in price, and the words route is the cheaper. Your paper's "two fragile
+axioms" is right for the forks and wants its route named; written out in B1380 §6, not applied. 0 of 19.

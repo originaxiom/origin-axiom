@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1227** |
-| words of findings prose | **925,945** |
-| test lock files referenced | **741** |
-| arcs carrying an authored verdict | **1227** (100.0 %) |
+| research arcs with findings | **1228** |
+| words of findings prose | **928,023** |
+| test lock files referenced | **742** |
+| arcs carrying an authored verdict | **1228** (100.0 %) |
 | recorded closures | **784** (617 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 808 |
+| PROVED | 809 |
 | NEGATIVE | 320 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1379`** (2248 words, 1 locks)  
-THE GENESIS AND m004 LINKS, AUDITED: an external web seat's genesis architecture (the owner's uploaded checkpoints of 2026-09-25/26) checked against this chain with own code. Verified: the founding ratio g = -RL^-1 has order 3 and generates the exact ladder B_n = L^n g = [[-(n+1),1],[-1,0]] with L^-1 B_n L = -A_n (A_n = L^(n-1) R), torsion 1-n and n+3, symbolic in n; SnapPy names the members (+LR = m004, -LR = m003, +L^2R = m009, -L^2R = m010, +L^3R = m023, -L^3R = m022, equal volumes in each +- pair); the ratio side reaches an order-three torsion character first, at m010 (n = 3); on m010 exactly one of eight cubic characters is peripheral-trivial (delta = (omega, 1)), h^1(pi; delta) = 1 (the nonsplit extension is unique), the two peripheral-trivial square roots give the same chi Sym^3 rho, Sym^0-Sym^2 are silent under all six twists, Sym^3 is the first power that fires (chi Sym^3 rho_chi = +1 for both lifts, main's witness), Sym^4 fires too, every semisimplification is silent -- over three primes; so m010 is generated from m004's own shears, not chosen. A7 is demoted from existence to based data: LR and RL are conjugate and b++LR = b++RL = m004, so A1-A6 force the unbased object (B979's based content unchanged). m003 is m004's sign partner: both have their cyclic double cover isometric to m206, and the torsion-free axiom (1 against 5) separates them. NOT fixed: the two fragile forks -- the puncture is invisible even to the uniqueness theorem's torsion axiom (H1(m004) = H1(m004(0,1)) = Z), orientation stays declared. C2 (golden, one criterion) is shielded by C1 (the plastic number, the least Perron root over 3x3 against phi over 2x2, needs three letters; minimal complexity forces two) and receives the test lock it never had. CORRECTION OF RECORD (E72): Y_n named both the closed branched tower (B1301 onward) and the cusped covers (B1374-B1378), now M_n; none of M4's 89 non-split loci and none of B1378's M6 triplet members descends to the closed tower (the extension is nontrivial on the filled meridian), so B1374's 't12839 = Y4 of the tower' is wrong as worded and B1378 is a statement about M6 only. The source's physics-side negatives are recorded, not re-derived. 0 of 19.  
-`B1379_the_genesis_and_m004_links/FINDINGS.md`
+**PROVED — `B1380`** (1927 words, 1 locks)  
+THE PUNCTURE IS THE WORD'S: the chain's puncture (P019's A5b, B749's fork F6, one of B1003's two FRAGILE axioms) is implied by the carrier axiom as P019 states it (A5: the description realized as a mapping class of a carrier whose fundamental group is the rank-2 free group). Theorem, own code: no closed surface has fundamental group F2 (orientable: trivial, Z^2 or H1 rank >= 4; non-orientable: 2-torsion in H1); the surfaces with pi1 = F2 are exactly S(1,1), S(0,3), N(1,2), N(2,1) (chi = -1); a homeomorphism realizing the golden substitution sigma (a -> ab, b -> a) or sigma^2 must kill every peripheral class in H1, since no power of [[1,1],[1,0]] has an eigenvalue +-1, which excludes all but the once-punctured torus, where sigma sends [a,b] to a conjugate of [a,b]^-1 and sigma^2 to a conjugate of [a,b] (Nielsen; 300 seeded automorphisms as instrument control) and both are realized (Dehn-Nielsen-Baer). So F6's sibling, the closed torus bundle m004(0,1) (Sol), does not drop the puncture: it abelianizes the carrier's group, replacing the word by its letter counts -- the Fibonacci word's n+1 factors of each length fall to 2 images (n <= 60), ab = ba, only the frequency 1/phi (the hearing) survives, which is B749's own F6 verdict with its reason. Orientation is untouched (sigma and sigma^2 both realized; b-+L = m000 Gieseking, b++LR = m004) and is now the chain's one independent fragile axiom on the words route; the matrix route (the uniqueness theorem's Z^2 substrate) still pays the puncture as an axiom. 0 of 19.  
+`B1380_the_puncture_is_the_words/FINDINGS.md`
 
 **NEGATIVE — `B1373`** (1247 words, 1 locks)  
 THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free cusp are fourth roots of unity with non-unitary holonomy. Along the cone-manifold deformation path of the hyperbolic structure -- fillings (2p, 0) or (0, 2p) on the free cusp with p from 30 down to 1, the other cusps complete -- the point where one curve has eigenvalue +-i is reached on 132 of the 166 (cusp, curve) pairs of the 35 candidates, and at every one the other curve's eigenvalue is non-unitary (|L| between 0.25 and 9): Theorem B forbids simultaneous cusp-fixedness of the two halves there. On the other 34 pairs (all meridians) the structure degenerates before the point on a deterministic fine path, the other curve's translation length increasing monotonically to 10-27 at the last non-degenerate step: the wall within a sixteenth of cone angle pi on 23 and of cone angle 2 pi / 3 on 11 -- ideal points of the real path, no representation there. No candidate anywhere on the geometric path. Not covered: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (the Ptolemy database does not reach them). 0 of 19.  

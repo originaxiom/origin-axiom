@@ -1,5 +1,11 @@
 # B1003 — the axiom prices ARE paid: five ROBUST, two FRAGILE — and B998 is corrected
 
+> **Re-priced 2026-09-26 (B1380).** F6's puncture is not an independent axiom on the words route: P019's A5 already fixes the
+> carrier's group as F₂, no closed surface has that group, and of the four surfaces that do only the once-punctured torus
+> realizes the golden substitution. F6's computation below stands as a statement about the **abelianized** carrier (the
+> closed torus bundle carries the word's letter counts, hence only the hearing). The independent fragile axioms on the words
+> route: **one, orientation**; on the uniqueness theorem's route (ℤ² substrate): two, as below.
+
 **Date:** 2026-08-09 · **Seat:** cc (banking) · **Lane:** MATHEMATICS + governance. Gate 5 untouched.
 **Campaign Phase 1, item 2.**
 

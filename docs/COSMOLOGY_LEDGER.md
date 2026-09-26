@@ -66,7 +66,9 @@ literally the same theorem doing the same work in the cosmology domain).
   description) → L1 (binary alphabet) → A2 (inexhaustibility/aperiodicity) → T3 (Morse–Hedlund) →
   T4 (golden slope, Hurwitz-extremal fixed point) → A5/A5b (carrier + puncture) → A6 (orientation) →
   T7 (Thurston/Riley/Reid: the figure-eight complement, forced). Re-priced exactly: **two owned
-  choices (orientation, puncture) + theorems**, not thirteen unexamined premises.
+  choices (orientation, puncture) + theorems**, not thirteen unexamined premises. *(Re-priced again
+  2026-09-26, B1380: the puncture is implied by A5's carrier group F₂ — no closed surface has it, and only the once-punctured
+  torus realizes σ — so on this route one owned fragile choice remains, orientation.)*
 - **The frustrated-cancellation founding fact** (B309/B518): κ = tr[a,b] = u² + 2; at u = 0
   (abelian, "nothing"): κ = 2; at the object's own point u = ω: **κ − 2 = ω², |κ − 2| = 1** — the
   minimal nontrivial (unit) obstruction to cancellation. Modality-corrected: "cannot cancel" is

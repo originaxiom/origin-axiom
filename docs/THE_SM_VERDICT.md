@@ -608,3 +608,13 @@ left it.
 > B1301 — and none of those backgrounds descends to the closed tower (0 of M₄'s 89 non-split loci; none of the M₆ triplet's
 > members), so each of those statements is about the cusped cover only. No verdict of this ledger changes; no value. 0 of 19
 > (`frontier/B1379_the_genesis_and_m004_links`).
+
+> **Currency note (2026-09-26, B1380): the puncture is the word's — one of the entrance's two fragile axioms removed.** P019's
+> carrier axiom already fixes the carrier's group as F₂, the description's group. No closed surface has fundamental group
+> F₂, and of the four surfaces that do (χ = −1) only the once-punctured torus realizes the golden substitution: a realizing
+> homeomorphism must kill every peripheral class in H₁, and no power of [[1,1],[1,0]] has an eigenvalue ±1. So the puncture
+> is implied, not chosen; B749's F6 sibling (the closed torus bundle, Sol) abelianizes the carrier's group — the word
+> replaced by its letter counts, n + 1 factors of each length falling to 2 — which is why only the hearing survives there.
+> **On the words route the entrance now costs one fragile axiom, orientation** (σ and σ² are both realized: Gieseking
+> against m004); the uniqueness theorem's ℤ² route still declares the puncture. Genesis mathematics only; no verdict of
+> this ledger changes; no value. 0 of 19 (`frontier/B1380_the_puncture_is_the_words`).

@@ -15163,3 +15163,32 @@ against Mₙ) are written in B1379 §5 and relayed, not applied. Verdict PROVED 
 tests (C2's lock among them); surfaces (THEOREM_LEDGER C2 lock and Part I audit paragraph, ERROR_LEDGER E72, RETRACTIONS,
 RETRACTED_PHRASES, THE_SM_VERDICT, THE_CLOSING, OPEN_LEADS sL-2, CHIRALITY_MAP, the letter's thirty-eighth note, the alias table).
 0 of 19.
+
+### B1380 — the puncture is the word's (2026-09-26)
+
+Occasioned by the owner's directive ("we have weak spots on our chain, genesis and m004") after B1379 found that the uploaded web
+seat's genesis work leaves both of B1003's fragile axioms — orientation (F5) and the puncture (F6) — where they were. This arc went
+back to the record's own statement of the axioms instead. P019 writes the carrier axiom as A5, "the description is realized as an
+action on a carrier: the rank-2 free group F₂ with σ's abelianization acting as a mapping class", and adds the puncture separately
+as A5b, "an insertion". A5b is implied by A5. Theorem (own code, `puncture.py`, about a second): no closed surface has fundamental
+group F₂ (orientable: trivial, ℤ², or H₁ of rank ≥ 4; non-orientable N_k: H₁ = ℤ^(k−1) ⊕ ℤ/2, and free groups have torsion-free
+H₁); the surfaces with π₁ ≅ F₂ are exactly the four at χ = −1 — S(1,1), S(0,3), N(1,2), N(2,1); a homeomorphism realizing σ
+(a ↦ ab, b ↦ a) or σ² must, after n! iterations, fix every peripheral class up to sign in H₁ = ℤ², while no power of
+[[1,1],[1,0]] has an eigenvalue ±1 (det(Mʲ ∓ I) ≠ 0 computed to j = 48; true for all j), so every peripheral class must vanish —
+which excludes S(0,3), N(1,2), N(2,1) (nonzero peripheral classes) and leaves the once-punctured torus, where σ sends [a,b] to a
+conjugate of [a,b]⁻¹ and σ² to a conjugate of [a,b] and both are realized (Nielsen's commutator theorem, checked as an instrument
+control on 300 seeded automorphisms, 154 of det +1 and 146 of det −1; Dehn–Nielsen–Baer, cited). Controls: the criterion does not
+fire on the swaps realized on S(0,3) and N(2,1). So F6's sibling — the closed torus bundle m004(0,1), Sol — does not drop the
+puncture while keeping A5; it abelianizes A5's group, putting the substitution on letter counts instead of words: the Fibonacci
+word's n + 1 factors of each length have exactly 2 letter-count images for every n ≤ 60, the 8 190 positive words of length ≤ 12
+fall to 90 points (ab = ba), and what survives is the frequency 1/φ — the hearing, B749's own F6 finding (July), now with its
+reason. Being (ℚ(√−3)) needs geometry (F8) and the word's order (F₂). The preference for F₂ over its quotients is argued from C3
+and the chain's "no unforced collapse" (B1379 §2.6): a quotient identifies descriptions the word itself distinguishes. SnapPy:
+b++LR = m004, b-+L = m000 (Gieseking; orientation cover m004), m004(0,1) flat (Sol), H₁ = ℤ, the only b₁ = 1 filling among small
+slopes. **Result:** on the words route (THE CHAIN, C1–C5) the entrance's independent fragile price is ONE axiom, orientation — σ and
+σ² are both realized on the once-punctured torus and nothing in C1–C4 chooses; on the uniqueness theorem's route (ℤ² substrate) the
+puncture must still be declared — two. B1003's computations stand; their reading is re-priced. P019 is hash-pinned by B749 and not
+edited; the re-pricing is recorded in THEOREM_LEDGER (C4 "PUNCTURE IMPLIED", C5 "now the one independent fragile axiom", the Part I
+audit paragraph), dated notes on B1003 and B1379, LAW_MAP's B1003 row, COSMOLOGY_LEDGER's genesis row. The paper's "two fragile
+axioms" is relayed with its route named (B1380 §6), not edited. Verdict PROVED + RE-PRICED; lock five tests, under two seconds;
+surfaces (THE_SM_VERDICT, the letter's thirty-ninth note, the alias table). 0 of 19.

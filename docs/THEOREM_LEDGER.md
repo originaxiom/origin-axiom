@@ -47,6 +47,12 @@ statement appears below; SM-facing content enters only as NO-GO links.*
 > Lⁿg (torsion n+3), whose first member able to carry a cubic character is m010 — the manifold of main's index witness — and on
 > m010 the character, the unique nonsplit extension and Sym³ (the first active power) are each forced. (iv) **m003 = −LR** is
 > m004's sign partner (common double cover m206); A5 (torsion 1 against 5) is what separates them.
+>
+> **Re-priced 2026-09-26 (B1380): on the words route the puncture is not an independent axiom.** C4's carrier group is
+> F₂ (P019's A5); no closed surface has that group, and of the four surfaces that do only the once-punctured torus realizes
+> the golden substitution. So (ii) above holds for this uniqueness route only: here the ℤ² substrate (A1) is the
+> abelianized description and must declare the puncture; the words route (C1–C5) derives it. The two routes now differ in
+> price — one fragile axiom (orientation) against two.
 
 **C1 [THEOREM — Morse–Hedlund].** Every aperiodic sequence has factor complexity
 p(n) ≥ n+1; Sturmian words achieve equality. — P019 T3; control fork B749/F7 (with the
@@ -71,12 +77,21 @@ torus. Price computed (B749/F8, GEOMETRY-NECESSARY): the word's non-geometric ca
 carriers (the tiling hull; the Effros–Shen algebra, K₀ = ℤ[φ]) see ONLY the hearing —
 x²+3 stays irreducible over ℚ(√5) (all four redundancy witnesses failed exactly);
 **ℚ(√−3) is bought at geometrization and nowhere earlier.** Lock: same file.
+**PUNCTURE IMPLIED 2026-09-26 (B1380):** "once-punctured" is not a second choice. The carrier's group is the
+description's, F₂ (P019's A5); no closed surface has fundamental group F₂, and of the four surfaces that do (χ = −1:
+S(1,1), S(0,3), N(1,2), N(2,1)) only the once-punctured torus realizes the golden substitution — a realizing homeomorphism
+must kill every peripheral class in H₁, and no power of [[1,1],[1,0]] has an eigenvalue ±1. B749/F6's closed-torus sibling
+abelianizes the carrier's group (the word replaced by its letter counts: n + 1 factors of each length fall to 2 images), which
+is why only the hearing survives there. Lock: `tests/test_b1380_the_puncture_is_the_words.py`.
 
 **C5 [AXIOM — orientation; PRICED, the most expensive].** The monodromy is taken
 orientation-preserving (golden SQUARED). Price computed (B749/F5 FRAGILE): the discarded
 det −1 sibling IS the Gieseking manifold — m004's own orientation double cover parent
 (dilatation φ upstairs, φ² down; dual sealed routes + cc's third isometry route).
 **Orientation = choosing the child of the parent.** Lock: same file.
+**Now the one independent fragile axiom on the words route (B1380):** σ and σ² are both realized on the once-punctured
+torus (σ sends [a, b] to a conjugate of [a, b]⁻¹, σ² to a conjugate of [a, b]); their mapping tori are the Gieseking
+manifold (b-+L = m000) and m004, and nothing in C1–C4 chooses between them.
 
 **C6 [THEOREM — Thurston/Riley; banked realization].** The mapping torus of the
 once-punctured torus under [[2,1],[1,1]] is the figure-eight knot complement: unique
