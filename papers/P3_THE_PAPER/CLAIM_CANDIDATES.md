@@ -1,11 +1,11 @@
 # P3 — CLAIM CANDIDATES, rebuilt on the UNION criterion (B1213)
 
 **This document was previously rendered from `creates_law` alone.** Cloud's memo 133 found that
-the field is **absent on 828 of 1125 settled arcs — 74%** —
+the field is **absent on 828 of 1126 settled arcs — 74%** —
 so a sweep reading it treats *declared false* and *never declared* identically. B1210 corrected
 wrong flags; this rebuild stops the base depending on the flag at all.
 
-**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 559 arcs.**
+**POOL = declared-law (92) ∪ on-a-synthesis-surface ∪ law-vocabulary (124) = 560 arcs.**
 The vocabulary criterion adds **42 arcs neither the flag nor any surface reaches**.
 
 **Two-sided control, run before the criterion was used**: declared-law arcs score
@@ -210,7 +210,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1375` | PROVED | S | | THE TOWER'S GENERATION COUNT: on the cyclic covers Y_n of m004 built on their own presentations, with the character group complete on each level's torsion (N = lcm(12, to… |
 | `B1378` | PROVED | S | | THE M6 DECK TRIPLET: on Y6 (the degree-6 cyclic cover of m004), a single seed non-split B1374/B1375 background sits in a genuine order-3 orbit of the native deck group --… |
 
-## §6 the observer — one bit, priced (151)
+## §6 the observer — one bit, priced (152)
 
 | arc | verdict | tier | disposition | claim |
 |---|---|---|---|---|
@@ -365,6 +365,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1371` | PROVED | S | | THE WEB SEAT'S POST-CLOSURE PACKAGE, VERIFIED: chat1's four documents and thirteen scripts of 2026-09-15 (received from the owner) re-derived on this bench with its own i… |
 | `B1374` | PROVED | S | | THE CLASS'S INDEX IN THE STANDARD-MODEL FRAME, AND ONE GENERATION ON THE OBJECT'S OWN TOWER: main's B1418 -- the one-cusped index I = n(V) - n(V*) (B1297) firing on reduc… |
 | `B1376` | PROVED | S | | THE ARITHMETIC FILLINGS (a correction of record): B288's clause 'none of the 78 closed hyperbolic fillings of m004 is arithmetic', carried into main's paper, is false and… |
+| `B1379` | PROVED | S | | THE GENESIS AND m004 LINKS, AUDITED: an external web seat's genesis architecture (the owner's uploaded checkpoints of 2026-09-25/26) checked against this chain with own c… |
 
 ## §2 the object — arithmetic and geometry (54)
 

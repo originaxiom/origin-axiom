@@ -1,0 +1,6 @@
+M4 = SnapPy's cyclic 4-cover of m004, H1 Z/3 + Z/15 + Z; filling its curve CB gives H1 Z/3 + Z/15, volume 2.0298832128 = 4 vol(m004(4,0)): the closed branched Y4
+M4 non-split loci (common to three primes): 89; diagonal character trivial on the filled curve: 44; rho_chi trivial there (descends to Y4): 0
+M6 triplet member 0: chi(z) = 0, psi_Y(z) = 0, psi_gamma(z) = 0; rho(z) = [[1, 432], [0, 1]]; descends to closed Y6: False
+M6 triplet member 1: chi(z) = 0, psi_Y(z) = 0, psi_gamma(z) = 0; rho(z) = [[1, 349], [0, 1]]; descends to closed Y6: False
+M6 triplet member 2: chi(z) = 0, psi_Y(z) = 0, psi_gamma(z) = 0; rho(z) = [[1, 432], [0, 1]]; descends to closed Y6: False
+DONE

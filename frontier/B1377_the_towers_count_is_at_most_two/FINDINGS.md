@@ -1,5 +1,7 @@
 # B1377 — THE TOWER'S COUNT IS AT MOST TWO IN ONE BACKGROUND, AND IS ONE: on every level of the tower where every rank-one character has h¹ ≤ 1 — verified here on the complete character groups of Y₂–Y₆ (57 564 characters, h¹ ∈ {0, 1} on all, 509 with h¹ = 1) — the extension sequence bounds the doublet module's a₁ by 2 and the one-cusped index by |I| ≤ 2, so three generations in one background are impossible there; and every firing doublet module on levels two, four, five and six (16, 976, 4 400, 10 816 of them) has (a₁, r₁) = (1, 0) on one side and (2, 2) on the other, which is why B1375's count is exactly one
 
+> **Notation correction (2026-09-26, B1379; E72).** Y₂–Y₆ below are the **cusped** covers of m004 — now **M₂–M₆** — not B1301's closed branched Yₙ. The bound and the dimension pattern stand, on Mₙ.
+
 **Date:** 2026-09-16 · **Seat:** cc (the SM-derivation branch) · **Status:** PROVED (the bound on the levels computed; the dimension pattern) · **Fence:** as B1374/B1375 — main's index on a non-semisimple background, no physics reading · **Price: unchanged** · **Numbering:** B1377 (sL-2 (ii), the reason behind the one-per-background law).
 
 ## 0. Seen from above

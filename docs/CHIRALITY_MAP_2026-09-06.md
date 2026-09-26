@@ -424,7 +424,7 @@ modules of five siblings and of m004's degree-4 cyclic cover — verified on thi
 identical) and read in this map's frame: the index can live only in the doublet sectors of c(SM) (the spin-0 sectors, the 27's 10 among
 them, are characters and carry none, T4), so a generation is the 78's 10 with the 27's 5̄ — door 2's mixed frame (§6t) with a non-split
 SL(2)_β holonomy. On the siblings it never assembles a generation (character groups of order dividing 12 and complete on the torsion).
-**On t12839 = Y₄ of the tower it does: 12 800 backgrounds with exactly one net generation, Q = u^c = e^c = d^c = L = ±1 and every other
+**On t12839 = Y₄ of the tower [corrected 2026-09-26, B1379/E72: the cusped cover M₄, not the closed tower's Y₄; the backgrounds do not descend] it does: 12 800 backgrounds with exactly one net generation, Q = u^c = e^c = d^c = L = ±1 and every other
 sector 0, exact over ℚ(ζ₆₀) on three.** A generation needs the SL(2)_β holonomy of order ≤ 2 on the cusp — the parabolic kind of §6t's
 Lemma A — and the cyclic covers of m004 grant it at every locus through their null-homologous lifted longitude. Main's index, main's
 fence: no physics reading of a non-semisimple background; one generation, not three. `frontier/B1374_the_class_index_in_the_sm_frame`.
@@ -434,6 +434,13 @@ Y₃ carry no generation-shaped background, Y₄ 12 800 (B1374's numbers reprodu
 generation on every one of the 80 800, never two or three: at every locus h¹(χ²) = 1 and a firing sector carries one interior class
 against none. One generation per background is the tower's law to level six; the count of three does not come from this mechanism.
 `frontier/B1375_the_towers_generation_count`.
+
+*Addendum (B1379, 2026-09-26).* The two addenda above — and B1377's bound and B1378's exact (−3)⁶ on a deck orbit of three such
+backgrounds — use Yₙ for the **cusped** cyclic covers of m004, now **Mₙ** (E72); this map's Y₃ (B1356) and its closings are the
+**closed** branched covers. The difference is not cosmetic: none of the one-generation backgrounds descends to the closed tower (0 of
+M₄'s 89 non-split loci is trivial on the filled curve; the M₆ triplet's extension is a nontrivial unipotent there on all three
+members). So W-closed below stands untouched — consistent with B1351, a closed manifold's index vanishes — and the cusped covers'
+index is a statement about the open manifolds only. `frontier/B1379_the_genesis_and_m004_links`.
 
 ## 7. Consequence for the destination ledger
 

@@ -1,0 +1,12 @@
+{
+ "id": "B1379",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": ["B14", "B979", "B1003", "B1301", "B1374", "B1375", "B1378", "B1351"],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE GENESIS AND m004 LINKS, AUDITED: an external web seat's genesis architecture (the owner's uploaded checkpoints of 2026-09-25/26) checked against this chain with own code. Verified: the founding ratio g = -RL^-1 has order 3 and generates the exact ladder B_n = L^n g = [[-(n+1),1],[-1,0]] with L^-1 B_n L = -A_n (A_n = L^(n-1) R), torsion 1-n and n+3, symbolic in n; SnapPy names the members (+LR = m004, -LR = m003, +L^2R = m009, -L^2R = m010, +L^3R = m023, -L^3R = m022, equal volumes in each +- pair); the ratio side reaches an order-three torsion character first, at m010 (n = 3); on m010 exactly one of eight cubic characters is peripheral-trivial (delta = (omega, 1)), h^1(pi; delta) = 1 (the nonsplit extension is unique), the two peripheral-trivial square roots give the same chi Sym^3 rho, Sym^0-Sym^2 are silent under all six twists, Sym^3 is the first power that fires (chi Sym^3 rho_chi = +1 for both lifts, main's witness), Sym^4 fires too, every semisimplification is silent -- over three primes; so m010 is generated from m004's own shears, not chosen. A7 is demoted from existence to based data: LR and RL are conjugate and b++LR = b++RL = m004, so A1-A6 force the unbased object (B979's based content unchanged). m003 is m004's sign partner: both have their cyclic double cover isometric to m206, and the torsion-free axiom (1 against 5) separates them. NOT fixed: the two fragile forks -- the puncture is invisible even to the uniqueness theorem's torsion axiom (H1(m004) = H1(m004(0,1)) = Z), orientation stays declared. C2 (golden, one criterion) is shielded by C1 (the plastic number, the least Perron root over 3x3 against phi over 2x2, needs three letters; minimal complexity forces two) and receives the test lock it never had. CORRECTION OF RECORD (E72): Y_n named both the closed branched tower (B1301 onward) and the cusped covers (B1374-B1378), now M_n; none of M4's 89 non-split loci and none of B1378's M6 triplet members descends to the closed tower (the extension is nontrivial on the filled meridian), so B1374's 't12839 = Y4 of the tower' is wrong as worded and B1378 is a statement about M6 only. The source's physics-side negatives are recorded, not re-derived. 0 of 19."
+}

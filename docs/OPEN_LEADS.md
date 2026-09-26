@@ -2840,7 +2840,7 @@ Standard-Model frame the spin-0 sectors (the 27's 10 and 5, the 78's 35) are ran
 recomputed, all 0), so the bit lives only in the doublet sectors (the 78's 10 ⊕ 10̄, the 27's 5̄ ⊕ 5̄′ ⊕ 1 ⊕ 1′). On the twelve members
 other than t12839, over every pair of ℂ*²-characters of order dividing 12 and over the groups complete on the torsion of H₁ (two more
 members fire there, o10_150697 and m208, invisible in μ₁₂), the six counts never form a generation and never an anomaly-free non-zero
-spectrum. **On t12839 = Y₄ of this seat's tower, 12 800 backgrounds (64 loci of order 15 and 30; ψ_Y trivial or of order 5; ψ_γ of
+spectrum. **On t12839 = Y₄ of this seat's tower [corrected 2026-09-26, B1379/E72: the cusped cover M₄, not the closed tower's Y₄; the backgrounds do not descend], 12 800 backgrounds (64 loci of order 15 and 30; ψ_Y trivial or of order 5; ψ_γ of
 order up to 30) carry exactly one net generation — Q = u^c = e^c = d^c = L = ±1, every other sector 0, anomaly-free — recomputed over
 three primes and, on three backgrounds, exactly over ℚ(ζ₆₀).** Why the tower: five doublet sectors firing at once force χ² = 1 on the
 peripheral subgroup (T5 at the cusp) and ψ_Y⁵ = 1 there; the cyclic covers of m004 have a null-homologous lifted longitude, so the
@@ -2848,7 +2848,7 @@ condition holds at every locus; the siblings' meridians deny it. Fences: main's 
 reading, one generation not three. Continued as **sL-2**. `frontier/B1374_the_class_index_in_the_sm_frame`.
 
 ## sL-2 — THE TOWER'S GENERATION COUNT (registered 2026-09-16, B1374; sL-1's continuation)
-**The fact.** On Y₄ = t12839 the sector-by-sector one-cusped index of a flat E₆(ℂ) connection in c(SM) with a reducible non-split
+**The fact.** On Y₄ = t12839 [the cusped M₄ — corrected 2026-09-26, B1379/E72; throughout this lead Yₙ means the cusped cyclic covers Mₙ] the sector-by-sector one-cusped index of a flat E₆(ℂ) connection in c(SM) with a reducible non-split
 SL(2)_β holonomy at a torsion locus is exactly one Standard-Model generation (B1374 §1 C″, exact). **The questions.** (i) The same
 census on every cyclic cover of m004 in the family (m206, s961 = Y₃: 0 at N = 12; t12840; o10_150685; o10_150696; o10_150703) and on
 the higher levels Y₅–Y₁₂ built by `covers`, with N complete on each level's torsion: does the net count grow with the level, and is
@@ -2873,3 +2873,13 @@ h¹ ≤ 1, every doublet sector has |I| ≤ 2, and three generations in one back
 character groups of Y₂–Y₆ (57 564 characters, h¹ ∈ {0,1} on all); every firing doublet module realises (a₁,r₁) = (1,0) against
 (2,2), so |I| = 1 exactly, which is why B1375's law holds. Extending the bound past Y₆ needs the same rank-one sweep at higher N —
 tractable in seconds once B1375's character-enumeration bottleneck (named above) is fixed. `frontier/B1377_the_towers_count_is_at_most_two`.
+
+**sL-2, 2026-09-26, B1379 — the lead's spaces named, and a boundary.** Throughout this lead (and B1374, B1375, B1377, B1378) Yₙ meant
+the n-fold cyclic cover of m004 itself — **cusped**, H₁ with a free ℤ — while B1301/B1303 and the arcs after them use Yₙ for the
+closed cyclic branched covers of S³ along the knot. Corrected per E72: the cusped covers are **Mₙ** from here on, the closed tower
+keeps Yₙ. Checked: the backgrounds do **not** descend — the closed Y₄ is M₄ filled along SnapPy's curve CB (|H₁| = 45, volume
+4·vol m004(4,0)), and none of M₄'s 89 non-split loci (common to three primes) is trivial on the filled curve (44 have the diagonal
+trivial there, never the extension); B1378's M₆ triplet has ρ(z) = [[1, c], [0, 1]], c ≠ 0, on all three members. So this lead's
+count is a statement about the cusped covers, consistent with B1351 (a closed manifold's index vanishes). Open, unchanged: (i) M₇
+and beyond; (ii) the deck-symmetry prediction of the firing loci; (iii) the physics reading.
+`frontier/B1379_the_genesis_and_m004_links`.

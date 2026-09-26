@@ -594,3 +594,17 @@ left it.
 > (semisimplifying gives index 0 on all six sectors) — main's B1297 index on a non-semisimple background, physical
 > admissibility OPEN per Corlette–Donaldson, index ≠ physical generation count. No verdict of this ledger changes; no
 > value. 0 of 19 (`frontier/B1378_the_m6_deck_triplet`).
+
+> **Currency note (2026-09-26, B1379): the genesis and m004 links, audited — and the tower's two spaces.** An external web
+> seat's genesis architecture (the owner's 2026-09-26 checkpoint), checked link by link with own code. It closes the record's
+> silence on *why m010*: the founding ratio g = −RL⁻¹, built from m004's own shears, generates an exact ladder Lⁿg whose first
+> member able to carry an order-three character is m010, and there the character, the unique nonsplit extension (h¹ = 1) and
+> Sym³ (the first power that fires; Sym⁴ fires too) are each forced — main's index witness, generated rather than chosen. A7 is
+> demoted to based data (b++LR = b++RL = m004); m003 = −LR is m004's sign partner (common double cover m206), separated by the
+> torsion-free axiom; C2 receives the test lock it never had and is shielded by C1 (the plastic-number alternative needs three
+> letters). **Not fixed: the two fragile forks** — the puncture is invisible even to the uniqueness theorem's torsion axiom
+> (H₁(m004) = H₁(m004(0,1)) = ℤ), orientation stays declared. **Correction of record (E72):** in the four currency notes above
+> (B1374, B1375, B1377, B1378) Yₙ denotes the **cusped** cyclic covers of m004, now Mₙ — not the closed branched tower Yₙ of
+> B1301 — and none of those backgrounds descends to the closed tower (0 of M₄'s 89 non-split loci; none of the M₆ triplet's
+> members), so each of those statements is about the cusped cover only. No verdict of this ledger changes; no value. 0 of 19
+> (`frontier/B1379_the_genesis_and_m004_links`).

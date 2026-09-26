@@ -7682,7 +7682,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 36,
+   "obstacle_conf": 37,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7701,7 +7701,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 29,
+   "obstacle_conf": 30,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -7731,6 +7731,7 @@
   "B1377": {
    "slug": "the towers count is at most two",
    "motifs": [
+    "figure_eight",
     "metallic",
     "z3_generation",
     "torsion"
@@ -7756,6 +7757,43 @@
    "refs": [],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1379": {
+   "slug": "the genesis and m004 links",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "symplectic",
+    "quasicrystal",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B14",
+    "B749",
+    "B979",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
   },

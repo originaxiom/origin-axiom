@@ -15128,3 +15128,38 @@ B1297 index on a non-semisimple background, physical admissibility OPEN, index �
 family-tensor scan (67 200 backgrounds, zero complete triplets under the existing E₆ × SU(3)_family mechanism) — cited, not
 recomputed. Verdict PROVED (the index, two methods); fast lock under thirty seconds; surfaces (THE_CLOSING, THE_SM_VERDICT, the
 letter's thirty-seventh note, the alias table). 0 of 19.
+
+### B1379 — the genesis and m004 links, audited; the tower's two spaces (2026-09-26)
+
+Occasioned by the owner's correction: "we have weak spots on our chain, genesis and m004, that work is supposed to fix that." B1378's
+entry above said of the two uploaded seat-checkpoint archives that "one item does" help; that undercounted, and this seat's first
+reading of the 2026-09-26 archive as a separate foundational thread, "not directly actionable", is **withdrawn** here — the archive's
+genesis architecture (a "pointed generated state space": primitive shears, canonical reachability, m004 = [LR] as ground node, the
+founding ratio g = −RL⁻¹, an invariant-selection theorem) is aimed exactly at this chain's two weakest places, the entrance (THE
+CHAIN's C1–C5 and B1003's two fragile forks) and the object (why main's index witness sits on m010; why m003 shares m004's field and
+volume). Checked link by link with own code, not the source's scripts: `genesis_audit.py` S1–S9 and `descent_check.py`, both seconds.
+**Fixed:** (1) the m004 → index gap — g = −RL⁻¹ (order 3, from m004's own shears) generates the exact ladder Bₙ = Lⁿg =
+[[−(n+1),1],[−1,0]], L⁻¹BₙL = −Lⁿ⁻¹R, torsion n+3, symbolic in n; SnapPy names the members (±LR = m004/m003, ±L²R = m009/m010,
+±L³R = m023/m022, equal volumes per ± pair); the first member admitting an order-three character is m010 (n = 3); on m010, over three
+primes, one peripheral-trivial cubic line, h¹(π;δ) = 1, both peripheral-trivial square-root lifts give χ ⊗ Sym³ρ_χ = +1 (main's
+witness), Sym⁰–Sym² silent under all six twists, Sym⁴ also fires (so Sym³ is the first active power, not the only one — a refinement
+of the source), every semisimplification silent; (2) A7 demoted to based data (P·LR·P = RL, b++LR = b++RL = m004; B979's based
+Möbius polynomials unchanged); (3) m003 = −LR is m004's sign partner, both cyclic double covers isometric to m206, separated by the
+torsion-free axiom (1 against 5); (4) C2 locked for the first time since the ledger recorded "F3 is a citation to a test that does not
+exist" (2026-08-09), and shielded by C1: the plastic number (least Perron root over primitive unimodular 3×3, below φ over 2×2) needs
+three letters, and C1's p(1) = 2 excludes it upstream. **Not fixed:** the two fragile forks — H₁(m004) = H₁(m004(0,1)) = ℤ, so the
+uniqueness theorem's torsion axiom cannot see the puncture; orientation stays A3/C5; the entrance price stays B1003's two axioms.
+**Correction of record (E72, the SAME-SYMBOL-TWO-SPACES class):** B1374, B1375, B1377 and B1378 wrote Yₙ for the **cusped** cyclic
+covers of m004, while B1301/B1303 and the arcs after them use Yₙ for the **closed** cyclic branched covers; the cusped covers are
+renamed Mₙ. Checked: the closed Y₄ is SnapPy's M₄ filled along CB (|H₁| = 45, volume 4·vol m004(4,0)); none of M₄'s 89 non-split loci
+(common to three primes) is trivial on the filled curve (44 have the diagonal trivial there, never the extension); B1378's triplet has
+ρ(z) = [[1, c], [0, 1]], c ≠ 0, on all three members — so B1374's "t12839 = Y₄ of the tower" is wrong as worded and B1378 is a
+statement about M₆ only; consistent with B1351 (a closed manifold's index vanishes). Live instances corrected in place (THE_CLOSING's
+B1374/B1375/B1378 rows, OPEN_LEADS sL-2 and its B1374 status, CHIRALITY_MAP's B1374 addendum); dated notes prepended to the FINDINGS
+of B1374, B1375, B1377, B1378. Recorded, not re-derived: the source's physics-side negatives (the reductive completion loses the cusp
+invariant; cross-block extensions boundary-active; B1361's hollow Yukawa not importable to the M₆ orbit without re-deriving its
+charges; M₄ → M₁₂ × the family triplet gives 0 on 12 800). The paper-facing suggestions (§generic's m003 sentence, C2's row, Yₙ
+against Mₙ) are written in B1379 §5 and relayed, not applied. Verdict PROVED + CORRECTION OF RECORD, the forks UNCHANGED; lock five
+tests (C2's lock among them); surfaces (THEOREM_LEDGER C2 lock and Part I audit paragraph, ERROR_LEDGER E72, RETRACTIONS,
+RETRACTED_PHRASES, THE_SM_VERDICT, THE_CLOSING, OPEN_LEADS sL-2, CHIRALITY_MAP, the letter's thirty-eighth note, the alias table).
+0 of 19.

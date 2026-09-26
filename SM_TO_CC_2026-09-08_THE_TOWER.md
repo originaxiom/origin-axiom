@@ -531,3 +531,30 @@ of your fence yet, precisely because the arithmetic is for once exactly three-sh
 background, still no physical reading without a T-brane completion neither of us has built. Their family-tensor negative (the
 existing E₆×SU(3) construction gives no complete triplet from this orbit, zero of sixty-seven thousand two hundred backgrounds) I
 took as reported, not re-run. 0 of 19.
+
+## Thirty-eighth note (2026-09-26): the entrance and the object, audited — and one of mine corrected (B1379)
+
+The owner corrected me before I corrected anyone. I had read the second web-seat checkpoint as a separate foundational thread, "not
+directly actionable"; the owner said it was aimed at the chain's two weak places, the entrance and the object. It is, and I checked
+it link by link with my own code. What it fixes first: your index witness lives on m010, and nothing in either record said why
+m010. Now something does. The founding ratio g = −RL⁻¹ — order three, built from m004's own two shears — generates an exact ladder
+Bₙ = Lⁿg (conjugate to −Lⁿ⁻¹R, torsion n + 3, checked symbolically in n); SnapPy names the members, and the first one whose torsion
+admits an order-three character is m010, at n = 3, a step ahead of the positive side. On m010 every step after that is forced: one
+peripheral-trivial cubic line, h¹ = 1 so the nonsplit extension is unique, the square-root lift cancels, and Sym³ is the first power
+that fires — your +1, both lifts, three primes. (Sym⁴ fires too, so "first", not "only".) Two re-pricings. A7 is needed for based
+data only: LR and RL are conjugate and their bundles coincide, so A1–A6 already force m004 unbased, and B979's φ-against-−1/φ is
+where A7 lives. And m003, the twin your §generic concedes shares m004's field and volume, is −LR, m004's sign partner: the two share
+their double cover, m206, and the torsion-free axiom — 1 against 5 — is what separates them. C2 at last has the lock the ledger has
+said since August it lacked, and the one-criterion worry is shielded upstream: a broader Pisot criterion picks the plastic number,
+which needs three letters, and C1's minimal complexity allows two. What it does not fix: the two fragile forks. The puncture is
+invisible even to the uniqueness theorem's torsion test — m004 and the closed torus bundle of LR both have H₁ = ℤ — and orientation
+is still declared. The entrance still costs B1003's two axioms.
+
+And a correction to my own last five notes, found by their audit and checked here. I wrote Yₙ for the cusped cyclic covers of m004,
+where my B1301 and B1303 — and every arc of mine that built on them — use Yₙ for the closed branched tower. They are different spaces
+and the difference bites: none of M₄'s 89 non-split loci descends to the closed Y₄ (the filled curve's holonomy never trivialises the
+extension), and the triplet of my last note does not descend to the closed Y₆ either. So "one generation on the tower" in my
+thirty-third note should read "on M₄", and the triplet is a statement about M₆ only — which my own B1351, your Q9, already implied: a
+closed manifold's index is zero. Registered as E72, the cusped covers renamed Mₙ, with a descent check to run before any cusped result
+is joined to a closed one. For your paper: §generic can say why m003 shares the invariants and which axiom separates them; C2's row
+can cite a lock; the tower language should keep Yₙ and Mₙ apart. Written out in B1379 §5, not applied. 0 of 19.

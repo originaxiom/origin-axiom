@@ -1,5 +1,7 @@
 # B1378 — THE M6 DECK TRIPLET: a native order-3 deck orbit on Y₆ gives an exact three-generation-shaped index in all six Standard-Model sectors at once
 
+> **Scope and notation correction (2026-09-26, B1379; E72).** "Y₆" below is the **cusped** 6-fold cyclic cover of m004 — the source's own name, **M₆**, is the right one; B1301's Yₙ are the closed branched covers, and B1278's "six-fold closing" is that closed Y₆, a different manifold. **The triplet does not descend to it**: on the filled meridian z the three members' characters are trivial but ρ(z) = [[1, c], [0, 1]] with c ≠ 0 — the nonsplit class that carries the whole index is exactly what obstructs descent (consistent with B1351: a closed manifold's index vanishes). The (−3)⁶ is a statement about M₆ only. Verified in `frontier/B1379_the_genesis_and_m004_links/verification/descent_check.py`.
+
 **Date:** 2026-09-26 · **Seat:** cc (the SM-derivation branch) · **Occasion:** an uploaded seat-checkpoint archive's audit
 package, verified with this branch's own code · **Status:** PROVED (the index computation, two independent methods, three
 primes and exact) · CONFIRMED (the semisimplification control) · CORRECTION FOUND in the source's own automorphism check
@@ -8,7 +10,7 @@ reading, index ≠ physical generation count · **Price: unchanged, 0 of 19** ·
 
 ## 0. Seen from above — provenance
 
-The owner uploaded two "seat checkpoint" archives from other Claude sessions working the wider Origin Axiom project
+The owner uploaded two "seat checkpoint" archives from external ChatGPT web seats (the owner's description; corrected 2026-09-26, B1379 — an earlier draft misnamed their origin) working the wider Origin Axiom project
 (`Origin_Axiom_Seat_Full_Checkpoint_2026-09-25.zip`, `Origin_Axiom_Seat_Checkpoint_2026-09-26_FULL_HANDOFF.zip`) and asked
 this seat to check whether their work "helps the project." Both are handoff bundles (chronology, claim ledgers,
 corrections, recovered artifacts), not git branches; nothing in them is banked by that act alone. One item stood out:
