@@ -2883,3 +2883,10 @@ trivial there, never the extension); B1378's M₆ triplet has ρ(z) = [[1, c], [
 count is a statement about the cusped covers, consistent with B1351 (a closed manifold's index vanishes). Open, unchanged: (i) M₇
 and beyond; (ii) the deck-symmetry prediction of the firing loci; (iii) the physics reading.
 `frontier/B1379_the_genesis_and_m004_links`.
+
+**sL-2, 2026-09-26, harvested from main @ `987c0c8f` — (i) advanced to level seven by main.** Main's B1427 (2026-09-18) verified
+B1374/B1375 with independent code and solved the rank-one twisted cohomology exactly over the whole character group for
+n = 2…7: h¹ = 2 nowhere, so B1377's bound holds through M₇ on every rank-one character, the two non-torsion loci per level
+(m004's golden locus lifted, missed by μ_N scans, h¹ = 1 there) included; the count of three is not this mechanism's on any level
+up to seven. Still open: (i′) levels beyond seven and a proof for all n; (ii) the deck-symmetry prediction of the firing loci;
+(iii) the physics reading. Cited, not re-derived. `frontier/B1375_the_towers_generation_count` (dated note).

@@ -15238,3 +15238,16 @@ choice is the one that makes the object amphichiral; B1234's caution kept verbat
 representation theory use orientation; on the Gieseking manifold chirality is undefined, so dropping the axiom is not shown to
 open anything). No new mathematics — Adams and B1234 — only their conjunction with B1380. Lock: B1380's sixth test. Surfaces:
 B1380 §5 addendum, THEOREM_LEDGER C5, THE_END_TO_END_CHAIN C4/C5 pointers. 0 of 19.
+
+### Harvest of main @ 987c0c8f (B1414–B1431) against this branch's surfaces (2026-09-26)
+
+Read for anything that changes this branch's statements, after the E54 findings earlier today. One arc does: main's B1427
+(2026-09-18) verified B1374/B1375 with independent code (every number reproduced) and solved the rank-one cohomology exactly over
+the whole character group for n = 2…7 — h¹ = 2 nowhere — so B1377's bound holds through M₇, and this branch's OPEN_LEADS sL-2 line
+"(i) M₇ and beyond" (written in B1379 this morning) was stale on arrival. B1427's three qualifications adopted on B1375 and B1377 by
+dated notes: complete on the torsion is not complete (two non-torsion loci per level, m004's golden locus lifted, h¹ = 1 there);
+the |I| bound is B1377's extension bound, not h¹(χ²) = 1; the M₅ cusp filter is proved. B1427 also uses Yₙ for the cusped covers
+— E72 relayed. Main's B1428/B1431 (the 3d index of m004 and m003) noted against B1379's m003 reading, with a question relayed
+(does the common double cover m206 lie behind B1431's identity of state sums?) — not a claim. B1426 concerns another seat.
+Cited, not re-derived. Surfaces: B1375, B1377 dated notes; OPEN_LEADS sL-2; THE_SM_VERDICT; the alias table; the letter's
+forty-first note. 0 of 19.

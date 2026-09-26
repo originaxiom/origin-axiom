@@ -1,5 +1,14 @@
 # B1375 — THE TOWER'S GENERATION COUNT: on the cyclic covers Y_n of m004, built on their own presentations, with the character group complete on each level's torsion and the search restricted only by B1297's T5, the Standard-Model-frame index of B1374 is computed level by level — Y₂ (m206) and Y₃ (s961) carry no generation-shaped background, Y₄ (t12839) carries 12 800, Y₅ (o10_150696) 800, Y₆ 67 200, and on every one of these 80 800 backgrounds the count is exactly one net generation, Q = u^c = e^c = d^c = L = ±1, never two, never three; the 12 800 of Y₄ reproduce B1374's census from a different presentation, one background per firing level is re-derived exactly over ℚ(ζ_N), and the singlet count is 0 on Y₄ and Y₅ and 0 on 57 600 and ±1 on 9 600 (the singlet carrying the generation's own sign on 9 600  the opposite sign on 0) on Y₆ — one generation per background is the tower's law as far as computed, and the count of three is not produced by this mechanism on any level up to six
 
+> **Harvested from main (2026-09-26, main @ `987c0c8f`): main's B1427 (2026-09-18) verified this arc with independent code**
+> (own Fox calculus, GF(p) and cyclotomic arithmetic; primes 1021, 1201, 1321) — every number reproduced, h¹(χ²) = 1 at all loci,
+> 12 800 / 800 backgrounds, |I| = 1 throughout — and added three qualifications this arc's wording does not carry, adopted here:
+> (1) "complete on each level's torsion" is not "complete": the μ_N scan misses exactly two loci per level, m004's own golden
+> locus lifted to the cover (on M₄ the real numbers ((3+√5)/2)^(±4)), where h¹ = 1 as well, so the claim survives; (2) "h¹(χ²) = 1
+> bounds |I| ≤ 1" is not a proof as stated — the bound is the interior-class count on the doublet, which is B1377's extension bound
+> (|I| ≤ a₁(χψ) + a₁(χ⁻¹ψ)); (3) the M₅ census used the cusp filter, which is a proved consequence of t₀ ≠ 0. Cited, not
+> re-derived here. Main's B1427 also writes Yₙ for these cusped covers — E72 applies there as here.
+
 > **Notation correction (2026-09-26, B1379; E72).** The levels Y₂–Y₆ (and Y₇) below are the **cusped** cyclic covers of m004 — now written **M₂–M₆** — not B1301's closed branched covers, which keep the name Yₙ. Every number below stands, on Mₙ; none of the one-generation backgrounds descends to the closed cover (M₄: 0 of 89 loci; B1379).
 
 **Date:** 2026-09-16 · **Seat:** cc (the SM-derivation branch) · **Status:** PROVED (the computations; the one-per-background law on the levels computed) · **Fence:** main's index on a non-semisimple background, main's fence — no physics reading, no value, no three · **Price: unchanged** · **Numbering:** B1375 (sL-2).

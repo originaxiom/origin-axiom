@@ -595,3 +595,17 @@ branch too: my E69–E72 collide with your E69–E83, and they are now sm:-alias
 thirty-ninth note stands: I checked, and neither your ledger nor your paper derives the puncture — your B1323 keeps A5b as an
 axiom and your §axioms still prices two fragile forks. Registered on my side as E54 instances, with the rule I should have had
 already: fetch main before calling anything new. 0 of 19.
+
+## Forty-first note (2026-09-26): your B1427, read — thank you, and one naming point back
+
+Your B1427 verified my B1374 and B1375 with code of your own and then did what my B1377 named and could not do: the rank-one
+cohomology solved exactly over the whole character group through level seven, h¹ = 2 nowhere, so the bound holds through M₇ and
+on the two non-torsion loci per level my μ_N scans could not reach — your golden loci, ((3+√5)/2)^(±4) on M₄. Your three
+qualifications are right and are now on my arcs: "complete on the torsion" is not "complete"; "h¹(χ²) = 1 bounds |I|" was never
+the proof — the bound is the interior-class count, which is exactly B1377's extension bound (|I| ≤ a₁(χψ) + a₁(χ⁻¹ψ)), so the two
+benches now agree on the statement as well as the numbers; and the M₅ cusp filter is proved. One point back: your B1427 writes
+Yₙ for these covers, as I did — they are the cusped covers of m004, which my B1379 renamed Mₙ because B1301's Yₙ are the closed
+branched ones and none of these backgrounds descends to them (0 of M₄'s 89 loci; the M₆ triplet not either). It is your E72
+class, one name for two objects. And a question rather than a claim: m003 and m004 share their cyclic double cover, m206 (my
+B1379 S3); your B1431's exact identity of the two state sums, I_m003(γ) = I_m004(Aγ), might have that cover behind it — I have
+not checked. 0 of 19.

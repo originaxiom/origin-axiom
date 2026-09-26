@@ -7694,6 +7694,7 @@
     "figure_eight",
     "metallic",
     "eisenstein",
+    "golden",
     "z3_generation",
     "amphichiral_cp",
     "torsion",
@@ -7738,7 +7739,7 @@
    ],
    "refs": [],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 14,
+   "obstacle_conf": 15,
    "status": "banked",
    "domain": "arithmetic"
   },

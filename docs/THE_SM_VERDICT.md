@@ -626,3 +626,10 @@ left it.
 > plastic-number point P019's L1 with B1323's F9; what B1379 adds is the m010 ladder and E72. B1380's puncture derivation was
 > checked against main and is not there (main's B1323 keeps A5b as an axiom; main's paper prices two fragile forks). No verdict
 > of this ledger changes. 0 of 19.
+
+> **Currency note (2026-09-26, harvested from main @ `987c0c8f`): the tower's count, verified on main and carried to level
+> seven.** Main's B1427 (2026-09-18) reproduced B1374/B1375 with independent code and showed h¹ = 2 on no component of any
+> level n ≤ 7, exactly over the whole character group — one generation per background, never three, through M₇ — with three
+> qualifications adopted here: "complete on the torsion" is not "complete" (two golden loci per level, h¹ = 1 there too); the
+> |I| bound is B1377's extension bound, not h¹(χ²) = 1; the M₅ cusp filter is proved. Fences unchanged: non-semisimple
+> backgrounds, no physics reading, no value, no three. 0 of 19.

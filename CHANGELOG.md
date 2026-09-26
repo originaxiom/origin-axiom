@@ -1,5 +1,9 @@
 # Changelog
 
+## Harvest of main @ 987c0c8f (B1414–B1431): main's B1427 verified B1374/B1375 with independent code and carried B1377's bound to level seven exactly over the whole character group (h¹ = 2 nowhere, n ≤ 7), closing sL-2 (i) through M₇; its three qualifications adopted on B1375/B1377 (complete on the torsion is not complete — two golden loci per level, h¹ = 1 there; the |I| bound is B1377's; the M₅ cusp filter is proved); E72 relayed for B1427's own Yₙ; B1428/B1431 noted against B1379 with a question, not a claim
+
+Cited, not re-derived. Surfaces: B1375, B1377, OPEN_LEADS sL-2, THE_SM_VERDICT, the alias table, the letter's forty-first note. 0 of 19.
+
 ## B1380 addendum — the entrance's last fragile axiom (orientation) chooses against the chain's own minimality (σ is the shorter substitution; its mapping torus, the Gieseking manifold, is the least-volume cusped hyperbolic 3-manifold, Adams 1987, checked on 800 census manifolds) and is the axiom B1234 showed builds all eight walls (the orientable choice forces amphichirality); no new mathematics, their conjunction with B1380 recorded
 
 Lock: `tests/test_b1380_the_puncture_is_the_words.py::test_minimality_would_choose_gieseking`. Surfaces: B1380 §5, THEOREM_LEDGER C5, THE_END_TO_END_CHAIN C4/C5. 0 of 19.
