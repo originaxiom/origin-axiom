@@ -5,8 +5,8 @@
 
 # The closed-door map (generated)
 
-**784 recorded closures — of which 617 are CLASSIFIED by mechanism and
-167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
+**792 recorded closures — of which 617 are CLASSIFIED by mechanism and
+175 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
 number. A programme whose firewall works is mostly negatives; this is the shape of them.
@@ -14,7 +14,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | mechanism | doors | facts not computed |
 |---|---|---|
 | `other` | 359 | 343 |
-| `unrouted-unclassified` | 167 | 167 |
+| `unrouted-unclassified` | 175 | 175 |
 | `kind-mismatch` | 51 | 4 |
 | `genericity` | 38 | 1 |
 | `no-landing-site` | 30 | 1 |
@@ -68,7 +68,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Killed by running the discriminator the row itself had carried unrun. disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2^(t-1) = 2 genera: the GENUS GROUP HAS ORDER 2, against Gal's order 4. There is no 'genus V4' for disc -15 -- the object the row NAMES does not exist. The fallback reading (side B = Gal, order 4) rests on an ORDER MATCH, which B1223 forbids as evidence, plus the category mismatch B155 records (the glue is a GL(4,Z)-class invariant 'not forced by the spectral type': lattice data, not field data).` | 1 |  |
 | `Killed by exhaustion and then by theorem. All 706 464 SM lines of Y_9 re-enumerated with every component's survival in every generation recorded: 0 split lines, and D kept in all three generations on every line (Dbar, H_u, H_d, N, nu^c each lose one generation on about 29 000 lines). Theorem: w_D = -2 w_Q modulo the SM roots (the diquark coupling Q Q D; D is the only component whose weight mod Q_SM is twice a weight), so psi_D = psi_Q^-2; the alphabet's letters have order 1, 19 or 38, their squares have odd order and are never family characters, and the family characters are the only characters that project anything (B1278's support theorem). An exact structural model built from the support theorem and the weight table reproduces every count of B1278.` | 1 |  |
 
-## Closures whose discriminating fact was not computed (522)
+## Closures whose discriminating fact was not computed (530)
 
 The standing rule is that a negative is only as sound as the in-sandbox computation of
 its discriminating fact. **B799 resolved all of these** — see `frontier/B799_uncomputed_doors/`.
@@ -597,3 +597,11 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B762` |  | `other` |
 | `B774` |  | `other` |
 | `B791` |  | `other` |
+| `B1361` | THE DECK'S TEXTURE IS B1273'S: under the two C-field U(1)s born with the apexes (charges (1,-2), (1,1), (-2,1) | `unrouted-unclassified` |
+| `B1363` | THE DESCENT'S WILSON LINES: the object's own closing S^3(4_1; 2pi/3) has H_1 = Z/3 (pi_1^orb = pi_1(m004)/<<mu | `unrouted-unclassified` |
+| `B1365` | THE BULK OF THE LINE: B1364's unbroken U(1)' is the Cartan direction gamma orthogonal to the Standard Model, t | `unrouted-unclassified` |
+| `B1367` | THE DOUBLET-TRIPLET PINCER: in trinification form the E6 cubic det L + det Q + det Q^c + Tr(Q L Q^c) pairs N w | `unrouted-unclassified` |
+| `B1368` | THE OBJECT'S OWN STANDARD-MODEL CONNECTIONS: a flat E6(C) connection of m004 leaving the Standard Model unbrok | `unrouted-unclassified` |
+| `B1369` | THE FAMILY IN THE STANDARD-MODEL FRAME (sL-1, first arc): on a member of the figure-eight's commensurability c | `unrouted-unclassified` |
+| `B1372` | THE DOUBLET HALVES (door 2): the third reading of a Standard-Model generation -- the 10 from the 78's SL(2)_be | `unrouted-unclassified` |
+| `B1373` | THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's char | `unrouted-unclassified` |

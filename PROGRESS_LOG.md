@@ -15211,3 +15211,16 @@ sm:E71 ≡ main's E82, sm:E72 an instance of main's E72; aliased in the table, s
 B1379; THEOREM_LEDGER C2 and Part I amended; ERROR_LEDGER row (E54 instances, with the standing rule: fetch main and sweep both
 trees before any claim of absence or novelty); RETRACTIONS section; THE_SM_VERDICT currency note; THE_CLOSING's B1379 row; the
 letter's fortieth note; B1380 now cites main's B1323 dictionary lemma. No computation changes. 0 of 19.
+
+### The whole-suite fast lane on 10a7e2f1, and eight negatives routed (2026-09-26)
+
+The session's certificate: the whole suite, serial, fast lane (`-m "not slow"`), on the committed head 10a7e2f1 — **6 266 passed,
+10 failed, 52 skipped, 41 deselected, in 1 h 25 min.** Its ten failures were read one by one on the clean tree rather than counted. Seven pre-date this seat's recent work and are fixed on
+main after this branch forked (2026-09-06), cited here and not ported: the four fresh-clone failures from gitignored artifacts
+(B1062's block logs, B1063's window log, B1137's result grids, B646's archive) — main's 872babe4 (2026-09-13) — and three numerical
+locks (B511's d3 instability, B565's lift convention: tr(a) off by exactly 4, B616's lock that never passed) — main's 5fd9ecc5
+(2026-09-09). Two are gate-level: the relay-debt gate (pre-existing, 40 unescalated stale relays) and B887's
+all-gates-pass lock, which reads the same gate. One was this seat's own debt: test_b833 found eight NEGATIVE-verdict arcs of this
+seat (B1361, B1363, B1365, B1367, B1368, B1369, B1372, B1373) absent from the kill graph; routed now in B836's form
+(`frontier/B738_pathfinder_compiler/kill_graph.json`, kill_form unrouted-unclassified, priority UNTRIAGED, the judgement fields
+deliberately unset, routed_from sm-branch-2026-09-26-catchup); the kill-graph tests pass (86). No computation changes. 0 of 19.

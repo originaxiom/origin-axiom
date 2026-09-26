@@ -1,5 +1,9 @@
 # Changelog
 
+## The whole-suite fast lane on 10a7e2f1 (6 266 passed, 10 failed, 52 skipped, 41 deselected; 1 h 25 min) read failure by failure, and this seat's eight unrouted negatives routed: of the ten failures, seven pre-date the seat's recent work and are fixed on main after this branch forked (872babe4: four fresh-clone artifacts, B1062/B1063/B1137/B646; 5fd9ecc5: three numerical locks, B511/B565/B616) — cited, not ported; two are the pre-existing relay-debt gate and B887's all-gates lock that reads it; one was this seat's own — B833's lock found B1361, B1363, B1365, B1367, B1368, B1369, B1372, B1373 (NEGATIVE verdicts) absent from the kill graph, now routed in B836's form, judgement fields unset
+
+Kill-graph tests 86 passed. No computation changes. 0 of 19.
+
 ## E54 corrections after fetching main @ 987c0c8f: five same-day claims of absence or novelty on this branch were already on main or in the record — B1376's B288 correction is main's B1419 (2026-09-16, six slopes = the same three up to orientation, E82); B1379's C2 lock was main's B1323 (2026-09-09); its A7 reading is B979's, its m003 reading B803's (THE_LADDER X13), its plastic-number point P019's L1 with B1323's F9 — what survives as new is B1379's m010 ladder and Yₙ/Mₙ correction and B1380's puncture derivation (checked absent on main); this branch's E69–E72 collide with main's E69–E83 and are aliased sm:E69–sm:E72 (sm:E71 ≡ E82; sm:E72 an instance of main's E72)
 
 Dated notes on B1376, B1379; THEOREM_LEDGER C2 and Part I; ERROR_LEDGER (E54 instances, standing rule: fetch main before claiming anything is new); RETRACTIONS; THE_SM_VERDICT; THE_CLOSING; the letter's fortieth note; the alias table (also: main's fresh-clone fix 872babe4 cited, not ported); B1380 cites main's B1323. No computation changes. 0 of 19.
