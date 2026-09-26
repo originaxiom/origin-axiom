@@ -31,4 +31,5 @@ S6  Fibonacci word: (n, #factors, #letter-count images) for n = 1..5, 30, 60: [(
     all n <= 60: factors = n+1, images = 2: True
     positive words of length 1..12: 8190; distinct in F2: True; distinct in Z^2: False (90 images); freq(a) = 0.618034 (1/phi = 0.618034)
 S7  SnapPy: {'b++LR = m004': True, 'b-+L = m000': True, 'm000 orientable': False, 'cover(m000) = m004': True, 'vol m000, m004': (1.0149416064, 2.0298832128), 'm004(0,1)': ('contains flat tetrahedra', 'Z', 0.0), 'b1 = 1 fillings': [(0, 1)]}
+S8  minimality points the other way: word lengths (sigma, sigma^2) = (3, 5) | least volumes of 800 census manifolds: [(1.0149416064, 'm000', 'non-orientable'), (1.8319311884, 'm001', 'non-orientable'), (2.0298832128, 'm002', 'non-orientable')] | orientable minimum: [(2.0298832128, 'm003', 'orientable'), (2.0298832128, 'm004', 'orientable')]
 DONE

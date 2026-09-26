@@ -44,3 +44,9 @@ def test_the_three_siblings_in_snappy():
     out = P.s7_snappy()
     assert out["b++LR = m004"] and out["b-+L = m000"] and out["cover(m000) = m004"] and not out["m000 orientable"]
     assert out["m004(0,1)"][1] == "Z" and out["b1 = 1 fillings"] == [(0, 1)]
+
+
+def test_minimality_would_choose_gieseking():
+    low, lengths, omin, nscan = P.s8_minimality()
+    assert lengths == (3, 5) and low[0][1] == "m000" and nscan == 800
+    assert {r[1] for r in omin} == {"m003", "m004"}

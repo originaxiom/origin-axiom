@@ -7843,6 +7843,7 @@
     "trace_map",
     "eisenstein",
     "golden",
+    "amphichiral_cp",
     "torsion",
     "symplectic",
     "lorentzian"
@@ -7856,12 +7857,13 @@
     "S4",
     "S5",
     "S6",
-    "S7"
+    "S7",
+    "S8"
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 5,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B138": {
    "slug": "s031 principal lemma",

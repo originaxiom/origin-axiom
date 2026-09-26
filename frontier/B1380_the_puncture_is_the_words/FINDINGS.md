@@ -93,6 +93,21 @@ Orientation remains C5 — "choosing the child of the parent" (B1003) — and is
 the words route. Its price is unchanged: the discarded sibling is m004's own orientation quotient, with every face of the object
 present.
 
+*Addendum (the same day; S8 in `verification/puncture.py`).* Two facts sharpen what this last fragile axiom is. **It chooses
+against the chain's own minimality:** σ is the shorter substitution (|σ(a)| + |σ(b)| = 3 against 5 for σ²), and its mapping
+torus, the Gieseking manifold, is the least-volume cusped hyperbolic 3-manifold of all (Adams 1987; checked on SnapPy's first
+400 orientable and 400 non-orientable cusped census manifolds: m000 at 1.0149416064 alone, the orientable minimum m003/m004 at
+exactly twice that). A minimality principle applied at C5, as C1 and C2 apply it earlier, would pick the Gieseking manifold;
+C5 overrides it. **And it is the axiom that builds the walls:** B1234 (2026-09-02, on this branch) showed that taking the
+orientable member forces amphichirality through the orientation double cover (40 of 40 orientation covers in the census
+amphichiral against a 3.0 % base rate), and that all eight banked walls follow from amphichirality — k-blindness, CS = 0,
+chirality, the CP sign, the naming wall, box D, the value-kernel, no-forced-choice. So the chain's one remaining fragile
+entrance axiom and the programme's central obstruction are the same choice. B1234's own caution stands: dropping it is not
+shown to open anything — Chern–Simons theory, the complex volume and SL(2, ℂ) representation theory all use orientation, and
+on the Gieseking manifold chirality is not even defined. Neither fact is new mathematics (Adams; B1234); their conjunction
+with this arc's result is the point: after B1380, *the entrance's only fragile choice is the one that makes the object
+amphichiral*. Lock: `test_minimality_would_choose_gieseking`.
+
 ## 6. For main (relayed, not applied)
 
 The paper's §axioms and chain table price the entrance at two fragile axioms, orientation and the puncture. On the words route —

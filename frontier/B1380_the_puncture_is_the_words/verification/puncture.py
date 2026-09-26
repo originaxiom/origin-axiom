@@ -20,6 +20,8 @@ Sections (each asserts; the run log is puncture_run.txt):
      (letter-count) images, for every n <= 60; positive words inject into F2 and not into Z^2
   S7 SnapPy: b++LR = m004 (sigma^2 on the once-punctured torus), b-+L = m000 = Gieseking (sigma itself, orientation
      reversing; its orientation cover is m004), m004(0,1) = the closed torus bundle (flat tetrahedra: Sol; H1 = Z)
+  S8 (addendum) minimality points the other way at C5: sigma is the shorter substitution and its mapping torus, the
+     Gieseking manifold, is the least-volume cusped hyperbolic 3-manifold (Adams 1987; census check)
 Usage: python3 puncture.py"""
 import sys, os, math, itertools, random, warnings
 warnings.filterwarnings("ignore")
@@ -218,6 +220,26 @@ def s7_snappy():
     return out
 
 
+def s8_minimality(n=400):
+    """Addendum (2026-09-26): what the orientation axiom chooses against. The substitution's own length favours sigma
+    (|sigma(a)| + |sigma(b)| = 3 against 5 for sigma^2), and sigma's mapping torus, the Gieseking manifold, is the least
+    volume cusped hyperbolic 3-manifold (Adams 1987; checked here on SnapPy's first n orientable and n non-orientable
+    cusped census manifolds). The orientable minimum is m003/m004."""
+    import snappy
+    rows = []
+    for cen, tag in ((snappy.OrientableCuspedCensus, "orientable"), (snappy.NonorientableCuspedCensus, "non-orientable")):
+        for i, M in enumerate(cen):
+            if i >= n:
+                break
+            rows.append((round(float(M.volume()), 10), M.name(), tag))
+    rows.sort()
+    lengths = (sum(len(SIGMA[g]) for g in (A, B)), sum(len(SIGMA2[g]) for g in (A, B)))
+    orient_min = [r for r in rows if r[2] == "orientable"][:2]
+    assert rows[0][1] == "m000" and rows[1][0] > rows[0][0] and lengths == (3, 5)
+    assert {r[1] for r in orient_min} == {"m003", "m004"} and abs(orient_min[0][0] - 2 * rows[0][0]) < 1e-9
+    return rows[:5], lengths, orient_min, len(rows)
+
+
 if __name__ == "__main__":
     print("S1  sigma, sigma^2 automorphisms of F2:", s1_automorphisms())
     s1, s2, good, dets = s2_orientation()
@@ -243,4 +265,7 @@ if __name__ == "__main__":
     print("    positive words of length 1..12: %d; distinct in F2: %s; distinct in Z^2: %s (%d images); freq(a) = %.6f"
           " (1/phi = %.6f)" % (nw, i2, iz, nz, freq, 2 / (1 + 5 ** 0.5)))
     print("S7  SnapPy:", s7_snappy())
+    low, lengths, omin, nscan = s8_minimality()
+    print("S8  minimality points the other way: word lengths (sigma, sigma^2) =", lengths,
+          "| least volumes of %d census manifolds:" % nscan, low[:3], "| orientable minimum:", omin)
     print("DONE")

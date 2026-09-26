@@ -96,11 +96,13 @@ inexhaustible; existence is that inexhaustibility taking form.
 - **C4 [AXIOM — the geometric carrier; PRICED]** The word is realized on the
   once-punctured torus. Price (F8, GEOMETRY-NECESSARY): non-geometric carriers
   (tiling hull; Effros–Shen algebra, K₀ = ℤ[φ]) see only the *hearing* —
-  **ℚ(√−3) is bought at geometrization and nowhere earlier.**
+  **ℚ(√−3) is bought at geometrization and nowhere earlier.** *(B1380: "once-punctured" is implied — no closed surface has
+  fundamental group F₂, and only the once-punctured torus realizes σ; the closed-torus sibling carries the letter counts.)*
 - **C5 [AXIOM — orientation; PRICED, the most expensive]** Monodromy taken
   orientation-preserving (golden *squared*). Price (F5, FRAGILE): the discarded
   sibling is the Gieseking manifold — m004's own orientation double-cover parent.
-  *Orientation = choosing the child of the parent.*
+  *Orientation = choosing the child of the parent.* *(B1380: now the one fragile entrance axiom; it overrides minimality —
+  the parent is the least-volume cusped hyperbolic 3-manifold, Adams 1987 — and it is the choice that builds the walls, B1234.)*
 - **C6 [THEOREM — Thurston/Riley]** The mapping torus of the once-punctured
   torus under [[2,1],[1,1]] **is the figure-eight knot complement** m004: unique
   hyperbolic structure, trace field ℚ(√−3), *the* arithmetic knot.

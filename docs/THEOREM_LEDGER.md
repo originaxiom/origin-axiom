@@ -94,7 +94,9 @@ det −1 sibling IS the Gieseking manifold — m004's own orientation double cov
 **Orientation = choosing the child of the parent.** Lock: same file.
 **Now the one independent fragile axiom on the words route (B1380):** σ and σ² are both realized on the once-punctured
 torus (σ sends [a, b] to a conjugate of [a, b]⁻¹, σ² to a conjugate of [a, b]); their mapping tori are the Gieseking
-manifold (b-+L = m000) and m004, and nothing in C1–C4 chooses between them.
+manifold (b-+L = m000) and m004, and nothing in C1–C4 chooses between them. It chooses **against** minimality — σ is the shorter
+substitution and the Gieseking manifold the least-volume cusped hyperbolic 3-manifold (Adams 1987; B1380 S8) — and it is the
+axiom that builds the walls (B1234: the orientable choice forces amphichirality, and all eight banked walls follow).
 
 **C6 [THEOREM — Thurston/Riley; banked realization].** The mapping torus of the
 once-punctured torus under [[2,1],[1,1]] is the figure-eight knot complement: unique

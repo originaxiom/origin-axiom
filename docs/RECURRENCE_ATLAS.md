@@ -13,8 +13,8 @@
 THE RECURRENCE ATLAS -- context card
   corpus: 1225 frontier probes; status {'open': 69, 'banked': 813, 'dead': 320, 'dormant': 23}
   the ONE conserved first integral: kappa (recurs 269x, 21%) -- genuine unity, MUST recur
-  top recurring motifs: eisenstein(695), golden(685), firewall(632), figure_eight(529), amphichiral_cp(458), metallic(454)
-  recurrence is: structural-invariant 4801 mentions | conserved-integral 269 | TOOL 447
+  top recurring motifs: eisenstein(695), golden(685), firewall(632), figure_eight(529), amphichiral_cp(459), metallic(454)
+  recurrence is: structural-invariant 4802 mentions | conserved-integral 269 | TOOL 447
   the honest split: the trace-map TOOL is in 447 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral
   top meeting-point candidates: B530, B156, B521, B309, B598, B1189
   (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())
@@ -30,7 +30,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 | golden | 685 | 55% | arithmetic | structural | arithmetic | the golden end: Q(sqrt5), phi, E8, 2I |
 | firewall | 632 | 51% | structure | structural | meta | the firewall / structural theorem / form-not-values |
 | figure_eight | 529 | 43% | object | no | topology | the simplest hyperbolic knot; the carrier object |
-| amphichiral_cp | 458 | 37% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
+| amphichiral_cp | 459 | 37% | symmetry | structural | topology | amphichirality / the CP sign +-pi/6 / CS=0 |
 | metallic | 454 | 37% | structure | structural | arithmetic | the metallic family lambda_m tower (golden/silver/bronze) |
 | trace_map | 447 | 36% | dynamics | tool | dynamics | the trace map / Dehn-twist words / monodromy / substitution -- the METHOD |
 | closing | 395 | 32% | question | structural | topology | what closing the open object supplies and costs -- Dehn filling, the seam, the constitutive closure (B286/B287/B294) |
@@ -56,7 +56,7 @@ The **conserved-status** is the honest axis: a **first-integral** *must* recur (
 ### The honest split — unity vs the hammer
 
 - **Genuine unity:** the one conserved **first integral** `κ = tr[a,b]` recurs in **269** probes (21%). A first integral is *conserved by the trace map ∀m* (K001/K007), so it **must** recur — this recurrence is forced, not chosen.
-- **Structural invariants** (the two ends, ω, the Dickson parity, …): **4801** mentions — invariants of the object's transforms.
+- **Structural invariants** (the two ends, ω, the Dickson parity, …): **4802** mentions — invariants of the object's transforms.
 - **The hammer (selection effect):** the trace-map **tool** appears in **447** probes (36%). This recurrence is *because it is our method* — it is **not** evidence of unity. The atlas keeps this separate on purpose (verify-don't-trust).
 
 ## The cycle — obstacle → which motif historically resolved it

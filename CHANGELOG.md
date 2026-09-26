@@ -1,5 +1,9 @@
 # Changelog
 
+## B1380 addendum — the entrance's last fragile axiom (orientation) chooses against the chain's own minimality (σ is the shorter substitution; its mapping torus, the Gieseking manifold, is the least-volume cusped hyperbolic 3-manifold, Adams 1987, checked on 800 census manifolds) and is the axiom B1234 showed builds all eight walls (the orientable choice forces amphichirality); no new mathematics, their conjunction with B1380 recorded
+
+Lock: `tests/test_b1380_the_puncture_is_the_words.py::test_minimality_would_choose_gieseking`. Surfaces: B1380 §5, THEOREM_LEDGER C5, THE_END_TO_END_CHAIN C4/C5. 0 of 19.
+
 ## The whole-suite fast lane on 10a7e2f1 (6 266 passed, 10 failed, 52 skipped, 41 deselected; 1 h 25 min) read failure by failure, and this seat's eight unrouted negatives routed: of the ten failures, seven pre-date the seat's recent work and are fixed on main after this branch forked (872babe4: four fresh-clone artifacts, B1062/B1063/B1137/B646; 5fd9ecc5: three numerical locks, B511/B565/B616) — cited, not ported; two are the pre-existing relay-debt gate and B887's all-gates lock that reads it; one was this seat's own — B833's lock found B1361, B1363, B1365, B1367, B1368, B1369, B1372, B1373 (NEGATIVE verdicts) absent from the kill graph, now routed in B836's form, judgement fields unset
 
 Kill-graph tests 86 passed. No computation changes. 0 of 19.

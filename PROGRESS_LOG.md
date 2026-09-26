@@ -15224,3 +15224,17 @@ all-gates-pass lock, which reads the same gate. One was this seat's own debt: te
 seat (B1361, B1363, B1365, B1367, B1368, B1369, B1372, B1373) absent from the kill graph; routed now in B836's form
 (`frontier/B738_pathfinder_compiler/kill_graph.json`, kill_form unrouted-unclassified, priority UNTRIAGED, the judgement fields
 deliberately unset, routed_from sm-branch-2026-09-26-catchup); the kill-graph tests pass (86). No computation changes. 0 of 19.
+
+### B1380 addendum — the last fragile axiom chooses against minimality, and it is the one that builds the walls (2026-09-26)
+
+After B1380 left orientation as the entrance's one fragile axiom, two facts were checked before anything else was claimed (E54
+rule: both records swept, main @ 987c0c8f included; neither states them together). First, minimality points the other way at
+C5: σ is the shorter substitution (lengths 3 against 5 for σ²) and its mapping torus, the Gieseking manifold, is the least-volume
+cusped hyperbolic 3-manifold of all (Adams 1987) — S8 of `puncture.py` confirms it on SnapPy's first 400 orientable and 400
+non-orientable cusped census manifolds (m000 at 1.0149416064 alone; the orientable minimum m003/m004 at exactly twice that).
+Second, B1234 (2026-09-02, on this branch) had already shown that the orientable choice forces amphichirality through the
+orientation double cover and that all eight banked walls follow from amphichirality. So after B1380 the entrance's only fragile
+choice is the one that makes the object amphichiral; B1234's caution kept verbatim (CS, the complex volume and SL(2,ℂ)
+representation theory use orientation; on the Gieseking manifold chirality is undefined, so dropping the axiom is not shown to
+open anything). No new mathematics — Adams and B1234 — only their conjunction with B1380. Lock: B1380's sixth test. Surfaces:
+B1380 §5 addendum, THEOREM_LEDGER C5, THE_END_TO_END_CHAIN C4/C5 pointers. 0 of 19.
