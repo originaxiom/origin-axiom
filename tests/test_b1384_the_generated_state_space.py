@@ -14,6 +14,7 @@ _spec.loader.exec_module(H)
 
 def test_signed_state_and_common_sl5():
     assert H.s0_signed_state() == "(L^2 R^-1)^2 = -I"
+    assert H.s0b_the_swap_and_the_orientation_fork() == {"sigma": "RP", "sigma^2": "RL", "(P sigma P)^2": "LR"}
     out = H.s1_common_sl5()
     assert out == {"centraliser_roots": 20, "e6_roots": 72, "family": 6, "mixed": 12}
 

@@ -2955,6 +2955,16 @@ the spin-bit question is open in both directions. sL-3's target is unchanged and
 weaker data, or show that the orientation pair is a naturality torsor (then no natural selector exists and the fork is
 structural).* `frontier/B1384_the_generated_state_space`.
 
+**sL-3, sharpened the same day (B1384 addendum, S0b).** The golden substitution's matrix is σ = RP, where P is the record
+swap generating the A7 order torsor. σ² = RL and (PσP)² = LR, so the orientation fork and the order bit are built from one
+element. The fork is therefore not "which object does C5 choose" but **the semantic type of P**:
+- redescription (a symmetry): the root is m004 and the Gieseking manifold is its quotient;
+- move (a legal update): σ is generated as the smaller state and m004 is its square.
+
+Both are in the architecture either way. This is sL-5's question asked at the genesis itself, and sL-3's target is now to
+decide P's type — from the uniqueness axioms' own semantics (what "reversible record transfer" admits), not by pricing a
+deletion.
+
 ## sL-4 — THE RELATIVE SL₅ COMPONENT SEARCH ON M₂ (registered 2026-09-27, B1384; the web seats' next mathematical gate)
 
 **What is settled.**

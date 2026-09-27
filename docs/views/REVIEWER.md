@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1232** |
-| words of findings prose | **937,659** |
+| words of findings prose | **937,901** |
 | test lock files referenced | **746** |
 | arcs carrying an authored verdict | **1232** (100.0 %) |
 | recorded closures | **792** (617 classified, 175 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1384`** (2316 words, 1 locks)  
+**PROVED — `B1384`** (2558 words, 1 locks)  
 THE GENERATED STATE SPACE: the web seats' corrective handoff of 2026-09-27 adopted with its fences -- the genesis update laws define a pointed generated state space X_gen = (reachable states, native moves, equivalences, root) and m004 is its distinguished minimal positive mixed root, not the whole of it; m003 (-LR, with -I = (L^2 R^-1)^2) is a generated signed state, m010 a later state distinguished by first cubic self-hosting, the Gieseking/orientation fork stays represented and m004 is conditional on the orientation axiom until it is derived; no generated arrow is physical time; delta and the deck C3 stay distinct. Post-checkpoint mathematics: the handoff's 13 verifiers reproduce unchanged (outputs identical), and own code confirms (S1) the common SL5 -- the SM centraliser in E8 is exactly ws:R40's structure A4 (20 roots) + u1_Y, the E6 through the gauge A4 has SM centraliser +-beta, the structure A4 = sl2_beta + A2_family + 12 mixed; (S2) the parabolic lemma (X cancels; N(n_+) = P_{2,3}); (S3) one versus three is Shapiro plus Mackey on Gamma6 normal in Gamma2 (Ind V on M2 has exactly V's five cohomology numbers on 30 non-split seeds, 6 with I != 0; T^3 = rho(mu6) blockwise, (T^3-1)^2 = 0 when unipotent); (S4) Sym^4(rho_geo) self-dual so I = 0, and its four cusp-trivial order-5 twists have (0,1,1,2,1) for V and V*, I = 0, at three primes. The web seat's M6 weighted total 67 200 equals B1375's own M6 count. B1383's 'A6 excludes the gauged role' corrected: excluded only conditionally on A6. Hypothesis-scoped negative inheritance registered as a practice; ws:R40 vs fc R40 label collision recorded. Physical generations and the relative SL5 component search stay open. 0 of 19.  
 `B1384_the_generated_state_space/FINDINGS.md`
 

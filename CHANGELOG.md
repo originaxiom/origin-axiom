@@ -1,5 +1,9 @@
 # Changelog
 
+## P022 — the generated state space: the genesis philosophy shift understood at its source — it is the programme's own day-0 stance (METALLIC_FOUNDATIONS/P000: a unique seed would be "the suspicious outcome"; fixed points come as sets) applied past the point where P019's "to-a-unique-object" left it; B1384 addendum S0b: σ = RP with P the record swap of the A7 torsor, σ² = RL, (PσP)² = LR — the orientation fork is a question of P's semantic type
+
+Read the web seats' audit, foundational position, premise correction and argument history beside this folder's P000–P019. philosophy/P022 (motivation only, one-way citations); P019 dated correction; B1384 addendum and lock; OPEN_LEADS sL-3 sharpened. 0 of 19.
+
 ## B1384 — the generated state space: the web seats' corrective handoff adopted with its fences — the genesis laws define a pointed generated state space and m004 is its distinguished root, not the whole of it (m003 a generated signed state, m010 a later first-cubic self-hosting state, the orientation fork kept while C5 is declared, no generated arrow is time); the post-checkpoint mathematics re-runs 13/13 and its load-bearing claims are re-derived with own code: the common SL₅ in E8, the parabolic lemma, "one versus three" as Shapiro's lemma on Γ₆ ◁ Γ₂, the Sym⁴ order-5 twists at I = 0
 
 Own code (own Reidemeister–Schreier covers, induction and E8 roots, with B1374's index library), about 35 s. The web seats' 67 200 weighted M₆ backgrounds equal B1375's count. B1383's "A6 excludes the gauged role" corrected (E1). New leads sL-4 (relative SL₅ search on M₂) and sL-5 (transition semantics). ws:R40 label recorded. Surfaces: docs/THEOREM_LEDGER.md, B1379, B1380, B1383, B1375, B1378, THE_END_TO_END_CHAIN, THE_SM_VERDICT, OPEN_LEADS, PRACTICES, README, ERROR_LEDGER, RETRACTIONS, RETRACTED_PHRASES, the letter's forty-sixth note, the alias table. 0 of 19.

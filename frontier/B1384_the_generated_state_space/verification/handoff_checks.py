@@ -48,6 +48,24 @@ def s0_signed_state():
     return "(L^2 R^-1)^2 = -I"
 
 
+def s0b_the_swap_and_the_orientation_fork():
+    """The record swap P (the symmetry of the uniqueness axioms: P L P = R, the generator of the LR/RL order torsor) and
+    the golden substitution sigma: a -> ab, b -> a.  sigma's matrix is R P (a shear, then the swap): det -1, trace 1 -- the
+    Gieseking monodromy (B1380).  Its square is RL, and the P-conjugate P sigma P = P R squares to LR: the order torsor
+    {LR, RL} is the square of {sigma, P sigma P}.  The orientation fork and the order torsor are made of the same P."""
+    def mm(X, Y):
+        return [[sum(X[i][k] * Y[k][j] for k in range(2)) for j in range(2)] for i in range(2)]
+    L, R, P = [[1, 0], [1, 1]], [[1, 1], [0, 1]], [[0, 1], [1, 0]]
+    sigma = mm(R, P)
+    assert sigma == [[1, 1], [1, 0]]                                        # a -> ab, b -> a on letter counts
+    assert sigma[0][0] * sigma[1][1] - sigma[0][1] * sigma[1][0] == -1 and sigma[0][0] + sigma[1][1] == 1
+    assert mm(mm(P, R), P) == L and mm(mm(P, L), P) == R                    # the swap exchanges the shears
+    psp = mm(mm(P, sigma), P)
+    assert psp == mm(P, R)                                                  # P sigma P = P R
+    assert mm(sigma, sigma) == mm(R, L) and mm(psp, psp) == mm(L, R)        # the squares are the order torsor
+    return {"sigma": "RP", "sigma^2": "RL", "(P sigma P)^2": "LR"}
+
+
 # ----------------------------------------------------------------------------------------------------------- S1
 def e8_roots():
     roots = []
@@ -379,6 +397,8 @@ def s4_sym4_twists():
 
 if __name__ == "__main__":
     print("S0 ", s0_signed_state(), "-> -LR (m003) is generated once inverses are admitted")
+    print("S0b the swap and the orientation fork:", s0b_the_swap_and_the_orientation_fork(),
+          "-> sigma = RP (the Gieseking monodromy) squares to RL; its P-conjugate squares to LR")
     print("S1  common SL5:", s1_common_sl5(), "-> c_E8(SM) = structure A4 + u1_Y; in an E6 through the gauge A4 the SM"
           " centraliser is {+-beta}, and the structure A4 = sl2_beta + A2_family + 12 mixed")
     print("S2  parabolic lemma:", s2_parabolic_lemma())

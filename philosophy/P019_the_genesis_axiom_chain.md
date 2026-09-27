@@ -72,6 +72,13 @@ The honest ledger: **one deep axiom, two engineering choices, plus theorems.** "
 to existence" was never on the table; one-deep-axiom-to-a-unique-object is the claim, and the
 forks below price it.
 
+> **Corrected 2026-09-27 (`P022`).** "To-a-unique-object" is where this chain left `P000`/`METALLIC_FOUNDATIONS`'s own
+> stance (a foundation producing a unique seed is "the suspicious outcome"). Read now: the chain's output is the **root** of
+> the architecture its native moves generate — a pointed generated state space. It is not the whole of the object. The
+> forks price *selectors* (basepoints, torsor trivializations, declared choices), not deletions: their alternatives —
+> the Gieseking manifold (F5), the signed partner m003, the later rungs — stay in the architecture. The orientation fork
+> becomes a question about the semantic type of the record swap P (σ = RP, σ² = RL; B1384 S0b), not a price.
+
 ## The fork table (what B749 computes; two-outcome per fork, both outcomes wins)
 
 | fork | the varied link | the sibling object | expectation to test (not assume) |

@@ -156,6 +156,25 @@ generations is a question about the deck's physical status. The mathematics does
 - D, the 15-pairing census and the nine native M2 loci are reproduced with their code only.
 - The convention changes readings, not computations: no banked number on this branch moves.
 
+## Addendum (the same day): the swap and the orientation fork — S0b
+
+The record swap P = [[0,1],[1,0]] is the symmetry of the uniqueness axioms: P L P = R, P R P = L, and it generates the
+LR/RL order torsor. The golden substitution σ: a → ab, b → a has matrix **σ = RP** (det −1, trace 1) — the Gieseking
+monodromy of B1380. Exactly (`handoff_checks.py`, S0b):
+
+- **σ² = RL**, so σ's square is m004's monodromy.
+- The P-conjugate is PσP = PR, and **(PσP)² = LR**.
+- So the order torsor {LR, RL} is the square of the pair {σ, PσP}.
+
+The orientation fork (B1380; the spin bit, B1382–B1383) and the order bit A7 are built from the same element P. In the
+generated-state-space convention the fork is therefore a question about P's semantic type:
+- **P is a redescription** (a symmetry of the record, as the web seats' transition table classes LR ↔ RL). Then the root
+  of the positive grammar is m004 = [LR], and the Gieseking manifold is its orientation quotient.
+- **P is a legal update.** Then σ = RP is generated; by B1380's measures (substitution length 3 against 5; volume
+  1.0149… against 2.0298…) it is the smaller state, and m004 is its square — the orientation double cover of that root.
+
+Both states are in the architecture in either reading; only P's type is undecided. Registered in OPEN_LEADS sL-3 and sL-5.
+
 ## Verification
 
 - `verification/handoff_checks.py` (S0–S4, about 35 s); record `handoff_checks_run.txt`.

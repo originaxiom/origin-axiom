@@ -15390,3 +15390,41 @@ PRACTICES (hypothesis-scoped negative inheritance and its reading rule), README,
 RETRACTED_PHRASES, the letter's forty-sixth note, the alias table.
 
 Verdict PROVED plus ADOPTED; lock four tests, about 25 s. 0 of 19.
+
+### P022 and B1384's addendum — the philosophy shift around genesis, understood at its source (2026-09-27)
+
+The owner: *"the most important is to understand the philosophy shift around genesis."* B1384 had adopted the web seats'
+convention as wording. This entry goes to the source.
+
+**Read.** The web seats' no-unforced-collapse audit, their foundational position, their premise correction and their argument
+history (including the owner's question that started it: if genesis selected m004, why m010 — what if the native principle
+generates several carriers, with reality described by their relations). Beside it, this programme's own philosophy:
+METALLIC_FOUNDATIONS, P000, P001, P002, P005, P011, P012 and P019.
+
+**Finding.** The shift is the programme's day-0 stance applied all the way down; it is not new. METALLIC_FOUNDATIONS and P000
+already say that a foundation producing a unique seed would be "the suspicious outcome", that "fixed-point phenomena generically
+give sets, not points", and that forcing a single seed hides the choice. P001 frames the theory as the architecture of the
+possible. P011/P012 separate generation (internal, atemporal) from actualization (picking one). The slip is P019's "one-deep-
+axiom-to-a-unique-object is the claim". From there each fork's alternative became a discarded object, and later structures
+(m003, m010, the covers, the Gieseking parent) became detours needing excuses.
+
+The web seats made the correction exact:
+- forced = natural under the prior data's automorphisms, so a free orbit forces the orbit, not a point, and minimality selects
+  orbits;
+- primitive moves plus composition force a generated closure;
+- state space, one history and coexistence are three separate claims, and only the first is derived.
+
+**New mathematics (B1384 addendum, S0b, exact).** The golden substitution's matrix is σ = RP, where P is the record swap that
+generates the A7 torsor; σ² = RL and (PσP)² = LR. So the orientation fork and the order bit are made of one element, and
+sL-3's question becomes P's semantic type. If P is a redescription, m004 is the root and the Gieseking manifold its quotient;
+if P is a move, σ is generated as the smaller state and m004 is its square.
+
+**Banked.**
+- philosophy/P022, the generated state space: motivation only, citing the mathematics one-way.
+- P019's dated correction at "to-a-unique-object".
+- The B1384 addendum and lock (S0b).
+- OPEN_LEADS sL-3 sharpened.
+
+The seat's own implication, recorded in P022: the owner's earlier objection that the research had become target-driven is
+THE_ORIGIN_POSTULATE's UNSOUGHT criterion. So "0 of 19" stays an honest scoreboard of what is not derived, never a steering
+target. 0 of 19.
