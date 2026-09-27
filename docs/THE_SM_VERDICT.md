@@ -690,3 +690,20 @@ left it.
 >   forces N₀ + N₂ = 0 (L3, the global parity).
 >
 > The ingredient's address is sL-6. 0 of 19 (`frontier/B1385_the_states_together`).
+
+> **Currency note (2026-09-27, B1386): the open Eisenstein cusp.** sL-6's address has an occupant, one cover level above B1385's
+> nearest miss.
+> - **The member.** cube~3.24 is a degree-9 cover of o10_150725: chiral, four cusps, isometry group D₃, volume 45·vol(m004).
+>   It was found by searching all 183 covers of ocube06_08812 of degree 2 and 3; it is the only open one of 8 rotation-carrying
+>   classes.
+> - **The class.** Its one cuspidal class v₊ is also its one class fixed by every isometry. No isometry negates it, so neither
+>   parity (B1369, L3) applies.
+> - **The index.** A new congruence (L4: where an order-3 isometry rotates a cusp, χ(∂⁺) ≡ the number of its fixed points in ∂⁺,
+>   mod 3) gives **N(v₊) ≡ ±1 (mod 3)**. That holds provided the harmonic form's first Fourier coefficient at the Eisenstein cusp
+>   is non-zero at a phase off six values: B1370's kind of residual, not proved.
+> - **What it is, and is not.** It is the record's first chiral index protected by the manifold's own symmetry. It is inside the
+>   seat's frame, for the spin-0 half only, and it is **not three** (N ≢ 0 mod 3). A degree-3 cover triples any index, so a
+>   three by that route is B1384's one-versus-three question (sL-5), not a derivation (sL-7).
+>
+> No physics is crossed: the frame is assumed, and the spin-½ half and the SM conditions are untouched. 0 of 19
+> (`frontier/B1386_the_open_eisenstein_cusp`).

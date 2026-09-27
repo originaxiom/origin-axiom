@@ -15457,3 +15457,41 @@ questioned, motivation only.
 **The answer, in one line.** The words cannot supply the ingredient. The covers can, only inside m004's own class. There the
 object's own Eisenstein arithmetic makes chirality generic wherever no symmetry negates the Higgs class, and every candidate so
 far has such a symmetry. 0 of 19.
+
+---
+
+## 2026-09-27 — B1386: the open Eisenstein cusp (sL-6; resumed under /goal)
+
+**The search.** All 183 covers of ocube06_08812 of degree 2 and 3, one level above B1385's nearest miss.
+- The rotation filter finds 18 carrying a rotated cusp, in 8 isometry classes.
+- B1385's Eisenstein analysis closes seven classes: six by an isometry negating the invariant classes (L3), one by the cusps'
+  mirrors.
+- **One class stays open: cube~3.24** (≅ ~3.80 ≅ ~3.105), a degree-9 cover of o10_150725. It has 90 tetrahedra, volume
+  45·vol(m004) and four cusps; its isometry group is D₃, all orientation-preserving.
+
+**The member** (B1369's and B1370's instruments, unchanged).
+- The order-3 isometry R rotates cusps 0 and 3 and translates cusps 1 and 2.
+- V = H¹(M)^R has dimension 3; the swaps act on it with eigenvalues +1, −1, −1.
+- H¹(M)^{Isom} = ⟨v₊⟩ is exactly the cuspidal line, and no isometry negates v₊.
+- Leading allowed shells: the first hexagonal shell at cusps 0 and 3, one direction at 1, the √3-shell at 2.
+
+**New lemma, L4 (the fixed-point congruence).** χ(∂⁺) ≡ #(rotation fixed points in ∂⁺) (mod 3) where an order-3 isometry fixing
+the class rotates the cusp, and ≡ 0 where it translates. Hence **N(v₊) ≡ ±1 (mod 3)** whenever the first Fourier coefficient at
+the Eisenstein cusp is non-zero at a non-degenerate phase: never 0, never ±3.
+- Controls: the Morse count is primary; Newton is seeded at the fixed points and the search refined until complete. The grid is
+  the cross-check where the partition is resolved.
+- The congruence holds on 120/120 model fields and on 1439/1439 regular fields of the member (one degenerate sample excluded and
+  counted).
+- The first grid-only run had two resolution failures; that is why the Morse count is primary.
+
+**Also.** A memory failure in B1369's exact homology on the signature-relabelled triangulation (sympy's fraction-free elimination)
+was avoided by running on the covering path's own labelling, pinned by its decorated signature.
+
+**Banked.** B1386: FINDINGS, verdict and lock (3 fast tests, 2 slow). Also: the sL-6 status; new lead sL-7, the Eisenstein triple;
+registry rows T-FIXED-POINT-CONGRUENCE and T-OPEN-EISENSTEIN-CUSP; the SM_VERDICT currency note; the README pointer; the alias table
+(next B1387).
+
+**The owner asked "did we cross physics on any level yet?"** No. Everything is mathematics, some of it computed inside a physics
+frame that is assumed, not derived. B1386 is the frame's first symmetry-protected chiral index: spin-0 half, conditional on one
+coefficient, not three. 0 of 19.
+

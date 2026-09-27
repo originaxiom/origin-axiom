@@ -1,0 +1,49 @@
+# B1386 S1 -- the search on ocube06_08812's covers of degree 2 and 3 (eisenstein_search.py; filter, then analysis in four parallel parts)
+  cube~2.1 cyclic cusps 5 |Isom| 36 amphichiral False rotation cusps [0, 1, 3, 4]
+S1(a) degree 2: 7 covers, 1 with a rotated cusp: [1]
+DONE ['filter', '2']
+  cube~3.24 irregular cusps 4 |Isom| 6 amphichiral False rotation cusps [0, 3]
+  cube~3.27 cyclic cusps 5 |Isom| 18 amphichiral False rotation cusps [0, 4]
+  cube~3.28 irregular cusps 4 |Isom| 6 amphichiral False rotation cusps [0, 3]
+  cube~3.33 cyclic cusps 9 |Isom| 216 amphichiral True rotation cusps [0, 1, 2, 6, 7, 8]
+  cube~3.55 cyclic cusps 5 |Isom| 18 amphichiral False rotation cusps [0, 4]
+  cube~3.60 cyclic cusps 5 |Isom| 18 amphichiral False rotation cusps [0, 4]
+  cube~3.80 irregular cusps 4 |Isom| 6 amphichiral False rotation cusps [0, 3]
+  cube~3.81 cyclic cusps 5 |Isom| 18 amphichiral False rotation cusps [0, 4]
+  cube~3.82 irregular cusps 4 |Isom| 6 amphichiral False rotation cusps [0, 3]
+  cube~3.93 irregular cusps 8 |Isom| 18 amphichiral False rotation cusps [0, 1, 2, 5, 6, 7]
+  cube~3.102 cyclic cusps 5 |Isom| 18 amphichiral False rotation cusps [0, 4]
+  cube~3.103 irregular cusps 4 |Isom| 6 amphichiral False rotation cusps [0, 3]
+  cube~3.105 irregular cusps 4 |Isom| 6 amphichiral False rotation cusps [0, 3]
+  cube~3.128 cyclic cusps 5 |Isom| 18 amphichiral False rotation cusps [0, 4]
+  cube~3.139 cyclic cusps 5 |Isom| 18 amphichiral False rotation cusps [0, 4]
+  cube~3.156 cyclic cusps 5 |Isom| 18 amphichiral False rotation cusps [0, 4]
+  cube~3.167 cyclic cusps 5 |Isom| 18 amphichiral False rotation cusps [0, 4]
+S1(a) degree 3: 176 covers, 17 with a rotated cusp: [24, 27, 28, 33, 55, 60, 80, 81, 82, 93, 102, 103, 105, 128, 139, 156, 167]
+DONE ['filter', '3']
+  cube~2.1 cyclic cusps 5 H1 Z/3 + Z/3 + Z/3 + Z/3 + Z + Z + Z + Z + Z |Isom| 36 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (1, 1, False, True, False), (3, 1, False, True, False), (4, 1, False, True, False)] (99s)
+DONE ['analyse', '2', '1']
+  cube~3.24 irregular cusps 4 H1 Z/3 + Z/3 + Z/9 + Z + Z + Z + Z + Z |Isom| 6 amphichiral False (own triangulation) free cusps 4 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 3, False, False, True), (3, 3, False, False, True)] (217s)
+  cube~3.27 cyclic cusps 5 H1 Z/3 + Z/3 + Z/3 + Z/9 + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (4, 1, False, True, False)] (170s)
+  cube~3.28 irregular cusps 4 H1 Z/3 + Z/3 + Z + Z + Z + Z + Z + Z |Isom| 6 amphichiral False (own triangulation) free cusps 4 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 2, False, True, False), (3, 2, False, True, False)] (220s)
+  cube~3.33 cyclic cusps 9 H1 Z/6 + Z/6 + Z + Z + Z + Z + Z + Z + Z + Z + Z |Isom| 216 amphichiral True (own triangulation) free cusps 9 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, True, True, False), (1, 1, True, True, False), (2, 1, True, True, False), (6, 1, True, True, False), (7, 1, True, True, False), (8, 1, True, True, False)] (203s)
+  cube~3.55 cyclic cusps 5 H1 Z/3 + Z/3 + Z/3 + Z/9 + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (4, 1, False, True, False)] (174s)
+DONE ['analyse', '3', '24,27,28,33,55']
+  cube~3.60 cyclic cusps 5 H1 Z/3 + Z/3 + Z/3 + Z/9 + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (4, 1, False, True, False)] (175s)
+  cube~3.80 irregular cusps 4 H1 Z/3 + Z/3 + Z/9 + Z + Z + Z + Z + Z |Isom| 6 amphichiral False (own triangulation) free cusps 4 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 3, False, False, True), (3, 3, False, False, True)] (210s)
+  cube~3.81 cyclic cusps 5 H1 Z/3 + Z + Z + Z + Z + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (4, 1, False, True, False)] (170s)
+  cube~3.82 irregular cusps 4 H1 Z/3 + Z/3 + Z + Z + Z + Z + Z + Z |Isom| 6 amphichiral False (own triangulation) free cusps 4 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 2, False, True, False), (3, 2, False, True, False)] (209s)
+  cube~3.93 irregular cusps 8 H1 Z + Z + Z + Z + Z + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 8 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 2, False, True, False), (1, 2, False, True, False), (2, 2, False, True, False), (5, 2, False, True, False), (6, 2, False, True, False), (7, 2, False, True, False)] (196s)
+  cube~3.102 cyclic cusps 5 H1 Z/3 + Z/3 + Z/3 + Z/9 + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (4, 1, False, True, False)] (172s)
+DONE ['analyse', '3', '60,80,81,82,93,102']
+  cube~3.103 irregular cusps 4 H1 Z/3 + Z/3 + Z + Z + Z + Z + Z + Z |Isom| 6 amphichiral False (own triangulation) free cusps 4 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 2, False, True, False), (3, 2, False, True, False)] (218s)
+  cube~3.105 irregular cusps 4 H1 Z/3 + Z/3 + Z/9 + Z + Z + Z + Z + Z |Isom| 6 amphichiral False (own triangulation) free cusps 4 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 3, False, False, True), (3, 3, False, False, True)] (216s)
+  cube~3.128 cyclic cusps 5 H1 Z/3 + Z + Z + Z + Z + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (4, 1, False, True, False)] (178s)
+  cube~3.139 cyclic cusps 5 H1 Z/3 + Z/3 + Z/3 + Z/9 + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (4, 1, False, True, False)] (172s)
+  cube~3.156 cyclic cusps 5 H1 Z/3 + Z + Z + Z + Z + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (4, 1, False, True, False)] (166s)
+  cube~3.167 cyclic cusps 5 H1 Z/3 + Z/3 + Z/3 + Z/9 + Z + Z + Z + Z + Z |Isom| 18 amphichiral False (own triangulation) free cusps 5 | rotation cusps (cusp, dim V, negated at the cusp, negated globally, OPEN): [(0, 1, False, True, False), (4, 1, False, True, False)] (172s)
+DONE ['analyse', '3', '103,105,128,139,156,167']
+S1(c) isometry classes among the degree-3 covers [24, 80, 105, 28, 82, 103, 93, 33]: [[24, 80, 105], [28, 82, 103], [93], [33]]
+DONE ['classes', '3', '24,80,105,28,82,103,93,33']
+S1(c) isometry classes among the degree-3 covers [27, 55, 60, 81, 102, 128, 139, 156, 167]: [[27, 55, 60], [81, 128, 156], [102, 139, 167]]
+DONE ['classes', '3', '27,55,60,81,102,128,139,156,167']

@@ -306,6 +306,11 @@ emitted value. The structure is the object's; the values are the observer's.
 > *And (B1385): states lend each other ingredients only along a relation that transports data, which today means the covers. So
 > the region beyond the root that can help is m004's own commensurability class. There its Eisenstein arithmetic makes a chiral
 > index generic at a hexagonal free cusp, wherever no symmetry negates the class. No such cusp is known yet (OPEN_LEADS sL-6).*
+>
+> *And (B1386): one is now known, cube~3.24, a chiral degree-9 cover of o10_150725. Its one cuspidal class is the one class every
+> symmetry fixes, and nothing negates it. A fixed-point congruence gives its index N ≡ ±1 (mod 3), provided one Fourier
+> coefficient is non-zero. That makes it chiral in the seat's frame but never three. No physics is crossed; the frame is assumed
+> (OPEN_LEADS sL-6, sL-7).*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

@@ -3067,3 +3067,51 @@ Tools: `frontier/B1385_the_states_together/verification/eisenstein_cusps.py` (B1
 `eisenstein_partition.py`. Fence: the seat's frame, spin-0 half. ★★★ — the first place in the record where a non-zero chiral index
 is the generic outcome rather than an accident.
 
+**Status (2026-09-27, B1386): the gate is passed, one level above the nearest miss.**
+- **The search.** ocube06_08812's covers of degree 2 and 3 (183) contain 18 with a rotated cusp, in 8 isometry classes. Seven
+  close: six by an isometry negating the invariant classes (L3), one by the cusps' mirrors.
+- **The open one is cube~3.24** (≅ ~3.80 ≅ ~3.105), a degree-9 cover of o10_150725:
+  - 90 tetrahedra, volume 45·vol(m004), four cusps;
+  - isometry group D₃, all six orientation-preserving (chiral).
+- **Its class.** The order-3 isometry rotates cusps 0 and 3 and translates cusps 1 and 2. The class v₊ spanning
+  H¹(M)^{Isom} is also the cuspidal line, and nothing negates it.
+- **The three checks:**
+  1. B1370's instrument: **done.** The first hexagonal shell is allowed at cusps 0 and 3, one rotation orbit.
+  2. The leading coefficient: **open.** It is one Fourier coefficient of a weight-2 cusp form, B1370's kind of residual.
+  3. The spin-½ half: **open.**
+- **New: L4, the fixed-point congruence.** χ(∂⁺) ≡ #(rotation fixed points in ∂⁺) (mod 3), and ≡ 0 where the isometry translates.
+  It gives **N(v₊) ≡ ±1 (mod 3)** under check 2, so N(v₊) ≠ 0 and N(v₊) ≠ ±3.
+- **Where three goes next (sL-7).** Pullbacks multiply the index by the degree, so a three from an orbit of cusps permuted
+  freely is three times one: B1384's cover-resolution question (sL-5), not a derivation.
+
+`frontier/B1386_the_open_eisenstein_cusp`.
+
+## sL-7 — THE EISENSTEIN TRIPLE: THREE ROTATED CUSPS IN ONE ORBIT, AND WHAT "THREE" WOULD MEAN (registered 2026-09-27, B1386)
+
+**Why.** L4 (B1386) says an index carried by one orbit of rotation fixed points is ≢ 0 (mod 3). The member B1386 found gives
+N(v₊) ≡ ±1 (mod 3): a protected chiral index, but never three.
+
+**The caveat that comes first (B1384, sL-5).** Pullbacks multiply: N(p*v) = deg(p)·N(v). So:
+- every degree-3 cover of cube~3.24 carries a class with N = 3N(v₊), which is ±3 exactly when N(v₊) = ±1;
+- a triple of cusps permuted by a *free* isometry is the pullback of one cusp of the quotient, so its three is three times one.
+
+In both cases "three" is the record's one-versus-three question (sL-5), exactly as for B1378's triplet. It is not a derivation until
+the architecture decides which level is physical.
+
+**The two targets.**
+1. **The cheap three.** Decide whether N(v₊) = ±1 on cube~3.24, i.e. whether χ₂ = −3χ₀. This needs the same analytic data as T2,
+   the coefficients at cusps 0 and 2. Then a degree-3 cover gives ±3, with the sL-5 caveat.
+2. **The non-pullback three.** A member of m004's class with all of the following:
+   - three free hexagonal cusps permuted by an isometry T that fixes a Higgs class v and has fixed points, so its quotient is an
+     orbifold;
+   - each cusp rotated by an order-3 isometry fixing v;
+   - no isometry negating v.
+
+   Then L1 and T give ∓3 from the triple, plus the rest of the cusps.
+
+**Tools.** `frontier/B1386_the_open_eisenstein_cusp/verification/eisenstein_search.py` (filter and analysis) and
+`the_open_cusp.py` (the classes, B1370's modes, L4).
+
+**Fence.** The seat's frame, spin-0 half. B1378's three (M₆'s deck triplet) is a different index and a different order-three
+element; the two are kept apart. ★ — worth doing only together with sL-5, since the cover-resolution question decides what any
+three means.

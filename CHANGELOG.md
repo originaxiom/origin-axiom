@@ -1,5 +1,9 @@
 # Changelog
 
+## B1386 — the open Eisenstein cusp: ocube06_08812's 183 covers of degree 2 and 3 searched (18 rotation-carrying, 8 isometry classes, one open); cube~3.24, a chiral degree-9 cover of o10_150725 with isometry group D₃, carries a cuspidal class fixed by every isometry and negated by none; L4 (the fixed-point congruence) gives N ≡ ±1 (mod 3) under one analytic coefficient — a protected chiral index in the seat's frame, never three
+
+Own code (SnapPy; B1369's and B1370's instruments unchanged; the Morse count with a grid cross-check). sL-6's gate passed; new lead sL-7 (the Eisenstein triple). Registry rows T-FIXED-POINT-CONGRUENCE and T-OPEN-EISENSTEIN-CUSP. No physics crossed. 0 of 19.
+
 ## B1385 — the states together: no word state has a free cusp (one cusp, b₁ = 1; joins keep it so); the swap is the mirror; the founding field ℚ(√−3) lives only on the P-fixed ±(LR)ᵏ (m010 is arithmetic over ℚ(√−7)); the covering relation confines joint use to m004's class; there the Eisenstein cusp lemma makes a chiral index generic at a rotated hexagonal free cusp, and the global parity (any isometry negating the class) closes every candidate found, including the first locally open pair, ocube06_08812 — with the mandate reworded ("follow the generated architecture")
 
 Own code (SnapPy; PARI via cypari for certified field recognition; B1369's and B1370's instruments reused unchanged). New lead sL-6 (the Eisenstein cusp); sL-1 re-derived as the architecture's refinement region; P022 addendum (the stance questioned). 0 of 19.

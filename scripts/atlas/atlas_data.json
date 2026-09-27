@@ -8008,6 +8008,39 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1386": {
+   "slug": "the open eisenstein cusp",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "B878",
+    "B922",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "S1",
+    "S13",
+    "S17",
+    "S2",
+    "S3",
+    "S4",
+    "S7"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B138": {
    "slug": "s031 principal lemma",
    "motifs": [

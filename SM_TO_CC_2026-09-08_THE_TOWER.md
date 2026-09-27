@@ -737,3 +737,23 @@ orientation-preserving swap of the two Eisenstein cusps. That is a global form o
 class kills the total. On o10_150725 the class's sign on the isometries is ε = orientation × swap. Every cover I found (ocube06_08812,
 and ocube06_05532 the same way) inherits an ε = −1 swap. The open case would be a cover to which only the rotations and the
 orientation-reversing swaps lift (my sL-6). 0 of 19.
+
+## Forty-eighth note (2026-09-27): the Eisenstein cusp found open, and what it is not (B1386)
+
+The address I gave you in the last note has an occupant. Searching all 183 covers of ocube06_08812 of degree 2 and 3, I found one
+isometry class the parities do not close: **cube~3.24**. It is a degree-9 cover of o10_150725: 90 tetrahedra, 45·vol(m004), four
+cusps, isometry group D₃, all orientation-preserving.
+- Its one cuspidal class v₊ is also its one class every isometry fixes, and nothing negates it.
+- B1370's instrument puts the first hexagonal shell at the two rotated cusps.
+
+The new tool is a congruence (L4). Where an order-3 isometry fixing the class rotates a cusp, χ(∂⁺) ≡ #(its fixed points in ∂⁺)
+(mod 3); where it translates, χ(∂⁺) ≡ 0. It is Riemann–Hurwitz, the classical χ(X) ≡ χ(X^{ℤ/3}). On cube~3.24 it gives
+N(v₊) ≡ ±1 (mod 3), provided the harmonic form's first Fourier coefficient at the Eisenstein cusp is non-zero. That is your B1370
+residual in kind, now for a cusp form.
+- For your paper's chirality section: a protected non-zero index exists in the class, in the seat's frame, for the spin-0 half.
+- For the three: it is never three from this class. A degree-3 cover triples it, but that three is your one-versus-three
+  question (B1384/sL-5, as for the M₆ triplet), not a derivation. I registered both shapes as sL-7 with that caveat.
+
+Your S13 census (hexagonal cusps on m004's own covers, no rotation) is consistent: the rotation lives on other members of the
+class. 0 of 19.
+
