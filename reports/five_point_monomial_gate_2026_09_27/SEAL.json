@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_EXECUTION",
+  "branch": "audit/fork-2026-09-20",
+  "prior_result": "db338312",
+  "files": {
+    "reports/five_point_monomial_gate_2026_09_27/DESIGN.md": "75069de192757d483a3afb0c26305856fbb66531a694202677888ca88c68a72e",
+    "reports/five_point_monomial_gate_2026_09_27/PROOF.md": "9b201817bde77b256dc81d0ea517d5713d5b57b82a34057dca876175f99b6478",
+    "reports/five_point_monomial_gate_2026_09_27/INPUTS.json": "efff15748c4c088ef54cf731aec260144b0b2a6ea06ec3f69f5f82e9dcc9d8b9",
+    "reports/five_point_monomial_gate_2026_09_27/verify_monomial.py": "30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2",
+    "reports/five_point_monomial_gate_2026_09_27/test_monomial.py": "555a42174e36e774fbbe74ef91924cdde6cac7c54ff01f6bc641a2c2f482a058",
+    "reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py": "ff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5",
+    "reports/global_sl5_seed_2026_09_27/INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "reports/global_sl5_seed_2026_09_27/verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "reports/global_sl5_seed_2026_09_27/verify_global_seed.py": "71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403"
+  },
+  "policy": "Commit seal before imports or experiments; two literal actions, all rational quotient basis directions, fixed t=2. Preserve first failures; no edits during runs."
+}
