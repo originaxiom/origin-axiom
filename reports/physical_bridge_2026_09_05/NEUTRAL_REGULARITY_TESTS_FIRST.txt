@@ -1,0 +1,24 @@
+.........F....                                                           [100%]
+=================================== FAILURES ===================================
+____________ test_full_and_zero_weight_potential_not_particle_count ____________
+
+    def test_full_and_zero_weight_potential_not_particle_count():
+        g,_,_,_,_,tt = r.operators()
+        assert r.zero(r.adj(tt,g)-tt)
+>       assert r.zero(tt.charpoly(r.Z).as_expr()-r.Z*(r.Z-2)**3*(r.Z-6)**11)
+E       AssertionError: assert False
+E        +  where False = <function zero at 0x10bdc6ca0>((z**15 - 72*z**14 + 2388*z**13 - 48320*z**12 + 665808*z**11 - 6602112*z**10 + 48527424*z**9 - 268240896*z**8 + 1118810880*z**7 - 3498080256*z**6 + 8055438336*z**5 - 13221937152*z**4 + 14592503808*z**3 - 9674588160*z**2 + 2902376448*z - ((z * ((z - 2) ** 3)) * ((z - 6) ** 11))))
+E        +    where <function zero at 0x10bdc6ca0> = r.zero
+E        +    and   z**15 - 72*z**14 + 2388*z**13 - 48320*z**12 + 665808*z**11 - 6602112*z**10 + 48527424*z**9 - 268240896*z**8 + 1118810880*z**7 - 3498080256*z**6 + 8055438336*z**5 - 13221937152*z**4 + 14592503808*z**3 - 9674588160*z**2 + 2902376448*z = as_expr()
+E        +      where as_expr = PurePoly(z**15 - 72*z**14 + 2388*z**13 - 48320*z**12 + 665808*z**11 - 6602112*z**10 + 48527424*z**9 - 268240896*z**8 +...98080256*z**6 + 8055438336*z**5 - 13221937152*z**4 + 14592503808*z**3 - 9674588160*z**2 + 2902376448*z, z, domain='ZZ').as_expr
+E        +        where PurePoly(z**15 - 72*z**14 + 2388*z**13 - 48320*z**12 + 665808*z**11 - 6602112*z**10 + 48527424*z**9 - 268240896*z**8 +...98080256*z**6 + 8055438336*z**5 - 13221937152*z**4 + 14592503808*z**3 - 9674588160*z**2 + 2902376448*z, z, domain='ZZ') = charpoly(z)
+E        +          where charpoly = Matrix([\n[6,  0, 0, 0, 0, 0,  0, 0,  0, 0, 0,  0, 0, 0,  0],\n[0,  4, 0, 0, 0, 0,  0, 0, -2, 0, 0,  0, 0, 0,  0],\n[0,  ... 0, 2, 0, -2],\n[0,  0, 0, 0, 0, 0,  0, 0,  0, 0, 0,  0, 0, 0,  0],\n[0,  0, 0, 0, 0, 0,  0, 0,  0, 0, 0,  0, 0, 2,  6]]).charpoly
+E        +          and   z = r.Z
+E        +    and   z = r.Z
+E        +    and   z = r.Z
+E        +    and   z = r.Z
+
+tests/test_physical_bridge_neutral_regularity.py:64: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_neutral_regularity.py::test_full_and_zero_weight_potential_not_particle_count
+1 failed, 13 passed in 4.61s

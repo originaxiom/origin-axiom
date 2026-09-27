@@ -993,3 +993,16 @@ precedes import/execution. No physical modulus or selection claim.
 | `reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY_INPUTS.json` | `47be3d950d7fe0055f60c74a58a2f4bdb2c112d0a5cbd13df5bf22b985e5eefb` |
 | `reports/physical_bridge_2026_09_05/neutral_regularity.py` | `45b41bb5b7fb47a2ab409266c59a7acbe94b6243c5b663af6d4588846a02cdda` |
 | `tests/test_physical_bridge_neutral_regularity.py` | `dec473dcb0bd96eb2baa92e431d4cca5226c425b81f5e9d6f872667ed9715cb6` |
+
+
+## R49 spectrum comparison diagnostic, September 26, 2026
+
+Post-failure design; original scientific files and failed outputs stay
+immutable. Pushed/server-confirmed before diagnostic import/execution.
+This tests exact rational spectra and the comparator, not physical modes.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_SPECTRUM_DIAGNOSTIC_DESIGN.md` | `5cd8f8bd744cb6b95cb6cc92ad1be8caacd35b3d460e63a5f0df58cfdd2385a3` |
+| `reports/physical_bridge_2026_09_05/neutral_spectrum_diagnostic.py` | `771d34894354e55ac6707901ada31adb10fa30b39537ee3c1e159e0239b2c80e` |
+| `tests/test_physical_bridge_neutral_spectrum_diagnostic.py` | `917734899997856fdb6195da80bcad5ae084f82c63002300daf9c9e3a330985a` |

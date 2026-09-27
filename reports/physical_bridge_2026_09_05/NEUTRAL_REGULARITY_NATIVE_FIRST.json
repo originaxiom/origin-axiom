@@ -1,0 +1,40 @@
+{
+  "checks": {
+    "ambient_metric_from_radial_graph": true,
+    "sheared_base_metric": true,
+    "exact_connection_remainder": true,
+    "gram_positive": true,
+    "radial_and_longitudinal_self_adjoint": true,
+    "nilpotent_adjoint_uses_actual_metric": true,
+    "flat_model_commutators": true,
+    "whole_exterior_d_squared": true,
+    "indicial_all_degrees": true,
+    "independent_degree_one_expansion": true,
+    "potential_self_adjoint": true,
+    "potential_full_spectrum": false,
+    "potential_semisimple": true,
+    "zero_weight_restriction": false,
+    "radial_pairs": true,
+    "positive_radial_threshold": true,
+    "wrong_volume_rejected": true,
+    "missing_coframe_term_rejected": true,
+    "unsheared_radial_rejected": true,
+    "wrong_positive_metric_rejected": true,
+    "wrong_fourier_sign_rejected": true,
+    "nilpotence_exact_degree_five": true,
+    "nonzero_meridian_two_sided_inverse": true,
+    "zero_meridian_has_kernel": true,
+    "l2_is_not_l4_control": true,
+    "critical_power_not_integrable": true,
+    "covering_factor_l4_control": true
+  },
+  "all_checks_pass": false,
+  "witnesses": {
+    "base_metric": "Matrix([[3/4, 0, 0], [0, 3/8, 0], [0, 0, 3/4]])",
+    "coefficient_metric_up_to_scalar": "Matrix([[3/8, 0, 0, 0], [0, 1/4, 0, 0], [0, 0, 3/8, 0], [0, 0, 0, 3/8]])",
+    "coefficient_potential_polynomial": "z*(z - 6)**11*(z - 2)**3",
+    "zero_longitude_potential_polynomial": "z*(z - 6)**5*(z - 2)**3",
+    "radial_threshold": "(4*nu**2 + 1)/3",
+    "scope": "Exact limiting end inputs only; authored analytic transfer and physical interpretation are separate."
+  }
+}
