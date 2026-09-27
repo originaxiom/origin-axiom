@@ -22,6 +22,15 @@ sector. Fifteen new tests and ten deck-regression tests pass. This obstructs
 that literal join, not three physical generations; the next target is one E
 and its exterior square with compatible end data and physical domains.
 
+The [coupled boundary gate](../coupled_boundary_gate_2026_09_27/FINDINGS.md)
+now supplies that first necessary screen. A principal-unipotent E5 cusp
+cannot carry interior index three even with unequal global invariant
+counts. The proposed cubed 2+3 cover cusp has bounds four on E and seven
+on its exterior square, leaving three open without realizing it. The
+quotient bound two requires balanced global H0; it is not an unconditional
+negative on nonsplit modules. Seventeen new and fifteen parent-regression
+tests pass. The global common-background and physical-domain debts remain.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several

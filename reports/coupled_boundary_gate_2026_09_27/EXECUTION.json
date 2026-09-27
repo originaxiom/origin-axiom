@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-27",
+  "seal_commit": "02c7889c06a10e9ce0b008f44d1318698a4d17f4",
+  "sources_unchanged_after_runs": true,
+  "hash_check_chunk": "6e97f8",
+  "runs": [
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/coupled_boundary_gate_2026_09_27/verify_boundary_gate.py",
+      "chunks": [
+        "5bd30b",
+        "855bd4"
+      ],
+      "exit_code": 0,
+      "output": "RUN_NATIVE.txt"
+    },
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py",
+      "chunks": [
+        "94bee5",
+        "55f99f"
+      ],
+      "exit_code": 0,
+      "output": "RUN_TESTS.txt"
+    },
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/m6_parent_admission_2026_09_27/test_parent_admission.py",
+      "chunks": [
+        "ded7c0"
+      ],
+      "exit_code": 0,
+      "output": "RUN_PARENT_REGRESSION.txt"
+    }
+  ]
+}

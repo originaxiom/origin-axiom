@@ -1,0 +1,135 @@
+$ LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/coupled_boundary_gate_2026_09_27/verify_boundary_gate.py
+{
+  "scope": "Meridian conjugacy and declared toy torus pairs only, NOT globally realized M2/M6 holonomy. No experiment on handoff code.",
+  "partition_comparators": [
+    {
+      "partition": [
+        5
+      ],
+      "E": 1,
+      "wedge2E": 2
+    },
+    {
+      "partition": [
+        4,
+        1
+      ],
+      "E": 2,
+      "wedge2E": 3
+    },
+    {
+      "partition": [
+        3,
+        2
+      ],
+      "E": 2,
+      "wedge2E": 4
+    },
+    {
+      "partition": [
+        3,
+        1,
+        1
+      ],
+      "E": 3,
+      "wedge2E": 4
+    },
+    {
+      "partition": [
+        2,
+        2,
+        1
+      ],
+      "E": 3,
+      "wedge2E": 6
+    },
+    {
+      "partition": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "E": 4,
+      "wedge2E": 7
+    },
+    {
+      "partition": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "E": 5,
+      "wedge2E": 10
+    }
+  ],
+  "boundary_models": {
+    "quotient_meridian": {
+      "meridian_bounds_E_wedge_mixed": [
+        2,
+        3,
+        1
+      ],
+      "toy_pair_attains_bounds": true,
+      "E_balanced_H0_interval": [
+        -2,
+        2
+      ],
+      "E_unconditional_interval": [
+        -4,
+        4
+      ],
+      "cubic_twist_E": [
+        2,
+        1,
+        1
+      ],
+      "cubic_twist_wedge2E": [
+        3,
+        2,
+        2
+      ]
+    },
+    "cubed_cover_meridian": {
+      "meridian_bounds_E_wedge_mixed": [
+        4,
+        7,
+        3
+      ],
+      "toy_pair_attains_bounds": true,
+      "E_balanced_H0_interval": [
+        -4,
+        4
+      ],
+      "E_unconditional_interval": [
+        -8,
+        8
+      ],
+      "cubic_twist_E": [
+        4,
+        0,
+        0
+      ],
+      "cubic_twist_wedge2E": [
+        7,
+        0,
+        0
+      ]
+    }
+  },
+  "principal_E_unconditional_interval": [
+    -2,
+    2
+  ],
+  "principal_E_balanced_interval": [
+    -1,
+    1
+  ],
+  "global_representation_constructed": false,
+  "physical_chirality_derived": false
+}
+PASS: exact boundary comparators; no global or physical existence claim
+
+Exit code: 0
