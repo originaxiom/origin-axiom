@@ -1,5 +1,9 @@
 # Changelog
 
+## sL-7 re-posed: the route to three (B1371's pairing + L4): sign-paired Eisenstein rotations give N ≡ ±2 (mod 3), never three; the clean three named
+
+Test 3's lemma found already banked (B1371), so its draft was withdrawn uncommitted. The consequence for the count is recorded under sL-7. No computation. 0 of 19.
+
 ## Route B1388 into the kill graph; record the whole-suite fast lane on fefb938a
 
 6 309 passed, 10 failed (the nine known baseline failures, and B833's lock finding B1388 unrouted, now routed in B836's form), 52 skipped. No computation changes.

@@ -3139,6 +3139,25 @@ three means.
 **Status (2026-09-27, B1388): the physical reading is withdrawn with sL-6's.** Counts in this frame wait on sL-8 (which count, which
 completion) as well as on the level.
 
+**The route to three, re-posed (2026-09-27, after B1389).** In the 27-frame the number of generations is |N| (B1389). Two banked
+facts combine into an obstruction.
+- B1371 (the web package's theorem, verified here): a finite-order isometry's fixed arcs pair the fixed points over its fixed cusps.
+  So an order-3 isometry rotates an even number of cusps. B1386's data agree: every rotation list in its search has even length.
+- B1386's L4: translated cusps and 3-cycles contribute 0 (mod 3). So N ≡ Σ_rotated χ (mod 3), a sum of an even number of ±1.
+
+Hence:
+- **On any member whose rotated cusps are paired with equal signs** (cube~3.24's swap does this), N ≡ ±2 (mod 3), and no invariant
+  class there has N = ±3.
+- **A three needs one of two structures:**
+  - rotated cusps whose signs cancel mod 3;
+  - an order-3 symmetry whose fixed geodesics are all closed, so it rotates no cusp at all.
+  Either way it also needs a translated or 3-cycled Eisenstein cusp with a three-disc partition (B1386's √3-shell at χ = ±3; on
+  cube~3.24 that cusp came out annular, B1387).
+- **The second structure is the clean target.** Its quotient is an orbifold, not a manifold, so the three would not be a pullback
+  (sL-5's caveat does not apply in its plain form).
+
+The search for such members is the next computable step toward three. It is not yet run.
+
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
 
 **Why.** B1388's sealed test found that the seat's count, the relative index −χ(∂⁺M_T) at a cut, moves with the cut on cube~3.24.

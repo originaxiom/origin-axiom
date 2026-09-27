@@ -15598,3 +15598,18 @@ The whole suite, fast lane (`-m "not slow"`, 12 workers), on the pushed head fef
   sm-branch-2026-09-27-banking), and the lock passes.
 
 No computation changes. 0 of 19.
+
+### Test 3 folded into a corollary; the route to three re-posed (2026-09-27)
+
+Designing kill test 3 ("can the Eisenstein mechanism give three?"), the pre-sealing sweep found that its lemma is already banked. B1371
+(the web seat's package, verified on this bench, 2026-09-16) proved that a finite-order isometry's fixed arcs pair the fixed points over
+its fixed cusps, so an order-3 isometry rotates an even number of cusps. A sealed test whose outcome a banked theorem already decides
+would be theatre. The unsealed draft (B1390) was withdrawn uncommitted, so no ledger row and no number was used.
+
+What is new is the consequence, recorded under sL-7:
+- Combined with L4, N ≡ Σ_rotated χ (mod 3), a sum of an even number of ±1.
+- So on members whose rotated cusps are sign-paired, as on cube~3.24, N ≡ ±2 (mod 3) and never ±3.
+- A three needs an order-3 symmetry with only closed fixed geodesics, or rotated cusps with cancelling signs, together with a
+  translated three-disc cusp. The clean target, whose quotient is an orbifold, is named as the next computable step and is not yet run.
+
+No computation. 0 of 19.
