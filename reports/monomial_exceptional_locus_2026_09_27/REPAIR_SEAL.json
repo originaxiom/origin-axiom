@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_RERUN_CORRECTION",
+  "prior_seal": "02ea6154290a34e362337a1e9a36c947ee35d9f8",
+  "files": {
+    "reports/monomial_exceptional_locus_2026_09_27/DESIGN.md": "0296d9cfbde897fce50e875c861de1c9ac7cc669d37577e9c0f1a291253ed75c",
+    "reports/monomial_exceptional_locus_2026_09_27/PROOF.md": "7f71045b28038f2d62c6a0c324098539372fd99618783f0881c825e51b8db41b",
+    "reports/monomial_exceptional_locus_2026_09_27/INPUTS.json": "a9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0",
+    "reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py": "939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9",
+    "reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py": "78909eeb3d3dce97ff6643a3d4c4d94c5cbce5ca862cba69376a14add0d87ed1",
+    "reports/five_point_monomial_gate_2026_09_27/verify_monomial.py": "30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2",
+    "reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py": "ff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5",
+    "reports/global_sl5_seed_2026_09_27/INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "reports/global_sl5_seed_2026_09_27/verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "reports/global_sl5_seed_2026_09_27/verify_global_seed.py": "71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403",
+    "reports/monomial_exceptional_locus_2026_09_27/CORRECTION.md": "beb71637f53a25f1ecff74b6787288b4170ac2c0eca9c600ff702f196e0c8ab5"
+  },
+  "first_failures": "FIRST_FAILURES.json"
+}

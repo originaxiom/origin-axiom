@@ -1,3 +1,4 @@
+import json
 import sympy as sp
 from flint import fmpq_mat
 
@@ -21,7 +22,8 @@ def test_laurent_minor_clearing_and_synthetic_jump():
     a = sp.Matrix([[t**-2, 1], [1, t]])
     record, determinant = selected_minor(a, 2)
     assert record["rank"] == 2
-    assert determinant == sp.Poly(t-t**2, t)
+    assert determinant == sp.Poly(t-t**2, t, domain=sp.QQ)
+    assert json.loads(json.dumps(record)) == record
     assert evaluate(a, 1).rank() == 1
 
 

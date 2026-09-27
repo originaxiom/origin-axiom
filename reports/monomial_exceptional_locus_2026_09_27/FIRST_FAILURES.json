@@ -1,0 +1,41 @@
+{
+  "seal_commit": "02ea6154290a34e362337a1e9a36c947ee35d9f8",
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py",
+    "events": [
+      {
+        "chunk_id": "81aca6",
+        "wall_time_seconds": 1.003325047,
+        "session_id": 43574,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "42f7c4",
+        "wall_time_seconds": 0.000011475,
+        "exit_code": 1,
+        "original_token_count": 307,
+        "output": "Traceback (most recent call last):\n  File \"/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py\", line 334, in <module>\n    main()\n  File \"/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py\", line 322, in main\n    print(\"CERTIFICATE\", i, json.dumps(record), flush=True)\n                            ^^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/__init__.py\", line 231, in dumps\n    return _default_encoder.encode(obj)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py\", line 258, in iterencode\n    return _iterencode(o, 0)\n           ^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type Integer is not JSON serializable\n"
+      }
+    ]
+  },
+  "tests": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py",
+    "events": [
+      {
+        "chunk_id": "2c4c0b",
+        "wall_time_seconds": 1.003531078,
+        "session_id": 33223,
+        "original_token_count": 1,
+        "output": ".F."
+      },
+      {
+        "chunk_id": "16b2d6",
+        "wall_time_seconds": 0.000009736,
+        "exit_code": 1,
+        "original_token_count": 267,
+        "output": "...                                                                   [100%]\n=================================== FAILURES ===================================\n________________ test_laurent_minor_clearing_and_synthetic_jump ________________\n\n    def test_laurent_minor_clearing_and_synthetic_jump():\n        a = sp.Matrix([[t**-2, 1], [1, t]])\n        record, determinant = selected_minor(a, 2)\n        assert record[\"rank\"] == 2\n>       assert determinant == sp.Poly(t-t**2, t)\nE       AssertionError: assert Poly(-t**2 + t, t, domain='QQ') == Poly(-t**2 + t, t, domain='ZZ')\nE        +  where Poly(-t**2 + t, t, domain='ZZ') = <class 'sympy.polys.polytools.Poly'>((t - (t ** 2)), t)\nE        +    where <class 'sympy.polys.polytools.Poly'> = sp.Poly\n\nreports/monomial_exceptional_locus_2026_09_27/test_exceptional.py:24: AssertionError\n=========================== short test summary info ============================\nFAILED reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py::test_laurent_minor_clearing_and_synthetic_jump\n1 failed, 5 passed in 1.33s\n"
+      }
+    ]
+  }
+}

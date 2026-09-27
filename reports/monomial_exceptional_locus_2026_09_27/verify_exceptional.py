@@ -130,7 +130,7 @@ def selected_minor(a, control):
     record = {"rank": len(cols), "rows": rows, "columns": cols,
               "row_shifts": shifts, "cleared_determinant": str(determinant.as_expr()),
               "factors": [{"coefficients": [str(c) for c in sp.Poly(f, t).monic().all_coeffs()],
-                           "multiplicity": power} for f, power in factors]}
+                           "multiplicity": int(power)} for f, power in factors]}
     return record, determinant
 
 
