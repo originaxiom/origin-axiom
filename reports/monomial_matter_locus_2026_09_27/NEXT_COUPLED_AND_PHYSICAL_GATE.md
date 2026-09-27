@@ -1,9 +1,16 @@
-# Next coupled and analytic gates -- not executed
+# Coupled gate checkpoint and next analytic gate
+
+**Update, 2026-09-27:** section A's common-line question is now executed;
+see the [exact result](../common_hypercharge_gate_2026_09_27/FINDINGS.md).
+The joint ordinary target fails for every globally lifted common line in
+these two families, with paired matter preserved. Section B remains an
+unexecuted constructive lead. The [current roadmap](../common_hypercharge_gate_2026_09_27/ROADMAP.md)
+keeps the physical and wider chiral obligations separate.
 
 The untwisted E coefficient is now completely classified. This result
 must inform the full physical goal, not replace it.
 
-## A. Pay the allowed gauge coefficient before closing the family
+## A. Original common-line plan -- now completed on its stated lift scope
 
 The existing E8 dictionary admits a common hypercharge Wilson line L:
 Q:E L, u:E L^-4, e:E L^6, d:Lambda2(E) L^2, lepton:Lambda2(E) L^-3.

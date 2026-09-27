@@ -39,13 +39,22 @@ background, even with longitude free. These particular tangents should not
 automatically trigger nonlinear continuation toward that target.
 
 The [whole-parameter matter gate](../monomial_matter_locus_2026_09_27/FINDINGS.md)
-has now proved I(E)=0 for these UNTWiSTED monomial families over C*,
+has now proved I(E)=0 for these UNTWISTED monomial families over C*,
 retaining equal interior spaces of dimension one at 1 and two at -1,+i,-i.
 The unmodified (3,3) target therefore fails throughout these families.
 The [next coupled/analytic gate](../monomial_matter_locus_2026_09_27/NEXT_COUPLED_AND_PHYSICAL_GATE.md)
 explicitly checks the allowed COMMON hypercharge coefficient line before
 closing that broader option. This result is not a classification of its
 twists, distant relative components or physical chirality mechanisms.
+
+The [common-line gate](../common_hypercharge_gate_2026_09_27/FINDINGS.md)
+subsequently covers ALL globally lifted flat hypercharge lines in these
+two families: either Q has zero index (nontrivial meridian transport) or
+u has zero index (all 320 remaining characters, reduced exactly). This
+rules out that joint target, not every background or physical mechanism.
+The [current roadmap](../common_hypercharge_gate_2026_09_27/ROADMAP.md)
+replaces the historical search ordering below; do not repeat the same
+Wilson-line or parameter census as if it were still untested.
 
 ## Done in this fork
 

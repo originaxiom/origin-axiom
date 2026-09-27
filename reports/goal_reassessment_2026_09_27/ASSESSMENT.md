@@ -16,6 +16,15 @@ The same-action physical role and common hypercharge-line gate remain.
 Older checkboxes below are the original assessment checkpoint, not an
 assertion that these completed calculations are still unperformed.
 
+**Current checkpoint:** the [common-line result](../common_hypercharge_gate_2026_09_27/FINDINGS.md)
+now excludes the joint ordinary three-generation target for both monomial
+families with EVERY globally lifted common hypercharge line, over C*.
+Paired matter is retained; all 102 focused tests pass. The current
+[roadmap](../common_hypercharge_gate_2026_09_27/ROADMAP.md) supersedes the old
+ordering below. Physical-bridge f8c6ed1a's R50 report and R51 sealed design/proof
+were personally read, not independently executed. Its rank-four canonical
+analysis is not merged with our rank-five hyperbolic background by analogy.
+
 ## Verdict and working objective
 
 The TOE ambition remains legitimate as a research aspiration, but “complete

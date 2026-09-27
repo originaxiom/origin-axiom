@@ -105,6 +105,19 @@ seven-head fetch also receives the physical-bridge R49 report and R50
 seal at 51f16912 with explicit reading/reproduction grades, not a claim
 that its different canonical background completes this family.
 
+The [common-hypercharge follow-through](../common_hypercharge_gate_2026_09_27/FINDINGS.md)
+now pays that additional coefficient duty. All 320 meridian-trivial lines
+reduce in the required u sector to four signed families; every nonzero
+complex parameter is checked by exact minors and root specialization.
+Their u index is zero. Nontrivial meridian transport instead forces Q
+index zero. Thus the joint target fails for every globally lifted common
+line in these two families, with paired states retained. All 102 focused
+tests pass. This is not an all-SL5 or physical-chirality no-go. The current
+[roadmap](../common_hypercharge_gate_2026_09_27/ROADMAP.md) now prioritizes
+a bounded constructive rank-five action/domain check and keeps the distinct
+chirality, quantum, gravity and empirical obligations visible. Physical-bridge
+R50 and the unexecuted R51 seal at f8c6ed1a were read, not independently replayed.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several
