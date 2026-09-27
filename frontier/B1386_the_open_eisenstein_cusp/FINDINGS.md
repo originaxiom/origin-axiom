@@ -12,6 +12,10 @@
 > are all equidistant from them, so a cut respecting the isometries loses none. Which count is physical is sL-8. The mathematics
 > here stands. `frontier/B1388_the_cutoff_test`.
 
+> **Currency (2026-09-27, B1390): the route to three narrowed by arithmetic.** In m004's class an order-3 isometry fixes only
+> cusp-to-cusp arcs, so one that rotates no cusp acts freely and its threes are pullbacks. sL-7's clean target does not exist. The
+> covers searched here are arithmetic (o10_150725's traces are integral), so T1 stands. `frontier/B1390_the_eisenstein_axes`.
+
 **Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** sL-6, registered by B1385 — "a member of m004's
 class with a rotated hexagonal free cusp whose invariant class no isometry negates" · **Status:** PROVED (L4; the member's symmetry
 data, exact) · COMPUTED (the search, 183 covers; B1370's shells; the controls) · CONDITIONAL (N(v₊) ≠ 0 rests on one analytic

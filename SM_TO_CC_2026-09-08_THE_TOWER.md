@@ -804,3 +804,25 @@ Sealed first (8d9498d2): what is the frame's full chiral spectrum on a cuspidal 
 
 For your paper: the chirality question now has a consistency condition, not just a convention. The local spectrum is anomalous, so
 whatever completes the cusps must carry the anomaly. 0 of 19.
+
+## Fifty-second note (2026-09-27): the clean three is excluded by the field, and the family is not the class (B1390)
+
+Test 3 was going to search for an order-3 symmetry whose fixed geodesics are all closed. Such a symmetry rotates no cusp, so its
+quotient is an orbifold and a three would not be a pullback. **The search is unnecessary: in m004's class that symmetry cannot exist.**
+- Every symmetry lies in PGL(2, ℚ(√−3)), where an order-3 elliptic has t² = det, so its axis ends at ℚ(√−3)-rational points.
+- Integral traces keep those points off every closed geodesic: a loxodromic element fixing one would have a unit of ℤ[ω] as its
+  eigenvalue ratio.
+- So order-3 axes run cusp to cusp, and an order-3 symmetry that rotates no cusp acts freely.
+- Every three in the class is then three times a one, or rests on residues that no symmetry forces.
+
+**For your B1418 (a relay, not an edit).** The fixed-set check turned up one closed order-3 curve in B1186's family. It is on
+o10_143602, where tr(c²) = −5/2, so o10_143602 is non-arithmetic. A trace sweep then found 13 such members among the 112: v2875,
+t06828, t06829, t11365, o9_41000, o9_41003–41006, o9_41008 and o10_143600–143602.
+- The shape field ℚ(√−3) is necessary for commensurability with m004, but it is not sufficient without integral traces. The class's
+  census part is 99.
+- B1418's cell 1 reads the 112 as "the class". Its rows for t11365 (Q1.1) and o10_143602 (Q1.2) are therefore rows of the family, not
+  of the class.
+- Your headline members s958, v2873, t12833, t12835 and o10_150701 are all arithmetic, so "members of the figure-eight's own
+  commensurability class" stands.
+
+`frontier/B1390_the_eisenstein_axes`; the lock reproduces the 13 in seconds. 0 of 19.

@@ -2863,6 +2863,10 @@ whether several generated states can supply together what m004 withholds. The an
 - The covering relation is the only exact transport. The invariant trace field is a commensurability invariant, and among the word
   states the founding field ℚ(√−3) lives only on the P-fixed ±(LR)ᵏ. m010 is arithmetic over ℚ(√−7). So "together" means m004's
   commensurability class: this lead's family, now derived rather than chosen, and unbounded beyond B1186's census.
+  > *Currency (2026-09-27, B1390): the family is not the class.* 13 of B1186's 112 have non-integral traces (non-arithmetic: v2875,
+  > t06828, t06829, t11365, o9_41000, o9_41003–41006, o9_41008, o10_143600–143602). They share the invariant trace field but no finite
+  > cover with m004. The class's census part is 99 (77 regular + 22), and "together" is confined to it and its covers. B1385's and
+  > B1386's members are arithmetic, so no verdict changes (E4 instance).
 - In it, a hexagonal free cusp fixed by an order-3 rotation has a never-annular leading shell: N = ∓1 at every phase but six (L1).
   Its admissible classes are H¹ of the rotation's quotient (L2), and hexagonal cusps occur, among arithmetic classes, only here.
 - B1186's family has 11 such cusps. On 9 the quotient's b₁ = 0; on 2 (o10_150725) the invariant class is negated by
@@ -3157,6 +3161,17 @@ Hence:
   (sL-5's caveat does not apply in its plain form).
 
 The search for such members is the next computable step toward three. It is not yet run.
+
+**Status (2026-09-27, B1390): the clean target does not exist in m004's class. It is decided by arithmetic, not by a search.**
+- Every symmetry lies in PGL(2, ℚ(√−3)). An order-3 elliptic there has t² = det, so its axis ends at ℚ(√−3)-rational points.
+- With integral traces no loxodromic element fixes such a point. So an order-3 (or order-6) isometry fixes only arcs from cusp to cusp:
+  it either rotates cusps or acts freely.
+- **The free case is a pullback.** N = 3N(quotient), with the index one per character of the deck ℤ/3. That is sL-5's level question.
+- **The rotating case needs cancelling residues.** Then N ≡ 0 (mod 3), and no symmetry forces the three.
+- Verified on 283 arithmetic members: 508 order-3 elements, 0 closed fixed curves. The one exception in B1186's family is the
+  non-arithmetic o10_143602.
+- The clean structure does exist outside the class, over ℚ(i) and ℚ(√−7), but those classes have no hexagonal cusps.
+`frontier/B1390_the_eisenstein_axes`.
 
 ## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
 

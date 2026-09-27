@@ -8132,6 +8132,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1390": {
+   "slug": "the eisenstein axes",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B3",
+    "L2",
+    "L4"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B139": {
    "slug": "firewall cartography",
    "motifs": [

@@ -1,5 +1,19 @@
 # Changelog
 
+## B1390 — the Eisenstein axes: in m004's commensurability class an order-3 or order-6 isometry fixes only cusp-to-cusp arcs, so an order-3 symmetry that rotates no cusp acts freely and sL-7's clean target does not exist; 13 of B1186's 112 are non-arithmetic, so the family is not the class
+
+Test 3's clean target is decided by arithmetic, not by a search. Every symmetry lies in PGL(2, ℚ(√−3)) (Skolem–Noether), where an order-3
+elliptic has t² = det, so its axis ends at ℚ(√−3)-rational points. With integral traces no loxodromic fixes such a point (its
+eigenvalue ratio would be a unit of ℤ[ω]), so the axis runs cusp to cusp. Order 4 fixes only closed geodesics, and other orders act
+freely.
+- **Verified** with a fixed-set instrument on SnapPy's canonical retriangulations: 283 arithmetic members (99 census, 184 covers);
+  508 order-3 elements, 0 closed fixed curves; all 382 that rotate no cusp act freely.
+- **The only exception** in the family is o10_143602, where tr(c²) = −5/2: it is non-arithmetic.
+- **Correction of record (E4 instance).** 13 of B1186's 112 have non-integral traces. B1385 T4's "the family = m004's commensurability
+  class" is scoped; main's B1418 cell-1 rows t11365 and o10_143602 are relayed. No verdict changes.
+- **Consequence for three.** Every three in the class is a pullback of a one through a free symmetry (one zero mode per character of
+  the deck ℤ/3) or rests on cancelling rotation residues. 0 of 19.
+
 ## sL-7 re-posed: the route to three (B1371's pairing + L4): sign-paired Eisenstein rotations give N ≡ ±2 (mod 3), never three; the clean three named
 
 Test 3's lemma found already banked (B1371), so its draft was withdrawn uncommitted. The consequence for the count is recorded under sL-7. No computation. 0 of 19.

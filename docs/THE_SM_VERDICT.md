@@ -739,3 +739,13 @@ left it.
 >
 > Non-abelian anomalies have no Green–Schwarz cure, so the completion must carry the gauge sector's anomaly (sL-8's third job).
 > 0 of 19 (`frontier/B1389_the_full_spectrum`).
+
+> **Currency note (2026-09-27, B1390): test 3's clean target is excluded by arithmetic.**
+> - In m004's commensurability class an order-3 or order-6 isometry fixes only arcs from cusp to cusp, because its axis ends at
+>   ℚ(√−3)-rational points and integral traces keep those off every closed geodesic. So an order-3 symmetry that rotates no cusp acts
+>   freely.
+> - Every three in the class is therefore a pullback of a one, one zero mode per character of the deck ℤ/3 (sL-5's level question),
+>   or rests on rotation residues that cancel mod 3, which no symmetry forces.
+> - The check found that 13 of B1186's 112 are non-arithmetic, so the family is not the class (E4 instance; no verdict changes).
+>
+> 0 of 19 (`frontier/B1390_the_eisenstein_axes`).

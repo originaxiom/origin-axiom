@@ -15613,3 +15613,44 @@ What is new is the consequence, recorded under sL-7:
   translated three-disc cusp. The clean target, whose quotient is an orbifold, is named as the next computable step and is not yet run.
 
 No computation. 0 of 19.
+
+## 2026-09-27 — B1390: the Eisenstein axes (test 3's clean target decided by arithmetic)
+
+sL-7's re-posing named the clean target as the next computable step toward three: an order-3 symmetry whose fixed geodesics are all
+closed, so that its quotient is an orbifold and a three would not be a pullback. Designing the search, I found it excluded by the
+field.
+
+**The theorem.** Let M be cusped with shape field ℚ(√−3).
+- The normaliser of π₁ lies in PGL(2, ℚ(√−3)), by Skolem–Noether on the invariant quaternion algebra M₂(K).
+- An elliptic element of order k there has t²/det = 2 + 2cos(2π/k) ∈ ℚ, so k ∈ {2, 3, 4, 6}. For k = 3 and 6 its fixed points are
+  ℚ(√−3)-rational; for k = 4 they never are.
+- With integral traces no loxodromic element fixes a ℚ(√−3)-rational point: its eigenvalue ratio would be a unit of ℤ[ω].
+
+So in m004's commensurability class:
+- orders 3 and 6 fix only arcs from cusp to cusp, and an order-3 symmetry that rotates no cusp acts freely;
+- order 4 fixes only closed geodesics;
+- every other order above 2 acts freely.
+
+**The instrument.** Fixed sets were assembled from SnapPy's canonical retriangulations, with |Aut| = |Isom|, a 1-manifold check, and
+the cusp ends checked against SnapPy's |det(A − I)|.
+- On the 99 arithmetic census members and B1386's 184 covers: 508 order-3 elements, 0 closed fixed curves.
+- All 382 order-3 elements that rotate no cusp act freely. 360 of them translate a cusp; these include every candidate of the
+  exploratory probe.
+- The one closed order-3 fixed curve in B1186's family is on o10_143602, where tr(c²) = −5/2. It is non-arithmetic, and the dichotomy
+  is sharp.
+- Controls: the Borromean rings (ℚ(i)) and s776/s784 (ℚ(√−7)) have closed order-3 fixed curves; m004's involution fixes a closed curve.
+
+**The correction.** A trace sweep over all 112 found 13 non-arithmetic members. B1186's family (shape field ⊆ ℚ(√−3)) is therefore
+not m004's commensurability class, whose census part is 99.
+- The identification was made in B1385 T4, in sL-1's status line and in THE_VERDICT_OF_THE_OBJECT. Each now carries a currency note.
+- Main's B1418 treats the 112 as the class in cell 1; relayed as the fifty-second note.
+- The error is an E4 instance: the invariant trace field is necessary for membership and was read as sufficient.
+- No verdict changes. The members that the verdicts rest on are all arithmetic: B1385's pilot, B1386's family and B1418's firing
+  members.
+
+**What it means for three.** In the class, every three is one of two kinds:
+- a pullback of a one through a free order-3 symmetry. That is sL-5's level question, and if realised the index splits one per
+  character of the deck ℤ/3;
+- a sum of rotated cusps whose residues cancel mod 3, which no symmetry forces.
+
+No order-3 symmetry in the class forces |N| = 3. Lock: `tests/test_b1390_the_eisenstein_axes.py` (4 tests, 9 s). 0 of 19.

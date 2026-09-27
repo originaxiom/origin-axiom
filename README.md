@@ -322,6 +322,10 @@ emitted value. The structure is the object's; the values are the observer's.
 > *And (B1389), the second sealed test: the count's sector is the whole 15 of the 27, and along the right Higgs direction it gives
 > complete, anomaly-free generations: two, not three. But the gauge multiplet's own broken roots make the local spectrum anomalous,
 > so the completion must carry that anomaly.*
+>
+> *And (B1390): the third test's clean target, a three that is not a pullback, is excluded by the field ℚ(√−3) itself. In m004's
+> class an order-3 symmetry either rotates cusps or acts freely, so every three there is three times a one, or rests on cancelling
+> residues that no symmetry forces. The check also showed that 13 members of the family are not in the class at all.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

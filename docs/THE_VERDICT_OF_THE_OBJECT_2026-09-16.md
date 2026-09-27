@@ -77,6 +77,8 @@ ends can make both halves chiral — two cusps at least (B1291's parity theorem 
 >
 > (`WORKING_RULES.md`, 2026-09-27.) The owner's 2026-09-16 direction survives inside it, now derived rather than chosen.
 > - The family below — the commensurability class — is exactly the region the covering relation reaches from m004 (B1385 T4).
+>   *(Currency, 2026-09-27, B1390: the class is 99 of B1186's 112. The other 13 share the field but have non-integral traces, so they
+>   are not commensurable with m004.)*
 > - The architecture enlarges it beyond B1186's census to every cover.
 > - The word states outside it cannot help, since none has a free cusp (B1385 T1).
 > - In it, the Eisenstein face makes a chiral index generic at a hexagonal free cusp, wherever no symmetry negates the class

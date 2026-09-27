@@ -1,0 +1,11 @@
+=== (A) the fixed points of elliptic elements of PGL(2, K), K = Q(sqrt-3), exact ===
+order k in PGL(2) <=> eigenvalue ratio a primitive k-th root of unity <=> t^2 = (2 + 2 cos(2 pi/k)) det: k = 2: t = 0; 3: t^2 = det; 4: t^2 = 2 det; 6: t^2 = 3 det.
+fixed points of [[a, b], [c, d]]: z = (a - d +- sqrt(D)) / 2c, D = t^2 - 4 det: k = 3: D = -3 t^2 = (t s)^2; k = 6: D = -t^2/3 = (t s/3)^2; k = 4: D = -t^2, a square iff -1 is: never in K.
+  order 3: 1979 random elements; fixed points in P^1(K) for 1979, outside for    0
+  order 6: 1974 random elements; fixed points in P^1(K) for 1974, outside for    0
+  order 4: 1989 random elements; fixed points in P^1(K) for    0, outside for 1989
+  order 2: 1991 random elements; fixed points in P^1(K) for   39, outside for 1952
+  -> orders 3 and 6: always cusp points (the axis runs cusp to cusp); order 4: never; order 2: either, as the theorem says.
+  control: over Q(i) an order-3 element has D = -3 t^2, a square in Q(i) iff -3 is: never -- so order-3 axes there end off the cusp set and closed fixed geodesics can occur (the Borromean control, part B).
+DONE
+EXIT 0

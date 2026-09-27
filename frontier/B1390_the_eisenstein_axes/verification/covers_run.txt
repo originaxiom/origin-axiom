@@ -1,0 +1,26 @@
+=== (C) B1386's family: ocube06_08812 ===
+    order 2:     9 elements | arcs    18, closed curves    0 (elements with one: 0) | rotating no cusp 0, of which free 0 | anomalies 0
+    order 3:     8 elements | arcs    18, closed curves    0 (elements with one: 0) | rotating no cusp 2, of which free 2 | anomalies 0
+  members with finite vertices in the canonical retriangulation: 0 of 1; fixed-point counts agree with SnapPy on 1
+  order-3 elements rotating no cusp but translating one: 2, fixed-set components on them: 0
+(0s)
+DONE
+EXIT 0
+=== (C) B1386's family: cube~2.0, cube~2.1, cube~2.2 ... (7 members) ===
+    order 2:    61 elements | arcs   108, closed curves    0 (elements with one: 0) | rotating no cusp 16, of which free 16 | anomalies 0
+    order 3:    20 elements | arcs    36, closed curves    0 (elements with one: 0) | rotating no cusp 14, of which free 14 | anomalies 0
+    order 6:    20 elements | arcs     0, closed curves    0 (elements with one: 0) | rotating no cusp 20, of which free 20 | anomalies 0
+  members with finite vertices in the canonical retriangulation: 1 of 7; fixed-point counts agree with SnapPy on 7
+  order-3 elements rotating no cusp but translating one: 14, fixed-set components on them: 0
+(1s)
+DONE
+EXIT 0
+=== (C) B1386's family: cube~3.0, cube~3.1, cube~3.2 ... (176 members) ===
+    order 2:   498 elements | arcs  1386, closed curves    9 (elements with one: 3) | rotating no cusp 3, of which free 0 | anomalies 0
+    order 3:   436 elements | arcs   270, closed curves    0 (elements with one: 0) | rotating no cusp 362, of which free 362 | anomalies 0
+    order 6:   114 elements | arcs    18, closed curves    0 (elements with one: 0) | rotating no cusp 96, of which free 96 | anomalies 0
+  members with finite vertices in the canonical retriangulation: 19 of 176; fixed-point counts agree with SnapPy on 176
+  order-3 elements rotating no cusp but translating one: 344, fixed-set components on them: 0
+(36s)
+DONE
+EXIT 0

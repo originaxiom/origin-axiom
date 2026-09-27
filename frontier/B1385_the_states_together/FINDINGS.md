@@ -36,6 +36,10 @@ question is which joins and covers exist, and where they lead. The answers:
 3. **The only exact transport stays in one class (T4).** The invariant trace field is a commensurability invariant. So no chiral
    word state has a common cover with m004, and no cover carries m004's data to the ℚ(√−7) ladder. **The joint region is m004's own
    commensurability class.** That is sL-1's family, which the architecture enlarges from B1186's census of 112 to all covers.
+   > *Currency (2026-09-27, B1390): the family is not the class.* 13 of the 112 have non-integral traces (non-arithmetic) and
+   > share no cover with m004. The class's census part is 99, and the covering relation confines "together" to those and their covers.
+   > This arc's pilot members (o10_150704, o10_150725, o10_150729) and ocube06_08812's covers are arithmetic, so no result here
+   > changes (E4 instance). `frontier/B1390_the_eisenstein_axes`.
 4. **In that class the Eisenstein face supplies a mechanism (L1, L2).**
    - Take a free cusp whose lattice is hexagonal and which an isometry rotates by order three, and a Higgs class that rotation fixes.
      The rotation acts on H₁ of the torus without a fixed line, so an invariant region cannot be annular.

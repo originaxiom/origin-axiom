@@ -1,0 +1,19 @@
+{
+ "id": "B1390",
+ "verdict": "PROVED",
+ "instrument": true,
+ "depends_on": [
+  "B1386",
+  "B1385",
+  "B1371",
+  "B1369",
+  "B1186",
+  "B1388"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE EISENSTEIN AXES: in m004's commensurability class an isometry of order 3 or 6 fixes only proper arcs running from cusp to cusp, so an order-3 symmetry rotating no cusp acts freely and sL-7's clean target (an order-3 symmetry with only closed fixed geodesics, whose quotient would be an orbifold) does not exist in the class. The theorem: for M cusped with shape field K = Q(sqrt-3), (A) the normaliser of pi_1 lies in PGL(2, K) (Skolem-Noether on the invariant quaternion algebra M_2(K)); (B) an elliptic of order k in PGL(2, K) has t^2/det = 2 + 2cos(2 pi/k) in Q, so k in {2,3,4,6}; its fixed points (a - d +- sqrt(t^2 - 4 det))/2c lie in P^1(K) for k = 3 (D = (t sqrt-3)^2) and k = 6 (D = (t sqrt-3/3)^2) and never for k = 4 (D = -t^2); (C) with integral traces no loxodromic element fixes a point of P^1(K) (its eigenvalue ratio would be a unit of Z[omega], a root of unity). Hence every order other than 2, 3, 4, 6 acts freely, order 4 fixes only closed geodesics, and (arithmetic M) orders 3 and 6 fix only cusp-to-cusp arcs and rotate every cusp they enter. Corollaries: a free order-3 R makes every invariant class a pullback, N = 3 N(quotient) (sL-5's level question), with the index split one per character of the deck Z/3 (Lefschetz 0); a rotating R gives N = sum over rotated cusps of chi mod 3 (L4), so a three needs cancelling residues and no symmetry forces it; no order-3 symmetry in the class forces |N| = 3. Computed (verification/eisenstein_axes.py; the fixed set of every orientation-preserving isometry assembled from SnapPy's canonical retriangulation, |Aut| = |Isom|, 1-manifold and cusp-map cross-checks on all 299 manifolds): B1186's 112 split 99 arithmetic + 13 non-arithmetic (non-integral tr(g^2) at 50 digits: v2875, t06828, t06829, t11365, o9_41000, o9_41003-41006, o9_41008, o10_143600-143602); on the 99, order 3: 44 elements, 126 arcs, 0 closed, 4/4 no-rotation free; order 6: 46, 40 arcs, 0 closed, 8/8 free; order 4: 42, 0 arcs, 18 closed; orders 5, 8, 10: 72, all free; on B1386's 184 covers (arithmetic): order 3: 464, 324 arcs, 0 closed, 378/378 no-rotation free (360 translating a cusp); order 6: 134, 0 closed; the non-trivial cases (finite vertices) 12 census members and 20 covers. The only closed order-3 fixed curves in the family are on o10_143602 (tr(c^2) = -5/2, non-arithmetic): the dichotomy is sharp. Controls: Borromean (Q(i)) 8 order-3 elements each with a closed curve; s776/s784 (Q(sqrt-7)) 4 with closed curves rotating no cusp; m004's involution with a closed curve. CORRECTION OF RECORD (E4 instance): B1186's family (shape field in Q(sqrt-3)) is not m004's commensurability class -- 13 of its 112 are non-arithmetic and share no cover with m004; the class's census part is 99 (77 regular + 22). B1385 T4's identification, sL-1's status line and THE_VERDICT_OF_THE_OBJECT's line are scoped; main's B1418 cell-1 rows t11365 and o10_143602 are rows of the family, not of the class (relayed); no verdict changes (B1385/B1386's members and B1418's firing members are arithmetic). Pure mathematics; the reading in the seat's frame, spin-0 half. No physics crossed. 0 of 19."
+}
