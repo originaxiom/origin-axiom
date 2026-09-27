@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_EXECUTION",
+  "prior_result": "8112b526",
+  "scope": "Fixed-meridian local splitting and post-result regression locks; not all components",
+  "files": {
+    "MERIDIAN_DESIGN.md": "7e05486466b874fbd84f0656010b187cf7815a29ae6ac3fef8002637cae9463f",
+    "MERIDIAN_PROOF.md": "6c7e144fb24c7c3e0e6d2e948deaaf701052a727f438b60f8bfe651d8dffd059",
+    "verify_meridian_local.py": "3e0457884701f987a2ea2ef12f1a3124df66cc62905185b23bb9e9b5fd765f00",
+    "test_meridian_local.py": "3ed3ea3acbb8c161a34fa35b31196c7a7e744d3519e2345d5a95d9bd1c28357a",
+    "INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "verify_global_seed.py": "71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403"
+  }
+}
