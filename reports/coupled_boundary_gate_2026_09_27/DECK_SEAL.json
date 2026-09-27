@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_EXECUTION",
+  "prior_boundary_result": "4fb7b80b",
+  "scope": "Deck decomposition and necessary index allocations, no global realization",
+  "files": {
+    "DECK_DESIGN.md": "6b270379108560ec8b312201c7631bebbc5930f6ce9f49754560ffa9f8cfdef5",
+    "DECK_PROOF.md": "0ff25f0f7f1a3aa48356bcd8a041d760a88a05b65f2bfeaaf4d7b84db258d4e2",
+    "verify_deck_allocation.py": "d2eb8d9d9d191280e51045cee5a78c4afcfd950e03c743d573871a58e6b4e3b5",
+    "test_deck_allocation.py": "58f85d4e3b0129ed9537b670655a1c125716878fed4f4d7a8ea5bf36385aba4f",
+    "INPUTS.json": "016d6f7af77dc515a3c6adea2ee0797a4082842e48a33fb3c9440127dcfb822e",
+    "verify_boundary_gate.py": "f365357c46dcabc33e1eaf4740107328659bf4a9c5c27df696173cdc85c05334"
+  },
+  "execution_policy": "Commit seal before importing/executing the new deck producer and tests; preserve source hashes and first failures."
+}
