@@ -1,0 +1,5 @@
+$ LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py
+.........                                                                [100%]
+9 passed in 0.96s
+
+Exit code: 0

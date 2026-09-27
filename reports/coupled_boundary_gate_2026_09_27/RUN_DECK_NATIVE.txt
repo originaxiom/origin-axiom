@@ -1,0 +1,56 @@
+$ LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/coupled_boundary_gate_2026_09_27/verify_deck_allocation.py
+{
+  "E_boundary_comparator": {
+    "twisted_pair_fixed": [
+      2,
+      1,
+      1
+    ],
+    "pushforward_pair_fixed": 4,
+    "invariant_pair_fixed": 2,
+    "upstairs_pair_fixed": 4,
+    "deck_order_three": true,
+    "holonomy_cube_is_identity": false
+  },
+  "wedge2E_boundary_comparator": {
+    "twisted_pair_fixed": [
+      3,
+      2,
+      2
+    ],
+    "pushforward_pair_fixed": 7,
+    "invariant_pair_fixed": 3,
+    "upstairs_pair_fixed": 7,
+    "deck_order_three": true,
+    "holonomy_cube_is_identity": false
+  },
+  "necessary_E_index_triples_for_plus_three": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ]
+  ],
+  "if_Galois_hypothesis_holds": [
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "global_index_computed": false,
+  "physical_chirality_derived": false
+}
+PASS: exact local transfer and necessary deck-allocation constraints
+
+Exit code: 0

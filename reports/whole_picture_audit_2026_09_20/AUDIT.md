@@ -31,6 +31,16 @@ quotient bound two requires balanced global H0; it is not an unconditional
 negative on nonsplit modules. Seventeen new and fifteen parent-regression
 tests pass. The global common-background and physical-domain debts remain.
 
+Its [deck-allocation follow-through](../coupled_boundary_gate_2026_09_27/DECK_FINDINGS.md)
+further constrains a proposed irreducible rank-five background: an upstairs
+index +3 requires deck contributions (1,1,1), (2,0,1) or (2,1,0), and only
+(1,1,1) under a stated Galois symmetry. These are necessary distributions,
+not realized modes. Ordinary invariant projection keeps at most two in E;
+a physical quotient must therefore be specified, not used as bookkeeping.
+Nine more tests and the combined 41-test parent/boundary/deck suite pass.
+The [next global milestone](../coupled_boundary_gate_2026_09_27/NEXT_GLOBAL_SEARCH.md)
+now has an explicit input contract and completeness standard.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several

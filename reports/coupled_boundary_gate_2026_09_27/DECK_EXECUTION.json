@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-27",
+  "seal_commit": "655017f18e24d1e8a215146be15a42f9dc113492",
+  "sources_unchanged_after_runs": true,
+  "hash_check_chunk": "11453d",
+  "runs": [
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/coupled_boundary_gate_2026_09_27/verify_deck_allocation.py",
+      "chunks": [
+        "e31dd7",
+        "fed530"
+      ],
+      "exit_code": 0,
+      "output": "RUN_DECK_NATIVE.txt"
+    },
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py",
+      "chunks": [
+        "3353c2",
+        "012706"
+      ],
+      "exit_code": 0,
+      "output": "RUN_DECK_TESTS.txt"
+    },
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py",
+      "chunks": [
+        "89bee8",
+        "0cb61c"
+      ],
+      "exit_code": 0,
+      "output": "RUN_COMBINED_TESTS.txt"
+    }
+  ]
+}
