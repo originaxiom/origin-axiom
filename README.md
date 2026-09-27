@@ -314,6 +314,10 @@ emitted value. The structure is the object's; the values are the observer's.
 >
 > *And (B1387): the coefficient is computed. v₊'s harmonic form, solved numerically, makes both Eisenstein cusps disc-type and the
 > other two annular. Its index is 2: protected, non-zero, and not three.*
+>
+> *And (B1388), a test sealed before it ran: the count at a finite cut moves with the cut, so "protected chirality" is retired. What
+> survives is sharper. The +2 is minus the signed number of Higgs zeros on the whole manifold, and those zeros sit where no symmetric
+> cut can reach them. Which count is physical is the open question (OPEN_LEADS sL-8).*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

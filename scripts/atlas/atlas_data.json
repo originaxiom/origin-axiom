@@ -8038,7 +8038,7 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 3,
-   "status": "banked",
+   "status": "open",
    "domain": "arithmetic"
   },
   "B1387": {
@@ -8059,8 +8059,25 @@
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 3,
-   "status": "dead",
+   "status": "open",
    "domain": "topology"
+  },
+  "B1388": {
+   "slug": "the cutoff test",
+   "motifs": [
+    "choice",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "L4",
+    "S17",
+    "S4"
+   ],
+   "obstacle": "numerology",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B138": {
    "slug": "s031 principal lemma",

@@ -1,0 +1,92 @@
+B1388 post-seal: the anatomy of the cutoff dependence.
+=== (c) the joint embedding: cusps 0 and 3 grown together touch at volume 15.58846, 15.58846 (9 sqrt3 = 15.58846); tau_joint = 0.1790950, 0.1790950; each stopped by cusp 3, 0 ===
+--- K_n 14 (fit residual 3.1e-05, test residual 8.6e-04) ---
+=== (a) the zeros of omega = dF in each cusp's embedded range [tau_emb, 20 tau_emb] ===
+cusp 0, tau in [0.0895, 1.7909]: 6 zeros, index sum -2
+   tau 0.1032615 (s, t) = (0.84662, 0.24361) index +1 | trace check 4e-18 | height over the other Eisenstein cusp 0.1035397
+   tau 0.1034441 (s, t) = (0.17990, 0.91024) index -1 | trace check 6e-18 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 0.1036682 (s, t) = (0.51313, 0.57696) index +1 | trace check -4e-18 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 0.1790867 (s, t) = (0.62433, 0.79912) index -1 | trace check 4e-18 | height over the other Eisenstein cusp 0.1791033
+   tau 0.1790932 (s, t) = (0.29100, 0.46578) index -1 | trace check -1e-17 | height over the other Eisenstein cusp 0.1790968
+   tau 0.1790957 (s, t) = (0.62434, 0.46578) index -1 | trace check -6e-18 | height over the other Eisenstein cusp 0.1790943
+cusp 1, tau in [0.1266, 2.5328]: 0 zeros, index sum +0
+cusp 2, tau in [0.1791, 3.5819]: 3 zeros, index sum +1
+   tau 2.4773870 (s, t) = (0.45579, 0.07792) index -1 | trace check -2e-19 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 2.5415561 (s, t) = (0.43123, 0.72407) index +1 | trace check 3e-19 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 2.7522996 (s, t) = (0.90079, 0.43020) index +1 | trace check 2e-19 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   with the killed first shell (residue |c| sqrt(covol) = 7e-06) set to its exact value, zero: 0 zeros
+cusp 3, tau in [0.0895, 1.7909]: 6 zeros, index sum -2
+   tau 0.1032511 (s, t) = (0.72463, 0.05099) index +1 | trace check 6e-17 | height over the other Eisenstein cusp 0.1035501
+   tau 0.1034448 (s, t) = (0.05799, 0.71766) index -1 | trace check 0e+00 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 0.1036295 (s, t) = (0.39129, 0.38426) index +1 | trace check 3e-17 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 0.1790978 (s, t) = (0.16908, 0.27317) index -1 | trace check -5e-17 | height over the other Eisenstein cusp 0.1790922
+   tau 0.1790979 (s, t) = (0.50242, 0.60650) index -1 | trace check 9e-17 | height over the other Eisenstein cusp 0.1790921
+   tau 0.1791071 (s, t) = (0.50241, 0.27317) index -1 | trace check 2e-17 | height over the other Eisenstein cusp 0.1790829
+=== (b) the axes: dF/dh along the vertical lines over R's fixed points at cusp 0 ===
+   over (0.84662, 0.24361): sign changes of dF/dh at tau ['0.10321']; |grad_x F|/scale on the line <= 6e-05
+   over (0.17990, 0.91024): sign changes of dF/dh at tau ['0.10344']; |grad_x F|/scale on the line <= 2e-05
+   over (0.51313, 0.57696): sign changes of dF/dh at tau ['0.10360']; |grad_x F|/scale on the line <= 1e-04
+=== (c) the touching points against the zeros near tau_joint ===
+   touching point (0.624336, 0.799117), cusp-3 height there 0.1790950; zero minus touching point (ds, dt, dtau) = (-8e-07, 7e-07, -8e-06); |dF| at the touching point / scale 3e-06
+   touching point (0.291002, 0.465784), cusp-3 height there 0.1790950; zero minus touching point (ds, dt, dtau) = (1e-07, -3e-06, -2e-06); |dF| at the touching point / scale 4e-06
+   touching point (0.624336, 0.465784), cusp-3 height there 0.1790950; zero minus touching point (ds, dt, dtau) = (-2e-07, -2e-06, 7e-07); |dF| at the touching point / scale 4e-06
+=== (d) Morse's boundary count Phi_c(tau) against chi(d+_{c,tau}) ===
+cusp 0: Phi values [-1, 1, 2] over 60 heights (complete 60); smallest |g| at a critical point of f / max |g| 5.5e-03
+   Phi changes between tau 0.09912 and 0.10428: +1 -> +2
+   Phi changes between tau 0.17327 and 0.18229: +2 -> -1
+   tau 0.095: Phi +1, chi(d+) +4
+   tau 0.100: Phi +1, chi(d+) +7
+   tau 0.120: Phi +2, chi(d+) +2
+   tau 0.150: Phi +2, chi(d+) +2
+   tau 0.183: Phi -1, chi(d+) +2
+   tau 0.250: Phi -1, chi(d+) -1
+cusp 1: Phi values [0] over 12 heights (complete 11); smallest |g| at a critical point of f / max |g| 6.1e-02
+cusp 2: Phi values [0, 3] over 12 heights (complete 8); smallest |g| at a critical point of f / max |g| 9.9e-02
+   Phi changes between tau 1.20507 and 1.58229: +0 -> +3
+cusp 3: Phi values [-1, 1, 2] over 60 heights (complete 60); smallest |g| at a critical point of f / max |g| 5.8e-03
+   Phi changes between tau 0.09912 and 0.10428: +1 -> +2
+   Phi changes between tau 0.17327 and 0.18229: +2 -> -1
+   tau 0.095: Phi +1, chi(d+) +4
+   tau 0.100: Phi +1, chi(d+) +7
+   tau 0.120: Phi +2, chi(d+) +2
+   tau 0.150: Phi +2, chi(d+) +2
+   tau 0.183: Phi -1, chi(d+) +2
+   tau 0.250: Phi -1, chi(d+) -1
+=== (e) the sealed run's transition points ===
+cusp 0 at tau 0.0986149: (0.8446, 0.7423) g/max -3e-08 saddle |grad_x F|/max 0.405; (0.3474, 0.7425) g/max +2e-04 saddle |grad_x F|/max 0.405; (0.3478, 0.2456) g/max +2e-04 saddle |grad_x F|/max 0.404
+cusp 0 at tau 0.1052703: (0.3027, 0.2505) g/max +2e-07 max |grad_x F|/max 0.437; (0.3976, 0.2506) g/max +7e-05 max |grad_x F|/max 0.335; (0.3976, 0.7876) g/max +9e-05 max |grad_x F|/max 0.437
+cusp 0 at tau 0.1866807: (0.6352, 0.8209) g/max -2e-07 saddle |grad_x F|/max 0.108; (0.2692, 0.4549) g/max -7e-06 saddle |grad_x F|/max 0.108; (0.6352, 0.4549) g/max -2e-05 saddle |grad_x F|/max 0.108
+cusp 3 at tau 0.0986262: (0.7225, 0.5498) g/max -4e-09 saddle |grad_x F|/max 0.407; (0.2257, 0.5499) g/max +3e-04 saddle |grad_x F|/max 0.407; (0.2255, 0.0530) g/max +5e-04 saddle |grad_x F|/max 0.407
+cusp 3 at tau 0.1052530: (0.1804, 0.0579) g/max +7e-08 max |grad_x F|/max 0.440; (0.2755, 0.0580) g/max +2e-05 max |grad_x F|/max 0.337; (0.2757, 0.5950) g/max +6e-05 max |grad_x F|/max 0.439
+cusp 3 at tau 0.1866900: (0.5133, 0.6283) g/max -2e-07 saddle |grad_x F|/max 0.108; (0.1473, 0.2623) g/max -3e-06 saddle |grad_x F|/max 0.108; (0.5133, 0.2623) g/max -2e-05 saddle |grad_x F|/max 0.108
+--- K_n 20 (fit residual 5.9e-07, test residual 8.1e-05) ---
+=== (a) the zeros of omega = dF in each cusp's embedded range [tau_emb, 20 tau_emb] ===
+cusp 0, tau in [0.0895, 1.7909]: 6 zeros, index sum -2
+   tau 0.1033968 (s, t) = (0.51322, 0.57690) index +1 | trace check -1e-17 | height over the other Eisenstein cusp 0.1034043
+   tau 0.1034016 (s, t) = (0.17989, 0.91023) index -1 | trace check 2e-18 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 0.1034050 (s, t) = (0.84656, 0.24356) index +1 | trace check -5e-18 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 0.1790950 (s, t) = (0.62434, 0.46578) index -1 | trace check -2e-18 | height over the other Eisenstein cusp 0.1790950
+   tau 0.1790950 (s, t) = (0.29100, 0.46578) index -1 | trace check -5e-18 | height over the other Eisenstein cusp 0.1790950
+   tau 0.1790950 (s, t) = (0.62434, 0.79912) index -1 | trace check 2e-18 | height over the other Eisenstein cusp 0.1790950
+cusp 1, tau in [0.1266, 2.5328]: 0 zeros, index sum +0
+cusp 2, tau in [0.1791, 3.5819]: 2 zeros, index sum +0
+   tau 3.4181878 (s, t) = (0.73578, 0.84270) index -1 | trace check 4e-19 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 3.4700917 (s, t) = (0.26307, 0.43033) index +1 | trace check -2e-19 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   with the killed first shell (residue |c| sqrt(covol) = 8e-08) set to its exact value, zero: 0 zeros
+cusp 3, tau in [0.0895, 1.7909]: 6 zeros, index sum -2
+   tau 0.1033974 (s, t) = (0.39131, 0.38428) index +1 | trace check 3e-17 | height over the other Eisenstein cusp 0.1034037
+   tau 0.1034015 (s, t) = (0.05797, 0.71762) index -1 | trace check 3e-17 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 0.1034063 (s, t) = (0.72464, 0.05095) index +1 | trace check -4e-17 | height over the other Eisenstein cusp (no vertex of it in this tetrahedron)
+   tau 0.1790949 (s, t) = (0.50242, 0.27317) index -1 | trace check 6e-18 | height over the other Eisenstein cusp 0.1790951
+   tau 0.1790950 (s, t) = (0.50242, 0.60650) index -1 | trace check -4e-17 | height over the other Eisenstein cusp 0.1790950
+   tau 0.1790951 (s, t) = (0.16908, 0.27317) index -1 | trace check -2e-17 | height over the other Eisenstein cusp 0.1790949
+=== (b) the axes: dF/dh along the vertical lines over R's fixed points at cusp 0 ===
+   over (0.51322, 0.57690): sign changes of dF/dh at tau ['0.10337']; |grad_x F|/scale on the line <= 8e-07
+   over (0.17989, 0.91023): sign changes of dF/dh at tau ['0.10337']; |grad_x F|/scale on the line <= 1e-06
+   over (0.84656, 0.24356): sign changes of dF/dh at tau ['0.10337']; |grad_x F|/scale on the line <= 7e-06
+=== (c) the touching points against the zeros near tau_joint ===
+   touching point (0.624336, 0.465784), cusp-3 height there 0.1790950; zero minus touching point (ds, dt, dtau) = (-5e-08, 1e-09, -4e-08); |dF| at the touching point / scale 1e-07
+   touching point (0.291002, 0.465784), cusp-3 height there 0.1790950; zero minus touching point (ds, dt, dtau) = (-4e-08, -6e-08, -2e-08); |dF| at the touching point / scale 8e-08
+   touching point (0.624336, 0.799117), cusp-3 height there 0.1790950; zero minus touching point (ds, dt, dtau) = (-5e-08, -4e-08, 3e-08); |dF| at the touching point / scale 7e-08
+(1815s)
+DONE

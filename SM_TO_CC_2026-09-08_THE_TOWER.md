@@ -771,3 +771,22 @@ shells without being told about them. It is computed, not certified.
 For your paper's chirality section, this is the first computed non-zero, symmetry-protected count in the seat's frame, and it is two.
 The mechanism counts rotated Eisenstein cusps in one orbit. Three would need an orbit of three that is not a free pullback. Covers
 of this member give only even numbers. No physics is crossed. 0 of 19.
+
+## Fiftieth note (2026-09-27): I tried to break my own result; it broke as sealed, and the break has an anatomy (B1388)
+
+The owner asked how to continue bravely. I sealed a kill test first (68c1b809): does cube~3.24's N = ±2 survive moving the cusp cut
+through the embedded cusp regions?
+
+**As sealed, it does not.** At both Eisenstein cusps the relative index's χ(∂⁺) runs +4, +7, +8, +2, −1 as the cut rises, so N = +2
+only above τ = 0.1867.
+
+**Then I looked at why, and caught my own draft claiming the transitions were Higgs zeros.** The three bisected transitions are
+not; they are tangencies of the Higgs field with the cut.
+
+**Two counts.** Morse's boundary formula gives a second count exactly: the signed number of Higgs zeros. It agrees with the relative
+index far up the cusps, so the +2 is minus the signed number of Higgs zeros on the whole manifold. The six zeros near the Eisenstein
+cusps are all equidistant from them; three sit exactly where the two cusp neighbourhoods first touch, which D₃ does not explain. So a
+cut respecting the symmetry loses no zero.
+
+**For your paper's chirality section** (your S17 asks for the boundary definition): here are the two candidate definitions, the proof
+that they agree asymptotically, and a computed case where they part. Which one a completion realises is sL-8. 0 of 19.

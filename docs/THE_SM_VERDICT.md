@@ -717,3 +717,15 @@ left it.
 > It is the frame's first computed symmetry-protected chiral index, and it is two, not three. By pullback this member gives only
 > even counts. A three needs an orbit of three rotated Eisenstein cusps (sL-7). No physics is crossed. 0 of 19
 > (`frontier/B1387_the_index_computed`).
+
+> **Currency note (2026-09-27, B1388): kill test 1, sealed. The outcome was UNSTABLE, and the physical reading is retired.**
+> - **The sealed result.** The seat's count, a relative index at the cut, moves with the cut. At both Eisenstein cusps χ(∂⁺) runs
+>   +4, +7, +8, +2, −1 as the cut rises. The transitions are confirmed by refinement and by the unimposed swap. So N = +2 only
+>   above τ = 0.1867; admissible lower cuts give −1, −7, −6, −3.
+> - **After the seal: two counts.** The bisected transitions are tangencies of the Higgs field with the cut, not Higgs zeros. B1387's
+>   +2 is exactly minus the signed number of Higgs zeros on the whole manifold.
+> - **Where the zeros are.** All six zeros near the Eisenstein cusps are equidistant from them. So on every cut respecting the
+>   isometries the zero count stays +2, while the relative index dips to −4.
+>
+> That was found after the seal and is not a verdict. Which count is physical, and whether the completion respects the symmetry, is
+> sL-8, the place where physics has to enter. 0 of 19 (`frontier/B1388_the_cutoff_test`).

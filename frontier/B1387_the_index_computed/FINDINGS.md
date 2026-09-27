@@ -1,5 +1,12 @@
 # B1387 — THE INDEX COMPUTED: the harmonic cusp form of cube~3.24's self-selected class, solved numerically, gives N(v₊) = ±2. The first Fourier coefficient at both Eisenstein cusps is non-zero (|c|·√covol = 1.00695, equal at the two, as the swap demands). Its triple phase has cosine 0.37, so each Eisenstein cusp is disc-type with χ = −1 (L1). The two other cusps are annular. B1386's hypothesis holds, and the record's first symmetry-protected chiral index, computed rather than conditioned, is two: not zero and not three. The instrument is the one B1370 said the record lacked.
 
+> **Currency (2026-09-27, B1388, sealed kill test 1): the physical reading is retired as sealed.** The seat's count, a relative
+> index at the cut, moves with the cut. At both Eisenstein cusps χ(∂⁺) runs +4, +7, +8, +2, −1 as the cut rises (tangencies at
+> τ = 0.0986, 0.1053, 0.1867; the Higgs zeros on the rotation axes at 0.1034). *After the seal:* the asymptotic count here equals
+> minus the signed number of Higgs zeros on the whole manifold (Morse's boundary formula). The six zeros near the Eisenstein cusps
+> are all equidistant from them, so a cut respecting the isometries loses none. Which count is physical is sL-8. The mathematics
+> here stands. `frontier/B1388_the_cutoff_test`.
+
 **Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** B1386's T2, conditional on "the harmonic form's
 first Fourier coefficient at the Eisenstein cusp, non-zero at a non-degenerate phase"; B1370's residual of the same kind ·
 **Status:** PROVED in the computational sense of the record's numerical arcs: a Hejhal-type least-squares solve, stable to four

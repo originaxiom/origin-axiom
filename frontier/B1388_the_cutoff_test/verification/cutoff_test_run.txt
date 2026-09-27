@@ -1,0 +1,36 @@
+B1388 the cutoff test. Solve: {'unknowns': 2459, 'equations': 4624, 'full rank': np.True_, 'condition': 121934.27835380274, 'fit residual rms': 3.0759849633760585e-05, 'test residual rms': 0.0008580753728267071, 'lowest pulled-back height': 0.11462695797199504, 'seconds': 5.7, 'v on the parabolics (max)': np.float64(1.609823385706477e-15)}
+BANKED IDENTITY reproduced: True | asymptotic chi: {0: -1, 1: 0, 2: 0, 3: -1} | N = 2
+embedded ranges: {0: {'reach': 2.62875, 'volume': 62.35383, 'tau_emb': 0.08955}, 1: {'reach': 2.28217, 'volume': 31.17691, 'tau_emb': 0.12664}, 2: {'reach': 1.9356, 'volume': 15.58846, 'tau_emb': 0.17909}, 3: {'reach': 2.62875, 'volume': 62.35383, 'tau_emb': 0.08955}}
+cusp 0: tau in [0.0895, 1.7909]; chi values [-1, 2, 4, 8]; leading -1; constant and equal: False; incomplete searches 0; grid-only rows 0; grid disagreements 0; min critical gap 0.0043; modes used 15..306
+   tau 0.0895 chi +4 gap 0.0405 grid 4
+   tau 0.0967 chi +4 gap 0.0083 grid None
+   tau 0.1044 chi +8 gap 0.0043 grid None
+   tau 1.6585 chi -1 gap 0.1337 grid -1
+   tau 1.7909 chi -1 gap 0.1337 grid -1
+   TRANSITION at tau in [0.0986149, 0.0986149]: chi +4 -> +8
+   TRANSITION at tau in [0.1052703, 0.1052704]: chi +8 -> +2
+   TRANSITION at tau in [0.1866807, 0.1866808]: chi +2 -> -1
+cusp 1: tau in [0.1266, 2.5328]; chi values [0]; leading +0; constant and equal: True; incomplete searches 0; grid-only rows 2; grid disagreements 0; min critical gap 0.0000; modes used 11..310
+   tau 0.1266 chi +0 gap 0.0605 grid 0
+   tau 0.1368 chi +0 gap 0.0920 grid 0
+   tau 0.1477 chi +0 gap 0.1233 grid 0
+   tau 2.3455 chi +0 gap 0.9869 grid 0
+   tau 2.5328 chi +0 gap 0.9748 grid 0
+cusp 2: tau in [0.1791, 3.5819]; chi values [0, 1]; leading +0; constant and equal: False; incomplete searches 0; grid-only rows 11; grid disagreements 0; min critical gap 0.0000; modes used 9..306
+   tau 0.1791 chi +0 gap 0.0994 grid 0
+   tau 0.1934 chi +0 gap 0.1509 grid 0
+   tau 0.2088 chi +0 gap 0.2008 grid 0
+   tau 3.3171 chi +1 gap 0.0000 grid 1
+   tau 3.5819 chi +1 gap 0.0000 grid 1
+   TRANSITION at tau in [2.7650693, 2.7650709]: chi +0 -> +1
+cusp 3: tau in [0.0895, 1.7909]; chi values [-1, 2, 4, 8]; leading -1; constant and equal: False; incomplete searches 0; grid-only rows 0; grid disagreements 0; min critical gap 0.0042; modes used 15..306
+   tau 0.0895 chi +4 gap 0.0404 grid 4
+   tau 0.0967 chi +4 gap 0.0083 grid None
+   tau 0.1044 chi +8 gap 0.0042 grid None
+   tau 1.6585 chi -1 gap 0.1337 grid -1
+   tau 1.7909 chi -1 gap 0.1337 grid -1
+   TRANSITION at tau in [0.0986262, 0.0986262]: chi +4 -> +8
+   TRANSITION at tau in [0.1052530, 0.1052530]: chi +8 -> +2
+   TRANSITION at tau in [0.1866900, 0.1866901]: chi +2 -> -1
+OUTCOME: UNSTABLE (1114s)
+DONE

@@ -5,6 +5,13 @@
 > each. Cusps 1 and 2 are annular. **N(v₊) = ±2, computed** (not certified). The cheap three of sL-7 is excluded for this member.
 > `frontier/B1387_the_index_computed`.
 
+> **Currency (2026-09-27, B1388, sealed kill test 1): the physical reading is retired as sealed.** The seat's count, a relative
+> index at the cut, moves with the cut. At both Eisenstein cusps χ(∂⁺) runs +4, +7, +8, +2, −1 as the cut rises (tangencies at
+> τ = 0.0986, 0.1053, 0.1867; the Higgs zeros on the rotation axes at 0.1034). *After the seal:* the asymptotic count here equals
+> minus the signed number of Higgs zeros on the whole manifold (Morse's boundary formula). The six zeros near the Eisenstein cusps
+> are all equidistant from them, so a cut respecting the isometries loses none. Which count is physical is sL-8. The mathematics
+> here stands. `frontier/B1388_the_cutoff_test`.
+
 **Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** sL-6, registered by B1385 — "a member of m004's
 class with a rotated hexagonal free cusp whose invariant class no isometry negates" · **Status:** PROVED (L4; the member's symmetry
 data, exact) · COMPUTED (the search, 183 covers; B1370's shells; the controls) · CONDITIONAL (N(v₊) ≠ 0 rests on one analytic

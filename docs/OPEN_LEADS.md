@@ -3096,6 +3096,15 @@ is the generic outcome rather than an accident.
 
 `frontier/B1387_the_index_computed`.
 
+**Status (2026-09-27, B1388, sealed kill test 1): the physical reading is withdrawn.**
+- The seat's count, a relative index at the cut, moves with the cut. At the Eisenstein cusps χ runs +4, +7, +8, +2, −1 as the cut
+  rises. Admissible single-cusp cuts give N = −1, −7, −6 or −3.
+- After the seal: the bisected transitions (τ = 0.0986, 0.1053, 0.1867) are tangencies of the Higgs field with the cut, not zeros. The asymptotic N = +2 is minus the signed
+  number of Higgs zeros on the whole manifold, and on cuts respecting the isometries that count stays +2.
+- sL-6's gate stands as mathematics. As physics it waits on sL-8.
+
+`frontier/B1388_the_cutoff_test`.
+
 ## sL-7 — THE EISENSTEIN TRIPLE: THREE ROTATED CUSPS IN ONE ORBIT, AND WHAT "THREE" WOULD MEAN (registered 2026-09-27, B1386)
 
 **Why.** L4 (B1386) says an index carried by one orbit of rotation fixed points is ≢ 0 (mod 3). The member B1386 found gives
@@ -3126,3 +3135,31 @@ the architecture decides which level is physical.
 **Fence.** The seat's frame, spin-0 half. B1378's three (M₆'s deck triplet) is a different index and a different order-three
 element; the two are kept apart. ★ — worth doing only together with sL-5, since the cover-resolution question decides what any
 three means.
+
+**Status (2026-09-27, B1388): the physical reading is withdrawn with sL-6's.** Counts in this frame wait on sL-8 (which count, which
+completion) as well as on the level.
+
+## sL-8 — THE DEFINITION AND THE COMPLETION (registered 2026-09-27, B1388)
+
+**Why.** B1388's sealed test found that the seat's count, the relative index −χ(∂⁺M_T) at a cut, moves with the cut on cube~3.24.
+The post-seal anatomy found a second count: the signed number of Higgs zeros in M_T, given exactly by Morse's boundary formula.
+- The two agree far up the cusps. There B1387's +2 is minus the signed number of Higgs zeros on the complete manifold.
+- They part at finite cuts.
+  - The relative index sees the cut through tangency.
+  - The zero count sees only zeros. All six zeros near the Eisenstein cusps are equidistant from them, three exactly where the two cusp
+    neighbourhoods first touch, so on cuts respecting the isometries the zero count stays +2.
+
+**The two questions.**
+1. **Which count does the physics use?** For the local model on a truncated or completed cusped manifold, is it the index of a
+   boundary problem or the number of modes localized at Higgs zeros? Decidable in principle: compute the low-lying spectrum of the
+   Witten-deformed Laplacian on M_T with the ω-adapted boundary condition at large coupling, and ask where the modes that the relative
+   index counts beyond the zeros are localized — at the cut, or in the bulk.
+2. **Does the completion respect the isometries?** On cube~3.24 that decides whether any zero can be lost.
+
+**The rule.** Neither answer may be chosen because it rescues B1387's +2. Each is to be sealed before it is computed.
+
+**Also open (mathematics).** Why the orbit zeros sit exactly at the touching points (offset 6·10⁻⁸). Isom(M) = D₃ forces only one
+component of dF there. The natural suspect is a hidden symmetry.
+
+**Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
+frame's first genuinely physical input.

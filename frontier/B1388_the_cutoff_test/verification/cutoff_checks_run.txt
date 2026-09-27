@@ -1,0 +1,11 @@
+=== (a) the transitions at cusp 0 under a higher mode cut-off ===
+K_n 14 (unknowns 2459, fit residual 3.1e-05, test residual 8.6e-04): chi values [-1, 2, 4, 8]; transitions [(0.09861, 4, 8), (0.10527, 8, 2), (0.18668, 2, -1)]
+K_n 20 (unknowns 5049, fit residual 5.9e-07, test residual 8.1e-05): chi values [-1, 2, 4, 8]; transitions [(0.09835, 4, 8), (0.10521, 8, 2), (0.18669, 2, -1)]
+=== (b) the torus function at cusp 0, independently evaluated (K_n = 20 solve) ===
+tau 0.12: points read from another cusp's chart 8100/8100; lowest height of those readings 0.110; max |other-chart - cusp-0 expansion| / max = 1.76e-05; signs agreeing 1.0000; chi(d+) other-chart 2, cusp-0 expansion +2
+tau 0.15: points read from another cusp's chart 8100/8100; lowest height of those readings 0.104; max |other-chart - cusp-0 expansion| / max = 4.32e-05; signs agreeing 1.0000; chi(d+) other-chart 2, cusp-0 expansion +2
+=== (c) cusp 2's high transition: the numerical residue of a shell the symmetry kills exactly ===
+K_n 14: killed first shell's residue |c| sqrt(covol) = 6.7e-06; transitions as solved [(2.7651, 0, 1)]; with the killed shell set to zero: chi values [0], transitions []
+K_n 20: killed first shell's residue |c| sqrt(covol) = 8.4e-08; transitions as solved []; with the killed shell set to zero: chi values [0], transitions []
+(5722s)
+DONE

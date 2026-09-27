@@ -15521,3 +15521,42 @@ member; the SM_VERDICT currency note; the registry row T-INDEX-COMPUTED; the REA
 
 **In one line.** The frame's first computed symmetry-protected chiral index is two: the two rotated Eisenstein cusps of one orbit,
 one each. It is not three, and no physics is crossed. 0 of 19.
+
+---
+
+## 2026-09-27 — B1388: the cutoff test (owner: "how do we continue bravely")
+
+**The stance.** Try to break the one positive result before building on it, with the kill criterion sealed first. The first of
+three tests (the cutoff, the full spectrum, the level) was sealed at 68c1b809, before any computation, with a prior of STABLE
+about 55%.
+
+**The result, as sealed: UNSTABLE.**
+- At both Eisenstein cusps of cube~3.24, the relative index's χ(∂⁺) runs +4, +8, +2, −1 on the sealed grid as the cut rises, with
+  first changes bisected at τ = 0.0986, 0.1053 and 0.1867. A finer post-seal scan adds a plateau of +7 on (0.0986, 0.1034).
+- They are stable from mode cut-off 14 to 20, and cusp 3 reproduces them to 10⁻⁴ (the swap, unimposed).
+- Cusps 1 and 2 stay annular. A spurious high transition at cusp 2 was traced to a symmetry-killed shell's residue.
+- So N = +2 only above 0.1867. Admissible single-cusp cuts give −1, −7, −6 or −3.
+- The physical reading of B1386/B1387 is retired as sealed, with currency notes on both.
+
+**The anatomy (after the seal, unsealed).**
+- **A caught error.** The first draft said each transition is a Higgs zero. It is not: a partition changes where ∂_hF has a critical
+  point on its zero level, which is not where dF = 0. Checked directly, the Higgs field's horizontal part is 0.11–0.44 of its maximum
+  at every bisected transition, so those are tangencies. The one change the grid stepped over is at the Higgs zeros on the rotation
+  axes, where tangency and zero coincide and both counts move together.
+- **The second count.** Morse's boundary formula gives the signed Higgs-zero count of any truncation exactly. It agrees with the
+  relative index far up the cusps, so B1387's +2 is minus the signed number of Higgs zeros on the complete manifold.
+- **The zeros**, found by a direct search and identified across charts: six near the Eisenstein cusps, all equidistant from them.
+  Three are at the midpoints of the rotation axes. Three are an orbit exactly where the two cusp neighbourhoods, grown together, first
+  touch (offset 6·10⁻⁸). Isom = D₃ does not force the latter; that is open.
+- **A second caught error.** The draft's table used equal low cuts at both Eisenstein cusps, and those overlap. Admissibility is
+  τ₀τ₃ ≥ τ_joint².
+- **The consequence.** On every cut respecting the isometries the zero count stays +2, while the relative index dips to −4.
+
+**Banked.**
+- New lead **sL-8**: which count is physical, and whether the completion respects the symmetry. It is not to be decided by which count
+  survives.
+- The SM_VERDICT note; registry rows T-CUTOFF-DEPENDENCE and T-ZERO-COUNT; the README; the alias table (next B1389).
+- The lock: the relative index at 0.15 and 0.25; the two counts parting at 0.183; the orbit zeros at the joint touching height.
+
+**In one line.** The test broke the claim as sealed, and the break has a precise anatomy: chirality in this frame hinges on a
+definition and a completion, which is exactly where physics must enter. No physics has been crossed. 0 of 19.

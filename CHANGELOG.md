@@ -1,5 +1,9 @@
 # Changelog
 
+## B1388 — the cutoff test (kill test 1, sealed before computing): UNSTABLE — the seat's count on cube~3.24 moves with the cut (χ = +4, +7, +8, +2, −1 at the Eisenstein cusps; tangencies at τ = 0.0986, 0.1053, 0.1867, axis zeros at 0.1034); the physical reading of B1386/B1387 retired as sealed; post-seal anatomy: tangencies not zeros, the asymptotic +2 a Higgs-zero count, six zeros on the Eisenstein bisector
+
+Own code (B1387's instrument; B1386's Morse count; SnapPy's cusp neighbourhoods, individually and jointly). Checks: stable from mode cut-off 14 to 20; cusp 3 reproduces cusp 0 (the swap, unimposed); cusp 2's spurious high transition traced to a symmetry-killed shell's residue. Anatomy (unsealed): Morse's boundary formula for the zero count; the bisected transitions are tangencies, and a finer scan lists every change (the axis zeros move both counts); the zeros found, identified across charts and located (axis midpoints; the joint touching points to 6·10⁻⁸); the admissibility correction (τ₀τ₃ ≥ τ_joint²). New lead sL-8 (the definition and the completion). Registry rows T-CUTOFF-DEPENDENCE and T-ZERO-COUNT. 0 of 19.
+
 ## B1387 — the index computed: v₊'s L² harmonic form on cube~3.24 solved by a Hejhal-type fit on SnapPy's developed fundamental polyhedron; both Eisenstein cusps disc-type (first coefficient non-zero, triple phase cosine 0.370), the other cusps annular: N(v₊) = ±2 — B1386's condition discharged, the frame's first computed symmetry-protected chiral index, two and not three
 
 Own code (SnapPy's FundamentalPolyhedronEngine, SciPy's K₁, B1386's Morse count). The member's symmetries reproduced unimposed; stable over five runs; not certified. sL-6's check 2 done; sL-7's cheap three excluded for this member. Registry row T-INDEX-COMPUTED. No physics crossed. 0 of 19.
