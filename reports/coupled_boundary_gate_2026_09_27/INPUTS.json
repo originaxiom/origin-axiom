@@ -1,0 +1,17 @@
+{
+  "previous_result": "9cb1fd6b",
+  "main_pin": "987c0c8fdb07f7f79beccd6c82c1154e3e75fa47",
+  "sm_pin": "9f9a0751a50f343a6cf36dab67b86d67ccdfc844",
+  "handoff_archive": "/Users/dri/Documents/gpt/ORIGIN_AXIOM_CORRECTIVE_HANDOFF_TO_STANDARD_MODEL_SEAT_2026-09-27.zip",
+  "handoff_sha256": "138d4b0623a51d2491570075f59472faad084a314b8acc8f37f1929db6acc4af",
+  "handoff_member": "post_checkpoint_artifacts/parabolic_cusp_nonparabolic_core_gate_2026-09-26.zip",
+  "meridian_shear": [1, 3],
+  "toy_longitude_shear": 2,
+  "permutation": [[0, 0, 1], [1, 0, 0], [0, 1, 0]],
+  "cover_degree": 3,
+  "partitions": [[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]],
+  "expected_partition_wedge_dimensions": [2, 3, 4, 4, 6, 7, 10],
+  "target_index_magnitude": 3,
+  "hypercharge_exponents": {"Q": 1, "u": -4, "e": 6, "d": 2, "L": -3},
+  "scope": "Meridian conjugacy and declared toy torus pairs only, NOT globally realized M2/M6 holonomy. No experiment on handoff code."
+}

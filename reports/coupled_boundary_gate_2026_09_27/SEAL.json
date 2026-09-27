@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_EXECUTION",
+  "branch": "audit/fork-2026-09-20",
+  "parent_result": "9cb1fd6b",
+  "scope": "Exact boundary-only gate, not a global representation or physical mode count",
+  "files": {
+    "DESIGN.md": "0762526e249cc521343edff5ae15e9b395339dc3fee517af3f1ce07357fbbd53",
+    "PROOF.md": "002a6f086dfb78e3ed65e37956557c466e8ec0e791b38f604860560f8f7c02cf",
+    "INPUTS.json": "016d6f7af77dc515a3c6adea2ee0797a4082842e48a33fb3c9440127dcfb822e",
+    "verify_boundary_gate.py": "f365357c46dcabc33e1eaf4740107328659bf4a9c5c27df696173cdc85c05334",
+    "test_boundary_gate.py": "e8e85b287ec955d472a5191316a39fbbf03239ac82d23b956b440c553b27f19c"
+  },
+  "execution_policy": "Commit this seal before importing or executing either new Python file. Preserve first failures. Any correction requires a separately sealed revision."
+}
