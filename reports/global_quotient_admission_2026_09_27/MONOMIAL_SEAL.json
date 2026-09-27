@@ -1,0 +1,25 @@
+{
+  "parent": "6c88c804",
+  "status": "all-phase lattice addendum unexecuted",
+  "hashes": {
+    "reports/global_quotient_admission_2026_09_27/DESIGN.md": "5acba96e84a39529a471aa9011f94fb10a48f3c44b208600d136ad68dcfed99a",
+    "reports/global_quotient_admission_2026_09_27/PROOF.md": "753203d51e146fd8726d09bf43d7c1c80c95a88022aa86b05e28c58cdef5db59",
+    "reports/global_quotient_admission_2026_09_27/INPUTS.json": "c18fdeff80b680319b51a05f749b99e40e2c22e5515714588524af8542931c88",
+    "reports/global_quotient_admission_2026_09_27/verify_admission.py": "5c1814e29edc0e9fb82e4c6c3816fd38e1827d97d35b00f022a212dcc9107e95",
+    "reports/global_quotient_admission_2026_09_27/test_admission.py": "c350fd67d5242d8242bc3d7b40ea09de83bf64687de6fe162cd68667c4a8c4a6",
+    "reports/m6_parent_admission_2026_09_27/verify_parent_admission.py": "edd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f",
+    "reports/global_sl5_seed_2026_09_27/verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "reports/global_sl5_seed_2026_09_27/INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "reports/global_quotient_admission_2026_09_27/SERIALIZATION_REPAIR.md": "7ac275743033b457f6fe3b7d63e9aa73e51e57995a16c8bf5c8eaf860a75f8e3",
+    "reports/global_quotient_admission_2026_09_27/verify_admission_v2.py": "37d9658d834769d4fc8ab0a88154e8804675abd69cc5af9af1592b85a0ded3aa",
+    "reports/global_quotient_admission_2026_09_27/test_serialization.py": "99a03114a31c6b6b30ae7b405cf8e32f55e832124feb54203e767727a0b639f0",
+    "reports/global_quotient_admission_2026_09_27/MONOMIAL_DESIGN.md": "d62bbcb02415e9dafa19a2aa5207acdd583ed34253a0203d9ba3d0ec46fbfc32",
+    "reports/global_quotient_admission_2026_09_27/verify_monomial_lifts.py": "867847e64f1b47054f0f6b2cf93a5f3fe11f590eed946516adb515b08153845b",
+    "reports/global_quotient_admission_2026_09_27/test_monomial_lifts.py": "cbb1393fbcc9d61bf4db60449aec88215c1fd9ade4832748c2ecdad27b51a815",
+    "reports/monomial_exceptional_locus_2026_09_27/INPUTS.json": "a9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0"
+  },
+  "notes": [
+    "No outcome asserted in tests; exact order and witnesses determined by sealed lattice algorithm",
+    "Original admission sources retained unchanged"
+  ]
+}
