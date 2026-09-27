@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_EXECUTION_POST_RESULT_LOCKS",
+  "input_commit": "36883314",
+  "prior_seal": "abeb838c0273b90131a1428e11177e345752cff6",
+  "files": {
+    "reports/common_hypercharge_gate_2026_09_27/LOCK_DESIGN.md": "7e50207eda54adfe604d55a2344016bfdc61991090d28cc1a80b6c2e33e19505",
+    "reports/common_hypercharge_gate_2026_09_27/test_common_line_locks.py": "acca953ddf8ceaa6f698c9cd2ca888361aa06958d54116c7913e099dc249d1e9"
+  }
+}
