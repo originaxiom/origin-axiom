@@ -1021,3 +1021,18 @@ Commit/push/server confirmation precedes all import and execution.
 | `reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_INPUTS.json` | `6cce41d4696f113e5469197193b7fde6e6d94c1656cda71e6092683c4e3159ec` |
 | `reports/physical_bridge_2026_09_05/neutral_second_order.py` | `f1c7d6cf43d9720bfd66fa730fa62dfa8d921af6cacfaf67b63fa657e24bf2bd` |
 | `tests/test_physical_bridge_neutral_second_order.py` | `c8584d97cc8b17e5414b93a6c6bd611474334efd5b2bd7342952356d24b3f23c` |
+
+## R51 fixed-base finite-energy harmonic completion, September 27, 2026
+
+Pre-execution authored existence/uniqueness argument, not independent
+analytic acceptance or a strong-X physical branch. Commit/push/server
+confirmation precedes all scientific import/execution.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_DESIGN.md` | `339a7d50fa6d6e22c5c256927ce71d350085a51bf7016bc45a4efed1e1f12954` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_PROOF.md` | `502b1e45a797387094b5b1f4227f213f408cee9dba8195afd1865600395e0217` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_PRIOR.md` | `be07d2f6d1c0fb89c0a74d5b987fa8b278851cd1638066d513713cc64060a98a` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_INPUTS.json` | `e9ee61c03a50afc723fc5f413648507463864ffdad6608c38385ec78cbc940c2` |
+| `reports/physical_bridge_2026_09_05/neutral_existence.py` | `fc144829be76355b3b083accc96144d2002902c9289f438b071c14286bfa2f74` |
+| `tests/test_physical_bridge_neutral_existence.py` | `8e98709c610dc3193cd760e77b21e23902f90bb773e369264295519843470d10` |
