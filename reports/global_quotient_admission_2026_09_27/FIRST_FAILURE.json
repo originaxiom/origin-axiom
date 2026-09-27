@@ -1,0 +1,12 @@
+{
+  "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/global_quotient_admission_2026_09_27/verify_admission.py",
+  "events": [
+    {
+      "chunk_id": "251c46",
+      "wall_time_seconds": 0.757036167,
+      "exit_code": 1,
+      "original_token_count": 382,
+      "output": "PARENT {\"all_parent_weight_multiplicities\": 248, \"SM_connected_centralizer_dimension\": 25, \"without_Y_centralizer_dimension\": 35, \"line_structure_kernel_mod5\": [[0, 0], [1, 4], [2, 3], [3, 2], [4, 1]], \"five_sector_dictionary_and_actual_duals\": true, \"connected_compact_group\": \"U(5)\", \"disconnected_components_classified\": false}\nTraceback (most recent call last):\n  File \"/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/global_quotient_admission_2026_09_27/verify_admission.py\", line 206, in <module>\n    run()\n  File \"/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/global_quotient_admission_2026_09_27/verify_admission.py\", line 201, in run\n    print(key, json.dumps(result), flush=True)\n               ^^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/__init__.py\", line 231, in dumps\n    return _default_encoder.encode(obj)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py\", line 258, in iterencode\n    return _iterencode(o, 0)\n           ^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type NegativeOne is not JSON serializable\n"
+    }
+  ]
+}
