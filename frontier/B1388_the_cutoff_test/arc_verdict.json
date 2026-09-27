@@ -1,0 +1,17 @@
+{
+ "id": "B1388",
+ "verdict": "OPEN",
+ "instrument": false,
+ "depends_on": [
+  "B1387",
+  "B1386",
+  "B1370",
+  "B1351"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "creates_law": false,
+ "identifications": [],
+ "claim_one_line": "THE CUTOFF TEST, SEALED (not yet run): is cube~3.24's chiral index N(v+) = +-2 (B1387) independent of where the cusps are cut off inside their embedded cusp regions? The index at a decaying (cuspidal) Higgs field is not canonically defined (non-Fredholm cusp), so the count is chi(M_T, d+M_T) for a cutoff set by the global completion; two outcomes sealed before any height-dependent partition is computed: STABLE (every cusp's chi constant on [tau_emb, 20 tau_emb] and equal to the leading-shell value -> N = +-2 for every admissible truncation) or UNSTABLE (the physical reading of B1386/B1387 retired, NEGATIVE, transition heights reported). Declared prior STABLE ~55%. PREREGISTRATION.md sha256 recorded in docs/SEAL_LEDGER.md."
+}
