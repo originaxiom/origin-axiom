@@ -1,0 +1,14 @@
+{
+  "seeds": [0, 1],
+  "cover": 6,
+  "generic_control": 2,
+  "max_factor_degree": 12,
+  "coefficients": ["E", "dual_E", "wedge2E", "dual_wedge2E", "off"],
+  "positive_root_grading": [1, 2, 4, 8, 16, 32, 64, 128],
+  "M2_chi5_exponents": [0, 1, -1],
+  "absorption": [
+    {"k": 2, "diagonal_exponents": [0, 0, 0, 2, 2]},
+    {"k": 4, "diagonal_exponents": [0, 0, 0, 1, 4]}
+  ],
+  "scope": "Both literal monomial families restricted to M6; trivial common line; compact Lie algebra only, not global quotient or disconnected stabilizer"
+}
