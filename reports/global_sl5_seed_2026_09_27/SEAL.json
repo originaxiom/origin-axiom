@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_EXECUTION",
+  "parent_commit": "a6d4ad86",
+  "branch": "audit/fork-2026-09-20",
+  "files": {
+    "DESIGN.md": "e70c1899d3956b97a93f16628324acdc2b4f9f589784bf422b63c77bffe84c0f",
+    "PROOF.md": "cb82daca3dc241d5cece3c170b8fb02d76e5cbe9a35f5828f77493e3d10ef02d",
+    "INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "verify_global_seed.py": "71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403",
+    "test_global_seed.py": "494ed433869346421367bf525a2f92e779b2c0f59e8e9cb3874b092ecec2a1bd"
+  },
+  "policy": "Commit before new scientific execution. Phase A word certificate must finish with exit 0 before Phase B. Preserve first failures; separately seal corrections. No physical chirality or full banking claim."
+}
