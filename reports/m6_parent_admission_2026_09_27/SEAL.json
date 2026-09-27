@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-27",
+  "branch": "audit/fork-2026-09-20",
+  "input_head": "9cc1de66",
+  "status_at_seal": "not imported or executed",
+  "files_sha256": {
+    "reports/m6_parent_admission_2026_09_27/DESIGN.md": "f3745c6f6456b2638ec5b5496852626131e85885a0160d5bf6e464f30f6004f4",
+    "reports/m6_parent_admission_2026_09_27/PROOF.md": "9578bca602f20324a8a108b030d581d4b4954517484a8842fc9c1f3a99ae35f3",
+    "reports/m6_parent_admission_2026_09_27/INPUTS.json": "2294dd33621abab56e777555bf90b32c39654d624dc7bbef89066a7acda6d8ec",
+    "reports/m6_parent_admission_2026_09_27/verify_parent_admission.py": "edd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f",
+    "reports/m6_parent_admission_2026_09_27/test_parent_admission.py": "ee6e685e648b9f8e86286457d021bd1b5618222ef2b1091f3face5f858f5fbf2"
+  },
+  "source_archive_sha256": "138d4b0623a51d2491570075f59472faad084a314b8acc8f37f1929db6acc4af",
+  "source_commit": "9f9a0751a50f343a6cf36dab67b86d67ccdfc844",
+  "regression": "reports/deck_descent_2026_09_27/test_deck_descent.py at 9cc1de66",
+  "commands": [
+    "python3.12 reports/m6_parent_admission_2026_09_27/verify_parent_admission.py",
+    "python3.12 -m pytest -p no:cacheprovider reports/m6_parent_admission_2026_09_27/test_parent_admission.py -q",
+    "python3.12 -m pytest -p no:cacheprovider reports/deck_descent_2026_09_27/test_deck_descent.py -q"
+  ],
+  "custody": "Commit locally before execution; no scientific edits until every terminal exit; preserve first failures; no push or full-bank claim."
+}
