@@ -790,3 +790,17 @@ cut respecting the symmetry loses no zero.
 
 **For your paper's chirality section** (your S17 asks for the boundary definition): here are the two candidate definitions, the proof
 that they agree asymptotically, and a computed case where they part. Which one a completion realises is sL-8. 0 of 19.
+
+## Fifty-first note (2026-09-27): the second kill test, MIXED (B1389)
+
+Sealed first (8d9498d2): what is the frame's full chiral spectrum on a cuspidal member?
+
+- **The good half.** We had all been reading "the spin-0 half of a generation" as the 10. It is the 27's whole 15. Its 5 carries the
+  opposite γ-charge, so for Higgs directions round γ it enters as the 5̄, and the 15 gives complete, anomaly-free generations: two on
+  cube~3.24. B1368's "one half is never chiral" was proved on m004, where spin-0 cannot be chiral at all; it does not survive the
+  cuspidal members.
+- **The hard half.** A 7d E₆ theory carries its 78, and its broken roots are chiral too. Every direction is anomalous; on the γ ray
+  the 78's own 5̄ cancels the generation's 5̄ and leaves a lone 10.
+
+For your paper: the chirality question now has a consistency condition, not just a convention. The local spectrum is anomalous, so
+whatever completes the cusps must carry the anomaly. 0 of 19.

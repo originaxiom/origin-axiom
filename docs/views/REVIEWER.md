@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1236** |
-| words of findings prose | **952,370** |
-| test lock files referenced | **750** |
-| arcs carrying an authored verdict | **1236** (100.0 %) |
+| research arcs with findings | **1237** |
+| words of findings prose | **954,493** |
+| test lock files referenced | **751** |
+| arcs carrying an authored verdict | **1237** (100.0 %) |
 | recorded closures | **792** (617 classified, 175 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 816 |
+| PROVED | 817 |
 | NEGATIVE | 321 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1387`** (2195 words, 1 locks)  
-THE INDEX COMPUTED: B1386's condition discharged by computing the L^2 harmonic representative of cube~3.24's cuspidal, isometry-invariant class v+ (a new instrument: a Hejhal-type least-squares fit of the cusp expansions F = A_c + sum c_k t K_1(2 pi |k| t) e^{2 pi i k.x} of the harmonic function F with F(g x) = F(x) + v+(g); sample points low in every chart pulled back into SnapPy's developed fundamental polyhedron (90 tetrahedra, 74 vertices, 46 face pairings, relators to 4.5e-13) by a walk that accumulates v+, re-expanded in the chart of the tetrahedron's highest vertex, the charts found by a breadth-first search over the face pairings whose parabolic loops give the lattices (matching SnapPy's cusp shapes) and carry v+ = 0 to 1e-15). Result, stable to four digits over five runs (K_n 6-14, sampling heights 0.08-0.10, chart and sample seeds; full rank; fit residual 3.7e-3 -> 3.1e-5): both Eisenstein cusps carry a non-zero first-shell coefficient, |c| sqrt(covol) = 1.00695 at both, with triple phase of cosine 0.370, so d+ is disc-type there, chi = -1 (L1); cusp 1's leading shell is one direction (1.789; annular) and cusp 2's is the sqrt3-shell dominated 6.6x by one direction (0.335, 0.335, 2.209; annular, critical gap 0.54). N(v+) = +-2 (sign = the charge); N = chi_0 mod 3 as L4 requires. The member's rotation (equal magnitudes), swap (equal chart-invariant coefficient and phase at cusps 0 and 3), -I (real triple phase at cusp 2) and killed shells (cusps 1 and 2, falling with K_n) are reproduced without being imposed. The frame's first computed symmetry-protected chiral index is two -- the two rotated Eisenstein cusps of the swap orbit, one each -- not zero and not three; pullbacks give 2d, never 3 (sL-7's cheap three excluded for this member). Hejhal's method in kind; computed, not certified (double precision). Fences: the seat's frame (sign partition, R23), spin-0 half; no physics crossed. 0 of 19.  
-`B1387_the_index_computed/FINDINGS.md`
+**PROVED — `B1389`** (1964 words, 1 locks)  
+MIXED, as sealed (8d9498d2, prior MIXED ~55%) -- THE FULL SPECTRUM (kill test 2 on the chirality mechanism): on a member with a cuspidal Higgs class of count N, the frame gives each spin-0 sector sign(<H,mu>)N and every doublet 0 (B1372 Lemma A), H = aY + b gamma. Exact, every cone visited, on the record's own E6 vectors (B1368). F27 PASSES: for -1 < a/b < 2/3 (the cone round gamma) the 27's spin-0 sector -- the 15, with the 10 at gamma = -2/3 and the 5 at +4/3 -- gives exactly one complete SM-anomaly-free generation per unit N, d^c and L supplied by the 5 at negative chirality (a 5bar); so B1368's frame theorem ('one half of every generation is never chiral', proved on m004) is scoped to members without a cuspidal class, and the record's 'spin-0 half = the 10' reading undersold it; cube~3.24: two generations in the frame. F78, F27+78 and F133 FAIL in every cone: the 78's spin-0 broken roots (the 35's) are chiral too -- the X,Y partners (3,2)_{-5/6} whenever a != 0, and a 5bar at gamma = +2 -- so 7d E6 super-Yang-Mills's own bulk is anomalous in every direction; on the pure gamma ray the 78's 5bar cancels the generation's 5bar exactly and leaves a lone 10. Non-abelian anomalies have no Green-Schwarz cure, so the completion must carry the gauge sector's anomaly (inflow at the cusps): sL-8's third job. In the passing cone U(1)_gamma's mixed anomalies are universal ([SU(3)]^2 gamma = [SU(2)]^2 gamma = (3/5) Y^2 gamma = +-5/3), one GS axion can make it massive (B864). No physics crossed. 0 of 19.  
+`B1389_the_full_spectrum/FINDINGS.md`
 
 **NEGATIVE — `B1388`** (3644 words, 1 locks)  
 THE CUTOFF TEST (kill test 1 on the chirality mechanism; sealed at 68c1b809 before computing, prior STABLE ~55%): UNSTABLE, so NEGATIVE as sealed for the physical reading of B1386/B1387. The seat's count on cube~3.24 (the relative index -chi(d+M_T), d+ = {dF/dh > 0} on the cut) moves with the cut: at both Eisenstein cusps chi = +4, +8, +2, -1 on the sealed grid as the cut rises through the embedded region (first changes bisected at tau = 0.0986, 0.1053, 0.1867; stable from mode cut-off 14 to 20; cusp 3 reproduces cusp 0 to 1e-4, the swap unimposed); cusps 1, 2 annular (cusp 2's high transition a killed shell's residue). A finer post-seal scan adds a +7 plateau on (0.0986, 0.1034). Admissible single-cusp cuts give N = -1, -7, -6 or -3 instead of +2. POST-SEAL ANATOMY (unsealed, computed): (i) Morse's boundary formula gives the signed Higgs-zero count of M_T exactly from the cut; it agrees with the relative index far up the cusps, so B1387's N = +2 is minus the signed number of Higgs zeros on the complete manifold (Theorem A, proved); (ii) the three bisected transitions are tangencies of the Higgs field with the cut, not zeros (|grad_x F| = 0.11-0.44 of max there), while at the zeros on the rotation axes tangency and zero coincide and both counts move; (iii) v+'s Higgs field has six zeros in the Eisenstein regions, all equidistant from cusps 0 and 3: three at the midpoints of the rotation axes (tau 0.1034; +1, -1, +1) and an R-orbit of three (index -1) exactly where the two cusp neighbourhoods, grown together, first touch (volume 9 sqrt3, tau_joint = 0.1790950; offset 6e-8 at K_n 20; not forced by Isom = D3, open); they sum to -N; (iv) so on every admissible cut respecting the isometries (cusps 0, 3 cut equally, >= tau_joint) no zero is lost and the zero count is +2, while the relative index is -4 on [0.1791, 0.1867); asymmetric cuts move both. Which count is physical, and whether the completion respects the symmetry, is registered as sL-8 (not decided by which survives). Mathematics of B1386/B1387 stands; sL-6/sL-7 physical readings withdrawn. No physics crossed. 0 of 19.  

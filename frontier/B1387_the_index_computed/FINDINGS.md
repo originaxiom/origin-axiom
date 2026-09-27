@@ -7,6 +7,10 @@
 > are all equidistant from them, so a cut respecting the isometries loses none. Which count is physical is sL-8. The mathematics
 > here stands. `frontier/B1388_the_cutoff_test`.
 
+> **Currency (2026-09-27, B1389): "the spin-0 half" is a whole generation in the 27-frame.** With the Higgs direction in the cone
+> −1 < a/b < 2/3 round γ, the count ±2 applies to the whole 15, the 5 entering as the 5̄: two complete, anomaly-free generations in the
+> 27-frame. The frames carrying the 78's broken roots are anomalous in every direction. `frontier/B1389_the_full_spectrum`.
+
 **Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** B1386's T2, conditional on "the harmonic form's
 first Fourier coefficient at the Eisenstein cusp, non-zero at a non-degenerate phase"; B1370's residual of the same kind ·
 **Status:** PROVED in the computational sense of the record's numerical arcs: a Hejhal-type least-squares solve, stable to four

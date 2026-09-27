@@ -1,5 +1,9 @@
 # Changelog
 
+## B1389 — the full spectrum (kill test 2, sealed before computing): MIXED — the 27's spin-0 15 gives whole, anomaly-free generations round γ (two on cube~3.24 in the 27-frame; B1368's frame theorem scoped); the 78's broken roots make 7d E₆ super-Yang–Mills's bulk anomalous in every direction
+
+Exact group theory on the record's own E₆ vectors (B1368), every cone of Higgs directions in four frames (F27, F78, F27+78, F133). The 5 of the 15 carries the opposite γ-charge to the 10 and enters as the 5̄ in −1 < a/b < 2/3; the 78's X,Y partners and its 5̄ at γ = +2 spoil every fuller frame (a lone 10 on the γ ray). U(1)_γ's mixed anomalies universal in the passing cone. sL-8 gains its third job (the gauge sector's anomaly). Registry row T-FULL-SPECTRUM. 0 of 19.
+
 ## B1388 — the cutoff test (kill test 1, sealed before computing): UNSTABLE — the seat's count on cube~3.24 moves with the cut (χ = +4, +7, +8, +2, −1 at the Eisenstein cusps; tangencies at τ = 0.0986, 0.1053, 0.1867, axis zeros at 0.1034); the physical reading of B1386/B1387 retired as sealed; post-seal anatomy: tangencies not zeros, the asymptotic +2 a Higgs-zero count, six zeros on the Eisenstein bisector
 
 Own code (B1387's instrument; B1386's Morse count; SnapPy's cusp neighbourhoods, individually and jointly). Checks: stable from mode cut-off 14 to 20; cusp 3 reproduces cusp 0 (the swap, unimposed); cusp 2's spurious high transition traced to a symmetry-killed shell's residue. Anatomy (unsealed): Morse's boundary formula for the zero count; the bisected transitions are tangencies, and a finer scan lists every change (the axis zeros move both counts); the zeros found, identified across charts and located (axis midpoints; the joint touching points to 6·10⁻⁸); the admissibility correction (τ₀τ₃ ≥ τ_joint²). New lead sL-8 (the definition and the completion). Registry rows T-CUTOFF-DEPENDENCE and T-ZERO-COUNT. 0 of 19.

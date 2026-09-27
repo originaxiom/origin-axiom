@@ -1,5 +1,11 @@
 # B1368 — THE OBJECT'S OWN STANDARD-MODEL CONNECTIONS: every flat E₆(ℂ) connection of m004 that leaves the Standard Model unbroken places its non-abelian part in SL(2)_β, and then the 10 and the 5̄ of SU(5) never share an SL(2)_β-spin — the 10 is spin 0 in the 27 and spin ½ in the 78, the 5̄ the other way — while spin-0 sectors are cusp-fixed only when trivial and carry no chiral index; for the geometric representation Calegari's trace −2 of the longitude kills the spin-½ sectors as well; so no flat connection of the object gives a chiral generation from bulk matter with the Standard Model unbroken: L216 is closed in the seat's frame, and with B1351 and B1367 the E₆ route from m004 has no chirality mechanism compatible with the Standard Model anywhere in the record's frames — the object's twisted cohomology is golden (Alexander z² − 3z + 1, twisted Alexander z² − 4z + 1), and its massless charged pairs sit at those roots, vector-like
 
+> **Currency (2026-09-27, B1389, sealed kill test 2): the frame theorem is scoped.** "One half of every generation is never chiral"
+> holds where spin-0 sectors cannot be chiral, as on m004. On a member with a cuspidal Higgs class the 27's spin-0 sector is the whole
+> 15, whose 5 carries the opposite γ-charge to the 10. For Higgs directions in −1 < a/b < 2/3 it enters as the 5̄, and the 15 gives
+> whole, anomaly-free generations. The 78's broken roots then make the full bulk anomalous in every direction.
+> `frontier/B1389_the_full_spectrum`.
+
 **Date:** 2026-09-16 · **Seat:** cc (the SM-derivation branch) · **Status:** NEGATIVE (L216 in the seat's frame: B1351 (ii) under the whole-torus/annular conventions, the R23 scoping stated) + PROVED (exact over ℚ(ω): the Riley representation, the longitude's trace, the Alexander and twisted Alexander polynomials by Fox calculus, the sector census on the E₆ root system, the frame theorem, the λ-parabolic points of the character variety by resultant) · **Price: unchanged** · **Numbering:** B1368 (L216 registered by B1367).
 
 ## 0. Seen from above

@@ -729,3 +729,13 @@ left it.
 >
 > That was found after the seal and is not a verdict. Which count is physical, and whether the completion respects the symmetry, is
 > sL-8, the place where physics has to enter. 0 of 19 (`frontier/B1388_the_cutoff_test`).
+
+> **Currency note (2026-09-27, B1389): kill test 2, sealed. The outcome is MIXED.**
+> - **The positive half.** The record read "the spin-0 half" as the 10 alone. On a cuspidal member the 27's spin-0 sector is the
+>   whole 15, and its 5 carries the opposite γ-charge. For Higgs directions in the cone −1 < a/b < 2/3 round γ it enters as the 5̄.
+>   The 15 then gives whole, anomaly-free Standard-Model generations: two on cube~3.24, in the 27-frame.
+> - **The negative half.** 7d E₆ super-Yang–Mills also carries its 78, whose broken roots are chiral too. The bulk is anomalous in
+>   every direction; on the pure γ ray it is a lone 10.
+>
+> Non-abelian anomalies have no Green–Schwarz cure, so the completion must carry the gauge sector's anomaly (sL-8's third job).
+> 0 of 19 (`frontier/B1389_the_full_spectrum`).

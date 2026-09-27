@@ -3161,5 +3161,14 @@ The post-seal anatomy found a second count: the signed number of Higgs zeros in 
 **Also open (mathematics).** Why the orbit zeros sit exactly at the touching points (offset 6·10⁻⁸). Isom(M) = D₃ forces only one
 component of dF there. The natural suspect is a hidden symmetry.
 
+**The third job (B1389, sealed kill test 2).** The frame's full chiral spectrum on a cuspidal member splits.
+- The 27's spin-0 sector gives whole, anomaly-free generations for Higgs directions in −1 < a/b < 2/3.
+- The 78's broken roots, which 7d E₆ super-Yang–Mills always carries, are chiral too. So the local bulk is anomalous in every
+  direction. On the pure γ ray it is a lone 10 per unit N.
+- Non-abelian anomalies have no Green–Schwarz cure. So a consistent completion must carry the gauge sector's anomaly: chiral matter at
+  the cusps (inflow) that is itself part of the spectrum.
+
+This job is not optional, whichever answers the first two questions get. `frontier/B1389_the_full_spectrum`.
+
 **Fence.** The seat's frame, spin-0 half. ★★ — this is where physics has to enter; a derived answer to either question would be the
 frame's first genuinely physical input.

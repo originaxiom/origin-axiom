@@ -7542,8 +7542,8 @@
     "L216"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 14,
-   "status": "banked",
+   "obstacle_conf": 16,
+   "status": "open",
    "domain": "arithmetic"
   },
   "B1369": {
@@ -8048,6 +8048,7 @@
     "figure_eight",
     "eisenstein",
     "golden",
+    "z3_generation",
     "amphichiral_cp",
     "torsion",
     "symplectic",
@@ -8060,7 +8061,7 @@
    "obstacle": "units_scale",
    "obstacle_conf": 3,
    "status": "open",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B1388": {
    "slug": "the cutoff test",
@@ -8078,6 +8079,23 @@
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1389": {
+   "slug": "the full spectrum",
+   "motifs": [
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B864"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 28,
+   "status": "banked",
+   "domain": "topology"
   },
   "B138": {
    "slug": "s031 principal lemma",

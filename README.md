@@ -318,6 +318,10 @@ emitted value. The structure is the object's; the values are the observer's.
 > *And (B1388), a test sealed before it ran: the count at a finite cut moves with the cut, so "protected chirality" is retired. What
 > survives is sharper. The +2 is minus the signed number of Higgs zeros on the whole manifold, and those zeros sit where no symmetric
 > cut can reach them. Which count is physical is the open question (OPEN_LEADS sL-8).*
+>
+> *And (B1389), the second sealed test: the count's sector is the whole 15 of the 27, and along the right Higgs direction it gives
+> complete, anomaly-free generations: two, not three. But the gauge multiplet's own broken roots make the local spectrum anomalous,
+> so the completion must carry that anomaly.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

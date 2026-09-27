@@ -1,19 +1,21 @@
 {
  "id": "B1389",
- "verdict": "OPEN",
- "instrument": false,
+ "verdict": "PROVED",
+ "instrument": true,
  "depends_on": [
   "B1388",
   "B1387",
   "B1372",
   "B1369",
   "B1368",
-  "B1351"
+  "B1366",
+  "B1351",
+  "B864"
  ],
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
  "creates_law": false,
  "identifications": [],
- "claim_one_line": "THE FULL SPECTRUM, SEALED (not yet run; kill test 2 on the chirality mechanism): on a member with a cuspidal Higgs class (cube~3.24, N = +-2), the frame gives each spin-0 sector the index sign(<H, mu>)*N and every doublet 0 (B1372 Lemma A); for which Higgs directions H = aY + b gamma is the net chiral spectrum n complete SM generations, SM-anomaly-free? Four frames (F27, F78, F27+78, F133), every cone of directions visited; the record read the spin-0 half as the 10 alone, but the 27's spin-0 sector is the 15 = 10 + 5 and a negative-chirality 5 is a 5bar. Outcomes sealed per frame (PASS/FAIL) and overall (POSITIVE if a frame with the 78's broken roots passes, MIXED if only F27 or F78, NEGATIVE if none); declared prior MIXED ~55%. PREREGISTRATION.md sha256 recorded in docs/SEAL_LEDGER.md."
+ "claim_one_line": "MIXED, as sealed (8d9498d2, prior MIXED ~55%) -- THE FULL SPECTRUM (kill test 2 on the chirality mechanism): on a member with a cuspidal Higgs class of count N, the frame gives each spin-0 sector sign(<H,mu>)N and every doublet 0 (B1372 Lemma A), H = aY + b gamma. Exact, every cone visited, on the record's own E6 vectors (B1368). F27 PASSES: for -1 < a/b < 2/3 (the cone round gamma) the 27's spin-0 sector -- the 15, with the 10 at gamma = -2/3 and the 5 at +4/3 -- gives exactly one complete SM-anomaly-free generation per unit N, d^c and L supplied by the 5 at negative chirality (a 5bar); so B1368's frame theorem ('one half of every generation is never chiral', proved on m004) is scoped to members without a cuspidal class, and the record's 'spin-0 half = the 10' reading undersold it; cube~3.24: two generations in the frame. F78, F27+78 and F133 FAIL in every cone: the 78's spin-0 broken roots (the 35's) are chiral too -- the X,Y partners (3,2)_{-5/6} whenever a != 0, and a 5bar at gamma = +2 -- so 7d E6 super-Yang-Mills's own bulk is anomalous in every direction; on the pure gamma ray the 78's 5bar cancels the generation's 5bar exactly and leaves a lone 10. Non-abelian anomalies have no Green-Schwarz cure, so the completion must carry the gauge sector's anomaly (inflow at the cusps): sL-8's third job. In the passing cone U(1)_gamma's mixed anomalies are universal ([SU(3)]^2 gamma = [SU(2)]^2 gamma = (3/5) Y^2 gamma = +-5/3), one GS axion can make it massive (B864). No physics crossed. 0 of 19."
 }

@@ -15560,3 +15560,29 @@ about 55%.
 
 **In one line.** The test broke the claim as sealed, and the break has a precise anatomy: chirality in this frame hinges on a
 definition and a completion, which is exactly where physics must enter. No physics has been crossed. 0 of 19.
+
+---
+
+## 2026-09-27 — B1389: the full spectrum (kill test 2)
+
+**The test.** The second kill test, sealed at 8d9498d2 before any direction was read. It is decidable before sL-8, because the pattern
+multiplies the count. On a cuspidal member the frame gives each spin-0 sector sign(⟨H, μ⟩)N and each doublet 0. The question: for
+which Higgs directions is the net chiral spectrum whole, anomaly-free generations? Four frames were checked, over every cone.
+
+**The result, as sealed: MIXED.**
+- **F27 passes.** The record read the spin-0 half as the 10 alone. But the 27's spin-0 sector is the 15, and its 5 carries the
+  opposite γ-charge (−2/3 against +4/3, the record's own vectors). For −1 < a/b < 2/3 the 5 enters as the 5̄, and the 15 gives one
+  complete, anomaly-free generation per unit N: two on cube~3.24. B1368's frame theorem, proved on m004, is scoped to non-cuspidal
+  members.
+- **F78, F27+78 and F133 fail everywhere.** The 78's broken roots are chiral too: the X,Y partners whenever the Higgs field has a
+  Y-component, and a 5̄ at γ = +2. On the pure γ ray the 78's 5̄ cancels the generation's 5̄ and leaves a lone 10.
+- **U(1)_γ's anomalies** are universal in the passing cone, so a single Green–Schwarz axion suffices.
+
+**Banked.**
+- Currency notes on B1368 and B1387.
+- sL-8's third job: the completion must carry the gauge sector's anomaly.
+- The SM_VERDICT note; registry row T-FULL-SPECTRUM; the README; the alias table (next B1390).
+- The lock (0.3 s).
+
+**In one line.** The frame can make whole generations, but as a gauge theory its local spectrum is anomalous. The completion must
+cancel the anomaly, which makes the cusps' completion a physical necessity rather than a convention. 0 of 19.
