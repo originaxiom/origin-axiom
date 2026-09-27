@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-27",
+  "level": 6,
+  "coefficient": "actual defining E5 and its dual",
+  "generic_control": 2,
+  "max_factor_degree": 12,
+  "source_families": "../monomial_exceptional_locus_2026_09_27/INPUTS.json",
+  "known_boundary_dimension": 3,
+  "expected_control_ranks": {
+    "global_d0": 5,
+    "relative_cone": 32
+  },
+  "theory_status": "No physical identification or all-component classification."
+}
