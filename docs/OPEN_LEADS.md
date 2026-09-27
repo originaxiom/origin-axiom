@@ -1,5 +1,14 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+Current R49 (September 27): neutral nonlinear REGULARITY advances to
+authored conditional analysis; nonlinear integration, full kernel count,
+selection and independent review remain separate duties. The two web
+handoffs and refreshed Standard-Model branch at 9f9a0751 supply new
+received deck/induction/coefficient leads, not new physical modes.
+See the dated disposition at EOF and
+reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
+Do not restart the M6/m010 censuses already reported in B1378/B1379.
+
 Latest path-local R48 advances the actual canonical geometric-duality duty
 to an authored global argument, with 30 native/12 dedicated controls passing.
 Independent review of its stated boundary-density and R44 cusp/core inputs
@@ -3496,3 +3505,54 @@ This names a specified member/model and is NOT a class-wide closure.
   alternatives; F17's local cover result is not an all-cover no-go.
 - PB-PHYSICS: parent/action/parameter selection, observed SM breaking,
   generations, quantum consistency and gravity remain full-mission duties.
+
+### 2026-09-27 R49 and handoff duty disposition (path-local)
+
+PB-NEUTRAL regularity advances to authored conditional analysis:
+"In particular R47's nonzero neutral harmonic projection belongs to
+Dom(Q) intersect L4." Source:
+reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md.
+This is a specified canonical-family result, NOT a class-wide closure.
+
+- **PB-REVIEW retained:** independently scrutinize R44 all-jet/end/core,
+  R48 density/minimality and R49 first-order perturbation/Agmon/collapse
+  estimates. Exact finite checks do not supply this acceptance.
+- **PB-NEUTRAL advanced, not closed:** full kernel dimension, actual
+  normalized kinetic tensor and nonlinear integrability/obstruction
+  remain. Test coupled residuals including order-two relaxation before
+  declaring a modulus, a stabilizing quartic or q selection. Coupled
+  base/gravity dynamics is a separate duty.
+- **PB-INTERACTION retained:** compute normalized actual vertices and
+  responses on the same action/domain. R48's classical pairing remains;
+  no unequal response or asymmetric phase is inferred from Lp finiteness.
+- **PB-HANDOFF-M6 received:** B1378/B1384 at 9f9a0751 now report committed
+  exact-index/cross-check work. Read producers before recomputing; verify
+  deck word-map discrepancies, Shapiro/Mackey with cusp maps, the twisted
+  deck cube, and which physical quotient/cover/domain is used. A strict
+  C3 action on zero modes and three physical generations are not given
+  just by the deck group's order.
+- **PB-HANDOFF-PARENT received:** inspect B1384's actual mixed-root/parabolic
+  lemma and pairing census before attempting the literal M6-to-SL5 map.
+  Keep non-flat, other-rank and gauge-covariant source/end alternatives;
+  the reported bound is not a universal embedding/chirality kill.
+- **PB-HANDOFF-M010 received:** B1379 has the cubic/self-hosting/extension/
+  symmetric-power producers. Verify those instead of authoring another
+  census; distinguish first Sym^3 from unique Sym^3, the three-prime
+  table from exact characteristic-zero, and coefficient choice from a
+  physical action. This informs the separate R40/R41 route.
+- **PB-TRANSITIONS registered:** generated architecture includes the
+  alternatives; classify word moves, deck action, covering, filling and
+  redescription before assigning physical time, probabilities or history.
+  Algebraic invertibility is not automatically a forward dynamical rule.
+- **PB-LEAF deferred:** retain the received nonlinear trace-map invariant
+  without inserting its normalized coefficient into a Lagrangian absent
+  an earned same-state/action/symplectic/domain identification.
+- **PB-PHYSICS retained:** common physical parent/action, normalizable
+  chiral spectrum, anomaly/quantum completion, parameter/phase selection,
+  gravity and discriminating observations remain the full goal.
+
+Both archive narrative cores and relevant reports were read personally;
+the entire embedded library was not read, and no incoming science was
+rerun here. The September 27 corrective ZIP cited by B1384 was not one
+of the two supplied archives. Full reception and reading-grade ledger:
+reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.

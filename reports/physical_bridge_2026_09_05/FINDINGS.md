@@ -1,5 +1,23 @@
 # Physical-bridge findings: path-qualified local research, not main arc IDs
 
+**Current path-local result, R49 (September 27): neutral nonlinear admissibility.**
+On each fixed q>0, q!=1 canonical background, the complete adjoint
+harmonic modes are finite-dimensional and in every finite Lp, p>=2,
+at authored-proof grade under the inherited all-jet cusp/core inputs.
+R47's nonzero mode therefore enters the supplied nonlinear action
+domain. This is not a nonlinear branch, selected q or physical chirality.
+Exact spectra survive a separately sealed comparator diagnostic; original
+failures stay visible: final seven-file regression 85 pass / 2 fail.
+No independent global review, full-suite green or main-bank certificate.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md.
+The two September handoffs and the newer Standard-Model branch at
+9f9a0751 are received with explicit reading/reproduction grades:
+reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
+Next: nonlinear integration/obstructions and normalized interactions;
+verify incoming deck/induction/parent maps before physical generation
+counting. R40/R41 and source/end alternatives remain. Older dated
+entries below are historical checkpoints, not today's open-duty list.
+
 **Literature note, September 25:** a personal, explicitly partial reading of
 The God Particle is cross-checked against Wu, PDG and the two-component
 spinor review. It sharpens existing physical-model duties, corrects a

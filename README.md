@@ -1,5 +1,13 @@
 # Origin Axiom
 
+> **Current physical-bridge checkpoint (2026-09-27, path-local R49).**
+> [Canonical neutral regularity](reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md)
+> supplies nonlinear admissibility at authored-proof grade, not a physical
+> modulus or chiral theory. Original comparison failures remain recorded.
+> [Two handoffs and the newly fetched branch](reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md)
+> sharpen the deck/cover/parent questions without replacing the common-action
+> goal. Earlier dated summaries below retain their original scope.
+
 > **Boundary-index continuation (2026-09-06, path-local R12).**
 > [Exact boundary topology](reports/physical_bridge_2026_09_05/BOUNDARY_INDEX.md)
 > confirms annular zero with its hypotheses, recovers the already-proposed

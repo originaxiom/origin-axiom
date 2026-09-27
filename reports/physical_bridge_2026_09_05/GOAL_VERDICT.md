@@ -1,4 +1,66 @@
-# Verdict toward the full physical-theory goal - R48, updated 2026-09-25
+# Verdict toward the full physical-theory goal - R49, updated 2026-09-27
+
+**Current path-local result, R49 (September 27): neutral nonlinear admissibility.**
+On each fixed q>0, q!=1 canonical background, the complete adjoint
+harmonic modes are finite-dimensional and in every finite Lp, p>=2,
+at authored-proof grade under the inherited all-jet cusp/core inputs.
+R47's nonzero mode therefore enters the supplied nonlinear action
+domain. This is not a nonlinear branch, selected q or physical chirality.
+Exact spectra survive a separately sealed comparator diagnostic; original
+failures stay visible: final seven-file regression 85 pass / 2 fail.
+No independent global review, full-suite green or main-bank certificate.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md.
+The two September handoffs and the newer Standard-Model branch at
+9f9a0751 are received with explicit reading/reproduction grades:
+reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
+Next: nonlinear integration/obstructions and normalized interactions;
+verify incoming deck/induction/parent maps before physical generation
+counting. R40/R41 and source/end alternatives remain. Older dated
+entries below are historical checkpoints, not today's open-duty list.
+
+## Current mission and completion tests
+
+The goal remains a complete physical theory, not a collection of matching
+groups, indices or constants. Generated states and their relations stay
+in scope; a conditional model is progress but is not the final derivation.
+The following checked items mean progress in the SPECIFIED MODEL, not
+completion of the corresponding physical-theory requirements.
+
+- [x] Preserve a constructive canonical background and finite-energy mode
+  route, with its supplied parent and external geometric assumptions priced.
+- [x] Derive and test charged and neutral nonlinear-domain inputs on that
+  same background, at authored analytic grade with exact finite controls.
+- [x] Retain the actual classical pairing instead of mistaking new
+  normalizable modes for an asymmetric physical spectrum.
+- [x] Read both supplied handoff cores/reports and refresh other-branch
+  progress; record incoming evidence grades and avoid a duplicate M6/m010
+  census. Their latest code has not been independently rerun here.
+- [ ] **Immediate canonical task:** compute nonlinear obstruction or
+  integrate a genuine branch in the same complete action/domain. Include
+  order-two field relaxation, not only straight-line quartics. Full kernel
+  count and normalized kinetic/interaction tensors remain explicit.
+- [ ] **Incoming nonsplit interface:** verify B1378/B1384's actual deck
+  lift, induction/cusp maps and parent embedding. Resolve the physical
+  cover/quotient role before assigning three generations; then test a
+  gauge-covariant source/end completion and its fermion domain.
+- [ ] **Selection:** derive or explicitly price parent, coefficient,
+  character, background/phase and scale choices. Invariant-selector
+  statements alone neither supply a vacuum nor forbid spontaneous breaking.
+- [ ] **Physics:** obtain the full physical light spectrum and interactions
+  with anomaly/quantum consistency, gravitational dynamics and independently
+  testable consequences. Do not tune mathematical targets to observations.
+- [ ] **Review:** independent specialist scrutiny of the global geometric/
+  analytic chain; full banking/suite debts remain, not hidden behind local
+  test success.
+
+Route discipline: do not import a scoped negative across a change of
+carrier, coefficient, source/end law, metric, symmetry or operator domain
+without transporting its hypotheses. Equally, do not combine positives
+from different models without an explicit common-action map. New incoming
+evidence changes the next test, not the definition of physical success.
+
+Detailed latest reception:
+[WEB_HANDOFF_INTAKE_2026_09_26.md](WEB_HANDOFF_INTAKE_2026_09_26.md).
 
 **Latest local result, R48 (September 25): canonical geometric pairing.**
 The conormal construction now supplies an actual self-isometry and a

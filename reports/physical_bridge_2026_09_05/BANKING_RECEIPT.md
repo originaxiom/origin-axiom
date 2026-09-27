@@ -976,3 +976,33 @@ No new law, B/I number, negative verdict or physics claim is allocated;
 there is consequently no new scientific seal, test population or rung
 promotion. R48 remains the latest own result. This is a literature custody
 update, not a banking pass, full suite or independent scientific review.
+
+## September 27 - R49 path-local regularity and handoff disposition
+
+Nine original/diagnostic scientific paths at f593a2a5 and 86c78ef0 are
+immutable and server-confirmed before execution. Fifty-three frozen
+predecessor paths retain their hashes. First native and dedicated/
+regression failures remain public byte-faithful records. Separately
+sealed exact polynomial/rank/projector checks diagnose the comparison
+error without retroactively changing the failed originals.
+
+Original native 25 true/2 false; original dedicated 13 pass/1 fail;
+six-file 79 pass/2 fail. Diagnostic 26 checks and six tests pass.
+Expanded seven-file population: 85 pass/the same two original failures.
+The completed-run worktree envelopes were read-only. No full suite or
+independent analytic/banking reviewer, no PR/main/codeberg write, no
+shared B/I. Authored global results retain explicit review dependencies.
+
+The two private handoffs have 196 verified manifest-listed payloads,
+six extra manifest files hashed, and personal file-level reading grades.
+Newest committed B1378/B1379/B1384/P022 reception at 9f9a0751 is recorded
+without taking source-reported reruns as our own. Every adopted lead is
+registered or explicitly deferred in OPEN_LEADS, including twisted-deck/
+induction, parent embedding, m010 coefficient selection and transition
+semantics. Whole historical library and the third corrective ZIP are
+not represented as read.
+
+Reader fronts, progress/changelog/campaign and scoped law sublemmas
+are updated. The source-action, physical chirality, selection, quantum/
+anomaly and gravity duties remain. Four historical governance failures
+and 41 stale relay debts prevent a full banking certificate.

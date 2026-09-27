@@ -15516,3 +15516,45 @@ global review duties intact. No new science execution, amended executed
 source, B/I allocation, law, physical prediction or TOE claim. Reading
 ranges, hashes, incoming commit and remaining duties are recorded at
 reports/physical_bridge_2026_09_05/GOD_PARTICLE_READING_2026_09_25.md.
+
+## 2026-09-27 - R49 neutral nonlinear admissibility and fresh handoff reception
+
+Original science seal f593a2a5 and post-failure diagnostic seal 86c78ef0
+were each committed, pushed and server-confirmed before execution.
+The full End0(E) canonical end operator has exact potentials 0,2,6 with
+multiplicities 1,3,11; its zero-longitude restriction has 1,3,5. Under
+R44's all-jet cusp/core hypotheses the authored argument yields finite
+harmonic spaces, a positive complementary gap and all finite Lp norms.
+R47's nonzero harmonic mode enters the supplied nonlinear action domain.
+No full neutral count, L-infinity, nonlinear branch, selected q or
+physical chiral spectrum is claimed.
+
+First native 25 true/2 false; first dedicated 13 pass/1 fail; fixed
+six-file 79 pass/2 fail. The separate diagnostic confirms a same-printed-
+name/different-symbol comparison error by exact coefficients, ranks and
+projectors; 26 checks and six dedicated tests pass. Final seven-file
+85 pass and the same two original failed IDs. Original scientific files
+and all failures stay immutable. No full-suite or independent review.
+
+The two supplied September ZIPs were safely unpacked privately:
+150+46 manifest-listed payload hashes match, six manifest files are
+separately inventoried. Both narrative cores and eight relevant September
+reports, plus new reachability reports, were personally read. This is
+not a whole-library or incoming-science reproduction claim.
+
+Report-time all-head/tag fetch advanced the Standard-Model branch to
+9f9a0751 (13 commits). Complete B1378/B1379/B1384 FINDINGS and P022
+were read at that pin; their newer producers were not independently
+rerun. This prevents repeating their M6/m010 work and registers the new
+induced-cover/deck-cube/parent questions. Index -3 remains mathematical;
+its physical cover role and common source/action/domain are not settled.
+The other local fork remains a1bea799; its uncommitted work is untouched.
+
+Next: same-background nonlinear obstruction/integration, normalized
+interactions, global analytic review and earned parameter/phase selection.
+Preserve R40/R41 and received sourced/nonsplit alternatives. Law sublemmas,
+reader fronts, campaign and open duties updated without shared B/I numbers.
+Historical four governance-failure categories and 41 stale relay debts
+remain. Reports and byte custody:
+reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md;
+reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.

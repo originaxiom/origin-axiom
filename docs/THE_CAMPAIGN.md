@@ -16,6 +16,18 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 27 R49 supplies the authored canonical neutral Lp/action-domain
+join, with its comparison failure preserved and separately diagnosed.
+Next test nonlinear integration/obstructions on the SAME fixed background;
+finite quartics neither prove a branch nor fix q. Keep actual normalized
+interactions and independent global review explicit. Incoming B1378/B1379/
+B1384 at 9f9a0751 already address the handoffs' M6 and m010 algebra;
+audit their producers and induced deck/parent/domain maps before physical
+generation counting, rather than repeat their census. The full-relations
+scope includes generated states but does not identify arrows with time.
+See reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md and
+reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
+
 September 25 R48 supplies the canonical self-isometry, positive coefficient
 map and complete operator/response pairing for the literal q curve, at
 authored-proof grade with explicit boundary-density and cusp/core inputs.

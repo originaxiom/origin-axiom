@@ -1,0 +1,94 @@
+{
+  "all_exact_checks_pass": true,
+  "controls": {
+    "changed_actual_annihilator_rejected": true,
+    "changed_actual_spectrum_rejected": true,
+    "same_name_symbols_not_merged": true,
+    "symbolic_coefficient_rejected": true,
+    "toy_exact_coefficients_recovered": true,
+    "toy_expression_in_actual_generator": true,
+    "unchanged_invariant_restriction": true,
+    "wrong_coefficient_rejected": true
+  },
+  "full": {
+    "checks": {
+      "annihilating_polynomial": true,
+      "kernel_multiplicities": true,
+      "projector_idempotence": true,
+      "projector_orthogonality": true,
+      "projector_ranks": true,
+      "projector_reconstruction": true,
+      "projector_sum": true,
+      "qq_coefficient_identity": true,
+      "returned_generator_identity": true
+    },
+    "dimension": 15,
+    "kernel_dimensions": [
+      1,
+      3,
+      11
+    ],
+    "original_residual_zero": false,
+    "polynomial": "z*(z - 6)**11*(z - 2)**3",
+    "requested_assumptions": {
+      "commutative": true,
+      "complex": true,
+      "extended_real": true,
+      "finite": true,
+      "hermitian": true,
+      "imaginary": false,
+      "infinite": false,
+      "real": true
+    },
+    "requested_generator": "z",
+    "returned_assumptions": {
+      "commutative": true
+    },
+    "returned_generator": "z",
+    "same_generator": false,
+    "same_printed_generator": true
+  },
+  "generator_mismatch_diagnosis": true,
+  "independent_PDE_review": false,
+  "original_failures_preserved": true,
+  "physical_spectrum_derived": false,
+  "sympy_version": "1.14.0",
+  "zero_longitude": {
+    "checks": {
+      "annihilating_polynomial": true,
+      "kernel_multiplicities": true,
+      "projector_idempotence": true,
+      "projector_orthogonality": true,
+      "projector_ranks": true,
+      "projector_reconstruction": true,
+      "projector_sum": true,
+      "qq_coefficient_identity": true,
+      "returned_generator_identity": true
+    },
+    "dimension": 9,
+    "kernel_dimensions": [
+      1,
+      3,
+      5
+    ],
+    "original_residual_zero": false,
+    "polynomial": "z*(z - 6)**5*(z - 2)**3",
+    "requested_assumptions": {
+      "commutative": true,
+      "complex": true,
+      "extended_real": true,
+      "finite": true,
+      "hermitian": true,
+      "imaginary": false,
+      "infinite": false,
+      "real": true
+    },
+    "requested_generator": "z",
+    "returned_assumptions": {
+      "commutative": true
+    },
+    "returned_generator": "z",
+    "same_generator": false,
+    "same_printed_generator": true
+  }
+}

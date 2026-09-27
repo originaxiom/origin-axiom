@@ -1,0 +1,318 @@
+{
+  "scope": "Private input custody and personal reading grades; no incoming science executed or independently certified.",
+  "read_date": "2026-09-26/27",
+  "archives": [
+    {
+      "basename": "Origin_Axiom_Seat_Full_Checkpoint_2026-09-25.zip",
+      "bytes": 15337971,
+      "sha256": "235666a685f5d45221a6fa05d923083b74625b0ec6aa072900f662bea9762062",
+      "extracted_root_basename": "OA_SEAT_CHECKPOINT_2026-09-25",
+      "manifest": {
+        "path": "MANIFEST.json",
+        "bytes": 30540,
+        "sha256": "a7a5c34f14b7d71162f28f5bda9fe4b5d3baab546ee9ea85c904f8ea6c0c0549"
+      },
+      "payload_rows_verified": 150,
+      "actual_files": 153,
+      "unlisted_files": [
+        {
+          "path": "05_SEPTEMBER_COMPUTATIONS/m6_generation_interaction_gate/MANIFEST.json",
+          "bytes": 592,
+          "sha256": "2110c6c528b9792a90c3197902f6cd830f0091d7cb544e6c4d4781ba50deda01"
+        },
+        {
+          "path": "MANIFEST.tsv",
+          "bytes": 21861,
+          "sha256": "f610b3927f12e56607b2993ecd906b5f7b99f657383a51e974298b7e97b1c56b"
+        },
+        {
+          "path": "MANIFEST.json",
+          "bytes": 30540,
+          "sha256": "a7a5c34f14b7d71162f28f5bda9fe4b5d3baab546ee9ea85c904f8ea6c0c0549"
+        }
+      ],
+      "complete_personal_reads": [
+        {
+          "path": "00_CORE_HANDOFF/00_README.md",
+          "bytes": 5308,
+          "sha256": "83aaaeb5973115505f2e00dffbedba7bfcde527bb331618cd4cd431b64338fcb",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/01_CHRONOLOGY.md",
+          "bytes": 23055,
+          "sha256": "6212f0e9e34248341e1b5ed34a6ba9cbe41f02f408ea87014923efa5552a6fec",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/02_ARGUMENT_HISTORY.md",
+          "bytes": 9495,
+          "sha256": "ff4b0840a107055f076526d6ed902c0fb467f43d7c39a26860070e32368af7c8",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/03_CLAIM_LEDGER.md",
+          "bytes": 4929,
+          "sha256": "897d4c81825d106734e93269201570d093f1f44f1eab8049be5f832744885979",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/04_CORRECTIONS_AND_NEGATIVES.md",
+          "bytes": 2948,
+          "sha256": "5eb9d195fdcb5459a3cf4fbf2b935f5425fff92bc1130638d17a50fa6408189b",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/05_FOUNDATIONAL_POSITION.md",
+          "bytes": 2270,
+          "sha256": "7973907dcd9908681137c02898ae9d88bd7792ff617e2599f37b426d56a39c96",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/06_HANDOFF_TO_OTHER_SEATS.md",
+          "bytes": 5708,
+          "sha256": "b3e642956a778e06344ea735b1730287dbccf4bf236bc74e259be542934505a8",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/07_REPRODUCIBILITY.md",
+          "bytes": 1661,
+          "sha256": "9528368c4b4146847fb9ae2f2d641ac2e2935530682830555564835d330d2143",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/08_HISTORICAL_PREMISE_CORRECTION.md",
+          "bytes": 927,
+          "sha256": "22d15432d9be95a5e815116a65384da32ca98dff29e59b352293ef719a71ad37",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "99_RECOVERY/RECOVERY_GAPS.md",
+          "bytes": 2258,
+          "sha256": "3cd7c44f73512b4525069987052a33546ff519929d06e310337adfbf528b528e",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "05_SEPTEMBER_COMPUTATIONS/m12_triplicity_chirality/REPORT.md",
+          "bytes": 7052,
+          "sha256": "c849ebdda220858c73eef187d6be9c3abb85c2a1bc343094b10a6bdd4f5831c0",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "05_SEPTEMBER_COMPUTATIONS/m6_deck_chiral_triplet/REPORT.md",
+          "bytes": 8647,
+          "sha256": "fa906d063eb6505761be96a6cf5292e74c92b69e35620f94cc9e3e18bb128eb5",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "05_SEPTEMBER_COMPUTATIONS/m6_physical_gate/REPORT.md",
+          "bytes": 7650,
+          "sha256": "e71c832f6334401feff03f0b97cabef8431285fc76a8c1d2020faf4a168a8816",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "05_SEPTEMBER_COMPUTATIONS/m6_generation_interaction_gate/REPORT.md",
+          "bytes": 7552,
+          "sha256": "fd2a093cbd77cdc07684c37586112c2441b63cb6f4cc35b3f9ec43170e2d2456",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "05_SEPTEMBER_COMPUTATIONS/nonlinear_leaf_audit/REPORT.md",
+          "bytes": 1737,
+          "sha256": "e73ebe3df0aacc469f93e7315c397666ce7473692f4aa875878abc6413f62595",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "05_SEPTEMBER_COMPUTATIONS/nonlinear_real_structure_audit/REPORT.md",
+          "bytes": 20372,
+          "sha256": "9cc71486e05caef009f0357cf22fc3e3113d06b99c969c955e88475ce28680fc",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "05_SEPTEMBER_COMPUTATIONS/reliability_audit_20260924/ASSESSMENT.md",
+          "bytes": 9920,
+          "sha256": "5e6942bdebeba338c0c71ed656dbc0007ccaddb78bcf00f19d17367deefb7d28",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "05_SEPTEMBER_COMPUTATIONS/y12_common_refinement_audit/REPORT.md",
+          "bytes": 5305,
+          "sha256": "e7918faa482b928be5934aee7f94d2971826698281d8b1bc963ef4f0941aaccf",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        }
+      ]
+    },
+    {
+      "basename": "Origin_Axiom_Seat_Checkpoint_2026-09-26_FULL_HANDOFF.zip",
+      "bytes": 1204872,
+      "sha256": "50c0275059b8ad21f2e0b232a35d27cdca54428061b030e602916f296be40a9e",
+      "extracted_root_basename": "Origin_Axiom_Seat_Checkpoint_2026-09-26",
+      "manifest": {
+        "path": "MANIFEST.json",
+        "bytes": 8316,
+        "sha256": "affb620653303dce9ca6fa431473fcb55100e95857901f272e9eac85051c3595"
+      },
+      "payload_rows_verified": 46,
+      "actual_files": 49,
+      "unlisted_files": [
+        {
+          "path": "MANIFEST.tsv",
+          "bytes": 5670,
+          "sha256": "f1d0313534277fcbfbc3f5ceb942d09aa6b72306210308b81338e66fe2e5299b"
+        },
+        {
+          "path": "MANIFEST.json",
+          "bytes": 8316,
+          "sha256": "affb620653303dce9ca6fa431473fcb55100e95857901f272e9eac85051c3595"
+        },
+        {
+          "path": "01_PRIOR_CHECKPOINT_RECOVERED_CORE/MANIFEST.tsv",
+          "bytes": 21897,
+          "sha256": "a0b575d2ee9a84f7952cc43c286aebe19f4a47b6414580ff3098a6fa26569139"
+        }
+      ],
+      "complete_personal_reads": [
+        {
+          "path": "00_CORE_HANDOFF/00_README.md",
+          "bytes": 1945,
+          "sha256": "1582eeced97676c0455fc0387b54af1f4d6652d34a4031c006bacb9e4c2f6ace",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/01_CHRONOLOGY_FULL.md",
+          "bytes": 29220,
+          "sha256": "2b1e47f2e54fb140de61f02e0e3752dd8ce04996191e42426d6024930d2ade48",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/02_ARGUMENT_HISTORY_FULL.md",
+          "bytes": 6249,
+          "sha256": "6fc9f077fa47f293c1e12e30412fef432a3ca62efa96076765fa444c23a73b4a",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/03_CURRENT_CLAIM_LEDGER.md",
+          "bytes": 3909,
+          "sha256": "f77374cbba3ba1fc71f3538879e3c7ccbf69985e04d0c88ba3741c74700ab7e1",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/04_CORRECTIONS_NEGATIVES_AND_WITHDRAWALS.md",
+          "bytes": 2839,
+          "sha256": "e044c4854547fae6ea1481c11a03243dfff684b9a39423a5da89aafc79489ae6",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/05_FOUNDATIONAL_POSITION_AT_FREEZE.md",
+          "bytes": 1890,
+          "sha256": "82a2113e2423fb342869b997d4fb5c788b268dc4d4440d878726fcd1a5fef64e",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/06_HANDOFF_TO_NEXT_SEAT.md",
+          "bytes": 2583,
+          "sha256": "9b8eabf0342d10f1863b2fdc9c75bdf69e567ed72a3e70b032fbba96b4ef6869",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/07_REPRODUCIBILITY_AND_CUSTODY.md",
+          "bytes": 1196,
+          "sha256": "dbfa37d736d27ecd9a087ab32dbb77825dce20fcda556168a29f430b07f1efde",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/09_RESUME_HERE.md",
+          "bytes": 1995,
+          "sha256": "30774f759010aba93183b80169238eb1cb22a49e67a5b5b96eba9a0168ab8e89",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "99_RECOVERY/RAW_BYTES_NOT_EMBEDDED.md",
+          "bytes": 821,
+          "sha256": "3b24374b8357bfe1db4dec372d69582407ecd1eace20dee5e79160270a1655f5",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "98_LIBRARY_POINTERS/PRIOR_CHECKPOINT_POINTER.md",
+          "bytes": 637,
+          "sha256": "9b105ae4a166017193bfee93505845d5f64fe2261702997123c0dd6e9abd1df0",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "00_CORE_HANDOFF/08_POST_FREEZE_ARTIFACT_TIMELINE.csv",
+          "bytes": 2223,
+          "sha256": "e75a42aa55bdb7dfb12fdac9258a6d5f77f76d5366808217c507603e772db6e9",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "02_POST_CHECKPOINT_ARTIFACTS/REPORT_canonical_reachability.md",
+          "bytes": 9825,
+          "sha256": "af5cd0a789fb7ea0cee3ce2359fd17ed0010b6f92aa4ea04a5af3d54d808d846",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "02_POST_CHECKPOINT_ARTIFACTS/REPORT_no_unforced_collapse_final.md",
+          "bytes": 11646,
+          "sha256": "e05bfce638c2db275625e61fe9036a2b71557e419d47a7c31e56c83bb7659dc8",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "02_POST_CHECKPOINT_ARTIFACTS/verify_no_unforced_collapse.py",
+          "bytes": 2400,
+          "sha256": "f0d74773174624f2e691ca7f423c19a442e0225569a56df9ce17eb7b834141b6",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        },
+        {
+          "path": "02_POST_CHECKPOINT_ARTIFACTS/VERIFICATION_RECEIPT_20260925_1911.json",
+          "bytes": 650,
+          "sha256": "9f8895d54cd09840040f76218314a2b1f6998d64229718ceacf9ee3d44a3e655",
+          "evidence_grade": "Personally read complete text; incoming science not independently rerun"
+        }
+      ]
+    }
+  ],
+  "relation": "The second archive explicitly carries a recovered prior checkpoint and continuation; do not count independent replication.",
+  "incoming_pin": "9f9a0751a50f343a6cf36dab67b86d67ccdfc844",
+  "incoming_complete_reads": [
+    {
+      "path": "frontier/B1378_the_m6_deck_triplet/FINDINGS.md",
+      "bytes": 13707,
+      "sha256": "1d718bf6cf08797e9b2e5013c1f54e9debe5ff029930e50c1c12aaa6d4d04b80",
+      "evidence_grade": "Complete FINDINGS or philosophy text personally read; new producing code and tests not independently audited or rerun"
+    },
+    {
+      "path": "frontier/B1379_the_genesis_and_m004_links/FINDINGS.md",
+      "bytes": 16684,
+      "sha256": "027d6763c70dc40d09cf52d5b4d7e48518a286681867e4e7355284b7b11ba30a",
+      "evidence_grade": "Complete FINDINGS or philosophy text personally read; new producing code and tests not independently audited or rerun"
+    },
+    {
+      "path": "frontier/B1384_the_generated_state_space/FINDINGS.md",
+      "bytes": 16350,
+      "sha256": "a1fceeac9af9778d646034679571869771b7b557f535b05a1bc156f0528b6991",
+      "evidence_grade": "Complete FINDINGS or philosophy text personally read; new producing code and tests not independently audited or rerun"
+    },
+    {
+      "path": "philosophy/P022_the_generated_state_space.md",
+      "bytes": 8468,
+      "sha256": "ec3e36623722231524805ba8daec7882485a479f3e0ffdfb0bb3497b16f44935",
+      "evidence_grade": "Complete FINDINGS or philosophy text personally read; new producing code and tests not independently audited or rerun"
+    }
+  ],
+  "not_claimed": [
+    "Entire historical artifact library read",
+    "All embedded PDFs or nested ZIPs read",
+    "Incoming verifiers executed",
+    "Same-size corrected archive byte identity",
+    "September 27 corrective ZIP read",
+    "Physical chirality or generation count derived"
+  ],
+  "followups": [
+    "B1378 literal deck map discrepancy and its cohomological replacement",
+    "B1379 original producers instead of duplicate m010 census",
+    "B1384 induction, cusp restriction, twisted deck cube and physical cover role",
+    "B1384 parabolic embedding lemma vs full non-flat/source alternatives",
+    "Same-action realization and normalized interactions",
+    "Generated edge semantics, not graph equals physical time"
+  ]
+}

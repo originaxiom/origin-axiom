@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-09-27 - R49 neutral nonlinear domain and two-handoff reception
+
+On each fixed canonical q>0,q!=1 background, exact full-adjoint cusp
+operators support an authored finite-kernel, positive-complement-gap
+and finite-Lp argument under R44's all-jet/core inputs. R47's nonzero
+harmonic projection now enters the supplied nonlinear action domain;
+no nonlinear branch, nonzero quartic, selection or chirality is proved.
+
+Original science f593a2a5 and diagnostic 86c78ef0 were separately
+pushed/server-confirmed before execution. Original 27 controls gave
+25 true/2 false; dedicated tests 13 pass/1 fail; six-file regression
+79 pass/2 fail. The diagnostic identifies unequal same-named symbolic
+generators, verifies 26 exact checks and six tests, with wrong controls.
+Expanded regression: 85 pass/the same two failures. Original files and
+outputs remain immutable; no full-suite or independent review claim.
+
+The two supplied September ZIPs have 196 matching manifest-listed
+payloads and six separately hashed manifest files. Both narrative cores
+and relevant full reports were personally read, not the whole historical
+library. All-head/tag fetch received Standard-Model head 9f9a0751;
+B1378/B1379/B1384/P022 were read completely at FINDINGS/philosophy grade.
+Their own reported reproductions are credited, not recast as ours.
+New induced-cover/deck-cube and parent-embedding questions are registered.
+No old scoped negative is promoted to a universal physics no-go.
+
+Reports: reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md and
+reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
+Historical governance debts remain; own branch only, no shared B/I.
+
 ## 2026-09-25 - R48 pairs the actual canonical geometry and responses
 
 For the literal q>0, q!=1 projective curve and its four scalar twists,
