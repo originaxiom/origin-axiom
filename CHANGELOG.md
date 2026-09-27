@@ -1,5 +1,9 @@
 # Changelog
 
+## B1385 — the states together: no word state has a free cusp (one cusp, b₁ = 1; joins keep it so); the swap is the mirror; the founding field ℚ(√−3) lives only on the P-fixed ±(LR)ᵏ (m010 is arithmetic over ℚ(√−7)); the covering relation confines joint use to m004's class; there the Eisenstein cusp lemma makes a chiral index generic at a rotated hexagonal free cusp, and the global parity (any isometry negating the class) closes every candidate found, including the first locally open pair, ocube06_08812 — with the mandate reworded ("follow the generated architecture")
+
+Own code (SnapPy; PARI via cypari for certified field recognition; B1369's and B1370's instruments reused unchanged). New lead sL-6 (the Eisenstein cusp); sL-1 re-derived as the architecture's refinement region; P022 addendum (the stance questioned). 0 of 19.
+
 ## P022 — the generated state space: the genesis philosophy shift understood at its source — it is the programme's own day-0 stance (METALLIC_FOUNDATIONS/P000: a unique seed would be "the suspicious outcome"; fixed points come as sets) applied past the point where P019's "to-a-unique-object" left it; B1384 addendum S0b: σ = RP with P the record swap of the A7 torsor, σ² = RL, (PσP)² = LR — the orientation fork is a question of P's semantic type
 
 Read the web seats' audit, foundational position, premise correction and argument history beside this folder's P000–P019. philosophy/P022 (motivation only, one-way citations); P019 dated correction; B1384 addendum and lock; OPEN_LEADS sL-3 sharpened. 0 of 19.

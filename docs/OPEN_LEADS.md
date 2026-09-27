@@ -2776,6 +2776,16 @@ registering the live ones as **L220** (sm:L214, the level mismatch) and **L221**
 (chiral bulk matter on the cusped object, closed in the seat's frame by B1368) awaits main's label. New leads on this seat take the
 prefix **sL-** until main names a block.
 
+**The seat's mandate, reworded (2026-09-27, the owner's instruction; `WORKING_RULES.md`).** *Follow the generated architecture:*
+- classify its states and relations;
+- derive a relation's physical role before using it;
+- let one state supply an ingredient to another only through a relation whose transport is derived (at present the covering
+  relation);
+- test against the Standard Model at the end, under the four-part bar.
+
+0 of 19 is the scoreboard, not the steering wheel. sL-1's heading keeps its date. Its family is, by B1385 T4, the region the covering
+relation reaches.
+
 ## sL-1 — THE FAMILY IN THE STANDARD-MODEL FRAME (registered 2026-09-16 on the owner's direction; the seat's mandate after the verdict)
 
 Does the commensurability class of the figure-eight supply what m004 withholds — a chiral generation compatible with the Standard
@@ -2846,6 +2856,24 @@ three primes and, on three backgrounds, exactly over ℚ(ζ₆₀).** Why the to
 peripheral subgroup (T5 at the cusp) and ψ_Y⁵ = 1 there; the cyclic covers of m004 have a null-homologous lifted longitude, so the
 condition holds at every locus; the siblings' meridians deny it. Fences: main's index on a non-semisimple background, no physics
 reading, one generation not three. Continued as **sL-2**. `frontier/B1374_the_class_index_in_the_sm_frame`.
+
+**Status (2026-09-27, B1385 — the family re-derived as the architecture's refinements; the Eisenstein cusp).** The owner asked
+whether several generated states can supply together what m004 withholds. The answer places this lead exactly.
+- No word state has a free cusp (T1: one cusp, b₁ = 1, closed under concatenation and fibre-cyclic covers).
+- The covering relation is the only exact transport. The invariant trace field is a commensurability invariant, and among the word
+  states the founding field ℚ(√−3) lives only on the P-fixed ±(LR)ᵏ. m010 is arithmetic over ℚ(√−7). So "together" means m004's
+  commensurability class: this lead's family, now derived rather than chosen, and unbounded beyond B1186's census.
+- In it, a hexagonal free cusp fixed by an order-3 rotation has a never-annular leading shell: N = ∓1 at every phase but six (L1).
+  Its admissible classes are H¹ of the rotation's quotient (L2), and hexagonal cusps occur, among arithmetic classes, only here.
+- B1186's family has 11 such cusps. On 9 the quotient's b₁ = 0; on 2 (o10_150725) the invariant class is negated by
+  orientation-reversing reflections.
+- L3 (the global parity): an isometry anywhere that negates the class kills the total index.
+- In the covers searched, every rotation cusp is closed the same way, with two exceptions (ocube06_08812 and ocube06_05532). The
+  first locally open pair is ocube06_08812, a chiral degree-3 cover of o10_150725. B1370's instrument puts its leading allowed shell at the √3-shell, so
+  N = ∓1 at each of its two Eisenstein cusps. It is closed by an orientation-preserving swap of those cusps that negates the class:
+  N₀ + N₂ = 0.
+
+Continued as **sL-6**. `frontier/B1385_the_states_together`.
 
 ## sL-2 — THE TOWER'S GENERATION COUNT (registered 2026-09-16, B1374; sL-1's continuation)
 **The fact.** On Y₄ = t12839 [the cusped M₄ — corrected 2026-09-26, B1379/E72; throughout this lead Yₙ means the cusped cyclic covers Mₙ] the sector-by-sector one-cusped index of a flat E₆(ℂ) connection in c(SM) with a reducible non-split
@@ -2994,3 +3022,48 @@ The generated architecture is kinematic. The questions to answer:
 - Which internal dynamics, if any, selects a trajectory?
 
 Until this is decided, no arrow is time and no multiplicity is a generation count. ★★★ (the handoff ranks it primary).
+
+## sL-6 — THE EISENSTEIN CUSP: A FREE CUSP WHERE THE ROTATION IS KEPT AND THE MIRROR IS BROKEN (registered 2026-09-27, B1385)
+
+**What is settled (B1385).**
+- **L1.** At a free cusp with a hexagonal lattice, suppose an isometry fixing the cusp rotates it by order three and fixes the
+  Higgs class. Then the leading cusp shell is three-fold symmetric and its partition is never annular: χ(∂⁺) = ±1, so N = ∓1, at
+  every phase of the leading coefficient but six.
+- **L2.** The admissible classes are exactly H¹(M/⟨R⟩; ℚ), and they vanish on the cusp automatically.
+- Among arithmetic classes, hexagonal cusps exist only for ℚ(√−3), m004's class.
+- Two things close such a cusp: b₁(M/⟨R⟩) = 0, or an isometry of M negating the class (L3, the global parity; B1369's parity
+  is its cusp-fixing case). On the census members that isometry is a mirror of the cusp.
+- All three census members that carry the rotation (o10_150704, o10_150725, o10_150729) are amphichiral.
+- On the first locally open pair (ocube06_08812, chiral, |Isom| = 18) it is an orientation-preserving swap of the two Eisenstein
+  cusps.
+
+**The gate.** Find a member N of m004's commensurability class with all of the following:
+- a free cusp c;
+- an isometry R fixing c with order-3 linear part on its torus;
+- b₁(N/⟨R⟩) > 0;
+- no isometry of N negates a generic R-invariant class (L3): no mirror of the cusp, and no swap of Eisenstein cusps, acting by
+  −1.
+
+Orientation-preserving isometries fixing the class add the index of the Eisenstein cusps they permute with equal signs. An orbit
+of three would give ±3, a shape worth watching.
+
+**The sharpest form, on o10_150725's covers (B1385).** On the base, the twelve isometries act on the class by ε = (orientation) ×
+(swap of cusps 0 and 2). The locally open pairs found, on ocube06_08812 (chiral) and ocube06_05532, each inherit an
+orientation-preserving swap with ε = −1. The target is a cover to which the rotation lifts and only the ε = +1 subgroup lifts: the
+rotations and the orientation-reversing swaps, order 6.
+
+The natural places to look:
+- covers of the three rotation-carrying members that are invariant under R but not under their reflections (index-2 and index-3
+  covers from R-fixed, reflection-moved classes of H¹(M; 𝔽ₚ));
+- normal subgroups of finite-index subgroups of PSL(2, O₃) that contain the cusp unit rotation but are not normalised by complex
+  conjugation.
+
+On a hit, three checks remain:
+- B1370's affine-action instrument, to confirm the first shell is not killed by a translation part;
+- the leading coefficient's non-vanishing (generic);
+- the spin-½ half (B1372, B1373).
+
+Tools: `frontier/B1385_the_states_together/verification/eisenstein_cusps.py` (B1369's instrument on any cover),
+`eisenstein_partition.py`. Fence: the seat's frame, spin-0 half. ★★★ — the first place in the record where a non-zero chiral index
+is the generic outcome rather than an accident.
+

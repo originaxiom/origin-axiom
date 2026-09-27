@@ -15428,3 +15428,32 @@ if P is a move, σ is generated as the smaller state and m004 is its square.
 The seat's own implication, recorded in P022: the owner's earlier objection that the research had become target-driven is
 THE_ORIGIN_POSTULATE's UNSOUGHT criterion. So "0 of 19" stays an honest scoreboard of what is not derived, never a steering
 target. 0 of 19.
+
+---
+
+## 2026-09-27 — B1385: the states together; the mandate reworded (owner: "you tell me")
+
+**The question.** Does the generated-state-space shift allow several objects to supply together what m004 withholds, complete the
+ingredients, and strengthen the chain? The owner asked for questioning, not only rewording.
+
+**Computed (own code: SnapPy, PARI via cypari; no Sage).**
+- **T1.** No word state has a free cusp: one cusp, b₁ = 1, peripheral rank 1, on 154/154 states to length 8. The grammar's joins
+  keep it that way.
+- **T2.** The swap P is the mirror; the amphichirality criterion agrees with SnapPy on 154/154.
+- **T3.** Certified shape fields on 130 of the 154 states, 24 of degree > 16 reported as such, with integral traces and integral
+  volume ratios. The ℚ(√−3) states are exactly the P-fixed ±(LR)ᵏ; m010 and m009 are arithmetic over ℚ(√−7).
+- **T4.** The trace field is a commensurability invariant, so the covering relation confines joint use to m004's class.
+- **The Eisenstein cusp lemma (L1)**, the transfer lemma (L2) and the global parity (L3).
+- **The pilot.** B1186's family, m004 and m003 covers to degree 6, double and triple covers of o10_150725, double covers of
+  o10_150704 and o10_150729.
+- **The first locally open Eisenstein pair, ocube06_08812** (chiral; B1370's instrument puts the leading allowed shell at the
+  √3-shell). It is closed by an orientation-preserving cusp swap negating the class.
+
+**Banked.** B1385 (FINDINGS, verdict, lock: 4 tests, 2 s). The mandate reworded in WORKING_RULES, THE_VERDICT_OF_THE_OBJECT §6
+and OPEN_LEADS. sL-1 status; new lead sL-6, the Eisenstein cusp. THE_SM_VERDICT currency note; README pointer; END_TO_END_CHAIN
+reading note; registry rows T-STATES-TOGETHER and T-EISENSTEIN-CUSP; alias table (next B1386). P022 addendum: the stance
+questioned, motivation only.
+
+**The answer, in one line.** The words cannot supply the ingredient. The covers can, only inside m004's own class. There the
+object's own Eisenstein arithmetic makes chirality generic wherever no symmetry negates the Higgs class, and every candidate so
+far has such a symmetry. 0 of 19.

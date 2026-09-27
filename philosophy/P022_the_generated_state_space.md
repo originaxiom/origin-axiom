@@ -91,6 +91,58 @@ Either way both states are in the architecture. What remains undecided is what k
 (the spin bit is the parent's Pin type; the deck's square decides the lift) then describe the relation between two states of
 one architecture, not a price paid to delete one of them.
 
+## Addendum (2026-09-27, later) — questioning the stance: can the states together do what the root could not?
+
+*Written on the owner's instruction not only to reword but to question the genesis philosophy: "my question is whether the new
+approach allows for selection of more objects that together would produce for SM what the m004 alone was struggling". Motivation
+only; it cites B1385 one-way.*
+
+**The shift is right as ontology and dangerous as method.**
+- Right as ontology: the forks were choices, and the architecture is what the genesis produces.
+- Dangerous as method: an unbounded architecture with the Standard Model "checked at the end" is a landscape, unless the roles its
+  states play are derived rather than fitted.
+
+A shift that only enlarged the search space would be a retreat dressed as openness. What keeps it honest is one criterion: **a
+state may lend an ingredient to another only along a relation that transports physical data, and whose transport is derived.**
+Of the native arrows only the cover qualifies at present: pullback and induction, the Shapiro identity of B1384.
+- Concatenation reaches new words but carries nothing between them.
+- Quotients are symmetry.
+- Fillings close the manifold, and closed closings are vector-like.
+
+Applied, the criterion cuts the landscape down to one commensurability class. That answer to "which objects?" is a theorem (the
+invariant trace field is a commensurability invariant), not a preference.
+
+**"Together" means one bundle, not several sectors.** The Standard Model's chiral fermions, its Higgs field and its Yukawa couplings
+live on one gauge bundle. Decoupled pieces on several manifolds are not a Standard Model, however their ingredients add up on paper.
+So "more objects together" can only mean one state reached from the root by a native arrow and carrying the root's data. This is
+where the old frame was stuck without knowing why: it looked for the missing ingredient on the root. The new frame looks along the
+root's refinements, and B1385 finds that the words, where 3-manifold chirality is cheap, can never supply a free cusp. The refinements
+are the only door.
+
+**What the door shows is the root's own face.**
+- The arithmetic that made m004 m004, the founding identity's field ℚ(√−3), is the arithmetic of hexagonal cusps.
+- On a hexagonal free cusp that an order-three symmetry rotates, the chiral index is not an accident needing a coefficient to vanish.
+  It is generic, ∓1 at every phase but six (B1385 L1).
+- Among the arithmetic classes, only m004's own has such cusps.
+
+So the answer to the owner's question is not that another object supplies what m004 lacks. It is that m004's defining face, expressed
+one refinement up, could supply it. The shift helps precisely because it lets the root's own refinements count as the root's.
+
+**Where it is blocked is the most instructive part.** Every closure found so far is a symmetry that negates the Higgs class:
+- a local mirror of the cusp, on the census members;
+- or, on the first cover where the mirror is gone, a symmetry swapping two Eisenstein cusps (B1385 L3, ocube06_08812).
+
+The principle is the one that made the order bit a torsor. A non-zero index selects a sign, and a symmetry that exchanges the signs
+forbids the selection: "forced means natural", applied to chirality. The genesis forces orbits, not points (LR and RL). By the same
+token it cannot force a handedness on a state whose symmetry exchanges the two. P011/P012 said it from the other side: actualization
+is a different act, and a symmetric structure cannot perform it from inside. Chirality is a selection of this kind. It can only live
+where the architecture's symmetry does not reach the class. The orientation fork (P's type), the order bit and the chirality of
+matter are therefore one question, asked three times: *where in the architecture is the exchanging symmetry absent?*
+
+**What the questioning does not change.** No value moves: 0 of 19. No open Eisenstein cusp is known; the gate is exact and
+unanswered (sL-6). The spin-½ half of a generation has its own record. The honest outcome of the first search, a candidate found and
+then closed by a symmetry, is itself evidence that the method follows the architecture rather than bending it toward the target.
+
 ## What this does not license
 
 - No multiverse, measure, many-worlds or equal weighting.
@@ -101,4 +153,5 @@ one architecture, not a price paid to delete one of them.
 
 Related: `METALLIC_FOUNDATIONS.md`, `P000`, `P001`, `P002`, `P005`, `P011`, `P012`, `P019` (corrected here), `P021`;
 `THE_ORIGIN_POSTULATE.md` (the four-part bar); the mathematics it cites: B1379 (the genesis links), B1380 (orientation against
-minimality), B1382–B1383 (the spin bit, the deck's square), B1384 (the handoff; S0b, the swap).
+minimality), B1382–B1383 (the spin bit, the deck's square), B1384 (the handoff; S0b, the swap), B1385 (the states together; the Eisenstein cusp; the
+global parity).

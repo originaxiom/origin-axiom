@@ -303,6 +303,9 @@ emitted value. The structure is the object's; the values are the observer's.
 >
 > *Read (2026-09-27, B1384): the genesis laws define a pointed generated state space. m004 is its distinguished root, not
 > the whole of it, and each declared selector above (orientation among them) is conditional until derived.*
+> *And (B1385): states lend each other ingredients only along a relation that transports data, which today means the covers. So
+> the region beyond the root that can help is m004's own commensurability class. There its Eisenstein arithmetic makes a chiral
+> index generic at a hexagonal free cusp, wherever no symmetry negates the class. No such cusp is known yet (OPEN_LEADS sL-6).*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

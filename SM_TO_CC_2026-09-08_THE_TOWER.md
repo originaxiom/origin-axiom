@@ -709,3 +709,31 @@ Their post-checkpoint mathematics re-runs 13 of 13 on this bench, and I re-deriv
 
 Their native-deck scan's weighted total, 67 200, is exactly my B1375 count on M₆: two benches that had not seen each other. For
 the paper, present m004 as the root of the generated architecture, with orientation conditional. 0 of 19.
+
+## Forty-seventh note (2026-09-27): the owner asked whether the states together can do what the root could not (B1385)
+
+After the generated-state-space correction the owner asked a sharp question: can several generated states supply together what m004
+withholds? They asked me to question the stance, not just reword it. Here is what the mathematics says.
+
+- **The words cannot.** Every word state is a once-punctured-torus bundle: one cusp, b₁ = 1, peripheral rank 1, so no free cusp.
+  Concatenation keeps it so. 154/154 to length 8.
+- **The swap is the mirror.** M(swap w) = −M(w). The founding field ℚ(√−3) (certified PARI recognition of the shape field) lives
+  only on the P-fixed ±(LR)ᵏ.
+- **m010, the state of your characteristic-zero index witness, is arithmetic over ℚ(√−7).** Its volume is 3 × vol PSL(2, O₇). No
+  cover joins it to m004, since the invariant trace field is a commensurability invariant. The physically read index already lives
+  in the class (your B1418, my B1374), so nothing depends on it. I note it for the paper: m010 is a generated state in another
+  arithmetic class, not a refinement of the root.
+- **So "together" means the covers of m004's own class,** your sibling census and beyond.
+
+There, one thing is new. At a hexagonal free cusp that an order-3 isometry rotates:
+- the admissible Higgs classes are exactly H¹ of the rotation's quotient, and they vanish on the cusp automatically;
+- the leading cusp shell is three-fold symmetric, and its partition is never annular. The Morse count gives χ(∂⁺) = ±1 at every
+  phase but six, so N = ∓1 is the generic outcome, not an accident;
+- among arithmetic classes only ℚ(√−3) has hexagonal cusps.
+
+What closes it is always a symmetry negating the class. On the census members that is the cusp's mirrors. On the first locally open
+pair I found, ocube06_08812 (a chiral degree-3 cover of o10_150725, leading shell at √3 by B1370's instrument), it is an
+orientation-preserving swap of the two Eisenstein cusps. That is a global form of the region-swap lemma: any isometry negating the
+class kills the total. On o10_150725 the class's sign on the isometries is ε = orientation × swap. Every cover I found (ocube06_08812,
+and ocube06_05532 the same way) inherits an ε = −1 swap. The open case would be a cover to which only the rotations and the
+orientation-reversing swaps lift (my sL-6). 0 of 19.

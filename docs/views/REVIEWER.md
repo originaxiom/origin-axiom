@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1232** |
-| words of findings prose | **937,901** |
-| test lock files referenced | **746** |
-| arcs carrying an authored verdict | **1232** (100.0 %) |
+| research arcs with findings | **1233** |
+| words of findings prose | **942,317** |
+| test lock files referenced | **747** |
+| arcs carrying an authored verdict | **1233** (100.0 %) |
 | recorded closures | **792** (617 classified, 175 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 813 |
+| PROVED | 814 |
 | NEGATIVE | 320 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1384`** (2558 words, 1 locks)  
-THE GENERATED STATE SPACE: the web seats' corrective handoff of 2026-09-27 adopted with its fences -- the genesis update laws define a pointed generated state space X_gen = (reachable states, native moves, equivalences, root) and m004 is its distinguished minimal positive mixed root, not the whole of it; m003 (-LR, with -I = (L^2 R^-1)^2) is a generated signed state, m010 a later state distinguished by first cubic self-hosting, the Gieseking/orientation fork stays represented and m004 is conditional on the orientation axiom until it is derived; no generated arrow is physical time; delta and the deck C3 stay distinct. Post-checkpoint mathematics: the handoff's 13 verifiers reproduce unchanged (outputs identical), and own code confirms (S1) the common SL5 -- the SM centraliser in E8 is exactly ws:R40's structure A4 (20 roots) + u1_Y, the E6 through the gauge A4 has SM centraliser +-beta, the structure A4 = sl2_beta + A2_family + 12 mixed; (S2) the parabolic lemma (X cancels; N(n_+) = P_{2,3}); (S3) one versus three is Shapiro plus Mackey on Gamma6 normal in Gamma2 (Ind V on M2 has exactly V's five cohomology numbers on 30 non-split seeds, 6 with I != 0; T^3 = rho(mu6) blockwise, (T^3-1)^2 = 0 when unipotent); (S4) Sym^4(rho_geo) self-dual so I = 0, and its four cusp-trivial order-5 twists have (0,1,1,2,1) for V and V*, I = 0, at three primes. The web seat's M6 weighted total 67 200 equals B1375's own M6 count. B1383's 'A6 excludes the gauged role' corrected: excluded only conditionally on A6. Hypothesis-scoped negative inheritance registered as a practice; ws:R40 vs fc R40 label collision recorded. Physical generations and the relative SL5 component search stay open. 0 of 19.  
-`B1384_the_generated_state_space/FINDINGS.md`
+**PROVED — `B1385`** (4416 words, 1 locks)  
+THE STATES TOGETHER: the owner's joint question (can several generated states supply what m004 withholds -- in the seat's frame a free cusp with a disc-type partition) answered. T1: every orientable word state (once-punctured-torus bundle) has one cusp, b1 = 1 and peripheral rank 1, so no free cusp, and the grammar's joins (concatenation, fibre-cyclic covers) stay there (proof; 154/154 to length 8). T2: the swap P is the mirror, M(swap w) = -M(w); amphichiral iff swap(w) ~ w or ~ rev(w) (154/154). T3 (computed to length 8, certified PARI recognition of the shape field, integral traces, integral volume ratios to the Bianchi covolumes): the word states with field Q(sqrt-3) -- the founding ratio's and m004's -- are exactly the P-fixed +-(LR)^k, k = 1..4; none of the 124 chiral states; m009/m010 and (L^2R)^2 arithmetic over Q(sqrt-7), L^2R^2 over Q(i); the golden face alone goes chiral (L^5R, trace 7, sextic field). T4: the invariant trace field is a commensurability invariant, so no chiral word state (and not m010) shares a cover with m004; the covering relation, the only exact transport (Shapiro, B1384 S3), confines 'together' to m004's class, which the architecture enlarges beyond B1186's census to all covers. L1 (the Eisenstein cusp lemma, proved by a Morse count, grid-checked): at a hexagonal free cusp fixed by an order-3 rotation the invariant leading shell has chi(d+) = +-1 at every phase but six, never 0 -- N = -+1 generically, against B1370's single-direction cusps where N != 0 needed a vanishing; hexagonal cusps occur, among arithmetic classes, only for Q(sqrt-3). L2 (transfer): rotation-invariant classes vanish on the cusp automatically; V = H^1(M/<R>; Q). L3 (the global parity): any isometry of M negating the class kills the total index (B1369's region-swap lemma without the cusp-fixing hypothesis; the invariant-selection principle applied to the index). Pilot: B1186's family has 11 free cusps with an order-3 rotation -- 9 with V = 0, 2 (o10_150725) with V negated by orientation-reversing reflections; all three carrying members amphichiral; the covers searched (m004/m003 to degree 6, o10_150725 of degree 2 and 3, o10_150704/o10_150729 of degree 2) the same except S9: ocube06_08812 (o10_150725's degree-3 cover no. 4; chiral, 18 isometries) has two locally open Eisenstein cusps -- B1370's instrument puts the leading allowed shell at |k|^2 = 1/3, one rotation orbit, N = -+1 at each -- closed by the nine orientation-preserving isometries swapping them, which negate the class: N_0 + N_2 = 0; the one other locally open pair (ocube06_05532, amphichiral, dim V = 2) closes the same way. On o10_150725 the class's sign on the isometries is epsilon = orientation x cusp-swap, and every cover found inherits an epsilon = -1 swap. No open Eisenstein cusp known. The ingredient's address: a member of m004's class with a rotated hexagonal free cusp whose invariant class no isometry negates (sL-6). Seam: m010 (index witness) is in the Q(sqrt-7) class; no cover joins it to m004; the physically read index already lives in the class (B1374). 0 of 19.  
+`B1385_the_states_together/FINDINGS.md`
 
 **NEGATIVE — `B1373`** (1247 words, 1 locks)  
 THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free cusp are fourth roots of unity with non-unitary holonomy. Along the cone-manifold deformation path of the hyperbolic structure -- fillings (2p, 0) or (0, 2p) on the free cusp with p from 30 down to 1, the other cusps complete -- the point where one curve has eigenvalue +-i is reached on 132 of the 166 (cusp, curve) pairs of the 35 candidates, and at every one the other curve's eigenvalue is non-unitary (|L| between 0.25 and 9): Theorem B forbids simultaneous cusp-fixedness of the two halves there. On the other 34 pairs (all meridians) the structure degenerates before the point on a deterministic fine path, the other curve's translation length increasing monotonically to 10-27 at the last non-degenerate step: the wall within a sixteenth of cone angle pi on 23 and of cone angle 2 pi / 3 on 11 -- ideal points of the real path, no representation there. No candidate anywhere on the geometric path. Not covered: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (the Ptolemy database does not reach them). 0 of 19.  

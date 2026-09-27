@@ -45,6 +45,11 @@ three priced axioms, disclosed. In sense (3) — two numbers and one firewall.
 > reachability relations. **None of them is presently physical time**: physical evolution still needs an action, a domain and
 > a trajectory rule, all open. Two order-three mechanisms stay distinct: m010's cubic character δ and M6's deck C₃.
 > `frontier/B1384_the_generated_state_space`.
+>
+> *Read with B1385 (2026-09-27).* The states that can pass physical data to the chain's root are those the covering relation reaches:
+> m004's commensurability class. m010 is arithmetic over ℚ(√−7), and no cover joins it to m004 (the invariant trace field is a
+> commensurability invariant). Its role stays that of a witness to an algebraic phenomenon (B1297's fence). The physically read index
+> already lives inside the class (B1374). No word state has a free cusp. `frontier/B1385_the_states_together`.
 
 ---
 

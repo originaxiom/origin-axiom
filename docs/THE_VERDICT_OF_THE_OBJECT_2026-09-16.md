@@ -68,6 +68,22 @@ ends can make both halves chiral — two cusps at least (B1291's parity theorem 
 
 ## 6. The mandate: physics from the family, not the object (owner's direction, 2026-09-16)
 
+> **Reworded 2026-09-27 (the owner's instruction, after the generated-state-space correction, B1384; first application B1385).**
+> The seat's mandate now reads:
+>
+> *Follow the generated architecture. Classify its states and relations; derive a relation's physical role before using it; let
+> one state supply an ingredient to another only through a relation whose transport is derived (at present the covering relation);
+> test against the Standard Model at the end, under the four-part bar. 0 of 19 is the scoreboard, not the steering wheel.*
+>
+> (`WORKING_RULES.md`, 2026-09-27.) The owner's 2026-09-16 direction survives inside it, now derived rather than chosen.
+> - The family below — the commensurability class — is exactly the region the covering relation reaches from m004 (B1385 T4).
+> - The architecture enlarges it beyond B1186's census to every cover.
+> - The word states outside it cannot help, since none has a free cusp (B1385 T1).
+> - In it, the Eisenstein face makes a chiral index generic at a hexagonal free cusp, wherever no symmetry negates the class
+>   (B1385 L1–L3; sL-6).
+>
+> The programme below (sL-1) keeps its computations and its results.
+
 The seat stays live. Its next programme, **sL-1 — the family in the Standard-Model frame**, asks whether the commensurability class of
 the figure-eight supplies what its member m004 withholds, in the seat's own frame and complementary to main's B1418 (which runs the
 class census, the reducible-locus index, the sibling and tower relations, and the exact half of the 27̄ sector):

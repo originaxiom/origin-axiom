@@ -304,3 +304,40 @@ Pin type: the object does not assign the spin bit, it trades it for the Pin type
 flagged). **How it composes with the standing rules:** digging at a weak spot is still subject to the absence rule (sweep both
 records first — E54 was broken four times the day this rule was given), the identification rule, and 0 of 19 staying 0 unless
 earned.
+
+
+## Rule (2026-09-27, the owner's instruction — adopted): THE MANDATE, REWORDED — FOLLOW THE ARCHITECTURE
+
+The owner, verbatim: **"yes you should reworded to match. but i dont just expect from you to rword, you should do yournown
+questioning of the genesis philosophy"** — after the generated-state-space correction (B1384). The seat's mandate had two older
+wordings:
+- "a parameter-free derivation of the Standard Model from the object" (the brief of 2026-09-06);
+- "physics from the family, not the object" (THE_VERDICT_OF_THE_OBJECT §6, 2026-09-16).
+
+It now reads:
+
+> **Follow the generated architecture.**
+> 1. Classify its states and the relations between them.
+> 2. Derive the physical role of a relation before using it.
+> 3. Let a state supply a Standard-Model ingredient to another only through a relation whose physical transport is derived. At
+>    present that is the covering relation, by pullback and induction (B1384 S3, B1385 T4).
+> 4. Test against the Standard Model at the end, under the four-part bar: forced · unsought · exact · control.
+>
+> "0 of 19" is the honest scoreboard of what has not been derived. It is never a target to steer by.
+
+**What changes in practice.**
+- Asking which state carries an ingredient replaces asking why the object lacks it.
+- A fork's alternative stays in the architecture as a related state until a derived selector settles its role.
+- A multi-state construction is admissible only as a single state reached by a native arrow. Decoupled "sectors" on several states
+  are not a Standard Model: its chiral fermions, Higgs field and Yukawa couplings live on one gauge bundle.
+
+**First application, the same day (B1385).**
+- The words cannot supply a free cusp.
+- The only exact transport confines "together" to m004's own commensurability class, which the architecture enlarges beyond the
+  census.
+- There the Eisenstein face makes a chiral index generic at a hexagonal free cusp, wherever no symmetry negates the
+  class. The first locally open pair found is closed by a cusp swap (sL-6).
+
+**How it composes with the standing rules.** The three claims stay apart: the state space is derived; one history is not; coexistence
+is not. The absence rule, the identification rule and the weakest-spot rule apply unchanged. Philosophy stays motivation, never
+premise (`philosophy/GOVERNANCE.md`).

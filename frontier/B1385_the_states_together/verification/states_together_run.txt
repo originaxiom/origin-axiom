@@ -1,0 +1,324 @@
+   .. +LR m004 deg (2, 700)
+   .. -LR m003 deg (2, 700)
+   .. +LLR m009 deg (2, 700)
+   .. -LLR m010 deg (2, 700)
+   .. +LRR m009 deg (2, 700)
+   .. -LRR m010 deg (2, 700)
+   .. +LLLR m023 deg (4, 700)
+   .. -LLLR m022 deg (4, 700)
+   .. +LLRR m136 deg (2, 700)
+   .. -LLRR m135 deg (2, 700)
+   .. +LRLR m206 deg (2, 700)
+   .. -LRLR m207 deg (2, 700)
+   .. +LRRR m023 deg (4, 700)
+   .. -LRRR m022 deg (4, 700)
+   .. +LLLLR m039 deg (3, 700)
+   .. -LLLLR m040 deg (3, 700)
+   .. +LLLRR m235 deg (4, 700)
+   .. -LLLRR m234 deg (4, 700)
+   .. +LLRLR m370 deg (4, 700)
+   .. -LLRLR m369 deg (4, 700)
+   .. +LLRRR m235 deg (4, 700)
+   .. -LLRRR m234 deg (4, 700)
+   .. +LRLRR m370 deg (4, 700)
+   .. -LRLRR m369 deg (4, 700)
+   .. +LRRRR m039 deg (3, 700)
+   .. -LRRRR m040 deg (3, 700)
+   .. +LLLLLR s000 deg (6, 700)
+   .. -LLLLLR s001 deg (6, 700)
+   .. +LLLLRR s298 deg (3, 700)
+   .. -LLLLRR s299 deg (3, 700)
+   .. +LLLRLR s640 deg (8, 700)
+   .. -LLLRLR s639 deg (8, 700)
+   .. +LLLRRR s464 deg (8, 700)
+   .. -LLLRRR s463 deg (8, 700)
+   .. +LLRLLR s787 deg (2, 700)
+   .. -LLRLLR s786 deg (2, 700)
+   .. +LLRLRR s892 deg (14, 700)
+   .. -LLRLRR s891 deg (14, 700)
+   .. +LLRRLR s892 deg (14, 700)
+   .. -LLRRLR s891 deg (14, 700)
+   .. +LLRRRR s298 deg (3, 700)
+   .. -LLRRRR s299 deg (3, 700)
+   .. +LRLRLR s961 deg (2, 700)
+   .. -LRLRLR s960 deg (2, 700)
+   .. +LRLRRR s640 deg (8, 700)
+   .. -LRLRRR s639 deg (8, 700)
+   .. +LRRLRR s787 deg (2, 700)
+   .. -LRRLRR s786 deg (2, 700)
+   .. +LRRRRR s000 deg (6, 700)
+   .. -LRRRRR s001 deg (6, 700)
+   .. +LLLLLLR v0000 deg (4, 700)
+   .. -LLLLLLR v0001 deg (4, 700)
+   .. +LLLLLRR v0650 deg (6, 700)
+   .. -LLLLLRR v0651 deg (6, 700)
+   .. +LLLLRLR v1577 deg (6, 700)
+   .. -LLLLRLR v1578 deg (6, 700)
+   .. +LLLLRRR v1276 deg (6, 700)
+   .. -LLLLRRR v1277 deg (6, 700)
+   .. +LLLRLLR v2231 deg (7, 700)
+   .. -LLLRLLR v2230 deg (7, 700)
+   .. +LLLRLRR v2899 deg (10, 700)
+   .. -LLLRLRR v2898 deg (10, 700)
+   .. +LLLRRLR v2899 deg (10, 700)
+   .. -LLLRRLR v2898 deg (10, 700)
+   .. +LLLRRRR v1276 deg (6, 700)
+   .. -LLLRRRR v1277 deg (6, 700)
+   .. +LLRLLRR v3246 deg (6, 700)
+   .. -LLRLLRR v3247 deg (6, 700)
+   .. +LLRLRLR v3511 deg (7, 700)
+   .. -LLRLRLR v3510 deg (7, 700)
+   .. +LLRLRRR v2899 deg (10, 700)
+   .. -LLRLRRR v2898 deg (10, 700)
+   .. +LLRRLRR v3246 deg (6, 700)
+   .. -LLRRLRR v3247 deg (6, 700)
+   .. +LLRRRLR v2899 deg (10, 700)
+   .. -LLRRRLR v2898 deg (10, 700)
+   .. +LLRRRRR v0650 deg (6, 700)
+   .. -LLRRRRR v0651 deg (6, 700)
+   .. +LRLRLRR v3511 deg (7, 700)
+   .. -LRLRLRR v3510 deg (7, 700)
+   .. +LRLRRRR v1577 deg (6, 700)
+   .. -LRLRRRR v1578 deg (6, 700)
+   .. +LRRLRRR v2231 deg (7, 700)
+   .. -LRRLRRR v2230 deg (7, 700)
+   .. +LRRRRRR v0000 deg (4, 700)
+   .. -LRRRRRR v0001 deg (4, 700)
+   .. +LLLLLLLR t00000 deg (8, 700)
+   .. -LLLLLLLR t00001 deg (8, 700)
+   .. +LLLLLLRR t01448 deg (4, 700)
+   .. -LLLLLLRR t01447 deg (4, 700)
+   .. +LLLLLRLR t03611 deg (12, 700)
+   .. -LLLLLRLR t03610 deg (12, 700)
+   .. +LLLLLRRR t03265 deg (12, 700)
+   .. -LLLLLRRR t03264 deg (12, 700)
+   .. +LLLLRLLR t05626 deg (5, 700)
+   .. -LLLLRLLR t05625 deg (5, 700)
+   .. +LLLLRLRR t08064 deg uncertified
+   .. -LLLLRLRR t08063 deg uncertified
+   .. +LLLLRRLR t08064 deg uncertified
+   .. -LLLLRRLR t08063 deg uncertified
+   .. +LLLLRRRR t03910 deg (4, 700)
+   .. -LLLLRRRR t03911 deg (4, 700)
+   .. +LLLRLLLR t06264 deg (4, 700)
+   .. -LLLRLLLR t06263 deg (4, 700)
+   .. +LLLRLLRR t10012 deg uncertified
+   .. -LLLRLLRR t10011 deg uncertified
+   .. +LLLRLRLR t11614 deg (7, 700)
+   .. -LLLRLRLR t11613 deg (7, 700)
+   .. +LLLRLRRR t09253 deg uncertified
+   .. -LLLRLRRR t09252 deg uncertified
+   .. +LLLRRLLR t10012 deg uncertified
+   .. -LLLRRLLR t10011 deg uncertified
+   .. +LLLRRLRR t10729 deg (6, 700)
+   .. -LLLRRLRR t10730 deg (6, 700)
+   .. +LLLRRRLR t09253 deg uncertified
+   .. -LLLRRRLR t09252 deg uncertified
+   .. +LLLRRRRR t03265 deg (12, 700)
+   .. -LLLRRRRR t03264 deg (12, 700)
+   .. +LLRLLRLR t12295 deg (12, 700)
+   .. -LLRLLRLR t12294 deg (12, 700)
+   .. +LLRLLRRR t10729 deg (6, 700)
+   .. -LLRLLRRR t10730 deg (6, 700)
+   .. +LLRLRLRR t12648 deg uncertified
+   .. -LLRLRLRR t12649 deg uncertified
+   .. +LLRLRRLR t12548 deg (6, 700)
+   .. -LLRLRRLR t12547 deg (6, 700)
+   .. +LLRLRRRR t08064 deg uncertified
+   .. -LLRLRRRR t08063 deg uncertified
+   .. +LLRRLLRR t12050 deg (2, 700)
+   .. -LLRRLLRR t12051 deg (2, 700)
+   .. +LLRRLRLR t12648 deg uncertified
+   .. -LLRRLRLR t12649 deg uncertified
+   .. +LLRRLRRR t10012 deg uncertified
+   .. -LLRRLRRR t10011 deg uncertified
+   .. +LLRRRLRR t10012 deg uncertified
+   .. -LLRRRLRR t10011 deg uncertified
+   .. +LLRRRRLR t08064 deg uncertified
+   .. -LLRRRRLR t08063 deg uncertified
+   .. +LLRRRRRR t01448 deg (4, 700)
+   .. -LLRRRRRR t01447 deg (4, 700)
+   .. +LRLRLRLR t12839 deg (2, 700)
+   .. -LRLRLRLR t12838 deg (2, 700)
+   .. +LRLRLRRR t11614 deg (7, 700)
+   .. -LRLRLRRR t11613 deg (7, 700)
+   .. +LRLRRLRR t12295 deg (12, 700)
+   .. -LRLRRLRR t12294 deg (12, 700)
+   .. +LRLRRRRR t03611 deg (12, 700)
+   .. -LRLRRRRR t03610 deg (12, 700)
+   .. +LRRLRRRR t05626 deg (5, 700)
+   .. -LRRLRRRR t05625 deg (5, 700)
+   .. +LRRRLRRR t06264 deg (4, 700)
+   .. -LRRRLRRR t06263 deg (4, 700)
+   .. +LRRRRRRR t00000 deg (8, 700)
+   .. -LRRRRRRR t00001 deg (8, 700)
+=== the word states up to length 8 (both signs, orientable) ===
+  +LR        m004     tr     3  H1 Z              cusps 1 b1 1 free 0  amph    CS -0.000000  vol 2.029883  kM deg  2 disc -3 x^2 - x + 1  Q(sqrt-3)  golden
+  -LR        m003     tr    -3  H1 Z/5 + Z        cusps 1 b1 1 free 0  amph    CS +0.250000  vol 2.029883  kM deg  2 disc -3 x^2 - x + 1  Q(sqrt-3)  golden
+  +LLR       m009     tr     4  H1 Z/2 + Z        cusps 1 b1 1 free 0  chiral  CS -0.020833  vol 2.666745  kM deg  2 disc -7 x^2 - x + 2
+  -LLR       m010     tr    -4  H1 Z/6 + Z        cusps 1 b1 1 free 0  chiral  CS +0.229167  vol 2.666745  kM deg  2 disc -7 x^2 - x + 2
+  +LRR       m009     tr     4  H1 Z/2 + Z        cusps 1 b1 1 free 0  chiral  CS +0.020833  vol 2.666745  kM deg  2 disc -7 x^2 - x + 2
+  -LRR       m010     tr    -4  H1 Z/6 + Z        cusps 1 b1 1 free 0  chiral  CS -0.229167  vol 2.666745  kM deg  2 disc -7 x^2 - x + 2
+  +LLLR      m023     tr     5  H1 Z/3 + Z        cusps 1 b1 1 free 0  chiral  CS -0.036893  vol 2.989120  kM deg  4 disc 697 x^4 - x^3 + 2*x^2 - x + 2
+  -LLLR      m022     tr    -5  H1 Z/7 + Z        cusps 1 b1 1 free 0  chiral  CS +0.213107  vol 2.989120  kM deg  4 disc 697 x^4 - x^3 + 2*x^2 - x + 2
+  +LLRR      m136     tr     6  H1 Z/2 + Z/2 + Z  cusps 1 b1 1 free 0  amph    CS +0.000000  vol 3.663862  kM deg  2 disc -4 x^2 + 1
+  -LLRR      m135     tr    -6  H1 Z/2 + Z/4 + Z  cusps 1 b1 1 free 0  amph    CS +0.250000  vol 3.663862  kM deg  2 disc -4 x^2 + 1
+  +LRLR      m206     tr     7  H1 Z/5 + Z        cusps 1 b1 1 free 0  amph    CS -0.000000  vol 4.059766  kM deg  2 disc -3 x^2 - x + 1  Q(sqrt-3)  golden
+  -LRLR      m207     tr    -7  H1 Z/3 + Z/3 + Z  cusps 1 b1 1 free 0  amph    CS +0.250000  vol 4.059766  kM deg  2 disc -3 x^2 - x + 1  Q(sqrt-3)  golden
+  +LRRR      m023     tr     5  H1 Z/3 + Z        cusps 1 b1 1 free 0  chiral  CS +0.036893  vol 2.989120  kM deg  4 disc 697 x^4 - x^3 + 2*x^2 - x + 2
+  -LRRR      m022     tr    -5  H1 Z/7 + Z        cusps 1 b1 1 free 0  chiral  CS -0.213107  vol 2.989120  kM deg  4 disc 697 x^4 - x^3 + 2*x^2 - x + 2
+  +LLLLR     m039     tr     6  H1 Z/4 + Z        cusps 1 b1 1 free 0  chiral  CS -0.049063  vol 3.177293  kM deg  3 disc -44 x^3 - x^2 + x + 1
+  -LLLLR     m040     tr    -6  H1 Z/8 + Z        cusps 1 b1 1 free 0  chiral  CS +0.200937  vol 3.177293  kM deg  3 disc -44 x^3 - x^2 + x + 1
+  +LLLRR     m235     tr     8  H1 Z/6 + Z        cusps 1 b1 1 free 0  chiral  CS -0.019850  vol 4.177751  kM deg  4 disc 3173 x^4 - 2*x^3 - x + 4
+  -LLLRR     m234     tr    -8  H1 Z/10 + Z       cusps 1 b1 1 free 0  chiral  CS +0.230150  vol 4.177751  kM deg  4 disc 3173 x^4 - 2*x^3 - x + 4
+  +LLRLR     m370     tr    10  H1 Z/8 + Z        cusps 1 b1 1 free 0  chiral  CS -0.021619  vol 4.751702  kM deg  4 disc 788 x^4 - x^3 + 2*x^2 - 2*x + 2
+  -LLRLR     m369     tr   -10  H1 Z/12 + Z       cusps 1 b1 1 free 0  chiral  CS +0.228381  vol 4.751702  kM deg  4 disc 788 x^4 - x^3 + 2*x^2 - 2*x + 2
+  +LLRRR     m235     tr     8  H1 Z/6 + Z        cusps 1 b1 1 free 0  chiral  CS +0.019850  vol 4.177751  kM deg  4 disc 3173 x^4 - 2*x^3 - x + 4
+  -LLRRR     m234     tr    -8  H1 Z/10 + Z       cusps 1 b1 1 free 0  chiral  CS -0.230150  vol 4.177751  kM deg  4 disc 3173 x^4 - 2*x^3 - x + 4
+  +LRLRR     m370     tr    10  H1 Z/8 + Z        cusps 1 b1 1 free 0  chiral  CS +0.021619  vol 4.751702  kM deg  4 disc 788 x^4 - x^3 + 2*x^2 - 2*x + 2
+  -LRLRR     m369     tr   -10  H1 Z/12 + Z       cusps 1 b1 1 free 0  chiral  CS -0.228381  vol 4.751702  kM deg  4 disc 788 x^4 - x^3 + 2*x^2 - 2*x + 2
+  +LRRRR     m039     tr     6  H1 Z/4 + Z        cusps 1 b1 1 free 0  chiral  CS +0.049063  vol 3.177293  kM deg  3 disc -44 x^3 - x^2 + x + 1
+  -LRRRR     m040     tr    -6  H1 Z/8 + Z        cusps 1 b1 1 free 0  chiral  CS -0.200937  vol 3.177293  kM deg  3 disc -44 x^3 - x^2 + x + 1
+  +LLLLLR    s000     tr     7  H1 Z/5 + Z        cusps 1 b1 1 free 0  chiral  CS -0.058466  vol 3.296902  kM deg  6 disc -453683   golden
+  -LLLLLR    s001     tr    -7  H1 Z/9 + Z        cusps 1 b1 1 free 0  chiral  CS +0.191534  vol 3.296902  kM deg  6 disc -453683   golden
+  +LLLLRR    s298     tr    10  H1 Z/2 + Z/4 + Z  cusps 1 b1 1 free 0  chiral  CS -0.035766  vol 4.464659  kM deg  3 disc -116 x^3 - x^2 - 2
+  -LLLLRR    s299     tr   -10  H1 Z/2 + Z/6 + Z  cusps 1 b1 1 free 0  chiral  CS +0.214234  vol 4.464659  kM deg  3 disc -116 x^3 - x^2 - 2
+  +LLLRLR    s640     tr    13  H1 Z/11 + Z       cusps 1 b1 1 free 0  chiral  CS -0.039681  vol 5.133548  kM deg  8 disc None 
+  -LLLRLR    s639     tr   -13  H1 Z/15 + Z       cusps 1 b1 1 free 0  chiral  CS +0.210319  vol 5.133548  kM deg  8 disc None 
+  +LLLRRR    s464     tr    11  H1 Z/3 + Z/3 + Z  cusps 1 b1 1 free 0  amph    CS -0.000000  vol 4.813819  kM deg  8 disc None 
+  -LLLRRR    s463     tr   -11  H1 Z/13 + Z       cusps 1 b1 1 free 0  amph    CS +0.250000  vol 4.813819  kM deg  8 disc None 
+  +LLRLLR    s787     tr    14  H1 Z/2 + Z/6 + Z  cusps 1 b1 1 free 0  chiral  CS -0.041667  vol 5.333490  kM deg  2 disc -7 x^2 - x + 2
+  -LLRLLR    s786     tr   -14  H1 Z/4 + Z/4 + Z  cusps 1 b1 1 free 0  chiral  CS +0.208333  vol 5.333490  kM deg  2 disc -7 x^2 - x + 2
+  +LLRLRR    s892     tr    15  H1 Z/13 + Z       cusps 1 b1 1 free 0  amph    CS -0.000000  vol 5.625378  kM deg 14 disc None 
+  -LLRLRR    s891     tr   -15  H1 Z/17 + Z       cusps 1 b1 1 free 0  amph    CS +0.250000  vol 5.625378  kM deg 14 disc None 
+  +LLRRLR    s892     tr    15  H1 Z/13 + Z       cusps 1 b1 1 free 0  amph    CS +0.000000  vol 5.625378  kM deg 14 disc None 
+  -LLRRLR    s891     tr   -15  H1 Z/17 + Z       cusps 1 b1 1 free 0  amph    CS +0.250000  vol 5.625378  kM deg 14 disc None 
+  +LLRRRR    s298     tr    10  H1 Z/2 + Z/4 + Z  cusps 1 b1 1 free 0  chiral  CS +0.035766  vol 4.464659  kM deg  3 disc -116 x^3 - x^2 - 2
+  -LLRRRR    s299     tr   -10  H1 Z/2 + Z/6 + Z  cusps 1 b1 1 free 0  chiral  CS -0.214234  vol 4.464659  kM deg  3 disc -116 x^3 - x^2 - 2
+  +LRLRLR    s961     tr    18  H1 Z/4 + Z/4 + Z  cusps 1 b1 1 free 0  amph    CS -0.000000  vol 6.089650  kM deg  2 disc -3 x^2 - x + 1  Q(sqrt-3)  golden
+  -LRLRLR    s960     tr   -18  H1 Z/2 + Z/10 + Z cusps 1 b1 1 free 0  amph    CS +0.250000  vol 6.089650  kM deg  2 disc -3 x^2 - x + 1  Q(sqrt-3)  golden
+  +LRLRRR    s640     tr    13  H1 Z/11 + Z       cusps 1 b1 1 free 0  chiral  CS +0.039681  vol 5.133548  kM deg  8 disc None 
+  -LRLRRR    s639     tr   -13  H1 Z/15 + Z       cusps 1 b1 1 free 0  chiral  CS -0.210319  vol 5.133548  kM deg  8 disc None 
+  +LRRLRR    s787     tr    14  H1 Z/2 + Z/6 + Z  cusps 1 b1 1 free 0  chiral  CS +0.041667  vol 5.333490  kM deg  2 disc -7 x^2 - x + 2
+  -LRRLRR    s786     tr   -14  H1 Z/4 + Z/4 + Z  cusps 1 b1 1 free 0  chiral  CS -0.208333  vol 5.333490  kM deg  2 disc -7 x^2 - x + 2
+  +LRRRRR    s000     tr     7  H1 Z/5 + Z        cusps 1 b1 1 free 0  chiral  CS +0.058466  vol 3.296902  kM deg  6 disc -453683   golden
+  -LRRRRR    s001     tr    -7  H1 Z/9 + Z        cusps 1 b1 1 free 0  chiral  CS -0.191534  vol 3.296902  kM deg  6 disc -453683   golden
+  +LLLLLLR   v0000    tr     8  H1 Z/6 + Z        cusps 1 b1 1 free 0  chiral  CS -0.065897  vol 3.377597  kM deg  4 disc 2917 x^4 + 4*x^2 - x + 2
+  -LLLLLLR   v0001    tr    -8  H1 Z/10 + Z       cusps 1 b1 1 free 0  chiral  CS +0.184103  vol 3.377597  kM deg  4 disc 2917 x^4 + 4*x^2 - x + 2
+  +LLLLLRR   v0650    tr    12  H1 Z/10 + Z       cusps 1 b1 1 free 0  chiral  CS -0.048098  vol 4.636433  kM deg  6 disc -4319731 
+  -LLLLLRR   v0651    tr   -12  H1 Z/14 + Z       cusps 1 b1 1 free 0  chiral  CS +0.201902  vol 4.636433  kM deg  6 disc -4319731 
+  +LLLLRLR   v1577    tr    16  H1 Z/14 + Z       cusps 1 b1 1 free 0  chiral  CS -0.053879  vol 5.357042  kM deg  6 disc -3806623 
+  -LLLLRLR   v1578    tr   -16  H1 Z/3 + Z/6 + Z  cusps 1 b1 1 free 0  chiral  CS +0.196121  vol 5.357042  kM deg  6 disc -3806623 
+  +LLLLRRR   v1276    tr    14  H1 Z/12 + Z       cusps 1 b1 1 free 0  chiral  CS -0.017124  vol 5.170674  kM deg  6 disc 435664 
+  -LLLLRRR   v1277    tr   -14  H1 Z/16 + Z       cusps 1 b1 1 free 0  chiral  CS +0.232876  vol 5.170674  kM deg  6 disc 435664 
+  +LLLRLLR   v2231    tr    18  H1 Z/16 + Z       cusps 1 b1 1 free 0  chiral  CS -0.058252  vol 5.666446  kM deg  7 disc None   golden
+  -LLLRLLR   v2230    tr   -18  H1 Z/20 + Z       cusps 1 b1 1 free 0  chiral  CS +0.191748  vol 5.666446  kM deg  7 disc None   golden
+  +LLLRLRR   v2899    tr    20  H1 Z/18 + Z       cusps 1 b1 1 free 0  chiral  CS -0.019604  vol 6.105654  kM deg 10 disc None 
+  -LLLRLRR   v2898    tr   -20  H1 Z/22 + Z       cusps 1 b1 1 free 0  chiral  CS +0.230396  vol 6.105654  kM deg 10 disc None 
+  +LLLRRLR   v2899    tr    20  H1 Z/18 + Z       cusps 1 b1 1 free 0  chiral  CS -0.019604  vol 6.105654  kM deg 10 disc None 
+  -LLLRRLR   v2898    tr   -20  H1 Z/22 + Z       cusps 1 b1 1 free 0  chiral  CS +0.230396  vol 6.105654  kM deg 10 disc None 
+  +LLLRRRR   v1276    tr    14  H1 Z/12 + Z       cusps 1 b1 1 free 0  chiral  CS +0.017124  vol 5.170674  kM deg  6 disc 435664 
+  -LLLRRRR   v1277    tr   -14  H1 Z/16 + Z       cusps 1 b1 1 free 0  chiral  CS -0.232876  vol 5.170674  kM deg  6 disc 435664 
+  +LLRLLRR   v3246    tr    22  H1 Z/20 + Z       cusps 1 b1 1 free 0  chiral  CS -0.021413  vol 6.377143  kM deg  6 disc 1408292 
+  -LLRLLRR   v3247    tr   -22  H1 Z/24 + Z       cusps 1 b1 1 free 0  chiral  CS +0.228587  vol 6.377143  kM deg  6 disc 1408292 
+  +LLRLRLR   v3511    tr    26  H1 Z/24 + Z       cusps 1 b1 1 free 0  chiral  CS -0.021753  vol 6.791984  kM deg  7 disc None 
+  -LLRLRLR   v3510    tr   -26  H1 Z/28 + Z       cusps 1 b1 1 free 0  chiral  CS +0.228247  vol 6.791984  kM deg  7 disc None 
+  +LLRLRRR   v2899    tr    20  H1 Z/18 + Z       cusps 1 b1 1 free 0  chiral  CS +0.019604  vol 6.105654  kM deg 10 disc None 
+  -LLRLRRR   v2898    tr   -20  H1 Z/22 + Z       cusps 1 b1 1 free 0  chiral  CS -0.230396  vol 6.105654  kM deg 10 disc None 
+  +LLRRLRR   v3246    tr    22  H1 Z/20 + Z       cusps 1 b1 1 free 0  chiral  CS +0.021413  vol 6.377143  kM deg  6 disc 1408292 
+  -LLRRLRR   v3247    tr   -22  H1 Z/24 + Z       cusps 1 b1 1 free 0  chiral  CS -0.228587  vol 6.377143  kM deg  6 disc 1408292 
+  +LLRRRLR   v2899    tr    20  H1 Z/18 + Z       cusps 1 b1 1 free 0  chiral  CS +0.019604  vol 6.105654  kM deg 10 disc None 
+  -LLRRRLR   v2898    tr   -20  H1 Z/22 + Z       cusps 1 b1 1 free 0  chiral  CS -0.230396  vol 6.105654  kM deg 10 disc None 
+  +LLRRRRR   v0650    tr    12  H1 Z/10 + Z       cusps 1 b1 1 free 0  chiral  CS +0.048098  vol 4.636433  kM deg  6 disc -4319731 
+  -LLRRRRR   v0651    tr   -12  H1 Z/14 + Z       cusps 1 b1 1 free 0  chiral  CS -0.201902  vol 4.636433  kM deg  6 disc -4319731 
+  +LRLRLRR   v3511    tr    26  H1 Z/24 + Z       cusps 1 b1 1 free 0  chiral  CS +0.021753  vol 6.791984  kM deg  7 disc None 
+  -LRLRLRR   v3510    tr   -26  H1 Z/28 + Z       cusps 1 b1 1 free 0  chiral  CS -0.228247  vol 6.791984  kM deg  7 disc None 
+  +LRLRRRR   v1577    tr    16  H1 Z/14 + Z       cusps 1 b1 1 free 0  chiral  CS +0.053879  vol 5.357042  kM deg  6 disc -3806623 
+  -LRLRRRR   v1578    tr   -16  H1 Z/3 + Z/6 + Z  cusps 1 b1 1 free 0  chiral  CS -0.196121  vol 5.357042  kM deg  6 disc -3806623 
+  +LRRLRRR   v2231    tr    18  H1 Z/16 + Z       cusps 1 b1 1 free 0  chiral  CS +0.058252  vol 5.666446  kM deg  7 disc None   golden
+  -LRRLRRR   v2230    tr   -18  H1 Z/20 + Z       cusps 1 b1 1 free 0  chiral  CS -0.191748  vol 5.666446  kM deg  7 disc None   golden
+  +LRRRRRR   v0000    tr     8  H1 Z/6 + Z        cusps 1 b1 1 free 0  chiral  CS +0.065897  vol 3.377597  kM deg  4 disc 2917 x^4 + 4*x^2 - x + 2
+  -LRRRRRR   v0001    tr    -8  H1 Z/10 + Z       cusps 1 b1 1 free 0  chiral  CS -0.184103  vol 3.377597  kM deg  4 disc 2917 x^4 + 4*x^2 - x + 2
+  +LLLLLLLR  t00000   tr     9  H1 Z/7 + Z        cusps 1 b1 1 free 0  chiral  CS -0.071892  vol 3.434541  kM deg  8 disc None 
+  -LLLLLLLR  t00001   tr    -9  H1 Z/11 + Z       cusps 1 b1 1 free 0  chiral  CS +0.178108  vol 3.434541  kM deg  8 disc None 
+  +LLLLLLRR  t01448   tr    14  H1 Z/2 + Z/6 + Z  cusps 1 b1 1 free 0  chiral  CS -0.057701  vol 4.745945  kM deg  4 disc 257 x^4 + x^2 - x + 1
+  -LLLLLLRR  t01447   tr   -14  H1 Z/2 + Z/8 + Z  cusps 1 b1 1 free 0  chiral  CS +0.192299  vol 4.745945  kM deg  4 disc 257 x^4 + x^2 - x + 1
+  +LLLLLRLR  t03611   tr    19  H1 Z/17 + Z       cusps 1 b1 1 free 0  chiral  CS -0.064922  vol 5.495648  kM deg 12 disc None 
+  -LLLLLRLR  t03610   tr   -19  H1 Z/21 + Z       cusps 1 b1 1 free 0  chiral  CS +0.185078  vol 5.495648  kM deg 12 disc None 
+  +LLLLLRRR  t03265   tr    17  H1 Z/15 + Z       cusps 1 b1 1 free 0  chiral  CS -0.030716  vol 5.380577  kM deg 12 disc None 
+  -LLLLLRRR  t03264   tr   -17  H1 Z/19 + Z       cusps 1 b1 1 free 0  chiral  CS +0.219284  vol 5.380577  kM deg 12 disc None 
+  +LLLLRLLR  t05626   tr    22  H1 Z/2 + Z/10 + Z cusps 1 b1 1 free 0  chiral  CS -0.071362  vol 5.866445  kM deg  5 disc 163132 
+  -LLLLRLLR  t05625   tr   -22  H1 Z/2 + Z/12 + Z cusps 1 b1 1 free 0  chiral  CS +0.178638  vol 5.866445  kM deg  5 disc 163132 
+  +LLLLRLRR  t08064   tr    25  H1 Z/23 + Z       cusps 1 b1 1 free 0  chiral  CS -0.035445  vol 6.381278  kM uncertified
+  -LLLLRLRR  t08063   tr   -25  H1 Z/27 + Z       cusps 1 b1 1 free 0  chiral  CS +0.214555  vol 6.381278  kM uncertified
+  +LLLLRRLR  t08064   tr    25  H1 Z/23 + Z       cusps 1 b1 1 free 0  chiral  CS -0.035445  vol 6.381278  kM uncertified
+  -LLLLRRLR  t08063   tr   -25  H1 Z/27 + Z       cusps 1 b1 1 free 0  chiral  CS +0.214555  vol 6.381278  kM uncertified
+  +LLLLRRRR  t03910   tr    18  H1 Z/4 + Z/4 + Z  cusps 1 b1 1 free 0  amph    CS +0.000000  vol 5.573609  kM deg  4 disc -1156 x^4 - x^3 - 2*x^2 - x + 1  golden
+  -LLLLRRRR  t03911   tr   -18  H1 Z/2 + Z/10 + Z cusps 1 b1 1 free 0  amph    CS +0.250000  vol 5.573609  kM deg  4 disc -1156 x^4 - x^3 - 2*x^2 - x + 1  golden
+  +LLLRLLLR  t06264   tr    23  H1 Z/21 + Z       cusps 1 b1 1 free 0  chiral  CS -0.073786  vol 5.978241  kM deg  4 disc 697 x^4 - x^3 + 2*x^2 - x + 2
+  -LLLRLLLR  t06263   tr   -23  H1 Z/5 + Z/5 + Z  cusps 1 b1 1 free 0  chiral  CS +0.176214  vol 5.978241  kM deg  4 disc 697 x^4 - x^3 + 2*x^2 - x + 2
+  +LLLRLLRR  t10012   tr    29  H1 Z/27 + Z       cusps 1 b1 1 free 0  chiral  CS -0.040017  vol 6.798626  kM uncertified
+  -LLLRLLRR  t10011   tr   -29  H1 Z/31 + Z       cusps 1 b1 1 free 0  chiral  CS +0.209983  vol 6.798626  kM uncertified
+  +LLLRLRLR  t11614   tr    34  H1 Z/2 + Z/16 + Z cusps 1 b1 1 free 0  chiral  CS -0.040214  vol 7.186140  kM deg  7 disc None 
+  -LLLRLRLR  t11613   tr   -34  H1 Z/2 + Z/18 + Z cusps 1 b1 1 free 0  chiral  CS +0.209786  vol 7.186140  kM deg  7 disc None 
+  +LLLRLRRR  t09253   tr    27  H1 Z/25 + Z       cusps 1 b1 1 free 0  amph    CS +0.000000  vol 6.644906  kM uncertified
+  -LLLRLRRR  t09252   tr   -27  H1 Z/29 + Z       cusps 1 b1 1 free 0  amph    CS +0.250000  vol 6.644906  kM uncertified
+  +LLLRRLLR  t10012   tr    29  H1 Z/27 + Z       cusps 1 b1 1 free 0  chiral  CS -0.040017  vol 6.798626  kM uncertified
+  -LLLRRLLR  t10011   tr   -29  H1 Z/31 + Z       cusps 1 b1 1 free 0  chiral  CS +0.209983  vol 6.798626  kM uncertified
+  +LLLRRLRR  t10729   tr    30  H1 Z/2 + Z/14 + Z cusps 1 b1 1 free 0  chiral  CS +0.001216  vol 6.951839  kM deg  6 disc 259508 
+  -LLLRRLRR  t10730   tr   -30  H1 Z/2 + Z/16 + Z cusps 1 b1 1 free 0  chiral  CS -0.248784  vol 6.951839  kM deg  6 disc 259508 
+  +LLLRRRLR  t09253   tr    27  H1 Z/25 + Z       cusps 1 b1 1 free 0  amph    CS +0.000000  vol 6.644906  kM uncertified
+  -LLLRRRLR  t09252   tr   -27  H1 Z/29 + Z       cusps 1 b1 1 free 0  amph    CS +0.250000  vol 6.644906  kM uncertified
+  +LLLRRRRR  t03265   tr    17  H1 Z/15 + Z       cusps 1 b1 1 free 0  chiral  CS +0.030716  vol 5.380577  kM deg 12 disc None 
+  -LLLRRRRR  t03264   tr   -17  H1 Z/19 + Z       cusps 1 b1 1 free 0  chiral  CS -0.219284  vol 5.380577  kM deg 12 disc None 
+  +LLRLLRLR  t12295   tr    37  H1 Z/35 + Z       cusps 1 b1 1 free 0  chiral  CS -0.042586  vol 7.422596  kM deg 12 disc None 
+  -LLRLLRLR  t12294   tr   -37  H1 Z/39 + Z       cusps 1 b1 1 free 0  chiral  CS +0.207414  vol 7.422596  kM deg 12 disc None 
+  +LLRLLRRR  t10729   tr    30  H1 Z/2 + Z/14 + Z cusps 1 b1 1 free 0  chiral  CS -0.001216  vol 6.951839  kM deg  6 disc 259508 
+  -LLRLLRRR  t10730   tr   -30  H1 Z/2 + Z/16 + Z cusps 1 b1 1 free 0  chiral  CS +0.248784  vol 6.951839  kM deg  6 disc 259508 
+  +LLRLRLRR  t12648   tr    39  H1 Z/37 + Z       cusps 1 b1 1 free 0  amph    CS +0.000000  vol 7.641711  kM uncertified
+  -LLRLRLRR  t12649   tr   -39  H1 Z/41 + Z       cusps 1 b1 1 free 0  amph    CS +0.250000  vol 7.641711  kM uncertified
+  +LLRLRRLR  t12548   tr    38  H1 Z/6 + Z/6 + Z  cusps 1 b1 1 free 0  amph    CS -0.000000  vol 7.555015  kM deg  6 disc -5060180 
+  -LLRLRRLR  t12547   tr   -38  H1 Z/2 + Z/20 + Z cusps 1 b1 1 free 0  amph    CS +0.250000  vol 7.555015  kM deg  6 disc -5060180 
+  +LLRLRRRR  t08064   tr    25  H1 Z/23 + Z       cusps 1 b1 1 free 0  chiral  CS +0.035445  vol 6.381278  kM uncertified
+  -LLRLRRRR  t08063   tr   -25  H1 Z/27 + Z       cusps 1 b1 1 free 0  chiral  CS -0.214555  vol 6.381278  kM uncertified
+  +LLRRLLRR  t12050   tr    34  H1 Z/4 + Z/8 + Z  cusps 1 b1 1 free 0  amph    CS +0.000000  vol 7.327725  kM deg  2 disc -4 x^2 + 1
+  -LLRRLLRR  t12051   tr   -34  H1 Z/6 + Z/6 + Z  cusps 1 b1 1 free 0  amph    CS +0.250000  vol 7.327725  kM deg  2 disc -4 x^2 + 1
+  +LLRRLRLR  t12648   tr    39  H1 Z/37 + Z       cusps 1 b1 1 free 0  amph    CS +0.000000  vol 7.641711  kM uncertified
+  -LLRRLRLR  t12649   tr   -39  H1 Z/41 + Z       cusps 1 b1 1 free 0  amph    CS +0.250000  vol 7.641711  kM uncertified
+  +LLRRLRRR  t10012   tr    29  H1 Z/27 + Z       cusps 1 b1 1 free 0  chiral  CS +0.040017  vol 6.798626  kM uncertified
+  -LLRRLRRR  t10011   tr   -29  H1 Z/31 + Z       cusps 1 b1 1 free 0  chiral  CS -0.209983  vol 6.798626  kM uncertified
+  +LLRRRLRR  t10012   tr    29  H1 Z/27 + Z       cusps 1 b1 1 free 0  chiral  CS +0.040017  vol 6.798626  kM uncertified
+  -LLRRRLRR  t10011   tr   -29  H1 Z/31 + Z       cusps 1 b1 1 free 0  chiral  CS -0.209983  vol 6.798626  kM uncertified
+  +LLRRRRLR  t08064   tr    25  H1 Z/23 + Z       cusps 1 b1 1 free 0  chiral  CS +0.035445  vol 6.381278  kM uncertified
+  -LLRRRRLR  t08063   tr   -25  H1 Z/27 + Z       cusps 1 b1 1 free 0  chiral  CS -0.214555  vol 6.381278  kM uncertified
+  +LLRRRRRR  t01448   tr    14  H1 Z/2 + Z/6 + Z  cusps 1 b1 1 free 0  chiral  CS +0.057701  vol 4.745945  kM deg  4 disc 257 x^4 + x^2 - x + 1
+  -LLRRRRRR  t01447   tr   -14  H1 Z/2 + Z/8 + Z  cusps 1 b1 1 free 0  chiral  CS -0.192299  vol 4.745945  kM deg  4 disc 257 x^4 + x^2 - x + 1
+  +LRLRLRLR  t12839   tr    47  H1 Z/3 + Z/15 + Z cusps 1 b1 1 free 0  amph    CS -0.000000  vol 8.119533  kM deg  2 disc -3 x^2 - x + 1  Q(sqrt-3)  golden
+  -LRLRLRLR  t12838   tr   -47  H1 Z/7 + Z/7 + Z  cusps 1 b1 1 free 0  amph    CS +0.250000  vol 8.119533  kM deg  2 disc -3 x^2 - x + 1  Q(sqrt-3)  golden
+  +LRLRLRRR  t11614   tr    34  H1 Z/2 + Z/16 + Z cusps 1 b1 1 free 0  chiral  CS +0.040214  vol 7.186140  kM deg  7 disc None 
+  -LRLRLRRR  t11613   tr   -34  H1 Z/2 + Z/18 + Z cusps 1 b1 1 free 0  chiral  CS -0.209786  vol 7.186140  kM deg  7 disc None 
+  +LRLRRLRR  t12295   tr    37  H1 Z/35 + Z       cusps 1 b1 1 free 0  chiral  CS +0.042586  vol 7.422596  kM deg 12 disc None 
+  -LRLRRLRR  t12294   tr   -37  H1 Z/39 + Z       cusps 1 b1 1 free 0  chiral  CS -0.207414  vol 7.422596  kM deg 12 disc None 
+  +LRLRRRRR  t03611   tr    19  H1 Z/17 + Z       cusps 1 b1 1 free 0  chiral  CS +0.064922  vol 5.495648  kM deg 12 disc None 
+  -LRLRRRRR  t03610   tr   -19  H1 Z/21 + Z       cusps 1 b1 1 free 0  chiral  CS -0.185078  vol 5.495648  kM deg 12 disc None 
+  +LRRLRRRR  t05626   tr    22  H1 Z/2 + Z/10 + Z cusps 1 b1 1 free 0  chiral  CS +0.071362  vol 5.866445  kM deg  5 disc 163132 
+  -LRRLRRRR  t05625   tr   -22  H1 Z/2 + Z/12 + Z cusps 1 b1 1 free 0  chiral  CS -0.178638  vol 5.866445  kM deg  5 disc 163132 
+  +LRRRLRRR  t06264   tr    23  H1 Z/21 + Z       cusps 1 b1 1 free 0  chiral  CS +0.073786  vol 5.978241  kM deg  4 disc 697 x^4 - x^3 + 2*x^2 - x + 2
+  -LRRRLRRR  t06263   tr   -23  H1 Z/5 + Z/5 + Z  cusps 1 b1 1 free 0  chiral  CS -0.176214  vol 5.978241  kM deg  4 disc 697 x^4 - x^3 + 2*x^2 - x + 2
+  +LRRRRRRR  t00000   tr     9  H1 Z/7 + Z        cusps 1 b1 1 free 0  chiral  CS +0.071892  vol 3.434541  kM deg  8 disc None 
+  -LRRRRRRR  t00001   tr    -9  H1 Z/11 + Z       cusps 1 b1 1 free 0  chiral  CS -0.178108  vol 3.434541  kM deg  8 disc None 
+S1 no word state has a free cusp: {'states': 154, 'one cusp, b1 = 1, peripheral rank 1': 154, 'free cusps': 0}
+S2 the swap is the mirror: {'criterion agrees with SnapPy': '154/154', 'mirror pairs checked (w, swap w)': 124}
+S3 invariant trace fields: {'fields certified': '130/154', 'degree histogram': {2: 20, 3: 8, 4: 26, 5: 4, 6: 26, 7: 12, 8: 10, 10: 8, 12: 12, 14: 4}, 'uncertified at 2150 digits (degree > 16)': [('+LLLLRLRR', 't08064'), ('-LLLLRLRR', 't08063'), ('+LLLLRRLR', 't08064'), ('-LLLLRRLR', 't08063'), ('+LLLRLLRR', 't10012'), ('-LLLRLLRR', 't10011'), ('+LLLRLRRR', 't09253'), ('-LLLRLRRR', 't09252'), ('+LLLRRLLR', 't10012'), ('-LLLRRLLR', 't10011'), ('+LLLRRRLR', 't09253'), ('-LLLRRRLR', 't09252'), ('+LLRLRLRR', 't12648'), ('-LLRLRLRR', 't12649'), ('+LLRLRRRR', 't08064'), ('-LLRLRRRR', 't08063'), ('+LLRRLRLR', 't12648'), ('-LLRRLRLR', 't12649'), ('+LLRRLRRR', 't10012'), ('-LLRRLRRR', 't10011'), ('+LLRRRLRR', 't10012'), ('-LLRRRLRR', 't10011'), ('+LLRRRRLR', 't08064'), ('-LLRRRRLR', 't08063')], 'trace ring integral (tr^2 of the Horowitz generators; certified states of degree <= 8)': 106}
+S3b volume / Bianchi covolume on the arithmetic states (an integer each): {'+LR': ('m004', -3, 12), '-LR': ('m003', -3, 12), '+LLR': ('m009', -7, 3), '-LLR': ('m010', -7, 3), '+LRR': ('m009', -7, 3), '-LRR': ('m010', -7, 3), '+LLRR': ('m136', -4, 12), '-LLRR': ('m135', -4, 12), '+LRLR': ('m206', -3, 24), '-LRLR': ('m207', -3, 24), '+LLRLLR': ('s787', -7, 6), '-LLRLLR': ('s786', -7, 6), '+LRLRLR': ('s961', -3, 36), '-LRLRLR': ('s960', -3, 36), '+LRRLRR': ('s787', -7, 6), '-LRRLRR': ('s786', -7, 6), '+LLRRLLRR': ('t12050', -4, 24), '-LLRRLLRR': ('t12051', -4, 24), '+LRLRLRLR': ('t12839', -3, 48), '-LRLRLRLR': ('t12838', -3, 48)}
+S4 the divide: {'Q(sqrt-3) states (every shape in Q(omega))': [('+LR', 'm004'), ('-LR', 'm003'), ('+LRLR', 'm206'), ('-LRLR', 'm207'), ('+LRLRLR', 's961'), ('-LRLRLR', 's960'), ('+LRLRLRLR', 't12839'), ('-LRLRLRLR', 't12838')], 'chiral states': 124, "chiral states in m004's class": 0, 'arithmetic states by discriminant': {-3: [('+LR', 'm004', 'amph'), ('-LR', 'm003', 'amph'), ('+LRLR', 'm206', 'amph'), ('-LRLR', 'm207', 'amph'), ('+LRLRLR', 's961', 'amph'), ('-LRLRLR', 's960', 'amph'), ('+LRLRLRLR', 't12839', 'amph'), ('-LRLRLRLR', 't12838', 'amph')], -7: [('+LLR', 'm009', 'chiral'), ('-LLR', 'm010', 'chiral'), ('+LRR', 'm009', 'chiral'), ('-LRR', 'm010', 'chiral'), ('+LLRLLR', 's787', 'chiral'), ('-LLRLLR', 's786', 'chiral'), ('+LRRLRR', 's787', 'chiral'), ('-LRRLRR', 's786', 'chiral')], -4: [('+LLRR', 'm136', 'amph'), ('-LLRR', 'm135', 'amph'), ('+LLRRLLRR', 't12050', 'amph'), ('-LLRRLLRR', 't12051', 'amph')]}}
+S6 the golden face alone: {'golden-monodromy states': [('+LR', 'm004', 'amph', 2, -3, 'Q(sqrt-3)'), ('-LR', 'm003', 'amph', 2, -3, 'Q(sqrt-3)'), ('+LRLR', 'm206', 'amph', 2, -3, 'Q(sqrt-3)'), ('-LRLR', 'm207', 'amph', 2, -3, 'Q(sqrt-3)'), ('+LLLLLR', 's000', 'chiral', 6, -453683, 'not Q(sqrt-3)'), ('-LLLLLR', 's001', 'chiral', 6, -453683, 'not Q(sqrt-3)'), ('+LRLRLR', 's961', 'amph', 2, -3, 'Q(sqrt-3)'), ('-LRLRLR', 's960', 'amph', 2, -3, 'Q(sqrt-3)'), ('+LRRRRR', 's000', 'chiral', 6, -453683, 'not Q(sqrt-3)'), ('-LRRRRR', 's001', 'chiral', 6, -453683, 'not Q(sqrt-3)'), ('+LLLRLLR', 'v2231', 'chiral', 7, None, 'not Q(sqrt-3)'), ('-LLLRLLR', 'v2230', 'chiral', 7, None, 'not Q(sqrt-3)'), ('+LRRLRRR', 'v2231', 'chiral', 7, None, 'not Q(sqrt-3)'), ('-LRRLRRR', 'v2230', 'chiral', 7, None, 'not Q(sqrt-3)'), ('+LLLLRRRR', 't03910', 'amph', 4, -1156, 'not Q(sqrt-3)'), ('-LLLLRRRR', 't03911', 'amph', 4, -1156, 'not Q(sqrt-3)'), ('+LRLRLRLR', 't12839', 'amph', 2, -3, 'Q(sqrt-3)'), ('-LRLRLRLR', 't12838', 'amph', 2, -3, 'Q(sqrt-3)')], 'golden and Q(sqrt-3) together': ['+LR', '-LR', '+LRLR', '-LRLR', '+LRLRLR', '-LRLRLR', '+LRLRLRLR', '-LRLRLRLR']}
+S5 covers of m004 up to degree 4: 4 covers, 1 multi-cusped, 0 with a free cusp, 0 with a free cusp and chiral
+S5 covers of m003 up to degree 4: 4 covers, 1 multi-cusped, 0 with a free cusp, 0 with a free cusp and chiral
+S5 covers of m009 up to degree 4: 15 covers, 6 multi-cusped, 1 with a free cusp, 1 with a free cusp and chiral
+     degree 4 irregular cusps 3 H1 Z + Z + Z          b1 3 free 3 chiral
+S5 covers of m010 up to degree 4: 17 covers, 7 multi-cusped, 3 with a free cusp, 3 with a free cusp and chiral
+     degree 3 irregular cusps 1 H1 Z/2 + Z + Z        b1 2 free 1 chiral
+     degree 3 cyclic    cusps 3 H1 Z/2 + Z + Z + Z    b1 3 free 3 chiral
+     degree 4 irregular cusps 3 H1 Z/3 + Z + Z + Z    b1 3 free 3 chiral
+DONE

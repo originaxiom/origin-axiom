@@ -672,3 +672,21 @@ left it.
 > - the Sym⁴ control and its order-5 twists at I = 0.
 >
 > Physical generations stay open (the deck's status, sL-5), and so does the relative SL₅ search (sL-4). 0 of 19 (`frontier/B1384_the_generated_state_space`).
+
+> **Currency note (2026-09-27, B1385): the states together; the mandate reworded.** The owner asked whether several generated
+> states could supply together what m004 withholds. The mandate now reads *follow the generated architecture* (`WORKING_RULES.md`),
+> and the question gets exact answers.
+> - **The words cannot.** Every word state has one cusp and b₁ = 1, so no free cusp, and concatenation keeps it so (T1).
+> - **The swap P is the mirror (T2).** Among 154 word states to length 8, the founding identity's field ℚ(√−3) lives only on the
+>   P-fixed ±(LR)ᵏ (T3, certified fields, integral volume ratios). m010, the index witness's state, is arithmetic over ℚ(√−7).
+> - **The only exact transport is the cover,** and the invariant trace field is a commensurability invariant (T4). So "together"
+>   means m004's own class, sL-1's family, which the architecture enlarges beyond the census.
+> - **There the Eisenstein face gives a mechanism the record lacked (L1–L2).** At a hexagonal free cusp rotated by an order-3
+>   isometry, the admissible Higgs classes are H¹ of the rotation's quotient. Their leading mode is never annular: N = ∓1 at every
+>   phase but six. Among arithmetic classes only ℚ(√−3) has such cusps.
+> - **The search.** In B1186's family and the covers searched, every such cusp is closed by a symmetry negating the class: the
+>   cusp's mirrors, or, on the first locally open pair found (ocube06_08812, a chiral degree-3 cover of o10_150725, where B1370's
+>   instrument puts the leading allowed shell at the √3-shell), an orientation-preserving swap of its two Eisenstein cusps. That swap
+>   forces N₀ + N₂ = 0 (L3, the global parity).
+>
+> The ingredient's address is sL-6. 0 of 19 (`frontier/B1385_the_states_together`).

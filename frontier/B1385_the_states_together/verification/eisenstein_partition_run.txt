@@ -1,0 +1,5 @@
+S7 the Eisenstein cusp lemma -- chi(d+) of the order-3-symmetric first shell, by phase (degrees):
+    -180:-1  -165:-1  -135:+1  -120:+1  -105:+1  -75:-1  -60:-1  -45:-1  -15:+1  +0:+1  +15:+1  +45:-1  +60:-1  +75:-1  +105:+1  +120:+1  +135:+1  +165:-1  +180:-1
+    every phase away from +-30, +-90, +-150 degrees: chi(d+) = the Morse count = +-1, never 0 -> N = -chi(d+) = -+1
+S7 controls: {'hexagonal shell, no symmetry: annular': 117, 'disc-type': 183, 'one direction': 0, 'two directions, unequal': 0}
+DONE

@@ -7974,6 +7974,40 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1385": {
+   "slug": "the states together",
+   "motifs": [
+    "closing",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [
+    "K021",
+    "L1",
+    "L2",
+    "L3",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B138": {
    "slug": "s031 principal lemma",
    "motifs": [
