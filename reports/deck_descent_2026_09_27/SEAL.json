@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-27",
+  "branch": "audit/fork-2026-09-20",
+  "input_head": "a1bea7999d7b5d0a36ed60fc912655cd5141bf52",
+  "status_at_seal": "not imported or executed",
+  "execution": "python3.12 native producer, then python3.12 -m pytest exact named test file; no repository imports",
+  "files_sha256": {
+    "reports/goal_reassessment_2026_09_27/ASSESSMENT.md": "0fe2e59eec0e6c85c951c537ae5c5da34a6b9d56b33ffd523cf99098c0d01410",
+    "reports/deck_descent_2026_09_27/DESIGN.md": "83b050b0febfb4da577b60a3d3e3be2882c519052bb47eb73748f6b6a16a49c2",
+    "reports/deck_descent_2026_09_27/PROOF.md": "6bbbc5817b447bee4ce5dfb8e34ab482abcac6a4a500dad5381d829e2ec12d0d",
+    "reports/deck_descent_2026_09_27/verify_deck_descent.py": "69605a9bd6c3ed26f907eb759e2615eac052f493d688f7796e743618269ca995",
+    "reports/deck_descent_2026_09_27/test_deck_descent.py": "f6861e8aaea97f5027c80004846d3ea3b2d44843114caf282f68d6a0c0975bfc"
+  },
+  "git_inputs": {
+    "commit": "9f9a0751a50f343a6cf36dab67b86d67ccdfc844",
+    "frontier/B1384_the_generated_state_space/FINDINGS.md": "74d2eb0ea2217fc4f6e931e7b7d2d5278e044c33",
+    "frontier/B1384_the_generated_state_space/verification/handoff_checks.py": "a6ca223b23b90610c91d4528c0d81e3e0f6501bc",
+    "frontier/B1378_the_m6_deck_triplet/FINDINGS.md": "d7886f9f37bc31ae8970a60ead7eeb2279414e07"
+  },
+  "custody": "Local commit before execution. No push. No scientific edits until terminal exits. Preserve first failures."
+}
