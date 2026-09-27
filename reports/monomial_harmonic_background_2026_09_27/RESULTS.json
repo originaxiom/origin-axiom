@@ -1,0 +1,260 @@
+[
+  {
+    "type": "CLASS",
+    "data": {
+      "seed": 0,
+      "gram": [
+        [
+          "2",
+          "1",
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "2",
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1",
+          "2",
+          "1"
+        ],
+        [
+          "1",
+          "1",
+          "1",
+          "2"
+        ]
+      ],
+      "covers": {
+        "2": {
+          "matrices": [
+            "[0, 0, 1, 0]\n[1, 0, 0, 0]\n[0, 1, 0, 0]\n[0, 0, 0, 1]",
+            "[-1, -1, -1, -1]\n[ 0,  0,  0,  1]\n[ 1,  0,  0,  0]\n[ 0,  0,  1,  0]",
+            "[-1, -1, -1, -1]\n[ 0,  1,  0,  0]\n[ 0,  0,  0,  1]\n[ 0,  0,  1,  0]"
+          ],
+          "cocycle": "[ 0]\n[ 0]\n[ 0]\n[ 0]\n[ 0]\n[ 0]\n[ 2]\n[-1]\n[ 1]\n[-2]\n[ 1]\n[ 0]",
+          "ordinary": [
+            0,
+            3,
+            2,
+            4,
+            2
+          ],
+          "restriction_profile": {
+            "H1": 3,
+            "torus_rank": 2,
+            "torus_kernel": 1,
+            "meridian_rank": 2,
+            "meridian_kernel": 1,
+            "longitude_rank": 2,
+            "longitude_kernel": 1
+          },
+          "d0_rank": 4,
+          "adjoined_cocycle_rank": 5,
+          "cocycle_residual_zero": true,
+          "peripheral_periods_zero": true,
+          "positive_metric_preserved": true
+        },
+        "6": {
+          "matrices": [
+            "[1, 0, 0, 0]\n[0, 1, 0, 0]\n[0, 0, 1, 0]\n[0, 0, 0, 1]",
+            "[-1, -1, -1, -1]\n[ 0,  0,  0,  1]\n[ 1,  0,  0,  0]\n[ 0,  0,  1,  0]",
+            "[-1, -1, -1, -1]\n[ 0,  0,  1,  0]\n[ 0,  0,  0,  1]\n[ 1,  0,  0,  0]",
+            "[ 0,  1,  0,  0]\n[-1, -1, -1, -1]\n[ 0,  0,  0,  1]\n[ 1,  0,  0,  0]",
+            "[ 0,  0,  0,  1]\n[-1, -1, -1, -1]\n[ 1,  0,  0,  0]\n[ 0,  1,  0,  0]",
+            "[ 0,  0,  0,  1]\n[ 0,  0,  1,  0]\n[-1, -1, -1, -1]\n[ 0,  1,  0,  0]",
+            "[ 0,  1,  0,  0]\n[ 0,  0,  0,  1]\n[-1, -1, -1, -1]\n[ 0,  0,  1,  0]"
+          ],
+          "cocycle": "[ 0]\n[ 0]\n[ 0]\n[ 0]\n[ 0]\n[ 0]\n[ 2]\n[-1]\n[ 1]\n[-2]\n[ 1]\n[ 0]\n[ 2]\n[ 0]\n[ 0]\n[-1]\n[ 1]\n[ 1]\n[-2]\n[ 0]\n[ 0]\n[ 2]\n[ 0]\n[-1]\n[-2]\n[ 1]\n[ 1]\n[ 0]",
+          "ordinary": [
+            0,
+            3,
+            2,
+            4,
+            2
+          ],
+          "restriction_profile": {
+            "H1": 3,
+            "torus_rank": 2,
+            "torus_kernel": 1,
+            "meridian_rank": 2,
+            "meridian_kernel": 1,
+            "longitude_rank": 2,
+            "longitude_kernel": 1
+          },
+          "d0_rank": 4,
+          "adjoined_cocycle_rank": 5,
+          "cocycle_residual_zero": true,
+          "peripheral_periods_zero": true,
+          "positive_metric_preserved": true
+        }
+      },
+      "global_class_nonzero": true
+    }
+  },
+  {
+    "type": "CLASS",
+    "data": {
+      "seed": 1,
+      "gram": [
+        [
+          "2",
+          "1",
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "2",
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1",
+          "2",
+          "1"
+        ],
+        [
+          "1",
+          "1",
+          "1",
+          "2"
+        ]
+      ],
+      "covers": {
+        "2": {
+          "matrices": [
+            "[0, 0, 1, 0]\n[1, 0, 0, 0]\n[0, 1, 0, 0]\n[0, 0, 0, 1]",
+            "[0, 0, 0, 1]\n[0, 1, 0, 0]\n[1, 0, 0, 0]\n[0, 0, 1, 0]",
+            "[ 0,  0,  1,  0]\n[ 0,  1,  0,  0]\n[-1, -1, -1, -1]\n[ 0,  0,  0,  1]"
+          ],
+          "cocycle": "[ 0]\n[ 0]\n[ 0]\n[ 0]\n[ 3]\n[-1]\n[-1]\n[ 0]\n[ 1]\n[ 1]\n[-3]\n[ 1]",
+          "ordinary": [
+            0,
+            3,
+            2,
+            4,
+            2
+          ],
+          "restriction_profile": {
+            "H1": 3,
+            "torus_rank": 2,
+            "torus_kernel": 1,
+            "meridian_rank": 2,
+            "meridian_kernel": 1,
+            "longitude_rank": 2,
+            "longitude_kernel": 1
+          },
+          "d0_rank": 4,
+          "adjoined_cocycle_rank": 5,
+          "cocycle_residual_zero": true,
+          "peripheral_periods_zero": true,
+          "positive_metric_preserved": true
+        },
+        "6": {
+          "matrices": [
+            "[1, 0, 0, 0]\n[0, 1, 0, 0]\n[0, 0, 1, 0]\n[0, 0, 0, 1]",
+            "[0, 0, 0, 1]\n[0, 1, 0, 0]\n[1, 0, 0, 0]\n[0, 0, 1, 0]",
+            "[ 1,  0,  0,  0]\n[ 0,  0,  1,  0]\n[-1, -1, -1, -1]\n[ 0,  0,  0,  1]",
+            "[0, 1, 0, 0]\n[0, 0, 0, 1]\n[0, 0, 1, 0]\n[1, 0, 0, 0]",
+            "[-1, -1, -1, -1]\n[ 0,  1,  0,  0]\n[ 1,  0,  0,  0]\n[ 0,  0,  0,  1]",
+            "[1, 0, 0, 0]\n[0, 0, 1, 0]\n[0, 0, 0, 1]\n[0, 1, 0, 0]",
+            "[ 0,  1,  0,  0]\n[-1, -1, -1, -1]\n[ 0,  0,  1,  0]\n[ 0,  0,  0,  1]"
+          ],
+          "cocycle": "[ 0]\n[ 0]\n[ 0]\n[ 0]\n[ 3]\n[-1]\n[-1]\n[ 0]\n[ 1]\n[ 1]\n[-3]\n[ 1]\n[-1]\n[ 3]\n[-1]\n[ 0]\n[-3]\n[ 1]\n[ 1]\n[ 1]\n[-1]\n[-1]\n[ 3]\n[ 0]\n[ 1]\n[-3]\n[ 1]\n[ 1]",
+          "ordinary": [
+            0,
+            3,
+            2,
+            4,
+            2
+          ],
+          "restriction_profile": {
+            "H1": 3,
+            "torus_rank": 2,
+            "torus_kernel": 1,
+            "meridian_rank": 2,
+            "meridian_kernel": 1,
+            "longitude_rank": 2,
+            "longitude_kernel": 1
+          },
+          "d0_rank": 4,
+          "adjoined_cocycle_rank": 5,
+          "cocycle_residual_zero": true,
+          "peripheral_periods_zero": true,
+          "positive_metric_preserved": true
+        }
+      },
+      "global_class_nonzero": true
+    }
+  },
+  {
+    "type": "GAUGE",
+    "data": {
+      "exact_cocycle_is_gauge": true,
+      "arbitrary_cochain_rejected": true
+    }
+  },
+  {
+    "type": "HODGE_CONTROL",
+    "data": {
+      "beta": [
+        [
+          "1/5"
+        ],
+        [
+          "-1/5"
+        ],
+        [
+          "-2/5"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "norm_squared": "8/5",
+      "wrong_sign_rejected": true,
+      "exact_class_projects_to_zero": true
+    }
+  },
+  {
+    "type": "CUSP",
+    "data": {
+      "scalar_conjugated_operator": "-d_r^2+1",
+      "one_form_radial_operator": "-d_r^2",
+      "bump_moments": [
+        "1/630",
+        "2/105",
+        "4/5"
+      ],
+      "rayleigh_constant": 12,
+      "laplacian_norm_constant": 504,
+      "bessel_derivative_and_equation": true,
+      "constant_scalar_L2_norm_squared": "1/2"
+    }
+  },
+  {
+    "type": "NONLINEAR",
+    "data": {
+      "all_commutator_residuals_zero": true,
+      "noncommuting_control_rejected": true,
+      "raw_E8_adjoint_trace_factor": 60,
+      "complex_kinetic_real_split": true
+    }
+  },
+  {
+    "type": "SCOPE",
+    "data": {
+      "finite_algebraic_inputs_verified": true,
+      "global_PDE_numerically_solved": false,
+      "analytic_argument": "authored, see PROOF.md",
+      "physical_chirality_derived": false,
+      "isolated_4d_EFT_established": false
+    }
+  }
+]
