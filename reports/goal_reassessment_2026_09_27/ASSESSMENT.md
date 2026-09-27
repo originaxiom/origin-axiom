@@ -5,6 +5,17 @@
 new physical theory or a claim to have independently reproduced every seat.
 No merge, push, shared-bank number or change to another seat's files.
 
+**Later same-day update:** the physical-bridge head has advanced to
+51f16912. The [refresh receipt](../monomial_matter_locus_2026_09_27/CROSS_SEAT_REFRESH.md)
+records the new R49 report and R50 seal without claiming a scientific
+replay. Our completed [deck](../deck_descent_2026_09_27/FINDINGS.md),
+[parent](../m6_parent_admission_2026_09_27/FINDINGS.md), and
+[coupled global-family](../monomial_matter_locus_2026_09_27/FINDINGS.md)
+checks now pay several of the original downstream mathematical duties.
+The same-action physical role and common hypercharge-line gate remain.
+Older checkboxes below are the original assessment checkpoint, not an
+assertion that these completed calculations are still unperformed.
+
 ## Verdict and working objective
 
 The TOE ambition remains legitimate as a research aspiration, but “complete

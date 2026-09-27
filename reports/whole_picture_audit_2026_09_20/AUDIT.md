@@ -93,6 +93,18 @@ retained; the combined 85 focused tests pass. Distant components, changed
 peripheral data, unbalanced nonsplit systems and physical mechanisms remain
 outside this local conclusion.
 
+The [whole-parameter untwisted E audit](../monomial_matter_locus_2026_09_27/FINDINGS.md)
+now covers both monomial families over every nonzero complex parameter.
+Their interior index is always zero, but equal interior dimensions are
+one at t=1 and two at t=-1,+i,-i; they are not empty at those points.
+Matter support at fourth roots is distinct from the transverse-deformation
+locus at fifth roots. All 92 focused tests pass. This rejects the
+UNMODIFIED joint index target, not every common hypercharge Wilson line:
+the admitted coupled coefficient twists still need checking. A fresh
+seven-head fetch also receives the physical-bridge R49 report and R50
+seal at 51f16912 with explicit reading/reproduction grades, not a claim
+that its different canonical background completes this family.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several

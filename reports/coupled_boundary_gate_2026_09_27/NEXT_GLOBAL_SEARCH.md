@@ -38,6 +38,15 @@ nearby index three for ANY fixed-meridian, zero-global-invariant E5
 background, even with longitude free. These particular tangents should not
 automatically trigger nonlinear continuation toward that target.
 
+The [whole-parameter matter gate](../monomial_matter_locus_2026_09_27/FINDINGS.md)
+has now proved I(E)=0 for these UNTWiSTED monomial families over C*,
+retaining equal interior spaces of dimension one at 1 and two at -1,+i,-i.
+The unmodified (3,3) target therefore fails throughout these families.
+The [next coupled/analytic gate](../monomial_matter_locus_2026_09_27/NEXT_COUPLED_AND_PHYSICAL_GATE.md)
+explicitly checks the allowed COMMON hypercharge coefficient line before
+closing that broader option. This result is not a classification of its
+twists, distant relative components or physical chirality mechanisms.
+
 ## Done in this fork
 
 - [x] Distinguish geometric deck descent from an internal holonomy cube.
