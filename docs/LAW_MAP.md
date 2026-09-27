@@ -1,5 +1,11 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
+Current path-local R51: fixed-base finite-energy harmonic existence,
+anchored-distance uniqueness and compact-set continuity, at conditional
+authored analytic grade. Exact model radial correction is NOT a global
+asymptotic or a no-go. Sublemmas at EOF; no strong-X physical branch.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.
+
 Current path-local R50: the actual canonical neutral q tangent has an
 admissible second-order field correction and vanishing relaxed quartic,
 at authored analytic grade under inherited geometry/density inputs.
@@ -732,3 +738,17 @@ branch duty is advanced only through second order by the rows below.
 | Second-order moment-map relaxation removes the neutral q-direction quartic | Global adjoint H0=0 under R45 density; beta=-d^dagger G2 j2+d G0 j0 is in Dom(Q) intersect L4 and cancels both residuals to order two. Potential O(s^6), not zero to all orders, a selected q or physical chirality. | B1138 supplied action only; R50 proof sections 4--5; tests/test_physical_bridge_neutral_second_order.py::test_hilbert_green_and_independent_least_squares; test_curvature_zeroform_and_nonclosed_obstructions; test_quartic_cannot_kill_a_relaxed_direction; finite controls are not global proof certification |
 
 R50 report: reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md.
+
+## September 27, 2026 - R51 fixed-base harmonic-completion sublemmas
+
+Conditional authored applications, not independent theorem acceptance.
+The exact finite controls certify identities, not the global PDE proof.
+
+| law (scoped statement) | content and limitation | provenance / control |
+|---|---|---|
+| Fixed-base nearby flat connections have a finite-energy reference | R47's bounded L2 tail difference and R42's finite reference energy imply locally uniform finite energy with the SAME g0 and H0. NPC exhaustion plus full holonomy algebra gives actual harmonic metrics. Not a deformed base or a selected parent. | B1138 supplied-parent context only; reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_PROOF.md sections 1--2; tests/test_physical_bridge_neutral_existence.py::test_finite_energy_on_canonical_not_old_hyperbolic_end |
+| Anchored canonical-cusp control upgrades finite-energy distance to L2 | The scalar radial integration estimate retains its collar trace and favorable outer sign. Distance of two harmonic finite-energy sections is then L2 and subharmonic; complete cutoffs and full algebra give uniqueness. No assumed bounded-distance class, and no statement about infinite-energy maps. | B1138 context only; R51 proof section 3; tests/test_physical_bridge_neutral_existence.py::test_anchored_hardy_identity_and_false_unanchored_control; test_target_anchoring_needs_full_algebra_not_scalar_commutant |
+| Local energy bounds and a persistent word basis give compact-set continuity | Nearby rho_q harmonic completions are unique subsequential limits in C-infinity on compacts. This is not q differentiability in Dom(Q0) intersect L4, an admissible fixed-end branch or finite physical collective-coordinate kinetics. | B1138 context only; R51 proof section 4; test_actual_word_basis_controls_are_not_an_all_q_density_proof; external density is separately explicit |
+| The model central q correction can grow linearly while remaining in every finite Lp | In the exact limiting canonical metric delta(dt)=-1/(4ak0), Delta(r)=1/a; sigma=-rD/(4k0) makes D dt-d sigma coclosed. This is a model identity, not an actual-end expansion, a global primitive, or an obstruction theorem. | B1138 context only; R51 proof section 5; tests/test_physical_bridge_neutral_existence.py::test_model_radial_correction_is_not_a_bounded_gauge_claim |
+
+R51 report: reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.

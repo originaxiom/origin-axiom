@@ -1,5 +1,24 @@
 # One-model audit: which positive results actually compose?
 
+**Current path-local result, R51 (September 27): exact harmonic completion.**
+For each fixed canonical q0>0,q0!=1 base, the nearby actual flat q-family
+has a unique finite-energy harmonic coefficient metric, continuous in
+smooth topology on compact subsets. This is an authored analytic argument
+under inherited geometry/density and local harmonic-map inputs, not
+independent acceptance or a proved X-valued differentiable physical branch.
+The cusp distance estimate and target anchoring are explicit; a model
+radial resonance warns against an assumed bounded gauge transformation.
+Native 29/29 and dedicated 11 pass; nine-file regression 110 pass with
+the same two retained failures. Six science files and 71 input paths are
+unchanged from the pre-execution seal f8c6ed1a, pushed/server-confirmed.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.
+Next: join these exact solutions to R50's admissible two-jet in the SAME
+strong fluctuation domain and identify the derivative/kinetic tensor.
+Selection, full physical spectrum/interactions, chirality, quantum and
+gravity remain. Parallel fork 1f9b4ec2 was read at proof/output level for
+coordination, not independently rerun or used as a premise. Older dated
+entries below are historical; their former next duties are not new gaps.
+
 **Latest local result, R48 (September 25): canonical geometric pairing.**
 The conormal construction now supplies an actual self-isometry and a
 unitary complete-domain matter/dual map on the SAME canonical background,
@@ -492,3 +511,24 @@ neutral/nonlinear and selection task, actual normalized observables, and
 changed-source/end/coefficient or quantum-phase duties. R40/R41 remains a
 different construction, not a casualty of this model's pairing.
 Source: [R48 report](CANONICAL_DUALITY.md).
+
+## September 27 - R49--R51 advance one model without skipping the join
+
+- [x] R49: complete neutral harmonic modes have finite Lp norms, including
+  the nonlinear L4 requirement, under the inherited analytic hypotheses.
+- [x] R50: an admissible two-jet along the nonzero q harmonic tangent
+  cancels both residuals through second order; relaxed quartic zero.
+- [x] R51: actual finite-energy harmonic completions exist uniquely for
+  nearby q on the SAME fixed canonical base and vary continuously on
+  compact subsets. This reuses, rather than rebuilds, the flat family.
+- [ ] Join these exact solutions to the fixed X=Dom(Q0) intersect L4
+  fluctuation space, prove parameter differentiability and identify its
+  harmonic derivative/kinetic tensor. Local convergence is not that norm.
+- [ ] Complete normalized physical interactions and all source/end,
+  quantum/anomaly, selection, gravity and empirical gates; retain the
+  actual pairing and the distinct nonsplit alternative.
+
+Each analytic result is authored and conditional, not independently
+accepted from its finite locks. The original comparator failures and
+earlier nonlinear/phase duties retain their precise scopes. Report:
+[fixed-base harmonic completion](NEUTRAL_EXISTENCE.md).

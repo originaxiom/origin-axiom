@@ -16,6 +16,17 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 27 R51 advances exact nonlinear existence on the FIXED canonical
+base: unique finite-energy harmonic metrics for the nearby q-family,
+continuous on compact subsets, at conditional authored analytic grade.
+The next test is their strong-domain/tangent join to the admissible R50
+two-jet. Analyze the end-central growth and complementary channels; do
+not import compact-domain analytic dependence or claim a physical modulus
+from local smooth convergence. Retain normalized tensors and the common
+physical action/source/end/quantum/gravity duties. The rank-five fork's
+new paired exceptional modes are coordination, not premises or a new kill.
+See reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.
+
 September 27 R50 gives a conditional finite-action TWO-JET along the
 canonical neutral q direction. Second-order field relaxation cancels
 the quartic, so a straight-line quartic must not be read as stabilization.

@@ -1,5 +1,12 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
+Current R51 (September 27): exact finite-energy harmonic completions on
+the fixed canonical base, unique and continuous on compact subsets, at
+authored grade. The next duty is membership/differentiability in the SAME
+strong action domain, not another formal-order or algebraic-smoothness
+probe. End-central growth is explicit in the model. Disposition at EOF;
+reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.
+
 Current R50 (September 27): the canonical neutral q tangent now has
 a conditional finite-action second-order correction. Both residuals
 cancel to order two; the relaxed quartic is zero. Convergent nonlinear
@@ -3590,3 +3597,29 @@ reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
 - **Review:** the inhomogeneous estimate and inherited global analytic
   chain require independent scrutiny. Exact finite controls and custody
   do not pay this; full-suite/banking/governance debts remain.
+
+## R51 disposition - September 27, 2026
+
+- **Advanced subproblem:** actual nonlinear harmonic existence on the
+  fixed canonical base. Closing sentence: "For each fixed canonical q0
+  away from one, the nearby actual flat family admits a unique finite-energy
+  harmonic coefficient metric, continuous in smooth topology on compact
+  subsets." This is conditional authored analysis for that family/domain,
+  not a universal full-object closure or a selected physical branch.
+  reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_PROOF.md.
+- **Immediate strong-domain join:** prove the transported additive fields
+  lie in X=Dom(Q0) intersect L4, tend to zero there, and depend
+  differentiably on q with the R47 harmonic tangent after compact gauge
+  fixing. Analyze central radial growth and complementary channels. A
+  smooth-on-compacts family and finite individual energy do not pay this.
+- **Review:** scrutinize the anchored-distance uniqueness and uniform
+  word anchoring, together with inherited canonical cusp/core geometry.
+  Finite tests and byte custody do not replace independent analytic review.
+- **Coordination, not adoption:** fork 1f9b4ec2 reports entire-parameter
+  zero common index in two monomial rank-five families, but POSITIVE
+  paired modes at 1,-1,+/-i. Proof and native stdout read, not rerun here.
+  Its changed coefficient/end/parent tasks are not closed by R51.
+- **Retained:** full neutral count, normalized kinetic and interaction
+  tensors, actual physical spectrum, source/end/parent/phase/scale
+  selection, anomaly/quantum and gravitational completion, empirical
+  tests; distinct nonsplit and R40/R41 routes. No new universal kill.

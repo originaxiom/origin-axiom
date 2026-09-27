@@ -1,0 +1,306 @@
+{
+  "scope": "Byte custody and fixed-population outcomes, not independent analytic verification, strong-X branch, full-suite green or physics completion",
+  "seal": {
+    "pin": "f8c6ed1a4f40767f5e666c65a285630e183ae0d5",
+    "paths": [
+      "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_DESIGN.md",
+      "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_PROOF.md",
+      "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_PRIOR.md",
+      "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_INPUTS.json",
+      "reports/physical_bridge_2026_09_05/neutral_existence.py",
+      "tests/test_physical_bridge_neutral_existence.py"
+    ],
+    "remote_public_path": "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_SEAL_REMOTE_FIRST.txt"
+  },
+  "runs": {
+    "fetch_first": {
+      "raw_basename": "fetch_first",
+      "raw_receipt_sha256": "ed72baf9a6a521ab675a790ba950435592c335dc40f92bbb402e8999d26ea1aa",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "fetch",
+          "origin",
+          "+refs/heads/*:refs/remotes/origin/*",
+          "--tags"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.7391639999987092,
+        "log_bytes": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": ""
+    },
+    "fetch_resume": {
+      "raw_basename": "fetch_resume",
+      "raw_receipt_sha256": "5d2340c767955a94b7666561f234021f517b08721fb528d7e0f17a514613c319",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "fetch",
+          "origin",
+          "+refs/heads/*:refs/remotes/origin/*",
+          "--tags"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.8621209999837447,
+        "log_bytes": 0,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": ""
+    },
+    "banked_first": {
+      "raw_basename": "banked_first",
+      "raw_receipt_sha256": "05c4826589f62565e9150ae1b8e708e2d6c5b3497cc63c63f7c763694aaf9192",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/checks/already_banked.py",
+          "harmonic finite energy Corlette nonlinear"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.5099840000038967,
+        "log_bytes": 3594,
+        "log_sha256": "3da874cfe3a66a5953dc1e8ee0de602e3e460265eb3f97cd7bb44ca9f7be3427"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "already-banked: terms ['harmonic', 'finite', 'energy', 'corlette', 'nonlinear']\n  95 corpus hits; 0 SETTLED arcs matching >= 3 of 5 terms\n  *** [ 2 terms] PROVED    B1085_edge_observability\n           The free half is EDGE-OBSERVABLE and only edge-observable, re-derived with own code: the two hands of ONE cut of the golden Sturmian word at phase rho = alpha = 2-phi (right half forward, left half outward -- the ba-hand\n      [ 2 terms] OPEN      B1171_seam_harvest\n           THE SEAM HARVEST (batched integrate-don't-merge, the B1158 pattern; the lose-nothing sweep's urgent-reclaim #2 executed in one sitting). FIVE cross-seat results landed on main, each verified on this bench: (1) cc3 B8144 \n  *** [ 2 terms] PROVED    B1204_forcing_shape\n           THE SHAPE OF A FORCING THEOREM, read off the record's own successful forcings. The owner asked whether prior symmetry BREAKINGS supply the insight/mechanism/principle for the value arm's missing forcing theorem; they do,\n      [ 2 terms] OPEN      B1206_one_condition_short\n           THE P^3 IS EXACTLY ONE CONDITION SHORT. B1205 left the frontier 'the linear cuts must come from a consistency requirement rather than a symmetry -- are there any?'; this cell answers YES and counts them. THE MECHANISM: t\n  *** [ 1 terms] PROVED    B1003_axiom_prices\n           THE AXIOM PRICES ARE PAID: FIVE ROBUST, TWO FRAGILE -- AND B998 IS CORRECTED. B998 found THEOREM_LEDGER citing test_b749_genesis_forks.py as the lock for C1-C4 while that file tests only F4-F7, with no F2 and no F8; that\n  *** [ 1 terms] PROVED    B1011_mckay_tensor\n           THE HEARING DATA IS McKAY TENSOR McKAY: rho_6 = (chi x V2(2I)) + (V2(2T) x V2(2I)) EXACTLY -- sealed fc807f11, declared prior OUTCOME A, HELD AT EVERY CELL, no verdict line resting on a float. An incoming chat1 derivatio\n  *** [ 1 terms] PROVED    B1017_recount\n           THE RECOUNT: FIVE RESOURCES, AND THE RANK CLOSING IS UNSOURCED -- cc3's tau_vs_singlet correction verified on this bench and ADOPTED, with every load-bearing input already banked on main. THE CORRECTION IS FORCED: the tw\n  *** [ 1 terms] PROVED    B1019_l149_silver_cascade\n           L149 ANSWERED -- THE ENDPOINT DISCRIMINATES AT THE WORD'S OWN CONDUCTOR, AND THE SIBLINGS HAVE NO DOOR. Sealed ce6b0329 with no confident prior (a weak DIVERGES lean, stated as a lean); outcome DIVERGES, AT THE ENTRY MAP\n  *** [ 1 terms] PROVED    B1028_freedom_ledger\n           THE GLOBAL FREEDOM LEDGER (Lane I-1, sealed e13d09a5 before compute): the retroactive look-elsewhere audit over the WHOLE chain -- A1-A7 -> object -> kappa -> Q(sqrt-3) -> 2T -> E6 -> cascade -> SM skeleton -- lands COMP\n  *** [ 1 terms] PROVED    B1032_type_law\n           THE TYPE LAW (the construction seat's Phase-1b resolution bound VERIFIED AS AMENDED against the entire banked dimensionless coupling inventory, from 2T/2I character tables computed in-arc): the five tones ARE bare normal\n  *** [ 1 terms] PROVED    B1095_mirror_isospectral\n           THE MIRROR-ISOSPECTRAL SPLIT (answers the audit seat's two B1085 checks): at reversal-closed windows (even Fibonacci index: N = 987, 2584) the left hand's word IS the reversed right hand's word letter-for-letter, so J H \n  *** [ 1 terms] PROVED    B1098_nonabelian_hatch\n           THE NON-ABELIAN HATCH OPENS AT ITS FIRST STRATUM (W1 of the closing campaign; the pre-registered positive branch): all TWENTY sl2 conjugacy classes of e6 enumerated constructively (saturation vs the CITED count; every ce\n\n  no settled arc matched -- a MISSING/OPEN claim is admissible (state the terms you searched).\n"
+    },
+    "atlas_first": {
+      "raw_basename": "atlas_first",
+      "raw_receipt_sha256": "fa64dd3a33c5b13f00f9f6737615ac8e28e5ad63e51596088e193e5ff6d8bcb8",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/atlas/query.py",
+          "card",
+          "harmonic"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 0.09669899998698384,
+        "log_bytes": 735,
+        "log_sha256": "a2addb5fe56bdbae2a3372cf918932d7da1351a218e814910611a922f514b28e"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "THE RECURRENCE ATLAS -- context card\n  corpus: 1161 frontier probes; status {'open': 67, 'banked': 760, 'dead': 312, 'dormant': 22}\n  the ONE conserved first integral: kappa (recurs 260x, 22%) -- genuine unity, MUST recur\n  top recurring motifs: golden(650), eisenstein(639), firewall(626), figure_eight(489), metallic(432), trace_map(422)\n  recurrence is: structural-invariant 4460 mentions | conserved-integral 260 | TOOL 422\n  the honest split: the trace-map TOOL is in 422 probes (36%) = method/selection-effect, NOT unity; only kappa is a forced first integral\n  top meeting-point candidates: B530, B156, B521, B309, B598, B1189\n  (obstacle oracle: query.resolutions_for(<type>); revive: query.revive(<B###>); gaps: query.gaps())\n"
+    },
+    "cumulative_preseal": {
+      "raw_basename": "cumulative_preseal",
+      "raw_receipt_sha256": "943439a6d605bd320c88338863a5d3ad2b9cd5930f4d07ca4dad68fcb43a10ed",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.1109140000189655,
+        "log_bytes": 614,
+        "log_sha256": "9f1661471cde86d2c3ea0bf153b5b242138846b639a50f1d005462e1c3dc9b61"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "{\"old_custody\":{\"artifacts\":840,\"latest_distinct_seals\":261,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":2,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    "governance_preseal": {
+      "raw_basename": "governance_preseal",
+      "raw_receipt_sha256": "568267ea32823715ad62d428ed54438b749053a2f8353a1ca791e7a500d7ce6d",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.906497999996645,
+        "log_bytes": 2095,
+        "log_sha256": "de23240967cd64aa62e2c9d35b89aad94307215403742f384b1431f852c99f41"
+      },
+      "expected_exit": 1,
+      "raw_log_with_environment_redaction": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 32 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 217 merges since last review (DUE — run the decadal review)\n"
+    },
+    "seal_remote_first": {
+      "raw_basename": "seal_remote_first",
+      "raw_receipt_sha256": "9a5912d5a2a84876133e02f4e855ebac32b8ff555de7fc26cc52445db53a202b",
+      "receipt": {
+        "command": [
+          "env",
+          "GIT_TERMINAL_PROMPT=0",
+          "GIT_CONFIG_GLOBAL=/dev/null",
+          "GIT_CONFIG_SYSTEM=/dev/null",
+          "git",
+          "-c",
+          "credential.helper=osxkeychain",
+          "ls-remote",
+          "origin",
+          "refs/heads/audit/physical-bridge-2026-09-05"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.0242409999773372,
+        "log_bytes": 85,
+        "log_sha256": "4962bc99f34eed4c1b77690e07bbbaf3196b96f035c13d5e18f40b8601217582"
+      },
+      "expected_exit": 0,
+      "public_path": "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_SEAL_REMOTE_FIRST.txt",
+      "public_sha256": "4962bc99f34eed4c1b77690e07bbbaf3196b96f035c13d5e18f40b8601217582"
+    },
+    "native_first": {
+      "raw_basename": "native_first",
+      "raw_receipt_sha256": "f4d886423433ce81c1c5d15f6f41da5246b8a58dad588188fa3ec997bfc52d68",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "reports/physical_bridge_2026_09_05/neutral_existence.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.3919950000126846,
+        "log_bytes": 1456,
+        "log_sha256": "1fa9c143336611c353ff49d6cd804ae2b33ad1be0da4fecf9f4930c953bba469"
+      },
+      "expected_exit": 0,
+      "public_path": "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_NATIVE_FIRST.json",
+      "public_sha256": "1fa9c143336611c353ff49d6cd804ae2b33ad1be0da4fecf9f4930c953bba469"
+    },
+    "tests_first": {
+      "raw_basename": "tests_first",
+      "raw_receipt_sha256": "7545875dc64d91fc1e6d4357411a4ce8be4311cc3f14eb3fabf033697a935826",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_neutral_existence.py"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 2.1724539999850094,
+        "log_bytes": 99,
+        "log_sha256": "4f0a7d84c7bd01e831966ffa00fb53df42174df795350ea335700ef1cbe84490"
+      },
+      "expected_exit": 0,
+      "public_path": "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_TESTS_FIRST.txt",
+      "public_sha256": "4f0a7d84c7bd01e831966ffa00fb53df42174df795350ea335700ef1cbe84490"
+    },
+    "focused_first": {
+      "raw_basename": "focused_first",
+      "raw_receipt_sha256": "2f319505578f8fe6d0ac9cc0434bc277de42c760739650077ce5a8ad58ed1fab",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "tests/test_physical_bridge_canonical_cusp.py",
+          "tests/test_physical_bridge_parent_cusp.py",
+          "tests/test_physical_bridge_canonical_interaction.py",
+          "tests/test_physical_bridge_neutral_tangent.py",
+          "tests/test_physical_bridge_neutral_pairing_diagnostic.py",
+          "tests/test_physical_bridge_neutral_regularity.py",
+          "tests/test_physical_bridge_neutral_spectrum_diagnostic.py",
+          "tests/test_physical_bridge_neutral_second_order.py",
+          "tests/test_physical_bridge_neutral_existence.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 21.708190000004834,
+        "log_bytes": 3471,
+        "log_sha256": "910dd171583db24ccdd9b1c176bae564e38c20f523a37ea33486a76f470712fd"
+      },
+      "expected_exit": 1,
+      "public_path": "reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_FOCUSED_FIRST.txt",
+      "public_sha256": "910dd171583db24ccdd9b1c176bae564e38c20f523a37ea33486a76f470712fd"
+    },
+    "custody_first": {
+      "raw_basename": "custody_first",
+      "raw_receipt_sha256": "8c27998753a58ce516917d43d7d6a93eab028e197773e45ed1e18b35ccb61575",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/neutral_existence_receipt_check.rb",
+          "<r51-raw>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 3.199875999998767,
+        "log_bytes": 552,
+        "log_sha256": "8b4c42d631a079f5e2c5bfb5e46d891a089b2babe09403cdcd4ab3580b0ca8eb"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "{\"unchanged_science_paths\":6,\"unchanged_predecessor_paths\":71,\"captured_runs\":10,\"native_checks\":29,\"dedicated_tests\":11,\"regression_files\":9,\"regression_passes\":110,\"retained_failed_ids\":[\"tests/test_physical_bridge_neutral_regularity.py::test_full_and_zero_weight_potential_not_particle_count\",\"tests/test_physical_bridge_neutral_tangent.py::test_received_generic_pairing_and_dual_inverse_identity\"],\"scope\":\"Byte custody and fixed-population outcomes, not independent analytic verification, strong-X branch, full-suite green or physics completion\"}\n"
+    },
+    "cumulative_report_first": {
+      "raw_basename": "cumulative_report_first",
+      "raw_receipt_sha256": "fceced2b15c51e6e715b067e8fe63f2b573ce379440f464908bf1c22fc12bbab",
+      "receipt": {
+        "command": [
+          "ruby",
+          "-EUTF-8:UTF-8",
+          "reports/physical_bridge_2026_09_05/global_poisson_receipt_check.rb",
+          "<prior-raw-root>"
+        ],
+        "exit_code": 0,
+        "signal": null,
+        "elapsed_seconds": 1.139448000001721,
+        "log_bytes": 616,
+        "log_sha256": "d27cf48832ef1efad8069b14f212db2247aee4c207c063b8f4d8263b01271f28"
+      },
+      "expected_exit": 0,
+      "raw_log_with_environment_redaction": "{\"old_custody\":{\"artifacts\":847,\"latest_distinct_seals\":261,\"unchanged_science_paths\":11,\"raw_captures\":14,\"public_science_copies\":7,\"broad_test_files\":52,\"unchanged_failed_error_ids\":24,\"relative_markdown_links\":180,\"scope\":\"Byte custody, fixed populations and local links; not proof review, new science, or full-repository green.\"},\"unchanged_r31_science_paths\":8,\"r31_raw_captures\":9,\"r31_public_copies\":4,\"r31_broad_test_files\":54,\"unchanged_failed_error_ids\":24,\"history_population_verified\":true,\"scope\":\"Byte custody and fixed-population outcomes, not a fresh science execution, proof review or full green.\"}\n"
+    },
+    "governance_report_first": {
+      "raw_basename": "governance_report_first",
+      "raw_receipt_sha256": "1208a32f573d7cbd2430309e53190b852cf7a9baee46e71883045436edcbecc1",
+      "receipt": {
+        "command": [
+          "<python3.12-env>/bin/python3.12",
+          "-B",
+          "scripts/gates/gates.py"
+        ],
+        "exit_code": 1,
+        "signal": null,
+        "elapsed_seconds": 13.541251000016928,
+        "log_bytes": 2095,
+        "log_sha256": "078c33b80308205db9657be59f0b6fc30e6d18522eafadb07555ab9f97427880"
+      },
+      "expected_exit": 1,
+      "raw_log_with_environment_redaction": "  PASS  identification-register: ok\n  PASS  framing: ok\n  PASS  claims: ok\n  PASS  firewall-oneway: ok\n  PASS  append-only: ok\n  PASS  atlas-fresh: ok\n  PASS  arc-verdicts: ok\n  FAIL  attribution: ['reports/physical_bridge_2026_09_05/GLOBAL_POISSON_RETRIEVAL.json (1 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/WEIGHTED_COHOMOLOGY_PRIOR.txt (4 vendor tokens, baseline 0)', 'reports/physical_bridge_2026_09_05/missing_evidence_inventory.json (3 vendor tokens, baseline 0)']\n  PASS  tracked-forbidden: ok\n  PASS  review-actions: ok\n  PASS  views-fresh: ok\n  PASS  id-collisions: ok\n  PASS  knowledge-index: ok\n  PASS  path-refs: ok\n  PASS  tracked-deps: ok\n  FAIL  test-vacuity: 2 unconditionally-passing test(s): tests/test_physical_bridge_family_domain.py::test_original_mathematical_lock_with_exact_domain; tests/test_physical_bridge_quantum_shift.py::test_vector_and_complex_Weyl_mass_derivatives\n  PASS  views-generated: ok\n  PASS  practices-register: ok\n  FAIL  seal-provenance: ['reports/physical_bridge_2026_09_05/EXTENSION_2.md', 'reports/physical_bridge_2026_09_05/EXTENSION_2_CONTROL.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_DESIGN.md', 'reports/physical_bridge_2026_09_05/UPSTREAM_3_EXPORT_REPAIR.md', 'reports/physical_bridge_2026_09_05/GLOBAL_SINGULAR_DESIGN.md']\n  PASS  seal-digests: ok\n  PASS  theorem-registry: ok\n  PASS  lawmap-scope: ok\n  PASS  retraction-sweep: ok\n  PASS  representation-sweep: ok\n  PASS  doc-currency: ok\n  FAIL  relay-debt: relay-debt: 44 banked, 0 declined, 46 open |   relay-debt: 41 UNESCALATED STALE DEBT(S) — escalate by name or close -- |     CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md: OPEN for 36 days (> 21), no ESCALATED marker |     CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md: OPEN for 32 days (> 21), no ESCALATED marker |     CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md: OP\n  PASS  log-changelog-paired: ok\n  PASS  chain-locks: ok\n  PASS  law-map-provenance: ok\n  PASS  atlas-lexicon-current: ok\n  review-due: 218 merges since last review (DUE — run the decadal review)\n"
+    }
+  },
+  "failed_test_ids": [
+    "tests/test_physical_bridge_neutral_regularity.py::test_full_and_zero_weight_potential_not_particle_count",
+    "tests/test_physical_bridge_neutral_tangent.py::test_received_generic_pairing_and_dual_inverse_identity"
+  ]
+}

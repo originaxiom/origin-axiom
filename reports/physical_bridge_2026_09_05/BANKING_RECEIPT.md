@@ -1,5 +1,24 @@
 # CC's banking relay read before the next local checkpoint
 
+**Current path-local result, R51 (September 27): exact harmonic completion.**
+For each fixed canonical q0>0,q0!=1 base, the nearby actual flat q-family
+has a unique finite-energy harmonic coefficient metric, continuous in
+smooth topology on compact subsets. This is an authored analytic argument
+under inherited geometry/density and local harmonic-map inputs, not
+independent acceptance or a proved X-valued differentiable physical branch.
+The cusp distance estimate and target anchoring are explicit; a model
+radial resonance warns against an assumed bounded gauge transformation.
+Native 29/29 and dedicated 11 pass; nine-file regression 110 pass with
+the same two retained failures. Six science files and 71 input paths are
+unchanged from the pre-execution seal f8c6ed1a, pushed/server-confirmed.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.
+Next: join these exact solutions to R50's admissible two-jet in the SAME
+strong fluctuation domain and identify the derivative/kinetic tensor.
+Selection, full physical spectrum/interactions, chirality, quantum and
+gravity remain. Parallel fork 1f9b4ec2 was read at proof/output level for
+coordination, not independently rerun or used as a premise. Older dated
+entries below are historical; their former next duties are not new gaps.
+
 **Latest local result, R45 (September 25): parent gauge and cusp sectors.**
 The actual canonical projective four in the supplied E8 parent has
 so(10) as its 45-dimensional normalizable compact gauge zero algebra.
@@ -1046,3 +1065,28 @@ corrected cumulative custody check passes. Corrected governance returns
 debts included); the new law-map header failure is gone. The full
 whitespace check also flags the preserved raw pytest whitespace; authored
 text passes with that exact data file excluded. None is hidden as green.
+
+## R51 local checkpoint, September 27, 2026
+
+Six scientific files are frozen at pushed/server-confirmed f8c6ed1a
+before execution; 71 predecessor paths match the input pin. Native
+29/29 and dedicated 11 pass; declared nine-file regression 110 pass
+with the same two original comparator failures. No independent analytic
+review, full-suite green, main merge or completed banking pass is claimed.
+The exact finite-energy solutions still need the strong-X/tangent join.
+
+Preseal cumulative custody passed; governance has 26 passes and the same
+four failing categories: historical attribution, two old vacuity cases,
+five old seal-provenance paths and 41 stale relay debts. Review-due is
+217 merges. No gate is weakened and no old scientific file is rewritten.
+Raw pytest trailing whitespace is preserved. An initial metadata-front
+generator lacked explicit UTF-8 and failed before applying any patch;
+rerunning that reader with UTF-8 corrected the reporting operation only.
+[Report](NEUTRAL_EXISTENCE.md), [receipts](NEUTRAL_EXISTENCE_RECEIPTS.json)
+and [read-only custody check](neutral_existence_receipt_check.rb).
+
+The first reporting custody and cumulative audits both pass. The first
+reporting governance run retains those same four categories (26 pass,
+4 fail); review-due advances to 218 after the science seal. All three
+first outputs are embedded with raw hashes in the receipt. No scientific
+correction or omitted new failed test is hidden by this accounting.

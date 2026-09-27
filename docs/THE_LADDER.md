@@ -1,5 +1,24 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**Current path-local result, R51 (September 27): exact harmonic completion.**
+For each fixed canonical q0>0,q0!=1 base, the nearby actual flat q-family
+has a unique finite-energy harmonic coefficient metric, continuous in
+smooth topology on compact subsets. This is an authored analytic argument
+under inherited geometry/density and local harmonic-map inputs, not
+independent acceptance or a proved X-valued differentiable physical branch.
+The cusp distance estimate and target anchoring are explicit; a model
+radial resonance warns against an assumed bounded gauge transformation.
+Native 29/29 and dedicated 11 pass; nine-file regression 110 pass with
+the same two retained failures. Six science files and 71 input paths are
+unchanged from the pre-execution seal f8c6ed1a, pushed/server-confirmed.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.
+Next: join these exact solutions to R50's admissible two-jet in the SAME
+strong fluctuation domain and identify the derivative/kinetic tensor.
+Selection, full physical spectrum/interactions, chirality, quantum and
+gravity remain. Parallel fork 1f9b4ec2 was read at proof/output level for
+coordination, not independently rerun or used as a premise. Older dated
+entries below are historical; their former next duties are not new gaps.
+
 **Current path-local result, R50 (September 27): neutral second-order relaxation.**
 On the SAME fixed canonical q0>0,q0!=1 background, R47's harmonic
 q tangent admits a complete-domain/L4 second-order correction to BOTH

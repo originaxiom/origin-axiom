@@ -15591,3 +15591,38 @@ quantum/anomaly completion and gravity remain. Reader fronts, scoped
 law sublemmas, campaign ordering and open-duty dispositions are updated.
 Historical governance and full-banking debts remain declared. Report:
 reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md.
+
+## 2026-09-27 - R51 exact harmonic completion on the fixed canonical base
+
+Science seal f8c6ed1a4f40767f5e666c65a285630e183ae0d5 was committed,
+pushed and server-confirmed before all scientific imports/runs.
+Native 29/29, dedicated 11 pass, nine-file regression 110 pass/the same
+two preserved failures. Six science paths and 71 input paths unchanged.
+No new scientific failure or post-execution scientific edit.
+
+The authored analytic argument reuses R47's actual flat family, R42's
+finite-energy reference and received F12's compact exhaustion, now on ONE
+fixed canonical base. Full word algebra prevents target escape; a new
+anchored cusp-distance estimate gives uniqueness among finite-energy
+harmonic metrics. The family is continuous in smooth topology on compact
+subsets and solves the actual nonlinear equations, not just a formal jet.
+This does not prove a small differentiable branch in the fixed strong
+action domain. The model central radial correction explicitly grows
+linearly; this is not an obstruction or an actual-end expansion.
+
+Primary reading separates Corlette's complete finite-energy existence
+statement from Slegers' compact-domain analytic dependence. The latter's
+full 16 pages were read personally. Original Corlette 1992 full text was
+not obtained. All inherited external/global analytic grades remain.
+
+All-origin-head/tag fetch had no updates. Local fork 1f9b4ec2's monomial
+proof and native output were read for coordination, not independently
+reproduced: zero common index retains its exceptional positive paired
+modes. No new incoming claim is a premise. Other branch/worktrees untouched.
+
+Next is the strong-domain/tangent join between R50 and R51, followed by
+actual kinetic/interaction tensors and the unchanged physical selection,
+spectrum, chirality, quantum/anomaly and gravity duties. The common-model
+audit's stale R48 front is refreshed alongside the law/lead/mission
+surfaces. Historical governance and independent/full-banking debts remain.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.

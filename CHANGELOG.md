@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-27 - R51 actual fixed-base harmonic completion
+
+An authored finite-energy/exhaustion argument constructs a unique harmonic
+metric for each nearby flat q representation on the SAME canonical base,
+with continuity in smooth topology on compact subsets. An anchored cusp
+estimate supplies uniqueness without an assumed bounded-distance class.
+Strong-X differentiability and a physical vacuum branch remain unproved.
+Native 29/29 and dedicated 11 pass; nine-file regression 110 pass/the same
+two preserved comparator failures. Science seal f8c6ed1a was pushed and
+server-confirmed before execution; six scientific and 71 input paths are
+unchanged. Source reading distinguishes the complete-domain existence
+theorem from compact-domain analytic dependence. The other fork's newer
+paired monomial modes are received at proof/output grade, not rerun here.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.
+
 ## 2026-09-27 - R50 neutral second-order correction in the fixed action
 
 The canonical q harmonic tangent admits a complete-domain/L4 correction

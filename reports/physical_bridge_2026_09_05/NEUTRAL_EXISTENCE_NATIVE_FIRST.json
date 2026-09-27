@@ -1,0 +1,50 @@
+{
+  "checks": {
+    "energy": {
+      "trace_norm": true,
+      "improper_integral": true,
+      "lower_limit_derivative": true,
+      "old_hyperbolic_log_diverges": true,
+      "quadratic_energy_majorant": true
+    },
+    "hardy": {
+      "integration_by_parts_identity": true,
+      "anchored_polynomial_controls": true,
+      "dropping_boundary_term_rejected": true,
+      "unbounded_linear_function_is_L2": true
+    },
+    "model": {
+      "volume_weight": true,
+      "radial_ray_bounded_length": true,
+      "dt_bounded_norm": true,
+      "delta_dt": true,
+      "laplacian_r": true,
+      "corrected_tangent_coclosed": true,
+      "wrong_sign_rejected": true,
+      "dropping_radial_term_rejected": true,
+      "correction_is_dv": true
+    },
+    "algebra": {
+      "positive_metric_determinant_one": true,
+      "matrix_unit_identity": true,
+      "sum_identity": true,
+      "triangular_scalar_commutant": true,
+      "triangular_not_full_algebra": true,
+      "bounded_generators_despite_escape": true,
+      "escaping_inverse_unbounded": true
+    },
+    "words": {
+      "full_word_span_at_2": true,
+      "full_word_span_at_1/2": true,
+      "full_word_span_at_3": true,
+      "full_word_span_at_1/3": true
+    }
+  },
+  "passed": 29,
+  "total": 29,
+  "all_checks_pass": true,
+  "global_PDE_numerically_solved": false,
+  "global_analytic_proof_machine_verified": false,
+  "strong_X_branch_proved": false,
+  "physical_chirality_derived": false
+}
