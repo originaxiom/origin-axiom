@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-27",
+  "seal_commit": "0b58f3c92eec4655e8bbd3e3f19f377b3601ab0b",
+  "sources_unchanged": true,
+  "hash_check_chunk": "07d52e",
+  "runs": [
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/global_sl5_seed_2026_09_27/verify_topology.py",
+      "chunks": [
+        "1b5fb9",
+        "28afcd"
+      ],
+      "exit_code": 0,
+      "output": "RUN_TOPOLOGY.txt"
+    },
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/global_sl5_seed_2026_09_27/verify_global_seed.py",
+      "chunks": [
+        "100d78",
+        "2c43fe"
+      ],
+      "exit_code": 0,
+      "output": "RUN_NATIVE.txt"
+    },
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/global_sl5_seed_2026_09_27/test_global_seed.py",
+      "chunks": [
+        "a46323",
+        "9a9aab"
+      ],
+      "exit_code": 0,
+      "output": "RUN_TESTS.txt"
+    },
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py",
+      "chunks": [
+        "e54b1b",
+        "f35c3b"
+      ],
+      "exit_code": 0,
+      "output": "RUN_COMBINED_TESTS.txt"
+    }
+  ],
+  "warning": "Spherogram/Plink cannot load tkinter GUI; diagram and exact algebra routines complete. No GUI needed."
+}

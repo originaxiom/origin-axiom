@@ -41,6 +41,16 @@ Nine more tests and the combined 41-test parent/boundary/deck suite pass.
 The [next global milestone](../coupled_boundary_gate_2026_09_27/NEXT_GLOBAL_SEARCH.md)
 now has an explicit input contract and completeness standard.
 
+The [global native SL5 seed check](../global_sl5_seed_2026_09_27/FINDINGS.md)
+has now verified the diagram/peripheral input and computed both actual
+parent coefficients on M2 and M6. The five common central twists give
+index pairs (0,0), (0,3), (1,0), (-1,0), (0,-3): a genuine mathematical
+three in the exterior-square coefficient, but no matching three in E.
+Global H0 corrections materially cancel tempting false positives. The
+mixed torus-relative kernel is zero, but each circle-relative kernel is
+one; whether that relaxation connects the full five-dimensional parent
+needs its own check. Sixteen new and the combined 57 focused tests pass.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several
