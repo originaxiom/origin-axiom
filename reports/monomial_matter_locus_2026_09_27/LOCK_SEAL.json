@@ -1,0 +1,9 @@
+{
+  "status": "PRE_EXECUTION_POST_RESULT_LOCKS",
+  "date": "2026-09-27",
+  "producer_seal": "86b0d3729479900943c66c6169c8934bdedb3354",
+  "files": {
+    "reports/monomial_matter_locus_2026_09_27/test_classification_locks.py": "0b8ed24b47c78f6eb8f4cd2e27e1375ff72c7e73b2cba608c7ced42db5dd3cbe"
+  },
+  "note": "Post-result regression of discovered complete candidate set and paired states; not a preregistered prediction."
+}
