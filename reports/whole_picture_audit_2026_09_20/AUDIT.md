@@ -80,6 +80,19 @@ vanish there. Six new and all 76 combined focused tests pass. The next
 algebraic discriminator is the exact exceptional-parameter locus, not
 promotion of capacity three to physical generations.
 
+The [exact exceptional-locus follow-through](../monomial_exceptional_locus_2026_09_27/FINDINGS.md)
+now replaces that parameter scan: the transverse meridian-relative tangent
+jumps only at t^5=1, from zero to two dimensions, with all fifth roots
+checked exactly. Both matter indices are zero there. Direct relative-cone
+dimensions then support an authored stronger local result: every nearby
+fixed-meridian background with no global invariant vectors has |I(E)|<=1,
+even outside the monomial family and with longitude free. The tangents
+remain real; they are not nearby three-generation candidates on those
+hypotheses. Two initial instrument failures and their sealed repairs are
+retained; the combined 85 focused tests pass. Distant components, changed
+peripheral data, unbalanced nonsplit systems and physical mechanisms remain
+outside this local conclusion.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several

@@ -1,0 +1,61 @@
+{
+  "seal": {
+    "chunk_id": "448857",
+    "wall_time_seconds": 0.080069039,
+    "exit_code": 0,
+    "original_token_count": 137,
+    "output": "[audit/fork-2026-09-20 3acc022c] Seal direct relative-cone check for exceptional local capacity bound\n 4 files changed, 185 insertions(+)\n create mode 100644 reports/monomial_exceptional_locus_2026_09_27/LOCAL_CAPACITY_PROOF.md\n create mode 100644 reports/monomial_exceptional_locus_2026_09_27/LOCAL_CAPACITY_SEAL.json\n create mode 100644 reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py\n create mode 100644 reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py\n3acc022c281dc8e58ad04606fba555bd268a65b9\n"
+  },
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py",
+    "events": [
+      {
+        "chunk_id": "4a5266",
+        "wall_time_seconds": 1.001874732,
+        "session_id": 55991,
+        "original_token_count": 341,
+        "output": "POINT {\"seed\": 0, \"polynomial\": [\"1\", \"-1\"], \"E\": {\"relative_H1\": 3, \"ordinary\": [1, 4, 3, 6, 3], \"interior\": 1, \"cone1_shape_over_Q\": [40, 40], \"cone1_rank_over_Q\": 32}, \"dual\": {\"relative_H1\": 3, \"ordinary\": [1, 4, 3, 6, 3], \"interior\": 1, \"cone1_shape_over_Q\": [40, 40], \"cone1_rank_over_Q\": 32}}\nPOINT {\"seed\": 0, \"polynomial\": [\"1\", \"1\", \"1\", \"1\", \"1\"], \"E\": {\"relative_H1\": 3, \"ordinary\": [0, 3, 3, 6, 3], \"interior\": 0, \"cone1_shape_over_Q\": [160, 160], \"cone1_rank_over_Q\": 128}, \"dual\": {\"relative_H1\": 3, \"ordinary\": [0, 3, 3, 6, 3], \"interior\": 0, \"cone1_shape_over_Q\": [160, 160], \"cone1_rank_over_Q\": 128}}\nPOINT {\"seed\": 1, \"polynomial\": [\"1\", \"-1\"], \"E\": {\"relative_H1\": 3, \"ordinary\": [1, 4, 3, 6, 3], \"interior\": 1, \"cone1_shape_over_Q\": [40, 40], \"cone1_rank_over_Q\": 32}, \"dual\": {\"relative_H1\": 3, \"ordinary\": [1, 4, 3, 6, 3], \"interior\": 1, \"cone1_shape_over_Q\": [40, 40], \"cone1_rank_over_Q\": 32}}\nPOINT {\"seed\": 1, \"polynomial\": [\"1\", \"1\", \"1\", \"1\", \"1\"], \"E\": {\"relative_H1\": 3, \"ordinary\": [0, 3, 3, 6, 3], \"interior\": 0, \"cone1_shape_over_Q\": [160, 160], \"cone1_rank_over_Q\": 128}, \"dual\": {\"relative_H1\": 3, \"ordinary\": [0, 3, 3, 6, 3], \"interior\": 0, \"cone1_shape_over_Q\": [160, 160], \"cone1_rank_over_Q\": 128}}\nBOUND {\"0\": 0, \"1\": 1, \"2\": 1, \"3\": 0}\nPASS: direct relative cone inputs; scoped nearby fixed-meridian bound at most one\n"
+      },
+      {
+        "chunk_id": "3f2b7b",
+        "wall_time_seconds": 0.000011877,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    ]
+  },
+  "combined": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py reports/five_point_monomial_gate_2026_09_27/test_monomial.py reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py",
+    "events": [
+      {
+        "chunk_id": "42e905",
+        "wall_time_seconds": 1.000986992,
+        "session_id": 83121,
+        "original_token_count": 1,
+        "output": ".."
+      },
+      {
+        "chunk_id": "1e2a01",
+        "wall_time_seconds": 0.000012349,
+        "exit_code": 0,
+        "original_token_count": 166,
+        "output": "...................................................................... [ 84%]\n.............                                                            [100%]\n=============================== warnings summary ===============================\nreports/global_sl5_seed_2026_09_27/test_global_seed.py::test_diagram_and_rewrite_proof\n  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available\n    warnings.warn('Plink failed to import tkinter, GUI will not be available')\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n85 passed, 1 warning in 10.78s\n"
+      }
+    ]
+  },
+  "hashes_before": {
+    "chunk_id": "cd4294",
+    "wall_time_seconds": 0.000014807,
+    "exit_code": 0,
+    "original_token_count": 447,
+    "output": "0296d9cfbde897fce50e875c861de1c9ac7cc669d37577e9c0f1a291253ed75c  reports/monomial_exceptional_locus_2026_09_27/DESIGN.md\n7f71045b28038f2d62c6a0c324098539372fd99618783f0881c825e51b8db41b  reports/monomial_exceptional_locus_2026_09_27/PROOF.md\na9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0  reports/monomial_exceptional_locus_2026_09_27/INPUTS.json\n939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9  reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py\n78909eeb3d3dce97ff6643a3d4c4d94c5cbce5ca862cba69376a14add0d87ed1  reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py\n30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2  reports/five_point_monomial_gate_2026_09_27/verify_monomial.py\nff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5  reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\nbeb71637f53a25f1ecff74b6787288b4170ac2c0eca9c600ff702f196e0c8ab5  reports/monomial_exceptional_locus_2026_09_27/CORRECTION.md\n13ad0033dd835e28c7f6d594233d3f48ae915c90d52e7b1f01473597b8d75b78  reports/monomial_exceptional_locus_2026_09_27/LOCAL_CAPACITY_PROOF.md\n0274eae465909a39d2a5b2dca07137e8901cc39406c3962d9684e0aa5e8e1df4  reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py\nbae11f1480863d047284b4842ed5c3471fb0fd8feeb102731e44c790a1776987  reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py\n"
+  },
+  "hashes_after": {
+    "chunk_id": "a4619a",
+    "wall_time_seconds": 0.000012599,
+    "exit_code": 0,
+    "original_token_count": 447,
+    "output": "0296d9cfbde897fce50e875c861de1c9ac7cc669d37577e9c0f1a291253ed75c  reports/monomial_exceptional_locus_2026_09_27/DESIGN.md\n7f71045b28038f2d62c6a0c324098539372fd99618783f0881c825e51b8db41b  reports/monomial_exceptional_locus_2026_09_27/PROOF.md\na9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0  reports/monomial_exceptional_locus_2026_09_27/INPUTS.json\n939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9  reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py\n78909eeb3d3dce97ff6643a3d4c4d94c5cbce5ca862cba69376a14add0d87ed1  reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py\n30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2  reports/five_point_monomial_gate_2026_09_27/verify_monomial.py\nff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5  reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\nbeb71637f53a25f1ecff74b6787288b4170ac2c0eca9c600ff702f196e0c8ab5  reports/monomial_exceptional_locus_2026_09_27/CORRECTION.md\n13ad0033dd835e28c7f6d594233d3f48ae915c90d52e7b1f01473597b8d75b78  reports/monomial_exceptional_locus_2026_09_27/LOCAL_CAPACITY_PROOF.md\n0274eae465909a39d2a5b2dca07137e8901cc39406c3962d9684e0aa5e8e1df4  reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py\nbae11f1480863d047284b4842ed5c3471fb0fd8feeb102731e44c790a1776987  reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py\n"
+  }
+}

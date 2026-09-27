@@ -30,6 +30,14 @@ The relative off-monomial H1 also vanishes at those points. The
 is a bounded next test, not a completed component classification or a
 physical-generation derivation.
 
+The [exceptional-locus calculation](../monomial_exceptional_locus_2026_09_27/FINDINGS.md)
+is complete for the transverse tangent: only fifth roots have a positive
+meridian-relative off-monomial H1, of dimension two. Both actual indices
+remain zero there. A directly checked relative-cone bound further excludes
+nearby index three for ANY fixed-meridian, zero-global-invariant E5
+background, even with longitude free. These particular tangents should not
+automatically trigger nonlinear continuation toward that target.
+
 ## Done in this fork
 
 - [x] Distinguish geometric deck descent from an internal holonomy cube.

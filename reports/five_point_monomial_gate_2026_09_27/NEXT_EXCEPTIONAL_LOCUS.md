@@ -1,6 +1,13 @@
 # Next decision: compute a jump locus, not another arbitrary parameter grid
 
-Planning document, not an executed or sealed experiment.
+Original planning document. **2026-09-27 follow-through:** the
+[separately sealed exceptional-locus gate](../monomial_exceptional_locus_2026_09_27/FINDINGS.md)
+has now executed items 1-4 for the off-monomial tangent. Only t^5=1
+survives; every root was checked. Its relative tangent is two-dimensional,
+but both indices remain zero. Direct relative-cone bounds exclude nearby
+index three under the specified fixed-meridian, zero-global-invariant
+hypotheses. No nonlinear integrability or all-parameter matter-cohomology
+classification was inferred.
 
 The present families satisfy all global relators and the full peripheral
 pair for every nonzero t. Their two exact t=2 points are absolutely

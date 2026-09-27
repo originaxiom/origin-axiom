@@ -1,0 +1,6 @@
+POINT {"seed": 0, "polynomial": ["1", "-1"], "E": {"relative_H1": 3, "ordinary": [1, 4, 3, 6, 3], "interior": 1, "cone1_shape_over_Q": [40, 40], "cone1_rank_over_Q": 32}, "dual": {"relative_H1": 3, "ordinary": [1, 4, 3, 6, 3], "interior": 1, "cone1_shape_over_Q": [40, 40], "cone1_rank_over_Q": 32}}
+POINT {"seed": 0, "polynomial": ["1", "1", "1", "1", "1"], "E": {"relative_H1": 3, "ordinary": [0, 3, 3, 6, 3], "interior": 0, "cone1_shape_over_Q": [160, 160], "cone1_rank_over_Q": 128}, "dual": {"relative_H1": 3, "ordinary": [0, 3, 3, 6, 3], "interior": 0, "cone1_shape_over_Q": [160, 160], "cone1_rank_over_Q": 128}}
+POINT {"seed": 1, "polynomial": ["1", "-1"], "E": {"relative_H1": 3, "ordinary": [1, 4, 3, 6, 3], "interior": 1, "cone1_shape_over_Q": [40, 40], "cone1_rank_over_Q": 32}, "dual": {"relative_H1": 3, "ordinary": [1, 4, 3, 6, 3], "interior": 1, "cone1_shape_over_Q": [40, 40], "cone1_rank_over_Q": 32}}
+POINT {"seed": 1, "polynomial": ["1", "1", "1", "1", "1"], "E": {"relative_H1": 3, "ordinary": [0, 3, 3, 6, 3], "interior": 0, "cone1_shape_over_Q": [160, 160], "cone1_rank_over_Q": 128}, "dual": {"relative_H1": 3, "ordinary": [0, 3, 3, 6, 3], "interior": 0, "cone1_shape_over_Q": [160, 160], "cone1_rank_over_Q": 128}}
+BOUND {"0": 0, "1": 1, "2": 1, "3": 0}
+PASS: direct relative cone inputs; scoped nearby fixed-meridian bound at most one
