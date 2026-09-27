@@ -1051,3 +1051,14 @@ Commit/push/server confirmation precedes all science import/execution.
 | `reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY_INPUTS.json` | `ed7a6d04cc2923b0b00118a32373007a7ed3ac0e577bc7278e1baf40d80202da` |
 | `reports/physical_bridge_2026_09_05/neutral_continuity.py` | `649a98ef1032a2986276f949a32af8047e5caa3ed115eca757f91e8750c1ac81` |
 | `tests/test_physical_bridge_neutral_continuity.py` | `ae57dd9ec736204059654b045c47091659a5ca1fabb2435002fabf9f06299010` |
+
+## R52 noncommuting square-root fixture diagnostic, September 27, 2026
+
+Post-result diagnostic design, sealed before its own execution. Original
+science/failed outputs retained; not an analytic proof certification.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_SQUARE_ROOT_DIAGNOSTIC_DESIGN.md` | `b96ac89247e3113d8591ec20f6eb7e0521726b3e667851e87494d45296fbb13d` |
+| `reports/physical_bridge_2026_09_05/neutral_square_root_diagnostic.py` | `15eeb7d1d1cef6915082e715ac9e9d979f9f7aca110e1694d1091e924b12e064` |
+| `tests/test_physical_bridge_neutral_square_root_diagnostic.py` | `0411ecfbd33524d3ef41abf83d99b54a2ac8560375c7863f1eb011460ef22fdf` |
