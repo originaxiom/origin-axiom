@@ -16,6 +16,17 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 27 R53 earns the actual stationary curve's X derivative at
+the separately fixed canonical center and identifies it with R47's
+nonzero harmonic alpha after compact gauge compensation. The supplied
+quadratic kinetic coefficient is finite-positive, not numerically
+evaluated or physically selected. Next spend this common-model result
+on full neutral modes and normalized profiles/interactions, while keeping
+higher/neighborhood regularity and physical selection/spectrum/quantum/
+gravity duties explicit. The fork's commuting hyperbolic rank-five model
+has its own end/threshold story and must not inherit our canonical gap.
+See reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY.md.
+
 September 27 R52 supplies the exact solutions' continuous strong-domain
 join: transported fields lie in the SAME X and are distinct classical
 zero-potential minima, at conditional authored analytic grade. Next

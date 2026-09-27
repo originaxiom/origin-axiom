@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-09-27 - R53 actual harmonic velocity and quadratic kinetic norm
+
+At each separately fixed canonical center, the R52 exact stationary
+curve is X-differentiable after actual compact gauge compensation and
+has derivative R47's harmonic alpha. A core-normalized Jacobi argument
+and rate-preserving lifted-ball estimates pay the strong derivative
+join. K0=(60/g7^2)||alpha||_tr4^2 is finite-positive in the supplied
+action, not numerically computed, a derived coupling or a whole-interval
+moduli-space metric. Conditional authored analytic grade remains.
+Native 34/34 and dedicated 11 pass; twelve-file regression 136 pass/
+the same 4 retained failures. Seal 77799c82 was pushed/server-confirmed
+before execution; six science and 86 predecessor paths remain unchanged.
+Other-seat rank-five hyperbolic proof read for coordination, not rerun
+or conflated with the canonical model. Full physical spectrum/selection,
+chirality, quantum/anomaly and gravity remain. Report:
+reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY.md.
+
 ## 2026-09-27 - R52 continuous exact stationary curve in the same domain
 
 The fixed-canonical-base exact harmonic solutions enter X=Dom(Q0)

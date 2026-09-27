@@ -767,3 +767,17 @@ sealed supplements remain visible; finite controls do not certify PDEs.
 | Full-parent longitude character distinguishes the nearby minima | For the actual admitted family, T248=54+48(q+q^-1)+30(q^2+q^-2)+16(q^3+q^-3)+3(q^4+q^-4), strictly monotone separately on (0,1) and (1,infinity). Distinct nearby full-parent gauge orbits, not global reciprocal distinction or vacuum selection. | B1138 actual parent branching; R52 proof section 5; tests/test_physical_bridge_neutral_continuity.py::test_literal_parent_detector_and_root_enumeration; test_parent_detector_is_local_not_global_reciprocal_distinction |
 
 R52 report: reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY.md.
+
+## September 27, 2026 - R53 actual-velocity sublemmas
+
+These remain conditional authored analytic applications in the fixed
+canonical model. Finite controls do not independently certify global PDEs.
+
+| law (scoped statement) | content and limitation | provenance / control |
+|---|---|---|
+| The harmonic metric's compact-core response is O(abs(s)) at its canonical center | Normalize a hypothetical larger response on a compact core INCLUDING the collar. The R52 linear distance barrier yields a bounded nonzero homogeneous Jacobi limit; the trace-free zero-form kernel exclusion forbids it. No whole-interval Lipschitz assertion at other centers. | B1138 supplied-parent context only; reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_PROOF.md sections 1--2; tests/test_physical_bridge_neutral_velocity.py::test_zero_kernel_assumption_cannot_be_dropped; test_local_jacobi_and_moment_cancellations supports finite identities, not independent proof review |
+| Rate-preserving local estimates give the derivative in the same nonlinear space | Matrix difference equations have lower-order bounds B at most finite-exponential in small-slope height; lifted radius proportional to (1+B)^-4 makes the rescaled coefficients uniformly bounded. The resulting derivative envelope is L4 with first derivatives L2. No bounded gauge or numerical PDE profile. | B1138 conditional context only; R53 proof sections 3--4; tests/test_physical_bridge_neutral_velocity.py::test_rate_preserving_rescaling_and_integrability; test_small_ball_coefficients_have_uniform_bounds |
+| Actual compact gauge identifies the exact curve's center derivative with the earned harmonic mode | The metric velocity is c-d G0 M(c); actual unitary exp(s G0 G(c)) removes the compact component, giving Pi1 c in X at zero. Full-parent character variation excludes a gauge artifact. No nonlinear Coulomb slice, C2 or entire fixed-base C1 theorem. | B1138 actual parent context; R53 proof section 5; tests/test_physical_bridge_neutral_velocity.py::test_metric_and_compact_projection_are_distinct_steps; test_actual_parent_detector_and_kinetic_normalization |
+| The actual center velocity has finite-positive supplied-action quadratic kinetic coefficient | In raw adjoint-E8 trace K0=(60/g7^2)norm(alpha)^2_tr4; real infinitesimal canonical normalization is sqrt(2K0)s, with q-coordinate coefficient K0/q0^2. The profile integral is not numerically evaluated; g7, parent, metric and spacetime remain inputs. | B1138 branching and supplied action context; R53 proof section 6; tests/test_physical_bridge_neutral_velocity.py::test_actual_parent_detector_and_kinetic_normalization; R47 compact detector supplies positivity, not a measured coupling |
+
+R53 report: reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY.md.

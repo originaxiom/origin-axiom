@@ -1,4 +1,24 @@
-# Verdict toward the full physical-theory goal - R52, updated 2026-09-27
+# Verdict toward the full physical-theory goal - R53, updated 2026-09-27
+
+**Current path-local result, R53 (September 27): the exact curve has a harmonic velocity.**
+For EACH separately fixed canonical q0>0,q0!=1 base, the R52 exact
+stationary curve is differentiable AT s=log(q/q0)=0 in the SAME X after
+actual compact gauge compensation. Its derivative is R47's nonzero
+harmonic projection alpha. The supplied action has finite-positive
+quadratic coefficient K0=(60/g7^2)||alpha||_tr4^2 at that background.
+Grade: conditional authored analytic proof with inherited global inputs;
+no independent acceptance or numerical value of this profile integral.
+This is not whole-interval C1/C2, coupled metric/gravity variation,
+selected q, physical chirality or a complete effective-field truncation.
+Native 34/34 and dedicated 11 pass; twelve-file regression 136 pass
+with the same four retained failures. Seal 77799c82 was pushed and
+server-confirmed before execution; six science and 86 input paths stay
+unchanged. Report: reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY.md.
+Next: full neutral spectrum and actual normalized profiles/interactions,
+neighborhood/higher regularity where needed, physical selection/chiral
+spectrum, quantum/anomaly and gravity. Fork fe0c2d71's distinct commuting
+rank-five/hyperbolic proof is read, not independently rerun or combined
+with this canonical model. Older dated entries are historical checkpoints.
 
 **Current path-local result, R52 (September 27): exact fields in the nonlinear domain.**
 On each FIXED canonical q0>0,q0!=1 base, the nearby exact harmonic
@@ -103,11 +123,17 @@ completion of the corresponding physical-theory requirements.
   a continuous curve in the SAME X=Dom(Q0) intersect L4; a full-parent
   character distinguishes nearby zero-potential gauge orbits. The
   unbounded-gauge issue is controlled, not suppressed by assumption.
-- [ ] **Immediate canonical task:** establish parameter differentiability
-  in a compact-gauge slice and identify the derivative with R47's
-  harmonic tangent/R50's two-jet. Obtain the normalized kinetic tensor;
-  continuity and finite static differences do not prove finite velocities.
-  Full kernel count and normalized interactions remain explicit.
+- [x] R53, conditional authored grade: at the canonical CENTER the
+  actual curve's X derivative, after actual compact gauge compensation,
+  is R47's harmonic alpha. Its quadratic kinetic coefficient is finite
+  and positive in the supplied action. The global integral is NOT
+  numerically evaluated and g7/metric/parent remain supplied inputs.
+- [ ] **Canonical follow-through:** full neutral census and actual
+  normalized mode profiles/interactions; establish higher/neighborhood
+  regularity wherever a finite-amplitude effective action needs it.
+  Whole-interval C1/C2 and agreement with R50's SECOND derivative are
+  not consequences of differentiability at the center. Do not replace
+  the actual missing profile integrals by comparison-tail integrals.
 - [ ] **Incoming nonsplit interface:** verify B1378/B1384's actual deck
   lift, induction/cusp maps and parent embedding. Resolve the physical
   cover/quotient role before assigning three generations; then test a

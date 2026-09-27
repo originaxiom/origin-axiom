@@ -1,5 +1,25 @@
 # One-model audit: which positive results actually compose?
 
+**Current path-local result, R53 (September 27): the exact curve has a harmonic velocity.**
+For EACH separately fixed canonical q0>0,q0!=1 base, the R52 exact
+stationary curve is differentiable AT s=log(q/q0)=0 in the SAME X after
+actual compact gauge compensation. Its derivative is R47's nonzero
+harmonic projection alpha. The supplied action has finite-positive
+quadratic coefficient K0=(60/g7^2)||alpha||_tr4^2 at that background.
+Grade: conditional authored analytic proof with inherited global inputs;
+no independent acceptance or numerical value of this profile integral.
+This is not whole-interval C1/C2, coupled metric/gravity variation,
+selected q, physical chirality or a complete effective-field truncation.
+Native 34/34 and dedicated 11 pass; twelve-file regression 136 pass
+with the same four retained failures. Seal 77799c82 was pushed and
+server-confirmed before execution; six science and 86 input paths stay
+unchanged. Report: reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY.md.
+Next: full neutral spectrum and actual normalized profiles/interactions,
+neighborhood/higher regularity where needed, physical selection/chiral
+spectrum, quantum/anomaly and gravity. Fork fe0c2d71's distinct commuting
+rank-five/hyperbolic proof is read, not independently rerun or combined
+with this canonical model. Older dated entries are historical checkpoints.
+
 **Current path-local result, R52 (September 27): exact fields in the nonlinear domain.**
 On each FIXED canonical q0>0,q0!=1 base, the nearby exact harmonic
 solutions form a continuous curve in X=Dom(Q0) intersect L4 after

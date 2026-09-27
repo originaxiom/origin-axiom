@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "jacobi": {
+      "actual_noncommuting_matrices": true,
+      "first_derivative_cross_terms_cancel": true,
+      "hermitian_J_preserved": true,
+      "compact_J_preserved": true,
+      "compact_gauge_of_hermitian_gradient_zero": true,
+      "nonharmonic_moment_remainder": true,
+      "dropping_background_moment_rejected": true,
+      "wrong_adjoint_sign_rejected": true,
+      "positive_commutator_energy": true
+    },
+    "projection": {
+      "chain_and_closed_tangent": true,
+      "positive_zero_form_operator": true,
+      "metric_relaxation_only": true,
+      "combined_projection_harmonic": true,
+      "nonzero_harmonic_velocity": true,
+      "combined_green_formula": true,
+      "kinetic_minimizing_projection": true,
+      "exact_tangent_zero_norm_control": true,
+      "nonclosed_tangent_not_harmonic": true,
+      "singular_J_has_unforced_direction": true
+    },
+    "scaling": {
+      "scaled_lower_order_coefficients_bounded": true,
+      "finite_power_rescaling_cost": true,
+      "unrescaled_growth_not_uniform": true,
+      "derivative_envelope_improper_integral": true,
+      "strict_margin_required": true,
+      "normalized_superlinear_anchor_slope_vanishes": true
+    },
+    "kinetic": {
+      "literal_q_velocity_detected": true,
+      "full_parent_conjugation_velocity_annihilated": true,
+      "actual_gauge_control_not_zero_matrix": true,
+      "character_velocity_nonzero_off_one": true,
+      "raw_parent_trace_factor": true,
+      "complex_scalar_positive_kinetic_split": true,
+      "real_scalar_canonical_factor": true,
+      "missing_real_factor_two_rejected": true,
+      "log_parameter_chain_rule": true
+    }
+  },
+  "passed": 34,
+  "total": 34,
+  "all_checks_pass": true,
+  "global_PDE_numerically_solved": false,
+  "global_analytic_proof_machine_verified": false,
+  "numerical_kinetic_coefficient_computed": false,
+  "entire_fixed_base_curve_C1_proved": false,
+  "physical_chirality_derived": false
+}

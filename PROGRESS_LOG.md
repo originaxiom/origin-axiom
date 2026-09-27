@@ -15659,3 +15659,42 @@ differences do not prove finite time derivatives. Physical selection,
 spectrum/chirality, anomaly/quantum and gravity duties remain, as do
 independent analytic/full-banking review and historical governance debts.
 Report: reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY.md.
+
+## 2026-09-27 — R53 actual harmonic velocity at the canonical center
+
+The R52 exact stationary curve is differentiable in X at s=log(q/q0)=0
+for each separately fixed canonical base. An actual compact isometry
+puts its derivative at that point equal to R47's nonzero harmonic
+projection alpha. This is conditional authored analysis under inherited
+global geometry/PDE inputs, not an independently accepted theorem.
+
+The compact-core anchor is O(abs(s)): otherwise normalization and local
+elliptic compactness produce a forbidden bounded Jacobi zero-form.
+Rate-preserving shrinking lifted-ball estimates supply the global
+difference-quotient envelope. Hermitian metric relaxation and compact
+gauge compensation are separately accounted for. The full-parent
+longitude detector rules out a gauge-artifact interpretation.
+
+The supplied quadratic kinetic coefficient is
+K0=(60/g7^2)||alpha||_L2,tr4^2, positive and finite, with real normalized
+infinitesimal field sqrt(2K0)s. No numerical global profile integral or
+coupling is predicted. The base metric is held fixed; no gravitational
+kinetic term, whole-interval C1/C2 theorem, second derivative, finite-
+dimensional nonlinear truncation or selected vacuum follows.
+
+Science seal 77799c82 was committed, pushed and server-confirmed before
+execution. Native 34/34, dedicated 11 pass, twelve-file regression
+136 pass/the same four retained failures. No scientific correction or
+new failed test occurred. Six science and 86 predecessor paths are frozen.
+
+Read the other fork's fe0c2d71 committed rank-five harmonic proof and
+full-parent addendum personally, not its untracked reports and not an
+independent rerun. Its commuting family/hyperbolic base and reported
+neutral essential threshold are kept separate from this canonical
+nonabelian model. Do not splice their positives or negatives by analogy.
+
+Next: full neutral modes, actual normalized profiles and interaction
+tensors, neighborhood regularity where needed, physical selection/chiral
+spectrum, anomaly/quantum and gravitational completion, empirical tests.
+Independent analytic/full-banking review and old governance debts remain.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY.md.
