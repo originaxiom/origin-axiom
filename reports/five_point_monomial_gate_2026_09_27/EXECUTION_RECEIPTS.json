@@ -1,0 +1,88 @@
+{
+  "seal": {
+    "chunk_id": "6b007b",
+    "wall_time_seconds": 0.07940638,
+    "exit_code": 0,
+    "original_token_count": 162,
+    "output": "[audit/fork-2026-09-20 147c07c9] Seal five-point monomial deformation gate with fixed full peripheral pair\n 6 files changed, 532 insertions(+)\n create mode 100644 reports/five_point_monomial_gate_2026_09_27/DESIGN.md\n create mode 100644 reports/five_point_monomial_gate_2026_09_27/INPUTS.json\n create mode 100644 reports/five_point_monomial_gate_2026_09_27/PROOF.md\n create mode 100644 reports/five_point_monomial_gate_2026_09_27/SEAL.json\n create mode 100644 reports/five_point_monomial_gate_2026_09_27/test_monomial.py\n create mode 100644 reports/five_point_monomial_gate_2026_09_27/verify_monomial.py\n147c07c90390fba0214a4af31d144a9625673026\n"
+  },
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/five_point_monomial_gate_2026_09_27/verify_monomial.py",
+    "events": [
+      {
+        "chunk_id": "143276",
+        "wall_time_seconds": 1.001870279,
+        "session_id": 84696,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "2cef23",
+        "wall_time_seconds": 0.000010021,
+        "exit_code": 0,
+        "original_token_count": 659,
+        "output": "SEED 0 {\"seed\": 0, \"action\": {\"source_order\": 60, \"involutions\": 15, \"V4_count\": 5, \"faithful_even_image_order\": 60, \"generators\": [[1, 2, 0, 3, 4], [2, 4, 3, 1, 0], [4, 1, 3, 2, 0]], \"longitude\": [1, 2, 0, 3, 4]}, \"exponents\": {\"equation_rank\": 7, \"solution_dimension\": 3, \"gauge_rank\": 2, \"quotient_dimension\": 1, \"primitive_directions\": [[0, 0, 2, -1, -1, 1, -2, 1, 0, 0]], \"peripheral_sheet_orbits\": [[0, 1, 2], [3], [4]]}, \"finite_control\": {\"algebra_dimension\": 17, \"bilinear_form_dimension\": 2}, \"candidates\": [{\"direction\": 0, \"exponents\": [0, 0, 2, -1, -1, 1, -2, 1, 0, 0], \"diagnostics\": {\"parameter\": 2, \"algebra_dimension\": 25, \"bilinear_form_dimension\": 0, \"coefficients\": {\"E\": {\"M2\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"M6\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"M6_interior\": 0, \"M6_dual_interior\": 0}, \"wedge2E\": {\"M2\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"M6\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"M6_interior\": 0, \"M6_dual_interior\": 0}}, \"off_monomial\": {\"I\": 0, \"V\": [0, 8, 8, 16, 8], \"dual\": [0, 8, 8, 16, 8]}, \"off_monomial_restrictions\": {\"H1\": 8, \"torus_rank\": 8, \"torus_kernel\": 0, \"meridian_rank\": 8, \"meridian_kernel\": 0, \"longitude_rank\": 8, \"longitude_kernel\": 0}}}]}\nSEED 1 {\"seed\": 1, \"action\": {\"source_order\": 60, \"involutions\": 15, \"V4_count\": 5, \"faithful_even_image_order\": 60, \"generators\": [[1, 2, 0, 3, 4], [2, 1, 3, 0, 4], [4, 1, 0, 3, 2]], \"longitude\": [2, 0, 1, 3, 4]}, \"exponents\": {\"equation_rank\": 7, \"solution_dimension\": 3, \"gauge_rank\": 2, \"quotient_dimension\": 1, \"primitive_directions\": [[3, -1, -1, 0, -1, 1, 1, -3, 1, 0]], \"peripheral_sheet_orbits\": [[0, 1, 2], [3], [4]]}, \"finite_control\": {\"algebra_dimension\": 17, \"bilinear_form_dimension\": 2}, \"candidates\": [{\"direction\": 0, \"exponents\": [3, -1, -1, 0, -1, 1, 1, -3, 1, 0], \"diagnostics\": {\"parameter\": 2, \"algebra_dimension\": 25, \"bilinear_form_dimension\": 0, \"coefficients\": {\"E\": {\"M2\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"M6\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"M6_interior\": 0, \"M6_dual_interior\": 0}, \"wedge2E\": {\"M2\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"M6\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"M6_interior\": 0, \"M6_dual_interior\": 0}}, \"off_monomial\": {\"I\": 0, \"V\": [0, 8, 8, 16, 8], \"dual\": [0, 8, 8, 16, 8]}, \"off_monomial_restrictions\": {\"H1\": 8, \"torus_rank\": 8, \"torus_kernel\": 0, \"meridian_rank\": 8, \"meridian_kernel\": 0, \"longitude_rank\": 8, \"longitude_kernel\": 0}}}]}\nPASS: exact monomial ansatz gate; no physical or integrability claim\n"
+      }
+    ]
+  },
+  "tests": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/five_point_monomial_gate_2026_09_27/test_monomial.py",
+    "events": [
+      {
+        "chunk_id": "4c9404",
+        "wall_time_seconds": 1.003475503,
+        "session_id": 44840,
+        "original_token_count": 2,
+        "output": "....."
+      },
+      {
+        "chunk_id": "f6306c",
+        "wall_time_seconds": 0.000010294,
+        "exit_code": 0,
+        "original_token_count": 24,
+        "output": ".                                                                   [100%]\n6 passed in 2.96s\n"
+      }
+    ]
+  },
+  "combined": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/five_point_monomial_gate_2026_09_27/test_monomial.py reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py",
+    "events": [
+      {
+        "chunk_id": "53d8a0",
+        "wall_time_seconds": 1.000512467,
+        "session_id": 64976,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "4926b6",
+        "wall_time_seconds": 0.000023284,
+        "exit_code": 0,
+        "original_token_count": 166,
+        "output": "........................................................................ [ 94%]\n....                                                                     [100%]\n=============================== warnings summary ===============================\nreports/global_sl5_seed_2026_09_27/test_global_seed.py::test_diagram_and_rewrite_proof\n  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available\n    warnings.warn('Plink failed to import tkinter, GUI will not be available')\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n76 passed, 1 warning in 10.02s\n"
+      }
+    ]
+  },
+  "hashes_before": {
+    "chunk_id": "2d7eed",
+    "wall_time_seconds": 0.000012754,
+    "exit_code": 0,
+    "original_token_count": 276,
+    "output": "75069de192757d483a3afb0c26305856fbb66531a694202677888ca88c68a72e  reports/five_point_monomial_gate_2026_09_27/DESIGN.md\n9b201817bde77b256dc81d0ea517d5713d5b57b82a34057dca876175f99b6478  reports/five_point_monomial_gate_2026_09_27/PROOF.md\nefff15748c4c088ef54cf731aec260144b0b2a6ea06ec3f69f5f82e9dcc9d8b9  reports/five_point_monomial_gate_2026_09_27/INPUTS.json\n30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2  reports/five_point_monomial_gate_2026_09_27/verify_monomial.py\n555a42174e36e774fbbe74ef91924cdde6cac7c54ff01f6bc641a2c2f482a058  reports/five_point_monomial_gate_2026_09_27/test_monomial.py\nff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5  reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\n"
+  },
+  "hashes_after": {
+    "chunk_id": "740d65",
+    "wall_time_seconds": 0.000025472,
+    "exit_code": 0,
+    "original_token_count": 276,
+    "output": "75069de192757d483a3afb0c26305856fbb66531a694202677888ca88c68a72e  reports/five_point_monomial_gate_2026_09_27/DESIGN.md\n9b201817bde77b256dc81d0ea517d5713d5b57b82a34057dca876175f99b6478  reports/five_point_monomial_gate_2026_09_27/PROOF.md\nefff15748c4c088ef54cf731aec260144b0b2a6ea06ec3f69f5f82e9dcc9d8b9  reports/five_point_monomial_gate_2026_09_27/INPUTS.json\n30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2  reports/five_point_monomial_gate_2026_09_27/verify_monomial.py\n555a42174e36e774fbbe74ef91924cdde6cac7c54ff01f6bc641a2c2f482a058  reports/five_point_monomial_gate_2026_09_27/test_monomial.py\nff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5  reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\n"
+  },
+  "preseal_environment_failure": {
+    "chunk_id": "a9b170",
+    "wall_time_seconds": 0.00001234,
+    "exit_code": 9,
+    "original_token_count": 85,
+    "output": "perl: warning: Setting locale failed.\nperl: warning: Please check that your locale settings:\n\tLC_ALL = \"C.UTF-8\",\n\tLC_CTYPE = \"C.UTF-8\",\n\tLANG = \"C.UTF-8\"\n    are supported and installed on your system.\nperl: warning: Falling back to the standard locale (\"C\").\npanic: locale.c: 4486: Could not change LC_CTYPE locale to C.UTF-8, errno=9\n"
+  },
+  "environment_failure_scope": "First hash command failed on unsupported C.UTF-8 locale. Rerun with LC_ALL=C LANG=C succeeded before seal. No scientific run failed."
+}

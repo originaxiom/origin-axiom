@@ -21,6 +21,15 @@ but their actual longitude limits nearby E indices to absolute value one.
 Do not turn that tangent into a chirality claim or repeat this neighborhood
 search. Different representations/components remain untested.
 
+The [five-point monomial follow-through](../five_point_monomial_gate_2026_09_27/FINDINGS.md)
+now supplies two all-parameter global SL5 families with the entire cusp pair
+fixed. At t=2 both are irreducible and non-self-dual and have E boundary
+capacity three; E and its exterior square both have zero interior cohomology.
+The relative off-monomial H1 also vanishes at those points. The
+[exceptional-locus plan](../five_point_monomial_gate_2026_09_27/NEXT_EXCEPTIONAL_LOCUS.md)
+is a bounded next test, not a completed component classification or a
+physical-generation derivation.
+
 ## Done in this fork
 
 - [x] Distinguish geometric deck descent from an internal holonomy cube.

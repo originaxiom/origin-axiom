@@ -1,0 +1,409 @@
+{
+  "seal_commit": "147c07c90390fba0214a4af31d144a9625673026",
+  "results": [
+    {
+      "seed": 0,
+      "action": {
+        "source_order": 60,
+        "involutions": 15,
+        "V4_count": 5,
+        "faithful_even_image_order": 60,
+        "generators": [
+          [
+            1,
+            2,
+            0,
+            3,
+            4
+          ],
+          [
+            2,
+            4,
+            3,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            3,
+            2,
+            0
+          ]
+        ],
+        "longitude": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ]
+      },
+      "exponents": {
+        "equation_rank": 7,
+        "solution_dimension": 3,
+        "gauge_rank": 2,
+        "quotient_dimension": 1,
+        "primitive_directions": [
+          [
+            0,
+            0,
+            2,
+            -1,
+            -1,
+            1,
+            -2,
+            1,
+            0,
+            0
+          ]
+        ],
+        "peripheral_sheet_orbits": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      },
+      "finite_control": {
+        "algebra_dimension": 17,
+        "bilinear_form_dimension": 2
+      },
+      "candidates": [
+        {
+          "direction": 0,
+          "exponents": [
+            0,
+            0,
+            2,
+            -1,
+            -1,
+            1,
+            -2,
+            1,
+            0,
+            0
+          ],
+          "diagnostics": {
+            "parameter": 2,
+            "algebra_dimension": 25,
+            "bilinear_form_dimension": 0,
+            "coefficients": {
+              "E": {
+                "M2": {
+                  "I": 0,
+                  "V": [
+                    0,
+                    3,
+                    3,
+                    6,
+                    3
+                  ],
+                  "dual": [
+                    0,
+                    3,
+                    3,
+                    6,
+                    3
+                  ]
+                },
+                "M6": {
+                  "I": 0,
+                  "V": [
+                    0,
+                    3,
+                    3,
+                    6,
+                    3
+                  ],
+                  "dual": [
+                    0,
+                    3,
+                    3,
+                    6,
+                    3
+                  ]
+                },
+                "M6_interior": 0,
+                "M6_dual_interior": 0
+              },
+              "wedge2E": {
+                "M2": {
+                  "I": 0,
+                  "V": [
+                    0,
+                    4,
+                    4,
+                    8,
+                    4
+                  ],
+                  "dual": [
+                    0,
+                    4,
+                    4,
+                    8,
+                    4
+                  ]
+                },
+                "M6": {
+                  "I": 0,
+                  "V": [
+                    0,
+                    4,
+                    4,
+                    8,
+                    4
+                  ],
+                  "dual": [
+                    0,
+                    4,
+                    4,
+                    8,
+                    4
+                  ]
+                },
+                "M6_interior": 0,
+                "M6_dual_interior": 0
+              }
+            },
+            "off_monomial": {
+              "I": 0,
+              "V": [
+                0,
+                8,
+                8,
+                16,
+                8
+              ],
+              "dual": [
+                0,
+                8,
+                8,
+                16,
+                8
+              ]
+            },
+            "off_monomial_restrictions": {
+              "H1": 8,
+              "torus_rank": 8,
+              "torus_kernel": 0,
+              "meridian_rank": 8,
+              "meridian_kernel": 0,
+              "longitude_rank": 8,
+              "longitude_kernel": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "action": {
+        "source_order": 60,
+        "involutions": 15,
+        "V4_count": 5,
+        "faithful_even_image_order": 60,
+        "generators": [
+          [
+            1,
+            2,
+            0,
+            3,
+            4
+          ],
+          [
+            2,
+            1,
+            3,
+            0,
+            4
+          ],
+          [
+            4,
+            1,
+            0,
+            3,
+            2
+          ]
+        ],
+        "longitude": [
+          2,
+          0,
+          1,
+          3,
+          4
+        ]
+      },
+      "exponents": {
+        "equation_rank": 7,
+        "solution_dimension": 3,
+        "gauge_rank": 2,
+        "quotient_dimension": 1,
+        "primitive_directions": [
+          [
+            3,
+            -1,
+            -1,
+            0,
+            -1,
+            1,
+            1,
+            -3,
+            1,
+            0
+          ]
+        ],
+        "peripheral_sheet_orbits": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      },
+      "finite_control": {
+        "algebra_dimension": 17,
+        "bilinear_form_dimension": 2
+      },
+      "candidates": [
+        {
+          "direction": 0,
+          "exponents": [
+            3,
+            -1,
+            -1,
+            0,
+            -1,
+            1,
+            1,
+            -3,
+            1,
+            0
+          ],
+          "diagnostics": {
+            "parameter": 2,
+            "algebra_dimension": 25,
+            "bilinear_form_dimension": 0,
+            "coefficients": {
+              "E": {
+                "M2": {
+                  "I": 0,
+                  "V": [
+                    0,
+                    3,
+                    3,
+                    6,
+                    3
+                  ],
+                  "dual": [
+                    0,
+                    3,
+                    3,
+                    6,
+                    3
+                  ]
+                },
+                "M6": {
+                  "I": 0,
+                  "V": [
+                    0,
+                    3,
+                    3,
+                    6,
+                    3
+                  ],
+                  "dual": [
+                    0,
+                    3,
+                    3,
+                    6,
+                    3
+                  ]
+                },
+                "M6_interior": 0,
+                "M6_dual_interior": 0
+              },
+              "wedge2E": {
+                "M2": {
+                  "I": 0,
+                  "V": [
+                    0,
+                    4,
+                    4,
+                    8,
+                    4
+                  ],
+                  "dual": [
+                    0,
+                    4,
+                    4,
+                    8,
+                    4
+                  ]
+                },
+                "M6": {
+                  "I": 0,
+                  "V": [
+                    0,
+                    4,
+                    4,
+                    8,
+                    4
+                  ],
+                  "dual": [
+                    0,
+                    4,
+                    4,
+                    8,
+                    4
+                  ]
+                },
+                "M6_interior": 0,
+                "M6_dual_interior": 0
+              }
+            },
+            "off_monomial": {
+              "I": 0,
+              "V": [
+                0,
+                8,
+                8,
+                16,
+                8
+              ],
+              "dual": [
+                0,
+                8,
+                8,
+                16,
+                8
+              ]
+            },
+            "off_monomial_restrictions": {
+              "H1": 8,
+              "torus_rank": 8,
+              "torus_kernel": 0,
+              "meridian_rank": 8,
+              "meridian_kernel": 0,
+              "longitude_rank": 8,
+              "longitude_kernel": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -69,6 +69,17 @@ the finite seeds are self-duality controls, not failed chirality tests.
 Six new and all 70 combined focused tests pass. The next seed must clear the
 actual two-generator cusp screen before nonlinear continuation is worthwhile.
 
+The [five-point monomial gate](../five_point_monomial_gate_2026_09_27/FINDINGS.md)
+then changes the representation explicitly: the same finite images act on
+their five Klein-four subgroups, and each admits a genuine one-parameter
+SL5 monomial deformation fixing the whole peripheral pair. At the fixed
+test value t=2, both are irreducible and non-self-dual, with E cusp capacity
+three on M6. Both actual coefficients nevertheless have zero interior
+cohomology, and all meridian-relative off-monomial first-order directions
+vanish there. Six new and all 76 combined focused tests pass. The next
+algebraic discriminator is the exact exceptional-parameter locus, not
+promotion of capacity three to physical generations.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several
