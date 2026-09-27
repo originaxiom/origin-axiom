@@ -1036,3 +1036,18 @@ confirmation precedes all scientific import/execution.
 | `reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE_INPUTS.json` | `e9ee61c03a50afc723fc5f413648507463864ffdad6608c38385ec78cbc940c2` |
 | `reports/physical_bridge_2026_09_05/neutral_existence.py` | `fc144829be76355b3b083accc96144d2002902c9289f438b071c14286bfa2f74` |
 | `tests/test_physical_bridge_neutral_existence.py` | `8e98709c610dc3193cd760e77b21e23902f90bb773e369264295519843470d10` |
+
+## R52 fixed-domain continuous stationary curve, September 27, 2026
+
+Pre-execution conditional authored continuity argument, not independent
+analytic acceptance, a parameter derivative or physical completion.
+Commit/push/server confirmation precedes all science import/execution.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY_DESIGN.md` | `64badceefa0bfbcb384f93a8679d8f4e7c7135cb6b10b84775b75382f916a763` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY_PROOF.md` | `42f9a81c5e608450adc491ead687d76c77c14e02de0948ff40fc393a5c27a798` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY_PRIOR.md` | `c2d076108d6bd49a8a6e6f8d286fc0c15ade61033f92a797ed80811ec4d3858b` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY_INPUTS.json` | `ed7a6d04cc2923b0b00118a32373007a7ed3ac0e577bc7278e1baf40d80202da` |
+| `reports/physical_bridge_2026_09_05/neutral_continuity.py` | `649a98ef1032a2986276f949a32af8047e5caa3ed115eca757f91e8750c1ac81` |
+| `tests/test_physical_bridge_neutral_continuity.py` | `ae57dd9ec736204059654b045c47091659a5ca1fabb2435002fabf9f06299010` |
