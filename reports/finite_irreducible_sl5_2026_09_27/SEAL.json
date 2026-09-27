@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_EXECUTION",
+  "branch": "audit/fork-2026-09-20",
+  "prior_result": "b92c2ab7",
+  "files": {
+    "reports/finite_irreducible_sl5_2026_09_27/DESIGN.md": "e1de1f0b4312e054f85aaa6fc7043686a832acfb41f07fb806b0394913c19c3f",
+    "reports/finite_irreducible_sl5_2026_09_27/PROOF.md": "26f19de749fcb438685a0b502c6557fc2b85662d7e50d33117bdbc249f7d8c9a",
+    "reports/finite_irreducible_sl5_2026_09_27/INPUTS.json": "e99c8dbdfda11cf7ab6730931f72ee992d9f7d7f85bc085fa4e09bd2464b755e",
+    "reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py": "ff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5",
+    "reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py": "9efe7ce8eb5714e9231f7350fe1c319124e1fa2584e334025aee73d8df7ecbde",
+    "reports/global_sl5_seed_2026_09_27/INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "reports/global_sl5_seed_2026_09_27/verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "reports/global_sl5_seed_2026_09_27/verify_global_seed.py": "71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403"
+  },
+  "policy": "Commit before import/execution; preserve source hashes and first failures. New semisimple peripheral classes are explicitly priced; no physical chirality claim."
+}

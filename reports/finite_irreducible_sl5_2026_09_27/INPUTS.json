@@ -1,0 +1,8 @@
+{
+  "base_result": "b92c2ab7",
+  "topology_and_exact_engine": "../global_sl5_seed_2026_09_27",
+  "meridians": {"single_three_cycle": [1, 2, 0, 3, 4, 5], "two_three_cycles": [1, 2, 0, 4, 5, 3]},
+  "diagnostic_cap_per_meridian": 12,
+  "irreducibility_comparator": [[1, 2, 0, 3, 4, 5], [0, 1, 3, 4, 2, 5], [0, 1, 2, 4, 5, 3]],
+  "scope": "All marked A6 permutation pairs for two fixed semisimple meridians; bounded diagnostics, not the full SL5 variety."
+}
