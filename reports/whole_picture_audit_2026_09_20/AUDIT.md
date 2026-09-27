@@ -51,6 +51,15 @@ mixed torus-relative kernel is zero, but each circle-relative kernel is
 one; whether that relaxation connects the full five-dimensional parent
 needs its own check. Sixteen new and the combined 57 focused tests pass.
 
+That [meridian-only check](../global_sl5_seed_2026_09_27/MERIDIAN_FINDINGS.md)
+is now complete: the exact 28-by-28 field Jacobian for ALL links between
+the active three-dimensional block and the other two lines is invertible.
+The authored implicit-function argument therefore forces local 3+1+1
+splitting at fixed meridian, even with longitude free. The one smaller-block
+direction remains; it is not a nearby irreducible SL5 route. Seven new
+tests and the combined 64-test suite pass. Distant components, different
+peripheral classes and physical sources/domains are not excluded.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several

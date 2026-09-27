@@ -1,0 +1,52 @@
+$ LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/global_sl5_seed_2026_09_27/verify_meridian_local.py
+{
+  "off_block_rank_over_K": 14,
+  "paired_rho_data": {
+    "I": 0,
+    "V": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "dual": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "paired_character_data": {
+    "I": 0,
+    "V": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "dual": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "off_block_fixed_meridian_jacobian_Q_shape": [
+    112,
+    112
+  ],
+  "off_block_fixed_meridian_jacobian_Q_rank": 112,
+  "rational_determinant": "8750640431914714140510423543328014336",
+  "trace_comparator_words": 7,
+  "mixed_raw_kernel_over_K": 2,
+  "mixed_residual_gauge_over_K": 1,
+  "mixed_meridian_relative_H1": 1,
+  "scope": "Local fixed-meridian 3+1+1 splitting; not all relative components or physical domains"
+}
+PASS: off-block Jacobian invertible while the smaller-block mixed direction remains live
+
+Exit code: 0

@@ -1,0 +1,5 @@
+$ LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/global_sl5_seed_2026_09_27/test_meridian_local.py
+.......                                                                  [100%]
+7 passed in 5.80s
+
+Exit code: 0

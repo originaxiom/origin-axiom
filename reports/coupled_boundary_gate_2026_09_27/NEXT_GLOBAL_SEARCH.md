@@ -3,6 +3,17 @@
 Task specification only. No new relative search has been executed or
 declared sealed in this file.
 
+**2026-09-27 progress update:** the
+[global seed audit](../global_sl5_seed_2026_09_27/FINDINGS.md) completes the
+marked presentation/cover verification below, including the diagram
+longitude, and computes both actual parent coefficients on one native
+seed with all five central twists. The index pairs are (0,0), (0,3),
+(1,0), (-1,0), (0,-3), not (3,3). One native mixed obstruction is replayed
+exactly, and the
+[meridian-only local check](../global_sl5_seed_2026_09_27/MERIDIAN_FINDINGS.md)
+shows that nearby fixed-meridian representations still split 3+1+1 even
+with longitude free. This is not a full relative component search.
+
 ## Done in this fork
 
 - [x] Distinguish geometric deck descent from an internal holonomy cube.
@@ -12,6 +23,12 @@ declared sealed in this file.
 - [x] Exclude target three in the principal-unipotent E5 peripheral class.
 - [x] Keep the proposed cubed 2+3 class open under this necessary screen.
 - [x] State the coupled deck-character distributions and quotient limitation.
+- [x] Recover the global presentation, preferred longitude and M6 inclusion
+  independently from diagram/Schreier word certificates.
+- [x] Compute one actual native common E5 and its exterior square under all
+  five central twists; retain the partial positive and joint mismatch.
+- [x] Distinguish full-torus from meridian-only deformation conditions, and
+  test all off-block links for the latter with an exact invertible Jacobian.
 
 ## Immediate work, in dependency order
 
@@ -33,6 +50,10 @@ declared sealed in this file.
    cubic eigenspaces checked. The handoff's toy longitude is not input
    certified by topology. A chosen coefficient field and finite-field
    probes are search hypotheses, not exhaustive classifications over C.
+   The local native 3+1+1 neighborhood is now checked and must not be
+   rescanned as if its off-block mixing were unknown. A candidate in the
+   same meridian class must come from outside that neighborhood. A changed
+   class or source/nonflat mechanism is a separate priced hypothesis.
 4. **Certify a candidate globally before assigning modes.** Relators,
    determinant one, peripheral commuting/Jordan data, irreducibility,
    duality, and actual restriction to M6 must be exact. A numerical or

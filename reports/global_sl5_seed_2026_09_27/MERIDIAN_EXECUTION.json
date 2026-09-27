@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-27",
+  "seal_commit": "bbadd39326cdaa05bf4a23002b2c8d42cbabf95d",
+  "sources_unchanged": true,
+  "hash_check_chunk": "f9e829",
+  "runs": [
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/global_sl5_seed_2026_09_27/verify_meridian_local.py",
+      "chunks": [
+        "3e5952"
+      ],
+      "exit_code": 0,
+      "output": "RUN_MERIDIAN_NATIVE.txt"
+    },
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/global_sl5_seed_2026_09_27/test_meridian_local.py",
+      "chunks": [
+        "5c08db",
+        "76f98f"
+      ],
+      "exit_code": 0,
+      "output": "RUN_MERIDIAN_TESTS.txt"
+    },
+    {
+      "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py",
+      "chunks": [
+        "dea5d9",
+        "229668"
+      ],
+      "exit_code": 0,
+      "output": "RUN_MERIDIAN_COMBINED.txt"
+    }
+  ],
+  "remote_heads_rechecked_chunk": "539edb",
+  "remote_heads_changed": false
+}

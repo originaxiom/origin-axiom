@@ -96,8 +96,11 @@ meridian-preserving mixed direction." A search fixing only the meridian
 while solving the longitude cannot use that stronger negative.
 This does NOT yet exhibit a full irreducible SL5 deformation: the live
 direction might connect only rho_2 with the trivial family line, leaving
-the other two family lines isolated. That is the next exact check before
-either declaring a new route or treating the native neighborhood as closed.
+the other two family lines isolated. The separately sealed
+[meridian-only follow-through](MERIDIAN_FINDINGS.md) now checks that question:
+an invertible full off-block Jacobian forces local 3+1+1 splitting even
+with longitude free. The smaller-block direction is retained, but it
+does not open a nearby irreducible SL5 representation at fixed meridian.
 
 ## Remaining physics and verification limits
 
