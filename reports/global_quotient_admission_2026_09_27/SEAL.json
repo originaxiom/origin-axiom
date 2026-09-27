@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-27",
+  "parent": "4f39bdda",
+  "status": "pre-execution local seal",
+  "hashes": {
+    "reports/global_quotient_admission_2026_09_27/DESIGN.md": "5acba96e84a39529a471aa9011f94fb10a48f3c44b208600d136ad68dcfed99a",
+    "reports/global_quotient_admission_2026_09_27/PROOF.md": "753203d51e146fd8726d09bf43d7c1c80c95a88022aa86b05e28c58cdef5db59",
+    "reports/global_quotient_admission_2026_09_27/INPUTS.json": "c18fdeff80b680319b51a05f749b99e40e2c22e5515714588524af8542931c88",
+    "reports/global_quotient_admission_2026_09_27/verify_admission.py": "5c1814e29edc0e9fb82e4c6c3816fd38e1827d97d35b00f022a212dcc9107e95",
+    "reports/global_quotient_admission_2026_09_27/test_admission.py": "c350fd67d5242d8242bc3d7b40ea09de83bf64687de6fe162cd68667c4a8c4a6",
+    "reports/m6_parent_admission_2026_09_27/verify_parent_admission.py": "edd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f",
+    "reports/global_sl5_seed_2026_09_27/verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "reports/global_sl5_seed_2026_09_27/INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc"
+  },
+  "notes": [
+    "No scientific source imported or executed before seal",
+    "Preseal source inspection corrected word exponent counting; no failed scientific run",
+    "First shasum attempt failed on inherited locale; retried with LC_ALL=C LANG=C",
+    "Local research, not full banking certificate"
+  ]
+}

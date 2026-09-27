@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-27",
+  "input_commit": "4f39bdda",
+  "modulus": 40,
+  "rank": 5,
+  "cover_degree": 6,
+  "free_splitting": [1, 0, 0, 0, 0, 0, 1],
+  "gauge_hypercharge_weights": [-2, -2, -2, 3, 3],
+  "scope": "Connected SM centralizer in specified E8 and flat-lift obstruction on marked M6; no chiral or all-background classification."
+}
