@@ -1,5 +1,9 @@
 # Changelog
 
+## Route B1388 into the kill graph; record the whole-suite fast lane on fefb938a
+
+6 309 passed, 10 failed (the nine known baseline failures, and B833's lock finding B1388 unrouted, now routed in B836's form), 52 skipped. No computation changes.
+
 ## B1389 — the full spectrum (kill test 2, sealed before computing): MIXED — the 27's spin-0 15 gives whole, anomaly-free generations round γ (two on cube~3.24 in the 27-frame; B1368's frame theorem scoped); the 78's broken roots make 7d E₆ super-Yang–Mills's bulk anomalous in every direction
 
 Exact group theory on the record's own E₆ vectors (B1368), every cone of Higgs directions in four frames (F27, F78, F27+78, F133). The 5 of the 15 carries the opposite γ-charge to the 10 and enters as the 5̄ in −1 < a/b < 2/3; the 78's X,Y partners and its 5̄ at γ = +2 spoil every fuller frame (a lone 10 on the γ ray). U(1)_γ's mixed anomalies universal in the passing cone. sL-8 gains its third job (the gauge sector's anomaly). Registry row T-FULL-SPECTRUM. 0 of 19.

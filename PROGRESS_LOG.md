@@ -15586,3 +15586,15 @@ which Higgs directions is the net chiral spectrum whole, anomaly-free generation
 
 **In one line.** The frame can make whole generations, but as a gauge theory its local spectrum is anomalous. The completion must
 cancel the anomaly, which makes the cusps' completion a physical necessity rather than a convention. 0 of 19.
+
+### The whole-suite fast lane on fefb938a, and B1388 routed (2026-09-27)
+
+The whole suite, fast lane (`-m "not slow"`, 12 workers), on the pushed head fefb938a: **6 309 passed, 10 failed, 52 skipped, in
+1 h 04 min.**
+- Nine failures are the known baseline, unchanged since the 2026-09-26 run: B1062, B1063, B1137, B646, B511, B565 and B616 are fixed on
+  main after this branch forked and are cited, not ported; test_repo_gates and B887 read the pre-existing relay-debt gate.
+- The tenth was this seat's own: B833's lock found B1388 (NEGATIVE as sealed) absent from the kill graph. It is routed now in B836's
+  form (kill_form unrouted-unclassified, priority UNTRIAGED, judgement fields deliberately unset, routed_from
+  sm-branch-2026-09-27-banking), and the lock passes.
+
+No computation changes. 0 of 19.
