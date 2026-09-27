@@ -1,0 +1,57 @@
+{
+  "scope": "circle comparator, not M6 or physical generations",
+  "sympy_version": "1.14.0",
+  "results": [
+    {
+      "c": 1,
+      "det_T": 1,
+      "cube_is_monodromy": true,
+      "monodromy_retained": true,
+      "square_zero_remainder": true,
+      "deck_cube_identity": true,
+      "seam_omitted_cube_identity": false,
+      "projector_idempotent": true,
+      "projector_rank": 6,
+      "naive_fibre_average_idempotent": false,
+      "downstairs_H0": 1,
+      "cover_H0": 3,
+      "cover_invariant_H0": 1,
+      "cube_on_cover_H0": true,
+      "coefficient_domain": "exact rationals"
+    },
+    {
+      "c": -2,
+      "det_T": 1,
+      "cube_is_monodromy": true,
+      "monodromy_retained": true,
+      "square_zero_remainder": true,
+      "deck_cube_identity": true,
+      "seam_omitted_cube_identity": false,
+      "projector_idempotent": true,
+      "projector_rank": 6,
+      "naive_fibre_average_idempotent": false,
+      "downstairs_H0": 1,
+      "cover_H0": 3,
+      "cover_invariant_H0": 1,
+      "cube_on_cover_H0": true,
+      "coefficient_domain": "exact rationals"
+    },
+    {
+      "c": 0,
+      "det_T": 1,
+      "cube_is_monodromy": true,
+      "monodromy_retained": false,
+      "square_zero_remainder": true,
+      "deck_cube_identity": true,
+      "seam_omitted_cube_identity": true,
+      "projector_idempotent": true,
+      "projector_rank": 6,
+      "naive_fibre_average_idempotent": true,
+      "downstairs_H0": 2,
+      "cover_H0": 6,
+      "cover_invariant_H0": 2,
+      "cube_on_cover_H0": true,
+      "coefficient_domain": "exact rationals"
+    }
+  ]
+}

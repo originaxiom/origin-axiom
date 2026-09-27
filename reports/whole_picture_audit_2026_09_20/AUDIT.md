@@ -5,6 +5,15 @@
 strategic audit, **not a resumption of the inherited goal or experiment**.
 No shared B numbers, upstream edits, merges or external publication.
 
+**2026-09-27 strategy refresh:** the
+[seven-seat goal reassessment](../goal_reassessment_2026_09_27/ASSESSMENT.md)
+updates the working objective for the generated-architecture interpretation.
+Its first bounded follow-through distinguishes
+[geometric deck descent from a holonomy cube](../deck_descent_2026_09_27/FINDINGS.md),
+with an authored general proof and ten passing exact comparator tests. It
+does not derive physical generations. The drafted F20 matching computation
+remains unexecuted; the completed F01-F19 results retain their original scope.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several

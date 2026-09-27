@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-27",
+  "seal_commit": "5a7ef5467b60f5941a096fa16f6cf9633f259ab4",
+  "branch": "audit/fork-2026-09-20",
+  "python": "3.12.1",
+  "sympy": "1.14.0",
+  "native": {
+    "initial_chunk": "ace18b",
+    "terminal_chunk": "764835",
+    "exit_code": 0
+  },
+  "tests": {
+    "initial_chunk": "8c2e5b",
+    "terminal_chunk": "c021de",
+    "exit_code": 0,
+    "result": "10 passed in 0.58s"
+  },
+  "post_run_hash_check": {
+    "chunk": "68d4c3",
+    "all_five_sealed_file_hashes_unchanged": true
+  },
+  "initial_hash_attempt": {
+    "chunk": "bcb56d",
+    "issue": "shasum failed before hashing because Perl rejected C.UTF-8; Python 3.9.6 was default, not used for science"
+  },
+  "discovery_retry": {
+    "chunk": "f08cdf",
+    "hashes_succeeded": true,
+    "issue": "later interpreter inventory glob had no matches and returned exit 1; no science executed"
+  },
+  "scientific_edits_during_run": false,
+  "scientific_failures": [],
+  "scope": "Exact circle comparator plus authored general covering-bundle proof. No independent rerun of M6 indices or PDE proof. No full suite.",
+  "other_work": "parent_mirror_matching_2026_09_25 remains unsealed and unexecuted"
+}
