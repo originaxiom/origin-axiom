@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-27",
+  "parent": "9561bfd7",
+  "status": "unexecuted addendum",
+  "hashes": {
+    "reports/monomial_gauge_centralizer_2026_09_27/DESIGN.md": "5cf959d387136f3645caab39fb391fecc3ba891ee667af3729dfc630f7c7834f",
+    "reports/monomial_gauge_centralizer_2026_09_27/PROOF.md": "df7b6866ea5eb83e7fa97240f71ab32eacd9ad6edac0e031ea68f6a84177a36d",
+    "reports/monomial_gauge_centralizer_2026_09_27/INPUTS.json": "e891ddebbf4728a2090af2490ad630899ce398cb3ead16210eb81837dff2ee0d",
+    "reports/monomial_gauge_centralizer_2026_09_27/verify_centralizer.py": "6df0edfa7b748f7072b1496fcc8068d6aa23596fe717ce6c3a8b33caa0b7f5bc",
+    "reports/monomial_gauge_centralizer_2026_09_27/test_centralizer.py": "fad95f00a7d3f5bcefb4a80fbeb2cc10fd3a1eb1d821047066d6197c6812e29f",
+    "reports/monomial_harmonic_background_2026_09_27/PROOF.md": "257adbef011cdfab2e8df731fbb780104b0eefa8727efe9602aa38552c6b9bd0",
+    "reports/monomial_harmonic_background_2026_09_27/INPUTS.json": "ae7b71427949d0f634215669017787083ffa22095e10d33b79677921b25e23d8",
+    "reports/monomial_harmonic_background_2026_09_27/verify_harmonic_background.py": "2fb7b7855f41aceb846f1bcbb94077e937c7a458f2e3f58540156f2eca3ccfd9",
+    "reports/charged_l2_bridge_2026_09_27/PROOF.md": "191f9ec7bf906033d947576de8bf206bcc8a4f6cd04f7d6ef1f7bce18e85a42c",
+    "reports/monomial_exceptional_locus_2026_09_27/INPUTS.json": "a9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0",
+    "reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py": "939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9",
+    "reports/five_point_monomial_gate_2026_09_27/verify_monomial.py": "30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2",
+    "reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py": "ff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5",
+    "reports/global_sl5_seed_2026_09_27/INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "reports/global_sl5_seed_2026_09_27/verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "reports/global_sl5_seed_2026_09_27/verify_global_seed.py": "71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403",
+    "reports/m6_parent_admission_2026_09_27/verify_parent_admission.py": "edd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f",
+    "reports/monomial_gauge_centralizer_2026_09_27/CUBIC_ADDENDUM.md": "f16a8eb73cb6f2c02a1b00c377081aae9da0b3af7794b30b5432a52432e2320e",
+    "reports/monomial_gauge_centralizer_2026_09_27/verify_cubic.py": "3de7c29908262e5adcd4b4c6702c6949cc4bd33fa54a2bebcddae50b9051bcb6",
+    "reports/monomial_gauge_centralizer_2026_09_27/test_cubic.py": "dc10567fe87b157dca3f7961e072e596dc235def98f4a18d97e6e6fa907d2e47"
+  },
+  "notes": [
+    "Original scientific source and results untouched",
+    "New result locks explicitly post-result; new cubic test unexecuted",
+    "Scope excludes gauge interaction vanishing, quantum effects and a separated EFT"
+  ]
+}
