@@ -1,0 +1,7 @@
+LOCKS {"post_result_gauge_and_matter_locks": true}
+SYMMETRIC {"seed": 0, "projector_ranks": [9, 6, 1], "cohomology": {"symmetric_tracefree": {"ordinary": {"I": 0, "V": [0, 6, 3, 6, 3], "dual": [0, 6, 3, 6, 3]}, "n": 3, "n_dual": 3}, "skew": {"ordinary": {"I": 0, "V": [0, 2, 2, 4, 2], "dual": [0, 2, 2, 4, 2]}, "n": 0, "n_dual": 0}}, "neutral_finite_coefficient_split": {"U": 1, "irreducible_five": 2}, "all_harmonic_neutral_profiles_symmetric": true}
+SYMMETRIC {"seed": 1, "projector_ranks": [9, 6, 1], "cohomology": {"symmetric_tracefree": {"ordinary": {"I": 0, "V": [0, 6, 3, 6, 3], "dual": [0, 6, 3, 6, 3]}, "n": 3, "n_dual": 3}, "skew": {"ordinary": {"I": 0, "V": [0, 2, 2, 4, 2], "dual": [0, 2, 2, 4, 2]}, "n": 0, "n_dual": 0}}, "neutral_finite_coefficient_split": {"U": 1, "irreducible_five": 2}, "all_harmonic_neutral_profiles_symmetric": true}
+OVERLAPS {"all_symmetric_singlet_cubic_zero": true, "shared_profile_mixed_cubic_zero": true, "skew_singlet_counterexample": -4, "skew_mixed_counterexample": 2, "independent_profile_counterexample": 1}
+WEIGHTS {"spinor_pairing_opposite_only": true, "no_three_spinor_zero_weight": true, "possible_cubic_types": ["singlet^3", "singlet*16*16dual"]}
+SCOPE {"background": "t=1, trivial common line", "tensor": "direct classical holomorphic cubic among degree-one zero modes", "gauge_interactions_zero": false, "quantum_vanishing_claimed": false, "all_zero_modes_integrable": false, "isolated_4d_EFT": false}
+PASS: symmetric-mode overlap controls and original result locks

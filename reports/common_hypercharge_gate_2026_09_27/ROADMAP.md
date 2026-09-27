@@ -55,7 +55,7 @@ All 112 focused tests pass. No numerical K, selected parameter, isolated
 four-dimensional EFT or chiral spectrum is claimed. The supplied parent,
 metric and spacetime have not been derived from the framework.
 
-## Charged comparison completed; full gauge symmetry is next
+## Charged comparison, full gauge symmetry and first interactions completed
 
 The [charged L2 comparison](../charged_l2_bridge_2026_09_27/FINDINGS.md)
 now supplies an AUTHORED complete-domain argument, with 127 combined tests
@@ -69,16 +69,29 @@ four-dimensional EFT.
 - [x] Apply the actual degree/fermion dictionary. Paired modes survive, but
       the joint net-three target still fails in the specified two families
       with any honest common unitary line. This is not a universal no-go.
-- [ ] Compute the full-parent gauge centralizer at special parameters and
+- [x] Compute the full-parent gauge centralizer at special parameters and
       distinguish gauge enhancement from extra matter.
 - [x] State the present continuum limitation: finite zero-mode norm alone
       is not a separated low-energy theory or a Fredholm-index claim.
-- [ ] Establish what controlled reduction/interactions, if any, survive it.
+- [x] Compute the direct classical holomorphic cubic among the enhanced-point
+      degree-one zero modes. It vanishes; this is not a free-theory claim.
+- [ ] Establish a controlled reduction including continuum effects and
+      higher/quantum interactions; no isolated EFT has been obtained here.
 
-The [bounded centralizer plan](../charged_l2_bridge_2026_09_27/NEXT_CENTRALIZER.md)
-is followed by a strategic chirality-route decision, not another equivalent
-monomial/line census. R52 at 739f50aa was read, not rerun; its continuous
-rank-four canonical curve is not substituted for this rank-five model.
+The [completed centralizer and cubic package](../monomial_gauge_centralizer_2026_09_27/FINDINGS.md)
+classifies the full compact Lie algebra for both families with trivial line:
+so(10) at t=1, su(5)+u(1) at nontrivial fifth roots, su(5) elsewhere.
+At t=1 the actual normalizable degree-one spectrum is 16+16*+three singlets;
+the known nonlinear branch has spinor-pair and singlet tangent components.
+All 144 combined tests pass. This is conditional physics, not three
+generations, a global group classification or a derived vacuum choice.
+Older D5/pure-spinor algebra is explicitly credited to B1092.
+
+The [next distinct admission strategy](../monomial_gauge_centralizer_2026_09_27/STRATEGY.md)
+tests whether the verified parent quotient admits sectors excluded by
+separate structure/hypercharge lifts. No such new sector is claimed yet.
+R53 at ec62b05c was read at report level, not rerun; its harmonic velocity
+on a different rank-four canonical curve is not substituted for this model.
 
 Stop-and-reassess criterion: an unpaid domain or action assumption stays
 unpaid, even if the finite index is attractive. Preserve the positive
@@ -90,9 +103,12 @@ of this operator/domain question.
 
 - [ ] Keep the existing nonsplit cohomological positives and their physical
       admissibility/source obligations on the same ledger.
-- [ ] Use a common-model contract to choose the next genuinely distinct
+- [x] Use a common-model contract to choose the next genuinely distinct
       mechanism: another relative component, a justified source/end law,
       nonflat completion, or a specified interacting mirror-gapping phase.
+- [ ] First audit the combined global quotient and determinant-root
+      obstruction on the actual marked topology; check parent weights,
+      compact determinant transport and harmonic admissibility before a census.
 - [ ] For a surviving candidate, compute all five SAME-background charged
       sectors, duals, gauge/Higgs fields, physical operator domains and norms.
 - [ ] Check interactions and anomalies. An index alone does not establish

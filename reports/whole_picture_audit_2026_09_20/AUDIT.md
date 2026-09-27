@@ -145,6 +145,20 @@ check, then a genuinely different chirality-route decision. Physical-bridge
 R52 at 739f50aa was read, not rerun; its different canonical model is not
 silently identified with this one.
 
+**Latest same-model follow-through:** the
+[centralizer and cubic audit](../monomial_gauge_centralizer_2026_09_27/FINDINGS.md)
+now classifies the full compact Lie algebra over both monomial families
+with trivial common line: so(10) at t=1, su(5)+u(1) at the other fifth
+roots, su(5) elsewhere. At t=1 it computes 16+16*+three neutral singlets,
+the actual nonlinear branch's spinor-pair tangent, and a zero direct
+classical holomorphic cubic tensor. All 144 combined tests pass. Older
+pure-spinor algebra is credited, not rediscovered. This advances one
+conditional physical model without supplying net chirality or a gapped EFT.
+The [next strategy](../monomial_gauge_centralizer_2026_09_27/STRATEGY.md)
+audits globally nonliftable quotient sectors before changing the local
+action or adding sources. R53 at ec62b05c was read at report level only;
+its canonical-model successes and retained failures are not our certificate.
+
 The most useful synthesis is not a new numerical coincidence. **Several
 successful calculations distinguish data that earlier calculations had
 discarded; several failed physical joins silently change the data being

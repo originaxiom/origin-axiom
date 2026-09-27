@@ -131,6 +131,13 @@ earlier observation of its diagnostic seal without a report.
 
 ## Mission effect and next decision
 
+**Follow-through completed:** the
+[full-parent centralizer/cubic report](../monomial_gauge_centralizer_2026_09_27/FINDINGS.md)
+pays the bounded next check below and supplies a first interaction result.
+The original ordering is retained as history. The current next gate is
+[combined quotient admission](../monomial_gauge_centralizer_2026_09_27/STRATEGY.md),
+not another scan of the already classified separately lifted lines.
+
 We have earned a more physical interpretation in one explicitly supplied
 model, not completed the physical programme. The constructive nonlinear
 background, finite-norm neutral direction, charged mode interpretation and

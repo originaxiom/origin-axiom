@@ -51,6 +51,19 @@ at 739f50aa was read, not rerun; its successes and four retained failures are
 both recorded. Earlier same-day checkpoints above are historical, not the
 current task ordering.
 
+**Latest centralizer/interaction checkpoint:** the
+[full-parent package](../monomial_gauge_centralizer_2026_09_27/FINDINGS.md)
+now supplies the all-parameter compact Lie-algebra classification at trivial
+line, the enhanced-point 16+16*+three-singlet normalizable spectrum, the
+actual branch's spinor-pair tangent and its vanishing direct classical cubic.
+All 144 combined tests pass. These refer to the same supplied physical
+model; they do not select a vacuum, supply chirality or isolate an EFT.
+The [next admission audit](../monomial_gauge_centralizer_2026_09_27/STRATEGY.md)
+tests the previously explicit separately-liftable-bundle restriction
+against the full parent quotient. R53's report at ec62b05c was read, not
+rerun; its different rank-four canonical construction remains distinct.
+This checkpoint supersedes the earlier task ordering, not its evidence.
+
 The TOE ambition remains legitimate as a research aspiration, but “complete
 the TOE” is not yet a sufficiently specified, guaranteed-completable task.
 The material does not establish that this framework must explain reality.
