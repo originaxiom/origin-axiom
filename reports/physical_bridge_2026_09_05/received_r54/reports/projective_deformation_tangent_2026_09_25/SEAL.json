@@ -1,0 +1,15 @@
+{
+  "arc": "F15",
+  "date": "2026-09-25",
+  "starting_commit": "46f42302",
+  "status": "pre-execution scientific files and actual imported source",
+  "hash_receipt": "55be57",
+  "hash_tool_note": "shasum failed before hashing due to installed Perl locale, c8a920; OpenSSL succeeded",
+  "sha256": {
+    "reports/projective_deformation_tangent_2026_09_25/DESIGN.md": "c97575af9f32da927511a3e9d592dee61a52b4008f2e250ee0b7a7f7fd528a17",
+    "reports/projective_deformation_tangent_2026_09_25/PROOF.md": "4b95bc794f51458f33339aa58c5c48a7dd859b4ebe10f73740af78ac414e0a81",
+    "reports/projective_deformation_tangent_2026_09_25/verify.py": "0a1b1b2a198d4e8c6083b679fea7d70be74ffb95678925b56c6a5a2f02560805",
+    "reports/projective_deformation_tangent_2026_09_25/test_verify.py": "e153e267bdbcf1307a43cab6a9fd2e04696f820d7d6a15f4d65f2781dd4c757e",
+    "reports/projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18"
+  }
+}

@@ -1077,3 +1077,31 @@ Commit/push/server confirmation precedes all science import/execution.
 | `reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_INPUTS.json` | `b30923835b51e20a7a21a17ca007d474bc5dd89a214065e34240b439474f6f4f` |
 | `reports/physical_bridge_2026_09_05/neutral_velocity.py` | `e90c147afc2f8b88dd6b9b12a33b7871ed15cd53ddfe0437d074eec340c488dd` |
 | `tests/test_physical_bridge_neutral_velocity.py` | `4375ab0f4273634a99a631e20c0e5f35c711369319a7e7f638f8d936072e0b9f` |
+
+## R54 dynamical neutral--matter interaction application, September 27, 2026
+
+Pre-execution reception of F15 and conditional canonical-domain join.
+Not a new obstruction discovery, numerical Yukawa, chirality or TOE.
+Commit/push/server confirmation precedes scientific imports and runs.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_MATTER_DESIGN.md` | `2d4630dfda9bf4eec2c943f2da43d365c30d5e2ebf0f2a4bbfdcf5a50e4312bb` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_MATTER_PROOF.md` | `897100eedebb7cca5689897de38472a66f503458d7b11a3f81a5b38bd9d22e1d` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_MATTER_PRIOR.md` | `9775356543a9854734833ad397695e5b65dd9f7b09c07149bf8959e79df6b88e` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_MATTER_INPUTS.json` | `c5f39b30c7e80f1ed7d2867b701da9fb8a4d945a84e16625926ba1c3c6fdab04` |
+| `reports/physical_bridge_2026_09_05/neutral_matter.py` | `e044198cff87ed2e20a698b4c88e10a1bc25ada9a3bc4f0853fb7136e6ce82e2` |
+| `tests/test_physical_bridge_neutral_matter.py` | `1703bfc6db51f2dc7b7b46e872411946a62e90424b079a36bf2e48a600a2e2c8` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/CORRECTION.md` | `72c7332e47b168b3b1e0e9b4c707ed575b031e179b14c52835feaeb65380202d` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/CORRECTION_SEAL.json` | `ec73ebc9aad2758e7ad02cb3bf34e67bf4ff39a249864cd6feebcf8359b3291b` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/DESIGN.md` | `c97575af9f32da927511a3e9d592dee61a52b4008f2e250ee0b7a7f7fd528a17` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/EXACT_WITNESSES_SOURCE.txt` | `ae146bdd901eb1662429cae1fa8973e8ad452005d035a53ae5b104a7ed165afb` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/FINDINGS_SOURCE.txt` | `cef760e9f89879dd2b4bfd1589ea0aa4d998b942e42701e24db0e60274db33d8` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/PROOF.md` | `4b95bc794f51458f33339aa58c5c48a7dd859b4ebe10f73740af78ac414e0a81` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/RECHECKS.md` | `b6b22243db78b7a5c62002fae26f574a4b151dd844d2fc4d54279203f7bf0c1f` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/SEAL.json` | `c370967afeceef9b3b5afd51dc2764f96fdb307f1e7512c3316e0469d5db026b` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/test_verify.py` | `e153e267bdbcf1307a43cab6a9fd2e04696f820d7d6a15f4d65f2781dd4c757e` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/test_verify_v2.py` | `6df6e52fec4c56b9840ac11de8bdeb8ad09348e301abab7b73917316744f6e39` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/verify.py` | `0a1b1b2a198d4e8c6083b679fea7d70be74ffb95678925b56c6a5a2f02560805` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_deformation_tangent_2026_09_25/verify_v2.py` | `226834120941e3c6d041e93794d366a020dd10ab3a563d2b67ce2615398a34ec` |
+| `reports/physical_bridge_2026_09_05/received_r54/reports/projective_escape_2026_09_21/verify.py` | `603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18` |

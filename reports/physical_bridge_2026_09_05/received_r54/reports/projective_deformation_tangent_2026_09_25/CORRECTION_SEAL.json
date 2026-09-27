@@ -1,0 +1,18 @@
+{
+  "arc": "F15 implementation correction",
+  "date": "2026-09-25",
+  "original_seal_commit": "8fb4cbcd",
+  "original_import_seal": "SEAL.json",
+  "status": "pre-corrected-execution; original scientific files unchanged",
+  "hash_receipt": "a297c1",
+  "sha256": {
+    "reports/projective_deformation_tangent_2026_09_25/CORRECTION.md": "72c7332e47b168b3b1e0e9b4c707ed575b031e179b14c52835feaeb65380202d",
+    "reports/projective_deformation_tangent_2026_09_25/verify_v2.py": "226834120941e3c6d041e93794d366a020dd10ab3a563d2b67ce2615398a34ec",
+    "reports/projective_deformation_tangent_2026_09_25/test_verify_v2.py": "6df6e52fec4c56b9840ac11de8bdeb8ad09348e301abab7b73917316744f6e39",
+    "reports/projective_deformation_tangent_2026_09_25/DESIGN.md": "c97575af9f32da927511a3e9d592dee61a52b4008f2e250ee0b7a7f7fd528a17",
+    "reports/projective_deformation_tangent_2026_09_25/PROOF.md": "4b95bc794f51458f33339aa58c5c48a7dd859b4ebe10f73740af78ac414e0a81",
+    "reports/projective_deformation_tangent_2026_09_25/verify.py": "0a1b1b2a198d4e8c6083b679fea7d70be74ffb95678925b56c6a5a2f02560805",
+    "reports/projective_deformation_tangent_2026_09_25/test_verify.py": "e153e267bdbcf1307a43cab6a9fd2e04696f820d7d6a15f4d65f2781dd4c757e",
+    "reports/projective_escape_2026_09_21/verify.py": "603c078e80506e7e4e6ee778c8e51cd57cdb9739dbda9f8ce3ce346d8774ac18"
+  }
+}
