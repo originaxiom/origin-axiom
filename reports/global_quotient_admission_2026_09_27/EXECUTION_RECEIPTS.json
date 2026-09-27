@@ -1,0 +1,83 @@
+{
+  "original_seal": "496ee5c1d2e7ea83a3747f6f15f2917ed9291363",
+  "repair_seal": "6d16ed480e541248817e4242fc7b98099a06d8b8",
+  "first_run": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/global_quotient_admission_2026_09_27/verify_admission.py",
+    "events": [
+      {
+        "chunk_id": "251c46",
+        "wall_time_seconds": 0.757036167,
+        "exit_code": 1,
+        "original_token_count": 382,
+        "output": "PARENT {\"all_parent_weight_multiplicities\": 248, \"SM_connected_centralizer_dimension\": 25, \"without_Y_centralizer_dimension\": 35, \"line_structure_kernel_mod5\": [[0, 0], [1, 4], [2, 3], [3, 2], [4, 1]], \"five_sector_dictionary_and_actual_duals\": true, \"connected_compact_group\": \"U(5)\", \"disconnected_components_classified\": false}\nTraceback (most recent call last):\n  File \"/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/global_quotient_admission_2026_09_27/verify_admission.py\", line 206, in <module>\n    run()\n  File \"/Users/dri/oa-audit-seat/aud1t/chatgpt6/origin-axiom-fork-2026-09-20/reports/global_quotient_admission_2026_09_27/verify_admission.py\", line 201, in run\n    print(key, json.dumps(result), flush=True)\n               ^^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/__init__.py\", line 231, in dumps\n    return _default_encoder.encode(obj)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py\", line 200, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py\", line 258, in iterencode\n    return _iterencode(o, 0)\n           ^^^^^^^^^^^^^^^^^\n  File \"/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type NegativeOne is not JSON serializable\n"
+      }
+    ]
+  },
+  "repaired_native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/global_quotient_admission_2026_09_27/verify_admission_v2.py",
+    "events": [
+      {
+        "chunk_id": "dd24f9",
+        "wall_time_seconds": 0.693362856,
+        "exit_code": 0,
+        "original_token_count": 453,
+        "output": "PARENT {\"all_parent_weight_multiplicities\": 248, \"SM_connected_centralizer_dimension\": 25, \"without_Y_centralizer_dimension\": 35, \"line_structure_kernel_mod5\": [[0, 0], [1, 4], [2, 3], [3, 2], [4, 1]], \"five_sector_dictionary_and_actual_duals\": true, \"connected_compact_group\": \"U(5)\", \"disconnected_components_classified\": false}\nTOPOLOGY {\"relation_matrix\": [[-1, -3, 1, 0, 0, 0, 1], [0, 1, -3, 1, 0, 0, 0], [0, 0, 1, -3, 1, 0, 0], [0, 0, 0, 1, -3, 1, 0], [-1, 0, 0, 0, 1, -3, 1], [3, 1, 0, 0, 0, 1, -3]], \"free_splitting\": [1, 0, 0, 0, 0, 0, 1], \"smith_factors_after_free_split\": [1, 1, 1, 1, 8, 40], \"torsion_character_count\": 320, \"fifth_image_count\": 64, \"fifth_kernel_count\": 5, \"lift_obstruction_class_count\": 5, \"witness_phases_mod40\": [0, 22, 33, 37, 38, 37, 33], \"witness_coset_representatives_mod40\": [[0, 0, 0, 0, 0, 0, 0], [0, 22, 33, 37, 38, 37, 33], [0, 4, 26, 34, 36, 34, 26], [0, 26, 19, 31, 34, 31, 19], [0, 8, 12, 28, 32, 28, 12]], \"all_cosets_exhaustive_and_disjoint\": true, \"longitude_character_trivial\": true}\nWITNESS {\"diagonal_generator_phases_mod40\": [[0, 0, 0, 0, 0], [22, 0, 0, 0, 0], [33, 0, 0, 0, 0], [37, 0, 0, 0, 0], [38, 0, 0, 0, 0], [37, 0, 0, 0, 0], [33, 0, 0, 0, 0]], \"charged_ranks\": {\"Q\": 5, \"u\": 5, \"e\": 5, \"d\": 10, \"L\": 10}, \"honest_unitary_representation\": true, \"all_peripheral_matrices_identity\": true, \"separate_flat_lift_exists\": false, \"Psi\": 0, \"net_chirality_by_unitary_dual_pairing\": 0, \"individual_mode_dimensions_computed\": false, \"exact_SM_unbroken_group_claimed\": false}\nCONTROLS {\"C4_fifth_power_surjective\": true, \"C5_fifth_power_not_surjective\": true, \"all_320_scalar_twists_preserve_nonliftability\": true, \"all_320_determinants_of_scalar_twists_of_SL5_lift\": true}\nPASS: combined quotient admits additional flat sectors; no chiral spectrum constructed\n"
+      }
+    ]
+  },
+  "focused": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/global_quotient_admission_2026_09_27/test_admission.py reports/global_quotient_admission_2026_09_27/test_serialization.py",
+    "events": [
+      {
+        "chunk_id": "8a3ed3",
+        "wall_time_seconds": 1.001082844,
+        "session_id": 87499,
+        "original_token_count": 25,
+        "output": "............                                                             [100%]\n12 passed in 0.56s\n"
+      },
+      {
+        "chunk_id": "01cc59",
+        "wall_time_seconds": 0.000014554,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    ]
+  },
+  "combined": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/charged_l2_bridge_2026_09_27/test_bridge.py reports/monomial_harmonic_background_2026_09_27/test_harmonic_background.py reports/monomial_harmonic_background_2026_09_27/test_parent_projection.py reports/common_hypercharge_gate_2026_09_27/test_common_line.py reports/common_hypercharge_gate_2026_09_27/test_common_line_locks.py reports/monomial_matter_locus_2026_09_27/test_matter_locus.py reports/monomial_matter_locus_2026_09_27/test_classification_locks.py reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py reports/five_point_monomial_gate_2026_09_27/test_monomial.py reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py reports/monomial_gauge_centralizer_2026_09_27/test_centralizer.py reports/monomial_gauge_centralizer_2026_09_27/test_cubic.py reports/global_quotient_admission_2026_09_27/test_admission.py reports/global_quotient_admission_2026_09_27/test_serialization.py",
+    "events": [
+      {
+        "chunk_id": "ab070d",
+        "wall_time_seconds": 1.00194279,
+        "session_id": 66423,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "034212",
+        "wall_time_seconds": 5.002446319,
+        "session_id": 66423,
+        "original_token_count": 8,
+        "output": ".............................."
+      },
+      {
+        "chunk_id": "1b771d",
+        "wall_time_seconds": 0.000013531,
+        "exit_code": 0,
+        "original_token_count": 179,
+        "output": ".......................................... [ 46%]\n........................................................................ [ 92%]\n............                                                             [100%]\n=============================== warnings summary ===============================\nreports/global_sl5_seed_2026_09_27/test_global_seed.py::test_diagram_and_rewrite_proof\n  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available\n    warnings.warn('Plink failed to import tkinter, GUI will not be available')\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n156 passed, 1 warning in 28.77s\n"
+      }
+    ]
+  },
+  "final_hashes": {
+    "chunk_id": "16fa07",
+    "wall_time_seconds": 0.00001488,
+    "exit_code": 0,
+    "original_token_count": 348,
+    "output": "5acba96e84a39529a471aa9011f94fb10a48f3c44b208600d136ad68dcfed99a  reports/global_quotient_admission_2026_09_27/DESIGN.md\n753203d51e146fd8726d09bf43d7c1c80c95a88022aa86b05e28c58cdef5db59  reports/global_quotient_admission_2026_09_27/PROOF.md\nc18fdeff80b680319b51a05f749b99e40e2c22e5515714588524af8542931c88  reports/global_quotient_admission_2026_09_27/INPUTS.json\n5c1814e29edc0e9fb82e4c6c3816fd38e1827d97d35b00f022a212dcc9107e95  reports/global_quotient_admission_2026_09_27/verify_admission.py\nc350fd67d5242d8242bc3d7b40ea09de83bf64687de6fe162cd68667c4a8c4a6  reports/global_quotient_admission_2026_09_27/test_admission.py\nedd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f  reports/m6_parent_admission_2026_09_27/verify_parent_admission.py\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n7ac275743033b457f6fe3b7d63e9aa73e51e57995a16c8bf5c8eaf860a75f8e3  reports/global_quotient_admission_2026_09_27/SERIALIZATION_REPAIR.md\n37d9658d834769d4fc8ab0a88154e8804675abd69cc5af9af1592b85a0ded3aa  reports/global_quotient_admission_2026_09_27/verify_admission_v2.py\n99a03114a31c6b6b30ae7b405cf8e32f55e832124feb54203e767727a0b639f0  reports/global_quotient_admission_2026_09_27/test_serialization.py\n"
+  },
+  "all_11_hashes_unchanged": true,
+  "scientific_result_changes": [],
+  "preserved_failure": "Original native JSON serialization TypeError; reporting-only successor"
+}

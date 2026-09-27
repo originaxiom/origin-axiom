@@ -1,0 +1,242 @@
+{
+  "PARENT": {
+    "all_parent_weight_multiplicities": 248,
+    "SM_connected_centralizer_dimension": 25,
+    "without_Y_centralizer_dimension": 35,
+    "line_structure_kernel_mod5": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "five_sector_dictionary_and_actual_duals": true,
+    "connected_compact_group": "U(5)",
+    "disconnected_components_classified": false
+  },
+  "TOPOLOGY": {
+    "relation_matrix": [
+      [
+        -1,
+        -3,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        -3,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        -3,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        -3,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        0,
+        1,
+        -3,
+        1
+      ],
+      [
+        3,
+        1,
+        0,
+        0,
+        0,
+        1,
+        -3
+      ]
+    ],
+    "free_splitting": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "smith_factors_after_free_split": [
+      1,
+      1,
+      1,
+      1,
+      8,
+      40
+    ],
+    "torsion_character_count": 320,
+    "fifth_image_count": 64,
+    "fifth_kernel_count": 5,
+    "lift_obstruction_class_count": 5,
+    "witness_phases_mod40": [
+      0,
+      22,
+      33,
+      37,
+      38,
+      37,
+      33
+    ],
+    "witness_coset_representatives_mod40": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        22,
+        33,
+        37,
+        38,
+        37,
+        33
+      ],
+      [
+        0,
+        4,
+        26,
+        34,
+        36,
+        34,
+        26
+      ],
+      [
+        0,
+        26,
+        19,
+        31,
+        34,
+        31,
+        19
+      ],
+      [
+        0,
+        8,
+        12,
+        28,
+        32,
+        28,
+        12
+      ]
+    ],
+    "all_cosets_exhaustive_and_disjoint": true,
+    "longitude_character_trivial": true
+  },
+  "WITNESS": {
+    "diagonal_generator_phases_mod40": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        33,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        37,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        38,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        37,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        33,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "charged_ranks": {
+      "Q": 5,
+      "u": 5,
+      "e": 5,
+      "d": 10,
+      "L": 10
+    },
+    "honest_unitary_representation": true,
+    "all_peripheral_matrices_identity": true,
+    "separate_flat_lift_exists": false,
+    "Psi": 0,
+    "net_chirality_by_unitary_dual_pairing": 0,
+    "individual_mode_dimensions_computed": false,
+    "exact_SM_unbroken_group_claimed": false
+  },
+  "CONTROLS": {
+    "C4_fifth_power_surjective": true,
+    "C5_fifth_power_not_surjective": true,
+    "all_320_scalar_twists_preserve_nonliftability": true,
+    "all_320_determinants_of_scalar_twists_of_SL5_lift": true
+  }
+}
