@@ -752,3 +752,18 @@ The exact finite controls certify identities, not the global PDE proof.
 | The model central q correction can grow linearly while remaining in every finite Lp | In the exact limiting canonical metric delta(dt)=-1/(4ak0), Delta(r)=1/a; sigma=-rD/(4k0) makes D dt-d sigma coclosed. This is a model identity, not an actual-end expansion, a global primitive, or an obstruction theorem. | B1138 context only; R51 proof section 5; tests/test_physical_bridge_neutral_existence.py::test_model_radial_correction_is_not_a_bounded_gauge_claim |
 
 R51 report: reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.
+
+## September 27, 2026 - R52 strong-domain continuity sublemmas
+
+Conditional authored applications in the fixed canonical model, not
+independent theorem acceptance. Original fixture failures and separately
+sealed supplements remain visible; finite controls do not certify PDEs.
+
+| law (scoped statement) | content and limitation | provenance / control |
+|---|---|---|
+| Small reference tension gives a linear actual-cusp distance barrier | For R51's harmonic completions on fixed g0, the reference tension is O(abs(log(q/q0))); joint target-distance convexity, negative geometric height Laplacian and the anchored L2 estimate bound distance by a vanishing collar constant plus a small linear slope. No bounded gauge or outer boundary value is assumed. | B1138 supplied-parent context only; reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY_PROOF.md sections 1--2; tests/test_physical_bridge_neutral_continuity.py::test_barrier_sign_slope_and_negative_controls supports model identities, not independent global review |
+| Small distance slope yields an integrable transported-field envelope | In uniformly normalized lifted charts, local harmonic-map and matrix elliptic estimates give at most finite-exponential growth in target radius. Sylvester differentiation handles noncommuting positive square roots. A strict 4L epsilon<1 margin gives fields in L4 and first derivatives in L2. | B1138 conditional context only; R52 proof sections 3--4; tests/test_physical_bridge_neutral_continuity.py::test_strict_weighted_integrability_and_L2_counterexample; tests/test_physical_bridge_neutral_square_root_diagnostic.py::test_new_fixture_rejects_both_incorrect_derivative_shortcuts; original commuting fixture remains failed |
+| Exact nearby solutions form a continuous stationary curve in the same X | Positive isometric transport, local smooth continuity and an integrable common envelope yield continuity in Dom(Q0) intersect L4 and exact zero residual potential. Not parameter differentiability, a kinetic tensor, quantum flatness or a forced action. | B1138 supplied action only; R52 proof section 4; tests/test_physical_bridge_neutral_continuity.py::test_positive_isometry_transports_actual_flat_connection; global dominated-convergence application remains authored |
+| Full-parent longitude character distinguishes the nearby minima | For the actual admitted family, T248=54+48(q+q^-1)+30(q^2+q^-2)+16(q^3+q^-3)+3(q^4+q^-4), strictly monotone separately on (0,1) and (1,infinity). Distinct nearby full-parent gauge orbits, not global reciprocal distinction or vacuum selection. | B1138 actual parent branching; R52 proof section 5; tests/test_physical_bridge_neutral_continuity.py::test_literal_parent_detector_and_root_enumeration; test_parent_detector_is_local_not_global_reciprocal_distinction |
+
+R52 report: reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY.md.

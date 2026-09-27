@@ -1,5 +1,27 @@
 # One-model audit: which positive results actually compose?
 
+**Current path-local result, R52 (September 27): exact fields in the nonlinear domain.**
+On each FIXED canonical q0>0,q0!=1 base, the nearby exact harmonic
+solutions form a continuous curve in X=Dom(Q0) intersect L4 after
+positive isometric transport to H0. They have zero classical potential
+and distinct full-parent gauge orbits. Grade: conditional authored
+analysis under inherited global inputs, not independent proof acceptance.
+A linear target-distance barrier and controlled exponential growth join
+R51's exact solutions to the same action domain. Parameter differentiability,
+identification with R47's harmonic tangent and normalized kinetics remain.
+Original native 33/35 and dedicated 11 pass/2 fail exposed a commuting
+fixture mistakenly chosen as noncommuting. Its separately sealed
+supplement passes 13/13 checks and 4 tests; originals stay untouched.
+Final eleven-file regression: 125 pass / 4 retained failures, including
+two older comparator failures. Seals e7006dab and 58860e3b were each
+pushed/server-confirmed before execution. Report:
+reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY.md.
+Next: derivative/kinetic and normalized interaction tensors, selection,
+physical spectrum/chirality, quantum/anomaly consistency and gravity.
+Fork 4b0180ad's new lifted common-hypercharge report is read, not rerun
+or adopted as a premise. Its rank-five dynamics task is complementary.
+Older dated entries below are historical, not today's unresolved duties.
+
 **Current path-local result, R51 (September 27): exact harmonic completion.**
 For each fixed canonical q0>0,q0!=1 base, the nearby actual flat q-family
 has a unique finite-energy harmonic coefficient metric, continuous in

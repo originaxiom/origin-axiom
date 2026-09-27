@@ -3623,3 +3623,34 @@ reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
   tensors, actual physical spectrum, source/end/parent/phase/scale
   selection, anomaly/quantum and gravitational completion, empirical
   tests; distinct nonsplit and R40/R41 routes. No new universal kill.
+
+## R52 disposition - September 27, 2026
+
+- **Strong-domain subproblem advanced:** "The nearby exact harmonic
+  completions on each fixed canonical background yield a continuous
+  curve of distinct zero-potential gauge orbits in X=Dom(Q0) intersect
+  L4 after positive isometric transport." Conditional authored scope:
+  reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY_PROOF.md.
+  This is local to the supplied family/action, not a full-object closure.
+- **Immediate duty:** prove parameter differentiability in a compact-gauge
+  slice and identify the derivative with R47's harmonic mode/R50's two-jet.
+  Compute the finite-positive normalized kinetic tensor. The collar
+  distance constant tends to zero but no O(abs(s)) rate was proved.
+  Continuity of static configurations is not a velocity estimate.
+- **Next constructive analytic option:** combine the global adjoint
+  zero-form inverse already used by R50 with a weighted nonlinear
+  difference-quotient estimate. Any inverse-function argument must
+  control the cusp growth and actual nonlinear norm, not assume L-infinity.
+  This is a proposed test, not a result or a new obstruction theorem.
+- **Review:** independent scrutiny of the distance/tension maximum
+  principle, explicit target-radius derivative growth and inherited
+  geometry. The real commuting-fixture defect is retained; a separate
+  noncommuting supplement passes, not a retroactive clean first run.
+- **Coordination only:** fork 4b0180ad reports that common lifted flat
+  hypercharge lines cannot meet the ordinary-index target in its two
+  rank-five families. Paired modes remain; all SL5 backgrounds and physical
+  chirality are not classified. Full proof/report read, producer not rerun.
+- **Retained:** normalized interactions, full light spectrum, parent/
+  coefficient/source/end/phase/scale selection, anomaly/quantum and
+  gravitational completion, empirical tests and full-banking debts.
+  R48 pairing and the separate R40/R41/nonsplit routes remain.

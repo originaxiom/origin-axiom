@@ -1,4 +1,26 @@
-# Verdict toward the full physical-theory goal - R51, updated 2026-09-27
+# Verdict toward the full physical-theory goal - R52, updated 2026-09-27
+
+**Current path-local result, R52 (September 27): exact fields in the nonlinear domain.**
+On each FIXED canonical q0>0,q0!=1 base, the nearby exact harmonic
+solutions form a continuous curve in X=Dom(Q0) intersect L4 after
+positive isometric transport to H0. They have zero classical potential
+and distinct full-parent gauge orbits. Grade: conditional authored
+analysis under inherited global inputs, not independent proof acceptance.
+A linear target-distance barrier and controlled exponential growth join
+R51's exact solutions to the same action domain. Parameter differentiability,
+identification with R47's harmonic tangent and normalized kinetics remain.
+Original native 33/35 and dedicated 11 pass/2 fail exposed a commuting
+fixture mistakenly chosen as noncommuting. Its separately sealed
+supplement passes 13/13 checks and 4 tests; originals stay untouched.
+Final eleven-file regression: 125 pass / 4 retained failures, including
+two older comparator failures. Seals e7006dab and 58860e3b were each
+pushed/server-confirmed before execution. Report:
+reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY.md.
+Next: derivative/kinetic and normalized interaction tensors, selection,
+physical spectrum/chirality, quantum/anomaly consistency and gravity.
+Fork 4b0180ad's new lifted common-hypercharge report is read, not rerun
+or adopted as a premise. Its rank-five dynamics task is complementary.
+Older dated entries below are historical, not today's unresolved duties.
 
 **Current path-local result, R51 (September 27): exact harmonic completion.**
 For each fixed canonical q0>0,q0!=1 base, the nearby actual flat q-family
@@ -77,10 +99,14 @@ completion of the corresponding physical-theory requirements.
   harmonic completions for the nearby flat family on the FIXED base;
   prove uniqueness and smooth-on-compacts continuity. No strong-domain
   differentiability or physical modulus is inferred from this topology.
-- [ ] **Immediate canonical task:** join R51's exact solutions to R50's
-  two-jet in X=Dom(Q0) intersect L4, establish parameter differentiability
-  and identify the compact-gauge-fixed derivative/kinetic tensor. Resolve
-  end-central radial growth without assuming bounded gauge transforms.
+- [x] R52, conditional authored grade: the actual exact solutions form
+  a continuous curve in the SAME X=Dom(Q0) intersect L4; a full-parent
+  character distinguishes nearby zero-potential gauge orbits. The
+  unbounded-gauge issue is controlled, not suppressed by assumption.
+- [ ] **Immediate canonical task:** establish parameter differentiability
+  in a compact-gauge slice and identify the derivative with R47's
+  harmonic tangent/R50's two-jet. Obtain the normalized kinetic tensor;
+  continuity and finite static differences do not prove finite velocities.
   Full kernel count and normalized interactions remain explicit.
 - [ ] **Incoming nonsplit interface:** verify B1378/B1384's actual deck
   lift, induction/cusp maps and parent embedding. Resolve the physical

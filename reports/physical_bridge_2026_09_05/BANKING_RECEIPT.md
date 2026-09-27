@@ -1090,3 +1090,32 @@ reporting governance run retains those same four categories (26 pass,
 4 fail); review-due advances to 218 after the science seal. All three
 first outputs are embedded with raw hashes in the receipt. No scientific
 correction or omitted new failed test is hidden by this accounting.
+
+## R52 local checkpoint, September 27, 2026
+
+Original seal e7006dab and post-result supplemental seal 58860e3b were
+both pushed and server-confirmed before their respective scientific runs.
+Nine science files and 77 predecessor inputs are frozen. Original native
+33/35 and dedicated 11 pass/2 fail expose a real commuting-fixture mistake;
+supplemental native 13/13 and 4 tests pass. Final eleven-file regression
+125 pass/4 fail preserves both new fixture failures and both old comparator
+failures. No test was overwritten or counted as passing after failing.
+
+The proof is conditional authored analysis. Finite controls do not
+provide independent global review or normalized q kinetics. All first
+outputs/exits are retained, including the failed originals. Raw pytest
+whitespace remains exact after declared environment-path redaction.
+Preseal and supplemental custody audits pass; both governance runs keep
+26 passes and the same four old debt categories, with review-due 219/220.
+No gate is changed; no full-suite green, main merge or completed independent
+banking pass is claimed. [Report](NEUTRAL_CONTINUITY.md),
+[receipts](NEUTRAL_CONTINUITY_RECEIPTS.json) and
+[read-only custody check](neutral_continuity_receipt_check.rb).
+
+R52 first reporting custody and cumulative audits pass: nine unchanged
+science files, 77 inputs, 17 captures at that audit, 867 latest artifacts
+and 270 distinct seals in the cumulative checker population. Governance
+retains 26 pass/4 old fail; review-due 221. These three first audit outputs
+are added to the receipt (20 captures total). No new gate failure or
+scientific change is concealed. Full-suite and independent-review debts
+remain; the focused regression is explicitly not green.

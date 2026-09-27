@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "barrier": {
+      "geometric_laplacian_height_negative": true,
+      "volume_weight": true,
+      "linear_supersolution": true,
+      "positive_comparison_example": true,
+      "wrong_sign_rejected": true,
+      "half_slope_fails_worst_source": true
+    },
+    "envelope": {
+      "independent_improper_integrals": true,
+      "strict_L4_margin_finite": true,
+      "endpoint_diverges": true,
+      "endpoint_polynomial_diverges": true,
+      "L2_does_not_imply_L4": true,
+      "linear_growth_is_integrable": true
+    },
+    "matrix": {
+      "noncommuting_example": false,
+      "first_sylvester_derivative": true,
+      "second_sylvester_derivative": true,
+      "commuting_shortcut_rejected": false,
+      "missing_quadratic_term_rejected": true,
+      "positive_isometry": true,
+      "self_adjoint_and_squared": true,
+      "not_Euclidean_square_root": true,
+      "matrix_harmonic_equation_geodesic": true,
+      "positive_nonharmonic_control": true
+    },
+    "transport": {
+      "positive_det_one_transport": true,
+      "transported_connection_flat": true,
+      "wrong_transport_sign_rejected": true
+    },
+    "parent": {
+      "literal_longitude_determinant": true,
+      "literal_defining_trace": true,
+      "literal_dual_trace": true,
+      "actual_exterior_trace": true,
+      "literal_parent_character": true,
+      "independent_root_character": true,
+      "reciprocal_symmetry": true,
+      "strict_monotonicity_factor": true,
+      "omitting_dual_sector_rejected": true,
+      "central_twist_trivial_on_longitude": true
+    }
+  },
+  "passed": 33,
+  "total": 35,
+  "all_checks_pass": false,
+  "global_PDE_numerically_solved": false,
+  "global_analytic_proof_machine_verified": false,
+  "parameter_derivative_established": false,
+  "physical_chirality_derived": false
+}

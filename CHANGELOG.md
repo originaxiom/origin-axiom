@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-09-27 - R52 continuous exact stationary curve in the same domain
+
+The fixed-canonical-base exact harmonic solutions enter X=Dom(Q0)
+intersect L4 continuously after positive isometric transport. Their
+zero-potential configurations have distinct full-parent longitude
+characters. Conditional authored analysis, not independent acceptance
+or parameter differentiability/kinetic normalization. Original native
+33/35 and dedicated 11 pass/2 fail exposed a genuinely commuting test
+fixture. A separately pre-run-sealed noncommuting supplement passes
+13/13 checks and 4 tests; original failures are retained. Final eleven-
+file regression 125 pass/4 fail, two older and two fixture failures.
+Science seals e7006dab and 58860e3b were each pushed/server-confirmed.
+All nine science and 77 input paths remain unchanged. The fork's lifted
+common-hypercharge report was read for coordination, not independently
+rerun. Physical selection, spectrum/chirality, quantum and gravity remain.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY.md.
+
 ## 2026-09-27 - R51 actual fixed-base harmonic completion
 
 An authored finite-energy/exhaustion argument constructs a unique harmonic

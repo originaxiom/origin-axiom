@@ -16,6 +16,18 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 27 R52 supplies the exact solutions' continuous strong-domain
+join: transported fields lie in the SAME X and are distinct classical
+zero-potential minima, at conditional authored analytic grade. Next
+prove q differentiability and identify the compact-gauge harmonic tangent
+and normalized kinetic tensor; do not call static L2 differences a time
+derivative. The first noncommuting fixture failed and is preserved; the
+separately sealed correct control passes. R48 pairing remains intact.
+The fork's all-common-line rank-five index result is read, not rerun;
+its global dynamics task complements this lane. The full physical
+selection/spectrum/quantum/gravity duties remain, with no universal kill.
+See reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY.md.
+
 September 27 R51 advances exact nonlinear existence on the FIXED canonical
 base: unique finite-energy harmonic metrics for the nearby q-family,
 continuous on compact subsets, at conditional authored analytic grade.

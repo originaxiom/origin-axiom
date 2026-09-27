@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "original_fixture_is_polynomial_in_S": true,
+    "original_fixture_commutes": true,
+    "original_failures_preserved": true,
+    "replacement_commutator_explicit": true,
+    "positive_S": true,
+    "direct_first_derivative": true,
+    "first_solution_noncommuting": true,
+    "direct_second_derivative": true,
+    "second_solution_noncommuting": true,
+    "commuting_shortcut_rejected": true,
+    "second_product_omission_rejected": true,
+    "fully_symbolic_symmetric_tangent": true,
+    "positive_sylvester_spectrum": true
+  },
+  "passed": 13,
+  "total": 13,
+  "all_checks_pass": true,
+  "original_fixture_repaired_in_place": false,
+  "global_analytic_proof_machine_verified": false
+}

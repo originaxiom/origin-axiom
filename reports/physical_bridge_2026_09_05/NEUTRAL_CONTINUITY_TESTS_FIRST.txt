@@ -1,0 +1,28 @@
+........F...F                                                            [100%]
+=================================== FAILURES ===================================
+__________ test_matrix_square_root_requires_noncommuting_derivatives ___________
+
+    def test_matrix_square_root_requires_noncommuting_derivatives():
+>       assert all(r.matrix_controls().values())
+E       AssertionError: assert False
+E        +  where False = all(dict_values([False, True, True, False, True, True, True, True, True, True]))
+E        +    where dict_values([False, True, True, False, True, True, True, True, True, True]) = <built-in method values of dict object at 0x10f87e180>()
+E        +      where <built-in method values of dict object at 0x10f87e180> = {'commuting_shortcut_rejected': False, 'first_sylvester_derivative': True, 'matrix_harmonic_equation_geodesic': True, 'missing_quadratic_term_rejected': True, ...}.values
+E        +        where {'commuting_shortcut_rejected': False, 'first_sylvester_derivative': True, 'matrix_harmonic_equation_geodesic': True, 'missing_quadratic_term_rejected': True, ...} = <functools._lru_cache_wrapper object at 0x10f372c40>()
+E        +          where <functools._lru_cache_wrapper object at 0x10f372c40> = r.matrix_controls
+
+tests/test_physical_bridge_neutral_continuity.py:37: AssertionError
+_____________ test_all_declared_finite_controls_not_the_global_PDE _____________
+
+    def test_all_declared_finite_controls_not_the_global_PDE():
+        groups = r.controls()
+        assert sum(map(len, groups.values())) == 35
+>       assert all(bool(v) for group in groups.values() for v in group.values())
+E       assert False
+E        +  where False = all(<generator object test_all_declared_finite_controls_not_the_global_PDE.<locals>.<genexpr> at 0x10cc8edc0>)
+
+tests/test_physical_bridge_neutral_continuity.py:57: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_physical_bridge_neutral_continuity.py::test_matrix_square_root_requires_noncommuting_derivatives
+FAILED tests/test_physical_bridge_neutral_continuity.py::test_all_declared_finite_controls_not_the_global_PDE
+2 failed, 11 passed in 3.08s

@@ -15626,3 +15626,36 @@ spectrum, chirality, quantum/anomaly and gravity duties. The common-model
 audit's stale R48 front is refreshed alongside the law/lead/mission
 surfaces. Historical governance and independent/full-banking debts remain.
 Report: reports/physical_bridge_2026_09_05/NEUTRAL_EXISTENCE.md.
+
+## 2026-09-27 — R52 exact stationary fields in the fixed nonlinear space
+
+R51's actual fixed-base harmonic completions now enter the SAME
+X=Dom(Q0) intersect L4 continuously, at conditional authored analytic
+grade. The reference tension is O(|log(q/q0)|); a linear target-distance
+barrier, controlled matrix elliptic estimates and noncommuting positive
+square-root derivatives provide an integrable small-rate exponential
+envelope. The full E8 longitude character separates nearby gauge orbits.
+These are non-isolated classical zero-potential configurations of the
+supplied action, not a selected vacuum or earned physical chirality.
+
+The finite controls caught our own real fixture defect: X=2S-3I made
+the purported noncommuting tangent commute. Original native 33/35,
+dedicated 11 pass/2 fail, ten-file regression 121 pass/4 fail are preserved.
+A separately sealed supplemental fixture gives 13/13 and 4 tests pass.
+Final eleven-file regression: 125 pass / the same 4 failures, including
+the two pre-existing comparator cases. No original science was edited.
+Both seals e7006dab and 58860e3b were pushed/server-confirmed before their
+executions; nine scientific files and 77 predecessor paths remain frozen.
+
+Fork 4b0180ad common-hypercharge proof/report read personally, not rerun
+or adopted: its two rank-five monomial families retain paired modes but
+cannot meet the common ordinary-index three-generation target even with
+lifted flat hypercharge lines. This is not an all-coefficient chirality
+closure. Its next global dynamics task is complementary.
+
+Next is q differentiability in a compact-gauge slice, the identification
+with R47/R50 and actual normalized kinetics/interactions. Static L2
+differences do not prove finite time derivatives. Physical selection,
+spectrum/chirality, anomaly/quantum and gravity duties remain, as do
+independent analytic/full-banking review and historical governance debts.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_CONTINUITY.md.
