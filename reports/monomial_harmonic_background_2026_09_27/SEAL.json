@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_EXECUTION",
+  "input_commit": "4b0180ad",
+  "branch": "audit/fork-2026-09-20",
+  "files": {
+    "reports/monomial_harmonic_background_2026_09_27/DESIGN.md": "0e37646b384103541d151e64e99560b3003dff0e02c110a7a033d156c887e886",
+    "reports/monomial_harmonic_background_2026_09_27/PROOF.md": "257adbef011cdfab2e8df731fbb780104b0eefa8727efe9602aa38552c6b9bd0",
+    "reports/monomial_harmonic_background_2026_09_27/INPUTS.json": "ae7b71427949d0f634215669017787083ffa22095e10d33b79677921b25e23d8",
+    "reports/monomial_harmonic_background_2026_09_27/verify_harmonic_background.py": "2fb7b7855f41aceb846f1bcbb94077e937c7a458f2e3f58540156f2eca3ccfd9",
+    "reports/monomial_harmonic_background_2026_09_27/test_harmonic_background.py": "e83c116f8ec190180b018bcc613143aa9f660dc82b25387e69352507118b45b3",
+    "reports/monomial_exceptional_locus_2026_09_27/INPUTS.json": "a9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0",
+    "reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py": "939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9",
+    "reports/five_point_monomial_gate_2026_09_27/verify_monomial.py": "30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2",
+    "reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py": "ff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5",
+    "reports/global_sl5_seed_2026_09_27/INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "reports/global_sl5_seed_2026_09_27/verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "reports/global_sl5_seed_2026_09_27/verify_global_seed.py": "71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403"
+  },
+  "policy": "Exact global diagonal-class inputs and analytic controls; authored noncompact proof not machine-certified PDE; preserve gapless-sector cost."
+}
