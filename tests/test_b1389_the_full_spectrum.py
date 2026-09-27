@@ -52,3 +52,16 @@ def test_the_78s_broken_roots_spoil_every_frame():
     st = FS.states_for("F78", (Fr(0), Fr(1)))                               # pure gamma: the 78 gives a lone 5bar (L + d^c)
     n, named = FS.generations(FS.content(st))
     assert named == {"L": 1, "d^c": 1} and not FS.anomaly_free(FS.anomalies(st))
+
+
+def test_the_parity_law_on_the_gamma_slice():
+    """post-seal (FINDINGS section 7): with a = 0 the 78's gamma-charged roots give one 5bar (SU(5)^3 anomaly odd) and each 27-copy
+    an even amount, so no frame containing the 78 is anomaly-free there -- checked on F27+78, F133 and E8's (27,3) + 78"""
+    spec = importlib.util.spec_from_file_location("b1389_e8_frame", VER / "e8_frame.py")
+    E8 = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(E8)
+    FS = E8.FS
+    for st in (FS.states_for("F27+78", (Fr(0), Fr(1))), FS.states_for("F133", (Fr(0), Fr(1), Fr(1, 7))),
+               E8.states_e8(Fr(0), Fr(1), (Fr(1, 5), Fr(-1, 3), Fr(2, 15))), E8.states_e8(Fr(0), Fr(-2), (Fr(3), Fr(-1), Fr(-2)))):
+        A = E8.su5_anomaly(st)
+        assert A.denominator == 1 and A.numerator % 2 == 1

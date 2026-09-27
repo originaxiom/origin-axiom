@@ -1,0 +1,5 @@
+E8 frame, open regions: 3997 random directions with a != 0; X,Y partners chiral in 3997; pure generations in none
+E8 frame, the slice a = 0: 32 regions; SU(5)^3 anomaly odd in 32; anomaly-free generations in 0
+F27+78 on the gamma ray: SU(5)^3 anomaly -1
+F133 on the gamma ray: SU(5)^3 anomaly -1
+DONE

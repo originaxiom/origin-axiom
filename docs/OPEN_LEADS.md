@@ -3167,6 +3167,9 @@ component of dF there. The natural suspect is a hidden symmetry.
   direction. On the pure γ ray it is a lone 10 per unit N.
 - Non-abelian anomalies have no Green–Schwarz cure. So a consistent completion must carry the gauge sector's anomaly: chiral matter at
   the cusps (inflow) that is itself part of the spectrum.
+- A parity law (post-seal, B1389 §7) makes this general for every frame containing E₆, E₈ included. On the γ-slice the 78's 5̄
+  makes the SU(5)³ anomaly odd, so the ends must carry an odd amount per unit N. The minimal case is a 5 per unit N, which would
+  complete an anti-generation: 10s from the bulk, 5̄s from the ends. The anomaly allows this; it does not force it.
 
 This job is not optional, whichever answers the first two questions get. `frontier/B1389_the_full_spectrum`.
 

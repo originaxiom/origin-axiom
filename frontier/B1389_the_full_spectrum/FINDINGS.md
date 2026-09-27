@@ -156,8 +156,35 @@ total is a lone 10 per unit N.
   - the record's vectors, verbatim from B1368;
   - the banked identity and controls;
   - every cone of the four frames, with its content and anomalies.
+- `verification/e8_frame.py`, `verification/e8_frame_run.txt` — post-seal: the E₈ frame and the parity law (§7).
 - `tests/test_b1389_the_full_spectrum.py` — the lock:
   - the identity;
   - F27's cone and its universal U(1)_γ anomalies;
   - every cone of F78 and F27+78 failing;
   - the 78's lone 5̄ on the γ ray.
+
+## 7. After the seal: the E₈ frame and the parity law (unsealed; `verification/e8_frame.py`, record `e8_frame_run.txt`)
+
+The sealed test covered F27, F78, F27+78 and F133. The frame most natural to the record is E₈ ⊃ E₆ × SU(3) (B1268), with
+248 = (78,1) + (1,8) + (27,3) + (27̄,3̄). Its Higgs direction adds (h₁, h₂, h₃), summing to zero, on the SU(3) Cartan, and copy i of
+the 27 carries the charges ⟨H, w⟩ + h_i. The fuller frames fail for two structural reasons, and both carry over to it.
+
+1. **Off the γ-slice the X,Y partners are exotics.** Any Y-component in the Higgs direction (a ≠ 0) makes the 78's X,Y partners
+   (3,2)_{∓5/6} chiral.
+   - Every open region of every frame containing the 78 has a ≠ 0.
+   - In the E₈ frame, 3,997 random directions with a ≠ 0 all have them. None is pure generations.
+2. **On the γ-slice (a = 0) the anomaly is odd.**
+   - The 78's γ-charged roots contribute a single 5̄: SU(5)³ anomaly ±1.
+   - Every copy of the 27's spin-0 15 contributes an even amount: 0 for a generation, ±2 for a whole 15.
+   - So the total SU(5)³ anomaly is odd and never vanishes. All 32 regions of the E₈ frame's a = 0 slice are odd. F27+78 and F133 on
+     the γ ray give −1.
+
+**The law.** In any Pantev–Wijnholt frame whose gauge group contains E₆, with an abelian Higgs field in c(SM)'s Cartan plane and the
+commutant of E₆, the net chiral spectrum on a cuspidal member is never pure, anomaly-free generations.
+- The completion must therefore carry the anomaly.
+- On the γ-slice it must carry an odd SU(5)³ anomaly per unit of N.
+- The minimal way is a single 5 (or 10) per unit N at the cusps. With a 5, the total becomes one anti-generation per unit N: the 10s
+  from the bulk and the 5̄s from the ends. This is a possibility the anomaly allows, not one it forces: a 10̄ would cancel the 10 and
+  leave nothing chiral.
+
+Post-seal and unsealed. It generalises the sealed negative; it does not change the sealed verdict.

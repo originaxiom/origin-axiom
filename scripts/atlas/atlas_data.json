@@ -8085,6 +8085,7 @@
    "motifs": [
     "figure_eight",
     "eisenstein",
+    "golden",
     "z3_generation",
     "amphichiral_cp",
     "wrt_quantum"
@@ -8093,9 +8094,9 @@
     "B864"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 28,
+   "obstacle_conf": 32,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B138": {
    "slug": "s031 principal lemma",
