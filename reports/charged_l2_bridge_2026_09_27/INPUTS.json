@@ -1,0 +1,16 @@
+{
+  "seeds": [0, 1],
+  "cover": 6,
+  "coefficients": ["E", "wedge2E"],
+  "points": [
+    {"name": "one", "polynomial": ["1", "-1"]},
+    {"name": "minus_one", "polynomial": ["1", "1"]},
+    {"name": "i", "polynomial": ["1", "0", "1"]},
+    {"name": "two", "polynomial": ["1", "-2"]},
+    {"name": "primitive_fifth", "polynomial": ["1", "1", "1", "1", "1"]}
+  ],
+  "prior_E_interior_counts": {"one": 1, "minus_one": 2, "i": 2, "two": 0, "primitive_fifth": 0},
+  "prior_E_H0_counts": {"one": 1, "minus_one": 0, "i": 0, "two": 0, "primitive_fifth": 0},
+  "prior_boundary_fixed_dimensions": {"E": 3, "wedge2E": 4},
+  "scope": "Complete hyperbolic norm, bounded monomial harmonic background, unitary common line, globally lifted bundles; conditional local gauge model only"
+}

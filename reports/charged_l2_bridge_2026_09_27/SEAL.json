@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-27",
+  "branch": "audit/fork-2026-09-20",
+  "parent": "c395c877",
+  "lifecycle": "local pre-execution mechanism application",
+  "status": "unexecuted",
+  "hashes": {
+    "reports/charged_l2_bridge_2026_09_27/DESIGN.md": "cecb1b573c1750dd123cea6a76c1d53bc17c5053f5a653429e547814bc7885cd",
+    "reports/charged_l2_bridge_2026_09_27/PROOF.md": "191f9ec7bf906033d947576de8bf206bcc8a4f6cd04f7d6ef1f7bce18e85a42c",
+    "reports/charged_l2_bridge_2026_09_27/INPUTS.json": "0f8fe457fa2c177f559e767c23e59ffc67534f3a52092c2a1f419b2d3aff09ca",
+    "reports/charged_l2_bridge_2026_09_27/verify_bridge.py": "7a982ca9f4295aa21783b9d2d8f5ac8fd14be8e20a60b2dc89a9181415bade2f",
+    "reports/charged_l2_bridge_2026_09_27/test_bridge.py": "f5af28ec91fb3ec0b0c81858c4b1cd14e1abd208288a10cfd471c8b6fedbc30f",
+    "reports/monomial_harmonic_background_2026_09_27/PROOF.md": "257adbef011cdfab2e8df731fbb780104b0eefa8727efe9602aa38552c6b9bd0",
+    "reports/monomial_exceptional_locus_2026_09_27/INPUTS.json": "a9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0",
+    "reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py": "939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9",
+    "reports/five_point_monomial_gate_2026_09_27/verify_monomial.py": "30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2",
+    "reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py": "ff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5",
+    "reports/global_sl5_seed_2026_09_27/INPUTS.json": "2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc",
+    "reports/global_sl5_seed_2026_09_27/verify_topology.py": "3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c",
+    "reports/global_sl5_seed_2026_09_27/verify_global_seed.py": "71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403",
+    "reports/common_hypercharge_gate_2026_09_27/PROOF.md": "c74f705d3ee3ed9c51d484fbd16b207b72dd46ac4359c6c98f0c7361b5a82e47",
+    "reports/common_hypercharge_gate_2026_09_27/INPUTS.json": "3e0a90fe4a9b2d8b702c43ae860cfb572298ef1dc73b06802da4b33d33aaa849",
+    "reports/common_hypercharge_gate_2026_09_27/verify_common_line.py": "6cb93f192cc49f2ef8ad6de4c810b4f76fe89f89c65895ec7b126c0bbdab0af0",
+    "reports/monomial_matter_locus_2026_09_27/PROOF.md": "dbab8e88426ec6d8b4f260733463725b096111ddae70ffc737d43f695ae7e479",
+    "reports/monomial_matter_locus_2026_09_27/verify_matter_locus.py": "7903204d86ca0fcb9d70c5fa308719d80dff582290b585fe6362de467a784e0f",
+    "reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py": "0274eae465909a39d2a5b2dca07137e8901cc39406c3962d9684e0aa5e8e1df4"
+  },
+  "grade": "Authored global analytic argument plus finite controls, not machine-certified PDE or independent review",
+  "other_seat_read": "739f50aa; R52 report read, not independently rerun"
+}
