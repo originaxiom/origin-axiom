@@ -25,6 +25,17 @@ ordering below. Physical-bridge f8c6ed1a's R50 report and R51 sealed design/proo
 were personally read, not independently executed. Its rank-four canonical
 analysis is not merged with our rank-five hyperbolic background by analogy.
 
+**Constructive follow-through:** the
+[rank-five harmonic result](../monomial_harmonic_background_2026_09_27/FINDINGS.md)
+adds an authored exact nonlinear finite-norm family and full-parent non-gauge
+tangent, with 112 exact focused tests passing. It simultaneously proves a
+zero neutral spectral threshold on this hyperbolic model. The background
+positive is not a chiral spectrum or a separated low-energy theory. The
+current roadmap now prioritizes the charged L2/interior comparison and
+actual gauge enhancement checks. The other seat's R51 report/R52 sealed
+attempt and real-fixture diagnostic at 58860e3b were read, not rerun;
+its four retained regression failures are not relabeled as success.
+
 ## Verdict and working objective
 
 The TOE ambition remains legitimate as a research aspiration, but “complete

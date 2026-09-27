@@ -1,0 +1,62 @@
+{
+  "seal": "fe0c2d712fc87cd575b4e43c012feda0ab31c7c1",
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -c 'import sys, json; sys.path.insert(0, \"reports/monomial_harmonic_background_2026_09_27\"); import verify_parent_projection as v; print(json.dumps({\"projection\": v.projection_control(), \"trace_factor\": v.actual_root_trace_control(), \"direct_sum_control\": v.direct_sum_gauge_control()}))'",
+    "seal": "fe0c2d712fc87cd575b4e43c012feda0ab31c7c1",
+    "events": [
+      {
+        "chunk_id": "ac5eac",
+        "wall_time_seconds": 0.973374311,
+        "exit_code": 0,
+        "original_token_count": 36,
+        "output": "{\"projection\": {\"projection_rank\": 4, \"root_count\": 240, \"non_normalizing_reflections\": 200}, \"trace_factor\": 60, \"direct_sum_control\": true}\n"
+      }
+    ]
+  },
+  "focused": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/monomial_harmonic_background_2026_09_27/test_parent_projection.py",
+    "events": [
+      {
+        "chunk_id": "c031f6",
+        "wall_time_seconds": 1.002816098,
+        "session_id": 17189,
+        "original_token_count": 1,
+        "output": "."
+      },
+      {
+        "chunk_id": "d12a4e",
+        "wall_time_seconds": 0.000020838,
+        "exit_code": 0,
+        "original_token_count": 25,
+        "output": "..                                                                      [100%]\n3 passed in 0.81s\n"
+      }
+    ]
+  },
+  "combined": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/monomial_harmonic_background_2026_09_27/test_harmonic_background.py reports/common_hypercharge_gate_2026_09_27/test_common_line.py reports/common_hypercharge_gate_2026_09_27/test_common_line_locks.py reports/monomial_matter_locus_2026_09_27/test_matter_locus.py reports/monomial_matter_locus_2026_09_27/test_classification_locks.py reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py reports/five_point_monomial_gate_2026_09_27/test_monomial.py reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py reports/monomial_harmonic_background_2026_09_27/test_parent_projection.py",
+    "seal": "fe0c2d712fc87cd575b4e43c012feda0ab31c7c1",
+    "events": [
+      {
+        "chunk_id": "add660",
+        "wall_time_seconds": 1.002792466,
+        "session_id": 51775,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "572347",
+        "wall_time_seconds": 0.000014555,
+        "exit_code": 0,
+        "original_token_count": 167,
+        "output": "........................................................................ [ 64%]\n........................................                                 [100%]\n=============================== warnings summary ===============================\nreports/global_sl5_seed_2026_09_27/test_global_seed.py::test_diagram_and_rewrite_proof\n  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available\n    warnings.warn('Plink failed to import tkinter, GUI will not be available')\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n112 passed, 1 warning in 23.67s\n"
+      }
+    ]
+  },
+  "hashes_after": {
+    "chunk_id": "9dbcbe",
+    "wall_time_seconds": 0.000022028,
+    "exit_code": 0,
+    "original_token_count": 521,
+    "output": "0e37646b384103541d151e64e99560b3003dff0e02c110a7a033d156c887e886  reports/monomial_harmonic_background_2026_09_27/DESIGN.md\n257adbef011cdfab2e8df731fbb780104b0eefa8727efe9602aa38552c6b9bd0  reports/monomial_harmonic_background_2026_09_27/PROOF.md\nae7b71427949d0f634215669017787083ffa22095e10d33b79677921b25e23d8  reports/monomial_harmonic_background_2026_09_27/INPUTS.json\n2fb7b7855f41aceb846f1bcbb94077e937c7a458f2e3f58540156f2eca3ccfd9  reports/monomial_harmonic_background_2026_09_27/verify_harmonic_background.py\ne83c116f8ec190180b018bcc613143aa9f660dc82b25387e69352507118b45b3  reports/monomial_harmonic_background_2026_09_27/test_harmonic_background.py\na9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0  reports/monomial_exceptional_locus_2026_09_27/INPUTS.json\n939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9  reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py\n30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2  reports/five_point_monomial_gate_2026_09_27/verify_monomial.py\nff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5  reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\nabe54546efc0e53058ad88c7f8f713e0e87ec508be28184f450ccbe6f73bd209  reports/monomial_harmonic_background_2026_09_27/FULL_PARENT_ADDENDUM.md\nb5ae0c89c9ad49a7530a8dd2c11bc8abbb9ca5c035d4ae5c0e8569eb6936f373  reports/monomial_harmonic_background_2026_09_27/verify_parent_projection.py\ne0e5206cf77468fd27ccb32b3a48304bfc2fdfb2ba8f0f38ebcd790a84a8d36f  reports/monomial_harmonic_background_2026_09_27/test_parent_projection.py\nedd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f  reports/m6_parent_admission_2026_09_27/verify_parent_admission.py\n"
+  }
+}

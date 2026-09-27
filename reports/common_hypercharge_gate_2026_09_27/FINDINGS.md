@@ -115,6 +115,12 @@ changing the zero index proved here. Any later chiral mechanism must name
 what changes: a different component, source/end law, nonflat background,
 operator prescription or quantum phase. None is supplied by this negative.
 
+**Later follow-through:** the [harmonic construction](../monomial_harmonic_background_2026_09_27/FINDINGS.md)
+now gives an authored exact finite-norm global family and full-parent
+non-gauge tangent, supported by 112 passing focused tests. It retains a
+gapless neutral cusp and does not change this ordinary-index result.
+The current roadmap moves to the actual charged operator/domain comparison.
+
 The full mission still owes a common physical spectrum and interactions,
 anomaly/quantum consistency, gravitational dynamics and empirical tests.
 We have not completed a TOE or established that the framework must describe

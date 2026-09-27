@@ -33,27 +33,46 @@ opportunities, not 22 established breakthroughs.
 These completed items have separate FINDINGS, code, exact receipts and scope
 statements. They are not interchangeable with physical spectrum derivation.
 
-## Next bounded work package: actual dynamics of a rank-five background
+## Completed bounded package: actual dynamics of a rank-five background
 
-The monomial exponent gives a candidate trace-free diagonal cocycle in
-a finite unitary permutation local system. This is a constructive lead,
-not yet an admissible solution. Work in this dependency order:
+The [harmonic-background result](../monomial_harmonic_background_2026_09_27/FINDINGS.md)
+now gives an AUTHORED global analytic construction under the stated
+hyperbolic-metric/action assumptions, supported by exact controls. It is
+not independently reviewed analysis or a numerical global PDE solution.
 
-- [ ] Independently verify the nonzero interior diagonal class, positive
+- [x] Independently verify the nonzero interior diagonal class, positive
       invariant metric, zero peripheral periods and ordinary gauge quotient.
-- [ ] Prove the global harmonic representative exists in the stated norm
-      on the complete hyperbolic carrier, with the required cusp decay.
-- [ ] Check the same parent action's full nonlinear curvature and moment
-      equations, global holonomy and finite physical kinetic norm.
-- [ ] Determine what genuine physical consequence this model fixes and
-      what remains chosen; compare with other seats on the SAME data.
+- [x] Give an authored proof of a global harmonic representative in the
+      stated norm on the complete hyperbolic carrier, including cusp decay.
+- [x] Check the same parent action's full nonlinear curvature and moment
+      equations, holonomy matching and finite positive kinetic coefficient.
+- [x] Check non-gauge character in the FULL E8 parent, not only structure SL5.
+- [x] Record the conditional consequence and its cost: a classical flat
+      direction, but zero in the neutral one-form essential spectrum.
 
-Stop-and-reassess criterion: if the class is gauge-trivial, the actual
-domain/energy fails, or the nonlinear argument requires unearned end data,
-preserve the exact failure and price the new hypothesis before proceeding.
-Do not develop arbitrarily many formal orders or repeat already classified
-characters. If successful, call it a conditional rank-five physical model,
-not a restoration of its absent chiral index or a selected vacuum.
+All 112 focused tests pass. No numerical K, selected parameter, isolated
+four-dimensional EFT or chiral spectrum is claimed. The supplied parent,
+metric and spacetime have not been derived from the framework.
+
+## Next bounded package: charged physical modes and actual gauge symmetry
+
+The [next operator-comparison plan](../monomial_harmonic_background_2026_09_27/NEXT_PHYSICAL_SPECTRUM.md)
+specifies these unexecuted duties:
+
+- [ ] Prove, or delimit, the map from complete L2 harmonic charged modes to
+      the already-computed ordinary INTERIOR classes in this same background.
+- [ ] Handle actual H0 and invariant cusp channels; do not invoke the old
+      acyclic-cusp compact-resolvent theorem where its hypothesis fails.
+- [ ] Compute the full-parent gauge centralizer at special parameters and
+      distinguish gauge enhancement from extra matter.
+- [ ] State the effect of the gapless continuum on the proposed reduction;
+      finite zero-mode norm alone is not a separated low-energy theory.
+
+Stop-and-reassess criterion: an unpaid domain or action assumption stays
+unpaid, even if the finite index is attractive. Preserve the positive
+background and the algebraic classes if their physical identification fails.
+Do not repeat character scans or add formal deformation orders in place
+of this operator/domain question.
 
 ## The chirality work that remains
 

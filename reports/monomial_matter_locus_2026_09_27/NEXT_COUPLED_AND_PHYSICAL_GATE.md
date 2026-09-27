@@ -7,6 +7,13 @@ these two families, with paired matter preserved. Section B remains an
 unexecuted constructive lead. The [current roadmap](../common_hypercharge_gate_2026_09_27/ROADMAP.md)
 keeps the physical and wider chiral obligations separate.
 
+**Later same-day follow-through:** section B now has an
+[authored global construction](../monomial_harmonic_background_2026_09_27/FINDINGS.md)
+supported by exact inputs/controls: a finite-norm exact nonlinear family
+and full-parent non-gauge tangent, with a gapless neutral cusp retained.
+It is not independently accepted analysis or a physical chiral spectrum.
+The current roadmap moves to the actual charged operator/domain comparison.
+
 The untwisted E coefficient is now completely classified. This result
 must inform the full physical goal, not replace it.
 
@@ -32,7 +39,7 @@ If even one required sector is proved unable to meet three for every
 admitted common line, record that scoped family obstruction. Otherwise
 compute all five sectors and their actual duals on the SAME background.
 
-## B. Constructive analytic lead, separate from chirality
+## B. Original constructive analytic lead -- now followed through as above
 
 The monomial exponent vector is a cocycle in the trace-free diagonal
 permutation module. Its generators are trace-free and its cusp exponent

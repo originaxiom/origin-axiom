@@ -118,6 +118,19 @@ a bounded constructive rank-five action/domain check and keeps the distinct
 chirality, quantum, gravity and empirical obligations visible. Physical-bridge
 R50 and the unexecuted R51 seal at f8c6ed1a were read, not independently replayed.
 
+The [rank-five harmonic construction](../monomial_harmonic_background_2026_09_27/FINDINGS.md)
+now pays that bounded constructive gate: a nonzero interior diagonal class
+yields an authored exact source-free nonlinear family on the fixed
+hyperbolic base, with finite positive kinetic norm and a non-gauge tangent
+even in the full E8 parent. Its SAME neutral sector has essential spectrum
+at zero, so the result is not an isolated four-dimensional EFT. All 112
+focused tests pass; the global proof remains authored rather than
+independently reviewed or numerically solved. The next obligation is the
+actual charged L2/ordinary-interior comparison and full gauge centralizer,
+not another monomial scan. Physical-bridge R51's report, R52's design/proof
+and its subsequently sealed real-fixture diagnostic at 58860e3b were read,
+with reported successes/failures retained and no independent replay claim.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several
