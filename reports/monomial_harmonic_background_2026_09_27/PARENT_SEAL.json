@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-27",
+  "status": "PRE_EXECUTION",
+  "input_commit": "05e33e61",
+  "files": {
+    "reports/monomial_harmonic_background_2026_09_27/FULL_PARENT_ADDENDUM.md": "abe54546efc0e53058ad88c7f8f713e0e87ec508be28184f450ccbe6f73bd209",
+    "reports/monomial_harmonic_background_2026_09_27/verify_parent_projection.py": "b5ae0c89c9ad49a7530a8dd2c11bc8abbb9ca5c035d4ae5c0e8569eb6936f373",
+    "reports/monomial_harmonic_background_2026_09_27/test_parent_projection.py": "e0e5206cf77468fd27ccb32b3a48304bfc2fdfb2ba8f0f38ebcd790a84a8d36f",
+    "reports/m6_parent_admission_2026_09_27/verify_parent_admission.py": "edd2ed670efc17055306a52d0464d6136ad96758374a3e248c13e4deda47844f"
+  }
+}
