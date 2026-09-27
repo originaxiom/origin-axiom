@@ -1006,3 +1006,18 @@ This tests exact rational spectra and the comparator, not physical modes.
 | `reports/physical_bridge_2026_09_05/NEUTRAL_SPECTRUM_DIAGNOSTIC_DESIGN.md` | `5cd8f8bd744cb6b95cb6cc92ad1be8caacd35b3d460e63a5f0df58cfdd2385a3` |
 | `reports/physical_bridge_2026_09_05/neutral_spectrum_diagnostic.py` | `771d34894354e55ac6707901ada31adb10fa30b39537ee3c1e159e0239b2c80e` |
 | `tests/test_physical_bridge_neutral_spectrum_diagnostic.py` | `917734899997856fdb6195da80bcad5ae084f82c63002300daf9c9e3a330985a` |
+
+## R50 neutral second-order relaxation, September 27, 2026
+
+Pre-execution seal on the own branch. Conditional authored two-jet
+argument, not independent analytic acceptance or a convergent branch.
+Commit/push/server confirmation precedes all import and execution.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_DESIGN.md` | `73c34570f338a086bd5160f8f7e5dffcf7124d9fc2c8246095fbba425a486aa3` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_PROOF.md` | `0e7504749407c45ae675123ca1c09bc1e54bcaca38da824cf2b7bccb890a99ca` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_PRIOR.md` | `9a437968e8c4cbe1d0a0e54115f64bbe300f9161c0a812fb969009a7a6694f71` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_INPUTS.json` | `6cce41d4696f113e5469197193b7fde6e6d94c1656cda71e6092683c4e3159ec` |
+| `reports/physical_bridge_2026_09_05/neutral_second_order.py` | `f1c7d6cf43d9720bfd66fa730fa62dfa8d921af6cacfaf67b63fa657e24bf2bd` |
+| `tests/test_physical_bridge_neutral_second_order.py` | `c8584d97cc8b17e5414b93a6c6bd611474334efd5b2bd7342952356d24b3f23c` |
