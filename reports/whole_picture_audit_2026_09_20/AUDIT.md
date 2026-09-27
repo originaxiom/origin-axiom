@@ -14,6 +14,14 @@ with an authored general proof and ten passing exact comparator tests. It
 does not derive physical generations. The drafted F20 matching computation
 remains unexecuted; the completed F01-F19 results retain their original scope.
 
+The next [M6-to-parent admission check](../m6_parent_admission_2026_09_27/FINDINGS.md)
+now verifies the whole 248 coefficient dictionary and independently reproduces
+the literal seed's tensor-factor obstruction. The stated adjoint parent uses
+rank-five and rank-ten charged coefficients, not the rank-six orbit in every
+sector. Fifteen new tests and ten deck-regression tests pass. This obstructs
+that literal join, not three physical generations; the next target is one E
+and its exterior square with compatible end data and physical domains.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several

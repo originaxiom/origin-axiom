@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-27",
+  "seal_commit": "513601059133d34b46102ee791d39b067c981ad2",
+  "native": {
+    "chunk": "a64397",
+    "exit_code": 0
+  },
+  "focused": {
+    "chunk": "3ac2e1",
+    "exit_code": 0,
+    "result": "15 passed in 0.10s"
+  },
+  "regression": {
+    "first_chunk": "f1da89",
+    "terminal_chunk": "0a78a1",
+    "exit_code": 0,
+    "result": "10 passed in 0.68s"
+  },
+  "hash_check": {
+    "chunk": "f9a1d9",
+    "all_five_sealed_inputs_unchanged": true
+  },
+  "scientific_failures": [],
+  "scientific_edits_during_execution": false,
+  "retrieval_limitations": [
+    "Broad file inventory in Documents/Downloads terminated deliberately after locating the exact gpt archive; exit 143, chunk 293359. Not an absence certificate or science run.",
+    "Broad numeric-pattern git search returned noisy and truncated results; not evidence of novelty.",
+    "Two unquoted path globs failed before their intended searches; targeted quoted searches were used afterward.",
+    "Combined nested-report capture truncated the parabolic report; only the common-parent report and structured-sieve report were available complete there. No full-read claim for the parabolic report."
+  ],
+  "scope": "Exact E8 branching and literal seed character obstruction; no new M6 cohomology, physical modes, PDE existence, full suite or independent banking certification."
+}

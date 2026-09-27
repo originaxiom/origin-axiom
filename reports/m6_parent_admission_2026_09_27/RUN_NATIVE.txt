@@ -1,0 +1,25 @@
+{
+  "scope": "specified E8 adjoint parent and literal M6 character seed; not physical modes",
+  "full_weight_multiset_dimension": 248,
+  "charged_coefficient_ranks": {
+    "Q": 5,
+    "u": 5,
+    "e": 5,
+    "d": 10,
+    "L": 10
+  },
+  "SM_singlet_algebra_dimension": 25,
+  "naive_zero_weight_count": 28,
+  "each_mixed_six_is_SM_neutral": true,
+  "oriented_pairings_per_sector": 120,
+  "M6_successful_oriented_pairings": {
+    "Q": 0,
+    "u": 0,
+    "e": 0,
+    "d": 0,
+    "L": 0,
+    "nu": 0
+  },
+  "synthetic_successful_pairings": 2,
+  "wrong_conjugation_and_missing_Cartans_rejected": true
+}
