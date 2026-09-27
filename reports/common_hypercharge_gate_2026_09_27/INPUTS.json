@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-27",
+  "input_commit": "7e1517ff",
+  "generic_control": 2,
+  "max_factor_degree": 12,
+  "torsion_modulus": 40,
+  "M2_chi5_exponents": [0, 1, -1],
+  "absorption": [
+    {"k": 2, "diagonal_exponents": [0, 0, 0, 2, 2]},
+    {"k": 4, "diagonal_exponents": [0, 0, 0, 1, 4]}
+  ],
+  "gauge_hypercharge_weights": [-2, -2, -2, 3, 3],
+  "sector_charges": {"Q": 1, "u": -4, "e": 6, "d": 2, "lepton": -3},
+  "scope": "Two globally lifted monomial SL5 families on M6 and one common flat line; no nonliftable quotient or all-parent classification."
+}
