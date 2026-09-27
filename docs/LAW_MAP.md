@@ -781,3 +781,18 @@ canonical model. Finite controls do not independently certify global PDEs.
 | The actual center velocity has finite-positive supplied-action quadratic kinetic coefficient | In raw adjoint-E8 trace K0=(60/g7^2)norm(alpha)^2_tr4; real infinitesimal canonical normalization is sqrt(2K0)s, with q-coordinate coefficient K0/q0^2. The profile integral is not numerically evaluated; g7, parent, metric and spacetime remain inputs. | B1138 branching and supplied action context; R53 proof section 6; tests/test_physical_bridge_neutral_velocity.py::test_actual_parent_detector_and_kinetic_normalization; R47 compact detector supplies positivity, not a measured coupling |
 
 R53 report: reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY.md.
+
+## September 27, 2026 - R54 received obstruction and canonical interaction join
+
+Conditional authored analytic application; no independent global proof
+acceptance. F15 owns the pre-existing obstruction computation. No row
+below is a numerical coupling, selected vacuum or physical chirality.
+
+| law (scoped statement) | content and limitation | provenance / control |
+|---|---|---|
+| The exceptional q matter obstruction is nonzero in both actual dual sectors | At both roots of p14 with chi=+/-i and p34 with chi=-1, the logarithmic coefficient derivative maps one-dimensional H1 isomorphically to H2. F15 already established the underlying result; reproduction and an independent symbolic derivative agree. Raw row coefficients are basis-dependent, not Yukawas. | B1138 parent context only; received F15 at 61055575; reports/physical_bridge_2026_09_05/NEUTRAL_MATTER_PROOF.md sections 1--2; tests/test_physical_bridge_neutral_matter.py::test_actual_log_derivative_obstruction |
+| The actual canonical neutral velocity realizes that obstruction in the complete domain | R53 alpha differs from the flat-family derivative by an admissible exact change when acting on R46 charged profiles; Pi2(alpha wedge beta) is nonzero under R44 comparison. Not a new ordinary-cohomology count or a global classification. | B1138 supplied model context; R54 proof sections 2--3; exact derivative/boundary tests plus inherited analytic inputs, not a machine PDE certificate |
+| The same normalizable modes have a finite nonzero paired parent Yukawa overlap | Complete Hodge/Riesz duality pairs the nonzero harmonic source with the actual dual one-form; the actual E8 15--4--4* bracket and supplied fermion action realize the vertex. Finite kinetic normalization preserves nonzero, but its numerical value is unevaluated. | B1138 actual parent branching; R54 proof sections 3--4; tests/test_physical_bridge_neutral_matter.py::test_actual_parent_vertex_and_scalar_order_are_distinct; global overlap proof remains authored |
+| Mixed neutral--charged curvature cannot be canceled by second-order exact relaxation | At the specified exceptional background, the harmonic E curvature component of epsilon(a alpha+b beta)+epsilon^2 u2 is epsilon^2 ab h for any admissible u2; the order-four potential has the positive lower bound (2/g7^2)abs(ab)^2 norm(h)^2_parent. No cubic scalar potential, full nonlinear EFT or mirror-only mass follows. | B1138 supplied action context; R54 proof section 4; tests/test_physical_bridge_neutral_matter.py::test_exact_relaxation_and_normalization_controls; test_rank_jump_is_not_first_order_obstruction |
+
+R54 report: reports/physical_bridge_2026_09_05/NEUTRAL_MATTER.md.

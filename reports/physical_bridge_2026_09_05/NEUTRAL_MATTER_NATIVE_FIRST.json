@@ -1,0 +1,297 @@
+{
+  "cases": [
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-159*sqrt(3)/1346 - 48/673 + 100*sqrt(3)*I/673 + 489*I/1346"
+        ]
+      ],
+      "q": "4*sqrt(3) + 7",
+      "phase": "I",
+      "dual": false
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-96/365 - 3*sqrt(3)/73 + 8*sqrt(3)*I/73 + 183*I/365"
+        ]
+      ],
+      "q": "4*sqrt(3) + 7",
+      "phase": "I",
+      "dual": true
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-48/673 + 159*sqrt(3)/1346 - 100*sqrt(3)*I/673 + 489*I/1346"
+        ]
+      ],
+      "q": "7 - 4*sqrt(3)",
+      "phase": "I",
+      "dual": false
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-96/365 + 3*sqrt(3)/73 - 8*sqrt(3)*I/73 + 183*I/365"
+        ]
+      ],
+      "q": "7 - 4*sqrt(3)",
+      "phase": "I",
+      "dual": true
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-159*sqrt(3)/1346 - 48/673 - 489*I/1346 - 100*sqrt(3)*I/673"
+        ]
+      ],
+      "q": "4*sqrt(3) + 7",
+      "phase": "-I",
+      "dual": false
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-96/365 - 3*sqrt(3)/73 - 183*I/365 - 8*sqrt(3)*I/73"
+        ]
+      ],
+      "q": "4*sqrt(3) + 7",
+      "phase": "-I",
+      "dual": true
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-48/673 + 159*sqrt(3)/1346 - 489*I/1346 + 100*sqrt(3)*I/673"
+        ]
+      ],
+      "q": "7 - 4*sqrt(3)",
+      "phase": "-I",
+      "dual": false
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-96/365 + 3*sqrt(3)/73 - 183*I/365 + 8*sqrt(3)*I/73"
+        ]
+      ],
+      "q": "7 - 4*sqrt(3)",
+      "phase": "-I",
+      "dual": true
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-26*sqrt(2)/97 - 24/97"
+        ]
+      ],
+      "q": "12*sqrt(2) + 17",
+      "phase": "-1",
+      "dual": false
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-96/23 - 56*sqrt(2)/23"
+        ]
+      ],
+      "q": "12*sqrt(2) + 17",
+      "phase": "-1",
+      "dual": true
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-24/97 + 26*sqrt(2)/97"
+        ]
+      ],
+      "q": "17 - 12*sqrt(2)",
+      "phase": "-1",
+      "dual": false
+    },
+    {
+      "checks": {
+        "actual_complex_matches_independent_F11": true,
+        "rank_B4_J3": true,
+        "one_H1_one_H2": true,
+        "chain_identity": true,
+        "independent_derivative_matches": true,
+        "differentiated_chain_identity": true,
+        "boundary_shift_invariance": true,
+        "nonzero_log_q_obstruction": true,
+        "no_first_order_lift": true,
+        "nonzero_matter_class": true
+      },
+      "raw_basis_dependent_log_q_obstruction": [
+        [
+          "-96/23 + 56*sqrt(2)/23"
+        ]
+      ],
+      "q": "17 - 12*sqrt(2)",
+      "phase": "-1",
+      "dual": true
+    }
+  ],
+  "controls": {
+    "toy": {
+      "same_isolated_rank_jump": true,
+      "simple_zero_obstructs": true,
+      "double_zero_first_derivative_vanishes": true,
+      "zero_obstruction_not_nonlinear_survival": true,
+      "mixed_residual_survives_exact_relaxation": true,
+      "exact_source_can_be_removed": true,
+      "unit_dual_overlap_positive": true,
+      "nonzero_basis_rescaling_changes_coefficient": true
+    },
+    "parent": {
+      "actual_E8_root_triple": true,
+      "root_string_nonzero_bracket": true,
+      "neutral_root_in_structure_A3": true,
+      "charged_roots_have_opposite_spinor_weights": true,
+      "trace_vertex_is_defining_action": true,
+      "pure_scalar_residual_square_is_quartic": true,
+      "wrong_commuting_action_rejected": true
+    }
+  },
+  "passed": 135,
+  "total": 135,
+  "all_checks_pass": true,
+  "existing_F15_result_received": true,
+  "global_analytic_proof_machine_verified": false,
+  "numerical_normalized_Yukawa_computed": false,
+  "nearby_pole_mass_law_proved": false,
+  "physical_chirality_derived": false
+}

@@ -1,5 +1,29 @@
 # CC's banking relay read before the next local checkpoint
 
+## R54 local banking status, September 27
+
+Own branch only; no shared B/I allocation, main merge or codeberg push.
+Science seal 69428d2c pushed/server-confirmed before imports. Conditional
+authored nonzero paired vertex; F15's existing derivative is explicitly
+credited and reproduced. Native 135/135, new tests 15, unchanged F15
+tests 16; fixed thirteen-file regression 151 pass/the same four failures.
+Nineteen sealed paths, 94 predecessors and 13 received files unchanged.
+Report, receipts, law/sublemma rows, leads and reader fronts updated.
+Source-snapshot link precheck failure and metadata-overlapped governance
+capture retained; final preseal custody and quiescent gate run recorded.
+No independent analytic/banking review or full-suite green claimed;
+four inherited governance categories remain. This is local checkpoint
+custody, not completed Part II or authority to merge the main bank.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_MATTER.md.
+
+Reporting audits: custody passes the frozen inputs/source copies and
+declared tests; cumulative ledger 908 latest paths/295 distinct seals,
+unchanged historical 24 failed/error IDs and 186 checked relative links.
+Governance 26 pass/the same four old categories, review counter 225.
+Eighteen captured runs, including reporting checks, are preserved in
+NEUTRAL_MATTER_RECEIPTS.json. These are custody, not independent proof
+or Part II certification.
+
 **Current path-local result, R51 (September 27): exact harmonic completion.**
 For each fixed canonical q0>0,q0!=1 base, the nearby actual flat q-family
 has a unique finite-energy harmonic coefficient metric, continuous in

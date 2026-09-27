@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-09-27 - R54 nonzero dynamical neutral--matter interaction
+
+Reproduce the EXISTING F15 obstruction rather than rediscover it: all
+four witness rows byte-identical, 16 corrected tests pass. The new
+conditional canonical-domain application joins its nonzero q row to
+R53's actual harmonic velocity and proves a finite nonzero paired
+Yukawa overlap and mixed curvature obstruction. Not a numerical coupling,
+selected q, pole-mass law, mirror-only mechanism or physical chirality.
+New controls 135/135; new tests 15 pass; thirteen-file regression 151
+pass/the same four failures. Seal 69428d2c pushed/server-confirmed before
+science. Nineteen sealed paths, 94 prior inputs and 13 received files
+unchanged. Proof grade and old governance/review debts remain explicit.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_MATTER.md.
+
 ## 2026-09-27 - R53 actual harmonic velocity and quadratic kinetic norm
 
 At each separately fixed canonical center, the R52 exact stationary

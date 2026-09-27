@@ -3688,3 +3688,35 @@ reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
   potential here. Compute its couplings and quantum lifting/protection
   before asserting viability or incompatibility. Holding q fixed by
   declaration is an extra input, not a derived selection mechanism.
+
+## R54 disposition - September 27, 2026
+
+- **Nonzero interaction subproblem advanced, not a chirality closure:**
+  "At each exceptional canonical background the actual neutral velocity
+  gives a finite nonzero paired Yukawa overlap and an uncancellable mixed
+  harmonic curvature component." Conditional authored proof:
+  reports/physical_bridge_2026_09_05/NEUTRAL_MATTER_PROOF.md.
+  The first-order ordinary obstruction was ALREADY F15's; its unchanged
+  replay is not a new result and its three adjoint classes are not three
+  physical generations or automatically three normalizable moduli.
+- **Next model-completion duty:** full neutral/light harmonic census and
+  actual normalized interaction tensors. The new integral is nonzero,
+  not numerically evaluated; the Fox cokernel coefficient cannot replace
+  positive kinetic normalization. Higher operator-family regularity is
+  needed for any claimed nearby pole-mass law or finite-amplitude EFT.
+- **Quantum/selection duty:** the pure neutral classical curve remains
+  flat although its matter interaction is nonzero. Establish a controlled
+  spectrum/scale separation and same-action quantum calculation before
+  claiming stabilization or observational exclusion. No mirror-only
+  mechanism follows from an interaction that couples both sides.
+- **Preserved alternatives:** sources/end laws, nonsplit/global components
+  and interacting phases may change specific assumptions. F15's two
+  matter-retention tangent directions still need nonlinear/end admission.
+  Physical SM/chiral content, anomalies, scales and gravity remain duties.
+- **Independent-review duty:** scrutinize the connecting-map/de Rham join,
+  complete-domain products and parent fermion contraction together with
+  the inherited global chain. Exact finite tests do not settle this duty.
+  Four old regression failures and four governance debt categories remain.
+- **Coordination:** the different rank-five hyperbolic charged-L2 result
+  at 61055575 was read, not rerun/adopted. Its gapless neutral continuum
+  is not the canonical nonabelian model's spectral result.

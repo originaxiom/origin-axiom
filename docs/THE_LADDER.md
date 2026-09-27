@@ -1,5 +1,25 @@
 # THE LADDER — what the programme does not yet contain, as rungs to climb
 
+**Current path-local result, R54 (September 27): nonzero paired interaction.**
+At EACH exceptional canonical q background and its admitted characters,
+F15's already banked matter obstruction is reproduced and joined to
+R53's actual harmonic neutral velocity. The complete harmonic component
+Pi2(alpha wedge beta) is nonzero; actual duality yields a finite nonzero
+neutral--matter--dual Yukawa overlap in the SAME supplied action. A mixed
+curvature residual cannot be removed by second-order exact relaxation.
+This is conditional authored analysis, not independent global acceptance,
+a numerical normalized coupling, nearby pole-mass law, q selection or
+physical chirality. Both charged sides participate; no mirror-only gap.
+Native 135/135, dedicated 15 pass, unchanged F15 replay 16 pass with
+byte-identical witnesses. Thirteen-file regression 151 pass / the same
+four retained failures. Seal 69428d2c was pushed/server-confirmed before
+execution. Report: reports/physical_bridge_2026_09_05/NEUTRAL_MATTER.md.
+Next: complete neutral/light census and normalized tensors before quantum
+selection; physical SM/chiral spectrum, anomaly/end, scales and gravity
+remain. Other fork 61055575's distinct rank-five hyperbolic charged-L2
+proof was read for coordination, not replayed or combined with this model.
+Earlier dated entries below are historical checkpoints, not current gaps.
+
 **Current path-local result, R53 (September 27): the exact curve has a harmonic velocity.**
 For EACH separately fixed canonical q0>0,q0!=1 base, the R52 exact
 stationary curve is differentiable AT s=log(q/q0)=0 in the SAME X after

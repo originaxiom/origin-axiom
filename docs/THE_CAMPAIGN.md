@@ -1,5 +1,15 @@
 # THE CAMPAIGN — the ordered execution of the ladder, registered so it cannot be skipped
 
+September 27 R54 spends F15's EXISTING obstruction on R53's actual
+neutral field: conditional nonzero finite paired Yukawa interaction
+on the same canonical background, with uncancellable mixed harmonic
+curvature. No numerical coupling, selected q or mirror-only mechanism.
+Next complete the light/neutral mode census and normalized tensors
+before a controlled quantum-selection calculation. Preserve source/end
+and changed-component routes; do not repeat the first-order Fox map
+or confuse its basis coefficients with physical values. See
+reports/physical_bridge_2026_09_05/NEUTRAL_MATTER.md.
+
 **Registered 2026-08-09 at the owner's direction:** *"we should execute X1–X32 according to the
 order you recommended — let's make sure we don't skip that plan."*
 

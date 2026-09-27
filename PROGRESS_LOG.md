@@ -15698,3 +15698,36 @@ tensors, neighborhood regularity where needed, physical selection/chiral
 spectrum, anomaly/quantum and gravitational completion, empirical tests.
 Independent analytic/full-banking review and old governance debts remain.
 Report: reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY.md.
+
+## 2026-09-27 - R54: spend the existing matter obstruction on actual kinetics
+
+The producer/body search found the proposed first-order cohomology map
+already computed by F15. Its corrected implementation, full corrected
+test population and exact witnesses were received byte-identically from
+61055575; reproduction returns 16 passes and the same four witness rows.
+No first-order obstruction discovery or generation census is claimed.
+
+New conditional authored join: at each exceptional canonical background,
+R53's actual harmonic neutral velocity realizes the nonzero q obstruction.
+R44 complete cohomology and R46 charged decay give h=Pi2(alpha wedge beta)
+nonzero, with a finite nonzero actual-dual overlap and parent Yukawa
+vertex. Its harmonic curvature component cannot be removed by admissible
+second-order relaxation. Raw Fox scalars are not normalized couplings.
+No scalar cubic potential, numerical Yukawa, selected q, pole-mass law,
+mirror-only lifting or chirality follows. Pure neutral classical flatness
+and all supplied parent/metric/coupling inputs remain.
+
+Seal 69428d2c pushed/server-confirmed before every science import/run.
+Native 135/135, dedicated 15 passes, fixed thirteen-file regression
+151 passes/the same four failures. Nineteen sealed science paths,
+94 predecessor inputs and 13 received paths unchanged. First custody
+snapshot-link failure and metadata-overlapped governance run retained;
+corrected preseal custody and quiescent governance rerun documented.
+No scientific files changed in any running certifying science population.
+
+Other-seat charged_l2 at 61055575 personally read, not rerun/adopted;
+different rank-five hyperbolic model, not our canonical nonabelian one.
+Next: complete light/neutral spectrum and normalized tensors before
+controlled quantum selection. Physical chiral/SM spectrum, anomalies,
+scales, gravity, empirical tests and independent analytic review remain.
+Report: reports/physical_bridge_2026_09_05/NEUTRAL_MATTER.md.
