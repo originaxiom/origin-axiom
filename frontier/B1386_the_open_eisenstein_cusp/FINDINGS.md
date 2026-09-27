@@ -1,5 +1,10 @@
 # B1386 — THE OPEN EISENSTEIN CUSP: one level above B1385's nearest miss, m004's class contains a member whose Eisenstein cusps no symmetry closes. It is cube~3.24, a degree-9 cover of o10_150725: chiral, four cusps, isometry group D₃. Its only cuspidal Higgs class v₊ is also its only class fixed by every isometry, so neither parity applies. A new congruence (L4: where an order-3 isometry rotates a cusp, χ(∂⁺) ≡ the number of its fixed points in ∂⁺, mod 3) gives N(v₊) ≡ ±1 (mod 3). So N(v₊) ≠ 0 whenever the harmonic form's first Fourier coefficient at the Eisenstein cusp is non-zero at a non-degenerate phase. By the same congruence N(v₊) ≠ ±3: this class cannot carry three generations (a cover can triple it, which is the record's open one-versus-three question, not a derivation).
 
+> **Currency (2026-09-27, B1387): T2's hypothesis is discharged.** v₊'s L² harmonic form, computed by a Hejhal-type solve,
+> has a non-zero first coefficient at both Eisenstein cusps (|c|·√covol = 1.00695) with triple phase cosine 0.370, so χ = −1 at
+> each. Cusps 1 and 2 are annular. **N(v₊) = ±2, computed** (not certified). The cheap three of sL-7 is excluded for this member.
+> `frontier/B1387_the_index_computed`.
+
 **Date:** 2026-09-27 · **Seat:** cc (the SM-derivation branch) · **Occasion:** sL-6, registered by B1385 — "a member of m004's
 class with a rotated hexagonal free cusp whose invariant class no isometry negates" · **Status:** PROVED (L4; the member's symmetry
 data, exact) · COMPUTED (the search, 183 covers; B1370's shells; the controls) · CONDITIONAL (N(v₊) ≠ 0 rests on one analytic

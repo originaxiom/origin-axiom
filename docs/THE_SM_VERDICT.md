@@ -707,3 +707,13 @@ left it.
 >
 > No physics is crossed: the frame is assumed, and the spin-½ half and the SM conditions are untouched. 0 of 19
 > (`frontier/B1386_the_open_eisenstein_cusp`).
+
+> **Currency note (2026-09-27, B1387): the index computed — two.** B1386's condition is discharged by computing v₊'s L² harmonic
+> form on cube~3.24 (a Hejhal-type solve on SnapPy's developed fundamental polyhedron).
+> - The first coefficient at both Eisenstein cusps is non-zero; each is disc-type (χ = −1).
+> - The other two cusps are annular.
+> - So **N(v₊) = ±2**, stable across five runs, with the member's symmetries reproduced unimposed. It is computed, not certified.
+>
+> It is the frame's first computed symmetry-protected chiral index, and it is two, not three. By pullback this member gives only
+> even counts. A three needs an orbit of three rotated Eisenstein cusps (sL-7). No physics is crossed. 0 of 19
+> (`frontier/B1387_the_index_computed`).

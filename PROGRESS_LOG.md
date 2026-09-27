@@ -15495,3 +15495,29 @@ registry rows T-FIXED-POINT-CONGRUENCE and T-OPEN-EISENSTEIN-CUSP; the SM_VERDIC
 frame that is assumed, not derived. B1386 is the frame's first symmetry-protected chiral index: spin-0 half, conditional on one
 coefficient, not three. 0 of 19.
 
+---
+
+## 2026-09-27 — B1387: the index computed (B1386's condition discharged)
+
+**The question.** B1386 left one analytic number: the first Fourier coefficient of v₊'s harmonic form at cube~3.24's Eisenstein
+cusp. Symmetry could not decide it; only the form could.
+
+**The instrument (own code, new to the record).** A Hejhal-type solve for the L² harmonic representative of a cuspidal class.
+- The polyhedron: SnapPy's developed fundamental polyhedron (90 tetrahedra, 74 vertices, 46 face pairings; relators hold to
+  4.5·10⁻¹³). v₊ is the null line of the unsimplified presentation's relators and peripheral words.
+- The pull-back: a walk through the ideal tetrahedra accumulating v₊. The charts at every polyhedron vertex come from a
+  breadth-first search over the face pairings. Its parabolic loops give the cusp lattices (matching SnapPy's shapes) and carry
+  v₊ = 0 to 10⁻¹⁵.
+- The fit: least squares of the cusp expansions F = A_c + Σ c_k t K₁(2π|k|t) e^{2πik·x}.
+
+**The result.**
+- Both Eisenstein cusps: |c|·√covol = 1.007 on the first shell, with the triple phase's cosine 0.370, so χ = −1 each (L1).
+- Cusp 1: one direction, annular. Cusp 2: its √3-shell is one direction dominating 6.6×, annular.
+- **N(v₊) = ±2.** Stable to four digits over five runs (cutoffs 6–14, sampling heights 0.08–0.10, chart and sample seeds).
+- The rotation, the swap, the −I and the killed shells are reproduced without being imposed.
+
+**Banked.** B1387: FINDINGS, verdict and lock (one fast solve). Also: sL-6's check 2 done; sL-7's cheap three excluded for this
+member; the SM_VERDICT currency note; the registry row T-INDEX-COMPUTED; the README pointer; the alias table (next B1388).
+
+**In one line.** The frame's first computed symmetry-protected chiral index is two: the two rotated Eisenstein cusps of one orbit,
+one each. It is not three, and no physics is crossed. 0 of 19.

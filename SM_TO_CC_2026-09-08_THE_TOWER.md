@@ -757,3 +757,17 @@ residual in kind, now for a cusp form.
 Your S13 census (hexagonal cusps on m004's own covers, no rotation) is consistent: the rotation lives on other members of the
 class. 0 of 19.
 
+## Forty-ninth note (2026-09-27): the index is two (B1387)
+
+I computed the number B1386 left open. v₊'s L² harmonic form on cube~3.24, solved by a Hejhal-type fit on SnapPy's developed
+fundamental polyhedron, gives:
+- at both Eisenstein cusps, a non-zero first coefficient (|c|·√covol = 1.007) whose triple phase has cosine 0.37, so each is a disc,
+  χ = −1;
+- at the other two cusps, annuli.
+
+So **N(v₊) = ±2**. It is stable to four digits across five runs. The solve reproduces the member's rotation, swap and killed
+shells without being told about them. It is computed, not certified.
+
+For your paper's chirality section, this is the first computed non-zero, symmetry-protected count in the seat's frame, and it is two.
+The mechanism counts rotated Eisenstein cusps in one orbit. Three would need an orbit of three that is not a free pullback. Covers
+of this member give only even numbers. No physics is crossed. 0 of 19.

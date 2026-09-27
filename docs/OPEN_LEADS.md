@@ -3086,6 +3086,16 @@ is the generic outcome rather than an accident.
 
 `frontier/B1386_the_open_eisenstein_cusp`.
 
+**Status (2026-09-27, B1387): check 2 is done — N(v₊) = ±2, computed.**
+- A Hejhal-type solve for v₊'s L² harmonic form gives a non-zero first coefficient at both Eisenstein cusps (|c|·√covol = 1.007).
+  Its triple phase has cosine 0.370, so χ = −1 at each (L1).
+- The other two cusps are annular.
+- So **N(v₊) = ±2**. It is stable over five runs, and the member's symmetries come out of the solve without being imposed. It is
+  computed, not certified.
+- What is left for sL-6 is check 3, the spin-½ half.
+
+`frontier/B1387_the_index_computed`.
+
 ## sL-7 — THE EISENSTEIN TRIPLE: THREE ROTATED CUSPS IN ONE ORBIT, AND WHAT "THREE" WOULD MEAN (registered 2026-09-27, B1386)
 
 **Why.** L4 (B1386) says an index carried by one orbit of rotation fixed points is ≢ 0 (mod 3). The member B1386 found gives
@@ -3101,6 +3111,7 @@ the architecture decides which level is physical.
 **The two targets.**
 1. **The cheap three.** Decide whether N(v₊) = ±1 on cube~3.24, i.e. whether χ₂ = −3χ₀. This needs the same analytic data as T2,
    the coefficients at cusps 0 and 2. Then a degree-3 cover gives ±3, with the sL-5 caveat.
+   **Decided negatively by B1387:** N(v₊) = ±2, since cusp 2 is annular. So every cover of cube~3.24 gives ±2d, never ±3.
 2. **The non-pullback three.** A member of m004's class with all of the following:
    - three free hexagonal cusps permuted by an isometry T that fixes a Higgs class v and has fixed points, so its quotient is an
      orbifold;

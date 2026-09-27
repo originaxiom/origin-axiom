@@ -311,6 +311,9 @@ emitted value. The structure is the object's; the values are the observer's.
 > symmetry fixes, and nothing negates it. A fixed-point congruence gives its index N ≡ ±1 (mod 3), provided one Fourier
 > coefficient is non-zero. That makes it chiral in the seat's frame but never three. No physics is crossed; the frame is assumed
 > (OPEN_LEADS sL-6, sL-7).*
+>
+> *And (B1387): the coefficient is computed. v₊'s harmonic form, solved numerically, makes both Eisenstein cusps disc-type and the
+> other two annular. Its index is 2: protected, non-zero, and not three.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

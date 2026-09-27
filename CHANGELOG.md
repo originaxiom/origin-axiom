@@ -1,5 +1,9 @@
 # Changelog
 
+## B1387 — the index computed: v₊'s L² harmonic form on cube~3.24 solved by a Hejhal-type fit on SnapPy's developed fundamental polyhedron; both Eisenstein cusps disc-type (first coefficient non-zero, triple phase cosine 0.370), the other cusps annular: N(v₊) = ±2 — B1386's condition discharged, the frame's first computed symmetry-protected chiral index, two and not three
+
+Own code (SnapPy's FundamentalPolyhedronEngine, SciPy's K₁, B1386's Morse count). The member's symmetries reproduced unimposed; stable over five runs; not certified. sL-6's check 2 done; sL-7's cheap three excluded for this member. Registry row T-INDEX-COMPUTED. No physics crossed. 0 of 19.
+
 ## B1386 — the open Eisenstein cusp: ocube06_08812's 183 covers of degree 2 and 3 searched (18 rotation-carrying, 8 isometry classes, one open); cube~3.24, a chiral degree-9 cover of o10_150725 with isometry group D₃, carries a cuspidal class fixed by every isometry and negated by none; L4 (the fixed-point congruence) gives N ≡ ±1 (mod 3) under one analytic coefficient — a protected chiral index in the seat's frame, never three
 
 Own code (SnapPy; B1369's and B1370's instruments unchanged; the Morse count with a grid cross-check). sL-6's gate passed; new lead sL-7 (the Eisenstein triple). Registry rows T-FIXED-POINT-CONGRUENCE and T-OPEN-EISENSTEIN-CUSP. No physics crossed. 0 of 19.

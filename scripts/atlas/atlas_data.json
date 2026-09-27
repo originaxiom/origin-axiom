@@ -8041,6 +8041,27 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1387": {
+   "slug": "the index computed",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "lorentzian"
+   ],
+   "refs": [
+    "L1",
+    "L4"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B138": {
    "slug": "s031 principal lemma",
    "motifs": [
