@@ -38,6 +38,19 @@ its four retained regression failures are not relabeled as success.
 
 ## Verdict and working objective
 
+**Latest follow-through:** the
+[charged complete-domain comparison](../charged_l2_bridge_2026_09_27/FINDINGS.md)
+now connects the ordinary interior classes to normalizable linear fermionic
+zero modes in the constructed rank-five background, under an authored proof
+and the supplied action/metric. H0/H3 are retained. The paired positives
+survive, while the joint net-three failure becomes a scoped conditional
+zero-mode result; the gapless full operator is not claimed Fredholm.
+All 127 combined tests pass. Full-parent gauge enhancement is next, then a
+deliberate choice of a genuinely different chirality mechanism. R52's report
+at 739f50aa was read, not rerun; its successes and four retained failures are
+both recorded. Earlier same-day checkpoints above are historical, not the
+current task ordering.
+
 The TOE ambition remains legitimate as a research aspiration, but “complete
 the TOE” is not yet a sufficiently specified, guaranteed-completable task.
 The material does not establish that this framework must explain reality.

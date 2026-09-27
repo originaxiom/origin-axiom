@@ -133,6 +133,18 @@ with reported successes/failures retained and no independent replay claim.
 
 ## Verdict
 
+**Current physical join:** the
+[charged L2 comparison](../charged_l2_bridge_2026_09_27/FINDINGS.md) supplies
+an authored complete-domain proof that the specified ordinary interior
+classes are normalizable linear fermion modes of the SAME rank-five
+harmonic background. It retains H0/H3 and the gapless cusp; no full-operator
+Fredholm index or isolated EFT is claimed. Paired modes survive and the
+common-line net-three target still fails within the declared families.
+All 127 combined tests pass. Next is the bounded full-parent centralizer
+check, then a genuinely different chirality-route decision. Physical-bridge
+R52 at 739f50aa was read, not rerun; its different canonical model is not
+silently identified with this one.
+
 The most useful synthesis is not a new numerical coincidence. **Several
 successful calculations distinguish data that earlier calculations had
 discarded; several failed physical joins silently change the data being

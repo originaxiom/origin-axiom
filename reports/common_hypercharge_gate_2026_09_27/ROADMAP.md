@@ -31,7 +31,8 @@ opportunities, not 22 established breakthroughs.
       spectrum results; paired classes survive.
 
 These completed items have separate FINDINGS, code, exact receipts and scope
-statements. They are not interchangeable with physical spectrum derivation.
+statements. The charged comparison below now supplies a conditional physical
+zero-mode interpretation; the algebraic certificates alone did not.
 
 ## Completed bounded package: actual dynamics of a rank-five background
 
@@ -54,19 +55,30 @@ All 112 focused tests pass. No numerical K, selected parameter, isolated
 four-dimensional EFT or chiral spectrum is claimed. The supplied parent,
 metric and spacetime have not been derived from the framework.
 
-## Next bounded package: charged physical modes and actual gauge symmetry
+## Charged comparison completed; full gauge symmetry is next
 
-The [next operator-comparison plan](../monomial_harmonic_background_2026_09_27/NEXT_PHYSICAL_SPECTRUM.md)
-specifies these unexecuted duties:
+The [charged L2 comparison](../charged_l2_bridge_2026_09_27/FINDINGS.md)
+now supplies an AUTHORED complete-domain argument, with 127 combined tests
+passing. It does not claim independent specialist acceptance or a gapped
+four-dimensional EFT.
 
-- [ ] Prove, or delimit, the map from complete L2 harmonic charged modes to
+- [x] Give an authored proof of the map from complete L2 harmonic charged modes to
       the already-computed ordinary INTERIOR classes in this same background.
-- [ ] Handle actual H0 and invariant cusp channels; do not invoke the old
+- [x] Handle actual H0 and invariant cusp channels; do not invoke the old
       acyclic-cusp compact-resolvent theorem where its hypothesis fails.
+- [x] Apply the actual degree/fermion dictionary. Paired modes survive, but
+      the joint net-three target still fails in the specified two families
+      with any honest common unitary line. This is not a universal no-go.
 - [ ] Compute the full-parent gauge centralizer at special parameters and
       distinguish gauge enhancement from extra matter.
-- [ ] State the effect of the gapless continuum on the proposed reduction;
-      finite zero-mode norm alone is not a separated low-energy theory.
+- [x] State the present continuum limitation: finite zero-mode norm alone
+      is not a separated low-energy theory or a Fredholm-index claim.
+- [ ] Establish what controlled reduction/interactions, if any, survive it.
+
+The [bounded centralizer plan](../charged_l2_bridge_2026_09_27/NEXT_CENTRALIZER.md)
+is followed by a strategic chirality-route decision, not another equivalent
+monomial/line census. R52 at 739f50aa was read, not rerun; its continuous
+rank-four canonical curve is not substituted for this rank-five model.
 
 Stop-and-reassess criterion: an unpaid domain or action assumption stays
 unpaid, even if the finite index is attractive. Preserve the positive

@@ -14,6 +14,15 @@ and full-parent non-gauge tangent, with a gapless neutral cusp retained.
 It is not independently accepted analysis or a physical chiral spectrum.
 The current roadmap moves to the actual charged operator/domain comparison.
 
+**Current follow-through:** that
+[charged comparison](../charged_l2_bridge_2026_09_27/FINDINGS.md) now has an
+authored complete-domain proof and 127 passing combined tests, with the
+invariant cusp and H0/H3 contributions retained. Normalizable paired modes
+survive; the common-line joint net-three failure carries to the specified
+linear fermion kernels. This is not a gapped EFT or a universal no-go.
+The next bounded check is the full-parent unbroken gauge algebra, followed
+by a choice of a genuinely different chirality mechanism.
+
 The untwisted E coefficient is now completely classified. This result
 must inform the full physical goal, not replace it.
 

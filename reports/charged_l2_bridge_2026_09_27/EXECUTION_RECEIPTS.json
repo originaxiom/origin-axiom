@@ -1,0 +1,73 @@
+{
+  "seal": "be81e237bfde6d00d2ec01f317dfa7f9faa657ae",
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/charged_l2_bridge_2026_09_27/verify_bridge.py",
+    "seal": "be81e237bfde6d00d2ec01f317dfa7f9faa657ae",
+    "events": [
+      {
+        "chunk_id": "97ca00",
+        "wall_time_seconds": 1.001405431,
+        "session_id": 44284,
+        "original_token_count": 43,
+        "output": "ANCHORED {\"anchored_identity\": true, \"young_kernel_L1\": 1, \"slice_factor_squared\": \"1/2\", \"constant_primitive_is_L2\": true, \"stationary_tangential_period_is_not_L2\": true}\n"
+      },
+      {
+        "chunk_id": "c626ca",
+        "wall_time_seconds": 0.000016781,
+        "exit_code": 0,
+        "original_token_count": 1231,
+        "output": "FRAME {\"transformed_gram\": [[\"1/4\", \"-1/4\"], [\"-1/4\", \"5/4\"]], \"wrong_norm_rejected\": true, \"unbounded_frame_counterexample_norm\": \"1/(2*a)\", \"chain_conjugacy_sign\": true}\nPROJECTION {\"kernel_dimension\": 1, \"reduced_inverse_identity\": true, \"beta\": [[\"1/5\"], [\"-1/5\"], [\"-2/5\"], [\"1\"]], \"norm_squared\": \"8/5\", \"exact_class_removed\": true, \"wrong_sign_rejected\": true}\nMOMENT {\"noncommuting_fixture\": true, \"moment_zero_cancels_cross_term\": true, \"nonzero_moment_residual_retained\": true}\nTORUS {\"invariant_channel_H0_H1\": [1, 2], \"nontrivial_unitary_mu_H0_H1\": [0, 0]}\nAPPLICATION {\"seed\": 0, \"point\": \"one\", \"field_degree\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [1, 4, 3, 6, 3], \"dual\": [1, 4, 3, 6, 3]}, \"conditional_harmonic_degrees\": [1, 1, 1, 1], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 5, 4, 8, 4], \"dual\": [0, 5, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 1, 1, 0], \"conditional_left_minus_right\": 0}}}\nAPPLICATION {\"seed\": 0, \"point\": \"minus_one\", \"field_degree\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 5, 3, 6, 3], \"dual\": [0, 5, 3, 6, 3]}, \"conditional_harmonic_degrees\": [0, 2, 2, 0], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}}}\nAPPLICATION {\"seed\": 0, \"point\": \"i\", \"field_degree\": 2, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 5, 3, 6, 3], \"dual\": [0, 5, 3, 6, 3]}, \"conditional_harmonic_degrees\": [0, 2, 2, 0], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 8, 4, 8, 4], \"dual\": [0, 8, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 4, 4, 0], \"conditional_left_minus_right\": 0}}}\nAPPLICATION {\"seed\": 0, \"point\": \"two\", \"field_degree\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}}}\nAPPLICATION {\"seed\": 0, \"point\": \"primitive_fifth\", \"field_degree\": 4, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}}}\nAPPLICATION {\"seed\": 1, \"point\": \"one\", \"field_degree\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [1, 4, 3, 6, 3], \"dual\": [1, 4, 3, 6, 3]}, \"conditional_harmonic_degrees\": [1, 1, 1, 1], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 5, 4, 8, 4], \"dual\": [0, 5, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 1, 1, 0], \"conditional_left_minus_right\": 0}}}\nAPPLICATION {\"seed\": 1, \"point\": \"minus_one\", \"field_degree\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 5, 3, 6, 3], \"dual\": [0, 5, 3, 6, 3]}, \"conditional_harmonic_degrees\": [0, 2, 2, 0], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}}}\nAPPLICATION {\"seed\": 1, \"point\": \"i\", \"field_degree\": 2, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 5, 3, 6, 3], \"dual\": [0, 5, 3, 6, 3]}, \"conditional_harmonic_degrees\": [0, 2, 2, 0], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 8, 4, 8, 4], \"dual\": [0, 8, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 4, 4, 0], \"conditional_left_minus_right\": 0}}}\nAPPLICATION {\"seed\": 1, \"point\": \"two\", \"field_degree\": 1, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}}}\nAPPLICATION {\"seed\": 1, \"point\": \"primitive_fifth\", \"field_degree\": 4, \"coefficients\": {\"E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 3, 3, 6, 3], \"dual\": [0, 3, 3, 6, 3]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}, \"wedge2E\": {\"ordinary\": {\"I\": 0, \"V\": [0, 4, 4, 8, 4], \"dual\": [0, 4, 4, 8, 4]}, \"conditional_harmonic_degrees\": [0, 0, 0, 0], \"conditional_left_minus_right\": 0}}}\nSCOPE {\"analytic_grade\": \"authored, not machine-certified\", \"physical_model\": \"supplied action/metric/complete domain\", \"global_PDE_numerically_solved\": false, \"all_t_from_this_grid\": false, \"isolated_4d_EFT\": false, \"full_gauge_centralizer_classified\": false}\nPASS: finite bridge controls and exact application inputs, not independent analytic review\n"
+      }
+    ]
+  },
+  "focused": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/charged_l2_bridge_2026_09_27/test_bridge.py",
+    "seal": "be81e237bfde6d00d2ec01f317dfa7f9faa657ae",
+    "events": [
+      {
+        "chunk_id": "7ee73d",
+        "wall_time_seconds": 1.001348521,
+        "session_id": 20516,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "4b7313",
+        "wall_time_seconds": 0.000017082,
+        "exit_code": 0,
+        "original_token_count": 25,
+        "output": "...............                                                          [100%]\n15 passed in 2.24s\n"
+      }
+    ]
+  },
+  "combined": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/charged_l2_bridge_2026_09_27/test_bridge.py reports/monomial_harmonic_background_2026_09_27/test_harmonic_background.py reports/monomial_harmonic_background_2026_09_27/test_parent_projection.py reports/common_hypercharge_gate_2026_09_27/test_common_line.py reports/common_hypercharge_gate_2026_09_27/test_common_line_locks.py reports/monomial_matter_locus_2026_09_27/test_matter_locus.py reports/monomial_matter_locus_2026_09_27/test_classification_locks.py reports/monomial_exceptional_locus_2026_09_27/test_exceptional.py reports/monomial_exceptional_locus_2026_09_27/test_relative_capacity.py reports/five_point_monomial_gate_2026_09_27/test_monomial.py reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py",
+    "seal": "be81e237bfde6d00d2ec01f317dfa7f9faa657ae",
+    "events": [
+      {
+        "chunk_id": "226257",
+        "wall_time_seconds": 1.002384733,
+        "session_id": 62992,
+        "original_token_count": 0,
+        "output": ""
+      },
+      {
+        "chunk_id": "e13990",
+        "wall_time_seconds": 0.000013232,
+        "exit_code": 0,
+        "original_token_count": 167,
+        "output": "........................................................................ [ 56%]\n.......................................................                  [100%]\n=============================== warnings summary ===============================\nreports/global_sl5_seed_2026_09_27/test_global_seed.py::test_diagram_and_rewrite_proof\n  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available\n    warnings.warn('Plink failed to import tkinter, GUI will not be available')\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n127 passed, 1 warning in 24.48s\n"
+      }
+    ]
+  },
+  "final_hashes": {
+    "chunk_id": "5ffb59",
+    "wall_time_seconds": 0.000026286,
+    "exit_code": 0,
+    "original_token_count": 583,
+    "output": "cecb1b573c1750dd123cea6a76c1d53bc17c5053f5a653429e547814bc7885cd  reports/charged_l2_bridge_2026_09_27/DESIGN.md\n191f9ec7bf906033d947576de8bf206bcc8a4f6cd04f7d6ef1f7bce18e85a42c  reports/charged_l2_bridge_2026_09_27/PROOF.md\n0f8fe457fa2c177f559e767c23e59ffc67534f3a52092c2a1f419b2d3aff09ca  reports/charged_l2_bridge_2026_09_27/INPUTS.json\n7a982ca9f4295aa21783b9d2d8f5ac8fd14be8e20a60b2dc89a9181415bade2f  reports/charged_l2_bridge_2026_09_27/verify_bridge.py\nf5af28ec91fb3ec0b0c81858c4b1cd14e1abd208288a10cfd471c8b6fedbc30f  reports/charged_l2_bridge_2026_09_27/test_bridge.py\n257adbef011cdfab2e8df731fbb780104b0eefa8727efe9602aa38552c6b9bd0  reports/monomial_harmonic_background_2026_09_27/PROOF.md\na9dcaac091efac1abc4365ed0f7219261c78e53e76c2e47ba469d1a510215aa0  reports/monomial_exceptional_locus_2026_09_27/INPUTS.json\n939ec1a4ef8262b09da3c2a6ca096a0382751cec006ae4a2f2e8f6a80f8be1f9  reports/monomial_exceptional_locus_2026_09_27/verify_exceptional.py\n30f55c0cc626f41d0f80912f98aab41a20b00ab0274c20db8f6068b7545129c2  reports/five_point_monomial_gate_2026_09_27/verify_monomial.py\nff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5  reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\nc74f705d3ee3ed9c51d484fbd16b207b72dd46ac4359c6c98f0c7361b5a82e47  reports/common_hypercharge_gate_2026_09_27/PROOF.md\n3e0a90fe4a9b2d8b702c43ae860cfb572298ef1dc73b06802da4b33d33aaa849  reports/common_hypercharge_gate_2026_09_27/INPUTS.json\n6cb93f192cc49f2ef8ad6de4c810b4f76fe89f89c65895ec7b126c0bbdab0af0  reports/common_hypercharge_gate_2026_09_27/verify_common_line.py\ndbab8e88426ec6d8b4f260733463725b096111ddae70ffc737d43f695ae7e479  reports/monomial_matter_locus_2026_09_27/PROOF.md\n7903204d86ca0fcb9d70c5fa308719d80dff582290b585fe6362de467a784e0f  reports/monomial_matter_locus_2026_09_27/verify_matter_locus.py\n0274eae465909a39d2a5b2dca07137e8901cc39406c3962d9684e0aa5e8e1df4  reports/monomial_exceptional_locus_2026_09_27/verify_relative_capacity.py\n"
+  },
+  "all_19_hashes_unchanged": true,
+  "scientific_failures": [],
+  "grade": "Finite controls support but do not certify authored global analysis"
+}

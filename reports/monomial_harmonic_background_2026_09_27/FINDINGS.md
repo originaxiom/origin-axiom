@@ -112,6 +112,15 @@ isolated. Neither fact can be substituted for the other.
 
 ## Mission effect and next test
 
+**Later same-day update:** the
+[charged L2 bridge](../charged_l2_bridge_2026_09_27/FINDINGS.md) now supplies
+the authored comparison requested below, including invariant cusp channels,
+actual H0/H3 and the local action's fermion grading. All 127 combined tests
+pass. This upgrades the specified classes to conditional normalizable linear
+zero modes, not an independently accepted analytic theorem or an isolated
+four-dimensional theory. Full-parent gauge enhancement remains uncomputed.
+The paragraphs below preserve the original harmonic-result checkpoint.
+
 This pays a constructive dynamics/admissibility obligation in the correct
 rank-five structure slot. It does not derive the parent, spacetime or
 physical metric from Origin Axiom. The construction works more generally

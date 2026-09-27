@@ -128,6 +128,16 @@ nature. The current [roadmap](ROADMAP.md) keeps those obligations explicit.
 
 ## Verification and other-seat intake
 
+**Later same-day physical follow-through:** the
+[complete charged comparison](../charged_l2_bridge_2026_09_27/FINDINGS.md)
+now identifies these interior groups with normalizable linear zero modes
+on the constructed smooth harmonic background, including H0/H3. For honest
+UNITARY common lines, the joint net-three failure therefore also holds in
+that supplied action/domain, conditional on the authored analytic proof.
+It is not a Fredholm-index claim, universal no-go, or isolated 4D EFT.
+The original algebraic certificate and its broader complex-line scope are
+unchanged. Latest combined regression: 127 passed.
+
 Pre-execution seal: `abeb838c0273b90131a1428e11177e345752cff6`.
 Native run: exit 0. Initial focused tests: 7 passed in 10.07 seconds.
 First-result receipt commit: `36883314`.

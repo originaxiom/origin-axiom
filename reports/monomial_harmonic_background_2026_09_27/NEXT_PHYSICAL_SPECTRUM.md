@@ -1,7 +1,11 @@
 # Next join: the actual charged operator, not an assumed index dictionary
 
-Planning note, 2026-09-27. None of the new comparisons below is sealed or
-executed by this note. Keep the full goal: a common predictive physical
+Original planning note, 2026-09-27. The comparisons below were unexecuted at
+this note's first checkpoint. **Subsequently followed through:**
+[charged_l2_bridge FINDINGS](../charged_l2_bridge_2026_09_27/FINDINGS.md) gives
+the authored complete-domain comparison, actual H0/H3 accounting and 127
+passing combined tests. Full-parent gauge enhancement remains next; it is
+not derived merely by that comparison. Keep the full goal: a common predictive physical
 realization, ultimately including quantum consistency, gravity and tests.
 
 ## What is now available
