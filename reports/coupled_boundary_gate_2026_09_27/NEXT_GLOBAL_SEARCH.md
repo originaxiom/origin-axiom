@@ -14,6 +14,13 @@ exactly, and the
 shows that nearby fixed-meridian representations still split 3+1+1 even
 with longitude free. This is not a full relative component search.
 
+The [finite-image search](../finite_irreducible_sl5_2026_09_27/FINDINGS.md)
+then finds two irreducible global seeds in a declared different, semisimple
+meridian class. Both have a first-order nonorthogonal relative direction,
+but their actual longitude limits nearby E indices to absolute value one.
+Do not turn that tangent into a chirality claim or repeat this neighborhood
+search. Different representations/components remain untested.
+
 ## Done in this fork
 
 - [x] Distinguish geometric deck descent from an internal holonomy cube.

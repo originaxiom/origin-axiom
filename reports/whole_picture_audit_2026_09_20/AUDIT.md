@@ -60,6 +60,15 @@ direction remains; it is not a nearby irreducible SL5 route. Seven new
 tests and the combined 64-test suite pass. Distant components, different
 peripheral classes and physical sources/domains are not excluded.
 
+The [finite-image global seed search](../finite_irreducible_sl5_2026_09_27/FINDINGS.md)
+now supplies two different exact irreducible SL5 starting points, each with a
+first-order nonorthogonal relative direction. Their actual longitude leaves
+only one E invariant on M6, however, bounding the nearby ordinary interior
+index by one. The semisimple peripheral change is explicit; zero indices at
+the finite seeds are self-duality controls, not failed chirality tests.
+Six new and all 70 combined focused tests pass. The next seed must clear the
+actual two-generator cusp screen before nonlinear continuation is worthwhile.
+
 ## Verdict
 
 The most useful synthesis is not a new numerical coincidence. **Several

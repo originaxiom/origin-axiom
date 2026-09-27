@@ -1,0 +1,61 @@
+{
+  "seal_commit": "8aea811f8f89121cfc3aea7600c0b793dcfa4dd5",
+  "native": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py",
+    "events": [
+      {
+        "chunk_id": "600c87",
+        "wall_time_seconds": 1.001764589,
+        "session_id": 92041,
+        "original_token_count": 89,
+        "output": "SCAN single_three_cycle {\"pairs_examined\": 129600, \"relator_solutions\": 46, \"transitive_solutions\": 0, \"irreducible_solutions\": 0, \"centralizer_order_in_S6\": 18, \"permutation_conjugacy_representatives\": 0, \"representative_list_sha256\": \"4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945\", \"selected\": [], \"unanalysed_representatives\": 0}\n"
+      },
+      {
+        "chunk_id": "91f579",
+        "wall_time_seconds": 0.000012,
+        "exit_code": 0,
+        "original_token_count": 634,
+        "output": "SCAN two_three_cycles {\"pairs_examined\": 129600, \"relator_solutions\": 46, \"transitive_solutions\": 45, \"irreducible_solutions\": 36, \"centralizer_order_in_S6\": 18, \"permutation_conjugacy_representatives\": 2, \"representative_list_sha256\": \"bdf1e3d4da5cdd19fec6fe5cf18f74a40e393c40f3d1e9a6b63421574955b5b3\", \"selected\": [{\"B\": [0, 2, 3, 5, 1, 4], \"C\": [5, 1, 2, 4, 3, 0], \"pair_ids\": [17, 317], \"image_order\": 60}, {\"B\": [1, 3, 4, 0, 5, 2], \"C\": [2, 3, 4, 5, 0, 1], \"pair_ids\": [90, 152], \"image_order\": 60}], \"unanalysed_representatives\": 0}\nSEED two_three_cycles 0 {\"permutations\": [[1, 2, 0, 4, 5, 3], [0, 2, 3, 5, 1, 4], [5, 1, 2, 4, 3, 0]], \"image_order\": 60, \"longitude_permutation\": [1, 2, 0, 4, 5, 3], \"coefficients\": {\"E\": {\"down\": {\"I\": 0, \"V\": [0, 1, 1, 2, 1], \"dual\": [0, 1, 1, 2, 1]}, \"up\": {\"I\": 0, \"V\": [0, 3, 1, 2, 1], \"dual\": [0, 3, 1, 2, 1]}, \"up_interior_dimension\": 2}, \"wedge2E\": {\"down\": {\"I\": 0, \"V\": [0, 5, 4, 8, 4], \"dual\": [0, 5, 4, 8, 4]}, \"up\": {\"I\": 0, \"V\": [0, 5, 4, 8, 4], \"dual\": [0, 5, 4, 8, 4]}, \"up_interior_dimension\": 1}}, \"E_up_capacity_at_least_three\": false, \"nonorthogonal_deformation_data\": {\"I\": 0, \"V\": [0, 5, 4, 8, 4], \"dual\": [0, 5, 4, 8, 4]}, \"nonorthogonal_restriction_profile\": {\"H1\": 5, \"torus_rank\": 4, \"torus_kernel\": 1, \"meridian_rank\": 4, \"meridian_kernel\": 1, \"longitude_rank\": 4, \"longitude_kernel\": 1}}\nSEED two_three_cycles 1 {\"permutations\": [[1, 2, 0, 4, 5, 3], [1, 3, 4, 0, 5, 2], [2, 3, 4, 5, 0, 1]], \"image_order\": 60, \"longitude_permutation\": [2, 0, 1, 5, 3, 4], \"coefficients\": {\"E\": {\"down\": {\"I\": 0, \"V\": [0, 1, 1, 2, 1], \"dual\": [0, 1, 1, 2, 1]}, \"up\": {\"I\": 0, \"V\": [0, 3, 1, 2, 1], \"dual\": [0, 3, 1, 2, 1]}, \"up_interior_dimension\": 2}, \"wedge2E\": {\"down\": {\"I\": 0, \"V\": [0, 5, 4, 8, 4], \"dual\": [0, 5, 4, 8, 4]}, \"up\": {\"I\": 0, \"V\": [0, 5, 4, 8, 4], \"dual\": [0, 5, 4, 8, 4]}, \"up_interior_dimension\": 1}}, \"E_up_capacity_at_least_three\": false, \"nonorthogonal_deformation_data\": {\"I\": 0, \"V\": [0, 5, 4, 8, 4], \"dual\": [0, 5, 4, 8, 4]}, \"nonorthogonal_restriction_profile\": {\"H1\": 5, \"torus_rank\": 4, \"torus_kernel\": 1, \"meridian_rank\": 4, \"meridian_kernel\": 1, \"longitude_rank\": 4, \"longitude_kernel\": 1}}\nSUMMARY {\"single_three_cycle\": {\"irreducible_representatives\": 0, \"analysed\": 0, \"unanalysed\": 0, \"capacity_and_meridian_tangent\": []}, \"two_three_cycles\": {\"irreducible_representatives\": 2, \"analysed\": 2, \"unanalysed\": 0, \"capacity_and_meridian_tangent\": [[false, 1], [false, 1]]}}\nPASS: exact finite-domain search; no chiral or nonlinear-integrability claim\n"
+      }
+    ]
+  },
+  "tests": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py",
+    "events": [
+      {
+        "chunk_id": "3afdfc",
+        "wall_time_seconds": 0.930543864,
+        "exit_code": 0,
+        "original_token_count": 25,
+        "output": "......                                                                   [100%]\n6 passed in 0.44s\n"
+      }
+    ]
+  },
+  "combined": {
+    "command": "LC_ALL=C LANG=C PYTHONDONTWRITEBYTECODE=1 python3.12 -m pytest -p no:cacheprovider -q reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py reports/global_sl5_seed_2026_09_27/test_global_seed.py reports/global_sl5_seed_2026_09_27/test_meridian_local.py reports/coupled_boundary_gate_2026_09_27/test_boundary_gate.py reports/coupled_boundary_gate_2026_09_27/test_deck_allocation.py reports/m6_parent_admission_2026_09_27/test_parent_admission.py",
+    "events": [
+      {
+        "chunk_id": "2de067",
+        "wall_time_seconds": 1.001494223,
+        "session_id": 92241,
+        "original_token_count": 3,
+        "output": "........."
+      },
+      {
+        "chunk_id": "b59c4b",
+        "wall_time_seconds": 0.000022816,
+        "exit_code": 0,
+        "original_token_count": 144,
+        "output": ".............................................................   [100%]\n=============================== warnings summary ===============================\nreports/global_sl5_seed_2026_09_27/test_global_seed.py::test_diagram_and_rewrite_proof\n  /Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available\n    warnings.warn('Plink failed to import tkinter, GUI will not be available')\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n70 passed, 1 warning in 6.15s\n"
+      }
+    ]
+  },
+  "seal_hashes": {
+    "chunk_id": "54246b",
+    "wall_time_seconds": 0.000018069,
+    "exit_code": 0,
+    "original_token_count": 243,
+    "output": "e1de1f0b4312e054f85aaa6fc7043686a832acfb41f07fb806b0394913c19c3f  reports/finite_irreducible_sl5_2026_09_27/DESIGN.md\n26f19de749fcb438685a0b502c6557fc2b85662d7e50d33117bdbc249f7d8c9a  reports/finite_irreducible_sl5_2026_09_27/PROOF.md\ne99c8dbdfda11cf7ab6730931f72ee992d9f7d7f85bc085fa4e09bd2464b755e  reports/finite_irreducible_sl5_2026_09_27/INPUTS.json\nff5465fd051383c96280d7e6c87e8007081e62d7f54a30ebc81c37cc5028e1c5  reports/finite_irreducible_sl5_2026_09_27/verify_finite_seed.py\n9efe7ce8eb5714e9231f7350fe1c319124e1fa2584e334025aee73d8df7ecbde  reports/finite_irreducible_sl5_2026_09_27/test_finite_seed.py\n2786ea5aa7fc3447125b9738222eff6abc691f187870188af6dd535ded8429fc  reports/global_sl5_seed_2026_09_27/INPUTS.json\n3f54b6e96a37d96d3d46f8a616c65dc41456bdd5394fda68609a639f9020420c  reports/global_sl5_seed_2026_09_27/verify_topology.py\n71174a14002000a7a289fa0709be7cf9663ed238bc37938e3ab755fb7b149403  reports/global_sl5_seed_2026_09_27/verify_global_seed.py\n"
+  },
+  "post_run_hash_check_chunk": "10f95d"
+}
