@@ -1062,3 +1062,18 @@ science/failed outputs retained; not an analytic proof certification.
 | `reports/physical_bridge_2026_09_05/NEUTRAL_SQUARE_ROOT_DIAGNOSTIC_DESIGN.md` | `b96ac89247e3113d8591ec20f6eb7e0521726b3e667851e87494d45296fbb13d` |
 | `reports/physical_bridge_2026_09_05/neutral_square_root_diagnostic.py` | `15eeb7d1d1cef6915082e715ac9e9d979f9f7aca110e1694d1091e924b12e064` |
 | `tests/test_physical_bridge_neutral_square_root_diagnostic.py` | `0411ecfbd33524d3ef41abf83d99b54a2ac8560375c7863f1eb011460ef22fdf` |
+
+## R53 actual harmonic velocity at the canonical center, September 27, 2026
+
+Pre-execution conditional authored derivative/kinetic argument, not
+independent analytic acceptance, whole-curve regularity or TOE.
+Commit/push/server confirmation precedes all science import/execution.
+
+| path | SHA-256 |
+|---|---|
+| `reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_DESIGN.md` | `f38368b72cc1b6c76531f1c81125006870ff5376b8be6b42bcdc22a709d81c46` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_PROOF.md` | `936f3110797e8a27e9522c2d29f601e32215bf5a3c1bd1a37b34614fe1de64c9` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_PRIOR.md` | `abf40ac2ce7dd1c3c5637a4c2701dfd794561bbb59de40a2b1dddf0000661873` |
+| `reports/physical_bridge_2026_09_05/NEUTRAL_VELOCITY_INPUTS.json` | `b30923835b51e20a7a21a17ca007d474bc5dd89a214065e34240b439474f6f4f` |
+| `reports/physical_bridge_2026_09_05/neutral_velocity.py` | `e90c147afc2f8b88dd6b9b12a33b7871ed15cd53ddfe0437d074eec340c488dd` |
+| `tests/test_physical_bridge_neutral_velocity.py` | `4375ab0f4273634a99a631e20c0e5f35c711369319a7e7f638f8d936072e0b9f` |
