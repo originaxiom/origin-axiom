@@ -1,6 +1,15 @@
 # Origin Axiom
 
-> **Current physical-bridge checkpoint (2026-09-27, path-local R49).**
+> **Current physical-bridge checkpoint (2026-09-27, path-local R50).**
+> [Second-order neutral relaxation](reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md)
+> cancels the curvature and moment-map residuals through order two in the
+> SAME supplied action, at conditional authored-proof grade. The relaxed
+> quartic vanishes; a convergent nonlinear branch and physical selection
+> are not established. Native 39/39, dedicated 14 pass; fixed regression
+> 99 pass with the same two preserved failures. Earlier checkpoints below
+> retain their dates and scope, not current open-duty status.
+
+> **Previous physical-bridge checkpoint (2026-09-27, path-local R49).**
 > [Canonical neutral regularity](reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md)
 > supplies nonlinear admissibility at authored-proof grade, not a physical
 > modulus or chiral theory. Original comparison failures remain recorded.

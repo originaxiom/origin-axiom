@@ -1,6 +1,14 @@
 # Open leads — the live, unrun catalog (MATH tier)
 
-Current R49 (September 27): neutral nonlinear REGULARITY advances to
+Current R50 (September 27): the canonical neutral q tangent now has
+a conditional finite-action second-order correction. Both residuals
+cancel to order two; the relaxed quartic is zero. Convergent nonlinear
+integration remains a separate analytic duty, not a missing algebraic
+smoothness computation. Full kernel/normalized tensors and physical
+selection remain. See the R50 disposition at EOF and
+reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md.
+
+Previous R49 (September 27): neutral nonlinear REGULARITY advances to
 authored conditional analysis; nonlinear integration, full kernel count,
 selection and independent review remain separate duties. The two web
 handoffs and refreshed Standard-Model branch at 9f9a0751 supply new
@@ -3556,3 +3564,29 @@ the entire embedded library was not read, and no incoming science was
 rerun here. The September 27 corrective ZIP cited by B1384 was not one
 of the two supplied archives. Full reception and reading-grade ledger:
 reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
+
+## R50 disposition - September 27, 2026
+
+- **Advanced, not fully closed:** the fixed-action neutral nonlinear duty.
+  Closing sentence for the second-order subproblem: "R47's particular
+  harmonic q tangent admits an admissible second-order correction cancelling
+  both curvature and moment-map residuals on the same fixed canonical
+  background, so the relaxed quartic is zero." Scope and authored proof:
+  reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_PROOF.md.
+  This names a member/family/domain; it is not a closure on the full object.
+- **Next analytic duty:** establish convergence to an actual nonlinear
+  branch or a higher obstruction, with an explicit function space and end
+  asymptotics. Subexponential finite-Lp estimates do not automatically
+  permit a bounded complex gauge exponential or an implicit-function theorem.
+  Do not repeat finite algebraic jets as a substitute for this question.
+- **Retained:** full neutral harmonic census and normalized interactions,
+  physical parent/source/end/phase/scale selection, actual chiral spectrum,
+  anomaly/quantum consistency, gravitational dynamics and empirical tests.
+  R48 pairing and distinct R40/R41/nonsplit alternatives remain.
+- **Coordination only:** parallel fork 02ea6154 reports irreducible non-self-
+  dual rank-five monomial seeds and no interior modes at t=2. Its newer
+  exceptional-locus design is not duplicated; producers were not independently
+  rerun here. No inferred all-parameter or all-coefficient exclusion.
+- **Review:** the inhomogeneous estimate and inherited global analytic
+  chain require independent scrutiny. Exact finite controls and custody
+  do not pay this; full-suite/banking/governance debts remain.

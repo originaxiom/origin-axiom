@@ -1,6 +1,22 @@
 # THE FRAMEWORK — the whole thing, put together
 
-**Current path-local result, R49 (September 27): neutral nonlinear admissibility.**
+**Current path-local result, R50 (September 27): neutral second-order relaxation.**
+On the SAME fixed canonical q0>0,q0!=1 background, R47's harmonic
+q tangent admits a complete-domain/L4 second-order correction to BOTH
+curvature and moment-map equations. The relaxed quartic is zero;
+V=O(s^6), not an exact branch or selected vacuum. Authored analytic
+grade under inherited all-jet/core/density inputs; no independent review.
+Native 39/39 and dedicated 14 pass. Eight-file regression: 99 pass,
+the same two original failures preserved. Seal 51f16912 was pushed and
+server-confirmed before execution. Report:
+reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md.
+Next: nonlinear convergence/end control, full modes and normalized
+tensors, physical selection/spectrum, quantum consistency and gravity.
+The parallel fork at 02ea6154 is received at selected-report level,
+not independently reproduced or used as a premise. Earlier entries
+retain their dates and original scope.
+
+**Previous path-local result, R49 (September 27): neutral nonlinear admissibility.**
 On each fixed q>0, q!=1 canonical background, the complete adjoint
 harmonic modes are finite-dimensional and in every finite Lp, p>=2,
 at authored-proof grade under the inherited all-jet cusp/core inputs.

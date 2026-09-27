@@ -15558,3 +15558,36 @@ Historical four governance-failure categories and 41 stale relay debts
 remain. Reports and byte custody:
 reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md;
 reports/physical_bridge_2026_09_05/WEB_HANDOFF_INTAKE_2026_09_26.md.
+
+## 2026-09-27 - R50 neutral fixed-action second-order relaxation
+
+Science seal 51f16912a83f918024a33bbbb5bb56bfa45adaf5 was pushed and
+server-confirmed before every import/run. Six new scientific paths and
+62 predecessor paths remain immutable. Native exact controls 39/39,
+dedicated tests 14 pass, fixed eight-file regression 99 pass with the
+same two original failed IDs. No R50 scientific correction or new test
+failure; no full-suite or independent analytic certificate.
+
+The authored argument extends the actual-cusp weighted estimate to
+inhomogeneous equations, constructs an L2 flat primitive for the harmonic
+q tangent's quadratic curvature, and cancels its moment-map source using
+the zero-degree Green operator with no global adjoint invariants. An
+admissible correction beta gives u=s alpha+s^2 beta, residuals O(s^3)
+and supplied potential O(s^6). The relaxed quartic vanishes. This is
+not a convergent nonlinear branch, an exact stationary vacuum or q
+stabilization. It reuses R47's flat family rather than rediscovering
+algebraic smoothness; B274/B575 remain positive in their own settings.
+
+All-head/tag fetch returned unchanged remote refs. The parallel local
+fork advanced to 02ea6154; its goal reassessment and latest monomial
+FINDINGS were read from that immutable pin, without independently
+reproducing the new science. Its rank-five/exceptional-locus lane and
+untracked parent-mirror files are untouched. No incoming claim became
+a premise of this result.
+
+Next: weighted nonlinear convergence/end control, full kernel and
+normalized tensors; physical source/end/parameter selection, spectrum,
+quantum/anomaly completion and gravity remain. Reader fronts, scoped
+law sublemmas, campaign ordering and open-duty dispositions are updated.
+Historical governance and full-banking debts remain declared. Report:
+reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md.

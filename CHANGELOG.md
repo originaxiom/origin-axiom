@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-27 - R50 neutral second-order correction in the fixed action
+
+The canonical q harmonic tangent admits a complete-domain/L4 correction
+that cancels both curvature and moment-map equations through second order,
+at authored analytic grade under inherited global inputs. The relaxed
+quartic is zero and the potential O(s^6), not an exact nonlinear branch.
+Science seal 51f16912 was pushed/server-confirmed before every execution.
+Native 39/39 and dedicated 14 pass; eight-file regression 99 pass with
+the same two original failures. No executed science changed. Incoming
+fork coordination is refreshed to 02ea6154 without adopting unrerun claims.
+Full convergence, normalized interactions, selection, chirality, quantum
+and gravity remain. Report: reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md.
+
 ## 2026-09-27 - R49 neutral nonlinear domain and two-handoff reception
 
 On each fixed canonical q>0,q!=1 background, exact full-adjoint cusp

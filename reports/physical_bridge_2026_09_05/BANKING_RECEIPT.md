@@ -1006,3 +1006,43 @@ Reader fronts, progress/changelog/campaign and scoped law sublemmas
 are updated. The source-action, physical chirality, selection, quantum/
 anomaly and gravity duties remain. Four historical governance failures
 and 41 stale relay debts prevent a full banking certificate.
+
+## September 27 - R50 path-local second-order result
+
+Six scientific files at 51f16912a83f918024a33bbbb5bb56bfa45adaf5 were
+pushed and server-confirmed before any import/run. Sixty-two inherited
+paths retain their input hashes and committed bytes. Native 39 exact
+controls pass; dedicated 14 pass; eight-file regression 99 pass and
+the same two original failed IDs, with earlier diagnostics passing.
+The worktree was read-only throughout all scientific execution envelopes.
+No executed scientific file was edited; original failures stay visible.
+
+The new custody checker compares git/ledger/current bytes, raw receipt
+and stdout hashes, public copies, exact counts and the fixed expanded
+population. Raw pytest whitespace is preserved. Reporting prose and
+reader surfaces are not represented as a pre-execution prediction.
+Law sublemmas, campaign order, open-duty dispositions, progress/changelog,
+goal checklist and reader fronts are updated together.
+
+This is conditional authored global analysis with explicit external
+geometry/density inputs, not independent specialist acceptance. No
+independent banking reviewer, full suite, shared B/I number, main/PR
+merge, mirror push or other-seat edit. Historical governance categories
+and relay debts remain; no full banking certificate is claimed.
+
+The result is a finite-action two-jet, not a full branch or physical
+vacuum. Convergence, whole modes, normalized tensors, physical selection,
+chirality, quantum/anomaly completion, gravity and observations remain.
+Parallel-fork coordination at 02ea6154 is report-level reception only.
+
+Two first REPORTING checks failed and are preserved: the cumulative
+custody audit found an omitted latest hash for the newly appended
+docs/SEAL_LEDGER.md; the first governance run misread the new nonstandard
+LAW_MAP table header as a claim row without provenance. The ledger digest
+was appended and the header changed to the existing `law` convention;
+neither the checks nor any executed scientific file was changed. The
+corrected cumulative custody check passes. Corrected governance returns
+26 PASS and only the four historical FAIL categories (41 stale relay
+debts included); the new law-map header failure is gone. The full
+whitespace check also flags the preserved raw pytest whitespace; authored
+text passes with that exact data file excluded. None is hidden as green.

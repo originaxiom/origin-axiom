@@ -1,6 +1,13 @@
 # THE LAW MAP — every law the object has produced, with its exact status
 
-Current path-local R49: canonical adjoint end spectra and authored
+Current path-local R50: the actual canonical neutral q tangent has an
+admissible second-order field correction and vanishing relaxed quartic,
+at authored analytic grade under inherited geometry/density inputs.
+The inhomogeneous regularity, complete-L2 exactness and moment-map
+correction are scoped separately at EOF. No convergent branch or physical
+selection. Report: reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md.
+
+Previous path-local R49: canonical adjoint end spectra and authored
 finite-Lp/nonlinear-domain join, with the original comparator failure
 retained and separately diagnosed. See the scoped sublemma rows at EOF
 and reports/physical_bridge_2026_09_05/NEUTRAL_REGULARITY.md.
@@ -710,3 +717,18 @@ accepted main-bank theorems or new empirical matches.
 R49 files without an explicit directory above are under
 reports/physical_bridge_2026_09_05/. These laws remain path-local authored
 applications, not independent main-bank acceptance.
+
+## September 27, 2026 - R50 fixed-action second-order sublemmas
+
+These are conditional authored applications in the SAME R42/R44 canonical
+geometry, not independently accepted theorems or shared B-number claims.
+R49's straight-line quartic value remains uncomputed; its former curved-
+branch duty is advanced only through second order by the rows below.
+
+| law (scoped statement) | content and limitation | provenance / control |
+|---|---|---|
+| Inhomogeneous subexponential regularity on the actual collapsing cusp | Complete L2 solutions of Q u=f inherit subexponential jets and all finite Lp if the forcing has such jets, under R49 exterior gap and R44 all-jet/core inputs. The exp(r) covering multiplicity is retained. No L-infinity or nonlinear inverse theorem. | B1138 supplied-parent context only; reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER_PROOF.md section 2; tests/test_physical_bridge_neutral_second_order.py::test_strict_weight_margins_and_endpoint_control supports finite margins, not independent PDE review |
+| The particular q tangent has zero complete-L2 quadratic curvature obstruction | Closed range gives c-alpha=d sigma; the explicitly transported flat two-jet is L2 by the new inhomogeneous estimate, so Pi2(alpha wedge alpha)=0. This concerns R47's direction, not every adjoint class or a finite bounded gauge transformation. | B1138 conditional context only; R50 proof section 3; tests/test_physical_bridge_neutral_second_order.py::test_free_graded_transport_not_commuting_matrix_proxy; test_transport_mutants_are_detected |
+| Second-order moment-map relaxation removes the neutral q-direction quartic | Global adjoint H0=0 under R45 density; beta=-d^dagger G2 j2+d G0 j0 is in Dom(Q) intersect L4 and cancels both residuals to order two. Potential O(s^6), not zero to all orders, a selected q or physical chirality. | B1138 supplied action only; R50 proof sections 4--5; tests/test_physical_bridge_neutral_second_order.py::test_hilbert_green_and_independent_least_squares; test_curvature_zeroform_and_nonclosed_obstructions; test_quartic_cannot_kill_a_relaxed_direction; finite controls are not global proof certification |
+
+R50 report: reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md.

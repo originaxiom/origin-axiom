@@ -16,6 +16,16 @@ it.
 
 ## THE ORDERING PRINCIPLE
 
+September 27 R50 gives a conditional finite-action TWO-JET along the
+canonical neutral q direction. Second-order field relaxation cancels
+the quartic, so a straight-line quartic must not be read as stabilization.
+Next address convergence/end control for an actual nonlinear branch,
+not another algebraic obstruction count in a germ already known smooth.
+Keep full neutral census and normalized tensors explicit. The parallel
+fork's rank-five exceptional-locus search is distinct and not duplicated.
+Source/end, physical spectrum, quantum and gravity duties remain.
+See reports/physical_bridge_2026_09_05/NEUTRAL_SECOND_ORDER.md.
+
 September 27 R49 supplies the authored canonical neutral Lp/action-domain
 join, with its comparison failure preserved and separately diagnosed.
 Next test nonlinear integration/obstructions on the SAME fixed background;
