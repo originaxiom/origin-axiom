@@ -2947,3 +2947,40 @@ an even number of generations); B1104's tick → the double tick's periodicity. 
 the spin bit and the orientation axiom are one question. **Next piece:** does anything in the record fix the deck's role? The
 candidates are the deck as CP (SP-2's beat, B1145), the deck as the tick (B1104), and the deck as the genesis parent (C5).
 Pieces (i), (iii), (iv) unchanged. `frontier/B1383_the_spin_bit_is_the_square_of_the_deck`.
+
+**sL-3, 2026-09-27, B1384 — the generated state space.** The web seats' corrective handoff is adopted. The genesis laws define
+X_gen, and m004 is its root. The Gieseking/orientation fork is represented explicitly, and m004 is conditional on C5/A6 until
+that axiom is derived. B1383's "A6 excludes the gauged role" is corrected: role (a) is excluded only conditionally on A6, so
+the spin-bit question is open in both directions. sL-3's target is unchanged and now reads: *derive the orientation selector from
+weaker data, or show that the orientation pair is a naturality torsor (then no natural selector exists and the fork is
+structural).* `frontier/B1384_the_generated_state_space`.
+
+## sL-4 — THE RELATIVE SL₅ COMPONENT SEARCH ON M₂ (registered 2026-09-27, B1384; the web seats' next mathematical gate)
+
+**What is settled.**
+- The common SL₅ parent is exact: c_E8(SM) = ws:R40's structure A4 + u1_Y (B1384 S1).
+- The M6 triplet is the restriction of one induced object on M₂ (Shapiro, B1384 S3).
+- Parabolic P_{2,3} backgrounds factorize 2 ⊗ 3* on the mixed roots, so they cannot carry the triplet (S2 and the handoff's
+  15-pairing census).
+- The structured families are dead or zero: the Sym⁴ component (self-dual), its order-5 twists (I = 0, S4), the SL₂ × C₃ Levi
+  point, and the nine native M₂ loci (zero relative mixed kernel).
+
+**The gate.** Search the full relative SL₅ character variety of M₂ (cusp-preserving) for a component that is all of the following:
+- non-self-dual, non-unitary and non-Galois-paired;
+- cusp-invariant and globally nonparabolic;
+- outside the principal geometric component;
+- not infinitesimally attached to the nine native Levi seeds.
+
+Compute its index. Fence: the index is not a physical generation count (the deck's physical status, sL-5). Tools: B1384's
+covers and `index_lib.py`; the handoff's ℚ(ζ₁₅) engine. ★★
+
+## sL-5 — TRANSITION SEMANTICS: WHAT THE GENERATED ARROWS MEAN (registered 2026-09-27, B1384; the foundation lane)
+
+The generated architecture is kinematic. The questions to answer:
+- For each arrow type — deck, cover, filling, cross-generation Ext, word extension — is it redescription, symmetry,
+  refinement, interaction, or evolution?
+- Is the M6 deck gauged (one index −1 object on M₂) or a discrete symmetry (three on M₆)? This one-versus-three question is
+  B1384 S3's Shapiro identity read physically.
+- Which internal dynamics, if any, selects a trajectory?
+
+Until this is decided, no arrow is time and no multiplicity is a generation count. ★★★ (the handoff ranks it primary).

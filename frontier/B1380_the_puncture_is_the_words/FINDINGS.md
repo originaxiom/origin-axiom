@@ -108,6 +108,11 @@ on the Gieseking manifold chirality is not even defined. Neither fact is new mat
 with this arc's result is the point: after B1380, *the entrance's only fragile choice is the one that makes the object
 amphichiral*. Lock: `test_minimality_would_choose_gieseking`.
 
+> **Read in the generated state space (2026-09-27, B1384).** "The final axiom that chooses m004" is conditional: until
+> orientation is derived from weaker data, m004 is selected by a declared axiom, and the Gieseking state — the one minimality
+> points to — stays in the pre-selection architecture. It is not shown absent. Whether the orientation pair forms a naturality
+> torsor is a separate theorem, not claimed. `frontier/B1384_the_generated_state_space`.
+
 ## 6. For main (relayed, not applied)
 
 The paper's §axioms and chain table price the entrance at two fragile axioms, orientation and the puncture. On the words route —

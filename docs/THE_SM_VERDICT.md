@@ -657,3 +657,18 @@ left it.
 > Model's T²" is corrected. What remains is the deck's role: gauged, with the parent itself a background, gives B1141's lift ρ₁;
 > the deck inside the SM's CP on the oriented carrier gives the other lift ρ₂; B1104's tick ties it to the double tick. So the
 > spin bit stays 1, now as the orientation axiom's physical meaning. 0 of 19 (`frontier/B1383_the_spin_bit_is_the_square_of_the_deck`).
+
+> **Currency note (2026-09-27, B1384): the generated state space.** The web seats' corrective handoff is adopted. The genesis
+> laws define a pointed generated state space, and m004 is its distinguished root, not the whole of it:
+> - m003 is a generated signed state; m010 is a later state, distinguished by first cubic self-hosting;
+> - the orientation fork stays represented while C5 is declared, and B1383's "A6 excludes the gauged role" holds only
+>   conditionally on A6;
+> - no generated arrow is time.
+>
+> The post-checkpoint mathematics re-runs 13 of 13 on this bench. Own code confirms:
+> - the common SL₅: c_E8(SM) = ws:R40's structure A4 + u1_Y;
+> - the parabolic factorization lemma;
+> - "one versus three" as Shapiro's lemma on Γ₆ ◁ Γ₂: the M6 triplet (index −3) is one induced index −1 object on M₂;
+> - the Sym⁴ control and its order-5 twists at I = 0.
+>
+> Physical generations stay open (the deck's status, sL-5), and so does the relative SL₅ search (sL-4). 0 of 19 (`frontier/B1384_the_generated_state_space`).

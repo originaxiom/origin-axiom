@@ -11,6 +11,10 @@
 
 > **Notation correction (2026-09-26, B1379; E72).** The levels Y₂–Y₆ (and Y₇) below are the **cusped** cyclic covers of m004 — now written **M₂–M₆** — not B1301's closed branched covers, which keep the name Yₙ. Every number below stands, on Mₙ; none of the one-generation backgrounds descends to the closed cover (M₄: 0 of 89 loci; B1379).
 
+> **Second bench, 2026-09-27 (B1384).** The web seats' native-deck scan of M₆ totals 67 200 weighted backgrounds (115 deck
+> representatives, 11 200 unweighted) — exactly this arc's M₆ count, computed independently here on 2026-09-16.
+> `frontier/B1384_the_generated_state_space`.
+
 **Date:** 2026-09-16 · **Seat:** cc (the SM-derivation branch) · **Status:** PROVED (the computations; the one-per-background law on the levels computed) · **Fence:** main's index on a non-semisimple background, main's fence — no physics reading, no value, no three · **Price: unchanged** · **Numbering:** B1375 (sL-2).
 
 ## 0. Seen from above

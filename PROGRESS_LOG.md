@@ -15351,3 +15351,42 @@ commutes with their D and SU(2) twist and J² = −1 (Witten eq. (2.60)), on eit
 - THE_SM_VERDICT, OPEN_LEADS sL-3, ERROR_LEDGER, RETRACTIONS, RETRACTED_PHRASES, the letter's forty-fifth note, the alias table.
 
 0 of 19.
+
+### B1384 — the generated state space (2026-09-27)
+
+The owner forwarded the web seats' corrective cumulative handoff. Their diagnosis of this branch (audited at `8a064442`):
+B1379 imported their genesis mathematics correctly but did not propagate the ontology. The ledger's "A1–A6 force the unbased
+object", m010 "past the object", m003 "separated", orientation "the axiom that chooses m004" and the single-line end-to-end chain
+all kept the old single-object framing. The handoff's checksums were verified: package sha256 `138d4b06…`, internal manifest
+20/20.
+
+**Adopted, with its fences.** The genesis laws define X_gen = (reachable states, native moves, equivalences, root); m004 is its
+distinguished minimal positive mixed root. m003 is a generated signed state (−I = (L²R⁻¹)²). m010 is a later state, distinguished
+by first cubic self-hosting. The Gieseking/orientation fork stays represented, and m004 is conditional on C5/A6 until that axiom is
+derived. No generated arrow is time. The cubic character δ and the deck C₃ stay distinct. Not a multiverse claim.
+
+**Swept first (E54).** "Generated state space" appeared on this branch only as B1379's description of the web seat's work. The
+M6 triplet itself was already reproduced by B1378. The web seats' "R40" collides with fc's R40 (B1238), so it is now written
+ws:R40.
+
+**Checked.**
+- The handoff's 13 verifiers re-run unchanged. Six needed the web seat's `/mnt/data` path mapped; two filenames were inferred
+  from content and recorded. The regenerated outputs are identical to the shipped ones.
+- Own code (`handoff_checks.py`, about 35 s):
+  - S0: −I = (L²R⁻¹)².
+  - S1: E8's SM centraliser is exactly ws:R40's structure A4 (20 roots) + u1_Y; the E6 through the gauge A4 has 72 roots and
+    centraliser ±β; the structure A4 splits as 2 + 6 + 12.
+  - S2: the parabolic lemma, symbolic (X cancels), and N(n₊) = P_{2,3}.
+  - S3: "one versus three" is Shapiro plus Mackey on own covers. Ind V on M₂ has exactly V's five cohomology numbers on 30
+    non-split seeds, 6 of them with I ≠ 0; T³ = ρ(μ₆) blockwise, with (T³ − 1)² = 0 on the unipotent ones.
+  - S4: Sym⁴(ρ_geo) is self-dual, so I = 0; its four cusp-trivial order-5 twists have (0,1,1,2,1) for V and V* and I = 0, at
+    p = 601, 1201 and 1321.
+- Cross-bench: the web seats' 67 200 weighted M₆ backgrounds equal B1375's count exactly.
+
+**Propagated.** Dated notes on docs/THEOREM_LEDGER.md (B1379 block), B1379, B1380, B1383 (self-correction: role (a) excluded
+only conditionally on A6), B1375, B1378, THE_END_TO_END_CHAIN (the X_gen/x₀ convention and the transition-semantics fence),
+THE_SM_VERDICT, OPEN_LEADS (sL-3 status; new sL-4, the relative SL₅ component search on M₂; new sL-5, transition semantics),
+PRACTICES (hypothesis-scoped negative inheritance and its reading rule), README, ERROR_LEDGER (E1 instance), RETRACTIONS,
+RETRACTED_PHRASES, the letter's forty-sixth note, the alias table.
+
+Verdict PROVED plus ADOPTED; lock four tests, about 25 s. 0 of 19.

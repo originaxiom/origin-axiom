@@ -166,6 +166,14 @@ exists to catch.
   link and the programme's central obstruction are one place (OPEN_LEADS sL-3). And the record's
   standing counter-discipline still applies to every attack: sweep before claiming (E54), verify in
   both directions, 0 of 19 stays 0 unless earned.
+- **Hypothesis-scoped negative inheritance (registered 2026-09-27, B1384; the web seats' cross-seat synthesis).** A no-go or a
+  negative computation transports to a new construction **only if its hypotheses transport**. Every negative carries its domain
+  signature: manifold / cover / filling; coefficient category; semisimple or non-split; boundary conditions; symmetry group;
+  action or equation domain; representation frame. Change any of them and the negative must be re-proved or explicitly
+  transported. The record's instances: E72 (the Yₙ/Mₙ join); the hollow-texture theorem (B1361/B1273), true but not a theorem
+  of the M6 candidate; B1274's bounded tower result, which did not answer the later non-split M6 question. Its companion
+  reading rule, from the same handoff: **a criterion can distinguish a state without deleting the other generated states** —
+  a declared selector's choice is labelled conditional, never read as the alternative's absence.
 - **Compute the discriminating fact.** A negative is only as sound as the in-sandbox computation of
   the fact that discriminates it — never asserted, cited, or proxied.
 - **Verify in both directions.** A refutation gets the same scrutiny as a claim. (Error class E33

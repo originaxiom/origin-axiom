@@ -14,6 +14,13 @@
 > HARVEST_LEDGER R11/R64), and the Yₙ/Mₙ correction (seat label sm:E72; an instance of main's E72 class,
 > ONE-SYMBOL-TWO-QUANTITIES). Every computation below stands.
 
+> **Reading corrected 2026-09-27 (B1384 — the web seats' corrective handoff, adopted).** This arc verified the web seat's
+> algebra but wrote it back into a single-object framing. Read below: **m004 is the distinguished root of the generated state
+> space, not the whole of it**. "Past the object" (m010) means *a later generated state of the same architecture, distinguished
+> by first cubic self-hosting*. "Which axiom separates them" (m003) holds inside the conditional uniqueness theorem; read
+> ontologically, the torsion criterion *distinguishes* the positive root, and −LR stays a generated signed state. Every
+> computation below stands. `frontier/B1384_the_generated_state_space`.
+
 **Date:** 2026-09-26 · **Seat:** cc (the SM-derivation branch) · **Occasion:** the owner's correction — *"we have weak spots on
 our chain, genesis and m004, that work is supposed to fix that"* — of this seat's first reading of the 2026-09-26 checkpoint as
 "not directly actionable" · **Status:** PROVED (every computable claim below, own code) · CORRECTION OF RECORD (the Yₙ

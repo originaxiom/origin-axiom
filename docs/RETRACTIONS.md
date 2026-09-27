@@ -177,3 +177,9 @@ that checkpoint as "not directly actionable", a reading the owner corrected the 
 | what was asserted | where banked | the correction | where corrected |
 |---|---|---|---|
 | "the lift B1141 selected is the one Kramers fermions — T² = (−1)^F, the Standard Model's — would require, if the Gieseking manifold's orientation reversal is read as the Euclidean reflection that continues to time reversal" (flagged reading) | B1382 FINDINGS §4, THE_SM_VERDICT, OPEN_LEADS sL-3, the letter's 44th note | QUALIFIED — true only when the deck is gauged (the parent itself a background). With the deck inside the 4d CP/T on the oriented carrier, Pin⁺ selects the other lift ρ₂. And the SM has no T (J ≠ 0): its CP, when a symmetry, is Pin⁺, forced by three generations. Physics buys the Pin type; the spin bit moves to the deck's role. | B1383; dated notes at each surface |
+
+## 2026-09-27 — B1384: conditional selectors re-read in the generated state space (E1)
+
+| what was asserted | where banked | the correction | where corrected |
+|---|---|---|---|
+| "A1–A6 force the unbased object" read as the whole ontology; m010 "past the object"; m003 "separated" by the torsion axiom; orientation "the final axiom that chooses m004"; "read physically, A6 excludes the gauged role" | docs/THEOREM_LEDGER.md (the B1379 audit block), B1379, B1380, B1383, THE_SM_VERDICT, OPEN_LEADS sL-3, the letter | QUALIFIED — m004 is the distinguished root of the generated state space X_gen, not the whole of it. m003 is a generated signed state, and m010 a later state distinguished by first cubic self-hosting. The orientation fork stays represented, and m004 is conditional on C5/A6 until it is derived, so B1383's role (a) is excluded only conditionally. Every computation stands. | B1384; dated notes at each surface |

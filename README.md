@@ -300,6 +300,9 @@ emitted value. The structure is the object's; the values are the observer's.
 > B1383: physics fixes that type — Pin⁺ — and the bit now sits in the role the deck plays);
 > and whose **values remain closed disjoint from every route tested — ten honest negatives** — a
 > wall this programme itself now explains, rather than merely reports.
+>
+> *Read (2026-09-27, B1384): the genesis laws define a pointed generated state space. m004 is its distinguished root, not
+> the whole of it, and each declared selector above (orientation among them) is conditional until derived.*
 
 Everything summarized above is **structure**, at the Betti / representation-theory /
 dimensionless level, reported with its evidence grade and its fences attached. The

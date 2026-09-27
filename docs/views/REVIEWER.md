@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1231** |
-| words of findings prose | **934,965** |
-| test lock files referenced | **745** |
-| arcs carrying an authored verdict | **1231** (100.0 %) |
+| research arcs with findings | **1232** |
+| words of findings prose | **937,659** |
+| test lock files referenced | **746** |
+| arcs carrying an authored verdict | **1232** (100.0 %) |
 | recorded closures | **792** (617 classified, 175 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 812 |
+| PROVED | 813 |
 | NEGATIVE | 320 |
 | OPEN | 88 |
 | RETRACTED | 11 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1383`** (2827 words, 1 locks)  
-THE SPIN BIT IS THE SQUARE OF THE DECK: on m004's spinors with spin structure sigma the lifted Gieseking deck squares to eps*sigma (eps = the Pin convention; B1382's (lam W, c)^2 = (eps A, 0)), and paired with k further reversed directions to q = eps^(k+1) (-1)^(k(k+1)/2) sigma (exact; the Clifford half checked against Stiefel-Whitney classes on S^2 -> RP^2 with k extra directions; the graded product against Cl(1+k) at a fixed point); on the mapping torus of the deck (B1104's one-level-up Gieseking analog, H_1 = Z^2) every (eps, sigma) extends and the double tick lifts to eps*sigma. Physics fixes eps = + three ways (verified quotes: Freed-Hopkins 1908.09916 -- M-theory is Pin+ with no internal symmetry to shift T^2; Witten 1508.04715 -- T^2 = (-1)^F <-> Pin+, and Pin+ structures on Y-hat/tau from a tau acting with square 1; Yonekura 2602.11475 -- the SM's CP, when a symmetry, is Pin+ x| G, and three generations force it: X conj(X) = -1 is impossible on the lepton singlet's C^3). Then the spin bit is the deck's square on fermions and is decided by the deck's role: gauged (the parent itself a background) -> rho_1, B1141's lift; the SM's CP on the oriented carrier (odd-k pairing; the effective reflection type is -sigma) -> rho_2, the other lift (rho_1 would force even generation numbers); B1104's tick -> sigma = the double tick's periodicity (Ramond rho_1, NS rho_2). B1382 section 4 qualified (E1: the role fixed implicitly; 'T^2 = (-1)^F, the Standard Model's' corrected -- the SM has no T, J != 0). The freedom ledger's spin bit stays 1, relocated from the Pin type (now bought) to the deck's role -- which is the orientation axiom A6 in physical form. Side result relayed: main's B933/B940 O1 Dirac doubling is the 3d quaternionic structure (J = sigma_2 K commutes with their D and twist, J^2 = -1; Witten eq. 2.60), on either spin structure. 0 of 19.  
-`B1383_the_spin_bit_is_the_square_of_the_deck/FINDINGS.md`
+**PROVED — `B1384`** (2316 words, 1 locks)  
+THE GENERATED STATE SPACE: the web seats' corrective handoff of 2026-09-27 adopted with its fences -- the genesis update laws define a pointed generated state space X_gen = (reachable states, native moves, equivalences, root) and m004 is its distinguished minimal positive mixed root, not the whole of it; m003 (-LR, with -I = (L^2 R^-1)^2) is a generated signed state, m010 a later state distinguished by first cubic self-hosting, the Gieseking/orientation fork stays represented and m004 is conditional on the orientation axiom until it is derived; no generated arrow is physical time; delta and the deck C3 stay distinct. Post-checkpoint mathematics: the handoff's 13 verifiers reproduce unchanged (outputs identical), and own code confirms (S1) the common SL5 -- the SM centraliser in E8 is exactly ws:R40's structure A4 (20 roots) + u1_Y, the E6 through the gauge A4 has SM centraliser +-beta, the structure A4 = sl2_beta + A2_family + 12 mixed; (S2) the parabolic lemma (X cancels; N(n_+) = P_{2,3}); (S3) one versus three is Shapiro plus Mackey on Gamma6 normal in Gamma2 (Ind V on M2 has exactly V's five cohomology numbers on 30 non-split seeds, 6 with I != 0; T^3 = rho(mu6) blockwise, (T^3-1)^2 = 0 when unipotent); (S4) Sym^4(rho_geo) self-dual so I = 0, and its four cusp-trivial order-5 twists have (0,1,1,2,1) for V and V*, I = 0, at three primes. The web seat's M6 weighted total 67 200 equals B1375's own M6 count. B1383's 'A6 excludes the gauged role' corrected: excluded only conditionally on A6. Hypothesis-scoped negative inheritance registered as a practice; ws:R40 vs fc R40 label collision recorded. Physical generations and the relative SL5 component search stay open. 0 of 19.  
+`B1384_the_generated_state_space/FINDINGS.md`
 
 **NEGATIVE — `B1373`** (1247 words, 1 locks)  
 THE ORDER-4 POINTS ON THE GEOMETRIC PATH: door 2's residual (B1372) needs a point of a free-cusp member's character variety where both peripheral eigenvalues on the free cusp are fourth roots of unity with non-unitary holonomy. Along the cone-manifold deformation path of the hyperbolic structure -- fillings (2p, 0) or (0, 2p) on the free cusp with p from 30 down to 1, the other cusps complete -- the point where one curve has eigenvalue +-i is reached on 132 of the 166 (cusp, curve) pairs of the 35 candidates, and at every one the other curve's eigenvalue is non-unitary (|L| between 0.25 and 9): Theorem B forbids simultaneous cusp-fixedness of the two halves there. On the other 34 pairs (all meridians) the structure degenerates before the point on a deterministic fine path, the other curve's translation length increasing monotonically to 10-27 at the last non-degenerate step: the wall within a sixteenth of cone angle pi on 23 and of cone angle 2 pi / 3 on 11 -- ideal points of the real path, no representation there. No candidate anywhere on the geometric path. Not covered: points of the geometric components off the real path and other components of the character varieties, which need the A-polynomial or full Ptolemy solutions of ten-tetrahedron manifolds (the Ptolemy database does not reach them). 0 of 19.  

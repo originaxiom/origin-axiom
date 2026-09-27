@@ -158,3 +158,5 @@ protocol's own prediction came true. Main's numbers are canonical; this branch's
 *Update 2026-09-26 (later):* B1382 used (the spin bit is the parent's Pin type: m004's two spin structures are the pullbacks of the Gieseking manifold's Pin⁺ and Pin⁻ structures, one each; T-SPIN-PAYMENT re-graded, E1; B1175's queued R021 residual closed); next arc B1383.
 
 *Update 2026-09-26 (later):* B1383 used (the spin bit is the square of the deck: physics fixes the Pin type — Pin⁺, from M-theory, T² = (−1)^F theories and the SM's own CP — and the bit moves to the deck's role; B1382 §4 qualified, E1; main's B933/B940 O1 answered by the 3d quaternionic structure, relayed); next arc B1384.
+
+*Update 2026-09-27:* B1384 used (the generated state space: the web seats' corrective handoff adopted; the post-checkpoint mathematics re-run 13/13 and re-derived with own code). **Label collision:** the web seats' "R40" (the determinant-corrected SL₅ parent, E8 ⊃ A4 × A4) is written **ws:R40** on this branch; the record's R40 is fc's Pisot-quartic result (B1238). New leads sL-4 (the relative SL₅ component search on M₂) and sL-5 (transition semantics). Next arc B1385.

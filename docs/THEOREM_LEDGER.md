@@ -54,6 +54,14 @@ statement appears below; SM-facing content enters only as NO-GO links.*
 > the golden substitution. So (ii) above holds for this uniqueness route only: here the ℤ² substrate (A1) is the
 > abelianized description and must declare the puncture; the words route (C1–C5) derives it. The two routes now differ in
 > price — one fragile axiom (orientation) against two.
+>
+> **Read in the generated state space (2026-09-27, B1384 — the web seats' corrective handoff, adopted).** The genesis laws define
+> a pointed generated state space X_gen, and m004 is its distinguished minimal positive mixed root. So (i)'s "A1–A6 force the
+> unbased object" is this uniqueness theorem's content: it selects the root, and does not say that the other generated states
+> are absent. (iii)'s "past the object" reads "a later generated state of the same architecture, distinguished by first cubic
+> self-hosting". (iv)'s "separates" holds inside the theorem; read ontologically, A5 *distinguishes* the positive root, while
+> −LR (m003) stays a generated signed state (−I = (L²R⁻¹)²). The orientation choice (C5/A6) stays conditional until it is
+> derived: the Gieseking state remains in the pre-selection architecture (B1380 found that minimality points to it). `frontier/B1384_the_generated_state_space`.
 
 **C1 [THEOREM — Morse–Hedlund].** Every aperiodic sequence has factor complexity
 p(n) ≥ n+1; Sturmian words achieve equality. — P019 T3; control fork B749/F7 (with the

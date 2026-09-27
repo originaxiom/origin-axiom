@@ -7842,6 +7842,7 @@
     "monoid",
     "measurement",
     "closing",
+    "choice",
     "figure_eight",
     "trace_map",
     "eisenstein",
@@ -7866,7 +7867,7 @@
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 5,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B1381": {
    "slug": "the rank one bound on every level",
@@ -7942,6 +7943,36 @@
    "obstacle_conf": 9,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1384": {
+   "slug": "the generated state space",
+   "motifs": [
+    "arrow",
+    "measurement",
+    "closing",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian"
+   ],
+   "refs": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 7,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B138": {
    "slug": "s031 principal lemma",

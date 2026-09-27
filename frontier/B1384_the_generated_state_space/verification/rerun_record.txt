@@ -1,0 +1,33 @@
+# Re-run record: the handoff's own verifiers, run unchanged on this bench (2026-09-27)
+# package: ORIGIN_AXIOM_CORRECTIVE_HANDOFF_TO_STANDARD_MODEL_SEAT_2026-09-27.zip, sha256 138d4b0623a51d2491570075f59472faad084a314b8acc8f37f1929db6acc4af; internal MANIFEST 20/20 sha256 match
+# first pass (as shipped):
+  common_parent_deck_gate_2026-09-26/verify_common_parent_deck.py rc=0 secs=6
+  induced_cover_triplet_audit_2026-09-26/verify.py rc=0 secs=1
+  induced_cover_triplet_audit_2026-09-26/verify_induced_flag.py rc=1 secs=0
+  induced_cover_triplet_audit_2026-09-26/verify_induced_m2.py rc=1 secs=0
+  induced_cover_triplet_audit_2026-09-26/verify_restriction_isomorphism.py rc=1 secs=0
+  induced_cover_triplet_audit_2026-09-26/verify_triplet_ext.py rc=1 secs=0
+  no_unforced_collapse_audit/verify.py rc=0 secs=1
+  parabolic_cusp_nonparabolic_core_gate_2026-09-26/verify_global_sym4_control.py rc=0 secs=7
+  parabolic_cusp_nonparabolic_core_gate_2026-09-26/verify_radial_gate.py rc=0 secs=1
+  relative_sl5_structured_sieve_2026-09-26/verify.py rc=0 secs=0
+  relative_sl5_structured_sieve_2026-09-26/verify_exact_native_mixed_ext.py rc=1 secs=0
+  relative_sl5_structured_sieve_2026-09-26/verify_exact_order5_twist.py rc=1 secs=10
+  transition_semantics_audit_2026-09-26/verify.py rc=0 secs=0
+  ALLDONE
+# second pass (the six scripts that hard-code the web seat's /mnt/data sandbox, with /mnt/data mapped to the shipped files;
+#   two mappings inferred from content: induced_m2_exact.py = verify_induced_m2.py (the script's own comment calls it the helper),
+#   exact_k15_relative_sl5_fast.py = verify_exact_order5_twist.py (the only shipped file carrying the '# Base figure-eight Riley' marker it splits on)):
+  induced_cover_triplet_audit_2026-09-26/verify_induced_m2.py rc=0 secs=49
+  induced_cover_triplet_audit_2026-09-26/verify_induced_flag.py rc=0 secs=12
+  induced_cover_triplet_audit_2026-09-26/verify_triplet_ext.py rc=0 secs=16
+  induced_cover_triplet_audit_2026-09-26/verify_restriction_isomorphism.py rc=0 secs=52
+  relative_sl5_structured_sieve_2026-09-26/verify_exact_order5_twist.py rc=0 secs=10
+  relative_sl5_structured_sieve_2026-09-26/verify_exact_native_mixed_ext.py rc=0 secs=1
+  ALLDONE
+# regenerated outputs against the shipped ones:
+  induced_m2_exact_result.json == INDUCED_M2_RESULTS.json: IDENTICAL
+  induced_flag_result.json == INDUCED_FLAG_RESULTS.json: IDENTICAL
+  restriction_isomorphism_result.json == RESTRICTION_ISOMORPHISM.json: IDENTICAL
+  exact_k15_relative_sl5.json == EXACT_ORDER5_TWIST.json: IDENTICAL
+  induced_ext_h1_result.json vs TRIPLET_EXT_RESULTS.json: same numbers, different field names -- (h0,h1,t0,t1,r1) = (0,3,3,6,3) in all six sectors in both

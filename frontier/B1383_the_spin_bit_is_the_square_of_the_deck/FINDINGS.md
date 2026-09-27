@@ -108,6 +108,12 @@ CP-odd quantity would be a section of the orientation line bundle L. J is one of
 section, so J would have to vanish on a hypersurface Poincaré-dual to w₁: a CP domain wall somewhere in the universe. That is the
 standard line-bundle fact, noted here and not computed further.
 
+> **Corrected 2026-09-27 (B1384 — the generated-state-space convention).** "Read physically, A6 … excludes role (a)" treated a
+> declared selector as settled. A6 is exactly the axiom sL-3 is trying to derive, and the Gieseking parent stays in the
+> pre-selection architecture. So role (a) is excluded **only conditionally on A6**. The spin bit and the orientation axiom are one
+> question, **open in both directions**: derive A6 and the realization table decides the lift; fail to, and role (a) — B1141's
+> lift — stays live. `frontier/B1384_the_generated_state_space`.
+
 ## 4. What this changes in the record
 
 1. **B1382 §4 is qualified (an E1 instance).** "*The lift B1141 selected is the one Kramers fermions … would require*" holds in role

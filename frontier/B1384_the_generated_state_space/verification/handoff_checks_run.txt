@@ -1,0 +1,8 @@
+S0  (L^2 R^-1)^2 = -I -> -LR (m003) is generated once inverses are admitted
+S1  common SL5: {'centraliser_roots': 20, 'e6_roots': 72, 'family': 6, 'mixed': 12} -> c_E8(SM) = structure A4 + u1_Y; in an E6 through the gauge A4 the SM centraliser is {+-beta}, and the structure A4 = sl2_beta + A2_family + 12 mixed
+S2  parabolic lemma: {'X cancels': True, 'normaliser = P_{2,3} on': 60}
+S3  Shapiro + Mackey on own covers (p = 601, characters of order dividing 40): {'seeds': 30, 'with I != 0': 6, 'unipotent T^3 != 1 with (T^3-1)^2 = 0': 6, 'draws': 4547}
+S4  p = 601: Sym^4(rho_geo) on M2 has I = 0; its four cusp-trivial order-5 twists: [((0, 1, 1, 2, 1), (0, 1, 1, 2, 1), 0)]
+S4  p = 1201: Sym^4(rho_geo) on M2 has I = 0; its four cusp-trivial order-5 twists: [((0, 1, 1, 2, 1), (0, 1, 1, 2, 1), 0)]
+S4  p = 1321: Sym^4(rho_geo) on M2 has I = 0; its four cusp-trivial order-5 twists: [((0, 1, 1, 2, 1), (0, 1, 1, 2, 1), 0)]
+DONE

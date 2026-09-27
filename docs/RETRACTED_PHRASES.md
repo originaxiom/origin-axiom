@@ -171,3 +171,9 @@ The `retraction-sweep` gate stays clean: registered informally (this section), a
 | "T² = (−1)^F, the Standard Model's" / "B1141's lift is the one Kramers fermions would require" / "the spin bit is bought by the Kramers property of fermions" | B1382 §4, THE_SM_VERDICT, OPEN_LEADS sL-3 (2026-09-26) | the SM has no T (J ≠ 0); Pin⁺ selects B1141's lift only when the deck is gauged (the parent itself a background), and selects the other lift when the deck is part of the SM's CP on the oriented carrier. Use: "the SM's CP, when a symmetry, is Pin⁺; the spin bit is decided by the deck's role". |
 
 The `retraction-sweep` gate stays clean: registered informally (this section), as for B1376, B1379 and B1382 above.
+
+## Currency addition 2026-09-27 (B1384 — the generated state space)
+
+| "past the object" (of m010) / "the axiom that chooses m004" / "A6 excludes the gauged role" | B1379, B1380, B1383, OPEN_LEADS sL-3, THE_SM_VERDICT (2026-09-26) | a declared selector's choice is conditional, not the alternative's absence. Use: "m010, a later generated state of the same architecture"; "m004, conditional on the orientation axiom"; "role (a) is excluded only conditionally on A6". |
+
+The `retraction-sweep` gate stays clean: registered informally (this section), as for B1376, B1379, B1382 and B1383 above.
